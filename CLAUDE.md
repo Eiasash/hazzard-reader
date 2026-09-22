@@ -6,7 +6,7 @@ Eias's phone study site for Hazzard's Geriatric Medicine, 8e. The book is canoni
 ## State (23 Sep 2026)
 - 32 chapters live. Lane-reviewed: 46, 47, 58, 60, 61, 99. Fast builds: 42, 43, 44, 55, 59, 63, 87, 45, 51, 52, 57, 68, 81, 97, 98, 101, 102, 104, 105, 108, 65, 75, 76, 77, 83, 88.
 - A study page (summary + 15-question drill) for each of the 32 chapters, plus a Hebrew Israel-law block (`?chapter=law` / `?chapter=laws`) — primary-source Israeli law and Brookdale 65+ data (2025 edition), not from Hazzard. Law block eyebrow reads "PRIMARY LAW", not HAZZARD.
-- Cache v14, commit `2f5bd15`.
+- Cache v15, commit `08bfbc7`.
 - **Known lag:** a build-agent's "done" signal (study.md appearing) can fire before it's actually finished. In the 23 Sep overnight batch this wasn't cosmetic — ch77 shipped live (v10 through v13) with 9 tables flattened into garbled text before the actual fix landed, ~40 min after the agent's own Workflow completion notification would have said so. **The Workflow tool's own completion notification is the real done-signal, not file existence** — if a script's return value hasn't arrived yet, the chapter isn't done, no matter what's on disk. After any parallel-subagent chapter build, also wait for `git status` to hold stable for ~40s before the final commit.
 
 ## Known defects in the shared build tooling
