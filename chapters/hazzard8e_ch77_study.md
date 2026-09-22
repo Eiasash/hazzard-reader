@@ -28,7 +28,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - Watchman LAA occlusion: warfarin to INR **2–3** (p1203) for **45 days** (p1203) post-implant, then stop if TEE confirms complete LAA closure.
 
 **DOACs** (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)
-- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID with concomitant verapamil, age ≥80, or increased GI-bleeding risk) — RE-LY; **34%** ↓ stroke/systemic embolism at 150 mg vs warfarin, similar major bleeding (p1204, image). Reversal: idarucizumab.
+- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID with concomitant verapamil, age ≥80, or increased GI-bleeding risk) — RE-LY, dose-dependent results: **150 mg** → **34%** ↓ stroke/SE vs warfarin, similar major bleeding; **110 mg** → similar stroke/SE, **20%** ↓ major bleeding (p1204, image). Reversal: idarucizumab.
 - **Rivaroxaban** (Xarelto) 20 mg daily (15 mg if CrCl 30–49) — ROCKET-AF; noninferior to warfarin for stroke prevention, but only a similar (not lower) major-bleeding rate vs warfarin (p1204, image). Reversal: andexanet alfa.
 - **Apixaban** (Eliquis) 5 mg BID (2.5 mg BID if ≥2 of: age ≥80, weight <60 kg, Cr ≥1.5 mg/dL) — ARISTOTLE; **21%** ↓ stroke/SE and **31%** ↓ major bleeding vs warfarin (p1205, image).
 - **Endoxaban / edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48; noninferior for stroke/SE, **20%** ↓ major bleeding vs warfarin (p1205, image).
@@ -44,9 +44,9 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - PPM-dependent patients may die immediately on deactivation; non-dependent patients need monitoring for symptoms (p1200).
 
 **Exam traps / book notes**
-- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed: score **7** (p1202, image) points → **9.6** (p1202, image) %/year, but score **8** (p1202, image) points → **6.7** (p1202, image) %/year (lower than score 7, and equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point.
+- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips **twice**: score **6** → **9.8** %/year, score **7** → **9.6** %/year (a small dip), then score **8** → **6.7** %/year (a bigger dip, equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.
 - Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199, image, Table 77-5) for the classic HF/dyssynchrony indication vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway (running text) — easy to conflate on a question stem.
-- Not all DOACs reduce bleeding vs warfarin: apixaban/dabigatran/edoxaban show less major bleeding, but rivaroxaban shows only a similar major-bleeding rate to warfarin (p1204, image).
+- Not all DOACs reduce bleeding vs warfarin: apixaban and edoxaban show less major bleeding at their studied doses; dabigatran only at **110 mg** (150 mg shows similar bleeding to warfarin, not less); rivaroxaban shows only a similar major-bleeding rate to warfarin at any dose (p1204, image).
 
 ## Drill
 

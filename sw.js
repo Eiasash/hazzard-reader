@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v15';
+const CACHE_VERSION = 'v16';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const RUNTIME_CACHE = 'hazzard-runtime-' + CACHE_VERSION;
 const SHELL_URL = './index.html';

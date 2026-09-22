@@ -41,6 +41,7 @@ Verified printed page ranges: 42 = 615–632, 43 = 633–642, 44 = 643–664, 55
 - Odd heading casing or hyphen joins here and there in the fast-build chapters.
 - Law page header reads "CHAPTER law / HAZZARD" — wrong, it's primary law, not Hazzard.
 - Law page: the English note's full stop wraps to the start of its line — a bidi rendering artifact from English text inside an RTL block.
+- ch77: the Table 77-9 crops (`hazzard8e_ch77_table77-9_p1204.png`/`p1205.png`) carry large blank panel areas at the bottom/top respectively — trim them.
 
 ## Site behavior (not a bug, don't chase it)
 - On first load after a deploy, the previous service worker can still be controlling the page and serves the old cached manifest (no new chapter entry), so the reader falls back to its default chapter. One reload picks up the new chapter. Confirmed 22 Sep on `?chapter=law` right after the v9 deploy — resolved on second navigation with no code change. This is the SW updating on its own normal cadence, not a fetch bug; don't "fix" it by reworking the SW's fetch handler unless Eias asks.
