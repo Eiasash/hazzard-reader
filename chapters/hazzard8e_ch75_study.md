@@ -1,0 +1,187 @@
+Study summary of Chapter 75; the book and the full chapter are the reference.
+
+# Chapter 75 Study: Valvular Heart Disease
+
+## Summary
+
+**Aortic stenosis (AS)**
+- Prevalence **2–9%** of older patients; leading clinically significant valvular disorder in older adults (p1150). **90%** of AS in patients >65y is calcific degeneration of a tricuspid valve (p1150).
+- Valve sclerosis (thickening, no obstruction): **25%** of >65y, **48%** of >75y; progresses to frank stenosis in **~10%** within 5 years (p1150).
+- Average progression: jet velocity **+0.3 m/s/yr**, valve area **−0.1 cm²/yr** (p1150).
+- Table 75-1 severe cutoffs: **AVA < 1.0 cm²**, velocity **> 4 m/s**, mean gradient **> 40 mmHg** (p1150).
+- Classic triad once symptomatic: angina (**50%** 5-yr survival untreated), syncope (**50%** 3-yr mortality), heart failure (**50%** mortality at 2 yr — worst prognosis) (p1151).
+- Sudden death <1% while truly asymptomatic (p1150); epistaxis/ecchymoses in **20%** from acquired von Willebrand deficiency (Heyde syndrome) (p1151).
+- Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, flat BP response, ST changes) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151–1152).
+- 5-yr symptom-free probability even in severe AS averages only **50%** (p1152).
+- BAV: enlargement rarely **> 1.0 cm²**, **10%** complication rate, restenosis by 6mo–1yr, 1-yr mortality **35–50%** — bridge/palliation only, not a replacement substitute (p1152).
+- SAVR bioprosthetic structural deterioration **~10%** at 15–20 yr; Medicare operative mortality **8.8%** overall, **6.0%** at high-volume centers (p1152).
+- Referral bias: **41%** of >70y and **33%** of >75y with severe symptomatic AS were not offered valve replacement in separate European cohort studies (p1152).
+- TAVR "prohibitive SAVR risk" = STS-PROM **> 50%**; valve durability data only confirmed to **5 years** (p1153).
+
+**Aortic insufficiency (AI)**
+- Chronic AI in **20–30%** of >65y (p1153).
+- Asymptomatic, normal LV function: **0.2%**/yr sudden death, **3.5%**/yr progress to symptoms, **6%**/yr develop LV dysfunction or symptoms; once LV dysfunction develops, **>25%**/yr progress to symptomatic disease (p1153).
+- Symptomatic mortality **>10%**/yr for angina, **>20%**/yr for heart failure (medical management only) (p1154).
+- NYHA III–IV: **25%**/yr mortality; NYHA II: **6%**/yr (p1153).
+- LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
+- Table 75-5 severe cutoffs: jet-width/LVOT ratio **≥ 65%**, vena contracta **≥ 0.6 cm**, regurgitant volume **≥ 60 mL/beat**, EROA **≥ 30 mm²** (p1154).
+- Surgery considered once LVESD **> 50 mm** (dilated ventricle) or **> 65 mm** even if asymptomatic and low surgical risk (confirmed consistent on both Table 75-6 and body text) (p1155).
+- LV-dysfunction operative mortality **at least 10%**, with lower postsurgical survival (p1155).
+
+**Mitral stenosis (MS)**
+- **>90%** rheumatic in etiology; normal MVA **4.0–5.0 cm²**, shrinks **0.09–0.32 cm²/yr**; symptoms usually appear once area falls to **2.5–1.5 cm²** (p1156).
+- Symptom onset lags rheumatic fever by **20–40 years** (p1156).
+- Once symptomatic, 10-yr survival only **50–60%**; asymptomatic 10-yr survival **80%**; unoperated despite meeting surgical criteria: 10-yr survival **< 30%** (p1156).
+- Table 75-7 severe cutoffs: **MVA < 1.0 cm²**, PA pressure **> 50 mmHg**, mean gradient **> 10 mmHg** (p1156).
+- **30–40%** of older MS patients develop AF; with AF, 10-yr survival **25%** vs **46%** if sinus rhythm maintained (p1157).
+- Systemic emboli in **20%** of patients (p1157).
+- Percutaneous balloon valvuloplasty: **90%** get symptomatic relief; freedom from complications/death **50–65%** at 7 yr (up to **80–90%** with favorable pre-procedure score) (p1157).
+- Table 75-8 procedural risks: LV perforation **0.5–4.0%**, systemic embolization **0.5–3.0%**, MI **0.3–0.5%**, death **1.0–2.0%** (p1157–1158).
+- Surgical operative mortality up to **20%** in older patients with comorbidities and pulmonary hypertension (p1158).
+
+**Mitral regurgitation (MR)**
+- **~2%** of the population; mitral valve prolapse (**1–2.5%** of population) is the most common cause (p1158).
+- Flail leaflet, severe chronic MR: **7%**/yr mortality (p1158).
+- 10-yr survival by EF: **32%** if EF < 50%, **53%** if borderline EF 50–60%, **70%** if EF > 60% — all untreated (p1158).
+- Table 75-10 severe cutoffs: vena contracta **≥ 0.7 cm**, regurgitant volume **≥ 60 mL/beat**, RF **≥ 50%**; EROA row prints "**≥ 40**" cm² — almost certainly a misprint for ≥0.40 (see exam-trap note) (p1158).
+- Repair vs replacement durability: freedom from reoperation **7–10%** at 10 yr for repair (p1159).
+- Operative mortality: **2%** for repair vs **6%** for replacement overall; a 292-patient >70y cohort found **0.7%** in-hospital mortality for repair vs **14%** for replacement (p1160).
+- Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; both as printed.
+
+**Perioperative risk, anticoagulation, prosthetic valves**
+- Table 75-12 (STS-PROM): low risk **< 4%**, intermediate **4–8%**, high **> 8%**, prohibitive = risk of death/morbidity **> 50%** (p1160).
+- Antibiotic prophylaxis (Table 75-14): **amoxicillin 2 g PO** 1h pre-procedure (standard); penicillin-allergic: **clindamycin 600 mg** or **cephalexin 2 g** PO; unable to take oral: **ampicillin 2 g IV/IM**; unable to take oral + PCN-allergic: **clindamycin 600 mg IV** or **cefazolin 1 g IV/IM** (p1161). Given only for gingival/periapical/oral-mucosal dental procedures or active-infection surgery, not routine nondental procedures (p1161).
+- Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only**; aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
+- Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
+- INR **> 5**: hold warfarin + oral vitamin K **1–2.5 mg**, recheck daily until < 5 (p1161).
+- Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; bridge with heparin once INR **< 2** if high-risk (p1162).
+- Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1163).
+- Mitral repair vs aortic-valve repair durability: mitral repair **85%**... aortic valve repair for normal leaflets has **85%** freedom from reoperation at 10 years (p1163).
+
+**Exam traps / book self-contradictions**
+- Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value — as printed, not corrected in this build (p1158).
+- Mitral repair-vs-replacement operative mortality is given twice with different numbers: **2% vs 6%** overall / **0.7% vs 14%** in a >70y cohort (p1160), and later **1–2% vs 5.4–6.4%** (p1163) — both as printed.
+- MS "usually develop symptoms" once MVA falls to **2.5 to 1.5 cm²** (p1156), which overlaps Table 75-7's own **mild** cutoff (>1.5 cm²) — read literally, symptom onset and "mild" grade can coincide.
+- AI surgical trigger for LVESD is stated twice with different thresholds on adjacent pages: "> 50 mm" (dilated ventricle, a *consideration*) vs "> 65 mm" (asymptomatic, low-risk, a *possible indication*) — not contradictory once you note these are different tiers of the same table (Table 75-6), but easy to conflate under exam pressure (p1155).
+
+## Drill
+
+**1. In older adults, what fraction of severe aortic stenosis is caused by calcific degeneration of a trileaflet valve, and what age is a bicuspid valve's stenosis typically symptomatic?**
+
+<details><summary>Answer</summary>
+
+90% of AS in patients over 65 is calcific degeneration of a tricuspid valve; bicuspid-valve stenosis usually presents earlier, in the fourth to sixth decade (p1150).
+
+</details>
+
+**2. Name the classic triad of symptoms once aortic stenosis becomes symptomatic, and rank them by average survival without valve replacement.**
+
+<details><summary>Answer</summary>
+
+Angina (~50% 5-yr survival), syncope (~50% 3-yr mortality), and heart failure (~50% mortality at 2 years — the worst prognosis of the three) (p1151).
+
+</details>
+
+**3. On exercise testing, what result predicts a poor 2-year symptom-free survival in "asymptomatic" severe aortic stenosis, and what are the two survival rates?**
+
+<details><summary>Answer</summary>
+
+Development of symptoms, failure to raise systolic BP by 20 mmHg, or ST-segment depression predicts a 19% 2-year symptom-free survival, versus 85% if none of these occur (p1151–1152).
+
+</details>
+
+**4. What STS-PROM cutoff defines "prohibitive" surgical risk for TAVR consideration, and what is the durability caveat for TAVR valves?**
+
+<details><summary>Answer</summary>
+
+STS Predicted Risk of Morbidity and Mortality > 50%; TAVR valve durability data are only confirmed out to 5 years, so younger/lower-risk patients may need a later valve-in-valve reintervention (p1153).
+
+</details>
+
+**5. What percentage of patients older than 70 with severe symptomatic aortic stenosis were not offered surgery in the cited European study?**
+
+<details><summary>Answer</summary>
+
+41% (corroborated by a second multicenter study showing 33% of patients over 75 not offered replacement) (p1152).
+
+</details>
+
+**6. What is the annual incidence of LV dysfunction or symptoms in asymptomatic aortic insufficiency with an end-systolic dimension greater than 50 mm, versus 40–50 mm?**
+
+<details><summary>Answer</summary>
+
+19%/year if LVESD > 50 mm, versus 6%/year if LVESD is 40–50 mm (p1153).
+
+</details>
+
+**7. At what LVESD threshold should surgery be considered in an asymptomatic, low-surgical-risk patient with severe aortic regurgitation, even without LV dysfunction?**
+
+<details><summary>Answer</summary>
+
+LVESD exceeding 65 mm, because of the high risk of sudden death (p1155).
+
+</details>
+
+**8. What mitral valve area range typically corresponds to symptom onset in mitral stenosis, and what is the normal MVA?**
+
+<details><summary>Answer</summary>
+
+Symptoms usually develop once the valve area falls to 2.5–1.5 cm²; normal MVA is 4.0–5.0 cm² (p1156).
+
+</details>
+
+**9. In mitral stenosis, how does 10-year survival compare between patients who remain in sinus rhythm and those who develop atrial fibrillation?**
+
+<details><summary>Answer</summary>
+
+46% 10-year survival in sinus rhythm versus 25% with atrial fibrillation (p1157).
+
+</details>
+
+**10. What echocardiographic scoring system selects patients for percutaneous mitral balloon valvuloplasty, and what features give the most favorable (lowest) score?**
+
+<details><summary>Answer</summary>
+
+The Wilkins Score; the lowest (most favorable) scores go to valves with the greatest leaflet mobility, least subvalvular thickening, most normal leaflet thickness, and least calcification (p1157).
+
+</details>
+
+**11. What is the most common cause of mitral regurgitation, and roughly what fraction of the population does it affect?**
+
+<details><summary>Answer</summary>
+
+Mitral valve prolapse, present in 1% to 2.5% of the population (p1158).
+
+</details>
+
+**12. Compare operative mortality for mitral valve repair versus replacement, both in the overall population and in a cohort of patients older than 70.**
+
+<details><summary>Answer</summary>
+
+Overall: 2% (repair) vs 6% (replacement). In a 292-patient cohort older than 70: 0.7% (repair) vs 14% (replacement) in-hospital mortality (p1160).
+
+</details>
+
+**13. What INR range and duration of anticoagulation apply to a bioprosthetic aortic valve without additional risk factors?**
+
+<details><summary>Answer</summary>
+
+INR 2–3, for only 3 months after implantation (versus lifelong anticoagulation for a mechanical valve) (p1161).
+
+</details>
+
+**14. Before elective surgery, how long can warfarin be held preoperatively in a patient with a mechanical aortic valve and no risk factors, and when is it restarted — with or without heparin bridging?**
+
+<details><summary>Answer</summary>
+
+Held 48–72 hours preoperatively and restarted within 24 hours postoperatively, without heparin bridging, if there are no additional risk factors (p1162).
+
+</details>
+
+**15. What is the standard oral antibiotic and dose for endocarditis prophylaxis in a penicillin-allergic patient able to take oral medication?**
+
+<details><summary>Answer</summary>
+
+Clindamycin 600 mg PO (or cephalexin 2 g PO), given 1 hour before the procedure (p1161).
+
+</details>
