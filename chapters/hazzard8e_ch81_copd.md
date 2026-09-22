@@ -296,15 +296,17 @@ The goals of care for stable COPD are to relieve and minimize symptoms, optimize
 - Is the patient capable of maintaining and cleaning the delivery device?
 - Does the patient have a sufficient peak inspiratory flow?
 
+<a id="p1248"></a>**[p. 1248]**
+
 ![Figure 81-2](hazzard8e_ch81_figure81-2.png)
 
 > *FIGURE 81-2. Algorithm for inhaler selection. DPI, dry powder inhaler; EXIT-25, a 25-item cognitive test (executive interview) that evaluates executive function (the higher the score, the worse the cognitive impairment); MMSE, Mini-Mental Status Examination (the lower the score, the worse the cognitive impairment); PIF, peak inspiratory flow; pMDI, pressurized metered-dose inhaler; SMI, soft-mist inhaler.*
 
 > Highlighting is the owner's annotation, not the book's.
 
-Albuterol is an inhaled short-acting β2-agonist (SABA) with a fast onset of action. It is usually the first bronchodilator used, serving primarily as _rescue therapy_ (as needed, rather than regularly scheduled), and is commonly prescribed as a handheld pressurized metered-dose inhaler (pMDI). Albuterol is also available as a nebulizer, an alternative for older patients who have difficulties using handheld inhalers and/or who may benefit from the mucus-mobilizing properties of this therapy. Patients/caregivers should be advised to always have albuterol readily available in the event of acute worsening of symptoms (dyspnea) that does not improve with rest and use of slow, pursed lips breathing. Individuals with visual impairment should mark albuterol pMDIs to avoid confusion with other inhalers. Common side effects of SABAs are listed in **Table 81-10** , with concerns especially raised in people with COPD and concurrent cardiovascular disease (especially hypertension or tachyarrhythmias), coexisting asthma (mortality), and excessive dosing.
-
 **_Short-Acting Bronchodilators_** Bronchodilators are a mainstay of the treatment of stable COPD, irrespective of clinical phenotype, as they achieve improvements in symptoms, exercise capacity, and airflow obstruction. Inhaled bronchodilators are preferred over oral agents, based on efficacy and side effects, and aging itself does not reduce the bronchodilator response. Notably, bronchodilators are effective in spite of patients’ fixed, irreversible airflow obstruction; they reduce dynamic hyperinflation and end-expiratory lung volume and improve inspiratory capacity and patients’ breathing pattern.
+
+Albuterol is an inhaled short-acting β2-agonist (SABA) with a fast onset of action. It is usually the first bronchodilator used, serving primarily as _rescue therapy_ (as needed, rather than regularly scheduled), and is commonly prescribed as a handheld pressurized metered-dose inhaler (pMDI). Albuterol is also available as a nebulizer, an alternative for older patients who have difficulties using handheld inhalers and/or who may benefit from the mucus-mobilizing properties of this therapy. Patients/caregivers should be advised to always have albuterol readily available in the event of acute worsening of symptoms (dyspnea) that does not improve with rest and use of slow, pursed lips breathing. Individuals with visual impairment should mark albuterol pMDIs to avoid confusion with other inhalers. Common side effects of SABAs are listed in **Table 81-10** , with concerns especially raised in people with COPD and concurrent cardiovascular disease (especially hypertension or tachyarrhythmias), coexisting asthma (mortality), and excessive dosing.
 
 The anticholinergic ipratropium is a short-acting inhaled bronchodilator, with little systemic absorption. It is indicated as _maintenance therapy_ (see **Table 81-10** ), but adherence is problematic because it requires frequent dosing (4 times daily). Hence, ipratropium is often combined with
 
