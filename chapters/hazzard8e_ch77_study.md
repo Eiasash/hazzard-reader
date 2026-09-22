@@ -5,38 +5,38 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 ## Summary
 
 **Syncope in older adults**
-- Sharp rise in syncope incidence after **age 70**; worse outcomes (higher hospitalization/death) than in younger patients (p1193).
-- **Orthostatic hypotension (OH)**: prevalence **30%** in those >75y, up to **50%** in frail nursing-home residents. Defined as SBP drop **≥ 20 mmHg** or DBP drop **≥ 10 mmHg** on standing (p1193). Four subtypes — initial (within 15s), classic (within 3 min), delayed (>3 min), neurogenic (autonomic-failure-driven) (p1194).
-- **Vasovagal syncope (VVS)**: 3 response types — cardioinhibitory (pause **≥ 3 s** or HR **< 40 bpm for >10 s**), vasodepressor (SBP falls **≥ 50 mmHg**), mixed (p1194). Dual-chamber pacing reasonable for age **> 40y** with recurrent VVS and spontaneous pauses.
-- **Carotid sinus syndrome**: CSH prevalence up to **30%** among older adults with unexplained falls; CSS = **≥ 3-second pause** or SBP drop **≥ 50 mmHg** on carotid sinus massage, plus symptoms (p1195).
+- Sharp rise in syncope incidence after **age 70** (p1193); worse outcomes (higher hospitalization/death) than in younger patients.
+- Orthostatic hypotension (OH): prevalence **30%** (p1193) in those >75y, up to **50%** (p1193) in frail nursing-home residents. Defined as SBP drop **≥ 20 mmHg** (p1193) or DBP drop **≥ 10 mmHg** (p1193) on standing. Four subtypes (p1194): initial (within 15s), classic (within 3 min), delayed (>3 min), neurogenic (autonomic-failure-driven).
+- Vasovagal syncope (VVS) has three response types (p1194): cardioinhibitory = pause **≥ 3 s** (p1194) or HR **< 40 bpm** (p1194) for more than 10s; vasodepressor = SBP falls **≥ 50 mmHg** (p1194); mixed. Dual-chamber pacing reasonable for age **> 40y** (p1194) with recurrent VVS and spontaneous pauses.
+- Carotid sinus syndrome: CSH prevalence up to **30%** (p1195) among older adults with unexplained falls; CSS = **≥ 3-second** (p1195) pause or SBP drop **≥ 50 mmHg** (p1195) on carotid sinus massage, plus symptoms.
 
 **Bradyarrhythmia**
 - Two mechanisms: sinus node dysfunction (SND) and atrioventricular block (AVB) (p1194).
 - SND (historically "sick sinus syndrome"): sinus bradycardia, sinus arrest, or SA exit block (p1195); tachy-brady syndrome common in older SND patients.
-- **More than 80%** of permanent pacemakers (PPM) are placed in patients **≥ 65y**; SND is the **leading indication** for PPM in this age group (p1193).
-- AVB: **3 degrees** — first degree (PR **> 200 ms**), second degree (Mobitz I/Wenckebach vs Mobitz II), third degree/complete (p1198).
-- **CRT (cardiac resynchronization) highest-likelihood criteria**: **LVEF ≤ 35%**, sinus rhythm, LBBB, **QRS ≥ 150 ms**, NYHA II/III/ambulatory IV (p1199). A *separate* AVB-driven pathway favors CRT over conventional RV pacing when **LVEF < 50%** and ventricular pacing is expected **> 40%** of the time — a different LVEF cutoff from the HF/dyssynchrony CRT indication above (p1199).
-- Mode Selection Trial: RV pacing **≥ 40%** of the time → **2.6-fold** increase in HF hospitalizations (p1199).
-- **TAVR**: new LBBB in **19–55%**, high-degree AVB in **10%** after TAVR; up to **30%** of new-LBBB patients have their first high-degree AVB episode **after discharge** (p1200).
+- **More than 80%** (p1193) of permanent pacemakers (PPM) are placed in patients **65 years** or older (p1193); SND is the leading indication for PPM in this age group.
+- AVB has three degrees (p1198) — first degree (PR **> 200 ms** (p1198)), second degree (Mobitz I/Wenckebach vs Mobitz II), third degree/complete.
+- CRT highest-likelihood-to-respond criteria (p1199): **LVEF ≤ 35%** (p1199), sinus rhythm, LBBB, **QRS ≥ 150 ms** (p1199), NYHA II/III/ambulatory IV. A *separate* AVB-driven pathway favors CRT over conventional RV pacing when **LVEF < 50%** (p1199) and ventricular pacing is expected **≥ 40%** (p1199) of the time — a different LVEF cutoff from the HF/dyssynchrony CRT indication above.
+- Mode Selection Trial: RV pacing **≥ 40%** (p1199) of the time → **2.6-fold** (p1199) increase in HF hospitalizations.
+- TAVR: new LBBB in **19–55%** (p1200), high-degree AVB in **10%** (p1200) after TAVR; up to **30%** (p1200) of new-LBBB patients have their first high-degree AVB episode after discharge.
 
 **Atrial fibrillation (AF)**
-- Rate control target HR **80–110 bpm**; β-blockers/non-dihydropyridine CCBs first-line; digoxin second-line (narrow therapeutic index) (p1201).
-- AFFIRM trial: neither rate nor rhythm control proven superior overall; AAD therapy → **higher all-cause mortality** in the >70y subgroup (p1201).
-- CABANA trial (**n = 2204**): catheter ablation not superior to AAD for the primary composite endpoint at 5y, but reduced AF recurrence and the combined death/CV-hospitalization secondary endpoint (p1202).
-- **Stroke risk is 5× higher** with AF (p1202). **CHA2DS2-VASc** max score **9**; anticoagulate if **≥ 2 in men / ≥ 3 in women** (p1202). **HAS-BLED**: **0–2 = low risk**, **3–9 = high risk** (p1202).
-- DOACs preferred over warfarin as first-line stroke prevention; **apixaban and edoxaban** show **lower major-bleeding risk** in patients ≥75y, while **full-dose dabigatran and rivaroxaban** carry **increased GI bleeding risk** (PPI recommended) (p1202).
-- Watchman LAA occlusion: warfarin to INR **2–3** for **45 days** post-implant, then stop if TEE confirms complete LAA closure (p1203).
+- Rate control target HR **80–110 bpm** (p1201); β-blockers/non-dihydropyridine CCBs first-line; digoxin second-line (narrow therapeutic index).
+- AFFIRM trial: AAD therapy associated with higher all-cause mortality in the subgroup **older than 70** (p1201).
+- CABANA trial (**n = 2204** (p1202)) patients: catheter ablation not superior to AAD for the primary composite endpoint at 5y, but reduced AF recurrence and the combined death/CV-hospitalization secondary endpoint.
+- **Stroke risk is 5× higher** (p1202) with AF. CHA2DS2-VASc: anticoagulate if **≥ 2** (p1202) points in men or **≥ 3** (p1202) in women; maximum score **9** (p1202). HAS-BLED: **0–2** (p1202) score = low risk, **3–9** (p1202) score = high risk.
+- DOACs preferred over warfarin as first-line stroke prevention; apixaban and edoxaban show lower major-bleeding risk in patients **75 years** or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (PPI recommended).
+- Watchman LAA occlusion: warfarin to INR **2–3** (p1203) for **45 days** (p1203) post-implant, then stop if TEE confirms complete LAA closure.
 
-**DOACs (Table 77-9, p1204–1205)**
-- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID if frail/bleeding-risk or age ≥80/on verapamil) — RE-LY; **34%** ↓ stroke/SE at 150 mg vs warfarin, similar major bleeding. Reversal: **idarucizumab**.
-- **Rivaroxaban** (Xarelto) 20 mg daily (15 mg if CrCl 30–49) — ROCKET-AF; noninferior to warfarin, **similar** (not lower) major-bleeding rate. Reversal: andexanet alfa.
-- **Apixaban** (Eliquis) 5 mg BID (2.5 mg BID if ≥2 of: age ≥80, weight <60 kg, Cr ≥1.5 mg/dL) — ARISTOTLE; **21%** ↓ stroke/SE, **31%** ↓ major bleeding vs warfarin.
-- **Endoxaban/edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48; noninferior for stroke/SE, **20%** ↓ major bleeding vs warfarin.
+**DOACs** (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)
+- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID if frail/bleeding-risk or age ≥80/on verapamil) — RE-LY; **34%** ↓ stroke/systemic embolism at 150 mg vs warfarin, similar major bleeding (p1204, image). Reversal: idarucizumab.
+- **Rivaroxaban** (Xarelto) 20 mg daily (15 mg if CrCl 30–49) — ROCKET-AF; noninferior to warfarin for stroke prevention, but only a similar (not lower) major-bleeding rate vs warfarin (p1204, image). Reversal: andexanet alfa.
+- **Apixaban** (Eliquis) 5 mg BID (2.5 mg BID if ≥2 of: age ≥80, weight <60 kg, Cr ≥1.5 mg/dL) — ARISTOTLE; **21%** ↓ stroke/SE and **31%** ↓ major bleeding vs warfarin (p1205, image).
+- **Endoxaban / edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48; noninferior for stroke/SE, **20%** ↓ major bleeding vs warfarin (p1205, image).
 
 **Other tachyarrhythmias**
-- Atrial flutter: cavotricuspid-isthmus ablation success **90–95%**, complications **< 1–2%** (p1206).
-- SVT: AVNRT is the most common type in older adults. Vagal maneuvers/adenosine first-line acute; ablation success **85–>95%**, major complications **< 2–3%** (p1206).
-- ICD primary SCD prevention: ischemic CM, LVEF **≤ 35%** NYHA II–III (or **< 30%** NYHA I) on GDMT, **>40 days post-MI / >90 days post-revascularization**; or nonischemic CM LVEF **≤ 35%** NYHA II–III despite GDMT (p1206–1207).
+- Atrial flutter: cavotricuspid-isthmus ablation success **90–95%** (p1206), complications **< 1–2%** (p1206).
+- SVT: AVNRT is the most common type in older adults. Vagal maneuvers/adenosine first-line acute; ablation success **85%** (p1206) to better than **95%** (p1206), major complications **< 2–3%** (p1206).
+- ICD primary SCD prevention: ischemic CM, LVEF **≤ 35%** (p1207) NYHA II–III (or LVEF **< 30%** (p1207) NYHA I) on GDMT, more than **40 days** (p1206) post-MI or more than **90 days** (p1206) post-revascularization; or nonischemic CM LVEF **≤ 35%** (p1207) NYHA II–III despite GDMT.
 - ICD secondary prevention: cardiac arrest from VT/VF not from a reversible cause; spontaneous sustained VT with structural heart disease; or unexplained syncope with inducible hemodynamically significant VT/VF at EPS (p1207).
 
 **End-of-life device management**
@@ -44,9 +44,9 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - PPM-dependent patients may die immediately on deactivation; non-dependent patients need monitoring for symptoms (p1200).
 
 **Exam traps / book notes**
-- The CHA2DS2-VASc "adjusted stroke risk" table is **non-monotonic as printed**: score 7 → 9.6%/year but score 8 → 6.7%/year (lower than score 7, and equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point (p1202).
-- Two different LVEF thresholds trigger CRT in this chapter: **≤35%** for the classic HF/dyssynchrony indication (Table 77-5) vs **<50%** for the AVB-driven "expected to need >40% ventricular pacing" pathway — easy to conflate on a question stem (p1199).
-- Not all DOACs reduce bleeding vs warfarin: apixaban/dabigatran/edoxaban show less major bleeding, but rivaroxaban shows only a **similar** major-bleeding rate to warfarin (p1204).
+- The CHA2DS2-VASc "adjusted stroke risk" table is non-monotonic as printed: score **7** (p1202) points → **9.6** (p1202) %/year, but score **8** (p1202) points → **6.7** (p1202) %/year (lower than score 7, and equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point.
+- Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199) for the classic HF/dyssynchrony indication (Table 77-5) vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway — easy to conflate on a question stem.
+- Not all DOACs reduce bleeding vs warfarin: apixaban/dabigatran/edoxaban show less major bleeding, but rivaroxaban shows only a similar major-bleeding rate to warfarin (p1204, image).
 
 ## Drill
 

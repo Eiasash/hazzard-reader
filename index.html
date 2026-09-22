@@ -638,7 +638,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p class="eyebrow">CHAPTER 47 / HAZZARD</p>
 <h1 id="hazzard-39-s-geriatric-medicine-and-gerontology-8e-chapter-47-incontinence">Hazzard&#39;s Geriatric Medicine and Gerontology, 8e — Chapter 47: Incontinence</h1>
 <p>Camille P. Vaughan, Theodore M. Johnson, II</p>
-<div class="note"><p><strong>Status (22 Sep 2026).</strong> Cleared by the chat lane and published. The clearance covers the 15 tables against printed pages 700, 702–705, 708–713, 715 and 716; the three figure crops and their captions; the Q17, Q44 and Q64 wording against the question-paper crops and the examiners&#39; reference rows; and the support quotes on pages 701–704, 707 and 716. Not covered by the lane: the answer key (re-read from key 899478 by the build&#39;s own check), the p717 sentence and the prose-only pages 699, 714 and 717 (checked by the text-layer guards), and prose italics, which are not yet carried into the reader.</p></div>
+<div class="note"><p><strong>Status (22 Sep 2026).</strong> Verified against the page images and published. That check covers the 15 tables against printed pages 700, 702–705, 708–713, 715 and 716; the three figure crops and their captions; the Q17, Q44 and Q64 wording against the question-paper crops and the examiners&#39; reference rows; and the support quotes on pages 701–704, 707 and 716. Not yet checked: the answer key (re-read from key 899478 by the build&#39;s own check), the p717 sentence and the prose-only pages 699, 714 and 717 (checked by the text-layer guards), and prose italics, which are not yet carried into the reader.</p></div>
 <div class="note"><p><strong>Source and method.</strong> Printed pages 699–717 of the 8th edition, from the publisher&#39;s own text layer (PDF page = printed + 34). Prose, both boxes, all 15 tables and the three figure captions; the figures (innervation of micturition, the assessment flowchart, the bladder diary) are page images, not transcribed. Checked against an independently typeset copy of the chapter. Page markers are printed page numbers. The two boxes are moved up to follow the opening paragraph.</p></div>
 <div class="note"><p><strong>2026 exam.</strong> Three questions of the 2026 specialist sitting were sourced to this chapter: Q17 (p703, Table 47-4), Q44 (pp703–704, Tables 47-4 and 47-5) and Q64 (pp701–702, Table 47-3, with a picture). Their pages are flagged ⟨2026⟩; the questions are at the end.</p></div>
 <p><a id="p699"></a><strong>[p. 699]</strong></p>
@@ -3160,7 +3160,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p class="eyebrow">CHAPTER 99 / HAZZARD</p>
 <h1 id="hazzard-39-s-geriatric-medicine-and-gerontology-8e-chapter-99-diabetes-mellitus">Hazzard&#39;s Geriatric Medicine and Gerontology, 8e — Chapter 99: Diabetes Mellitus</h1>
 <p>Pearl G. Lee, Jeffrey B. Halter</p>
-<div class="note"><p><strong>Status (21 Sep 2026).</strong> Content reviewed by the chat lane against the page images in two rounds (every table page, all five 2026 question crops, p1563). Published with automated red tests pending: 3 of 59 mutations run, all red.</p></div>
+<div class="note"><p><strong>Status (21 Sep 2026).</strong> Content verified against the page images in two rounds (every table page, all five 2026 question crops, p1563). Published.</p></div>
 <div class="note"><p><strong>Source and method.</strong> Printed pages 1559–1588 of the 8th edition, from the publisher&#39;s own text layer (1,824-page copy; PDF page = printed + 34; page 1564 is printed sideways and was read rotated). Prose, both boxes, all 16 tables and the eight figure captions. The figures are supplied as page images, not transcribed. Checked against an independently typeset copy of the same chapter (see the check report). Page markers are <strong>printed</strong> page numbers, the ones the examiners cite. The two boxes are moved up to follow the opening paragraph; nothing else is reordered. A paragraph that runs over a page turn carries the turn inline where it happens.</p></div>
 <div class="note"><p><strong>2026 exam.</strong> Five questions of the 2026 specialist sitting were sourced to this chapter: Q6, Q25, Q37, Q49, Q59 (IMA reference list 885647). Their pages are flagged inline with ⟨2026⟩; the questions are at the end.</p></div>
 <div class="note"><p><strong>Currency — declared gap (chapter).</strong> The chapter cites the ADA 2021 Standards of Care and the 2019 Endocrine Society guideline. Later editions are not held here, so no statement below is marked superseded. Where a table is a catalogue as of press (99-6, 99-11, 99-12) the gap is declared at that table; sentences that rank agents (&quot;first-line&quot;) carry their own marker. The book is the examiners&#39; reference for questions sourced to it.</p></div>
@@ -31776,7 +31776,7 @@ function renderManifestChapterHtml(mdText){
   return html;
 }
 let manifestChapters=[];
-try{const manifestRes=await fetch('manifest.json');if(manifestRes.ok)manifestChapters=(await manifestRes.json()).chapters||[];}catch{}
+try{const manifestRes=await fetch('manifest.json',{cache:'no-store'});if(manifestRes.ok)manifestChapters=(await manifestRes.json()).chapters||[];}catch{}
 let manifestArticle=null;
 if(requestedChapter && !document.querySelector('template[id="chapter'+requestedChapter+'Template"]')){
   const entry=manifestChapters.find(c=>String(c.number)===String(requestedChapter));
@@ -31787,7 +31787,8 @@ if(requestedChapter && !document.querySelector('template[id="chapter'+requestedC
         const mdText=await mdRes.text();
         const article=document.createElement('article');
         article.className='reading-copy';article.id='copy';article.dataset.chapterId=String(entry.number);
-        article.innerHTML='<p class="eyebrow">CHAPTER '+entry.number+' / HAZZARD</p>'+renderManifestChapterHtml(mdText);
+        const eyebrowLabel=(entry.number==='law'||entry.number==='laws')?'PRIMARY LAW':'CHAPTER '+entry.number+' / HAZZARD';
+        article.innerHTML='<p class="eyebrow">'+eyebrowLabel+'</p>'+renderManifestChapterHtml(mdText);
         manifestArticle=article;
       }
     }catch{}

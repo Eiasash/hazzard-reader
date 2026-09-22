@@ -294,15 +294,20 @@ Exercise is not contraindicated in asymptomatic patients with mild mitral stenos
 
 Symptomatic patients or patients with pulmonary hypertension, those with favorable echocardiographic mitral valve scores and without atrial thrombi, should be referred for mitral valvuloplasty. The risks for percutaneous mitral valvuloplasty are low ( **Table 75-8** ). Therefore, even patients with less favorable echocardiographic scores who are at high surgical risk may be considered candidates for this approach. However, balloon valvuloplasty is contraindicated in patients with moderate-to-severe mitral regurgitation and/or the presence of left atrial clot. Unfortunately, patients older than 65 years have a lower success rate, higher incidence of complications, and shorter duration of symptom relief with this approach.
 
-**Surgical management** As a result of the success of balloon valvuloplasty in patients with favorable valve morphology, surgery is usually indicated only if the patient has failed
+**Surgical management** As a result of the success of balloon valvuloplasty in patients with favorable valve morphology, surgery is usually indicated only if the patient has failed percutaneous intervention or if the valve has unfavorable characteristics (high Wilkins Score) for balloon valvuloplasty. Patients with mitral stenosis ineligible for valvuloplasty are best treated surgically, as are patients with left atrial thrombus. Additionally, since balloon valvuloplasty requires a significant level of expertise and the outcomes are related to experience, the American Heart Association recommends surgery if this experience is not available.
+
+Patients with mild symptoms, severe pulmonary hypertension, and moderate-to-severe mitral stenosis may also benefit from surgery if balloon valvuloplasty is not appropriate or available. Similarly, patients with recurrent systemic emboli despite therapeutic anticoagulation may benefit from surgical intervention if ineligible for percutaneous treatment (**Table 75-9**). Notably, surgery is not recommended for patients with isolated mild mitral stenosis.
+
+The surgical options include open repair with commissurotomy or valve replacement with either a mechanical
 
 **Table 75-8 — Complications of percutaneous mitral valvuloplasty**
 
-|**COMPLICATION**|**PROCEDURAL RISK (%)**| |---|---| |Left ventricular perforation|0.5–4.0| |Systemic embolization|0.5–3.0| |Myocardial infarction|0.3–0.5| |Death|1.0–2.0| percutaneous intervention or if the valve has unfavorable characteristics (high Wilkins Score) for balloon valvuloplasty. Patients with mitral stenosis ineligible for valvuloplasty are best treated surgically, as are patients with left atrial thrombus. Additionally, since balloon valvuloplasty requires a significant … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
-
-therapeutic anticoagulation may benefit from surgical intervention if ineligible for percutaneous treatment ( **Table 75-9** ). Notably, surgery is not recommended for patients with isolated mild mitral stenosis.
-
-The surgical options include open repair with commissurotomy or valve replacement with either a mechanical
+| COMPLICATION | PROCEDURAL RISK (%) |
+|---|---|
+| Left ventricular perforation | 0.5–4.0 |
+| Systemic embolization | 0.5–3.0 |
+| Myocardial infarction | 0.3–0.5 |
+| Death | 1.0–2.0 |
 
 **Table 75-9 — Surgical recommendations for mitral stenosis**
 

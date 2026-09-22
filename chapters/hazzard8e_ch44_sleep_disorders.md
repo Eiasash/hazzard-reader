@@ -359,23 +359,17 @@ Circadian rhythms refer to the 24-hour biological rhythms that control functions
 
 
 
-![Figure 44-10](hazzard8e_ch44_figure44-10.png)
-
-> *FIGURE 44-10. Actigraphy of a patient with non–24-hour sleep-wake rhythm disorder. Because the internal circadian rhythm is longer than 24 hours, each night the patient goes to bed later and wakes up later, causing a drift in the sleep period over time. (Reproduced with permission from Kryger MH, Avidan AY, Berry RB. Atlas of Clinical Sleep Medicine. 2nd ed. Philadelphia, PA: Elsevier; 2014.)*
-
-> Highlighting is the owner's annotation, not the book's.
-
-
-
 ![Figure 44-9](hazzard8e_ch44_figure44-9.png)
 
 > *FIGURE 44-9. Actigraphy of a patient with irregular sleep-wake disorder. The red lines indicate bouts of movement and activity. In this patient there is not a set time when there is activity versus inactivity. (Reproduced with permission from Kryger MH, Avidan AY, Berry RB. Atlas of Clinical Sleep Medicine. 2nd ed. Philadelphia, PA: Elsevier; 2014.)*
 
 > Highlighting is the owner's annotation, not the book's.
 
-•
+![Figure 44-10](hazzard8e_ch44_figure44-10.png)
 
--
+> *FIGURE 44-10. Actigraphy of a patient with non–24-hour sleep-wake rhythm disorder. Because the internal circadian rhythm is longer than 24 hours, each night the patient goes to bed later and wakes up later, causing a drift in the sleep period over time. (Reproduced with permission from Kryger MH, Avidan AY, Berry RB. Atlas of Clinical Sleep Medicine. 2nd ed. Philadelphia, PA: Elsevier; 2014.)*
+
+> Highlighting is the owner's annotation, not the book's.
 
 <a id="p657"></a>**[p. 657]**
 ### Epidemiology
