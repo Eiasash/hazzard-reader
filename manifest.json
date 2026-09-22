@@ -357,6 +357,20 @@
       "file": "hazzard8e_ch108_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 108"
+    },
+    {
+      "number": "law",
+      "title": "Israel Law & Brookdale Data",
+      "file": "israel_law.md",
+      "kind": "chapter",
+      "description": "Primary-source Israeli law (dying-patient law, EPA, patient rights) and Brookdale 65+ yearbook data, Hebrew"
+    },
+    {
+      "number": "laws",
+      "title": "Israel Law & Brookdale — Study",
+      "file": "israel_law_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question Hebrew drill, Israel law and Brookdale data"
     }
   ]
 }
