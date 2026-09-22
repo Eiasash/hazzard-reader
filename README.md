@@ -15,7 +15,7 @@ Verified against the publisher text, rendered from `chapters/*.md`:
 - 61 / Parkinson Disease and Related Disorders
 - 99 / Diabetes Mellitus
 
-Carried over from the original specimen, unmodified, and marked "old build, unverified" in the chapter list: 43 (Falls), 44 (Sleep disorders), 55 (Rehabilitation), 59 (Dementia including Alzheimer disease), 63 (Other neurodegenerative disorders).
+Fast build (22 Sep 2026), not lane-reviewed — extracted from the book's text layer with tables/figures machine-cropped, not verified page-by-page. Marked "Fast build, not lane-reviewed" in the chapter list: 42 (Frailty), 43 (Falls), 44 (Sleep disorders), 55 (Rehabilitation), 59 (Dementia including Alzheimer disease), 63 (Other neurodegenerative disorders), 87 (Constipation). 43/44/55/59/63 replace the earlier "old build, unverified" carry-over versions.
 
 ## How it works
 
