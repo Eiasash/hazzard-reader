@@ -3,10 +3,11 @@
 ## Purpose
 Eias's phone study site for Hazzard's Geriatric Medicine, 8e. The book is canonical; this site is for access and digestion, not a certified transcription.
 
-## State (22 Sep 2026)
-- 26 chapters live. Lane-reviewed: 46, 47, 58, 60, 61, 99. Fast builds: 42, 43, 44, 55, 59, 63, 87, 45, 51, 52, 57, 68, 81, 97, 98, 101, 102, 104, 105, 108.
-- A study page (summary + 15-question drill) for each of the 26 chapters, plus a Hebrew Israel-law block (`?chapter=law` / `?chapter=laws`) — primary-source Israeli law and Brookdale 65+ data, not from Hazzard.
-- Cache v9, commit `d850a25`.
+## State (23 Sep 2026)
+- 32 chapters live. Lane-reviewed: 46, 47, 58, 60, 61, 99. Fast builds: 42, 43, 44, 55, 59, 63, 87, 45, 51, 52, 57, 68, 81, 97, 98, 101, 102, 104, 105, 108, 65, 75, 76, 77, 83, 88.
+- A study page (summary + 15-question drill) for each of the 32 chapters, plus a Hebrew Israel-law block (`?chapter=law` / `?chapter=laws`) — primary-source Israeli law and Brookdale 65+ data (2025 edition), not from Hazzard. Law block eyebrow reads "PRIMARY LAW", not HAZZARD.
+- Cache v13, commit `e7fc969`.
+- **Known lag:** a build-agent's "done" signal (study.md appearing) can fire before it's actually finished — files kept changing on disk for 10+ min after 22-23 Sep's overnight batch shipped. After any parallel-subagent chapter build, wait for `git status` to hold stable for ~40s before the final commit, not just for the study page to exist.
 
 ## Source
 `C:\Users\eiasa\Downloads\hazzard marked .pdf`, 1,824 pages. PDF page = printed page + 34.
