@@ -84,6 +84,97 @@
       "file": "hazzard8e_ch87_constipation.md",
       "kind": "chapter",
       "description": "Fast build, not lane-reviewed. Pathophysiology, evaluation and laxative/nonpharmacologic management"
+    },
+    {
+      "number": "42s",
+      "title": "Frailty — Study",
+      "file": "hazzard8e_ch42_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 42"
+    },
+    {
+      "number": "43s",
+      "title": "Falls — Study",
+      "file": "hazzard8e_ch43_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 43"
+    },
+    {
+      "number": "44s",
+      "title": "Sleep Disorders — Study",
+      "file": "hazzard8e_ch44_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 44"
+    },
+    {
+      "number": "46s",
+      "title": "Pressure Injuries — Study",
+      "file": "hazzard8e_ch46_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 46"
+    },
+    {
+      "number": "47s",
+      "title": "Incontinence — Study",
+      "file": "hazzard8e_ch47_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 47"
+    },
+    {
+      "number": "55s",
+      "title": "Rehabilitation — Study",
+      "file": "hazzard8e_ch55_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 55"
+    },
+    {
+      "number": "58s",
+      "title": "Delirium — Study",
+      "file": "hazzard8e_ch58_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 58"
+    },
+    {
+      "number": "59s",
+      "title": "Dementia Including Alzheimer Disease — Study",
+      "file": "hazzard8e_ch59_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 59"
+    },
+    {
+      "number": "60s",
+      "title": "BPSD and Psychoactive Drugs — Study",
+      "file": "hazzard8e_ch60_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 60"
+    },
+    {
+      "number": "61s",
+      "title": "Parkinson Disease — Study",
+      "file": "hazzard8e_ch61_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 61"
+    },
+    {
+      "number": "63s",
+      "title": "Other Neurodegenerative Disorders — Study",
+      "file": "hazzard8e_ch63_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 63"
+    },
+    {
+      "number": "87s",
+      "title": "Constipation — Study",
+      "file": "hazzard8e_ch87_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 87"
+    },
+    {
+      "number": "99s",
+      "title": "Diabetes Mellitus — Study",
+      "file": "hazzard8e_ch99_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 99"
     }
   ]
 }
