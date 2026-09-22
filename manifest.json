@@ -35,6 +35,55 @@
       "title": "Diabetes Mellitus",
       "file": "hazzard8e_ch99_diabetes.md",
       "kind": "chapter"
+    },
+    {
+      "number": "42",
+      "title": "Frailty",
+      "file": "hazzard8e_ch42_frailty.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Concept, phenotype and deficit-accumulation models, biology and management"
+    },
+    {
+      "number": "43",
+      "title": "Falls",
+      "file": "hazzard8e_ch43_falls.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Risk factors, assessment and prevention strategies"
+    },
+    {
+      "number": "44",
+      "title": "Sleep Disorders",
+      "file": "hazzard8e_ch44_sleep_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Sleep-disordered breathing, RLS/PLMD, RBD, insomnia and circadian disorders"
+    },
+    {
+      "number": "55",
+      "title": "Rehabilitation",
+      "file": "hazzard8e_ch55_rehabilitation.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Function, exercise and condition-specific rehabilitation"
+    },
+    {
+      "number": "59",
+      "title": "Dementia Including Alzheimer Disease",
+      "file": "hazzard8e_ch59_dementia_including_alzheimer_disease.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Diagnostic criteria, evaluation, biomarkers and management"
+    },
+    {
+      "number": "63",
+      "title": "Other Neurodegenerative Disorders",
+      "file": "hazzard8e_ch63_other_neurodegenerative_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. DLB, FTLD spectrum, ALS, CBD, PSP and spinocerebellar ataxias"
+    },
+    {
+      "number": "87",
+      "title": "Constipation",
+      "file": "hazzard8e_ch87_constipation.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Pathophysiology, evaluation and laxative/nonpharmacologic management"
     }
   ]
 }
