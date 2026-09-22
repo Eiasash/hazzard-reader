@@ -230,6 +230,20 @@ If clinicians start to feel especially negative emotions toward patients, or fee
 
 <a id="p1017"></a>**[p. 1017]**
 
+**Table 65-1 — Challenges with treating older adults who have depression**
+
+- People with depression are often slow to answer questions and do not offer straightforward or succinct replies. Talking with them can be like "pulling teeth."
+- Hearing about and witnessing depressive symptoms can make the clinician feel emotionally drained, helpless, or depressed themselves.
+- Older adults with depression may seem to have bottomless needs. They may report a variety of medical symptoms that require work-up, but that have no physiologic basis.
+- Family members of people with depression are often concerned and want to explain at length what they have observed, and their wish to have their loved one "back to themselves." This is usually easier said than done.
+- It requires emotional effort to cheer someone up, and people with depression often do not respond to attempts at cheering.
+- The origins of the depression may seem easily fixable, but patients often seem unable or unwilling to do anything reasonable to solve their problems.
+- Patients with depression may seem never to get better, and to be resistant to treatment. This tests the clinician's desire to heal and ease suffering, and may make the clinician feel like a failure.
+- Treatments, when effective, usually take weeks or months to produce benefit.
+- It is difficult to find providers willing and able to provide specialty care for older adults with depression, leaving the provider on their own.
+- Suicidal thoughts may require time-consuming immediate action. A suicidal patient introduces medicolegal concerns about protecting the patient's safety and ensuring that the provider documents fully.
+- If a patient does commit suicide, the provider often feels guilty that they could have done more, or that they will be in medicolegal jeopardy.
+
 “fix” people’s mental health problems for them. We can provide support, presence, and specific types of help, but ultimately individuals heal themselves (just as a wound heals itself, even if assisted by interventions). It can be frustrating to get the sense that one is doing nothing, but simply being emotionally present and listening to another person’s distress is often enough.
 
 ### Acknowledging Patients’ Distress
@@ -247,20 +261,6 @@ It is difficult to ascertain what patients want. As Franz Kafka noted in a story
 Suicidal ideation is sometimes the way a patient communicates the level of their suffering. It also may be a genuine wish to die. Suicidal thoughts are very difficult to understand. Some theories suggest that suicidality is mainly a problem-solving approach, in which the best course of action is not to be alive. Others have proposed that the suicidal condition represents a “negative quality of life,” in which someone would take action to increase the quality of life to zero, that is, death. These theories may help a clinician to keep a balanced perspective, and to focus on effective problem-solving. In many instances, suicidal thoughts may help patients ensure they will receive support when they are feeling hopeless or overwhelmed with trying to navigate grief, social problems, or adjustments to the loss of function when they feel their needs are not being met or understood rather than a true desire to end their life.
 
 Obviously, suicidal statements and expressions of hopelessness or a desire to die should always be taken seriously. Supporting a patient with such thoughts can come in many forms, often addressed by helping the patient have a
-
-**Table 65-1 — Challenges with treating older adults who have depression**
-
-- People with depression are often slow to answer questions and do not offer straightforward or succinct replies. Talking with them can be like "pulling teeth."
-- Hearing about and witnessing depressive symptoms can make the clinician feel emotionally drained, helpless, or depressed themselves.
-- Older adults with depression may seem to have bottomless needs. They may report a variety of medical symptoms that require work-up, but that have no physiologic basis.
-- Family members of people with depression are often concerned and want to explain at length what they have observed, and their wish to have their loved one "back to themselves." This is usually easier said than done.
-- It requires emotional effort to cheer someone up, and people with depression often do not respond to attempts at cheering.
-- The origins of the depression may seem easily fixable, but patients often seem unable or unwilling to do anything reasonable to solve their problems.
-- Patients with depression may seem never to get better, and to be resistant to treatment. This tests the clinician's desire to heal and ease suffering, and may make the clinician feel like a failure.
-- Treatments, when effective, usually take weeks or months to produce benefit.
-- It is difficult to find providers willing and able to provide specialty care for older adults with depression, leaving the provider on their own.
-- Suicidal thoughts may require time-consuming immediate action. A suicidal patient introduces medicolegal concerns about protecting the patient's safety and ensuring that the provider documents fully.
-- If a patient does commit suicide, the provider often feels guilty that they could have done more, or that they will be in medicolegal jeopardy.
 
 <a id="p1018"></a>**[p. 1018]**
 

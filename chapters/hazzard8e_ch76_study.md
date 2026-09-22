@@ -31,7 +31,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - Diagnostic workup Class I (most patients): CBC, chemistries, TSH, BNP/NT-proBNP, UA, CXR, ECG, 2D echo with Doppler (Table 76-6, p1174).
 
 ### HFREF vs HFPEF
-- HFREF "usually defined as ejection fraction **less than 40% to 50%**" (p1175) — but the very next page's working definition for the rest of the chapter uses **EF <45%** for HFREF and **EF ≥45%** for HFPEF (p1175) — two different cutoffs, both as printed (see Exam traps below).
+- HFREF "usually defined as ejection fraction **less than 40% to 50%**" (p1175) — the chapter then narrows this to a specific working cutoff for the rest of the discussion: **EF <45%** for HFREF and **EF ≥45%** for HFPEF (p1175). Know both numbers (see Exam traps below).
 - No single clinical feature reliably distinguishes HFREF from HFPEF; echo/MRI/radionuclide angiography needed (p1175).
 - **>50%** of older HF patients have HFPEF (p1184).
 - **70–80%** of older HFPEF patients have hypertension (p1186).
@@ -76,7 +76,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - HYVET: treating HTN in patients ≥80y → **64%** reduction in incident HF. SPRINT intensive arm (<120 mmHg) → **36%** lower rate of acute decompensated HF vs standard (140 mmHg) arm (p1191).
 
 ### Exam traps / book contradictions
-- **EF cutoff for HFREF is stated two different ways in the same chapter**: "usually defined as ejection fraction less than 40% to 50%" (p1175), but the very next page's working definition used for the rest of the chapter is EF **<45%** for HFREF and EF **≥45%** for HFPEF (p1175) — both as printed, not reconciled.
+- **Two EF numbers for HFREF, not a contradiction — a general range narrowed to a working cutoff**: the chapter first gives the general literature range ("less than 40% to 50%"), then explicitly adopts **EF <45%** as its working definition for HFREF (**≥45%** for HFPEF) for the rest of the discussion (p1175). A question could test either number.
 - β-blockers: only carvedilol, metoprolol succinate, and bisoprolol are proven in HFREF trials — a distractor option naming any other β-blocker (e.g., atenolol, metoprolol tartrate as primary agent) is wrong even though metoprolol tartrate is an acceptable titration-phase alternative (p1179).
 - Digoxin lowers HF hospitalizations but has **no mortality benefit** in either HFREF (DIG trial) or HFPEF (DIG ancillary) — a trap for assuming any drug that reduces hospitalizations also reduces mortality (p1182, p1188).
 
@@ -138,11 +138,11 @@ Nonadherence to medications and/or diet — contributing to up to two-thirds of 
 
 </details>
 
-**8. The book gives two different ejection-fraction cutoffs for HFREF within a few pages of each other. What are they?**
+**8. The chapter gives a general EF range for HFREF, then a narrower working cutoff. What are the two numbers?**
 
 <details><summary>Answer</summary>
 
-"Less than 40% to 50%" on one page, then EF <45% (with HFPEF ≥45%) as the working definition used for the rest of the chapter on the next — both as printed, not reconciled (p1175).
+General range: "less than 40% to 50%." Working cutoff adopted for the rest of the chapter's discussion: EF <45% for HFREF (HFPEF is ≥45%) (p1175).
 
 </details>
 

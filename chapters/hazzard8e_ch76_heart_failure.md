@@ -37,13 +37,11 @@ Heart failure affects approximately 6.5 million Americans, and it is projected t
 
 **Table 76-1 — Factors contributing to the rising incidence and prevalence of heart failure**
 
-Aging of the population - Age-related cardiovascular changes in cardiac and vascular structure and function - High prevalence of cardiovascular disease - Age-related changes in body composition - Improved therapy for coronary heart disease and stroke - Decline in coronary mortality - °°<sup>Fibrinolytic therapy and primary percutaneous coronary</sup> intervention - °°<sup>Coronary angioplasty, stents, and bypass surgery</sup> - °°<sup>Aspirin, β-blockers, and angiotensin-converting enzyme</sup> … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+![Table 76-1](hazzard8e_ch76_table76-1_p1166.png)
 
-ed prevalence of metabolic disorders
+> *Table 76-1 reproduced as a page image (printed p. 1166) — the grid did not extract reliably as text for this fast build.*
 
-- Obesity
-
-- Diabetes
+> Highlighting is the owner's annotation, not the book's.
 
 80 years. Similarly, heart failure mortality rates increase exponentially with advancing age in all major demographic subgroups of the US population.
 
@@ -235,29 +233,11 @@ In 2017, the American College of Cardiology and American Heart Association Task 
 
 **Table 76-6 — Diagnostic evaluation of patients with heart failure**
 
-Class I (indicated in most patients) - Complete blood count - Blood chemistries: electrolytes, creatinine, blood urea nitrogen, glucose, magnesium, calcium, liver function tests, and lipid profile - Thyroid-stimulating hormone (TSH) - - -- - - B-type natriuretic peptide (BNP) or N-terminal pro-BNP level - Urinalysis - Chest radiograph and electrocardiogram (ECG) - Echocardiogram: two-dimensional with Doppler - Cardiac catheterization and coronary angiography in patients with angina or … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+![Table 76-6](hazzard8e_ch76_table76-6_p1174.png)
 
-oponin in those with suspected myocardial ischemia or myocarditis.
+> *Table 76-6 reproduced as a page image (printed p. 1174) — the grid did not extract reliably as text for this fast build.*
 
-- Screening for sleep-disordered breathing.
-
-- Stress test to evaluate for ischemia in patients with unexplained heart failure who are potential candidates for revascularization.
-
-- Coronary angiography if ischemia may be contributing to heart failure in patients who are potential candidates for revascularization.
-
-- Invasive hemodynamic monitoring can be useful for carefully selected patients with acute HF who have persistent symptoms despite empiric adjustment of standard therapies and (a) whose fluid status, perfusion, or systemic or pulmonary vascular resistance is uncertain; (b) whose systolic pressure remains low, or is associated with symptoms, despite initial therapy; (c) whose renal function is worsening with therapy; (d) who require parenteral vasoactive agents; or (e) who may need consideration for mechanical circulatory support or transplantation.
-
-- Endomyocardial biopsy when a specific diagnosis is suspected that would influence therapy.
-
-- Technetium-99 scan if amyloidosis is suspected.
-
-### Class Iii (not Routinely Indicated)
-
-- Routine repeat measurement of left ventricular function in stable patients
-
-- Endomyocardial biopsy as a routine procedure in the evaluation of patients with heart failure
-
-_Data from Yancy CW, Jessup M, Bozkurt B, et al. 2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Failure Society of America. Circulation 2017;136(6):e137–e161._
+> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1175"></a>**[p. 1175]**
 new-onset heart failure. Class I studies are defined as those that are indicated in most patients, class II procedures are acceptable in some patients but are of unproven efficacy and may be controversial, and class III studies are not routinely indicated and, in some cases, may be harmful. Briefly, basic laboratory studies, a thyroid function test, a chest radiograph, an electrocardiogram, and an echocardiogram with Doppler are recommended in all patients. Cardiac catheterization and coronary angiography are appropriate in patients with angina or significant ischemia on noninvasive testing, and in those who require surgical correction of a valve lesion (eg, aortic stenosis), unless the patient is not a suitable candidate for coronary revascularization.
@@ -314,25 +294,11 @@ Less often appreciated is the relationship between sodium restriction and poor n
 
 **Table 76-8 — Nonpharmacologic aspects of heart failure management**
 
-Patient education - Symptoms and signs of heart failure • Detailed discussion of all medications • Emphasize importance of dietary and medical adherence • Specific information about when to contact nurse or physician for worsening symptoms - Daily weight chart • Specific directions on when to contact nurse or physician for changes in weight - • Self-management of diuretic dosage based on daily weights in selected patients - • Involve family/significant other when feasible Dietary consultation - … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+![Table 76-8](hazzard8e_ch76_table76-8_p1177.png)
 
- metabolic rate for most accurate determination)
+> *Table 76-8 reproduced as a page image (printed p. 1177) — the grid did not extract reliably as text for this fast build.*
 
-- Medication review
-
-- Heart failure therapy in accordance with guidelines • Eliminate unnecessary medications • Simplify regimen whenever possible • Consolidate dosing schedule Social services
-
-- Assess social support structure
-
-- Evaluate emotional and financial needs • Intervene proactively when feasible Intensive follow-up
-
-- Telephone and/or telemedicine contacts
-
-- Home health visits as needed • Frequent outpatient clinic visits • Remote patient monitoring (including CardioMEMs) Palliative care consultation in patients with advanced symptoms or frequent hospitalizations Contact information
-
-- Names and phone numbers of nurse and physician
-
-- 24-hour availability
+> Highlighting is the owner's annotation, not the book's.
 
 heart failure, particularly in older and/or frail individuals. Dietary sodium restriction has been associated with insufficient calorie intake and dietary deficiencies of critical micronutrients, both of which in turn predict poor clinical outcomes. Older patients with heart failure face a myriad of challenges in maintaining adequate nutrition, including age-related changes in taste and smell, symptoms such as shortness of breath, fatigue, bloating, and nausea, and
 
