@@ -15,7 +15,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - SND (historically "sick sinus syndrome"): sinus bradycardia, sinus arrest, or SA exit block (p1195); tachy-brady syndrome common in older SND patients.
 - **More than 80%** (p1193) of permanent pacemakers (PPM) are placed in patients **65 years** or older (p1193); SND is the leading indication for PPM in this age group.
 - AVB has three degrees (p1198) — first degree (PR **> 200 ms** (p1198)), second degree (Mobitz I/Wenckebach vs Mobitz II), third degree/complete.
-- CRT highest-likelihood-to-respond criteria (p1199): **LVEF ≤ 35%** (p1199), sinus rhythm, LBBB, **QRS ≥ 150 ms** (p1199), NYHA II/III/ambulatory IV. A *separate* AVB-driven pathway favors CRT over conventional RV pacing when **LVEF < 50%** (p1199) and ventricular pacing is expected **≥ 40%** (p1199) of the time — a different LVEF cutoff from the HF/dyssynchrony CRT indication above.
+- CRT highest-likelihood-to-respond criteria (Table 77-5, p1199, image): **LVEF ≤ 35%** (p1199, image), sinus rhythm, LBBB, **QRS ≥ 150 ms** (p1199, image), NYHA II/III/ambulatory IV. A *separate* AVB-driven pathway (in running text, not the table) favors CRT over conventional RV pacing when **LVEF < 50%** (p1199) and ventricular pacing is expected **≥ 40%** (p1199) of the time — a different LVEF cutoff from the HF/dyssynchrony CRT indication above.
 - Mode Selection Trial: RV pacing **≥ 40%** (p1199) of the time → **2.6-fold** (p1199) increase in HF hospitalizations.
 - TAVR: new LBBB in **19–55%** (p1200), high-degree AVB in **10%** (p1200) after TAVR; up to **30%** (p1200) of new-LBBB patients have their first high-degree AVB episode after discharge.
 
@@ -28,7 +28,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - Watchman LAA occlusion: warfarin to INR **2–3** (p1203) for **45 days** (p1203) post-implant, then stop if TEE confirms complete LAA closure.
 
 **DOACs** (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)
-- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID if frail/bleeding-risk or age ≥80/on verapamil) — RE-LY; **34%** ↓ stroke/systemic embolism at 150 mg vs warfarin, similar major bleeding (p1204, image). Reversal: idarucizumab.
+- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID with concomitant verapamil, age ≥80, or increased GI-bleeding risk) — RE-LY; **34%** ↓ stroke/systemic embolism at 150 mg vs warfarin, similar major bleeding (p1204, image). Reversal: idarucizumab.
 - **Rivaroxaban** (Xarelto) 20 mg daily (15 mg if CrCl 30–49) — ROCKET-AF; noninferior to warfarin for stroke prevention, but only a similar (not lower) major-bleeding rate vs warfarin (p1204, image). Reversal: andexanet alfa.
 - **Apixaban** (Eliquis) 5 mg BID (2.5 mg BID if ≥2 of: age ≥80, weight <60 kg, Cr ≥1.5 mg/dL) — ARISTOTLE; **21%** ↓ stroke/SE and **31%** ↓ major bleeding vs warfarin (p1205, image).
 - **Endoxaban / edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48; noninferior for stroke/SE, **20%** ↓ major bleeding vs warfarin (p1205, image).
@@ -44,8 +44,8 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - PPM-dependent patients may die immediately on deactivation; non-dependent patients need monitoring for symptoms (p1200).
 
 **Exam traps / book notes**
-- The CHA2DS2-VASc "adjusted stroke risk" table is non-monotonic as printed: score **7** (p1202) points → **9.6** (p1202) %/year, but score **8** (p1202) points → **6.7** (p1202) %/year (lower than score 7, and equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point.
-- Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199) for the classic HF/dyssynchrony indication (Table 77-5) vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway — easy to conflate on a question stem.
+- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed: score **7** (p1202, image) points → **9.6** (p1202, image) %/year, but score **8** (p1202, image) points → **6.7** (p1202, image) %/year (lower than score 7, and equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point.
+- Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199, image, Table 77-5) for the classic HF/dyssynchrony indication vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway (running text) — easy to conflate on a question stem.
 - Not all DOACs reduce bleeding vs warfarin: apixaban/dabigatran/edoxaban show less major bleeding, but rivaroxaban shows only a similar major-bleeding rate to warfarin (p1204, image).
 
 ## Drill
