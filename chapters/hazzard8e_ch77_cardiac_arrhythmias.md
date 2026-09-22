@@ -201,6 +201,12 @@ Other physiologic pacing methodology is evolving such as HIS bundle pacing (HBP)
 
 > Highlighting is the owner's annotation, not the book's.
 
+**Table 77-5 — Indications for Cardiac Resynchronization Therapy (CRT), as printed in the table** *(p. 1199)*
+
+- **Highest likelihood to respond:** LVEF ≤ 35%, sinus rhythm, LBBB, QRS ≥ 150 msec, NYHA II, III, and ambulatory IV.
+- **Moderate likelihood to respond:** LVEF ≤ 35%, sinus rhythm, LBBB, QRS 120–149 msec, NYHA II-ambulatory IV; or LVEF ≤ 35%, sinus rhythm, non-LBBB, QRS ≥ 150 msec, NYHA III-ambulatory IV; or LVEF ≤ 35%, AF with indications for CRT or requirement for ventricular pacing; or LVEF ≤ 35%, AF after AV nodal ablation with required 100% ventricular pacing; or LVEF ≤ 35% on PPM at the time of device change if RV pacing rate > 40%; or LVEF < 30%, ischemic, sinus rhythm, LBBB, QRS ≥ 150 msec, NYHA I; or LVEF ≤ 35%, sinus rhythm, non-LBBB, QRS 120–149 msec, NYHA III-ambulatory IV; or LVEF ≤ 35%, sinus rhythm, non-LBBB, QRS ≥ 150 msec, NYHA II.
+- **Not expected to benefit:** NYHA I-II, non-LBBB, QRS < 150 msec; or comorbidities and frailty that limit survival with good functional capacity to < 1 y.
+
 <a id="p1200"></a>**[p. 1200]**
 
 ![Figure 77-5A](hazzard8e_ch77_figure77-5a.png)
