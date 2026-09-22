@@ -14,6 +14,22 @@ on a line looks forward to the NEAREST following (p123) citation anywhere later 
 (not stopped by an intervening ** marker) -- so multiple bolds sharing one trailing citation are
 all now checked, while a line with more than one citation still assigns each bold to its own
 nearest-following one, not an earlier claim's citation.
+
+Widened 24 Sep 2026: CITE_RE was a bare "(pNNN)" only. A scan of all 32 study pages found 207
+citations in other styles -- "(pNNN, Table X)", "(Table X, pNNN)", "(pNNN-NNN)" page ranges,
+"(pNNN, image)", multi-page "(pNNN, pNNN)", and a few freeform asides with more than one page
+number -- none of which the old CITE_RE matched, so every bolded number attached to one of these
+was silently skipped: not checked, not flagged as a miss, a NOT-RUN folded into a clean result
+(this is exactly how ch77's and ch99's misattributions happened in the first place). CITE_GROUP_RE
+now matches any parenthetical containing at least one "pNNN" (excluding a leading "#", which is a
+markdown link-anchor target like "[p. 695](#p695)" in a Drill question header, not a citation).
+extract_pages() pulls every page number out of that group's content, expanding a "pNNN-MMM" or
+"pNNN-pMMM" range to every integer in between (all observed ranges are 2-3 pages) and picking up
+every other bare "pNNN" in the same parens, so "(pNNN, image)", "(Table X, pNNN)" and multi-page
+"(p894, p897)" are all read correctly regardless of where the page number sits or what else share
+the parens with it. Proven with an injected-defect fixture (test_verify_fix.py) before trusting it,
+the same way as the per-line fix above: a wrong number under each of the three new citation styles
+must be caught, and a correct one under each style must not be flagged.
 """
 import re, os, sys, json
 
@@ -57,7 +73,27 @@ CHAPTERS = [
 PAGE_ANCHOR_RE = re.compile(r'<a id="p(\d+)"></a>')
 NUM_RE = re.compile(r'\d[\d,.]*')
 BOLD_RE = re.compile(r"\*\*([^*\n]+)\*\*")
-CITE_RE = re.compile(r"\(p(\d+)\)")
+CITE_GROUP_RE = re.compile(r"\(([^)]*p\d+[^)]*)\)")
+PAGE_IN_GROUP_RE = re.compile(r"p(\d+)(?:\s*[–-]\s*p?(\d+))?")
+
+def extract_pages(group_content):
+    """Every page number mentioned inside one citation's parens, range-expanded. Handles a bare
+    page, 'Table X, pNNN', 'pNNN, image', 'pNNN-MMM' / 'pNNN-pMMM' ranges (expanded to every page
+    in between -- all seen so far are 2-3 pages, so this stays cheap), and multiple page mentions
+    in one group like 'p894, p897' or 'KCP #3, p1667; detail p1674'."""
+    pages = set()
+    for m in PAGE_IN_GROUP_RE.finditer(group_content):
+        start = int(m.group(1))
+        pages.add(start)
+        if m.group(2):
+            end = int(m.group(2))
+            if end < start:  # e.g. a typo'd or truncated range -- don't silently invert it
+                end = start
+            if end - start <= 10:
+                pages.update(range(start, end + 1))
+            else:
+                pages.add(end)
+    return pages
 
 def page_buckets(src_text):
     """Map printed page -> concatenated text on that page (between its anchor and the next)."""
@@ -81,13 +117,22 @@ def number_tokens(text):
     return {normalize_num(m.group(0)) for m in re.finditer(r"(?<![\d.])\d[\d,]*(?:\.\d+)?(?!\d)", text)}
 
 def find_bold_number_claims(study_text):
-    """Per-line: every bolded number-bearing span, matched to the NEAREST FOLLOWING (pNNN)
-    citation anywhere later on the same line (not stopped by an intervening ** marker). A bold
-    with no citation later on its own line is skipped -- unchanged from the original design,
-    which never required every bolded term to carry a citation (eg a bolded drug name alone)."""
+    """Per-line: every bolded number-bearing span, matched to the NEAREST FOLLOWING citation
+    group anywhere later on the same line (not stopped by an intervening ** marker). A citation
+    group can name more than one page (a range, or several bare mentions); the claim is checked
+    against all of them. A "#pNNN" markdown link-anchor target (Drill question headers' "sourced
+    to [p. N](#pN)") is not a citation and is excluded. A bold with no citation later on its own
+    line is skipped -- unchanged from the original design, which never required every bolded term
+    to carry a citation (eg a bolded drug name alone)."""
     claims = []
     for line in study_text.split("\n"):
-        cites = [(m.start(), m.group(1)) for m in CITE_RE.finditer(line)]
+        cites = []
+        for m in CITE_GROUP_RE.finditer(line):
+            if m.group(1).lstrip().startswith("#"):
+                continue  # markdown link-anchor target, not a citation
+            pages = extract_pages(m.group(1))
+            if pages:
+                cites.append((m.start(), pages))
         if not cites:
             continue
         for bm in BOLD_RE.finditer(line):
@@ -99,8 +144,8 @@ def find_bold_number_claims(study_text):
             following = [c for c in cites if c[0] >= end]
             if not following:
                 continue  # no citation later on this line -- not a checkable claim
-            cited_page = min(following, key=lambda c: c[0])[1]
-            claims.append({"bold": bold_text, "cited_page": cited_page, "numbers": nums})
+            cited_pages = min(following, key=lambda c: c[0])[1]
+            claims.append({"bold": bold_text, "cited_pages": cited_pages, "numbers": nums})
     return claims
 
 def check_chapter(num, src_file, study_file):
@@ -116,16 +161,17 @@ def check_chapter(num, src_file, study_file):
     misses = []
     checked = 0
     for claim in find_bold_number_claims(study_text):
-        bold_text, cited_page, nums = claim["bold"], claim["cited_page"], claim["numbers"]
+        bold_text, cited_pages, nums = claim["bold"], claim["cited_pages"], claim["numbers"]
         checked += 1
-        # check each number appears in the cited page's bucket, or immediately adjacent pages
-        # (+/-1) to tolerate a claim spanning a page break
-        candidates = [cited_page]
-        cp = int(cited_page)
-        if cp - 1 in all_pages:
-            candidates.append(str(cp - 1))
-        if cp + 1 in all_pages:
-            candidates.append(str(cp + 1))
+        # check each number appears on one of the cited pages, or on any page immediately
+        # adjacent (+/-1) to one of them, to tolerate a claim spanning a page break
+        candidates = set(cited_pages)
+        for cp in cited_pages:
+            if cp - 1 in all_pages:
+                candidates.add(cp - 1)
+            if cp + 1 in all_pages:
+                candidates.add(cp + 1)
+        candidates = [str(c) for c in candidates]
         found = False
         for pg in candidates:
             bucket_tokens = number_tokens(buckets.get(pg, ""))
@@ -141,7 +187,8 @@ def check_chapter(num, src_file, study_file):
             if all(n in combined_tokens for n in nums):
                 found = True
         if not found:
-            misses.append({"bold": bold_text, "cited_page": cited_page, "numbers": nums})
+            cited_str = ",".join(str(c) for c in sorted(cited_pages))
+            misses.append({"bold": bold_text, "cited_page": cited_str, "numbers": nums})
 
     return {"chapter": num, "checked": checked, "misses": misses, "n_misses": len(misses)}
 
