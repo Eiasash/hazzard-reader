@@ -1,0 +1,40 @@
+{
+  "chapters": [
+    {
+      "number": "46",
+      "title": "Pressure Injuries",
+      "file": "hazzard8e_ch46_pressure_injuries.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "47",
+      "title": "Incontinence",
+      "file": "hazzard8e_ch47_incontinence.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "58",
+      "title": "Delirium",
+      "file": "hazzard8e_ch58_delirium.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "60",
+      "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
+      "file": "hazzard8e_ch60_bpsd_psychoactive.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "61",
+      "title": "Parkinson Disease and Related Disorders",
+      "file": "hazzard8e_ch61_parkinson.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "99",
+      "title": "Diabetes Mellitus",
+      "file": "hazzard8e_ch99_diabetes.md",
+      "kind": "chapter"
+    }
+  ]
+}
