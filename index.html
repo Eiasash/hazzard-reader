@@ -79,6 +79,11 @@ th{font:600 var(--label)/1.4 var(--ui);background:var(--soft)}
 td:first-child{min-inline-size:calc(88px * var(--fs,1))}
 figure{margin:var(--s6) 0} img,svg{max-inline-size:100%;block-size:auto}
 .note{padding-inline-start:var(--s4);border-inline-start:calc(3px * var(--fs,1)) solid var(--accent);margin-block:var(--s6)}
+.about-chapter{padding-inline-start:var(--s4);border-inline-start:calc(3px * var(--fs,1)) solid var(--accent);margin-block:var(--s6)}
+.about-chapter summary{cursor:pointer;font:600 var(--label)/1.4 var(--ui);color:var(--muted)}
+.about-chapter[open] summary{margin-block-end:var(--s3)}
+.about-chapter .note{border-inline-start:0;padding-inline-start:0;margin-block:var(--s3) 0}
+.about-chapter .note+.note{margin-block-start:var(--s4)}
 .endcap{margin-block-start:var(--s8);padding-block-start:var(--s4);border-block-start:var(--line) solid var(--rule)}
 /* No persistent header, footer, navigation rail or floating timer. */
 .card{background:var(--surface);border:var(--line) solid var(--rule);border-radius:var(--radius);padding:var(--s4)}
@@ -33148,6 +33153,30 @@ if(true){
   $('[data-pane="plan"] p:not(.eyebrow):not(.meta)').replaceChildren(Object.assign(document.createElement('b'),{textContent:chapterTitle}),document.createElement('br'),document.createTextNode('Read, then recall the chapter findings.'));
   $('[data-pane="notebook"] > p.meta').textContent='Your highlights in '+chapterTitle+'.';
 }
+// Display-only: collapse the leading Status / Source and method / As printed,
+// not corrected notes into one closed "About this chapter" drawer. 2026 exam
+// and Currency notes stay visible. Never touches the .md source.
+(function collapseChapterNotes(){
+  const byline=copy.querySelector('h1')?.nextElementSibling;
+  if(!byline)return;
+  const collapsibleLead=[/^Status\b/,/^Source and method\b/,/^As printed, not corrected\b/];
+  const toCollapse=[];
+  let node=byline.nextElementSibling;
+  while(node && node.matches('.note')){
+    const next=node.nextElementSibling;
+    const lead=node.querySelector('p > strong')?.textContent||'';
+    if(collapsibleLead.some(re=>re.test(lead)))toCollapse.push(node);
+    node=next;
+  }
+  if(!toCollapse.length)return;
+  const details=document.createElement('details');
+  details.className='about-chapter';
+  const summary=document.createElement('summary');
+  summary.textContent='About this chapter';
+  details.append(summary);
+  for(const n of toCollapse)details.append(n);
+  byline.after(details);
+})();
 function openChapter(chapter){
   const url=new URL(location.href);url.searchParams.set('chapter',chapter);location.assign(url.href);
 }
