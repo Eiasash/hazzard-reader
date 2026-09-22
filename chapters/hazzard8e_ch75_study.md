@@ -10,13 +10,13 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Average progression: jet velocity **+0.3 m/s/yr**, valve area **−0.1 cm²/yr** (p1150).
 - Table 75-1 severe cutoffs: **AVA < 1.0 cm²**, velocity **> 4 m/s**, mean gradient **> 40 mmHg** (p1150).
 - Classic triad once symptomatic: angina (**50%** 5-yr survival untreated), syncope (**50%** 3-yr mortality), heart failure (**50%** mortality at 2 yr — worst prognosis) (p1151).
-- Sudden death <1% while truly asymptomatic (p1150); epistaxis/ecchymoses in **20%** from acquired von Willebrand deficiency (Heyde syndrome) (p1151).
+- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS causes epistaxis or ecchymoses in **20%** of patients, and — separately — can also cause Heyde syndrome (GI bleeding from colonic angiodysplasia); both resolve with valve replacement (p1151).
 - Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, flat BP response, ST changes) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151–1152).
 - 5-yr symptom-free probability even in severe AS averages only **50%** (p1152).
 - BAV: enlargement rarely **> 1.0 cm²**, **10%** complication rate, restenosis by 6mo–1yr, 1-yr mortality **35–50%** — bridge/palliation only, not a replacement substitute (p1152).
 - SAVR bioprosthetic structural deterioration **~10%** at 15–20 yr; Medicare operative mortality **8.8%** overall, **6.0%** at high-volume centers (p1152).
 - Referral bias: **41%** of >70y and **33%** of >75y with severe symptomatic AS were not offered valve replacement in separate European cohort studies (p1152).
-- TAVR "prohibitive SAVR risk" = STS-PROM **> 50%**; valve durability data only confirmed to **5 years** (p1153).
+- TAVR "prohibitive SAVR risk" = STS Predicted Risk of Morbidity **and** Mortality **> 50%** (not STS-PROM/mortality alone); valve durability data only confirmed to **5 years** (p1153).
 
 **Aortic insufficiency (AI)**
 - Chronic AI in **20–30%** of >65y (p1153).
@@ -29,7 +29,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - LV-dysfunction operative mortality **at least 10%**, with lower postsurgical survival (p1155).
 
 **Mitral stenosis (MS)**
-- **>90%** rheumatic in etiology; normal MVA **4.0–5.0 cm²**, shrinks **0.09–0.32 cm²/yr**; symptoms usually appear once area falls to **2.5–1.5 cm²** (p1156).
+- Overwhelming majority rheumatic in etiology; normal MVA **4.0–5.0 cm²**, shrinks **0.09–0.32 cm²/yr**; symptoms usually appear once area falls to **2.5–1.5 cm²** (p1156).
 - Symptom onset lags rheumatic fever by **20–40 years** (p1156).
 - Once symptomatic, 10-yr survival only **50–60%**; asymptomatic 10-yr survival **80%**; unoperated despite meeting surgical criteria: 10-yr survival **< 30%** (p1156).
 - Table 75-7 severe cutoffs: **MVA < 1.0 cm²**, PA pressure **> 50 mmHg**, mean gradient **> 10 mmHg** (p1156).
@@ -44,7 +44,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Flail leaflet, severe chronic MR: **7%**/yr mortality (p1158).
 - 10-yr survival by EF: **32%** if EF < 50%, **53%** if borderline EF 50–60%, **70%** if EF > 60% — all untreated (p1158).
 - Table 75-10 severe cutoffs: vena contracta **≥ 0.7 cm**, regurgitant volume **≥ 60 mL/beat**, RF **≥ 50%**; EROA row prints "**≥ 40**" cm² — almost certainly a misprint for ≥0.40 (see exam-trap note) (p1158).
-- Repair vs replacement durability: freedom from reoperation **7–10%** at 10 yr for repair (p1159).
+- Repair durability: reoperation rate **~7–10%** at 10 yr, said to equal replacement's own reoperation rate (p1159).
 - Operative mortality: **2%** for repair vs **6%** for replacement overall; a 292-patient >70y cohort found **0.7%** in-hospital mortality for repair vs **14%** for replacement (p1160).
 - Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; both as printed.
 
@@ -56,7 +56,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - INR **> 5**: hold warfarin + oral vitamin K **1–2.5 mg**, recheck daily until < 5 (p1161).
 - Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; bridge with heparin once INR **< 2** if high-risk (p1162).
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1163).
-- Mitral repair vs aortic-valve repair durability: mitral repair **85%**... aortic valve repair for normal leaflets has **85%** freedom from reoperation at 10 years (p1163).
+- Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
 **Exam traps / book self-contradictions**
 - Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value — as printed, not corrected in this build (p1158).
