@@ -175,6 +175,188 @@
       "file": "hazzard8e_ch99_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 99"
+    },
+    {
+      "number": "45",
+      "title": "Syncope and Dizziness",
+      "file": "hazzard8e_ch45_syncope_and_dizziness.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Evaluation and management of syncope and dizziness in older adults"
+    },
+    {
+      "number": "51",
+      "title": "Osteoporosis",
+      "file": "hazzard8e_ch51_osteoporosis.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Screening, diagnosis and pharmacologic management"
+    },
+    {
+      "number": "52",
+      "title": "Osteoarthritis",
+      "file": "hazzard8e_ch52_osteoarthritis.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Pathophysiology, diagnosis and management"
+    },
+    {
+      "number": "57",
+      "title": "Cognitive Changes in Normal and Pathologic Aging",
+      "file": "hazzard8e_ch57_cognitive_changes_in_aging.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Normal cognitive aging vs MCI and dementia"
+    },
+    {
+      "number": "68",
+      "title": "Pain Management",
+      "file": "hazzard8e_ch68_pain_management.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Assessment and pharmacologic/nonpharmacologic management"
+    },
+    {
+      "number": "81",
+      "title": "Chronic Obstructive Pulmonary Disease",
+      "file": "hazzard8e_ch81_copd.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Diagnosis, staging and management in older adults"
+    },
+    {
+      "number": "97",
+      "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
+      "file": "hazzard8e_ch97_endocrine_non_thyroid.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Adrenal, gonadal, pituitary and glucose-related endocrine changes"
+    },
+    {
+      "number": "98",
+      "title": "Thyroid Diseases",
+      "file": "hazzard8e_ch98_thyroid_diseases.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Hypothyroidism, hyperthyroidism and subclinical disease in older adults"
+    },
+    {
+      "number": "101",
+      "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
+      "file": "hazzard8e_ch101_ra_autoimmune.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. RA and other autoimmune disease in older adults"
+    },
+    {
+      "number": "102",
+      "title": "Back Pain and Spinal Stenosis",
+      "file": "hazzard8e_ch102_back_pain_and_spinal_stenosis.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Evaluation and management, including lumbar spinal stenosis"
+    },
+    {
+      "number": "104",
+      "title": "Infection and Appropriate Antimicrobial Selection",
+      "file": "hazzard8e_ch104_infection_and_appropriate_antimicrobial_selection.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Infection presentation and antimicrobial selection in older adults"
+    },
+    {
+      "number": "105",
+      "title": "Bacterial Pneumonia and Tuberculosis",
+      "file": "hazzard8e_ch105_pneumonia_tb.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Presentation, diagnosis and management"
+    },
+    {
+      "number": "108",
+      "title": "Influenza, COVID-19, and Other Respiratory Viruses",
+      "file": "hazzard8e_ch108_influenza_covid_respiratory_viruses.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Presentation, prevention and management in older adults"
+    },
+    {
+      "number": "45s",
+      "title": "Syncope and Dizziness — Study",
+      "file": "hazzard8e_ch45_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 45"
+    },
+    {
+      "number": "51s",
+      "title": "Osteoporosis — Study",
+      "file": "hazzard8e_ch51_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 51"
+    },
+    {
+      "number": "52s",
+      "title": "Osteoarthritis — Study",
+      "file": "hazzard8e_ch52_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 52"
+    },
+    {
+      "number": "57s",
+      "title": "Cognitive Changes in Aging — Study",
+      "file": "hazzard8e_ch57_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 57"
+    },
+    {
+      "number": "68s",
+      "title": "Pain Management — Study",
+      "file": "hazzard8e_ch68_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 68"
+    },
+    {
+      "number": "81s",
+      "title": "COPD — Study",
+      "file": "hazzard8e_ch81_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 81"
+    },
+    {
+      "number": "97s",
+      "title": "Endocrine (Non-Thyroid) — Study",
+      "file": "hazzard8e_ch97_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 97"
+    },
+    {
+      "number": "98s",
+      "title": "Thyroid Diseases — Study",
+      "file": "hazzard8e_ch98_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 98"
+    },
+    {
+      "number": "101s",
+      "title": "RA and Autoimmune Diseases — Study",
+      "file": "hazzard8e_ch101_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 101"
+    },
+    {
+      "number": "102s",
+      "title": "Back Pain and Spinal Stenosis — Study",
+      "file": "hazzard8e_ch102_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 102"
+    },
+    {
+      "number": "104s",
+      "title": "Infection and Antimicrobials — Study",
+      "file": "hazzard8e_ch104_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 104"
+    },
+    {
+      "number": "105s",
+      "title": "Pneumonia and TB — Study",
+      "file": "hazzard8e_ch105_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 105"
+    },
+    {
+      "number": "108s",
+      "title": "Influenza, COVID-19 and Respiratory Viruses — Study",
+      "file": "hazzard8e_ch108_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 108"
     }
   ]
 }
