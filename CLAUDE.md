@@ -4,9 +4,9 @@
 Eias's phone study site for Hazzard's Geriatric Medicine, 8e. The book is canonical; this site is for access and digestion, not a certified transcription.
 
 ## State (22 Sep 2026)
-- 13 chapters live. Lane-reviewed: 46, 47, 58, 60, 61, 99. Fast builds: 42, 43, 44, 55, 59, 63, 87.
-- A study page (summary + 15-question drill) for each of the 13 chapters.
-- Cache v7, commit `606bb17`. The old "unverified" carry-over chapters are gone.
+- 26 chapters live. Lane-reviewed: 46, 47, 58, 60, 61, 99. Fast builds: 42, 43, 44, 55, 59, 63, 87, 45, 51, 52, 57, 68, 81, 97, 98, 101, 102, 104, 105, 108.
+- A study page (summary + 15-question drill) for each of the 26 chapters, plus a Hebrew Israel-law block (`?chapter=law` / `?chapter=laws`) — primary-source Israeli law and Brookdale 65+ data, not from Hazzard.
+- Cache v9, commit `d850a25`.
 
 ## Source
 `C:\Users\eiasa\Downloads\hazzard marked .pdf`, 1,824 pages. PDF page = printed page + 34.
@@ -33,6 +33,14 @@ Verified printed page ranges: 42 = 615–632, 43 = 633–642, 44 = 643–664, 55
 - ch44: Figure 44-10 renders above Figure 44-9; the book has them the other order.
 - ch44: two empty bullet points sit just below Figure 44-9.
 - Odd heading casing or hyphen joins here and there in the fast-build chapters.
+- Law page header reads "CHAPTER law / HAZZARD" — wrong, it's primary law, not Hazzard.
+- Law page: the English note's full stop wraps to the start of its line — a bidi rendering artifact from English text inside an RTL block.
+
+## Site behavior (not a bug, don't chase it)
+- On first load after a deploy, the previous service worker can still be controlling the page and serves the old cached manifest (no new chapter entry), so the reader falls back to its default chapter. One reload picks up the new chapter. Confirmed 22 Sep on `?chapter=law` right after the v9 deploy — resolved on second navigation with no code change. This is the SW updating on its own normal cadence, not a fetch bug; don't "fix" it by reworking the SW's fetch handler unless Eias asks.
+
+## Data currency — not tonight
+- Brookdale figures in `israel_law.md` are from the **2023** edition (שנתון-2023.pdf). Exam questions cite the edition current at each sitting. If a 2024 or 2025 edition turns up in Downloads before the next sitting (targeting before June 2027), swap it in — ~20 min: re-extract pp. 131–135 and Table 5.10, update the edition year note, redeploy.
 
 ## How it works
 - `index.html` is the whole app (shell/CSS/JS from the `stage-a-reader` design). The 6 lane-reviewed chapters are embedded as `<template>` blocks.
