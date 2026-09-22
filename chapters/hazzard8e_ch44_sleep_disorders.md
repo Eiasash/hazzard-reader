@@ -39,9 +39,6 @@ with comorbidities such as depression, pain, and nocturia. The changes in sleepi
 
 Many experts believe that the age-related changes in sleep are due to a decreased ability to sleep rather than a decreased need to sleep. There is growing evidence that short and disturbed sleep are associated with poor cognitive and health outcomes. When older poor sleepers and good sleepers are compared, poor sleepers have worse health-related quality of life, increased medication use, and greater health care utilization. Having longer time awake after sleep onset has been associated with greater cognitive decline among older adults. One of the most active areas of research over the past several years has been in the potential relationship between sleep and dementia, particularly Alzheimer disease (AD). Sleep appears to be important in the clearance of beta-amyloid (Ab) protein, the build-up of which is implicated in the pathogenesis of AD. Basic animal models have shown that Ab is cleared through the glymphatic system during sleep. Excessive daytime sleepiness and napping have been associated with Ab in the cerebral spinal fluid as well as being associated with the development of Ab positivity on longitudinal assessments. There is also evidence that experimentally induced acute sleep deprivation can induce Ab accumulation in healthy adults. It is hypothesized that sleep disruption with aging may lead to a decline in cognitive functioning because of the accumulation and deposition of these pathologic proteins. However, since these abnormal proteins may impact brain systems involved in sleep-wake homeostasis, excessive sleepiness and poor sleep may be an early symptom of a neurodegenerative condition. It would be reasonable to posit that there may be a bidirectional relationship between sleep symptoms and neurodegenerative diseases.
 
-<!-- Start of picture text -->
-600<br>500 Sleep latency<br>400 WASO<br>REM<br>300<br>SWS<br>200<br>Stage 2<br>100<br>Stage 1<br>0<br>5 10 15 25 35 45 55 65 75 85<br>Age<br> Time (minutes)<br><!-- End of picture text -->
-
 ![Figure 44-1](hazzard8e_ch44_figure44-1.png)
 
 > *FIGURE 44-1. Change in sleep stages with age. Time spent in wake after sleep onset (WASO) increases significantly while time spent in slow wave sleep (SWS) decreases with age. REM, rapid eye movement. (Reproduced with permission from Krieger MH, Roth T, Dement WC. _Principles and Practices of Sleep Medicine_ . 5th ed. St. Louis, MO: Elsevier Saunders; 2011.)*
@@ -71,16 +68,13 @@ Sleep-disordered breathing (SDB) is characterized by disturbed respiration durin
 
 > than 15, or when it is greater than 5 with significant symp• toms or related comorbidities. An AHI greater than 30 is generally considered to indicate severe SDB.
 
-( **Figure 44-2** ). OSA is by far the most common sleeprelated breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of - - SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater - (
+( **Figure 44-2** ). OSA is by far the most common sleep-related breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of - - SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater - (
 
 The consequences of respiratory events during sleep include arousals from sleep, intrathoracic pressure swings, and cyclical drops in the blood oxygen level. This ultimately leads to sleep fragmentation and nocturnal hypoxemia, which may lead to significant health consequences.
 
 ### Epidemiology
 
 Many of the risk factors for OSA increase with age ( **Table 44-1** ). Estimates of the prevalence of OSA have
-
-<!-- Start of picture text -->
-LEOG<br>REOG<br>1 1 1 0 1 0 1<br>C3A2<br>0 0 1 1 1<br>O1A2<br>1<br>Chin<br>LEMG<br>ECG<br>*FLOW<br>*CHEST<br>*ABDO<br>96<br>SAO2 95 97 96 93 90 90 93 97 97 94 91 90 92 96 98 95 93 90 90 95 98 97 93 90 90 94 97 97 94 91 90 92<br>STAGE S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2 S2<br>60° 120° 180° 240° 30<br><!-- End of picture text -->
 
 ![Figure 44-3](hazzard8e_ch44_figure44-3.png)
 
@@ -103,9 +97,6 @@ There are three types of SDB events: central, obstructive, and mixed. Central ev
 
 The most significant immediate consequence of OSA is excessive daytime sleepiness and the risk of motor vehicle accidents. Significant epidemiologic associations of OSA
 
-<!-- Start of picture text -->
-40<br>35<br>30<br>25<br>20<br>15<br>10<br>AHI 5–14<br>5 AHI ≥ 15<br>0<br>39–49 50–59 60–69 70–79 80–99<br>Age Group (y)<br>Prevalence Rate (%)<br><!-- End of picture text -->
-
 ![Figure 44-4](hazzard8e_ch44_figure44-4.png)
 
 > *FIGURE 44-4. Association of obstructive sleep apnea (OSA) with age. Mild obstructive sleep apnea is shown in red while moderate to severe obstructive sleep apnea is shown in green. AHI, apnea hypopnea index. (Reproduced with permission from Norman D, Loredo JS. Obstructive sleep apnea in older adults. _Clin Geriatr Med_ . 2008;24[1]:151–165.)*
@@ -119,9 +110,6 @@ with adverse cardiovascular and metabolic consequences have been reported. The a
 The major symptoms of SDB include excessive daytime sleepiness and nocturnal snoring. The patient may present to the clinic complaining of sleepiness or at the request of a loved one with the complaint of snoring. The paradigmatic patient with SDB is an obese male with nocturnal snoring, witnessed apneas, frequent nocturnal awakenings, and excessive daytime sleepiness. However, these associations are less predictive in an older population. Other important symptoms of SDB include nocturia, insomnia, morning headaches, nocturnal confusion, and daytime impairments in mood and cognition. Sleepiness can be assessed with a standardized measure such as the Epworth Sleepiness Scale. It is often helpful to obtain corroborating information from a bed partner regarding snoring, witnessed apneas as well
 
 <a id="p647"></a>**[p. 647]**
-<!-- Start of picture text -->
-Obstructive sleep apnea (OSA)<br>Intrathoracic pressure swings Recurrent arousals Intermittent hypoxia<br>Oxidative stress<br>��8-isoprostanes<br>�NOx<br>Sympathetic activation<br>Increased Inflammation:<br>transmural Proinflammatory cytokines,<br>gradients Insulin resistance endothelial cells, ��CRP, adhesion<br>Dyslipidemia molecules, activated leukocytes<br>Metabolic syndrome coagulation disorders<br>NO�<br>(��fibrinogen, activated platelets)<br>Hypertension<br>Excessive vessel Endothelial dysfunction<br>shear stress<br>Atherosclerosis<br>Cardiovascular morbidity<br><!-- End of picture text -->
-
 ![Figure 44-5](hazzard8e_ch44_figure44-5.png)
 
 > *FIGURE 44-5. Model explaining why obstructive sleep apnea (OSA) might be associated with increased cardiovascular risk. NOx, nitrogen oxides; NO, nitrous oxide. (Reproduced with permission from Jullian-Desayes I, Joyeux-Faure M, et al. Impact of obstructive sleep apnea treatment by continuous positive airway pressure on cardiometabolic biomarkers: a systematic review from sham CPAP randomized controlled trials. _Sleep Med Rev._ 2015;21:23–38.)*
@@ -141,9 +129,6 @@ tease apart symptoms of heart failure such as orthopnea and paroxysmal nocturnal
 Patients suspected of having SDB should be referred for sleep testing. An attended in-laboratory polysomnography (PSG) is considered the gold standard test for SDB. This involves traveling to a sleep laboratory to spend the night. The test involves the use of EEG, electromyogram (EMG), and electrooculogram (EOG) leads to determine presence and stage of sleep. There is measurement of airflow with a nasal pressure transducer as well as an oronasal thermistor. Respiratory effort is measured using chest and abdominal belts; and occasionally with an esophageal pressure monitor or accessory muscle EMG. An alternative approach to the diagnosis of SDB is the home sleep apnea _a_ s test (HSAT). The patient takes the sleep testing equipment home and puts it on before bed. These tests are not generally able to measure sleep directly. Most of these tests measure airflow, effort, and pulse oximetry. Alternative testing - includes the inference of respiratory events from peripheral
 
 <a id="p648"></a>**[p. 648]**
-<!-- Start of picture text -->
-Position 1 Position 2<br>Position 3 Position 4<br><!-- End of picture text -->
-
 ![Figure 44-6](hazzard8e_ch44_figure44-6.png)
 
 > *FIGURE 44-6. Friedman palate position. Positions 3 and 4 are associated with increased risk of obstructive sleep apnea (OSA). (Reproduced with permission from Friedman M, Ibrahim H, Bass L. Clinical staging for sleep-disordered breathing. _Otolaryngol Head Neck Surg_ . 2002;127[1]:13–21.)*
@@ -215,9 +200,6 @@ Patient preference is clearly a key factor in determining the therapy of choice.
 SDB is associated with significant mental and physical comorbidities. Given the association between obesity and SDB, many of the comorbidities of obesity and SDB over•<sup>a</sup> lap. However, there are several lines of evidence suggesting an independent relationship between SDB and the development of hypertension, atrial arrhythmias, heart failure, C coronary artery disease, cerebrovascular accidents, and diabetes mellitus. Most of these relationships have been elucidated from observational population studies and basic science investigations. Direct evidence that treatment of SDB can reverse some of these comorbidities is more limited. However, treatment of OSA does result in modest improvement in blood pressure among hypertensive patients. In addition, treatment of OSA after cardioversion for atrial arrhythmias such as atrial fibrillation has been found to increase the likelihood of staying in sinus rhythm. Large randomized controlled trials have failed to show that CPAP therapy leads to a reduction in cardiovascular events. The major limitation to these studies has poor adherence to CPAP. Due to ethical concerns those with excessive daytime sleepiness were excluded. Thus, it is unclear whether an individual who is adherent to CPAP therapy might gain cardiovascular benefit from therapy.
 
 <a id="p651"></a>**[p. 651]**
-<!-- Start of picture text -->
-Left eye<br>Right eye<br>EEG<br>EEG<br>EEG<br>EEG<br>ECG<br>ECG<br>Left leg<br>Right leg<br>SNORE<br>Nasal/oral<br>airflow<br>Thorax<br>Abdomen<br>SpO2 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9<br>4 4 4 5 4 5 5 5 4 4 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4 4 5 4 5 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5<br><!-- End of picture text -->
-
 ![Figure 44-7](hazzard8e_ch44_figure44-7.png)
 
 > *FIGURE 44-7. Periodic leg movements in sleep (PLMS) seen on polysomnography (PSG). (Reproduced with permission from Avidan AY. Sleep disorders in the older patient. _Prim Care_ . 2005;32[2]:563–586.)*
@@ -240,7 +222,7 @@ Restless legs syndrome (RLS), also known as Willis-Ekbom disease, is characteriz
 
 <a id="p652"></a>**[p. 652]**
 
-> the development of RLS. The development of comorbidities may partially explain why RLS is more common in older adults. RLS severity correlates with a reduced healthrelated quality of life when comorbid with other conditions. Large population studies have found associations between RLS and cardiovascular disease.
+> the development of RLS. The development of comorbidities may partially explain why RLS is more common in older adults. RLS severity correlates with a reduced health-related quality of life when comorbid with other conditions. Large population studies have found associations between RLS and cardiovascular disease.
 
 The exact prevalence of PLMD is not known. PLMS increases in frequency with age. PLMS are seen on PSG in up to 45% of older people. The presence of PLMS often does not impact individuals in a clinically meaningful way. The existence of comorbidities with aging makes a clearcut diagnosis of PLMD difficult. Having a family history of RLS may make PLMD more likely.
 
@@ -329,9 +311,6 @@ There is an association between neurodegenerative disorders and RBD, particularl
 
 The evaluation of RBD includes a neurologic and sleep history. The history should focus on common associated conditions such as Parkinson disease and associated dementia. Other early signs of an α-synucleinopathy include loss of smell and constipation. The presence of vivid dream enactment makes RBD more likely than an NREM sleep para--somnia. A predilection for events to occur later in the sleep period also makes RBD more likely. A detailed neurologic
 
-<!-- Start of picture text -->
-100<br>90<br>80<br>70<br>60<br>50<br>40<br>30<br>20<br>10<br>0<br>0 5 10 15 20 25<br>0 5 10 15<br>Time From IRBD Diagnosis (y) Time From IRBD Onset (y)<br>Number at risk 44 27 10 2 Number at risk 44 39 32 15 4 1<br>Neurological Disease-Free Survival (%)<br>Neurological Disease-Free Survival (%)<br><!-- End of picture text -->
-
 ![Figure 44-8](hazzard8e_ch44_figure44-8.png)
 
 > *FIGURE 44-8. Relationship between the diagnosis of idiopathic REM behavior disorder (IRBD) and the development of a neurodegenerative disorder. (Reproduced with permission from Iranzo A, Tolosa E, Gelpi E, et al. Neurodegenerative disease status and post-mortem pathology in idiopathic rapid-eye-movement sleep behaviour disorder: an observational cohort study. _Lancet Neurol_ . 2013;12[5]:443–453.)*
@@ -378,15 +357,9 @@ Circadian rhythms refer to the 24-hour biological rhythms that control functions
 
 <a id="p656"></a>**[p. 656]**
 
-<!-- Start of picture text -->
-It • 1"'J""1'. ' -l •  T-,~~"'  ,...,,,. 1<br>,. ,.. "J  , •• '"'T'ff  ,,,.....  ' ••<br>..  _,  . •:- ............. ,  .... .., ....... 1<br>"""ll"T"'.,<br>It- .... ,.  ····11·-·<br>..  .,.,.. ..  ,.  1, ,  •••<br>.....  rr.,. .  ·1  .... "r-,1  ...  •r., •, ·t, . ,-••  T.,...·- r•  •·-nr • • ..,., .• ,  1..-·-··  I'  •  "'I  ,. .<br>.,., •.•. . ,  !  .,-,- • 1  1 1<br>.......... • ., ., •• ,'  I  ►r•  .. - ••  'f  _ ... . ... I  •  .-., ◄ ,k  .. ..--,-~<br>•·1..,  1. •••  •  , • •  ••  Ir·<br>,., •••••• .., .....  ,.f<br>•• ..,  ,..,  ,f .. •••<br>·1,·•r·  ·~r  'I'll  f"'  rr- .ru•  - •••  :•••·  1 ,, ...·-. ' ... •·  ,t>  -r· -,--, i' --,--,-...-, ,... .... 1 .... ..,. .,<br>""T ,  ••••  'r  rr:;·].,.,<br>·••t••"r'·  T"  •  • • •  •••  r  . •  •,,,  ,..  ,.. I •  r  •fffll  ·•- - r--·  ·I •n11111  i•rr<br>,-,.........  '""""'"•···  .,;  ·y••-,,.•  •  •nw-•pr  --r- ~--  '""f·<br>•  1..- d.,.  \• ,,,,..  r<br>....  fr  ·•·i-•h  nt ...  11" •<br>Fri/Sat<br>Thu/Fri<br>Wed/Thu<br>Tue/Wed<br>Mon/Tue<br>Sun/Mon<br>Sat/Sun<br>Fri/Sat<br>Thu/Fri<br>Wed/Thu<br>Tue/Wed<br>Mon/Tue<br>Sun/Mon<br>Sat/Sun<br>Fri/Sat<br>Thu/Fri<br>Wed/Thu<br>Tue/Wed<br>00:00 18:00 12:00 06:00 00:00 18:00 12:00 06:00 00:00<br><!-- End of picture text -->
-
 •
 
 -
-
-<!-- Start of picture text -->
-'1f1Tfl ·r<br>•r1~1_1<br>""f<br>-,  'i'Tl"  .,,.<br>Wed/Thu<br>Tue/Wed<br>Mon/Tue<br>Sun/Mon<br><!-- End of picture text -->
 
 <a id="p657"></a>**[p. 657]**
 ### Epidemiology

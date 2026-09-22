@@ -55,9 +55,6 @@ This chapter will describe the definition, epidemiology, risk factors, clinical 
 
 Definitions of constipation in older people in medical and nursing literature have been inconsistent. Studies of older people have tended to define constipation subjectively by self-report, according to specific bowel-related symptoms, or by daily laxative usage. Constipation is a syndrome of difficulty moving bowels, characterized as difficulty or infrequent passage of stool, hardness of stool, or a feeling of incomplete evacuation that may occur in isolation or secondary to another underlying disorder. However, the definition of constipation can be broader and referred to as any condition that changes the bowel functions such as reduced stool frequency, straining to defecate, hard stool, or inability to defecate. Patients and their physicians have vastly different perceptions on what constitutes constipation and a patient-centered approach generally takes them at their word. Use of the Bristol Stool Scale also puts the patient and their practitioner on the same page ( **Figure 87-1** ). However,
 
-<!-- Start of picture text -->
-Bristol Stool Chart<br>Separate hard lumps, like nuts<br>Type 1 ••••<br>(hard to pass)<br>Type 2 - ••  Sausage-shaped but lumpy<br>Like a sausage but with<br>Type 3 cracks on the surface<br>Like a sausage or snake,<br>Type 4 smooth and soft<br>Soft blobs with clear-cut<br>Type 5<br>edges<br>Fluffy pieces with ragged<br>Type 6<br>edges, a mushy stool<br>Watery, no solid pieces,<br>Type 7<br>entirely liquid<br><!-- End of picture text -->
-
 ![Figure 87-1](hazzard8e_ch87_figure87-1.png)
 
 > *FIGURE 87-1. Bristol Stool Scale chart. (Reproduced with permission from Lewis SJ, Heaton KW. Stool form scale as a useful guide to intestinal transit time. _Scand J Gastroenterol_ . 1997;32[9]:920–924.)*
@@ -208,12 +205,9 @@ Both the epidemiology and pathophysiology of constipation in older people point 
 
 ### Reduced Mobility
 
-Impaired mobility is a common risk factor for constipation in older people. Greater physical activity (including regular walking) is associated with less self-reported and symptomspecific constipation in older people living both at home and in long-term care. Reduced mobility is the strongest independent correlate of heavy laxative use among nursing
+Impaired mobility is a common risk factor for constipation in older people. Greater physical activity (including regular walking) is associated with less self-reported and symptom-specific constipation in older people living both at home and in long-term care. Reduced mobility is the strongest independent correlate of heavy laxative use among nursing
 
 <a id="p1358"></a>**[p. 1358]**
-<!-- Start of picture text -->
-Normal<br>Resting<br>defecation<br>• Sensory perception of stool<br>• Rectal distension<br>• Contract diaphragm, abdomen,<br> and rectal muscles<br>• Relax EAS (decreased<br>Pubic   sphincter pressure)<br>symphysis • Relax puborectalis muscle<br>Puborectalis<br>Muscles of<br>mechanical EAS<br>barrier IAS<br>Dyssynergic<br>Incontinence defecation<br>• Prolonged colonic transit time<br>• Discoordination of abdominal,<br>• Low resting and/or low squeeze  rectoanal, and pelvic floor<br> sphincter pressures (weak IAS  muscles<br> and EAS)<br>• Rectal hyposensitivity<br>• Weakness of puborectalis<br>• Paradoxical increase in sphincter<br>• Neuropathy<br> pressure<br>• Altered rectal or anal sensation<br>• <20% relaxation of resting anal<br>• Diarrheal conditions<br> sphincter pressure<br>• Diminished rectal capacity<br>• Inadequate abdomino-rectal<br> propulsive forces<br><!-- End of picture text -->
-
 ![Figure 87-2](hazzard8e_ch87_figure87-2.png)
 
 > *FIGURE 87-2. A series of schematic diagrams that reveal the normal anatomy and physiology of the pelvic floor in the sagittal plane at rest, during defecation, and the key pathophysiologic changes in subjects with fecal incontinence and dyssynergic defecation. EAS, external anal sphincter; IAS, internal anal sphincter. (Reproduced with permission from Rao SS. Advances in diagnostic assessment of fecal incontinence and dyssynergic defecation. _Clin Gastroenterol Hepatol._ 2010;8[11]:910–919.)*
@@ -377,7 +371,7 @@ Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in h
 
 ### Rectal Prolapse
 
-Prolonged straining at stool in constipated patients can result in rectal prolapse of varying degrees, and older people are more at risk from developing fecal soiling as a result. Surgery should be considered for full-thickness prolapses, and laparoscopic versus transabdominal repair is now an effective treatment (including improving bowelrelated symptoms) with a low recurrence rate.
+Prolonged straining at stool in constipated patients can result in rectal prolapse of varying degrees, and older people are more at risk from developing fecal soiling as a result. Surgery should be considered for full-thickness prolapses, and laparoscopic versus transabdominal repair is now an effective treatment (including improving bowel-related symptoms) with a low recurrence rate.
 
 <a id="p1363"></a>**[p. 1363]**
 
@@ -410,9 +404,6 @@ IBS should be a diagnosis of exclusion in older people and only made in those wi
 A person’s attitude toward their bowel problem (positive, acceptance, denial, distress, apathy) and the impact on their quality of life should be included when
 
 <a id="p1364"></a>**[p. 1364]**
-<!-- Start of picture text -->
-Interview and<br>physical examination<br>Consider metabolic<br>and structural evaluation,<br>baseline labs<br>Therapeutic trial –<br>fiber ± laxatives<br>Inadequate response<br>Anorectal manometry<br>balloon expulsion test*<br>Normal Inconclusive Abnormal<br>Colonic Barium or MR Defecatory<br>transit defecography disorder<br>Slow Normal Normal Abnormal<br>Slow transit Normal transit<br>constipation constipation<br><!-- End of picture text -->
-
 ![Figure 87-3](hazzard8e_ch87_figure87-3.png)
 
 > *FIGURE 87-3. A practical approach to assessment of constipation in older people.<sup>*</sup> Because anorectal manometry and rectal balloon expulsion test may not be available in all practice settings, it is acceptable in such circumstances to proceed to assessing colonic transit with the understanding that delayed colonic transit does not exclude a defecatory disorder. (Reproduced with permission from American Gastroenterological Association, Bharucha AE, Dorn SD, et al. American Gastroenterological Association medical position statement on constipation. _Gastroenterology_ . 2013;144[1]:211–217.)*
@@ -558,9 +549,6 @@ Either lie on your side with your lower leg straight and your upper leg bent tow
 
 There are several modalities to assess the defecatory movements and anatomy. Traditionally, barium and scintigraphy defecographies have been used and more recently, magnetic resonance defecography were developed to identify anatomic abnormalities with higher resolution, visualization, and without radiation. Defecography should be used when the anorectal manometry and balloon expulsion are inconclusive or when there is a high suspicion for an anatomic disorder. The most relevant findings in defecography are inadequate or excessive perineal descent during defecation, excessive straining, internal intussusception, solitary rectal ulcers, rectoceles, and rectal prolapse. Unfortunately, these tests are not widely available.
 
-<!-- Start of picture text -->
-Evacuation<br>disorder:<br>M, 30 y,<br>ACt1/2 10.5 h<br>F, 63 y,<br>ACt1/2 19.9 h<br>F, 39 y,<br>ACt1/2 22.9 h<br>Slow transit<br>constipation:<br>F, 53 y<br>ACt1/2 29.5 h<br>F, 54 y<br>ACt1/2 40.3 h<br>6 h 24 h 48 h<br><!-- End of picture text -->
-
 ![Figure 87-5](hazzard8e_ch87_figure87-5.png)
 
 > *FIGURE 87-5. Examples of scintiscans at 6, 24, and 48 hours in patients with evacuation disorder and slow-transit constipation (STC); note the delayed transit is also demonstrated at 48 hours in the patients with STC and the retention of isotope in the left colon in patients with evacuation disorder. (Reproduced with permission from Nullens S, Nelsen T, Camilleri M, et al. Regional colon transit in patients with dys-synergic defaecation or slow transit in patients with constipation. _Gut_ . 2012;61[8]:1132–1139.)*
@@ -649,7 +637,7 @@ Biofeedback focuses on sensory and muscular retraining of the rectum and pelvic 
 
 The evidence recommended for these studies overall is low because the majority of trials are of poor methodologic quality and subject to bias.
 
-A randomized controlled trial showed that homebased biofeedback improved the number of CSBM per week and quality of life with similar efficacy to office-based biofeedback and was a cost-effective treatment.
+A randomized controlled trial showed that home-based biofeedback improved the number of CSBM per week and quality of life with similar efficacy to office-based biofeedback and was a cost-effective treatment.
 
 Where rectal outlet delay and/or persistent straining is associated with excessive pelvic floor descent, pelvic strengthening exercises should be employed. In women, it is helpful to do the teaching while undertaking a pelvic examination (with the examining hand resting on the posterior vaginal wall), so that positive verbal feedback can be given when the patient correctly contracts the pelvic floor. Pelvic floor retraining can help rectal outlet symptoms, but a greater degree of perineal descent is predictive of poorer treatment responses. Patients with fecal soiling and/or weak external sphincter should be taught sphincterstrengthening exercises (see **Table 87-7** ).
 
@@ -695,7 +683,7 @@ _Data from Potter J, Norton C, Cottenden A. Bowel Care in Older People. London, 
 
 A Food and Drug Administration (FDA) Advisory Panel has registered concern over the widespread overuse of over-the-counter (OTC) laxatives; laxatives are second only to analgesics as the most commonly used OTC medications by older people. OTC laxative use is common in the United States and Europe, and is encouraged by advertising and popular ignorance of adverse effects. Only 38% of OTC laxative users in Italy were guided in their choice of laxative by a physician. The remainder were influenced by pharmacists (21%), relatives or friends (16%), and advertisements (12%). Six percent of users reported adverse effects. Onefifth to one-third of regular laxative users do not consider themselves to be constipated, and many people take them through a misguided belief in the benefits of regular purgation. One study showed that 78% of older people who used laxatives regularly had never gone for more than 3 days without a bowel movement. Habitual rather than surreptitious abuse is more likely in older individuals; repeated purging empties the colon of stool that would normally descend into and distend the rectal ampulla, thereby removing the urge to defecate, and prompting the patient to take further laxatives.
 
-Although patients in hospitals and nursing homes are at higher risk for constipation, this does not entirely justify the very high levels of cathartic prescribing in these settings. Seventy-six percent of hospitalized older patients are prescribed at least one type of laxative. A prospective study of 2355 nursing home residents in the Netherlands showed that over the course of 2 years, 47% were started on laxatives, with 79% of these continuing with the longterm treatment. Prescribing rates in US nursing homes are high at 54% to 74%, with almost half of these users prescribed more than one agent. Most commonly prescribed agents are stool softeners (26%), magnesium salts (18%), and stimulants (16%). Two contributing factors may lead to overprescribing of laxatives to older patients: lack of objective confirmation of the diagnosis by the prescribing physician or nurse, and prescribing patterns of laxatives that are clinically ineffective. In US nursing homes, docusate (a fecal softener with little or no laxative effect) is the predominantly prescribed agent. Docusate prescription should be discouraged, and other more effective methods of softening the stool should be prescribed.
+Although patients in hospitals and nursing homes are at higher risk for constipation, this does not entirely justify the very high levels of cathartic prescribing in these settings. Seventy-six percent of hospitalized older patients are prescribed at least one type of laxative. A prospective study of 2355 nursing home residents in the Netherlands showed that over the course of 2 years, 47% were started on laxatives, with 79% of these continuing with the long-term treatment. Prescribing rates in US nursing homes are high at 54% to 74%, with almost half of these users prescribed more than one agent. Most commonly prescribed agents are stool softeners (26%), magnesium salts (18%), and stimulants (16%). Two contributing factors may lead to overprescribing of laxatives to older patients: lack of objective confirmation of the diagnosis by the prescribing physician or nurse, and prescribing patterns of laxatives that are clinically ineffective. In US nursing homes, docusate (a fecal softener with little or no laxative effect) is the predominantly prescribed agent. Docusate prescription should be discouraged, and other more effective methods of softening the stool should be prescribed.
 
 ### Evidence-Based Summary Of Laxative, Suppository, And Enema Treatment In Older Persons
 
@@ -911,9 +899,6 @@ must be able to drink adequate amounts of fluid to avoid further constipation an
 - In cases where toilet access is not easy (eg, at home with stairs), a more gradual clear-out using higherdose senna and sorbitol or lactulose is appropriate to limit problems with incontinence.
 
 - For rectal outlet delay or a predominant complaint of straining, the first-line approach should be regular
-
-<!-- Start of picture text -->
-Chronic constipation<br>NO Fecal YES<br>impaction<br>Remove constipating<br>medications (if possible) Manual disimpaction<br>Increase fluid intake Enemas and/or suppositories<br>Increase activity or exercise Bowel regimen to prevent<br>Increase fiber intake (20–30 g/d) recurrence<br>Timed toilet training<br>Milk of magnesia<br>Lactulose<br>Sorbitol<br>Senna compounds<br>Bisacodyl<br>YES NO<br>Effective<br>Continue regimen Polyethylene glycol<br>(PEG)<br>YES NO<br>Effective<br>Biofeedback Alvimopan<br>therapy methylnaltrexone<br>Continue regimen Lubiprostone<br>(dyssynergic (opioid-induced<br>defection) constipation)<br><!-- End of picture text -->
 
 ![Figure 87-6](hazzard8e_ch87_figure87-6.png)
 

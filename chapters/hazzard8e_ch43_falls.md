@@ -21,7 +21,7 @@ Stephen R. Lord, Jasmine C. Menant
 4. Single intervention strategies shown to successfully prevent falls include exercise, enhanced podiatry, occupational therapy interventions, expedited cataract extraction, provision of single lens glasses for regular multifocal glasses wearers, cardiac pacing for carotid sinus hypersensitivity, and vitamin D supplementation in people with low levels of vitamin D living in RACFs.
 5. Tailored multifaceted and multifactorial interventions are the most effective interventions for preventing falls in high-risk populations including RACF residents.
 
-## Epidemiology Of Falls And Fallrelated Injuries In Older People
+## Epidemiology Of Falls And Fall-related Injuries In Older People
 
 A fall is “an event which results in a person coming to rest inadvertently on the ground or floor or other lower level.” Prospective studies undertaken in community settings have reported fall incidence rates of 32% to 40% in people aged 65 and older and fall rates of 40% to 50% in people beyond the age of 75. Prospective studies in residential aged care facilities (RACFs) report fall incidence rates between 30% and 56%. Falls also occur frequently when people are in hospital, with incidence rates ranging between 2% in general hospitals to 27% in acute hospital geriatric wards.
 
@@ -36,9 +36,6 @@ Many sociodemographic, medical, neuropsychological, and sensorimotor factors are
 Falls are associated with increased age and female gender in community-living older people. The difference in fall rates between men and women has been attributed to more women living alone, being underweight, using more - - psychotropic medications and having reduced muscle strength. Additionally, older women are also more likely -
 
 <a id="p634"></a>**[p. 634]**
-<!-- Start of picture text -->
-Medical Conditions<br>• Stroke<br>• Incontinence<br>• Parkinson disease Sensorimotor & Balance<br>• Dementia • Muscle weakness<br>• Impaired vision<br>• Reduced peripheral sensation<br>• Poor reaction time<br>Medications • Impaired balance<br>• Psychoactives<br>• Four or more Falls<br> medications<br>Environmental<br>• Poor footwear<br>Psychosocial & Demographic • Home hazards<br>• History of falls • External hazards<br>• Depression • Inappropriate spectacles<br>• Advanced age<br>• Living alone<br>• ADL limitations<br>• Female gender<br>• Inactivity<br><!-- End of picture text -->
-
 ![Figure 43-1](hazzard8e_ch43_figure43-1.png)
 
 > *FIGURE 43-1. Risk factors for falls in older people.*
@@ -149,7 +146,7 @@ that provide a high challenge to balance and three or more hours per week of pre
 
 Most activities of daily life require concurrent motor execution together with attention and additional executive function skills, for example, inhibition and task switching. Crossing a busy road, walking while talking on a mobile phone, and walking through crowded malls are some examples. Several small trials have been conducted to investigate whether exercise training combined with cognitive function training can reduce falls in older adults. Some of these have examined the roles of exergames (performed on balance boards, step mats [see example in **Figure 43-2** ] or using virtual reality technology). The findings from these studies indicate exergame training can improve physical and cognitive factors associated with falls in older people and are equivalent to traditional exercise interventions in their effect on fall-risk factors. Research is underway to determine whether such training can also prevent falls.
 
-Exercise as a single intervention in certain highrisk populations, however, may not be an effective fall prevention strategy. Systematic review findings indicate that while exercise interventions are effective among
+Exercise as a single intervention in certain high-risk populations, however, may not be an effective fall prevention strategy. Systematic review findings indicate that while exercise interventions are effective among
 
 **Table 43-3 — Examples of effective exercise fall prevention strategies**
 
@@ -172,7 +169,7 @@ amount (ie, 32%) in the operated group, but this reduction did not reach statist
 
 > Highlighting is the owner's annotation, not the book's.
 
-people with Parkinson disease and those with cognitive impairment, they do not reduce fall rates among longterm stroke survivors or older people recently discharged from hospital. In fact, one home-based exercise program significantly _increased_ falls in older people recently discharged from hospitals by 43%. This area requires further investigation, as it may be that to be effective; exercise needs to form part of multifactorial interventions or be supplemented with educational components in these frailer populations.
+people with Parkinson disease and those with cognitive impairment, they do not reduce fall rates among long-term stroke survivors or older people recently discharged from hospital. In fact, one home-based exercise program significantly _increased_ falls in older people recently discharged from hospitals by 43%. This area requires further investigation, as it may be that to be effective; exercise needs to form part of multifactorial interventions or be supplemented with educational components in these frailer populations.
 
 The effect of exercise alone as a fall prevention intervention in acute hospitals is not known, but in subacute hospital settings, three RCTs have shown that balance and mobility interventions can prevent falls. The evidence for exercise programs in RACFs as a single intervention is also mixed, but a recent trial of twice-weekly combined progressive resistance and balance training for 25 weeks improved physical performance and reduced falls by 55% in long-term aged-care residents. In addition, several multifaceted programs that have included exercise have shown positive effects in preventing falls. For example, an intervention program that involved staff training and feedback, information and education for residents, environmental adaptations, hip protectors, and twice-weekly exercise in groups of six to eight people delivered by exercise instructors reduced falls by 45%.
 
@@ -190,9 +187,6 @@ Current evidence from systematic reviews and mega-trials indicates vitamin D sup
 
 <a id="p640"></a>**[p. 640]**
 
-<!-- Start of picture text -->
-640<br>\.<br>\<br>\<br>\.<br>\<br>1.35 m<br>A<br>\<br>\<br>\<br>'  \<br>\<br>\<br>\<br>'  \<br>\<br>1.35 m<br>B<br>25<br>Worse<br>20<br>15<br>10<br>5<br>–12 –10 –8 –6 –4 –2 0 2<br>Difference (dB)<br>C<br>A<br>B<br>C<br>D<br>A<br>B<br>C<br>D<br>CHAPTER 43<br>FALLS<br>Number<br><!-- End of picture text -->
-
 ![Figure 43-3](hazzard8e_ch43_figure43-3.png)
 
 > *FIGURE 43-3. Contrast sensitivity assessments of edge stimuli (24 separate plates with reducing contrast edges) placed at floor level. In panel A the participant views the edge stimulus through the upper lens of bifocal spectacles. In panel B the participant is forced to view the edge stimulus through the lower lens. Participants are then shown the difference between their upper and lower lens contrast vision. For reference, panel C shows differences between upper and lower lens edge contrast sensitivity scores for 87 regular multifocal glasses wearers.*
@@ -205,7 +199,7 @@ Current evidence from systematic reviews and mega-trials indicates vitamin D sup
 
 > Highlighting is the owner's annotation, not the book's.
 
-can reduce fall risk by 21% overall and by 39% for highrisk groups. These interventions included a comprehensive evaluation process of hazard identification and adequate follow up and support for adaptations and modifications, while involving the older person in priority setting.
+can reduce fall risk by 21% overall and by 39% for high-risk groups. These interventions included a comprehensive evaluation process of hazard identification and adequate follow up and support for adaptations and modifications, while involving the older person in priority setting.
 
 The effectiveness of home safety interventions appears to depend on safe mobility advice and subsequent behavioral change rather than purely on environmental modification as successful interventions have had an impact on outdoor falls as well as indoor falls. Home-modification interventions can also reduce injuries from falls. In a cluster RCT of 842 households benefiting from government aids, home modifications reduced the rate of injuries from falls by 26% and injuries specific to the home-modification intervention by 39%.
 
@@ -252,7 +246,7 @@ Many RCTs have shown interventions for preventing falls in older people. These h
 
 - Hewitt J, Goodall S, Clemson L, et al. Progressive resistance and balance training for falls prevention in long-
 
-   - Hewitt J, Goodall S, Clemson L, et al. Progressive resistance and balance training for falls prevention in longterm residential aged care: a cluster randomized trial of the Sunbeam program. _J Am Med Dir Assoc_ . 2018; 19:361.
+   - Hewitt J, Goodall S, Clemson L, et al. Progressive resistance and balance training for falls prevention in long-term residential aged care: a cluster randomized trial of the Sunbeam program. _J Am Med Dir Assoc_ . 2018; 19:361.
 
    - Hopewell S, Copsey B, Nicolson P, et al. Multifactorial interventions for preventing falls in older people living in the community: a systematic review and meta-analysis of 41 trials and almost 20,000 participants. _Br J Sports Med_ . 2020;54:1340.
 
@@ -260,7 +254,7 @@ Many RCTs have shown interventions for preventing falls in older people. These h
 
    - Lamb SE, Jorstad-Stein EC, Hauer K, et al. Development of a common outcome data set for fall injury prevention trials: the Prevention of Falls Network Europe consensus. _J Am Geriatr Soc_ . 2005;53:1618.
 
-   - Lee J, Negm A, Wong E, et al. Does deprescribing fallassociated drugs reduce falls and its complications? A systematic review. _Innov Aging_ . 2017;1:268.
+   - Lee J, Negm A, Wong E, et al. Does deprescribing fall-associated drugs reduce falls and its complications? A systematic review. _Innov Aging_ . 2017;1:268.
 
 - Mackenzie L, Beavis AM, Tan ACW, et al. Systematic review and meta-analysis of intervention studies with general practitioner involvement focused on falls prevention for community-dwelling older people. _J Aging Health_ . 2020;32:1562.
 
@@ -278,7 +272,7 @@ Many RCTs have shown interventions for preventing falls in older people. These h
 
 - Weber M, Belala N, Clemson L, et al. Feasibility and effectiveness of intervention programmes integrating functional exercise into daily life of older adults: a systematic review. _Gerontology_ . 2018;64:172.
 
-- Whitney J, Close JCT, Lord SR, et al. Identification of highrisk fallers among older people living in residential care facilities: a simple screen based on easily collectable measures. _Arch Gerontol Geriatr_ . 2012;55:690.
+- Whitney J, Close JCT, Lord SR, et al. Identification of high-risk fallers among older people living in residential care facilities: a simple screen based on easily collectable measures. _Arch Gerontol Geriatr_ . 2012;55:690.
 
 - Wylie G, Torrens C, Campbell P, et al. Podiatry interventions to prevent falls in older people: a systematic review and meta-analysis. _Age Ageing_ . 2019;48:327.
 
