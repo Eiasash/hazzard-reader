@@ -48,13 +48,17 @@ considered in older patients presenting with recurrent orthostatic syncope. Post
 
 Vasovagal syncope (VVS) is the most common form of syncope in younger population, but it occurs not infrequently in older patients. The pathophysiology of VVS results from a reflex causing hypotension and bradycardia, triggered by prolonged standing or exposure to emotional stress, pain, or medical procedures. It is typically associated with a prodrome of diaphoresis, warmth, and pallor, and with fatigue after the event. These clinical characteristics are often more subtle or absent in older patients. Three types of vasovagal response are summarized in **Table 77-2** . Conservative, nonpharmacologic management (such as counterpressure maneuvers, orthostatic training, liberalization of salt and fluid) may help, but no specific medical therapy has been proven widely effective. Pacemaker therapy may be beneficial in older patients with a predominant cardioinhibitory VVS. The 2017 ACC/AHA/HRS Guideline for the Evaluation and Management of Patients with Syncope recommends dual-chamber pacing as <mark>reasonable for patients older than 40 years with recurrent VVS and spontaneous pauses.</mark> Closed loop stimulation (CLS) is a new pacing technology that detects local impedance changes in the right ventricle (RV), which may be related to RV preload and contractility. Early detection of impedance changes from the RV pacemaker lead to initiate pacing that may
 
-**Table 77-1 — Types of orthostatic hypotension (oh)**
+![Table 77-1](hazzard8e_ch77_table77-1_p1194.png)
 
-|Initial<br>(immediate) OH|A transient BP decreases within 15 s after<br>standing| |---|---| |Classic OH|A sustained reduction of systolic BP of<br>≥ 20 mm Hg or diastolic BP of ≥ 10 mm Hg<br>within 3 min of assuming upright posture| |Delayed OH|A sustained reduction of systolic BP of<br>≥ 20 mm Hg or diastolic BP of ≥ 10 mm Hg<br>in > 3 min of assuming upright posture| |Neurogenic OH|A subtype of OH that is due to dysfunc-<br>tion of the autonomic nervous system and<br>not solely due to … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+> Highlighting is the owner's annotation, not the book's.
 
-**Table 77-2 — Three types of vasovagal response**
+![Table 77-2](hazzard8e_ch77_table77-2_p1194.png)
 
-|Cardioinhibitory<br>response|Pauses of ≥ 3 s or heart rate < 40 bpm for<br>more than 10 s| |---|---| |Vasodepressor|Systolic BP falls by 50 mm Hg or more| |response|without symptoms or 30 to 50 mm Hg with<br>symptoms of syncope or presyncope, and<br>the heart rate does not decrease by more<br>than 10%<br>l<br>I| |Mixed response|Heart rate decreases but the ventricular<br>rate does not fall below 40 bpm for more<br>than 10 s, and there are no pauses > 3 s; BP<br>usually decreases before the … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+> Highlighting is the owner's annotation, not the book's.
+
+<a id="p1195"></a>**[p. 1195]**
+
+prevent the activation of cardioinhibitory VV reflex. Preliminary data from two recent clinical trials demonstrated significant reduction of recurrent syncope in patients randomized to CLS pacing.
 
 ### Carotid Sinus Syndrome
 
@@ -72,7 +76,7 @@ Bradycardia is common in older patients even without apparent cardiovascular dis
 
 ### Sinus Node Dysfunction
 
-Sinus node dysfunction (SND), historically known as sick sinus syndrome (SSS), is related to age-dependent progressive fibrosis of sinus nodal tissue, and surrounding atrial myocardium and hence, occurs more commonly in older patients. Extrinsic causes include myocardial ischemia or .. - infarction, infiltrative diseases, collagen vascular disease, surgical trauma, endocrine abnormalities, autonomic effects, and neuromuscular disorders. Patients with SND may present with persistent sinus bradycardia, sinus arrest, or sinoatrial exit block ( **Figure 77-1A-D** ). The severity of symptoms such as lightheadedness, exercise intolerance, presyncope, or syncope generally correlates with the heart rate or the pause duration. In older patients with SND, paroxysmal atrial tachycardia (AT) or atrial fibrillation (AF) often are concurrently present (tachy-brady syndrome).
+Sinus node dysfunction (SND), historically known as sick sinus syndrome (SSS), is related to age-dependent progressive fibrosis of sinus nodal tissue, and surrounding atrial myocardium and hence, occurs more commonly in older patients. Extrinsic causes include myocardial ischemia or infarction, infiltrative diseases, collagen vascular disease, surgical trauma, endocrine abnormalities, autonomic effects, and neuromuscular disorders. Patients with SND may present with persistent sinus bradycardia, sinus arrest, or sinoatrial exit block ( **Figure 77-1A-D** ). The severity of symptoms such as lightheadedness, exercise intolerance, presyncope, or syncope generally correlates with the heart rate or the pause duration. In older patients with SND, paroxysmal atrial tachycardia (AT) or atrial fibrillation (AF) often are concurrently present (tachy-brady syndrome).
 
 The benefit o <mark>f PPM</mark> is to relieve symptoms and to improve quality of life (QOL) in patients with SND.
 
@@ -103,11 +107,14 @@ The benefit o <mark>f PPM</mark> is to relieve symptoms and to improve quality o
 > Highlighting is the owner's annotation, not the book's.
 
 <a id="p1197"></a>**[p. 1197]**
-**Table 77-3 — Indications and selection of pacemaker (ppm) therapy in sinus node dysfunction (snd)**
 
-- PPM for symptomatic SND not attributable to reversible or physiologic causes - PPM for symptomatic SND as a consequence of medication required for treating other coexisting conditions - Single-chamber atrial-based PPM when there is no evidence of AV conduction abnormality - Dual-chamber PPM when there is evidence of AV conduction abnormalities Before PPM is considered, transient reversible causes should be corrected. The synopsis on indications and selection of PPM for SND from 2018 … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+Before PPM is considered, transient reversible causes should be corrected. The synopsis on indications and selection of PPM for SND from 2018 ACC/AHA/HRS bradyarrhythmia guideline can be found in Table 77-3. Based on randomized studies comparing atrial-based pacing (single-chamber AAI or dual-chamber DDD) versus single-chamber ventricular-based pacing (VVI), the incidence of AF is higher in ventricular-based pacing. The ventricular-based pacing causes pacemaker syndrome due to uncoordinated atrial and ventricular depolarization leading to valvular regurgitation and heart failure symptoms.
 
-ding to valvular regurgitation and heart failure symptoms. However, for patients with symptomatic SND that is infrequent or in those who are frail/bedridden with limited functional capacity or unfavorable prognosis (survival - <1 year), single-chamber ventricular pacing could be considered to reduce complications related to the pacemaker implantation. When single ventricular pacing is deemed appropriate, a leadless pacemaker could be considered in selected patients. A standard dual-chamber PPM is shown in **Figure 77-2A, B** ; a contemporary single-chamber leadless PPM is shown in **Figure 77-3A, B** .
+![Table 77-3](hazzard8e_ch77_table77-3_p1197.png)
+
+> Highlighting is the owner's annotation, not the book's.
+
+However, for patients with symptomatic SND that is infrequent or in those who are frail/bedridden with limited functional capacity or unfavorable prognosis (survival <1 year), single-chamber ventricular pacing could be considered to reduce complications related to the pacemaker implantation. When single ventricular pacing is deemed appropriate, a leadless pacemaker could be considered in selected patients. A standard dual-chamber PPM is shown in **Figure 77-2A, B** ; a contemporary single-chamber leadless PPM is shown in **Figure 77-3A, B** .
 
 ![Figure 77-2A](hazzard8e_ch77_figure77-2a.png)
 
@@ -182,21 +189,17 @@ In patients with AVB, transient reversible causes should be corrected before PPM
 
 RV pacing has been associated with negative physiologic and clinical consequences from ventricular dyssynchrony such as left ventricular (LV) chamber enlargement, worsening functional mitral regurgitation (MR), reduced left ventricular ejection fraction (LVEF), and increased inter and intraventricular dyssynchrony. The risk of RV pacing induced cardiomyopathy increases with increased RV pacing. The Mode Selection Trial showed that RV pacing greater than or equal to 40% of the time led to a 2.6-fold increase in HF hospitalizations. ACC/AHA/HRS guidelines on bradycardia (2018) suggest that it is reasonable to choose pacing methods that maintain physiologic ventricular activation such as cardiac resynchronization therapy (CRT) for patients with AVB who have LVEF less than 50% and are expected to require ventricular pacing more than 40% of the time. If ventricular pacing is expected to be less than 40%, it is reasonable to choose the conventional RV pacing.
 
-In addition to the CRT in patients with AVB, CRT is indicated in patients with heart failure with New York Heart Association (NYHA) functional class II, III, and ambulatory class IV with left bundle brunch block (LBBB). Indications for CRT in patients with heart
+In addition to the CRT in patients with AVB, CRT is indicated in patients with heart failure with New York Heart Association (NYHA) functional class II, III, and ambulatory class IV with left bundle branch block (LBBB). Indications for CRT in patients with heart failure are summarized in Table 77-5. In patients meeting indication for CRT, clinical trials have consistently shown improvement of heart failure symptoms, exercise capacity, and survival.
 
-**Table 77-4 — Indications and selection of pacemaker (ppm) therapy in atrioventricular block (avb)**
+Other physiologic pacing methodology is evolving such as HIS bundle pacing (HBP) and left bundle branch area pacing (LBBAP). HIS bundle pacing can be considered to maintain physiologic ventricular activation for selected patients with AVB. Long-term outcome data pertaining to the older population are required for future guidelines. Chest X-rays of CRT PPM are shown in **Figure 77-5A, B** .
 
-- PPM for symptomatic acquired second-degree Mobitz type II AVB, high-grade AVB, or third-degree AVB not attributable to reversible or physiologic causes - PPM for symptomatic acquired second-degree Mobitz type II AVB, high-grade AVB, or third-degree AVB as consequence of medication required for patient’s other medical conditions - Single-chamber ventricular PPM for patients with expected infrequent ventricular pacing failure are summarized in **Table 77-5** . In patients meeting indication for … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+![Table 77-4](hazzard8e_ch77_table77-4_p1199.png)
 
-o the older population are required for future guidelines. Chest X-rays of CRT PPM are shown in **Figure 77-5A, B** .
+> Highlighting is the owner's annotation, not the book's.
 
-**Table 77-5 — Indications for cardiac resynchronization therapy (crt)**
+![Table 77-5](hazzard8e_ch77_table77-5_p1199.png)
 
-Patients with highest likelihood to respond to CRT are those with: - LVEF ≤ 35%, sinus rhythm, LBBB, QRS ≥ 150 msec, NYHA II, III, and ambulatory IV - Patients with moderate likelihood to respond to CRT are those with: - LVEF ≤ 35%, sinus rhythm, LBBB, QRS 120–149 msec, NYHA II-ambulatory IV - LVEF ≤ 35%, sinus rhythm, non-LBBB, QRS ≥ 150 msec, NYHA III-ambulatory IV - LVEF ≤ 35%, AF with indications for CRT or requirement for ventricular pacing - LVEF ≤ 35%, AF after AV nodal ablation with … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
-
-YHA I-II, non-LBBB, QRS < 150 msec
-
-- Comorbidities and frailty that limit survival with good functional capacity to < 1 y
+> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1200"></a>**[p. 1200]**
 
@@ -226,7 +229,7 @@ consequences of deactivating the PPM. Death may immediately follow PPM deactivat
 
 ### Atrial Fibrillation
 
-Atrial fibrillation (AF) is the most common arrhythmia in the older population as its prevalence and incidence increase with age. Common symptoms of AF include palpitations, fatigue, lightheadedness, shortness of breath, chest discomfort or intolerance to activities, and severe symptoms including HF and syncope. Diagnostic studies involve ECG and echocardiogram to evaluate chamber size, valvular function, and filling pressures; laboratory tests such as complete blood count, comprehensive metabolic panel, thyroid function, and in select cases, cardiac biomarkers. If clinically warranted, ischemic evaluation or sleep study should be considered. Management of AF includes rate or rhythm control, stroke prevention, and modification of risk factors such as weight loss, blood pressure and diabetes control, reduction of alcohol consumption, diagnosis and treatment of obstructive sleep apnea (OSA), and regular - exercise. The principles of AF management are the same between the younger and older population. However, the
+Atrial fibrillation (AF) is the most common arrhythmia in the older population as its prevalence and incidence increase with age. Common symptoms of AF include palpitations, fatigue, lightheadedness, shortness of breath, chest discomfort or intolerance to activities, and severe symptoms including HF and syncope. Diagnostic studies involve ECG and echocardiogram to evaluate chamber size, valvular function, and filling pressures; laboratory tests such as complete blood count, comprehensive metabolic panel, thyroid function, and in select cases, cardiac biomarkers. If clinically warranted, ischemic evaluation or sleep study should be considered. Management of AF includes rate or rhythm control, stroke prevention, and modification of risk factors such as weight loss, blood pressure and diabetes control, reduction of alcohol consumption, diagnosis and treatment of obstructive sleep apnea (OSA), and regular exercise. The principles of AF management are the same between the younger and older population. However, the
 
 <a id="p1201"></a>**[p. 1201]**
 
@@ -242,70 +245,54 @@ In the older population, neither rate nor rhythm control strategies by pharmacol
 
 ### Rhythm Control
 
-Rate control alone may be insufficient to alleviate symptoms in some older patients. In those select patients, restoration of sinus rhythm can be beneficial. Approaches to
+Rate control alone may be insufficient to alleviate symptoms in some older patients. In those select patients, restoration of sinus rhythm can be beneficial. Approaches to rhythm control includes AAD therapy, catheter ablation (CA), surgical ablation, and direct current electrical cardioversion (DCCV). In the acute setting, the efficacy of intravenous and oral AAD is highly variable, ranging from 30% to 75%. Efficacy also varies with the age of the patient, duration of the arrhythmia, underlying LVEF, and left atrial size. External DCCV can restore sinus rhythm in 75% to 90% of patients with AF. For maintenance of sinus rhythm in patients with recurrent AF, consideration for AAD can be given. AAD therapy for rhythm control is summarized in **Table 77-6** .
 
-rhythm control includes AAD therapy, catheter ablation (CA), surgical ablation, and direct current electrical car......-. dioversion (DCCV). In the acute setting, the efficacy of - intravenous and oral AAD is highly variable, ranging from 30% to 75%. Efficacy also varies with the age of the patient, duration of the arrhythmia, underlying LVEF, and left atrial size. External DCCV can restore sinus rhythm in 75% to 90% of patients with AF. For maintenance of sinus rhythm in patients with recurrent AF, consideration for AAD can be given. AAD therapy for rhythm control is summarized in **Table 77-6** .
-
-### Role Of Ablation
+### Role of Ablation
 
 It has been shown in multiple randomized controlled trials that catheter ablation of AF is safe and superior to AAD in preventing recurrence of AF and maintaining sinus rhythm. The recent CABANA (Catheter Ablation versus Antiarrhythmic Drug Therapy in Atrial Fibrillation) trial ( _n_ = 2204 patients randomized to either catheter ablation or drug therapy) showed that catheter ablation was not superior to AADs for the primary endpoint of all cause of mortality, disabling stroke, serious bleeding, or cardiac arrest in 5 years. As a predefined secondary endpoint, catheter ablation did not reduce all-cause mortality alone but did reduce the combined all-cause death or cardiovascular hospitalization in comparison to AAD. AF recurrence was significantly less in patients randomized to catheter ablation. A recent metanalysis reported that catheter ablation resulted in a significant reduction in all-cause mortality in AF patients with HF and reduced EF and resulted in significantly fewer cardiovascular hospitalizations and fewer AF recurrences. The subgroup analyses from CABANA suggested that younger patients (age < 65 years) and men derived more benefit from catheter ablation compared with AAD in patients with HF. Such benefit was not evident in patients older than 75 years. Therefore, age and comorbidities are important factors in the decision-making for catheter ablation. Guidelines derived from clinical evidence recommend catheter ablation treatment is primarily for reduction of symptoms and improvement of QoL. There are currently no compelling data to support the use
 
-**Table 77-6 — Summary of antiarrhythmic drug (aad) therapy for rhythm control in atrial fibrillation (af)**
+![Table 77-6](hazzard8e_ch77_table77-6_p1201.png)
 
-1. Patients without heart disease - a. Class Ic AAD (flecainide, propafenone) and class III AAD (sotalol, amiodarone, dronedarone, dofetilide) 2. Patients with CAD - a. Class Ic AAD are contraindicated (flecainide, propafenone) - b. Class III AAD can be used (sotalol, amiodarone, dronedarone, dofetilide) 3. Patients with reduced EF or HF - a. Amiodarone and dofetilide can be used - b. Dronedarone and class Ic AAD are contraindicated <a id="p1202"></a>**[p. 1202]** > of catheter … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+> Highlighting is the owner's annotation, not the book's.
 
-sistent or long-standing persistent AF and paroxysmal AF who have failed one or more attempts of catheter ablation.
+<a id="p1202"></a>**[p. 1202]**
+
+of catheter ablation to reduce risk of stroke, especially in patients with high CHA2DS2-VASc score.
+
+Cox maze procedure is another strategy of AF ablation that can be considered in patient with symptomatic AF undergoing cardiac surgery. The standalone surgical ablation with minimally invasive techniques is rapidly evolving. Limited data suggest it is reasonable for patients with persistent or long-standing persistent AF and paroxysmal AF who have failed one or more attempts of catheter ablation.
 
 ### Stroke Prevention
 
-The risk of stroke is five times higher in patients with AF. Anticoagulant therapy reduces stroke risk and mortality associated with AF. Although older patients are more vulnerable to stroke, less than two-thirds of octogenarians with AF are anticoagulated. One of the challenges is to maintain - INR within the therapeutic range. The need for anticoagulation is determined by the validated CHA2DS2-VASc score ( **Table 77-7A** ). Risk of bleeding on anticoagulation is commonly assessed by the HAS-BLED score with a 0–2 score reflecting low, and a 3–9 score high risk ( **Table 77-7B** ). Advanced age is a major risk factor for stroke and for bleeding. Although stroke and bleeding risk coexist, benefits of anticoagulation outweigh bleeding risk in most scenarios. Before initiation of anticoagulation, a thorough assessment of frailty, cognitive function, life expectancy, polypharmacy/drug interaction, nutritional assessment, liver function, and renal function is warranted to ensure individualized optimal approach.
+The risk of stroke is five times higher in patients with AF. Anticoagulant therapy reduces stroke risk and mortality associated with AF. Although older patients are more vulnerable to stroke, less than two-thirds of octogenarians with AF are anticoagulated. One of the challenges is to maintain INR within the therapeutic range. The need for anticoagulation is determined by the validated CHA2DS2-VASc score ( **Table 77-7A** ). Risk of bleeding on anticoagulation is commonly assessed by the HAS-BLED score with a 0–2 score reflecting low, and a 3–9 score high risk ( **Table 77-7B** ). Advanced age is a major risk factor for stroke and for bleeding. Although stroke and bleeding risk coexist, benefits of anticoagulation outweigh bleeding risk in most scenarios. Before initiation of anticoagulation, a thorough assessment of frailty, cognitive function, life expectancy, polypharmacy/drug interaction, nutritional assessment, liver function, and renal function is warranted to ensure individualized optimal approach.
 
-The available anticoagulation drugs include vitamin K antagonist (warfarin) and direct oral anticoagulants (DOACs). DOACs include factor Xa inhibitors (apixaban, rivaroxaban, edoxaban) and direct thrombin inhibitor (dabigatran). The disadvantages of warfarin therapy include the need for monitoring INR, narrow therapeutic range, interaction with different food and medications especially in the setting of polypharmacy in older patients, - and there is increased tendency for unintentional overdose due to inter- or intraindividual variability in pharmacokinetics and pharmacodynamics. There have been four randomized <mark>controlled trials comparing DOACs with warfarin.</mark> Patients 75 years or older represent almost 40% of the population in these trials. There was consistent evidence of at least noninferiority for the combined endpoint of stroke or systemic embolism and superior safety profile with less intracranial bleeding risk compared to warfarin. DOACs are recommended as first-line therapy for stroke prevention in eligible patients with AF. For patients 75 years or older, there is <mark>lower risk</mark> of major bleeding especially with apixaban and edoxaban. However, full-dose dabigatran and rivaroxaban are significantly associated with an increased risk of gastrointestinal (GI) bleeding. A proton pump inhibitor is recommended when these two DOACs are used.
+The available anticoagulation drugs include vitamin K antagonist (warfarin) and direct oral anticoagulants (DOACs). DOACs include factor Xa inhibitors (apixaban, rivaroxaban, edoxaban) and direct thrombin inhibitor (dabigatran). The disadvantages of warfarin therapy include the need for monitoring INR, narrow therapeutic range, interaction with different food and medications especially in the setting of polypharmacy in older patients, and there is increased tendency for unintentional overdose due to inter- or intraindividual variability in pharmacokinetics and pharmacodynamics. There have been four randomized <mark>controlled trials comparing DOACs with warfarin.</mark> Patients 75 years or older represent almost 40% of the population in these trials. There was consistent evidence of at least noninferiority for the combined endpoint of stroke or systemic embolism and superior safety profile with less intracranial bleeding risk compared to warfarin. DOACs are recommended as first-line therapy for stroke prevention in eligible patients with AF. For patients 75 years or older, there is <mark>lower risk</mark> of major bleeding especially with apixaban and edoxaban. However, full-dose dabigatran and rivaroxaban are significantly associated with an increased risk of gastrointestinal (GI) bleeding. A proton pump inhibitor is recommended when these two DOACs are used.
 
 A bleeding risk assessment using the HAS-BLED score has been shown to be clinically useful. Older patients
 
-**Table 77-7 — Scoring systems for stratification of stroke and bleeding risk in atrial fibrillation (af)**
+![Table 77-7](hazzard8e_ch77_table77-7_p1202.png)
 
-|**A:** **CHA2DS2-VASC SCORE AND STROKE RISK**|| |---|---| |**CHA2DS2-VASC SCORE**|**POINTS**| |Congestive heart failure|1| |Hypertension|1| |Age ≥ 65|1| |Age ≥ 75|2| |Diabetes mellitus|1| |Stroke/TIA/thromboembolism|2| |Sex category—female|1| |Vascular disease (primary MI, PAD, or<br>aortic plaque)|1| |Maximum score|9| |**CHA2DS2-VASC SCORE**|**ADJUSTED STROKE**<br>**RISK (% PER YEAR)**| |0|0| |1|1.3| |2|2.2| |3|3.2| |4|4.0| |5|6.7| |6|9.8| |7|9.6| |8|6.7| |9|15.2| |**B:** **HAS-BLED SCORE AND … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+> Highlighting is the owner's annotation, not the book's.
 
-AC, renal function should be evaluated before initiation and should be reevaluated at least annually or every 6 months or more frequently in those with renal insufficiency. To reduce the bleeding risk, modifiable risk factors must be addressed such as reduction of alcohol use, proper blood pressure control, and avoidance of NSAIDs and elimination of antiplatelet agents if possible. DOACs are contraindicated in advanced liver disease or liver failure with coagulopathy and should not be
+with high-risk bleeding should be followed up frequently with routine labs such as cell count, liver, and renal function tests. With the use of DOAC, renal function should be evaluated before initiation and should be reevaluated at least annually or every 6 months or more frequently in those with renal insufficiency. To reduce the bleeding risk, modifiable risk factors must be addressed such as reduction of alcohol use, proper blood pressure control, and avoidance of NSAIDs and elimination of antiplatelet agents if possible. DOACs are contraindicated in advanced liver disease or liver failure with coagulopathy and should not be
 
 <a id="p1203"></a>**[p. 1203]**
-used in patients with Child-Pugh class C cirrhosis (ChildPugh class B for rivaroxaban due to a more than a twofold increase in drug exposure). In patients with severe thrombocytopenia (< 50000/μL), the anticoagulation should be -- individualized and closely monitored given the lack of evidence from trials.
+used in patients with Child-Pugh class C cirrhosis (ChildPugh class B for rivaroxaban due to a more than a twofold increase in drug exposure). In patients with severe thrombocytopenia (< 50000/μL), the anticoagulation should be individualized and closely monitored given the lack of evidence from trials.
 
 For those who have indication for anticoagulation but has contraindication for chronic anticoagulation but are able to tolerate short-term warfarin therapy, the percutaneously inserted left atrial appendage (LAA) occlusion device, the Watchman device, has been approved by FDA. Anticoagulation with warfarin to target INR between 2 and 3 is indicated for 45 days after the Watchman implantation and then discontinued if complete closure of LAA is confirmed by transesophageal echocardiogram (TEE). After warfarin, aspirin and clopidogrel are recommended for 6 months followed by long-term aspirin. For those with high bleeding risk, clopidogrel can be used for 6 months along with long-term aspirin therapy without oral anticoagulation. The surgical LAA amputation can also be considered for patients with AF undergoing cardiac surgeries.
 
 The synopsis of recommendations for stroke prevention in AF is described in **Table 77-8** and summary of DOACs can be found in **Table 77-9** .
 
-### Cryptogenic Stroke, Embolic Stroke Of Undetermined Source, And Atrial Fibrillation
+![Table 77-8](hazzard8e_ch77_table77-8_p1203.png)
 
-The cause of embolic stroke may not be apparent in approximately 30% of patients many of whom are older with multiple comorbidities. Two randomized trials, NAVIGATE ESUS (Rivaroxaban Versus Aspirin in Secondary Prevention of Stroke and Prevention of Systemic Embolism in Patients with Recent Embolic Stroke of Undetermined Source) and RE-SPECT EUS (Dabigatran Etexilate for Secondary Stroke Prevention in Patients With Embolic Stroke of Undetermined Source), studied empiric anticoagulation with rivaroxaban and dabigatran, respectively, on the impact of recurrent stroke in ESUS patients comparing to aspirin. These studies found that empiric anticoagulation was not associated with lower rates of stroke recurrence than aspirin. Bleeding complications were higher with anticoagulation. Empirical anticoagulation in patients with cryptogenic stroke (CS) or embolic stroke of undetermined source (ESUS)
+> Highlighting is the owner's annotation, not the book's.
 
-is currently not recommended. In patients with CS and ESUS, long-term surveillance for subclinical AF can be accomplished by implantation of a cardiac monitor (loop recorder). Anticoagulation can be considered after AF is detected by the loop recorder.
+### Cryptogenic Stroke, Embolic Stroke of Undetermined Source, and Atrial Fibrillation
+
+The cause of embolic stroke may not be apparent in approximately 30% of patients many of whom are older with multiple comorbidities. Two randomized trials, NAVIGATE ESUS (Rivaroxaban Versus Aspirin in Secondary Prevention of Stroke and Prevention of Systemic Embolism in Patients with Recent Embolic Stroke of Undetermined Source) and RE-SPECT EUS (Dabigatran Etexilate for Secondary Stroke Prevention in Patients With Embolic Stroke of Undetermined Source), studied empiric anticoagulation with rivaroxaban and dabigatran, respectively, on the impact of recurrent stroke in ESUS patients comparing to aspirin. These studies found that empiric anticoagulation was not associated with lower rates of stroke recurrence than aspirin. Bleeding complications were higher with anticoagulation. Empirical anticoagulation in patients with cryptogenic stroke (CS) or embolic stroke of undetermined source (ESUS) is currently not recommended. In patients with CS and ESUS, long-term surveillance for subclinical AF can be accomplished by implantation of a cardiac monitor (loop recorder). Anticoagulation can be considered after AF is detected by the loop recorder.
 
 ### Device Detected High-Rate Atrial Episodes
 
-Older patients without a history of AF frequently have implanted cardiac devices such as a pacemaker or defibrillator with capabilities of continuous rhythm monitoring. Some patients have device detected intermittent
-
-**Table 77-8 — Stroke prevention in patients with atrial fibrillation (af)**
-
-- Shared decision-making (risk of stroke vs bleeding, values, and preferences) - CHA2DS2-VASc score stroke risk stratification for nonvalvular AF - Warfarin for *valvular AF regardless of CHA2D2-VASc score (target INR 2–3) - CHA2DS2-VASc ≥ 2 in men or ≥ 3 in women  anticoagulation - • DOACs over warfarin for *nonvalvular AF (monitor renal function) -- - - • Switch to DOAC if unable to maintain therapeutic INR with warfarin - Warfarin or apixaban (only for nonvalvular AF) when CrCl < 15 mL/min … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
-
-ban, or edoxaban in end-stage CKD or dialysis
-
-- • DOACs should not be used in patients with mechanical valve
-
-- **Definitions**
-
-### Valvular AF
-
-- Valvular AF refers to AF in the setting of moderate to severe mitral stenosis (MS) or presence of mechanical valve.
-
-### Nonvalvular AF
-
-- Nonvalvular AF is an AF in the setting of absence of moderate to severe MS or absence of mechanical valve.
-
-atrial high-rate events (AHREs) with or without symptoms. Most devices detect AHREs when atrial rates exceed 180 to 190 bpm. An association between increased risk of stroke or systemic embolism and AHREs has been consistently observed. AHREs lasting a minimum of 5 to 6 minutes have been associated with an increased risk of ischemic stroke, cardiovascular events, and death. AHREs should prompt a careful review of the documented electrograms to confirm AF or to consider additional ambulatory monitoring if the data from the implanted device are equivocal. The data on the correlation between the risk of thromboembolic complications and AF burden (frequency, duration, and pattern) continue to evolve rapidly. At this time it is generally recommended that anticoagulation therapy should be considered when AF is confirmed in patients with AHRE greater than 6 minutes and CHA2DS2-VASc > 2 or > 24 hours with CHA2DS2VASc > 1 after goals and risks of long-term anticoagulation are reviewed with the patient.
+Older patients without a history of AF frequently have implanted cardiac devices such as a pacemaker or defibrillator with capabilities of continuous rhythm monitoring. Some patients have device detected intermittent atrial high-rate events (AHREs) with or without symptoms. Most devices detect AHREs when atrial rates exceed 180 to 190 bpm. An association between increased risk of stroke or systemic embolism and AHREs has been consistently observed. AHREs lasting a minimum of 5 to 6 minutes have been associated with an increased risk of ischemic stroke, cardiovascular events, and death. AHREs should prompt a careful review of the documented electrograms to confirm AF or to consider additional ambulatory monitoring if the data from the implanted device are equivocal. The data on the correlation between the risk of thromboembolic complications and AF burden (frequency, duration, and pattern) continue to evolve rapidly. At this time it is generally recommended that anticoagulation therapy should be considered when AF is confirmed in patients with AHRE greater than 6 minutes and CHA2DS2-VASc > 2 or > 24 hours with CHA2DS2VASc > 1 after goals and risks of long-term anticoagulation are reviewed with the patient.
 
 <a id="p1204"></a>**[p. 1204]**
 
@@ -332,29 +319,17 @@ Typical atrial flutter (AFL) is a reentrant tachycardia utilizing the inferior v
 
 Supraventricular tachyarrhythmia (SVT) is less common in older patients since most SVTs have been ablated when patients were young. AV nodal reentrant tachycardia (AVNRT) localized to the region of AV node is the most common type of SVT identified among older patients, followed by atrial tachycardia and atrioventricular reciprocating tachycardia (AVRT). The principles of drug and nondrug management of SVT are similar between younger and older patients as recommended in the ACC/AHA/HRS Guidelines 2015 (a synopsis is provided in **Table 77-10** ). β-Blockers and CCBs are considered the first line of therapy for treating SVTs. Class I and III antiarrhythmic agents are effective for treating SVTs. Catheter ablation therapy is highly effective for the treatment of SVTs, even in older patients. Success rates for catheter ablation of SVT, regard-less of age, range from 85% to better than 95%, depending primarily on the nature of the arrhythmia and the experience of the operator. The incidence of major complications associated with SVT ablation is less than 2% to 3%.
 
+![Table 77-10](hazzard8e_ch77_table77-10_p1206.png)
+
+> Highlighting is the owner's annotation, not the book's.
+
 ### Ventricular Tachyarrhythmia
 
 The management of ventricular arrhythmias in older patients is similar to that in younger patients. In patients with asymptomatic nonsustained ventricular tachyarrhythmia (NSVT), a careful evaluation for the presence of cardiac disease, including occult CAD, structural heart disease, and left ventricular dysfunction, is required. Premature ventricular contractions and NSVT are associated with a benign prognosis in the absence of any significant heart disease. The risk of SCD is increased in patients with compromised LVEF, whether due to ischemic or nonischemic heart disease. Preventing SCD entails optimizing therapy directed at the underlying disease and the use of ICD therapy in selected patients. Although none of the indications for ICDs exclude or allude to special considerations in older patients, individual assessment and determination of primary therapeutic objectives are particularly pertinent in this population because comorbid medical illnesses are frequently present and life expectancy is shorter in older patients.
 
-### Prevention Of Sudden Cardiac Death
+### Prevention of Sudden Cardiac Death
 
-Indications for implantation of an ICD for primary SCD prevention include: (1) ischemic cardiomyopathy (> 40 days after MI or > 90 days after revascularization), LVEF of less
-
-**Table 77-10 — Treatment recommendations for supraventricular arrhythmia (svt)**
-
-- Vagal maneuver for acute SVT (education for future episodes recommended) - Adenosine for acute SVT - Synchronized cardioversion for acute SVT with hemodynamic instability - Synchronized cardioversion for acute SVT refractory to adenosine - Oral β-blocker or diltiazem/verapamil for ongoing SVT - EPS with option of ablation for diagnosis and treatment of SVT - Ibutilide or procainamide IV for pre-excited SVT - IV β-blocker or diltiazem channel blocker for acute SVT - IV Amiodarone for stable … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
-
-indicated or not effective, and if ablation not preferred)
-
-- Amiodarone for ongoing management of SVT (when other medications including dofetilide are not tolerated, contraindicated or not effective, and if ablation not preferred)
-
-- Digoxin for ongoing management of SVT
-
-- b-Blocker, diltiazem, verapamil, amiodarone, and digoxin are harmful for pre-excitation
-
-- Treatment of SVT should be individualized in patients older than 75 years to incorporate age, comorbid illness, physical and cognitive functions, patient preferences, and severity of symptoms
-
-than or equal to 35% with NYHA class II-III function class, or LVEF less than 30% with NYHA class I functional class on guideline-directed medical therapy (GDMT); (2) nonischemic cardiomyopathy, LVEF less than or equal to 35% with NYHA class II-III despite GDMT (benefit in patients with NYHA class I is not well established); (3) inducible sustained monomorphic ventricular tachyarrhythmia by electrophysiologic study (EPS) in patients with NSVT and EF less than or equal to 40% after MI. Indications for implantation of an ICD for secondary SCD prevention include: (1) cardiac arrest owing to VT or ventricular fibrillation (VF) not related to a transient or reversible cause (eg, <mark>acute myocardial infarction), (2) spontaneous sustained VT in association with structural heart disease, and (3) syncope of undetermined origin with clinically relevant,</mark> hemodynamically significant sustained VT or VF induced at EPS when drug therapy is ineffective, not tolerated, or not preferred. Randomized, prospective clinical trials
+Indications for implantation of an ICD for primary SCD prevention include: (1) ischemic cardiomyopathy (> 40 days after MI or > 90 days after revascularization), LVEF of less than or equal to 35% with NYHA class II-III function class, or LVEF less than 30% with NYHA class I functional class on guideline-directed medical therapy (GDMT); (2) nonischemic cardiomyopathy, LVEF less than or equal to 35% with NYHA class II-III despite GDMT (benefit in patients with NYHA class I is not well established); (3) inducible sustained monomorphic ventricular tachyarrhythmia by electrophysiologic study (EPS) in patients with NSVT and EF less than or equal to 40% after MI. Indications for implantation of an ICD for secondary SCD prevention include: (1) cardiac arrest owing to VT or ventricular fibrillation (VF) not related to a transient or reversible cause (eg, <mark>acute myocardial infarction), (2) spontaneous sustained VT in association with structural heart disease, and (3) syncope of undetermined origin with clinically relevant,</mark> hemodynamically significant sustained VT or VF induced at EPS when drug therapy is ineffective, not tolerated, or not preferred. Randomized, prospective clinical trials
 
 <a id="p1207"></a>**[p. 1207]**
 
@@ -415,4 +390,3 @@ With Supraventricular Tachycardia: Executive Summary: A Report of the American C
 - Sutton R, de Jong JSY, Stewart JM, Fedorowski A, de Lange FJ. Pacing in vasovagal syncope: physiology, pacemaker sensors, and recent clinical trials—precise patient selection and measurable benefit. _Heart Rhythm_ . 2020;17:821–828.
 
 - Undas A, Drabik L, Potpara T. Bleeding in anticoagulated patients with atrial fibrillation: practical considerations. _Pol Arc Intern Med_ . 2020;130:47–58.
-
