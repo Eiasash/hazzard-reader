@@ -359,6 +359,90 @@
       "description": "Summary + 15-question drill for Chapter 108"
     },
     {
+      "number": "65",
+      "title": "Major Depression",
+      "file": "hazzard8e_ch65_major_depression.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Diagnosis and management of major depression in older adults"
+    },
+    {
+      "number": "75",
+      "title": "Valvular Heart Disease",
+      "file": "hazzard8e_ch75_valvular_heart_disease.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Aortic and mitral valve disease in older adults"
+    },
+    {
+      "number": "76",
+      "title": "Heart Failure",
+      "file": "hazzard8e_ch76_heart_failure.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. HFrEF/HFpEF diagnosis and management in older adults"
+    },
+    {
+      "number": "77",
+      "title": "Cardiac Arrhythmias",
+      "file": "hazzard8e_ch77_cardiac_arrhythmias.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. Arrhythmia diagnosis and management in older adults"
+    },
+    {
+      "number": "83",
+      "title": "Kidney Diseases",
+      "file": "hazzard8e_ch83_kidney_diseases.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. CKD and kidney disease in older adults"
+    },
+    {
+      "number": "88",
+      "title": "Cancer and Aging: General Principles",
+      "file": "hazzard8e_ch88_cancer_and_aging_general_principles.md",
+      "kind": "chapter",
+      "description": "Fast build, not lane-reviewed. General principles of cancer and aging"
+    },
+    {
+      "number": "65s",
+      "title": "Major Depression — Study",
+      "file": "hazzard8e_ch65_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 65"
+    },
+    {
+      "number": "75s",
+      "title": "Valvular Heart Disease — Study",
+      "file": "hazzard8e_ch75_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 75"
+    },
+    {
+      "number": "76s",
+      "title": "Heart Failure — Study",
+      "file": "hazzard8e_ch76_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 76"
+    },
+    {
+      "number": "77s",
+      "title": "Cardiac Arrhythmias — Study",
+      "file": "hazzard8e_ch77_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 77"
+    },
+    {
+      "number": "83s",
+      "title": "Kidney Diseases — Study",
+      "file": "hazzard8e_ch83_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 83"
+    },
+    {
+      "number": "88s",
+      "title": "Cancer and Aging — Study",
+      "file": "hazzard8e_ch88_study.md",
+      "kind": "study",
+      "description": "Summary + 15-question drill for Chapter 88"
+    },
+    {
       "number": "law",
       "title": "Israel Law & Brookdale Data",
       "file": "israel_law.md",

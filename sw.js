@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v9';
+const CACHE_VERSION = 'v10';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const RUNTIME_CACHE = 'hazzard-runtime-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
@@ -10,7 +10,7 @@ const SHELL_FILES = ['./', SHELL_URL, './js/marked.min.js', './manifest.json'];
 async function collectManifestAssets() {
   const urls = new Set();
   try {
-    const manifestRes = await fetch('./manifest.json');
+    const manifestRes = await fetch('./manifest.json', { cache: 'no-store' });
     if (!manifestRes.ok) return urls;
     const manifest = await manifestRes.json();
     for (const entry of manifest.chapters || []) {
@@ -80,7 +80,31 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // Everything else (images, .md, vendored js, manifest): network-first,
+  // manifest.json specifically: always try the network with the browser's
+  // own HTTP cache bypassed (GitHub Pages serves it with max-age=600, which
+  // a plain fetch() can satisfy from disk cache without ever reaching the
+  // network, even inside this "network-first" handler). A stale manifest
+  // is exactly how a brand-new chapter can go missing right after a
+  // deploy. Offline fallback is unaffected -- still the runtime cache.
+  const isManifest = new URL(req.url).pathname.endsWith('/manifest.json');
+  if (isManifest) {
+    event.respondWith((async () => {
+      try {
+        const network = await fetch(req, { cache: 'no-store' });
+        if (network && network.ok) {
+          const cache = await caches.open(RUNTIME_CACHE);
+          cache.put(req, network.clone());
+        }
+        return network;
+      } catch {
+        const cached = await caches.match(req, { ignoreSearch: true });
+        return cached || Response.error();
+      }
+    })());
+    return;
+  }
+
+  // Everything else (images, .md, vendored js): network-first,
   // refresh the cache when online, fall back to cache when offline.
   event.respondWith((async () => {
     try {
