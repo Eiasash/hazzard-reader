@@ -278,6 +278,14 @@ High-throughput genetic and genomic biomarkers are increasingly employed to stud
 
 <a id="p630"></a>**[p. 630]**
 
+
+
+![Figure 42-5](hazzard8e_ch42_figure42-5.png)
+
+> *FIGURE 42-5. Potential targets of frailty-focused research aimed at understanding the relationship between accelerated aging and frailty. (Reproduced with permission from Ferrucci and Fabbri, unpublished data.)*
+
+> Highlighting is the owner's annotation, not the book's.
+
 **CHAPTER 42 FRAILTY**
 
 <a id="p631"></a>**[p. 631]**
