@@ -160,15 +160,6 @@ Certain intrinsic mechanisms for altered colonic function in older persons with 
 
 **Table 87-4 — Pathophysiological mechanisms for constipation in older people**
 
-- *Chronic Constipation*: |
-![Table 87-4](hazzard8e_ch87_table87-4_p1356.png)
-
-> *Table 87-4 reproduced as a page image (printed p. 1356) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
-
-|
-- *Rectal Outlet Delay*: |
 ![Table 87-4](hazzard8e_ch87_table87-4_p1356.png)
 
 > *Table 87-4 reproduced as a page image (printed p. 1356) — the grid did not extract reliably as text for this fast build.*

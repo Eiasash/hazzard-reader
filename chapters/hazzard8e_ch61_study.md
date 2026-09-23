@@ -24,6 +24,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Alternative-diagnosis clues: symmetric onset, poor levodopa response, absent rest tremor (p939).
 - 2015 MDS criteria: bradykinesia required + **≥2 of 4** supportive criteria (levodopa response, levodopa-induced dyskinesias, rest tremor, olfactory loss and/or cardiac sympathetic denervation) (p940). ⟨2026 exam Q31⟩
 - DaT SPECT confirms nigrostriatal dopaminergic loss but **cannot distinguish PD from PSP/MSA/DLB** — all show loss; it is mainly useful to separate parkinsonism from essential tremor (p941). ⟨2026 exam Q60⟩
+- PSP's defining feature is supranuclear (vertical/downward) gaze palsy with early falls; CBS's is asymmetric rigidity/dystonia with limb myoclonus, alien-limb phenomenon, and cortical sensory loss (Table 61-3 p940, Table 61-4 p941).
 - MSA red flags: severe/early dysautonomia, cerebellar signs, nocturnal stridor; median MSA onset is the **6th decade**, mean time to severe disability **~5 years** (p942).
 - **~50%** of PD patients develop dementia (PDD) within **10 years** of diagnosis (p942).
 
@@ -36,11 +37,13 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Rotigotine (transdermal patch) — for swallowing difficulty / nocturnal akinesia (p944).
 - Apomorphine (subcut) / sublingual film (Kynmobi) — most potent agonist; used for rapid "off" rescue; intense nausea (p944).
 - Amantadine — **100 mg BID** for PD symptoms, **300–400 mg/day** for antidyskinetic effect; confusion, hallucinations, livedo reticularis; poorly tolerated in older adults (p944). Only established effective antidyskinetic agent (antiglutamatergic).
+- Table 61-5 also lists domperidone (peripheral dopamine-receptor blocker for GI upset from levodopa/agonists; **not available in the US**) and MAO-B inhibitors (selegiline, rasagiline, safinamide) — mild symptomatic benefit, no proven neuroprotective benefit (p944).
 - Istradefylline (A2A antagonist) and opicapone (COMT-I) — both once-daily, reduce off-time (p945).
 - Wearing-off = adequate levodopa dose fails to last **≥6 hours** (p944); first-line fix = more frequent dosing ± COMT-I/MAO-BI (p945). ⟨2026 exam Q83⟩
 
 **Management — dyskinesias & nonmotor complications**
 - Peak-dose dyskinesia: reduce levodopa dose, or add amantadine (start **100 mg BID**, up to **200 mg BID**); buspirone up to **20 mg/day** (p946).
+- Diphasic dyskinesias (Table 61-6, p946) — occur at the start/end of dose (not peak), mixed chorea/dystonia, mainly affect the legs; distinct from peak-dose dyskinesia above.
 - Drug-induced hallucinations: reduce dopaminergic burden first; then quetiapine (start **25 mg qhs**) or pimavanserin (**17 mg 1–2×/day**, reduce with CYP3A4 inhibitors) (p946). ⟨2026 exam Q75⟩
 - Clozapine more effective but agranulocytosis in **1% to 2%** → weekly CBC; try quetiapine/pimavanserin first (p946).
 - Severe psychosis needing drug withdrawal: taper anti-PD meds stepwise over **3 days** — abrupt levodopa withdrawal risks a neuroleptic-malignant-like syndrome (p946).

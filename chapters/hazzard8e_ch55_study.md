@@ -33,6 +33,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 
 **Adaptive aids**
 - Canes: opposite the involved leg; "up with the good, down with the bad" on stairs (p827).
+- **Table 55-5** (p828): power wheelchair needs intact cognitive ability to operate safely (controls don't require intact UEs) — indicated for high-level SCI, MS/ALS, or multiple-limb amputation; rollator preferred outdoors for its larger wheels and seat for resting.
 - Diabetic foot disease: Medicare covers **one pair** of shoes/inserts **each year** (p829).
 
 **Condition-specific rehab**

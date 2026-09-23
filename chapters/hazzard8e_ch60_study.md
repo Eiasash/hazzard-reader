@@ -14,6 +14,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - Get a reliable informant history — the patient often cannot self-report accurately (p920).
 - **Rule out delirium first** for any acute or fluctuating change in cognition/behavior (p923).
 - NPI = most-used research tool for NPS; NPI-Q = brief clinic version, measures **12 NPS** domains plus informant distress (p922).
+- Medication review is essential: the anticholinergic-risk/delirium med list (**Table 60-3**, p922) includes non-obvious agents **digoxin** and **furosemide** alongside the classic anticholinergics (TCAs, diphenhydramine/hydroxyzine/promethazine, oxybutynin, scopolamine).
 - New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; imaging if focal signs; EEG if seizure suspected; LP rarely needed (p920).
 - Depression affects up to **50%** of dementia patients and often presents atypically — more agitation/irritability/anxiety than classic low mood (p923).
 - Psychosis occurs in **20% to 30%** of AD patients vs **over 50%** of DLB/Parkinson disease dementia patients; visual hallucinations are the more useful feature for distinguishing DLB from AD (p923).
@@ -41,10 +42,11 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition limit its use (p929).
 - Sertraline — initial **25** mg, max **200** mg/day; despite early promise, not shown superior to placebo for depression in dementia (p929).
 - Escitalopram — the cleaner S-enantiomer of citalopram; being studied for agitation (S-CitAD) (p930).
-- Paroxetine — avoid in older adults: anticholinergic, raises delirium risk (p930).
+- Paroxetine — avoid in older adults: anticholinergic (delirium risk), and if stopped, causes withdrawal effects from its short half-life (p929).
 - Mirtazapine — sedating; no benefit over placebo for sleep and may worsen daytime sleepiness (p930).
 - Bupropion — avoid with a history of seizures or psychotic symptoms (p930).
 - Nortriptyline — therapeutic window **50–150 ng/mL**; anticholinergic effects, hypotension, sedation (p929).
+- Desipramine — the other preferred TCA in Table 60-9; therapeutic window **150–300 ng/mL** (higher than nortriptyline's — don't conflate the two), similar side-effect profile (p929).
 - TCAs overall are limited by a high adverse-event burden compared to SSRIs/SNRIs (p930).
 
 **Drugs — other / adjuncts**
@@ -169,7 +171,7 @@ Citalopram; limited by QTc prolongation and worsened cognition (p929).
 
 <details><summary>Answer</summary>
 
-Paroxetine (p930).
+Paroxetine (p929).
 
 </details>
 

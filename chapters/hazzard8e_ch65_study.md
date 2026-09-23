@@ -41,7 +41,8 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) are often mistaken for relapse — distinguishing the two prevents unnecessary restarting (p1015–1016).
 
 **Provider & caregiver factors**
-- Table 65-1 catalogs the emotional toll of treating depressed older patients on clinicians (feeling drained, like a failure, medicolegal anxiety around suicidal patients) — the chapter frames "caring for the caregiver" (including the clinician) as part of good care (p1016–1017).
+- **Table 65-1** (p1017) catalogs challenges clinicians face treating depressed older patients — emotional toll (feeling drained, like a failure), practical friction (patients' "pulling teeth" pace, bottomless needs, family members wanting to explain at length what they've observed), and slow response (weeks to months) — the chapter frames "caring for the caregiver" (including the clinician) as part of good care (p1016).
+- A suicidal patient introduces medicolegal concerns — protecting the patient's safety and ensuring the provider **documents fully** (**Table 65-1**, p1017).
 - Simple human presence (sitting down, eye contact, asking "what else is going on?") is emphasized as the single most important way to help patients feel heard (p1017).
 
 **Special populations & referral**

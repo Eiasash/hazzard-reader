@@ -30,6 +30,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - Position at **30°** side-lying; chairbound patients repositioned **hourly** (shift weight **q15min**), hip flexion **90°** (p684).
 - Standard mattress **4-inch** viscoelastic foam; OR risk = surgery **>3h**, ASA **≥3**, or prone position (p684).
 - Prophylactic silicone foam dressings cut heel PI (**3%** vs **12%**) and sacral PI (**1%** vs **5%**), NNT **10** (p685).
+- **Table 46-1** risk-factor–specific interventions: incontinence/moisture → scheduled toileting/prompted voiding if responsive, check-and-change programs otherwise, plus protective creams; friction/shearing → cornstarch/lubricants between surfaces plus footboards; dry skin → gentle cleansers, moisturize, inspect daily, avoid massaging reddened areas (p683).
 
 **Nutrition**
 - Malnutrition/weight loss → **fourfold** higher PI risk; oral nutritional supplements → **25%** relative reduction in incidence (modest evidence) (p685).
@@ -59,6 +60,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - Saline/water lack antiseptic properties — prefer Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692).
 - Moist dressings re-epithelialize **~40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; colonization threshold **≥10⁵** organisms/mL before infection typically manifests (p693).
 - Air-fluidized beds heal fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
+- **Table 46-2**: pain-reducing dressing categories are hydrocolloids (p693), plus hydrogels (cooling effect), alginates, and hydrofibers (p694) — composite, transparent-film, wound-filler, and foam dressings list no pain-relief use in the table.
 
 **Debridement**
 - **Five** methods: surgical/sharp, mechanical, autolytic, enzymatic, bio-surgical (p695).

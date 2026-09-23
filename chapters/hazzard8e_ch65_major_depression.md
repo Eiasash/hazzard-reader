@@ -232,17 +232,11 @@ If clinicians start to feel especially negative emotions toward patients, or fee
 
 **Table 65-1 — Challenges with treating older adults who have depression**
 
-- People with depression are often slow to answer questions and do not offer straightforward or succinct replies. Talking with them can be like "pulling teeth."
-- Hearing about and witnessing depressive symptoms can make the clinician feel emotionally drained, helpless, or depressed themselves.
-- Older adults with depression may seem to have bottomless needs. They may report a variety of medical symptoms that require work-up, but that have no physiologic basis.
-- Family members of people with depression are often concerned and want to explain at length what they have observed, and their wish to have their loved one "back to themselves." This is usually easier said than done.
-- It requires emotional effort to cheer someone up, and people with depression often do not respond to attempts at cheering.
-- The origins of the depression may seem easily fixable, but patients often seem unable or unwilling to do anything reasonable to solve their problems.
-- Patients with depression may seem never to get better, and to be resistant to treatment. This tests the clinician's desire to heal and ease suffering, and may make the clinician feel like a failure.
-- Treatments, when effective, usually take weeks or months to produce benefit.
-- It is difficult to find providers willing and able to provide specialty care for older adults with depression, leaving the provider on their own.
-- Suicidal thoughts may require time-consuming immediate action. A suicidal patient introduces medicolegal concerns about protecting the patient's safety and ensuring that the provider documents fully.
-- If a patient does commit suicide, the provider often feels guilty that they could have done more, or that they will be in medicolegal jeopardy.
+![Table 65-1](hazzard8e_ch65_table65-1_p1017.png)
+
+> *Table 65-1 reproduced as a page image (printed p. 1017) — the grid did not extract reliably as text for this fast build.*
+
+> Highlighting is the owner's annotation, not the book's.
 
 “fix” people’s mental health problems for them. We can provide support, presence, and specific types of help, but ultimately individuals heal themselves (just as a wound heals itself, even if assisted by interventions). It can be frustrating to get the sense that one is doing nothing, but simply being emotionally present and listening to another person’s distress is often enough.
 

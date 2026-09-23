@@ -16,13 +16,13 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - Involuntary bladder contractions occur in **40%–75%** of older incontinent patients (also in some continent elders) (p701).
 
 **Reversible/acute causes — screen first in new-onset UI**
-- Framework: infection, atrophic vaginitis/urethritis, stool impaction, polyuria (hyperglycemia, hypercalcemia, volume overload), drugs, delirium/immobility (Table 47-3, p702).
+- Framework: symptomatic infection (not asymptomatic bacteriuria), atrophic vaginitis/urethritis, stool impaction, polyuria (hyperglycemia, hypercalcemia, volume overload), drugs, delirium/immobility (Table 47-3, p702).
 - Postprostatectomy stress UI often resolves within the **first year** — don't rush to surgery (p702).
-- Meds that worsen continence (Table 47-4, p703): diuretics (polyuria), anticholinergics (retention/overflow), sedatives, narcotics, alpha-agonists (retention), **ACE inhibitors (cough → stress leakage)**, calcium channel blockers/gabapentinoids (edema → nocturia).
+- Meds that worsen continence (Table 47-4, p703): diuretics (polyuria), anticholinergics (retention/overflow), sedatives, narcotics, alpha-agonists (retention), alpha-blockers (urethral relaxation → worsens stress leakage), cholinesterase inhibitors (frequency/urgency), **ACE inhibitors (cough → stress leakage)**, calcium channel blockers/gabapentinoids (edema → nocturia).
 
 **Persistent types** (Table 47-5, p704)
 - Stress: leak with ↑ intra-abdominal pressure (cough/laugh/exercise); urethral/pelvic-floor weakness.
-- Urgency: sudden urge → leak; usually detrusor overactivity; CNS disease is a common driver.
+- Urgency: sudden urge → leak; usually detrusor overactivity; CNS disease or local GU pathology (tumor, stone, diverticulum, outflow obstruction) are common drivers.
 - Mixed: stress + urgency, common in older women.
 - Functional: cognitive/mobility barrier, GU tract often normal.
 - High PVR ("overflow"): obstruction, acontractile bladder, or drug effect.
@@ -32,7 +32,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - Gross bladder distention (**≥ 500 mL**) is detectable on abdominal exam (p705).
 - Cough stress test: bladder filled to about half-capacity (**~200 mL**), standing position most sensitive (p705).
 - PVR interpretation: **PVR < 100 mL** normal; **PVR > 200 mL** abnormal; 100–200 mL is equivocal (p707).
-- Refer for urologic/gynecologic/urodynamic evaluation if: PVR **≥ 200 mL**, recurrent symptomatic UTI (**≥ 2** episodes/12 mo), hematuria, marked prolapse, or failed behavioral/drug trial (Table 47-7, p708).
+- Refer for urologic/gynecologic/urodynamic evaluation if: PVR **≥ 200 mL**, difficulty passing a 14-French catheter, recurrent symptomatic UTI (**≥ 2** episodes/12 mo), hematuria, marked prolapse, marked prostatic enlargement/suspected cancer, recent (6–12 mo) pelvic/urinary-tract surgery or irradiation, or failed behavioral/drug trial (Table 47-7, p708).
 
 **Management — behavioral (first-line)**
 - Weight loss of **5%–10%** of body weight reduces UI episodes in women (p708).
@@ -43,8 +43,8 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 **Drugs** (condensed from Table 47-12, p712–713)
 - Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, ↑ intraocular pressure, delirium risk in dementia (p712).
 - Mirabegron (beta-3 agonist) 25–50 mg qd — avoid/caution in uncontrolled hypertension (p712).
-- Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; avoid with gynecologic cancer history (p712).
-- Tamsulosin (alpha blocker, for men) 0.4–0.8 mg qd — orthostatic hypotension (p713).
+- Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712).
+- Tamsulosin (alpha blocker, for men) 0.4–0.8 mg qd — less BP effect than doxazosin/terazosin/prazosin (more orthostatic effect at the 0.8 mg dose) (Table 47-12, p713).
 - Duloxetine 30–60 mg daily — second-line, off-label for stress UI; nausea, xerostomia (p713).
 - Drug therapy overall: **60%–70%** reduction in episode frequency; give a **2–4 week** trial before switching (p711).
 - Class safety signal: antimuscarinic bladder drugs are associated with a **~50%** relative increase in the odds of dementia in epidemiologic studies — still allow a trial with shared decision-making (p713).
@@ -52,11 +52,12 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 **Procedures / devices / catheters**
 - Percutaneous tibial nerve stimulation: weekly **30-minute** sessions for up to **12 weeks** (p714).
 - Botulinum toxin A (cystoscopic): effect lasts about **6 months** (p715).
-- Chronic indwelling catheter: reserve for obstruction that can't be fixed/managed otherwise, non-healing wounds, comfort at end of life, or patient preference (Table 47-13, p715).
+- Chronic indwelling catheter: reserve for urinary retention causing overflow incontinence/infections/renal dysfunction that can't be corrected or managed with intermittent catheterization, non-healing wounds, comfort at end of life, or patient preference (Table 47-13, p715).
 
 **Fecal incontinence**
 - **30%–50%** of institutionalized patients with frequent UI also have fecal incontinence — shared pathophysiology (p716).
 - Constipation is technically **< 3** bowel movements/week (p717); impaction/constipation is the most common cause of fecal incontinence and can drive urinary incontinence too (p716–717).
+- Other major causes: laxative overuse/abuse, neurologic disorders (dementia, stroke, spinal cord disease), colorectal disorders (diarrheal illness, diabetic autonomic neuropathy, rectal sphincter damage); hyperosmotic enteral feedings — dilute or switch to slow continuous infusion (Table 47-15, p716).
 
 **Exam traps / book notes**
 - 2026 Q17 trap (p703): new cough + stress leakage on an ACE inhibitor → stop/switch the ACE inhibitor, not start an antimuscarinic.
@@ -111,7 +112,7 @@ PVR > 200 mL is abnormal; PVR < 100 mL (without straining) generally reflects ad
 
 <details><summary>Answer</summary>
 
-Reversible/acute causes: infection, atrophic vaginitis/urethritis, stool impaction, polyuria (hyperglycemia, hypercalcemia, volume overload), medications, delirium/immobility (Table 47-3, p702).
+Reversible/acute causes: symptomatic infection (not asymptomatic bacteriuria), atrophic vaginitis/urethritis, stool impaction, polyuria (hyperglycemia, hypercalcemia, volume overload), medications, delirium/immobility (Table 47-3, p702).
 
 </details>
 

@@ -317,15 +317,31 @@ Many of the SCA genetic mutations that have been identified to date are associat
 
 <a id="p993"></a>**[p. 993]**
 
+of age for disease onset in an inverse manner. Genetic analyses are estimated to identify only 40% to 60% of familial and less than 25% of sporadic cases. The likelihood that a gene mutation will be identified decreases with older age (> 40). The prevalence of SCAs is between 1 and 4/100,000 with variation by region caused by founder effects: SCA 2 (Cuba), SCA 3 (Azores), and SCA 10 (Mexico). These disorders most commonly present in the third decade of life with some presenting in youth; however, the range of age extends into older ages for many SCAs.
+
+Phenotypic overlap is common in SCA syndromes, but progressive cerebellar disability often presenting early in disease is a common feature. SCA syndromes often affect the noncerebellar portions of the nervous system, particularly as the disease progresses, with neuropathology identified in the brain stem, basal ganglia, and cortex. Such clinical symptoms include oculomotor features (SCA 1, 2, 3), retinopathy (SCA 7), seizures (SCA 10, 17), peripheral neuropathy (SCA 1, 2, 3, 4, 8, 18, 25), or cognitive and behavioral deterioration (SCA 17, dentatorubral pallidoluysian atrophy).
+
+Other neurodegenerative disorders should be considered in patients with progressive cerebellar dysfunction, including mitochondrial diseases, Huntington disease, leukodystrophies, Frederick ataxia, MSA, prion disease, and the premutation associated with fragile X syndrome. Paraneoplastic processes should be considered in patients presenting with subacute cerebellar dysfunction. Treatment for SCA is generally aimed at symptom management, physical and occupational therapy, and genetic counseling.
+
+## Summary Of Neurodegenerative Disorders
+
+Clinical diagnosis of neurodegenerative disorders can be difficult and requires a careful, comprehensive approach and evaluation to make the correct diagnosis. **Table 63-5** summarizes the distinctive features of common non-Alzheimer diseases that cause dementia.
+
 ![Table 63-5](hazzard8e_ch63_table63-5_p993.png)
 
 > *Table 63-5 reproduced as a page image (printed p. 993) — the grid did not extract reliably as text for this fast build.*
 
 > Highlighting is the owner's annotation, not the book's.
 
+## Epilepsy
+
+Epilepsy in older adults can be caused by a variety of diseases, including ischemic and hemorrhagic strokes, mass lesions, infections, inflammatory etiologies, and neurodegenerative diseases. Cognitive comorbidities are frequently seen in people with epilepsy. There is a complicated interrelationship between cognitive dysfunction due to recurrent aberrant network activities during seizures, underlying degeneration or lesions, or antiepileptic medications themselves.
+
+Acute and remote strokes are common causes of seizures in older adults. When a new seizure develops in the setting of a stroke, the cause is generally hemorrhagic, whereas both hemorrhagic and ischemic strokes can cause
+
 <a id="p994"></a>**[p. 994]**
 
-> chronic seizures. A common causes of hemorrhagic stroke is hypertension; however, this generally causes hemorrhages in deep brain structures. Thus hypertension is not the most common cause of strokes associated with seizures. Cortical hemorrhages commonly occur in cerebral amyloid angiopathy (CAA). CAA is characterized by amyloid deposition in the small vessels of both the brain and leptomeninges. This is the same abnormal protein that accumulates in AD, with or without deposition of amyloid in the brain parenchyma. CAA predisposes to small microbleeds and larger intracerebral and subarachnoid hemorrhages.
+chronic seizures. A common causes of hemorrhagic stroke is hypertension; however, this generally causes hemorrhages in deep brain structures. Thus hypertension is not the most common cause of strokes associated with seizures. Cortical hemorrhages commonly occur in cerebral amyloid angiopathy (CAA). CAA is characterized by amyloid deposition in the small vessels of both the brain and leptomeninges. This is the same abnormal protein that accumulates in AD, with or without deposition of amyloid in the brain parenchyma. CAA predisposes to small microbleeds and larger intracerebral and subarachnoid hemorrhages.
 
 Brain tumors are another common cause of epilepsy in older adults. Although primary brain tumors can cause seizures, metastatic lesions are the most common type of intracranial tumors that present with epilepsy in older persons. The tumors that most often metastasize to the brain originate from lung, breast, kidney, colon, rectum, and skin (melanoma).
 
