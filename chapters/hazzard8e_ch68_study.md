@@ -24,7 +24,7 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - In cognitive impairment/dementia: keep questions simple ("Does this hurt?"), use nonverbal observational scales, and involve caregivers (p1058)
 
 **Pharmacokinetic aging changes relevant to dosing** (Table 68-5, p1060)
-- ↓ gastric secretion/motility → altered absorption; ↑ fat, ↓ lean mass/total body water/albumin → altered distribution (more unbound drug with NSAIDs, TCAs); ↓ hepatic and renal blood flow/GFR → ↓ clearance; ↓ lung elasticity/↑ chest wall rigidity → ↑ risk of respiratory depression with opioids (p1059–1060)
+- ↓ gastric secretion/motility → altered absorption; ↑ fat, ↓ lean mass/total body water/albumin → altered distribution (more unbound drug with NSAIDs, TCAs); ↓ hepatic volume/blood flow and ↓ renal blood flow/GFR → ↓ clearance; ↓ lung elasticity/↑ chest wall rigidity → ↑ risk of respiratory depression with opioids (Table 68-5, p1059–1060)
 
 **Opioids**
 - **1 in 3** Medicare Part D beneficiaries received an opioid prescription (2016 analysis) (p1060)
@@ -38,8 +38,10 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 **Nonopioid & adjuvant medications**
 - Acetaminophen: **500–1000 mg q6h**; max **4000 mg/day**; max **2000–3000 mg/day** with hepatic impairment or alcohol use (p1062)
 - NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7, verified against the page image)
-- SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags SNRIs as high-risk with a history of falls/fractures, and TCAs (amitriptyline, nortriptyline) for anticholinergic burden (p1065)
+- Table 68-7 singles out indomethacin and ketorolac as Beers 2019 "avoid" outright (high risk of GI toxicity and acute kidney injury) — a stronger caution than the general "avoid long-term use" that applies to ibuprofen, naproxen, meloxicam, diclofenac, and nabumetone (Table 68-7, p1063)
+- SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags both SNRIs and TCAs (amitriptyline, nortriptyline) as "avoid" with a history of falls/fractures, and TCAs additionally for anticholinergic burden (Table 68-8, p1063)
 - Gabapentinoids/sodium channel blockers (carbamazepine, oxcarbazepine) for neuropathic pain; screen for **HLA-B\*1502** and **HLA-A\*3101** (more common in South Asian ancestry) before carbamazepine — risk of Stevens–Johnson syndrome; carbamazepine is a potent CYP450 inducer (interacts with warfarin, lithium) (p1065)
+- Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use (combined CNS depression); carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
 - Benzodiazepines (eg clonazepam) for neuropathic pain: daily use **>30 days** risks physiologic dependence — taper, don't stop abruptly; tracked as lorazepam milligram equivalents (LMEs) in PDMPs (p1065)
 
 **Interventional & nonpharmacologic treatment**

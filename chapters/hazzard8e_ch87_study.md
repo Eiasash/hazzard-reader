@@ -16,6 +16,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - Normal total gut transit <**72 h**; older adults with chronic constipation average **4-9 days**, extending to **6 days to >14 days** if bedridden/institutionalized (p1356).
 - Slowed transit reduces stool water content (normally **75%**), shrinking fecal bulk and further blunting propulsive activity — a self-worsening cycle (p1356).
 - **37%** of non-constipated older adults cannot expel a simulated stool sphere on evacuation testing — some "abnormal" anorectal test findings are normal-aging, not disease (p1357).
+- Table 87-4 age-related mechanisms of chronic constipation (owner-highlighted): increased colonic collagen deposition, reduced inhibitory nerve input to circular muscle, and increased plasma-endorphin binding to gut receptors (p1356).
 
 ### Risk Factors
 - Polypharmacy (≥**5 medications**) is an established risk factor (p1359); nursing home residents average **6-9 meds/day** (p1358). Anticholinergics are the strongest single drug class implicated.
@@ -56,6 +57,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide 3 or 6 mg** — secretagogues; effective but costly, with limited older-adult trial data (p1377).
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), no significant cardiac-arrhythmia signal (p1378).
 - **PAMORAs for opioid-induced constipation** — naldemedine (**52% vs 35%** achieving >3 CSBM/wk vs placebo) and naloxegol (**42% vs 29%**) (p1378).
+- Table 87-9 laxative mechanisms (owner-highlighted): bisacodyl/picosulfate are prodrugs converted by colonic bacteria/brush-border enzymes to an antiabsorptive, prokinetic metabolite; senna/anthraquinones alter electrolyte transport and stimulate the myenteric plexus to increase motility (p1373–1374).
 
 *No exam-trap or book self-contradiction note is flagged in this source chapter.*
 

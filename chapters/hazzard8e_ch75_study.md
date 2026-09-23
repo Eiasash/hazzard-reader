@@ -17,15 +17,18 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - SAVR bioprosthetic structural deterioration **~10%** at 15–20 yr; Medicare operative mortality **8.8%** overall, **6.0%** at high-volume centers (p1152).
 - Referral bias: **41%** of >70y and **33%** of >75y with severe symptomatic AS were not offered valve replacement in separate European cohort studies (p1152).
 - TAVR "prohibitive SAVR risk" = STS Predicted Risk of Morbidity **and** Mortality **> 50%** (not STS-PROM/mortality alone); valve durability data only confirmed to **5 years** (p1153).
+- Table 75-3 (SAVR vs TAVR vs palliative selection): SAVR favored for longer life expectancy, few frailty markers, TAVR-unsuitable anatomy, or concomitant CAD/valve surgery (lower reintervention/PPM/vascular-complication risk, longer stay); TAVR favored for shorter life expectancy, severe comorbidities/mobility issues, or prior chest irradiation (shorter stay, but accepts higher PPM/vascular-complication risk) (p1153).
+- Palliative care (same table): symptom relief without life prolongation, avoiding periprocedural stroke/PPM/vascular-complication risk — for limited life expectancy, severe dementia/frailty/multiorgan impairment, valve anatomy/access unsuitable for TAVR, or goals of care against futile procedures (p1153).
 
 **Aortic insufficiency (AI)**
 - Chronic AI in **20–30%** of >65y (p1153).
+- Table 75-4 eponymous AI signs (owner-highlighted): Austin Flint murmur = low-pitched mid-diastolic rumble; Duroziez sign = to-and-fro femoral bruit with compression; Quincke sign = pulsatile nail beds; Watson's water-hammer pulse = bounding peripheral pulse; Corrigan pulse = rapidly rising/falling pulse on palpation (p1154).
 - Asymptomatic, normal LV function: **0.2%**/yr sudden death, **3.5%**/yr progress to symptoms, **6%**/yr develop LV dysfunction or symptoms; once LV dysfunction develops, **>25%**/yr progress to symptomatic disease (p1153).
 - Symptomatic mortality **>10%**/yr for angina, **>20%**/yr for heart failure (medical management only) (p1154).
 - NYHA III–IV: **25%**/yr mortality; NYHA II: **6%**/yr (p1153).
 - LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
 - Table 75-5 severe cutoffs: jet-width/LVOT ratio **≥ 65%**, vena contracta **≥ 0.6 cm**, regurgitant volume **≥ 60 mL/beat**, EROA **≥ 30 mm²** (p1154).
-- Surgery considered once LVESD **> 50 mm** (dilated ventricle) or **> 65 mm** even if asymptomatic and low surgical risk (confirmed consistent on both Table 75-6 and body text) (p1155).
+- Table 75-6 tiers — **indications** (actual replacement criteria): symptomatic + severe AI regardless of LV function, OR asymptomatic + severe AI + EF **< 50%**, OR severe AI undergoing other cardiac surgery; **considerations**: asymptomatic, normal LV function, dilated ventricle with LVESD **> 50 mm**, or moderate AI undergoing other cardiac surgery; **possible indication**: asymptomatic, normal function, LVESD **> 65 mm** if surgical risk is low (p1155).
 - LV-dysfunction operative mortality **at least 10%**, with lower postsurgical survival (p1155).
 
 **Mitral stenosis (MS)**
@@ -49,9 +52,9 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; both as printed.
 
 **Perioperative risk, anticoagulation, prosthetic valves**
-- Table 75-12 (STS-PROM): low risk **< 4%**, intermediate **4–8%**, high **> 8%**, prohibitive = risk of death/morbidity **> 50%** (p1160).
+- Table 75-12 risk criteria (combine per column, not PROM alone): low = STS-PROM **< 4%** *and* no frailty *and* no organ dysfunction *and* no procedure impediment; intermediate = **4–8%** *or* 1 frailty index *or* 1 organ system *or* possible impediment; high = **> 8%**, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk **> 50%** *or* ≥3 organ systems *or* severe impediment (p1160).
 - Antibiotic prophylaxis (Table 75-14): **amoxicillin 2 g PO** 1h pre-procedure (standard); penicillin-allergic: **clindamycin 600 mg** or **cephalexin 2 g** PO; unable to take oral: **ampicillin 2 g IV/IM**; unable to take oral + PCN-allergic: **clindamycin 600 mg IV** or **cefazolin 1 g IV/IM** (p1161). Given only for gingival/periapical/oral-mucosal dental procedures or active-infection surgery, not routine nondental procedures (p1161).
-- Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only**; aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
+- Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only** if no risk factors — with risk factors, bioprosthetic mitral rises to **INR 2.5–3.5** (bioprosthetic aortic stays **2–3**, no stated 3-mo limit); aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
 - Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
 - INR **> 5**: hold warfarin + oral vitamin K **1–2.5 mg**, recheck daily until < 5 (p1161).
 - Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; bridge with heparin once INR **< 2** if high-risk (p1162).

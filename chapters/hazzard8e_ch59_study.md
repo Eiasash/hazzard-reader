@@ -42,7 +42,7 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 **Drugs**
 - **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — titrate dose roughly **every 2 months**; **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
 - **Memantine (Namenda)** — NMDA-receptor antagonist, approved for **moderate-to-severe AD**; combo with an AChEI is not superior to either drug alone (p911).
-- **Aducanumab** — FDA accelerated approval **June 2021**; anti-amyloid monoclonal antibody. One trial: **22%** reduced cognitive decline (CDR-SB) over **18 months**; the other trial showed no benefit. ARIA-E/ARIA-H in **34–36%** of high-dose patients, **~80%** of those asymptomatic (p911).
+- **Aducanumab** — FDA accelerated approval **June 2021**; anti-amyloid monoclonal antibody, **FDA-labeled only for MCI due to AD and mild AD** (not moderate-to-severe AD) (Table 59-7, p914). One trial: **22%** reduced cognitive decline (CDR-SB) over **18 months**; the other trial showed no benefit. ARIA-E/ARIA-H in **34–36%** of high-dose patients, **~80%** of those asymptomatic (p911).
 
 **Prevention, safety, and end-of-life**
 - **SPRINT-MIND**: SBP goal **120 mmHg** (vs 140) → **19%** reduction in incident MCI (p915).

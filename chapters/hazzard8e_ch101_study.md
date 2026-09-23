@@ -26,7 +26,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - Rheumatoid nodules in up to **40%** of seropositive White patients; pleuritis/pericarditis in **20–30%** (usually asymptomatic) (p1613)
 
 **RA — pharmacotherapy (Table 101-4, Table 101-5)**
-- Methotrexate monotherapy = first-line for DMARD-naïve moderate-high activity (2021 ACR guideline) (p1614, p1616)
+- Methotrexate monotherapy = first-line for DMARD-naïve moderate-high activity, started **without short- or long-term glucocorticoids** (2021 ACR guideline) (p1614, p1616)
 - Hydroxychloroquine dose **5 mg/kg**; **annual ocular screening**, preferably with OCT — avoid in macular degeneration/dense cataract (p1614)
 - Biologic/tsDMARD added if not at target on max-tolerated methotrexate, preferred over triple csDMARD therapy (p1616)
 
@@ -62,7 +62,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 **COVID-19 and rheumatic disease (Table 101-11)**
 - mRNA vaccines preferred over J&J; immunosuppressed patients get an extra dose ≥28 days after primary series (p1627–1628)
-- Rituximab: vaccinate **2–4 weeks before** next anticipated dose; most other agents held **1–2 weeks** post-vaccination if disease activity allows (p1628)
+- Rituximab: vaccinate **2–4 weeks before** next anticipated dose; most other agents held **1–2 weeks** post-vaccination if disease activity allows — but the Task Force reached **no consensus** on interrupting TNF/IL-6R/IL-1R/IL-17/IL-12,23/IL-23 inhibitors around vaccination (Table 101-11, p1628)
 
 ## Drill
 

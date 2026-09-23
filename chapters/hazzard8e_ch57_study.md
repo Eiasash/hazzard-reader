@@ -19,6 +19,12 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - **CKD** cognitive impairment prevalence **10-40%**, depending on disease severity/duration (p860)
 - High-dose **vitamin E (2000 IU/day)** reduced *functional* decline in mild-to-moderate AD in a large trial, though evidence for prevention is weak overall (p860-861)
 - Depression prevalence in older adults: **11-30%** (p861)
+- Table 57-2's per-condition grid flags **AD, VaD, and PD** risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, and sleep apnea are flagged for **AD and VaD only** (no PD); nutritional deficiency for **AD and Wernicke-Korsakoff syndrome**; thyroid disease for **AD** alone (Table 57-2, p857-858)
+- Per the table, several of these cognitive effects can improve with treatment (cardiac rehab, year 1 post-surgery, antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but **B12/vitamin D deficits may persist** despite supplementation, and some thyroid patients **don't return to cognitive baseline** (Table 57-2, p857-858)
+
+**Differentiating dementia types (Table 57-3, p863-866)**
+- Of the major dementia types compared, only **AD shows impaired recognition** (not just recall) on memory testing; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia can have **stepwise or acute onset** with executive deficits relatively more prominent than memory loss
+- **Behavioral variant FTLD**: early disinhibition, apathy, loss of empathy/sympathy, hyperorality, with recent memory relatively preserved; **PSP**: vertical gaze palsy + postural instability; **CBS**: asymmetric motor signs + alien limb; **NPH**: wide-based gait, urinary incontinence, confusional state
 
 **MCI due to AD**
 - NIA/AA criteria: (1) cognitive concern, (2) objective impairment in ≥1 domain, (3) preserved functional independence, (4) no dementia (p868-869)

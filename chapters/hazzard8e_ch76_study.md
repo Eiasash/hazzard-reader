@@ -7,6 +7,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 ### Definition & Epidemiology
 - HF is a syndrome (not a single disease) resulting from any structural/functional cardiac disorder impairing ventricular filling or ejection (p1165).
 - **~6.5 million** Americans affected; projected to exceed **8 million by 2030**; **>1 million** new cases/year. Prevalence **doubles every decade after 40**, exceeding **10%** in both men and women over 80 (p1166).
+- Rising HF incidence/prevalence reflects more than population aging: improved survival from CAD, stroke, renal disease, cancer, and infections, plus growing obesity/diabetes, expand the pool of patients who live long enough to develop HF (Table 76-1, p1166).
 - **1 million** primary-HF hospital admissions in 2014: **71%** in patients >65y, **53%** ≥75y, **25%** occurred in the **2%** of the population ≥85y. Almost **2 million** ambulatory visits in 2016 — HF ranks 2nd only to hypertension among CV outpatient reasons (p1166).
 - Annual cost **>$35 billion**; projected **$69.8 billion by 2030** (≈**$244**/US adult) (p1166).
 
@@ -28,7 +29,8 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - Classic signs: pulmonary rales, elevated JVP, abdominojugular reflux, S3 gallop, pitting edema — but often unreliable in older adults (p1173).
 - **Highly specific** in older adults: pulsus alternans, S3 gallop, JVD at rest or with abdominojugular reflux maneuver (p1173).
 - BNP **>500 pg/mL** in the right clinical context is highly suggestive of active HF; a normal value (**<100 pg/mL**) in a nonobese older adult makes HF much less likely — but natriuretic-peptide specificity **declines with age** and is lower with higher BMI (p1174).
-- Diagnostic workup Class I (most patients): CBC, chemistries, TSH, BNP/NT-proBNP, UA, CXR, ECG, 2D echo with Doppler (Table 76-6, p1174).
+- Diagnostic workup Class I (most patients): CBC, chemistries, TSH, BNP/NT-proBNP, UA, CXR, ECG, 2D echo with Doppler, **and cardiac catheterization/coronary angiography if angina or significant ischemia** (unless not a revascularization candidate) (Table 76-6, p1174).
+- HFREF vs HFPEF exam clues: HFREF trends younger/male with prior MI, displaced PMI, S3 gallop, Q waves; HFPEF trends older/female with hypertension/diabetes/obesity/aortic stenosis, preserved PMI, S4 gallop (Table 76-7, p1175).
 
 ### HFREF vs HFPEF
 - HFREF "usually defined as ejection fraction **less than 40% to 50%**" (p1175) — the chapter then narrows this to a specific working cutoff for the rest of the discussion: **EF <45%** for HFREF and **EF ≥45%** for HFPEF (p1175). Know both numbers (see Exam traps below).
@@ -40,6 +42,8 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - Nonadherence/behavioral factors drive readmission: **64%** of exacerbations tied to medication/diet nonadherence in one study, **26%** to emotional/environmental factors; in a 140-patient cohort (age ≥70), **47%** were readmitted within 90 days (p1176).
 - Meta-analysis of 33 disease-management trials: HF readmissions **↓42%**, all-cause readmissions **↓24%**, mortality **↓20%** (p1176).
 - Sodium target **1500–3000 mg/d** — expert consensus, not trial-derived (p1176).
+- Dietary counseling also specifies fluid restriction (**>2 L/d**, especially if Na **<130**) alongside sodium limitation, plus low-fat/low-cholesterol and adequate-calorie guidance (Table 76-8, p1177).
+- Exercise is contraindicated with decompensated NYHA IV HF, severe aortic stenosis/hypertrophic cardiomyopathy, recent MI/unstable angina (within 2wk), or uncontrolled arrhythmia/acute serious illness (Table 76-9, p1178).
 - PICNIC trial (120 malnourished patients, mean age 79): intensive dietary counseling → death/HF hospitalization at 1y **27% vs 61%** (*p*<0.001) (p1177).
 - HF-ACTION (2331 patients, EF ≤35%): exercise → **7%** reduction in death/hospitalization, unadjusted (ns, *p*=0.13); **11%** reduction after adjustment (*p*=0.03) (p1177–1178).
 
@@ -63,7 +67,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 
 ### HFPEF-Specific Therapy
 - Only **SGLT2 inhibitors** show consistent benefit in HFPEF trials to date.
-- EMPEROR-Preserved (**n=5988**, EF **>40%**): death/HF hospitalization HR **0.79** (95% CI 0.69–0.90, *p*<0.001), driven by fewer HF hospitalizations; effect consistent regardless of diabetes status (p1188).
+- EMPEROR-Preserved (**n=5988**, EF **>40%**): death/HF hospitalization HR **0.79** (95% CI 0.69–0.90, *p*<0.001), driven by fewer HF hospitalizations; effect consistent regardless of diabetes status (p1188). Dapagliflozin also improved symptoms/exercise function over 12wk in the smaller Preserved-HF trial (n=324) (Table 76-11, p1185).
 - Digoxin **not recommended** in HFPEF except as an adjunct for rate control in AF (p1188).
 
 ### Prognosis & End-of-Life

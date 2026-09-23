@@ -24,11 +24,13 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections more often follow occult bacteremia from GI/GU sources (p1671–1672)
 - PJ (prosthetic joint) antibiotic prophylaxis for dental/GI/GU procedures is only "considered" by the ADA, and only for **"high risk"** PJs — placed within **2 years**, or in immunosuppressed patients, or with prior joint infection (p1675)
 - Age alone should **never** be the reason to withhold curative therapy for device infection — expected function and life expectancy should drive the decision (KCP #4, p1667; detail p1674)
+- Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
 **GI infections and *C difficile***
 - Asymptomatic *C difficile* carriage: **2%** community, **10%** community with outpatient healthcare exposure, **20–50%** hospital/long-term care (p1675)
 - About **15%** of asymptomatic carriers develop symptomatic CDI after receiving antibiotics (p1675)
 - Fecal microbiota transplantation (FMT) for refractory relapse: **80–90%** success (p1675)
+- Treatment is tiered: vancomycin first-line; fidaxomicin equivalent for cure and lowers relapse but costlier (limits first-line use); metronidazole no longer first-line except IV-added to vancomycin in severe disease/ileus/toxic megacolon; vancomycin prophylaxis in patients with recent CDI needing further antibiotics cuts recurrence from **26% to 4%** (p1672–1673, Table 104-1)
 
 **Tuberculosis**
 - Older adults present atypically — more nonspecific dizziness/pain/"dullness" than classic fever/night sweats/hemoptysis; more widespread (vs isolated upper-lobe) infiltrates (p1675)

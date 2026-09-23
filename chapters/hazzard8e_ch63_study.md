@@ -11,6 +11,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Prominent early behavior/personality change without amnesia → suspect **FTD** (p982).
 - Vertical gaze abnormality + **preserved oculocephalic reflex** + falls/dysphagia = PSP hallmark (p981).
 - Possible bvFTD needs **3 of 6** core symptoms (early disinhibition, apathy, loss of sympathy/empathy, repetitive motor behaviors, hyperorality, executive deficit) (p982).
+- Underlying pathology groups the syndromes: **alpha-synuclein** unites DLB, PDD, and MSA; **tau** predominates in PSP, CBD, and nfvPPA; **TDP-43** in svPPA; **amyloid β + tau** in AD and lvPPA (Table 63-5, p993).
 
 ### Dementia with Lewy Bodies (DLB)
 - Core tetrad: fluctuating cognition, spontaneous parkinsonism, RBD, recurrent visual hallucinations.
@@ -71,7 +72,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Survival 6–10y** from diagnosis; levodopa helps some patients but efficacy wanes (p992).
 
 ### Spinocerebellar Ataxia (SCA)
-- Heterogeneous, mostly autosomal-dominant trinucleotide-repeat expansions; numbered by discovery order; variable penetrance. The gene/repeat table (Table 63-5) did not extract as text in this build — see the page image for specifics (p993).
+- Heterogeneous, mostly autosomal-dominant trinucleotide-repeat expansions; numbered by discovery order; variable penetrance (p992).
 
 ### Seizures/epilepsy in older adults
 - New cortical (lobar) hemorrhage → think **cerebral amyloid angiopathy (CAA)**, not hypertension (hypertensive hemorrhages are typically deep) (p994).
