@@ -144,7 +144,7 @@ Epigenetic age or clock, an estimation of biological age using DNA-methylation b
 
 > Highlighting is the owner's annotation, not the book's.
 
-be an important assessment of biological aging in cancer. Individuals with epigenetic age that surpasses their chronological age have an increased risk of all-cause mortality, even after adjusting for other risk factors. However, more
+be an important assessment of biological aging in cancer. Individuals with epigenetic age that surpasses their chronological age have an increased risk of all-cause mortality, even after adjusting for other risk factors. However, more research is needed, to enhance our understanding of biological measures of aging that are clinically meaningful, reliable, and feasible to obtain in older patients with cancer.
 
 ![Table 88-1](hazzard8e_ch88_table88-1_p1387.png)
 

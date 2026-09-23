@@ -56,7 +56,7 @@ Many diseases and associated impairments have been identified as risk factors of
 
 ### Medications
 
-Both community and institutional studies have demonstrated consistent associations between medication use and falls in older people, particularly for psychoactive medication (benzodiazepine, antidepressant, and antipsychotic) and multiple medication use. These studies indicate that use of psychoactive medications leads to a two to threefold increased risk of falls and a twofold increased risk of I experiencing a hip fracture. The association between the use of nonsteroidal anti-inflammatory drugs and falls is
+Both community and institutional studies have demonstrated consistent associations between medication use and falls in older people, particularly for psychoactive medication (benzodiazepine, antidepressant, and antipsychotic) and multiple medication use. These studies indicate that use of psychoactive medications leads to a two to threefold increased risk of falls and a twofold increased risk of experiencing a hip fracture. The association between the use of nonsteroidal anti-inflammatory drugs and falls is
 
 <a id="p635"></a>**[p. 635]**
 **Table 43-1 — Risk factors for falls**
