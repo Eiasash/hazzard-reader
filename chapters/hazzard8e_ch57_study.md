@@ -23,7 +23,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - Per the table, several of these cognitive effects can improve with treatment (cardiac rehab, year 1 post-surgery, antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but **B12/vitamin D deficits may persist** despite supplementation, and some thyroid patients **don't return to cognitive baseline** (Table 57-2, p857-858)
 
 **Differentiating dementia types (Table 57-3, p863-866)**
-- Of the major dementia types compared, only **AD shows impaired recognition** (not just recall) on memory testing; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia can have **stepwise or acute onset** with executive deficits relatively more prominent than memory loss
+- Of the major dementia types compared, **AD and Wernicke-Korsakoff syndrome are the only ones with impaired recognition** (not just recall) on memory testing — the table marks both "Recognition intact?" **N**; PD/PDD, DLB, and VaD are variable/intact; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia can have **stepwise or acute onset** with executive deficits relatively more prominent than memory loss
 - **Behavioral variant FTLD**: early disinhibition, apathy, loss of empathy/sympathy, hyperorality, with recent memory relatively preserved; **PSP**: vertical gaze palsy + postural instability; **CBS**: asymmetric motor signs + alien limb; **NPH**: wide-based gait, urinary incontinence, confusional state
 
 **MCI due to AD**

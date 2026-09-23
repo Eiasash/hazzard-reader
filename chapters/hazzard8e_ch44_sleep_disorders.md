@@ -54,11 +54,6 @@ Many of the illnesses associated with aging can disrupt sleep, which may inhibit
 Sleep-disordered breathing (SDB) is characterized by disturbed respiration during sleep arising from repetitive events of complete (ie, apnea) or partial (ie, hypopnea) cessation of airflow lasting at least 10 seconds. This is classified as obstructive sleep apnea (OSA) when the events are due to an obstructed airway, which is determined by the persistence of respiratory effort. On the other hand, if there ---- - is concomitant cessation of breathing effort, the disorder is classified as central sleep apnea (CSA) because there is - a momentary defect in the central control of breathing
 
 <a id="p645"></a>**[p. 645]**
-![Table 44-x](hazzard8e_ch44_table44-x_p645.png)
-
-> *Table 44-x reproduced as a page image (printed p. 645) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ![Figure 44-2](hazzard8e_ch44_figure44-2.png)
 
@@ -263,7 +258,9 @@ The primary long-acting dopamine agonists that are used for persistent RLS inclu
 <a id="p653"></a>**[p. 653]**
 **Table 44-2 — Pharmacologic treatment of plms/rls**
 
-|**CLASS**|**GENERIC**|**BRAND**|**DOSE**| |---|---|---|---| |Dopaminergic agents|Ropinirole<br>Pramipexole<br>Carbidopa/levodopa<sup>a</sup>|Requip<br>Mirapex<br>Sinemet|0.25–4 mg<br>0.125–2 mg<br>25/100–25/200 mg| |α2δ calcium channel ligands|Gabapentin encarbil<br>Gabapentin<sup>a</sup><br>Pregabalin<sup>a</sup>|Horizant<br>Neurontin<br>Lyrica|600–1200 mg<br>100–1800 mg<br>300 mg| |Benzodiazepines|Clonazepam<sup>a</sup><br>Temazepam<sup>a</sup>|Klonopin<br>Restoril|0.25–2 mg<br>15–30 mg| … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+|**CLASS**|**GENERIC**|**BRAND**|**DOSE**| |---|---|---|---| |Dopaminergic agents|Ropinirole<br>Pramipexole<br>Carbidopa/levodopa<sup>a</sup>|Requip<br>Mirapex<br>Sinemet|0.25–4 mg<br>0.125–2 mg<br>25/100–25/200 mg| |α2δ calcium channel ligands|Gabapentin encarbil<br>Gabapentin<sup>a</sup><br>Pregabalin<sup>a</sup>|Horizant<br>Neurontin<br>Lyrica|600–1200 mg<br>100–1800 mg<br>300 mg| |Benzodiazepines|Clonazepam<sup>a</sup><br>Temazepam<sup>a</sup>|Klonopin<br>Restoril|0.25–2 mg<br>15–30 mg| |Opiate agents|Codeine<sup>a</sup><br>Tramadol<sup>a</sup><br>Oxycodone<sup>a</sup><br>Hydrocodone<sup>a</sup><br>Methadone<sup>a</sup>|Tylenol #3/#4<br>Ultram<br>Roxycodone<br>Vicodin<br>—|30–60 mg (codeine)<br>50–100 mg<br>5–15 mg<br>5–15 mg<br>5–10 mg|
+
+<sup>a</sup>Off-label.
 
 er in the day, switching to a different dopamine agonist, or preferably switching to a different class of medication. Other important side effects - of dopamine agonists include daytime sleepiness, headaches, and nausea. Behavioral disinhibition is a potentially dangerous side effect that can threaten a patient’s livelihood. There is no evidence that tolerability of these agents changes with ageing.
 
@@ -361,7 +358,15 @@ Circadian rhythms refer to the 24-hour biological rhythms that control functions
 
 <a id="p656"></a>**[p. 656]**
 
+Circadian rhythm disorders are a chronic or recurrent pattern of sleep-wake rhythm disruption due to a misalignment between the patient's endogenous circadian rhythm and their desired or red sleep-wake cycle. For this to be considered a disorder it must cause bothersome insomnia symptoms and/or excessive sleepiness. For instance, a retired person who is not bothered by going to bed at 8 PM and waking up at 4 AM does not have a disorder.
 
+_Delayed sleep-wake phase disorder_ is a delay in the phase of the endogenous major sleep episode with respect to the desired major sleep episode such that the patient complains of an inability to fall asleep and difficulty waking up at the desired time.
+
+_Advanced sleep-wake phase disorder_ is an advance in the phase of the endogenous major sleep episode with respect to the desired major sleep episode such that the patient complains of difficulty staying awake until the desired bedtime, with an inability to remain asleep until the desired awakening time.
+
+_Irregular sleep-wake rhythm disorder_ is characterized by a lack of a clearly defined circadian rhythm resulting in insomnia at night and excessive sleep during the day ( **Figure 44-9** ). This disorder is often associated with neurodegenerative diseases and is likely common in the nursing home setting.
+
+_Non–24-hour sleep-wake rhythm disorder_ usually occurs from a patient's inability to entrain their circadian rhythm to light due to complete blindness. The natural circadian rhythm is typically longer than 24 hours. Thus, each subsequent day, the patient will go to bed and wake up a little later. This leads to episodes of insomnia and hypersomnia ( **Figure 44-10** ).
 
 ![Figure 44-9](hazzard8e_ch44_figure44-9.png)
 

@@ -64,7 +64,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 **Drugs — noninsulin (Table 99-11, p1577–1578)**
 - **Metformin**: 500–1000 mg BID (max **2500 mg/d**); ER 500–2000 mg qd (p1577). Cautions: avoid if **eGFR <30**; avoid in unstable heart failure/acute illness (lactic-acidosis risk) (p1576).
 - **Sulfonylureas** (e.g., glipizide 2.5–10 mg qd–BID) (p1577). Cautions: hypoglycemia; avoid **glyburide** — long half-life, not recommended in older adults (p1579); avoid in renal/hepatic impairment (p1579).
-- **DPP-4 inhibitors** (e.g., sitagliptin 100 mg qd) (p1577). Cautions: renal dose-adjust (except linagliptin); possible pancreatitis.
+- **DPP-4 inhibitors** (e.g., sitagliptin 100 mg qd) (p1577). Cautions: renal dose-adjust (except linagliptin); possible pancreatitis; possible heart-failure hospitalization.
 - **GLP-1 agonists** (e.g., liraglutide, semaglutide [also oral], dulaglutide) — injectable, mostly weekly; source table does not pair each dose line to its named agent (p1577–1578). Cautions: nausea/vomiting, possible pancreatitis, avoid exenatide/lixisenatide if **eGFR <30**.
 - **SGLT-2 inhibitors** (e.g., empagliflozin 10–25 mg qd) (p1578). Cautions: avoid if **eGFR <25–30** — Table 99-11 (p1578); genital/UTI infections; euglycemic DKA risk (p1580).
 - **Thiazolidinediones** (pioglitazone 15–45 mg qd) (p1578). Cautions: avoid in heart failure (fluid retention), bone-fracture risk.

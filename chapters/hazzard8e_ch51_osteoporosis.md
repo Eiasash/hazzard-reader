@@ -116,7 +116,7 @@ RANKL is mainly a cytoplasmic membrane-bound molecule; to a lesser extent, it is
 
 > Highlighting is the owner's annotation, not the book's.
 
-t differentiation. Consequently, osteoblastogenesis and osteoclastogenesis, along with corresponding bone formation and resorption, are tightly and ineluctably coupled. The differentiation and activation of both osteoblasts and osteoclasts depend critically on each other; however, recent evidence indicates that osteocytes also play an essential role in bone turnover by regulating osteoblast function and survival as well as osteoclast function; all modulated by hormones, growth factors, and mechanical forces.
+limit osteoclast activity while enhancing osteoblast differentiation. Consequently, osteoblastogenesis and osteoclastogenesis, along with corresponding bone formation and resorption, are tightly and ineluctably coupled. The differentiation and activation of both osteoblasts and osteoclasts depend critically on each other; however, recent evidence indicates that osteocytes also play an essential role in bone turnover by regulating osteoblast function and survival as well as osteoclast function; all modulated by hormones, growth factors, and mechanical forces.
 
 ## Genetics
 

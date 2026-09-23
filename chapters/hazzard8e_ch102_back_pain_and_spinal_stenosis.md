@@ -202,13 +202,11 @@ Manual muscle testing of the lower extremity gives much useful information, as s
 
 Most patients with lumbar disc disease or lumbar spinal stenosis will have some abnormalities of the examination of the lumbar spine or of the muscles innervated by L4, L5 or L5, S1. Patients with vertebral compression fractures may have a good deal of tenderness in the lumbar spine but should have no neurologic abnormalities. Patients with osteoporotic sacral fractures will have sacral tenderness, but a normal lumbar spine examination and no lower extremity muscle weakness. Those with sciatica almost always have L4, L5 and L5, S1 weakness. A patient with persistent, severe back pain, but with a normal examination of the lumbar spine, sacrum, and hips and no evidence of L4, L5 or L5, S1 muscle weakness, should be evaluated thoroughly for a possible neoplasm or infection.
 
-onset back pain may suggest retropulsed bone fragments in the spinal canal or foraminae which should be further evaluated with urgent MRI or CT scan and urgent consultation with a spine surgeon.
+New neurologic abnormalities (dermatomal sensory deficits, focal weakness, clonus) associated with abrupt onset back pain may suggest retropulsed bone fragments in the spinal canal or foraminae which should be further evaluated with urgent MRI or CT scan and urgent consultation with a spine surgeon.
 
 ## Laboratory Tests And Imaging
 
 The interpretation of diagnostic tests in older patients with back pain is a challenge, given the high rate of abnormal tests in asymptomatic individuals in this age group. A complete blood count and erythrocyte sedimentation rate/Creactive protein are reasonable screening tests if the patient’s history and physical examination suggest a tumor or infection. While routine imaging for low back pain in younger
-
-New neurologic abnormalities (dermatomal sensory deficits, focal weakness, clonus) associated with abrupt
 
 ![Figure 102-2](hazzard8e_ch102_figure102-2.png)
 
