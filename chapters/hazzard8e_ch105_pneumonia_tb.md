@@ -212,7 +212,7 @@ There are other independent and dynamic factors that influence prognosis regardi
 
 > Highlighting is the owner's annotation, not the book's.
 
-the probability of bacteremia, the presence of sepsis, severe sepsis or septic shock, and the inclusion of biomarkers should be taken into account in the decision-making process. As discussed previously, sepsis may be underdiagnosed in older adults due to physiologic changes with aging.
+the systemic inflammatory response. Therefore, the probability of bacteremia, the presence of sepsis, severe sepsis or septic shock, and the inclusion of biomarkers should be taken into account in the decision-making process. As discussed previously, sepsis may be underdiagnosed in older adults due to physiologic changes with aging.
 
 ## Site Of Care
 
@@ -287,9 +287,7 @@ IM, intramuscular; IV, intravenous; PO, oral.
 
 comorbidity and polypharmacy, making them more vulnerable to the occurrence of adverse drug reactions. In addition, there may be important risk factors that determine specific etiologic risk (MDRO or MRSA colonization, aspiration risk, etc). Antibiotic choices in such patients must include broader coverage in addition to routine pathogens.
 
-The first antibiotic dose should be administered as soon as possible because a shorter interval to effective therapy is associated with decreased length of hospital stay and mortality, both in nonsevere patients and in those who present with severe sepsis or septic shock. Combination therapy is indicated in patients that meet criteria for ICU admission; β-lactam and a macrolide or fluoroquinolone are superior to fluoroquinolone monotherapy. If influenza is circulating in the community, oseltamivir should be added, even if more than 48 hours have passed since symptom onset, and treatment against _S aureus_ provided until cultures suggest otherwise. In patients with risk factors, empiric MRSA treatment is advisable while awaiting conventional cultures and nasopharyngeal swabs—specific
-
-### Treatment Against Mrsa Should Be Suspended If These Are Negative.
+The first antibiotic dose should be administered as soon as possible because a shorter interval to effective therapy is associated with decreased length of hospital stay and mortality, both in nonsevere patients and in those who present with severe sepsis or septic shock. Combination therapy is indicated in patients that meet criteria for ICU admission; β-lactam and a macrolide or fluoroquinolone are superior to fluoroquinolone monotherapy. If influenza is circulating in the community, oseltamivir should be added, even if more than 48 hours have passed since symptom onset, and treatment against _S aureus_ provided until cultures suggest otherwise. In patients with risk factors, empiric MRSA treatment is advisable while awaiting conventional cultures and nasopharyngeal swabs—specific treatment against MRSA should be suspended if these are negative.
 
 Intracellular pathogens are less common in older patients compared to younger patients, and the need for coverage of atypical pathogens is currently a point of discussion. In some studies, the incidence of “atypical pneumonia” can reach 50% and mixed infections may represent 10% to 15% of cases. There is some controversy, except for _L pneumophila_ , regarding the benefit of atypical pathogen coverage; American guidelines recommend adequate coverage of atypical pathogens in all cases, while the British guidelines limit it to patients requiring hospitalization. For _L pneumophila_ , recent studies show similar rates of causality in nonsevere pneumonia and those requiring hospitalization. Therefore, if it is not possible to rule out infection due to _Legionella_ , a macrolide or respiratory quinolone should be given with a β-lactam. In case of suspected pulmonary tuberculosis, quinolones should not be prescribed due to their tuberculostatic activity and the possibility of delaying the diagnosis of pulmonary tuberculosis.
 

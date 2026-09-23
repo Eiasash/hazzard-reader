@@ -61,9 +61,7 @@ Sleep-disordered breathing (SDB) is characterized by disturbed respiration durin
 
 > Highlighting is the owner's annotation, not the book's.
 
-> than 15, or when it is greater than 5 with significant symp• toms or related comorbidities. An AHI greater than 30 is generally considered to indicate severe SDB.
-
-( **Figure 44-2** ). OSA is by far the most common sleep-related breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of - - SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater - (
+( **Figure 44-2** ). OSA is by far the most common sleep-related breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of - - SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater than 15, or when it is greater than 5 with significant symp• toms or related comorbidities. An AHI greater than 30 is generally considered to indicate severe SDB.
 
 The consequences of respiratory events during sleep include arousals from sleep, intrathoracic pressure swings, and cyclical drops in the blood oxygen level. This ultimately leads to sleep fragmentation and nocturnal hypoxemia, which may lead to significant health consequences.
 

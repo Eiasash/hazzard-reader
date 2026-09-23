@@ -215,21 +215,19 @@ Other physiologic pacing methodology is evolving such as HIS bundle pacing (HBP)
 
 > Highlighting is the owner's annotation, not the book's.
 
-### Indications for PPM After Transcatheter Aortic Valve Replacement
-
-Transcatheter aortic valve replacement (TAVR) is being increasingly performed in the older population (see Valvular Heart Disease, Chapter 75). Acquired AVB following TAVR commonly occurs. Predictors of PPM implantation are preexisting RBBB, increased left ventricular enddiastolic diameter, increased valve prosthesis to left ventricular outflow tract ratio, and new LBBB. Incidence of new LBBB is 19% to 55% and high-degree AVB is 10% after TAVR; however, half of these may resolve before discharge. PPM is indicated before discharge for patients with new and symptomatic AVB associated with hemodynamic instability. Indications for pacing in patients with persistent LBBB without symptoms are evolving. Studies have shown in up to 30% of patients with new LBBB, the first episode of high-degree AVB occurs after discharge with potential risk for syncope. Careful surveillance for bradycardia after discharge is recommended for those who develop prolonged PR interval or new BBB after TAVR.
-
-### PPM Management Near End of Life
-
-Conversations related to end-of-life PPM management should be discussed at the time of implantation or at early stage of terminal illness. Patients should be encouraged to complete advanced directive early on to address device management and deactivation when patient becomes terminally ill. Like any other decision to withdraw treatments, the decision to deactivate PPM can be made by patient or the legal surrogate through shared decision-making process together with the physician. The role of physician is to inform patient, surrogate, and family member of the
-
 ![Figure 77-5B](hazzard8e_ch77_figure77-5b.png)
 
 > *FIGURE 77-5B. Chest X-ray lateral view showing CRT pacemaker with right atrial, right ventricular, and coronary sinus leads (the green arrow indicates the atrial lead; the red arrow right ventricular lead; and the blue arrow coronary sinus lead also known as left ventricular lead).*
 
 > Highlighting is the owner's annotation, not the book's.
 
-consequences of deactivating the PPM. Death may immediately follow PPM deactivation in those who are dependent. Those who are not must be monitored for potential symptoms such as respiratory distress rendering intensification of comfort measures. After shared decisionmaking, written request to deactivate the PPM is required by the physician along with a do-not-resuscitate (DNR) order. Medical, ethical, and legal guiding principles on deactivation of PPM can be found in the Heart Rhythm Society 2010 Consensus Statement on this topic.
+### Indications for PPM After Transcatheter Aortic Valve Replacement
+
+Transcatheter aortic valve replacement (TAVR) is being increasingly performed in the older population (see Valvular Heart Disease, Chapter 75). Acquired AVB following TAVR commonly occurs. Predictors of PPM implantation are preexisting RBBB, increased left ventricular enddiastolic diameter, increased valve prosthesis to left ventricular outflow tract ratio, and new LBBB. Incidence of new LBBB is 19% to 55% and high-degree AVB is 10% after TAVR; however, half of these may resolve before discharge. PPM is indicated before discharge for patients with new and symptomatic AVB associated with hemodynamic instability. Indications for pacing in patients with persistent LBBB without symptoms are evolving. Studies have shown in up to 30% of patients with new LBBB, the first episode of high-degree AVB occurs after discharge with potential risk for syncope. Careful surveillance for bradycardia after discharge is recommended for those who develop prolonged PR interval or new BBB after TAVR.
+
+### PPM Management Near End of Life
+
+Conversations related to end-of-life PPM management should be discussed at the time of implantation or at early stage of terminal illness. Patients should be encouraged to complete advanced directive early on to address device management and deactivation when patient becomes terminally ill. Like any other decision to withdraw treatments, the decision to deactivate PPM can be made by patient or the legal surrogate through shared decision-making process together with the physician. The role of physician is to inform patient, surrogate, and family member of the consequences of deactivating the PPM. Death may immediately follow PPM deactivation in those who are dependent. Those who are not must be monitored for potential symptoms such as respiratory distress rendering intensification of comfort measures. After shared decisionmaking, written request to deactivate the PPM is required by the physician along with a do-not-resuscitate (DNR) order. Medical, ethical, and legal guiding principles on deactivation of PPM can be found in the Heart Rhythm Society 2010 Consensus Statement on this topic.
 
 ## Tachyarrhythmia
 

@@ -16,11 +16,11 @@ Cynthia J. Brown
 
 #### Key Clinical Points
 
-1. In addition to the history and physical examination, an evaluation should include assessments
-2. It is important for the provider to understand the range of available rehabilitation settings, both inpatient and community
+1. In addition to the history and physical examination, an evaluation should include assessments of cognition, motivation, depression, social support, and financial resources, as these factors can have a significant impact on rehabilitation outcomes.
+2. It is important for the provider to understand the range of available rehabilitation settings, both inpatient and community based, and the advantages and disadvantages of each setting.
 3. An interdisciplinary team is often required to meet the complex rehabilitation needs of older patients, and while team members have defined roles and functions, there is considerable overlap in the services provided.
 4. Exercise is the cornerstone of physical rehabilitation, with each prescribed exercise being related to achievement of a goal and ultimately to an improvement in function.
-5. Adaptive aids include devices that allow persons with physical limitations to
+5. Adaptive aids include devices that allow persons with physical limitations to participate in activities, such as basic and instrumental activities of daily living, with greater ease and/or less pain. Categories of adaptive aids include mobility aids to assist people to move around within their home and community, bathroom aids to assist with bathing and toileting, and selfcare aids that assist with dressing, personal hygiene, cooking, and other activities.
 
 ## Defining Rehabilitation
 
@@ -31,8 +31,6 @@ Goals of rehabilitation for older adults usually focus on recovery of self-care 
 Disability is common in older persons and can have a significant impact on function and quality of life. In order to better understand the process of disablement, a variety
 
 <a id="p818"></a>**[p. 818]**
-**participate in activities, such as basic and instrumental activities of daily living, with greater ease and/or less pain. Categories of adaptive aids include mobility aids to assist people to move around within their home and community, bathroom aids to assist with bathing and toileting, and selfcare aids that assist with dressing, personal hygiene, cooking, and other activities.**
-
 of theoretical models have been explored and are presented below.
 
 ### History Of The Disability Framework
