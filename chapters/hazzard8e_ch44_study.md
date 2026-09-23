@@ -27,7 +27,7 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 - PLMS seen on PSG in up to **45%** of older adults, often not clinically significant (p652).
 - Start iron if ferritin **less than 75 mcg/L**; consider IV iron if ferritin **less than 300 mcg/L** with moderate-severe symptoms (p652).
 - Dopamine-agonist augmentation risk **2% to 15%** per year, worse with higher dose/duration (p652).
-- Drugs (Table 44-2, p653): Ropinirole **0.25–4 mg**, Pramipexole **0.125–2 mg** — caution: augmentation, behavioral disinhibition. Carbidopa/levodopa **25/100–25/200 mg** — reserve for infrequent dosing (highest augmentation risk). Gabapentin enacarbil **600–1200 mg** (only α2δ ligand FDA-approved for RLS), gabapentin **100–1800 mg**, pregabalin **300 mg** — caution: sedation, suicidal ideation. Clonazepam **0.25–2 mg**, temazepam **15–30 mg** — limited evidence, cognitive risk.
+- Drugs (Table 44-2, p653): Ropinirole **0.25–4 mg**, Pramipexole **0.125–2 mg** — caution: augmentation, behavioral disinhibition. Carbidopa/levodopa **25/100–25/200 mg** — reserve for infrequent dosing (highest augmentation risk). Gabapentin enacarbil **600–1200 mg** (only α2δ ligand FDA-approved for RLS), gabapentin **100–1800 mg**, pregabalin **300 mg** — caution: sedation, suicidal ideation. Clonazepam **0.25–2 mg**, temazepam **15–30 mg** — limited evidence, cognitive risk. Opiate agents (all off-label) for refractory RLS: codeine **30–60 mg**, tramadol **50–100 mg**, oxycodone **5–15 mg**, hydrocodone **5–15 mg**, methadone **5–10 mg**.
 
 ### REM sleep behavior disorder (RBD)
 - Prevalence ~**1%** over age 40, ~**2%** over age 60; male-predominant, typically presents mid-60s (p654).

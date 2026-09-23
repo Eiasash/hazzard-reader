@@ -31,7 +31,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Repeat fracture risk in the first year after a fracture: **20%** (p768).
 
 **Risk assessment**
-- Key clinical risk factors: body weight **< 127 lb**, corticosteroid use **> 3 months**, prior fracture, family history (Table 51-4) (p769).
+- Key clinical risk factors: **age** (the single most critical contributor), current smoking, body weight **< 127 lb**, corticosteroid use **> 3 months**, prior fracture, family history (Table 51-4) (p769).
 - **FRAX**: estimates 10-year absolute fracture risk; major limitation — **does not include falls** (p770).
 - **Garvan tool**: includes history of previous falls; gives **5- and 10-year** risk (p770).
 - **Figure 51-7** algorithm: combines fall/fracture/age/SARC-F screening with DXA + ALM to jointly diagnose osteoporosis and sarcopenia (p770).

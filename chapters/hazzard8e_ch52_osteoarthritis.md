@@ -151,6 +151,12 @@ A variety of OA-related biomarkers have been identified and validated for severa
 
 <a id="p784"></a>**[p. 784]**
 
+![Figure 52-3](hazzard8e_ch52_figure52-3.png)
+
+> *FIGURE 52-3. Lumbar spine x-ray showing extensive osteophyte formation.*
+
+> Highlighting is the owner's annotation, not the book's.
+
 ## Management
 
 The ACR/Arthritis Foundation (AF) and the Osteoarthritis Research Society International (OARSI) have published updated recommendations for management of OA. The main goals of management are to minimize OA-related pain, improve physical functioning and optimize the quality of life of patients with OA. There are nonpharmacologic, pharmacologic, and surgical treatment options for the management of OA ( **Figures 52-4** and **52-5** ). OA management should be tailored to the individual patient, and optimal management likely includes a combination of these treatment modalities. For example, evidence suggests that patient education, exercise programs, weight reduction, and wedge insoles all offer additional benefit in combination with an analgesic or nonsteroidal anti-inflammatory drug (NSAID).
@@ -165,13 +171,7 @@ For patients with advanced OA, mobilization exercises (ie, stretching and flexib
 
 Physical therapists are valuable for providing instructions and appropriate exercises. They are essential for outlining individualized treatment and a progressive home exercise program. Indeed, a physical therapy regimen that includes strengthening and neuromuscular training can improve symptoms in two-thirds of patients with advanced knee OA. Physical therapy evaluation may also result in provision of assistive devices, such as canes and walkers, as necessary.
 
-In summary, exercise can be a joint-specific range of motion and/or strengthening program or a general aerobic conditioning regimen. Exercise may be supervised on land, in water or in a self-directed home-based program. Regardless of the type of exercise regimen, extra attention is needed for the older patient to enhance safety and compliance with the program, taking into account potential comorbidities. Those with knee or hip OA should also cautiously engage in moderately or severely strenuous exercises (eg, stair climbing, heavy weightlifting and running).
-
-![Figure 52-3](hazzard8e_ch52_figure52-3.png)
-
-> *FIGURE 52-3. Lumbar spine x-ray showing extensive osteophyte formation.*
-
-> Highlighting is the owner's annotation, not the book's.
+In summary, exercise can be a joint-specific range of motion and/or strengthening program or a general aerobic conditioning regimen. Exercise may be supervised on land, in water or in a self-directed home-based program. Regardless of the type of exercise regimen, extra attention
 
 <a id="p785"></a>**[p. 785]**
 ![Figure 52-4](hazzard8e_ch52_figure52-4.png)
