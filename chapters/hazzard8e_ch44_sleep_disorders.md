@@ -83,9 +83,13 @@ Many of the risk factors for OSA increase with age ( **Table 44-1** ). Estimates
 > Highlighting is the owner's annotation, not the book's.
 
 <a id="p646"></a>**[p. 646]**
-**Table 44-1 — Potential age-dependent risk factors in sleep-disordered breathing**
+![Table 44-1](hazzard8e_ch44_table44-1_p646.png)
 
-Increased body mass index (central obesity) Decreased muscle tension Changes in airway anatomy Increased airway collapsibility Decreased thyroid function Decreased lung volume varied widely and are dependent on the populations studied. A cohort between 2007 and 2010 of middle-aged adults has estimated moderate to severe SDB to occur in 6% of women and 13% men. Evidence suggests that OSA is underdiagnosed in the general population, particularly in women. If the rate of obesity and overweight … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+> *Table 44-1 reproduced as a page image (printed p. 646) — the grid did not extract reliably as text for this fast build.*
+
+> Highlighting is the owner's annotation, not the book's.
+
+varied widely and are dependent on the populations studied. A cohort between 2007 and 2010 of middle-aged adults has estimated moderate to severe SDB to occur in 6% of women and 13% men. Evidence suggests that OSA is underdiagnosed in the general population, particularly in women. If the rate of obesity and overweight continues to increase, the rates of SDB will also increase. Less is known about the epidemiology of SDB in an older population; however, most studies have shown that the risk of OSA increases with increasing age until the age of 70 at which time there is a plateau (Figure 44-4). Furthermore, premenopausal status appears to protect against OSA meaning that the gender discrepancy between men and
 
  women narrows in the older population. OSA may be more severe in African-American and Asian populations compared to the Caucasian population.
 

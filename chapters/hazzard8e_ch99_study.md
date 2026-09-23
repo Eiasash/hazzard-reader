@@ -52,6 +52,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - BP target **<140/90 mmHg** for most; consider **130/80 mmHg** for high-risk (prior stroke, progressing CKD), with orthostatic monitoring (p1572).
 - ACE inhibitor or ARB first-line for hypertension when nephropathy is present (p1572).
 - Statins recommended for nearly all older diabetics except end-stage disease/limited life expectancy (p1572).
+- If a statin alone doesn't reach the LDL-C goal, add ezetimibe or a PCSK9 inhibitor; if fasting triglycerides **>500 mg/dL**, add fish oil and/or fenofibrate to reduce pancreatitis risk (Table 99-8, p1572).
 - Aspirin **75–162 mg/d** for secondary prevention only — not routine primary prevention (p1572).
 - CVD-outcome-proven drug classes (large CVOTs, average participant age >60): SGLT-2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) and GLP-1 agonists (liraglutide, semaglutide, dulaglutide) (p1571).
 
@@ -78,7 +79,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 
 **Hypoglycemia**
 - Diabetics may become symptomatic at **80–100 mg/dL**, vs **50–60 mg/dL** in nondiabetics — the counterregulatory threshold adapts to chronic glycemic exposure (p1584).
-- Risk factors: insulin/sulfonylurea use, autonomic/glucagon impairment, renal/hepatic failure, cognitive disorder, polypharmacy (Table 99-15) (p1584).
+- Risk factors: insulin/sulfonylurea use, autonomic/glucagon impairment, renal/hepatic failure, cognitive disorder, sensory (vision/hearing) or functional (mobility/hand dexterity) impairment, poor/irregular nutrition, alcohol/sedative use, polypharmacy (Table 99-15) (p1584).
 - β-blockers can mask hypoglycemia counterregulation — avoid combining with insulin/sulfonylurea when possible (p1584).
 
 **Special populations**

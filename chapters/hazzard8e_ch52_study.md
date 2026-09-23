@@ -14,7 +14,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 **Risk factors**
 - Obesity is the strongest *modifiable* risk factor; obese→normal weight loss cuts knee OA incidence by **21%** (men) / **33%** (women) (p780).
 - Genetics: **90** genome-wide significant OA risk loci identified; COL2A1 (type II collagen) is among the implicated genes (p780).
-- **Table 52-1 — Secondary causes of OA**: anatomical abnormalities, metabolic/endocrine (hemochromatosis, acromegaly, hyperparathyroidism), crystal deposition disease (gout, pseudogout), inflammatory arthritis, trauma, avascular necrosis (p780).
+- **Table 52-1 — Secondary causes of OA**: anatomical abnormalities, metabolic/endocrine (diabetes mellitus, hemochromatosis, acromegaly, hyperparathyroidism, ochronosis), crystal deposition disease (gout, pseudogout), inflammatory arthritis, trauma, and others (avascular necrosis, neuropathic Charcot joints) (p780).
 
 **Diagnosis**
 - OA is diagnosed *clinically*; radiographs are not required to make the diagnosis (p782).

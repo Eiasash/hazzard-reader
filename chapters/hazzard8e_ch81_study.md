@@ -54,7 +54,8 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 
 ### Palliative care
 - Median life expectancy from diagnosis: **14 years** for COPD vs **21 years** for heart disease (p1262).
-- Symptom burden in advanced COPD: dyspnea **94%**, pain **54%**, symptoms overall up to **98%** of patients (Table 81-14, p1262–1263).
+- Symptom burden in advanced COPD (Table 81-14): dyspnea **94%**, pain **54%** (p1263); respiratory symptoms (dyspnea, cough, sputum) up to **98%** of patients (p1262).
+- Psychological/sleep symptom burden in advanced COPD: depression **>90%** (antidepressants, supportive counseling); anxiety **>90%** (benzodiazepines, behavioral interventions); delirium (antipsychotics + behavioral interventions); sleep disturbance **40%** (trazodone/Z-meds, nocturnal O2, CPAP, CBT) (Table 81-14, p1263).
 - Prognostic red flag: **FEV1 <30%** predicted or FEV1 Z-score **<–2.55** (p1262).
 - SPIKES framework for breaking bad news: **S**etting, **P**erception, **I**nvitation, **K**nowledge, **E**mpathy, **S**trategy/summary (p1263–1264).
 

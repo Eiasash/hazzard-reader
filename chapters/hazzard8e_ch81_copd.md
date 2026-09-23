@@ -577,12 +577,9 @@ Inhaled BD, inhaled and systemic corticosteroids (where appropriate), and other 
 <a id="p1263"></a>**[p. 1263]**
 **Table 81-14 — Symptom burden and management in advanced COPD**
 
-|**SYMPTOM**<br>**PHYSICAL**|**PREVALENCE**|**THERAPIES**|**NOTES**| |---|---|---|---| |Dyspnea|94%|Blowing fan/air<br>Bronchodilators|See**Table 81-10**, and text on pharmaco-<br>logic and nonpharmacologic management<br>| |||Inhaled corticosteroids|sections| |||Mucolytics (glycopyrrolate)<br>Pulmonary rehabilitation|| |||Opioids|Monitor for respiratory depression, delir-<br>ium, and constipation| |||Benzodiazepines|Monitor for respiratory depression and<br>delirium| |Pain|54%|Acetaminophen, … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+![Table 81-14](hazzard8e_ch81_table81-14_p1263.png)
 
- dietary modification as tolerated|Routinely required when using opioids|
-![Table 81-14 (continued)](hazzard8e_ch81_table81-14_p1263.png)
-
-> *Table 81-14 (continued) reproduced as a page image (printed p. 1263) — the grid did not extract reliably as text for this fast build.*
+> *Table 81-14 reproduced as a page image (printed p. 1263) — the grid did not extract reliably as text for this fast build.*
 
 > Highlighting is the owner's annotation, not the book's.
 

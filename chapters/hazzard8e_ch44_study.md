@@ -10,6 +10,7 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 
 ### Sleep-disordered breathing (OSA/CSA)
 - Diagnostic: AHI **> 15** alone, or **> 5** with symptoms/comorbidities; AHI **> 30** = severe (p645).
+- Age-dependent SDB risk factors (Table 44-1, p646): ↑BMI/central obesity, ↓muscle tension, altered airway anatomy, ↑airway collapsibility, ↓thyroid function, ↓lung volume.
 - Moderate-to-severe SDB in **6%** of women, **13%** of men (2007–2010 cohort); OSA underdiagnosed, especially in women (p646).
 - CSA is **two to three times** more prevalent at age 65–90 vs 39–64; up to **50%** of stable heart-failure patients have some SDB (p646).
 - Neck circumference **> 17 inches** (men) / **> 16 inches** (women) predicts SDB, less so in elderly; Friedman palate positions **III and IV** = high OSA risk (p647).

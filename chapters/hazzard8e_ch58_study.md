@@ -21,7 +21,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 
 **Risk factors**
 - Predisposing: dementia (**2–5×** risk, present in up to **two-thirds** of delirium cases), age **>70**, severe illness/multimorbidity, functional/sensory impairment, prior delirium or stroke (p881).
-- Precipitating: polypharmacy, restraints, bladder catheter, infection, surgery, urgent/trauma admission, coma, **ICU stay >10 days** (p881–882).
+- Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, **ICU stay >10 days**, and physiologic derangements (elevated BUN/creatinine ratio, abnormal Na/glucose/K, metabolic acidosis).
 - Each independent precipitating factor confers **2–4×** risk; effects are cumulative (p882).
 
 **Drugs & delirium**
@@ -32,14 +32,14 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 - CAM validated in **10,000+** studies, **19+** languages (p884).
 - Only **~20%** attain complete symptom resolution by 6 months; cognition can be affected for **up to 1 year** (p884).
 - LP/brain imaging/EEG indicated in **<5–10%** of cases — reserve for fever+meningismus, focal signs, head trauma, or no other identifiable cause (p885). EEG false-negative **17%**, false-positive **22%** (p885).
-- Differential: delirium vs dementia vs depression vs acute psychosis (Table 58-4, p886) — attention and level of consciousness are the features that best separate delirium from psychosis.
+- Differential: delirium vs dementia vs depression vs acute psychosis (Table 58-4, p886) — level of consciousness (altered vs normal) is the clean separator from psychosis; attention differs too (impaired vs variable) but overlaps and doesn't separate as cleanly.
 
 **Prevention**
 - Multicomponent (HELP-type) prevention protocol → **40%** risk reduction (p886).
 - Proactive geriatric consultation post-hip-fracture → **40%** reduction (p887).
 
 **Management**
-- Nonpharmacologic strategies are first-line for every patient: reorientation, mobilize early, correct vision/hearing, avoid restraints, protect sleep (p888).
+- Nonpharmacologic strategies are first-line for every patient: reorientation, mobilize early, correct vision/hearing, avoid restraints, protect sleep, treat dehydration early (Table 58-5, p888).
 - Nonpharm sleep protocol (warm milk/tea + relaxation music + back massage) cut sleep-med use **54% → 31%** (p889).
 - Antipsychotics = last resort, for safety/symptom control only:
   - **Haloperidol** — start **0.25 mg** PO/IV, repeat q30min; total loading dose max **2.5 mg**; maintenance = half loading dose, tapered over **48 h**. Caution: EPS/dystonia; avoid in Parkinson disease/Lewy body dementia; IV only in monitored settings (torsades risk) (p889).
