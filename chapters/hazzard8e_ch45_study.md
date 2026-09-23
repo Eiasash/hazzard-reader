@@ -16,6 +16,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - Young adults: peak incidence age **10–30**, mostly vasovagal. Older adults: more often cardiovascular (p666)
 - Dizziness prevalence **4% to 30%** in persons ≥65, higher in females (p666)
 - Cardiac causes responsible for about **one-third** of syncope cases in older patients (p667)
+- **Table 45-1** causes of syncope: cardiac = structural heart disease, myocardial dysfunction, or arrhythmia (**bradyarrhythmia incl. AV block**, or tachyarrhythmia); noncardiac = neurologic, neurally mediated, respiratory, or vascular (p667)
 
 **Pathophysiology**
 - Standing pools **500 to 1000 cc** of blood in legs/splanchnic bed → ↓ venous return → baroreflex response (increased sympathetic outflow, decreased vagal tone) limits the BP fall (p666)

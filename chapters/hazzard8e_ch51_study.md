@@ -23,6 +23,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Age-related decline **~0.5%/year** after the 3rd decade; marrow fat can occupy up to **90%** of marrow cavity in older adults (p766).
 - **Osteosarcopenia**: the term for concurrent osteopenia/osteoporosis + sarcopenia, coined from muscle-bone cross-talk research (p767).
 - Men: testosterone declines **~1.2%/year** with aging (p767).
+- Estrogen & androgen both **inhibit bone resorption and stimulate bone formation** (dual protective role, explaining accelerated loss at menopause/hypogonadism); vitamin D uniquely **stimulates both resorption and formation** (Table 51-2, p764).
 
 **Presentation**
 - **≥1/3** of "osteopenia" reported on a plain x-ray actually have a T-score worse than **−2.5**; up to **half** are in the **−2.5 to −1.0** range — both are candidates for BMD testing (p768).
@@ -41,6 +42,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - DXA is preferred; ~**50%** of low BMD in postmenopausal women goes undetected without screening; screening reduces hip-fracture incidence by **36%** (p771).
 - SOF cohort: **54%** of women who suffered a hip fracture had a hip T-score *better* than −2.5 at baseline — **BMD alone under-captures risk**; age matters more (p771).
 - 10-year fracture probability in an 80-year-old is **>2×** that of a 50-year-old at the same T-score (p771).
+- Secondary-cause workup: primary hyperparathyroidism → ionized calcium + PTH; Paget disease → alkaline phosphatase; glucocorticoid use → medical history (Table 51-3, p769).
 
 **Nutrition**
 - Calcium **1200–1500 mg/day**; vitamin D **≥800 IU/day** (often up to **2000 IU**) to reach a target 25(OH)D **≥75 nmol/L** (p772).
@@ -48,11 +50,11 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Frank deficiency (**≤30 nmol/L**): loading dose **50,000 IU**, then maintenance **1000–4000 IU/day** (p773).
 
 **Pharmacologic treatment (Table 51-5)**
-- **Alendronate** 70 mg weekly PO: ~50% ↓ hip + vertebral fracture over 3 years (Table 51-5, p774); equally effective ≤75 vs >75 years (**51%** vs **38%** vertebral fracture reduction at 12 months); time to benefit **8 months** (p775).
-- **Risedronate** 35 mg weekly PO: **41%** ↓ vertebral fracture over 3 years (p775).
+- **Alendronate** 70 mg weekly PO: ~50% ↓ hip + vertebral fracture over 3 years (Table 51-5, p774); equally effective ≤75 vs >75 years (**51%** vs **38%** vertebral fracture reduction at 12 months); time to benefit **8 months** (p775); contraindicated if eGFR **< 35 mL/min** (Table 51-5, p774).
+- **Risedronate** 35 mg weekly PO (or 75 mg × 2 consecutive days/month, or 150 mg monthly PO): **41%–49%** ↓ vertebral, **36%** ↓ nonvertebral fracture over 3 years; also approved for glucocorticoid-induced osteoporosis (Table 51-5, p774).
 - **Zoledronic acid** 5 mg IV yearly ×3: **70%** ↓ vertebral, **25%** ↓ nonvertebral, **41%** ↓ hip fracture (p775); also cut all-cause mortality (**9.6%** vs **13%** placebo) (p776).
 - **Denosumab** 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect **lost by 12 months** after stopping — no drug holiday (p776).
-- **Teriparatide** 20 mcg/day SC, **max 24 months**: **65%** ↓ vertebral, **53%** ↓ nonvertebral fracture (p776).
+- **Teriparatide** 20 mcg/day SC, **max 24 months**: **65%** ↓ vertebral, **53%** ↓ nonvertebral fracture (p776); avoid in Paget disease, prior skeletal radiation, hypercalcemia, skeletal metastases, or history of prostate cancer/lymphoma — osteosarcoma risk (Table 51-5, p774).
 - **Abaloparatide** 80 mcg/day SC, **max 2 years**: **86%** ↓ vertebral, **43%** ↓ nonvertebral fracture (p777).
 - **Romosozumab** 210 mg monthly SC, **max 12 months** (then transition, e.g. to denosumab): **75%** ↓ vertebral fracture; vs alendronate: **48%** ↓ vertebral, **19%** ↓ nonvertebral, **38%** ↓ hip (p777).
 - Anabolics (teriparatide/abaloparatide/romosozumab) are first-line for **very high fracture risk**; always follow with an antiresorptive to preserve BMD gains (p777).

@@ -30,11 +30,13 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Monitor hematocrit at baseline, 3–6 months, then yearly; **hematocrit >54%** → reduce or stop testosterone (p1535–1536).
 - PSA/DRE screening on testosterone therapy is **not recommended in men ≥70 years** or those with life expectancy <10 years (p1536).
 - Contraindications to testosterone: active prostate or breast cancer; use caution with PSA **>4.0 ng/mL**, hematocrit **>50**, severe LUTS (IPSS **>19**), or recent MI/stroke (p1534).
+- Reversible causes of functional hypogonadism to screen for before treating: obesity; medications (opioids, glucocorticoids, megestrol); hyperprolactinemia (usually drug-induced); malnutrition/energy deficit; chronic systemic illness (eg, malignancy); organ failure (lung, heart, liver, kidney) (Table 97-5, p1534).
 
 ### Calcium, Parathyroid, Vitamin D
 - Primary hyperparathyroidism etiology: single adenoma **80%**, diffuse hyperplasia **10–15%**, multiple adenomas **<5%**, carcinoma **<1%** (p1536).
 - Incidence peaks at **6.3 per 1000 person-years** at age **65–74**; women:men **2:1** (p1536).
 - Parathyroidectomy indications: serum calcium **>1 mg/dL above ULN**, DXA T-score **<−2.5**, creatinine clearance **<60 mL/min**, or 24-hour urine calcium **>400 mg/24h** (p1526 KCP, p1538–1539).
+- Hypercalcemia causes split by PTH status: **PTH-dependent** (common: primary hyperparathyroidism; uncommon: tertiary hyperparathyroidism, lithium, familial hypocalciuric hypercalcemia, ectopic PTH) vs **PTH-independent** (common: malignancy — osteolytic or PTHrP-humoral — and 1,25(OH)₂-vitamin D-mediated lymphoma; uncommon: thiazides, AKI, parenteral nutrition, immobilization with malignancy/Paget, granulomatous disease, hyperthyroidism/adrenal insufficiency, vitamin D/A toxicity, milk-alkali, hyperproteinemia) (Table 97-9, p1538).
 - Vitamin D sufficiency thresholds: American Geriatrics Society **>30 ng/mL**; Institute of Medicine **>20 ng/mL**; deficiency **<12 ng/mL** (p1526 KCP, p1539).
 - Vitamin D deficiency prevalence **40–50%** in community-dwelling older adults (p1539).
 - Treatment: mild-moderate deficiency → vitamin D2/D3 **800–1000 IU/day**; severe deficiency → **2000 IU/day for 6–12 months**, or **50,000 IU weekly for 8–12 weeks** then maintenance (p1540).

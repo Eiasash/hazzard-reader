@@ -17,6 +17,7 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
 - **Clinical Frailty Scale (CFS)**: **7-category** clinician-judgment scale derived from FI work; similar predictive power to FI for institutionalization/death (p623)
 - **Edmonton Frail Scale (EFS)**: **9 domains** — cognition, general health, function, social support, meds, nutrition, mood, continence, performance (p623)
 - **Cognitive frailty**: physical frailty + mild cognitive impairment (**CDR 0.5**), with AD/dementia excluded; physical frailty should precede the cognitive decline to make this diagnosis (p627)
+- **Table 42-3** (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elder Survey (VES-13), FRAIL Scale (p622)
 
 **Epidemiology**
 - Community-dwelling age ≥65: average prevalence **11%** (reported range **4.0–59%** across definitions/settings) (p626)

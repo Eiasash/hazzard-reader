@@ -17,6 +17,9 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 - SNF: 24-hr nursing, no required minimum therapy intensity (p822).
 - Home health ("homebound"): face-to-face encounter **within 90 days before or 30 days after** start; recertified **every 60 days** (p822).
 
+**Team**
+- Interdisciplinary rehab team includes easily-forgotten members: chaplain/spiritual care provider (spiritual support to patient and family) and dietician (assesses nutritional status, alters diet to maximize nutrition) (**Table 55-4**, p823).
+
 **Exercise prescription**
 - Strength: **60% to 80%** of max lifting ability; older beginners start at **~40% to 50%** (p824).
 - Aerobic: **≥20 minutes** at **50% to 80%** VO2max; beginners start with **5 to 10 minutes**; needs **three to five times per week** (p824).

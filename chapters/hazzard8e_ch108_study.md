@@ -12,7 +12,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - Older-adult hospitalization for influenza: **136–508/100,000** vs **10–25/100,000** for ages 5–49 (p1734).
 
 ### Diagnosis
-- **Table 108-1** (p1735): culture and rapid EIA/DFA-IFA are only fair-to-good sensitivity for influenza A/B and RSV; **PCR is optimal (+++)** for all three; serology is optimal for influenza but complicated by vaccination.
+- **Table 108-1** (p1735): culture is good (++) for influenza A/B but only fair (+) for RSV; rapid EIA and DFA/IFA are fair (+) for influenza A/B but poor (+/–) for RSV; **PCR is optimal (+++)** for all three; serology is only good (++) for influenza A/B — interpretation confounded by vaccination — but optimal (+++) for RSV, with no such caveat.
 - Rapid antigen/ELISA tests are insensitive in older adults — as low as **20%** sensitivity (p1734–1735).
 - **RT-PCR is >95%** sensitive and specific for influenza and >**90%** sensitive per the Key Clinical Points box — the best test; a negative rapid antigen test does NOT rule out influenza (p1733, p1735).
 - Influenza incubation is typically **2 days** (range **1–4 days**); contagious from **1 day before** symptom onset; shedding lasts **5–6 days** (p1735).

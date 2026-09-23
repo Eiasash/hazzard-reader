@@ -22,6 +22,7 @@ Study summary of Chapter 43 — Falls; the book and the full chapter are the ref
 - Sensory/neuromuscular: reduced contrast sensitivity/depth perception and reduced knee-extension/ankle-dorsiflexor strength (especially in RACF) are risk factors (p636).
 - Neuropsychological: poor dual-task performance (e.g., talking while walking), poor executive function/attention, fear of falling and depression → inactivity/isolation (p636).
 - Environmental: extrinsic factors contribute to **35–45%** of injurious falls; **1/4 to 1/2** of falls occur away from home; a stairs fall carries **~2x** the injury risk of other falls (p636–637).
+- Table 43-1 rates each risk factor's association with falls on a */**/*** scale; **use of ≥4 medications** carries the same top rating (***) as psychoactive-drug use, and living alone/inactivity are rated ** (Table 43-1, p635).
 
 ### Screening & Assessment
 - Ask about falls in the last 12 months + assess balance/gait — previous falls is one of the strongest predictors of a future fall (p637).

@@ -21,6 +21,7 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 - Congenital stenosis (short pedicles) presents in the **30s–50s**; acquired stenosis is more common, typically **≥ 50 years** (p1632).
 - Most common level: **L4-L5**, followed by **L3-L4** and **L5-S1**; lateral recess stenosis at L4-L5 most often causes an **L5 radiculopathy** (p1632).
 - Classic pattern: symptoms **worse with extension** (standing, walking, downhill) and **relieved with flexion** (sitting, bending forward, leaning on a cart — "shopping cart sign") (Table 102-3, p1632–1633).
+- Sciatic-type leg pain on walking is also part of the classic picture, but it may be **incomplete** ("pseudoclaudication") rather than full dermatomal sciatica (Table 102-3, p1632).
 - Distinguishing test: neurogenic claudication is **worse on treadmill, relieved on bicycle** (spinal flexion increases canal diameter); vascular claudication is bad on **both** (p1636).
 - MRI is the standard imaging modality; CT (± myelography) is useful when MRI is contraindicated or for bony/soft-tissue detail (p1636).
 
@@ -32,7 +33,7 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 ### Evaluation
 - Passive hip ROM benchmarks: **40°** abduction before the pelvis tilts, **> 100°** flexion, **50°–60°** external rotation, **20°** internal rotation (p1634).
 - L4/L5 tested via hip abduction (gluteus medius) and great toe extension (extensor hallucis longus); L5/S1 tested via hip extension and foot eversion (p1634–1635; Figures 102-1 to 102-3).
-- Imaging red flags (Table 102-7, American College of Radiology, p1636): age **> 70**, significant trauma (or milder trauma if age **> 50**), unexplained weight loss/fever, immunosuppression, history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration **> 6 weeks**, IV drug use.
+- Imaging red flags (Table 102-7, American College of Radiology, p1636): age **> 70**, significant trauma (or milder trauma if age **> 50**), unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration **> 6 weeks**, IV drug use.
 - Imaging is a poor discriminator alone: in asymptomatic patients without back pain, only **36%** of lumbar MRIs read as normal — **52%** showed a disc bulge, **27%** a disc protrusion; in a separate asymptomatic cohort **> 60** years old, **36%** had a herniated nucleus pulposus, **21%** spinal stenosis, **93%** degenerative disc disease (p1636).
 - Classic epidemiology: Kellgren & Lawrence found disc degeneration in **89%** of men and **57%** of women aged 55–64 (p1636).
 
@@ -132,7 +133,7 @@ Flowing calcification/ossification along the anterolateral aspect of at least 4 
 
 <details><summary>Answer</summary>
 
-Age > 70, significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression, history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).
+Age > 70, significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).
 
 </details>
 

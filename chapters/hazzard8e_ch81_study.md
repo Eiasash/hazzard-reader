@@ -16,6 +16,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 ### Diagnosis & spirometry
 - Diagnosis needs compatible history **plus** spirometry-confirmed airflow obstruction (p1242).
 - GOLD criterion: fixed **FEV1/FVC < 0.70** — doesn't correct for age, overdiagnoses older adults (prevalence **37.7%** by GOLD vs **15.4%** by age-adjusted Z-score) (p1243–1245).
+- Normal aging lung alone (no COPD) already shows ↑chest-wall rigidity, ↓elastic recoil, "senile emphysema," air trapping, and ↑closing volume approaching FRC — the same physiologic changes seen in COPD, just less severe (single vs double arrows) — part of why fixed spirometric cutoffs overdiagnose older adults (Table 81-1, p1238).
 - Age-adjusted approach (GLI): airflow obstruction = FEV1/FVC **Z-score < –1.64** (5th percentile LLN); **–2.55** = 0.5th percentile, a severity marker (p1243–1244).
 - ATS/ERS FEV1 staging thresholds: **≥70% Pred = mild, 50–69% = moderate, <50% = severe** (p1244, Table 81-5).
 - PRISm = preserved FEV1/FVC ratio but low FEV1 + inflammatory-airway features — still at risk (p1245).
@@ -27,9 +28,10 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Postmortem study of COPD-exacerbation deaths: heart failure **37%**, pulmonary thromboembolism **21%**, pneumonia **28%**, respiratory failure **14%** (p1247).
 
 ### Pharmacologic management (stable COPD)
-- Stepwise approach: SABA/SAMA → add LAMA (preferred first-line long-acting) → add LABA → add ICS only if frequent exacerbations, eosinophils **≥300 cells/µL**, or hospitalization (Table 81-10, p1249–1252).
+- Stepwise approach: SABA/SAMA → add LAMA (preferred first-line long-acting) → add LABA → add ICS (always combined with a LABA — **ICS monotherapy is not recommended** in COPD, unlike asthma) only if frequent exacerbations, eosinophils **≥300 cells/µL**, or hospitalization (Table 81-10, p1249–1252).
 - ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL**); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; posterior subcapsular cataracts; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
+- Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
 - Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance (p1254).
 - Theophylline: goal level **8–12 mcg/mL**; narrow therapeutic window, rarely used now (p1255).
 

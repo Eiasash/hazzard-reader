@@ -26,10 +26,12 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - Pneumococcal urinary antigen: sensitivity **>60%**, specificity **>90%**; stays positive for **~3 months** after resolution, limiting its use to judge relapse or treatment response (p1685).
 - Legionella urinary antigen detects only serogroup I but has sensitivity **>90%** for that serogroup (p1685).
 - Admission criteria: **PSI ≥ III** or **CURB-65 ≥ 2**; a short-stay unit is a safe, cost-effective alternative at those same thresholds (p1687).
+- CURB-65 scoring (Table 105-4, p1686): 1 pt each for confusion, urea **>44 mg/dL** (BUN >20), RR **≥30**, SBP **<90** or DBP **≤60**, age **≥65**; mortality by score — **0-1** low (0.7%-2.1%, consider outpatient), **2** intermediate (9.2%), **3** high (15%, admit), **4-5** **>40%** (admit, consider ICU).
 - Discharge readiness: HR **<100 bpm**, RR **<24/min**, temperature **<37.2°C (<98.96°F)**, systolic BP **>90 mm Hg**, SpO2 **>90%**, plus baseline awareness and oral tolerance; most patients stabilize by hospital day **3-4**, up to **7 days** if frail (p1687).
 
 ### Management Framework & Treatment
 - Two questions should drive antibiotic choice: (1) severe pneumonia or risk factors for unusual pathogens? (2) does the patient meet criteria for frailty? Both "no" → standard younger-adult regimens; either "yes" → broaden coverage (p1687).
+- CAP treatment tiers (Table 105-8, p1688): non-frail patients get cephalosporin or amoxicillin/clavulanate + azithromycin/fluoroquinolone, escalating in severe disease to ± linezolid/vancomycin, ± antipseudomonal agent, ± oseltamivir; **frail** patients get a different regimen, not the same combo broadened — ertapenem, or amoxicillin/clavulanate, or ceftriaxone + clindamycin.
 - Quinolones should not be prescribed when pulmonary tuberculosis is suspected but unconfirmed — their tuberculostatic activity can partially treat and delay the TB diagnosis (p1689).
 - Treatment failure = no clinical stability by **3-4 days**, or deterioration/respiratory failure/septic shock in the first **72 h**; associated with a **fivefold** increase in mortality (p1690).
 - A **5-7 day** course is sufficient for most pneumonia even in older adults; extend for *Legionella*, resistant GNB, or MRSA, or for persistent fever beyond **72 h** (p1690).
@@ -48,6 +50,7 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - Standard latent-TB regimen: isoniazid **9 months**; alternative rifampin **4 months**; isoniazid + rifapentine **12 weeks** also effective (p1694).
 - Standard active-TB regimen: 4-drug intensive phase **2 months**, then 2-drug continuation phase **≥4 months** (total **6 months**); extend the continuation phase to **7 months** (9 months total) for cavitary disease plus a positive culture at month 2, or if the intensive phase omitted pyrazinamide (p1694).
 - Drug-resistant TB: **18-24 months** with 4-5 active drugs guided by susceptibility (p1694).
+- First-line regimen exceptions (Table 105-12, p1695): give pyridoxine **10-50 mg/day** with isoniazid if alcoholic, malnourished, diabetic, or has kidney failure (peripheral neuropathy risk); if isoniazid or rifampin can't be used (toxicity/resistance), substitution regimens with the remaining first-line drugs ± moxifloxacin exist — it isn't an automatic jump to second-line/MDR therapy.
 - Asymptomatic AST elevation occurs in **~20%** of patients on the standard 4-drug regimen and usually resolves spontaneously (p1696).
 - Stop hepatotoxic TB drugs if bilirubin **≥3 mg/dL** or transaminases **>5x** the upper limit of normal (or **>3x** ULN with symptoms of hepatitis) (p1696).
 
