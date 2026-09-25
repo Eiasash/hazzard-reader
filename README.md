@@ -21,19 +21,9 @@ Rendered from `chapters/*.md`, embedded as `<template>` blocks:
 - 61 / Parkinson Disease and Related Disorders
 - 99 / Diabetes Mellitus
 
-### Fast build, not lane-reviewed
+### Lane-reviewed 25 Sep 2026 (originally fast builds)
 
-Extracted from the book's text layer (tables/figures machine-cropped, not verified page-by-page). Marked "Fast build, not lane-reviewed" in the chapter list:
-
-- 42 / Frailty
-- 43 / Falls
-- 44 / Sleep Disorders
-- 55 / Rehabilitation
-- 59 / Dementia Including Alzheimer Disease
-- 63 / Other Neurodegenerative Disorders
-- 87 / Constipation
-
-(43/44/55/59/63 replace the earlier "old build, unverified" carry-over versions.)
+42, 43, 44, 45, 51, 52, 55, 57, 59, 63, 65, 68, 75, 76, 77, 81, 83, 87, 88, 97, 98, 101, 102, 104, 105, 108 — first built fast from the book's text layer on 22–23 Sep, then reviewed chapter by chapter against the book on 25 Sep (text-layer diff both ways, page images for disputes, every study-page claim re-read). See CLAUDE.md for what the review found.
 
 ### Study pages
 
