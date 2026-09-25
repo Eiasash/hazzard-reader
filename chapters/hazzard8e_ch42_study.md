@@ -13,7 +13,7 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
   - Slowness: **15-ft** walk time, slowest 20% (by gender/height) (p620)
   - Low activity: lowest 20% kcal/wk; men cutoff **<383 kcal/wk** (p620)
   - Drawbacks: no cognitive dimension; weight-loss criterion can miss sarcopenic-obesity frailty; thresholds derived from CHS cohort (p620)
-- **Deficit Accumulation / Frailty Index (FI)** (Rockwood): unweighted ratio of deficits present ÷ total considered, built from a series of **70** measurements ("deficits") (p620); rises nonlinearly with age (Gompertz-like), higher in women, ceiling **FI ~0.7** (p623)
+- **Deficit Accumulation / Frailty Index (FI)** (Rockwood): unweighted ratio of deficits present ÷ total considered, built from a series of **70** measurements ("deficits") (p620, p623); rises nonlinearly with age (Gompertz-like), higher in women, ceiling **FI ~0.7** (p623)
 - **Clinical Frailty Scale (CFS)**: **7-category** clinician-judgment scale derived from FI work; similar predictive power to FI for institutionalization/death (p623)
 - **Edmonton Frail Scale (EFS)**: **9 domains** — cognition, general health, function, social support, meds, nutrition, mood, continence, performance (p623)
 - **Cognitive frailty**: physical frailty + mild cognitive impairment (**CDR 0.5**), with AD/dementia excluded; it has been suggested that physical frailty should precede the cognitive impairment, to separate physically driven cognitive decline (p627)
@@ -82,7 +82,7 @@ More than 10 lb lost unintentionally in the prior year (p620).
 
 <details><summary>Answer</summary>
 
-The ratio of deficits present in a person to the total number of deficits considered, built from a series of 70 measurements ("deficits") (p620).
+The ratio of deficits present in a person to the total number of deficits considered, built from a series of 70 measurements ("deficits") (p620, p623).
 
 </details>
 

@@ -36,8 +36,8 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - **Endoxaban / edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48, dose-dependent results: **60 mg** → noninferior for stroke/SE, **20%** ↓ major bleeding; **30 mg** → no stroke/SE benefit (noninferiority margin only, HR 1.07), major bleeding **1.61% vs 3.43%** (HR 0.47) vs warfarin (p1205, image).
 
 **Other tachyarrhythmias**
-- Atrial flutter: cavotricuspid-isthmus ablation success **90–95%** (p1206), complications **< 1–2%** (p1206).
-- SVT: AVNRT is the most common type in older adults. Vagal maneuvers/adenosine first-line acute; synchronized cardioversion if hemodynamically unstable or refractory to adenosine (Table 77-10, p1206); ablation success **85%** (p1206) to better than **95%** (p1206), major complications **< 2–3%** (p1206).
+- Atrial flutter: cavotricuspid-isthmus ablation success **> 90–95%** (p1206), complications **< 1–2%** (p1206).
+- SVT: AVNRT is the most common type in older adults. β-blockers and CCBs are first-line therapy (p1206); acute options in Table 77-10 include vagal maneuvers and adenosine, with synchronized cardioversion if hemodynamically unstable or refractory to adenosine (Table 77-10, p1206); ablation success **85%** (p1206) to better than **95%** (p1206), major complications **< 2–3%** (p1206).
 - ICD primary SCD prevention: ischemic CM, LVEF **≤ 35%** (p1206) NYHA II–III (or LVEF **< 30%** (p1206) NYHA I) on GDMT, more than **40 days** (p1206) post-MI or more than **90 days** (p1206) post-revascularization; or nonischemic CM LVEF **≤ 35%** (p1206) NYHA II–III despite GDMT.
 - ICD secondary prevention: cardiac arrest from VT/VF not from a reversible cause; spontaneous sustained VT with structural heart disease; or unexplained syncope with inducible hemodynamically significant VT/VF at EPS when drug therapy is ineffective, not tolerated, or not preferred (p1206).
 

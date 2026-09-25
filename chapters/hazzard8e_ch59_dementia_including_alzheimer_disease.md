@@ -131,7 +131,7 @@ There is evidence of lower performance in one or more cognitive domains (memory,
 
 The patient maintains preserved independence in functional abilities, although they may take more time, be less efficient, and make more errors at performing such activities than in the past.
 
-The patient does not meet criteria for dementia.
+The patient does **_not_** meet criteria for dementia.
 
 <sup>a</sup>DSM-5 “mild neurocognitive disorder” criteria also state that these deficits do not occur exclusively in the context of a delirium or other mental disorder (eg, major depressive disorder, schizophrenia). Identification and exclusion of other neurologic, psychiatric, and medical disorders is implied in the text of the NIA-AA MCI diagnostic criteria.
 

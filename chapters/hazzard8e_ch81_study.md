@@ -19,7 +19,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Normal aging lung alone (no COPD) already shows ↑chest-wall rigidity, ↓elastic recoil, "senile emphysema," air trapping, and ↑closing volume approaching FRC — the same physiologic changes seen in COPD, just less severe (single vs double arrows) — part of why fixed spirometric cutoffs overdiagnose older adults (Table 81-1, p1238).
 - Age-adjusted approach (GLI): airflow obstruction = FEV1/FVC **Z-score < –1.64** (5th percentile LLN); **–2.55** = 0.5th percentile, a severity marker (p1243–1244).
 - ATS/ERS FEV1 staging thresholds: **≥70% Pred = mild, 50–69% = moderate, <50% = severe** (p1244, Table 81-5).
-- PRISm = preserved FEV1/FVC ratio but low FEV1 + inflammatory-airway features — still at risk (p1245).
+- PRISm = preserved FEV1/FVC ratio but low FEV1 + inflammatory-airway features — still at risk (p1244).
 
 ### Comorbidity & functional burden
 - COPD patients average **3.7 chronic conditions** and **35 filled prescriptions/year** (p1247).

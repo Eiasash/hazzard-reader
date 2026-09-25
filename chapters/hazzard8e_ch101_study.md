@@ -17,7 +17,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 **LORA clinical pattern (Table 101-2)** (p1610)
 - Acute onset, **oligoarticular (2–6 joints)**, large/proximal joints, systemic symptoms (weight loss), absent nodules, sicca common, high ESR, often RF-negative
 - **RS3PE** syndrome: remitting seronegative symmetric synovitis with pitting edema; older men **2–3:1**, negative RF/ANA, responds to low-dose prednisone (p1610–1611)
-- Anti-CCP **65%** positive in LORA vs **0%** in PMR or healthy older adults — useful to separate LORA from PMR (p1611)
+- In one small study, anti-CCP **65%** positive in LORA vs **0%** in PMR or healthy older adults — may be useful to separate LORA from PMR (p1611)
 
 **RA — evaluation**
 - ACR functional class I–IV (**Table 101-3**) (p1611)
@@ -166,7 +166,7 @@ Schirmer test: less than 5 mm of filter paper wet after 5 minutes. Minor salivar
 
 <details><summary>Answer</summary>
 
-About 44 times more likely, with risk further increased if anti-Ro or anti-La positive (p1626).
+About 44 times more likely (vs age-, sex- and race-matched controls); the risk may be higher if anti-Ro or anti-La positive (p1626).
 
 </details>
 

@@ -36,7 +36,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 ### RSV
 - Reinfection is common throughout life; natural infection doesn't confer robust immunity, which has made vaccine development difficult (p1736) — there are still **no licensed RSV vaccines** (p1737).
 - Incubation **3–5 days**. Infants shed higher titers (**10⁵⁻⁶** pfu/mL) for longer (**10–14 days**) than adults (**10²⁻³** pfu/mL, **3–6 days**) (p1737).
-- Rochester community cohort (1999–2003) of 608 healthy adults 65+: RSV in **8%** (46/608) vs **10%** (56) of a separate high-risk group (CHF or chronic pulmonary disease); **16%** of the high-risk group required hospitalization; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
+- Rochester community cohort (1999–2003) of 608 healthy adults 65+: RSV in **8%** (46/608) vs **10%** (56) of a separate high-risk group (CHF or chronic pulmonary disease); **16%** of high-risk participants with RSV required hospitalization; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
 - Nursing-home outbreak attack rates range **2–90%**; one careful Rochester study found **7%** attack rate, RSV causing **27%** of illness (p1737).
 - Tennessee LTC cohort (88,581 person-years): RSV caused **15 hospitalizations and 17 deaths per 1,000 residents** (p1737).
 - Viral culture is only **50%** sensitive for RSV; RT-PCR is relatively sensitive and specific (p1737).
@@ -140,11 +140,11 @@ Infants shed higher titers (10⁵⁻⁶ pfu/mL) for longer (10–14 days); adult
 
 </details>
 
-**11. In the Rochester community cohort, what proportion of high-risk older adults (CHF/COPD) developed RSV, and what fraction were hospitalized?**
+**11. In the Rochester community cohort, what proportion of high-risk older adults (CHF or chronic pulmonary disease) developed RSV, and what fraction were hospitalized?**
 
 <details><summary>Answer</summary>
 
-10% (56 high-risk participants, a group separate from the 608 healthy participants, of whom 46 [8%] developed RSV); 16% of the high-risk group required hospitalization (p1737).
+10% (56 high-risk participants, a group separate from the 608 healthy participants, of whom 46 [8%] developed RSV); 16% of high-risk participants with RSV required hospitalization (p1737).
 
 </details>
 

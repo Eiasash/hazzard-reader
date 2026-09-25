@@ -96,7 +96,7 @@ Semantic fluency ("name all the animals you can") declines; phonemic fluency ("w
 
 <details><summary>Answer</summary>
 
-70% (the highest of the conditions shown; CKD 38%, diabetes 27%, thyroid disease 25%, CAD 17%, sleep apnea 14%, depression 10-15%, COPD 10%) (p856-857).
+70% (the highest of the conditions shown; CKD 38%, diabetes 27%, thyroid disease 25%, CAD 17%, sleep apnea 14%, depression 10-15%, COPD 10%) (p856).
 
 </details>
 

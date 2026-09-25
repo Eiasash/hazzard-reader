@@ -39,7 +39,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - **70–80%** of older HFPEF patients have hypertension (p1186).
 
 ### Nonpharmacologic Management
-- Nonadherence/behavioral factors drive readmission: **64%** of exacerbations tied to medication/diet nonadherence in one study, **26%** to emotional/environmental factors; in a 140-patient cohort (age ≥70), **47%** were readmitted within 90 days (p1176).
+- Nonadherence/behavioral factors drive readmission: **64%** of exacerbations tied to medication/diet nonadherence in one study, and emotional/environmental factors contributed to **26%** of readmissions; in a 140-patient cohort (age ≥70), **47%** were readmitted within 90 days (p1176).
 - Meta-analysis of 33 disease-management trials: HF readmissions **↓42%**, all-cause readmissions **↓24%**, mortality **↓20%** (p1176).
 - Sodium target **1500–3000 mg/d** — expert consensus, not trial-derived (p1176).
 - Dietary consultation also covers avoidance of excess fluid intake (**>2 L/d**, especially if Na **<130**) alongside avoidance of excess sodium (**>2–3 g/d**), plus low-fat/low-cholesterol and adequate-calorie guidance (Table 76-8, p1177).
@@ -49,7 +49,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 
 ### Drugs for HFREF (name — dose — key caution)
 - **Carvedilol** — start 3.125–6.25 mg BID → target 25–50 mg BID (p1179).
-- **Metoprolol succinate** — start 12.5–25 mg daily → target 100–200 mg daily; (tartrate 6.25 mg BID–QID is a titration alternative) (p1179).
+- **Metoprolol succinate** — start 12.5–25 mg daily → target 100–200 mg daily; (tartrate 6.25 mg BID or QID is a titration alternative) (p1179).
 - **Bisoprolol** — start 1.25–2.5 mg daily → target 10 mg daily (p1179). Only these 3 β-blockers were studied and demonstrated benefit in improving HF outcomes.
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
 - **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
@@ -178,7 +178,7 @@ Creatinine ≥2.5 mg/dL (or preexisting hyperkalemia); spironolactone 12.5–50 
 
 <details><summary>Answer</summary>
 
-0.5–0.9 ng/mL; no — digoxin reduced HF hospitalizations in the DIG trial but did not reduce mortality (34.8% vs 35.1%, not different from placebo) (p1182–1183).
+0.5–0.9 ng/mL (DIG analyses: low-dose levels in this range *may* be associated with improved survival); no — digoxin reduced HF hospitalizations in the DIG trial but did not reduce mortality (34.8% vs 35.1%, not different from placebo) (p1182–1183).
 
 </details>
 

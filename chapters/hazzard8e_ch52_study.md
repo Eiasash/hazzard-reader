@@ -35,7 +35,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 - Avoid NSAIDs if **CKD stage IV or V** (eGFR **<30 cc/min**) (p788).
 - ACR/AF and OARSI recommend **against** glucosamine or chondroitin sulfate for knee/hip OA (p788). Bisphosphonates showed no efficacy for pain or function, and TNF inhibitors/IL-1 receptor antagonists were not efficacious for erosive OA and are not recommended (p788); the ACR/AF figure lists all three as strongly recommended against (Figure 52-5, p786).
 - Intra-articular glucocorticoid: pain relief up to **2 months**; no more than **3 injections per 6-month period** (p789).
-- Viscosupplementation (IA hyaluronic acid) and platelet-rich plasma/mesenchymal stem cell therapy: not recommended by ACR/AF/OARSI, and PRP/MSC are still experimental and not FDA-approved (p789).
+- Viscosupplementation (IA hyaluronic acid): not recommended by ACR/AF/OARSI (p789). Platelet-rich plasma/mesenchymal stem cell therapy: still experimental and not FDA-approved — only within an FDA-approved trial (p789); ACR/AF strongly against for knee/hip (Figure 52-5, p786).
 
 **Surgery & prevention**
 - High tibial osteotomy: **~25%** failure rate at 10 years (p789).

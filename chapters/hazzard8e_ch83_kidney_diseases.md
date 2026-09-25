@@ -378,7 +378,7 @@ Atherosclerosis accounts for almost 90% of cases in the geriatric population, wi
 
 _Modified with permission from Greco BA, Breyer JA. The natural history of renal artery stenosis: who should be evaluated for suspected ischemic nephropathy? Semin Nephrol. 1996;16(1):2–11._
 
-disease includes many different diseases ( **Table 83-3** ). Atheroembolic renal disease falls into the category of renal insufficiency induced by preglomerular ischemia. This entity has been usually described in patients with clinical evidence of atheromatous occlusive disease following invasive intraaortic diagnostic or therapeutic procedures, although spontaneous embolic episodes have been reported.
+disease includes many different diseases ( **Table 83-3** ). Atheroembolic renal disease falls into the category of renal insufficiency induced by preglomerular ischemia. This entity has been usually described in patients with clinical evidence of atheromatous occlusive disease following invasive intra-aortic diagnostic or therapeutic procedures, although spontaneous embolic episodes have been reported.
 
 ## Presentation
 
