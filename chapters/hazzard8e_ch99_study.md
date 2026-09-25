@@ -9,8 +9,8 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - Prediabetes: **A1C 5.7–6.4%**, **FPG 100–125 mg/dL**, or **2-h OGTT 140–199 mg/dL** (p1560).
 - **~90%** of older adults with diabetes have type 2 disease (p1560).
 - GDM affects **~4%** of US pregnancies; **5–10%** of those women have persistent T2D postpartum; **20–50%** develop T2D within **5–10 years** (p1560).
-- Screen all adults **>65** with FPG and/or A1C; re-screen every **2–3 years**, or **annually** if high-risk (BMI≥25, first-degree relative, HTN, low HDL/high TG, Table 99-3) (p1561).
-- Tests are often discordant; confirm with a second test unless symptoms are clear, and trust/repeat the abnormal result if discordant (p1561).
+- Screen all adults **>65** with FPG and/or A1C; re-screen every **2–3 years**; consider **annual** testing if high-risk (BMI≥25, first-degree relative, HTN, low HDL/high TG, Table 99-3) (p1561).
+- Tests are often discordant; unless there are clear hyperglycemic symptoms, confirm with two diagnostic tests; if two tests are discordant, repeat the test whose result is above the diagnostic threshold (p1561).
 
 **Epidemiology & complications**
 - **~27%** of US adults 65+ have diabetes; **~50%** have prediabetes (p1562).
@@ -18,21 +18,21 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - New-case incidence peaks at **10/1000/yr** (age 45–64) and **9/1000/yr** (age 65–79), 2017–2018 (p1562).
 - CVD/stroke history reported by **28%** (35–64y), **43%** (65–74y), **55%** (75y+) of people with diabetes (p1562).
 - Diabetic kidney disease (eGFR **<60** and/or albuminuria **>30 mg/g**) present in **~50%** of diabetics >65 (p1562); 5-year ESRD survival **<40%** (p1563).
-- Retinopathy causes **~10,000** new US blindness cases/yr and can predate diagnosis by **7 years** (p1563).
+- Retinopathy causes **~10,000** new US blindness cases/yr and may begin as early as **7 years** before diagnosis in T2D (p1563).
 - Neuropathy eventually develops in **~50%** of diabetics (range 10–100% depending on criteria) (p1563).
 - Lower-extremity amputation risk **~10-fold** higher than in nondiabetic older adults (p1563).
 - US diabetes cost **>$300 billion** (2017); **63%** of inpatient diabetes costs are attributable to age 65+ (p1563).
-- Depression: **60%** higher incident-T2D risk per meta-analysis; diabetics have **2×** the depression rate of nondiabetics (p1568).
+- Depression: up to **60%** higher incident-T2D risk per meta-analysis; diabetics have **2×** the depression rate of nondiabetics (p1568).
 
 **Aging pathophysiology (brief)**
-- Normal aging causes only mild ↑ FPG but a **more pronounced delay** in glucose return-to-normal after an OGTT — the dominant age-related defect (p1563).
+- Normal aging causes only mild ↑ FPG but a **more pronounced delay** in glucose return-to-normal after an oral glucose challenge (p1563).
 - Insulin resistance with aging tracks mainly with **central adiposity** and inactivity, not age per se (p1563–1564).
 - β-cell secretory defects are demonstrable in older adults even when matched for insulin sensitivity (p1564).
-- T2D genetics: **~70** susceptibility loci identified; **75%** concordance in identical twins (p1565).
+- T2D genetics: **~70** susceptibility loci identified; **≥75%** concordance in identical twins (p1565).
 
 **Prevention**
 - DPP: intensive lifestyle intervention cut progression to T2D by **>70%** in patients **>60** over **3 years** of treatment, despite only **5–7%** weight loss (p1565–1566).
-- Metformin was less effective than lifestyle for prevention in patients **>60** vs younger adults (p1566).
+- Metformin slowed progression in younger adults but had somewhat less effect in patients **>60** (p1566).
 - Benefit persisted at 15-year follow-up; diabetes onset delayed by **~4 years** (p1566).
 
 **Evaluation**
@@ -51,36 +51,36 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 **CVD risk reduction**
 - BP target **<140/90 mmHg** for most; consider **130/80 mmHg** for high-risk (prior stroke, progressing CKD), with orthostatic monitoring (p1572).
 - ACE inhibitor or ARB first-line for hypertension when nephropathy is present (p1572).
-- Statins recommended for nearly all older diabetics except end-stage disease/limited life expectancy (p1572).
+- Statins may be indicated for nearly all older diabetics except those with end-stage disease and very limited life expectancy; benefit at age ≥75 without ASCVD is still being studied (p1571).
 - If a statin alone doesn't reach the LDL-C goal, add ezetimibe or a PCSK9 inhibitor; if fasting triglycerides **>500 mg/dL**, add fish oil and/or fenofibrate to reduce pancreatitis risk (Table 99-8, p1572).
-- Aspirin **75–162 mg/d** for secondary prevention only — not routine primary prevention (p1572).
+- Aspirin **75–162 mg/d** recommended for secondary prevention (known CVD); primary prevention remains controversial because of bleeding risk (p1572).
 - CVD-outcome-proven drug classes (large CVOTs, average participant age >60): SGLT-2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) and GLP-1 agonists (liraglutide, semaglutide, dulaglutide) (p1571).
 
 **Microvascular complications**
 - Annual eGFR + urine albumin-to-creatinine ratio screening (p1572).
-- Annual dilated-eye exam by ophthalmologist (p1573).
+- Annual comprehensive eye exam by an ophthalmologist (p1573).
 - First-line agents for diabetic neuropathic pain: **pregabalin, gabapentin, duloxetine** (p1573).
 
 **Drugs — noninsulin (Table 99-11, p1577–1578)**
-- **Metformin**: 500–1000 mg BID (max **2500 mg/d**); ER 500–2000 mg qd (p1577). Cautions: avoid if **eGFR <30**; avoid in unstable heart failure/acute illness (lactic-acidosis risk) (p1576).
+- **Metformin** / metformin ER: printed dose lines 500–1000 mg BID, max **2500 mg/d**, 500–2000 mg qd — the page does not pair each line to an agent (p1577). Cautions: avoid if **eGFR <30**; avoid in unstable heart failure/acute illness (lactic-acidosis risk) (p1576).
 - **Sulfonylureas** (e.g., glipizide 2.5–10 mg qd–BID) (p1577). Cautions: hypoglycemia; avoid **glyburide** — long half-life, not recommended in older adults (p1579); avoid in renal/hepatic impairment (p1579).
 - **DPP-4 inhibitors** (e.g., sitagliptin 100 mg qd) (p1577). Cautions: renal dose-adjust (except linagliptin); possible pancreatitis; possible heart-failure hospitalization.
 - **GLP-1 agonists** (e.g., liraglutide, semaglutide [also oral], dulaglutide) — injectable, mostly weekly; source table does not pair each dose line to its named agent (p1577–1578). Cautions: nausea/vomiting, possible pancreatitis, avoid exenatide/lixisenatide if **eGFR <30**.
-- **SGLT-2 inhibitors** (e.g., empagliflozin 10–25 mg qd) (p1578). Cautions: avoid if **eGFR <25–30** — Table 99-11 (p1578); genital/UTI infections; euglycemic DKA risk (p1580).
+- **SGLT-2 inhibitors** (e.g., empagliflozin 10–25 mg qd) (p1578). Cautions: avoid if **eGFR <25–30** — Table 99-11 (p1578); genital/UTI infections; DKA (rare in T2DM; the volume effect may contribute) (p1578, p1580).
 - **Thiazolidinediones** (pioglitazone 15–45 mg qd) (p1578). Cautions: avoid in heart failure (fluid retention), bone-fracture risk.
 - **Meglitinides** (repaglinide 0.5–4 mg before meals) (p1578). Cautions: hypoglycemia; avoid combining with gemfibrozil (p1580).
 
 **Drugs — insulin (Table 99-12, p1579; dosing p1581–1582)**
 - **Glargine** (basal): no peak, duration **20→>24 h**; start **10 units** qd or **0.2 units/kg/day**.
 - **Degludec** (ultra-long): duration **>40 h**.
-- **Rapid-acting** (lispro/aspart/glulisine): onset **5–15 min**, duration **2–4 h**; give just before or up to 20 min after starting a meal.
+- **Rapid-acting**: Table 99-12 prints onset **5–15 min**, duration **2–4 h** on the lispro line only (aspart/glulisine cells blank); rapid-acting analogs are given just before meals and can even be given within 20 min after starting a meal.
 - Total daily dose: type 1 **~0.5–1.0 units/kg**; type 2 up to **1.0–2.0 units/kg**; start low, **0.1–0.2 units/kg/day**.
 - Titrate **2–5 units every 3–5 days** (every 7 days for long-acting analogs).
 
 **Hypoglycemia**
-- Diabetics may become symptomatic at **80–100 mg/dL**, vs **50–60 mg/dL** in nondiabetics — the counterregulatory threshold adapts to chronic glycemic exposure (p1584).
+- Diabetics may become symptomatic at **80–100 mg/dL**, vs **50–60 mg/dL** in nondiabetics — the counterregulatory threshold adapts to chronic glycemic exposure (p1583).
 - Risk factors: insulin/sulfonylurea use, autonomic/glucagon impairment, renal/hepatic failure, cognitive disorder, sensory (vision/hearing) or functional (mobility/hand dexterity) impairment, poor/irregular nutrition, alcohol/sedative use, polypharmacy (Table 99-15) (p1584).
-- β-blockers can mask hypoglycemia counterregulation — avoid combining with insulin/sulfonylurea when possible (p1584).
+- β-blockers can interfere with hypoglycemia counterregulation — avoid combining with insulin/sulfonylurea when possible (p1584).
 
 **Special populations**
 - Nursing-home diabetes prevalence: **26%** men, **22%** women (p1585).
@@ -89,8 +89,8 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 
 **Exam traps / book self-contradictions (flagged in source)**
 - The chapter states only insulin and sulfonylureas carry significant hypoglycemia risk, yet its own Table 99-6 and Table 99-11 also name **glinides/meglitinides** as hypoglycemia-risk drugs (p1576).
-- Table 99-11 misprints the DPP-4 row as "↑ glucagon secretion"; the surrounding text and the GLP-1 row both say DPP-4/GLP-1 agents **suppress** glucagon (p1578).
-- Table 99-16 cites a 2013 Diabetes UK end-of-life guideline as current, while the chapter's own text notes that guideline was updated **November 2021** (p1586).
+- Table 99-11 prints the DPP-4 row as "↑ Glucagon secretion", while the GLP-1 row directly below prints "↓" and the text says GLP-1 agonists **suppress** glucagon (p1580); the book does not reconcile this (p1577).
+- Table 99-16 is sourced to the 2013 (2nd ed.) Diabetes UK end-of-life recommendations, while the chapter's own text notes they were last updated **November 2021** (p1586).
 
 ## Drill
 
@@ -162,7 +162,7 @@ Less than 40% (p1563).
 
 <details><summary>Answer</summary>
 
-The 2019 Endocrine Society guideline (Table 99-6); a similar framework appears in the ADA 2021 Standards of Care (p1571).
+The 2019 Endocrine Society guideline (Table 99-6); a similar framework appears in the ADA 2021 Standards of Care (p1570).
 
 </details>
 

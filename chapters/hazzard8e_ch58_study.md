@@ -8,61 +8,61 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 - Delirium = acute disorder of attention + global cognition; affects **~50%** of hospitalized adults 65+ (p879).
 - 65+ patients account for **~40%** of all hospital days; costs **>$60,000/patient**, **$183B/year** nationally (2018 USD) (p879).
 - **Up to 50%** of cases are preventable (p879).
-- **70–85%** of cases go undetected by clinicians (p880).
-- Incidence: ICU **16–82%**, nursing home/postacute up to **48%**, end of life up to **83%** (p880).
+- Clinicians fail to detect up to **70–85%** of cases (p880).
+- ICU incidence **16–82%**; delirium occurs in up to **48%** in nursing home/postacute settings and up to **83%** at end of life (p880).
 - ICU delirium → **4×** in-hospital mortality, **6×** mortality at 6 months (p880).
 
 **Diagnosis**
-- DSM-5: attention/awareness disturbance + acute/fluctuating onset + added cognitive deficit + not explained by severe consciousness impairment/coma + medical etiology (p879–880).
+- DSM-5: attention/awareness disturbance + acute/fluctuating onset + added cognitive deficit + not better explained by dementia and not in the context of severely reduced consciousness/coma + medical etiology (p879–880).
 - CAM (4-item algorithm: acute onset/fluctuating course + inattention + [disorganized thinking OR altered consciousness]) — sensitivity **94–100%**, specificity **90–95%** (p880).
 - Cardinal features: acute onset **hours–days**, fluctuating course, inattention — vs dementia's insidious **weeks–months** course (p883).
-- Hypoactive form is most common in older patients and most often missed (p883).
+- Hypoactive form is the more common form in older patients; it often goes unrecognized and carries an overall poorer prognosis (p883).
 - Screening tools (Table 58-3, p884): **4AT** scores 0–12, **≥4** suggests delirium; **Nu-DESC** scores 0–10.
 
 **Risk factors**
 - Predisposing: dementia (**2–5×** risk, present in up to **two-thirds** of delirium cases), age **>70**, severe illness/multimorbidity, functional/sensory impairment, prior delirium or stroke (p881).
 - Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, **ICU stay >10 days**, and physiologic derangements (elevated BUN/creatinine ratio, abnormal Na/glucose/K, metabolic acidosis).
-- Each independent precipitating factor confers **2–4×** risk; effects are cumulative (p882).
+- Validated hospital precipitants (restraints, malnutrition, >3 medications added in the previous day, bladder catheter, any iatrogenic event): each independently confers **2–4×** risk; effects are cumulative (p882).
 
 **Drugs & delirium**
 - Medications contribute to **≥30%** of cases (p882). Any psychoactive drug **4×** risk; ≥2 psychoactive drugs **5×** risk; sedative-hypnotics **3–12×**, narcotics **3×**, anticholinergics **5–12×** (p882).
-- Beers-listed culprits (Table 58-2, p883): anticholinergics, antipsychotics, benzodiazepines, corticosteroids, H2-blockers, meperidine, Z-drugs (zolpidem/eszopiclone/zaleplon), TCAs — avoid/minimize where possible.
+- Beers-listed culprits (Table 58-2, p883): anticholinergics, antipsychotics, benzodiazepines, corticosteroids, H2-blockers, meperidine, Z-drugs (zolpidem/eszopiclone/zaleplon), TCAs. Psychoactive drugs should be discontinued or minimized whenever possible (p885).
 
 **Evaluation**
-- CAM validated in **10,000+** studies, **19+** languages (p884).
-- Only **~20%** attain complete symptom resolution by 6 months; cognition can be affected for **up to 1 year** (p884).
-- LP/brain imaging/EEG indicated in **<5–10%** of cases — reserve for fever+meningismus, focal signs, head trauma, or no other identifiable cause (p885). EEG false-negative **17%**, false-positive **22%** (p885).
-- Differential: delirium vs dementia vs depression vs acute psychosis (Table 58-4, p886) — level of consciousness (altered vs normal) is the clean separator from psychosis; attention differs too (impaired vs variable) but overlaps and doesn't separate as cleanly.
+- CAM short form applied in over **10,000** studies, translated into over **19** languages (p884).
+- As few as **20%** attain complete symptom resolution at 6 months; cognition can be affected for **up to 1 year** (p884).
+- LP/brain imaging/EEG probably indicated in fewer than **5–10%** of cases — LP for the febrile patient with suspected meningitis/encephalitis; imaging for new focal signs, head trauma, or no other identifiable cause (p885). EEG false-negative **17%**, false-positive **22%** (p885).
+- Differential: delirium vs dementia vs depression vs acute psychosis (Table 58-4, p886) — level of consciousness (altered vs normal) separates delirium from acute psychosis (2026 Q14 key); attention differs too (impaired vs variable) but overlaps and doesn't separate as cleanly.
 
 **Prevention**
-- Multicomponent (HELP-type) prevention protocol → **40%** risk reduction (p886).
+- Targeted multicomponent prevention (Table 58-5 risk factors) vs standard care → **40%** risk reduction in hospitalized older patients (p886).
 - Proactive geriatric consultation post-hip-fracture → **40%** reduction (p887).
 
 **Management**
 - Nonpharmacologic strategies are first-line for every patient: reorientation, mobilize early, correct vision/hearing, avoid restraints, protect sleep, treat dehydration early (Table 58-5, p888).
 - Nonpharm sleep protocol (warm milk/tea + relaxation music + back massage) cut sleep-med use **54% → 31%** (p889).
 - Antipsychotics = last resort, for safety/symptom control only:
-  - **Haloperidol** — start **0.25 mg** PO/IV, repeat q30min; total loading dose max **2.5 mg**; maintenance = half loading dose, tapered over **48 h**. Caution: EPS/dystonia; avoid in Parkinson disease/Lewy body dementia; IV only in monitored settings (torsades risk) (p889).
+  - **Haloperidol** — start **0.25 mg** PO/parenteral, may repeat q30min after rechecking vitals; most antipsychotic-naïve older patients should need a total loading dose of no more than **2.5 mg**; maintenance = half the loading dose in divided doses over the next 24 h, tapered over the ensuing **48 h**. Caution: EPS/dystonia; avoid in Parkinson disease/Lewy body dementia; IV only in monitored settings (torsades risk) (p889).
   - **Quetiapine** — start **12.5 mg**, 24-h max **25 mg** (p889).
   - **Olanzapine** — start **2.5 mg**, 24-h max **10 mg** (p889).
   - **Risperidone** — start **0.25–0.5 mg**, 24-h max **1.5 mg** (p889).
-  - All antipsychotics carry a boxed mortality warning in dementia.
+  - Official warnings: increased mortality with haloperidol and atypical antipsychotics in patients with dementia (p889).
 - **Benzodiazepines**: avoid as first-line (oversedation, worsens delirium); remain treatment of choice for delirium from seizures or alcohol/medication withdrawal (p889).
 - **Dexmedetomidine**: shortens delirium duration/ICU stay in ventilated patients; useful if haloperidol-resistant (p889).
 
 **Special populations**
 - COVID-19: hospitalization delirium rates **25–84%** (p889).
-- Postacute/nursing home: **16%** meet full CAM criteria on admission, another **50%** are subsyndromal; **>50%** still delirious at 1 month (p890).
+- Postacute/nursing home: **16%** meet full CAM criteria on admission, another **50%** are subsyndromal; of those admitted with delirium, **>50%** still delirious at 1 month (p890).
 - End of life: delirium in **>80%** of patients; for refractory agitated delirium, **lorazepam 0.5–1.0 mg** PO/IV/SQ is the sedation agent of choice (p890).
 
 **Exam traps / book contradictions**
 - Acute-onset timeframe: Cardinal Features/Table 58-4 say "hours to days," but the Algorithm-for-Evaluation text says "hours to weeks" for acute change — both as printed, not reconciled; a 2–3-week history falls inside one window and outside the other (p886).
-- Figure 58-2's flowchart ends "avoid benzodiazepines and other psychoactive drugs" and gives only starting doses; the body text on p889 adds that benzodiazepines are still first-line for seizure/withdrawal delirium and gives the 24-h antipsychotic maximums the figure omits (p887).
+- Figure 58-2's flowchart ends "avoid benzodiazepines and other psychoactive drugs" and gives only starting doses; the body text on p889 adds that benzodiazepines remain the treatment of choice for seizure/withdrawal delirium and gives the 24-h antipsychotic maximums the figure omits (p887).
 - Risperidone dose: Figure 58-2 gives **0.25 mg**; the Antipsychotics text gives **0.25–0.5 mg** — both as printed (p889).
 
 ## Drill
 
-**1. What acute disorder of attention and cognition affects roughly half of hospitalized patients 65 and older, and what fraction of cases are preventable?**
+**1. What acute disorder of attention and cognition affects up to half of hospitalized patients 65 and older, and what fraction of cases are preventable?**
 
 <details><summary>Answer</summary>
 
@@ -106,7 +106,7 @@ Dementia; confers a 2- to 5-fold increased risk of delirium (p881).
 
 <details><summary>Answer</summary>
 
-Any three of: physical restraints, indwelling bladder catheter, malnutrition, iatrogenic event, urgent/trauma admission, ICU stay >10 days, coma (p881–882).
+Any three of: physical restraints, indwelling bladder catheter, malnutrition, iatrogenic event, urgent/trauma admission, ICU stay >10 days, coma (p882).
 
 </details>
 
@@ -126,11 +126,11 @@ Delirium changes occur over hours to days; dementia presents insidiously over we
 
 </details>
 
-**9. Which form of delirium (hypoactive, hyperactive, or mixed) is most common in older patients, and why is it clinically dangerous?**
+**9. Which form of delirium (hypoactive, hyperactive, or mixed) is the more common form in older patients, and what does the book say about its recognition and prognosis?**
 
 <details><summary>Answer</summary>
 
-Hypoactive — it is often misattributed to fatigue or low mood and carries a poorer prognosis because it goes unrecognized (p883).
+Hypoactive — it often goes unrecognized (reduced activity is often attributed to low mood or fatigue) and carries an overall poorer prognosis (p883).
 
 </details>
 
@@ -146,15 +146,15 @@ A score of 4 or more (out of 0–12) (p884).
 
 <details><summary>Answer</summary>
 
-Fewer than 5–10% — reserve for new focal neurologic signs, head trauma, fever with concern for meningitis/encephalitis, or no other identifiable cause (p885).
+Probably fewer than 5–10%. LP: febrile delirious patient with suspected meningitis/encephalitis. Brain imaging: new focal neurologic signs, history/signs of head trauma, or no other identifiable cause (p885).
 
 </details>
 
-**12. What starting dose and 24-hour maximum haloperidol loading dose are recommended for severe delirium agitation?**
+**12. What haloperidol starting dose is recommended for severe delirium agitation, and what total loading dose should most antipsychotic-naïve older patients need?**
 
 <details><summary>Answer</summary>
 
-Start 0.25 mg PO/IV, repeated every 30 minutes; total loading dose should not exceed 2.5 mg (p889).
+Start 0.25 mg orally or parenterally, repeatable every 30 minutes after vital signs are rechecked; most should require a total loading dose of no more than 2.5 mg (p889).
 
 </details>
 
@@ -166,7 +166,7 @@ Benzodiazepines (p889).
 
 </details>
 
-**14. In postacute/nursing-home admissions, what fraction of patients meet full CAM criteria for delirium at admission, and what fraction are still delirious a month later?**
+**14. In postacute/nursing-home admissions, what fraction of patients meet full CAM criteria for delirium at admission, and what fraction of those admitted with delirium are still delirious a month later?**
 
 <details><summary>Answer</summary>
 

@@ -5,7 +5,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 ## Summary
 
 **Epidemiology & framework**
-- Neuropsychiatric symptoms (NPS) occur in up to **98%** of dementia patients over the course of illness (p919); depression, apathy, and anxiety are the most common early on.
+- Neuropsychiatric symptoms (NPS) occur in up to **98%** of dementia patients over the course of illness (p919); depression, apathy, and anxiety are the most common NPS in dementia (p919).
 - New late-life NPS lasting **over 6 months**, without dementia and not explained by another psychiatric disorder = mild behavioral impairment (MBI) (p919).
 - NPS → higher mortality, faster cognitive decline, and are a top driver of institutionalization.
 - 4 NPS domains: affective/motivational, psychotic, disturbances of basic drives (sleep/eating), and disinhibited/socially inappropriate behavior.
@@ -15,44 +15,44 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - **Rule out delirium first** for any acute or fluctuating change in cognition/behavior (p923).
 - NPI = most-used research tool for NPS; NPI-Q = brief clinic version, measures **12 NPS** domains plus informant distress (p922).
 - Medication review is essential: the anticholinergic-risk/delirium med list (**Table 60-3**, p922) includes non-obvious agents **digoxin** and **furosemide** alongside the classic anticholinergics (TCAs, diphenhydramine/hydroxyzine/promethazine, oxybutynin, scopolamine).
-- New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; imaging if focal signs; EEG if seizure suspected; LP rarely needed (p920).
-- Depression affects up to **50%** of dementia patients and often presents atypically — more agitation/irritability/anxiety than classic low mood (p923).
-- Psychosis occurs in **20% to 30%** of AD patients vs **over 50%** of DLB/Parkinson disease dementia patients; visual hallucinations are the more useful feature for distinguishing DLB from AD (p923).
+- New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — only if meningitis/encephalitis suspected (p922).
+- Depression affects up to **50%** of dementia patients and may go undetected — in dementia it is more likely to present with agitation, irritability, and anxiety (p923).
+- Psychosis occurs in **20% to 30%** of AD patients vs **over 50%** of DLB/Parkinson disease dementia patients; visual hallucinations (more common in DLB) may be the most clinically useful feature to distinguish DLB from AD (p923–924).
 
 **Management framework**
 - DICE approach: Describe, Investigate, Create, Evaluate (p924).
-- MIND at Home study: **99%** of community-dwelling dementia patients had unmet care needs (p924); **60% to 70%** of AD patients live in the community (p924).
-- About **25%** of dementia patients are cared for by nonfamily aides, who often lack dementia-specific training (p925).
-- **Nonpharmacologic interventions are first-line**, always tried before medications — exception is an emergency safety risk (p925).
+- MIND at Home study: **99%** of community-dwelling dementia patients had unmet care needs (p924); **60% to 70%** of older adults with AD and other dementias live in the community, cared for by family and friends (p924).
+- In the US about **25%** of people with dementia receive care from nonfamily caregivers (eg, home health aides), who may not always receive the necessary dementia-care training (p925).
+- **Nonpharmacologic interventions are first-line** — exception is emergency situations where the safety of the patient or others is compromised (eg, severe agitation) (p925).
 - Psychotropics only after nonpharmacologic approaches fail, EXCEPT 3 cases: clear-cut major depression; psychosis causing/risking harm; aggression causing/risking harm (p925).
-- Real-world nursing-home data show overprescribing is the norm: only **12%** of new admissions got nonpharmacologic treatment in the first 3 months, while **71%** were already on at least one psychotropic (p927).
+- Psychotropics are routinely prescribed despite safety/efficacy concerns: in newly admitted nursing-home residents, only **12%** of new admissions got nonpharmacologic treatment in the first 3 months, while **71%** were already on at least one psychotropic (p927).
 
 **Drugs — antipsychotics** (all carry a black-box mortality warning in dementia)
 - No significant benefit after a **4-week period** → taper and withdraw; reassess at least monthly while tapering and for at least **4 months** after stopping (p927).
 - Delirium-related agitation (short-term, low-dose), all q6h PRN: haloperidol **0.25–0.5 mg** PO/IV, quetiapine **12.5–25 mg** PO, olanzapine **2.5 mg** PO or **1.25–2.5 mg** IM, or risperidone **0.25–0.5 mg** PO/IV (p923).
-- Risperidone **0.25–1 mg**/day — best evidence for both psychosis and agitation; dose-dependent EPS, ↑cerebrovascular risk (p928).
-- Olanzapine **2.5–10 mg**/day — best evidence for agitation; sedation, weight gain, glucose effects (p928).
-- Quetiapine **12.5–150 mg**/day — sedating, lower EPS (p928).
-- Aripiprazole **5–10 mg**/day — best evidence for overall NPS per AHRQ review; lower EPS, nausea (p928).
-- Haloperidol **0.5–5** mg/day — highest EPS and mortality risk of the group; avoid first-line outside emergencies (p928).
-- Clozapine **6.25–75 mg**/day — lowest EPS; along with quetiapine, least likely to worsen parkinsonism, so preferred for DLB/Parkinson disease psychosis; needs weekly CBC (agranulocytosis risk) early in treatment (p928).
+- Risperidone **0.25–1 mg**/day — most effective for psychosis and agitation per AHRQ review; dose-dependent EPS, ↑cerebrovascular risk (p928).
+- Olanzapine **2.5–10 mg**/day — most effective for agitation per AHRQ review; sedation, weight gain, glucose effects (p928).
+- Quetiapine **12.5–150 mg**/day — sedation, orthostatic hypotension; with clozapine, less likely than other antipsychotics to worsen parkinsonian symptoms (p928).
+- Aripiprazole **5–10 mg**/day — most effective for overall NPS per AHRQ review; lower EPS, nausea (p928).
+- Haloperidol **0.5–5** mg/day — high EPS risk; should not be a first-line neuroleptic in nonemergent situations (p928). Retrospective cohorts: higher mortality than risperidone, olanzapine, aripiprazole, ziprasidone, or quetiapine (p927).
+- Clozapine **6.25–75 mg**/day — low EPS risk, so a good option for psychotic symptoms in DLB (DLB/PD patients are extremely EPS-sensitive, except to clozapine); limited by neutropenia/agranulocytosis — weekly blood draws in the first **6 months** (p928).
 - Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928).
 
 **Drugs — antidepressants**
 - Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition limit its use (p929).
 - Sertraline — initial **25** mg, max **200** mg/day; despite early promise, not shown superior to placebo for depression in dementia (p929).
 - Escitalopram — the cleaner S-enantiomer of citalopram; being studied for agitation (S-CitAD) (p930).
-- Paroxetine — avoid in older adults: anticholinergic (delirium risk), and if stopped, causes withdrawal effects from its short half-life (p929).
-- Mirtazapine — sedating; no benefit over placebo for sleep and may worsen daytime sleepiness (p930).
+- Paroxetine — anticholinergic properties, should be avoided in older adults (p930); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (p929).
+- Mirtazapine — sedating at lower doses; in one small RCT (24 vs 16) no benefit over placebo for sleep in dementia, with increased daytime sleepiness (p930).
 - Bupropion — avoid with a history of seizures or psychotic symptoms (p930).
 - Nortriptyline — therapeutic window **50–150 ng/mL**; anticholinergic effects, hypotension, sedation (p929).
 - Desipramine — the other preferred TCA in Table 60-9; therapeutic window **150–300 ng/mL** (higher than nortriptyline's — don't conflate the two), similar side-effect profile (p929).
 - TCAs overall are limited by a high adverse-event burden compared to SSRIs/SNRIs (p930).
 
 **Drugs — other / adjuncts**
-- Benzodiazepines are used in **8.5% to 20%** of AD patients despite weak efficacy evidence; avoid except emergencies; if used, prefer glucuronidated agents (oxazepam, temazepam, lorazepam) — no active metabolites (p931).
-- Cholinesterase inhibitors (donepezil, galantamine, rivastigmine) + memantine give modest NPS reduction; combination beats monotherapy; reasonable for chronic, not acute, NPS (p931).
-- Methylphenidate improved apathy in randomized trials; modafinil did not (p931).
+- Benzodiazepines are used in **8.5% to 20%** of AD patients despite weak efficacy evidence; avoid, except emergencies (severe agitation with risk of harm) or failure of alternative pharmacologic interventions; if used, sparingly, short-acting preferred; glucuronidated agents (oxazepam, temazepam, lorazepam) preferable with complex medical comorbidities — no active metabolites (p931).
+- Meta-analyses: donepezil, galantamine, and memantine beat placebo in reducing emergence of NPS (modest vs neuroleptics); AChI + memantine combination beats monotherapy and placebo; not first-line for acute NPS of moderate or greater severity, but reasonable for chronic NPS (p931).
+- Methylphenidate improved apathy in AD in randomized trials; modafinil did not in one small RCT (p931).
 - Melatonin doses **up to 10 mg** showed little or no sleep benefit in a Cochrane review (p931); one small trial of melatonin **3 mg** helped agitation/sundowning (p932); ramelteon showed no sleep benefit (p932).
 - Anticonvulsants ("mood stabilizers") are generally disappointing: valproate is ineffective and poorly tolerated; carbamazepine helped in one small trial but is a potent enzyme inducer with marrow-toxicity risk (p930).
 
@@ -79,7 +79,7 @@ Delirium (p923).
 
 </details>
 
-**3. What proportion of dementia patients will develop clinically significant depression over the course of their illness?**
+**3. What proportion of dementia patients will suffer from depression over the course of their illness?**
 
 <details><summary>Answer</summary>
 
@@ -111,11 +111,11 @@ Describe, Investigate, Create, Evaluate (p924).
 
 </details>
 
-**7. Before starting any medication for NPS, what should always be tried first?**
+**7. What is first-line management of NPS in dementia, and what is the stated exception?**
 
 <details><summary>Answer</summary>
 
-Nonpharmacologic interventions (p925).
+Nonpharmacologic interventions; exception is emergency situations where the safety of the patient or others is compromised, eg, severe agitation (p925).
 
 </details>
 
@@ -135,19 +135,19 @@ After a **4-week period** (p927).
 
 </details>
 
-**10. Per the AHRQ comparative-effectiveness review, which atypical antipsychotic had the best evidence for agitation, and which for psychosis?**
+**10. Per the AHRQ comparative-effectiveness review, for which targets were risperidone, olanzapine, and aripiprazole most effective?**
 
 <details><summary>Answer</summary>
 
-Olanzapine for agitation; risperidone for psychosis and agitation (p928).
+Risperidone for psychosis and agitation; olanzapine for agitation; aripiprazole for overall NPS (p928).
 
 </details>
 
-**11. Which antipsychotic has the lowest EPS risk and is preferred for psychotic symptoms in dementia with Lewy bodies?**
+**11. Which antipsychotic's low EPS risk makes it a good option for psychotic symptoms in dementia with Lewy bodies, and what limits its use?**
 
 <details><summary>Answer</summary>
 
-Clozapine — but it requires weekly blood draws for agranulocytosis in the first 6 months (p928).
+Clozapine — limited by serious adverse effects (neutropenia/agranulocytosis) and close laboratory monitoring: weekly blood draws in the first 6 months (p928).
 
 </details>
 
@@ -171,7 +171,7 @@ Citalopram; limited by QTc prolongation and worsened cognition (p929).
 
 <details><summary>Answer</summary>
 
-Paroxetine (p929).
+Paroxetine (p929–930).
 
 </details>
 
@@ -179,7 +179,7 @@ Paroxetine (p929).
 
 <details><summary>Answer</summary>
 
-**8.5% to 20%**; prefer glucuronidated agents — oxazepam, temazepam, or lorazepam (p931).
+**8.5% to 20%**; short-acting preferred, and glucuronidated agents — oxazepam, temazepam, or lorazepam — are preferable with complex medical comorbidities (p931).
 
 </details>
 

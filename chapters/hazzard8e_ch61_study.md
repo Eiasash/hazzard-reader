@@ -7,7 +7,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 **Definition & epidemiology**
 - Parkinsonism = 6 core motor features: bradykinesia (central feature, from SNpc dopaminergic loss), rest tremor, rigidity, loss of postural reflexes, flexed posture, gait freezing (p935).
 - PD is the most common neurodegenerative cause of parkinsonism, affecting **1% to 2%** of people over age 60 (p935).
-- Diagnostic gold standard = autopsy Lewy bodies in the SNpc; **10% to 20%** of clinically diagnosed PD is wrong on autopsy, and **~20%** of asymptomatic older adults have incidental midbrain Lewy bodies at autopsy (p936).
+- Diagnostic gold standard = autopsy Lewy bodies in the SNpc; **10% to 20%** of clinically diagnosed PD is wrong on autopsy, and **~20%** of older adults without known parkinsonism have midbrain Lewy bodies at autopsy (p936).
 - Incidence: **4.5–19/100,000 person-years** across all ages; **27.2–107.2/100,000 person-years** for age >60 (p936).
 - Prevalence: **100–200/100,000** overall; **>1 in 100** for age >60; PD is about **1.5×** more common in men (p936).
 - **>90%** of PD is sporadic; **20** known *PARK* genetic loci (p937). GBA (*GBA1*) mutations are linked to early-onset PD, particularly in patients of **Ashkenazi Jewish** ancestry (p938).
@@ -22,30 +22,30 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 **Diagnosis & distinguishing PD from atypical parkinsonism**
 - Levodopa responds best for bradykinesia + rigidity; axial features (hypophonia, dysphagia, postural instability) are often medication-refractory (p939). ⟨2026 exam Q15⟩
 - Alternative-diagnosis clues: symmetric onset, poor levodopa response, absent rest tremor (p939).
-- 2015 MDS criteria: bradykinesia required + **≥2 of 4** supportive criteria (levodopa response, levodopa-induced dyskinesias, rest tremor, olfactory loss and/or cardiac sympathetic denervation) (p940). ⟨2026 exam Q31⟩
-- DaT SPECT confirms nigrostriatal dopaminergic loss but **cannot distinguish PD from PSP/MSA/DLB** — all show loss; it is mainly useful to separate parkinsonism from essential tremor (p941). ⟨2026 exam Q60⟩
-- PSP's defining feature is supranuclear (vertical/downward) gaze palsy with early falls; CBS's is asymmetric rigidity/dystonia with limb myoclonus, alien-limb phenomenon, and cortical sensory loss (Table 61-3 p940, Table 61-4 p941).
-- MSA red flags: severe/early dysautonomia, cerebellar signs, nocturnal stridor; median MSA onset is the **6th decade**, mean time to severe disability **~5 years** (p942).
+- 2015 MDS criteria ("clinically established"): no exclusionary criteria + bradykinesia + **≥2 of 4** supportive criteria (levodopa response, levodopa-induced dyskinesias, rest tremor, olfactory loss and/or cardiac sympathetic denervation) (p940). ⟨2026 exam Q31⟩
+- DaT SPECT confirms nigrostriatal dopaminergic loss but **cannot distinguish PD from PSP/MSA/DLB** — all show loss; it is approved to distinguish essential tremor from PD (atypical tremor) and can also help distinguish PD from drug-induced parkinsonism (p940–941). ⟨2026 exam Q60⟩
+- PSP key features: supranuclear gaze palsy / loss of downward ocular movements, with falls early in the course; CBS: asymmetric rigidity/dystonia with limb myoclonus, alien-limb phenomenon, and cortical sensory loss (Table 61-3 p940, Table 61-4 p941).
+- MSA red flags: severe dysautonomia, cerebellar signs, nocturnal stridor; median MSA onset is in the **6th decade**, mean time to severe disability **~5 years** from diagnosis (p942–943).
 - **~50%** of PD patients develop dementia (PDD) within **10 years** of diagnosis (p942).
 
 **Management — dopaminergic drugs**
 - Levodopa/carbidopa (Sinemet) or levodopa/benserazide (Madopar): most effective drug; **>50%** develop wearing-off/dyskinesias after **5 years** of therapy (p943).
 - Entacapone (COMT-I) — 200 mg with each levodopa dose; ↑ dyskinesias, may need lower levodopa dose (p944).
 - Tolcapone — 100–200 mg tablets; hepatotoxicity risk → removed from US market (p944).
-- Pramipexole/ropinirole (dopamine agonists) — hallucinations/psychosis more likely in older adults; **use levodopa instead of agonists in patients >70 years** (p944).
+- Pramipexole/ropinirole (dopamine agonists) — hallucinations/psychosis more likely in older adults; **safer to use levodopa in patients >70 years** (p944).
 - Ergot agonists (pergolide, bromocriptine, cabergoline) — fibrosis risk (cardiac valvulopathy, retroperitoneal/pleuropulmonary/pericardial); **pergolide withdrawn from the US market** (p944).
 - Rotigotine (transdermal patch) — for swallowing difficulty / nocturnal akinesia (p944).
-- Apomorphine (subcut) / sublingual film (Kynmobi) — most potent agonist; used for rapid "off" rescue; intense nausea (p944).
+- Apomorphine (subcut) / sublingual film (Kynmobi) — may be the most powerful agonist; used for rapid "off" rescue; intense nausea (p944).
 - Amantadine — **100 mg BID** for PD symptoms, **300–400 mg/day** for antidyskinetic effect; confusion, hallucinations, livedo reticularis; poorly tolerated in older adults (p944). Only established effective antidyskinetic agent (antiglutamatergic).
 - Table 61-5 also lists domperidone (peripheral dopamine-receptor blocker for GI upset from levodopa/agonists; **not available in the US**) and MAO-B inhibitors (selegiline, rasagiline, safinamide) — mild symptomatic benefit, no proven neuroprotective benefit (p944).
-- Istradefylline (A2A antagonist) and opicapone (COMT-I) — both once-daily, reduce off-time (p945).
-- Wearing-off = adequate levodopa dose fails to last **≥6 hours** (p944); first-line fix = more frequent dosing ± COMT-I/MAO-BI (p945). ⟨2026 exam Q83⟩
+- Opicapone (COMT-I) — once-daily dosing; istradefylline (A2A antagonist) — once-daily, reduces off-time with carbidopa/levodopa in patients with motor fluctuations (p945).
+- Wearing-off = adequate levodopa dose fails to last **≥6 hours** (p944); more frequent levodopa dosing may be the simplest approach; MAO-B inhibitors help mild wearing-off slightly, and COMT inhibitors are useful (p945). ⟨2026 exam Q83⟩
 
 **Management — dyskinesias & nonmotor complications**
 - Peak-dose dyskinesia: reduce levodopa dose, or add amantadine (start **100 mg BID**, up to **200 mg BID**); buspirone up to **20 mg/day** (p946).
-- Diphasic dyskinesias (Table 61-6, p946) — occur at the start/end of dose (not peak), mixed chorea/dystonia, mainly affect the legs; distinct from peak-dose dyskinesia above.
+- Diphasic dyskinesias (Table 61-6, p945; p946) — occur at the start/end of dose (not peak), mixed chorea/dystonia, mainly affect the legs; distinct from peak-dose dyskinesia above.
 - Drug-induced hallucinations: reduce dopaminergic burden first; then quetiapine (start **25 mg qhs**) or pimavanserin (**17 mg 1–2×/day**, reduce with CYP3A4 inhibitors) (p946). ⟨2026 exam Q75⟩
-- Clozapine more effective but agranulocytosis in **1% to 2%** → weekly CBC; try quetiapine/pimavanserin first (p946).
+- Clozapine more effective but agranulocytosis in **1% to 2%** → weekly CBC; try quetiapine/pimavanserin first (p946–947).
 - Severe psychosis needing drug withdrawal: taper anti-PD meds stepwise over **3 days** — abrupt levodopa withdrawal risks a neuroleptic-malignant-like syndrome (p946).
 - RBD: clonazepam **0.5–2 mg** at bedtime; melatonin as a less-effective first try (p947).
 - Antimuscarinics (trihexyphenidyl, benztropine) — **avoid in patients >70 years**: cognitive impairment, hallucinations, and linked to freezing of gait (p947).
@@ -56,7 +56,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 
 **Exam traps / book against itself** (flagged in the source chapter)
 - Table 61-7 lists antimuscarinics for tremor with no caveat, but the text on p947 says avoid them in patients over 70 (p946–947).
-- Table 61-7's psychosis row lists only clozapine and quetiapine; the text on p946 adds pimavanserin as the one with actual trial data for PD psychosis (p946).
+- Table 61-7's psychosis row lists only clozapine and quetiapine; the text on p946 adds pimavanserin, which unlike quetiapine has prospective trial data for PD psychosis (p946).
 - "Currency — declared gap": the book reports a quetiapine-vs-pimavanserin head-to-head trial as in progress; no result is given (p946).
 
 ## Drill
@@ -81,7 +81,7 @@ Bradykinesia, rest tremor, rigidity, loss of postural reflexes, flexed posture, 
 
 <details><summary>Answer</summary>
 
-Autopsy showing Lewy bodies in the substantia nigra pars compacta; clinical diagnosis is therefore made on exam findings, not this standard (p936).
+Autopsy showing Lewy bodies in the substantia nigra pars compacta; in practice the diagnosis is typically made on clinical examination (p936).
 
 </details>
 
@@ -137,7 +137,7 @@ At least 2 of 4: levodopa treatment response, levodopa-induced dyskinesias, rest
 
 <details><summary>Answer</summary>
 
-No — all of these show nigrostriatal dopaminergic loss on DaT SPECT; it is mainly useful to separate parkinsonism from essential tremor (p941).
+No — all of these show nigrostriatal dopaminergic loss on DaT SPECT (p940–941). It is approved to distinguish essential tremor from PD in atypical tremor, and can help distinguish PD from drug-induced parkinsonism (p941).
 
 </details>
 
@@ -161,7 +161,7 @@ Above age 70, because dopamine agonists are more likely than levodopa to cause h
 
 <details><summary>Answer</summary>
 
-An adequate levodopa dose that fails to last at least 6 hours before parkinsonian symptoms return (p944); the simplest fix is more frequent levodopa dosing, often with a COMT inhibitor or MAO-B inhibitor added (p945).
+An adequate levodopa dose that fails to last at least 6 hours before parkinsonian symptoms return (p944); more frequent levodopa dosing may be the simplest approach; an MAO-B inhibitor can help mild wearing-off slightly and COMT inhibitors are useful (p945).
 
 </details>
 
