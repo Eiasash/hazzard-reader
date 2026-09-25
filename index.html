@@ -31824,6 +31824,12 @@ for(const chapterTemplate of $$('template[id^=chapter][id$=Template]')){
 }
 
 if(manifestArticle)$('#copy').replaceWith(manifestArticle);
+// If the requested chapter could not be loaded (e.g. offline and not cached), say so instead of silently showing another chapter.
+if(requestedChapter && $('#copy')?.dataset.chapterId!==String(requestedChapter)){
+  const miss=document.createElement('article');miss.className='reading-copy';miss.id='copy';miss.dataset.chapterId=String(requestedChapter);
+  miss.innerHTML='<p class="eyebrow">NOT LOADED</p><h1>Chapter '+String(requestedChapter).replace(/[^\w-]/g,'')+' could not be loaded</h1><p>This page isn\'t available right now — most likely you are offline and it wasn\'t saved yet. Reconnect and reload; once opened online it stays available offline.</p>';
+  $('#copy').replaceWith(miss);
+}
 // Add any manifest chapters not already in the static library list.
 for(const entry of manifestChapters){
   if(!$('#chapterRows [data-chapter="'+entry.number+'"]')){
@@ -32258,6 +32264,8 @@ $('#resume').onclick=()=>{view('reader');scrollReadingTo(savedY||(0))};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
 function revealReading(el,options){el.scrollIntoView(options)}
 restoreHighlights();
+// Jump to a page anchor (e.g. ?chapter=61#p946) once the chapter is rendered.
+if(location.hash){const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)setTimeout(()=>t.scrollIntoView(),60);}
 })();</script>
 
 

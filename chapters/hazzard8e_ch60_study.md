@@ -25,7 +25,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - In the US about **25%** of people with dementia receive care from nonfamily caregivers (eg, home health aides), who may not always receive the necessary dementia-care training (p925).
 - **Nonpharmacologic interventions are first-line** — exception is emergency situations where the safety of the patient or others is compromised (eg, severe agitation) (p925).
 - Psychotropics only after nonpharmacologic approaches fail, EXCEPT 3 cases: clear-cut major depression; psychosis causing/risking harm; aggression causing/risking harm (p925).
-- Psychotropics are routinely prescribed despite safety/efficacy concerns: in newly admitted nursing-home residents, only **12%** of new admissions got nonpharmacologic treatment in the first 3 months, while **71%** were already on at least one psychotropic (p927).
+- Psychotropics are routinely prescribed despite safety/efficacy concerns: in newly admitted nursing-home residents, only **12%** of new admissions got nonpharmacologic treatment in the first 3 months, while **71%** received at least one psychotropic (p927).
 
 **Drugs — antipsychotics** (all carry a black-box mortality warning in dementia)
 - No significant benefit after a **4-week period** → taper and withdraw; reassess at least monthly while tapering and for at least **4 months** after stopping (p927).
