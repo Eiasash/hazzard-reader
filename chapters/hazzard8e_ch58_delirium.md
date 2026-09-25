@@ -202,8 +202,6 @@ The Hospital Elder Life Program (HELP; now AGS CoCare HELP at https://help.agsco
 
 > Highlighting is the owner's annotation, not the book's.
 >
-> Highlighting is the owner's annotation, not the book's.
->
 > **Note — the book against itself.** The flowchart ends *"Avoid benzodiazepines and other psychoactive drugs"* and gives starting doses only. The text on [p. 889](#p889) carries what the figure leaves out: benzodiazepines remain the treatment of choice for delirium from seizures and alcohol- or medication-related withdrawal, and the 24-hour maximum for each antipsychotic. The figure gives risperidone as 0.25 mg; the text gives 0.25–0.5 mg.
 
 At least 14 studies have examined primary prevention with nonpharmacologic multicomponent approaches to delirium in controlled trials with prospective sampling frameworks and validated delirium assessments. These studies applied multifactorial interventions or educational strategies targeted toward health care professionals, staff, and families, and demonstrated significant reductions in delirium rates, in-hospital falls, health care–associated costs, and/or duration of delirium. Proactive geriatric consultation has been demonstrated to reduce the risk of delirium post hip fracture by 40% in a randomized controlled trial. Another trial found that home rehabilitation after acute hospitalization of older adults was associated with lower risk of delirium and greater patient satisfaction, when compared with an institutional setting. In all, trials suggest that up to 50% of cases of delirium may be preventable and that prevention strategies should begin early during hospitalization.

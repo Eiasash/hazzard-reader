@@ -43,7 +43,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - Sertraline — initial **25** mg, max **200** mg/day; despite early promise, not shown superior to placebo for depression in dementia (p929).
 - Escitalopram — the cleaner S-enantiomer of citalopram; being studied for agitation (S-CitAD) (p930).
 - Paroxetine — anticholinergic properties, should be avoided in older adults (p930); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (p929).
-- Mirtazapine — sedating at lower doses; in one small RCT (24 vs 16) no benefit over placebo for sleep in dementia, with increased daytime sleepiness (p930).
+- Mirtazapine — sedating at lower doses; in one RCT (24 vs 16) no benefit over placebo for sleep in dementia, with increased daytime sleepiness (p930).
 - Bupropion — avoid with a history of seizures or psychotic symptoms (p930).
 - Nortriptyline — therapeutic window **50–150 ng/mL**; anticholinergic effects, hypotension, sedation (p929).
 - Desipramine — the other preferred TCA in Table 60-9; therapeutic window **150–300 ng/mL** (higher than nortriptyline's — don't conflate the two), similar side-effect profile (p929).
