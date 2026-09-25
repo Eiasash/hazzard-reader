@@ -24,7 +24,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - Calcium supplementation has a real but modest effect: **13%** vs **9.1%** placebo over a 5-year trial (p1359).
 - Parkinson disease: **59%** meet Rome criteria (vs **21%** in age-matched controls); pelvic dyssynergia affects **60%** of PD patients (p1360).
 - Stroke: **60%** of patients are constipated while undergoing rehabilitation (p1360).
-- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. If using metoclopramide, limit to <**12 weeks** continuous use with a **2-week** drug holiday (tardive dyskinesia risk) (p1361).
+- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. If using metoclopramide, limit to <**12 weeks** continuous use with a **2-week** drug holiday or a dose decrease as tolerated (tardive dyskinesia risk) (p1361).
 - <3 BM/week carries a >**2-fold** colon cancer risk in adjusted studies — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
 
 ### Complications
@@ -131,7 +131,7 @@ No — weekly BM frequency is essentially unchanged with age; only 1-7% of any a
 
 <details><summary>Answer</summary>
 
-Risk of tardive dyskinesia rises with continuous use beyond 12 weeks; use a 2-week drug holiday (p1361).
+Risk of tardive dyskinesia is increased in older adults; avoid continuous treatment for longer than 12 weeks. A 2-week drug holiday or a decrease of metoclopramide dose as tolerated (with tight blood glucose control) is encouraged whenever clinically possible (p1361).
 
 </details>
 

@@ -68,15 +68,11 @@ Verified printed page ranges: 42 = 615–632, 43 = 633–642, 44 = 643–664, 55
 - Verify on the live site — never claim something is done untested; say explicitly what wasn't checked.
 - Reports: 3 lines or fewer.
 
-## Cosmetic list (not urgent — don't fix unprompted)
-- Odd heading casing or hyphen joins here and there in the fast-build chapters.
-- Law page header reads "CHAPTER law / HAZZARD" — wrong, it's primary law, not Hazzard.
-- Law page: the English note's full stop wraps to the start of its line — a bidi rendering artifact from English text inside an RTL block.
-- **25 Sep, found by Eias's own spot-check of 3 of the 21 part-4 contact sheets (36/241 crops, sheets 5/12/19)** — 2 more instances of the same class, not fixed, both content-complete: ch102 Table 102-7 (re-cropped tight 25 Sep); ch77 Figure 77-4D (p1198) has enough empty margin that the tracing renders small relative to its sibling panels 77-4A/B/C/E/F, needs a phone-zoom to read comfortably. Extrapolated rate from the sample (2/36): roughly a dozen more untight-but-complete crops likely exist across the other 205 unchecked crops — not audited further, build stays closed per Eias's call.
-- ch75 Table 75-6 (p1155): the purple title bar has a ghost-compositing artifact baked into the source scan's own pixels (not a build-tool bug) — no clean alternate source exists in the PDF to re-crop from. Table body/footnote fully legible; left as-is.
-- ch59: Table 59-7 p912 crop includes the top of p913. Content complete.
-- Minor page-tab/page-number slivers remain on some crops (75-4, 76-2, 83-1 p1282, 83-3, 101-4 p1614, 105-1) — content-complete, left.
-- ch98: Table 98-8 crop has a sliver of body text at the bottom.
+## Cosmetic list
+- 25 Sep: ~170 crops trimmed (page tabs, page numbers, neighbour slivers, loose margins) — pure crops of existing pixels, each checked against the original. Figure 77-4D trimmed tight; Table 98-8 body-text sliver removed; Figure 44-3 re-rendered with its top frame (the "300" axis label is cut in the book itself).
+- Left, unfixable by cropping: ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds the rivastigmine rows p913 doesn't) and an internal dark band.
+- Law page header reads "CHAPTER law / HAZZARD"; bidi full-stop wrap in the English note.
+- Odd heading casing here and there.
 
 ## Site behavior (not a bug, don't chase it)
 - On first load after a deploy, the previous service worker can still be controlling the page and serves the old cached manifest (no new chapter entry), so the reader falls back to its default chapter. One reload picks up the new chapter. Confirmed 22 Sep on `?chapter=law` right after the v9 deploy — resolved on second navigation with no code change. This is the SW updating on its own normal cadence, not a fetch bug; don't "fix" it by reworking the SW's fetch handler unless Eias asks.

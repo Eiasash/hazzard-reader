@@ -56,7 +56,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 
 **Exam traps / book against itself** (flagged in the source chapter)
 - Table 61-7 lists antimuscarinics for tremor with no caveat, but the text on p947 says avoid them in patients over 70 (p946–947).
-- Table 61-7's psychosis row lists only clozapine and quetiapine; the text on p946 adds pimavanserin, which unlike quetiapine has prospective trial data for PD psychosis (p946).
+- Table 61-7's psychosis row (p947) lists only clozapine and quetiapine; the text on p946 adds pimavanserin, which unlike quetiapine has prospective trial data for PD psychosis (p946–947).
 - "Currency — declared gap": the book reports a quetiapine-vs-pimavanserin head-to-head trial as in progress; no result is given (p946).
 
 ## Drill
