@@ -34,6 +34,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 **RA — biologics safety & steroids**
 - CONSIDER mnemonic for biologic safety in older adults (**Table 101-6**): Comorbidities, Opportunistic infections, Novel presentation of side effects, Screening, Immunization, Drug dosing and interactions, Evaluate, Remaining lifespan (p1618)
 - Glucocorticoid dose-response in Medicare beneficiaries **>75 yr**: **≤5 mg, >5–10 mg, >10 mg/day** → **20%, 32%, 47%** increased serious-infection risk vs **13%** in non-users (p1618)
+  > Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.
 - TB screening (skin test or IGRA + CXR) required before anticytokine therapy; anti-TNF associated with **~4×** malignancy rate in one meta-analysis (p1617)
 
 **Systemic lupus erythematosus (SLE)**
@@ -130,6 +131,7 @@ Cervical spine disease and atlantoaxial joint instability (RA >10 years) — ove
 <details><summary>Answer</summary>
 
 ≤5 mg, >5–10 mg, and >10 mg/day of glucocorticoid conferred 20%, 32%, and 47% increased risk of serious infection respectively, versus 13% in non-users (p1618).
+> Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.
 
 </details>
 
