@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v27';
+const CACHE_VERSION = 'v28';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const RUNTIME_CACHE = 'hazzard-runtime-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
@@ -39,10 +39,12 @@ self.addEventListener('install', event => {
     await cache.addAll(SHELL_FILES);
     const manifestUrls = await collectManifestAssets();
     await Promise.all([...manifestUrls].map(async url => {
-      try {
-        const res = await fetch(url);
-        if (res && res.ok) await cache.put(url, res);
-      } catch {}
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const res = await fetch(url);
+          if (res && res.ok) { await cache.put(url, res); break; }
+        } catch {}
+      }
     }));
     await self.skipWaiting();
   })());
@@ -51,7 +53,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k !== SHELL_CACHE && k !== RUNTIME_CACHE).map(k => caches.delete(k)));
+    await Promise.all(keys.filter(k => k.startsWith('hazzard-') && k !== SHELL_CACHE && k !== RUNTIME_CACHE).map(k => caches.delete(k)));
     await self.clients.claim();
   })());
 });
@@ -70,11 +72,12 @@ self.addEventListener('fetch', event => {
         if (network && network.ok) {
           const cache = await caches.open(SHELL_CACHE);
           cache.put(SHELL_URL, network.clone());
+          cache.put('./', network.clone());
           return network;
         }
       } catch {}
       const cache = await caches.open(SHELL_CACHE);
-      const cached = await cache.match(req, { ignoreSearch: true }) || await cache.match(SHELL_URL);
+      const cached = await cache.match(SHELL_URL) || await cache.match(req, { ignoreSearch: true });
       return cached || Response.error();
     })());
     return;
@@ -97,7 +100,7 @@ self.addEventListener('fetch', event => {
         }
         return network;
       } catch {
-        const cached = await caches.match(req, { ignoreSearch: true });
+        const cached = await (await caches.open(RUNTIME_CACHE)).match(req, { ignoreSearch: true }) || await caches.match(req, { ignoreSearch: true });
         return cached || Response.error();
       }
     })());
@@ -115,7 +118,7 @@ self.addEventListener('fetch', event => {
       }
       return network;
     } catch {
-      const cached = await caches.match(req, { ignoreSearch: true });
+      const cached = await (await caches.open(RUNTIME_CACHE)).match(req, { ignoreSearch: true }) || await caches.match(req, { ignoreSearch: true });
       return cached || Response.error();
     }
   })());

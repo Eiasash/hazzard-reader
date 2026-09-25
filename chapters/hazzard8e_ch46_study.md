@@ -57,7 +57,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - BWAT: **13** characteristics, each scored **1–5**, total range **13–65** (p689).
 
 **Local treatment**
-- Saline/water lack antiseptic properties — prefer Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692).
+- Saline/water lack antiseptic properties and should seldom be used on (colonized) PI — antiseptic options: Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692). For clean wounds, less force and physiologic solutions such as normal saline can be used (p693); avoid antiseptics on clean and healing PI (p697).
 - Moist dressings re-epithelialize up to **40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; PI are typically colonized with **≥10⁵** organisms/mL and may carry this load for long periods without clinical signs of infection (p693-694).
 - One retrospective study: air-fluidized beds healed fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
 - **Table 46-2**: pain-reducing dressing categories are hydrocolloids (p693), plus hydrogels (cooling effect), alginates, and hydrofibers (p694) — composite, transparent-film, wound-filler, and foam dressings list no pain-relief use in the table.
@@ -70,7 +70,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 **Infection & biofilm**
 - **60%** of chronic wounds contain a biofilm (p695).
 - Osteomyelitis in **32%** of stage 4 PI; antibiotic course may be **<6 weeks** if infection is limited to cortical bone (p695).
-- Surgical repair: complication rate up to **50%**, but **70–80%** healed at discharge; same-site recurrence lower in older patients (**40%**) than younger paraplegics (**>70%**); older-patient surgical mortality **50–68%** (p695).
+- Surgical repair: complication rate up to **50%**, but **70–80%** healed at discharge; same-site recurrence lower in older patients (**40%**) than younger paraplegics (**>70%**); mortality in older patients ranges from nearly **50% to 68%** (long-term outcomes; p695).
 
 **Drugs (name — scenario — caution)**
 - Oral MSSA/strep: cephalexin, cefadroxil, dicloxacillin, clindamycin. Oral MRSA: clindamycin, amoxicillin+doxycycline, or TMP-SMX (p697).
@@ -188,7 +188,7 @@ Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon. Stage 4
 
 <details><summary>Answer</summary>
 
-They have no antiseptic properties, and PI wounds are colonized with bacteria — an antiseptic cleanser (e.g., dilute Dakin's or povidone-iodine) is preferred (p692).
+They have no antiseptic properties, and PI wounds are colonized with bacteria — antiseptic cleansers (e.g., dilute Dakin's or povidone-iodine) are the options (p692). Exception: for clean wounds, less force and physiologic solutions such as normal saline can be used (p693), and antiseptics are avoided on clean and healing PI (p697).
 
 </details>
 

@@ -25,7 +25,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 
 ### Influenza Antivirals (name — key facts)
 - **Amantadine / rimantadine** — influenza A only; current strains largely resistant; no longer recommended (p1736).
-- **Zanamivir (inhaled) / oseltamivir (oral)** — neuraminidase inhibitors, active vs A and B; **70–90%** effective for prophylaxis; must be given within **48 hours** of symptom onset for treatment benefit; oseltamivir needs renal dosing; zanamivir may worsen or provoke respiratory distress in underlying obstructive disease (p1736).
+- **Zanamivir (inhaled) / oseltamivir (oral)** — neuraminidase inhibitors, active vs A and B; **70–90%** effective for prophylaxis, and as treatment reduce clinical severity **if given within 48 hours** of symptom onset (most community patients present after 48 h, limiting feasibility; ch105 p1689 adds oseltamivir in severe CAP even if >48 h have passed); oseltamivir needs renal dosing; zanamivir may worsen or provoke respiratory distress in underlying obstructive disease (p1736).
 - **Peramivir (IV)** — FDA-approved **2015**, IV-only formulation (p1736).
 - **Baloxavir marboxil (oral)** — polymerase inhibitor, approved **2018**; also 48-hour window; resistance emerges quickly, limiting use (p1736).
 
@@ -35,6 +35,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 
 ### RSV
 - Reinfection is common throughout life; natural infection doesn't confer robust immunity, which has made vaccine development difficult (p1736) — there are still **no licensed RSV vaccines** (p1737).
+  > Current practice (not the book): three FDA-licensed adult RSV vaccines (Arexvy, mResvia, Abrysvo); single dose for all adults ≥75 and those 50–74 at increased risk — CDC, 2026.
 - Incubation **3–5 days**. Infants shed higher titers (**10⁵⁻⁶** pfu/mL) for longer (**10–14 days**) than adults (**10²⁻³** pfu/mL, **3–6 days**) (p1737).
 - Rochester community cohort (1999–2003) of 608 healthy adults 65+: RSV in **8%** (46/608) vs **10%** (56) of a separate high-risk group (CHF or chronic pulmonary disease); **16%** of high-risk participants with RSV required hospitalization; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
 - Nursing-home outbreak attack rates range **2–90%**; one careful Rochester study found **7%** attack rate, RSV causing **27%** of illness (p1737).
@@ -53,6 +54,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - LTC facilities accounted for **>25% of deaths** despite only **2%** of confirmed cases (as of Nov 2020) (p1739).
 - Pre-pandemic data: social isolation, loneliness, and living alone raised mortality risk by **29%, 26%, and 32%** respectively — comparable to smoking/inactivity (p1739).
 - RT-PCR (nasopharyngeal) is the diagnostic cornerstone; turnaround **15 minutes to several days**; POC antigen tests return results in **under an hour** but are validated only in symptomatic patients (p1739).
+  > Current practice (not the book): FDA guidance covers home antigen testing without symptoms by serial testing — after a negative, retest at 48 h and again 48 h later (at least 3 tests) — FDA, 2024.
 - **Dexamethasone** reduces mortality in patients needing oxygen/ventilation, no benefit if not requiring respiratory support (p1739).
 - Vaccine candidates demonstrated **>90%** effectiveness against infection (p1740).
 
@@ -116,11 +118,11 @@ HD-IIV4 contains 4× the antigen dose per component and generates higher antibod
 
 </details>
 
-**8. Within what time window must neuraminidase inhibitors (zanamivir/oseltamivir) be started for treatment benefit, and what is their approximate prophylactic effectiveness?**
+**8. Within what time window do neuraminidase inhibitors (zanamivir/oseltamivir) reduce clinical severity when used as treatment, and what is their approximate prophylactic effectiveness?**
 
 <details><summary>Answer</summary>
 
-Within 48 hours of symptom onset; about 70–90% effective when used for prophylaxis (p1736).
+Treatment reduces clinical severity if given within 48 hours of symptom onset (the book's stated window, not an absolute cutoff — ch105 p1689 adds oseltamivir in severe CAP even after 48 h); about 70–90% effective for prophylaxis (p1736).
 
 </details>
 
@@ -160,7 +162,7 @@ Ribavirin — it is aerosolized (hard to deliver via face mask to older adults),
 
 <details><summary>Answer</summary>
 
-The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread, estimated in one study to account for up to 79% of documented cases (p1738).
+The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; transmission through asymptomatic or presymptomatic cases was estimated in one study to account for up to 79% of documented cases (p1738).
 
 </details>
 

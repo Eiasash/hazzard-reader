@@ -50,7 +50,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 ### Drugs for HFREF (name — dose — key caution)
 - **Carvedilol** — start 3.125–6.25 mg BID → target 25–50 mg BID (p1179).
 - **Metoprolol succinate** — start 12.5–25 mg daily → target 100–200 mg daily; (tartrate 6.25 mg BID or QID is a titration alternative) (p1179).
-- **Bisoprolol** — start 1.25–2.5 mg daily → target 10 mg daily (p1179). Only these 3 β-blockers were studied and demonstrated benefit in improving HF outcomes.
+- **Bisoprolol** — start 1.25–2.5 mg daily → target 10 mg daily (p1179). The book calls these "the only three drugs that were studied and subsequently demonstrated benefit" — yet the same page reports **SENIORS** (age ≥70, n=2128): **nebivolol** significantly lowered death or CV hospitalization (p1179).
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
 - **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
 - **Spironolactone** — 12.5–50 mg daily; **eplerenone** — 25–50 mg daily; both contraindicated if creatinine **≥2.5 mg/dL** or hyperkalemia (p1181).
@@ -81,7 +81,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 
 ### Exam traps / book contradictions
 - **Two EF numbers for HFREF, not a contradiction — a general range narrowed to a working cutoff**: the chapter first gives the general literature range ("less than 40% to 50%"), then explicitly adopts **EF <45%** as its working definition for HFREF (**≥45%** for HFPEF) for the rest of the discussion (p1175). A question could test either number.
-- β-blockers: only carvedilol, metoprolol succinate, and bisoprolol are proven in HFREF trials — a distractor option naming any other β-blocker (e.g., atenolol, metoprolol tartrate as primary agent) is wrong even though metoprolol tartrate is an acceptable titration-phase alternative (p1179).
+- β-blockers: the book says carvedilol, metoprolol succinate, and bisoprolol (the 3 US-approved for HF) are "the only three" proven and "should be used" — but the same page reports SENIORS: **nebivolol** significantly lowered death/CV hospitalization in patients ≥70 (p1179). Book contradicts itself: pick the 3 for "which β-blockers should be used", but don't reject nebivolol as "no outcome benefit". Metoprolol tartrate is an acceptable titration-phase alternative (p1179).
 - Digoxin lowers HF hospitalizations but has **no mortality benefit** in either HFREF (DIG trial) or HFPEF (DIG ancillary) — a trap for assuming any drug that reduces hospitalizations also reduces mortality (p1182, p1188).
 
 ## Drill

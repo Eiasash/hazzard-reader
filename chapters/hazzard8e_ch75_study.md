@@ -28,7 +28,8 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - NYHA III–IV: **25%**/yr mortality; NYHA II: **6%**/yr (p1153).
 - LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
 - Table 75-5 severe cutoffs: jet-width/LVOT ratio **≥ 65%**, vena contracta **≥ 0.6 cm**, regurgitant volume **≥ 60 mL/beat**, EROA **≥ 30 mm²** (p1154).
-- Table 75-6 tiers — **indications** (actual replacement criteria): symptomatic + severe AI regardless of LV function, OR asymptomatic + severe AI + EF **< 50%**, OR severe AI undergoing other cardiac surgery; **considerations**: asymptomatic, normal LV function, dilated ventricle with LVESD **> 50 mm**, or moderate AI undergoing other cardiac surgery; **possible indication**: asymptomatic, normal function, LVESD **> 65 mm** if surgical risk is low (p1155).
+- Table 75-6 tiers — **indications** (actual replacement criteria): symptomatic + severe AI regardless of LV function, OR asymptomatic + severe AI + EF **< 50%**, OR severe AI undergoing other cardiac surgery; **considerations**: asymptomatic, normal LV function, dilated ventricle with LVESD **> 50 mm**, or moderate AI undergoing other cardiac surgery; **possible indication**: asymptomatic, normal function, progressive LV dilatation **> 65 mm** if surgical risk is low (table does not name the dimension; the text calls it LVESD) (p1155).
+  > Current practice (not the book): the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.
 - Severe LV dysfunction: operative mortality **at least 10%**, with lower postsurgical survival (p1155).
 
 **Mitral stenosis (MS)**
@@ -52,11 +53,14 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; both as printed.
 
 **Perioperative risk, anticoagulation, prosthetic valves**
-- Table 75-12 risk criteria (combine per column, not PROM alone): low = STS-PROM **< 4%** *and* no frailty *and* no organ dysfunction *and* no procedure impediment; intermediate = **4–8%** *or* 1 frailty index *or* 1 organ system *or* possible impediment; high = **> 8%**, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk **> 50%** *or* ≥3 organ systems *or* severe impediment (p1160).
+- Table 75-12 risk criteria (combine per column, not PROM alone; organ counts = major organ dysfunction that will not improve postoperatively): low = STS-PROM **< 4%** *and* no frailty *and* no organ dysfunction *and* no procedure impediment; intermediate = **4–8%** *or* 1 frailty index *or* 1 organ system *or* possible impediment; high = **> 8%**, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk **> 50%** *or* ≥3 organ systems *or* severe impediment (p1160).
 - Antibiotic prophylaxis (Table 75-14): **amoxicillin 2 g PO** 1h pre-procedure (standard); penicillin-allergic: **clindamycin 600 mg** or **cephalexin 2 g** PO; unable to take oral: **ampicillin 2 g IV/IM**; unable to take oral + PCN-allergic: **clindamycin 600 mg IV** or **cefazolin 1 g IV/IM** (p1161). Given only for gingival/periapical/oral-mucosal dental procedures or active-infection surgery, not routine nondental procedures (p1161).
+  > Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO, or cefazolin/ceftriaxone IM/IV — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
 - Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only** if no risk factors — with risk factors, bioprosthetic mitral rises to **INR 2.5–3.5** (bioprosthetic aortic stays **2–3**, no stated 3-mo limit); aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
+  > Current practice (not the book): with a mechanical valve on warfarin, adding aspirin 75–100 mg daily may be considered when bleeding risk is low (Class 2b), not routinely — ACC/AHA valvular guideline, 2020.
 - Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
-- Bleeding more likely with INR **> 5**; INR **5–10**: hold warfarin + oral vitamin K **1–2.5 mg**, check INR daily until < 5 (p1161).
+- Bleeding more likely with INR **> 5**; INR **5–10**: *can be* treated by holding warfarin + oral vitamin K **1–2.5 mg**, check INR daily until < 5 (p1161).
+  > Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.
 - Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; mechanical mitral or aortic valves with high-risk factors are bridged with heparin once INR **< 2** (p1162).
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
@@ -65,7 +69,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value — as printed, not corrected in this build (p1158).
 - Mitral repair-vs-replacement operative mortality is given twice with different numbers: **2% vs 6%** overall / **0.7% vs 14%** in a >70y cohort (p1160), and later **1–2% vs 5.4–6.4%** (p1163) — both as printed.
 - MS "usually develop symptoms" once MVA falls to **2.5 to 1.5 cm²** (p1156), which overlaps Table 75-7's own **mild** cutoff (>1.5 cm²) — read literally, symptom onset and "mild" grade can coincide.
-- AI surgical trigger for LVESD is stated twice with different thresholds on the same page: "> 50 mm" (dilated ventricle, a *consideration*) vs "> 65 mm" (asymptomatic, low-risk, a *possible indication*) — not contradictory once you note these are different tiers of the same table (Table 75-6), but easy to conflate under exam pressure (p1155).
+- AI surgical trigger is stated twice with different thresholds on the same page: LVESD "> 50 mm" (dilated ventricle, a *consideration*) vs "> 65 mm" (asymptomatic, low-risk, a *possible indication*; the table says "progressive LV dilatation", the text says LVESD) — not contradictory once you note these are different tiers of the same table (Table 75-6), but easy to conflate under exam pressure (p1155).
 
 ## Drill
 
@@ -122,6 +126,7 @@ STS Predicted Risk of Morbidity and Mortality > 50%; durability of TAVR valves b
 <details><summary>Answer</summary>
 
 LVESD exceeding 65 mm, because of the high risk of sudden death (p1155).
+> Current practice (not the book): the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.
 
 </details>
 
@@ -186,5 +191,6 @@ Held 48–72 hours preoperatively and restarted within 24 hours postoperatively,
 <details><summary>Answer</summary>
 
 Clindamycin 600 mg PO (or cephalexin 2 g PO), given 1 hour before the procedure (p1161).
+> Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
 
 </details>

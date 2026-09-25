@@ -28,6 +28,7 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 
 **Treatment options**
 - **ECT**: response rate **>80%**, remission rate **>60%** — no trial has ever shown medications more effective than ECT, and older patients respond even better than younger adults; course is **3–6 treatments/week for 2–4 weeks**; few side effects — short-term memory loss almost always resolves within a few weeks (p1014).
+  > Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
 - Antidepressants do **not** show benefit for minor/subsyndromal depression despite it having similar health/QOL impact to major depression — don't reflexively medicate mild cases (p1012, p1015).
 - Antidepressants do **not generally work in dementia**-associated depression; favor behavioral/caregiver-support interventions instead (p1015).
 - Slow up-titration gave much better adherence than a higher starting dose, even though both reached the same eventual dose; separately, dose-response research does not support a **minimum effective dosage** or narrow therapeutic window (p1015).
@@ -38,6 +39,7 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - DSM-5 defines major depression as an "episode" — expected to improve over time even without treatment, which complicates decisions about indefinite maintenance therapy (p1015).
 - Most **SSRIs, SNRIs, and mirtazapine** can be tapered over **2–4 weeks**; **tricyclics need several months** (p1016).
 - **Fluoxetine** is the exception — its long half-life means it does not require tapering, and a single **20 mg** dose can even be used to smooth withdrawal from other antidepressants (p1016).
+  > Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
 - Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016).
 
 **Provider & caregiver factors**
@@ -126,6 +128,7 @@ Response rate >80%, remission rate >60% — no trial has ever found medications 
 <details><summary>Answer</summary>
 
 Three to six treatments per week for 2 to 4 weeks; ECT has few side effects, and short-term memory loss almost always resolves within a few weeks after the course (p1014).
+> Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
 
 </details>
 
@@ -158,6 +161,7 @@ Almost half of residents in some nursing home populations are prescribed an anti
 <details><summary>Answer</summary>
 
 Most SSRIs/SNRIs/mirtazapine: taper over 2–4 weeks; tricyclics: taper over several months. Fluoxetine is the exception — its long half-life means it does not require tapering, and a single 20 mg dose can even smooth withdrawal from other antidepressants (p1016).
+> Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
 
 </details>
 

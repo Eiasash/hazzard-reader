@@ -20,11 +20,11 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 ### Risk Factors
 - Polypharmacy (≥**5 medications**) is an established risk factor (p1359); nursing home residents average **6-9 meds/day** (p1358). Anticholinergic drugs are the only medication class with level [1] evidence in Table 87-5 (p1359).
-- Oral iron >**325 mg/day**: no further increase in absorption, just more GI side effects — cap the dose (p1359).
+- **Iron sulfate** >**325 mg/day**: does not substantially increase iron absorption in older people and may significantly increase GI side effects (p1359).
 - Calcium supplementation has a real but modest effect: **13%** vs **9.1%** placebo over a 5-year trial (p1359).
 - Parkinson disease: **59%** meet Rome criteria (vs **21%** in age-matched controls); pelvic dyssynergia affects **60%** of PD patients (p1360).
 - Stroke: **60%** of patients are constipated while undergoing rehabilitation (p1360).
-- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. If using metoclopramide, limit to <**12 weeks** continuous use with a **2-week** drug holiday or a dose decrease as tolerated (tardive dyskinesia risk) (p1361).
+- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. If using metoclopramide, older adults should avoid continuous treatment for longer than **12 weeks**, with a **2-week** drug holiday or a dose decrease as tolerated (tardive dyskinesia risk) (p1361).
 - <3 BM/week carries a >**2-fold** colon cancer risk in adjusted studies — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
 
 ### Complications
@@ -54,7 +54,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - **Magnesium salts** — avoid magnesium hydroxide in CKD; magnesium citrate not recommended in older adults at all (pseudo-obstruction risk) (p1376).
 - **Docusate** — avoid: little or no laxative action, even at **300 mg/day** (p1376), despite being the predominantly prescribed agent in US nursing homes (p1372).
 - **Glycerin suppository** — first-line for rectal outlet delay; **bisacodyl suppository** second-line; onset **5-45 min** (p1377).
-- **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide 3 or 6 mg** — secretagogues; effective but costly, with limited older-adult trial data (p1377).
+- **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide** (placebo-controlled trials showed efficacy at 3 and 6 mg — trial doses) — secretagogues; effective but costly, with limited older-adult trial data (p1377).
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), not associated with major adverse cardiovascular events (p1377).
 - **PAMORAs for opioid-induced constipation** — naldemedine (**52% vs 35%** achieving >3 CSBM vs placebo) and naloxegol (**42% vs 29%** achieving ≥3 CSBM/wk) (p1378).
 - Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); sorbitol/lactulose are nonabsorbable disaccharides metabolized by colonic bacteria to short-chain fatty acids; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
@@ -111,11 +111,11 @@ No — weekly BM frequency is essentially unchanged with age; only 1-7% of any a
 
 </details>
 
-**7. Above what daily oral iron dose does absorption plateau while GI side effects increase?**
+**7. Above what daily dose of iron sulfate does absorption not substantially increase in older people, while GI side effects may increase?**
 
 <details><summary>Answer</summary>
 
-325 mg/day (p1359).
+Iron sulfate >325 mg/day (p1359).
 
 </details>
 
@@ -127,7 +127,7 @@ No — weekly BM frequency is essentially unchanged with age; only 1-7% of any a
 
 </details>
 
-**9. Why must metoclopramide use in older adults be time-limited, and for how long is it safe continuously?**
+**9. Why must metoclopramide use in older adults be time-limited, and beyond what duration should continuous treatment be avoided?**
 
 <details><summary>Answer</summary>
 

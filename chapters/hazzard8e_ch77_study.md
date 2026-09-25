@@ -21,7 +21,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - TAVR: new LBBB in **19–55%** (p1200), high-degree AVB in **10%** (p1200) after TAVR; up to **30%** (p1200) of new-LBBB patients have their first high-degree AVB episode after discharge.
 
 **Atrial fibrillation (AF)**
-- Rate control target HR **80–110 bpm** (p1201); β-blockers/non-dihydropyridine CCBs first-line; digoxin less effective but can be considered (caution: narrow therapeutic index).
+- Rate control target HR **80–110 bpm** (p1201); β-blockers/non-dihydropyridine CCBs first-line, but **CCBs are related to higher mortality when LVEF <40%**; digoxin less effective but can be considered (caution: narrow therapeutic index).
 - AAD choice for AF rhythm control depends on comorbidity (Table 77-6, p1201): no heart disease → class Ic or III; CAD → class Ic contraindicated, class III OK; reduced EF/HF → amiodarone and dofetilide can be used (dronedarone & class Ic contraindicated).
 - AFFIRM trial: AAD therapy associated with higher all-cause mortality in the subgroup **older than 70** (p1201).
 - CABANA trial (**n = 2204** (p1201)) patients: catheter ablation not superior to AAD for the primary composite endpoint at 5y, but reduced AF recurrence and the combined death/CV-hospitalization secondary endpoint.
@@ -33,6 +33,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID with concomitant verapamil, age ≥80, or increased GI-bleeding risk) — RE-LY, dose-dependent results: **150 mg** → **34%** ↓ stroke/SE vs warfarin, similar major bleeding; **110 mg** → similar stroke/SE, **20%** ↓ major bleeding (p1204, image). Reversal: idarucizumab.
 - **Rivaroxaban** (Xarelto) 20 mg daily (15 mg if CrCl 30–49) — ROCKET-AF; noninferior to warfarin for stroke prevention, but only a similar (not lower) major-bleeding rate vs warfarin (p1204, image). Reversal: andexanet alfa.
 - **Apixaban** (Eliquis) 5 mg BID (2.5 mg BID if ≥2 of: age ≥80, weight <60 kg, Cr ≥1.5 mg/dL) — ARISTOTLE; **21%** ↓ stroke/SE and **31%** ↓ major bleeding vs warfarin (p1205, image).
+  > Current practice (not the book): the Eliquis label's weight criterion is body weight **≤60 kg** (not <60) — Eliquis prescribing information §2.1 (BMS).
 - **Endoxaban / edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48, dose-dependent results: **60 mg** → noninferior for stroke/SE, **20%** ↓ major bleeding; **30 mg** → no stroke/SE benefit (noninferiority margin only, HR 1.07), major bleeding **1.61% vs 3.43%** (HR 0.47) vs warfarin (p1205, image).
 
 **Other tachyarrhythmias**

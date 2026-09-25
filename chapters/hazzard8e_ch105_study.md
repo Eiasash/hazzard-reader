@@ -32,15 +32,16 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - CURB-65 scoring (Table 105-4, p1686): 1 pt each for confusion, urea **>44 mg/dL** (BUN >20), RR **≥30**, SBP **<90** or DBP **≤60**, age **≥65**; mortality by score — **0-1** low (0.7%-2.1%, consider outpatient), **2** intermediate (9.2%), **3** high (15%, admit), **4-5** **>40%** (admit, consider ICU).
 - SCAP severity score (Table 105-5, p1686): major criteria — pH **<7.30** (13 pts), SBP **<90 mm Hg** (11 pts); minor criteria — confusion (5 pts), BUN **>30 mg/dL** (5 pts), RR **>30** (9 pts), multilobar/bilateral CXR (5 pts), PaO2 **<54 mm Hg** or PaO2/FiO2 **<250** (6 pts), age **≥80** (5 pts); risk — low **0-1** (<10 pts), intermediate **2** (10-19 pts), high **3-4** (>20 pts).
 - SMART-COP score (Table 105-6, p1687): SBP **<90** (2 pts), multilobar involvement (1 pt), albumin **<3.5 g/dL** (1 pt), RR age-adjusted (1 pt: **<50y ≥25/min**, **≥50y ≥30/min**), tachycardia **≥125** (1 pt), confusion (1 pt), oxygenation age-adjusted (2 pts: **<50y** PaO2 **<70** or SpO2 **≤93%** or PaO2/FiO2 **<333**; **≥50y** PaO2 **<60** or SpO2 **≤90%** or PaO2/FiO2 **<250**), pH **<7.35** (2 pts); risk for needing vasopressor/intensive respiratory support — **0-2** low, **3-4** moderate, **5-6** high, **≥7** very high.
-- Discharge readiness: HR **<100 bpm**, RR **<24/min**, temperature **<37.2°C (<98.96°F)**, systolic BP **>90 mm Hg**, SpO2 **>90%**, plus baseline awareness and oral tolerance; most patients stabilize by hospital day **3-4**, up to **7 days** if frail (p1687).
+- Discharge readiness: HR **<100 bpm**, RR **<24/min**, axillary temperature **<37.2°C (<98.96°F)**, systolic BP **>90 mm Hg**, SpO2 **>90%**, plus baseline awareness and oral tolerance; most patients stabilize by hospital day **3-4**, up to **7 days** if frail (p1687).
 
 ### Management Framework & Treatment
 - Two questions should drive antibiotic choice: (1) severe pneumonia or risk factors for unusual pathogens? (2) does the patient meet criteria for frailty? Both "no" → standard younger-adult regimens; severe pneumonia and/or risk factors for less common pathogens → consider broadening; mildly frail → same antibiotics as independent patients plus functional/cognitive monitoring; moderate-severe frailty → broader coverage in addition to routine pathogens (p1687-1689).
 - CAP treatment tiers (Table 105-8, p1688): non-frail patients get cephalosporin or amoxicillin/clavulanate + azithromycin/fluoroquinolone, escalating in severe disease to ± linezolid/vancomycin, ± antipseudomonal agent, ± oseltamivir; **prefrail** patients get amoxicillin/clavulanate or ceftriaxone/cefotaxime/ceftaroline + azithromycin/fluoroquinolone; **frail** patients get a different regimen, not the same combo broadened — ertapenem, or amoxicillin/clavulanate, or ceftriaxone + clindamycin.
 - Quinolones should not be prescribed when pulmonary tuberculosis is suspected, because of their tuberculostatic activity and the possibility of delaying the TB diagnosis (p1689).
-- Treatment failure = no clinical stability by **3-4 days**, or deterioration/respiratory failure/septic shock in the first **72 h**; associated with a **fivefold** increase in mortality (p1690).
+- Treatment failure = no clinical stability by **3-4 days**, or deterioration/respiratory failure/septic shock in the first **72 h**; associated with a **fivefold** increase in mortality. However, stability may take longer **without implying therapeutic failure** in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure) (p1690).
 - A **5-7 day** course is sufficient for most pneumonia even in older adults; extend for *Legionella*, resistant GNB, or MRSA, or for persistent fever beyond **72 h**, persistence of >1 instability criterion, inadequate initial coverage, or complications (p1690).
 - PCV13 should be given first, with PPSV given at least **8 weeks** later, per ACIP (p1690).
+  > Current practice (not the book): PCV15, PCV20 or PCV21 for adults ≥50; after PCV15 give PPSV23 one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026.
 
 ### Tuberculosis — Epidemiology & Pathophysiology
 - **>1.7 billion** people (about **25%** of the world's population) are estimated to be infected with *M tuberculosis*; high-burden regions run **≥100/100,000**, while the US, Western Europe, Canada, Japan, and Australia run **<25/100,000** (p1691).
@@ -51,10 +52,10 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 ### Tuberculosis — Diagnosis & Treatment
 - Two-step tuberculin test for initial geriatric screening (older adults have increased cutaneous anergy): a negative first test (induration **<10 mm**) is followed by a repeat test at **2 weeks**; positive = **≥10 mm** and an increase of **≥6 mm** over the first test (p1693).
 - Isoniazid causes hepatotoxicity in up to **4%-5%** of patients >65 y, versus **<1%** in those <65 y (p1694).
-- Chemoprophylaxis is generally reserved for a Mantoux induration increase **≥15 mm** over a prior negative test (p1694).
+- Chemoprophylaxis is generally reserved for a Mantoux induration increase **≥15 mm** over a prior negative test; in close contacts of active TB and other high-risk individuals **with negative TST or IGRA**, preventive treatment should also be considered, unless contraindicated (p1694).
 - Standard latent-TB regimen: isoniazid **9 months**; alternative rifampin **4 months**; isoniazid + rifapentine **12 weeks** also effective (p1694).
 - Standard active-TB regimen: 4-drug intensive phase **2 months**, then 2-drug continuation phase **≥4 months** (total **6 months**); extend the continuation phase to **7 months** (9 months total) for cavitary disease plus a positive culture at month 2, or if the intensive phase omitted pyrazinamide (p1694).
-- Drug-resistant TB: **18-24 months** with 4-5 active drugs guided by susceptibility (p1694).
+- Drug-resistant TB varies with the resistance pattern; in general, **multidrug-resistant** TB needs **18-24 months** with 4-5 active drugs guided by susceptibility (p1694).
 - First-line regimen exceptions (Table 105-12, p1695): give pyridoxine **10-50 mg/day** with isoniazid if alcoholic, malnourished, diabetic, or has kidney failure (peripheral neuropathy risk); if isoniazid or rifampin can't be used (toxicity/resistance), substitution regimens with the remaining first-line drugs ± moxifloxacin exist — it isn't an automatic jump to second-line/MDR therapy.
 - Asymptomatic AST elevation occurs in **~20%** of patients on the standard 4-drug regimen and usually resolves spontaneously (p1696).
 - Stop hepatotoxic TB drugs if bilirubin **≥3 mg/dL** or transaminases **>5x** the upper limit of normal (or **>3x** ULN with symptoms of hepatitis) (p1696).
@@ -123,7 +124,7 @@ PSI ≥ III or CURB-65 ≥ 2 (p1687).
 
 <details><summary>Answer</summary>
 
-HR <100 bpm, RR <24/min, temperature <37.2°C (<98.96°F), systolic BP >90 mm Hg, SpO2 >90%, good awareness and oral tolerance; most stabilize by hospital day 3-4 (up to 7 days if frail) (p1687).
+HR <100 bpm, RR <24/min, axillary temperature <37.2°C (<98.96°F), systolic BP >90 mm Hg, SpO2 >90%, good awareness and oral tolerance; most stabilize by hospital day 3-4 (up to 7 days if frail) (p1687).
 
 </details>
 
@@ -131,7 +132,7 @@ HR <100 bpm, RR <24/min, temperature <37.2°C (<98.96°F), systolic BP >90 mm Hg
 
 <details><summary>Answer</summary>
 
-No clinical stability by 3-4 days, or deterioration/respiratory failure/septic shock in the first 72 hours; associated with a fivefold increase in mortality (p1690).
+No clinical stability by 3-4 days, or deterioration/respiratory failure/septic shock in the first 72 hours; associated with a fivefold increase in mortality. But in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure), stability may take longer without implying therapeutic failure (p1690).
 
 </details>
 

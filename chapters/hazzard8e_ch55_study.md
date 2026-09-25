@@ -22,7 +22,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 
 **Exercise prescription**
 - Strength: **60% to 80%** of max lifting ability; older beginners start at **~40% to 50%** (p824).
-- Aerobic: **≥20 minutes** at **50% to 80%** VO2max; beginners start with **5 to 10 minutes**; needs **three to five times per week** (p824).
+- Aerobic: usually **≥20 minutes** at **50% to 80%** VO2max; beginners start with **5 to 10 minutes**; needs **three to five times per week** (p824).
 - Flexibility: **90 degrees** knee flexion for stairs; **120 to 150 degrees** shoulder flexion/abduction to reach overhead (p825).
 - CIMT: **4 to 6 hours/day** forced use of affected limb; greater upper-extremity motor gains than conventional treatment, but the between-group differences were not significant at 6 months (p825).
 - Sarcopenia: **60% to 80% of 1RM**, **two to three times a week** (p832).
@@ -43,7 +43,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
   - **≥25 sessions** → **20% lower** 5-yr mortality vs. fewer sessions (p830).
   - Heart failure: stable **3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
 - PAD: walk-to-pain program needs **≥6 months** for benefit (p830).
-- Amputation: **60% to 80%** get phantom limb pain; **~10%** rate it severe (p830).
+- Lower extremity amputation: **60% to 80%** get phantom limb pain; **~10%** of those with phantom pain rate it severe enough to be disabling (p830).
 - Stroke: rehab starts **24 to 48 hours** poststroke (p831).
   - Dysphagia silent in **up to one-third**; aphasia in **one-third** (p831).
   - Bladder incontinence **50% to 70%** month 1, back to general-population levels by **6 months** (p831).
@@ -76,11 +76,11 @@ Body functions/structures, activities, and participation, shaped by environmenta
 
 </details>
 
-**4. What duration, intensity, and frequency of aerobic exercise are needed for benefit?**
+**4. What duration, intensity, and frequency of aerobic exercise does the book describe?**
 
 <details><summary>Answer</summary>
 
-At least 20 minutes continuous activity at 50% to 80% of maximal oxygen consumption, performed three to five times per week (p824).
+Continuous activity usually performed for at least 20 minutes at 50% to 80% of maximal oxygen consumption, three to five times per week; several shorter sessions (ie, 10 minutes) per day have shown similar benefit to one 30-minute session (p824).
 
 </details>
 

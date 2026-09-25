@@ -1989,7 +1989,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <li>ג. Delirium cannot be diagnosed without evidence of a change in level of consciousness</li>
 <li>ד. This is most likely a hidden dementia that worsened during the admission</li>
 </ul>
-<div class="note"><p>Book: p879: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness (no identified cause is required). p885: delirium is a clinical diagnosis. p880 (Key Clinical Point 4): delirium is commonly due to multiple causes.</p></div>
+<div class="note"><p>Book: p880: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness (no identified cause is required). p885: delirium is a clinical diagnosis. p880 (Key Clinical Point 4): delirium is commonly due to multiple causes.</p></div>
 <p><strong>Q40</strong> — sourced to <a href="#p880">p. 880–882</a>. What is the relationship between delirium and dementia?</p>
 <ul>
 <li>א. Delirium is really an early stage of previously undiagnosed dementia</li>
@@ -2013,7 +2013,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <li>ג. CAM positive, 4AT ≥ 4  ← <strong>key</strong></li>
 <li>ד. CAM negative, 4AT &lt; 4</li>
 </ul>
-<div class="note"><p>Book: Table 58-3 (p884): 4AT scores 0 to 12, and a score ≥ 4 suggests possible delirium. p879: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness.</p></div>
+<div class="note"><p>Book: Table 58-3 (p884): 4AT scores 0 to 12, and a score ≥ 4 suggests possible delirium. p880: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness.</p></div>
 
 </article>
 </template>
@@ -31784,8 +31784,10 @@ const requestedChapter=new URLSearchParams(location.search).get('chapter');
 
 // --- manifest-driven chapter loader (future .md files; no code change per chapter) ---
 function renderManifestChapterHtml(mdText){
+  // marked v12 mis-pairs some **bold** runs (e.g. "cm²**, … **>"), leaving literal ** on screen. Pre-convert simple one-line bold.
+  mdText=mdText.replace(/(?<!\*)\*\*(?!\*)([^*\n]+?)(?<!\*)\*\*(?!\*)/g,(m,t)=>'<strong>'+t.replace(/~/g,'&#126;')+'</strong>');
   let html=marked.parse(mdText);
-  html=html.replace(/<table>/g,'<div class="table-wrap" tabindex="0" role="region" aria-label="Table"><table>');
+  html=html.replace(/<table>/g,'<div class="table-wrap" tabindex="0" role="region" aria-label="Table" data-md="1"><table>');
   html=html.replace(/<\/table>/g,'</table></div>');
   html=html.replace(/<blockquote>\s*/g,'<div class="note">').replace(/\s*<\/blockquote>/g,'</div>');
   html=html.replace(/<p><img src="([^"\/]+\.(?:png|jpg|jpeg|gif|svg))" alt="([^"]*)"><\/p>/g,(m,file,alt)=>`<figure><img src="chapters/${file}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`);
@@ -31802,7 +31804,7 @@ function renderManifestChapterHtml(mdText){
 let manifestChapters=[];
 try{const manifestRes=await fetch('manifest.json',{cache:'no-store'});if(manifestRes.ok)manifestChapters=(await manifestRes.json()).chapters||[];}catch{}
 let manifestArticle=null;
-if(requestedChapter && !document.querySelector('template[id="chapter'+requestedChapter+'Template"]')){
+if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Template')){
   const entry=manifestChapters.find(c=>String(c.number)===String(requestedChapter));
   if(entry){
     try{
@@ -31945,6 +31947,7 @@ function renderBookObjects(){
   const woundTitles=['','Device-related and mucosal pressure injuries','Dressing choices by wound characteristics','Pressure injury mimics','Key clinical points'];
   for(const [i,table] of [...copy.querySelectorAll('.table-wrap')].entries()){
     const claim=table.dataset.claim;
+    if(table.dataset.md)continue;
     if(data.placements.some(p=>p.mode==='excerpt'&&(p.claim===claim||table.querySelector('[data-claim="'+p.claim+'"]'))))continue;
     const title=table.getAttribute('aria-label');
     const caption=document.createElement('div');caption.className='book-caption reader-summary-caption';
@@ -32258,11 +32261,11 @@ function renderNotebook(){
   for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;li.append(label,excerpt);historyList.append(li)}
 }
 $('#chapterSearch').oninput=e=>{const q=e.target.value.toLowerCase();let found=0;for(const li of $$('#chapterRows li')){li.hidden=!li.textContent.toLowerCase().includes(q);if(!li.hidden)found++}$('#noChapters').hidden=found>0};
-$('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2')){if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
+$('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2,h3,li,td,th,details')){if(p.parentElement.closest('p,li,td,th'))continue;if(p.matches('details')&&p.querySelector('p,li,td'))continue;if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
 $('#bookmark').onclick=()=>{if($('#reader').hidden)return;savedY=readerScroll.scrollTop;$('#savedPlace').textContent='Place saved in '+chapterTitle+' for this open tab.';$('#bookmark').textContent='Place saved';closePanel()};
 $('#resume').onclick=()=>{view('reader');scrollReadingTo(savedY||(0))};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
-function revealReading(el,options){el.scrollIntoView(options)}
+function revealReading(el,options){if(!el)return;for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
 restoreHighlights();
 // Jump to a page anchor (e.g. ?chapter=61#p946) once the chapter is rendered.
 if(location.hash){const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)setTimeout(()=>t.scrollIntoView(),60);}

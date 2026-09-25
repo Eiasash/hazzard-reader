@@ -12,7 +12,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 - Economic burden: **~$65 billion** lost wages, **>$100 billion** medical costs annually in the US (p779).
 
 **Risk factors**
-- Obesity is the strongest *modifiable* risk factor; obese→normal weight loss cuts knee OA incidence by **21%** (men) / **33%** (women) (p780).
+- Obesity is the strongest *modifiable* risk factor; reducing weight from obese to normal is *estimated* to cut knee OA incidence by **21%** (men) / **33%** (women) (p780).
 - Genetics: **90** genome-wide significant OA risk loci identified; COL2A1 (type II collagen) is among the implicated genes (p780).
 - **Table 52-1 — Secondary causes of OA**: anatomical abnormalities, metabolic/endocrine (diabetes mellitus, hemochromatosis, acromegaly, hyperparathyroidism, ochronosis), crystal deposition disease (gout, pseudogout), inflammatory arthritis, trauma, and others (avascular necrosis, neuropathic Charcot joints) (p780).
 
@@ -61,11 +61,11 @@ At least 32 million people (out of ~240 million worldwide with symptomatic OA); 
 
 </details>
 
-**3. By how much does weight loss from obese to normal weight reduce knee OA incidence, in men vs. women?**
+**3. By how much is weight loss from obese to normal weight estimated to reduce knee OA incidence, in men vs. women?**
 
 <details><summary>Answer</summary>
 
-21% in men and 33% in women (p780).
+An estimated 21% in men and 33% in women (p780).
 
 </details>
 

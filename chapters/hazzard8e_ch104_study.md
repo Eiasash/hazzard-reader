@@ -9,7 +9,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Vaccine response decline starts as early as the **third/fourth decade**, but disability-adjusted life-years lost to vaccine-preventable illness show a major inflection point at about **age 70** (p1668)
 - Protein-energy malnutrition (PEM) affects **30–60%** of hospitalized adults >65; even mild PEM (**albumin 3.0–3.5 g/dL**) blunts vaccine response (p1668)
 - Fever is **absent in up to one-third** of older adults with serious infection — lower baseline temperature plus a blunted febrile response means many never reach the fever threshold of **≥100.4°F/38°C** (p1669)
-- Culture stewardship: almost universally, do **NOT** culture skin-surface swabs or urine in the presence of a long-term indwelling catheter — such cultures will always be positive but don't correlate with infection, are more often misleading than helpful, and should NOT guide antibiotic selection (KCP #3, p1668; reinforced p1671)
+- Culture stewardship: almost universally, do **NOT** culture skin-surface swabs or urine in the presence of a long-term indwelling catheter — such cultures will always be positive but don't correlate with infection, are more often misleading than helpful, and should NOT guide antibiotic selection (KCP #3, p1668; reinforced p1671). Exception in Table 104-1: for **catheter-associated urosepsis**, "Culture to guide subsequent therapy" (p1673)
 
 **Antibiotic dosing and stewardship principles**
 - "Start low, go slow" does **NOT** apply to antibiotic dosing — full initial (even loading) doses are critical, with later doses adjusted for renal/hepatic function (KCP #2, p1667; detail p1670)
@@ -23,6 +23,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Infective endocarditis in older adults: fever **55%** and leukocytosis **25%** (vs **80%/60%** in younger adults) — a much blunter presentation; TEE improves diagnostic yield **45%** over TTE (p1671)
 - Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections are more likely due to asymptomatic bacteremia seeding the implant, with a wider array of organisms including GI/GU sources — but staphylococci still predominate (p1671, p1674)
 - Evidence for prophylaxis in PJ (prosthetic joint) patients is even weaker than for prosthetic valves; despite this, the ADA recommends "considering" antibiotic prophylaxis for PJs at **"high risk"** — placed within **2 years**, or in immunosuppressed patients (including diabetes, rheumatoid arthritis, malnourishment), or with prior joint infection (p1674–1675)
+  > Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
 - Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1668; detail p1674)
 - Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
@@ -30,7 +31,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Asymptomatic *C difficile* carriage: **2%** community, **10%** community with outpatient healthcare exposure, **20–50%** hospital/long-term care (p1675)
 - About **15%** of asymptomatic carriers develop symptomatic CDI after receiving antibiotics (p1675)
 - Fecal microbiota transplantation (FMT) for refractory relapse: **80–90%** success (p1675)
-- Treatment is tiered: vancomycin first-line; fidaxomicin equivalent for cure and lowers relapse but costlier (limits first-line use); metronidazole no longer first-line except IV-added to vancomycin in severe disease/ileus/toxic megacolon; vancomycin prophylaxis in patients with recent CDI needing further antibiotics reduces risk to **4% from 26%** (p1672–1673, Table 104-1)
+- Treatment is tiered: vancomycin first-line; fidaxomicin equivalent for cure and lowers relapse but costlier (limits first-line use); metronidazole no longer first-line "except in serious disease with vancomycin" (p1672); for *C difficile* colitis/toxic megacolon, vancomycin + metronidazole IV "if ileus or toxic megacolon" (p1673); vancomycin prophylaxis in patients with recent CDI needing further antibiotics reduces risk to **4% from 26%** (p1672–1673, Table 104-1)
 
 **Tuberculosis**
 - Older adults present atypically — more nonspecific dizziness/pain/"dullness" than classic fever/night sweats/hemoptysis; more widespread (vs isolated upper-lobe) infiltrates (p1675)
@@ -70,7 +71,7 @@ Up to one-third; fever is still defined as ≥100.4°F/38°C, but lower baseline
 
 <details><summary>Answer</summary>
 
-Skin-surface swabs (eg, pressure ulcers) and urine cultures in the presence of a long-term indwelling catheter — such cultures will always be positive but do not correlate with infection; they are more often misleading than helpful and should NOT guide antibiotic selection (p1668, p1671).
+Skin-surface swabs (eg, pressure ulcers) and urine cultures in the presence of a long-term indwelling catheter — such cultures will always be positive but do not correlate with infection; they are more often misleading than helpful and should NOT guide antibiotic selection (p1668, p1671). Exception: in catheter-associated urosepsis, Table 104-1 says "Culture to guide subsequent therapy" (p1673).
 
 </details>
 
@@ -111,6 +112,7 @@ Early: skin flora — coagulase-negative staphylococci, S aureus, diphtheroids. 
 <details><summary>Answer</summary>
 
 PJ placed within 2 years, immunosuppressed patients (diabetes, rheumatoid arthritis, malnourishment), or a history of prior joint infection (p1674–1675).
+> Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
 
 </details>
 

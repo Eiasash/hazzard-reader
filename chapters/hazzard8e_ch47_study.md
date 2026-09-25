@@ -38,7 +38,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - Weight loss of **5%–10%** of body weight reduces UI episodes in women (p708).
 - Pelvic floor (Kegel) exercises: **3 sets/day of 15 contractions**, building hold from **3 to 10 seconds** (p709).
 - Prompted voiding: offer toileting every **2 hours** in the day; **25%–40%** of nursing home residents respond, identified with a **3-day trial** (p710).
-- Bladder-retraining protocol after catheter removal: recheck PVR by scan/in-and-out cath every 6–8 h until **≤ 200 mL**; place a Foley if PVR **> 300–400 mL** (Table 47-11, p711).
+- Bladder-retraining protocol after catheter removal — *if the patient is having difficulty voiding* (complete retention or very low output, eg, **≤ 240 mL in 8 h** with adequate fluid intake): recheck PVR by scan/in-and-out cath every 6–8 h until **≤ 200 mL**; place a Foley if PVR **> 300–400 mL** (Table 47-11, p711).
 
 **Drugs** (condensed from Table 47-12, p712–713)
 - Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ intraocular pressure, delirium, constipation (p712); patients with dementia must be followed for drug-induced delirium (p713).

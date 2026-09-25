@@ -146,8 +146,6 @@ Tuberculin skin test (TST) sensitivity to detect latent infection declines with 
 
 ### Fever Of Unknown Origin
 
-FUO is classically defined as temperature more than 101°F (38.3°C) for at least 3 weeks and undiagnosed after 1 week of medical evaluation. The cause of FUO can be determined in about 90% of cases and approximately one-third will have treatable infections, most often intraabdominal abscess, bacterial endocarditis, tuberculosis, or occult osteomyelitis (see **Table 104-2** ). In contrast to young adults, autoimmune disease is a more frequent cause of FUO in adults older than 60 years accounting for nearly one of every four FUOs. Systemic lupus erythematosus (SLE), the most common autoimmune cause of FUO in young adults, is essentially absent in published cohorts of FUO in older adults, and replaced by GCA and polyarteritis nodosa (PAN). Neoplastic disease accounts for another 20%, most often a result of hematopoietic malignancies (eg, lymphoma and leukemia). Drug fever is a common cause in older adults <a id="p1676"></a>**[p. 1676]** and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.
-
 **Table 104-2 — Fever of unknown origin (FUO) in older patients**
 
 | Major causes | % of cases<sup>a</sup> |
@@ -168,6 +166,8 @@ FUO is classically defined as temperature more than 101°F (38.3°C) for at leas
 | No diagnosis | 13 |
 
 *<sup>a</sup>Percentages represent pooled data from multiple studies of FUO in the older patient.*
+
+FUO is classically defined as temperature more than 101°F (38.3°C) for at least 3 weeks and undiagnosed after 1 week of medical evaluation. The cause of FUO can be determined in about 90% of cases and approximately one-third will have treatable infections, most often intraabdominal abscess, bacterial endocarditis, tuberculosis, or occult osteomyelitis (see **Table 104-2** ). In contrast to young adults, autoimmune disease is a more frequent cause of FUO in adults older than 60 years accounting for nearly one of every four FUOs. Systemic lupus erythematosus (SLE), the most common autoimmune cause of FUO in young adults, is essentially absent in published cohorts of FUO in older adults, and replaced by GCA and polyarteritis nodosa (PAN). Neoplastic disease accounts for another 20%, most often a result of hematopoietic malignancies (eg, lymphoma and leukemia). Drug fever is a common cause in older adults <a id="p1676"></a>**[p. 1676]** and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.
 
 The diagnostic algorithm for older adults is influenced by the age-varied differential diagnosis in FUO. A thorough history and physical examination; basic laboratory evaluations of complete blood counts with differential, serum chemistries and hepatic enzymes, thyroid function studies, erythrocyte sedimentation rate (ESR), C-reactive protein (CRP), IFGRA for TB, HIV serology, creatinine kinase, antinuclear antibodies (ANAs), serum protein electrophoresis (SPEP), urinalysis, chest x-ray, and blood (x3) and urine cultures should begin the search. If initial work-up does not provide a clearer direction, chest/abdominal/pelvic computed tomography (CT) is most likely to provide assistance and is the next suggested test. However, if the ESR is elevated, temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults.
 
