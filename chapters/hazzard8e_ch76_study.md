@@ -54,6 +54,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
 - **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
 - **Spironolactone** — 12.5–50 mg daily; **eplerenone** — 25–50 mg daily; both contraindicated if creatinine **≥2.5 mg/dL** or hyperkalemia (p1181).
+  > Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
 - **Hydralazine/isosorbide dinitrate** — older-adult start 12.5–25 mg TID–QID / 10 mg TID–QID (p1182).
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
 - **Digoxin** — 0.125 mg daily in older adults with normal renal function; target serum level **0.5–0.9 ng/mL**; toxicity can occur even at "therapeutic" levels (p1182–1183).
@@ -171,6 +172,7 @@ At least a 36-hour washout from ACE inhibitors is required to mitigate the risk 
 <details><summary>Answer</summary>
 
 Creatinine ≥2.5 mg/dL (or preexisting hyperkalemia); spironolactone 12.5–50 mg once daily (p1181).
+> Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
 
 </details>
 

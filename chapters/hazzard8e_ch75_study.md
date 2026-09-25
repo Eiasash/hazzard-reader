@@ -62,6 +62,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Bleeding more likely with INR **> 5**; INR **5–10**: *can be* treated by holding warfarin + oral vitamin K **1–2.5 mg**, check INR daily until < 5 (p1161).
   > Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.
 - Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; mechanical mitral or aortic valves with high-risk factors are bridged with heparin once INR **< 2** (p1162).
+  > Current practice (not the book): stop warfarin ≥5 days (rather than <5 days) before an elective surgery/procedure (conditional recommendation) — ACCP/CHEST perioperative antithrombotic guideline, 2022.
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
@@ -183,6 +184,7 @@ INR 2–3, for only 3 months after implantation (versus lifelong anticoagulation
 <details><summary>Answer</summary>
 
 Held 48–72 hours preoperatively and restarted within 24 hours postoperatively, without heparin bridging, if there are no additional risk factors (p1162).
+> Current practice (not the book): stop warfarin ≥5 days (rather than <5 days) before an elective surgery/procedure (conditional recommendation) — ACCP/CHEST perioperative antithrombotic guideline, 2022.
 
 </details>
 

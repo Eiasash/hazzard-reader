@@ -71,6 +71,7 @@ p{margin:0 0 var(--s4)}
 .reading-copy li+li{margin-block-start:var(--s2)}
 .reading-copy [lang="he"]{font-family:var(--ui);line-height:1.65}
 .reading-copy [data-marked]{color:var(--hl-ink);background:var(--mark-colour,var(--hl-yellow));border-radius:var(--s1);box-decoration-break:clone;-webkit-box-decoration-break:clone}.marking .reading-copy [data-unit]{cursor:pointer}.reading-copy :is(svg,img)[data-marked]{outline:var(--line) solid var(--accent)}
+[dir=rtl] code{unicode-bidi:isolate}
 .table-wrap{overflow:auto;overscroll-behavior-inline:contain;border-block:var(--line) solid var(--rule);margin-block:var(--s4);scrollbar-color:var(--control) var(--soft)}
 table{border-collapse:collapse;inline-size:100%;font-size:var(--body);line-height:1.5}
 caption{text-align:start;font:600 var(--label)/1.4 var(--ui);padding-block:var(--s3)}
@@ -31851,7 +31852,7 @@ if(true){
     button.dataset.jump=heading.id||'copy';button.textContent=heading.textContent;li.append(button);list.append(li);
   }
   const li=document.createElement('li'),button=document.createElement('button');button.dataset.view='library';button.textContent='All chapters';li.append(button);list.append(li);
-  $('.resume-card h2').textContent=chapterTitle;$('.resume-card .meta').textContent='Chapter '+copy.dataset.chapterId+' / '+chapterTitle;
+  $('.resume-card h2').textContent=chapterTitle;{const cid=String(copy.dataset.chapterId||''),lbl=cid==='law'?'Israeli law':cid==='laws'?'Israeli law — study':/^\d+s$/.test(cid)?'Chapter '+cid.slice(0,-1)+' — study':'Chapter '+cid;$('.resume-card .meta').textContent=lbl+' / '+chapterTitle;}
   $('[data-pane="session"] > p:not(.eyebrow):not(.meta)').textContent=chapterTitle;
   $('[data-pane="plan"] b').textContent=chapterTitle;
   $('[data-pane="plan"] p:not(.eyebrow):not(.meta)').replaceChildren(Object.assign(document.createElement('b'),{textContent:chapterTitle}),document.createElement('br'),document.createTextNode('Read, then recall the chapter findings.'));

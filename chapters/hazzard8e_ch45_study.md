@@ -50,6 +50,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - Cardioinhibitory CSS: dual-chamber cardiac pacing abolishes syncope in **85% to 90%** of patients (p675)
 - ICD indicated for syncope + VT with EF **<35%**, syncope + prior MI, or VT induced on electrophysiologic study (p675)
 - Drug doses for severe OH/PPH: caffeine **250 mg** (2 cups brewed) each morning, fludrocortisone **0.1–0.5 mg** po daily, midodrine **2.5–10 mg** po TID, octreotide **50 mg** subQ 30 min pre-meal *(unusually high vs. the mcg doses typically used clinically — this is the book's own printed text)* (p675)
+  > Current practice (not the book): the source trial gave octreotide 50 micrograms (µg) subQ, not 50 mg — Jansen et al., 1989 (PubMed 2646315).
 
 ## Drill
 
