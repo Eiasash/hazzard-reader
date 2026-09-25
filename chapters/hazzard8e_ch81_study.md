@@ -15,7 +15,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 
 ### Diagnosis & spirometry
 - Diagnosis needs compatible history **plus** spirometry-confirmed airflow obstruction (p1242).
-- GOLD criterion: fixed **FEV1/FVC < 0.70** — doesn't correct for age, overdiagnoses older adults (prevalence **37.7%** by GOLD vs **15.4%** by age-adjusted Z-score) (p1243–1245).
+- GOLD criterion: fixed **FEV1/FVC < 0.70** — doesn't correct for age, overdiagnoses older adults (prevalence **37.7%** by GOLD vs **15.4%** by age-adjusted Z-score) (p1243–1244).
 - Normal aging lung alone (no COPD) already shows ↑chest-wall rigidity, ↓elastic recoil, "senile emphysema," air trapping, and ↑closing volume approaching FRC — the same physiologic changes seen in COPD, just less severe (single vs double arrows) — part of why fixed spirometric cutoffs overdiagnose older adults (Table 81-1, p1238).
 - Age-adjusted approach (GLI): airflow obstruction = FEV1/FVC **Z-score < –1.64** (5th percentile LLN); **–2.55** = 0.5th percentile, a severity marker (p1243–1244).
 - ATS/ERS FEV1 staging thresholds: **≥70% Pred = mild, 50–69% = moderate, <50% = severe** (p1244, Table 81-5).
@@ -28,7 +28,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Postmortem study of COPD-exacerbation deaths: heart failure **37%**, pulmonary thromboembolism **21%**, pneumonia **28%**, respiratory failure **14%** (p1247).
 
 ### Pharmacologic management (stable COPD)
-- Stepwise approach: SABA/SAMA → add LAMA (preferred first-line long-acting) → add LABA → add ICS (always combined with a LABA — **ICS monotherapy is not recommended** in COPD, unlike asthma) only if frequent exacerbations, eosinophils **≥300 cells/µL**, or hospitalization (Table 81-10, p1249–1252).
+- Stepwise approach: SABA rescue → long-acting BD (LAMA usually first-line, greater exacerbation reduction than LABA) → add the other class → add ICS (combined with a LABA — **ICS monotherapy is not recommended** in COPD, unlike asthma) for frequent exacerbations not controlled by LABA and/or LAMA, hospitalization for exacerbation, or concomitant asthma; ICS+LABA reduces exacerbations/hospitalizations with eosinophils **≥300 cells/mL** (book's unit) plus high symptom burden and frequent exacerbations (p1253; agents in Table 81-10, p1249–1252).
 - ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL**); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; posterior subcapsular cataracts; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
 - Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
@@ -36,7 +36,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Theophylline: goal level **8–12 mcg/mL**; narrow therapeutic window, rarely used now (p1255).
 
 ### Devices & adherence
-- DPIs need PIF **>45 L/min**; SMIs need only a gentle breath — best option for low-PIF patients (p1255).
+- DPIs need PIF **>45 L/min**; SMIs need only a gentle breath — an advantage over DPIs/pMDIs for low-PIF patients (p1255).
 - Cognitive-impairment cutoffs predicting poor inhaler technique: **MMSE <24** or **EXIT-25 ≥15** (p1255).
 - Nebulizers/compressors fall under Medicare **Part B**; handheld inhalers under Part D — cost-relevant for donut-hole patients (p1255).
 
@@ -44,8 +44,8 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Average older COPD patient has **2–3 exacerbations/year**, each lasting up to **2 weeks**; exacerbations cause up to **20% of hospitalizations** in those ≥75 (p1259).
 - Respiratory infection causes **~70%** of exacerbations; bacteria **40–60%** (*H. influenzae, M. catarrhalis, S. pneumoniae* most common) (Table 81-12, p1259).
 - Systemic corticosteroids: delirium risk rises above **60 mg/day** prednisone-equivalent; a **5-day course of 40 mg/day** prednisone was noninferior to a 7–14-day taper (p1236, p1261).
-- Antibiotic duration typically **3–7 days** (longer, 10–14 days, if bronchiectasis) (Table 81-13, p1260–1261).
-- NPPV/BPAP for acute hypercarbia (PaCO2 **>45–50 mm Hg**) reduces intubation, LOS, and mortality (p1256–1257).
+- Antibiotic duration typically **3–7 days** (longer, 10–14 days, if bronchiectasis) (p1236, p1261).
+- NPPV/BPAP for acute hypercarbia (PaCO2 **>45–50 mm Hg**) reduces intubation, LOS, and mortality (p1257).
 
 ### Surgical & LTOT
 - LTOT indicated for resting PaO2 **≤55 mm Hg** or SpO2 **≤88%** (daily use ≥16 h/day improves survival) (Table 81-11, p1256).
@@ -53,11 +53,11 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Lung transplant referral thresholds: FEV1/DLCO **<25%** predicted, PaCO2 **>50 mmHg**, BODE **>5**; median post-transplant survival **5–6 years**; age >70 has higher 30-day/1-year mortality (p1258–1259).
 
 ### Palliative care
-- Median life expectancy from diagnosis: **14 years** for COPD vs **21 years** for heart disease (p1262).
+- Average life expectancy from diagnosis: **14 years** for COPD vs **21 years** for heart disease (p1262).
 - Symptom burden in advanced COPD (Table 81-14): dyspnea **94%**, pain **54%** (p1263); respiratory symptoms (dyspnea, cough, sputum) up to **98%** of patients (p1262).
 - Psychological/sleep symptom burden in advanced COPD: depression **>90%** (antidepressants, supportive counseling); anxiety **>90%** (benzodiazepines, behavioral interventions); delirium (antipsychotics + behavioral interventions); sleep disturbance **40%** (trazodone/Z-meds, nocturnal O2, CPAP, CBT) (Table 81-14, p1263).
-- Prognostic red flag: **FEV1 <30%** predicted or FEV1 Z-score **<–2.55** (p1262).
-- SPIKES framework for breaking bad news: **S**etting, **P**erception, **I**nvitation, **K**nowledge, **E**mpathy, **S**trategy/summary (p1263–1264).
+- Very severe obstruction (**FEV1 <30%** predicted or FEV1 Z-score **<–2.55**) helps identify patients at risk for uncontrolled symptoms from advanced COPD — but FEV1 alone is not sufficient to identify who would benefit from palliative care (p1262).
+- SPIKES framework for breaking bad news: **S**etting, **P**erception, **I**nvitation, **K**nowledge, **E**mpathy, **S**trategy/summary (p1264).
 
 ## Drill
 
@@ -65,7 +65,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 
 <details><summary>Answer</summary>
 
-(1) A fixed FEV1/FVC < 0.70 does not distinguish normal age-related airflow limitation from true COPD-related obstruction (often <0.70 in healthy older never-smokers). (2) FEV1 expressed as %Pred assumes spirometric variability is constant across the adult lifespan, which it is not (p1245).
+(1) A fixed FEV1/FVC < 0.70 does not distinguish normal age-related airflow limitation from true COPD-related obstruction (often <0.70 in healthy older never-smokers). (2) FEV1 expressed as %Pred assumes spirometric variability is constant across the adult lifespan, which it is not (p1236, p1243).
 
 </details>
 
@@ -73,7 +73,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 
 <details><summary>Answer</summary>
 
-Z-score < –1.64 defines the lower limit of normal (5th percentile). –2.55 corresponds to the 0.5th percentile and is used as a severity/risk marker (eg, for antibiotic resistance risk and palliative-care prognostication) (p1243–1244, p1262).
+Z-score < –1.64 defines the lower limit of normal (5th percentile). –2.55 corresponds to the 0.5th percentile and is used as a severity threshold (severe FEV1 Z-score < –2.55), and appears as a marker of resistant-organism risk in exacerbations and of risk for uncontrolled symptoms from advanced COPD (p1236, p1243–1244, p1262).
 
 </details>
 
@@ -97,7 +97,7 @@ Two-thirds of those with chronic-bronchitis symptoms and half of those with phys
 
 <details><summary>Answer</summary>
 
-Add ICS when absolute eosinophil count ≥300 cells/µL with frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest when eosinophils are <100 cells/mL (paradoxically the group least likely to benefit) (p1253–1254).
+ICS combined with LABA reduces exacerbations and hospitalizations with absolute eosinophil count ≥300 cells/mL (book's unit) plus high symptom burden and frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest with eosinophils <100 cells/mL (also older age, frailty, low BMI, high ICS dose); ICS withdrawal can be considered with eosinophils <300 (especially <100) cells/mL (p1253–1254).
 
 </details>
 
@@ -105,7 +105,7 @@ Add ICS when absolute eosinophil count ≥300 cells/µL with frequent exacerbati
 
 <details><summary>Answer</summary>
 
-Above 1000 mcg/day of fluticasone or equivalent (p1254).
+Above 1000 mcg/day of fluticasone or equivalent (p1253).
 
 </details>
 
@@ -113,7 +113,7 @@ Above 1000 mcg/day of fluticasone or equivalent (p1254).
 
 <details><summary>Answer</summary>
 
-DPIs require PIF > 45 L/min. A soft-mist inhaler (SMI) needs only a gentle breath and is preferred for patients with low PIF or poor "press and breathe" coordination (p1255).
+DPIs require PIF > 45 L/min. A soft-mist inhaler (SMI) needs only a gentle breath, offering an advantage over DPIs and pMDIs for patients with low PIF or poor "press and breathe" coordination (p1255).
 
 </details>
 
@@ -165,7 +165,7 @@ BODE Index score > 5, and FEV1 and DLCO both < 25% predicted, among other criter
 
 </details>
 
-**14. How does median life expectancy from diagnosis compare between COPD and heart disease?**
+**14. How does average life expectancy from diagnosis compare between COPD and heart disease?**
 
 <details><summary>Answer</summary>
 
@@ -177,6 +177,6 @@ BODE Index score > 5, and FEV1 and DLCO both < 25% predicted, among other criter
 
 <details><summary>Answer</summary>
 
-FEV1 < 30% predicted, or FEV1 Z-score < –2.55 (p1262).
+FEV1 < 30% predicted, or FEV1 Z-score < –2.55, helps identify patients at risk for uncontrolled symptoms from advanced COPD; however, FEV1 alone is not sufficient to identify patients who would benefit from palliative care (p1262).
 
 </details>

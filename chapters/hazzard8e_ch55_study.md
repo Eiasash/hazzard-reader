@@ -33,20 +33,20 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 
 **Adaptive aids**
 - Canes: opposite the involved leg; "up with the good, down with the bad" on stairs (p827).
-- **Table 55-5** (p828): power wheelchair needs intact cognitive ability to operate safely (controls don't require intact UEs) — indicated for high-level SCI, MS/ALS, or multiple-limb amputation; rollator preferred outdoors for its larger wheels and seat for resting.
+- **Table 55-5** (p828): power wheelchair needs cognitive ability to operate safely (controls don't require intact UEs) — may be beneficial in neurologic disease (high-level SCI, MS, ALS) or multiple-limb amputation; rollator is good for outside walking because of large wheels and has a seat for resting.
 - Diabetic foot disease: Medicare covers **one pair** of shoes/inserts **each year** (p829).
 
 **Condition-specific rehab**
 - Pulmonary: exercise **three times a week or more**, target moderate dyspnea (p829).
 - Cardiac rehab: only **one-third** of eligible patients participate (**12%** in a 600k-patient Medicare cohort) (p830).
-  - CR vs. none: **2.3% vs. 5.3%** short-term mortality; **16% vs. 25%** at 5 years (p830).
+  - CR vs. none: mortality **2.3% vs. 5.3%**; benefit sustained at 5 years, **16% vs. 25%** (p830).
   - **≥25 sessions** → **20% lower** 5-yr mortality vs. fewer sessions (p830).
-  - Heart failure: stable **3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, VO2 **+15% to 30%**, symptoms **+15% to 50%** by **2 months** (p830).
+  - Heart failure: stable **3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
 - PAD: walk-to-pain program needs **≥6 months** for benefit (p830).
 - Amputation: **60% to 80%** get phantom limb pain; **~10%** rate it severe (p830).
 - Stroke: rehab starts **24 to 48 hours** poststroke (p831).
   - Dysphagia silent in **up to one-third**; aphasia in **one-third** (p831).
-  - Bladder incontinence **50% to 70%** month 1, resolves by **6 months** (p831).
+  - Bladder incontinence **50% to 70%** month 1, back to general-population levels by **6 months** (p831).
   - Shoulder pain **34% to 84%**; depression **15% to 70%** (p831).
 - Post-THA (posterolateral): avoid **>90 degrees** hip flexion early (p832).
 
@@ -104,7 +104,7 @@ The stronger/less-affected limb is constrained (cast or mitt) to force use of th
 
 <details><summary>Answer</summary>
 
-890-nm near-infrared light pads, 30-minute sessions, three times a week, 12 treatments total; most studies show it is no more effective than placebo for improving sensation/pain (p826).
+890-nm near-infrared light pads, 30-minute sessions, three times a week, 12 treatments total; the majority of studies show it is no more effective than placebo in improving sensation (studies are conflicting) (p826).
 
 </details>
 
@@ -132,11 +132,11 @@ An inpatient rehab facility requires a minimum of 3 hours of therapy daily; a sk
 
 </details>
 
-**11. What fraction of Medicare patients eligible for cardiac rehabilitation actually participate?**
+**11. What fraction of eligible patients receive cardiac rehabilitation?**
 
 <details><summary>Answer</summary>
 
-Only about one-third of eligible patients (12% in one large Medicare cohort) participate, despite proven mortality benefit (p830).
+Only about one-third of eligible patients receive CR (in one large Medicare cohort only 12% participated), despite its beneficial effects (p830).
 
 </details>
 

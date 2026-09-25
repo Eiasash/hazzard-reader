@@ -6,8 +6,8 @@ Study summary of Chapter 43 — Falls; the book and the full chapter are the ref
 
 ### Epidemiology
 - Fall = event resulting in a person coming to rest inadvertently on the ground/floor/lower level (p633).
-- Community-dwelling 65+: **32–40%** fall per year; 75+: **40–50%** per year (p633).
-- Residential aged care (RACF) residents: **30–56%** per year (p633).
+- Community-dwelling 65+: fall incidence **32–40%**; beyond 75: fall rates **40–50%** (prospective studies; no time frame stated) (p633).
+- Residential aged care (RACF) residents: fall incidence **30–56%** (p633).
 - Hospital falls: **2%** (general hospitals) up to **27%** (acute geriatric wards) (p633).
 - **37–56%** of falls cause minor injury; **10–15%** cause major injury (p633).
 - Falls = **14%** of ED admissions and **4%** of all hospital admissions in 65+ (p633).
@@ -15,9 +15,9 @@ Study summary of Chapter 43 — Falls; the book and the full chapter are the ref
 
 ### Risk Factors
 - Demographic: advancing age and female gender in the community; in hospital/institutional settings risk is similar or even higher in men (p634).
-- Alcohol is NOT an independent fall-risk factor in cohort studies (despite causing osteoporosis/cerebellar atrophy/neuropathy) — likely underreporting/selection bias (p634).
+- Alcohol has NOT been shown to be a fall-risk factor in large cohort studies (despite causing osteoporosis/cerebellar atrophy/neuropathy) — likely underreporting/selection bias (p634).
 - Medical: stroke, Parkinson disease, MS, dementia, depression, dizziness, incontinence, arthritis. Incontinence and cognitive impairment matter more in institutions; orthostatic hypotension and vestibular disorders aren't strong *community* risk factors but matter in specific populations (e.g., orthostatic hypotension in Parkinson disease) (p634).
-- Medications: psychoactive drugs (benzodiazepine, antidepressant, antipsychotic) → **2–3x** fall risk, **~2x** hip-fracture risk (p634). NSAIDs: most recent systematic review found no significant increase on adjusted analysis (p636). ACE/ARB antihypertensives may be protective; risk of a fall is highest in the **first 24 hours** after starting or changing dose of ANY antihypertensive (p636).
+- Medications: psychoactive drugs (benzodiazepine, antidepressant, antipsychotic) → **2–3x** fall risk, **~2x** hip-fracture risk (p634). NSAIDs: most recent systematic review found no significant increase on adjusted analysis (p636). Some antihypertensive classes (angiotensin system blocking medications) are protective; fall risk is significantly increased within the **24 hours** after starting an antihypertensive or changing its dose (p636).
 - Balance/gait: slower speed, shorter steps, wider step width, more double-support time predict falls; poor trunk/head control while walking impairs gaze stability (p636).
 - Sensory/neuromuscular: reduced contrast sensitivity/depth perception and reduced knee-extension/ankle-dorsiflexor strength (especially in RACF) are risk factors (p636).
 - Neuropsychological: poor dual-task performance (e.g., talking while walking), poor executive function/attention, fear of falling and depression → inactivity/isolation (p636).
@@ -32,22 +32,22 @@ Study summary of Chapter 43 — Falls; the book and the full chapter are the ref
 - RACF: CaHFRiS screen items — **MMSE < 17**, impulsivity, reduced standing balance, walking-frame use, a fall in the past year, antidepressant/hypnotic-anxiolytic use; absolute 6-month fall risk ranges **0% (no factors) → 100% (≥6 factors)** (p637).
 
 ### Prevention — Single Interventions
-- **Exercise:** **23%** fewer falls across 64 RCTs (community-dwelling); best results with high balance challenge + **≥3 hrs/week** of prescribed exercise, effective even in 75+ (p638). Reactive/rapid-stepping training: **52%** fewer falls (7-RCT meta-analysis) (p638). CAUTION — not a universal win: not effective in long-term stroke survivors or people just discharged from hospital; one home-based program **increased** falls by **43%** in the recently-discharged (p639). In contrast: RACF resistance + balance training (25 wks) cut falls **55%** (p639); a multifaceted RACF program (staff/resident education + environment review + hip protectors + 2x/week group exercise) cut falls **45%** (p639).
-- **Vision:** first-eye cataract surgery → **34%** fewer falls; second-eye surgery similar (~**32%**) but not statistically significant; keep post-op spectacle power change **< ±0.75 diopter** (p639). Simply updating glasses to correct prescription: no benefit, and one RCT **increased** falls by **~50%** — a trap, "fixing vision" isn't automatically protective (p639). Single-lens distance glasses for habitual multifocal wearers: **40%** fewer falls in the outdoor-active subgroup (p639). Home-safety modification for severe uncorrectable low vision: **41%** fewer falls (p639).
-- **Medications:** withdrawing centrally-acting drugs did NOT significantly reduce falls in the most recent systematic review (5 trials, **1309** participants; RaR **0.98**, 95% CI 0.63–1.51) — better to prevent uptake than deprescribe later (p639). Avoid new benzodiazepines/z-drugs/other psychotropics for insomnia. Vitamin D: no benefit in community-dwelling older adults (even if deficient); may reduce falls in RACF residents (p639).
+- **Exercise:** **23%** fewer falls across 64 RCTs (community-dwelling); best results with high balance challenge + **≥3 hrs/week** of prescribed exercise, effective even in 75+ (p638). Rapid-stepping training: **52%** fewer falls (7-RCT meta-analysis) (p638). CAUTION — not a universal win: not effective in long-term stroke survivors or people just discharged from hospital; one home-based program **increased** falls by **43%** in the recently-discharged (p639). In contrast: RACF resistance + balance training (25 wks) cut falls **55%** (p639); a multifaceted RACF program (staff training/feedback + resident education + environmental adaptations + hip protectors + 2x/week group exercise) cut falls **45%** (p639).
+- **Vision:** first-eye cataract surgery → **34%** fewer falls; second-eye surgery similar (~**32%**) but not statistically significant; keep post-op spectacle power change **< ±0.75 diopter** (p639). Updating glasses to correct prescription: evidence less clear — one RCT found no significant reduction, and another (vision assessment + treatment) **increased** falls by **~50%** (p639). Single-lens distance glasses for habitual multifocal wearers: **40%** fewer falls in the outdoor-active subgroup (p639). Home-safety modification for severe uncorrectable low vision: **41%** fewer falls (p639).
+- **Medications:** withdrawing centrally-acting drugs did NOT significantly reduce falls in the most recent systematic review (5 trials, **1309** participants; RaR **0.98**, 95% CI 0.63–1.51) — better to prevent uptake than deprescribe later (p639). Avoid prescribing benzodiazepines/z-drugs/other psychotropics for insomnia unless there is a clear pattern of addiction or inability to complete a withdrawal program; consider nonpharmacological approaches (p639). Vitamin D: no benefit in community-dwelling older adults (even if deficient); may reduce falls in RACF residents (p639).
 - **Home safety:** OT-delivered intensive interventions cut fall risk **21%** overall, **39%** in high-risk groups (p640); a cluster RCT of **842 households** found home modifications cut fall-injury rate **26%** overall and **39%** for intervention-specific injuries (p640).
 - **Footwear/podiatry:** multifaceted podiatry → **23%** fewer falls; multifactorial interventions incorporating podiatry → **27%** fewer falls (community) (p640); a RACF podiatry pilot was protective at 3 months but the effect was gone by 6 months (p641).
-- **Psychological:** CBT alone does not prevent falls in people with fear of falling; adding CBT to multifactorial/exercise programs may help (p641).
+- **Psychological:** most CBT programs used alone have not prevented falls in people with fear of falling; adding CBT to multifactorial/exercise programs may help (p641).
 - **Cardiovascular:** pacemaker implantation for cardioinhibitory carotid sinus hypersensitivity reduces drop attacks, syncope, and fall frequency (p641).
 
 ### Prevention — Multifactorial
 - Cochrane review of **43** community trials: multifactorial interventions → **23%** fewer falls overall (p641).
 - RACF: single-component interventions generally ineffective; multidisciplinary multifactorial programs with staff education work (p641).
-- Two large General-Practice-based trials (fractures n = **5451**; serious fall injuries n = **9803**) found NO significant reduction — implementation/fidelity in routine services, not the underlying evidence, is the bottleneck (p641).
+- Two large General-Practice-based trials (fractures n = **5451**; serious fall injuries n = **9803**) found NO significant reduction in falls or fractures — raises questions about funding/implementing interventions; multifactorial interventions work better when provided directly than when relying on referral to routine service providers (p641).
 
 ## Drill
 
-**1. What is the annual fall incidence range for community-dwelling adults 65 and older?**
+**1. What fall incidence range do prospective community studies report for adults 65 and older?**
 
 <details><summary>Answer</summary>
 
@@ -55,7 +55,7 @@ Study summary of Chapter 43 — Falls; the book and the full chapter are the ref
 
 </details>
 
-**2. What is the annual fall incidence range in residential aged care facilities (RACFs)?**
+**2. What fall incidence range do prospective studies report in residential aged care facilities (RACFs)?**
 
 <details><summary>Answer</summary>
 
@@ -87,11 +87,11 @@ A two- to threefold increased risk of falls (p634).
 
 </details>
 
-**6. When after starting or changing an antihypertensive is fall risk highest?**
+**6. In what window after starting an antihypertensive or changing its dose is fall risk significantly increased?**
 
 <details><summary>Answer</summary>
 
-Within the first 24 hours (p636).
+Within the 24 hours following initiation or dose change (p636).
 
 </details>
 

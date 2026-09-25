@@ -14,10 +14,10 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 - Moderate-to-severe SDB in **6%** of women, **13%** of men (2007–2010 cohort); OSA underdiagnosed, especially in women (p646).
 - CSA is **two to three times** more prevalent at age 65–90 vs 39–64; up to **50%** of stable heart-failure patients have some SDB (p646).
 - Neck circumference **> 17 inches** (men) / **> 16 inches** (women) predicts SDB, less so in elderly; Friedman palate positions **III and IV** = high OSA risk (p647).
-- HSAT not validated for central apneas; avoid with alpha-blockers or atrial fibrillation; a negative HSAT does not rule out OSA (p648–649).
+- Peripheral arterial tone–based home devices are not validated for central apneas and should not be used with alpha-blockers or atrial fibrillation; HSAT only for high pretest probability without significant cardiopulmonary comorbidity; a negative HSAT does not rule out OSA (p648–649).
 - CPAP pressure usually **5 to 20 cm H2O**; well tolerated above age 80 and in mild-moderate dementia (p649).
 - Only **50% to 70%** of patients remain CPAP-adherent at 1 year (p649).
-- ASV contraindicated if EF **less than 45%** (SERVE-HF: increased mortality) (p649).
+- ASV generally not recommended if EF **less than 45%** (SERVE-HF: increased mortality) (p649).
 - Hypoglossal nerve stimulation trials limited to BMI **less than 32 kg/m2**; cohort of **62** patients aged 65–80 showed benefit (p650).
 
 ### RLS / periodic limb movement disorder
@@ -37,7 +37,7 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 
 ### Circadian rhythm disorders
 - Advanced sleep-wake phase disorder affects ~**1%** of a middle-aged population; more common with aging (p657).
-- Irregular sleep-wake rhythm common in Alzheimer, Parkinson, and Huntington disease; may underlie sundowning (p657).
+- Irregular sleep-wake rhythm common in Alzheimer, Parkinson, and Huntington disease; sundowning may be a phenotype of a circadian rhythm disturbance (p657).
 - Tasimelteon (MT1/MT2 agonist) approved only for non–24-hour sleep-wake rhythm disorder (p657).
 
 ### Insomnia
@@ -47,10 +47,10 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 - CBT-I is first-line treatment for all adults with insomnia (p659).
 - Stimulus control: get out of bed if not asleep within **20 minutes** (p662).
 - Sleep restriction: time-in-bed = average sleep time **+ 15 minutes**, advance 15 min once efficiency **80%–85%**, goal ~**8 hours** (p662).
-- Drugs: Benzodiazepines ↓ sleep latency ~**10 minutes**, ↑ total sleep time **30 to 60 minutes**; avoid long-acting flurazepam/quazepam; all Beers-listed (p659). Temazepam start **7.5 mg**, usual **7.5–30 mg**, half-life **8.8 h** — caution: psychomotor impairment, increased fall risk; eszopiclone start **1 mg**, usual **1–2 mg**, half-life **6 h** — caution: avoid high-fat meals, unpleasant taste/headache (Table 44-5, p660). Zolpidem/zaleplon — rapid onset, take immediately before bed; Beers-listed (p659). Ramelteon (MT1/MT2 agonist) — few side effects, less amnestic (p660). Suvorexant/lemborexant (DORA) — only suvorexant FDA-approved for insomnia with Alzheimer dementia (trial of **277** patients, mild-moderate AD, sleep time up **around half an hour** after 2 weeks) (p660). Doxepin low-dose **3–6 mg** for insomnia vs **100–300 mg** as an antidepressant (p661). Avoid diphenhydramine as primary therapy — long half-life, next-day sedation, anticholinergic burden (p661).
+- Drugs: Benzodiazepines ↓ sleep latency ~**10 minutes**, ↑ total sleep time **30 to 60 minutes**; avoid long-acting flurazepam/quazepam; all Beers-listed (p659). Temazepam start **7.5 mg**, usual **7.5–30 mg**, half-life **8.8 h** — caution: psychomotor impairment, increased fall risk; eszopiclone start **1 mg**, usual **1–2 mg**, half-life **6 h** — caution: avoid high-fat meals, unpleasant taste/headache (Table 44-5, p660). Zolpidem/zaleplon — rapid onset, take immediately before bed; Beers-listed (p659). Ramelteon (MT1/MT2 agonist) — few side effects, less amnestic (p660). Suvorexant/lemborexant (DORA) — only suvorexant FDA-approved for insomnia with Alzheimer dementia (trial of **277** patients, mild-moderate AD, sleep time up **around half an hour** after 2 weeks) (p660). Doxepin low-dose **3–6 mg** for insomnia vs **100–300 mg** as an antidepressant (p661). Avoid diphenhydramine as primary therapy — long half-life, next-day sedation, rapid tolerance, dry mouth, urinary retention, delirium, decreased cognition (p661).
 
 ### Institutionalized / dementia
-- Nocturnal wandering and confusion are a leading cause of institutionalization; CPAP remains feasible and can improve cognition even in mild-moderate dementia (p663).
+- Nocturnal wandering and confusion are a leading cause of institutionalization; CPAP can be used successfully in mild-moderate dementia, and treating SDB can improve cognitive function (p662–663).
 
 ## Drill
 
@@ -86,7 +86,7 @@ Greater than 17 inches in men, greater than 16 inches in women (predictive value
 
 </details>
 
-**5. Below what ejection fraction is adaptive servo-ventilation (ASV) contraindicated for central sleep apnea, and why?**
+**5. Below what ejection fraction is adaptive servo-ventilation (ASV) generally not recommended for central sleep apnea, and why?**
 
 <details><summary>Answer</summary>
 

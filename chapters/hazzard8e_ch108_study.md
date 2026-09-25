@@ -7,25 +7,25 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 ### Influenza — Virology & Epidemiology
 - Influenza kills an estimated **36,000** older adults/year in the US (p1733).
 - Three types (A, B, C); only **A and B** are clinically relevant (p1733).
-- **8** RNA segments encode the virus's structural/enzymatic proteins — recombination of whole segments in animals causes antigenic **"shift"** (pandemic risk); point mutations in hemagglutinin cause annual antigenic **"drift"** (why the vaccine is reformulated yearly) (p1733).
-- 20th/21st-century shift pandemics: **1957–1958, 1968–1969, 2009** (p1734). Only **H1, H2, H3** and **N1, N2** have established stable human lineages (p1734).
+- **8** RNA segments encode the virus's structural/enzymatic proteins — recombination of whole segments in animals causes antigenic **"shift"** (pandemic risk); annual mutations causing small changes in hemagglutinin cause antigenic **"drift"** (why the vaccine is reformulated yearly) (p1733).
+- Antigenic shift was responsible for the pandemics of **1957–1958, 1968–1969, 2009** (p1734). Only **H1, H2, H3** and **N1, N2** have established stable human lineages (p1734).
 - Older-adult hospitalization for influenza: **136–508/100,000** vs **10–25/100,000** for ages 5–49 (p1734).
 
 ### Diagnosis
 - **Table 108-1** (p1735): culture is good (++) for influenza A/B but only fair (+) for RSV; rapid EIA and DFA/IFA are fair (+) for influenza A/B but poor (+/–) for RSV; **PCR is optimal (+++)** for all three; serology is only good (++) for influenza A/B — interpretation confounded by vaccination — but optimal (+++) for RSV, with no such caveat.
 - Rapid antigen/ELISA tests are insensitive in older adults — as low as **20%** sensitivity (p1734–1735).
 - **RT-PCR is >95%** sensitive and specific for influenza and >**90%** sensitive per the Key Clinical Points box — the best test; a negative rapid antigen test does NOT rule out influenza (p1733, p1735).
-- Influenza incubation is typically **2 days** (range **1–4 days**); contagious from **1 day before** symptom onset; shedding lasts **5–6 days** (p1735).
+- Influenza incubation is typically **2 days** (range **1–4 days**); contagious from **1 day before** symptom onset; shedding at transmissible levels lasts **5–6 days** (p1735).
 
 ### Influenza Immunization
 - 2014 systematic review (35 studies, 15 countries): vaccine effectiveness **38–70%** in seasons of vaccine/strain match, **15–59%** in mismatch seasons — "important but modest" (p1735).
-- **HD-IIV4** (high-dose) has **4×** the antigen dose of standard-dose vaccine and is more effective in older adults; **aIIV4** (MF59-adjuvanted) also shows increased immunogenicity and is linked to reduced hospitalization for flu, pneumonia, and cardiovascular events; **RIV4** (recombinant) also promising. ACIP endorses any of these for older adults (p1735).
+- **HD-IIV4** (high-dose) has **4×** the antigen dose of standard-dose vaccine and is more effective in older adults; **aIIV4** (MF59-adjuvanted) also shows increased immunogenicity and is linked in observational studies to reduced hospitalization for flu, pneumonia, and cardiovascular events; **RIV4** (recombinant) also promising. ACIP endorses any of these for older adults (p1735).
 - Nursing-home RCT: zanamivir vs rimantadine chemoprophylaxis — influenza risk **3% vs 8%** (p = **0.038**) (p1735).
 - **4 cluster-randomized trials** show immunizing nursing-home **staff** reduces resident mortality — possibly more than immunizing residents themselves (p1735).
 
 ### Influenza Antivirals (name — key facts)
 - **Amantadine / rimantadine** — influenza A only; current strains largely resistant; no longer recommended (p1736).
-- **Zanamivir (inhaled) / oseltamivir (oral)** — neuraminidase inhibitors, active vs A and B; **70–90%** effective for prophylaxis; must be given within **48 hours** of symptom onset for treatment benefit; oseltamivir needs renal dosing; zanamivir may worsen bronchospasm in obstructive lung disease (p1736).
+- **Zanamivir (inhaled) / oseltamivir (oral)** — neuraminidase inhibitors, active vs A and B; **70–90%** effective for prophylaxis; must be given within **48 hours** of symptom onset for treatment benefit; oseltamivir needs renal dosing; zanamivir may worsen or provoke respiratory distress in underlying obstructive disease (p1736).
 - **Peramivir (IV)** — FDA-approved **2015**, IV-only formulation (p1736).
 - **Baloxavir marboxil (oral)** — polymerase inhibitor, approved **2018**; also 48-hour window; resistance emerges quickly, limiting use (p1736).
 
@@ -36,19 +36,19 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 ### RSV
 - Reinfection is common throughout life; natural infection doesn't confer robust immunity, which has made vaccine development difficult (p1736) — there are still **no licensed RSV vaccines** (p1737).
 - Incubation **3–5 days**. Infants shed higher titers (**10⁵⁻⁶** pfu/mL) for longer (**10–14 days**) than adults (**10²⁻³** pfu/mL, **3–6 days**) (p1737).
-- Rochester community cohort (1999–2003), 608 adults 65+: RSV in **8%** (healthy) vs **10%** (high-risk, i.e., CHF/COPD); **16%** of high-risk cases were hospitalized; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
+- Rochester community cohort (1999–2003) of 608 healthy adults 65+: RSV in **8%** (46/608) vs **10%** (56) of a separate high-risk group (CHF or chronic pulmonary disease); **16%** of the high-risk group required hospitalization; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
 - Nursing-home outbreak attack rates range **2–90%**; one careful Rochester study found **7%** attack rate, RSV causing **27%** of illness (p1737).
 - Tennessee LTC cohort (88,581 person-years): RSV caused **15 hospitalizations and 17 deaths per 1,000 residents** (p1737).
-- Viral culture is only **50%** sensitive for RSV; RT-PCR is the reliable test (p1737).
+- Viral culture is only **50%** sensitive for RSV; RT-PCR is relatively sensitive and specific (p1737).
 - Only licensed antiviral is **ribavirin** (aerosolized, teratogenic, sparse adult data) — otherwise supportive care only (p1737).
 
 ### SARS-CoV-2 / COVID-19
 - Three novel coronaviruses crossed to humans in two decades: **SARS-CoV (2002)**, **MERS-CoV (2012)**, **SARS-CoV-2 (2019)** (p1737).
 - SARS-CoV-2 binds the **ACE2** receptor and, unlike SARS-CoV/MERS (lower respiratory tract), replicates heavily in the **upper** respiratory tract — a key driver of transmissibility (p1738).
-- Presymptomatic/asymptomatic spread accounts for up to **79%** of documented transmission (p1738).
+- Asymptomatic/presymptomatic transmission was estimated in one study to account for up to **79%** of documented cases (p1738).
 - Incubation ~**5 days** (symptoms in most by **12 days**); **older adults ~7 days** (longer) (p1738).
 - **40%** of patients (mean age 81 in one study) presented **atypically** — falls, weakness, delirium — rather than classic fever/cough/dyspnea (p1738).
-- Up to **80%** of US COVID-19 deaths have occurred in adults **65+** (p1738).
+- Up to **80%** of SARS-CoV-2 deaths have occurred in adults **65+** (p1738).
 - Clinical Frailty Scale predicted **7-day mortality** better than age or comorbidity alone in hospitalized patients (p1739).
 - LTC facilities accounted for **>25% of deaths** despite only **2%** of confirmed cases (as of Nov 2020) (p1739).
 - Pre-pandemic data: social isolation, loneliness, and living alone raised mortality risk by **29%, 26%, and 32%** respectively — comparable to smoking/inactivity (p1739).
@@ -72,7 +72,7 @@ About 36,000/year; only types A and B are clinically relevant (type C is not) (p
 
 <details><summary>Answer</summary>
 
-Drift = small annual point mutations in hemagglutinin (why the vaccine needs yearly reformulation). Shift = recombination of whole RNA segments (the virus has 8) with an animal-origin strain, creating a novel genotype with little/no preexisting immunity — this is the pandemic-risk mechanism (p1733).
+Drift = annual mutations causing small changes in hemagglutinin (why the vaccine needs yearly reformulation). Shift = recombination of whole RNA segments (the virus has 8) with an animal-origin strain, creating a novel genotype with little/no preexisting immunity — this is the pandemic-risk mechanism (p1733).
 
 </details>
 
@@ -144,7 +144,7 @@ Infants shed higher titers (10⁵⁻⁶ pfu/mL) for longer (10–14 days); adult
 
 <details><summary>Answer</summary>
 
-10% (56/608 total participants were high-risk with RSV, vs 8%/46 in the healthy group); 16% of the high-risk RSV cases required hospitalization (p1737).
+10% (56 high-risk participants, a group separate from the 608 healthy participants, of whom 46 [8%] developed RSV); 16% of the high-risk group required hospitalization (p1737).
 
 </details>
 
@@ -160,7 +160,7 @@ Ribavirin — it is aerosolized (hard to deliver via face mask to older adults),
 
 <details><summary>Answer</summary>
 
-The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread, estimated to account for up to 79% of documented transmission (p1738).
+The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread, estimated in one study to account for up to 79% of documented cases (p1738).
 
 </details>
 

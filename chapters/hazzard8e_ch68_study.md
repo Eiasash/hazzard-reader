@@ -5,15 +5,15 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 ## Summary
 
 **Definitions & classification**
-- Acute pain: sudden onset, tied to a noxious stimulus, resolves with tissue healing in **≤3 months** (p1055)
+- Acute pain: sudden onset, tied to a noxious stimulus, short duration of tissue healing (approximately **≤3 months**) (p1055)
 - Chronic (persistent) pain: persists or recurs for **>3 months** (p1055)
 - High-impact chronic pain: limits life/work activities most or every day for the past **6 months**; **8%** of US adults (**20 million**) had it in 2016 (p1055)
 - IASP/ICD-11 (2019) chronic pain classes: "chronic primary pain" (disease in its own right, eg fibromyalgia, nonspecific low back pain) vs six "chronic secondary" categories (musculoskeletal, neuropathic, headache/orofacial, visceral, cancer-related, postsurgical/posttraumatic) (p1055)
-- Nociceptive pain (tissue injury/inflammation/mechanical) usually responds well to analgesics; neuropathic pain (lesion/disease of the somatosensory system) affects **7% to 10%** of the population and is harder to treat in older adults (p1056)
+- Nociceptive pain (tissue injury/inflammation/mechanical) usually responds well to analgesics; neuropathic pain (lesion/disease of the somatosensory system) affects **7% to 10%** of the population and is often persistent and difficult to treat in older adults (p1056–1057)
 
 **Epidemiology & pathophysiology**
 - Chronic pain prevalence in older adults: **25% to 75%** (higher in residential care); **60% to 70%** report multisite pain, **>60%** report multiple pain types (p1055)
-- Chronic pain prevalence by age band: **11%** (65–84 yr) vs **16%** (≥85 yr) (p1056)
+- High-impact chronic pain prevalence by age band (2016): **11%** (65–84 yr) vs **16%** (≥85 yr) (p1055–1056)
 - Peripheral sensitization → hyperalgesia and spread of pain; central sensitization → allodynia (nonpainful stimuli now activate pain pathways) (p1056)
 - Age-related pain perception: ↓ sensitivity to low-intensity and heat pain; no strong age effect on pain tolerance — changes are subtle and of uncertain clinical relevance (p1057)
 - Biopsychosocial model (Fig 68-1): bio (age, sex, comorbidity, fatigue, sleep, health behaviors) + psych (depression, anxiety, catastrophizing, fear avoidance) + social (race/ethnicity, SES, ageism, isolation) → outcomes (physical/cognitive function, QOL) (p1057–1058)
@@ -40,17 +40,17 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7, verified against the page image)
 - Table 68-7 singles out indomethacin and ketorolac as Beers 2019 "avoid" outright (high risk of GI toxicity and acute kidney injury) — a stronger caution than the general "avoid long-term use" that applies to ibuprofen, naproxen, meloxicam, diclofenac, and nabumetone (Table 68-7, p1063)
 - SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags both SNRIs and TCAs (amitriptyline, nortriptyline) as "avoid" with a history of falls/fractures, and TCAs additionally for anticholinergic burden (Table 68-8, p1063)
-- Gabapentinoids/sodium channel blockers (carbamazepine, oxcarbazepine) for neuropathic pain; screen for **HLA-B\*1502** and **HLA-A\*3101** (more common in South Asian ancestry) before carbamazepine — risk of Stevens–Johnson syndrome; carbamazepine is a potent CYP450 inducer (interacts with warfarin, lithium) (p1065)
+- Gabapentinoids/sodium channel blockers (carbamazepine, oxcarbazepine) for neuropathic pain; genotype screening may be indicated for **HLA-B\*1502** and **HLA-A\*3101** (most common in South Asian ancestry) — carriers are at risk of severe skin reactions such as Stevens–Johnson syndrome; carbamazepine is a potent CYP450 inducer (interacts with warfarin, lithium) (p1065)
 - Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use (combined CNS depression); carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
 - Benzodiazepines (eg clonazepam) for neuropathic pain: daily use **>30 days** risks physiologic dependence — taper, don't stop abruptly; tracked as lorazepam milligram equivalents (LMEs) in PDMPs (p1065)
 
 **Interventional & nonpharmacologic treatment**
-- Lumbar epidural steroid injection (ESI): short-term relief (weeks to months); avoid with coagulopathy, active anticoagulation, infection, or immunosuppression (p1065–1066)
-- Facet-mediated and sacroiliac joint pain: diagnostic medial-branch/lateral-branch nerve blocks; **≥80%** pain reduction on diagnostic block → proceed to radiofrequency denervation for longer relief (p1066)
+- Lumbar epidural steroid injection (ESI): short-term relief (weeks to months); contraindications include coagulopathy, current anticoagulation, infection, uncontrolled diabetes, and immunosuppression (p1065)
+- Facet-mediated and sacroiliac joint pain: diagnostic medial-branch/lateral-branch nerve blocks; **80%** pain reduction/relief after the diagnostic block → proceed to radiofrequency denervation for longer relief (p1066)
 - Vertebral compression fractures (VCF): **25%** of postmenopausal women in the US affected; **40–50%** of adults **>80 yr** have had one; **5×** risk of a second VCF after the first; only **~25%** result from falls (most from routine bending/lifting); most common at **T12–L3**; vertebroplasty/kyphoplasty contraindicated if vertebral height loss **>66%** (p1066)
-- Osteoarthritis (OA): **60%** of adults **≥65 yr** have arthritis/chronic joint pain (p1066); intra-articular steroid (**40–80 mg** depot preparation, verified against the page image) gives <3-month benefit; hyaluronic acid typically **1–5** injections; platelet-rich plasma (PRP) shows efficacy up to **12 months** in some studies (p1067)
+- Osteoarthritis (OA): **60%** of adults **≥65 yr** have arthritis/chronic joint pain (p1066); intra-articular steroid (**40–80 mg** depot preparation, verified against the page image) is more effective than placebo in the short term (**<3 months**), long-term benefit not well established; hyaluronic acid typically **1–5** injections; platelet-rich plasma (PRP) shows efficacy up to **12 months** in some studies (p1067)
 - **Book claim to flag**: the chapter states knee OA prevalence is "two times higher in men than women" (p1067) — worth double-checking against other sources before quoting, since knee OA is more commonly described as female-predominant elsewhere
-- Nonpharmacologic: physical therapy (including aquatic-based for low-impact patients), CBT/ACT/biofeedback, mindfulness-based stress reduction, and complementary therapies (acupuncture, massage) all have a role, especially in patients who can't tolerate medications or procedures (p1068)
+- Nonpharmacologic: physical therapy (including low-impact aquatic-based therapy/exercise for patients with chronic pain and stiffness), CBT/ACT/biofeedback, mindfulness-based stress reduction, and complementary therapies (acupuncture, massage) all have a role, especially in patients who can't tolerate medications or procedures (p1068)
 
 ## Drill
 
@@ -110,7 +110,7 @@ Patients with opioid-induced hyperalgesia show *increased* pain with *increased*
 
 </details>
 
-**8. What is the maximum total daily dose of acetaminophen, and what is the reduced maximum in hepatic impairment or heavy alcohol use?**
+**8. What is the maximum total daily dose of acetaminophen, and what is the reduced maximum in hepatic impairment or a history of alcohol use?**
 
 <details><summary>Answer</summary>
 
@@ -138,7 +138,7 @@ More than 30 days of daily use; the drug should be gradually tapered rather than
 
 <details><summary>Answer</summary>
 
-About 80% (≥80%) pain reduction after the diagnostic medial-branch (facet) or lateral-branch (SIJ) nerve block (p1066).
+An 80% reduction in pain (80% relief) after the diagnostic medial-branch (facet) or lateral-branch (SIJ) nerve block (p1066).
 
 </details>
 
