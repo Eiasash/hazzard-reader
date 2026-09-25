@@ -5,7 +5,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 ## Summary
 
 **Epidemiology & burden**
-- **≥240 million** worldwide have symptomatic OA; **≥32 million** in the US. OA is the **3rd leading cause of years lived with disability** in the US and the most common cause of mobility limitation in older adults (p779).
+- **~240 million** worldwide have symptomatic OA; **≥32 million** in the US. OA is the **3rd leading cause of years lived with disability** in the US and the most common cause of mobility limitation in older adults (p779).
 - **1 in 2** lifetime risk of developing symptomatic knee OA (p779).
 - Hip or knee OA carries **20% excess mortality** vs those without it (p779).
 - Radiographic OA (adults >60): hand **20%–40%**, knee **30%–40%**. Symptomatic OA: hand **13%–26%**, knee **10%–14%**, hip (≥45) **~10%**, foot (>50) **17%** — disabling in **9.5%** (p779).
@@ -29,11 +29,11 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 - Heat and cold (cryotherapy): each limited to **20-minute** intervals (p787).
 
 **Pharmacologic management**
-- Topical NSAIDs are first-line, *before* oral NSAIDs, for hand/knee/foot OA; not effective for hip OA (joint too deep) (p787–788).
-- Topical capsaicin: **0.03%** is better tolerated than **0.08%**; not effective for hip OA (p787).
-- Acetaminophen: FDA-reduced maximum dose **3 g/day** (p788).
+- Topical NSAIDs are first-line, *before* oral NSAIDs, for hand/knee/foot OA; not recommended for hip OA (joint depth precludes efficacy) (p787).
+- Topical capsaicin: **0.03%** is better tolerated than **0.08%**; no demonstrated benefit in hip OA (p787).
+- Acetaminophen: FDA-reduced maximum dose **3 g/day** (p787).
 - Avoid NSAIDs if **CKD stage IV or V** (eGFR **<30 cc/min**) (p788).
-- ACR/AF and OARSI recommend **against**: glucosamine and chondroitin sulfate; TNF inhibitors and IL-1 receptor antagonists; bisphosphonates — none show proven efficacy for OA (p788).
+- ACR/AF and OARSI recommend **against** glucosamine or chondroitin sulfate for knee/hip OA (p788). Bisphosphonates showed no efficacy for pain or function, and TNF inhibitors/IL-1 receptor antagonists were not efficacious for erosive OA and are not recommended (p788); the ACR/AF figure lists all three as strongly recommended against (Figure 52-5, p786).
 - Intra-articular glucocorticoid: pain relief up to **2 months**; no more than **3 injections per 6-month period** (p789).
 - Viscosupplementation (IA hyaluronic acid) and platelet-rich plasma/mesenchymal stem cell therapy: not recommended by ACR/AF/OARSI, and PRP/MSC are still experimental and not FDA-approved (p789).
 
@@ -45,7 +45,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 
 ## Drill
 
-**1. What fraction of the US population has symptomatic OA, and what is its rank among causes of disability?**
+**1. How many people in the US have symptomatic OA, and what is its rank among causes of disability?**
 
 <details><summary>Answer</summary>
 
@@ -81,7 +81,7 @@ At least 32 million people (out of ~240 million worldwide with symptomatic OA); 
 
 <details><summary>Answer</summary>
 
-Age >50 years, <30 minutes of morning stiffness, crepitus, bony enlargement/tenderness on exam, normal inflammatory labs and OA-consistent synovial fluid, and radiographic osteophytes (p781).
+Age >50 years, <30 minutes of morning stiffness, crepitus, bony enlargement/tenderness on exam, normal inflammatory labs, OA-consistent synovial fluid and negative rheumatoid factor, and radiographic osteophytes (p781).
 
 </details>
 
@@ -129,7 +129,7 @@ More than 5% weight loss achieved within a 20-week period (p786).
 
 <details><summary>Answer</summary>
 
-Glucosamine and chondroitin sulfate, TNF inhibitors, IL-1 receptor antagonists, and bisphosphonates — none has shown proven efficacy for OA pain or disease-modifying benefit (p788).
+Glucosamine and chondroitin sulfate (no more effective than placebo in the lowest-bias data), TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).
 
 </details>
 
@@ -137,7 +137,7 @@ Glucosamine and chondroitin sulfate, TNF inhibitors, IL-1 receptor antagonists, 
 
 <details><summary>Answer</summary>
 
-Because the hip joint lies too deep under the skin for topical agents to be effective (p787–788).
+Because the hip joint lies too deep under the skin for topical agents to be effective (p787).
 
 </details>
 

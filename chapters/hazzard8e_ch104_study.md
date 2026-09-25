@@ -6,10 +6,10 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 **Why older adults get infected more, and present differently**
 - Comorbidity is the single most important infection risk factor with age; innate immunity (skin/mucociliary barriers, PMN migration/killing) slows, and adaptive immunity loses naive T-cell diversity — collectively "immune senescence" (p1667–1668)
-- Vaccine response decline starts as early as the **third/fourth decade**, but the steepest DALY-loss inflection from vaccine-preventable illness is around **age 70** (p1668)
+- Vaccine response decline starts as early as the **third/fourth decade**, but disability-adjusted life-years lost to vaccine-preventable illness show a major inflection point at about **age 70** (p1668)
 - Protein-energy malnutrition (PEM) affects **30–60%** of hospitalized adults >65; even mild PEM (**albumin 3.0–3.5 g/dL**) blunts vaccine response (p1668)
 - Fever is **absent in up to one-third** of older adults with serious infection — lower baseline temperature plus a blunted febrile response means many never reach the fever threshold of **≥100.4°F/38°C** (p1669)
-- Culture stewardship: **never** culture skin-surface swabs or catheterized urine in the absence of symptoms — colonization there is near-universal and the result misleads rather than helps (KCP #3, p1667; reinforced p1671)
+- Culture stewardship: almost universally, do **NOT** culture skin-surface swabs or urine in the presence of a long-term indwelling catheter — such cultures will always be positive but don't correlate with infection, are more often misleading than helpful, and should NOT guide antibiotic selection (KCP #3, p1668; reinforced p1671)
 
 **Antibiotic dosing and stewardship principles**
 - "Start low, go slow" does **NOT** apply to antibiotic dosing — full initial (even loading) doses are critical, with later doses adjusted for renal/hepatic function (KCP #2, p1667; detail p1670)
@@ -21,31 +21,31 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Early (30-day) sepsis mortality is **50% higher** in adults >65 than in younger adults (p1671)
 - Sepsis survivors >65: moderate-severe cognitive impairment rises from **6%** (prehospitalization baseline) to nearly **17%** after hospitalization; about **40%** need long-term care placement afterward vs only **15%** of survivors <65 (p1671)
 - Infective endocarditis in older adults: fever **55%** and leukocytosis **25%** (vs **80%/60%** in younger adults) — a much blunter presentation; TEE improves diagnostic yield **45%** over TTE (p1671)
-- Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections more often follow occult bacteremia from GI/GU sources (p1671–1672)
-- PJ (prosthetic joint) antibiotic prophylaxis for dental/GI/GU procedures is only "considered" by the ADA, and only for **"high risk"** PJs — placed within **2 years**, or in immunosuppressed patients, or with prior joint infection (p1675)
-- Age alone should **never** be the reason to withhold curative therapy for device infection — expected function and life expectancy should drive the decision (KCP #4, p1667; detail p1674)
+- Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections are more likely due to asymptomatic bacteremia seeding the implant, with a wider array of organisms including GI/GU sources — but staphylococci still predominate (p1671, p1674)
+- Evidence for prophylaxis in PJ (prosthetic joint) patients is even weaker than for prosthetic valves; despite this, the ADA recommends "considering" antibiotic prophylaxis for PJs at **"high risk"** — placed within **2 years**, or in immunosuppressed patients (including diabetes, rheumatoid arthritis, malnourishment), or with prior joint infection (p1674–1675)
+- Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1668; detail p1674)
 - Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
 **GI infections and *C difficile***
 - Asymptomatic *C difficile* carriage: **2%** community, **10%** community with outpatient healthcare exposure, **20–50%** hospital/long-term care (p1675)
 - About **15%** of asymptomatic carriers develop symptomatic CDI after receiving antibiotics (p1675)
 - Fecal microbiota transplantation (FMT) for refractory relapse: **80–90%** success (p1675)
-- Treatment is tiered: vancomycin first-line; fidaxomicin equivalent for cure and lowers relapse but costlier (limits first-line use); metronidazole no longer first-line except IV-added to vancomycin in severe disease/ileus/toxic megacolon; vancomycin prophylaxis in patients with recent CDI needing further antibiotics cuts recurrence from **26% to 4%** (p1672–1673, Table 104-1)
+- Treatment is tiered: vancomycin first-line; fidaxomicin equivalent for cure and lowers relapse but costlier (limits first-line use); metronidazole no longer first-line except IV-added to vancomycin in severe disease/ileus/toxic megacolon; vancomycin prophylaxis in patients with recent CDI needing further antibiotics reduces risk to **4% from 26%** (p1672–1673, Table 104-1)
 
 **Tuberculosis**
 - Older adults present atypically — more nonspecific dizziness/pain/"dullness" than classic fever/night sweats/hemoptysis; more widespread (vs isolated upper-lobe) infiltrates (p1675)
-- TST sensitivity for latent infection declines with age (~**70%**) vs IFGRA (~**75%**), and IFGRA needs only one blood draw — it is now the preferred test (p1675)
+- TST sensitivity for latent infection declines with age; IFGRA is only minimally more sensitive (~**70%** TST vs ~**75%** IFGRA), but needs only one blood draw — most latent TB testing is now done by IFGRA (p1675)
 
 **Fever of unknown origin (FUO)**
 - Classic definition: temperature **>101°F (38.3°C)** for **≥3 weeks**, undiagnosed after **1 week** of evaluation (p1675)
 - A cause is found in **~90%** of cases; about **one-third** are treatable infections (intraabdominal abscess, endocarditis, TB, occult osteomyelitis) (p1675)
-- Autoimmune disease causes nearly **one in four** FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by **GCA** and polyarteritis nodosa; GCA alone accounts for nearly **one in six** FUOs ≥60 (KCP #5, p1667; detail p1675)
+- Autoimmune disease causes nearly **one in four** FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by **GCA** and polyarteritis nodosa; GCA alone accounts for nearly **one in six** FUOs ≥60 (KCP #5, p1668; detail p1675)
 - **Table 104-2** breakdown of FUO causes: infections **35%**, inflammatory disorders **28%** (temporal arteritis/PMR **19%**, polyarteritis nodosa **6%**), malignancy **19%**, no diagnosis **13%** (p1675)
-- 18F-FDG-PET/CT detects cranial-artery uptake in **64–82%** of GCA patients with high specificity, and may let clinicians avoid temporal artery biopsy when uptake is absent — but corticosteroids for more than a few days blunt its sensitivity (p1676)
+- Several small studies estimate 18F-FDG uptake in the temporal, maxillary, or vertebral arteries occurs in **64–82%** of GCA patients, with very high specificity; some authors conclude temporal artery biopsy may be avoided when cranial-artery uptake is absent — corticosteroids for more than a few days can markedly reduce the sensitivity of both PET/CT and biopsy (p1676)
 
 **Vaccines and travel**
-- Three vaccine strategies now overcome immune senescence with markedly better efficacy even in frail elders: **high-dose influenza**, **adjuvanted recombinant zoster**, and **mRNA SARS-CoV-2** vaccines (KCP #6, p1667; detail p1676)
-- "Cocooning" (vaccinating caregivers/family/staff) protects unvaccinated or poorly-responding older adults (p1676)
+- Three recently approved vaccines provide higher protection rates than earlier, standard vaccines, even in frail older adults: **high-dose influenza**, **adjuvanted recombinant zoster**, and **mRNA SARS-CoV-2** vaccines (KCP #6, p1668; detail p1676)
+- "Cocooning" older adults from exposure by immunizing family, caregivers, and staff is another strategy to address immune senescence (eg, nursing home staff immunization; childhood conjugate pneumococcal vaccines reduce pneumonia risk in older adults) (p1676)
 - Older travelers are **6×** more likely than young adults to have a serious adverse event from **yellow fever** vaccine; travelers' diarrhea affects **25–50%** of visitors to developing countries (p1676)
 
 ## Drill
@@ -70,7 +70,7 @@ Up to one-third; fever is still defined as ≥100.4°F/38°C, but lower baseline
 
 <details><summary>Answer</summary>
 
-Skin-surface wound swabs and urine cultures in the presence of a long-term indwelling catheter — colonization is near-universal there, cultures are almost always positive, and the result is more often misleading than helpful (p1667, p1671).
+Skin-surface swabs (eg, pressure ulcers) and urine cultures in the presence of a long-term indwelling catheter — such cultures will always be positive but do not correlate with infection; they are more often misleading than helpful and should NOT guide antibiotic selection (p1668, p1671).
 
 </details>
 
@@ -102,7 +102,7 @@ Older adults: fever 55%, leukocytosis 25% (vs 80%/60% in younger adults) — a b
 
 <details><summary>Answer</summary>
 
-Early: skin flora — coagulase-negative staphylococci, S aureus, diphtheroids. Late: more often from occult bacteremia with GI/GU organisms, though skin organisms still predominate overall (p1671–1672).
+Early: skin flora — coagulase-negative staphylococci, S aureus, diphtheroids. Late: more likely asymptomatic bacteremia seeding the implant, so a wider array of organisms including GI/GU sources, though skin organisms (staphylococci) still predominate (p1671, p1674).
 
 </details>
 
@@ -110,7 +110,7 @@ Early: skin flora — coagulase-negative staphylococci, S aureus, diphtheroids. 
 
 <details><summary>Answer</summary>
 
-PJ placed within 2 years, immunosuppressed patients (diabetes, rheumatoid arthritis, malnourishment), or a history of prior joint infection (p1675).
+PJ placed within 2 years, immunosuppressed patients (diabetes, rheumatoid arthritis, malnourishment), or a history of prior joint infection (p1674–1675).
 
 </details>
 
@@ -130,11 +130,11 @@ About 15% develop symptomatic CDI; FMT success rate is 80–90% (p1675).
 
 </details>
 
-**11. Compare TST and IFGRA sensitivity for latent TB in older adults, and state which is now preferred and why.**
+**11. Compare TST and IFGRA sensitivity for latent TB in older adults, and state which is now used for most latent TB testing and why.**
 
 <details><summary>Answer</summary>
 
-TST ~70% vs IFGRA ~75%; IFGRA is now preferred because it needs only a single blood draw (no return visit), doesn't need two-step testing in nursing home residents, and has better interrater reliability/specificity (p1675).
+TST ~70% vs IFGRA ~75% (IFGRA only minimally more sensitive); most latent TB testing is now done by IFGRA because it needs only a single blood draw (no return visit), doesn't need two-step testing in nursing home residents, and has greater interrater reliability and specificity (p1675).
 
 </details>
 
@@ -162,10 +162,10 @@ Infections 35%, inflammatory disorders 28%, malignancy 19%, no diagnosis 13% (p1
 
 </details>
 
-**15. Which three vaccine strategies are named as overcoming immune senescence with markedly higher efficacy, even in frail older adults?**
+**15. Which three recently approved vaccines provide higher protection rates than earlier, standard vaccines, even in frail older adults?**
 
 <details><summary>Answer</summary>
 
-High-dose influenza vaccine, adjuvanted recombinant zoster vaccine, and mRNA-based SARS-CoV-2 vaccines (p1667, p1676).
+High-dose influenza vaccine, adjuvanted recombinant zoster vaccine, and mRNA-based SARS-CoV-2 vaccines (p1668, p1676).
 
 </details>

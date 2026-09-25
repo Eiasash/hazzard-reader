@@ -8,12 +8,12 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 - AD = most common neurodegenerative disorder / cause of dementia in older adults.
 - **>6 million Americans**, **>44 million worldwide** have AD or a related dementia (p894).
 - Prevalence rises steeply with age: **~3% (65–74y), 17% (75–84y), 32% (85y+)** (p894).
-- **Late-onset (sporadic) AD = >95%** of all AD cases; familial (young-onset, <65y) AD = **1–5%** (p894, p897).
+- **Late-onset (sporadic) AD = >95%** of all AD cases (p894); familial (younger-onset, <65y) AD = **1–5%** (p897).
 - Median survival from diagnosis to death: **7–10 years** (p901).
 - AD accounts for **50–90%** of all dementia cases overall (p907).
 
 **Genetics & risk factors**
-- Familial AD genes: *APP*, *PSEN1*, *PSEN2*. **PSEN1 mutations = 78%** of familial AD cases (most common); onset typically **late 40s–early 50s** (p897).
+- Familial AD genes: *APP*, *PSEN1*, *PSEN2*. **PSEN1 = 78%** of familial AD mutations (most common) (p897); familial AD onset typically **late 40s–early 50s** (p898).
 - *APOE* ε4: **one copy → 4× risk, two copies → 12× risk** of AD (p895). Framingham: **55%** of ε4 homozygotes vs **27%** heterozygotes vs **9%** noncarriers developed AD by age 85 (p895). ε2 allele is protective.
 - Vascular risk factors (high midlife cholesterol/BP, diabetes, metabolic syndrome, obesity, inactivity) all raise AD risk. Midlife obesity RR **1.60** (95% CI 1.34–1.92); midlife physical inactivity RR **1.82** (95% CI 1.19–2.78) (p896).
 - **~1/3 of AD cases worldwide** are attributable to potentially modifiable risk factors (p896).
@@ -35,14 +35,14 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 **Evaluation**
 - NIA-AA core clinical criteria (Tables 59-1/59-2) require decline from baseline + functional impact, informant + patient history, cognitive testing, and exclusion of delirium/other causes.
 - Reversible-cause workup: meds (anticholinergic/sedating), depression, hearing loss, OSA, alcohol, vascular disease, delirium.
-- Labs: B12, folate, TSH, CBC, electrolytes, LFTs, 25-OH vitamin D; HIV/syphilis if atypical; thiamine if heavy alcohol use (p906–907).
-- Neuroimaging (CT or preferably MRI) recommended for all patients with documented cognitive impairment (p907).
+- Labs: B12, folate, TSH, CBC, electrolytes, LFTs, 25-OH vitamin D; HIV/syphilis if atypical; thiamine if heavy alcohol use (p906).
+- Brain CT or MRI recommended in patients with documented cognitive impairment (p906).
 - **MCI prevalence ~15–20%** of older adults; progresses to dementia at **~12–15%/year** (p907).
 
 **Drugs**
-- **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — titration is drug-specific, not a shared "every 2 months": donepezil **q4–6wk** (the 10→23 mg step needs **3 months** on 10 mg first), galantamine **q≥4wk**, rivastigmine **q2wk** oral or **q4–6wk** patch (Table 59-7, p912); **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
+- **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil **4–6 wk** before 5→10 mg (the 10→23 mg step after **3 months** on 10 mg) (p912), galantamine **≥4 wk** per step (p912), rivastigmine **≥2 wk** per oral step or **4–6 wk** for the patch (p913); **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
 - **Memantine (Namenda)** — NMDA-receptor antagonist, approved for **moderate-to-severe AD**; combo with an AChEI is not superior to either drug alone (p911).
-- **Aducanumab** — FDA accelerated approval **June 2021**; anti-amyloid monoclonal antibody, **FDA-labeled only for MCI due to AD and mild AD** (not moderate-to-severe AD) (Table 59-7, p914). One trial: **22%** reduced cognitive decline (CDR-SB) over **18 months**; the other trial showed no benefit. ARIA-E/ARIA-H in **34–36%** of high-dose patients, **~80%** of those asymptomatic (p911).
+- **Aducanumab** — FDA accelerated approval **June 2021** (p911); anti-amyloid monoclonal antibody, **FDA-labeled only for MCI due to AD and mild AD** (not moderate-to-severe AD) (Table 59-7, p914). One trial: **22%** reduced cognitive decline (CDR-SB) over **18 months**; no statistically significant benefit in the other trial. ARIA-E/ARIA-H in **34–36%** of high-dose patients, **~80%** of those asymptomatic (p911).
 
 **Prevention, safety, and end-of-life**
 - **SPRINT-MIND**: SBP goal **120 mmHg** (vs 140) → **19%** reduction in incident MCI (p915).

@@ -6,15 +6,15 @@ Study summary of Chapter 88; the book and the full chapter are the reference.
 
 ### Epidemiology & Aging–Cancer Biology
 - Cancer is the 2nd leading cause of death after heart disease in the US; **>60%** of newly diagnosed malignant tumors and **70%** of all cancer deaths occur in persons **65+** (p1381).
-- Aging and neoplasia share the same underlying biological mechanisms (Hallmarks of Cancer / Hallmarks of Aging) but push in opposite directions: aging → reduced proliferation/senescence; neoplasia → accumulated damage → increased proliferation — "opposite sides of the same coin" (p1383).
+- Aging and neoplasia share the same underlying biological mechanisms (Hallmarks of Cancer / Hallmarks of Aging) but push in opposite directions: aging → reduced proliferation/senescence; neoplasia → accumulated damage → increased proliferation — "opposite sides of the same coin" (p1382).
 - Telomere shortening begins at age **30** and proceeds at ~**1%/year** loss; loss of telomere function → genetic instability → oncogenic mutation risk (p1383).
 - Time from a mutated cell to a clinically detectable tumor ≈ **10–30%** of a species' maximum lifespan (p1383).
-- 7 proposed mechanisms for rising cancer risk with age: longer carcinogen exposure duration, altered carcinogen susceptibility, decreased DNA repair, oncogene activation/tumor-suppressor loss, telomere shortening, cellular senescence/SASP-driven microenvironment change, decreased immune surveillance (p1381–1384).
+- 7 proposed mechanisms for rising cancer risk with age: longer carcinogen exposure duration, altered carcinogen susceptibility, decreased DNA repair, oncogene activation/tumor-suppressor loss, telomere shortening, cellular senescence/SASP-driven microenvironment change, decreased immune surveillance (p1383–1384).
 
 ### Screening & Presentation
 - Older adults are simultaneously **underscreened** (racial/ethnic minorities, <high-school education, below poverty line) and **overscreened** (routine screening continues even with <5-year life expectancy or severe nursing-home disability, risking net harm from work-up) (p1384).
 - New Mexico study of **800** patients 65+: only **29%** were asymptomatic at diagnosis; **48%** presented within 2 months of symptom onset, but **19%** delayed ≥12 weeks and **7.4%** delayed ≥1 year (p1385).
-- Biological behavior varies by tumor type and is not uniformly "more indolent" with age: **malignant melanoma** presents with more advanced, deeper local disease in older patients; **lung cancer** presents with *more* localized disease in older patients; breast cancer in older women is more often ER-positive with longer doubling time (generally better-prognosis biology) — yet overall cancer-specific survival is still *lower* in older women (p1385–1386).
+- Biological behavior varies by tumor type and is not uniformly "more indolent" with age: **malignant melanoma** presents with more advanced, deeper local disease in older patients; **lung cancer** presents with *more* localized disease in older patients; breast cancer in older women is more often ER-positive with longer doubling time (generally better-prognosis biology) — yet overall cancer-related survival is still *lower* in older women (p1385).
 - AML has a distinctly worse prognosis in older adults: poor-prognosis karyotypes (5q-, 7q-), antecedent MDS, chemo-resistance pathways, and lower apoptosis of leukemic blasts after ara-C/daunorubicin (p1385–1386).
 
 ### CGA & Chemotherapy-Toxicity Risk Tools
@@ -28,15 +28,15 @@ Study summary of Chapter 88; the book and the full chapter are the reference.
 
 ### Treatment Modalities
 - **Surgery**: healing is compromised at every phase (↓inflammatory/proliferative response, altered collagen); geriatric comanagement improves 90-day postoperative mortality (p1388–1389).
-- **Radiation**: normal-tissue radiation effects are enhanced by **10–15%** in older patients; hypofractionated whole-breast RT is safe in older breast cancer; SBRT is an option when comorbidities preclude surgery for early NSCLC/pancreatic cancer; intermediate-risk prostate cancer may use **4–6 months** hormonal therapy + EBRT (p1389–1390).
-- **Chemotherapy**: dose by creatinine clearance, not creatinine alone (↓lean body mass distorts creatinine); watch H2 blockers/antacids/PPIs with oral agents; more common/severe in older adults — neurotoxicity (taxanes, platinum, vincristine, high-dose cytarabine, bortezomib), cardiotoxicity (doxorubicin), mucositis (5-FU) (p1390).
+- **Radiation**: normal-tissue radiation effects are enhanced by **10–15%** in older patients; hypofractionated whole-breast RT is safe in older breast cancer; SBRT is an option when comorbidities preclude surgery for early NSCLC/pancreatic cancer; intermediate-risk prostate cancer may use **4–6 months** hormonal therapy + EBRT (p1389).
+- **Chemotherapy**: dose by creatinine clearance, not merely creatinine (↓lean body mass in older adults); watch H2 blockers/antacids/PPIs with oral agents; more common/severe in older adults — neurotoxicity (taxanes, platinum, vincristine, high-dose cytarabine, bortezomib), cardiotoxicity (doxorubicin), mucositis (5-FU) (p1390).
 - **Hormonal therapy**: **70–80%** of breast tumors in older patients are ER-positive. Tamoxifen ↑ thromboembolism/CVA risk — caution with venous insufficiency, HTN, AF. Aromatase inhibitors ↑ osteoporosis/fracture risk. Bone-directed therapy threshold: T-score **< −2.0 SD** alone, OR **< −1.5 SD** with one additional risk factor, OR two or more risk factors (without BMD) (p1390).
 - **Targeted therapy**: mostly oral, CYP450-metabolized — high drug-interaction risk with polypharmacy; higher rate of dose reduction/discontinuation in older vs younger patients (p1390).
-- **Immunotherapy (ICIs)**: equivalent incidence of high-grade irAEs in older vs younger adults, but *worse overall survival* among older adults who develop high-grade irAEs — likely because steroids/hospitalization for irAE treatment are less well tolerated (p1390–1391).
+- **Immunotherapy (ICIs)**: equivalent incidence of high-grade irAEs in older vs younger adults, but *worse overall survival* among older adults who develop high-grade irAEs — likely because steroids/hospitalization for irAE treatment are less well tolerated (p1391).
 - **HSCT**: historically allogeneic SCT limited to age **<50**; autologous SCT now performed in fit patients **>70**. Delirium occurs in up to **50%** of allogeneic HSCT recipients (p1391).
 
 ### Supportive & Palliative Care
-- Routine symptom assessment/intervention can improve overall survival by up to **5 months** with no change in cancer-directed treatment (p1391).
+- Routine symptom assessment/intervention can improve overall survival upwards of **5 months** with no change in cancer-directed treatment (p1391).
 - **Pain**: present in **50–90%** of advanced disease, **60–70%** of patients on active treatment; HELP study — one in three patients died in severe pain (p1392).
 - **Fatigue**: prevalence **40–90%** during treatment, **19–80%** after treatment completion; exercise is one of the most effective treatments despite being counter-intuitive (p1392).
 - **Depression**: prevalence **17–25%** among cancer patients; SSRIs first-line, mirtazapine useful for mood/appetite/sleep, nortriptyline/desipramine third-line (p1392).
@@ -47,7 +47,7 @@ Study summary of Chapter 88; the book and the full chapter are the reference.
 - **63%** of home care for older cancer patients comes from informal caregivers; nearly **40%** of these caregivers have their own comorbidities and rate their own health fair/poor (p1393).
 
 ### Exam traps / book nuances
-- Do not equate "more indolent tumor biology" with "better survival" — older women have more ER-positive, longer-doubling-time breast cancers (favorable biology) yet still have *lower* overall cancer-related survival than younger women (p1386).
+- Do not equate "more indolent tumor biology" with "better survival" — older women have more ER-positive, longer-doubling-time breast cancers (favorable biology) yet still have *lower* overall cancer-related survival than younger women (p1385).
 - Direction of stage-at-presentation with age is tumor-specific, not uniform: melanoma presents *more* advanced in older adults; lung cancer presents *less* advanced (more localized) in older adults — do not assume all cancers present later in older patients (p1385).
 - CARG and CRASH are two different chemo-toxicity risk tools with different point scales and different endpoints (CARG = single composite risk tier; CRASH = separate hematologic/nonhematologic percentages) — don't merge their numbers (p1388).
 
@@ -97,7 +97,7 @@ Melanoma presents with more advanced-stage, deeper-penetrating local disease in 
 
 <details><summary>Answer</summary>
 
-Older women have a higher frequency of ER-positive tumors and longer tumor doubling times (both favorable prognostic features), but overall cancer-related survival is still lower in older women (p1386).
+Older women have a higher frequency of ER-positive tumors and longer tumor doubling times (both favorable prognostic features), but overall cancer-related survival is still lower in older women (p1385).
 
 </details>
 
@@ -137,7 +137,7 @@ A 20% absolute reduction in toxicity compared with usual oncologist-directed car
 
 <details><summary>Answer</summary>
 
-Older adults have decreased lean body mass, which distorts serum creatinine as a marker of renal function; creatinine clearance is a more accurate estimate for dose adjustment (p1390).
+There is a decrease in lean body mass in the older adult; thus, adjusting the dose based on a creatinine clearance and not merely the creatinine is very important (p1390).
 
 </details>
 
@@ -145,7 +145,7 @@ Older adults have decreased lean body mass, which distorts serum creatinine as a
 
 <details><summary>Answer</summary>
 
-T-score less than −2.0 SD alone, OR less than −1.5 SD with one additional risk factor, OR two or more risk factors even without a low bone mineral density (p1390).
+T-score less than −2.0 SD alone, OR less than −1.5 SD with one additional risk factor, OR two or more risk factors (without bone mineral density) (p1390).
 
 </details>
 
@@ -153,7 +153,7 @@ T-score less than −2.0 SD alone, OR less than −1.5 SD with one additional ri
 
 <details><summary>Answer</summary>
 
-The incidence of high-grade irAEs is similar between age groups, but older adults who develop high-grade irAEs have worse overall survival, likely related to poorer tolerance of the steroids/hospitalization needed to treat them (p1390–1391).
+The incidence of high-grade irAEs is similar between age groups, but older adults who develop high-grade irAEs have worse overall survival, possibly due to side effects of their treatment (steroids and hospitalization), which are often much less tolerated in older adults (p1391).
 
 </details>
 

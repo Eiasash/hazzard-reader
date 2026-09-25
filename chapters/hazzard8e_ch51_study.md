@@ -5,7 +5,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 ## Summary
 
 **Definitions (WHO criteria, Table 51-1)**
-- T-score **> −1** = normal; **≤ −1 to > −2.5** = osteopenia; **≤ −2.5** = osteoporosis; **≤ −2.5 + a fragility fracture** = severe osteoporosis (p760).
+- T-score **> −1** = normal; **≤ −1 to > −2.5** = osteopenia (the table prints "≤ 1 but > −2.5" — minus sign evidently dropped); **≤ −2.5** = osteoporosis; **≤ −2.5 + a fragility fracture** = severe osteoporosis (p760).
 - Each 1-SD drop in T-score ≈ **doubles** fracture risk (p759).
 - **Postmenopausal** osteoporosis: women **51–75 years**, driven by estrogen loss. **Senile** osteoporosis: **>60 years**, both sexes, from reduced bone turnover/osteoblast numbers (p759).
 
@@ -13,7 +13,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - **54 million** Americans at risk of fracture; **~10 million** have osteoporosis, **43 million** have low bone mass (NOF 2018) (p760).
 - Women: **>250,000** hip + **>500,000** spine fractures/year. Men: **250,000** fractures/year, **75,000** hip (p760).
 - By age 90: **1/3 of women**, **1/6 of men** will have a hip fracture; lifetime vertebral fracture risk **12%** in both sexes (p760).
-- **20%–25%** mortality in the year after hip fracture; **~50%** of women never fully recover prior function (p760).
+- **20%–25%** mortality in the year after hip fracture; **~50%** of women do not fully recover prior function (p760).
 - Annual US cost **>$22 billion**; projected **$25 billion**/3 million fractures by 2025 (p760).
 
 **Bone biology (brief)**
@@ -23,10 +23,10 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Age-related decline **~0.5%/year** after the 3rd decade; marrow fat can occupy up to **90%** of marrow cavity in older adults (p766).
 - **Osteosarcopenia**: the term for concurrent osteopenia/osteoporosis + sarcopenia, coined from muscle-bone cross-talk research (p767).
 - Men: testosterone declines **~1.2%/year** with aging (p767).
-- Estrogen & androgen both **inhibit bone resorption and stimulate bone formation** (dual protective role, explaining accelerated loss at menopause/hypogonadism); vitamin D uniquely **stimulates both resorption and formation** (Table 51-2, p764).
+- Estrogen & androgen both **inhibit bone resorption and stimulate bone formation** (Table 51-2 lists them under stimulators of formation and inhibitors of resorption); vitamin D is listed as a stimulator of **both resorption and formation** (as are fibroblast growth factors and platelet-derived growth factor) (Table 51-2, p764).
 
 **Presentation**
-- **≥1/3** of "osteopenia" reported on a plain x-ray actually have a T-score worse than **−2.5**; up to **half** are in the **−2.5 to −1.0** range — both are candidates for BMD testing (p768).
+- As many as **1/3 or more** of those with "osteopenia" on a plain x-ray may have a T-score worse than **−2.5**, and as many as **half** will be in the **−2.5 to −1.0** range — so x-ray "osteopenia" is an indication for BMD measurement (p768).
 - **3/4** of postmenopausal women with a distal radius fracture go undiagnosed/untreated; up to **50%** of hip-fracture patients leave hospital untreated (p768).
 - Repeat fracture risk in the first year after a fracture: **20%** (p768).
 
@@ -39,25 +39,25 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Fall-risk red flags: can't hold a **semi-tandem stand 10 seconds**; gait speed **< 0.8 m/s**; **Timed Up and Go > 14 seconds** (p771).
 
 **BMD & diagnosis**
-- DXA is preferred; ~**50%** of low BMD in postmenopausal women goes undetected without screening; screening reduces hip-fracture incidence by **36%** (p771).
+- DXA is preferred; in >200,000 postmenopausal women screened in primary care, ~**50%** had previously undetected low BMD (**7%** osteoporosis); BMD screening reduced hip-fracture incidence by **36%** in another study (p771).
 - SOF cohort: **54%** of women who suffered a hip fracture had a hip T-score *better* than −2.5 at baseline — **BMD alone under-captures risk**; age matters more (p771).
 - 10-year fracture probability in an 80-year-old is **>2×** that of a 50-year-old at the same T-score (p771).
 - Secondary-cause workup: primary hyperparathyroidism → ionized calcium + PTH; Paget disease → alkaline phosphatase; glucocorticoid use → medical history (Table 51-3, p769).
 
 **Nutrition**
-- Calcium **1200–1500 mg/day**; vitamin D **≥800 IU/day** (often up to **2000 IU**) to reach a target 25(OH)D **≥75 nmol/L** (p772).
+- Calcium **1200–1500 mg/day**; vitamin D **≥800 IU/day**, though as much as **2000 IU/day** and more may be needed to reach 25(OH)D **≥75 nmol/L** (p772).
 - High-dose vitamin D **bolus** dosing (500,000 IU/year or 60,000 IU/month) **increases fall risk** — avoid (p773).
-- Frank deficiency (**≤30 nmol/L**): loading dose **50,000 IU**, then maintenance **1000–4000 IU/day** (p773).
+- Frank deficiency (**≤30 nmol/L**): loading dose **50,000 IU** cholecalciferol or ergocalciferol; all others: daily **1000–4000 IU** cholecalciferol (p773).
 
 **Pharmacologic treatment (Table 51-5)**
 - **Alendronate** 70 mg weekly PO: ~50% ↓ hip + vertebral fracture over 3 years (Table 51-5, p774); equally effective ≤75 vs >75 years (**51%** vs **38%** vertebral fracture reduction at 12 months); time to benefit **8 months** (p775); contraindicated if eGFR **< 35 mL/min** (Table 51-5, p774).
 - **Risedronate** 35 mg weekly PO (or 75 mg × 2 consecutive days/month, or 150 mg monthly PO): **41%–49%** ↓ vertebral, **36%** ↓ nonvertebral fracture over 3 years; also approved for glucocorticoid-induced osteoporosis (Table 51-5, p774).
 - **Zoledronic acid** 5 mg IV yearly ×3: **70%** ↓ vertebral, **25%** ↓ nonvertebral, **41%** ↓ hip fracture (p775); also cut all-cause mortality (**9.6%** vs **13%** placebo) (p776).
-- **Denosumab** 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect **lost by 12 months** after stopping — no drug holiday (p776).
-- **Teriparatide** 20 mcg/day SC, **max 24 months**: **65%** ↓ vertebral, **53%** ↓ nonvertebral fracture (p776); avoid in Paget disease, prior skeletal radiation, hypercalcemia, skeletal metastases, or history of prostate cancer/lymphoma — osteosarcoma risk (Table 51-5, p774).
+- **Denosumab** 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels **12 months** after stopping, and fracture risk rises markedly in those with prior vertebral fracture (p776).
+- **Teriparatide** 20 mcg/day SC, **max 24 months**: **65%** ↓ vertebral, **53%** ↓ nonvertebral fracture (p776); caution or avoidance if at increased osteosarcoma risk — Paget disease, previous radiation therapy, hypercalcemia, skeletal metastases, or history of prostate cancer/lymphoma (Table 51-5, p774).
 - **Abaloparatide** 80 mcg/day SC, **max 2 years**: **86%** ↓ vertebral, **43%** ↓ nonvertebral fracture (p777).
 - **Romosozumab** 210 mg monthly SC, **max 12 months** (then transition, e.g. to denosumab): **75%** ↓ vertebral fracture; vs alendronate: **48%** ↓ vertebral, **19%** ↓ nonvertebral, **38%** ↓ hip (p777).
-- Anabolics (teriparatide/abaloparatide/romosozumab) are first-line for **very high fracture risk**; always follow with an antiresorptive to preserve BMD gains (p777).
+- Teriparatide and abaloparatide should be considered as **starting therapy** for **very high fracture risk** and/or multiple fractures (p777); after teriparatide, treatment with an antiresorptive is imperative to maintain BMD gains (p776).
 
 **Complications**
 - **ONJ**: very rare at osteoporosis dosing, **0.001%–0.01%** (p776); in postmenopausal women on oral bisphosphonates specifically, **0.02%–0.06%** — a dental check should *not* delay treatment (p777).
@@ -94,7 +94,7 @@ One-third of women and one-sixth of men will have a hip fracture by age 90; life
 
 </details>
 
-**4. What is the single biggest limitation of the FRAX tool, and which tool addresses it?**
+**4. What is a major limitation of the FRAX tool, and which tool addresses it?**
 
 <details><summary>Answer</summary>
 
@@ -122,7 +122,7 @@ Inability to hold a semi-tandem stand for 10 seconds; gait velocity < 0.8 m/s; T
 
 <details><summary>Answer</summary>
 
-54% — meaning BMD alone misses roughly half of fracture risk; clinical risk factors (especially age) must be assessed alongside BMD (p771).
+54% — so most of these hip fractures occurred above the osteoporosis threshold; BMD is not the fundamental determinant of fracture risk, and clinical risk factors (especially age) must be assessed alongside BMD (p771).
 
 </details>
 
@@ -130,7 +130,7 @@ Inability to hold a semi-tandem stand for 10 seconds; gait velocity < 0.8 m/s; T
 
 <details><summary>Answer</summary>
 
-Elemental calcium 1200–1500 mg/day; vitamin D at least 800 IU/day (often up to 2000 IU); target serum 25(OH)D ≥ 75 nmol/L (p772).
+Elemental calcium 1200–1500 mg/day; vitamin D at least 800 IU/day (as much as 2000 IU/day and more may be needed); serum 25(OH)D ≥ 75 nmol/L is optimally effective for fall and fracture prevention (p772). (p767 separately suggests a goal of > 80 nmol/L.)
 
 </details>
 
@@ -150,11 +150,11 @@ Vertebral fracture −70%, nonvertebral −25%, hip −41%; it also reduced all-
 
 </details>
 
-**11. Why is a "drug holiday" not appropriate for denosumab the way it can be for bisphosphonates?**
+**11. Why does denosumab's benefit not persist after stopping, unlike bisphosphonates?**
 
 <details><summary>Answer</summary>
 
-Denosumab is not incorporated into bone, so its antifracture effect is lost by about 12 months after discontinuation, with a rebound increase in fracture risk (especially vertebral) — unlike bisphosphonates, whose effect persists after stopping (p776).
+Denosumab is not incorporated into bone, so its effect diminishes when treatment is ceased: the antifracture effect declines to pretreatment levels 12 months after discontinuation, and fracture risk increases markedly in those with prior vertebral fracture — unlike bisphosphonates, whose effect persists after stopping (p776).
 
 </details>
 
@@ -162,7 +162,7 @@ Denosumab is not incorporated into bone, so its antifracture effect is lost by a
 
 <details><summary>Answer</summary>
 
-Teriparatide and abaloparatide: maximum 2 years. Romosozumab: maximum 12 months. Limits relate to osteosarcoma risk seen in nonclinical/animal studies (teriparatide) and cardiovascular event signal (romosozumab) (p776–777).
+Teriparatide and abaloparatide: maximum 2 years. Romosozumab: maximum 12 months. Limits relate to osteosarcoma risk seen in nonclinical/animal studies (teriparatide) and a cardiovascular event signal plus potential oncogenesis (romosozumab) (p776–777).
 
 </details>
 

@@ -2,7 +2,7 @@
 
 Gerardo Calderon, Andres Acosta
 
-> **Fast build from the book, 22 Sep; not lane-reviewed.**
+> **Lane-reviewed against the book, 25 Sep 2026.**
 
 <a id="p1353"></a>**[p. 1353]**
 
@@ -19,13 +19,13 @@ Gerardo Calderon, Andres Acosta
 1. Constipation is a common problem in the older adult.
 2. Constipation is an expensive condition, with high costs ranging from laxative expenditure to nursing time.
 3. Health care providers should routinely inquire about constipation symptoms in older people and be alert to the presence of clinical constipation in individuals unable to communicate.
-4. In many older people with constipation symptoms, lifestyle advice (diet, fluids,
+4. In many older people with constipation symptoms, lifestyle advice (diet, fluids, exercise, toileting habits) will preempt the need for laxative therapy.
 5. In higher-risk patients, a stepwise approach to prescribing laxatives, suppositories, or enemas should be used, with the goal of achieving comfortable and regular evacuation.
 6. Rectal evacuation difficulties should be specifically addressed in order to identify conditions that may require additional interventions.
 
 ## Introduction
 
-Constipation is a frequent health concern for older people in every health care setting. Primary care visits for constipation increase markedly in people older than 60 years, as does regular use of laxatives. Self-reported constipation in older people is associated with anxiety, depression, and poor health perception, while clinical constipation in vulnerable individuals may lead to complications such as fecal impaction, overflow incontinence, sigmoid volvulus, and urinary - retention. Constipation is an expensive condition, with high costs ranging from laxative expenditure to nursing time. For instance, it is estimated that 80% of community nurses working with older people in the United Kingdom are managing constipation (particularly fecal impaction). An Australian study used in-depth, semi-structured interviews to explore older individuals’ experiences with constipation, and their findings largely summed up feelings and problems, no doubt, shared by many older people across the developed world:
+Constipation is a frequent health concern for older people in every health care setting. Primary care visits for constipation increase markedly in people older than 60 years, as does regular use of laxatives. Self-reported constipation in older people is associated with anxiety, depression, and poor health perception, while clinical constipation in vulnerable individuals may lead to complications such as fecal impaction, overflow incontinence, sigmoid volvulus, and urinary retention. Constipation is an expensive condition, with high costs ranging from laxative expenditure to nursing time. For instance, it is estimated that 80% of community nurses working with older people in the United Kingdom are managing constipation (particularly fecal impaction). An Australian study used in-depth, semi-structured interviews to explore older individuals’ experiences with constipation, and their findings largely summed up feelings and problems, no doubt, shared by many older people across the developed world:
 
 - They feel “not right” in themselves when they are constipated.
 
@@ -43,17 +43,17 @@ This chapter will describe the definition, epidemiology, risk factors, clinical 
 
 <a id="p1354"></a>**[p. 1354]**
 
-- expert opinion. Levels of evidence are as used by the US Preventive Services Task Force:
+expert opinion. Levels of evidence are as used by the US Preventive Services Task Force:
 
-   - Good evidence, Level 1: consistent results from well-designed, well-conducted studies
+- Good evidence, Level 1: consistent results from well-designed, well-conducted studies
 
-   - Fair evidence, Level 2: results show benefit, but strength limited by number, quality, or consistency of studies
+- Fair evidence, Level 2: results show benefit, but strength limited by number, quality, or consistency of studies
 
-   - Poor evidence, Level 3: insufficient because of limited number, power, or quality of studies
+- Poor evidence, Level 3: insufficient because of limited number, power, or quality of studies
 
 ## Definitions
 
-Definitions of constipation in older people in medical and nursing literature have been inconsistent. Studies of older people have tended to define constipation subjectively by self-report, according to specific bowel-related symptoms, or by daily laxative usage. Constipation is a syndrome of difficulty moving bowels, characterized as difficulty or infrequent passage of stool, hardness of stool, or a feeling of incomplete evacuation that may occur in isolation or secondary to another underlying disorder. However, the definition of constipation can be broader and referred to as any condition that changes the bowel functions such as reduced stool frequency, straining to defecate, hard stool, or inability to defecate. Patients and their physicians have vastly different perceptions on what constitutes constipation and a patient-centered approach generally takes them at their word. Use of the Bristol Stool Scale also puts the patient and their practitioner on the same page ( **Figure 87-1** ). However,
+Definitions of constipation in older people in medical and nursing literature have been inconsistent. Studies of older people have tended to define constipation subjectively by self-report, according to specific bowel-related symptoms, or by daily laxative usage. Constipation is a syndrome of difficulty moving bowels, characterized as difficulty or infrequent passage of stool, hardness of stool, or a feeling of incomplete evacuation that may occur in isolation or secondary to another underlying disorder. However, the definition of constipation can be broader and referred to as any condition that changes the bowel functions such as reduced stool frequency, straining to defecate, hard stool, or inability to defecate. Patients and their physicians have vastly different perceptions on what constitutes constipation and a patient-centered approach generally takes them at their word. Use of the Bristol Stool Scale also puts the patient and their practitioner on the same page ( **Figure 87-1** ). However, the study of constipation in a more scientific manner requires specific criteria.
 
 ![Figure 87-1](hazzard8e_ch87_figure87-1.png)
 
@@ -63,15 +63,25 @@ Definitions of constipation in older people in medical and nursing literature ha
 
 **Table 87-1 — Definitions of constipation**
 
-- *Constipation (Rome IV Criteria)*: Two or more of the following symptoms present on more than 25% of occasions for at least 12 wk in the last 12 mo: Two or less bowel movements per week Straining at stool Hard stools (Bristol Stool Form Scale 1-2)–See **Figure 87-1** Sensation of incomplete evacuation Sensation of anorectal obstruction Manual maneuvers to facilitate defecations Loose stools are rarely present without the use of laxatives Insufficient criteria for irritable bowel syndrome
-- *Clinical Constipation*: <mark>Large amount of feces (hard or soft) in rectum on digital examination</mark>
-- *<mark>and/or</mark>*: <mark>Colonic fecal loading on abdominal radiograph</mark>
+*Constipation (Rome IV Criteria)*
 
-the study of constipation in a more scientific manner requires specific criteria.
+- Two or more of the following symptoms present on more than 25% of occasions for at least 12 wk in the last 12 mo:
+  - Two or less bowel movements per week
+  - Straining at stool
+  - Hard stools (Bristol Stool Form Scale 1-2)–See **Figure 87-1**
+  - Sensation of incomplete evacuation
+  - Sensation of anorectal obstruction
+  - Manual maneuvers to facilitate defecations
+- Loose stools are rarely present without the use of laxatives
+- Insufficient criteria for irritable bowel syndrome
 
-The Rome IV symptom criteria are useful in defining constipation in older people ( **Table 87-1** ). The Rome criteria overlap with
+*Clinical Constipation*
 
-constipation-predominant irritable bowel syndrome (IBS-C). Diagnostic criteria for IBS require recurrent abdominal pain at least one day per week in the last three months, associated with two or more of the following: abdominal pain related to defecation, change in frequency of stool toward infrequent, or change in form of stool toward harder stools. IBS-C subtype includes more than one-fourth of the defecations with Bristol stool types 1 or 2 and less than one-fourth of defecations with Bristol stool types 6 or 7 ( **see Figure 87-1** ).
+- Large amount of feces (hard or soft) in rectum on digital examination and/or
+- Colonic fecal loading on abdominal radiograph
+
+
+The Rome IV symptom criteria are useful in defining constipation in older people ( **Table 87-1** ). The Rome criteria overlap with constipation-predominant irritable bowel syndrome (IBS-C). Diagnostic criteria for IBS require recurrent abdominal pain at least one day per week in the last three months, associated with two or more of the following: abdominal pain related to defecation, change in frequency of stool toward infrequent, or change in form of stool toward harder stools. IBS-C subtype includes more than one-fourth of the defecations with Bristol stool types 1 or 2 and less than one-fourth of defecations with Bristol stool types 6 or 7 ( **see Figure 87-1** ).
 
 ## Prevalence Of Constipation
 
@@ -85,7 +95,7 @@ One older community-based study of 3166 persons aged 65 and older asked the ques
 
 **Table 87-2 — Practice guidance based on epidemiological evidence**
 
-_Screening_ Constipation symptoms should be routinely asked about in patients aged 65+ in view of the high prevalence of the condition in this population [2]. Men and women in their eighth decade and beyond should be regularly screened for constipation symptoms, as prevalence increases with advancing age [2]. Periodic objective assessment for constipation in older nursing home residents should be incorporated into routine nursing and medical care [2]. Patients unable to report symptoms … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+_Screening_ Constipation symptoms should be routinely asked about in patients aged 65+ in view of the high prevalence of the condition in this population [2]. Men and women in their eighth decade and beyond should be regularly screened for constipation symptoms, as prevalence increases with advancing age [2]. Periodic objective assessment for constipation in older nursing home residents should be incorporated into routine nursing and medical care [2]. Patients unable to report symptoms owing to cognitive or communication difficulties should be especially targeted [3]. Such an assessment should occur at minimum every 3 mo (the 3-monthly incidence rate of new-onset constipation is 7% in nursing home residents), and optimally monthly [3].
 
 ##### _Identifying Risk Factors_
 
@@ -107,9 +117,11 @@ An objective assessment should be undertaken in frail older people with constipa
 
 Older patients being prescribed laxatives on a daily basis should be regularly reviewed for symptoms of constipation and the appropriateness of long-term laxative therapy [3].
 
-Level [1] indicates good evidence, that is, consistent results from well-designed, wellconducted studies.
+Level [1] indicates good evidence, that is, consistent results from well-designed, well-conducted studies.
 
-Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies. Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
+Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies.
+
+Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
 
 The preponderance of women over men reporting constipation tends to equalize after the age of 80 years. The incidence rate of new-onset constipation is 7% in nursing home residents with screening every 3 months.
 
@@ -117,9 +129,9 @@ The preponderance of women over men reporting constipation tends to equalize aft
 
 Two or fewer bowel movements per week are below normal range and tend to signify slow-transit constipation.
 
-Weekly frequency of bowel movements is not changed with age, in contrast to self-reporting of constipation. In - community-based studies:
+Weekly frequency of bowel movements is not changed with age, in contrast to self-reporting of constipation. In community-based studies:
 
-- Only 1% to 7% of both younger and older communitydwelling individuals report two or fewer bowel movements a week.
+- Only 1% to 7% of both younger and older community-dwelling individuals report two or fewer bowel movements a week.
 
 - This consistent bowel pattern across age groups persists even after statistical adjustment for the greater number of laxatives used by older people.
 
@@ -127,7 +139,7 @@ Weekly frequency of bowel movements is not changed with age, in contrast to self
 
 ### Difficult Evacuation
 
-Symptoms other than infrequent bowel movements drive self-reporting of constipation in older people. These symptoms are predominantly straining and passage of hard stools. Of older people reporting constipation in a US community study, 65% had persistent straining and 39% had passage of hard bowel movements. Difficult rectal evacuation is a primary cause of constipation in older people. -- Twenty-one percent of community-dwelling people aged 65 and older had rectal outlet delay (according to Rome II criteria), and many describe the need to self-evacuate. Among frailer individuals, difficult evacuation can lead to rectal impaction and fecal soiling.
+Symptoms other than infrequent bowel movements drive self-reporting of constipation in older people. These symptoms are predominantly straining and passage of hard stools. Of older people reporting constipation in a US community study, 65% had persistent straining and 39% had passage of hard bowel movements. Difficult rectal evacuation is a primary cause of constipation in older people. Twenty-one percent of community-dwelling people aged 65 and older had rectal outlet delay (according to Rome II criteria), and many describe the need to self-evacuate. Among frailer individuals, difficult evacuation can lead to rectal impaction and fecal soiling.
 
 ### Constipation In The Acute Care Setting
 
@@ -135,12 +147,26 @@ According to the updated 2019 report from the Bowel Interest Group, 71,430 peopl
 
 ### Constipation In The Long-Term Care Setting
 
-Long-term care residents are at increased risk of developing complications of constipation ( **Table 87-3** ) that may precipitate acute hospital admissions. Physical frailty in older persons does increase the prevalence of infrequent bowel movements, with 17% of nursing home residents reporting two or fewer bowel movements a week. Among the total population of long-term care residents self-reporting constipation, 33% have two or fewer bowel movements a week. A Finnish study showed the prevalence of chronic constipation and/or rectal outlet delay to be 57% in women and 64% in men living in residential homes, and 79% and - 81% respectively in the nursing home setting. A UK study found that 64% of nursing home residents taking laxatives still reported straining on more than one in four occasions. This and the fact that 50% to 74% of long-term care residents use daily laxatives suggest that rectal evacuation difficulties are not being well managed in this population.
+Long-term care residents are at increased risk of developing complications of constipation ( **Table 87-3** ) that may precipitate acute hospital admissions. Physical frailty in older persons does increase the prevalence of infrequent bowel movements, with 17% of nursing home residents reporting two or fewer bowel movements a week. Among the total population of long-term care residents self-reporting constipation, 33% have two or fewer bowel movements a week. A Finnish study showed the prevalence of chronic constipation and/or rectal outlet delay to be 57% in women and 64% in men living in residential homes, and 79% and 81% respectively in the nursing home setting. A UK study found that 64% of nursing home residents taking laxatives still reported straining on more than one in four occasions. This and the fact that 50% to 74% of long-term care residents use daily laxatives suggest that rectal evacuation difficulties are not being well managed in this population.
 
 <a id="p1356"></a>**[p. 1356]**
+
 **Table 87-3 — Complications of constipation in older people**
 
-|Fecal incontinence [1]| |---| |Fecal impaction [1]| |Stercoral perforation [3]| |Urinary retention [2]| |Sigmoid volvulus [2]| |Acquired megacolon [2]| |Rectal prolapse [3]| |Diverticular disease [2]| |Impaired quality of life [3]| |Agitation in patients with dementia [3]| |Level [1] indicates good evidence, that is, consistent results from well-designed, well-<br>conducted studies.<br>Level [2] indicates fair evidence, that is, results show benefit, but strength limited by<br>number, quality, … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+- Fecal incontinence [1]
+- Fecal impaction [1]
+- Stercoral perforation [3]
+- Urinary retention [2]
+- Sigmoid volvulus [2]
+- Acquired megacolon [2]
+- Rectal prolapse [3]
+- Diverticular disease [2]
+- Impaired quality of life [3]
+- Agitation in patients with dementia [3]
+
+Level [1] indicates good evidence, that is, consistent results from well-designed, well-conducted studies.
+Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies.
+Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
 
 ## Pathophysiology
 
@@ -148,15 +174,11 @@ Physiologic studies suggest that changes in the lower bowel predisposing toward 
 
 ### Colonic Function
 
-> Colonic motility depends on the integrity of the central - and autonomic nervous systems, gut wall innervation and receptors, circular smooth muscle, and gastrointestinal hormones. Propagating motor complexes in the colon are stimulated by increased intraluminal pressure generated by bulky fecal content. Studies of total gut transit time (passage of radiopaque isotope from mouth to anus, normally less than 72 hours), colonic motor activity, and postprandial gastrocolic reflex show no differences between healthy older and younger people. Older people with chronic constipation do, however, tend to have a prolonged total gut transit time, ranging from 4 to 9 days. Radiologic markers pass especially slowly through the left colon with striking delay in the recto-sigmoid, suggesting that total transit time is prolonged due to a decline in propulsive activity -,I in the colon. This may be secondary to a reduction in colonic enteric neurons producing nitric oxide and acetylcholine. The prolongation in transit time is even greater in institutionalized or bedridden patients with constipation, with total gut transit time ranging from 6 to more than 14 days. Slow transit results in a cycle of worsening colonic
-
-dysfunction by reducing water content of stool (normally 75%) and shrinking fecal bulk, which then diminishes the intraluminal pressures, and hence the generation of propagating motor complexes and propulsive activity.
+Colonic motility depends on the integrity of the central and autonomic nervous systems, gut wall innervation and receptors, circular smooth muscle, and gastrointestinal hormones. Propagating motor complexes in the colon are stimulated by increased intraluminal pressure generated by bulky fecal content. Studies of total gut transit time (passage of radiopaque isotope from mouth to anus, normally less than 72 hours), colonic motor activity, and postprandial gastrocolic reflex show no differences between healthy older and younger people. Older people with chronic constipation do, however, tend to have a prolonged total gut transit time, ranging from 4 to 9 days. Radiologic markers pass especially slowly through the left colon with striking delay in the recto-sigmoid, suggesting that total transit time is prolonged due to a decline in propulsive activity in the colon. This may be secondary to a reduction in colonic enteric neurons producing nitric oxide and acetylcholine. The prolongation in transit time is even greater in institutionalized or bedridden patients with constipation, with total gut transit time ranging from 6 to more than 14 days. Slow transit results in a cycle of worsening colonic dysfunction by reducing water content of stool (normally 75%) and shrinking fecal bulk, which then diminishes the intraluminal pressures, and hence the generation of propagating motor complexes and propulsive activity.
 
 ### Intrinsic Mechanisms For Colonic Dysfunction In Older People With Constipation
 
-Certain intrinsic mechanisms for altered colonic function in older persons with constipation have been postulated from physiologic studies ( **Table 87-4** ). The colonic epithelia decrease the secretion of water and electrolytes with aging due to a decrease of numbers of crypts and nongoblet epithelial cells. Overall collagen deposition in the left - side of the colon increases with aging, and this could alter colonic compliance and motility. Direct electrophysiologic .......-. measurement of colonic motor activity in older subjects has shown that the sigmoid motor response to intraluminal bisacodyl (a direct stimulant of the myenteric plexus) is diminished in patients who are constipated, implying a deficit in intrinsic innervation. Myenteric plexus dysfunction may partially account for impaired gut motility in older persons with constipation. The total number of neurons in the myenteric plexus decreases with increasing age, and this neuronal loss bears no relation to the presence of pseudomelanosis coli cells, implying that use of anthraquinone laxatives is not the primary cause. Interestingly, these aging effects on the colon are not present in caloric restricted mice.
-
-> Another possible intrinsic factor is age-related deficit in the density of inhibitory nerves, or in the binding sites on smooth muscle for inhibitory gut neuropeptides. In vitro studies of colons across age groups showed an
+Certain intrinsic mechanisms for altered colonic function in older persons with constipation have been postulated from physiologic studies ( **Table 87-4** ). The colonic epithelia decrease the secretion of water and electrolytes with aging due to a decrease of numbers of crypts and nongoblet epithelial cells. Overall collagen deposition in the left side of the colon increases with aging, and this could alter colonic compliance and motility. Direct electrophysiologic measurement of colonic motor activity in older subjects has shown that the sigmoid motor response to intraluminal bisacodyl (a direct stimulant of the myenteric plexus) is diminished in patients who are constipated, implying a deficit in intrinsic innervation. Myenteric plexus dysfunction may partially account for impaired gut motility in older persons with constipation. The total number of neurons in the myenteric plexus decreases with increasing age, and this neuronal loss bears no relation to the presence of pseudomelanosis coli cells, implying that use of anthraquinone laxatives is not the primary cause. Interestingly, these aging effects on the colon are not present in caloric restricted mice.
 
 **Table 87-4 — Pathophysiological mechanisms for constipation in older people**
 
@@ -166,11 +188,9 @@ Certain intrinsic mechanisms for altered colonic function in older persons with 
 
 > Highlighting is the owner's annotation, not the book's.
 
+Another possible intrinsic factor is age-related deficit in the density of inhibitory nerves, or in the binding sites on smooth muscle for inhibitory gut neuropeptides. In vitro studies of colons across age groups showed an
 <a id="p1357"></a>**[p. 1357]**
-
-age-related reduction in the amplitude of inhibitory junction potentials, but no decrease in the levels of inhibitory gut neuropeptides. This age-related decline occurs ear
-
-lier in women as compared with men. Such a decrease in inhibitory nerve input to the circular smooth muscle could result in segmental motor incoordination, which may lengthen transit time and promote constipation in older persons with other predisposing risk factors. Individuals older than age 60 have higher plasma concentrations of beta-endorphin with increased binding to opiate receptors in the gut wall and myenteric plexus. Higher opiate binding has the effect of relaxing colonic tone, reducing motility, and inhibiting the gastrocolic reflex. - Constipation is more prevalent in patients with nonulcer dyspepsia, as both conditions involve gastrointestinal hypomotility.
+age-related reduction in the amplitude of inhibitory junction potentials, but no decrease in the levels of inhibitory gut neuropeptides. This age-related decline occurs earlier in women as compared with men. Such a decrease in inhibitory nerve input to the circular smooth muscle could result in segmental motor incoordination, which may lengthen transit time and promote constipation in older persons with other predisposing risk factors. Individuals older than age 60 have higher plasma concentrations of beta-endorphin with increased binding to opiate receptors in the gut wall and myenteric plexus. Higher opiate binding has the effect of relaxing colonic tone, reducing motility, and inhibiting the gastrocolic reflex. Constipation is more prevalent in patients with nonulcer dyspepsia, as both conditions involve gastrointestinal hypomotility.
 
 ### Anorectal Function
 
@@ -178,15 +198,11 @@ In normal defecation, colonic activity propels stool into the rectal ampulla cau
 
 ### Age-Related Changes In Anorectal Function
 
-> There is a tendency toward an age-related decline in internal - -- sphincter tone, particularly in the eighth decade onward.
-
-> Clinically, this predisposes older individuals to fecal incontinence, particularly with loose stools. There is a more definite age-related decline (greater in women than men) in external anal sphincter and pelvic muscle strength, which can contribute toward evacuation difficulties. Failure of the anorectal angle to open and excessive perineal descent in older women can lead to constipation. In simulated defecation studies, 37% of non-constipated older subjects were unable to evacuate a small solid sphere. Consequent prolonged straining may compress the pudendal nerve, further exacerbating any preexisting weakness. There appears to be a reduction in rectal motility with normal aging, again in oldest age groups. Rectal sensation does not alter with normal aging.
+There is a tendency toward an age-related decline in internal sphincter tone, particularly in the eighth decade onward. Clinically, this predisposes older individuals to fecal incontinence, particularly with loose stools. There is a more definite age-related decline (greater in women than men) in external anal sphincter and pelvic muscle strength, which can contribute toward evacuation difficulties. Failure of the anorectal angle to open and excessive perineal descent in older women can lead to constipation. In simulated defecation studies, 37% of non-constipated older subjects were unable to evacuate a small solid sphere. Consequent prolonged straining may compress the pudendal nerve, further exacerbating any preexisting weakness. There appears to be a reduction in rectal motility with normal aging, again in oldest age groups. Rectal sensation does not alter with normal aging.
 
 ### Anorectal Dysfunction In Older Persons
 
-The most common form of anorectal dysfunction in older people is _rectal dysmotility,_ characterized by reduced rectal motility, increased rectal compliance with a variable degree of rectal dilatation, and impaired rectal sensation such that the urge to pass stool is blunted (see **Table 87-4** ). Over time, an increasing degree of rectal distension is required to reflexly trigger the defecation mechanism. These patients have rectal retention of hard or soft stool on digital
-
-examination of which they may be unaware. The resulting rectal distension leads to relaxation of the internal sphincter and hence to fecal soiling. One study showed that rectal contractions could be elicited in only 14% of older people with a history of rectal impaction. One postulated cause for rectal dysmotility is diminished parasympathetic outflow as a result of impaired sacral cord function, for example, from ischemia or spinal stenosis. Rectal dysmotility can also develop through a persistent disregard or suppression of the urge to defecate that can occur with dementia, depression, immobility, or painful anorectal conditions. Voluntary increase in intra-abdominal pressure during defecation could overcome rectal dysmotility to produce enough of an increase in rectal pressure for evacuation to occur, but older people often have weakened abdominal musculature, limiting their ability to compensate in this way.
+The most common form of anorectal dysfunction in older people is _rectal dysmotility,_ characterized by reduced rectal motility, increased rectal compliance with a variable degree of rectal dilatation, and impaired rectal sensation such that the urge to pass stool is blunted (see **Table 87-4** ). Over time, an increasing degree of rectal distension is required to reflexly trigger the defecation mechanism. These patients have rectal retention of hard or soft stool on digital examination of which they may be unaware. The resulting rectal distension leads to relaxation of the internal sphincter and hence to fecal soiling. One study showed that rectal contractions could be elicited in only 14% of older people with a history of rectal impaction. One postulated cause for rectal dysmotility is diminished parasympathetic outflow as a result of impaired sacral cord function, for example, from ischemia or spinal stenosis. Rectal dysmotility can also develop through a persistent disregard or suppression of the urge to defecate that can occur with dementia, depression, immobility, or painful anorectal conditions. Voluntary increase in intra-abdominal pressure during defecation could overcome rectal dysmotility to produce enough of an increase in rectal pressure for evacuation to occur, but older people often have weakened abdominal musculature, limiting their ability to compensate in this way.
 
 _Pelvic floor dyssynergia_ , though more common in younger women, can cause rectal outlet delay in older people ( **Figure 87-2** ). This is caused by paradoxical contraction or failure to relax the pelvic floor and external anal sphincter muscles during defecation. Manometric studies show paradoxical increases in anal canal pressure on straining. This abnormal expulsion pattern occurs in individuals with severe and long-standing symptoms of rectal outlet delay and in patients with Parkinson disease.
 
@@ -197,43 +213,66 @@ Both the epidemiology and pathophysiology of constipation in older people point 
 ### Reduced Mobility
 
 Impaired mobility is a common risk factor for constipation in older people. Greater physical activity (including regular walking) is associated with less self-reported and symptom-specific constipation in older people living both at home and in long-term care. Reduced mobility is the strongest independent correlate of heavy laxative use among nursing
-
 <a id="p1358"></a>**[p. 1358]**
+home residents, following adjustment for age, comorbidity, and other relevant clinical factors. Gut transit time in older subjects was 3 days in ambulant patients and 3 weeks in bedridden patients, although comorbid factors were likely to be contributory. A study of healthy young male volunteers showed that after only 1 week of bed rest, both transit through the sigmoid colon and stool frequency were reduced. It is well documented that exercise increases colonic propulsive activity (“joggers diarrhea”), especially when measured after eating. In a population survey of younger women (36–61 years), daily physical activity was associated with less constipation (defined as two or fewer bowel movements per week), and the association strengthened with increased frequency of physical activity. This suggests that increasing physical activity in adulthood may reduce the likelihood of constipation problems in older age.
+
 ![Figure 87-2](hazzard8e_ch87_figure87-2.png)
 
 > *FIGURE 87-2. A series of schematic diagrams that reveal the normal anatomy and physiology of the pelvic floor in the sagittal plane at rest, during defecation, and the key pathophysiologic changes in subjects with fecal incontinence and dyssynergic defecation. EAS, external anal sphincter; IAS, internal anal sphincter. (Reproduced with permission from Rao SS. Advances in diagnostic assessment of fecal incontinence and dyssynergic defecation. _Clin Gastroenterol Hepatol._ 2010;8[11]:910–919.)*
 
 > Highlighting is the owner's annotation, not the book's.
 
-home residents, following adjustment for age, comorbidity, and other relevant clinical factors. Gut transit time in older subjects was 3 days in ambulant patients and 3 weeks in bedridden patients, although comorbid factors were likely to be contributory. A study of healthy young male volunteers showed that after only 1 week of bed rest, both transit through the sigmoid colon and stool frequency were reduced. It is well documented that exercise increases colonic propulsive activity (“joggers diarrhea”), especially when measured after eating. In a population survey of younger women (36–61 years), daily physical activity was associated with less constipation (defined as two or fewer bowel movements per week), and the association strengthened with increased frequency of physical activity. This suggests that increasing physical activity in adulthood may reduce the likelihood of constipation problems in older age.
-
 ### Drug Side Effects
 
-Polypharmacy increases the risk of constipation in older patients, particularly in nursing homes where each individual takes an average of six to nine prescribed medications per day. _Anticholinergic medications_ reduce contractility of the smooth muscle of the gut via an antimuscarinic effect at acetylcholine receptor sites, and in some cases (eg, patients with schizophrenia taking neuroleptics), long-term use may result in chronic megacolon. In two cross-sectional studies of nursing home residents, anticholinergic antidepressants
-
-were independently associated with daily laxative use following adjustment for age, gender, function, and cognition. Anticholinergic neuroleptics and antihistamines were also independently associated in one of the studies; nonanticholinergic sedatives, however, were not found to be constipating. A study of 532 community-dwelling older US veterans found that among the 27% using anticholinergic drugs, the rate of constipation (42%) was significantly greater than among those not using the drugs.
+Polypharmacy increases the risk of constipation in older patients, particularly in nursing homes where each individual takes an average of six to nine prescribed medications per day. _Anticholinergic medications_ reduce contractility of the smooth muscle of the gut via an antimuscarinic effect at acetylcholine receptor sites, and in some cases (eg, patients with schizophrenia taking neuroleptics), long-term use may result in chronic megacolon. In two cross-sectional studies of nursing home residents, anticholinergic antidepressants were independently associated with daily laxative use following adjustment for age, gender, function, and cognition. Anticholinergic neuroleptics and antihistamines were also independently associated in one of the studies; non-anticholinergic sedatives, however, were not found to be constipating. A study of 532 community-dwelling older US veterans found that among the 27% using anticholinergic drugs, the rate of constipation (42%) was significantly greater than among those not using the drugs.
 
 While older people are very susceptible to the constipating effects of _opiate analgesia_ , a study of nursing home residents with persistent nonmalignant pain found that there was no increased rate of constipation in chronic opiate users over a 6-month period compared to those not taking opiates. They also observed a general improvement in functional status and social engagement. Constipation in chronic opiate users can be effectively managed (by diet and laxative or suppository co-prescription where needed)—an important finding as chronic pain is often undertreated in older people perhaps owing to fear of the adverse effects of analgesic drugs. Community-based studies of adults receiving opiates for chronic pain have shown equal constipation risk for all sustained-release oral preparations. Transdermal patches (eg, fentanyl), however, are associated with lower risk of constipation than oral preparations.
 
 All types of _iron supplements_ (sulfate, fumarate, and gluconate) cause constipation, the constipating factor being
-
 <a id="p1359"></a>**[p. 1359]**
+the amount of elemental iron absorbed. Slow-release preparations have a lesser impact on the large bowel, but this is because they tend to carry the iron past the first part of the duodenum into an area of the gut where elemental iron absorption is poorer. Administration of iron sulfate in doses greater than 325 mg per day does not substantially increase iron absorption in older people and may significantly increase gastrointestinal side effects. Intravenous iron does not cause constipation and may be an alternative in patients with chronic anemia (eg, chronic kidney disease) who have symptomatic constipation on oral iron.
 
 **Table 87-5 — Risk factors for constipation in older people**
 
-Medications Polypharmacy (≥ 5 medications) [2] - Anticholinergic drugs (tricyclics, antipsychotics, antihistamines, antiemetics, drugs for detrusor hyperactivity) [1] - Opiates [2] Iron supplements [3] Calcium channel antagonists (nifedipine and verapamil) [2] Calcium supplements [2] Nonsteroidal anti-inflammatory drugs [2] Impaired mobility [2] Nursing home residency [2] Neurologic conditions Dementia [2] Parkinson disease [1] Diabetes mellitus [1] Autonomic neuropathy [2] Stroke [3] … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+- *Medications*
+  - Polypharmacy (≥ 5 medications) [2]
+  - Anticholinergic drugs (tricyclics, antipsychotics, antihistamines, antiemetics, drugs for detrusor hyperactivity) [1]
+  - Opiates [2]
+  - Iron supplements [3]
+  - Calcium channel antagonists (nifedipine and verapamil) [2]
+  - Calcium supplements [2]
+  - Nonsteroidal anti-inflammatory drugs [2]
+- Impaired mobility [2]
+- Nursing home residency [2]
+- *Neurologic conditions*
+  - Dementia [2]
+  - Parkinson disease [1]
+  - Diabetes mellitus [1]
+  - Autonomic neuropathy [2]
+  - Stroke [3]
+  - Spinal cord injury or disease [1]
+- Depression [3]
+- Dehydration [2]
+- Low dietary fiber [3]
+- *Metabolic disturbances*
+  - Hypothyroidism
+  - Hypercalcemia
+  - Hypokalemia
+  - Uremia
+  - Patients receiving renal dialysis [3]
+- Mechanical obstruction (eg, tumor, rectocele)
+- Lack of privacy or comfort
+- Poor toilet access [3]
 
-es. Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies. Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
+Level [1] indicates good evidence, that is, consistent results from well-designed, well-conducted studies.
+Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies.
+Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
 
-the amount of elemental iron absorbed. Slow-release preparations have a lesser impact on the large bowel, but this is because they tend to carry the iron past the first part of the duodenum into an area of the gut where elemental iron absorption is poorer. Administration of iron sulfate in doses greater than 325 mg per day does not substantially increase iron absorption in older people and may significantly increase gastrointestinal side effects. Intravenous iron does not cause constipation and may be an alternative in patients with chronic anemia (eg, chronic kidney disease) who have symptomatic constipation on oral iron.
-
-In a 5-year study of _calcium supplementation_ in older women, the only side effect was constipation (treatment - 13% vs placebo 9.1%). The study showed that calcium
-
-supplementation reduced bone loss and turnover and fracture rates in older women who took it, but long-term compliance was poor, and constipation may have contributed to this.
+In a 5-year study of _calcium supplementation_ in older women, the only side effect was constipation (treatment 13% vs placebo 9.1%). The study showed that calcium supplementation reduced bone loss and turnover and fracture rates in older women who took it, but long-term compliance was poor, and constipation may have contributed to this.
 
 _Calcium channel antagonists_ impair lower gut motility, particularly in the rectosigmoid, by inhibiting calcium uptake into smooth muscle cells and altering intraluminal electrolyte and water transportation. Severe constipation has been reported in older patients taking calcium channel antagonists, with nifedipine and verapamil being the most potent inhibitors of gut motility in this class of drugs.
 
-> _Nonsteroidal anti-inflammatory drugs (NSAIDs)_ - increase the risk of constipation in older people, most likely through prostaglandin inhibition. In a large case-controlled primary care study, constipation and straining were more common reasons for stopping NSAIDs than dyspepsia. NSAIDs have also been implicated in causing stercoral perforation in patients with chronic constipation.
+_Nonsteroidal anti-inflammatory drugs (NSAIDs)_ increase the risk of constipation in older people, most likely through prostaglandin inhibition. In a large case-controlled primary care study, constipation and straining were more common reasons for stopping NSAIDs than dyspepsia. NSAIDs have also been implicated in causing stercoral perforation in patients with chronic constipation.
 
 _Aluminum antacids_ have been associated with constipation in older people living in both nursing homes and in the community.
 
@@ -243,7 +282,7 @@ _Aluminum antacids_ have been associated with constipation in older people livin
 
 **Calories** Low calorie intake in older people (adjusted for fiber intake) is associated with constipation. One study looked at nutritional factors across all nursing homes in Finland and found that malnutrition and constipation were associated. This may be a two-way association in that marked constipation or fecal impaction can cause anorexia, while low calorie intake can promote constipation.
 
-**Enteral nutrition** Constipation is a recognized problem in patients receiving enteral nutrition. A recent prospective -- multicenter longitudinal study from Spain followed adult patients (mean age 70 in males, 72 in females) receiving home enteral nutrition for a 4-month period and identified an IR of 1.9 and 1.1 in males and females, respectively. Another common complication seen in this study was diarrhea (IR 1.6 in males, 0.6 in females), although not as frequent as constipation. Diarrhea is usually associated due to the feed volume or its osmolarity.
+**Enteral nutrition** Constipation is a recognized problem in patients receiving enteral nutrition. A recent prospective multicenter longitudinal study from Spain followed adult patients (mean age 70 in males, 72 in females) receiving home enteral nutrition for a 4-month period and identified an IR of 1.9 and 1.1 in males and females, respectively. Another common complication seen in this study was diarrhea (IR 1.6 in males, 0.6 in females), although not as frequent as constipation. Diarrhea is usually associated due to the feed volume or its osmolarity.
 
 ### Fluid Intake
 
@@ -272,13 +311,11 @@ Patients with Parkinson disease suffer from three primary pathologies that lead 
 
 - Small increases in intra-abdominal pressures on straining (compared with age-matched controls)
 
-Constipation can become prominent early in the course of the disease, even 10 to 20 years prior to motor symptoms. In a 24-year longitudinal study in Honolulu, less than one bowel movement a day was associated with a threefold risk of future Parkinson disease in men. A study of patients at a Parkinson disease clinic found that 59% were constipated according to the Rome criteria (vs 21% in agematched control group without neurologic disease), and 33% were very concerned by their bowel problem. Antiparkinsonian drugs can further exacerbate constipation. Pelvic dyssynergia affects 60% of people with Parkinson disease and may be hard to treat. Botulinum toxin injected into the puborectalis muscle has been used to improve rectal emptying in Parkinson disease patients with good effect, though repeat injections every 3 months are required to maintain clinical benefit.
+Constipation can become prominent early in the course of the disease, even 10 to 20 years prior to motor symptoms. In a 24-year longitudinal study in Honolulu, less than one bowel movement a day was associated with a threefold risk of future Parkinson disease in men. A study of patients at a Parkinson disease clinic found that 59% were constipated according to the Rome criteria (vs 21% in age-matched control group without neurologic disease), and 33% were very concerned by their bowel problem. Antiparkinsonian drugs can further exacerbate constipation. Pelvic dyssynergia affects 60% of people with Parkinson disease and may be hard to treat. Botulinum toxin injected into the puborectalis muscle has been used to improve rectal emptying in Parkinson disease patients with good effect, though repeat injections every 3 months are required to maintain clinical benefit.
 
 ### Dementia
 
-Dementia predisposes individuals to rectal dysmotility, partly through ignoring the urge to defecate. A study
-
-in which young men deliberately suppressed defecation resulted in prolonged transit through the rectosigmoid with a marked reduction in frequency of bowel movements. Epidemiological studies show a significant association between cognitive impairment and nurse-documented constipation in nursing home residents. Patients with nonAlzheimer dementias (Parkinson disease, Lewy body, vascular dementia) compared to those with Alzheimer dementia are more likely to suffer from autonomic symptoms, including - constipation.
+Dementia predisposes individuals to rectal dysmotility, partly through ignoring the urge to defecate. A study in which young men deliberately suppressed defecation resulted in prolonged transit through the rectosigmoid with a marked reduction in frequency of bowel movements. Epidemiological studies show a significant association between cognitive impairment and nurse-documented constipation in nursing home residents. Patients with non-Alzheimer dementias (Parkinson disease, Lewy body, vascular dementia) compared to those with Alzheimer dementia are more likely to suffer from autonomic symptoms, including constipation.
 
 ### Mood-Related Disorders
 
@@ -297,11 +334,11 @@ Constipation affects the majority of people with spinal cord disease or injury. 
 A Turkish study of outpatients with type 2 diabetes showed that 56% complained of constipation (vs 30% of controls). Neuropathy symptom scores are correlated with laxative usage and straining. Diabetic patients with autonomic neuropathy are more likely to be constipated because of markedly slowed transit throughout the colon and impairment of the gastrocolic reflex. However, one-third of diabetic patients with constipation do not have neuropathic symptoms, so additional potentially reversible factors should be considered particularly in older people (eg, drugs, mobility, fluids). For example, a US community study found that constipation and/or laxative use was increased in type 1 versus type 2 diabetic men, but this difference was associated with use of calcium channel blockers rather than
 
 <a id="p1361"></a>**[p. 1361]**
-with neuropathy symptoms. Acute hyperglycemia inhibits the gastrocolic reflex and colonic peristalsis, so glycemic control may be an important factor in the genesis of constipation. Colonic transit time in immobile older people with diabetes is extremely prolonged at 200 ± 144 hours. An Israeli study showed that this very long transit time in long-term care residents with diabetes can be significantly reduced by administering acarbose, an alpha-glucosidase inhibitor with a potential adverse effect of causing diarrhea. Overall, gut dysmotility can lead to bacterial overgrowth and the clinical problem of explosive diarrhea; treatment with erythromycin and long-term motility agents such as metoclopramide should be considered in these individuals. The risk of developing tardive dyskinesia, a known adverse reaction from metoclopramide, is increased in the older individual. In order to decrease the risk, older adults should be advised to avoid continuous treatment for longer - than 12 weeks. A drug holidays of 2 weeks or a decrease of metoclopramide dose as tolerated, with tight blood glucose control, is encouraged whenever clinically possible.
+with neuropathy symptoms. Acute hyperglycemia inhibits the gastrocolic reflex and colonic peristalsis, so glycemic control may be an important factor in the genesis of constipation. Colonic transit time in immobile older people with diabetes is extremely prolonged at 200 ± 144 hours. An Israeli study showed that this very long transit time in long-term care residents with diabetes can be significantly reduced by administering acarbose, an alpha-glucosidase inhibitor with a potential adverse effect of causing diarrhea. Overall, gut dysmotility can lead to bacterial overgrowth and the clinical problem of explosive diarrhea; treatment with erythromycin and long-term motility agents such as metoclopramide should be considered in these individuals. The risk of developing tardive dyskinesia, a known adverse reaction from metoclopramide, is increased in the older individual. In order to decrease the risk, older adults should be advised to avoid continuous treatment for longer than 12 weeks. A drug holidays of 2 weeks or a decrease of metoclopramide dose as tolerated, with tight blood glucose control, is encouraged whenever clinically possible.
 
 ### Metabolic Disorders
 
-_Hypokalemia_ produces neuronal dysfunction that minimizes acetylcholine stimulation of gut smooth muscle and so prolongs transit through the gut. Hypokalemia should - be excluded in cases of colonic pseudo-obstruction and sigmoid volvulus. _Hypercalcemia_ causes conduction delay within the extrinsic and intrinsic innervation of the gut. Surgical treatment of hyperparathyroidism reverses the neuromuscular bowel dysfunction seen with this condition. Patients with _myxedema_ have been observed to have edema of the gut wall with mucopolysaccharide deposition, although whether this contributes to the colonic hypomotility seen commonly in _clinical hypothyroidism_ is uncertain. Patients on _long-term renal dialysis_ have prolonged age-adjusted transit time, more so in hemodialysis than peritoneal dialysis. In a questionnaire study in Japan, 63% of hemodialysis patients complained of constipation. Important contributors to this problem were high (49%), including use of resin to avoid hyperkalemia, suppression of the defecation urge while undergoing dialysis, and low fiber intake. Resin administration also places older inpatients at risk of fecal impaction.
+_Hypokalemia_ produces neuronal dysfunction that minimizes acetylcholine stimulation of gut smooth muscle and so prolongs transit through the gut. Hypokalemia should be excluded in cases of colonic pseudo-obstruction and sigmoid volvulus. _Hypercalcemia_ causes conduction delay within the extrinsic and intrinsic innervation of the gut. Surgical treatment of hyperparathyroidism reverses the neuromuscular bowel dysfunction seen with this condition. Patients with _myxedema_ have been observed to have edema of the gut wall with mucopolysaccharide deposition, although whether this contributes to the colonic hypomotility seen commonly in _clinical hypothyroidism_ is uncertain. Patients on _long-term renal dialysis_ have prolonged age-adjusted transit time, more so in hemodialysis than peritoneal dialysis. In a questionnaire study in Japan, 63% of hemodialysis patients complained of constipation. Important contributors to this problem were high (49%), including use of resin to avoid hyperkalemia, suppression of the defecation urge while undergoing dialysis, and low fiber intake. Resin administration also places older inpatients at risk of fecal impaction.
 
 ### Colorectal Cancer
 
@@ -319,7 +356,7 @@ Constipation is a common, treatable, preventable, and often overlooked cause of 
 
 In one study, overflow (continuous fecal soiling and fecal impaction on rectal examination) was the underlying problem in 52% of frail nursing home residents with longstanding fecal incontinence. A therapeutic intervention consisting of enemas until no further response followed by lactulose achieved complete resolution of incontinence in 94% with full treatment adherence. Notably, this study showed that only 4% of nursing home residents with longstanding fecal incontinence had been referred for further assessment, reflecting a tendency toward unnecessarily conservative nursing management (eg, use of pads and undergarments only). Another nursing home study found that daily lactulose and suppositories plus weekly enemas only effectively resolved overflow incontinence when complete rectal emptying was consistently achieved over a period of 2 months. An effective therapeutic program for overflow incontinence depends on the following:
 
-- Regular toileting (ideally every 2 hours, which also - promotes mobility)
+- Regular toileting (ideally every 2 hours, which also promotes mobility)
 
 - Monitoring of treatment effect by rectal examination and bowel chart
 
@@ -336,11 +373,11 @@ Fecal impaction is an important cause of comorbidity in older patients, increasi
 
 ### Urinary Retention/lower Urinary Tract Symptoms
 
-Rectosigmoid fecal loading may impinge on the bladder neck causing some degree of urinary retention. Two Finnish studies of older women and men showed an independent association between constipation and lower urinary tract symptoms (LUTS) in both genders. A case-control study in hospitalized women aged 65 and older found that after adjustment for relevant confounders, constipation was the primary predictor of urinary retention, increasing the risk of retention fourfold as measured by portable ultrasound postvoid residual (PVR) > 100 mL (other predictors were urinary tract infection and previous urinary retention). Urinary symptoms of difficult voiding were unreliable in diagnosing retention in this study, suggesting that it is good practice to do screening PVRs in hospitalized older women with constipation, particularly in the context of coexisting urinary tract infection. A prospective cohort study examined the impact of treating chronic constipation on coexisting urinary symptoms in older people (mean age 72). After 4 months, there was a significant improvement in constipation, as well as urgency, frequency, and voiding difficulty, mean PVR (reduced from 85–30 mL), and fewer urinary tract infections. There are also case reports in frail older people ·- of bilateral hydronephrosis associated with renal failure - that resolved following fecal disimpaction. Other urinary symptoms, including those of overactive bladder may be caused by stimulation of pelvic nerves by the distended rectum. Thus, bowel management is a key aspect of managing urinary incontinence in older people.
+Rectosigmoid fecal loading may impinge on the bladder neck causing some degree of urinary retention. Two Finnish studies of older women and men showed an independent association between constipation and lower urinary tract symptoms (LUTS) in both genders. A case-control study in hospitalized women aged 65 and older found that after adjustment for relevant confounders, constipation was the primary predictor of urinary retention, increasing the risk of retention fourfold as measured by portable ultrasound postvoid residual (PVR) > 100 mL (other predictors were urinary tract infection and previous urinary retention). Urinary symptoms of difficult voiding were unreliable in diagnosing retention in this study, suggesting that it is good practice to do screening PVRs in hospitalized older women with constipation, particularly in the context of coexisting urinary tract infection. A prospective cohort study examined the impact of treating chronic constipation on coexisting urinary symptoms in older people (mean age 72). After 4 months, there was a significant improvement in constipation, as well as urgency, frequency, and voiding difficulty, mean PVR (reduced from 85–30 mL), and fewer urinary tract infections. There are also case reports in frail older people of bilateral hydronephrosis associated with renal failure that resolved following fecal disimpaction. Other urinary symptoms, including those of overactive bladder may be caused by stimulation of pelvic nerves by the distended rectum. Thus, bowel management is a key aspect of managing urinary incontinence in older people.
 
 ### Stercoral Perforation
 
-Fecal impaction increases the risk of stercoral perforation of the wall of the colon (usually sigmoid) secondary to - ischemic necrosis. Stercoral perforation can also occur in chronically constipated persons where pressure from a hard fecaloma produces an ulcer with characteristically necrotic and inflammatory edges; these individuals tend to present with sudden onset of acute abdominal pain. Prompt surgical intervention and rigorous treatment of peritonitis are needed to prevent the high mortality rate associated with this condition. A case-control study found that the most prevalent risk factor for colon ischemia in 700 cases was the use of drugs that cause constipation (one in three cases compared to only one in nine controls).
+Fecal impaction increases the risk of stercoral perforation of the wall of the colon (usually sigmoid) secondary to ischemic necrosis. Stercoral perforation can also occur in chronically constipated persons where pressure from a hard fecaloma produces an ulcer with characteristically necrotic and inflammatory edges; these individuals tend to present with sudden onset of acute abdominal pain. Prompt surgical intervention and rigorous treatment of peritonitis are needed to prevent the high mortality rate associated with this condition. A case-control study found that the most prevalent risk factor for colon ischemia in 700 cases was the use of drugs that cause constipation (one in three cases compared to only one in nine controls).
 
 ### Sigmoid Volvulus
 
@@ -358,7 +395,7 @@ Chronic constipation in frail older people is the leading cause of sigmoid volvu
 
 ### Colonic Pseudo-Obstruction
 
-Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in hospitalized frail older people with a history of chronic constipation who are acutely medically ill, or in postoperative phase. It presents with abdominal distension and colonic dilatation on x-ray, with a cecal diameter of 10 cm or more. Nothing by mouth, flatus r-~ - tube, and correction of electrolyte imbalances (particularly potassium and magnesium) are initial treatments, pro-~ gressing to neostigmine (if no cardiac contraindications), and then endoscopic decompression if dilatation persists. I - - - - _- I ___a.. Administration of polyethylene glycol after initial resolution of colonic dilatation has been shown to reduce the likelihood of recurrence requiring escalation of therapy. ----
+Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in hospitalized frail older people with a history of chronic constipation who are acutely medically ill, or in postoperative phase. It presents with abdominal distension and colonic dilatation on x-ray, with a cecal diameter of 10 cm or more. Nothing by mouth, flatus tube, and correction of electrolyte imbalances (particularly potassium and magnesium) are initial treatments, progressing to neostigmine (if no cardiac contraindications), and then endoscopic decompression if dilatation persists. Administration of polyethylene glycol after initial resolution of colonic dilatation has been shown to reduce the likelihood of recurrence requiring escalation of therapy.
 
 ### Rectal Prolapse
 
@@ -393,21 +430,18 @@ Perianal fecal soiling is a common and embarrassing symptom that patients are re
 IBS should be a diagnosis of exclusion in older people and only made in those with a many-year history of intermittent symptoms such as abdominal distension or pain relieved by defecation, passage of mucus, and feeling of incomplete emptying (Rome criteria). Rectal pain associated with defecation should alert the physician to rectal ischemia as well as to other more common anorectal conditions. Rectal bleeding should prompt further evaluation for an underlying tumor, unless examination clearly reveals bright red blood from anal fissure or hemorrhoids. Lower urinary tract symptoms may be exacerbated by constipation and should be documented.
 
 A person’s attitude toward their bowel problem (positive, acceptance, denial, distress, apathy) and the impact on their quality of life should be included when
-
 <a id="p1364"></a>**[p. 1364]**
+taking a history. Some health care providers share the generally held belief that constipation is an inevitable consequence of aging, and patients may feel that their problem is not taken seriously. A thorough clinical history and assessment is an important first step in developing a sound patient–physician partnership, which enhances successful outcomes in managing what is usually a chronic condition.
+
 ![Figure 87-3](hazzard8e_ch87_figure87-3.png)
 
 > *FIGURE 87-3. A practical approach to assessment of constipation in older people.<sup>*</sup> Because anorectal manometry and rectal balloon expulsion test may not be available in all practice settings, it is acceptable in such circumstances to proceed to assessing colonic transit with the understanding that delayed colonic transit does not exclude a defecatory disorder. (Reproduced with permission from American Gastroenterological Association, Bharucha AE, Dorn SD, et al. American Gastroenterological Association medical position statement on constipation. _Gastroenterology_ . 2013;144[1]:211–217.)*
 
 > Highlighting is the owner's annotation, not the book's.
 
-taking a history. Some health care providers share the generally held belief that constipation is an inevitable consequence of aging, and patients may feel that their problem is not taken seriously. A thorough clinical history and assessment is an important first step in developing a sound patient–physician partnership, which enhances successful outcomes in managing what is usually a chronic condition.
-
 ### Digital Rectal Examination
 
-Digital rectal examination is required in all patients who report constipation to reveal rectal impaction, rectal dilatation, hemorrhoids, anorectal disease, and perianal fecal soiling. Retained stool in rectal impaction does not have to be hard; loading with soft stool is common in older people taking laxatives who have problems with rectal outlet delay. Absence of stool on rectal examination does not exclude the diagnosis of constipation. A dilated rectum with diminished sensation and retained stool suggests rectal dysmotility. External sphincter tone is
-
-assessed by asking the patient to “squeeze and pull up” around the examining finger. Indicators of reduced internal anal tone are easy insertion of the finger into the anal canal and gaping of the anus on applying gentle traction to the anal margin. Anal sphincter weakness should prompt (1) careful prescribing to avoid causing fecal leakage though excessive laxative-induced softness of stool, and (2) instruction in exercises to strengthen the anal sphincter ( **Table 87-7** ). Absent cutaneous-anal reflex (gentle scratching of the anal margin should normally induce a visible contraction of the external sphincter) and, in particular, perianal anesthesia point to significant sacral cord dysfunction with associated rectal dysmotility. Proctoscopy is a simple, quick, and useful test for diagnosing internal hemorrhoids and abnormalities of the rectal wall.
+Digital rectal examination is required in all patients who report constipation to reveal rectal impaction, rectal dilatation, hemorrhoids, anorectal disease, and perianal fecal soiling. Retained stool in rectal impaction does not have to be hard; loading with soft stool is common in older people taking laxatives who have problems with rectal outlet delay. Absence of stool on rectal examination does not exclude the diagnosis of constipation. A dilated rectum with diminished sensation and retained stool suggests rectal dysmotility. External sphincter tone is assessed by asking the patient to “squeeze and pull up” around the examining finger. Indicators of reduced internal anal tone are easy insertion of the finger into the anal canal and gaping of the anus on applying gentle traction to the anal margin. Anal sphincter weakness should prompt (1) careful prescribing to avoid causing fecal leakage though excessive laxative-induced softness of stool, and (2) instruction in exercises to strengthen the anal sphincter ( **Table 87-7** ). Absent cutaneous-anal reflex (gentle scratching of the anal margin should normally induce a visible contraction of the external sphincter) and, in particular, perianal anesthesia point to significant sacral cord dysfunction with associated rectal dysmotility. Proctoscopy is a simple, quick, and useful test for diagnosing internal hemorrhoids and abnormalities of the rectal wall.
 
 ### Pelvic Floor And Rectal Prolapse
 
@@ -417,35 +451,48 @@ Excessive perineal descent can be observed by asking the patient to “bear down
 
 **Table 87-6 — Diagnosis of constipation in older people**
 
-- *Bowel History*: Number of bowel movements per week Stool consistency Straining/symptoms of rectal outlet delay Duration of constipation Fecal incontinence/soiling Irritable bowel syndrome symptoms (abdominal pain, bloating, passage of mucus) Rectal pain or bleeding Laxative use, prior and current Psychological and quality of life impact of bowel problem Urinary incontinence/lower urinary tract symptoms
-- *General History*: Mood/cognition Symptoms of systemic illness (weight loss, anemia) Relevant comorbidities (eg, diabetes, neurologic disease) Mobility Diet Medications Toilet access (location of bathroom, manual dexterity, vision)
-- *Specific Physical Examination*: Digital rectal examination including external and internal sphincter tone Perianal sensation/cutaneous anal reflex Rectal prolapse/hemorrhoids Pelvic floor descent/rectocele Abdominal palpation, auscultation Neurologic, cognitive,
+- *Bowel History*
+  - Number of bowel movements per week
+  - Stool consistency
+  - Straining/symptoms of rectal outlet delay
+  - Duration of constipation
+  - Fecal incontinence/soiling
+  - Irritable bowel syndrome symptoms (abdominal pain, bloating, passage of mucus)
+  - Rectal pain or bleeding
+  - Laxative use, prior and current
+  - Psychological and quality of life impact of bowel problem
+  - Urinary incontinence/lower urinary tract symptoms
+- *General History*
+  - Mood/cognition
+  - Symptoms of systemic illness (weight loss, anemia)
+  - Relevant comorbidities (eg, diabetes, neurologic disease)
+  - Mobility
+  - Diet
+  - Medications
+  - Toilet access (location of bathroom, manual dexterity, vision)
+- *Specific Physical Examination*
+  - Digital rectal examination including external and internal sphincter tone
+  - Perianal sensation/cutaneous anal reflex
+  - Rectal prolapse/hemorrhoids
+  - Pelvic floor descent/rectocele
+  - Abdominal palpation, auscultation
+  - Neurologic, cognitive, and functional examination
+- *Tests*
+  - Indications for plain abdominal radiograph
+    - Empty rectum with clinical suspicion of constipation
+    - Evaluation for fecal impaction
+    - Persistent fecal incontinence despite clearing of any rectal impaction
+    - Evaluation of abdominal distension, pain, or acute discomfort
+    - Persisting complaints of constipation with increasing laxative usage
+  - Indications for colonoscopy
+    - Systemic illness (weight loss, anemia, etc.)
+    - Bleeding per rectum
+    - Recent change in bowel habit without obvious risk factors
+  - Indications for anorectal function tests
+    - Severe or persistent symptoms of rectal outlet delay
+    - Persistent fecal incontinence with clinical evidence of anal sphincter weakness
 
-and functional examination
-
-##### _Tests_
-
-Indications for plain abdominal radiograph Empty rectum with clinical suspicion of constipation Evaluation for fecal impaction
-
-- Persistent fecal incontinence despite clearing of any rectal impaction
-
-- Evaluation of abdominal distension, pain, or acute discomfort
-
-- Persisting complaints of constipation with increasing laxative usage
-
-Indications for colonoscopy Systemic illness (weight loss, anemia, etc.) Bleeding per rectum
-
-Recent change in bowel habit without obvious risk factors
-
-- Indications for anorectal function tests
-
-Severe or persistent symptoms of rectal outlet delay
-
-Persistent fecal incontinence with clinical evidence of anal sphincter weakness
-
-Normal perineal descent is less than 4 cm (can be eyeballed by drawing an imaginary line between that ischeal prominences). Rectal prolapse may also be observed in this manner, though lesser degrees of prolapse may only
-
-be identified by having the patient strain while sitting on a toilet or commode. An examination for posterior vaginal prolapse (bearing down in the gynecological position) is appropriate in all women with constipation, especially those reporting incomplete rectal emptying and the need to manually evacuate their rectum.
+Normal perineal descent is less than 4 cm (can be eyeballed by drawing an imaginary line between that ischeal prominences). Rectal prolapse may also be observed in this manner, though lesser degrees of prolapse may only be identified by having the patient strain while sitting on a toilet or commode. An examination for posterior vaginal prolapse (bearing down in the gynecological position) is appropriate in all women with constipation, especially those reporting incomplete rectal emptying and the need to manually evacuate their rectum.
 
 ### Plain Abdominal X-Ray
 
@@ -457,74 +504,75 @@ Clinical diagnosis can often be made by a thorough history and examination. Howe
 
 - Rectal loading with a clear colon—patient requires suppositories or enemas, and no increase and possibly a reduction in laxatives.
 
-Rectal air with marked fecal loading in the descending colon may correlate with normal-transit constipation or an evacuation disorder ( **Figure 87-4A** ). Marked fecal loading in the ascending and transverse colon correlates well with prolonged transit time, or slow-transit constipation, as does the presence of feces rather than air in the cecum
-
-( **Figure 87-4B** ). Dilatation of the colon (> 6.5 cm maximum diameter) in the absence of acute obstruction points toward megacolon ( **Figure 87-4C)** . Rectal dilatation (> 4 cm) implies dysmotility and evacuation problems. Finally, in patients with abdominal distension and/or pain, an abdominal radiograph is necessary to rule out acute problems such as sigmoid volvulus and small bowel obstruction secondary to severe impaction.
+Rectal air with marked fecal loading in the descending colon may correlate with normal-transit constipation or an evacuation disorder ( **Figure 87-4A** ). Marked fecal loading in the ascending and transverse colon correlates well with prolonged transit time, or slow-transit constipation, as does the presence of feces rather than air in the cecum ( **Figure 87-4B** ). Dilatation of the colon (> 6.5 cm maximum diameter) in the absence of acute obstruction points toward megacolon ( **Figure 87-4C)** . Rectal dilatation (> 4 cm) implies dysmotility and evacuation problems. Finally, in patients with abdominal distension and/or pain, an abdominal radiograph is necessary to rule out acute problems such as sigmoid volvulus and small bowel obstruction secondary to severe impaction.
 
 ### Anorectal Function Tests
 
 Anorectal function tests should be considered in assessment of constipation in older people if a rectal evacuation disorder is suspected (see **Figure 87-2** ). Anorectal manometry and balloon expulsion should be considered as initial assessment in patients who have not responded to fiber. They may be indicated in patients with severe and persistent rectal outlet delay, in order to diagnose pelvic dyssynergia, which is more effectively treated by biofeedback than laxatives. Another indication is fecal incontinence of formed stool that persists despite clearing of fecal impaction. Balloon expulsion is a simple procedure that evaluated the ability to defecate a water-filled balloon. During the balloon expulsion, the time required to expel the balloon
 
 <a id="p1366"></a>**[p. 1366]**
-**Table 87-7 — Patient education**
 
-- *Toilet Habits and Positioning*: Do not delay having a bowel movement when you feel the urge.
+**Table 87-7 — Patient education<sup>a</sup>**
 
-Put aside a particular time each day (we would advise after breakfast) when you can sit on the toilet without being in a hurry. A relaxed attitude to bowel evacuation will especially help if you have problems with straining or a feeling of anal blockage. If straining is a problem, it is helpful to have a footstool under your feet while sitting on the toilet as this increases the ability of your abdominal muscles to help evacuation of stool.
-- *Abdominal Massage*: Lie on the bed with pillows under your head and shoulders.
+*Toilet Habits and Positioning*
 
-Your knees should be bent up with a pillow underneath them for support.
+- Do not delay having a bowel movement when you feel the urge.
+- Put aside a particular time each day (we would advise after breakfast) when you can sit on the toilet without being in a hurry.
+- A relaxed attitude to bowel evacuation will especially help if you have problems with straining or a feeling of anal blockage.
+- If straining is a problem, it is helpful to have a footstool under your feet while sitting on the toilet as this increases the ability of your abdominal muscles to help evacuation of stool.
 
-Cover your abdomen with a light sheet.
+*Abdominal Massage*
 
-Massage your abdomen with firm but gentle circular movements starting at the right side and working across to the left side. Continue the massage for approxim
+- Lie on the bed with pillows under your head and shoulders.
+- Your knees should be bent up with a pillow underneath them for support.
+- Cover your abdomen with a light sheet.
+- Massage your abdomen with firm but gentle circular movements starting at the right side and working across to the left side.
+- Continue the massage for approximately 10 min.
+- This massage should be a pleasant experience—if you feel any discomfort then stop.
 
-ately 10 min.
+*Diet*
 
-This massage should be a pleasant experience—if you feel any discomfort then stop.
+- To help prevent constipation you should eat more of the foods from List A and less of the foods from List B. Foods in List A tend to make the stool softer and easier to pass, because they are high in fiber. Foods in List B tend to make the stool harder, because they bind together the contents of the bowel.
+- List A: Fresh fruit, prunes and other dried fruit, whole meal bread, bran cereals and porridge, salad, cooked vegetables (with skin where possible), beans, lentils.
+- List B: Milk, hard cheese, yogurt, white bread or crackers, refined cereals, cakes, pancakes, noodles, white rice, chocolate, creamed soups.
+- You should increase your fiber intake gradually because sudden change in fiber content may cause temporary bloating and irregularity. It is important to eat the foods that contain fiber all through the day and not just at one meal such as breakfast.
+- Increase the amount of fluid that you drink gradually up to 8–10 glasses a day. Try to drink more water, fruit juices, and fizzy drinks.
 
-##### _Diet_
-
-To help prevent constipation you should eat more of the foods from List A and less of the foods from List B. Foods in List A tend to make the stool softer and easier to pass, because they are high in fiber. Foods in List B tend to make the stool harder, because they bind together the contents of the bowel.
-
-List A: Fresh fruit, prunes and other dried fruit, whole meal bread, bran cereals and porridge, salad, cooked vegetables (with skin where possible), beans, lentils.
-
-List B: Milk, hard cheese, yogurt, white bread or crackers, refined cereals, cakes, pancakes, noodles, white rice, chocolate, creamed soups.
-
-You should increase your fiber intake gradually because sudden change in fiber content may cause temporary bloating and irregularity. It is important to eat the foods that contain fiber all through the day and not just at one meal such as breakfast. Increase the amount of fluid that you drink gradually up to 8–10 glasses a day. Try to drink more water, fruit juices, and fizzy drinks.
-
-_Sphincter Strengthening_
+*Sphincter Strengthening*
 
 Learning to do your exercises
 
-Sit in a comfortable position with your knees slightly apart. Now imagine that you are trying to stop yourself passing wind from the bowel. To do this you must squeeze the muscle around the back passage. Try squeezing and lifting that muscle as tightly as you can. You should be able to feel the muscle move. Your buttocks, abdomen, and legs should not move at all. You should be aware of the skin around the back passage tightening and being pulled up and away from your chair. Really try to feel this. You are now exercising your anal sphincter muscles. (You do not need to hold your breath when you tighten the muscles!)
+- Sit in a comfortable position with your knees slightly apart. Now imagine that you are trying to stop yourself passing wind from the bowel. To do this you must squeeze the muscle around the back passage. Try squeezing and lifting that muscle as tightly as you can. You should be able to feel the muscle move. Your buttocks, abdomen, and legs should not move at all. You should be aware of the skin around the back passage tightening and being pulled up and away from your chair. Really try to feel this. You are now exercising your anal sphincter muscles. (You do not need to hold your breath when you tighten the muscles!)
 
 Practicing your exercises
 
-Tighten and pull up the anal sphincter muscles as tightly as you can. Hold tightened for at least 5 seconds, then relax for at least 10 sec.
+- Tighten and pull up the anal sphincter muscles as tightly as you can. Hold tightened for at least 5 seconds, then relax for at least 10 sec.
+- Repeat this exercise at least 5 times. This will work on the strength of your muscles.
+- Next, pull the muscles to approximately half of their maximum squeeze. See how long you can hold this for. Then relax for at least 10 sec.
+- Repeat at least 5 times. This will work on the endurance or staying power of your muscles.
+- Pull up the muscles as quickly and tightly as you can and then relax and then pull up again, and see how many times you can do this before you get tired. Try for at least 5 quick pull-ups. Try this quick pull-up exercise at least 10 times each day.
+- Do all these exercises as hard as you can and at least 5 times a day. As the muscles get stronger, you will find that you can do more pull-ups each time without the muscle getting tired.
+- It takes time for exercises to make muscle stronger. You may need to exercise regularly for several months before the muscles gain their full strength.
 
-Repeat this exercise at least 5 times. This will work on the strength of your muscles.
+*Instructions for Using Suppositories*
 
-Next, pull the muscles to approximately half of their maximum squeeze. See how long you can hold this for. Then relax for at least 10 sec.
+- These may be inserted into your rectum (back passage) by your nurse or caregiver or yourself if you are physically able to do it.
+- If necessary go to the toilet and empty your bowels if you can.
+- Wash your hands.
+- Remove any foil or wrapping from the suppository.
 
-Repeat at least 5 times. This will work on the endurance or staying power of your muscles.
+(Continued)
 
-Pull up the muscles as quickly and tightly as you can and then relax and then pull up again, and see how many times you can do this before you get tired. Try for at least 5 quick pull-ups. Try this quick pull-up exercise at least 10 times each day.
+<a id="p1367"></a>**[p. 1367]**
 
-Do all these exercises as hard as you can and at least 5 times a day. As the muscles get stronger, you will find that you can do more pull-ups each time without the muscle getting tired.
+**Table 87-7 — Patient education<sup>a</sup> (continued)**
 
-It takes time for exercises to make muscle stronger. You may need to exercise regularly for several months before the muscles gain their full strength.
+- Either lie on your side with your lower leg straight and your upper leg bent toward your waist or squat.
+- Gently but firmly insert the suppository, narrow end first, into the rectum using a finger. Push far enough (approximately 1 inch) so that it does not come out again.
+- You may find your body wanting to push out the suppository. Close your legs and keep still for a few minutes.
+- Try not to empty your bowels for at least 10–20 min.
 
-##### _Instructions for Using Suppositories_
-
-These may be inserted into your rectum (back passage) by your nurse or caregiver or yourself if you are physically able to do it. If necessary go to the toilet and empty your bowels if you can. Wash your hands.
-
-Remove any foil or wrapping from the suppository.
-
- <a id="p1367"></a>**[p. 1367]**
-**Table 87-7 — Patient education **(** **_continued_ )**
-
-Either lie on your side with your lower leg straight and your upper leg bent toward your waist or squat. Gently but firmly insert the suppository, narrow end first, into the rectum using a finger. Push far enough (approximately 1 inch) so that it does not come out again. You may find your body wanting to push out the suppository. Close your legs and keep still for a few minutes. Try not to empty your bowels for at least 10–20 min. aSee Constipation (Aftercare Instructions)—What You Need to … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+<sup>a</sup>See Constipation (Aftercare Instructions)—What You Need to Know. https://www.drugs.com/cg/constipation-aftercare-instructions.html.
 
 ![Figure 87-4](hazzard8e_ch87_figure87-4.png)
 
@@ -534,7 +582,7 @@ Either lie on your side with your lower leg straight and your upper leg bent tow
 
 <a id="p1368"></a>**[p. 1368]**
 
-> should be recorded, with normal range between 1 to 5 minutes. Alternatively, if spontaneous evacuation is not possible, the other outcome is to measure the additional weight added to assist in expelling the balloon. Anorectal tests (including endoanal ultrasound) can measure the integrity of the anal sphincters and thus guide management of incontinence toward conservative treatment (sphincter strengthening exercises and biofeedback therapy) or surgical intervention (sphincter reconstruction).
+should be recorded, with normal range between 1 to 5 minutes. Alternatively, if spontaneous evacuation is not possible, the other outcome is to measure the additional weight added to assist in expelling the balloon. Anorectal tests (including endoanal ultrasound) can measure the integrity of the anal sphincters and thus guide management of incontinence toward conservative treatment (sphincter strengthening exercises and biofeedback therapy) or surgical intervention (sphincter reconstruction).
 
 ### Defecography
 
@@ -548,13 +596,11 @@ There are several modalities to assess the defecatory movements and anatomy. Tra
 
 ### Colonic Transit
 
-Colonic transit is the rate at which fecal residue moves through the colon. There are several approved methods to measure colonic transit. The most common and inexpensive measurement is using radiopaque markers - (sitzmarks), which consist of the Hinton Technique. A capsule containing 24 radiopaque markers is swallowed and in 5 days, five or less markers should remain in the colon on an abdominal radiograph. Radionucleotide gamma scintigraphy or wireless pH-pressure capsule are other well-validated methods but less commonly used. The benefit of scintigraphy is that results can be obtained in 48 hours when compared to radiopaque markers. Colonic transit studies are useful to differentiate patients with slow-transit constipation versus normal -transit constipation ( **Figure 87-5** ).
+Colonic transit is the rate at which fecal residue moves through the colon. There are several approved methods to measure colonic transit. The most common and inexpensive measurement is using radiopaque markers (sitzmarks), which consist of the Hinton Technique. A capsule containing 24 radiopaque markers is swallowed and in 5 days, five or less markers should remain in the colon on an abdominal radiograph. Radionucleotide gamma scintigraphy or wireless pH-pressure capsule are other well-validated methods but less commonly used. The benefit of scintigraphy is that results can be obtained in 48 hours when compared to radiopaque markers. Colonic transit studies are useful to differentiate patients with slow-transit constipation versus normal-transit constipation ( **Figure 87-5** ).
 
 ### Colonoscopy
 
-Chronic constipation alone is not an appropriate indication for colonoscopy; the range of neoplasia found is similar to that in asymptomatic patients undergoing primary colorectal cancer screening. A meta-analysis showed that the presence of constipation as the primary indication for colonoscopy was associated with a significantly lower prevalence of colorectal cancer. Further investigation is warranted in the context of systemic illness or laboratory abnormalities. Barium enema is no longer used as the first line of testing. Colonoscopy causes significantly less discomfort than does a barium
-
-enema and is diagnostically more sensitive. A review of 400 colonoscopies in octogenarians and upwards showed a good safety profile but low cancer detection rate for symptoms (eg, constipation, abdominal pain) other than bleeding (2% vs 12%). Inadequate colonoscopies are common in older people because of poor bowel preparation. Older age, constipation, reported laxative use, tricyclic antidepressants, stroke, and dementia have been associated with inadequate preparation and thus taking longer to instrument the cecum. Clear instruction (such as booklets, visual aids, cell phone apps), split preparations instructions added by pharmacy to the product, pre-procedure phones calls, and availability of at least two alternative bowel preparation options are methods used to reduce poor bowel preparation and improve compliance in the older adults. There are no specific bowel preparation regimens for older patients recommended by the current guidelines. The most common ones in the general population include polyethylene glycol electrolyte lavage solution or sodium phosphate type laxatives. Magnesium citrate should be used cautiously in the older adults given age-related electrolyte derangement (increased levels of sodium, potassium, and magnesium). Older patients with cardiovascular disease may have increased risk of ischemic colitis when taking bisacodyl. Lastly, older patients with reduced renal function should avoid sodium phosphate as it has been associated with tubular toxicity from calcium phosphate.
+Chronic constipation alone is not an appropriate indication for colonoscopy; the range of neoplasia found is similar to that in asymptomatic patients undergoing primary colorectal cancer screening. A meta-analysis showed that the presence of constipation as the primary indication for colonoscopy was associated with a significantly lower prevalence of colorectal cancer. Further investigation is warranted in the context of systemic illness or laboratory abnormalities. Barium enema is no longer used as the first line of testing. Colonoscopy causes significantly less discomfort than does a barium enema and is diagnostically more sensitive. A review of 400 colonoscopies in octogenarians and upwards showed a good safety profile but low cancer detection rate for symptoms (eg, constipation, abdominal pain) other than bleeding (2% vs 12%). Inadequate colonoscopies are common in older people because of poor bowel preparation. Older age, constipation, reported laxative use, tricyclic antidepressants, stroke, and dementia have been associated with inadequate preparation and thus taking longer to instrument the cecum. Clear instruction (such as booklets, visual aids, cell phone apps), split preparations instructions added by pharmacy to the product, pre-procedure phones calls, and availability of at least two alternative bowel preparation options are methods used to reduce poor bowel preparation and improve compliance in the older adults. There are no specific bowel preparation regimens for older patients recommended by the current guidelines. The most common ones in the general population include polyethylene glycol electrolyte lavage solution or sodium phosphate type laxatives. Magnesium citrate should be used cautiously in the older adults given age-related electrolyte derangement (increased levels of sodium, potassium, and magnesium). Older patients with cardiovascular disease may have increased risk of ischemic colitis when taking bisacodyl. Lastly, older patients with reduced renal function should avoid sodium phosphate as it has been associated with tubular toxicity from calcium phosphate.
 
 <a id="p1369"></a>**[p. 1369]**
 
@@ -564,7 +610,7 @@ Nonpharmacologic treatments for constipation are underused as first-line managem
 
 ### Education
 
-Educating patients as to what constitutes normal bowel habit should be one of the first steps in managing selfreported constipation. Patients with no or mild symptoms of constipation should be encouraged to discontinue chronic laxative therapy. Patients who require laxative treatment for constipation should be told to aim for regular, comfortable evacuation rather than daily evacuation, which is often their preconceived norm. Educational interventions promoting lifestyle changes for patients with chronic constipation should focus on exercise and diet. In order to persuade older people with constipation to change their lifestyle, they need to be convinced that:
+Educating patients as to what constitutes normal bowel habit should be one of the first steps in managing self-reported constipation. Patients with no or mild symptoms of constipation should be encouraged to discontinue chronic laxative therapy. Patients who require laxative treatment for constipation should be told to aim for regular, comfortable evacuation rather than daily evacuation, which is often their preconceived norm. Educational interventions promoting lifestyle changes for patients with chronic constipation should focus on exercise and diet. In order to persuade older people with constipation to change their lifestyle, they need to be convinced that:
 
 - Their current behaviors are “bad for their bowels.”
 
@@ -574,9 +620,7 @@ Educating patients as to what constitutes normal bowel habit should be one of th
 
 - They have the skills and knowledge to modify their own lifestyle to improve their constipation, if they choose to do so.
 
-It is important to provide people with clearly written educational materials. A randomized controlled trial in stroke survivors with constipation evaluated the impact of a one-off nurse-led assessment (with feedback to primary care physician) and an educational session including provision of a booklet (Bowels and bladder | Heart and Stroke Foundation from https://www.heartandstroke.ca/stroke/recoveryand-support/physical-changes/bowels-and-bladder). At 6 months after intervention, subjects reported improved
-
-bowel function in terms of number and normality of bowel movements; at 1 year, they were more likely to be altering their diet and fluid intake to control their bowel problem. **Table 87-7** illustrates some of the patient-centered instructions from this study booklet, which are relevant to all older people with constipation.
+It is important to provide people with clearly written educational materials. A randomized controlled trial in stroke survivors with constipation evaluated the impact of a one-off nurse-led assessment (with feedback to primary care physician) and an educational session including provision of a booklet (Bowels and bladder | Heart and Stroke Foundation from https://www.heartandstroke.ca/stroke/recovery-and-support/physical-changes/bowels-and-bladder). At 6 months after intervention, subjects reported improved bowel function in terms of number and normality of bowel movements; at 1 year, they were more likely to be altering their diet and fluid intake to control their bowel problem. **Table 87-7** illustrates some of the patient-centered instructions from this study booklet, which are relevant to all older people with constipation.
 
 Other trials have sought to influence fiber intake at a population level. Nutrition newsletters sent to older Americans in their homes significantly improved their dietary fiber intake. Another community intervention used media and social marketing in educational targeting of small retirement communities under the theme “Bread: It’s a Great Way to Go,” and reported a result of a 49% decrease in laxative sales and 58% increase in sales of whole meal and whole grain bread.
 
@@ -585,22 +629,18 @@ Educating caregivers on maintaining fecal continence in patients with dementia (
 ## Diet
 
 Fiber increases stool frequency either by accelerating time or by increasing stool bulk. A systematic review of six randomized controlled trials (four with soluble fiber, and two with insoluble fiber) showed that soluble fiber led to improvements of global symptoms, straining, pain on defecation, and stool consistency. Also, there was an increase in stool frequency per week. Mixed fiber and psyllium were compared in a randomized controlled trial with both equally improving constipation and quality of life; mixed fiber was more effective in relieving flatulence, bloating and dissolved better. A meta-analysis of 20 nonrandomized studies in younger adults with constipation associated additional wheat bran with increased stool weight and decreased transit time. Evidence for the effectiveness of fiber in treatment of constipation in older people is more equivocal. In one community study, higher fiber intake was associated with lower laxative use among older women, but in another study, higher intake of bran was associated with no reduction in constipation symptoms and greater fecal loading in the colon on abdominal radiography. In older hospitalized patients, daily bran supplementation increased weekly bowel movement frequency and improved overall symptoms as compared with placebo. There have been several “before and after” studies in nursing home residents
-
 <a id="p1370"></a>**[p. 1370]**
+reporting that addition of dietary fiber (ranging from bran to processed pea hull) or fruit mixtures (apple puree to fruit porridge) to the daily diet improved bowel movement frequency and consistency and reduced laxative intake and the need for nursing intervention. Bias cannot be excluded from these nursing home studies, including that of concomitant increased fluid intake contributing to these positive results. Despite these reservations, these observational studies emphasize the usefulness of increasing dietary fiber, fluid, and fruit in older people at high risk of constipation. Additional benefits may be observed; for instance, adding oat bran to the diet in one study reduced cholesterol levels more markedly in older versus younger women.
 
-> reporting that addition of dietary fiber (ranging from bran to processed pea hull) or fruit mixtures (apple puree to fruit porridge) to the daily diet improved bowel movement frequency and consistency and reduced laxative intake and the need for nursing intervention. Bias cannot be excluded from these nursing home studies, including that of concomitant increased fluid intake contributing to these positive results. Despite these reservations, these observational studies emphasize the usefulness of increasing dietary fiber, fluid, and fruit in older people at high risk of constipation. Additional benefits may be observed; for instance, adding oat bran to the diet in one study reduced cholesterol levels more markedly in older versus younger women.
-
-risk of constipation. Additional benefits may be observed; for instance, adding oat bran to the diet in one study reduced cholesterol levels more markedly in older versus younger women. The recommended daily fiber intake is 20 to 35 g per day with patients starting at a low dose of 3 to 4 g daily and increasing gradually as tolerated. While coarse bran rather than refined fiber is more effective in increasing stool fluid weight, it is far less palatable, and is more likely to cause initial symptoms of increased bloating, flatulence, and irregular bowel movements. Fiber should therefore be recommended to older individuals in the form of foods such as whole meal or whole grain bread, porridge, fresh fruit (preferably unpeeled), seeded berries, raw or cooked vegetables, beans, and lentils. A crossover trial in subjects aged 60 and older that entailed taking a daily kiwi fruit resulted in bulkier and softer stools and increased bowel movement frequency. Fiber supplementation should also be culturally appropriate. Chinese food is typically low in fiber, and dietary additives such as konjac glucomannan can serve as “natural laxatives.” Other examples of natural laxatives are aloe vera and rhubarb, both of which contain stimulant anthraquinone derivatives similar to senna.
+The recommended daily fiber intake is 20 to 35 g per day with patients starting at a low dose of 3 to 4 g daily and increasing gradually as tolerated. While coarse bran rather than refined fiber is more effective in increasing stool fluid weight, it is far less palatable, and is more likely to cause initial symptoms of increased bloating, flatulence, and irregular bowel movements. Fiber should therefore be recommended to older individuals in the form of foods such as whole meal or whole grain bread, porridge, fresh fruit (preferably unpeeled), seeded berries, raw or cooked vegetables, beans, and lentils. A crossover trial in subjects aged 60 and older that entailed taking a daily kiwi fruit resulted in bulkier and softer stools and increased bowel movement frequency. Fiber supplementation should also be culturally appropriate. Chinese food is typically low in fiber, and dietary additives such as konjac glucomannan can serve as “natural laxatives.” Other examples of natural laxatives are aloe vera and rhubarb, both of which contain stimulant anthraquinone derivatives similar to senna.
 
 ### Fluids
 
-A randomized controlled trial in adults aged 18 to 50 with chronic constipation showed that the beneficial effect of increased dietary fiber was significantly enhanced by increasing fluid intake to 1.5 to 2 L daily. This level of fluid intake is often not practical or acceptable to frail older patients, many of whom restrict fluid intake because of overactive bladder symptoms. Upping fluid intake by two 8-ounce beverages a day for 5 weeks in dependent nursing home residents significantly increased bowel movement frequency and reduced laxative use. This “hydration program” used a colorful beverage cart and four beverage choices to stimulate residents’ interest in drinking. Caffeine - is known to increase both bowel and bladder smooth muscle activity, though its impact on constipation in older people is not documented.
+A randomized controlled trial in adults aged 18 to 50 with chronic constipation showed that the beneficial effect of increased dietary fiber was significantly enhanced by increasing fluid intake to 1.5 to 2 L daily. This level of fluid intake is often not practical or acceptable to frail older patients, many of whom restrict fluid intake because of overactive bladder symptoms. Upping fluid intake by two 8-ounce beverages a day for 5 weeks in dependent nursing home residents significantly increased bowel movement frequency and reduced laxative use. This “hydration program” used a colorful beverage cart and four beverage choices to stimulate residents’ interest in drinking. Caffeine is known to increase both bowel and bladder smooth muscle activity, though its impact on constipation in older people is not documented.
 
 ### Physical Activity
 
-A randomized controlled trial in middle-aged inactive patients with chronic constipation showed that regular physical activity (30-min brisk walk and 11-min home exercises a day) decreased colonic and rectosigmoid transit
-
-time and improved defecation. A systematic review and meta-analysis of eight studies involving aerobic exercise and one study involving anaerobic exercise indicated that exercise may be an effective treatment for constipation. A review of physical activity interventions in older adults concluded that incorporating exercise naturally into a person’s day tends to provide the most effective means for increasing activity levels. Studies conducted in older nursing home patients showed the following outcome:
+A randomized controlled trial in middle-aged inactive patients with chronic constipation showed that regular physical activity (30-min brisk walk and 11-min home exercises a day) decreased colonic and rectosigmoid transit time and improved defecation. A systematic review and meta-analysis of eight studies involving aerobic exercise and one study involving anaerobic exercise indicated that exercise may be an effective treatment for constipation. A review of physical activity interventions in older adults concluded that incorporating exercise naturally into a person’s day tends to provide the most effective means for increasing activity levels. Studies conducted in older nursing home patients showed the following outcome:
 
 - Six months of moderate-intensity exercise training had no impact on constipation symptoms or habitual physical activity randomized controlled trial (RCT).
 
@@ -612,7 +652,7 @@ Existing evidence would tend to support exercise programs to influence constipat
 
 ### Abdominal Massage
 
-Abdominal massage added to the standard bowel regimen in spinal cord patients has been shown to shorten colonic transit time and increase weekly bowel movement -- frequency. A vibrating device that applied kneading force to the abdomen once a day for 20 minutes was evaluated in older constipated nursing home residents, and after 12 weeks resulted in softening of stool, increased bowel movement frequency, and a 47% reduction in transit time. Case reports show that physiotherapists can incorporate daily 10-minute abdominal massage into home activity programs for community-dwelling people suffering from constipation with good effect.
+Abdominal massage added to the standard bowel regimen in spinal cord patients has been shown to shorten colonic transit time and increase weekly bowel movement frequency. A vibrating device that applied kneading force to the abdomen once a day for 20 minutes was evaluated in older constipated nursing home residents, and after 12 weeks resulted in softening of stool, increased bowel movement frequency, and a 47% reduction in transit time. Case reports show that physiotherapists can incorporate daily 10-minute abdominal massage into home activity programs for community-dwelling people suffering from constipation with good effect.
 
 ### Biofeedback: Pelvic Floor Rehabilitation And Sphincter Strengthening Exercises
 
@@ -630,15 +670,13 @@ The evidence recommended for these studies overall is low because the majority o
 
 A randomized controlled trial showed that home-based biofeedback improved the number of CSBM per week and quality of life with similar efficacy to office-based biofeedback and was a cost-effective treatment.
 
-Where rectal outlet delay and/or persistent straining is associated with excessive pelvic floor descent, pelvic strengthening exercises should be employed. In women, it is helpful to do the teaching while undertaking a pelvic examination (with the examining hand resting on the posterior vaginal wall), so that positive verbal feedback can be given when the patient correctly contracts the pelvic floor. Pelvic floor retraining can help rectal outlet symptoms, but a greater degree of perineal descent is predictive of poorer treatment responses. Patients with fecal soiling and/or weak external sphincter should be taught sphincterstrengthening exercises (see **Table 87-7** ).
+Where rectal outlet delay and/or persistent straining is associated with excessive pelvic floor descent, pelvic strengthening exercises should be employed. In women, it is helpful to do the teaching while undertaking a pelvic examination (with the examining hand resting on the posterior vaginal wall), so that positive verbal feedback can be given when the patient correctly contracts the pelvic floor. Pelvic floor retraining can help rectal outlet symptoms, but a greater degree of perineal descent is predictive of poorer treatment responses. Patients with fecal soiling and/or weak external sphincter should be taught sphincter-strengthening exercises (see **Table 87-7** ).
 
 Biofeedback and pelvic strengthening exercises are not a feasible option for older patients with significant cognitive impairment, as executive dysfunction can interfere with cooperating and learning the exercises, and memory impairment can interfere with practicing and using the exercises.
 
 ### Visceral Manipulation
 
-Visceral manipulation can be used in patients who have failed feedback. This approach, which is commonly used by osteopaths, consists of the mobilization of the bowels through gentle manipulation to normalize their mechanical, vascular, and neurologic dysfunction with subsequent function improve improvement. The benefit of this therapy in constipation may be related to the loss of resilience in structures surrounding the peritoneal bowels. A randomized, controlled, double-blind, clinical trial including 30 patients with a mean age of 66 years and recent history of stroke compared visceral manipulation versus standard physical therapy. Significant improvements in frequency of bowel movements, difficulty defecating, and sensation
-
-of incomplete bowel movement were seen in the visceral manipulation group.
+Visceral manipulation can be used in patients who have failed feedback. This approach, which is commonly used by osteopaths, consists of the mobilization of the bowels through gentle manipulation to normalize their mechanical, vascular, and neurologic dysfunction with subsequent function improve improvement. The benefit of this therapy in constipation may be related to the loss of resilience in structures surrounding the peritoneal bowels. A randomized, controlled, double-blind, clinical trial including 30 patients with a mean age of 66 years and recent history of stroke compared visceral manipulation versus standard physical therapy. Significant improvements in frequency of bowel movements, difficulty defecating, and sensation of incomplete bowel movement were seen in the visceral manipulation group.
 
 ### Toileting Habits And Access
 
@@ -648,31 +686,32 @@ Toilet access should be assessed and facilitated, particularly in patients with 
 
 **Table 87-8 — Toilets and toileting—maintaining privacy and dignity**
 
-A multidisciplinary assessment should be made of older person’s ability to access and use the toilet [3]. Commodes/sani-chairs/shower chairs - should be available to residents in institutional settings [3]; - should provide a safe seated position for prolonged use by older people with skin vulnerability and trunk support problems (eg, padded seat, footstool if feet are unsupported, back and arm support, grab rails, etc.) [3]. Older people should be given the opportunity to use the toilet … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+- A multidisciplinary assessment should be made of older person’s ability to access and use the toilet [3].
+- Commodes/sani-chairs/shower chairs
+  - should be available to residents in institutional settings [3];
+  - should provide a safe seated position for prolonged use by older people with skin vulnerability and trunk support problems (eg, padded seat, footstool if feet are unsupported, back and arm support, grab rails, etc.) [3].
+- Older people should be given the opportunity to use the toilet (either directly or by using a sani-chair or shower chair) rather than a bedside commode [3].
+- Bedpans should be avoided for defecation purposes.
+- Transportation to the toilet and use of the toilet or commode should be carried out with due regard to privacy and dignity.
+- A direct method of calling for assistance should be provided when an older person is left on the toilet/commode.
+- When using a commode
+  - methods to reduce noise and odor should be offered;
+  - methods to facilitate bottom wiping should be available;
+  - in living area and cannot be emptied immediately, a chemical toilet should be offered instead [3].
 
-### Bedpans Should Be Avoided For Defecation Purposes.
-
-Transportation to the toilet and use of the toilet or commode should be carried out with due regard to privacy and dignity. A direct method of calling for assistance should be provided when an older person is left on the toilet/commode.
-
-### When Using A Commode
-
-- methods to reduce noise and odor should be offered;
-
-- methods to facilitate bottom wiping should be available;
-
-- in living area and cannot be emptied immediately, a chemical toilet should be offered instead [3].
-
-Level [1] indicates good evidence, that is, consistent results from well-designed, wellconducted studies. Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies. Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
+Level [1] indicates good evidence, that is, consistent results from well-designed, well-conducted studies.
+Level [2] indicates fair evidence, that is, results show benefit, but strength limited by number, quality, or consistency of studies.
+Level [3] indicates poor evidence, that is, insufficient because of limited number, power, or quality of studies.
 
 _Data from Potter J, Norton C, Cottenden A. Bowel Care in Older People. London, United Kingdom: Royal College of Physicians of London; 2002._
 
 <a id="p1372"></a>**[p. 1372]**
 
-> **1372 PHARMACOLOGIC TREATMENT**
+## Pharmacologic Treatment
 
 ### Laxative And Enema Use And Abuse In Older People
 
-A Food and Drug Administration (FDA) Advisory Panel has registered concern over the widespread overuse of over-the-counter (OTC) laxatives; laxatives are second only to analgesics as the most commonly used OTC medications by older people. OTC laxative use is common in the United States and Europe, and is encouraged by advertising and popular ignorance of adverse effects. Only 38% of OTC laxative users in Italy were guided in their choice of laxative by a physician. The remainder were influenced by pharmacists (21%), relatives or friends (16%), and advertisements (12%). Six percent of users reported adverse effects. Onefifth to one-third of regular laxative users do not consider themselves to be constipated, and many people take them through a misguided belief in the benefits of regular purgation. One study showed that 78% of older people who used laxatives regularly had never gone for more than 3 days without a bowel movement. Habitual rather than surreptitious abuse is more likely in older individuals; repeated purging empties the colon of stool that would normally descend into and distend the rectal ampulla, thereby removing the urge to defecate, and prompting the patient to take further laxatives.
+A Food and Drug Administration (FDA) Advisory Panel has registered concern over the widespread overuse of over-the-counter (OTC) laxatives; laxatives are second only to analgesics as the most commonly used OTC medications by older people. OTC laxative use is common in the United States and Europe, and is encouraged by advertising and popular ignorance of adverse effects. Only 38% of OTC laxative users in Italy were guided in their choice of laxative by a physician. The remainder were influenced by pharmacists (21%), relatives or friends (16%), and advertisements (12%). Six percent of users reported adverse effects. One-fifth to one-third of regular laxative users do not consider themselves to be constipated, and many people take them through a misguided belief in the benefits of regular purgation. One study showed that 78% of older people who used laxatives regularly had never gone for more than 3 days without a bowel movement. Habitual rather than surreptitious abuse is more likely in older individuals; repeated purging empties the colon of stool that would normally descend into and distend the rectal ampulla, thereby removing the urge to defecate, and prompting the patient to take further laxatives.
 
 Although patients in hospitals and nursing homes are at higher risk for constipation, this does not entirely justify the very high levels of cathartic prescribing in these settings. Seventy-six percent of hospitalized older patients are prescribed at least one type of laxative. A prospective study of 2355 nursing home residents in the Netherlands showed that over the course of 2 years, 47% were started on laxatives, with 79% of these continuing with the long-term treatment. Prescribing rates in US nursing homes are high at 54% to 74%, with almost half of these users prescribed more than one agent. Most commonly prescribed agents are stool softeners (26%), magnesium salts (18%), and stimulants (16%). Two contributing factors may lead to overprescribing of laxatives to older patients: lack of objective confirmation of the diagnosis by the prescribing physician or nurse, and prescribing patterns of laxatives that are clinically ineffective. In US nursing homes, docusate (a fecal softener with little or no laxative effect) is the predominantly prescribed agent. Docusate prescription should be discouraged, and other more effective methods of softening the stool should be prescribed.
 
@@ -680,21 +719,19 @@ Although patients in hospitals and nursing homes are at higher risk for constipa
 
 Many reported trials of laxative and enema treatment in older people are low quality, limited by unclear definitions for constipation, inconsistent outcome measurement, and underreporting of potential confounding factors during the trial period (eg, fiber intake). The absence of good level evidence may in part underlie the somewhat empirical way in which laxatives are prescribed to older people.
 
-The following conclusions are drawn from meta-analytical reviews (1997, 2001, 2002, 2004, 2010, 2011, 2018) of effi.. cacy of laxatives in treating chronic constipation in adults:
+The following conclusions are drawn from meta-analytical reviews (1997, 2001, 2002, 2004, 2010, 2011, 2018) of efficacy of laxatives in treating chronic constipation in adults:
 
 - Availability of published evidence is poor for many commonly used agents including senna, magnesium hydroxide, bisacodyl, and stool softeners.
 
-- In trials conducted in older people, significant improvements in bowel movement frequency were observed with a stimulant laxative (cascara) [3] and with lactulose [2], while psyllium [2] and lactulose [2] were
+- In trials conducted in older people, significant improvements in bowel movement frequency were observed with a stimulant laxative (cascara) [3] and with lactulose [2], while psyllium [2] and lactulose [2] were individually reported to improve stool consistency and related symptoms in placebo-controlled trials.
 
-- - individually reported to improve stool consistency and - -- related symptoms in placebo-controlled trials.
-
-- Level [1] evidence supports the use of polyethylene - glycol (PEG) in adults.
+- Level [1] evidence supports the use of polyethylene glycol (PEG) in adults.
 
 - Level [2] evidence supports the use of lactulose and psyllium in adults.
 
 - None of the currently available trials include quality of life outcomes.
 
-- A systematic review of older adults (68–85 years) at long-care facilities concluded there were insufficient data to evaluate the safety and efficacy of laxatives. Senna in combination with bulking agents had greater efficacy than lactulose based on two trials. One trial showed that senna with psyllium was found to be more effective in adult ambulatory patients than psyllium - alone.
+- A systematic review of older adults (68–85 years) at long-care facilities concluded there were insufficient data to evaluate the safety and efficacy of laxatives. Senna in combination with bulking agents had greater efficacy than lactulose based on two trials. One trial showed that senna with psyllium was found to be more effective in adult ambulatory patients than psyllium alone.
 
 - A stepped approach to laxative treatment in older people is justified, starting with cheaper laxatives before proceeding to more expensive alternatives.
 
@@ -702,7 +739,7 @@ The following conclusions are drawn from meta-analytical reviews (1997, 2001, 20
 
 ### Stimulant Laxatives
 
-_Senna_ is a cheap and safe agent for use in older patients. A trial of cascara (a similar plant-derived stimulant laxative) in older hospitalized patients increased bowel move- - ment frequency by an average of 2.6 bowel movements per week as compared to placebo. Administration of 20 mg of senna daily for 6 months to patients older than 80 years did not cause any significant losses of intestinal protein or electrolytes, and repeated studies in mice show no evidence of myenteric nerve damage resulting from its use. _Senna_ generally induces evacuation 8 to 12 hours following -- administration, and should therefore be taken at bedtime. Some patients may require several weeks of daily use before achieving a regular bowel habit. Maintenance therapy with _Senna_ is appropriate in patients with chronic constipation, and it can be used in higher doses for short-term treatment of fecal impaction. In patients with weak anal sphincters, the _Senna_ alone may be sufficient to treat constipation without causing or exacerbating fecal incontinence through excess stool softening.
+_Senna_ is a cheap and safe agent for use in older patients. A trial of cascara (a similar plant-derived stimulant laxative) in older hospitalized patients increased bowel movement frequency by an average of 2.6 bowel movements per week as compared to placebo. Administration of 20 mg of senna daily for 6 months to patients older than 80 years did not cause any significant losses of intestinal protein or electrolytes, and repeated studies in mice show no evidence of myenteric nerve damage resulting from its use. _Senna_ generally induces evacuation 8 to 12 hours following administration, and should therefore be taken at bedtime. Some patients may require several weeks of daily use before achieving a regular bowel habit. Maintenance therapy with _Senna_ is appropriate in patients with chronic constipation, and it can be used in higher doses for short-term treatment of fecal impaction. In patients with weak anal sphincters, the _Senna_ alone may be sufficient to treat constipation without causing or exacerbating fecal incontinence through excess stool softening.
 
 <a id="p1373"></a>**[p. 1373]**
 
@@ -713,6 +750,7 @@ _Senna_ is a cheap and safe agent for use in older patients. A trial of cascara 
 > Highlighting is the owner's annotation, not the book's.
 
 <a id="p1374"></a>**[p. 1374]**
+
 ![Table 87-9](hazzard8e_ch87_table87-9_p1374.png)
 
 > *Table 87-9 reproduced as a page image (printed p. 1374) — the grid did not extract reliably as text for this fast build.*
@@ -720,14 +758,21 @@ _Senna_ is a cheap and safe agent for use in older patients. A trial of cascara 
 > Highlighting is the owner's annotation, not the book's.
 
 <a id="p1375"></a>**[p. 1375]**
+
 **Table 87-10 — Newer medications for treatment of constipation**
 
-|**GENERIC NAME**<br>**(TRADE NAME)**<br>**SECRETAGOGUES**|**MECHANISM OF**<br>**ACTION**|**METABOLISM,**<br>**BIOAVAILABILTY**|**PHARMACODYNAMIC**<br>**EFFECTS**|**CLINICAL**<br>**TRAILS**|**COMMON**<br>**SIDE EFFECTS**|**CARDIOVASCULAR**<br>**SAFETY| |---|---|---|---|---|---|---| |Lubioprostone<br>(Amitiza)<sup>b</sup>|Stimulate instes-<br>tinal chloride and<br>fluid secretion by<br>activating chloride<br>channels|Intestinal<br>degradation,<br>minimal … *(table text runs longer in the printed book; not fully reproduced in this fast build)*
+| Generic name (trade name) | Mechanism of action | Metabolism, bioavailabilty | Pharmacodynamic effects | Clinical trails | Common side effects | Cardiovascular safety<sup>a</sup> |
+|---|---|---|---|---|---|---|
+| ***Secretagogues*** | | | | | | |
+| Lubioprostone (Amitiza)<sup>b</sup> | Stimulate instestinal chloride and fluid secretion by activating chloride channels | Intestinal degradation, minimal oral bioavailability | Accelerated small bowel and colonic transit in health | Phases 2 and 3 in CC, IBS-C | Diarrhea, nausea | No arrhythmic effects |
+| Linaclotide (Linzess)<sup>b</sup> | Stimulate instestinal chloride and fluid secretion by activating CFTR | Intestinal degradation, minimal oral bioavailability | Dose-related acceleration of colonic transit in IBS-C | Phases 2 and 3 in CC, IBS-C | Diarrhea | No arrhythmic effects |
+| ***Serotonin 5-HT4 receptor agonists*** | | | | | | |
+| Prucalopride<sup>c</sup> (Resolor) | High selectivity and affinity for 5-HT4 receptors; much weaker affinity for human D4 and s1 and mouse 5-HT3 receptors | Limited hepatic, not CYP3A4 | Accelerated colonic transit in health and CC | Phases 2 and 3 in CC | Diarrhea, headache | No arrhythmic activity in atrial cells; inhibits hERG at very high μmol/L concentration; no clinically relevant adverse cardiac effects in large trials (> 4000 subjects) |
 
-eration of colonic<br>transit in IBS-C|Phases 2<br>and 3 in CC,<br>IBS-C|Diarrhea|No arrhythmic<br>effects|
-|Prucalopride<sup>C</sup><br>(Resolor)|High selectivity<br>and affinity for<br>5-HT4receptors;<br>much weaker<br>affinity for human<br>D4 and s1 and<br>mouse<br>5-HT3receptors|Limited<br>hepatic, not<br>CYP3A4|Accelerated colonic<br>transit in health and<br>CC|Phases 2 and<br>3 in CC|Diarrhea,<br>headache|No arrhythmic<br>activity in atrial<br>cells; inhibits hERG<br>at very high μmol/L<br>concentration; no<br>clinically relevant<br>adverse cardiac<br>effects in large trials<br>(> 4000 subjects)|
-
-Note: Only agents that have been tested in phase 3 clinical trials are included. CC, chronic constipation. aIn addition to the listed effects, none of the agents shown in this table affect QTc in healthy subjects. bApproved by the FDA cApproved by the European Agency for Evaluation of Medical Products.
+Note: Only agents that have been tested in phase 3 clinical trials are included. CC, chronic constipation.
+<sup>a</sup>In addition to the listed effects, none of the agents shown in this table affect QTc in healthy subjects.
+<sup>b</sup>Approved by the FDA
+<sup>c</sup>Approved by the European Agency for Evaluation of Medical Products.
 
 _Bisacodyl_ is a useful alternative stimulant laxative to _Senna_ . Bisacodyl 10 mg daily improved stool frequency and consistency without side effects in a randomized, controlled trial among outpatients with a mean age of 62.
 
@@ -744,10 +789,12 @@ Furthermore, psyllium significantly lowers serum cholesterol by binding bile aci
 ### Magnesium Salts
 
 Magnesium salts are commonly prescribed to older hospitalized patients, and magnesium hydroxide is popular as an over-the-counter laxative. There is only one published study evaluating magnesium hydroxide in older people—a small trial in nursing home residents, which suggested that this laxative was more effective than a bulking agent in increasing bowel movement frequency and softening stool. Magnesium salts may be favored by physician and patient alike because of their rapid action, but in general, a gradual catharsis is preferable to restore regular bowel habit in older persons. Their potent catharsis increases the risk of
-
 <a id="p1376"></a>**[p. 1376]**
+fluid and electrolyte losses and of fecal incontinence in less-mobile people, or in those with weak sphincters. Furthermore, magnesium levels should be monitored in all older people who are using magnesium hydroxide on a regular basis, as hypermagnesemia can occur even with normal serum creatinine levels. Long-term use of magnesium hydroxide is contraindicated in chronic kidney disease. The more potent salt magnesium citrate carries an even greater risk of side effects, including promoting colonic pseudo-obstruction, and is therefore not recommended for use in the older population. Based on evidence and known side effects, there is no clear role for using magnesium salts in treatment of chronic constipation in older people.
 
-> fluid and electrolyte losses and of fecal incontinence in lessmobile people, or in those with weak sphincters. Furthermore, magnesium levels should be monitored in all older people who are using magnesium hydroxide on a regular basis, as hypermagnesemia can occur even with normal serum creatinine levels. Long-term use of magnesium hydroxide is contraindicated in chronic kidney disease. The more potent salt magnesium citrate carries an even greater risk of side effects, including promoting colonic pseudo-obstruction, and is therefore not recommended for use in the older population. Based on evidence and known side effects, there is no clear role for using magnesium salts in treatment of chronic constipation in older people. Hyperosmolar Laxatives Hyperosmolar laxatives are the most rigorously studied laxative group in the current literature. The following summarizes findings from nursing home studies: • Lactulose (or the related agent lactitol) versus placebo shortened transit time, increased bowel movement
+### Hyperosmolar Laxatives
+
+Hyperosmolar laxatives are the most rigorously studied laxative group in the current literature. The following summarizes findings from nursing home studies:
 
 - Lactulose (or the related agent lactitol) versus placebo shortened transit time, increased bowel movement frequency (by an average of 1.9 bowel movements per week), and improved stool consistency.
 
@@ -757,9 +804,7 @@ Magnesium salts are commonly prescribed to older hospitalized patients, and magn
 
 A well-designed trial in ambulatory older veterans with severe constipation also showed lactulose and sorbitol to be equally efficacious. Lactulose and sorbitol are effective agents in treating chronic constipation in older people in all health care settings, with sorbitol being the cheaper option.
 
-Polyethylene glycol (PEG) is a more potent hyperosmolar laxative than lactulose as demonstrated by its impact on transit time in normal subjects. In a randomized controlled trial in hospitalized patients with a mean age of 55, PEG produced a greater increase in bowel movement frequency and a greater reduction in straining than lactulose, but at the expense of a higher mean number of liquid stools. A similar efficacy and side-effect profile plus a reduction in laxative expenditures were shown with use in long-stay residents of a mental health institution. PEG treatment of fecal impaction (in combination with daily enemas) showed greater efficacy than lactulose, without the dehydration or hemodynamic side effects in older nursing home residents. Another trial in adults aged 17 to 88 with fecal loading on x-ray or rectal examination, and bowels not open for 3 to 5 days showed that 1 L (or 8 sachets) a day of PEG plus electrolytes for 3 days resolved impaction in 89% of patients, with few adverse effects. The current evidence base suggests that the role of PEG in older people is for
-
-acute disimpaction (ensuring that easy toilet access is guaranteed) and for regular use as a laxative only in high-risk people whose constipation has proved resistant to milder and cheaper alternatives.
+Polyethylene glycol (PEG) is a more potent hyperosmolar laxative than lactulose as demonstrated by its impact on transit time in normal subjects. In a randomized controlled trial in hospitalized patients with a mean age of 55, PEG produced a greater increase in bowel movement frequency and a greater reduction in straining than lactulose, but at the expense of a higher mean number of liquid stools. A similar efficacy and side-effect profile plus a reduction in laxative expenditures were shown with use in long-stay residents of a mental health institution. PEG treatment of fecal impaction (in combination with daily enemas) showed greater efficacy than lactulose, without the dehydration or hemodynamic side effects in older nursing home residents. Another trial in adults aged 17 to 88 with fecal loading on x-ray or rectal examination, and bowels not open for 3 to 5 days showed that 1 L (or 8 sachets) a day of PEG plus electrolytes for 3 days resolved impaction in 89% of patients, with few adverse effects. The current evidence base suggests that the role of PEG in older people is for acute disimpaction (ensuring that easy toilet access is guaranteed) and for regular use as a laxative only in high-risk people whose constipation has proved resistant to milder and cheaper alternatives.
 
 ### Stool Softeners
 
@@ -783,23 +828,19 @@ The predominance of rectal outlet delay (including manual evacuation) in older p
 
 _Lubriprostone_ is approved in the United States for the treatment of chronic constipation. It is classified as a prostone, a bicyclic fatty acid compound derived from a metabolite of prostaglandin E1, which acts locally in the small intestinal mucosa, inducing secretion of fluid and electrolytes through the activation of the type-2 chloride channels in the intestinal apical cell membrane. A secondary analysis of one trial showed that 24 μg twice daily _lubriprostone_ significantly improved the number of spontaneous bowel movements, consistency and straining rate compared to placebo in a 4-week trial among 57 patients age 65 and older, and was well tolerated with less side effects than placebo. In another secondary analysis of 163 older adults, _lubriprostone_ showed significant improvement in constipation severity, abdominal bloating, and discomfort compared to placebo.
 
-_Linaclotide_ activates guanylate cyclase C on the intestinal mucosa, resulting in increased levels of intracellular and extracellular cyclic guanosine monophosphate, which results in increased luminal secretion of chloride
-
-and bicarbonate via the cystic fibrosis transmembrane conductance regulator. A meta-analysis of seven trials in patients with IBS or chronic constipation showed that _linaclotide_ increases the number of complete spontaneous bowel movements per week and was associated with a 30% or more reduction from baseline in the weekly average of daily worst abdominal pain scores for 50% of the treatment weeks. _Linaclotide_ also improved stool form and reduced abdominal pain, bloating, and overall symptom severity. Trials are lacking in the older population, and this drug, like lubriprostone, is expensive and not covered as a firstline agent by most insurance plans in the United States.
+_Linaclotide_ activates guanylate cyclase C on the intestinal mucosa, resulting in increased levels of intracellular and extracellular cyclic guanosine monophosphate, which results in increased luminal secretion of chloride and bicarbonate via the cystic fibrosis transmembrane conductance regulator. A meta-analysis of seven trials in patients with IBS or chronic constipation showed that _linaclotide_ increases the number of complete spontaneous bowel movements per week and was associated with a 30% or more reduction from baseline in the weekly average of daily worst abdominal pain scores for 50% of the treatment weeks. _Linaclotide_ also improved stool form and reduced abdominal pain, bloating, and overall symptom severity. Trials are lacking in the older population, and this drug, like lubriprostone, is expensive and not covered as a first-line agent by most insurance plans in the United States.
 
 _Plecanatide_ is another guanylate cyclase C agonist, similar to linaclotide. Multiple placebo-controlled trials showed the efficacy of _plecanatide_ 3 and 6 mg when compared to placebo; _plecanatide_ improved bowel symptoms (stool frequency, stool consistency, cramping, discomfort fullness) and had a major percentage of responders. Mean weekly CSBM frequency also increased from baseline. Most recently, an analysis including data from phase III trials in chronic idiopathic constipation and IBS-C with patients older than 65 years (451 patients of whom 287 were randomized to _plecanatide_ ) showed that _plecanatide_ improved stool consistency from baseline at week 12 and was well tolerated.
 
 ### Enterokinetic Agents
 
-Altered serotonin (5-HT) signaling may predispose to chronic constipation, and 5-HT4 agonists (eg, _prucalopride_ ) have been shown to stimulate gastrointestinal motility and increase stool water content. The efficacy and safety of 5-HT4 agonists in treating chronic constipation were evaluated in a recent meta-analysis of 13 randomized controlled trials where 5-HT4 agonists were superior for all outcomes: mean ≥ 3 SCBM/week (RR = 1.85; 95% CI 1.23– 2.79); mean ≥ 1 SCBM over baseline (RR = 1.57; 95% CI 1.19–2.06). Two of these studies were done in older populations and _prucalopride_ was superior to placebo. Although previous 5-HT4 agonists (cisapride and tegaserod) were associated with cardiac ischemia, strokes, cardiac arrhythmias, and QTc prolongation, _prucalopride_ is not associated with major adverse cardiovascular events and has been approved in the United States. _Tenapanor_ is a selective sodium/hydrogen exchanger isoform 3 (NHE3) inhibitor. It induces increased water secretion due to a decrease in sodium absorption in the intestines. A phase III, placebocontrolled clinical study in 629 patients with IBS-C reported an increase from in baseline in average weekly number of CSBM in the _tenepanor_ group compared to placebo. Unfortunately, mean age was 45 years and data for outcomes in the older population are unknown.
+Altered serotonin (5-HT) signaling may predispose to chronic constipation, and 5-HT4 agonists (eg, _prucalopride_ ) have been shown to stimulate gastrointestinal motility and increase stool water content. The efficacy and safety of 5-HT4 agonists in treating chronic constipation were evaluated in a recent meta-analysis of 13 randomized controlled trials where 5-HT4 agonists were superior for all outcomes: mean ≥ 3 SCBM/week (RR = 1.85; 95% CI 1.23–2.79); mean ≥ 1 SCBM over baseline (RR = 1.57; 95% CI 1.19–2.06). Two of these studies were done in older populations and _prucalopride_ was superior to placebo. Although previous 5-HT4 agonists (cisapride and tegaserod) were associated with cardiac ischemia, strokes, cardiac arrhythmias, and QTc prolongation, _prucalopride_ is not associated with major adverse cardiovascular events and has been approved in the United States. _Tenapanor_ is a selective sodium/hydrogen exchanger isoform 3 (NHE3) inhibitor. It induces increased water secretion due to a decrease in sodium absorption in the intestines. A phase III, placebo-controlled clinical study in 629 patients with IBS-C reported an increase from in baseline in average weekly number of CSBM in the _tenepanor_ group compared to placebo. Unfortunately, mean age was 45 years and data for outcomes in the older population are unknown.
 
 ### Treatment Options For Opioid-Induced Constipation
 
 Constipation is the most common gastrointestinal effect of opioids, with development in 41% to 94% of users. Activation of enteric μ-opioid receptors induces a decrease in
-
 <a id="p1378"></a>**[p. 1378]**
-
-> bowel tone and contractility and an increase in colonic fluid absorption and anal sphincter tone leading to increased difficulty to pass stool. No treatment guidelines in the older population are available, but it has been suggested to use nonpharmacologic interventions and laxatives as first-line therapy. In case of refractory constipation, peripherally acting μ-opioid receptor antagonists (PAMORA), such as naldemedine, naloxegol, alvimopan, and methylnaltrexone, are strongly recommended.
+bowel tone and contractility and an increase in colonic fluid absorption and anal sphincter tone leading to increased difficulty to pass stool. No treatment guidelines in the older population are available, but it has been suggested to use nonpharmacologic interventions and laxatives as first-line therapy. In case of refractory constipation, peripherally acting μ-opioid receptor antagonists (PAMORA), such as naldemedine, naloxegol, alvimopan, and methylnaltrexone, are strongly recommended.
 
 Four RCTs demonstrated that naldemedine increased the rate of patients having greater than 3 CSBM when compared to placebo (52% vs 35%; relative risk, 1.51; 95% CI, 1.32–1.72), with also statistically significant changes in straining, stool consistency, and quality of life. Naloxegol was associated with a higher rate of response to therapy measured by greater than or equal to 3 CSBM per week (42% vs 29%; relative risk, 1.43; 95% CI, 1.19–1.71). Regarding methylnaltrexone, the evidence of five RCTs demonstrated an improvement in bowel movement frequency compared with placebo but was considered low quality.
 
@@ -811,85 +852,67 @@ Surgery is reserved for a small proportion of patients with medically refractory
 
 ### Novel Therapies
 
-> Bilateral transcutaneous tibial nerve stimulation (TENS) - was studied in 44 patients aged 65 or older with chronic refractory constipation for 12 weeks. Inadequate defecation, obstructive defecation, colonic inertia, and pain improved at 6 weeks, with pain score continuing to decrease at 12 weeks. Other therapies, such as sacral nerve stimulation and vibrating capsule, have not been tested in the older population.
+Bilateral transcutaneous tibial nerve stimulation (TENS) was studied in 44 patients aged 65 or older with chronic refractory constipation for 12 weeks. Inadequate defecation, obstructive defecation, colonic inertia, and pain improved at 6 weeks, with pain score continuing to decrease at 12 weeks. Other therapies, such as sacral nerve stimulation and vibrating capsule, have not been tested in the older population.
+
+**Table 87-11 — Pharmacologic treatment of constipation in older people—a stepwise approach**
+
+***Chronic constipation***
+
+*In ambulant older people*
+
+- Bulk laxative (psyllium) 1–3 times daily with fluids as required
+- If symptoms persist, add senna 1–3 tablets at bedtime
+- In individuals with questionable fluid intake or those intolerant of bulk laxatives, start with senna 1–2 tablets at bedtime
+- If symptoms persist, add sorbitol or lactulose 15 mL daily as needed, titrating the dose to achieve regular (≥ 3 times a week) and comfortable evacuation
+
+*In high-risk patients (bedridden individuals, patients with neurologic disease, and patients with history of fecal impaction)*
+
+- Senna 2–3 tablets at bedtime and sorbitol or lactulose 30 mL daily, titrating upward as needed
+- If symptoms persist, give PEG (half to two sachets daily)
+
+***Colonic fecal impaction***
+
+*Clinical or radiological obstruction*
+
+- Daily retention enemas (eg, arachis oil) until obstruction resolves, before starting oral laxatives
+
+*Colonic disimpaction*
+
+- Daily enemas (preferably tap water) until no further washout result
+- PEG (0.5–2 L daily or 2–3 sachets of Movicol) with fluids
+- Ensure that patient has easy access to toilet to avoid fecal incontinence
+- When impaction resolves, give laxative regimen for chronic constipation in high-risk patients for long-term treatment to avoid recurrence
+
+***Rectal outlet delay***
+
+*Rectal disimpaction*
+
+- Manual disimpaction where necessary, followed by phosphate enema(s) for initial complete clearance of rectal impaction
+
+*Regular treatment*
+
+- Glycerine suppositories at least once a week and as required to relieve symptoms
+- For persistent symptoms, use bisacodyl suppositories instead of glycerine suppositories
+- In patients at high risk of rectal impaction (rectal dysmotility, neurologic disease) give regular enemas (usually once weekly) and daily suppositories
+- If stool is hard or infrequent, add daily laxative as for chronic constipation
 
 ## Treatment Guidance
 
 **Table 87-11** represents a combination of evidence-based and expert opinion in providing treatment guidance, which can be summarized as follows:
 
 - In ambulatory older patients with chronic constipation, a daily bulk laxative is appropriate for both rectal outlet delay and slow-transit constipation. Patients
-
-**Table 87-11 — Pharmacologic treatment of constipation in older people—a stepwise approach**
-
-##### _Chronic constipation_
-
-### In Ambulant Older People
-
-- Bulk laxative (psyllium) 1–3 times daily with fluids as required
-
-- If symptoms persist, add senna 1–3 tablets at bedtime
-
-- In individuals with questionable fluid intake or those intolerant of bulk laxatives, start with senna 1–2 tablets at bedtime
-
-- If symptoms persist, add sorbitol or lactulose 15 mL daily as needed, titrating the dose to achieve regular (≥ 3 times a week) and comfortable evacuation
-
-In high-risk patients (bedridden individuals, patients with neuro-
-
-logic disease, and patients with history of fecal impaction)
-
-- Senna 2–3 tablets at bedtime and sorbitol or lactulose 30 mL daily, titrating upward as needed
-
-If symptoms persist, give PEG (half to two sachets daily)
-
-##### _Colonic fecal impaction_
-
-### Clinical Or Radiological Obstruction
-
-- Daily retention enemas (eg, arachis oil) until obstruction resolves, before starting oral laxatives
-
-### Colonic Disimpaction
-
-- Daily enemas (preferably tap water) until no further washout result
-
-- PEG (0.5–2 L daily or 2–3 sachets of Movicol) with fluids
-
-- Ensure that patient has easy access to toilet to avoid fecal incontinence
-
-- When impaction resolves, give laxative regimen for chronic constipation in high-risk patients for long-term treatment to avoid recurrence
-
-##### _Rectal outlet delay_
-
-### Rectal Disimpaction
-
-- Manual disimpaction where necessary, followed by phosphate enema(s) for initial complete clearance of rectal impaction
-
-### Regular Treatment
-
-- Glycerine suppositories at least once a week and as required to relieve symptoms
-
-- For persistent symptoms, use bisacodyl suppositories instead of glycerine suppositories
-
-- In patients at high risk of rectal impaction (rectal dysmotility, neurologic disease) give regular enemas (usually once weekly) and daily suppositories
-
-- If stool is hard or infrequent, add daily laxative as for chronic constipation
-
 <a id="p1379"></a>**[p. 1379]**
-
 must be able to drink adequate amounts of fluid to avoid further constipation and fecal impaction.
 
 - If the bulking agent is not tolerated, or proves ineffective, then senna may be substituted (1–3 tablets at night) with prn sorbitol (or lactulose) if needed to achieve patient-centered goals of comfortable regular evacuations.
 
 - In less-mobile older people at higher risk of impaction, a combination of regular senna and sorbitol (or lactulose) should be used with dosage titration.
 
-- In patients with colonic impaction, oil retention enemas should be administered daily until there are no clinical or radiologic signs of obstruction, and then tap
-
-> water enemas continued regularly until they produce - no further result.
+- In patients with colonic impaction, oil retention enemas should be administered daily until there are no clinical or radiologic signs of obstruction, and then tap water enemas continued regularly until they produce no further result.
 
 - Where the patient has easy access to a toilet, PEG 0.5 to 2 L daily should be given as long as is needed to clear the impaction, followed by a regular maintenance laxative regimen of senna and sorbitol (or lactulose) to avoid recurrence of fecal impaction.
 
-- In cases where toilet access is not easy (eg, at home with stairs), a more gradual clear-out using higherdose senna and sorbitol or lactulose is appropriate to limit problems with incontinence.
-
-- For rectal outlet delay or a predominant complaint of straining, the first-line approach should be regular
+- In cases where toilet access is not easy (eg, at home with stairs), a more gradual clear-out using higher-dose senna and sorbitol or lactulose is appropriate to limit problems with incontinence.
 
 ![Figure 87-6](hazzard8e_ch87_figure87-6.png)
 
@@ -897,6 +920,7 @@ must be able to drink adequate amounts of fluid to avoid further constipation an
 
 > Highlighting is the owner's annotation, not the book's.
 
+- For rectal outlet delay or a predominant complaint of straining, the first-line approach should be regular
 <a id="p1380"></a>**[p. 1380]**
 use of suppositories, and laxatives should only be given for coexisting symptoms of hard or infrequent bowel movements.
 
@@ -904,9 +928,7 @@ use of suppositories, and laxatives should only be given for coexisting symptoms
 
 ## Conclusions
 
-A practical algorithmic approach to assessment and treatment of constipation in older people is illustrated in **Figures 87-3** and **87-6** . Health care professionals
-
-should routinely inquire about constipation symptoms in older people and be alert to the presence of clinical constipation in individuals unable to communicate. In many older people with constipation symptoms, lifestyle advice (diet, fluids, exercise, toileting habits) will preempt the need for laxative therapy. In higher-risk patients, a stepwise approach to prescribing laxatives, suppositories, or enemas should be used, with the goal of achieving comfortable and regular evacuation. Rectal evacuation difficulties should be specifically addressed in order to identify conditions that may require additional interventions.
+A practical algorithmic approach to assessment and treatment of constipation in older people is illustrated in **Figures 87-3** and **87-6** . Health care professionals should routinely inquire about constipation symptoms in older people and be alert to the presence of clinical constipation in individuals unable to communicate. In many older people with constipation symptoms, lifestyle advice (diet, fluids, exercise, toileting habits) will preempt the need for laxative therapy. In higher-risk patients, a stepwise approach to prescribing laxatives, suppositories, or enemas should be used, with the goal of achieving comfortable and regular evacuation. Rectal evacuation difficulties should be specifically addressed in order to identify conditions that may require additional interventions.
 
 ## Further Reading
 

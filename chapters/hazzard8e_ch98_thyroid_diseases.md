@@ -2,7 +2,7 @@
 
 Anne R. Cappola
 
-> **Fast build from the book, 22 Sep; not lane-reviewed.**
+> **Lane-reviewed against the book, 25 Sep 2026.**
 
 <a id="p1545"></a>**[p. 1545]**
 
@@ -12,12 +12,12 @@ Anne R. Cappola
 - Recognize the symptoms of thyroid dysfunction in older people.
 - Interpret thyroid function tests in the context of concurrent medication use and illness.
 - Describe the evaluation and treatment of thyroid disease in older people.
-- Identify thyroid nodules that require evaluation via fineneedle aspiration (FNA).
+- Identify thyroid nodules that require evaluation via fine-needle aspiration (FNA).
 - Summarize therapy for papillary thyroid carcinoma in older people.
 
 #### Key Clinical Points
 
-1. Aside from a slight increase in thyroidstimulating hormone (TSH) with age, changes in thyroid function and structure are not considered normal aging and require assessment of medications or conditions that affect thyroid function and investigation for thyroid disease.
+1. Aside from a slight increase in thyroid-stimulating hormone (TSH) with age, changes in thyroid function and structure are not considered normal aging and require assessment of medications or conditions that affect thyroid function and investigation for thyroid disease.
 2. Overt hyperthyroidism and overt hypothyroidism may be difficult to recognize in older people and always require treatment.
 3. Treatment should be considered for subclinical hyperthyroidism in older people and for patients with subclinical hypothyroidism who have higher concentrations of TSH.
 4. The evaluation of thyroid nodules does not differ with age. Any nodule meeting criteria should undergo FNA, preferably with ultrasound guidance.
@@ -50,7 +50,7 @@ Thyroid hormone levels are tightly regulated by TSH through a classic endocrine 
 
 > Highlighting is the owner's annotation, not the book's.
 
-thyroid hormone levels within a narrow range. Because of variation between individuals in thyroid hormone set point and the sensitivity of the pituitary to perturbations in the set point, TSH levels are used clinically to screen for thyroid problems, rather than levels of T - 4 or T3.
+thyroid hormone levels within a narrow range. Because of variation between individuals in thyroid hormone set point and the sensitivity of the pituitary to perturbations in the set point, TSH levels are used clinically to screen for thyroid problems, rather than levels of T4 or T3.
 
 ### Physiologic Changes With Age
 
@@ -58,7 +58,7 @@ TSH concentrations gradually increase with increasing age, without change in fre
 
 Clearance of T4 and T3 decreases with age, leading to an increase in the half-life of T4. There is a compensatory decline in T4 and T3 secretion, resulting in stability in thyroid hormone concentrations with age. Production of T4 declines from 80 to 60 μg/day, and T3 production declines from 30 to 20 μg/day. The half-life of T4 increases from 7 days up to 9 days in those aged 80 and older. TBG concentrations do not change with age.
 
-The prevalence of thyroid autoantibodies increases in older people, particularly in women, consistent with an ----increase in autoimmune thyroid disease with age. Therefore, aside from a slight increase in TSH concentrations with age, devia tions in thyroid function tests are not due to normal aging. Thus, when the TSH is abnormal in an older
+The prevalence of thyroid autoantibodies increases in older people, particularly in women, consistent with an increase in autoimmune thyroid disease with age. Therefore, aside from a slight increase in TSH concentrations with age, deviations in thyroid function tests are not due to normal aging. Thus, when the TSH is abnormal in an older
 
 <a id="p1547"></a>**[p. 1547]**
 
@@ -66,7 +66,7 @@ person, investigation of thyroid disease and exogenous processes that affect thy
 
 ### Impact Of Drugs And Medical Conditions
 
-Iodine status, medications, and comorbid conditions can each affect thyroid function, either transiently or chronically ( **Table 98-1** ). All thyroid hormones contain iodine (see **Figure 98-1** ). The optimal iodide intake is 150 μg/day, with no changes in this recommendation for older people. Thyroidal uptake of iodine is tightly regulated by the sodiumiodide symporter (NIS) to allow adaptations to variations in - dietary supply and ensure that thyroid hormone synthesis does not fluctuate with changes in iodine status. Low iodide increases NIS, and high iodide decreases NIS. The effect of an iodine load on the thyroid gland depends on the underlying state of the gland, that is, whether it is normal or abnormal. When a normal thyroid is exposed to an iodine load, such as iodinated radiographic contrast, thyroid hormone synthesis is temporarily inhibited, followed by escape from this inhibitory effect and recovery, a phenomenon known as
+Iodine status, medications, and comorbid conditions can each affect thyroid function, either transiently or chronically ( **Table 98-1** ). All thyroid hormones contain iodine (see **Figure 98-1** ). The optimal iodide intake is 150 μg/day, with no changes in this recommendation for older people. Thyroidal uptake of iodine is tightly regulated by the sodium-iodide symporter (NIS) to allow adaptations to variations in dietary supply and ensure that thyroid hormone synthesis does not fluctuate with changes in iodine status. Low iodide increases NIS, and high iodide decreases NIS. The effect of an iodine load on the thyroid gland depends on the underlying state of the gland, that is, whether it is normal or abnormal. When a normal thyroid is exposed to an iodine load, such as iodinated radiographic contrast, thyroid hormone synthesis is temporarily inhibited, followed by escape from this inhibitory effect and recovery, a phenomenon known as
 
 the Wolff-Chaikoff effect. These changes are usually clinically insignificant. In patients with underlying thyroid pathology, an iodine load can precipitate hypo- or hyperthyroidism.
 
@@ -97,7 +97,7 @@ In addition, numerous medications and conditions affect production of thyroid-bi
 
 ### Nonthyroidal Illness Syndrome
 
-In the setting of severe, nonthyroidal illness, alterations in thyroid function may occur, called the “nonthyroidal illness syndrome.” Alternative names are “low T3 syndrome” and “euthyroid sick syndrome.” This altered pattern of thyroid function occurs in reaction to acute illness and may represent an adaptive slowing of metabolism as a physiologic response to systemic illness. It is likely that reduced - caloric intake and cytokines play an important role in the pathogenesis of these changes in thyroid function. The first testing abnormality to manifest is low T3 levels. These are a consequence of decrease in deiodination of T4 to T3. In addition, there is a decrease in deiodination of reverse - T3 (see **Figure 98-1** ), which has no activity at thyroid hormone receptors, to its metabolite, leading to increased concentrations of reverse T3. Subsequent changes include a decrease in free T4 levels, followed by a mild decrease in TSH levels in those with the most critical illnesses. Patients taking high-dose corticosteroids or dopamine
+In the setting of severe, nonthyroidal illness, alterations in thyroid function may occur, called the “nonthyroidal illness syndrome.” Alternative names are “low T3 syndrome” and “euthyroid sick syndrome.” This altered pattern of thyroid function occurs in reaction to acute illness and may represent an adaptive slowing of metabolism as a physiologic response to systemic illness. It is likely that reduced caloric intake and cytokines play an important role in the pathogenesis of these changes in thyroid function. The first testing abnormality to manifest is low T3 levels. These are a consequence of decrease in deiodination of T4 to T3. In addition, there is a decrease in deiodination of reverse T3 (see **Figure 98-1** ), which has no activity at thyroid hormone receptors, to its metabolite, leading to increased concentrations of reverse T3. Subsequent changes include a decrease in free T4 levels, followed by a mild decrease in TSH levels in those with the most critical illnesses. Patients taking high-dose corticosteroids or dopamine
 
 may have completely suppressed TSH levels. The pattern of low TSH and low thyroid hormones is identical to that of central hypothyroidism. Central hypothyroidism is a rare cause of hypothyroidism and does not present without other manifestations of pituitary or hypothalamic disease. Additional diagnostic testing does not need to be pursued if the clinical picture supports nonthyroidal illness as the cause of thyroid testing abnormalities. Measurement of reverse T3 concentrations is not indicated. Patients with the full constellation of thyroid testing abnormalities have a high mortality rate, at 80%. Thyroid hormone replacement with T4 or T3 results in no benefit in the nonthyroidal illness syndrome. During recovery from nonthyroidal illness, TSH levels appropriately rise in order to stimulate thyroid hormone production, which may be interpreted as overt or subclinical hypothyroidism. In this setting, when the patient is also improving clinically, repeat thyroid function testing as an outpatient is preferred over initiation of levothyroxine.
 
@@ -109,7 +109,7 @@ When thyroid dysfunction is suspected clinically, the first step is to measure a
 
 ![Figure 98-3](hazzard8e_ch98_figure98-3.png)
 
-> *FIGURE 98-3. Classification of thyroid dysfunction based on thyroidstimulating hormone (TSH) and free thyroxine (free T4) testing.*
+> *FIGURE 98-3. Classification of thyroid dysfunction based on thyroid-stimulating hormone (TSH) and free thyroxine (free T4) testing.*
 
 > Highlighting is the owner's annotation, not the book's.
 
@@ -156,7 +156,7 @@ Thyroid storm describes the most severe symptomatic presentation of thyrotoxicos
 <a id="p1550"></a>**[p. 1550]**
 and T3 concentrations. “T3 toxicosis” may occur with normal free T4 levels, particularly with autonomous nodules; conversely, only free T4 levels may be elevated with concomitant nonthyroidal illness syndrome.
 
-The process of assessment of the etiology of thyrotoxicosis does not require invasive testing and does not differ between young and old adults. Although there are some clues from thyroid testing (T4 and T3 levels tend to be higher in Graves disease than in other etiologies) and physical examination (the presence of proptosis, skin findings of pretibial myxedema, or thyroid bruit are specific for Graves disease), additional testing may be required. Measurement of thyroid receptor antibodies (TRAb) can be used to distinguish Graves disease from other causes. Radioiodine scanning is the definitive way to discriminate among thyrotoxicosis etiologies. NIS is highly expressed - in the thyroid, with low levels in salivary glands, lactating breast, and placenta. It allows radioactive iodine scanning in a selective manner. It does not provide valid results in the setting of recent high unlabeled iodide intake, such as from iodinated contrast. Otherwise, it is a useful test to discriminate between high uptake (Graves disease and autonomous nodule) and low uptake (autoimmune or viral thyroiditis) states. Concomitant imaging may discriminate between diffuse uptake in Graves disease and focal uptake by an autonomous nodule. Thyroid ultrasonography may be useful when correlated with a radioiodine scan.
+The process of assessment of the etiology of thyrotoxicosis does not require invasive testing and does not differ between young and old adults. Although there are some clues from thyroid testing (T4 and T3 levels tend to be higher in Graves disease than in other etiologies) and physical examination (the presence of proptosis, skin findings of pretibial myxedema, or thyroid bruit are specific for Graves disease), additional testing may be required. Measurement of thyroid receptor antibodies (TRAb) can be used to distinguish Graves disease from other causes. Radioiodine scanning is the definitive way to discriminate among thyrotoxicosis etiologies. NIS is highly expressed in the thyroid, with low levels in salivary glands, lactating breast, and placenta. It allows radioactive iodine scanning in a selective manner. It does not provide valid results in the setting of recent high unlabeled iodide intake, such as from iodinated contrast. Otherwise, it is a useful test to discriminate between high uptake (Graves disease and autonomous nodule) and low uptake (autoimmune or viral thyroiditis) states. Concomitant imaging may discriminate between diffuse uptake in Graves disease and focal uptake by an autonomous nodule. Thyroid ultrasonography may be useful when correlated with a radioiodine scan.
 
 **Management** The metabolic derangements of thyrotoxicosis can complicate the care of any coexisting condition in an older patient. Furthermore, there are multiple causes of thyrotoxicosis and multiple treatment options. Therefore, management should involve close collaboration between the geriatrics or primary care team and an endocrinologist. β-Blocking drugs are useful in the management of tachycardia and other hyperadrenergic symptoms from thyrotoxicosis of any etiology. Nonsteroidal anti-inflammatory drugs can be useful for treating patients with subacute or silent thyroiditis. Patients who do not respond may require prednisone. Since the thyrotoxicosis is due to release of preformed thyroid hormone in these conditions, antithyroid drugs are not indicated.
 
@@ -168,7 +168,7 @@ either methimazole or PTU are skin reactions, which occur in 4% to 6% of patient
 
 Autonomous nodules can be treated definitively with radioactive iodine. If the autonomous nodule is the source of thyrotoxicosis, the remaining normal gland will be unaffected by radioactive iodine therapy, resulting in normal thyroid function after ablation of the affected thyroid nodule. Radioactive iodine therapy is commonly used in the long-term management of thyrotoxicosis due to Graves disease. The goal of radioactive iodine therapy in Graves disease is ablation of all functioning thyroid tissue, with resultant hypothyroidism. Incomplete ablation increases the risk of recurrence due to regrowth of thyroid tissue secondary to persistent stimulation by antibody binding to the TSH receptor. The advantage of radioactive iodine ablation is the permanency of treatment without the risks associated with thyroidectomy, though contact precautions must be observed for 5 days after treatment, ophthalmopathy may be exacerbated, and thyroid function monitoring is required every 4 to 6 weeks after treatment until the patient is taking a stable dose of thyroid hormone replacement.
 
-**Thyroidectomy** is the fastest way to achieve euthyroidism, but because of increased operative risk in older - patients, it is reserved for select cases, such as concomitant thyroid cancer or severe ophthalmopathy. Only an experienced thyroid surgeon should perform the
+**Thyroidectomy** is the fastest way to achieve euthyroidism, but because of increased operative risk in older patients, it is reserved for select cases, such as concomitant thyroid cancer or severe ophthalmopathy. Only an experienced thyroid surgeon should perform the
 
 <a id="p1551"></a>**[p. 1551]**
 thyroidectomy. Potential complications include transient or permanent recurrent laryngeal nerve paralysis and hypoparathyroidism.
@@ -184,8 +184,6 @@ Untreated subclinical hyperthyroidism is associated with increased cardiovascula
 Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations. The prevalence is 1% to 2% in older people. It is not useful to measure T3 concentrations when assessing hypothyroidism.
 
 **Symptoms** Thyroid hormone insufficiency affects multiple organs, often with insidious onset. Symptoms of hypothyroidism are often, but not always, opposite to those of hyperthyroidism, and manifest as a generalized slowing of metabolic processes ( **Table 98-4** ). Cognitive changes and functional decline are late manifestations of unrecognized hypothyroidism. As with younger individuals, cardiovascular, psychiatric, gastrointestinal, and musculoskeletal symptoms predominate. Unfortunately, there is no single defining symptom that is specific to hypothyroidism. One or more of the myriad symptoms should prompt evaluation by TSH testing. **Table 98-5** displays symptoms of hypothyroidism and their frequency in a study of 121 overtly hypothyroid young and old patients. Of the 24 signs examined, fatigue and weakness were the two signs found in more than 50% of older patients. The usual clinical signs were not well represented in older people. Since the effects of hypothyroidism are reversible with treatment, clinicians caring for older patients should measure TSH at the earliest indication of hypothyroid symptoms.
-
-**Etiology and diagnosis** The etiologies of hypothyroidism are similar in older and younger adults. Primary hypothyroidism from thyroid failure is the most common source of thyroid dysfunction; central hypothyroidism from pituitary or hypothalamic failure is rare. Primary hypothyroidism is largely due to autoimmune destruction of the thyroid (chronic autoimmune thyroiditis; Hashimoto thyroiditis), though exogenous destruction of the thyroid from surgery or radiation (including radioactive iodine therapy) and drugs are also common ( **Table 98-6** ). All compounds containing iodine, including amiodarone and lithium, as well as interferon-α, interleukin 2 (IL-2), tyrosine kinase inhibitors such as sunitinib, and checkpoint inhibitors such as pembrolizumab, may accelerate hypothyroidism in a gland with underlying Hashimoto thyroiditis (see **Table 98-1** ). Transient hypothyroidism can also occur during recovery from thyroiditis or acute, nonthyroidal illness. Bexarotene and octreotide can cause secondary hypothyroidism. A serum TSH is the initial diagnostic test for detection of hypothyroidism; both TSH and free T4 should be measured if central hypothyroidism is a clinical consideration. Antithyroid antibody measurement is not indicated for diagnostic assessment of hypothyroidism.
 
 **Table 98-4 — Clinical features of hypothyroidism in older patients**
 
@@ -219,7 +217,7 @@ Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations. 
 | Snoring | 18 | 22 |
 | Constipation | 33 | 41 |
 
-<a id="p1552"></a>**[p. 1552]**
+**Etiology and diagnosis** The etiologies of hypothyroidism are similar in older and younger adults. Primary hypothyroidism from thyroid failure is the most common source of thyroid dysfunction; central hypothyroidism from pituitary or hypothalamic failure is rare. Primary hypothyroidism is largely due to autoimmune destruction of the thyroid (chronic autoimmune thyroiditis; Hashimoto thyroiditis), <a id="p1552"></a>**[p. 1552]** though exogenous destruction of the thyroid from surgery or radiation (including radioactive iodine therapy) and drugs are also common ( **Table 98-6** ). All compounds containing iodine, including amiodarone and lithium, as well as interferon-α, interleukin 2 (IL-2), tyrosine kinase inhibitors such as sunitinib, and checkpoint inhibitors such as pembrolizumab, may accelerate hypothyroidism in a gland with underlying Hashimoto thyroiditis (see **Table 98-1** ). Transient hypothyroidism can also occur during recovery from thyroiditis or acute, nonthyroidal illness. Bexarotene and octreotide can cause secondary hypothyroidism. A serum TSH is the initial diagnostic test for detection of hypothyroidism; both TSH and free T4 should be measured if central hypothyroidism is a clinical consideration. Antithyroid antibody measurement is not indicated for diagnostic assessment of hypothyroidism.
 
 **Table 98-6 — Causes of hypothyroidism in older people**
 
@@ -227,7 +225,7 @@ Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations. 
   - Chronic autoimmune thyroiditis (Hashimoto thyroiditis)
   - Radiation — ¹³¹I therapy for hyperthyroidism; radiation therapy for head and neck cancer
   - Surgical thyroidectomy
-  - Drugs — iodine-containing drugs (amiodarone, radiocontrast agents); antithyroid drugs (propylthiouracil, methimazole); other drugs that decrease TSH or thyroid hormone secretion (see **Table 98-1**)
+  - Drugs — iodine-containing drugs (amiodarone, radiocontrast agents containing iodine); antithyroid drugs (propylthiouracil, methimazole); other drugs that decrease TSH or thyroid hormone secretion (see **Table 98-1**)
 - *Central hypothyroidism*
   - Hypothalamic tumors or infiltrative lesions
   - Pituitary tumors or infiltrative lesions
@@ -273,17 +271,17 @@ Because the adverse effects of overt hyperthyroidism and hypothyroidism are reve
 <a id="p1554"></a>**[p. 1554]**
 ![Figure 98-4](hazzard8e_ch98_figure98-4.png)
 
-> *FIGURE 98-4. General therapeutic approach to the management of subclinical hypothyroidism in nonpregnant adults. aRecommendation is based on an association of subclinical hypothyroidism with increased rates of the outcomes listed and is not based on clinical trial evidence that treatment can reduce these outcomes. (Reproduced with permission from Biondi B, Cappola AR, Cooper DS. Subclinical hypothyroidism: a review. _JAMA_ . 2019;322[2]:153–160.)*
+> *FIGURE 98-4. General therapeutic approach to the management of subclinical hypothyroidism in nonpregnant adults. <sup>a</sup>Recommendation is based on an association of subclinical hypothyroidism with increased rates of the outcomes listed and is not based on clinical trial evidence that treatment can reduce these outcomes. (Reproduced with permission from Biondi B, Cappola AR, Cooper DS. Subclinical hypothyroidism: a review. _JAMA_ . 2019;322[2]:153–160.)*
 
 > Highlighting is the owner's annotation, not the book's.
 
-and TSH is a readily available test, screening older people for thyroid dysfunction has been proposed. However, the management of subclinical thyroid dysfunction, which is more common than overt disease, is not sufficiently supported by clinical trial data. Furthermore, the definition of the reference range may differ between older and younger people. If the 95% confidence interval is applied to a population free of thyroid disease, the upper limit of the reference range is 3.6 mIU/L for 20 to 29 year olds, but 7.5 mIU/L for those aged 80 and older. The US Preventive Services Task Force has concluded that there is insufficient evidence to recommend routine screening for thyroid dys-function. This recommendation is unlikely to change until there is clear evidence to support management of any TSH concentration found on screening.
+and TSH is a readily available test, screening older people for thyroid dysfunction has been proposed. However, the management of subclinical thyroid dysfunction, which is more common than overt disease, is not sufficiently supported by clinical trial data. Furthermore, the definition of the reference range may differ between older and younger people. If the 95% confidence interval is applied to a population free of thyroid disease, the upper limit of the reference range is 3.6 mIU/L for 20 to 29 year olds, but 7.5 mIU/L for those aged 80 and older. The US Preventive Services Task Force has concluded that there is insufficient evidence to recommend routine screening for thyroid dysfunction. This recommendation is unlikely to change until there is clear evidence to support management of any TSH concentration found on screening.
 
 ## Nodular Thyroid Disease And Thyroid Cancer
 
 ### Thyroid Anatomy
 
-<mark>Thyroidal size is similar in older and younger</mark> individuals, and the volume of the thyroid correlates more with body weight than with age. Pathologic evaluation shows increased frequency of lymphocyte infiltration, fibrosis, and diminished colloid and follicle size in older people. Palpation of the thyroid gland may be more difficult in older individuals in the setting of pulmonary disease or kyphosis. With increasing age, there is an increase in the frequency of both thyroid nodules and thyroid cancer. The higher incidence with age is not entirely due to detection bias from increased frequency of radiologic testing, such as
+Thyroidal size is similar in older and younger individuals, and the volume of the thyroid correlates more with body weight than with age. Pathologic evaluation shows increased frequency of lymphocyte infiltration, fibrosis, and diminished colloid and follicle size in older people. Palpation of the thyroid gland may be more difficult in older individuals in the setting of pulmonary disease or kyphosis. With increasing age, there is an increase in the frequency of both thyroid nodules and thyroid cancer. The higher incidence with age is not entirely due to detection bias from increased frequency of radiologic testing, such as
 
 <a id="p1555"></a>**[p. 1555]**
 
@@ -315,7 +313,7 @@ Nodules that did not meet initial criteria for FNA or underwent FNA with benign 
 
 <a id="p1556"></a>**[p. 1556]**
 
-of thyroid cancer biology suggests that a cancerous nodule develops as a cancerous nodule, and that benign nodules do not become cancerous over time. However, because false negatives do occur, periodic ultrasound surveillance is advised for nodules that did not meet initial criteria for FNA, either due to size or sonographic characteristics, or whose FNA results indicated a benign diagnosis. On followup ultrasounds, each nodule should be evaluated for the development of size or ultrasound characteristics that meet criteria for FNA. Benign nodules should be followed up with a repeat thyroid ultrasound in 12 to 18 months, and continued ultrasound surveillance every 2 to 5 years, with FNA for development of sonographically suspicious features or significant growth. Any nodule that has undergone FNA twice does not need additional aspirations, due to the vanishingly small likelihood of two false-negative FNAs.
+of thyroid cancer biology suggests that a cancerous nodule develops as a cancerous nodule, and that benign nodules do not become cancerous over time. However, because false negatives do occur, periodic ultrasound surveillance is advised for nodules that did not meet initial criteria for FNA, either due to size or sonographic characteristics, or whose FNA results indicated a benign diagnosis. On follow-up ultrasounds, each nodule should be evaluated for the development of size or ultrasound characteristics that meet criteria for FNA. Benign nodules should be followed up with a repeat thyroid ultrasound in 12 to 18 months, and continued ultrasound surveillance every 2 to 5 years, with FNA for development of sonographically suspicious features or significant growth. Any nodule that has undergone FNA twice does not need additional aspirations, due to the vanishingly small likelihood of two false-negative FNAs.
 
 Nodular goiters may grow to the point of causing compressive symptoms, including dyspnea or wheezing from tracheal narrowing or disturbances of swallowing from esophageal impingement. These goiters often have a substernal component which can be evaluated by CT scan of the neck. Flow-volume loop evaluation through pulmonary function testing can be used to evaluate extrinsic compression in the neck, and barium swallow evaluation can demonstrate the degree of thyroidal extension abutting the esophagus. Even if FNA confirms benign nodular disease, thyroid surgery may be indicated to relieve mass effect from an enlarged nodular goiter.
 
@@ -333,7 +331,7 @@ A subset of patients requires additional therapy, such as radioactive iodine abl
 
 **Anaplastic thyroid carcinoma** is an undifferentiated thyroid cancer that is typically found in older people, with a mean age at diagnosis of 65. It has the worst prognosis of any thyroid cancer, due to rapid growth and local invasiveness, and the treatment team should include palliative care expertise. Patients with anaplastic thyroid carcinoma often have a multinodular goiter or history of papillary thyroid carcinoma. The presentation of anaplastic thyroid carcinoma is as a rapidly enlarging neck mass. Thyroidectomy, radiotherapy, and chemotherapy have limited benefit, and median survival from diagnosis is 5 months.
 
-**Thyroid lymphoma** is also rapid growing, and usually arises in a background of Hashimoto thyroiditis. Like anaplastic thyroid carcinoma, it presents as a rapidly growing mass that may cause compressive symptoms, but the response to treatment is better. A characteristic asymmetrical pseudocystic pattern is present on ultrasound. Large -- needle or surgical biopsy is required to establish the diagnosis. Treatment with radiation and chemotherapy and prognosis parallel other non-Hodgkin lymphomas, and thyroidectomy is not indicated.
+**Thyroid lymphoma** is also rapid growing, and usually arises in a background of Hashimoto thyroiditis. Like anaplastic thyroid carcinoma, it presents as a rapidly growing mass that may cause compressive symptoms, but the response to treatment is better. A characteristic asymmetrical pseudocystic pattern is present on ultrasound. Large needle or surgical biopsy is required to establish the diagnosis. Treatment with radiation and chemotherapy and prognosis parallel other non-Hodgkin lymphomas, and thyroidectomy is not indicated.
 
 ## Acknowledgments
 

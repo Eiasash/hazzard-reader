@@ -5,15 +5,15 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 ## Summary
 
 **Epidemiology**
-- **~5%** of community-dwelling older adults meet criteria for major depression — lower than in other age groups; new-onset depression risk peaks in middle age, but once depressed, older adults have a **higher likelihood of remaining depressed** (p1007).
+- **~5%** of older adults meet criteria for major depression — lower than in other age groups; new-onset depression peaks in middle age; among older adults, greater age brings a similar likelihood of becoming depressed but a **higher likelihood of remaining depressed** (p1007).
 - In primary care, **~5%** of older adults have clinically significant depression; about half are recognized/diagnosed; of those, only **1 in 5** get guideline-concordant care — so only **~10%** of depressed older adults get "adequate" care (p1012).
-- Depression is **not** a normal part of aging and should never be normalized in older patients (p1007).
+- Depression is **not** a normal part of aging; normalizing it in older patients is misguided and unproductive (p1007).
 
 **Screening & diagnosis (PHQ-9)**
-- PHQ-9 scoring: **0–4** = no/insignificant symptoms, **5–9** = mild/subsyndromal depression, **≥10** = warrants further evaluation for major depression (p1010, p1012).
-- Diagnostic algorithm by symptom count (Fig 65-2, p1011): 1–4 symptoms + functional impairment → "other" (reassurance); 2–4 symptoms + Q1/Q2 + impairment → minor depression (watchful waiting); 3–4 symptoms + Q2 (mood) present **2 years** + impairment → probable dysthymia; **5+** symptoms + Q1/Q2 + impairment → major depression, graded moderate at PHQ-9 **15–19** and severe at **≥20**.
-- Item 9 (death wishes/suicidal ideation) is always reviewed regardless of total score (p1012).
-- Two core distinguishing features of geriatric depression: **anhedonia** and **hopelessness** — look for these when a patient's needs (Maslow's hierarchy, Fig 65-1) are unmet but mood complaints are absent (p1008–1009).
+- PHQ-9 scoring: **0–4** = no/insignificant symptoms, **5–9** = mild/subsyndromal depression, **≥10** = typically correlates with major depression and warrants further evaluation and clinical intervention (p1009, p1012).
+- Diagnostic algorithm by symptom count (Fig 65-2, p1011): 1–4 symptoms + functional impairment → "other" (reassurance); 2–4 symptoms + Q1/Q2 + impairment → minor depression (watchful waiting); 3–4 symptoms + Q2 (mood) present **2 years** + impairment → chronic depression (probably dysthymia); **5** symptoms + Q1/Q2 + impairment → major depression, graded moderate at PHQ-9 **15–19** and severe at PHQ-9 **20** (as printed in the table).
+- Item 9 asks about death wishes or more intensive suicidal ideation — clearly an important part of the assessment (p1012).
+- Two core distinguishing features of geriatric depression: **anhedonia** and **hopelessness** — they may be important clues when deficits in basic needs (Maslow's hierarchy, Fig 65-1) are more apparent than depressed mood (p1008).
 - **Social isolation** (objective — network size, contact frequency) vs **loneliness** (subjective — perceived inadequacy of connection) are distinct but overlapping constructs, both tied to depression risk (p1009).
 
 **Suicide risk assessment**
@@ -27,10 +27,10 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - Structured psychotherapy trials run **~3 months**; if no improvement by **1–2 months**, consider switching modality (p1014).
 
 **Treatment options**
-- **ECT**: response rate **>80%**, remission rate **>60%** — no trial has ever shown medications more effective than ECT, and older patients respond even better than younger adults; course is **3–6 treatments/week for 2–4 weeks**; main side effect is short-term memory loss, usually resolving within weeks (p1014).
+- **ECT**: response rate **>80%**, remission rate **>60%** — no trial has ever shown medications more effective than ECT, and older patients respond even better than younger adults; course is **3–6 treatments/week for 2–4 weeks**; few side effects — short-term memory loss almost always resolves within a few weeks (p1014).
 - Antidepressants do **not** show benefit for minor/subsyndromal depression despite it having similar health/QOL impact to major depression — don't reflexively medicate mild cases (p1012, p1015).
 - Antidepressants do **not generally work in dementia**-associated depression; favor behavioral/caregiver-support interventions instead (p1015).
-- Slow up-titration improves adherence even though final dose and eventual response are the same — there is **no minimum effective/"floor" dosage** for antidepressants (p1015).
+- Slow up-titration gave much better adherence than a higher starting dose, even though both reached the same eventual dose; separately, dose-response research does not support a **minimum effective dosage** or narrow therapeutic window (p1015).
 - Patients often don't volunteer side effects (especially sexual dysfunction) unless asked directly (p1015).
 - In some nursing home populations, **almost half** of residents are prescribed an antidepressant — far exceeding actual depression prevalence estimates (p1015).
 
@@ -38,30 +38,30 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - DSM-5 defines major depression as an "episode" — expected to improve over time even without treatment, which complicates decisions about indefinite maintenance therapy (p1015).
 - Most **SSRIs, SNRIs, and mirtazapine** can be tapered over **2–4 weeks**; **tricyclics need several months** (p1016).
 - **Fluoxetine** is the exception — its long half-life means it does not require tapering, and a single **20 mg** dose can even be used to smooth withdrawal from other antidepressants (p1016).
-- Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) are often mistaken for relapse — distinguishing the two prevents unnecessary restarting (p1015–1016).
+- Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016).
 
 **Provider & caregiver factors**
 - **Table 65-1** (p1017) catalogs challenges clinicians face treating depressed older patients — emotional toll (feeling drained, like a failure), practical friction (patients' "pulling teeth" pace, bottomless needs, family members wanting to explain at length what they've observed), and slow response (weeks to months) — the chapter frames "caring for the caregiver" (including the clinician) as part of good care (p1016).
 - A suicidal patient introduces medicolegal concerns — protecting the patient's safety and ensuring the provider **documents fully** (**Table 65-1**, p1017).
-- Simple human presence (sitting down, eye contact, asking "what else is going on?") is emphasized as the single most important way to help patients feel heard (p1017).
+- Simple human presence (sitting down, eye contact, asking "what else is going on?") is probably the most important way to ensure older patients can express themselves (p1017).
 
 **Special populations & referral**
-- Medically complex, cognitively impaired, or bipolar/psychotic-feature depression is best suited for geriatric psychiatry subspecialty referral; most general psychiatrists can manage uncomplicated geriatric depression (p1019).
+- Medically complex, cognitively impaired, or bipolar/psychotic-feature depression is best suited for geriatric psychiatry subspecialty referral; most general psychiatrists should feel comfortable evaluating and treating older adults (p1018–1019).
 - ECT should be considered early for severe or psychotic depression, or after limited medication response (p1014).
 
 **Exam traps / book emphases**
 - Subsyndromal depression has real health/QOL impact but antidepressants show no proven benefit for it — don't assume "some symptoms = start a drug" (p1012, p1015).
-- ECT outperforms medication in head-to-head evidence and is *better* tolerated/more effective in older vs younger patients — contrary to its negative-press reputation (p1014).
+- No trial has found medications more effective than ECT, and older patients seem even more responsive to it than younger adults — contrary to its negative-press reputation (p1014).
 - Fluoxetine is the one antidepressant that breaks the "always taper slowly" rule (p1016).
 - The PHQ-9 diagnostic table's dysthymia row requires Q2 (depressed mood) specifically, sustained **2 years** — not just any 3–4 symptoms (p1011).
 
 ## Drill
 
-**1. What percentage of community-dwelling older adults meet criteria for major depression, and how does that compare with other age groups?**
+**1. What percentage of older adults meet criteria for major depression, and how does that compare with other age groups?**
 
 <details><summary>Answer</summary>
 
-About 5% — lower than in younger age groups, though once depressed, older adults are more likely to remain depressed (p1007).
+About 5% — lower than in other age groups; among older adults, greater age brings a similar likelihood of becoming depressed but a higher likelihood of remaining depressed (p1007).
 
 </details>
 
@@ -69,7 +69,7 @@ About 5% — lower than in younger age groups, though once depressed, older adul
 
 <details><summary>Answer</summary>
 
-0–4 = no/insignificant symptoms; 5–9 = mild, generally subsyndromal, depression (p1010, p1012).
+0–4 = no/insignificant symptoms; 5–9 = mild, generally subsyndromal, depression (p1009, p1012).
 
 </details>
 
@@ -85,7 +85,7 @@ Question 2 (depressed mood) must be endorsed and present for 2 years, in additio
 
 <details><summary>Answer</summary>
 
-Moderate: PHQ-9 score 15–19. Severe: PHQ-9 score ≥20 (p1011).
+Moderate: PHQ-9 score 15–19. Severe: "PHQ-9 score of 20" as printed in the Fig 65-2 table (p1011).
 
 </details>
 
@@ -121,11 +121,11 @@ Response rate >80%, remission rate >60% — no trial has ever found medications 
 
 </details>
 
-**9. What is the typical ECT treatment course (frequency and duration), and what is its main side effect?**
+**9. What is the typical initial ECT course (frequency and duration), and what happens to short-term memory loss?**
 
 <details><summary>Answer</summary>
 
-Three to six treatments per week for 2 to 4 weeks; short-term memory loss is the main side effect and almost always resolves within a few weeks (p1014).
+Three to six treatments per week for 2 to 4 weeks; ECT has few side effects, and short-term memory loss almost always resolves within a few weeks after the course (p1014).
 
 </details>
 
@@ -141,7 +141,7 @@ No clear antidepressant benefit for subsyndromal depression despite similar heal
 
 <details><summary>Answer</summary>
 
-Patients likely receive more personalized attention during dose increases and experience fewer side effects with gradual titration — not because there is a minimum effective ("floor") dose (p1015).
+Patients likely receive more personalized attention during dose increases and experience fewer side effects with gradual titration (p1015).
 
 </details>
 

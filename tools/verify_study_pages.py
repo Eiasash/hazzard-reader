@@ -33,7 +33,7 @@ must be caught, and a correct one under each style must not be flagged.
 """
 import re, os, sys, json
 
-REPO = r"C:\Users\eiasa\repos\hazzard-reader\chapters"
+REPO = os.environ.get("HAZZARD_CHAPTERS") or (r"C:\Users\eiasa\repos\hazzard-reader\chapters" if os.name == "nt" else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "chapters"))
 
 CHAPTERS = [
     ("42", "hazzard8e_ch42_frailty.md", "hazzard8e_ch42_study.md"),

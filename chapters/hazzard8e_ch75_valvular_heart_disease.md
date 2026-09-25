@@ -2,7 +2,7 @@
 
 Nikola Dobrilovic, Dae Hyun Kim, Niloo M. Edwards
 
-> **Fast build from the book, 22-23 Sep; not lane-reviewed.**
+> **Lane-reviewed against the book, 25 Sep 2026.**
 
 <a id="p1149"></a>**[p. 1149]**
 
@@ -51,19 +51,17 @@ Although the causes of aortic valve calcification in aging are unclear, the proc
 
 Aortic valve sclerosis (valve thickening without outflow tract obstruction) is present in 25% of patients older than 65 years and 48% of those older than 75 years, and is associated with male gender, hypertension, smoking, diabetes, and lipid abnormalities. The rate of progression to frank stenosis occurs in approximately 10% within 5 years. The Cardiovascular Health Study has identified an increased incidence of adverse cardiovascular events in patients with sclerotic valves even when corrected for other cardiovascular risk factors. The mechanism for this association is unclear, and there are currently no guidelines for intervention.
 
-On average, aortic valve stenosis progresses at an estimated increase in jet velocity of 0.3 m/s/year and a reduction ....
-
-> in valve area of 0.1 cm -<sup>2</sup> /year. Despite these average rates of disease progression, the rate for each individual is difficult to predict, therefore asymptomatic patients with mild-to-moderate disease should be followed on a regular basis.
+On average, aortic valve stenosis progresses at an estimated increase in jet velocity of 0.3 m/s/year and a reduction in valve area of 0.1 cm<sup>2</sup>/year. Despite these average rates of disease progression, the rate for each individual is difficult to predict, therefore asymptomatic patients with mild-to-moderate disease should be followed on a regular basis.
 
 ### Clinical Presentation
 
-Aortic stenosis has a long asymptomatic latency period, when the only finding is a harsh, late-peaking, crescendodecrescendo systolic murmur that radiates to the carotids and is best heard over the right, second interspace. The second heart sound may be paradoxically split. Aortic stenosis is associated wit <mark>h “pulsus parvus et tardus,”</mark> characterized by a weak and diminished pulse with a late upstroke that is most easily noted in the carotids. However, these physical findings may be less obvious in older adults, because of the effects of aging on the vascular bed.
+Aortic stenosis has a long asymptomatic latency period, when the only finding is a harsh, late-peaking, crescendo-decrescendo systolic murmur that radiates to the carotids and is best heard over the right, second interspace. The second heart sound may be paradoxically split. Aortic stenosis is associated with <mark>“pulsus parvus et tardus,”</mark> characterized by a weak and diminished pulse with a late upstroke that is most easily noted in the carotids. However, these physical findings may be less obvious in older adults, because of the effects of aging on the vascular bed.
 
 Patients with aortic valve stenosis develop compensatory LV hypertrophy, which can be seen on echocardiogram, on electrocardiogram, and even on chest x-ray. The ventricular hypertrophy produces coronary malperfusion with subendocardial ischemia. Older women are prone to develop excessive ventricular hypertrophy, which may contribute to the higher perioperative morbidity and mortality in this patient cohort.
 
 Once symptoms develop after a long latency period, the progression to death is rapid ( **Figure 75-1** ). The three classic symptoms are angina, syncope, and heart failure. While sudden death occurs in patients with aortic stenosis and may be considered a fourth symptom group, this is rarely seen in asymptomatic patients (< 1%). Unfortunately, older adults often move into the symptomatic phase of aortic stenosis undetected because of the overlap of these major symptom constellations with other changes associated with aging (eg, reduced exercise tolerance).
 
-> Two-thirds of patients present with angina, which - - may be caused by concomitant coronary artery disease,
+Two-thirds of patients present with angina, which may be caused by concomitant coronary artery disease,
 
 ![Figure 75-1](hazzard8e_ch75_figure75-1.png)
 
@@ -72,45 +70,37 @@ Once symptoms develop after a long latency period, the progression to death is r
 > Highlighting is the owner's annotation, not the book's.
 
 <a id="p1151"></a>**[p. 1151]**
-although 40% do not have significant coronary artery disease. The most likely etiology for angina in the absence of coronary artery disease is subendocardial ischemia and the increased oxygen demands of the hypertrophied ventricle together with decreased coronary flow reserve. Untreated ~ patients with aortic stenosis and angina <mark>have a 50% 5-year</mark> survival.
+although 40% do not have significant coronary artery disease. The most likely etiology for angina in the absence of coronary artery disease is subendocardial ischemia and the increased oxygen demands of the hypertrophied ventricle together with decreased coronary flow reserve. Untreated patients with aortic stenosis and angina <mark>have a 50% 5-year</mark> survival.
 
-~
-
-Syncope due to aortic stenosis may be caused by inadequate cardiac output to meet demands, by a dysfunctional LV baroreceptor response, or by arrhythmias, and is associated with a 50% 3-year mortality without valve l_ ___. replacement.
+Syncope due to aortic stenosis may be caused by inadequate cardiac output to meet demands, by a dysfunctional LV baroreceptor response, or by arrhythmias, and is associated with a 50% 3-year mortality without valve replacement.
 
 Aortic valve stenosis presenting with congestive heart failure <mark>carries the worst prognosis—50%</mark> mortality at 2 years without valve replacement. Typical symptoms include paroxysmal nocturnal dyspnea, orthopnea, and dyspnea on exertion, which may be associated with signs of peripheral edema, pulmonary edema, and rales. Thickening of the left ventricle due to aortic stenosis as well as the changes associated with aging lead to diastolic dysfunction. Consequently, the older patient with aortic stenosis is more dependent on atrial contraction for ventricular filling. Therefore, these patients often present with exacerbated or new onset of symptoms if they develop atrial fibrillation.
 
-Impaired platelet function and decreased levels of
-
-von Willebrand factor are also associated with severe aortic stenosis, and 20% of patients may present with epistaxis or ecchymoses. Patients can also develop Heyde syndrome (gastrointestinal bleeding due to colonic angiodysplasias). Interestingly, these abnormalities resolve with valve replacement.
+Impaired platelet function and decreased levels of von Willebrand factor are also associated with severe aortic stenosis, and 20% of patients may present with epistaxis or ecchymoses. Patients can also develop Heyde syndrome (gastrointestinal bleeding due to colonic angiodysplasias). Interestingly, these abnormalities resolve with valve replacement.
 
 ### Evaluation
 
-The American Heart Association recommends evaluation of early systolic, mid-systolic grade 3 or greater, late systolic, or holosystolic murmurs with echocardiography. - Older patients may present with ominous murmurs due to aortic valve sclerosis without significant valvular stenosis. Transthoracic echocardiography is the study of choice since it allows evaluation of valve morphology, severity of stenosis, and degree of LV hypertrophy and function. Echocardiography is also useful for following disease progression.
+The American Heart Association recommends evaluation of early systolic, mid-systolic grade 3 or greater, late systolic, or holosystolic murmurs with echocardiography. Older patients may present with ominous murmurs due to aortic valve sclerosis without significant valvular stenosis. Transthoracic echocardiography is the study of choice since it allows evaluation of valve morphology, severity of stenosis, and degree of LV hypertrophy and function. Echocardiography is also useful for following disease progression.
 
-Stress echocardiogram can be utilized in asymptomatic patients with severe aortic stenosis to assess for physiologic changes that may indicate the need for earlier intervention. Computed tomography (CT) angiography is routinely used in patients being considered for transcatheter aortic valve replacement (TAVR) but is not helpful in assessing severity of aortic stenosis. Cardiac magnetic resonance imaging (MRI) is sometimes helpful in evaluating the severity of stenosis but is not widely used. Cardiac -
-
-catheterization is routinely performed in older patients who are scheduled for valve replacement, in order to diagnose concomitant coronary artery disease and to measure transvalvular gradients if there is a question of severity of stenosis.
+Stress echocardiogram can be utilized in asymptomatic patients with severe aortic stenosis to assess for physiologic changes that may indicate the need for earlier intervention. Computed tomography (CT) angiography is routinely used in patients being considered for transcatheter aortic valve replacement (TAVR) but is not helpful in assessing severity of aortic stenosis. Cardiac magnetic resonance imaging (MRI) is sometimes helpful in evaluating the severity of stenosis but is not widely used. Cardiac catheterization is routinely performed in older patients who are scheduled for valve replacement, in order to diagnose concomitant coronary artery disease and to measure transvalvular gradients if there is a question of severity of stenosis.
 
 ### Management
 
-**Asymptomatic patients** Survival of asymptomatic patients is the same as age-matched individuals without aortic - stenosis. However, given the significant decline in survival once symptoms develop, it is essential to consider surgical intervention and to confirm the absence of symptoms in patients who do not appear symptomatic. If a careful history fails to elicit symptoms in patients with severe aortic stenosis, exercise testing may be considered. However, exercise testing in symptomatic patients is contraindicated because of the high risk of severe hemodynamic compromise.
+**Asymptomatic patients** Survival of asymptomatic patients is the same as age-matched individuals without aortic stenosis. However, given the significant decline in survival once symptoms develop, it is essential to consider surgical intervention and to confirm the absence of symptoms in patients who do not appear symptomatic. If a careful history fails to elicit symptoms in patients with severe aortic stenosis, exercise testing may be considered. However, exercise testing in symptomatic patients is contraindicated because of the high risk of severe hemodynamic compromise.
 
-Patients who are asymptomatic by history but who, on exercise testing, develop symptoms, fail to generate a 20 mm Hg increase in blood pressure, or develop STsegment abnormalities, have a 19% 2-year symptom-free survival compared with 85% for patients who do not manifest these abnormalities on exercise testing. Exercise testing may elicit symptoms in as many as a third of patients thought to be asymptomatic by history alone. Close supervision and prompt termination of the study at any decline in blood pressure, significant ST-segment depression, or onset of arrhythmia is strongly advocated. On average, the probability of a patient with severe aortic stenosis remaining symptom-free at 5 years is only 50%, which has prompted some to recommend earlier surgery while the patient is “younger” and in better health.
+Patients who are asymptomatic by history but who, on exercise testing, develop symptoms, fail to generate a 20 mm Hg increase in blood pressure, or develop ST-segment abnormalities, have a 19% 2-year symptom-free survival compared with 85% for patients who do not manifest these abnormalities on exercise testing. Exercise testing may elicit symptoms in as many as a third of patients thought to be asymptomatic by history alone. Close supervision and prompt termination of the study at any decline in blood pressure, significant ST-segment depression, or onset of arrhythmia is strongly advocated. On average, the probability of a patient with severe aortic stenosis remaining symptom-free at 5 years is only 50%, which has prompted some to recommend earlier surgery while the patient is “younger” and in better health.
 
-If the patient is truly asymptomatic, continued frequent routine monitoring is reasonable, but patients should be instructed to report the development of angina, syncope, or any signs of congestive heart failure. Monitoring by echocardiography should include annual or biannual examinations for patients with severe aortic stenosis, whereas examinations should be performed every 1 to 2 years for patients with moderate aortic stenosis, every 3 to 5 years if the stenosis is mild, and as needed with referral - for possible valve replacement if the patient develops symptoms. Patients who are demonstrated to be symptom-free need not restrict their activity and may exercise.
+If the patient is truly asymptomatic, continued frequent routine monitoring is reasonable, but patients should be instructed to report the development of angina, syncope, or any signs of congestive heart failure. Monitoring by echocardiography should include annual or biannual examinations for patients with severe aortic stenosis, whereas examinations should be performed every 1 to 2 years for patients with moderate aortic stenosis, every 3 to 5 years if the stenosis is mild, and as needed with referral for possible valve replacement if the patient develops symptoms. Patients who are demonstrated to be symptom-free need not restrict their activity and may exercise.
 
 **Symptomatic patients** Once patients develop symptoms, they should be considered for valve replacement. Currently, there is no documented medical treatment that will delay or reverse aortic stenosis. Therefore, medical management is palliative and mainly reserved for patients with a remaining life expectancy less than 1 year even with a successful procedure or high chance of poor outcomes (death or no symptom reduction) due to advanced age, frailty, dementia, and other systemic conditions. Although standard guidelines for the management of hypertension are recommended, β-blockers are salutary in patients with concomitant coronary artery disease, and angiotensin-converting enzyme (ACE) inhibitors may have a beneficial effect in LV fibrosis. Diuretics are discouraged if the left ventricle is small due to the potential decrease in cardiac output. Statins have not demonstrated a regression of stenosis in randomized controlled trials, although they are indicated
 
 <a id="p1152"></a>**[p. 1152]**
 
-> for patients with concomitant coronary artery disease or at high risk for atherosclerotic cardiovascular disease.
+for patients with concomitant coronary artery disease or at high risk for atherosclerotic cardiovascular disease.
 
 Aortic valve replacement—surgical aortic valve replacement (SAVR) or TAVR—should be considered for all symptomatic patients whose remaining life expectancy is at least 1 year (ie, no other significant life-limiting systemic disease) because of the improvement in both symptoms and survival. Current American College of Cardiology/ American Heart Association recommendations are listed in **Table 75-2** . Due to the increased risk of sudden death, replacement should be performed as soon as feasible after the development of symptoms.
 
-**Percutaneous aortic valvuloplasty** Balloon aortic valvuloplasty (BAV) is not a substitute for valve replacement but it can be a useful tool in the treatment armamentar-
-
-ium for temporary palliation of symptoms for nonsurgical candidates or as a bridge for patients with hemodynamically unstable aortic stenosis. The procedure uses transvalvular balloon inflation to crack the calcified aortic valve. Unfortunately, the maximum enlargement rarely exceeds 1.0 cm<sup>2</sup> (severe-to-moderate aortic stenosis), carries a 10% risk of complications, and results in restenosis within 6 months to a year. One-year actuarial mortality is 35% to
+**Percutaneous aortic valvuloplasty** Balloon aortic valvuloplasty (BAV) is not a substitute for valve replacement but it can be a useful tool in the treatment armamentarium for temporary palliation of symptoms for nonsurgical candidates or as a bridge for patients with hemodynamically unstable aortic stenosis. The procedure uses transvalvular balloon inflation to crack the calcified aortic valve. Unfortunately, the maximum enlargement rarely exceeds 1.0 cm<sup>2</sup> (severe-to-moderate aortic stenosis), carries a 10% risk of complications, and results in restenosis within 6 months to a year. One-year actuarial mortality is 35% to
 
 **Table 75-2 — American college of cardiology/ american heart association recommendations for valve replacement in aortic stenosis**
 
@@ -125,9 +115,7 @@ ium for temporary palliation of symptoms for nonsurgical candidates or as a brid
 - Symptomatic patients with low-flow/low-gradient severe aortic stenosis and LVEF > 50%, if clinical, hemodynamic, and anatomic data support valve obstruction as the most likely cause of symptoms
 - *Considerations for valve replacement in aortic stenosis*: - Asymptomatic patients with severe aortic stenosis, low surgical risk, and decreased exercise tolerance or a fall in blood pressure with exercise
 
-- Asymptomatic patients with very severe aortic stenosis, de
-
-fined by aortic velocity ≥ 5 m/s, and low surgical risk
+- Asymptomatic patients with very severe aortic stenosis, defined by aortic velocity ≥ 5 m/s, and low surgical risk
 
 - Asymptomatic patients with severe aortic stenosis, low surgical risk, and serum B-type natriuretic peptide level > 3 times normal
 
@@ -150,9 +138,9 @@ Although many studies have found that concomitant coronary artery bypass or mitr
 <a id="p1153"></a>**[p. 1153]**
 **Transcatheter aortic valve replacement** An alternative to SAVR is TAVR, in which a catheter-mounted bioprosthetic valve is deployed across the aortic valve. The valve can be introduced through the femoral artery, the apex of the heart, subclavian artery, carotid artery, or the aorta via small incisions. Alternatively, peripheral arteries such as femoral and subclavian can be accessed percutaneously and controlled using minimally invasive closure devices such as _Perclose Proglide_ (Abbott Cardiovascular, Plymouth, MN).
 
-Randomized controlled trials demonstrated that TAVR, particularly transfemoral TAVR, is as effective as SAVR in symptomatic older patients who are considered low, intermediate, and high operative risk, with different procedural risks of complications. TAVR is associated with lower rates of postoperative stroke, major bleeding, and atrial fibrillation, as well as faster recovery. However, the rates of paravalvular leak, vascular complications, and pacemaker implantation are higher with TAVR. Because durability of TAVR valves beyond 5 years is unknown, some - patients may need a reintervention (“valve-in-valve” procedure). In symptomatic patients with prohibitive SAVR risk, defined as STS Predicted Risk of Morbidity and Mortality of over 50% due to comorbid disease or serious irreversible conditions, TAVR reduces mortality, hospitalizations, and symptoms, but causes higher rates of stroke and vascular complications, compared to medical management with or without percutaneous aortic valvuloplasty.
+Randomized controlled trials demonstrated that TAVR, particularly transfemoral TAVR, is as effective as SAVR in symptomatic older patients who are considered low, intermediate, and high operative risk, with different procedural risks of complications. TAVR is associated with lower rates of postoperative stroke, major bleeding, and atrial fibrillation, as well as faster recovery. However, the rates of paravalvular leak, vascular complications, and pacemaker implantation are higher with TAVR. Because durability of TAVR valves beyond 5 years is unknown, some patients may need a reintervention (“valve-in-valve” procedure). In symptomatic patients with prohibitive SAVR risk, defined as STS Predicted Risk of Morbidity and Mortality of over 50% due to comorbid disease or serious irreversible conditions, TAVR reduces mortality, hospitalizations, and symptoms, but causes higher rates of stroke and vascular complications, compared to medical management with or without percutaneous aortic valvuloplasty.
 
-**Surgical versus transcatheter aortic valve replacement** The choice of SAVR versus TAVR should involve shared decision-making that carefully considers the patient’s age, -- preferences, procedure-specific risk factors or contraindications, procedural complications, and durability of the value relative to the patient’s remaining life expectancy ( **Table 75-3** ). A multidisciplinary team approach is invaluable for optimal procedure selection (TAVR vs SAVR). This approach to individualized risk assessment is described later in this chapter.
+**Surgical versus transcatheter aortic valve replacement** The choice of SAVR versus TAVR should involve shared decision-making that carefully considers the patient’s age, preferences, procedure-specific risk factors or contraindications, procedural complications, and durability of the value relative to the patient’s remaining life expectancy ( **Table 75-3** ). A multidisciplinary team approach is invaluable for optimal procedure selection (TAVR vs SAVR). This approach to individualized risk assessment is described later in this chapter.
 
 ## Aortic Insufficiency
 
@@ -162,9 +150,9 @@ Aortic insufficiency occurs when the aortic valve fails to close during diastole
 
 ### Epidemiology
 
-Acute aortic regurgitation is uncommon and presents a surgical emergency. Chronic aortic insufficiency occurs in 20% to 30% of individuals older than 65 years and like aortic stenosis has a long asymptomatic latency period. However, even asymptomatic patients with normal LV function have a 0.2% incidence of sudden death, progress to symptomatic disease at a rate of approximately 3.5% per year, and develop either LV dysfunction or symptoms at a rate of approximately 6% per year. Once patients develop LV dysfunction, more than 25% each year will progress to symptomatic disease and, once symptomatic, the mortality rate for aortic regurgitation is more than 10% per year. Patients with NYHA class III or IV symptoms have an annual mortality rate of 25%, while patients with less - severe symptoms (NYHA class II) have a 6% annual mortality rate.
+Acute aortic regurgitation is uncommon and presents a surgical emergency. Chronic aortic insufficiency occurs in 20% to 30% of individuals older than 65 years and like aortic stenosis has a long asymptomatic latency period. However, even asymptomatic patients with normal LV function have a 0.2% incidence of sudden death, progress to symptomatic disease at a rate of approximately 3.5% per year, and develop either LV dysfunction or symptoms at a rate of approximately 6% per year. Once patients develop LV dysfunction, more than 25% each year will progress to symptomatic disease and, once symptomatic, the mortality rate for aortic regurgitation is more than 10% per year. Patients with NYHA class III or IV symptoms have an annual mortality rate of 25%, while patients with less severe symptoms (NYHA class II) have a 6% annual mortality rate.
 
-Risk factors for the development of LV dysfunction, symptoms, or death include age, left ventricular end-systolic dimension (LVESD)/volume, left ventricular end-diastolic dimension (LVEDD)/volume, and LV ejection fraction with exercise. Each year 19% of patients with end-systolic size greater than 50 mm develop LV dysfunction and symptoms or die. The rate of development of these same end points was 6% per year for patients with endsystolic size between 40 and 50 mm.
+Risk factors for the development of LV dysfunction, symptoms, or death include age, left ventricular end-systolic dimension (LVESD)/volume, left ventricular end-diastolic dimension (LVEDD)/volume, and LV ejection fraction with exercise. Each year 19% of patients with end-systolic size greater than 50 mm develop LV dysfunction and symptoms or die. The rate of development of these same end points was 6% per year for patients with end-systolic size between 40 and 50 mm.
 
 ### Presentation
 
@@ -198,7 +186,7 @@ Echocardiography is the diagnostic modality of choice for both initial evaluatio
 
 | | MILD | MODERATE | SEVERE |
 |---|---|---|---|
-| Ratio of regurgitant jet width to LV outflow tract (%) | < 25 | 25–64 | ≥ 65 |
+| Ratio of width of regurgitant jet to left ventricular outflow (%) | < 25 | 25–64 | ≥ 65 |
 | Vena contracta (cm) | < 0.3 | 0.3–0.59 | ≥ 0.6 |
 | Regurgitant volume (mL/beat) | < 30 | 30–59 | ≥ 60 |
 | Regurgitant fraction (%) | < 30 | 30–49 | ≥ 50 |
@@ -212,7 +200,7 @@ Cardiac catheterization is routinely performed in patients being evaluated for a
 
 ### Management
 
-> **Medical management** - Surgery is indicated for patients who develop either angina or signs of congestive heart failure, since the mortality for patients with angina is more than 10% per year and for heart failure is more than 20% per year. Medical management in symptomatic patients results in poor outcomes even if the LV function is normal. Patients older than 75 years are more likely to develop either symptoms or ventricular dysfunction at earlier stages of the disease, and have a poorer prognosis once they develop ventricular dysfunction.
+**Medical management** Surgery is indicated for patients who develop either angina or signs of congestive heart failure, since the mortality for patients with angina is more than 10% per year and for heart failure is more than 20% per year. Medical management in symptomatic patients results in poor outcomes even if the LV function is normal. Patients older than 75 years are more likely to develop either symptoms or ventricular dysfunction at earlier stages of the disease, and have a poorer prognosis once they develop ventricular dysfunction.
 
 The medical management of aortic insufficiency is best achieved with vasodilators that reduce afterload and wall stress. Since symptomatic disease carries such a poor prognosis without surgery, medical management is
 
@@ -221,7 +209,7 @@ primarily indicated for patients who are not surgical candidates because of como
 
 The absence of data indicating that exercise contributes to the progression of aortic insufficiency suggests, that the asymptomatic patient with normal LV function may participate in the full range of physical activities, with the exception of isometric exercises, which are contraindicated. However, it is prudent to exercise-test patients to the anticipated level of planned activity to assess tolerance prior to initiating an exercise regimen.
 
-Patients with aortic regurgitation should have regularly scheduled follow-up. Mild regurgitation with normal ventricular function can be followed clinically on an annual basis with biennial or triennial echocardiograms; more severe valvular regurgitation should be followed with annual or even biannual echocardiograms depending on the presence of ventricular dilatation (60 mm). Asymptomatic patients with more severe dilatation ( _>_ 70 mm) should be followed with --echocardiograms every 4 to 6 months because the likelihood of developing symptoms or ventricular dysfunction is as high as 20% per year. Asymptomatic patients with normal LV function and dilated ventricles (LVESD > 50 mm) may be candidates for early valve replacement.
+Patients with aortic regurgitation should have regularly scheduled follow-up. Mild regurgitation with normal ventricular function can be followed clinically on an annual basis with biennial or triennial echocardiograms; more severe valvular regurgitation should be followed with annual or even biannual echocardiograms depending on the presence of ventricular dilatation (60 mm). Asymptomatic patients with more severe dilatation ( _>_ 70 mm) should be followed with echocardiograms every 4 to 6 months because the likelihood of developing symptoms or ventricular dysfunction is as high as 20% per year. Asymptomatic patients with normal LV function and dilated ventricles (LVESD > 50 mm) may be candidates for early valve replacement.
 
 The hospital clinician should also be aware that while intra-aortic balloon counterpulsation is an excellent adjunct to medical therapy in the appropriate patient, it is contraindicated in patients with aortic insufficiency.
 
@@ -250,7 +238,7 @@ Mitral valve stenosis is the progressive narrowing of the orifice of the mitral 
 <a id="p1156"></a>**[p. 1156]**
 ### Epidemiology
 
-The overwhelming majority of mitral stenosis is caused by rheumatic heart disease, which causes thickening and calcification of the leaflets and chordae as well as shortening of the chordae and fusion of the commissures. While this tends to occur in the younger patients and is rarely seen in older patients, the number of older patients may be increasing. In developed countries, most patients present in their forties and fifties, but some studies note that a third of patients are older than 65 years. Only 60% of patients presenting with mitral stenosis recall a history of rheumatic fever, the disease progresses very slowly, and it is estimated that mitral valve area, which normally measures 4.0 to 5.0 cm<sup>2</sup> , decreases by 0.09 to 0.32 cm<sup>2</sup> /year. When the valve area is reduced to 2.5 to 1.5 cm<sup>2</sup> , patients usually develop ·---symptoms. Significant valvular disease lags the development of rheumatic fever by 20 to 40 years. However, once symptoms start, the 10-year survival is only 50% to 60%. Patients who are asymptomatic or with minimal symptoms have an 80% 10-year survival, and 60% have no progression of symptoms. Patients who meet criteria for surgery but do not get operated on have a 10-year survival below 30%. Patients with severe pulmonary hypertension usually live fewer than 3 years, and most patients will die from progressive pulmonary hypertension, congestive heart failure, systemic emboli, pulmonary emboli, or infection.
+The overwhelming majority of mitral stenosis is caused by rheumatic heart disease, which causes thickening and calcification of the leaflets and chordae as well as shortening of the chordae and fusion of the commissures. While this tends to occur in the younger patients and is rarely seen in older patients, the number of older patients may be increasing. In developed countries, most patients present in their forties and fifties, but some studies note that a third of patients are older than 65 years. Only 60% of patients presenting with mitral stenosis recall a history of rheumatic fever, the disease progresses very slowly, and it is estimated that mitral valve area, which normally measures 4.0 to 5.0 cm<sup>2</sup> , decreases by 0.09 to 0.32 cm<sup>2</sup> /year. When the valve area is reduced to 2.5 to 1.5 cm<sup>2</sup> , patients usually develop symptoms. Significant valvular disease lags the development of rheumatic fever by 20 to 40 years. However, once symptoms start, the 10-year survival is only 50% to 60%. Patients who are asymptomatic or with minimal symptoms have an 80% 10-year survival, and 60% have no progression of symptoms. Patients who meet criteria for surgery but do not get operated on have a 10-year survival below 30%. Patients with severe pulmonary hypertension usually live fewer than 3 years, and most patients will die from progressive pulmonary hypertension, congestive heart failure, systemic emboli, pulmonary emboli, or infection.
 
 Senile calcific mitral stenosis is becoming more common in the United States. This is usually associated with mitral annular calcification that extends into the leaflets and is prevalent in patients with decreased renal function, elevated inflammatory markers, and in patients with senile aortic stenosis. Although not all patients develop progressive stenosis, the rate of progression, when it occurs, is accelerated compared to rheumatic disease.
 
@@ -280,7 +268,7 @@ Cardiac catheterization is rarely used to facilitate assessment of mitral valve 
 
 **Medical management** It should be emphasized that medical management cannot reduce a mechanical narrowing like mitral stenosis. However, increasing diastolic filling time by slowing the heart rate with β-blockade may be helpful in patients in sinus rhythm and exertional symptoms. The addition of sodium restriction and a diuretic ameliorates pulmonary edema. Antibiotic prophylaxis for infective endocarditis is reserved for patients at highest risk for developing infective endocarditis or experiencing complications (see General Considerations below). Asymptomatic patients should be followed closely for the development of symptoms, at which time they should be assessed by echocardiogram.
 
-A substantial number of older patients (30%–40%) will present with atrial fibrillation. Both, age and left atrial - --size, are predictive of the developing atrial fibrillation. Unfortunately, atrial fibrillation carries a guarded prognosis, since only 25% of mitral stenosis patients with atrial fibrillation will survive 10 years compared to 46% of those who remain in sinus rhythm. Treatment includes anticoag--ulation, rate control, and electrical or chemical cardioversion, especially if associated with hemodynamic instability. - Patients who remain in atrial fibrillation for more than 24 to 48 hours are at increased risk of embolic complications and should be promptly anticoagulated. Electrical cardioversion may be used but only after confirming the absence of a left atrial thrombus by echocardiogram. If a thrombus is present, treatment may include 3 weeks of anticoagulation,
+A substantial number of older patients (30%–40%) will present with atrial fibrillation. Both, age and left atrial size, are predictive of the developing atrial fibrillation. Unfortunately, atrial fibrillation carries a guarded prognosis, since only 25% of mitral stenosis patients with atrial fibrillation will survive 10 years compared to 46% of those who remain in sinus rhythm. Treatment includes anticoagulation, rate control, and electrical or chemical cardioversion, especially if associated with hemodynamic instability. Patients who remain in atrial fibrillation for more than 24 to 48 hours are at increased risk of embolic complications and should be promptly anticoagulated. Electrical cardioversion may be used but only after confirming the absence of a left atrial thrombus by echocardiogram. If a thrombus is present, treatment may include 3 weeks of anticoagulation,
 
 <a id="p1157"></a>**[p. 1157]**
 
@@ -288,9 +276,9 @@ followed by confirmation of the absence of thrombus by repeat echocardiography a
 
 Patients with paroxysmal or persistent atrial fibrillation, prior emboli or left atrial thrombus should be anticoagulated. Systemic emboli occur in 20% of patients and age and atrial fibrillation are predictive of embolization.
 
-Exercise is not contraindicated in asymptomatic patients with mild mitral stenosis. In patients with more severe stenosis, exercise is often limited by symptoms. Therefore exercise regimens for patients with more symptomatic or severe disease should be individually tailored. **Percutaneous mitral valvuloplasty** Percutaneous mitral valvuloplasty is successful in select patients and often doubles the valve area with a substantial decrease in valve gradient. The selection of patients for this treatment option is determined by echocardiographic assessment of the valve, and is based on leaflet mobility, subvalvular apparatus, leaflet thickening, and the presence of calcification (Wilkins Score). The lowest scores are assigned to valves with the greatest leaflet mobility, the least subvalvular thickening, the most normal leaflet thickness, and the least calcium deposition. Patients with these valve characteristics (low-
+Exercise is not contraindicated in asymptomatic patients with mild mitral stenosis. In patients with more severe stenosis, exercise is often limited by symptoms. Therefore exercise regimens for patients with more symptomatic or severe disease should be individually tailored.
 
-- est scores) have the best response to balloon valvuloplasty. The majority of patients (90%) will see symptomatic relief, with a freedom from valve-related complications or death of between 50% and 65% at 7 years and as high as 80% to 90% in patients with favorable (low) preprocedural echocardiographic scores.
+**Percutaneous mitral valvuloplasty** Percutaneous mitral valvuloplasty is successful in select patients and often doubles the valve area with a substantial decrease in valve gradient. The selection of patients for this treatment option is determined by echocardiographic assessment of the valve, and is based on leaflet mobility, subvalvular apparatus, leaflet thickening, and the presence of calcification (Wilkins Score). The lowest scores are assigned to valves with the greatest leaflet mobility, the least subvalvular thickening, the most normal leaflet thickness, and the least calcium deposition. Patients with these valve characteristics (lowest scores) have the best response to balloon valvuloplasty. The majority of patients (90%) will see symptomatic relief, with a freedom from valve-related complications or death of between 50% and 65% at 7 years and as high as 80% to 90% in patients with favorable (low) preprocedural echocardiographic scores.
 
 Symptomatic patients or patients with pulmonary hypertension, those with favorable echocardiographic mitral valve scores and without atrial thrombi, should be referred for mitral valvuloplasty. The risks for percutaneous mitral valvuloplasty are low ( **Table 75-8** ). Therefore, even patients with less favorable echocardiographic scores who are at high surgical risk may be considered candidates for this approach. However, balloon valvuloplasty is contraindicated in patients with moderate-to-severe mitral regurgitation and/or the presence of left atrial clot. Unfortunately, patients older than 65 years have a lower success rate, higher incidence of complications, and shorter duration of symptom relief with this approach.
 
@@ -313,7 +301,7 @@ The surgical options include open repair with commissurotomy or valve replacemen
 
 - *Indications for valve intervention in mitral stenosis*: - Percutaneous mitral balloon valvuloplasty is recommended in symptomatic patients with severe mitral stenosis, favorable morphology, and absence of contraindications
 
-- Severely symptomatic patients (NYHA class III–IV) who are unable to undergo balloon valvuloplasty (owing to unavailability, contraindications, or unfavorable valve score) and - are not high risk for surgery
+- Severely symptomatic patients (NYHA class III–IV) who are unable to undergo balloon valvuloplasty (owing to unavailability, contraindications, or unfavorable valve score) and are not high risk for surgery
 
 - Patients with severe stenosis undergoing other cardiac surgery
 - *Considerations for valve intervention in mitral stenosis*: - Mildly symptomatic patients with severe mitral stenosis and severe pulmonary hypertension if ineligible for balloon valvuloplasty
@@ -336,7 +324,7 @@ MVA, mitral valve area; NYHA, New York Heart Association.
 
 <a id="p1158"></a>**[p. 1158]**
 
-> or a bioprosthetic valve. The surgical risk increases with decreased preoperative functional status, older age, decreased cardiac function, pulmonary hypertension, and the presence of coronary artery disease. Operative mortality can be as high as 20% in the older patient with significant comorbidities and pulmonary hypertension. Nonetheless, it is not recommended to wait until the patient becomes severely symptomatic (NYHA class IV), since this results in a substantial increase in the surgical risk. Conversely, surgery should be considered despite severe symptoms, since both quality of life and survival are exceedingly poor without surgical intervention.
+or a bioprosthetic valve. The surgical risk increases with decreased preoperative functional status, older age, decreased cardiac function, pulmonary hypertension, and the presence of coronary artery disease. Operative mortality can be as high as 20% in the older patient with significant comorbidities and pulmonary hypertension. Nonetheless, it is not recommended to wait until the patient becomes severely symptomatic (NYHA class IV), since this results in a substantial increase in the surgical risk. Conversely, surgery should be considered despite severe symptoms, since both quality of life and survival are exceedingly poor without surgical intervention.
 
 Patients with senile calcific mitral stenosis often present a surgical challenge, because the calcification involves the annulus and the base of the leaflets. Valve replacement is complex and often involves annular debridement with reconstruction, which significantly increases the operative risk. Therefore, intervention is often delayed until symptoms are severely limiting and cannot be managed medically.
 
@@ -356,9 +344,7 @@ Acute mitral regurgitation is caused by disruption of the valve apparatus (leafl
 
 Chronic mitral regurgitation can be either primary (organic) regurgitation, which can be caused by mitral valve prolapse, rheumatic heart disease, endocarditis, or coronary artery disease. Secondary (functional) regurgitation is due to LV dysfunction and annular dilation.
 
-Chronic regurgitation is better tolerated, but when severe, especially in association with a flail leaflet, is associated with a 7% per year mortality. Patients with severe
-
-mitral valve regurgitation and a low ejection fraction have a particularly poor prognosis. The 10-year survival for patients with ejection fractions less than 50% is 32%, compared to a 70% 10-year survival for patients with ejection fraction greater than 60%. Even patients with borderline normal ejection fraction (50%–60%) have a decreased 10-year survival (53%) if untreated.
+Chronic regurgitation is better tolerated, but when severe, especially in association with a flail leaflet, is associated with a 7% per year mortality. Patients with severe mitral valve regurgitation and a low ejection fraction have a particularly poor prognosis. The 10-year survival for patients with ejection fractions less than 50% is 32%, compared to a 70% 10-year survival for patients with ejection fraction greater than 60%. Even patients with borderline normal ejection fraction (50%–60%) have a decreased 10-year survival (53%) if untreated.
 
 ### Presentation
 
@@ -372,13 +358,13 @@ As with other cardiac valvular problems, the diagnosis is best confirmed and qua
 
 ### Management
 
-**Medical management** Asymptomatic patients with mild primary mitral regurgitation may be followed with echocardiograms every 3 to 5 years while those with moderate mitral regurgitation should be followed every 1 to 2 years.
+**Medical management** Asymptomatic patients with mild primary mitral regurgitation may be followed with
 
 **Table 75-10 — Severity of mitral regurgitation**
 
 | | MILD | MODERATE | SEVERE |
 |---|---|---|---|
-| Color Doppler jet area | Small central jet | Jet greater than small, but no criteria for severe MR | Large jet filling large portion of atrium, or wall-impinging jet |
+| Color Doppler jet area | Small central jet | Jet greater than small, but no criteria for severe mitral regurgitation | Large jet filling large portion of atrium or wall impinging jet |
 | Vena contracta (cm) | < 0.3 | 0.3–0.69 | ≥ 0.7 |
 | Regurgitant volume (mL/beat) | < 30 | 30–59 | ≥ 60 |
 | Regurgitant fraction (%) | < 30 | 30–49 | ≥ 50 |
@@ -388,7 +374,7 @@ As with other cardiac valvular problems, the diagnosis is best confirmed and qua
 
 <a id="p1159"></a>**[p. 1159]**
 
-Asymptomatic patients with severe organic regurgitation should probably undergo exercise testing to confirm the absence of symptoms, and if truly asymptomatic, should undergo restudy by echocardiogram every 6 to 12 months. The asymptomatic patient with organic mitral regurgitation, a normal ejection fraction without pulmonary hypertension, or LV dilation may exercise without restriction.
+echocardiograms every 3 to 5 years while those with moderate mitral regurgitation should be followed every 1 to 2 years. Asymptomatic patients with severe organic regurgitation should probably undergo exercise testing to confirm the absence of symptoms, and if truly asymptomatic, should undergo restudy by echocardiogram every 6 to 12 months. The asymptomatic patient with organic mitral regurgitation, a normal ejection fraction without pulmonary hypertension, or LV dilation may exercise without restriction.
 
 Medical management consists of blood pressure control with vasodilators and diuretics. Asymptomatic patients with normal blood pressure and LV function do not require treatment, and endocarditis prophylaxis is recommended for all patients with mitral valve prolapse and patients with moderate or severe organic mitral regurgitation.
 
@@ -411,9 +397,7 @@ Mitral valve repair or replacement is indicated for all patients with symptoms (
 - Patients with severe primary mitral regurgitation undergoing other cardiac surgery
 
 - Acute mitral regurgitation
-- *Considerations for valve repair or replacement in mitral regurgitation*: - Repair may be considered in
-
- asymptomatic patients with severe regurgitation and normal left ventricular size and function if the valve can be repaired with a high degree of certainty and low mortality
+- *Considerations for valve repair or replacement in mitral regurgitation*: - Repair may be considered in asymptomatic patients with severe regurgitation and normal left ventricular size and function if the valve can be repaired with a high degree of certainty and low mortality
 
 - Repair may be considered in asymptomatic patients with new-onset atrial fibrillation or pulmonary hypertension at rest with severe nonrheumatic regurgitation and normal left ventricular size and function
 
@@ -439,7 +423,7 @@ EF, ejection fraction; NYHA, New York Heart Association.
 
 <a id="p1160"></a>**[p. 1160]**
 
-> appendage should be considered, in order to reestablish sinus rhythm and possibly reduce the risk of systemic embolization, respectively. Once LV dysfunction develops, patient survival, even after repair or replacement, is compromised. Therefore, patients who are asymptomatic, with normal LV size and function, should be followed closely, and, if necessary, exercise testing should be considered to confirm the absence of symptoms. Surgical intervention may be warranted for asymptomatic patients with severe mitral regurgitation with none of the noted indications for surgery if and only if the mitral valve can be repaired.
+appendage should be considered, in order to reestablish sinus rhythm and possibly reduce the risk of systemic embolization, respectively. Once LV dysfunction develops, patient survival, even after repair or replacement, is compromised. Therefore, patients who are asymptomatic, with normal LV size and function, should be followed closely, and, if necessary, exercise testing should be considered to confirm the absence of symptoms. Surgical intervention may be warranted for asymptomatic patients with severe mitral regurgitation with none of the noted indications for surgery if and only if the mitral valve can be repaired.
 
 Operative mortality varies based on the procedure. Mitral valve repair is associated with a 2% perioperative mortality compared to 6% for valve replacement. Patients with ischemic and functional mitral regurgitation do much worse than the patients with organic regurgitation. A study of 292 patients older than 70 years demonstrated an in-hospital mortality of 0.7% for mitral repair compared to 14% for replacement. A study comparing cohorts of patients older than 75 years, between 65 and 75 years, and younger than 65 years demonstrated an increased operative risk for older patients. However, restoration of life expectancy following surgery is the same for older as for younger patients. Current data suggest that in patients with functional mitral regurgitation there is no improvement in survival by performing a concomitant mitral repair with coronary artery bypass. Nonetheless, there may be an improvement in postoperative symptoms.
 
@@ -447,7 +431,7 @@ Operative mortality varies based on the procedure. Mitral valve repair is associ
 
 ## General Considerations
 
-### Evaluation Of Surgical Risk
+### Evaluation of Surgical Risk
 
 **Predicted risk of mortality (Table 75-12)** Many older patients have multiple comorbidities that impact risk of surgery and the decision to operate. There are, however, a number of statistical models that can be helpful in weighing the impact of individual comorbidities on operative outcome. The two most widely used are the Society of Thoracic Surgeons Predicted Risk of Mortality (STS-PROM) score and the EUROpean Score for Cardiac Operative Risk Evaluation (EuroSCORE-II), which is derived from a European surgical population. The STS-PROM, derived from a rolling cohort of North American patients, analyzes the impact of preoperative variables of patients undergoing coronary artery bypass surgery and valve surgery (with or without concomitant coronary artery bypass) on 30-day mortality and postoperative complications. It is important to recognize that these data are derived only from patients who were operated on, and therefore do not provide insight into patients who were considered for surgery but did not undergo an operation. These risk models, though very informative, should not be relied on as the only indicator for surgery.
 
@@ -465,7 +449,7 @@ Although there is surprisingly a dearth of data supporting or refuting the use o
 
 > Highlighting is the owner's annotation, not the book's.
 
-> Category cutoffs by STS-PROM: low risk < 4%, intermediate 4–8%, high > 8%, prohibitive = predicted risk of death or major morbidity > 50%.
+> STS-PROM row: low risk < 4% *and*, intermediate 4%–8% *or*, high > 8%; prohibitive = surgical risk of death or major morbidity > 50% (see crop for the frailty/organ-dysfunction/impediment rows).
 
 <a id="p1161"></a>**[p. 1161]**
 
@@ -540,19 +524,19 @@ Notably the risk of embolization and the durability is determined, in part, by v
 
 Within each class of valve, mechanical and bioprosthetic, there are numerous types of prostheses; each type of valve is available in different forms (eg, porcine vs bovine pericardial or bileaflet vs tilting disc).
 
-The choice of replacement valve is sometimes determined by the contraindication to anticoagulation (which would necessitate the implantation of a bioprosthetic valve). Otherwise, the choice resides with the patient. There are some data to suggest that the rate of bioprosthetic valve deterioration is attenuated in older patients, prompting many surgeons to recommend bioprosthetic aortic valves for patients older than 65 years and bioprosthetic mitral valves for patients older than 70 years. Valves such as On-X (Cryolife, Kennesaw, Georgia, USA) retain all the durability benefits of a mechanical valve while requiring considerably less anticoagulation (INR 1.5 to 2.0 with aspirin after - 3 months).
+The choice of replacement valve is sometimes determined by the contraindication to anticoagulation (which would necessitate the implantation of a bioprosthetic valve). Otherwise, the choice resides with the patient. There are some data to suggest that the rate of bioprosthetic valve deterioration is attenuated in older patients, prompting many surgeons to recommend bioprosthetic aortic valves for patients older than 65 years and bioprosthetic mitral valves for patients older than 70 years. Valves such as On-X (Cryolife, Kennesaw, Georgia, USA) retain all the durability benefits of a mechanical valve while requiring considerably less anticoagulation (INR 1.5 to 2.0 with aspirin after 3 months).
 
 Other indirect factors may impact the choice of valve: atrial fibrillation, multiple valve replacement, prior mechanical valve, prior cardiac surgery, and annulus size may argue in favor of a mechanical valve. Essentially, the risk of a mechanical valve is that of anticoagulation and embolization, while the risk of a bioprosthetic valve is that of valve failure and reoperation. In the end, the choice of valve—unless there are contraindications to anticoagulation—belongs to the patient, who ultimately must live with the perils of anticoagulation or the threat of reoperation.
 
 **Mechanical valves** The original mechanical valve was the ball-caged design, which, while durable, had inefficient flow characteristics and required higher levels of anticoagulation than the current generation of valves. The bileaflet mechanical valve is the most commonly used valve in the aortic position because of its superior flow characteristics. The risk of thromboembolism with anticoagulation is approximately 1% to 2% per year.
 
-**Bioprosthetic valves** Stented and nonstented porcine valves and bovine pericardial valves are available, and like homografts, do not require immunosuppression or anticoagulation. The risk of embolism for this class of valves - is approximately 0.7% per year without anticoagulation. However, all the biological valves are prone to structural deterioration. The rate of deterioration is slower in older patients—at 15 to 20 years, patients at age 70 have a 90% freedom from structural valve deterioration and patients older than 75 years have freedom from reoperation of 90% to 95%. Stentless valves do not have the valve mounting and are therefore more hemodynamically efficient, but this does not increase survival in the older patient. Minimal aortic gradients can be achieved regularly with this type of valve.
+**Bioprosthetic valves** Stented and nonstented porcine valves and bovine pericardial valves are available, and like homografts, do not require immunosuppression or anticoagulation. The risk of embolism for this class of valves is approximately 0.7% per year without anticoagulation. However, all the biological valves are prone to structural deterioration. The rate of deterioration is slower in older patients—at 15 to 20 years, patients at age 70 have a 90% freedom from structural valve deterioration and patients older than 75 years have freedom from reoperation of 90% to 95%. Stentless valves do not have the valve mounting and are therefore more hemodynamically efficient, but this does not increase survival in the older patient. Minimal aortic gradients can be achieved regularly with this type of valve.
 
 **Aortic homografts** Cadaveric valves do not provide improved durability but are particularly useful in patients with endocarditis and tissue loss. The rate of thromboembolism is low, and, like the stentless porcine valves, they are hemodynamically efficient especially at small sizes. Although there is no need for antirejection medications, the valve has a propensity to become heavily calcified, making re-replacement much more challenging.
 
 ### Pulmonary Valve Autotransplant (Ross Procedure)
 
-Mr. Donald Ross devised an operation to excise the patient’s own pulmonary valve, which is used to replace the aortic valve, and then to replace the pulmonary valve with a homograft or bioprosthetic valve. Conceptually, the lowerpressure pulmonary circuit will allow for longer durability of the homograft or bioprosthetic valve in this circuit, and the aortic valve, which is now an autologous valve, would, therefore, also have increased durability. The operative morbidity and mortality for this procedure, especially in inexperienced hands, are higher than bioprosthetic aortic valve replacement. The increased procedural risk and limited benefit in an older patient make it rarely indicated in this population.
+Mr. Donald Ross devised an operation to excise the patient’s own pulmonary valve, which is used to replace the aortic valve, and then to replace the pulmonary valve with a homograft or bioprosthetic valve. Conceptually, the lower-pressure pulmonary circuit will allow for longer durability of the homograft or bioprosthetic valve in this circuit, and the aortic valve, which is now an autologous valve, would, therefore, also have increased durability. The operative morbidity and mortality for this procedure, especially in inexperienced hands, are higher than bioprosthetic aortic valve replacement. The increased procedural risk and limited benefit in an older patient make it rarely indicated in this population.
 
 <a id="p1163"></a>**[p. 1163]**
 
@@ -560,9 +544,7 @@ A variation of this operation is also available for mitral replacement, but it i
 
 **Transcutaneous valves** In the aortic position, various options are well-established and may be viewed from two broad categories, “balloon-expandable” and “self-expanding. No approved transcutaneous mitral valve currently exists, though multiple, multiple startup ventures are competing to fill this void. It is anticipated that a transcatheter option for the mitral valve will be available in the relatively near future.
 
-**Sutureless (aortic) valves** Several “sutureless” valves are also currently available and offer a hybrid option. These valves are implanted through an open surgical approach
-
-and, therefore, still require cardiopulmonary bypass sup- port. However, various features allow for a much quicker implantation—with no or considerably less suture—and a correspondingly larger aortic valve annular orifice area.
+**Sutureless (aortic) valves** Several “sutureless” valves are also currently available and offer a hybrid option. These valves are implanted through an open surgical approach and, therefore, still require cardiopulmonary bypass support. However, various features allow for a much quicker implantation—with no or considerably less suture—and a correspondingly larger aortic valve annular orifice area.
 
 **Valve repair** Repair of the aortic or mitral valves is ideal. The ability to maintain ventricular geometry, to accommodate natural annular motion and the durability makes mitral valve repair the best option for suitable patients, since these advantages translate to lower operative mortality for mitral repair compared to replacement—1% to 2% versus 5.4% to 6.4%, respectively. Aortic valve repair for calcific disease is less durable and is rarely indicated; however, in the setting of normal leaflets, the aortic valve is repairable with excellent results (85% freedom from reoperation at 10 years).
 

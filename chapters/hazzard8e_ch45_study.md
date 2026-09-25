@@ -6,13 +6,13 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 
 **Definitions**
 - Syncope: transient loss of consciousness 2° cerebral hypoperfusion, with unresponsiveness/loss of postural tone and spontaneous, complete recovery (p665)
-- Dizziness: abnormal perception of the body's relationship to space; 4 subtypes — vertigo, presyncope, disequilibrium, and other (p665, p671)
+- Dizziness: abnormal perception of the body's relationship to space; 4 subtypes — vertigo, presyncope, disequilibrium, and other (p665, p670)
 
 **Epidemiology**
 - Syncope lifetime prevalence up to **47%** in healthy adults; **3%** of ED visits (p665)
 - Incidence **0.6%/yr**, rising to **2% to 6%/yr** in older adults (p665)
 - 1-yr outcomes after ED syncope visit: **7%** mortality, **16%** recurrence needing hospitalization, **6.0%** device insertion (p665)
-- Syncope = **7th** most common reason for ED admission in patients >65; **1%** of all hospital admissions; costs the US **$2.4 billion**/yr; **40%** remain unexplained despite inpatient workup (p666)
+- Syncope = **7th** most common reason for ED admission in patients >65; **1%** of all hospital admissions; costs the US **$2.4 billion**/yr; up to **40%** remain unexplained despite inpatient workup (p666)
 - Young adults: peak incidence age **10–30**, mostly vasovagal. Older adults: more often cardiovascular (p666)
 - Dizziness prevalence **4% to 30%** in persons ≥65, higher in females (p666)
 - Cardiac causes responsible for about **one-third** of syncope cases in older patients (p667)
@@ -21,17 +21,17 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 **Pathophysiology**
 - Standing pools **500 to 1000 cc** of blood in legs/splanchnic bed → ↓ venous return → baroreflex response (increased sympathetic outflow, decreased vagal tone) limits the BP fall (p666)
 - Aging blunts this defense: ↓ baroreflex sensitivity, defective β-adrenergic signal transduction → diminished HR response to standing/exercise (p666)
-- Older adults also lose blood volume: ↓ renin/aldosterone, ↑ atrial natriuretic peptide, ↓ thirst response, often plus diuretics (p666–667)
+- Older adults also lose blood volume: ↓ renin/aldosterone, ↑ atrial natriuretic peptide, ↓ thirst response, often plus diuretics (p666)
 
 **Orthostatic and postprandial hypotension**
-- OH definition: **≥20 mmHg** systolic and/or **≥10 mmHg** diastolic drop on standing, measured immediately and again at **1 and 3 minutes** (p667)
+- OH definition: **≥20 mmHg** systolic and/or **≥10 mmHg** diastolic drop on standing, usually measured immediately and after a short delay (eg, at **1 and 3 minutes**) (p667)
 - OH-contributing drug classes: antipsychotics (MAOIs, TCAs), diuretics, beta-blockers, nitrates/alpha-blockers — alpha+beta combination especially dangerous (p668)
 - PPH definition: **≥20 mmHg** systolic drop within **2 hours** of starting a meal (p668)
 - PPH prevalence: **24% to 36%** of nursing home residents; **23%** of older adults admitted to a geriatric hospital with syncope/falls; found in **50%** of older adults with unexplained syncope (p668)
 
 **Carotid sinus hypersensitivity / carotid sinus syndrome (CSS)**
 - CSH definition: asystole **≥3 sec** (cardioinhibitory) and/or systolic BP fall **>50 mmHg** (vasodepressor) during carotid sinus massage (p669)
-- Massage technique: **5 to 10 sec** duration per side; maximal HR fall occurs within **5 sec** of onset (p669)
+- Massage technique: done sequentially on each side; recommended duration **5 to 10 sec**; maximal HR fall occurs within **5 sec** of onset (p669)
 - CSS = CSH plus syncope on stimulation; vasovagal syncope or OH coexists in **one-third** of CSH patients; about **half** of CSS patients sustain an injury/fracture during episodes (p669)
 
 **Evaluation of syncope**
@@ -57,7 +57,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 
 <details><summary>Answer</summary>
 
-Transient loss of consciousness from cerebral hypoperfusion, with loss of postural tone and spontaneous, complete recovery. Causes of LOC that involve focal neurologic abnormalities or do not recover spontaneously (eg, seizure, TIA) are technically excluded from the definition (p665).
+Transient loss of consciousness from cerebral hypoperfusion, with loss of postural tone and spontaneous, complete recovery. Other transient causes of LOC (eg, vertebrobasilar ischemia, hypoxemia, hypoglycemia) are technically not syncope if they involve focal neurologic abnormalities or do not recover spontaneously without intervention (eg, oxygen or glucose). Seizures may occur during a syncopal event as a consequence of cerebral hypoperfusion, but are rarely a cause of syncope (p665).
 
 </details>
 
@@ -69,11 +69,11 @@ Vertigo, presyncope, disequilibrium, and other. Vertigo and presyncope are typic
 
 </details>
 
-**3. In an ED population, what proportion of syncope cases remain unexplained despite extensive workup, and what does syncope cost the US annually?**
+**3. What proportion of syncope cases remain unexplained despite extensive inpatient evaluation, and what does syncope cost the US annually?**
 
 <details><summary>Answer</summary>
 
-Up to 40% remain unexplained; syncope-related hospitalizations cost about $2.4 billion annually (p666).
+Up to 40% remain unexplained; syncope-related hospitalizations have been estimated to cost the US $2.4 billion annually (p666).
 
 </details>
 
@@ -105,7 +105,7 @@ Asystole ≥3 seconds (cardioinhibitory) and/or a fall in systolic BP >50 mmHg (
 
 <details><summary>Answer</summary>
 
-5 to 10 seconds per side; the maximal fall in heart rate usually occurs within 5 seconds of the onset of massage (p669).
+5 to 10 seconds (massage is done sequentially on each side); the maximal fall in heart rate usually occurs within 5 seconds of the onset of massage (p669).
 
 </details>
 
@@ -169,6 +169,6 @@ Syncope is abolished in 85% to 90% of patients with appropriate dual-chamber pac
 
 <details><summary>Answer</summary>
 
-About 10%. High-risk features include persistently abnormal vital signs, hematocrit <30 from GI bleed, acute coronary syndrome, implantable cardiac device dysfunction, valvular heart disease, new undiagnosed murmur, family history of sudden death, new dyspnea/CHF features, prolonged QT or other conduction disease, slow AF (<40 bpm), persistent bradycardia (<40 bpm), Brugada pattern on ECG, or syncope during exertion/supine/sitting (p673 — any three of these).
+About 10%. High-risk features include persistently abnormal vital signs, GI bleed or acute change in hematocrit to <30, volume depletion, acute coronary syndrome, implantable cardiac device dysfunction, valvular heart disease, new undiagnosed murmur, family history of sudden death, new dyspnea/CHF features, prolonged QT or other conduction disease, slow AF (<40 bpm), persistent bradycardia (<40 bpm), Brugada pattern on ECG, or syncope during exertion/supine/sitting (p673 — any three of these).
 
 </details>

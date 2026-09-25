@@ -2,14 +2,14 @@
 
 Mark Unruh, Nitin Budhwar
 
-> **Fast build from the book, 22-23 Sep; not lane-reviewed.**
+> **Lane-reviewed against the book, 25 Sep 2026.**
 
 <a id="p1277"></a>**[p. 1277]**
 
 #### Learning Objectives
 
 - Recognize that chronic kidney disease (CKD) is most often caused by common systemic diseases, including diabetes and hypertension.
-- Understand that diabetic nephropathy is a chronic progressive kidney disease that requires treatment with angiotensinconverting enzyme inhibitor (ACEI) or angiotensin receptor blockers (ARBs) if tolerated, optimization of blood pressure and blood glucose levels, and management of comorbidities. SGLT2 inhibitors and GLP-1 receptor agonists show benefits in treatment of diabetes and substantial reduction of risk of kidney disease progression.
+- Understand that diabetic nephropathy is a chronic progressive kidney disease that requires treatment with angiotensin-converting enzyme inhibitor (ACEI) or angiotensin receptor blockers (ARBs) if tolerated, optimization of blood pressure and blood glucose levels, and management of comorbidities. SGLT2 inhibitors and GLP-1 receptor agonists show benefits in treatment of diabetes and substantial reduction of risk of kidney disease progression.
 - Assess acute kidney injury (AKI) for pre-, post-, and intrarenal causes among the older adult. Even episodes of mild AKI can increase the risk for future CKD and the etiology of AKI is often related to the sex, age, and location of the patient.
 - Understand the prognosis of older adults with kidney failure.
 - Characterize the approaches to managing end-stage kidney disease (ESKD) among older adults.
@@ -21,7 +21,7 @@ Mark Unruh, Nitin Budhwar
 
 1. In patients with CKD, management of elevated blood pressure and avoidance of nephrotoxins can delay progression to ESKD.
 2. Complications of CKD include iron-deficient anemia and secondary hyperparathyroidism.
-3. Proteinuria in the absence of hematuria is a sign of kidney damage, is a risk factor for prog ression of CKD to ESKD, and requires evaluation.
+3. Proteinuria in the absence of hematuria is a sign of kidney damage, is a risk factor for progression of CKD to ESKD, and requires evaluation.
 4. In patients with renovascular disease, intervention is usually only indicated if conservative management fails.
 5. Clinical guidelines suggest that patients with progressive CKD should be managed in a multidisciplinary setting. Nephrologist referral should be considered under the following circumstances: AKI, urinary red cell casts, CKD and refractory hypertension, persistent abnormalities of potassium, recurrent or extensive nephrolithiasis, hereditary kidney disease, CKD stages 4 and 5, and patients with severely increased albuminuria.
 6. Older patients with kidney failure have a multitude of choices for kidney replacement therapy including hemodialysis, peritoneal dialysis, conservative management, palliative care, and kidney transplantation.
@@ -48,7 +48,7 @@ and geriatricians. The presentation of patients with CKD can vary and is related
 
 The criteria for CKD include an estimated GFR less than 60 mL/min/1.73 m<sup>2</sup> (normal GFR in young adults is about 125 mL/min/1.73 m<sup>2</sup> ; GFR < 15 mL/min/1.73 m<sup>2</sup> is defined as kidney failure), albuminuria (urinary albumin-to-creatinine ratio > 30 mg/g), hematuria (any degree on urine dipstick), presence of urinary casts in the urine sediment (seen by microscopy of urinary sediment), and abnormalities on kidney imaging for a duration of more than 3 months.
 
-It should be mentioned that some in the field have raised concerns that this classification overestimates the CKD burden in the older adult population when considering clinical outcomes. The equations estimating GFR have relied on creatinine, sex, age, and race as factors to predict kidney function. It has been determined that low estimated GFR (eGFR) and high albuminuria are independently associated with increased mortality and risk to develop endstage kidney disease (ESKD) regardless of age across a wide
+It should be mentioned that some in the field have raised concerns that this classification overestimates the CKD burden in the older adult population when considering clinical outcomes. The equations estimating GFR have relied on creatinine, sex, age, and race as factors to predict kidney function. It has been determined that low estimated GFR (eGFR) and high albuminuria are independently associated with increased mortality and risk to develop end-stage kidney disease (ESKD) regardless of age across a wide
 
 range of populations. In addition, even smaller decreases in eGFR (such as < 30% reduction over 2 years) were strongly and consistently associated with increased mortality and risk of ESKD. Thus, CKD contributes significantly to increased morbidity and mortality. However, patients with CKD are a very heterogeneous group and eGFR and albuminuria alone may not be sufficient to predict outcomes, especially in the older adult population. Therefore, care should be provided in context of the individual situation and needs.
 
@@ -69,7 +69,6 @@ CKD is usually asymptomatic until GFR falls below approximately 15 to 20 mL/min/
 Kidney function is usually assessed by serum creatinine and blood urea nitrogen (BUN) levels, electrolytes, urinalysis, and urine protein-creatinine protein ratio (or quantitative albuminuria). If there are situations that may limit the accuracy of creatinine, one could use cystatin C to provide another estimate of GFR. If these tests are abnormal, further evaluation may include a kidney ultrasound with Doppler to determine kidney size (enlarged kidneys can be seen in patients with polycystic kidney disease [PKD], infiltrative processes, amyloidosis, and diabetic and HIV nephropathy; small kidneys can be congenital or due to long-standing CKD), echogenicity (increased in long-standing CKD and infiltrative processes), renal blood flow (decreased with long-standing CKD or with occlusion of renal arteries
 
 <a id="p1279"></a>**[p. 1279]**
-**Green, low risk (if no other markers of kidney disease, no CKD); yellow, moderately increased risk; orange, high risk; red: very high risk.**
 
 ![Figure 83-1](hazzard8e_ch83_figure83-1.png)
 
@@ -79,7 +78,7 @@ Kidney function is usually assessed by serum creatinine and blood urea nitrogen 
 
 including after renal infarct), and renal pelvis dilatation (in ureteral or severe bladder outflow obstruction).
 
-Previous blood, urine, and imaging test results should be obtained if available to determine duration and rate of change. A detailed medical and surgical history should be obtained, including childhood diseases, in particular - edema and proteinuria in the past and history of rheumatic fever or other severe conditions. The family history can point toward inheritable kidney diseases (including PKD and focal segmental glomerular sclerosis [FSGS]). Social history may identify exposure to toxins and herbal remedies. Additionally, the history can help to identify risk factors for progression of CKD to ESKD. A comprehensive physical examination can detect elevated blood pressure, obesity, signs of heart failure, pulmonary and peripheral edema, liver disease, vasculitis/autoimmune disease, etc.
+Previous blood, urine, and imaging test results should be obtained if available to determine duration and rate of change. A detailed medical and surgical history should be obtained, including childhood diseases, in particular edema and proteinuria in the past and history of rheumatic fever or other severe conditions. The family history can point toward inheritable kidney diseases (including PKD and focal segmental glomerular sclerosis [FSGS]). Social history may identify exposure to toxins and herbal remedies. Additionally, the history can help to identify risk factors for progression of CKD to ESKD. A comprehensive physical examination can detect elevated blood pressure, obesity, signs of heart failure, pulmonary and peripheral edema, liver disease, vasculitis/autoimmune disease, etc.
 
 ## Management
 
@@ -95,7 +94,7 @@ Blockade of the renin-angiotensin system (RAS) using ACEIs or ARB lowers blood p
 
 <a id="p1280"></a>**[p. 1280]**
 
-> Medications from these classes should be considered for patients with type 2 diabetes and CKD and the indications for use of SGLT2 may be expanding to other etiologies of kidney disease such as IgA nephropathy. They may also be of benefit in nondiabetics with CKD—but the data to support this is still emerging. In addition, management of hyperlipidemia with statins or statins plus ezetimibe is recommended for older adults with eGFR less than 60 mL/min/1.73 m<sup>2</sup> .
+Medications from these classes should be considered for patients with type 2 diabetes and CKD and the indications for use of SGLT2 may be expanding to other etiologies of kidney disease such as IgA nephropathy. They may also be of benefit in nondiabetics with CKD—but the data to support this is still emerging. In addition, management of hyperlipidemia with statins or statins plus ezetimibe is recommended for older adults with eGFR less than 60 mL/min/1.73 m<sup>2</sup> .
 
 **Nonpharmacologic** Patients with CKD are more likely to experience AKI, and AKI is a risk factor for progression to ESKD. Thus, preventing AKI is important to delay CKD progression. Avoidance of nephrotoxins is a mainstay of CKD management. In particular, nonsteroidal anti-inflammatory drugs (NSAIDs) can have detrimental effects especially if the patient is also taking ACEIs or ARBs, by decreasing glomerular perfusion and filtration rate. Contrast dye can cause tubular cell damage and AKI possibly leading to CKD. Many antibiotics can have nephrotoxic effects and cause AKI.
 
@@ -107,9 +106,9 @@ Prevention is the ideal approach to prevent ESKD and its associated morbidity an
 
 ## Protein In The Diet
 
-In nondiabetic patients with CKD with less advanced disease (CKD stage 3 or lower), low-protein diets do not appear to reduce the progression to ESKD compared with normalprotein diets.
+In nondiabetic patients with CKD with less advanced disease (CKD stage 3 or lower), low-protein diets do not appear to reduce the progression to ESKD compared with normal-protein diets.
 
-There is some evidence that low-protein diets (0.5–0.6 g per kg per day) or very low-protein diets (0.3–0.4 g per kg per day) may reduce the number of patients with advanced kidney disease (CKD stage 4 or 5) who progress to ESKD. - This should be done with regular monitoring to prevent malnourishment.
+There is some evidence that low-protein diets (0.5–0.6 g per kg per day) or very low-protein diets (0.3–0.4 g per kg per day) may reduce the number of patients with advanced kidney disease (CKD stage 4 or 5) who progress to ESKD. This should be done with regular monitoring to prevent malnourishment.
 
 ## Special Issues
 
@@ -129,7 +128,7 @@ AKI is defined by an increase in creatinine (decrease in eGFR) within a few days
 
 ## Epidemiology
 
-The incidence of AKI increases with age, with the majority of patients who develop AKI being older than 65 years. When AKI does occur in this age group, it is associated - with significant morbidity and mortality. However, the epidemiology of AKI is difficult to determine consistently and detailed information about long-term outcomes is often lacking. Studies have shown that even modest increases (< 50%) of serum creatinine levels are associated with significantly higher risk of long-term CKD.
+The incidence of AKI increases with age, with the majority of patients who develop AKI being older than 65 years. When AKI does occur in this age group, it is associated with significant morbidity and mortality. However, the epidemiology of AKI is difficult to determine consistently and detailed information about long-term outcomes is often lacking. Studies have shown that even modest increases (< 50%) of serum creatinine levels are associated with significantly higher risk of long-term CKD.
 
 ## Pathophysiology (Classification)
 
@@ -143,7 +142,7 @@ Etiologies of AKI can be categorized into prerenal, postrenal (obstructive), and
 
 > Highlighting is the owner's annotation, not the book's.
 
- <a id="p1282"></a>**[p. 1282]**
+<a id="p1282"></a>**[p. 1282]**
 
 ![Table 83-1 continued](hazzard8e_ch83_table83-1_p1282.png)
 
@@ -219,9 +218,9 @@ Patients with GN report constitutional symptoms, including decreased energy, gen
 
 The evaluation of a patient with suspected glomerular disease depends primarily on the acuity of the presentation. If the patient presents with acute kidney failure and has hematuria and proteinuria, RPGN has to be suspected. In emergent and urgent presentations, the prompt consultation of nephrology may help to guide both diagnostics and therapeutic approaches.
 
-The decision whether and when to perform a kidney biopsy depends on the overall condition and status - of each individual patient. Increased frailty and decreased functional status at baseline, preexisting baseline CKD with decreased eGFR, and small echogenic kidneys on ultrasound, limited life expectancy as well as anemia, thrombocytopenia, and coagulopathy increase the risk for complications after kidney biopsy.
+The decision whether and when to perform a kidney biopsy depends on the overall condition and status of each individual patient. Increased frailty and decreased functional status at baseline, preexisting baseline CKD with decreased eGFR, and small echogenic kidneys on ultrasound, limited life expectancy as well as anemia, thrombocytopenia, and coagulopathy increase the risk for complications after kidney biopsy.
 
-If the patient has stable renal function but a glomerular disease is suspected because of hematuria and proteinuria, the patient should first undergo serologic evaluation. Depending on those results a kidney biopsy can be - considered. If the creatinine is rising and pre- and postrenal causes of AKI have been excluded, an urgent kidney biopsy may be considered.
+If the patient has stable renal function but a glomerular disease is suspected because of hematuria and proteinuria, the patient should first undergo serologic evaluation. Depending on those results a kidney biopsy can be considered. If the creatinine is rising and pre- and postrenal causes of AKI have been excluded, an urgent kidney biopsy may be considered.
 
 ## Management
 
@@ -233,7 +232,7 @@ Cytotoxic therapy with agents such as cyclophosphamide is considered in patients
 
 <a id="p1285"></a>**[p. 1285]**
 
-of therapy depends on the specific disease, severity of initial presentation, and degree of response. Anti-CD20 - antibodies (rituximab) can be considered with equivalent potency compared to Cytoxan as suggested by recent studies. Maintenance therapy is usually required to prevent disease recurrence. The goal is to maintain the patient on the lowest dose of corticosteroids and steroid-sparing agents without flare of the disease or significant complications of therapy.
+of therapy depends on the specific disease, severity of initial presentation, and degree of response. Anti-CD20 antibodies (rituximab) can be considered with equivalent potency compared to Cytoxan as suggested by recent studies. Maintenance therapy is usually required to prevent disease recurrence. The goal is to maintain the patient on the lowest dose of corticosteroids and steroid-sparing agents without flare of the disease or significant complications of therapy.
 
 Supportive medical management is critical for patients with GN, in particular management of blood pressure (hyper- and hypotension), intravascular and total body fluid volume, electrolyte abnormalities, and unwanted effects and complications of therapy.
 
@@ -251,7 +250,7 @@ NS is defined as the presence of nephrotic range proteinuria (> 3 g/day), hypoal
 
 The differential diagnosis in older adult patients presenting with NS includes most diseases that are seen in younger adults. A kidney biopsy may be needed to define the cause of NS and estimate the degree of fibrosis in this age group, and thereby greatly aid in focusing the diagnostic evaluation and in planning treatment. Many clinicians recommend deferring additional laboratory or imaging procedures until the histopathologic diagnosis of NS has been made by renal biopsy.
 
-The most common diseases identified by kidney biopsy are membranous nephropathy (MN), MCD, and - amyloidosis, with approximately 60% of all cases accounted for by these three conditions. Less common causes among - older patients undergoing a biopsy for diagnosis of NS are --FSGS, proliferative GN, and DN. A membranoproliferative pattern of injury can be seen in association with a monoclonal deposition disease, such as light-chain deposition disease, which is more common in older adults. DN is less commonly encountered on biopsies, largely because patients with diabetes and NS seldom undergo renal biopsy unless “atypical” features are present such as onset of NS fewer than 5 years from discovery of diabetes, rapid progression of renal impairment, or absence of proliferative retinopathy and other microvascular complications of diabetes.
+The most common diseases identified by kidney biopsy are membranous nephropathy (MN), MCD, and amyloidosis, with approximately 60% of all cases accounted for by these three conditions. Less common causes among older patients undergoing a biopsy for diagnosis of NS are FSGS, proliferative GN, and DN. A membranoproliferative pattern of injury can be seen in association with a monoclonal deposition disease, such as light-chain deposition disease, which is more common in older adults. DN is less commonly encountered on biopsies, largely because patients with diabetes and NS seldom undergo renal biopsy unless “atypical” features are present such as onset of NS fewer than 5 years from discovery of diabetes, rapid progression of renal impairment, or absence of proliferative retinopathy and other microvascular complications of diabetes.
 
 MCD is encountered in approximately 15% and MN in approximately 30% to 40% of renal biopsies in older adult with isolated NS. Both MN and MCD can be primary idiopathic glomerular diseases or secondary to extra renal conditions such as neoplasia, drugs, or infection. Approximately 10% of renal biopsies in older patients believed to have primary idiopathic NS on clinical grounds will reveal amyloidosis. Amyloidosis in the older adult is most often of the primary variety.
 
@@ -261,7 +260,7 @@ The most common symptom is lower extremity edema and sometimes patients also not
 
 ## Evaluation
 
-New onset of lower extremity edema should always warrant a urinalysis, which is cheap, noninvasive, and can quickly guide further diagnostic interventions. If the uri-nalysis shows albuminuria, renal function, serum albu-min, and lipid levels should be determined. At the point of diagnosing a NS in a patient, a nephrology consultation is indicated for work-up and therapeutic recommendations. A kidney ultrasound is used to evaluate for kidney size, which can be increased in patients with NS due to diabetic and HIV nephropathy, amyloidosis, and infiltrative diseases that can also cause MN. A kidney biopsy should be considered in all patients with new onset of NS. Because some etiologies of NS, including MCD and MN, are paraneoplastic syndromes, a malignancy work-up should be considered.
+New onset of lower extremity edema should always warrant a urinalysis, which is cheap, noninvasive, and can quickly guide further diagnostic interventions. If the urinalysis shows albuminuria, renal function, serum albumin, and lipid levels should be determined. At the point of diagnosing a NS in a patient, a nephrology consultation is indicated for work-up and therapeutic recommendations. A kidney ultrasound is used to evaluate for kidney size, which can be increased in patients with NS due to diabetic and HIV nephropathy, amyloidosis, and infiltrative diseases that can also cause MN. A kidney biopsy should be considered in all patients with new onset of NS. Because some etiologies of NS, including MCD and MN, are paraneoplastic syndromes, a malignancy work-up should be considered.
 
 ## Management
 
@@ -269,13 +268,13 @@ New onset of lower extremity edema should always warrant a urinalysis, which is 
 
 <a id="p1286"></a>**[p. 1286]**
 
-> therapy usually includes induction and maintenance regimen. Which regimen is recommended depends on the specific disease etiology, risk for progression, presence of comorbidities, and risk of complications. Disease-specific immunosuppressive regimens usually include pulse-dose corticosteroids, followed by oral steroids very similar to patients with GN as described earlier. The rate of steroid taper often is guided by response to therapy. Additional therapeutic strategies may include B-cell depletion using anti-CD20 antibodies, calcineurin inhibitors, and myco-phenolate mofetil.
+therapy usually includes induction and maintenance regimen. Which regimen is recommended depends on the specific disease etiology, risk for progression, presence of comorbidities, and risk of complications. Disease-specific immunosuppressive regimens usually include pulse-dose corticosteroids, followed by oral steroids very similar to patients with GN as described earlier. The rate of steroid taper often is guided by response to therapy. Additional therapeutic strategies may include B-cell depletion using anti-CD20 antibodies, calcineurin inhibitors, and mycophenolate mofetil.
 
 Non-immunosuppressive therapies target mainly proteinuria and edema. The mainstay of interventions to lower proteinuria is blockade of the RAS with either ACEI or ARB, which lower intraglomerular pressure and also exhibit direct beneficial effects on podocytes. Peripheral edema and ascites require sodium restriction (< 2 g/day) and loop diuretics, it should be reversed slowly to avoid hypovolemia and AKI. Hyperlipidemia usually resolves with resolution of NS. In patients who experience a thrombotic event due to hypercoagulopathy in NS, anticoagulation may have to be considered.
 
 ## Prevention
 
-> Management of diabetes attenuates the likelihood of developing DN and subsequent NS.
+Management of diabetes attenuates the likelihood of developing DN and subsequent NS.
 
 ## Special Issues
 
@@ -307,9 +306,9 @@ All patients with DM should be regularly evaluated for development of albuminuri
 
 ## Management
 
-> The main goals in patients with DN are optimiza-tion of blood glucose levels, blood pressure, and use of _._ kidney-protective medications. In addition, complications of CKD as well as timely preparation for dialysis have to be managed.
+The main goals in patients with DN are optimization of blood glucose levels, blood pressure, and use of kidney-protective medications. In addition, complications of CKD as well as timely preparation for dialysis have to be managed.
 
-**Pharmacologic** The development of agents to protect kidney function among those with DN has been a dramatic success in the prevention of ESKD. Blockade of the RAS and tight glycemic control have been shown to improve outcomes in patients with DN. The medications used to achieve these goals should be tailored specifically toward an individual patient’s comorbidities. ACEI, - ARBs, SGLT2 inhibitors, and GLP-1 receptor agonists delay progression of CKD to ESKD and should be started in all patients with diabetes mellitus and any stage of CKD and/or hypertension if tolerated. If sodium retention and edema are present, diuretics may be used. The blood pressure goal for patient with diabetes and CKD is generally agreed by various organizations to be kept below 130/80 mm Hg.
+**Pharmacologic** The development of agents to protect kidney function among those with DN has been a dramatic success in the prevention of ESKD. Blockade of the RAS and tight glycemic control have been shown to improve outcomes in patients with DN. The medications used to achieve these goals should be tailored specifically toward an individual patient’s comorbidities. ACEI, ARBs, SGLT2 inhibitors, and GLP-1 receptor agonists delay progression of CKD to ESKD and should be started in all patients with diabetes mellitus and any stage of CKD and/or hypertension if tolerated. If sodium retention and edema are present, diuretics may be used. The blood pressure goal for patient with diabetes and CKD is generally agreed by various organizations to be kept below 130/80 mm Hg.
 
 ## Special Issues
 
@@ -334,7 +333,7 @@ The most common cause of AIN is secondary to drug therapy, but autoimmune diseas
 
 ## Presentation
 
-AIN presents with nonspecific signs and symptoms, including nausea, vomiting, and malaise, unless the patient has systemic signs of an allergic drug reaction such as fever - or rash. Hematuria is rare and proteinuria is usually not significant, with the exception of NSAID-induced AIN, which can be accompanied by NS. Atypical presentations with minimal symptomatology require a higher index of suspicion seen in older adults—NSAIDs and proton pump inhibitors are frequent offenders.
+AIN presents with nonspecific signs and symptoms, including nausea, vomiting, and malaise, unless the patient has systemic signs of an allergic drug reaction such as fever or rash. Hematuria is rare and proteinuria is usually not significant, with the exception of NSAID-induced AIN, which can be accompanied by NS. Atypical presentations with minimal symptomatology require a higher index of suspicion seen in older adults—NSAIDs and proton pump inhibitors are frequent offenders.
 
 ## Evaluation
 
@@ -348,7 +347,7 @@ The most important intervention when drug-induced AIN is suspected is to stop th
 
 ## Prevention
 
-To prevent AIN, medications with known higher-thanaverage risk of AIN—in particular proton pump inhibitors— should only be prescribed if and for as long as needed.
+To prevent AIN, medications with known higher-than-average risk of AIN—in particular proton pump inhibitors—should only be prescribed if and for as long as needed.
 
 ## Special Issues
 
@@ -383,9 +382,9 @@ disease includes many different diseases ( **Table 83-3** ). Atheroembolic renal
 
 ## Presentation
 
-Findings that might prompt the clinicians to consider renal artery stenosis are onset of hypertension after the age of 50, notably diastolic hypertension, accelerated or difficult-tocontrol hypertension, coexisting diffuse atherosclerotic vascular disease and decreased GFR, <mark>acute or subacute increase in serum creatinine levels after initiation of therapy with ACEIs or ARBs, recurrent pulmonary edema, grades III to IV hypertensive retinopathy, abdominal or flank bruit,</mark> hypokalemia in the absence of diuretic use, erythrocytosis, microangiopathic hemolytic anemia, and hyperuricemia.
+Findings that might prompt the clinicians to consider renal artery stenosis are onset of hypertension after the age of 50, notably diastolic hypertension, accelerated or difficult-to-control hypertension, coexisting diffuse atherosclerotic vascular disease and decreased GFR, <mark>acute or subacute increase in serum creatinine levels after initiation of therapy with ACEIs or ARBs, recurrent pulmonary edema, grades III to IV hypertensive retinopathy, abdominal or flank bruit,</mark> hypokalemia in the absence of diuretic use, erythrocytosis, microangiopathic hemolytic anemia, and hyperuricemia.
 
-Acute or subacute fall in GFR (rise in serum creatinine) can be precipitated by treatment of hypertension with ACEIs or ARBs during a period of days to weeks after initiating therapy. It is associated with hypoperfusion of the kidneys caused by inhibition of angiotensin II–dependent autoregulatory pathways in the glomerulus. Even so many patients with renovascular disease tolerate these agents and do not require additional noninvasive studies. The role of directrenin inhibitors and renal artery stenosis has not been defined. Patients with suspected or documented renovascular hypertension and poorly controlled hypertension may present with progressive azotemia or with recurrent pulmonary edema (23% prevalence in some series).
+Acute or subacute fall in GFR (rise in serum creatinine) can be precipitated by treatment of hypertension with ACEIs or ARBs during a period of days to weeks after initiating therapy. It is associated with hypoperfusion of the kidneys caused by inhibition of angiotensin II–dependent autoregulatory pathways in the glomerulus. Even so many patients with renovascular disease tolerate these agents and do not require additional noninvasive studies. The role of direct-renin inhibitors and renal artery stenosis has not been defined. Patients with suspected or documented renovascular hypertension and poorly controlled hypertension may present with progressive azotemia or with recurrent pulmonary edema (23% prevalence in some series).
 
 Azotemia in an older patient that cannot be explained by other renal diseases—in particular in the setting of worsening renal failure, bland urinary sediment, proteinuria
 
@@ -397,9 +396,9 @@ The diagnosis of renovascular hypertension is based on the demonstration of rena
 
 Duplex ultrasound scanning also allows scanning of the renal arteries and measurement of kidney size and is not affected by medications or the level of GFR. The reported sensitivity and specificity values are in the low- to mid-90% range. The disadvantage of this test is that it is technically demanding and has a steep learning curve for each center that performs this test.
 
-Magnetic resonance angiography (MRA) has been effective in screening for the presence of renal artery stenosis with the advantage of having less exposure to contrast media and less invasive than the arteriogram. However, patients with CKD exposed to gadolinium and developing nephrogenic systemic fibrosis (NSF) have been described in case series. Therefore, MRA for defining renal artery stenosis in patients with CKD is infrequent and carefully considered. Another highly accurate noninvasive study for screening for renal artery stenosis is the spiral (helical) CT scan with CT angiography. However, there is a risk of contrast nephropathy with the spiral CT scan in patients with -- CKD.
+Magnetic resonance angiography (MRA) has been effective in screening for the presence of renal artery stenosis with the advantage of having less exposure to contrast media and less invasive than the arteriogram. However, patients with CKD exposed to gadolinium and developing nephrogenic systemic fibrosis (NSF) have been described in case series. Therefore, MRA for defining renal artery stenosis in patients with CKD is infrequent and carefully considered. Another highly accurate noninvasive study for screening for renal artery stenosis is the spiral (helical) CT scan with CT angiography. However, there is a risk of contrast nephropathy with the spiral CT scan in patients with CKD.
 
-ACEI radionuclide scintirenography using technetium99m diethylenetriamine penta-acetic acid (<sup>99m</sup> Tc-DTPA) has shown high sensitivity and specificity for renovascular hypertension. Two limitations should be kept in mind: (1) these tests have not been evaluated in patients with azotemia, and (2) while a positive test predicts an improvement in blood pressure, it is not known whether it also predicts an improvement in renal function.
+ACEI radionuclide scintirenography using technetium-99m diethylenetriamine penta-acetic acid (<sup>99m</sup> Tc-DTPA) has shown high sensitivity and specificity for renovascular hypertension. Two limitations should be kept in mind: (1) these tests have not been evaluated in patients with azotemia, and (2) while a positive test predicts an improvement in blood pressure, it is not known whether it also predicts an improvement in renal function.
 
 The gold standard for diagnosing renal artery stenosis is renal angiography. Intra-arterial digital subtraction angiography (IA-DSA) or a CO2 angiogram also provides excellent anatomic detail and requires less contrast than conventional angiography. The technique of intravenous DSA, although less invasive, does not provide comparable resolution to the aforementioned tests because of the high degree of bowel gas and motility artifacts, and usually requires a significantly larger amount of nephrotoxic contrast material.
 
@@ -413,15 +412,15 @@ lesion and helps predict the blood pressure response to revascularization. In ge
 
 Renovascular disease can remain stable or worsen over time. Of patients with renal artery stenosis, up to 50% can expect their stenosis to worsen, with reports of up to 5% per year. In general, the rate of progression of renal insufficiency and the likelihood of deterioration of renal function correlates with the extent of stenosis at the time of diagnosis. Older adult patients who develop ESKD secondary to progressive atherosclerotic renal artery obstruction have poor survival.
 
-Medical therapy is universally accepted first-line treatment for renal artery stenosis. The approach to patients with RAS should address hypertension, as well as anti-platelet, hyperlipidemia, and hyperglycemia therapies. - ACE inhibitors and ARBs have improved the likelihood of blood pressure control among patients with RAS. Therapy must be further individualized and based on the general status of the patient, the presence of any concomitant disease, and the local surgical or angiographic experience of the center.
+Medical therapy is universally accepted first-line treatment for renal artery stenosis. The approach to patients with RAS should address hypertension, as well as anti-platelet, hyperlipidemia, and hyperglycemia therapies. ACE inhibitors and ARBs have improved the likelihood of blood pressure control among patients with RAS. Therapy must be further individualized and based on the general status of the patient, the presence of any concomitant disease, and the local surgical or angiographic experience of the center.
 
-In the presence of unilateral renal artery stenosis and at least moderately decreased GFR, the latter is usually not - improved by intervention. In the Cardiovascular Outcomes in Renal Atherosclerotic Lesions (CORAL) trial, which included 947 patients, there was no benefit to revascularization versus medical management. Those patients assigned to revascularization in CORAL had similar primary composite outcomes after a median follow-up of 3.6 years. The meta-analysis of the trials comparing revascularization to medical management also demonstrates no benefit.
+In the presence of unilateral renal artery stenosis and at least moderately decreased GFR, the latter is usually not improved by intervention. In the Cardiovascular Outcomes in Renal Atherosclerotic Lesions (CORAL) trial, which included 947 patients, there was no benefit to revascularization versus medical management. Those patients assigned to revascularization in CORAL had similar primary composite outcomes after a median follow-up of 3.6 years. The meta-analysis of the trials comparing revascularization to medical management also demonstrates no benefit.
 
 In bilateral stenosis, there are a number of possible clinical presentations and the approaches are informed by scarce data given that the revascularization trials for RAS were largely unilateral and stable disease. The first clinical presentation is bilateral occlusion of the renal arteries. This situation does not necessarily imply irreversible damage because the viability of the kidneys may be maintained by a collateral blood supply. This is particularly true in patients who have a gradual onset of arterial occlusion. Clinical findings suggesting parenchymal salvageability include the following: angiographic demonstration of retrograde filling of the distal renal arterial system by collateral vessels; renal biopsy showing preserved glomerular architecture; kidney size greater than 9 cm by ultrasound; and function of the involved kidney on renal scintigraphy. Some centers perform kidney biopsies in surgical candidates if their serum creatinine is higher than 4 mg/dL. In patients with serum
 
 creatinine less than 3 mg/dL, improved renal function (defined as a reduction in serum creatinine of > 20% from the baseline value) can be expected post-revascularization in nearly half of patients undergoing this procedure.
 
-The second scenario is bilateral stenosis without total occlusion or stenosis in a solitary kidney. Improvement in renal function is frequently seen after reconstructive surgery in 75% to 89% of these patients. Unlike cases with total renal occlusion, revascularization to preserve renal function is not worthwhile in patients with severe renal insufficiency (serum creatinine > 4 mg/dL) because they usually have advanced underlying renal parenchymal disease (nephrosclerosis and/ or atheroembolic disease), which is not improved by revascularization. In older patients, atherosclerosis of large vascular structures poses additional challenges to bypass procedures. Considering the significant risks of progressive renal occlusive disease and renal failure that are associated with medical management of this condition, surgical options for treatment may be considered.
+The second scenario is bilateral stenosis without total occlusion or stenosis in a solitary kidney. Improvement in renal function is frequently seen after reconstructive surgery in 75% to 89% of these patients. Unlike cases with total renal occlusion, revascularization to preserve renal function is not worthwhile in patients with severe renal insufficiency (serum creatinine > 4 mg/dL) because they usually have advanced underlying renal parenchymal disease (nephrosclerosis and/or atheroembolic disease), which is not improved by revascularization. In older patients, atherosclerosis of large vascular structures poses additional challenges to bypass procedures. Considering the significant risks of progressive renal occlusive disease and renal failure that are associated with medical management of this condition, surgical options for treatment may be considered.
 
 Initially percutaneous transluminal renal angioplasty (PTRA) had a limited role in older patients because of the concomitant presence of aortic atherosclerotic disease, making any endovascular procedure hazardous and technically difficult. Restenosis following dilatation of atheromatous lesions was quite common and a significant number of older patients present with ostial lesions, which are not amenable to PTRA. PTRA with the use of endovascular stenting devices have come into vogue with improved outcome of the revascularization of these ostial lesions. Surgical intervention is presently recommended for more complicated lesions, or angioplasty failures. One advantage of angioplasty over surgery is that it can be undertaken in patients who have prohibitively high surgical risks that are related to systemic atherosclerosis.
 
@@ -437,11 +436,11 @@ Renovascular disease can be prevented by the same measures that prevent atherosc
 
 ## Definition
 
-End-stage kidney disease (ESKD), or kidney failure, has been defined as having kidney function less than 15 mL/min/ 1.73 m<sup>2</sup> . Causes of ESKD are usually progression of a CKD or by AKI. It is associated with the inability to excrete waste products, control serum electrolytes, handle the daily dietary and metabolic acid load, and maintain fluid balance. In addition, kidney failure causes inadequate production of
+End-stage kidney disease (ESKD), or kidney failure, has been defined as having kidney function less than 15 mL/min/1.73 m<sup>2</sup> . Causes of ESKD are usually progression of a CKD or by AKI. It is associated with the inability to excrete waste products, control serum electrolytes, handle the daily dietary and metabolic acid load, and maintain fluid balance. In addition, kidney failure causes inadequate production of
 
 <a id="p1290"></a>**[p. 1290]**
 
-> erythropoietin, deranged calcium and phosphorous metabolism, high blood pressure, and accelerated progression of cardiovascular disease.
+erythropoietin, deranged calcium and phosphorous metabolism, high blood pressure, and accelerated progression of cardiovascular disease.
 
 Most etiologies of CKD demonstrate a progression to kidney failure and variability in rate and trajectory of progression among individuals with kidney disease. The rates of decline in kidney function vary by underlying nephropathy, by severity of hypertension and albuminuria, by modifying factors, and between individuals. Historically, the rate of decline could be estimated as 7 to 10 mL/min/year in those with untreated chronic nephropathies such as DN. However, chronic nephropathies have similar effects on electrolyte homeostasis, causes of progressive decline in function, and manifestations of kidney failure so that classification by severity permits a better understanding of underlying routes to progression, symptoms, and hopefully, treatments of CKD.
 
@@ -475,21 +474,21 @@ to include not only older patients, but also to those with multiple chronic cond
 
 The most common symptoms that present before initiation of maintenance dialysis in older patients tend to be anorexia, weight loss, fatigue, nausea, and vomiting. The recognition of uremia in the older patient, however, may prove difficult. Behavioral changes, unexplained impaired cognition, “adult failure to thrive,” unexplained worsening of congestive heart failure, or a change in sense of well-being may be a manifestation of uremia in the geriatric patient.
 
-While timely initiation of RRT avoids the need for urgent dialysis, clinical trials of earlier initiation of dialysis (GFR 10–15 mL/min/1.73 m<sup>2</sup> ) have shown no significant benefit compared to later initiation (GFR 7 mL/min/ 1.73 m<sup>2</sup> ). A strong correlation between “baseline” serum albumin just prior to initiation of dialysis and patient survival has been demonstrated. Although hypoalbuminemia itself does not necessarily indicate protein-energy malnutrition, it is believed to be a major contributing factor. Analysis of the Modification of Diet in Renal Disease (MDRD) study showed that patients tend to adapt to their declining GFR and associated uremic symptoms by reducing their protein intake. Nevertheless, approximately 60% of American ESKD patients experience nausea and vomiting at the time dialysis is initiated.
+While timely initiation of RRT avoids the need for urgent dialysis, clinical trials of earlier initiation of dialysis (GFR 10–15 mL/min/1.73 m<sup>2</sup> ) have shown no significant benefit compared to later initiation (GFR 7 mL/min/1.73 m<sup>2</sup> ). A strong correlation between “baseline” serum albumin just prior to initiation of dialysis and patient survival has been demonstrated. Although hypoalbuminemia itself does not necessarily indicate protein-energy malnutrition, it is believed to be a major contributing factor. Analysis of the Modification of Diet in Renal Disease (MDRD) study showed that patients tend to adapt to their declining GFR and associated uremic symptoms by reducing their protein intake. Nevertheless, approximately 60% of American ESKD patients experience nausea and vomiting at the time dialysis is initiated.
 
 ## Contraindications To Renal Replacement Therapy
 
 It may be reasonable not to start or to stop dialysis for older patients with a very poor prognosis or who cannot be dialyzed safely. For the practitioner, there are few absolute medical contraindications to RRT. Some propose that advanced dementia, metastatic cancer, heart failure with marked hypotension, and advanced liver diseases are reasons for withholding RRT. However, progressive dementia can be confused with uremia-induced delirium in a patient with advanced kidney dysfunction, and a “trial” of dialysis may be justified. It may take as long as 3 to 4 weeks to clear uremic symptoms with dialysis. The patient’s family should be aware that if the patient’s mental status fails to improve, RRT may be inappropriate. Similarly, providing dialysis for a patient with metastatic cancer or end-stage liver disease may allow the patient to get their affairs in order and spend some important time with friends and family. Cognitive and behavioral contraindications may play an even larger role in older patients than medical contraindications. Dialysis units are communities where a patient with inappropriate,
 
-unsafe, or violent behavior may adversely affect care pro- vided to others at that unit.
+unsafe, or violent behavior may adversely affect care provided to others at that unit.
 
 ## Health-Related Quality Of Life (HRQOL)
 
-Maintaining health-related quality of life (HRQOL) is very meaningful for older patients with chronic illness. Studies of older patients undergoing dialysis have shown markedly lower functional status compared to older communitydwelling adults. However, hemodialysis has improved since these early studies and there have been advances in technology, treatment of comorbidities such as anemia and hyperparathyroidism, and quality improvement initiatives that have improved the HRQOL of patients on dialysis. As shown in **Figure 83-3** , there is evidence of both decrements in physical and mental well-being associated with dialysis compared to the general population across regions. While there is a marked decrement in physical well-being with older age, there are similar scores for physical wellbeing across age groups. These findings may be informative to older patients and health care providers and they also underline the need to improve HRQOL among all patients undergoing dialysis. Interventions aimed at preserving residual kidney function, monitoring HRQOL, treatment of anemia, engaging the patient in physical therapy and rehabilitation, applying palliative care principles, and perhaps more frequent and longer hemodialysis treatments may preserve HRQOL among older patients undergoing hemodialysis.
+Maintaining health-related quality of life (HRQOL) is very meaningful for older patients with chronic illness. Studies of older patients undergoing dialysis have shown markedly lower functional status compared to older community-dwelling adults. However, hemodialysis has improved since these early studies and there have been advances in technology, treatment of comorbidities such as anemia and hyperparathyroidism, and quality improvement initiatives that have improved the HRQOL of patients on dialysis. As shown in **Figure 83-3** , there is evidence of both decrements in physical and mental well-being associated with dialysis compared to the general population across regions. While there is a marked decrement in physical well-being with older age, there are similar scores for physical well-being across age groups. These findings may be informative to older patients and health care providers and they also underline the need to improve HRQOL among all patients undergoing dialysis. Interventions aimed at preserving residual kidney function, monitoring HRQOL, treatment of anemia, engaging the patient in physical therapy and rehabilitation, applying palliative care principles, and perhaps more frequent and longer hemodialysis treatments may preserve HRQOL among older patients undergoing hemodialysis.
 
 ## Choice Of Renal Replacement Therapy
 
-When faced with kidney failure, the older patient has a number of choices to make regarding therapy consistent with their overall level of well-being and goals of care. The most common forms of kidney replacement in the United States are three-times weekly outpatient hemodialysis, peritoneal dialysis (PD), and renal transplantation. There has also been a proliferation of home therapies and therapies tailored to older patients such as nursing home– based dialysis units. The older patient may also choose conservative management and thereby avoid dialysis or opt for palliative care. The patients should have time to develop a relationship with the nephrologist and team in order to have discussions of goals for care and how RRT may be tailored to meet those goals.
+When faced with kidney failure, the older patient has a number of choices to make regarding therapy consistent with their overall level of well-being and goals of care. The most common forms of kidney replacement in the United States are three-times weekly outpatient hemodialysis, peritoneal dialysis (PD), and renal transplantation. There has also been a proliferation of home therapies and therapies tailored to older patients such as nursing home–based dialysis units. The older patient may also choose conservative management and thereby avoid dialysis or opt for palliative care. The patients should have time to develop a relationship with the nephrologist and team in order to have discussions of goals for care and how RRT may be tailored to meet those goals.
 
 ## Hemodialysis
 
@@ -553,7 +552,7 @@ Anemia is a common problem with CKD and kidney failure. The cause of anemia may 
 
 hydrorxylase inhibitors (HIF PHI) are a class of oral agents that stabilize HIF and promote red blood cell production. A growing number studies have demonstrated noninferiority compared to erythropoietin-based therapies for correction of hemoglobin and mixed results when examining the impact of HIF PHI on cardiovascular events.
 
-Correction of anemia has been associated with improved quality of life, reduced the need for transfusions, improved cognitive performance, and decreased left ventricular hypertrophy. There are adverse effects of using ery~ thropoietin in the CKD patient, including iron deficiency ~ (the stimulation of red blood cell production outstrips iron stores), hypertension, cardiovascular events, and vascular - thrombosis.
+Correction of anemia has been associated with improved quality of life, reduced the need for transfusions, improved cognitive performance, and decreased left ventricular hypertrophy. There are adverse effects of using erythropoietin in the CKD patient, including iron deficiency (the stimulation of red blood cell production outstrips iron stores), hypertension, cardiovascular events, and vascular thrombosis.
 
 The optimal hemoglobin target for patients with anemia caused by CKD remains somewhat unclear. The current conservative target is a hemoglobin level near 11.5 mg/dL. In addition to close attention to erythropoietin dosing and hemoglobin levels, adequate anemia management requires routine analysis and treatment of iron deficiency. Iron levels tend to drop in patients on erythropoietin therapy because of increased iron utilization. Iron-deficient ESKD patients usually receive intravenous replacement iron at the end of their dialysis treatments. Because they absorb oral iron poorly, ESKD patients have “functional” iron deficiency when their ferritin falls below 500 ng/mL or their iron saturation is less than 30%.
 
@@ -587,11 +586,11 @@ Most older individuals with ESKD have some degree of functional decline or frail
 
 <a id="p1296"></a>**[p. 1296]**
 
-> conditions attributable to frailty such as neglect, alcohol abuse, and depression. Resistance exercise training, improvement in nutritional status, and treatment of complications of CKD such as anemia are also suggested to address frailty.
+conditions attributable to frailty such as neglect, alcohol abuse, and depression. Resistance exercise training, improvement in nutritional status, and treatment of complications of CKD such as anemia are also suggested to address frailty.
 
 ## Pruritus
 
-Itching has been reported in up to 40% of patients with kidney failure and can adversely affect sleep and quality of life. The causes of itching in older patients with kidney failure include xerosis, uremic itching, and medication sensitivity. Pruritus is also common in the older dialysis patient, possibly because of skin changes seen with aging. As a part of an approach to managing uremic pruritis, it has been recommended to optimize dialysis treatment by increasing dialysis dose, treating anemia and iron deficiency, and maintaining a low serum phosphate. Treatment of itching caused by xerosis or uremia has been largely symptomatic local treatment consisting of keeping the skin protected and moist with standard skin care recommendations. In addition to these symptomatic approaches, topical capsaicin and pramoxine lotions may also be effective. Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis. Kappaopioid agonists have demonstrated efficacy reducing itch in randomized placebo-controlled trials among patients undergoing thrice-weekly hemodialysis. Finally, <mark>antihistamines such as diphenhydramine or hydroxyzine should be avoided if at all possible due to increased anti-cholinergic adverse events in this age group.</mark>
+Itching has been reported in up to 40% of patients with kidney failure and can adversely affect sleep and quality of life. The causes of itching in older patients with kidney failure include xerosis, uremic itching, and medication sensitivity. Pruritus is also common in the older dialysis patient, possibly because of skin changes seen with aging. As a part of an approach to managing uremic pruritis, it has been recommended to optimize dialysis treatment by increasing dialysis dose, treating anemia and iron deficiency, and maintaining a low serum phosphate. Treatment of itching caused by xerosis or uremia has been largely symptomatic local treatment consisting of keeping the skin protected and moist with standard skin care recommendations. In addition to these symptomatic approaches, topical capsaicin and pramoxine lotions may also be effective. Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis. Kappa-opioid agonists have demonstrated efficacy reducing itch in randomized placebo-controlled trials among patients undergoing thrice-weekly hemodialysis. Finally, <mark>antihistamines such as diphenhydramine or hydroxyzine should be avoided if at all possible due to increased anti-cholinergic adverse events in this age group.</mark>
 
 ## Special Issues
 
@@ -625,7 +624,7 @@ should be similar documentation of do-not-resuscitate orders, wishes regarding a
 
 ## Summary
 
-Providers of older adults face many challenging chronic conditions and CKD can be a primary kidney disease or a cotraveler with diabetes and hypertension. Similar to CKD, AKI is often found in older hospitalized patients and may be related to the primary illness such as sepsis or heart failure. The management of a patient with CKD can be optimized with the use of a multidisciplinary team and appropriate consultation. In most cases, medical management of CKD serves to delay kidney failure and avoid the need for dialysis. For those patients progressing to kidney failure, the management of complications such as anemia and nutrition can help sustain quality of life and functioning. In addressing the treatment options for kidney failure, the older patient faces a range of options from conservative medical management to transplantation and these decisions should be informed by shared decisionmaking. Primary care and geriatric teams will play a key role in addressing the long-term care and management of these complex medical problems.
+Providers of older adults face many challenging chronic conditions and CKD can be a primary kidney disease or a cotraveler with diabetes and hypertension. Similar to CKD, AKI is often found in older hospitalized patients and may be related to the primary illness such as sepsis or heart failure. The management of a patient with CKD can be optimized with the use of a multidisciplinary team and appropriate consultation. In most cases, medical management of CKD serves to delay kidney failure and avoid the need for dialysis. For those patients progressing to kidney failure, the management of complications such as anemia and nutrition can help sustain quality of life and functioning. In addressing the treatment options for kidney failure, the older patient faces a range of options from conservative medical management to transplantation and these decisions should be informed by shared decision-making. Primary care and geriatric teams will play a key role in addressing the long-term care and management of these complex medical problems.
 
 ## Further Reading
 

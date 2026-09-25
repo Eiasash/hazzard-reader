@@ -28,7 +28,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 ### Clinical Features & Diagnosis
 - Classic signs: pulmonary rales, elevated JVP, abdominojugular reflux, S3 gallop, pitting edema — but often unreliable in older adults (p1173).
 - **Highly specific** in older adults: pulsus alternans, S3 gallop, JVD at rest or with abdominojugular reflux maneuver (p1173).
-- BNP **>500 pg/mL** in the right clinical context is highly suggestive of active HF; a normal value (**<100 pg/mL**) in a nonobese older adult makes HF much less likely — but natriuretic-peptide specificity **declines with age** and is lower with higher BMI (p1174).
+- BNP **>500 pg/mL** in the right clinical context is highly suggestive of active HF; a normal value (**<100 pg/mL**) in a nonobese older adult makes HF much less likely — but natriuretic-peptide specificity **declines with age**, and levels are generally lower with higher BMI (p1174).
 - Diagnostic workup Class I (most patients): CBC, chemistries, TSH, BNP/NT-proBNP, UA, CXR, ECG, 2D echo with Doppler, **and cardiac catheterization/coronary angiography if angina or significant ischemia** (unless not a revascularization candidate) (Table 76-6, p1174).
 - HFREF vs HFPEF exam clues: HFREF trends younger/male with prior MI, displaced PMI, S3 gallop, Q waves; HFPEF trends older/female with hypertension/diabetes/obesity/aortic stenosis, preserved PMI, S4 gallop (Table 76-7, p1175).
 
@@ -42,17 +42,17 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - Nonadherence/behavioral factors drive readmission: **64%** of exacerbations tied to medication/diet nonadherence in one study, **26%** to emotional/environmental factors; in a 140-patient cohort (age ≥70), **47%** were readmitted within 90 days (p1176).
 - Meta-analysis of 33 disease-management trials: HF readmissions **↓42%**, all-cause readmissions **↓24%**, mortality **↓20%** (p1176).
 - Sodium target **1500–3000 mg/d** — expert consensus, not trial-derived (p1176).
-- Dietary counseling also specifies fluid restriction (**>2 L/d**, especially if Na **<130**) alongside sodium limitation, plus low-fat/low-cholesterol and adequate-calorie guidance (Table 76-8, p1177).
-- Exercise is contraindicated with decompensated NYHA IV HF, severe aortic stenosis/hypertrophic cardiomyopathy, recent MI/unstable angina (within 2wk), or uncontrolled arrhythmia/acute serious illness (Table 76-9, p1178).
+- Dietary consultation also covers avoidance of excess fluid intake (**>2 L/d**, especially if Na **<130**) alongside avoidance of excess sodium (**>2–3 g/d**), plus low-fat/low-cholesterol and adequate-calorie guidance (Table 76-8, p1177).
+- Exercise is contraindicated with decompensated NYHA IV HF, severe aortic stenosis/hypertrophic cardiomyopathy, recent MI/unstable angina (within 2wk), life-threatening arrhythmias not adequately treated, or any acute serious illness (eg, pneumonia) (Table 76-9, p1178).
 - PICNIC trial (120 malnourished patients, mean age 79): intensive dietary counseling → death/HF hospitalization at 1y **27% vs 61%** (*p*<0.001) (p1177).
 - HF-ACTION (2331 patients, EF ≤35%): exercise → **7%** reduction in death/hospitalization, unadjusted (ns, *p*=0.13); **11%** reduction after adjustment (*p*=0.03) (p1177–1178).
 
 ### Drugs for HFREF (name — dose — key caution)
 - **Carvedilol** — start 3.125–6.25 mg BID → target 25–50 mg BID (p1179).
 - **Metoprolol succinate** — start 12.5–25 mg daily → target 100–200 mg daily; (tartrate 6.25 mg BID–QID is a titration alternative) (p1179).
-- **Bisoprolol** — start 1.25–2.5 mg daily → target 10 mg daily (p1179). Only these 3 β-blockers have proven HF mortality benefit.
+- **Bisoprolol** — start 1.25–2.5 mg daily → target 10 mg daily (p1179). Only these 3 β-blockers were studied and demonstrated benefit in improving HF outcomes.
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
-- **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1181).
+- **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
 - **Spironolactone** — 12.5–50 mg daily; **eplerenone** — 25–50 mg daily; both contraindicated if creatinine **≥2.5 mg/dL** or hyperkalemia (p1181).
 - **Hydralazine/isosorbide dinitrate** — older-adult start 12.5–25 mg TID–QID / 10 mg TID–QID (p1182).
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
@@ -66,7 +66,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - MitraClip (COAPT trial, **n=614**, HFREF + moderate-severe secondary MR despite max GDMT): lower HF hospitalization and lower all-cause mortality vs medical therapy alone (p1184).
 
 ### HFPEF-Specific Therapy
-- Only **SGLT2 inhibitors** show consistent benefit in HFPEF trials to date.
+- Only **SGLT2 inhibitors** show consistent benefit in HFPEF trials to date (p1184).
 - EMPEROR-Preserved (**n=5988**, EF **>40%**): death/HF hospitalization HR **0.79** (95% CI 0.69–0.90, *p*<0.001), driven by fewer HF hospitalizations; effect consistent regardless of diabetes status (p1188). Dapagliflozin also improved symptoms/exercise function over 12wk in the smaller Preserved-HF trial (n=324) (Table 76-11, p1185).
 - Digoxin **not recommended** in HFPEF except as an adjunct for rate control in AF (p1188).
 
@@ -162,7 +162,7 @@ Carvedilol 25–50 mg BID, metoprolol succinate 100–200 mg daily, bisoprolol 1
 
 <details><summary>Answer</summary>
 
-At least a 36-hour washout from ACE inhibitors is required to mitigate the risk of angioedema (p1181).
+At least a 36-hour washout from ACE inhibitors is required to mitigate the risk of angioedema (p1180).
 
 </details>
 

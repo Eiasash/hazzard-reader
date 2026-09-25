@@ -2,7 +2,7 @@
 
 Owoicho Adogwa, Una E. Makris, M. Carrington Reid
 
-> **Fast build from the book, 22 Sep; not lane-reviewed.**
+> **Lane-reviewed against the book, 25 Sep 2026.**
 
 <a id="p1629"></a>**[p. 1629]**
 
@@ -30,7 +30,7 @@ Owoicho Adogwa, Una E. Makris, M. Carrington Reid
 
 Low back pain in older adults is a major public health problem with significant consequences. Prevalence estimates range from 27% to 86% depending on the population evaluated, the study design, and criteria employed to identify back pain. One study conducted in Israel found that 44% of 70-year-olds and 58% of 77-year-olds reported back pain. In the Framingham Heart Study cohort (ages 68–100), 22% of participants reported back pain on most days. As the second most common reason for visiting a physician, annual all-cause medical costs related to back pain exceeded $350 billion and are expected to rise as the population continues to age. Over the past decade, health care–related spending on low back pain diagnostic and “therapeutic” procedures has skyrocketed, yet patient outcomes (in all age groups) have not improved.
 
-A longitudinal study demonstrated that older adults are more likely to develop recurrent episodes of back pain if they are female, suffer from depressive symptoms, have two or more chronic conditions, or self-report arthritis. Back pain in older adults is associated with dependence in activities of daily living, mobility impairment, and poor selfreported health. The association of back pain and physical function has been quantified; the number of months with back pain (resulting in restricted activity) is associated with such markers of frailty as gait speed, chair stands, and foot tap performance. In a study of Medicare beneficiaries 65 years and older, back pain was second only to shortness of breath while climbing stairs in its association with impaired general physical health status. Cross-sectional data from the Framingham Heart Study have shown that back symptoms account for a large percentage of functional limitations in older adults, especially in women. Psychosocial factors, including comorbid depression or anxiety as well as pain-related fear avoidance and pain catastrophizing, play an important role in the experience/reporting of back pain and potentially mediate the relationship with subsequent disability.
+A longitudinal study demonstrated that older adults are more likely to develop recurrent episodes of back pain if they are female, suffer from depressive symptoms, have two or more chronic conditions, or self-report arthritis. Back pain in older adults is associated with dependence in activities of daily living, mobility impairment, and poor self-reported health. The association of back pain and physical function has been quantified; the number of months with back pain (resulting in restricted activity) is associated with such markers of frailty as gait speed, chair stands, and foot tap performance. In a study of Medicare beneficiaries 65 years and older, back pain was second only to shortness of breath while climbing stairs in its association with impaired general physical health status. Cross-sectional data from the Framingham Heart Study have shown that back symptoms account for a large percentage of functional limitations in older adults, especially in women. Psychosocial factors, including comorbid depression or anxiety as well as pain-related fear avoidance and pain catastrophizing, play an important role in the experience/reporting of back pain and potentially mediate the relationship with subsequent disability.
 
 While low back pain is a common problem in older adults, its etiology, natural history, and methods for effective management are not fully understood nor well defined.
 
@@ -44,7 +44,7 @@ Back pain is often categorized as acute (lasts < 4 weeks), subacute (lasts betwe
 
 A number of discrete conditions manifest as back pain in older adults ( **Table 102-1** ). These conditions include mechanical causes, lumbar spinal stenosis, sciatica, osteoarthritis of the hip, vertebral compression fractures, osteoporotic sacral fractures, tumors, and infections. Systemic conditions such as malignancy and infections, although rarely the cause of back pain, are more common in older compared to younger age groups. One of the most challenging aspects of assessing and managing back pain is identifying the source(s) of pain in the older adult who often has multiple musculoskeletal comorbidities (eg, trochanteric bursitis, hip osteoarthritis, multilevel lumbar degenerative changes and lumbar stenosis). These conditions rarely occur in isolation, and pinpointing which one contributes most to the patient’s pain may be difficult but is vital.
 
-The vast majority of low back pain seen in primary care settings is labeled “nonspecific low back pain” as there is no specific attributable disease or spinal pathology. The
+The vast majority of low back pain seen in primary care settings is labeled “nonspecific low back pain” as there is no specific attributable disease or spinal pathology. The natural history, associated features, and etiology of back pain in older adults remain poorly characterized. Assessment of back pain in older adults includes evaluation of the historical, physical, and diagnostic imaging features of the affected patients for the conditions listed below, and then to make a diagnosis of nonspecific low back pain after these conditions have been ruled out.
 
 **Table 102-1 — Differential diagnoses for back pain in older adults**
 
@@ -68,8 +68,6 @@ The vast majority of low back pain seen in primary care settings is labeled “n
 - Osteochondrosis
 - Paget disease
 - Visceral: aortic aneurysm, prostatitis, nephrolithiasis, pyelonephritis, perinephric abscess, pancreatitis, cholecystitis, penetrating ulcer, fat herniation of lumbar space
-
-natural history, associated features, and etiology of back pain in older adults remain poorly characterized. Assessment of back pain in older adults includes evaluation of the historical, physical, and diagnostic imaging features of the affected patients for the conditions listed below, and then to make a diagnosis of nonspecific low back pain after these conditions have been ruled out.
 
 ## Tumor
 
@@ -112,15 +110,13 @@ Sciatica is usually defined as pain radiating down one leg below the gluteal fol
 
 ## Lumbar Spinal Stenosis
 
-Lumbar spinal stenosis can be acquired or congenital. Congenital stenosis results from congenitally shortened pedicles and affects patients in their 30s to 50s. Acquired stenosis is more common and typically seen in patients 50 years and older. A good understanding of the normal anatomy of the lumbar spine is necessary to understand how spinal stenosis causes symptoms. The anterior border of the spinal canal is formed by the vertebral body, the disc, and posterior longitudinal ligament. The pedicle, lateral ligamentum flavum, and neural foraminal comprise the lateral border. The posterior border is formed by the facet joints, laminar, and ligamentum flavum. The shape of the spinal canal can be trefoil or oval, with the trefoil having the smallest cross-sectional area. Narrowing of the intraspinal (central) vertebral canal, lateral recess, and/or neural foramina is frequently seen on diagnostic imaging causing compression of the thecal sac and nerve roots. These abnormalities, often caused by spondylosis or degenerative arthritis affecting the spine, have clinical significance only if the typical history of lumbar spinal stenosis is present ( **Table 102-3** ). Spinal stenosis is associated with increased vascular disturbance, neuroinflammation, and electrophysiologic alteration, all of which contribute to the lower extremity pain
+Lumbar spinal stenosis can be acquired or congenital. Congenital stenosis results from congenitally shortened pedicles and affects patients in their 30s to 50s. Acquired stenosis is more common and typically seen in patients 50 years and older. A good understanding of the normal anatomy of the lumbar spine is necessary to understand how spinal stenosis causes symptoms. The anterior border of the spinal canal is formed by the vertebral body, the disc, and posterior longitudinal ligament. The pedicle, lateral ligamentum flavum, and neural foraminal comprise the lateral border. The posterior border is formed by the facet joints, laminar, and ligamentum flavum. The shape of the spinal canal can be trefoil or oval, with the trefoil having the smallest cross-sectional area. Narrowing of the intraspinal (central) vertebral canal, lateral recess, and/or neural foramina is frequently seen on diagnostic imaging causing compression of the thecal sac and nerve roots. These abnormalities, often caused by spondylosis or degenerative arthritis affecting the spine, have clinical significance only if the typical history of lumbar spinal stenosis is present ( **Table 102-3** ). Spinal stenosis is associated with increased vascular disturbance, neuroinflammation, and electrophysiologic alteration, all of which contribute to the lower extremity pain experienced by patients. In addition to the aforementioned static factors, the degenerative cascade can lead to translational and rotational abnormalities, which contribute to segmental instability and pain. Changes in spinal dynamics with movement explain some of the clinical features of lumbar spinal stenosis. Flexion of the lumbar spine decreases the intraspinal protrusion of the disc, decreases the bulge of the yellow ligaments within the canal, and stretches and decreases the cross-sectional area of nerve roots, resulting in an increase in spinal canal volume in relation to nerve root bulk. Extension of the lumbar spine causes bulging of the disc into the canal, enfolding and protrusion of the yellow ligaments into the spinal canal, and a relaxation and increase of the cross-sectional diameter of nerve roots. Extension of the canal thus produces a decreased volume of the spinal canal in relation to nerve root bulk.
 
 ![Table 102-3](hazzard8e_ch102_table102-3_p1632.png)
 
 > *Table 102-3 reproduced as a page image (printed p. 1632) — the grid did not extract reliably as text for this fast build.*
 
 > Highlighting is the owner's annotation, not the book's.
-
-experienced by patients. In addition to the aforementioned static factors, the degenerative cascade can lead to translational and rotational abnormalities, which contribute to segmental instability and pain. Changes in spinal dynamics with movement explain some of the clinical features of lumbar spinal stenosis. Flexion of the lumbar spine decreases the intraspinal protrusion of the disc, decreases the bulge of the yellow ligaments within the canal, and stretches and decreases the cross-sectional area of nerve roots, resulting in an increase in spinal canal volume in relation to nerve root bulk. Extension of the lumbar spine causes bulging of the disc into the canal, enfolding and protrusion of the yellow ligaments into the spinal canal, and a relaxation and increase of the cross-sectional diameter of nerve roots. Extension of the canal thus produces a decreased volume of the spinal canal in relation to nerve root bulk.
 
 These changes in dynamics explain the clinical picture of lumbar spinal stenosis. Positions that extend the spine (standing, walking down hill, prone lying, and extending the back) worsen symptoms, while positions that flex the spine (sitting, bending forward, placing weight on a walker or cart, and lying in a flex position) relieve the symptoms.
 
@@ -132,9 +128,14 @@ Severe neurological symptoms, such as profound lower extremity weakness, and bow
 
 <a id="p1633"></a>**[p. 1633]**
 
+perianal sensory disturbance, longer duration of symptoms, and higher postvoid residual volumes.
+
 **Table 102-4 — Characteristics of mechanical low back pain**
 
-|Intermittent sharp back pain| |---| |Pain comes on and subsides rapidly| |Pain going from supine to sitting or upright positions and with<br>bending| |Weakness of L4, L5, and S1 innervated muscles from dynamic<br>instability and compression| perianal sensory disturbance, longer duration of symptoms, and higher postvoid residual volumes.
+- Intermittent sharp back pain
+- Pain comes on and subsides rapidly
+- Pain going from supine to sitting or upright positions and with bending
+- Weakness of L4, L5, and S1 innervated muscles from dynamic instability and compression
 
 ## Mechanical Low Back Pain
 
@@ -144,9 +145,7 @@ A good deal of back pain in younger individuals is probably caused by displaceme
 
 In a young adult’s lumbar spine, the central nucleus pulposus often herniates outside the annulus fibrosis and indents the pain-sensitive posterior longitudinal ligament and dura mater, producing pain that often lasts for several weeks and occasionally causing sciatica owing to nerve root irritation. Because the nucleus pulposus loses water content with aging, herniation of this structure is less common beyond the age of 55.
 
-Older patients often have a syndrome of sharp pain in the lumbar area, worsened with bending movements, which comes on and subsides rapidly but recurs frequently. On physical examination, these patients often have asymmetric loss of range of motion in the lumbar spine, paravertebral muscle spasm, weakness of the L4-, L5-, and S1-innervated muscles, and pain going from the flexed to the erect position. Clinicians often use the term “unstable lumbar spine” to describe this syndrome, although the evidence for specific mechanical instability is lacking. Patients with this condition often have one intervertebral disc space narrowed and sclerotic changes out of proportion to other disc spaces, and anterior displacement of one vertebra on another (spondylolisthesis). Maneuvers such as going from lying to sitting and bending forward often produce pain. Before considering major interventions, it is important
-
-to distinguish this condition, in which pain results from movement of the lumbar spine (eg, lying to sitting), from lumbar spinal stenosis, in which pain results from prolonged extension of the spine (standing and walking).
+Older patients often have a syndrome of sharp pain in the lumbar area, worsened with bending movements, which comes on and subsides rapidly but recurs frequently. On physical examination, these patients often have asymmetric loss of range of motion in the lumbar spine, paravertebral muscle spasm, weakness of the L4-, L5-, and S1-innervated muscles, and pain going from the flexed to the erect position. Clinicians often use the term “unstable lumbar spine” to describe this syndrome, although the evidence for specific mechanical instability is lacking. Patients with this condition often have one intervertebral disc space narrowed and sclerotic changes out of proportion to other disc spaces, and anterior displacement of one vertebra on another (spondylolisthesis). Maneuvers such as going from lying to sitting and bending forward often produce pain. Before considering major interventions, it is important to distinguish this condition, in which pain results from movement of the lumbar spine (eg, lying to sitting), from lumbar spinal stenosis, in which pain results from prolonged extension of the spine (standing and walking).
 
 ## Diffuse Idiopathic Skeletal Hyperostosis
 
@@ -167,25 +166,24 @@ Patients with a mechanical cause for pain usually have intermittent, positional 
 Pain that is worse on going from lying to sitting and with bending, that occurs when one suddenly changes
 
 <a id="p1634"></a>**[p. 1634]**
+
+position, and that resolves quickly but recurs frequently, suggests mechanical disease of the lumbar spine as a result of soft-tissue displacement. Severe pain in any position, which comes on abruptly and is aggravated by even rolling over in bed, suggests a vertebral compression fracture. A woman with sacral and buttock pain, sacral tenderness, and osteoporosis should be evaluated for a sacral insufficiency fracture. Gradually worsening progressive pain, lasting more than a month, which is nonpositional and associated with systemic symptoms and signs, might suggest the possibility of a tumor as a cause of the pain. Hip disease can often mimic back problems. Pain that is worse when going from sitting to standing, that causes a limp, or that radiates into the groin indicates possible hip disease.
+
 **Table 102-5 — History items that help differentiate causes of back pain**
 
 - *Abrupt onset of pain*: intervertebral disc herniation, muscle strain, vertebral compression fractures, mechanical low back pain
 - *Insidious onset, progressive course, nonpositional pain*: tumor, infection, nonspinal visceral pain, degenerative disc disease, osteoarthritis
 - *Positional attributes* — pain when lying to sitting or bending: mechanical low back pain; pain when standing and walking, relieved with sitting: lumbar spinal stenosis; nonpositional: tumor, infection
 
-progressive pain, lasting more than a month, which is nonpositional and associated with systemic symptoms and signs, might suggest the possibility of a tumor as a cause of the pain. Hip disease can often mimic back problems. Pain that is worse when going from sitting to standing, that causes a limp, or that radiates into the groin indicates possible hip disease.
-
 ## Physical Examination
 
-A good physical examination of patients with lumbar pathologies should start with observation. It is important to note whether patients are sitting flexed forward on a chair or laying down on the examination table. This provides clues on the possible etiology of the patient’s complaints. In patients where the supine position is preferred, mechanical back pain may be the predominant complaint. Next, the clinician must determine whether the problem is in the hip or back. It can be difficult to distinguish these conditions, as both can present with buttock and low back pain. Pain that occurs when going from the supine to sitting position is more apt to be from the back, while groin pain, worsened with weight bearing, favors the hip as the cause of the pain. A complete examination of the passive range of motion of the hip, done with the patient in the supine position, should reveal 40 degrees of hip abduction, more than 100
+A good physical examination of patients with lumbar pathologies should start with observation. It is important to note whether patients are sitting flexed forward on a chair or laying down on the examination table. This provides clues on the possible etiology of the patient’s complaints. In patients where the supine position is preferred, mechanical back pain may be the predominant complaint. Next, the clinician must determine whether the problem is in the hip or back. It can be difficult to distinguish these conditions, as both can present with buttock and low back pain. Pain that occurs when going from the supine to sitting position is more apt to be from the back, while groin pain, worsened with weight bearing, favors the hip as the cause of the pain. A complete examination of the passive range of motion of the hip, done with the patient in the supine position, should reveal 40 degrees of hip abduction, more than 100 degrees of flexion, 50 to 60 degrees of external rotation, and 20 degrees of internal rotation. In addition, a manual muscle examination of the lower extremities, which demonstrates mild weakness of the L4, L5 (hip abductor and great toe extensor) and L5, S1 (hip extensors) innervated muscles of the lower extremities, favors the back as the cause of pain. One study demonstrated that the presence of groin pain, a limp, and limited internal rotation of the hip all favored the hip as the cause of pain.
 
 **Table 102-6 — Physical examination findings that help differentiate causes of back pain**
 
 - *Paravertebral muscle spasm*: mechanical low back pain, vertebral compression fracture
 - *Asymmetric loss of range of motion of lumbar spine*: mechanical low back pain
 - *Weakness of great toe extensor and hip abductor (L4, L5) and hip extensors (L5, S1)*: mechanical low back pain, lumbar spinal stenosis
-
-degrees of flexion, 50 to 60 degrees of external rotation, and 20 degrees of internal rotation. In addition, a manual muscle examination of the lower extremities, which demonstrates mild weakness of the L4, L5 (hip abductor and great toe extensor) and L5, S1 (hip extensors) innervated muscles of the lower extremities, favors the back as the cause of pain. One study demonstrated that the presence of groin pain, a limp, and limited internal rotation of the hip all favored the hip as the cause of pain.
 
 Several findings on physical examination can be useful in determining discrete causes of back pain ( **Table 102-6** ).
 
@@ -194,19 +192,12 @@ The physical examination of the lumbar spine is an essential component of the as
 Manual muscle testing of the lower extremity gives much useful information, as subtle L4, L5 and L5, S1 weakness is common in patients with mechanical back pain. L4, L5 is tested by resisting the patient’s abducted leg at the lateral upper thigh (gluteus medius muscle) (see **Figure 102-2** ), by resisting the patient’s ability to dorsiflex the foot (tibialis anterior muscle), and by resisting the great toe extensor (extensor hallucis longus) ( **Figure 102-3** ). L5, S1 (gluteus maximus muscle) is tested by trying to overcome hip extension (trying to pull the leg off the examining table, when the patient has been instructed to hold the leg firmly on the table). One can also test L5, S1 by resisting the patient’s ability to evert the foot (peroneus longus and peroneus brevis).
 
 <a id="p1635"></a>**[p. 1635]**
+
 ![Figure 102-1](hazzard8e_ch102_figure102-1.png)
 
 > *FIGURE 102-1. Range of motion of lumbar spine.*
 
 > Highlighting is the owner's annotation, not the book's.
-
-Most patients with lumbar disc disease or lumbar spinal stenosis will have some abnormalities of the examination of the lumbar spine or of the muscles innervated by L4, L5 or L5, S1. Patients with vertebral compression fractures may have a good deal of tenderness in the lumbar spine but should have no neurologic abnormalities. Patients with osteoporotic sacral fractures will have sacral tenderness, but a normal lumbar spine examination and no lower extremity muscle weakness. Those with sciatica almost always have L4, L5 and L5, S1 weakness. A patient with persistent, severe back pain, but with a normal examination of the lumbar spine, sacrum, and hips and no evidence of L4, L5 or L5, S1 muscle weakness, should be evaluated thoroughly for a possible neoplasm or infection.
-
-New neurologic abnormalities (dermatomal sensory deficits, focal weakness, clonus) associated with abrupt onset back pain may suggest retropulsed bone fragments in the spinal canal or foraminae which should be further evaluated with urgent MRI or CT scan and urgent consultation with a spine surgeon.
-
-## Laboratory Tests And Imaging
-
-The interpretation of diagnostic tests in older patients with back pain is a challenge, given the high rate of abnormal tests in asymptomatic individuals in this age group. A complete blood count and erythrocyte sedimentation rate/Creactive protein are reasonable screening tests if the patient’s history and physical examination suggest a tumor or infection. While routine imaging for low back pain in younger
 
 ![Figure 102-2](hazzard8e_ch102_figure102-2.png)
 
@@ -220,7 +211,17 @@ The interpretation of diagnostic tests in older patients with back pain is a cha
 
 > Highlighting is the owner's annotation, not the book's.
 
+Most patients with lumbar disc disease or lumbar spinal stenosis will have some abnormalities of the examination of the lumbar spine or of the muscles innervated by L4, L5 or L5, S1. Patients with vertebral compression fractures may have a good deal of tenderness in the lumbar spine but should have no neurologic abnormalities. Patients with osteoporotic sacral fractures will have sacral tenderness, but a normal lumbar spine examination and no lower extremity muscle weakness. Those with sciatica almost always have L4, L5 and L5, S1 weakness. A patient with persistent, severe back pain, but with a normal examination of the lumbar spine, sacrum, and hips and no evidence of L4, L5 or L5, S1 muscle weakness, should be evaluated thoroughly for a possible neoplasm or infection.
+
+New neurologic abnormalities (dermatomal sensory deficits, focal weakness, clonus) associated with abrupt onset back pain may suggest retropulsed bone fragments in the spinal canal or foraminae which should be further evaluated with urgent MRI or CT scan and urgent consultation with a spine surgeon.
+
+## Laboratory Tests And Imaging
+
+The interpretation of diagnostic tests in older patients with back pain is a challenge, given the high rate of abnormal tests in asymptomatic individuals in this age group. A complete blood count and erythrocyte sedimentation rate/C-reactive protein are reasonable screening tests if the patient’s history and physical examination suggest a tumor or infection. While routine imaging for low back pain in younger
+
 <a id="p1636"></a>**[p. 1636]**
+
+populations is not recommended, plain films of the spine may be appropriate in older adults with back pain. A plain x-ray of the lumbar spine is more helpful in the evaluation of older patients than younger ones, as it may demonstrate a vertebral compression fracture, DISH, or spondylolisthesis.
 
 ![Table 102-7](hazzard8e_ch102_table102-7_p1636.png)
 
@@ -228,11 +229,9 @@ The interpretation of diagnostic tests in older patients with back pain is a cha
 
 > Highlighting is the owner's annotation, not the book's.
 
-populations is not recommended, plain films of the spine may be appropriate in older adults with back pain. A plain x-ray of the lumbar spine is more helpful in the evaluation of older patients than younger ones, as it may demonstrate a vertebral compression fracture, DISH, or spondylolisthesis.
-
 According to the American College of Radiology, the criteria listed in **Table 102-7** should be used to determine who is at higher risk for systemic disease-related back pain and when imaging is appropriate.
 
-The clinician must be aware that changes in the lumbar spine are ubiquitous in older individuals and not well correlated with back pain. Kellgren and Lawrence’s classic epidemiological study in Leigh, England, found that 89% of the men and 57% of the women aged 55 to 64 had disc degeneration of the lumbar spine. Proper radiographic evaluation of the lumbar spine includes obtaining static and dynamic views. Anterior-posterior, lateral and flexionextension views should be obtained. Specific findings notable on plain films include narrow interpedicular distance, sagittal canal diameter, and evidence of spondylotic changes such as facet hypertrophy, osteophytosis, disc collapse, or deformity. Additionally, vacuum disc phenomenon “air in disc space” can be noted on plain radiographs, and is a sign of advanced degeneration and instability. A study of lumbar sacral spine x-rays found no association between back pain and Schmorl nodes, the disc vacuum sign, traction spurs, and disc space narrowing between the third and fourth lumbar vertebrae, or between the fifth lumbar and first sacral vertebrae. There was an association between acute low back pain and disc space narrowing, and traction spurs between the fourth and fifth lumbar vertebra. Another study found no correlation between vertebral osteophytes and low back pain but did find increased back pain in individuals with spondylolisthesis (pars interarticularis defect and frontal slippage of one vertebra on an adjacent vertebra).
+The clinician must be aware that changes in the lumbar spine are ubiquitous in older individuals and not well correlated with back pain. Kellgren and Lawrence’s classic epidemiological study in Leigh, England, found that 89% of the men and 57% of the women aged 55 to 64 had disc degeneration of the lumbar spine. Proper radiographic evaluation of the lumbar spine includes obtaining static and dynamic views. Anterior-posterior, lateral and flexion-extension views should be obtained. Specific findings notable on plain films include narrow interpedicular distance, sagittal canal diameter, and evidence of spondylotic changes such as facet hypertrophy, osteophytosis, disc collapse, or deformity. Additionally, vacuum disc phenomenon “air in disc space” can be noted on plain radiographs, and is a sign of advanced degeneration and instability. A study of lumbar sacral spine x-rays found no association between back pain and Schmorl nodes, the disc vacuum sign, traction spurs, and disc space narrowing between the third and fourth lumbar vertebrae, or between the fifth lumbar and first sacral vertebrae. There was an association between acute low back pain and disc space narrowing, and traction spurs between the fourth and fifth lumbar vertebra. Another study found no correlation between vertebral osteophytes and low back pain but did find increased back pain in individuals with spondylolisthesis (pars interarticularis defect and frontal slippage of one vertebra on an adjacent vertebra).
 
 MRI is considered the standard imaging modality for patients with lumbar spinal stenosis. It is used to identify central and lateral recess stenosis, annular tears, facet degeneration, and diastasis, because it provides excellent contrast between fat, neural tissue, and epineural vessels.
 
@@ -260,9 +259,7 @@ Management of back pain should begin with a combination of nonpharmacologic and 
 
 Interest in nonpharmacologic approaches for managing back pain in older adults is increasing. Nonpharmacologic approaches include cognitive behavioral therapy for chronic pain, acupuncture, mindfulness, massage, self-management programs and/or behavioral (eg, goal setting, exercise, tai chi, yoga) techniques that constitute well-established methods for treating pain (in general). Existing evidence suggests that these therapies are safe, can reduce pain, and in many cases improve patient function. Nearly all studies of nonpharmacologic interventions conducted to date, however, have been for short term (< 6 months). The long-term efficacy and ability of older adults to sustain their use over time remain inadequately defined. Despite this, temporary relief from back pain may offer an opportunity to develop positive expectations and commitments from the patient and provider.
 
-It is important to communicate to older patients that using both nondrug and drug therapies is the standard of care and can be productive, particularly with individuals who may hesitate to engage in nonpharmacologic treatments. Recommending a specific nonpharmacologic modality will depend upon its availability, affordability (eg, Medicare does not cover many of the approaches listed, however), patient preferences, and the physician’s ability to
-
-accurately describe its benefits and risks. As there are no head-to-head comparisons evaluating the nonpharmacologic approaches, recommending a modality that is accessible and affordable is essential.
+It is important to communicate to older patients that using both nondrug and drug therapies is the standard of care and can be productive, particularly with individuals who may hesitate to engage in nonpharmacologic treatments. Recommending a specific nonpharmacologic modality will depend upon its availability, affordability (eg, Medicare does not cover many of the approaches listed, however), patient preferences, and the physician’s ability to accurately describe its benefits and risks. As there are no head-to-head comparisons evaluating the nonpharmacologic approaches, recommending a modality that is accessible and affordable is essential.
 
 ## Rehabilitative Approaches
 
@@ -274,7 +271,7 @@ Rehabilitation health care specialists often use various modalities including bo
 
 <a id="p1638"></a>**[p. 1638]**
 
-> metastatic disease), or psychiatric or cognitive comorbidities. In the general population (including younger adults), spinal manipulative therapy and spinal stabilization have shown improvements in both pain and function as compared to various treatments (back school—education, relaxation techniques, postural and tailored back exercises, individual physiotherapy—mobilization, active exercise, massage, education, or general exercise), especially in the short term. While data suggest there is a statistically significant improvement with spinal manipulation, its clinical importance remains uncertain.
+metastatic disease), or psychiatric or cognitive comorbidities. In the general population (including younger adults), spinal manipulative therapy and spinal stabilization have shown improvements in both pain and function as compared to various treatments (back school—education, relaxation techniques, postural and tailored back exercises, individual physiotherapy—mobilization, active exercise, massage, education, or general exercise), especially in the short term. While data suggest there is a statistically significant improvement with spinal manipulation, its clinical importance remains uncertain.
 
 ## Etiology-Specific Management
 
@@ -286,9 +283,7 @@ The traditional treatment for vertebral compression fractures is activity modifi
 
 Complete bed rest is not recommended, patients should resume physical activity as soon as possible (as pain permits). Physical therapy should focus on gait and core strengthening. Aquatic therapy has been shown to accelerate pain relief and physical activities. In several studies, exercise programs have reduced analgesic use and improved quality of life in older adults with vertebral fractures. Education including management of expectations (eg, that it can take several months for the pain to improve) is essential. Bracing is not usually needed for pain management from osteoporotic compression fractures, although it has been shown to be helpful in acute management of patients with traumatic vertebral compression fractures. Long-term use of bracing should be avoided as its use may lead to immobility of the spine, weakening of paraspinal and core muscles, as well as potential for disuse osteoporosis.
 
-Long-term management of vertebral compression fractures, related to osteoporosis, focuses on improving low bone density (ie, antiresorptive therapy). Underlying
-
-conditions that are present and may contribute to development of vertebral compression fractures (hyperthyroidism, granulomatous diseases, infections) require further, specific management beyond the scope of this chapter. Lifestyle modification, namely, smoking cessation and reducing alcohol use, are important. Fall prevention education is effective and essential especially in older adults who have already experienced a traumatic fall or at risk for falls.
+Long-term management of vertebral compression fractures, related to osteoporosis, focuses on improving low bone density (ie, antiresorptive therapy). Underlying conditions that are present and may contribute to development of vertebral compression fractures (hyperthyroidism, granulomatous diseases, infections) require further, specific management beyond the scope of this chapter. Lifestyle modification, namely, smoking cessation and reducing alcohol use, are important. Fall prevention education is effective and essential especially in older adults who have already experienced a traumatic fall or at risk for falls.
 
 There is much interest in vertebral augmentation (the techniques of vertebroplasty and kyphoplasty) in the management of vertebral compression fractures. In a vertebroplasty, extension positioning opens the cleft within a fractured vertebral body, and bone cement is injected into the vertebral body and stabilizes the fracture in this position. In a kyphoplasty, an inflated bone balloon displaces vertebral trabelate and elevates the superior end plate, allowing some restoration of the height of the vertebral body. The balloon is then removed and bone cement is injected into the vertebral space.
 
@@ -304,11 +299,9 @@ and anti-inflammatory medications (as monotherapy or in combination) are often u
 
 The choice of nonsurgical treatment is difficult, as there are few randomized controlled trials of these therapies. Epidural steroid injections have been used for more than 50 years for sciatica. While there are a number of uncontrolled studies suggesting a good outcome with these injections for lumbar spinal stenosis, randomized controlled trials have produced inconsistent results. A randomized trial of 400 older adults with lumbar spinal stenosis and moderate-to-severe leg pain and disability showed minimal or no short-term benefit in outcomes (disability and leg pain intensity) between the group who received epidural steroid injections of glucocorticoids plus lidocaine versus injection with lidocaine alone. A placebo group was not included in this study.
 
-The decision to proceed with spine surgery in an older patient is always a difficult one. An increasing number of studies support surgical decompression for symptomatic lumbar stenosis. Evidence-based guidelines now recommend surgery for patients with moderate to severe spinal stenosis. The Spine Patient Outcomes Research Trial (SPORT), a multicenter randomized control trial (with younger patients, average age in the 40s), one of the largest and well-known studies to date, demonstrated significant advantages associated with surgery compared to nonoperative treatment at 3 months that remained significant and durable through the 2-year duration of the study. It is unclear how results would differ among older adults with comparable spine pathology. At 8-year follow-up, 52% of patients randomized to nonoperative treatment had undergone surgery. A Cochrane review of surgery for degenerative lumbar spondylosis found that “there is still insufficient evidence of the effectiveness of surgery to draw any firm conclusions.” On the other hand, the Maine Lumbar Spinal study did show that spinal surgery can be effective. This study is an observational analysis of patients treated by orthopedic surgeons and neurosurgeons in communitybased practices throughout Maine. This study followed patients treated surgically or medically, at the choice of the patient and surgeon. In this cohort, patients initially treated surgically demonstrated better outcomes in all measures than those treated nonsurgically. After 10 years, however, the relative difference between surgery and conservative therapy was no longer significant. A randomized controlled multicenter trial of an interspinous process decompression system did find that patients who underwent this procedure had a statistically significant improvement in neurogenic intermittent claudication versus controls.
+The decision to proceed with spine surgery in an older patient is always a difficult one. An increasing number of studies support surgical decompression for symptomatic lumbar stenosis. Evidence-based guidelines now recommend surgery for patients with moderate to severe spinal stenosis. The Spine Patient Outcomes Research Trial (SPORT), a multicenter randomized control trial (with younger patients, average age in the 40s), one of the largest and well-known studies to date, demonstrated significant advantages associated with surgery compared to nonoperative treatment at 3 months that remained significant and durable through the 2-year duration of the study. It is unclear how results would differ among older adults with comparable spine pathology. At 8-year follow-up, 52% of patients randomized to nonoperative treatment had undergone surgery. A Cochrane review of surgery for degenerative lumbar spondylosis found that “there is still insufficient evidence of the effectiveness of surgery to draw any firm conclusions.” On the other hand, the Maine Lumbar Spinal study did show that spinal surgery can be effective. This study is an observational analysis of patients treated by orthopedic surgeons and neurosurgeons in community-based practices throughout Maine. This study followed patients treated surgically or medically, at the choice of the patient and surgeon. In this cohort, patients initially treated surgically demonstrated better outcomes in all measures than those treated nonsurgically. After 10 years, however, the relative difference between surgery and conservative therapy was no longer significant. A randomized controlled multicenter trial of an interspinous process decompression system did find that patients who underwent this procedure had a statistically significant improvement in neurogenic intermittent claudication versus controls.
 
-For patients who have failed maximum nonsurgical management (physical therapy, pharmacotherapy, activity modification, injections) and require surgery, patient selection is critical to optimize the likelihood of a successful outcome. Patients with symptomatic neurogenic claudication, with primary complaints of lower extremity pain, numbness, and paresthesias with prolonged ambulation are ideal
-
-candidates for surgery. An observational study from four sur- gical centers found that the most powerful predictors of good outcomes of greater walking capacity, milder symptoms, and greater satisfaction were the patient’s report of good or excellent health before surgery, as well as low cardiovascular comorbidity. A variety of surgical options exist including decompressive laminectomy with or without fusion, laminotomy, or placement of interspinous devices. Surgical decompression can be performed through traditional open techniques or newer minimally invasive approaches. The majority of these procedures are performed on an outpatient basis with patients usually discharged home on the day of surgery. Prior to surgical intervention, a thorough review of the static and dynamic radiographs, MRI, and CT scans is important. Preoperative identification of spinal instability, preferably by flexion-extension radiographs, is critical to avoid procedures that further destabilize the spine.
+For patients who have failed maximum nonsurgical management (physical therapy, pharmacotherapy, activity modification, injections) and require surgery, patient selection is critical to optimize the likelihood of a successful outcome. Patients with symptomatic neurogenic claudication, with primary complaints of lower extremity pain, numbness, and paresthesias with prolonged ambulation are ideal candidates for surgery. An observational study from four surgical centers found that the most powerful predictors of good outcomes of greater walking capacity, milder symptoms, and greater satisfaction were the patient’s report of good or excellent health before surgery, as well as low cardiovascular comorbidity. A variety of surgical options exist including decompressive laminectomy with or without fusion, laminotomy, or placement of interspinous devices. Surgical decompression can be performed through traditional open techniques or newer minimally invasive approaches. The majority of these procedures are performed on an outpatient basis with patients usually discharged home on the day of surgery. Prior to surgical intervention, a thorough review of the static and dynamic radiographs, MRI, and CT scans is important. Preoperative identification of spinal instability, preferably by flexion-extension radiographs, is critical to avoid procedures that further destabilize the spine.
 
 Surgery in older adults is associated with higher adverse events rates, which should be discussed with the patient along with the understanding of long-term outcomes from surgery. Complication rates of lumbar decompressive surgeries range from 1.8% to 18% and include wound infection, durotomy, nerve root injury, vascular complications, epidural hematoma, implant failures, adjacent segment degeneration, and nonunion.
 
@@ -322,7 +315,7 @@ There is no therapy needed or indicated for DISH. The pain from sacral insuffici
 
 <a id="p1640"></a>**[p. 1640]**
 
-> Spontaneous sciatica usually improves without therapy in most older adults. Epidural steroids may be helpful in the management of sciatica. Surgery should be considered only if the pain persists despite trials of conservative therapy.
+Spontaneous sciatica usually improves without therapy in most older adults. Epidural steroids may be helpful in the management of sciatica. Surgery should be considered only if the pain persists despite trials of conservative therapy.
 
 Prolonged bed rest should be avoided in older adults, given the complications of this intervention in this age group. Patients should, however, avoid those activities that appear to precipitate their pain. Firm corsets may be considered to allow patients to stay mobile and active.
 
@@ -334,9 +327,7 @@ Since back pain in older adults is often recurrent and, while chronic back pain 
 
 ## Special Issues
 
-While back pain in older adults is prevalent, costly, and leads to considerable morbidity, much of the literature has focused on younger populations with this condition. Few
-
-trials comparing efficacy and safety of different treatments have included older adults with back pain. Pain management and treatment are particularly challenging because clinical guidelines do not currently exist for back pain in older adults; moreover, guidelines for back pain in younger populations fail to account for decision-making complexities that occur commonly in older populations, such as multiple comorbid conditions, polypharmacy, frailty, and fragmented social support systems.
+While back pain in older adults is prevalent, costly, and leads to considerable morbidity, much of the literature has focused on younger populations with this condition. Few trials comparing efficacy and safety of different treatments have included older adults with back pain. Pain management and treatment are particularly challenging because clinical guidelines do not currently exist for back pain in older adults; moreover, guidelines for back pain in younger populations fail to account for decision-making complexities that occur commonly in older populations, such as multiple comorbid conditions, polypharmacy, frailty, and fragmented social support systems.
 
 ## Therapeutic Alliance And Patient Preference
 
@@ -350,9 +341,7 @@ Discussing and listening to patient preferences regarding management and goals o
 
 managed optimally (and simultaneously) for pain outcomes to also improve.
 
-**Care settings** Multiple resources exist to help both clinicians and patients manage back pain. We advocate for clinicians to seek out/learn about resources that exist within their respective communities by contacting the local Area Agency on Aging (AoA) to find out if they have lists of relevant programs. Also, for example, many continuing care
-
-retirement communities offer wellness/exercise programs that are run by trained staff.
+**Care settings** Multiple resources exist to help both clinicians and patients manage back pain. We advocate for clinicians to seek out/learn about resources that exist within their respective communities by contacting the local Area Agency on Aging (AoA) to find out if they have lists of relevant programs. Also, for example, many continuing care retirement communities offer wellness/exercise programs that are run by trained staff.
 
 ## Acknowledgment
 
@@ -372,13 +361,13 @@ Leo Cooney, Jr., MD, authored this chapter in the sixth edition, and some materi
 
 - Brown CJ, Flood KL. Mobility limitation in the older patient: a clinical review. _JAMA_ . 2013;310(11):1168–1177.
 
-- Carley JA, Karp JF, Gentili A, et al. Deconstructing chronic low back pain in the older adult: tep by tep evidence and expert-based recommendations for evaluation and treatment: part IV: depression. _Pain Med_ . 2015;16(11):2098–2108.
+- Carley JA, Karp JF, Gentili A, et al. Deconstructing chronic low back pain in the older adult: step by step evidence and expert-based recommendations for evaluation and treatment: part IV: depression. _Pain Med_ . 2015;16(11):2098–2108.
 
-- Chou R, Deyo R, Friedly J, et al. Nonpharmacologic therapies for low back pain: a ystematic review for an American College of Physicians Clinical Practice Guideline. _Ann Intern Med_ . 2017;166(7):493–505.
+- Chou R, Deyo R, Friedly J, et al. Nonpharmacologic therapies for low back pain: a systematic review for an American College of Physicians Clinical Practice Guideline. _Ann Intern Med_ . 2017;166(7):493–505.
 
 - Deyo RA, Dworkin SF, Amtmann D, et al. Report of the NIH task force on research standards for chronic low back pain. _Spine J_ . 2014;14:1375–1391.
 
-- Ebeling PR, Akesson K, Bauer DC, et al. The efficacy and afety of vertebral augmentation: a second ASBMR Task Force Report. _J Bone Miner Res._ 2019;34(1):3–21.
+- Ebeling PR, Akesson K, Bauer DC, et al. The efficacy and safety of vertebral augmentation: a second ASBMR Task Force Report. _J Bone Miner Res._ 2019;34(1):3–21.
 
 - Ferreira PH, Ferreira ML, Maher CG, Refshauge KM, Latimer J, Adams RD. The therapeutic alliance between clinicians and patients predicts outcome in chronic low back pain. _Phys Ther_ . 2013;93(4):470–478.
 

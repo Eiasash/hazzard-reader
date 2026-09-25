@@ -5,19 +5,19 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
 ## Summary
 
 **Definitions & diagnostic models**
-- Frailty (consensus definition): medical syndrome, multiple causes, ↓ strength/endurance/physiologic reserve → ↑ risk of dependency/death; distinct from disability and from multimorbidity alone; screening endorsed for all individuals **70 and older** (p617)
+- Frailty (consensus definition): medical syndrome, multiple causes, ↓ strength/endurance and ↓ physiologic function → ↑ vulnerability to dependency/death; should not overlap with disability, and not exhaustively defined by sarcopenia or multimorbidity; screening endorsed for all individuals **70 and older** (p617)
 - **Physical Frailty Phenotype** (Fried/Cardiovascular Health Study) — 5 criteria: unintentional weight loss, weakness, exhaustion, slowness, low activity (p619)
-  - **≥3 of 5** criteria = frail; **2 of 5** = prefrail; 1 alone = risk factor only, not frailty itself (p619)
+  - **≥3 of 5** criteria = frail; **2 of 5** = prefrail; 1 alone = risk factor only, not frailty itself (p619) — note Table 42-3 instead scores intermediate/prefrail as **1–2** criteria (p621)
   - Weight loss: **>10 lb** lost unintentionally in the prior year (p620)
   - Weakness: grip strength lowest 20% (stratified by gender/BMI) (p620)
   - Slowness: **15-ft** walk time, slowest 20% (by gender/height) (p620)
   - Low activity: lowest 20% kcal/wk; men cutoff **<383 kcal/wk** (p620)
   - Drawbacks: no cognitive dimension; weight-loss criterion can miss sarcopenic-obesity frailty; thresholds derived from CHS cohort (p620)
-- **Deficit Accumulation / Frailty Index (FI)** (Rockwood): unweighted ratio of deficits present ÷ total considered, built from **~70** candidate deficits (p620); rises nonlinearly with age (Gompertz-like), higher in women, ceiling **FI ~0.7** (p623)
+- **Deficit Accumulation / Frailty Index (FI)** (Rockwood): unweighted ratio of deficits present ÷ total considered, built from a series of **70** measurements ("deficits") (p620); rises nonlinearly with age (Gompertz-like), higher in women, ceiling **FI ~0.7** (p623)
 - **Clinical Frailty Scale (CFS)**: **7-category** clinician-judgment scale derived from FI work; similar predictive power to FI for institutionalization/death (p623)
 - **Edmonton Frail Scale (EFS)**: **9 domains** — cognition, general health, function, social support, meds, nutrition, mood, continence, performance (p623)
-- **Cognitive frailty**: physical frailty + mild cognitive impairment (**CDR 0.5**), with AD/dementia excluded; physical frailty should precede the cognitive decline to make this diagnosis (p627)
-- **Table 42-3** (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elders Survey (VES-13), FRAIL Scale (p622)
+- **Cognitive frailty**: physical frailty + mild cognitive impairment (**CDR 0.5**), with AD/dementia excluded; it has been suggested that physical frailty should precede the cognitive impairment, to separate physically driven cognitive decline (p627)
+- **Table 42-3** (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elders Survey (VES-13), FRAIL Scale (p621–622)
   - **Table 42-3** also spells out the **CFS's 7 categories** (p621): 1 = very fit; 2 = well (no active disease); 3 = well, with treated comorbid disease; 4 = apparently vulnerable (not frankly dependent, "slowed up"); 5 = mildly frail (IADL help only); 6 = moderately frail (help with IADLs + ADLs); 7 = severely frail (ADL-dependent) or terminally ill
   - **VES-13**: frail if score **≥3** (range 0–10); **FRAIL Scale** (fatigue, resistance, ambulation, illness count >5, weight loss >5%): **0** = no frailty, **1–2** = intermediate, **≥3** = frailty (p622)
 
@@ -32,17 +32,17 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
 
 **Pathophysiology ("onion" model, Fig 42-1)**
 - Concentric layers: outer = clinical presentation (multimorbidity, physical/cognitive impairment); middle = biomarker layer (inflammation, hormones, body composition, energetics); inner = core biological hallmarks of aging (p617)
-- "Inflammaging": chronic elevation of IL-6 and TNF-α, present even in disease-free older adults; drives cellular senescence/SASP (p624)
+- "Inflammaging": chronic elevation of IL-6 and TNF-α, present even in disease-free older adults (p624); accumulating senescent cells spilling SASP molecules may account, at least in part, for the high circulating inflammatory markers (p625)
 - Multi-hormonal decline: DHEAS, testosterone, estrogens, GH/IGF-1, vitamin D ↓, with relative preservation of cortisol/thyroid hormones (p625)
 - Muscle energy demand rises **100-fold** from rest to contraction — mitochondrial decline + reduced satellite-cell repair capacity impair this reserve (p625)
-- RMR = **60–70%** of total daily energy expenditure; initially rises (compensation), later falls as frailty progresses — this RMR "shift" marks resilience failure (p626)
+- RMR = **60–70%** of total daily energy expenditure; initially rises (compensation), later falls as frailty develops — hypothesized that this RMR shift marks failure of resilience and accelerated, irreversible deterioration (p626)
 
 **Frailty in specific disease contexts**
-- Surgery: frailty predicts postop pneumonia, delirium, UTI, longer stay, nursing-home discharge, and mortality — outperforms comorbidity-only risk tools (p627)
+- Surgery: frailty predicts postop pneumonia, delirium, UTI, longer stay, nursing-home discharge, and higher mortality; a multidimensional frailty score was more useful than conventional methods for predicting surgical outcomes (p627)
 - CKD: CHS participants with CKD had **2-fold** risk of frailty + disability; frail patients start dialysis earlier (higher eGFR) with no proven survival/functional benefit (p628)
 - CVD: frailty **~3×** more prevalent with CVD; CAD in women → de novo frailty **12% vs 5%** over 6 yr; frail elders develop CAD events at **3.6% vs 2.8%/yr** (p628)
-- HIV: frailty prevalence **5–20%** in younger HIV+ patients; risk ↑ with **CD4 <350 cells/mm³**, further ↑ with **CD4 <100 cells/mm³** plus clinical AIDS/opportunistic illness (p628)
-- Transplant: MELD score predicts posttransplant outcome only at scores **above 35**; Fried-criteria frailty tracked quality of life better than MELD severity in end-stage liver disease (p629)
+- HIV: frailty prevalence **5–20%** in younger HIV+ patients; risk ↑ with **CD4 <350 cells/mm³**, further risk factors: **CD4 <100 cells/mm³**, clinical AIDS, previous opportunistic illnesses (p628)
+- Transplant: MELD predicts waitlist mortality but predicts posttransplant outcomes only at scores **above 35**; Fried-criteria frailty tracked quality of life better than MELD severity in end-stage liver disease (p629)
 
 ## Drill
 
@@ -58,7 +58,7 @@ Unintentional weight loss, weakness, exhaustion, slowness, and low activity (p61
 
 <details><summary>Answer</summary>
 
-≥3 of 5 = frail; 2 of 5 = prefrail; 1 alone is a risk factor, not frailty (p619).
+≥3 of 5 = frail; 2 of 5 = prefrail; 1 alone is a risk factor, not frailty (p619). (Table 42-3 scores intermediate/prefrail as 1–2 criteria, p621.)
 
 </details>
 
@@ -82,7 +82,7 @@ More than 10 lb lost unintentionally in the prior year (p620).
 
 <details><summary>Answer</summary>
 
-The ratio of deficits present in a person to the total number of deficits considered, drawn from a pool of about 70 candidate deficits (p620).
+The ratio of deficits present in a person to the total number of deficits considered, built from a series of 70 measurements ("deficits") (p620).
 
 </details>
 
@@ -142,11 +142,11 @@ Nearly 60% (p626).
 
 </details>
 
-**13. Above what MELD score does the MELD system fail to predict posttransplant outcomes?**
+**13. Above what MELD score does MELD predict posttransplant outcomes?**
 
 <details><summary>Answer</summary>
 
-Above 35 (it still predicts waitlist mortality below that) (p629).
+Only at scores above 35; MELD predicts waitlist mortality (p629).
 
 </details>
 
@@ -154,7 +154,7 @@ Above 35 (it still predicts waitlist mortality below that) (p629).
 
 <details><summary>Answer</summary>
 
-CD4 <350 cells/mm³ is an independent risk factor; CD4 <100 cells/mm³ (with clinical AIDS/opportunistic illness) is a further risk factor (p628).
+CD4 <350 cells/mm³ (a marker of advanced HIV disease) is independently associated with a frailty-related phenotype; CD4 <100 cells/mm³ is a further risk factor, as are clinical AIDS and previous opportunistic illnesses (p628).
 
 </details>
 

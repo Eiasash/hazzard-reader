@@ -5,9 +5,9 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 ## Summary
 
 ### General Principles
-- Endocrine dysfunction is diagnosed against young-adult reference ranges, not age-specific ones; hypogonadism in older men is defined by testosterone **below young-male norms**, while the upper limit of normal **serum thyrotropin rises with age** (~**7 to 8 mIU/L** in those 80+) (p1526).
+- Most clinical studies define endocrine dysfunction against young-adult reference ranges, not age-specific ones; hypogonadism in older men is defined by testosterone **below young-male norms**, while the upper limit of normal **serum thyrotropin rises with age** (~**7 to 8 mIU/L** in those 80+) (p1526).
 - Hormone levels can be transiently altered by acute illness (eg, slight TSH elevation in recovery) or drugs (eg, opioids suppressing gonadotropin/testosterone) — repeat testing once the patient's baseline health is restored before acting on an abnormal result (p1526).
-- Hormone replacement doses in older adults are often **lower than young-adult doses** because metabolic clearance of thyroid hormone, hydrocortisone, and testosterone falls with age (p1526).
+- Hormone replacement doses in older adults may be **lower than young-adult doses** because metabolic clearance of thyroid hormone, hydrocortisone, and testosterone falls with age (p1526).
 
 ### Pituitary
 - Hyperprolactinemia tiers: **mild 20–50 ng/mL** (rarely needs treatment, just exclude primary hypothyroidism with TSH), **moderate 50–250 ng/mL** (refer — likely prolactinoma), **severe >250 ng/mL** (refer — almost always a large prolactinoma) (p1525, p1528).
@@ -15,7 +15,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Chronic hypopituitarism incidence **<0.5 per 100,000/yr**; most common deficits are secondary hypogonadism and hypothyroidism, but **secondary hypoadrenalism, though less common, can be life-threatening** — these patients need an alert bracelet (p1529).
 
 ### Adrenal
-- **Cushing syndrome: the most common cause in older patients is iatrogenic** (supraphysiologic corticosteroid dosing) (p1525–1526, p1531).
+- **Cushing syndrome: the most common cause in older patients is iatrogenic** (supraphysiologic corticosteroid dosing) (p1526, p1530).
 - **Adrenal insufficiency: the most common cause is rapid discontinuation of chronic glucocorticoid therapy** (p1526, p1531).
 - Adrenal insufficiency sick-day rule: **triple the daily hydrocortisone dose (~60 mg)** for 3 days with fever ≥**101.5°F**; give **100 mg IM hydrocortisone** if oral intake is impossible (p1526, p1531–1532).
 - Usual glucocorticoid replacement: **15–20 mg hydrocortisone/day in divided doses**, avoiding late-afternoon/evening dosing (insomnia risk) (p1531).
@@ -39,7 +39,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Hypercalcemia causes split by PTH status: **PTH-dependent** (common: primary hyperparathyroidism; uncommon: tertiary hyperparathyroidism, lithium, familial hypocalciuric hypercalcemia, ectopic PTH) vs **PTH-independent** (common: malignancy — osteolytic or PTHrP-humoral — and 1,25(OH)₂-vitamin D-mediated lymphoma; uncommon: thiazides, AKI, parenteral nutrition, immobilization with malignancy/Paget, granulomatous disease, hyperthyroidism/adrenal insufficiency, vitamin D/A toxicity, milk-alkali, hyperproteinemia) (Table 97-9, p1538).
 - Vitamin D sufficiency thresholds: American Geriatrics Society **>30 ng/mL**; Institute of Medicine **>20 ng/mL**; deficiency **<12 ng/mL** (p1526 KCP, p1539).
 - Vitamin D deficiency prevalence **40–50%** in community-dwelling older adults (p1539).
-- Treatment: mild-moderate deficiency → vitamin D2/D3 **800–1000 IU/day**; severe deficiency → **2000 IU/day for 6–12 months**, or **50,000 IU weekly for 8–12 weeks** then maintenance (p1540).
+- Treatment: mild-moderate deficiency → vitamin D2/D3 **800–1000 IU/day**; severe deficiency → vitamin D3 **2000 IU/day for 6–12 months**, or vitamin D2 **50,000 IU weekly for 8–12 weeks** then vitamin D3 800–1000 IU daily (p1540).
 - Toxicity is rare up to the IOM safe upper limit of **4000 IU/day**; early biochemical toxicity signs appear **>90 ng/mL**, severe toxicity **>150 ng/mL** (p1540).
 
 ### Paget Disease
@@ -56,7 +56,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 <details><summary>Answer</summary>
 
-Iatrogenic — supraphysiologic corticosteroid dosing (p1525–1526, p1531).
+Iatrogenic — supraphysiologic corticosteroid dosing (p1526, p1530).
 
 </details>
 
@@ -160,7 +160,7 @@ Serum calcium >1 mg/dL above the upper limit of normal, and/or DXA T-score <−2
 
 <details><summary>Answer</summary>
 
-Safe upper limit 4000 IU/day; early toxicity signs (eg, hypercalciuria) reported above 25-hydroxyvitamin D >90 ng/mL (p1540).
+Safe upper limit 4000 IU/day; early biochemical indications of toxicity have been reported when 25-hydroxyvitamin D exceeded 90 ng/mL (the first indication of over-treatment is hypercalciuria) (p1540).
 
 </details>
 

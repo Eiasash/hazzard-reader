@@ -5,7 +5,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 ## Summary
 
 **Normal aging — what declines vs what's preserved**
-- **Crystallized (verbal) intelligence** stays relatively intact with age; **fluid intelligence** (flexible reasoning/problem-solving) declines, largely tracking slowed processing speed (p853)
+- **Crystallized (verbal) intelligence** stays relatively intact with age; **fluid intelligence** (flexible reasoning/problem-solving) declines; reduced speed of information processing has been theorized to account for many of these changes (p853)
 - **Sustained attention (vigilance)** does not change significantly with age; **divided attention** may decline, results mixed (p854)
 - **"Real-world" executive functions** (planning, executing multi-step tasks) are little affected by normal aging even though performance on *novel* executive tasks (Wisconsin Card Sort, Stroop, Go-No-Go) declines slightly (p854)
 - **Remote memory, procedural memory, semantic memory** stay intact; **learning/recall of new information** is what declines — slower learning curve, lower total learned (p854-855)
@@ -13,17 +13,17 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - Visuospatial: speed slows, but mental rotation and complex copy tasks can still worsen even when speed is controlled for (p856)
 
 **Common medical conditions and cognition (Table 57-2, Figure 57-1)**
-- Prevalence of comorbidities among cognitively affected older adults (**Figure 57-1**, p856-857): **hypertension 70%**, **chronic kidney disease 38%**, **diabetes 27%**, **thyroid disease 25%**, **coronary artery disease 17%**, **sleep apnea 14%**, **depression 10-15%**, **COPD 10%**
+- Prevalence of medical conditions associated with cognitive impairment among US adults aged 65+ (**Figure 57-1**, p856): **hypertension 70%**, **chronic kidney disease 38%**, **diabetes 27%**, **thyroid disease 25%**, **coronary artery disease 17%**, **sleep apnea 14%**, **depression 10-15%**, **COPD 10%**
 - **Postoperative cognitive decline (POCD)** after cardiac surgery: seen in **30-70%** of patients at hospital discharge; still present in **15-25%** at 12-month follow-up (p859)
 - **T2DM** affects **20-30%** of US adults >65; complex attention and verbal memory encoding are the main deficits (p859-860)
 - **CKD** cognitive impairment prevalence **10-40%**, depending on disease severity/duration (p860)
 - High-dose **vitamin E (2000 IU/day)** reduced *functional* decline in mild-to-moderate AD in a large trial, though evidence for prevention is weak overall (p860-861)
 - Depression prevalence in older adults: **11-30%** (p861)
-- Table 57-2's per-condition grid flags **AD, VaD, and PD** risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, and sleep apnea are flagged for **AD and VaD only** (no PD); nutritional deficiency for **AD and Wernicke-Korsakoff syndrome**; thyroid disease for **AD** alone (Table 57-2, p857-858)
-- Per the table, several of these cognitive effects can improve with treatment (cardiac rehab, year 1 post-surgery, antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but **B12/vitamin D deficits may persist** despite supplementation, and some thyroid patients **don't return to cognitive baseline** (Table 57-2, p857-858)
+- Table 57-2's per-condition grid flags **AD, VaD, and PD** risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, COPD, and sleep apnea are flagged for **AD and VaD only** (no PD); nutritional deficiency for **AD and Wernicke-Korsakoff syndrome**; thyroid disease for **AD** alone (Table 57-2, p857-858)
+- Per the table, several of these cognitive effects can improve with treatment (only limited evidence for cardiac rehab; improvement often during year 1 post-surgery; antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but **B12/vitamin D deficits may persist** despite supplementation, and some thyroid patients **don't return to cognitive baseline** (Table 57-2, p857-858)
 
 **Differentiating dementia types (Table 57-3, p863-866)**
-- Of the major dementia types compared, **AD and Wernicke-Korsakoff syndrome are the only ones with impaired recognition** (not just recall) on memory testing — the table marks both "Recognition intact?" **N**; PD/PDD, DLB, and VaD are variable/intact; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia can have **stepwise or acute onset** with executive deficits relatively more prominent than memory loss
+- Of the major dementia types compared, **AD and Wernicke-Korsakoff syndrome are the only ones with impaired recognition** (not just recall) on memory testing — the table marks both "Recognition intact?" **N**; PD/PDD, DLB, and VaD are marked variable; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia: onset **insidious or acute**, progression **stepwise or gradual**, with executive deficits significantly more impaired than in AD and relative to verbal memory performance
 - **Behavioral variant FTLD**: early disinhibition, apathy, loss of empathy/sympathy, hyperorality, with recent memory relatively preserved; **PSP**: vertical gaze palsy + postural instability; **CBS**: asymmetric motor signs + alien limb; **NPH**: wide-based gait, urinary incontinence, confusional state
 
 **MCI due to AD**
@@ -43,18 +43,18 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - Up to **75%** of pathologically confirmed FTLD patients also meet clinical criteria for probable AD (p873)
 
 **PD / PDD / DLB**
-- Up to **80%** of PD patients who live **≥20 years** develop PDD (p871)
-- **PD-MCI** prevalence **~30-40%**; **10-30%** of newly diagnosed PD patients already show cognitive impairment (p871)
-- DLB clue: visual hallucinations with **MMSE >20** are highly suggestive of DLB rather than AD (p872)
+- Upwards of **80%** of PD patients who live **≥20 years** are expected to develop PDD (p870)
+- **PD-MCI** prevalence **~30-40%**; **10-30%** of newly diagnosed PD patients already show cognitive impairment (p870)
+- DLB clue: visual hallucinations with **MMSE >20** are highly suggestive of DLB rather than AD (p871)
 - PD→PDD requires dementia onset **>1 year after** established motor symptoms; if dementia precedes or comes within 1 year of motor onset, it's classified **DLB** (p870)
 
 **Vascular cognitive impairment (VCI)**
-- Co-occurrence of AD + VaD pathology: **20-40%** of dementia patients (p873)
+- Co-occurrence of AD + VaD pathology: **20-40%** of dementia patients (p872)
 
 **Other reversible/less common dementias**
 - Sporadic prion disease (CJD): typically diagnosed **60s**, age range **40-80** (p876)
-- **Normal pressure hydrocephalus (NPH)** makes up **~6%** of dementia cases; classic triad = gait/balance disturbance, urinary incontinence, cognitive deficits, with cognition affected *later* than the other two (p876)
-- NPH shunt outcomes: at 6 months, **83%** improved gait and **46%** improved memory; at 5 years, only **39%** remained gait-improved and **<10%** still showed cognitive improvement (p876)
+- **Normal pressure hydrocephalus (NPH)** makes up **~6%** of dementia cases; classic triad = gait/balance disturbance, urinary incontinence, cognitive deficits; unlike most other dementias, cognitive symptoms often present *later* in the course (p876)
+- NPH shunt outcomes: at 6 months, **83%** improved gait and **46%** improved memory; at 5 years, only **39%** of surviving shunt cases remained gait-improved and **<10%** still showed cognitive improvement (p876)
 - **10%** of US HIV cases are in patients ≥50; with modern ART, progression to HIV dementia is rare (**2-3%**), but milder deficits occur in **50-60%** (p876)
 - Neurosyphilis dementia classically emerges **5-25 years** after initial infection (p876)
 
@@ -152,7 +152,7 @@ About 20 years or more (p862).
 
 <details><summary>Answer</summary>
 
-Up to 80% (p871).
+Upwards of 80% (p870).
 
 </details>
 
@@ -160,7 +160,7 @@ Up to 80% (p871).
 
 <details><summary>Answer</summary>
 
-Visual hallucinations occurring in a patient with an MMSE score greater than 20 (p872).
+Visual hallucinations occurring in a patient with an MMSE score greater than 20 (p871).
 
 </details>
 
@@ -168,7 +168,7 @@ Visual hallucinations occurring in a patient with an MMSE score greater than 20 
 
 <details><summary>Answer</summary>
 
-NPH makes up about 6% of dementia cases. At 6 months post-shunt, 83% improve in gait and 46% improve in memory; at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).
+NPH makes up about 6% of dementia cases. At 6 months post-shunt, 83% improve in gait and 46% improve in memory; of surviving shunt cases at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).
 
 </details>
 

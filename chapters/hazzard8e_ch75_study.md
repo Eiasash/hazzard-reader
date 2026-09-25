@@ -5,25 +5,25 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 ## Summary
 
 **Aortic stenosis (AS)**
-- Prevalence **2–9%** of older patients; leading clinically significant valvular disorder in older adults (p1150). **90%** of AS in patients >65y is calcific degeneration of a tricuspid valve (p1150).
+- Prevalence **2–9%** of older patients; leading clinically significant valvular disorder in older adults (p1149). **90%** of AS in patients >65y is calcific degeneration of a tricuspid valve (p1149).
 - Valve sclerosis (thickening, no obstruction): **25%** of >65y, **48%** of >75y; progresses to frank stenosis in **~10%** within 5 years (p1150).
 - Average progression: jet velocity **+0.3 m/s/yr**, valve area **−0.1 cm²/yr** (p1150).
 - Table 75-1 severe cutoffs: **AVA < 1.0 cm²**, velocity **> 4 m/s**, mean gradient **> 40 mmHg** (p1150).
 - Classic triad once symptomatic: angina (**50%** 5-yr survival untreated), syncope (**50%** 3-yr mortality), heart failure (**50%** mortality at 2 yr — worst prognosis) (p1151).
-- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS causes epistaxis or ecchymoses in **20%** of patients, and — separately — can also cause Heyde syndrome (GI bleeding from colonic angiodysplasia); both resolve with valve replacement (p1151).
-- Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, flat BP response, ST changes) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151–1152).
-- 5-yr symptom-free probability even in severe AS averages only **50%** (p1152).
+- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS causes epistaxis or ecchymoses in **20%** of patients, and patients can also develop Heyde syndrome (GI bleeding from colonic angiodysplasias); these abnormalities resolve with valve replacement (p1151).
+- Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, flat BP response, ST changes) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151).
+- 5-yr symptom-free probability even in severe AS averages only **50%** (p1151).
 - BAV: enlargement rarely **> 1.0 cm²**, **10%** complication rate, restenosis by 6mo–1yr, 1-yr mortality **35–50%** — bridge/palliation only, not a replacement substitute (p1152).
 - SAVR bioprosthetic structural deterioration **~10%** at 15–20 yr; Medicare operative mortality **8.8%** overall, **6.0%** at high-volume centers (p1152).
-- Referral bias: **41%** of >70y and **33%** of >75y with severe symptomatic AS were not offered valve replacement in separate European cohort studies (p1152).
+- Referral bias: **41%** of >70y (European study) and **33%** of >75y (second study: 1200 patients, 92 centers, 25 countries) with severe symptomatic AS were not offered surgery/valve replacement (p1152).
 - TAVR "prohibitive SAVR risk" = STS Predicted Risk of Morbidity **and** Mortality **> 50%** (not STS-PROM/mortality alone); valve durability data only confirmed to **5 years** (p1153).
-- Table 75-3 (SAVR vs TAVR vs palliative selection): SAVR favored for longer life expectancy, few frailty markers, TAVR-unsuitable anatomy, or concomitant CAD/valve surgery (lower reintervention/PPM/vascular-complication risk, longer stay); TAVR favored for shorter life expectancy, severe comorbidities/mobility issues, or prior chest irradiation (shorter stay, but accepts higher PPM/vascular-complication risk) (p1153).
+- Table 75-3 (SAVR vs TAVR vs palliative selection): SAVR favored for longer life expectancy, few frailty markers, TAVR-unsuitable anatomy, or concomitant coronary artery disease or valve disease (lower reintervention/PPM/vascular-complication risk, longer stay); TAVR favored for shorter life expectancy, severe comorbidities/mobility issues, or prior chest irradiation (shorter stay, but accepts higher PPM/vascular-complication risk) (p1153).
 - Palliative care (same table): symptom relief without life prolongation, avoiding periprocedural stroke/PPM/vascular-complication risk — for limited life expectancy, severe dementia/frailty/multiorgan impairment, valve anatomy/access unsuitable for TAVR, or goals of care against futile procedures (p1153).
 
 **Aortic insufficiency (AI)**
 - Chronic AI in **20–30%** of >65y (p1153).
-- Table 75-4 eponymous AI signs (owner-highlighted): Austin Flint murmur = low-pitched mid-diastolic rumble; Duroziez sign = to-and-fro femoral bruit with compression; Quincke sign = pulsatile nail beds; Watson's water-hammer pulse = bounding peripheral pulse; Corrigan pulse = rapidly rising/falling pulse on palpation (p1154).
-- Asymptomatic, normal LV function: **0.2%**/yr sudden death, **3.5%**/yr progress to symptoms, **6%**/yr develop LV dysfunction or symptoms; once LV dysfunction develops, **>25%**/yr progress to symptomatic disease (p1153).
+- Table 75-4 eponymous AI signs (owner-highlighted): Austin Flint murmur = low-pitched mid-diastolic rumble; Duroziez sign = to-and-fro femoral artery murmur with compression; Quincke sign = pulsatile nail beds; Watson's water-hammer pulse = bounding peripheral pulse; Corrigan pulse = rapidly rising/falling pulse on palpation (p1154).
+- Asymptomatic, normal LV function: **0.2%** incidence of sudden death, **3.5%**/yr progress to symptoms, **6%**/yr develop LV dysfunction or symptoms; once LV dysfunction develops, **>25%**/yr progress to symptomatic disease (p1153).
 - Symptomatic mortality **>10%**/yr for angina, **>20%**/yr for heart failure (medical management only) (p1154).
 - NYHA III–IV: **25%**/yr mortality; NYHA II: **6%**/yr (p1153).
 - LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
@@ -36,10 +36,10 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Symptom onset lags rheumatic fever by **20–40 years** (p1156).
 - Once symptomatic, 10-yr survival only **50–60%**; asymptomatic 10-yr survival **80%**; unoperated despite meeting surgical criteria: 10-yr survival **< 30%** (p1156).
 - Table 75-7 severe cutoffs: **MVA < 1.0 cm²**, PA pressure **> 50 mmHg**, mean gradient **> 10 mmHg** (p1156).
-- **30–40%** of older MS patients develop AF; with AF, 10-yr survival **25%** vs **46%** if sinus rhythm maintained (p1157).
+- **30–40%** of older MS patients present with AF; with AF, 10-yr survival **25%** vs **46%** if they remain in sinus rhythm (p1156).
 - Systemic emboli in **20%** of patients (p1157).
 - Percutaneous balloon valvuloplasty: **90%** get symptomatic relief; freedom from complications/death **50–65%** at 7 yr (up to **80–90%** with favorable pre-procedure score) (p1157).
-- Table 75-8 procedural risks: LV perforation **0.5–4.0%**, systemic embolization **0.5–3.0%**, MI **0.3–0.5%**, death **1.0–2.0%** (p1157–1158).
+- Table 75-8 procedural risks: LV perforation **0.5–4.0%**, systemic embolization **0.5–3.0%**, MI **0.3–0.5%**, death **1.0–2.0%** (p1157).
 - Surgical operative mortality up to **20%** in older patients with comorbidities and pulmonary hypertension (p1158).
 
 **Mitral regurgitation (MR)**
@@ -56,24 +56,24 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Antibiotic prophylaxis (Table 75-14): **amoxicillin 2 g PO** 1h pre-procedure (standard); penicillin-allergic: **clindamycin 600 mg** or **cephalexin 2 g** PO; unable to take oral: **ampicillin 2 g IV/IM**; unable to take oral + PCN-allergic: **clindamycin 600 mg IV** or **cefazolin 1 g IV/IM** (p1161). Given only for gingival/periapical/oral-mucosal dental procedures or active-infection surgery, not routine nondental procedures (p1161).
 - Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only** if no risk factors — with risk factors, bioprosthetic mitral rises to **INR 2.5–3.5** (bioprosthetic aortic stays **2–3**, no stated 3-mo limit); aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
 - Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
-- INR **> 5**: hold warfarin + oral vitamin K **1–2.5 mg**, recheck daily until < 5 (p1161).
+- Bleeding more likely with INR **> 5**; INR **5–10**: hold warfarin + oral vitamin K **1–2.5 mg**, check INR daily until < 5 (p1161).
 - Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; bridge with heparin once INR **< 2** if high-risk (p1162).
-- Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1163).
+- Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
 **Exam traps / book self-contradictions**
 - Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value — as printed, not corrected in this build (p1158).
 - Mitral repair-vs-replacement operative mortality is given twice with different numbers: **2% vs 6%** overall / **0.7% vs 14%** in a >70y cohort (p1160), and later **1–2% vs 5.4–6.4%** (p1163) — both as printed.
 - MS "usually develop symptoms" once MVA falls to **2.5 to 1.5 cm²** (p1156), which overlaps Table 75-7's own **mild** cutoff (>1.5 cm²) — read literally, symptom onset and "mild" grade can coincide.
-- AI surgical trigger for LVESD is stated twice with different thresholds on adjacent pages: "> 50 mm" (dilated ventricle, a *consideration*) vs "> 65 mm" (asymptomatic, low-risk, a *possible indication*) — not contradictory once you note these are different tiers of the same table (Table 75-6), but easy to conflate under exam pressure (p1155).
+- AI surgical trigger for LVESD is stated twice with different thresholds on the same page: "> 50 mm" (dilated ventricle, a *consideration*) vs "> 65 mm" (asymptomatic, low-risk, a *possible indication*) — not contradictory once you note these are different tiers of the same table (Table 75-6), but easy to conflate under exam pressure (p1155).
 
 ## Drill
 
-**1. In older adults, what fraction of severe aortic stenosis is caused by calcific degeneration of a trileaflet valve, and what age is a bicuspid valve's stenosis typically symptomatic?**
+**1. In patients older than 65, what fraction of aortic stenosis is caused by calcific degeneration of a trileaflet valve, and at what age does a bicuspid valve's stenosis typically present?**
 
 <details><summary>Answer</summary>
 
-90% of AS in patients over 65 is calcific degeneration of a tricuspid valve; bicuspid-valve stenosis usually presents earlier, in the fourth to sixth decade (p1150).
+90% of AS in patients over 65 is calcific degeneration of a tricuspid valve; bicuspid-valve stenosis usually presents earlier, in the fourth to sixth decade (p1149).
 
 </details>
 
@@ -89,15 +89,15 @@ Angina (~50% 5-yr survival), syncope (~50% 3-yr mortality), and heart failure (~
 
 <details><summary>Answer</summary>
 
-Development of symptoms, failure to raise systolic BP by 20 mmHg, or ST-segment depression predicts a 19% 2-year symptom-free survival, versus 85% if none of these occur (p1151–1152).
+Development of symptoms, failure to generate a 20 mmHg increase in blood pressure, or ST-segment abnormalities predicts a 19% 2-year symptom-free survival, versus 85% if none of these occur (p1151).
 
 </details>
 
-**4. What STS-PROM cutoff defines "prohibitive" surgical risk for TAVR consideration, and what is the durability caveat for TAVR valves?**
+**4. What STS risk cutoff defines "prohibitive" surgical risk for TAVR consideration, and what is the durability caveat for TAVR valves?**
 
 <details><summary>Answer</summary>
 
-STS Predicted Risk of Morbidity and Mortality > 50%; TAVR valve durability data are only confirmed out to 5 years, so younger/lower-risk patients may need a later valve-in-valve reintervention (p1153).
+STS Predicted Risk of Morbidity and Mortality > 50%; durability of TAVR valves beyond 5 years is unknown, so some patients may need a reintervention ("valve-in-valve" procedure) (p1153).
 
 </details>
 
@@ -137,7 +137,7 @@ Symptoms usually develop once the valve area falls to 2.5–1.5 cm²; normal MVA
 
 <details><summary>Answer</summary>
 
-46% 10-year survival in sinus rhythm versus 25% with atrial fibrillation (p1157).
+46% 10-year survival in sinus rhythm versus 25% with atrial fibrillation (p1156).
 
 </details>
 

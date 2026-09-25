@@ -2,7 +2,7 @@
 
 Michele R. Obert, Ernest R. Vina, Jawad Bilal, C. Kent Kwoh
 
-> **Fast build from the book, 22 Sep; not lane-reviewed.**
+> **Lane-reviewed against the book, 25 Sep 2026.**
 
 <a id="p779"></a>**[p. 779]**
 
@@ -92,6 +92,7 @@ Knee OA patients may complain of localized pain, often in the medial and lateral
 Hand OA patients may report pain involving the DIP, PIP, and first CMC joints. Gripping, pinching, holding, or lifting objects may be particularly challenging in patients with symptomatic hand OA. Foot OA can cause
 
 <a id="p782"></a>**[p. 782]**
+
 such disabling foot pain with ambulation that can lead to significant functional limitations and increased risk of falls.
 
 OA most commonly affects the cervical and lumbar spine areas. Cervical spine OA typically causes neck pain but can also cause occipital headaches, upper extremity radicular pain, shoulder pain, and loss of dexterity of the hands. Rarely, large osteophytes may compromise the spinal canal, causing lower-extremity spasticity and gait disturbance. Lumbar spine OA can often cause lower back pain that may radiate into the lower extremities and worsen with bending ipsilateral to the involved joint. Lumbar facet joint osteophytes can lead to lumbar canal stenosis with symptoms of claudication and/or pain at night; symptoms of spinal stenosis are often relieved by bending slightly forward (eg, walking uphill, upstairs or leaning forward on a shopping cart) and worsened by bending backward (eg, walking downhill or downstairs). Other symptoms of spinal stenosis include pain, tingling, numbness, and weakness,
@@ -106,9 +107,7 @@ In knee OA, there is often crepitus on active knee motion and bony tenderness. T
 
 In hip OA there may be reproducible pain along the anterior hip or the inguinal area with passive or active range of motion, particularly with extension and internal rotation. The range of motion in the hip joint may also be affected; limited internal rotation and/or extension may be an early indication of hip OA. Hip OA patients may also develop an antalgic gait in which the stance phase of the gait is abnormally shortened on the affected hip joint.
 
-In foot OA, the first metatarsophalangeal (MTP) joint is most commonly affected, followed by the second cuneometatarsal (CMT) and talonavicular (TN) joints.
-
-There are limited agreed upon guidelines for the clinical assessment of foot OA. For first MTP joint OA specifically, the patient may exhibit pain in that joint upon walking, limited dorsiflexion in the first MTP joint and pain on direct palpation of the joint. Other exam findings that may be present include hallux valgus, first interphalangeal joint hyperextension, and decrease in ankle joint dorsiflexion range of motion.
+In foot OA, the first metatarsophalangeal (MTP) joint is most commonly affected, followed by the second cuneometatarsal (CMT) and talonavicular (TN) joints. There are limited agreed upon guidelines for the clinical assessment of foot OA. For first MTP joint OA specifically, the patient may exhibit pain in that joint upon walking, limited dorsiflexion in the first MTP joint and pain on direct palpation of the joint. Other exam findings that may be present include hallux valgus, first interphalangeal joint hyperextension, and decrease in ankle joint dorsiflexion range of motion.
 
 ## Evaluation
 
@@ -121,9 +120,16 @@ Radiographic findings specific to knee OA patients include medial tibiofemoral a
 With hand OA, the first CMC, the DIP, and the PIP joints are most commonly involved. Joint space loss is typically nonuniform and asymmetric. Involvement of more than two metacarpophalangeal joints suggests different type of arthritis other than OA. Hand x-rays of those with erosive OA will reveal erosions and the “gull-wing” deformity ( **Figure 52-2** ). X-rays of patients with lumbar or cervical OA will reveal intervertebral disc narrowing and osteophytes arising from the vertebral body margins ( **Figure 52-3** ). Sclerosis and cyst formation may also be seen. Neural foraminal narrowing may result from osteophyte formation, but this is best seen using a computed tomographic (CT) scan. With foot OA, a foot-specific atlas that grades osteophytes and joint space narrowing can be used to classify radiographic OA in the commonly affected areas, although
 
 <a id="p783"></a>**[p. 783]**
+
 ![Figure 52-1](hazzard8e_ch52_figure52-1.png)
 
 > *FIGURE 52-1. Knee x-ray anteroposterior view showing severe joint space narrowing within the lateral compartment, genu valgus, and joint effusion.*
+
+> Highlighting is the owner's annotation, not the book's.
+
+![Figure 52-2](hazzard8e_ch52_figure52-2.png)
+
+> *FIGURE 52-2. Hand x-ray showing joint space narrowing of the index, middle, ring, and small finger DIP joints and middle finger PIP joint. There are possible central erosions of the index and ring finger DIP joints, suggestive of erosive osteoarthropathy.*
 
 > Highlighting is the owner's annotation, not the book's.
 
@@ -135,15 +141,7 @@ As a research tool, MRI has allowed the detection of preradiographic OA. It offe
 
 ### Laboratory Studies
 
-Laboratory tests are unhelpful in diagnosing OA but are helpful in excluding other causes of arthritis such as
-
-![Figure 52-2](hazzard8e_ch52_figure52-2.png)
-
-> *FIGURE 52-2. Hand x-ray showing joint space narrowing of the index, middle, ring, and small finger DIP joints and middle finger PIP joint. There are possible central erosions of the index and ring finger DIP joints, suggestive of erosive osteoarthropathy.*
-
-> Highlighting is the owner's annotation, not the book's.
-
-rheumatoid arthritis, gout, or infectious arthritis. Inflammatory markers, such as erythrocyte sedimentation rate and C-reactive protein level, and immunologic tests, such as antinuclear antibodies and rheumatoid factor, should not be routinely ordered unless there are signs or symptoms suggestive of inflammatory arthritis or autoimmune disease. Uric acid level may be ordered if gout is suspected.
+Laboratory tests are unhelpful in diagnosing OA but are helpful in excluding other causes of arthritis such as rheumatoid arthritis, gout, or infectious arthritis. Inflammatory markers, such as erythrocyte sedimentation rate and C-reactive protein level, and immunologic tests, such as antinuclear antibodies and rheumatoid factor, should not be routinely ordered unless there are signs or symptoms suggestive of inflammatory arthritis or autoimmune disease. Uric acid level may be ordered if gout is suspected.
 
 Performing an arthrocentesis may be valuable in evaluating patients with presumptive OA. Synovial fluid findings in OA often show a white blood cell count of less than 2000 cells/mm<sup>3</sup> . Counts that are greater than 2000 cells/mm<sup>3</sup> suggest an inflammatory or infectious arthritis etiology. Under polarized microscopy, there should be no visible crystals. The presence of gout or pseudogout crystals suggests crystalline arthritis as the underlying cause of joint pain.
 
@@ -174,6 +172,7 @@ Physical therapists are valuable for providing instructions and appropriate exer
 In summary, exercise can be a joint-specific range of motion and/or strengthening program or a general aerobic conditioning regimen. Exercise may be supervised on land, in water or in a self-directed home-based program. Regardless of the type of exercise regimen, extra attention
 
 <a id="p785"></a>**[p. 785]**
+
 ![Figure 52-4](hazzard8e_ch52_figure52-4.png)
 
 > *FIGURE 52-4. Nonpharmacologic and pharmacologic treatment options that are recommended for the management of OA. Recommended therapies for the management of osteoarthritis (OA). Strongly and conditionally recommended approaches to management of hand, knee, and/or hip OA are shown. No hierarchy within categories is implied in the figure, with the recognition that the various options may be used (and reused) at various times during the course of a particular patient’s disease. * = Exercise for knee and hip OA could include walking, strengthening, neuromuscular training, and aquatic exercise, with no hierarchy of one over another. Exercise is associated with better outcomes when supervised. ** = Knee brace recommendations: tibiofemoral (TF) brace for TF OA (strongly recommended), patellofemoral (PF) brace for PF OA (conditionally recommended). *** = Hand orthosis recommendations: first carpometacarpal (CMC) joint neoprene or rigid orthoses for first CMC joint OA (strongly recommended), orthoses for joints of the hand other than the first CMC joint (conditionally recommended). IA = intraarticular; NSAIDs = nonsteroidal anti-inflammatory drugs; RFA = radiofrequency ablation. (Reproduced with permission from Kolasinski SL, Neogi T, Hochberg MC, et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. _Arthritis Care Res (Hoboken)_ . 2020;72[2]:149–162.)*
@@ -226,7 +225,7 @@ While efficacious, NSAIDs should be prescribed with caution, particularly in pat
 
 <a id="p788"></a>**[p. 788]**
 
-> of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk. Nephrotoxicity is another potential toxicity. Patients with chronic kidney disease (CKD) stage IV or V (estimated glomerular filtration rate < 30 cc/min) should avoid NSAIDs. Nonacetylated salicylates, sulindac, and nabumetone may be less nephrotoxic than other NSAIDs.
+of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk. Nephrotoxicity is another potential toxicity. Patients with chronic kidney disease (CKD) stage IV or V (estimated glomerular filtration rate < 30 cc/min) should avoid NSAIDs. Nonacetylated salicylates, sulindac, and nabumetone may be less nephrotoxic than other NSAIDs.
 
 Patients with cardiovascular disease are also at increased risk for cardiovascular adverse events (eg, myocardial infarct or stroke) associated with NSAIDs, particularly with the use of diclofenac. Patients should be made aware of such risks and monitored closely during treatment. Finally, concomitant use of low-dose aspirin and nonselective NSAIDs (eg, ibuprofen) may also render aspirin less effective when used for cardioprotection and stroke prevention.
 
@@ -236,9 +235,7 @@ Patients with cardiovascular disease are also at increased risk for cardiovascul
 
 More potent narcotic medicines, such as oxycodone, hydrocodone, or morphine sulfate, may be considered in some OA patients only after failure of all other treatments. Patients who continue to have severe OA-related pain and disability despite trying other pharmacologic and nonpharmacologic OA treatments may be good candidates. Those who are unwilling or unable to undergo joint replacement surgery due to comorbid conditions (eg, significant cardiac or pulmonary disease) may also be reasonable candidates.
 
-Narcotic agents are poorly tolerated in older people due to increased sensitivity to certain side effects, including constipation, urinary retention, confusion, and sedation. The risk of falls may also be increased in a population already vulnerable to falls due to joint disease and other risk factors. If narcotic medicines are to be started in older people, then the lowest dose should be prescribed for the
-
-shortest possible length of time. Adjuvant therapies with nonnarcotic pain relievers should also be considered.
+Narcotic agents are poorly tolerated in older people due to increased sensitivity to certain side effects, including constipation, urinary retention, confusion, and sedation. The risk of falls may also be increased in a population already vulnerable to falls due to joint disease and other risk factors. If narcotic medicines are to be started in older people, then the lowest dose should be prescribed for the shortest possible length of time. Adjuvant therapies with nonnarcotic pain relievers should also be considered.
 
 **Nutraceuticals** Glucosamine and chondroitin sulfate are naturally occurring constituents of cartilage proteoglycans. They are popular “nutritional supplements” used by many OA patients, but their use is highly controversial. Although several clinical trials showed their efficacy in improving pain and function, these trials were primarily industry-sponsored and utilized a pharmaceutical grade of glucosamine sulfate, which is not available in the United States. The best available data with the lowest risk of bias indicate that these supplements were no more effective than placebo. The ACR/AF and OARSI recommend against the use of either glucosamine or chondroitin sulfate to treat knee or hip OA.
 
@@ -286,9 +283,7 @@ lifespan than a total knee arthroplasty joint, making rates of revision higher.
 
 There are currently no therapies known to prevent the progression of joint damage due to OA. However, current research efforts are trying to identify preclinical biochemical and imaging biomarkers that will provide opportunities to diagnose and treat OA earlier in the disease course. Hence, we may eventually be able to prevent the development and further progression of the disease.
 
-There are also known potential theoretical targets for primary and secondary prevention of OA. A person’s
-
-weight is the largest identified modifiable risk factor for the development and progression of OA. The risk of knee OA has been shown to increase along with an increase in BMI. Therefore, weight loss for those who fall into the obese and overweight categories is important in primary prevention. Patients need to be educated on the benefits of weight loss and the need to achieve a normal body weight.
+There are also known potential theoretical targets for primary and secondary prevention of OA. A person’s weight is the largest identified modifiable risk factor for the development and progression of OA. The risk of knee OA has been shown to increase along with an increase in BMI. Therefore, weight loss for those who fall into the obese and overweight categories is important in primary prevention. Patients need to be educated on the benefits of weight loss and the need to achieve a normal body weight.
 
 The _Physical Activity Guidelines for Americans_ recommend at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of vigorous-intensity physical activity per week; walking is a great way to accomplish this. Repetitive use due to a job, hobby, or sport and joint-related injuries have also been linked to OA. Therefore, avoidance of repetitive movements and education on joint protection techniques (eg, using good body mechanics) to reduce joint injury while working or playing sports are important. Finally, joint malalignment is one of the strongest predictors for progressive OA. Nonsurgical and surgical strategies may be considered to correct anatomical abnormalities.
 

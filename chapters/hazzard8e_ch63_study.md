@@ -9,7 +9,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **~30% of Parkinson disease (PD) patients develop dementia**; unlike AD, motor symptoms predate dementia by years (p981).
 - Early recurrent falls as a presenting symptom → suspect **PSP**, vascular dementia, or PD (p981).
 - Prominent early behavior/personality change without amnesia → suspect **FTD** (p982).
-- Vertical gaze abnormality + **preserved oculocephalic reflex** + falls/dysphagia = PSP hallmark (p981).
+- Vertical gaze abnormality + **preserved oculocephalic reflex** + falls/dysphagia → suggests PSP (p982).
 - Possible bvFTD needs **3 of 6** core symptoms (early disinhibition, apathy, loss of sympathy/empathy, repetitive motor behaviors, hyperorality, executive deficit) (p982).
 - Underlying pathology groups the syndromes: **alpha-synuclein** unites DLB, PDD, and MSA; **tau** predominates in PSP, CBD, and nfvPPA; **TDP-43** in svPPA; **amyloid β + tau** in AD and lvPPA (Table 63-5, p993).
 
@@ -23,17 +23,17 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **MMSE decline −4 to −5 pts/yr** vs **~3 pts/yr in AD** — faster course than AD (p984).
 - **Mean survival ~10y**, disability progressing **~10%/yr** (p983).
 - "1-year rule": cognitive symptoms must precede parkinsonism by **≥12 months** to call DLB vs PDD — arbitrary, often hard to apply (p984).
-- Robust cholinesterase-inhibitor response (often better than AD, especially hallucinations); marked neuroleptic sensitivity.
+- Robust cholinesterase-inhibitor response (often better than AD, especially hallucinations); often neuroleptic sensitivity.
 
 ### Parkinson Disease Dementia (PDD)
-- Distinguished from DLB by timing alone: dementia arises **years-to-decades after** established motor PD.
+- Distinguished from DLB primarily by timing: dementia arises **years-to-decades after** established motor PD.
 - **~1/3 of PD patients** eventually develop PDD (p985).
 - Predictors: older age at motor onset, bradykinesia/non-tremor phenotype, bilateral onset, declining levodopa response, depression, hallucinations (p985).
 - DLB declines faster than PDD (p985).
 
 ### Multiple System Atrophy (MSA)
 - **Death within 6–10y; 10-yr survival ~40%** (p985).
-- **Incidence ~0.6–4.9/100,000/yr**, rising to **6/100,000 after age 50**; **mean onset 54y**; **~3x more common in men** (p985).
+- **Incidence ~0.6/100,000 person-years** (or 1.86–4.9/100,000 population), rising to **6/100,000 person-years after age 50**; **mean onset 54y**; **~3x more common in men** (p985).
 - Subtypes: **MSA-P (parkinsonism) ~80%**, **MSA-C (cerebellar) ~20%**; orthostatic-predominant subtype → worse survival (p985).
 - Orthostatic dx criterion: **≥30 mmHg systolic BP drop** (practically, **≥20 systolic/≥10 diastolic** considered significant) (p986).
 - Suspect an alternative diagnosis if onset **<age 30** or family history present (p986).
@@ -49,8 +49,8 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
   - **nfvPPA**: apraxic/agrammatic speech, preserved single-word comprehension; left-dominant atrophy (inferior frontal/insula/caudate); **~20% TDP-43 (type A)** at autopsy, remainder tau (CBD > PSP > Pick) (p988).
   - **svPPA**: fluent but semantically empty speech, surface dyslexia; begins in amygdala/anterior temporal lobe; most behaviorally prominent PPA; usually **TDP-43 type C**, tau-negative (p988).
   - Logopenic PPA = usually an **AD** language presentation; may respond to cholinesterase inhibitors (p987).
-- **Pick disease**: pathologic dx, found in ~**20%** of clinical bvFTD-pattern cases; Pick bodies = 3R-tau; dentate gyrus involved (spared in AD) (p989).
-- Genetics: **MAPT** mutation → FTDP-17, **mean onset ~52y** (p990). **GRN** mutation → **~11% of sporadic / ~25% of familial** FTD; **~10% of carriers remain asymptomatic past age 70**; **>10% show autoimmunity** (p990). **C9orf72** hexanucleotide expansion = most common familial FTD/ALS/FTD-ALS cause (p990).
+- **Pick disease**: pathologic dx, found in ~**20%** of clinical bvFTD-pattern cases; Pick disease usually 3R-tau; dentate gyrus heavily involved (can be spared in AD) (p989–990).
+- Genetics: **MAPT** mutation → FTDP-17, **mean onset ~52y** (p990). **GRN** mutation → **~11% of sporadic / ~25% of familial** FTD; **~10% of carriers remain asymptomatic past age 70**; **>10% show autoimmunity** (p990). **C9orf72** hexanucleotide expansion = the major cause of familial FTD/ALS/FTD-ALS (p990).
 - Treatment: symptomatic only — SSRIs for behavioral symptoms/cravings/compulsions; atypical neuroleptics only if delusions are problematic; **no role for cholinesterase inhibitors** (may worsen agitation) (p991).
 
 ### Amyotrophic Lateral Sclerosis (ALS)
@@ -62,12 +62,12 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 
 ### Corticobasal Degeneration (CBD)
 - **Mean onset mid-60s**; asymmetric parkinsonism + apraxia + cortical sensory loss ± alien limb (p991).
-- Tauopathy sharing a pathology spectrum with FTD/PSP; ballooned neurons are widespread (unlike focal Pick bodies) (p992).
+- Tauopathy sharing a pathology spectrum with FTD/PSP; unlike Pick disease, ballooned neurons are extensive (primary sensory and motor regions); Pick bodies absent (p992).
 - Symptomatic treatment only; levodopa helps a minority; **no role for cholinesterase inhibitors** (p992).
 
 ### Progressive Supranuclear Palsy (PSP)
 - **Prevalence 1/100,000 overall**, rising to **7/100,000 after age 55** (p992).
-- **Falls as the first symptom in 60%**; downward vertical gaze palsy is more specific than upward (mild upward limitation is normal with aging), with **preserved oculocephalic reflex** (p992).
+- **Falls as the first symptom in 60%**; downward vertical gaze palsy is more specific than upward (mild vertical gaze limitation is normal with aging), with **preserved oculocephalic reflex** (p992).
 - **Dysphagia in 46% within the first 5 years**; **bradykinesia in only ~25%** of autopsy-confirmed cases (p992).
 - **Survival 6–10y** from diagnosis; levodopa helps some patients but efficacy wanes (p992).
 
@@ -78,7 +78,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - New cortical (lobar) hemorrhage → think **cerebral amyloid angiopathy (CAA)**, not hypertension (hypertensive hemorrhages are typically deep) (p994).
 - Metastatic tumors (lung, breast, kidney, colon/rectum, melanoma) are a more common cause of new seizures in older adults than primary brain tumors (p994).
 - **Epilepsy prevalence in AD: 10–22%**; typically complex partial (mesial temporal) seizures — déjà vu, olfactory aura, speech arrest; can occur even with mild or pre-dementia cognitive symptoms (p994).
-- Preferred AEDs in older adults (fewer interactions/cognitive effects): **lamotrigine, levetiracetam, lacosamide, oxcarbazepine** (p994).
+- Suitable AEDs in older adults (book: "include but are not limited to"; chosen for fewer side effects/interactions): **lamotrigine, levetiracetam, lacosamide, oxcarbazepine** (p994).
 
 ### Traumatic Brain Injury (TBI)
 - Penetrating TBI → highest morbidity/mortality; **post-traumatic epilepsy risk >50%** (p994).
@@ -90,7 +90,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 ### Key drugs mentioned (no specific mg doses are given in this chapter)
 - **Cholinesterase inhibitors** — first-line for DLB (often better response than AD, esp. hallucinations); **no role** in bvFTD/CBD, may worsen agitation (p984, p991–992).
 - **Levodopa** — helps parkinsonism in DLB (only after hallucinations/fluctuation are controlled), ~1/3 of MSA patients, and some PSP/CBD patients, but efficacy is limited/wanes (p984, p986, p992).
-- **Atypical neuroleptics** — bvFTD delusions only if severe; use with caution/avoid in DLB (neuroleptic sensitivity) (p984, p991).
+- **Atypical neuroleptics** — bvFTD delusions if problematic; use with caution/avoid in DLB (neuroleptic sensitivity) (p984, p991).
 - **SSRIs** — bvFTD behavioral symptoms (cravings, compulsions) (p991).
 - **Melatonin / low-dose clonazepam** — RBD in DLB/MSA (p984, p986).
 - **Riluzole** (FDA-approved) — ALS: extends survival, delays need for ventilation (p991).
@@ -171,7 +171,7 @@ About 20% show TDP-43 (usually type A); the majority show tau pathology (CBD mos
 
 </details>
 
-**10. What gene mutation, discovered in 2011, is the most common cause of familial FTD-ALS?**
+**10. What gene mutation, discovered in 2011, is the major cause of familial FTD, ALS, and FTD-ALS?**
 
 <details><summary>Answer</summary>
 
@@ -199,7 +199,7 @@ Riluzole (p991).
 
 <details><summary>Answer</summary>
 
-Downward gaze palsy is more specific, because mild upward gaze limitation is a normal finding with aging (p992).
+Downward gaze palsy is more specific, because mild vertical gaze limitation is normal with aging (p992).
 
 </details>
 
