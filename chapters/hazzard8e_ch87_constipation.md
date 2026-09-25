@@ -761,13 +761,33 @@ _Senna_ is a cheap and safe agent for use in older patients. A trial of cascara 
 
 **Table 87-10 — Newer medications for treatment of constipation**
 
-| Generic name (trade name) | Mechanism of action | Metabolism, bioavailabilty | Pharmacodynamic effects | Clinical trails | Common side effects | Cardiovascular safety<sup>a</sup> |
-|---|---|---|---|---|---|---|
-| ***Secretagogues*** | | | | | | |
-| Lubioprostone (Amitiza)<sup>b</sup> | Stimulate instestinal chloride and fluid secretion by activating chloride channels | Intestinal degradation, minimal oral bioavailability | Accelerated small bowel and colonic transit in health | Phases 2 and 3 in CC, IBS-C | Diarrhea, nausea | No arrhythmic effects |
-| Linaclotide (Linzess)<sup>b</sup> | Stimulate instestinal chloride and fluid secretion by activating CFTR | Intestinal degradation, minimal oral bioavailability | Dose-related acceleration of colonic transit in IBS-C | Phases 2 and 3 in CC, IBS-C | Diarrhea | No arrhythmic effects |
-| ***Serotonin 5-HT4 receptor agonists*** | | | | | | |
-| Prucalopride<sup>c</sup> (Resolor) | High selectivity and affinity for 5-HT4 receptors; much weaker affinity for human D4 and s1 and mouse 5-HT3 receptors | Limited hepatic, not CYP3A4 | Accelerated colonic transit in health and CC | Phases 2 and 3 in CC | Diarrhea, headache | No arrhythmic activity in atrial cells; inhibits hERG at very high μmol/L concentration; no clinically relevant adverse cardiac effects in large trials (> 4000 subjects) |
+***Secretagogues***
+
+- **Lubioprostone (Amitiza)<sup>b</sup>**
+  - *Mechanism of action:* Stimulate instestinal chloride and fluid secretion by activating chloride channels
+  - *Metabolism, bioavailabilty:* Intestinal degradation, minimal oral bioavailability
+  - *Pharmacodynamic effects:* Accelerated small bowel and colonic transit in health
+  - *Clinical trails:* Phases 2 and 3 in CC, IBS-C
+  - *Common side effects:* Diarrhea, nausea
+  - *Cardiovascular safety<sup>a</sup>:* No arrhythmic effects
+- **Linaclotide (Linzess)<sup>b</sup>**
+  - *Mechanism of action:* Stimulate instestinal chloride and fluid secretion by activating CFTR
+  - *Metabolism, bioavailabilty:* Intestinal degradation, minimal oral bioavailability
+  - *Pharmacodynamic effects:* Dose-related acceleration of colonic transit in IBS-C
+  - *Clinical trails:* Phases 2 and 3 in CC, IBS-C
+  - *Common side effects:* Diarrhea
+  - *Cardiovascular safety<sup>a</sup>:* No arrhythmic effects
+
+***Serotonin 5-HT4 receptor agonists***
+
+- **Prucalopride<sup>c</sup> (Resolor)**
+  - *Mechanism of action:* High selectivity and affinity for 5-HT4 receptors; much weaker affinity for human D4 and s1 and mouse 5-HT3 receptors
+  - *Metabolism, bioavailabilty:* Limited hepatic, not CYP3A4
+  - *Pharmacodynamic effects:* Accelerated colonic transit in health and CC
+  - *Clinical trails:* Phases 2 and 3 in CC
+  - *Common side effects:* Diarrhea, headache
+  - *Cardiovascular safety<sup>a</sup>:* No arrhythmic activity in atrial cells; inhibits hERG at very high μmol/L concentration; no clinically relevant adverse cardiac effects in large trials (> 4000 subjects)
+
 
 Note: Only agents that have been tested in phase 3 clinical trials are included. CC, chronic constipation.
 <sup>a</sup>In addition to the listed effects, none of the agents shown in this table affect QTc in healthy subjects.
