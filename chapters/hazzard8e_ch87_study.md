@@ -56,7 +56,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - **Glycerin suppository** — first-line for rectal outlet delay; **bisacodyl suppository** second-line; onset **5-45 min** (p1377).
 - **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide 3 or 6 mg** — secretagogues; effective but costly, with limited older-adult trial data (p1377).
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), not associated with major adverse cardiovascular events (p1377).
-- **PAMORAs for opioid-induced constipation** — naldemedine (**52% vs 35%** achieving >3 CSBM/wk vs placebo) and naloxegol (**42% vs 29%**) (p1378).
+- **PAMORAs for opioid-induced constipation** — naldemedine (**52% vs 35%** achieving >3 CSBM vs placebo) and naloxegol (**42% vs 29%** achieving ≥3 CSBM/wk) (p1378).
 - Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); sorbitol/lactulose are nonabsorbable disaccharides metabolized by colonic bacteria to short-chain fatty acids; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
 
 *No exam-trap or book self-contradiction note is flagged in this source chapter.*

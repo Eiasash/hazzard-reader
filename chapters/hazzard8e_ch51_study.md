@@ -61,7 +61,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 
 **Complications**
 - **ONJ**: very rare at osteoporosis dosing, **0.001%–0.01%** (p776); in postmenopausal women on oral bisphosphonates specifically, **0.02%–0.06%** — a dental check should *not* delay treatment (p777).
-- **AFF**: **3.2–50 per 100,000** person-years on bisphosphonates; **>100 per 100,000** with long-term use; investigate groin/thigh pain with x-ray (fracture often precedes pain) (p777).
+- **AFF**: **3.2–50 per 100,000** person-years on bisphosphonates; **>100 per 100,000** with long-term use (p777); investigate groin/thigh pain with x-ray (fracture often precedes pain) (p776).
 
 **Nursing home / long-term care**
 - All residents: vitamin D **≥800 IU/day** + calcium **1200 mg/day**; check 25(OH)D first (p778).
@@ -178,7 +178,7 @@ Teriparatide and abaloparatide: maximum 2 years. Romosozumab: maximum 12 months.
 
 <details><summary>Answer</summary>
 
-3.2 to 50 cases per 100,000 person-years (higher, >100 per 100,000, with long-term use); new groin or thigh pain should prompt an x-ray, since fracture often precedes pain (p777).
+3.2 to 50 cases per 100,000 person-years (higher, >100 per 100,000, with long-term use); new groin or thigh pain should prompt an x-ray, since fracture often precedes pain (p776–777).
 
 </details>
 

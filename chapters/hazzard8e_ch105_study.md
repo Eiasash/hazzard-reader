@@ -14,11 +14,11 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - *Streptococcus pneumoniae* remains the single most common agent, **20%-65%** of cases (p1681).
 - Viruses implicated in **12%-18%** of cases; influenza, RSV, and human metapneumovirus together account for **8%-14%** (p1681).
 - HAP = onset **>48 h** after admission or within **10-14 days** after a hospital discharge (p1681).
-- HAP pathogen-specific risk factors (Table 105-1, p1681): **MDR pathogens** — prior antibiotics, hospitalization **>5 days** in the prior 90 d, high hospital resistance rate, nursing-home residence, home IV therapy, chronic dialysis, active wound care, contact with an MDR-infected patient, or immunosuppressive disease/therapy; ***Pseudomonas*/MDR bacilli** — recent ICU admission, chronic corticosteroids, structural lung disease, or late-onset nosocomial pneumonia; ***Legionella*** — chronic corticosteroids, hematologic cancer, or contaminated-water contact; ***S aureus*** — recent ICU admission, prior influenza, colonization/prevalence of methicillin-resistant strains, TBI, coma, diabetes, or renal failure; **anaerobes** — poor oral hygiene, decreased consciousness, airway manipulation, or recent abdominal surgery.
+- HAP pathogen-specific risk factors (Table 105-1, p1681): **MDR pathogens** — prior antibiotics, hospitalization **>5 days** in the prior 90 d, high hospital resistance rate, nursing-home residence, home IV therapy, chronic dialysis, active wound care, contact with an MDR-infected patient, or immunosuppressive disease/therapy; ***Pseudomonas*/MDR bacilli** — recent ICU admission, prior antibiotics, chronic corticosteroids, structural lung disease, or late-onset nosocomial pneumonia; ***Legionella*** — chronic corticosteroids, hematologic cancer, contaminated-water contact, or prior nosocomial *Legionella* cases; ***S aureus*** — recent ICU admission, prior influenza, colonization/prevalence of methicillin-resistant strains, TBI, coma, diabetes, or renal failure; **anaerobes** — poor oral hygiene, decreased consciousness, airway manipulation, or recent abdominal surgery.
 - Shorr MDRO risk score: recent hospitalization **4 pts**, admission from long-term care **3 pts**, hemodialysis **2 pts**, critical illness **1 pt**; a score of **0** carries **84%** negative predictive value for MDRO (p1682).
 - One study: clinical signs of severe pneumonia plus two risk factors (immunosuppression, hospitalization in the prior 90 d, Barthel <50, antibiotics in the prior 6 mo) were associated with higher MDRO frequency (**2% vs 27%**). Ewig / Brito-Niederman approach: ≥2 multidrug-resistance factors (severe pneumonia, hospitalization in the prior 90 d, nursing-home residence, severe basal dependence, immunosuppression, antibiotics in the prior 6 mo) → empiric MDRO coverage warranted (p1682).
 - ESBL-producing *Klebsiella* found in **20%** of US and **35%** of European pneumonia isolates (p1683).
-- *Pseudomonas* is uncommon in older adults overall (**1%-2%**), but should be suspected with severe COPD (FEV1 <35%), heavy prior antibiotic exposure, ICU admission, or bronchiectasis (p1683).
+- *Pseudomonas* is uncommon in older adults overall (**1%-2%**), but should be suspected with severe COPD (FEV1 <35%), multiple prior antibiotic courses, ICU admission and/or bronchiectasis, or prior colonization (p1683).
 - Risk factors for less-common pathogens (Table 105-2, p1682): **ESBL-producing Enterobacteriaceae** — prior antibiotics, hemodialysis, long-term indwelling urinary catheter, long-stay-center residence, recent hospitalization, diabetes, or recurrent UTIs; **aspiration-prone Enterobacteriaceae/anaerobes** — functional impairment, dysphagia, GERD, history of vomiting, cerebrovascular disease, dementia, periodontal disease, or poor oral hygiene; **MRSA** — wound/bedsore care, serious illness plus recent hospitalization plus prior IV antibiotics plus institutionalization, previous colonization, or superinfection during an influenza epidemic.
 - Exposure-specific pathogens (Table 105-3, p1683): bird/fowl/farm-animal contact → *Chlamydophila psittaci*; rabbit contact → *Coxiella burnetii*; bat contact or residence in an endemic area → *Histoplasma capsulatum*; air-conditioning/cooling-tower exposure → *Legionella pneumophila*; travel to Southeast Asia → *Burkholderia pseudomallei*, avian influenza; alcohol intoxication → *S pneumoniae*, *K pneumoniae*, anaerobes, *S aureus*; prison inmates → *S pneumoniae*, *M tuberculosis*; advanced HIV → *S pneumoniae*, *H influenzae*, *P jiroveci*, *M tuberculosis*.
 - Shorr MRSA prediction score: low risk if total score **≤1** (p1683).
@@ -43,14 +43,14 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - PCV13 should be given first, with PPSV given at least **8 weeks** later, per ACIP (p1690).
 
 ### Tuberculosis — Epidemiology & Pathophysiology
-- **~1.7 billion** people (about **25%** of the world's population) are estimated to be infected with *M tuberculosis*; high-burden regions run **≥100/100,000**, while the US, Western Europe, Canada, Japan, and Australia run **<25/100,000** (p1691).
+- **>1.7 billion** people (about **25%** of the world's population) are estimated to be infected with *M tuberculosis*; high-burden regions run **≥100/100,000**, while the US, Western Europe, Canada, Japan, and Australia run **<25/100,000** (p1691).
 - TB incidence is bimodal: one peak at **15-35 years**, a second after **65 years** (p1691).
 - Healthy people infected with TB carry a **5%-10%** lifetime risk of active disease; **50%-80%** of those who progress do so within the first **2 years** (p1692).
 - HIV coinfection without antiretroviral treatment carries a **10%** annual risk of active disease (p1692).
 
 ### Tuberculosis — Diagnosis & Treatment
 - Two-step tuberculin test for initial geriatric screening (older adults have increased cutaneous anergy): a negative first test (induration **<10 mm**) is followed by a repeat test at **2 weeks**; positive = **≥10 mm** and an increase of **≥6 mm** over the first test (p1693).
-- Isoniazid causes hepatotoxicity in **4%-5%** of patients >65 y, versus **<1%** in those <65 y (p1694).
+- Isoniazid causes hepatotoxicity in up to **4%-5%** of patients >65 y, versus **<1%** in those <65 y (p1694).
 - Chemoprophylaxis is generally reserved for a Mantoux induration increase **≥15 mm** over a prior negative test (p1694).
 - Standard latent-TB regimen: isoniazid **9 months**; alternative rifampin **4 months**; isoniazid + rifapentine **12 weeks** also effective (p1694).
 - Standard active-TB regimen: 4-drug intensive phase **2 months**, then 2-drug continuation phase **≥4 months** (total **6 months**); extend the continuation phase to **7 months** (9 months total) for cavitary disease plus a positive culture at month 2, or if the intensive phase omitted pyrazinamide (p1694).
@@ -155,7 +155,7 @@ Because of their tuberculostatic activity and the possibility of delaying the di
 
 <details><summary>Answer</summary>
 
-About 25% (~1.7 billion people); incidence peaks at 15-35 years and again after 65 years (p1691).
+About 25% (>1.7 billion people); incidence peaks at 15-35 years and again after 65 years (p1691).
 
 </details>
 
@@ -171,7 +171,7 @@ Older adults have increased cutaneous anergy; if the first TST is negative (indu
 
 <details><summary>Answer</summary>
 
-4%-5% in patients >65 years, versus <1% in those <65 years (p1694).
+Up to 4%-5% in patients >65 years, versus <1% in those <65 years (p1694).
 
 </details>
 

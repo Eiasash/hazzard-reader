@@ -14,7 +14,7 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - Diagnostic algorithm by symptom count (Fig 65-2, p1011): 1–4 symptoms + functional impairment → "other" (reassurance); 2–4 symptoms + Q1/Q2 + impairment → minor depression (watchful waiting); 3–4 symptoms + Q2 (mood) present **2 years** + impairment → chronic depression (probably dysthymia); **5** symptoms + Q1/Q2 + impairment → major depression, graded moderate at PHQ-9 **15–19** and severe at PHQ-9 **20** (as printed in the table).
 - Item 9 asks about death wishes or more intensive suicidal ideation — clearly an important part of the assessment (p1012).
 - Two core distinguishing features of geriatric depression: **anhedonia** and **hopelessness** — they may be important clues when deficits in basic needs (Maslow's hierarchy, Fig 65-1) are more apparent than depressed mood (p1008).
-- **Social isolation** (objective — network size, contact frequency) vs **loneliness** (subjective — perceived inadequacy of connection) are distinct but overlapping constructs, both tied to depression risk (p1009).
+- **Social isolation** (objective — network size, contact frequency) vs **loneliness** (subjective — perceived inadequacy of connection) are distinct but closely related constructs; loneliness is fundamentally related to depression, whereas some isolation (living alone, selectivity) may reflect capability and preference and need not signify a problem (p1009).
 
 **Suicide risk assessment**
 - Suicide/safety checklist (Fig 65-3) is triggered by **PHQ Q9 ≥1**, **MADRS Q10 ≥3**, or **QIDS-SR Q12 ≥1** (p1013).

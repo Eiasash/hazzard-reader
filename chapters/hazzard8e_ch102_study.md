@@ -33,7 +33,7 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 ### Evaluation
 - Passive hip ROM benchmarks: **40°** abduction before the pelvis tilts, **> 100°** flexion, **50°–60°** external rotation, **20°** internal rotation (p1634).
 - L4/L5 tested via hip abduction (gluteus medius), foot dorsiflexion (tibialis anterior), and great toe extension (extensor hallucis longus); L5/S1 tested via hip extension and foot eversion (p1634–1635; Figures 102-1 to 102-3).
-- Imaging red flags (Table 102-7, American College of Radiology, p1636): age **> 70**, significant trauma (or milder trauma if age **> 50**), unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration **> 6 weeks**, IV drug use.
+- Imaging red flags (Table 102-7, American College of Radiology, p1636): age **> 70**, recent significant trauma (or milder trauma if age **> 50**), unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration **> 6 weeks**, IV drug use.
 - Imaging is a poor discriminator alone: in asymptomatic patients without back pain, only **36%** of lumbar MRIs read as normal — **52%** showed a disc bulge, **27%** a disc protrusion; in a separate asymptomatic cohort **> 60** years old, **36%** had a herniated nucleus pulposus, **21%** spinal stenosis, **93%** degenerative disc disease (p1636).
 - Classic epidemiology: Kellgren & Lawrence found disc degeneration in **89%** of men and **57%** of women aged 55–64 (p1636).
 
@@ -133,7 +133,7 @@ Flowing calcification/ossification along the anterolateral aspect of at least 4 
 
 <details><summary>Answer</summary>
 
-Age > 70, significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).
+Age > 70, recent significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).
 
 </details>
 

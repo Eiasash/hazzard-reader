@@ -41,7 +41,7 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - Table 68-7 singles out indomethacin and ketorolac as Beers 2019 "avoid" outright (high risk of GI toxicity and acute kidney injury) — a stronger caution than the general "avoid long-term use" that applies to ibuprofen, naproxen, meloxicam, diclofenac, and nabumetone (Table 68-7, p1063)
 - SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags both SNRIs and TCAs (amitriptyline, nortriptyline) as "avoid" with a history of falls/fractures, and TCAs additionally for anticholinergic burden (Table 68-8, p1063)
 - Gabapentinoids/sodium channel blockers (carbamazepine, oxcarbazepine) for neuropathic pain; genotype screening may be indicated for **HLA-B\*1502** and **HLA-A\*3101** (most common in South Asian ancestry) — carriers are at risk of severe skin reactions such as Stevens–Johnson syndrome; carbamazepine is a potent CYP450 inducer (interacts with warfarin, lithium) (p1065)
-- Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use (combined CNS depression); carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
+- Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use; carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
 - Benzodiazepines (eg clonazepam) for neuropathic pain: daily use **>30 days** risks physiologic dependence — taper, don't stop abruptly; tracked as lorazepam milligram equivalents (LMEs) in PDMPs (p1065)
 
 **Interventional & nonpharmacologic treatment**
@@ -58,7 +58,7 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 
 <details><summary>Answer</summary>
 
-More than 3 months defines chronic/persistent pain; acute pain resolves within about 3 months (p1055).
+More than 3 months defines chronic/persistent pain; acute pain is tied to a short duration of tissue healing (approximately ≤3 months) (p1055).
 
 </details>
 

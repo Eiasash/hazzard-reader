@@ -29,7 +29,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
 - Table 75-5 severe cutoffs: jet-width/LVOT ratio **≥ 65%**, vena contracta **≥ 0.6 cm**, regurgitant volume **≥ 60 mL/beat**, EROA **≥ 30 mm²** (p1154).
 - Table 75-6 tiers — **indications** (actual replacement criteria): symptomatic + severe AI regardless of LV function, OR asymptomatic + severe AI + EF **< 50%**, OR severe AI undergoing other cardiac surgery; **considerations**: asymptomatic, normal LV function, dilated ventricle with LVESD **> 50 mm**, or moderate AI undergoing other cardiac surgery; **possible indication**: asymptomatic, normal function, LVESD **> 65 mm** if surgical risk is low (p1155).
-- LV-dysfunction operative mortality **at least 10%**, with lower postsurgical survival (p1155).
+- Severe LV dysfunction: operative mortality **at least 10%**, with lower postsurgical survival (p1155).
 
 **Mitral stenosis (MS)**
 - Overwhelming majority rheumatic in etiology; normal MVA **4.0–5.0 cm²**, shrinks **0.09–0.32 cm²/yr**; symptoms usually appear once area falls to **2.5–1.5 cm²** (p1156).
@@ -44,7 +44,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 
 **Mitral regurgitation (MR)**
 - **~2%** of the population; mitral valve prolapse (**1–2.5%** of population) is the most common cause (p1158).
-- Flail leaflet, severe chronic MR: **7%**/yr mortality (p1158).
+- Severe chronic MR (especially with a flail leaflet): **7%**/yr mortality (p1158).
 - 10-yr survival by EF: **32%** if EF < 50%, **53%** if borderline EF 50–60%, **70%** if EF > 60% — all untreated (p1158).
 - Table 75-10 severe cutoffs: vena contracta **≥ 0.7 cm**, regurgitant volume **≥ 60 mL/beat**, RF **≥ 50%**; EROA row prints "**≥ 40**" cm² — almost certainly a misprint for ≥0.40 (see exam-trap note) (p1158).
 - Repair durability: reoperation rate **~7–10%** at 10 yr, said to equal replacement's own reoperation rate (p1159).
@@ -57,7 +57,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only** if no risk factors — with risk factors, bioprosthetic mitral rises to **INR 2.5–3.5** (bioprosthetic aortic stays **2–3**, no stated 3-mo limit); aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
 - Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
 - Bleeding more likely with INR **> 5**; INR **5–10**: hold warfarin + oral vitamin K **1–2.5 mg**, check INR daily until < 5 (p1161).
-- Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; bridge with heparin once INR **< 2** if high-risk (p1162).
+- Elective mechanical AV surgery: hold warfarin **48–72 h** preop, restart within **24 h** postop, no bridging needed if no risk factors; mechanical mitral or aortic valves with high-risk factors are bridged with heparin once INR **< 2** (p1162).
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
