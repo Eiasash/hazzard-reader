@@ -185,7 +185,7 @@ Stepwise, over about 3 days — sudden levodopa withdrawal risks a neuroleptic-m
 
 These are the actual 2026 specialist-exam questions and answer keys sourced to Chapter 61, reproduced verbatim as printed in the chapter's own "2026 exam" section.
 
-**Q15** — sourced to [p. 939](#p939). Which combination of symptoms is expected to respond best to levodopa in a patient with Parkinson disease?
+**Q15** — sourced to [p. 939](?chapter=61#p939). Which combination of symptoms is expected to respond best to levodopa in a patient with Parkinson disease?
 
 - א. Tremor and dysphagia
 - ב. Tremor and autonomic dysfunction
@@ -194,7 +194,7 @@ These are the actual 2026 specialist-exam questions and answer keys sourced to C
 
 > Book: p939: the features that tend to improve the most with levodopa or dopamine agonists include bradykinesia and rigidity in the arms and legs; axial features including hypophonia and dysphagia are often medication refractory.
 
-**Q31** — sourced to [p. 939–940](#p939). Which clinical pattern supports Parkinson disease and not parkinsonism?
+**Q31** — sourced to [p. 939–940](?chapter=61#p939). Which clinical pattern supports Parkinson disease and not parkinsonism?
 
 - א. Dystonia developing on low-dose levodopa
 - ב. Freezing of gait and orthostatic hypotension as initial symptoms
@@ -203,7 +203,7 @@ These are the actual 2026 specialist-exam questions and answer keys sourced to C
 
 > Book: Table 61-4 (p941): PD inclusion criteria include rest tremor and asymmetric onset (++) (ד); DLB inclusion includes dementia within 1 y of the onset of motor features (ג); PD exclusion includes freezing of gait developing within 3 y of motor onset (–) (the freezing half of ב). Table 61-3 (p940): dystonia induced with low-dose levodopa → MSA (א); pronounced postural hypotension → MSA (the other half of ב). p939: PD often begins asymmetrically.
 
-**Q60** — sourced to [p. 941](#p941). A 68-year-old man with parkinsonism presents with severe orthostatic hypotension, urinary incontinence, erectile dysfunction and cerebellar ataxia; cognition is preserved. Which finding most supports multiple system atrophy over Parkinson disease?
+**Q60** — sourced to [p. 941](?chapter=61#p941). A 68-year-old man with parkinsonism presents with severe orthostatic hypotension, urinary incontinence, erectile dysfunction and cerebellar ataxia; cognition is preserved. Which finding most supports multiple system atrophy over Parkinson disease?
 
 - א. Presence of tremor
 - ב. Severe, early autonomic dysfunction  ← **key**
@@ -212,7 +212,7 @@ These are the actual 2026 specialist-exam questions and answer keys sourced to C
 
 > Book: Table 61-4 (p941): MSA inclusion, prominent dysautonomia (+++); PD exclusion, severe dysautonomia unrelated to medications; hallucinations are an MSA exclusion (disposes of ד). p943: features of MSA that differ from PD include severe autonomic symptoms (orthostatic light-headedness, blood pressure fluctuations, urinary dysfunction).
 
-**Q75** — sourced to [p. 946](#p946). An 80-year-old man with Parkinson disease on a dopamine agonist develops prominent visual hallucinations and confusion. Initial work-up excluded infection, a metabolic disturbance and an acute finding on brain CT. What is the most appropriate strategy?
+**Q75** — sourced to [p. 946](?chapter=61#p946). An 80-year-old man with Parkinson disease on a dopamine agonist develops prominent visual hallucinations and confusion. Initial work-up excluded infection, a metabolic disturbance and an acute finding on brain CT. What is the most appropriate strategy?
 
 - א. Start haloperidol
 - ב. Start entacapone
@@ -221,7 +221,7 @@ These are the actual 2026 specialist-exam questions and answer keys sourced to C
 
 > Book: p946: consider reducing the total dose of dopaminergic medication to whatever degree is tolerable; if drugs are withdrawn, do it stepwise over 3 days, because sudden levodopa withdrawal can cause a neuroleptic malignant-like syndrome. p947: other antipsychotics, typical or atypical, "are more likely to worsen the parkinsonism; therefore, they should be avoided" (disposes of א).
 
-**Q83** — sourced to [p. 945](#p945). A 69-year-old woman with Parkinson disease on immediate-release carbidopa/levodopa every 4 hours reports worsening bradykinesia and rigidity about 30–45 minutes before each dose; a clear "off" state is seen on examination. Which strategy is recommended?
+**Q83** — sourced to [p. 945](?chapter=61#p945). A 69-year-old woman with Parkinson disease on immediate-release carbidopa/levodopa every 4 hours reports worsening bradykinesia and rigidity about 30–45 minutes before each dose; a clear "off" state is seen on examination. Which strategy is recommended?
 
 - א. Increase the frequency of levodopa dosing or add a COMT inhibitor  ← **key**
 - ב. Stop carbidopa/levodopa and switch to dopamine-agonist monotherapy

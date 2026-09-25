@@ -218,7 +218,7 @@ Between 8% and 9% (p1585).
 
 These are the actual 2026 specialist-exam questions and keys sourced to this chapter, reproduced verbatim (English rendering; Hebrew original is the authority) as printed in the chapter's own "2026 exam" section.
 
-**Q6** — sourced to [p. 1574](#p1574). A 72-year-old man diagnosed with type 2 diabetes comes to the clinic for lifestyle counselling. The patient is interested in starting a physical-activity program as recommended by the American Diabetes Association (ADA). Which of the following guidelines is recommended for him?
+**Q6** — sourced to [p. 1574](?chapter=99#p1574). A 72-year-old man diagnosed with type 2 diabetes comes to the clinic for lifestyle counselling. The patient is interested in starting a physical-activity program as recommended by the American Diabetes Association (ADA). Which of the following guidelines is recommended for him?
 
 - א. High-intensity aerobic physical activity for at least 75 minutes a week, with no limit on consecutive rest days
 - ב. High-intensity aerobic physical activity for at least 75 minutes a week, spread over at least 3 days, with at most two days without activity
@@ -227,7 +227,7 @@ These are the actual 2026 specialist-exam questions and keys sourced to this cha
 
 > Book: p1574: "The ADA recommends that all adults with diabetes should perform at least 150 min/week of moderate-intensity aerobic PA, spread over at least 3 days/week with no more than 2 consecutive days without exercise."
 
-**Q25** — sourced to [p. 1568 and 1571](#p1568). A 71-year-old woman, independent in function and mobile, followed at a diabetes clinic for 4 years, comes to the clinic for a visit. HBA1C = 7.4%; no known hypoglycemic events. She receives: Insulin Toujeo 16 units X 1; T.Jardiance 10 mg x 1; T.Glucomin 850 mg x 1. What is important to recommend at the clinic visit?
+**Q25** — sourced to [p. 1568 and 1571](?chapter=99#p1568). A 71-year-old woman, independent in function and mobile, followed at a diabetes clinic for 4 years, comes to the clinic for a visit. HBA1C = 7.4%; no known hypoglycemic events. She receives: Insulin Toujeo 16 units X 1; T.Jardiance 10 mg x 1; T.Glucomin 850 mg x 1. What is important to recommend at the clinic visit?
 
 - א. Complete a periodic cognitive assessment every two to three years  ← **key**
 - ב. Start short-acting insulin around meals
@@ -236,7 +236,7 @@ These are the actual 2026 specialist-exam questions and keys sourced to this cha
 
 > Book: p1568: "both the ADA and Endocrine Society Guidelines recommend that older patients with diabetes should have periodic screening for cognitive impairment: at the time of diagnosis, then annually for those with borderline results initially or every 2 to 3 years when initial screening is normal." Table 99-6 (p1571): Group 1 (good health), on a drug that may cause hypoglycemia (insulin): ≥7.0 and <7.5% — 7.4% is inside that range.
 
-**Q37** — sourced to [p. 1571](#p1571). An 85-year-old woman with type 2 diabetes for 15 years lives in a nursing-care facility. Background: coronary heart disease, heart failure, stage 3 chronic kidney disease, and moderate dementia. She needs help with activities of daily living. Current HbA1c 8.1% on JARDIANCE. What is the appropriate treatment for her?
+**Q37** — sourced to [p. 1571](?chapter=99#p1571). An 85-year-old woman with type 2 diabetes for 15 years lives in a nursing-care facility. Background: coronary heart disease, heart failure, stage 3 chronic kidney disease, and moderate dementia. She needs help with activities of daily living. Current HbA1c 8.1% on JARDIANCE. What is the appropriate treatment for her?
 
 - א. Continue the current treatment  ← **key**
 - ב. Add long-acting insulin
@@ -245,7 +245,7 @@ These are the actual 2026 specialist-exam questions and keys sourced to this cha
 
 > Book: Table 99-6 (p1571): Group 3 (poor health) is "Any one of the following" (the book sets "one" in bold): end-stage medical condition(s), moderate to severe dementia, ≥2 ADL impairments, residence in a long-term nursing facility. She meets three of these separately: nursing-facility residence, moderate dementia, and dependence in daily activities. The table's drug rows name the drugs that may cause hypoglycemia as insulin, sulfonylurea and glinides; empagliflozin (JARDIANCE) is none of these, and Table 99-11 (p1578) lists SGLT-2 inhibitors with "Minimal hypoglycemia". So she is in the "No" row, where the Group 3 target is <8.5% — 8.1% is inside it.
 
-**Q49** — sourced to [p. 1563](#p1563). Which metabolic change is related to aging in people without diabetes?
+**Q49** — sourced to [p. 1563](?chapter=99#p1563). Which metabolic change is related to aging in people without diabetes?
 
 - א. A fall in fasting glucose levels
 - ב. A fall in blood insulin levels
@@ -254,7 +254,7 @@ These are the actual 2026 specialist-exam questions and keys sourced to this cha
 
 > Book: p1563: "In normal people who do not meet criteria for either diabetes mellitus or IGT, there is a slight age-related increase in FPGs and a more dramatic slowing of return to normal of glucose levels following an oral glucose challenge." (This also rules out option 1: fasting glucose rises slightly.) Same page, next section: "There is a decline in sensitivity to the metabolic effects of insulin with age." (rules out option 3). Option 2, blood insulin level, is not addressed on p1563.
 
-**Q59** — sourced to [p. 1577](#p1577). A 76-year-old woman, independent and active, with type 2 diabetes for 15 years, hypertension and ischemic heart disease. Laboratory tests: eGFR = 18 mL/min/1.73m²; Albumin/Creatinine = 450 mg/gr; HbA1C = 7%; Glucose = 110 mg/dL. She is treated with Metformin at a dose of 2000 mg a day and a DPP-4 inhibitor. What is the recommendation regarding drug treatment for diabetes in this case?
+**Q59** — sourced to [p. 1577](?chapter=99#p1577). A 76-year-old woman, independent and active, with type 2 diabetes for 15 years, hypertension and ischemic heart disease. Laboratory tests: eGFR = 18 mL/min/1.73m²; Albumin/Creatinine = 450 mg/gr; HbA1C = 7%; Glucose = 110 mg/dL. She is treated with Metformin at a dose of 2000 mg a day and a DPP-4 inhibitor. What is the recommendation regarding drug treatment for diabetes in this case?
 
 - א. Stop the Metformin because of the eGFR values  ← **key**
 - ב. Add an SGLT-2 inhibitor as first line for treating her diabetic nephropathy

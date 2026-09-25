@@ -90,7 +90,7 @@ Sensitivity 94–100%, specificity 90–95% (p880).
 
 <details><summary>Answer</summary>
 
-70–85% (p880).
+Up to 70–85% (p880).
 
 </details>
 

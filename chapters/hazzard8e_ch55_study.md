@@ -24,7 +24,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 - Strength: **60% to 80%** of max lifting ability; older beginners start at **~40% to 50%** (p824).
 - Aerobic: **≥20 minutes** at **50% to 80%** VO2max; beginners start with **5 to 10 minutes**; needs **three to five times per week** (p824).
 - Flexibility: **90 degrees** knee flexion for stairs; **120 to 150 degrees** shoulder flexion/abduction to reach overhead (p825).
-- CIMT: **4 to 6 hours/day** forced use of affected limb; gain not sustained at 6 months (p825).
+- CIMT: **4 to 6 hours/day** forced use of affected limb; greater upper-extremity motor gains than conventional treatment, but the between-group differences were not significant at 6 months (p825).
 - Sarcopenia: **60% to 80% of 1RM**, **two to three times a week** (p832).
 
 **Modalities**
