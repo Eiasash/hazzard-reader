@@ -27,7 +27,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 
 **Presentation**
 - As many as **1/3 or more** of those with "osteopenia" on a plain x-ray may have a T-score worse than **−2.5**, and as many as **half** will be in the **−2.5 to −1.0** range — so x-ray "osteopenia" is an indication for BMD measurement (p768).
-- **3/4** of postmenopausal women with a distal radius fracture go undiagnosed/untreated; up to **50%** of hip-fracture patients leave hospital untreated (p768).
+- In one study, **3/4** of postmenopausal women with a distal radius fracture were undiagnosed or untreated; as many as **50%** of women with a hip fracture leave hospital without treatment (p768).
 - Repeat fracture risk in the first year after a fracture: **20%** (p768).
 
 **Risk assessment**
@@ -56,7 +56,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - **Denosumab** 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels **12 months** after stopping, and fracture risk rises markedly in those with prior vertebral fracture (p776).
 - **Teriparatide** 20 mcg/day SC, **max 24 months**: **65%** ↓ vertebral, **53%** ↓ nonvertebral fracture (p776); caution or avoidance if at increased osteosarcoma risk — Paget disease, previous radiation therapy, hypercalcemia, skeletal metastases, or history of prostate cancer/lymphoma (Table 51-5, p774).
 - **Abaloparatide** 80 mcg/day SC, **max 2 years**: **86%** ↓ vertebral, **43%** ↓ nonvertebral fracture (p777).
-- **Romosozumab** 210 mg monthly SC, **max 12 months** (then transition, e.g. to denosumab): **75%** ↓ vertebral fracture; vs alendronate: **48%** ↓ vertebral, **19%** ↓ nonvertebral, **38%** ↓ hip (p777).
+- **Romosozumab** 210 mg monthly SC, **max 12 months**; 12 months of romosozumab followed by 12 months of denosumab: **75%** ↓ vertebral fracture; vs alendronate: **48%** ↓ vertebral, **19%** ↓ nonvertebral, **38%** ↓ hip (p777).
 - Teriparatide and abaloparatide should be considered as **starting therapy** for **very high fracture risk** and/or multiple fractures (p777); after teriparatide, treatment with an antiresorptive is imperative to maintain BMD gains (p776).
 
 **Complications**

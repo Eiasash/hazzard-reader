@@ -45,6 +45,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Peak-dose dyskinesia: reduce levodopa dose, or add amantadine (start **100 mg BID**, up to **200 mg BID**); buspirone up to **20 mg/day** (p946).
 - Diphasic dyskinesias (Table 61-6, p945; p946) — occur at the start/end of dose (not peak), mixed chorea/dystonia, mainly affect the legs; distinct from peak-dose dyskinesia above.
 - Drug-induced hallucinations: reduce dopaminergic burden first; then quetiapine (start **25 mg qhs**) or pimavanserin (**17 mg 1–2×/day**, reduce with CYP3A4 inhibitors) (p946). ⟨2026 exam Q75⟩
+  > Current practice (not the book): pimavanserin 34 mg PO once daily, no titration; 10 mg once daily with strong CYP3A4 inhibitors — FDA Nuplazid label, 2026.
 - Clozapine more effective but agranulocytosis in **1% to 2%** → weekly CBC; try quetiapine/pimavanserin first (p946–947).
 - Severe psychosis needing drug withdrawal: taper anti-PD meds stepwise over **3 days** — abrupt levodopa withdrawal risks a neuroleptic-malignant-like syndrome (p946).
 - RBD: clonazepam **0.5–2 mg** at bedtime; melatonin as a less-effective first try (p947).

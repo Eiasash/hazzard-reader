@@ -6,6 +6,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 **RA — definition & classification**
 - 2010 ACR/EULAR criteria (**Table 101-1**): joint involvement + serology + acute-phase reactants + duration; **score > 6** = definite RA (p1608)
+  > Current practice (not the book): the original 2010 ACR/EULAR criteria require a score of ≥6/10 (a score of exactly 6 qualifies) — Aletaha et al., Arthritis Rheum 2010, Table 3.
 - Criteria cohorts had mean age **46–58 yr** — usefulness for diagnosing **LORA (late-onset RA, >60 yr)** is unvalidated (p1607)
 - Anti-CCP: **70–78%** sensitive, **88–96%** specific for RA — more specific than IgM RF, and unlike RF does not rise with normal aging (p1608)
 
@@ -32,7 +33,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 **RA — biologics safety & steroids**
 - CONSIDER mnemonic for biologic safety in older adults (**Table 101-6**): Comorbidities, Opportunistic infections, Novel presentation of side effects, Screening, Immunization, Drug dosing and interactions, Evaluate, Remaining lifespan (p1618)
-- Glucocorticoid dose-response in Medicare beneficiaries **>75 yr**: **≤5 mg, 5–10 mg, >10 mg/day** → **20%, 32%, 47%** increased serious-infection risk vs **13%** in non-users (p1618)
+- Glucocorticoid dose-response in Medicare beneficiaries **>75 yr**: **≤5 mg, >5–10 mg, >10 mg/day** → **20%, 32%, 47%** increased serious-infection risk vs **13%** in non-users (p1618)
 - TB screening (skin test or IGRA + CXR) required before anticytokine therapy; anti-TNF associated with **~4×** malignancy rate in one meta-analysis (p1617)
 
 **Systemic lupus erythematosus (SLE)**
@@ -46,6 +47,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 **Sjögren syndrome**
 - Second commonest autoimmune disease after RA; prevalence **0.04–4.8%**; peak onset **4th–5th decade**, **9:1** F:M (p1622)
 - Schirmer test positive if **<5 mm** wetting in **5 min**; minor salivary gland biopsy positive if **>1 focus (≥50 lymphocytes) per 4 mm²**; normal saliva production **≥1.5 mL/15 min** (p1622)
+  > Current practice (not the book): 2016 ACR/EULAR primary Sjögren criteria use Schirmer ≤5 mm/5 min and focus score ≥1 focus/4 mm² — Shiboski et al., Arthritis Rheumatol 2017.
 - Extraglandular disease in **~60%** (**Table 101-9**) — nonerosive arthritis/arthralgia is commonest (p1622–1623)
 - Sjögren patients are **44×** more likely to develop lymphoma than matched controls, almost always B-cell, often t(14;18) (p1626)
 
@@ -71,6 +73,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 <details><summary>Answer</summary>
 
 A score greater than 6 (Table 101-1) (p1608).
+> Current practice (not the book): the original 2010 ACR/EULAR criteria require a score of ≥6/10 (a score of exactly 6 qualifies) — Aletaha et al., Arthritis Rheum 2010, Table 3.
 
 </details>
 
@@ -126,7 +129,7 @@ Cervical spine disease and atlantoaxial joint instability (RA >10 years) — ove
 
 <details><summary>Answer</summary>
 
-≤5 mg, 5–10 mg, and >10 mg/day of glucocorticoid conferred 20%, 32%, and 47% increased risk of serious infection respectively, versus 13% in non-users (p1618).
+≤5 mg, >5–10 mg, and >10 mg/day of glucocorticoid conferred 20%, 32%, and 47% increased risk of serious infection respectively, versus 13% in non-users (p1618).
 
 </details>
 
@@ -159,6 +162,7 @@ FDA-approved in 2011 as the first lupus drug in its class (anti-BAFF); indicatio
 <details><summary>Answer</summary>
 
 Schirmer test: less than 5 mm of filter paper wet after 5 minutes. Minor salivary gland biopsy: more than one focus (an aggregate of ≥50 lymphocytes) per 4 mm² of tissue (p1622).
+> Current practice (not the book): 2016 ACR/EULAR primary Sjögren criteria use Schirmer ≤5 mm/5 min and focus score ≥1 focus/4 mm² — Shiboski et al., Arthritis Rheumatol 2017.
 
 </details>
 

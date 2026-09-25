@@ -10,13 +10,13 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 - Prevalence rises steeply with age: **~3% (65–74y), 17% (75–84y), 32% (85y+)** (p894).
 - **Late-onset (sporadic) AD = >95%** of all AD cases (p894); familial (younger-onset, <65y) AD = **1–5%** (p897).
 - Median survival from diagnosis to death: **7–10 years** (p901).
-- AD accounts for **50–90%** of all dementia cases overall (p907).
+- AD is the most common dementia in the United States, accounting for **50–90%** of all dementia cases (p907).
 
 **Genetics & risk factors**
 - Familial AD genes: *APP*, *PSEN1*, *PSEN2*. **PSEN1 = 78%** of familial AD mutations (most common) (p897); familial AD onset typically **late 40s–early 50s** (p898).
 - *APOE* ε4: **one copy → 4× risk, two copies → 12× risk** of AD (p895). Framingham: **55%** of ε4 homozygotes vs **27%** heterozygotes vs **9%** noncarriers developed AD by age 85 (p895). ε2 allele is protective.
 - Vascular risk factors (high midlife cholesterol/BP, diabetes, metabolic syndrome, obesity, inactivity) all raise AD risk. Midlife obesity RR **1.60** (95% CI 1.34–1.92); midlife physical inactivity RR **1.82** (95% CI 1.19–2.78) (p896).
-- **~1/3 of AD cases worldwide** are attributable to potentially modifiable risk factors (p896).
+- **About 1/3 of AD cases worldwide** might be attributable to potentially modifiable risk factors (p896).
 - TBI: WWII veterans with moderate TBI had **2×** AD risk, severe TBI with loss of consciousness **4×** (p896).
 - Late-life depression history → AD risk **OR 1.65** (95% CI 1.42–1.92) (p896); >30% of AD patients develop depression during the illness (may be the first symptom).
 - Low educational attainment: pooled **RR 1.80** (95% CI 1.45–2.27) for AD (p897).
@@ -33,11 +33,12 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 - Late stages: falls, dysphagia, incontinence, immobility; death commonly from pneumonia, urosepsis, dehydration, pressure sores.
 
 **Evaluation**
-- NIA-AA core clinical criteria (Tables 59-1/59-2) require decline from baseline + functional impact, informant + patient history, cognitive testing, and exclusion of delirium/other causes.
+- NIA-AA dementia criteria (Table 59-1): decline from previous level that interferes with function, not explained by delirium or major psychiatric disorder; history from patient and a knowledgeable informant + objective cognitive assessment (p895).
+- NIA-AA MCI criteria (Table 59-2): concern about change noted by the patient, an informant or a clinician; lower performance in ≥1 domain; **preserved independence in functional abilities**; not dementia (p896).
 - Reversible-cause workup: meds (anticholinergic/sedating), depression, hearing loss, OSA, alcohol, vascular disease, delirium.
 - Labs: B12, folate, TSH, CBC, electrolytes, LFTs, 25-OH vitamin D; HIV/syphilis if atypical; thiamine if heavy alcohol use (p906).
 - Brain CT or MRI recommended in patients with documented cognitive impairment (p906).
-- **MCI prevalence ~15–20%** of older adults; progresses to dementia at **~12–15%/year** (p907).
+- **MCI noted in up to 15–20%** of older adults; progresses to dementia at **~12–15%/year** (p907).
 
 **Drugs**
 - **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil **4–6 wk** before 5→10 mg (the 10→23 mg step after **3 months** on 10 mg) (p912), galantamine **≥4 wk** per step (p912), rivastigmine **≥2 wk** per oral step or **4–6 wk** for the patch (p913); **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
@@ -84,11 +85,11 @@ RR 1.82 (95% CI 1.19–2.78) (p896).
 
 </details>
 
-**5. Roughly what fraction of AD cases worldwide are attributable to potentially modifiable risk factors?**
+**5. Roughly what fraction of AD cases worldwide might be attributable to potentially modifiable risk factors?**
 
 <details><summary>Answer</summary>
 
-About one-third (p896).
+About one-third might be attributable (p896).
 
 </details>
 
@@ -160,7 +161,7 @@ They do not prolong survival or increase comfort, and have not been shown to red
 
 <details><summary>Answer</summary>
 
-MCI is present in about 15–20% of older adults; roughly 12–15% progress to dementia each year (p907).
+MCI is noted in up to 15–20% of older adults; roughly 12–15% progress to dementia each year (p907).
 
 </details>
 

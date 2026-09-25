@@ -5,7 +5,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 ## Summary
 
 **Definition & epidemiology**
-- Delirium = acute disorder of attention + global cognition; affects **~50%** of hospitalized adults 65+ (p879).
+- Delirium = acute disorder of attention + global cognition; affects **as many as half** of hospitalized adults 65+ (p879).
 - 65+ patients account for **~40%** of all hospital days; costs **>$60,000/patient**, **$183B/year** nationally (2018 USD) (p879).
 - **Up to 50%** of cases are preventable (p879).
 - Clinicians fail to detect up to **70–85%** of cases (p880).

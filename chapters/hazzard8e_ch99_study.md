@@ -5,7 +5,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 ## Summary
 
 **Definition & diagnosis**
-- Diabetes: **A1C ≥6.5%**, **FPG ≥126 mg/dL**, or **2-h OGTT ≥200 mg/dL** (p1560).
+- Diabetes: **A1C ≥6.5%**, **FPG ≥126 mg/dL**, or **2-h OGTT ≥200 mg/dL**; any criterion should be **confirmed on a separate day** (Table 99-1 footnote, p1560); unless clear hyperglycemic symptoms, ADA verifies with two tests (p1561).
 - Prediabetes: **A1C 5.7–6.4%**, **FPG 100–125 mg/dL**, or **2-h OGTT 140–199 mg/dL** (p1560).
 - **~90%** of older adults with diabetes have type 2 disease (p1560).
 - GDM affects **~4%** of US pregnancies; **5–10%** of those women have persistent T2D postpartum; **20–50%** develop T2D within **5–10 years** (p1560).
@@ -43,9 +43,9 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 
 **Management goals — individualized A1C framework (Table 99-6, all p1571)**
 - 3 tiers by comorbidity/function/cognition: Good, Intermediate, Poor health.
-- Good health: A1C **<7.5%** if not on a hypoglycemia-risk drug; **7.0–7.5%** if on insulin/sulfonylurea/glinide.
-- Intermediate health: **<8%** (not on risk drug) / **7.5–8%** (on risk drug).
-- Poor health: **<8.5%** (not on risk drug) / **8.0–8.5%** (on risk drug).
+- Good health: A1C **<7.5%** if not on a hypoglycemia-risk drug; **≥7.0 and <7.5%** if on insulin/sulfonylurea/glinide.
+- Intermediate health: **<8%** (not on risk drug) / **≥7.5 and <8.0%** (on risk drug).
+- Poor health: **<8.5%** (not on risk drug) / **≥8.0 and <8.5%** (on risk drug).
 - A1C–mortality relationship is U-shaped: lowest risk at **6–9%** (p1574).
 
 **CVD risk reduction**
@@ -94,11 +94,11 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 
 ## Drill
 
-**1. What A1C level, by itself, diagnoses diabetes?**
+**1. What A1C level meets the diabetes criterion (Table 99-1)?**
 
 <details><summary>Answer</summary>
 
-A1C ≥6.5% (p1560).
+A1C ≥6.5% — to be confirmed on a separate day (Table 99-1 footnote, p1560); unless clear hyperglycemic symptoms are present (p1561).
 
 </details>
 

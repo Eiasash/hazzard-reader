@@ -20,6 +20,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Adrenal insufficiency sick-day rule: **triple the daily hydrocortisone dose (~60 mg)** for 3 days with fever ≥**101.5°F**; give **100 mg IM hydrocortisone** if oral intake is impossible (p1526, p1531–1532).
 - Usual glucocorticoid replacement: **15–20 mg hydrocortisone/day in divided doses**, avoiding late-afternoon/evening dosing (insomnia risk) (p1531).
 - Cosyntropin stimulation test: serum cortisol should exceed **18 mg/dL at 30–60 min** post-corticotropin (as printed in this chapter) (p1531).
+  > Current practice (not the book): peak cortisol below 500 nmol/L (18 μg/dL, assay dependent) at 30 or 60 min indicates adrenal insufficiency — Endocrine Society primary adrenal insufficiency guideline, 2016.
 - Adrenal incidentaloma found in **~4%** of high-resolution CT abdominal scans; **<10 Hounsfield units** on CT excludes malignancy/pheochromocytoma; masses **>4 cm** are more likely malignant (p1532).
 - Primary hyperaldosteronism affects **5–10%** of hypertensive patients; workup = plasma aldosterone:renin ratio, stop **spironolactone 4 weeks** before testing; primary hyperaldosteronism suggested by aldosterone **>10 ng/dL** with renin activity **<1 ng/mL/hr** (p1532–1533).
 - Pheochromocytoma incidence **<5 per million/year** but becomes more common after age 50 (p1533).

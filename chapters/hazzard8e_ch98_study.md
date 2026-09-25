@@ -18,7 +18,7 @@ Study summary of Chapter 98 — Thyroid Diseases; the book and the full chapter 
 
 ### Hyperthyroidism
 - Overt hyperthyroidism = low TSH + elevated free T4 or T3; prevalence **1-2%** in older people (p1549).
-- In older overtly hyperthyroid patients, only **3 of 19** signs exceed 50% prevalence: tachycardia (**71%**), fatigue (**56%**), weight loss (**50%**) — classic hyperadrenergic signs (tremor, sweating, heat intolerance, nervousness) are far less common than in the young. "**Apathetic hyperthyroidism**" — goiter and ophthalmopathy often absent (p1549).
+- In older overtly hyperthyroid patients, only **3 of 19** signs exceed 50% prevalence: tachycardia (**71%**), fatigue (**56%**), weight loss (**50%**) *[sic — the book's own Table 98-3, p1549, gives weight loss 50%: three signs reach ≥50%, only two exceed it]* — classic hyperadrenergic signs (tremor, sweating, heat intolerance, nervousness) are far less common than in the young. "**Apathetic hyperthyroidism**" — goiter and ophthalmopathy often absent (p1549).
 - Methimazole is preferred over PTU (longer half-life, fewer adverse effects); PTU carries a fulminant hepatic failure risk. Skin reactions occur in **4-6%**, agranulocytosis in **0.1-0.5%** (p1550).
 - With antithyroid drugs, even in good candidates (Graves with mild-moderate hyperthyroidism and a small gland), recurrence exceeds **60%** (p1550).
 - Radioactive iodine: stop antithyroid drugs 3-5 days before; observe contact precautions for **5 days** after treatment (p1550).
@@ -32,8 +32,8 @@ Study summary of Chapter 98 — Thyroid Diseases; the book and the full chapter 
 - IV levothyroxine dose = **75%** of the oral dose (p1552).
 - Missing **1 dose/week** on a 112 μg daily regimen drops the effective average dose to 96 μg — check adherence before assuming disease progression when TSH varies (p1552).
 - Up to **40%** of older adults on thyroid hormone replacement have a low TSH (iatrogenic overreplacement) — risk mirrors endogenous hyperthyroidism (AF, bone loss) (p1552).
-- Subclinical hypothyroidism = high TSH, normal free T4; prevalence **4%** general population, **~10%** at 65+. Retest in **1-3 months** if TSH 4.5-14.9 mIU/mL, or **1-2 weeks** if ≥15.0 (p1553).
-- TSH **≥10 mIU/L** predicts CV mortality, CHD, and heart failure; TSH **≥7 mIU/L** predicts CV mortality alone (p1553). Per Figure 98-4, treat if TSH is persistently **≥10.0 mU/mL** (age ≥65); consider treatment at **7.0-9.9 mU/mL** (p1553).
+- Subclinical hypothyroidism = high TSH, normal free T4; prevalence **4%** general population, **~10%** at 65+. Retest in **1-3 months** if TSH 4.5-14.9 mIU/mL, or **1-2 weeks** if ≥15.0 (p1553). *[sic — the book's own Figure 98-4, p1554, gives thyrotropin in mU/L]*
+- TSH **≥10 mIU/L** predicts CV mortality, CHD, and heart failure; TSH **≥7 mIU/L** predicts CV mortality alone (p1553). Per Figure 98-4, treat if TSH is persistently **≥10.0 mU/mL** (age ≥65); consider treatment at **7.0-9.9 mU/mL** (p1553). *[sic — the book's own Figure 98-4, p1554, gives thyrotropin in mU/L]*
 - **Myxedema coma**: give IV hydrocortisone **before/with** thyroid hormone — treating with thyroid hormone alone can precipitate adrenal crisis. Initial levothyroxine **200-400 μg**, then **75-100 μg/day**; avoid added T3 (cardiac risk) (p1553).
 
 ### Thyroid nodules & cancer
@@ -94,7 +94,7 @@ Mortality is about 80% with the full pattern; thyroid hormone replacement (T4 or
 
 <details><summary>Answer</summary>
 
-Tachycardia (71%), fatigue (56%), and weight loss (50%). Classic hyperadrenergic signs (tremor, sweating, nervousness, heat intolerance) are far less common than in young patients — "apathetic hyperthyroidism" (p1549).
+Tachycardia (71%), fatigue (56%), and weight loss (50%) *[sic — the book's own Table 98-3, p1549, gives weight loss 50%: three signs reach ≥50%, only two exceed it]*. Classic hyperadrenergic signs (tremor, sweating, nervousness, heat intolerance) are far less common than in young patients — "apathetic hyperthyroidism" (p1549).
 
 </details>
 
@@ -142,7 +142,7 @@ Up to 40%. Risks mirror endogenous hyperthyroidism, most notably atrial fibrilla
 
 <details><summary>Answer</summary>
 
-Treat if TSH is persistently ≥10.0 mU/mL; consider treatment if TSH is 7.0-9.9 mU/mL (p1553-1554).
+Treat if TSH is persistently ≥10.0 mU/mL; consider treatment if TSH is 7.0-9.9 mU/mL (p1553-1554). *[sic — the book's own Figure 98-4, p1554, gives thyrotropin in mU/L]*
 
 </details>
 

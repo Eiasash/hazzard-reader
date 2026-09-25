@@ -18,11 +18,13 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Mean onset 75y (range 50–80y)**, slight male predominance (p983).
 - **MMSE can swing up to 50% day-to-day** with fluctuation (p983).
 - **RBD in 85% of DLB** vs **15% PD** vs **60% MSA** — RBD is a core diagnostic feature (p983).
-- **Depression in up to 40%**; **visual hallucinations in ~2/3**; **parkinsonism eventually in up to 70%** (p983).
+- **Depression in up to 40%**; **visual hallucinations, misperceptions or (less often) delusional misidentification in ~2/3**; **parkinsonism eventually in up to 70%** (p983).
 - McKeith criteria: probable DLB = **2 core features**, or 1 core + 1 suggestive feature (p984).
+  > Current practice (not the book): probable DLB = ≥2 core features, or 1 core feature + ≥1 indicative biomarker (reduced DAT uptake on SPECT/PET, abnormal MIBG scintigraphy, or PSG-confirmed REM sleep without atonia) — DLB Consortium 4th consensus report (McKeith et al.), 2017.
 - **MMSE decline −4 to −5 pts/yr** vs **~3 pts/yr in AD** — faster course than AD (p984).
 - **Mean survival ~10y**, disability progressing **~10%/yr** (p983).
 - "1-year rule": cognitive symptoms must precede parkinsonism by **≥12 months** to call DLB vs PDD — arbitrary, often hard to apply (p984).
+  > Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.
 - Robust cholinesterase-inhibitor response (often better than AD, especially hallucinations); often neuroleptic sensitivity.
 
 ### Parkinson Disease Dementia (PDD)
@@ -35,7 +37,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Death within 6–10y; 10-yr survival ~40%** (p985).
 - **Incidence ~0.6/100,000 person-years** (or 1.86–4.9/100,000 population), rising to **6/100,000 person-years after age 50**; **mean onset 54y**; **~3x more common in men** (p985).
 - Subtypes: **MSA-P (parkinsonism) ~80%**, **MSA-C (cerebellar) ~20%**; orthostatic-predominant subtype → worse survival (p985).
-- Orthostatic dx criterion: **≥30 mmHg systolic BP drop** (practically, **≥20 systolic/≥10 diastolic** considered significant) (p986).
+- Orthostatic dx criterion: **≥30 mmHg systolic BP drop** (practically, **≥20 systolic/≥10 diastolic** considered significant in the absence of an appropriate heart-rate increase) (p986).
 - Suspect an alternative diagnosis if onset **<age 30** or family history present (p986).
 - Sleep complaints: **fragmentation 53%, early waking 33%, insomnia 20%**; RBD up to 60% (p986). Stridor → worse survival/sudden-death risk (p986).
 - MRI: putaminal atrophy/hypointensity; nonspecific **"hot cross bun" sign** in pons (p986).
@@ -50,7 +52,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
   - **svPPA**: fluent but semantically empty speech, surface dyslexia; begins in amygdala/anterior temporal lobe; most behaviorally prominent PPA; usually **TDP-43 type C**, tau-negative (p988).
   - Logopenic PPA = usually an **AD** language presentation; may respond to cholinesterase inhibitors (p987).
 - **Pick disease**: pathologic dx, found in ~**20%** of clinical bvFTD-pattern cases; Pick disease usually 3R-tau; dentate gyrus heavily involved (can be spared in AD) (p989–990).
-- Genetics: **MAPT** mutation → FTDP-17, **mean onset ~52y** (p990). **GRN** mutation → **~11% of sporadic / ~25% of familial** FTD; **~10% of carriers remain asymptomatic past age 70**; **>10% show autoimmunity** (p990). **C9orf72** hexanucleotide expansion = the major cause of familial FTD/ALS/FTD-ALS (p990).
+- Genetics: **MAPT** mutation → FTDP-17, **mean onset ~52y** (p990). **GRN** mutation → **up to 11% of sporadic / ~25% of familial** FTD; **~10% of carriers remain asymptomatic past age 70**; **>10% show autoimmunity** (p990). **C9orf72** hexanucleotide expansion = the major cause of familial FTD/ALS/FTD-ALS (p990).
 - Treatment: symptomatic only — SSRIs for behavioral symptoms/cravings/compulsions; atypical neuroleptics only if delusions are problematic; **no role for cholinesterase inhibitors** (may worsen agitation) (p991).
 
 ### Amyotrophic Lateral Sclerosis (ALS)
@@ -104,6 +106,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 <details><summary>Answer</summary>
 
 Cognitive symptoms must predate parkinsonism by ≥12 months to call it DLB rather than PDD (though this is arbitrary and hard to apply clinically) (p984).
+> Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.
 
 </details>
 
@@ -127,7 +130,7 @@ DLB declines faster: about 4–5 points/year vs about 3 points/year in AD (p984)
 
 <details><summary>Answer</summary>
 
-A 30 mmHg drop in systolic blood pressure (a 20 mmHg systolic or 10 mmHg diastolic drop is considered significant in practice) (p986).
+A 30 mmHg drop in systolic blood pressure (a 20 mmHg systolic or 10 mmHg diastolic drop is considered significant in practice, in the absence of appropriate increased heart rate) (p986).
 
 </details>
 

@@ -42,6 +42,7 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags both SNRIs and TCAs (amitriptyline, nortriptyline) as "avoid" with a history of falls/fractures, and TCAs additionally for anticholinergic burden (Table 68-8, p1063)
 - Gabapentinoids/sodium channel blockers (carbamazepine, oxcarbazepine) for neuropathic pain; genotype screening may be indicated for **HLA-B\*1502** and **HLA-A\*3101** (most common in South Asian ancestry) — carriers are at risk of severe skin reactions such as Stevens–Johnson syndrome; carbamazepine is a potent CYP450 inducer (interacts with warfarin, lithium) (p1065)
 - Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use; carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
+  > Current practice (not the book): renal impairment is not a labelled contraindication for gabapentin or pregabalin; both need renal dose reduction (incl. CrCl <15 and post-haemodialysis supplemental doses) — FDA/DailyMed gabapentin and Pfizer Lyrica labels.
 - Benzodiazepines (eg clonazepam) for neuropathic pain: daily use **>30 days** risks physiologic dependence — taper, don't stop abruptly; tracked as lorazepam milligram equivalents (LMEs) in PDMPs (p1065)
 
 **Interventional & nonpharmacologic treatment**
