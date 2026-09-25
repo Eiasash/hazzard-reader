@@ -8,7 +8,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - PI = localized skin/soft-tissue damage over a bony prominence or device; sacrum and heels are the most common sites (p679).
 - **~70%** of PI occur in people **>65y**; prevalence **9–22%** in nursing-home (NH) residents, **5–32%** in hospitalized patients (p679).
 - Joint Commission estimate: **2.5 million** US acute-care patients treated for PI/year (p680); separate annual cost estimate **~$27 billion** (2016) (p680).
-- Pain: **87%** report pain with dressing changes; only **6%** receive any pain medication for it (p680).
+- Pain: **87%** report pain with dressing changes; only **6%** of those reporting PI pain receive any pain medication (p680).
 - When PI is the source of bacteremia, mortality is **48%** (p680).
 - Hospital-acquired PI: **11%** in-hospital mortality, **15%** mortality at 30 days post-discharge (p680).
 - NH residents: PI unhealed at 6 months → **64%** mortality vs **11%** if healed (p680).
@@ -21,7 +21,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 
 **Risk screening & assessment**
 - Movement is the key screen: none developed PI with **>50** spontaneous body movements/night vs **90%** PI with **≤20** movements/night (p682).
-- High-risk flags: age **>75y**, scheduled surgery **≥3h**, hospital transport time **>1h** (p682); ICU surgery **≥8h** (p683).
+- High-risk flags: age **>75y**, age >65 with scheduled surgery **≥3h**, hospital transport time **>1h** (p682); ICU surgery **≥8h** (p683).
 - Braden scale scores **six** risk domains (p683).
 - Reassessment cadence: acute care every shift; home health weekly ×**4** weeks then every other week; NH weekly ×**4** weeks then quarterly (p683).
 
@@ -29,17 +29,17 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - General turning interval **q2–3h** (p683); RCT of **942** NH residents randomized to q2h/q3h/q4h turning (p683) found no significant difference in PI incidence: **2.5%** vs **0.6%** vs **3.1%** (p684).
 - Position at **30°** side-lying; chairbound patients repositioned **hourly** (shift weight **q15min**), hip flexion **90°** (p684).
 - Standard mattress **4-inch** viscoelastic foam; OR risk = surgery **>3h**, ASA **≥3**, or prone position (p684).
-- Prophylactic silicone foam dressings cut heel PI (**3%** vs **12%**) and sacral PI (**1%** vs **5%**), NNT **10** (p685).
+- Prophylactic silicone foam dressings (critical care patients) cut heel PI (**3%** vs **12%**) and sacral PI (**1%** vs **5%**), NNT **10** (p685).
 - **Table 46-1** risk-factor–specific interventions: incontinence/moisture → scheduled toileting/prompted voiding if responsive, check-and-change programs otherwise, plus protective creams; friction/shearing → cornstarch/lubricants between surfaces plus footboards; dry skin → gentle cleansers, moisturize, inspect daily, avoid massaging reddened areas (p683).
 
 **Nutrition**
 - Malnutrition/weight loss → **fourfold** higher PI risk; oral nutritional supplements → **25%** relative reduction in incidence (modest evidence) (p685).
-- Healing targets: **30–35 kcal/kg** calories, **1.3–1.5 g/kg** protein/day; arginine/zinc/antioxidant supplements help if given **>4 weeks** (p692).
-- Megestrol acetate (Megace): never shown effective as an appetite stimulant in older/NH patients; has steroidal side effects — avoid (p692).
+- Healing targets: **30–35 kcal/kg** calories, **1.3–1.5 g/kg** protein/day; high-energy, high-protein supplements are beneficial, especially with arginine/zinc/antioxidants/micronutrients, when given **>4 weeks** (p692).
+- Megestrol acetate (Megace): never shown effective as an appetite stimulant in older/NH patients; has steroidal side effects (p692).
 
 **Staging (NPIAP six-category system)**
 - **Stage 1**: intact skin, nonblanchable erythema; reversible in **1–3 weeks** (p686).
-- **Stage 2**: partial-thickness, open dermis; heals in **2–4 weeks** (p686).
+- **Stage 2**: partial-thickness, open dermis; should heal in **2–4 weeks** if properly treated (p686).
 - **Stage 3**: full-thickness, fat visible, no bone/muscle/tendon exposed (p686).
 - **Stage 4**: full-thickness with bone/muscle/tendon/cartilage exposed (p686).
 - **Deep tissue PI (DTPI)**: purple/maroon intact skin, appears **~48h** after intense pressure (p686).
@@ -58,14 +58,14 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 
 **Local treatment**
 - Saline/water lack antiseptic properties — prefer Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692).
-- Moist dressings re-epithelialize **~40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; colonization threshold **≥10⁵** organisms/mL before infection typically manifests (p693).
-- Air-fluidized beds heal fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
+- Moist dressings re-epithelialize up to **40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; PI are typically colonized with **≥10⁵** organisms/mL and may carry this load for long periods without clinical signs of infection (p693).
+- One retrospective study: air-fluidized beds healed fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
 - **Table 46-2**: pain-reducing dressing categories are hydrocolloids (p693), plus hydrogels (cooling effect), alginates, and hydrofibers (p694) — composite, transparent-film, wound-filler, and foam dressings list no pain-relief use in the table.
 
 **Debridement**
 - **Five** methods: surgical/sharp, mechanical, autolytic, enzymatic, bio-surgical (p695).
 - Maggot (bio-surgical) density **5–8/cm²**; complete debridement **80%** vs **48%** with standard care (p696).
-- Collagenase (enzymatic): iodine inhibits its activity; may itself be inhibited when combined with nanocrystalline silver (p696).
+- Collagenase (enzymatic): iodine inhibits its activity; as printed, nanocrystalline silver "can be inhibited when used in combination with collagenase" (p696).
 
 **Infection & biofilm**
 - **60%** of chronic wounds contain a biofilm (p695).
@@ -75,8 +75,8 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 **Drugs (name — scenario — caution)**
 - Oral MSSA/strep: cephalexin, cefadroxil, dicloxacillin, clindamycin. Oral MRSA: clindamycin, amoxicillin+doxycycline, or TMP-SMX (p697).
 - Parenteral empiric: cefazolin, ceftriaxone, clindamycin; vancomycin for MRSA; metronidazole/carbapenem/beta-lactamase inhibitor for anaerobes (p697).
-- Ground metronidazole topically for odor; cadexomer iodine/silver/honey/PHMB dressings and mupirocin reduce bioburden (p697).
-- Avoid on clean/healing PI (fibroblast-toxic): povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, acetic acid (p697).
+- Ground metronidazole on the wound bed for odor when debridement isn't possible; antiseptics in full-thickness PI — cadexomer iodine/silver/honey/PHMB dressings reduce bioburden; mupirocin is effective against MRSA (p697).
+- Avoid on clean/healing PI (fibroblast-toxic in vitro): povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, acetic acid (p697).
 - EMLA cream (lidocaine **2.5%** + prilocaine **2.5%**) or opioids/NSAIDs **30 min** pre-procedure for severe wound pain (p697); EMLA cut venous-wound pain scores by **21 mm** (p698).
 
 **Palliative care**

@@ -248,10 +248,19 @@ The primary long-acting dopamine agonists that are used for persistent RLS inclu
 
 |**CLASS**|**GENERIC**|**BRAND**|**DOSE**|
 |---|---|---|---|
-|Dopaminergic agents|Ropinirole<br>Pramipexole<br>Carbidopa/levodopa<sup>a</sup>|Requip<br>Mirapex<br>Sinemet|0.25–4 mg<br>0.125–2 mg<br>25/100–25/200 mg|
-|α2δ calcium channel ligands|Gabapentin encarbil<br>Gabapentin<sup>a</sup><br>Pregabalin<sup>a</sup>|Horizant<br>Neurontin<br>Lyrica|600–1200 mg<br>100–1800 mg<br>300 mg|
-|Benzodiazepines|Clonazepam<sup>a</sup><br>Temazepam<sup>a</sup>|Klonopin<br>Restoril|0.25–2 mg<br>15–30 mg|
-|Opiate agents|Codeine<sup>a</sup><br>Tramadol<sup>a</sup><br>Oxycodone<sup>a</sup><br>Hydrocodone<sup>a</sup><br>Methadone<sup>a</sup>|Tylenol #3/#4<br>Ultram<br>Roxycodone<br>Vicodin<br>|30–60 mg (codeine)<br>50–100 mg<br>5–15 mg<br>5–15 mg<br>5–10 mg|
+|Dopaminergic agents|Ropinirole|Requip|0.25–4 mg|
+||Pramipexole|Mirapex|0.125–2 mg|
+||Carbidopa/levodopa<sup>a</sup>|Sinemet|25/100–25/200 mg|
+|α2δ calcium channel ligands|Gabapentin encarbil|Horizant|600–1200 mg|
+||Gabapentin<sup>a</sup>|Neurontin|100–1800 mg|
+||Pregabalin<sup>a</sup>|Lyrica|300 mg|
+|Benzodiazepines|Clonazepam<sup>a</sup>|Klonopin|0.25–2 mg|
+||Temazepam<sup>a</sup>|Restoril|15–30 mg|
+|Opiate agents|Codeine<sup>a</sup>|Tylenol #3/#4|30–60 mg (codeine)|
+||Tramadol<sup>a</sup>|Ultram|50–100 mg|
+||Oxycodone<sup>a</sup>|Roxycodone|5–15 mg|
+||Hydrocodone<sup>a</sup>|Vicodin|5–15 mg|
+||Methadone<sup>a</sup>|—|5–10 mg|
 
 <sup>a</sup>Off-label.
 
