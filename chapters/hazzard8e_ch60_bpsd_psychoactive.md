@@ -301,17 +301,17 @@ Aside from depression, antidepressants are also used to treat other NPS, includi
 | Escitalopram ⟨IL: not checked⟩ | 5 | 10 | GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, insomnia, fatigue |
 | Fluoxetine ⟨IL: not checked⟩ | 10 | 80 | GI distress, sexual dysfunction, slight weight gain, abnormal dreams, hyponatremia, SIADH, insomnia, fatigue |
 | Sertraline ⟨IL: not checked⟩ | 25 | 200 | GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, headache |
-| Paroxetine | 10 | 40 | Anticholinergic effects may increase risk of delirium, may cause withdrawal effects due to short half life, GI distress, hyponatremia, SIADH |
+| Paroxetine ⟨IL: not checked⟩ | 10 | 40 | Anticholinergic effects may increase risk of delirium, may cause withdrawal effects due to short half life, GI distress, hyponatremia, SIADH |
 | Paroxetine CR ⟨IL: not checked⟩ | 12.5 | 50 | ″ |
 | **SEROTONIN NOREPINEPHRINE REUPTAKE INHIBITORS** |  |  |  |
 | Duloxetine ⟨IL: not checked⟩ | 30 | 120 | GI distress, dry mouth, urinary hesitancy, headaches, fatigue, sedation, hyponatremia, hepatitis |
-| Venlafaxine XR | 37.5 | 225 | GI distress, minimal sedation, headaches, sexual dysfunction, weight loss, withdrawal symptoms, anxiety, dose-dependent hypertension, hyponatremia, mild anticholinergic effects |
+| Venlafaxine XR ⟨IL: not checked⟩ | 37.5 | 225 | GI distress, minimal sedation, headaches, sexual dysfunction, weight loss, withdrawal symptoms, anxiety, dose-dependent hypertension, hyponatremia, mild anticholinergic effects |
 | Venlafaxine IR ⟨IL: not checked⟩ | 25–50 | 375 | ″ |
 | Desvenlafaxine ⟨IL: not checked⟩ | 50 | 100 | Dizziness, dry mouth, insomnia, decreased appetite, GI distress, dose-dependent hypertension, elevated cholesterol and triglycerides, hyponatremia |
 | **OTHER** |  |  |  |
 | Mirtazapine ⟨IL: not checked⟩ | 7.5 | 30–45 | Dry mouth, GI distress, dizziness, QT prolongation, elevated cholesterol and triglycerides, weight gain, increased appetite, sedation |
-| Bupropion XL | 150 | 450 | Mild anticholinergic effects, hypotension, high sedation, slight sexual dysfunction, serotonin syndrome, increased appetite, dry mouth |
-| Bupropion SR | 100 | 150 BID | ″ |
+| Bupropion XL ⟨IL: not checked⟩ | 150 | 450 | Mild anticholinergic effects, hypotension, high sedation, slight sexual dysfunction, serotonin syndrome, increased appetite, dry mouth |
+| Bupropion SR ⟨IL: not checked⟩ | 100 | 150 BID | ″ |
 | Bupropion IR ⟨IL: not checked⟩ | 75 | 150 TID | ″ |
 | **PREFERRED TRICYCLIC ANTIDEPRESSANTS** |  |  |  |
 | Nortriptyline ⟨IL: not checked⟩ | 10–25 | 75–150 | Therapeutic window 50–150 ng/mL; anticholinergic effects, hypotension, sedation, sexual dysfunction, slight weight gain |

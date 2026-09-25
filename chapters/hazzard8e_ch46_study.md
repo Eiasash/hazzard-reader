@@ -58,7 +58,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 
 **Local treatment**
 - Saline/water lack antiseptic properties — prefer Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692).
-- Moist dressings re-epithelialize up to **40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; PI are typically colonized with **≥10⁵** organisms/mL and may carry this load for long periods without clinical signs of infection (p693).
+- Moist dressings re-epithelialize up to **40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; PI are typically colonized with **≥10⁵** organisms/mL and may carry this load for long periods without clinical signs of infection (p693-694).
 - One retrospective study: air-fluidized beds healed fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
 - **Table 46-2**: pain-reducing dressing categories are hydrocolloids (p693), plus hydrogels (cooling effect), alginates, and hydrofibers (p694) — composite, transparent-film, wound-filler, and foam dressings list no pain-relief use in the table.
 
