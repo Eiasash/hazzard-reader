@@ -109,8 +109,6 @@ The temporal relationship between the onset of dementia and the development of p
 
 > *FIGURE 63-1. Lewy bodies (LB) seen with hematoxylin and eosin staining ( _left_ ) and α-synuclein staining ( _right_ ).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Approximately one-third of older Parkinson disease patients will develop sufficient cognitive symptoms during the course of their illness to impair function. Indeed, the diagnosis of Parkinson disease puts a patient at high risk for mild cognitive impairment (MCI) and then PDD following in many patients. In pure PDD, the prominent findings include motor and psychomotor slowing, decreased response times, and alterations in concentration and attention. The recognition that medications used to treat Parkinson disease can affect cognition and the understanding that, because of age, a substantial number of Parkinson patients will develop concurrent AD result in a scenario where cognitive symptoms in this population can be multifactorial. Possible predictors for dementia in Parkinson disease include older age at onset of motor symptoms, bradykinesia, nontremor prominent Parkinson disease, bilateral onset of motor signs, and declining response to levodopa. Depression and visual hallucinations may increase the risk as well. Patients with DLB typically exhibit a faster clinical decline than do patients with PDD.
 
 ### Multiple System Atrophy
@@ -145,13 +143,9 @@ The core anatomic feature of FTLD is the focal, often asymmetric cortical degene
 
 > *FIGURE 63-2. Frontotemporal lobar degeneration (FTLD) and potential associations to other neurodegenerative syndromes.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 63-3](hazzard8e_ch63_figure63-3.png)
 
 > *FIGURE 63-3. T2-weighted axial ( _right_ ) and T1-weighted coronal ( _left_ ) brain magnetic resonance imaging (MRI) in a 59-year-old woman with pathology-confirmed Pick disease.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Patients who present with isolated language symptoms that exist for at least 2 years in the initial stages of cognitive decline are termed to have primary progressive aphasia (PPA). As a group, patients with PPA have greater atrophy on the left than the right of the perisylvian region, the anterior temporal lobes, and the basal ganglia. Inferior parietal lobule atrophy has also been described in PPA and is associated with predominantly word-finding deficits. Called logopenic aphasia by Gorno-Tempini and colleagues, this form of PPA is usually due to underlying AD pathology. As the syndrome progresses, patients presenting with nfvPPA go on to develop features of PSP or CBD or even amyotrophic lateral sclerosis (ALS). Thus, careful attention to the development of motor symptoms is necessary to help with the prediction of the underlying pathology. The emergence of artistic behavior has been described in some patients with primary language difficulty.
 
@@ -288,8 +282,6 @@ Clinical diagnosis of neurodegenerative disorders can be difficult and requires 
 ![Table 63-5](hazzard8e_ch63_table63-5_p993.png)
 
 > *Table 63-5 reproduced as a page image (printed p. 993) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Epilepsy
 

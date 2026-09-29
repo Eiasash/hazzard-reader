@@ -64,8 +64,6 @@ ACPA, anti-citrullinated protein antibodies; CRP, C-reactive protein; ESR, eryth
 
 > *Table 101-1 as printed (p. 1608).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 In addition to classification criteria for the diagnosis of RA, the ACR has established criteria for functional status and for determining clinical remission in RA. The usefulness of these classification systems in older patients who often suffer functional disability from concomitant osteoarthritis, soft-tissue rheumatism, and cardiovascular or neurologic diseases is unclear.
 
 ## Epidemiology
@@ -90,13 +88,9 @@ An infectious etiology for RA has been postulated for more than half a century. 
 
 > *FIGURE 101-1. Age-related incidence of rheumatoid arthritis. (Reproduced with permission from Symmons DP, Barrett EM, Bankhead CR, et al. The incidence of rheumatoid arthritis in the United Kingdom: results from the Norfolk Arthritis Register. _Br J Rheumatol_. 1994;33[8]:735–739.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 101-2](hazzard8e_ch101_figure101-2.png)
 
 > *FIGURE 101-2. The inflammatory cascade in rheumatoid arthritis.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 RA had been considered to be primarily a Th (T helper) 1-mediated disease based on the cytokine and chemokine receptor profile of T cells in synovial joints. The related
 
@@ -160,8 +154,6 @@ Radiographic joint examination is an integral part of the evaluation of patients
 
 > *FIGURE 101-3. Radiographic changes of rheumatoid arthritis. **(A)** An x-ray of the cervical spine in the flexed position showing severe atlantoaxial joint subluxation in a patient with chronic rheumatoid arthritis, with _arrows_ highlighting the abnormal distance between the posterior surface of the anterior arch of the atlas and the anterior surface of the odontoid process. _Arrowhead_ points to the erosion on the surface of C5. **(B)** Early erosive changes in the metacarpal phalangeal joints affecting the “bare area” of the bone not protected by cartilage. **(C)** Bilateral hand x-ray with advanced rheumatoid arthritis. Some of the features include juxta-articular osteoporosis, collapse of the carpal bones, radial deviation of the radiocarpal joint of the wrist ( _arrows_ ), and erosion and destruction of metacarpal phalangeal joints ( _arrowheads_ ). Note also the symmetric nature of the disease. (Reproduced with permission from Curtis Hayes, MD, University of Michigan.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Because of the limitation of clinical examination in detecting subtle signs of inflammation, peripheral joint ultrasound and magnetic resonance imaging have been increasingly used for detecting early or mild synovitis. The majority of patients with treated disease and considered by their physicians to be in remission continue to have evidence of active synovitis in advanced imaging such as ultrasound and magnetic resonance imaging. The unanswered question is whether more aggressive treatments of patient with clinically inactive disease but imaging evidence of ongoing synovitis affect patient outcomes such as overtreatment (and drug side effects), and long-term disability. Moreover, older patients with RA have additional facets that need to be taken into consideration, such as a more limited lifespan and greater infection risk with immunosuppression. Although embraced by many rheumatologists, the utility of these sensitive imaging modalities in clinical practice remains incompletely defined. The ACR “Choosing Wisely” recommendations recommend that MRI of the peripheral joints should not be used to routinely monitor
 
 <a id="p1613"></a>**[p. 1613]**
@@ -212,8 +204,6 @@ disease activity as completely and as soon as possible once the diagnosis is con
 
 > *Table 101-4 as printed (p. 1614). The side-effect bullets in the TNF-inhibitor row span all five TNF inhibitors in the printed table.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 101-4 — Pharmacotherapy agents for the management of RA (continued)**
 
 | MEDICATION | MECHANISM/BENEFITS | SIDE EFFECTS/ADVERSE EVENTS/CONSIDERATIONS |
@@ -234,8 +224,6 @@ CV, cardiovascular; GI, gastrointestinal; LFT, liver function test; MTX, methotr
 ![Table 101-4](hazzard8e_ch101_table101-4_p1615.png)
 
 > *Table 101-4 as printed (p. 1615).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Clinicians are often reluctant to use csDMARDs such as methotrexate and leflunomide as monotherapy because of their limited efficacy, high dropout rate, and potential serious side effects, especially in older patients. Great caution and dose adjustment are often needed when using these drugs to treat older adults with RA, especially in those with a history of renal and liver failure. The use of bDMARD or tsDMARDs in combination with or without methotrexate can boost the therapeutic efficacy of selected biologics. However, whether older patients tolerate combination therapies as well as monotherapy is uncertain.
 
@@ -275,8 +263,6 @@ _Data from Fraenkel L, Bathon JM, England BR, et al. 2021 American College of Rh
 ![Table 101-5](hazzard8e_ch101_table101-5_p1616.png)
 
 > *Table 101-5 as printed (p. 1616).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 As new data emerge and new therapies become available, it is anticipated that updated treatment guidelines will be available much more frequently than in the past. However, older adults are often excluded from clinical trials, leaving a gap in knowledge on the efficacy and safety of RA treatment with DMARDs. It will be important to draw from limited clinical trial data and observational studies to understand how the new guidelines apply to older RA patients, especially in those with multiple medical conditions. Pharmaceutical companies have increasingly included older adults in pre- and postmarketing clinical trials. Additionally, there are an increasing number of rheumatology research consortia and registries that have provided “real world” data on the benefits and side effects of new treatments on older RA patients. Knowing that these agents may be efficacious in older patients provides some reassurance to clinicians. However, it is important to remember that subjects participating in these studies rarely mirror the patients geriatricians see in their clinic who have multiple comorbidities and who already suffer from polypharmacy. The decision as to which biological modifier to use will depend on individual patient characteristics
 
@@ -351,8 +337,6 @@ Systemic lupus erythematosus (SLE) is a prototypic autoimmune disease that predo
 ![Figure 101-4](hazzard8e_ch101_figure101-4.png)
 
 > *FIGURE 101-4. Age-specific annual incidence ( **A** ) and prevalence ( **B** ) rates (per 100,000 persons) of systemic lupus erythematosus in southeastern Michigan, United States, 2002–2004 (Reproduced with permission from Somers EC, Thomas SL, Smeeth L, et al. Incidence of systemic lupus erythematosus in the United Kingdom, 1990–1999. _Arthritis Rheum_ . 2007;57[4]:612–618.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Diagnosis
 
@@ -488,8 +472,6 @@ disease, patients with “classical” DIL have a milder illness and a more rest
 
 > *Table 101-10 as printed (p. 1624).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Drugs with the strongest associations are in italic.
 
 _Data from Yung RL, Richardson BC. Drug-induced rheumatic syndromes. Bull Rheum Dis. 2002;51(4):1._
@@ -565,8 +547,6 @@ A number of COVID-19 vaccines have been developed, and as of early 2022, two non
 ![Table 101-11](hazzard8e_ch101_table101-11_p1628.png)
 
 > *Table 101-11 as printed (p. 1628).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 CYC, cyclophosphamide; IL, interleukin; IV, intravenous; IVIG, intravenous immunoglobulin; JAKi, janus kinase inhibitor; MMF, mycophenolate mofetil; NSAID, non-steroidal anti-inflammatory drugs; RMD, rheumatic and musculoskeletal disease; RTX, rituximab; SQ, subcutaneous; TNFi, tumor necrosis factor inhibitor; JAKi, baricitinib, tofacitinib, upadacitinib. <sup>a</sup>Examples of specific cytokine inhibitors are as follows: IL-6R, sarilumab; tocilizumab; IL-1R. anakinra, canakinumab; IL-17, ixekizumab, secukinumab; IL-12/23, ustekinumab; IL-23, guselkumab, rizankizumab..
 

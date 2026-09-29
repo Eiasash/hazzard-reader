@@ -41,8 +41,6 @@ Gene regulation is a particularly important aspect of neoplastic evolution. Broa
 
 > *FIGURE 88-1. Comparison of the percentage of total cancer incidence and mortality by age with age-specific incidence and mortality. (Data from SEER Cancer Statistics Review; 2013–2017: National Center for Health Statistics; 2014–2018.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1383"></a>**[p. 1383]**
 
 likelihood of malignancy. It has become apparent in recent years that while gene alterations are important in this process, changes in the environment in which these cells live plays a critical role in neoplastic evolution. This may be of particular importance in the aging/cancer relationship as will be discussed further below.
@@ -79,8 +77,6 @@ Older adults continue to be both underscreened and thus underdiagnosed with canc
 ![Figure 88-2](hazzard8e_ch88_figure88-2.png)
 
 > *FIGURE 88-2. Age and cancer susceptibility. This figure presents a model incorporating the various factors that may play a role in the increased incidence of cancer with age.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1385"></a>**[p. 1385]**
 
@@ -132,15 +128,11 @@ Epigenetic age or clock, an estimation of biological age using DNA-methylation b
 
 > *FIGURE 88-3. The Comprehensive Geriatric Model. (Modified with permission from Lazlo J. _Physician’s Guide to Cancer Care Complications_ . New York, NY: Dekker; 1986.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 be an important assessment of biological aging in cancer. Individuals with epigenetic age that surpasses their chronological age have an increased risk of all-cause mortality, even after adjusting for other risk factors. However, more research is needed, to enhance our understanding of biological measures of aging that are clinically meaningful, reliable, and feasible to obtain in older patients with cancer.
 
 ![Table 88-1](hazzard8e_ch88_table88-1_p1387.png)
 
 > *Table 88-1 reproduced as a page image (printed p. 1387) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Clinical Markers of Aging
 
@@ -173,8 +165,6 @@ Surgery and other invasive procedures are frequently involved in initial diagnos
 ![Table 88-2](hazzard8e_ch88_table88-2_p1389.png)
 
 > *Table 88-2 reproduced as a page image (printed p. 1389) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 of older patients for surgery as well as to guide postoperative management. Geriatric comanagement can lead to improved 90-day postoperative mortality. The American Geriatrics Society Task Force and the American College of Surgeons provide general guidelines for older adults undergoing surgery and these may be applied to older patients with cancer undergoing surgery.
 

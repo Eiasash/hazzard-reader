@@ -116,8 +116,6 @@ In the following section, cognitive symptoms associated with common diseases aff
 
 > *FIGURE 57-1. Prevalence of common medical conditions associated with cognitive impairment among US adults aged 65 and older. Data for most diseases obtained from cdc.gov. (Data from Diab N, Daya NR, Juraschek SP, et al. Prevalence and risk factors of thyroid dysfunction in older adults in the community. _Sci Rep_ . 2019;9[1]:13156.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 > Figure values (for text search/screen readers): Hypertension 70%, chronic kidney disease 38%, diabetes 27%, thyroid disease 25%, coronary artery disease 17%, sleep apnea 14%, depression 10-15%, COPD 10%.
 
 <a id="p857"></a>**[p. 857]**
@@ -126,15 +124,11 @@ In the following section, cognitive symptoms associated with common diseases aff
 
 > *Table 57-2 (first half — coronary artery disease, cardiac surgery, hypertension, type 2 diabetes mellitus) reproduced as a page image (printed p. 857) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p858"></a>**[p. 858]**
 
 ![Table 57-2](hazzard8e_ch57_table57-2_p858.png)
 
 > *Table 57-2 reproduced as a page image (printed p. 858) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p859"></a>**[p. 859]**
 
@@ -224,15 +218,11 @@ The NIA/AA criteria for AD dementia require (1) that the patient meets criteria 
 
 > *Table 57-3 reproduced as a page image (printed p. 863) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p864"></a>**[p. 864]**
 
 ![Table 57-3](hazzard8e_ch57_table57-3_p864.png)
 
 > *Table 57-3 reproduced as a page image (printed p. 864) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p865"></a>**[p. 865]**
 
@@ -240,15 +230,11 @@ The NIA/AA criteria for AD dementia require (1) that the patient meets criteria 
 
 > *Table 57-3 reproduced as a page image (printed p. 865) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p866"></a>**[p. 866]**
 
 ![Table 57-3](hazzard8e_ch57_table57-3_p866.png)
 
 > *Table 57-3 reproduced as a page image (printed p. 866) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 > Table 57-3 footnote (from the page's text layer; not present in the crop above): *DLB, dementia with Lewy bodies; PD, Parkinson disease; PDD, Parkinson disease with dementia.*
 
@@ -298,8 +284,6 @@ Longitudinal research suggests that 80% of those diagnosed with MCI will go on t
 
 > *FIGURE 57-2. A conceptual model of mild cognitive impairment (MCI) as prodromal dementia. A minority of persons diagnosed with MCI may remain stable or even improve over time. Although individuals with MCI may decline to vascular or other forms of dementia, the majority of declining MCI patients evaluated in research clinics receive a diagnosis of AD (either in pure form or mixed with other dementia subtypes). (Reproduced with permission from Golomb J, Kluger A, Garrard P, et al. Clinician's Manual on Mild Cognitive Impairment. London, UK: Science Press; 2001.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Biomarkers, while not yet commonplace in the clinical diagnosis of MCI, are playing an increasingly important role in understanding the pathophysiology of MCI and AD. Further, they can provide some support when deciding whether a particular clinical phenotype may be due to AD and in estimating likelihood of progression to dementia. For instance, one set of proposed criteria grade the likelihood of progression to AD on the basis of biomarker outcomes: MCI due to AD-high likelihood is assigned when there are positive biomarkers for both β-amyloid accumulation and neuronal injury on the basis of imaging and/or lumbar puncture, while the absence of positive biomarkers indicates a process that is unlikely to be related to AD. A more recent set of biomarker-based research criteria for MCI and AD incorporates measures of amyloid, tau, and neurodegeneration. However, these criteria are not yet recommended, nor widely used, in clinical diagnosis. In the future, these biomarkers as well as less invasive and less costly blood-based biomarkers currently in development (eg, plasma phosphorylated tau181) may eventually be widely used in both clinical and research settings to differentiate between MCI due to AD and other dementia types.
 
 **Palliative care concerns specific to AD** Patients with AD generally have a gradual progression of cognitive and functional impairment, though the absolute course and trajectory is slightly different for each person. Education about the expected course of illness and potential safety concerns is useful, as it allows patients and families to prepare advance directives and durable powers of attorney. Some may also make other lifestyle changes, like moving to a single level house or considering a move to a continuing care retirement community. Addressing driving safety is important in AD and all varieties of dementia, as patients with dementia will ultimately need to refrain from driving. Behavioral or lifestyle interventions, such as increasing exercise, healthful eating behaviors, and engagement in cognitive and social activities, are also useful at this
@@ -323,8 +307,6 @@ Most patients with PD exhibit at least some decline in attention, working memory
 ![Figure 57-3](hazzard8e_ch57_figure57-3.png)
 
 > *FIGURE 57-3. Change in cognitive diagnostic status over time in a multi-site Parkinson disease (PD) cohort. The number inside each node represents the number of people with the corresponding cognitive status indicated by its color. The nodes with dashed lines represent people with only data from the first visit. The links represent the group participants who continued to the next visit. PDD, PD with dementia; PD-MCI, PD with mild cognitive impairment; PD-NCI, PD with no cognitive impairment. (Reproduced with permission from Phongpreecha T, Cholerton B, Mata IF, et al. Multivariate prediction of dementia in Parkinson’s disease. _NPJ Parkinsons Dis_ . 2020;6:20.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 such as AD, this characterization has been criticized more recently and may serve simply as a gross depiction of the cognitive profile. Indeed, recent research suggests that while initial mild cognitive deficits in PD likely result from depleted dopamine in the midbrain and resulting defects in the frontostriatal loop, cortical pathology is required for progression to dementia.
 

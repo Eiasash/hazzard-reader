@@ -40,8 +40,6 @@ Falls are associated with increased age and female gender in community-living ol
 
 > *FIGURE 43-1. Risk factors for falls in older people.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 to sustain fall-related fractures due to a higher prevalence of osteoporosis. However, in hospitals and institutions, fall incidence is similar for men and women, or even, higher in men. The finding that living alone is a risk factor for falls is most likely confounded by gender and increased age, in that women comprise most of the very old population.
 
 As outlined in the intervention section later, physical activity can improve strength, balance, and functional abilities in older people. However, being more physically active does not always prevent falls, which likely reflects more physically active older people take part in activities which increase exposure to fall-risk situations. In addition, frail older adults taking up physical exercise training are likely to overestimate their balance abilities early in the program. Clearly, the risk related to increased exposure to falls should be balanced against other benefits of exercise including increased physical functioning and independence.
@@ -62,8 +60,6 @@ Both community and institutional studies have demonstrated consistent associatio
 ![Table 43-1](hazzard8e_ch43_table43-1_p635.png)
 
 > *Table 43-1 reproduced as a page image (printed p. 635).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 \*\*\*Strong evidence (consistently found in high-quality studies); \*\*moderate evidence (usually but not always found); \*weak evidence (occasionally but not usually found); and - little or no evidence (not found in published studies despite research to examine the issue).
 
@@ -144,15 +140,11 @@ Exercise as a single intervention in certain high-risk populations, however, may
 
 > *Table 43-3 reproduced as a page image (printed p. 638).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p639"></a>**[p. 639]**
 
 ![Figure 43-2](hazzard8e_ch43_figure43-2.png)
 
 > *FIGURE 43-2. A step mat training intervention. The participant is undertaking a choice stepping reaction time task: one of four arrows on the screen changes color and the participant is asked to step as quickly as possible onto the same location of the pad.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 people with Parkinson disease and those with cognitive impairment, they do not reduce fall rates among long-term stroke survivors or older people recently discharged from hospital. In fact, one home-based exercise program significantly _increased_ falls in older people recently discharged from hospitals by 43%. This area requires further investigation, as it may be that to be effective; exercise needs to form part of multifactorial interventions or be supplemented with educational components in these frailer populations.
 
@@ -176,13 +168,9 @@ Current evidence from systematic reviews and mega-trials indicates vitamin D sup
 
 > *FIGURE 43-3. Contrast sensitivity assessments of edge stimuli (24 separate plates with reducing contrast edges) placed at floor level. In panel A the participant views the edge stimulus through the upper lens of bifocal spectacles. In panel B the participant is forced to view the edge stimulus through the lower lens. Participants are then shown the difference between their upper and lower lens contrast vision. For reference, panel C shows differences between upper and lower lens edge contrast sensitivity scores for 87 regular multifocal glasses wearers.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 43-4](hazzard8e_ch43_figure43-4.png)
 
 > *FIGURE 43-4. Simulated view of a street scene used in counseling to demonstrate how bifocal glasses blur ground level hazards such as pavement misalignments.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 can reduce fall risk by 21% overall and by 39% for high-risk groups. These interventions included a comprehensive evaluation process of hazard identification and adequate follow up and support for adaptations and modifications, while involving the older person in priority setting.
 

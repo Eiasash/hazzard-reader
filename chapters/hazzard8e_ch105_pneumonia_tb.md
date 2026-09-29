@@ -70,8 +70,6 @@ Depending on the place of acquisition, pneumonia is classified as either CAP or 
 
 > *Table 105-1 reproduced as a page image (printed p. 1681) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1682"></a>**[p. 1682]**
 
 Health care–associated pneumonia (HCAP) can be defined as pneumonia that occurs in patients who meet one of the following criteria: (1) hospitalization for 2 days or more in the preceding 90 days; (2) residence in a nursing home or extended care facility; (3) home infusion therapy (including antibiotics); (4) chronic dialysis within 30 days; (5) home wound care; or (6) family member with multidrug-resistant pathogen. However, this concept is currently under some scrutiny. Evidence provided by two large retrospective observational studies that included patients from the United States showed that those who met one of these criteria had a higher prevalence of pneumonia caused by MRSA or resistant GNB, such as Ps. These results have not been confirmed in studies carried out in European countries. Further, it has been documented that up to 50% of patients with pneumonia attending the emergency department may met criteria for HCAP and only 10% to 30% of these patients have infections caused by resistant bacteria. Therefore, the use of such criteria with high sensitivity and limited specificity may lead to excessive utilization of broad spectrum antimicrobials, unnecessary costs and an increased prevalence of resistant bacteria. Finally, the concept of HCAP does not take into account the severity of the disease, and it is well known that resistant bacteria appear most frequently in patients with severe disease. In conclusion, though widely employed and specifically identified in many guidelines, the HCAP concept lacks the necessary precision to identify a profile of patients at risk of infection by resistant organisms, and therefore an etiologic approach is recommended by many authors based on individual risk factors for infection caused by resistant organisms and severity of disease.
@@ -89,8 +87,6 @@ Colonization of the oropharynx may favor pneumonia due to unusual microorganisms
 ![Table 105-2](hazzard8e_ch105_table105-2_p1682.png)
 
 > *Table 105-2 reproduced as a page image (printed p. 1682) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1683"></a>**[p. 1683]**
 
@@ -112,8 +108,6 @@ Viral etiologies are increasingly recognized with wider utilization of PCR-based
 
 > *Table 105-3 reproduced as a page image (printed p. 1683) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 COPD, chronic obstructive pulmonary disease.
 
 Finally, there are a number of epidemiologic factors that predispose patients to CAP caused by certain specific agents ( **Table 105-3** ). **Figure 105-1** depicts an etiologic approach for older patients based on severity of illness, risk factors, and basal functional status to help guide the most appropriate empiric selection of antibiotic coverage.
@@ -129,8 +123,6 @@ symptoms do not rule out a pneumonia diagnosis. The most common atypical manifes
 ![Figure 105-1](hazzard8e_ch105_figure105-1.png)
 
 > *FIGURE 105-1. The Pneumonia Severity Index (PSI) is used to calculate the need for admission and probability of death due to pneumonia based on specific patient characteristics, physical examination, and laboratory findings at presentation. Age is a major driver of the PSI.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Evaluation
 
@@ -174,15 +166,11 @@ predicting hospital mortality and/or the need for mechanical ventilation or inot
 
 > *FIGURE 105-2. Pneumonia severity should be assessed according to the clinical situation, biomarkers, and risk stratification scales. In severe cases, the possibility of infection by resistant microorganisms is increased; therefore, expanded antimicrobial therapy should be considered, especially when a risk factor is present. Infection by resistant pathogens should be considered, and likelihood of infection by _Pseudomonas aeruginosa_ , methicillin-resistant _Staphylococcus aureus_ , or extendedspectrum β-lactamase–producing _Enterobacteriaceae_ specifically assessed to choose antibiotic coverage. Colonization of the oropharynx by _Enterobacteriaceae_ is more likely in those with severe functional dependence.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 105-4 — Prognostic scales: CURB-65**
 
 ![Table 105-4](hazzard8e_ch105_table105-4_p1686.png)
 
 > *Table 105-4 reproduced as a page image (printed p. 1686) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 The detection of frailty and vulnerability by screening scales, such as Identification of Seniors at Risk (ISAR) or Triage Risk Screening Tool (TRST), or comprehensive geriatric assessment is particularly valuable to predict short-term adverse outcomes and decision making about diagnostic and therapeutic procedures and the most appropriate site of care.
 
@@ -191,8 +179,6 @@ The detection of frailty and vulnerability by screening scales, such as Identifi
 ![Table 105-5](hazzard8e_ch105_table105-5_p1686.png)
 
 > *Table 105-5 reproduced as a page image (printed p. 1686) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 There are other independent and dynamic factors that influence prognosis regarding the infection itself and
 
@@ -206,8 +192,6 @@ the systemic inflammatory response. Therefore, the probability of bacteremia, th
 
 > *Table 105-6 reproduced as a page image (printed p. 1687) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ## Site Of Care
 
 Clinical guidelines recommend the use of prognostic scales, mainly PSI and CURB-65, for admission decision making. Patients with PSI greater than or equal to III or CURB-65 greater than or equal to 2 meet criteria for hospital admission. The SCAP, SMART-COP, or ATS/IDSA scales can be helpful when deciding on ICU admission. In addition, other issues should be considered regarding site of care such as functional, cognitive, and social factors that may affect the final location.
@@ -217,8 +201,6 @@ Clinical guidelines recommend the use of prognostic scales, mainly PSI and CURB-
 ![Table 105-7](hazzard8e_ch105_table105-7_p1687.png)
 
 > *Table 105-7 reproduced as a page image (printed p. 1687) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Alternatives To Conventional Hospitalization
 
@@ -246,23 +228,17 @@ monitoring of clinical, functional, and cognitive areas and interventions to res
 
 > *Table 105-8 reproduced as a page image (printed p. 1688) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 105-9 — Directed antibiotic treatment in pneumonia for specific pathogens**
 
 ![Table 105-9](hazzard8e_ch105_table105-9_p1688.png)
 
 > *Table 105-9 reproduced as a page image (printed p. 1688) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 105-10 — Empirical antibiotic treatment for hospital-acquired pneumonia (HAP)**
 
 ![Table 105-10](hazzard8e_ch105_table105-10_p1688.png)
 
 > *Table 105-10 reproduced as a page image (printed p. 1688) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 In moderate-severe frailty, the invasive diagnostic and therapeutic procedures depend on individual goals and the site of care. Furthermore, these patients usually have severe
 
@@ -275,8 +251,6 @@ comorbidity and polypharmacy, making them more vulnerable to the occurrence of a
 ![Table 105-11](hazzard8e_ch105_table105-11_p1689.png)
 
 > *Table 105-11 reproduced as a page image (printed p. 1689) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 IM, intramuscular; IV, intravenous; PO, oral.
 
@@ -450,8 +424,6 @@ Treatment is usually based on the administration of isoniazid for 9 months, unle
 - (4) If isoniazid, rifampicin, or pyrazinamide cannot be used (severe liver disease or infection by a resistant strain): treatment should be done with the combination of at least four active drugs according to the antibiogram, administered for at least 18–24 months. The combination of a fluoroquinolone (levofloxacin 750 mg/day or moxifloxacin 400 mg/ day), an aminoglycoside (amikacin 1 g/day), a polypeptide (capreomycin 15 mg/kg/day), ethambutol, and at least one other active drug (linezolid [300–600 mg/day], ethionamide [15 mg/kg/day—maximum dose 1 g/day], or prothionamide and cycloserine [15 mg/kg/day—maximum dose 1 g/day] can be used.
 - (5) Pulmonary tuberculosis in HIV-infected patients: if the patient is receiving antiretroviral treatment (ART), they can be treated for 6 months with the same recommended regimen for non-HIV-infected patients. In exceptional cases, in which the patient does not receive ART during the entire tuberculostatic treatment, the second phase of treatment should be extended to 9 months. If the patient was not receiving ART, it should be started within the first 2 weeks of tuberculosis treatment, if the CD4 count is < 50 cells/μL and there is no CNS involvement, and between 8 and 12 weeks of treatment if CD4 is ≥ 50 cells/μL or < 50 cells/μL and the CNS is involved. The initiation of ART during antituberculous treatment can cause a temporary paradoxical worsening (10–30 days) with fever and increased infiltrate and/or adenopathies. In patients with AIDS-associated enteropathy, absorption of tuberculostatics may be irregular. If the patient receives protease inhibitors, substitute rifampicin for rifabutin 150–300 mg/day.
 - (6) Treatment failure is defined as the persistence of a positive sputum culture after 4–5 months of treatment. Perform an antibiogram from the last isolation. If it is possible, determine the serum concentration of the tuberculostatics used. Until this information is available, add 2–3 new drugs, administered under direct observation.
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1696"></a>**[p. 1696]**
 

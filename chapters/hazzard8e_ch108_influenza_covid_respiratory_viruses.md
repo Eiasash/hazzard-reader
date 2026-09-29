@@ -65,8 +65,6 @@ The traditional method to detect influenza has been viral culture, which is limi
 
 > *Table 108-1 reproduced as a page image (printed p. 1735) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 +/–, available but poor sensitivity; +, fair sensitivity; ++, good sensitivity; +++, optimal sensitivity.
 
 <sup>a</sup>Interpretation complicated by vaccination.

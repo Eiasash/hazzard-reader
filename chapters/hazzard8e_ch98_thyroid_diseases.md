@@ -42,13 +42,9 @@ Thyroid hormone levels are tightly regulated by TSH through a classic endocrine 
 
 > *FIGURE 98-1. Structures of T4 and the enzymatic pathways for deiodination of T4 to its major active metabolite, T3, and to reverse T3 in peripheral tissues.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 98-2](hazzard8e_ch98_figure98-2.png)
 
 > *FIGURE 98-2. Feedback regulation for control of thyroid function that involves the hypothalamus-pituitary-thyroid axis. Arrows represent positive feedback; dashed lines denote the inhibitory feedback of T4 and T3 on pituitary thyroid-stimulating hormone (TSH) and hypothalamic thyrotropin-releasing hormone (TRH) secretion.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 thyroid hormone levels within a narrow range. Because of variation between individuals in thyroid hormone set point and the sensitivity of the pituitary to perturbations in the set point, TSH levels are used clinically to screen for thyroid problems, rather than levels of T4 or T3.
 
@@ -110,8 +106,6 @@ When thyroid dysfunction is suspected clinically, the first step is to measure a
 ![Figure 98-3](hazzard8e_ch98_figure98-3.png)
 
 > *FIGURE 98-3. Classification of thyroid dysfunction based on thyroid-stimulating hormone (TSH) and free thyroxine (free T4) testing.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1549"></a>**[p. 1549]**
 ### Hyperthyroidism
@@ -273,8 +267,6 @@ Because the adverse effects of overt hyperthyroidism and hypothyroidism are reve
 
 > *FIGURE 98-4. General therapeutic approach to the management of subclinical hypothyroidism in nonpregnant adults. <sup>a</sup>Recommendation is based on an association of subclinical hypothyroidism with increased rates of the outcomes listed and is not based on clinical trial evidence that treatment can reduce these outcomes. (Reproduced with permission from Biondi B, Cappola AR, Cooper DS. Subclinical hypothyroidism: a review. _JAMA_ . 2019;322[2]:153–160.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 and TSH is a readily available test, screening older people for thyroid dysfunction has been proposed. However, the management of subclinical thyroid dysfunction, which is more common than overt disease, is not sufficiently supported by clinical trial data. Furthermore, the definition of the reference range may differ between older and younger people. If the 95% confidence interval is applied to a population free of thyroid disease, the upper limit of the reference range is 3.6 mIU/L for 20 to 29 year olds, but 7.5 mIU/L for those aged 80 and older. The US Preventive Services Task Force has concluded that there is insufficient evidence to recommend routine screening for thyroid dysfunction. This recommendation is unlikely to change until there is clear evidence to support management of any TSH concentration found on screening.
 
 ## Nodular Thyroid Disease And Thyroid Cancer
@@ -299,13 +291,9 @@ All other patients meeting the criteria in **Table 98-8** should undergo fine-ne
 
 > *Table 98-8. Fine-needle aspiration (FNA) of a thyroid nodule.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 98-5](hazzard8e_ch98_figure98-5.png)
 
 > *FIGURE 98-5. Algorithm for management of patients presenting with nodular thyroid disease, based on results of fine-needle aspiration (FNA).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Benign Nodular Disease
 

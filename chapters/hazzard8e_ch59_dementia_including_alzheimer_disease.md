@@ -191,8 +191,6 @@ The neuropathologic hallmarks of AD include amyloid plaques, neurofibrillary tan
 
 > *FIGURE 59-1. Small section of the neocortex from a patient with Alzheimer disease showing two classical neuropathologic lesions of the disease. **A.** The modified silver staining shows one dense senile (amyloid) plaque indicated by three arrowheads. The plaque consists of aggregated extracellular deposits of amyloid β-peptide (Aβ) fragments surrounded by silver-positive dystrophic neurites. The arrow indicates a neuron containing neurofibrillary tangles, which appear as dark masses of abnormal filaments occupying most of the cytoplasm. **B.** The image shows higher magnification of two neurons containing neurofibrillary tangles ( _indicated by arrows_ ). (Reproduced with permission from Shahriar Salamat, MD, PhD, University of Wisconsin School of Medicine and Public Health, Department of Pathology and Laboratory Medicine.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 synapses in the neocortex, hippocampus, and other subcortical regions of the brain. The predominance of amyloid plaques versus neurofibrillary tangles or amyloid angiopathy can differ from one patient to another. However, neuronal/synaptic loss is a constant feature and eventually the direct cause of dementia. The distribution of the disease pathology seems to follow a region-specific pattern with amyloid plaques being more prevalent in the neocortex and neuronal/synaptic loss being more prevalent in the hippocampus, posterior cingulate, and corpus callosum—areas of the brain closely involved with memory formation and higher cortical activities. Finally, brains of persons with AD are also characterized by a diffuse and widespread invasion of reactive astrocytes, mostly concentrated in the hippocampus and around areas of neuronal loss. These astrocytic changes are not specific to AD and can be observed in other neurodegenerative disorders associated with inflammation and neurotoxic insults.
 
 The dominant component of the amyloid plaque core is Aβ organized in fibrils of approximately 7 to 10 nm intermixed with nonfibrillar forms of the peptide. Neuritic plaques are characterized by a dense core of aggregated fibrillar Aβ, surrounded by dystrophic dendrites and axons, activated microglia, and reactive astrocytes. In addition, diffuse deposits of Aβ, likely representing a prefibrillary form of the aggregated peptide, are found without any surrounding dystrophic neurites, astrocytes, or microglia. These diffuse plaques can be found in limbic and association cortices, as well as in the cerebellum.
@@ -212,8 +210,6 @@ Aβ is a 39 to 43 amino acid hydrophobic peptide proteolytically released from a
 ![Figure 59-2](hazzard8e_ch59_figure59-2.png)
 
 > *FIGURE 59-2. Generation of amyloid β-peptide (Aβ) from amyloid precursor protein (APP). APP is a type 1 membrane protein with a large extracellular domain, a single membrane-spanning domain, and a short cytoplasmic tail. The Aβ region of APP ( _in yellow_ ) includes the first 12 to 14 amino acids of the membrane domain. **(A)** Shows a schematic image of APP on the cell surface of a neuron, whereas **(B)** provides a closer view of APP processing. The initial enzymatic step for the generation of Aβ requires proteolysis of APP at β-site (amino acid 1 of the Aβ region). This event liberates a large N-terminal fragment (sβAPP) that is rapidly secreted into the extracellular milieu and a small C-terminal fragment (β-APP-CTF) of 99 amino acids (also called C99). The removal of sβAPP most likely induces a conformational change that allows subsequent cleavage by γ-secretase. Once generated, the Aβ peptides aggregate in the brain in the form of plaques. Further cleavage of β-APP-CTF at the site liberates the signaling active APP intracellular domain (AICD). In addition to the above β/γ pathway, APP can also be cleaved at the α-site (between amino acids 16 and 17 of the Aβ region) precluding the generation of Aβ.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 complex containing presenilin, nicastrin, Aph-1, Pen-2, and CD147. The β-cleavage is the rate-limiting step and occurs before the γ-cleavage. It liberates a large N-terminal fragment of the protein (sβAPP) that is released in the extracellular milieu and a small (~12 kDa) membrane-anchored fragment called β _-_ APP-CTF (or C99). The release of the large N-terminal domain allows subsequent γ-cleavage, and liberation of Aβ and the signaling of active intracellular domain (AICD) of APP (see **Figure 59-2** ). Generation of Aβ40 and Aβ42 results from γ-cleavage of Aβ at positions 40 and 42, respectively. The release of Aβ in the extracellular milieu is followed by oligomerization and aggregation in the form of fibrils and amyloid plaques. Additionally, small Aβ aggregates are also found in the soma of the neurons suggesting that the Aβ fragments can escape secretion and aggregate in the intracellular environment. The molecular
 
@@ -343,14 +339,10 @@ _(Continued)_
 
 > *Table 59-4 reproduced as a page image (printed p. 903).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p904"></a>**[p. 904]**
 ![Figure 59-3](hazzard8e_ch59_figure59-3.png)
 
 > *FIGURE 59-3. Algorithm for the clinical diagnosis of Alzheimer disease.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Within a dedicated primary care clinic visit, an optimal cognitive assessment includes gathering information not only from the patient’s perspective, but also independently in a separate interview from an informant who knows the patient well. Depending on available time and resources, an independent informant interview may be accomplished through utilizing a variety of health care team members, such as social workers, medical assistants, nurses, or psychologists to conduct a brief structured informant interview or a full detailed assessment. Important historical elements include establishing when the cognitive symptoms began and the very first symptoms noted (such as problems with memory, language, executive function, apraxia, or personality changes). A careful delineation of the time course of progression will narrow the differential diagnosis and will help identify whether there are multiple contributing factors or one underlying process. Frequently, an inciting event that disrupts coping skills, such as a hospitalization or the death of a spouse, will draw the attention of family members to a patient’s memory problems. The family may give a history of an acute onset of memory impairment following the inciting event, but careful questioning may identify cognitive problems preceding that time period and point to a gradually progressive course.
 
@@ -500,22 +492,16 @@ In addition to targeting β-amyloid pathways, novel research is focusing on the 
 
 > *Table 59-7 — FDA-approved medications for the treatment of Alzheimer disease, reproduced as a page image (printed pp. 912–913; the image also includes the top rows of p. 913).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p913"></a>**[p. 913]**
 
 ![Table 59-7](hazzard8e_ch59_table59-7_p913.png)
 
 > *Table 59-7 (continued), reproduced as a page image (printed p. 913).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p914"></a>**[p. 914]**
 ![Table 59-7 (continued)](hazzard8e_ch59_table59-x_p914.png)
 
 > *Table 59-7 (continued) — FDA-approved medications for the treatment of Alzheimer disease, reproduced as a page image (printed p. 914; the table is printed sideways on this page).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p915"></a>**[p. 915]**
 

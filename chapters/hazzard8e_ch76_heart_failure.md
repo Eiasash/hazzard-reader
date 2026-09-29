@@ -41,8 +41,6 @@ Heart failure affects approximately 6.5 million Americans, and it is projected t
 
 > *Table 76-1 reproduced as a page image (printed p. 1166) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 80 years. Similarly, heart failure mortality rates increase exponentially with advancing age in all major demographic subgroups of the US population.
 
 Heart failure is also a major source of chronic disability and impaired quality of life in older adults, and it is the leading cause for hospitalization in individuals older than 65 years. In 2014, there were 1 million hospital admissions in the United States with a primary diagnosis of heart failure ( **Table 76-2** ). Of these, 71% were in patients older than 65 years, 53% were in patients 75 years or older, and 25% occurred in the 2% of the population aged at least 85 years ( **Figure 76-3** ). While the majority of heart failure patients younger than 65 years are males, women comprise more than half of heart failure hospitalizations after the age of 65, and the proportion of females continues to rise with advancing age. The prevalence of heart failure in older Caucasians and African-Americans is similar, and hospital admission rates are lower in Hispanics and Asians. Whether this represents a true difference in population prevalence or a difference in the likelihood that affected individuals will seek or receive medical attention is unknown. Heart failure is also a common reason for ambulatory care visits, with almost 2 million physician office visits with a primary diagnosis of heart failure occurring in 2016. In this regard, heart failure ranks second only to hypertension among cardiovascular reasons for outpatient physician visits.
@@ -62,8 +60,6 @@ From the clinical perspective, the changes associated with cardiovascular aging 
 
 > *FIGURE 76-1. Incident heart failure hospitalizations in the United States by age, gender, and self-reported race, 2005–2011: the Atherosclerosis Risk in Communities Study. (Reproduced with permission from NHANES, 2013 to 2016. National Heart, Lung, and Blood Institute. US Department of Health & Human Services.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 contribute directly to the heart’s attenuated capacity to augment cardiac output in response to stress. First, aging is associated with reduced responsiveness to β-adrenergic stimulation. This is related to increased sympathetic nervous system activity and circulating catecholamine levels resulting in β-adrenergic receptor desensitization, rather
 
 than decreased β-receptor density on cardiac myocytes or altered responsiveness to intracellular calcium. The diminished response to β-adrenergic stimulation limits the heart’s capacity to maximally increase heart rate and contractility in response to stress, and β2-mediated peripheral vasodilatation is also impaired.
@@ -72,16 +68,12 @@ than decreased β-receptor density on cardiac myocytes or altered responsiveness
 
 > *FIGURE 76-2. Prevalence of heart failure in the United States by age and gender: National Health and Nutrition Examinations Survey, 2009–2012. (Reproduced with permission from NHANES, 2013 to 2016. National Heart, Lung, and Blood Institute. US Department of Health & Human Services.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1168"></a>**[p. 1168]**
 **Table 76-2 — Epidemiology of heart failure in the united states**
 
 ![Table 76-2](hazzard8e_ch76_table76-2_p1168.png)
 
 > *Table 76-2 reproduced as a page image (printed p. 1168) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 A second major effect of aging is increased stiffness of the large- and medium-sized arteries, primarily because of increased collagen deposition and cross-linking and degeneration of elastin fibers in the media and adventitia. Increased stiffness of the central conduit arteries results in increased impedance to left ventricular ejection (ie, increased afterload), and it also contributes to the increased propensity of older individuals to develop systolic hypertension ( **Figure 76-4** ).
 
@@ -95,22 +87,16 @@ Age-related changes in diastolic filling and atrial function can be evaluated no
 
 > *FIGURE 76-3. Distribution of hospitalizations for heart failure in the United States by age, 2000–2010. (Reproduced with permission from CDC/NCHS, National Hospital Discharge Survey, 2000–2010. US Department of Health & Human Services.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1169"></a>**[p. 1169]**
 ![Figure 76-4](hazzard8e_ch76_figure76-4.png)
 
 > *FIGURE 76-4. Age-related changes in central conduit arteries lead to numerous physiologic changes. (Reproduced with permission from Lakatta EG. Cardiovascular regulatory mechanisms in advanced age. _Physiol Rev_ . 1993;73[2]:413–467.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 mitral valve and corresponding to active ventricular relaxation ( **Figure 76-5A** ). This is followed by a period in which the rate of filling slows (the downslope of the E-wave, called the deceleration time), mid-diastolic diastasis (in which left atrial and left ventricular pressures are essentially equal), and additional left ventricular filling at the end of diastole corresponding to atrial contraction (the A-wave, or atrial “kick”). Importantly, the majority of ventricular filling
 
 ![Figure 76-5](hazzard8e_ch76_figure76-5.png)
 
 > *FIGURE 76-5. Schematic diagram of Doppler echocardiographic mitral valve inflow patterns. **A.** Normal pattern. **B.** Impaired filling pattern. **C.** Restrictive pattern. AT, acceleration time; DT, deceleration time; IR, isovolumic relaxation; S2, aortic valve closure. (Adapted with permission from Feigenbaum H. _Echocardiography_ , 5th ed. Philadelphia, PA: Lea & Febiger; 1994.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 occurs in the first half of diastole in young individuals, with a relatively small contribution from atrial contraction.
 
@@ -149,8 +135,6 @@ In general, the risk factors for heart failure are similar in older and younger 
 
 > *Table 76-3 reproduced as a page image (printed p. 1171) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 frequently preceded by a modifier that indicates a potential cause of heart failure. For example, hypertensive hypertrophic cardiomyopathy represents a more severe form of hypertensive heart disease most commonly seen in older women and often accompanied by calcification of the mitral valve annulus. These patients often manifest severe diastolic dysfunction and may exhibit dynamic left ventricular outflow tract obstruction indistinguishable from that seen in hypertrophic cardiomyopathy due to sarcomere mutations.
 
 Valvular cardiomyopathy is an increasingly common cause of heart failure at older age. Calcific aortic stenosis is now the most common form of valvular heart disease requiring invasive treatment, and aortic valve replacement is the second most common major cardiac procedure performed in patients older than 70 years (after coronary bypass grafting). Mitral regurgitation in older individuals may be caused by myxomatous degeneration of the mitral valve leaflets and chordae tendineae (mitral valve prolapse), mitral annular calcification, valvular vegetations, ischemic papillary muscle dysfunction, or altered ventricular geometry owing to ischemic or nonischemic dilated cardiomyopathy. Importantly, mitral regurgitation may be acute (eg, following acute myocardial infarction), subacute (eg, endocarditis), or chronic (eg, myxomatous degeneration), and the clinical manifestations may vary widely in each of these settings. In the United States, rheumatic mitral stenosis is a less common cause of heart failure in older adults. Functional mitral stenosis owing to severe mitral valve annulus calcification with narrowing of the mitral valve orifice is an uncommon cause of heart failure, but it is associated with a poor prognosis. Aortic insufficiency may be either acute (eg, because of endocarditis or type A aortic dissection) or chronic (eg, annuloaortic ectasia or syphilitic aortitis), but it is a relatively infrequent cause of heart failure in older adults. Finally, prosthetic valve dysfunction should be considered as a potential cause of heart failure in any patient who has undergone previous valve repair or replacement.
@@ -177,8 +161,6 @@ Among cardiac factors, myocardial ischemia or infarction and new-onset or recurr
 ![Table 76-4](hazzard8e_ch76_table76-4_p1172.png)
 
 > *Table 76-4 reproduced as a page image (printed p. 1172) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 bradyarrhythmias in this population. In hospitalized patients, iatrogenic volume overload is also an important precipitant of heart failure.
 
@@ -229,8 +211,6 @@ To differentiate shortness of breath attributable to heart failure from other ca
 
 > *FIGURE 76-6. B-type natriuretic peptide levels by age and gender (mean values in healthy volunteers). (Data from Redfield MM, Rodeheffer RJ, Jacobsen SJ, et al. Plasma brain natriuretic peptide concentration: impact of age and gender. _J Am Coll Cardiol_ . 2002;40[5]:976–982.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 levels increase modestly with age especially in women ( **Figure 76-6** ), declining renal function, and worsening anemia; and are <mark>generally lower with a higher BMI.</mark> Therefore, the specificity of an elevated natriuretic peptide level for identifying heart failure declines with age. BNP levels more than 500 pg/mL in the appropriate clinical context are highly suggestive of active heart failure, whereas a normal value (< 100 pg/mL) in a nonobese older adult makes the diagnosis of heart failure much less likely. In addition to the BNP level, the chest radiograph remains useful for establishing the presence of active pulmonary congestion. In patients with moderate or severe heart failure, the chest film will usually demonstrate typical findings of cardiomegaly, pulmonary vascular redistribution or edema, and pleural effusions. However, in patients with mild heart failure or coexisting pulmonary disease, the chest radiograph may be nondiagnostic.
 
 Once heart failure has been diagnosed, the physician must address two crucial questions, the answers to which will serve as the basis for selecting appropriate therapy:
@@ -246,8 +226,6 @@ In 2017, the American College of Cardiology and American Heart Association Task 
 ![Table 76-6](hazzard8e_ch76_table76-6_p1174.png)
 
 > *Table 76-6 reproduced as a page image (printed p. 1174) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1175"></a>**[p. 1175]**
 new-onset heart failure. Class I studies are defined as those that are indicated in most patients, class II procedures are acceptable in some patients but are of unproven efficacy and may be controversial, and class III studies are not routinely indicated and, in some cases, may be harmful. Briefly, basic laboratory studies, a thyroid function test, a chest radiograph, an electrocardiogram, and an echocardiogram with Doppler are recommended in all patients. Cardiac catheterization and coronary angiography are appropriate in patients with angina or significant ischemia on noninvasive testing, and in those who require surgical correction of a valve lesion (eg, aortic stenosis), unless the patient is not a suitable candidate for coronary revascularization.
@@ -265,8 +243,6 @@ An important goal of the diagnostic evaluation is differentiating HFREF from HFP
 ![Table 76-7](hazzard8e_ch76_table76-7_p1175.png)
 
 > *Table 76-7 reproduced as a page image (printed p. 1175) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 the most useful technique because it is noninvasive, widely available, and, in addition to providing information about systolic and diastolic function, it is helpful in evaluating chamber size, wall thickness and motion, valve function, pulmonary artery pressure, and pericardial disease. Thus, transthoracic echocardiography is appropriate in virtually all older patients with newly diagnosed heart failure and in those with an unexplained change in symptom severity. The principal limitation of echocardiography is that adequate visualization of the heart may be unobtainable in a small percentage of patients, although the availability of echo-contrast agents has reduced this problem. Alternatively, radionuclide angiography can provide an accurate assessment of left ventricular function, as well as information about cavity size and regurgitant valvular lesions. Magnetic resonance imaging provides more detail about myocardial characteristics (scar, inflammation, edema) than echocardiography but cannot assess diastolic function easily, is more expensive and less widely available, and some types of contrast administration are contraindicated in patients with impaired renal function.
 
@@ -308,8 +284,6 @@ Less often appreciated is the relationship between sodium restriction and poor n
 
 > *Table 76-8 reproduced as a page image (printed p. 1177) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 heart failure, particularly in older and/or frail individuals. Dietary sodium restriction has been associated with insufficient calorie intake and dietary deficiencies of critical micronutrients, both of which in turn predict poor clinical outcomes. Older patients with heart failure face a myriad of challenges in maintaining adequate nutrition, including age-related changes in taste and smell, symptoms such as shortness of breath, fatigue, bloating, and nausea, and
 
 psychological and logistical factors such as depression, cognitive impairment, poor mobility, and limited social support.
@@ -336,15 +310,11 @@ While data on exercise training in older adults are limited, a randomized trial 
 
 > *Table 76-9 reproduced as a page image (printed p. 1178) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 76-10 — Exercise prescription for older patients with heart failure**
 
 ![Table 76-10](hazzard8e_ch76_table76-10_p1178.png)
 
 > *Table 76-10 reproduced as a page image (printed p. 1178) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 or light weights and targeting all the major muscle groups. Suitable forms of aerobic exercise for older patients include walking, stationary cycling, and swimming. The choice of aerobic exercise should be tailored to the patient’s wishes and abilities. When initiating an exercise program, the duration and intensity of the aerobic activity should be well within the patient’s comfort range. The activity should be enjoyable, not stressful, and after completing the activity the patient should feel “positive” about the experience and not unduly fatigued. For many older patients with heart failure, this may mean starting with as little as 2 to 5 minutes of slow-paced walking. Once the patient feels comfortable exercising, the duration of exercise can be gradually increased over a period of several weeks. Weekly increases of 1 to 2 minutes per session are appropriate for most patients. Once the patient can exercise continuously and comfortably for 20 to 30 minutes, the intensity of exercise may be increased, if desired. More recently, high-intensity interval training, in which short bursts of higher-intensity exercise are incorporated into the exercise regimen, has been shown to be safe and to result in more rapid increases in exercise capacity in heart failure patients. These findings, while encouraging, should be regarded as preliminary, and high-intensity training should only be initiated in a monitored setting.
 
@@ -465,14 +435,10 @@ Even though more than 50% of older patients with heart failure have preserved le
 
 > *Table 76-11 reproduced as a page image (printed p. 1185) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
  <a id="p1186"></a>**[p. 1186]**
 ![Table 76-11](hazzard8e_ch76_table76-11_p1186.png)
 
 > *Table 76-11 reproduced as a page image (printed p. 1186) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 At least 70% to 80% of older persons with HFPEF have hypertension, and coronary and valvular heart diseases are also highly prevalent in this population. Treatment for HFPEF begins with aggressive management of hypertension to target levels. Although there is limited data on the ideal blood pressure targets for patients with HFPEF, it may be reasonable to apply the recent observations from SPRINT and recommend systolic blood pressure less than 130 mm Hg and diastolic blood pressure less than 90 mm Hg for most ambulatory, community dwelling, older adults. This target should be personalized on an individual-level, however, accounting for the potential for increased risk of falls in older adults with HFPEF, a subpopulation with a high prevalence of frailty and who frequently take diuretics which can increase risk for orthostatic hypotension. Myocardial ischemia should be treated with antianginal medications and/or coronary revascularization as indicated. Resting and exercise heart rate should be adequately controlled in patients with atrial fibrillation. Patients with severe valvular heart disease should be considered for valve repair or replacement, and less severe regurgitant valvular lesions should be treated with vasodilators, such as ACE inhibitors. As with HFREF, nonpharmacologic aspects of
 

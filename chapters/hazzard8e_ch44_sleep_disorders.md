@@ -41,8 +41,6 @@ Many experts believe that the age-related changes in sleep are due to a decrease
 
 > *FIGURE 44-1. Change in sleep stages with age. Time spent in wake after sleep onset (WASO) increases significantly while time spent in slow wave sleep (SWS) decreases with age. REM, rapid eye movement. (Reproduced with permission from Krieger MH, Roth T, Dement WC. _Principles and Practices of Sleep Medicine_ . 5th ed. St. Louis, MO: Elsevier Saunders; 2011.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Many of the illnesses associated with aging can disrupt sleep, which may inhibit the normal progression through sleep stages. Thus, chronological age itself may not be the greatest predictor of sleep quality. Numerous epidemiologic studies have found a U- or J-shaped relationship between sleep time and subsequent mortality with both long and short sleep durations being associated with an increased risk of death. The cause of this relationship is still unknown given all of the potential confounders, despite controlling for known comorbidities. Changes in sleep architecture in aging may contribute to metabolic changes that occur in older adults. For instance, N3 sleep is associated with growth hormone secretion and the reduction in N3 sleep with aging may be partly responsible for the decrease in growth hormone in older men. Decreased sleep has also been linked to the metabolic conditions that impact healthy aging such as obesity and diabetes mellitus. Given the link between insufficient and fragmented sleep, quality of life, and health outcomes, there is a need for awareness, evaluation, and treatment of sleep disorders that commonly affect older adults.
 
 ## Sleep-Disordered Breathing
@@ -57,8 +55,6 @@ Sleep-disordered breathing (SDB) is characterized by disturbed respiration durin
 
 > *FIGURE 44-2. Obstructive versus central sleep apnea. (Reproduced with permission from Krieger MH, Roth T, Dement WC. _Principles and Practices of Sleep Medicine_ . 5th ed. St. Louis, MO: Elsevier Saunders; 2011.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ( **Figure 44-2** ). OSA is by far the most common sleep-related breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater than 15, or when it is greater than 5 with significant symptoms or related comorbidities. An AHI greater than 30 is generally considered to indicate severe SDB.
 
 The consequences of respiratory events during sleep include arousals from sleep, intrathoracic pressure swings, and cyclical drops in the blood oxygen level. This ultimately leads to sleep fragmentation and nocturnal hypoxemia, which may lead to significant health consequences.
@@ -71,14 +67,10 @@ Many of the risk factors for OSA increase with age ( **Table 44-1** ). Estimates
 
 > *FIGURE 44-3. This figure represents central sleep apnea with a Cheyne-Stokes breathing pattern. During the periods of apnea there is no chest or abdominal effort. (Reproduced with permission from Javaheri S, Randernath WJ. Opioid-induced central sleep apnea: mechanisms and therapies. _Sleep Med Clin_ . 2014;9[1]:49–56.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p646"></a>**[p. 646]**
 ![Table 44-1](hazzard8e_ch44_table44-1_p646.png)
 
 > *Table 44-1 reproduced as a page image (printed p. 646) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 varied widely and are dependent on the populations studied. A cohort between 2007 and 2010 of middle-aged adults has estimated moderate to severe SDB to occur in 6% of women and 13% men. Evidence suggests that OSA is underdiagnosed in the general population, particularly in women. If the rate of obesity and overweight continues to increase, the rates of SDB will also increase. Less is known about the epidemiology of SDB in an older population; however, most studies have shown that the risk of OSA increases with increasing age until the age of 70 at which time there is a plateau (Figure 44-4). Furthermore, premenopausal status appears to protect against OSA meaning that the gender discrepancy between men and
 
@@ -96,8 +88,6 @@ The most significant immediate consequence of OSA is excessive daytime sleepines
 
 > *FIGURE 44-4. Association of obstructive sleep apnea (OSA) with age. Mild obstructive sleep apnea is shown in red while moderate to severe obstructive sleep apnea is shown in green. AHI, apnea hypopnea index. (Reproduced with permission from Norman D, Loredo JS. Obstructive sleep apnea in older adults. _Clin Geriatr Med_ . 2008;24[1]:151–165.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 with adverse cardiovascular and metabolic consequences have been reported. The association between SDB and these comorbidities is likely multifactorial. SDB results in sleep fragmentation, which has been shown to increase sympathetic nervous system activation, increase nocturnal cortisol levels, and interfere with insulin sensitivity. The potential downstream effects of these neurohumoral changes include the development of hypertension and diabetes. Increased intrathoracic pressure can occur and increase atrial natriuretic peptide levels potentially contributing to nocturia. Furthermore, the cyclic deoxygenation and reoxygenation that occurs with OSA leads to endothelial cell injury and inflammatory changes, which predispose to coronary and cerebral vascular disease ( **Figure 44-5** ). The intrathoracic pressure changes associated with increasing respiratory effort against a closed airway can lead to esophageal reflux as well as potentially deleterious hemodynamic effects in heart failure.
 
 ### Clinical Presentation
@@ -108,8 +98,6 @@ The major symptoms of SDB include excessive daytime sleepiness and nocturnal sno
 ![Figure 44-5](hazzard8e_ch44_figure44-5.png)
 
 > *FIGURE 44-5. Model explaining why obstructive sleep apnea (OSA) might be associated with increased cardiovascular risk. NOx, nitrogen oxides; NO, nitrous oxide. (Reproduced with permission from Jullian-Desayes I, Joyeux-Faure M, et al. Impact of obstructive sleep apnea treatment by continuous positive airway pressure on cardiometabolic biomarkers: a systematic review from sham CPAP randomized controlled trials. _Sleep Med Rev._ 2015;21:23–38.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 as additional features that may point to a comorbid sleep disorder. Snoring is indicative of a partially collapsed airway and is a useful predictor of the presence of OSA or future development of the condition. The lack of classic symptoms and findings of OSA should not preclude further evaluation for SDB, particularly in older patients.
 
@@ -127,8 +115,6 @@ Patients suspected of having SDB should be referred for sleep testing. An attend
 ![Figure 44-6](hazzard8e_ch44_figure44-6.png)
 
 > *FIGURE 44-6. Friedman palate position. Positions 3 and 4 are associated with increased risk of obstructive sleep apnea (OSA). (Reproduced with permission from Friedman M, Ibrahim H, Bass L. Clinical staging for sleep-disordered breathing. _Otolaryngol Head Neck Surg_ . 2002;127[1]:13–21.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 arterial tone changes due to changes in sympathetic activity resulting from the respiratory events that can be correlated with pulse oximetry. Such devices may be easier for some patients to self-administer, particularly those with cognitive or dexterity issues. However, these devices are not validated for the measurement of central apneas and should not be used in those taking alpha-adrenergic blocking medications or in those with atrial fibrillation. HSAT is only recommended for patients with a high pretest probability of having OSA who do not have significant cardiopulmonary comorbidities.
 
@@ -190,8 +176,6 @@ SDB is associated with significant mental and physical comorbidities. Given the 
 ![Figure 44-7](hazzard8e_ch44_figure44-7.png)
 
 > *FIGURE 44-7. Periodic leg movements in sleep (PLMS) seen on polysomnography (PSG). (Reproduced with permission from Avidan AY. Sleep disorders in the older patient. _Prim Care_ . 2005;32[2]:563–586.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Insomnia is an important comorbidity of SDB. In fact, SDB itself may contribute to insomnia by disrupting sleep architecture and even preventing stable sleep onset due to OSA respiratory events. Sometimes insomnia improves with the treatment of SDB. However, insomnia may be exacerbated by the invasiveness of positive airway pressure or mandibular advancement. For a successful treatment outcome both disorders must be addressed. SDB and other mental illnesses such as anxiety, depression, and posttraumatic stress are frequently present in the same patient. Once again, the SDB may exacerbate some of the symptoms of these mental illnesses, and these illnesses may present barriers to acceptance of therapy.
 
@@ -318,8 +302,6 @@ The evaluation of RBD includes a neurologic and sleep history. The history shoul
 
 > *FIGURE 44-8. Relationship between the diagnosis of idiopathic REM behavior disorder (IRBD) and the development of a neurodegenerative disorder. (Reproduced with permission from Iranzo A, Tolosa E, Gelpi E, et al. Neurodegenerative disease status and post-mortem pathology in idiopathic rapid-eye-movement sleep behaviour disorder: an observational cohort study. _Lancet Neurol_ . 2013;12[5]:443–453.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p655"></a>**[p. 655]**
 
 examination can elucidate a comorbid neurodegenerative disorder. It may be difficult to distinguish RBD symptoms from those of other parasomnias, nocturnal seizures, and the nightmares of posttraumatic stress disorder (PTSD). SDB can cause RBD-like symptoms, which typically resolve with effective SDB therapy.
@@ -372,13 +354,9 @@ _Non–24-hour sleep-wake rhythm disorder_ usually occurs from a patient's inabi
 
 > *FIGURE 44-9. Actigraphy of a patient with irregular sleep-wake disorder. The red lines indicate bouts of movement and activity. In this patient there is not a set time when there is activity versus inactivity. (Reproduced with permission from Kryger MH, Avidan AY, Berry RB. Atlas of Clinical Sleep Medicine. 2nd ed. Philadelphia, PA: Elsevier; 2014.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 44-10](hazzard8e_ch44_figure44-10.png)
 
 > *FIGURE 44-10. Actigraphy of a patient with non–24-hour sleep-wake rhythm disorder. Because the internal circadian rhythm is longer than 24 hours, each night the patient goes to bed later and wakes up later, causing a drift in the sleep period over time. (Reproduced with permission from Kryger MH, Avidan AY, Berry RB. Atlas of Clinical Sleep Medicine. 2nd ed. Philadelphia, PA: Elsevier; 2014.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p657"></a>**[p. 657]**
 ### Epidemiology
@@ -467,8 +445,6 @@ Behavioral and nonpharmacologic interventions appear to have better long-term ef
 
 > *Table 44-4 reproduced as a page image (printed p. 659) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 a1 = excellent to 5 = very poor; b1 = not tired to 5 = very tired.
 
 professionals trained in such interventions may be limited in some health care systems. Cognitive behavioral therapy for insomnia (CBT-I) has been recommended as the first-line treatment for all insomnia in adults by multiple practice guidelines.
@@ -485,8 +461,6 @@ _Melatonin receptor agonists_ (eg, ramelteon) are approved for insomnia. Rather 
 ![Table 44-5](hazzard8e_ch44_table44-5_p660.png)
 
 > *Table 44-5 reproduced as a page image (printed p. 660) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 side effects. However, somnolence, dizziness, headache, and fatigue can be side effects of this agent. Ramelteon does not seem to be associated with significant withdrawal or rebound insomnia effects. The major downside of ramelteon is that its lack of amnestic properties makes it somewhat less effective for subjective improvement in sleep.
 

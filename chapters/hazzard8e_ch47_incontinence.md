@@ -66,8 +66,6 @@ Continence requires effective functioning of the lower urinary tract, adequate c
 
 > *FIGURE 47-1. Central and peripheral nervous system involvement in micturition.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 At the most basic level, urination is governed by a reflex in the sacral spinal cord. During normal bladder filling, afferent pathways (via somatic and autonomic nerves) carry information regarding bladder volume to the spinal cord. Motor output is adjusted accordingly (Figure 47-1). Sympathetic tone closes the bladder neck and inhibits parasympathetic tone (thus relaxing the dome of the bladder); somatic innervation maintains tone in the pelvic floor musculature (including striated muscle around the urethra). Voluntary pelvic floor muscle contracture also leads to inhibition of parasympathetic tone. For bladder emptying, sympathetic and somatic tones diminish, and parasympathetic, cholinergic-mediated impulses cause <a id="p701"></a>**[p. 701]** ⟨2026: Q64⟩ the bladder to contract. Normal urination is a dynamic process, requiring the coordination of several physiologic processes. Under normal circumstances, as the bladder fills, bladder pressure remains low (≤ 15 cm H₂O). The bladder volume at first urge to void is variable, but generally occurs at between 150 and 350 mL; normal bladder capacity is 300 to 600 mL. When normal urination is initiated (usually every 3 to 4 hours during wakefulness), the detrusor contracts and detrusor pressure increases until it exceeds urethral resistance (which lowers immediately prior to bladder contraction). Urine flow occurs typically over less than 2 minutes. If at any time during bladder filling, total bladder pressure exceeds outlet resistance, urinary leakage occurs. Transmitted intra-abdominal pressure alone by coughing or sneezing may cause leakage in someone with low outlet resistance pressure or urethral sphincter weakness. Alternatively, the bladder can contract involuntarily and cause urinary leakage.
 
 ### Risk Factors
@@ -234,8 +232,6 @@ A determination of PVR should be performed in patients at risk for retention, in
 > *FIGURE 47-2. Summary of assessment and initial management of geriatric urinary incontinence. (See referenced tables and text for details.)*
 
 > Figure 47-2 is a flowchart; shown as an image, not transcribed.
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p707"></a>**[p. 707]**
 

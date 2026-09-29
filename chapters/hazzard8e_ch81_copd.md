@@ -60,8 +60,6 @@ Healthy aging is associated with structural and functional changes in the lungs 
 
 > *Table 81-1 reproduced as a page image (printed p. 1238) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 DLCO, diffusing capacity of the lung for carbon monoxide; FEV1, forced expiratory volume in 1 second; FRC, functional residual capacity; FVC, forced vital capacity; PA, pulmonary arterial; PEEPi, intrinsic positive end-expiratory pressure; RV, residual volume; TLC, total lung capacity; V̇a/Q̇, ventilation to perfusion ratio; V̇Emax, minute ventilation at maximal exercise.
 
 <sup>a</sup>The noted impairments occur in an otherwise healthy older person.
@@ -97,8 +95,6 @@ Most of these studies addressed the early, initiating phases of COPD development
 
 > *Table 81-2 reproduced as a page image (printed p. 1239) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 CCL, chemokine (C-C motif) ligand; FOXO3, forkhead box O3; γ-H2AX, phosphorylated Histone 2A family member X; HDAC, histone deacetylase; HGF, hepatocyte growth factor; HMOX, heme-oxygenase; IL, interleukin; MCP, monocyte chemoattractant protein; MIF, macrophage migration inhibitory factor; MIP, macrophage inflammatory protein; MMP, matrix metalloproteases; MTOR, mammalian target of rapamycin; NRF-2, nuclear factor erythroid 2–related factor 2; RORα, retinoid orphan receptor alpha; Serpine, serpin peptidase inhibitor; SOD, superoxide dismutase; TIMP, tissue inhibitors of MMPs; TNF, tumor necrosis factor; VEGF, vascular endothelial growth factor.
 
 roles. Genome-wide association studies have identified a wide array of genetic associations for COPD susceptibility and phenotypes beyond α1-AT deficiency (see Further Reading).
@@ -115,8 +111,6 @@ Age-related loss of endogenous, protective immune molecules such as macrophage m
 ![Figure 81-1](hazzard8e_ch81_figure81-1.png)
 
 > *FIGURE 81-1. Cellular processes determining chronic bronchitis and emphysema.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 the role of lung cell apoptosis has been highlighted by multiple studies. Enhanced cell death and inadequate regenerative responses including stem cell exhaustion, defective DNA repair, and decreased autophagy (removal of degraded proteins, damaged cells, or foreign pathogens) are pivotal to the progressive loss of gas exchange surface area in emphysema.
 
@@ -150,8 +144,6 @@ Accordingly, the impairments imposed by advancing age and COPD (see **Tables 81-
 ![Table 81-3](hazzard8e_ch81_table81-3_p1242.png)
 
 > *Table 81-3 reproduced as a page image (printed p. 1242) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Diagnosis
 
@@ -208,8 +200,6 @@ FEV1/FVC. The ATS/ERS approach currently defines the LLN as the fifth percentile
 
 > *Table 81-5 reproduced as a page image (printed p. 1244) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 FEV1/FVC, ratio of forced expiratory volume in 1 second (FEV1) to forced vital capacity (FVC); LLN, lower limit of normal; NHANES III, Third National Health and Nutrition Examination Survey; %Pred, percent predicted (measured/predicted × 100). aAirflow obstruction is first established by FEV1/FVC, with severity thereafter staged by FEV1. bThe use of prebronchodilator spirometric measures provides a more reasonable approach when establishing and staging airflow obstruction in older persons, with reversibility best evaluated by serial spirometry over time. cDefined by the fifth percentile distribution of reference values. dCalculated as: [(measured FEV1/FVC ÷ median FEV1/FVC)Lambda – 1] ÷ (lambda × sigma), wherein (1) median represents how the spirometric variable changes with a predictor variable (age and height); (2) sigma is the coefficient of variation, which models the spread of spirometric reference values; and (3) lambda, which models the departure from normality (skewness). GLI equations provide values for the median, lambda, and skewness, and are specific to sex and ethnicity. An FEV1/FVC Z-score of –1.64 defines the LLN as the fifth percentile distribution of Z-scores. eCalculated as: [(measured FEV1 ÷ median FEV1)Lambda – 1] ÷ (lambda × sigma). An FEV1 Z-score of –1.64 defines the LLN (fifth percentile), whereas –2.55 corresponds to the 0.5th percentile distribution of Z-scores.
 
 persons, however, this approach has two disadvantages. First, older persons have limited capacity to perform multiple FVC maneuvers, and may have an adverse response to an inhaled BD. Second, post-BD values have limited clinical relevance in distinguishing COPD from asthma, and have low reproducibility over time. Hence, the use of pre-BD values provides a reasonable approach when diagnosing and staging COPD in older persons where necessary, with limited reversibility best established by serial spirometry over time.
@@ -227,8 +217,6 @@ Given the limitations of spirometry alone in establishing the diagnosis of COPD,
 
 > *Table 81-6 reproduced as a page image (printed p. 1245) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 relevant exposures, spirometry, and radiologic (CT scan) features all play a key role (see Further Reading). Use of such an approach leads to establishment of the diagnosis in a much larger population of people as compared with use of lung function testing alone. It would also have major implications for identification/selection/inclusion of participants for clinical trials of therapeutic interventions in COPD. Further research is needed to determine the impact of current therapies for COPD among those with chronic bronchitis and/or radiologic features of COPD without airflow obstruction, and those with PRISm. Currently, the diagnostic evaluation should assess additional respiratory impairments, as these further confirm COPD and are associated with adverse outcomes ( **Table 81-6** ).
 
 Lastly, several subgroups (“phenotypes”) of COPD with distinct features are recognized ( **Table 81-7** ). While the pathobiologic processes underlying these different groups is incompletely understood, combining the physiologic respiratory impairments with clinical and radiologic features further establishes clinical phenotypes and informs more personalized COPD-related treatment options and prognosis ( **Table 81-7** ). Additional assessments that should be made routinely include measurement of peripheral blood eosinophil count and serum α1-AT level (and phenotype), because these features both characterize patients and inform specific aspects of disease management.
@@ -244,8 +232,6 @@ Because of shared risk factors (eg, tobacco smoke) and sequelae of progressive c
 ![Table 81-7](hazzard8e_ch81_table81-7_p1246.png)
 
 > *Table 81-7 reproduced as a page image (printed p. 1246) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 DLCO, diffusing capacity of the lung for carbon monoxide; OSA, obstructive sleep apnea.
 
@@ -297,8 +283,6 @@ The goals of care for stable COPD are to relieve and minimize symptoms, optimize
 
 > *FIGURE 81-2. Algorithm for inhaler selection. DPI, dry powder inhaler; EXIT-25, a 25-item cognitive test (executive interview) that evaluates executive function (the higher the score, the worse the cognitive impairment); MMSE, Mini-Mental Status Examination (the lower the score, the worse the cognitive impairment); PIF, peak inspiratory flow; pMDI, pressurized metered-dose inhaler; SMI, soft-mist inhaler.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **_Short-Acting Bronchodilators_** Bronchodilators are a mainstay of the treatment of stable COPD, irrespective of clinical phenotype, as they achieve improvements in symptoms, exercise capacity, and airflow obstruction. Inhaled bronchodilators are preferred over oral agents, based on efficacy and side effects, and aging itself does not reduce the bronchodilator response. Notably, bronchodilators are effective in spite of patients’ fixed, irreversible airflow obstruction; they reduce dynamic hyperinflation and end-expiratory lung volume and improve inspiratory capacity and patients’ breathing pattern.
 
 Albuterol is an inhaled short-acting β2-agonist (SABA) with a fast onset of action. It is usually the first bronchodilator used, serving primarily as _rescue therapy_ (as needed, rather than regularly scheduled), and is commonly prescribed as a handheld pressurized metered-dose inhaler (pMDI). Albuterol is also available as a nebulizer, an alternative for older patients who have difficulties using handheld inhalers and/or who may benefit from the mucus-mobilizing properties of this therapy. Patients/caregivers should be advised to always have albuterol readily available in the event of acute worsening of symptoms (dyspnea) that does not improve with rest and use of slow, pursed lips breathing. Individuals with visual impairment should mark albuterol pMDIs to avoid confusion with other inhalers. Common side effects of SABAs are listed in **Table 81-10** , with concerns especially raised in people with COPD and concurrent cardiovascular disease (especially hypertension or tachyarrhythmias), coexisting asthma (mortality), and excessive dosing.
@@ -311,15 +295,11 @@ The anticholinergic ipratropium is a short-acting inhaled bronchodilator, with l
 
 > *Table 81-10 reproduced as a page image (printed p. 1249) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1250"></a>**[p. 1250]**
 
 ![Table 81-10](hazzard8e_ch81_table81-10_p1250.png)
 
 > *Table 81-10 reproduced as a page image (printed p. 1250) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1251"></a>**[p. 1251]**
 
@@ -327,15 +307,11 @@ The anticholinergic ipratropium is a short-acting inhaled bronchodilator, with l
 
 > *Table 81-10 reproduced as a page image (printed p. 1251) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1252"></a>**[p. 1252]**
 
 ![Table 81-10](hazzard8e_ch81_table81-10_p1252.png)
 
 > *Table 81-10 reproduced as a page image (printed p. 1252) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 DPI, dry powder inhaler; HFA, hydrofluoroalkane; LABA, long-acting β2-selective agonist; LAMA, long-acting muscarinic antagonist; pMDI, pressurized metered-dose inhaler; PIF, peak inspiratory flow; SABA, short acting β2-agonist; SMI, soft-mist inhaler.
 
@@ -561,8 +537,6 @@ Inhaled BD, inhaled and systemic corticosteroids (where appropriate), and other 
 ![Table 81-14](hazzard8e_ch81_table81-14_p1263.png)
 
 > *Table 81-14 reproduced as a page image (printed p. 1263) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 aZ-meds include eszopiclone, zaleplon, and zolpidem (nonbenzodiazepine GABA receptor agonists).
 

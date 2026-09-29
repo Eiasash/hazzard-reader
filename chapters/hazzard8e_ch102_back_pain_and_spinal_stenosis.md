@@ -116,8 +116,6 @@ Lumbar spinal stenosis can be acquired or congenital. Congenital stenosis result
 
 > *Table 102-3 reproduced as a page image (printed p. 1632) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 These changes in dynamics explain the clinical picture of lumbar spinal stenosis. Positions that extend the spine (standing, walking down hill, prone lying, and extending the back) worsen symptoms, while positions that flex the spine (sitting, bending forward, placing weight on a walker or cart, and lying in a flex position) relieve the symptoms.
 
 Patients with lumbar spinal stenosis most commonly present with leg pain. The leg pain presents either as neurogenic claudication or radicular leg pain. With neurogenic claudication, patients report a feeling of lower extremity heaviness, numbness, cramping, burning, and infrequently weakness. Both legs are typically involved, although not infrequently one leg may be worse than the other. Rarely do lower extremity symptoms follow a dermatomal distribution, and are usually exacerbated by prolonged standing and walking. These symptoms are usually worse with extension, hence individuals with this condition often lean forward (lumbar flexion) with ambulation to minimize discomfort and maximize function (ie, shopping cart sign). Lying supine, flexion, or squatting helps ameliorate symptoms. In contrast to neurogenic claudication, which arises from compression of the thecal sac, radiculopathy occurs as a result of lateral recess or foraminal compression. Since lumbar stenosis is most commonly observed at L4-L5, followed by L3-L4 and L5-S1, the L5 nerve root is most commonly involved from lateral recess stenosis causing an L5 radiculopathy.
@@ -197,19 +195,13 @@ Manual muscle testing of the lower extremity gives much useful information, as s
 
 > *FIGURE 102-1. Range of motion of lumbar spine.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 102-2](hazzard8e_ch102_figure102-2.png)
 
 > *FIGURE 102-2. Resisting abduction of the leg.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 102-3](hazzard8e_ch102_figure102-3.png)
 
 > *FIGURE 102-3. Resisting great toe extensor.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Most patients with lumbar disc disease or lumbar spinal stenosis will have some abnormalities of the examination of the lumbar spine or of the muscles innervated by L4, L5 or L5, S1. Patients with vertebral compression fractures may have a good deal of tenderness in the lumbar spine but should have no neurologic abnormalities. Patients with osteoporotic sacral fractures will have sacral tenderness, but a normal lumbar spine examination and no lower extremity muscle weakness. Those with sciatica almost always have L4, L5 and L5, S1 weakness. A patient with persistent, severe back pain, but with a normal examination of the lumbar spine, sacrum, and hips and no evidence of L4, L5 or L5, S1 muscle weakness, should be evaluated thoroughly for a possible neoplasm or infection.
 
@@ -226,8 +218,6 @@ populations is not recommended, plain films of the spine may be appropriate in o
 ![Table 102-7](hazzard8e_ch102_table102-7_p1636.png)
 
 > *Table 102-7 reproduced as a page image (printed p. 1636) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 According to the American College of Radiology, the criteria listed in **Table 102-7** should be used to determine who is at higher risk for systemic disease-related back pain and when imaging is appropriate.
 

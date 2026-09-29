@@ -42,8 +42,6 @@ High-impact chronic pain is defined as chronic pain that limits life or work act
 
 > *Table 68-1 — Complexities of pain and aging (printed p. 1056).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 prevalence among older adults (11% for 65 to 84-year-old adults and 16% for ≥85-year-old adults).
 
 ## Pathophysiology Of Chronic Pain
@@ -53,8 +51,6 @@ In a normal response to tissue injury with a noxious stimulus, the body will res
 ![Table 68-2](hazzard8e_ch68_table68-2_p1056.png)
 
 > *Table 68-2 — Updated chronic pain classifications (printed p. 1056).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 plasticity of the brain (“neuroplasticity”) in which neural connections are rewired and sensitivity to stimuli changes in response to an initial injury.
 
@@ -83,8 +79,6 @@ Chronic pain requires a multidimensional approach to treatment that incorporates
 ![Figure 68-1](hazzard8e_ch68_figure68-1.png)
 
 > *FIGURE 68-1. Biopsychosocial model of pain for older adults. (Reproduced with permission from Miaskowski C, Blyth F, Nicosia F, et al. A biopsychosocial model of chronic pain for older adults. _Pain Med_ . 2020;21[9]:1793–1805.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1058"></a>**[p. 1058]**
 
@@ -115,8 +109,6 @@ Age-related organ dysfunction poses significant challenges for nonopioid and opi
 
 > *Table 68-3 reproduced as a page image (printed p. 1059) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 and intestinal motility lead to altered absorption of certain medications. Aging is also associated with increased body fat and decreased lean body mass, total body water, and serum albumin—all of which affect the distribution of drugs throughout the body. Circulating albumin and other proteins bind analgesic medications, such as nonsteroidal anti-inflammatory drugs (NSAIDs) and tricyclic antidepressants (TCAs). More unbound drug can lead to increased toxicity and drug–drug interactions.
 
 In addition, alterations in hepatic and renal function in older adults can affect drug metabolism and elimination. Hepatic blood volume and blood flow decrease with age. Similarly, increasing age is associated with decreased renal blood flow and glomerular filtration rate, which may lead to increased serum concentrations of renally cleared medications and their metabolites. The resultant decline in hepatic and renal function may lead to increased risk for adverse medication events and drug–drug interactions secondary to elevated serum parent drug and metabolite concentrations.
@@ -127,15 +119,11 @@ Lastly, changes in the pulmonary systems such as decreased elasticity of the lun
 
 > *Table 68-4 — Multidimensional pain scales for pain measurement (printed p. 1059).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1060"></a>**[p. 1060]**
 
 ![Table 68-5](hazzard8e_ch68_table68-5_p1060.png)
 
 > *Table 68-5 — Physiological changes associated with aging (printed p. 1060).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 rigidity may lead to an increase in respiratory complications such as respiratory depression, which is of paramount importance when prescribing and dosing opioid medications.
 
@@ -156,8 +144,6 @@ Despite the number of different opioid medications, they generally possess simil
 ![Table 68-6](hazzard8e_ch68_table68-6_p1061.png)
 
 > *Table 68-6 reproduced as a page image (printed p. 1061) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 A consideration in the use of opioids in managing chronic pain is the risk for development of opioid-induced hyperalgesia. Opioid-induced hyperalgesia refers to a state of nociceptive sensitization in which patients taking opioids for the treatment of pain develop hyperalgesia, or increased sensitivity to painful stimuli. The mechanism of opioid-induced hyperalgesia is not entirely clear, but is thought to be due to neuroplastic changes in the peripheral and central nervous system that lead to sensitization of pronociceptive pathways. While all patients receiving opioids are at risk for opioid-induced hyperalgesia, groups with increased risk include patients with a history of opioid use disorder, chronic pain patients receiving opioids, and patients on high doses of potent opioids. Clinical signs of opioid-induced hyperalgesia include lack of effectiveness of opioids in the absence of disease progression, which may be difficult to distinguish from opioid tolerance. However, in contrast to patients with opioid tolerance, patients with opioid-induced hyperalgesia will often show increased levels of pain with increased doses of opioids. Patients may also report symptoms such as diffuse allodynia beyond the region of the original pain. Management of patients with opioid-induced hyperalgesia includes attempting to gradually reduce or eliminate the opioid and evaluate symptoms. Combination therapy with nonopioid analgesics, opioids with unique properties such as buprenorphine, or NMDA receptor antagonists may prove to be more effective in patients with opioid-induced hyperalgesia.
 
@@ -194,20 +180,14 @@ In addition to opioids analgesics, a number of other medications may be helpful 
 
 > *Table 68-7 reproduced as a page image (printed p. 1063) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Table 68-8](hazzard8e_ch68_table68-8_p1063.png)
 
 > *Table 68-8 reproduced as a page image (printed p. 1063) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1064"></a>**[p. 1064]**
 ![Table 68-8](hazzard8e_ch68_table68-8_p1064.png)
 
 > *Table 68-8 reproduced as a page image (printed p. 1064) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 management of chronic pain. These medications are often categorized as being “adjuvant” or “co-analgesics,” as their initial indication was for conditions other than pain, such as depression or seizures; however, many of these medications can be used as a first-line treatment option for specific chronic pain conditions.
 

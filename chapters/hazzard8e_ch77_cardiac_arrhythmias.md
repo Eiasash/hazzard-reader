@@ -48,11 +48,7 @@ Vasovagal syncope (VVS) is the most common form of syncope in younger population
 
 ![Table 77-1](hazzard8e_ch77_table77-1_p1194.png)
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Table 77-2](hazzard8e_ch77_table77-2_p1194.png)
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1195"></a>**[p. 1195]**
 
@@ -80,27 +76,19 @@ The benefit of <mark>PPM</mark> is to relieve symptoms and to improve quality of
 
 > *FIGURE 77-1A. Sinus bradycardia (sinus rate < 60 bpm). In this telemetry tracing, the heart rate is 42 bpm.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1196"></a>**[p. 1196]**
 
 ![Figure 77-1B](hazzard8e_ch77_figure77-1b.png)
 
 > *FIGURE 77-1B. Sinus arrest of 4.2 seconds in a patient with paroxysmal atrial fibrillation/flutter and sinus node dysfunction.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-1C](hazzard8e_ch77_figure77-1c.png)
 
 > *FIGURE 77-1C. Sinoatrial exit block, type I. There is progressive shortening of P-P interval before the absence of the next P wave.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-1D](hazzard8e_ch77_figure77-1d.png)
 
 > *FIGURE 77-1D. Sinoatrial exit block type II. The P-P interval is constant before the absence of the next P wave. The pause, due to the absence of the next P wave (denoted by the red arrow), is exactly twice the previous P-P interval.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1197"></a>**[p. 1197]**
 
@@ -108,33 +96,23 @@ Before PPM is considered, transient reversible causes should be corrected. The s
 
 ![Table 77-3](hazzard8e_ch77_table77-3_p1197.png)
 
-> Highlighting is the owner's annotation, not the book's.
-
 However, for patients with symptomatic SND that is infrequent or in those who are frail/bedridden with limited functional capacity or unfavorable prognosis (survival <1 year), single-chamber ventricular pacing could be considered to reduce complications related to the pacemaker implantation. When single ventricular pacing is deemed appropriate, a leadless pacemaker could be considered in selected patients. A standard dual-chamber PPM is shown in **Figure 77-2A, B** ; a contemporary single-chamber leadless PPM is shown in **Figure 77-3A, B** .
 
 ![Figure 77-2A](hazzard8e_ch77_figure77-2a.png)
 
 > *FIGURE 77-2A. Chest X-ray AP view showing dual-chamber pacemaker with right atrial and right ventricular leads (green arrow indicates the atrial lead and red arrow indicates the right ventricular lead).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-2B](hazzard8e_ch77_figure77-2b.png)
 
 > *FIGURE 77-2B. Chest X-ray lateral view showing dual-chamber pacemaker with right atrial and right ventricular leads (green arrow indicates the atrial lead and red arrow indicates the right ventricular lead).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ![Figure 77-3A](hazzard8e_ch77_figure77-3a.png)
 
 > *FIGURE 77-3A. Chest X-ray AP view showing a leadless pacemaker (arrowed).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-3B](hazzard8e_ch77_figure77-3b.png)
 
 > *FIGURE 77-3B. Chest X-ray lateral view showing a leadless pacemaker (arrowed).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1198"></a>**[p. 1198]**
 ### Atrioventricular Conduction Block
@@ -147,25 +125,17 @@ In patients with AVB, transient reversible causes should be corrected before PPM
 
 > *FIGURE 77-4A. First-degree AVB (P waves associated with 1:1 atrioventricular conduction and a PR interval > 200 ms). In this figure, PR interval is 460 ms.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-4B](hazzard8e_ch77_figure77-4b.png)
 
 > *FIGURE 77-4B. Mobitz 1 AVB (P waves with a constant rate with a periodic single nonconducted P wave associated with progressive prolongation of PR interval before the nonconducted P wave – Wenckebach phenomenon).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ![Figure 77-4C](hazzard8e_ch77_figure77-4c.png)
 
 > *FIGURE 77-4C. Mobitz type II AVB (P waves with a constant rate with a periodic single nonconducted P wave associated with constant PR interval before and after the nonconducted P wave).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-4D](hazzard8e_ch77_figure77-4d.png)
 
 > *FIGURE 77-4D. Complete AVB (P waves with constant rate and QRS complexes with constant rate without evidence of AV conduction).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1199"></a>**[p. 1199]**
 
@@ -173,13 +143,9 @@ In patients with AVB, transient reversible causes should be corrected before PPM
 
 > *FIGURE 77-4E. 2:1 AVB (P waves with a constant rate where every other P wave conducts to the ventricles) with left bundle branch block (LBBB).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-4F](hazzard8e_ch77_figure77-4f.png)
 
 > *FIGURE 77-4F. Holter monitoring tracing showing high-grade AVB (≥ 2 consecutive P waves at a constant physiologic rate that do not conduct to the ventricles).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Physiologic Pacing (Cardiac Resynchronization Therapy)
 
@@ -191,11 +157,7 @@ Other physiologic pacing methodology is evolving such as HIS bundle pacing (HBP)
 
 ![Table 77-4](hazzard8e_ch77_table77-4_p1199.png)
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Table 77-5](hazzard8e_ch77_table77-5_p1199.png)
-
-> Highlighting is the owner's annotation, not the book's.
 
 **Table 77-5 — Indications for Cardiac Resynchronization Therapy (CRT), as printed in the table** *(p. 1199)*
 
@@ -225,13 +187,9 @@ Patients who would not derive benefit from CRT are those with:
 
 > *FIGURE 77-5A. Chest X-ray AP view showing CRT pacemaker with right atrial, right ventricular, and coronary sinus leads (the green arrow indicates the atrial lead; the red arrow right ventricular lead; and the blue arrow coronary sinus lead also known as left ventricular lead).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 77-5B](hazzard8e_ch77_figure77-5b.png)
 
 > *FIGURE 77-5B. Chest X-ray lateral view showing CRT pacemaker with right atrial, right ventricular, and coronary sinus leads (the green arrow indicates the atrial lead; the red arrow right ventricular lead; and the blue arrow coronary sinus lead also known as left ventricular lead).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Indications for PPM After Transcatheter Aortic Valve Replacement
 
@@ -269,8 +227,6 @@ It has been shown in multiple randomized controlled trials that catheter ablatio
 
 ![Table 77-6](hazzard8e_ch77_table77-6_p1201.png)
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1202"></a>**[p. 1202]**
 
 of catheter ablation to reduce risk of stroke, especially in patients with high CHA2DS2-VASc score.
@@ -285,8 +241,6 @@ The available anticoagulation drugs include vitamin K antagonist (warfarin) and 
 
 ![Table 77-7](hazzard8e_ch77_table77-7_p1202.png)
 
-> Highlighting is the owner's annotation, not the book's.
-
 A bleeding risk assessment using the HAS-BLED score has been shown to be clinically useful. Older patients with high-risk bleeding should be followed up frequently with routine labs such as cell count, liver, and renal function tests. With the use of DOAC, renal function should be evaluated before initiation and should be reevaluated at least annually or every 6 months or more frequently in those with renal insufficiency. To reduce the bleeding risk, modifiable risk factors must be addressed such as reduction of alcohol use, proper blood pressure control, and avoidance of NSAIDs and elimination of antiplatelet agents if possible. DOACs are contraindicated in advanced liver disease or liver failure with coagulopathy and should not be
 
 <a id="p1203"></a>**[p. 1203]**
@@ -297,8 +251,6 @@ For those who have indication for anticoagulation but has contraindication for c
 The synopsis of recommendations for stroke prevention in AF is described in **Table 77-8** and summary of DOACs can be found in **Table 77-9** .
 
 ![Table 77-8](hazzard8e_ch77_table77-8_p1203.png)
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Cryptogenic Stroke, Embolic Stroke of Undetermined Source, and Atrial Fibrillation
 
@@ -314,15 +266,11 @@ Older patients without a history of AF frequently have implanted cardiac devices
 
 > *Table 77-9 reproduced as a page image (printed p. 1204) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1205"></a>**[p. 1205]**
 
 ![Table 77-9](hazzard8e_ch77_table77-9_p1205.png)
 
 > *Table 77-9 reproduced as a page image (printed p. 1205) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1206"></a>**[p. 1206]**
 ### Atrial Flutter
@@ -334,8 +282,6 @@ Typical atrial flutter (AFL) is a reentrant tachycardia utilizing the inferior v
 Supraventricular tachyarrhythmia (SVT) is less common in older patients since most SVTs have been ablated when patients were young. AV nodal reentrant tachycardia (AVNRT) localized to the region of AV node is the most common type of SVT identified among older patients, followed by atrial tachycardia and atrioventricular reciprocating tachycardia (AVRT). The principles of drug and nondrug management of SVT are similar between younger and older patients as recommended in the ACC/AHA/HRS Guidelines 2015 (a synopsis is provided in **Table 77-10** ). β-Blockers and CCBs are considered the first line of therapy for treating SVTs. Class I and III antiarrhythmic agents are effective for treating SVTs. Catheter ablation therapy is highly effective for the treatment of SVTs, even in older patients. Success rates for catheter ablation of SVT, regardless of age, range from 85% to better than 95%, depending primarily on the nature of the arrhythmia and the experience of the operator. The incidence of major complications associated with SVT ablation is less than 2% to 3%.
 
 ![Table 77-10](hazzard8e_ch77_table77-10_p1206.png)
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Ventricular Tachyarrhythmia
 

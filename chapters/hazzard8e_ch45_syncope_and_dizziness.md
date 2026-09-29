@@ -84,8 +84,6 @@ OH can be caused by volume depletion, medications, adrenal insufficiency, and/or
 
 > *TABLE 45-1. Cardiac and noncardiac causes of syncope.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p668"></a>**[p. 668]**
 
 Volume depletion for any reason is often a common sole or contributing cause of OH and, in turn, syncope. Of note, in the older adult, a postural increase in heart rate is not a reliable indicator of hypovolemia because of baroreflex impairment.
@@ -214,8 +212,6 @@ In addition to the history and physical examination, clinicians should also perf
 
 > *FIGURE 45-1. The Dix-Hallpike maneuver. (Reproduced with permission from Furman JM, Cass SP. Benign paroxysmal positional vertigo. _N Engl J Med_ . 1999;341(21):1590–1596.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Baseline laboratory tests, including hematocrit, hemoglobin A1c, metabolic panel, thyroid function tests, and vitamin B12 levels, should be done to rule out common modifiable contributors to dizziness such as anemia, diabetes, azotemia, hypothyroidism, and vitamin B12 deficiency.
 
 If the dizziness is presyncopal or associated with syncopal episodes, the above work-up for syncope should be initiated, including a careful search for cardiac arrhythmias using long-term continuous ambulatory cardiac monitoring.
@@ -263,8 +259,6 @@ Surgery is reserved for a small group of patients who fail pharmacologic or vest
 ![Figure 45-2](hazzard8e_ch45_figure45-2.png)
 
 > *FIGURE 45-2. The Epley Canalith repositioning procedure. (Reproduced with permission from Furman JM, Cass SP. Benign paroxysmal positional vertigo. _N Engl J Med._ 1999;341(21):1590–1596.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Further Reading
 

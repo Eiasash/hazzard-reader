@@ -153,7 +153,37 @@ dialog button{min-block-size:var(--tap)}
 .panel-links button{text-align:start}
 label{display:block;font:500 var(--label)/1.4 var(--ui);margin-block:var(--s3) var(--s2)}
 input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--control);border-radius:var(--s2);background:var(--page);padding:var(--s3)}
-.marking .reading-copy{user-select:none;-webkit-user-select:none}
+/* Marking mode keeps native selection so exact words can be highlighted. */
+.reading-copy .hl-range[data-marked]{border-radius:0}
+.reading-copy a.pg{display:inline;text-decoration:none;white-space:nowrap}
+.reading-copy a.pg::before{content:"p" attr(data-page);font:500 calc(9px * var(--fs,1))/1 var(--ui);color:var(--muted);border:var(--line) solid var(--rule);border-radius:calc(4px * var(--fs,1));padding:0 calc(3px * var(--fs,1));margin:0 calc(3px * var(--fs,1));vertical-align:calc(1px * var(--fs,1))}
+.reading-copy img,.reading-copy figure svg{cursor:zoom-in}
+.jump-ends{position:fixed;z-index:6;inset-inline-start:max(var(--s2),env(safe-area-inset-left));inset-block-end:calc(var(--vv-bottom-gap,0px) + max(var(--s3),env(safe-area-inset-bottom)));display:flex;flex-direction:column;gap:var(--s2)}
+.jump-ends button{inline-size:calc(36px * var(--fs,1));block-size:calc(36px * var(--fs,1));min-block-size:calc(36px * var(--fs,1));padding:calc(8px * var(--fs,1));border-radius:50%;display:grid;place-items:center;opacity:.8;background:var(--surface)}
+.jump-ends svg{inline-size:100%;block-size:100%}
+#highlightSelection{position:fixed;z-index:7;inset-inline-start:50%;transform:translateX(-50%);inset-block-end:calc(var(--vv-bottom-gap,0px) + max(var(--s4),env(safe-area-inset-bottom)) + calc(56px * var(--fs,1)));box-shadow:0 calc(2px * var(--fs,1)) calc(10px * var(--fs,1)) rgb(0 0 0 / .25);white-space:nowrap}
+#imageZoom{position:fixed;inset:0;top:0;left:0;inline-size:100vw;block-size:100dvh;max-inline-size:none;max-block-size:none;margin:0;padding:0;border:0;border-radius:0;background:#111;color:#eee;overflow:hidden}
+#imageZoom[open]{display:block}
+#imageZoom::backdrop{background:#111}
+#imageZoom .zoom-stage{position:absolute;inset:0;overflow:hidden;touch-action:none}
+#imageZoom .zoom-img{position:absolute;left:0;top:0;transform-origin:0 0;max-inline-size:none;max-block-size:none;background:#fff;user-select:none;-webkit-user-select:none}
+#imageZoom .zoom-bar{position:absolute;inset-inline:0;inset-block-start:0;display:flex;align-items:center;justify-content:space-between;gap:var(--s2);padding:max(var(--s2),env(safe-area-inset-top)) var(--s3) var(--s2);background:rgb(0 0 0 / .55)}
+#imageZoom .zoom-bar .meta{color:#ccc}
+#imageZoom .zoom-bar button{background:#222;color:#eee;border-color:#666}
+.nb-item{display:flex;align-items:stretch}
+.nb-item>button:first-child{flex:1}
+.rows .nb-item .nb-remove{inline-size:auto;flex:none;padding:0 var(--s3);color:var(--muted);font-size:var(--small)}
+.nb-group{margin-block-start:var(--s4)}
+.nb-group h3,.nb-heading{font-size:var(--subhead);margin:var(--s4) 0 var(--s1)}
+.mock-q{border-block-end:var(--line) solid var(--rule);padding-block:var(--s3)}
+.mock-q details summary{cursor:pointer;font:600 var(--label)/1.4 var(--ui);color:var(--accent);min-block-size:calc(36px * var(--fs,1));display:flex;align-items:center}
+.mock-grade{display:flex;gap:var(--s2);margin-block-start:var(--s2)}
+.mock-grade button{flex:1}
+.mock-grade button[aria-pressed="true"][data-grade="1"]{background:var(--hl-green);border-color:var(--accent)}
+.mock-grade button[aria-pressed="true"][data-grade="0"]{background:var(--hl-pink);border-color:var(--stop)}
+.mock-actions{display:flex;gap:var(--s2);margin-block:var(--s3)}
+.mock-actions button{flex:1}
+.mock-score{position:sticky;top:0;background:var(--page);padding-block:var(--s2);z-index:1}
 .sample-foot{font:400 var(--small)/1.5 var(--ui);color:var(--muted);margin-block-start:var(--s8)}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 :root{--mute:var(--muted);--stop:#a54a35;--brand:var(--accent)} :root[data-theme="dark"]{--stop:#e2a18e} .fig figcaption{font:400 var(--small)/1.5 var(--ui);color:var(--muted)} .fig svg{display:block;inline-size:100%}
@@ -363,14 +393,12 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p><strong>Skin failure/terminal ulcers</strong> Clinicians have long reported change in skin color usually on the sacrum near the time of death. At times, these changes are labeled skin failure to parallel the failure of other body organs, citing the idea that the skin is the largest organ of the body and therefore can also fail. However, the wounds are not large enough to lead to death on their own, such as would be seen with epidermolysis bullosa or Steven-Johnson syndrome. The condition needs a different name; the reader may see changes in the terminology in the future.</p>
 <figure><img src="chapters/hazzard8e_ch46_figure46-1a.png" alt="Figure 46-1"><figcaption>Figure 46-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-1. Stages of pressure injury.</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <div class="note"><p>The stage definitions printed inside Figure 46-1 are transcribed after the figure (below the continuation on p. 688).</p></div>
 <p><a id="p688"></a><strong>[p. 688]</strong></p>
 <h2 id="management-of-pressure-injury">Management Of Pressure Injury</h2>
 <h3 id="pressure-injury-assessment">Pressure Injury Assessment</h3>
 <figure><img src="chapters/hazzard8e_ch46_figure46-1b.png" alt="Figure 46-1 (continued)"><figcaption>Figure 46-1 (continued)</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-1. (Continued)</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <p><strong>Figure 46-1 — the stage definitions, as printed in the figure</strong> <em>(pp. 687–688; photographs above)</em></p>
 <ul>
 <li><strong>Stage 1</strong> <em>(p. 687; photograph: Left medial knee)</em>: Intact skin with a localized area of nonblanchable erythema, which may appear differently in darkly pigmented skin. Presence of blanchable erythema or changes in sensation, temperature, or firmness may precede visual changes. Color changes do not include purple or maroon discoloration; these may indicate deep tissue pressure injury.</li>
@@ -388,7 +416,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <h3 id="redistribution-of-pressure-and-reduction-in-shear">Redistribution of Pressure and Reduction in Shear</h3>
 <figure><img src="chapters/hazzard8e_ch46_figure46-2.png" alt="Figure 46-2"><figcaption>Figure 46-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-2. Tissue types in pressure injuries.</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <p>PIs occur due to exposure to pressure and shear; therefore, pressure must be reduced for the wound to heal. In general, the patient should not be positioned on the PI, but this is easy to say and sometimes difficult to do. If the patient can tolerate or is unaware of being positioned off the wound, the plan of care should indicate which positions are to be <a id="p690"></a><strong>[p. 690]</strong> used (eg, side to side positioning). However, the more common issue is that patients often developed a PI by lying or sitting in a preferred position and it will be difficult to convince them to change. If the PI is on the sacrum, side to side turning, with confirmation that the sacrum is free from pressure, is the ideal practice. If the patient refuses to stay off the wound, consider upscaling the mattress or adding an overlay for additional immersion into the bed. These devices do not replace turning, but the increased immersion reduces pressure on soft tissue.</p>
 <p>When PI occurs on the ischium in chairbound patients, a specialized chair cushion with high immersion is needed. Again, time spent lying on the sides will reduce pressure on the ischium. However, ischial wounds are very slow to heal, and it is difficult to convince a patient to lie in bed for months. Usually a compromise is best, for example, being up a few hours at a time in the chair and then back to bed on the left or right side.</p>
 <p>PI on the heel should be managed with a heel off-loading device (HOLD); pillows should not be used. Pillows are unreliable, often collapse under the weight of the leg, or get kicked off the bed. If the leg cannot be placed in a HOLD, apply a pressure redistribution foam dressing to the heel.</p>
@@ -563,13 +590,12 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
   <h1>Pick up where<br>you left off.</h1>
   <div class="card resume-card"><p class="eyebrow">CONTINUE READING</p><h2>Pressure injuries</h2><p class="meta">Chapter 46 / Staging, as a depth</p><button class="primary full" id="resume">Resume reading</button></div>
   <div id="deskColour" hidden><button id="deskCycleColour"><span class="swatch" aria-hidden="true"></span><span id="deskColourLabel">Marking colour: yellow</span></button></div>
-  <h2>Your next session</h2><p>Read a little. Close the page. Recall what matters.</p><button class="full" data-panel="session">Set up a session</button>
+  <h2>Your next session</h2><p>Read a little. Close the page. Recall what matters.</p><button class="full" data-panel="session">Study timer</button>
   <h2>Everything else</h2>
   <ul class="rows">
     <li><button data-view="library"><strong>Chapters</strong><small>Browse topics or find a chapter</small></button></li>
     <li><button data-panel="practice"><strong>Practice</strong><small>Question bank and mock papers</small></button></li>
-    <li><button data-panel="plan"><strong>This week</strong><small>A manageable list of planned sessions</small></button></li>
-    <li><button data-panel="notebook"><strong>Your notebook</strong><small>Highlights and saved places</small></button></li>
+        <li><button data-panel="notebook"><strong>Your notebook</strong><small>Highlights and saved places</small></button></li>
   </ul>
   
 </div>
@@ -605,7 +631,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
     <li><button data-chapter="99"><strong>99 / Diabetes Mellitus</strong><small>Screening, glycemic targets and management in older adults</small></button></li>
     <li><button data-chapter="99s"><strong>99 study / Diabetes Mellitus</strong><small>Summary + 15-question drill</small></button></li></ul><p id="noChapters" hidden="">No matching chapters in this specimen.</p>
 </div>
-</main><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
+</main><div id="jumpEnds" class="jump-ends"><button id="toTop" aria-label="Go to top of chapter" title="Top"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14M12 20V9m-6 6 6-6 6 6"/></svg></button><button id="toBottom" aria-label="Go to end of chapter" title="End"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19h14M12 4v11m-6-6 6 6 6-6"/></svg></button></div><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
 <button id="markToggle" class="reader-tools" aria-label="Toggle marking" aria-pressed="false" title="Turn marking on"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></button>
 <dialog id="panel" data-current-pane="tools" aria-labelledby="panelTitle" aria-modal="false">
 <div class="dialog-head">
@@ -621,9 +647,9 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
 <section data-pane="tools" data-title="Reading tools">
-<div class="settings-links" id="readerLinks"><button class="quiet" data-panel="contents">In this chapter</button><button class="quiet" data-panel="find">Find in this chapter</button></div>
+<div class="settings-links" id="readerLinks"><button class="quiet" data-panel="contents">Contents</button><button class="quiet" data-panel="find">Find</button><button class="quiet" id="savePlace">Save place</button><button class="quiet" data-panel="notebook">Notebook</button></div>
 <p id="readerDiagnostic" class="reader-diagnostic"></p>
-</section><section data-pane="contents" data-title="In this chapter" hidden=""><button class="quiet" id="bookmark">Save this place</button><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="find" data-title="Find in this chapter" hidden=""><label for="findText">Search text</label><input type="search" id="findText" placeholder="A word or phrase"><ul id="findResults" class="rows"></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1>25:00</h1><p>Pressure injuries</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest</p><button class="primary full" disabled="">Timer preview</button></section><section data-pane="practice" data-title="Practice" hidden=""><ul class="rows"><li><strong>Question bank</strong><p class="meta">Choose a chapter or continue a saved drill.</p></li><li><strong>Mock papers</strong><p class="meta">Choose a paper, then confirm timing before starting.</p></li></ul></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><ul class="rows" id="notebookMarks"></ul><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p class="meta">Your highlights in Pressure injuries.</p><p id="savedPlace" class="meta">No place saved in this specimen yet.</p></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
+</section><section data-pane="contents" data-title="In this chapter" hidden=""><button class="quiet" id="bookmark">Save this place</button><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="find" data-title="Find in this chapter" hidden=""><label for="findText">Search text</label><input type="search" id="findText" placeholder="A word or phrase"><ul id="findResults" class="rows"></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li></ul></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
 
 
 
@@ -698,7 +724,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p><sub>Reproduced with permission from Kane RL, Ouslander JG, Resnick B, et al. Essentials of Clinical Geriatrics. 8th ed. New York, NY: McGraw Hill; 2018.</sub></p>
 <figure><img src="chapters/hazzard8e_ch47_figure47-1.png" alt="Figure 47-1"><figcaption>Figure 47-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 47-1. Central and peripheral nervous system involvement in micturition.</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <p>At the most basic level, urination is governed by a reflex in the sacral spinal cord. During normal bladder filling, afferent pathways (via somatic and autonomic nerves) carry information regarding bladder volume to the spinal cord. Motor output is adjusted accordingly (Figure 47-1). Sympathetic tone closes the bladder neck and inhibits parasympathetic tone (thus relaxing the dome of the bladder); somatic innervation maintains tone in the pelvic floor musculature (including striated muscle around the urethra). Voluntary pelvic floor muscle contracture also leads to inhibition of parasympathetic tone. For bladder emptying, sympathetic and somatic tones diminish, and parasympathetic, cholinergic-mediated impulses cause <a id="p701"></a><strong>[p. 701]</strong> ⟨2026: Q64⟩ the bladder to contract. Normal urination is a dynamic process, requiring the coordination of several physiologic processes. Under normal circumstances, as the bladder fills, bladder pressure remains low (≤ 15 cm H₂O). The bladder volume at first urge to void is variable, but generally occurs at between 150 and 350 mL; normal bladder capacity is 300 to 600 mL. When normal urination is initiated (usually every 3 to 4 hours during wakefulness), the detrusor contracts and detrusor pressure increases until it exceeds urethral resistance (which lowers immediately prior to bladder contraction). Urine flow occurs typically over less than 2 minutes. If at any time during bladder filling, total bladder pressure exceeds outlet resistance, urinary leakage occurs. Transmitted intra-abdominal pressure alone by coughing or sneezing may cause leakage in someone with low outlet resistance pressure or urethral sphincter weakness. Alternatively, the bladder can contract involuntarily and cause urinary leakage.</p>
 <h3 id="risk-factors">Risk Factors</h3>
 <p>As is the case for a number of other common geriatric problems, multiple disorders often interact to cause urinary incontinence. Determining the cause or causes facilitates proper management.</p>
@@ -974,7 +999,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <figure><img src="chapters/hazzard8e_ch47_figure47-2.png" alt="Figure 47-2"><figcaption>Figure 47-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 47-2. Summary of assessment and initial management of geriatric urinary incontinence. (See referenced tables and text for details.)</em></p></div>
 <div class="note"><p>Figure 47-2 is a flowchart; shown as an image, not transcribed.</p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <p><a id="p707"></a><strong>[p. 707]</strong></p>
 <p><em>(The paragraph above, from p. 705, runs on here; p. 706 carries only Figure 47-2.)</em></p>
 <p>voiding difficulty, or a history of urinary retention, and those taking medications with significant anticholinergic effects. Neither the history nor the physical examination is sensitive or specific enough for this purpose in geriatric patients. In these patients the PVR determination can be done by portable ultrasonography if equipment is available. To be accurate, the PVR determination should be done within a few minutes of a spontaneous continent or incontinent void. PVR values of less than 100 mL in the absence of straining to void generally reflect adequate bladder emptying in geriatric patients, whereas PVR values greater than 200 mL are abnormal. Values between 100 mL and 200 mL must be interpreted in the context of other patient symptoms. Noninvasive measurement of urinary flow rate in men may be helpful in identifying obstruction and/or bladder contractility problems.</p>
@@ -1670,7 +1694,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought to represent a functional rather than structural lesion. The characteristic electroencephalographic (EEG) findings demonstrate global functional derangements and generalized slowing of cortical background (alpha) activity. It has been hypothesized that delirium is mediated via a final common pathway of different but interacting pathogenic mechanisms leading to dysfunction of multiple brain regions and neurotransmitter systems and culminating in disruption of large-scale networks. Evidence for a single pathway is lacking, and it remains difficult to ascribe delirium to a distinct neurobiological mechanism. Another hypothesis which has gained favor is that delirium occurs in the setting of an acute stressor, such as surgery or sepsis, superimposed on an underlying brain vulnerability, such as cognitive impairment or frailty. This model suggests that as vulnerability increases, delirium can be triggered by relatively minor acute stressors. Numerous contributions to brain vulnerability have been suggested, such as structural lesions, vascular changes, alterations in brain connectivity, neuroinflammation, or neurodegeneration, and other age-related changes. Evidence from EEG, evoked-potential studies, and neuroimaging studies in delirium suggest focal dysfunction localized to the prefrontal cortex, thalamus, basal ganglia, temporoparietal cortex, fusiform, and lingual gyri of the nondominant cortex. Studies using computed tomography (CT) or magnetic resonance imaging (MRI) have found lesions or structural abnormalities in the brains of patients with delirium. Single-photon emission computed <a id="p881"></a><strong>[p. 881]</strong> ⟨2026: Q34 (879-881), Q40 (880-882)⟩ tomography (SPECT) studies have shown that delirium is mostly associated with decreased cerebral blood flow, but these results have been variable.</p>
 <figure><img src="chapters/hazzard8e_ch58_figure58-1.png" alt="Figure 58-1"><figcaption>Figure 58-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 58-1. Multifactorial model for delirium. The etiology of delirium involves a complex interrelationship between the patient’s underlying vulnerability or predisposing factors (left axis) and precipitating factors or noxious insults (right axis). For example, a patient with high vulnerability, such as with severe dementia, underlying severe illness, or hearing or vision impairment, might develop delirium with exposure to only one dose of a sleeping medication. Conversely, a patient with low vulnerability would develop delirium only with exposure to many noxious insults, such as general anesthesia and major surgery, intensive care unit (ICU) stay, multiple psychoactive medications, and prolonged sleep deprivation.</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <p>Associated neurotransmitter abnormalities involve elevated brain dopaminergic function, reduced cholinergic function, or a relative imbalance of these systems. Serotonergic activity may interact to regulate or alter activity of these other two systems, and serotonin levels may be either increased or decreased. Extensive evidence supports the role of cholinergic deficiency. Acetylcholine plays a key role in consciousness and attentional processes. Given that delirium manifests as an acute confusional state often with alterations of consciousness, it is likely to have a cholinergic basis. Anticholinergic drugs can induce delirium in humans and animals, and serum anticholinergic activity is increased in patients with delirium. Physostigmine can reverse delirium associated with anticholinergic drugs, and cholinesterase inhibitors appear to have some benefit even in cases of delirium that are not induced by drugs. Neurotransmitter systems can also be affected indirectly. For instance, in sepsis, the systemic inflammatory response triggers a cascade of local (brain) neuroinflammation, leading to endothelial activation, impaired blood flow, neuronal apoptosis, and neurotransmitter dysfunction. Neuroinflammation can lead to microglial overactivation, resulting in a neurotoxic response with further neuronal injury. Animal studies have found that neurodegeneration causes priming of astrocytes and microglia, resulting in a greater neuroinflammatory response, as well as alterations in vasculature, including the blood-brain barrier, which may render the brain more vulnerable to circulating inflammatory molecules. The stress response associated with severe medical illness or surgery involves sympathetic and immune system activation, including increased activity of the hypothalamic-pituitary-adrenal axis with hypercortisolism, and release of cerebral cytokines that alter neurotransmitter systems, the thyroid axis, and modification of blood-brain barrier permeability. Age-related changes in central neurotransmission, stress management, hormonal regulation, and immune response may contribute to the increased vulnerability of older persons to delirium. The description of delirium as “acute brain failure”—involving multiple neural circuits, neurotransmitters, and brain regions—suggests that understanding delirium may help to elucidate the underlying mechanisms of brain functioning.</p>
 <h2 id="etiology">Etiology</h2>
 <p>The etiology of delirium is usually multifactorial. Among older persons, delirium results from the interrelationship between patient vulnerability (ie, predisposing factors) and the occurrence of noxious insults (ie, precipitating factors). For example, patients who are highly vulnerable to delirium at baseline (eg, such as patients with dementia or serious illness) can experience delirium after exposure to otherwise mild insults, such as a single dose of a sedative medication. Older patients with few predisposing factors (low baseline vulnerability) are relatively resistant, with precipitation of delirium only after exposure to multiple potentially noxious insults, such as general anesthesia, major surgery, multiple psychoactive medications, immobilization, and infection (Figure 58-1). Based on validated predictive models for delirium, the effects of multiple risk factors appear to be cumulative. Clinically, the importance of the multifactorial nature of delirium is that removal or treatment of one risk factor alone often fails to resolve delirium. Instead, addressing many or all of the predisposing and precipitating factors for delirium is often required before the delirium symptoms will improve.</p>
@@ -1876,7 +1899,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>The Hospital Elder Life Program (HELP; now AGS CoCare HELP at <a href="https://help.agscocare.org/">https://help.agscocare.org/</a>) represents an innovative strategy of hospital care for older patients, designed to incorporate the tested delirium prevention strategies and to improve overall quality of hospital care. Programs such as HELP underscore the importance of an interdisciplinary team’s contributions to the prevention of delirium. For example, trained volunteers and family members can play roles in daily orientation, therapeutic recreation activities, and feeding assistance. Physical rehabilitation experts and nurses can assist with mobilization <a id="p887"></a><strong>[p. 887]</strong> and the incorporation of daily exercises to prevent functional decline. Dietitians can help to maximize appropriate caloric intake and oral hydration in acutely ill patients. Consultant pharmacists, chaplains, and social workers also may provide specialized expertise to address issues pertinent to individuals at risk for delirium.</p>
 <figure><img src="chapters/hazzard8e_ch58_figure58-2.png" alt="Figure 58-2"><figcaption>Figure 58-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 58-2. Flowchart for evaluation of suspected delirium in an older person. ABG, arterial blood gas; B₁₂, cyanocobalamin or vitamin B₁₂ level; EEG, electroencephalography; IM, intramuscular; LP, lumbar puncture; PO, by mouth; TFTs, thyroid function tests (eg, T4, thyroid index, thyroid-stimulating hormone); UB-CAM, Ultra Brief Confusion Assessment Method.</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <div class="note"><p><strong>Note — the book against itself.</strong> The flowchart ends <em>&quot;Avoid benzodiazepines and other psychoactive drugs&quot;</em> and gives starting doses only. The text on <a href="#p889">p. 889</a> carries what the figure leaves out: benzodiazepines remain the treatment of choice for delirium from seizures and alcohol- or medication-related withdrawal, and the 24-hour maximum for each antipsychotic. The figure gives risperidone as 0.25 mg; the text gives 0.25–0.5 mg.</p></div>
 <p>At least 14 studies have examined primary prevention with nonpharmacologic multicomponent approaches to delirium in controlled trials with prospective sampling frameworks and validated delirium assessments. These studies applied multifactorial interventions or educational strategies targeted toward health care professionals, staff, and families, and demonstrated significant reductions in delirium rates, in-hospital falls, health care–associated costs, and/or duration of delirium. Proactive geriatric consultation has been demonstrated to reduce the risk of delirium post hip fracture by 40% in a randomized controlled trial. Another trial found that home rehabilitation after acute hospitalization of older adults was associated with lower risk of delirium and greater patient satisfaction, when compared with an institutional setting. In all, trials suggest that up to 50% of cases of delirium may be preventable and that prevention strategies should begin early during hospitalization.</p>
 <p><a id="p888"></a><strong>[p. 888]</strong></p>
@@ -3416,7 +3438,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p><a id="p1570"></a><strong>[p. 1570]</strong></p>
 <figure><img src="chapters/hazzard8e_ch99_figure99-7.png" alt="Figure 99-7"><figcaption>Figure 99-7</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-7. Health status by age group of people over age 50 in the United States who have diabetes, based on data from the Health and Retirement Study. Definitions of the three health status categories illustrated are as stated in Table 99-6. (Data from Blaum C, Cigolle CT, Boyd C, et al. Clinical complexity in middle-aged and older adults with diabetes: the Health and Retirement Study. Med Care. 2010;48[4]:327–334.)</em></p></div>
-<div class="note"><p>Highlighting is the owner&#39;s annotation, not the book&#39;s.</p></div>
 <p>Several approaches have been proposed by diabetes specialists and geriatricians to better identify older adults who would benefit from more strict diabetes control versus less stringent management. Age alone is not a good marker, as age is a poor predictor of overall disease complexity and mortality risk. In Figure 99-7, a group of nationally representative older adults with diabetes were grouped by their comorbidities, physical function status, and cognitive status. While the oldest age group includes many people with very complex/poor health, over 50% of people older than 75 were relatively healthy by these criteria. Thus, a classification based on a patient’s comorbidities, physical function status, cognitive status, social support, history of hypoglycemia, etc can provide the basis for individualized goals to optimize the risk and benefit of diabetes treatments for a given patient. Table 99-6 provides such a framework to guide setting treatment goals for hyperglycemia in older adults with diabetes, published in the 2019 Endocrine Society Guideline (a similar framework is in the ADA 2021 Standards of Care). Based on the patient’s comorbidities, cognitive status, and physical function (as determined from the overall patient evaluation per Table 99-4), s/he may be categorized into one of the three groups. The Good Health group will likely benefit from more stringent glycemic management. The Intermediate Health group will likely have some difficulty in achieving stricter goals for glycemia. The Poor Health group of very complex patients will likely not benefit greatly from intensive treatment of hyperglycemia so a less aggressive goal is more appropriate.</p>
 <h3 id="diabetes-education-and-support">Diabetes Education and Support</h3>
 <p>A key component of diabetes care is to educate the patient and their caregivers about the complications associated with diabetes, how to manage diabetes through lifestyle modification and various medications, how to monitor and treat complications associated with diabetes, and the risks and benefits of various medications that may be prescribed. People with diabetes benefit from receiving diabetes self-management education and support (DSMES) when diabetes is diagnosed and as needed thereafter, such as when not meeting treatment targets. DSMES is an ongoing process of facilitating the knowledge, skills, and ability necessary for diabetes self-care. This process is evidence-based, and can be individualized for each patient, incorporating the needs, goals, and life experiences of the individual. DSMES is associated with improved diabetes knowledge and self-care behavior, improved quality of life, lower A1C, and lower health care costs.</p>
@@ -31805,6 +31826,30 @@ function renderManifestChapterHtml(mdText){
 let manifestChapters=[];
 try{const manifestRes=await fetch('manifest.json',{cache:'no-store'});if(manifestRes.ok)manifestChapters=(await manifestRes.json()).chapters||[];}catch{}
 let manifestArticle=null;
+const MOCK_KEY='hazzard-mock-v1';
+function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function parseDrill(md){const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
+async function buildMock(){
+  const params=new URLSearchParams(location.search),want=Number(params.get('n'))||0;
+  let state=null;try{state=JSON.parse(localStorage.getItem(MOCK_KEY)||'null')}catch{}
+  const studies=manifestChapters.filter(c=>c.kind==='study'),bank=[];
+  await Promise.all(studies.map(async c=>{try{const r=await fetch('chapters/'+c.file);if(!r.ok)return;parseDrill(await r.text()).forEach((x,i)=>bank.push({id:c.number+':'+(i+1),ch:c.number,...x}))}catch{}}));
+  if(!bank.length)return null;
+  if(want||!state?.ids?.length){
+    const pool=[...bank];for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
+    state={ids:pool.slice(0,Math.min(want||20,pool.length)).map(x=>x.id),grades:{},at:Date.now()};
+    try{localStorage.setItem(MOCK_KEY,JSON.stringify(state))}catch{}
+    params.delete('n');try{history.replaceState(history.state,'',location.pathname+'?'+params)}catch{}
+  }
+  const byId=new Map(bank.map(x=>[x.id,x])),qs=state.ids.map(id=>byId.get(id)).filter(Boolean);
+  const label=ch=>{const base=String(ch).replace(/s$/,'');if(base==='law')return 'Israeli law';const e=manifestChapters.find(c=>String(c.number)===base);return 'Chapter '+base+(e?' — '+e.title:'')};
+  const article=document.createElement('article');article.className='reading-copy';article.id='copy';article.dataset.chapterId='mock';
+  let html='<p class="eyebrow">PRACTICE</p><h1 id="mock-paper">Mock paper — '+qs.length+' questions</h1><p class="meta mock-score" data-reader-metadata="score"></p>';
+  qs.forEach((x,i)=>{html+='<section class="mock-q" data-q="'+escHtml(x.id)+'" dir="auto"><p><strong>'+(i+1)+'. '+marked.parseInline(x.q)+'</strong></p><p class="meta" data-reader-metadata="source">'+escHtml(label(x.ch))+'</p><details><summary>Answer</summary>'+marked.parse(x.a)+'</details><div class="mock-grade" data-reader-metadata="grade"><button data-grade="1" aria-pressed="false">Got it</button><button data-grade="0" aria-pressed="false">Missed</button></div></section>'});
+  html+='<h2 id="new-paper">New paper</h2><div class="mock-actions" data-reader-metadata="actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div>';
+  article.innerHTML=html;return article;
+}
+if(requestedChapter==='mock'){try{manifestArticle=await buildMock()}catch{}}
 if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Template')){
   const entry=manifestChapters.find(c=>String(c.number)===String(requestedChapter));
   if(entry){
@@ -31864,7 +31909,7 @@ if(true){
 (function collapseChapterNotes(){
   const byline=copy.querySelector('h1')?.nextElementSibling;
   if(!byline)return;
-  const collapsibleLead=[/^Status\b/,/^Source and method\b/,/^As printed, not corrected\b/];
+  const collapsibleLead=[/^Status\b/,/^Source and method\b/,/^As printed, not corrected\b/,/^Lane-reviewed\b/,/^Fast build\b/];
   const toCollapse=[];
   let node=byline.nextElementSibling;
   while(node && node.matches('.note')){
@@ -31882,8 +31927,33 @@ if(true){
   for(const n of toCollapse)details.append(n);
   byline.after(details);
 })();
-function openChapter(chapter){
-  const url=new URL(location.href);url.searchParams.set('chapter',chapter);location.assign(url.href);
+// Display-only: book page markers become a small inline tag, and a paragraph the
+// page break cut mid-sentence is joined back into one paragraph.
+(function smoothPageMarkers(){
+  for(const a of [...copy.querySelectorAll('a[id]')]){
+    if(!/^p\d+$/.test(a.id))continue;
+    let s=a.nextSibling;while(s&&s.nodeType===3&&!s.data.trim())s=s.nextSibling;
+    const m=s&&s.nodeType===1&&s.tagName==='STRONG'&&s.textContent.trim().match(/^\[p\.\s*(\d+)\]$/);
+    if(!m)continue;
+    s.remove();a.className='pg';a.dataset.page=m[1];a.dataset.readerMetadata='page';a.setAttribute('aria-label','Page '+m[1]);
+  }
+  const sentenceEnd=/[.!?]["”’)\]]*$/;
+  for(const a of [...copy.querySelectorAll('a.pg')]){
+    const p=a.parentElement;if(!p||p.tagName!=='P')continue;
+    const pre=document.createRange();pre.setStart(p,0);pre.setEndBefore(a);if(pre.toString().trim())continue;
+    const prev=p.previousElementSibling;
+    if(!prev||prev.tagName!=='P'||prev.querySelector('img')||!prev.textContent.trim()||sentenceEnd.test(prev.textContent.trim()))continue;
+    const post=document.createRange();post.setStartAfter(a);post.setEnd(p,p.childNodes.length);
+    if(p.querySelector('img'))continue;
+    const rest=post.toString().replace(/⟨[^⟩]*⟩/g,'').trim();
+    if(rest){prev.append(' ',...p.childNodes);p.remove();continue}
+    const next=p.nextElementSibling;
+    if(!next||next.tagName!=='P'||next.querySelector('img'))continue;
+    prev.append(' ',...p.childNodes,' ',...next.childNodes);p.remove();next.remove();
+  }
+})();
+function openChapter(chapter,opts={}){
+  const url=new URL(location.href);url.search='';url.searchParams.set('chapter',chapter);if(opts.n)url.searchParams.set('n',opts.n);url.hash=opts.hash?'#'+opts.hash:'';location.assign(url.href);
 }
 const readerScroll=$('#readerScroll');
 const sizes={small:11,medium:12,large:13};
@@ -32049,7 +32119,7 @@ function measureReaderEnd(){
   const clearance=Math.max(0,$('#readerViewport').getBoundingClientRect().bottom-top);
   root.style.setProperty('--reader-end-clearance','calc('+(clearance/fs)+'px * var(--fs,1))');
 }
-function hidePanel(){if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');fab.setAttribute('aria-expanded','false');fab.hidden=pencil.hidden=$('#reader').hidden;measureReaderEnd();gesture=null;updateStorageNotice()}
+function hidePanel(){if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');fab.setAttribute('aria-expanded','false');fab.hidden=pencil.hidden=$('#jumpEnds').hidden=$('#reader').hidden;measureReaderEnd();gesture=null;updateStorageNotice()}
 function closePanel(){
   hidePanel();if(closingHistory)return;
   if(sheetKey&&history.state?.stageAReaderSheet===sheetKey){closingHistory=true;history.back()}else sheetKey=null;
@@ -32062,7 +32132,7 @@ function openPanel(name,trigger){
   for(const p of $$('[data-pane]'))p.hidden=p!==pane;
   $('#panelTitle').textContent=pane.dataset.title;$('#panelBack').hidden=name==='tools';if(name==='notebook')renderNotebook();
   if(!panel.open){anchor=trigger||document.activeElement;const y=readerScroll.scrollTop;sheetKey='sheet-'+Date.now();try{history.pushState({...history.state,stageAReaderSheet:sheetKey},'')}catch{sheetKey=null}panel.show();scrollReadingTo(y)}
-  anchor?.setAttribute('aria-expanded','true');fab.setAttribute('aria-expanded','true');fab.hidden=pencil.hidden=true;pane.scrollTop=0;updateStorageNotice();
+  anchor?.setAttribute('aria-expanded','true');fab.setAttribute('aria-expanded','true');fab.hidden=pencil.hidden=$('#jumpEnds').hidden=true;pane.scrollTop=0;updateStorageNotice();
 }
 window.addEventListener('popstate',()=>{hidePanel();sheetKey=null;closingHistory=false;if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger)}});
 // A held claim opens its audit record without inserting anything into the reading flow.
@@ -32107,7 +32177,7 @@ function showClaimProvenance(node){
 let pressStart=null,suppressPressClick=false,claimHold=null;
 function cancelClaimHold(){if(claimHold)clearTimeout(claimHold.timer);claimHold=null}
 function heldClaim(target){
-  if(panel.open||provenanceDialog.open||target.closest('a,button,input,textarea,select,summary,[data-reader-metadata]'))return null;
+  if(marking||panel.open||provenanceDialog.open||target.closest('a,button,input,textarea,select,summary,[data-reader-metadata]'))return null;
   const node=target.closest('[data-claim]');return node&&copy.contains(node)?node:null;
 }
 document.addEventListener('pointerdown',e=>{
@@ -32126,12 +32196,13 @@ document.addEventListener('pointerup',()=>{cancelClaimHold();suppressPressClick=
 document.addEventListener('pointercancel',()=>{cancelClaimHold();pressStart=null;suppressPressClick=true},true);
 window.addEventListener('blur',cancelClaimHold);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelClaimHold()});
-document.addEventListener('contextmenu',e=>{e.preventDefault();suppressPressClick=true;const node=heldClaim(e.target);if(node){cancelClaimHold();showClaimProvenance(node)}},true);
+document.addEventListener('contextmenu',e=>{suppressPressClick=true;const node=heldClaim(e.target);if(node){e.preventDefault();cancelClaimHold();showClaimProvenance(node)}},true);
 document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();suppressPressClick=false}},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
 document.addEventListener('click',e=>{if(panel.open&&!panel.contains(e.target)&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
-function view(id){closeProvenance();closePanel();setMarking(false);for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;fab.hidden=pencil.hidden=id!=='reader';$('#readerViewport').hidden=id!=='reader';measureReaderEnd();scrollReadingTo(0);window.scrollTo(0,0)}
+let lastReaderY=0;
+function view(id){closeProvenance();closePanel();setMarking(false);if(!$('#reader').hidden&&id!=='reader')lastReaderY=readerScroll.scrollTop;for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;fab.hidden=pencil.hidden=$('#jumpEnds').hidden=id!=='reader';$('#readerViewport').hidden=id!=='reader';measureReaderEnd();scrollReadingTo(id==='reader'?lastReaderY:0);window.scrollTo(0,0)}
 function applyDisplay(){
   const px=sizes[size];document.documentElement.style.setProperty('--body',px+'px');document.documentElement.style.setProperty('--fs',px/11);document.body.style.fontSize=px+'px';
   for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
@@ -32148,7 +32219,9 @@ try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p)
 applyDisplay();window.visualViewport?.addEventListener('resize',viewport);window.visualViewport?.addEventListener('scroll',viewport);window.addEventListener('resize',viewport);
 document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
-  if(b.dataset.chapter)openChapter(b.dataset.chapter);
+  if(b.dataset.grade!==undefined&&b.closest('.mock-q'))gradeMock(b);
+  else if(b.dataset.mock)openChapter('mock',{n:b.dataset.mock});
+  else if(b.dataset.chapter)openChapter(b.dataset.chapter,{hash:b.dataset.hash});
   else if(b.dataset.panel)openPanel(b.dataset.panel,b);
   else if(b.dataset.view)view(b.dataset.view);
   else if(b.dataset.jump){view('reader');revealReading($('#'+b.dataset.jump))}
@@ -32188,9 +32261,9 @@ function markDown(e){if(!e.isPrimary||e.button!==0){gesture=null;return}gesture=
 function markMove(e){if(gesture&&e.pointerId===gesture.id&&Math.hypot(e.clientX-gesture.x,e.clientY-gesture.y)>10)gesture.moved=true}
 function markUp(e){if(gesture&&e.pointerId===gesture.id){gesture.ended=true;gesture.valid=!gesture.moved&&Math.abs(readerScroll.scrollTop-gesture.scroll)<8&&performance.now()-gesture.time<500}}
 function markCancel(){gesture=null}
-function markContext(e){e.preventDefault()}
+function markContext(){}
 function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
-function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;const u=unitAt(e);if(u){e.preventDefault();toggleUnit(u)}}
+function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();toggleUnit(u)}}
 function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();toggleUnit(u)}}}
 function paintUnit(u){for(const p of u.parts){p.toggleAttribute('data-marked',u.marked);if(u.marked)p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')');else p.style.removeProperty('--mark-colour')}(u.parts.find(p=>p.textContent.trim())||u.parts[0]).setAttribute('aria-pressed',String(u.marked))}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
@@ -32204,6 +32277,13 @@ function readHighlights(){
   if(saved.history===undefined)saved.history=[];
   if(!Array.isArray(saved.history)||saved.history.some(mark=>!/^u\d+$/.test(mark.id)||!validHighlight(mark)))throw new Error('Invalid highlight history');
   return saved;
+}
+function unitByText(text,oldId,taken){
+  const n=Number(String(oldId).slice(1))||0;let best=null,bestD=Infinity;
+  for(const u of unitMap.values()){if(taken.has(u.id)||highlightText(u)!==text)continue;const d=Math.abs(Number(u.id.slice(1))-n);if(d<bestD){best=u;bestD=d}}
+  if(best||text.length<25)return best;
+  const hits=[...unitMap.values()].filter(u=>!taken.has(u.id)&&highlightText(u).includes(text));
+  return hits.length===1?hits[0]:null;
 }
 function archiveUnresolved(saved){
   let changed=false;
@@ -32219,6 +32299,9 @@ function archiveUnresolved(saved){
     if(!saved.history.some(old=>old.id===id&&old.text===mark.text&&old.colour===mark.colour))saved.history.push({id,...mark});
     delete saved.marks[id];changed=true;
   }
+  // Text changes (joined page breaks, removed notes) shift unit numbers: re-attach unrestored marks by identical or containing text.
+  const taken=new Set(Object.keys(saved.marks));
+  saved.history=saved.history.filter(old=>{const moved=unitByText(old.text,old.id,taken);if(!moved)return true;saved.marks[moved.id]={colour:old.colour,text:highlightText(moved)};taken.add(moved.id);changed=true;return false});
   return changed;
 }
 function updateStorageNotice(){
@@ -32249,27 +32332,175 @@ function restoreHighlights(){
   try{
     const saved=readHighlights(),changed=archiveUnresolved(saved);highlightHistory=saved.history;
     for(const [id,mark] of Object.entries(saved.marks)){const u=unitMap.get(id);u.marked=true;u.colour=mark.colour;paintUnit(u)}
+    unplacedRanges=[];
+    for(const [id,m] of Object.entries(saved.ranges||{})){if(!placeRange(id,m))unplacedRanges.push({id,...m})}
     if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
 }
 function toggleUnit(u){u.marked=!u.marked;u.colour=u.marked?colour:null;paintUnit(u);saveHighlight(u)}
 function renderNotebook(){
+  if(!pendingHighlightChanges.size)resyncHighlights();
   const list=$('#notebookMarks');list.replaceChildren();
-  for(const u of [...unitMap.values()].filter(u=>u.marked)){const li=document.createElement('li'),b=document.createElement('button');b.textContent=u.text.trim();b.onclick=()=>{view('reader');revealReading(u.parts[0],{block:'center'})};li.append(b);list.append(li)}
-  if(!list.children.length){const li=document.createElement('li');li.textContent='No highlights in the current text.';list.append(li)}
-  const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length;
+  const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks.values()].map(r=>({el:r.spans[0],text:r.text}))];
+  items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
+  for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.onclick=()=>{view('reader');revealReading(it.el,{block:'center'})};li.append(b);list.append(li)}
+  if(!list.children.length){const li=document.createElement('li');li.textContent='No highlights in this chapter yet.';list.append(li)}
+  const places=$('#notebookPlaces');places.replaceChildren();
+  for(const bm of readJSON(BOOKMARK_KEY,[])){
+    const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
+    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');
+    go.onclick=()=>{if(String(bm.chapter)===cid){view('reader');goToPlace(bm)}else openChapter(bm.chapter,{hash:'bm-'+bm.at})};
+    del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{writeJSON(BOOKMARK_KEY,readJSON(BOOKMARK_KEY,[]).filter(x=>x.at!==bm.at));renderNotebook()};
+    li.append(go,del);places.append(li);
+  }
+  if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. Reading tools → Save place.';places.append(li)}
+  const other=$('#notebookOther');other.replaceChildren();
+  const prefix='stage-a-highlights-v1:',groups=[];
+  try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=JSON.parse(localStorage.getItem(k))}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({id,text:m.text})),...Object.entries(d?.ranges||{}).map(([id,m])=>({id,text:m.text}))];if(marks.length)groups.push({ch,marks})}}catch{}
+  groups.sort((a,b)=>String(a.ch).localeCompare(String(b.ch),undefined,{numeric:true}));
+  if(groups.length){const h=document.createElement('h3');h.className='nb-heading';h.textContent='Other chapters';other.append(h)}
+  for(const g of groups){
+    const box=document.createElement('details'),sum=document.createElement('summary'),ul=document.createElement('ul');box.className='nb-group';ul.className='rows';
+    sum.textContent=chapterLabel(g.ch)+' ('+g.marks.length+')';box.append(sum,ul);
+    for(const m of g.marks){const li=document.createElement('li'),b=document.createElement('button');b.textContent=m.text;b.onclick=()=>openChapter(g.ch,{hash:'hl-'+m.id});li.append(b);ul.append(li)}
+    other.append(box);
+  }
+  const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
+  for(const r of unplacedRanges){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not found in the current text';excerpt.textContent=r.text;li.append(label,excerpt);historyList.append(li)}
   for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;li.append(label,excerpt);historyList.append(li)}
 }
 $('#chapterSearch').oninput=e=>{const q=e.target.value.toLowerCase();let found=0;for(const li of $$('#chapterRows li')){li.hidden=!li.textContent.toLowerCase().includes(q);if(!li.hidden)found++}$('#noChapters').hidden=found>0};
 $('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2,h3,li,td,th,details')){if(p.parentElement.closest('p,li,td,th'))continue;if(p.matches('details')&&p.querySelector('p,li,td'))continue;if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
-$('#bookmark').onclick=()=>{if($('#reader').hidden)return;savedY=readerScroll.scrollTop;$('#savedPlace').textContent='Place saved in '+chapterTitle+' for this open tab.';$('#bookmark').textContent='Place saved';closePanel()};
-$('#resume').onclick=()=>{view('reader');scrollReadingTo(savedY||(0))};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
 function revealReading(el,options){if(!el)return;for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
+// ---------- storage helpers ----------
+function readJSON(k,d){try{const v=JSON.parse(localStorage.getItem(k)||'null');return v??d}catch{return d}}
+function writeJSON(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
+const cid=String(copy.dataset.chapterId||'');
+function chapterLabel(ch){ch=String(ch);if(ch==='mock')return 'Mock paper';const e=manifestChapters.find(c=>String(c.number)===ch);if(ch==='law')return 'Israeli law';if(ch==='laws')return 'Israeli law — study';return (/s$/.test(ch)?'Chapter '+ch.slice(0,-1)+' study':'Chapter '+ch)+(e&&!/s$/.test(ch)?' — '+e.title:'')}
+// ---------- transient notice ----------
+let transientNotice='',transientTimer=null;
+function flash(msg,ms=4500){transientNotice=msg;clearTimeout(transientTimer);transientTimer=setTimeout(()=>{transientNotice='';updateStorageNotice()},ms);updateStorageNotice()}
+{const base=updateStorageNotice;updateStorageNotice=function(){base();if(transientNotice&&!panel.open&&!$('#reader').hidden){const n=$('#readerNotice');n.textContent=transientNotice+(n.textContent&&n.textContent!==transientNotice?' '+n.textContent:'');n.hidden=false}}}
+// ---------- free-range highlights (select exact words) ----------
+const rangeMarks=new Map();let unplacedRanges=[];
+function textIndex(){
+  const w=document.createTreeWalker(copy,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('[data-reader-metadata],script,style')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+  let s='',nodes=[],offs=[],first=new Map(),n,prevSpace=true;
+  while(n=w.nextNode()){const d=n.data;for(let i=0;i<d.length;i++){const ws=/\s/.test(d[i]);if(ws&&prevSpace)continue;if(!first.has(n))first.set(n,nodes.length);s+=ws?' ':d[i];nodes.push(n);offs.push(i);prevSpace=ws}}
+  return {s,nodes,offs,first};
+}
+function indexAt(ix,node,off,isEnd){
+  if(node.nodeType!==3){const kids=node.childNodes;let t=null;if(isEnd){for(let i=Math.min(off,kids.length)-1;i>=0&&!t;i--){const tw=document.createTreeWalker(kids[i],NodeFilter.SHOW_TEXT);let x;while(x=tw.nextNode())t=x;if(!t&&kids[i].nodeType===3)t=kids[i]}if(t)return indexAt(ix,t,t.length,true)}else{for(let i=off;i<kids.length&&!t;i++){t=kids[i].nodeType===3?kids[i]:document.createTreeWalker(kids[i],NodeFilter.SHOW_TEXT).nextNode()}if(t)return indexAt(ix,t,0,false)}return -1}
+  let k=ix.first.get(node);if(k===undefined)return -1;
+  while(k<ix.nodes.length&&ix.nodes[k]===node&&ix.offs[k]<off)k++;
+  return k;
+}
+function wrapIndexRange(ix,start,end,id,colour){
+  const spans=[];let k=start;
+  while(k<end){const node=ix.nodes[k];let j=k;while(j+1<end&&ix.nodes[j+1]===node)j++;
+    const a=ix.offs[k],b=ix.offs[j]+1;let t=node;if(a>0)t=t.splitText(a);if(b-a<t.length)t.splitText(b-a);
+    // later indices in this same node now live in the split-off tail; only one segment per node is wrapped
+    const sp=document.createElement('span');sp.className='hl-range';sp.dataset.range=id;sp.dataset.marked='';sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
+  return spans;
+}
+function placeRange(id,m){
+  const ix=textIndex();let best=-1,bestScore=-1,from=0,at;
+  while((at=ix.s.indexOf(m.text,from))!==-1){let sc=0;const pre=ix.s.slice(Math.max(0,at-(m.prefix||'').length),at),suf=ix.s.slice(at+m.text.length,at+m.text.length+(m.suffix||'').length);
+    for(let i=1;i<=pre.length&&pre[pre.length-i]===m.prefix[m.prefix.length-i];i++)sc++;for(let i=0;i<suf.length&&suf[i]===m.suffix[i];i++)sc++;
+    if(sc>bestScore){best=at;bestScore=sc}from=at+1}
+  if(best<0)return false;
+  const spans=wrapIndexRange(ix,best,best+m.text.length,id,m.colour);rangeMarks.set(id,{...m,spans});return true;
+}
+function unwrapRange(id){const r=rangeMarks.get(id);if(!r)return;for(const sp of r.spans){const p=sp.parentNode;if(!p)continue;sp.replaceWith(...sp.childNodes);p.normalize()}rangeMarks.delete(id)}
+function saveRanges(){try{const saved=readHighlights();saved.ranges=Object.fromEntries([...rangeMarks].map(([id,r])=>[id,{colour:r.colour,text:r.text,prefix:r.prefix,suffix:r.suffix}]).concat(unplacedRanges.map(r=>[r.id,{colour:r.colour,text:r.text,prefix:r.prefix,suffix:r.suffix}])));writeHighlights(saved);highlightSaveFailed=false}catch{highlightSaveFailed=true}updateStorageNotice()}
+function addRangeMark(range){
+  const ix=textIndex();let a=indexAt(ix,range.startContainer,range.startOffset,false),b=indexAt(ix,range.endContainer,range.endOffset,true);
+  if(a<0)a=ix.nodes.findIndex((n,k)=>range.comparePoint(n,ix.offs[k])===0);
+  if(b<0){b=-1;for(let k=ix.nodes.length-1;k>=0;k--)if(range.comparePoint(ix.nodes[k],ix.offs[k])===0&&range.comparePoint(ix.nodes[k],ix.offs[k]+1)===0){b=k+1;break}}
+  if(a<0||b<0)return false;while(a<b&&ix.s[a]===' ')a++;while(b>a&&ix.s[b-1]===' ')b--;if(b<=a)return false;
+  const id='r'+Date.now().toString(36),m={colour,text:ix.s.slice(a,b),prefix:ix.s.slice(Math.max(0,a-40),a),suffix:ix.s.slice(b,b+40)};
+  const spans=wrapIndexRange(ix,a,b,id,colour);rangeMarks.set(id,{...m,spans});saveRanges();return true;
+}
+function removeRangeMark(id){unwrapRange(id);saveRanges()}
+const selBtn=document.createElement('button');selBtn.id='highlightSelection';selBtn.className='primary';selBtn.type='button';selBtn.textContent='Highlight selection';selBtn.hidden=true;document.body.append(selBtn);
+function selectionInCopy(){const sel=getSelection();if(!sel||sel.isCollapsed||!sel.rangeCount||$('#reader').hidden)return null;const r=sel.getRangeAt(0);if(!copy.contains(r.commonAncestorContainer)||!r.toString().trim())return null;return r}
+document.addEventListener('selectionchange',()=>{selBtn.hidden=!selectionInCopy()});
+selBtn.addEventListener('pointerdown',e=>e.preventDefault());selBtn.addEventListener('mousedown',e=>e.preventDefault());
+selBtn.onclick=()=>{const r=selectionInCopy();if(r&&addRangeMark(r))flash('Highlighted. Turn marking on and tap it to remove.',3000);getSelection().removeAllRanges();selBtn.hidden=true};
+function resyncHighlights(){for(const u of unitMap.values())if(u.marked){u.marked=false;u.colour=null;paintUnit(u)}for(const id of [...rangeMarks.keys()])unwrapRange(id);highlightLoadFailed=false;restoreHighlights()}
+addEventListener('pageshow',e=>{if(e.persisted&&!pendingHighlightChanges.size)resyncHighlights()});
+addEventListener('storage',e=>{if(e.key===highlightStorageKey&&!pendingHighlightChanges.size)resyncHighlights()});
+{const base=setMarking;setMarking=function(on){const was=marking;base(on);if(on&&!was)flash('Marking on: tap a sentence — or long-press, drag to the exact words, then tap “Highlight selection”. Tap a highlight to remove it.',6000)}}
+// ---------- images: tap or double-tap to open a zoomable view ----------
+const zoom=document.createElement('dialog');zoom.id='imageZoom';zoom.dataset.readerMetadata='zoom';zoom.innerHTML='<div class="zoom-stage"></div><div class="zoom-bar"><span class="meta">Pinch or double-tap to zoom · drag to move</span><button type="button" class="zoom-close">Close</button></div>';document.body.append(zoom);
+let zs={scale:1,x:0,y:0,base:1},zEl=null;const zPtr=new Map();let zLastTap={t:0,x:0,y:0},zPrev=null;
+function zApply(){if(zEl)zEl.style.transform='translate('+zs.x+'px,'+zs.y+'px) scale('+zs.scale+')'}
+function zFit(){const st=zoom.querySelector('.zoom-stage').getBoundingClientRect(),w=zEl._w,h=zEl._h,top=zoom.querySelector('.zoom-bar').offsetHeight;const base=Math.min(st.width/w,(st.height-top)/h);zs={scale:base,base,x:(st.width-w*base)/2,y:top+(st.height-top-h*base)/2};zApply()}
+function zAbout(px,py,f){const ns=Math.min(zs.base*10,Math.max(zs.base,zs.scale*f));f=ns/zs.scale;zs.x=px-(px-zs.x)*f;zs.y=py-(py-zs.y)*f;zs.scale=ns;zApply()}
+function openZoom(src){
+  const stage=zoom.querySelector('.zoom-stage');stage.replaceChildren();
+  if(src.tagName.toLowerCase()==='img'){zEl=new Image();zEl.src=src.currentSrc||src.src;zEl.alt=src.alt||'';zEl._w=src.naturalWidth||src.width;zEl._h=src.naturalHeight||src.height}
+  else{const r=src.getBoundingClientRect();zEl=src.cloneNode(true);zEl.setAttribute('width',r.width);zEl.setAttribute('height',r.height);zEl._w=r.width;zEl._h=r.height}
+  zEl.className='zoom-img';zEl.removeAttribute('data-unit');zEl.removeAttribute('data-marked');zEl.style.width=zEl._w+'px';zEl.style.height=zEl._h+'px';stage.append(zEl);
+  zoom.showModal();zFit();try{history.pushState({...history.state,hazzardZoom:1},'')}catch{}
+}
+function closeZoom(fromPop){if(!zoom.open)return;zoom.close();zPtr.clear();if(!fromPop&&history.state?.hazzardZoom)history.back()}
+zoom.querySelector('.zoom-close').onclick=()=>closeZoom(false);
+zoom.addEventListener('cancel',e=>{e.preventDefault();closeZoom(false)});
+addEventListener('popstate',()=>{if(zoom.open)closeZoom(true)});
+addEventListener('resize',()=>{if(zoom.open)zFit()});
+const zStage=zoom.querySelector('.zoom-stage');
+zStage.addEventListener('pointerdown',e=>{zStage.setPointerCapture(e.pointerId);zPtr.set(e.pointerId,{x:e.clientX,y:e.clientY});zPrev=null;
+  if(zPtr.size===1){const now=performance.now();if(now-zLastTap.t<320&&Math.hypot(e.clientX-zLastTap.x,e.clientY-zLastTap.y)<30){if(zs.scale>zs.base*1.05)zFit();else zAbout(e.clientX,e.clientY,2.5);zLastTap={t:0,x:0,y:0}}else zLastTap={t:now,x:e.clientX,y:e.clientY}}});
+zStage.addEventListener('pointermove',e=>{if(!zPtr.has(e.pointerId))return;const old=zPtr.get(e.pointerId);zPtr.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(zPtr.size>=2){const [p1,p2]=[...zPtr.values()],d=Math.hypot(p1.x-p2.x,p1.y-p2.y),mx=(p1.x+p2.x)/2,my=(p1.y+p2.y)/2;if(zPrev){zs.x+=mx-zPrev.mx;zs.y+=my-zPrev.my;zAbout(mx,my,d/zPrev.d)}zPrev={d,mx,my}}
+  else if(zs.scale>zs.base*1.01){zs.x+=e.clientX-old.x;zs.y+=e.clientY-old.y;zApply()}});
+for(const t of ['pointerup','pointercancel'])zStage.addEventListener(t,e=>{zPtr.delete(e.pointerId);zPrev=null});
+zStage.addEventListener('wheel',e=>{e.preventDefault();zAbout(e.clientX,e.clientY,e.deltaY<0?1.2:1/1.2)},{passive:false});
+copy.addEventListener('click',e=>{const im=e.target.closest('img,svg');if(!im||!copy.contains(im)||im.closest('button,a,.provenance-ref'))return;const fig=im.closest('svg')||im;e.preventDefault();e.stopPropagation();openZoom(fig)},true);
+// ---------- top / end ----------
+$('#toTop').onclick=()=>readerScroll.scrollTo({top:0});
+$('#toBottom').onclick=()=>readerScroll.scrollTo({top:readerScroll.scrollHeight});
+// ---------- reading place: saved automatically, plus explicit saved places ----------
+const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1';
+function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
+function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:+(readerScroll.scrollTop/span).toFixed(4),at:Date.now()}}
+function goToPlace(p){if(!p)return;const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
+function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;all.last=p;writeJSON(PLACE_KEY,all)}
+let placeTimer=null,userScrolled=false;
+readerScroll.addEventListener('scroll',()=>{clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,700)},{passive:true});
+for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
+addEventListener('pagehide',rememberPlace);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else if(!pendingHighlightChanges.size)resyncHighlights()});
+function savePlaceNow(){if($('#reader').hidden)return;const p=currentPlace();const list=readJSON(BOOKMARK_KEY,[]).filter(b=>!(b.chapter===p.chapter&&b.unit&&b.unit===p.unit));list.unshift(p);writeJSON(BOOKMARK_KEY,list.slice(0,60));closePanel();flash('Place saved — it is listed in Your notebook.',3000)}
+$('#savePlace').onclick=savePlaceNow;$('#bookmark').textContent='Save this place';$('#bookmark').onclick=savePlaceNow;
+// Desk resume card follows the last chapter actually read, across chapters.
+{const last=readJSON(PLACE_KEY,{}).last;if(last&&last.chapter){$('.resume-card h2').textContent=chapterLabel(last.chapter);$('.resume-card .meta').textContent=last.snippet?'“'+last.snippet.slice(0,80)+'…”':''}}
+$('#resume').onclick=()=>{const last=readJSON(PLACE_KEY,{}).last;if(last&&String(last.chapter)!==cid)openChapter(last.chapter);else{view('reader');goToPlace(readJSON(PLACE_KEY,{}).chapters?.[cid])}};
+// ---------- practice ----------
+{const rows=$('#qbankRows');for(const c of manifestChapters.filter(c=>c.kind==='study')){const li=document.createElement('li'),b=document.createElement('button');b.dataset.chapter=c.number;const base=String(c.number).replace(/s$/,''),e=manifestChapters.find(x=>String(x.number)===base);b.innerHTML='<strong></strong><small></small>';b.querySelector('strong').textContent=base==='law'?'Israeli law':'Chapter '+base+(e?' — '+e.title:'');b.querySelector('small').textContent=c.description||'Summary + drill';li.append(b);rows.append(li)}}
+{const st=readJSON(MOCK_KEY,null);if(st?.ids?.length){$('#mockResume').hidden=false;$('#mockResume').textContent='Continue current paper ('+Object.keys(st.grades||{}).length+'/'+st.ids.length+' marked)'}}
+function mockScore(){const st=readJSON(MOCK_KEY,null),el=copy.querySelector('.mock-score');if(!st||!el)return;const g=Object.values(st.grades||{}),right=g.filter(v=>v===1).length;el.textContent='Marked '+g.length+' of '+st.ids.length+(g.length?' · '+right+' right ('+Math.round(100*right/g.length)+'%)':'')}
+function gradeMock(b){const q=b.closest('.mock-q'),st=readJSON(MOCK_KEY,null);if(!st)return;st.grades=st.grades||{};const v=Number(b.dataset.grade);if(st.grades[q.dataset.q]===v)delete st.grades[q.dataset.q];else st.grades[q.dataset.q]=v;writeJSON(MOCK_KEY,st);for(const x of q.querySelectorAll('[data-grade]'))x.setAttribute('aria-pressed',String(st.grades[q.dataset.q]===Number(x.dataset.grade)));mockScore()}
+if(cid==='mock'){const st=readJSON(MOCK_KEY,null);for(const q of copy.querySelectorAll('.mock-q'))for(const x of q.querySelectorAll('[data-grade]'))x.setAttribute('aria-pressed',String(st?.grades?.[q.dataset.q]===Number(x.dataset.grade)));mockScore()}
+// ---------- study timer ----------
+const phases=[['Read',25],['Recall',5],['Rest',5]];let tState={phase:0,left:1500,running:false,end:0},tTick=null;
+function tRender(){const s=Math.max(0,Math.round(tState.left));$('#timerClock').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');$('#timerPhase').textContent=phases[tState.phase][0]+' — step '+(tState.phase+1)+' of 3';$('#timerStart').textContent=tState.running?'Pause':tState.left<phases[tState.phase][1]*60?'Resume':'Start'}
+function tStep(){tState.left=(tState.end-Date.now())/1000;if(tState.left<=0){try{navigator.vibrate?.([300,150,300])}catch{}const done=phases[tState.phase][0];tState.phase=(tState.phase+1)%3;tState.left=phases[tState.phase][1]*60;tState.end=Date.now()+tState.left*1000;flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}tRender()}
+$('#timerStart').onclick=()=>{if(tState.running){tState.left=(tState.end-Date.now())/1000;tState.running=false;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}tRender()};
+$('#timerReset').onclick=()=>{clearInterval(tTick);tState={phase:0,left:1500,running:false,end:0};tRender()};
+tRender();
 restoreHighlights();
-// Jump to a page anchor (e.g. ?chapter=61#p946) once the chapter is rendered.
-if(location.hash){const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)setTimeout(()=>t.scrollIntoView(),60);}
+// Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
+{const h=decodeURIComponent(location.hash.slice(1));let done=false;
+  if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
+  else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}
+  else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>t.scrollIntoView(),60);done=true}}
+  if(!done&&!requestedChapter&&readJSON(PLACE_KEY,{}).last)view('desk');
+  else if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0.005){goToPlace(p);flash('Back where you left off.',2500);addEventListener('load',()=>{if(!userScrolled)goToPlace(p)})}}
+}
 })();</script>
 
 
