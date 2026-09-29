@@ -59,8 +59,6 @@ Definitions of constipation in older people in medical and nursing literature ha
 
 > *FIGURE 87-1. Bristol Stool Scale chart. (Reproduced with permission from Lewis SJ, Heaton KW. Stool form scale as a useful guide to intestinal transit time. _Scand J Gastroenterol_ . 1997;32[9]:920–924.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 87-1 — Definitions of constipation**
 
 *Constipation (Rome IV Criteria)*
@@ -186,8 +184,6 @@ Certain intrinsic mechanisms for altered colonic function in older persons with 
 
 > *Table 87-4 reproduced as a page image (printed p. 1356) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Another possible intrinsic factor is age-related deficit in the density of inhibitory nerves, or in the binding sites on smooth muscle for inhibitory gut neuropeptides. In vitro studies of colons across age groups showed an
 <a id="p1357"></a>**[p. 1357]**
 age-related reduction in the amplitude of inhibitory junction potentials, but no decrease in the levels of inhibitory gut neuropeptides. This age-related decline occurs earlier in women as compared with men. Such a decrease in inhibitory nerve input to the circular smooth muscle could result in segmental motor incoordination, which may lengthen transit time and promote constipation in older persons with other predisposing risk factors. Individuals older than age 60 have higher plasma concentrations of beta-endorphin with increased binding to opiate receptors in the gut wall and myenteric plexus. Higher opiate binding has the effect of relaxing colonic tone, reducing motility, and inhibiting the gastrocolic reflex. Constipation is more prevalent in patients with nonulcer dyspepsia, as both conditions involve gastrointestinal hypomotility.
@@ -219,8 +215,6 @@ home residents, following adjustment for age, comorbidity, and other relevant cl
 ![Figure 87-2](hazzard8e_ch87_figure87-2.png)
 
 > *FIGURE 87-2. A series of schematic diagrams that reveal the normal anatomy and physiology of the pelvic floor in the sagittal plane at rest, during defecation, and the key pathophysiologic changes in subjects with fecal incontinence and dyssynergic defecation. EAS, external anal sphincter; IAS, internal anal sphincter. (Reproduced with permission from Rao SS. Advances in diagnostic assessment of fecal incontinence and dyssynergic defecation. _Clin Gastroenterol Hepatol._ 2010;8[11]:910–919.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Drug Side Effects
 
@@ -437,8 +431,6 @@ taking a history. Some health care providers share the generally held belief tha
 
 > *FIGURE 87-3. A practical approach to assessment of constipation in older people.<sup>*</sup> Because anorectal manometry and rectal balloon expulsion test may not be available in all practice settings, it is acceptable in such circumstances to proceed to assessing colonic transit with the understanding that delayed colonic transit does not exclude a defecatory disorder. (Reproduced with permission from American Gastroenterological Association, Bharucha AE, Dorn SD, et al. American Gastroenterological Association medical position statement on constipation. _Gastroenterology_ . 2013;144[1]:211–217.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ### Digital Rectal Examination
 
 Digital rectal examination is required in all patients who report constipation to reveal rectal impaction, rectal dilatation, hemorrhoids, anorectal disease, and perianal fecal soiling. Retained stool in rectal impaction does not have to be hard; loading with soft stool is common in older people taking laxatives who have problems with rectal outlet delay. Absence of stool on rectal examination does not exclude the diagnosis of constipation. A dilated rectum with diminished sensation and retained stool suggests rectal dysmotility. External sphincter tone is assessed by asking the patient to “squeeze and pull up” around the examining finger. Indicators of reduced internal anal tone are easy insertion of the finger into the anal canal and gaping of the anus on applying gentle traction to the anal margin. Anal sphincter weakness should prompt (1) careful prescribing to avoid causing fecal leakage though excessive laxative-induced softness of stool, and (2) instruction in exercises to strengthen the anal sphincter ( **Table 87-7** ). Absent cutaneous-anal reflex (gentle scratching of the anal margin should normally induce a visible contraction of the external sphincter) and, in particular, perianal anesthesia point to significant sacral cord dysfunction with associated rectal dysmotility. Proctoscopy is a simple, quick, and useful test for diagnosing internal hemorrhoids and abnormalities of the rectal wall.
@@ -578,8 +570,6 @@ Practicing your exercises
 
 > *FIGURE 87-4. Plain radiographs of patients with constipation. **(A)** Colonic or rectal fecal retention associated with air in rectum and cecum. **(B)** Large amount of fecal material in the entire colon with no evidence of bowel obstruction or no free intraperitoneal air. **(C)** Megacolon: Dilatation of the colon (> 6.5 cm maximum diameter) in the absence of acute obstruction.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1368"></a>**[p. 1368]**
 
 should be recorded, with normal range between 1 to 5 minutes. Alternatively, if spontaneous evacuation is not possible, the other outcome is to measure the additional weight added to assist in expelling the balloon. Anorectal tests (including endoanal ultrasound) can measure the integrity of the anal sphincters and thus guide management of incontinence toward conservative treatment (sphincter strengthening exercises and biofeedback therapy) or surgical intervention (sphincter reconstruction).
@@ -591,8 +581,6 @@ There are several modalities to assess the defecatory movements and anatomy. Tra
 ![Figure 87-5](hazzard8e_ch87_figure87-5.png)
 
 > *FIGURE 87-5. Examples of scintiscans at 6, 24, and 48 hours in patients with evacuation disorder and slow-transit constipation (STC); note the delayed transit is also demonstrated at 48 hours in the patients with STC and the retention of isotope in the left colon in patients with evacuation disorder. (Reproduced with permission from Nullens S, Nelsen T, Camilleri M, et al. Regional colon transit in patients with dys-synergic defaecation or slow transit in patients with constipation. _Gut_ . 2012;61[8]:1132–1139.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Colonic Transit
 
@@ -747,15 +735,11 @@ _Senna_ is a cheap and safe agent for use in older patients. A trial of cascara 
 
 > *Table 87-9 reproduced as a page image (printed p. 1373) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1374"></a>**[p. 1374]**
 
 ![Table 87-9](hazzard8e_ch87_table87-9_p1374.png)
 
 > *Table 87-9 reproduced as a page image (printed p. 1374) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1375"></a>**[p. 1375]**
 
@@ -937,8 +921,6 @@ must be able to drink adequate amounts of fluid to avoid further constipation an
 ![Figure 87-6](hazzard8e_ch87_figure87-6.png)
 
 > *FIGURE 87-6. Treatment algorithm for the management of chronic constipation in the older adults. (Reproduced with permission from Rao SS, Go JT. Update on the management of constipation in the elderly: new treatment options. _Clin Interv Aging_ . 2010;5:163–171.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 - For rectal outlet delay or a predominant complaint of straining, the first-line approach should be regular
 <a id="p1380"></a>**[p. 1380]**

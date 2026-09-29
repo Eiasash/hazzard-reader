@@ -50,8 +50,6 @@ Life circumstances resulting in unmet basic needs can also precipitate depressio
 
 > *FIGURE 65-1. Depression erodes motivation to meet basic human needs (left), resulting in unmet needs and their associated consequences (right).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1009"></a>**[p. 1009]**
 
 eager to diagnose and treat depression might overdiagnose it in these scenarios, by misinterpreting minor mood symptoms as a pathological condition. Depression tends to emerge when love and belonging needs are unmet. Abundant empirical evidence and theoretical frameworks, such as interpersonal theory, point to the critical importance of meaningful social connections in sustaining mood among older adults who experience changes in social roles (eg, retirement, grandparenthood), grief and loss, and, sometimes, functional and mobility limitations.
@@ -76,15 +74,11 @@ relationships is poor, or those people are offering kinds of support that the pe
 
 > *FIGURE 65-2. Patient Health Questionnaire-9 (PHQ-9). (PHQ-9 is adapted from PRIME MD TODAY, developed by Drs. Robert L. Spitzer. Janet B.W. Williams, Kurt Kroenke, and colleagues, with an educational grant from Pfizer Inc. For research information. Contact Dr Spitzer at ris8@columbia edu. Use of the PHQ-9 may only be made in accordance with the Terms of Use available at _http://www.pfizer.com_ , Copyright @1999 Pfizer Inc. All rights reserved. PRIME MD TODAY is a trademark of Pfizer Inc.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1011"></a>**[p. 1011]**
 
 ![Figure 65-2](hazzard8e_ch65_figure65-2.png)
 
 > *FIGURE 65-2. (Continued)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1012"></a>**[p. 1012]**
 
@@ -130,8 +124,6 @@ The options that clinicians may want to consider are not all necessarily evidenc
 
 > *FIGURE 65-3. Suicide risk checklist. MADRS, Montgomery-Asberg Depression Rating Scale; QIDS-SR, Quick Inventory of Depressive Symptomatology-Self Scale.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1014"></a>**[p. 1014]**
 
 resonate well with patients, and this gives a promising sign. Some modalities may not be available, especially in rural or underserved communities. The discussion below considers each option, and touches on some common preconceptions. Medications are treated separately.
@@ -175,8 +167,6 @@ In an effort to improve adherence, patient satisfaction, and outcomes, astute cl
 ![Figure 65-4](hazzard8e_ch65_figure65-4.png)
 
 > *FIGURE 65-4. Antidepressant dosing flowchart.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Optimal Duration Of Antidepressant Treatment
 
@@ -229,8 +219,6 @@ If clinicians start to feel especially negative emotions toward patients, or fee
 ![Table 65-1](hazzard8e_ch65_table65-1_p1017.png)
 
 > *Table 65-1 reproduced as a page image (printed p. 1017) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 “fix” people’s mental health problems for them. We can provide support, presence, and specific types of help, but ultimately individuals heal themselves (just as a wound heals itself, even if assisted by interventions). It can be frustrating to get the sense that one is doing nothing, but simply being emotionally present and listening to another person’s distress is often enough.
 

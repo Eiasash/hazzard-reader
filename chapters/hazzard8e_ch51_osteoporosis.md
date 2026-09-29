@@ -33,8 +33,6 @@ Primary or idiopathic osteoporosis has been historically classified as postmenop
 
 > *Table 51-1 reproduced as a page image (printed p. 760) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ## Epidemiology
 
 Due to the increasing osteoporosis prevalence with age, the worldwide aging of the population and the changing lifestyle habits, the prevalence of osteoporosis has risen significantly and will continue to in the future. In 2018, the National Osteoporosis Foundation (NOF) announced that 54 million Americans, half of all adults age 50 and older, are at risk of breaking a bone and should be concerned about bone health; this means that approximately 10 million adults in the United States have osteoporosis, with an additional 43 million having low bone mass. In addition, women have more than 250,000 and 500,000 hip and spine fractures per year, respectively. Men account for an additional 250,000 fractures per year, of which 75,000 are hip fractures.
@@ -58,13 +56,9 @@ The cells involved in bone turnover are osteoclasts, osteoblasts, and osteocytes
 
 > *FIGURE 51-1. Components of bone structure. Computed tomography (CT) images of osteoporotic bone (vertebrae and proximal femur) from a 70-year-old woman analyzed using a specialized image analysis software (Tissue Compass<sup>TM</sup> ) that depicts bone toward marrow, left to right. Cortical and trabecular bone is illustrated in blue. Note that the marrow is occupied mainly by fat (yellow) at the expense of hematopoietic (red) marrow.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 51-2](hazzard8e_ch51_figure51-2.png)
 
 > *FIGURE 51-2. The cellular components of bone turnover. After the expression of specific transcription factors, mesenchymal precursors differentiate into osteoblasts. In contrast, osteoclasts differentiate from mononuclear precursors and act as bone-resorbing cells in the bone multicellular unit. After the completion of bone resorption, osteoclasts undergo apoptosis and are replaced by active osteoblasts responsible for forming new bone. Osteoblasts finally end as lining cells, as osteocytes embedded into the osteoid, or undergo apoptosis. Osteocytes are neuron-like cells representing end-stage osteoblast that have become embedded in the bone matrix (osteoid). (Reproduced with permission from Al Saedi A, Stupka N, Duque G. Pathogenesis of Osteoporosis. _Handb Exp Pharmacol_ . 2020;262:353–367.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p762"></a>**[p. 762]**
 
@@ -78,8 +72,6 @@ In contrast, osteoclasts belong to the macrophage lineage and express multiple v
 
 > *FIGURE 51-3. Factors that regulate bone cell differentiation and bone turnover. The Wnt signaling pathway is the most critical stimulator of osteoblastogenesis. Wnts activate β catenin, which translocates to the nucleus and stimulates the expression of osteogenic transcription factors such as RUNX2. Intermittent exposure to parathyroid hormone also has an osteogenic effect. Osteocytes regulate osteoblastogenesis via two major inhibitory factors, sclerostin and DKK1. Osteoclastogenesis is stimulated by the receptor activator of nuclear factor kappa-Β ligand (RANKL), which is secreted by stromal cells and mature osteoblasts. Inflammatory factors such as TNFα and interleukins induce RANKL expression. In addition, adipocytes secrete adipokines and fatty acids that cause osteoblast and osteocyte apoptosis and induce osteoclast differentiation and activity. (Reproduced with permission from Feehan J, Al Saedi A, Duque G. Targeting fundamental aging mechanisms to treat osteoporosis. _Expert Opin Ther Targets_ . 2019;23[12]:1031–1039.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p763"></a>**[p. 763]**
 
 Osteoclast differentiation, formation, and, to a lesser degree, activation depend upon the proximity and products of the osteoblast ( **Figure 51-3** ). Without exception, the fate of the osteoclasts is to die by apoptosis.
@@ -89,8 +81,6 @@ Osteocytes constitute the third group of bone cells that are involved in bone me
 ![Figure 51-4](hazzard8e_ch51_figure51-4.png)
 
 > *FIGURE 51-4. Osteoblast–osteoclast coupling and the regulation of RANK ligand expression. Osteoblast production of M-CSF and RANKL play critical roles in the differentiation and activation of osteoclasts. M-CSF acts to maintain monocytic stem cell survival, and subsequently, RANKL acts to commit the cell toward osteoclast differentiation, fusion, polarization, and activation. EphB4 and ephrinB2 interact both to limit osteoclast activity and stimulate osteoblast differentiation. TGF-β acts only upon release from the extracellular matrix after osteoclastic resorption, which is mainly mediated by the excretion of CTSK. BMP-2, bone morphogenetic protein-2; CTSK, cathepsin K; M-CSF, macrophage colony-stimulating factor; PDGF, platelet-derived growth factor; RANKL, RANK ligand; TGF-β, transforming growth factor-β.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Bone Turnover
 
@@ -105,8 +95,6 @@ RANKL is mainly a cytoplasmic membrane-bound molecule; to a lesser extent, it is
 ![Table 51-2](hazzard8e_ch51_table51-2_p764.png)
 
 > *Table 51-2 — Local factors regulating bone cell interaction and activity. Reproduced as a page image (printed p. 764) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Genetics
 
@@ -147,8 +135,6 @@ and progressive decline in BMD after the third decade of approximately 0.5% per 
 
 > *FIGURE 51-5. The role of fat in aging bone. Increasing bone marrow fat levels observed in aging bone are associated with the local secretion of lipotoxic factors (fatty acids and adipokines), reducing osteoblast differentiation and inducing apoptosis in osteoblasts and osteocytes. At the same time, they also stimulate osteoclast differentiation and activity.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Pluripotent mesenchymal cells within the bone marrow stroma are, by default, programmed to differentiate into adipocytes, but the presence of specific osteogenic factors in the bone marrow induces osteoblastic differentiation. With aging, those osteogenic factors are decreased, generating a predominant adipocyte differentiation of those precursors. In addition, osteoblast and osteocyte apoptosis increase with aging. Histomorphometric data demonstrate that 50% to 70% of the osteoblasts present at the remodeling site cannot be accounted for after the enumeration of lining cells and osteocytes. The discrepancy in osteoblast numbers is believed to be a consequence of osteoblast apoptosis. This phenomenon may account for the significant reduction in bone formation associated with aging, which is added to high levels of marrow adipogenesis.
 
 In addition, increasing marrow fat levels directly negatively affects bone metabolism by regulating the function and survival of bone cells. By secreting fatty acids and adipokines, marrow adipocytes inhibit osteoblast differentiation, function, and survival and osteocyte survival. This effect has been described as lipotoxicity, defined as the ectopic accumulation of lipid and lipid products in nonadipose tissues leading to cellular dysfunction, cell death (lipoapoptosis) and disease. Additionally, adipocyte-secreted factors (primarily fatty acids) affect autophagy, defined as the conserved process whereby aggregated proteins, intracellular pathogens, and damaged organelles are degraded and recycled. Autophagy appears to play a significant role in skeletal maintenance after recent reports reveal that suppression of autophagy in osteocytes mimics skeletal aging. Furthermore, marrow adipocytes induce osteoclastic activity by facilitating the release of RANKL into the bone marrow milieu, thus stimulating bone resorption in addition to decreasing bone formation ( **Figure 51-5** ).
@@ -163,8 +149,6 @@ that a complex bone/muscle cross-talk system exerted via osteokines and adipokin
 ![Figure 51-6](hazzard8e_ch51_figure51-6.png)
 
 > *FIGURE 51-6. Muscle-bone cross-talk (myokines, osteokines, adipokines) and the pathophysiology of osteosarcopenia. (Reproduced with permission from Kirk B, Zanker J, Duque G. Osteosarcopenia: epidemiology, diagnosis, and treatment-facts and numbers. _J Cachexia Sarcopenia Muscle_ . 2020;11[3]:609–618.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 In addition to cellular changes, there are two major changes in calciotropic hormones that impact aging bone. Vitamin D levels decrease with age and reduce calcium absorption. Changes in the aging skin lessen the amount of 7-dehydrocholesterol, the precursor of cholecalciferol (vitamin D3), and its conversion rate. Furthermore, declining renal function leads to a reduction in the production and activity of 1-α-hydroxylase, the enzyme responsible for the activation of vitamin D3. Consequently, a negative calcium balance ensues, which activates the calcium sensor receptor in parathyroid glands. PTH is secreted as a physiologic response, stimulating osteoclast activity, maintaining normal serum calcium levels at the expense of bone mineralization. This theory of secondary hyperparathyroidism was once the definitive explanation for age-related bone loss. However, not all individuals with hypovitaminosis D exhibit secondary hyperparathyroidism. Therefore, it is just one of the elements of a syndrome that results in osteoporosis in older adults. However, this mechanism has been recently associated with additional important risk factors for fractures: sarcopenia and falls. Vitamin D and PTH appear to modulate neuromuscular function, particularly in frail older adults. Serum levels of 25(OH)-vitamin D lower than 35 nmol/L increase the risk of falls by 30%, which highly predisposes to fractures. Patients with serum levels between 35 and 80 nmol/L, which were considered normal in the past, are still at risk of falls, suggesting that the therapeutic goal should be to obtain serum levels greater than 80 nmol/L.
 
@@ -208,8 +192,6 @@ In most cases, secondary osteoporosis can be either prevented or treated if susp
 
 > *Table 51-3 — Recommendations for evaluation of secondary causes of osteoporosis. Reproduced as a page image (printed p. 769) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Table 51-4 — Risk factors for osteoporotic fracture**
 
 | Potentially modifiable | Nonmodifiable |
@@ -245,8 +227,6 @@ The FRAX index (http://www.shef.ac.uk/FRAX) estimates the absolute risk of suffe
 ![Figure 51-7](hazzard8e_ch51_figure51-7.png)
 
 > *FIGURE 51-7. Clinical algorithm for the combined assessment and management of osteoporosis and sarcopenia in older persons. (Reproduced with permission from Kirk B, Zanker J, Duque G. Osteosarcopenia: epidemiology, diagnosis, and treatment-facts and numbers. J Cachexia Sarcopenia Muscle. 2020;11[3]:609–618.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Since many osteoporotic fractures result from falls (Chapter 43) or the simultaneous presence of sarcopenia (Chapter 49), it is essential to assess patients for fall risk and sarcopenia and institute preventive measures where appropriate. **Figure 51-7** proposes a practical diagnostic algorithm to identify osteoporosis and sarcopenia in clinical practice. The risk factors for osteoporosis and sarcopenia are almost identical; thus, identification of secondary causes of osteoporosis should trigger the assessment for the presence of sarcopenia. The causes of falls are often multifactorial and include medications, poor vision, impaired cognition, maladaptive devices, alcohol, orthostatic hypotension, impaired balance and gait, environmental hazards, and lower extremity weakness. Recent studies suggest that specific performance measures can help to identify those at greater risk of falling. Individuals who
 
@@ -316,15 +296,11 @@ Bisphosphonates decrease bone resorption by inhibiting osteoclast action and sur
 
 > *Table 51-5 reproduced as a page image (printed p. 774) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p775"></a>**[p. 775]**
 
 ![Table 51-5 continued](hazzard8e_ch51_table51-5b_p775.png)
 
 > *Table 51-5 (continued) — Pharmacologic agents for the treatment of osteoporosis: hormone replacement therapy and SERMs (raloxifene, bazedoxifene). Reproduced as a page image (printed p. 775) — the grid did not extract reliably as text for this fast build. (Reproduced with permission from Zanker J, Duque G. Osteoporosis in Older Persons: old and New Players. J Am Geriatr Soc. 2019;67(4):831–840.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 fracture, alendronate was only effective in reducing the risk of clinical fracture in those with femoral neck BMD ≤ −2.5. Additionally, a subanalysis showed a decrease in the risk of nonvertebral fractures in those with femoral neck BMD ≤ −2.5. Alendronate treatment was equally effective in those ≤ 75 and those > 75 and reduced the risk of vertebral fracture by 51% and 38%, respectively after 12 months. There was not enough power to conduct subgroup analyses to determine if alendronate prevented hip fracture in older people (aged ≥ 75). The time to therapeutic benefit for alendronate in individuals ≥ 70 was calculated to be 8 months. Therefore, limited life expectancy in older and frail people should not delay the clinical decision to commence treatment. Furthermore, in a study of older women with osteoporosis living in residential aged care, alendronate treatment for 2 years was well tolerated and increased BMD at all sites.
 

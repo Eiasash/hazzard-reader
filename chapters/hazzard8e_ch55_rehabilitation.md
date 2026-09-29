@@ -44,8 +44,6 @@ In 2001, the WHO released the _International Classification of Functioning, Disa
 
 > *FIGURE 55-1. Schematic of the Nagi disablement model with definitions. The first disablement model was described by Nagi in the early 1960s. The initial disablement model focused on a linear progression to disability and has been replaced over time with new models such as the International Classification of Functioning, Disability, and Health (ICF). Importantly, the Nagi model was the first attempt to describe the process of disability.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Using the ICF model, we could describe an older woman, who has a history of osteoarthritis of the knees and hypertension, who presents to rehabilitation after a hip fracture. She lives alone in a second-floor apartment and has a daughter who lives at a distance 6 hours away. The patient has a large circle of friends and regularly attends social gatherings at the local senior center. **Figure 55-3** <a id="p819"></a>**[p. 819]** demonstrates how this patient’s problems might be placed in the ICF model, with the goal of generating hypotheses about the best treatment options. Important issues include not only improving the patient’s strength and walking ability but also addressing where she will live after discharge and how to keep her active in her community. Understanding the relationships between the different components and addressing them is the key to a successful rehabilitation.
 
 It is believed by many that the ICF framework has the potential to provide a standard disablement language, which could facilitate dialogue across disciplines. The ICF model attempts to reflect the interactions between different components of health and avoids the linear view of previous models. This framework also looks beyond disease and mortality to focus on how people live with their disabling conditions.
@@ -54,13 +52,9 @@ It is believed by many that the ICF framework has the potential to provide a sta
 
 > *FIGURE 55-2. International Classification of Functioning, Disability, and Health (ICF). The latest version of the ICF focuses on the interaction between various factors and the impact these factors have on health and functioning. Prior models focused on disability and portrayed the path to disability as a linear process. This model attempts to incorporate, from a biological, personal, and social perspective, a biopsychosocial view of health. (Reproduced with permission from World Health Organization. _Towards a Common Language for Functioning, Disability and Health._ Geneva, Switzerland: ICF; 2002.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 55-3](hazzard8e_ch55_figure55-3.png)
 
 > *FIGURE 55-3. Using the ICF model to describe patient function. This figure demonstrates how a patient’s problems might be placed in the ICF model with the goal of generating hypotheses about the best treatment options. In the case of this patient with osteoarthritis and new hip fracture, the ICF model illustrates how addressing where the patient will live after discharge and how to keep the patient active in the community are as important as improving the patient’s strength and walking ability. Understanding the relationships between the different components and addressing them is the key to successful rehabilitation. (Data from WHO ICF model.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p820"></a>**[p. 820]**
 
@@ -160,8 +154,6 @@ A variety of interventions are available to treat physical impairments and disab
 
 > *Table 55-4 — Rehabilitation team members, typical roles, and methods used for evaluation and treatment. Reproduced as a page image (printed p. 823).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ### Exercise/physical Activity
 
 **_General Principles of Exercise_** Exercise is the cornerstone of physical rehabilitation. Each exercise prescribed for a patient should be related to achievement of a goal, and all goals should lead to improvement in function. For example, a common exercise for patients is elbow and shoulder flexion. Typical goals related to these exercises are feeding one’s self, dressing one’s self, or reaching overhead to retrieve an item from a shelf. The expected functional outcome for each exercise should be shared with the patient and his/her family. The involvement <a id="p824"></a>**[p. 824]** of the patient and the family is important to maximize adherence.
@@ -243,8 +235,6 @@ Prescribing a wheelchair for use is an important decision, and the advantages an
 ![Table 55-5](hazzard8e_ch55_table55-5_p828.png)
 
 > *Table 55-5 — Key features and clinical situations where ambulatory devices might be beneficial. Reproduced as a page image (printed p. 828).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ALS, amyotrophic lateral sclerosis; MS, multiple sclerosis; UEs, upper extremities.
 

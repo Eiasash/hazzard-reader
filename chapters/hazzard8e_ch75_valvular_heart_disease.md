@@ -67,8 +67,6 @@ Two-thirds of patients present with angina, which may be caused by concomitant c
 
 > *FIGURE 75-1. Valvular aortic stenosis in adults. Average course (postmortem data). (Reproduced with permission from Ross J Jr, Braunwald E. Aortic stenosis. _Circulation_ . 1968;38[1 Suppl]:61–67.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1151"></a>**[p. 1151]**
 although 40% do not have significant coronary artery disease. The most likely etiology for angina in the absence of coronary artery disease is subendocardial ischemia and the increased oxygen demands of the hypertrophied ventricle together with decreased coronary flow reserve. Untreated patients with aortic stenosis and angina <mark>have a 50% 5-year</mark> survival.
 
@@ -162,15 +160,11 @@ The findings and eponyms associated with aortic insufficiency are a delight to l
 
 > *Table 75-3 — Factors favoring SAVR, TAVR, or palliative care (printed p. 1153).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1154"></a>**[p. 1154]**
 
 ![Table 75-4](hazzard8e_ch75_table75-4_p1154.png)
 
 > *Table 75-4 — Eponymous signs of aortic insufficiency (printed p. 1154).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 However, the most obvious physical findings are those of a diastolic murmur and a widened pulse pressure.
 
@@ -220,8 +214,6 @@ In older patients with severe compensated aortic insufficiency, the onset of sym
 ![Table 75-6](hazzard8e_ch75_table75-6_p1155.png)
 
 > *Table 75-6 — Recommendations for surgery in aortic insufficiency (printed p. 1155).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 as decreased postsurgical survival. Therefore, in patients without comorbidities that contraindicate surgery, an earlier commitment to surgery is generally the preferred strategy.
 
@@ -447,8 +439,6 @@ Although there is surprisingly a dearth of data supporting or refuting the use o
 
 > *Table 75-12 — Preoperative risk assessment (printed p. 1160).*
 
-> Highlighting is the owner's annotation, not the book's.
-
 > STS-PROM row: low risk < 4% *and*, intermediate 4%–8% *or*, high > 8%; prohibitive = surgical risk of death or major morbidity > 50% (see crop for the frailty/organ-dysfunction/impediment rows).
 
 <a id="p1161"></a>**[p. 1161]**
@@ -505,8 +495,6 @@ Hemorrhagic complications are more likely if the INR is greater than 5. Patients
 ![Table 75-15](hazzard8e_ch75_table75-15_p1161.png)
 
 > *Table 75-15 — Anticoagulation for prosthetic valves (printed p. 1161).*
-
-> Highlighting is the owner's annotation, not the book's.
 
 > Aspirin alongside the INR targets above: 75–325 mg/day with a mechanical valve, 75–100 mg/day with a bioprosthetic valve.
 

@@ -63,8 +63,6 @@ These characteristics can be considered as the common beacon at the confluence o
 
 > *FIGURE 42-1. Frailty can be conceptualized as a construct with three overlaying dimensions, similar to layers of an onion. The clinical presentation, including cognitive and physical impairments, is in the first, most superficial layer. The second layer includes a number of hypothetical pathophysiologic mechanisms and can also be considered as the “area of biomarkers.” The third, most inner layer includes the biological mechanisms that are hypothesized to be primary causes of frailty. (Reproduced with permission from Ferrucci and Fabbri, unpublished data.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Older patients who come to the observation of geriatricians often present these characteristics. In spite of medical treatment aimed at promoting recovery and stabilization, many patients show a spiral of progressive health deterioration with a wide range of clinical features, as listed in **Table 42-1** . Such patients may already have or soon develop one or more “geriatric syndromes” (see subsequent Chapters 43–48). It can be quite useful to consider the geriatric syndromes as an overt manifestation of different combinations of the aging phenotypes.
 
 The next, second layer closer to the frailty core could be defined as the “area of biomarkers” and departs from a purely descriptive interpretation of frailty by providing some information on possible mechanisms. Frailty includes impairments across multiple physiologic systems and organs: (1) muscle mass and strength are reduced and fat mass increased beyond what is expected from aging alone, and these changes may be accompanied by extreme bone fragility; (2) level of fitness is poor and accompanied by altered resting metabolic rate due in part to change in body composition and in the most severe cases to impaired
@@ -119,8 +117,6 @@ Functional assessment attempts to assess and track the consequences of physiolog
 
 > *FIGURE 42-2. Schematic representation of the pathologic vicious cycle proposed to lead to a progressive decline in health and function according to the physical frailty model. (Reproduced with permission from Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. _J Gerontol A Biol Sci Med Sci._ 2001;56[3]:M146–M156.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 In contrast, the concept of frailty implies the existence of underlying pathophysiologic mechanisms responsible for the phenotypical manifestations. Although different interpretative frameworks for frailty have been developed, with different operational criteria, most connect frailty directly or indirectly with the biology of aging. In summary, individuals become frail when their residual resilience capacity can no longer cope with the simple stress of being alive. This is the reason why frailty can rapidly progress and is associated with very high risk of disability and mortality.
 
 ### Frailty As A Syndrome Or Phenotype
@@ -140,8 +136,6 @@ rises with increasing age independent of chronic diseases, the association with 
 ![Figure 42-3](hazzard8e_ch42_figure42-3.png)
 
 > *FIGURE 42-3. A model pathway of physical frailty derived from the cycle presented in **Figure 42-2** that links biology and disease to physiology and signs and symptoms of physical frailty. (Reproduced with permission from Walston J, Hadley EC, Ferrucci L, et al. Research agenda for frailty in older adults: toward a better understanding of physiology and etiology: summary from the American Geriatrics Society/National Institute on Aging Research Conference on Frailty in Older Adults. _J Am Geriatr Soc._ 2006;54[6]:991–1001.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 The phenotypic approach to frailty is appealing because it can be assessed easily and quickly using the Physical Frailty Phenotype, per **Table 42-3** , and also because it is based on a solid pathophysiologic model that highlights opportunities for interventions. However, this approach to frailty also has a few drawbacks. The first problem is the lack of a specific cognitive dimension, which is in contrast with the clinical experience that cognitive impairment often accompanies frailty. Indeed, the subgroup of older patients who experience “dual” decline of mobility and cognition appear to be at very high risk of developing functional decline and disability. A second problem is the inclusion of weight loss in the syndrome. Unexplained weight loss is a strong biomarker of health decline with aging. However, given the increasing prevalence of obesity, a sarcopenic-obesity variant of frailty is becoming more and more frequent, and this variant may be missed by the weight loss criterion. Third, the threshold selected for the definition of some of the criteria are based on distributions in the CHS population, which may not be fully representative of all clinical populations in the United States. Despite these limitations, this definition of frailty has proven to be a useful tool both for research and clinical applications, and it has been adapted for many studies and uses. Examples of the many successful applications are given later in this chapter.
 
@@ -166,14 +160,10 @@ Another major school of thought that has been a mainstream in frailty research i
 
 > *Table 42-3 reproduced as a page image (printed p. 621) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p622"></a>**[p. 622]**
 ![Table 42-3](hazzard8e_ch42_table42-3_p622.png)
 
 > *Table 42-3 reproduced as a page image (printed p. 622) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p623"></a>**[p. 623]**
 
@@ -204,8 +194,6 @@ to frailty and late-life decline: (1) signaling networks that maintain homeostas
 ![Figure 42-4](hazzard8e_ch42_figure42-4.png)
 
 > *FIGURE 42-4. Schematic representation of the domains of the aging phenotype and their relationship with frailty and multiple downstream geriatric syndromes. (Reproduced with permission from Longo DL, Fauci AS, Kasper DL, et al. _Harrison’s Principles of Internal Medicine._ 18th ed. New York, NY: McGraw Hill; 2012.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ### Signaling Networks That Maintain Homeostasis
 
@@ -332,8 +320,6 @@ The new paradigm of precision medicine provides an almost ideal entry for the fr
 ![Figure 42-5](hazzard8e_ch42_figure42-5.png)
 
 > *FIGURE 42-5. Potential targets of frailty-focused research aimed at understanding the relationship between accelerated aging and frailty. (Reproduced with permission from Ferrucci and Fabbri, unpublished data.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p631"></a>**[p. 631]**
 ### Further Reading

@@ -74,8 +74,6 @@ Kidney function is usually assessed by serum creatinine and blood urea nitrogen 
 
 > *FIGURE 83-1. Prognosis of chronic kidney disease (CKD) by glomerular filtration rate (GFR) and albuminuria category. (Reproduced with permission from Kidney Disease: Improving Global Outcomes (KDIGO) Diabetes Work Group. KDIGO 2020 Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease. _Kidney Int._ 2020;98[4S]:S1–S115.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 including after renal infarct), and renal pelvis dilatation (in ureteral or severe bladder outflow obstruction).
 
 Previous blood, urine, and imaging test results should be obtained if available to determine duration and rate of change. A detailed medical and surgical history should be obtained, including childhood diseases, in particular edema and proteinuria in the past and history of rheumatic fever or other severe conditions. The family history can point toward inheritable kidney diseases (including PKD and focal segmental glomerular sclerosis [FSGS]). Social history may identify exposure to toxins and herbal remedies. Additionally, the history can help to identify risk factors for progression of CKD to ESKD. A comprehensive physical examination can detect elevated blood pressure, obesity, signs of heart failure, pulmonary and peripheral edema, liver disease, vasculitis/autoimmune disease, etc.
@@ -140,15 +138,11 @@ Etiologies of AKI can be categorized into prerenal, postrenal (obstructive), and
 
 > *Table 83-1 reproduced as a page image (printed p. 1281) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1282"></a>**[p. 1282]**
 
 ![Table 83-1 continued](hazzard8e_ch83_table83-1_p1282.png)
 
 > *Table 83-1 (continued) reproduced as a page image (printed p. 1282) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 intravascular volume depletion due to fluid loss with decreased total body volume (ie, diarrhea, vomiting, and active bleeding) or low intravascular oncotic pressure (hypoalbuminemia secondary to nephrotic syndrome [NS], liver dysfunction, or malnutrition). Decreased cardiac output can also lead to a prerenal state even if the patient has peripheral and pulmonary edema. Patients with preexisting renal vascular disease are also at increased risk for prerenal AKI with milder degree of hypovolemia or hypotension.
 
@@ -199,8 +193,6 @@ Some GN conditions have a second peak in the geriatric population such as small-
 ![Table 83-2](hazzard8e_ch83_table83-2_p1284.png)
 
 > *Table 83-2 reproduced as a page image (printed p. 1284) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ANCA, antineutrophil cytoplasmic antibodies; GBM, glomerular basement membrane. _Modified with permission from Massry SG, Glassock RJ. Textbook of Nephrology, 4th ed. Baltimore, MD: Williams and Wilkins; 2000._
 
@@ -374,8 +366,6 @@ Atherosclerosis accounts for almost 90% of cases in the geriatric population, wi
 
 > *Table 83-3 reproduced as a page image (printed p. 1288) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 _Modified with permission from Greco BA, Breyer JA. The natural history of renal artery stenosis: who should be evaluated for suspected ischemic nephropathy? Semin Nephrol. 1996;16(1):2–11._
 
 disease includes many different diseases ( **Table 83-3** ). Atheroembolic renal disease falls into the category of renal insufficiency induced by preglomerular ischemia. This entity has been usually described in patients with clinical evidence of atheromatous occlusive disease following invasive intra-aortic diagnostic or therapeutic procedures, although spontaneous embolic episodes have been reported.
@@ -464,8 +454,6 @@ Since liberalizing access to dialysis and kidney transplantation, there has been
 
 > *FIGURE 83-2. Distribution of treatment modality among prevalent ESRD patients by age. (Reproduced with permission from United States Renal Data System. _2020 USRDS Annual Data Report: Epidemiology of kidney disease in the United States_ . National Institutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases. Bethesda, MD, 2020.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p1291"></a>**[p. 1291]**
 
 to include not only older patients, but also to those with multiple chronic conditions. Given the complexity of managing older patients with a high burden of comorbid disease, the primacy care/geriatrics team has the opportunity to play a crucial role in the care of these patients. Patients with advanced CKD often have been shown to have gaps in their primary health care, diabetes care, and cardiovascular disease care. There are also gaps in nutrition, fall prevention, management of depression, and frailty among older patients undergoing dialysis.
@@ -500,8 +488,6 @@ Hemodialysis removes excess fluids and solutes from the blood in order to mainta
 
 > *FIGURE 83-3. Kidney disease quality of life (KDQOL) physical component summary (PCS) and mental component summary (MCS) scores by age categories across Dialysis Outcomes and Practice Patterns Study (DOPPS) regions versus US population norm. Cross-section of participants in DOPPS III (2005–2007; _n_ = 8161). Europe includes United Kingdom, France, Germany, Italy, Spain, Belgium, and Sweden; North America includes United States and Canada; ANZ represents Australia and New Zealand. (Adapted from Canaud B, Tong L, Tentori F, et al. Clinical practices and outcomes in elderly hemodialysis patients: results from the Dialysis Outcomes and Practice Patterns Study (DOPPS). _Clin J Am Soc Nephrol_ . 2011;6[7]:1651–1662.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 access requires minor surgery in the arm or leg. The AV fistula, which creates a connection between the native artery and the AV fistula vein, matures and thickens to handle the higher blood flow rates and permit the use of a needle for access after approximately 3 months. The use of an AV fistula has been associated with better access survival, fewer infections, fewer hospitalizations, and longer patient survival. The AV graft uses a synthetic bridge between the artery and the vein. The graft has been used in a broader population than the AV fistula but has the major limitations of shorter access survival as well as more infections and hospitalizations. For patients who have been referred late or who have acute kidney failure, hemodialysis is performed using a dialysis catheter. This is typically a large-bore catheter placed in a major vessel such as the superior vena cava. In the outpatient setting, these catheters are usually tunneled under the skin and treated with sterile precautions by the dialysis unit when accessing the catheters for blood. They have been associated with high rates of bacteremia, catheter malfunction, venous stenosis, and increased costs. Despite the increased rate of complications with grafts and catheters, the older adult should participate
 
 in shared decision-making to select an access as the delayed maturation of a fistula may prove unsatisfactory to someone with a limited life expectancy. By far, in-center hemodialysis remains the predominant form of dialysis in the United States. While most patients maintain a certain quality of life on hemodialysis, the drawbacks include pain, fatigue, depression, loss of freedom, dietary and fluid restrictions, and concern about burden to caregivers.
@@ -533,8 +519,6 @@ One of the options for older patients with ESKD would be to have a trial of hemo
 ![Figure 83-4](hazzard8e_ch83_figure83-4.png)
 
 > *FIGURE 83-4. Yearly distribution of living donor transplantation, deceased donor transplantation, death, and removal from the waitlist after initial waitlisting for those greater than 75 years of age, 2009 to 2013. (Reproduced with permission from United States Renal Data System. _2020 USRDS Annual Data Report: Epidemiology of kidney disease in the United States_ . National Institutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD, 2020.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1294"></a>**[p. 1294]**
 
@@ -603,8 +587,6 @@ There have been increasingly successful attempts to develop and test predictive 
 ![Figure 83-5](hazzard8e_ch83_figure83-5.png)
 
 > *FIGURE 83-5. Change in functional status after initiation of dialysis. (Reproduced with permission from Kurella Tamura M, Covinsky KE, et al. Functional status of elderly adults before and after initiation of dialysis. _N Engl J Med_ . 2009;361[16]:1539–1547.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 functional status within 1 year of starting hemodialysis. In addition to place of residence, clinicians can use functional status, other chronic health conditions, and frailty to improve their estimate of prognosis. Integrated prognostic models can provide additional precision by taking into account laboratory values, comorbidities, changes in clinical factors over time, functional status, frailty, quality of life, and either the patient’s or clinician’s prediction of survival. The “surprise question”—Would you be surprised if your patient died within the next 6 months?—is a strong indicator of mortality, and when combined with serum albumin, age, and two comorbid factors (dementia and peripheral vascular disease) results in an instrument with clinically adequate sensitivity and specificity. The application of prediction tools will help to overcome practitioner uncertainty about prognosis and increase the likelihood of meaningful dialogues between clinicians, older patients, and their families. However, there remains a critical gap among the existing predictive instruments since they uniformly assess only survival. Other issues such as quality of life, functional status, and independence are critical factors for older patients when deciding whether to proceed with RRT.
 

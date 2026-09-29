@@ -284,8 +284,6 @@ Once the diagnosis of hypogonadism is confirmed whether organic or functional an
 
 > *Table 97-5 reproduced as a page image (printed p. 1534) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 management of potentially reversible functional causes of testosterone deficiency (eg, discontinuation of opioids) should be considered prior to or in addition to starting testosterone therapy. In many instances however, the cause of functional hypogonadism might not be treatable (eg, older patients taking opioids for chronic pain or morbidly obese older men who have failed attempts to lose weight and are not candidates for bariatric surgery). Older men with severe clinical and biochemical testosterone deficiency due to organic hypogonadism should be referred to an endocrinologist for further evaluation and management.
 
 Contraindications to testosterone treatment are active prostate cancer and breast cancer, as these malignancies might be stimulated by testosterone and its active metabolite, estradiol, respectively. Testosterone should be used with caution in older patients with an abnormal digital rectal examination or prostate-specific antigen (PSA) greater than 4.0 ng/mL, hematocrit greater than 50, untreated obstructive sleep apnea, severe lower urinary tract symptoms (LUTS), for example, International Prostate Symptom Score (IPSS) greater than 19, uncontrolled heart failure, myocardial infarction or stroke within the last 6 months, and thrombophilia.
@@ -361,8 +359,6 @@ In contrast to primary hyperparathyroidism, serum calcium is low-normal or norma
 
 > *FIGURE 97-1. Schematic representation of the hormonal regulation of calcium homeostasis by parathyroid hormone (PTH) and vitamin D (D). A reduction in serum calcium (Ca) below normal reduces negative feedback suppression of the parathyroid glands and prompts a proportional increase in PTH secretion. PTH stimulates osteoclastic bone resorption and mobilizes calcium (and phosphate [P]) from bone; increases conversion of 25-hydroxyvitamin D (25-OH D) to 1,25-dihydroxyvitamin D (1,25 OH2 D) in the kidney, which in turn stimulates calcium (and phosphate) absorption from the intestines and stimulates distal tubular reabsorption of calcium (and inhibits proximal tubular reabsorption of phosphate) from the kidney. These actions of PTH restore serum calcium, which then exerts negative feedback suppression of PTH secretion.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 **Clinical presentation** The majority (80%) of patients with primary hyperparathyroidism are asymptomatic, and they have mild hypercalcemia detected incidentally on routine measurement of serum total calcium in a chemistry panel. Some older patients with mild to moderate chronic hypercalcemia caused by primary hyperparathyroidism may exhibit gradual onset of low energy, fatigue, proximal (leg > arm) muscle weakness, and functional impairment, especially in those with a high burden of comorbidities and medications.
 
 The classical clinical manifestations of primary hyperparathyroidism are less common and characterized by the following:
@@ -392,8 +388,6 @@ The classical clinical manifestations of primary hyperparathyroidism are less co
 ![Table 97-9](hazzard8e_ch97_table97-9_p1538.png)
 
 > *Table 97-9 — PTH-dependent and PTH-independent causes of hypercalcemia in older patients, reproduced as a page image (printed p. 1538) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 1,25 (OH)2-vitamin D, 1,25-dihydroxyvitamin D; PTH, parathyroid hormone; PTHrp, parathyroid hormone-related peptide.
 
@@ -484,8 +478,6 @@ Paget disease is most common in North America, Western Europe, Australia, and Ne
 
 > *FIGURE 97-2. Anteroposterior pelvis radiograph from a 72-year-old man with Paget disease of bone involving the entire pelvis. Femurs are not involved, but the right side of the pelvis has marked protrusion of the acetabulum.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 Paget disease most commonly affects the pelvis (~70%), lumbar spine and proximal femur (~50%), skull (~40%), and proximal tibia and humerus (~30%), that is, the axial skeleton. Most patients are asymptomatic. Paget disease is usually discovered incidentally on x-rays performed for other reasons or during an evaluation for an isolated high serum alkaline phosphatase. Constant aching bone pain (due to periosteal stretching and increased bone vascularity) or periarticular and joint pain (due to osteoarthritis secondary to periarticular bone enlargement and altered force transmission in affected joints) that is worse with weight-bearing and at night develops in 40% of patients. Bone pain may affect ambulation, physical functioning, and fall risk in older patients.
 
 Bones affected by Paget disease may become enlarged grossly and deformed (eg, bowed), and there may be increased warmth over affected bones due to increase blood flow associated with high bone turnover. Patients may also develop osteoarthritis in an unaffected joint as a result of favoring the joint affected by Paget disease. Pain may also be due to fractures that can occur with minimal trauma. There is also a higher rate of nonunion, secondary skeletal deformities, and pseudo-fractures (transverse bands of demineralization).
@@ -495,8 +487,6 @@ Bone involvement and enlargement by Paget disease may be associated with neurolo
 ![Figure 97-3](hazzard8e_ch97_figure97-3.png)
 
 > *FIGURE 97-3. Right proximal femur and pelvis radiograph of a 68-year-old man with Paget disease of bone involving both the femur and ileum. The angles of the femoral neck and femur are decreased as the bone is weaker (coxa vara deformity). Note the lateral bowing of the femur with stress fractures on the convex side of the femur.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 In patients with a high burden of disease involving multiple bones (polyostotic Paget disease), high rates of bone turnover and release of calcium from bone may result in hypercalcemia and nephrolithiasis with immobilization. Rarely, polyostotic Paget disease increases the risk of osteosarcoma, other primary and secondary bone
 

@@ -125,13 +125,9 @@ With hand OA, the first CMC, the DIP, and the PIP joints are most commonly invol
 
 > *FIGURE 52-1. Knee x-ray anteroposterior view showing severe joint space narrowing within the lateral compartment, genu valgus, and joint effusion.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Figure 52-2](hazzard8e_ch52_figure52-2.png)
 
 > *FIGURE 52-2. Hand x-ray showing joint space narrowing of the index, middle, ring, and small finger DIP joints and middle finger PIP joint. There are possible central erosions of the index and ring finger DIP joints, suggestive of erosive osteoarthropathy.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 this requires both dorsoplantar and lateral views to be taken while standing.
 
@@ -152,8 +148,6 @@ A variety of OA-related biomarkers have been identified and validated for severa
 ![Figure 52-3](hazzard8e_ch52_figure52-3.png)
 
 > *FIGURE 52-3. Lumbar spine x-ray showing extensive osteophyte formation.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 ## Management
 
@@ -177,15 +171,11 @@ In summary, exercise can be a joint-specific range of motion and/or strengthenin
 
 > *FIGURE 52-4. Nonpharmacologic and pharmacologic treatment options that are recommended for the management of OA. Recommended therapies for the management of osteoarthritis (OA). Strongly and conditionally recommended approaches to management of hand, knee, and/or hip OA are shown. No hierarchy within categories is implied in the figure, with the recognition that the various options may be used (and reused) at various times during the course of a particular patient’s disease. * = Exercise for knee and hip OA could include walking, strengthening, neuromuscular training, and aquatic exercise, with no hierarchy of one over another. Exercise is associated with better outcomes when supervised. ** = Knee brace recommendations: tibiofemoral (TF) brace for TF OA (strongly recommended), patellofemoral (PF) brace for PF OA (conditionally recommended). *** = Hand orthosis recommendations: first carpometacarpal (CMC) joint neoprene or rigid orthoses for first CMC joint OA (strongly recommended), orthoses for joints of the hand other than the first CMC joint (conditionally recommended). IA = intraarticular; NSAIDs = nonsteroidal anti-inflammatory drugs; RFA = radiofrequency ablation. (Reproduced with permission from Kolasinski SL, Neogi T, Hochberg MC, et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. _Arthritis Care Res (Hoboken)_ . 2020;72[2]:149–162.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 <a id="p786"></a>**[p. 786]**
 
 ![Figure 52-5](hazzard8e_ch52_figure52-5.png)
 
 > *FIGURE 52-5. Nonpharmacologic and pharmacologic treatment options that are recommended against for the management of OA. Therapies recommended against physical, psychosocial, and mind-body approaches (A) and pharmacologic approaches (B) in the management of hand, knee, and/or hip osteoarthritis. No hierarchy within categories is implied in the figure. I-A = intraarticular; IL-1 = interleukin-1; PRP = platelet-rich plasma; TENS = transcutaneous electrical nerve stimulation; TNF = tumor necrosis factor. (Reproduced with permission from Kolasinski SL, Neogi T, Hochberg MC, et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken). 2020;72[2]:149–162.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 is needed for the older patient to enhance safety and compliance with the program, taking into account potential comorbidities. Those with knee or hip OA should also cautiously engage in moderately or severely strenuous exercises (eg, stair climbing, heavy weightlifting and running).
 

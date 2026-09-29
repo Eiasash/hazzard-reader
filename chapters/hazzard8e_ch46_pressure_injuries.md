@@ -245,8 +245,6 @@ The remaining four stages of PI are full-thickness wounds; that is, exposure of 
 
 > *FIGURE 46-1. Stages of pressure injury.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 > The stage definitions printed inside Figure 46-1 are transcribed after the figure (below the continuation on p. 688).
 
 <a id="p688"></a>**[p. 688]**
@@ -258,8 +256,6 @@ The remaining four stages of PI are full-thickness wounds; that is, exposure of 
 ![Figure 46-1 (continued)](hazzard8e_ch46_figure46-1b.png)
 
 > *FIGURE 46-1. (Continued)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 **Figure 46-1 — the stage definitions, as printed in the figure** *(pp. 687–688; photographs above)*
 
@@ -284,8 +280,6 @@ The BWAT evaluates 13 wound characteristics using a five-point numerical rating 
 ![Figure 46-2](hazzard8e_ch46_figure46-2.png)
 
 > *FIGURE 46-2. Tissue types in pressure injuries.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 PIs occur due to exposure to pressure and shear; therefore, pressure must be reduced for the wound to heal. In general, the patient should not be positioned on the PI, but this is easy to say and sometimes difficult to do. If the patient can tolerate or is unaware of being positioned off the wound, the plan of care should indicate which positions are to be <a id="p690"></a>**[p. 690]** used (eg, side to side positioning). However, the more common issue is that patients often developed a PI by lying or sitting in a preferred position and it will be difficult to convince them to change. If the PI is on the sacrum, side to side turning, with confirmation that the sacrum is free from pressure, is the ideal practice. If the patient refuses to stay off the wound, consider upscaling the mattress or adding an overlay for additional immersion into the bed. These devices do not replace turning, but the increased immersion reduces pressure on soft tissue.
 

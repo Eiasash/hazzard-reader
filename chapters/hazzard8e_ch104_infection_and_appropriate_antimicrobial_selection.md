@@ -48,8 +48,6 @@ Living condition/setting also plays a major role for many seniors. Long-term car
 
 > *FIGURE 104-1. Cytokines, phagocytosis, metabolic pathways, SASP, anatomical barriers, and medullary microenvironment are associated with the immunosenescence process in immune cells and tissues. DAMPs, damage-associated molecular patterns; PAMPs, pathogen-associated molecular patterns. (Reproduced with permission from Rodrigues LP, Teixeira VR, Alencar-Silva T, et al. Hallmarks of aging and immunosenescence: connecting the dots. _Cytokine Growth Factor Rev_ . 2021;59:9–21.)*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ## Presentation Of Infection In Seniors
 
 Even serious, life-threatening infection often presents atypically in older adults. Exacerbations of underlying illness or nonspecific declines in function or mentation may lead older adult patients to seek medical attention for symptoms related to comorbidity rather than infection. The predominant indicator of infection, fever, is absent in up to one-third of older adults with serious infection. Older adults, particularly frail older adults, have lower baseline body temperatures than the “normal” 98.6°F (37°C). Further, temperature increases in response to inflammatory stimuli are dampened with advanced age, and the combination of lower basal temperature and a blunted response makes it less likely that an older adult will reach the definition of fever (≥ 100.4°F/38°C) delaying diagnosis and treatment.
@@ -75,8 +73,6 @@ Older adults, particularly long-term care residents, have some of the highest ra
 ![Figure 104-2](hazzard8e_ch104_figure104-2.png)
 
 > *FIGURE 104-2. Percent of long-term care residents experiencing antibiotic-related adverse events with potential for indirect harm ( _C difficile_ , diarrhea/gastroenteritis, multidrug-resistant organism infection) or any antibiotic-related adverse event (including antibiotic allergic reaction and general adverse medication event). All differences were statistically significant. (Data from Daneman N, Bronskill SE, Gruneir A, et al. Variability in antibiotic use across nursing homes and the risk of antibiotic-related adverse outcomes for individual residents. _JAMA Intern Med_ . 2015;175[8]:1331–1339.)*
-
-> Highlighting is the owner's annotation, not the book's.
 
 <a id="p1671"></a>**[p. 1671]**
 
@@ -108,13 +104,9 @@ Infection of implanted prosthetic devices (joints, cardiac pacemakers/heart valv
 
 > *Table 104-1 reproduced as a page image (printed p. 1672) — the grid did not extract reliably as text for this fast build.*
 
-> Highlighting is the owner's annotation, not the book's.
-
 ![Table 104-1](hazzard8e_ch104_table104-1_p1673.png)
 
 > *Table 104-1 reproduced as a page image (printed p. 1673) — the grid did not extract reliably as text for this fast build.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 2nd gen, second generation; 3rd gen, third generation; amox/clav, amoxicillin-clavulanate; carbepenem, imipenem-cilastatin or meropenem; ceph, cephalosporin; clinda, clindamycin; COPD, chronic obstructive pulmonary disease; FQ, fluoroquinolone; GAS, group A streptococci ( _S pyogenes_ ); HUS/TTP, hemolytic uremic syndrome/thrombotic thrombocytopenia purpura; MRSA, methicillin-resistant _S aureus_ ; MDRO, multidrug-resistant organism; pip/tazo, piperacillin-tazobactam; resp-FQ, respiratory fluoroquinolone (levofloxacin, moxifloxacin); ticar/clav, ticarcillin-clavulanate; TMP-SMX, trimethoprim-sulfamethoxazole; vanco, vancomycin; UTI, urinary tract infection.
 
@@ -123,8 +115,6 @@ Anticipated functional outcomes and patient/infection characteristics determine 
 ![Figure 104-3](hazzard8e_ch104_figure104-3.png)
 
 > *FIGURE 104-3. Summary of management of prosthetic joint infections based on clinical characteristics, most appropriate strategy, and intended outcome of treatment.*
-
-> Highlighting is the owner's annotation, not the book's.
 
 Antimicrobial prophylaxis to reduce the risk of device infection around dental, GI, and GU procedures is hotly debated. While recommended for prosthetic heart valves, and by extrapolation vascular grafts, particularly within the first 12 to 24 months after placement, supportive evidence for prophylaxis is thin even in these clinical situations. There is even weaker evidence for prophylaxis in patients with PJs, intracoronary artery stents, and many other less-commonly implanted prostheses. Despite this, the American Dental Association (ADA) recommends “considering” antibiotic prophylaxis for patients with a PJ <a id="p1675"></a>**[p. 1675]** at “high risk”—defined as PJs placed within 2 years or in immunosuppressed patients (including those with diabetes mellitus, rheumatoid arthritis, or malnourishment), or in patients with a history of prior joint infection.
 
