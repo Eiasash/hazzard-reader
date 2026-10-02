@@ -3,7 +3,8 @@
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
 ## State (02 Oct 2026)
-- Live at cache **v36** (02 Oct reading progress, missed deck, offline full-text search and incremental updates, see below). 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+- Live at cache **v37** (02 Oct paired controls and five-tab navigation; see below). 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+- **v37:** Reading / Chapters / Notebook / Practice / Text tabs; active tabs return to the reading place. Header Find toggles a match-stepping bar; chapter title toggles Contents. Highlight remains sentence-tap on/off, with Bookmark/Remove bookmark, Colour and Done above the tabs and visible saved feedback. Text contains only appearance and storage status; Practice contains timer and study desk. Nested sheets unwind with Back; bookmark removal, missed-deck grading, timer reset and replacing a mock paper have adjacent undo. Root launch resumes the last reader/study page; display settings join notebook backups without new localStorage keys. Smaller, translucent edge pills leave line ends clear. Medical content and the v36 incremental service-worker safety logic are unchanged.
 - **v32:** isolated Hazzard caches and made save-failure messages explicit.
 - **v33:** tapping the current chapter in the library returns to reading without reloading.
 - **v34:** permanent Chapters / Notebook / Practice / Text tabs, paired library rows, a simpler desk, labelled chapter controls and equal Previous / Next buttons; the header hides on downward reading scroll and returns on any upward scroll or at the top.
@@ -36,16 +37,16 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds rows p913 lacks).
 - Odd heading casing here and there.
 
-## Reader features (02 Oct 2026, cache v31)
+## Reader behavior (02 Oct 2026, cache v37)
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
-- Highlighting: tap = sentence; long-press + drag = exact words → "Highlight selection" button (stored as `ranges` with text + prefix/suffix in `stage-a-highlights-v1:<ch>`). Old unit highlights whose numbering shifted re-attach by text on load. Highlights resync on pageshow/visibility/storage (fixes the stale back-navigation notebook).
+- Highlighting: header on → tap sentences → same header off (or Done above the tabs). No selection popup. Existing `ranges` in `stage-a-highlights-v1:<ch>` still restore and can be removed. Old unit highlights re-attach by text; highlights resync on pageshow/visibility/storage.
 - Notebook: this chapter + saved places + other chapters' highlights (deep links `#hl-<id>`, `#bm-<time>`).
-- Place: auto-saved per chapter (`hazzard-place-v1`), restored on open; root URL opens the desk with Resume → last chapter. Save place in Reading tools (`hazzard-bookmarks-v1`).
-- Images/SVG figures: tap → full-screen zoom (pinch, double-tap, drag). Top/end buttons in the bottom reader bar, outside the text area; images load lazily with intrinsic dimensions.
-- Practice: Question bank = the 33 study drills; Mock paper = random 20/50/100 from all drills (498 questions), self-graded, kept in `hazzard-mock-v1` (`?chapter=mock`). Drills/mock keep self-grades and revealed answers and offer retry-missed views. Study timer 25/5/5 persists its phase, paused/running state and deadline in `hazzard-timer-v1`; chapter-drill progress is new data in `hazzard-drills-v1`.
+- Place: auto-saved per chapter (`hazzard-place-v1`), restored on open; root URL resumes the last reader/study page. Bookmark/Remove bookmark lives in the Highlight bar (`hazzard-bookmarks-v1`); Notebook lists saved places.
+- Images/SVG figures: tap → full-screen zoom (pinch, double-tap, drag). Top/end pills at the physical right edge, outside line endings; images load lazily with intrinsic dimensions.
+- Practice: Question bank = the 33 study drills; Mock paper = random 20/50/100 from all drills (498 questions), self-graded, kept in `hazzard-mock-v1` (`?chapter=mock`). Drills/mock keep self-grades and revealed answers and offer retry-missed views. Practice → Study timer 25/5/5 persists its phase, paused/running state and deadline in `hazzard-timer-v2` (legacy v1 remains readable); chapter-drill progress stays in `hazzard-drills-v1`.
 
-- Reading tools reports **Offline ready** only after the controlling v31 worker completed every precache asset. Install rejects any exhausted download/discovery retry; activate cleanup remains limited to `hazzard-*` caches.
-- Small/Medium/Large labels and existing display storage remain; Large is 19px at a 16px root. Controls scale separately so they fit a phone. Chapter/study and previous/next links are in the opening, tools and end; the corresponding study/read link is also in the reader bar. Phone Back unwinds desk/library views.
+- Text reports **Offline ready** only after the controlling v37 worker completed every precache asset. Install rejects any exhausted download/discovery retry; activate cleanup remains limited to `hazzard-*` caches.
+- Small/Medium/Large labels and existing display storage remain; Large is 19px at a 16px root. Controls scale separately so they fit a phone. Chapter/Study and previous/next controls share the header; previous/next also appear at chapter ends. Contents has headings only plus All chapters. Phone Back unwinds sheets, nested practice tools and desk/library views one layer at a time.
 
 ## Site behavior (not a bug)
 - First load after a deploy can show the previous version until the new service worker takes over; one reload fixes it.
