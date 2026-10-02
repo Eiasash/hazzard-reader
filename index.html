@@ -261,7 +261,6 @@ body{padding-block-end:var(--tabs-height)}
 #chapterResults strong,#chapterResults small{display:block}
 #chapterResults small{font:400 13px/1.5 var(--ui);margin-top:5px}
 #chapterResults mark{background:var(--hl-yellow);color:var(--hl-ink)}
-.search-hit{outline:2px solid var(--accent);outline-offset:3px}
 #panel[data-current-pane="missed"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
 .missed-question{padding:12px 0;border-bottom:1px solid var(--rule)}
 .missed-question p{font-size:14px}
@@ -349,6 +348,56 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panelBack{margin:0 0 8px;text-align:left;min-height:44px}
 .reading-copy summary,.nb-group summary,.missed-question summary{min-height:44px;cursor:pointer}
 #imageZoom .zoom-bar button{min-width:44px}
+/* v38: compact controls retain 44px touch targets independently of reading size. */
+:root{--tap:44px;--label:13px;--small:12px;--title:24px;--heading:19px;--subhead:16px;--s4:12px;--s6:18px;--s8:24px}
+#appTabs{grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;padding-inline:4px}
+#appTabs button{min-width:44px;min-height:44px;font-size:10px;border-radius:7px}
+#appTabs svg{width:18px;height:18px}
+#appTabs .text-icon{font-size:20px;line-height:18px}
+#chapterHeader{position:fixed;top:var(--vv-top,0px);left:var(--vv-left,0px);right:auto;width:var(--vv-width,100%);gap:0}
+#chapterHeader #headerHome{flex:0 0 44px;min-width:44px;font-size:22px;color:var(--accent)}
+#headerHome svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7}
+#headerHome[aria-current]{background:var(--accent-soft)}
+#chapterHeaderTitle{font-size:12px;text-align:left;padding-inline:4px}
+.chapter-switch{flex:0 0 88px}
+#chapterHeader .chapter-switch button{min-width:44px;font-size:11px;flex:1}
+#chapterHeader .chapter-switch button:first-child{flex:1}
+.contents-navigation{display:flex;gap:8px;margin-bottom:4px}
+.contents-navigation button{flex:1;min-width:44px;font-size:13px}
+#desk,#library{padding-top:60px}
+#desk>h1,#library h1{font-size:22px;margin:4px 0 10px}
+#deskBack{display:none}
+.resume-card{padding:12px}
+.resume-card h2{font-size:18px;margin:4px 0 8px}
+.resume-card .meta{margin-bottom:8px}
+.launch-tiles{grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.launch-tiles button{padding:10px;min-height:72px}
+.launch-tiles strong{font-size:14px}
+.launch-tiles small{font-size:11px}
+.launch-tiles .tile-arrow{display:none}
+#homeProgress{display:block;width:100%;padding:4px 0;margin-top:4px;white-space:nowrap;font-size:10px;text-align:center;min-height:44px}
+#homeStatus{font:11px/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
+#panel,#panel[data-current-pane]{max-block-size:calc(var(--vv-height) * .5);padding:8px 12px}
+#panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{font-size:18px}
+#panel .dialog-head{margin-bottom:4px}
+#panel .settings-controls{gap:8px;margin-bottom:8px}
+#panel .settings-controls label{margin:0}
+#panel .rows button{padding-block:8px;font-size:13px}
+#panel .nb-heading{font-size:15px}
+.library-row>.chapter-name{font-size:13px;padding-block:8px}
+#chapterResults button{font-size:13px;padding-block:8px}
+.library-search{top:48px}
+#markColour .swatch{background:var(--current-mark);width:14px;height:14px;margin:0 0 0 4px}
+.exam-badge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--accent-soft);color:var(--accent);font:600 10px/1.5 var(--ui);white-space:nowrap}
+#examBar{position:fixed;z-index:7;top:calc(var(--vv-top,0px) + 48px);left:0;right:0;display:flex;align-items:center;gap:4px;padding:2px 8px;background:var(--surface);border-bottom:1px solid var(--rule);font:12px var(--ui)}
+#examBar span{flex:1}
+#examBar button{min-width:44px;padding:4px;border:0}
+.examining #reader{padding-top:112px}
+.pg.exam-current::before{background:var(--accent);color:var(--surface)}
+.keyboard-open #appTabs,.keyboard-open #markBar,.keyboard-open #jumpEnds{display:none!important}
+.keyboard-open{--tabs-height:0px}
+.keyboard-open #readerViewport,.keyboard-open.mark-bar-open #readerViewport{inset-block-end:var(--vv-bottom-gap,0px)}
+.reading-copy .book-context{font-size:var(--body)}
 </style>
 </head>
 <body>
@@ -720,14 +769,16 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 </div>
 </div></div>
 <div id="desk" class="page" hidden>
-  <button class="quiet" id="deskBack">‹ Practice</button><p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>Your study desk</h1>
+  <button class="quiet" id="deskBack">‹ Reading</button><p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>Home</h1>
   <div class="card resume-card"><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h2>Pressure injuries</h2><p class="meta"></p><button class="primary full" id="resume">Resume reading →</button></div>
   <div id="deskColour" hidden><button id="deskCycleColour"><span class="swatch" aria-hidden="true"></span><span id="deskColourLabel"></span></button></div>
-  <nav class="launch-tiles" aria-label="Study desk">
+  <button id="homeProgress" class="quiet" data-panel="missed" aria-label="Progress and missed questions"></button>
+  <nav class="launch-tiles" aria-label="Home">
     <button data-view="library"><span><strong>Chapters</strong><small>Read a chapter or open its study page</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
     <button data-panel="practice"><span><strong>Practice</strong><small>Question bank and mock papers</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
     <button data-panel="notebook"><span><strong>Notebook</strong><small>Your highlights and saved places</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
-  </nav>
+    <button data-panel="session"><span><strong>Study timer</strong><small>Read, recall and rest</small></span></button>
+  </nav><p id="homeStatus" role="status"></p>
 </div>
 <div id="library" class="page" hidden="">
 
@@ -756,7 +807,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <p id="storageProtection" class="meta" role="status">Storage: checking…</p>
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
-</section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter drill or practise across the book.</p><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="missed"><strong>My missed questions</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li><li><button data-panel="session"><strong>Study timer</strong><small>Read, recall and rest</small></button></li><li><button data-view="desk"><strong>Study desk</strong><small>Overview and reading progress</small></button></li></ul></section><section data-pane="missed" data-title="My missed questions" hidden><p id="missedStatus" class="meta" role="status"></p><div id="missedQuestions"></div></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
+</section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter drill or practise across the book.</p><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="missed"><strong>My missed questions</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li><li><button data-panel="session"><strong>Study timer</strong><small>Read, recall and rest</small></button></li></ul></section><section data-pane="missed" data-title="My missed questions" hidden><p id="missedStatus" class="meta" role="status"></p><div id="missedQuestions"></div></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
 
 
 
@@ -32036,19 +32087,23 @@ const chapterTitle=copy.querySelector('h1').textContent;
 prepareImages(copy);
 const appTabs=document.createElement('nav');appTabs.id='appTabs';appTabs.setAttribute('aria-label','Main navigation');
 const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>';
-appTabs.innerHTML='<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
+appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
 fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span class="text-icon" aria-hidden="true">Aa</span><span>Text</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
-chapterHeader.innerHTML='<button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
-$('#readerViewport').prepend(chapterHeader);chapterHeader.append(pencil);
+chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
+document.body.append(chapterHeader);chapterHeader.append(pencil);
+const chapterSteps=document.createElement('div');chapterSteps.className='contents-navigation';chapterSteps.append($('#headerPrevious'),$('#headerNext'));$('[data-pane="contents"]').prepend(chapterSteps);
 const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=true;findBar.setAttribute('role','search');
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
 markBar.innerHTML='<button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
 document.body.append(markBar);
+const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
+examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPrevious" aria-label="Previous exam page">↑</button><button id="examNext" aria-label="Next exam page">↓</button><button id="examClose" aria-label="Close exam pages">✕</button>';document.body.append(examBar);
+let examIndex=-1;
 const savedTick=document.createElement('div');savedTick.id='savedTick';savedTick.setAttribute('role','status');savedTick.hidden=true;document.body.append(savedTick);
 let savedTickTimer;
 function showSaved(message='✓ Saved'){savedTick.textContent=message;savedTick.hidden=false;clearTimeout(savedTickTimer);savedTickTimer=setTimeout(()=>savedTick.hidden=true,1800)}
@@ -32103,6 +32158,7 @@ function smoothPageMarkers(copy){
     let s=a.nextSibling;while(s&&s.nodeType===3&&!s.data.trim())s=s.nextSibling;
     const m=s&&s.nodeType===1&&s.tagName==='STRONG'&&s.textContent.trim().match(/^\[p\.\s*(\d+)\]$/);
     if(!m)continue;
+    const flag=s.nextSibling?.textContent.match(/^\s*⟨2026[^⟩]*⟩/);if(flag)a.dataset.exam='2026';
     s.remove();a.className='pg';a.dataset.page=m[1];a.dataset.readerMetadata='page';a.setAttribute('aria-label','Page '+m[1]);
   }
   const sentenceEnd=/[.!?]["”’)\]]*$/;
@@ -32121,6 +32177,11 @@ function smoothPageMarkers(copy){
   }
 }
 smoothPageMarkers(copy);
+const examPages=[...copy.querySelectorAll('a.pg[data-exam]')];
+if(examPages.length){const li=document.createElement('li'),b=document.createElement('button');b.id='examPagesToggle';b.textContent='2026 exam pages';b.onclick=()=>returnReading(openExam);li.append(b);$('[data-pane="contents"] .rows').prepend(li)}
+function openExam(){navigateUI('reader',null,false,false,true);stepExam(examIndex<0?1:0)}
+function stepExam(delta){if(!examPages.length)return;examIndex=(examIndex+delta+examPages.length)%examPages.length;for(const p of examPages)p.classList.remove('exam-current');const marker=examPages[examIndex];marker.classList.add('exam-current');$('#examCount').textContent='2026 exam · '+(examIndex+1)+'/'+examPages.length+' · p'+marker.dataset.page;landOnMatch(marker)}
+$('#examPrevious').onclick=()=>stepExam(-1);$('#examNext').onclick=()=>stepExam(1);$('#examClose').onclick=closePanel;
 function openChapter(chapter,opts={}){
   if(closingHistory){queuedChapter={chapter,opts};return}
   if((history.state?.hazzardDepth||0)>0){returnReading(()=>openChapter(chapter,opts));return}
@@ -32134,7 +32195,7 @@ function openChapter(chapter,opts={}){
   const url=new URL(location.href);url.search='';url.searchParams.set('chapter',chapter);if(opts.n)url.searchParams.set('n',opts.n);url.hash=opts.hash?'#'+opts.hash:'';location.assign(url.href);
 }
 const readerScroll=$('#readerScroll');
-const sizes={small:14,medium:16,large:20};
+const sizes={small:12,medium:13.5,large:15};
 let marking=false,colour='yellow',size='small',anchor=null,gesture=null;
 let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
@@ -32282,7 +32343,7 @@ function renderVerification(){
 renderVerification();
 function viewport(){
   const v=window.visualViewport,top=v?.offsetTop||0,left=v?.offsetLeft||0,height=v?.height||innerHeight,width=v?.width||innerWidth;
-  const root=document.documentElement;root.style.setProperty('--vv-top',top+'px');root.style.setProperty('--vv-left',left+'px');root.style.setProperty('--vv-height',height+'px');root.style.setProperty('--vv-width',width+'px');root.style.setProperty('--vv-bottom-gap',Math.max(0,innerHeight-top-height)+'px');
+  const root=document.documentElement;const editing=/^(INPUT|TEXTAREA)$/.test(document.activeElement?.tagName);const keyboard=editing&&Math.max(innerHeight,document.documentElement.clientHeight)-height>120;document.body.classList.toggle('keyboard-open',keyboard);root.style.setProperty('--vv-top',top+'px');root.style.setProperty('--vv-left',left+'px');root.style.setProperty('--vv-height',height+'px');root.style.setProperty('--vv-width',width+'px');root.style.setProperty('--vv-bottom-gap',Math.max(0,innerHeight-top-height)+'px');
   measureReaderEnd();
   if(panel.open){const r=panel.getBoundingClientRect(),tabs=appTabs.getBoundingClientRect().height;panel.style.setProperty('--sheet-left',(left+(width-r.width)/2)+'px');panel.style.setProperty('--sheet-top',Math.max(top,top+height-tabs-r.height)+'px')}
 }
@@ -32300,7 +32361,7 @@ function displayPane(name){
   for(const p of $$('[data-pane]'))p.hidden=p!==pane;
   $('#panelTitle').textContent=pane.dataset.title;
   $('#panelBack').hidden=!['qbank','mock','missed','session'].includes(name);
-  $('#panelBack').removeAttribute('data-panel');$('#panelBack').textContent='‹ Practice';
+  $('#panelBack').removeAttribute('data-panel');$('#panelBack').textContent=currentView==='desk'?'‹ Home':'‹ Practice';
   if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();
   if(!panel.open)panel.show();pane.scrollTop=0;
 }
@@ -32309,27 +32370,29 @@ function renderScreen(state){
   hidePanel();currentView=id;
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
   $('#readerViewport').hidden=id!=='reader';pencil.hidden=id!=='reader'||cid==='mock';$('#jumpEnds').hidden=id!=='reader';$('#jumpEnds').classList.remove('is-visible');
+  examBar.hidden=!state?.hazzardExam;document.body.classList.toggle('examining',!examBar.hidden);if(examBar.hidden)for(const p of examPages)p.classList.remove('exam-current');
+  chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
   findBar.hidden=!state?.hazzardFind;document.body.classList.toggle('finding',!findBar.hidden);$('#findToggle').setAttribute('aria-expanded',String(!findBar.hidden));
   if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
   else{chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
   if(state?.hazzardPane)displayPane(state.hazzardPane);
-  if(id==='desk')refreshResume();if(id==='library')refreshLibraryMarks();
+  if(id==='desk'){refreshResume();refreshLibraryMarks().then(refreshResume)}if(id==='library')refreshLibraryMarks();
   if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
   syncTabs();syncMarkingUI();updateStorageNotice();viewport();
 }
-function navigateUI(id,pane=null,find=false,replace=false){
+function navigateUI(id,pane=null,find=false,replace=false,exam=false){
   if(closingHistory)return;
   if(currentView==='reader'){rememberPlace();lastReaderY=readerScroll.scrollTop}
   const previous={...history.state,hazzardView:currentView,hazzardReaderY:lastReaderY,hazzardWindowY:window.scrollY};
   history.replaceState(previous,'');
-  const next={hazzardPreviousMock:previous.hazzardPreviousMock,hazzardView:id,hazzardPane:pane,hazzardFind:find,hazzardReaderY:lastReaderY,hazzardDepth:(previous.hazzardDepth||0)+(replace?0:1)};
+  const next={hazzardPreviousMock:previous.hazzardPreviousMock,hazzardView:id,hazzardPane:pane,hazzardFind:find,hazzardExam:exam,hazzardReaderY:lastReaderY,hazzardDepth:(previous.hazzardDepth||0)+(replace?0:1)};
   history[replace?'replaceState':'pushState'](next,'');
   if(id!=='reader')setMarking(false);
   renderScreen(next);
 }
 function openPanel(name,trigger){
   if(closingHistory){queuedOpen={name,trigger};return}
-  if(name==='contents'&&currentView!=='reader')return;
+  if(name==='contents'&&currentView!=='reader'){returnReading(()=>openPanel(name,trigger));return}
   if(panel.open&&panel.dataset.currentPane===name){closePanel();return}
   anchor=trigger||document.activeElement;
   const child=['qbank','mock','missed','session'].includes(name)&&panel.open&&panel.dataset.currentPane==='practice';
@@ -32350,7 +32413,7 @@ window.addEventListener('popstate',()=>{
   if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger)}
 });
 $('#panelBack').onclick=closePanel;
-$('#deskBack').onclick=()=>history.state?.hazzardDepth?closePanel():openPanel('practice');
+$('#deskBack').onclick=readingTab;
 // A held claim// A held claim opens its audit record without inserting anything into the reading flow.
 const provenanceRegistry=JSON.parse($('#verificationRegistry').textContent);
 const provenanceDialog=document.createElement('dialog');
@@ -32418,7 +32481,7 @@ document.addEventListener('contextmenu',e=>{suppressPressClick=true;const node=h
 document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();suppressPressClick=false}},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
-document.addEventListener('click',e=>{if(panel.open&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
+document.addEventListener('click',e=>{if(panel.open&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar,#examBar')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
 let lastReaderY=0;
 function view(id,opts={}){
   if(!['reader','desk','library'].includes(id))return;
@@ -32428,7 +32491,7 @@ function view(id,opts={}){
   closeProvenance();navigateUI(id,null,false,!!opts.replace);
 }
 function applyDisplay(){
-  const px=sizes[size];document.documentElement.style.setProperty('--body',(px/16)+'rem');document.documentElement.style.setProperty('--fs',Math.min(1.2,px/14));document.body.style.fontSize='var(--body)';
+  const px=sizes[size];document.documentElement.style.setProperty('--body',(px/16)+'rem');document.documentElement.style.setProperty('--fs',1);document.body.style.fontSize='var(--body)';
   for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
   for(const b of $$('button[data-theme]'))b.setAttribute('aria-pressed',String(b.dataset.theme===document.documentElement.dataset.theme));
   syncMarkingUI();
@@ -32440,6 +32503,7 @@ function applyDisplay(){
 }
 function saveDisplay(){try{localStorage.setItem('stage-a-display-v4',JSON.stringify({size,colour,theme:document.documentElement.dataset.theme}));displaySaveFailed=false}catch{displaySaveFailed=true}updateStorageNotice()}
 try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p){if(Object.hasOwn(sizes,p.size))size=p.size;if(['yellow','green','blue'].includes(p.colour))colour=p.colour;if(['light','dark'].includes(p.theme))document.documentElement.dataset.theme=p.theme}else if(matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.dataset.theme='dark'}catch{}
+document.addEventListener('focusin',viewport);document.addEventListener('focusout',()=>setTimeout(viewport,0));
 applyDisplay();window.visualViewport?.addEventListener('resize',viewport);window.visualViewport?.addEventListener('scroll',viewport);window.addEventListener('resize',viewport);
 document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
@@ -32476,9 +32540,11 @@ function syncMarkingUI(){
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
-  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':pane==='tools'?'tools':'reading'):currentView==='library'?'chapters':currentView==='desk'||cid==='mock'?'practice':'reading';
+  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':pane==='tools'?'tools':'reading'):currentView==='library'?'chapters':currentView==='desk'?'home':cid==='mock'?'practice':'reading';
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   $('#chapterHeaderTitle').setAttribute('aria-expanded',String(pane==='contents'));
+  if(currentView==='desk'&&!pane)$('#headerHome').setAttribute('aria-current','page');else $('#headerHome').removeAttribute('aria-current');
+  $('#headerHome').setAttribute('aria-label',currentView==='desk'?'Home — return to reading':'Home');
 }
 function readingTab(){
   returnReading(()=>{if(cid==='mock'){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&last.chapter!=='mock'?last.chapter:'46')}});
@@ -32577,12 +32643,20 @@ function renderNotebook(){
   for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.dir='auto';b.onclick=()=>returnReading(()=>revealReading(it.el,{block:'center'}));li.append(b);list.append(li)}
   if(!list.children.length){const li=document.createElement('li');li.textContent='No highlights in this chapter yet.';list.append(li)}
   const places=$('#notebookPlaces');places.replaceChildren();
-  for(const bm of readJSON(BOOKMARK_KEY,[])){
+  let bookmarks=[];
+  try{const raw=localStorage.getItem(BOOKMARK_KEY);bookmarks=raw===null?[]:JSON.parse(raw);if(!Array.isArray(bookmarks)||bookmarks.some(b=>!b||typeof b.chapter!=='string'||!Number.isFinite(b.at)))throw new Error('Invalid bookmarks')}
+  catch{bookmarks=[];const li=document.createElement('li');li.className='meta';li.textContent='Saved places could not be read. Your stored data has not been changed.';places.append(li)}
+  const groupsByChapter=new Map();
+  for(const bm of bookmarks.sort((a,b)=>b.at-a.at)){if(!groupsByChapter.has(bm.chapter))groupsByChapter.set(bm.chapter,[]);groupsByChapter.get(bm.chapter).push(bm)}
+  for(const [chapter,group] of groupsByChapter){
+    const heading=document.createElement('li');heading.className='nb-heading';heading.textContent=chapterLabel(chapter);places.append(heading);
+    for(const bm of group){
     const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
     go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');go.querySelector('small').dir='auto';
     go.onclick=()=>openChapter(bm.chapter,{hash:'bm-'+bm.at});
     del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{const list=readJSON(BOOKMARK_KEY,[]),present=list.some(x=>x.at===bm.at);if(writeJSON(BOOKMARK_KEY,present?list.filter(x=>x.at!==bm.at):[bm,...list])){showSaved(present?'✓ Removed':'✓ Saved');del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark()}else notebookStatus('This bookmark change could not be saved. Try again.')};
     li.append(go,del);places.append(li);
+    }
   }
   if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. While reading, turn Highlight on → Bookmark this spot.';places.append(li)}
   const other=$('#notebookOther');other.replaceChildren();
@@ -32601,7 +32675,7 @@ function renderNotebook(){
   for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;li.append(label,excerpt);historyList.append(li)}
 }
 const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
-function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,figcaption,details')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}
+function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,caption,figcaption,.book-caption,summary')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}
 let fullTextIndex=null,searchTicket=0,searchTimer;
 async function chapterIndex(){
   if(fullTextIndex)return fullTextIndex;
@@ -32622,20 +32696,20 @@ async function chapterIndex(){
 async function searchChapters(){
   const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
   results.replaceChildren();results.hidden=!q;status.hidden=!q;
-  let titles=0;for(const li of $$('#chapterRows li')){li.hidden=!li.dataset.search.toLowerCase().includes(q);if(!li.hidden)titles++}
+  let titles=0;for(const li of $$('#chapterRows li')){li.hidden=q&&wordStart(li.dataset.search,q)<0;if(!li.hidden)titles++}
   $('#noChapters').hidden=true;if(!q)return;
   status.textContent='Searching all chapters and study pages…';
   const loaded=await chapterIndex();if(ticket!==searchTicket)return;
-  const entries=Array.isArray(loaded)?loaded:loaded.result;let found=0;
+  const entries=[...(Array.isArray(loaded)?loaded:loaded.result)].sort((a,b)=>Number(String(b.entry.number)===cid)-Number(String(a.entry.number)===cid)||(parseInt(a.entry.number)||Infinity)-(parseInt(b.entry.number)||Infinity)||String(a.entry.number).localeCompare(String(b.entry.number),undefined,{numeric:true}));let found=0;
   for(const {entry,blocks} of entries){
     let chapterHits=0;
     for(const text of blocks){
-      const at=text.toLowerCase().indexOf(q);if(at<0)continue;
+      const at=wordStart(text,q);if(at<0)continue;
       const start=Math.max(0,at-65),end=Math.min(text.length,at+q.length+100),excerpt=text.slice(start,end);
       const li=document.createElement('li'),b=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');
       label.textContent=searchLabel(entry);snippet.dir='auto';
       snippet.append((start?'…':'')+text.slice(start,at));const mark=document.createElement('mark');mark.textContent=text.slice(at,at+q.length);snippet.append(mark,text.slice(at+q.length,end)+(end<text.length?'…':''));
-      b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt}))});li.append(b);results.append(li);found++;
+      b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt,offset:at-start}))});li.append(b);results.append(li);found++;
       if(++chapterHits===3)break;
     }
   }
@@ -32643,24 +32717,46 @@ async function searchChapters(){
   $('#noChapters').hidden=found>0||titles>0;
 }
 $('#chapterSearch').oninput=()=>{++searchTicket;clearTimeout(searchTimer);searchTimer=setTimeout(searchChapters,220)};
+function wordStart(text,q,from=0){
+  if(!q)return -1;const lower=text.toLowerCase();q=q.toLowerCase();let at=from;
+  while((at=lower.indexOf(q,at))!==-1){if(at===0||!/[\p{L}\p{N}\p{M}_]/u.test(lower[at-1]))return at;at+=1}return -1;
+}
+function blockTextMap(block){
+  const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('[data-reader-metadata],button')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+  let text='',points=[],node,space=false;
+  while(node=walker.nextNode())for(let i=0;i<node.length;i++){const c=node.data[i],blank=/\s/.test(c);if(blank&&space)continue;text+=blank?' ':c;points.push({node,offset:i});space=blank}
+  return {text,points};
+}
+function mappedRange(map,at,length){const a=map.points[at],z=map.points[at+length-1];if(!a||!z)return null;const range=document.createRange();range.setStart(a.node,a.offset);range.setEnd(z.node,z.offset+1);return range}
+let landingUntil=0;
+function clearLanding(){CSS.highlights?.delete('page-find-current');CSS.highlights?.delete('page-find')}
+function landOnMatch(target,block){
+  const element=block||target;landingUntil=performance.now()+500;
+  revealReading(element,{block:'nearest',inline:'nearest'});
+  chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
+  const align=()=>{
+    const v=readerScroll.getBoundingClientRect(),header=chapterHeader.getBoundingClientRect();
+    const top=Math.max(v.top,header.bottom,!findBar.hidden?findBar.getBoundingClientRect().bottom:0,!examBar.hidden?examBar.getBoundingClientRect().bottom:0)+12;
+    const bottom=Math.min(v.bottom,window.visualViewport?.height+(window.visualViewport?.offsetTop||0)||innerHeight);
+    const r=target.getClientRects()[0]||target.getBoundingClientRect();
+    const table=element.closest('.table-wrap');if(table){const box=table.getBoundingClientRect();if(r.left<box.left+8||r.right>box.right-8)table.scrollLeft+=r.left-box.left-12}
+    readerScroll.scrollBy(0,r.top-(top+Math.min(32,Math.max(0,bottom-top)*.12)));
+  };
+  align();requestAnimationFrame(()=>requestAnimationFrame(align));
+  if(target instanceof Range&&CSS.highlights)CSS.highlights.set('page-find-current',new Highlight(target));
+}
+readerScroll.addEventListener('scroll',()=>{if(performance.now()>landingUntil)clearLanding()},{passive:true});
+readerScroll.addEventListener('wheel',clearLanding,{passive:true});readerScroll.addEventListener('touchmove',clearLanding,{passive:true});
+document.addEventListener('pointerdown',e=>{if(!e.target.closest('#findBar,#findToggle,#chapterResults,#examBar'))clearLanding()},{passive:true});
 function revealSearch(payload){
   let target;try{target=JSON.parse(payload)}catch{return false}
   const block=searchBlocks(copy).find(n=>searchText(n).includes(target.excerpt));if(!block)return false;
-  setTimeout(()=>{
-    revealReading(block,{block:'center'});block.classList.add('search-hit');setTimeout(()=>block.classList.remove('search-hit'),5000);
-    // Centre the matching words, including matches across sentence/highlight spans.
-    const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT),points=[];let text='',node,space=false;
-    while(node=walker.nextNode())for(let i=0;i<node.length;i++){
-      const char=node.data[i],blank=/\s/.test(char);if(blank&&space)continue;
-      text+=blank?' ':char;points.push({node,offset:i});space=blank;
-    }
-    const lower=text.toLowerCase(),context=lower.indexOf(target.excerpt.toLowerCase()),at=lower.indexOf(target.q,Math.max(0,context));
-    if(at>=0&&points[at+target.q.length-1]){const a=points[at],z=points[at+target.q.length-1],range=document.createRange();range.setStart(a.node,a.offset);range.setEnd(z.node,z.offset+1);const r=range.getBoundingClientRect(),v=readerScroll.getBoundingClientRect();readerScroll.scrollBy(0,r.top-v.top-v.height/2)}
-  },80);return true;
+  setTimeout(()=>{const map=blockTextMap(block),context=map.text.indexOf(target.excerpt);const at=Number.isInteger(target.offset)&&context>=0?context+target.offset:wordStart(map.text,target.q,Math.max(0,context));const range=at>=0&&mappedRange(map,at,target.q.length);if(range)landOnMatch(range,block)},80);return true;
 }
 let findMatches=[],findIndex=-1,findTimer;
 function closeFind(){clearTimeout(findTimer);if(!findBar.hidden){$('#findText').blur();closePanel()}}
 function openFind(){
+  if(currentView!=='reader'){returnReading(openFind);return}
   if(!findBar.hidden){closeFind();return}
   if(panel.open){returnReading(openFind);return}
   navigateUI('reader',null,true);updateFind();$('#findText').focus({preventScroll:true});
@@ -32668,11 +32764,8 @@ function openFind(){
 function updateFind(){
   findMatches=[];findIndex=-1;const q=$('#findText').value.trim().replace(/\s+/g,' ').toLowerCase();
   if(q)for(const block of searchBlocks(copy)){
-    const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('[data-reader-metadata],button,summary')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
-    let text='',points=[],node,space=false;
-    while(node=walker.nextNode())for(let i=0;i<node.length;i++){const c=node.data[i],blank=/\s/.test(c);if(blank&&space)continue;text+=blank?' ':c;points.push({node,offset:i});space=blank}
-    const lower=text.toLowerCase();let at=0;
-    while((at=lower.indexOf(q,at))!==-1){const a=points[at],z=points[at+q.length-1],range=document.createRange();range.setStart(a.node,a.offset);range.setEnd(z.node,z.offset+1);findMatches.push({range,block});at+=q.length}
+    const map=blockTextMap(block);let at=0;
+    while((at=wordStart(map.text,q,at))!==-1){const range=mappedRange(map,at,q.length);if(range)findMatches.push({range,block});at+=q.length}
   }
   if(CSS.highlights)CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));
   stepFind(1);
@@ -32681,9 +32774,7 @@ function stepFind(delta){
   const count=findMatches.length;findIndex=count?(findIndex+delta+count)%count:-1;
   $('#findCount').textContent=(findIndex+1)+' of '+count;$('#findPrevious').disabled=$('#findNext').disabled=!count;
   CSS.highlights?.delete('page-find-current');if(!count)return;
-  const {range,block}=findMatches[findIndex];revealReading(block,{block:'center'});
-  const r=range.getBoundingClientRect(),v=readerScroll.getBoundingClientRect();readerScroll.scrollBy(0,r.top-v.top-v.height/2);
-  if(CSS.highlights)CSS.highlights.set('page-find-current',new Highlight(range));
+  const {range,block}=findMatches[findIndex];landOnMatch(range,block);
 }
 $('#findToggle').onclick=openFind;$('#findClose').onclick=closeFind;
 $('#findText').oninput=()=>{clearTimeout(findTimer);findTimer=setTimeout(updateFind,120)};
@@ -32696,7 +32787,7 @@ function revealReading(el,options){if(!el)return;if(el.closest('.mock-q,.drill-q
 function readJSON(k,d){try{const v=JSON.parse(localStorage.getItem(k)||'null');return v??d}catch{return d}}
 function writeJSON(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const cid=String(copy.dataset.chapterId||'');
-function searchLabel(entry){const id=String(entry.number);if(id==='law')return 'Israeli law — reference';if(id==='laws')return 'Israeli law — study and drill';return id.replace(/s$/,'')+(entry.kind==='study'?' study':' chapter')+' — '+entry.title.replace(/ — Study$/i,'')}
+function searchLabel(entry){const id=String(entry.number);if(id==='law')return 'Israeli law';if(id==='laws')return 'Israeli law — study';return 'Chapter '+id.replace(/s$/,'')+(entry.kind==='study'?' study':'')+' — '+entry.title.replace(/ — Study$/i,'')}
 function chapterLabel(ch){ch=String(ch);if(ch==='mock')return 'Mock paper';const e=manifestChapters.find(c=>String(c.number)===ch);if(ch==='law')return 'Israeli law';if(ch==='laws')return 'Israeli law — study';return (/s$/.test(ch)?'Chapter '+ch.slice(0,-1)+' study':'Chapter '+ch)+(e&&!/s$/.test(ch)?' — '+e.title:'')}
 // ---------- transient notice ----------
 let transientNotice='',transientTimer=null;
@@ -32792,6 +32883,7 @@ async function refreshLibraryMarks(){
       label.textContent=(p?.read?'Read ✓':Math.min(99,Math.floor((p?.ratio||0)*100))+'%')+' · '+(grades.length?'Drill '+right+'/'+(drillTotals?.[study]||'…'):'Drill —');
     }
   };render();
+  await Promise.allSettled(orderedChapters.map(async entry=>{const id=String(entry.number),text=templateCopies.get(id)||await loadChapterText(entry),row=$$('#chapterRows [data-chapter-row]').find(r=>r.dataset.chapterRow===id);if(row&&/2026 exam/i.test(text)&&!row.querySelector('.exam-badge')){const badge=document.createElement('span');badge.className='exam-badge';badge.textContent='2026 exam';row.querySelector('.chapter-name').append(badge)}}));
   if(!drillTotals){const totals={};await Promise.allSettled(manifestChapters.filter(c=>c.kind==='study').map(async c=>{totals[c.number]=parseDrill(await loadChapterText(c)).length}));drillTotals=totals;render()}
 }
 
@@ -32803,8 +32895,8 @@ let placeTimer=null,userScrolled=false;
 let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
 readerScroll.addEventListener('scroll',()=>{
   const y=Math.max(0,readerScroll.scrollTop),delta=y-headerScrollY,direction=Math.sign(delta);
-  if(y<=0||marking||!findBar.hidden){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;headerDirection=0}
-  else if(delta&&cid!=='mock'){
+  if(y<=0||marking||!findBar.hidden||!examBar.hidden){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;headerDirection=0}
+  else if(delta&&cid!=='mock'&&performance.now()>landingUntil){
     headerTravel=direction===headerDirection?headerTravel+Math.abs(delta):Math.abs(delta);headerDirection=direction;
     if(direction>0&&headerTravel>=60){chapterHeader.classList.add('is-collapsed');chapterHeader.inert=true}
     else if(direction<0&&headerTravel>=30){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
@@ -32826,13 +32918,27 @@ function savePlaceNow(){
   else flash('This bookmark change could not be saved. Storage may be full or unavailable.',6000);
 }
 $('#bookmark').onclick=savePlaceNow;
-// Desk resume// Desk resume card follows the last chapter actually read, across chapters.
+// Refresh open saved places after another tab or a restored page changes storage.
+function refreshSavedPlaces(){if(panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();syncBookmark();refreshResume()}
+addEventListener('storage',e=>{if(e.key===BOOKMARK_KEY||e.key===null)refreshSavedPlaces()});
+addEventListener('pageshow',e=>{if(e.persisted)refreshSavedPlaces()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSavedPlaces()});
+// Home follows the last chapter actually read, across chapters.
 function refreshResume(){
   const last=readJSON(PLACE_KEY,{}).last;
   $('.resume-card h2').textContent=chapterLabel(last?.chapter||cid);
   $('.resume-card .meta').textContent=last?.snippet?'“'+last.snippet.slice(0,80)+'…”':last?.ratio>0.005?'About '+Math.round(last.ratio*100)+'% through this chapter.':'At the beginning of the chapter.';
   $('.resume-card .meta').dir='auto';
+  const reading=readJSON(READING_KEY,{}).chapters||{},drills=readJSON(DRILL_KEY,{}).chapters||{};
+  const read=orderedChapters.filter(c=>/^\d+$/.test(c.number)&&reading[c.number]?.read).length;
+  const done=Object.entries(drills).filter(([id,state])=>drillTotals?.[id]>0&&Object.keys(state.grades||{}).length>=drillTotals[id]).length;
+  const missed=Object.values(collectMissed().questions).filter(q=>q.grade===0).length;
+  $('#homeProgress').textContent='Chapters read '+read+'/32 · drills done '+done+' · missed questions '+missed+' →';
+  refreshHomeStatus();
 }
+function refreshHomeStatus(){const offline=$('#offlineReady');$('#homeStatus').textContent=(offline.hidden?'Offline: preparing':offline.textContent)+' · '+$('#storageProtection').textContent.replace(/^Storage:\s*/,'')}
+new MutationObserver(refreshHomeStatus).observe($('#storageProtection'),{childList:true,subtree:true,characterData:true});
+new MutationObserver(refreshHomeStatus).observe($('#offlineReady'),{attributes:true,childList:true,subtree:true});
 refreshResume();
 $('#resume').onclick=readingTab;
 function collectMissed(){
@@ -32980,7 +33086,7 @@ function chapterNavigation(){
     const entry=orderedChapters[index+offset];if(!entry){const gap=document.createElement('span');gap.className='nav-empty';nav.append(gap);continue}
     const b=document.createElement('button'),id=String(entry.number);b.dataset.chapter=isStudy?(id==='law'?'laws':id+'s'):id;
     const label=(id==='law'?'':id+' ')+shortChapter(entry);b.textContent=side==='previous'?'‹ '+label:label+' ›';b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
-    const quick=$(side==='previous'?'#headerPrevious':'#headerNext');quick.hidden=false;quick.dataset.chapter=b.dataset.chapter;quick.textContent=side==='previous'?'‹':'›';quick.setAttribute('aria-label',b.getAttribute('aria-label'));quick.title=b.getAttribute('aria-label');
+    const quick=$(side==='previous'?'#headerPrevious':'#headerNext');quick.hidden=false;quick.dataset.chapter=b.dataset.chapter;quick.textContent=side==='previous'?'‹ Previous':'Next ›';quick.setAttribute('aria-label',b.getAttribute('aria-label'));quick.title=b.getAttribute('aria-label');
   }
   const end=nav.cloneNode(true);end.classList.add('endcap');copy.after(end);
 }
@@ -33139,7 +33245,7 @@ else if(!newMockPaper)renderScreen(history.state);
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v37',label=document.getElementById('offlineReady');
+  const version='v38',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
