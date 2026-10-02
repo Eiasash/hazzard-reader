@@ -31998,7 +31998,7 @@ function openChapter(chapter,opts={}){
   const url=new URL(location.href);url.search='';url.searchParams.set('chapter',chapter);if(opts.n)url.searchParams.set('n',opts.n);url.hash=opts.hash?'#'+opts.hash:'';location.assign(url.href);
 }
 const readerScroll=$('#readerScroll');
-const sizes={small:14,medium:16,large:19};
+const sizes={small:14,medium:16,large:20};
 let marking=false,colour='yellow',size='small',savedY=0,anchor=null,gesture=null;
 let sheetKey=null,closingHistory=false,queuedOpen=null,queuedView=null,queuedChapter=null,outsideStarted=false,currentView='reader';
 const unitMap=new Map();
@@ -32540,7 +32540,12 @@ readerScroll.addEventListener('scroll',()=>{clearTimeout(placeTimer);placeTimer=
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
 addEventListener('pagehide',rememberPlace);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else if(!pendingHighlightChanges.size)resyncHighlights()});
-function savePlaceNow(){if($('#reader').hidden)return;const p=currentPlace();const list=readJSON(BOOKMARK_KEY,[]).filter(b=>!(b.chapter===p.chapter&&b.unit&&b.unit===p.unit));list.unshift(p);writeJSON(BOOKMARK_KEY,list.slice(0,60));closePanel();flash('Place saved — it is listed in Your notebook.',3000)}
+function savePlaceNow(){
+  if($('#reader').hidden)return;
+  const p=currentPlace(),list=readJSON(BOOKMARK_KEY,[]).filter(b=>!(b.chapter===p.chapter&&b.unit&&b.unit===p.unit));list.unshift(p);
+  const saved=writeJSON(BOOKMARK_KEY,list.slice(0,60))===true;closePanel();
+  flash(saved?'Place saved — it is listed in Your notebook.':'This place could not be saved. Storage may be full or unavailable.',saved?3000:6000);
+}
 $('#savePlace').onclick=savePlaceNow;$('#bookmark').textContent='Save this place';$('#bookmark').onclick=savePlaceNow;
 // Desk resume card follows the last chapter actually read, across chapters.
 function refreshResume(){
@@ -32656,27 +32661,32 @@ function chapterNavigation(){
 }
 chapterNavigation();
 // ---------- study timer ----------
-const phases=[['Read',25],['Recall',5],['Rest',5]],TIMER_KEY='hazzard-timer-v1';
-let tState=readJSON(TIMER_KEY,{phase:0,left:1500,running:false,end:0}),tTick=null;
-if(!Number.isInteger(tState?.phase)||tState.phase<0||tState.phase>=phases.length||!Number.isFinite(tState.left)||tState.left<0||typeof tState.running!=='boolean'||!Number.isFinite(tState.end))tState={phase:0,left:1500,running:false,end:0};
-function saveTimer(){if(!writeJSON(TIMER_KEY,tState))flash('Timer changes could not be saved. Keep this page open.',6000)}
+const phases=[['Read',25],['Recall',5],['Rest',5]],TIMER_KEY='hazzard-timer-v2';
+const timerCycleMs=phases.reduce((total,phase)=>total+phase[1]*60000,0);
+function newTimer(){return {phase:0,left:1500,running:false,end:0}}
+function validTimer(state){return Number.isInteger(state?.phase)&&state.phase>=0&&state.phase<phases.length&&Number.isFinite(state.left)&&state.left>=0&&state.left<=phases[state.phase][1]*60&&typeof state.running==='boolean'&&Number.isFinite(state.end)&&state.end>=0&&(!state.running||state.end>0)}
+const storedTimer=readJSON(TIMER_KEY,null),legacyTimer=storedTimer===null?readJSON('hazzard-timer-v1',null):null;
+let tState=validTimer(storedTimer)?storedTimer:validTimer(legacyTimer)?legacyTimer:newTimer(),tTick=null,timerSaveFailed=false;
+function saveTimer(){timerSaveFailed=writeJSON(TIMER_KEY,tState)!==true;if(timerSaveFailed)flash('Timer changes could not be saved. Keep this page open.',6000)}
 function tRender(){const s=Math.max(0,Math.round(tState.left));$('#timerClock').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');$('#timerPhase').textContent=phases[tState.phase][0]+' — step '+(tState.phase+1)+' of 3';$('#timerStart').textContent=tState.running?'Pause':tState.left<phases[tState.phase][1]*60?'Resume':'Start'}
 function tStep(){
+  if(!tState.running)return;
   const now=Date.now();let changed=false,done='';
   // Keep the original deadline when catching up after a closed or sleeping tab.
-  if(now-tState.end>2100000){tState.end+=Math.floor((now-tState.end)/2100000)*2100000;changed=true}
+  if(now-tState.end>timerCycleMs){tState.end+=Math.floor((now-tState.end)/timerCycleMs)*timerCycleMs;changed=true}
   while(tState.end<=now){done=phases[tState.phase][0];tState.phase=(tState.phase+1)%3;tState.end+=phases[tState.phase][1]*60000;changed=true}
   tState.left=Math.max(0,(tState.end-now)/1000);
   if(changed){saveTimer();if(done){try{navigator.vibrate?.([300,150,300])}catch{}flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}}
   tRender();
 }
-$('#timerStart').onclick=()=>{if(tState.running){tStep();tState.running=false;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}saveTimer();tRender()};
-$('#timerReset').onclick=()=>{clearInterval(tTick);tState={phase:0,left:1500,running:false,end:0};saveTimer();tRender()};
+$('#timerStart').onclick=()=>{if(tState.running){tStep();tState.running=false;tState.end=0;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}saveTimer();tRender()};
+$('#timerReset').onclick=()=>{clearInterval(tTick);tState=newTimer();saveTimer();tRender()};
+// Copy a valid legacy session once; never write or remove the legacy key.
+if(storedTimer===null&&validTimer(legacyTimer))saveTimer();
 if(tState.running){tStep();tTick=setInterval(tStep,1000)}
 function resyncTimer(){
   const saved=readJSON(TIMER_KEY,null);
-  if(!saved||!Number.isInteger(saved.phase)||saved.phase<0||saved.phase>=phases.length||!Number.isFinite(saved.left)||saved.left<0||typeof saved.running!=='boolean'||!Number.isFinite(saved.end))return;
-  clearInterval(tTick);tState=saved;
+  clearInterval(tTick);if(!timerSaveFailed&&validTimer(saved))tState=saved;
   if(tState.running){tStep();tTick=setInterval(tStep,1000)}else tRender();
 }
 addEventListener('pageshow',event=>{if(event.persisted)resyncTimer()});
@@ -32699,10 +32709,11 @@ else if(!newMockPaper&&history.state.hazzardView!==currentView)view(history.stat
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v31',label=document.getElementById('offlineReady');
+  const version='v32',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
-    if(event.data?.type==='HAZZARD_OFFLINE_STATUS'&&event.data.version===version&&event.data.complete===true){label.textContent='Offline ready';label.hidden=false}
+    if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
+    label.hidden=event.data.complete!==true;if(!label.hidden)label.textContent='Offline ready';
   });
   navigator.serviceWorker.addEventListener('controllerchange',requestStatus);
   navigator.serviceWorker.ready.then(requestStatus).catch(()=>{});
