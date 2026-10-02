@@ -33,10 +33,10 @@
 }
 :root[data-theme="dark"] {
   color-scheme:dark;
-  --page:#1c2421; --surface:#252f2a; --soft:#2d3b32;
-  --ink:#e5e8dc; --muted:#b0bbae; --rule:#45564a; --control:#8d9e90;
-  --accent:#b1d9bc; --accent-soft:#2c4336; --focus:#f0ce92;
-  --hl-ink:#f6f2e8;
+  --page:#111315; --surface:#252a30; --soft:#303740;
+  --ink:#f4f6f8; --muted:#c6cdd4; --rule:#68737f; --control:#8894a1;
+  --accent:#b8dccb; --accent-soft:#263e35; --focus:#ffd27b;
+  --hl-ink:#fff9ed;
   --hl-yellow:#554724; --hl-green:#314b35; --hl-blue:#2d4658;
   --hl-purple:#463b58; --hl-pink:#59383f; --hl-orange:#5b412b;
   --veil:rgb(0 0 0 / .42);
@@ -362,8 +362,6 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .chapter-switch{flex:0 0 88px}
 #chapterHeader .chapter-switch button{min-width:44px;font-size:11px;flex:1}
 #chapterHeader .chapter-switch button:first-child{flex:1}
-.contents-navigation{display:flex;gap:8px;margin-bottom:4px}
-.contents-navigation button{flex:1;min-width:44px;font-size:13px}
 #desk,#library{padding-top:60px}
 #desk>h1,#library h1{font-size:22px;margin:4px 0 10px}
 #deskBack{display:none}
@@ -398,6 +396,42 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .keyboard-open{--tabs-height:0px}
 .keyboard-open #readerViewport,.keyboard-open.mark-bar-open #readerViewport{inset-block-end:var(--vv-bottom-gap,0px)}
 .reading-copy .book-context{font-size:var(--body)}
+
+/* v39: phone navigation, compact self-grading and distinct exam pearls. */
+:root{--exam:#855200;--exam-soft:#fff1cc;--drill-font:clamp(12px,calc(var(--body) * .93),13px)}
+:root[data-theme="dark"]{--exam:#ffd27b;--exam-soft:#3e2f16}
+#chapterHeaderTitle{min-width:0;text-align:center;padding:0 2px}
+#chapterHeader .chapter-step{flex:0 0 40px;min-width:40px;color:var(--accent)}
+#appTabs button[aria-current]{box-shadow:inset 0 -3px var(--accent);font-weight:700}
+#chapterHeader .chapter-switch button[aria-current]{box-shadow:inset 0 0 0 1px var(--accent)}
+:root[data-theme="dark"] #appTabs{background:var(--surface);border-top-color:var(--control)}
+:root[data-theme="dark"] #chapterHeader{border-bottom-color:var(--control);box-shadow:0 2px 6px #0006}
+:root[data-theme="dark"] :is(.reading-copy img,.reading-copy figure svg,#imageZoom .zoom-img){filter:brightness(.85)}
+:root[data-theme="dark"] #savedTick{color:var(--page)}
+.exam-note{padding:12px;border-left:4px solid var(--exam);border-inline-start-color:var(--exam);border-radius:0 8px 8px 0;background:var(--exam-soft)}
+.exam-note p:last-child{margin-bottom:0}
+.exam-label{color:var(--exam);font:700 var(--label)/1.4 var(--ui)}
+.exam-label::before{content:"★ ";}
+.exam-badge,.exam-page-badge{display:inline-block;background:var(--exam-soft);color:var(--exam);border:1px solid var(--exam);border-radius:5px;padding:1px 5px;font:700 10px/1.5 var(--ui);white-space:nowrap}
+.reading-copy a.pg[data-exam]::before{background:var(--exam-soft);border-color:var(--exam);color:var(--exam);font-weight:700}
+.reading-copy a.pg.exam-current::before{background:var(--exam);color:var(--page)}
+.mock-q,.drill-q,.missed-question{padding-block:8px}
+.mock-q>p,.drill-q>p,.missed-question>p{margin-bottom:6px}
+.missed-question p{font-size:var(--body)}
+.practice-controls{position:relative;--grade-width:166px}
+.practice-controls details{margin:0;min-height:40px}
+.practice-controls details>summary{margin-left:0;margin-right:auto;direction:ltr;display:flex;align-items:center;gap:4px;width:calc(100% - var(--grade-width) - 4px);min-height:40px;min-block-size:40px;cursor:pointer;list-style:none;font:600 var(--drill-font)/1.3 var(--ui);color:var(--accent)}
+.practice-controls summary::-webkit-details-marker{display:none}
+.practice-controls summary::after{content:"▸"}
+.practice-controls details[open]>summary::after{content:"▾"}
+.practice-controls details>:not(summary){direction:inherit;unicode-bidi:plaintext}
+.practice-controls .mock-grade{position:absolute;right:0;top:0;width:var(--grade-width);display:flex;gap:6px;margin:0;direction:ltr}
+.practice-controls .mock-grade button{position:relative;isolation:isolate;flex:1;min-width:0;min-height:40px;min-block-size:40px;height:40px;padding:4px 6px;border:0;border-radius:18px;background:transparent;color:var(--ink);font:600 var(--drill-font)/1.3 var(--ui);white-space:nowrap}
+.practice-controls .mock-grade button::before{content:"";position:absolute;z-index:-1;inset:3px 0;border:1px solid var(--control);border-radius:18px;background:var(--surface)}
+.practice-controls .mock-grade button:hover::before{background:var(--soft)}
+.practice-controls .mock-grade button[aria-pressed="true"]{color:var(--hl-ink);background:transparent}
+.practice-controls .mock-grade button[aria-pressed="true"][data-grade="1"]::before{background:var(--hl-green);border-color:var(--accent);border-width:2px}
+.practice-controls .mock-grade button[aria-pressed="true"][data-grade="0"]::before{background:var(--hl-pink);border-color:var(--stop);border-width:2px}
 </style>
 </head>
 <body>
@@ -32094,7 +32128,6 @@ fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text set
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
-const chapterSteps=document.createElement('div');chapterSteps.className='contents-navigation';chapterSteps.append($('#headerPrevious'),$('#headerNext'));$('[data-pane="contents"]').prepend(chapterSteps);
 const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=true;findBar.setAttribute('role','search');
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
@@ -32125,6 +32158,11 @@ if(true){
   $('[data-pane="plan"] b').textContent=chapterTitle;
   $('[data-pane="plan"] p:not(.eyebrow):not(.meta)').replaceChildren(Object.assign(document.createElement('b'),{textContent:chapterTitle}),document.createElement('br'),document.createTextNode('Read, then recall the chapter findings.'));
   $('[data-pane="notebook"] > p.meta').textContent='Your highlights in '+chapterTitle+'.';
+}
+// Display-only accents leave source wording and mark identities unchanged.
+for(const note of copy.querySelectorAll('.note')){
+  const label=note.querySelector('p > strong');
+  if(label && /^2026 exam\b/i.test(label.textContent)){note.classList.add('exam-note');label.classList.add('exam-label')}
 }
 // Display-only: collapse the leading Status / Source and method / As printed,
 // not corrected notes into one closed "About this chapter" drawer. 2026 exam
@@ -32158,7 +32196,11 @@ function smoothPageMarkers(copy){
     let s=a.nextSibling;while(s&&s.nodeType===3&&!s.data.trim())s=s.nextSibling;
     const m=s&&s.nodeType===1&&s.tagName==='STRONG'&&s.textContent.trim().match(/^\[p\.\s*(\d+)\]$/);
     if(!m)continue;
-    const flag=s.nextSibling?.textContent.match(/^\s*⟨2026[^⟩]*⟩/);if(flag)a.dataset.exam='2026';
+    const flagNode=s.nextSibling,flag=flagNode?.textContent.match(/^\s*⟨2026[^⟩]*⟩/);
+    if(flag){
+      a.dataset.exam='2026';
+      if(flagNode.nodeType===3){const badge=document.createElement('span');badge.className='exam-page-badge';badge.textContent=flag[0].trim();flagNode.before(document.createTextNode(flag[0].match(/^\s*/)[0]),badge);flagNode.data=flagNode.data.slice(flag[0].length)}
+    }
     s.remove();a.className='pg';a.dataset.page=m[1];a.dataset.readerMetadata='page';a.setAttribute('aria-label','Page '+m[1]);
   }
   const sentenceEnd=/[.!?]["”’)\]]*$/;
@@ -32967,22 +33009,26 @@ async function renderMissedDeck(){
       const question=questions[Number(id.split(':')[1])-1];if(!question){unavailable++;continue}
       const item=document.createElement('section');item.className='missed-question';item.dataset.missedId=id;item.dir='auto';
       item.innerHTML='<p><strong>'+marked.parseInline(question.q)+'</strong></p><details><summary>Answer</summary>'+marked.parse(question.a)+'</details>';
-      const got=document.createElement('button');got.textContent='Got it';got.setAttribute('aria-pressed','false');let resolved=false;
-      got.onclick=()=>{
-        const grade=resolved?0:1,drills=readJSON(DRILL_KEY,{}),mock=readJSON(MOCK_KEY,null);let saved=true;
+      const grades=document.createElement('div');grades.className='mock-grade';
+      grades.innerHTML='<button data-grade="1" aria-pressed="false">✓ Got it</button><button data-grade="0" aria-pressed="true">✗ Missed</button>';item.append(grades);
+      compactPracticeControls(item);let resolved=false;
+      for(const button of grades.querySelectorAll('button'))button.onclick=()=>{
+        const grade=Number(button.dataset.grade),drills=readJSON(DRILL_KEY,{}),mock=readJSON(MOCK_KEY,null);let saved=true;
+        if(resolved===(grade===1))return;
         for(const state of Object.values(drills.chapters||{}))if(Object.hasOwn(state.grades||{},id))state.grades[id]=grade;
         saved=writeJSON(DRILL_KEY,drills)&&saved;
         if(Object.hasOwn(mock?.grades||{},id)){mock.grades[id]=grade;saved=writeJSON(MOCK_KEY,mock)&&saved}
         if(saved){const current=collectMissed();current.questions[id]={grade,at:Date.now()};saved=writeJSON(MISSED_KEY,current)}
         if(!saved){status.textContent='Could not save this answer. Keep this page open and try again.';return}
-        resolved=!resolved;got.textContent=resolved?'Undo · keep missed':'Got it';got.setAttribute('aria-pressed',String(resolved));
+        resolved=grade===1;
+        for(const b of grades.querySelectorAll('button'))b.setAttribute('aria-pressed',String(Number(b.dataset.grade)===grade));
         resyncPractice();refreshMissedCount();refreshLibraryMarks();showSaved();
         status.textContent=Object.values(collectMissed().questions).filter(q=>q.grade===0).length+' questions still missed.';
-      };item.append(got);group.append(item);
+      };group.append(item);
     }
     host.append(group);
   }
-  if(ticket===missedTicket&&ids.length)status.textContent=ids.length+' missed questions. Got it removes a question from this deck.'+(unavailable?' '+unavailable+' unavailable; reconnect to finish saving the book.':'');
+  if(ticket===missedTicket&&ids.length)status.textContent=ids.length+' missed questions. Got it removes a question from this deck; Missed keeps it or undoes Got it.'+(unavailable?' '+unavailable+' unavailable; reconnect to finish saving the book.':'');
 }
 
 // ---------- practice ----------
@@ -32990,6 +33036,16 @@ async function renderMissedDeck(){
 {const st=readJSON(MOCK_KEY,null);if(st?.ids?.length){$('#mockResume').hidden=false;$('#mockResume').textContent='Continue current paper ('+Object.keys(st.grades||{}).length+'/'+st.ids.length+' marked)'}}
 // Self-grading uses the existing mock store; chapter-drill progress is new data.
 
+function compactPracticeControls(q){
+  const answer=q.querySelector('details'),grades=q.querySelector('.mock-grade');
+  if(!answer||!grades)return;
+  const controls=document.createElement('div');controls.className='practice-controls';answer.before(controls);controls.append(answer,grades);
+  answer.querySelector('summary').textContent='Answer';
+  for(const b of grades.querySelectorAll('[data-grade]'))b.textContent=b.dataset.grade==='1'?'✓ Got it':'✗ Missed';
+}
+function syncPracticeControls(q,grade){
+  q.querySelector('.mock-grade').hidden=!q.querySelector('details').open&&grade!==0&&grade!==1;
+}
 let practiceState=null,practiceQuestions=[],practiceScore=null,practiceActions=null;
 function practiceSave(){
   let saved;
@@ -33006,6 +33062,7 @@ function practiceRender(){
   practiceActions.querySelector('[data-retry="missed"]').disabled=!wrong&&!practiceState.retryIds;
   for(const q of practiceQuestions){
     q.hidden=!!practiceState.retryIds&&!practiceState.retryIds.includes(q.dataset.q);
+    syncPracticeControls(q,practiceState.grades[q.dataset.q]);
     for(const b of q.querySelectorAll('[data-grade]'))b.setAttribute('aria-pressed',String(practiceState.grades[q.dataset.q]===Number(b.dataset.grade)));
   }
 }
@@ -33046,10 +33103,11 @@ function initializePractice(){
   practiceActions.innerHTML='<button data-retry="missed">Retry missed</button>';
   practiceScore.after(practiceActions);
   for(const q of practiceQuestions){
+    compactPracticeControls(q);
     const answer=q.querySelector('details');answer.open=practiceState.revealed.includes(q.dataset.q);
     answer.addEventListener('toggle',()=>{
       const seen=new Set(practiceState.revealed);if(answer.open)seen.add(q.dataset.q);else seen.delete(q.dataset.q);
-      practiceState.revealed=[...seen];practiceSave();
+      practiceState.revealed=[...seen];practiceSave();syncPracticeControls(q,practiceState.grades[q.dataset.q]);
     });
   }
   practiceRender();
@@ -33086,7 +33144,7 @@ function chapterNavigation(){
     const entry=orderedChapters[index+offset];if(!entry){const gap=document.createElement('span');gap.className='nav-empty';nav.append(gap);continue}
     const b=document.createElement('button'),id=String(entry.number);b.dataset.chapter=isStudy?(id==='law'?'laws':id+'s'):id;
     const label=(id==='law'?'':id+' ')+shortChapter(entry);b.textContent=side==='previous'?'‹ '+label:label+' ›';b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
-    const quick=$(side==='previous'?'#headerPrevious':'#headerNext');quick.hidden=false;quick.dataset.chapter=b.dataset.chapter;quick.textContent=side==='previous'?'‹ Previous':'Next ›';quick.setAttribute('aria-label',b.getAttribute('aria-label'));quick.title=b.getAttribute('aria-label');
+    const quick=$(side==='previous'?'#headerPrevious':'#headerNext');quick.hidden=false;quick.dataset.chapter=b.dataset.chapter;quick.textContent=side==='previous'?'‹':'›';quick.setAttribute('aria-label',b.getAttribute('aria-label'));quick.title=b.getAttribute('aria-label');
   }
   const end=nav.cloneNode(true);end.classList.add('endcap');copy.after(end);
 }
@@ -33245,7 +33303,7 @@ else if(!newMockPaper)renderScreen(history.state);
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v38',label=document.getElementById('offlineReady');
+  const version='v39',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
