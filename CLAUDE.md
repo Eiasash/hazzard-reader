@@ -2,8 +2,8 @@
 
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
-## State (25 Sep 2026)
-- Live at cache **v30** (29 Sep reader fixes, see Reader features). 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+## State (02 Oct 2026)
+- Live at cache **v31** (02 Oct phone UX fixes, see Reader features). 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
 - Outside audits done 25 Sep: Codex sweep 1 (10 fixed), Codex wide 6-shard sweep (79 findings, 77 fixed, 2 rejected), Gemini (0, unreliable). Every finding is in the Reviewer Scorecard artifact (claude.ai/artifact/UHxA3ikkukJEZ5ZCgPgnRy). Briefs: `tools/*_BRIEF.md`.
 - Pending: Eias's own airplane-mode offline test on the phone.
 
@@ -30,13 +30,16 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds rows p913 lacks).
 - Odd heading casing here and there.
 
-## Reader features (29 Sep 2026, cache v30)
+## Reader features (02 Oct 2026, cache v31)
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
 - Highlighting: tap = sentence; long-press + drag = exact words → "Highlight selection" button (stored as `ranges` with text + prefix/suffix in `stage-a-highlights-v1:<ch>`). Old unit highlights whose numbering shifted re-attach by text on load. Highlights resync on pageshow/visibility/storage (fixes the stale back-navigation notebook).
 - Notebook: this chapter + saved places + other chapters' highlights (deep links `#hl-<id>`, `#bm-<time>`).
 - Place: auto-saved per chapter (`hazzard-place-v1`), restored on open; root URL opens the desk with Resume → last chapter. Save place in Reading tools (`hazzard-bookmarks-v1`).
-- Images/SVG figures: tap → full-screen zoom (pinch, double-tap, drag). Top/end buttons bottom-left.
-- Practice: Question bank = the 33 study drills; Mock paper = random 20/50/100 from all drills (498 questions), self-graded, kept in `hazzard-mock-v1` (`?chapter=mock`). Study timer 25/5/5 works.
+- Images/SVG figures: tap → full-screen zoom (pinch, double-tap, drag). Top/end buttons in the bottom reader bar, outside the text area; images load lazily with intrinsic dimensions.
+- Practice: Question bank = the 33 study drills; Mock paper = random 20/50/100 from all drills (498 questions), self-graded, kept in `hazzard-mock-v1` (`?chapter=mock`). Drills/mock keep self-grades and revealed answers and offer retry-missed views. Study timer 25/5/5 persists its phase, paused/running state and deadline in `hazzard-timer-v1`; chapter-drill progress is new data in `hazzard-drills-v1`.
+
+- Reading tools reports **Offline ready** only after the controlling v31 worker completed every precache asset. Install rejects any exhausted download/discovery retry; activate cleanup remains limited to `hazzard-*` caches.
+- Small/Medium/Large labels and existing display storage remain; Large is 19px at a 16px root. Controls scale separately so they fit a phone. Chapter/study and previous/next links are in the opening, tools and end; the corresponding study/read link is also in the reader bar. Phone Back unwinds desk/library views.
 
 ## Site behavior (not a bug)
 - First load after a deploy can show the previous version until the new service worker takes over; one reload fixes it.

@@ -86,7 +86,7 @@ figure{margin:var(--s6) 0} img,svg{max-inline-size:100%;block-size:auto}
 .about-chapter .note{border-inline-start:0;padding-inline-start:0;margin-block:var(--s3) 0}
 .about-chapter .note+.note{margin-block-start:var(--s4)}
 .endcap{margin-block-start:var(--s8);padding-block-start:var(--s4);border-block-start:var(--line) solid var(--rule)}
-/* No persistent header, footer, navigation rail or floating timer. */
+/* Reader controls have a separate bottom row; the timer stays in Reading tools. */
 .card{background:var(--surface);border:var(--line) solid var(--rule);border-radius:var(--radius);padding:var(--s4)}
 .resume-card{border-inline-start:calc(4px * var(--fs,1)) solid var(--accent)}
 .resume-card h2{margin:var(--s2) 0 var(--s3)}
@@ -215,6 +215,23 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 #claimProvenance ol{padding-inline-start:var(--s6);margin:var(--s3) 0 0}
 #claimProvenance li+li{margin-block-start:var(--s3)}
 .reading-copy [data-claim]{-webkit-touch-callout:none}
+/* Reading type can grow independently of controls that must still fit a phone. */
+:root{--title:calc(var(--body) * 1.45);--heading:calc(var(--body) * 1.22);--subhead:calc(var(--body) * 1.12)}
+#readerBar{flex:none;display:flex;align-items:center;justify-content:space-between;gap:var(--s1);min-block-size:calc(52px * var(--fs,1));padding:var(--s1) var(--s2) max(var(--s1),env(safe-area-inset-bottom));border-block-start:var(--line) solid var(--rule);background:var(--page)}
+#readerBar .reader-tools,#readerBar .jump-ends{position:static;inset:auto;transform:none;flex:none}
+#readerBar .reader-tools{border-radius:var(--s2);inline-size:var(--tap);block-size:var(--tap)}
+#readerBar .jump-ends{flex-direction:row;gap:var(--s1)}
+#readerBar .jump-ends button{inline-size:var(--tap);block-size:var(--tap);min-block-size:var(--tap);border-radius:var(--s2);opacity:1}
+#readerBar #relatedChapter{padding-inline:var(--s2)}
+.settings-links{flex-wrap:wrap;gap:0 var(--s3)}
+.settings-links button{min-block-size:var(--tap)}
+.chapter-nav{display:flex;flex-wrap:wrap;gap:var(--s2);margin-block:var(--s2)}
+.chapter-nav button{flex:1 1 calc(140px * var(--fs,1))}
+.contents-subsection{padding-inline-start:var(--s4)}
+.mock-q,.drill-q{border-block-end:var(--line) solid var(--rule);padding-block:var(--s3)}
+.drill-q details summary{cursor:pointer;font:600 var(--label)/1.4 var(--ui);color:var(--accent);min-block-size:var(--tap);display:flex;align-items:center}
+.drill-score{margin-block:var(--s2)}
+#offlineReady{margin:var(--s2) 0 0}
 </style>
 </head>
 <body>
@@ -391,13 +408,13 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p><strong>Unstageable</strong> A PI that is most likely a full-thickness PI, but it cannot be determined if the ulcer is a stage 3 or 4 because the extent of the damage cannot be visualized due to slough or eschar in the wound bed.</p>
 <p><strong>Mucous membrane PI</strong> Medical devices lead to many PI. They tend to be made of hard plastic and often rest on muscle membrane (endotracheal tubes, nasogastric tubes, catheters). These PI cannot be staged using the PI staging system because the anatomy of mucous membrane is not the same as skin.</p>
 <p><strong>Skin failure/terminal ulcers</strong> Clinicians have long reported change in skin color usually on the sacrum near the time of death. At times, these changes are labeled skin failure to parallel the failure of other body organs, citing the idea that the skin is the largest organ of the body and therefore can also fail. However, the wounds are not large enough to lead to death on their own, such as would be seen with epidermolysis bullosa or Steven-Johnson syndrome. The condition needs a different name; the reader may see changes in the terminology in the future.</p>
-<figure><img src="chapters/hazzard8e_ch46_figure46-1a.png" alt="Figure 46-1"><figcaption>Figure 46-1</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch46_figure46-1a.png" alt="Figure 46-1" loading="lazy" decoding="async" width="1132" height="1411"><figcaption>Figure 46-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-1. Stages of pressure injury.</em></p></div>
 <div class="note"><p>The stage definitions printed inside Figure 46-1 are transcribed after the figure (below the continuation on p. 688).</p></div>
 <p><a id="p688"></a><strong>[p. 688]</strong></p>
 <h2 id="management-of-pressure-injury">Management Of Pressure Injury</h2>
 <h3 id="pressure-injury-assessment">Pressure Injury Assessment</h3>
-<figure><img src="chapters/hazzard8e_ch46_figure46-1b.png" alt="Figure 46-1 (continued)"><figcaption>Figure 46-1 (continued)</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch46_figure46-1b.png" alt="Figure 46-1 (continued)" loading="lazy" decoding="async" width="1176" height="1639"><figcaption>Figure 46-1 (continued)</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-1. (Continued)</em></p></div>
 <p><strong>Figure 46-1 — the stage definitions, as printed in the figure</strong> <em>(pp. 687–688; photographs above)</em></p>
 <ul>
@@ -414,17 +431,17 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>The PUSH tool incorporates surface area measurements, exudate amount, and surface appearance. The clinician measures the size of the wound, using length and width to calculate surface area and chooses the appropriate size category of 10 categories. Exudate is evaluated as none (0), light (1), moderate (2), and heavy (3). Tissue type is rated as closed (0), epithelial tissue (1), granulation tissue (2), slough (3), and necrotic tissue (4). Each of the three items is scored, then the three sub-scores can be summed for a total score. The PUSH tool offers a quick assessment to predict healing outcomes, but assessment of additional wound characteristics may still be needed in order to develop a treatment plan for the PI.</p>
 <p>The BWAT evaluates 13 wound characteristics using a five-point numerical rating scale and rates them from best (scored as 1) to worst (scored as 5) possible (see Figure 46-4). Characteristics include size, depth, edges, undermining or pockets, necrotic tissue type and amount, exudate type and amount, surrounding skin color, peripheral tissue edema and induration, granulation tissue, and epithelialization. Similar to the PUSH tool, once characteristics have been scored, they can be summed for a total score (range 13–65).</p>
 <h3 id="redistribution-of-pressure-and-reduction-in-shear">Redistribution of Pressure and Reduction in Shear</h3>
-<figure><img src="chapters/hazzard8e_ch46_figure46-2.png" alt="Figure 46-2"><figcaption>Figure 46-2</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch46_figure46-2.png" alt="Figure 46-2" loading="lazy" decoding="async" width="1184" height="888"><figcaption>Figure 46-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-2. Tissue types in pressure injuries.</em></p></div>
 <p>PIs occur due to exposure to pressure and shear; therefore, pressure must be reduced for the wound to heal. In general, the patient should not be positioned on the PI, but this is easy to say and sometimes difficult to do. If the patient can tolerate or is unaware of being positioned off the wound, the plan of care should indicate which positions are to be <a id="p690"></a><strong>[p. 690]</strong> used (eg, side to side positioning). However, the more common issue is that patients often developed a PI by lying or sitting in a preferred position and it will be difficult to convince them to change. If the PI is on the sacrum, side to side turning, with confirmation that the sacrum is free from pressure, is the ideal practice. If the patient refuses to stay off the wound, consider upscaling the mattress or adding an overlay for additional immersion into the bed. These devices do not replace turning, but the increased immersion reduces pressure on soft tissue.</p>
 <p>When PI occurs on the ischium in chairbound patients, a specialized chair cushion with high immersion is needed. Again, time spent lying on the sides will reduce pressure on the ischium. However, ischial wounds are very slow to heal, and it is difficult to convince a patient to lie in bed for months. Usually a compromise is best, for example, being up a few hours at a time in the chair and then back to bed on the left or right side.</p>
 <p>PI on the heel should be managed with a heel off-loading device (HOLD); pillows should not be used. Pillows are unreliable, often collapse under the weight of the leg, or get kicked off the bed. If the leg cannot be placed in a HOLD, apply a pressure redistribution foam dressing to the heel.</p>
-<figure><img src="chapters/hazzard8e_ch46_figure46-3.png" alt="Figure 46-3"><figcaption>Figure 46-3</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch46_figure46-3.png" alt="Figure 46-3" loading="lazy" decoding="async" width="1089" height="1325"><figcaption>Figure 46-3</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-3. National Pressure Injury Advisory Panel Pressure Ulcer Scale for Healing Tool. (© National Pressure Injury Advisory Panel.)</em></p></div>
 <div class="note"><p>Figure 46-3 (PUSH Tool 3.0) is a scoring form; shown as an image, not transcribed.</p></div>
 <p>Trochanteric PI occurs in patients with contractures, who lie on their sides. Pressure redistribution in these patients is difficult because the PI are often bilateral, and</p>
 <p><a id="p691"></a><strong>[p. 691]</strong></p>
-<figure><img src="chapters/hazzard8e_ch46_figure46-4.png" alt="Figure 46-4"><figcaption>Figure 46-4</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch46_figure46-4.png" alt="Figure 46-4" loading="lazy" decoding="async" width="1227" height="1721"><figcaption>Figure 46-4</figcaption></figure>
 <div class="note"><p><em>FIGURE 46-4. Bates-Jensen Wound Assessment Tool.</em></p></div>
 <div class="note"><p>Figure 46-4 (Bates-Jensen Wound Assessment Tool) is a scoring form; shown as an image, not transcribed.</p></div>
 <p><a id="p692"></a><strong>[p. 692]</strong></p>
@@ -562,7 +579,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <h2 id="2026-exam-the-questions-sourced-to-this-chapter">2026 exam: the questions sourced to this chapter</h2>
 <div class="note"><p>Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority). Keys are from key 899478 (after appeals). The support line is the book&#39;s own text, with its printed page; it supports an answer, it is not the key.</p></div>
 <p><strong>Q7</strong> — sourced to <a href="#p695">p. 695–696</a>. A 75-year-old woman was admitted to a complex nursing-care ward after a prolonged hospitalization for pneumonia, ventilation and a stay in intensive care. On admission to the ward she had a pressure ulcer involving the buttock, 10x9 cm, with abundant necrotic tissue and redness visible around it; see picture no. 1. Laboratory tests show elevated inflammatory markers. Which debridement approach is most recommended for her?</p>
-<figure><img src="chapters/ima2026_album_picture1_Q7.png" alt="Picture no. 1 for Q7"><figcaption>Picture no. 1 for Q7</figcaption></figure>
+<figure><img data-src="chapters/ima2026_album_picture1_Q7.png" alt="Picture no. 1 for Q7" loading="lazy" decoding="async" width="465" height="505"><figcaption>Picture no. 1 for Q7</figcaption></figure>
 <div class="note"><p>Description by the builder, not from the paper (checked against the image by the chat lane). Picture no. 1 (IMA image album 885645, published separately from the question paper): a deep open wound with a large band of cream to pale-yellow slough through the middle, brown to olive-green necrotic tissue in the lower left, and red granulation tissue along the right edge and lower rim; the surrounding skin is dusky pink-purple. The photograph cannot settle what the pale central structure is, and the description implies no stage.</p></div>
 <ul>
 <li>א. Mechanical</li>
@@ -648,6 +665,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
 <section data-pane="tools" data-title="Reading tools">
 <div class="settings-links" id="readerLinks"><button class="quiet" data-panel="contents">Contents</button><button class="quiet" data-panel="find">Find</button><button class="quiet" id="savePlace">Save place</button><button class="quiet" data-panel="notebook">Notebook</button></div>
+<p id="offlineReady" class="meta" role="status" hidden></p>
 <p id="readerDiagnostic" class="reader-diagnostic"></p>
 </section><section data-pane="contents" data-title="In this chapter" hidden=""><button class="quiet" id="bookmark">Save this place</button><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="find" data-title="Find in this chapter" hidden=""><label for="findText">Search text</label><input type="search" id="findText" placeholder="A word or phrase"><ul id="findResults" class="rows"></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li></ul></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
 
@@ -722,7 +740,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <li>Absence of environmental and iatrogenic barriers</li>
 </ul>
 <p><sub>Reproduced with permission from Kane RL, Ouslander JG, Resnick B, et al. Essentials of Clinical Geriatrics. 8th ed. New York, NY: McGraw Hill; 2018.</sub></p>
-<figure><img src="chapters/hazzard8e_ch47_figure47-1.png" alt="Figure 47-1"><figcaption>Figure 47-1</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch47_figure47-1.png" alt="Figure 47-1" loading="lazy" decoding="async" width="1277" height="944"><figcaption>Figure 47-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 47-1. Central and peripheral nervous system involvement in micturition.</em></p></div>
 <p>At the most basic level, urination is governed by a reflex in the sacral spinal cord. During normal bladder filling, afferent pathways (via somatic and autonomic nerves) carry information regarding bladder volume to the spinal cord. Motor output is adjusted accordingly (Figure 47-1). Sympathetic tone closes the bladder neck and inhibits parasympathetic tone (thus relaxing the dome of the bladder); somatic innervation maintains tone in the pelvic floor musculature (including striated muscle around the urethra). Voluntary pelvic floor muscle contracture also leads to inhibition of parasympathetic tone. For bladder emptying, sympathetic and somatic tones diminish, and parasympathetic, cholinergic-mediated impulses cause <a id="p701"></a><strong>[p. 701]</strong> ⟨2026: Q64⟩ the bladder to contract. Normal urination is a dynamic process, requiring the coordination of several physiologic processes. Under normal circumstances, as the bladder fills, bladder pressure remains low (≤ 15 cm H₂O). The bladder volume at first urge to void is variable, but generally occurs at between 150 and 350 mL; normal bladder capacity is 300 to 600 mL. When normal urination is initiated (usually every 3 to 4 hours during wakefulness), the detrusor contracts and detrusor pressure increases until it exceeds urethral resistance (which lowers immediately prior to bladder contraction). Urine flow occurs typically over less than 2 minutes. If at any time during bladder filling, total bladder pressure exceeds outlet resistance, urinary leakage occurs. Transmitted intra-abdominal pressure alone by coughing or sneezing may cause leakage in someone with low outlet resistance pressure or urethral sphincter weakness. Alternatively, the bladder can contract involuntarily and cause urinary leakage.</p>
 <h3 id="risk-factors">Risk Factors</h3>
@@ -996,7 +1014,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p><sub>ᵃSee also Table 47-7. ᵇThe recommendation for a postvoid residual determination in all incontinent elderly patients is controversial (see text). Reproduced with permission from Kane RL, Ouslander JG, Resnick B, et al. Essentials of Clinical Geriatrics. 8th ed. New York, NY: McGraw Hill; 2018.</sub></p>
 <p>A determination of PVR should be performed in patients at risk for retention, including those with diabetes with neuropathy, neurologic disorders, symptoms of</p>
 <p><a id="p706"></a><strong>[p. 706]</strong></p>
-<figure><img src="chapters/hazzard8e_ch47_figure47-2.png" alt="Figure 47-2"><figcaption>Figure 47-2</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch47_figure47-2.png" alt="Figure 47-2" loading="lazy" decoding="async" width="1444" height="1884"><figcaption>Figure 47-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 47-2. Summary of assessment and initial management of geriatric urinary incontinence. (See referenced tables and text for details.)</em></p></div>
 <div class="note"><p>Figure 47-2 is a flowchart; shown as an image, not transcribed.</p></div>
 <p><a id="p707"></a><strong>[p. 707]</strong></p>
@@ -1005,7 +1023,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>Clinical practice guidelines do not recommend a complex urologic, gynecologic, or urodynamic evaluation for all incontinent older patients. Many patients can be treated with a trial of behavioral and/or drug therapy after a basic evaluation is completed and potentially reversible factors are addressed. Table 47-7 lists examples of criteria for referring incontinent geriatric patients for further urologic, gynecologic, and/or urodynamic evaluations.</p>
 <h2 id="management">Management</h2>
 <p>Several therapeutic modalities are used in managing incontinent patients (Table 47-8). Special attention should be paid to the management of acute incontinence, which is common in older patients in acute care hospitals or nursing homes. Unfortunately, older incontinent patients may be managed in the acute hospital setting with indwelling catheterization. Rarely, this is justified by hemodynamic instability and the hourly need to assess urine output during the acute phase of an illness, yet often it is unnecessary. This practice poses a substantial and unwarranted risk of catheter-induced infection and interferes with mobility. Widespread use of quality indicators may reduce the frequency of these practices. Although time-consuming and more difficult, making toilets and toilet substitutes accessible and combining this accessibility with some form of scheduled toileting is a more appropriate approach. Indwelling catheters may be appropriate in the palliative setting at end of life. All the factors that can cause or contribute to a reversible form of incontinence (see Table 47-3) should be attended to in order to maximize the potential for regaining continence.</p>
-<figure><img src="chapters/hazzard8e_ch47_figure47-3.png" alt="Figure 47-3"><figcaption>Figure 47-3</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch47_figure47-3.png" alt="Figure 47-3" loading="lazy" decoding="async" width="1247" height="1104"><figcaption>Figure 47-3</figcaption></figure>
 <div class="note"><p><em>FIGURE 47-3. Example of a bladder record for ambulatory care settings. (Adapted with permission from Diagnosis of Bladder Control Problems (Urinary Incontinence). How do doctors find the cause of a bladder control problem? National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). National Institutes of Health.)</em></p></div>
 <div class="note"><p>Figure 47-3 (bladder diary) is a form; shown as an image, not transcribed.</p></div>
 <p>Management should be guided by the type of incontinence, and more importantly by patient and/or family <a id="p708"></a><strong>[p. 708]</strong> preferences. Patients should be carefully questioned about the degree of bother the incontinence is causing and how much risk and cost they are willing to undertake to address it. Supportive measures are critical in managing all forms of incontinence and should be used in conjunction with other, more specific treatment modalities. Education, environmental manipulations, appropriate use of toilet substitutes, avoidance of iatrogenic contributions to incontinence, modifications of diuretic and fluid intake patterns (especially caffeine), treatment of constipation, and good skin care are all important. Additionally, in women there is evidence that modest weight loss (approximately 5%–10% of body weight) leads to reduction in urinary incontinence episodes.</p>
@@ -1644,7 +1662,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 </ul>
 <div class="note"><p>Book: Table 47-4 (p703), &quot;Anticholinergics&quot;: &quot;Urinary retention, overflow incontinence, stool impaction&quot;. Table 47-5 (p704), &quot;High postvoid residual&quot;, common causes include &quot;Anatomic obstruction by prostate, urethral stricture, severe cystocele&quot; and &quot;Medication effect (see Table 47-4)&quot;. Outside the pages the examiners cited, p707: &quot;PVR values of less than 100 mL in the absence of straining to void generally reflect adequate bladder emptying in geriatric patients, whereas PVR values greater than 200 mL are abnormal.&quot; pp701–702: &quot;causes of incontinence with a high PVR in an older patient include immobility; anticholinergic, narcotic, calcium channel blocking, and beta-adrenergic medications&quot;</p></div>
 <p><strong>Q64</strong> — sourced to <a href="#p701">p. 701–702</a>. An 86-year-old woman with a background of dementia lives at home with a live-in caregiver. She is admitted with diarrhea and reduced urine output. On examination there is diffuse abdominal tenderness and a distended abdomen. Blood tests (patient value; normal range): creatinine 3 mg/dL (0.67–1.17); BUN 25 mg/dL (6–24); Na 140 mEq/L (135–145); K 4.1 mM/L (3.5–5); WBC 9.5 µL (4.5–11); CRP 0.3 mg/dL (&lt; 0.5). Plain abdominal X-ray: picture no. 3. What is the recommended next therapeutic step?</p>
-<figure><img src="chapters/ima2026_album_picture3_Q64.png" alt="Picture no. 3 for Q64"><figcaption>Picture no. 3 for Q64</figcaption></figure>
+<figure><img data-src="chapters/ima2026_album_picture3_Q64.png" alt="Picture no. 3 for Q64" loading="lazy" decoding="async" width="798" height="961"><figcaption>Picture no. 3 for Q64</figcaption></figure>
 <div class="note"><p>Description by the builder, not from the paper (wording checked against the image by the chat lane). Picture no. 3 (IMA image album 885645, published separately from the question paper): frontal plain radiograph of the abdomen and pelvis, marked R. Mottled, bubbly material lies along the right flank, in the left upper abdomen and down the left flank, and fills the lower pelvis. The description implies no diagnosis.</p></div>
 <ul>
 <li>א. Laxatives  ← <strong>key</strong></li>
@@ -1692,7 +1710,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>Most of the epidemiologic studies of delirium involve hospitalized older patients, in whom the highest rates of delirium occur. Reported rates vary based on the subgroup of patients studied and the setting of care. Previous studies estimated the prevalence of delirium (present at the time of hospital admission) at 7% to 80% and the incidence of delirium (new cases arising during hospitalization) at 8% to 82%. The highest prevalence and incidence rates occur among ventilated intensive care unit patients. The incidence rates of delirium in high-risk hospital venues, such as the intensive care unit and surgical settings, range from 16% to 82% and 8% to 58%, respectively. Delirium occurs in up to 48% of patients in nursing homes or postacute settings, and in up to 83% of all patients at the end of life. The rates of delirium in all older persons presenting to the emergency department in several studies have ranged from 8% to 27%. While less frequent in the community setting, delirium is an important presenting symptom to outpatient clinics and often heralds serious underlying disease. Delirium is often unrecognized. Previous studies have documented that clinicians fail to detect up to 70% to 85% of affected patients across all of these settings. Furthermore, the presence of delirium portends a potentially poor prognosis. Delirium in the intensive care unit is associated with a fourfold increased risk of in-hospital mortality and a sixfold increased risk of mortality at 6 months. In the emergency department, delirium is associated with a sevenfold increased risk of mortality at 6 months. Longer lengths of stay, cognitive and functional sequelae lasting up to 1 year postoperatively, and institutionalization are also consequences of delirium.</p>
 <h2 id="pathophysiology">Pathophysiology</h2>
 <p>The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought to represent a functional rather than structural lesion. The characteristic electroencephalographic (EEG) findings demonstrate global functional derangements and generalized slowing of cortical background (alpha) activity. It has been hypothesized that delirium is mediated via a final common pathway of different but interacting pathogenic mechanisms leading to dysfunction of multiple brain regions and neurotransmitter systems and culminating in disruption of large-scale networks. Evidence for a single pathway is lacking, and it remains difficult to ascribe delirium to a distinct neurobiological mechanism. Another hypothesis which has gained favor is that delirium occurs in the setting of an acute stressor, such as surgery or sepsis, superimposed on an underlying brain vulnerability, such as cognitive impairment or frailty. This model suggests that as vulnerability increases, delirium can be triggered by relatively minor acute stressors. Numerous contributions to brain vulnerability have been suggested, such as structural lesions, vascular changes, alterations in brain connectivity, neuroinflammation, or neurodegeneration, and other age-related changes. Evidence from EEG, evoked-potential studies, and neuroimaging studies in delirium suggest focal dysfunction localized to the prefrontal cortex, thalamus, basal ganglia, temporoparietal cortex, fusiform, and lingual gyri of the nondominant cortex. Studies using computed tomography (CT) or magnetic resonance imaging (MRI) have found lesions or structural abnormalities in the brains of patients with delirium. Single-photon emission computed <a id="p881"></a><strong>[p. 881]</strong> ⟨2026: Q34 (879-881), Q40 (880-882)⟩ tomography (SPECT) studies have shown that delirium is mostly associated with decreased cerebral blood flow, but these results have been variable.</p>
-<figure><img src="chapters/hazzard8e_ch58_figure58-1.png" alt="Figure 58-1"><figcaption>Figure 58-1</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch58_figure58-1.png" alt="Figure 58-1" loading="lazy" decoding="async" width="1390" height="1795"><figcaption>Figure 58-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 58-1. Multifactorial model for delirium. The etiology of delirium involves a complex interrelationship between the patient’s underlying vulnerability or predisposing factors (left axis) and precipitating factors or noxious insults (right axis). For example, a patient with high vulnerability, such as with severe dementia, underlying severe illness, or hearing or vision impairment, might develop delirium with exposure to only one dose of a sleeping medication. Conversely, a patient with low vulnerability would develop delirium only with exposure to many noxious insults, such as general anesthesia and major surgery, intensive care unit (ICU) stay, multiple psychoactive medications, and prolonged sleep deprivation.</em></p></div>
 <p>Associated neurotransmitter abnormalities involve elevated brain dopaminergic function, reduced cholinergic function, or a relative imbalance of these systems. Serotonergic activity may interact to regulate or alter activity of these other two systems, and serotonin levels may be either increased or decreased. Extensive evidence supports the role of cholinergic deficiency. Acetylcholine plays a key role in consciousness and attentional processes. Given that delirium manifests as an acute confusional state often with alterations of consciousness, it is likely to have a cholinergic basis. Anticholinergic drugs can induce delirium in humans and animals, and serum anticholinergic activity is increased in patients with delirium. Physostigmine can reverse delirium associated with anticholinergic drugs, and cholinesterase inhibitors appear to have some benefit even in cases of delirium that are not induced by drugs. Neurotransmitter systems can also be affected indirectly. For instance, in sepsis, the systemic inflammatory response triggers a cascade of local (brain) neuroinflammation, leading to endothelial activation, impaired blood flow, neuronal apoptosis, and neurotransmitter dysfunction. Neuroinflammation can lead to microglial overactivation, resulting in a neurotoxic response with further neuronal injury. Animal studies have found that neurodegeneration causes priming of astrocytes and microglia, resulting in a greater neuroinflammatory response, as well as alterations in vasculature, including the blood-brain barrier, which may render the brain more vulnerable to circulating inflammatory molecules. The stress response associated with severe medical illness or surgery involves sympathetic and immune system activation, including increased activity of the hypothalamic-pituitary-adrenal axis with hypercortisolism, and release of cerebral cytokines that alter neurotransmitter systems, the thyroid axis, and modification of blood-brain barrier permeability. Age-related changes in central neurotransmission, stress management, hormonal regulation, and immune response may contribute to the increased vulnerability of older persons to delirium. The description of delirium as “acute brain failure”—involving multiple neural circuits, neurotransmitters, and brain regions—suggests that understanding delirium may help to elucidate the underlying mechanisms of brain functioning.</p>
 <h2 id="etiology">Etiology</h2>
@@ -1897,7 +1915,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <h2 id="prevention">Prevention</h2>
 <p>Primary prevention—preventing delirium before it develops—is the most effective strategy for reducing delirium and its associated adverse outcomes. Table 58-5 describes well-documented delirium risk factors and preventive interventions to address each risk factor. A controlled clinical trial demonstrated the effectiveness of a delirium prevention strategy targeted toward these risk factors, which were selected based on their clinical relevance and the degree to which they could be modified by employing practical and feasible interventions. Compared with standard care, implementation of these preventive interventions resulted in a 40% risk reduction for delirium in hospitalized older patients.</p>
 <p>The Hospital Elder Life Program (HELP; now AGS CoCare HELP at <a href="https://help.agscocare.org/">https://help.agscocare.org/</a>) represents an innovative strategy of hospital care for older patients, designed to incorporate the tested delirium prevention strategies and to improve overall quality of hospital care. Programs such as HELP underscore the importance of an interdisciplinary team’s contributions to the prevention of delirium. For example, trained volunteers and family members can play roles in daily orientation, therapeutic recreation activities, and feeding assistance. Physical rehabilitation experts and nurses can assist with mobilization <a id="p887"></a><strong>[p. 887]</strong> and the incorporation of daily exercises to prevent functional decline. Dietitians can help to maximize appropriate caloric intake and oral hydration in acutely ill patients. Consultant pharmacists, chaplains, and social workers also may provide specialized expertise to address issues pertinent to individuals at risk for delirium.</p>
-<figure><img src="chapters/hazzard8e_ch58_figure58-2.png" alt="Figure 58-2"><figcaption>Figure 58-2</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch58_figure58-2.png" alt="Figure 58-2" loading="lazy" decoding="async" width="1346" height="1647"><figcaption>Figure 58-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 58-2. Flowchart for evaluation of suspected delirium in an older person. ABG, arterial blood gas; B₁₂, cyanocobalamin or vitamin B₁₂ level; EEG, electroencephalography; IM, intramuscular; LP, lumbar puncture; PO, by mouth; TFTs, thyroid function tests (eg, T4, thyroid index, thyroid-stimulating hormone); UB-CAM, Ultra Brief Confusion Assessment Method.</em></p></div>
 <div class="note"><p><strong>Note — the book against itself.</strong> The flowchart ends <em>&quot;Avoid benzodiazepines and other psychoactive drugs&quot;</em> and gives starting doses only. The text on <a href="#p889">p. 889</a> carries what the figure leaves out: benzodiazepines remain the treatment of choice for delirium from seizures and alcohol- or medication-related withdrawal, and the 24-hour maximum for each antipsychotic. The figure gives risperidone as 0.25 mg; the text gives 0.25–0.5 mg.</p></div>
 <p>At least 14 studies have examined primary prevention with nonpharmacologic multicomponent approaches to delirium in controlled trials with prospective sampling frameworks and validated delirium assessments. These studies applied multifactorial interventions or educational strategies targeted toward health care professionals, staff, and families, and demonstrated significant reductions in delirium rates, in-hospital falls, health care–associated costs, and/or duration of delirium. Proactive geriatric consultation has been demonstrated to reduce the risk of delirium post hip fracture by 40% in a randomized controlled trial. Another trial found that home rehabilitation after acute hospitalization of older adults was associated with lower risk of delirium and greater patient satisfaction, when compared with an institutional setting. In all, trials suggest that up to 50% of cases of delirium may be preventable and that prevention strategies should begin early during hospitalization.</p>
@@ -3001,7 +3019,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 </tbody></table></div>
 <p><sub>+/– denotes strength of association between a particular feature and a specific disorder. CBS, corticobasal syndrome; DLB, dementia with Lewy bodies; MSA, multiple system atrophy; PD, Parkinson disease; PSP, progressive supranuclear palsy; REM, rapid eye movement. The above table presents a summary of published diagnostic criteria. The lists of inclusion and exclusion criteria for any given disorders are not exclusive/exhaustive of all possibilities. For any given disease, not all inclusion criteria are required to make an affirmative diagnosis. Similarly, the presence of a single exclusion criterion does not represent an absolute contraindication to diagnosing a specific disorder.</sub></p>
 <p><a id="p942"></a><strong>[p. 942]</strong></p>
-<figure><img src="chapters/hazzard8e_ch61_figure61-1.png" alt="Figure 61-1"><figcaption>Figure 61-1</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch61_figure61-1.png" alt="Figure 61-1" loading="lazy" decoding="async" width="700" height="1300"><figcaption>Figure 61-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 61-1. A. Normal dopamine transporter imaging through single-photon emission computed tomography (DaT SPECT scan) in a patient with essential tremor. B. Asymmetric loss of putaminal dopaminergic nerve terminals affecting the right striatum more than the left consistent with a primary neurodegenerative parkinsonian condition.</em></p></div>
 <p>Updated diagnostic criteria for DLB were published in 2017. Individuals meet the threshold for “probable DLB” if they show findings of a progressive dementia and have at least two of core features of DLB: (1) parkinsonism, (2) cognitive fluctuations, (3) rapid eye movement (REM) sleep behavior disorder (RBD), and (4) recurrent visual hallucinations. A positive biomarker test—including an abnormal striatal DaT SPECT, polysomnography findings consistent with RBD, or sympathetic denervation on myocardial scintigraphy—can also be substituted for one of these four core criteria in order to meet the “probable DLB” diagnostic threshold. The US Food and Drug Administration (FDA) has approved PET radiopharmaceuticals to detect the presence of amyloid plaques (eg, florbetapir) and neurofibrillary tangles (flortaucipir) and may be useful for diagnostic purposes if diagnostic uncertainty remains. The FDA is expected to review applications shortly for diagnostic amyloid-beta blood tests that would allow the detection of cerebral amyloid disorders, including AD, in relevant clinical contexts. Whether these tests may be employed to distinguish different prognostic trajectories in individuals with common early synucleinopathies is a topic worth monitoring—this is especially true given that manifest DLB is characterized by higher cortical amyloid-beta plaque levels than idiopathic PD.</p>
 <p>A recent proposal to distinguish the so-called body-first versus brain-first subtypes of PD may blur the line between PD and DLB diagnoses. The proposed subtyping is based on the temporal relationship between the onset of RBD and motor diagnosis of PD. A gut-first subtype would be defined when RBD precedes the motor diagnosis with at least 1 year compared to post-motor symptom emergence of this parasomnia or its absence. This subtyping may have an advantage of early stage prognostication but its utility in more advanced disease is questionable.</p>
@@ -3132,7 +3150,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>No two patients with PD are alike in their clinical presentation or their rate of disease progression. In addition, not all motor features of PD have the same clinical or prognostic significance. Gait and cognitive difficulties, for example, play a more significant role in patient autonomy, disease staging, and overall disability. Different motor phenotypes in PD have been distinguished, such as tremor-predominant or imbalance-predominant (so-called postural instability and gait difficulties [PIGD]) subtypes. PIGD features, however, tend to be less responsive to common medication strategies including dopaminergic therapies and can worsen at variable rates for reasons that appear to have little to do with dopaminergic neurotransmission.</p>
 <p>There is an increasing body of literature implicating nondopaminergic or extranigral brain changes seen with aging as a mediator of disease progression in PD. Cerebral amyloid deposition and a decline in cerebrovascular integrity occur as part of brain aging. In individuals without PD, when these progressive changes exceed a critical threshold, patients who develop clinical symptoms are diagnosed with specific disorders including AD and vascular dementia. When these changes are milder, however, most people are able to use existing neuronal reserve to compensate and prevent the development of clinically significant disability. In PD, where the severe loss of striatal dopaminergic neurons is seen from the earliest stage of diagnosis, neuronal compensation mechanisms are relatively impaired, leading to the development of clinically significant disease features in the presence of even low levels of age-related comorbid brain pathologies (Figure 61-2). Longitudinal studies of PD have suggested that the severity of medical comorbidities is a chief determinant of progression to a disability, dementia, and death. For this reason, we recommend that all patients with PD attend carefully to common chronic medical conditions including cardiovascular risk factor reduction through physical exercise, appropriate diet, and medication management of comorbidities like hypertension and diabetes mellitus. The longitudinal role of a geriatrician or primary care doctor is hence indispensible for individuals with PD.</p>
 <p>Recent data suggest that specialist care through a neurologist specifically is associated with reduced mortality in PD. Neurologists who are familiar with PD can be instrumental in making medication adjustments over time and can serve as an access point for newly approved medications and for DBS once patients have progressed from early-stage to mid-stage PD characterized by motor fluctuations. Multidisciplinary care models for delivering rehabilitative services have been trialed against standard physical therapy in carefully controlled settings and have been shown to improve quality of life. Home-based exercise programs have also been shown to improve off-state motor function <a id="p950"></a><strong>[p. 950]</strong> in PD in recent randomized trials. Developing reimbursement models to initiate, sustain, and broaden the impact of these clinical trial findings is an important priority for PD patients, advocates, and clinicians. Patients with late-stage PD or with significant disability from atypical parkinsonian conditions often benefit from consultations with palliative care physicians. This is particularly helpful for later-stage patients who are either confined to a wheelchair or who are considering nursing home placement because of inability to perform activities of daily living. Progressive dysphagia can be seen in some patients with advanced PD or atypical parkinsonian conditions and may necessitate a discussion about feeding tube placement. Discussing goals of care with patients at risk for loss of autonomy can empower patients to have control over a difficult disease.</p>
-<figure><img src="chapters/hazzard8e_ch61_figure61-2.png" alt="Figure 61-2"><figcaption>Figure 61-2</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch61_figure61-2.png" alt="Figure 61-2" loading="lazy" decoding="async" width="1244" height="775"><figcaption>Figure 61-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 61-2. Schematic diagram depicting the natural history of progressive changes in Parkinson disease (PD) attributable to both dopaminergic and nondopaminergic (“extranigral”) pathologies. With advancing disease duration, medical comorbidities and other neuropathologies exert additive/synergistic effects on overall motor and nonmotor disease burden in PD.</em></p></div>
 <h2 id="conclusion">Conclusion</h2>
 <p>Parkinsonian conditions including PD are common sources of disability in older individuals and are typically responsive to a wide variety of treatments. Longitudinal care with skilled geriatric and neurology providers is perhaps the most important step to ensure an individualized medical approach that prioritizes quality of life.</p>
@@ -3311,15 +3329,15 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>The ADA 2021 Standards of Medical Care in Diabetes and the 2019 Endocrine Society Guideline on Treatment of Diabetes in Older Adults (both evidence-based) recommend screening all individuals older than age 65 with FPG and/or A1C level to detect prediabetes or diabetes. The Endocrine Society Guideline further suggests obtaining a 2-hour glucose post–OGTT measurement in older people with prediabetes values to identify those who meet diabetes criteria (ie, IPH), especially in high-risk populations. The rationale for such screening includes the high rate of undetected diabetes mellitus in population studies and the strong evidence that early intervention delays the progression to diabetes in people with prediabetes, including those older than 60. The ADA standards and the Endocrine Society Guideline recommend follow-up screening every 2 to 3 years based on the patient’s situation. However, yearly follow-up testing of people at high risk should be considered (see Table 99-3 for high risk factors), especially those who meet criteria for prediabetes.</p>
 <h2 id="epidemiology">Epidemiology</h2>
 <p>Type 2 diabetes is a growing worldwide problem, becoming the 10th leading cause of death globally in 2017. Although the death rate (deaths/100,000 persons) fell slightly in North America and most of Europe between 2007 and <a id="p1562"></a><strong>[p. 1562]</strong> 2017, it has increased steadily in Asia, India, Mexico, and northern Africa. Both the prevalence of diabetes and the rate of new cases of diabetes are projected to increase in the next three decades. These projected increases are attributable to aging of the world’s population, increasing numbers of higher-risk ethnic groups, and people with diabetes living longer due to falling rates of cardiovascular deaths.</p>
-<figure><img src="chapters/hazzard8e_ch99_figure99-1.png" alt="Figure 99-1"><figcaption>Figure 99-1</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-1.png" alt="Figure 99-1" loading="lazy" decoding="async" width="756" height="542"><figcaption>Figure 99-1</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-1. Diabetes (diagnosed and undiagnosed) and prediabetes prevalence in the United States in adults aged 18 or older, 2013–2016. (Diabetes defined by A1C, fasting blood glucose, or 2-h OGTT; Data from National Diabetes Statistics Report 2020. Estimates of Diabetes and Its Burden in the United States. US Department of Health and Human Services. Centers for Disease Control and Prevention.)</em></p></div>
-<figure><img src="chapters/hazzard8e_ch99_figure99-2.png" alt="Figure 99-2"><figcaption>Figure 99-2</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-2.png" alt="Figure 99-2" loading="lazy" decoding="async" width="1058" height="429"><figcaption>Figure 99-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-2. Incidence (per 1000) of major diabetes complications among adults with diabetes, by age, 2009. CHF, congestive heart failure; ER, emergency room; ESRD, end-stage renal disease. (Data from National Diabetes Statistics Report 2020. Estimates of Diabetes and Its Burden in the United States. US Department of Health and Human Services. Centers for Disease Control and Prevention.)</em></p></div>
 <p>Diabetes was the seventh leading cause of death in the United States in 2019 based on death certificate records. In fact, diabetes may be underreported as a cause of death. Only 35% to 40% of people who died with diabetes had it listed anywhere on the death certificate, and only 10% to 15% had it listed as the underlying cause of death. Overall, risk for death among those with diabetes is about twice that of people with similar age but without diabetes. Over 70% of diabetes attributed deaths occurred among people age 70 and older.</p>
 <p>Figure 99-1 describes the prevalence of diabetes (diagnosed and undiagnosed) by age groups in the United States in 2013 to 2016, along with the prevalence of people with prediabetes (<a href="https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report">https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report</a>. pdf, accessed 5/31/2021). Among people aged 65 or older in the United States, the total prevalence of diabetes is about 27% and the prevalence of prediabetes is nearly 50%, both higher than younger age groups. About 20% of people meeting criteria for diabetes are undiagnosed. The incidence rate of newly diagnosed diabetes is the highest among those aged 45 to 64 and 65 to 79, estimated at 10 new cases/1000 people and 9 new cases/1000 people in 2017 to 2018, respectively.</p>
 <p>Older adults with diabetes mellitus are susceptible to all the usual complications of diabetes. Rates of end-stage renal disease (ESRD), loss of vision, myocardial infarction, stroke, peripheral vascular disease (PVD), and peripheral neuropathy all increase with age in the absence of diabetes, and their incidence and co-occurrence are all exaggerated by the presence of diabetes in older adults, as shown in Figure 99-2. Patients with diabetes are at very high risk for CVD, and this risk increases dramatically with age. In 2011, the percentage of US adults with diabetes reporting heart disease or stroke was 28% among those aged 35 to 64, 43% among those aged 65 to 74, and 55% among those aged 75 or older.</p>
 <p>Diabetic kidney disease (DKD) is the leading cause of chronic kidney disease (CKD) in the United States. Identification of DKD involves assessment of kidney function, usually with an estimated glomerular filtration rate (eGFR) less than 60 mL/min/1.73 m², and kidney damage, usually by estimation of albuminuria greater than 30 mg/g creatinine. Approximately 50% of individuals with diabetes older than age 65 have DKD, manifested as albuminuria, impaired GFR, or both (Figure 99-3). Figure 99-3 also shows that the <a id="p1563"></a><strong>[p. 1563]</strong> ⟨2026: Q49⟩ prevalence of combined albuminuria and impaired GFR is much higher in older people. This is especially important as combined albuminuria and impaired GFR is a strong predictor of future risk of CVD in this population. DKD accounts for nearly half of all incident cases of ESRD in the United States, and the rate is highest among those aged 75 or older. Five-year survival for patients with ESRD is less than 40%; therefore, prevention of DKD is important to improve health outcomes of older persons with diabetes.</p>
-<figure><img src="chapters/hazzard8e_ch99_figure99-3.png" alt="Figure 99-3"><figcaption>Figure 99-3</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-3.png" alt="Figure 99-3" loading="lazy" decoding="async" width="706" height="456"><figcaption>Figure 99-3</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-3. Prevalence of diabetic kidney disease in the United States, 2005–2008. GFR, glomerular filtration rate. (Data from de Boer IH, Rue TC, Hall YN, et al. Temporal trends in the prevalence of diabetic kidney disease in the United States. JAMA. 2011;305[24]:2532–2539.)</em></p></div>
 <p>Diabetic retinopathy may be the most common microvascular complication of diabetes. It is responsible for approximately 10,000 new cases of blindness every year in the United States alone. Retinopathy may begin to develop as early as 7 years before the diagnosis of diabetes in patients with type 2 diabetes.</p>
 <p>Diabetic neuropathy is usually defined by the presence of symptoms and/or signs of peripheral nerve dysfunction in people with diabetes after the exclusion of other causes. Diabetic neuropathy is highly correlated with the duration of diabetes, and it is estimated that approximately 50% of patients with diabetes will eventually develop neuropathy. Clinical and subclinical neuropathies have been estimated to occur in 10% to 100% of diabetic patients, depending on the diagnostic criteria and patient populations examined.</p>
@@ -3333,9 +3351,9 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <h3 id="insulin-resistance">Insulin Resistance</h3>
 <p>There is a decline in sensitivity to the metabolic effects of insulin with age. An age-related impairment of intracellular insulin signaling reduces insulin-mediated mobilization of glucose transporters, which are critical to glucose uptake and metabolism in insulin-dependent tissues such as muscle and fat. There is currently little evidence for an age-related impairment of insulin effects on protein or fat metabolism.</p>
 <p><a id="p1564"></a><strong>[p. 1564]</strong></p>
-<figure><img src="chapters/hazzard8e_ch99_figure99-4.png" alt="Figure 99-4"><figcaption>Figure 99-4</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-4.png" alt="Figure 99-4" loading="lazy" decoding="async" width="933" height="517"><figcaption>Figure 99-4</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-4. Model for age-related hyperglycemia. Biological changes associated with risk factors give rise to alterations in both insulin secretion and insulin sensitivity.</em></p></div>
-<figure><img src="chapters/hazzard8e_ch99_figure99-5.png" alt="Figure 99-5"><figcaption>Figure 99-5</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-5.png" alt="Figure 99-5" loading="lazy" decoding="async" width="706" height="761"><figcaption>Figure 99-5</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-5. Effect of age on insulin secretion rate (ISR) in humans with normal glucose tolerance (NGT) or impaired glucose tolerance (IGT) by American Diabetes Association criteria. Plasma glucose concentrations and ISR are shown over time during intravenous glucose infusions, comparing young with NGT (n = 15, mean age = 26), old with NGT (n = 16, mean age = 70), and old with IGT (n = 14, mean age = 70). Glucose levels during variable rate glucose infusion begun at time 0 were well matched in the three study groups, and degree of insulin resistance was also similar in the three study groups. ISR was significantly and progressively decreased in the two older groups, with the greatest impairment in old IGT (p = 0.0002, old IGT vs young and old IGT vs old NGT; and old NGT vs young NGT). Data are means ± SE. (Adapted with permission from Chang AM, Smith MJ, Galecki AT, et al. Impaired beta-cell function in human aging: response to nicotinic acid-induced insulin resistance. J Clin Endocrinol Metab. 2006;91[9]:3303–3309.)</em></p></div>
 <p>An absolute or relative increase of body adiposity, particularly central body adiposity, has been well-documented with advancing age and appears to account in large part for the age-related increase in insulin resistance. Decreased physical activity (PA) is associated with insulin resistance, and exercise training can improve insulin sensitivity. Thus, diminished PA in an older individual can also contribute to decreased insulin sensitivity. Both in animal studies and in humans, it has been difficult to demonstrate a residual effect of aging on insulin action when the changes in body composition and PA are controlled for.</p>
 <h3 id="impaired-insulin-secretion">Impaired Insulin Secretion</h3>
@@ -3352,7 +3370,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <h2 id="prevention">Prevention</h2>
 <p>Type 2 diabetes is a gradually progressive disorder of carbohydrate metabolism that develops over a long period of time. It has been estimated that abnormalities of glucose regulation can be detected 8 to 10 years before the clinical diagnosis of type 2 diabetes is made. Older adults have a high rate of prediabetes and other risks for progressing to type 2 diabetes in the next few years (eg, see Table 99-3).</p>
 <p>Effective means to delay progression to type 2 diabetes in high-risk people, such as those with prediabetes, have been identified. Intensive lifestyle interventions, which include weight loss and increased PA, can substantially reduce the rate of progression to type 2 diabetes in such high-risk people. Lifestyle intervention appears to be especially beneficial in prevention of progression to diabetes among older adults. For example, in the multicenter Diabetes Prevention Program (DPP) in the United States, a lifestyle intervention program including both caloric restriction and exercise was remarkably effective in reducing the rate of progression to type 2 diabetes, even though only 5% to 7% weight reduction was achieved. During the <a id="p1566"></a><strong>[p. 1566]</strong> 3 years of active treatment in DPP, the lifestyle intervention program was more effective in people older than age 60 than in younger people, reducing progression to diabetes by more than 70% as compared to a control group, as shown in Figure 99-6. Metformin was also used in the DPP and was effective in slowing progression in younger adults, but had somewhat less effect in people older than age 60.</p>
-<figure><img src="chapters/hazzard8e_ch99_figure99-6.png" alt="Figure 99-6"><figcaption>Figure 99-6</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-6.png" alt="Figure 99-6" loading="lazy" decoding="async" width="666" height="448"><figcaption>Figure 99-6</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-6. Diabetes incidence rates by age, Diabetes Prevention Program. (Reproduced with permission from Diabetes Prevention Program Research Group, Crandall J, Schade D, et al. The influence of age on the effects of lifestyle modification and metformin in prevention of diabetes. J Gerontol A Biol Sci Med Sci. 2006;61[10]:1075–1081.)</em></p></div>
 <p>The benefit of lifestyle intervention appears to be long term among older adults, as they had reduced frequency of developing type 2 diabetes during 15 years of follow-up after the original lifestyle intervention, associated with maintenance of over 5% weight loss by nearly half of lifestyle intervention participants. Overall, onset of diabetes was delayed by about 4 years by lifestyle intervention compared with placebo. Given the benefits observed in the DPP and other similar studies, both the ADA 2021 Standards of Medical Care in Diabetes and the 2019 Endocrine Society Guideline recommend a lifestyle program similar to the DPP to delay progression to diabetes in patients aged 65 years and older who have prediabetes. Since 2018, a DPPlike lifestyle intervention is a covered benefit for Medicare beneficiaries in the United States who meet the criteria for prediabetes.</p>
 <h2 id="presentation">Presentation</h2>
@@ -3436,7 +3454,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <p>It may be neither feasible nor appropriate to attempt to implement a complex diabetes management program for some patients. It is true that a limited remaining life expectancy shortens the time for long-term complications to develop and progress. However, given the increasing life expectancy of older adults, only the very oldest segment of the population or those with coexisting illness that markedly shortens remaining life expectancy should be excluded from consideration for an aggressive treatment program. For example, it would be hard to justify abandoning risk reduction goals in an otherwise healthy 75-year-old woman with a recent diagnosis of type 2 diabetes, as such a person’s remaining life expectancy may be 15 years or more. Given the potential complexity of treatment programs designed to minimize diabetes risks, the commitment on the part of an adequately informed patient is clearly critical. Availability of a supportive environment including a strong diabetes treatment team and adequate economic support for an intensive treatment program are also important. Such a treatment goal is also difficult to achieve without commitment of the health care team, which must believe that achievement of the treatment goal will really make a difference in the patient’s long-term health.</p>
 <p>Information about a diabetic patient’s cognitive status, socioeconomic and living situation can also help guide the care plan for an older adult. Limitations in cognition and economic support may affect the patient’s ability to adhere to the medical regimen. The health provider may need to simplify the diabetes regimen or loosen the glycemic and/or blood pressure targets to minimize risks for hypoglycemia and/or hypotension. The health provider may need to enlist the patient’s caregivers to be more involved in the patient’s care. The availability of caregivers in the home or nearby can compensate for some limitations in the patient’s self-care abilities and influence lifestyle factors that can affect diabetes management. For patients who have moderate or advanced cognitive impairment, support for basic home care will be needed either from family or more formal home care services or both, including the tasks of obtaining daily meals, administering medications and monitoring home glucose levels. Some patients may need to be transitioned from the home setting to assisted living facilities or long-term care facilities to receive necessary care. This decision will be influenced by their financial resources and the support of family members. The availability of a social worker or suitably trained nurse to assist in this aspect of the patient’s care program can be extremely helpful.</p>
 <p><a id="p1570"></a><strong>[p. 1570]</strong></p>
-<figure><img src="chapters/hazzard8e_ch99_figure99-7.png" alt="Figure 99-7"><figcaption>Figure 99-7</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-7.png" alt="Figure 99-7" loading="lazy" decoding="async" width="700" height="579"><figcaption>Figure 99-7</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-7. Health status by age group of people over age 50 in the United States who have diabetes, based on data from the Health and Retirement Study. Definitions of the three health status categories illustrated are as stated in Table 99-6. (Data from Blaum C, Cigolle CT, Boyd C, et al. Clinical complexity in middle-aged and older adults with diabetes: the Health and Retirement Study. Med Care. 2010;48[4]:327–334.)</em></p></div>
 <p>Several approaches have been proposed by diabetes specialists and geriatricians to better identify older adults who would benefit from more strict diabetes control versus less stringent management. Age alone is not a good marker, as age is a poor predictor of overall disease complexity and mortality risk. In Figure 99-7, a group of nationally representative older adults with diabetes were grouped by their comorbidities, physical function status, and cognitive status. While the oldest age group includes many people with very complex/poor health, over 50% of people older than 75 were relatively healthy by these criteria. Thus, a classification based on a patient’s comorbidities, physical function status, cognitive status, social support, history of hypoglycemia, etc can provide the basis for individualized goals to optimize the risk and benefit of diabetes treatments for a given patient. Table 99-6 provides such a framework to guide setting treatment goals for hyperglycemia in older adults with diabetes, published in the 2019 Endocrine Society Guideline (a similar framework is in the ADA 2021 Standards of Care). Based on the patient’s comorbidities, cognitive status, and physical function (as determined from the overall patient evaluation per Table 99-4), s/he may be categorized into one of the three groups. The Good Health group will likely benefit from more stringent glycemic management. The Intermediate Health group will likely have some difficulty in achieving stricter goals for glycemia. The Poor Health group of very complex patients will likely not benefit greatly from intensive treatment of hyperglycemia so a less aggressive goal is more appropriate.</p>
 <h3 id="diabetes-education-and-support">Diabetes Education and Support</h3>
@@ -3552,7 +3570,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 <h3 id="prevention-and-treatment-of-microvascular-complications">Prevention and Treatment of Microvascular Complications</h3>
 <p>Older adults are particularly overrepresented among those with microvascular complications due to diabetes. The risk of developing microvascular complications is thought to be proportional to the duration and magnitude of exposure to hyperglycemia and hypertension.</p>
 <p><strong>Diabetic kidney disease</strong> Due to the high prevalence of DKD in older people with diabetes (see Epidemiology section and Figure 99-3), both the 2021 ADA and 2019 Endocrine Society Guidelines recommend annual screening with an eGFR and urine albumin-to-creatinine ratio. Assessment of renal function is important both for prevention of progression from early nephropathy to ESRD and for adjusting drug dosages of glucose lowering and other agents used in overall diabetes management. Lowering blood glucose levels reduces the risk of developing albuminuria and other microvascular diabetes complications. There is no evidence that age of the patient limits this beneficial effect of glucose lowering. As ACE inhibitors and ARBs reduce the rate of progression from microalbuminuria to overt proteinuria and diabetic nephropathy, one of them should be added to a treatment program for any patient who has evidence of nephropathy. Also, rigorous blood pressure control is particularly important for such individuals. However, as discussed above, for older adults with diabetes and nephropathy, the optimal blood pressure target remains unclear. CVOTs of two SGLT-2 inhibitors (empagliflozin and canagliflozin) and two GLP-1 agonists (liraglutide and <a id="p1573"></a><strong>[p. 1573]</strong> semaglutide) found lower rates of nephropathy, as secondary outcomes; and one large canagliflozin trial focused primarily on nephropathy has reported positive outcomes. Thus, there is growing interest in use of these drugs both for treatment of hyperglycemia and for protection from progression of nephropathy.</p>
-<figure><img src="chapters/hazzard8e_ch99_figure99-8.png" alt="Figure 99-8"><figcaption>Figure 99-8</figcaption></figure>
+<figure><img data-src="chapters/hazzard8e_ch99_figure99-8.png" alt="Figure 99-8" loading="lazy" decoding="async" width="682" height="1046"><figcaption>Figure 99-8</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-8. Proliferative diabetic retinopathy (A). In addition to the signs seen in background and preproliferative diabetic retinopathy, neovascularization is seen here coming off the disk (shown schematically in B). (Reproduced with permission from Knoop K, Stack L, Storrow A, et al. The Atlas of Emergency Medicine, 3rd ed. New York, NY: McGraw Hill; 2010. Photo contributor: Richard E. Wyszynski, MD.)</em></p></div>
 <p><strong>Diabetic retinopathy (Figure 99-8)</strong> As close surveillance for the existence or progression of retinopathy in patients with diabetes is crucial, both the 2021 ADA and 2019 Endocrine Society guidelines recommend an annual comprehensive eye examination by an ophthalmologist. Retinopathy is generally classified as either nonproliferative or proliferative. Nonproliferative retinopathy is characterized by nerve fiber layer infarcts (cotton wool spots), hard exudates, intraretinal hemorrhages, and microvascular abnormalities (microaneurysms, dilated, or tortuous vessels). Proliferative retinopathy is characterized by the formation of new blood vessels on the surface of the retina and can lead to vitreous hemorrhage. If proliferation continues, blindness can occur through vitreous hemorrhage and traction retinal detachment. With no intervention, visual loss may occur including progression to blindness. Laser photocoagulation and intravitreal injections of the anti–vascular endothelial growth factor (anti-VEGF) ranibizumab appear to be equally effective in prevention of visual loss in diabetic retinopathy. Macular edema may occur at any stage of diabetic retinopathy, especially in older adults. It is characterized by retinal thickening and edema involving the macula. Retinal edema may require intervention because it is sometimes associated with rapid visual deterioration. Intravitreal anti-VEGF agents (bevacizumab, ranibizumab, and aflibercept) provide effective treatment for central-involved diabetic macular edema and have largely replaced laser photocoagulation. Despite clear evidence of efficacy of retinopathy screening by ophthalmologic examination and appropriate intervention, many older diabetic patients do not receive recommended annual screening for retinopathy.</p>
 <p>Diabetic neuropathy, present in 50% to 70% of older patients with diabetes, can lead to substantial morbidity, including foot ulcerations, infections, and potentially amputations. In addition, diabetic neuropathy increases the risk of postural instability, balance problems, and muscle atrophy, limiting PA and increasing the risk of falls. Therefore, neuropathy screening, vigilant foot care, and fall prevention are critically important for older diabetic patients. Patients with foot neuropathy should be referred to a podiatrist. Patients with neuropathy should be screened regularly for falls and if positive referred to physical therapy or a fall management program.</p>
@@ -31801,6 +31819,16 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 </script>
 <script src="js/marked.min.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const imageSizes={"hazzard8e_ch101_figure101-1.png":[767,871],"hazzard8e_ch101_figure101-2.png":[1259,956],"hazzard8e_ch101_figure101-3.png":[1555,757],"hazzard8e_ch101_figure101-4.png":[772,1401],"hazzard8e_ch101_table101-10_p1624.png":[1111,1236],"hazzard8e_ch101_table101-11_p1628.png":[1189,751],"hazzard8e_ch101_table101-1_p1608.png":[638,1128],"hazzard8e_ch101_table101-4_p1614.png":[1151,1152],"hazzard8e_ch101_table101-4_p1615.png":[1146,856],"hazzard8e_ch101_table101-5_p1616.png":[1146,1193],"hazzard8e_ch102_figure102-1.png":[1243,726],"hazzard8e_ch102_figure102-2.png":[748,554],"hazzard8e_ch102_figure102-3.png":[822,711],"hazzard8e_ch102_table102-3_p1632.png":[773,484],"hazzard8e_ch102_table102-7_p1636.png":[867,619],"hazzard8e_ch104_figure104-1.png":[1315,1154],"hazzard8e_ch104_figure104-2.png":[1336,751],"hazzard8e_ch104_figure104-3.png":[1459,1209],"hazzard8e_ch104_table104-1_p1672.png":[1300,1752],"hazzard8e_ch104_table104-1_p1673.png":[1295,1760],"hazzard8e_ch105_figure105-1.png":[1544,1009],"hazzard8e_ch105_figure105-2.png":[1545,1255],"hazzard8e_ch105_table105-10_p1688.png":[766,552],"hazzard8e_ch105_table105-11_p1689.png":[1298,1055],"hazzard8e_ch105_table105-12_p1695.png":[1796,2224],"hazzard8e_ch105_table105-1_p1681.png":[762,1632],"hazzard8e_ch105_table105-2_p1682.png":[786,1416],"hazzard8e_ch105_table105-3_p1683.png":[762,1320],"hazzard8e_ch105_table105-4_p1686.png":[769,651],"hazzard8e_ch105_table105-5_p1686.png":[780,504],"hazzard8e_ch105_table105-6_p1687.png":[739,565],"hazzard8e_ch105_table105-7_p1687.png":[738,835],"hazzard8e_ch105_table105-8_p1688.png":[1559,1089],"hazzard8e_ch105_table105-9_p1688.png":[792,939],"hazzard8e_ch108_table108-1_p1735.png":[786,432],"hazzard8e_ch42_figure42-1.png":[759,900],"hazzard8e_ch42_figure42-2.png":[1346,873],"hazzard8e_ch42_figure42-3.png":[1346,811],"hazzard8e_ch42_figure42-4.png":[1240,1098],"hazzard8e_ch42_figure42-5.png":[1119,742],"hazzard8e_ch42_table42-3_p621.png":[1800,1063],"hazzard8e_ch42_table42-3_p622.png":[1800,681],"hazzard8e_ch43_figure43-1.png":[1265,804],"hazzard8e_ch43_figure43-2.png":[768,794],"hazzard8e_ch43_figure43-3.png":[718,1945],"hazzard8e_ch43_figure43-4.png":[723,1195],"hazzard8e_ch43_table43-1_p635.png":[2068,2812],"hazzard8e_ch43_table43-3_p638.png":[2345,1130],"hazzard8e_ch44_figure44-1.png":[723,690],"hazzard8e_ch44_figure44-10.png":[1304,680],"hazzard8e_ch44_figure44-2.png":[1346,379],"hazzard8e_ch44_figure44-3.png":[1427,1084],"hazzard8e_ch44_figure44-4.png":[729,723],"hazzard8e_ch44_figure44-5.png":[1346,1120],"hazzard8e_ch44_figure44-6.png":[1567,1834],"hazzard8e_ch44_figure44-7.png":[1559,1218],"hazzard8e_ch44_figure44-8.png":[1850,1067],"hazzard8e_ch44_figure44-9.png":[1122,500],"hazzard8e_ch44_table44-1_p646.png":[1512,676],"hazzard8e_ch44_table44-4_p659.png":[1298,616],"hazzard8e_ch44_table44-5_p660.png":[2324,2252],"hazzard8e_ch45_figure45-1.png":[1240,1179],"hazzard8e_ch45_figure45-2.png":[701,1924],"hazzard8e_ch45_table45-1_p667.png":[1562,746],"hazzard8e_ch46_figure46-1a.png":[1132,1411],"hazzard8e_ch46_figure46-1b.png":[1176,1639],"hazzard8e_ch46_figure46-2.png":[1184,888],"hazzard8e_ch46_figure46-3.png":[1089,1325],"hazzard8e_ch46_figure46-4.png":[1227,1721],"hazzard8e_ch47_figure47-1.png":[1277,944],"hazzard8e_ch47_figure47-2.png":[1444,1884],"hazzard8e_ch47_figure47-3.png":[1247,1104],"hazzard8e_ch51_figure51-1.png":[1340,916],"hazzard8e_ch51_figure51-2.png":[1340,1116],"hazzard8e_ch51_figure51-3.png":[1383,1190],"hazzard8e_ch51_figure51-4.png":[1346,1073],"hazzard8e_ch51_figure51-5.png":[1405,982],"hazzard8e_ch51_figure51-6.png":[1340,945],"hazzard8e_ch51_figure51-7.png":[1546,1146],"hazzard8e_ch51_table51-1_p760.png":[762,337],"hazzard8e_ch51_table51-2_p764.png":[765,1122],"hazzard8e_ch51_table51-3_p769.png":[748,1138],"hazzard8e_ch51_table51-5_p774.png":[1385,1807],"hazzard8e_ch51_table51-5b_p775.png":[1557,1105],"hazzard8e_ch52_figure52-1.png":[767,1149],"hazzard8e_ch52_figure52-2.png":[767,1207],"hazzard8e_ch52_figure52-3.png":[765,1276],"hazzard8e_ch52_figure52-4.png":[1340,2104],"hazzard8e_ch52_figure52-5.png":[1557,1123],"hazzard8e_ch55_figure55-1.png":[1346,405],"hazzard8e_ch55_figure55-2.png":[1340,817],"hazzard8e_ch55_figure55-3.png":[1340,877],"hazzard8e_ch55_table55-4_p823.png":[1305,1453],"hazzard8e_ch55_table55-5_p828.png":[1572,1677],"hazzard8e_ch57_figure57-1.png":[750,976],"hazzard8e_ch57_figure57-2.png":[768,765],"hazzard8e_ch57_figure57-3.png":[1338,1237],"hazzard8e_ch57_table57-2_p857.png":[1796,1409],"hazzard8e_ch57_table57-2_p858.png":[1745,1427],"hazzard8e_ch57_table57-3_p863.png":[1800,1638],"hazzard8e_ch57_table57-3_p864.png":[1802,1263],"hazzard8e_ch57_table57-3_p865.png":[1789,1506],"hazzard8e_ch57_table57-3_p866.png":[1790,1418],"hazzard8e_ch58_figure58-1.png":[1390,1795],"hazzard8e_ch58_figure58-2.png":[1346,1647],"hazzard8e_ch59_figure59-1.png":[1265,1440],"hazzard8e_ch59_figure59-2.png":[1278,2440],"hazzard8e_ch59_figure59-3.png":[1505,1217],"hazzard8e_ch59_table59-4_p903.png":[1298,938],"hazzard8e_ch59_table59-7_p912.png":[1770,2165],"hazzard8e_ch59_table59-7_p913.png":[1720,742],"hazzard8e_ch59_table59-x_p914.png":[1942,1045],"hazzard8e_ch61_figure61-1.png":[700,1300],"hazzard8e_ch61_figure61-2.png":[1244,775],"hazzard8e_ch63_figure63-1.png":[1261,966],"hazzard8e_ch63_figure63-2.png":[1343,626],"hazzard8e_ch63_figure63-3.png":[767,635],"hazzard8e_ch63_table63-5_p993.png":[1306,874],"hazzard8e_ch65_figure65-1.png":[1396,643],"hazzard8e_ch65_figure65-2.png":[1200,1685],"hazzard8e_ch65_figure65-2a_p1010.png":[1331,1876],"hazzard8e_ch65_figure65-3.png":[1150,1625],"hazzard8e_ch65_figure65-4.png":[750,519],"hazzard8e_ch65_table65-1_p1017.png":[1273,2248],"hazzard8e_ch68_figure68-1.png":[1356,1106],"hazzard8e_ch68_table68-1_p1056.png":[641,516],"hazzard8e_ch68_table68-2_p1056.png":[641,687],"hazzard8e_ch68_table68-3_p1059.png":[1290,764],"hazzard8e_ch68_table68-4_p1059.png":[1302,588],"hazzard8e_ch68_table68-5_p1060.png":[642,458],"hazzard8e_ch68_table68-6_p1061.png":[1292,1155],"hazzard8e_ch68_table68-7_p1063.png":[1293,872],"hazzard8e_ch68_table68-8_p1063.png":[1307,884],"hazzard8e_ch68_table68-8_p1064.png":[1301,1153],"hazzard8e_ch75_figure75-1.png":[1346,653],"hazzard8e_ch75_table75-12_p1160.png":[1562,397],"hazzard8e_ch75_table75-15_p1161.png":[767,693],"hazzard8e_ch75_table75-3_p1153.png":[1562,658],"hazzard8e_ch75_table75-4_p1154.png":[763,923],"hazzard8e_ch75_table75-6_p1155.png":[752,795],"hazzard8e_ch76_figure76-1.png":[1346,801],"hazzard8e_ch76_figure76-2.png":[1346,969],"hazzard8e_ch76_figure76-3.png":[1346,595],"hazzard8e_ch76_figure76-4.png":[1481,1053],"hazzard8e_ch76_figure76-5.png":[768,643],"hazzard8e_ch76_figure76-6.png":[771,762],"hazzard8e_ch76_table76-10_p1178.png":[635,463],"hazzard8e_ch76_table76-11_p1185.png":[1199,1514],"hazzard8e_ch76_table76-11_p1186.png":[1195,930],"hazzard8e_ch76_table76-1_p1166.png":[640,895],"hazzard8e_ch76_table76-2_p1168.png":[1300,588],"hazzard8e_ch76_table76-3_p1171.png":[641,1145],"hazzard8e_ch76_table76-4_p1172.png":[645,1175],"hazzard8e_ch76_table76-6_p1174.png":[634,1713],"hazzard8e_ch76_table76-7_p1175.png":[630,845],"hazzard8e_ch76_table76-8_p1177.png":[641,1490],"hazzard8e_ch76_table76-9_p1178.png":[660,391],"hazzard8e_ch77_figure77-1a.png":[1508,495],"hazzard8e_ch77_figure77-1b.png":[1346,690],"hazzard8e_ch77_figure77-1c.png":[1346,649],"hazzard8e_ch77_figure77-1d.png":[1344,696],"hazzard8e_ch77_figure77-2a.png":[787,790],"hazzard8e_ch77_figure77-2b.png":[774,813],"hazzard8e_ch77_figure77-3a.png":[766,630],"hazzard8e_ch77_figure77-3b.png":[766,623],"hazzard8e_ch77_figure77-4a.png":[751,594],"hazzard8e_ch77_figure77-4b.png":[775,630],"hazzard8e_ch77_figure77-4c.png":[822,577],"hazzard8e_ch77_figure77-4d.png":[1352,751],"hazzard8e_ch77_figure77-4e.png":[772,597],"hazzard8e_ch77_figure77-4f.png":[757,426],"hazzard8e_ch77_figure77-5a.png":[752,816],"hazzard8e_ch77_figure77-5b.png":[775,816],"hazzard8e_ch77_table77-10_p1206.png":[742,1365],"hazzard8e_ch77_table77-1_p1194.png":[751,540],"hazzard8e_ch77_table77-2_p1194.png":[754,495],"hazzard8e_ch77_table77-3_p1197.png":[769,474],"hazzard8e_ch77_table77-4_p1199.png":[766,480],"hazzard8e_ch77_table77-5_p1199.png":[766,1150],"hazzard8e_ch77_table77-6_p1201.png":[766,550],"hazzard8e_ch77_table77-7_p1202.png":[742,1653],"hazzard8e_ch77_table77-8_p1203.png":[766,1353],"hazzard8e_ch77_table77-9_p1204.png":[1777,1662],"hazzard8e_ch77_table77-9_p1205.png":[1783,1540],"hazzard8e_ch81_figure81-1.png":[829,576],"hazzard8e_ch81_figure81-2.png":[1468,1230],"hazzard8e_ch81_table81-10_p1249.png":[1791,1137],"hazzard8e_ch81_table81-10_p1250.png":[1773,1069],"hazzard8e_ch81_table81-10_p1251.png":[1766,1252],"hazzard8e_ch81_table81-10_p1252.png":[1780,1225],"hazzard8e_ch81_table81-14_p1263.png":[2064,2270],"hazzard8e_ch81_table81-1_p1238.png":[1147,1360],"hazzard8e_ch81_table81-2_p1239.png":[714,1809],"hazzard8e_ch81_table81-3_p1242.png":[1302,732],"hazzard8e_ch81_table81-5_p1244.png":[1146,1041],"hazzard8e_ch81_table81-6_p1245.png":[1299,1005],"hazzard8e_ch81_table81-7_p1246.png":[1440,1884],"hazzard8e_ch83_figure83-1.png":[1405,1139],"hazzard8e_ch83_figure83-2.png":[1434,804],"hazzard8e_ch83_figure83-3.png":[1551,1187],"hazzard8e_ch83_figure83-4.png":[1338,630],"hazzard8e_ch83_figure83-5.png":[766,657],"hazzard8e_ch83_table83-1_p1281.png":[1298,1617],"hazzard8e_ch83_table83-1_p1282.png":[1156,607],"hazzard8e_ch83_table83-2_p1284.png":[639,1558],"hazzard8e_ch83_table83-3_p1288.png":[638,623],"hazzard8e_ch87_figure87-1.png":[765,992],"hazzard8e_ch87_figure87-2.png":[1554,999],"hazzard8e_ch87_figure87-3.png":[1340,1310],"hazzard8e_ch87_figure87-4.png":[989,1268],"hazzard8e_ch87_figure87-5.png":[830,1015],"hazzard8e_ch87_figure87-6.png":[1444,1432],"hazzard8e_ch87_table87-4_p1356.png":[767,842],"hazzard8e_ch87_table87-9_p1373.png":[1690,1408],"hazzard8e_ch87_table87-9_p1374.png":[1708,1453],"hazzard8e_ch88_figure88-1.png":[1389,711],"hazzard8e_ch88_figure88-2.png":[1431,951],"hazzard8e_ch88_figure88-3.png":[1581,1104],"hazzard8e_ch88_table88-1_p1387.png":[742,728],"hazzard8e_ch88_table88-2_p1389.png":[1454,1014],"hazzard8e_ch97_figure97-1.png":[1405,1297],"hazzard8e_ch97_figure97-2.png":[830,809],"hazzard8e_ch97_figure97-3.png":[766,1238],"hazzard8e_ch97_table97-5_p1534.png":[763,441],"hazzard8e_ch97_table97-9_p1538.png":[804,1326],"hazzard8e_ch98_figure98-1.png":[1414,956],"hazzard8e_ch98_figure98-2.png":[765,1172],"hazzard8e_ch98_figure98-3.png":[766,603],"hazzard8e_ch98_figure98-4.png":[1344,1458],"hazzard8e_ch98_figure98-5.png":[1485,855],"hazzard8e_ch98_table98-8_p1555.png":[759,482],"hazzard8e_ch99_figure99-1.png":[756,542],"hazzard8e_ch99_figure99-2.png":[1058,429],"hazzard8e_ch99_figure99-3.png":[706,456],"hazzard8e_ch99_figure99-4.png":[933,517],"hazzard8e_ch99_figure99-5.png":[706,761],"hazzard8e_ch99_figure99-6.png":[666,448],"hazzard8e_ch99_figure99-7.png":[700,579],"hazzard8e_ch99_figure99-8.png":[682,1046],"ima2026_album_picture1_Q7.png":[465,505],"ima2026_album_picture3_Q64.png":[798,961]};
+function prepareImages(root){
+  for(const image of root.querySelectorAll('img')){
+    const source=image.dataset.src||image.getAttribute('src')||'',dimensions=imageSizes[source.split('/').pop()];
+    image.loading='lazy';image.decoding='async';
+    if(dimensions){image.width=dimensions[0];image.height=dimensions[1]}
+    if(image.dataset.src){image.src=image.dataset.src;delete image.dataset.src}
+  }
+}
+
 // Activate one chapter before creating any mark units or reading chapter storage.
 const requestedChapter=new URLSearchParams(location.search).get('chapter');
 
@@ -31821,14 +31849,18 @@ function renderManifestChapterHtml(mdText){
     let unique=slug,i=2;while(usedIds.has(unique))unique=slug+'-'+(i++);usedIds.add(unique);
     return '<h'+level+' id="'+unique+'">'+inner+'</h'+level+'>';
   });
+  html=html.replace(/<img\b[^>]*>/g,tag=>{
+    const source=tag.match(/src="([^"]+)"/),dimensions=source&&imageSizes[source[1].split('/').pop()];
+    return tag.slice(0,-1)+' loading="lazy" decoding="async"'+(dimensions?' width="'+dimensions[0]+'" height="'+dimensions[1]+'"':'')+'>';
+  });
   return html;
 }
 let manifestChapters=[];
 try{const manifestRes=await fetch('manifest.json',{cache:'no-store'});if(manifestRes.ok)manifestChapters=(await manifestRes.json()).chapters||[];}catch{}
-let manifestArticle=null;
+let manifestArticle=null,newMockPaper=false;
 const MOCK_KEY='hazzard-mock-v1';
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function parseDrill(md){const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
+function parseDrill(md){md=md.replace(/\r\n?/g,'\n');const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
 async function buildMock(){
   const params=new URLSearchParams(location.search),want=Number(params.get('n'))||0;
   let state=null;try{state=JSON.parse(localStorage.getItem(MOCK_KEY)||'null')}catch{}
@@ -31836,6 +31868,7 @@ async function buildMock(){
   await Promise.all(studies.map(async c=>{try{const r=await fetch('chapters/'+c.file);if(!r.ok)return;parseDrill(await r.text()).forEach((x,i)=>bank.push({id:c.number+':'+(i+1),ch:c.number,...x}))}catch{}}));
   if(!bank.length)return null;
   if(want||!state?.ids?.length){
+    newMockPaper=true;
     const pool=[...bank];for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
     state={ids:pool.slice(0,Math.min(want||20,pool.length)).map(x=>x.id),grades:{},at:Date.now()};
     try{localStorage.setItem(MOCK_KEY,JSON.stringify(state))}catch{}
@@ -31889,12 +31922,18 @@ for(const entry of manifestChapters){
 }
 const copy=$('#copy'),panel=$('#panel'),fab=$('#readerTools'),pencil=$('#markToggle');
 const chapterTitle=copy.querySelector('h1').textContent;
+prepareImages(copy);
+const readerBar=document.createElement('nav');readerBar.id='readerBar';readerBar.setAttribute('aria-label','Reader controls');
+readerBar.append($('#jumpEnds'),fab,pencil);$('#readerViewport').append(readerBar);
+const contentsTargets=[];
 if(true){
   document.title='Stage A — '+chapterTitle;
   const list=$('[data-pane="contents"] .rows');list.replaceChildren();
-  for(const heading of copy.querySelectorAll('h1,h2')){
+  for(const heading of copy.querySelectorAll('h1,h2,h3')){
     const li=document.createElement('li'),button=document.createElement('button');
-    button.dataset.jump=heading.id||'copy';button.textContent=heading.textContent;li.append(button);list.append(li);
+    const target=heading.id||'reader-section-'+contentsTargets.length;contentsTargets.push({heading,target});
+    button.dataset.jump=target;button.textContent=heading.textContent;button.dir='auto';
+    if(heading.tagName==='H3')li.className='contents-subsection';li.append(button);list.append(li);
   }
   const li=document.createElement('li'),button=document.createElement('button');button.dataset.view='library';button.textContent='All chapters';li.append(button);list.append(li);
   $('.resume-card h2').textContent=chapterTitle;{const cid=String(copy.dataset.chapterId||''),lbl=cid==='law'?'Israeli law':cid==='laws'?'Israeli law — study':/^\d+s$/.test(cid)?'Chapter '+cid.slice(0,-1)+' — study':'Chapter '+cid;$('.resume-card .meta').textContent=lbl+' / '+chapterTitle;}
@@ -31953,12 +31992,15 @@ if(true){
   }
 })();
 function openChapter(chapter,opts={}){
+  if(closingHistory){queuedChapter={chapter,opts};return}
+  if(panel.open&&sheetKey&&history.state?.stageAReaderSheet===sheetKey){queuedChapter={chapter,opts};closePanel();return}
+  rememberPlace();
   const url=new URL(location.href);url.search='';url.searchParams.set('chapter',chapter);if(opts.n)url.searchParams.set('n',opts.n);url.hash=opts.hash?'#'+opts.hash:'';location.assign(url.href);
 }
 const readerScroll=$('#readerScroll');
-const sizes={small:11,medium:12,large:13};
+const sizes={small:14,medium:16,large:19};
 let marking=false,colour='yellow',size='small',savedY=0,anchor=null,gesture=null;
-let sheetKey=null,closingHistory=false,queuedOpen=null,outsideStarted=false;
+let sheetKey=null,closingHistory=false,queuedOpen=null,queuedView=null,queuedChapter=null,outsideStarted=false,currentView='reader';
 const unitMap=new Map();
 const retainedMarkIds=JSON.parse($('#markUnitRegistry').textContent)[copy.dataset.chapterId];
 const markIdQueues=new Map(Object.entries(retainedMarkIds?.entries||{}).map(([key,ids])=>[key,[...ids]]));
@@ -31996,6 +32038,8 @@ const loose=[],walker=document.createTreeWalker(copy,NodeFilter.SHOW_TEXT);let t
 while(textNode=walker.nextNode())if(textNode.textContent.trim()&&!textNode.parentElement.closest('[data-unit],[data-reader-metadata]'))loose.push(textNode);
 for(const n of loose){const u=newUnit(n.textContent,[],unitScope(n.parentElement)),s=document.createElement('span');s.dataset.unit=u.id;s.textContent=n.textContent;u.parts.push(s);n.replaceWith(s)}
 
+// New navigation targets are assigned after mark identities, preserving saved highlights.
+for(const {heading,target} of contentsTargets)if(!heading.id)heading.id=target;
 // Add book captions after mark identities are allocated, preserving saved highlights.
 // Object identity comes only from the full TABLE/FIGURE identifier in the registry.
 function evidencePageLabel(source){
@@ -32111,14 +32155,8 @@ function viewport(){
   measureReaderEnd();
   if(panel.open){refreshDiagnostic();if(panel.dataset.currentPane==='tools')fitSettings();const r=panel.getBoundingClientRect();panel.style.setProperty('--sheet-left',(left+(width-r.width)/2)+'px');panel.style.setProperty('--sheet-top',(top+height-r.height)+'px')}
 }
-// Only the document end clears the measured controls; the reading viewport stays full-height.
-function measureReaderEnd(){
-  if(fab.hidden||pencil.hidden||$('#readerViewport').hidden)return;
-  const root=document.documentElement,fs=parseFloat(getComputedStyle(root).getPropertyValue('--fs'))||1;
-  const top=Math.min(fab.getBoundingClientRect().top,pencil.getBoundingClientRect().top);
-  const clearance=Math.max(0,$('#readerViewport').getBoundingClientRect().bottom-top);
-  root.style.setProperty('--reader-end-clearance','calc('+(clearance/fs)+'px * var(--fs,1))');
-}
+// Controls occupy their own flex row, outside the scrolling reading area.
+function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
 function hidePanel(){if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');fab.setAttribute('aria-expanded','false');fab.hidden=pencil.hidden=$('#jumpEnds').hidden=$('#reader').hidden;measureReaderEnd();gesture=null;updateStorageNotice()}
 function closePanel(){
   hidePanel();if(closingHistory)return;
@@ -32134,7 +32172,14 @@ function openPanel(name,trigger){
   if(!panel.open){anchor=trigger||document.activeElement;const y=readerScroll.scrollTop;sheetKey='sheet-'+Date.now();try{history.pushState({...history.state,stageAReaderSheet:sheetKey},'')}catch{sheetKey=null}panel.show();scrollReadingTo(y)}
   anchor?.setAttribute('aria-expanded','true');fab.setAttribute('aria-expanded','true');fab.hidden=pencil.hidden=$('#jumpEnds').hidden=true;pane.scrollTop=0;updateStorageNotice();
 }
-window.addEventListener('popstate',()=>{hidePanel();sheetKey=null;closingHistory=false;if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger)}});
+window.addEventListener('popstate',()=>{
+  hidePanel();sheetKey=null;closingHistory=false;
+  if(queuedChapter){const next=queuedChapter;queuedChapter=null;openChapter(next.chapter,next.opts);return}
+  if(queuedView){const next=queuedView;queuedView=null;view(next.id,next.opts);return}
+  const target=history.state?.hazzardView||'reader';
+  if(target!==currentView){if(Number.isFinite(history.state?.hazzardReaderY))lastReaderY=history.state.hazzardReaderY;view(target,{fromHistory:true,remember:false})}
+  if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger)}
+});
 // A held claim opens its audit record without inserting anything into the reading flow.
 const provenanceRegistry=JSON.parse($('#verificationRegistry').textContent);
 const provenanceDialog=document.createElement('dialog');
@@ -32202,9 +32247,29 @@ document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.pre
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
 document.addEventListener('click',e=>{if(panel.open&&!panel.contains(e.target)&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
 let lastReaderY=0;
-function view(id){closeProvenance();closePanel();setMarking(false);if(!$('#reader').hidden&&id!=='reader')lastReaderY=readerScroll.scrollTop;for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;fab.hidden=pencil.hidden=$('#jumpEnds').hidden=id!=='reader';$('#readerViewport').hidden=id!=='reader';measureReaderEnd();scrollReadingTo(id==='reader'?lastReaderY:0);window.scrollTo(0,0)}
+function view(id,opts={}){
+  if(!['reader','desk','library'].includes(id))return;
+  if(closingHistory&&!opts.fromHistory){queuedView={id,opts};return}
+  const changed=id!==currentView,fromSheet=panel.open&&history.state?.stageAReaderSheet===sheetKey;
+  closeProvenance();if(changed&&panel.open)hidePanel();setMarking(false);
+  if(currentView==='reader'&&changed){if(opts.remember!==false)rememberPlace();lastReaderY=readerScroll.scrollTop}
+  if(!opts.fromHistory){
+    const previous={...history.state,hazzardView:currentView,hazzardReaderY:lastReaderY};
+    try{history.replaceState(previous,'')}catch{}
+    if(changed||opts.replace){
+      const next={...previous,hazzardView:id};delete next.stageAReaderSheet;delete next.hazzardZoom;
+      try{history[(fromSheet||opts.replace)?'replaceState':'pushState'](next,'')}catch{}
+      hidePanel();sheetKey=null;
+    }else closePanel();
+  }else hidePanel();
+  currentView=id;
+  for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
+  fab.hidden=pencil.hidden=$('#jumpEnds').hidden=id!=='reader';$('#readerViewport').hidden=id!=='reader';
+  if(id==='desk')refreshResume();
+  measureReaderEnd();if(changed)scrollReadingTo(id==='reader'?lastReaderY:0);window.scrollTo(0,0);
+}
 function applyDisplay(){
-  const px=sizes[size];document.documentElement.style.setProperty('--body',px+'px');document.documentElement.style.setProperty('--fs',px/11);document.body.style.fontSize=px+'px';
+  const px=sizes[size];document.documentElement.style.setProperty('--body',(px/16)+'rem');document.documentElement.style.setProperty('--fs',Math.min(1.2,px/14));document.body.style.fontSize='var(--body)';
   for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
   for(const b of $$('button[data-theme]'))b.setAttribute('aria-pressed',String(b.dataset.theme===document.documentElement.dataset.theme));
   syncMarkingUI();
@@ -32219,7 +32284,8 @@ try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p)
 applyDisplay();window.visualViewport?.addEventListener('resize',viewport);window.visualViewport?.addEventListener('scroll',viewport);window.addEventListener('resize',viewport);
 document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
-  if(b.dataset.grade!==undefined&&b.closest('.mock-q'))gradeMock(b);
+  if(b.dataset.grade!==undefined&&b.closest('.mock-q,.drill-q'))gradePractice(b);
+  else if(b.dataset.retry)retryPractice(b.dataset.retry);
   else if(b.dataset.mock)openChapter('mock',{n:b.dataset.mock});
   else if(b.dataset.chapter)openChapter(b.dataset.chapter,{hash:b.dataset.hash});
   else if(b.dataset.panel)openPanel(b.dataset.panel,b);
@@ -32344,12 +32410,12 @@ function renderNotebook(){
   const list=$('#notebookMarks');list.replaceChildren();
   const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks.values()].map(r=>({el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
-  for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.onclick=()=>{view('reader');revealReading(it.el,{block:'center'})};li.append(b);list.append(li)}
+  for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.dir='auto';b.onclick=()=>{view('reader');revealReading(it.el,{block:'center'})};li.append(b);list.append(li)}
   if(!list.children.length){const li=document.createElement('li');li.textContent='No highlights in this chapter yet.';list.append(li)}
   const places=$('#notebookPlaces');places.replaceChildren();
   for(const bm of readJSON(BOOKMARK_KEY,[])){
     const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
-    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');
+    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');go.querySelector('small').dir='auto';
     go.onclick=()=>{if(String(bm.chapter)===cid){view('reader');goToPlace(bm)}else openChapter(bm.chapter,{hash:'bm-'+bm.at})};
     del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{writeJSON(BOOKMARK_KEY,readJSON(BOOKMARK_KEY,[]).filter(x=>x.at!==bm.at));renderNotebook()};
     li.append(go,del);places.append(li);
@@ -32363,7 +32429,7 @@ function renderNotebook(){
   for(const g of groups){
     const box=document.createElement('details'),sum=document.createElement('summary'),ul=document.createElement('ul');box.className='nb-group';ul.className='rows';
     sum.textContent=chapterLabel(g.ch)+' ('+g.marks.length+')';box.append(sum,ul);
-    for(const m of g.marks){const li=document.createElement('li'),b=document.createElement('button');b.textContent=m.text;b.onclick=()=>openChapter(g.ch,{hash:'hl-'+m.id});li.append(b);ul.append(li)}
+    for(const m of g.marks){const li=document.createElement('li'),b=document.createElement('button');b.textContent=m.text;b.dir='auto';b.onclick=()=>openChapter(g.ch,{hash:'hl-'+m.id});li.append(b);ul.append(li)}
     other.append(box);
   }
   const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
@@ -32371,9 +32437,9 @@ function renderNotebook(){
   for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;li.append(label,excerpt);historyList.append(li)}
 }
 $('#chapterSearch').oninput=e=>{const q=e.target.value.toLowerCase();let found=0;for(const li of $$('#chapterRows li')){li.hidden=!li.textContent.toLowerCase().includes(q);if(!li.hidden)found++}$('#noChapters').hidden=found>0};
-$('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2,h3,li,td,th,details')){if(p.parentElement.closest('p,li,td,th'))continue;if(p.matches('details')&&p.querySelector('p,li,td'))continue;if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
+$('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2,h3,li,td,th,details')){if(p.parentElement.closest('p,li,td,th'))continue;if(p.matches('details')&&p.querySelector('p,li,td'))continue;if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.dir='auto';b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
-function revealReading(el,options){if(!el)return;for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
+function revealReading(el,options){if(!el)return;if(el.closest('.mock-q,.drill-q')?.hidden&&practiceState){practiceState.retryIds=null;practiceSave();practiceRender()}for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
 // ---------- storage helpers ----------
 function readJSON(k,d){try{const v=JSON.parse(localStorage.getItem(k)||'null');return v??d}catch{return d}}
 function writeJSON(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
@@ -32468,7 +32534,7 @@ const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1';
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
 function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:+(readerScroll.scrollTop/span).toFixed(4),at:Date.now()}}
 function goToPlace(p){if(!p)return;const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;all.last=p;writeJSON(PLACE_KEY,all)}
+function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;all.last=p;writeJSON(PLACE_KEY,all);refreshResume()}
 let placeTimer=null,userScrolled=false;
 readerScroll.addEventListener('scroll',()=>{clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,700)},{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
@@ -32477,20 +32543,145 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPla
 function savePlaceNow(){if($('#reader').hidden)return;const p=currentPlace();const list=readJSON(BOOKMARK_KEY,[]).filter(b=>!(b.chapter===p.chapter&&b.unit&&b.unit===p.unit));list.unshift(p);writeJSON(BOOKMARK_KEY,list.slice(0,60));closePanel();flash('Place saved — it is listed in Your notebook.',3000)}
 $('#savePlace').onclick=savePlaceNow;$('#bookmark').textContent='Save this place';$('#bookmark').onclick=savePlaceNow;
 // Desk resume card follows the last chapter actually read, across chapters.
-{const last=readJSON(PLACE_KEY,{}).last;if(last&&last.chapter){$('.resume-card h2').textContent=chapterLabel(last.chapter);$('.resume-card .meta').textContent=last.snippet?'“'+last.snippet.slice(0,80)+'…”':''}}
+function refreshResume(){
+  const last=readJSON(PLACE_KEY,{}).last;
+  $('.resume-card h2').textContent=chapterLabel(last?.chapter||cid);
+  $('.resume-card .meta').textContent=last?.snippet?'“'+last.snippet.slice(0,80)+'…”':'';
+  $('.resume-card .meta').dir='auto';
+}
+refreshResume();
 $('#resume').onclick=()=>{const last=readJSON(PLACE_KEY,{}).last;if(last&&String(last.chapter)!==cid)openChapter(last.chapter);else{view('reader');goToPlace(readJSON(PLACE_KEY,{}).chapters?.[cid])}};
 // ---------- practice ----------
 {const rows=$('#qbankRows');for(const c of manifestChapters.filter(c=>c.kind==='study')){const li=document.createElement('li'),b=document.createElement('button');b.dataset.chapter=c.number;const base=String(c.number).replace(/s$/,''),e=manifestChapters.find(x=>String(x.number)===base);b.innerHTML='<strong></strong><small></small>';b.querySelector('strong').textContent=base==='law'?'Israeli law':'Chapter '+base+(e?' — '+e.title:'');b.querySelector('small').textContent=c.description||'Summary + drill';li.append(b);rows.append(li)}}
 {const st=readJSON(MOCK_KEY,null);if(st?.ids?.length){$('#mockResume').hidden=false;$('#mockResume').textContent='Continue current paper ('+Object.keys(st.grades||{}).length+'/'+st.ids.length+' marked)'}}
-function mockScore(){const st=readJSON(MOCK_KEY,null),el=copy.querySelector('.mock-score');if(!st||!el)return;const g=Object.values(st.grades||{}),right=g.filter(v=>v===1).length;el.textContent='Marked '+g.length+' of '+st.ids.length+(g.length?' · '+right+' right ('+Math.round(100*right/g.length)+'%)':'')}
-function gradeMock(b){const q=b.closest('.mock-q'),st=readJSON(MOCK_KEY,null);if(!st)return;st.grades=st.grades||{};const v=Number(b.dataset.grade);if(st.grades[q.dataset.q]===v)delete st.grades[q.dataset.q];else st.grades[q.dataset.q]=v;writeJSON(MOCK_KEY,st);for(const x of q.querySelectorAll('[data-grade]'))x.setAttribute('aria-pressed',String(st.grades[q.dataset.q]===Number(x.dataset.grade)));mockScore()}
-if(cid==='mock'){const st=readJSON(MOCK_KEY,null);for(const q of copy.querySelectorAll('.mock-q'))for(const x of q.querySelectorAll('[data-grade]'))x.setAttribute('aria-pressed',String(st?.grades?.[q.dataset.q]===Number(x.dataset.grade)));mockScore()}
+// Self-grading uses the existing mock store; chapter-drill progress is new data.
+const DRILL_KEY='hazzard-drills-v1';
+let practiceState=null,practiceQuestions=[],practiceScore=null,practiceActions=null;
+function practiceSave(){
+  let saved;
+  if(cid==='mock')saved=writeJSON(MOCK_KEY,practiceState);
+  else{const store=readJSON(DRILL_KEY,{});store.chapters=store.chapters||{};store.chapters[cid]=practiceState;saved=writeJSON(DRILL_KEY,store)}
+  if(!saved)flash('Practice progress could not be saved. Keep this page open.',6000);
+}
+function practiceRender(){
+  if(!practiceState)return;
+  const grades=practiceQuestions.map(q=>practiceState.grades[q.dataset.q]).filter(v=>v===0||v===1),right=grades.filter(v=>v===1).length;
+  practiceScore.textContent='Marked '+grades.length+' of '+practiceQuestions.length+(grades.length?' · '+right+' right ('+Math.round(100*right/grades.length)+'%)':'');
+  const wrong=practiceQuestions.filter(q=>practiceState.grades[q.dataset.q]===0).length;
+  practiceActions.querySelector('[data-retry="missed"]').textContent='Retry missed ('+wrong+')';
+  practiceActions.querySelector('[data-retry="missed"]').disabled=!wrong;
+  practiceActions.querySelector('[data-retry="all"]').hidden=!practiceState.retryIds;
+  for(const q of practiceQuestions){
+    q.hidden=!!practiceState.retryIds&&!practiceState.retryIds.includes(q.dataset.q);
+    for(const b of q.querySelectorAll('[data-grade]'))b.setAttribute('aria-pressed',String(practiceState.grades[q.dataset.q]===Number(b.dataset.grade)));
+  }
+}
+function gradePractice(b){
+  if(!practiceState)return;
+  const id=b.closest('.mock-q,.drill-q').dataset.q,v=Number(b.dataset.grade);
+  if(practiceState.grades[id]===v)delete practiceState.grades[id];else practiceState.grades[id]=v;
+  practiceSave();practiceRender();
+}
+function retryPractice(mode){
+  if(!practiceState)return;
+  practiceState.retryIds=mode==='missed'?practiceQuestions.filter(q=>practiceState.grades[q.dataset.q]===0).map(q=>q.dataset.q):null;
+  if(mode==='missed'&&!practiceState.retryIds.length){practiceState.retryIds=null;return}
+  practiceSave();practiceRender();revealReading(practiceScore,{block:'start'});
+}
+function initializePractice(){
+  const isStudy=manifestChapters.some(c=>String(c.number)===cid&&c.kind==='study');
+  if(cid!=='mock'&&!isStudy)return;
+  practiceState=cid==='mock'?readJSON(MOCK_KEY,null):readJSON(DRILL_KEY,{}).chapters?.[cid]||{grades:{},revealed:[]};
+  if(!practiceState)return;
+  practiceState.grades=practiceState.grades||{};practiceState.revealed=Array.isArray(practiceState.revealed)?practiceState.revealed:[];
+  if(isStudy){
+    for(const answer of [...copy.querySelectorAll('details')]){
+      const question=answer.previousElementSibling,number=question?.textContent.trim().match(/^(\d+)\.\s/);
+      if(!number||question.tagName!=='P')continue;
+      const section=document.createElement('section');section.className='drill-q';section.dataset.q=cid+':'+number[1];section.dir='auto';
+      question.before(section);section.append(question,answer);
+      const grades=document.createElement('div');grades.className='mock-grade';grades.dataset.readerMetadata='grade';
+      grades.innerHTML='<button data-grade="1" aria-pressed="false">Got it</button><button data-grade="0" aria-pressed="false">Missed</button>';section.append(grades);
+    }
+  }
+  practiceQuestions=[...copy.querySelectorAll(isStudy?'.drill-q':'.mock-q')];
+  if(!practiceQuestions.length)return;
+  practiceScore=isStudy?document.createElement('p'):copy.querySelector('.mock-score');
+  if(isStudy){practiceScore.className='meta drill-score';practiceScore.dataset.readerMetadata='score';practiceQuestions[0].before(practiceScore)}
+  practiceActions=document.createElement('div');practiceActions.className='mock-actions';practiceActions.dataset.readerMetadata='practice-actions';
+  practiceActions.innerHTML='<button data-retry="missed">Retry missed</button><button data-retry="all" hidden>Show all questions</button>';
+  practiceScore.after(practiceActions);
+  for(const q of practiceQuestions){
+    const answer=q.querySelector('details');answer.open=practiceState.revealed.includes(q.dataset.q);
+    answer.addEventListener('toggle',()=>{
+      const seen=new Set(practiceState.revealed);if(answer.open)seen.add(q.dataset.q);else seen.delete(q.dataset.q);
+      practiceState.revealed=[...seen];practiceSave();
+    });
+  }
+  practiceRender();
+}
+initializePractice();
+function resyncPractice(){
+  if(!practiceState)return;
+  const saved=cid==='mock'?readJSON(MOCK_KEY,null):readJSON(DRILL_KEY,{}).chapters?.[cid];
+  if(!saved)return;
+  if(cid==='mock'&&JSON.stringify(saved.ids)!==JSON.stringify(practiceState.ids)){location.reload();return}
+  practiceState=saved;practiceState.grades=practiceState.grades||{};practiceState.revealed=practiceState.revealed||[];
+  for(const q of practiceQuestions)q.querySelector('details').open=practiceState.revealed.includes(q.dataset.q);
+  practiceRender();
+}
+addEventListener('pageshow',event=>{if(event.persisted)resyncPractice()});
+addEventListener('storage',event=>{if(event.key===(cid==='mock'?MOCK_KEY:DRILL_KEY))resyncPractice()});
+// The related study/read destination is available at the start, end and bottom bar.
+function chapterNavigation(){
+  const base=cid==='laws'?'law':cid.replace(/s$/,''),chapter=manifestChapters.find(c=>String(c.number)===base&&c.kind==='chapter');
+  if(!chapter)return;
+  const related=cid===base?(base==='law'?'laws':base+'s'):base;
+  const relatedExists=manifestChapters.some(c=>String(c.number)===related);
+  const chapters=manifestChapters.filter(c=>c.kind==='chapter').sort((a,b)=>Number(a.number||0)-Number(b.number||0)||String(a.number).localeCompare(String(b.number)));
+  const numbered=chapters.filter(c=>/^\d+$/.test(String(c.number))).sort((a,b)=>Number(a.number)-Number(b.number));
+  const ordered=[...numbered,...chapters.filter(c=>!/^\d+$/.test(String(c.number)))],index=ordered.findIndex(c=>String(c.number)===base);
+  const destinations=[];
+  if(relatedExists)destinations.push({number:related,label:cid===base?'Study this chapter':'Read the chapter'});
+  if(index>0)destinations.push({number:ordered[index-1].number,label:'Previous chapter — '+ordered[index-1].number});
+  if(index>=0&&index<ordered.length-1)destinations.push({number:ordered[index+1].number,label:'Next chapter — '+ordered[index+1].number});
+  function button(destination){const b=document.createElement('button');b.dataset.chapter=destination.number;b.textContent=destination.label;return b}
+  const tools=document.createElement('nav');tools.className='chapter-nav';tools.setAttribute('aria-label','Chapter navigation');
+  for(const d of destinations)tools.append(button(d));$('#readerLinks').after(tools);
+  const end=tools.cloneNode(true);end.classList.add('endcap');copy.after(end);
+  if(relatedExists){
+    const d=destinations[0],top=button(d);top.className='quiet';$('#reader .opening-actions').append(top);
+    const quick=button(d);quick.id='relatedChapter';quick.textContent=cid===base?'Study':'Read';quick.setAttribute('aria-label',d.label);readerBar.insertBefore(quick,fab);
+  }
+}
+chapterNavigation();
 // ---------- study timer ----------
-const phases=[['Read',25],['Recall',5],['Rest',5]];let tState={phase:0,left:1500,running:false,end:0},tTick=null;
+const phases=[['Read',25],['Recall',5],['Rest',5]],TIMER_KEY='hazzard-timer-v1';
+let tState=readJSON(TIMER_KEY,{phase:0,left:1500,running:false,end:0}),tTick=null;
+if(!Number.isInteger(tState?.phase)||tState.phase<0||tState.phase>=phases.length||!Number.isFinite(tState.left)||tState.left<0||typeof tState.running!=='boolean'||!Number.isFinite(tState.end))tState={phase:0,left:1500,running:false,end:0};
+function saveTimer(){if(!writeJSON(TIMER_KEY,tState))flash('Timer changes could not be saved. Keep this page open.',6000)}
 function tRender(){const s=Math.max(0,Math.round(tState.left));$('#timerClock').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');$('#timerPhase').textContent=phases[tState.phase][0]+' — step '+(tState.phase+1)+' of 3';$('#timerStart').textContent=tState.running?'Pause':tState.left<phases[tState.phase][1]*60?'Resume':'Start'}
-function tStep(){tState.left=(tState.end-Date.now())/1000;if(tState.left<=0){try{navigator.vibrate?.([300,150,300])}catch{}const done=phases[tState.phase][0];tState.phase=(tState.phase+1)%3;tState.left=phases[tState.phase][1]*60;tState.end=Date.now()+tState.left*1000;flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}tRender()}
-$('#timerStart').onclick=()=>{if(tState.running){tState.left=(tState.end-Date.now())/1000;tState.running=false;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}tRender()};
-$('#timerReset').onclick=()=>{clearInterval(tTick);tState={phase:0,left:1500,running:false,end:0};tRender()};
+function tStep(){
+  const now=Date.now();let changed=false,done='';
+  // Keep the original deadline when catching up after a closed or sleeping tab.
+  if(now-tState.end>2100000){tState.end+=Math.floor((now-tState.end)/2100000)*2100000;changed=true}
+  while(tState.end<=now){done=phases[tState.phase][0];tState.phase=(tState.phase+1)%3;tState.end+=phases[tState.phase][1]*60000;changed=true}
+  tState.left=Math.max(0,(tState.end-now)/1000);
+  if(changed){saveTimer();if(done){try{navigator.vibrate?.([300,150,300])}catch{}flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}}
+  tRender();
+}
+$('#timerStart').onclick=()=>{if(tState.running){tStep();tState.running=false;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}saveTimer();tRender()};
+$('#timerReset').onclick=()=>{clearInterval(tTick);tState={phase:0,left:1500,running:false,end:0};saveTimer();tRender()};
+if(tState.running){tStep();tTick=setInterval(tStep,1000)}
+function resyncTimer(){
+  const saved=readJSON(TIMER_KEY,null);
+  if(!saved||!Number.isInteger(saved.phase)||saved.phase<0||saved.phase>=phases.length||!Number.isFinite(saved.left)||saved.left<0||typeof saved.running!=='boolean'||!Number.isFinite(saved.end))return;
+  clearInterval(tTick);tState=saved;
+  if(tState.running){tStep();tTick=setInterval(tStep,1000)}else tRender();
+}
+addEventListener('pageshow',event=>{if(event.persisted)resyncTimer()});
+addEventListener('storage',event=>{if(event.key===TIMER_KEY)resyncTimer()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)resyncTimer()});
 tRender();
 restoreHighlights();
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
@@ -32498,12 +32689,24 @@ restoreHighlights();
   if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
   else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}
   else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>t.scrollIntoView(),60);done=true}}
-  if(!done&&!requestedChapter&&readJSON(PLACE_KEY,{}).last)view('desk');
+  if(!done&&!requestedChapter&&readJSON(PLACE_KEY,{}).last)view('desk',{replace:true,remember:false});
+  else if(!done&&newMockPaper){scrollReadingTo(0);rememberPlace()}
   else if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0.005){goToPlace(p);flash('Back where you left off.',2500);addEventListener('load',()=>{if(!userScrolled)goToPlace(p)})}}
 }
+if(!history.state?.hazzardView){try{history.replaceState({...history.state,hazzardView:currentView,hazzardReaderY:readerScroll.scrollTop},'')}catch{}}
+else if(!newMockPaper&&history.state.hazzardView!==currentView)view(history.state.hazzardView,{fromHistory:true,remember:false});
 })();</script>
 
-
-
-<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js'));}</script>
+<script>
+if('serviceWorker' in navigator){
+  const version='v31',label=document.getElementById('offlineReady');
+  const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
+  navigator.serviceWorker.addEventListener('message',event=>{
+    if(event.data?.type==='HAZZARD_OFFLINE_STATUS'&&event.data.version===version&&event.data.complete===true){label.textContent='Offline ready';label.hidden=false}
+  });
+  navigator.serviceWorker.addEventListener('controllerchange',requestStatus);
+  navigator.serviceWorker.ready.then(requestStatus).catch(()=>{});
+  window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').then(requestStatus).catch(()=>{}));
+}
+</script>
 </body></html>

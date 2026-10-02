@@ -1,52 +1,67 @@
-const CACHE_VERSION = 'v30';
+const CACHE_VERSION = 'v31';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const RUNTIME_CACHE = 'hazzard-runtime-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
 const SHELL_FILES = ['./', SHELL_URL, './js/marked.min.js', './manifest.json'];
+const READY_URL = './.offline-ready';
+
+async function precache(url, cache) {
+  let failure;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const response = await fetch(url, { cache: url.endsWith('manifest.json') ? 'no-store' : 'default' });
+      if (!response.ok) throw new Error('Precache HTTP ' + response.status + ': ' + url);
+      await cache.put(url, response.clone());
+      return response;
+    } catch (error) { failure = error; }
+  }
+  throw failure || new Error('Precache failed: ' + url);
+}
 
 // Every chapter's content lives inside index.html (baked <template> blocks) or,
 // for chapters without one yet, is fetched from manifest.json + chapters/*.md.
 // Precache both so a chapter works offline even if it was never opened.
-async function collectManifestAssets() {
+async function collectManifestAssets(cache) {
   const urls = new Set();
-  try {
-    const manifestRes = await fetch('./manifest.json', { cache: 'no-store' });
-    if (!manifestRes.ok) return urls;
-    const manifest = await manifestRes.json();
-    for (const entry of manifest.chapters || []) {
-      if (!entry.file) continue;
-      const mdUrl = './chapters/' + entry.file;
-      urls.add(mdUrl);
-      try {
-        const mdRes = await fetch(mdUrl);
-        if (!mdRes.ok) continue;
-        const mdText = await mdRes.text();
-        const imgRe = /!\[[^\]]*\]\(([^)\s]+\.(?:png|jpe?g|gif|svg))\)/gi;
-        let match;
-        while ((match = imgRe.exec(mdText))) {
-          const file = match[1].split('/').pop();
-          urls.add('./chapters/' + file);
-        }
-      } catch {}
+  const manifestRes = await cache.match('./manifest.json');
+  if (!manifestRes) throw new Error('Precache manifest missing');
+  const manifest = await manifestRes.json();
+  if (!Array.isArray(manifest.chapters) || !manifest.chapters.length) throw new Error('Precache manifest has no chapters');
+  for (const entry of manifest.chapters) {
+    if (!entry.file) throw new Error('Precache chapter has no file');
+    const mdUrl = './chapters/' + entry.file;
+    urls.add(mdUrl);
+    // Discovery must also succeed: otherwise missing Markdown hides its figures.
+    const mdRes = await precache(mdUrl, cache);
+    const mdText = await mdRes.text();
+    const imgRe = /!\[[^\]]*\]\(([^)\s]+\.(?:png|jpe?g|gif|svg))\)/gi;
+    let match;
+    while ((match = imgRe.exec(mdText))) {
+      const file = match[1].split('/').pop();
+      urls.add('./chapters/' + file);
     }
-  } catch {}
+  }
   return urls;
 }
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(SHELL_CACHE);
-    await cache.addAll(SHELL_FILES);
-    const manifestUrls = await collectManifestAssets();
-    await Promise.all([...manifestUrls].map(async url => {
-      for (let attempt = 0; attempt < 2; attempt++) {
-        try {
-          const res = await fetch(url);
-          if (res && res.ok) { await cache.put(url, res); break; }
-        } catch {}
-      }
-    }));
+    await cache.delete(READY_URL);
+    await Promise.all(SHELL_FILES.map(url => precache(url, cache)));
+    const manifestUrls = await collectManifestAssets(cache);
+    // Markdown was cached during discovery. Every remaining asset must succeed.
+    await Promise.all([...manifestUrls].filter(url => !url.endsWith('.md')).map(url => precache(url, cache)));
+    await cache.put(READY_URL, new Response(JSON.stringify({ version: CACHE_VERSION, complete: true }), { headers: { 'Content-Type': 'application/json' } }));
     await self.skipWaiting();
+  })());
+});
+
+self.addEventListener('message', event => {
+  if (event.data?.type !== 'HAZZARD_OFFLINE_STATUS') return;
+  event.waitUntil((async () => {
+    const ready = await (await caches.open(SHELL_CACHE)).match(READY_URL);
+    event.source?.postMessage({ type: 'HAZZARD_OFFLINE_STATUS', version: CACHE_VERSION, complete: !!ready });
   })());
 });
 
