@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "d651efe12383bdb44c63d339c6e4771d7fa7c2fd8459fc8dbbbd9e9493a375d6",
-      "bytes": 3225563
+      "sha256": "8fedb360c283b8f634844bdce919ae038cb93978952a3d17009f78eb6b9198ca",
+      "bytes": 3226109
     },
     {
       "url": "./js/marked.min.js",

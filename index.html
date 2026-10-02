@@ -32661,7 +32661,7 @@ $('#toTop').onclick=()=>{closePanel();readerScroll.scrollTo({top:0})};
 $('#toBottom').onclick=()=>{closePanel();readerScroll.scrollTo({top:readerScroll.scrollHeight})};
 // ---------- reading place: saved automatically, plus explicit saved places ----------
 const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1';
-let pillTimer;
+let pillTimer,readingPeak={ratio:0,read:false};
 function showJumpPills(){
   const pills=$('#jumpEnds'),max=readerScroll.scrollHeight-readerScroll.clientHeight,y=readerScroll.scrollTop;
   $('#toTop').hidden=y<=2;$('#toBottom').hidden=max-y<=2;
@@ -32671,7 +32671,7 @@ function showJumpPills(){
 function rememberFurthest(place){
   if(place.chapter==='mock')return;
   const data=readJSON(READING_KEY,{chapters:{}}),old=data.chapters?.[place.chapter]||{ratio:0,read:false};
-  const ratio=Math.min(1,Math.max(old.ratio,place.ratio)),read=old.read||readerScroll.scrollHeight-readerScroll.clientHeight-readerScroll.scrollTop<=2;
+  const ratio=Math.min(1,Math.max(old.ratio,place.ratio,readingPeak.ratio)),read=old.read||readingPeak.read||readerScroll.scrollHeight-readerScroll.clientHeight-readerScroll.scrollTop<=2;
   if(ratio===old.ratio&&read===old.read)return;
   data.chapters={...data.chapters,[place.chapter]:{ratio,read}};
   if(!writeJSON(READING_KEY,data))flash('Reading progress could not be saved.',6000);
@@ -32707,6 +32707,7 @@ readerScroll.addEventListener('scroll',()=>{
     else if(direction<0&&headerTravel>=30){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   }
   headerScrollY=y;showJumpPills();
+  if(currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
   clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,700);
 },{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
@@ -32840,6 +32841,8 @@ function initializePractice(){
 }
 initializePractice();
 refreshLibraryMarks();refreshMissedCount();
+addEventListener('pageshow',event=>{if(event.persisted){refreshLibraryMarks();refreshMissedCount()}});
+addEventListener('storage',event=>{if([READING_KEY,DRILL_KEY,MOCK_KEY,MISSED_KEY].includes(event.key)){refreshLibraryMarks();refreshMissedCount()}});
 function resyncPractice(){
   if(!practiceState)return;
   const saved=cid==='mock'?readJSON(MOCK_KEY,null):readJSON(DRILL_KEY,{}).chapters?.[cid];
