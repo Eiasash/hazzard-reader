@@ -3,7 +3,10 @@
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
 ## State (02 Oct 2026)
-- Live at cache **v31** (02 Oct phone UX fixes, see Reader features). 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+- Live at cache **v34** (02 Oct phone navigation redesign, see below). 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+- **v32:** isolated Hazzard caches and made save-failure messages explicit.
+- **v33:** tapping the current chapter in the library returns to reading without reloading.
+- **v34:** permanent Chapters / Notebook / Practice / Text tabs, paired library rows, a simpler desk, labelled chapter controls and equal Previous / Next buttons; the header hides on downward reading scroll and returns on any upward scroll or at the top.
 - Outside audits done 25 Sep: Codex sweep 1 (10 fixed), Codex wide 6-shard sweep (79 findings, 77 fixed, 2 rejected), Gemini (0, unreliable). Every finding is in the Reviewer Scorecard artifact (claude.ai/artifact/UHxA3ikkukJEZ5ZCgPgnRy). Briefs: `tools/*_BRIEF.md`.
 - Pending: Eias's own airplane-mode offline test on the phone.
 
