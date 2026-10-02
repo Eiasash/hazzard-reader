@@ -375,6 +375,8 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .launch-tiles .tile-arrow{display:none}
 #homeProgress{display:block;width:100%;padding:4px 0;margin-top:4px;white-space:nowrap;font-size:10px;text-align:center;min-height:44px}
 #homeStatus{font:11px/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
+#homeBackup{font:11px/1.4 var(--ui);margin:4px 0 0;color:var(--muted)}
+#homeBackup.due{color:var(--exam);font-weight:600}
 #panel,#panel[data-current-pane]{max-block-size:calc(var(--vv-height) * .5);padding:8px 12px}
 #panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{font-size:18px}
 #panel .dialog-head{margin-bottom:4px}
@@ -812,7 +814,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
     <button data-panel="practice"><span><strong>Practice</strong><small>Question bank and mock papers</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
     <button data-panel="notebook"><span><strong>Notebook</strong><small>Your highlights and saved places</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
     <button data-panel="session"><span><strong>Study timer</strong><small>Read, recall and rest</small></span></button>
-  </nav><p id="homeStatus" role="status"></p>
+  </nav><p id="homeStatus" role="status"></p><p id="homeBackup" role="status"></p>
 </div>
 <div id="library" class="page" hidden="">
 
@@ -32981,6 +32983,17 @@ function refreshResume(){
 function refreshHomeStatus(){const offline=$('#offlineReady');$('#homeStatus').textContent=(offline.hidden?'Offline: preparing':offline.textContent)+' · '+$('#storageProtection').textContent.replace(/^Storage:\s*/,'')}
 new MutationObserver(refreshHomeStatus).observe($('#storageProtection'),{childList:true,subtree:true,characterData:true});
 new MutationObserver(refreshHomeStatus).observe($('#offlineReady'),{attributes:true,childList:true,subtree:true});
+// Backup reminder: the notebook lives in this browser only, so the downloaded JSON is the real safety copy.
+const LAST_BACKUP_KEY='hazzard-last-backup-v1';
+function refreshBackupStatus(){
+  const el=$('#homeBackup');if(!el)return;
+  let at=0;try{at=Number(localStorage.getItem(LAST_BACKUP_KEY))||0}catch{}
+  const days=at?Math.floor((Date.now()-at)/86400000):null;
+  el.textContent=at?'Last backup: '+(days<=0?'today':days===1?'yesterday':days+' days ago'):'Last backup: never — Notebook → Back up notebook';
+  el.classList.toggle('due',!at||days>=7);
+}
+refreshBackupStatus();addEventListener('pageshow',refreshBackupStatus);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshBackupStatus()});
 refreshResume();
 $('#resume').onclick=readingTab;
 function collectMissed(){
@@ -33250,6 +33263,8 @@ $('#backupNotebook').onclick=()=>{
     const url=URL.createObjectURL(new Blob([JSON.stringify(file,null,2)],{type:'application/json'})),link=document.createElement('a');
     link.href=url;link.download='hazzard-notebook-'+new Date().toISOString().slice(0,10)+'.json';panel.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
     notebookStatus('Backup download started. Keep the JSON file somewhere safe.');
+    try{localStorage.setItem(LAST_BACKUP_KEY,String(Date.now()))}catch{}
+    refreshBackupStatus();
   }catch(error){notebookStatus(error.message||'The notebook could not be backed up. Please try again.')}
 };
 $('#restoreNotebook').onclick=()=>$('#notebookBackupFile').click();
@@ -33303,7 +33318,7 @@ else if(!newMockPaper)renderScreen(history.state);
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v39',label=document.getElementById('offlineReady');
+  const version='v40',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;

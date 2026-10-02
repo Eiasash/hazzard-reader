@@ -1,5 +1,5 @@
 {
-  "version": "v39",
+  "version": "v40",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "601c3800ee526f3eeb1c88dec33bb26e60bbaf3f35b6ae0c39fa4dd8e627c670",
-      "bytes": 3249154
+      "sha256": "6198e23c033a70bc25c585070932332291433c5106f13bacc304c964ec8b8d19",
+      "bytes": 3250139
     },
     {
       "url": "./js/marked.min.js",
