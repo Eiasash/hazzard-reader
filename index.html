@@ -32073,6 +32073,7 @@ function smoothPageMarkers(copy){
 }
 smoothPageMarkers(copy);
 function openChapter(chapter,opts={}){
+  if(String(chapter)===cid&&opts.hash?.startsWith('search-')){view('reader');revealSearch(decodeURIComponent(opts.hash.slice(7)));return}
   if(String(chapter)===cid&&!opts.hash&&!opts.n){view('reader');return}
   if(closingHistory){queuedChapter={chapter,opts};return}
   if(panel.open&&sheetKey&&history.state?.stageAReaderSheet===sheetKey){queuedChapter={chapter,opts};closePanel();return}
