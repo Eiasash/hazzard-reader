@@ -229,7 +229,7 @@ An important biomarker of aging and frailty is the age-related degeneration of t
 
 Age-related changes occur also at the level of the peripheral nervous system, especially after the age of 60, with a progressive degeneration in structure and function from the spinal cord motor neuron to the neuromuscular junction. The number of motor neurons declines with aging, likely contributing to the age-related loss of muscle strength and quality. Age-related motor unit remodeling
 
-leads to changes in fiber-type composition because denervation occurs preferentially in the fast muscle fibers with reinnervation occurring by axonal sprouting from slow fibers. As a consequence, motor units decrease in number and become progressively larger but less functional with aging, leading to reductions in fine motor control. Furthermore, the efficiency of segmental demyelinationremyelination processes declines with aging, resulting in slower nerve conduction and consequent decreased sensation as well as slower reflexes.
+leads to changes in fiber-type composition because denervation occurs preferentially in the fast muscle fibers with reinnervation occurring by axonal sprouting from slow fibers. As a consequence, motor units decrease in number and become progressively larger but less functional with aging, leading to reductions in fine motor control. Furthermore, the efficiency of segmental demyelination-remyelination processes declines with aging, resulting in slower nerve conduction and consequent decreased sensation as well as slower reflexes.
 
 ### The Epidemiology Of Frailty
 

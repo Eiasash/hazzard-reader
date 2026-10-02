@@ -251,8 +251,23 @@ body{padding-block-end:var(--tabs-height)}
 #chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 9px/1.3 var(--ui);color:var(--muted)}
 #markToggle .pencil-icon{font-size:21px;line-height:22px}
 #chapterHeader #markToggle.is-marking{background:var(--current-mark);box-shadow:inset 0 0 0 1px var(--accent);color:var(--hl-ink)}
-#readerLinks #jumpEnds{position:static;inset:auto;display:contents}
-#readerLinks .jump-ends button{inline-size:auto;block-size:auto;min-height:48px;padding:0 8px;border-radius:6px;opacity:1;color:var(--accent);background:transparent}
+/* Physical right edge deliberately remains right in Hebrew. */
+#jumpEnds{inset:auto;right:max(4px,env(safe-area-inset-right));bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 4px);gap:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 200ms,visibility 200ms;direction:ltr}
+#jumpEnds.is-visible{opacity:1;visibility:visible;pointer-events:auto}
+#jumpEnds button{width:44px;height:44px;min-height:44px;min-width:44px;padding:4px;border:0;background:transparent;opacity:1;color:var(--accent)}
+#jumpEnds button span{display:grid;place-items:center;width:36px;height:36px;border-radius:18px;border:1px solid var(--rule);background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px);font:22px/1 var(--ui)}
+#appTabs{background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px)}
+.library-progress{display:block;color:var(--muted);font:400 11px/1.5 var(--ui);margin-top:4px}
+#chapterResults button{display:block;width:100%;text-align:start;padding:12px 4px}
+#chapterResults strong,#chapterResults small{display:block}
+#chapterResults small{font:400 13px/1.5 var(--ui);margin-top:5px}
+#chapterResults mark{background:var(--hl-yellow);color:var(--hl-ink)}
+.search-hit{outline:2px solid var(--accent);outline-offset:3px}
+#panel[data-current-pane="missed"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
+.missed-question{padding:12px 0;border-bottom:1px solid var(--rule)}
+.missed-question p{font-size:14px}
+.missed-question details{margin-bottom:8px}
+@media(prefers-reduced-motion:reduce){#jumpEnds{transition:none}}
 .notebook-backup{margin-top:24px;padding-top:16px;border-top:1px solid var(--rule)}
 .notebook-backup button{width:100%;margin-bottom:8px;text-align:center}
 #backupStatus{margin:8px 0 0}
@@ -685,8 +700,8 @@ body{padding-block-end:var(--tabs-height)}
 <div id="library" class="page" hidden="">
   <div class="opening-actions"><button class="quiet" data-view="desk">Study desk</button><button class="quiet" data-view="reader">Return to reading</button></div>
   <p class="eyebrow">YOUR LIBRARY</p><h1>Chapters</h1>
-  <div class="library-search"><label for="chapterSearch">Find a chapter</label><input id="chapterSearch" type="search" placeholder="Title or chapter number" autocomplete="off"></div>
-  <ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
+  <div class="library-search"><label for="chapterSearch">Search chapters and study pages</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"></div>
+  <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
 </div>
 </main><div id="jumpEnds" class="jump-ends"><button id="toTop" aria-label="Go to top of chapter" title="Top"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14M12 20V9m-6 6 6-6 6 6"/></svg></button><button id="toBottom" aria-label="Go to end of chapter" title="End"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19h14M12 4v11m-6-6 6 6 6-6"/></svg></button></div><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
 <button id="markToggle" class="reader-tools" aria-label="Toggle marking" aria-pressed="false" title="Turn marking on"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></button>
@@ -706,9 +721,10 @@ body{padding-block-end:var(--tabs-height)}
   </div>
 
 <div class="settings-links" id="readerLinks"><button class="quiet" data-panel="contents">Contents</button><button class="quiet" data-panel="find">Find</button><button class="quiet" id="savePlace">Save place</button><button class="quiet" data-panel="session">Study timer</button></div>
+<p id="storageProtection" class="meta" role="status">Storage: checking…</p>
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
-</section><section data-pane="contents" data-title="In this chapter" hidden=""><button class="quiet" id="bookmark">Save this place</button><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="find" data-title="Find in this chapter" hidden=""><label for="findText">Search text</label><input type="search" id="findText" placeholder="A word or phrase"><ul id="findResults" class="rows"></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter drill or practise across the book.</p><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li></ul></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
+</section><section data-pane="contents" data-title="In this chapter" hidden=""><button class="quiet" id="bookmark">Save this place</button><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="find" data-title="Find in this chapter" hidden=""><label for="findText">Search text</label><input type="search" id="findText" placeholder="A word or phrase"><ul id="findResults" class="rows"></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter drill or practise across the book.</p><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="missed"><strong>My missed questions</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li></ul></section><section data-pane="missed" data-title="My missed questions" hidden><p id="missedStatus" class="meta" role="status"></p><div id="missedQuestions"></div></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
 
 
 
@@ -31861,7 +31877,7 @@ body{padding-block-end:var(--tabs-height)}
 <script src="js/marked.min.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 // One best-effort request per document load; refusal must never block reading.
-try{navigator.storage?.persist?.().catch(()=>{})}catch{}
+try{Promise.resolve(navigator.storage?.persist?.()).then(ok=>{$('#storageProtection').textContent='Storage: '+(ok?'protected':'not protected')},()=>{$('#storageProtection').textContent='Storage: not protected'})}catch{$('#storageProtection').textContent='Storage: not protected'}
 const imageSizes={"hazzard8e_ch101_figure101-1.png":[767,871],"hazzard8e_ch101_figure101-2.png":[1259,956],"hazzard8e_ch101_figure101-3.png":[1555,757],"hazzard8e_ch101_figure101-4.png":[772,1401],"hazzard8e_ch101_table101-10_p1624.png":[1111,1236],"hazzard8e_ch101_table101-11_p1628.png":[1189,751],"hazzard8e_ch101_table101-1_p1608.png":[638,1128],"hazzard8e_ch101_table101-4_p1614.png":[1151,1152],"hazzard8e_ch101_table101-4_p1615.png":[1146,856],"hazzard8e_ch101_table101-5_p1616.png":[1146,1193],"hazzard8e_ch102_figure102-1.png":[1243,726],"hazzard8e_ch102_figure102-2.png":[748,554],"hazzard8e_ch102_figure102-3.png":[822,711],"hazzard8e_ch102_table102-3_p1632.png":[773,484],"hazzard8e_ch102_table102-7_p1636.png":[867,619],"hazzard8e_ch104_figure104-1.png":[1315,1154],"hazzard8e_ch104_figure104-2.png":[1336,751],"hazzard8e_ch104_figure104-3.png":[1459,1209],"hazzard8e_ch104_table104-1_p1672.png":[1300,1752],"hazzard8e_ch104_table104-1_p1673.png":[1295,1760],"hazzard8e_ch105_figure105-1.png":[1544,1009],"hazzard8e_ch105_figure105-2.png":[1545,1255],"hazzard8e_ch105_table105-10_p1688.png":[766,552],"hazzard8e_ch105_table105-11_p1689.png":[1298,1055],"hazzard8e_ch105_table105-12_p1695.png":[1796,2224],"hazzard8e_ch105_table105-1_p1681.png":[762,1632],"hazzard8e_ch105_table105-2_p1682.png":[786,1416],"hazzard8e_ch105_table105-3_p1683.png":[762,1320],"hazzard8e_ch105_table105-4_p1686.png":[769,651],"hazzard8e_ch105_table105-5_p1686.png":[780,504],"hazzard8e_ch105_table105-6_p1687.png":[739,565],"hazzard8e_ch105_table105-7_p1687.png":[738,835],"hazzard8e_ch105_table105-8_p1688.png":[1559,1089],"hazzard8e_ch105_table105-9_p1688.png":[792,939],"hazzard8e_ch108_table108-1_p1735.png":[786,432],"hazzard8e_ch42_figure42-1.png":[759,900],"hazzard8e_ch42_figure42-2.png":[1346,873],"hazzard8e_ch42_figure42-3.png":[1346,811],"hazzard8e_ch42_figure42-4.png":[1240,1098],"hazzard8e_ch42_figure42-5.png":[1119,742],"hazzard8e_ch42_table42-3_p621.png":[1800,1063],"hazzard8e_ch42_table42-3_p622.png":[1800,681],"hazzard8e_ch43_figure43-1.png":[1265,804],"hazzard8e_ch43_figure43-2.png":[768,794],"hazzard8e_ch43_figure43-3.png":[718,1945],"hazzard8e_ch43_figure43-4.png":[723,1195],"hazzard8e_ch43_table43-1_p635.png":[2068,2812],"hazzard8e_ch43_table43-3_p638.png":[2345,1130],"hazzard8e_ch44_figure44-1.png":[723,690],"hazzard8e_ch44_figure44-10.png":[1304,680],"hazzard8e_ch44_figure44-2.png":[1346,379],"hazzard8e_ch44_figure44-3.png":[1427,1084],"hazzard8e_ch44_figure44-4.png":[729,723],"hazzard8e_ch44_figure44-5.png":[1346,1120],"hazzard8e_ch44_figure44-6.png":[1567,1834],"hazzard8e_ch44_figure44-7.png":[1559,1218],"hazzard8e_ch44_figure44-8.png":[1850,1067],"hazzard8e_ch44_figure44-9.png":[1122,500],"hazzard8e_ch44_table44-1_p646.png":[1512,676],"hazzard8e_ch44_table44-4_p659.png":[1298,616],"hazzard8e_ch44_table44-5_p660.png":[2324,2252],"hazzard8e_ch45_figure45-1.png":[1240,1179],"hazzard8e_ch45_figure45-2.png":[701,1924],"hazzard8e_ch45_table45-1_p667.png":[1562,746],"hazzard8e_ch46_figure46-1a.png":[1132,1411],"hazzard8e_ch46_figure46-1b.png":[1176,1639],"hazzard8e_ch46_figure46-2.png":[1184,888],"hazzard8e_ch46_figure46-3.png":[1089,1325],"hazzard8e_ch46_figure46-4.png":[1227,1721],"hazzard8e_ch47_figure47-1.png":[1277,944],"hazzard8e_ch47_figure47-2.png":[1444,1884],"hazzard8e_ch47_figure47-3.png":[1247,1104],"hazzard8e_ch51_figure51-1.png":[1340,916],"hazzard8e_ch51_figure51-2.png":[1340,1116],"hazzard8e_ch51_figure51-3.png":[1383,1190],"hazzard8e_ch51_figure51-4.png":[1346,1073],"hazzard8e_ch51_figure51-5.png":[1405,982],"hazzard8e_ch51_figure51-6.png":[1340,945],"hazzard8e_ch51_figure51-7.png":[1546,1146],"hazzard8e_ch51_table51-1_p760.png":[762,337],"hazzard8e_ch51_table51-2_p764.png":[765,1122],"hazzard8e_ch51_table51-3_p769.png":[748,1138],"hazzard8e_ch51_table51-5_p774.png":[1385,1807],"hazzard8e_ch51_table51-5b_p775.png":[1557,1105],"hazzard8e_ch52_figure52-1.png":[767,1149],"hazzard8e_ch52_figure52-2.png":[767,1207],"hazzard8e_ch52_figure52-3.png":[765,1276],"hazzard8e_ch52_figure52-4.png":[1340,2104],"hazzard8e_ch52_figure52-5.png":[1557,1123],"hazzard8e_ch55_figure55-1.png":[1346,405],"hazzard8e_ch55_figure55-2.png":[1340,817],"hazzard8e_ch55_figure55-3.png":[1340,877],"hazzard8e_ch55_table55-4_p823.png":[1305,1453],"hazzard8e_ch55_table55-5_p828.png":[1572,1677],"hazzard8e_ch57_figure57-1.png":[750,976],"hazzard8e_ch57_figure57-2.png":[768,765],"hazzard8e_ch57_figure57-3.png":[1338,1237],"hazzard8e_ch57_table57-2_p857.png":[1796,1409],"hazzard8e_ch57_table57-2_p858.png":[1745,1427],"hazzard8e_ch57_table57-3_p863.png":[1800,1638],"hazzard8e_ch57_table57-3_p864.png":[1802,1263],"hazzard8e_ch57_table57-3_p865.png":[1789,1506],"hazzard8e_ch57_table57-3_p866.png":[1790,1418],"hazzard8e_ch58_figure58-1.png":[1390,1795],"hazzard8e_ch58_figure58-2.png":[1346,1647],"hazzard8e_ch59_figure59-1.png":[1265,1440],"hazzard8e_ch59_figure59-2.png":[1278,2440],"hazzard8e_ch59_figure59-3.png":[1505,1217],"hazzard8e_ch59_table59-4_p903.png":[1298,938],"hazzard8e_ch59_table59-7_p912.png":[1770,2165],"hazzard8e_ch59_table59-7_p913.png":[1720,742],"hazzard8e_ch59_table59-x_p914.png":[1942,1045],"hazzard8e_ch61_figure61-1.png":[700,1300],"hazzard8e_ch61_figure61-2.png":[1244,775],"hazzard8e_ch63_figure63-1.png":[1261,966],"hazzard8e_ch63_figure63-2.png":[1343,626],"hazzard8e_ch63_figure63-3.png":[767,635],"hazzard8e_ch63_table63-5_p993.png":[1306,874],"hazzard8e_ch65_figure65-1.png":[1396,643],"hazzard8e_ch65_figure65-2.png":[1200,1685],"hazzard8e_ch65_figure65-2a_p1010.png":[1331,1876],"hazzard8e_ch65_figure65-3.png":[1150,1625],"hazzard8e_ch65_figure65-4.png":[750,519],"hazzard8e_ch65_table65-1_p1017.png":[1273,2248],"hazzard8e_ch68_figure68-1.png":[1356,1106],"hazzard8e_ch68_table68-1_p1056.png":[641,516],"hazzard8e_ch68_table68-2_p1056.png":[641,687],"hazzard8e_ch68_table68-3_p1059.png":[1290,764],"hazzard8e_ch68_table68-4_p1059.png":[1302,588],"hazzard8e_ch68_table68-5_p1060.png":[642,458],"hazzard8e_ch68_table68-6_p1061.png":[1292,1155],"hazzard8e_ch68_table68-7_p1063.png":[1293,872],"hazzard8e_ch68_table68-8_p1063.png":[1307,884],"hazzard8e_ch68_table68-8_p1064.png":[1301,1153],"hazzard8e_ch75_figure75-1.png":[1346,653],"hazzard8e_ch75_table75-12_p1160.png":[1562,397],"hazzard8e_ch75_table75-15_p1161.png":[767,693],"hazzard8e_ch75_table75-3_p1153.png":[1562,658],"hazzard8e_ch75_table75-4_p1154.png":[763,923],"hazzard8e_ch75_table75-6_p1155.png":[752,795],"hazzard8e_ch76_figure76-1.png":[1346,801],"hazzard8e_ch76_figure76-2.png":[1346,969],"hazzard8e_ch76_figure76-3.png":[1346,595],"hazzard8e_ch76_figure76-4.png":[1481,1053],"hazzard8e_ch76_figure76-5.png":[768,643],"hazzard8e_ch76_figure76-6.png":[771,762],"hazzard8e_ch76_table76-10_p1178.png":[635,463],"hazzard8e_ch76_table76-11_p1185.png":[1199,1514],"hazzard8e_ch76_table76-11_p1186.png":[1195,930],"hazzard8e_ch76_table76-1_p1166.png":[640,895],"hazzard8e_ch76_table76-2_p1168.png":[1300,588],"hazzard8e_ch76_table76-3_p1171.png":[641,1145],"hazzard8e_ch76_table76-4_p1172.png":[645,1175],"hazzard8e_ch76_table76-6_p1174.png":[634,1713],"hazzard8e_ch76_table76-7_p1175.png":[630,845],"hazzard8e_ch76_table76-8_p1177.png":[641,1490],"hazzard8e_ch76_table76-9_p1178.png":[660,391],"hazzard8e_ch77_figure77-1a.png":[1508,495],"hazzard8e_ch77_figure77-1b.png":[1346,690],"hazzard8e_ch77_figure77-1c.png":[1346,649],"hazzard8e_ch77_figure77-1d.png":[1344,696],"hazzard8e_ch77_figure77-2a.png":[787,790],"hazzard8e_ch77_figure77-2b.png":[774,813],"hazzard8e_ch77_figure77-3a.png":[766,630],"hazzard8e_ch77_figure77-3b.png":[766,623],"hazzard8e_ch77_figure77-4a.png":[751,594],"hazzard8e_ch77_figure77-4b.png":[775,630],"hazzard8e_ch77_figure77-4c.png":[822,577],"hazzard8e_ch77_figure77-4d.png":[1352,751],"hazzard8e_ch77_figure77-4e.png":[772,597],"hazzard8e_ch77_figure77-4f.png":[757,426],"hazzard8e_ch77_figure77-5a.png":[752,816],"hazzard8e_ch77_figure77-5b.png":[775,816],"hazzard8e_ch77_table77-10_p1206.png":[742,1365],"hazzard8e_ch77_table77-1_p1194.png":[751,540],"hazzard8e_ch77_table77-2_p1194.png":[754,495],"hazzard8e_ch77_table77-3_p1197.png":[769,474],"hazzard8e_ch77_table77-4_p1199.png":[766,480],"hazzard8e_ch77_table77-5_p1199.png":[766,1150],"hazzard8e_ch77_table77-6_p1201.png":[766,550],"hazzard8e_ch77_table77-7_p1202.png":[742,1653],"hazzard8e_ch77_table77-8_p1203.png":[766,1353],"hazzard8e_ch77_table77-9_p1204.png":[1777,1662],"hazzard8e_ch77_table77-9_p1205.png":[1783,1540],"hazzard8e_ch81_figure81-1.png":[829,576],"hazzard8e_ch81_figure81-2.png":[1468,1230],"hazzard8e_ch81_table81-10_p1249.png":[1791,1137],"hazzard8e_ch81_table81-10_p1250.png":[1773,1069],"hazzard8e_ch81_table81-10_p1251.png":[1766,1252],"hazzard8e_ch81_table81-10_p1252.png":[1780,1225],"hazzard8e_ch81_table81-14_p1263.png":[2064,2270],"hazzard8e_ch81_table81-1_p1238.png":[1147,1360],"hazzard8e_ch81_table81-2_p1239.png":[714,1809],"hazzard8e_ch81_table81-3_p1242.png":[1302,732],"hazzard8e_ch81_table81-5_p1244.png":[1146,1041],"hazzard8e_ch81_table81-6_p1245.png":[1299,1005],"hazzard8e_ch81_table81-7_p1246.png":[1440,1884],"hazzard8e_ch83_figure83-1.png":[1405,1139],"hazzard8e_ch83_figure83-2.png":[1434,804],"hazzard8e_ch83_figure83-3.png":[1551,1187],"hazzard8e_ch83_figure83-4.png":[1338,630],"hazzard8e_ch83_figure83-5.png":[766,657],"hazzard8e_ch83_table83-1_p1281.png":[1298,1617],"hazzard8e_ch83_table83-1_p1282.png":[1156,607],"hazzard8e_ch83_table83-2_p1284.png":[639,1558],"hazzard8e_ch83_table83-3_p1288.png":[638,623],"hazzard8e_ch87_figure87-1.png":[765,992],"hazzard8e_ch87_figure87-2.png":[1554,999],"hazzard8e_ch87_figure87-3.png":[1340,1310],"hazzard8e_ch87_figure87-4.png":[989,1268],"hazzard8e_ch87_figure87-5.png":[830,1015],"hazzard8e_ch87_figure87-6.png":[1444,1432],"hazzard8e_ch87_table87-4_p1356.png":[767,842],"hazzard8e_ch87_table87-9_p1373.png":[1690,1408],"hazzard8e_ch87_table87-9_p1374.png":[1708,1453],"hazzard8e_ch88_figure88-1.png":[1389,711],"hazzard8e_ch88_figure88-2.png":[1431,951],"hazzard8e_ch88_figure88-3.png":[1581,1104],"hazzard8e_ch88_table88-1_p1387.png":[742,728],"hazzard8e_ch88_table88-2_p1389.png":[1454,1014],"hazzard8e_ch97_figure97-1.png":[1405,1297],"hazzard8e_ch97_figure97-2.png":[830,809],"hazzard8e_ch97_figure97-3.png":[766,1238],"hazzard8e_ch97_table97-5_p1534.png":[763,441],"hazzard8e_ch97_table97-9_p1538.png":[804,1326],"hazzard8e_ch98_figure98-1.png":[1414,956],"hazzard8e_ch98_figure98-2.png":[765,1172],"hazzard8e_ch98_figure98-3.png":[766,603],"hazzard8e_ch98_figure98-4.png":[1344,1458],"hazzard8e_ch98_figure98-5.png":[1485,855],"hazzard8e_ch98_table98-8_p1555.png":[759,482],"hazzard8e_ch99_figure99-1.png":[756,542],"hazzard8e_ch99_figure99-2.png":[1058,429],"hazzard8e_ch99_figure99-3.png":[706,456],"hazzard8e_ch99_figure99-4.png":[933,517],"hazzard8e_ch99_figure99-5.png":[706,761],"hazzard8e_ch99_figure99-6.png":[666,448],"hazzard8e_ch99_figure99-7.png":[700,579],"hazzard8e_ch99_figure99-8.png":[682,1046],"ima2026_album_picture1_Q7.png":[465,505],"ima2026_album_picture3_Q64.png":[798,961]};
 function prepareImages(root){
   for(const image of root.querySelectorAll('img')){
@@ -31901,16 +31917,19 @@ function renderManifestChapterHtml(mdText){
 let manifestChapters=[];
 try{const manifestRes=await fetch('manifest.json',{cache:'no-store'});if(manifestRes.ok)manifestChapters=(await manifestRes.json()).chapters||[];}catch{}
 let manifestArticle=null,newMockPaper=false;
-const MOCK_KEY='hazzard-mock-v1';
+const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1';
+const chapterTextPromises=new Map();
+function loadChapterText(entry){if(!chapterTextPromises.has(entry.file))chapterTextPromises.set(entry.file,fetch('chapters/'+entry.file).then(r=>{if(!r.ok)throw new Error('Chapter unavailable');return r.text()}).catch(e=>{chapterTextPromises.delete(entry.file);throw e}));return chapterTextPromises.get(entry.file)}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function parseDrill(md){md=md.replace(/\r\n?/g,'\n');const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
 async function buildMock(){
   const params=new URLSearchParams(location.search),want=Number(params.get('n'))||0;
   let state=null;try{state=JSON.parse(localStorage.getItem(MOCK_KEY)||'null')}catch{}
   const studies=manifestChapters.filter(c=>c.kind==='study'),bank=[];
-  await Promise.all(studies.map(async c=>{try{const r=await fetch('chapters/'+c.file);if(!r.ok)return;parseDrill(await r.text()).forEach((x,i)=>bank.push({id:c.number+':'+(i+1),ch:c.number,...x}))}catch{}}));
+  await Promise.all(studies.map(async c=>{try{parseDrill(await loadChapterText(c)).forEach((x,i)=>bank.push({id:c.number+':'+(i+1),ch:c.number,...x}))}catch{}}));
   if(!bank.length)return null;
   if(want||!state?.ids?.length){
+    collectMissed(); // Keep earlier missed questions before replacing a mock paper.
     newMockPaper=true;
     const pool=[...bank];for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
     state={ids:pool.slice(0,Math.min(want||20,pool.length)).map(x=>x.id),grades:{},at:Date.now()};
@@ -31942,6 +31961,7 @@ if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Temp
     }catch{}
   }
 }
+const templateCopies=new Map($$('template[id^=chapter][id$=Template]').map(t=>[t.content.querySelector('[data-chapter-id]').dataset.chapterId,t.innerHTML]));
 for(const chapterTemplate of $$('template[id^=chapter][id$=Template]')){
   if(chapterTemplate.content.querySelector('[data-chapter-id]')?.dataset.chapterId===requestedChapter)$('#copy').replaceWith(chapterTemplate.content.cloneNode(true));
   chapterTemplate.remove();
@@ -31969,7 +31989,7 @@ for(const entry of orderedChapters){
     const b=document.createElement('button');b.dataset.chapter=target;b.textContent=label;b.setAttribute('aria-label',label+' '+name.textContent);
     if(target===requestedChapter)b.setAttribute('aria-current','page');li.append(b);
   }
-  li.dataset.search=id+' '+entry.title+' '+name.textContent;$('#chapterRows').append(li);
+  li.dataset.chapterRow=id;li.dataset.search=id+' '+entry.title+' '+name.textContent;$('#chapterRows').append(li);
 }
 const copy=$('#copy'),panel=$('#panel'),fab=$('#readerTools'),pencil=$('#markToggle');
 const chapterTitle=copy.querySelector('h1').textContent;
@@ -31982,8 +32002,8 @@ appTabs.innerHTML='<button data-view="library" data-tab="chapters">'+tabIcon('<p
 fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span class="text-icon" aria-hidden="true">Aa</span><span>Text</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button class="quiet chapter-back" data-view="library">‹ Chapters</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><strong id="chapterHeaderTitle"></strong><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
-$('#readerViewport').prepend(chapterHeader);chapterHeader.append(pencil);$('#readerLinks').append($('#jumpEnds'));
-$('#toTop').textContent='↑ Top';$('#toBottom').textContent='End ↓';
+$('#readerViewport').prepend(chapterHeader);chapterHeader.append(pencil);
+$('#toTop').innerHTML='<span aria-hidden="true">↑</span>';$('#toBottom').innerHTML='<span aria-hidden="true">↓</span>';
 pencil.className='';pencil.innerHTML='<span class="pencil-icon" aria-hidden="true">✎</span><span>Highlight</span>';pencil.setAttribute('aria-label','Highlight: Off');
 const contentsTargets=[];
 if(true){
@@ -32028,7 +32048,7 @@ if(true){
 })();
 // Display-only: book page markers become a small inline tag, and a paragraph the
 // page break cut mid-sentence is joined back into one paragraph.
-(function smoothPageMarkers(){
+function smoothPageMarkers(copy){
   for(const a of [...copy.querySelectorAll('a[id]')]){
     if(!/^p\d+$/.test(a.id))continue;
     let s=a.nextSibling;while(s&&s.nodeType===3&&!s.data.trim())s=s.nextSibling;
@@ -32050,7 +32070,8 @@ if(true){
     if(!next||next.tagName!=='P'||next.querySelector('img'))continue;
     prev.append(' ',...p.childNodes,' ',...next.childNodes);p.remove();next.remove();
   }
-})();
+}
+smoothPageMarkers(copy);
 function openChapter(chapter,opts={}){
   if(String(chapter)===cid&&!opts.hash&&!opts.n){view('reader');return}
   if(closingHistory){queuedChapter={chapter,opts};return}
@@ -32224,7 +32245,7 @@ function openPanel(name,trigger){
   if(['contents','find'].includes(name)&&$('#reader').hidden)return;
   panel.dataset.currentPane=name;$('#readerLinks').hidden=$('#reader').hidden;
   for(const p of $$('[data-pane]'))p.hidden=p!==pane;
-  $('#panelTitle').textContent=pane.dataset.title;const parent=['qbank','mock'].includes(name)?'practice':['contents','find','session'].includes(name)?'tools':null;$('#panelBack').hidden=!parent;$('#panelBack').dataset.panel=parent||'tools';$('#panelBack').textContent=parent==='practice'?'‹ Practice':'‹ Text settings';if(name==='notebook')renderNotebook();
+  $('#panelTitle').textContent=pane.dataset.title;const parent=['qbank','mock','missed'].includes(name)?'practice':['contents','find','session'].includes(name)?'tools':null;$('#panelBack').hidden=!parent;$('#panelBack').dataset.panel=parent||'tools';$('#panelBack').textContent=parent==='practice'?'‹ Practice':'‹ Text settings';if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();$('#jumpEnds').classList.remove('is-visible');
   if(!panel.open){anchor=trigger||document.activeElement;const y=readerScroll.scrollTop;sheetKey='sheet-'+Date.now();try{history.pushState({...history.state,stageAReaderSheet:sheetKey},'')}catch{sheetKey=null}panel.show();scrollReadingTo(y)}
   anchor?.setAttribute('aria-expanded','true');fab.setAttribute('aria-expanded','true');pane.scrollTop=0;syncTabs();updateStorageNotice();
 }
@@ -32321,7 +32342,7 @@ function view(id,opts={}){
   currentView=id;
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
   pencil.hidden=id!=='reader'||copy.dataset.chapterId==='mock';$('#jumpEnds').hidden=id!=='reader';$('#readerViewport').hidden=id!=='reader';syncTabs();
-  if(id==='desk')refreshResume();
+  if(id==='desk')refreshResume();if(id==='library')refreshLibraryMarks();
   measureReaderEnd();if(changed)scrollReadingTo(id==='reader'?lastReaderY:0);window.scrollTo(0,0);
 }
 function applyDisplay(){
@@ -32371,7 +32392,7 @@ function syncMarkingUI(){
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
-  const active=pane?(['practice','qbank','mock'].includes(pane)?'practice':pane==='notebook'?'notebook':'tools'):(currentView==='library'||currentView==='reader'&&copy.dataset.chapterId!=='mock')?'chapters':currentView==='reader'?'practice':null;
+  const active=pane?(['practice','qbank','mock','missed'].includes(pane)?'practice':pane==='notebook'?'notebook':'tools'):(currentView==='library'||currentView==='reader'&&copy.dataset.chapterId!=='mock')?'chapters':currentView==='reader'?'practice':null;
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}
 }
 function markDown(e){if(!e.isPrimary||e.button!==0){gesture=null;return}gesture={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now(),scroll:readerScroll.scrollTop,moved:false,ended:false}}
@@ -32487,7 +32508,64 @@ function renderNotebook(){
   for(const r of unplacedRanges){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not found in the current text';excerpt.textContent=r.text;li.append(label,excerpt);historyList.append(li)}
   for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;li.append(label,excerpt);historyList.append(li)}
 }
-$('#chapterSearch').oninput=e=>{const q=e.target.value.toLowerCase();let found=0;for(const li of $$('#chapterRows li')){li.hidden=!(li.dataset.search||li.textContent).toLowerCase().includes(q);if(!li.hidden)found++}$('#noChapters').hidden=found>0};
+const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
+function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,figcaption,details')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}
+let fullTextIndex=null,searchTicket=0,searchTimer;
+async function chapterIndex(){
+  if(fullTextIndex)return fullTextIndex;
+  const result=[],failed=[];
+  // A small queue avoids parsing the entire book in one unbroken phone task.
+  for(const entry of manifestChapters){
+    try{
+      const root=document.createElement('div');
+      root.innerHTML=templateCopies.get(String(entry.number))||renderManifestChapterHtml(await loadChapterText(entry));
+      smoothPageMarkers(root);
+      result.push({entry,blocks:searchBlocks(root).map(searchText)});
+      await new Promise(resolve=>setTimeout(resolve,0));
+    }catch{failed.push(entry.number)}
+  }
+  if(!failed.length)fullTextIndex=result;
+  return {result,failed};
+}
+async function searchChapters(){
+  const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
+  results.replaceChildren();results.hidden=!q;status.hidden=!q;
+  let titles=0;for(const li of $$('#chapterRows li')){li.hidden=!li.dataset.search.toLowerCase().includes(q);if(!li.hidden)titles++}
+  $('#noChapters').hidden=true;if(!q)return;
+  status.textContent='Searching all chapters and study pages…';
+  const loaded=await chapterIndex();if(ticket!==searchTicket)return;
+  const entries=Array.isArray(loaded)?loaded:loaded.result;let found=0;
+  for(const {entry,blocks} of entries){
+    let chapterHits=0;
+    for(const text of blocks){
+      const at=text.toLowerCase().indexOf(q);if(at<0)continue;
+      const start=Math.max(0,at-65),end=Math.min(text.length,at+q.length+100),excerpt=text.slice(start,end);
+      const li=document.createElement('li'),b=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');
+      label.textContent=chapterLabel(entry.number)+(entry.kind==='study'?' — '+entry.title.replace(/ — Study$/,''):'');snippet.dir='auto';
+      snippet.append((start?'…':'')+text.slice(start,at));const mark=document.createElement('mark');mark.textContent=text.slice(at,at+q.length);snippet.append(mark,text.slice(at+q.length,end)+(end<text.length?'…':''));
+      b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt}))});li.append(b);results.append(li);found++;
+      if(++chapterHits===3)break;
+    }
+  }
+  status.textContent=found+' text matches (up to 3 per page).'+(loaded.failed?.length?' Some pages are unavailable. Connect once to finish saving them.':'');
+  $('#noChapters').hidden=found>0||titles>0;
+}
+$('#chapterSearch').oninput=()=>{++searchTicket;clearTimeout(searchTimer);searchTimer=setTimeout(searchChapters,220)};
+function revealSearch(payload){
+  let target;try{target=JSON.parse(payload)}catch{return false}
+  const block=searchBlocks(copy).find(n=>searchText(n).includes(target.excerpt));if(!block)return false;
+  setTimeout(()=>{
+    revealReading(block,{block:'center'});block.classList.add('search-hit');setTimeout(()=>block.classList.remove('search-hit'),5000);
+    // Centre the matching words, including matches across sentence/highlight spans.
+    const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT),points=[];let text='',node,space=false;
+    while(node=walker.nextNode())for(let i=0;i<node.length;i++){
+      const char=node.data[i],blank=/\s/.test(char);if(blank&&space)continue;
+      text+=blank?' ':char;points.push({node,offset:i});space=blank;
+    }
+    const lower=text.toLowerCase(),context=lower.indexOf(target.excerpt.toLowerCase()),at=lower.indexOf(target.q,Math.max(0,context));
+    if(at>=0&&points[at+target.q.length-1]){const a=points[at],z=points[at+target.q.length-1],range=document.createRange();range.setStart(a.node,a.offset);range.setEnd(z.node,z.offset+1);const r=range.getBoundingClientRect(),v=readerScroll.getBoundingClientRect();readerScroll.scrollBy(0,r.top-v.top-v.height/2)}
+  },80);return true;
+}
 $('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2,h3,li,td,th,details')){if(p.parentElement.closest('p,li,td,th'))continue;if(p.matches('details')&&p.querySelector('p,li,td'))continue;if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.dir='auto';b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
 function revealReading(el,options){if(!el)return;if(el.closest('.mock-q,.drill-q')?.hidden&&practiceState){practiceState.retryIds=null;practiceSave();practiceRender()}for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
@@ -32582,10 +32660,41 @@ $('#toTop').onclick=()=>{closePanel();readerScroll.scrollTo({top:0})};
 $('#toBottom').onclick=()=>{closePanel();readerScroll.scrollTo({top:readerScroll.scrollHeight})};
 // ---------- reading place: saved automatically, plus explicit saved places ----------
 const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1';
+let pillTimer;
+function showJumpPills(){
+  const pills=$('#jumpEnds'),max=readerScroll.scrollHeight-readerScroll.clientHeight,y=readerScroll.scrollTop;
+  $('#toTop').hidden=y<=2;$('#toBottom').hidden=max-y<=2;
+  clearTimeout(pillTimer);pills.classList.toggle('is-visible',currentView==='reader'&&!panel.open&&max>2);
+  pillTimer=setTimeout(()=>pills.classList.remove('is-visible'),2000);
+}
+function rememberFurthest(place){
+  if(place.chapter==='mock')return;
+  const data=readJSON(READING_KEY,{chapters:{}}),old=data.chapters?.[place.chapter]||{ratio:0,read:false};
+  const ratio=Math.min(1,Math.max(old.ratio,place.ratio)),read=old.read||readerScroll.scrollHeight-readerScroll.clientHeight-readerScroll.scrollTop<=2;
+  if(ratio===old.ratio&&read===old.read)return;
+  data.chapters={...data.chapters,[place.chapter]:{ratio,read}};
+  if(!writeJSON(READING_KEY,data))flash('Reading progress could not be saved.',6000);
+}
+let drillTotals=null;
+async function refreshLibraryMarks(){
+  const data=readJSON(READING_KEY,{chapters:{}});data.chapters=data.chapters||{};
+  const places=readJSON(PLACE_KEY,{}),saved=[...Object.values(places.chapters||{}),...readJSON(BOOKMARK_KEY,[])];
+  for(const p of saved){if(!p||p.chapter==='mock'||!Number.isFinite(p.ratio))continue;const old=data.chapters[p.chapter]||{ratio:0,read:false};data.chapters[p.chapter]={ratio:Math.min(1,Math.max(old.ratio,p.ratio)),read:old.read||p.ratio>=0.9999}}
+  if(JSON.stringify(data)!==JSON.stringify(readJSON(READING_KEY,{chapters:{}}))&&!writeJSON(READING_KEY,data))flash('Reading progress could not be saved.',6000);
+  const render=()=>{const drills=readJSON(DRILL_KEY,{}).chapters||{},reading=readJSON(READING_KEY,data).chapters||{};
+    for(const row of $$('#chapterRows [data-chapter-row]')){
+      const id=row.dataset.chapterRow,study=id==='law'?'laws':id+'s',p=reading[id],grades=Object.values(drills[study]?.grades||{}),right=grades.filter(g=>g===1).length;
+      let label=row.querySelector('.library-progress');if(!label){label=document.createElement('small');label.className='library-progress';row.querySelector('.chapter-name').append(label)}
+      label.textContent=(p?.read?'Read ✓':Math.min(99,Math.floor((p?.ratio||0)*100))+'%')+' · '+(grades.length?'Drill '+right+'/'+(drillTotals?.[study]||'…'):'Drill —');
+    }
+  };render();
+  if(!drillTotals){const totals={};await Promise.allSettled(manifestChapters.filter(c=>c.kind==='study').map(async c=>{totals[c.number]=parseDrill(await loadChapterText(c)).length}));drillTotals=totals;render()}
+}
+
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
 function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:+(readerScroll.scrollTop/span).toFixed(4),at:Date.now()}}
 function goToPlace(p){if(!p)return;const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;all.last=p;writeJSON(PLACE_KEY,all);refreshResume()}
+function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;all.last=p;writeJSON(PLACE_KEY,all);rememberFurthest(p);refreshResume()}
 let placeTimer=null,userScrolled=false;
 let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
 readerScroll.addEventListener('scroll',()=>{
@@ -32596,7 +32705,7 @@ readerScroll.addEventListener('scroll',()=>{
     if(direction>0&&headerTravel>=60){chapterHeader.classList.add('is-collapsed');chapterHeader.inert=true}
     else if(direction<0&&headerTravel>=30){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   }
-  headerScrollY=y;
+  headerScrollY=y;showJumpPills();
   clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,700);
 },{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
@@ -32618,11 +32727,52 @@ function refreshResume(){
 }
 refreshResume();
 $('#resume').onclick=()=>{const last=readJSON(PLACE_KEY,{}).last;if(last&&String(last.chapter)!==cid)openChapter(last.chapter);else{view('reader');goToPlace(readJSON(PLACE_KEY,{}).chapters?.[cid])}};
+function collectMissed(){
+  const archive=readJSON(MISSED_KEY,{questions:{}});archive.questions=archive.questions||{};let changed=false;
+  const states=[...Object.values(readJSON(DRILL_KEY,{}).chapters||{}),readJSON(MOCK_KEY,{})];
+  for(const state of states)for(const [id,grade] of Object.entries(state?.grades||{}))if(grade===0&&!archive.questions[id]){archive.questions[id]={grade:0,at:Date.now()};changed=true}
+  if(changed)writeJSON(MISSED_KEY,archive);
+  return archive;
+}
+function recordMissed(id,grade){
+  const archive=collectMissed();archive.questions[id]={grade:grade===0?0:1,at:Date.now()};
+  if(!writeJSON(MISSED_KEY,archive))flash('Missed questions could not be saved. Keep this page open.',6000);
+}
+function refreshMissedCount(){const n=Object.values(collectMissed().questions).filter(x=>x.grade===0).length;$('#missedCount').textContent=n+' missed question'+(n===1?'':'s')+' · grouped by chapter'}
+let missedTicket=0;
+async function renderMissedDeck(){
+  const ticket=++missedTicket,archive=collectMissed(),ids=Object.entries(archive.questions).filter(([,x])=>x.grade===0).map(([id])=>id),host=$('#missedQuestions'),status=$('#missedStatus');host.replaceChildren();
+  status.textContent=ids.length?'Loading '+ids.length+' missed questions…':'No missed questions. Mark a drill or mock question Missed to add it here.';
+  let unavailable=0;
+  for(const entry of manifestChapters.filter(c=>c.kind==='study')){
+    const wanted=ids.filter(id=>id.split(':')[0]===String(entry.number));if(!wanted.length)continue;
+    let questions;try{questions=parseDrill(await loadChapterText(entry))}catch{unavailable+=wanted.length;continue}
+    if(ticket!==missedTicket)return;
+    const group=document.createElement('section'),heading=document.createElement('h3');heading.textContent=chapterLabel(String(entry.number).replace(/s$/,''))+' ('+wanted.length+')';group.append(heading);
+    for(const id of wanted){
+      const question=questions[Number(id.split(':')[1])-1];if(!question){unavailable++;continue}
+      const item=document.createElement('section');item.className='missed-question';item.dataset.missedId=id;item.dir='auto';
+      item.innerHTML='<p><strong>'+marked.parseInline(question.q)+'</strong></p><details><summary>Answer</summary>'+marked.parse(question.a)+'</details>';
+      const got=document.createElement('button');got.textContent='Got it';got.onclick=()=>{
+        const drills=readJSON(DRILL_KEY,{}),mock=readJSON(MOCK_KEY,null);let saved=true;
+        for(const state of Object.values(drills.chapters||{}))if(state.grades?.[id]===0)state.grades[id]=1;
+        saved=writeJSON(DRILL_KEY,drills)&&saved;
+        if(mock?.grades?.[id]===0){mock.grades[id]=1;saved=writeJSON(MOCK_KEY,mock)&&saved}
+        if(saved){const current=collectMissed();current.questions[id]={grade:1,at:Date.now()};saved=writeJSON(MISSED_KEY,current)}
+        if(!saved){status.textContent='Could not save this answer. Keep this page open and try again.';return}
+        resyncPractice();refreshMissedCount();refreshLibraryMarks();renderMissedDeck();
+      };item.append(got);group.append(item);
+    }
+    host.append(group);
+  }
+  if(ticket===missedTicket&&ids.length)status.textContent=ids.length+' missed questions. Got it removes a question from this deck.'+(unavailable?' '+unavailable+' unavailable; reconnect to finish saving the book.':'');
+}
+
 // ---------- practice ----------
 {const rows=$('#qbankRows');for(const c of manifestChapters.filter(c=>c.kind==='study')){const li=document.createElement('li'),b=document.createElement('button');b.dataset.chapter=c.number;const base=String(c.number).replace(/s$/,''),e=manifestChapters.find(x=>String(x.number)===base);b.innerHTML='<strong></strong><small></small>';b.querySelector('strong').textContent=base==='law'?'Israeli law':'Chapter '+base+(e?' — '+e.title:'');b.querySelector('small').textContent=c.description||'Summary + drill';li.append(b);rows.append(li)}}
 {const st=readJSON(MOCK_KEY,null);if(st?.ids?.length){$('#mockResume').hidden=false;$('#mockResume').textContent='Continue current paper ('+Object.keys(st.grades||{}).length+'/'+st.ids.length+' marked)'}}
 // Self-grading uses the existing mock store; chapter-drill progress is new data.
-const DRILL_KEY='hazzard-drills-v1';
+
 let practiceState=null,practiceQuestions=[],practiceScore=null,practiceActions=null;
 function practiceSave(){
   let saved;
@@ -32647,7 +32797,7 @@ function gradePractice(b){
   if(!practiceState)return;
   const id=b.closest('.mock-q,.drill-q').dataset.q,v=Number(b.dataset.grade);
   if(practiceState.grades[id]===v)delete practiceState.grades[id];else practiceState.grades[id]=v;
-  practiceSave();practiceRender();
+  recordMissed(id,practiceState.grades[id]);practiceSave();practiceRender();
 }
 function retryPractice(mode){
   if(!practiceState)return;
@@ -32688,6 +32838,7 @@ function initializePractice(){
   practiceRender();
 }
 initializePractice();
+refreshLibraryMarks();refreshMissedCount();
 function resyncPractice(){
   if(!practiceState)return;
   const saved=cid==='mock'?readJSON(MOCK_KEY,null):readJSON(DRILL_KEY,{}).chapters?.[cid];
@@ -32753,7 +32904,7 @@ addEventListener('pageshow',event=>{if(event.persisted)resyncTimer()});
 addEventListener('storage',event=>{if(event.key===TIMER_KEY)resyncTimer()});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)resyncTimer()});
 // Portable notebook backups contain only the reader's named stores, never other apps' data.
-const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,TIMER_KEY,'hazzard-timer-v1']);
+const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1']);
 const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')||notebookKeys.has(key);
 const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
@@ -32769,6 +32920,8 @@ function validateNotebookValue(key,value){
   else if(key===BOOKMARK_KEY)valid=Array.isArray(value)&&value.every(place);
   else if(key===MOCK_KEY)valid=progress(value)&&stringList(value.ids);
   else if(key===DRILL_KEY)valid=isRecord(value)&&(value.chapters===undefined||isRecord(value.chapters)&&Object.entries(value.chapters).every(([id,p])=>/^(?:\d+s|laws)$/.test(id)&&progress(p)));
+  else if(key===READING_KEY)valid=isRecord(value)&&isRecord(value.chapters)&&Object.values(value.chapters).every(p=>isRecord(p)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&typeof p.read==='boolean');
+  else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
@@ -32802,6 +32955,8 @@ function mergeNotebookValue(key,current,incoming){
     const chapters={...current.chapters};for(const [id,progress] of Object.entries(incoming.chapters||{}))chapters[id]=Object.hasOwn(chapters,id)?mergeProgress(chapters[id],progress):progress;
     return {...incoming,...current,chapters};
   }
+  if(key===READING_KEY){const chapters={...current.chapters};for(const [id,p] of Object.entries(incoming.chapters))chapters[id]={ratio:Math.max(p.ratio,chapters[id]?.ratio||0),read:p.read||!!chapters[id]?.read};return {chapters}}
+  if(key===MISSED_KEY){const questions={...incoming.questions};for(const [id,p] of Object.entries(current.questions))if(!questions[id]||p.at>=questions[id].at)questions[id]=p;return {questions}}
   if(key===MOCK_KEY)return {...mergeProgress(current,incoming),ids:[...new Set([...current.ids,...incoming.ids])]};
   return current; // Keep an existing timer, including an active session.
 }
@@ -32842,7 +32997,7 @@ $('#notebookBackupFile').onchange=async event=>{
     let addedMockQuestions=false;
     if(cid==='mock'&&practiceState){const restored=readJSON(MOCK_KEY,practiceState);addedMockQuestions=JSON.stringify(restored.ids)!==JSON.stringify(practiceState.ids);practiceState=restored;practiceRender()}
     else resyncPractice();
-    resyncTimer();refreshResume();renderNotebook();
+    resyncTimer();refreshResume();renderNotebook();refreshLibraryMarks();refreshMissedCount();
     const mock=readJSON(MOCK_KEY,null);if(mock?.ids?.length){$('#mockResume').hidden=false;$('#mockResume').textContent='Continue current paper ('+Object.keys(mock.grades||{}).length+'/'+mock.ids.length+' marked)'}
     notebookStatus((changes.length?'Backup merged. Existing highlights, grades and saved places were kept.':'Everything in this backup is already saved.')+(addedMockQuestions?' Reload the mock page to show added questions.':''));
   }catch(error){notebookStatus(error.message||'Restore failed. Keep the backup file and try again.')}
@@ -32853,7 +33008,8 @@ tRender();
 restoreHighlights();
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
 {const h=decodeURIComponent(location.hash.slice(1));let done=false;
-  if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
+  if(h.startsWith('search-')){done=revealSearch(h.slice(7))}
+  else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
   else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}
   else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>t.scrollIntoView(),60);done=true}}
   if(!done&&!requestedChapter)view('desk',{replace:true,remember:false});
@@ -32866,7 +33022,7 @@ else if(!newMockPaper&&history.state.hazzardView!==currentView)view(history.stat
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v35',label=document.getElementById('offlineReady');
+  const version='v36',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;

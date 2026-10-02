@@ -348,7 +348,7 @@ Because disability is common among older persons, rehabilitation is an important
 
 - Marzetti E, Calvani R, Tosato M, et al. Physical activity and exercise as countermeasures to physical frailty and sarcopenia. _Aging Clin Exp Res_ . 2017;29(1):35–42.
 
-- McDonnell MN, Rischbieth B, Schammer TT, Seaforth C, Shaw AJ, Phillips AC. Lee Silverman Voice Treatment (LSVT)-BIG to improve motor function in people with Parkinson’s disease: a systematic review and metaanalysis. _Clin Rehab_ . 2018;32(5):607–618.
+- McDonnell MN, Rischbieth B, Schammer TT, Seaforth C, Shaw AJ, Phillips AC. Lee Silverman Voice Treatment (LSVT)-BIG to improve motor function in people with Parkinson’s disease: a systematic review and meta-analysis. _Clin Rehab_ . 2018;32(5):607–618.
 
 - Mehrholz J, Thomas S, Elsner B. Treadmill training and body weight support for walking after stroke (Review). _Cochrane Database Syst Rev_ . 2017;8(8):CD002840.
 

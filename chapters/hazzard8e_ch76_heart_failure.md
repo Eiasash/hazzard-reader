@@ -547,7 +547,7 @@ This chapter was based on the many previous versions authored by our colleague, 
 
 - Afilalo J, Alexander KP, Mack MJ, et al. Frailty assessment in the cardiovascular care of older adults. _J Am Coll Cardiol_ . 2014;63(8):747–762.
 
-- Anker SD, Butler J, Filippatos G, et al.; EMPERORPreserved Trial Investigators. Empagliflozin in heart failure with a preserved ejection fraction. _N Engl J Med_ . 2021;385(16):1451–1461.
+- Anker SD, Butler J, Filippatos G, et al.; EMPEROR-Preserved Trial Investigators. Empagliflozin in heart failure with a preserved ejection fraction. _N Engl J Med_ . 2021;385(16):1451–1461.
 
 - Beckett NS, Peters R, Fletcher AE, et al. Treatment of hypertension in patients 80 years of age or older. _N Engl J Med_ . 2008;358:1887–1898.
 
