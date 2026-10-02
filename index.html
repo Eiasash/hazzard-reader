@@ -86,7 +86,7 @@ figure{margin:var(--s6) 0} img,svg{max-inline-size:100%;block-size:auto}
 .about-chapter .note{border-inline-start:0;padding-inline-start:0;margin-block:var(--s3) 0}
 .about-chapter .note+.note{margin-block-start:var(--s4)}
 .endcap{margin-block-start:var(--s8);padding-block-start:var(--s4);border-block-start:var(--line) solid var(--rule)}
-/* Reader controls have a separate bottom row; the timer stays in Reading tools. */
+/* Reader navigation and practice tools remain outside the reading text. */
 .card{background:var(--surface);border:var(--line) solid var(--rule);border-radius:var(--radius);padding:var(--s4)}
 .resume-card{border-inline-start:calc(4px * var(--fs,1)) solid var(--accent)}
 .resume-card h2{margin:var(--s2) 0 var(--s3)}
@@ -150,7 +150,7 @@ dialog button{min-block-size:var(--tap)}
 .panel-links button{text-align:start}
 label{display:block;font:500 var(--label)/1.4 var(--ui);margin-block:var(--s3) var(--s2)}
 input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--control);border-radius:var(--s2);background:var(--page);padding:var(--s3)}
-/* Marking mode keeps native selection so exact words can be highlighted. */
+/* Legacy exact-word highlights remain readable and removable. */
 .reading-copy .hl-range[data-marked]{border-radius:0}
 .reading-copy a.pg{display:inline;text-decoration:none;white-space:nowrap}
 .reading-copy a.pg::before{content:"p" attr(data-page);font:500 calc(9px * var(--fs,1))/1 var(--ui);color:var(--muted);border:var(--line) solid var(--rule);border-radius:calc(4px * var(--fs,1));padding:0 calc(3px * var(--fs,1));margin:0 calc(3px * var(--fs,1));vertical-align:calc(1px * var(--fs,1))}
@@ -158,7 +158,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 .jump-ends{position:fixed;z-index:6;inset-inline-start:max(var(--s2),env(safe-area-inset-left));inset-block-end:calc(var(--vv-bottom-gap,0px) + max(var(--s3),env(safe-area-inset-bottom)));display:flex;flex-direction:column;gap:var(--s2)}
 .jump-ends button{inline-size:calc(36px * var(--fs,1));block-size:calc(36px * var(--fs,1));min-block-size:calc(36px * var(--fs,1));padding:calc(8px * var(--fs,1));border-radius:50%;display:grid;place-items:center;opacity:.8;background:var(--surface)}
 .jump-ends svg{inline-size:100%;block-size:100%}
-#highlightSelection{position:fixed;z-index:7;inset-inline-start:50%;transform:translateX(-50%);inset-block-end:calc(var(--vv-bottom-gap,0px) + max(var(--s4),env(safe-area-inset-bottom)) + calc(56px * var(--fs,1)));box-shadow:0 calc(2px * var(--fs,1)) calc(10px * var(--fs,1)) rgb(0 0 0 / .25);white-space:nowrap}
 #imageZoom{position:fixed;inset:0;top:0;left:0;inline-size:100vw;block-size:100dvh;max-inline-size:none;max-block-size:none;margin:0;padding:0;border:0;border-radius:0;background:#111;color:#eee;overflow:hidden}
 #imageZoom[open]{display:block}
 #imageZoom::backdrop{background:#111}
@@ -229,7 +228,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 body{padding-block-end:var(--tabs-height)}
 #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height))}
 #reader .opening-actions{display:none}
-#appTabs{position:fixed;z-index:20;inset-inline:0;bottom:var(--vv-bottom-gap,0px);height:var(--tabs-height);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:2px 6px max(2px,env(safe-area-inset-bottom));gap:4px;background:var(--surface);border-top:1px solid var(--rule);font-family:var(--ui)}
+#appTabs{position:fixed;z-index:20;inset-inline:0;bottom:var(--vv-bottom-gap,0px);height:var(--tabs-height);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding:2px 6px max(2px,env(safe-area-inset-bottom));gap:4px;background:var(--surface);border-top:1px solid var(--rule);font-family:var(--ui)}
 #appTabs button{position:static;transform:none;inset:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:48px;width:100%;height:auto;padding:2px;border:0;border-radius:10px;background:transparent;color:var(--muted);font:600 12px/1.3 var(--ui)}
 #appTabs button[aria-current]{background:var(--accent-soft);color:var(--accent)}
 #appTabs svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
@@ -297,7 +296,7 @@ body{padding-block-end:var(--tabs-height)}
 .library-row>.chapter-name{font:600 14px/1.4 var(--ui);padding:12px 4px 12px 0}
 #chapterRows .library-row button{min-height:48px;padding:8px 2px;text-align:center;color:var(--accent);font-size:13px;border-radius:8px}
 #chapterRows button[aria-current]{background:var(--accent-soft)}
-#panel{max-block-size:calc(var(--vv-height) - var(--tabs-height) - 12px);padding:12px;border-radius:16px 16px 0 0;border-bottom:1px solid var(--rule)}
+#panel{max-block-size:calc(var(--vv-height) - var(--tabs-height) - 60px);padding:12px;border-radius:16px 16px 0 0;border-bottom:1px solid var(--rule)}
 #panel[data-current-pane="tools"]{overflow:hidden}
 #panel [data-pane]{flex:1;overflow:auto;min-height:0;padding-bottom:8px}
 #panel[data-current-pane="notebook"],#panel[data-current-pane="qbank"],#panel[data-current-pane="contents"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
@@ -316,7 +315,40 @@ body{padding-block-end:var(--tabs-height)}
 #panel .rows small{font-size:12px}
 #panel [data-pane="practice"]>p{font:400 14px/1.5 var(--ui);color:var(--muted)}
 #offlineReady{color:var(--accent);font-size:12px}
-#highlightSelection{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 8px)}
+
+/* v37: paired controls and text-only settings. */
+input[type="search"]{appearance:none;-webkit-appearance:none;box-shadow:none;border:1px solid var(--control)}
+input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+#chapterHeader>.chapter-back{flex:0 0 44px;font-size:30px}
+#chapterHeader .chapter-step{flex:0 0 44px}
+#chapterHeaderTitle{min-width:44px}
+.chapter-switch{flex:0 0 100px}
+#chapterHeader #markToggle{flex:0 0 44px;inline-size:44px}
+#findBar{position:absolute;z-index:7;top:48px;left:0;right:0;padding:6px 8px;background:var(--surface);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:4px;font:13px var(--ui)}
+#findBar input{min-width:0;height:44px;padding:8px;font-size:16px}
+#findBar button{min-width:44px;min-height:44px;padding:6px;border:0;border-radius:7px}
+.find-actions{grid-column:1/-1;display:flex;gap:4px;align-items:center}
+#findCount{flex:1;padding:0 8px;font-variant-numeric:tabular-nums}
+.finding #reader{padding-top:160px}
+::highlight(page-find){background:#f0df9f;color:#263029}
+::highlight(page-find-current){background:#205b4b;color:#fff}
+#markBar{position:fixed;z-index:8;left:0;right:0;bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height));display:flex;gap:4px;padding:2px 6px;background:var(--surface);border-top:1px solid var(--rule);font:12px var(--ui)}
+#markBar button{min-height:44px;min-width:44px;padding:4px 8px;border:0;border-radius:7px;font-size:12px}
+#bookmark{flex:1;text-align:left}
+#bookmark[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
+.marking .reading-copy{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 49px)}
+#savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 13px var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
+#jumpEnds{right:max(0px,env(safe-area-inset-right))}
+#jumpEnds button span{width:40px;height:40px;border:0;background:color-mix(in srgb,var(--surface) 45%,transparent);backdrop-filter:blur(3px);font-size:19px;opacity:.55}
+#jumpEnds button{padding:2px}
+.mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 53px)}
+#reader{padding-right:max(44px,var(--gutter))}
+[data-pane="contents"] .rows button{padding:10px 0;min-height:44px}
+.dialog-head{position:relative}
+#panelBack{margin:0 0 8px;text-align:left;min-height:44px}
+.reading-copy summary,.nb-group summary,.missed-question summary{min-height:44px;cursor:pointer}
+#imageZoom .zoom-bar button{min-width:44px}
 </style>
 </head>
 <body>
@@ -688,7 +720,7 @@ body{padding-block-end:var(--tabs-height)}
 </div>
 </div></div>
 <div id="desk" class="page" hidden>
-  <p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>Your study desk</h1>
+  <button class="quiet" id="deskBack">‹ Practice</button><p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>Your study desk</h1>
   <div class="card resume-card"><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h2>Pressure injuries</h2><p class="meta"></p><button class="primary full" id="resume">Resume reading →</button></div>
   <div id="deskColour" hidden><button id="deskCycleColour"><span class="swatch" aria-hidden="true"></span><span id="deskColourLabel"></span></button></div>
   <nav class="launch-tiles" aria-label="Study desk">
@@ -698,7 +730,7 @@ body{padding-block-end:var(--tabs-height)}
   </nav>
 </div>
 <div id="library" class="page" hidden="">
-  <div class="opening-actions"><button class="quiet" data-view="desk">Study desk</button><button class="quiet" data-view="reader">Return to reading</button></div>
+
   <p class="eyebrow">YOUR LIBRARY</p><h1>Chapters</h1>
   <div class="library-search"><label for="chapterSearch">Search chapters and study pages</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"></div>
   <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
@@ -720,11 +752,11 @@ body{padding-block-end:var(--tabs-height)}
     <button id="cycleColour" class="icon-control" aria-label="Marking colour: yellow. Next: green" title="Marking colour: yellow. Next: green"><span id="colourLabel">Highlight colour: Yellow</span><span class="swatch" aria-hidden="true"></span></button>
   </div>
 
-<div class="settings-links" id="readerLinks"><button class="quiet" data-panel="contents">Contents</button><button class="quiet" data-panel="find">Find</button><button class="quiet" id="savePlace">Save place</button><button class="quiet" data-panel="session">Study timer</button></div>
+<div id="readerLinks" hidden></div>
 <p id="storageProtection" class="meta" role="status">Storage: checking…</p>
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
-</section><section data-pane="contents" data-title="In this chapter" hidden=""><button class="quiet" id="bookmark">Save this place</button><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="find" data-title="Find in this chapter" hidden=""><label for="findText">Search text</label><input type="search" id="findText" placeholder="A word or phrase"><ul id="findResults" class="rows"></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter drill or practise across the book.</p><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="missed"><strong>My missed questions</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li></ul></section><section data-pane="missed" data-title="My missed questions" hidden><p id="missedStatus" class="meta" role="status"></p><div id="missedQuestions"></div></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
+</section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter drill or practise across the book.</p><ul class="rows"><li><button data-panel="qbank"><strong>Question bank</strong><small>Open one chapter's drill</small></button></li><li><button data-panel="missed"><strong>My missed questions</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><button data-panel="mock"><strong>Mock paper</strong><small>Random questions drawn from every chapter's drill</small></button></li><li><button data-panel="session"><strong>Study timer</strong><small>Read, recall and rest</small></button></li><li><button data-view="desk"><strong>Study desk</strong><small>Overview and reading progress</small></button></li></ul></section><section data-pane="missed" data-title="My missed questions" hidden><p id="missedStatus" class="meta" role="status"></p><div id="missedQuestions"></div></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock paper" hidden=""><p class="meta">Questions drawn at random from all the chapter drills and the Israeli-law drill. Recall the answer, reveal it, mark yourself; the score builds at the top. Your paper is kept until you start a new one.</p><div class="mock-actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div><button class="full" id="mockResume" data-chapter="mock" hidden>Continue current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
 
 
 
@@ -31889,7 +31921,13 @@ function prepareImages(root){
 }
 
 // Activate one chapter before creating any mark units or reading chapter storage.
-const requestedChapter=new URLSearchParams(location.search).get('chapter');
+let requestedChapter=new URLSearchParams(location.search).get('chapter');
+if(!requestedChapter){
+  const last=readJSON('hazzard-place-v1',{}).last;
+  if(last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter))requestedChapter=last.chapter;
+  requestedChapter ||= '46';
+  const url=new URL(location.href);url.searchParams.set('chapter',requestedChapter);history.replaceState(null,'',url);
+}
 
 // --- manifest-driven chapter loader (future .md files; no code change per chapter) ---
 function renderManifestChapterHtml(mdText){
@@ -31931,6 +31969,7 @@ async function buildMock(){
   if(want||!state?.ids?.length){
     collectMissed(); // Keep earlier missed questions before replacing a mock paper.
     newMockPaper=true;
+    if(state?.ids?.length)history.replaceState({...history.state,hazzardPreviousMock:state},'');
     const pool=[...bank];for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
     state={ids:pool.slice(0,Math.min(want||20,pool.length)).map(x=>x.id),grades:{},at:Date.now()};
     try{localStorage.setItem(MOCK_KEY,JSON.stringify(state))}catch{}
@@ -31941,6 +31980,7 @@ async function buildMock(){
   const article=document.createElement('article');article.className='reading-copy';article.id='copy';article.dataset.chapterId='mock';
   let html='<p class="eyebrow">PRACTICE</p><h1 id="mock-paper">Mock paper — '+qs.length+' questions</h1><p class="meta mock-score" data-reader-metadata="score"></p>';
   qs.forEach((x,i)=>{html+='<section class="mock-q" data-q="'+escHtml(x.id)+'" dir="auto"><p><strong>'+(i+1)+'. '+marked.parseInline(x.q)+'</strong></p><p class="meta" data-reader-metadata="source">'+escHtml(label(x.ch))+'</p><details><summary>Answer</summary>'+marked.parse(x.a)+'</details><div class="mock-grade" data-reader-metadata="grade"><button data-grade="1" aria-pressed="false">Got it</button><button data-grade="0" aria-pressed="false">Missed</button></div></section>'});
+  if(history.state?.hazzardPreviousMock)html+='<button id="undoMock" data-reader-metadata="actions">Undo new paper</button>';
   html+='<h2 id="new-paper">New paper</h2><div class="mock-actions" data-reader-metadata="actions"><button data-mock="20">20 questions</button><button data-mock="50">50</button><button data-mock="100">100</button></div>';
   article.innerHTML=html;return article;
 }
@@ -31996,13 +32036,22 @@ const chapterTitle=copy.querySelector('h1').textContent;
 prepareImages(copy);
 const appTabs=document.createElement('nav');appTabs.id='appTabs';appTabs.setAttribute('aria-label','Main navigation');
 const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>';
-appTabs.innerHTML='<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
+appTabs.innerHTML='<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
 fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span class="text-icon" aria-hidden="true">Aa</span><span>Text</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
-chapterHeader.innerHTML='<button class="quiet chapter-back" data-view="library">‹ Chapters</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><strong id="chapterHeaderTitle"></strong><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
+chapterHeader.innerHTML='<button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 $('#readerViewport').prepend(chapterHeader);chapterHeader.append(pencil);
+const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=true;findBar.setAttribute('role','search');
+findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
+$('#readerViewport').append(findBar);
+const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
+markBar.innerHTML='<button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+document.body.append(markBar);
+const savedTick=document.createElement('div');savedTick.id='savedTick';savedTick.setAttribute('role','status');savedTick.hidden=true;document.body.append(savedTick);
+let savedTickTimer;
+function showSaved(message='✓ Saved'){savedTick.textContent=message;savedTick.hidden=false;clearTimeout(savedTickTimer);savedTickTimer=setTimeout(()=>savedTick.hidden=true,1800)}
 $('#toTop').innerHTML='<span aria-hidden="true">↑</span>';$('#toBottom').innerHTML='<span aria-hidden="true">↓</span>';
 pencil.className='';pencil.innerHTML='<span class="pencil-icon" aria-hidden="true">✎</span><span>Highlight</span>';pencil.setAttribute('aria-label','Highlight: Off');
 const contentsTargets=[];
@@ -32073,17 +32122,21 @@ function smoothPageMarkers(copy){
 }
 smoothPageMarkers(copy);
 function openChapter(chapter,opts={}){
-  if(String(chapter)===cid&&opts.hash?.startsWith('search-')){view('reader');revealSearch(decodeURIComponent(opts.hash.slice(7)));return}
-  if(String(chapter)===cid&&!opts.hash&&!opts.n){view('reader');return}
   if(closingHistory){queuedChapter={chapter,opts};return}
-  if(panel.open&&sheetKey&&history.state?.stageAReaderSheet===sheetKey){queuedChapter={chapter,opts};closePanel();return}
+  if((history.state?.hazzardDepth||0)>0){returnReading(()=>openChapter(chapter,opts));return}
+  if(String(chapter)===cid&&!opts.n){
+    if(opts.hash?.startsWith('search-'))revealSearch(decodeURIComponent(opts.hash.slice(7)));
+    else if(opts.hash?.startsWith('bm-'))goToPlace(readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===opts.hash.slice(3)));
+    else if(opts.hash?.startsWith('hl-')){const id=opts.hash.slice(3);revealReading(rangeMarks.get(id)?.spans[0]||unitMap.get(id)?.parts[0],{block:'center'})}
+    return;
+  }
   rememberPlace();
   const url=new URL(location.href);url.search='';url.searchParams.set('chapter',chapter);if(opts.n)url.searchParams.set('n',opts.n);url.hash=opts.hash?'#'+opts.hash:'';location.assign(url.href);
 }
 const readerScroll=$('#readerScroll');
 const sizes={small:14,medium:16,large:20};
-let marking=false,colour='yellow',size='small',savedY=0,anchor=null,gesture=null;
-let sheetKey=null,closingHistory=false,queuedOpen=null,queuedView=null,queuedChapter=null,outsideStarted=false,currentView='reader';
+let marking=false,colour='yellow',size='small',anchor=null,gesture=null;
+let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
 const retainedMarkIds=JSON.parse($('#markUnitRegistry').textContent)[copy.dataset.chapterId];
 const markIdQueues=new Map(Object.entries(retainedMarkIds?.entries||{}).map(([key,ids])=>[key,[...ids]]));
@@ -32235,38 +32288,80 @@ function viewport(){
 }
 // Controls occupy their own flex row, outside the scrolling reading area.
 function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
-function hidePanel(){if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');fab.setAttribute('aria-expanded','false');pencil.hidden=$('#reader').hidden||copy.dataset.chapterId==='mock';$('#jumpEnds').hidden=$('#reader').hidden;measureReaderEnd();gesture=null;syncTabs();updateStorageNotice()}
+function hidePanel(){if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');gesture=null}
 function closePanel(){
-  hidePanel();if(closingHistory)return;
-  if(sheetKey&&history.state?.stageAReaderSheet===sheetKey){closingHistory=true;history.back()}else sheetKey=null;
+  if(closingHistory)return;
+  if(history.state?.hazzardDepth){closingHistory=true;history.back()}
+  else{hidePanel();syncTabs();syncMarkingUI();updateStorageNotice()}
+}
+function displayPane(name){
+  const pane=$('[data-pane="'+name+'"]');if(!pane)return;
+  panel.dataset.currentPane=name;
+  for(const p of $$('[data-pane]'))p.hidden=p!==pane;
+  $('#panelTitle').textContent=pane.dataset.title;
+  $('#panelBack').hidden=!['qbank','mock','missed','session'].includes(name);
+  $('#panelBack').removeAttribute('data-panel');$('#panelBack').textContent='‹ Practice';
+  if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();
+  if(!panel.open)panel.show();pane.scrollTop=0;
+}
+function renderScreen(state){
+  const id=state?.hazzardView||'reader',changed=id!==currentView;
+  hidePanel();currentView=id;
+  for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
+  $('#readerViewport').hidden=id!=='reader';pencil.hidden=id!=='reader'||cid==='mock';$('#jumpEnds').hidden=id!=='reader';$('#jumpEnds').classList.remove('is-visible');
+  findBar.hidden=!state?.hazzardFind;document.body.classList.toggle('finding',!findBar.hidden);$('#findToggle').setAttribute('aria-expanded',String(!findBar.hidden));
+  if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
+  else{chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
+  if(state?.hazzardPane)displayPane(state.hazzardPane);
+  if(id==='desk')refreshResume();if(id==='library')refreshLibraryMarks();
+  if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
+  syncTabs();syncMarkingUI();updateStorageNotice();viewport();
+}
+function navigateUI(id,pane=null,find=false,replace=false){
+  if(closingHistory)return;
+  if(currentView==='reader'){rememberPlace();lastReaderY=readerScroll.scrollTop}
+  const previous={...history.state,hazzardView:currentView,hazzardReaderY:lastReaderY,hazzardWindowY:window.scrollY};
+  history.replaceState(previous,'');
+  const next={hazzardPreviousMock:previous.hazzardPreviousMock,hazzardView:id,hazzardPane:pane,hazzardFind:find,hazzardReaderY:lastReaderY,hazzardDepth:(previous.hazzardDepth||0)+(replace?0:1)};
+  history[replace?'replaceState':'pushState'](next,'');
+  if(id!=='reader')setMarking(false);
+  renderScreen(next);
 }
 function openPanel(name,trigger){
   if(closingHistory){queuedOpen={name,trigger};return}
-  const pane=$('[data-pane="'+name+'"]');if(!pane)return;
-  if(['contents','find'].includes(name)&&$('#reader').hidden)return;
-  panel.dataset.currentPane=name;$('#readerLinks').hidden=$('#reader').hidden;
-  for(const p of $$('[data-pane]'))p.hidden=p!==pane;
-  $('#panelTitle').textContent=pane.dataset.title;const parent=['qbank','mock','missed'].includes(name)?'practice':['contents','find','session'].includes(name)?'tools':null;$('#panelBack').hidden=!parent;$('#panelBack').dataset.panel=parent||'tools';$('#panelBack').textContent=parent==='practice'?'‹ Practice':'‹ Text settings';if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();$('#jumpEnds').classList.remove('is-visible');
-  if(!panel.open){anchor=trigger||document.activeElement;const y=readerScroll.scrollTop;sheetKey='sheet-'+Date.now();try{history.pushState({...history.state,stageAReaderSheet:sheetKey},'')}catch{sheetKey=null}panel.show();scrollReadingTo(y)}
-  anchor?.setAttribute('aria-expanded','true');fab.setAttribute('aria-expanded','true');pane.scrollTop=0;syncTabs();updateStorageNotice();
+  if(name==='contents'&&currentView!=='reader')return;
+  if(panel.open&&panel.dataset.currentPane===name){closePanel();return}
+  anchor=trigger||document.activeElement;
+  const child=['qbank','mock','missed','session'].includes(name)&&panel.open&&panel.dataset.currentPane==='practice';
+  navigateUI(currentView,name,false,panel.open&&!child);
+}
+function returnReading(action){
+  if(closingHistory){afterReturn=action||afterReturn;return}
+  const depth=history.state?.hazzardDepth||0;
+  if(depth){afterReturn=action||null;closingHistory=true;history.go(-depth)}
+  else{renderScreen({hazzardView:'reader'});action?.()}
 }
 window.addEventListener('popstate',()=>{
-  hidePanel();sheetKey=null;closingHistory=false;
+  closingHistory=false;
+  if(Number.isFinite(history.state?.hazzardReaderY))lastReaderY=history.state.hazzardReaderY;
+  renderScreen(history.state);
+  if(afterReturn){const run=afterReturn;afterReturn=null;run()}
   if(queuedChapter){const next=queuedChapter;queuedChapter=null;openChapter(next.chapter,next.opts);return}
-  if(queuedView){const next=queuedView;queuedView=null;view(next.id,next.opts);return}
-  const target=history.state?.hazzardView||'reader';
-  if(target!==currentView){if(Number.isFinite(history.state?.hazzardReaderY))lastReaderY=history.state.hazzardReaderY;view(target,{fromHistory:true,remember:false})}
   if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger)}
 });
-// A held claim opens its audit record without inserting anything into the reading flow.
+$('#panelBack').onclick=closePanel;
+$('#deskBack').onclick=()=>history.state?.hazzardDepth?closePanel():openPanel('practice');
+// A held claim// A held claim opens its audit record without inserting anything into the reading flow.
 const provenanceRegistry=JSON.parse($('#verificationRegistry').textContent);
 const provenanceDialog=document.createElement('dialog');
 provenanceDialog.id='claimProvenance';provenanceDialog.dataset.readerMetadata='provenance-overlay';
 provenanceDialog.setAttribute('aria-labelledby','claimProvenanceTitle');
 provenanceDialog.innerHTML='<div class="provenance-heading"><h2 id="claimProvenanceTitle">Claim provenance</h2><button type="button" aria-label="Close claim provenance">Close</button></div><div class="provenance-content"></div>';
 document.body.append(provenanceDialog);
-function closeProvenance(){if(provenanceDialog.open)provenanceDialog.close()}
-provenanceDialog.querySelector('button').onclick=closeProvenance;
+function closeProvenance(fromPop=false){if(!provenanceDialog.open)return;provenanceDialog.close();if(!fromPop&&history.state?.hazzardProvenance)history.back()}
+provenanceDialog.querySelector('button').onclick=()=>closeProvenance();
+provenanceDialog.addEventListener('cancel',e=>{e.preventDefault();closeProvenance()});
+addEventListener('popstate',()=>{if(!history.state?.hazzardProvenance)closeProvenance(true)});
 provenanceDialog.addEventListener('click',e=>{if(e.target===provenanceDialog){const r=provenanceDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom){e.preventDefault();e.stopPropagation();closeProvenance()}}});
 provenanceDialog.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();closeProvenance()}});
 function showClaimProvenance(node){
@@ -32295,7 +32390,7 @@ function showClaimProvenance(node){
   else if(pending?.reason)line(pending.reason);
   else if(!entries.length)line(record?.reviewBasis||'No claim-specific source review recorded.');
   gesture=null;
-  if(!provenanceDialog.open)provenanceDialog.showModal();
+  if(!provenanceDialog.open){history.pushState({...history.state,hazzardProvenance:true},'');provenanceDialog.showModal()}
 }
 let pressStart=null,suppressPressClick=false,claimHold=null;
 function cancelClaimHold(){if(claimHold)clearTimeout(claimHold.timer);claimHold=null}
@@ -32323,28 +32418,14 @@ document.addEventListener('contextmenu',e=>{suppressPressClick=true;const node=h
 document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();suppressPressClick=false}},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
-document.addEventListener('click',e=>{if(panel.open&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader [data-view]')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
+document.addEventListener('click',e=>{if(panel.open&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
 let lastReaderY=0;
 function view(id,opts={}){
   if(!['reader','desk','library'].includes(id))return;
-  if(closingHistory&&!opts.fromHistory){queuedView={id,opts};return}
-  const changed=id!==currentView,fromSheet=panel.open&&history.state?.stageAReaderSheet===sheetKey;
-  closeProvenance();if(changed&&panel.open)hidePanel();setMarking(false);
-  if(currentView==='reader'&&changed){if(opts.remember!==false)rememberPlace();lastReaderY=readerScroll.scrollTop}
-  if(!opts.fromHistory){
-    const previous={...history.state,hazzardView:currentView,hazzardReaderY:lastReaderY};
-    try{history.replaceState(previous,'')}catch{}
-    if(changed||opts.replace){
-      const next={...previous,hazzardView:id};delete next.stageAReaderSheet;delete next.hazzardZoom;
-      try{history[(fromSheet||opts.replace)?'replaceState':'pushState'](next,'')}catch{}
-      hidePanel();sheetKey=null;
-    }else closePanel();
-  }else hidePanel();
-  currentView=id;
-  for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
-  pencil.hidden=id!=='reader'||copy.dataset.chapterId==='mock';$('#jumpEnds').hidden=id!=='reader';$('#readerViewport').hidden=id!=='reader';syncTabs();
-  if(id==='desk')refreshResume();if(id==='library')refreshLibraryMarks();
-  measureReaderEnd();if(changed)scrollReadingTo(id==='reader'?lastReaderY:0);window.scrollTo(0,0);
+  if(opts.fromHistory){renderScreen(history.state);return}
+  if(id==='reader'){returnReading();return}
+  if(id===currentView&&!panel.open){returnReading();return}
+  closeProvenance();navigateUI(id,null,false,!!opts.replace);
 }
 function applyDisplay(){
   const px=sizes[size];document.documentElement.style.setProperty('--body',(px/16)+'rem');document.documentElement.style.setProperty('--fs',Math.min(1.2,px/14));document.body.style.fontSize='var(--body)';
@@ -32362,45 +32443,55 @@ try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p)
 applyDisplay();window.visualViewport?.addEventListener('resize',viewport);window.visualViewport?.addEventListener('scroll',viewport);window.addEventListener('resize',viewport);
 document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
+  if(b.dataset.tab){handleTab(b);return}
   if(b.dataset.grade!==undefined&&b.closest('.mock-q,.drill-q'))gradePractice(b);
   else if(b.dataset.retry)retryPractice(b.dataset.retry);
   else if(b.dataset.mock)openChapter('mock',{n:b.dataset.mock});
   else if(b.dataset.chapter)openChapter(b.dataset.chapter,{hash:b.dataset.hash});
   else if(b.dataset.panel)openPanel(b.dataset.panel,b);
   else if(b.dataset.view)view(b.dataset.view);
-  else if(b.dataset.jump){view('reader');revealReading($('#'+b.dataset.jump))}
+  else if(b.dataset.jump){returnReading(()=>revealReading($('#'+b.dataset.jump)))}
   else if(b.dataset.size){size=b.dataset.size;applyDisplay();saveDisplay()}
   else if(b.dataset.theme){document.documentElement.dataset.theme=b.dataset.theme;applyDisplay();saveDisplay()}
   else if(b.dataset.colour){colour=b.dataset.colour;applyDisplay();saveDisplay()}
 });
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(marking)setMarking(false)}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(marking)setMarking(false)}});
 function setMarking(on){
   if(marking===on)return;marking=on;gesture=null;document.body.classList.toggle('marking',on);
-  syncMarkingUI();
+  syncMarkingUI();if(on){getSelection()?.removeAllRanges();syncBookmark()}
   const action=on?'addEventListener':'removeEventListener';
   copy[action]('pointerdown',markDown);copy[action]('pointermove',markMove);copy[action]('pointerup',markUp);copy[action]('pointercancel',markCancel);copy[action]('click',markClick);copy[action]('keydown',markKey);copy[action]('contextmenu',markContext);
   for(const u of unitMap.values()){const p=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(on){p.tabIndex=0;p.setAttribute('role','button');p.setAttribute('aria-pressed',String(u.marked))}else{p.removeAttribute('tabindex');p.removeAttribute('role');p.removeAttribute('aria-pressed')}}
 }
-pencil.onclick=()=>setMarking(!marking);
+pencil.onclick=()=>{if(panel.open)returnReading(()=>setMarking(!marking));else setMarking(!marking)};
+$('#markDone').onclick=()=>setMarking(false);$('#markColour').onclick=cycleColour;
 $('#toggleTheme').onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';applyDisplay();saveDisplay()};
 function cycleColour(){colour=['yellow','green','blue'][(['yellow','green','blue'].indexOf(colour)+1)%3];applyDisplay();saveDisplay()}
 $('#cycleColour').onclick=$('#deskCycleColour').onclick=cycleColour;
 function syncMarkingUI(){
   document.documentElement.style.setProperty('--current-mark','var(--hl-'+colour+')');
   pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Turn marking off':'Turn marking on';pencil.setAttribute('aria-label','Highlight: '+(marking?'On':'Off'));if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
-  $('#markingIndicator').hidden=!marking;
+  $('#markingIndicator').hidden=!marking;markBar.hidden=!marking||currentView!=='reader'||panel.open;document.body.classList.toggle('mark-bar-open',!markBar.hidden);$('#markColour').setAttribute('aria-label','Highlight colour: '+colour+'. Tap for next colour');
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
-  const active=pane?(['practice','qbank','mock','missed'].includes(pane)?'practice':pane==='notebook'?'notebook':'tools'):(currentView==='library'||currentView==='reader'&&copy.dataset.chapterId!=='mock')?'chapters':currentView==='reader'?'practice':null;
-  for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}
+  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':pane==='tools'?'tools':'reading'):currentView==='library'?'chapters':currentView==='desk'||cid==='mock'?'practice':'reading';
+  for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
+  $('#chapterHeaderTitle').setAttribute('aria-expanded',String(pane==='contents'));
+}
+function readingTab(){
+  returnReading(()=>{if(cid==='mock'){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&last.chapter!=='mock'?last.chapter:'46')}});
+}
+function handleTab(b){
+  if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
+  if(b.dataset.view)view(b.dataset.view);else openPanel(b.dataset.panel,b);
 }
 function markDown(e){if(!e.isPrimary||e.button!==0){gesture=null;return}gesture={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now(),scroll:readerScroll.scrollTop,moved:false,ended:false}}
 function markMove(e){if(gesture&&e.pointerId===gesture.id&&Math.hypot(e.clientX-gesture.x,e.clientY-gesture.y)>10)gesture.moved=true}
 function markUp(e){if(gesture&&e.pointerId===gesture.id){gesture.ended=true;gesture.valid=!gesture.moved&&Math.abs(readerScroll.scrollTop-gesture.scroll)<8&&performance.now()-gesture.time<500}}
 function markCancel(){gesture=null}
-function markContext(){}
+function markContext(e){e.preventDefault()}
 function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
 function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();toggleUnit(u)}}
 function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();toggleUnit(u)}}}
@@ -32463,7 +32554,7 @@ function saveHighlight(u){
     const saved=readHighlights();archiveUnresolved(saved);
     for(const [id,mark] of pendingHighlightChanges){if(mark)saved.marks[id]=mark;else delete saved.marks[id]}
     highlightHistory=saved.history;writeHighlights(saved);
-    pendingHighlightChanges.clear();highlightSaveFailed=false;highlightLoadFailed=false;
+    pendingHighlightChanges.clear();highlightSaveFailed=false;highlightLoadFailed=false;showSaved(u.marked?'✓ Saved':'✓ Removed');
   }catch{highlightSaveFailed=true}
   updateStorageNotice();
 }
@@ -32483,17 +32574,17 @@ function renderNotebook(){
   const list=$('#notebookMarks');list.replaceChildren();
   const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks.values()].map(r=>({el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
-  for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.dir='auto';b.onclick=()=>{view('reader');revealReading(it.el,{block:'center'})};li.append(b);list.append(li)}
+  for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.dir='auto';b.onclick=()=>returnReading(()=>revealReading(it.el,{block:'center'}));li.append(b);list.append(li)}
   if(!list.children.length){const li=document.createElement('li');li.textContent='No highlights in this chapter yet.';list.append(li)}
   const places=$('#notebookPlaces');places.replaceChildren();
   for(const bm of readJSON(BOOKMARK_KEY,[])){
     const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
     go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');go.querySelector('small').dir='auto';
-    go.onclick=()=>{if(String(bm.chapter)===cid){view('reader');goToPlace(bm)}else openChapter(bm.chapter,{hash:'bm-'+bm.at})};
-    del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{writeJSON(BOOKMARK_KEY,readJSON(BOOKMARK_KEY,[]).filter(x=>x.at!==bm.at));renderNotebook()};
+    go.onclick=()=>openChapter(bm.chapter,{hash:'bm-'+bm.at});
+    del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{const list=readJSON(BOOKMARK_KEY,[]),present=list.some(x=>x.at===bm.at);if(writeJSON(BOOKMARK_KEY,present?list.filter(x=>x.at!==bm.at):[bm,...list])){showSaved(present?'✓ Removed':'✓ Saved');del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark()}else notebookStatus('This bookmark change could not be saved. Try again.')};
     li.append(go,del);places.append(li);
   }
-  if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. While reading, open Text → Save place.';places.append(li)}
+  if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. While reading, turn Highlight on → Bookmark this spot.';places.append(li)}
   const other=$('#notebookOther');other.replaceChildren();
   const prefix='stage-a-highlights-v1:',groups=[];
   try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=JSON.parse(localStorage.getItem(k))}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({id,text:m.text})),...Object.entries(d?.ranges||{}).map(([id,m])=>({id,text:m.text}))];if(marks.length)groups.push({ch,marks})}}catch{}
@@ -32542,7 +32633,7 @@ async function searchChapters(){
       const at=text.toLowerCase().indexOf(q);if(at<0)continue;
       const start=Math.max(0,at-65),end=Math.min(text.length,at+q.length+100),excerpt=text.slice(start,end);
       const li=document.createElement('li'),b=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');
-      label.textContent=chapterLabel(entry.number)+(entry.kind==='study'?' — '+entry.title.replace(/ — Study$/,''):'');snippet.dir='auto';
+      label.textContent=searchLabel(entry);snippet.dir='auto';
       snippet.append((start?'…':'')+text.slice(start,at));const mark=document.createElement('mark');mark.textContent=text.slice(at,at+q.length);snippet.append(mark,text.slice(at+q.length,end)+(end<text.length?'…':''));
       b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt}))});li.append(b);results.append(li);found++;
       if(++chapterHits===3)break;
@@ -32567,13 +32658,45 @@ function revealSearch(payload){
     if(at>=0&&points[at+target.q.length-1]){const a=points[at],z=points[at+target.q.length-1],range=document.createRange();range.setStart(a.node,a.offset);range.setEnd(z.node,z.offset+1);const r=range.getBoundingClientRect(),v=readerScroll.getBoundingClientRect();readerScroll.scrollBy(0,r.top-v.top-v.height/2)}
   },80);return true;
 }
-$('#findText').oninput=e=>{const q=e.target.value.trim().toLowerCase();$('#findResults').replaceChildren();if(!q)return;for(const p of copy.querySelectorAll('p,h2,h3,li,td,th,details')){if(p.parentElement.closest('p,li,td,th'))continue;if(p.matches('details')&&p.querySelector('p,li,td'))continue;if(!p.textContent.toLowerCase().includes(q))continue;const li=document.createElement('li'),b=document.createElement('button');b.textContent=p.textContent.slice(0,130);b.dir='auto';b.onclick=()=>{closePanel();revealReading(p,{block:'center'})};li.append(b);$('#findResults').append(li)}};
+let findMatches=[],findIndex=-1,findTimer;
+function closeFind(){clearTimeout(findTimer);if(!findBar.hidden){$('#findText').blur();closePanel()}}
+function openFind(){
+  if(!findBar.hidden){closeFind();return}
+  if(panel.open){returnReading(openFind);return}
+  navigateUI('reader',null,true);updateFind();$('#findText').focus({preventScroll:true});
+}
+function updateFind(){
+  findMatches=[];findIndex=-1;const q=$('#findText').value.trim().replace(/\s+/g,' ').toLowerCase();
+  if(q)for(const block of searchBlocks(copy)){
+    const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('[data-reader-metadata],button,summary')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+    let text='',points=[],node,space=false;
+    while(node=walker.nextNode())for(let i=0;i<node.length;i++){const c=node.data[i],blank=/\s/.test(c);if(blank&&space)continue;text+=blank?' ':c;points.push({node,offset:i});space=blank}
+    const lower=text.toLowerCase();let at=0;
+    while((at=lower.indexOf(q,at))!==-1){const a=points[at],z=points[at+q.length-1],range=document.createRange();range.setStart(a.node,a.offset);range.setEnd(z.node,z.offset+1);findMatches.push({range,block});at+=q.length}
+  }
+  if(CSS.highlights)CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));
+  stepFind(1);
+}
+function stepFind(delta){
+  const count=findMatches.length;findIndex=count?(findIndex+delta+count)%count:-1;
+  $('#findCount').textContent=(findIndex+1)+' of '+count;$('#findPrevious').disabled=$('#findNext').disabled=!count;
+  CSS.highlights?.delete('page-find-current');if(!count)return;
+  const {range,block}=findMatches[findIndex];revealReading(block,{block:'center'});
+  const r=range.getBoundingClientRect(),v=readerScroll.getBoundingClientRect();readerScroll.scrollBy(0,r.top-v.top-v.height/2);
+  if(CSS.highlights)CSS.highlights.set('page-find-current',new Highlight(range));
+}
+$('#findToggle').onclick=openFind;$('#findClose').onclick=closeFind;
+$('#findText').oninput=()=>{clearTimeout(findTimer);findTimer=setTimeout(updateFind,120)};
+$('#findText').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();stepFind(e.shiftKey?-1:1)}};
+$('#findPrevious').onclick=()=>stepFind(-1);$('#findNext').onclick=()=>stepFind(1);
+$('#findAll').onclick=()=>{const q=$('#findText').value;$('#findText').blur();view('library',{replace:true});$('#chapterSearch').value=q;searchChapters()};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
 function revealReading(el,options){if(!el)return;if(el.closest('.mock-q,.drill-q')?.hidden&&practiceState){practiceState.retryIds=null;practiceSave();practiceRender()}for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
 // ---------- storage helpers ----------
 function readJSON(k,d){try{const v=JSON.parse(localStorage.getItem(k)||'null');return v??d}catch{return d}}
 function writeJSON(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const cid=String(copy.dataset.chapterId||'');
+function searchLabel(entry){const id=String(entry.number);if(id==='law')return 'Israeli law — reference';if(id==='laws')return 'Israeli law — study and drill';return id.replace(/s$/,'')+(entry.kind==='study'?' study':' chapter')+' — '+entry.title.replace(/ — Study$/i,'')}
 function chapterLabel(ch){ch=String(ch);if(ch==='mock')return 'Mock paper';const e=manifestChapters.find(c=>String(c.number)===ch);if(ch==='law')return 'Israeli law';if(ch==='laws')return 'Israeli law — study';return (/s$/.test(ch)?'Chapter '+ch.slice(0,-1)+' study':'Chapter '+ch)+(e&&!/s$/.test(ch)?' — '+e.title:'')}
 // ---------- transient notice ----------
 let transientNotice='',transientTimer=null;
@@ -32586,12 +32709,6 @@ function textIndex(){
   let s='',nodes=[],offs=[],first=new Map(),n,prevSpace=true;
   while(n=w.nextNode()){const d=n.data;for(let i=0;i<d.length;i++){const ws=/\s/.test(d[i]);if(ws&&prevSpace)continue;if(!first.has(n))first.set(n,nodes.length);s+=ws?' ':d[i];nodes.push(n);offs.push(i);prevSpace=ws}}
   return {s,nodes,offs,first};
-}
-function indexAt(ix,node,off,isEnd){
-  if(node.nodeType!==3){const kids=node.childNodes;let t=null;if(isEnd){for(let i=Math.min(off,kids.length)-1;i>=0&&!t;i--){const tw=document.createTreeWalker(kids[i],NodeFilter.SHOW_TEXT);let x;while(x=tw.nextNode())t=x;if(!t&&kids[i].nodeType===3)t=kids[i]}if(t)return indexAt(ix,t,t.length,true)}else{for(let i=off;i<kids.length&&!t;i++){t=kids[i].nodeType===3?kids[i]:document.createTreeWalker(kids[i],NodeFilter.SHOW_TEXT).nextNode()}if(t)return indexAt(ix,t,0,false)}return -1}
-  let k=ix.first.get(node);if(k===undefined)return -1;
-  while(k<ix.nodes.length&&ix.nodes[k]===node&&ix.offs[k]<off)k++;
-  return k;
 }
 function wrapIndexRange(ix,start,end,id,colour){
   const spans=[];let k=start;
@@ -32611,24 +32728,10 @@ function placeRange(id,m){
 }
 function unwrapRange(id){const r=rangeMarks.get(id);if(!r)return;for(const sp of r.spans){const p=sp.parentNode;if(!p)continue;sp.replaceWith(...sp.childNodes);p.normalize()}rangeMarks.delete(id)}
 function saveRanges(){try{const saved=readHighlights();saved.ranges=Object.fromEntries([...rangeMarks].map(([id,r])=>[id,{colour:r.colour,text:r.text,prefix:r.prefix,suffix:r.suffix}]).concat(unplacedRanges.map(r=>[r.id,{colour:r.colour,text:r.text,prefix:r.prefix,suffix:r.suffix}])));writeHighlights(saved);highlightSaveFailed=false}catch{highlightSaveFailed=true}updateStorageNotice()}
-function addRangeMark(range){
-  const ix=textIndex();let a=indexAt(ix,range.startContainer,range.startOffset,false),b=indexAt(ix,range.endContainer,range.endOffset,true);
-  if(a<0)a=ix.nodes.findIndex((n,k)=>range.comparePoint(n,ix.offs[k])===0);
-  if(b<0){b=-1;for(let k=ix.nodes.length-1;k>=0;k--)if(range.comparePoint(ix.nodes[k],ix.offs[k])===0&&range.comparePoint(ix.nodes[k],ix.offs[k]+1)===0){b=k+1;break}}
-  if(a<0||b<0)return false;while(a<b&&ix.s[a]===' ')a++;while(b>a&&ix.s[b-1]===' ')b--;if(b<=a)return false;
-  const id='r'+Date.now().toString(36),m={colour,text:ix.s.slice(a,b),prefix:ix.s.slice(Math.max(0,a-40),a),suffix:ix.s.slice(b,b+40)};
-  const spans=wrapIndexRange(ix,a,b,id,colour);rangeMarks.set(id,{...m,spans});saveRanges();return true;
-}
-function removeRangeMark(id){unwrapRange(id);saveRanges()}
-const selBtn=document.createElement('button');selBtn.id='highlightSelection';selBtn.className='primary';selBtn.type='button';selBtn.textContent='Highlight selection';selBtn.hidden=true;document.body.append(selBtn);
-function selectionInCopy(){const sel=getSelection();if(!sel||sel.isCollapsed||!sel.rangeCount||$('#reader').hidden)return null;const r=sel.getRangeAt(0);if(!copy.contains(r.commonAncestorContainer)||!r.toString().trim())return null;return r}
-document.addEventListener('selectionchange',()=>{selBtn.hidden=!selectionInCopy()});
-selBtn.addEventListener('pointerdown',e=>e.preventDefault());selBtn.addEventListener('mousedown',e=>e.preventDefault());
-selBtn.onclick=()=>{const r=selectionInCopy();if(r&&addRangeMark(r))flash('Highlighted. Turn marking on and tap it to remove.',3000);getSelection().removeAllRanges();selBtn.hidden=true};
+function removeRangeMark(id){unwrapRange(id);saveRanges();if(!highlightSaveFailed)showSaved('✓ Removed')}
 function resyncHighlights(){for(const u of unitMap.values())if(u.marked){u.marked=false;u.colour=null;paintUnit(u)}for(const id of [...rangeMarks.keys()])unwrapRange(id);highlightLoadFailed=false;restoreHighlights()}
 addEventListener('pageshow',e=>{if(e.persisted&&!pendingHighlightChanges.size)resyncHighlights()});
 addEventListener('storage',e=>{if(e.key===highlightStorageKey&&!pendingHighlightChanges.size)resyncHighlights()});
-{const base=setMarking;setMarking=function(on){const was=marking;base(on);if(on&&!was)flash('Marking on: tap a sentence — or long-press, drag to the exact words, then tap “Highlight selection”. Tap a highlight to remove it.',6000)}}
 // ---------- images: tap or double-tap to open a zoomable view ----------
 const zoom=document.createElement('dialog');zoom.id='imageZoom';zoom.dataset.readerMetadata='zoom';zoom.innerHTML='<div class="zoom-stage"></div><div class="zoom-bar"><span class="meta">Pinch or double-tap to zoom · drag to move</span><button type="button" class="zoom-close">Close</button></div>';document.body.append(zoom);
 let zs={scale:1,x:0,y:0,base:1},zEl=null;const zPtr=new Map();let zLastTap={t:0,x:0,y:0},zPrev=null;
@@ -32693,34 +32796,37 @@ async function refreshLibraryMarks(){
 }
 
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
-function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:+(readerScroll.scrollTop/span).toFixed(4),at:Date.now()}}
-function goToPlace(p){if(!p)return;const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;all.last=p;writeJSON(PLACE_KEY,all);rememberFurthest(p);refreshResume()}
+function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:readerScroll.scrollTop/span,at:Date.now()}}
+function goToPlace(p,exact=false){if(!p)return;if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
+function rememberPlace(){if($('#reader').hidden||panel.open||zoom.open)return;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;writeJSON(PLACE_KEY,all);rememberFurthest(p);refreshResume()}
 let placeTimer=null,userScrolled=false;
 let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
 readerScroll.addEventListener('scroll',()=>{
   const y=Math.max(0,readerScroll.scrollTop),delta=y-headerScrollY,direction=Math.sign(delta);
-  if(y<=0||marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;headerDirection=0}
+  if(y<=0||marking||!findBar.hidden){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;headerDirection=0}
   else if(delta&&cid!=='mock'){
     headerTravel=direction===headerDirection?headerTravel+Math.abs(delta):Math.abs(delta);headerDirection=direction;
     if(direction>0&&headerTravel>=60){chapterHeader.classList.add('is-collapsed');chapterHeader.inert=true}
     else if(direction<0&&headerTravel>=30){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   }
-  headerScrollY=y;showJumpPills();
+  headerScrollY=y;showJumpPills();syncBookmark();
   if(currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
   clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,700);
 },{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
 addEventListener('pagehide',rememberPlace);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else if(!pendingHighlightChanges.size)resyncHighlights()});
+function bookmarkAtPlace(p){return readJSON(BOOKMARK_KEY,[]).find(b=>b.chapter===p.chapter&&(p.unit?b.unit===p.unit:Math.abs(b.ratio-p.ratio)<0.001))}
+function syncBookmark(){if(!marking)return;const saved=!!bookmarkAtPlace(currentPlace());$('#bookmark').textContent=saved?'Remove bookmark':'Bookmark this spot';$('#bookmark').setAttribute('aria-pressed',String(saved))}
 function savePlaceNow(){
   if($('#reader').hidden)return;
-  const p=currentPlace(),list=readJSON(BOOKMARK_KEY,[]).filter(b=>!(b.chapter===p.chapter&&b.unit&&b.unit===p.unit));list.unshift(p);
-  const saved=writeJSON(BOOKMARK_KEY,list.slice(0,60))===true;closePanel();
-  flash(saved?'Place saved — it is listed in Your notebook.':'This place could not be saved. Storage may be full or unavailable.',saved?3000:6000);
+  const p=currentPlace(),existing=bookmarkAtPlace(p),list=readJSON(BOOKMARK_KEY,[]);
+  const next=existing?list.filter(b=>b.at!==existing.at):[p,...list];
+  if(writeJSON(BOOKMARK_KEY,next)){showSaved(existing?'✓ Removed':'✓ Saved');syncBookmark()}
+  else flash('This bookmark change could not be saved. Storage may be full or unavailable.',6000);
 }
-$('#savePlace').onclick=savePlaceNow;$('#bookmark').textContent='Save this place';$('#bookmark').onclick=savePlaceNow;
-// Desk resume card follows the last chapter actually read, across chapters.
+$('#bookmark').onclick=savePlaceNow;
+// Desk resume// Desk resume card follows the last chapter actually read, across chapters.
 function refreshResume(){
   const last=readJSON(PLACE_KEY,{}).last;
   $('.resume-card h2').textContent=chapterLabel(last?.chapter||cid);
@@ -32728,7 +32834,7 @@ function refreshResume(){
   $('.resume-card .meta').dir='auto';
 }
 refreshResume();
-$('#resume').onclick=()=>{const last=readJSON(PLACE_KEY,{}).last;if(last&&String(last.chapter)!==cid)openChapter(last.chapter);else{view('reader');goToPlace(readJSON(PLACE_KEY,{}).chapters?.[cid])}};
+$('#resume').onclick=readingTab;
 function collectMissed(){
   const archive=readJSON(MISSED_KEY,{questions:{}});archive.questions=archive.questions||{};let changed=false;
   const states=[...Object.values(readJSON(DRILL_KEY,{}).chapters||{}),readJSON(MOCK_KEY,{})];
@@ -32755,14 +32861,17 @@ async function renderMissedDeck(){
       const question=questions[Number(id.split(':')[1])-1];if(!question){unavailable++;continue}
       const item=document.createElement('section');item.className='missed-question';item.dataset.missedId=id;item.dir='auto';
       item.innerHTML='<p><strong>'+marked.parseInline(question.q)+'</strong></p><details><summary>Answer</summary>'+marked.parse(question.a)+'</details>';
-      const got=document.createElement('button');got.textContent='Got it';got.onclick=()=>{
-        const drills=readJSON(DRILL_KEY,{}),mock=readJSON(MOCK_KEY,null);let saved=true;
-        for(const state of Object.values(drills.chapters||{}))if(state.grades?.[id]===0)state.grades[id]=1;
+      const got=document.createElement('button');got.textContent='Got it';got.setAttribute('aria-pressed','false');let resolved=false;
+      got.onclick=()=>{
+        const grade=resolved?0:1,drills=readJSON(DRILL_KEY,{}),mock=readJSON(MOCK_KEY,null);let saved=true;
+        for(const state of Object.values(drills.chapters||{}))if(Object.hasOwn(state.grades||{},id))state.grades[id]=grade;
         saved=writeJSON(DRILL_KEY,drills)&&saved;
-        if(mock?.grades?.[id]===0){mock.grades[id]=1;saved=writeJSON(MOCK_KEY,mock)&&saved}
-        if(saved){const current=collectMissed();current.questions[id]={grade:1,at:Date.now()};saved=writeJSON(MISSED_KEY,current)}
+        if(Object.hasOwn(mock?.grades||{},id)){mock.grades[id]=grade;saved=writeJSON(MOCK_KEY,mock)&&saved}
+        if(saved){const current=collectMissed();current.questions[id]={grade,at:Date.now()};saved=writeJSON(MISSED_KEY,current)}
         if(!saved){status.textContent='Could not save this answer. Keep this page open and try again.';return}
-        resyncPractice();refreshMissedCount();refreshLibraryMarks();renderMissedDeck();
+        resolved=!resolved;got.textContent=resolved?'Undo · keep missed':'Got it';got.setAttribute('aria-pressed',String(resolved));
+        resyncPractice();refreshMissedCount();refreshLibraryMarks();showSaved();
+        status.textContent=Object.values(collectMissed().questions).filter(q=>q.grade===0).length+' questions still missed.';
       };item.append(got);group.append(item);
     }
     host.append(group);
@@ -32787,9 +32896,8 @@ function practiceRender(){
   const grades=practiceQuestions.map(q=>practiceState.grades[q.dataset.q]).filter(v=>v===0||v===1),right=grades.filter(v=>v===1).length;
   practiceScore.textContent='Marked '+grades.length+' of '+practiceQuestions.length+(grades.length?' · '+right+' right ('+Math.round(100*right/grades.length)+'%)':'');
   const wrong=practiceQuestions.filter(q=>practiceState.grades[q.dataset.q]===0).length;
-  practiceActions.querySelector('[data-retry="missed"]').textContent='Retry missed ('+wrong+')';
-  practiceActions.querySelector('[data-retry="missed"]').disabled=!wrong;
-  practiceActions.querySelector('[data-retry="all"]').hidden=!practiceState.retryIds;
+  practiceActions.querySelector('[data-retry="missed"]').textContent=practiceState.retryIds?'Show all questions':'Retry missed ('+wrong+')';
+  practiceActions.querySelector('[data-retry="missed"]').disabled=!wrong&&!practiceState.retryIds;
   for(const q of practiceQuestions){
     q.hidden=!!practiceState.retryIds&&!practiceState.retryIds.includes(q.dataset.q);
     for(const b of q.querySelectorAll('[data-grade]'))b.setAttribute('aria-pressed',String(practiceState.grades[q.dataset.q]===Number(b.dataset.grade)));
@@ -32803,6 +32911,7 @@ function gradePractice(b){
 }
 function retryPractice(mode){
   if(!practiceState)return;
+  if(practiceState.retryIds)mode='all';
   practiceState.retryIds=mode==='missed'?practiceQuestions.filter(q=>practiceState.grades[q.dataset.q]===0).map(q=>q.dataset.q):null;
   if(mode==='missed'&&!practiceState.retryIds.length){practiceState.retryIds=null;return}
   practiceSave();practiceRender();revealReading(practiceScore,{block:'start'});
@@ -32828,7 +32937,7 @@ function initializePractice(){
   practiceScore=isStudy?document.createElement('p'):copy.querySelector('.mock-score');
   if(isStudy){practiceScore.className='meta drill-score';practiceScore.dataset.readerMetadata='score';practiceQuestions[0].before(practiceScore)}
   practiceActions=document.createElement('div');practiceActions.className='mock-actions';practiceActions.dataset.readerMetadata='practice-actions';
-  practiceActions.innerHTML='<button data-retry="missed">Retry missed</button><button data-retry="all" hidden>Show all questions</button>';
+  practiceActions.innerHTML='<button data-retry="missed">Retry missed</button>';
   practiceScore.after(practiceActions);
   for(const q of practiceQuestions){
     const answer=q.querySelector('details');answer.open=practiceState.revealed.includes(q.dataset.q);
@@ -32840,6 +32949,7 @@ function initializePractice(){
   practiceRender();
 }
 initializePractice();
+$('#undoMock')?.addEventListener('click',()=>{const previous=history.state?.hazzardPreviousMock;if(!previous)return;if(!writeJSON(MOCK_KEY,previous)){flash('The previous paper could not be restored. Try again.');return}const state={...history.state};delete state.hazzardPreviousMock;history.replaceState(state,'');location.reload()});
 refreshLibraryMarks();refreshMissedCount();
 addEventListener('pageshow',event=>{if(event.persisted){refreshLibraryMarks();refreshMissedCount()}});
 addEventListener('storage',event=>{if([READING_KEY,DRILL_KEY,MOCK_KEY,MISSED_KEY].includes(event.key)){refreshLibraryMarks();refreshMissedCount()}});
@@ -32872,7 +32982,7 @@ function chapterNavigation(){
     const label=(id==='law'?'':id+' ')+shortChapter(entry);b.textContent=side==='previous'?'‹ '+label:label+' ›';b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
     const quick=$(side==='previous'?'#headerPrevious':'#headerNext');quick.hidden=false;quick.dataset.chapter=b.dataset.chapter;quick.textContent=side==='previous'?'‹':'›';quick.setAttribute('aria-label',b.getAttribute('aria-label'));quick.title=b.getAttribute('aria-label');
   }
-  const end=nav.cloneNode(true);end.classList.add('endcap');copy.after(end);$('[data-pane="contents"] .rows').before(nav);
+  const end=nav.cloneNode(true);end.classList.add('endcap');copy.after(end);
 }
 chapterNavigation();syncTabs();
 // ---------- study timer ----------
@@ -32894,12 +33004,14 @@ function tStep(){
   if(changed){saveTimer();if(done){try{navigator.vibrate?.([300,150,300])}catch{}flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}}
   tRender();
 }
-$('#timerStart').onclick=()=>{if(tState.running){tStep();tState.running=false;tState.end=0;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}saveTimer();tRender()};
-$('#timerReset').onclick=()=>{clearInterval(tTick);tState=newTimer();saveTimer();tRender()};
+let timerBeforeReset=null;
+$('#timerStart').onclick=()=>{timerBeforeReset=null;$('#timerReset').textContent='Reset';if(tState.running){tStep();tState.running=false;tState.end=0;clearInterval(tTick)}else{tState.running=true;tState.end=Date.now()+tState.left*1000;tTick=setInterval(tStep,1000)}saveTimer();tRender()};
+$('#timerReset').onclick=()=>{clearInterval(tTick);if(timerBeforeReset){tState=timerBeforeReset;timerBeforeReset=null;if(tState.running){tStep();tTick=setInterval(tStep,1000)}}else{tStep();timerBeforeReset={...tState};tState=newTimer()}$('#timerReset').textContent=timerBeforeReset?'Undo reset':'Reset';saveTimer();tRender()};
 // Copy a valid legacy session once; never write or remove the legacy key.
 if(storedTimer===null&&validTimer(legacyTimer))saveTimer();
 if(tState.running){tStep();tTick=setInterval(tStep,1000)}
 function resyncTimer(){
+  timerBeforeReset=null;$('#timerReset').textContent='Reset';
   const saved=readJSON(TIMER_KEY,null);
   clearInterval(tTick);if(!timerSaveFailed&&validTimer(saved))tState=saved;
   if(tState.running){tStep();tTick=setInterval(tStep,1000)}else tRender();
@@ -32908,7 +33020,7 @@ addEventListener('pageshow',event=>{if(event.persisted)resyncTimer()});
 addEventListener('storage',event=>{if(event.key===TIMER_KEY)resyncTimer()});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)resyncTimer()});
 // Portable notebook backups contain only the reader's named stores, never other apps' data.
-const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1']);
+const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4']);
 const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')||notebookKeys.has(key);
 const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
@@ -32927,6 +33039,7 @@ function validateNotebookValue(key,value){
   else if(key===READING_KEY)valid=isRecord(value)&&isRecord(value.chapters)&&Object.values(value.chapters).every(p=>isRecord(p)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&typeof p.read==='boolean');
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
+  else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&['yellow','green','blue'].includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
 function mergeProgress(current,incoming){
@@ -33001,6 +33114,7 @@ $('#notebookBackupFile').onchange=async event=>{
     let addedMockQuestions=false;
     if(cid==='mock'&&practiceState){const restored=readJSON(MOCK_KEY,practiceState);addedMockQuestions=JSON.stringify(restored.ids)!==JSON.stringify(practiceState.ids);practiceState=restored;practiceRender()}
     else resyncPractice();
+    const display=readJSON('stage-a-display-v4',null);if(display){size=display.size;colour=display.colour;document.documentElement.dataset.theme=display.theme;applyDisplay()}
     resyncTimer();refreshResume();renderNotebook();refreshLibraryMarks();refreshMissedCount();
     const mock=readJSON(MOCK_KEY,null);if(mock?.ids?.length){$('#mockResume').hidden=false;$('#mockResume').textContent='Continue current paper ('+Object.keys(mock.grades||{}).length+'/'+mock.ids.length+' marked)'}
     notebookStatus((changes.length?'Backup merged. Existing highlights, grades and saved places were kept.':'Everything in this backup is already saved.')+(addedMockQuestions?' Reload the mock page to show added questions.':''));
@@ -33016,17 +33130,16 @@ restoreHighlights();
   else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
   else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}
   else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>t.scrollIntoView(),60);done=true}}
-  if(!done&&!requestedChapter)view('desk',{replace:true,remember:false});
-  else if(!done&&newMockPaper){scrollReadingTo(0);rememberPlace()}
-  else if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0.005){goToPlace(p);flash('Back where you left off.',2500);addEventListener('load',()=>{if(!userScrolled)goToPlace(p)})}}
+  if(!done&&newMockPaper){scrollReadingTo(0);rememberPlace()}
+  else if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0){goToPlace(p,true);flash('Back where you left off.',2500);addEventListener('load',()=>{if(!userScrolled)goToPlace(p,true)})}}
 }
 if(!history.state?.hazzardView){try{history.replaceState({...history.state,hazzardView:currentView,hazzardReaderY:readerScroll.scrollTop},'')}catch{}}
-else if(!newMockPaper&&history.state.hazzardView!==currentView)view(history.state.hazzardView,{fromHistory:true,remember:false});
+else if(!newMockPaper)renderScreen(history.state);
 })();</script>
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v36',label=document.getElementById('offlineReady');
+  const version='v37',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
