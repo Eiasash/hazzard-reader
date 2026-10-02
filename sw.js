@@ -1,9 +1,23 @@
-const CACHE_VERSION = 'v31';
+const CACHE_VERSION = 'v32';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const RUNTIME_CACHE = 'hazzard-runtime-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
 const SHELL_FILES = ['./', SHELL_URL, './js/marked.min.js', './manifest.json'];
 const READY_URL = './.offline-ready';
+
+async function matchActiveCache(request) {
+  for (const cacheName of [RUNTIME_CACHE, SHELL_CACHE].filter(name => name.startsWith('hazzard-'))) {
+    const cached = await caches.match(request, { cacheName, ignoreSearch: true });
+    if (cached) return cached;
+  }
+}
+
+async function verifyCachedAssets(cache, urls) {
+  for (const url of urls) {
+    const response = await cache.match(url);
+    if (!response?.ok) throw new Error('Precache verification failed: ' + url);
+  }
+}
 
 async function precache(url, cache) {
   let failure;
@@ -52,7 +66,10 @@ self.addEventListener('install', event => {
     const manifestUrls = await collectManifestAssets(cache);
     // Markdown was cached during discovery. Every remaining asset must succeed.
     await Promise.all([...manifestUrls].filter(url => !url.endsWith('.md')).map(url => precache(url, cache)));
-    await cache.put(READY_URL, new Response(JSON.stringify({ version: CACHE_VERSION, complete: true }), { headers: { 'Content-Type': 'application/json' } }));
+    const assets = [...new Set([...SHELL_FILES, ...manifestUrls])];
+    await verifyCachedAssets(cache, assets);
+    await cache.put(READY_URL, new Response(JSON.stringify({ version: CACHE_VERSION, complete: true, assets }), { headers: { 'Content-Type': 'application/json' } }));
+    if (!(await cache.match(READY_URL))) throw new Error('Precache readiness marker missing');
     await self.skipWaiting();
   })());
 });
@@ -60,8 +77,17 @@ self.addEventListener('install', event => {
 self.addEventListener('message', event => {
   if (event.data?.type !== 'HAZZARD_OFFLINE_STATUS') return;
   event.waitUntil((async () => {
-    const ready = await (await caches.open(SHELL_CACHE)).match(READY_URL);
-    event.source?.postMessage({ type: 'HAZZARD_OFFLINE_STATUS', version: CACHE_VERSION, complete: !!ready });
+    let complete = false;
+    try {
+      const cache = await caches.open(SHELL_CACHE);
+      const ready = await cache.match(READY_URL);
+      const status = ready && await ready.json();
+      if (status?.version === CACHE_VERSION && status.complete === true && Array.isArray(status.assets) && status.assets.length) {
+        await verifyCachedAssets(cache, status.assets);
+        complete = true;
+      }
+    } catch {}
+    event.source?.postMessage({ type: 'HAZZARD_OFFLINE_STATUS', version: CACHE_VERSION, complete });
   })());
 });
 
@@ -115,7 +141,7 @@ self.addEventListener('fetch', event => {
         }
         return network;
       } catch {
-        const cached = await (await caches.open(RUNTIME_CACHE)).match(req, { ignoreSearch: true }) || await caches.match(req, { ignoreSearch: true });
+        const cached = await matchActiveCache(req);
         return cached || Response.error();
       }
     })());
@@ -133,7 +159,7 @@ self.addEventListener('fetch', event => {
       }
       return network;
     } catch {
-      const cached = await (await caches.open(RUNTIME_CACHE)).match(req, { ignoreSearch: true }) || await caches.match(req, { ignoreSearch: true });
+      const cached = await matchActiveCache(req);
       return cached || Response.error();
     }
   })());
