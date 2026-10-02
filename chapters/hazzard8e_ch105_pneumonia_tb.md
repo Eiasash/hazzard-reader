@@ -164,7 +164,7 @@ predicting hospital mortality and/or the need for mechanical ventilation or inot
 
 ![Figure 105-2](hazzard8e_ch105_figure105-2.png)
 
-> *FIGURE 105-2. Pneumonia severity should be assessed according to the clinical situation, biomarkers, and risk stratification scales. In severe cases, the possibility of infection by resistant microorganisms is increased; therefore, expanded antimicrobial therapy should be considered, especially when a risk factor is present. Infection by resistant pathogens should be considered, and likelihood of infection by _Pseudomonas aeruginosa_ , methicillin-resistant _Staphylococcus aureus_ , or extendedspectrum β-lactamase–producing _Enterobacteriaceae_ specifically assessed to choose antibiotic coverage. Colonization of the oropharynx by _Enterobacteriaceae_ is more likely in those with severe functional dependence.*
+> *FIGURE 105-2. Pneumonia severity should be assessed according to the clinical situation, biomarkers, and risk stratification scales. In severe cases, the possibility of infection by resistant microorganisms is increased; therefore, expanded antimicrobial therapy should be considered, especially when a risk factor is present. Infection by resistant pathogens should be considered, and likelihood of infection by _Pseudomonas aeruginosa_ , methicillin-resistant _Staphylococcus aureus_ , or extended-spectrum β-lactamase–producing _Enterobacteriaceae_ specifically assessed to choose antibiotic coverage. Colonization of the oropharynx by _Enterobacteriaceae_ is more likely in those with severe functional dependence.*
 
 **Table 105-4 — Prognostic scales: CURB-65**
 
