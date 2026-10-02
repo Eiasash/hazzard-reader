@@ -31992,6 +31992,7 @@ if(true){
   }
 })();
 function openChapter(chapter,opts={}){
+  if(String(chapter)===cid&&!opts.hash&&!opts.n){view('reader');return}
   if(closingHistory){queuedChapter={chapter,opts};return}
   if(panel.open&&sheetKey&&history.state?.stageAReaderSheet===sheetKey){queuedChapter={chapter,opts};closePanel();return}
   rememberPlace();
@@ -32709,7 +32710,7 @@ else if(!newMockPaper&&history.state.hazzardView!==currentView)view(history.stat
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v32',label=document.getElementById('offlineReady');
+  const version='v33',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
