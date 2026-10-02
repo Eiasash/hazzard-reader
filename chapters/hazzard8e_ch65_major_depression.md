@@ -313,7 +313,7 @@ Many thanks to Charles F. Reynolds, III, MD, for his contributions to the Depres
 
 - Tveito M, Bramness JG, Engedal K. Psychotropic medication in geriatric psychiatry patients: use and unreported use in relation to serum concentrations. _Eur J Clin Pharmacol._ 2014;70:1139–1145.
 
-- Undurraga J, Baldessarini RJ. Randomized, placebocontrolled trials of antidepressants for acute major depression: thirty-year meta-analytic review. _Neuropsychopharmacology._ 2012;37:851–864.
+- Undurraga J, Baldessarini RJ. Randomized, placebo-controlled trials of antidepressants for acute major depression: thirty-year meta-analytic review. _Neuropsychopharmacology._ 2012;37:851–864.
 
 - Unützer J, Carlo AC, Arao, et al. Variation in the effectiveness of collaborative care for depression: does it matter where you get your care? _Health Aff._ 2020;39(11): 1943–1950.
 

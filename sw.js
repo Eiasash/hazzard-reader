@@ -1,166 +1,98 @@
-const CACHE_VERSION = 'v35';
+const CACHE_VERSION = 'v36';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
-const RUNTIME_CACHE = 'hazzard-runtime-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
-const SHELL_FILES = ['./', SHELL_URL, './js/marked.min.js', './manifest.json'];
+const LIST_URL = './asset-list.json';
 const READY_URL = './.offline-ready';
-
-async function matchActiveCache(request) {
-  for (const cacheName of [RUNTIME_CACHE, SHELL_CACHE].filter(name => name.startsWith('hazzard-'))) {
-    const cached = await caches.match(request, { cacheName, ignoreSearch: true });
-    if (cached) return cached;
-  }
-}
 
 async function verifyCachedAssets(cache, urls) {
   for (const url of urls) {
-    const response = await cache.match(url);
-    if (!response?.ok) throw new Error('Precache verification failed: ' + url);
+    if (!(await cache.match(url))?.ok) throw new Error('Missing offline file: ' + url);
   }
 }
-
-async function precache(url, cache) {
+async function fingerprint(response) {
+  const digest = await crypto.subtle.digest('SHA-256', await response.arrayBuffer());
+  return [...new Uint8Array(digest)].map(x => x.toString(16).padStart(2, '0')).join('');
+}
+async function download(url, hash) {
   let failure;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
-      const response = await fetch(url, { cache: url.endsWith('manifest.json') ? 'no-store' : 'default' });
-      if (!response.ok) throw new Error('Precache HTTP ' + response.status + ': ' + url);
-      await cache.put(url, response.clone());
+      const response = await fetch(url, { cache: 'no-store' });
+      if (!response.ok) throw new Error('Download failed: ' + url);
+      if (hash && await fingerprint(response.clone()) !== hash) throw new Error('File changed during update: ' + url);
       return response;
     } catch (error) { failure = error; }
   }
-  throw failure || new Error('Precache failed: ' + url);
+  throw failure;
 }
-
-// Every chapter's content lives inside index.html (baked <template> blocks) or,
-// for chapters without one yet, is fetched from manifest.json + chapters/*.md.
-// Precache both so a chapter works offline even if it was never opened.
-async function collectManifestAssets(cache) {
-  const urls = new Set();
-  const manifestRes = await cache.match('./manifest.json');
-  if (!manifestRes) throw new Error('Precache manifest missing');
-  const manifest = await manifestRes.json();
-  if (!Array.isArray(manifest.chapters) || !manifest.chapters.length) throw new Error('Precache manifest has no chapters');
-  for (const entry of manifest.chapters) {
-    if (!entry.file) throw new Error('Precache chapter has no file');
-    const mdUrl = './chapters/' + entry.file;
-    urls.add(mdUrl);
-    // Discovery must also succeed: otherwise missing Markdown hides its figures.
-    const mdRes = await precache(mdUrl, cache);
-    const mdText = await mdRes.text();
-    const imgRe = /!\[[^\]]*\]\(([^)\s]+\.(?:png|jpe?g|gif|svg))\)/gi;
-    let match;
-    while ((match = imgRe.exec(mdText))) {
-      const file = match[1].split('/').pop();
-      urls.add('./chapters/' + file);
-    }
-  }
-  return urls;
-}
-
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(SHELL_CACHE);
     await cache.delete(READY_URL);
-    await Promise.all(SHELL_FILES.map(url => precache(url, cache)));
-    const manifestUrls = await collectManifestAssets(cache);
-    // Markdown was cached during discovery. Every remaining asset must succeed.
-    await Promise.all([...manifestUrls].filter(url => !url.endsWith('.md')).map(url => precache(url, cache)));
-    const assets = [...new Set([...SHELL_FILES, ...manifestUrls])];
+    const listResponse = await download(LIST_URL);
+    const list = await listResponse.clone().json();
+    if (list.version !== CACHE_VERSION || !list.files?.length) throw new Error('Wrong offline file list');
+    // v35 has no fingerprints. Hash its cached bytes locally, too: no one-time
+    // book download is needed. Never inspect another application's caches.
+    const names = (await caches.keys()).filter(n => n.startsWith('hazzard-'));
+    const previous = await Promise.all(names.map(n => caches.open(n)));
+    const queue = [...list.files];
+    const workers = Array.from({ length: 6 }, async () => {
+      while (queue.length) {
+        const { url, sha256 } = queue.shift();
+        const absolute = new URL(url, self.registration.scope);
+        if (!absolute.href.startsWith(self.registration.scope) || !/^[a-f0-9]{64}$/.test(sha256)) throw new Error('Invalid offline file');
+        let response;
+        for (const old of previous) {
+          const candidate = await old.match(url);
+          if (candidate?.ok && await fingerprint(candidate.clone()) === sha256) { response = candidate; break; }
+        }
+        response ||= await download(url, sha256);
+        await cache.put(url, response);
+      }
+    });
+    const results = await Promise.allSettled(workers);
+    const failed = results.find(r => r.status === 'rejected');
+    if (failed) throw failed.reason; // Old worker and old caches remain intact.
+    await cache.put(LIST_URL, listResponse);
+    const assets = [LIST_URL, ...list.files.map(f => f.url)];
     await verifyCachedAssets(cache, assets);
     await cache.put(READY_URL, new Response(JSON.stringify({ version: CACHE_VERSION, complete: true, assets }), { headers: { 'Content-Type': 'application/json' } }));
-    if (!(await cache.match(READY_URL))) throw new Error('Precache readiness marker missing');
     await self.skipWaiting();
   })());
 });
-
+async function offlineStatus() {
+  const cache = await caches.open(SHELL_CACHE);
+  const ready = await cache.match(READY_URL);
+  const status = ready && await ready.json();
+  if (status?.version !== CACHE_VERSION || status.complete !== true || !status.assets?.length) throw new Error('Update incomplete');
+  await verifyCachedAssets(cache, status.assets);
+  return cache;
+}
 self.addEventListener('message', event => {
   if (event.data?.type !== 'HAZZARD_OFFLINE_STATUS') return;
   event.waitUntil((async () => {
     let complete = false;
-    try {
-      const cache = await caches.open(SHELL_CACHE);
-      const ready = await cache.match(READY_URL);
-      const status = ready && await ready.json();
-      if (status?.version === CACHE_VERSION && status.complete === true && Array.isArray(status.assets) && status.assets.length) {
-        await verifyCachedAssets(cache, status.assets);
-        complete = true;
-      }
-    } catch {}
+    try { await offlineStatus(); complete = true; } catch {}
     event.source?.postMessage({ type: 'HAZZARD_OFFLINE_STATUS', version: CACHE_VERSION, complete });
   })());
 });
-
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
+    await offlineStatus();
     const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k.startsWith('hazzard-') && k !== SHELL_CACHE && k !== RUNTIME_CACHE).map(k => caches.delete(k)));
+    await Promise.all(keys.filter(k => k.startsWith('hazzard-') && k !== SHELL_CACHE).map(k => caches.delete(k)));
     await self.clients.claim();
   })());
 });
-
 self.addEventListener('fetch', event => {
   const req = event.request;
-  if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
-
-  // Every navigation (any ?chapter=NN, any query string) renders the same
-  // app shell — chapter content lives inside it. Never key the shell lookup
-  // on the query string, and never let respondWith reject.
-  if (req.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const network = await fetch(req);
-        if (network && network.ok) {
-          const cache = await caches.open(SHELL_CACHE);
-          cache.put(SHELL_URL, network.clone());
-          cache.put('./', network.clone());
-          return network;
-        }
-      } catch {}
-      const cache = await caches.open(SHELL_CACHE);
-      const cached = await cache.match(SHELL_URL) || await cache.match(req, { ignoreSearch: true });
-      return cached || Response.error();
-    })());
-    return;
-  }
-
-  // manifest.json specifically: always try the network with the browser's
-  // own HTTP cache bypassed (GitHub Pages serves it with max-age=600, which
-  // a plain fetch() can satisfy from disk cache without ever reaching the
-  // network, even inside this "network-first" handler). A stale manifest
-  // is exactly how a brand-new chapter can go missing right after a
-  // deploy. Offline fallback is unaffected -- still the runtime cache.
-  const isManifest = new URL(req.url).pathname.endsWith('/manifest.json');
-  if (isManifest) {
-    event.respondWith((async () => {
-      try {
-        const network = await fetch(req, { cache: 'no-store' });
-        if (network && network.ok) {
-          const cache = await caches.open(RUNTIME_CACHE);
-          cache.put(req, network.clone());
-        }
-        return network;
-      } catch {
-        const cached = await matchActiveCache(req);
-        return cached || Response.error();
-      }
-    })());
-    return;
-  }
-
-  // Everything else (images, .md, vendored js): network-first,
-  // refresh the cache when online, fall back to cache when offline.
+  if (req.method !== 'GET' || !req.url.startsWith(self.registration.scope)) return;
   event.respondWith((async () => {
-    try {
-      const network = await fetch(req);
-      if (network && network.ok) {
-        const cache = await caches.open(RUNTIME_CACHE);
-        cache.put(req, network.clone());
-      }
-      return network;
-    } catch {
-      const cached = await matchActiveCache(req);
-      return cached || Response.error();
-    }
+    const cache = await caches.open(SHELL_CACHE);
+    // Serve one complete release, online as well as offline. Network-first
+    // navigation could otherwise mix a new shell with an interrupted update.
+    const cached = await cache.match(req.mode === 'navigate' ? SHELL_URL : req, { ignoreSearch: true });
+    return cached || fetch(req);
   })());
 });
