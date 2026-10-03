@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v54';
+const CACHE_VERSION = 'v54-r1';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
 const LIST_URL = './asset-list.json';

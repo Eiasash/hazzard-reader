@@ -1,5 +1,5 @@
 {
-  "version": "v54",
+  "version": "v54-r1",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1978,8 +1978,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "c9f152bdc69c72073d2fe9e1b0299d9bd528824100691291ee9b8a3c2b8df2ca",
-      "bytes": 3260610
+      "sha256": "ebdbce5234cb30c7197774d0ac3dff6031210d2f08a0d1a4c67887cb8d5504f5",
+      "bytes": 3260941
     },
     {
       "url": "./js/marked.min.js",
@@ -1993,13 +1993,13 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "02bc7d7bcc05956586d662c573826b0342ff9faa61688c6e1f16092b947d2733",
-      "bytes": 9792
+      "sha256": "d8d75f37c8fa517fc142f779309dd0cc92b8cdd787354fbdc923bd5e9393ea05",
+      "bytes": 10461
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "031905f0c3600100c112164f328ac38329935693e6c4335015722acb52aabfa5",
-      "bytes": 6130
+      "sha256": "b860a27c35fbf440c52514ea7308069615ab427bc8f19886e52ca3cc060b1916",
+      "bytes": 6593
     },
     {
       "url": "./js/reader-storage.js",
