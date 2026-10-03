@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v51', RELEASED = '03.10.2026';
+  const VERSION = 'v51-r1', RELEASED = '03.10.2026';
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
