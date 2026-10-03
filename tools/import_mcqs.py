@@ -14,6 +14,7 @@ from pathlib import Path
 import re
 from urllib.parse import urlparse, unquote
 from urllib.request import Request, urlopen
+from build_law_mcqs import LAW_TOPICS, build
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -47,7 +48,7 @@ def main():
     if source == ROOT:
         raise ValueError('Source must be the separate Geriatrics repository')
     from PIL import Image
-    files = {name: source / 'data' / name for name in ('questions.json', 'question_chapters.json', 'explanations.json', 'topics.json', 'regulatory.json', 'hazzard_index.json')}
+    files = {name: source / 'data' / name for name in ('questions.json', 'question_chapters.json', 'explanations.json', 'topics.json', 'hazzard_index.json')}
     files['shlav-a-mega.html'] = source / 'shlav-a-mega.html'
     hashes = {name: sha256(path.read_bytes()).hexdigest() for name, path in files.items()}
     questions, mappings, explanations = (read(files[name]) for name in ('questions.json', 'question_chapters.json', 'explanations.json'))
@@ -57,7 +58,6 @@ def main():
     topics = json.loads(match[1])
     if len(topics) != len(read(files['topics.json'])):
         raise ValueError('Topic names and topic index differ')
-    regulatory = set(read(files['regulatory.json']))
     titles = read(files['hazzard_index.json'])
     chapters = {str(c['number']): c['title'] for c in read(ROOT / 'manifest.json')['chapters']
                 if c['kind'] == 'chapter' and str(c['number']).isdigit()}
@@ -125,7 +125,7 @@ def main():
         item = {'id': 'mcq-' + sha256(identity.encode()).hexdigest()[:24], 'sourceIndex': i, 'kind': kind, 'q': q['q'], 'o': q['o'], 'c': q['c'],
                          'accepted': accepted, 't': q['t'], 'explanation': explanation or '',
                          'ref': q.get('ref', ''), 'images': [results[r][0] for r in refs],
-                         'topic': q['ti'], 'law': i in regulatory, 'chapter': ch,
+                         'topic': q['ti'], 'law': q['ti'] in LAW_TOPICS, 'chapter': ch,
                          'chapterTitle': chapters.get(ch) or titles.get(ch, {}).get('title', '')}
         if not isinstance(q['ti'], int) or not 0 <= q['ti'] < len(topics):
             raise ValueError(f'Unknown topic index at {i}')
@@ -146,12 +146,11 @@ def main():
               'excluded_counts': dict(Counter(x['reason'] for x in excluded)), 'excluded': excluded,
               'image_failures': {r: error for r, (_, error) in results.items() if error}, 'chapters': index,
               'sources': dict(Counter(x['t'] for x in all_items)), 'topics': topic_counts,
-              'law_count': sum(x['law'] for x in all_items), 'law_rule': 'source index membership in regulatory.json; no new keyword classifier',
+              'law_count': sum(x['law'] for x in all_items), 'law_rule': 'primary topic index in 30,31,32,33,34; regulatory.json not used',
               'other_sources': dict(Counter(q['t'] for q in questions if not category(q)))}
     (destination / 'import-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     if any(sha256(path.read_bytes()).hexdigest() != hashes[name] for name, path in files.items()):
         raise RuntimeError('Source changed during import; rerun against a stable snapshot')
-    from build_law_mcqs import build
     build(ROOT)
     print(json.dumps({k: report[k] for k in ('total_source', 'included', 'excluded_counts')}, indent=2))
 
