@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v51-r1', RELEASED = '03.10.2026';
+  const VERSION = 'v52', RELEASED = '03.10.2026';
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
@@ -21,6 +21,11 @@
       const at = window.HazzardStorage?.status.snapshotAt;
       const time = at ? new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jerusalem', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(at) : 'none yet';
       detail.textContent = 'Version ' + VERSION + ' (released ' + RELEASED + ') - ' + (navigator.onLine ? 'Online' : 'Offline') + ' - Offline copy: ' + (complete ? 'complete' : 'incomplete') + ' - Last snapshot: ' + time;
+      const storage = window.HazzardStorage?.status;
+      const protection = storage?.persisted === true ? 'protected' : storage?.persisted === false ? 'not protected' : 'protection checking';
+      const summary = document.getElementById('appearanceSummary');
+      summary.textContent = VERSION + ' - ' + (navigator.onLine ? 'online' : 'offline') + ' - ' + (complete ? 'offline ready' : 'offline incomplete') + ' - ' + protection + ' - ' + (storage?.error ? 'snapshot error' : 'snapshot ' + time);
+      summary.title = summary.textContent + ' — tap for details';
       // Home already observes this element; keep one status source for both views.
       if (legacy.textContent !== text) legacy.textContent = text;
       legacy.hidden = false;
