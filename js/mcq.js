@@ -59,17 +59,29 @@ window.HazzardMCQ = (() => {
     // Markdown images are text only; exam images come from the copied manifest.
     box.innerHTML = marked.parse(escape(text));
     for (const node of box.querySelectorAll('a,img')) node.replaceWith(document.createTextNode(node.textContent || node.getAttribute('alt') || ''));
+    // Markdown creates independent paragraphs, list items and table cells.
+    // Let each block choose its own base direction before isolating Latin runs.
+    for (const block of box.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th')) block.dir = 'auto';
     const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT), nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     for (const node of nodes) {
-      const parts = node.data.split(/(\([^()]*\))/g);
-      if (parts.length < 2) continue;
+      const block = node.parentElement.closest('[dir="auto"]');
+      // Keep the leading Latin text visible to dir=auto in English paragraphs.
+      if (/^[^A-Za-z\u0590-\u05ff]*[A-Za-z]/.test(block?.textContent || '')) continue;
       const fragment = document.createDocumentFragment();
-      for (const part of parts) {
-        if (/^\(\s*[A-Za-z]/.test(part)) {
-          const bdi = document.createElement('bdi'); bdi.dir = 'ltr'; bdi.textContent = part; fragment.append(bdi);
-        } else fragment.append(document.createTextNode(part));
+      // Keep terms, doses and numeric ranges in logical LTR order. Leave source
+      // characters intact; CSS separates terms glued to Hebrew in the import.
+      const runs = /[A-Za-z0-9]+(?:[./:+%−–-][A-Za-z0-9]+)*(?:[ \t]+[A-Za-z0-9]+(?:[./:+%−–-][A-Za-z0-9]+)*)*%?/g;
+      let end = 0;
+      for (const match of node.data.matchAll(runs)) {
+        fragment.append(document.createTextNode(node.data.slice(end, match.index)));
+        const bdi = document.createElement('bdi'); bdi.dir = 'ltr'; bdi.textContent = match[0];
+        end = match.index + match[0].length;
+        if (/[\u0590-\u05ff]/.test(node.data[match.index - 1] || '')) bdi.classList.add('mcq-gap-before');
+        if (/[\u0590-\u05ff]/.test(node.data[end] || '')) bdi.classList.add('mcq-gap-after');
+        fragment.append(bdi);
       }
+      fragment.append(document.createTextNode(node.data.slice(end)));
       node.replaceWith(fragment);
     }
     return box.innerHTML;
