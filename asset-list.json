@@ -1,5 +1,5 @@
 {
-  "version": "v53",
+  "version": "v53-r1",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1712,6 +1712,11 @@
       "bytes": 7936
     },
     {
+      "url": "./data/mcq/id-aliases.json",
+      "sha256": "a056490f9671f20d593a60cd64a5ffe297f02ce3d2abb756a0adb1930d0ccbf3",
+      "bytes": 45015
+    },
+    {
       "url": "./data/mcq/images/05db33ae731b637ecfad.png",
       "sha256": "c3553f6049886680e7ccc46208d084b01090762ef47ad0fcf00412f7039b8fc6",
       "bytes": 1984
@@ -1973,8 +1978,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "aa018b8b121fb3d5caee27d1c4961d5a236962947016c62aa9dcd455d1728c69",
-      "bytes": 3254844
+      "sha256": "e07b619d97eb61ef5abf132488be1fbd3bff4312a6c977d8ac9a805c690a89eb",
+      "bytes": 3255266
     },
     {
       "url": "./js/marked.min.js",
@@ -1983,18 +1988,18 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "dc46fbfccbe737774c0af339a7c27ff948ecd97dddea967e50840d1fa8d216cf",
-      "bytes": 34343
+      "sha256": "bccb726298cada5f24ff0d59fc86e4d8daaa7b3aadb1afea0d847f4834aa2c83",
+      "bytes": 36491
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "8b017fb50e8f6405d3480c951beaafff7d3338d0476260913855a3ab82cc9e52",
-      "bytes": 5923
+      "sha256": "90ca9a0dd04e70058a56ea14fdd4009093ca39da67248e7291d3a409d6d63bea",
+      "bytes": 5926
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "380fc68ca2126ad925977b1214a878dcb7c29a9c28601fdf52dcbec0be1a68f8",
-      "bytes": 8801
+      "sha256": "b6daa6bb83963a052e3cc84840ff98043be723a7f24d67938c1e632db8b95430",
+      "bytes": 8906
     },
     {
       "url": "./manifest.json",
