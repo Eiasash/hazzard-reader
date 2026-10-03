@@ -75,7 +75,7 @@ window.HazzardMCQ = (() => {
     const bankMode=chapter==='bank',mockMode=chapter==='mock';
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label',bankMode?'Question bank':mockMode?'Mock paper':'Exam questions');viewport.append(host);
     let items=[],topics=[],filter='all',year='all',level='all',topic='all',sort='source',position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
-    const answers=new Map(),pending=new Map();
+    const answers=new Map(),pending=new Map(),retryAnswers=new Map();
     let missedIds=null;
     function sync(){
       try{const saved=mockMode?readPaper():readStore();if(mockMode){if(saved&&!paperPending){paper=saved.paper;settings=saved.settings;}if(paper)position=paper.position;}else{answers.clear();for(const [id,a]of Object.entries(saved.answers))answers.set(id,a)}storageError='';}
@@ -85,8 +85,8 @@ window.HazzardMCQ = (() => {
     }
     function save(){
       try{
-        if(pending.size){const saved=mergeStore(readStore(),{version:1,answers:Object.fromEntries(pending)});localStorage.setItem(KEY,JSON.stringify(saved));for(const id of pending.keys())answers.set(id,saved.answers[id]);pending.clear();}
-        if(mockMode){if(paper){paper.position=position;paper.at=Date.now();}localStorage.setItem(PAPER_KEY,JSON.stringify({version:1,settings,paper,at:Date.now()}));paperPending=false;}
+        if(pending.size){const saved=mergeStore(readStore(),{version:1,answers:Object.fromEntries(pending)});HazzardStorage.setItem(KEY,JSON.stringify(saved));for(const id of pending.keys())answers.set(id,saved.answers[id]);pending.clear();}
+        if(mockMode){if(paper){paper.position=position;paper.at=Date.now();}HazzardStorage.setItem(PAPER_KEY,JSON.stringify({version:1,settings,paper,at:Date.now()}));paperPending=false;}
         storageError='';
       }catch{storageError='Answers could not be saved. Keep this page open and try again.';if(mockMode)paperPending=true;}
     }
@@ -95,7 +95,7 @@ window.HazzardMCQ = (() => {
       notes(){controller.active=false;host.hidden=true;readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
     };
     const empty=()=>({selected:null,checked:false});
-    function stateFor(q){return mockMode?(paper.answers[q.id]||empty()):(answers.get(q.id)||empty());}
+    function stateFor(q){return mockMode?(paper.answers[q.id]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());}
     function visible(){
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(id)).filter(Boolean):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
@@ -130,9 +130,9 @@ window.HazzardMCQ = (() => {
       content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(q.kind==='past'?'Past exam · '+escape(q.t):'Practice · Hazzard-based')+'</span>'+(bankMode||mockMode?'<p class="meta mcq-topic-label">'+escape(topics[q.topic]||'')+(q.chapter?' · Hazzard chapter '+escape(q.chapter):'')+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+rich(q.q)+'</div>'+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+q.o.map((option,i)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(state.checked&&accepted.includes(i)?'✓':state.checked&&state.selected===i?'✕':letters[i]||String(i+1))+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(option)+'</span></button>').join('')+'</div>'+
-        '<div class="mcq-actions"><button class="mcq-pill mcq-check" data-mcq="check" '+(state.selected===null||state.checked?'disabled':'')+'>Check</button><button class="mcq-pill" data-mcq="retry" '+(state.selected===null?'hidden':'')+'>Try again</button><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+(!mockMode&&position>=list.length-1?'disabled':'')+'>Next</button></div>'+
+        '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+(!mockMode&&position>=list.length-1?'disabled':'')+'>Next</button></div>'+
         (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[i]||String(i+1)).join(', '))+'</p><section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(q.explanation):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+'<p class="mcq-source" dir="ltr">'+escape(sourceLabel(q))+'</p>';
-      for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option],[data-mcq="check"]'))b.disabled=true;};
+      for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
     }
     function builderPool(){
       return [...new Map(items.filter(q=>(settings.sources.includes(q.kind)||settings.sources.includes('law')&&q.law)&&(q.kind!=='past'||(settings.year==='all'||q.t.startsWith(settings.year))&&(settings.level==='all'||(settings.level==='unspecified'?!/-(Basic|Subspec)$/.test(q.t):q.t.endsWith('-'+settings.level))))).map(q=>[q.id,q])).values()];
@@ -157,13 +157,13 @@ window.HazzardMCQ = (() => {
           const available=new Set(items.map(q=>q.id));if(paper&&!paper.ids.every(id=>available.has(id))){building=true;storageError='Some saved paper questions are unavailable in this release. Start a new paper.';}
         }
         loaded=true;render();
-      }catch(error){host.innerHTML='<div class="mcq-page"><p role="alert">'+escape(error.message||'Questions could not be loaded.')+'</p><button data-mcq="load">Try again</button>'+(!bankMode&&!mockMode?' <button data-mcq="notes">Study notes</button>':'')+'</div>';}
+      }catch(error){host.innerHTML='<div class="mcq-page"><p role="alert">'+escape(error.message||'Questions could not be loaded.')+'</p><button data-mcq="load">Reload questions</button>'+(!bankMode&&!mockMode?' <button data-mcq="notes">Study notes</button>':'')+'</div>';}
       finally{busy=false;}
     }
-    function commit(q,state){state.at=Date.now();answers.set(q.id,state);pending.set(q.id,state);if(mockMode){paper.answers[q.id]=state;paperPending=true;}save();}
+    function commit(q,state){state.at=Date.now();answers.set(q.id,state);pending.set(q.id,state);if(missedOnly)retryAnswers.set(q.id,state);if(mockMode){paper.answers[q.id]=state;paperPending=true;}save();}
     host.addEventListener('change',event=>{const name=event.target.dataset.select;if(!name)return;const value=event.target.value;
       if(name==='mock-year'||name==='mock-level'){settings[name==='mock-year'?'year':'level']=value;save();render();return;}
-      if(name==='source'){filter=value;year='all';level='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;else if(name==='missed'){missedOnly=event.target.checked;missedIds=null;}
+      if(name==='source'){filter=value;year='all';level='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;else if(name==='missed'){missedOnly=event.target.checked;missedIds=null;retryAnswers.clear();}
       position=0;render();host.scrollTop=0;
     });
     host.addEventListener('click',event=>{
@@ -181,16 +181,13 @@ window.HazzardMCQ = (() => {
       const q=list[position];if(!q)return;if(button.dataset.image!==undefined){openImage(button.querySelector('img'));return;}
       const state={...stateFor(q)};
       if(action==='next'||action==='prev'){
-        if(state.selected!==null&&!state.checked){state.checked=true;commit(q,state);render();host.querySelector('.mcq-result')?.scrollIntoView({block:'nearest'});return;}
         if(action==='next'&&position===list.length-1&&mockMode){paper.finished=true;save();render();host.scrollTop=0;return;}
         position+=action==='next'?1:-1;if(mockMode)save();render();host.scrollTop=0;return;
       }
-      if(button.dataset.option!==undefined&&!state.checked)state.selected=Number(button.dataset.option);
-      else if(action==='check'&&state.selected!==null)state.checked=true;
-      else if(action==='retry'){state.selected=null;state.checked=false;}
+      if(button.dataset.option!==undefined&&!state.checked){state.selected=Number(button.dataset.option);state.checked=true;}
       else return;
       commit(q,state);const y=host.scrollTop;render();host.scrollTop=y;
-      const target=button.dataset.option!==undefined?'[data-option="'+state.selected+'"]':action==='check'?'[data-mcq="retry"]':'[data-option="0"]';host.querySelector(target)?.focus({preventScroll:true});
+      host.querySelector('[data-mcq="next"]')?.focus({preventScroll:true});
     });
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
