@@ -33191,7 +33191,7 @@ addEventListener('pageshow',event=>{if(event.persisted)resyncTimer()});
 addEventListener('storage',event=>{if(event.key===TIMER_KEY)resyncTimer()});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)resyncTimer()});
 // Portable notebook backups contain only the reader's named stores, never other apps' data.
-const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY]);
+const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.SYSTEM_KEY]);
 const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')||notebookKeys.has(key);
 const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
@@ -33204,6 +33204,7 @@ function mergeNotebookValue(key,current,incoming){
   if(key===HazzardMCQ.KEY)return HazzardMCQ.mergeStore(current,incoming);
   if(key===HazzardMCQ.PAPER_KEY)return HazzardMCQ.mergePaper(current,incoming);
   if(key===HazzardMCQ.FLAGS_KEY)return HazzardMCQ.mergeFlags(current,incoming);
+  if(key===HazzardMCQ.SYSTEM_KEY)return HazzardMCQ.mergeSystem(current,incoming);
   if(key.startsWith('stage-a-highlights-v1:')){
     const merged={...incoming,...current,marks:{...current.marks},ranges:{...current.ranges},history:[...(current.history||[])]};
     const keepHistory=m=>{if(merged.marks[m.id]?.text!==m.text&&!merged.history.some(x=>x.id===m.id&&x.text===m.text))merged.history.push(m)};
@@ -33317,7 +33318,7 @@ if(/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v45-r1',label=document.getElementById('offlineReady');
+  const version='v46',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;

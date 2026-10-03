@@ -1,0 +1,638 @@
+{
+  "rule": "Past exam only. Literal Brookdale/yearbook term, OR explicit Ministry of Health term plus procedure citation in ref/explanation. No stems/options or managed-word substrings.",
+  "count": 26,
+  "matches": [
+    {
+      "id": "mcq-c94fa29e4b2ba5f1c341cbc1",
+      "sourceIndex": 93,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "## הסבר קליני\n\nעל פי **דוח ברוקדייל 2024**, כיום **26% מבני 65 ומעלה** הם בני **80 ומעלה**, ושיעור זה צפוי לעלות ל-**34% עד שנת 2035**. נתונים אלה משקפים את **תופעת ההזדקנות הכפולה** - גידול משמע",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-b43997ccbaf4ab24fb543218",
+      "sourceIndex": 121,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "כנסה יורד עם השנים**\n\nעל פי נתוני **השנתון הסטטיסטי** ומכון ברוקדייל, המאפיין הבולט של אוכלוסיית **הזקנים בישראל** מבחינה כלכלית הוא **ירידה הדרגתית באחוז מקבלי השלמת ההכנסה** לאורך השנים. מגמה זו משקפת **שיפור במצב הכלכלי** של ",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "שנתון",
+          "excerpt": " הזקנים המקבלים השלמת הכנסה יורד עם השנים**\n\nעל פי נתוני **השנתון הסטטיסטי** ומכון ברוקדייל, המאפיין הבולט של אוכלוסיית **הזקנים בישראל** מבחינה כלכלית הוא **ירידה הדרגתית באחוז מקבלי השלמת ההכנסה** לאורך השנים. מגמה זו משקפת",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-914ae4da60a23fa3609f9656",
+      "sourceIndex": 144,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": " ולהמליץ על הגדרתו כסיעודי, אך סמכות האישור הרשמי ל״קוד״ של משרד הבריאות שמורה לגריאטר המחוזי בלבד — כך נקבע בנהלי משרד הבריאות. הפרדה זו בין ההמלצה הקלינית לבין האישור המנהלי היא עקרון מרכזי במערך הגריאטרי בישראל (Halter et al., Ha",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "״ של משרד הבריאות שמורה לגריאטר המחוזי בלבד — כך נקבע בנהלי משרד הבריאות. הפרדה זו בין ההמלצה הקלינית לבין האישור המנהלי היא עקרון מרכזי במערך הגריאטרי בישראל (Halter et al., Hazzard's Geriatric Medicine, 8e). אפשרות א׳ שגויה מפני ש",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "נהלי משרד הבריאות",
+          "excerpt": "ל״קוד״ של משרד הבריאות שמורה לגריאטר המחוזי בלבד — כך נקבע בנהלי משרד הבריאות. הפרדה זו בין ההמלצה הקלינית לבין האישור המנהלי היא עקרון מרכזי במערך הגריאטרי בישראל (Halter et al., Hazzard's Geriatric Medicine, 8e). אפשרות א׳ שגויה מפני ש",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "הנוהל",
+          "excerpt": " מוסמך להגדיר סיעודיות לצורך קוד, וייעוץ גריאטרי נדרש על פי הנוהל.",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-dc794bb08255721e56f05ae8",
+      "sourceIndex": 195,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "ייה**\n\n**אישור התשובה הנכונה:**\nנתוני השנתון הסטטיסטי ומכון ברוקדייל מצביעים על **ייצוג-יתר (overrepresentation)** של קשישים בקרב נפגעי תאונות דרכים חמורות. אחוז בני 65+ בקרב ההרוגים והפצועים הקשה **עולה על שיעורם באוכלוסייה הכל",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "שנתון",
+          "excerpt": "ים גדול מחלקם באוכלוסייה**\n\n**אישור התשובה הנכונה:**\nנתוני השנתון הסטטיסטי ומכון ברוקדייל מצביעים על **ייצוג-יתר (overrepresentation)** של קשישים בקרב נפגעי תאונות דרכים חמורות. אחוז בני 65+ בקרב ההרוגים והפצועים הקשה **עולה ",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-ba59a9ce44a01ad7c2566471",
+      "sourceIndex": 2397,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-48e7f227953d851c6f3bb67f",
+      "sourceIndex": 2518,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "לפי נתוני מכון ברוקדייל, בגיל 85+ מעל 50% מהאוכלוסייה זכאים לגמלת סיעוד לפי חוק הביטוח הלאומי (חוק סיעוד), המשקף את שיעור התלות הגבוה בגיל מתקדם זה.\n\n**מדוע האחרות שגויות:**\n- **ב'** ",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-7347a3afb759a696137132c4",
+      "sourceIndex": 2547,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "ב) הם סטטוסים שרופא מומחה בגריאטריה מוסמך לקבוע על-פי תקנות משרד הבריאות, כחלק מסמכותו המקצועית בהערכת תפקוד, תלות ופוטנציאל שיקומי של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "נהלי משרד הבריאות",
+          "excerpt": "קומי של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "תקנות משרד הבריאות",
+          "excerpt": "מי** (ב) הם סטטוסים שרופא מומחה בגריאטריה מוסמך לקבוע על-פי תקנות משרד הבריאות, כחלק מסמכותו המקצועית בהערכת תפקוד, תלות ופוטנציאל שיקומי של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-fa014e6520a72868f3da867b",
+      "sourceIndex": 2603,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "*פצע לחץ דרגה 2 ומטה — קריטריון לסיעודי רגיל**\n\nעל פי חוזרי משרד הבריאות בישראל המגדירים סיעוד מורכב, פצע לחץ דרגה 3–4 (עם חשיפת רקמה עמוקה) מצריך מסגרת **סיעודית מורכבת**. פצע דרגה 2 ומטה (אדמומיות או שלפוחית שטחית) מתאים למחלקה סי",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "חוזרי משרד הבריאות",
+          "excerpt": "**פצע לחץ דרגה 2 ומטה — קריטריון לסיעודי רגיל**\n\nעל פי חוזרי משרד הבריאות בישראל המגדירים סיעוד מורכב, פצע לחץ דרגה 3–4 (עם חשיפת רקמה עמוקה) מצריך מסגרת **סיעודית מורכבת**. פצע דרגה 2 ומטה (אדמומיות או שלפוחית שטחית) מתאים למחלקה סי",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-6a901cfdbd5a7b2615575f8e",
+      "sourceIndex": 2613,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "על פי נתוני מכון ברוקדייל, יותר מ-30% מהאנשים בגיל 75 ומעלה מתקשים בניידות בסיסית כגון הליכה ועליית מדרגות – ממצא המשקף את ההידרדרות הפונקציונלית האופיינית לגיל המבוגר.\n\nהאפשרויות האחרו",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-d1e498e701887b9e933436de",
+      "sourceIndex": 2669,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "י מאושר על-ידי **רופא ריאות בלבד** (לא גריאטר).\n\nמקור: נהלי משרד הבריאות וקופות החולים בישראל בנושא קביעת סטטוס תפקודי.",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "נהלי משרד הבריאות",
+          "excerpt": " כרוני מאושר על-ידי **רופא ריאות בלבד** (לא גריאטר).\n\nמקור: נהלי משרד הבריאות וקופות החולים בישראל בנושא קביעת סטטוס תפקודי.",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-22b815c9249f0cf18a031e5f",
+      "sourceIndex": 2675,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "על פי נתוני מכון ברוקדייל, תוחלת החיים בישראל מציגה פער מגדרי עקבי: נשים חיות בממוצע כ-4 שנים יותר מגברים (כ-84 לעומת כ-80 שנים בקירוב). פער זה אופייני למדינות מערביות מפותחות ומוכר בספ",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-e61e2cff58f5b98cd4a2f51d",
+      "sourceIndex": 2788,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "על פי נוהל אמות המידה למתן טיפול שיקומי לקשישים במשרד הבריאות, תנאי הכרחי לקבלה לשיקום הוא **יכולת שיתוף פעולה** – המטופל חייב להיות מסוגל להבין ולבצע הוראות פשוטות. מטופל זה, עם אפזיה מעורבת ודמנציה, אינו מבין הוראות ואי",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": " (ג') – מוגבלות תפקודית מותרת, אינה שוללת שיקום\n\nמקור: נוהל משרד הבריאות – אמות מידה לטיפול שיקומי בקשישים.",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "נוהל משרד הבריאות",
+          "excerpt": "נוף** (ג') – מוגבלות תפקודית מותרת, אינה שוללת שיקום\n\nמקור: נוהל משרד הבריאות – אמות מידה לטיפול שיקומי בקשישים.",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "נוהל",
+          "excerpt": "על פי נוהל אמות המידה למתן טיפול שיקומי לקשישים במשרד הבריאות, תנאי הכרחי לקבלה לשיקום הוא **יכולת שיתוף פעולה** – המטופל חייב להיות מסוגל להבין ולבצע הוראות פשוטות. מטופ",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "נוהל",
+          "excerpt": "נוף** (ג') – מוגבלות תפקודית מותרת, אינה שוללת שיקום\n\nמקור: נוהל משרד הבריאות – אמות מידה לטיפול שיקומי בקשישים.",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-9b6d3de1ef555fefd1588db4",
+      "sourceIndex": 2901,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-a3afc277b9a0b49e2fb4cc0f",
+      "sourceIndex": 2972,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "לפי נתוני מכון ברוקדייל (המסתמך על WHO ו-World Bank), מונקו מדורגת במקום הראשון בעולם בתוחלת חיים — כ-87 שנים — הודות לרמת חיים גבוהה במיוחד, שירותי בריאות מעולים ואוכלוסייה אמידה. יש",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-6f21fad051c4bdf45e220b18",
+      "sourceIndex": 3198,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-6bdf0a9ecbc4429ad722fe0c",
+      "sourceIndex": 3259,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "## תשובה נכונה: ב ✅\n\n### למה ב' נכונה?\nעל פי נתוני מכון ברוקדייל, **מעל 30% מהאנשים בגיל 75+** מדווחים על קושי בהליכה או בעליית מדרגות – זהו אחד המדדים המרכזיים לירידה תפקודית (IADL/ADL) בגיל מבוגר.\n\n---\n\n### למה האחרות שגוי",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-971cda5e21170c33b0d0b53a",
+      "sourceIndex": 3317,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "\n\n### ✅ תשובה ב' נכונה:\nבמערכת הבריאות בישראל (קופות החולים/משרד הבריאות), כאשר נדרש **\"קוד\"** (כינוי לאישור מיוחד/חריג לסל הטיפולים), הגריאטר המחוזי הוא הסמכות המאשרת עבור סטטוס **\"סיעודי\"** או **\"תשוש נפש\"** – זהו הנוהל הרשמי הנדר",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "explanation",
+          "match": "הנוהל",
+          "excerpt": "מכות המאשרת עבור סטטוס **\"סיעודי\"** או **\"תשוש נפש\"** – זהו הנוהל הרשמי הנדרש.\n\n---\n\n### ❌ מדוע האחרות שגויות:\n\n- **א'** – רופא פנימי **אינו** מוסמך לאשר סטטוס סיעודי מורכב; נדרש **גריאטר** לכך.\n\n- **",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-6e0a38035542e644273558de",
+      "sourceIndex": 3323,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "## תשובה נכונה: ב\n\n### למה ב' נכונה?\nעל פי נתוני מכון ברוקדייל, **פער של ~4 שנים** בין תוחלת החיים של נשים לגברים בישראל הוא ממצא עקבי ומתועד – נשים כ-84 שנים, גברים כ-80 שנים.\n\n---\n\n### למה האחרות שגויות?\n\n- **א' – שגויה:",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-53129c84f608ac807da5bc14",
+      "sourceIndex": 3461,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-ed2927c81356a416c579b248",
+      "sourceIndex": 4320,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "שנתון",
+          "excerpt": "שנתון עמ׳ 135",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "הוא במחלקות הפנימיות ולא הגריאטריות. לפי השנתון הסטטיסטי של ברוקדייל, עמ׳ 135.",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "שנתון",
+          "excerpt": "במיוחד בגיל המבוגר-מבוגר. שאר האפשרויות שגויות עובדתית לפי השנתון: שיעור האשפוז ל-1,000 נפש עולה בתלילות עם הגיל ואינו נותר קבוע, משך השהייה הארוך ביותר אינו במחלקה הכירורגית, והאשפוז השכיח ביותר לבני 65+ הוא במחלקות הפנימיות",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-53c85920c1fe042c6c9496ee",
+      "sourceIndex": 4359,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "שנתון",
+          "excerpt": "שנתון עמ׳ 132",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה לגבר היא כ-81 (לא 85",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "שנתון",
+          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה ל",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-8cd5c81bdaa6876fd883278a",
+      "sourceIndex": 4392,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "יחידה אמבולטורית ואינה מעלה את דרגת הסיעוד. סיווג 'סיעודי' (משרד הבריאות) נשלל בשל העצמאות בסוגרים, במעברים ובהלבשה.",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "ref",
+          "match": "נוהל",
+          "excerpt": "נוהל",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-c67df43fb4f95364375f911d",
+      "sourceIndex": 4470,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "שנתון",
+          "excerpt": "שנתון עמ׳ 135",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "הוא במחלקות הפנימיות ולא הגריאטריות. לפי השנתון הסטטיסטי של ברוקדייל, עמ׳ 135.",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "שנתון",
+          "excerpt": "במיוחד בגיל המבוגר-מבוגר. שאר האפשרויות שגויות עובדתית לפי השנתון: שיעור האשפוז ל-1,000 נפש עולה בתלילות עם הגיל ואינו נותר קבוע, משך השהייה הארוך ביותר אינו במחלקה הכירורגית, והאשפוז השכיח ביותר לבני 65+ הוא במחלקות הפנימיות",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-180704b480f1812b1672abc2",
+      "sourceIndex": 4509,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "שנתון",
+          "excerpt": "שנתון עמ׳ 132",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה לגבר היא כ-81 (לא 85",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "שנתון",
+          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה ל",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    },
+    {
+      "id": "mcq-f236daa600ddb2c31e2d699f",
+      "sourceIndex": 4542,
+      "evidence": [
+        {
+          "field": "explanation",
+          "match": "משרד הבריאות",
+          "excerpt": "יחידה אמבולטורית ואינה מעלה את דרגת הסיעוד. סיווג 'סיעודי' (משרד הבריאות) נשלל בשל העצמאות בסוגרים, במעברים ובהלבשה.",
+          "category": "MoH procedure"
+        },
+        {
+          "field": "ref",
+          "match": "נוהל",
+          "excerpt": "נוהל",
+          "category": "MoH procedure"
+        }
+      ]
+    },
+    {
+      "id": "mcq-d2ff40cf73dadddd2214f235",
+      "sourceIndex": 4555,
+      "evidence": [
+        {
+          "field": "ref",
+          "match": "ברוקדייל",
+          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "ref",
+          "match": "brookdale",
+          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
+          "category": "Brookdale/yearbook"
+        },
+        {
+          "field": "explanation",
+          "match": "ברוקדייל",
+          "excerpt": "לפי נתוני מכון ברוקדייל (המסתמך על WHO ו-World Bank), מונקו מדורגת במקום הראשון בעולם בתוחלת חיים — כ-87 שנים — הודות לרמת חיים גבוהה במיוחד, שירותי בריאות מעולים ואוכלוסייה אמידה. יש",
+          "category": "Brookdale/yearbook"
+        }
+      ]
+    }
+  ],
+  "topicFallbacks": {
+    "99": {
+      "topic": 22,
+      "name": "Diabetes",
+      "past": 52,
+      "practice": 23
+    },
+    "104": {
+      "topic": 27,
+      "name": "Infections",
+      "past": 109,
+      "practice": 39
+    },
+    "105": {
+      "topic": 27,
+      "name": "Infections",
+      "past": 109,
+      "practice": 39
+    },
+    "108": {
+      "topic": 27,
+      "name": "Infections",
+      "past": 109,
+      "practice": 39
+    }
+  }
+}

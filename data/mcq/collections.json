@@ -1,0 +1,59 @@
+{
+  "israeliSystem": {
+    "enabled": true,
+    "ids": [
+      "mcq-c94fa29e4b2ba5f1c341cbc1",
+      "mcq-b43997ccbaf4ab24fb543218",
+      "mcq-914ae4da60a23fa3609f9656",
+      "mcq-dc794bb08255721e56f05ae8",
+      "mcq-ba59a9ce44a01ad7c2566471",
+      "mcq-48e7f227953d851c6f3bb67f",
+      "mcq-7347a3afb759a696137132c4",
+      "mcq-fa014e6520a72868f3da867b",
+      "mcq-6a901cfdbd5a7b2615575f8e",
+      "mcq-d1e498e701887b9e933436de",
+      "mcq-22b815c9249f0cf18a031e5f",
+      "mcq-e61e2cff58f5b98cd4a2f51d",
+      "mcq-9b6d3de1ef555fefd1588db4",
+      "mcq-a3afc277b9a0b49e2fb4cc0f",
+      "mcq-6f21fad051c4bdf45e220b18",
+      "mcq-6bdf0a9ecbc4429ad722fe0c",
+      "mcq-971cda5e21170c33b0d0b53a",
+      "mcq-6e0a38035542e644273558de",
+      "mcq-53129c84f608ac807da5bc14",
+      "mcq-ed2927c81356a416c579b248",
+      "mcq-53c85920c1fe042c6c9496ee",
+      "mcq-8cd5c81bdaa6876fd883278a",
+      "mcq-c67df43fb4f95364375f911d",
+      "mcq-180704b480f1812b1672abc2",
+      "mcq-f236daa600ddb2c31e2d699f",
+      "mcq-d2ff40cf73dadddd2214f235"
+    ]
+  },
+  "topicFallbacks": {
+    "99": {
+      "topic": 22,
+      "name": "Diabetes",
+      "past": 52,
+      "practice": 23
+    },
+    "104": {
+      "topic": 27,
+      "name": "Infections",
+      "past": 109,
+      "practice": 39
+    },
+    "105": {
+      "topic": 27,
+      "name": "Infections",
+      "past": 109,
+      "practice": 39
+    },
+    "108": {
+      "topic": 27,
+      "name": "Infections",
+      "past": 109,
+      "practice": 39
+    }
+  }
+}
