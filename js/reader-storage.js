@@ -4,6 +4,7 @@ window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
   const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  keys.add(HazzardMCQ.MIGRATION_KEY);
   const owns=key=>typeof key==='string'&&(keys.has(key)||key.startsWith('stage-a-highlights-v1:'));
   const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
   const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
@@ -36,6 +37,7 @@ window.HazzardStorage = (() => {
     try{
       if(typeof raw!=='string'||!owns(key))return false;
       if(key==='hazzard-last-backup-v1')return Number.isFinite(Number(raw))&&Number(raw)>=0;
+      if(key===HazzardMCQ.MIGRATION_KEY)return raw==='1';
       validateNotebookValue(key,JSON.parse(raw));return true;
     }catch{return false;}
   }
@@ -88,5 +90,5 @@ window.HazzardStorage = (() => {
   function setItem(key,raw){localStorage.setItem(key,raw);if(owns(key))snapshot();}
   function removeItem(key){localStorage.removeItem(key);if(owns(key))snapshot();}
   addEventListener('storage',event=>{if(event.storageArea===localStorage&&owns(event.key))snapshot();});
-  return {ready,persistence,status,setItem,removeItem,flush:()=>tail,validate:validateNotebookValue,owns};
+  return {ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();
