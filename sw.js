@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v49-r1';
+const CACHE_VERSION = 'v50';
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
 const LIST_URL = './asset-list.json';
@@ -37,6 +37,13 @@ self.addEventListener('install', event => {
     const names = (await caches.keys()).filter(n => n.startsWith('hazzard-'));
     const previous = await Promise.all(names.map(n => caches.open(n)));
     const queue = [...list.files];
+    let completed = 0, lastNotice = 0;
+    const progress = async () => {
+      if (Date.now() - lastNotice < 500 && completed !== list.files.length) return;
+      lastNotice = Date.now();
+      const clients = await self.clients.matchAll({ includeUncontrolled: true });
+      for (const client of clients) if (client.url.startsWith(self.registration.scope)) client.postMessage({ type: 'HAZZARD_OFFLINE_STATUS', version: CACHE_VERSION, complete: false, progress: Math.floor(completed / list.files.length * 100) });
+    };
     const workers = Array.from({ length: 6 }, async () => {
       while (queue.length) {
         const { url, sha256 } = queue.shift();
@@ -49,6 +56,8 @@ self.addEventListener('install', event => {
         }
         response ||= await download(url, sha256);
         await cache.put(url, response);
+        completed++;
+        await progress();
       }
     });
     const results = await Promise.allSettled(workers);
@@ -58,7 +67,9 @@ self.addEventListener('install', event => {
     const assets = [LIST_URL, ...list.files.map(f => f.url)];
     await verifyCachedAssets(cache, assets);
     await cache.put(READY_URL, new Response(JSON.stringify({ version: CACHE_VERSION, complete: true, assets }), { headers: { 'Content-Type': 'application/json' } }));
-    await self.skipWaiting();
+    // Pre-v50 pages have no update button. Preserve their old activation path
+    // for this migration; subsequent releases wait for the user's saved reload.
+    if (names.includes('hazzard-shell-v49-r1')) await self.skipWaiting();
   })());
 });
 async function offlineStatus() {
@@ -70,6 +81,10 @@ async function offlineStatus() {
   return cache;
 }
 self.addEventListener('message', event => {
+  if (event.data?.type === 'HAZZARD_APPLY_UPDATE') {
+    event.waitUntil(offlineStatus().then(() => self.skipWaiting()));
+    return;
+  }
   if (event.data?.type !== 'HAZZARD_OFFLINE_STATUS') return;
   event.waitUntil((async () => {
     let complete = false;
