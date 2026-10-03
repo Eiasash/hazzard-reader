@@ -9,6 +9,9 @@ window.HazzardCloud = (() => {
   const $=id=>document.getElementById(id);
   const signed=()=>typeof session.session_token==='string'&&!!session.session_token&&typeof session.username==='string';
   const decided=()=>signed()&&state.username===session.username&&state.decided===true;
+  // UI-only health: offline alone is never a paused cloud connection.
+  const pauseAt=()=>state.dirty&&state.syncedAt?new Date(state.syncedAt).getTime()+86400000:NaN;
+  const paused=()=>navigator.onLine&&!!(session.username||state.username)&&(expired||!signed()||Date.now()>pauseAt());
   function saveState(){localStorage.setItem(STATE,JSON.stringify(state));}
   const time=(at,date=false)=>{
     if(!at||!Number.isFinite(new Date(at).getTime()))return '';
@@ -75,7 +78,7 @@ window.HazzardCloud = (() => {
       payload=bridge.capture();
       if(!manual&&JSON.stringify(payload.storage)===lastUploaded){state.dirty=false;saveState();return;}
       state.attemptAt=Date.now();saveState();render();
-      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:'v54',p_device:navigator.userAgent},keepalive,token);
+      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:'v54-r1',p_device:navigator.userAgent},keepalive,token);
       if(generation!==epoch)return;
       lastUploaded=JSON.stringify(payload.storage);state.syncedAt=result.updated_at||new Date().toISOString();
       state.dirty=JSON.stringify(bridge.capture().storage)!==JSON.stringify(payload.storage);
@@ -115,7 +118,12 @@ window.HazzardCloud = (() => {
   }
   function start(api){
     bridge=api;
-    if(state.username!==session.username)state={};
+    // Keep sign-in history without retaining a signed-out device's upload decision.
+    if(!signed())state=state.username?{username:state.username}:{};
+    if(signed()&&state.username!==session.username){
+      state={username:session.username};
+      try{saveState();}catch{error='Cloud settings could not be saved.';}
+    }
     $('cloudLogin').addEventListener('submit',async event=>{
       event.preventDefault();const button=$('cloudSignIn');if(button.disabled)return;
       button.disabled=true;error='';notice='';render();const generation=++epoch;
@@ -126,7 +134,7 @@ window.HazzardCloud = (() => {
         if(typeof result.session_token!=='string'||!result.session_token||typeof result.username!=='string')throw Error('Sign-in response was incomplete.');
         const next={session_token:result.session_token,username:result.username};
         localStorage.setItem(SESSION,JSON.stringify(next));session=next;expired=false;tick=false;known=false;lastUploaded=null;
-        if(state.username!==session.username)state={};
+        if(state.username!==session.username){state={username:session.username};saveState();}
         await inspect();
       }catch(e){error=e.message;}
       finally{$('cloudPassword').value='';button.disabled=false;render();}
@@ -149,5 +157,5 @@ window.HazzardCloud = (() => {
     addEventListener('storage',event=>{if(event.key===SESSION||event.key===STATE){epoch++;session=read(SESSION);state=read(STATE);known=false;tick=false;render();if(signed())inspect();}});
     render();if(signed())inspect();
   }
-  return {start,label,get tick(){return tick;}};
+  return {start,label,get tick(){return tick;},get paused(){return paused();},get pauseAt(){return pauseAt();}};
 })();
