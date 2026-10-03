@@ -435,6 +435,15 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .practice-controls .mock-grade button[aria-pressed="true"]{color:var(--hl-ink);background:transparent}
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="1"]::before{background:var(--hl-green);border-color:var(--accent);border-width:2px}
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="0"]::before{background:var(--hl-pink);border-color:var(--stop);border-width:2px}
+/* v49: appearance controls stay compact at every reading size. */
+#panel[data-current-pane="tools"]{--fs:1;--body:13px;--small:12px;--label:13px;--tap:44px;max-block-size:calc(var(--vv-height) * .45);padding:4px 10px;font:13px/1.35 var(--ui)}
+#panel[data-current-pane="tools"] .dialog-head{margin:0}
+#panel[data-current-pane="tools"] #panelTitle{font:600 16px/1.3 var(--ui)}
+#panel[data-current-pane="tools"] [data-pane="tools"]{flex:1;overflow:auto;padding-bottom:4px}
+#panel[data-current-pane="tools"] .settings-controls{gap:4px;margin-bottom:4px}
+#panel[data-current-pane="tools"] button{min-height:44px;min-block-size:44px;font:500 13px/1.3 var(--ui);padding:4px 8px}
+#panel[data-current-pane="tools"] .meta{font:11px/1.35 var(--ui);margin:4px 0}
+#panel #closePanel{min-width:44px;min-height:44px;font:24px/1 var(--ui);padding:4px}
 </style>
 </head>
 <body>
@@ -829,7 +838,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <div class="dialog-head">
   <span class="mark-state"><span id="markingIndicator" role="status" aria-label="Marking on" title="Marking on" hidden><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></span></span>
   <h2 id="panelTitle">Reading tools</h2>
-  <button id="closePanel">Close</button>
+  <button id="closePanel" aria-label="Close panel">×</button>
 </div>
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
@@ -33318,7 +33327,7 @@ if(/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v48',label=document.getElementById('offlineReady');
+  const version='v49',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
