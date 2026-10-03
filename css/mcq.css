@@ -20,3 +20,7 @@
 .mcq-filters{flex-wrap:wrap}.mcq-result{display:flex;align-items:center;gap:8px}.mcq-answer-undo{border:0;background:transparent;padding:2px 4px;min-height:28px;font:500 12px/1.4 var(--ui);text-decoration:underline;text-underline-offset:2px;color:var(--accent)}.mcq-law-note{border-inline-start:2px solid var(--exam);padding-inline-start:8px}.mcq-topic-fallback{color:var(--accent)}
 
 .mcq-option .mcq-mixed{min-width:0}.mcq-source-note{font:600 12px/1.5 var(--ui);color:var(--exam);background:var(--exam-soft);padding:7px 9px;border-radius:6px}.mcq-source{overflow-wrap:anywhere}
+
+/* Long explanations stay within the phone viewport and scroll internally. */
+.mcq-explanation{max-height:calc(var(--vv-height,100dvh) * .45);overflow:auto;overscroll-behavior:contain;padding:8px 10px}
+.mcq-explanation h3{font:700 13px/1.4 var(--ui)}
