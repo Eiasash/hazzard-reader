@@ -32583,6 +32583,7 @@ function readingTab(){
   returnReading(()=>{if(['mock','bank'].includes(cid)){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&!['mock','bank'].includes(last.chapter)?last.chapter:'46')}});
 }
 function handleTab(b){
+  if(b.dataset.tab==='practice'&&['bank','mock'].includes(cid)){openPanel('practice',b);return}
   if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
   if(b.dataset.view)view(b.dataset.view);else openPanel(b.dataset.panel,b);
 }
@@ -33316,7 +33317,7 @@ if(/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v45',label=document.getElementById('offlineReady');
+  const version='v45-r1',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
