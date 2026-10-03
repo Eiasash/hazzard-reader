@@ -6,9 +6,6 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 FALLBACKS = {'99': 22, '104': 27, '105': 27, '108': 27}
-# Reviewed in the v49 random sample: international life-expectancy comparison,
-# not Israeli law, health-system policy or ethics. Keep the original sitting.
-LAW_SOURCE_EXCLUSIONS = {'mcq-d2ff40cf73dadddd2214f235'}
 def build(root=ROOT):
     data = root / 'data/mcq'
     bank = json.loads((data/'all.json').read_text(encoding='utf-8'))
@@ -18,8 +15,7 @@ def build(root=ROOT):
     ids = list(dict.fromkeys(q['id'] for q in matches))
     catalog = {'israeliSystem': {'enabled':len(ids)>=3,'ids':ids}, 'suppliedArticles':{'enabled':True,'ids':[q['id'] for q in bank if q.get('suppliedArticle')]}, 'topicFallbacks':{}}
     law_items = {q['id']: q for q in bank if q['kind'] == 'past'
-                 and (q['topic'] in (30, 31, 32, 33, 34) or q['id'] in ids)
-                 and q['id'] not in LAW_SOURCE_EXCLUSIONS}
+                 and (q['topic'] in (30, 31, 32, 33, 34) or q['id'] in ids)}
     catalog['israeliLawEthics'] = {'enabled': True, 'ids': list(law_items),
                                 'sittings': dict(sorted(Counter(q['t'] for q in law_items.values()).items()))}
     for chapter,topic in FALLBACKS.items():
