@@ -71,7 +71,7 @@ window.HazzardMCQ = (() => {
       const fragment = document.createDocumentFragment();
       // Keep terms, doses and numeric ranges in logical LTR order. Leave source
       // characters intact; CSS separates terms glued to Hebrew in the import.
-      const runs = /[A-Za-z0-9]+(?:[./:+%−–-][A-Za-z0-9]+)*(?:[ \t]+[A-Za-z0-9]+(?:[./:+%−–-][A-Za-z0-9]+)*)*%?/g;
+      const runs = /\([ \t]*[A-Za-z0-9][A-Za-z0-9 \t.,;:/+%\u2212\u2013\u2192\u2190<>=-]*\)|[A-Za-z0-9]+(?:[./:+%−–-][A-Za-z0-9]+)*(?:[ \t]+[A-Za-z0-9]+(?:[./:+%−–-][A-Za-z0-9]+)*)*%?/g;
       let end = 0;
       for (const match of node.data.matchAll(runs)) {
         fragment.append(document.createTextNode(node.data.slice(end, match.index)));
