@@ -1,5 +1,5 @@
 {
-  "version": "v43",
+  "version": "v44",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "76acebbb5d67fc0524dfe3eec83b0bf5c2041c8f693b3ab85d47da42407ce47a",
-      "bytes": 4435
+      "sha256": "fa2a2d3ab952a01e75de7699df06e805eedd4949e68a3fa8fdfe3c96e68b6315",
+      "bytes": 5145
     },
     {
       "url": "./data/mcq/101.json",
@@ -2098,8 +2098,13 @@
     },
     {
       "url": "./data/mcq/index.json",
-      "sha256": "231c911c10e2c069b014dd9abe7689287453c6f68ce11333b87ed6b346d6e35f",
-      "bytes": 2969
+      "sha256": "9ee7141c0a30df370e45e43889006bbbd960d089cf2c12c1c5333ca345eba09e",
+      "bytes": 3048
+    },
+    {
+      "url": "./data/mcq/law.json",
+      "sha256": "8e4f63be98a931e93acd097ddd37d680a080f5cc6f2952c64584805bb7ab9144",
+      "bytes": 64390
     },
     {
       "url": "./data/mcq/topics.json",
@@ -2108,8 +2113,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "d80c7d8891da46f57930c5460ceedb1bdd34416e7909d05b6ebb8436fa2ba5eb",
-      "bytes": 3247748
+      "sha256": "9083f1d705e972adb9919ce156ec97e2433d23429b16b99f3d22b204e595619b",
+      "bytes": 3247774
     },
     {
       "url": "./js/marked.min.js",
@@ -2118,8 +2123,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "42da5427856824f615a74bf73e749c8df869fe29f2ff1ab2c03a28a26af6dce0",
-      "bytes": 21430
+      "sha256": "c4606bdadb5e919c6c28a3de4c068105501e60df08bcd503c639bec4ade57cfe",
+      "bytes": 21658
     },
     {
       "url": "./js/reader-storage.js",
