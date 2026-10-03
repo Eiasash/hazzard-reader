@@ -2,6 +2,39 @@
    are unchanged. Content-derived IDs prevent answers moving to another item. */
 window.HazzardMCQ = (() => {
   const KEY = 'hazzard-mcq-v1';
+  const MIGRATION_KEY='hazzard-mcq-id-aliases-v53-r1';
+  let aliases={},aliasesPromise;
+  const currentId=id=>aliases[id]||id;
+  function loadAliases(){return aliasesPromise ||= json('data/mcq/id-aliases.json').then(value=>{aliases=value;}).catch(error=>{aliasesPromise=null;throw error;});}
+  function currentAnswers(source){
+    const answers={};
+    // Prefer the canonical record on a timestamp tie, including Undo tombstones.
+    for(const [id,a] of Object.entries(source).sort(([a],[b])=>Number(!!aliases[b])-Number(!!aliases[a]))){
+      const target=currentId(id);if(!answers[target]||a.at>=answers[target].at)answers[target]=a;
+    }
+    return answers;
+  }
+  function migrateValue(key,value){
+    // Keep every historical record. Canonical copies allow old and new clients
+    // to coexist; read-time resolution also covers papers without changing IDs.
+    return key===KEY?{...value,answers:{...value.answers,...currentAnswers(value.answers)}}:value;
+  }
+  async function migrateSaved(){
+    await loadAliases();
+    if(localStorage.getItem(MIGRATION_KEY)==='1')return;
+    for(;;){
+      const raw=localStorage.getItem(KEY);
+      const next=raw===null?null:JSON.stringify(migrateValue(KEY,readStore(false)));
+      await HazzardStorage.snapshot();
+      if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
+      // Another open tab may save while the snapshot transaction is pending.
+      if(localStorage.getItem(KEY)!==raw)continue;
+      if(next!==raw)HazzardStorage.setItem(KEY,next);
+      break;
+    }
+    HazzardStorage.setItem(MIGRATION_KEY,'1');
+    await HazzardStorage.flush();
+  }
   const FLAGS_KEY='hazzard-mcq-flags-v1',LAW_TOPICS=[30,31,32,33,34];
   const SYSTEM_KEY='hazzard-mcq-israeli-system-v1';
   const PRACTICE_LABEL='Hazzard practice - US framing';
@@ -13,10 +46,10 @@ window.HazzardMCQ = (() => {
       /^mcq-[a-f0-9]{24}$/.test(id) && record(a) && (a.selected === null || Number.isInteger(a.selected) && a.selected >= 0 && a.selected <= 4) &&
       typeof a.checked === 'boolean' && (!a.checked || a.selected !== null) && Number.isFinite(a.at) && a.at >= 0);
   }
-  function readStore() {
+  function readStore(resolve=true) {
     const raw = localStorage.getItem(KEY), value = raw === null ? {version:1,answers:{}} : JSON.parse(raw);
     if (!validStore(value)) throw new Error('Unreadable MCQ answers');
-    return value;
+    return resolve?{...value,answers:currentAnswers(value.answers)}:value;
   }
   function mergeStore(current, incoming) {
     const answers = {...incoming.answers};
@@ -115,7 +148,7 @@ window.HazzardMCQ = (() => {
     }
     function save(){
       try{
-        if(pending.size){const saved=mergeStore(readStore(),{version:1,answers:Object.fromEntries(pending)});HazzardStorage.setItem(KEY,JSON.stringify(saved));for(const id of pending.keys())answers.set(id,saved.answers[id]);pending.clear();}
+        if(pending.size){const saved=mergeStore(readStore(false),{version:1,answers:Object.fromEntries(pending)});HazzardStorage.setItem(KEY,JSON.stringify(saved));for(const id of pending.keys())answers.set(id,saved.answers[id]);pending.clear();}
         if(mockMode){if(paper){paper.position=position;paper.at=Date.now();}HazzardStorage.setItem(PAPER_KEY,JSON.stringify({version:1,settings,paper,at:Date.now()}));paperPending=false;}
         storageError='';
       }catch{storageError='Answers could not be saved. Keep this page open and try again.';if(mockMode)paperPending=true;}
@@ -153,9 +186,10 @@ window.HazzardMCQ = (() => {
       const byId=new Map(items.map(q=>[q.id,q])),entries=activeFlags().sort((a,b)=>b[1].at-a[1].at);
       return '<h2>Topic flags</h2>'+(entries.length?entries.map(([id,f])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><div class="mcq-mixed" dir="auto">'+rich(q?q.q:'Question no longer in the current bank')+'</div><p class="meta">'+escape(f.scopes.map(scopeLabel).join(' · '))+'</p><button class="quiet" data-undo-flag="'+id+'">Undo flag</button></section>';}).join(''):'<p>No topic flags.</p>');
     }
-    function stateFor(q){return mockMode?(paper.answers[q.id]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());}
+    function paperId(q){return paper.ids.filter(id=>currentId(id)===q.id).sort((a,b)=>(paper.answers[b]?.at??-1)-(paper.answers[a]?.at??-1))[0]||q.id;}
+    function stateFor(q){return mockMode?(paper.answers[paperId(q)]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());}
     function visible(){
-      if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(id)).filter(q=>q&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
+      if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
       let list=items.filter(q=>!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+filter))&&(!['law','articles'].includes(filter)||!flagged(q,'topic:'+q.topic))&&(topic==='all'||!flagged(q,'topic:'+topic))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!flagged(q,'topic:'+q.topic)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&(year==='all'||q.t.startsWith(year))&&(level==='all'||(level==='unspecified'?!/-(Basic|Subspec)$/.test(q.t):q.t.endsWith('-'+level)))&&(topic==='all'||q.topic===Number(topic))&&(!missedOnly||missedIds.has(q.id)));
       if(bankMode)list.sort((a,b)=>(filter==='law'?(a.kind!=='past')-(b.kind!=='past'):0)||(sort==='topic'?(topics[a.topic]||'').localeCompare(topics[b.topic]||'')||a.t.localeCompare(b.t)||a.sourceIndex-b.sourceIndex:a.t.localeCompare(b.t)||a.topic-b.topic||a.sourceIndex-b.sourceIndex));
@@ -173,7 +207,7 @@ window.HazzardMCQ = (() => {
       if(!flagsView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
       if(filter==='law'||chapter==='law')html+='<p class="meta mcq-law-note">'+(chapter==='law'?'Israeli law: past-exam items are the target; Hazzard items use US law':LAW_NOTE)+'</p>';
       if(collections.topicFallbacks[chapter])html+='<p class="meta mcq-topic-fallback">Questions by topic: '+escape(collections.topicFallbacks[chapter].name)+'</p>';
-      if(mockMode)html+='<button class="quiet" data-mcq="builder">Mock builder</button>';
+      if(mockMode)html+='<p class="meta">'+Object.values(paper.answers).filter(a=>a.checked).length+' answered (including saved unavailable questions)</p><button class="quiet" data-mcq="builder">Mock builder</button>';
       if(storageError)html+='<p role="alert">'+escape(storageError)+'</p><button data-mcq="save">Save again</button>';
       if(notice)html+='<p class="meta" role="status">'+escape(notice)+' <a href="?chapter=bank#flags">Review flags</a></p>';
       return html;
@@ -218,13 +252,13 @@ window.HazzardMCQ = (() => {
           const url=new URL(location.href),n=url.searchParams.get('n');
           if(storageError)throw Error(storageError);
           building=n==='builder'||!paper||!(n==='resume'||url.searchParams.get('run')==='1');
-          const available=new Set(items.map(q=>q.id));if(paper&&!paper.ids.every(id=>available.has(id))){building=true;storageError='Some saved paper questions are unavailable in this release. Start a new paper.';}
+          const available=new Set(items.map(q=>q.id));if(paper&&!paper.ids.every(id=>available.has(currentId(id)))){building=true;storageError='Some saved paper questions are unavailable in this release. Start a new paper.';}
         }
         loaded=true;render();
       }catch(error){host.innerHTML='<div class="mcq-page"><p role="alert">'+escape(error.message||'Questions could not be loaded.')+'</p><button data-mcq="load">Reload questions</button>'+(!bankMode&&!mockMode?' <button data-mcq="notes">Study notes</button>':'')+'</div>';}
       finally{busy=false;}
     }
-    function commit(q,state){state.at=Math.max(Date.now(),(answers.get(q.id)?.at||0)+1,(state.at||0)+1);answers.set(q.id,state);pending.set(q.id,state);if(missedOnly)retryAnswers.set(q.id,state);if(mockMode){paper.answers[q.id]=state;paperPending=true;}save();}
+    function commit(q,state){state.at=Math.max(Date.now(),(answers.get(q.id)?.at||0)+1,(state.at||0)+1);answers.set(q.id,state);pending.set(q.id,state);if(missedOnly)retryAnswers.set(q.id,state);if(mockMode){paper.answers[paperId(q)]=state;paperPending=true;}save();}
     host.addEventListener('change',event=>{const name=event.target.dataset.select;if(!name)return;lastAnswer=null;const value=event.target.value;
       if(name==='mock-year'||name==='mock-level'){settings[name==='mock-year'?'year':'level']=value;save();render();return;}
       if(name==='source'){filter=normalizeSource(value);year='all';level='all';topic='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;
@@ -265,7 +299,7 @@ window.HazzardMCQ = (() => {
         const restored={...(undo.previousAnswer||empty()),at};
         answers.set(q.id,restored);pending.set(q.id,restored);
         if(missedOnly){if(undo.previousRetry)retryAnswers.set(q.id,undo.previousRetry);else retryAnswers.delete(q.id);}
-        if(mockMode){if(undo.previousPaperAnswer)paper.answers[q.id]={...undo.previousPaperAnswer,at};else delete paper.answers[q.id];position=undo.position;paper.finished=undo.finished;paperPending=true;}
+        if(mockMode){if(undo.previousPaperAnswer)paper.answers[undo.paperId]={...undo.previousPaperAnswer,at};else delete paper.answers[undo.paperId];position=undo.position;paper.finished=undo.finished;paperPending=true;}
         save();lastAnswer=null;render();host.querySelector('[data-option="0"]')?.focus({preventScroll:true});return;
       }
       if(action==='next'||action==='prev'){
@@ -275,12 +309,12 @@ window.HazzardMCQ = (() => {
       if(button.dataset.option!==undefined&&!state.checked){state.selected=Number(button.dataset.option);state.checked=true;}
       else return;
       let previousAnswer;try{previousAnswer=readStore().answers[q.id];}catch{storageError='The previous answer could not be read safely.';render();return;}
-      const undo={id:q.id,previousAnswer:previousAnswer?{...previousAnswer}:null,previousRetry:retryAnswers.get(q.id),previousPaperAnswer:mockMode?paper.answers[q.id]:null,position,finished:mockMode?paper.finished:false};
+      const undo={id:q.id,previousAnswer:previousAnswer?{...previousAnswer}:null,previousRetry:retryAnswers.get(q.id),paperId:mockMode?paperId(q):null,previousPaperAnswer:mockMode?paper.answers[paperId(q)]:null,position,finished:mockMode?paper.finished:false};
       commit(q,state);lastAnswer={...undo,at:state.at};const y=host.scrollTop;render();host.scrollTop=y;
       host.querySelector('[data-mcq="next"]')?.focus({preventScroll:true});
     });
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===SYSTEM_KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {KEY,PAPER_KEY,FLAGS_KEY,SYSTEM_KEY,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
+  return {KEY,PAPER_KEY,FLAGS_KEY,SYSTEM_KEY,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
 })();
