@@ -212,7 +212,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 #claimProvenance ol{padding-inline-start:var(--s6);margin:var(--s3) 0 0}
 #claimProvenance li+li{margin-block-start:var(--s3)}
 .reading-copy [data-claim]{-webkit-touch-callout:none}
-/* Reading type can grow independently of controls that must still fit a phone. */
+/* Reading headings share the app size preference. */
 :root{--title:calc(var(--body) * 1.45);--heading:calc(var(--body) * 1.22);--subhead:calc(var(--body) * 1.12)}
 .settings-links{flex-wrap:wrap;gap:0 var(--s3)}
 .settings-links button{min-block-size:var(--tap)}
@@ -234,37 +234,37 @@ body{padding-block-end:var(--tabs-height)}
 #appTabs button[aria-current]{background:var(--accent-soft);color:var(--accent)}
 #appTabs svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 #appTabs .text-icon{font:600 23px/22px var(--reading)}
-#chapterHeader{position:absolute;z-index:6;inset:0 0 auto;height:48px;display:flex;align-items:center;gap:2px;padding:2px 4px;background:var(--surface);border-bottom:1px solid var(--rule);color:var(--muted);font:600 12px/1.3 var(--ui);transform:translateY(0);transition:transform 200ms ease;will-change:transform}
+#chapterHeader{position:absolute;z-index:6;inset:0 0 auto;height:48px;display:flex;align-items:center;gap:2px;padding:2px 4px;background:var(--surface);border-bottom:1px solid var(--rule);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.3 var(--ui);transform:translateY(0);transition:transform 200ms ease;will-change:transform}
 #chapterHeader.is-collapsed{transform:translateY(-100%);pointer-events:none}
 #readerScroll{overflow-anchor:none}
 #reader{padding-top:calc(48px + var(--s4))}
 #readerNotice{position:absolute;z-index:5;top:48px;left:0;right:0}
-#chapterHeader button{min-height:44px;height:44px;min-width:0;padding:0;border:0;border-radius:7px;color:var(--muted);font:600 12px/1.3 var(--ui);background:transparent}
+#chapterHeader button{min-height:44px;height:44px;min-width:0;padding:0;border:0;border-radius:7px;color:var(--muted);font:600 calc(12px * var(--fs,1))/1.3 var(--ui);background:transparent}
 #chapterHeader>.chapter-back{flex:0 0 70px;white-space:nowrap;color:var(--accent)}
 .chapter-heading{display:flex;align-items:center;flex:1;min-width:0;gap:0}
-#chapterHeader .chapter-step{flex:0 0 28px;font-size:22px;font-weight:400}
-#chapterHeaderTitle{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:600 12px/1.3 var(--ui);color:var(--ink);text-align:center}
+#chapterHeader .chapter-step{flex:0 0 28px;font-size:calc(22px * var(--fs,1));font-weight:400}
+#chapterHeaderTitle{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:600 calc(12px * var(--fs,1))/1.3 var(--ui);color:var(--ink);text-align:center}
 .chapter-switch{display:flex;flex:0 0 106px;border-radius:8px;background:var(--soft);overflow:hidden}
 #chapterHeader .chapter-switch button{flex:1;border-radius:7px;font-weight:500}
 #chapterHeader .chapter-switch button:first-child{flex:1.25}
 #chapterHeader .chapter-switch button[aria-current]{color:var(--accent);background:var(--accent-soft);font-weight:700;box-shadow:inset 0 0 0 1px var(--rule)}
-#chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 9px/1.3 var(--ui);color:var(--muted)}
-#markToggle .pencil-icon{font-size:21px;line-height:22px}
+#chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 calc(9px * var(--fs,1))/1.3 var(--ui);color:var(--muted)}
+#markToggle .pencil-icon{font-size:calc(21px * var(--fs,1));line-height:22px}
 #chapterHeader #markToggle.is-marking{background:var(--current-mark);box-shadow:inset 0 0 0 1px var(--accent);color:var(--hl-ink)}
 /* Physical right edge deliberately remains right in Hebrew. */
 #jumpEnds{inset:auto;right:max(4px,env(safe-area-inset-right));bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 4px);gap:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 200ms,visibility 200ms;direction:ltr}
 #jumpEnds.is-visible{opacity:1;visibility:visible;pointer-events:auto}
 #jumpEnds button{width:44px;height:44px;min-height:44px;min-width:44px;padding:4px;border:0;background:transparent;opacity:1;color:var(--accent)}
-#jumpEnds button span{display:grid;place-items:center;width:36px;height:36px;border-radius:18px;border:1px solid var(--rule);background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px);font:22px/1 var(--ui)}
+#jumpEnds button span{display:grid;place-items:center;width:36px;height:36px;border-radius:18px;border:1px solid var(--rule);background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px);font:calc(22px * var(--fs,1))/1 var(--ui)}
 #appTabs{background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px)}
-.library-progress{display:block;color:var(--muted);font:400 11px/1.5 var(--ui);margin-top:4px}
+.library-progress{display:block;color:var(--muted);font:400 calc(11px * var(--fs,1))/1.5 var(--ui);margin-top:4px}
 #chapterResults button{display:block;width:100%;text-align:start;padding:12px 4px}
 #chapterResults strong,#chapterResults small{display:block}
-#chapterResults small{font:400 13px/1.5 var(--ui);margin-top:5px}
+#chapterResults small{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);margin-top:5px}
 #chapterResults mark{background:var(--hl-yellow);color:var(--hl-ink)}
 #panel[data-current-pane="missed"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
 .missed-question{padding:12px 0;border-bottom:1px solid var(--rule)}
-.missed-question p{font-size:14px}
+.missed-question p{font-size:calc(14px * var(--fs,1))}
 .missed-question details{margin-bottom:8px}
 @media(prefers-reduced-motion:reduce){#jumpEnds{transition:none}}
 .notebook-backup{margin-top:24px;padding-top:16px;border-top:1px solid var(--rule)}
@@ -272,29 +272,29 @@ body{padding-block-end:var(--tabs-height)}
 #backupStatus{margin:8px 0 0}
 @media(prefers-reduced-motion:reduce){#chapterHeader{transition:none}}
 .chapter-nav{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;direction:ltr;margin-block:16px}
-.chapter-nav button{min-width:0;min-height:64px;padding:10px 8px;font-size:12px;text-align:left;overflow-wrap:anywhere}
+.chapter-nav button{min-width:0;min-height:64px;padding:10px 8px;font-size:calc(12px * var(--fs,1));text-align:left;overflow-wrap:anywhere}
 .chapter-nav button:last-child{grid-column:2;text-align:right}
 .chapter-nav .nav-empty{visibility:hidden}
 #desk{padding-top:28px}
-#desk>.eyebrow{font-size:11px}
-#desk>h1{font-size:30px;margin:8px 0 20px}
+#desk>.eyebrow{font-size:calc(11px * var(--fs,1))}
+#desk>h1{font-size:calc(30px * var(--fs,1));margin:8px 0 20px}
 .resume-card{padding:18px;background:var(--accent-soft);border-color:var(--accent-soft);border-left:4px solid var(--accent)}
-.resume-card h2{font-size:22px;margin:8px 0}
-.resume-card .meta{font-size:12px;line-height:1.5;margin-bottom:16px}
-.resume-card .primary{background:var(--accent);color:var(--surface);border:0;font-size:14px}
+.resume-card h2{font-size:calc(22px * var(--fs,1));margin:8px 0}
+.resume-card .meta{font-size:calc(12px * var(--fs,1));line-height:1.5;margin-bottom:16px}
+.resume-card .primary{background:var(--accent);color:var(--surface);border:0;font-size:calc(14px * var(--fs,1))}
 :root[data-theme="dark"] .resume-card .primary{color:var(--page)}
 .launch-tiles{display:grid;gap:10px;margin-top:18px}
 .launch-tiles button{display:flex;align-items:center;justify-content:space-between;text-align:left;padding:12px 16px;min-height:70px;border-color:var(--rule)}
-.launch-tiles strong{display:block;font-size:16px;color:var(--accent)}
-.launch-tiles small{display:block;font-size:12px;font-weight:400;margin-top:3px;color:var(--muted)}
-.launch-tiles .tile-arrow{font-size:24px;color:var(--accent)}
+.launch-tiles strong{display:block;font-size:calc(16px * var(--fs,1));color:var(--accent)}
+.launch-tiles small{display:block;font-size:calc(12px * var(--fs,1));font-weight:400;margin-top:3px;color:var(--muted)}
+.launch-tiles .tile-arrow{font-size:calc(24px * var(--fs,1));color:var(--accent)}
 #library .opening-actions{margin-bottom:12px}
-#library h1{font-size:28px;margin-bottom:12px}
+#library h1{font-size:calc(28px * var(--fs,1));margin-bottom:12px}
 .library-search{position:sticky;top:0;background:var(--page);z-index:1;padding-bottom:12px}
 .library-search label{margin-top:0}
 .library-row{display:grid;grid-template-columns:minmax(0,1fr) 48px 52px;gap:4px;align-items:center;min-height:76px}
-.library-row>.chapter-name{font:600 14px/1.4 var(--ui);padding:12px 4px 12px 0}
-#chapterRows .library-row button{min-height:48px;padding:8px 2px;text-align:center;color:var(--accent);font-size:13px;border-radius:8px}
+.library-row>.chapter-name{font:600 calc(14px * var(--fs,1))/1.4 var(--ui);padding:12px 4px 12px 0}
+#chapterRows .library-row button{min-height:48px;padding:8px 2px;text-align:center;color:var(--accent);font-size:calc(13px * var(--fs,1));border-radius:8px}
 #chapterRows button[aria-current]{background:var(--accent-soft)}
 #panel{max-block-size:calc(var(--vv-height) - var(--tabs-height) - 60px);padding:12px;border-radius:16px 16px 0 0;border-bottom:1px solid var(--rule)}
 #panel[data-current-pane="tools"]{overflow:hidden}
@@ -304,43 +304,43 @@ body{padding-block-end:var(--tabs-height)}
 #panel .dialog-head{margin-bottom:8px}
 #panel .mark-state{display:none}
 #panel .settings-controls{display:flex;flex-direction:column;align-items:stretch;gap:16px;margin-bottom:16px}
-#panel .settings-controls label{margin:0 0 6px;font-size:13px}
+#panel .settings-controls label{margin:0 0 6px;font-size:calc(13px * var(--fs,1))}
 #sizeChoices{display:grid;grid-template-columns:repeat(3,1fr)}
-#panel .icon-control{width:100%;display:flex;align-items:center;justify-content:space-between;padding:10px 12px;font-size:13px}
+#panel .icon-control{width:100%;display:flex;align-items:center;justify-content:space-between;padding:10px 12px;font-size:calc(13px * var(--fs,1))}
 #panel .icon-control svg{width:20px;height:20px}
 #readerLinks{border-top:1px solid var(--rule);padding-top:8px;justify-content:space-between}
-#panelBack{font-size:12px}
-#panel .rows button{font-size:14px}
-#panel .meta{font-size:12px}
-#panel .rows small{font-size:12px}
-#panel [data-pane="practice"]>p{font:400 14px/1.5 var(--ui);color:var(--muted)}
-#offlineReady{color:var(--accent);font-size:12px}
+#panelBack{font-size:calc(12px * var(--fs,1))}
+#panel .rows button{font-size:calc(14px * var(--fs,1))}
+#panel .meta{font-size:calc(12px * var(--fs,1))}
+#panel .rows small{font-size:calc(12px * var(--fs,1))}
+#panel [data-pane="practice"]>p{font:400 calc(14px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
+#offlineReady{color:var(--accent);font-size:calc(12px * var(--fs,1))}
 
 /* v37: paired controls and text-only settings. */
 input[type="search"]{appearance:none;-webkit-appearance:none;box-shadow:none;border:1px solid var(--control)}
 input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
-#chapterHeader>.chapter-back{flex:0 0 44px;font-size:30px}
+#chapterHeader>.chapter-back{flex:0 0 44px;font-size:calc(30px * var(--fs,1))}
 #chapterHeader .chapter-step{flex:0 0 44px}
 #chapterHeaderTitle{min-width:44px}
 .chapter-switch{flex:0 0 100px}
 #chapterHeader #markToggle{flex:0 0 44px;inline-size:44px}
-#findBar{position:absolute;z-index:7;top:48px;left:0;right:0;padding:6px 8px;background:var(--surface);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:4px;font:13px var(--ui)}
-#findBar input{min-width:0;height:44px;padding:8px;font-size:16px}
+#findBar{position:absolute;z-index:7;top:48px;left:0;right:0;padding:6px 8px;background:var(--surface);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:4px;font:calc(13px * var(--fs,1)) var(--ui)}
+#findBar input{min-width:0;height:44px;padding:8px;font-size:calc(16px * var(--fs,1))}
 #findBar button{min-width:44px;min-height:44px;padding:6px;border:0;border-radius:7px}
 .find-actions{grid-column:1/-1;display:flex;gap:4px;align-items:center}
 #findCount{flex:1;padding:0 8px;font-variant-numeric:tabular-nums}
 .finding #reader{padding-top:160px}
 ::highlight(page-find){background:#f0df9f;color:#263029}
 ::highlight(page-find-current){background:#205b4b;color:#fff}
-#markBar{position:fixed;z-index:8;left:0;right:0;bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height));display:flex;gap:4px;padding:2px 6px;background:var(--surface);border-top:1px solid var(--rule);font:12px var(--ui)}
-#markBar button{min-height:44px;min-width:44px;padding:4px 8px;border:0;border-radius:7px;font-size:12px}
+#markBar{position:fixed;z-index:8;left:0;right:0;bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height));display:flex;gap:4px;padding:2px 6px;background:var(--surface);border-top:1px solid var(--rule);font:calc(12px * var(--fs,1)) var(--ui)}
+#markBar button{min-height:44px;min-width:44px;padding:4px 8px;border:0;border-radius:7px;font-size:calc(12px * var(--fs,1))}
 #bookmark{flex:1;text-align:left}
 #bookmark[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
 .marking .reading-copy{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 .mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 49px)}
-#savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 13px var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
+#savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 calc(13px * var(--fs,1)) var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
 #jumpEnds{right:max(0px,env(safe-area-inset-right))}
-#jumpEnds button span{width:40px;height:40px;border:0;background:color-mix(in srgb,var(--surface) 45%,transparent);backdrop-filter:blur(3px);font-size:19px;opacity:.55}
+#jumpEnds button span{width:40px;height:40px;border:0;background:color-mix(in srgb,var(--surface) 45%,transparent);backdrop-filter:blur(3px);font-size:calc(19px * var(--fs,1));opacity:.55}
 #jumpEnds button{padding:2px}
 .mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 53px)}
 #reader{padding-right:max(44px,var(--gutter))}
@@ -350,47 +350,47 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .reading-copy summary,.nb-group summary,.missed-question summary{min-height:44px;cursor:pointer}
 #imageZoom .zoom-bar button{min-width:44px}
 /* v38: compact controls retain 44px touch targets independently of reading size. */
-:root{--tap:44px;--label:13px;--small:12px;--title:24px;--heading:19px;--subhead:16px;--s4:12px;--s6:18px;--s8:24px}
+:root{--tap:44px;--label:calc(13px * var(--fs,1));--small:calc(12px * var(--fs,1));--title:calc(24px * var(--fs,1));--heading:calc(19px * var(--fs,1));--subhead:calc(16px * var(--fs,1));--s4:12px;--s6:18px;--s8:24px}
 #appTabs{grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;padding-inline:4px}
 #appTabs button{min-width:44px;min-height:44px;font-size:10px;border-radius:7px}
 #appTabs svg{width:18px;height:18px}
 #appTabs .text-icon{font-size:20px;line-height:18px}
 #chapterHeader{position:fixed;top:var(--vv-top,0px);left:var(--vv-left,0px);right:auto;width:var(--vv-width,100%);gap:0}
-#chapterHeader #headerHome{flex:0 0 44px;min-width:44px;font-size:22px;color:var(--accent)}
+#chapterHeader #headerHome{flex:0 0 44px;min-width:44px;font-size:calc(22px * var(--fs,1));color:var(--accent)}
 #headerHome svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7}
 #headerHome[aria-current]{background:var(--accent-soft)}
-#chapterHeaderTitle{font-size:12px;text-align:left;padding-inline:4px}
+#chapterHeaderTitle{font-size:calc(12px * var(--fs,1));text-align:left;padding-inline:4px}
 .chapter-switch{flex:0 0 88px}
-#chapterHeader .chapter-switch button{min-width:44px;font-size:11px;flex:1}
+#chapterHeader .chapter-switch button{min-width:44px;font-size:calc(11px * var(--fs,1));flex:1}
 #chapterHeader .chapter-switch button:first-child{flex:1}
 #desk,#library{padding-top:60px}
-#desk>h1,#library h1{font-size:22px;margin:4px 0 10px}
+#desk>h1,#library h1{font-size:calc(22px * var(--fs,1));margin:4px 0 10px}
 #deskBack{display:none}
 .resume-card{padding:12px}
-.resume-card h2{font-size:18px;margin:4px 0 8px}
+.resume-card h2{font-size:calc(18px * var(--fs,1));margin:4px 0 8px}
 .resume-card .meta{margin-bottom:8px}
 .launch-tiles{grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
 .launch-tiles button{padding:10px;min-height:72px}
-.launch-tiles strong{font-size:14px}
-.launch-tiles small{font-size:11px}
+.launch-tiles strong{font-size:calc(14px * var(--fs,1))}
+.launch-tiles small{font-size:calc(11px * var(--fs,1))}
 .launch-tiles .tile-arrow{display:none}
-#homeProgress{display:block;width:100%;padding:4px 0;margin-top:4px;white-space:nowrap;font-size:10px;text-align:center;min-height:44px}
-#homeStatus{font:11px/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
-#homeBackup{font:11px/1.4 var(--ui);margin:4px 0 0;color:var(--muted)}
+#homeProgress{display:block;width:100%;padding:4px 0;margin-top:4px;white-space:nowrap;font-size:calc(10px * var(--fs,1));text-align:center;min-height:44px}
+#homeStatus{font:calc(11px * var(--fs,1))/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
+#homeBackup{font:calc(11px * var(--fs,1))/1.4 var(--ui);margin:4px 0 0;color:var(--muted)}
 #homeBackup.due{color:var(--exam);font-weight:600}
 #panel,#panel[data-current-pane]{max-block-size:calc(var(--vv-height) * .5);padding:8px 12px}
 #panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{font-size:18px}
 #panel .dialog-head{margin-bottom:4px}
 #panel .settings-controls{gap:8px;margin-bottom:8px}
 #panel .settings-controls label{margin:0}
-#panel .rows button{padding-block:8px;font-size:13px}
-#panel .nb-heading{font-size:15px}
-.library-row>.chapter-name{font-size:13px;padding-block:8px}
-#chapterResults button{font-size:13px;padding-block:8px}
+#panel .rows button{padding-block:8px;font-size:calc(13px * var(--fs,1))}
+#panel .nb-heading{font-size:calc(15px * var(--fs,1))}
+.library-row>.chapter-name{font-size:calc(13px * var(--fs,1));padding-block:8px}
+#chapterResults button{font-size:calc(13px * var(--fs,1));padding-block:8px}
 .library-search{top:48px}
 #markColour .swatch{background:var(--current-mark);width:14px;height:14px;margin:0 0 0 4px}
-.exam-badge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--accent-soft);color:var(--accent);font:600 10px/1.5 var(--ui);white-space:nowrap}
-#examBar{position:fixed;z-index:7;top:calc(var(--vv-top,0px) + 48px);left:0;right:0;display:flex;align-items:center;gap:4px;padding:2px 8px;background:var(--surface);border-bottom:1px solid var(--rule);font:12px var(--ui)}
+.exam-badge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--accent-soft);color:var(--accent);font:600 calc(10px * var(--fs,1))/1.5 var(--ui);white-space:nowrap}
+#examBar{position:fixed;z-index:7;top:calc(var(--vv-top,0px) + 48px);left:0;right:0;display:flex;align-items:center;gap:4px;padding:2px 8px;background:var(--surface);border-bottom:1px solid var(--rule);font:calc(12px * var(--fs,1)) var(--ui)}
 #examBar span{flex:1}
 #examBar button{min-width:44px;padding:4px;border:0}
 .examining #reader{padding-top:112px}
@@ -401,7 +401,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .reading-copy .book-context{font-size:var(--body)}
 
 /* v39: phone navigation, compact self-grading and distinct exam pearls. */
-:root{--exam:#855200;--exam-soft:#fff1cc;--drill-font:clamp(12px,calc(var(--body) * .93),13px)}
+:root{--exam:#855200;--exam-soft:#fff1cc;--drill-font:calc(12px * var(--fs,1))}
 :root[data-theme="dark"]{--exam:#ffd27b;--exam-soft:#3e2f16}
 #chapterHeaderTitle{min-width:0;text-align:center;padding:0 2px}
 #chapterHeader .chapter-step{flex:0 0 40px;min-width:40px;color:var(--accent)}
@@ -415,7 +415,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .exam-note p:last-child{margin-bottom:0}
 .exam-label{color:var(--exam);font:700 var(--label)/1.4 var(--ui)}
 .exam-label::before{content:"★ ";}
-.exam-badge,.exam-page-badge{display:inline-block;background:var(--exam-soft);color:var(--exam);border:1px solid var(--exam);border-radius:5px;padding:1px 5px;font:700 10px/1.5 var(--ui);white-space:nowrap}
+.exam-badge,.exam-page-badge{display:inline-block;background:var(--exam-soft);color:var(--exam);border:1px solid var(--exam);border-radius:5px;padding:1px 5px;font:700 calc(10px * var(--fs,1))/1.5 var(--ui);white-space:nowrap}
 .reading-copy a.pg[data-exam]::before{background:var(--exam-soft);border-color:var(--exam);color:var(--exam);font-weight:700}
 .reading-copy a.pg.exam-current::before{background:var(--exam);color:var(--page)}
 .mock-q,.drill-q,.missed-question{padding-block:8px}
@@ -456,7 +456,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #toggleTheme .sun-icon{display:none}
 :root[data-theme="dark"] #toggleTheme .moon-icon{display:none}
 :root[data-theme="dark"] #toggleTheme .sun-icon{display:block}
-#panel #closePanel{min-width:44px;min-height:44px;font:24px/1 var(--ui);padding:4px}
+#panel #closePanel{min-width:44px;min-height:44px;font:calc(24px * var(--fs,1))/1 var(--ui);padding:4px}
 /* v50: status shares the existing Text tab; no extra reading row. */
 #appTabs{grid-template-columns:repeat(5,minmax(0,1fr)) 104px}
 #appTabs [data-tab="tools"]{gap:1px;font-size:10px}
@@ -472,6 +472,30 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 :root[data-theme="dark"] [data-status="downloading"]{--status-dot:#ffd06a}
 :root[data-theme="dark"] [data-status="waiting"]{--status-dot:#78baff}
 :root[data-theme="dark"] [data-status="incomplete"]{--status-dot:#ff7d7d}
+
+/* v53: one S/M/L scale for reading and UI; fixed reachability controls. */
+:root{--body:calc(.75rem * var(--fs,1))}
+#panel[data-current-pane="tools"],#appTabs{--fs:1;--s1:4px;--s2:8px;--s3:12px;--s4:12px;--s6:18px;--s8:24px;--gutter:12px;--radius:12px;--line:1px;letter-spacing:.1px}
+#appTabs{--tap:44px}
+#homeProgress{white-space:normal}
+.library-row{grid-template-columns:minmax(0,1fr) calc(48px * var(--fs,1)) calc(52px * var(--fs,1));min-height:calc(64px * var(--fs,1))}
+.library-row>.chapter-name{min-width:0}
+#chapterRows .library-row button{min-height:calc(44px * var(--fs,1))}
+.launch-tiles button{min-height:calc(72px * var(--fs,1))}
+#panel:not([data-current-pane="tools"]){height:auto;max-block-size:calc(var(--vv-height) * .30 * var(--fs,1));padding:calc(6px * var(--fs,1)) calc(12px * var(--fs,1));font:400 calc(13px * var(--fs,1))/1.35 var(--ui)}
+#panel:not([data-current-pane="tools"]) .dialog-head{min-height:40px;margin-bottom:0}
+#panel:not([data-current-pane="tools"]) #panelTitle{font:600 calc(16px * var(--fs,1))/1.25 var(--ui)}
+#panel:not([data-current-pane="tools"]) #closePanel{position:relative;min-width:40px;min-height:40px;min-block-size:40px;width:40px;height:40px;padding:2px;border:0;background:transparent;font:calc(24px * var(--fs,1))/36px var(--ui)}
+#panel:not([data-current-pane="tools"]) #closePanel::before{content:"";position:absolute;inset:2px;border:1px solid var(--control);border-radius:10px;pointer-events:none}
+#panel:not([data-current-pane="tools"]) [data-pane]{padding-bottom:0}
+#panel:not([data-current-pane="tools"]) .rows button{min-height:calc(44px * var(--fs,1));min-block-size:40px;padding:calc(4px * var(--fs,1)) 0;font-size:calc(15px * var(--fs,1));line-height:1.2}
+#panel:not([data-current-pane="tools"]) .rows small{font-size:calc(12px * var(--fs,1));line-height:1.25;margin-top:0}
+#panel:not([data-current-pane="tools"]) .meta{font-size:calc(12px * var(--fs,1));margin:calc(4px * var(--fs,1)) 0}
+#panel [data-pane="practice"]>p{display:none}
+#panel .nb-heading,#panel .nb-group h3{font:600 calc(15px * var(--fs,1))/1.3 var(--ui);margin:calc(6px * var(--fs,1)) 0 calc(2px * var(--fs,1))}
+#panel .notebook-backup{margin-top:calc(6px * var(--fs,1));padding-top:calc(6px * var(--fs,1))}
+#panel .notebook-backup button{min-height:40px;min-block-size:40px;margin-bottom:4px;padding:calc(5px * var(--fs,1)) calc(8px * var(--fs,1))}
+#panel:not([data-current-pane="tools"]) #panelBack{margin:0;min-height:40px;min-block-size:40px;padding-block:2px}
 </style>
 </head>
 <body>
@@ -32154,7 +32178,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v52 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v53 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -32565,7 +32589,7 @@ function view(id,opts={}){
   closeProvenance();navigateUI(id,null,false,!!opts.replace);
 }
 function applyDisplay(){
-  const px=sizes[size];document.documentElement.style.setProperty('--body',(px/16)+'rem');document.documentElement.style.setProperty('--fs',1);document.body.style.fontSize='var(--body)';
+  const px=sizes[size];document.documentElement.style.setProperty('--fs',px/sizes.small);document.body.style.fontSize='var(--body)';
   for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
   for(const b of $$('button[data-theme]'))b.setAttribute('aria-pressed',String(b.dataset.theme===document.documentElement.dataset.theme));
   syncMarkingUI();

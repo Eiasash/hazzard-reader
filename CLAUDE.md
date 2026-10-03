@@ -2,8 +2,9 @@
 
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
-## State (03 Oct 2026)
-- Live at cache **v52**. 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+## State (04 Oct 2026)
+- Live at cache **v53**. 32 chapters + study pages + Israeli law block (`law` / `laws`). All reviewed against the book; flag line on each: "Lane-reviewed against the book, 25 Sep 2026."
+- **v53:** Existing S/M/L names drive one `--fs` scale (1 / 1.125 / 1.25) across reader and UI, including Home, Chapters/search, MCQ filters and answer options. Text & appearance and bottom tabs remain fixed. Other sheets use compact sans-serif headings/rows with a 30%-of-viewport Small cap, scaled for M/L, and internal scroll; 36px close outline retains a 40px hit target. No storage, source content or update-on-tap changes.
 - **v52:** Text & appearance uses one 40px S/M/L, theme and colour row, a 14px title with 36px X, and one 12px ellipsized status line that expands inline for release/storage/snapshot details. Fixed pixel typography and scoped text-size-adjust:100%; 25% viewport cap with internal scroll. Collapsed height is 148px at 360×644 and 412×915 across all reading sizes and both themes. Storage, backups and update-on-tap logic unchanged.
 - **v51-r1:** Screenshot follow-up retains LTR parentheses/arrows inside their isolated run and lets long Latin runs wrap internally as LTR. The live v50-to-v51 amber/blue/tap/green path passed with Q92 option 2 and its timestamp preserved, followed by a successful offline reload; v51-r1 repeats the same live path.
 - **v51:** Render-only MCQ direction: each Markdown paragraph/list item/cell chooses its direction; Latin terms, doses and numeric ranges in Hebrew are isolated, with a visual gap for glued Hebrew boundaries. Source questions, IDs, stores and backup formats unchanged. The v50-to-v51 update-on-tap path is exercised on the live site during this release.
