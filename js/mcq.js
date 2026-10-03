@@ -108,7 +108,7 @@ window.HazzardMCQ = (() => {
         storageError='';
       }catch{storageError='Answers could not be saved. Keep this page open and try again.';if(mockMode)paperPending=true;}
     }
-    const controller={active:false,get hasUnsaved(){return pending.size>0||paperPending},sync,
+    const controller={active:false,get hasUnsaved(){return pending.size>0||paperPending},sync,save,
       show(){controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else render();},
       notes(){lastAnswer=null;controller.active=false;host.hidden=true;readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
     };
