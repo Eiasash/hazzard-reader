@@ -152,6 +152,8 @@ def main():
     if any(sha256(path.read_bytes()).hexdigest() != hashes[name] for name, path in files.items()):
         raise RuntimeError('Source changed during import; rerun against a stable snapshot')
     build(ROOT)
+    from build_mcq_collections import build as build_collections
+    build_collections(ROOT)
     print(json.dumps({k: report[k] for k in ('total_source', 'included', 'excluded_counts')}, indent=2))
 
 
