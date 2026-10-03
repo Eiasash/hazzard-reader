@@ -1,29 +1,29 @@
 {
   "law_block_sha256": "e602bc1c068c10c5af2c10a23a5db291443bf2bb5f850165251c8c019cab5106",
-  "rule": "Primary topic 30–34 OR full covered statute name in q/ref; no regulatory.json.",
+  "rule": "Primary topic 30–34 OR full covered statute name in q/ref OR official Israeli law/system source; no regulatory.json.",
   "statutes": [
     "חוק החולה הנוטה למות",
     "חוק זכויות החולה",
     "חוק הכשרות המשפטית והאפוטרופסות"
   ],
-  "past": 46,
+  "past": 71,
   "practice": 219,
-  "source_past": 44,
+  "source_past": 24,
   "source_practice": 218,
   "topics": {
     "30": {
       "name": "Elder Abuse",
-      "past": 4,
+      "past": 2,
       "practice": 52
     },
     "31": {
       "name": "Driving",
-      "past": 2,
+      "past": 1,
       "practice": 30
     },
     "32": {
       "name": "Guardianship",
-      "past": 10,
+      "past": 4,
       "practice": 38
     },
     "33": {
@@ -33,14 +33,59 @@
     },
     "34": {
       "name": "Advance Directives",
-      "past": 28,
+      "past": 17,
       "practice": 67
     }
   },
-  "exact_name_matches": 39,
+  "exact_name_matches": 46,
   "exact_only": [
-    2491,
+    37,
+    78,
+    86,
+    91,
+    92,
+    93,
+    96,
+    121,
+    144,
+    157,
+    193,
+    195,
+    281,
+    2397,
+    3147,
+    3154,
     3168,
+    3193,
+    3198,
+    3227,
+    3229,
+    3248,
+    3259,
+    3273,
+    3315,
+    3317,
+    3318,
+    3320,
+    3321,
+    3323,
+    3393,
+    3404,
+    3461,
+    3473,
+    3484,
+    3502,
+    3503,
+    3513,
+    4470,
+    4509,
+    4531,
+    4535,
+    4542,
+    4555,
+    4559,
+    4605,
+    4626,
     508
   ],
   "evidence": [
@@ -54,7 +99,8 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
@@ -76,12 +122,33 @@
       ]
     },
     {
+      "id": "mcq-08f6970a2d4d053f15197beb",
+      "sourceIndex": 37,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
       "id": "mcq-25977eff884454c1df2ec0a8",
       "sourceIndex": 69,
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
-      "matches": []
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        },
+        {
+          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
     },
     {
       "id": "mcq-5ad0bdc999886ea23dd577f8",
@@ -89,7 +156,14 @@
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
-      "matches": []
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
     },
     {
       "id": "mcq-46770db589a259ce0b35d4b0",
@@ -97,6 +171,68 @@
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
+      "matches": [
+        {
+          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-e30d5b23a9f65b0c495739e2",
+      "sourceIndex": 78,
+      "kind": "past",
+      "topic": 28,
+      "topicIncluded": false,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-64017e896e68192670a11fe2",
+      "sourceIndex": 86,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-f7cdd68518d6671b51791c12",
+      "sourceIndex": 91,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-9af80dd50d3021366172470f",
+      "sourceIndex": 92,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-c94fa29e4b2ba5f1c341cbc1",
+      "sourceIndex": 93,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-265a3f4cda33cedc748cb1e7",
+      "sourceIndex": 96,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
       "matches": []
     },
     {
@@ -117,10 +253,19 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-b43997ccbaf4ab24fb543218",
+      "sourceIndex": 121,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
     },
     {
       "id": "mcq-30ca809d5327e7a3f40fa96f",
@@ -128,7 +273,14 @@
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
-      "matches": []
+      "matches": [
+        {
+          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
     },
     {
       "id": "mcq-4f69e7c2f0d4c3517a8f1e6b",
@@ -140,10 +292,27 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-914ae4da60a23fa3609f9656",
+      "sourceIndex": 144,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-584efd4ae05bbe5c48d0409f",
+      "sourceIndex": 157,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
+      "matches": []
     },
     {
       "id": "mcq-09467962fb342d44fd6b55fc",
@@ -151,6 +320,29 @@
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-6ba05d11f3ef3af2f94b0786",
+      "sourceIndex": 193,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-dc794bb08255721e56f05ae8",
+      "sourceIndex": 195,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
       "matches": []
     },
     {
@@ -218,35 +410,11 @@
       "matches": []
     },
     {
-      "id": "mcq-88a525d08c082495415b6dd6",
-      "sourceIndex": 269,
+      "id": "mcq-e9726c2e2313e5408517930a",
+      "sourceIndex": 281,
       "kind": "past",
-      "topic": 32,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-a6a78c7121303dc72ff843ac",
-      "sourceIndex": 286,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-918b503df051d32cbaa392c4",
-      "sourceIndex": 297,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-6c440dded8245eda94a5a2cf",
-      "sourceIndex": 359,
-      "kind": "past",
-      "topic": 32,
-      "topicIncluded": true,
+      "topic": 36,
+      "topicIncluded": false,
       "matches": []
     },
     {
@@ -1931,6 +2099,14 @@
       "matches": []
     },
     {
+      "id": "mcq-ba59a9ce44a01ad7c2566471",
+      "sourceIndex": 2397,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
       "id": "mcq-50b04abe7f08ba9feaf88404",
       "sourceIndex": 2442,
       "kind": "practice",
@@ -2091,145 +2267,6 @@
       "matches": []
     },
     {
-      "id": "mcq-ab4ce1fa79f9e3d3caa3ea32",
-      "sourceIndex": 2472,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-dc0d13c0cdb65e8c3ec7b1cb",
-      "sourceIndex": 2491,
-      "kind": "past",
-      "topic": 28,
-      "topicIncluded": false,
-      "matches": [
-        {
-          "statute": "חוק החולה הנוטה למות",
-          "fields": [
-            "q"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mcq-32f295010a5c765ddef40052",
-      "sourceIndex": 2516,
-      "kind": "past",
-      "topic": 30,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-009a71103c748639d5b8842d",
-      "sourceIndex": 2611,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": [
-        {
-          "statute": "חוק החולה הנוטה למות",
-          "fields": [
-            "q"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mcq-591a44cfbfc91ea95792f8d1",
-      "sourceIndex": 2665,
-      "kind": "past",
-      "topic": 30,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-8344e89806082dd8adbe3823",
-      "sourceIndex": 2667,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": [
-        {
-          "statute": "חוק החולה הנוטה למות",
-          "fields": [
-            "ref"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mcq-83c0c612b76cb6ac3e7d3494",
-      "sourceIndex": 2670,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-2cd6273d7d1516baea819330",
-      "sourceIndex": 2674,
-      "kind": "past",
-      "topic": 31,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-c9242b34a1d03e6b7be18ff2",
-      "sourceIndex": 2741,
-      "kind": "past",
-      "topic": 32,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-3c6fbc0fc2df1de085d42134",
-      "sourceIndex": 2904,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": [
-        {
-          "statute": "חוק החולה הנוטה למות",
-          "fields": [
-            "q"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mcq-872869a12a3ebcea5dc47bf0",
-      "sourceIndex": 2941,
-      "kind": "past",
-      "topic": 32,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
-      "id": "mcq-92221c4b1bf1c24566c10462",
-      "sourceIndex": 2999,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": [
-        {
-          "statute": "חוק החולה הנוטה למות",
-          "fields": [
-            "q"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mcq-2d20c8c40c9f198ed36c2b61",
-      "sourceIndex": 3014,
-      "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": []
-    },
-    {
       "id": "mcq-7425037b62dd263eb00a7790",
       "sourceIndex": 3052,
       "kind": "past",
@@ -2239,7 +2276,8 @@
         {
           "statute": "חוק זכויות החולה",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         },
         {
@@ -2256,6 +2294,29 @@
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
+      "matches": [
+        {
+          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-e67fa2aa6374604736fbf3dd",
+      "sourceIndex": 3147,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-fda71abd73e488940f33d8a8",
+      "sourceIndex": 3154,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
       "matches": []
     },
     {
@@ -2268,10 +2329,19 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-f5025ceee46f239e675bf3b4",
+      "sourceIndex": 3193,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
     },
     {
       "id": "mcq-e3c3ec0e57070e39c010d2fe",
@@ -2279,6 +2349,38 @@
       "kind": "past",
       "topic": 30,
       "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6f21fad051c4bdf45e220b18",
+      "sourceIndex": 3198,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-ddef9cf1f78256b78075c984",
+      "sourceIndex": 3227,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-fb612354b8ab97a21a687655",
+      "sourceIndex": 3229,
+      "kind": "past",
+      "topic": 10,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-693f1143542d4d4e9cf87a06",
+      "sourceIndex": 3248,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
       "matches": []
     },
     {
@@ -2291,7 +2393,31 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-6bdf0a9ecbc4429ad722fe0c",
+      "sourceIndex": 3259,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-7bd5c333fb742a1192c41f33",
+      "sourceIndex": 3273,
+      "kind": "past",
+      "topic": 29,
+      "topicIncluded": false,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
           ]
         }
       ]
@@ -2305,6 +2431,60 @@
       "matches": []
     },
     {
+      "id": "mcq-77439aa8a979ace4bbc4db8e",
+      "sourceIndex": 3315,
+      "kind": "past",
+      "topic": 29,
+      "topicIncluded": false,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-971cda5e21170c33b0d0b53a",
+      "sourceIndex": 3317,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-b548e0a478043a7ca7d21e89",
+      "sourceIndex": 3318,
+      "kind": "past",
+      "topic": 29,
+      "topicIncluded": false,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-f6c1d45922e1027bb5ab4324",
+      "sourceIndex": 3320,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-4b44b39c5b0c8af6453401f9",
+      "sourceIndex": 3321,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
       "id": "mcq-892e75ca458f60b67b249129",
       "sourceIndex": 3322,
       "kind": "past",
@@ -2313,11 +2493,43 @@
       "matches": []
     },
     {
+      "id": "mcq-6e0a38035542e644273558de",
+      "sourceIndex": 3323,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
       "id": "mcq-2420c29631c2ef60e0dcfac5",
       "sourceIndex": 3345,
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-92187e5ab10d4fe7ecd14771",
+      "sourceIndex": 3393,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-ab246d8a80dcfd2a5a047994",
+      "sourceIndex": 3404,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-53129c84f608ac807da5bc14",
+      "sourceIndex": 3461,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
       "matches": []
     },
     {
@@ -2330,56 +2542,66 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
     },
     {
-      "id": "mcq-4771816e4bd8f4ef7f734fbb",
-      "sourceIndex": 4324,
+      "id": "mcq-3743629a1b555477421d2cd9",
+      "sourceIndex": 3473,
       "kind": "past",
-      "topic": 32,
-      "topicIncluded": true,
+      "topic": 35,
+      "topicIncluded": false,
       "matches": []
     },
     {
-      "id": "mcq-7adc28557038ecd8b65bba79",
-      "sourceIndex": 4342,
+      "id": "mcq-a02930b506592f438ff8cb02",
+      "sourceIndex": 3484,
       "kind": "past",
-      "topic": 32,
-      "topicIncluded": true,
+      "topic": 35,
+      "topicIncluded": false,
       "matches": []
     },
     {
-      "id": "mcq-ce7ca6a6ed8b4ee4f73d2467",
-      "sourceIndex": 4389,
+      "id": "mcq-3cb7ddba4d5a84d56620fbae",
+      "sourceIndex": 3502,
       "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
+      "topic": 29,
+      "topicIncluded": false,
       "matches": [
         {
-          "statute": "חוק החולה הנוטה למות",
+          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
           "fields": [
-            "q"
+            "ref"
           ]
         }
       ]
     },
     {
-      "id": "mcq-87cd2785c9612fe5b0caecb4",
-      "sourceIndex": 4391,
+      "id": "mcq-e5e171a0f9f64094a50ab544",
+      "sourceIndex": 3503,
       "kind": "past",
-      "topic": 34,
-      "topicIncluded": true,
-      "matches": [
-        {
-          "statute": "חוק החולה הנוטה למות",
-          "fields": [
-            "q"
-          ]
-        }
-      ]
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-b68a3e95e9873facb2f5f6cc",
+      "sourceIndex": 3513,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-c67df43fb4f95364375f911d",
+      "sourceIndex": 4470,
+      "kind": "past",
+      "topic": 39,
+      "topicIncluded": false,
+      "matches": []
     },
     {
       "id": "mcq-632ba530eb4611e16d60adfe",
@@ -2398,6 +2620,37 @@
       "matches": []
     },
     {
+      "id": "mcq-180704b480f1812b1672abc2",
+      "sourceIndex": 4509,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-b057a2ce63d661c48b469edf",
+      "sourceIndex": 4531,
+      "kind": "past",
+      "topic": 41,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-9976242ecf825d241593f4bd",
+      "sourceIndex": 4535,
+      "kind": "past",
+      "topic": 38,
+      "topicIncluded": false,
+      "matches": [
+        {
+          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
       "id": "mcq-7fbd59a824fc038d8fdb2a37",
       "sourceIndex": 4539,
       "kind": "past",
@@ -2407,7 +2660,8 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
@@ -2422,10 +2676,35 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-f236daa600ddb2c31e2d699f",
+      "sourceIndex": 4542,
+      "kind": "past",
+      "topic": 6,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-d2ff40cf73dadddd2214f235",
+      "sourceIndex": 4555,
+      "kind": "past",
+      "topic": 1,
+      "topicIncluded": false,
+      "matches": []
+    },
+    {
+      "id": "mcq-ff5dff1131122d86e4378271",
+      "sourceIndex": 4559,
+      "kind": "past",
+      "topic": 35,
+      "topicIncluded": false,
+      "matches": []
     },
     {
       "id": "mcq-a5af01dd00d786e51c85ce5b",
@@ -2437,7 +2716,8 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q"
+            "q",
+            "ref"
           ]
         }
       ]
@@ -2448,6 +2728,36 @@
       "kind": "past",
       "topic": 34,
       "topicIncluded": true,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-c96af8d727732c9078673e23",
+      "sourceIndex": 4605,
+      "kind": "past",
+      "topic": 29,
+      "topicIncluded": false,
+      "matches": [
+        {
+          "statute": "חוק החולה הנוטה למות",
+          "fields": [
+            "ref"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcq-1bbe7663ed422d20fc60e429",
+      "sourceIndex": 4626,
+      "kind": "past",
+      "topic": 36,
+      "topicIncluded": false,
       "matches": []
     }
   ]

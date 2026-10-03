@@ -6,7 +6,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
-paths = {'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/reader-storage.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/all.json', 'data/mcq/topics.json', 'data/mcq/collections.json'}
+paths = {'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/reader-storage.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/all.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json'}
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
 for chapter in [*mcq_index, 'all']:
     path = f'data/mcq/{chapter}.json'

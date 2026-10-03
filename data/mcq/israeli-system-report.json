@@ -1,637 +1,670 @@
 {
-  "rule": "Past exam only. Literal Brookdale/yearbook term, OR explicit Ministry of Health term plus procedure citation in ref/explanation. No stems/options or managed-word substrings.",
-  "count": 26,
+  "rule": "Rendered IMA reference lists: law, MoH procedure/circular, statistical yearbook/Brookdale. X rows resolved from rendered question paper. No keyword classifier.",
+  "count": 71,
   "matches": [
+    {
+      "id": "mcq-ece2bd90f12d03c630b999f9",
+      "sourceIndex": 9,
+      "sitting": "2024-May-Subspec",
+      "question": 86,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות — הנחיות מקדימות",
+      "source": "IMA 2024-May reference list, Q86"
+    },
+    {
+      "id": "mcq-9356163afe4cd0cf36ad01a6",
+      "sourceIndex": 31,
+      "sitting": "2020-Subspec",
+      "question": 21,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2020 reference list, Q21"
+    },
+    {
+      "id": "mcq-08f6970a2d4d053f15197beb",
+      "sourceIndex": 37,
+      "sitting": "2020-Subspec",
+      "question": 27,
+      "type": "Procedure",
+      "reference": "משרד הבריאות: בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2020 reference list, Q27"
+    },
+    {
+      "id": "mcq-25977eff884454c1df2ec0a8",
+      "sourceIndex": 69,
+      "sitting": "2020-Subspec",
+      "question": 61,
+      "type": "Law",
+      "reference": "ייפוי כוח מתמשך (חוק הכשרות המשפטית והאפוטרופסות) וחוק החולה הנוטה למות",
+      "source": "IMA 2020 reference list, Q61"
+    },
+    {
+      "id": "mcq-5ad0bdc999886ea23dd577f8",
+      "sourceIndex": 72,
+      "sitting": "2020-Subspec",
+      "question": 64,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2020 reference list, Q64"
+    },
+    {
+      "id": "mcq-46770db589a259ce0b35d4b0",
+      "sourceIndex": 74,
+      "sitting": "2020-Subspec",
+      "question": 66,
+      "type": "Law",
+      "reference": "ייפוי כוח מתמשך — חוק הכשרות המשפטית והאפוטרופסות",
+      "source": "IMA 2020 reference list, Q66"
+    },
+    {
+      "id": "mcq-e30d5b23a9f65b0c495739e2",
+      "sourceIndex": 78,
+      "sitting": "2020-Subspec",
+      "question": 70,
+      "type": "Law",
+      "reference": "המלצות ועד המותב — חוק החולה הנוטה למות",
+      "source": "IMA 2020 reference list, Q70"
+    },
+    {
+      "id": "mcq-64017e896e68192670a11fe2",
+      "sourceIndex": 86,
+      "sitting": "2020-Subspec",
+      "question": 79,
+      "type": "Procedure",
+      "reference": "קביעת הסטטוס של חולה לצורך העברתו למסגרת אשפוז אחרת",
+      "source": "IMA 2020 reference list, Q79"
+    },
+    {
+      "id": "mcq-f7cdd68518d6671b51791c12",
+      "sourceIndex": 91,
+      "sitting": "2020-Subspec",
+      "question": 84,
+      "type": "Procedure",
+      "reference": "בחירת מוסד האשפוז המתאים לקשיש ושיקום רפואי בקשיש",
+      "source": "IMA 2020 reference list, Q84"
+    },
+    {
+      "id": "mcq-9af80dd50d3021366172470f",
+      "sourceIndex": 92,
+      "sitting": "2020-Subspec",
+      "question": 85,
+      "type": "Procedure",
+      "reference": "משרד הבריאות: בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2020 reference list, Q85"
+    },
     {
       "id": "mcq-c94fa29e4b2ba5f1c341cbc1",
       "sourceIndex": 93,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "## הסבר קליני\n\nעל פי **דוח ברוקדייל 2024**, כיום **26% מבני 65 ומעלה** הם בני **80 ומעלה**, ושיעור זה צפוי לעלות ל-**34% עד שנת 2035**. נתונים אלה משקפים את **תופעת ההזדקנות הכפולה** - גידול משמע",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2020-Subspec",
+      "question": 86,
+      "type": "Yearbook",
+      "reference": "בני 65+ בישראל",
+      "source": "IMA 2020 reference list, Q86"
+    },
+    {
+      "id": "mcq-265a3f4cda33cedc748cb1e7",
+      "sourceIndex": 96,
+      "sitting": "2020-Subspec",
+      "question": 89,
+      "type": "Yearbook",
+      "reference": "בני 65+ בישראל",
+      "source": "IMA 2020 reference list, Q89"
+    },
+    {
+      "id": "mcq-2a733ae05cc2358d92d04f65",
+      "sourceIndex": 110,
+      "sitting": "2021-Dec-Subspec",
+      "question": 3,
+      "type": "Circular",
+      "reference": "חוזר מינהל רפואה — מינוי אפוטרופוס על גופו של אדם",
+      "source": "IMA 2021-Dec reference list, Q3"
+    },
+    {
+      "id": "mcq-1491a19270cfe5e385a4c663",
+      "sourceIndex": 115,
+      "sitting": "2021-Dec-Subspec",
+      "question": 8,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות; section not specified",
+      "source": "IMA 2021-Dec reference list, Q8"
     },
     {
       "id": "mcq-b43997ccbaf4ab24fb543218",
       "sourceIndex": 121,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "כנסה יורד עם השנים**\n\nעל פי נתוני **השנתון הסטטיסטי** ומכון ברוקדייל, המאפיין הבולט של אוכלוסיית **הזקנים בישראל** מבחינה כלכלית הוא **ירידה הדרגתית באחוז מקבלי השלמת ההכנסה** לאורך השנים. מגמה זו משקפת **שיפור במצב הכלכלי** של ",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "שנתון",
-          "excerpt": " הזקנים המקבלים השלמת הכנסה יורד עם השנים**\n\nעל פי נתוני **השנתון הסטטיסטי** ומכון ברוקדייל, המאפיין הבולט של אוכלוסיית **הזקנים בישראל** מבחינה כלכלית הוא **ירידה הדרגתית באחוז מקבלי השלמת ההכנסה** לאורך השנים. מגמה זו משקפת",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2021-Dec-Subspec",
+      "question": 15,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי",
+      "source": "IMA 2021-Dec reference list, Q15"
+    },
+    {
+      "id": "mcq-30ca809d5327e7a3f40fa96f",
+      "sourceIndex": 127,
+      "sitting": "2021-Dec-Subspec",
+      "question": 22,
+      "type": "Law",
+      "reference": "ייפוי כוח מתמשך — חוק הכשרות המשפטית והאפוטרופסות",
+      "source": "IMA 2021-Dec reference list, Q22"
+    },
+    {
+      "id": "mcq-4f69e7c2f0d4c3517a8f1e6b",
+      "sourceIndex": 137,
+      "sitting": "2021-Dec-Subspec",
+      "question": 33,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות; section not specified",
+      "source": "IMA 2021-Dec reference list, Q33"
     },
     {
       "id": "mcq-914ae4da60a23fa3609f9656",
       "sourceIndex": 144,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": " ולהמליץ על הגדרתו כסיעודי, אך סמכות האישור הרשמי ל״קוד״ של משרד הבריאות שמורה לגריאטר המחוזי בלבד — כך נקבע בנהלי משרד הבריאות. הפרדה זו בין ההמלצה הקלינית לבין האישור המנהלי היא עקרון מרכזי במערך הגריאטרי בישראל (Halter et al., Ha",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "״ של משרד הבריאות שמורה לגריאטר המחוזי בלבד — כך נקבע בנהלי משרד הבריאות. הפרדה זו בין ההמלצה הקלינית לבין האישור המנהלי היא עקרון מרכזי במערך הגריאטרי בישראל (Halter et al., Hazzard's Geriatric Medicine, 8e). אפשרות א׳ שגויה מפני ש",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "נהלי משרד הבריאות",
-          "excerpt": "ל״קוד״ של משרד הבריאות שמורה לגריאטר המחוזי בלבד — כך נקבע בנהלי משרד הבריאות. הפרדה זו בין ההמלצה הקלינית לבין האישור המנהלי היא עקרון מרכזי במערך הגריאטרי בישראל (Halter et al., Hazzard's Geriatric Medicine, 8e). אפשרות א׳ שגויה מפני ש",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "הנוהל",
-          "excerpt": " מוסמך להגדיר סיעודיות לצורך קוד, וייעוץ גריאטרי נדרש על פי הנוהל.",
-          "category": "MoH procedure"
-        }
-      ]
+      "sitting": "2021-Dec-Subspec",
+      "question": 42,
+      "type": "Procedure",
+      "reference": "קביעת הסטטוס של חולה לצורך העברתו",
+      "source": "IMA 2021-Dec reference list, Q42"
+    },
+    {
+      "id": "mcq-584efd4ae05bbe5c48d0409f",
+      "sourceIndex": 157,
+      "sitting": "2021-Dec-Subspec",
+      "question": 57,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "source": "IMA 2021-Dec reference list, Q57"
+    },
+    {
+      "id": "mcq-09467962fb342d44fd6b55fc",
+      "sourceIndex": 191,
+      "sitting": "2021-Dec-Subspec",
+      "question": 95,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות; section not specified",
+      "source": "IMA 2021-Dec reference list, Q95"
+    },
+    {
+      "id": "mcq-6ba05d11f3ef3af2f94b0786",
+      "sourceIndex": 193,
+      "sitting": "2021-Dec-Subspec",
+      "question": 97,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "source": "IMA 2021-Dec reference list, Q97"
     },
     {
       "id": "mcq-dc794bb08255721e56f05ae8",
       "sourceIndex": 195,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "ייה**\n\n**אישור התשובה הנכונה:**\nנתוני השנתון הסטטיסטי ומכון ברוקדייל מצביעים על **ייצוג-יתר (overrepresentation)** של קשישים בקרב נפגעי תאונות דרכים חמורות. אחוז בני 65+ בקרב ההרוגים והפצועים הקשה **עולה על שיעורם באוכלוסייה הכל",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "שנתון",
-          "excerpt": "ים גדול מחלקם באוכלוסייה**\n\n**אישור התשובה הנכונה:**\nנתוני השנתון הסטטיסטי ומכון ברוקדייל מצביעים על **ייצוג-יתר (overrepresentation)** של קשישים בקרב נפגעי תאונות דרכים חמורות. אחוז בני 65+ בקרב ההרוגים והפצועים הקשה **עולה ",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2021-Dec-Subspec",
+      "question": 99,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי",
+      "source": "IMA 2021-Dec reference list, Q99"
+    },
+    {
+      "id": "mcq-e9726c2e2313e5408517930a",
+      "sourceIndex": 281,
+      "sitting": "2021-Dec-Subspec",
+      "question": 17,
+      "type": "Procedure",
+      "reference": "שיקום רפואי לקשיש",
+      "source": "IMA 2021-Dec reference list, Q17"
     },
     {
       "id": "mcq-ba59a9ce44a01ad7c2566471",
       "sourceIndex": 2397,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2020-Subspec",
+      "question": 73,
+      "type": "Yearbook",
+      "reference": "בני 65+ בישראל",
+      "source": "IMA 2020 reference list, Q73"
     },
     {
-      "id": "mcq-48e7f227953d851c6f3bb67f",
-      "sourceIndex": 2518,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "לפי נתוני מכון ברוקדייל, בגיל 85+ מעל 50% מהאוכלוסייה זכאים לגמלת סיעוד לפי חוק הביטוח הלאומי (חוק סיעוד), המשקף את שיעור התלות הגבוה בגיל מתקדם זה.\n\n**מדוע האחרות שגויות:**\n- **ב'** ",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "id": "mcq-7425037b62dd263eb00a7790",
+      "sourceIndex": 3052,
+      "sitting": "2025-Jun-Subspec",
+      "question": 91,
+      "type": "Law",
+      "reference": "ייפוי כוח רפואי / ייפוי כוח מתמשך; altered bank stem: חוק זכויות החולה",
+      "source": "IMA 2025-Jun reference list, Q91"
     },
     {
-      "id": "mcq-7347a3afb759a696137132c4",
-      "sourceIndex": 2547,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "ב) הם סטטוסים שרופא מומחה בגריאטריה מוסמך לקבוע על-פי תקנות משרד הבריאות, כחלק מסמכותו המקצועית בהערכת תפקוד, תלות ופוטנציאל שיקומי של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "נהלי משרד הבריאות",
-          "excerpt": "קומי של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "תקנות משרד הבריאות",
-          "excerpt": "מי** (ב) הם סטטוסים שרופא מומחה בגריאטריה מוסמך לקבוע על-פי תקנות משרד הבריאות, כחלק מסמכותו המקצועית בהערכת תפקוד, תלות ופוטנציאל שיקומי של המטופל הקשיש.\n\n📌 *מקור: תקנות ביטוח בריאות ממלכתי / נהלי משרד הבריאות לסיווג מטופלים בגריאטריה.*",
-          "category": "MoH procedure"
-        }
-      ]
+      "id": "mcq-34851c7f12c60ea021445215",
+      "sourceIndex": 3144,
+      "sitting": "2022-Jun-Subspec",
+      "question": 5,
+      "type": "Law",
+      "reference": "חוק הכשרות המשפטית והאפוטרופסות",
+      "source": "IMA 2022-Jun reference list, Q5"
     },
     {
-      "id": "mcq-fa014e6520a72868f3da867b",
-      "sourceIndex": 2603,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "*פצע לחץ דרגה 2 ומטה — קריטריון לסיעודי רגיל**\n\nעל פי חוזרי משרד הבריאות בישראל המגדירים סיעוד מורכב, פצע לחץ דרגה 3–4 (עם חשיפת רקמה עמוקה) מצריך מסגרת **סיעודית מורכבת**. פצע דרגה 2 ומטה (אדמומיות או שלפוחית שטחית) מתאים למחלקה סי",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "חוזרי משרד הבריאות",
-          "excerpt": "**פצע לחץ דרגה 2 ומטה — קריטריון לסיעודי רגיל**\n\nעל פי חוזרי משרד הבריאות בישראל המגדירים סיעוד מורכב, פצע לחץ דרגה 3–4 (עם חשיפת רקמה עמוקה) מצריך מסגרת **סיעודית מורכבת**. פצע דרגה 2 ומטה (אדמומיות או שלפוחית שטחית) מתאים למחלקה סי",
-          "category": "MoH procedure"
-        }
-      ]
+      "id": "mcq-e67fa2aa6374604736fbf3dd",
+      "sourceIndex": 3147,
+      "sitting": "2022-Jun-Subspec",
+      "question": 8,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2022-Jun reference list, Q8"
     },
     {
-      "id": "mcq-6a901cfdbd5a7b2615575f8e",
-      "sourceIndex": 2613,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "על פי נתוני מכון ברוקדייל, יותר מ-30% מהאנשים בגיל 75 ומעלה מתקשים בניידות בסיסית כגון הליכה ועליית מדרגות – ממצא המשקף את ההידרדרות הפונקציונלית האופיינית לגיל המבוגר.\n\nהאפשרויות האחרו",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "id": "mcq-fda71abd73e488940f33d8a8",
+      "sourceIndex": 3154,
+      "sitting": "2022-Jun-Subspec",
+      "question": 16,
+      "type": "Procedure",
+      "reference": "חוזר משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "source": "IMA 2022-Jun reference list, Q16"
     },
     {
-      "id": "mcq-d1e498e701887b9e933436de",
-      "sourceIndex": 2669,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "י מאושר על-ידי **רופא ריאות בלבד** (לא גריאטר).\n\nמקור: נהלי משרד הבריאות וקופות החולים בישראל בנושא קביעת סטטוס תפקודי.",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "נהלי משרד הבריאות",
-          "excerpt": " כרוני מאושר על-ידי **רופא ריאות בלבד** (לא גריאטר).\n\nמקור: נהלי משרד הבריאות וקופות החולים בישראל בנושא קביעת סטטוס תפקודי.",
-          "category": "MoH procedure"
-        }
-      ]
+      "id": "mcq-da1e76694d63f5b833729f75",
+      "sourceIndex": 3168,
+      "sitting": "2022-Jun-Subspec",
+      "question": 31,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2022-Jun reference list, Q31"
     },
     {
-      "id": "mcq-22b815c9249f0cf18a031e5f",
-      "sourceIndex": 2675,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "על פי נתוני מכון ברוקדייל, תוחלת החיים בישראל מציגה פער מגדרי עקבי: נשים חיות בממוצע כ-4 שנים יותר מגברים (כ-84 לעומת כ-80 שנים בקירוב). פער זה אופייני למדינות מערביות מפותחות ומוכר בספ",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "id": "mcq-f5025ceee46f239e675bf3b4",
+      "sourceIndex": 3193,
+      "sitting": "2022-Jun-Subspec",
+      "question": 58,
+      "type": "Procedure",
+      "reference": "קשרי בית חולים גריאטרי סיעודי עם קופות החולים",
+      "source": "IMA 2022-Jun reference list, Q58"
     },
     {
-      "id": "mcq-e61e2cff58f5b98cd4a2f51d",
-      "sourceIndex": 2788,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "על פי נוהל אמות המידה למתן טיפול שיקומי לקשישים במשרד הבריאות, תנאי הכרחי לקבלה לשיקום הוא **יכולת שיתוף פעולה** – המטופל חייב להיות מסוגל להבין ולבצע הוראות פשוטות. מטופל זה, עם אפזיה מעורבת ודמנציה, אינו מבין הוראות ואי",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": " (ג') – מוגבלות תפקודית מותרת, אינה שוללת שיקום\n\nמקור: נוהל משרד הבריאות – אמות מידה לטיפול שיקומי בקשישים.",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "נוהל משרד הבריאות",
-          "excerpt": "נוף** (ג') – מוגבלות תפקודית מותרת, אינה שוללת שיקום\n\nמקור: נוהל משרד הבריאות – אמות מידה לטיפול שיקומי בקשישים.",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "נוהל",
-          "excerpt": "על פי נוהל אמות המידה למתן טיפול שיקומי לקשישים במשרד הבריאות, תנאי הכרחי לקבלה לשיקום הוא **יכולת שיתוף פעולה** – המטופל חייב להיות מסוגל להבין ולבצע הוראות פשוטות. מטופ",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "נוהל",
-          "excerpt": "נוף** (ג') – מוגבלות תפקודית מותרת, אינה שוללת שיקום\n\nמקור: נוהל משרד הבריאות – אמות מידה לטיפול שיקומי בקשישים.",
-          "category": "MoH procedure"
-        }
-      ]
-    },
-    {
-      "id": "mcq-9b6d3de1ef555fefd1588db4",
-      "sourceIndex": 2901,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        }
-      ]
-    },
-    {
-      "id": "mcq-a3afc277b9a0b49e2fb4cc0f",
-      "sourceIndex": 2972,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "לפי נתוני מכון ברוקדייל (המסתמך על WHO ו-World Bank), מונקו מדורגת במקום הראשון בעולם בתוחלת חיים — כ-87 שנים — הודות לרמת חיים גבוהה במיוחד, שירותי בריאות מעולים ואוכלוסייה אמידה. יש",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "id": "mcq-e3c3ec0e57070e39c010d2fe",
+      "sourceIndex": 3195,
+      "sitting": "2022-Jun-Subspec",
+      "question": 60,
+      "type": "Procedure",
+      "reference": "נוהל טיפול בזקנים נפגעי התעמרות",
+      "source": "IMA 2022-Jun reference list, Q60"
     },
     {
       "id": "mcq-6f21fad051c4bdf45e220b18",
       "sourceIndex": 3198,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2022-Jun-Subspec",
+      "question": 63,
+      "type": "Yearbook",
+      "reference": "בני 65+ בישראל — לקט נתונים אינפוגרפי 2020",
+      "source": "IMA 2022-Jun reference list, Q63"
+    },
+    {
+      "id": "mcq-ddef9cf1f78256b78075c984",
+      "sourceIndex": 3227,
+      "sitting": "2022-Jun-Subspec",
+      "question": 96,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2022-Jun reference list, Q96"
+    },
+    {
+      "id": "mcq-fb612354b8ab97a21a687655",
+      "sourceIndex": 3229,
+      "sitting": "2022-Jun-Subspec",
+      "question": 98,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2022-Jun reference list, Q98"
+    },
+    {
+      "id": "mcq-693f1143542d4d4e9cf87a06",
+      "sourceIndex": 3248,
+      "sitting": "2023-Jun-Subspec",
+      "question": 14,
+      "type": "Procedure",
+      "reference": "בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2023-Jun reference list, Q14"
+    },
+    {
+      "id": "mcq-558754bdd0a7904a5c8cdd50",
+      "sourceIndex": 3256,
+      "sitting": "2023-Jun-Subspec",
+      "question": 22,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2023-Jun reference list, Q22"
     },
     {
       "id": "mcq-6bdf0a9ecbc4429ad722fe0c",
       "sourceIndex": 3259,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "## תשובה נכונה: ב ✅\n\n### למה ב' נכונה?\nעל פי נתוני מכון ברוקדייל, **מעל 30% מהאנשים בגיל 75+** מדווחים על קושי בהליכה או בעליית מדרגות – זהו אחד המדדים המרכזיים לירידה תפקודית (IADL/ADL) בגיל מבוגר.\n\n---\n\n### למה האחרות שגוי",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2023-Jun-Subspec",
+      "question": 25,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי",
+      "source": "IMA 2023-Jun reference list, Q25"
+    },
+    {
+      "id": "mcq-7bd5c333fb742a1192c41f33",
+      "sourceIndex": 3273,
+      "sitting": "2023-Jun-Subspec",
+      "question": 39,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות; Hazzard 8e · pp. 1296-1297",
+      "source": "IMA 2023-Jun reference list, Q39"
+    },
+    {
+      "id": "mcq-e8ba38432f0a33923c977eb3",
+      "sourceIndex": 3313,
+      "sitting": "2023-Jun-Subspec",
+      "question": 82,
+      "type": "Procedure",
+      "reference": "נוהל טיפול בזקנים נפגעי התעמרות",
+      "source": "IMA 2023-Jun reference list, Q82"
+    },
+    {
+      "id": "mcq-77439aa8a979ace4bbc4db8e",
+      "sourceIndex": 3315,
+      "sitting": "2023-Jun-Subspec",
+      "question": 84,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2023-Jun reference list, Q84"
     },
     {
       "id": "mcq-971cda5e21170c33b0d0b53a",
       "sourceIndex": 3317,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "\n\n### ✅ תשובה ב' נכונה:\nבמערכת הבריאות בישראל (קופות החולים/משרד הבריאות), כאשר נדרש **\"קוד\"** (כינוי לאישור מיוחד/חריג לסל הטיפולים), הגריאטר המחוזי הוא הסמכות המאשרת עבור סטטוס **\"סיעודי\"** או **\"תשוש נפש\"** – זהו הנוהל הרשמי הנדר",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "explanation",
-          "match": "הנוהל",
-          "excerpt": "מכות המאשרת עבור סטטוס **\"סיעודי\"** או **\"תשוש נפש\"** – זהו הנוהל הרשמי הנדרש.\n\n---\n\n### ❌ מדוע האחרות שגויות:\n\n- **א'** – רופא פנימי **אינו** מוסמך לאשר סטטוס סיעודי מורכב; נדרש **גריאטר** לכך.\n\n- **",
-          "category": "MoH procedure"
-        }
-      ]
+      "sitting": "2023-Jun-Subspec",
+      "question": 86,
+      "type": "Procedure",
+      "reference": "קביעת מצב תפקודי (סטטוס) של חולה המאושפז בבית חולים כללי",
+      "source": "IMA 2023-Jun reference list, Q86"
+    },
+    {
+      "id": "mcq-b548e0a478043a7ca7d21e89",
+      "sourceIndex": 3318,
+      "sitting": "2023-Jun-Subspec",
+      "question": 87,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות; מינוי אפוטרופוס",
+      "source": "IMA 2023-Jun reference list, Q87"
+    },
+    {
+      "id": "mcq-f6c1d45922e1027bb5ab4324",
+      "sourceIndex": 3320,
+      "sitting": "2023-Jun-Subspec",
+      "question": 89,
+      "type": "Procedure",
+      "reference": "אמות מידה למתן טיפול שיקומי לקשישים",
+      "source": "IMA 2023-Jun reference list, Q89"
+    },
+    {
+      "id": "mcq-4b44b39c5b0c8af6453401f9",
+      "sourceIndex": 3321,
+      "sitting": "2023-Jun-Subspec",
+      "question": 90,
+      "type": "Procedure",
+      "reference": "קשרי בית חולים גריאטרי סיעודי עם קופות החולים",
+      "source": "IMA 2023-Jun reference list, Q90"
+    },
+    {
+      "id": "mcq-892e75ca458f60b67b249129",
+      "sourceIndex": 3322,
+      "sitting": "2023-Jun-Subspec",
+      "question": 91,
+      "type": "Law",
+      "reference": "פקודת התעבורה",
+      "source": "IMA 2023-Jun reference list, Q91"
     },
     {
       "id": "mcq-6e0a38035542e644273558de",
       "sourceIndex": 3323,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "## תשובה נכונה: ב\n\n### למה ב' נכונה?\nעל פי נתוני מכון ברוקדייל, **פער של ~4 שנים** בין תוחלת החיים של נשים לגברים בישראל הוא ממצא עקבי ומתועד – נשים כ-84 שנים, גברים כ-80 שנים.\n\n---\n\n### למה האחרות שגויות?\n\n- **א' – שגויה:",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2023-Jun-Subspec",
+      "question": 92,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי",
+      "source": "IMA 2023-Jun reference list, Q92"
+    },
+    {
+      "id": "mcq-2420c29631c2ef60e0dcfac5",
+      "sourceIndex": 3345,
+      "sitting": "2024-May-Subspec",
+      "question": 15,
+      "type": "Circular",
+      "reference": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+      "source": "IMA 2024-May reference list, Q15"
+    },
+    {
+      "id": "mcq-92187e5ab10d4fe7ecd14771",
+      "sourceIndex": 3393,
+      "sitting": "2024-May-Subspec",
+      "question": 65,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "source": "IMA 2024-May reference list, Q65"
+    },
+    {
+      "id": "mcq-ab246d8a80dcfd2a5a047994",
+      "sourceIndex": 3404,
+      "sitting": "2024-May-Subspec",
+      "question": 76,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2024-May reference list, Q76"
     },
     {
       "id": "mcq-53129c84f608ac807da5bc14",
       "sourceIndex": 3461,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2024-Sep-Subspec",
+      "question": 35,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי · p. 39",
+      "source": "IMA 2024-Sep reference list, Q35"
     },
     {
-      "id": "mcq-ed2927c81356a416c579b248",
-      "sourceIndex": 4320,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "שנתון",
-          "excerpt": "שנתון עמ׳ 135",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "הוא במחלקות הפנימיות ולא הגריאטריות. לפי השנתון הסטטיסטי של ברוקדייל, עמ׳ 135.",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "שנתון",
-          "excerpt": "במיוחד בגיל המבוגר-מבוגר. שאר האפשרויות שגויות עובדתית לפי השנתון: שיעור האשפוז ל-1,000 נפש עולה בתלילות עם הגיל ואינו נותר קבוע, משך השהייה הארוך ביותר אינו במחלקה הכירורגית, והאשפוז השכיח ביותר לבני 65+ הוא במחלקות הפנימיות",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "id": "mcq-e72e8a76b8db84bd613defc5",
+      "sourceIndex": 3464,
+      "sitting": "2024-Sep-Subspec",
+      "question": 38,
+      "type": "Law",
+      "reference": "ייפוי כוח מתמשך בחולים במקרים דחופים 2023; חוק החולה הנוטה למות",
+      "source": "IMA 2024-Sep reference list, Q38"
     },
     {
-      "id": "mcq-53c85920c1fe042c6c9496ee",
-      "sourceIndex": 4359,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "שנתון",
-          "excerpt": "שנתון עמ׳ 132",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה לגבר היא כ-81 (לא 85",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "שנתון",
-          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה ל",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "id": "mcq-3743629a1b555477421d2cd9",
+      "sourceIndex": 3473,
+      "sitting": "2024-Sep-Subspec",
+      "question": 47,
+      "type": "Procedure",
+      "reference": "חוזר משרד הבריאות — קביעת סטטוס",
+      "source": "IMA 2024-Sep reference list, Q47"
     },
     {
-      "id": "mcq-8cd5c81bdaa6876fd883278a",
-      "sourceIndex": 4392,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "יחידה אמבולטורית ואינה מעלה את דרגת הסיעוד. סיווג 'סיעודי' (משרד הבריאות) נשלל בשל העצמאות בסוגרים, במעברים ובהלבשה.",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "ref",
-          "match": "נוהל",
-          "excerpt": "נוהל",
-          "category": "MoH procedure"
-        }
-      ]
+      "id": "mcq-a02930b506592f438ff8cb02",
+      "sourceIndex": 3484,
+      "sitting": "2024-Sep-Subspec",
+      "question": 58,
+      "type": "Procedure",
+      "reference": "חוזר משרד הבריאות — קביעת סטטוס",
+      "source": "IMA 2024-Sep reference list, Q58"
+    },
+    {
+      "id": "mcq-3cb7ddba4d5a84d56620fbae",
+      "sourceIndex": 3502,
+      "sitting": "2024-Sep-Subspec",
+      "question": 77,
+      "type": "Law",
+      "reference": "חוק הכשרות המשפטית והאפוטרופסות; Hazzard 8e · ch. 10 · p. 151",
+      "source": "IMA 2024-Sep reference list, Q77"
+    },
+    {
+      "id": "mcq-e5e171a0f9f64094a50ab544",
+      "sourceIndex": 3503,
+      "sitting": "2024-Sep-Subspec",
+      "question": 78,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי",
+      "source": "IMA 2024-Sep reference list, Q78"
+    },
+    {
+      "id": "mcq-b68a3e95e9873facb2f5f6cc",
+      "sourceIndex": 3513,
+      "sitting": "2024-Sep-Subspec",
+      "question": 88,
+      "type": "Procedure",
+      "reference": "אמות מידה למתן טיפול שיקומי לזקנים",
+      "source": "IMA 2024-Sep reference list, Q88"
     },
     {
       "id": "mcq-c67df43fb4f95364375f911d",
       "sourceIndex": 4470,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "שנתון",
-          "excerpt": "שנתון עמ׳ 135",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "הוא במחלקות הפנימיות ולא הגריאטריות. לפי השנתון הסטטיסטי של ברוקדייל, עמ׳ 135.",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "שנתון",
-          "excerpt": "במיוחד בגיל המבוגר-מבוגר. שאר האפשרויות שגויות עובדתית לפי השנתון: שיעור האשפוז ל-1,000 נפש עולה בתלילות עם הגיל ואינו נותר קבוע, משך השהייה הארוך ביותר אינו במחלקה הכירורגית, והאשפוז השכיח ביותר לבני 65+ הוא במחלקות הפנימיות",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2026-Jun-Subspec",
+      "question": 24,
+      "type": "Yearbook",
+      "reference": "Brookdale statistical yearbook · p. 135",
+      "source": "IMA 2026-Jun reference list, Q24"
+    },
+    {
+      "id": "mcq-632ba530eb4611e16d60adfe",
+      "sourceIndex": 4474,
+      "sitting": "2026-Jun-Subspec",
+      "question": 28,
+      "type": "Procedure",
+      "reference": "נוהל טיפול בזקנים נפגעי התעמרות; Hazzard 8e · ch. 15 p. 213",
+      "source": "IMA 2026-Jun reference list, Q28"
+    },
+    {
+      "id": "mcq-ecd64ab60c729ac9474151bc",
+      "sourceIndex": 4492,
+      "sitting": "2026-Jun-Subspec",
+      "question": 46,
+      "type": "Circular",
+      "reference": "חוזר משרד הבריאות — הפעלת ייפוי כוח מתמשך",
+      "source": "IMA 2026-Jun reference list, Q46"
     },
     {
       "id": "mcq-180704b480f1812b1672abc2",
       "sourceIndex": 4509,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "שנתון",
-          "excerpt": "שנתון עמ׳ 132",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה לגבר היא כ-81 (לא 85",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "שנתון",
-          "excerpt": "שאלת נתונים מהשנתון הסטטיסטי (ברוקדייל, עמ׳ 132): אישה בת 65 בישראל צפויה לתוחלת חיים נוספת של כ-22 שנה, כלומר עד גיל ~87. שאר האפשרויות נמוכות או גבוהות מדי — תוחלת החיים בלידה ל",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2026-Jun-Subspec",
+      "question": 63,
+      "type": "Yearbook",
+      "reference": "Brookdale statistical yearbook · p. 132",
+      "source": "IMA 2026-Jun reference list, Q63"
+    },
+    {
+      "id": "mcq-b057a2ce63d661c48b469edf",
+      "sourceIndex": 4531,
+      "sitting": "2026-Jun-Subspec",
+      "question": 85,
+      "type": "Circular",
+      "reference": "משרד הבריאות — חובת דיווח למרב״ד",
+      "source": "IMA 2026-Jun reference list, Q85"
+    },
+    {
+      "id": "mcq-9976242ecf825d241593f4bd",
+      "sourceIndex": 4535,
+      "sitting": "2026-Jun-Subspec",
+      "question": 89,
+      "type": "Law",
+      "reference": "קבלת החלטות נתמכת — חוק הכשרות המשפטית והאפוטרופסות; section not specified in IMA list",
+      "source": "IMA 2026-Jun reference list, Q89"
+    },
+    {
+      "id": "mcq-7fbd59a824fc038d8fdb2a37",
+      "sourceIndex": 4539,
+      "sitting": "2026-Jun-Subspec",
+      "question": 93,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות — סעיף 17",
+      "source": "IMA 2026-Jun reference list, Q93"
+    },
+    {
+      "id": "mcq-8ceb825522dee040d6bc0a79",
+      "sourceIndex": 4541,
+      "sitting": "2026-Jun-Subspec",
+      "question": 95,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות — סעיף 15",
+      "source": "IMA 2026-Jun reference list, Q95"
     },
     {
       "id": "mcq-f236daa600ddb2c31e2d699f",
       "sourceIndex": 4542,
-      "evidence": [
-        {
-          "field": "explanation",
-          "match": "משרד הבריאות",
-          "excerpt": "יחידה אמבולטורית ואינה מעלה את דרגת הסיעוד. סיווג 'סיעודי' (משרד הבריאות) נשלל בשל העצמאות בסוגרים, במעברים ובהלבשה.",
-          "category": "MoH procedure"
-        },
-        {
-          "field": "ref",
-          "match": "נוהל",
-          "excerpt": "נוהל",
-          "category": "MoH procedure"
-        }
-      ]
+      "sitting": "2026-Jun-Subspec",
+      "question": 96,
+      "type": "Procedure",
+      "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד האשפוז המתאים לקשיש",
+      "source": "IMA 2026-Jun reference list, Q96"
     },
     {
       "id": "mcq-d2ff40cf73dadddd2214f235",
       "sourceIndex": 4555,
-      "evidence": [
-        {
-          "field": "ref",
-          "match": "ברוקדייל",
-          "excerpt": "מכון מאיירס-ג'וינט-ברוקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "ref",
-          "match": "brookdale",
-          "excerpt": "וקדייל, \"65+ בישראל — לקט נתונים סטטיסטי\" (פרסום עדכני; ראו brookdale.jdc.org.il)",
-          "category": "Brookdale/yearbook"
-        },
-        {
-          "field": "explanation",
-          "match": "ברוקדייל",
-          "excerpt": "לפי נתוני מכון ברוקדייל (המסתמך על WHO ו-World Bank), מונקו מדורגת במקום הראשון בעולם בתוחלת חיים — כ-87 שנים — הודות לרמת חיים גבוהה במיוחד, שירותי בריאות מעולים ואוכלוסייה אמידה. יש",
-          "category": "Brookdale/yearbook"
-        }
-      ]
+      "sitting": "2025-Jun-Subspec",
+      "question": 9,
+      "type": "Yearbook",
+      "reference": "לקט נתונים אינפוגרפי",
+      "source": "IMA 2025-Jun reference list, Q9"
+    },
+    {
+      "id": "mcq-ff5dff1131122d86e4378271",
+      "sourceIndex": 4559,
+      "sitting": "2025-Jun-Subspec",
+      "question": 13,
+      "type": "Circular",
+      "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים",
+      "source": "IMA 2025-Jun reference list, Q13"
+    },
+    {
+      "id": "mcq-a5af01dd00d786e51c85ce5b",
+      "sourceIndex": 4583,
+      "sitting": "2025-Jun-Subspec",
+      "question": 37,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2025-Jun reference list, Q37"
+    },
+    {
+      "id": "mcq-347194b95c71c6d4fcbb34f4",
+      "sourceIndex": 4598,
+      "sitting": "2025-Jun-Subspec",
+      "question": 52,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2025-Jun reference list, Q52"
+    },
+    {
+      "id": "mcq-c96af8d727732c9078673e23",
+      "sourceIndex": 4605,
+      "sitting": "2025-Jun-Subspec",
+      "question": 59,
+      "type": "Law",
+      "reference": "חוק החולה הנוטה למות",
+      "source": "IMA 2025-Jun reference list, Q59"
+    },
+    {
+      "id": "mcq-1bbe7663ed422d20fc60e429",
+      "sourceIndex": 4626,
+      "sitting": "2025-Jun-Subspec",
+      "question": 80,
+      "type": "Law",
+      "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים (IMA class: חוק)",
+      "source": "IMA 2025-Jun reference list, Q80"
     }
   ],
   "topicFallbacks": {
     "99": {
       "topic": 22,
       "name": "Diabetes",
-      "past": 52,
+      "past": 22,
       "practice": 23
     },
     "104": {
       "topic": 27,
       "name": "Infections",
-      "past": 109,
+      "past": 34,
       "practice": 39
     },
     "105": {
       "topic": 27,
       "name": "Infections",
-      "past": 109,
+      "past": 34,
       "practice": 39
     },
     "108": {
       "topic": 27,
       "name": "Infections",
-      "past": 109,
+      "past": 34,
       "practice": 39
     }
   }
