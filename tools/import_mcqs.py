@@ -1,8 +1,8 @@
 """Copy dated past exams and Hazzard MCQs into the reader; source tree is read-only.
 
 Usage: python tools/import_mcqs.py C:/Users/eiasa/repos/Geriatrics
-Only chapters already available in the reader are imported. No topic index is
-used as an exam question number. Images are copied for offline use.
+All eligible sources are imported for the bank; chapter subsets keep study
+pages fast. No topic index is used as an exam question number.
 """
 import argparse
 from collections import Counter
@@ -47,9 +47,18 @@ def main():
     if source == ROOT:
         raise ValueError('Source must be the separate Geriatrics repository')
     from PIL import Image
-    files = {name: source / 'data' / name for name in ('questions.json', 'question_chapters.json', 'explanations.json')}
+    files = {name: source / 'data' / name for name in ('questions.json', 'question_chapters.json', 'explanations.json', 'topics.json', 'regulatory.json', 'hazzard_index.json')}
+    files['shlav-a-mega.html'] = source / 'shlav-a-mega.html'
     hashes = {name: sha256(path.read_bytes()).hexdigest() for name, path in files.items()}
-    questions, mappings, explanations = (read(files[name]) for name in files)
+    questions, mappings, explanations = (read(files[name]) for name in ('questions.json', 'question_chapters.json', 'explanations.json'))
+    match = re.search(r'const TOPICS=(\[[^;]+\]);', files['shlav-a-mega.html'].read_text(encoding='utf-8'))
+    if not match:
+        raise ValueError('Topic names not found in source app')
+    topics = json.loads(match[1])
+    if len(topics) != len(read(files['topics.json'])):
+        raise ValueError('Topic names and topic index differ')
+    regulatory = set(read(files['regulatory.json']))
+    titles = read(files['hazzard_index.json'])
     chapters = {str(c['number']): c['title'] for c in read(ROOT / 'manifest.json')['chapters']
                 if c['kind'] == 'chapter' and str(c['number']).isdigit()}
     destination = ROOT / 'data' / 'mcq'
@@ -61,8 +70,6 @@ def main():
         ch = str(mappings.get(str(i), {}).get('haz', ''))
         if not kind:
             reason = 'other-source-tag'
-        elif ch not in chapters:
-            reason = 'chapter-not-in-reader'
         elif broken(q):
             reason = 'broken'
         else:
@@ -101,6 +108,7 @@ def main():
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = dict((ref, (path, error)) for ref, path, error in pool.map(copy_image, refs))
     bank = {ch: [] for ch in chapters}
+    all_items = []
     for i, q, ch, kind in candidates:
         refs = image_refs(q)
         missing = [r for r in refs if not results[r][0]]
@@ -114,9 +122,16 @@ def main():
             raise ValueError(f'Invalid accepted answer at source index {i}')
         explanation = explanations[i] if isinstance(explanations, list) else explanations.get(str(i), '')
         identity = json.dumps([q['q'], q['o'], accepted, q['t']], ensure_ascii=False, separators=(',', ':'))
-        bank[ch].append({'id': 'mcq-' + sha256(identity.encode()).hexdigest()[:24], 'sourceIndex': i, 'kind': kind, 'q': q['q'], 'o': q['o'], 'c': q['c'],
+        item = {'id': 'mcq-' + sha256(identity.encode()).hexdigest()[:24], 'sourceIndex': i, 'kind': kind, 'q': q['q'], 'o': q['o'], 'c': q['c'],
                          'accepted': accepted, 't': q['t'], 'explanation': explanation or '',
-                         'ref': q.get('ref', ''), 'images': [results[r][0] for r in refs]})
+                         'ref': q.get('ref', ''), 'images': [results[r][0] for r in refs],
+                         'topic': q['ti'], 'law': i in regulatory, 'chapter': ch,
+                         'chapterTitle': chapters.get(ch) or titles.get(ch, {}).get('title', '')}
+        if not isinstance(q['ti'], int) or not 0 <= q['ti'] < len(topics):
+            raise ValueError(f'Unknown topic index at {i}')
+        all_items.append(item)
+        if ch in bank:
+            bank[ch].append(item)
     index = {}
     for ch in sorted(chapters, key=int):
         items = bank[ch]
@@ -124,9 +139,15 @@ def main():
         counts = Counter(q['kind'] for q in items)
         index[ch] = {'title': chapters[ch], 'past': counts['past'], 'practice': counts['practice']}
     (destination / 'index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    report = {'source_sha256': hashes, 'total_source': len(questions), 'included': sum(map(len, bank.values())),
+    (destination / 'all.json').write_text(json.dumps(all_items, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+    (destination / 'topics.json').write_text(json.dumps(topics, ensure_ascii=False) + '\n', encoding='utf-8')
+    topic_counts = {str(i): {'name': name, 'past': sum(x['topic']==i and x['kind']=='past' for x in all_items), 'practice': sum(x['topic']==i and x['kind']=='practice' for x in all_items)} for i,name in enumerate(topics)}
+    report = {'source_sha256': hashes, 'total_source': len(questions), 'included': len(all_items),
               'excluded_counts': dict(Counter(x['reason'] for x in excluded)), 'excluded': excluded,
-              'image_failures': {r: error for r, (_, error) in results.items() if error}, 'chapters': index}
+              'image_failures': {r: error for r, (_, error) in results.items() if error}, 'chapters': index,
+              'sources': dict(Counter(x['t'] for x in all_items)), 'topics': topic_counts,
+              'law_count': sum(x['law'] for x in all_items), 'law_rule': 'source index membership in regulatory.json; no new keyword classifier',
+              'other_sources': dict(Counter(q['t'] for q in questions if not category(q)))}
     (destination / 'import-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     if any(sha256(path.read_bytes()).hexdigest() != hashes[name] for name, path in files.items()):
         raise RuntimeError('Source changed during import; rerun against a stable snapshot')
