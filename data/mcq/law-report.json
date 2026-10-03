@@ -1,254 +1,55 @@
 {
   "law_block_sha256": "e602bc1c068c10c5af2c10a23a5db291443bf2bb5f850165251c8c019cab5106",
-  "rule": "Full covered statute name in q or ref; whitespace normalized only.",
+  "rule": "Primary topic 30–34 OR full covered statute name in q/ref; no regulatory.json.",
   "statutes": [
     "חוק החולה הנוטה למות",
     "חוק זכויות החולה",
     "חוק הכשרות המשפטית והאפוטרופסות"
   ],
-  "past": 18,
-  "practice": 21,
-  "regulatory_matches": 32,
-  "outside_regulatory": [
-    503,
-    504,
-    507,
-    616,
-    617,
-    2442,
-    2446
-  ],
-  "unmatched_regulatory": [
-    69,
-    72,
-    74,
-    75,
-    91,
-    92,
-    110,
-    118,
-    127,
-    178,
-    191,
-    193,
-    248,
-    253,
-    254,
-    256,
-    257,
-    258,
-    269,
-    286,
-    297,
-    313,
-    338,
-    359,
-    361,
-    365,
-    366,
-    367,
-    369,
-    370,
-    374,
-    377,
-    379,
-    381,
-    410,
-    411,
-    447,
-    453,
-    461,
-    479,
-    480,
-    481,
-    482,
-    505,
-    509,
-    510,
-    511,
-    512,
-    514,
-    516,
-    577,
-    578,
-    587,
-    593,
-    594,
-    604,
-    606,
-    607,
-    611,
-    612,
-    614,
-    623,
-    631,
-    656,
-    660,
-    736,
-    858,
-    860,
-    892,
-    896,
-    906,
-    907,
-    908,
-    909,
-    910,
-    911,
-    912,
-    913,
-    914,
-    915,
-    916,
-    917,
-    918,
-    919,
-    920,
-    945,
-    951,
-    953,
-    954,
-    956,
-    959,
-    960,
-    961,
-    964,
-    965,
-    973,
-    983,
-    1007,
-    1046,
-    1065,
-    1089,
-    1090,
-    1094,
-    1097,
-    1124,
-    1145,
-    1146,
-    1147,
-    1148,
-    1149,
-    1151,
-    1153,
-    1154,
-    1155,
-    1156,
-    1157,
-    1158,
-    1159,
-    1170,
-    1174,
-    1182,
-    1203,
-    1205,
-    1213,
-    1386,
-    1401,
-    1407,
-    1415,
-    1509,
-    1550,
-    1556,
-    1565,
-    1566,
-    1590,
-    1639,
-    1641,
-    1644,
-    1651,
-    1672,
-    1683,
-    1691,
-    1692,
-    1695,
-    1698,
-    1701,
-    1705,
-    1710,
-    1714,
-    1717,
-    1720,
-    1722,
-    1724,
-    1725,
-    1726,
-    1760,
-    1797,
-    1821,
-    1829,
-    1835,
-    1840,
-    1961,
-    1966,
-    1974,
-    2020,
-    2071,
-    2391,
-    2427,
-    2444,
-    2445,
-    2447,
-    2448,
-    2449,
-    2453,
-    2455,
-    2472,
-    2485,
-    2511,
-    2603,
-    2612,
-    2626,
-    2665,
-    2670,
-    2741,
-    2799,
-    2897,
-    2923,
-    3009,
-    3014,
-    3021,
-    3025,
-    3041,
-    3117,
-    3122,
-    3144,
-    3189,
-    3196,
-    3229,
-    3257,
-    3313,
-    3315,
-    3318,
-    3345,
-    3404,
-    3427,
-    3457,
-    3484,
-    3719,
-    4324,
-    4342,
-    4363,
-    4381,
-    4385,
-    4474,
-    4492,
-    4513,
-    4531,
-    4535,
-    4593,
-    4598,
-    4605,
-    4609,
-    4626,
-    4637
+  "past": 46,
+  "practice": 219,
+  "source_past": 44,
+  "source_practice": 218,
+  "topics": {
+    "30": {
+      "name": "Elder Abuse",
+      "past": 4,
+      "practice": 52
+    },
+    "31": {
+      "name": "Driving",
+      "past": 2,
+      "practice": 30
+    },
+    "32": {
+      "name": "Guardianship",
+      "past": 10,
+      "practice": 38
+    },
+    "33": {
+      "name": "Patient Rights",
+      "past": 0,
+      "practice": 31
+    },
+    "34": {
+      "name": "Advance Directives",
+      "past": 28,
+      "practice": 67
+    }
+  },
+  "exact_name_matches": 39,
+  "exact_only": [
+    2491,
+    3168,
+    508
   ],
   "evidence": [
     {
       "id": "mcq-ece2bd90f12d03c630b999f9",
       "sourceIndex": 9,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -262,7 +63,8 @@
       "id": "mcq-9356163afe4cd0cf36ad01a6",
       "sourceIndex": 31,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -274,10 +76,43 @@
       ]
     },
     {
+      "id": "mcq-25977eff884454c1df2ec0a8",
+      "sourceIndex": 69,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5ad0bdc999886ea23dd577f8",
+      "sourceIndex": 72,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-46770db589a259ce0b35d4b0",
+      "sourceIndex": 74,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2a733ae05cc2358d92d04f65",
+      "sourceIndex": 110,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-1491a19270cfe5e385a4c663",
       "sourceIndex": 115,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -286,12 +121,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-30ca809d5327e7a3f40fa96f",
+      "sourceIndex": 127,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-4f69e7c2f0d4c3517a8f1e6b",
       "sourceIndex": 137,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -300,12 +144,357 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-09467962fb342d44fd6b55fc",
+      "sourceIndex": 191,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ef724ad5ad32f81aae8c1410",
+      "sourceIndex": 249,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-34586eb54c92e78d40ca0e18",
+      "sourceIndex": 250,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2daec6b183c150d047ebc1a0",
+      "sourceIndex": 252,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-77ab4a1b1336f63d7d5d7285",
+      "sourceIndex": 253,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-699b4273355c31992364f1f1",
+      "sourceIndex": 254,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-660fc34f37f3fe1432f26a67",
+      "sourceIndex": 256,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-fbaf9e3019b3dc8782080787",
+      "sourceIndex": 257,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5b3d02f7a411a9e6864e2e44",
+      "sourceIndex": 258,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-88a525d08c082495415b6dd6",
+      "sourceIndex": 269,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a6a78c7121303dc72ff843ac",
+      "sourceIndex": 286,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-918b503df051d32cbaa392c4",
+      "sourceIndex": 297,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6c440dded8245eda94a5a2cf",
+      "sourceIndex": 359,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-297de37cd362f188128ff70f",
+      "sourceIndex": 366,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-52800532ecec81ea317c0bbf",
+      "sourceIndex": 368,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-28e457d4f16219602ae4dfb1",
+      "sourceIndex": 371,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8632b57e622908538b588c2d",
+      "sourceIndex": 375,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5a6098ed0a16f5d707e95c4a",
+      "sourceIndex": 376,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-bd9a5d23d9acf71f81ebb3c7",
+      "sourceIndex": 377,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-b237d85f9b1d41f400869315",
+      "sourceIndex": 378,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-acf584307ca5081b7f2ac561",
+      "sourceIndex": 379,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ddd64aa1ef33a9a0ecab66a2",
+      "sourceIndex": 380,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-81f9e0b17aa417a3f66ef89b",
+      "sourceIndex": 381,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-17a08e9b59afdac951469d08",
+      "sourceIndex": 406,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-d0b5fed4136c157b7dc9d846",
+      "sourceIndex": 407,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3f4f49d3d1e37d5e167f4d08",
+      "sourceIndex": 408,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c8b8bd78ba431224f319d57f",
+      "sourceIndex": 409,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a2b65349bee8e4ff3d6dce58",
+      "sourceIndex": 410,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-73c818a8f51f6833c741e77b",
+      "sourceIndex": 411,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-b8332cff1974cd8dc3a6c141",
+      "sourceIndex": 441,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-460e60d9dc77b2d5eab3ec24",
+      "sourceIndex": 442,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c754381222bdc39bc104bb3f",
+      "sourceIndex": 447,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4277d49611f597ee222b3159",
+      "sourceIndex": 448,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c4a823ebd7de2745986be543",
+      "sourceIndex": 453,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8de67b970bb8294ae6d6bd8c",
+      "sourceIndex": 454,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-9cd54afbacf0449e5722fbae",
+      "sourceIndex": 455,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-27cadf3e39a9e3b7070f768a",
+      "sourceIndex": 456,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4329469d273f6fae840602f5",
+      "sourceIndex": 457,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-1a5043271168d2731eaef882",
+      "sourceIndex": 458,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-9c34d596f0cc6ac08b138fbf",
+      "sourceIndex": 459,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-80a2c96e90ddae880ce92af4",
+      "sourceIndex": 460,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-70e55248744392a2e2ea1ef3",
+      "sourceIndex": 461,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-de625b9e324bfea06a586c39",
+      "sourceIndex": 462,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-138f1df2e5be3c80cb55da87",
       "sourceIndex": 469,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -316,10 +505,83 @@
       ]
     },
     {
+      "id": "mcq-f2ef0faf15b866f4af4989df",
+      "sourceIndex": 479,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ae981a6eee9eea1d1890d2af",
+      "sourceIndex": 480,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2ce44007e1f88171018bfd66",
+      "sourceIndex": 481,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-348f5fb8c70f82abee8cff60",
+      "sourceIndex": 482,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-9e0253f40f04d8c3b156dcc8",
+      "sourceIndex": 488,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-55238815472bf6e6d5cbe826",
+      "sourceIndex": 489,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-37d1f2edd35d2d25f28ba507",
+      "sourceIndex": 490,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ea62ec83c87d68d988f4c8ad",
+      "sourceIndex": 491,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-52227da9b572ad05e4841086",
+      "sourceIndex": 492,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-9f8d7037088960a8ef814358",
       "sourceIndex": 503,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -333,7 +595,8 @@
       "id": "mcq-76ef27c0b80f3e395cea4759",
       "sourceIndex": 504,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -344,10 +607,27 @@
       ]
     },
     {
+      "id": "mcq-66c7b713ba79de02b490ed75",
+      "sourceIndex": 505,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-65787d0b3cf396198fbda2f4",
+      "sourceIndex": 506,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-1fee4daec71777346e589718",
       "sourceIndex": 507,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -361,7 +641,8 @@
       "id": "mcq-65e0853a12fc85d69cdf9915",
       "sourceIndex": 508,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 29,
+      "topicIncluded": false,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -372,10 +653,59 @@
       ]
     },
     {
+      "id": "mcq-28be1a814555faa576b30703",
+      "sourceIndex": 509,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0b4352830f41f6f12b4d704c",
+      "sourceIndex": 510,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-93241d52126bf2988b36565a",
+      "sourceIndex": 511,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-e73a66699bb3b382a36f4793",
+      "sourceIndex": 512,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-da0e88d39eb186aa37c50253",
+      "sourceIndex": 513,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8b0b41ba8889f806cc828038",
+      "sourceIndex": 514,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-f0c69a890ab8404b71db0f31",
       "sourceIndex": 515,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -386,10 +716,19 @@
       ]
     },
     {
+      "id": "mcq-335b993e94e42f98c779df5a",
+      "sourceIndex": 516,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-a3f6b4f5ff5afb2040a43458",
       "sourceIndex": 518,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -400,10 +739,27 @@
       ]
     },
     {
+      "id": "mcq-d6bb383b1aa45112cfa50963",
+      "sourceIndex": 519,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8667d8917cb5bf2eaeea696b",
+      "sourceIndex": 520,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-6bb7a472ee4fa80389615d51",
       "sourceIndex": 564,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -418,7 +774,8 @@
       "id": "mcq-b1165d1cc2f7176dcde22187",
       "sourceIndex": 573,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -429,10 +786,179 @@
       ]
     },
     {
+      "id": "mcq-a123634fe43e01ca9d3ed602",
+      "sourceIndex": 579,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-61e571b2c2e79787cb8c9a96",
+      "sourceIndex": 583,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6efa24d560c4df1b871e045b",
+      "sourceIndex": 584,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-e51257b673dba22bf1696e12",
+      "sourceIndex": 585,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-bcbf4a8f530b0030835c92fc",
+      "sourceIndex": 586,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-79fd7ff18516ae2b03e595f8",
+      "sourceIndex": 587,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-14260956468e56fb0815f246",
+      "sourceIndex": 588,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-86a94c9168328a53c8066e7a",
+      "sourceIndex": 589,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3a3c3bbd295dc7403fb83e30",
+      "sourceIndex": 590,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ed71e22138431121e6efcc32",
+      "sourceIndex": 591,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-cc52a11c58a7d33f59d78fd1",
+      "sourceIndex": 592,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-90f12c9da219a8f407f8e65a",
+      "sourceIndex": 593,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-073b9a7d0bcb3934f98309b1",
+      "sourceIndex": 594,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2e36238dd4f16c28277ae84c",
+      "sourceIndex": 595,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-1f92adb433d6d5cfc18e09d5",
+      "sourceIndex": 596,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3398a54d81e08867dbc745b8",
+      "sourceIndex": 597,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-38bc0abf7bc576c5c5482c6c",
+      "sourceIndex": 598,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c958701b2b861c1d800d03b3",
+      "sourceIndex": 599,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-90affc0029710751b06319f5",
+      "sourceIndex": 600,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4162329a24c5d4d93d83a17d",
+      "sourceIndex": 601,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-568a570a893c8db62fea050b",
+      "sourceIndex": 602,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-62d7eadb5a4ad0a1d9f23fa6",
       "sourceIndex": 603,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -441,12 +967,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-2d2a3e491eda7c4fad54221d",
+      "sourceIndex": 604,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-5dc3628b27aba20802051836",
       "sourceIndex": 605,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -457,10 +992,27 @@
       ]
     },
     {
+      "id": "mcq-e3f19e69e262a88b0d55fb6b",
+      "sourceIndex": 606,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-98df5d0ab5206ceb23dbbfd6",
+      "sourceIndex": 607,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-8f3d01f4ba2bf67b814c2d3b",
       "sourceIndex": 608,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -474,7 +1026,8 @@
       "id": "mcq-78b26021e830fa359de80e66",
       "sourceIndex": 609,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -488,7 +1041,8 @@
       "id": "mcq-a9f4a5960e8cc4a690a6a1a5",
       "sourceIndex": 610,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -499,10 +1053,27 @@
       ]
     },
     {
+      "id": "mcq-239f0c13003ce65b950cb76e",
+      "sourceIndex": 611,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-eab434c2b9b9875a4505ce21",
+      "sourceIndex": 612,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-3f72a8fb278ef7298db5ee05",
       "sourceIndex": 613,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -514,10 +1085,27 @@
       ]
     },
     {
+      "id": "mcq-5909d72ba09fd82ecc293248",
+      "sourceIndex": 614,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-39dfcd43e2048d61f5739915",
+      "sourceIndex": 615,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-a55ebd876862d6b57fea4cab",
       "sourceIndex": 616,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -531,7 +1119,8 @@
       "id": "mcq-078d163729e42db65d9faaea",
       "sourceIndex": 617,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -542,10 +1131,811 @@
       ]
     },
     {
+      "id": "mcq-d3b0cdb450de242399ac74be",
+      "sourceIndex": 619,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-39f070cf34c2f6e0e9b2eff0",
+      "sourceIndex": 620,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8c8078a68b054f62ac6634c1",
+      "sourceIndex": 621,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-7552c02517105e401cb55fca",
+      "sourceIndex": 622,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4e7209fa700b6bc5585ce9c3",
+      "sourceIndex": 656,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5295cf4c0673e5e50fa8796c",
+      "sourceIndex": 660,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a6ef404e839df0a1e4270c4f",
+      "sourceIndex": 663,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-297fb7e6f60e37619a03938c",
+      "sourceIndex": 732,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-7db32c744ae34f41f296515f",
+      "sourceIndex": 896,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-d06e285df0048bcdb6e98522",
+      "sourceIndex": 902,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-837f9818968d2dc7da0bc96e",
+      "sourceIndex": 907,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c1ccbb8fa3fae19de6db05d3",
+      "sourceIndex": 908,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ccdea202780e9e5c713a30fa",
+      "sourceIndex": 909,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-562985b1bbdf197d50d67d75",
+      "sourceIndex": 910,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4665d432f907f4d47cc149df",
+      "sourceIndex": 911,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5694c38fb949496efb4aa5f4",
+      "sourceIndex": 912,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-63697cf4ef138500d3ffdea8",
+      "sourceIndex": 913,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a4ba25826c14557932e374a7",
+      "sourceIndex": 915,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6e279e2937c60a1d96590833",
+      "sourceIndex": 916,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-41a840b17c28ea089331fa78",
+      "sourceIndex": 917,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5cf5361dc6aaba24f36d89c5",
+      "sourceIndex": 918,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-410c22c98cec45799063b8b7",
+      "sourceIndex": 919,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-78b9dd3c11a02a439fd6c18e",
+      "sourceIndex": 920,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0170aa2aaf8181644a16cc60",
+      "sourceIndex": 942,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-84bc251181428aa940215436",
+      "sourceIndex": 952,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3c0c33108b39c507fcdbfd72",
+      "sourceIndex": 953,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-212c8a36867291ad136fc1b9",
+      "sourceIndex": 954,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-d309c52a91731eafe64b8b66",
+      "sourceIndex": 955,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c061c8e8014e798d0f36733c",
+      "sourceIndex": 957,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-5ce75442a433f281dcac28e1",
+      "sourceIndex": 959,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-dc21fd0361b3bfb04bc331ba",
+      "sourceIndex": 960,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a32ef3b8eff03c8f5f4109e8",
+      "sourceIndex": 961,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0c7f277cdeb1d3324e6adb52",
+      "sourceIndex": 962,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-7ab2b927b0771df59d27a303",
+      "sourceIndex": 964,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-82a1a43cfaad7704a7d66750",
+      "sourceIndex": 965,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0423ebcb53694bba705308c1",
+      "sourceIndex": 983,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-fc2252a620410d032fdb8cd8",
+      "sourceIndex": 1007,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-d4fd47aa770b9e610bf17b41",
+      "sourceIndex": 1027,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8aaf6fa6c6b21f08a1583c47",
+      "sourceIndex": 1065,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0fb9bd3ad0d3997b5d1cdce4",
+      "sourceIndex": 1090,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3ffe3f29746e517bee296144",
+      "sourceIndex": 1093,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-66cfb59089803f7958244223",
+      "sourceIndex": 1099,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ab9aefc361d477749238c07c",
+      "sourceIndex": 1119,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-44dc17d1140d56c67beb1fed",
+      "sourceIndex": 1124,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-fa4e88bfd8f829f6acb3ede1",
+      "sourceIndex": 1145,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2d0c6eea65796f2e5232dbac",
+      "sourceIndex": 1146,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6a6a4e7a9d925f14f7964fdb",
+      "sourceIndex": 1147,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3c86544c1ed49aa9fd400e79",
+      "sourceIndex": 1148,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-394b09b012e422c737c9189f",
+      "sourceIndex": 1149,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0a7fe4cc1d911f141cb4b9a1",
+      "sourceIndex": 1150,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-9a2fa2ba637c9c957af57b07",
+      "sourceIndex": 1151,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8acdb2f245dc87771bb60339",
+      "sourceIndex": 1152,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-b533cab709d5b240b183328b",
+      "sourceIndex": 1153,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-d07111d2a0a1a26bceefc98a",
+      "sourceIndex": 1154,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2c22c80a233016c4f24d036a",
+      "sourceIndex": 1155,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-dbdd11fd5961536392a92cb1",
+      "sourceIndex": 1156,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6ee4de838c92f50dd07e0d72",
+      "sourceIndex": 1157,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-b27616507048c7e73ac32658",
+      "sourceIndex": 1158,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-696bb6e291a3192c80d204a4",
+      "sourceIndex": 1159,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c124165a3157317377af5fd9",
+      "sourceIndex": 1174,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-972ad99b7102d74b69ff7d96",
+      "sourceIndex": 1203,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-9e8317e4999ee070d8e1de82",
+      "sourceIndex": 1287,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-aeef1f41598bb8f5f7cd9e5c",
+      "sourceIndex": 1399,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-90710a884e37cee42d84cd43",
+      "sourceIndex": 1400,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-dfb5c7ca0b0753f287cbd369",
+      "sourceIndex": 1401,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-3df5cb7b6908f625553110c5",
+      "sourceIndex": 1402,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-33fce0b8352c1e237b921cab",
+      "sourceIndex": 1403,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2c471c5ace2ff4189d1189e9",
+      "sourceIndex": 1404,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-fe300cf3f5d609cb2b0df2d6",
+      "sourceIndex": 1405,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ef9d040a6676e98eec55adda",
+      "sourceIndex": 1406,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a606db411cc9ebe31989a1ba",
+      "sourceIndex": 1407,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-b4108d3acf7a39ab50132c1c",
+      "sourceIndex": 1408,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-92f16c89e1580d869ecb67c6",
+      "sourceIndex": 1409,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-299d95c688a68aa2fd13b7e3",
+      "sourceIndex": 1410,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-06656398df251c8ba9940e5c",
+      "sourceIndex": 1411,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8789f92501af10e8280afc49",
+      "sourceIndex": 1412,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4f637c373163b6d84be12391",
+      "sourceIndex": 1413,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-396c97aad9c833c90dca5a84",
+      "sourceIndex": 1415,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a1c45e36244c0c0b6d7ad4e9",
+      "sourceIndex": 1456,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-b05da4df5691426eedd44d74",
+      "sourceIndex": 1509,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8d25fea5556f4c89b2cf5562",
+      "sourceIndex": 1514,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0255d1badba8f77e3345832c",
+      "sourceIndex": 1530,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-f47a54166e06ee54b78791ba",
+      "sourceIndex": 1550,
+      "kind": "practice",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-692d3438cc569925b0037456",
+      "sourceIndex": 1554,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2c223c2f36036e7414b416d7",
+      "sourceIndex": 1566,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2b057944259328001d2b7de2",
+      "sourceIndex": 1639,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-1c4460dbe69d87593585bd76",
+      "sourceIndex": 1640,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-984f0179b0c73b772c9fc507",
+      "sourceIndex": 1644,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ab85e9f80243ed93ba23123b",
+      "sourceIndex": 1651,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-1f3d575732789f07238370da",
+      "sourceIndex": 1672,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ed4b1c6389a9692a79be898c",
+      "sourceIndex": 1692,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-6c5e7fb57bcb951de0f439e2",
+      "sourceIndex": 1704,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-bc9292fdd3c5e90e2ce912f6",
+      "sourceIndex": 1714,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ac637cbe5f26dc8819470129",
+      "sourceIndex": 1717,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-1dd920617995a1a6862791a7",
+      "sourceIndex": 1726,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ba5241d69195f70c81883436",
+      "sourceIndex": 1766,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-05cff8fb74ea0d99a8f60776",
+      "sourceIndex": 1797,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-62185f4e4e3506551c73d2aa",
+      "sourceIndex": 1821,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-d9cd6b686d35b5d23bcfc8e9",
+      "sourceIndex": 1835,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-032a2c18787b874cc9ffbb4a",
+      "sourceIndex": 2020,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-50b04abe7f08ba9feaf88404",
       "sourceIndex": 2442,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -560,7 +1950,8 @@
       "id": "mcq-f68a1716b17ae7ef56f22c54",
       "sourceIndex": 2443,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק הכשרות המשפטית והאפוטרופסות",
@@ -572,10 +1963,27 @@
       ]
     },
     {
+      "id": "mcq-170a1e86faa4358c1c38b1b9",
+      "sourceIndex": 2444,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-a15ae14bc110c0be99260e45",
+      "sourceIndex": 2445,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-8f5f9d0b3418647e413518f9",
       "sourceIndex": 2446,
       "kind": "practice",
-      "regulatory": false,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -585,12 +1993,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-2c66437d2d774e0036d35b6e",
+      "sourceIndex": 2447,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-66df9fb2064c7277ae4c8acf",
+      "sourceIndex": 2448,
+      "kind": "practice",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-61f6d14821e221e06cfe200d",
+      "sourceIndex": 2449,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-308fd50fb061d108ca145814",
       "sourceIndex": 2450,
       "kind": "practice",
-      "regulatory": true,
+      "topic": 33,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -602,10 +2035,75 @@
       ]
     },
     {
+      "id": "mcq-3339f98935452011d91a2a0c",
+      "sourceIndex": 2451,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-0c729c0be03c0ef5873d498a",
+      "sourceIndex": 2452,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-f5d03443d11d3e2c2259a235",
+      "sourceIndex": 2453,
+      "kind": "practice",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-23f1628c6b13d75ed44b6a1c",
+      "sourceIndex": 2454,
+      "kind": "practice",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2a4c7ca09dd04d146cd757bf",
+      "sourceIndex": 2455,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-4383c4d92923a12de298515f",
+      "sourceIndex": 2456,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-8bbb8e7af6f08db988ce1e38",
+      "sourceIndex": 2457,
+      "kind": "practice",
+      "topic": 33,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ab4ce1fa79f9e3d3caa3ea32",
+      "sourceIndex": 2472,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-dc0d13c0cdb65e8c3ec7b1cb",
       "sourceIndex": 2491,
       "kind": "past",
-      "regulatory": true,
+      "topic": 28,
+      "topicIncluded": false,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -614,12 +2112,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-32f295010a5c765ddef40052",
+      "sourceIndex": 2516,
+      "kind": "past",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-009a71103c748639d5b8842d",
       "sourceIndex": 2611,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -630,10 +2137,19 @@
       ]
     },
     {
+      "id": "mcq-591a44cfbfc91ea95792f8d1",
+      "sourceIndex": 2665,
+      "kind": "past",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-8344e89806082dd8adbe3823",
       "sourceIndex": 2667,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -644,10 +2160,35 @@
       ]
     },
     {
+      "id": "mcq-83c0c612b76cb6ac3e7d3494",
+      "sourceIndex": 2670,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2cd6273d7d1516baea819330",
+      "sourceIndex": 2674,
+      "kind": "past",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-c9242b34a1d03e6b7be18ff2",
+      "sourceIndex": 2741,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-3c6fbc0fc2df1de085d42134",
       "sourceIndex": 2904,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -656,12 +2197,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-872869a12a3ebcea5dc47bf0",
+      "sourceIndex": 2941,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-92221c4b1bf1c24566c10462",
       "sourceIndex": 2999,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -672,10 +2222,19 @@
       ]
     },
     {
+      "id": "mcq-2d20c8c40c9f198ed36c2b61",
+      "sourceIndex": 3014,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-7425037b62dd263eb00a7790",
       "sourceIndex": 3052,
       "kind": "past",
-      "regulatory": true,
+      "topic": 32,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק זכויות החולה",
@@ -692,10 +2251,19 @@
       ]
     },
     {
+      "id": "mcq-34851c7f12c60ea021445215",
+      "sourceIndex": 3144,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-da1e76694d63f5b833729f75",
       "sourceIndex": 3168,
       "kind": "past",
-      "regulatory": true,
+      "topic": 29,
+      "topicIncluded": false,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -704,12 +2272,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-e3c3ec0e57070e39c010d2fe",
+      "sourceIndex": 3195,
+      "kind": "past",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-558754bdd0a7904a5c8cdd50",
       "sourceIndex": 3256,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -718,12 +2295,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-e8ba38432f0a33923c977eb3",
+      "sourceIndex": 3313,
+      "kind": "past",
+      "topic": 30,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-892e75ca458f60b67b249129",
+      "sourceIndex": 3322,
+      "kind": "past",
+      "topic": 31,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-2420c29631c2ef60e0dcfac5",
+      "sourceIndex": 3345,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
     },
     {
       "id": "mcq-e72e8a76b8db84bd613defc5",
       "sourceIndex": 3464,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -734,10 +2336,27 @@
       ]
     },
     {
+      "id": "mcq-4771816e4bd8f4ef7f734fbb",
+      "sourceIndex": 4324,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-7adc28557038ecd8b65bba79",
+      "sourceIndex": 4342,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-ce7ca6a6ed8b4ee4f73d2467",
       "sourceIndex": 4389,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -751,7 +2370,8 @@
       "id": "mcq-87cd2785c9612fe5b0caecb4",
       "sourceIndex": 4391,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -762,10 +2382,27 @@
       ]
     },
     {
+      "id": "mcq-632ba530eb4611e16d60adfe",
+      "sourceIndex": 4474,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
+      "id": "mcq-ecd64ab60c729ac9474151bc",
+      "sourceIndex": 4492,
+      "kind": "past",
+      "topic": 32,
+      "topicIncluded": true,
+      "matches": []
+    },
+    {
       "id": "mcq-7fbd59a824fc038d8fdb2a37",
       "sourceIndex": 4539,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -779,7 +2416,8 @@
       "id": "mcq-8ceb825522dee040d6bc0a79",
       "sourceIndex": 4541,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -793,7 +2431,8 @@
       "id": "mcq-a5af01dd00d786e51c85ce5b",
       "sourceIndex": 4583,
       "kind": "past",
-      "regulatory": true,
+      "topic": 34,
+      "topicIncluded": true,
       "matches": [
         {
           "statute": "חוק החולה הנוטה למות",
@@ -802,6 +2441,14 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mcq-347194b95c71c6d4fcbb34f4",
+      "sourceIndex": 4598,
+      "kind": "past",
+      "topic": 34,
+      "topicIncluded": true,
+      "matches": []
     }
   ]
 }

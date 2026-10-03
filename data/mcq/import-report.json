@@ -4,7 +4,6 @@
     "question_chapters.json": "d78cbd00c30fc351bcc629b7708ff95d7d66f14629c3b58aa68e0c670a984dc0",
     "explanations.json": "976ce8799110b3dad68988184f6562bf3f65b42994c4b0913690215186cd35ff",
     "topics.json": "72e0253a414f34a24887dad02bd3e0647fe97ceaf1b8fdcd44c9a709a23a7a13",
-    "regulatory.json": "18729cc6f9b8a0af5e7e51090feb9072120c6042ed5f209aeb45bd062205703f",
     "hazzard_index.json": "36f865262f729fc300e572b007a4bf76308a09918263c850c74cdb4f57d2bcfd",
     "shlav-a-mega.html": "45c135349d7fe8753b67fd89278f648ce722497f546dcf625084b3f69f9bf3e8"
   },
@@ -4598,8 +4597,8 @@
       "practice": 7
     }
   },
-  "law_count": 255,
-  "law_rule": "source index membership in regulatory.json; no new keyword classifier",
+  "law_count": 262,
+  "law_rule": "primary topic index in 30,31,32,33,34; regulatory.json not used",
   "other_sources": {
     "Hazzard-suppl": 24,
     "Harrison": 294,
@@ -4607,5 +4606,32 @@
     "GRS8": 90,
     "SZMC-Rescue": 80,
     "AI-2026-hy": 474
+  },
+  "law_topics": {
+    "30": {
+      "name": "Elder Abuse",
+      "past": 4,
+      "practice": 52
+    },
+    "31": {
+      "name": "Driving",
+      "past": 2,
+      "practice": 30
+    },
+    "32": {
+      "name": "Guardianship",
+      "past": 10,
+      "practice": 38
+    },
+    "33": {
+      "name": "Patient Rights",
+      "past": 0,
+      "practice": 31
+    },
+    "34": {
+      "name": "Advance Directives",
+      "past": 28,
+      "practice": 67
+    }
   }
 }
