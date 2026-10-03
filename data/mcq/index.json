@@ -1,0 +1,162 @@
+{
+  "42": {
+    "title": "Frailty",
+    "past": 30,
+    "practice": 12
+  },
+  "43": {
+    "title": "Falls",
+    "past": 36,
+    "practice": 59
+  },
+  "44": {
+    "title": "Sleep Disorders",
+    "past": 19,
+    "practice": 17
+  },
+  "45": {
+    "title": "Syncope and Dizziness",
+    "past": 9,
+    "practice": 11
+  },
+  "46": {
+    "title": "Pressure Injuries",
+    "past": 44,
+    "practice": 26
+  },
+  "47": {
+    "title": "Incontinence",
+    "past": 31,
+    "practice": 64
+  },
+  "51": {
+    "title": "Osteoporosis",
+    "past": 29,
+    "practice": 22
+  },
+  "52": {
+    "title": "Osteoarthritis",
+    "past": 37,
+    "practice": 12
+  },
+  "55": {
+    "title": "Rehabilitation",
+    "past": 58,
+    "practice": 38
+  },
+  "57": {
+    "title": "Cognitive Changes in Normal and Pathologic Aging",
+    "past": 0,
+    "practice": 0
+  },
+  "58": {
+    "title": "Delirium",
+    "past": 59,
+    "practice": 84
+  },
+  "59": {
+    "title": "Dementia Including Alzheimer Disease",
+    "past": 131,
+    "practice": 22
+  },
+  "60": {
+    "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
+    "past": 8,
+    "practice": 15
+  },
+  "61": {
+    "title": "Parkinson Disease and Related Disorders",
+    "past": 88,
+    "practice": 52
+  },
+  "63": {
+    "title": "Other Neurodegenerative Disorders",
+    "past": 0,
+    "practice": 0
+  },
+  "65": {
+    "title": "Major Depression",
+    "past": 42,
+    "practice": 19
+  },
+  "68": {
+    "title": "Pain Management",
+    "past": 49,
+    "practice": 48
+  },
+  "75": {
+    "title": "Valvular Heart Disease",
+    "past": 28,
+    "practice": 1
+  },
+  "76": {
+    "title": "Heart Failure",
+    "past": 47,
+    "practice": 24
+  },
+  "77": {
+    "title": "Cardiac Arrhythmias",
+    "past": 35,
+    "practice": 32
+  },
+  "81": {
+    "title": "Chronic Obstructive Pulmonary Disease",
+    "past": 39,
+    "practice": 16
+  },
+  "83": {
+    "title": "Kidney Diseases",
+    "past": 67,
+    "practice": 11
+  },
+  "87": {
+    "title": "Constipation",
+    "past": 24,
+    "practice": 48
+  },
+  "88": {
+    "title": "Cancer and Aging: General Principles",
+    "past": 38,
+    "practice": 34
+  },
+  "97": {
+    "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
+    "past": 0,
+    "practice": 0
+  },
+  "98": {
+    "title": "Thyroid Diseases",
+    "past": 0,
+    "practice": 0
+  },
+  "99": {
+    "title": "Diabetes Mellitus",
+    "past": 0,
+    "practice": 0
+  },
+  "101": {
+    "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
+    "past": 0,
+    "practice": 0
+  },
+  "102": {
+    "title": "Back Pain and Spinal Stenosis",
+    "past": 0,
+    "practice": 0
+  },
+  "104": {
+    "title": "Infection and Appropriate Antimicrobial Selection",
+    "past": 0,
+    "practice": 0
+  },
+  "105": {
+    "title": "Bacterial Pneumonia and Tuberculosis",
+    "past": 0,
+    "practice": 0
+  },
+  "108": {
+    "title": "Influenza, COVID-19, and Other Respiratory Viruses",
+    "past": 0,
+    "practice": 0
+  }
+}

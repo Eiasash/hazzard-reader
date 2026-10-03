@@ -1,0 +1,137 @@
+"""Copy dated past exams and Hazzard MCQs into the reader; source tree is read-only.
+
+Usage: python tools/import_mcqs.py C:/Users/eiasa/repos/Geriatrics
+Only chapters already available in the reader are imported. No topic index is
+used as an exam question number. Images are copied for offline use.
+"""
+import argparse
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
+from hashlib import sha256
+from io import BytesIO
+import json
+from pathlib import Path
+import re
+from urllib.parse import urlparse, unquote
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def read(path):
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def category(q):
+    if q.get('t') == 'Hazzard':
+        return 'practice'
+    if re.fullmatch(r'\d{4}(?:-[A-Za-z]+(?:-(?:Basic|Subspec))?)?', q.get('t', '')):
+        return 'past'
+    return None
+
+
+def broken(q):
+    return bool(q.get('broken')) or 'broken' in str(q.get('status', '')).lower()
+
+
+def image_refs(q):
+    values = ([q['img']] if q.get('img') else []) + (q.get('imgs') or [])
+    return list(dict.fromkeys(values))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('source', type=Path)
+    args = parser.parse_args()
+    source = args.source.resolve()
+    if source == ROOT:
+        raise ValueError('Source must be the separate Geriatrics repository')
+    from PIL import Image
+    files = {name: source / 'data' / name for name in ('questions.json', 'question_chapters.json', 'explanations.json')}
+    hashes = {name: sha256(path.read_bytes()).hexdigest() for name, path in files.items()}
+    questions, mappings, explanations = (read(files[name]) for name in files)
+    chapters = {str(c['number']): c['title'] for c in read(ROOT / 'manifest.json')['chapters']
+                if c['kind'] == 'chapter' and str(c['number']).isdigit()}
+    destination = ROOT / 'data' / 'mcq'
+    images = destination / 'images'
+    images.mkdir(parents=True, exist_ok=True)
+    excluded, candidates = [], []
+    for i, q in enumerate(questions):
+        kind = category(q)
+        ch = str(mappings.get(str(i), {}).get('haz', ''))
+        if not kind:
+            reason = 'other-source-tag'
+        elif ch not in chapters:
+            reason = 'chapter-not-in-reader'
+        elif broken(q):
+            reason = 'broken'
+        else:
+            candidates.append((i, q, ch, kind))
+            continue
+        excluded.append({'index': i, 'reason': reason})
+
+    def copy_image(ref):
+        parsed = urlparse(ref)
+        suffix = Path(unquote(parsed.path)).suffix.lower()
+        if suffix not in {'.png', '.jpg', '.jpeg', '.webp', '.gif'}:
+            return ref, None, 'unsupported image format'
+        target = images / (sha256(ref.encode()).hexdigest()[:20] + suffix)
+        try:
+            if target.exists():
+                data = target.read_bytes()
+            elif parsed.scheme in {'http', 'https'}:
+                with urlopen(Request(ref, headers={'User-Agent': 'Hazzard-reader-import/41'}), timeout=30) as response:
+                    data = response.read()
+            elif not parsed.scheme:
+                local = (source / unquote(parsed.path).lstrip('/')).resolve()
+                if not local.is_relative_to(source):
+                    raise ValueError('Image path outside source')
+                data = local.read_bytes()
+            else:
+                raise ValueError('Unsupported image URL')
+            with Image.open(BytesIO(data)) as image:
+                image.verify()
+            if not target.exists():
+                target.write_bytes(data)
+            return ref, target.relative_to(ROOT).as_posix(), None
+        except Exception as error:
+            return ref, None, type(error).__name__ + ': ' + str(error)
+
+    refs = sorted({r for _, q, _, _ in candidates for r in image_refs(q)})
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        results = dict((ref, (path, error)) for ref, path, error in pool.map(copy_image, refs))
+    bank = {ch: [] for ch in chapters}
+    for i, q, ch, kind in candidates:
+        refs = image_refs(q)
+        missing = [r for r in refs if not results[r][0]]
+        if missing or (q.get('imgDep') and not refs):
+            excluded.append({'index': i, 'reason': 'missing-image', 'images': missing})
+            continue
+        if not isinstance(q.get('c'), int) or not 0 <= q['c'] < len(q.get('o', [])):
+            raise ValueError(f'Invalid answer key at source index {i}')
+        accepted = sorted(set([q['c'], *(q.get('c_accept') or [])]))
+        if any(not isinstance(n, int) or not 0 <= n < len(q['o']) for n in accepted):
+            raise ValueError(f'Invalid accepted answer at source index {i}')
+        explanation = explanations[i] if isinstance(explanations, list) else explanations.get(str(i), '')
+        identity = json.dumps([q['q'], q['o'], accepted, q['t']], ensure_ascii=False, separators=(',', ':'))
+        bank[ch].append({'id': 'mcq-' + sha256(identity.encode()).hexdigest()[:24], 'sourceIndex': i, 'kind': kind, 'q': q['q'], 'o': q['o'], 'c': q['c'],
+                         'accepted': accepted, 't': q['t'], 'explanation': explanation or '',
+                         'ref': q.get('ref', ''), 'images': [results[r][0] for r in refs]})
+    index = {}
+    for ch in sorted(chapters, key=int):
+        items = bank[ch]
+        (destination / f'{ch}.json').write_text(json.dumps(items, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+        counts = Counter(q['kind'] for q in items)
+        index[ch] = {'title': chapters[ch], 'past': counts['past'], 'practice': counts['practice']}
+    (destination / 'index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    report = {'source_sha256': hashes, 'total_source': len(questions), 'included': sum(map(len, bank.values())),
+              'excluded_counts': dict(Counter(x['reason'] for x in excluded)), 'excluded': excluded,
+              'image_failures': {r: error for r, (_, error) in results.items() if error}, 'chapters': index}
+    (destination / 'import-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    if any(sha256(path.read_bytes()).hexdigest() != hashes[name] for name, path in files.items()):
+        raise RuntimeError('Source changed during import; rerun against a stable snapshot')
+    print(json.dumps({k: report[k] for k in ('total_source', 'included', 'excluded_counts')}, indent=2))
+
+
+if __name__ == '__main__':
+    main()

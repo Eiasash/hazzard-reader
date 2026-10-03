@@ -6,7 +6,13 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
-paths = {'index.html', 'manifest.json', 'js/marked.min.js'}
+paths = {'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'css/mcq.css', 'data/mcq/index.json'}
+mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
+for chapter in mcq_index:
+    path = f'data/mcq/{chapter}.json'
+    paths.add(path)
+    for question in json.loads((ROOT / path).read_text(encoding='utf-8')):
+        paths.update(question['images'])
 for chapter in manifest['chapters']:
     path = 'chapters/' + chapter['file']
     paths.add(path)
@@ -19,7 +25,7 @@ files = []
 for path in sorted(paths):
     data = (ROOT / path).read_bytes()
     # GitHub Pages serves Git's LF text, even from a Windows CRLF checkout.
-    if Path(path).suffix in {'.html', '.md', '.js', '.json'}:
+    if Path(path).suffix in {'.html', '.md', '.js', '.json', '.css'}:
         data = data.replace(b'\r\n', b'\n')
     files.append({'url': './' + path, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)})
 version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text()).group(1)
