@@ -16,3 +16,5 @@
 
 /* Respect the existing Small/Medium/Large preference for question copy. */
 .mcq-stem{font-size:calc(var(--body) * 1.4166667)}.mcq-option{font-size:calc(var(--body) * 1.1666667)}.mcq-explanation{font-size:calc(var(--body) * 1.25)}.mcq-explanation h3,.mcq-result,.mcq-flag-row>.mcq-mixed{font-size:calc(var(--body) * 1.1666667)}
+
+.mcq-filters{flex-wrap:wrap}.mcq-result{display:flex;align-items:center;gap:8px}.mcq-answer-undo{border:0;background:transparent;padding:2px 4px;min-height:28px;font:500 12px/1.4 var(--ui);text-decoration:underline;text-underline-offset:2px;color:var(--accent)}.mcq-law-note{border-inline-start:2px solid var(--exam);padding-inline-start:8px}.mcq-topic-fallback{color:var(--accent)}

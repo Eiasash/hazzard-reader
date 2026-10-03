@@ -131,8 +131,9 @@
   },
   "99": {
     "title": "Diabetes Mellitus",
-    "past": 0,
-    "practice": 0
+    "past": 52,
+    "practice": 23,
+    "topicFallback": 22
   },
   "101": {
     "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
@@ -146,18 +147,21 @@
   },
   "104": {
     "title": "Infection and Appropriate Antimicrobial Selection",
-    "past": 0,
-    "practice": 0
+    "past": 109,
+    "practice": 39,
+    "topicFallback": 27
   },
   "105": {
     "title": "Bacterial Pneumonia and Tuberculosis",
-    "past": 0,
-    "practice": 0
+    "past": 109,
+    "practice": 39,
+    "topicFallback": 27
   },
   "108": {
     "title": "Influenza, COVID-19, and Other Respiratory Viruses",
-    "past": 0,
-    "practice": 0
+    "past": 109,
+    "practice": 39,
+    "topicFallback": 27
   },
   "law": {
     "title": "Israeli law",

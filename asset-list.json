@@ -1,5 +1,5 @@
 {
-  "version": "v45-r1",
+  "version": "v46",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "e0db65bd737813401938081e54d0a4082c8a1b82772a7a5b2c5fb71d5f9e9e03",
-      "bytes": 6112
+      "sha256": "0f559ec2a208aa48d2883d345f5690a8d2fa4ccd9248921627816bc4f249c531",
+      "bytes": 6496
     },
     {
       "url": "./data/mcq/101.json",
@@ -1553,18 +1553,18 @@
     },
     {
       "url": "./data/mcq/104.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "bytes": 3
+      "sha256": "5ece63728e19f043a7926ee4affc4daf6c4709d547b54b91d291baf46e779276",
+      "bytes": 415572
     },
     {
       "url": "./data/mcq/105.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "bytes": 3
+      "sha256": "5ece63728e19f043a7926ee4affc4daf6c4709d547b54b91d291baf46e779276",
+      "bytes": 415572
     },
     {
       "url": "./data/mcq/108.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "bytes": 3
+      "sha256": "5ece63728e19f043a7926ee4affc4daf6c4709d547b54b91d291baf46e779276",
+      "bytes": 415572
     },
     {
       "url": "./data/mcq/42.json",
@@ -1698,13 +1698,18 @@
     },
     {
       "url": "./data/mcq/99.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "bytes": 3
+      "sha256": "2fb51f48d700f5b0e5dfa9f198c7fbe2ab8256af9b326002acf0e91c27f811cc",
+      "bytes": 164582
     },
     {
       "url": "./data/mcq/all.json",
       "sha256": "c8c9cb02b509b6d54b927b6114e00942d5ea2b7d7edf05c3ab044ce08fb62ddb",
       "bytes": 8435169
+    },
+    {
+      "url": "./data/mcq/collections.json",
+      "sha256": "1687f8c1dff74fa916e05af23e86b8bf262ce9689b971bae96437e8697f08f86",
+      "bytes": 1506
     },
     {
       "url": "./data/mcq/images/05db33ae731b637ecfad.png",
@@ -2098,8 +2103,8 @@
     },
     {
       "url": "./data/mcq/index.json",
-      "sha256": "c7c036488d9a673c85c13e4f588e66bbfaa55e5b2eb940fa7874ee7e7a897b85",
-      "bytes": 3049
+      "sha256": "e95fdb0413a2457f62b56f218c49f34b87a56f3822628e46e37cf446fc12cef9",
+      "bytes": 3160
     },
     {
       "url": "./data/mcq/law.json",
@@ -2113,8 +2118,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "a3f31361422643510557f22306d7d5f402671998335aea25231069d24648dd77",
-      "bytes": 3247969
+      "sha256": "b9ea18ab631238459ea90cc2c78e1ae41dc88b860804daaf99129c9f4f51d110",
+      "bytes": 3248070
     },
     {
       "url": "./js/marked.min.js",
@@ -2123,13 +2128,13 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "5a8b627431aeeb3793cd734c1667b4115fe9c84c123ed6a61ae82cef4e45b77f",
-      "bytes": 28137
+      "sha256": "dc9bd65bad0b4a6773dcec7d508d650486fd5da27d5c1476983bcf2ec8391adb",
+      "bytes": 32000
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "d4dc58dde5fd26e69553da252b1b13384e5f649edd20711e83c0932209c19b3c",
-      "bytes": 8704
+      "sha256": "380fc68ca2126ad925977b1214a878dcb7c29a9c28601fdf52dcbec0be1a68f8",
+      "bytes": 8801
     },
     {
       "url": "./manifest.json",
