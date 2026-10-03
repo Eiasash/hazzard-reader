@@ -1,5 +1,5 @@
 {
-  "version": "v44",
+  "version": "v45",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "fa2a2d3ab952a01e75de7699df06e805eedd4949e68a3fa8fdfe3c96e68b6315",
-      "bytes": 5145
+      "sha256": "679eef30a4c84dbf02423786dd0385603c6680a6e211a4c1cd38c25d72f0d148",
+      "bytes": 5783
     },
     {
       "url": "./data/mcq/101.json",
@@ -1573,8 +1573,8 @@
     },
     {
       "url": "./data/mcq/43.json",
-      "sha256": "d2bcfa8097d2ecb057599ea4e93a527de2331cd189ee9cdece279d9eb1598b92",
-      "bytes": 214056
+      "sha256": "de2c51dac999d41a7c5997320f1e9664eb5e790baf5a130729b734f17ed9fc16",
+      "bytes": 214057
     },
     {
       "url": "./data/mcq/44.json",
@@ -1588,13 +1588,13 @@
     },
     {
       "url": "./data/mcq/46.json",
-      "sha256": "b4e3db118cfb6503cd769d6561c91a4f9ea3097fc186b94b03f005c51299813f",
-      "bytes": 108847
+      "sha256": "26db70baa16121edb5b9b1e45ae2cbc0a2189abc4f846f54574c358dbec69588",
+      "bytes": 108861
     },
     {
       "url": "./data/mcq/47.json",
-      "sha256": "f4d902b0727f36a68922855a981470cf6120fbb0c6ed094e73bcc805df6c22a6",
-      "bytes": 215009
+      "sha256": "811c4936a1ccffd195bf86612f9e835057f7a02f0a2810b57938590b1f67e82e",
+      "bytes": 215010
     },
     {
       "url": "./data/mcq/51.json",
@@ -1608,8 +1608,8 @@
     },
     {
       "url": "./data/mcq/55.json",
-      "sha256": "4035d390e5f2e4df9e77aab7e52b4a4d1130df0bbb61ddbeed61cc777fd9d38b",
-      "bytes": 217415
+      "sha256": "ec2b52cc925289cb95b5381a7da02943f0890445ded373ba1b7c5c2c19c21170",
+      "bytes": 217420
     },
     {
       "url": "./data/mcq/57.json",
@@ -1618,23 +1618,23 @@
     },
     {
       "url": "./data/mcq/58.json",
-      "sha256": "00b65a76589b5df7f9bcced95b31b756f72cccbea53ee116c80d377d98a61000",
-      "bytes": 400463
+      "sha256": "dcf195e21a475246360c2a97004bbcff93ae4a73cdc8fce43dc3d72f60f520b1",
+      "bytes": 400468
     },
     {
       "url": "./data/mcq/59.json",
-      "sha256": "ecdabe55e32e8f2104e5de10341385ae6797b69e35e6d81be2bec7fa6fe20df7",
-      "bytes": 438632
+      "sha256": "2a14ac6b186e1d8d05397c7eb8ec0bf362587b3bfded24c621ff69277c7ebeac",
+      "bytes": 438633
     },
     {
       "url": "./data/mcq/60.json",
-      "sha256": "4200ff1e6991adb93862b721fdf3c4cae390622860302ba5fcf6a1a726e68881",
-      "bytes": 70692
+      "sha256": "b51479694d4b35b621cc7dbd426fdd9cb07c9f0ea971aabd039f87c332eaee4a",
+      "bytes": 70693
     },
     {
       "url": "./data/mcq/61.json",
-      "sha256": "6f0354b9d6ee3df33b3eae771bc5fc15ffc6b67dbfcce12e9d5310315d6aca21",
-      "bytes": 391660
+      "sha256": "f75d69e1223144ed899bb6310be92b67074d512888bceab9ca89a5af068ccf61",
+      "bytes": 391661
     },
     {
       "url": "./data/mcq/63.json",
@@ -1648,8 +1648,8 @@
     },
     {
       "url": "./data/mcq/68.json",
-      "sha256": "d02ced5ac963a0bc95e6c6642656c9340eedaa90e4580e2469e967e38d134e88",
-      "bytes": 210537
+      "sha256": "714937f0a2e8398fe18ed82cabe35d5fa7099f92d7bbe8d4150a1026ec696ab3",
+      "bytes": 210539
     },
     {
       "url": "./data/mcq/75.json",
@@ -1663,8 +1663,8 @@
     },
     {
       "url": "./data/mcq/77.json",
-      "sha256": "1a772dbba25ccadc4a17391efd099fec796359ac6de8bac02a673ec32b407f0c",
-      "bytes": 144285
+      "sha256": "d0ce24b89fc32bc6dd8f20c691c97999497cd3213c569af7eb591fb8e1ca7a9f",
+      "bytes": 144287
     },
     {
       "url": "./data/mcq/81.json",
@@ -1673,8 +1673,8 @@
     },
     {
       "url": "./data/mcq/83.json",
-      "sha256": "5997acd0c4e850c99ae6ecde85dba418dca3464fa0a52a4d4a6ffd7fcf91e70d",
-      "bytes": 145220
+      "sha256": "d586defacbbd3c5530d294c108e29c20b2b995a713199b8e94c6ba4949a0cb4c",
+      "bytes": 145221
     },
     {
       "url": "./data/mcq/87.json",
@@ -1683,8 +1683,8 @@
     },
     {
       "url": "./data/mcq/88.json",
-      "sha256": "fbb4e7fecf6bad7038d5e57252dabc634068016395ff77f01ebce93e834cb50a",
-      "bytes": 212422
+      "sha256": "98a754aaa16e14d398ae9bb7ad809abe3e2a610814b22e8382ed941a61a66da4",
+      "bytes": 212423
     },
     {
       "url": "./data/mcq/97.json",
@@ -1703,8 +1703,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "1d8c8edc0cb053b0508aa83ba12004475b0ae20746cd2f8b65edbbe5a530f318",
-      "bytes": 8435176
+      "sha256": "c8c9cb02b509b6d54b927b6114e00942d5ea2b7d7edf05c3ab044ce08fb62ddb",
+      "bytes": 8435169
     },
     {
       "url": "./data/mcq/images/05db33ae731b637ecfad.png",
@@ -2098,13 +2098,13 @@
     },
     {
       "url": "./data/mcq/index.json",
-      "sha256": "9ee7141c0a30df370e45e43889006bbbd960d089cf2c12c1c5333ca345eba09e",
-      "bytes": 3048
+      "sha256": "c7c036488d9a673c85c13e4f588e66bbfaa55e5b2eb940fa7874ee7e7a897b85",
+      "bytes": 3049
     },
     {
       "url": "./data/mcq/law.json",
-      "sha256": "8e4f63be98a931e93acd097ddd37d680a080f5cc6f2952c64584805bb7ab9144",
-      "bytes": 64390
+      "sha256": "f5207422326db25d5fdb94af0310fdfad8ce5a1f244c561fcb6b8ce67f85b08a",
+      "bytes": 541125
     },
     {
       "url": "./data/mcq/topics.json",
@@ -2113,8 +2113,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "9083f1d705e972adb9919ce156ec97e2433d23429b16b99f3d22b204e595619b",
-      "bytes": 3247774
+      "sha256": "12079ee1c93a99d8d442d3dca082cdb748d08ecb4b0ef6a763be0b95eda670b4",
+      "bytes": 3247870
     },
     {
       "url": "./js/marked.min.js",
@@ -2123,13 +2123,13 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "c4606bdadb5e919c6c28a3de4c068105501e60df08bcd503c639bec4ade57cfe",
-      "bytes": 21658
+      "sha256": "5a8b627431aeeb3793cd734c1667b4115fe9c84c123ed6a61ae82cef4e45b77f",
+      "bytes": 28137
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "0acc33dfcdf5089e1ac4c02f8f484d4aad7fa52bc5d3a43b96c29d479450de9f",
-      "bytes": 8610
+      "sha256": "d4dc58dde5fd26e69553da252b1b13384e5f649edd20711e83c0932209c19b3c",
+      "bytes": 8704
     },
     {
       "url": "./manifest.json",
