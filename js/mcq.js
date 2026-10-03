@@ -32,7 +32,7 @@ window.HazzardMCQ = (() => {
     if (q.kind === 'practice') return 'Practice question · Hazzard-based';
     const match = /^(\d{4})(?:-([A-Za-z]+))?(?:-(Subspec|Basic))?$/.exec(q.t);
     if (!match) return 'Shlav A';
-    return 'Shlav A ' + match[1] + (match[2] ? ' (' + match[2] + ')' : '') + (match[3] === 'Subspec' ? ' · Subspecialty' : '');
+    return 'Shlav A ' + (match[2] ? match[2] + ' ' : '') + match[1] + (match[3] === 'Subspec' ? ' · Subspecialty' : match[3] === 'Basic' ? ' · Basic' : '');
   }
   function rich(value) {
     const box = document.createElement('div');
@@ -106,10 +106,10 @@ window.HazzardMCQ = (() => {
     function selection(name,value,choices,label){return '<label>'+label+'<select data-select="'+name+'">'+choices.map(([v,text])=>'<option value="'+escape(v)+'" '+(String(v)===value?'selected':'')+'>'+escape(text)+'</option>').join('')+'</select></label>';}
     function header(list){
       const title=bankMode?'Question bank':mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
-      let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+(!bankMode&&!mockMode?'<button data-mcq="notes" class="quiet">Study notes</button>':'')+'</div>';
+      let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+(!bankMode&&!mockMode?'<button data-mcq="notes" class="quiet">Study notes</button>':'')+'</div>';
       if(bankMode){
-        html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],['past','Shlav A past exams'],['practice','Hazzard practice'],['law','Israeli law / ethics']],'Source')+selection('topic',topic,[['all','All topics'],...topics.map((t,i)=>[String(i),t])],'Topic')+selection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+selection('level',level,[['all','All sittings'],['Basic','Basic'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Sitting')+selection('sort',sort,[['source','Source'],['topic','Topic']],'Sort by')+'</div>';
-        html+='<label class="mcq-missed-filter"><input type="checkbox" data-select="missed" '+(missedOnly?'checked':'')+'> Missed only</label><p class="meta">'+list.length+' matching questions · Israeli law uses the bank’s regulatory/ethics index.</p>';
+        html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],['past','Shlav A past exams'],['practice','Hazzard practice'],['law','Israeli law / ethics']],'Source')+selection('topic',topic,[['all','All topics'],...topics.map((t,i)=>[String(i),t])],'Topic')+selection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+selection('level',level,[['all','All sittings'],['Basic','Basic'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Sitting')+selection('sort',sort,[['source','Source'],['topic','Topic']],'Sort by')+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
+        html+='<p class="meta">'+list.length+' matching questions · Israeli law / ethics uses the bank’s combined regulatory index.</p>';
       }else if(!mockMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice','Practice']].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>';
       html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
       if(mockMode)html+='<button class="quiet" data-mcq="builder">Mock builder</button>';
@@ -127,7 +127,7 @@ window.HazzardMCQ = (() => {
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
       if(!q){content.innerHTML='<p>No questions match these filters.</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       const state=stateFor(q),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'];content.dataset.bankId=q.id;
-      content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(q.kind==='past'?'Past exam · '+escape(q.t):'Practice · Hazzard-based')+'</span>'+(bankMode||mockMode?'<p class="meta mcq-topic-label">'+escape(topics[q.topic]||'')+(q.chapter?' · Hazzard chapter '+escape(q.chapter):'')+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+rich(q.q)+'</div>'+
+      content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(q.kind==='past'?escape(sourceLabel(q)):'Practice · Hazzard-based')+'</span>'+(bankMode||mockMode?'<p class="meta mcq-topic-label">'+escape(topics[q.topic]||'')+(q.chapter?' · Hazzard chapter '+escape(q.chapter):'')+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+rich(q.q)+'</div>'+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+q.o.map((option,i)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(state.checked&&accepted.includes(i)?'✓':state.checked&&state.selected===i?'✕':letters[i]||String(i+1))+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(option)+'</span></button>').join('')+'</div>'+
         '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+(!mockMode&&position>=list.length-1?'disabled':'')+'>Next</button></div>'+
@@ -163,12 +163,13 @@ window.HazzardMCQ = (() => {
     function commit(q,state){state.at=Date.now();answers.set(q.id,state);pending.set(q.id,state);if(missedOnly)retryAnswers.set(q.id,state);if(mockMode){paper.answers[q.id]=state;paperPending=true;}save();}
     host.addEventListener('change',event=>{const name=event.target.dataset.select;if(!name)return;const value=event.target.value;
       if(name==='mock-year'||name==='mock-level'){settings[name==='mock-year'?'year':'level']=value;save();render();return;}
-      if(name==='source'){filter=value;year='all';level='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;else if(name==='missed'){missedOnly=event.target.checked;missedIds=null;retryAnswers.clear();}
+      if(name==='source'){filter=value;year='all';level='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;
       position=0;render();host.scrollTop=0;
     });
     host.addEventListener('click',event=>{
       const button=event.target.closest('button');if(!button||!host.contains(button)||button.disabled)return;const action=button.dataset.mcq;
       if(action==='notes'){controller.notes();return;}if(action==='load'){load();return;}if(action==='save'){save();render();return;}
+      if(action==='missed'){missedOnly=!missedOnly;missedIds=null;retryAnswers.clear();position=0;render();host.querySelector('[data-mcq="missed"]')?.focus({preventScroll:true});return;}
       if(button.dataset.length){settings.length=Number(button.dataset.length);save();render();return;}
       if(button.dataset.source){const id=button.dataset.source;settings.sources=settings.sources.includes(id)?settings.sources.filter(s=>s!==id):[...settings.sources,id];save();render();return;}
       if(action==='start'){newPaper();render();host.scrollTop=0;return;}

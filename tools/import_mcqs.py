@@ -151,6 +151,8 @@ def main():
     (destination / 'import-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     if any(sha256(path.read_bytes()).hexdigest() != hashes[name] for name, path in files.items()):
         raise RuntimeError('Source changed during import; rerun against a stable snapshot')
+    from build_law_mcqs import build
+    build(ROOT)
     print(json.dumps({k: report[k] for k in ('total_source', 'included', 'excluded_counts')}, indent=2))
 
 
