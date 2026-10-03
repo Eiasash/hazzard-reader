@@ -69,6 +69,7 @@ window.HazzardStorage = (() => {
         tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error||Error('Automatic snapshot could not be written'));tx.onerror=()=>{};
       });
       status.snapshotAt=at;status.error='';notify();
+      dispatchEvent(new Event('hazzard-snapshot-saved'));
     }).catch(error=>{if(queuedPayload===payload)queuedPayload=null;status.error=error.message||'Automatic local snapshot failed.';notify();});
     return tail;
   }

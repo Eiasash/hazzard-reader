@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v53-r1', RELEASED = '04.10.2026';
+  const VERSION = 'v54', RELEASED = '04.10.2026';
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
@@ -14,6 +14,7 @@
       else if (waiting()) { state = 'waiting'; text = saveError ? 'Save failed - tap to retry' : 'Update ready - tap to reload'; }
       else if (registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
       else { state = complete ? 'ready' : 'downloading'; text = VERSION + (complete ? ' - offline ready' : ' - offline copy incomplete'); }
+      chip.dataset.cloud=window.HazzardCloud?.tick?'synced':'';
       chip.dataset.status = state;
       if (chip.textContent !== text) chip.textContent = text;
       button.title = saveError || text;
@@ -25,6 +26,7 @@
       const protection = storage?.persisted === true ? 'protected' : storage?.persisted === false ? 'not protected' : 'protection checking';
       const summary = document.getElementById('appearanceSummary');
       summary.textContent = VERSION + ' - ' + (navigator.onLine ? 'online' : 'offline') + ' - ' + (complete ? 'offline ready' : 'offline incomplete') + ' - ' + protection + ' - ' + (storage?.error ? 'snapshot error' : 'snapshot ' + time);
+      summary.textContent+=' - '+(window.HazzardCloud?.label()||'Cloud: not signed in');
       summary.title = summary.textContent + ' — tap for details';
       // Home already observes this element; keep one status source for both views.
       if (legacy.textContent !== text) legacy.textContent = text;
@@ -70,6 +72,7 @@
     addEventListener('online', requestStatus);
     addEventListener('offline', requestStatus);
     addEventListener('hazzard-storage-status', render);
+    addEventListener('hazzard-cloud-status', render);
     document.addEventListener('visibilitychange', () => { if (!document.hidden) requestStatus(); });
     if (sw) {
       sw.addEventListener('message', event => {
