@@ -33303,8 +33303,8 @@ try{
     if(counts)button.querySelector('small').textContent=counts.past+' past exams · '+counts.practice+' practice';
   }
 }catch{}
-if(/^\d+s$/.test(cid)||['mock','bank'].includes(cid)){
-  mcq=HazzardMCQ.mount({chapter:['mock','bank'].includes(cid)?cid:cid.slice(0,-1),viewport:$('#readerViewport'),readerScroll,
+if(/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
+  mcq=HazzardMCQ.mount({chapter:cid==='laws'?'law':['mock','bank'].includes(cid)?cid:cid.slice(0,-1),viewport:$('#readerViewport'),readerScroll,
     onShow:()=>{setMarking(false);chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;$('#jumpEnds').classList.remove('is-visible')},
     onNotes:()=>{},openImage:openZoom});
   const li=document.createElement('li'),button=document.createElement('button');button.textContent='Exam questions';button.onclick=()=>returnReading(()=>mcq.show());li.append(button);$('[data-pane="contents"] .rows').prepend(li);
@@ -33315,7 +33315,7 @@ if(/^\d+s$/.test(cid)||['mock','bank'].includes(cid)){
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v43',label=document.getElementById('offlineReady');
+  const version='v44',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
