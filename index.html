@@ -33318,7 +33318,7 @@ if(/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 
 <script>
 if('serviceWorker' in navigator){
-  const version='v47',label=document.getElementById('offlineReady');
+  const version='v48',label=document.getElementById('offlineReady');
   const requestStatus=()=>{label.hidden=true;navigator.serviceWorker.controller?.postMessage({type:'HAZZARD_OFFLINE_STATUS'})};
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.source!==navigator.serviceWorker.controller||event.data?.type!=='HAZZARD_OFFLINE_STATUS'||event.data.version!==version)return;
