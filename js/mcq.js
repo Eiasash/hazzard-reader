@@ -285,7 +285,7 @@ window.HazzardMCQ = (() => {
       if(button.dataset.filter){filter=button.dataset.filter;position=0;render();host.scrollTop=0;return;}
       const list=visible();
       if(action==='review'){paper.finished=false;position=0;save();render();host.scrollTop=0;return;}
-      if(action==='retry-missed'){const missed=list.filter(q=>{const s=stateFor(q);return !s.checked||!q.accepted.includes(s.selected)});paper.ids=missed.map(q=>q.id);paper.answers={};paper.finished=false;paper.retry=true;position=0;save();render();host.scrollTop=0;return;}
+      if(action==='retry-missed'){const missed=list.filter(q=>{const s=stateFor(q);return !s.checked||!q.accepted.includes(s.selected)});paper.ids=[...new Set(missed.map(q=>q.id))];paper.answers={};paper.finished=false;paper.retry=true;position=0;save();render();host.scrollTop=0;return;}
       const q=list[position];if(!q)return;if(button.dataset.image!==undefined){openImage(button.querySelector('img'));return;}
       if(action==='flag'){
         if(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden){location.assign('?chapter=bank#flags');return;}
