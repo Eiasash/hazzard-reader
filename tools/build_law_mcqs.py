@@ -46,7 +46,7 @@ def build(root=ROOT):
                       if statute in ' '.join(question.get(field, '').split())]
             if fields:
                 matches.append({'statute': statute, 'fields': fields})
-        if matches or question['law']:
+        if matches or question['law'] or question.get('israeliSystem'):
             matched.append(question)
             evidence.append({'id': question['id'], 'sourceIndex': question['sourceIndex'],
                              'kind': question['kind'], 'topic': question['topic'],
@@ -56,7 +56,7 @@ def build(root=ROOT):
     source_counts = Counter(q['kind'] for q in bank if q['law'])
     topic_counts = {str(t): {'name': topics[t], **{kind: sum(q['topic'] == t and q['kind'] == kind for q in bank) for kind in ('past','practice')}} for t in LAW_TOPICS}
     report = {'law_block_sha256': sha256(block_path.read_bytes()).hexdigest(),
-              'rule': 'Primary topic 30–34 OR full covered statute name in q/ref; no regulatory.json.',
+              'rule': 'Primary topic 30–34 OR full covered statute name in q/ref OR official Israeli law/system source; no regulatory.json.',
               'statutes': statutes, 'past': counts['past'], 'practice': counts['practice'],
               'source_past': source_counts['past'], 'source_practice': source_counts['practice'],
               'topics': topic_counts, 'exact_name_matches': sum(bool(x['matches']) for x in evidence),

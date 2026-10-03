@@ -132,6 +132,10 @@ def main():
         all_items.append(item)
         if ch in bank:
             bank[ch].append(item)
+    from apply_official_exams import apply
+    all_items, official_excluded = apply(all_items, ROOT)
+    excluded.extend(official_excluded)
+    bank = {ch: [q for q in all_items if q['chapter'] == ch] for ch in chapters}
     index = {}
     for ch in sorted(chapters, key=int):
         items = bank[ch]
