@@ -1,5 +1,5 @@
 {
-  "version": "v45",
+  "version": "v45-r1",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "679eef30a4c84dbf02423786dd0385603c6680a6e211a4c1cd38c25d72f0d148",
-      "bytes": 5783
+      "sha256": "e0db65bd737813401938081e54d0a4082c8a1b82772a7a5b2c5fb71d5f9e9e03",
+      "bytes": 6112
     },
     {
       "url": "./data/mcq/101.json",
@@ -2113,8 +2113,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "12079ee1c93a99d8d442d3dca082cdb748d08ecb4b0ef6a763be0b95eda670b4",
-      "bytes": 3247870
+      "sha256": "a3f31361422643510557f22306d7d5f402671998335aea25231069d24648dd77",
+      "bytes": 3247969
     },
     {
       "url": "./js/marked.min.js",
