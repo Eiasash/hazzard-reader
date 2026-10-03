@@ -1988,8 +1988,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "8d6ab6f15cd61d98f69a40d43cee95be60790334a3cffea91930804bb16b7805",
-      "bytes": 36477
+      "sha256": "bccb726298cada5f24ff0d59fc86e4d8daaa7b3aadb1afea0d847f4834aa2c83",
+      "bytes": 36491
     },
     {
       "url": "./js/reader-status.js",
