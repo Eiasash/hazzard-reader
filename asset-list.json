@@ -1,5 +1,5 @@
 {
-  "version": "v42",
+  "version": "v43",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -2108,8 +2108,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "578b2bd5bd9501f4bf31d268eb2e43f5dbd0b307240e683eed207fcb5b1cc10f",
-      "bytes": 3249664
+      "sha256": "d80c7d8891da46f57930c5460ceedb1bdd34416e7909d05b6ebb8436fa2ba5eb",
+      "bytes": 3247748
     },
     {
       "url": "./js/marked.min.js",
@@ -2118,8 +2118,13 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "de2cef4ea46d96c0f7cdce076f4037b24f4d1abf0f3a01cfa929b20900ea0802",
-      "bytes": 21957
+      "sha256": "42da5427856824f615a74bf73e749c8df869fe29f2ff1ab2c03a28a26af6dce0",
+      "bytes": 21430
+    },
+    {
+      "url": "./js/reader-storage.js",
+      "sha256": "0acc33dfcdf5089e1ac4c02f8f484d4aad7fa52bc5d3a43b96c29d479450de9f",
+      "bytes": 8610
     },
     {
       "url": "./manifest.json",
