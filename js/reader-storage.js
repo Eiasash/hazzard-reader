@@ -3,7 +3,7 @@
 window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
-  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,'hazzard-last-backup-v1']);
+  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,'hazzard-last-backup-v1']);
   const owns=key=>typeof key==='string'&&(keys.has(key)||key.startsWith('stage-a-highlights-v1:'));
   const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
   const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
@@ -26,6 +26,7 @@ window.HazzardStorage = (() => {
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
+  else if(key===HazzardMCQ.FLAGS_KEY)valid=HazzardMCQ.validFlags(value);
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&['yellow','green','blue'].includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
