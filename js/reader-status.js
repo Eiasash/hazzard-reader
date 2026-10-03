@@ -1,11 +1,11 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v54', RELEASED = '04.10.2026';
+  const VERSION = 'v54-r1', RELEASED = '04.10.2026';
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
     const sw = navigator.serviceWorker;
-    let registration, complete = false, progress = null, newerController = false, applying = false, saveError = '';
+    let registration, complete = false, progress = null, newerController = false, applying = false, saveError = '', pauseTimer;
     const waiting = () => registration?.waiting || newerController;
     function render() {
       let state, text;
@@ -14,7 +14,13 @@
       else if (waiting()) { state = 'waiting'; text = saveError ? 'Save failed - tap to retry' : 'Update ready - tap to reload'; }
       else if (registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
       else { state = complete ? 'ready' : 'downloading'; text = VERSION + (complete ? ' - offline ready' : ' - offline copy incomplete'); }
-      chip.dataset.cloud=window.HazzardCloud?.tick?'synced':'';
+      const cloud = window.HazzardCloud;
+      if (cloud?.paused && !['waiting', 'incomplete', 'offline'].includes(state)) { state = 'paused'; text = 'Cloud paused'; }
+      // One deadline refresh; sync scheduling and update-on-tap stay independent.
+      clearTimeout(pauseTimer);
+      const delay = cloud?.pauseAt - Date.now();
+      if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
+      chip.dataset.cloud=state !== 'paused' && cloud?.tick?'synced':'';
       chip.dataset.status = state;
       if (chip.textContent !== text) chip.textContent = text;
       button.title = saveError || text;
