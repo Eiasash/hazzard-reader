@@ -1759,7 +1759,17 @@
       "fromBasic": false,
       "duplicates": [
         304
-      ]
+      ],
+      "images": [
+        "data/mcq/images/cb304736ad8827905bd5.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 304,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_Dec21_q40.png"
+        ]
+      }
     },
     "143": {
       "id": "mcq-a7ce378a3066d828eaecb394",
@@ -2653,7 +2663,17 @@
       "fromBasic": false,
       "duplicates": [
         2471
-      ]
+      ],
+      "images": [
+        "data/mcq/images/6061dda9b4d47f6fb51f.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 2471,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q4.png"
+        ]
+      }
     },
     "3144": {
       "id": "mcq-34851c7f12c60ea021445215",
@@ -2777,7 +2797,17 @@
       "fromBasic": false,
       "duplicates": [
         3113
-      ]
+      ],
+      "images": [
+        "data/mcq/images/e582922a0af696e8974f.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 3113,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q13.png"
+        ]
+      }
     },
     "3153": {
       "id": "mcq-bec9f7bc700b6732cb9a08cd",
@@ -2859,7 +2889,17 @@
       "fromBasic": false,
       "duplicates": [
         2482
-      ]
+      ],
+      "images": [
+        "data/mcq/images/0a9740e814bf27942dc7.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 2482,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q19.png"
+        ]
+      }
     },
     "3158": {
       "id": "mcq-9ede49a4be37835024268ced",
@@ -2955,7 +2995,17 @@
       "fromBasic": false,
       "duplicates": [
         2486
-      ]
+      ],
+      "images": [
+        "data/mcq/images/86249811912cda54ab16.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 2486,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q26.png"
+        ]
+      }
     },
     "3164": {
       "id": "mcq-d197b64bdd5cccc4cb77d9b4",
@@ -3109,7 +3159,17 @@
       "fromBasic": false,
       "duplicates": [
         2497
-      ]
+      ],
+      "images": [
+        "data/mcq/images/a741abc09513ed08a0bc.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 2497,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q37.png"
+        ]
+      }
     },
     "3175": {
       "id": "mcq-e2a9158c86980c885a07c5d2",
@@ -3123,7 +3183,17 @@
       "fromBasic": false,
       "duplicates": [
         3115
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2447fa7b7c6ea1e3c470.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 3115,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q38.png"
+        ]
+      }
     },
     "3176": {
       "id": "mcq-dcd1c4f9584716e2e478c212",
@@ -3165,7 +3235,17 @@
       "fromBasic": false,
       "duplicates": [
         2500
-      ]
+      ],
+      "images": [
+        "data/mcq/images/dbf28bc657ff74dd2edf.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 2500,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q41.png"
+        ]
+      }
     },
     "3179": {
       "id": "mcq-663fcbfa80f7875e874f04c2",
@@ -3444,7 +3524,17 @@
       "fromBasic": false,
       "duplicates": [
         3117
-      ]
+      ],
+      "images": [
+        "data/mcq/images/0f7a2441573d07903115.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 3117,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q61.png"
+        ]
+      }
     },
     "3197": {
       "id": "mcq-f121837cfb50e262575eef98",
@@ -3891,7 +3981,17 @@
       "fromBasic": false,
       "duplicates": [
         2544
-      ]
+      ],
+      "images": [
+        "data/mcq/images/5f266767583508577fd9.png"
+      ],
+      "imageSource": {
+        "duplicateBankId": 2544,
+        "match": "Same printed sitting/question in v47 catalog; existing local image reused",
+        "upstreamReferences": [
+          "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_2022_jun_basic_q93.png"
+        ]
+      }
     },
     "3226": {
       "id": "mcq-39daaaaa01ff78a8a4d73bcf",
@@ -10906,6 +11006,106 @@
       "duplicates": [
         4396
       ]
+    },
+    "4453": {
+      "id": "mcq-4bd44c1b63181235607f0841",
+      "sitting": "2026-Jun",
+      "number": 7,
+      "type": "Hazzard",
+      "reference": "Hazzard 8e · ch. 46 · p. 695",
+      "source": "מראה מקום גריאטריה 2026.pdf",
+      "edition": 8,
+      "paperPage": null,
+      "fromBasic": false,
+      "duplicates": [
+        4303
+      ],
+      "images": [
+        "data/mcq/images/geri_2026_q7.webp"
+      ],
+      "imageSource": {
+        "file": "תמונות שלב א גריאטריה 2026.pdf",
+        "page": 1,
+        "picture": 1,
+        "question": 7,
+        "extractedPngSha256": "07ce98c987e4defc83608eb178c9bcc658713db7f8d321f9ecbb3d3aea9641b7",
+        "encoding": "Lossless WebP; original dimensions and pixels preserved"
+      }
+    },
+    "4468": {
+      "id": "mcq-20ec42c28a8afefb8a0ba9b1",
+      "sitting": "2026-Jun",
+      "number": 22,
+      "type": "Hazzard",
+      "reference": "Hazzard 8e · ch. 107 · p. 1725",
+      "source": "מראה מקום גריאטריה 2026.pdf",
+      "edition": 8,
+      "paperPage": null,
+      "fromBasic": false,
+      "duplicates": [
+        4318
+      ],
+      "images": [
+        "data/mcq/images/geri_2026_q22.webp"
+      ],
+      "imageSource": {
+        "file": "תמונות שלב א גריאטריה 2026.pdf",
+        "page": 2,
+        "picture": 2,
+        "question": 22,
+        "extractedPngSha256": "435c8b9a4e8b8964147231d8dc26e9231e908568ea22d120832866b7d6b43f5e",
+        "encoding": "Lossless WebP; original dimensions and pixels preserved"
+      }
+    },
+    "4510": {
+      "id": "mcq-ec5cbb9f7b28b3e7733522d9",
+      "sitting": "2026-Jun",
+      "number": 64,
+      "type": "Hazzard",
+      "reference": "Hazzard 8e · ch. 47 · pp. 701–702 · Table 47-3",
+      "source": "מראה מקום גריאטריה 2026.pdf",
+      "edition": 8,
+      "paperPage": null,
+      "fromBasic": false,
+      "duplicates": [
+        4360
+      ],
+      "images": [
+        "data/mcq/images/geri_2026_q64.webp"
+      ],
+      "imageSource": {
+        "file": "תמונות שלב א גריאטריה 2026.pdf",
+        "page": 3,
+        "picture": 3,
+        "question": 64,
+        "extractedPngSha256": "36940ff4c8880cc1bbf70d143d02b9d945dfc9157e8d1d0ee679fd184933e1d6",
+        "encoding": "Lossless WebP; original dimensions and pixels preserved"
+      }
+    },
+    "4538": {
+      "id": "mcq-5323c51583402673a5d61738",
+      "sitting": "2026-Jun",
+      "number": 92,
+      "type": "Other",
+      "reference": "FIM",
+      "source": "מראה מקום גריאטריה 2026.pdf",
+      "edition": 8,
+      "paperPage": null,
+      "fromBasic": false,
+      "duplicates": [
+        4388
+      ],
+      "images": [
+        "data/mcq/images/geri_2026_q92.webp"
+      ],
+      "imageSource": {
+        "file": "תמונות שלב א גריאטריה 2026.pdf",
+        "page": 4,
+        "picture": 4,
+        "question": 92,
+        "extractedPngSha256": "7b384b84a388506e3360a132382b3d49f4702ddd16122b4abd049431b930271a",
+        "encoding": "Lossless WebP; original dimensions and pixels preserved"
+      }
     }
   }
 }

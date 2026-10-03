@@ -27,6 +27,8 @@ def apply(items, root=ROOT):
             if q['id'] not in {row['id'], row.get('uniqueId')}:
                 raise ValueError(f'Question {key} changed since its official-paper match; rematch before importing')
             seen.add(key)
+            if row.get('images'):
+                q['images'] = list(row['images'])
             q.update(t=row['sitting'] + '-Subspec', examNumber=row['number'],
                      sourceType=row['type'], ref=row['reference'],
                      referenceSource='IMA ' + row['sitting'] + f' reference list, Q{row["number"]}',
@@ -76,7 +78,8 @@ if __name__ == '__main__':
     (data / 'index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     report = json.loads((data / 'import-report.json').read_text(encoding='utf-8'))
     report.update(included=len(items), sources=dict(Counter(q['t'] for q in items)), source_types=dict(Counter(q['sourceType'] for q in items)))
-    report['excluded'] = list({x['index']:x for x in [*report['excluded'],*excluded]}.values())
+    included = {q['sourceIndex'] for q in items}
+    report['excluded'] = [x for x in {x['index']:x for x in [*report['excluded'],*excluded]}.values() if x['index'] not in included]
     report['excluded_counts'] = dict(Counter(q['reason'] for q in report['excluded']))
     report['chapters'] = index
     report['topics'] = {t: {**v, **{kind: sum(q['topic'] == int(t) and q['kind'] == kind for q in items) for kind in ('past','practice')}} for t,v in report['topics'].items()}

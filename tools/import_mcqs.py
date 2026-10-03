@@ -64,6 +64,10 @@ def main():
     destination = ROOT / 'data' / 'mcq'
     images = destination / 'images'
     images.mkdir(parents=True, exist_ok=True)
+    catalog = read(destination / 'exam-catalog.json')['records']
+    local_images = {ref for row in catalog.values() for ref in row.get('images', [])}
+    def refs_for(index, question):
+        return catalog.get(str(index), {}).get('images') or image_refs(question)
     excluded, candidates = [], []
     for i, q in enumerate(questions):
         kind = category(q)
@@ -72,6 +76,8 @@ def main():
             reason = 'other-source-tag'
         elif broken(q):
             reason = 'broken'
+        elif kind == 'past' and str(i) not in catalog:
+            reason = 'basic-only-or-duplicate'
         else:
             candidates.append((i, q, ch, kind))
             continue
@@ -84,7 +90,14 @@ def main():
             return ref, None, 'unsupported image format'
         target = images / (sha256(ref.encode()).hexdigest()[:20] + suffix)
         try:
-            if target.exists():
+            if ref in local_images:
+                local = (ROOT / ref).resolve()
+                if not local.is_relative_to(images.resolve()):
+                    raise ValueError('Catalog image outside reader image directory')
+                with Image.open(local) as image:
+                    image.verify()
+                return ref, local.relative_to(ROOT).as_posix(), None
+            elif target.exists():
                 data = target.read_bytes()
             elif parsed.scheme in {'http', 'https'}:
                 with urlopen(Request(ref, headers={'User-Agent': 'Hazzard-reader-import/41'}), timeout=30) as response:
@@ -104,13 +117,13 @@ def main():
         except Exception as error:
             return ref, None, type(error).__name__ + ': ' + str(error)
 
-    refs = sorted({r for _, q, _, _ in candidates for r in image_refs(q)})
+    refs = sorted({r for i, q, _, _ in candidates for r in refs_for(i, q)})
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = dict((ref, (path, error)) for ref, path, error in pool.map(copy_image, refs))
     bank = {ch: [] for ch in chapters}
     all_items = []
     for i, q, ch, kind in candidates:
-        refs = image_refs(q)
+        refs = refs_for(i, q)
         missing = [r for r in refs if not results[r][0]]
         if missing or (q.get('imgDep') and not refs):
             excluded.append({'index': i, 'reason': 'missing-image', 'images': missing})
