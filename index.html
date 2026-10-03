@@ -437,6 +437,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="0"]::before{background:var(--hl-pink);border-color:var(--stop);border-width:2px}
 /* v52: one control row, independent of reading size and mobile text autosizing. */
 #panel[data-current-pane="tools"]{--fs:1;--body:13px;--small:12px;--label:13px;--tap:40px;max-block-size:calc(var(--vv-height) * .25);padding:10px 12px;font:13px/18px var(--ui);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#panel[data-current-pane="tools"]:has(#appearanceStatus[open]){max-block-size:calc(var(--vv-height) * .7)}
 #panel[data-current-pane="tools"] *{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 #panel[data-current-pane="tools"] .dialog-head{flex:none;height:36px;margin:0 0 6px}
 #panel[data-current-pane="tools"] #panelTitle{font:600 14px/18px var(--ui)}
@@ -448,6 +449,9 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel[data-current-pane="tools"] .swatch{width:20px;height:20px;margin:0;background:var(--current-mark);border:1px solid var(--control)}
 #panel[data-current-pane="tools"] #closePanel{min-width:36px;min-height:36px;min-block-size:36px;width:36px;height:36px;padding:0;font:24px/36px var(--ui)}
 #panel[data-current-pane="tools"] .meta{font:12px/16px var(--ui);margin:6px 0}
+#cloudControls input{display:block;width:100%;box-sizing:border-box;min-height:40px;margin:4px 0 8px;padding:8px;border:1px solid var(--control);border-radius:6px;background:var(--paper);color:var(--ink);font:16px var(--ui)}
+#panel #cloudControls button{display:block;width:100%;height:auto;min-height:40px;margin:4px 0;padding:8px;white-space:normal;text-align:left}
+#cloudControls [hidden]{display:none!important}
 #appearanceStatus{margin-top:4px;font:12px/16px var(--ui);color:var(--muted)}
 #appearanceStatus summary{display:block;min-width:0;min-height:40px;line-height:40px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;list-style:none}
 #appearanceStatus summary::-webkit-details-marker{display:none}
@@ -461,7 +465,9 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #appTabs{grid-template-columns:repeat(5,minmax(0,1fr)) 104px}
 #appTabs [data-tab="tools"]{gap:1px;font-size:10px}
 #panel #offlineReady{display:none}
-#readerStatusChip{display:block;font:500 10px/1.2 var(--ui);max-width:100px;color:var(--ink)}
+#readerStatusChip{display:block;position:relative;box-sizing:border-box;font:500 10px/1.2 var(--ui);max-width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
+#readerStatusChip[data-cloud="synced"]{padding-right:18px}
+#readerStatusChip[data-cloud="synced"]::after{content:"??";position:absolute;right:0;top:0;color:var(--accent);background:var(--paper);font-size:9px}
 #readerStatusChip::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:4px;background:var(--status-dot,#777)}
 [data-status="ready"]{--status-dot:#168448}
 [data-status="downloading"]{--status-dot:#b57500}
@@ -907,6 +913,23 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <p id="storageProtection" class="meta" role="status">Storage: checking…</p>
 <p id="releaseStatus" class="meta" role="status"></p>
 <p id="autoSaveStatus" class="meta" role="status"></p>
+<div id="cloudControls">
+<p id="cloudStatus" class="meta" role="status">Cloud: not signed in</p>
+<form id="cloudLogin">
+<label>Username<input id="cloudUsername" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" required></label>
+<label>Password<input id="cloudPassword" name="password" type="password" autocomplete="current-password" required></label>
+<button id="cloudSignIn" type="submit">Sign in</button>
+</form>
+<div id="cloudActions" hidden>
+<div id="cloudDecision" hidden><p id="cloudDecisionText" class="meta"></p><button id="cloudUseLocal">Use this phone's data</button><button id="cloudStartFresh">Start fresh</button></div>
+<button id="cloudSync">Sync now</button>
+<button id="cloudRestore" disabled>Restore from cloud</button>
+<button id="cloudPrevious" disabled>Restore previous cloud copy</button>
+<button id="cloudSignOut">Sign out</button>
+</div>
+<p id="cloudError" class="meta" role="status"></p>
+<p class="meta">Sync assumes one device writes at a time; the last upload wins.</p>
+</div>
 </details>
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
@@ -32063,6 +32086,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <script src="js/marked.min.js"></script>
 <script src="js/mcq.js"></script>
 <script src="js/reader-storage.js"></script>
+<script src="js/reader-cloud.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 let mcq=null;
 await HazzardStorage.ready;
@@ -32179,7 +32203,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v53-r1 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v54 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33302,13 +33326,61 @@ function mergeNotebookValue(key,current,incoming){
   if(key===MOCK_KEY)return {...mergeProgress(current,incoming),ids:[...new Set([...current.ids,...incoming.ids])]};
   return current; // Keep an existing timer, including an active session.
 }
+function captureNotebook(){
+  if(pendingHighlightChanges.size||mcq?.hasUnsaved)throw Error('Some changes are not saved yet. Keep this page open.');
+  const storage={};for(const key of Object.keys(localStorage).filter(isNotebookKey).sort())storage[key]=localStorage.getItem(key);
+  return {format:'hazzard-notebook-backup',version:1,exportedAt:new Date().toISOString(),storage};
+}
+function cloudHasData(){
+  // Preferences, auto-created positions, empty papers and the migration marker
+  // do not establish that a newly opened phone has a notebook worth uploading.
+  try{return Object.entries(captureNotebook().storage).some(([key,raw])=>{
+    const v=JSON.parse(raw),nonempty=o=>o&&Object.keys(o).length>0;
+    if(key.startsWith('stage-a-highlights-v1:'))return nonempty(v.marks)||nonempty(v.ranges)||v.history?.length;
+    if(key===BOOKMARK_KEY)return v.length>0;
+    if(key===HazzardMCQ.KEY)return nonempty(v.answers);
+    if(key===HazzardMCQ.PAPER_KEY)return v.paper?.ids?.length>0;
+    if(key===DRILL_KEY)return Object.values(v.chapters||{}).some(p=>nonempty(p.grades)||p.revealed?.length);
+    if(key===MOCK_KEY)return nonempty(v.grades)||v.revealed?.length;
+    if(key===MISSED_KEY)return nonempty(v.questions);
+    if(key===READING_KEY)return Object.values(v.chapters||{}).some(p=>p.read||p.ratio>=0.02);
+    return false;
+  });}catch{return false;}
+}
+async function restoreCloudNotebook(backup){
+  if(backup?.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage))throw Error('Invalid cloud notebook. Nothing was restored.');
+  if(pendingHighlightChanges.size||mcq?.hasUnsaved||displaySaveFailed||timerSaveFailed)throw Error('Save current changes before restoring.');
+  await HazzardMCQ.loadAliases();
+  const incoming={};
+  for(const [key,raw] of Object.entries(backup.storage)){
+    if(!isNotebookKey(key)||typeof raw!=='string')throw Error('Invalid cloud notebook. Nothing was restored.');
+    const value=JSON.parse(raw);validateNotebookValue(key,value);
+    incoming[key]=JSON.stringify(HazzardMCQ.migrateValue(key,value));
+  }
+  await HazzardStorage.snapshot();
+  if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
+  const previous=captureNotebook().storage,keys=new Set([...Object.keys(previous),...Object.keys(incoming)]);
+  // One atomic synchronous batch from the UI's perspective; snapshot only the
+  // completed notebook, never intermediate restored stores.
+  try{for(const key of keys){if(Object.hasOwn(incoming,key))localStorage.setItem(key,incoming[key]);else localStorage.removeItem(key);}}
+  catch(error){
+    for(const key of keys){if(Object.hasOwn(previous,key))localStorage.setItem(key,previous[key]);else localStorage.removeItem(key);}
+    throw Error('Restore could not be saved. Previous notebook kept.');
+  }
+  await HazzardStorage.snapshot();
+  resyncHighlights();resyncPractice();resyncTimer();mcq?.sync();refreshSavedPlaces();refreshResume();refreshLibraryMarks();refreshMissedCount();
+  const display=readJSON('stage-a-display-v4',null);if(display){size=display.size;colour=display.colour;document.documentElement.dataset.theme=display.theme;applyDisplay()}
+  renderNotebook();
+  await HazzardStorage.flush();
+  const savedPaper=HazzardMCQ.readPaper();$('#mockResume').hidden=!savedPaper?.paper;
+  if(savedPaper?.paper)$('#mockResume').textContent='Resume current paper ('+savedPaper.paper.ids.length+' questions)';
+}
 function notebookStatus(message){const node=$('#backupStatus');node.textContent=message;node.hidden=false;viewport()}
 $('#backupNotebook').onclick=()=>{
   try{
     if(pendingHighlightChanges.size)throw new Error('Some highlights are not saved yet. Keep this page open and try again.');
     if(mcq?.hasUnsaved)throw new Error('Some MCQ answers are not saved yet. Keep this page open and try again.');
-    const storage={};for(let i=0;i<localStorage.length;i++){const key=localStorage.key(i);if(key&&isNotebookKey(key))storage[key]=localStorage.getItem(key)}
-    const file={format:'hazzard-notebook-backup',version:1,exportedAt:new Date().toISOString(),storage};
+    const file=captureNotebook();
     const url=URL.createObjectURL(new Blob([JSON.stringify(file,null,2)],{type:'application/json'})),link=document.createElement('a');
     link.href=url;link.download='hazzard-notebook-'+new Date().toISOString().slice(0,10)+'.json';panel.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
     notebookStatus('Backup download started. Keep the JSON file somewhere safe.');
@@ -33391,6 +33463,9 @@ window.HazzardPrepareUpdate=async()=>{
   await HazzardStorage.flush();
   if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
 };
+$('#appearanceStatus').addEventListener('toggle',()=>requestAnimationFrame(viewport));
+addEventListener('hazzard-cloud-status',()=>requestAnimationFrame(viewport));
+HazzardCloud.start({capture:captureNotebook,hasData:cloudHasData,restore:restoreCloudNotebook});
 dispatchEvent(new Event('hazzard-reader-ready'));
 })();</script>
 
