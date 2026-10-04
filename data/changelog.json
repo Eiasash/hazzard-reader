@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "version": "v70",
+      "date": "2026-10-04",
+      "changes": [
+        "Complex-nursing staffing card: the house-physician count is 2, with 3 permanent and 2 temporary consultants. Revisit Required reading → item 11 if you learned the earlier count.",
+        "IWG and VasCog article cards use the revised supplied summaries; “ms p.” identifies manuscript pages. Revisit their diagnostic qualifiers before answering related questions.",
+        "Open Text → What’s new for release notes. A dot on Text marks a release you have not read yet.",
+        "For troubleshooting, tap the Text & appearance title seven times quickly. You can copy or download a local diagnostic log without sharing your answers.",
+        "The VasCog card now distinguishes gait mentioned in table guidance from gait excluded from the consensus diagnostic criteria; see the note below its bullets."
+      ]
+    },
+    {
+      "version": "v69",
+      "date": "2026-10-04",
+      "changes": [
+        "Required reading now includes IWG, VasCog, AA diagnostic criteria and JAMA dementia prevention/treatment article cards, with links to their past questions.",
+        "The FIM card adds information from Hazzard’s table but remains partial; the full scoring manual is not available here.",
+        "Not yet available: NEJM hearing-loss article. Beers 2023 is listed for direct reading."
+      ]
+    },
+    {
+      "version": "v68",
+      "date": "2026-10-04",
+      "changes": [
+        "Required reading now has 15 IMA cards covering laws, placement, rehabilitation, staffing, the Brookdale yearbook and FIM.",
+        "December 2021 Q95: the unsupported explanation is withdrawn; the accepted answer remains ג. Revisit the explanation notice if you used it to study.",
+        "FIM remains partial. The required journal articles were not yet available in this release.",
+        "Exam simulation now starts with a four-hour default; you can still choose a custom duration."
+      ]
+    },
+    {
+      "version": "v67",
+      "date": "2026-10-04",
+      "changes": [
+        "June 2023 Q12, Q29, Q30 and Q32: swapped images replaced. Redo these questions if you answered them using the earlier images.",
+        "May 2024 Q35 and Q69: wrong images replaced. Redo them if already answered. Open the image from the question to zoom."
+      ]
+    },
+    {
+      "version": "v66-r1",
+      "date": "2026-10-04",
+      "changes": [
+        "May 2024 Q4, Q8 and Q16: figures restored; Q16 also has its original image-based prompt. Redo these if you answered before the correction.",
+        "June 2022 Q58 and May 2024 Q4/Q8: available complete explanations restored. June 2022 Q5 remains incomplete; May 2024 Q16 has no verified explanation for its restored prompt. Revisit their explanation notices.",
+        "Search question text in the bank, mock papers and simulations. Simulation search keeps answers hidden.",
+        "Contents links now reach numbered headings; Back from a memory-aid question returns to your Study notes and scroll position.",
+        "Superscript units read in the correct direction; Text has a larger Close button and the mock filter says “Past-exam level.”"
+      ]
+    },
+    {
+      "version": "v66",
+      "date": "2026-10-04",
+      "changes": [
+        "Fixes only. Superseded by v66-r1, listed above."
+      ]
+    },
+    {
+      "version": "v65",
+      "date": "2026-10-04",
+      "changes": [
+        "Next and Previous in the question bank bring the question prompt into view. Drugs → Reading returns to your chapter; Drugs → Chapters opens the library.",
+        "Simulation countdown stays below the header while you scroll. Completed Daily Review shows 10 of 10 or 30 of 30.",
+        "FEV₁/FVC displays in the correct order in questions. The bank filter now says “Exam level.”",
+        "Find no longer blanks question-only screens; question search arrived in v66-r1."
+      ]
+    },
+    {
+      "version": "v64",
+      "date": "2026-10-04",
+      "changes": [
+        "Text → status details shows when a cloud restore completed and when that copy was saved."
+      ]
+    },
+    {
+      "version": "v63",
+      "date": "2026-10-04",
+      "changes": [
+        "Choose several years or levels together in the bank and mock-builder filters; reopen them to keep your selection.",
+        "Unsure tells you when an answered question is due for review. Removing Unsure shows brief confirmation."
+      ]
+    },
+    {
+      "version": "v62",
+      "date": "2026-10-04",
+      "changes": [
+        "Study pages now keep only 21 memory aids tied to past exam questions; the other 91 aids were removed.",
+        "Each remaining aid has a “Tested” question link. Pages with no retained aids no longer show an empty Memory aids section."
+      ]
+    },
+    {
+      "version": "v61",
+      "date": "2026-10-04",
+      "changes": [
+        "Open Drugs from Chapters to search generic names, book brand names or drug classes.",
+        "Expand a drug or class for book passages, study summaries and related official questions. Back returns to your search."
+      ]
+    },
+    {
+      "version": "v60",
+      "date": "2026-10-04",
+      "changes": [
+        "Study pages gained a collapsed Memory aids section with cues and book-page references. These cues are separate from the book text.",
+        "This release initially added 112 aids; v62 later kept only the 21 tied to past questions."
+      ]
+    },
+    {
+      "version": "v59",
+      "date": "2026-10-04",
+      "changes": [
+        "Practice → Exam simulation offers eight official papers, a timer, flags and a question navigator. Answers remain hidden until submission.",
+        "Resume a saved simulation after closing the app; the timer continues. After submission, review your result and all 100 questions.",
+        "The initial practice duration was adjustable. The current reader offers a four-hour default."
+      ]
+    },
+    {
+      "version": "v58",
+      "date": "2026-10-04",
+      "changes": [
+        "Chapters gained Study pages for Emergency Department Care, Perioperative Care, Muscle Aging and Sarcopenia, Cardiovascular Aging and Kidney Aging.",
+        "Each new Study page has recall questions, cited book pages and relevant tables or figures. Related exam questions link to those pages.",
+        "These are Study pages; the full chapters are not yet in the reader."
+      ]
+    },
+    {
+      "version": "Before v58",
+      "date": "",
+      "changes": [
+        "Earlier reading, question-bank, notebook and review features."
+      ]
+    }
+  ]
+}
