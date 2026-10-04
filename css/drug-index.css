@@ -1,0 +1,27 @@
+.reading-copy.drug-index{max-width:760px;font-family:var(--ui);line-height:1.45}
+.drug-index h1{font-size:calc(25px * var(--fs,1));margin-bottom:12px}
+.drug-index label,.drug-index input,.drug-index select,.drug-index button,.drug-index p,.drug-index li{font-family:var(--ui);font-size:calc(13px * var(--fs,1))}
+.drug-index label{display:block;font-weight:600;margin:10px 0 5px}
+.drug-index input,.drug-index select{box-sizing:border-box;min-height:44px;max-width:100%;background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:8px 10px}
+.drug-index input{width:100%}
+.drug-filters{display:flex;align-items:center;gap:10px;margin-top:8px}
+.drug-filters label{margin:0}
+.drug-index #drugStatus{font-size:calc(12px * var(--fs,1));color:var(--muted);margin:10px 0}
+.drug-index details{border:0;border-bottom:1px solid var(--rule);margin:0;padding:0;background:transparent}
+.drug-index summary{font:inherit;cursor:pointer;min-height:44px;box-sizing:border-box;padding:12px 0;overflow-wrap:anywhere}
+.drug-entry>summary{display:grid;grid-template-columns:1fr auto;gap:2px 8px;position:relative;padding:12px 20px 12px 0;list-style:none}
+.drug-entry>summary::-webkit-details-marker{display:none}
+.drug-entry>summary::after{content:'+';position:absolute;right:0;top:12px}
+.drug-entry[open]>summary::after{content:'−'}
+.drug-entry>summary strong{font-size:calc(15px * var(--fs,1));grid-column:1/-1;font-weight:650}
+.drug-entry>summary .drug-class{font-size:calc(12px * var(--fs,1));grid-column:1/-1;color:var(--muted)}
+.drug-entry>summary small{font-size:calc(11px * var(--fs,1));grid-column:1/-1;color:var(--muted)}
+.drug-body{padding:0 0 12px 10px;border-left:2px solid var(--rule);margin:0 0 10px}
+.drug-body .drug-links>summary,.drug-method>summary{font-size:calc(12px * var(--fs,1));font-weight:600}
+.drug-body ul{list-style:none;padding:0;margin:0}
+.drug-body li{padding:0;margin:0 0 8px}
+.drug-body a{display:flex;align-items:center;min-height:44px;overflow-wrap:anywhere;font-size:calc(12px * var(--fs,1));line-height:1.4;padding:4px 0;box-sizing:border-box}
+.drug-body .drug-excerpt,.drug-body .drug-aliases{font-size:calc(12px * var(--fs,1));margin:0 0 8px;line-height:1.5;overflow-wrap:anywhere}
+.drug-sources q{display:block;font-size:calc(12px * var(--fs,1));overflow-wrap:anywhere}
+.drug-index summary:focus-visible,.drug-index a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.library-drugs{display:inline-flex;align-items:center;min-height:44px;font:600 calc(13px * var(--fs,1))/1.4 var(--ui);margin:0 0 8px}
