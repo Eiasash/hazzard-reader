@@ -15,18 +15,22 @@ window.HazzardMemoryAids = (() => {
     const body = document.createElement('div'); body.className = 'memory-aids-body';
     panel.append(summary, body); copy.append(panel);
     const contents = document.querySelector('[data-pane="contents"] .rows');
+    let contentsRow;
     if (contents) {
       const row = document.createElement('li'), jump = document.createElement('button');
       jump.dataset.jump = panel.id; jump.textContent = 'Memory aids';
       // Open before the reader's existing delegated Contents navigation runs.
       jump.addEventListener('click', () => { panel.open = true; });
       row.append(jump); contents.insertBefore(row, contents.lastElementChild);
+      contentsRow = row;
     }
     async function render() {
       body.textContent = 'Loading memory aids…';
       try {
         const data = await load(), aids = data.chapters[chapter];
-        if (!Array.isArray(aids) || !aids.length) throw Error('No memory aids available for this chapter.');
+        if (!Array.isArray(aids) || !aids.length) {
+          panel.remove(); contentsRow?.remove(); return;
+        }
         const fragment = document.createDocumentFragment();
         for (const aid of aids) {
           const section = document.createElement('section'); section.className = 'memory-aid';
@@ -49,6 +53,11 @@ window.HazzardMemoryAids = (() => {
           const citation = document.createElement('p'); citation.className = 'memory-aid-source';
           citation.textContent = 'Hazzard 8e · printed p' + aid.page;
           section.append(citation);
+          const tested = document.createElement('p'); tested.className = 'memory-aid-source';
+          const question = document.createElement('a');
+          question.href = '?chapter=bank&q=' + encodeURIComponent(HazzardMCQ.currentId(aid.tested.questionId));
+          question.textContent = aid.tested.sitting.replace('-', ' ') + ' Q' + aid.tested.number;
+          tested.append('Tested: ', question); section.append(tested);
           if (aid.note) {
             const note = document.createElement('p'); note.className = 'memory-aid-note';
             note.textContent = aid.note; section.append(note);
