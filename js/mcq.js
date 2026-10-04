@@ -312,6 +312,7 @@ window.HazzardMCQ = (() => {
       if(state.checked&&q.explanationIncomplete){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.textContent='Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       content.querySelector('.mcq-source').insertAdjacentHTML('beforebegin',citationHTML(q));
+      if(q.kind==='past'&&!mockMode)HazzardLawCards.questionLinks(content,q.id);
       const topicLabel=content.querySelector('.mcq-topic-label');
       if(q.kind==='past'&&evidence.questions[q.id]?.status==='resolved'){
         const first=topicLabel.firstChild;if(first?.nodeType===3)first.textContent=(topics[q.topic]||'')+' · Cited chapter '+evidence.questions[q.id].chapters.join(', ')+' ';
