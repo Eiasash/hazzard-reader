@@ -15,10 +15,10 @@ window.HazzardChanged = (() => {
   }
   async function load() {
     if (data) return data;
-    return loading ||= fetch('data/changelog.json').then(async response => {
+    return loading ||= fetch('data/redo-history.json').then(async response => {
       if (!response.ok) throw Error('Changed questions unavailable');
       const value = await response.json();
-      data = value.releases.flatMap(r => r.redoQuestions || []);
+      data = value.questions;
       if (!data.length) throw Error('Changed questions unavailable');
       return data;
     }).catch(error => { data = null; loading = null; throw error; });
