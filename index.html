@@ -32608,7 +32608,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v64 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v65 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33079,7 +33079,7 @@ function syncTabs(){
   $('#headerHome').setAttribute('aria-label',currentView==='desk'?'Home — return to reading':'Home');
 }
 function readingTab(){
-  returnReading(()=>{if(['mock','bank'].includes(cid)){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&!['mock','bank'].includes(last.chapter)?last.chapter:'46')}});
+  returnReading(()=>{if(['mock','bank','drugs'].includes(cid)){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&!['mock','bank','drugs'].includes(last.chapter)?last.chapter:'46')}});
 }
 function handleTab(b){
   if(b.dataset.tab==='tools'&&$('#readerStatusChip').dataset.status==='paused'){
@@ -33089,6 +33089,7 @@ function handleTab(b){
     return;
   }
   if(b.dataset.tab==='practice'&&['bank','mock'].includes(cid)){openPanel('practice',b);return}
+  if(b.dataset.tab==='chapters'&&cid==='drugs'&&currentView==='reader'){view('library');return}
   if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
   if(b.dataset.view)view(b.dataset.view);else openPanel(b.dataset.panel,b);
 }
@@ -33296,6 +33297,7 @@ function revealSearch(payload){
 let findMatches=[],findIndex=-1,findTimer;
 function closeFind(){clearTimeout(findTimer);if(!findBar.hidden){$('#findText').blur();closePanel()}}
 function openFind(){
+  if(['bank','mock'].includes(cid))return;
   mcq?.notes();
   if(currentView!=='reader'){returnReading(openFind);return}
   if(!findBar.hidden){closeFind();return}
@@ -33318,6 +33320,7 @@ function stepFind(delta){
   const {range,block}=findMatches[findIndex];landOnMatch(range,block);
 }
 $('#findToggle').onclick=openFind;$('#findClose').onclick=closeFind;
+if(['bank','mock'].includes(String(copy.dataset.chapterId))){$('#findToggle').disabled=true;$('#findToggle').title='Find is available in book and study notes';}
 $('#findText').oninput=()=>{clearTimeout(findTimer);findTimer=setTimeout(updateFind,120)};
 $('#findText').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();stepFind(e.shiftKey?-1:1)}};
 $('#findPrevious').onclick=()=>stepFind(-1);$('#findNext').onclick=()=>stepFind(1);
