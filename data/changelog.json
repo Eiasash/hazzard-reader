@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v76",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-04T22:02:04.681925+00:00",
+      "changes": [
+        "New study pages: Ch 53, 67, 92, 95, 106 (summary + drill; fast build, read the book for the full chapter), and one question explanation corrected."
+      ]
+    },
+    {
       "version": "v75",
       "date": "2026-10-05",
       "releasedAt": "2026-10-04T21:36:20.319596+00:00",

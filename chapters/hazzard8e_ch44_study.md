@@ -34,7 +34,7 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 - Prevalence ~**1%** over age 40, ~**2%** over age 60; male-predominant, typically presents mid-60s (p654).
 - Diagnosis requires REM sleep without atonia plus dream-enactment behavior (p654).
 - Up to **90%** of RBD patients develop a synucleinopathy (Parkinson, Lewy body dementia, MSA) over **10- to 15-year** follow-up (p654).
-- First choice: melatonin (fewer falls/injuries, better side-effect profile than clonazepam); avoid benzodiazepines generally in older adults (p655).
+- Melatonin is the primary first choice in most circumstances; avoiding benzodiazepines is generally preferable in older patients. In a single-center retrospective study, only melatonin was associated with reduced injuries/falls and had a better side-effect profile than clonazepam (p655).
 
 ### Circadian rhythm disorders
 - Advanced sleep-wake phase disorder affects ~**1%** of a middle-aged population; more common with aging (p657).
@@ -139,7 +139,7 @@ Up to 90%, over 10 to 15 years of follow-up (p654).
 
 <details><summary>Answer</summary>
 
-Melatonin — associated with fewer injuries/falls and a better side-effect profile than clonazepam, and avoids benzodiazepines in older patients (p655).
+Melatonin — in a single-center retrospective study, associated with fewer injuries/falls and a better side-effect profile than clonazepam; avoiding benzodiazepines is generally preferable in older patients (p655).
 
 </details>
 

@@ -17,7 +17,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - **~20%** of people meeting diabetes criteria are undiagnosed (p1561).
 - New-case incidence peaks at **10/1000/yr** (age 45–64) and **9/1000/yr** (age 65–79), 2017–2018 (p1562).
 - CVD/stroke history reported by **28%** (35–64y), **43%** (65–74y), **55%** (75y+) of people with diabetes (p1562).
-- Diabetic kidney disease (eGFR **<60** and/or albuminuria **>30 mg/g**) present in **~50%** of diabetics >65 (p1562); 5-year ESRD survival **<40%** (p1563).
+- Diabetic kidney disease (usually eGFR **<60** and/or albuminuria **>30 mg/g**) present in **~50%** of diabetics >65 (p1562); 5-year ESRD survival **<40%** (p1563).
 - Retinopathy causes **~10,000** new US blindness cases/yr and may begin as early as **7 years** before diagnosis in T2D (p1563).
 - Neuropathy eventually develops in **~50%** of diabetics (range 10–100% depending on criteria) (p1563).
 - Lower-extremity amputation risk **~10-fold** higher than in nondiabetic older adults (p1563).
@@ -146,7 +146,7 @@ About 20% (p1561).
 
 <details><summary>Answer</summary>
 
-eGFR <60 mL/min/1.73m² and/or albuminuria >30 mg/g creatinine (p1562).
+Usually eGFR <60 mL/min/1.73m² and/or albuminuria >30 mg/g creatinine (p1562).
 
 </details>
 
