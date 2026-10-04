@@ -1,0 +1,2284 @@
+{
+  "version": 1,
+  "chapters": {
+    "43s": [
+      {
+        "title": "RACF: CaHFRiS screen",
+        "mnemonic": "Mind, impulse, balance; frame, fall, medicines",
+        "page": "637",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "MMSE <17",
+              "Impulsivity",
+              "Reduced standing balance",
+              "Walking-frame use",
+              "A fall in the past year",
+              "Antidepressant/hypnotic-anxiolytic use"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch43_study.md"
+      },
+      {
+        "title": "Timed Up and Go sequence",
+        "mnemonic": "Rise, three, turn, return, rest",
+        "page": "637",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Rise from a chair",
+              "Walk 3 meters at normal pace with the usual assistive device",
+              "Turn",
+              "Return",
+              "Sit"
+            ]
+          }
+        ],
+        "note": "The chapter reports limited predictive value and no validated cut-point. Record both time and the quality of walking/transfers.",
+        "source": "chapters/hazzard8e_ch43_study.md"
+      },
+      {
+        "title": "Psychoactive fall-risk drugs",
+        "mnemonic": "B-A-A: Balance Against Accidents",
+        "page": "634",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "B — Benzodiazepines",
+              "A — Antidepressants",
+              "A — Antipsychotics"
+            ]
+          }
+        ],
+        "note": "The chapter associates psychoactive use with a two- to threefold fall risk.",
+        "source": "chapters/hazzard8e_ch43_study.md"
+      }
+    ],
+    "44s": [
+      {
+        "title": "RLS defining features",
+        "mnemonic": "Urge moves; rest worsens; evening returns",
+        "page": "651",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Urge to move the legs, most often with uncomfortable sensations (sometimes arms)",
+              "Improves with movement",
+              "Worsens with relaxation",
+              "Occurs later in the day"
+            ]
+          }
+        ],
+        "note": "RLS may even be limited to the arms; no objective diagnostic test is described.",
+        "source": "Hazzard 8e, printed page 651"
+      },
+      {
+        "title": "RBD-associated synucleinopathies",
+        "mnemonic": "Dreams point to P-L-M",
+        "page": "654",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "P — Parkinson disease",
+              "L — Lewy body dementia",
+              "M — Multiple system atrophy"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch44_study.md"
+      },
+      {
+        "title": "Age-dependent SDB risks (Table 44-1)",
+        "mnemonic": "Body, tone, shape, collapse, thyroid, lung",
+        "page": "646",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Increased BMI/central obesity",
+              "Decreased muscle tension",
+              "Altered airway anatomy",
+              "Increased airway collapsibility",
+              "Decreased thyroid function",
+              "Decreased lung volume"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch44_study.md"
+      }
+    ],
+    "46s": [
+      {
+        "title": "Five debridement methods",
+        "mnemonic": "Sharp Machines Auto-Enlist Biology",
+        "page": "695",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "S — Surgical/sharp",
+              "M — Mechanical",
+              "A — Autolytic",
+              "E — Enzymatic",
+              "B — Bio-surgical"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch46_study.md"
+      },
+      {
+        "title": "Pain-reducing dressing categories (Table 46-2)",
+        "mnemonic": "Two hydros, algae, fiber",
+        "page": "693–694",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Hydrocolloids (p693)",
+              "Hydrogels — cooling effect (p694)",
+              "Alginates (p694)",
+              "Hydrofibers (p694)"
+            ]
+          }
+        ],
+        "note": "These are the pain-relief categories in the cited table, not all dressing categories.",
+        "source": "chapters/hazzard8e_ch46_study.md"
+      },
+      {
+        "title": "Antiseptics to avoid on clean/healing PI",
+        "mnemonic": "P-I-S-H-A: Protect Intact Skin, Help Advance",
+        "page": "697",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "P — Povidone-iodine",
+              "I — Iodophor",
+              "S — Sodium hypochlorite",
+              "H — Hydrogen peroxide",
+              "A — Acetic acid"
+            ]
+          }
+        ],
+        "note": "The chapter describes fibroblast toxicity in vitro; retain the clean/healing-wound context.",
+        "source": "chapters/hazzard8e_ch46_study.md"
+      }
+    ],
+    "47s": [
+      {
+        "title": "Persistent UI types (Table 47-5)",
+        "mnemonic": "Stress Urges Mix; Function Overflows",
+        "page": "704",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "S — Stress",
+              "U — Urgency",
+              "M — Mixed (stress + urgency)",
+              "F — Functional",
+              "O — High postvoid residual (formerly called overflow)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch47_study.md"
+      },
+      {
+        "title": "Drugs worsening continence (Table 47-4)",
+        "mnemonic": "Water and anticholinergics; three psychotropics; outlet, cough, edema, alcohol, caffeine",
+        "page": "703",
+        "groups": [
+          {
+            "title": "Drug classes",
+            "items": [
+              "Diuretics — polyuria, frequency, urgency",
+              "Anticholinergics — retention, overflow, stool impaction"
+            ]
+          },
+          {
+            "title": "Psychotropics",
+            "items": [
+              "Antidepressants — anticholinergic actions, sedation",
+              "Antipsychotics — anticholinergic actions, sedation, immobility",
+              "Sedative–hypnotics — sedation, delirium, immobility, urethral relaxation"
+            ]
+          },
+          {
+            "title": "Other medications and substances",
+            "items": [
+              "Narcotic analgesics — retention, fecal impaction, sedation, delirium",
+              "Alpha adrenergic blockers — urethral relaxation",
+              "Alpha adrenergic agonists — retention",
+              "Cholinesterase inhibitors — frequency, urgency",
+              "ACE inhibitors — cough precipitating stress leakage",
+              "Beta adrenergic agonists — rarely retention",
+              "Calcium channel blockers — retention, edema/nocturia",
+              "Gabapentin, pregabalin, glitazones — edema/nocturia",
+              "Alcohol — polyuria, frequency, urgency, sedation, delirium, immobility",
+              "Caffeine — polyuria, bladder irritation"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "Hazzard 8e, Table 47-4, printed page 703"
+      },
+      {
+        "title": "Chronic catheter indications (Table 47-13)",
+        "mnemonic": "Retain, wound, comfort, choice",
+        "page": "715",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Retention causing persistent overflow, symptomatic infections or renal dysfunction, which cannot be corrected surgically/medically or practically managed with intermittent catheterization",
+              "Skin wounds, pressure sores or irritation with poor healing from excessive urine moisture",
+              "Terminal illness or severe impairment with uncomfortable or disruptive bed/clothing changes",
+              "Patient preference"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch47_study.md"
+      }
+    ],
+    "55s": [
+      {
+        "title": "Posterolateral hip precautions",
+        "mnemonic": "No cross, no deep fold, no roll",
+        "page": "832",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Avoid crossing the legs",
+              "Avoid hip flexion >90°",
+              "Avoid rolling the legs in and out"
+            ]
+          }
+        ],
+        "note": "The book says patients may need these precautions after a posterolateral approach; raised toilet seats limit excessive flexion.",
+        "source": "Hazzard 8e, printed page 832"
+      },
+      {
+        "title": "SPPB components",
+        "mnemonic": "Walk, rise, balance",
+        "page": "820",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Gait speed",
+              "Chair stands",
+              "Balance"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch55_study.md"
+      },
+      {
+        "title": "Nagi model",
+        "mnemonic": "Pathology Impairs Function and Daily life",
+        "page": "818",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Active pathology",
+              "Impairment",
+              "Functional limitation",
+              "Disability"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch55_study.md"
+      }
+    ],
+    "58s": [
+      {
+        "title": "CAM algorithm",
+        "mnemonic": "Acute + Attention + (Thinking OR Consciousness)",
+        "page": "880",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "1 — Acute onset/fluctuating course",
+              "2 — Inattention",
+              "3 — Disorganized thinking",
+              "4 — Altered level of consciousness"
+            ]
+          }
+        ],
+        "note": "CAM requires 1 AND 2 AND (3 OR 4); these are not four interchangeable options.",
+        "source": "chapters/hazzard8e_ch58_study.md"
+      },
+      {
+        "title": "Validated hospital precipitants",
+        "mnemonic": "Restrain, starve, add drugs, catheter, mishap",
+        "page": "882",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Physical restraints",
+              "Malnutrition",
+              "More than 3 medications added in the previous day",
+              "Bladder catheter",
+              "Any iatrogenic event"
+            ]
+          }
+        ],
+        "note": "Each independently confers two- to fourfold risk; effects accumulate. This is the validated five-factor set, not the entire Table 58-1.",
+        "source": "chapters/hazzard8e_ch58_study.md"
+      },
+      {
+        "title": "Beers-listed delirium culprits (Table 58-2)",
+        "mnemonic": "Two anti, benzo, steroid; H2, meperidine, Z, T",
+        "page": "883",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Anticholinergics (antihistamines, antiparkinsonian agents, skeletal muscle relaxants, TCAs/paroxetine, antimuscarinics, antispasmodics, antiemetics including prochlorperazine/promethazine)",
+              "Antipsychotics — chronic and as-needed use",
+              "Benzodiazepines",
+              "Corticosteroids — oral and parenteral",
+              "H2-receptor antagonists — cimetidine, famotidine, nizatidine, ranitidine",
+              "Meperidine",
+              "Z-drugs (zolpidem, eszopiclone, zaleplon)",
+              "Tricyclic antidepressants"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch58_study.md"
+      },
+      {
+        "title": "Nonpharmacologic sleep protocol",
+        "mnemonic": "Warm, music, massage",
+        "page": "889",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Warm milk/tea",
+              "Relaxation music",
+              "Back massage"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch58_study.md"
+      }
+    ],
+    "60s": [
+      {
+        "title": "Early psychotropic exceptions",
+        "mnemonic": "Depression; harmful psychosis; harmful aggression",
+        "page": "925",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Clear-cut major depression",
+              "Psychosis causing or risking harm",
+              "Aggression causing or risking harm"
+            ]
+          }
+        ],
+        "note": "Otherwise use nonpharmacologic approaches first; emergency safety situations are exceptions.",
+        "source": "chapters/hazzard8e_ch60_study.md"
+      },
+      {
+        "title": "Glucuronidated benzodiazepines",
+        "mnemonic": "O-T-L: Only Tiny Leeway",
+        "page": "931",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "O — Oxazepam",
+              "T — Temazepam",
+              "L — Lorazepam"
+            ]
+          }
+        ],
+        "note": "The chapter prefers these with complex medical comorbidity because they lack active metabolites. Avoid benzodiazepines except emergencies or failed alternatives; use sparingly.",
+        "source": "chapters/hazzard8e_ch60_study.md"
+      },
+      {
+        "title": "DICE steps",
+        "mnemonic": "Describe it, investigate it, create a plan, evaluate it",
+        "page": "924",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Describe",
+              "Investigate",
+              "Create",
+              "Evaluate"
+            ]
+          }
+        ],
+        "note": "DICE and its expansion are the book’s framework; the sentence above is the invented recall cue.",
+        "source": "chapters/hazzard8e_ch60_study.md"
+      }
+    ],
+    "61s": [
+      {
+        "title": "Four MDS supportive criteria",
+        "mnemonic": "Respond, dyskinese, tremor, smell/heart",
+        "page": "940",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Levodopa treatment response",
+              "Levodopa-induced dyskinesias",
+              "Rest tremor",
+              "Olfactory loss and/or cardiac sympathetic denervation"
+            ]
+          }
+        ],
+        "note": "The book’s clinically established PD description also requires bradykinesia, no exclusionary criteria and ≥2 of these four supportive criteria.",
+        "source": "Hazzard 8e, printed page 940"
+      },
+      {
+        "title": "Six core motor features",
+        "mnemonic": "Slow, shake, stiff; reflex, stoop, freeze",
+        "page": "935",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Bradykinesia",
+              "Rest tremor",
+              "Rigidity",
+              "Loss of postural reflexes",
+              "Flexed posture",
+              "Gait freezing"
+            ]
+          }
+        ],
+        "note": "Bradykinesia is the central feature.",
+        "source": "chapters/hazzard8e_ch61_study.md"
+      },
+      {
+        "title": "Clues to an alternative diagnosis",
+        "mnemonic": "Symmetric, stubborn, still",
+        "page": "939",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Symmetric onset",
+              "Poor levodopa response",
+              "Absent rest tremor"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch61_study.md"
+      }
+    ],
+    "63s": [
+      {
+        "title": "Possible bvFTD core symptoms",
+        "mnemonic": "Disinhibit, disengage, disconnect; repeat, eat, mismanage",
+        "page": "982",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Early disinhibition",
+              "Early apathy",
+              "Early loss of sympathy/empathy",
+              "Early repetitive motor behaviors",
+              "Early hyperorality",
+              "Frontal executive deficits with relative sparing of visuospatial abilities"
+            ]
+          }
+        ],
+        "note": "Possible bvFTD requires 3 of these 6 symptoms.",
+        "source": "Hazzard 8e, printed page 982"
+      },
+      {
+        "title": "PDD predictors",
+        "mnemonic": "Older, slower, bilateral; fading response, mood, visions",
+        "page": "985",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Older age at motor onset",
+              "Bradykinesia/non-tremor phenotype",
+              "Bilateral onset",
+              "Declining levodopa response",
+              "Depression",
+              "Hallucinations"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch63_study.md"
+      },
+      {
+        "title": "PPA variants",
+        "mnemonic": "Nonfluent forms; semantic meanings; logopenic words",
+        "page": "987–988",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Nonfluent/agrammatic PPA — apraxic/agrammatic speech; preserved single-word comprehension (p988)",
+              "Semantic PPA — fluent but semantically empty speech; surface dyslexia (p988)",
+              "Logopenic PPA — usually an AD language presentation (p987)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch63_study.md"
+      }
+    ],
+    "42s": [
+      {
+        "title": "Fried physical phenotype",
+        "mnemonic": "Weight, weakness, weariness, walk, work",
+        "page": "619",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Unintentional weight loss",
+              "Weakness",
+              "Exhaustion",
+              "Slowness",
+              "Low activity"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch42_study.md"
+      },
+      {
+        "title": "Cognitive frailty",
+        "mnemonic": "Body frail, mind mildly impaired, dementia excluded",
+        "page": "627",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Physical frailty",
+              "Mild cognitive impairment (CDR 0.5)",
+              "AD/dementia excluded"
+            ]
+          }
+        ],
+        "note": "The chapter notes the suggestion that physical frailty precede cognitive impairment.",
+        "source": "chapters/hazzard8e_ch42_study.md"
+      },
+      {
+        "title": "Edmonton Frail Scale domains",
+        "mnemonic": "Think, health, function, friends; drugs, food, mood, continence, performance",
+        "page": "623",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Cognition",
+              "General health",
+              "Function",
+              "Social support",
+              "Medications",
+              "Nutrition",
+              "Mood",
+              "Continence",
+              "Performance"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch42_study.md"
+      }
+    ],
+    "59s": [
+      {
+        "title": "Familial AD genes",
+        "mnemonic": "APP has two presenilin partners",
+        "page": "897",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "APP",
+              "PSEN1",
+              "PSEN2"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch59_study.md"
+      },
+      {
+        "title": "NIA-AA MCI criteria (Table 59-2)",
+        "mnemonic": "Concern, cognition, independence, no dementia",
+        "page": "896",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Concern about change from patient, informant or clinician",
+              "Lower performance in at least one cognitive domain",
+              "Preserved functional independence",
+              "Not dementia"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch59_study.md"
+      },
+      {
+        "title": "Acetylcholinesterase inhibitors",
+        "mnemonic": "Done, gala, rivet",
+        "page": "911",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Donepezil",
+              "Galantamine",
+              "Rivastigmine"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch59_study.md"
+      }
+    ],
+    "45s": [
+      {
+        "title": "Dizziness subtypes",
+        "mnemonic": "Vertigo, near-faint, unsteady, other",
+        "page": "665, 670",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Vertigo",
+              "Presyncope",
+              "Disequilibrium",
+              "Other"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch45_study.md"
+      },
+      {
+        "title": "Dix-Hallpike BPPV pattern",
+        "mnemonic": "Wait, whirl, wear out",
+        "page": "673–674",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Latency 1–5 seconds after the maneuver",
+              "Nystagmus/vertigo lasts 10–20 seconds",
+              "Fatigability with repeated testing"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch45_study.md"
+      },
+      {
+        "title": "Blood-volume loss with aging",
+        "mnemonic": "Renin down, aldosterone down; peptide up, thirst down",
+        "page": "666",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Reduced renin",
+              "Reduced aldosterone",
+              "Increased atrial natriuretic peptide",
+              "Reduced thirst response"
+            ]
+          }
+        ],
+        "note": "Diuretics often add to this physiological pattern.",
+        "source": "chapters/hazzard8e_ch45_study.md"
+      }
+    ],
+    "51s": [
+      {
+        "title": "Secondary osteoporosis evaluation groups (Table 51-3)",
+        "mnemonic": "Endocrine, neoplastic, other, medicines",
+        "page": "769",
+        "groups": [
+          {
+            "title": "Endocrine abnormalities",
+            "items": [
+              "Primary hyperparathyroidism",
+              "Paget disease",
+              "Osteomalacia",
+              "Hyperthyroidism",
+              "Hypogonadism (men only)",
+              "Cushing syndrome"
+            ]
+          },
+          {
+            "title": "Neoplastic conditions",
+            "items": [
+              "Multiple myeloma",
+              "Bone metastases"
+            ]
+          },
+          {
+            "title": "Other conditions",
+            "items": [
+              "Alcoholism",
+              "Malabsorption syndromes"
+            ]
+          },
+          {
+            "title": "Medications",
+            "items": [
+              "Glucocorticoids",
+              "Anticonvulsants",
+              "Long-term heparin",
+              "Excess thyroid hormone replacement"
+            ]
+          }
+        ],
+        "note": "The disease/medication column is complete; see the source table for each evaluation.",
+        "source": "Hazzard 8e, printed page 769"
+      },
+      {
+        "title": "Teriparatide caution/avoidance (Table 51-5)",
+        "mnemonic": "Paget, radiation, calcium, metastases, cancer history",
+        "page": "774",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Paget disease",
+              "Previous radiation therapy",
+              "Hypercalcemia",
+              "Skeletal metastases",
+              "History of prostate cancer/lymphoma"
+            ]
+          }
+        ],
+        "note": "Retains the reader’s book-table caution/avoidance list for increased osteosarcoma risk.",
+        "source": "chapters/hazzard8e_ch51_study.md"
+      },
+      {
+        "title": "Three zoledronic fracture reductions",
+        "mnemonic": "Spine seventy, other twenty-five, hip forty-one",
+        "page": "775",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Vertebral fracture reduction — 70%",
+              "Nonvertebral fracture reduction — 25%",
+              "Hip fracture reduction — 41%"
+            ]
+          }
+        ],
+        "note": "Reported for 5 mg IV yearly for three years.",
+        "source": "chapters/hazzard8e_ch51_study.md"
+      }
+    ],
+    "52s": [
+      {
+        "title": "Secondary OA causes (Table 52-1)",
+        "mnemonic": "Anatomy, metabolism, crystals, inflammation, trauma, others",
+        "page": "780",
+        "groups": [
+          {
+            "title": "Anatomical",
+            "items": [
+              "Anatomical abnormalities"
+            ]
+          },
+          {
+            "title": "Metabolic/endocrine",
+            "items": [
+              "Diabetes mellitus",
+              "Hemochromatosis",
+              "Acromegaly",
+              "Hyperparathyroidism",
+              "Ochronosis"
+            ]
+          },
+          {
+            "title": "Crystal deposition",
+            "items": [
+              "Gout",
+              "Pseudogout"
+            ]
+          },
+          {
+            "title": "Inflammatory",
+            "items": [
+              "Inflammatory arthritis"
+            ]
+          },
+          {
+            "title": "Traumatic",
+            "items": [
+              "Trauma"
+            ]
+          },
+          {
+            "title": "Others",
+            "items": [
+              "Avascular necrosis",
+              "Neuropathic Charcot joints"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch52_study.md"
+      },
+      {
+        "title": "Topical NSAID target joints",
+        "mnemonic": "Hands, knees, feet: surface reach",
+        "page": "787",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Hand OA",
+              "Knee OA",
+              "Foot OA"
+            ]
+          }
+        ],
+        "note": "Use before oral NSAIDs; the chapter does not recommend them for hip OA because of joint depth.",
+        "source": "chapters/hazzard8e_ch52_study.md"
+      },
+      {
+        "title": "Lumbar stenosis direction",
+        "mnemonic": "Forward frees; backward bothers",
+        "page": "782",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Forward bending relieves symptoms (uphill walking; leaning on a shopping cart)",
+              "Backward bending worsens symptoms"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch52_study.md"
+      }
+    ],
+    "57s": [
+      {
+        "title": "Memory retained with normal aging",
+        "mnemonic": "Remote Procedures carry Semantics",
+        "page": "854–855",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Remote memory",
+              "Procedural memory",
+              "Semantic memory"
+            ]
+          }
+        ],
+        "note": "Learning/recall of new information declines.",
+        "source": "chapters/hazzard8e_ch57_study.md"
+      },
+      {
+        "title": "Language retained with normal aging",
+        "mnemonic": "Comprehend Vocabulary and Syntax",
+        "page": "856",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Comprehension",
+              "Vocabulary",
+              "Syntax"
+            ]
+          }
+        ],
+        "note": "Spontaneous word finding and semantic fluency decline; phonemic fluency stays stable.",
+        "source": "chapters/hazzard8e_ch57_study.md"
+      },
+      {
+        "title": "NPH triad",
+        "mnemonic": "Walk, water, wit",
+        "page": "876",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Gait/balance disturbance",
+              "Urinary incontinence",
+              "Cognitive deficits"
+            ]
+          }
+        ],
+        "note": "Cognitive symptoms often present later.",
+        "source": "chapters/hazzard8e_ch57_study.md"
+      }
+    ],
+    "68s": [
+      {
+        "title": "Chronic pain categories",
+        "mnemonic": "Primary; then muscles, nerves, head, viscera, cancer, procedures",
+        "page": "1055",
+        "groups": [
+          {
+            "title": "Primary",
+            "items": [
+              "Chronic primary pain (disease in its own right)"
+            ]
+          },
+          {
+            "title": "Secondary",
+            "items": [
+              "Musculoskeletal",
+              "Neuropathic",
+              "Headache/orofacial",
+              "Visceral",
+              "Cancer-related",
+              "Postsurgical/posttraumatic"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch68_study.md"
+      },
+      {
+        "title": "Epidural steroid contraindications",
+        "mnemonic": "Clot, anticoagulate, infect, sugar, suppress",
+        "page": "1065",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Coagulopathy",
+              "Current anticoagulation",
+              "Infection",
+              "Uncontrolled diabetes",
+              "Immunosuppression"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch68_study.md"
+      },
+      {
+        "title": "Nonpharmacologic options",
+        "mnemonic": "Move, rethink, attend, complement",
+        "page": "1068",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Physical therapy, including low-impact aquatic therapy/exercise",
+              "CBT/ACT/biofeedback",
+              "Mindfulness-based stress reduction",
+              "Complementary therapies (acupuncture, massage)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch68_study.md"
+      }
+    ],
+    "65s": [
+      {
+        "title": "Antidepressant discontinuation symptoms",
+        "mnemonic": "Sweat, chill, spin, gut; dreams, vertigo, numb, shocks",
+        "page": "1015–1016",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Sweating",
+              "Chills",
+              "Dizziness",
+              "GI upset",
+              "Vivid dreaming",
+              "Vertigo",
+              "Numbness",
+              "Shock-like sensations"
+            ]
+          }
+        ],
+        "note": "Can mimic relapse or lack of efficacy.",
+        "source": "chapters/hazzard8e_ch65_study.md"
+      },
+      {
+        "title": "Suicide safety-check triggers",
+        "mnemonic": "PHQ nine-one; MADRS ten-three; QIDS twelve-one",
+        "page": "1013",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "PHQ Q9 ≥1",
+              "MADRS Q10 ≥3",
+              "QIDS-SR Q12 ≥1"
+            ]
+          }
+        ],
+        "note": "Any of these triggers the chapter’s suicide/safety checklist.",
+        "source": "chapters/hazzard8e_ch65_study.md"
+      },
+      {
+        "title": "Suicide assessment domains",
+        "mnemonic": "Thought, intent, plan, action",
+        "page": "1013",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Suicidal thoughts",
+              "Intent",
+              "Plan",
+              "Behavior"
+            ]
+          }
+        ],
+        "note": "Also assess risk/protective factors and document firearm status and an action plan.",
+        "source": "chapters/hazzard8e_ch65_study.md"
+      }
+    ],
+    "97s": [
+      {
+        "title": "Parathyroidectomy indications (Table 97-10)",
+        "mnemonic": "Calcium asks; skeleton breaks; kidneys fail or stone",
+        "page": "1539",
+        "groups": [
+          {
+            "title": "Hypercalcemia",
+            "items": [
+              "Symptoms and/or patient preferences",
+              "Total calcium >1 mg/dL above the upper limit of normal"
+            ]
+          },
+          {
+            "title": "Skeletal",
+            "items": [
+              "DXA T-score <−2.5 at any site (lumbar spine, total hip/femoral neck, radius)",
+              "Clinical or radiographic vertebral compression fracture, especially with minimal trauma"
+            ]
+          },
+          {
+            "title": "Renal",
+            "items": [
+              "Creatinine clearance <60 mL/min",
+              "24-hour urine calcium >400 mg/24 h",
+              "Radiographic nephrolithiasis or nephrocalcinosis (x-ray, ultrasound or CT)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "Hazzard 8e, printed page 1539"
+      },
+      {
+        "title": "Testosterone: contraindications vs cautions",
+        "mnemonic": "Cancer stops; PSA, cells, outlet, vascular event caution",
+        "page": "1534",
+        "groups": [
+          {
+            "title": "Contraindications",
+            "items": [
+              "Active prostate cancer",
+              "Active breast cancer"
+            ]
+          },
+          {
+            "title": "Cautions",
+            "items": [
+              "PSA >4.0 ng/mL",
+              "Hematocrit >50",
+              "Severe LUTS (IPSS >19)",
+              "Recent MI/stroke"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch97_study.md"
+      },
+      {
+        "title": "Reversible functional hypogonadism (Table 97-5)",
+        "mnemonic": "Weight, drugs, prolactin, fuel, illness, organs",
+        "page": "1534",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Obesity",
+              "Medications (opioids, glucocorticoids, megestrol)",
+              "Hyperprolactinemia, usually drug-induced",
+              "Malnutrition/energy deficit",
+              "Chronic systemic illness, e.g. malignancy",
+              "Organ failure (lung, heart, liver, kidney)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch97_study.md"
+      }
+    ],
+    "98s": [
+      {
+        "title": "High-risk thyroid ultrasound features",
+        "mnemonic": "Dark, ragged, tall, vascular, tiny calcium",
+        "page": "1555",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Hypoechogenicity",
+              "Irregular margins",
+              "Taller-than-wide shape",
+              "Intranodular vascularity",
+              "Microcalcifications"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "Hazzard 8e, printed page 1555"
+      },
+      {
+        "title": "FNA categories (Table 98-8)",
+        "mnemonic": "Nodes or one; bright one-and-half; mixed two; cysts no",
+        "page": "1555",
+        "groups": [
+          {
+            "title": "FNA indicated",
+            "items": [
+              "Abnormal cervical lymph nodes",
+              "Solid hypoechoic nodule ≥1 cm",
+              "Isoechoic or hyperechoic solid nodule ≥1.5 cm"
+            ]
+          },
+          {
+            "title": "FNA or observation",
+            "items": [
+              "Mixed cystic-solid or spongiform nodule ≥2 cm"
+            ]
+          },
+          {
+            "title": "FNA not required/indicated",
+            "items": [
+              "Purely cystic nodules",
+              "Nodules <1 cm"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "Hazzard 8e, printed page 1555"
+      },
+      {
+        "title": "Common older-adult hyperthyroid signs",
+        "mnemonic": "Fast, fatigued, fading weight",
+        "page": "1549",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Tachycardia — 71%",
+              "Fatigue — 56%",
+              "Weight loss — 50%"
+            ]
+          }
+        ],
+        "note": "These three reach ≥50% in Table 98-3; the book’s prose says “exceed 50%,” although weight loss is exactly 50%.",
+        "source": "chapters/hazzard8e_ch98_study.md"
+      }
+    ],
+    "101s": [
+      {
+        "title": "RA classification domains",
+        "mnemonic": "Joints, serology, inflammation, duration",
+        "page": "1608",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Joint involvement",
+              "Serology",
+              "Acute-phase reactants",
+              "Symptom duration"
+            ]
+          }
+        ],
+        "note": "These are Table 101-1’s domains, not the complete weighted scoring table.",
+        "source": "chapters/hazzard8e_ch101_study.md"
+      },
+      {
+        "title": "Biologic-safety domains (Table 101-6)",
+        "mnemonic": "Conditions, infections, unusual effects; screen, immunize, dose, reassess, lifespan",
+        "page": "1618",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Comorbidities",
+              "Opportunistic infections",
+              "Novel presentation of side effects",
+              "Screening",
+              "Immunization",
+              "Drug dosing and interactions",
+              "Evaluate",
+              "Remaining lifespan"
+            ]
+          }
+        ],
+        "note": "The book calls these CONSIDER; the sentence above is the invented recall cue.",
+        "source": "chapters/hazzard8e_ch101_study.md"
+      },
+      {
+        "title": "RS3PE name components",
+        "mnemonic": "Remit, negative, mirror, swell, pit",
+        "page": "1610–1611",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Remitting",
+              "Seronegative",
+              "Symmetric",
+              "Synovitis",
+              "Pitting edema"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch101_study.md"
+      }
+    ],
+    "102s": [
+      {
+        "title": "Systemic back-pain red flags (Table 102-7)",
+        "mnemonic": "Old, trauma, weight/fever; immune, cancer, bone; nerve, time, IV",
+        "page": "1636",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Age >70",
+              "Recent significant trauma or milder trauma at age >50",
+              "Unexplained weight loss or fever",
+              "Immunosuppression (such as diabetes mellitus)",
+              "History of cancer",
+              "Osteoporosis or prolonged glucocorticoid use",
+              "Progressive or disabling focal neurologic deficits",
+              "Symptoms >6 weeks (subacute/chronic)",
+              "IV drug use"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "Hazzard 8e, printed page 1636"
+      },
+      {
+        "title": "Lumbar stenosis provoking/relieving positions",
+        "mnemonic": "Stand-walk-down hurts; sit-bend-cart helps",
+        "page": "1632",
+        "groups": [
+          {
+            "title": "Worse with extension",
+            "items": [
+              "Standing",
+              "Walking",
+              "Walking downhill"
+            ]
+          },
+          {
+            "title": "Relieved with flexion",
+            "items": [
+              "Sitting",
+              "Bending forward",
+              "Leaning on a cart"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch102_study.md"
+      },
+      {
+        "title": "DISH pattern",
+        "mnemonic": "Four flowing, discs spared, facets free",
+        "page": "1633, 1639",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Flowing calcification along ≥4 contiguous vertebral bodies",
+              "Preserved disc height",
+              "No apophyseal ankylosis"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch102_study.md"
+      }
+    ],
+    "104s": [
+      {
+        "title": "Classic FUO definition",
+        "mnemonic": "Hot three weeks, unknown one week",
+        "page": "1675",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Temperature >101°F (38.3°C)",
+              "Duration ≥3 weeks",
+              "Undiagnosed after 1 week of evaluation"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch104_study.md"
+      },
+      {
+        "title": "Treatable infections behind FUO",
+        "mnemonic": "Abdomen, endocardium, TB, bone",
+        "page": "1675",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Intraabdominal abscess",
+              "Endocarditis",
+              "Tuberculosis",
+              "Occult osteomyelitis"
+            ]
+          }
+        ],
+        "note": "The chapter lists these as treatable infection causes; this is not the complete differential for FUO.",
+        "source": "chapters/hazzard8e_ch104_study.md"
+      },
+      {
+        "title": "Higher-protection vaccines discussed",
+        "mnemonic": "High flu, adjuvant zoster, messenger COVID",
+        "page": "1668, 1676",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "High-dose influenza vaccine",
+              "Adjuvanted recombinant zoster vaccine",
+              "mRNA SARS-CoV-2 vaccines"
+            ]
+          }
+        ],
+        "note": "The three vaccines singled out in the chapter, not a complete immunization schedule.",
+        "source": "chapters/hazzard8e_ch104_study.md"
+      }
+    ],
+    "105s": [
+      {
+        "title": "HCAP definition in the book",
+        "mnemonic": "Hospital, home, infusion; dialysis, wound, family",
+        "page": "1682",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Hospitalization ≥2 days in the preceding 90 days",
+              "Nursing-home or extended-care-facility residence",
+              "Home infusion therapy, including antibiotics",
+              "Chronic dialysis within 30 days",
+              "Home wound care",
+              "Family member with a multidrug-resistant pathogen"
+            ]
+          }
+        ],
+        "note": "Any one qualifies in this definition. The book itself cautions that HCAP has limited specificity and favors individual pathogen risks and severity.",
+        "source": "Hazzard 8e, printed page 1682"
+      },
+      {
+        "title": "Shorr MDRO score",
+        "mnemonic": "Hospital four, care three, dialysis two, critical one",
+        "page": "1682",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Recent hospitalization — 4 points",
+              "Admission from long-term care — 3 points",
+              "Hemodialysis — 2 points",
+              "Critical illness — 1 point"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch105_study.md"
+      },
+      {
+        "title": "CURB-65 components (Table 105-4)",
+        "mnemonic": "Confused, urea, breaths, pressure, years",
+        "page": "1686",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Confusion",
+              "Urea >44 mg/dL (BUN >20)",
+              "Respiratory rate ≥30/min",
+              "Systolic BP <90 or diastolic BP ≤60 mm Hg",
+              "Age ≥65"
+            ]
+          }
+        ],
+        "note": "One point per component. CURB-65 is the book’s name; the sentence above is the invented cue.",
+        "source": "chapters/hazzard8e_ch105_study.md"
+      }
+    ],
+    "108s": [
+      {
+        "title": "Influenza antivirals discussed",
+        "mnemonic": "Inhale Z, swallow O, block polymerase B",
+        "page": "1736",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Zanamivir — inhaled neuraminidase inhibitor",
+              "Oseltamivir — oral neuraminidase inhibitor",
+              "Baloxavir marboxil — oral polymerase inhibitor"
+            ]
+          }
+        ],
+        "note": "The chapter’s agents, not a current prescribing guide.",
+        "source": "chapters/hazzard8e_ch108_study.md"
+      },
+      {
+        "title": "Novel zoonotic coronaviruses",
+        "mnemonic": "SARS two, MERS twelve, COVID nineteen",
+        "page": "1737",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "SARS-CoV — 2002",
+              "MERS-CoV — 2012",
+              "SARS-CoV-2 — 2019"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch108_study.md"
+      },
+      {
+        "title": "Atypical COVID presentation in the cited older cohort",
+        "mnemonic": "Fall, weaken, confuse",
+        "page": "1738",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Falls",
+              "Weakness",
+              "Delirium"
+            ]
+          }
+        ],
+        "note": "These were the atypical presentations listed for a study with mean age 81; not an exhaustive symptom definition.",
+        "source": "chapters/hazzard8e_ch108_study.md"
+      }
+    ],
+    "76s": [
+      {
+        "title": "High-output HF causes",
+        "mnemonic": "Anemia, thyroid, thiamine, shunt, size",
+        "page": "1172",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Chronic anemia",
+              "Hyperthyroidism",
+              "Thiamine deficiency",
+              "AV shunting (dialysis fistula/AVM)",
+              "Morbid obesity"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch76_study.md"
+      },
+      {
+        "title": "CRT criteria described in this chapter",
+        "mnemonic": "Class two-to-four; thirty-five; one-fifty",
+        "page": "1184",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "NYHA II–IV HFrEF",
+              "EF ≤35%",
+              "QRS ≥150 ms"
+            ]
+          }
+        ],
+        "note": "Retains Chapter 76’s description; Chapter 77 separately describes the highest-response group and AV-block pacing pathway.",
+        "source": "chapters/hazzard8e_ch76_study.md"
+      },
+      {
+        "title": "Medications that may worsen HF",
+        "mnemonic": "Retain fluid; dilate; slow; disturb rhythm",
+        "page": "1173",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "NSAIDs",
+              "Corticosteroids",
+              "Estrogens",
+              "Thiazolidinediones (rosiglitazone/pioglitazone)",
+              "Minoxidil",
+              "Clonidine",
+              "Excess beta-blocker/CCB",
+              "Class Ia/Ic antiarrhythmics"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch76_study.md"
+      }
+    ],
+    "77s": [
+      {
+        "title": "Stroke-score components (Table 77-7A)",
+        "mnemonic": "Failure, pressure, age; diabetes, stroke, sex, vessels",
+        "page": "1202",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Congestive heart failure — 1",
+              "Hypertension — 1",
+              "Age ≥65 — 1; age ≥75 — 2 (use the applicable age tier)",
+              "Diabetes mellitus — 1",
+              "Stroke/TIA/thromboembolism — 2",
+              "Female sex — 1",
+              "Vascular disease (primary MI, PAD or aortic plaque) — 1"
+            ]
+          }
+        ],
+        "note": "The book’s CHA2DS2-VASc maximum is 9; the age tiers are not added together.",
+        "source": "Hazzard 8e, printed page 1202"
+      },
+      {
+        "title": "Bleeding-score components (Table 77-7B)",
+        "mnemonic": "Pressure, organs, stroke, bleed; INR, age, drugs/drink",
+        "page": "1202",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Hypertension — 1",
+              "Abnormal liver or renal function — 1 each",
+              "Stroke — 1",
+              "Bleeding history — 1",
+              "Labile INR — 1",
+              "Elderly (>65 years) — 1",
+              "Antiplatelet/NSAID drugs or alcohol use — 1 each"
+            ]
+          }
+        ],
+        "note": "The book names this HAS-BLED; 0–2 is low risk and 3–9 high risk.",
+        "source": "Hazzard 8e, printed page 1202"
+      },
+      {
+        "title": "Highest CRT response group (Table 77-5)",
+        "mnemonic": "Low EF, sinus, left block, wide QRS, symptoms",
+        "page": "1199",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "LVEF ≤35%",
+              "Sinus rhythm",
+              "Left bundle branch block",
+              "QRS ≥150 ms",
+              "NYHA II/III/ambulatory IV"
+            ]
+          }
+        ],
+        "note": "Separate AV-block pathway: LVEF <50% with expected ventricular pacing >40%.",
+        "source": "chapters/hazzard8e_ch77_study.md"
+      }
+    ],
+    "75s": [
+      {
+        "title": "Severe AS thresholds (Table 75-1)",
+        "mnemonic": "One, four, forty",
+        "page": "1150",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Valve area <1.0 cm²",
+              "Velocity >4 m/s",
+              "Mean gradient >40 mm Hg"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch75_study.md"
+      },
+      {
+        "title": "Symptomatic AS triad",
+        "mnemonic": "Ache, faint, fail",
+        "page": "1151",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Angina",
+              "Syncope",
+              "Heart failure"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch75_study.md"
+      },
+      {
+        "title": "Positive exercise-test findings in asymptomatic severe AS",
+        "mnemonic": "Symptoms, flat pressure, ST",
+        "page": "1151",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Symptoms",
+              "Flat blood-pressure response",
+              "ST changes"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch75_study.md"
+      }
+    ],
+    "81s": [
+      {
+        "title": "ICS risks in older adults",
+        "mnemonic": "Pneumonia, bone, lens, mycobacteria",
+        "page": "1253–1254",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Increased pneumonia risk",
+              "Reduced bone mineral density above 1000 mcg/day fluticasone-equivalent",
+              "Posterior subcapsular cataracts",
+              "Atypical mycobacterial infection"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch81_study.md"
+      },
+      {
+        "title": "Common bacterial exacerbation organisms",
+        "mnemonic": "H-M-S: Help My Sputum",
+        "page": "1259",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "H — Haemophilus influenzae",
+              "M — Moraxella catarrhalis",
+              "S — Streptococcus pneumoniae"
+            ]
+          }
+        ],
+        "note": "The three most common bacteria in Table 81-12, not all possible pathogens.",
+        "source": "chapters/hazzard8e_ch81_study.md"
+      },
+      {
+        "title": "ATS/ERS FEV1 severity (Table 81-5)",
+        "mnemonic": "Seventy, fifty, below",
+        "page": "1244",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Mild — FEV1 ≥70% predicted",
+              "Moderate — 50–69% predicted",
+              "Severe — <50% predicted"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch81_study.md"
+      }
+    ],
+    "83s": [
+      {
+        "title": "Contrast-associated AKI risks",
+        "mnemonic": "Age, kidney, diabetes; heart, dry, toxins",
+        "page": "1282",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Old age",
+              "CKD",
+              "Diabetes",
+              "Heart failure",
+              "Volume depletion",
+              "Other nephrotoxins"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch83_study.md"
+      },
+      {
+        "title": "Urine-output categories",
+        "mnemonic": "Over four; one-to-four; under one hundred",
+        "page": "1280",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Nonoliguric — >400 mL/day",
+              "Oliguric — 100–400 mL/day",
+              "Anuric — <100 mL/day"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch83_study.md"
+      },
+      {
+        "title": "Drug-induced interstitial nephritis classes",
+        "mnemonic": "Antibiotics, acid blockers, anti-inflammatories, water pills",
+        "page": "1287",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Antibiotics",
+              "Proton-pump inhibitors",
+              "NSAIDs",
+              "Diuretics"
+            ]
+          }
+        ],
+        "note": "Drug withdrawal is the chapter’s key intervention.",
+        "source": "chapters/hazzard8e_ch83_study.md"
+      }
+    ],
+    "88s": [
+      {
+        "title": "Why AML prognosis is worse with age",
+        "mnemonic": "Chromosomes, prior marrow, resistance, survival of blasts",
+        "page": "1385–1386",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Poor-prognosis karyotypes (5q−, 7q−)",
+              "Antecedent myelodysplastic syndrome",
+              "Chemoresistance pathways",
+              "Lower apoptosis of leukemic blasts after ara-C/daunorubicin"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch88_study.md"
+      },
+      {
+        "title": "CGA domains in cancer",
+        "mnemonic": "Function, illness, food, drugs; mind, means, syndromes",
+        "page": "1388",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Functional status",
+              "Comorbidities",
+              "Nutrition",
+              "Polypharmacy",
+              "Psychological/cognitive status",
+              "Socioeconomic issues",
+              "Geriatric syndromes"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch88_study.md"
+      },
+      {
+        "title": "Screening tools for full CGA (Table 88-2)",
+        "mnemonic": "G-eight, Groningen, VES, SAOP, abbreviated",
+        "page": "1389",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "G8",
+              "Groningen Frailty Indicator",
+              "VES-13",
+              "SAOP2",
+              "Abbreviated CGA (aCGA)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch88_study.md"
+      }
+    ],
+    "15s": [
+      {
+        "title": "AMT4 orientation items",
+        "mnemonic": "Age, birthday, building, year",
+        "page": "211",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Age",
+              "Date of birth",
+              "Place/building",
+              "Current year"
+            ]
+          }
+        ],
+        "note": "Name is not an AMT4 item.",
+        "source": "chapters/hazzard8e_ch15_study.md"
+      },
+      {
+        "title": "Four 4AT domains",
+        "mnemonic": "Awake, oriented, attentive, changed",
+        "page": "211",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Alertness",
+              "AMT4 (age, date of birth, place, year)",
+              "Attention (months backward from December)",
+              "Acute change/fluctuation arising within the past 2 weeks and still evident in the past 24 hours"
+            ]
+          }
+        ],
+        "note": "Domains only; use the complete scoring table above for scores and untestable responses.",
+        "source": "chapters/hazzard8e_ch15_study.md"
+      },
+      {
+        "title": "AMT4 uses shown in this chapter",
+        "mnemonic": "Delirium, dementia, abuse",
+        "page": "211–214",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "4AT delirium screening (p211)",
+              "ED dementia screening (p212)",
+              "Senior Aid abuse screening (p214)"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch15_study.md"
+      }
+    ],
+    "27s": [
+      {
+        "title": "Postoperative pulmonary complications",
+        "mnemonic": "Collapse, infect, fail, flare; spasm, fluid, air, obstruct",
+        "page": "375",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Atelectasis",
+              "Pneumonia",
+              "Respiratory failure",
+              "Chronic-lung-disease exacerbation",
+              "Bronchospasm",
+              "Pleural effusion",
+              "Pneumothorax",
+              "Airway obstruction"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch27_study.md"
+      },
+      {
+        "title": "Aging mechanisms favoring aspiration",
+        "mnemonic": "Weak wave, loose sphincter, hernia, slow stomach, reflux",
+        "page": "376",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Reduced esophageal peristaltic-wave amplitude",
+              "Reduced lower-esophageal-sphincter tone",
+              "Increased hiatal hernia",
+              "Delayed gastric emptying",
+              "Increased gastroesophageal reflux"
+            ]
+          }
+        ],
+        "note": "The chapter also identifies stroke-related impairment of swallowing, esophageal transit and secretion control.",
+        "source": "chapters/hazzard8e_ch27_study.md"
+      },
+      {
+        "title": "Renal insults after surgery",
+        "mnemonic": "Dry, shift, low pressure, low volume",
+        "page": "376",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Dehydration",
+              "Fluid shifts",
+              "Hypotension",
+              "Hypovolemia"
+            ]
+          }
+        ],
+        "note": "These predispose to acute tubular necrosis; drugs and contrast add nephrotoxicity.",
+        "source": "chapters/hazzard8e_ch27_study.md"
+      }
+    ],
+    "49s": [
+      {
+        "title": "SARC-F components",
+        "mnemonic": "Strength, assist, rise, climb, fall",
+        "page": "734",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Perceived strength",
+              "Assistance walking",
+              "Rising from a chair",
+              "Climbing stairs",
+              "Falls"
+            ]
+          }
+        ],
+        "note": "SARC-F is the book’s tool name; the plain-language sequence above is the recall cue.",
+        "source": "chapters/hazzard8e_ch49_study.md"
+      },
+      {
+        "title": "Measurement domains",
+        "mnemonic": "Mass scans; strength grips; performance performs",
+        "page": "735",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Muscle mass — BIA/DXA",
+              "Strength — handgrip",
+              "Physical performance — SPPB"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch49_study.md"
+      },
+      {
+        "title": "GLIM domains",
+        "mnemonic": "Body loses weight, BMI, muscle; causes cut intake or inflame",
+        "page": "736",
+        "groups": [
+          {
+            "title": "Phenotypic",
+            "items": [
+              "Nonvolitional weight loss",
+              "Low BMI",
+              "Reduced muscle mass"
+            ]
+          },
+          {
+            "title": "Etiologic",
+            "items": [
+              "Reduced intake/assimilation",
+              "Inflammation/disease burden"
+            ]
+          }
+        ],
+        "note": "This remembers the domains; low mass alone does not establish malnutrition.",
+        "source": "chapters/hazzard8e_ch49_study.md"
+      }
+    ],
+    "73s": [
+      {
+        "title": "Anatomical aging (Table 73-1)",
+        "mnemonic": "Mass steady; scar, shrink, shift, atrium, septum, valves, coronaries, conduction",
+        "page": "1116",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "No significant increase in LV mass",
+              "Myocardial fibrosis/collagen accumulation",
+              "Smaller LV cavity and shorter long axis",
+              "Dilated, right-shifted aorta",
+              "Larger left atrium",
+              "Senile septum",
+              "Calcific/fatty degeneration of valve leaflets and annuli",
+              "Coronary dilation/calcification",
+              "Loss and fibrosis of conduction tissue"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch73_study.md"
+      },
+      {
+        "title": "Myocyte loss mechanisms",
+        "mnemonic": "Necrose, apoptose, recycle, senesce",
+        "page": "1116",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Necrosis",
+              "Apoptosis",
+              "Autophagy",
+              "Cellular senescence"
+            ]
+          }
+        ],
+        "note": "The chapter links oxidative stress and mitochondrial damage to these pathways.",
+        "source": "chapters/hazzard8e_ch73_study.md"
+      },
+      {
+        "title": "Aging calcium cycling",
+        "mnemonic": "Less store, less retain, less retrieve, more leak",
+        "page": "1117",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Reduced SR calcium accumulation",
+              "Reduced SR calcium retention",
+              "Reduced effective calcium reuptake",
+              "Increased spontaneous calcium leak (sparks)"
+            ]
+          }
+        ],
+        "note": "Findings include experimental aging models; do not treat the cue as a quantitative clinical test.",
+        "source": "chapters/hazzard8e_ch73_study.md"
+      }
+    ],
+    "82s": [
+      {
+        "title": "Structural renal aging",
+        "mnemonic": "Membrane, mesangium, sclerosis",
+        "page": "1268",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Basement-membrane thickening",
+              "Mesangial expansion",
+              "Progressive glomerulosclerosis"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch82_study.md"
+      },
+      {
+        "title": "Potassium shifting versus removal",
+        "mnemonic": "Insulin, inhaler, bicarbonate shift; urine, resin, dialysis remove",
+        "page": "1271",
+        "groups": [
+          {
+            "title": "Shift into cells",
+            "items": [
+              "IV insulin",
+              "Inhaled beta-agonists",
+              "IV bicarbonate when metabolic acidosis is present"
+            ]
+          },
+          {
+            "title": "Remove from body",
+            "items": [
+              "Loop-diuretic-driven diuresis",
+              "Exchange resin such as sodium polystyrene sulfonate",
+              "Dialysis"
+            ]
+          }
+        ],
+        "note": "IV calcium stabilizes the myocardium but does not lower potassium. These are the book’s categories.",
+        "source": "chapters/hazzard8e_ch82_study.md"
+      },
+      {
+        "title": "CKD complications (Table 82-2)",
+        "mnemonic": "Pressure, blood, vessels; minerals, food, bone; nerves, function, mood",
+        "page": "1269",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Hypertension",
+              "Anemia",
+              "Increased cardiovascular mortality/morbidity",
+              "Calcium/phosphorus disorders",
+              "Compromised nutrition",
+              "Metabolic bone disease",
+              "Neuropathy",
+              "Impaired functioning/well-being",
+              "Depression"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch82_study.md"
+      }
+    ],
+    "87s": [
+      {
+        "title": "Constipation features listed in Rome criteria",
+        "mnemonic": "Few, force, firm; unfinished, blocked, manual",
+        "page": "1354",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "≤2 bowel movements/week",
+              "Straining",
+              "Hard stool (Bristol 1–2)",
+              "Sensation of incomplete evacuation",
+              "Sensation of anorectal obstruction",
+              "Manual maneuvers to defecate"
+            ]
+          }
+        ],
+        "note": "The chapter labels these Rome IV and prints ≥2 features on >25% of occasions for ≥12 weeks in the last 12 months; preserve the book’s wording for study.",
+        "source": "chapters/hazzard8e_ch87_study.md"
+      },
+      {
+        "title": "Age-related constipation mechanisms (Table 87-4)",
+        "mnemonic": "Collagen up, inhibition down, endorphins bind",
+        "page": "1356",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Increased colonic collagen deposition",
+              "Reduced inhibitory nerve input to circular muscle",
+              "Increased plasma-endorphin binding to gut receptors"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch87_study.md"
+      },
+      {
+        "title": "Rectal outlet delay: suppository order",
+        "mnemonic": "Glycerin goes; bisacodyl backs up",
+        "page": "1377",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "First-line — glycerin suppository",
+              "Second-line — bisacodyl suppository"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch87_study.md"
+      }
+    ],
+    "99s": [
+      {
+        "title": "Individualized A1C targets (Table 99-6)",
+        "mnemonic": "Good seven-and-half; middle eight; poor eight-and-half",
+        "page": "1571",
+        "groups": [
+          {
+            "title": "No hypoglycemia-risk drug",
+            "items": [
+              "Good health — <7.5%",
+              "Intermediate health — <8%",
+              "Poor health — <8.5%"
+            ]
+          },
+          {
+            "title": "On insulin/sulfonylurea/glinide",
+            "items": [
+              "Good health — ≥7.0 and <7.5%",
+              "Intermediate health — ≥7.5 and <8.0%",
+              "Poor health — ≥8.0 and <8.5%"
+            ]
+          }
+        ],
+        "note": "Health tier depends on comorbidity, function and cognition; retain the separate drug-risk groups.",
+        "source": "chapters/hazzard8e_ch99_study.md"
+      },
+      {
+        "title": "Geriatric assessment domains (Table 99-4)",
+        "mnemonic": "Function, cognition, mood, falls, vision, frailty",
+        "page": "1567",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "Functional status (ADLs/IADLs)",
+              "Cognition",
+              "Depression",
+              "Falls",
+              "Vision",
+              "Frailty"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch99_study.md"
+      },
+      {
+        "title": "Prediabetes thresholds",
+        "mnemonic": "Five-seven to six-four; hundred to one-two-five; one-forty to one-nine-nine",
+        "page": "1560",
+        "groups": [
+          {
+            "title": "",
+            "items": [
+              "A1C — 5.7–6.4%",
+              "Fasting plasma glucose — 100–125 mg/dL",
+              "2-hour OGTT — 140–199 mg/dL"
+            ]
+          }
+        ],
+        "note": "",
+        "source": "chapters/hazzard8e_ch99_study.md"
+      }
+    ]
+  }
+}

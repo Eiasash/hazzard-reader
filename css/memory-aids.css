@@ -1,0 +1,12 @@
+.memory-aids{direction:ltr;text-align:start;margin:20px 0;border:1px solid var(--rule);border-radius:10px;font:400 calc(13px * var(--fs,1))/1.45 var(--ui);overflow-wrap:anywhere}
+.memory-aids>summary{min-height:48px;box-sizing:border-box;padding:12px;font-weight:700;cursor:pointer}
+.memory-aids-body{padding:0 12px 12px}
+.memory-aid{padding:12px 0;border-top:1px solid var(--rule)}
+.reading-copy .memory-aid h3{font:700 calc(14px * var(--fs,1))/1.4 var(--ui);margin:0 0 6px}
+.reading-copy .memory-aid p{margin:6px 0}
+.reading-copy .memory-aid-cue{color:var(--ink)}
+.reading-copy .memory-aid-group{font-weight:700}
+.reading-copy .memory-aid ul{margin:6px 0;padding-inline-start:18px}
+.reading-copy .memory-aid li{margin:3px 0}
+.reading-copy .memory-aid-source,.reading-copy .memory-aid-note{font:400 calc(12px * var(--fs,1))/1.45 var(--ui)}
+.memory-aids button{min-height:44px}
