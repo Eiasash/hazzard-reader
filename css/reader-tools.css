@@ -1,0 +1,20 @@
+#appTabs [data-tab="tools"] { position:relative; }
+#appTabs .has-new-release::after { content:""; position:absolute; inset-block-start:5px; inset-inline-end:9px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
+#panel[data-current-pane="tools"] #whatsNewButton { min-height:44px; min-block-size:44px; height:auto; width:100%; text-align:start; margin-block:8px; }
+#panel[open][data-current-pane="tools"] { max-block-size:calc(var(--vv-height) * .6); }
+#panel[open][data-current-pane="whatsNew"] { height:calc(var(--vv-height) * .65); max-block-size:calc(var(--vv-height) * .65); }
+#panel[data-current-pane="whatsNew"] #panelBack { min-height:44px; min-block-size:44px; flex:none; }
+[data-pane="whatsNew"] { overflow-wrap:anywhere; }
+.release-entry { border-block-end:1px solid var(--rule); padding-block:8px 12px; }
+.release-entry h3 { margin-block:4px 8px; }
+.release-entry ul { padding-inline-start:22px; }
+.release-entry li { margin-block:8px; line-height:1.5; }
+#readerDebug { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100vw - 20px)); max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); padding:14px; border:1px solid var(--rule,#68737f); border-radius:12px; background:var(--surface,#fffdf8); color:var(--ink,#263029); font:14px/1.45 system-ui,sans-serif; overflow:auto; }
+#readerDebug::backdrop { background:rgb(0 0 0 / .45); }
+#readerDebug[open] { display:block; }
+#readerDebug h2 { font-size:18px; margin:0 0 10px; }
+#readerDebug .debug-actions { display:flex; flex-wrap:wrap; gap:8px; position:sticky; inset-block-start:-14px; background:var(--surface,#fffdf8); padding-block:8px; }
+#readerDebug button { min-height:44px; min-width:44px; padding:8px 12px; background:var(--soft,#eeece3); color:inherit; border:1px solid var(--rule,#68737f); border-radius:8px; font:inherit; cursor:pointer; }
+#readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:12px/1.5 monospace; }
+#readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:12px/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
+#readerDebug button:focus-visible,#readerDebug textarea:focus-visible { outline:2px solid var(--focus,#8a511c); outline-offset:2px; }
