@@ -12,10 +12,10 @@ window.HazzardLawCards = (() => {
       const data = await read();
       if (host.dataset.bankId !== id || host.querySelector('.law-question-links')) return;
       const links = document.createElement('div'); links.className = 'exam-evidence law-question-links';
-      for (const card of data.cards.filter(c => c.imaItem && c.questions.some(q => q.id === id))) {
+      for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => (c.imaItem || c.articleItem) && c.questions.some(q => q.id === id))) {
         const link = document.createElement('a'); link.dir = 'auto';
         link.href = '?chapter=laws&lawCard=' + encodeURIComponent(card.id) + '#law-card-' + encodeURIComponent(card.id);
-        link.textContent = 'IMA ' + card.imaItem + ' · ' + card.title;
+        link.textContent = 'IMA ' + (card.articleItem ? 'article ' + card.articleItem : card.imaItem) + ' · ' + card.title;
         links.append(link);
       }
       if (links.childElementCount) host.querySelector('.mcq-source').before(links);
@@ -23,27 +23,34 @@ window.HazzardLawCards = (() => {
   }
   async function decorate(copy) {
     if (copy.dataset.chapterId !== 'laws' || copy.querySelector('.law-cards')) return;
+    await decoratePanel(copy, false);
+    await decoratePanel(copy, true);
+  }
+  async function decoratePanel(copy, articles) {
     const panel = document.createElement('details');
-    panel.className = 'law-cards'; panel.dataset.readerMetadata = 'law-cards';
-    const summary = document.createElement('summary'); summary.textContent = 'Law cards · IMA required reading';
+    panel.className = 'law-cards' + (articles ? ' article-cards' : ''); panel.dataset.readerMetadata = articles ? 'article-cards' : 'law-cards';
+    const summary = document.createElement('summary'); summary.textContent = articles ? 'Required articles (IMA P005-2026)' : 'Law cards · IMA required reading';
     const body = document.createElement('div'); body.className = 'law-cards-body';
-    panel.append(summary, body); copy.prepend(panel);
+    panel.append(summary, body);
+    if (articles) copy.querySelector('.law-cards').after(panel);
+    else copy.prepend(panel);
     async function load() {
-      body.textContent = 'Loading law cards…';
+      body.textContent = articles ? 'Loading required articles…' : 'Loading law cards…';
       try {
         const data = await read();
         const fragment = document.createDocumentFragment();
-        if (data.requiredReading) {
+        if (articles ? data.articles : data.requiredReading) {
           const note = document.createElement('p'); note.className = 'law-card-source';
-          note.textContent = data.requiredReading.document + ' · pp. 2–3. ' + data.requiredReading.note;
+          note.textContent = articles ? data.articles.note : data.requiredReading.document + ' · pp. 2–3. ' + data.requiredReading.note;
           fragment.append(note);
         }
-        for (const card of [...data.cards].sort((a,b) => (a.imaItem || 100) - (b.imaItem || 100))) {
-          const section = document.createElement(card.imaItem ? 'details' : 'section'); section.className = 'law-card';
+        for (const card of [...(articles ? data.articles.cards : data.cards)].sort((a,b) => (a.imaItem || a.articleItem || 100) - (b.imaItem || b.articleItem || 100))) {
+          const numbered = card.imaItem || card.articleItem;
+          const section = document.createElement(numbered ? 'details' : 'section'); section.className = 'law-card';
           section.id = 'law-card-' + card.id;
-          if (card.imaItem) section.dir = 'rtl';
-          const heading = document.createElement(card.imaItem ? 'summary' : 'h2');
-          heading.textContent = (card.imaItem ? card.imaItem + '. ' : '') + card.title;
+          if (numbered) section.dir = card.direction || 'rtl';
+          const heading = document.createElement(numbered ? 'summary' : 'h2');
+          heading.textContent = (numbered ? numbered + '. ' : '') + card.title + (card.coverage ? ' · ' + card.coverage : '');
           const list = document.createElement('ul');
           for (const text of card.bullets) {
             const line = document.createElement('li'); line.textContent = text; list.append(line);
@@ -78,6 +85,12 @@ window.HazzardLawCards = (() => {
           }
           fragment.append(section);
         }
+        if (articles) for (const entry of data.articles.entries) {
+          const row = document.createElement('section'); row.className = 'law-card';
+          const heading = document.createElement('h2'); heading.textContent = entry.title + ' — ' + entry.status;
+          const source = document.createElement('p'); source.className = 'law-card-source'; source.textContent = entry.provenance;
+          row.append(heading, source); fragment.append(row);
+        }
         body.replaceChildren(fragment);
         const selected = new URL(location.href).searchParams.get('lawCard');
         const target = selected && [...body.children].find(e => e.id === 'law-card-' + selected);
@@ -88,8 +101,8 @@ window.HazzardLawCards = (() => {
         }
       } catch (error) {
         const message = document.createElement('p'); message.setAttribute('role', 'alert');
-        message.textContent = error.message || 'Law cards could not be loaded.';
-        const retry = document.createElement('button'); retry.textContent = 'Retry law cards';
+        message.textContent = error.message || 'Required reading could not be loaded.';
+        const retry = document.createElement('button'); retry.textContent = articles ? 'Retry required articles' : 'Retry law cards';
         retry.onclick = load; body.replaceChildren(message, retry);
       }
     }
