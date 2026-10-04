@@ -29,6 +29,9 @@ def apply(items, root=ROOT):
             seen.add(key)
             if row.get('images'):
                 q['images'] = list(row['images'])
+            for field in ('q', 'explanation', 'explanationIncomplete', 'explanationSource'):
+                if field in row:
+                    q[field] = row[field]
             q.update(t=row['sitting'] + '-Subspec', examNumber=row['number'],
                      sourceType=row['type'], ref=row['reference'],
                      referenceSource='IMA ' + row['sitting'] + f' reference list, Q{row["number"]}',

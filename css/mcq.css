@@ -1,4 +1,11 @@
 /* v41 uses the existing v39/v40 reader theme and compact controls. */
+.question-search{box-sizing:border-box;inset:0;margin:auto;inline-size:min(600px,calc(var(--vv-width,100vw) - 24px));max-block-size:min(70dvh,calc(var(--vv-height,100dvh) - 24px));padding:12px;border:1px solid var(--rule);border-radius:12px;background:var(--page);color:var(--ink);font:calc(14px * var(--fs,1))/1.4 var(--ui)}
+.question-search[open]{display:flex;flex-direction:column;gap:8px}.question-search::backdrop{background:#0008}
+.question-search-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.question-search h2,.question-search p{margin:0}.question-search h2{font:600 1.1em var(--ui)}
+.question-search button,.question-search input[type=search]{min-height:44px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--control);border-radius:6px;padding:8px}
+.question-search-heading button{min-width:44px}.question-search input[type=search]{width:100%;box-sizing:border-box}.question-search-scope{display:flex;align-items:center;gap:8px;min-height:40px}.question-search-scope[hidden]{display:none}.question-search input[type=checkbox]{width:20px;height:20px}
+.question-search-results{overflow:auto;overscroll-behavior:contain;min-height:0}.question-search-results button{display:block;width:100%;text-align:start;margin-bottom:6px}.question-search-results strong,.question-search-results span{display:block}.question-search-results span{margin-top:4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#chapterHeaderTitle:disabled{opacity:1;cursor:default}
 .sim-entry{display:inline-flex;flex-direction:column;justify-content:center;min-height:44px;color:var(--accent)}
 .sim-page button,.sim-page input,.sim-page select,.sim-page summary{min-height:44px;font:inherit}
 .sim-page fieldset{padding:8px;border:1px solid var(--rule);border-radius:8px;margin:14px 0}
