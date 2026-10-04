@@ -1678,8 +1678,8 @@
     },
     {
       "url": "./data/law-cards.json",
-      "sha256": "876fb3bf395c876e2f982a1495e46f16a722c5d007968856f2f99df7bed99230",
-      "bytes": 116069
+      "sha256": "bd38001bf956a7c0be920912ccf7c689d80349b3ad0c1b1688ef63427f467069",
+      "bytes": 116073
     },
     {
       "url": "./data/mcq/101.json",
