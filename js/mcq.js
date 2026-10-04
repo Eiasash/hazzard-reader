@@ -76,7 +76,7 @@ window.HazzardMCQ = (() => {
     return response.json();
   }
   function loadIndex() {
-    return catalogPromise ||= Promise.all([json('data/mcq/index.json'),HazzardEvidence.load()]).then(([index,evidence])=>Object.fromEntries(Object.entries(index).map(([ch,counts])=>[ch,{...counts,...(evidence.study[ch]?{past:evidence.study[ch].past}: {})}]))).catch(error => { catalogPromise = null; throw error; });
+    return catalogPromise ||= Promise.all([json('data/mcq/index.json'),HazzardEvidence.load()]).then(([index,evidence])=>Object.fromEntries([...new Set([...Object.keys(index),...Object.keys(evidence.study)])].map(ch=>[ch,{...index[ch],...(evidence.study[ch]?{past:evidence.study[ch].past,practice:evidence.study[ch].practice}: {})}]))).catch(error => { catalogPromise = null; throw error; });
   }
   function sourceLabel(q) {
     if (q.kind === 'practice') return PRACTICE_LABEL;
@@ -308,7 +308,9 @@ window.HazzardMCQ = (() => {
     async function load(){
       if(busy)return;busy=true;host.innerHTML='<div class="mcq-page"><p role="status">Loading questions…</p></div>';
       try{
-        [items,topics,collections,evidence]=await Promise.all([json('data/mcq/'+(bankMode||mockMode?'all':chapter)+'.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json'),HazzardEvidence.load(),loadAliases()]);
+        evidence=await HazzardEvidence.load();
+        const studyOnly=!!evidence.study[chapter]?.studyOnly;
+        [items,topics,collections]=await Promise.all([studyOnly?Promise.resolve([]):json('data/mcq/'+(bankMode||mockMode?'all':chapter)+'.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json'),loadAliases()]);
         if(evidence.study[chapter]){
           const ids=new Set(evidence.study[chapter].ids),all=await json('data/mcq/all.json');
           items=[...all.filter(q=>ids.has(q.id)),...items.filter(q=>q.kind==='practice')];
