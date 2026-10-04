@@ -1,5 +1,5 @@
 {
-  "version": "v62",
+  "version": "v63",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -1653,8 +1653,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "3d0ab32b34a042dadb00d4bbf1d40e75d192d04c3e38a5606d4a5deb36840fcb",
-      "bytes": 12738
+      "sha256": "9ff3af0a78a5356b8b93710c00ff1d8dfd8979365b196957d368bc4fbd051ff0",
+      "bytes": 13768
     },
     {
       "url": "./css/memory-aids.css",
@@ -2123,7 +2123,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "e03a154cbf2ecd61bfc186d2cae4d4ff5f70403f02d65c5c60979b63eddb0acb",
+      "sha256": "dda9d16e6af6ae9fe5adaf185af87ee40dd6ff27e2de4053e7f3006e4213c4ac",
       "bytes": 3274128
     },
     {
@@ -2158,8 +2158,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "ff504ac532fff759b298a99ca322f752ed430ece3fbb05f71e033f37710fce54",
-      "bytes": 49513
+      "sha256": "61c465730773da658e5a3bef4aa2bb5d335cd4d3941d41a2744cd51a28d9e52a",
+      "bytes": 52095
     },
     {
       "url": "./js/memory-aids.js",
@@ -2173,7 +2173,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "cab8c96729a9354ef694b12e170dbf9d498e80756657d43a30b09228c0c725a3",
+      "sha256": "b7ca83dad5d2588e31b28d9959cd57f4cec6691c3b2661ef6dc3ea2f52c0f609",
       "bytes": 6590
     },
     {
