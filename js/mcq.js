@@ -17,6 +17,7 @@ window.HazzardMCQ = (() => {
   function migrateValue(key,value){
     // Keep every historical record. Canonical copies allow old and new clients
     // to coexist; read-time resolution also covers papers without changing IDs.
+    if(key===HazzardReview.KEY)return HazzardReview.canonical(value);
     return key===KEY?{...value,answers:{...value.answers,...currentAnswers(value.answers)}}:value;
   }
   async function migrateSaved(){
@@ -133,17 +134,18 @@ window.HazzardMCQ = (() => {
   function mergePaper(current,incoming){return current.at>=incoming.at?current:incoming;}
   function shuffle(items){const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}return result;}
   function mount({chapter,viewport,readerScroll,onShow,onNotes,openImage}){
-    const bankMode=chapter==='bank',mockMode=chapter==='mock';
+    const bankMode=chapter==='bank',mockMode=chapter==='mock',reviewMode=bankMode&&new URL(location.href).searchParams.get('review')==='1';
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label',bankMode?'Question bank':mockMode?'Mock paper':'Exam questions');viewport.append(host);
     let items=[],topics=[],filter='all',year='all',level='all',topic='all',sort='source',position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
     const answers=new Map(),pending=new Map(),retryAnswers=new Map(),dismissed=new Set();
     let personal={version:1,flags:{},lawTopics:{ids:[],at:0}},flagsView=bankMode&&location.hash==='#flags',notice='';
     let systemPrefs={version:1,selected:false,at:0,flags:{}},collections={israeliSystem:{enabled:false,ids:[]},topicFallbacks:{}},lawIds=new Set(),articleIds=new Set(),articleSelected=false,lastAnswer=null;
-    let missedIds=null;
+    let missedIds=null,reviewBatch=null;
     let evidence={questions:{},study:{}},viewTimer,restoringView=false;
     function viewState(){const q=visible()[position];return q?{version:1,id:currentId(q.id),filter,year,level,topic,sort,missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:host.scrollTop,at:Date.now()}:null;}
     function saveView(){
       if(!loaded||!controller.active||restoringView)return;
+      if(reviewMode){try{HazzardReview.position(position);history.replaceState({...history.state,reviewView:{id:visible()[position]?.id,scroll:host.scrollTop,lastAnswer}},'');}catch{storageError='Review position could not be saved.';}return;}
       const view=viewState();if(!view)return;
       try{
         history.replaceState({...history.state,mcqView:{...view,missedIds:missedIds?[...missedIds]:null,retryAnswers:[...retryAnswers],lastAnswer}},'');
@@ -151,6 +153,7 @@ window.HazzardMCQ = (() => {
       }catch{notice='Question position could not be saved.';}
     }
     function restoreView(view){
+      if(reviewMode)return false;
       if(!validView(view))return false;
       ({filter,year,level,topic,sort,missedOnly,flagsView}=view);
       lastAnswer=view.lastAnswer||null;
@@ -184,6 +187,7 @@ window.HazzardMCQ = (() => {
       return html+'</div>';
     }
     function sync(){
+      if(reviewMode){try{reviewBatch=HazzardReview.read().batch;if(reviewBatch)position=reviewBatch.position;}catch{storageError='Review queue could not be read.';}}
       let flagsError='';try{personal=readFlags();systemPrefs=readSystem();}catch{flagsError='Personal topic flags or source choices could not be read. Existing data has not been overwritten.';}
       try{const saved=mockMode?readPaper():readStore();if(mockMode){if(saved&&!paperPending){paper=saved.paper;settings=saved.settings;}if(paper)position=paper.position;}else{answers.clear();for(const [id,a]of Object.entries(saved.answers))answers.set(id,a)}storageError='';}
       catch{storageError='Saved answers could not be read. Existing data has not been overwritten.';}
@@ -233,8 +237,9 @@ window.HazzardMCQ = (() => {
       return '<h2>Topic flags</h2>'+(entries.length?entries.map(([id,f])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><div class="mcq-mixed" dir="auto">'+rich(q?q.q:'Question no longer in the current bank')+'</div><p class="meta">'+escape(f.scopes.map(scopeLabel).join(' · '))+'</p><button class="quiet" data-undo-flag="'+id+'">Undo flag</button></section>';}).join(''):'<p>No topic flags.</p>');
     }
     function paperId(q){return paper.ids.filter(id=>currentId(id)===q.id).sort((a,b)=>(paper.answers[b]?.at??-1)-(paper.answers[a]?.at??-1))[0]||q.id;}
-    function stateFor(q){return mockMode?(paper.answers[paperId(q)]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());}
+    function stateFor(q){return reviewMode?(reviewBatch?.answers[q.id]||empty()):mockMode?(paper.answers[paperId(q)]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());}
     function visible(){
+      if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));return (reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(Boolean);}
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
       let list=items.filter(q=>!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+filter))&&(!['law','articles'].includes(filter)||!flagged(q,'topic:'+q.topic))&&(topic==='all'||!flagged(q,'topic:'+topic))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!flagged(q,'topic:'+q.topic)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&(year==='all'||q.t.startsWith(year))&&(level==='all'||(level==='unspecified'?!/-(Basic|Subspec)$/.test(q.t):q.t.endsWith('-'+level)))&&(topic==='all'||q.topic===Number(topic))&&(!missedOnly||missedIds.has(q.id)));
@@ -243,6 +248,7 @@ window.HazzardMCQ = (() => {
     }
     function selection(name,value,choices,label){return '<label>'+label+'<select data-select="'+name+'">'+choices.map(([v,text])=>'<option value="'+escape(v)+'" '+(String(v)===value?'selected':'')+'>'+escape(text)+'</option>').join('')+'</select></label>';}
     function header(list){
+      if(reviewMode){const r=HazzardReview.read(),done=Object.values(reviewBatch?.answers||{}).filter(a=>a.checked).length;return '<p class="eyebrow">DAILY PRACTICE</p><h1>Review</h1><p class="meta">'+done+' / '+list.length+' answered · '+HazzardReview.due(r).length+' due</p><label class="mcq-review-size">Daily batch <select data-select="review-size">'+[10,30,50].map(n=>'<option value="'+n+'" '+(n===r.settings.size?'selected':'')+'>'+n+'</option>').join('')+'</select></label>'+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?(position+1)+' of '+list.length:'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');}
       const title=bankMode?(flagsView?'Missed / flags':'Question bank'):mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
       let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+(!bankMode&&!mockMode?'<button data-mcq="notes" class="quiet">Study notes</button>':'')+'</div>';
       if(bankMode)html+='<div class="mcq-view-links"><button class="quiet" data-mcq="questions" aria-pressed="'+!flagsView+'">Questions</button><button class="quiet" data-mcq="flags" aria-pressed="'+flagsView+'">Flags ('+flagCount()+')</button></div>';
@@ -266,17 +272,19 @@ window.HazzardMCQ = (() => {
     }
     function render(){
       if(mockMode&&building){renderBuilder();return;}
-      const list=visible();position=Math.min(position,Math.max(0,list.length-1));const q=list[position];
+      const list=visible();position=Math.min(position,reviewMode?list.length:Math.max(0,list.length-1));const q=list[position];
       host.innerHTML='<div class="mcq-page">'+header(list)+'<div class="mcq-question"></div></div>';const content=host.querySelector('.mcq-question');
-      if(bankMode&&flagsView){content.innerHTML=flagsList();return;}
+      if(!reviewMode&&bankMode&&flagsView){content.innerHTML=flagsList();return;}
+      if(reviewMode&&(!q||position===list.length)){content.innerHTML='<h2>'+(!list.length?'Nothing due today':'Daily batch complete')+'</h2><p>Your progress is saved. Come back tomorrow.</p><a href="?chapter=bank">Open question bank</a>';return;}
       if(!q){content.innerHTML='<p>No questions match these filters.</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
-      const state=stateFor(q),canUndo=lastAnswer?.id===q.id&&lastAnswer.at===state.at&&state.checked,accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'];content.dataset.bankId=q.id;
+      const state=stateFor(q),canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'];content.dataset.bankId=q.id;
       content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(topics[q.topic]||'')+(q.chapter?' · Reader chapter '+escape(q.chapter):'')+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(q.label?'<p class="mcq-source-note" role="note">'+escape(q.label)+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+rich(q.q)+'</div>'+
+        '<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!HazzardReview.read().items[q.id]?.unsure+'">'+(HazzardReview.read().items[q.id]?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+'</div>'+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+q.o.map((option,i)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(state.checked&&accepted.includes(i)?'✓':state.checked&&state.selected===i?'✕':letters[i]||String(i+1))+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(option)+'</span></button>').join('')+'</div>'+
-        '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+(!mockMode&&position>=list.length-1?'disabled':'')+'>Next</button></div>'+
-        (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[i]||String(i+1)).join(', '))+(canUndo?' <button class="mcq-answer-undo" data-mcq="undo" dir="ltr">Undo</button>':'')+'</p><section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(q.explanation):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+'<p class="mcq-source" dir="auto">'+escape(sourceLabel(q))+'<br>'+escape(q.sourceType==='Other'?'Other source · '+q.ref:q.ref)+(q.referenceSource?'<br>'+escape(q.referenceSource):'')+(q.keySource?'<br>'+escape(q.keySource):'')+'</p>';
+        '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+((reviewMode&&!state.checked||!mockMode&&!reviewMode&&position>=list.length-1)?'disabled':'')+'>Next</button></div>'+
+        (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[i]||String(i+1)).join(', '))+'</p><section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(q.explanation):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+'<p class="mcq-source" dir="auto">'+escape(sourceLabel(q))+'<br>'+escape(q.sourceType==='Other'?'Other source · '+q.ref:q.ref)+(q.referenceSource?'<br>'+escape(q.referenceSource):'')+(q.keySource?'<br>'+escape(q.keySource):'')+'</p>';
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       content.querySelector('.mcq-source').insertAdjacentHTML('beforebegin',citationHTML(q));
       const topicLabel=content.querySelector('.mcq-topic-label');
@@ -305,6 +313,8 @@ window.HazzardMCQ = (() => {
           const ids=new Set(evidence.study[chapter].ids),all=await json('data/mcq/all.json');
           items=[...all.filter(q=>ids.has(q.id)),...items.filter(q=>q.kind==='practice')];
         }
+        await HazzardReview.seed();
+        if(reviewMode){reviewBatch=HazzardReview.batch(items);position=reviewBatch.position;}
         lawIds=new Set(collections.israeliLawEthics.ids);articleIds=new Set(collections.suppliedArticles?.ids||[]);
         if(mockMode){
           const url=new URL(location.href),n=url.searchParams.get('n');
@@ -313,12 +323,16 @@ window.HazzardMCQ = (() => {
           const available=new Set(items.map(q=>q.id));if(paper&&!paper.ids.every(id=>available.has(currentId(id)))){building=true;storageError='Some saved paper questions are unavailable in this release. Start a new paper.';}
         }
         let view=history.state?.mcqView;
-        const target=bankMode?new URL(location.href).searchParams.get('q'):null;
-        if(bankMode&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
+        const target=bankMode&&!reviewMode?new URL(location.href).searchParams.get('q'):null;
+        if(bankMode&&!reviewMode&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
         const restored=!target&&restoreView(view);
         loaded=true;restoringView=restored;
         if(target){if(items.some(q=>q.id===currentId(target)))jump(target);else{notice='That question is unavailable.';render();}}
-        else{render();if(restored)restoreScroll(view);}
+        else{
+          const rv=reviewMode?history.state?.reviewView:null;
+          if(rv&&visible()[position]?.id===rv.id){lastAnswer=rv.lastAnswer||null;restoringView=true;}
+          render();if(restored)restoreScroll(view);else if(restoringView&&rv)restoreScroll(rv);
+        }
       }catch(error){host.innerHTML='<div class="mcq-page"><p role="alert">'+escape(error.message||'Questions could not be loaded.')+'</p><button data-mcq="load">Reload questions</button>'+(!bankMode&&!mockMode?' <button data-mcq="notes">Study notes</button>':'')+'</div>';}
       finally{busy=false;}
     }
@@ -333,13 +347,14 @@ window.HazzardMCQ = (() => {
       if(q)jump(q.id);else event.target.querySelector('[data-jump-status]').textContent='No question with that sitting and number.';
     });
     host.addEventListener('change',event=>{const name=event.target.dataset.select;if(!name)return;lastAnswer=null;const value=event.target.value;
+      if(name==='review-size'){try{const r=HazzardReview.size(Number(value),items);reviewBatch=r.batch;position=reviewBatch.position;notice='Batch size saved. Completed answers are kept.';}catch{storageError='Batch size could not be saved.';}render();return;}
       if(name==='mock-year'||name==='mock-level'){settings[name==='mock-year'?'year':'level']=value;save();render();return;}
       if(name==='source'){filter=normalizeSource(value);year='all';level='all';topic='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;
       position=0;render();host.scrollTop=0;
     });
     host.addEventListener('click',event=>{
       const button=event.target.closest('button');if(!button||!host.contains(button)||button.disabled)return;const action=button.dataset.mcq;
-      if(button.dataset.option===undefined&&button.dataset.image===undefined&&button.dataset.page===undefined&&!['undo','save'].includes(action))lastAnswer=null;
+      if(button.dataset.option===undefined&&button.dataset.image===undefined&&button.dataset.page===undefined&&!['undo','unsure','save'].includes(action))lastAnswer=null;
       if(action==='notes'){controller.notes();return;}if(action==='load'){load();return;}if(action==='save'){save();render();return;}
       if(action==='flags'||action==='questions'){flagsView=action==='flags';render();host.scrollTop=0;return;}
       if(button.dataset.undoFlag){writeFlag({id:button.dataset.undoFlag},true);render();return;}
@@ -366,10 +381,23 @@ window.HazzardMCQ = (() => {
         if(writeFlag(q)){render();if(mockMode)save();}else render();return;
       }
       const state={...stateFor(q)};
+      if(action==='unsure'){
+        try{
+          const previousReview=HazzardReview.read().items[q.id]||null,unsure=!previousReview?.unsure,previousAction=lastAnswer;
+          const attempt=lastAnswer?.kind==='unsure'?lastAnswer.attempt:lastAnswer;
+          const value=state.checked?HazzardReview.result(attempt?.id===q.id?attempt.previousReview:previousReview,{correct:q.accepted.includes(state.selected),unsure,review:reviewMode&&attempt?.id===q.id}):{...(previousReview||HazzardReview.blank()),unsure,...(unsure?{active:true,step:0,due:HazzardReview.plus(HazzardReview.day(),1)}:{})};
+          const saved=HazzardReview.set(q.id,value);lastAnswer={kind:'unsure',id:q.id,previousReview,reviewAt:saved.items[q.id].at,previousAction,attempt};
+        }catch{storageError='Uncertainty could not be saved. Try again.';}
+        const y=host.scrollTop;render();host.scrollTop=y;return;
+      }
       if(action==='undo'){
-        if(lastAnswer?.id!==q.id||lastAnswer.at!==state.at||!state.checked)return;
+        if(lastAnswer?.id!==q.id)return;
+        try{if(HazzardReview.read().items[q.id]?.at!==lastAnswer.reviewAt){lastAnswer=null;notice='Review state changed in another tab. Undo is no longer available.';sync();return;}}catch{storageError='Review state could not be read safely.';render();return;}
+        if(lastAnswer.kind==='unsure'){try{const undo=lastAnswer,saved=HazzardReview.set(q.id,undo.previousReview);lastAnswer=undo.previousAction;if(lastAnswer)lastAnswer.reviewAt=saved.items[q.id].at;}catch{storageError='Undo could not be saved.';}render();return;}
+        if(lastAnswer.at!==state.at||!state.checked)return;
         try{if(pending.get(q.id)?.at!==lastAnswer.at&&readStore().answers[q.id]?.at!==lastAnswer.at){lastAnswer=null;sync();return;}}catch{storageError='The answer could not be read safely.';render();return;}
         const undo=lastAnswer,at=Math.max(Date.now(),state.at+1);
+        try{const r=HazzardReview.set(q.id,undo.previousReview,reviewMode?undo.previousBatchAnswer||null:undefined);if(reviewMode)reviewBatch=r.batch;}catch{storageError='Review Undo could not be saved.';render();return;}
         const restored={...(undo.previousAnswer||empty()),at};
         answers.set(q.id,restored);pending.set(q.id,restored);
         if(missedOnly){if(undo.previousRetry)retryAnswers.set(q.id,undo.previousRetry);else retryAnswers.delete(q.id);}
@@ -377,17 +405,20 @@ window.HazzardMCQ = (() => {
         save();lastAnswer=null;render();host.querySelector('[data-option="0"]')?.focus({preventScroll:true});return;
       }
       if(action==='next'||action==='prev'){
+        if(action==='next'&&position===list.length-1&&reviewMode){position=list.length;HazzardReview.position(position);render();host.scrollTop=0;return;}
         if(action==='next'&&position===list.length-1&&mockMode){paper.finished=true;save();render();host.scrollTop=0;return;}
         position+=action==='next'?1:-1;if(mockMode)save();render();host.scrollTop=0;return;
       }
       if(button.dataset.option!==undefined&&!state.checked){state.selected=Number(button.dataset.option);state.checked=true;}
       else return;
       let previousAnswer;try{previousAnswer=readStore().answers[q.id];}catch{storageError='The previous answer could not be read safely.';render();return;}
-      const undo={id:q.id,previousAnswer:previousAnswer?{...previousAnswer}:null,previousRetry:retryAnswers.get(q.id),paperId:mockMode?paperId(q):null,previousPaperAnswer:mockMode?paper.answers[paperId(q)]:null,position,finished:mockMode?paper.finished:false};
-      commit(q,state);lastAnswer={...undo,at:state.at};const y=host.scrollTop;render();host.scrollTop=y;
+      const previousReview=HazzardReview.read().items[q.id]||null;
+      const undo={id:q.id,previousReview,previousBatchAnswer:reviewBatch?.answers[q.id],previousAnswer:previousAnswer?{...previousAnswer}:null,previousRetry:retryAnswers.get(q.id),paperId:mockMode?paperId(q):null,previousPaperAnswer:mockMode?paper.answers[paperId(q)]:null,position,finished:mockMode?paper.finished:false};
+      try{const saved=HazzardReview.set(q.id,HazzardReview.result(previousReview,{correct:q.accepted.includes(state.selected),unsure:!!previousReview?.unsure,review:reviewMode}),reviewMode?{...state,at:Date.now()}:undefined);undo.reviewAt=saved.items[q.id].at;if(reviewMode)reviewBatch=saved.batch;}catch{storageError='Review progress could not be saved. Try answering again.';render();return;}
+      commit(q,state);if(reviewMode){reviewBatch.answers[q.id]=state;try{const r=HazzardReview.read();r.batch=reviewBatch;r.batchAt=Math.max(Date.now(),r.batchAt+1);HazzardReview.write(r);}catch{storageError='Review answer could not be saved.';}}lastAnswer={...undo,at:state.at};const y=host.scrollTop;render();host.scrollTop=y;
       host.querySelector('[data-mcq="next"]')?.focus({preventScroll:true});
     });
-    sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===SYSTEM_KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
+    sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
   return {KEY,PAPER_KEY,FLAGS_KEY,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};

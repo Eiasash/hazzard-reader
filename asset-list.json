@@ -1,5 +1,5 @@
 {
-  "version": "v55",
+  "version": "v56",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "a86ceeec16a397d6047b09f07ce43ded5e891ff4364bc8daee3c8f82368a3328",
-      "bytes": 9597
+      "sha256": "44063228ba55940c6ac41c5ea2d148d432f6728112be6b95e650469563af97aa",
+      "bytes": 10539
     },
     {
       "url": "./data/mcq/101.json",
@@ -1988,8 +1988,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "85a6b7135399985b02668c1aacc995bdce315e5af50bb9ad8028a2ebe0fd4e5b",
-      "bytes": 3261514
+      "sha256": "6f72890c20886dc9497bfc9bc1f717778610754d330f015df1df51137051c900",
+      "bytes": 3262563
     },
     {
       "url": "./js/exam-evidence.js",
@@ -2002,24 +2002,29 @@
       "bytes": 100510
     },
     {
+      "url": "./js/mcq-review.js",
+      "sha256": "1596e1914c3e2bfe4f0a6a0b99b6bd6c79131b7e5c547eb9c1ec1b02e9bee08a",
+      "bytes": 6569
+    },
+    {
       "url": "./js/mcq.js",
-      "sha256": "87fa788822c899271167f77ad10d398d0a42ede2f395886e99b0641ad24953e7",
-      "bytes": 43578
+      "sha256": "022bfc860c7d737ab4321df6d8f0f0d57d6e181c23a64db65975adfb26696518",
+      "bytes": 49187
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "d8d75f37c8fa517fc142f779309dd0cc92b8cdd787354fbdc923bd5e9393ea05",
-      "bytes": 10461
+      "sha256": "f45bebcfcd38934754c4021af8368283ab1a769dea45a2548a2692c752733623",
+      "bytes": 10458
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "4ac43deb5cd79847a65ecff1f71c5a6c397ff166a660f5d67334e26ee4cf4655",
+      "sha256": "e27adf2f92b2c6a9cb6a9b48b0a37c64986b85ed7b8c0f81a1d3479797bda3a2",
       "bytes": 6590
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "b893e4c38a6b31aa571290738eb26199f81d5d5b60de86656fc82aebc9b7717a",
-      "bytes": 9068
+      "sha256": "3eca2b0b5c26a3f76c31c2ba8b93d51df49bf49eeffc19a414bd121c7d2f4500",
+      "bytes": 9167
     },
     {
       "url": "./manifest.json",
