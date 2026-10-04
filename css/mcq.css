@@ -79,3 +79,20 @@
 .mcq-unsure-removed{animation:mcq-status-fade 3s forwards}
 @keyframes mcq-status-fade{0%,70%{opacity:1}100%{opacity:0;visibility:hidden}}
 @media(prefers-reduced-motion:reduce){.mcq-unsure-removed{animation-timing-function:steps(1,end)}}
+
+/* Verified source tables replace only their exact flattened display span. */
+.mcq-lab-scroll{overflow-x:auto;max-width:100%;margin:12px 0;direction:ltr}
+.mcq-lab-table{border-collapse:collapse;font:400 calc(13px * var(--fs,1))/1.45 var(--ui);text-align:left;white-space:nowrap}
+.mcq-lab-table th,.mcq-lab-table td{border:1px solid var(--rule);padding:6px 9px;background:var(--page);color:var(--ink)}
+.mcq-lab-table thead th{background:var(--soft)}
+.mcq-explanation :is(h1,h2,h3,h4,h5,h6){font:700 1.08em/1.4 var(--ui);margin:12px 0 6px}
+.exam-page-marker{font-size:0!important}
+.exam-evidence{display:flex;margin:6px 0}
+@media (min-width:900px){
+  .mcq-page{max-width:1000px;padding-inline:24px;box-sizing:border-box}
+  #mcqViewport{scroll-padding-top:calc(var(--mcq-filter-height,0px) + 16px)}
+  .mcq-page>nav.mcq-filters{position:sticky;top:0;z-index:3;background:var(--page);padding-block:8px;border-bottom:1px solid var(--rule)}
+  .mcq-confidence{justify-content:flex-end;gap:8px;margin:4px 0}
+  .mcq-confidence button{min-height:44px;padding:4px 12px}
+  .mcq-unsure-status{text-align:end;margin:0 0 6px}
+}
