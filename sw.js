@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v70';
+const CACHE_VERSION = 'v70-r1';
 // v70 source-label encoding correction; refresh already-installed v70 copies.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const SHELL_URL = './index.html';

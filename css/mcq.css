@@ -47,8 +47,8 @@
 
 .mcq-option .mcq-mixed{min-width:0}.mcq-source-note{font:600 calc(12px * var(--fs,1))/1.5 var(--ui);color:var(--exam);background:var(--exam-soft);padding:7px 9px;border-radius:6px}.mcq-source{overflow-wrap:anywhere}
 
-/* Long explanations stay within the phone viewport and scroll internally. */
-.mcq-explanation{max-height:calc(var(--vv-height,100dvh) * .45);overflow:auto;overscroll-behavior:contain;padding:8px 10px}
+/* Explanations flow in the question page; Prev/Next remain above them. */
+.mcq-explanation{padding:8px 10px}
 .mcq-explanation h3{font:700 calc(13px * var(--fs,1))/1.4 var(--ui)}
 
 /* v53: all bank controls and answer copy share the app scale. */
