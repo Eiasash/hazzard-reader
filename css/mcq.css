@@ -85,6 +85,9 @@
 .mcq-lab-table{border-collapse:collapse;font:400 calc(13px * var(--fs,1))/1.45 var(--ui);text-align:left;white-space:nowrap}
 .mcq-lab-table th,.mcq-lab-table td{border:1px solid var(--rule);padding:6px 9px;background:var(--page);color:var(--ink)}
 .mcq-lab-table thead th{background:var(--soft)}
+.mcq-lab-table[dir="rtl"]{white-space:normal;min-width:580px;text-align:right}
+.mcq-lab-table[dir="rtl"] p{margin:0}
+.mcq-lab-scroll:has(.mcq-lab-table[dir="rtl"]){direction:rtl}
 .mcq-explanation :is(h1,h2,h3,h4,h5,h6){font:700 1.08em/1.4 var(--ui);margin:12px 0 6px}
 .exam-page-marker{font-size:0!important}
 .exam-evidence{display:flex;margin:6px 0}

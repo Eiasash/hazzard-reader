@@ -16,9 +16,11 @@ window.HazzardLawCards = (() => {
         const link = document.createElement('a'); link.dir = 'auto';
         link.href = '?chapter=laws&lawCard=' + encodeURIComponent(card.id) + '#law-card-' + encodeURIComponent(card.id);
         link.textContent = 'IMA ' + (card.articleItem ? 'article ' + card.articleItem : card.imaItem) + ' · ' + card.title;
+        const question=card.questions.find(q=>q.id===id);
+        if(question.note)link.textContent+=' · '+question.note;
         links.append(link);
       }
-      if (links.childElementCount) host.querySelector('.mcq-source').before(links);
+      if (links.childElementCount) (host.querySelector('.mcq-citations') || host).append(links);
     } catch { /* The question remains usable if optional card metadata is unavailable. */ }
   }
   async function decorate(copy) {
@@ -46,10 +48,11 @@ window.HazzardLawCards = (() => {
         }
         for (const card of [...(articles ? data.articles.cards : data.cards)].sort((a,b) => (a.imaItem || a.articleItem || 100) - (b.imaItem || b.articleItem || 100))) {
           const numbered = card.imaItem || card.articleItem;
-          const section = document.createElement(numbered ? 'details' : 'section'); section.className = 'law-card';
+          const collapsible=numbered || card.requiredBook;
+          const section = document.createElement(collapsible ? 'details' : 'section'); section.className = 'law-card';
           section.id = 'law-card-' + card.id;
-          if (numbered) section.dir = card.direction || 'rtl';
-          const heading = document.createElement(numbered ? 'summary' : 'h2');
+          if (collapsible) section.dir = card.direction || 'rtl';
+          const heading = document.createElement(collapsible ? 'summary' : 'h2');
           heading.textContent = (numbered ? numbered + '. ' : '') + card.title + (card.coverage ? ' · ' + card.coverage : '');
           const list = document.createElement('ul');
           for (const text of card.bullets) {
@@ -74,11 +77,12 @@ window.HazzardLawCards = (() => {
             const link = document.createElement('a');
             link.href = HazzardEvidence.questionURL(question.id);
             link.textContent = 'Asked: ' + HazzardEvidence.label(question);
+            if(question.note)link.textContent+=' · '+question.note;
             link.title = question.reference;
             links.append(link);
           }
           if (card.questions.length) section.append(links);
-          else {
+          else if (!card.requiredBook) {
             const note = document.createElement('p'); note.className = 'law-card-source';
             note.textContent = 'No matching official question identified for this item.';
             section.append(note);

@@ -45,7 +45,10 @@ def build():
         if r['type'] != 'Hazzard':
             entry['reason'] = 'Official reference is not Hazzard 8e'
             continue
-        ref = r['reference']
+        # A checked correction never silently replaces the printed IMA citation.
+        ref = r.get('readerReference', r['reference'])
+        if r.get('referenceNote'):
+            entry['referenceNote'] = r['referenceNote']
         entry['tables'] = list(dict.fromkeys(re.findall(r'\bTable\s+(\d+[-–]\d+)', ref, re.I)))
         # Only explicit p./pp. locators count as pages. Table/chapter numbers do not.
         page_sets = re.findall(r'\bpp?\.\s*(\d+(?:\s*[-–]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-–]\s*\d+)?)*)', ref, re.I)
