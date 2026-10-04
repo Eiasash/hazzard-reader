@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/mcq.css">
 <link rel="stylesheet" href="css/law-cards.css">
 <link rel="stylesheet" href="css/memory-aids.css">
+<link rel="stylesheet" href="css/drug-index.css">
 <style>
 /* CORE SYSTEM. All authored pixel dimensions scale with the existing --fs control.
    Percentages, viewport measurements, grid fractions and unitless line heights are structural. */
@@ -891,6 +892,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 
   <p class="eyebrow">YOUR LIBRARY</p><h1>Chapters</h1>
   <div class="library-search"><label for="chapterSearch">Search chapters and study pages</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"></div>
+  <a id="libraryDrugs" class="library-drugs" href="?chapter=drugs">Drugs · cross-chapter index →</a>
   <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
 </div>
 </main><div id="jumpEnds" class="jump-ends"><button id="toTop" aria-label="Go to top of chapter" title="Top"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14M12 20V9m-6 6 6-6 6 6"/></svg></button><button id="toBottom" aria-label="Go to end of chapter" title="End"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19h14M12 4v11m-6-6 6 6 6-6"/></svg></button></div><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
@@ -32482,6 +32484,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <script src="js/exam-evidence.js"></script>
 <script src="js/law-cards.js"></script>
 <script src="js/memory-aids.js"></script>
+<script src="js/drug-index.js"></script>
 <script src="js/mcq.js"></script>
 <script src="js/mcq-review.js"></script>
 <script src="js/exam-simulation.js"></script>
@@ -32546,9 +32549,9 @@ const chapterTextPromises=new Map();
 function loadChapterText(entry){if(!chapterTextPromises.has(entry.file))chapterTextPromises.set(entry.file,fetch('chapters/'+entry.file).then(r=>{if(!r.ok)throw new Error('Chapter unavailable');return r.text()}).catch(e=>{chapterTextPromises.delete(entry.file);throw e}));return chapterTextPromises.get(entry.file)}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function parseDrill(md){md=md.replace(/\r\n?/g,'\n');const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
-if(['mock','bank'].includes(requestedChapter)){
+if(['mock','bank','drugs'].includes(requestedChapter)){
   manifestArticle=document.createElement('article');manifestArticle.id='copy';manifestArticle.className='reading-copy';manifestArticle.dataset.chapterId=requestedChapter;
-  manifestArticle.innerHTML='<h1>'+ (requestedChapter==='bank'?'Question bank':'Mock builder')+'</h1>';
+  manifestArticle.innerHTML='<h1>'+ (requestedChapter==='drugs'?'Drugs':requestedChapter==='bank'?'Question bank':'Mock builder')+'</h1>';
 }
 if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Template')){
   const entry=manifestChapters.find(c=>String(c.number)===String(requestedChapter));
@@ -32605,7 +32608,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v60 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v61 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -32895,7 +32898,7 @@ function renderScreen(state){
   const id=state?.hazzardView||'reader',changed=id!==currentView;
   hidePanel();currentView=id;
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
-  $('#readerViewport').hidden=id!=='reader';pencil.hidden=id!=='reader'||['mock','bank'].includes(cid);$('#jumpEnds').hidden=id!=='reader';$('#jumpEnds').classList.remove('is-visible');
+  $('#readerViewport').hidden=id!=='reader';pencil.hidden=id!=='reader'||['mock','bank','drugs'].includes(cid);$('#jumpEnds').hidden=id!=='reader';$('#jumpEnds').classList.remove('is-visible');
   examBar.hidden=!state?.hazzardExam;document.body.classList.toggle('examining',!examBar.hidden);if(examBar.hidden)for(const p of examPages)p.classList.remove('exam-current');
   chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
   findBar.hidden=!state?.hazzardFind;document.body.classList.toggle('finding',!findBar.hidden);$('#findToggle').setAttribute('aria-expanded',String(!findBar.hidden));
@@ -33069,7 +33072,7 @@ function syncMarkingUI(){
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
-  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':pane==='tools'?'tools':'reading'):currentView==='library'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':'reading';
+  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':pane==='tools'?'tools':'reading'):currentView==='library'||cid==='drugs'&&currentView==='reader'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':'reading';
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   $('#chapterHeaderTitle').setAttribute('aria-expanded',String(pane==='contents'));
   if(currentView==='desk'&&!pane)$('#headerHome').setAttribute('aria-current','page');else $('#headerHome').removeAttribute('aria-current');
@@ -33232,6 +33235,7 @@ async function chapterIndex(){
 async function searchChapters(){
   const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
   results.replaceChildren();results.hidden=!q;status.hidden=!q;
+  $('#libraryDrugs').href='?chapter=drugs'+(q?'&drugSearch='+encodeURIComponent(q):'');
   let titles=0;for(const li of $$('#chapterRows li')){li.hidden=q&&wordStart(li.dataset.search,q)<0;if(!li.hidden)titles++}
   $('#noChapters').hidden=true;if(!q)return;
   status.textContent='Searching all chapters and study pages…';
@@ -33427,7 +33431,7 @@ async function refreshLibraryMarks(){
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
 function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:readerScroll.scrollTop/span,at:Date.now()}}
 function goToPlace(p,exact=false){if(!p)return;if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if(mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
+function rememberPlace(){if(cid==='drugs'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
 let placeTimer=null,userScrolled=false,lastPlaceWrite=0;
 let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
 readerScroll.addEventListener('scroll',()=>{
@@ -33645,7 +33649,7 @@ addEventListener('storage',event=>{if(event.key===(cid==='mock'?MOCK_KEY:DRILL_K
 // Navigation is added after mark identities are allocated; saved highlights stay attached.
 function chapterNavigation(){
   const base=cid==='laws'?'law':cid.replace(/s$/,''),chapter=orderedChapters.find(c=>String(c.number)===base);
-  const title=$('#chapterHeaderTitle');title.textContent=chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;
+  const title=$('#chapterHeaderTitle');title.textContent=chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;
   if(!chapter){chapterHeader.querySelector('.chapter-switch').hidden=true;pencil.hidden=true;return}
   const study=base==='law'?'laws':base+'s',isStudy=cid!==base;
   for(const [id,label] of [[base,'Chapter'],[study,'Study']]){
@@ -33853,6 +33857,7 @@ tRender();
 restoreHighlights();
 // Insert evidence metadata only after highlight units and drill identities exist.
 HazzardEvidence.backControl($('#readerViewport'));
+if(cid==='drugs')await HazzardDrugs.mount(copy);
 if(cid==='laws')await HazzardLawCards.decorate(copy);
 if(/^\d+s$/.test(cid))await HazzardMemoryAids.decorate(copy,cid);
 if(/^\d+s?$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error){flash(error.message,6000);}
