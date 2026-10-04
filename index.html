@@ -8,6 +8,7 @@
 <!-- Portable reading specimen. Inline CSS and script; no runtime dependencies. -->
 
 <link rel="stylesheet" href="css/mcq.css">
+<link rel="stylesheet" href="css/law-cards.css">
 <style>
 /* CORE SYSTEM. All authored pixel dimensions scale with the existing --fs control.
    Percentages, viewport measurements, grid fractions and unitless line heights are structural. */
@@ -32086,6 +32087,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 </script>
 <script src="js/marked.min.js"></script>
 <script src="js/exam-evidence.js"></script>
+<script src="js/law-cards.js"></script>
 <script src="js/mcq.js"></script>
 <script src="js/mcq-review.js"></script>
 <script src="js/reader-storage.js"></script>
@@ -33451,6 +33453,7 @@ tRender();
 restoreHighlights();
 // Insert evidence metadata only after highlight units and drill identities exist.
 HazzardEvidence.backControl($('#readerViewport'));
+if(cid==='laws')await HazzardLawCards.decorate(copy);
 if(/^\d+$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error){flash(error.message,6000);}
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
 {const h=decodeURIComponent(location.hash.slice(1));let done=false;
