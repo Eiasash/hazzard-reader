@@ -4261,7 +4261,24 @@
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "images": [
+        "data/mcq/images/2023-jun-q12-ima.png"
+      ],
+      "imageSource": {
+        "source": "2023_album.pdf",
+        "sha256": "e885502b0e32ab89e70cfb6179257a892fbeebe086b8de1a26eea6bd897f1c58",
+        "page": 1,
+        "question": 12,
+        "cropPDFPoints": [
+          278.04998779296875,
+          173.489990234375,
+          460.54998779296875,
+          423.239990234375
+        ],
+        "renderScale": 2,
+        "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
+      }
     },
     "3247": {
       "id": "mcq-2f6126281b7935fddb54098c",
@@ -4497,7 +4514,24 @@
       "fromBasic": false,
       "duplicates": [
         2617
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2023-jun-q29-ima.png"
+      ],
+      "imageSource": {
+        "source": "2023_album.pdf",
+        "sha256": "e885502b0e32ab89e70cfb6179257a892fbeebe086b8de1a26eea6bd897f1c58",
+        "page": 1,
+        "question": 29,
+        "cropPDFPoints": [
+          220.3000030517578,
+          515.5399780273438,
+          505.29998779296875,
+          705.2899780273438
+        ],
+        "renderScale": 2,
+        "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
+      }
     },
     "3264": {
       "id": "mcq-e4acb3e9acd387f3ab55774a",
@@ -4511,7 +4545,24 @@
       "fromBasic": false,
       "duplicates": [
         2618
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2023-jun-q30-ima.png"
+      ],
+      "imageSource": {
+        "source": "2023_album.pdf",
+        "sha256": "e885502b0e32ab89e70cfb6179257a892fbeebe086b8de1a26eea6bd897f1c58",
+        "page": 2,
+        "question": 30,
+        "cropPDFPoints": [
+          275.79998779296875,
+          164.6199951171875,
+          504.54998779296875,
+          393.3699951171875
+        ],
+        "renderScale": 2,
+        "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
+      }
     },
     "3265": {
       "id": "mcq-368d1c6ff706583ac2c3f156",
@@ -4539,7 +4590,24 @@
       "fromBasic": false,
       "duplicates": [
         2620
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2023-jun-q32-ima.png"
+      ],
+      "imageSource": {
+        "source": "2023_album.pdf",
+        "sha256": "e885502b0e32ab89e70cfb6179257a892fbeebe086b8de1a26eea6bd897f1c58",
+        "page": 2,
+        "question": 32,
+        "cropPDFPoints": [
+          295.04998779296875,
+          485.8799743652344,
+          505.29998779296875,
+          620.7799682617188
+        ],
+        "renderScale": 2,
+        "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
+      }
     },
     "3267": {
       "id": "mcq-4dff765078655193f686e847",
@@ -6017,7 +6085,24 @@
       "fromBasic": false,
       "duplicates": [
         2759
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2024-may-q35-ima.png"
+      ],
+      "imageSource": {
+        "source": "2024a_album.pdf",
+        "sha256": "83047a02e2467ce6f9e03e7c8765129c34d424786cb109a6aa10aff67ddcee4c",
+        "page": 5,
+        "question": 35,
+        "cropPDFPoints": [
+          95.6500015258789,
+          136.95001220703125,
+          523.280029296875,
+          550.75
+        ],
+        "renderScale": 2,
+        "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
+      }
     },
     "3365": {
       "id": "mcq-5967f5970f29d909cde6fe19",
@@ -6491,7 +6576,24 @@
       "fromBasic": false,
       "duplicates": [
         2792
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2024-may-q69-ima.png"
+      ],
+      "imageSource": {
+        "source": "2024a_album.pdf",
+        "sha256": "83047a02e2467ce6f9e03e7c8765129c34d424786cb109a6aa10aff67ddcee4c",
+        "page": 6,
+        "question": 69,
+        "cropPDFPoints": [
+          72.0,
+          115.29998779296875,
+          523.239990234375,
+          389.0999755859375
+        ],
+        "renderScale": 2,
+        "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
+      }
     },
     "3398": {
       "id": "mcq-e1679665a965ea90eade835b",
