@@ -163,7 +163,7 @@
       "sitting": "2020",
       "number": 14,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 788",
+      "reference": "Hazzard 7e · p. 788 · Table 52-1",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -192,7 +192,8 @@
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "27": {
       "id": "mcq-a7176a5f42d0f58dc5e4419b",
@@ -271,7 +272,7 @@
       "sitting": "2020",
       "number": 23,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 434",
+      "reference": "Hazzard 7e · p. 434 · Table 29-5",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -288,7 +289,16 @@
       "edition": 7,
       "paperPage": 7,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "explanation": "Explanation under review: the official key is A, C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0001",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2020_key-all.png"
+        ]
+      }
     },
     "35": {
       "id": "mcq-85ecd5f34b95bd4208559b25",
@@ -343,12 +353,21 @@
       "sitting": "2020",
       "number": 29,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 932",
+      "reference": "Hazzard 7e · p. 932 · Table 63-1",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.\n\n## הסבר קליני\n\n**תשובה A — Primary Progressive Aphasia (PPA):** PPA היא תסמונת נוירודגנרטיבית בה הפגיעה השפתית מתקדמת ומחמירה באופן ניכר לאורך זמן תוך הפרעה תפקודית הולכת וגדלה. במקרה זה, הקושי במציאת מילים קל ויציב יחסית, ואין עדות לפגיעה בתקשורת המונעת תפקוד. בנוסף, PPA מאובחן בדרך כלל בגילאי 50–70 ולא ב-92. אבחנה זו דורשת הדמיה ובדיקות נוירולוגיות תומכות שאינן מוזכרות כאן.\n\n**תשובה B — דמנציה ממחלת אלצהיימר:** אבחנת דמנציה מחייבת ירידה קוגניטיבית משמעותית הפוגעת בתפקוד עצמאי ביום-יום. לפי ה-DSM-5 וכן לפי Harrison's Internal Medicine, התנאי ההכרחי לאבחון דמנציה הוא ירידה ביותר מתחום קוגניטיבי אחד הגורמת לפגיעה בתפקוד. כאן החולה עצמאי לחלוטין, מה שמוציא לחלוטין את האבחנה.\n\n### פנינה קלינית",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0002",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2020_key-all.png"
+        ]
+      }
     },
     "40": {
       "id": "mcq-5324b8a6225029bff2dabcee",
@@ -360,7 +379,16 @@
       "edition": 7,
       "paperPage": 10,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0003",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2020_key-all.png"
+        ]
+      }
     },
     "41": {
       "id": "mcq-31782ec7576d24363ccf2c35",
@@ -547,24 +575,68 @@
       "sitting": "2020",
       "number": 46,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1981",
+      "reference": "Hazzard 7e · p. 1981 · Table 127-6",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "q": "בת 65, גרה בבית, עצמאית ב-BADL וללא חסר קוגניטיבי. רקע רפואי של סוכרת (A1C אחרון של 7.4) ויתר לחץ דם. בגין תלונות על צריבה במתן שתן פונה למרפאה. סטיק שתן חיובי ללויקוציטים וניטריטים.\n\nאלו מבין הבאים מתאים כקו ראשון לטיפול אנטיביוטי?",
+      "explanation": "Explanation under review: the official key is B; the source text is being checked."
     },
     "2424": {
       "id": "mcq-e4cde6058ec0e9998ca3d55c",
       "sitting": "2020",
       "number": 47,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1168-1169",
+      "reference": "Hazzard 7e · p. 1168-1169 · Table 78-1,78-2",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "labTable": {
+        "span": "חולה פרטים רפואיים שטח מסתם אאוטרלי מהירות זרימה מעל המסתם מפל ממוצע",
+        "direction": "rtl",
+        "caption": "השוואת המטופלים — השאלה המקורית",
+        "header": [
+          "חולה",
+          "פרטים רפואיים",
+          "שטח מסתם אאורטלי",
+          "מהירות זרימה מעל המסתם",
+          "מפל ממוצע"
+        ],
+        "rows": [
+          [
+            "א",
+            "בן 82, מזה 3 חודשים תעוקת חזה במאמץ",
+            "0.9 סמ״ר",
+            "4.5 מ/ש",
+            "20 ממ״כ"
+          ],
+          [
+            "ב",
+            "בן 79, מועמד לניתוח מעקפים אלקטיבי",
+            "1.7 סמ״ר",
+            "2.8 מ/ש",
+            "20 ממ״כ"
+          ],
+          [
+            "ג",
+            "בן 69, עם אירועים חוזרים של התעלפות",
+            "1.6 סמ״ר",
+            "2.5 מ/ש",
+            "24 ממ״כ"
+          ],
+          [
+            "ד",
+            "בן 80, מתהלך עם מקל, אסימפטומטי",
+            "0.8 סמ״ר",
+            "4.5 מ/ש",
+            "50 ממ״כ"
+          ]
+        ]
+      }
     },
     "56": {
       "id": "mcq-a99db0fa2bd1efb781390683",
@@ -583,12 +655,21 @@
       "sitting": "2020",
       "number": 49,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1964",
+      "reference": "Hazzard 7e · p. 1964 · Table 126-4",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": 20,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "q": "בן 85, התקבל למחלקה לרפואה דחופה עקב חום, שיעול פרודוקטיבי וחולשה כללית. בבדיקתו חום 38.5, ל\"ד 80/50 mm Hg, מבולבל, 30 נשימות לדקה, קריאטינין 2.5 BUN=45 מ\"ג/ד\"ל. בצילום חזה:\n\nמה הסיכון לתמותה אצל המטופל ?",
+      "explanation": "לפי טבלה 105-4 ב-Hazzard 8e, עמ׳ 1686, מתקבלת נקודה לכל אחד מאלה: בלבול, BUN מעל 20 mg/dL, קצב נשימה של 30 ומעלה, לחץ דם סיסטולי מתחת ל-90 או דיאסטולי מתחת ל-60, וגיל 65 ומעלה. בשאלה המקורית כל חמשת הסעיפים מתקיימים: 1+1+1+1+1 = 5. הטבלה מציינת תמותה מעל 40% בציון 4–5, בהתאם לתשובה ד׳ במפתח הרשמי.\n\nמקור ההסבר: Hazzard 8e, Table 105-4, p. 1686 (PDF p. 1720). מראה המקום הרשמי של השאלה הוא Hazzard 7e, p. 1964; אין כאן מיפוי עמודים בין המהדורות.",
+      "explanationSource": {
+        "edition": 8,
+        "printedPage": 1686,
+        "pdfPage": 1720,
+        "evidence": "C:\\Users\\eiasa\\Documents\\Codex\\2026-10-04\\v72\\pages\\hazzard-p1686.png",
+        "note": "Source-supported explanation only; official 7e citation retained without page mapping"
+      }
     },
     "58": {
       "id": "mcq-ef77c3f440fa29a46ca59282",
@@ -607,7 +688,7 @@
       "sitting": "2020",
       "number": 51,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 712",
+      "reference": "Hazzard 7e · p. 712 · Table 47-2",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -619,7 +700,7 @@
       "sitting": "2020",
       "number": 52,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 716",
+      "reference": "Hazzard 7e · p. 716 · Table 47-4",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": 21,
@@ -631,7 +712,7 @@
       "sitting": "2020",
       "number": 53,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 929",
+      "reference": "Hazzard 7e · p. 929 · Table 62-4",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -744,7 +825,8 @@
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "71": {
       "id": "mcq-85190c8c8b3e355b84d145cd",
@@ -811,7 +893,7 @@
       "sitting": "2020",
       "number": 68,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1189",
+      "reference": "Hazzard 7e · p. 1189 · Table 79-6",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -876,7 +958,12 @@
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: בני 65+ בישראל. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "2398": {
       "id": "mcq-efb2165a67b659aa508edeff",
@@ -1032,14 +1119,19 @@
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: בני 65+ בישראל. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "94": {
       "id": "mcq-aa26bdef996a98dd1c649114",
       "sitting": "2020",
       "number": 87,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1008-1010",
+      "reference": "Hazzard 7e · p. 1008-1010 · Table 66-6",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1147,7 +1239,7 @@
       "sitting": "2020",
       "number": 96,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 696",
+      "reference": "Hazzard 7e · p. 696 · Table 46-2",
       "source": "מראה מקום גריאטריה 2020.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1176,7 +1268,16 @@
       "edition": 7,
       "paperPage": 40,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0004",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2020_key-all.png"
+        ]
+      }
     },
     "106": {
       "id": "mcq-4cd9324a98a56ce5a20d1d9d",
@@ -1214,14 +1315,23 @@
       "fromBasic": false,
       "duplicates": [
         2458
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.\n\nתשובה A שגויה כיוון ש-PFO אינו תמיד קשור לטרומבוזיס ורידי ו-paradoxical embolism. קיימים מנגנונים נוספים כמו יצירת קריש in situ בתוך ה-PFO עצמו או הפרעות קצב עלייתיות נלוות.\n\nתשובה B שגויה כיוון ששבץ של כלי דם גדולים נובע בעיקר מטרשת ב-**internal** carotid artery (במיוחד בביפורקציה) ולא מה-common carotid artery, שם טרשת שכיחה פחות.\n\n**פנינה קלינית:** אוטמים לקונריים קשורים בעיקר ליתר לחץ דם כרוני הגורם לשינויים פתולוגיים בדפנות העורקים החודרים הקטנים.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0005",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2021_key-all.png"
+        ]
+      }
     },
     "109": {
       "id": "mcq-658204486ccbe771d799fa34",
       "sitting": "2021-Dec",
       "number": 2,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1136",
+      "reference": "Hazzard 7e · p. 1136 · Table 75-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1373,7 +1483,7 @@
       "sitting": "2021-Dec",
       "number": 13,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1961",
+      "reference": "Hazzard 7e · p. 1961 · Table 126-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1408,7 +1518,12 @@
       "fromBasic": false,
       "duplicates": [
         279
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "122": {
       "id": "mcq-88049e9258702f86458e6b46",
@@ -1443,7 +1558,7 @@
       "sitting": "2021-Dec",
       "number": 18,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1953",
+      "reference": "Hazzard 7e · p. 1953 · Table 125-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1457,7 +1572,7 @@
       "sitting": "2021-Dec",
       "number": 19,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 918",
+      "reference": "Hazzard 7e · p. 918 · Table 66-1,66-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1471,7 +1586,7 @@
       "sitting": "2021-Dec",
       "number": 20,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 37,42",
+      "reference": "Hazzard 7e · p. 37,42 · Table 3-2,3-3",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1485,7 +1600,7 @@
       "sitting": "2021-Dec",
       "number": 21,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1306",
+      "reference": "Hazzard 7e · p. 1306 · Table 88-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1534,14 +1649,15 @@
       "fromBasic": false,
       "duplicates": [
         288
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "130": {
       "id": "mcq-15cb6cf6f024d61f71bb1c94",
       "sitting": "2021-Dec",
       "number": 25,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1578",
+      "reference": "Hazzard 7e · p. 1578 · Table 106-3",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1597,7 +1713,7 @@
       "sitting": "2021-Dec",
       "number": 29,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 716",
+      "reference": "Hazzard 7e · p. 716 · Table 47-4",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": 11,
@@ -1641,14 +1757,23 @@
       "sitting": "2021-Dec",
       "number": 32,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1640",
+      "reference": "Hazzard 7e · p. 1640 · Table 110-1",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         296
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, C; the source text is being checked.\n\n## הסבר קליני\n\n### ניתוח הממצאים\n\n**המוגלובין A1C = 6.2%** הוא הערך המכריע לאבחון במקרה זה. לפי קריטריוני ה-ADA (American Diabetes Association):\n\n- **טרום סוכרת**: A1C בטווח 5.7-6.4%\n- **סוכרת**: A1C ≥6.5%\n- **תקין**: A1C <5.7%\n\nערך הגלוקוז של 184 מ\"ג/ד\"ל **אינו בצום** ולכן לא ניתן להסתמך עליו לאבחנה. לאבחון סוכרת נדרש גלוקוז בצום ≥126 מ\"ג/ד\"ל או גלוקוז אקראי ≥200 מ\"ג/ד\"ל עם תסמינים קליניים.\n\n**תשובה 1 (סוכרת)**: שגויה - A1C נמוך מ-6.5%, הסף הנדרש לאבחון סוכרת.\n\n**תשובה 3 (שינוי פיזיולוגי)**: שגויה - A1C של 6.2% מעיד על הפרעה במטבוליזם הגלוקוז ודורש התערבות ומעקב, לא רק בדיקה שנתית.\n\n**המלצה**: שינויי אורח חיים, ירידה במשקל, ומעקב תקופתי למניעת התפתחות לסוכרת גלויה.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0006",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2021_key-all.png"
+        ]
+      }
     },
     "137": {
       "id": "mcq-4f69e7c2f0d4c3517a8f1e6b",
@@ -1710,7 +1835,7 @@
       "sitting": "2021-Dec",
       "number": 37,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 964",
+      "reference": "Hazzard 7e · p. 964 · Table 64-4",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1776,7 +1901,7 @@
       "sitting": "2021-Dec",
       "number": 41,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1417",
+      "reference": "Hazzard 7e · p. 1417 · Table 95-9",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1804,7 +1929,7 @@
       "sitting": "2021-Dec",
       "number": 43,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 811",
+      "reference": "Hazzard 7e · p. 811 · Table 53-9",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1818,7 +1943,7 @@
       "sitting": "2021-Dec",
       "number": 44,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 805,808",
+      "reference": "Hazzard 7e · p. 805,808 · Figure 53-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": 18,
@@ -1912,7 +2037,7 @@
       "sitting": "2021-Dec",
       "number": 51,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1173",
+      "reference": "Hazzard 7e · p. 1173 · Table 78-7",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1926,7 +2051,7 @@
       "sitting": "2021-Dec",
       "number": 52,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 696",
+      "reference": "Hazzard 7e · p. 696 · Table 46-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -1976,7 +2101,16 @@
       "duplicates": [
         319,
         362
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, C; the source text is being checked.\n\nתשובה A נכונה מכיוון שחסר ויטמין B12 קשור לפגיעה ממשית בתפקוד מערכת החיסון בגיל המבוגר. ויטמין B12 חיוני לסינתזת DNA ולהתפשטות תקינה של לימפוציטים. בהיעדרו, יכולת הלימפוציטים להתרבות בתגובה לאנטיגן נפגעת, וכתוצאה מכך מתקבלת תגובה הומוראלית ירודה לחיסונים, ובפרט לחיסון נגד Streptococcus pneumoniae. תופעה זו מתועדת בספרות הגריאטרית ומתואמת עם עקרונות ה-immunosenescence — תהליך ההזדקנות של מערכת החיסון המוסבר בהרחבה בהאזארד (Hazzard's Geriatric Medicine, פרקים העוסקים באימונולוגיה של ההזדקנות). חשוב לציין שמחסור ב-B12 שכיח מאוד בקשישים בשל ירידה בספיגה המעיתית (אטרופיה גסטרית, ירידה בפקטור הפנימי), ולכן הוא מנגנון רלוונטי ומציאותי.\n\nתשובה B שגויה כיוון שבגיל המבוגר מתרחשת דווקא **ירידה** ביצור IL-2 מתאי T, לא עלייה. הירידה ב-IL-2 היא אחד הסממנים המרכזיים של ה-immunosenescence — היא מגבילה את התפשטות התאי T ומפחיתה את התגובה החיסונית. טעון ה-Distractor הוא הפוך מהמציאות הפיזיולוגית.\n\nתשובה D שגויה מכיוון שכיוון ההשפעה הפוך לחלוטין. ויטמין D ממלא תפקיד אימונומודולטורי חיוני, וחסר בו — לא עודף — קשור לסיכון מוגבר לזיהומים בדרכי הנשימה, כולל שפעת ודלקת ריאות. רמות תקינות עד גבוהות של ויטמין D בדרך כלל מגנות, לא מזיקות.\n\n**פנינת בחינה:** בשאלות על immunosenescence יש לזכור את הצירוף: ירידה ב-IL-2, ירידה בתאי T נאיביים, עלייה בתאי T מזיכרון מוגבלים, ופגיעה בתגובה הומוראלית. חסר ויטמין B12 הוא גורם הפיך ונפוץ המחמיר את התמונה — ולכן יש לבדוק ולטפל בו באופן פעיל בקשישים.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0007",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2021_key-all.png"
+        ]
+      }
     },
     "156": {
       "id": "mcq-d77dd3b1ab1dbb492058f5df",
@@ -2066,7 +2200,7 @@
       "sitting": "2021-Dec",
       "number": 62,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1576",
+      "reference": "Hazzard 7e · p. 1576 · Table 106-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2094,7 +2228,7 @@
       "sitting": "2021-Dec",
       "number": 64,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1861",
+      "reference": "Hazzard 7e · p. 1861 · Table 121-2",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2123,7 +2257,7 @@
       "sitting": "2021-Dec",
       "number": 66,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1730",
+      "reference": "Hazzard 7e · p. 1730 · Table 113-3",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": 27,
@@ -2159,7 +2293,8 @@
       "fromBasic": false,
       "duplicates": [
         332
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "167": {
       "id": "mcq-e2f476b23df1d76c68961d12",
@@ -2180,7 +2315,7 @@
       "sitting": "2021-Dec",
       "number": 70,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1171",
+      "reference": "Hazzard 7e · p. 1171 · Table 78-3",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2280,7 +2415,7 @@
       "sitting": "2021-Dec",
       "number": 77,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1212,568",
+      "reference": "Hazzard 7e · p. 1212,568 · Table 51-3",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": 32,
@@ -2320,7 +2455,7 @@
       "sitting": "2021-Dec",
       "number": 80,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 719",
+      "reference": "Hazzard 7e · p. 719 · Table 47-6",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2362,7 +2497,7 @@
       "sitting": "2021-Dec",
       "number": 83,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1532",
+      "reference": "Hazzard 7e · p. 1532 · Table 104-4",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2390,7 +2525,7 @@
       "sitting": "2021-Dec",
       "number": 85,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 712",
+      "reference": "Hazzard 7e · p. 712 · Table 47-1",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2511,14 +2646,15 @@
       "fromBasic": false,
       "duplicates": [
         357
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "190": {
       "id": "mcq-8bb3225a8c4eb0919527c5c1",
       "sitting": "2021-Dec",
       "number": 94,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 725",
+      "reference": "Hazzard 7e · p. 725 · Table 48-1",
       "source": "מראה מקום גריאטריה 2021.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2567,7 +2703,16 @@
       "fromBasic": false,
       "duplicates": [
         361
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0008",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2021_key-all.png"
+        ]
+      }
     },
     "194": {
       "id": "mcq-392a084da2a4b39dd0a1eaed",
@@ -2593,7 +2738,12 @@
       "fromBasic": false,
       "duplicates": [
         363
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "196": {
       "id": "mcq-453eb1451ecfa285a10933de",
@@ -2614,7 +2764,7 @@
       "sitting": "2022-Jun",
       "number": 1,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Heart Failure",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2628,7 +2778,7 @@
       "sitting": "2022-Jun",
       "number": 2,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1966",
+      "reference": "Hazzard 7e · p. 1966 · Table 126-8",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2642,7 +2792,7 @@
       "sitting": "2022-Jun",
       "number": 3,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Nephrology — Acute Kidney Injury",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2656,7 +2806,7 @@
       "sitting": "2022-Jun",
       "number": 4,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Perioperative Care",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2695,7 +2845,7 @@
       "sitting": "2022-Jun",
       "number": 6,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Hematology — Thrombocytopenia",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2709,7 +2859,7 @@
       "sitting": "2022-Jun",
       "number": 7,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Oncology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2737,7 +2887,7 @@
       "sitting": "2022-Jun",
       "number": 9,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Endocrinology — Adrenal Insufficiency",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2751,7 +2901,7 @@
       "sitting": "2022-Jun",
       "number": 10,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Pulmonology — Idiopathic Pulmonary Fibrosis",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2763,7 +2913,7 @@
       "sitting": "2022-Jun",
       "number": 11,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Preoperative Care",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2791,7 +2941,7 @@
       "sitting": "2022-Jun",
       "number": 13,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Dermatology — Xerosis",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2829,7 +2979,7 @@
       "sitting": "2022-Jun",
       "number": 15,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1887",
+      "reference": "Hazzard 7e · p. 1887 · Table 122-7",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2963,7 +3113,7 @@
       "sitting": "2022-Jun",
       "number": 24,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Syncope + Gastroenterology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -2977,7 +3127,7 @@
       "sitting": "2022-Jun",
       "number": 25,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Pressure Ulcers — Wound Care Products",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3013,7 +3163,7 @@
       "sitting": "2022-Jun",
       "number": 27,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Oncology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3034,14 +3184,15 @@
       "fromBasic": false,
       "duplicates": [
         2488
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3166": {
       "id": "mcq-96c14291d2e808ba8a7b3d45",
       "sitting": "2022-Jun",
       "number": 29,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Prognostication — Table 1",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3055,7 +3206,7 @@
       "sitting": "2022-Jun",
       "number": 30,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 815-816",
+      "reference": "Hazzard 7e · p. 815-816 · Table 53-12",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3111,7 +3262,7 @@
       "sitting": "2022-Jun",
       "number": 34,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 434",
+      "reference": "Hazzard 7e · p. 434 · Table 29-5",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3146,14 +3297,23 @@
       "fromBasic": false,
       "duplicates": [
         2496
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C; the source text is being checked.\n\n## הסבר קליני\n\nהמטופל מציג תמונה קלינית קלאסית של מחלת אלצהיימר (AD): ירידה הדרגתית ומתקדמת בזיכרון לטווח קצר כנקודת פתיחה לפני שלוש שנים, התקדמות לפגיעה בזיכרון לטווח ארוך, אפרקסיה (קושי במכשירי בית, קושי בהתאמת בגדים), דיסאוריינטציה טופוגרפית (הליכה לאיבוד), שינויי אישיות, וחוסר תובנה (אנוסוגנוזיה) — כולם מאפיינים של שלב בינוני-מתקדם של AD עם ציון MMSE 16. הביומרקרים בנוזל השדרה האופייניים ל-AD כוללים **ירידה** ברמת אמילואיד-בטא 42 (עקב שקיעתו בפלאקים) ו**עלייה** ברמות TAU ו-phospho-TAU (עקב ניוון נוירופיברילרי). על פי עקרונות הפרק העוסק בדמנציה בהאריסון ובפרק הייעודי בהאזרד, שילוב זה של שינויים בביומרקרים הוא המאפיין הפתופיזיולוגי המרכזי של AD ומשמש כיום לאבחון ביולוגי מוגדר.\n\n---\n\n**תשובה A — GDS 11:** מדד ה-GDS (Geriatric Depression Scale) מודד דיכאון גריאטרי. ציון 11 מצביע על דיכאון בינוני-חמור. המטופל מציג אפתיה ואדישות, אך אלו מאפיינים נוירופסיכיאטריים של AD ולא בהכרח דיכאון קליני. בנוסף, חוסר תובנה (אנוסוגנוזיה) האופייני ל-AD מקשה על מילוי תקין של שאלוני דיווח עצמי כמו GDS — המטופל אינו מזהה בעיה ולכן לא ידווח על תסמיני דיכאון בצורה אמינה.\n\n**תשובה D — EMG עם איטיות של גלי GAMMA:** בדיקת EMG (אלקטרומיוגרפיה) בודקת את מוליכות עצבים פריפריים ופעילות שריר. אין עדות לפגיעה נוירומוסקולרית פריפרית בחולה זה, ולמחלת אלצהיימר אין ביטוי אופייני ב-EMG. גלי GAMMA אינם מדד EMG סטנדרטי לדמנציה — מדובר בתשובת הסחה ללא בסיס פתופיזיולוגי רלוונטי.\n\n---\n\n### פנינה קלינית לבחינה\n\nבאלצהיימר, זכור: ב-CSF — **\"אמילואיד יורד, TAU עולה\"** (Down-Up). אנוסוגנוזיה (חוסר תובנה על המחלה) היא סימן אופייני לשלב בינוני של AD ומבדילה אותו מדיכאון, שבו החולה בדרך כלל מודע למצבו ואף מגזים בתלונותיו.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0009",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2022_key-all.png"
+        ]
+      }
     },
     "3174": {
       "id": "mcq-55806966640834d88ff96fbd",
       "sitting": "2022-Jun",
       "number": 37,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Rheumatology + Heart Failure",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3201,7 +3361,7 @@
       "sitting": "2022-Jun",
       "number": 39,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1008",
+      "reference": "Hazzard 7e · p. 1008 · Table 66-6",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3268,7 +3428,7 @@
       "sitting": "2022-Jun",
       "number": 43,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Psychology of Aging",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3317,7 +3477,8 @@
       "fromBasic": false,
       "duplicates": [
         2505
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3184": {
       "id": "mcq-5b7cd8474f47b3387f03b012",
@@ -3359,14 +3520,15 @@
       "fromBasic": false,
       "duplicates": [
         2508
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3230": {
       "id": "mcq-4d0d80bd3f778a9252f39413",
       "sitting": "2022-Jun",
       "number": 50,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Rheumatology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3434,7 +3596,7 @@
       "sitting": "2022-Jun",
       "number": 55,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Heart Failure",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3448,7 +3610,7 @@
       "sitting": "2022-Jun",
       "number": 56,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Hypertension — Table 1",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3497,7 +3659,7 @@
       "sitting": "2022-Jun",
       "number": 59,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Nephrology — Chronic Kidney Disease",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3525,7 +3687,7 @@
       "sitting": "2022-Jun",
       "number": 61,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Pressure Injuries and Wound Care",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3549,7 +3711,7 @@
       "sitting": "2022-Jun",
       "number": 62,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1131,1136",
+      "reference": "Hazzard 7e · p. 1131,1136 · Table 75-1,75-2",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3570,7 +3732,12 @@
       "fromBasic": false,
       "duplicates": [
         2518
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: בני 65+ בישראל — לקט נתונים אינפוגרפי 2020. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "3199": {
       "id": "mcq-644ec3dbed6cc9d59591d245",
@@ -3605,21 +3772,30 @@
       "sitting": "2022-Jun",
       "number": 66,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Heart Failure",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2521
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0010",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2022_key-all.png"
+        ]
+      }
     },
     "3231": {
       "id": "mcq-8c6249eede6e862a64792745",
       "sitting": "2022-Jun",
       "number": 67,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Cardiovascular Disease",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3633,7 +3809,7 @@
       "sitting": "2022-Jun",
       "number": 68,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Hematology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3687,7 +3863,7 @@
       "sitting": "2022-Jun",
       "number": 72,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Rheumatology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3715,7 +3891,7 @@
       "sitting": "2022-Jun",
       "number": 74,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Infectious Diseases",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3729,7 +3905,7 @@
       "sitting": "2022-Jun",
       "number": 75,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Oncology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3785,7 +3961,7 @@
       "sitting": "2022-Jun",
       "number": 79,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 492",
+      "reference": "Hazzard 7e · p. 492 · Table 34-1",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3799,7 +3975,7 @@
       "sitting": "2022-Jun",
       "number": 80,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 500-505",
+      "reference": "Hazzard 7e · pp. 500-505; GRS — Heart Failure",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3813,7 +3989,7 @@
       "sitting": "2022-Jun",
       "number": 81,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Gastroenterology — Gastroesophageal Reflux",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3848,14 +4024,15 @@
       "fromBasic": false,
       "duplicates": [
         3120
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3216": {
       "id": "mcq-75f20a243f65f847ffef005f",
       "sitting": "2022-Jun",
       "number": 84,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1034",
+      "reference": "Hazzard 7e · p. 1034 · Table 68-3",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -3961,14 +4138,23 @@
       "duplicates": [
         2542,
         3139
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0011",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2022_key-all.png"
+        ]
+      }
     },
     "3224": {
       "id": "mcq-fd9d0f637d71d1ae1ad4cae6",
       "sitting": "2022-Jun",
       "number": 92,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Pressure Injuries and Wound Care",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -4020,12 +4206,20 @@
       "sitting": "2022-Jun",
       "number": 95,
       "type": "Hazzard",
-      "reference": "Hazzard 7e · p. 1964",
+      "reference": "Hazzard 7e · p. 1964 · Table 126-4",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
       "fromBasic": true,
-      "duplicates": []
+      "duplicates": [],
+      "explanation": "לפי טבלה 105-4 ב-Hazzard 8e, עמ׳ 1686, ציון CURB-65 הוא 3 — תשובה ב׳, בהתאם למפתח הרשמי. אין בלבול: 0; BUN של 32 מעל סף 20 mg/dL: נקודה; קצב הנשימה 25 נמוך מ-30: 0; לחץ דם דיאסטולי 54 נמוך מ-60: נקודה; גיל 66: נקודה. הסכום הוא 0+1+0+1+1 = 3.\n\nמקור ההסבר: Hazzard 8e, Table 105-4, p. 1686 (PDF p. 1720). מראה המקום הרשמי הוא Hazzard 7e, p. 1964; ההסבר משתמש באותה נקודה המופיעה במפורש בעמוד מהדורה 8 שנקרא כתמונה, בלי למפות את עמודי מהדורה 7.",
+      "explanationSource": {
+        "edition": 8,
+        "printedPage": 1686,
+        "pdfPage": 1720,
+        "evidence": "C:\\Users\\eiasa\\Documents\\Codex\\2026-10-04\\v72\\pages\\hazzard-p1686.png",
+        "note": "Source-supported explanation only; official 7e citation retained without page mapping"
+      }
     },
     "3227": {
       "id": "mcq-ddef9cf1f78256b78075c984",
@@ -4088,7 +4282,7 @@
       "sitting": "2022-Jun",
       "number": 100,
       "type": "Other",
-      "reference": "Other source",
+      "reference": "GRS — Dermatology",
       "source": "refs_2022_subspec.pdf",
       "edition": 7,
       "paperPage": null,
@@ -4102,14 +4296,18 @@
       "sitting": "2023-Jun",
       "number": 1,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1116",
+      "reference": "Hazzard 8e · p. 1116 · Table 73-1",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": 2,
       "fromBasic": false,
       "duplicates": [
         2592
-      ]
+      ],
+      "q": "בן 83, בשנה האחרונה סובל מקוצר נשימה במאמץ ומדווח על בצקת ברגליים.\n\nאיזה שינוי של הזדקנות המערכת הקרדיווסקולארית יכול להסביר את תלונותיו?",
+      "explanation": "המפתח הרשמי לאחר ערעורים מקבל א׳ וד׳. בגוף השאלה המקורית מתוארים קוצר נשימה במאמץ ובצקת ברגליים; אין בה את ממצאי האקו, ה-ECG או ניתוח התעלה הקרפלית שנוספו בנוסח הקודם.\n\nHazzard 8e, עמ׳ 1117, מתאר עלייה בפיברוזיס בשריר הלב בהזדקנות וירידה בהיענות הדיאסטולית, וכן עלייה בשקיעת עמילואיד לבבי עם הגיל. שתי התופעות מופיעות במקור; אין בשאלה המקורית נתונים המאפשרים לפסול את ד׳ לטובת א׳. מראה המקום המודפס הוא עמ׳ 1116 (Table 73-1); הדיון בשתי התופעות נמצא בעמ׳ 1117 (PDF p. 1151).",
+      "readerReference": "Hazzard 8e · p. 1117",
+      "referenceNote": "Paper cites p.1116; content is on p.1117."
     },
     "3236": {
       "id": "mcq-a77459f28aa5bea68b87e0b9",
@@ -4130,7 +4328,7 @@
       "sitting": "2023-Jun",
       "number": 3,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 635",
+      "reference": "Hazzard 8e · p. 635 · Table 43-1",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4165,7 +4363,8 @@
       "fromBasic": false,
       "duplicates": [
         2596
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3240": {
       "id": "mcq-1075f6c0fed2b86a8c672639",
@@ -4193,7 +4392,8 @@
       "fromBasic": false,
       "duplicates": [
         2598
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked."
     },
     "3242": {
       "id": "mcq-0248cf414c0e282383f0c986",
@@ -4207,7 +4407,8 @@
       "fromBasic": false,
       "duplicates": [
         2599
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, C, D; the source text is being checked."
     },
     "3243": {
       "id": "mcq-7faf3ea2990c59570295210c",
@@ -4249,14 +4450,23 @@
       "fromBasic": false,
       "duplicates": [
         2602
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.\n\n## דליריום בקשישים לאחר שבר צוואר הירך – ניתוח קליני\n\n---\n\n**תשובה A – הלופרידול 0.5 מ\"ג:** הלופרידול אינו הצעד הראשון בדליריום, ושמור לדליריום היפראקטיבי חמור שאינו מגיב להתערבויות לא-תרופתיות, או כאשר קיים סיכון בטיחותי מיידי שאינו נשלט. בחולה בת 92 הסיכונים כוללים פרולונגציה של QT, סדציה יתרה, נפילות, ואפקטים אנטיכולינרגיים. מתן אנטיפסיכוטיק כ\"צעד הבא האוטומטי\" הוא שגיאה קלינית נפוצה.\n\n**תשובה C – לוריבן (לוראזפאם) 1 מ\"ג:** בנזודיאזפינים הם **קונטרה-אינדיקציה יחסית** לדליריום בקשישים (פרט לדליריום גמילה מאלכוהול). הם מחמירים בלבול, מעלים סיכון לנפילות ולדיכוי נשימתי, ועלולים להאריך את אפיזודת הדליריום. Beers Criteria של AGS מפרטים במפורש את הסיכון הגבוה של בנזודיאזפינים בקשישים.\n\n---\n\n### פנינה קלינית",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0013",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2023_key-after-appeal-all.png"
+        ]
+      }
     },
     "3246": {
       "id": "mcq-ac1abd6998b64fa59be16762",
       "sitting": "2023-Jun",
       "number": 12,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1727-1728",
+      "reference": "Hazzard 8e · p. 1727-1728 · Table 107-1",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4285,7 +4495,7 @@
       "sitting": "2023-Jun",
       "number": 13,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 828",
+      "reference": "Hazzard 8e · p. 828 · Table 55-5",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4390,7 +4600,9 @@
       "fromBasic": false,
       "duplicates": [
         2609
-      ]
+      ],
+      "readerReference": "Hazzard 8e · p. 735",
+      "referenceNote": "Paper cites p.732; content is on p.735."
     },
     "3255": {
       "id": "mcq-76624b03e2c62f9093ab0142",
@@ -4425,7 +4637,7 @@
       "sitting": "2023-Jun",
       "number": 23,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1059,1048",
+      "reference": "Hazzard 8e · p. 1059,1048 · Table 68-3",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4444,7 +4656,8 @@
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3259": {
       "id": "mcq-6bdf0a9ecbc4429ad722fe0c",
@@ -4458,14 +4671,19 @@
       "fromBasic": false,
       "duplicates": [
         2613
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "3260": {
       "id": "mcq-26e8f15baa3a145e21c8d533",
       "sitting": "2023-Jun",
       "number": 26,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1256",
+      "reference": "Hazzard 8e · p. 1256 · Table 81-1",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4614,7 +4832,7 @@
       "sitting": "2023-Jun",
       "number": 33,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 908",
+      "reference": "Hazzard 8e · p. 908 · Table 59-5",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4628,7 +4846,7 @@
       "sitting": "2023-Jun",
       "number": 34,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1373-1374",
+      "reference": "Hazzard 8e · p. 1373-1374 · Table 87-9",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4656,12 +4874,13 @@
       "sitting": "2023-Jun",
       "number": 36,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 703,705,707",
+      "reference": "Hazzard 8e · p. 703,705,707 · Table 47-5",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked."
     },
     "3271": {
       "id": "mcq-0081f896ab2a7645732697e6",
@@ -4682,7 +4901,7 @@
       "sitting": "2023-Jun",
       "number": 38,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1061",
+      "reference": "Hazzard 8e · p. 1061 · Table 68-6",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4745,7 +4964,16 @@
       "fromBasic": false,
       "duplicates": [
         2629
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0014",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2023_key-after-appeal-all.png"
+        ]
+      }
     },
     "3277": {
       "id": "mcq-c6818d990da1a7ac4b1db4da",
@@ -4792,7 +5020,7 @@
       "sitting": "2023-Jun",
       "number": 46,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1513",
+      "reference": "Hazzard 8e · p. 1513 · Table 96-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4827,7 +5055,8 @@
       "fromBasic": false,
       "duplicates": [
         2634
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3282": {
       "id": "mcq-e71329f82512960352dd33a0",
@@ -4876,7 +5105,7 @@
       "sitting": "2023-Jun",
       "number": 52,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1632",
+      "reference": "Hazzard 8e · p. 1632 · Table 102-3",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4909,14 +5138,15 @@
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3287": {
       "id": "mcq-526291ef04bcef123eab45db",
       "sitting": "2023-Jun",
       "number": 55,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1702-1703",
+      "reference": "Hazzard 8e · p. 1702-1703 · Table 106-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -4935,7 +5165,8 @@
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3288": {
       "id": "mcq-5bd556826b1d81bb1416aceb",
@@ -4963,7 +5194,16 @@
       "fromBasic": false,
       "duplicates": [
         2642
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0015",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2023_key-after-appeal-all.png"
+        ]
+      }
     },
     "3290": {
       "id": "mcq-4de2f99d12c0f96618a8056a",
@@ -4977,7 +5217,8 @@
       "fromBasic": false,
       "duplicates": [
         2643
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C; the source text is being checked."
     },
     "3291": {
       "id": "mcq-ac3eccdcd0b272b7e74ac6e3",
@@ -4998,7 +5239,7 @@
       "sitting": "2023-Jun",
       "number": 61,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1549",
+      "reference": "Hazzard 8e · p. 1549 · Table 98-3",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5054,14 +5295,15 @@
       "sitting": "2023-Jun",
       "number": 65,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1013,1017-1018",
+      "reference": "Hazzard 8e · p. 1013,1017-1018 · Figure 65-3",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2649
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked."
     },
     "3297": {
       "id": "mcq-c040b7a76725684cad927088",
@@ -5094,14 +5336,15 @@
       "sitting": "2023-Jun",
       "number": 68,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1577-1578",
+      "reference": "Hazzard 8e · p. 1577-1578 · Table 99-11",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2651
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked."
     },
     "3300": {
       "id": "mcq-041747d2188be93271d452d3",
@@ -5129,14 +5372,15 @@
       "fromBasic": false,
       "duplicates": [
         2653
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3302": {
       "id": "mcq-2300745d4729a76c5c6eaf36",
       "sitting": "2023-Jun",
       "number": 71,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 882",
+      "reference": "Hazzard 8e · p. 882 · Table 58-1",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5150,7 +5394,7 @@
       "sitting": "2023-Jun",
       "number": 72,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1248",
+      "reference": "Hazzard 8e · p. 1248 · Table 81-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5192,7 +5436,7 @@
       "sitting": "2023-Jun",
       "number": 75,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1253",
+      "reference": "Hazzard 8e · p. 1253 · Table 81-10",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5213,14 +5457,15 @@
       "fromBasic": false,
       "duplicates": [
         2659
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3308": {
       "id": "mcq-af7e2902ab0c68c1979a7e51",
       "sitting": "2023-Jun",
       "number": 77,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 883",
+      "reference": "Hazzard 8e · p. 883 · Table 58-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5262,7 +5507,7 @@
       "sitting": "2023-Jun",
       "number": 80,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 939-940",
+      "reference": "Hazzard 8e · p. 939-940 · Table 61-3,61-4",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5437,14 +5682,19 @@
       "fromBasic": false,
       "duplicates": [
         2675
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "3324": {
       "id": "mcq-d916d6ad3dc4260447e9cfc6",
       "sitting": "2023-Jun",
       "number": 93,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 864-865",
+      "reference": "Hazzard 8e · p. 864-865 · Table 57-3",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5458,7 +5708,7 @@
       "sitting": "2023-Jun",
       "number": 94,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1686",
+      "reference": "Hazzard 8e · p. 1686 · Table 105-4",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5472,7 +5722,7 @@
       "sitting": "2023-Jun",
       "number": 95,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 211",
+      "reference": "Hazzard 8e · p. 211 · Figure 15-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5500,7 +5750,7 @@
       "sitting": "2023-Jun",
       "number": 97,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1150-1152",
+      "reference": "Hazzard 8e · pp. 1150,1152 · Tables 75-1,75-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5514,7 +5764,7 @@
       "sitting": "2023-Jun",
       "number": 98,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 305",
+      "reference": "Hazzard 8e · p. 305 · Table 22-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5542,7 +5792,7 @@
       "sitting": "2023-Jun",
       "number": 100,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
       "edition": 8,
       "paperPage": null,
@@ -5570,21 +5820,22 @@
       "sitting": "2024-May",
       "number": 2,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1682-1683",
+      "reference": "Hazzard 8e · p. 1682-1683 · Table 105-2,105-3",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 2,
       "fromBasic": false,
       "duplicates": [
         2729
-      ]
+      ],
+      "q": "בן 70, מעשן כבד, ברקע מחלת ריאות חסימתית כרונית קשה וברונכואקטזיות. בשנה האחרונה אשפוזים חוזרים עקב חום, שיעול פרודוקטיבי וקוצר נשימה. איזה טיפול אנטיביוטי מומלץ?"
     },
     "3334": {
       "id": "mcq-a4e3d6ba430e0534aff9d3e6",
       "sitting": "2024-May",
       "number": 3,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1138-1139",
+      "reference": "Hazzard 8e · p. 1138-1139 · Figure 74-5",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5598,7 +5849,7 @@
       "sitting": "2024-May",
       "number": 4,
       "type": "Harrison",
-      "reference": "Harrison · ch. 422 · pp. 3280",
+      "reference": "Harrison · ch. 422 · p. 3280; Figure 1 margin citation: Hazzard 8e · ch. 9 · p. 143",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5629,7 +5880,7 @@
       "sitting": "2024-May",
       "number": 5,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 984",
+      "reference": "Hazzard 8e · p. 984 · Table 63-3",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5641,7 +5892,7 @@
       "sitting": "2024-May",
       "number": 6,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1571-1572",
+      "reference": "Hazzard 8e · p. 1571-1572 · Table 99-8",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5655,7 +5906,7 @@
       "sitting": "2024-May",
       "number": 7,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1675-1676",
+      "reference": "Hazzard 8e · p. 1675-1676 · Table 104-2",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5742,7 +5993,7 @@
       "sitting": "2024-May",
       "number": 12,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1485",
+      "reference": "Hazzard 8e · p. 1485 · Table 95-1",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5784,14 +6035,16 @@
       "sitting": "2024-May",
       "number": 15,
       "type": "Circular",
-      "reference": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+      "reference": "IMA: source unspecified (X)",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 6,
       "fromBasic": false,
       "duplicates": [
         2741
-      ]
+      ],
+      "referenceNote": "Earlier bank attribution (not printed in the IMA row; unverified): משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+      "referenceSource": "IMA 2024-May reference list, Q15: X; earlier bank attribution is unverified"
     },
     "3346": {
       "id": "mcq-92a6c079601ca0714a4342c5",
@@ -5815,10 +6068,12 @@
       },
       "q": "בן74 . מזה כחודשיים תסמיני דיכאון המשפיעים על התפקוד היומיומי. נבדק במרפאה ובוצעPHQ9 . מצ\"ב תמונת התוצאה של המבחן (ראה תמונה מספר3 ) . לפי הממצאים ?מהי האבחנה המתאימה",
       "questionSource": "IMA May 2024 Subspecialty question paper, rendered page 6, Q16; verbatim stem from Geriatrics/scripts/exam_audit/canonical/may24_al.json, checked against the rendered paper. Replaces upstream PHQ9=7 paraphrase.",
-      "explanation": "",
+      "explanation": "באלבום הרשמי סומנו 1 בסעיפים 1, 4 ו-5, ו-0 בכל שאר הסעיפים: ציון החומרה הוא 3. לפי הוראות PHQ-9 ב-Hazzard 8e, עמ׳ 1011 (Figure 65-2), בסעיפים 1–8 נספר תסמין לצורך האבחנה כאשר הוא קיים ביותר ממחצית הימים או כמעט בכל יום. בסעיף 9 די גם במספר ימים. לפיכך בטופס הזה אין תסמינים בתדירות המזכה בספירה האבחנתית; הוא אינו ממלא את דרישות הטבלה לדיכאון מז׳ורי או מינורי.\n\nהמפתח הרשמי לאחר ערעורים מקבל ב׳ וד׳. הטופס וההוראות תומכים בד׳; לא נמצא במקור שנקרא הסבר לקבלת ב׳. Explanation under review: the official key is B, D; the source text is being checked.\n\nמקורות: האלבום הרשמי, מאי 2024, תמונה 3; Hazzard 8e, p. 1011 (PDF p. 1045); מפתח IMA לאחר ערעורים, שאלה 16.",
       "explanationIncomplete": true,
       "explanationSource": {
-        "reason": "Previous explanation describes the upstream PHQ9=7 paraphrase, not the restored official figure. No verified complete explanation of the original form available."
+        "status": "PHQ-9 image and diagnostic algorithm verified; reason for accepted B remains unavailable",
+        "page": 1011,
+        "pdfPage": 1045
       }
     },
     "3347": {
@@ -5826,28 +6081,46 @@
       "sitting": "2024-May",
       "number": 17,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 800",
+      "reference": "Hazzard 8e · p. 800 · Figure 53-5",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 6,
       "fromBasic": false,
       "duplicates": [
         2743
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0016",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3348": {
       "id": "mcq-e093e5a4b6fbeef11a52e246",
       "sitting": "2024-May",
       "number": 18,
       "type": "Harrison",
-      "reference": "Harrison · ch. 425 · pp. 3310",
+      "reference": "Harrison · ch. 425 · pp. 3310 · Harrison 425-4",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 7,
       "fromBasic": false,
       "duplicates": [
         2744
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0017",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3349": {
       "id": "mcq-81abf0ac32298245ce5a44eb",
@@ -5868,7 +6141,7 @@
       "sitting": "2024-May",
       "number": 20,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1203",
+      "reference": "Hazzard 8e · p. 1203 · Table 77-8",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5882,7 +6155,7 @@
       "sitting": "2024-May",
       "number": 21,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 693-694",
+      "reference": "Hazzard 8e · p. 693-694 · Table 46-2",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -5896,14 +6169,23 @@
       "sitting": "2024-May",
       "number": 22,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1281",
+      "reference": "Hazzard 8e · p. 1281 · Table 83-1",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 8,
       "fromBasic": false,
       "duplicates": [
         2747
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0018",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3353": {
       "id": "mcq-34619531f641d311ae985624",
@@ -5924,7 +6206,7 @@
       "sitting": "2024-May",
       "number": 24,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1553",
+      "reference": "Hazzard 8e · p. 1553 · Table 98-7",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 8,
@@ -5994,7 +6276,7 @@
       "sitting": "2024-May",
       "number": 29,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 828",
+      "reference": "Hazzard 8e · p. 828 · Table 55-5",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6022,14 +6304,16 @@
       "sitting": "2024-May",
       "number": 31,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 873,933",
+      "reference": "Hazzard 8e · p. 873,933 · Table 63-5",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2755
-      ]
+      ],
+      "readerReference": "Hazzard 8e ch. 57,63 pp. 873,993 Table 63-5",
+      "referenceNote": "Paper cites chapters 57,63 and pp.873,933. Table 63-5 is on p.993 (chapter 63); p.933 is a bibliography page. Open page uses pp.873 and 993."
     },
     "3361": {
       "id": "mcq-8d483913bdc5a9afe5b428bb",
@@ -6050,14 +6334,17 @@
       "sitting": "2024-May",
       "number": 33,
       "type": "Article",
-      "reference": "Mitchell SL. Advanced Dementia.",
+      "reference": "IMA: source unspecified (X)",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 11,
       "fromBasic": false,
       "duplicates": [
         2757
-      ]
+      ],
+      "referenceNote": "Earlier bank attribution (not printed in the IMA row; unverified): Mitchell SL. Advanced Dementia.",
+      "referenceSource": "IMA 2024-May reference list, Q33: X; earlier bank attribution is unverified",
+      "requiredReadingNote": "IMA source unspecified; 2026 required-list status unverified"
     },
     "3363": {
       "id": "mcq-f297a4ae2b83c4e68890a250",
@@ -6172,21 +6459,39 @@
       "fromBasic": false,
       "duplicates": [
         2764
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0019",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3370": {
       "id": "mcq-16df878cdfb1631a3395a00d",
       "sitting": "2024-May",
       "number": 41,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1116-1120",
+      "reference": "Hazzard 8e · p. 1116-1120 · Table 73-1",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 14,
       "fromBasic": false,
       "duplicates": [
         2765
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0020",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3371": {
       "id": "mcq-beb6eeb9a6b97998b481179e",
@@ -6277,7 +6582,7 @@
       "sitting": "2024-May",
       "number": 48,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1538",
+      "reference": "Hazzard 8e · p. 1538 · Table 97-9",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6303,7 +6608,7 @@
       "sitting": "2024-May",
       "number": 50,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 940-941",
+      "reference": "Hazzard 8e · p. 940-941 · Table 61-4",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6345,7 +6650,7 @@
       "sitting": "2024-May",
       "number": 53,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1373",
+      "reference": "Hazzard 8e · p. 1373 · Table 87-4",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6387,7 +6692,7 @@
       "sitting": "2024-May",
       "number": 56,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1175",
+      "reference": "Hazzard 8e · p. 1175 · Table 76-7",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6408,14 +6713,23 @@
       "fromBasic": false,
       "duplicates": [
         2780
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0021",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3386": {
       "id": "mcq-cfab57b8fd5040313f58e263",
       "sitting": "2024-May",
       "number": 58,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1610",
+      "reference": "Hazzard 8e · p. 1610 · Table 101-2",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6492,7 +6806,16 @@
       "fromBasic": false,
       "duplicates": [
         2786
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0022",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3392": {
       "id": "mcq-93ccedd90799481334f485da",
@@ -6513,21 +6836,23 @@
       "sitting": "2024-May",
       "number": 65,
       "type": "Procedure",
-      "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "reference": "IMA: source unspecified (X)",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 20,
       "fromBasic": false,
       "duplicates": [
         2788
-      ]
+      ],
+      "referenceNote": "Earlier bank attribution (not printed in the IMA row; unverified): משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "referenceSource": "IMA 2024-May reference list, Q65: X; earlier bank attribution is unverified"
     },
     "3394": {
       "id": "mcq-18490c5933b53a866c445587",
       "sitting": "2024-May",
       "number": 66,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 924",
+      "reference": "Hazzard 8e · p. 924 · Table 60-4",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6642,7 +6967,7 @@
       "sitting": "2024-May",
       "number": 73,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1316",
+      "reference": "Hazzard 8e · p. 1316 · Table 85-2",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6670,7 +6995,7 @@
       "sitting": "2024-May",
       "number": 75,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 884,211",
+      "reference": "Hazzard 8e · p. 884,211 · Table 58-3,Figure 15-2",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6684,14 +7009,16 @@
       "sitting": "2024-May",
       "number": 76,
       "type": "Procedure",
-      "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "reference": "IMA: source unspecified (X)",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 23,
       "fromBasic": false,
       "duplicates": [
         2799
-      ]
+      ],
+      "referenceNote": "Earlier bank attribution (not printed in the IMA row; unverified): משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "referenceSource": "IMA 2024-May reference list, Q76: X; earlier bank attribution is unverified"
     },
     "3405": {
       "id": "mcq-04041334b8bb59711f917744",
@@ -6712,7 +7039,7 @@
       "sitting": "2024-May",
       "number": 78,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 922",
+      "reference": "Hazzard 8e · p. 922 · Table 60-3",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6738,7 +7065,7 @@
       "sitting": "2024-May",
       "number": 80,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 928",
+      "reference": "Hazzard 8e · p. 928 · Table 60-8",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6773,7 +7100,16 @@
       "fromBasic": false,
       "duplicates": [
         2804
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0023",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3410": {
       "id": "mcq-5f192d8d33ffd433758e1fc3",
@@ -6801,7 +7137,16 @@
       "fromBasic": false,
       "duplicates": [
         2806
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0024",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3412": {
       "id": "mcq-d7ef5d7a467c8ade6436f4f5",
@@ -6822,19 +7167,21 @@
       "sitting": "2024-May",
       "number": 86,
       "type": "Law",
-      "reference": "חוק החולה הנוטה למות — הנחיות מקדימות",
+      "reference": "IMA: source unspecified (X)",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": 26,
       "fromBasic": true,
-      "duplicates": []
+      "duplicates": [],
+      "referenceNote": "Earlier bank attribution (not printed in the IMA row; unverified): חוק החולה הנוטה למות — הנחיות מקדימות",
+      "referenceSource": "IMA 2024-May reference list, Q86: X; earlier bank attribution is unverified"
     },
     "3413": {
       "id": "mcq-dfce84d3a202c484afe8b6bc",
       "sitting": "2024-May",
       "number": 87,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 912-913",
+      "reference": "Hazzard 8e · p. 912-913 · Table 59-7",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6904,7 +7251,7 @@
       "sitting": "2024-May",
       "number": 92,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 702-703",
+      "reference": "Hazzard 8e · p. 702-703 · Table 47-3,47-4",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6918,7 +7265,7 @@
       "sitting": "2024-May",
       "number": 93,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 635",
+      "reference": "Hazzard 8e · p. 635 · Table 43-1",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -6932,7 +7279,7 @@
       "sitting": "2024-May",
       "number": 94,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 652-653",
+      "reference": "Hazzard 8e · p. 652-653 · Table 44-2",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7002,7 +7349,7 @@
       "sitting": "2024-May",
       "number": 99,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 854",
+      "reference": "Hazzard 8e · p. 854 · Table 57-1",
       "source": "refs_2024May_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7023,7 +7370,16 @@
       "fromBasic": false,
       "duplicates": [
         2821
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0025",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024a_key-after-appeal-all.png"
+        ]
+      }
     },
     "3428": {
       "id": "mcq-ff953c4f5cde2966a8ac98cc",
@@ -7058,14 +7414,15 @@
       "sitting": "2024-Sep",
       "number": 3,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2873
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked."
     },
     "3431": {
       "id": "mcq-9fd00abfaa6396324e34c1d1",
@@ -7086,14 +7443,23 @@
       "sitting": "2024-Sep",
       "number": 5,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 929",
+      "reference": "Hazzard 8e · p. 929 · Table 60-9",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2875
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.\n\nמירטאזפין (Mirtazapine) היא התשובה הנכונה מכיוון שמנגנון הפעולה שלה שונה מהותית מזה של תרופות נוגדות דיכאון אחרות, ובפרט אינה מעכבת ספיגה חוזרת של סרוטונין באופן ישיר. מירטאזפין פועלת כאנטגוניסט לקולטני אלפא-2 פרה-סינפטיים וכאנטגוניסט לקולטני סרוטונין מסוג 5-HT2 ו-5-HT3. מנגנון זה אינו מעורב בשחרור ADH (הורמון אנטי-דיורטי) באותה מידה שבה מעורב מנגנון ה-SIADH הנגרם על ידי עיכוב ספיגה חוזרת של סרוטונין. על פי עקרונות Hazzard's Geriatric Medicine, היפונתרמיה הנגרמת מ-SIADH היא סיבוך מוכר ומסוכן בקשישים המטופלים בתרופות סרוטונרגיות, שכן גיל מבוגר מהווה גורם סיכון עצמאי לתגובה זו עקב ירידה ביכולת הכליה לשמר נתרן ושינויים בוויסות הנוזלים.\n\n**סרטרלין (Sertraline) — תשובה א'** היא מעכב ספיגה חוזרת של סרוטונין (SSRI) קלאסי. תרופות מקבוצה זו קשורות באופן מובהק לפיתוח SIADH, שכן סרוטונין מגביר שחרור ADH מההיפותלמוס וגורם לאגירת מים ודילול הנתרן בדם. סרטרלין הוא אחד מה-SSRIs השכיחים ביותר הקשורים להיפונתרמיה בקשישים, ולכן אינו התשובה הנכונה.\n\n**ונלאפקסין (Venlafaxine) — תשובה ג'** היא מעכב ספיגה חוזרת של סרוטונין ונוראפינפרין (SNRI). על אף מרכיב הנוראפינפרין, הרכיב הסרוטונרגי שלה עדיין נושא סיכון משמעותי ל-SIADH ולהיפונתרמיה, ומקרים רבים מתועדים בספרות הגריאטרית. לכן גם היא אינה הבחירה הנכונה.\n\n**פנינה קלינית לבחינה:** בכל מטופל קשיש שמתחיל טיפול נוגד דיכאון, יש לבדוק רמת נתרן בסרום כבסיס ולחזור על הבדיקה כ-2 שבועות לאחר תחילת הטיפול. מירטאזפין מועדפת לעיתים בקשישים גם בשל תופעת הלוואי החיובית של גירוי תיאבון ושיפור שינה.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0026",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024b_key-after-appeal-all.png"
+        ]
+      }
     },
     "3433": {
       "id": "mcq-729fbafd5c19ea7d160566e7",
@@ -7114,7 +7480,7 @@
       "sitting": "2024-Sep",
       "number": 7,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1201",
+      "reference": "Hazzard 8e · p. 1201 · Table 77-6",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7182,7 +7548,7 @@
       "sitting": "2024-Sep",
       "number": 12,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 709",
+      "reference": "Hazzard 8e · p. 709 · Table 47-9",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7196,7 +7562,7 @@
       "sitting": "2024-Sep",
       "number": 13,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1063-1064",
+      "reference": "Hazzard 8e · p. 1063-1064 · Table 68-3",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7224,7 +7590,7 @@
       "sitting": "2024-Sep",
       "number": 15,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 908",
+      "reference": "Hazzard 8e · p. 908 · Table 59-5",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7238,7 +7604,7 @@
       "sitting": "2024-Sep",
       "number": 16,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1359",
+      "reference": "Hazzard 8e · p. 1359 · Table 87-5",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7266,21 +7632,23 @@
       "sitting": "2024-Sep",
       "number": 18,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 210",
+      "reference": "Hazzard 8e · p. 210 · Figure 15-2",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2887
-      ]
+      ],
+      "readerReference": "Hazzard 8e · p. 211",
+      "referenceNote": "Paper cites p.210; AMT4 is on p.211, the continuation of Figure 15-2."
     },
     "3445": {
       "id": "mcq-a95e9c5ca09aca36f108c948",
       "sitting": "2024-Sep",
       "number": 19,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 637",
+      "reference": "Hazzard 8e · p. 637 · Table 43-2",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7301,14 +7669,15 @@
       "fromBasic": false,
       "duplicates": [
         2889
-      ]
+      ],
+      "referenceNote": "Paper cites chapter 74 with p.1151; the verified source page belongs to chapter 75."
     },
     "3447": {
       "id": "mcq-2f9b0a4a271f750ea9bfb769",
       "sitting": "2024-Sep",
       "number": 21,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 621",
+      "reference": "Hazzard 8e · p. 621 · Table 42-3",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7322,7 +7691,7 @@
       "sitting": "2024-Sep",
       "number": 22,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 712-713",
+      "reference": "Hazzard 8e · p. 712-713 · Table 47-12",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7364,7 +7733,7 @@
       "sitting": "2024-Sep",
       "number": 25,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 884",
+      "reference": "Hazzard 8e · p. 884 · Table 58-3",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7392,7 +7761,7 @@
       "sitting": "2024-Sep",
       "number": 27,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1202",
+      "reference": "Hazzard 8e · p. 1202 · Table 77-7",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7406,7 +7775,7 @@
       "sitting": "2024-Sep",
       "number": 28,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 735,743-744",
+      "reference": "Hazzard 8e · p. 735,743-744 · Table 50-2",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7462,21 +7831,30 @@
       "sitting": "2024-Sep",
       "number": 32,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1634",
+      "reference": "Hazzard 8e · p. 1634 · Table 102-5",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": 9,
       "fromBasic": false,
       "duplicates": [
         2898
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, C; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0028",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024b_key-after-appeal-all.png"
+        ]
+      }
     },
     "3459": {
       "id": "mcq-f94957c688e051f74a5dd7d3",
       "sitting": "2024-Sep",
       "number": 33,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1256",
+      "reference": "Hazzard 8e · p. 1256 · Table 81-11",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7511,7 +7889,12 @@
       "fromBasic": false,
       "duplicates": [
         2901
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי · p. 39. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "3462": {
       "id": "mcq-de35ec8f8613614fad033467",
@@ -7525,7 +7908,8 @@
       "fromBasic": false,
       "duplicates": [
         2902
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3463": {
       "id": "mcq-ff32d387904a513e1d0cd5a1",
@@ -7575,7 +7959,7 @@
       "sitting": "2024-Sep",
       "number": 40,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 886",
+      "reference": "Hazzard 8e · p. 886 · Table 58-4",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7694,14 +8078,15 @@
       "fromBasic": false,
       "duplicates": [
         2914
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3475": {
       "id": "mcq-3b316d09c1a5d91bc326475c",
       "sitting": "2024-Sep",
       "number": 49,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1171-1172",
+      "reference": "Hazzard 8e · p. 1171-1172 · Table 76-3",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7743,7 +8128,7 @@
       "sitting": "2024-Sep",
       "number": 52,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1356",
+      "reference": "Hazzard 8e · p. 1356 · Table 87-4",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7757,21 +8142,30 @@
       "sitting": "2024-Sep",
       "number": 53,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 693-694",
+      "reference": "Hazzard 8e · p. 693-694 · Table 46-2",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": 13,
       "fromBasic": false,
       "duplicates": [
         2919
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0029",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024b_key-after-appeal-all.png"
+        ]
+      }
     },
     "3480": {
       "id": "mcq-345208681a53f5565b36e6b5",
       "sitting": "2024-Sep",
       "number": 54,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1608",
+      "reference": "Hazzard 8e · p. 1608 · Table 101-1",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7785,7 +8179,7 @@
       "sitting": "2024-Sep",
       "number": 55,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1249",
+      "reference": "Hazzard 8e · p. 1249 · Table 81-10",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7820,7 +8214,8 @@
       "fromBasic": false,
       "duplicates": [
         2922
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "3484": {
       "id": "mcq-a02930b506592f438ff8cb02",
@@ -7869,14 +8264,15 @@
       "sitting": "2024-Sep",
       "number": 61,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 912-914",
+      "reference": "Hazzard 8e · p. 912-914 · Table 59-7",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2926
-      ]
+      ],
+      "referenceNote": "Paper cites chapter 61 with pp.912-914 and Table 59-7; the verified table belongs to chapter 59."
     },
     "3488": {
       "id": "mcq-6b8ad9219ef01f065f26f949",
@@ -7925,7 +8321,7 @@
       "sitting": "2024-Sep",
       "number": 65,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 734",
+      "reference": "Hazzard 8e · p. 734 · Table 49-3",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -7965,7 +8361,7 @@
       "sitting": "2024-Sep",
       "number": 68,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1260",
+      "reference": "Hazzard 8e · p. 1260 · Table 81-13",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8063,7 +8459,7 @@
       "sitting": "2024-Sep",
       "number": 75,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 927",
+      "reference": "Hazzard 8e · p. 927 · Table 60-7",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8112,7 +8508,12 @@
       "fromBasic": false,
       "duplicates": [
         2942
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "3504": {
       "id": "mcq-6830feff40ac5bbc0903e834",
@@ -8189,7 +8590,7 @@
       "sitting": "2024-Sep",
       "number": 84,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1686-1687",
+      "reference": "Hazzard 8e · p. 1686-1687 · Table 105-4",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8259,7 +8660,7 @@
       "sitting": "2024-Sep",
       "number": 89,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 884",
+      "reference": "Hazzard 8e · p. 884 · Table 58-3",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8294,7 +8695,16 @@
       "fromBasic": false,
       "duplicates": [
         2954
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0030",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024b_key-after-appeal-all.png"
+        ]
+      }
     },
     "3517": {
       "id": "mcq-e8ffe5e4732e7d63293662ad",
@@ -8308,7 +8718,16 @@
       "fromBasic": false,
       "duplicates": [
         2955
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0031",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024b_key-after-appeal-all.png"
+        ]
+      }
     },
     "3518": {
       "id": "mcq-98debcd301b2d91929e937da",
@@ -8336,7 +8755,16 @@
       "fromBasic": false,
       "duplicates": [
         2957
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0032",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2024b_key-after-appeal-all.png"
+        ]
+      }
     },
     "3520": {
       "id": "mcq-533583412fa06778cad38886",
@@ -8357,7 +8785,7 @@
       "sitting": "2024-Sep",
       "number": 96,
       "type": "Harrison",
-      "reference": "Harrison · ch. 370 · p. 2847; Table 370-2 (Q97)",
+      "reference": "Harrison · ch. 370 · no page supplied",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8378,14 +8806,15 @@
       "fromBasic": false,
       "duplicates": [
         2960
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked."
     },
     "3523": {
       "id": "mcq-084128e675755a60218e946b",
       "sitting": "2024-Sep",
       "number": 98,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1636",
+      "reference": "Hazzard 8e · p. 1636 · Table 102-7",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8399,7 +8828,7 @@
       "sitting": "2024-Sep",
       "number": 99,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1539",
+      "reference": "Hazzard 8e · p. 1539 · Table 97-10",
       "source": "refs_2024Sep_subspec.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8427,7 +8856,7 @@
       "sitting": "2025-Jun",
       "number": 1,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 785-787",
+      "reference": "Hazzard 8e · p. 785-787 · Figures 52-4,52-5",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8441,7 +8870,7 @@
       "sitting": "2025-Jun",
       "number": 2,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1121",
+      "reference": "Hazzard 8e · p. 1121 · Table 73-2",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8469,7 +8898,7 @@
       "sitting": "2025-Jun",
       "number": 4,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1063-1065",
+      "reference": "Hazzard 8e · p. 1063-1065 · Table 68-8",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": 2,
@@ -8511,7 +8940,7 @@
       "sitting": "2025-Jun",
       "number": 7,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 929",
+      "reference": "Hazzard 8e · p. 929 · Table 60-9",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8525,7 +8954,7 @@
       "sitting": "2025-Jun",
       "number": 8,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 886",
+      "reference": "Hazzard 8e · p. 886 · Table 58-4",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8546,14 +8975,19 @@
       "fromBasic": false,
       "duplicates": [
         2972
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: לקט נתונים אינפוגרפי. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "4556": {
       "id": "mcq-67b7012b2c6b8397c06e1497",
       "sitting": "2025-Jun",
       "number": 10,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 993",
+      "reference": "Hazzard 8e · p. 993 · Table 63-5",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8658,7 +9092,16 @@
       "fromBasic": false,
       "duplicates": [
         2979
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0036",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2025_key-after-appeal-all.png"
+        ]
+      }
     },
     "4564": {
       "id": "mcq-120672035ba2e91f922d8ff3",
@@ -8679,7 +9122,7 @@
       "sitting": "2025-Jun",
       "number": 19,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 581",
+      "reference": "Hazzard 8e · p. 581 · Table 39-1",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8693,7 +9136,7 @@
       "sitting": "2025-Jun",
       "number": 20,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1359",
+      "reference": "Hazzard 8e · p. 1359 · Table 87-5",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8721,7 +9164,7 @@
       "sitting": "2025-Jun",
       "number": 22,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1153",
+      "reference": "Hazzard 8e · p. 1153 · Table 75-3",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8735,7 +9178,7 @@
       "sitting": "2025-Jun",
       "number": 23,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 622",
+      "reference": "Hazzard 8e · p. 622 · Table 42-3",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8749,14 +9192,17 @@
       "sitting": "2025-Jun",
       "number": 24,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1640",
+      "reference": "Hazzard 8e · p. 1640 · Table 103-4",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         2986
-      ]
+      ],
+      "readerReference": "Hazzard 8e · ch. 103 · p. 1649 · Table 103-4",
+      "referenceNote": "Paper cites p.1640, chapter 103, Table 103-4; the verified table is on p.1649 (chapter 103).",
+      "topics": []
     },
     "4571": {
       "id": "mcq-403fd909d8963b5766ac33df",
@@ -8791,7 +9237,7 @@
       "sitting": "2025-Jun",
       "number": 27,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1632",
+      "reference": "Hazzard 8e · p. 1632 · Table 102-3",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8833,7 +9279,7 @@
       "sitting": "2025-Jun",
       "number": 30,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 709",
+      "reference": "Hazzard 8e · p. 709 · Table 47-9",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -8960,7 +9406,7 @@
       "sitting": "2025-Jun",
       "number": 39,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 375",
+      "reference": "Hazzard 8e · p. 375 · Table 27-3",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9072,7 +9518,7 @@
       "sitting": "2025-Jun",
       "number": 47,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 693-694",
+      "reference": "Hazzard 8e · p. 693-694 · Table 46-2",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9086,7 +9532,7 @@
       "sitting": "2025-Jun",
       "number": 48,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1161",
+      "reference": "Hazzard 8e · p. 1161 · Table 75-15",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9100,7 +9546,7 @@
       "sitting": "2025-Jun",
       "number": 49,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9128,7 +9574,7 @@
       "sitting": "2025-Jun",
       "number": 51,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 743-744",
+      "reference": "Hazzard 8e · p. 743-744 · Table 50-2",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9170,7 +9616,7 @@
       "sitting": "2025-Jun",
       "number": 54,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 703",
+      "reference": "Hazzard 8e · p. 703 · Table 47-4",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9212,14 +9658,15 @@
       "sitting": "2025-Jun",
       "number": 57,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1011",
+      "reference": "Hazzard 8e · p. 1011 · Figure 65-2",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         3019
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C; the source text is being checked.\n\nשאלה זו מקבלת שתי תשובות תקפות, וחשוב להבין מדוע שתיהן הגיוניות קלינית לפני שנסביר מדוע האיגוד הרפואי בחר דווקא ב־**Minor Depression** עם **מעקב בלבד**. התשובה הראשונה, **\"מדובר ב־Minor Depression – מומלץ מעקב בלבד\"**, מתבססת על ניקוד **PHQ-9** בטווח של 5–9 נקודות, המגדיר דיכאון קל (Minor/Mild Depression), שבו ההנחיות הקליניות אינן ממליצות על תרופות אנטידפרסנטיות אלא על **watchful waiting** – כלומר מעקב פעיל ללא התערבות תרופתית מיידית, מה שנכון במיוחד לאישה בת 90 שבה הסיכון מתרופות סרוטונרגיות (נפילות, היפונתרמיה, אינטראקציות) גדול. התשובה השנייה, **\"יש לחפש גורם אחר לעייפות, מעקב בלבד\"**, אף היא הגיונית כיוון שבגיל 90 תסמינים של עייפות וירידה בתפקוד יכולים לנבוע מגורמים גופניים כגון **hypothyroidism**, **אנמיה**, **אי-ספיקת לב** או **תת-תזונה**, ולכן גישה של שלילת סיבות אורגניות תחילה היא לגיטימית לחלוטין. עם זאת, האיגוד הרפואי העדיף את התשובה הראשונה משום שהשאלה מנחה את הנבחן לפרש את תוצאת **PHQ-9** ישירות ולהגיע לאבחנה לפי הכלי, וניק"
     },
     "4604": {
       "id": "mcq-cb2418301a941a2746f83dca",
@@ -9233,7 +9680,8 @@
       "fromBasic": false,
       "duplicates": [
         3020
-      ]
+      ],
+      "referenceNote": "Paper lists chapter 104 with pp.1675,1693-1694. The source pages span chapter 104 (p.1675) and chapter 105 (pp.1693-1694)."
     },
     "4605": {
       "id": "mcq-c96af8d727732c9078673e23",
@@ -9275,7 +9723,8 @@
       "fromBasic": false,
       "duplicates": [
         3023
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "4608": {
       "id": "mcq-57c893ac288cd17663b1e3c3",
@@ -9338,7 +9787,7 @@
       "sitting": "2025-Jun",
       "number": 66,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 700",
+      "reference": "Hazzard 8e · p. 700 · Figure 47-1",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9352,7 +9801,7 @@
       "sitting": "2025-Jun",
       "number": 67,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1404",
+      "reference": "Hazzard 8e · p. 1404 · Table 89-4",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9408,7 +9857,7 @@
       "sitting": "2025-Jun",
       "number": 71,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 446,1690-1691",
+      "reference": "Hazzard 8e · p. 446,1690-1691 · Table 31-5",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9430,14 +9879,15 @@
       "fromBasic": false,
       "duplicates": [
         3033
-      ]
+      ],
+      "requiredReadingNote": "not on the 2026 required list"
     },
     "4619": {
       "id": "mcq-dfd19ed053a8fd2e83f6dd49",
       "sitting": "2025-Jun",
       "number": 73,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1571",
+      "reference": "Hazzard 8e · p. 1571 · Table 99-6",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9451,7 +9901,7 @@
       "sitting": "2025-Jun",
       "number": 74,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1202-1203",
+      "reference": "Hazzard 8e · p. 1202-1203 · Table 77-8",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9500,7 +9950,16 @@
       "fromBasic": false,
       "duplicates": [
         3038
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0037",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2025_key-after-appeal-all.png"
+        ]
+      }
     },
     "4624": {
       "id": "mcq-f2448541fe026f7c28b9ebe5",
@@ -9521,7 +9980,7 @@
       "sitting": "2025-Jun",
       "number": 79,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1063-1065",
+      "reference": "Hazzard 8e · p. 1063-1065 · Table 68-8",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": 22,
@@ -9606,7 +10065,7 @@
       "sitting": "2025-Jun",
       "number": 85,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1586",
+      "reference": "Hazzard 8e · p. 1586 · Table 99-16",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9634,7 +10093,7 @@
       "sitting": "2025-Jun",
       "number": 87,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 232,715-716",
+      "reference": "Hazzard 8e · p. 232,715-716 · Table 16-6",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9690,14 +10149,28 @@
       "sitting": "2025-Jun",
       "number": 91,
       "type": "Law",
-      "reference": "ייפוי כוח רפואי / ייפוי כוח מתמשך; altered bank stem: חוק זכויות החולה",
+      "reference": "IMA: חוק (law; title not specified in the reference row)",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": 26,
       "fromBasic": true,
       "duplicates": [
         4637
-      ]
+      ],
+      "q": "בן 78, מטופל כרונית לתסמיני היפרטרופיה של פרוסטטה (BPH) וליתר לחץ דם מאוזן, מתעניין במתן ייפוי כוח לבנו. מה מהבאים נכון בנוגע לאפשרויות העומדות בפניו?",
+      "o": [
+        "לחתום על ייפוי כוח רפואי על ידי רופא ועובדת סוציאלית",
+        "לחתום על ייפוי כוח מתמשך מלא (רפואי ורכוש) על ידי גריאטר מומחה",
+        "לחתום על ייפוי כוח לרכוש על ידי פקיד בכיר בבנק",
+        "לחתום על ייפוי כוח רפואי על ידי אחות מומחית קלינית בגריאטריה"
+      ],
+      "accepted": [
+        0,
+        3
+      ],
+      "mockEligible": true,
+      "label": "Original exam question restored; A and D accepted after appeal",
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked."
     },
     "4638": {
       "id": "mcq-78efef2ee60d19f031350bbc",
@@ -9718,7 +10191,7 @@
       "sitting": "2025-Jun",
       "number": 93,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9746,7 +10219,7 @@
       "sitting": "2025-Jun",
       "number": 95,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 768-769",
+      "reference": "Hazzard 8e · p. 768-769 · Table 51-3",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9786,7 +10259,7 @@
       "sitting": "2025-Jun",
       "number": 98,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 702",
+      "reference": "Hazzard 8e · p. 702 · Table 47-3",
       "source": "מראה מקום גריאטריה 2025.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9849,7 +10322,16 @@
       "fromBasic": false,
       "duplicates": [
         4298
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0033",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2026_key-after-appeal-all.png"
+        ]
+      }
     },
     "4449": {
       "id": "mcq-a106c2e93b7ced5d12e16004",
@@ -9870,7 +10352,7 @@
       "sitting": "2026-Jun",
       "number": 4,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 854",
+      "reference": "Hazzard 8e · p. 854 · Table 57-1",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9954,21 +10436,23 @@
       "sitting": "2026-Jun",
       "number": 11,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1632,1120",
+      "reference": "Hazzard 8e · p. 1632,1120 · Table 102-3",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         4307
-      ]
+      ],
+      "readerReference": "Hazzard 8e · p. 1632",
+      "referenceNote": "Paper cites pp.1632 and 1120. Claudication content is on p.1632; p.1120 does not support it."
     },
     "4458": {
       "id": "mcq-3906ed2ba944bc31f884ba0c",
       "sitting": "2026-Jun",
       "number": 12,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1514",
+      "reference": "Hazzard 8e · p. 1514 · Figure 96-3",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -9996,7 +10480,7 @@
       "sitting": "2026-Jun",
       "number": 14,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 886",
+      "reference": "Hazzard 8e · p. 886 · Table 858-4 (as printed)",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10038,7 +10522,7 @@
       "sitting": "2026-Jun",
       "number": 17,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 703",
+      "reference": "Hazzard 8e · p. 703 · Table 47-4",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10192,7 +10676,7 @@
       "sitting": "2026-Jun",
       "number": 29,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 774-776",
+      "reference": "Hazzard 8e · p. 774-776 · Table 51-5",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10220,7 +10704,7 @@
       "sitting": "2026-Jun",
       "number": 31,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 939-940",
+      "reference": "Hazzard 8e · p. 939-940 · Table 61-3",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10276,7 +10760,7 @@
       "sitting": "2026-Jun",
       "number": 35,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 820",
+      "reference": "Hazzard 8e · p. 820 · Table 55-1",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10290,7 +10774,7 @@
       "sitting": "2026-Jun",
       "number": 36,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 896",
+      "reference": "Hazzard 8e · p. 896 · Table 59-2",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10304,7 +10788,7 @@
       "sitting": "2026-Jun",
       "number": 37,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1571",
+      "reference": "Hazzard 8e · p. 1571 · Table 99-6",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10318,7 +10802,7 @@
       "sitting": "2026-Jun",
       "number": 38,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 124,621",
+      "reference": "Hazzard 8e · p. 124,621 · Figure 8-2,42-3",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10360,7 +10844,7 @@
       "sitting": "2026-Jun",
       "number": 41,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 138",
+      "reference": "Hazzard 8e · p. 138 · Table 9-4",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10402,7 +10886,7 @@
       "sitting": "2026-Jun",
       "number": 44,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 703-704",
+      "reference": "Hazzard 8e · p. 703-704 · Table 47-4,47-5",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10416,7 +10900,7 @@
       "sitting": "2026-Jun",
       "number": 45,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 617-618",
+      "reference": "Hazzard 8e · p. 617-618 · Table 42-2",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10486,7 +10970,7 @@
       "sitting": "2026-Jun",
       "number": 50,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 643-644",
+      "reference": "Hazzard 8e · p. 643-644 · Figure 44-1",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10507,7 +10991,16 @@
       "fromBasic": false,
       "duplicates": [
         4347
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is A, B, C; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0034",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2026_key-after-appeal-all.png"
+        ]
+      }
     },
     "4498": {
       "id": "mcq-3c902dfe8cf32cf96518b8b1",
@@ -10612,7 +11105,7 @@
       "sitting": "2026-Jun",
       "number": 59,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1577",
+      "reference": "Hazzard 8e · p. 1577 · Table 99-11",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10626,7 +11119,7 @@
       "sitting": "2026-Jun",
       "number": 60,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 941",
+      "reference": "Hazzard 8e · p. 941 · Table 61-4",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10675,7 +11168,12 @@
       "fromBasic": false,
       "duplicates": [
         4359
-      ]
+      ],
+      "chapter": "law",
+      "chapterTitle": "Brookdale yearbook — Israeli required reading",
+      "requiredCard": "ima-2026-14",
+      "referenceNote": "Brookdale yearbook: Brookdale statistical yearbook · p. 132. Examined on an earlier edition; figures may differ from the required 2024 edition.",
+      "requiredReadingNote": "examined on an earlier edition"
     },
     "4511": {
       "id": "mcq-a27bfbe9359d6d1da40dbdc6",
@@ -10738,7 +11236,7 @@
       "sitting": "2026-Jun",
       "number": 69,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 827-828",
+      "reference": "Hazzard 8e · p. 827-828 · Table 55-5",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10766,7 +11264,7 @@
       "sitting": "2026-Jun",
       "number": 71,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1153",
+      "reference": "Hazzard 8e · p. 1153 · Table 75-3",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -10801,7 +11299,16 @@
       "fromBasic": false,
       "duplicates": [
         4369
-      ]
+      ],
+      "explanation": "Explanation under review: the official key is B, C; the source text is being checked.",
+      "explanationSource": {
+        "status": "Affected explanation paragraphs withdrawn pending source review",
+        "finding": "H-0035",
+        "evidence": [
+          "multi-explanation-review.json",
+          "pages/2026_key-after-appeal-all.png"
+        ]
+      }
     },
     "4520": {
       "id": "mcq-36c1dda6663cb9192906f6ae",
@@ -10990,21 +11497,23 @@
       "sitting": "2026-Jun",
       "number": 87,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1014-1015",
+      "reference": "Hazzard 8e · ch. 65 · pp. 114-115 (as printed)",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [
         4383
-      ]
+      ],
+      "readerReference": "Hazzard 8e · p. 1014-1015",
+      "referenceNote": "Paper cites pp.114–115, chapter 65; the verified depression treatment content is on pp.1014–1015."
     },
     "4534": {
       "id": "mcq-37ef49b08af5012046c10790",
       "sitting": "2026-Jun",
       "number": 88,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1281",
+      "reference": "Hazzard 8e · p. 1281 · Table 83-1",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,
@@ -11046,7 +11555,7 @@
       "sitting": "2026-Jun",
       "number": 91,
       "type": "Hazzard",
-      "reference": "Hazzard 8e · p. 1059",
+      "reference": "Hazzard 8e · p. 1059 · Table 68-3",
       "source": "מראה מקום גריאטריה 2026.pdf",
       "edition": 8,
       "paperPage": null,

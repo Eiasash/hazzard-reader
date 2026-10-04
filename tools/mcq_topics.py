@@ -13,7 +13,7 @@ def membership(question):
 def chapter_membership(question, toc):
     if question['kind'] == 'past' and question.get('edition') == 8:
         pages = set()
-        for group in re.findall(r'\bpp?\.\s*(\d+(?:\s*[-–]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-–]\s*\d+)?)*)', question.get('ref', ''), re.I):
+        for group in re.findall(r'\bpp?\.\s*(\d+(?:\s*[-–]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-–]\s*\d+)?)*)', question.get('readerReference', question.get('ref', '')), re.I):
             for span in group.split(','):
                 ends = [int(n) for n in re.split('[-–]', span)]
                 if len(ends) == 1:

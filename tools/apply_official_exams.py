@@ -30,7 +30,9 @@ def apply(items, root=ROOT):
             seen.add(key)
             if row.get('images'):
                 q['images'] = list(row['images'])
-            for field in ('q', 'explanation', 'explanationIncomplete', 'explanationSource'):
+            for field in ('q', 'o', 'explanation', 'explanationIncomplete', 'explanationSource',
+                          'chapter', 'chapterTitle', 'topic', 'topics', 'readerReference',
+                          'referenceNote', 'requiredReadingNote', 'requiredCard', 'mockEligible', 'label'):
                 if field in row:
                     q[field] = row[field]
             q.update(t=row['sitting'] + '-Subspec', examNumber=row['number'],
@@ -38,11 +40,13 @@ def apply(items, root=ROOT):
                      referenceSource='IMA ' + row['sitting'] + f' reference list, Q{row["number"]}',
                      israeliSystem=row['type'] in {'Law', 'Procedure', 'Circular', 'Yearbook'},
                      suppliedArticle=row['type'] == 'Article')
+            if row.get('referenceSource'):
+                q['referenceSource'] = row['referenceSource']
             if row['type'] == 'Hazzard':
                 q['edition'] = row['edition']
             if row.get('uniqueId'):
                 q['id'] = row['uniqueId']
-            if row['edition'] == 7:
+            if row['edition'] == 7 and q.get('explanationSource', {}).get('edition') != 8:
                 # Remove later-edition attributions from generated bank prose;
                 # do not relabel unverified prose as a verified 7e quotation.
                 q['explanation'] = re.sub(r'\b8e\b|\b8th\s+ed(?:ition)?\.?|מהדורה\s*8', '', q['explanation'], flags=re.I)
@@ -58,7 +62,9 @@ def apply(items, root=ROOT):
                     q[field] = override[field]
         if len(q['accepted']) == len(q['o']):
             q.update(mockEligible=False, label='All answers accepted after appeal')
-        for field in ('ref', 'explanation'):
+        # Keep the official bibliography visible even when GRS content is not
+        # included in this reader. Only imported explanation prose is filtered.
+        for field in ('explanation',):
             paragraphs = re.split(r'(?:\\n\\n|\n\n)', q.get(field, ''))
             q[field] = '\n\n'.join(p for p in paragraphs if not re.search(r'\bGRS\s*\d*\b', p, re.I))
         result.append(q)
