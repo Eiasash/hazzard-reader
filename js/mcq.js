@@ -39,7 +39,13 @@ window.HazzardMCQ = (() => {
   const FLAGS_KEY='hazzard-mcq-flags-v1',LAW_TOPICS=[30,31,32,33,34];
   const SYSTEM_KEY='hazzard-mcq-israeli-system-v1';
   const VIEW_KEY='hazzard-mcq-view-v1';
-  function validView(v){return record(v)&&v.version===1&&/^mcq-[a-f0-9]{24}$/.test(v.id)&&['all','past','practice','law','articles'].includes(v.filter)&&/^(all|\d{4})$/.test(v.year)&&['all','Subspec','unspecified'].includes(v.level)&&/^(all|\d{1,3})$/.test(v.topic)&&['source','topic'].includes(v.sort)&&typeof v.missedOnly==='boolean'&&typeof v.flagsView==='boolean'&&Number.isFinite(v.scroll)&&v.scroll>=0&&Number.isFinite(v.at)&&v.at>=0&&(v.missedIds==null||Array.isArray(v.missedIds)&&v.missedIds.every(id=>/^mcq-[a-f0-9]{24}$/.test(id)));}
+  const choicesOf=value=>Array.isArray(value)?value:value==='all'?[]:[value];
+  const validChoices=(value,allowed)=>typeof value==='string'?(value==='all'||allowed(value)):Array.isArray(value)&&new Set(value).size===value.length&&value.every(v=>typeof v==='string'&&allowed(v));
+  const validYears=value=>validChoices(value,v=>/^\d{4}$/.test(v));
+  const validLevels=value=>validChoices(value,v=>['Basic','Subspec','unspecified'].includes(v));
+  const matchesYear=(q,value)=>!choicesOf(value).length||choicesOf(value).includes(q.t.slice(0,4));
+  const matchesLevel=(q,value)=>!choicesOf(value).length||choicesOf(value).some(v=>v==='unspecified'?!/-(Basic|Subspec)$/.test(q.t):q.t.endsWith('-'+v));
+  function validView(v){return record(v)&&v.version===1&&/^mcq-[a-f0-9]{24}$/.test(v.id)&&['all','past','practice','law','articles'].includes(v.filter)&&validYears(v.year)&&validLevels(v.level)&&/^(all|\d{1,3})$/.test(v.topic)&&['source','topic'].includes(v.sort)&&typeof v.missedOnly==='boolean'&&typeof v.flagsView==='boolean'&&Number.isFinite(v.scroll)&&v.scroll>=0&&Number.isFinite(v.at)&&v.at>=0&&(v.missedIds==null||Array.isArray(v.missedIds)&&v.missedIds.every(id=>/^mcq-[a-f0-9]{24}$/.test(id)));}
   const mergeView=(a,b)=>a.at>=b.at?a:b;
   const PRACTICE_LABEL='Hazzard practice - US framing';
   const LAW_NOTE='Official past-exam questions on Israeli law, health systems and ethics.';
@@ -124,25 +130,25 @@ window.HazzardMCQ = (() => {
     return box.innerHTML;
   }
   const PAPER_KEY='hazzard-mcq-papers-v1';
-  const defaultSettings=()=>({length:50,sources:['past','practice'],year:'all',level:'all'});
+  const defaultSettings=()=>({length:50,sources:['past','practice'],year:[],level:[]});
   function validPaper(value){
     const p=value?.paper,s=value?.settings;
-    if(!record(value)||value.version!==1||!Number.isFinite(value.at)||!record(s)||![25,50,100].includes(s.length)||!Array.isArray(s.sources)||new Set(s.sources).size!==s.sources.length||!s.sources.every(x=>['past','practice','law'].includes(normalizeSource(x)))||!(/^(all|\d{4})$/.test(s.year))||!['all','Basic','Subspec','unspecified'].includes(s.level))return false;
+    if(!record(value)||value.version!==1||!Number.isFinite(value.at)||!record(s)||![25,50,100].includes(s.length)||!Array.isArray(s.sources)||new Set(s.sources).size!==s.sources.length||!s.sources.every(x=>['past','practice','law'].includes(normalizeSource(x)))||!validYears(s.year)||!validLevels(s.level))return false;
     return p===null||record(p)&&[25,50,100].includes(p.size)&&Array.isArray(p.ids)&&p.ids.length>0&&p.ids.length<=100&&new Set(p.ids).size===p.ids.length&&p.ids.every(id=>/^mcq-[a-f0-9]{24}$/.test(id))&&validStore({version:1,answers:p.answers})&&Object.keys(p.answers).every(id=>p.ids.includes(id))&&typeof p.finished==='boolean'&&typeof p.retry==='boolean'&&Number.isInteger(p.position)&&p.position>=0&&p.position<p.ids.length&&Number.isFinite(p.at);
   }
-  function readPaper(){const raw=localStorage.getItem(PAPER_KEY);if(raw===null)return null;const value=JSON.parse(raw);if(!validPaper(value))throw Error('Unreadable saved MCQ paper');return {...value,settings:{...value.settings,sources:[...new Set(value.settings.sources.map(normalizeSource))]}};}
+  function readPaper(){const raw=localStorage.getItem(PAPER_KEY);if(raw===null)return null;const value=JSON.parse(raw);if(!validPaper(value))throw Error('Unreadable saved MCQ paper');return {...value,settings:{...value.settings,year:choicesOf(value.settings.year),level:[...new Set(choicesOf(value.settings.level).map(v=>v==='Basic'?'Subspec':v))],sources:[...new Set(value.settings.sources.map(normalizeSource))]}};}
   function mergePaper(current,incoming){return current.at>=incoming.at?current:incoming;}
   function shuffle(items){const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}return result;}
   function mount({chapter,viewport,readerScroll,onShow,onNotes,openImage}){
     const bankMode=chapter==='bank',mockMode=chapter==='mock',reviewMode=bankMode&&new URL(location.href).searchParams.get('review')==='1';
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label',bankMode?'Question bank':mockMode?'Mock paper':'Exam questions');viewport.append(host);
-    let items=[],topics=[],filter='all',year='all',level='all',topic='all',sort='source',position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
+    let items=[],topics=[],filter='all',year=[],level=[],topic='all',sort='source',position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
     const answers=new Map(),pending=new Map(),retryAnswers=new Map(),dismissed=new Set();
     let personal={version:1,flags:{},lawTopics:{ids:[],at:0}},flagsView=bankMode&&location.hash==='#flags',notice='';
     let systemPrefs={version:1,selected:false,at:0,flags:{}},collections={israeliSystem:{enabled:false,ids:[]},topicFallbacks:{}},lawIds=new Set(),articleIds=new Set(),articleSelected=false,lastAnswer=null;
     let missedIds=null,reviewBatch=null;
     let evidence={questions:{},study:{}},viewTimer,restoringView=false;
-    function viewState(){const q=visible()[position];return q?{version:1,id:currentId(q.id),filter,year,level,topic,sort,missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:host.scrollTop,at:Date.now()}:null;}
+    function viewState(){const q=visible()[position]||items[0];return q?{version:1,id:currentId(q.id),filter,year,level,topic,sort,missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:host.scrollTop,at:Date.now()}:null;}
     function saveView(){
       if(!loaded||!controller.active||restoringView)return;
       if(reviewMode){try{HazzardReview.position(position);history.replaceState({...history.state,reviewView:{id:visible()[position]?.id,scroll:host.scrollTop,lastAnswer}},'');}catch{storageError='Review position could not be saved.';}return;}
@@ -155,7 +161,7 @@ window.HazzardMCQ = (() => {
     function restoreView(view){
       if(reviewMode)return false;
       if(!validView(view))return false;
-      ({filter,year,level,topic,sort,missedOnly,flagsView}=view);
+      ({filter,topic,sort,missedOnly,flagsView}=view);year=choicesOf(view.year);level=choicesOf(view.level);
       lastAnswer=view.lastAnswer||null;
       if(Array.isArray(view.missedIds))missedIds=new Set(view.missedIds.map(currentId));
       if(Array.isArray(view.retryAnswers))for(const[id,a]of view.retryAnswers)retryAnswers.set(currentId(id),a);
@@ -170,7 +176,7 @@ window.HazzardMCQ = (() => {
       requestAnimationFrame(()=>{if(!restoringView)return;host.scrollTop=view.scroll;restoringView=false;saveView();});
     }
     function jump(id){
-      filter=year=level=topic='all';sort='source';missedOnly=flagsView=false;missedIds=null;
+      filter=topic='all';year=[];level=[];sort='source';missedOnly=flagsView=false;missedIds=null;
       id=currentId(id);dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
       const url=new URL(location.href);url.searchParams.delete('q');url.hash='';history.replaceState({...history.state,mcqView:null},'',url);
       render();host.scrollTop=0;saveView();
@@ -193,7 +199,6 @@ window.HazzardMCQ = (() => {
       catch{storageError='Saved answers could not be read. Existing data has not been overwritten.';}
       for(const [id,a]of pending)answers.set(id,a);
       if(flagsError)storageError=flagsError;
-      if(settings.level==='Basic')settings={...settings,level:'Subspec'};
       if(loaded)render();
     }
     function save(){
@@ -242,11 +247,26 @@ window.HazzardMCQ = (() => {
       if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));return (reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(Boolean);}
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
-      let list=items.filter(q=>!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+filter))&&(!['law','articles'].includes(filter)||!flagged(q,'topic:'+q.topic))&&(topic==='all'||!flagged(q,'topic:'+topic))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!flagged(q,'topic:'+q.topic)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&(year==='all'||q.t.startsWith(year))&&(level==='all'||(level==='unspecified'?!/-(Basic|Subspec)$/.test(q.t):q.t.endsWith('-'+level)))&&(topic==='all'||q.topic===Number(topic))&&(!missedOnly||missedIds.has(q.id)));
+      let list=items.filter(q=>!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+filter))&&(!['law','articles'].includes(filter)||!flagged(q,'topic:'+q.topic))&&(topic==='all'||!flagged(q,'topic:'+topic))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!flagged(q,'topic:'+q.topic)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&matchesYear(q,year)&&matchesLevel(q,level)&&(topic==='all'||q.topic===Number(topic))&&(!missedOnly||missedIds.has(q.id)));
       if(bankMode)list.sort((a,b)=>(filter==='law'?(a.kind!=='past')-(b.kind!=='past'):0)||(sort==='topic'?(topics[a.topic]||'').localeCompare(topics[b.topic]||'')||a.t.localeCompare(b.t)||a.sourceIndex-b.sourceIndex:a.t.localeCompare(b.t)||a.topic-b.topic||a.sourceIndex-b.sourceIndex));
       return list;
     }
     function selection(name,value,choices,label){return '<label>'+label+'<select data-select="'+name+'">'+choices.map(([v,text])=>'<option value="'+escape(v)+'" '+(String(v)===value?'selected':'')+'>'+escape(text)+'</option>').join('')+'</select></label>';}
+    function multiSelection(name,value,choices,label){
+      const selected=choicesOf(value),labels=choices.filter(([v])=>selected.includes(v)).map(([,text])=>text);
+      const summary=labels.length>2?labels.length+(name.endsWith('year')?' years':' sittings'):labels.join(', ')||choices[0][1];
+      return '<div class="mcq-multi"><span>'+label+'</span><details data-multi="'+name+'"><summary aria-label="'+label+': '+escape(summary)+'">'+escape(summary)+'</summary><div class="mcq-multi-options" role="group" aria-label="'+label+'">'+choices.map(([v,text])=>'<label><input type="checkbox" data-select="'+name+'" value="'+escape(v)+'" '+((v==='all'?!selected.length:selected.includes(v))?'checked':'')+'><span>'+escape(text)+'</span></label>').join('')+'</div></details></div>';
+    }
+    let unsureRemoved=null;
+    function unsureStatus(q,state,review){
+      const removed=unsureRemoved?.id===q.id&&Date.now()<unsureRemoved.until;
+      let message='';
+      if(review?.unsure){
+        const due=review.due?'due '+review.due.slice(8,10)+'.'+review.due.slice(5,7):'due tomorrow';
+        message=state.checked?'In Review - '+due+'. Score not affected.':'Marked unsure - will go to Review when you answer. Score not affected.';
+      }else if(removed)message='Unsure removed';
+      return '<p class="mcq-unsure-status'+(!review?.unsure&&removed?' mcq-unsure-removed':'')+'" role="status" aria-live="polite" '+(!message?'hidden':'')+'>'+message+'</p>';
+    }
     function header(list){
       if(reviewMode){const r=HazzardReview.read(),done=Object.values(reviewBatch?.answers||{}).filter(a=>a.checked).length;return '<p class="eyebrow">DAILY PRACTICE</p><h1>Review</h1><p class="meta">'+done+' / '+list.length+' answered · '+HazzardReview.due(r).length+' due</p><label class="mcq-review-size">Daily batch <select data-select="review-size">'+[10,30,50].map(n=>'<option value="'+n+'" '+(n===r.settings.size?'selected':'')+'>'+n+'</option>').join('')+'</select></label>'+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?(position+1)+' of '+list.length:'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');}
       const title=bankMode?(flagsView?'Missed / flags':'Question bank'):mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
@@ -255,7 +275,7 @@ window.HazzardMCQ = (() => {
       if(bankMode&&!flagsView){
         const sittings=[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t))].sort().reverse();
         html+='<details class="mcq-jump"><summary>Go to sitting + Q</summary><form data-jump-form><label>Sitting<select name="sitting">'+sittings.map(s=>'<option value="'+escape(s)+'">'+escape(s.replace('-Subspec','').replace('-', ' '))+'</option>').join('')+'</select></label><label>Q<input name="number" type="number" min="1" max="100" required inputmode="numeric" aria-label="Question number"></label><button type="submit">Go</button><span role="status" data-jump-status></span></form></details>';
-        html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+selection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+selection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+selection('level',level,[['all','All sittings'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Sitting')+selection('sort',sort,[['source','Source'],['topic','Topic']],'Sort by')+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
+        html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+selection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+multiSelection('level',level,[['all','All sittings'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Sitting')+selection('sort',sort,[['source','Source'],['topic','Topic']],'Sort by')+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
         html+='<p class="meta">'+list.length+' matching questions'+(filter==='law'?' · Official past exams only.':'')+'</p>';
       }else if(!mockMode&&!bankMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice',PRACTICE_LABEL]].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>';
       if(!flagsView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
@@ -278,9 +298,9 @@ window.HazzardMCQ = (() => {
       if(reviewMode&&(!q||position===list.length)){content.innerHTML='<h2>'+(!list.length?'Nothing due today':'Daily batch complete')+'</h2><p>Your progress is saved. Come back tomorrow.</p><a href="?chapter=bank">Open question bank</a>';return;}
       if(!q){content.innerHTML='<p>No questions match these filters.</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
-      const state=stateFor(q),canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'];content.dataset.bankId=q.id;
+      const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'];content.dataset.bankId=q.id;
       content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(topics[q.topic]||'')+(q.chapter?' · Reader chapter '+escape(q.chapter):'')+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(q.label?'<p class="mcq-source-note" role="note">'+escape(q.label)+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+rich(q.q)+'</div>'+
-        '<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!HazzardReview.read().items[q.id]?.unsure+'">'+(HazzardReview.read().items[q.id]?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+'</div>'+
+        '<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+'</div>'+unsureStatus(q,state,review)+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+q.o.map((option,i)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(state.checked&&accepted.includes(i)?'✓':state.checked&&state.selected===i?'✕':letters[i]||String(i+1))+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(option)+'</span></button>').join('')+'</div>'+
         '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+((reviewMode&&!state.checked||!mockMode&&!reviewMode&&position>=list.length-1)?'disabled':'')+'>Next</button></div>'+
@@ -294,11 +314,11 @@ window.HazzardMCQ = (() => {
       saveView();
     }
     function builderPool(){
-      return [...new Map(items.filter(q=>q.mockEligible!==false&&!flagged(q,'mock')&&(articleSelected&&articleIds.has(q.id)&&!flagged(q,'topic:'+q.topic)||settings.sources.includes(q.kind)&&!flagged(q,'source:'+q.kind)||lawSelected()&&lawIds.has(q.id)&&!flagged(q,'source:law')&&!flagged(q,'topic:'+q.topic))&&(q.kind!=='past'||(settings.year==='all'||q.t.startsWith(settings.year))&&(settings.level==='all'||(settings.level==='unspecified'?!/-(Basic|Subspec)$/.test(q.t):q.t.endsWith('-'+settings.level))))).map(q=>[q.id,q])).values()];
+      return [...new Map(items.filter(q=>q.mockEligible!==false&&!flagged(q,'mock')&&(articleSelected&&articleIds.has(q.id)&&!flagged(q,'topic:'+q.topic)||settings.sources.includes(q.kind)&&!flagged(q,'source:'+q.kind)||lawSelected()&&lawIds.has(q.id)&&!flagged(q,'source:law')&&!flagged(q,'topic:'+q.topic))&&(q.kind!=='past'||matchesYear(q,settings.year)&&matchesLevel(q,settings.level))).map(q=>[q.id,q])).values()];
     }
     function renderBuilder(){
       const pool=builderPool(),years=[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse();
-      host.innerHTML='<div class="mcq-page"><p class="eyebrow">PRACTICE</p><h1>Mock builder</h1><p><a class="sim-entry" href="?chapter=mock&amp;simulation=1">Exam simulation · one official sitting, timed</a></p><h2>Length</h2><div class="mcq-filters">'+[25,50,100].map(n=>'<button data-length="'+n+'" aria-pressed="'+(settings.length===n)+'">'+n+'</button>').join('')+'</div><h2>Sources</h2><div class="mcq-source-choices">'+sourceChoices().map(([id,label])=>'<button data-source="'+id+'" aria-pressed="'+(id==='law'?lawSelected():id==='articles'?articleSelected:settings.sources.includes(id))+'">'+label+'</button>').join('')+'</div>'+(lawSelected()?'<p class="meta mcq-law-note">'+LAW_NOTE+'</p>':'')+'<div class="mcq-bank-filters">'+selection('mock-year',settings.year,[['all','All years'],...years.map(y=>[y,y])],'Past-exam year')+selection('mock-level',settings.level,[['all','All sittings'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Past-exam sitting')+'</div><p class="mcq-pool-count" role="status">'+(pool.length<settings.length?'Only '+pool.length+' matching questions are available; this paper will use all '+pool.length+'.':pool.length+' matching questions · '+settings.length+' will be drawn at random.')+'</p><p class="meta">Choose any combination. Law overlaps are included once. Year and sitting filters apply to past-exam questions.</p><button data-mcq="start" class="primary" '+(!pool.length?'disabled':'')+'>Start paper</button>'+(paper?' <button data-mcq="resume">Resume current paper</button>':'')+(storageError?'<p role="alert">'+escape(storageError)+'</p><button data-mcq="save">Save again</button>':'')+'</div>';
+      host.innerHTML='<div class="mcq-page"><p class="eyebrow">PRACTICE</p><h1>Mock builder</h1><p><a class="sim-entry" href="?chapter=mock&amp;simulation=1">Exam simulation · one official sitting, timed</a></p><h2>Length</h2><div class="mcq-filters">'+[25,50,100].map(n=>'<button data-length="'+n+'" aria-pressed="'+(settings.length===n)+'">'+n+'</button>').join('')+'</div><h2>Sources</h2><div class="mcq-source-choices">'+sourceChoices().map(([id,label])=>'<button data-source="'+id+'" aria-pressed="'+(id==='law'?lawSelected():id==='articles'?articleSelected:settings.sources.includes(id))+'">'+label+'</button>').join('')+'</div>'+(lawSelected()?'<p class="meta mcq-law-note">'+LAW_NOTE+'</p>':'')+'<div class="mcq-bank-filters">'+multiSelection('mock-year',settings.year,[['all','All years'],...years.map(y=>[y,y])],'Past-exam year')+multiSelection('mock-level',settings.level,[['all','All sittings'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Past-exam sitting')+'</div><p class="mcq-pool-count" role="status">'+(pool.length<settings.length?'Only '+pool.length+' matching questions are available; this paper will use all '+pool.length+'.':pool.length+' matching questions · '+settings.length+' will be drawn at random.')+'</p><p class="meta">Choose any combination. Law overlaps are included once. Year and sitting filters apply to past-exam questions.</p><button data-mcq="start" class="primary" '+(!pool.length?'disabled':'')+'>Start paper</button>'+(paper?' <button data-mcq="resume">Resume current paper</button>':'')+(storageError?'<p role="alert">'+escape(storageError)+'</p><button data-mcq="save">Save again</button>':'')+'</div>';
     }
     function newPaper(){
       const chosen=shuffle(builderPool()).slice(0,settings.length);if(!chosen.length)return;
@@ -350,8 +370,15 @@ window.HazzardMCQ = (() => {
     });
     host.addEventListener('change',event=>{const name=event.target.dataset.select;if(!name)return;lastAnswer=null;const value=event.target.value;
       if(name==='review-size'){try{const r=HazzardReview.size(Number(value),items);reviewBatch=r.batch;position=reviewBatch.position;notice='Batch size saved. Completed answers are kept.';}catch{storageError='Batch size could not be saved.';}render();return;}
-      if(name==='mock-year'||name==='mock-level'){settings[name==='mock-year'?'year':'level']=value;save();render();return;}
-      if(name==='source'){filter=normalizeSource(value);year='all';level='all';topic='all';}else if(name==='year')year=value;else if(name==='level')level=value;else if(name==='topic')topic=value;else if(name==='sort')sort=value;
+      if(['year','level','mock-year','mock-level'].includes(name)){
+        const isMock=name.startsWith('mock-'),key=name.endsWith('year')?'year':'level',previous=isMock?settings[key]:key==='year'?year:level;
+        const selected=choicesOf(previous),next=value==='all'?[]:event.target.checked?[...new Set([...selected,value])]:selected.filter(v=>v!==value);
+        const y=host.scrollTop;
+        if(isMock){settings[key]=next;save();}else{if(key==='year')year=next;else level=next;position=0;}
+        render();if(!isMock)saveView();host.querySelector('[data-multi="'+name+'"]').open=true;host.scrollTop=y;
+        host.querySelector('[data-select="'+name+'"][value="'+value+'"]').focus({preventScroll:true});return;
+      }
+      if(name==='source'){filter=normalizeSource(value);year=[];level=[];topic='all';}else if(name==='topic')topic=value;else if(name==='sort')sort=value;
       position=0;render();host.scrollTop=0;
     });
     host.addEventListener('click',event=>{
@@ -388,7 +415,7 @@ window.HazzardMCQ = (() => {
           const previousReview=HazzardReview.read().items[q.id]||null,unsure=!previousReview?.unsure,previousAction=lastAnswer;
           const attempt=lastAnswer?.kind==='unsure'?lastAnswer.attempt:lastAnswer;
           const value=state.checked?HazzardReview.result(attempt?.id===q.id?attempt.previousReview:previousReview,{correct:q.accepted.includes(state.selected),unsure,review:reviewMode&&attempt?.id===q.id}):{...(previousReview||HazzardReview.blank()),unsure,...(unsure?{active:true,step:0,due:HazzardReview.plus(HazzardReview.day(),1)}:{})};
-          const saved=HazzardReview.set(q.id,value);lastAnswer={kind:'unsure',id:q.id,previousReview,reviewAt:saved.items[q.id].at,previousAction,attempt};
+          const saved=HazzardReview.set(q.id,value);unsureRemoved=unsure?null:{id:q.id,until:Date.now()+3000};lastAnswer={kind:'unsure',id:q.id,previousReview,reviewAt:saved.items[q.id].at,previousAction,attempt};
         }catch{storageError='Uncertainty could not be saved. Try again.';}
         const y=host.scrollTop;render();host.scrollTop=y;return;
       }

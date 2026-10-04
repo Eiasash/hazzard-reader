@@ -60,3 +60,15 @@
 .mcq-review-size select{min-height:44px;padding:8px 16px;background:var(--page);color:var(--ink);border:1px solid var(--rule);border-radius:10px}
 [data-review-link]{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);font-weight:650}
 .review-home{padding:14px;border:1px solid var(--rule);border-radius:14px;background:var(--page)}
+
+/* Native checkboxes retain large phone targets at every reading size. */
+.mcq-multi{min-width:0;font:calc(12px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
+.mcq-multi details{border:1px solid var(--control);border-radius:8px;background:var(--surface);color:var(--ink)}
+.mcq-multi summary{min-height:44px;box-sizing:border-box;padding:11px 8px;font:calc(13px * var(--fs,1))/1.5 var(--ui);cursor:pointer;overflow-wrap:anywhere}
+.mcq-multi-options{padding:0 5px 5px}
+.mcq-multi-options label{display:flex;align-items:center;gap:8px;min-height:44px;color:var(--ink);cursor:pointer;overflow-wrap:anywhere}
+.mcq-multi-options input{width:20px;height:20px;flex:none;accent-color:var(--accent)}
+.mcq-unsure-status{margin:-4px 0 12px;font:calc(13px * var(--fs,1))/1.5 var(--ui);color:var(--ink)}
+.mcq-unsure-removed{animation:mcq-status-fade 3s forwards}
+@keyframes mcq-status-fade{0%,70%{opacity:1}100%{opacity:0;visibility:hidden}}
+@media(prefers-reduced-motion:reduce){.mcq-unsure-removed{animation-timing-function:steps(1,end)}}
