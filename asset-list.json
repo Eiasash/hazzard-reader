@@ -1,5 +1,5 @@
 {
-  "version": "v54-r1",
+  "version": "v55",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1538,8 +1538,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "2fb20b0efaf91a827b22ef2e1d22e569a83ef9f5b53c0a708f9944132fb445d8",
-      "bytes": 8187
+      "sha256": "a86ceeec16a397d6047b09f07ce43ded5e891ff4364bc8daee3c8f82368a3328",
+      "bytes": 9597
     },
     {
       "url": "./data/mcq/101.json",
@@ -1710,6 +1710,16 @@
       "url": "./data/mcq/collections.json",
       "sha256": "6a29bd5a2c0ff8f8389141172c138541adce36b89c3c6bd93ea8f161d39201e2",
       "bytes": 7936
+    },
+    {
+      "url": "./data/mcq/exam-references.json",
+      "sha256": "27e8181ed70ce0314cd70e1c9ae6653d879eb5f6ca1e4428af1f7c1e1f0b7712",
+      "bytes": 426925
+    },
+    {
+      "url": "./data/mcq/hazzard8e-toc.json",
+      "sha256": "b8344c0c0cd5cfb692bf0eb8b76f86519da3c6ae228371bdf0e8ef05a9f98b25",
+      "bytes": 13611
     },
     {
       "url": "./data/mcq/id-aliases.json",
@@ -1978,8 +1988,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "ebdbce5234cb30c7197774d0ac3dff6031210d2f08a0d1a4c67887cb8d5504f5",
-      "bytes": 3260941
+      "sha256": "85a6b7135399985b02668c1aacc995bdce315e5af50bb9ad8028a2ebe0fd4e5b",
+      "bytes": 3261514
+    },
+    {
+      "url": "./js/exam-evidence.js",
+      "sha256": "79ee693189080e2689989abba56eba72f8cc2e1c60fe54cf70879054710feb7e",
+      "bytes": 2566
     },
     {
       "url": "./js/marked.min.js",
@@ -1988,8 +2003,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "bccb726298cada5f24ff0d59fc86e4d8daaa7b3aadb1afea0d847f4834aa2c83",
-      "bytes": 36491
+      "sha256": "87fa788822c899271167f77ad10d398d0a42ede2f395886e99b0641ad24953e7",
+      "bytes": 43578
     },
     {
       "url": "./js/reader-cloud.js",
@@ -1998,13 +2013,13 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "b860a27c35fbf440c52514ea7308069615ab427bc8f19886e52ca3cc060b1916",
-      "bytes": 6593
+      "sha256": "4ac43deb5cd79847a65ecff1f71c5a6c397ff166a660f5d67334e26ee4cf4655",
+      "bytes": 6590
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "a2c46e6473c1b70214128e15acbdf9d13eb47e8c269c33fb3f8e86daa61ee5f1",
-      "bytes": 8964
+      "sha256": "b893e4c38a6b31aa571290738eb26199f81d5d5b60de86656fc82aebc9b7717a",
+      "bytes": 9068
     },
     {
       "url": "./manifest.json",

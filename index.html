@@ -32084,6 +32084,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 }
 </script>
 <script src="js/marked.min.js"></script>
+<script src="js/exam-evidence.js"></script>
 <script src="js/mcq.js"></script>
 <script src="js/reader-storage.js"></script>
 <script src="js/reader-cloud.js"></script>
@@ -32203,7 +32204,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v54-r1 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v55 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -32311,6 +32312,7 @@ function openChapter(chapter,opts={}){
     if(opts.hash?.startsWith('search-'))revealSearch(decodeURIComponent(opts.hash.slice(7)));
     else if(opts.hash?.startsWith('bm-'))goToPlace(readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===opts.hash.slice(3)));
     else if(opts.hash?.startsWith('hl-')){const id=opts.hash.slice(3);revealReading(rangeMarks.get(id)?.spans[0]||unitMap.get(id)?.parts[0],{block:'center'})}
+    else if(/^p\d+$/.test(opts.hash||'')){const marker=document.getElementById(opts.hash);if(marker)landOnMatch(marker);}
     return;
   }
   rememberPlace();
@@ -33290,6 +33292,7 @@ document.addEventListener('visibilitychange',()=>{if(!document.hidden)resyncTime
 // Portable notebook backups contain only the reader's named stores, never other apps' data.
 const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.SYSTEM_KEY]);
 const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')||notebookKeys.has(key);
+notebookKeys.add(HazzardMCQ.VIEW_KEY);
 const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
 const validateNotebookValue=HazzardStorage.validate;
@@ -33302,6 +33305,7 @@ function mergeNotebookValue(key,current,incoming){
   if(key===HazzardMCQ.PAPER_KEY)return HazzardMCQ.mergePaper(current,incoming);
   if(key===HazzardMCQ.FLAGS_KEY)return HazzardMCQ.mergeFlags(current,incoming);
   if(key===HazzardMCQ.SYSTEM_KEY)return HazzardMCQ.mergeSystem(current,incoming);
+  if(key===HazzardMCQ.VIEW_KEY)return HazzardMCQ.mergeView(current,incoming);
   if(key.startsWith('stage-a-highlights-v1:')){
     const merged={...incoming,...current,marks:{...current.marks},ranges:{...current.ranges},history:[...(current.history||[])]};
     const keepHistory=m=>{if(merged.marks[m.id]?.text!==m.text&&!merged.history.some(x=>x.id===m.id&&x.text===m.text))merged.history.push(m)};
@@ -33433,12 +33437,15 @@ $('#notebookBackupFile').onchange=async event=>{
 
 tRender();
 restoreHighlights();
+// Insert evidence metadata only after highlight units and drill identities exist.
+HazzardEvidence.backControl($('#readerViewport'));
+if(/^\d+$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error){flash(error.message,6000);}
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
 {const h=decodeURIComponent(location.hash.slice(1));let done=false;
   if(h.startsWith('search-')){done=revealSearch(h.slice(7))}
   else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
   else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}
-  else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>t.scrollIntoView(),60);done=true}}
+  else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>/^p\d+$/.test(h)?landOnMatch(t):t.scrollIntoView(),60);done=true}}
   if(!done&&newMockPaper){scrollReadingTo(0);rememberPlace()}
   else if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0){goToPlace(p,true);flash('Back where you left off.',2500);addEventListener('load',()=>{if(!userScrolled&&!mcq?.active)goToPlace(p,true)})}}
 }
@@ -33463,6 +33470,7 @@ if(/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 }
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
+  mcq?.remember();
   mcq?.save();
   if(mcq?.hasUnsaved||pendingHighlightChanges.size||highlightSaveFailed||displaySaveFailed||timerSaveFailed)throw Error('Some changes are not saved. Keep this page open and save them before updating.');
   if(rememberPlace()===false||(practiceState&&practiceSave()===false))throw Error('Progress could not be saved. Keep this page open and try again.');
