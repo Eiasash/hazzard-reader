@@ -19,7 +19,14 @@ window.HazzardCloud = (() => {
     const part=name=>parts.find(p=>p.type===name).value;
     return (date?part('day')+'.'+part('month')+' ':'')+part('hour')+':'+part('minute');
   };
-  function label(){return expired?'Cloud: sign in again':!signed()?'Cloud: not signed in':'Cloud: '+session.username+(state.syncedAt?' - last synced '+time(state.syncedAt):' - not synced yet');}
+  function label(){
+    if(expired)return 'Cloud: sign in again';
+    if(!signed())return 'Cloud: not signed in';
+    const prefix='Cloud: '+session.username;
+    if(time(state.restoredAt)&&(!time(state.syncedAt)||new Date(state.restoredAt)>new Date(state.syncedAt)))
+      return prefix+' - restored '+time(state.restoredAt,true)+(time(state.restoredCopyAt)?' (cloud copy from '+time(state.restoredCopyAt,true)+')':'');
+    return prefix+(time(state.syncedAt)?' - last synced '+time(state.syncedAt):' - not synced yet');
+  }
   function render(){
     if(!bridge)return;
     $('cloudStatus').textContent=label();
@@ -78,7 +85,7 @@ window.HazzardCloud = (() => {
       payload=bridge.capture();
       if(!manual&&JSON.stringify(payload.storage)===lastUploaded){state.dirty=false;saveState();return;}
       state.attemptAt=Date.now();saveState();render();
-      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:'v58',p_device:navigator.userAgent},keepalive,token);
+      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
       if(generation!==epoch)return;
       lastUploaded=JSON.stringify(payload.storage);state.syncedAt=result.updated_at||new Date().toISOString();
       state.dirty=JSON.stringify(bridge.capture().storage)!==JSON.stringify(payload.storage);
@@ -110,7 +117,7 @@ window.HazzardCloud = (() => {
       restoring=true;clearTimeout(timer);
       await bridge.restore(copy.data);
       if(generation!==epoch)return;
-      state={username:session.username,decided:true,dirty:false};saveState();
+      state={username:session.username,decided:true,dirty:false,restoredAt:new Date().toISOString(),restoredCopyAt:copy.updated_at};saveState();
       tick=false;error='';notice='Cloud copy restored. Local snapshot kept.';
       // Do not immediately re-upload a restore: retain the server's previous copy.
     }catch(e){if(generation===epoch)error=e.message||'Restore failed.';}
