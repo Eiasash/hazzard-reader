@@ -77,7 +77,8 @@
         {
           "page": 734,
           "chapter": "49",
-          "available": false
+          "available": true,
+          "readerChapter": "49s"
         }
       ],
       "tables": [],
@@ -4066,7 +4067,8 @@
         {
           "page": 1116,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         }
       ],
       "tables": [],
@@ -4382,12 +4384,14 @@
         {
           "page": 1268,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         },
         {
           "page": 1269,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         }
       ],
       "tables": [],
@@ -4476,7 +4480,8 @@
         {
           "page": 732,
           "chapter": "49",
-          "available": false
+          "available": true,
+          "readerChapter": "49s"
         }
       ],
       "tables": [],
@@ -4694,7 +4699,8 @@
         {
           "page": 375,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         }
       ],
       "tables": [],
@@ -5478,12 +5484,14 @@
         {
           "page": 209,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         },
         {
           "page": 210,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         }
       ],
       "tables": [],
@@ -6070,7 +6078,8 @@
         {
           "page": 211,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         }
       ],
       "tables": [],
@@ -7041,27 +7050,32 @@
         {
           "page": 1116,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         },
         {
           "page": 1117,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         },
         {
           "page": 1118,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         },
         {
           "page": 1119,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         },
         {
           "page": 1120,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         }
       ],
       "tables": [],
@@ -7341,12 +7355,14 @@
         {
           "page": 1270,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         },
         {
           "page": 1271,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         },
         {
           "page": 1533,
@@ -7772,7 +7788,8 @@
         {
           "page": 211,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         },
         {
           "page": 884,
@@ -8628,7 +8645,8 @@
         {
           "page": 380,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         }
       ],
       "tables": [],
@@ -8717,7 +8735,8 @@
         {
           "page": 210,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         }
       ],
       "tables": [],
@@ -8937,7 +8956,8 @@
         {
           "page": 735,
           "chapter": "49",
-          "available": false
+          "available": true,
+          "readerChapter": "49s"
         },
         {
           "page": 743,
@@ -9228,7 +9248,8 @@
         {
           "page": 737,
           "chapter": "49",
-          "available": false
+          "available": true,
+          "readerChapter": "49s"
         }
       ],
       "tables": [],
@@ -9249,17 +9270,20 @@
         {
           "page": 1267,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         },
         {
           "page": 1268,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         },
         {
           "page": 1269,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         }
       ],
       "tables": [],
@@ -9677,7 +9701,8 @@
         {
           "page": 375,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         }
       ],
       "tables": [],
@@ -9698,7 +9723,8 @@
         {
           "page": 1270,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         }
       ],
       "tables": [],
@@ -9842,7 +9868,8 @@
         {
           "page": 737,
           "chapter": "49",
-          "available": false
+          "available": true,
+          "readerChapter": "49s"
         }
       ],
       "tables": [],
@@ -10647,7 +10674,8 @@
         {
           "page": 1120,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         },
         {
           "page": 1632,
@@ -11414,12 +11442,14 @@
         {
           "page": 1116,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         },
         {
           "page": 1117,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         }
       ],
       "tables": [],
@@ -11529,7 +11559,8 @@
         {
           "page": 736,
           "chapter": "49",
-          "available": false
+          "available": true,
+          "readerChapter": "49s"
         }
       ],
       "tables": [],
@@ -11782,17 +11813,20 @@
         {
           "page": 375,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         },
         {
           "page": 376,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         },
         {
           "page": 377,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         }
       ],
       "tables": [],
@@ -12437,22 +12471,26 @@
         {
           "page": 211,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         },
         {
           "page": 212,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         },
         {
           "page": 213,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         },
         {
           "page": 214,
           "chapter": "15",
-          "available": false
+          "available": true,
+          "readerChapter": "15s"
         }
       ],
       "tables": [],
@@ -12556,7 +12594,8 @@
         {
           "page": 1121,
           "chapter": "73",
-          "available": false
+          "available": true,
+          "readerChapter": "73s"
         }
       ],
       "tables": [],
@@ -12577,12 +12616,14 @@
         {
           "page": 1268,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         },
         {
           "page": 1269,
           "chapter": "82",
-          "available": false
+          "available": true,
+          "readerChapter": "82s"
         }
       ],
       "tables": [],
@@ -13342,7 +13383,8 @@
         {
           "page": 375,
           "chapter": "27",
-          "available": false
+          "available": true,
+          "readerChapter": "27s"
         }
       ],
       "tables": [],
@@ -15458,6 +15500,82 @@
       "resolved": 4,
       "fallback": 0,
       "practice": 39
+    },
+    "15": {
+      "ids": [
+        "mcq-c040b7a76725684cad927088",
+        "mcq-b345342fb42d42167d25ca2b",
+        "mcq-8c8695c6e0e9292f086c2501",
+        "mcq-e3a98b6ee3b58c73a12e6ed4",
+        "mcq-be0342d1614ce894a9a67d87"
+      ],
+      "before": 0,
+      "past": 5,
+      "resolved": 5,
+      "fallback": 0,
+      "practice": 0,
+      "studyOnly": true
+    },
+    "27": {
+      "ids": [
+        "mcq-368d1c6ff706583ac2c3f156",
+        "mcq-14024c36301bd94117cfdcb6",
+        "mcq-db66212cedd8f17c624ba1ed",
+        "mcq-f065ded45c3214b7bc02b061",
+        "mcq-18b0ad7f9e472a626caf7cbe"
+      ],
+      "before": 0,
+      "past": 5,
+      "resolved": 5,
+      "fallback": 0,
+      "practice": 0,
+      "studyOnly": true
+    },
+    "49": {
+      "ids": [
+        "mcq-59f85952926fe582c920abfa",
+        "mcq-a476927383fb7c173d729ef2",
+        "mcq-e04066f84a3a95a8b9aab699",
+        "mcq-54abfb3201d262c46e1c4f83",
+        "mcq-e8a56f26a86525647deb9581",
+        "mcq-26395cd7bc1ac5981b1b7da5"
+      ],
+      "before": 0,
+      "past": 6,
+      "resolved": 6,
+      "fallback": 0,
+      "practice": 0,
+      "studyOnly": true
+    },
+    "73": {
+      "ids": [
+        "mcq-d852902c476364b525be2fb0",
+        "mcq-16df878cdfb1631a3395a00d",
+        "mcq-1524e05c07475dd26f840cbe",
+        "mcq-9cd512aa5d4da9861ca5104a",
+        "mcq-f6a934085589d01c76d9730c"
+      ],
+      "before": 0,
+      "past": 5,
+      "resolved": 5,
+      "fallback": 0,
+      "practice": 0,
+      "studyOnly": true
+    },
+    "82": {
+      "ids": [
+        "mcq-03e515ea1394f1b7d0176064",
+        "mcq-f7f1da57f641c281b8dd1d40",
+        "mcq-9d2304f27d614fa4907fbfd2",
+        "mcq-a1aa8dc766d2c3afb2e30713",
+        "mcq-379839aaebec0e3a1494bbd7"
+      ],
+      "before": 0,
+      "past": 5,
+      "resolved": 5,
+      "fallback": 0,
+      "practice": 0,
+      "studyOnly": true
     }
   }
 }
