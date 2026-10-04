@@ -4499,7 +4499,7 @@
       "chapters": [
         "49"
       ],
-      "referenceNote": "Paper cites p.732; content is on p.735."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 735."
     },
     "mcq-76624b03e2c62f9093ab0142": {
       "sitting": "2023-Jun",
@@ -4738,12 +4738,18 @@
           "page": 693,
           "chapter": "46",
           "available": true
+        },
+        {
+          "page": 694,
+          "chapter": "46",
+          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "46"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 693–694."
     },
     "mcq-4dff765078655193f686e847": {
       "sitting": "2023-Jun",
@@ -5410,12 +5416,12 @@
       "reason": "",
       "pages": [
         {
-          "page": 707,
+          "page": 709,
           "chapter": "47",
           "available": true
         },
         {
-          "page": 708,
+          "page": 710,
           "chapter": "47",
           "available": true
         }
@@ -5423,7 +5429,8 @@
       "tables": [],
       "chapters": [
         "47"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 709–710."
     },
     "mcq-db33e5272b5446975d8f55e1": {
       "sitting": "2023-Jun",
@@ -5542,20 +5549,16 @@
       "reason": "",
       "pages": [
         {
-          "page": 1280,
-          "chapter": "83",
-          "available": true
-        },
-        {
-          "page": 1281,
-          "chapter": "83",
-          "available": true
+          "page": 1231,
+          "chapter": "80",
+          "available": false
         }
       ],
       "tables": [],
       "chapters": [
-        "83"
-      ]
+        "80"
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1231."
     },
     "mcq-e3682940da67f696841ee7d2": {
       "sitting": "2023-Jun",
@@ -6073,22 +6076,16 @@
       "reason": "",
       "pages": [
         {
-          "page": 864,
-          "chapter": "57",
-          "available": true
-        },
-        {
-          "page": 865,
+          "page": 876,
           "chapter": "57",
           "available": true
         }
       ],
-      "tables": [
-        "57-3"
-      ],
+      "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 876."
     },
     "mcq-a755639ae8845f1d1ee36a9e": {
       "sitting": "2023-Jun",
@@ -6713,12 +6710,11 @@
           "available": true
         }
       ],
-      "tables": [
-        "46-2"
-      ],
+      "tables": [],
       "chapters": [
         "46"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 693–694."
     },
     "mcq-7f71419177e54d446b41de5d": {
       "sitting": "2024-May",
@@ -7184,7 +7180,8 @@
       "tables": [],
       "chapters": [
         "46"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 698."
     },
     "mcq-20e54ddaf7f4529fefdbae47": {
       "sitting": "2024-May",
@@ -7617,12 +7614,23 @@
           "page": 619,
           "chapter": "42",
           "available": true
+        },
+        {
+          "page": 620,
+          "chapter": "42",
+          "available": true
+        },
+        {
+          "page": 621,
+          "chapter": "42",
+          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "42"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 619–621."
     },
     "mcq-f6a71ecfcb071e0bd0b70bca": {
       "sitting": "2024-May",
@@ -8820,17 +8828,16 @@
       "reason": "",
       "pages": [
         {
-          "page": 1359,
+          "page": 1360,
           "chapter": "87",
           "available": true
         }
       ],
-      "tables": [
-        "87-5"
-      ],
+      "tables": [],
       "chapters": [
         "87"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1360."
     },
     "mcq-7e4990226f4077abd0308485": {
       "sitting": "2024-Sep",
@@ -9912,7 +9919,12 @@
       "reason": "",
       "pages": [
         {
-          "page": 696,
+          "page": 694,
+          "chapter": "46",
+          "available": true
+        },
+        {
+          "page": 697,
           "chapter": "46",
           "available": true
         }
@@ -9920,7 +9932,8 @@
       "tables": [],
       "chapters": [
         "46"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 694, 697."
     },
     "mcq-5db8763148c6144657ed06fc": {
       "sitting": "2024-Sep",
@@ -10874,13 +10887,18 @@
           "page": 1632,
           "chapter": "102",
           "available": true
+        },
+        {
+          "page": 1636,
+          "chapter": "102",
+          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "102"
       ],
-      "referenceNote": "Paper cites pp.1632 and 1120. Claudication content is on p.1632; p.1120 does not support it."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1632, 1636."
     },
     "mcq-3906ed2ba944bc31f884ba0c": {
       "sitting": "2026-Jun",
@@ -11837,12 +11855,23 @@
           "page": 575,
           "chapter": "39",
           "available": false
+        },
+        {
+          "page": 576,
+          "chapter": "39",
+          "available": false
+        },
+        {
+          "page": 577,
+          "chapter": "39",
+          "available": false
         }
       ],
       "tables": [],
       "chapters": [
         "39"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 575–577."
     },
     "mcq-eccca84830066af8dba63fda": {
       "sitting": "2026-Jun",
@@ -12617,7 +12646,7 @@
       "reason": "",
       "pages": [
         {
-          "page": 1150,
+          "page": 1152,
           "chapter": "75",
           "available": true
         }
@@ -12625,7 +12654,8 @@
       "tables": [],
       "chapters": [
         "75"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1152."
     },
     "mcq-8ceb825522dee040d6bc0a79": {
       "sitting": "2026-Jun",
@@ -12896,12 +12926,18 @@
           "page": 1385,
           "chapter": "88",
           "available": true
+        },
+        {
+          "page": 1386,
+          "chapter": "88",
+          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "88"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1385–1386."
     },
     "mcq-a9564119e3f03b2dcc342926": {
       "sitting": "2025-Jun",
@@ -13322,13 +13358,11 @@
           "available": false
         }
       ],
-      "tables": [
-        "103-4"
-      ],
+      "tables": [],
       "chapters": [
         "103"
       ],
-      "referenceNote": "Paper cites p.1640, chapter 103, Table 103-4; the verified table is on p.1649 (chapter 103)."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1649."
     },
     "mcq-403fd909d8963b5766ac33df": {
       "sitting": "2025-Jun",
@@ -14333,12 +14367,18 @@
           "page": 876,
           "chapter": "57",
           "available": true
+        },
+        {
+          "page": 877,
+          "chapter": "57",
+          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 876–877."
     },
     "mcq-4c3fda6b97055d09bfccf60c": {
       "sitting": "2025-Jun",
@@ -15608,7 +15648,6 @@
         "mcq-9534df35cf56acbc6bcb3f35",
         "mcq-7e475d72d1c6b9b8c726614b",
         "mcq-b53c26359f2994f24955cccd",
-        "mcq-5687d58f50abb0a5affaee3d",
         "mcq-7f71419177e54d446b41de5d",
         "mcq-eb4176cd70d5d177aafe8cc6",
         "mcq-39fad91c5b4510f05efdb072",
@@ -15619,8 +15658,8 @@
         "mcq-56a930970c2bcf04fdd39deb"
       ],
       "before": 20,
-      "past": 15,
-      "resolved": 8,
+      "past": 14,
+      "resolved": 7,
       "fallback": 7,
       "practice": 11
     },

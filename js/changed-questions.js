@@ -10,7 +10,7 @@ window.HazzardChanged = (() => {
     }
     return [...latest.values()].filter(q => {
       const answer = answers[q.id];
-      return !(answer?.checked && Number.isInteger(answer.selected) && Number.isFinite(answer.at) && answer.at > q.at);
+      return !!(answer?.checked && Number.isInteger(answer.selected) && Number.isFinite(answer.at) && answer.at < q.at);
     });
   }
   async function load() {
@@ -18,7 +18,7 @@ window.HazzardChanged = (() => {
     return loading ||= fetch('data/changelog.json').then(async response => {
       if (!response.ok) throw Error('Changed questions unavailable');
       const value = await response.json();
-      data = value.releases.filter(r => ['v72','v73'].includes(r.version)).flatMap(r => r.redoQuestions || []);
+      data = value.releases.flatMap(r => r.redoQuestions || []);
       if (!data.length) throw Error('Changed questions unavailable');
       return data;
     }).catch(error => { data = null; loading = null; throw error; });
@@ -34,14 +34,14 @@ window.HazzardChanged = (() => {
       const tab = document.querySelector('#appTabs [data-tab="practice"]');
       let badge = tab?.querySelector('.changed-count');
       if (tab && !badge) { badge = document.createElement('small'); badge.className = 'changed-count'; tab.append(badge); }
-      if (badge) { badge.textContent = questions.length ? questions.length + ' to redo' : ''; badge.hidden = !questions.length; }
+      if (badge) { badge.textContent = questions.length ? label : ''; badge.hidden = !questions.length; }
       tab?.setAttribute('aria-label', questions.length ? 'Practice — ' + label : 'Practice');
       const details = document.createElement('details'), summary = document.createElement('summary');
       summary.textContent = questions.length ? label : 'Changed questions — all done';
       details.className = 'changed-questions'; details.open = host.querySelector('details')?.open || false;
       details.append(summary);
       const note = document.createElement('p');
-      note.textContent = 'Changed questions - redo. Answer each question again after its latest change to remove it from this list.';
+      note.textContent = 'Changed questions - redo. Only questions you answered before their latest change appear here. Answer them again to remove them from this list.';
       details.append(note);
       const list = document.createElement('ul'); list.className = 'rows';
       for (const q of questions) {
