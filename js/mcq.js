@@ -104,16 +104,17 @@ window.HazzardMCQ = (() => {
     box.innerHTML = marked.parse(escape(text));
     for (const node of box.querySelectorAll('a,img')) node.replaceWith(document.createTextNode(node.textContent || node.getAttribute('alt') || ''));
     // Markdown creates independent paragraphs, list items and table cells.
-    // Let each block choose its own base direction before isolating Latin runs.
-    for (const block of box.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th')) block.dir = 'auto';
+    // Hebrew anywhere in a block sets its base direction, including drug-first
+    // options. The existing Latin/measurement isolation remains independent.
+    for (const block of box.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th')) block.dir = /[\u05d0-\u05ea]/.test(block.textContent) ? 'rtl' : 'ltr';
     const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT), nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     for (const node of nodes) {
-      const block = node.parentElement.closest('[dir="auto"]');
+      const block = node.parentElement.closest('[dir]');
       // Keep only the leading Latin run visible to dir=auto. Later runs still
       // need isolation when an English-first block switches back to Hebrew.
       let keepLeading = false;
-      if (/^[^\p{L}]*[\p{Script=Latin}\p{Script=Greek}µ]/u.test(block?.textContent || '')) {
+      if (block?.dir === 'ltr' && /^[^\p{L}]*[\p{Script=Latin}\p{Script=Greek}µ]/u.test(block.textContent)) {
         const prefix = document.createRange(); prefix.selectNodeContents(block); prefix.setEndBefore(node);
         keepLeading = !/\p{L}/u.test(prefix.toString());
       }
@@ -124,8 +125,8 @@ window.HazzardMCQ = (() => {
       // Combining accents and Greek/micro units belong to the same LTR token.
       const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
       const word = `[${base}][${base}\\p{M}]*`;
-      const token = `${word}(?:[./:+%−–<>=≤≥±×→←-]${word})*`;
-      const runs = new RegExp(`\\([ \\t]*[${base}][${base}\\p{M} \\t.,;:/+%−–→←<>=≤≥±×-]*\\)|${token}(?:[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${token})*%?`, 'gu');
+      const token = `${word}(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+${word})*`;
+      const runs = new RegExp(`\\([ \\t]*[${base}][${base}\\p{M} \\t.,;'’°^:/+%−–→←<>=≤≥±×-]*\\)|${token}(?:[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${token})*%?`, 'gu');
       let end = 0;
       for (const match of node.data.matchAll(runs)) {
         fragment.append(document.createTextNode(node.data.slice(end, match.index)));
@@ -142,13 +143,31 @@ window.HazzardMCQ = (() => {
       fragment.append(document.createTextNode(node.data.slice(end)));
       node.replaceWith(fragment);
     }
+    // Markdown emphasis may split a single word (for example **V**isual).
+    // Isolate that whole logical word while retaining its inline formatting.
+    const blocks='p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th';
+    for(const block of box.querySelectorAll(blocks)){
+      if(block.querySelector(blocks))continue;
+      const tw=document.createTreeWalker(block,NodeFilter.SHOW_TEXT),chars=[];let node;
+      while(node=tw.nextNode())for(let i=0;i<node.length;i++)chars.push({node,offset:i,char:node.data[i]});
+      const text=chars.map(c=>c.char).join('');
+      const words=[...text.matchAll(/[\p{Script=Latin}\p{Script=Greek}µ0-9][\p{Script=Latin}\p{Script=Greek}\p{M}µ0-9'’°^²³₀-₉.,/:+%−–<>=≤≥±×→←-]*/gu)];
+      for(const match of words.reverse()){
+        const run=chars.slice(match.index,match.index+match[0].length);
+        if(new Set(run.map(c=>c.node.parentElement.closest('bdi')).filter(Boolean)).size<2)continue;
+        const range=document.createRange();range.setStart(run[0].node,run[0].offset);range.setEnd(run.at(-1).node,run.at(-1).offset+1);
+        const contents=range.extractContents();for(const bdi of contents.querySelectorAll('bdi'))bdi.replaceWith(...bdi.childNodes);
+        const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.append(contents);range.insertNode(bdi);
+      }
+    }
     return box.innerHTML;
   }
   function stemHTML(q){
     const table=q.labTable;
     if(!table||!table.span||!q.q.includes(table.span))return rich(q.q);
     const at=q.q.indexOf(table.span);
-    return rich(q.q.slice(0,at))+'<div class="mcq-lab-scroll" tabindex="0" role="region" aria-label="Laboratory results"><table class="mcq-lab-table" dir="ltr"><thead><tr>'+table.header.map(h=>'<th scope="col">'+escape(h)+'</th>').join('')+'</tr></thead><tbody>'+table.rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+escape(v)+'</th>':'<td>'+escape(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'+rich(q.q.slice(at+table.span.length));
+    const cell=value=>table.direction==='rtl'?rich(value):escape(value);
+    return rich(q.q.slice(0,at))+'<div class="mcq-lab-scroll" tabindex="0" role="region" aria-label="'+escape(table.caption||'Laboratory results')+'"><table class="mcq-lab-table" dir="'+(table.direction==='rtl'?'rtl':'ltr')+'"><thead><tr>'+table.header.map(h=>'<th scope="col">'+cell(h)+'</th>').join('')+'</tr></thead><tbody>'+table.rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+cell(v)+'</th>':'<td>'+cell(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'+rich(q.q.slice(at+table.span.length));
   }
   const PAPER_KEY='hazzard-mcq-papers-v1';
   const defaultSettings=()=>({length:50,topic:'all',sources:['past','practice'],year:[],level:[]});
@@ -208,11 +227,15 @@ window.HazzardMCQ = (() => {
       const ref=evidence.questions[q.id];
       const source=q.ref.replace(/\s*·\s*/g,' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
       let html='<div class="mcq-citations"><p class="meta">Source: '+escape(source||sourceLabel(q))+'</p>';
+      if(q.referenceNote)html+='<p class="meta" dir="auto">'+escape(q.referenceNote)+'</p>';
+      const assigned=ref?.chapters.length?ref.chapters:[String(q.chapter)];
+      if(q.requiredReadingNote)html+='<p class="mcq-source-note" role="note">'+escape(q.requiredReadingNote)+'</p>';
+      if(!q.requiredCard&&([...assigned,String(q.chapter)].some(c=>['2','3','4','5','6','34','62'].includes(c))||membership(q).includes(51)))html+='<p class="mcq-source-note" role="note">chapter not on the 2026 required list</p>';
       if(ref){
         const unmapped=q.sourceType==='Hazzard'&&ref.status!=='resolved';
-        html+='<p class="meta">'+escape(HazzardEvidence.sittingLabel(ref.sitting))+' paper'+(unmapped?' · 8e page not mapped':'')+'</p>';
+        html+='<p class="meta">'+escape(HazzardEvidence.sittingLabel(ref.sitting))+' paper'+(unmapped?(q.edition===7?' · 7e source: not mapped into this 8e reader':' · 8e page not mapped'):'')+'</p>';
         for(const p of ref.pages)html+=p.available?'<button class="mcq-page-link" data-page="'+p.page+'">Open page '+p.page+'</button>':'<span class="mcq-page-unavailable">Page '+p.page+' · chapter '+escape(p.chapter||'?')+' unavailable in reader</span>';
-        const chapters=ref.chapters.length?ref.chapters:[String(q.chapter)];
+        const chapters=q.requiredCard?[]:assigned;
         for(const c of chapters){
           const ch=evidence.study[c];if(!ch)continue;
           const title=chapterTitles[c]||(c===String(q.chapter)?q.chapterTitle:'');

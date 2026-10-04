@@ -893,17 +893,18 @@
     },
     "3052": {
       "accepted": [
-        0
+        0,
+        3
       ],
       "source": {
         "title": "IMA 2025-Jun Subspecialty official answer key after appeals",
-        "url": "https://ima-files.s3.amazonaws.com/766893_5fb43785-ea4c-461d-a681-830ad1f9b084.pdf",
-        "file": "אחרי ערעור שלב א גריאטריה 2025.pdf",
-        "readMethod": "rendered page images",
-        "question": 91
+        "file": "2025_key-after-appeal.pdf",
+        "question": 91,
+        "page": 3,
+        "readMethod": "rendered page image"
       },
-      "label": "Stem altered from the exam paper",
-      "mockEligible": false
+      "mockEligible": true,
+      "label": "Original exam question restored; A and D accepted after appeal"
     },
     "4643": {
       "accepted": [

@@ -1,5 +1,5 @@
 {
-  "law_block_sha256": "e602bc1c068c10c5af2c10a23a5db291443bf2bb5f850165251c8c019cab5106",
+  "law_block_sha256": "b4094b8b72545fbbc47f61b44b6b95d686cda3d0263309f03c4ec9c6bad00c48",
   "rule": "Topic membership 30–34 OR full covered statute name in q/ref OR official Israeli law/system source; no regulatory.json.",
   "statutes": [
     "חוק החולה הנוטה למות",
@@ -37,7 +37,7 @@
       "practice": 67
     }
   },
-  "exact_name_matches": 46,
+  "exact_name_matches": 45,
   "exact_only": [
     37,
     78,
@@ -102,8 +102,7 @@
         {
           "statute": "חוק החולה הנוטה למות",
           "fields": [
-            "q",
-            "ref"
+            "q"
           ]
         }
       ]
@@ -3004,21 +3003,7 @@
         32
       ],
       "topicIncluded": true,
-      "matches": [
-        {
-          "statute": "חוק זכויות החולה",
-          "fields": [
-            "q",
-            "ref"
-          ]
-        },
-        {
-          "statute": "חוק הכשרות המשפטית והאפוטרופסות",
-          "fields": [
-            "q"
-          ]
-        }
-      ]
+      "matches": []
     },
     {
       "id": "mcq-34851c7f12c60ea021445215",

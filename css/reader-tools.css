@@ -18,3 +18,7 @@
 #readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:12px/1.5 monospace; }
 #readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:12px/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
 #readerDebug button:focus-visible,#readerDebug textarea:focus-visible { outline:2px solid var(--focus,#8a511c); outline-offset:2px; }
+/* The waiting-update action has its own target, separate from Text settings. */
+#readerUpdateButton{position:fixed;right:12px;bottom:calc(60px + env(safe-area-inset-bottom,0px));z-index:90;max-width:calc(100vw - 24px);min-height:44px;padding:10px 16px;border:2px solid #287aca;border-radius:12px;background:var(--paper);color:var(--ink);font:600 13px/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
+#readerUpdateButton[hidden]{display:none}
+:root[data-theme="dark"] #readerUpdateButton{border-color:#78baff}

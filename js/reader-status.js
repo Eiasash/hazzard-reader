@@ -1,9 +1,12 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v71', RELEASED = '04.10.2026';
+  const VERSION = 'v72', RELEASED = '04.10.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
+    const updateButton = document.createElement('button');
+    updateButton.id = 'readerUpdateButton'; updateButton.type = 'button'; updateButton.hidden = true;
+    document.body.append(updateButton);
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
     const sw = navigator.serviceWorker;
     let registration, complete = false, progress = null, newerController = false, applying = false, saveError = '', pauseTimer;
@@ -23,9 +26,13 @@
       if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
       chip.dataset.cloud=state !== 'paused' && cloud?.tick?'synced':'';
       chip.dataset.status = state;
-      if (chip.textContent !== text) chip.textContent = text;
-      button.title = saveError || text;
-      button.setAttribute('aria-label', waiting() && navigator.onLine ? text : 'Text & appearance — ' + text);
+      const chipText = state === 'waiting' ? VERSION + ' - update available' : text;
+      if (chip.textContent !== chipText) chip.textContent = chipText;
+      button.title = 'Text & appearance — ' + chipText;
+      button.setAttribute('aria-label', button.title);
+      updateButton.hidden = state !== 'waiting';
+      updateButton.textContent = text;
+      updateButton.disabled = applying;
       const at = window.HazzardStorage?.status.snapshotAt;
       const time = at ? new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jerusalem', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(at) : 'none yet';
       detail.textContent = 'Version ' + VERSION + ' (released ' + RELEASED + ') - ' + (navigator.onLine ? 'Online' : 'Offline') + ' - Offline copy: ' + (complete ? 'complete' : 'incomplete') + ' - Last snapshot: ' + time;
@@ -75,7 +82,7 @@
         detail.textContent += ' - ' + saveError;
       }
     }
-    button.addEventListener('click', applyUpdate, true);
+    updateButton.addEventListener('click', applyUpdate, true);
     addEventListener('online', requestStatus);
     addEventListener('offline', requestStatus);
     addEventListener('hazzard-storage-status', render);
