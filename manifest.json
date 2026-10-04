@@ -455,6 +455,46 @@
       "file": "israel_law_study.md",
       "kind": "study",
       "description": "Summary + 18-question Hebrew drill, Israel law and Brookdale data"
+    },
+    {
+      "number": "15s",
+      "title": "Emergency Department Care — Study",
+      "file": "hazzard8e_ch15_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+    },
+    {
+      "number": "27s",
+      "title": "Perioperative Care: Evaluation and Management — Study",
+      "file": "hazzard8e_ch27_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+    },
+    {
+      "number": "49s",
+      "title": "Muscle Aging and Sarcopenia — Study",
+      "file": "hazzard8e_ch49_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+    },
+    {
+      "number": "73s",
+      "title": "The Aging Cardiovascular System — Study",
+      "file": "hazzard8e_ch73_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+    },
+    {
+      "number": "82s",
+      "title": "Aging of the Kidney — Study",
+      "file": "hazzard8e_ch82_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
     }
   ]
 }

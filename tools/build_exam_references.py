@@ -17,14 +17,17 @@ def build():
     toc = read(DATA / 'hazzard8e-toc.json')['chapters']
     manifest = read(ROOT / 'manifest.json')['chapters']
     html = (ROOT / 'index.html').read_text(encoding='utf-8')
-    markers = {}
+    markers, destinations = {}, {}
     for ch in manifest:
-        if ch['kind'] != 'chapter' or not ch['number'].isdigit():
+        number = ch['number'].removesuffix('s')
+        if not number.isdigit() or not (ch['kind'] == 'chapter' or ch.get('studyOnly')):
             continue
         # Five chapters render from templates, so inspect the actual surface.
         template = re.search(r'<template\b[^>]*id="chapter' + ch['number'] + r'Template"[^>]*>(.*?)</template>', html, re.S)
         content = template[1] if template else (ROOT / 'chapters' / ch['file']).read_text(encoding='utf-8')
-        markers[ch['number']] = set(map(int, re.findall(r'id="p(\d+)"', content)))
+        markers[number] = set(map(int, re.findall(r'id="p(\d+)"', content)))
+        if ch.get('studyOnly'):
+            destinations[number] = ch['number']
     official = {(r['sitting'], r['number']): r for r in catalog.values()}
     entries = {}
     for q in bank:
@@ -57,22 +60,27 @@ def build():
         for page in sorted(pages):
             ch = next((c['chapter'] for c in toc if c['start'] <= page <= c['end']), None)
             entry['pages'].append(dict(page=page, chapter=ch, available=page in markers.get(ch, set())))
+            if ch in destinations:
+                entry['pages'][-1]['readerChapter'] = destinations[ch]
         entry['chapters'] = list(dict.fromkeys(p['chapter'] for p in entry['pages'] if p['chapter']))
         if pages and all(p['chapter'] for p in entry['pages']):
             entry['status'] = 'resolved'
         else:
             entry['reason'] = 'No explicit printed page' if not pages else 'Printed page outside chapter TOC ranges'
     study = {}
-    for ch, counts in read(DATA / 'index.json').items():
+    index = read(DATA / 'index.json')
+    for ch in dict.fromkeys([*index, *destinations]):
         if ch == 'law':
             continue  # The Israeli-law collection has its own explicit membership.
-        old = read(DATA / f'{ch}.json')
+        old = read(DATA / f'{ch}.json') if ch in index else []
         past = [q for q in bank if q['kind'] == 'past' and
-                (ch in entries[q['id']]['chapters'] if entries[q['id']]['status'] == 'resolved' else str(q.get('chapter')) == ch)]
+                (ch in entries[q['id']]['chapters'] if entries[q['id']]['status'] == 'resolved' else ch not in destinations and str(q.get('chapter')) == ch)]
         study[ch] = dict(ids=[q['id'] for q in past], before=sum(q['kind'] == 'past' for q in old),
                          past=len(past), resolved=sum(entries[q['id']]['status'] == 'resolved' for q in past),
                          fallback=sum(entries[q['id']]['status'] != 'resolved' for q in past),
                          practice=sum(q['kind'] == 'practice' for q in old))
+        if ch in destinations:
+            study[ch]['studyOnly'] = True
     result = dict(version=1, edition=8, tocSource='hazzard8e-toc.json', questions=entries, study=study)
     (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'{len(entries)} official questions; {sum(e["status"] == "resolved" for e in entries.values())} resolved')
