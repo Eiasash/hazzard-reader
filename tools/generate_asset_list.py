@@ -5,6 +5,19 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
+# CACHE_VERSION is the release source; refresh page/cloud labels before hashing.
+version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text(encoding='utf-8')).group(1)
+for name, pattern, replacement in [
+    ('js/reader-status.js', r"const VERSION = '[^']+'", f"const VERSION = '{version}'"),
+    ('index.html', r'(id="readerStatusChip"[^>]*>)v\d+(?:-r\d+)?( - checking offline copy)', rf'\g<1>{version}\2'),
+]:
+    path = ROOT / name
+    original = path.read_text(encoding='utf-8')
+    updated, count = re.subn(pattern, replacement, original)
+    if count != 1:
+        raise ValueError(f'Expected one release label in {name}, found {count}')
+    if updated != original:
+        path.write_text(updated, encoding='utf-8')
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
 paths = {'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/all.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
@@ -28,6 +41,5 @@ for path in sorted(paths):
     if Path(path).suffix in {'.html', '.md', '.js', '.json', '.css'}:
         data = data.replace(b'\r\n', b'\n')
     files.append({'url': './' + path, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)})
-version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text()).group(1)
 (ROOT / 'asset-list.json').write_text(json.dumps({'version': version, 'files': files}, indent=2) + '\n', encoding='utf-8')
 print(f'{version}: {len(files)} files, {sum(f["bytes"] for f in files):,} bytes')
