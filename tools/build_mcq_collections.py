@@ -3,6 +3,7 @@ from pathlib import Path
 from collections import Counter
 import json
 import re
+from mcq_topics import membership
 
 ROOT = Path(__file__).resolve().parents[1]
 FALLBACKS = {'99': 22, '104': 27, '105': 27, '108': 27}
@@ -15,11 +16,11 @@ def build(root=ROOT):
     ids = list(dict.fromkeys(q['id'] for q in matches))
     catalog = {'israeliSystem': {'enabled':len(ids)>=3,'ids':ids}, 'suppliedArticles':{'enabled':True,'ids':[q['id'] for q in bank if q.get('suppliedArticle')]}, 'topicFallbacks':{}}
     law_items = {q['id']: q for q in bank if q['kind'] == 'past'
-                 and (q['topic'] in (30, 31, 32, 33, 34) or q['id'] in ids)}
+                 and (set(membership(q)) & {30, 31, 32, 33, 34} or q['id'] in ids)}
     catalog['israeliLawEthics'] = {'enabled': True, 'ids': list(law_items),
                                 'sittings': dict(sorted(Counter(q['t'] for q in law_items.values()).items()))}
     for chapter,topic in FALLBACKS.items():
-        items = sorted((q for q in bank if q['topic']==topic), key=lambda q:(q['kind']!='past',q['sourceIndex']))
+        items = sorted((q for q in bank if topic in membership(q)), key=lambda q:(q['kind']!='past',q['sourceIndex']))
         counts = Counter(q['kind'] for q in items)
         (data/f'{chapter}.json').write_text(json.dumps(items,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
         index[chapter].update(past=counts['past'],practice=counts['practice'],topicFallback=topic)

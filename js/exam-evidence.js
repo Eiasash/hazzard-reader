@@ -7,7 +7,8 @@ window.HazzardEvidence = (() => {
       return r.json();
     }).catch(e => { promise = null; throw e; });
   }
-  const label = entry => entry.sitting.replace('-', ' ') + ' Q' + entry.number;
+  const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year;};
+  const label = entry => sittingLabel(entry.sitting) + ' Q' + entry.number;
   const questionURL = id => '?chapter=bank&q=' + encodeURIComponent(HazzardMCQ.currentId(id));
   function openPage(page, view) {
     // The source history entry holds its own view, including Study/mock context.
@@ -33,13 +34,13 @@ window.HazzardEvidence = (() => {
       if (!entries?.length) continue;
       const badge = document.createElement('span');
       badge.className = 'exam-evidence'; badge.dataset.readerMetadata = 'exam';
-      badge.setAttribute('aria-label', 'Examined here, page ' + marker.dataset.page);
+      badge.setAttribute('aria-label', 'Asked here, page ' + marker.dataset.page);
       for (const [id, entry] of entries) {
         const link = document.createElement('a');
-        link.href = questionURL(id); link.textContent = 'Examined: ' + label(entry);
+        link.href = questionURL(id); link.textContent = 'Asked: ' + label(entry);
         badge.append(link);
       }
-      marker.after(badge);
+      marker.classList.add('exam-page-marker');marker.after(badge);
     }
   }
   function backControl(viewport) {
@@ -48,5 +49,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {load, label, questionURL, openPage, decorate, backControl};
+  return {sittingLabel,load, label, questionURL, openPage, decorate, backControl};
 })();

@@ -1,6 +1,6 @@
 {
   "law_block_sha256": "e602bc1c068c10c5af2c10a23a5db291443bf2bb5f850165251c8c019cab5106",
-  "rule": "Primary topic 30–34 OR full covered statute name in q/ref OR official Israeli law/system source; no regulatory.json.",
+  "rule": "Topic membership 30–34 OR full covered statute name in q/ref OR official Israeli law/system source; no regulatory.json.",
   "statutes": [
     "חוק החולה הנוטה למות",
     "חוק זכויות החולה",
@@ -94,6 +94,9 @@
       "sourceIndex": 9,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -110,6 +113,9 @@
       "sourceIndex": 31,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -126,6 +132,9 @@
       "sourceIndex": 37,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -134,6 +143,9 @@
       "sourceIndex": 69,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -155,6 +167,9 @@
       "sourceIndex": 72,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -170,6 +185,9 @@
       "sourceIndex": 74,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -185,6 +203,9 @@
       "sourceIndex": 78,
       "kind": "past",
       "topic": 28,
+      "topics": [
+        28
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -200,6 +221,9 @@
       "sourceIndex": 86,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -208,6 +232,9 @@
       "sourceIndex": 91,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -216,6 +243,9 @@
       "sourceIndex": 92,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -224,6 +254,9 @@
       "sourceIndex": 93,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -232,6 +265,9 @@
       "sourceIndex": 96,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -240,6 +276,9 @@
       "sourceIndex": 110,
       "kind": "past",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -248,6 +287,9 @@
       "sourceIndex": 115,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -264,6 +306,9 @@
       "sourceIndex": 121,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -272,6 +317,9 @@
       "sourceIndex": 127,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -287,6 +335,9 @@
       "sourceIndex": 137,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -303,6 +354,9 @@
       "sourceIndex": 144,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -311,6 +365,9 @@
       "sourceIndex": 157,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -319,6 +376,9 @@
       "sourceIndex": 191,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -334,6 +394,9 @@
       "sourceIndex": 193,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -342,6 +405,9 @@
       "sourceIndex": 195,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -350,6 +416,9 @@
       "sourceIndex": 249,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -358,6 +427,9 @@
       "sourceIndex": 250,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -366,6 +438,9 @@
       "sourceIndex": 252,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -374,6 +449,9 @@
       "sourceIndex": 253,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -382,6 +460,9 @@
       "sourceIndex": 254,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -390,6 +471,9 @@
       "sourceIndex": 256,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -398,6 +482,9 @@
       "sourceIndex": 257,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -406,6 +493,9 @@
       "sourceIndex": 258,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -414,6 +504,9 @@
       "sourceIndex": 281,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -422,6 +515,9 @@
       "sourceIndex": 366,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -430,6 +526,9 @@
       "sourceIndex": 368,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -438,6 +537,9 @@
       "sourceIndex": 371,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -446,6 +548,9 @@
       "sourceIndex": 375,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -454,6 +559,9 @@
       "sourceIndex": 376,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -462,6 +570,9 @@
       "sourceIndex": 377,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -470,6 +581,9 @@
       "sourceIndex": 378,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -478,6 +592,9 @@
       "sourceIndex": 379,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -486,6 +603,9 @@
       "sourceIndex": 380,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -494,6 +614,9 @@
       "sourceIndex": 381,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -502,6 +625,9 @@
       "sourceIndex": 406,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -510,6 +636,9 @@
       "sourceIndex": 407,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -518,6 +647,9 @@
       "sourceIndex": 408,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -526,6 +658,9 @@
       "sourceIndex": 409,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -534,6 +669,9 @@
       "sourceIndex": 410,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -542,6 +680,9 @@
       "sourceIndex": 411,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -550,6 +691,9 @@
       "sourceIndex": 441,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -558,6 +702,9 @@
       "sourceIndex": 442,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -566,6 +713,9 @@
       "sourceIndex": 447,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -574,6 +724,9 @@
       "sourceIndex": 448,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -582,6 +735,9 @@
       "sourceIndex": 453,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -590,6 +746,9 @@
       "sourceIndex": 454,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -598,6 +757,9 @@
       "sourceIndex": 455,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -606,6 +768,9 @@
       "sourceIndex": 456,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -614,6 +779,9 @@
       "sourceIndex": 457,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -622,6 +790,9 @@
       "sourceIndex": 458,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -630,6 +801,9 @@
       "sourceIndex": 459,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -638,6 +812,9 @@
       "sourceIndex": 460,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -646,6 +823,9 @@
       "sourceIndex": 461,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -654,6 +834,9 @@
       "sourceIndex": 462,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -662,6 +845,9 @@
       "sourceIndex": 469,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -677,6 +863,9 @@
       "sourceIndex": 479,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -685,6 +874,9 @@
       "sourceIndex": 480,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -693,6 +885,9 @@
       "sourceIndex": 481,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -701,6 +896,9 @@
       "sourceIndex": 482,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -709,6 +907,9 @@
       "sourceIndex": 488,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -717,6 +918,9 @@
       "sourceIndex": 489,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -725,6 +929,9 @@
       "sourceIndex": 490,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -733,6 +940,9 @@
       "sourceIndex": 491,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -741,6 +951,9 @@
       "sourceIndex": 492,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -749,6 +962,9 @@
       "sourceIndex": 503,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -764,6 +980,9 @@
       "sourceIndex": 504,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -779,6 +998,9 @@
       "sourceIndex": 505,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -787,6 +1009,9 @@
       "sourceIndex": 506,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -795,6 +1020,9 @@
       "sourceIndex": 507,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -810,6 +1038,9 @@
       "sourceIndex": 508,
       "kind": "practice",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -825,6 +1056,9 @@
       "sourceIndex": 509,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -833,6 +1067,9 @@
       "sourceIndex": 510,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -841,6 +1078,9 @@
       "sourceIndex": 511,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -849,6 +1089,9 @@
       "sourceIndex": 512,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -857,6 +1100,9 @@
       "sourceIndex": 513,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -865,6 +1111,9 @@
       "sourceIndex": 514,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -873,6 +1122,9 @@
       "sourceIndex": 515,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -888,6 +1140,9 @@
       "sourceIndex": 516,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -896,6 +1151,9 @@
       "sourceIndex": 518,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -911,6 +1169,9 @@
       "sourceIndex": 519,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -919,6 +1180,9 @@
       "sourceIndex": 520,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -927,6 +1191,9 @@
       "sourceIndex": 564,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -943,6 +1210,9 @@
       "sourceIndex": 573,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -958,6 +1228,9 @@
       "sourceIndex": 579,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -966,6 +1239,9 @@
       "sourceIndex": 583,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -974,6 +1250,9 @@
       "sourceIndex": 584,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -982,6 +1261,9 @@
       "sourceIndex": 585,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -990,6 +1272,9 @@
       "sourceIndex": 586,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -998,6 +1283,9 @@
       "sourceIndex": 587,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1006,6 +1294,9 @@
       "sourceIndex": 588,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1014,6 +1305,9 @@
       "sourceIndex": 589,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1022,6 +1316,9 @@
       "sourceIndex": 590,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1030,6 +1327,9 @@
       "sourceIndex": 591,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1038,6 +1338,9 @@
       "sourceIndex": 592,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1046,6 +1349,9 @@
       "sourceIndex": 593,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1054,6 +1360,9 @@
       "sourceIndex": 594,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1062,6 +1371,9 @@
       "sourceIndex": 595,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1070,6 +1382,9 @@
       "sourceIndex": 596,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1078,6 +1393,9 @@
       "sourceIndex": 597,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1086,6 +1404,9 @@
       "sourceIndex": 598,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1094,6 +1415,9 @@
       "sourceIndex": 599,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1102,6 +1426,9 @@
       "sourceIndex": 600,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1110,6 +1437,9 @@
       "sourceIndex": 601,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1118,6 +1448,9 @@
       "sourceIndex": 602,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1126,6 +1459,9 @@
       "sourceIndex": 603,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1141,6 +1477,9 @@
       "sourceIndex": 604,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1149,6 +1488,9 @@
       "sourceIndex": 605,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1164,6 +1506,9 @@
       "sourceIndex": 606,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1172,6 +1517,9 @@
       "sourceIndex": 607,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1180,6 +1528,9 @@
       "sourceIndex": 608,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1195,6 +1546,9 @@
       "sourceIndex": 609,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1210,6 +1564,9 @@
       "sourceIndex": 610,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1225,6 +1582,9 @@
       "sourceIndex": 611,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1233,6 +1593,9 @@
       "sourceIndex": 612,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1241,6 +1604,9 @@
       "sourceIndex": 613,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1257,6 +1623,9 @@
       "sourceIndex": 614,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1265,6 +1634,9 @@
       "sourceIndex": 615,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1273,6 +1645,9 @@
       "sourceIndex": 616,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1288,6 +1663,9 @@
       "sourceIndex": 617,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -1303,6 +1681,9 @@
       "sourceIndex": 619,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1311,6 +1692,9 @@
       "sourceIndex": 620,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1319,6 +1703,9 @@
       "sourceIndex": 621,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1327,6 +1714,9 @@
       "sourceIndex": 622,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1335,6 +1725,9 @@
       "sourceIndex": 656,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1343,6 +1736,9 @@
       "sourceIndex": 660,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1351,6 +1747,9 @@
       "sourceIndex": 663,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1359,6 +1758,9 @@
       "sourceIndex": 732,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1367,6 +1769,9 @@
       "sourceIndex": 896,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1375,6 +1780,9 @@
       "sourceIndex": 902,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1383,6 +1791,9 @@
       "sourceIndex": 907,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1391,6 +1802,9 @@
       "sourceIndex": 908,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1399,6 +1813,9 @@
       "sourceIndex": 909,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1407,6 +1824,9 @@
       "sourceIndex": 910,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1415,6 +1835,9 @@
       "sourceIndex": 911,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1423,6 +1846,9 @@
       "sourceIndex": 912,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1431,6 +1857,9 @@
       "sourceIndex": 913,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1439,6 +1868,9 @@
       "sourceIndex": 915,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1447,6 +1879,9 @@
       "sourceIndex": 916,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1455,6 +1890,9 @@
       "sourceIndex": 917,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1463,6 +1901,9 @@
       "sourceIndex": 918,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1471,6 +1912,9 @@
       "sourceIndex": 919,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1479,6 +1923,9 @@
       "sourceIndex": 920,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1487,6 +1934,9 @@
       "sourceIndex": 942,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1495,6 +1945,9 @@
       "sourceIndex": 952,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1503,6 +1956,9 @@
       "sourceIndex": 953,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1511,6 +1967,9 @@
       "sourceIndex": 954,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1519,6 +1978,9 @@
       "sourceIndex": 955,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1527,6 +1989,9 @@
       "sourceIndex": 957,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1535,6 +2000,9 @@
       "sourceIndex": 959,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1543,6 +2011,9 @@
       "sourceIndex": 960,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1551,6 +2022,9 @@
       "sourceIndex": 961,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1559,6 +2033,9 @@
       "sourceIndex": 962,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1567,6 +2044,9 @@
       "sourceIndex": 964,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1575,6 +2055,9 @@
       "sourceIndex": 965,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1583,6 +2066,9 @@
       "sourceIndex": 983,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1591,6 +2077,9 @@
       "sourceIndex": 1007,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1599,6 +2088,9 @@
       "sourceIndex": 1027,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1607,6 +2099,9 @@
       "sourceIndex": 1065,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1615,6 +2110,9 @@
       "sourceIndex": 1090,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1623,6 +2121,9 @@
       "sourceIndex": 1093,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1631,6 +2132,9 @@
       "sourceIndex": 1099,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1639,6 +2143,9 @@
       "sourceIndex": 1119,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1647,6 +2154,9 @@
       "sourceIndex": 1124,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1655,6 +2165,9 @@
       "sourceIndex": 1145,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1663,6 +2176,9 @@
       "sourceIndex": 1146,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1671,6 +2187,9 @@
       "sourceIndex": 1147,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1679,6 +2198,9 @@
       "sourceIndex": 1148,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1687,6 +2209,9 @@
       "sourceIndex": 1149,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1695,6 +2220,9 @@
       "sourceIndex": 1150,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1703,6 +2231,9 @@
       "sourceIndex": 1151,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1711,6 +2242,9 @@
       "sourceIndex": 1152,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1719,6 +2253,9 @@
       "sourceIndex": 1153,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1727,6 +2264,9 @@
       "sourceIndex": 1154,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1735,6 +2275,9 @@
       "sourceIndex": 1155,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1743,6 +2286,9 @@
       "sourceIndex": 1156,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1751,6 +2297,9 @@
       "sourceIndex": 1157,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1759,6 +2308,9 @@
       "sourceIndex": 1158,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1767,6 +2319,9 @@
       "sourceIndex": 1159,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1775,6 +2330,9 @@
       "sourceIndex": 1174,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1783,6 +2341,9 @@
       "sourceIndex": 1203,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1791,6 +2352,9 @@
       "sourceIndex": 1287,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1799,6 +2363,9 @@
       "sourceIndex": 1399,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1807,6 +2374,9 @@
       "sourceIndex": 1400,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1815,6 +2385,9 @@
       "sourceIndex": 1401,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1823,6 +2396,9 @@
       "sourceIndex": 1402,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1831,6 +2407,9 @@
       "sourceIndex": 1403,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1839,6 +2418,9 @@
       "sourceIndex": 1404,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1847,6 +2429,9 @@
       "sourceIndex": 1405,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1855,6 +2440,9 @@
       "sourceIndex": 1406,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1863,6 +2451,9 @@
       "sourceIndex": 1407,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1871,6 +2462,9 @@
       "sourceIndex": 1408,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1879,6 +2473,9 @@
       "sourceIndex": 1409,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1887,6 +2484,9 @@
       "sourceIndex": 1410,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1895,6 +2495,9 @@
       "sourceIndex": 1411,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1903,6 +2506,9 @@
       "sourceIndex": 1412,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1911,6 +2517,9 @@
       "sourceIndex": 1413,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1919,6 +2528,9 @@
       "sourceIndex": 1415,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1927,6 +2539,9 @@
       "sourceIndex": 1456,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1935,6 +2550,9 @@
       "sourceIndex": 1509,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1943,6 +2561,9 @@
       "sourceIndex": 1514,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1951,6 +2572,9 @@
       "sourceIndex": 1530,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1959,6 +2583,9 @@
       "sourceIndex": 1550,
       "kind": "practice",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1967,6 +2594,9 @@
       "sourceIndex": 1554,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1975,6 +2605,9 @@
       "sourceIndex": 1566,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1983,6 +2616,9 @@
       "sourceIndex": 1639,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1991,6 +2627,9 @@
       "sourceIndex": 1640,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -1999,6 +2638,9 @@
       "sourceIndex": 1644,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2007,6 +2649,9 @@
       "sourceIndex": 1651,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2015,6 +2660,9 @@
       "sourceIndex": 1672,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2023,6 +2671,9 @@
       "sourceIndex": 1692,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2031,6 +2682,9 @@
       "sourceIndex": 1704,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2039,6 +2693,9 @@
       "sourceIndex": 1714,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2047,6 +2704,9 @@
       "sourceIndex": 1717,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2055,6 +2715,9 @@
       "sourceIndex": 1726,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2063,6 +2726,9 @@
       "sourceIndex": 1766,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2071,6 +2737,9 @@
       "sourceIndex": 1797,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2079,6 +2748,9 @@
       "sourceIndex": 1821,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2087,6 +2759,9 @@
       "sourceIndex": 1835,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2095,6 +2770,9 @@
       "sourceIndex": 2020,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2103,6 +2781,9 @@
       "sourceIndex": 2397,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2111,6 +2792,9 @@
       "sourceIndex": 2442,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2127,6 +2811,9 @@
       "sourceIndex": 2443,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2143,6 +2830,9 @@
       "sourceIndex": 2444,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2151,6 +2841,9 @@
       "sourceIndex": 2445,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2159,6 +2852,9 @@
       "sourceIndex": 2446,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2175,6 +2871,9 @@
       "sourceIndex": 2447,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2183,6 +2882,9 @@
       "sourceIndex": 2448,
       "kind": "practice",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2191,6 +2893,9 @@
       "sourceIndex": 2449,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2199,6 +2904,9 @@
       "sourceIndex": 2450,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2215,6 +2923,9 @@
       "sourceIndex": 2451,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2223,6 +2934,9 @@
       "sourceIndex": 2452,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2231,6 +2945,9 @@
       "sourceIndex": 2453,
       "kind": "practice",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2239,6 +2956,9 @@
       "sourceIndex": 2454,
       "kind": "practice",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2247,6 +2967,9 @@
       "sourceIndex": 2455,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2255,6 +2978,9 @@
       "sourceIndex": 2456,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2263,6 +2989,9 @@
       "sourceIndex": 2457,
       "kind": "practice",
       "topic": 33,
+      "topics": [
+        33
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2271,6 +3000,9 @@
       "sourceIndex": 3052,
       "kind": "past",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2293,6 +3025,9 @@
       "sourceIndex": 3144,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2308,6 +3043,9 @@
       "sourceIndex": 3147,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2316,6 +3054,9 @@
       "sourceIndex": 3154,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2324,6 +3065,9 @@
       "sourceIndex": 3168,
       "kind": "past",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2340,6 +3084,9 @@
       "sourceIndex": 3193,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2348,6 +3095,9 @@
       "sourceIndex": 3195,
       "kind": "past",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2356,6 +3106,9 @@
       "sourceIndex": 3198,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2364,6 +3117,9 @@
       "sourceIndex": 3227,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2372,6 +3128,9 @@
       "sourceIndex": 3229,
       "kind": "past",
       "topic": 10,
+      "topics": [
+        10
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2380,6 +3139,9 @@
       "sourceIndex": 3248,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2388,6 +3150,9 @@
       "sourceIndex": 3256,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2404,6 +3169,9 @@
       "sourceIndex": 3259,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2412,6 +3180,9 @@
       "sourceIndex": 3273,
       "kind": "past",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2427,6 +3198,9 @@
       "sourceIndex": 3313,
       "kind": "past",
       "topic": 30,
+      "topics": [
+        30
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2435,6 +3209,9 @@
       "sourceIndex": 3315,
       "kind": "past",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2450,6 +3227,9 @@
       "sourceIndex": 3317,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2458,6 +3238,9 @@
       "sourceIndex": 3318,
       "kind": "past",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2473,6 +3256,9 @@
       "sourceIndex": 3320,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2481,6 +3267,9 @@
       "sourceIndex": 3321,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2489,6 +3278,9 @@
       "sourceIndex": 3322,
       "kind": "past",
       "topic": 31,
+      "topics": [
+        31
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2497,6 +3289,9 @@
       "sourceIndex": 3323,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2505,6 +3300,9 @@
       "sourceIndex": 3345,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2513,6 +3311,9 @@
       "sourceIndex": 3393,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2521,6 +3322,9 @@
       "sourceIndex": 3404,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2529,6 +3333,9 @@
       "sourceIndex": 3461,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2537,6 +3344,9 @@
       "sourceIndex": 3464,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2553,6 +3363,9 @@
       "sourceIndex": 3473,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2561,6 +3374,9 @@
       "sourceIndex": 3484,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2569,6 +3385,9 @@
       "sourceIndex": 3502,
       "kind": "past",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2584,6 +3403,9 @@
       "sourceIndex": 3503,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2592,6 +3414,9 @@
       "sourceIndex": 3513,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2600,6 +3425,9 @@
       "sourceIndex": 4470,
       "kind": "past",
       "topic": 39,
+      "topics": [
+        39
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2608,6 +3436,9 @@
       "sourceIndex": 4474,
       "kind": "past",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2616,6 +3447,9 @@
       "sourceIndex": 4492,
       "kind": "past",
       "topic": 32,
+      "topics": [
+        32
+      ],
       "topicIncluded": true,
       "matches": []
     },
@@ -2624,6 +3458,9 @@
       "sourceIndex": 4509,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2632,6 +3469,9 @@
       "sourceIndex": 4531,
       "kind": "past",
       "topic": 41,
+      "topics": [
+        41
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2640,6 +3480,9 @@
       "sourceIndex": 4535,
       "kind": "past",
       "topic": 38,
+      "topics": [
+        38
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2655,6 +3498,9 @@
       "sourceIndex": 4539,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2671,6 +3517,9 @@
       "sourceIndex": 4541,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2687,6 +3536,9 @@
       "sourceIndex": 4542,
       "kind": "past",
       "topic": 6,
+      "topics": [
+        6
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2695,6 +3547,9 @@
       "sourceIndex": 4555,
       "kind": "past",
       "topic": 1,
+      "topics": [
+        1
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2703,6 +3558,9 @@
       "sourceIndex": 4559,
       "kind": "past",
       "topic": 35,
+      "topics": [
+        35
+      ],
       "topicIncluded": false,
       "matches": []
     },
@@ -2711,6 +3569,9 @@
       "sourceIndex": 4583,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2727,6 +3588,9 @@
       "sourceIndex": 4598,
       "kind": "past",
       "topic": 34,
+      "topics": [
+        34
+      ],
       "topicIncluded": true,
       "matches": [
         {
@@ -2742,6 +3606,9 @@
       "sourceIndex": 4605,
       "kind": "past",
       "topic": 29,
+      "topics": [
+        29
+      ],
       "topicIncluded": false,
       "matches": [
         {
@@ -2757,6 +3624,9 @@
       "sourceIndex": 4626,
       "kind": "past",
       "topic": 36,
+      "topics": [
+        36
+      ],
       "topicIncluded": false,
       "matches": []
     }

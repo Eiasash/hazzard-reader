@@ -1,5 +1,5 @@
-const CACHE_VERSION = 'v70-r1';
-// v70 source-label encoding correction; refresh already-installed v70 copies.
+const CACHE_VERSION = 'v71';
+// Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
 const LIST_URL = './asset-list.json';

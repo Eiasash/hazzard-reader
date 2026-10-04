@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v71",
+      "date": "2026-10-04",
+      "changes": [
+        "Find questions under Syncope/Dizziness and nine more chapter topics: Sarcopenia, Hip Fractures, Behavioral Symptoms of Dementia, Benign Prostate Disorders, Immunology/Inflammation, Valvular Heart Disease, Hematologic Malignancies/Plasma Cell Disorders, Rheumatoid/Autoimmune Disease, Back Pain/Spinal Stenosis.",
+        "Questions can now sit in more than one topic. The mock builder also has an optional topic filter.",
+        "Clearer source lines distinguish the original edition from Study links. Chapter badges now say Asked, with the paper date.",
+        "Wider desktop questions, sticky chapter filters and compact Unsure controls. Lab tables checked against the official papers are easier to read, and explanation headings use the same font as the question. No answers changed."
+      ]
+    },
+    {
       "version": "v70-r1",
       "date": "2026-10-04",
       "changes": [
