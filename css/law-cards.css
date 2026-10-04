@@ -9,3 +9,10 @@
 .law-card .exam-evidence{margin:0;gap:6px;display:flex}
 .law-card .exam-evidence a{min-height:44px}
 .law-cards button{min-height:44px}
+.law-card>summary{min-height:48px;padding:10px 0;box-sizing:border-box;cursor:pointer;font-weight:700;font-size:calc(15px * var(--fs,1));line-height:1.5}
+.law-card[dir=rtl]{text-align:right}
+.law-card li{unicode-bidi:plaintext}
+.law-card .exam-evidence{flex-wrap:wrap}
+.law-card-gap{border-inline-start:3px solid currentColor;padding-inline-start:10px;font-weight:700}
+.law-question-links{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.law-question-links a{min-height:44px;box-sizing:border-box;max-width:100%;overflow-wrap:anywhere}
