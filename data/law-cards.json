@@ -1219,11 +1219,15 @@
       "id": "ima-2026-15",
       "imaItem": 15,
       "title": "יש להכיר את אומדן FIM.",
-      "provenance": "official IMA required-reading file",
+      "provenance": "official IMA required-reading files; hazzard marked .pdf — Table 50-2, printed p.743 / PDF p.777, read from rendered page.",
       "bullets": [
         "IMA דורשת להכיר את אומדן FIM. הרשימה אינה מצרפת כאן מסמך ניקוד של האומדן. [P005-2026.pdf, עמ׳ 3, פריט 15]",
         "הכלל שניתן לאמת בקבצים שסופקו: אחרי אירוע מוחי או בעיה נוירולוגית אחרת, ציון FIM מתחת ל־75 או Barthel מתחת ל־16 הוא בין ההתוויות לשיקום באשפוז. [3MedicalDirectorProviding.pdf, עמ׳ 6, §7.6]",
-        "להערכת התקדמות השיקום מבצעים הערכה בקבלה ולקראת שחרור ומומלץ להשתמש באותו כלי. [3MedicalDirectorProviding.pdf, עמ׳ 7, §8.4]"
+        "להערכת התקדמות השיקום מבצעים הערכה בקבלה ולקראת שחרור ומומלץ להשתמש באותו כלי. [3MedicalDirectorProviding.pdf, עמ׳ 7, §8.4]",
+        "טווח האומדן: ממטופלים שאינם הולכים למטופלים הולכים (nonambulatory to ambulatory). [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
+        "פריטים הקשורים לניידות כוללים העברות, תנועה (הליכה או שימוש בכיסא גלגלים, מדרגות) ופעילויות יום־יום. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
+        "ניקוד כפי שמודפס בספר: “Each item scored from 0 (unable to perform) to 7 (performs independently)”. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
+        "בארה״ב היה מחויב לצורך דיווח והחזר כספי במוסדות שיקום באשפוז עד 2019. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]"
       ],
       "sources": [
         {
@@ -1235,6 +1239,11 @@
           "document": "3MedicalDirectorProviding.pdf",
           "locator": "PDF עמ׳ 6–7, §§7.6, 8.4",
           "via": "Rendered page images"
+        },
+        {
+          "document": "hazzard marked .pdf",
+          "locator": "Hazzard 8e, Table 50-2, printed p.743 / PDF p.777",
+          "via": "Rendered page image, visually read"
         }
       ],
       "questions": [
@@ -1253,7 +1262,8 @@
           "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
         }
       ],
-      "gap": "חסר במקורות שסופקו: מדריך פריטי FIM, דרגות הניקוד וכללי חישוב. הכרטיס אינו מספק כיסוי מלא של אומדן FIM."
+      "gap": "Partial — כיסוי חלקי: רשימת הפריטים המלאה וסכומי הביניים אינם במקורות שסופקו. הכרטיס אינו מספק מדריך ניקוד מלא של FIM.",
+      "coverage": "partial"
     }
   ],
   "requiredReading": {
@@ -1262,7 +1272,177 @@
       2,
       3
     ],
-    "note": "Hazzard 8e: excluding chapters 2–6, 34, 62 (p. 1). Six journal articles are not included; source files were not supplied. PDF citations are 1-based; Brookdale citations use printed pages. Existing cards and historical study notes remain below.",
+    "note": "Hazzard 8e: excluding chapters 2–6, 34, 62 (p. 1). Journal articles are listed in the adjacent Required articles (IMA P005-2026) panel. PDF citations are 1-based; Brookdale citations use printed pages. Existing cards and historical study notes remain below.",
     "readMethod": "Rendered page images"
+  },
+  "articles": {
+    "title": "Required articles (IMA P005-2026)",
+    "note": "Article summaries follow the supplied sources. IWG and VASCOG cards retain the owner-supplied text and page citations; AA and JAMA use the supplied XML/PDF. Linked past questions name the article explicitly; their original answers and explanations remain unchanged.",
+    "cards": [
+      {
+        "id": "ima-article-iwg-2024",
+        "articleItem": 3,
+        "title": "IWG 2024: AD is a clinical-biological construct",
+        "direction": "ltr",
+        "provenance": "cards_IWG_VasCog_from_Claude.md — owner-supplied, page-verified by Claude; underlying PDF unavailable on this PC.",
+        "bullets": [
+          "Position: AD = clinical phenotype + positive pathophysiological AD biomarkers; opposes AA 2024 purely biological definition. [p.4-6, p.11]",
+          "AD diagnosis (clinical setting): established clinical phenotype + supportive biomarkers (CSF, amyloid or tau PET; plasma e.g. p-tau217 pending approval). Covers prodromal (MCI, no loss of function) and dementia (loss of function) stages. [p.11, p.13]",
+          "Phenotypes - common: amnestic syndrome of the hippocampal type, logopenic aphasia, posterior cortical atrophy; uncommon: corticobasal syndrome, behavioural and dysexecutive variants. [p.6, p.12]",
+          "Cognitively normal + biomarker-positive = \"asymptomatic at-risk for AD\", NOT AD: brain amyloidosis isolated, or with tauopathy limited to medial temporal regions, or positive phospho-tau fluid biomarker. [p.12, Panel 1]",
+          "\"Presymptomatic AD\" (rare): near-deterministic risk - APP/PSEN1/PSEN2 mutations; Down syndrome; APOE e4 homozygous with SORL1 loss of function; amyloid PET+ with tau PET+ in neocortical regions. [p.12, Panel 1]",
+          "Numbers: lifetime AD-dementia risk of an amyloid-positive 65-year-old man ~21.9%, only 1.7x amyloid-negative; ~17% of CN isolated-amyloid-positive progressed to MCI over 6 years; tau PET positivity ~35% progression at 7 years. [p.7-8]",
+          "IWG recommends NO routine diagnostic biomarker testing in cognitively normal people (incl. subjective cognitive decline) outside research. [p.10-11]",
+          "Table 1 AA 2024 vs IWG 2024: AA - any abnormal Core 1 biomarker suffices, CN biomarker+ can be told they have AD, biomarkers could be primary trial endpoints; IWG - objective cognitive deficits + biomarkers needed, CN biomarker+ = at-risk, clinical efficacy required. [p.16]"
+        ],
+        "sources": [
+          {
+            "document": "cards_IWG_VasCog_from_Claude.md",
+            "locator": "IWG: Dubois B, et al. \"Alzheimer disease is a clinical-biological construct: An IWG recommendation.\" JAMA Neurol. 2024;81(12):1304-1311. doi:10.1001/jamaneurol.2024.3770. HHS author manuscript (PMC12010406). \"p.\" = author-manuscript page number."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-892f3ac99385c931f627310d",
+            "sitting": "2026-Jun",
+            "number": 43,
+            "reference": "Alzheimer Disease as a Clinical-Biological Construct—An International Working Group Recommendation. JAMA Neurology (supplied article 3)",
+            "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
+          }
+        ]
+      },
+      {
+        "id": "ima-article-vascog-2-wso-2025",
+        "articleItem": 2,
+        "title": "VASCOG-2-WSO 2025: vascular cognitive impairment and dementia",
+        "direction": "ltr",
+        "provenance": "cards_IWG_VasCog_from_Claude.md — owner-supplied, page-verified by Claude; underlying PDF unavailable on this PC.",
+        "bullets": [
+          "Terms (84% consensus): umbrella VCID; mild level = vaMCI; major level = VaD. Delphi, >=75% agreement, 3 rounds, 49-54 experts; endorsed by World Stroke Organisation. [p.5, p.10]",
+          "VaD = 2nd commonest dementia, 15-20% of cases; cerebrovascular disease contributes in up to 75% of dementia. [p.6]",
+          "MCI (Table 1): concern + modest objective deficit in >=1 domain, typically 1-2 SD below norms (3rd-16th percentile); IADLs preserved (may need effort/compensation). [p.20]",
+          "Dementia (Table 1): concern + clear deficit >=2 SD below norms (<3rd percentile) in >=1 domain; deficits, apart from physical deficits, interfere with independence (at least needing help with IADLs e.g. finances, medications). [p.20-21]",
+          "Six domains (Table 2, DSM-5 based): attention and processing speed; executive function; learning and memory; language; perceptual-motor; social cognition. [p.22]",
+          "Vascular aetiology (Table 3) needs A AND B. A1: onset temporally related to >=1 clinical stroke; abrupt; deficits persist beyond 3 months; stepwise/fluctuating if multiple strokes. A2 (no stroke/TIA): gradual, slowly progressive, mainly attention/processing speed and/or executive; memory = inefficient encoding/retrieval (vs consolidation/storage in AD). Supportive: apathy, depressive symptoms, emotional lability, gait-balance disorders. [p.23]",
+          "B imaging (MRI preferred, >=1): multiple infarcts or a single extensive/strategic infarct (e.g. thalamus); >=2 lacunes outside brainstem (1 if strategic or with extensive WMH); extensive confluent WMH = Fazekas 2-3, or periventricular 3 and/or deep 2-3; ICH - one if large/lobar/strategic, or >=2. Microbleeds, cortical superficial siderosis and CAA (Boston 2.0) are supportive only, not sufficient. STRIVE-2 definitions. [p.24]",
+          "Changes vs VASCOG-1: gait disturbance and urinary frequency dropped as too non-specific; major depression removed from exclusions; AD and DLB biomarkers added for alternative/additional aetiology; no consensus on a time limit beyond \"3 months\" after stroke; PSD / SIVaD / MID subtypes not supported - only ischaemic, haemorrhagic or mixed. [p.10-11, p.13]",
+          "Table 3C alternative/co-aetiology: insidious AD-like onset without matching vascular lesions; early prominent movement disorder (Lewy body); absent/minimal CVD on imaging; AD biomarkers (CSF/plasma Abeta42:40, pTau181, pTau217; amyloid PET; AD mutation or APOE4 homozygosity); DLB biomarkers (DaT imaging, CSF alpha-synuclein seed amplification). [p.24-25]",
+          "Certainty (Table 4): probable = clinical criteria + neuroimaging, or clinical + genetic (CADASIL, CARASIL, HERNS, PADMAL, RVCL, COL4A1); possible = clinical criteria met but no imaging/genetic evidence. Mixed causation: state which aetiology is clinically more salient. [p.26]",
+          "New \"preclinical/at-risk VCID\": significant incidental imaging CVD meeting criterion B, no cognitive concern and not meeting MCI/dementia; supported by vascular risk factors; mainly for research and prevention. [p.27]"
+        ],
+        "sources": [
+          {
+            "document": "cards_IWG_VasCog_from_Claude.md",
+            "locator": "VasCog: The VASCOG-2-WSO Criteria Consortium. \"Revised Diagnostic Criteria for Vascular Cognitive Impairment and Dementia - The VasCog-2-WSO Criteria.\" JAMA Neurol. 2025. doi:10.1001/jamaneurol.2025.3242. Edinburgh accepted manuscript. \"p.\" = manuscript page number printed at page foot (= PDF page - 1; PDF p.1 is the repository cover). Page numbers verified by Claude with per-page text search."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-5df16a1d0d61c7ad67f08df6",
+            "sitting": "2026-Jun",
+            "number": 56,
+            "reference": "Revised Diagnostic Criteria for Vascular Cognitive Impairment and Dementia—The VasCog-2-WSO Criteria. JAMA Neurology (supplied article 2)",
+            "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
+          },
+          {
+            "id": "mcq-a27bfbe9359d6d1da40dbdc6",
+            "sitting": "2026-Jun",
+            "number": 65,
+            "reference": "Revised Diagnostic Criteria for Vascular Cognitive Impairment and Dementia—The VasCog-2-WSO Criteria. JAMA Neurology (supplied article 2)",
+            "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
+          }
+        ]
+      },
+      {
+        "id": "ima-article-aa-2024",
+        "articleItem": 4,
+        "title": "AA 2024: biological diagnosis and staging of AD",
+        "direction": "ltr",
+        "provenance": "4_AA-revised-criteria-AD_Alz-Dement-2024_PMC11350039.xml — supplied Europe PMC full-text XML; citations use its section headings, boxes and tables.",
+        "bullets": [
+          "Biological definition: AD is defined by its neuropathologic biology, separately from the clinical syndrome. An abnormal, sufficiently accurate Core 1 test can establish AD; symptoms are not required. A clinical phenotype alone cannot establish AD biology. [BACKGROUND, Box 1; DIAGNOSIS, Box 2]",
+          "Core 1 = A (amyloid pathway) + T1 (early-changing phosphorylated/secreted tau: p-tau217, p-tau181, p-tau231), including hybrid ratios. Diagnostic tests include amyloid PET, CSF Aβ42/40, CSF p-tau181/Aβ42, CSF t-tau/Aβ42 and accurate plasma assays. Not every test in this category is accurate enough for diagnosis. [BIOMARKER CATEGORIZATION, Box 2, Tables 1–2]",
+          "Accuracy requirement: at least 90% against an accepted reference standard in the intended-use population; qualifying plasma tests should perform equivalently to approved CSF assays. Table 2 emphasizes plasma p-tau217 and %p-tau217. [DIAGNOSIS — Anchoring Core 1 biomarkers for AD diagnosis to reference standards; Box 2; Table 2]",
+          "Core 2 = T2: later-changing tau markers, including tau PET, MTBR-tau243 and other tau fragments (e.g. p-tau205). They support biological staging and prognosis with Core 1; a negative Core 2 result does not rule out early AD. Several fluid markers remain less validated. [BIOMARKER CATEGORIZATION, Box 2, Tables 1–2]",
+          "Biological PET stages: A = amyloid-positive / tau PET-negative; B = medial-temporal tau; C = moderate neocortical tau uptake; D = high neocortical tau uptake. All four are amyloid-positive. [BIOLOGICAL DISEASE STAGING; Tables 3–4]",
+          "A positive Core 1 fluid assay establishes biological stage A or higher, but cannot alone distinguish PET stages A–D; add tau PET to separate them. Fluid-only A–D staging is conceptual, awaiting validation, and is not interchangeable with PET staging. [BIOLOGICAL DISEASE STAGING; Tables 3–5]",
+          "Clinical 0: asymptomatic, genetically determined AD (ADAD or Down syndrome-associated AD), with normal biomarkers. Clinical 1: asymptomatic with biomarker evidence. APOE risk alleles alone are neither diagnostic nor a disease stage. [CLINICAL STAGING — Stage 0 / Risk alleles; Table 6]",
+          "Clinical 2: transitional cognitive/neurobehavioral decline from baseline within 1–3 years, persistent ≥6 months; objective testing still within expected range and daily independence retained. Clinical 3: objective impairment, with more effort/time or reduced efficiency for complex activities, but still independent. [CLINICAL STAGING — Numeric clinical staging; Table 6]",
+          "Clinical 4: mild dementia, impaired instrumental ADLs but independent basic ADLs. Clinical 5: moderate dementia, assistance with basic ADLs. Clinical 6: severe dementia, completely dependent for basic ADLs. [CLINICAL STAGING; Table 6]",
+          "Integrated stage combines clinical number and biological letter (e.g. 3B). Biological and clinical severity may diverge because of copathology or cognitive reserve; stage 0 has no A–D combination. [INTEGRATED BIOLOGICAL AND CLINICAL STAGING; Table 7]",
+          "Cognitively unimpaired people: AD can be diagnosed biologically, but the workgroup recommends AGAINST diagnostic testing for clinical purposes outside observational or therapeutic research at the time of this paper. Clinical biomarker use is intended for symptomatic people and assists clinical evaluation; it does not replace evaluation for other contributors. [DIAGNOSIS — Intended uses; Box 4]"
+        ],
+        "sources": [
+          {
+            "document": "4_AA-revised-criteria-AD_Alz-Dement-2024_PMC11350039.xml",
+            "locator": "Jack CR Jr, et al. Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup. Alzheimers Dement. 2024. doi:10.1002/alz.13859. BACKGROUND; BIOMARKER CATEGORIZATION; DIAGNOSIS; BIOLOGICAL DISEASE STAGING; CLINICAL STAGING; INTEGRATED BIOLOGICAL AND CLINICAL STAGING; Boxes 1, 2, 4; Tables 1–7."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-50913261c9d08f2875dc46ce",
+            "sitting": "2026-Jun",
+            "number": 23,
+            "reference": "Revised criteria for diagnosis and staging of Alzheimer’s disease (supplied article 4; Table 6 for Q73)",
+            "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
+          },
+          {
+            "id": "mcq-a1dae018a6c6f55cc5b317e8",
+            "sitting": "2026-Jun",
+            "number": 73,
+            "reference": "Revised criteria for diagnosis and staging of Alzheimer’s disease (supplied article 4; Table 6 for Q73)",
+            "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
+          }
+        ]
+      },
+      {
+        "id": "ima-article-dementia-prevention-treatment-2024",
+        "articleItem": 5,
+        "title": "Dementia Prevention and Treatment · JAMA Intern Med 2024",
+        "direction": "ltr",
+        "provenance": "5_Dementia-prevention-treatment_JAMA-IM-2024_eScholarship.pdf — supplied PDF, printed E-pages = PDF page number prefixed E. Summary reflects this 2024 paper.",
+        "bullets": [
+          "Prevention evidence: most evidence is observational. The review finds no conclusive RCT evidence that modifying a risk factor, alone or in combination, prevents dementia; addressing risks can still have other health benefits. Cognitive improvement is not proof of dementia prevention. [p.E1–E4, p.E7; Tables 1–2]",
+          "The 12 modifiable factors (2020 Lancet model) account for an estimated 39.7% of dementia: less education, hearing loss, traumatic brain injury, hypertension, alcohol >21 units/week, obesity (BMI ≥30), smoking, depression, social isolation, physical inactivity, diabetes and air pollution. This is an attributable-risk estimate, not a proven intervention effect. [p.E2, Table 1]",
+          "SPRINT MIND: systolic target <120 versus <140 mmHg reduced probable dementia by 17%, but not significantly; MCI and the combined MCI/dementia outcome were significantly reduced. Statins and aspirin did not show preventive benefit in the cited trial reviews/trial. [p.E2–E3, Table 2]",
+          "Hearing: observational evidence suggested benefit, but the cited 3-year hearing-intervention trial found no overall cognitive benefit. MIND diet: observational support, but the 3-year trial found no difference in global cognition or dementia-related MRI findings. [p.E2–E3, Table 2]",
+          "Exercise can improve cognition; smoking cessation is associated with lower dementia risk in observational data. FINGER (diet, exercise, cognitive training and vascular-risk management) improved cognition, but follow-up was too short to determine dementia prevention. SMARRT found modest improvements in cognition, risk factors and quality of life. [p.E3–E4, Table 2]",
+          "Symptomatic AD treatment: donepezil and rivastigmine for mild–severe AD dementia; galantamine for mild–moderate; memantine (NMDA antagonist) for moderate–severe. Benefits are modest; the review describes persistent cognitive benefit for cholinesterase inhibitors and delayed institutionalization/reduced caregiver burden with these drugs and memantine. [p.E4–E5, Table 3]",
+          "Cholinesterase-inhibitor adverse effects include GI upset, weight loss, vivid dreams, bradycardia and syncope; rivastigmine patch can cause contact dermatitis. Memantine adverse effects listed include dizziness, confusion, anxiety, blood-pressure changes, diarrhea and agitation. [p.E4, Table 3]",
+          "Anti-amyloid antibodies: for MCI or mild dementia due to AD. Lecanemab/donanemab trials slowed cognitive/functional decline by 27–40% versus placebo; an estimated ≈5-month delay does not establish a sustained, clinically important benefit for every individual. Aducanumab clinical efficacy was inconclusive; Table 3 labels donanemab as under FDA consideration at the time of the paper. [p.E4–E5, Table 3]",
+          "Eligibility workup described: cognitive testing to exclude moderate/severe dementia, proof of elevated brain amyloid, APOE ε4 testing, and baseline MRI. One macrohemorrhage or >4 microhemorrhages excludes starting treatment in the paper’s account. Infusions and serial surveillance MRIs add substantial burden. [p.E6]",
+          "ARIA-E = edema; ARIA-H = hemorrhage/siderosis. Risk rises with APOE ε4, especially homozygosity. About 70% of ARIA is asymptomatic; possible symptoms include confusion, headache, seizures and focal signs. Close clinical/MRI monitoring is needed, especially in the first 5 months; abrupt neurologic change warrants urgent evaluation including MRI. [p.E5–E6]",
+          "Non-drug care first for behavioral/psychological symptoms: DICE (Describe, Investigate, Create, Evaluate); identify medical, caregiver and environmental triggers. Caregiver skills training, psychoeducation and tailored activities have the most consistent evidence and reduce symptoms and caregiver distress. [p.E6]",
+          "If distressing/dangerous symptoms persist, consider a time-limited drug trial with objective goals and review ineffective psychoactive drugs before adding another. Psychotropics carry fall and cognitive risks; antipsychotics increase mortality. Patient/caregiver goals, community support, advance directives and hospice also matter. [p.E6–E7]"
+        ],
+        "sources": [
+          {
+            "document": "5_Dementia-prevention-treatment_JAMA-IM-2024_eScholarship.pdf",
+            "locator": "Reuben DB, Kremen S, Maust DT. Dementia Prevention and Treatment: A Narrative Review. JAMA Intern Med. Published online March 4, 2024. doi:10.1001/jamainternmed.2023.8522. Printed pp. E1–E7 (= PDF pp. 1–7), Tables 1–3."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-26ba0a6e4969ec4edfbd0987",
+            "sitting": "2026-Jun",
+            "number": 16,
+            "reference": "Dementia Prevention and Treatment — A Narrative Review (supplied article 5)",
+            "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
+          }
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "title": "Beers 2023",
+        "status": "read directly",
+        "provenance": "1_AGS-Beers-2023.pdf — no card, owner decision."
+      },
+      {
+        "title": "NEJM Age-Related Hearing Loss 2024",
+        "status": "not available - paywalled",
+        "provenance": "No source file supplied."
+      }
+    ]
   }
 }
