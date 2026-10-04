@@ -1316,7 +1316,7 @@
         "articleItem": 2,
         "title": "VASCOG-2-WSO 2025: vascular cognitive impairment and dementia",
         "direction": "ltr",
-        "provenance": "cards_IWG_VasCog_from_Claude.md ? revised owner-supplied bullets retained verbatim, with manuscript-page labels. Gait clarification separately checked on rendered Oxford accepted-manuscript pages 11 and 23.",
+        "provenance": "cards_IWG_VasCog_from_Claude.md — revised owner-supplied bullets retained verbatim, with manuscript-page labels. Gait clarification separately checked on rendered Oxford accepted-manuscript pages 11 and 23.",
         "bullets": [
           "Terms (84% consensus): umbrella VCID; mild level = vaMCI; major level = VaD. Delphi, >=75% agreement, 3 rounds, 49-54 experts; endorsed by World Stroke Organisation. [ms p.5, ms p.10]",
           "VaD = 2nd commonest dementia, 15-20% of cases; cerebrovascular disease contributes in up to 75% of dementia. [ms p.6]",
@@ -1336,7 +1336,7 @@
             "locator": "VasCog: The VASCOG-2-WSO Criteria Consortium. \"Revised Diagnostic Criteria for Vascular Cognitive Impairment and Dementia - The VasCog-2-WSO Criteria.\" JAMA Neurol. 2025. doi:10.1001/jamaneurol.2025.3242. Edinburgh accepted manuscript. \"ms p.\" = manuscript page number printed at page foot (= PDF page - 1; PDF p.1 is the repository cover). Page numbers verified by Claude with per-page text search."
           },
           {
-            "document": "Oxford accepted manuscript ? https://ora.ox.ac.uk/objects/uuid:c13523b9-fd72-4633-8a4e-d753b11f0710",
+            "document": "Oxford accepted manuscript — https://ora.ox.ac.uk/objects/uuid:c13523b9-fd72-4633-8a4e-d753b11f0710",
             "locator": "Gait clarification only: Results [ms p.11] and Table 3 A2 guidance [ms p.23]; these printed manuscript pages are also PDF pages 11 and 23 in this copy."
           }
         ],
