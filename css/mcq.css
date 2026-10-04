@@ -43,3 +43,13 @@
 .mcq-view-links button,.mcq-flag-row button,.mcq-topic-flag,.mcq-answer-undo{min-height:40px}
 .mcq-missed-toggle{white-space:normal;text-align:start}
 .mcq-heading>div,.mcq-actions>*,.mcq-question{min-width:0}
+
+/* Confidence is always between the stem and answer options. */
+.mcq-confidence{display:flex;align-items:center;gap:12px;margin:12px 0}
+.mcq-confidence button{min-height:44px;min-width:88px;border:1px solid var(--rule);border-radius:12px;background:var(--page);color:var(--ink);padding:8px 16px;font-weight:650}
+.mcq-confidence button[aria-pressed="true"]{background:#fff0c2;color:#594000;border-color:#a17713}
+[data-theme="dark"] .mcq-confidence button[aria-pressed="true"]{background:#534318;color:#fff0bc;border-color:#b69a4d}
+.mcq-review-size{display:flex;align-items:center;gap:12px}
+.mcq-review-size select{min-height:44px;padding:8px 16px;background:var(--page);color:var(--ink);border:1px solid var(--rule);border-radius:10px}
+[data-review-link]{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);font-weight:650}
+.review-home{padding:14px;border:1px solid var(--rule);border-radius:14px;background:var(--page)}
