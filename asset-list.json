@@ -1,5 +1,5 @@
 {
-  "version": "v60",
+  "version": "v61",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -1642,6 +1642,11 @@
       "bytes": 16850
     },
     {
+      "url": "./css/drug-index.css",
+      "sha256": "14afef5a598b27a44090ea509b433a2afed2a3873d1ce29b3e18e95f3f9a39fc",
+      "bytes": 2571
+    },
+    {
       "url": "./css/law-cards.css",
       "sha256": "fcddb7ad7a98d6249c4eb51d3f4bf60034d2fd561d88d85a3586541154b1b486",
       "bytes": 831
@@ -1655,6 +1660,11 @@
       "url": "./css/memory-aids.css",
       "sha256": "e6e5ba230cb03e69b3e4752525222ee07835af84f7733202f20566a10ea7f09b",
       "bytes": 878
+    },
+    {
+      "url": "./data/drug-index.json",
+      "sha256": "6155304a6826948202c9e14096224f9487db57765bafd9efc0b8573b52ee5cbc",
+      "bytes": 736079
     },
     {
       "url": "./data/law-cards.json",
@@ -2113,8 +2123,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "69d73c4ba9f964bf64436251fb07338ed69b2dd3ab05f73035fa3aaad7b8aa41",
-      "bytes": 3273669
+      "sha256": "514164861cf76119c53f2aaa041faad7ecb92d3d4b00a321bc725fa8dbea445b",
+      "bytes": 3274128
+    },
+    {
+      "url": "./js/drug-index.js",
+      "sha256": "178ec7ab646bdbc2f87b1c457c6c1444a0cd5d31c03d5a8163d880d8c3bb470e",
+      "bytes": 7843
     },
     {
       "url": "./js/exam-evidence.js",
@@ -2158,7 +2173,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "2244f8ec8b06d69c751d57f99667054a858fa2c0ff671adf9dd4712a64bad316",
+      "sha256": "308169237699702d51c90f1cfcb9083a11978d9019eff9858f03d5958594869e",
       "bytes": 6590
     },
     {
