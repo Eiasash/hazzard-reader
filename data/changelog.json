@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v70-r1",
+      "date": "2026-10-04",
+      "changes": [
+        "Fixed English terms and lab units appearing scrambled inside Hebrew questions, and the explanation box no longer cuts text off on phones. No answers changed."
+      ]
+    },
+    {
       "version": "v70",
       "date": "2026-10-04",
       "changes": [

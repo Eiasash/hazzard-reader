@@ -109,15 +109,29 @@ window.HazzardMCQ = (() => {
     while (walker.nextNode()) nodes.push(walker.currentNode);
     for (const node of nodes) {
       const block = node.parentElement.closest('[dir="auto"]');
-      // Keep the leading Latin text visible to dir=auto in English paragraphs.
-      if (/^[^A-Za-z\u0590-\u05ff]*[A-Za-z]/.test(block?.textContent || '')) continue;
+      // Keep only the leading Latin run visible to dir=auto. Later runs still
+      // need isolation when an English-first block switches back to Hebrew.
+      let keepLeading = false;
+      if (/^[^\p{L}]*[\p{Script=Latin}\p{Script=Greek}µ]/u.test(block?.textContent || '')) {
+        const prefix = document.createRange(); prefix.selectNodeContents(block); prefix.setEndBefore(node);
+        keepLeading = !/\p{L}/u.test(prefix.toString());
+      }
       const fragment = document.createDocumentFragment();
       // Keep terms, doses and numeric ranges in logical LTR order. Leave source
       // characters intact; CSS separates terms glued to Hebrew in the import.
-      const runs = /\([ \t]*[A-Za-z0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079][A-Za-z0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079 \t.,;:/+%\u2212\u2013\u2192\u2190<>=-]*\)|[A-Za-z0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079]+(?:[./:+%−–-][A-Za-z0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079]+)*(?:[ \t]+[A-Za-z0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079]+(?:[./:+%−–-][A-Za-z0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079]+)*)*%?/g;
+      // A run starts with a letter/number, never a Hebrew prefix's hyphen.
+      // Combining accents and Greek/micro units belong to the same LTR token.
+      const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
+      const word = `[${base}][${base}\\p{M}]*`;
+      const token = `${word}(?:[./:+%−–<>=≤≥±×→←-]${word})*`;
+      const runs = new RegExp(`\\([ \\t]*[${base}][${base}\\p{M} \\t.,;:/+%−–→←<>=≤≥±×-]*\\)|${token}(?:[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${token})*%?`, 'gu');
       let end = 0;
       for (const match of node.data.matchAll(runs)) {
         fragment.append(document.createTextNode(node.data.slice(end, match.index)));
+        if (keepLeading && !/\p{L}/u.test(node.data.slice(0, match.index))) {
+          fragment.append(document.createTextNode(match[0])); end = match.index + match[0].length;
+          continue;
+        }
         const bdi = document.createElement('bdi'); bdi.dir = 'ltr'; bdi.textContent = match[0];
         end = match.index + match[0].length;
         if (/[\u0590-\u05ff]/.test(node.data[match.index - 1] || '')) bdi.classList.add('mcq-gap-before');
