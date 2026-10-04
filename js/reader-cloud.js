@@ -78,7 +78,7 @@ window.HazzardCloud = (() => {
       payload=bridge.capture();
       if(!manual&&JSON.stringify(payload.storage)===lastUploaded){state.dirty=false;saveState();return;}
       state.attemptAt=Date.now();saveState();render();
-      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:'v57',p_device:navigator.userAgent},keepalive,token);
+      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:'v58',p_device:navigator.userAgent},keepalive,token);
       if(generation!==epoch)return;
       lastUploaded=JSON.stringify(payload.storage);state.syncedAt=result.updated_at||new Date().toISOString();
       state.dirty=JSON.stringify(bridge.capture().storage)!==JSON.stringify(payload.storage);

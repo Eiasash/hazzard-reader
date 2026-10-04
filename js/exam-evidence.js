@@ -14,7 +14,7 @@ window.HazzardEvidence = (() => {
     // A browser Back never writes an answer or changes a saved paper's identity.
     history.replaceState({...history.state, mcqView: view}, '');
     const url = new URL(location.href);
-    url.search = ''; url.searchParams.set('chapter', page.chapter);
+    url.search = ''; url.searchParams.set('chapter', page.readerChapter || page.chapter);
     url.searchParams.set('examBack', '1'); url.hash = 'p' + page.page;
     location.assign(url);
   }
@@ -23,7 +23,7 @@ window.HazzardEvidence = (() => {
     for (const [id, entry] of Object.entries(data.questions)) {
       if (entry.status !== 'resolved') continue;
       for (const p of entry.pages) {
-        if (p.chapter !== chapter || !p.available) continue;
+        if ((p.readerChapter || p.chapter) !== chapter || !p.available) continue;
         if (!byPage.has(p.page)) byPage.set(p.page, []);
         byPage.get(p.page).push([id, entry]);
       }
