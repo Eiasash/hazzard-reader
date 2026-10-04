@@ -2,6 +2,24 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v72",
+      "date": "2026-10-04",
+      "changes": [
+        "Original exam wording restored for 2020 Q46 and Q49, June 2023 Q1, May 2024 Q2, and June 2025 Q91. Q91 now accepts A and D and is back in mock papers.",
+        "Clearer Hebrew/English paragraphs and measurements; the 2020 Q47 comparison is now a table you can scroll sideways. The update button is separate from Text settings.",
+        "Open page links now distinguish the printed exam citation from checked corrections. Brookdale questions link to the required 2024 card, with older editions labelled. Required Harrison chapters and off-list source labels are visible.",
+        "2020: Q24 - redo this question, Q29 - redo this question, Q30 - redo this question, Q46 - redo this question, Q49 - redo this question, Q98 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2021-Dec: Q1 - redo this question, Q32 - redo this question, Q55 - redo this question, Q97 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2022-Jun: Q36 - redo this question, Q66 - redo this question, Q91 - redo this question, Q95 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2023-Jun: Q1 - redo this question, Q7 - redo this question, Q8 - redo this question, Q11 - redo this question, Q36 - redo this question, Q42 - redo this question, Q58 - redo this question, Q59 - redo this question, Q65 - redo this question, Q68 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2024-May: Q16 - redo this question, Q17 - redo this question, Q18 - redo this question, Q22 - redo this question, Q40 - redo this question, Q41 - redo this question, Q57 - redo this question, Q63 - redo this question, Q82 - redo this question, Q84 - redo this question, Q100 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2024-Sep: Q3 - redo this question, Q5 - redo this question, Q32 - redo this question, Q53 - redo this question, Q91 - redo this question, Q92 - redo this question, Q94 - redo this question, Q97 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2025-Jun: Q17 - redo this question, Q57 - redo this question, Q77 - redo this question, Q91 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "2026-Jun: Q2 - redo this question, Q51 - redo this question, Q73 - redo this question. Explanations were corrected from source pages or replaced in the affected paragraphs with an explicit review note; official accepted answers are retained except the documented Q91 correction.",
+        "Some explanations are still being checked against Hazzard. If an explanation surprises you, trust the official key and use Open page to read the source."
+      ]
+    },
+    {
       "version": "v71",
       "date": "2026-10-04",
       "changes": [

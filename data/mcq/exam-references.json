@@ -69,8 +69,8 @@
       "number": 65,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 734",
-      "questionRef": "Hazzard 8e · p. 734",
+      "reference": "Hazzard 8e · p. 734 · Table 49-3",
+      "questionRef": "Hazzard 8e · p. 734 · Table 49-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -81,7 +81,9 @@
           "readerChapter": "49s"
         }
       ],
-      "tables": [],
+      "tables": [
+        "49-3"
+      ],
       "chapters": [
         "49"
       ]
@@ -91,8 +93,8 @@
       "number": 5,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 984",
-      "questionRef": "Hazzard 8e · p. 984",
+      "reference": "Hazzard 8e · p. 984 · Table 63-3",
+      "questionRef": "Hazzard 8e · p. 984 · Table 63-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -102,7 +104,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "63-3"
+      ],
       "chapters": [
         "63"
       ]
@@ -159,8 +163,8 @@
       "number": 86,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "חוק החולה הנוטה למות — הנחיות מקדימות",
-      "questionRef": "חוק החולה הנוטה למות — הנחיות מקדימות",
+      "reference": "IMA: source unspecified (X)",
+      "questionRef": "IMA: source unspecified (X)",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -328,8 +332,8 @@
       "number": 14,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 788",
-      "questionRef": "Hazzard 7e · p. 788",
+      "reference": "Hazzard 7e · p. 788 · Table 52-1",
+      "questionRef": "Hazzard 7e · p. 788 · Table 52-1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -445,8 +449,8 @@
       "number": 23,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 434",
-      "questionRef": "Hazzard 7e · p. 434",
+      "reference": "Hazzard 7e · p. 434 · Table 29-5",
+      "questionRef": "Hazzard 7e · p. 434 · Table 29-5",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -523,8 +527,8 @@
       "number": 29,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 932",
-      "questionRef": "Hazzard 7e · p. 932",
+      "reference": "Hazzard 7e · p. 932 · Table 63-1",
+      "questionRef": "Hazzard 7e · p. 932 · Table 63-1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -705,8 +709,8 @@
       "number": 46,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 1981",
-      "questionRef": "Hazzard 7e · p. 1981",
+      "reference": "Hazzard 7e · p. 1981 · Table 127-6",
+      "questionRef": "Hazzard 7e · p. 1981 · Table 127-6",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -731,8 +735,8 @@
       "number": 49,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 1964",
-      "questionRef": "Hazzard 7e · p. 1964",
+      "reference": "Hazzard 7e · p. 1964 · Table 126-4",
+      "questionRef": "Hazzard 7e · p. 1964 · Table 126-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -757,8 +761,8 @@
       "number": 51,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 712",
-      "questionRef": "Hazzard 7e · p. 712",
+      "reference": "Hazzard 7e · p. 712 · Table 47-2",
+      "questionRef": "Hazzard 7e · p. 712 · Table 47-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -770,8 +774,8 @@
       "number": 52,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 716",
-      "questionRef": "Hazzard 7e · p. 716",
+      "reference": "Hazzard 7e · p. 716 · Table 47-4",
+      "questionRef": "Hazzard 7e · p. 716 · Table 47-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -783,8 +787,8 @@
       "number": 53,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 929",
-      "questionRef": "Hazzard 7e · p. 929",
+      "reference": "Hazzard 7e · p. 929 · Table 62-4",
+      "questionRef": "Hazzard 7e · p. 929 · Table 62-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -952,8 +956,8 @@
       "number": 68,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 1189",
-      "questionRef": "Hazzard 7e · p. 1189",
+      "reference": "Hazzard 7e · p. 1189 · Table 79-6",
+      "questionRef": "Hazzard 7e · p. 1189 · Table 79-6",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1160,8 +1164,8 @@
       "number": 87,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 1008-1010",
-      "questionRef": "Hazzard 7e · p. 1008-1010",
+      "reference": "Hazzard 7e · p. 1008-1010 · Table 66-6",
+      "questionRef": "Hazzard 7e · p. 1008-1010 · Table 66-6",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1264,8 +1268,8 @@
       "number": 96,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 696",
-      "questionRef": "Hazzard 7e · p. 696",
+      "reference": "Hazzard 7e · p. 696 · Table 46-2",
+      "questionRef": "Hazzard 7e · p. 696 · Table 46-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1342,8 +1346,8 @@
       "number": 2,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1136",
-      "questionRef": "Hazzard 7e · p. 1136",
+      "reference": "Hazzard 7e · p. 1136 · Table 75-2",
+      "questionRef": "Hazzard 7e · p. 1136 · Table 75-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1472,8 +1476,8 @@
       "number": 19,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 918",
-      "questionRef": "Hazzard 7e · p. 918",
+      "reference": "Hazzard 7e · p. 918 · Table 66-1,66-2",
+      "questionRef": "Hazzard 7e · p. 918 · Table 66-1,66-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1485,8 +1489,8 @@
       "number": 20,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 37,42",
-      "questionRef": "Hazzard 7e · p. 37,42",
+      "reference": "Hazzard 7e · p. 37,42 · Table 3-2,3-3",
+      "questionRef": "Hazzard 7e · p. 37,42 · Table 3-2,3-3",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1524,8 +1528,8 @@
       "number": 25,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1578",
-      "questionRef": "Hazzard 7e · p. 1578",
+      "reference": "Hazzard 7e · p. 1578 · Table 106-3",
+      "questionRef": "Hazzard 7e · p. 1578 · Table 106-3",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1576,8 +1580,8 @@
       "number": 32,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1640",
-      "questionRef": "Hazzard 7e · p. 1640",
+      "reference": "Hazzard 7e · p. 1640 · Table 110-1",
+      "questionRef": "Hazzard 7e · p. 1640 · Table 110-1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1628,8 +1632,8 @@
       "number": 41,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1417",
-      "questionRef": "Hazzard 7e · p. 1417",
+      "reference": "Hazzard 7e · p. 1417 · Table 95-9",
+      "questionRef": "Hazzard 7e · p. 1417 · Table 95-9",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1654,8 +1658,8 @@
       "number": 43,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 811",
-      "questionRef": "Hazzard 7e · p. 811",
+      "reference": "Hazzard 7e · p. 811 · Table 53-9",
+      "questionRef": "Hazzard 7e · p. 811 · Table 53-9",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1732,8 +1736,8 @@
       "number": 51,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1173",
-      "questionRef": "Hazzard 7e · p. 1173",
+      "reference": "Hazzard 7e · p. 1173 · Table 78-7",
+      "questionRef": "Hazzard 7e · p. 1173 · Table 78-7",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1745,8 +1749,8 @@
       "number": 52,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 696",
-      "questionRef": "Hazzard 7e · p. 696",
+      "reference": "Hazzard 7e · p. 696 · Table 46-2",
+      "questionRef": "Hazzard 7e · p. 696 · Table 46-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -1875,8 +1879,8 @@
       "number": 62,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1576",
-      "questionRef": "Hazzard 7e · p. 1576",
+      "reference": "Hazzard 7e · p. 1576 · Table 106-2",
+      "questionRef": "Hazzard 7e · p. 1576 · Table 106-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2005,8 +2009,8 @@
       "number": 80,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 719",
-      "questionRef": "Hazzard 7e · p. 719",
+      "reference": "Hazzard 7e · p. 719 · Table 47-6",
+      "questionRef": "Hazzard 7e · p. 719 · Table 47-6",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2057,8 +2061,8 @@
       "number": 85,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 712",
-      "questionRef": "Hazzard 7e · p. 712",
+      "reference": "Hazzard 7e · p. 712 · Table 47-1",
+      "questionRef": "Hazzard 7e · p. 712 · Table 47-1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2148,8 +2152,8 @@
       "number": 94,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 725",
-      "questionRef": "Hazzard 7e · p. 725",
+      "reference": "Hazzard 7e · p. 725 · Table 48-1",
+      "questionRef": "Hazzard 7e · p. 725 · Table 48-1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2252,8 +2256,8 @@
       "number": 13,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1961",
-      "questionRef": "Hazzard 7e · p. 1961",
+      "reference": "Hazzard 7e · p. 1961 · Table 126-2",
+      "questionRef": "Hazzard 7e · p. 1961 · Table 126-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2291,8 +2295,8 @@
       "number": 44,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 805,808",
-      "questionRef": "Hazzard 7e · p. 805,808",
+      "reference": "Hazzard 7e · p. 805,808 · Figure 53-2",
+      "questionRef": "Hazzard 7e · p. 805,808 · Figure 53-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2304,8 +2308,8 @@
       "number": 77,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1212,568",
-      "questionRef": "Hazzard 7e · p. 1212,568",
+      "reference": "Hazzard 7e · p. 1212,568 · Table 51-3",
+      "questionRef": "Hazzard 7e · p. 1212,568 · Table 51-3",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2460,8 +2464,8 @@
       "number": 21,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1306",
-      "questionRef": "Hazzard 7e · p. 1306",
+      "reference": "Hazzard 7e · p. 1306 · Table 88-2",
+      "questionRef": "Hazzard 7e · p. 1306 · Table 88-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2538,8 +2542,8 @@
       "number": 83,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1532",
-      "questionRef": "Hazzard 7e · p. 1532",
+      "reference": "Hazzard 7e · p. 1532 · Table 104-4",
+      "questionRef": "Hazzard 7e · p. 1532 · Table 104-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2577,8 +2581,8 @@
       "number": 18,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1953",
-      "questionRef": "Hazzard 7e · p. 1953",
+      "reference": "Hazzard 7e · p. 1953 · Table 125-2",
+      "questionRef": "Hazzard 7e · p. 1953 · Table 125-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2590,8 +2594,8 @@
       "number": 29,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 716",
-      "questionRef": "Hazzard 7e · p. 716",
+      "reference": "Hazzard 7e · p. 716 · Table 47-4",
+      "questionRef": "Hazzard 7e · p. 716 · Table 47-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2603,8 +2607,8 @@
       "number": 37,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 964",
-      "questionRef": "Hazzard 7e · p. 964",
+      "reference": "Hazzard 7e · p. 964 · Table 64-4",
+      "questionRef": "Hazzard 7e · p. 964 · Table 64-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2655,8 +2659,8 @@
       "number": 47,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 1168-1169",
-      "questionRef": "Hazzard 7e · p. 1168-1169",
+      "reference": "Hazzard 7e · p. 1168-1169 · Table 78-1,78-2",
+      "questionRef": "Hazzard 7e · p. 1168-1169 · Table 78-1,78-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2681,8 +2685,8 @@
       "number": 66,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1730",
-      "questionRef": "Hazzard 7e · p. 1730",
+      "reference": "Hazzard 7e · p. 1730 · Table 113-3",
+      "questionRef": "Hazzard 7e · p. 1730 · Table 113-3",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2720,8 +2724,8 @@
       "number": 64,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1861",
-      "questionRef": "Hazzard 7e · p. 1861",
+      "reference": "Hazzard 7e · p. 1861 · Table 121-2",
+      "questionRef": "Hazzard 7e · p. 1861 · Table 121-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2733,8 +2737,8 @@
       "number": 70,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2021.pdf",
-      "reference": "Hazzard 7e · p. 1171",
-      "questionRef": "Hazzard 7e · p. 1171",
+      "reference": "Hazzard 7e · p. 1171 · Table 78-3",
+      "questionRef": "Hazzard 7e · p. 1171 · Table 78-3",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2772,8 +2776,8 @@
       "number": 25,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Pressure Ulcers — Wound Care Products",
+      "questionRef": "GRS — Pressure Ulcers — Wound Care Products",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2785,8 +2789,8 @@
       "number": 68,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Hematology",
+      "questionRef": "GRS — Hematology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2798,8 +2802,8 @@
       "number": 95,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 1964",
-      "questionRef": "Hazzard 7e · p. 1964",
+      "reference": "Hazzard 7e · p. 1964 · Table 126-4",
+      "questionRef": "Hazzard 7e · p. 1964 · Table 126-4",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2811,8 +2815,8 @@
       "number": 91,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "ייפוי כוח רפואי / ייפוי כוח מתמשך; altered bank stem: חוק זכויות החולה",
-      "questionRef": "ייפוי כוח רפואי / ייפוי כוח מתמשך; altered bank stem: חוק זכויות החולה",
+      "reference": "IMA: חוק (law; title not specified in the reference row)",
+      "questionRef": "IMA: חוק (law; title not specified in the reference row)",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -2824,8 +2828,8 @@
       "number": 1,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Heart Failure",
+      "questionRef": "GRS — Heart Failure",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2837,8 +2841,8 @@
       "number": 2,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 1966",
-      "questionRef": "Hazzard 7e · p. 1966",
+      "reference": "Hazzard 7e · p. 1966 · Table 126-8",
+      "questionRef": "Hazzard 7e · p. 1966 · Table 126-8",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2850,8 +2854,8 @@
       "number": 3,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Nephrology — Acute Kidney Injury",
+      "questionRef": "GRS — Nephrology — Acute Kidney Injury",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2863,8 +2867,8 @@
       "number": 4,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Perioperative Care",
+      "questionRef": "GRS — Perioperative Care",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2889,8 +2893,8 @@
       "number": 6,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Hematology — Thrombocytopenia",
+      "questionRef": "GRS — Hematology — Thrombocytopenia",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2902,8 +2906,8 @@
       "number": 7,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Oncology",
+      "questionRef": "GRS — Oncology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2928,8 +2932,8 @@
       "number": 9,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Endocrinology — Adrenal Insufficiency",
+      "questionRef": "GRS — Endocrinology — Adrenal Insufficiency",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2941,8 +2945,8 @@
       "number": 10,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Pulmonology — Idiopathic Pulmonary Fibrosis",
+      "questionRef": "GRS — Pulmonology — Idiopathic Pulmonary Fibrosis",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2954,8 +2958,8 @@
       "number": 11,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Preoperative Care",
+      "questionRef": "GRS — Preoperative Care",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -2980,8 +2984,8 @@
       "number": 13,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Dermatology — Xerosis",
+      "questionRef": "GRS — Dermatology — Xerosis",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3110,8 +3114,8 @@
       "number": 24,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Syncope + Gastroenterology",
+      "questionRef": "GRS — Syncope + Gastroenterology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3136,8 +3140,8 @@
       "number": 27,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Oncology",
+      "questionRef": "GRS — Oncology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3162,8 +3166,8 @@
       "number": 29,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Prognostication — Table 1",
+      "questionRef": "GRS — Prognostication — Table 1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3175,8 +3179,8 @@
       "number": 30,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 815-816",
-      "questionRef": "Hazzard 7e · p. 815-816",
+      "reference": "Hazzard 7e · p. 815-816 · Table 53-12",
+      "questionRef": "Hazzard 7e · p. 815-816 · Table 53-12",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3227,8 +3231,8 @@
       "number": 34,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 434",
-      "questionRef": "Hazzard 7e · p. 434",
+      "reference": "Hazzard 7e · p. 434 · Table 29-5",
+      "questionRef": "Hazzard 7e · p. 434 · Table 29-5",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3266,8 +3270,8 @@
       "number": 37,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Rheumatology + Heart Failure",
+      "questionRef": "GRS — Rheumatology + Heart Failure",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3292,8 +3296,8 @@
       "number": 39,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 1008",
-      "questionRef": "Hazzard 7e · p. 1008",
+      "reference": "Hazzard 7e · p. 1008 · Table 66-6",
+      "questionRef": "Hazzard 7e · p. 1008 · Table 66-6",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3344,8 +3348,8 @@
       "number": 43,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Psychology of Aging",
+      "questionRef": "GRS — Psychology of Aging",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3474,8 +3478,8 @@
       "number": 55,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Heart Failure",
+      "questionRef": "GRS — Heart Failure",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3487,8 +3491,8 @@
       "number": 56,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Hypertension — Table 1",
+      "questionRef": "GRS — Hypertension — Table 1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3526,8 +3530,8 @@
       "number": 59,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Nephrology — Chronic Kidney Disease",
+      "questionRef": "GRS — Nephrology — Chronic Kidney Disease",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3552,8 +3556,8 @@
       "number": 61,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Pressure Injuries and Wound Care",
+      "questionRef": "GRS — Pressure Injuries and Wound Care",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3565,8 +3569,8 @@
       "number": 62,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 1131,1136",
-      "questionRef": "Hazzard 7e · p. 1131,1136",
+      "reference": "Hazzard 7e · p. 1131,1136 · Table 75-1,75-2",
+      "questionRef": "Hazzard 7e · p. 1131,1136 · Table 75-1,75-2",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3617,8 +3621,8 @@
       "number": 66,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Heart Failure",
+      "questionRef": "GRS — Heart Failure",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3669,8 +3673,8 @@
       "number": 72,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Rheumatology",
+      "questionRef": "GRS — Rheumatology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3695,8 +3699,8 @@
       "number": 74,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Infectious Diseases",
+      "questionRef": "GRS — Infectious Diseases",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3708,8 +3712,8 @@
       "number": 75,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Oncology",
+      "questionRef": "GRS — Oncology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3760,8 +3764,8 @@
       "number": 79,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 492",
-      "questionRef": "Hazzard 7e · p. 492",
+      "reference": "Hazzard 7e · p. 492 · Table 34-1",
+      "questionRef": "Hazzard 7e · p. 492 · Table 34-1",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3773,8 +3777,8 @@
       "number": 80,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 500-505",
-      "questionRef": "Hazzard 7e · p. 500-505",
+      "reference": "Hazzard 7e · pp. 500-505; GRS — Heart Failure",
+      "questionRef": "Hazzard 7e · pp. 500-505; GRS — Heart Failure",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3786,8 +3790,8 @@
       "number": 81,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Gastroenterology — Gastroesophageal Reflux",
+      "questionRef": "GRS — Gastroenterology — Gastroesophageal Reflux",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3812,8 +3816,8 @@
       "number": 84,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 1034",
-      "questionRef": "Hazzard 7e · p. 1034",
+      "reference": "Hazzard 7e · p. 1034 · Table 68-3",
+      "questionRef": "Hazzard 7e · p. 1034 · Table 68-3",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3916,8 +3920,8 @@
       "number": 92,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Pressure Injuries and Wound Care",
+      "questionRef": "GRS — Pressure Injuries and Wound Care",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -3994,8 +3998,8 @@
       "number": 50,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Rheumatology",
+      "questionRef": "GRS — Rheumatology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -4007,8 +4011,8 @@
       "number": 67,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Cardiovascular Disease",
+      "questionRef": "GRS — Cardiovascular Disease",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -4046,8 +4050,8 @@
       "number": 100,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Other source",
-      "questionRef": "Other source",
+      "reference": "GRS — Dermatology",
+      "questionRef": "GRS — Dermatology",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -4059,13 +4063,13 @@
       "number": 1,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1116",
-      "questionRef": "Hazzard 8e · p. 1116",
+      "reference": "Hazzard 8e · p. 1116 · Table 73-1",
+      "questionRef": "Hazzard 8e · p. 1116 · Table 73-1",
       "status": "resolved",
       "reason": "",
       "pages": [
         {
-          "page": 1116,
+          "page": 1117,
           "chapter": "73",
           "available": true,
           "readerChapter": "73s"
@@ -4074,7 +4078,8 @@
       "tables": [],
       "chapters": [
         "73"
-      ]
+      ],
+      "referenceNote": "Paper cites p.1116; content is on p.1117."
     },
     "mcq-a77459f28aa5bea68b87e0b9": {
       "sitting": "2023-Jun",
@@ -4102,8 +4107,8 @@
       "number": 3,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 635",
-      "questionRef": "Hazzard 8e · p. 635",
+      "reference": "Hazzard 8e · p. 635 · Table 43-1",
+      "questionRef": "Hazzard 8e · p. 635 · Table 43-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4113,7 +4118,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "43-1"
+      ],
       "chapters": [
         "43"
       ]
@@ -4295,8 +4302,8 @@
       "number": 12,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1727-1728",
-      "questionRef": "Hazzard 8e · p. 1727-1728",
+      "reference": "Hazzard 8e · p. 1727-1728 · Table 107-1",
+      "questionRef": "Hazzard 8e · p. 1727-1728 · Table 107-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4311,7 +4318,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "107-1"
+      ],
       "chapters": [
         "107"
       ]
@@ -4321,8 +4330,8 @@
       "number": 13,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 828",
-      "questionRef": "Hazzard 8e · p. 828",
+      "reference": "Hazzard 8e · p. 828 · Table 55-5",
+      "questionRef": "Hazzard 8e · p. 828 · Table 55-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4332,7 +4341,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "55-5"
+      ],
       "chapters": [
         "55"
       ]
@@ -4478,7 +4489,7 @@
       "reason": "",
       "pages": [
         {
-          "page": 732,
+          "page": 735,
           "chapter": "49",
           "available": true,
           "readerChapter": "49s"
@@ -4487,7 +4498,8 @@
       "tables": [],
       "chapters": [
         "49"
-      ]
+      ],
+      "referenceNote": "Paper cites p.732; content is on p.735."
     },
     "mcq-76624b03e2c62f9093ab0142": {
       "sitting": "2023-Jun",
@@ -4533,8 +4545,8 @@
       "number": 23,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1059,1048",
-      "questionRef": "Hazzard 8e · p. 1059,1048",
+      "reference": "Hazzard 8e · p. 1059,1048 · Table 68-3",
+      "questionRef": "Hazzard 8e · p. 1059,1048 · Table 68-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4549,7 +4561,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "68-3"
+      ],
       "chapters": [
         "67",
         "68"
@@ -4586,8 +4600,8 @@
       "number": 26,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1256",
-      "questionRef": "Hazzard 8e · p. 1256",
+      "reference": "Hazzard 8e · p. 1256 · Table 81-1",
+      "questionRef": "Hazzard 8e · p. 1256 · Table 81-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4597,7 +4611,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "81-1"
+      ],
       "chapters": [
         "81"
       ]
@@ -4734,8 +4750,8 @@
       "number": 33,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 908",
-      "questionRef": "Hazzard 8e · p. 908",
+      "reference": "Hazzard 8e · p. 908 · Table 59-5",
+      "questionRef": "Hazzard 8e · p. 908 · Table 59-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4745,7 +4761,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "59-5"
+      ],
       "chapters": [
         "59"
       ]
@@ -4755,8 +4773,8 @@
       "number": 34,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1373-1374",
-      "questionRef": "Hazzard 8e · p. 1373-1374",
+      "reference": "Hazzard 8e · p. 1373-1374 · Table 87-9",
+      "questionRef": "Hazzard 8e · p. 1373-1374 · Table 87-9",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4771,7 +4789,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "87-9"
+      ],
       "chapters": [
         "87"
       ]
@@ -4827,8 +4847,8 @@
       "number": 36,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 703,705,707",
-      "questionRef": "Hazzard 8e · p. 703,705,707",
+      "reference": "Hazzard 8e · p. 703,705,707 · Table 47-5",
+      "questionRef": "Hazzard 8e · p. 703,705,707 · Table 47-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4848,7 +4868,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-5"
+      ],
       "chapters": [
         "47"
       ]
@@ -4879,8 +4901,8 @@
       "number": 38,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1061",
-      "questionRef": "Hazzard 8e · p. 1061",
+      "reference": "Hazzard 8e · p. 1061 · Table 68-6",
+      "questionRef": "Hazzard 8e · p. 1061 · Table 68-6",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -4890,7 +4912,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "68-6"
+      ],
       "chapters": [
         "68"
       ]
@@ -5028,8 +5052,8 @@
       "number": 46,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1513",
-      "questionRef": "Hazzard 8e · p. 1513",
+      "reference": "Hazzard 8e · p. 1513 · Table 96-2",
+      "questionRef": "Hazzard 8e · p. 1513 · Table 96-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5039,7 +5063,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "96-2"
+      ],
       "chapters": [
         "96"
       ]
@@ -5148,8 +5174,8 @@
       "number": 52,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1632",
-      "questionRef": "Hazzard 8e · p. 1632",
+      "reference": "Hazzard 8e · p. 1632 · Table 102-3",
+      "questionRef": "Hazzard 8e · p. 1632 · Table 102-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5159,7 +5185,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "102-3"
+      ],
       "chapters": [
         "102"
       ]
@@ -5205,8 +5233,8 @@
       "number": 55,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1702-1703",
-      "questionRef": "Hazzard 8e · p. 1702-1703",
+      "reference": "Hazzard 8e · p. 1702-1703 · Table 106-2",
+      "questionRef": "Hazzard 8e · p. 1702-1703 · Table 106-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5221,7 +5249,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "106-2"
+      ],
       "chapters": [
         "106"
       ]
@@ -5351,8 +5381,8 @@
       "number": 61,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1549",
-      "questionRef": "Hazzard 8e · p. 1549",
+      "reference": "Hazzard 8e · p. 1549 · Table 98-3",
+      "questionRef": "Hazzard 8e · p. 1549 · Table 98-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5362,7 +5392,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "98-3"
+      ],
       "chapters": [
         "98"
       ]
@@ -5445,8 +5477,8 @@
       "number": 65,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1013,1017-1018",
-      "questionRef": "Hazzard 8e · p. 1013,1017-1018",
+      "reference": "Hazzard 8e · p. 1013,1017-1018 · Figure 65-3",
+      "questionRef": "Hazzard 8e · p. 1013,1017-1018 · Figure 65-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5530,8 +5562,8 @@
       "number": 68,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1577-1578",
-      "questionRef": "Hazzard 8e · p. 1577-1578",
+      "reference": "Hazzard 8e · p. 1577-1578 · Table 99-11",
+      "questionRef": "Hazzard 8e · p. 1577-1578 · Table 99-11",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5546,7 +5578,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "99-11"
+      ],
       "chapters": [
         "99"
       ]
@@ -5590,8 +5624,8 @@
       "number": 71,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 882",
-      "questionRef": "Hazzard 8e · p. 882",
+      "reference": "Hazzard 8e · p. 882 · Table 58-1",
+      "questionRef": "Hazzard 8e · p. 882 · Table 58-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5601,7 +5635,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-1"
+      ],
       "chapters": [
         "58"
       ]
@@ -5611,8 +5647,8 @@
       "number": 72,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1248",
-      "questionRef": "Hazzard 8e · p. 1248",
+      "reference": "Hazzard 8e · p. 1248 · Table 81-2",
+      "questionRef": "Hazzard 8e · p. 1248 · Table 81-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5622,7 +5658,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "81-2"
+      ],
       "chapters": [
         "81"
       ]
@@ -5699,8 +5737,8 @@
       "number": 75,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1253",
-      "questionRef": "Hazzard 8e · p. 1253",
+      "reference": "Hazzard 8e · p. 1253 · Table 81-10",
+      "questionRef": "Hazzard 8e · p. 1253 · Table 81-10",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5710,7 +5748,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "81-10"
+      ],
       "chapters": [
         "81"
       ]
@@ -5733,8 +5773,8 @@
       "number": 77,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 883",
-      "questionRef": "Hazzard 8e · p. 883",
+      "reference": "Hazzard 8e · p. 883 · Table 58-2",
+      "questionRef": "Hazzard 8e · p. 883 · Table 58-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5744,7 +5784,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-2"
+      ],
       "chapters": [
         "58"
       ]
@@ -5788,8 +5830,8 @@
       "number": 80,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 939-940",
-      "questionRef": "Hazzard 8e · p. 939-940",
+      "reference": "Hazzard 8e · p. 939-940 · Table 61-3,61-4",
+      "questionRef": "Hazzard 8e · p. 939-940 · Table 61-3,61-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -5804,7 +5846,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "61-3"
+      ],
       "chapters": [
         "61"
       ]
@@ -6023,8 +6067,8 @@
       "number": 93,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 864-865",
-      "questionRef": "Hazzard 8e · p. 864-865",
+      "reference": "Hazzard 8e · p. 864-865 · Table 57-3",
+      "questionRef": "Hazzard 8e · p. 864-865 · Table 57-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6039,7 +6083,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "57-3"
+      ],
       "chapters": [
         "57"
       ]
@@ -6049,8 +6095,8 @@
       "number": 94,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1686",
-      "questionRef": "Hazzard 8e · p. 1686",
+      "reference": "Hazzard 8e · p. 1686 · Table 105-4",
+      "questionRef": "Hazzard 8e · p. 1686 · Table 105-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6060,7 +6106,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "105-4"
+      ],
       "chapters": [
         "105"
       ]
@@ -6070,8 +6118,8 @@
       "number": 95,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 211",
-      "questionRef": "Hazzard 8e · p. 211",
+      "reference": "Hazzard 8e · p. 211 · Figure 15-2",
+      "questionRef": "Hazzard 8e · p. 211 · Figure 15-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6123,18 +6171,13 @@
       "number": 97,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 1150-1152",
-      "questionRef": "Hazzard 8e · p. 1150-1152",
+      "reference": "Hazzard 8e · pp. 1150,1152 · Tables 75-1,75-2",
+      "questionRef": "Hazzard 8e · pp. 1150,1152 · Tables 75-1,75-2",
       "status": "resolved",
       "reason": "",
       "pages": [
         {
           "page": 1150,
-          "chapter": "75",
-          "available": true
-        },
-        {
-          "page": 1151,
           "chapter": "75",
           "available": true
         },
@@ -6154,8 +6197,8 @@
       "number": 98,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 305",
-      "questionRef": "Hazzard 8e · p. 305",
+      "reference": "Hazzard 8e · p. 305 · Table 22-2",
+      "questionRef": "Hazzard 8e · p. 305 · Table 22-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6165,7 +6208,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "22-2"
+      ],
       "chapters": [
         "22"
       ]
@@ -6196,8 +6241,8 @@
       "number": 100,
       "edition": 8,
       "source": "refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows)",
-      "reference": "Hazzard 8e · p. 620",
-      "questionRef": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
+      "questionRef": "Hazzard 8e · p. 620 · Table 42-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6207,7 +6252,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-2"
+      ],
       "chapters": [
         "42"
       ]
@@ -6243,8 +6290,8 @@
       "number": 2,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1682-1683",
-      "questionRef": "Hazzard 8e · p. 1682-1683",
+      "reference": "Hazzard 8e · p. 1682-1683 · Table 105-2,105-3",
+      "questionRef": "Hazzard 8e · p. 1682-1683 · Table 105-2,105-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6259,7 +6306,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "105-2"
+      ],
       "chapters": [
         "105"
       ]
@@ -6269,8 +6318,8 @@
       "number": 3,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1138-1139",
-      "questionRef": "Hazzard 8e · p. 1138-1139",
+      "reference": "Hazzard 8e · p. 1138-1139 · Figure 74-5",
+      "questionRef": "Hazzard 8e · p. 1138-1139 · Figure 74-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6295,8 +6344,8 @@
       "number": 4,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Harrison · ch. 422 · pp. 3280",
-      "questionRef": "Harrison · ch. 422 · pp. 3280",
+      "reference": "Harrison · ch. 422 · p. 3280; Figure 1 margin citation: Hazzard 8e · ch. 9 · p. 143",
+      "questionRef": "Harrison · ch. 422 · p. 3280; Figure 1 margin citation: Hazzard 8e · ch. 9 · p. 143",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -6308,8 +6357,8 @@
       "number": 6,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1571-1572",
-      "questionRef": "Hazzard 8e · p. 1571-1572",
+      "reference": "Hazzard 8e · p. 1571-1572 · Table 99-8",
+      "questionRef": "Hazzard 8e · p. 1571-1572 · Table 99-8",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6324,7 +6373,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "99-8"
+      ],
       "chapters": [
         "99"
       ]
@@ -6334,8 +6385,8 @@
       "number": 7,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1675-1676",
-      "questionRef": "Hazzard 8e · p. 1675-1676",
+      "reference": "Hazzard 8e · p. 1675-1676 · Table 104-2",
+      "questionRef": "Hazzard 8e · p. 1675-1676 · Table 104-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6350,7 +6401,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "104-2"
+      ],
       "chapters": [
         "104"
       ]
@@ -6444,8 +6497,8 @@
       "number": 12,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1485",
-      "questionRef": "Hazzard 8e · p. 1485",
+      "reference": "Hazzard 8e · p. 1485 · Table 95-1",
+      "questionRef": "Hazzard 8e · p. 1485 · Table 95-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6455,7 +6508,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "95-1"
+      ],
       "chapters": [
         "95"
       ]
@@ -6518,8 +6573,8 @@
       "number": 15,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
-      "questionRef": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+      "reference": "IMA: source unspecified (X)",
+      "questionRef": "IMA: source unspecified (X)",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -6552,8 +6607,8 @@
       "number": 17,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 800",
-      "questionRef": "Hazzard 8e · p. 800",
+      "reference": "Hazzard 8e · p. 800 · Figure 53-5",
+      "questionRef": "Hazzard 8e · p. 800 · Figure 53-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6573,8 +6628,8 @@
       "number": 18,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Harrison · ch. 425 · pp. 3310",
-      "questionRef": "Harrison · ch. 425 · pp. 3310",
+      "reference": "Harrison · ch. 425 · pp. 3310 · Harrison 425-4",
+      "questionRef": "Harrison · ch. 425 · pp. 3310 · Harrison 425-4",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -6607,8 +6662,8 @@
       "number": 20,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1203",
-      "questionRef": "Hazzard 8e · p. 1203",
+      "reference": "Hazzard 8e · p. 1203 · Table 77-8",
+      "questionRef": "Hazzard 8e · p. 1203 · Table 77-8",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6618,7 +6673,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "77-8"
+      ],
       "chapters": [
         "77"
       ]
@@ -6628,8 +6685,8 @@
       "number": 21,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 693-694",
-      "questionRef": "Hazzard 8e · p. 693-694",
+      "reference": "Hazzard 8e · p. 693-694 · Table 46-2",
+      "questionRef": "Hazzard 8e · p. 693-694 · Table 46-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6644,7 +6701,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "46-2"
+      ],
       "chapters": [
         "46"
       ]
@@ -6654,8 +6713,8 @@
       "number": 22,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1281",
-      "questionRef": "Hazzard 8e · p. 1281",
+      "reference": "Hazzard 8e · p. 1281 · Table 83-1",
+      "questionRef": "Hazzard 8e · p. 1281 · Table 83-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6665,7 +6724,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "83-1"
+      ],
       "chapters": [
         "83"
       ]
@@ -6688,8 +6749,8 @@
       "number": 24,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1553",
-      "questionRef": "Hazzard 8e · p. 1553",
+      "reference": "Hazzard 8e · p. 1553 · Table 98-7",
+      "questionRef": "Hazzard 8e · p. 1553 · Table 98-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6699,7 +6760,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "98-7"
+      ],
       "chapters": [
         "98"
       ]
@@ -6777,8 +6840,8 @@
       "number": 29,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 828",
-      "questionRef": "Hazzard 8e · p. 828",
+      "reference": "Hazzard 8e · p. 828 · Table 55-5",
+      "questionRef": "Hazzard 8e · p. 828 · Table 55-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6788,7 +6851,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "55-5"
+      ],
       "chapters": [
         "55"
       ]
@@ -6819,8 +6884,8 @@
       "number": 31,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 873,933",
-      "questionRef": "Hazzard 8e · p. 873,933",
+      "reference": "Hazzard 8e · p. 873,933 · Table 63-5",
+      "questionRef": "Hazzard 8e · p. 873,933 · Table 63-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -6830,16 +6895,19 @@
           "available": true
         },
         {
-          "page": 933,
-          "chapter": "60",
+          "page": 993,
+          "chapter": "63",
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "63-5"
+      ],
       "chapters": [
         "57",
-        "60"
-      ]
+        "63"
+      ],
+      "referenceNote": "Paper cites chapters 57,63 and pp.873,933. Table 63-5 is on p.993 (chapter 63); p.933 is a bibliography page. Open page uses pp.873 and 993."
     },
     "mcq-8d483913bdc5a9afe5b428bb": {
       "sitting": "2024-May",
@@ -6867,8 +6935,8 @@
       "number": 33,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Mitchell SL. Advanced Dementia.",
-      "questionRef": "Mitchell SL. Advanced Dementia.",
+      "reference": "IMA: source unspecified (X)",
+      "questionRef": "IMA: source unspecified (X)",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -7042,8 +7110,8 @@
       "number": 41,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1116-1120",
-      "questionRef": "Hazzard 8e · p. 1116-1120",
+      "reference": "Hazzard 8e · p. 1116-1120 · Table 73-1",
+      "questionRef": "Hazzard 8e · p. 1116-1120 · Table 73-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7078,7 +7146,9 @@
           "readerChapter": "73s"
         }
       ],
-      "tables": [],
+      "tables": [
+        "73-1"
+      ],
       "chapters": [
         "73"
       ]
@@ -7216,8 +7286,8 @@
       "number": 48,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1538",
-      "questionRef": "Hazzard 8e · p. 1538",
+      "reference": "Hazzard 8e · p. 1538 · Table 97-9",
+      "questionRef": "Hazzard 8e · p. 1538 · Table 97-9",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7227,7 +7297,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "97-9"
+      ],
       "chapters": [
         "97"
       ]
@@ -7237,8 +7309,8 @@
       "number": 50,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 940-941",
-      "questionRef": "Hazzard 8e · p. 940-941",
+      "reference": "Hazzard 8e · p. 940-941 · Table 61-4",
+      "questionRef": "Hazzard 8e · p. 940-941 · Table 61-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7253,7 +7325,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "61-4"
+      ],
       "chapters": [
         "61"
       ]
@@ -7305,8 +7379,8 @@
       "number": 53,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1373",
-      "questionRef": "Hazzard 8e · p. 1373",
+      "reference": "Hazzard 8e · p. 1373 · Table 87-4",
+      "questionRef": "Hazzard 8e · p. 1373 · Table 87-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7316,7 +7390,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "87-4"
+      ],
       "chapters": [
         "87"
       ]
@@ -7381,8 +7457,8 @@
       "number": 56,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1175",
-      "questionRef": "Hazzard 8e · p. 1175",
+      "reference": "Hazzard 8e · p. 1175 · Table 76-7",
+      "questionRef": "Hazzard 8e · p. 1175 · Table 76-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7392,7 +7468,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "76-7"
+      ],
       "chapters": [
         "76"
       ]
@@ -7428,8 +7506,8 @@
       "number": 58,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1610",
-      "questionRef": "Hazzard 8e · p. 1610",
+      "reference": "Hazzard 8e · p. 1610 · Table 101-2",
+      "questionRef": "Hazzard 8e · p. 1610 · Table 101-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7439,7 +7517,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "101-2"
+      ],
       "chapters": [
         "101"
       ]
@@ -7575,8 +7655,8 @@
       "number": 65,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
-      "questionRef": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+      "reference": "IMA: source unspecified (X)",
+      "questionRef": "IMA: source unspecified (X)",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -7588,8 +7668,8 @@
       "number": 66,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 924",
-      "questionRef": "Hazzard 8e · p. 924",
+      "reference": "Hazzard 8e · p. 924 · Table 60-4",
+      "questionRef": "Hazzard 8e · p. 924 · Table 60-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7599,7 +7679,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "60-4"
+      ],
       "chapters": [
         "60"
       ]
@@ -7738,8 +7820,8 @@
       "number": 73,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1316",
-      "questionRef": "Hazzard 8e · p. 1316",
+      "reference": "Hazzard 8e · p. 1316 · Table 85-2",
+      "questionRef": "Hazzard 8e · p. 1316 · Table 85-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7749,7 +7831,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "85-2"
+      ],
       "chapters": [
         "85"
       ]
@@ -7780,8 +7864,8 @@
       "number": 75,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 884,211",
-      "questionRef": "Hazzard 8e · p. 884,211",
+      "reference": "Hazzard 8e · p. 884,211 · Table 58-3,Figure 15-2",
+      "questionRef": "Hazzard 8e · p. 884,211 · Table 58-3,Figure 15-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7797,7 +7881,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-3"
+      ],
       "chapters": [
         "15",
         "58"
@@ -7808,8 +7894,8 @@
       "number": 76,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
-      "questionRef": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+      "reference": "IMA: source unspecified (X)",
+      "questionRef": "IMA: source unspecified (X)",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -7847,8 +7933,8 @@
       "number": 78,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 922",
-      "questionRef": "Hazzard 8e · p. 922",
+      "reference": "Hazzard 8e · p. 922 · Table 60-3",
+      "questionRef": "Hazzard 8e · p. 922 · Table 60-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7858,7 +7944,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "60-3"
+      ],
       "chapters": [
         "60"
       ]
@@ -7868,8 +7956,8 @@
       "number": 80,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 928",
-      "questionRef": "Hazzard 8e · p. 928",
+      "reference": "Hazzard 8e · p. 928 · Table 60-8",
+      "questionRef": "Hazzard 8e · p. 928 · Table 60-8",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -7879,7 +7967,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "60-8"
+      ],
       "chapters": [
         "60"
       ]
@@ -7993,8 +8083,8 @@
       "number": 87,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 912-913",
-      "questionRef": "Hazzard 8e · p. 912-913",
+      "reference": "Hazzard 8e · p. 912-913 · Table 59-7",
+      "questionRef": "Hazzard 8e · p. 912-913 · Table 59-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8009,7 +8099,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "59-7"
+      ],
       "chapters": [
         "59"
       ]
@@ -8108,8 +8200,8 @@
       "number": 92,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 702-703",
-      "questionRef": "Hazzard 8e · p. 702-703",
+      "reference": "Hazzard 8e · p. 702-703 · Table 47-3,47-4",
+      "questionRef": "Hazzard 8e · p. 702-703 · Table 47-3,47-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8124,7 +8216,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-3"
+      ],
       "chapters": [
         "47"
       ]
@@ -8134,8 +8228,8 @@
       "number": 93,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 635",
-      "questionRef": "Hazzard 8e · p. 635",
+      "reference": "Hazzard 8e · p. 635 · Table 43-1",
+      "questionRef": "Hazzard 8e · p. 635 · Table 43-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8145,7 +8239,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "43-1"
+      ],
       "chapters": [
         "43"
       ]
@@ -8155,8 +8251,8 @@
       "number": 94,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 652-653",
-      "questionRef": "Hazzard 8e · p. 652-653",
+      "reference": "Hazzard 8e · p. 652-653 · Table 44-2",
+      "questionRef": "Hazzard 8e · p. 652-653 · Table 44-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8171,7 +8267,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "44-2"
+      ],
       "chapters": [
         "44"
       ]
@@ -8267,8 +8365,8 @@
       "number": 99,
       "edition": 8,
       "source": "refs_2024May_subspec.pdf",
-      "reference": "Hazzard 8e · p. 854",
-      "questionRef": "Hazzard 8e · p. 854",
+      "reference": "Hazzard 8e · p. 854 · Table 57-1",
+      "questionRef": "Hazzard 8e · p. 854 · Table 57-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8278,7 +8376,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "57-1"
+      ],
       "chapters": [
         "57"
       ]
@@ -8377,8 +8477,8 @@
       "number": 3,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 620",
-      "questionRef": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
+      "questionRef": "Hazzard 8e · p. 620 · Table 42-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8388,7 +8488,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-2"
+      ],
       "chapters": [
         "42"
       ]
@@ -8424,8 +8526,8 @@
       "number": 5,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 929",
-      "questionRef": "Hazzard 8e · p. 929",
+      "reference": "Hazzard 8e · p. 929 · Table 60-9",
+      "questionRef": "Hazzard 8e · p. 929 · Table 60-9",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8435,7 +8537,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "60-9"
+      ],
       "chapters": [
         "60"
       ]
@@ -8466,8 +8570,8 @@
       "number": 7,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1201",
-      "questionRef": "Hazzard 8e · p. 1201",
+      "reference": "Hazzard 8e · p. 1201 · Table 77-6",
+      "questionRef": "Hazzard 8e · p. 1201 · Table 77-6",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8477,7 +8581,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "77-6"
+      ],
       "chapters": [
         "77"
       ]
@@ -8590,8 +8696,8 @@
       "number": 12,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 709",
-      "questionRef": "Hazzard 8e · p. 709",
+      "reference": "Hazzard 8e · p. 709 · Table 47-9",
+      "questionRef": "Hazzard 8e · p. 709 · Table 47-9",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8601,7 +8707,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-9"
+      ],
       "chapters": [
         "47"
       ]
@@ -8611,8 +8719,8 @@
       "number": 13,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1063-1064",
-      "questionRef": "Hazzard 8e · p. 1063-1064",
+      "reference": "Hazzard 8e · p. 1063-1064 · Table 68-3",
+      "questionRef": "Hazzard 8e · p. 1063-1064 · Table 68-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8627,7 +8735,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "68-3"
+      ],
       "chapters": [
         "68"
       ]
@@ -8659,8 +8769,8 @@
       "number": 15,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 908",
-      "questionRef": "Hazzard 8e · p. 908",
+      "reference": "Hazzard 8e · p. 908 · Table 59-5",
+      "questionRef": "Hazzard 8e · p. 908 · Table 59-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8670,7 +8780,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "59-5"
+      ],
       "chapters": [
         "59"
       ]
@@ -8680,8 +8792,8 @@
       "number": 16,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1359",
-      "questionRef": "Hazzard 8e · p. 1359",
+      "reference": "Hazzard 8e · p. 1359 · Table 87-5",
+      "questionRef": "Hazzard 8e · p. 1359 · Table 87-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8691,7 +8803,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "87-5"
+      ],
       "chapters": [
         "87"
       ]
@@ -8727,13 +8841,13 @@
       "number": 18,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 210",
-      "questionRef": "Hazzard 8e · p. 210",
+      "reference": "Hazzard 8e · p. 210 · Figure 15-2",
+      "questionRef": "Hazzard 8e · p. 210 · Figure 15-2",
       "status": "resolved",
       "reason": "",
       "pages": [
         {
-          "page": 210,
+          "page": 211,
           "chapter": "15",
           "available": true,
           "readerChapter": "15s"
@@ -8742,15 +8856,16 @@
       "tables": [],
       "chapters": [
         "15"
-      ]
+      ],
+      "referenceNote": "Paper cites p.210; AMT4 is on p.211, the continuation of Figure 15-2."
     },
     "mcq-a95e9c5ca09aca36f108c948": {
       "sitting": "2024-Sep",
       "number": 19,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 637",
-      "questionRef": "Hazzard 8e · p. 637",
+      "reference": "Hazzard 8e · p. 637 · Table 43-2",
+      "questionRef": "Hazzard 8e · p. 637 · Table 43-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8760,7 +8875,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "43-2"
+      ],
       "chapters": [
         "43"
       ]
@@ -8784,15 +8901,16 @@
       "tables": [],
       "chapters": [
         "75"
-      ]
+      ],
+      "referenceNote": "Paper cites chapter 74 with p.1151; the verified source page belongs to chapter 75."
     },
     "mcq-2f9b0a4a271f750ea9bfb769": {
       "sitting": "2024-Sep",
       "number": 21,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 621",
-      "questionRef": "Hazzard 8e · p. 621",
+      "reference": "Hazzard 8e · p. 621 · Table 42-3",
+      "questionRef": "Hazzard 8e · p. 621 · Table 42-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8802,7 +8920,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-3"
+      ],
       "chapters": [
         "42"
       ]
@@ -8812,8 +8932,8 @@
       "number": 22,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 712-713",
-      "questionRef": "Hazzard 8e · p. 712-713",
+      "reference": "Hazzard 8e · p. 712-713 · Table 47-12",
+      "questionRef": "Hazzard 8e · p. 712-713 · Table 47-12",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8828,7 +8948,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-12"
+      ],
       "chapters": [
         "47"
       ]
@@ -8880,8 +9002,8 @@
       "number": 25,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 884",
-      "questionRef": "Hazzard 8e · p. 884",
+      "reference": "Hazzard 8e · p. 884 · Table 58-3",
+      "questionRef": "Hazzard 8e · p. 884 · Table 58-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8891,7 +9013,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-3"
+      ],
       "chapters": [
         "58"
       ]
@@ -8927,8 +9051,8 @@
       "number": 27,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1202",
-      "questionRef": "Hazzard 8e · p. 1202",
+      "reference": "Hazzard 8e · p. 1202 · Table 77-7",
+      "questionRef": "Hazzard 8e · p. 1202 · Table 77-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8938,7 +9062,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "77-7"
+      ],
       "chapters": [
         "77"
       ]
@@ -8948,8 +9074,8 @@
       "number": 28,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 735,743-744",
-      "questionRef": "Hazzard 8e · p. 735,743-744",
+      "reference": "Hazzard 8e · p. 735,743-744 · Table 50-2",
+      "questionRef": "Hazzard 8e · p. 735,743-744 · Table 50-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -8970,7 +9096,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "50-2"
+      ],
       "chapters": [
         "49",
         "50"
@@ -9036,8 +9164,8 @@
       "number": 32,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1634",
-      "questionRef": "Hazzard 8e · p. 1634",
+      "reference": "Hazzard 8e · p. 1634 · Table 102-5",
+      "questionRef": "Hazzard 8e · p. 1634 · Table 102-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9047,7 +9175,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "102-5"
+      ],
       "chapters": [
         "102"
       ]
@@ -9057,8 +9187,8 @@
       "number": 33,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1256",
-      "questionRef": "Hazzard 8e · p. 1256",
+      "reference": "Hazzard 8e · p. 1256 · Table 81-11",
+      "questionRef": "Hazzard 8e · p. 1256 · Table 81-11",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9068,7 +9198,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "81-11"
+      ],
       "chapters": [
         "81"
       ]
@@ -9177,8 +9309,8 @@
       "number": 40,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 886",
-      "questionRef": "Hazzard 8e · p. 886",
+      "reference": "Hazzard 8e · p. 886 · Table 58-4",
+      "questionRef": "Hazzard 8e · p. 886 · Table 58-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9188,7 +9320,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-4"
+      ],
       "chapters": [
         "58"
       ]
@@ -9374,8 +9508,8 @@
       "number": 49,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1171-1172",
-      "questionRef": "Hazzard 8e · p. 1171-1172",
+      "reference": "Hazzard 8e · p. 1171-1172 · Table 76-3",
+      "questionRef": "Hazzard 8e · p. 1171-1172 · Table 76-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9390,7 +9524,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "76-3"
+      ],
       "chapters": [
         "76"
       ]
@@ -9442,8 +9578,8 @@
       "number": 52,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1356",
-      "questionRef": "Hazzard 8e · p. 1356",
+      "reference": "Hazzard 8e · p. 1356 · Table 87-4",
+      "questionRef": "Hazzard 8e · p. 1356 · Table 87-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9453,7 +9589,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "87-4"
+      ],
       "chapters": [
         "87"
       ]
@@ -9463,8 +9601,8 @@
       "number": 53,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 693-694",
-      "questionRef": "Hazzard 8e · p. 693-694",
+      "reference": "Hazzard 8e · p. 693-694 · Table 46-2",
+      "questionRef": "Hazzard 8e · p. 693-694 · Table 46-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9479,7 +9617,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "46-2"
+      ],
       "chapters": [
         "46"
       ]
@@ -9489,8 +9629,8 @@
       "number": 54,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1608",
-      "questionRef": "Hazzard 8e · p. 1608",
+      "reference": "Hazzard 8e · p. 1608 · Table 101-1",
+      "questionRef": "Hazzard 8e · p. 1608 · Table 101-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9500,7 +9640,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "101-1"
+      ],
       "chapters": [
         "101"
       ]
@@ -9510,8 +9652,8 @@
       "number": 55,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1249",
-      "questionRef": "Hazzard 8e · p. 1249",
+      "reference": "Hazzard 8e · p. 1249 · Table 81-10",
+      "questionRef": "Hazzard 8e · p. 1249 · Table 81-10",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9521,7 +9663,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "81-10"
+      ],
       "chapters": [
         "81"
       ]
@@ -9620,8 +9764,8 @@
       "number": 61,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 912-914",
-      "questionRef": "Hazzard 8e · p. 912-914",
+      "reference": "Hazzard 8e · p. 912-914 · Table 59-7",
+      "questionRef": "Hazzard 8e · p. 912-914 · Table 59-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9641,10 +9785,13 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "59-7"
+      ],
       "chapters": [
         "59"
-      ]
+      ],
+      "referenceNote": "Paper cites chapter 61 with pp.912-914 and Table 59-7; the verified table belongs to chapter 59."
     },
     "mcq-6b8ad9219ef01f065f26f949": {
       "sitting": "2024-Sep",
@@ -9758,8 +9905,8 @@
       "number": 68,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1260",
-      "questionRef": "Hazzard 8e · p. 1260",
+      "reference": "Hazzard 8e · p. 1260 · Table 81-13",
+      "questionRef": "Hazzard 8e · p. 1260 · Table 81-13",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9769,7 +9916,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "81-13"
+      ],
       "chapters": [
         "81"
       ]
@@ -9908,8 +10057,8 @@
       "number": 75,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 927",
-      "questionRef": "Hazzard 8e · p. 927",
+      "reference": "Hazzard 8e · p. 927 · Table 60-7",
+      "questionRef": "Hazzard 8e · p. 927 · Table 60-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -9919,7 +10068,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "60-7"
+      ],
       "chapters": [
         "60"
       ]
@@ -10081,8 +10232,8 @@
       "number": 84,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1686-1687",
-      "questionRef": "Hazzard 8e · p. 1686-1687",
+      "reference": "Hazzard 8e · p. 1686-1687 · Table 105-4",
+      "questionRef": "Hazzard 8e · p. 1686-1687 · Table 105-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10097,7 +10248,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "105-4"
+      ],
       "chapters": [
         "105"
       ]
@@ -10183,8 +10336,8 @@
       "number": 89,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 884",
-      "questionRef": "Hazzard 8e · p. 884",
+      "reference": "Hazzard 8e · p. 884 · Table 58-3",
+      "questionRef": "Hazzard 8e · p. 884 · Table 58-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10194,7 +10347,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-3"
+      ],
       "chapters": [
         "58"
       ]
@@ -10331,8 +10486,8 @@
       "number": 96,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Harrison · ch. 370 · p. 2847; Table 370-2 (Q97)",
-      "questionRef": "Harrison · ch. 370 · p. 2847; Table 370-2 (Q97)",
+      "reference": "Harrison · ch. 370 · no page supplied",
+      "questionRef": "Harrison · ch. 370 · no page supplied",
       "status": "unresolved",
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
@@ -10357,8 +10512,8 @@
       "number": 98,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1636",
-      "questionRef": "Hazzard 8e · p. 1636",
+      "reference": "Hazzard 8e · p. 1636 · Table 102-7",
+      "questionRef": "Hazzard 8e · p. 1636 · Table 102-7",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10368,7 +10523,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "102-7"
+      ],
       "chapters": [
         "102"
       ]
@@ -10378,8 +10535,8 @@
       "number": 99,
       "edition": 8,
       "source": "refs_2024Sep_subspec.pdf",
-      "reference": "Hazzard 8e · p. 1539",
-      "questionRef": "Hazzard 8e · p. 1539",
+      "reference": "Hazzard 8e · p. 1539 · Table 97-10",
+      "questionRef": "Hazzard 8e · p. 1539 · Table 97-10",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10389,7 +10546,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "97-10"
+      ],
       "chapters": [
         "97"
       ]
@@ -10446,8 +10605,8 @@
       "number": 15,
       "edition": 7,
       "source": "refs_2022_subspec.pdf",
-      "reference": "Hazzard 7e · p. 1887",
-      "questionRef": "Hazzard 7e · p. 1887",
+      "reference": "Hazzard 7e · p. 1887 · Table 122-7",
+      "questionRef": "Hazzard 7e · p. 1887 · Table 122-7",
       "status": "unresolved",
       "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
       "pages": [],
@@ -10527,8 +10686,8 @@
       "number": 4,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 854",
-      "questionRef": "Hazzard 8e · p. 854",
+      "reference": "Hazzard 8e · p. 854 · Table 57-1",
+      "questionRef": "Hazzard 8e · p. 854 · Table 57-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10538,7 +10697,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "57-1"
+      ],
       "chapters": [
         "57"
       ]
@@ -10666,17 +10827,11 @@
       "number": 11,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1632,1120",
-      "questionRef": "Hazzard 8e · p. 1632,1120",
+      "reference": "Hazzard 8e · p. 1632,1120 · Table 102-3",
+      "questionRef": "Hazzard 8e · p. 1632,1120 · Table 102-3",
       "status": "resolved",
       "reason": "",
       "pages": [
-        {
-          "page": 1120,
-          "chapter": "73",
-          "available": true,
-          "readerChapter": "73s"
-        },
         {
           "page": 1632,
           "chapter": "102",
@@ -10685,17 +10840,17 @@
       ],
       "tables": [],
       "chapters": [
-        "73",
         "102"
-      ]
+      ],
+      "referenceNote": "Paper cites pp.1632 and 1120. Claudication content is on p.1632; p.1120 does not support it."
     },
     "mcq-3906ed2ba944bc31f884ba0c": {
       "sitting": "2026-Jun",
       "number": 12,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1514",
-      "questionRef": "Hazzard 8e · p. 1514",
+      "reference": "Hazzard 8e · p. 1514 · Figure 96-3",
+      "questionRef": "Hazzard 8e · p. 1514 · Figure 96-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10736,8 +10891,8 @@
       "number": 14,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 886",
-      "questionRef": "Hazzard 8e · p. 886",
+      "reference": "Hazzard 8e · p. 886 · Table 858-4 (as printed)",
+      "questionRef": "Hazzard 8e · p. 886 · Table 858-4 (as printed)",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10747,7 +10902,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "858-4"
+      ],
       "chapters": [
         "58"
       ]
@@ -10791,8 +10948,8 @@
       "number": 17,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 703",
-      "questionRef": "Hazzard 8e · p. 703",
+      "reference": "Hazzard 8e · p. 703 · Table 47-4",
+      "questionRef": "Hazzard 8e · p. 703 · Table 47-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -10802,7 +10959,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-4"
+      ],
       "chapters": [
         "47"
       ]
@@ -11019,8 +11178,8 @@
       "number": 29,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 774-776",
-      "questionRef": "Hazzard 8e · p. 774-776",
+      "reference": "Hazzard 8e · p. 774-776 · Table 51-5",
+      "questionRef": "Hazzard 8e · p. 774-776 · Table 51-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11040,7 +11199,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "51-5"
+      ],
       "chapters": [
         "51"
       ]
@@ -11063,8 +11224,8 @@
       "number": 31,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 939-940",
-      "questionRef": "Hazzard 8e · p. 939-940",
+      "reference": "Hazzard 8e · p. 939-940 · Table 61-3",
+      "questionRef": "Hazzard 8e · p. 939-940 · Table 61-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11079,7 +11240,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "61-3"
+      ],
       "chapters": [
         "61"
       ]
@@ -11154,8 +11317,8 @@
       "number": 35,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 820",
-      "questionRef": "Hazzard 8e · p. 820",
+      "reference": "Hazzard 8e · p. 820 · Table 55-1",
+      "questionRef": "Hazzard 8e · p. 820 · Table 55-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11165,7 +11328,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "55-1"
+      ],
       "chapters": [
         "55"
       ]
@@ -11175,8 +11340,8 @@
       "number": 36,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 896",
-      "questionRef": "Hazzard 8e · p. 896",
+      "reference": "Hazzard 8e · p. 896 · Table 59-2",
+      "questionRef": "Hazzard 8e · p. 896 · Table 59-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11186,7 +11351,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "59-2"
+      ],
       "chapters": [
         "59"
       ]
@@ -11196,8 +11363,8 @@
       "number": 37,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1571",
-      "questionRef": "Hazzard 8e · p. 1571",
+      "reference": "Hazzard 8e · p. 1571 · Table 99-6",
+      "questionRef": "Hazzard 8e · p. 1571 · Table 99-6",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11207,7 +11374,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "99-6"
+      ],
       "chapters": [
         "99"
       ]
@@ -11217,8 +11386,8 @@
       "number": 38,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 124,621",
-      "questionRef": "Hazzard 8e · p. 124,621",
+      "reference": "Hazzard 8e · p. 124,621 · Figure 8-2,42-3",
+      "questionRef": "Hazzard 8e · p. 124,621 · Figure 8-2,42-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11288,8 +11457,8 @@
       "number": 41,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 138",
-      "questionRef": "Hazzard 8e · p. 138",
+      "reference": "Hazzard 8e · p. 138 · Table 9-4",
+      "questionRef": "Hazzard 8e · p. 138 · Table 9-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11299,7 +11468,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "9-4"
+      ],
       "chapters": [
         "9"
       ]
@@ -11348,8 +11519,8 @@
       "number": 44,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 703-704",
-      "questionRef": "Hazzard 8e · p. 703-704",
+      "reference": "Hazzard 8e · p. 703-704 · Table 47-4,47-5",
+      "questionRef": "Hazzard 8e · p. 703-704 · Table 47-4,47-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11364,7 +11535,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-4"
+      ],
       "chapters": [
         "47"
       ]
@@ -11374,8 +11547,8 @@
       "number": 45,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 617-618",
-      "questionRef": "Hazzard 8e · p. 617-618",
+      "reference": "Hazzard 8e · p. 617-618 · Table 42-2",
+      "questionRef": "Hazzard 8e · p. 617-618 · Table 42-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11390,7 +11563,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-2"
+      ],
       "chapters": [
         "42"
       ]
@@ -11483,8 +11658,8 @@
       "number": 50,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 643-644",
-      "questionRef": "Hazzard 8e · p. 643-644",
+      "reference": "Hazzard 8e · p. 643-644 · Figure 44-1",
+      "questionRef": "Hazzard 8e · p. 643-644 · Figure 44-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11667,8 +11842,8 @@
       "number": 59,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1577",
-      "questionRef": "Hazzard 8e · p. 1577",
+      "reference": "Hazzard 8e · p. 1577 · Table 99-11",
+      "questionRef": "Hazzard 8e · p. 1577 · Table 99-11",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11678,7 +11853,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "99-11"
+      ],
       "chapters": [
         "99"
       ]
@@ -11688,8 +11865,8 @@
       "number": 60,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 941",
-      "questionRef": "Hazzard 8e · p. 941",
+      "reference": "Hazzard 8e · p. 941 · Table 61-4",
+      "questionRef": "Hazzard 8e · p. 941 · Table 61-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11699,7 +11876,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "61-4"
+      ],
       "chapters": [
         "61"
       ]
@@ -11881,8 +12060,8 @@
       "number": 69,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 827-828",
-      "questionRef": "Hazzard 8e · p. 827-828",
+      "reference": "Hazzard 8e · p. 827-828 · Table 55-5",
+      "questionRef": "Hazzard 8e · p. 827-828 · Table 55-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11897,7 +12076,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "55-5"
+      ],
       "chapters": [
         "55"
       ]
@@ -11928,8 +12109,8 @@
       "number": 71,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1153",
-      "questionRef": "Hazzard 8e · p. 1153",
+      "reference": "Hazzard 8e · p. 1153 · Table 75-3",
+      "questionRef": "Hazzard 8e · p. 1153 · Table 75-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -11939,7 +12120,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "75-3"
+      ],
       "chapters": [
         "75"
       ]
@@ -12267,8 +12450,8 @@
       "number": 87,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1014-1015",
-      "questionRef": "Hazzard 8e · p. 1014-1015",
+      "reference": "Hazzard 8e · ch. 65 · pp. 114-115 (as printed)",
+      "questionRef": "Hazzard 8e · ch. 65 · pp. 114-115 (as printed)",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12286,15 +12469,16 @@
       "tables": [],
       "chapters": [
         "65"
-      ]
+      ],
+      "referenceNote": "Paper cites pp.114–115, chapter 65; the verified depression treatment content is on pp.1014–1015."
     },
     "mcq-37ef49b08af5012046c10790": {
       "sitting": "2026-Jun",
       "number": 88,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1281",
-      "questionRef": "Hazzard 8e · p. 1281",
+      "reference": "Hazzard 8e · p. 1281 · Table 83-1",
+      "questionRef": "Hazzard 8e · p. 1281 · Table 83-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12304,7 +12488,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "83-1"
+      ],
       "chapters": [
         "83"
       ]
@@ -12348,8 +12534,8 @@
       "number": 91,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2026.pdf",
-      "reference": "Hazzard 8e · p. 1059",
-      "questionRef": "Hazzard 8e · p. 1059",
+      "reference": "Hazzard 8e · p. 1059 · Table 68-3",
+      "questionRef": "Hazzard 8e · p. 1059 · Table 68-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12359,7 +12545,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "68-3"
+      ],
       "chapters": [
         "68"
       ]
@@ -12555,8 +12743,8 @@
       "number": 1,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 785-787",
-      "questionRef": "Hazzard 8e · p. 785-787",
+      "reference": "Hazzard 8e · p. 785-787 · Figures 52-4,52-5",
+      "questionRef": "Hazzard 8e · p. 785-787 · Figures 52-4,52-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12586,8 +12774,8 @@
       "number": 2,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1121",
-      "questionRef": "Hazzard 8e · p. 1121",
+      "reference": "Hazzard 8e · p. 1121 · Table 73-2",
+      "questionRef": "Hazzard 8e · p. 1121 · Table 73-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12598,7 +12786,9 @@
           "readerChapter": "73s"
         }
       ],
-      "tables": [],
+      "tables": [
+        "73-2"
+      ],
       "chapters": [
         "73"
       ]
@@ -12636,8 +12826,8 @@
       "number": 4,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1063-1065",
-      "questionRef": "Hazzard 8e · p. 1063-1065",
+      "reference": "Hazzard 8e · p. 1063-1065 · Table 68-8",
+      "questionRef": "Hazzard 8e · p. 1063-1065 · Table 68-8",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12657,7 +12847,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "68-8"
+      ],
       "chapters": [
         "68"
       ]
@@ -12709,8 +12901,8 @@
       "number": 7,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 929",
-      "questionRef": "Hazzard 8e · p. 929",
+      "reference": "Hazzard 8e · p. 929 · Table 60-9",
+      "questionRef": "Hazzard 8e · p. 929 · Table 60-9",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12720,7 +12912,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "60-9"
+      ],
       "chapters": [
         "60"
       ]
@@ -12730,8 +12924,8 @@
       "number": 8,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 886",
-      "questionRef": "Hazzard 8e · p. 886",
+      "reference": "Hazzard 8e · p. 886 · Table 58-4",
+      "questionRef": "Hazzard 8e · p. 886 · Table 58-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12741,7 +12935,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "58-4"
+      ],
       "chapters": [
         "58"
       ]
@@ -12764,8 +12960,8 @@
       "number": 10,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 993",
-      "questionRef": "Hazzard 8e · p. 993",
+      "reference": "Hazzard 8e · p. 993 · Table 63-5",
+      "questionRef": "Hazzard 8e · p. 993 · Table 63-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12775,7 +12971,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "63-5"
+      ],
       "chapters": [
         "63"
       ]
@@ -12958,8 +13156,8 @@
       "number": 19,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 581",
-      "questionRef": "Hazzard 8e · p. 581",
+      "reference": "Hazzard 8e · p. 581 · Table 39-1",
+      "questionRef": "Hazzard 8e · p. 581 · Table 39-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12969,7 +13167,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "39-1"
+      ],
       "chapters": [
         "39"
       ]
@@ -12979,8 +13179,8 @@
       "number": 20,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1359",
-      "questionRef": "Hazzard 8e · p. 1359",
+      "reference": "Hazzard 8e · p. 1359 · Table 87-5",
+      "questionRef": "Hazzard 8e · p. 1359 · Table 87-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -12990,7 +13190,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "87-5"
+      ],
       "chapters": [
         "87"
       ]
@@ -13021,8 +13223,8 @@
       "number": 22,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1153",
-      "questionRef": "Hazzard 8e · p. 1153",
+      "reference": "Hazzard 8e · p. 1153 · Table 75-3",
+      "questionRef": "Hazzard 8e · p. 1153 · Table 75-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13032,7 +13234,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "75-3"
+      ],
       "chapters": [
         "75"
       ]
@@ -13042,8 +13246,8 @@
       "number": 23,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 622",
-      "questionRef": "Hazzard 8e · p. 622",
+      "reference": "Hazzard 8e · p. 622 · Table 42-3",
+      "questionRef": "Hazzard 8e · p. 622 · Table 42-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13053,7 +13257,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-3"
+      ],
       "chapters": [
         "42"
       ]
@@ -13063,21 +13269,24 @@
       "number": 24,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1640",
-      "questionRef": "Hazzard 8e · p. 1640",
+      "reference": "Hazzard 8e · p. 1640 · Table 103-4",
+      "questionRef": "Hazzard 8e · p. 1640 · Table 103-4",
       "status": "resolved",
       "reason": "",
       "pages": [
         {
-          "page": 1640,
-          "chapter": "102",
-          "available": true
+          "page": 1649,
+          "chapter": "103",
+          "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "103-4"
+      ],
       "chapters": [
-        "102"
-      ]
+        "103"
+      ],
+      "referenceNote": "Paper cites p.1640, chapter 103, Table 103-4; the verified table is on p.1649 (chapter 103)."
     },
     "mcq-403fd909d8963b5766ac33df": {
       "sitting": "2025-Jun",
@@ -13131,8 +13340,8 @@
       "number": 27,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1632",
-      "questionRef": "Hazzard 8e · p. 1632",
+      "reference": "Hazzard 8e · p. 1632 · Table 102-3",
+      "questionRef": "Hazzard 8e · p. 1632 · Table 102-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13142,7 +13351,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "102-3"
+      ],
       "chapters": [
         "102"
       ]
@@ -13194,8 +13405,8 @@
       "number": 30,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 709",
-      "questionRef": "Hazzard 8e · p. 709",
+      "reference": "Hazzard 8e · p. 709 · Table 47-9",
+      "questionRef": "Hazzard 8e · p. 709 · Table 47-9",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13205,7 +13416,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-9"
+      ],
       "chapters": [
         "47"
       ]
@@ -13375,8 +13588,8 @@
       "number": 39,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 375",
-      "questionRef": "Hazzard 8e · p. 375",
+      "reference": "Hazzard 8e · p. 375 · Table 27-3",
+      "questionRef": "Hazzard 8e · p. 375 · Table 27-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13387,7 +13600,9 @@
           "readerChapter": "27s"
         }
       ],
-      "tables": [],
+      "tables": [
+        "27-3"
+      ],
       "chapters": [
         "27"
       ]
@@ -13543,8 +13758,8 @@
       "number": 47,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 693-694",
-      "questionRef": "Hazzard 8e · p. 693-694",
+      "reference": "Hazzard 8e · p. 693-694 · Table 46-2",
+      "questionRef": "Hazzard 8e · p. 693-694 · Table 46-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13559,7 +13774,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "46-2"
+      ],
       "chapters": [
         "46"
       ]
@@ -13569,8 +13786,8 @@
       "number": 48,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1161",
-      "questionRef": "Hazzard 8e · p. 1161",
+      "reference": "Hazzard 8e · p. 1161 · Table 75-15",
+      "questionRef": "Hazzard 8e · p. 1161 · Table 75-15",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13580,7 +13797,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "75-15"
+      ],
       "chapters": [
         "75"
       ]
@@ -13590,8 +13809,8 @@
       "number": 49,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 620",
-      "questionRef": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
+      "questionRef": "Hazzard 8e · p. 620 · Table 42-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13601,7 +13820,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-2"
+      ],
       "chapters": [
         "42"
       ]
@@ -13632,8 +13853,8 @@
       "number": 51,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 743-744",
-      "questionRef": "Hazzard 8e · p. 743-744",
+      "reference": "Hazzard 8e · p. 743-744 · Table 50-2",
+      "questionRef": "Hazzard 8e · p. 743-744 · Table 50-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13648,7 +13869,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "50-2"
+      ],
       "chapters": [
         "50"
       ]
@@ -13702,8 +13925,8 @@
       "number": 54,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 703",
-      "questionRef": "Hazzard 8e · p. 703",
+      "reference": "Hazzard 8e · p. 703 · Table 47-4",
+      "questionRef": "Hazzard 8e · p. 703 · Table 47-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13713,7 +13936,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-4"
+      ],
       "chapters": [
         "47"
       ]
@@ -13771,8 +13996,8 @@
       "number": 57,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1011",
-      "questionRef": "Hazzard 8e · p. 1011",
+      "reference": "Hazzard 8e · p. 1011 · Figure 65-2",
+      "questionRef": "Hazzard 8e · p. 1011 · Figure 65-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13817,7 +14042,8 @@
       "chapters": [
         "104",
         "105"
-      ]
+      ],
+      "referenceNote": "Paper lists chapter 104 with pp.1675,1693-1694. The source pages span chapter 104 (p.1675) and chapter 105 (pp.1693-1694)."
     },
     "mcq-c96af8d727732c9078673e23": {
       "sitting": "2025-Jun",
@@ -13952,8 +14178,8 @@
       "number": 66,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 700",
-      "questionRef": "Hazzard 8e · p. 700",
+      "reference": "Hazzard 8e · p. 700 · Figure 47-1",
+      "questionRef": "Hazzard 8e · p. 700 · Figure 47-1",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13973,8 +14199,8 @@
       "number": 67,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1404",
-      "questionRef": "Hazzard 8e · p. 1404",
+      "reference": "Hazzard 8e · p. 1404 · Table 89-4",
+      "questionRef": "Hazzard 8e · p. 1404 · Table 89-4",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -13984,7 +14210,9 @@
           "available": false
         }
       ],
-      "tables": [],
+      "tables": [
+        "89-4"
+      ],
       "chapters": [
         "89"
       ]
@@ -14067,8 +14295,8 @@
       "number": 71,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 446,1690-1691",
-      "questionRef": "Hazzard 8e · p. 446,1690-1691",
+      "reference": "Hazzard 8e · p. 446,1690-1691 · Table 31-5",
+      "questionRef": "Hazzard 8e · p. 446,1690-1691 · Table 31-5",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14088,7 +14316,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "31-5"
+      ],
       "chapters": [
         "31",
         "105"
@@ -14112,8 +14342,8 @@
       "number": 73,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1571",
-      "questionRef": "Hazzard 8e · p. 1571",
+      "reference": "Hazzard 8e · p. 1571 · Table 99-6",
+      "questionRef": "Hazzard 8e · p. 1571 · Table 99-6",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14123,7 +14353,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "99-6"
+      ],
       "chapters": [
         "99"
       ]
@@ -14133,8 +14365,8 @@
       "number": 74,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1202-1203",
-      "questionRef": "Hazzard 8e · p. 1202-1203",
+      "reference": "Hazzard 8e · p. 1202-1203 · Table 77-8",
+      "questionRef": "Hazzard 8e · p. 1202-1203 · Table 77-8",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14149,7 +14381,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "77-8"
+      ],
       "chapters": [
         "77"
       ]
@@ -14245,8 +14479,8 @@
       "number": 79,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1063-1065",
-      "questionRef": "Hazzard 8e · p. 1063-1065",
+      "reference": "Hazzard 8e · p. 1063-1065 · Table 68-8",
+      "questionRef": "Hazzard 8e · p. 1063-1065 · Table 68-8",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14266,7 +14500,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "68-8"
+      ],
       "chapters": [
         "68"
       ]
@@ -14365,8 +14601,8 @@
       "number": 85,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 1586",
-      "questionRef": "Hazzard 8e · p. 1586",
+      "reference": "Hazzard 8e · p. 1586 · Table 99-16",
+      "questionRef": "Hazzard 8e · p. 1586 · Table 99-16",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14376,7 +14612,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "99-16"
+      ],
       "chapters": [
         "99"
       ]
@@ -14407,8 +14645,8 @@
       "number": 87,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 232,715-716",
-      "questionRef": "Hazzard 8e · p. 232,715-716",
+      "reference": "Hazzard 8e · p. 232,715-716 · Table 16-6",
+      "questionRef": "Hazzard 8e · p. 232,715-716 · Table 16-6",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14428,7 +14666,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "16-6"
+      ],
       "chapters": [
         "16",
         "47"
@@ -14538,8 +14778,8 @@
       "number": 93,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 620",
-      "questionRef": "Hazzard 8e · p. 620",
+      "reference": "Hazzard 8e · p. 620 · Table 42-2",
+      "questionRef": "Hazzard 8e · p. 620 · Table 42-2",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14549,7 +14789,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "42-2"
+      ],
       "chapters": [
         "42"
       ]
@@ -14580,8 +14822,8 @@
       "number": 95,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 768-769",
-      "questionRef": "Hazzard 8e · p. 768-769",
+      "reference": "Hazzard 8e · p. 768-769 · Table 51-3",
+      "questionRef": "Hazzard 8e · p. 768-769 · Table 51-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14596,7 +14838,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "51-3"
+      ],
       "chapters": [
         "51"
       ]
@@ -14653,8 +14897,8 @@
       "number": 98,
       "edition": 8,
       "source": "מראה מקום גריאטריה 2025.pdf",
-      "reference": "Hazzard 8e · p. 702",
-      "questionRef": "Hazzard 8e · p. 702",
+      "reference": "Hazzard 8e · p. 702 · Table 47-3",
+      "questionRef": "Hazzard 8e · p. 702 · Table 47-3",
       "status": "resolved",
       "reason": "",
       "pages": [
@@ -14664,7 +14908,9 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "47-3"
+      ],
       "chapters": [
         "47"
       ]
@@ -15071,7 +15317,6 @@
         "mcq-c0cc138e1a6ccfd5eaa9fa9d",
         "mcq-45b29368078d5d087a1a0b91",
         "mcq-c6a327d1e984cf14664a4c22",
-        "mcq-bdc90ebe3c1c31ceaf06284d",
         "mcq-18490c5933b53a866c445587",
         "mcq-57825e4b2e4819d0b41d9393",
         "mcq-4ea0e38022bf9d5645f8e014",
@@ -15086,8 +15331,8 @@
         "mcq-b6e0367710cf1836980a73db"
       ],
       "before": 5,
-      "past": 16,
-      "resolved": 14,
+      "past": 15,
+      "resolved": 13,
       "fallback": 2,
       "practice": 15
     },
@@ -15139,6 +15384,7 @@
         "mcq-09dd973c12abe37ee635c2e7",
         "mcq-4de2f99d12c0f96618a8056a",
         "mcq-703cfc1d9afec925dcee40fd",
+        "mcq-bdc90ebe3c1c31ceaf06284d",
         "mcq-14a74b272deb47e84ad4ed44",
         "mcq-300e85c3df241e45f364fa87",
         "mcq-127a926990dd25ce35544cb7",
@@ -15149,8 +15395,8 @@
         "mcq-e5b559956f7d5143d12a8b45"
       ],
       "before": 0,
-      "past": 13,
-      "resolved": 13,
+      "past": 14,
+      "resolved": 14,
       "fallback": 0,
       "practice": 0
     },
@@ -15449,12 +15695,11 @@
         "mcq-5499a1a5873a040ffca8d896",
         "mcq-084128e675755a60218e946b",
         "mcq-1524e05c07475dd26f840cbe",
-        "mcq-70ad7b8acd5368cde6d6a062",
         "mcq-60e7630654ad0fc27ec35f4e"
       ],
       "before": 0,
-      "past": 6,
-      "resolved": 6,
+      "past": 5,
+      "resolved": 5,
       "fallback": 0,
       "practice": 0
     },
@@ -15551,13 +15796,12 @@
       "ids": [
         "mcq-d852902c476364b525be2fb0",
         "mcq-16df878cdfb1631a3395a00d",
-        "mcq-1524e05c07475dd26f840cbe",
         "mcq-9cd512aa5d4da9861ca5104a",
         "mcq-f6a934085589d01c76d9730c"
       ],
       "before": 0,
-      "past": 5,
-      "resolved": 5,
+      "past": 4,
+      "resolved": 4,
       "fallback": 0,
       "practice": 0,
       "studyOnly": true
