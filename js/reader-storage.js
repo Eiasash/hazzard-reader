@@ -7,6 +7,7 @@ window.HazzardStorage = (() => {
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardReview.KEY);
+  keys.add(HazzardSimulation.KEY);
   const owns=key=>typeof key==='string'&&(keys.has(key)||key.startsWith('stage-a-highlights-v1:'));
   const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
   const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
@@ -32,6 +33,7 @@ window.HazzardStorage = (() => {
   else if(key===HazzardMCQ.FLAGS_KEY)valid=HazzardMCQ.validFlags(value);
   else if(key===HazzardMCQ.SYSTEM_KEY)valid=HazzardMCQ.validSystem(value);
   else if(key===HazzardReview.KEY)valid=HazzardReview.valid(value);
+  else if(key===HazzardSimulation.KEY)valid=HazzardSimulation.valid(value);
   else if(key===HazzardMCQ.VIEW_KEY)valid=HazzardMCQ.validView(value);
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&['yellow','green','blue'].includes(value.colour)&&['light','dark'].includes(value.theme);
