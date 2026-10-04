@@ -1,5 +1,5 @@
 {
-  "version": "v63",
+  "version": "v64",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -2123,7 +2123,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "dda9d16e6af6ae9fe5adaf185af87ee40dd6ff27e2de4053e7f3006e4213c4ac",
+      "sha256": "d5706ca4f980cc7d7032a9ca1e56933243d11dee35972621831c273efda16f5d",
       "bytes": 3274128
     },
     {
@@ -2168,13 +2168,13 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "e52dfc0cc3375bc39a09cdaf1b8117dd14ad03d951f91182dc4cd018963889ad",
-      "bytes": 10458
+      "sha256": "84d541f8495c13a9f7fd4554ef93f9fe17af2fc568c2274ef53d10b5a6c65846",
+      "bytes": 10880
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "b7ca83dad5d2588e31b28d9959cd57f4cec6691c3b2661ef6dc3ea2f52c0f609",
-      "bytes": 6590
+      "sha256": "b8298a51adc0000f92545834a41eb9d7b7e56d50a585fef38d1a2e77d1532b80",
+      "bytes": 6650
     },
     {
       "url": "./js/reader-storage.js",
