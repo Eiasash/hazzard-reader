@@ -1,0 +1,11 @@
+.law-cards{direction:ltr;text-align:start;margin:0 0 20px;border:1px solid var(--rule);border-radius:10px;font:400 calc(13px * var(--fs,1))/1.5 var(--ui);overflow-wrap:anywhere}
+.law-cards>summary{min-height:48px;box-sizing:border-box;padding:12px;font-weight:700;cursor:pointer}
+.law-cards-body{padding:0 12px 12px}
+.law-card{padding:14px 0;border-top:1px solid var(--rule)}
+.reading-copy .law-card h2{font:700 calc(15px * var(--fs,1))/1.4 var(--ui);margin:0 0 8px}
+.reading-copy .law-card ul{margin:0 0 10px;padding-inline-start:20px}
+.reading-copy .law-card li{margin:0 0 6px}
+.reading-copy .law-card-source{font:400 calc(11px * var(--fs,1))/1.5 var(--ui);margin:8px 0;unicode-bidi:plaintext}
+.law-card .exam-evidence{margin:0;gap:6px;display:flex}
+.law-card .exam-evidence a{min-height:44px}
+.law-cards button{min-height:44px}

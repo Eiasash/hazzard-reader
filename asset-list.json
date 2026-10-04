@@ -1,5 +1,5 @@
 {
-  "version": "v56-r2",
+  "version": "v57",
   "files": [
     {
       "url": "./chapters/hazzard8e_ch101_figure101-1.png",
@@ -1537,9 +1537,19 @@
       "bytes": 16850
     },
     {
+      "url": "./css/law-cards.css",
+      "sha256": "fcddb7ad7a98d6249c4eb51d3f4bf60034d2fd561d88d85a3586541154b1b486",
+      "bytes": 831
+    },
+    {
       "url": "./css/mcq.css",
       "sha256": "44063228ba55940c6ac41c5ea2d148d432f6728112be6b95e650469563af97aa",
       "bytes": 10539
+    },
+    {
+      "url": "./data/law-cards.json",
+      "sha256": "ba9989d7218a47adc16660d297eb095407830aa9c57fd2a09942ae3366cbd1da",
+      "bytes": 27540
     },
     {
       "url": "./data/mcq/101.json",
@@ -1988,13 +1998,18 @@
     },
     {
       "url": "./index.html",
-      "sha256": "36f48647218f60af47ab1c0ab58cbe74601ba5ec6c2ef3641fe77222149e327a",
-      "bytes": 3262774
+      "sha256": "180c3ab993227acc808b37a230aa0889a04e7997cfb4d3805c7369a74dd79f61",
+      "bytes": 3262917
     },
     {
       "url": "./js/exam-evidence.js",
       "sha256": "79ee693189080e2689989abba56eba72f8cc2e1c60fe54cf70879054710feb7e",
       "bytes": 2566
+    },
+    {
+      "url": "./js/law-cards.js",
+      "sha256": "b85458e9fce79230f383e41d7dd9a4e577b86b9c87debb2dda606ab2d69d047b",
+      "bytes": 2975
     },
     {
       "url": "./js/marked.min.js",
@@ -2013,13 +2028,13 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "3666ccd7efd85ce2296ac0a4c277dde165e4b1985b4eb777826ade6f8b6cae5a",
-      "bytes": 10461
+      "sha256": "6e76128cf17e16be63c8b36b5fbaa7b110f8b03caf770beb8f723578d2744a83",
+      "bytes": 10458
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "f86625bdd2985d80610da12f00969c8a52b8dc069c4b379ac924a34f300d1d02",
-      "bytes": 6593
+      "sha256": "b737d85f30830cb48dc002bc17b13f227db98310fc6bcf19225fd65f3644be0c",
+      "bytes": 6590
     },
     {
       "url": "./js/reader-storage.js",

@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "dying-15",
+      "title": "Dying Patient Act — סעיף 15",
+      "bullets": [
+        "Applies to a dying patient who is בעל כשרות (has capacity) and does not want life prolonged — סעיף 15(א).",
+        "יש לכבד את רצונו — respect that wish and refrain from medical treatment — סעיף 15(א).",
+        "מאמץ סביר — caregivers must make a reasonable effort to persuade the patient to accept oxygen, food and fluids, including artificial means — סעיף 15(ב).",
+        "The same persuasion duty covers routine treatment for concurrent/background illnesses and טיפול מקל (palliative treatment) — סעיף 15(ב)."
+      ],
+      "sources": [
+        {
+          "document": "חוק החולה הנוטה למות, תשס_ו-2005.pdf",
+          "locator": "סעיף 15(א)–(ב)",
+          "via": "chapters/israel_law.md — סעיף 15"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-5ad0bdc999886ea23dd577f8",
+          "sitting": "2020",
+          "number": 64,
+          "reference": "חוק החולה הנוטה למות",
+          "stem": "בן 68, חולה דיאליזה הסובל מקרצינומה של הריאה הוגדר על ידי האונקולוג כחולה הנוטה למות. הוא ללא חסר קוגניטיבי והוגדר כשיר לקבל החלטות. לאחרונה הביע רצונו שלא להאריך את חייו באמצעים מלאכותיים לרבות הפסקת טיפולי הדיאליזה. איזה מהבאים נכון בנוגע לתגובה הנדרשת לבקשתו של החולה?",
+          "basis": "Stem explicitly describes a dying patient with capacity refusing dialysis."
+        },
+        {
+          "id": "mcq-8ceb825522dee040d6bc0a79",
+          "sitting": "2026-Jun",
+          "number": 95,
+          "reference": "חוק החולה הנוטה למות — סעיף 15",
+          "stem": "בן 88 הסובל מסרטן גרורתי הוגדר כחולה הנוטה למות .הוא מתמצא היטב ומוגדר ככשיר .הוא מסרב להמשיך טיפול כימותרפי ,לקחת תרופות קבועות ,לאכול ולשתות. מה מותר ומה אסור בטיפול על פי חוק החולה הנוטה למות?",
+          "basis": "Official reference explicitly cites סעיף 15."
+        }
+      ]
+    },
+    {
+      "id": "dying-17",
+      "title": "Dying Patient Act — סעיף 17",
+      "bullets": [
+        "Applies to חולה בשלב סופי שאינו בעל כשרות — a patient in the final stage who lacks capacity, suffers significantly and whose wish not to prolong life was established under סעיף 5(ב) או (ג).",
+        "יש להימנע — treatment must be withheld in accordance with that established wish, including טיפול רפואי נלווה (ancillary medical treatment).",
+        "אין להימנע ממתן נוזלים — fluids, even by artificial means, must not be withheld unless the responsible physician determines they cause סבל או נזק (suffering or harm)."
+      ],
+      "sources": [
+        {
+          "document": "חוק החולה הנוטה למות, תשס_ו-2005.pdf",
+          "locator": "סעיף 17",
+          "via": "chapters/israel_law.md — סעיף 17"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-7fbd59a824fc038d8fdb2a37",
+          "sitting": "2026-Jun",
+          "number": 93,
+          "reference": "חוק החולה הנוטה למות — סעיף 17",
+          "stem": "בן 94 הסובל מדמנציה מתקדמת מאושפז עקב דלקת ריאות .הוא מקבל קו שלישי של טיפול אנטיביוטי ללא שיפור ,פיתח אי ספיקה כלייתית והוגדר כחולה הנוטה למות במצב סופי .החולה מעורפל הכרה ,לא אוכל ולא שותה. מה הטיפול המתאים לפי חוק החולה הנוטה למות?",
+          "basis": "Official reference explicitly cites סעיף 17."
+        }
+      ]
+    },
+    {
+      "id": "enduring-poa",
+      "title": "Enduring power of attorney — consent chain",
+      "bullets": [
+        "ייפוי כוח מתמשך — an adult with capacity may appoint a proxy for personal and/or property matters; עניינים אישיים (personal matters) includes health — סעיפים 32א, 32ב.",
+        "Medical authority must cover health matters and be in force; a health-only ייפוי כוח רפואי (medical power of attorney) is addressed in סעיף 32טו.",
+        "מקבל החלטות זמני (temporary decision-maker) under סעיף 14א applies only when there is no medical proxy or guardian, after a specialist determines incapacity to understand medical affairs and urgent treatment is needed (excluding psychiatric admission). A social worker, with the institution director’s approval, may authorize an adult relative in writing.",
+        "An existing temporary authorization expires if an enduring POA takes effect or a medical guardian is appointed — סעיף 14ב(ו)(3).",
+        "The enduring proxy cannot perform an act or express a wish under חוק החולה הנוטה למות — סעיף 32ו(ב)(5); that Act has a separate proxy arrangement."
+      ],
+      "sources": [
+        {
+          "document": "חוק הכשרות המשפטית והאפוטרופסות, תשכ_ב-1962.pdf",
+          "locator": "סעיפים 32א, 32ב, 32טו, 32ו(ב)(5)",
+          "via": "chapters/israel_law.md — ייפוי כוח מתמשך"
+        },
+        {
+          "document": "חוק זכויות החולה, תשנ_ו-1996.pdf",
+          "locator": "סעיף 14א(א)–(ב); סעיף 14ב(ו)(3)",
+          "via": "chapters/israel_law.md — consent chain"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-25977eff884454c1df2ec0a8",
+          "sitting": "2020",
+          "number": 61,
+          "reference": "ייפוי כוח מתמשך (חוק הכשרות המשפטית והאפוטרופסות) וחוק החולה הנוטה למות",
+          "stem": "בת 79 ,ברקע סוכרת קלה ויתר לחץ דם , מתעניינת במתן ייפוי כוח לבנה. איזה מהבאים נכון בנוגע לאפשרות לחתום על ייפוי כוח?",
+          "basis": "Official reference names enduring POA; stem asks about signing a power of attorney."
+        },
+        {
+          "id": "mcq-46770db589a259ce0b35d4b0",
+          "sitting": "2020",
+          "number": 66,
+          "reference": "ייפוי כוח מתמשך — חוק הכשרות המשפטית והאפוטרופסות",
+          "stem": "באיזה מהמצבים הבאים יופעל מיופה כוח של אדם שחתם על ייפוי כוח מתמשך רפואי?",
+          "basis": "Stem explicitly asks when an enduring medical proxy is activated."
+        },
+        {
+          "id": "mcq-30ca809d5327e7a3f40fa96f",
+          "sitting": "2021-Dec",
+          "number": 22,
+          "reference": "ייפוי כוח מתמשך — חוק הכשרות המשפטית והאפוטרופסות",
+          "stem": "באילו מהמצבים הבאים יופעל מיופה כוח של אדם שחתם על ייפוי כוח מתמשך רפואי",
+          "basis": "Stem explicitly asks when an enduring medical proxy is activated."
+        },
+        {
+          "id": "mcq-34851c7f12c60ea021445215",
+          "sitting": "2022-Jun",
+          "number": 5,
+          "reference": "חוק הכשרות המשפטית והאפוטרופסות",
+          "stem": "בן 82 , ברקע יל״ד מאוזן תרופתית. מאושפז בטיפול נמרץ בשל ספסיס על רקע דלקת ריאות. הוא מונשם, לאחר שלושה ניסיונות גמילה שלא צלחו. מעוניינים להתקדם לביצוע טרכאוסטומיה. המטופל אינו מסוגל להביע דעתו, אך יש ברשותו מספר מסמכים משפטיים .שכולם תקינים ובתוקף מה סוג המסמך שיש להפעיל במצבו הנוכחי?",
+          "basis": "Stem asks which valid legal document to activate for an incapacitated patient needing tracheostomy; official reference is the Legal Capacity Act."
+        },
+        {
+          "id": "mcq-2420c29631c2ef60e0dcfac5",
+          "sitting": "2024-May",
+          "number": 15,
+          "reference": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+          "stem": "בן 76 , הופנה למיון עקב ירידה במצב ההכרה. אובחן דימום סובדורלי. הומלץ לבצע .ניקוז דחוף. ילדיו דיווחו שאביהם חתם על ייפוי כוח מתמשך ומינה אותם כמיופי כוח מה הפעולה הנדרשת כעת?",
+          "basis": "Stem explicitly identifies enduring POA and asks the next action for urgent treatment."
+        },
+        {
+          "id": "mcq-e72e8a76b8db84bd613defc5",
+          "sitting": "2024-Sep",
+          "number": 38,
+          "reference": "ייפוי כוח מתמשך בחולים במקרים דחופים 2023; חוק החולה הנוטה למות",
+          "stem": "בן 86 ,סובל מדמנציה בדרגת חומרה בינונית, עד לאחרונה פקד מועדון יום. מתקבל למיון עם כיב איסכמי ברגל ימין. הותחל טיפול באנטיביוטיקה תוך ורידית וזקוק לכריתה של .הגפה בימים הקרובים למטופל הנחיות מקדימות לפי חוק החולה הנוטה למות ויפויי כח מתמשך אשר לא הופעל. הצוות מתרשם כי אינו כשיר לתת הסכמה מדעת . כיצד מקבלים הסכמה לניתוח במקרה זה?",
+          "basis": "Stem explicitly contrasts unactivated enduring POA and Dying Patient Act instructions for surgical consent."
+        },
+        {
+          "id": "mcq-ecd64ab60c729ac9474151bc",
+          "sitting": "2026-Jun",
+          "number": 46,
+          "reference": "חוזר משרד הבריאות — הפעלת ייפוי כוח מתמשך",
+          "stem": "בן 78, אושפז בשל דלקת בדרכי השתן והחמרה בתפקודי הכליות .במהלך האשפוז נפל ,נחבל בראשו ואובחן עם דימום סוב-דוראלי .הומלץ על ביצוע פעולה כירורגית לניקוז למחרת בבוקר. למטופל ייפוי כוח מתמשך לאשתו .לצורך הפעולה מי אמור לחתום?",
+          "basis": "Stem explicitly identifies enduring POA and asks who signs for treatment."
+        }
+      ]
+    },
+    {
+      "id": "supported-decisions",
+      "title": "Supported decision-making — סעיף 67ב",
+      "bullets": [
+        "תומך בקבלת החלטות (decision-making supporter) assists the person in obtaining information, understanding information/alternatives in accessible language and implementing decisions — סעיף 67ב(א).",
+        "לא יקבל החלטות בשמו — the supporter must not make decisions on the person’s behalf — סעיף 67ב(ג).",
+        "Appointment is for an adult who can, with support, decide about their own affairs — סעיף 67ב(ד).",
+        "The court specifies the matters covered, appointment period and all or part of the supporter’s duties and powers — סעיף 67ב(ה)."
+      ],
+      "sources": [
+        {
+          "document": "חוק הכשרות המשפטית והאפוטרופסות, תשכ_ב-1962.pdf",
+          "locator": "סעיף 67ב(א), (ג)–(ה); PDF pp. 61–62",
+          "via": "Direct visual reading of the local statute, PDF pp. 61–62"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-9976242ecf825d241593f4bd",
+          "sitting": "2026-Jun",
+          "number": 89,
+          "reference": "קבלת החלטות נתמכת — חוק הכשרות המשפטית והאפוטרופסות; section not specified in IMA list",
+          "stem": "בן 77, מונה כתומך החלטות בעבור אחיו בן ה .81 -אחיו סובל מדמנציה ואינו מסוגל כיום לקבל החלטות בעבור עצמו .מה הוא רשאי לעשות בתור תומך החלטות?",
+          "basis": "Official reference names supported decision-making; stem asks what the appointed supporter may do."
+        }
+      ]
+    },
+    {
+      "id": "placement",
+      "title": "Placement / end-of-rehab: functional definitions",
+      "bullets": [
+        "מטופל תשוש — a person whose reduced function requires partial help with daily activities (definition 4).",
+        "מטופל סיעודי — chronic disease/permanent impairment with prolonged skilled medical monitoring needs, plus bed/wheelchair confinement, incontinence or difficult walking due to pathology/complications (definition 5).",
+        "מטופל תשוש-נפש — a mobile patient with marked cognitive decline requiring full daily-activity assistance, mobility guidance and round-the-clock safety supervision; this definition is for placement in a תשושי נפש department (definition 6).",
+        "מטופל סיעודי-מורכב — permanently סיעודי or תשוש נפש plus the specified high-skill treatment/supervision needs; listed conditions include grade 3–4 pressure wounds and regular dialysis in a nursing-dependent patient (definition 7, items 2 and 5).",
+        "מטופל שיקומי — needs rehabilitation for full or partial functional recovery after illness with functional decline (definition 8).",
+        "For a patient already hospitalized ב״קוד״ (MoH-funded code), a change of status is determined by the district geriatrician after the classification committee’s decision — נוהל 3.4.2, סעיף 3.5. This source does not establish the end-of-rehab transfer procedure for HMO-funded rehabilitation."
+      ],
+      "sources": [
+        {
+          "document": "israel-law-new/ng-0-2-1.pdf",
+          "locator": "נוהל 0.2.1, מהדורה 5, 01/11/2019; סעיף 3.1, definitions 4–8; pp. 2–3",
+          "via": "Direct visual reading of pp. 2–3; existing chapters/israel_law.md"
+        },
+        {
+          "document": "israel-law-new/ng-3-4-2.pdf",
+          "locator": "נוהל 3.4.2, סעיף 3.5",
+          "via": "chapters/israel_law.md — שינוי סטטוס; scope limitation"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-08f6970a2d4d053f15197beb",
+          "sitting": "2020",
+          "number": 27,
+          "reference": "משרד הבריאות: בחירת מוסד האשפוז המתאים לקשיש",
+          "stem": "בת 78 ,סובלת מסוכרת לא מאוזנת, ירידה בשמיעה, ופרפור עליות. היא מתגוררת בביתה לבדה, ולאחרונה אובחנה כסובלת מדמנציה. לאחרונה אירעו מספר אירועים: השכנים מצאו אותה משוטטת ברחוב ולא מוצאת את ביתה, הוזמן מכבי אש עקב שריפה שפרצה בדירה מסיר שנשאר על האש. בביקור בית של הרווחה מתברר שלא התרחצה ולא החליפה בגדים זמן ממושך ואכלה מזון מקולקל. הוחלט להעביר אותה למסגרת מוסדית. מה הסטטוס התפקודי של אישה זו?",
+          "basis": "Stem asks functional placement status for a wandering patient with dementia and impaired self-care."
+        },
+        {
+          "id": "mcq-e67fa2aa6374604736fbf3dd",
+          "sitting": "2022-Jun",
+          "number": 8,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "stem": "בן 80 , המוכר כסובל מדמנציה, אושפז במחלקה פנימית. הוא עבר אבחון גריאטרי בקהילה לפני חודש. נמצאMMSE 18/30 , והוזמן גריאטר כדי להגדירו כ\"תשוש נפש\" לצורך סידור .מוסדי ?\"באיזה מצב ניתן להגדיר את המטופל כ\"תשוש נפש?",
+          "basis": "Stem explicitly asks when a patient can be defined as תשוש נפש for placement."
+        },
+        {
+          "id": "mcq-fb612354b8ab97a21a687655",
+          "sitting": "2022-Jun",
+          "number": 98,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "stem": "מי מהחולים הבאים מתאים לאשפוז במחלקה לסיעוד מורכב?",
+          "basis": "Stem explicitly asks who fits complex nursing hospitalization."
+        },
+        {
+          "id": "mcq-693f1143542d4d4e9cf87a06",
+          "sitting": "2023-Jun",
+          "number": 14,
+          "reference": "בחירת מוסד האשפוז המתאים לקשיש",
+          "stem": "בן 88 ., מזה שנתיים מרותק למיטה, עד לאשפוז הנוכחי התגורר בביתו עם עובד זר אושפז עקב דליריום, אצירת שתן וזיהום בדרכי השתן. במהלך האשפוז פיתח פצע לחץ. בסיום האשפוז .הוחלט שישתחרר למסגרת מוסדית מה השיקול הנכון בהתאמת המסגרת המוסדית?",
+          "basis": "Stem asks placement after pressure injury in a bedbound patient."
+        },
+        {
+          "id": "mcq-ab246d8a80dcfd2a5a047994",
+          "sitting": "2024-May",
+          "number": 76,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "stem": "בן 75 , לוקה בפרקינסון מזה 10 שנים, נפילות חוזרות. עד לפני 10 חודשים התגורר לבד בביתו והתהלך עם הליכון גלגלים. עבר למסגרת מחלקה סיעודית לפני כ- 8 חודשים לאחר .נפילה ושבר פרק ירך מימין במחלקה היה רוב הזמן בכיסא גלגלים .והתהלך הליכה טיפולית בליווי ועזר במעברים לפני כחצי שנה נפל בבית האבות ושבר פרק ירך שמאל. במהלך הפוסט- ניתוחי פיתח פצע לחץ דרגה 3 בסקרום ועבר למסגרת סיעוד מורכב. בהדרגה הפצע בשיפור כעת שטחי והוא מתרגל במחלקה הליכה בעזרת הפיזיותרפיסט ועוזר במעברים . מה המסגרת המתאימה להמשך הטיפול?",
+          "basis": "Stem compares nursing and complex nursing status after pressure-wound improvement."
+        },
+        {
+          "id": "mcq-a02930b506592f438ff8cb02",
+          "sitting": "2024-Sep",
+          "number": 58,
+          "reference": "חוזר משרד הבריאות — קביעת סטטוס",
+          "stem": "בן 77 , נושא טרכאוסטום, לאחר גמילה מהנשמה ממושכת, ללא צורך בסקשיין. עבר שיקום וכעת זקוק לעזרה ברחצה ובלבוש, הולך עם הליכון בעזרת מטפל .מספר צעדים, אינו שולט על סוגר השתן איזו מסגרת מתאימה להמשך טיפול בו?",
+          "basis": "Stem asks placement after rehab for a patient with tracheostomy and functional dependence."
+        },
+        {
+          "id": "mcq-ff5dff1131122d86e4378271",
+          "sitting": "2025-Jun",
+          "number": 13,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים",
+          "stem": "בן 65 , גרוש, ערירי, גר לבד. רקע של שימוש מוגבר באלכוהול. אושפז בפנימית לאחר שנמצא ברחוב עם היפותרמיה. בקבלתו למיון מוזנח, מלוכלך, עם פצעים מרובים ברגליים. במהלך האשפוז יוצא לעשן בחצר וחוזר למחלקה. נפל פעם אחת במחלקה, ללא חבלות משמעותיות. הפצעים ברגליים על רקע אי ספיקת לב ורידית ובצקת. רובם שטחיים אולם יש 2 פצעים עמוקים מכוסים רקמת פיברין. לאחר התייצבות מצבו עו\"ס מתרשמת שאינו יכול לחזור לגור לבד והמחלקה מזמינה ייעוץ גריאטרי לצורך הגדרה מוסדית. בשיחה המטופל מתמצא בסיטואציה ומסכים לעבור למסגרת מוסדית. האחי .ות מדווחות כי הוא שולט על סוגרים, זקוק לעזרה קלה ברחצה ולבוש פלג גוף תחתון מתהלך במחלקה?. הומלץ על הליכון אך לרוב לא משתמש. מה ההגדרה התפקודית המתאימה",
+          "basis": "Stem asks functional classification for institutional placement."
+        },
+        {
+          "id": "mcq-1bbe7663ed422d20fc60e429",
+          "sitting": "2025-Jun",
+          "number": 80,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים (IMA class: חוק)",
+          "stem": "בן 88 , ערירי. מאושפז כחודש במחלקה פנימית בשל זיהום בקורונה שהסתבך. טרם האשפוז גר בביתו בגפו, נעזר במטפלת מטעם חוק סיעוד)עזרה ב- IADL .)וברחצה כעת מועמד לשחרור, אחרי גמילה מהנשמה, עם פצעי לחץ דרגה 3 בסקרום ובטרוכנטר. זקוק .לעזרה מלאה בכל התפקודים כולל האכלה, אינו שולט על סוגר השתן, נעזר באמצעי ספיגה עירני, מבצע הוראות פשוטות, קם בעזרה של 2 מטפלים והולך עם הליכון אמות 3 מטרים בעזרה .רבה כיצד יש להגדיר את הסטטוס של המטופל ולאן יש להפנותו?",
+          "basis": "Stem asks functional classification/placement in a dependent patient with grade 3 pressure wounds."
+        },
+        {
+          "id": "mcq-f236daa600ddb2c31e2d699f",
+          "sitting": "2026-Jun",
+          "number": 96,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד האשפוז המתאים לקשיש",
+          "stem": "בן 76, נמצא בשיקום בשל ירידה תפקודית ,לאחר אשפוז של חודש בטיפול נמרץ בשל אי ספיקת כליות חדה חדשה ותחילת טיפול דיאליזה ,ופצע לחץ דרגה 4 בעכוז. לאחר כחודשיים שיקום ,בהחלטת צוות רב מקצועי הוחלט על תום שיקום. מבחינה רפואית עדיין נזקק לדיאליזה 3 פעמים בשבוע ,פצע לחץ בעכוז דרגה .2 באבחונים קוגניטיבים -משתף פעולה ,מתמצא ,אבחון 29,/30 MMSEאבחון .27/30 MOCA מבחינה תפקודית -מתהלך במחלקה עם הליכון ללא השגחה .מחוץ למבנה נזקק להשגחה .עצמאי במעברים .שולט על סוגרים ,נזקק לעזרה ברחצה ,עצמאי בהלבשה .נזקק לעזרה בניקיונות ,בישולים מורכבים ,קניות ,עצמאי בניהול תרופות ,כספים ,והכנת ארוחה קלה. המטופל מעוניין בסידור מוסדי .מה הסטטוס התפקודי של המטופל ולאן ישתחרר המטופל?",
+          "basis": "Stem explicitly asks functional status/placement at the end of rehabilitation. Link concerns definitions, not an unlocated transfer procedure."
+        }
+      ]
+    },
+    {
+      "id": "circular-20-2009",
+      "title": "Circular 20/2009 — subsidized nursing admission",
+      "bullets": [
+        "סיווג (classification) as סיעודי or תשוש נפש for subsidy eligibility is performed by the district geriatrician through a committee — attached נוהל 01-09, סעיף 3.3.",
+        "ועדת הסיווג (classification committee) is chaired by the district geriatrician and includes a nurse and social worker; it meets at least once every two weeks — סעיפים 4.1, 6.3.1, 6.3.3.",
+        "A family appeal or change in condition can trigger re-examination; the discussion is held within 14 working days — סעיף 11.2.2.",
+        "An appeal against the district geriatrician’s decision after re-examination is submitted in writing to the head of the Geriatrics Division — סעיף 11.3."
+      ],
+      "sources": [
+        {
+          "document": "files_circulars_mr_mr20_2009.pdf",
+          "locator": "20/2009, attached נוהל 01-09; סעיפים 3.3, 4.1, 6.3.1, 6.3.3, 11.2.2, 11.3",
+          "via": "chapters/israel_law.md — חוזר 20/2009"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-64017e896e68192670a11fe2",
+          "sitting": "2020",
+          "number": 79,
+          "reference": "קביעת הסטטוס של חולה לצורך העברתו למסגרת אשפוז אחרת",
+          "stem": "מחלקה פנימית מבקשת ייעוץ גריאטרי על מנת להגדיר את מצבו של חולה כסיעודי, לצורך קביעת זכאות רפואית ל״קוד״ של משרד הבריאות. מה תהיה ההמלצה?",
+          "basis": "Stem explicitly asks about defining nursing status for medical eligibility for a MoH code; matches classification in 01-09, סעיף 3.3. Official reference does not name the circular number."
+        },
+        {
+          "id": "mcq-914ae4da60a23fa3609f9656",
+          "sitting": "2021-Dec",
+          "number": 42,
+          "reference": "קביעת הסטטוס של חולה לצורך העברתו",
+          "stem": "מחלקה פנימית מבקשתיעוץ גריאטרי על מנת להגדיר מצבו של חולה כסיעודי, לצורך קביעת זכאות רפואית ל״קוד״ של משרד הבריאות. מה תהיה המלצתך?",
+          "basis": "Stem explicitly asks about defining nursing status for medical eligibility for a MoH code; matches classification in 01-09, סעיף 3.3. Official reference does not name the circular number."
+        }
+      ]
+    },
+    {
+      "id": "circular-8-2018",
+      "title": "Circular 8/2018 — financing nursing hospitalization",
+      "bullets": [
+        "סיוע במימון האשפוז הסיעודי הכרוני — assistance with financing chronic nursing hospitalization, through the Ministry of Health, for סיעודיים and תשושי נפש (nursing-dependent patients and patients requiring dementia nursing care).",
+        "The circular updates patient/family contributions, eligibility calculations and collection of השתתפות עצמית (co-payment), including reduced contributions.",
+        "Dated 21.03.2018; replaces and cancels Director General Circular 24/2005, effective 08.04.2018."
+      ],
+      "sources": [
+        {
+          "document": "files_circulars_mk_MK08_2018.pdf",
+          "locator": "חוזר מנכ״ל 8/2018; cover / PDF p. 1",
+          "via": "chapters/israel_law.md — חוזר 8/2018"
+        }
+      ],
+      "questions": []
+    }
+  ]
+}
