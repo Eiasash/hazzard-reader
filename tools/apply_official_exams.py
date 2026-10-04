@@ -7,6 +7,7 @@ import json
 import re
 from pathlib import Path
 from collections import Counter
+from mcq_topics import membership, annotate
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -64,7 +65,7 @@ def apply(items, root=ROOT):
     missing = set(records) - seen
     if missing:
         raise ValueError('Previously verified questions unavailable: ' + ', '.join(sorted(missing, key=int)))
-    return result, excluded
+    return annotate(result, root), excluded
 
 
 if __name__ == '__main__':
@@ -85,7 +86,8 @@ if __name__ == '__main__':
     report['excluded'] = [x for x in {x['index']:x for x in [*report['excluded'],*excluded]}.values() if x['index'] not in included]
     report['excluded_counts'] = dict(Counter(q['reason'] for q in report['excluded']))
     report['chapters'] = index
-    report['topics'] = {t: {**v, **{kind: sum(q['topic'] == int(t) and q['kind'] == kind for q in items) for kind in ('past','practice')}} for t,v in report['topics'].items()}
+    topics = json.loads((data / 'topics.json').read_text(encoding='utf-8'))
+    report['topics'] = {str(t): {'name': name, **{kind: sum(t in membership(q) and q['kind'] == kind for q in items) for kind in ('past','practice')}} for t,name in enumerate(topics)}
     (data / 'import-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     from build_law_mcqs import build as law
     from build_mcq_collections import build as collections

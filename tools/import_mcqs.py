@@ -15,6 +15,7 @@ import re
 from urllib.parse import urlparse, unquote
 from urllib.request import Request, urlopen
 from build_law_mcqs import LAW_TOPICS, build
+from mcq_topics import membership, extend_topics
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -58,6 +59,7 @@ def main():
     topics = json.loads(match[1])
     if len(topics) != len(read(files['topics.json'])):
         raise ValueError('Topic names and topic index differ')
+    topics = extend_topics(topics, ROOT)
     titles = read(files['hazzard_index.json'])
     chapters = {str(c['number']): c['title'] for c in read(ROOT / 'manifest.json')['chapters']
                 if c['kind'] == 'chapter' and str(c['number']).isdigit()}
@@ -158,12 +160,12 @@ def main():
     (destination / 'index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (destination / 'all.json').write_text(json.dumps(all_items, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
     (destination / 'topics.json').write_text(json.dumps(topics, ensure_ascii=False) + '\n', encoding='utf-8')
-    topic_counts = {str(i): {'name': name, 'past': sum(x['topic']==i and x['kind']=='past' for x in all_items), 'practice': sum(x['topic']==i and x['kind']=='practice' for x in all_items)} for i,name in enumerate(topics)}
+    topic_counts = {str(i): {'name': name, 'past': sum(i in membership(x) and x['kind']=='past' for x in all_items), 'practice': sum(i in membership(x) and x['kind']=='practice' for x in all_items)} for i,name in enumerate(topics)}
     report = {'source_sha256': hashes, 'total_source': len(questions), 'included': len(all_items),
               'excluded_counts': dict(Counter(x['reason'] for x in excluded)), 'excluded': excluded,
               'image_failures': {r: error for r, (_, error) in results.items() if error}, 'chapters': index,
               'sources': dict(Counter(x['t'] for x in all_items)), 'topics': topic_counts,
-              'law_count': sum(x['law'] for x in all_items), 'law_rule': 'primary topic index in 30,31,32,33,34; regulatory.json not used',
+              'law_count': sum(x['law'] for x in all_items), 'law_rule': 'topic membership in 30,31,32,33,34; regulatory.json not used',
               'other_sources': dict(Counter(q['t'] for q in questions if not category(q)))}
     (destination / 'import-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     if any(sha256(path.read_bytes()).hexdigest() != hashes[name] for name, path in files.items()):

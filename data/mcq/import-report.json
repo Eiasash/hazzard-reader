@@ -8139,7 +8139,8 @@
     "99": {
       "title": "Diabetes Mellitus",
       "past": 0,
-      "practice": 0
+      "practice": 0,
+      "topicFallback": 22
     },
     "101": {
       "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
@@ -8154,17 +8155,25 @@
     "104": {
       "title": "Infection and Appropriate Antimicrobial Selection",
       "past": 0,
-      "practice": 0
+      "practice": 0,
+      "topicFallback": 27
     },
     "105": {
       "title": "Bacterial Pneumonia and Tuberculosis",
       "past": 0,
-      "practice": 0
+      "practice": 0,
+      "topicFallback": 27
     },
     "108": {
       "title": "Influenza, COVID-19, and Other Respiratory Viruses",
       "past": 0,
-      "practice": 0
+      "practice": 0,
+      "topicFallback": 27
+    },
+    "law": {
+      "title": "Israeli law",
+      "past": 71,
+      "practice": 219
     }
   },
   "sources": {
@@ -8408,10 +8417,60 @@
       "name": "Interdisciplinary Care",
       "past": 0,
       "practice": 7
+    },
+    "46": {
+      "name": "Syncope/Dizziness",
+      "past": 8,
+      "practice": 11
+    },
+    "47": {
+      "name": "Sarcopenia",
+      "past": 9,
+      "practice": 32
+    },
+    "48": {
+      "name": "Hip Fractures",
+      "past": 8,
+      "practice": 24
+    },
+    "49": {
+      "name": "Behavioral Symptoms of Dementia",
+      "past": 16,
+      "practice": 15
+    },
+    "50": {
+      "name": "Benign Prostate Disorders",
+      "past": 5,
+      "practice": 17
+    },
+    "51": {
+      "name": "Immunology/Inflammation",
+      "past": 17,
+      "practice": 39
+    },
+    "52": {
+      "name": "Valvular Heart Disease",
+      "past": 11,
+      "practice": 1
+    },
+    "53": {
+      "name": "Hematologic Malignancies/Plasma Cell Disorders",
+      "past": 7,
+      "practice": 11
+    },
+    "54": {
+      "name": "Rheumatoid/Autoimmune Disease",
+      "past": 7,
+      "practice": 0
+    },
+    "55": {
+      "name": "Back Pain/Spinal Stenosis",
+      "past": 6,
+      "practice": 0
     }
   },
   "law_count": 242,
-  "law_rule": "primary topic index in 30,31,32,33,34; regulatory.json not used",
+  "law_rule": "topic membership in 30,31,32,33,34; regulatory.json not used",
   "other_sources": {
     "Hazzard-suppl": 24,
     "Harrison": 294,
@@ -8446,5 +8505,17 @@
       "past": 17,
       "practice": 67
     }
+  },
+  "source_types": {
+    "Harrison": 35,
+    "Hazzard": 609,
+    "Law": 27,
+    "Article": 43,
+    "Other": 40,
+    "Procedure": 26,
+    "Yearbook": 13,
+    "Circular": 5,
+    "Hazzard practice": 1850,
+    "Unspecified": 2
   }
 }

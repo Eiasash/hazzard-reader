@@ -73,7 +73,7 @@ window.HazzardLawCards = (() => {
           for (const question of card.questions) {
             const link = document.createElement('a');
             link.href = HazzardEvidence.questionURL(question.id);
-            link.textContent = 'Examined: ' + HazzardEvidence.label(question);
+            link.textContent = 'Asked: ' + HazzardEvidence.label(question);
             link.title = question.reference;
             links.append(link);
           }
