@@ -319,6 +319,950 @@
         }
       ],
       "questions": []
+    },
+    {
+      "id": "ima-2026-01",
+      "imaItem": 1,
+      "title": "משרד הבריאות - האגף לגריאטריה – נהלי רוחב – הגדרת מושגים – נספח.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "תשוש: ירידה בתפקוד המחייבת עזרה חלקית בפעולות היומיום. סיעודי: מחלה כרונית או ליקוי קבוע המחייבים מעקב רפואי מיומן ממושך, ובנוסף ריתוק למיטה/כיסא גלגלים, אי־שליטה בסוגרים או הליכה בקושי עקב פתולוגיה/סיבוכי מחלות. [עמ׳ 2, הגדרות 4–5]",
+        "תשוש־נפש לצורך השמה במחלקה: מטופל מתהלך עם ירידה קוגניטיבית משמעותית המחייבת עזרה מלאה בפעולות היומיום, הכוונה בניידות והשגחה על בטיחותו בכל שעות היממה. [עמ׳ 2, הגדרה 6]",
+        "סיעודי־מורכב: סיעודי או תשוש נפש באופן קבוע, ובנוסף עומס טיפולי/מצב רפואי המחייב צוות מיומן: אי־יציבות, פצעי לחץ בדרגה 3–4, עירוי ממושך, בעיות נשימה, דיאליזה קבועה, ממאירות בטיפול אקטיבי או עירויי דם חוזרים בתדירות העולה על פעם בחודש לאחר בירור. [עמ׳ 3, הגדרה 7]",
+        "שיקומי: טיפול לחזרה מלאה או חלקית לתפקוד לאחר אירוע מוחי/נוירולוגי, שבר או בעיה אורתופדית, דלקת מפרקים עם הפרעה תפקודית, או מחלה קשה וממושכת עם deconditioning. [עמ׳ 3, הגדרה 8]",
+        "תת־אקוטי: אחרי השלב החריף של מחלה פנימית, עדיין נדרש טיפול רפואי וסיעודי לזמן קצר. הנשמה ממושכת: טרכאוסטומיה, שהות של חודש לפחות בבית חולים כללי ולפחות 3 ניסיונות גמילה שלא צלחו. [עמ׳ 4, הגדרות 9–10]",
+        "תפוסת־יתר: עד 105% רק כדי לאפשר למוסד עם מיטות לשיקום לאשפז מטופל שיקומי לתקופה זמנית. [עמ׳ 5, הגדרה 26]"
+      ],
+      "sources": [
+        {
+          "document": "1GeriatricsDivisionBroad.pdf",
+          "locator": "PDF עמ׳ 2–5; נוהל 0.2.1, מהדורה 5, 01.11.2019",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-08f6970a2d4d053f15197beb",
+          "sitting": "2020",
+          "number": 27,
+          "reference": "משרד הבריאות: בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-f7cdd68518d6671b51791c12",
+          "sitting": "2020",
+          "number": 84,
+          "reference": "בחירת מוסד האשפוז המתאים לקשיש ושיקום רפואי בקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-9af80dd50d3021366172470f",
+          "sitting": "2020",
+          "number": 85,
+          "reference": "משרד הבריאות: בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e67fa2aa6374604736fbf3dd",
+          "sitting": "2022-Jun",
+          "number": 8,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ddef9cf1f78256b78075c984",
+          "sitting": "2022-Jun",
+          "number": 96,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-fb612354b8ab97a21a687655",
+          "sitting": "2022-Jun",
+          "number": 98,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-693f1143542d4d4e9cf87a06",
+          "sitting": "2023-Jun",
+          "number": 14,
+          "reference": "בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ab246d8a80dcfd2a5a047994",
+          "sitting": "2024-May",
+          "number": 76,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-f236daa600ddb2c31e2d699f",
+          "sitting": "2026-Jun",
+          "number": 96,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ff5dff1131122d86e4378271",
+          "sitting": "2025-Jun",
+          "number": 13,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-1bbe7663ed422d20fc60e429",
+          "sitting": "2025-Jun",
+          "number": 80,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים (IMA class: חוק)",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-02",
+      "imaItem": 2,
+      "title": "חוזר מנהל רפואה - קביעת מצבו התפקודי (סטטוס) של חולה המאושפז בבית חולים כללי לצורך העברתו למסגרת אשפוזית אחרת.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "הנוהל חל על חולה בבית חולים כללי הזקוק להמשך טיפול במסגרת אשפוז אחרת; אינו קובע סטטוס של חולה המתגורר בקהילה. [עמ׳ 1, §1]",
+        "סיעודי/תשוש נפש: מומחה בגריאטריה; לצורך זכאות רפואית ל״קוד״ משרד הבריאות: גריאטר מחוזי מטעם המשרד. סיעודי־מורכב: מומחה בגריאטריה; שיקומי: מומחה בגריאטריה או בשיקום. [עמ׳ 2, §3]",
+        "תת־אקוטי: כל רופא מטפל, רצוי גריאטר. מונשם כרוני: מומחה בטיפול נמרץ נשימתי ו/או ריאות. אין להגדיר סיעודי/תשוש נפש אם המצב התפקודי זמני. [עמ׳ 2, §3]",
+        "חוות הדעת וההמלצות נרשמות בתיק ובמכתב השחרור; מערבים שירות סוציאלי ומיידעים את המשפחה. במחלוקת בין בית החולים למבטח: גריאטר מחוזי יחליט בתוך שני ימי עבודה; מחלוקת שלא נפתרה עוברת לראש האגף לגריאטריה ו/או הנהלת המשרד. [עמ׳ 2–3, §§4.2–4.8]",
+        "במחלוקת על צורך בשיקום: הערכה במסגרת שיקומית אשפוזית או חוות דעת נוספת של מומחה בגריאטריה/שיקום המקובל על המבטח; מתעדים אי־הסכמה. בקשת ״קוד״ עוברת ללשכת הבריאות אם סיעודי/תשוש נפש אינו יכול לחזור לקהילה. [עמ׳ 3, §§4.9–4.10]",
+        "אין להחזיר למוסד ללא רישוי מתאים; חשד להתעללות במסגרת המוצא מחייב אשפוז עד סידור מתאים ודיווח לפקיד סעד או למשטרה. חולה שיקומי שאינו יכול לחזור לביתו יועבר בהקדם למסגרת שיקום מורשית. [עמ׳ 3–4, §5]"
+      ],
+      "sources": [
+        {
+          "document": "2MedicalDirectorCircular.pdf",
+          "locator": "PDF עמ׳ 1–4; חוזר 26/2010",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-64017e896e68192670a11fe2",
+          "sitting": "2020",
+          "number": 79,
+          "reference": "קביעת הסטטוס של חולה לצורך העברתו למסגרת אשפוז אחרת",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-914ae4da60a23fa3609f9656",
+          "sitting": "2021-Dec",
+          "number": 42,
+          "reference": "קביעת הסטטוס של חולה לצורך העברתו",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-971cda5e21170c33b0d0b53a",
+          "sitting": "2023-Jun",
+          "number": 86,
+          "reference": "קביעת מצב תפקודי (סטטוס) של חולה המאושפז בבית חולים כללי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-3743629a1b555477421d2cd9",
+          "sitting": "2024-Sep",
+          "number": 47,
+          "reference": "חוזר משרד הבריאות — קביעת סטטוס",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-a02930b506592f438ff8cb02",
+          "sitting": "2024-Sep",
+          "number": 58,
+          "reference": "חוזר משרד הבריאות — קביעת סטטוס",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-f236daa600ddb2c31e2d699f",
+          "sitting": "2026-Jun",
+          "number": 96,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ff5dff1131122d86e4378271",
+          "sitting": "2025-Jun",
+          "number": 13,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-1bbe7663ed422d20fc60e429",
+          "sitting": "2025-Jun",
+          "number": 80,
+          "reference": "משרד הבריאות — קביעת סטטוס ובחירת מוסד אשפוז מתאים (IMA class: חוק)",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-03",
+      "imaItem": 3,
+      "title": "חוזר מנהל רפואה - אמות מידה למתן טיפול שיקומי לקשישים.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "האחריות למתן שיקום חלה על הגורם המבטח; נדרשת הסכמה מדעת. התוויות: ירידה תפקודית אורתופדית, נוירולוגית או לאחר מחלה/deconditioning. [עמ׳ 3–4, §§4–5.1]",
+        "מגבלה קודמת או ירידה קוגניטיבית אינן שוללות שיקום כשצפוי שיפור משמעותי ויש שיתוף פעולה המאפשר שיקום. בעיה חריפה המונעת מאמץ מחייבת הערכה חוזרת לאחר חלוף האירוע. [עמ׳ 4, §5.2]",
+        "פצע לחץ שאינו מונע שיקום, הגבלת דריכה זמנית והזנה בזונדה או בגסטרוסטום אינם התוויית־נגד להפניה לשיקום. [עמ׳ 4, §5.3]",
+        "מומחה בגריאטריה/שיקום קובע צורך ויעדים לאחר התייעצות עם צוות רב־מקצועי; החלטה מנומקת ומתועדת מועברת למבטח ולמשפחה לפחות 2 ימי עבודה לפני השחרור. תשובת מומחה מטעם המבטח: מיידית ולא יאוחר מ־2 ימי עבודה; סטייה מההמלצה מחייבת נימוק ותוכנית חלופית. [עמ׳ 5, §§6.3–6.6]",
+        "שיקום באשפוז נדרש כשאין תנאים ביתיים/קהילתיים, נדרשת השגחה ממושכת, או יש ליקויים המחייבים צוות ואמצעים של מסגרת אשפוז. לאחר אירוע מוחי/פגיעה נוירולוגית: FIM מתחת ל־75 או Barthel מתחת ל־16 הם בין ההתוויות לאשפוז. [עמ׳ 6, §7]",
+        "הערכה בקבלה ולקראת שחרור, רצוי באותו כלי מדידה. משך אשפוז לפי הצורך, לפחות 14 יום בשיקום אורתופדי ו־25 יום בנוירולוגי; קיצור מחייב נימוק בתיק ובמכתב השחרור לפי ההערכה התפקודית. [עמ׳ 7, §§8.4, 9.2]"
+      ],
+      "sources": [
+        {
+          "document": "3MedicalDirectorProviding.pdf",
+          "locator": "PDF עמ׳ 3–7; חוזר 4/2009",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-f7cdd68518d6671b51791c12",
+          "sitting": "2020",
+          "number": 84,
+          "reference": "בחירת מוסד האשפוז המתאים לקשיש ושיקום רפואי בקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-584efd4ae05bbe5c48d0409f",
+          "sitting": "2021-Dec",
+          "number": 57,
+          "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-6ba05d11f3ef3af2f94b0786",
+          "sitting": "2021-Dec",
+          "number": 97,
+          "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e9726c2e2313e5408517930a",
+          "sitting": "2021-Dec",
+          "number": 17,
+          "reference": "שיקום רפואי לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-fda71abd73e488940f33d8a8",
+          "sitting": "2022-Jun",
+          "number": 16,
+          "reference": "חוזר משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-f6c1d45922e1027bb5ab4324",
+          "sitting": "2023-Jun",
+          "number": 89,
+          "reference": "אמות מידה למתן טיפול שיקומי לקשישים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-92187e5ab10d4fe7ecd14771",
+          "sitting": "2024-May",
+          "number": 65,
+          "reference": "משרד הבריאות — אמות מידה למתן טיפול שיקומי לקשישים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-b68a3e95e9873facb2f5f6cc",
+          "sitting": "2024-Sep",
+          "number": 88,
+          "reference": "אמות מידה למתן טיפול שיקומי לזקנים",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-04",
+      "imaItem": 4,
+      "title": "חוק החולה הנוטה למות התשס״ו 2005.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "הרופא האחראי קובע: חולה הנוטה למות — בעיה חשוכת מרפא ותוחלת חיים עד 6 חודשים גם בטיפול; שלב סופי — כשל כמה מערכות חיוניות ותוחלת חיים עד שבועיים. בעל כשרות: מגיל 17, מסוגל להביע רצון, לא פסול דין ולא הוצא מחזקת הכשרות. [§§3, 6–8]",
+        "בהעדר הוכחה מעבר לכל ספק סביר נוטים לטובת המשך החיים. בחולה ללא כשרות: הנחיות בתוקף, החלטת מיופה כוח בתוקף או ועדה; בהעדרן — החלטת הרופא האחראי בהתחשב בהצהרה מפורשת של ״אדם קרוב״; ובהעדרה בעמדת אפוטרופוס שהוא אדם קרוב, ככל שישנו. [§§4–5]",
+        "״אדם קרוב״: קרבה משפחתית או רגשית ומסירות, וגם היכרות טובה על בסיס קשר רצוף ומתמשך, לפי דעת הרופא האחראי. עצם מינוי אפוטרופוס אינו ממלא אוטומטית הגדרה זו. [§3]",
+        "כשיר המסרב להארכת חייו: מכבדים רצונו, לצד מאמץ סביר לשכנע לקבל חמצן, מזון, נוזלים, טיפול שגרתי ומקל. לא־כשיר עם סבל משמעותי ורצון שנקבע: §16 מחייב טיפול נלווה; בשלב סופי §17 מתיר את החריג אך נוזלים לא יימנעו אלא אם הרופא האחראי קובע שהם גורמים סבל או נזק. [§§15–17]",
+        "אסורים המתה במעשה, סיוע להתאבדות והפסקת טיפול רציף העלולה להביא למוות; ניתן להימנע מחידוש טיפול מחזורי בכפוף לחוק. יש להקל סבל גם בסיכון סביר לחיים. בזמן מחלוקת שהובאה/תובא לוועדה שומרים אפשרות להמשך החיים. [§§19–23]",
+        "הנחיות וייפוי כוח: עד 5 שנים, ניתנים להארכה. מסמך שפג תוקפו אינו מחייב, אך הרופא חייב לעיין בו ורשאי להתחשב בו. בהעדר הוראה על סתירה, הנחיה מקדימה עדיפה על מיופה כוח; אם ייפוי הכוח מאוחר במידה משמעותית — הכרעת ועדה. [§§34, 37–39, 42]",
+        "״חסוי״ לפי §29: אי־יכולת קבועה לדאוג לעניינים בשל מוגבלות שכלית/נפשית שקדמה לקביעת מצב נוטה למות, ללא הנחיות/ייפוי כוח בתוקף. אם רצונו אינו ידוע: הסכמת הרופא והאפוטרופוס להארכה מאפשרת לפעול כך; בכל מקרה אחר הוועדה המוסדית מכריעה. [§29]",
+        "ועדה מוסדית: 3 מומחים שאינם מטפלים ישירות, פסיכיאטר, אחות, עו״ס או פסיכולוג קליני, מומחה לאתיקה/פילוסופיה, משפטן ואיש דת ככל האפשר. מכריעה במחלוקות/ספק; ערר על החלטתה לוועדה הארצית. [§§45–47, 51(א)(4)]",
+        "מניין רגיל להחלטת ועדה מוסדית: לפחות 5 חברים, בהם משפטן, רופא ושני חברים נוספים שאינם רופאים; החלטה ברוב, ובשוויון מכריע היו״ר. החריג להרכב חלקי הוא לפי §45(ה). [§47(ד)]"
+      ],
+      "sources": [
+        {
+          "document": "gov-site-items/A_dying-patient-law_nevo-consolidated.htm",
+          "locator": "נוסח מאוחד; סעיפים 3–8, 15–17, 19–23, 29, 34, 37–39, 42, 45–47, 51; HTML ללא עמודי PDF",
+          "via": "Supplied consolidated HTML; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-ece2bd90f12d03c630b999f9",
+          "sitting": "2024-May",
+          "number": 86,
+          "reference": "חוק החולה הנוטה למות — הנחיות מקדימות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-9356163afe4cd0cf36ad01a6",
+          "sitting": "2020",
+          "number": 21,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-25977eff884454c1df2ec0a8",
+          "sitting": "2020",
+          "number": 61,
+          "reference": "ייפוי כוח מתמשך (חוק הכשרות המשפטית והאפוטרופסות) וחוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-5ad0bdc999886ea23dd577f8",
+          "sitting": "2020",
+          "number": 64,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e30d5b23a9f65b0c495739e2",
+          "sitting": "2020",
+          "number": 70,
+          "reference": "המלצות ועד המותב — חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-1491a19270cfe5e385a4c663",
+          "sitting": "2021-Dec",
+          "number": 8,
+          "reference": "חוק החולה הנוטה למות; section not specified",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-4f69e7c2f0d4c3517a8f1e6b",
+          "sitting": "2021-Dec",
+          "number": 33,
+          "reference": "חוק החולה הנוטה למות; section not specified",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-09467962fb342d44fd6b55fc",
+          "sitting": "2021-Dec",
+          "number": 95,
+          "reference": "חוק החולה הנוטה למות; section not specified",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-da1e76694d63f5b833729f75",
+          "sitting": "2022-Jun",
+          "number": 31,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-558754bdd0a7904a5c8cdd50",
+          "sitting": "2023-Jun",
+          "number": 22,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-7bd5c333fb742a1192c41f33",
+          "sitting": "2023-Jun",
+          "number": 39,
+          "reference": "חוק החולה הנוטה למות; Hazzard 8e · pp. 1296-1297",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-77439aa8a979ace4bbc4db8e",
+          "sitting": "2023-Jun",
+          "number": 84,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-b548e0a478043a7ca7d21e89",
+          "sitting": "2023-Jun",
+          "number": 87,
+          "reference": "חוק החולה הנוטה למות; מינוי אפוטרופוס",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e72e8a76b8db84bd613defc5",
+          "sitting": "2024-Sep",
+          "number": 38,
+          "reference": "ייפוי כוח מתמשך בחולים במקרים דחופים 2023; חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-7fbd59a824fc038d8fdb2a37",
+          "sitting": "2026-Jun",
+          "number": 93,
+          "reference": "חוק החולה הנוטה למות — סעיף 17",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-8ceb825522dee040d6bc0a79",
+          "sitting": "2026-Jun",
+          "number": 95,
+          "reference": "חוק החולה הנוטה למות — סעיף 15",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-a5af01dd00d786e51c85ce5b",
+          "sitting": "2025-Jun",
+          "number": 37,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-347194b95c71c6d4fcbb34f4",
+          "sitting": "2025-Jun",
+          "number": 52,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-c96af8d727732c9078673e23",
+          "sitting": "2025-Jun",
+          "number": 59,
+          "reference": "חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-05",
+      "imaItem": 5,
+      "title": "המלצות מותב הוועדה הארצית לחוק החולה הנוטה למות : הנושא : PEG לחולה עם קיהיון (דמנציה, שיטיון) שהוא נוטה למות.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "הדיון הוא בחולה קיהיון שהוגדר נוטה למות או בשלב סופי; אין להשליך את ההחלטות על חולי קיהיון שאינם נוטים למות. [עמ׳ 1]",
+        "נוטה למות: יש לספק מזון ונוזלים גם באמצעים מלאכותיים, אלא אם יש הוריית־נגד רפואית ברורה וספציפית בחולה; בשלב סופי יש לספק נוזלים, אלא אם יש הוריית־נגד כזו. הרופא האחראי מנמק ומתעד. [עמ׳ 5, החלטות א–ב]",
+        "ההחלטה על דרך ההזנה אינדיבידואלית ורפואית, בשיתוף צוות רב־מקצועי. ירידה קוגניטיבית, איכות חיים כפי שמעריך אדם אחר או עצם היות החולה נוטה למות אינם הוריית־נגד רפואית למזון/נוזלים. [עמ׳ 5, החלטות ג–ה]",
+        "הדרך המועדפת היא דרך הפה: מזון מותאם, כמויות קטנות, האכלה איטית והתאמת בליעה בידי קלינאית תקשורת. מתעדים הערכה וטיפול. [עמ׳ 3, סעיפים 3–6; עמ׳ 5, החלטות ו–ז]",
+        "כשאי אפשר להאכיל/להשקות במידה ראויה דרך הפה: עירוי, זונדה או PEG לפי הצורך; אין להשתמש בזונדה כתחליף קבוע בגלל סיבוכים. ניתן לדחות PEG קצרות לבירור, תוך הקפדה על הידרציה. [עמ׳ 6, החלטות ח–ט]",
+        "אין להתקין PEG בחולה קיהיון נוטה למות בזמן מחלה חריפה, או בחולה קיהיון בשלב סופי — ההמלצה קובעת שהדבר מסכן את חייו. [עמ׳ 6]"
+      ],
+      "sources": [
+        {
+          "document": "4Recommendations.pdf",
+          "locator": "PDF עמ׳ 1–6; המלצות המותב, 11.08.2016",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-e30d5b23a9f65b0c495739e2",
+          "sitting": "2020",
+          "number": 70,
+          "reference": "המלצות ועד המותב — חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-06",
+      "imaItem": 6,
+      "title": "חוזר מנהל רפואה - מינוי אפוטרופוס על גופו של אדם ו/או רכושו באשפוז ממושך.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "מסלול מינוי בצו בית משפט/בית דין במקרים שאינם דחופים; חל במוסדות סיעודיים, לתשושי נפש ובמסגרות אשפוז ממושך. העו״ס מרכז ומתאם את ההליך והמסמכים. [עמ׳ 2, §§2, 6]",
+        "עדיפות לקרוב משפחה או אדם אחר הדואג למטופל, כשיר ומסכים; בהעדרו אפשר מועמד אחר או גוף מוסמך. העו״ס משיג חוות דעת מומחה ודו״ח סוציאלי ומנחה את המשפחה בפנייה לבית המשפט לענייני משפחה. [עמ׳ 3, §§7–8]",
+        "בבקשה מצרפים תעודת מומחה, דו״ח סוציאלי, הסכמת המועמד והסכמת בני משפחה. מומחה: גריאטריה, פסיכיאטריה, נוירולוגיה, משפחה או פנימית; רצוי מומחה למחלה הרלוונטית ומי שמכיר את המטופל. [עמ׳ 4, §9.3]",
+        "בתעודה: אבחנות, תולדות המחלה, מקורות מידע ובדיקה, מצב קוגניטיבי/התנהגותי, דחיפות וסיכון בעיכוב, תובנה והמלצה לתקופת המינוי. הסכמות ותצהיר מצורפים כנדרש. [עמ׳ 4–5, §§9.3.2–9.3.5]",
+        "הסמכות בדרך כלל לבית המשפט לענייני משפחה באזור מגורי המטופל או הימצאו הזמני; לבתי דין דתיים סמכות מקבילה בהסכמת הצדדים. [עמ׳ 6, §10]"
+      ],
+      "sources": [
+        {
+          "document": "5MedicalGuardianHospitalization.pdf",
+          "locator": "PDF עמ׳ 2–6; §§2, 6–10",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-2a733ae05cc2358d92d04f65",
+          "sitting": "2021-Dec",
+          "number": 3,
+          "reference": "חוזר מינהל רפואה — מינוי אפוטרופוס על גופו של אדם",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-b548e0a478043a7ca7d21e89",
+          "sitting": "2023-Jun",
+          "number": 87,
+          "reference": "חוק החולה הנוטה למות; מינוי אפוטרופוס",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-07",
+      "imaItem": 7,
+      "title": "עריכה והפקדה של ייפוי כוח מתמשך.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "הממנה בגיר המבין את משמעות ייפוי הכוח, מטרותיו ותוצאותיו; מנגישים מידע לפי הצורך. מיופה הכוח אדם יחיד בגיר, לא תאגיד; אין למנותו ליותר מ־3 ממנים שאינם בני משפחתו. [עמ׳ 6]",
+        "לא ממנים מיופה כוח שמונה לו עצמו אפוטרופוס/נכנס לתוקף ייפוי כוח בעניינו; יש מגבלות חדלות פירעון בענייני רכוש. נותן שירותי טיפול/מגורים בתשלום אינו מתמנה, למעט חריג קרוב משפחה במגורים; עורך המסמך אינו מיופה כוח. [עמ׳ 6–7]",
+        "ייפוי כוח כללי נערך בפני עו״ד שעבר הכשרה ואינו בעל עניין אישי. רפואי בלבד יכול להיערך גם בפני עו״ד ללא ההכשרה הייעודית או רופא, אח, פסיכולוג או עו״ס. הוראות לפי חוק החולה הנוטה למות דורשות מסמך נפרד. [עמ׳ 10–12]",
+        "הממנה ומיופה הכוח חותמים; הפקדה אצל האפוטרופוס הכללי היא תנאי לתוקף. ההפקדה מקוונת בידי עו״ד, או באישור הממנה בדרך המתוארת במדריך. [עמ׳ 13]",
+        "כניסה לתוקף כשחדל הממנה להבין ולקבל החלטות בעניינים שנכללו: לפי התנאי שנקבע; בהעדרו חוות דעת מומחה. אסור שהתנאי יהיה שיקול דעתו הבלעדי של מיופה הכוח. נדרשת הצהרה לאפוטרופוס הכללי וקיום חובת היידוע. [עמ׳ 15]",
+        "לאחר ההצהרה ומילוי התנאים ניתן אישור כניסה לתוקף. חריג לענייני רכוש בלבד: אפשר להפעיל לפי חוק השליחות גם כשהממנה מבין בדבר. [עמ׳ 16]"
+      ],
+      "sources": [
+        {
+          "document": "gov-site-items/B2_enduring-POA_guide_justice-ministry.pdf",
+          "locator": "PDF עמ׳ 4–7, 10–16; מדריך לממנה, עדכון 06.07.2021",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-25977eff884454c1df2ec0a8",
+          "sitting": "2020",
+          "number": 61,
+          "reference": "ייפוי כוח מתמשך (חוק הכשרות המשפטית והאפוטרופסות) וחוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-46770db589a259ce0b35d4b0",
+          "sitting": "2020",
+          "number": 66,
+          "reference": "ייפוי כוח מתמשך — חוק הכשרות המשפטית והאפוטרופסות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-30ca809d5327e7a3f40fa96f",
+          "sitting": "2021-Dec",
+          "number": 22,
+          "reference": "ייפוי כוח מתמשך — חוק הכשרות המשפטית והאפוטרופסות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-7425037b62dd263eb00a7790",
+          "sitting": "2025-Jun",
+          "number": 91,
+          "reference": "ייפוי כוח רפואי / ייפוי כוח מתמשך; altered bank stem: חוק זכויות החולה",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-2420c29631c2ef60e0dcfac5",
+          "sitting": "2024-May",
+          "number": 15,
+          "reference": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ecd64ab60c729ac9474151bc",
+          "sitting": "2026-Jun",
+          "number": 46,
+          "reference": "חוזר משרד הבריאות — הפעלת ייפוי כוח מתמשך",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-08",
+      "imaItem": 8,
+      "title": "הפעלת ייפוי כוח מתמשך בבית חולים במקרים דחופים.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "כשנדרש טיפול רפואי דחוף והממנה אינו יכול להסכים, ניתן במקרים הדחופים המתוארים לקבל הסכמת מיופה הכוח לפני אישור כניסה לתוקף מהאפוטרופוס הכללי. [עמ׳ 1]",
+        "מיופה הכוח מציג את ייפוי הכוח ומתחייב לפעול בהקדם להשגת האישור. אם נקבע שכמה מיופי כוח יפעלו יחד — נדרשת הסכמת כולם. מתעדים עותק המסמך וההתחייבות בתיק. [עמ׳ 1–2]",
+        "הרופאים הרלוונטיים צריכים להתרשם שהממנה אינו מסוגל להסכים, שהטיפול נחוץ בהקדם ושהפעלת ייפוי הכוח תואמת לרצונו כפי שהובע בו. אין להמתין למסמך אישור הכניסה לתוקף בתנאים אלה. [עמ׳ 2]",
+        "ההסתמכות על ההתחייבות היא לזמן קצר שבו ככלל ניתן לקבל אישור בתוך 3 ימי עסקים. לאחר 5 ימים מצרפים אישור, או מתעדים הסבר לעיכוב. [עמ׳ 2]",
+        "זה חריג לטיפול הדחוף בלבד; דרך המלך היא בקשת כניסה לתוקף וקבלת האישור לפני הטיפול. [עמ׳ 2]"
+      ],
+      "sources": [
+        {
+          "document": "6Activating.pdf",
+          "locator": "PDF עמ׳ 1–2; מכתב 07.08.2023",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-2420c29631c2ef60e0dcfac5",
+          "sitting": "2024-May",
+          "number": 15,
+          "reference": "משרד הבריאות — הפעלת ייפוי כוח מתמשך לצורך טיפול רפואי דחוף",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e72e8a76b8db84bd613defc5",
+          "sitting": "2024-Sep",
+          "number": 38,
+          "reference": "ייפוי כוח מתמשך בחולים במקרים דחופים 2023; חוק החולה הנוטה למות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ecd64ab60c729ac9474151bc",
+          "sitting": "2026-Jun",
+          "number": 46,
+          "reference": "חוזר משרד הבריאות — הפעלת ייפוי כוח מתמשך",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-09",
+      "imaItem": 9,
+      "title": "מקבל החלטות חלופי לעניינים רפואיים דחופים.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "למטופל בגיר שאינו יכול לתת הסכמה ונזקק לפעולה רפואית דחופה; להבדיל מפעולת חירום. אין מינוי כשידוע על אפוטרופוס רפואי, ייפוי כוח רפואי תקף או ייפוי כוח מתמשך מופקד הכולל עניינים רפואיים. [עמ׳ 1, §§1–4]",
+        "מומחה במוסד קובע צורך דחוף וחוסר יכולת להסכים גם לאחר הנגשה. עו״ס בודק מסמכים ומשפחה; אם יש מיופה כוח — נותנים לו אישור זמני ומפנים להפעלת ייפוי הכוח. אדם שנבחר בהנחיות מקדימות מקבל קדימות לפי המסמך. [עמ׳ 1–2, §4א–ג]",
+        "סדר המשפחה כשאין מסמך: בן זוג, ילד, הורה, אח; המשפחה יכולה להסכים על בן משפחה בגיר אחר או כמה יחד/לחוד. עו״ס מחתים וממליץ; מנהל המוסד או מוסמך מטעמו מאשר בחתימה. [עמ׳ 2, §4ד–ז]",
+        "תוקף: 6 חודשים, גם לפעולות בקהילה; לפני כל טיפול בודקים שהמטופל עדיין אינו יכול להסכים. אם הוא מסוגל — פועלים לפי רצונו ואין פונים למקבל ההחלטות הזמני. [עמ׳ 2, §4י]",
+        "לפני שחרור בוחנים מחדש כשרות ומעדכנים את המשפחה. אפשר להסדיר מראש לפני פעולה דחופה צפויה; מחלוקת משפחתית/אי־התאמה מחייבת חלופה מתאימה, לרבות פנייה לערכאה. [עמ׳ 2–3, §§4ט, 5–7]"
+      ],
+      "sources": [
+        {
+          "document": "7Temporarydecision.pdf",
+          "locator": "PDF עמ׳ 1–3; ״מקבל החלטות זמני לעניינים רפואיים״, 15.02.2024",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "ima-2026-10",
+      "imaItem": 10,
+      "title": "קבלת החלטות נתמכת.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "מקבל ההחלטות הוא האדם עצמו: מתקשה להחליט אך מסוגל לכך עם תמיכה מותאמת. הנושאים לפי מינוי בית המשפט או הסכם: כספיים, אישיים, רפואיים או אחרים. [עמ׳ 3, 6]",
+        "התומך מלווה בירור רצון, איסוף מידע, הסבר נגיש, מיפוי חלופות ויתרונות/חסרונות ובחירה. האדם בוחר; התומך אינו מחליט במקומו. [עמ׳ 3, 7–8]",
+        "מידע נמסר באופן ניטרלי וברור, בלי לפרש לפי עמדת התומך או להשליך העדפות אישיות. פנייה לקבלת מידע היא בידיעת האדם ובאישורו; מה שהוא יכול לעשות בעצמו — יעשה בעצמו. [עמ׳ 7–8]",
+        "תוכנית מימוש כוללת צעדים, משתתפים, לוח זמנים, מידת מעורבות התומך ונקודות מעקב. ליווי במימוש רק במידת הצורך ובהסכמה מפורשת. [עמ׳ 9–10]",
+        "בהעדר ייפוי כוח לא מבצעים פעולות פיזיות/רכושיות במקום האדם; אפשר לסייע לו להשיג ייפוי כוח כדין, בכתב ומוגדר בנושא. [עמ׳ 10]"
+      ],
+      "sources": [
+        {
+          "document": "gov-site-items/C_supported-decision-making_supporter-role.pdf",
+          "locator": "PDF עמ׳ 3, 6–10; תיאור תפקיד התומך",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-9976242ecf825d241593f4bd",
+          "sitting": "2026-Jun",
+          "number": 89,
+          "reference": "קבלת החלטות נתמכת — חוק הכשרות המשפטית והאפוטרופסות; section not specified in IMA list",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-11",
+      "imaItem": 11,
+      "title": "אמות מידה לרישוי ותפעול מחלקה גריאטרית ״סיעוד מורכב״.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "קבלה: סיעודי/תשוש נפש באופן קבוע עם עומס טיפול נוסף — אי־יציבות, פצעי לחץ 3–4, עירוי ממושך, בעיות נשימה (טרכאוסטומיה, BIPAP, סקשיין יותר מפעמיים ביום או ניטור חמצון מדי משמרת), דיאליזה, ממאירות בטיפול אקטיבי או עירויי דם יותר מפעם בחודש לאחר בירור. [עמ׳ 2, §4]",
+        "לא מתאים: סיעודי שאינו מורכב, תת־אקוטי שעדיין זקוק לאיזון בבית חולים כללי, גמילה מהנשמה ממושכת, מי שיש לו פוטנציאל שיקום, הנשמה מלאכותית ממושכת או מי שיכול להיות מטופל בביתו. [עמ׳ 3, §5]",
+        "מחלוקת על השמה: גריאטר מחוזי; אם לא נפתרה — ראש האגף לגריאטריה ו/או הנהלת המשרד. [עמ׳ 3, §6]",
+        "רישוי במוסד גריאטרי סיעודי: לפחות 72 מיטות סיעודי/תשושי נפש, פעילות של שנה לפחות ורישיון לשנה לפחות ביום הבקשה; נדרש אישור הקמה. רופא בית בכל שעות היממה וכוננות מומחה 24 שעות. [עמ׳ 3, §7]",
+        "לפחות 3 יועצים קבועים, בהם מומחה למחלות זיהומיות. מעבדה ורנטגן זמינים 24 שעות; תוצאות בדיקות דחופות בתוך 4 שעות לכל היותר. [עמ׳ 4, §7.4–7.5]",
+        "תקינה למחלקה של 36 מיטות: מנהל וסגן יחד 1.0 משרה (המנהל לפחות 0.5), רופא בית 1, פיזיותרפיה 0.5, ריפוי בעיסוק 0.5, עו״ס 0.5 ודיאטנית 0.5. הכשרה פליאטיבית למנהל או לסגן בתוך שנה. [עמ׳ 5, §8]"
+      ],
+      "sources": [
+        {
+          "document": "8LicensingandOperating.pdf",
+          "locator": "PDF עמ׳ 2–5; חוזר 4/2010",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-fb612354b8ab97a21a687655",
+          "sitting": "2022-Jun",
+          "number": 98,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ab246d8a80dcfd2a5a047994",
+          "sitting": "2024-May",
+          "number": 76,
+          "reference": "משרד הבריאות — בחירת מוסד האשפוז המתאים לקשיש",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-12",
+      "imaItem": 12,
+      "title": "נוהל טיפול בזקנים נפגעי התעמרות.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "חסר ישע: בשל גיל, מחלה או מוגבלות אינו יכול לדאוג למחייתו, לבריאותו או לשלומו. התעמרות יכולה להיות פיזית, נפשית, כלכלית, הזנחה או שילוב. [עמ׳ 4, §5]",
+        "בעל מקצוע שיש לו יסוד סביר לחשוב שבוצעה עבירה בזקן חסר ישע בידי האחראי עליו מדווח בהקדם האפשרי לפקיד סעד או למשטרה; בחדר מיון חשש סביר שפגיעה נגרמה מאלימות מחייב הודעה למשטרה לפי התקנות המתוארות. [עמ׳ 2–3, §§1.2, 1.5]",
+        "הנהלת המוסד מקימה ועדה קבועה: עו״ס, רופא ואחות; העו״ס מרכז. הוועדה מפקחת, מרכזת מקרים, מדריכה וממליצה על דרכי פעולה. [עמ׳ 5, §§6–7]",
+        "בחשד: בדיקת רופא מיידית, בפרטיות וללא מלווים לפי שיקול המטפל; מזמינים עו״ס, מתעדים שיחה ומעריכים סיכון חוזר. צילום פגיעות רק בהסכמת הנפגע. [עמ׳ 6, §8]",
+        "ישיבה של ועדת האלימות ונציגי השירות הסוציאלי לפחות פעמיים בשנה. זקן נפגע/חשוד כנפגע הזקוק לאשפוז עקב הפגיעה יאושפז לפחות 24 שעות או שיינקטו אמצעים מיידיים להגנתו, בנוסף לדיווח. שחרור בתיאום עם פקיד הסעד והצוות. [עמ׳ 6, §§8.8–10]"
+      ],
+      "sources": [
+        {
+          "document": "9Procedurefortreatingelderly.pdf",
+          "locator": "PDF עמ׳ 2–6",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-e3c3ec0e57070e39c010d2fe",
+          "sitting": "2022-Jun",
+          "number": 60,
+          "reference": "נוהל טיפול בזקנים נפגעי התעמרות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e8ba38432f0a33923c977eb3",
+          "sitting": "2023-Jun",
+          "number": 82,
+          "reference": "נוהל טיפול בזקנים נפגעי התעמרות",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-632ba530eb4611e16d60adfe",
+          "sitting": "2026-Jun",
+          "number": 28,
+          "reference": "נוהל טיפול בזקנים נפגעי התעמרות; Hazzard 8e · ch. 15 p. 213",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-13",
+      "imaItem": 13,
+      "title": "הגדרה מחדש של חובת ההודעה על נהגים עם מצבי בריאות העלולים לסכן את עצמם וזולתם.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "רופא המטפל באדם מגיל 16, מאבחן מחלה וסבור שבנהיגה יסכן את עצמו או אחרים בגללה — מדווח למרב״ד. החובה גוברת על סודיות רפואית בתנאים אלה. [עמ׳ 1–2, §§1, 4]",
+        "יש להזהיר את המטופל מהסיכון, להמליץ על הפסקת נהיגה עד בדיקה ולתעד. עצם הדיווח אינו שלילת רישיון מיידית; המרב״ד ממליץ לרשות הרישוי, לרבות הגבלות/אביזרים. [עמ׳ 3, §7]",
+        "הדיווח מתמקד במצבים כרוניים/קבועים עם פגיעה תפקודית או קוגניטיבית, או סיכון ממשי לאובדן שליטה פתאומי. אבחנה בשלב התחלתי בלבד, ללא פגיעה או סיכון לפי שיקול דעת רפואי, אינה כשלעצמה אינדיקציה. [עמ׳ 3–4, §§8, 10–12]",
+        "מצב אקוטי/זמני: מזהירים להימנע מנהיגה עד התייצבות ומציינים בסיכום את ההמלצות וחובת המעקב; ככלל אין לדווח על מצב זמני. מגבלה קבועה לאחר אירוע מחייבת שיקול לדיווח. [עמ׳ 3–4, §9]",
+        "דיווח מלא ככל הניתן: מצב עדכני, תפקוד, בירור, טיפול ויציבות המחלה. שליחה בפורטל או בדוא״ל המאובטח המופיעים בחוזר. [עמ׳ 4–5, §§13–14]",
+        "עדכון 24.08.2023 מבטל את טופס נספח א׳ של החוזר ומפנה לטופס מעודכן בפורטל. אין להשתמש בטופס הישן כטופס העדכני. [UpdateregardingExecutiveCircular14.pdf, עמ׳ 1]",
+        "נספח 12ב מפריד כישורים גופניים, חושיים ושכליים הדרושים לנהיגה; רישיון מקצועי הוא מדרגות C ו־D. [12 AppendixReporting12B.pdf, עמ׳ 1]"
+      ],
+      "sources": [
+        {
+          "document": "10Redefiningtheobligation.pdf",
+          "locator": "PDF עמ׳ 1–5; חוזר 6/2023",
+          "via": "Rendered page images; P005-2026.pdf, p. 2"
+        },
+        {
+          "document": "UpdateregardingExecutiveCircular14.pdf",
+          "locator": "PDF עמ׳ 1 — ביטול טופס נספח א׳",
+          "via": "Rendered page image"
+        },
+        {
+          "document": "12 AppendixReporting12B.pdf",
+          "locator": "PDF עמ׳ 1",
+          "via": "Rendered page image"
+        },
+        {
+          "document": "11 Reportformformedical risktodriving.docx",
+          "locator": "טופס דיווח נלווה; לא שימש מקור לכלל רפואי בכרטיס",
+          "via": "Supplied file inventory; no PDF page number"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-892e75ca458f60b67b249129",
+          "sitting": "2023-Jun",
+          "number": 91,
+          "reference": "פקודת התעבורה",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-b057a2ce63d661c48b469edf",
+          "sitting": "2026-Jun",
+          "number": 85,
+          "reference": "משרד הבריאות — חובת דיווח למרב״ד",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-14",
+      "imaItem": 14,
+      "title": "בני 65+ בישראל- שנתון סטטיסטי 2024, מכון ברוקדייל, מספר 26.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "מהדורה: 2024, מס׳ 26. כל המספרים להלן מתוך טווחי הקריאה של IMA; השנה הסטטיסטית עשויה להיות מוקדמת משנת המהדורה. [P005-2026.pdf, עמ׳ 3; שנתון, עמ׳ מודפס 47–48]",
+        "בסוף 2022: 1,201,800 בני 65+, שהם 12.4% מהאוכלוסייה; נוספו 39,400 באותה שנה. נשים: 55.4% מבני 65+. [עמ׳ מודפס 34, 48, 50]",
+        "בתוך בני 65+ בשנת 2022: בני 75+ הם 42.4% ובני 80+ הם 23.4%. תחזית 2030: בני 75+ יהיו 49.7% מבני 65+. [עמ׳ מודפס 49]",
+        "גרים לבד בקהילה: 23.1% מבני 65+; נשים 31.7%, גברים 12.9%. בני 75+: 30.3%, לעומת 18.0% בגילי 65–74. [עמ׳ מודפס 54]",
+        "תחזית: חלק בני 65+ באוכלוסייה 13.3% ב־2030 ו־14.7% ב־2045. יחס תלות זקנים ב־2022: 240 בני 65+ ל־1,000 בני 20–64. [עמ׳ מודפס 54–55]",
+        "אינפוגרפיקה: 27% מבני 65+ מדווחים בדידות (נשים 34%, גברים 19%); 90% מרוצים מחייהם. גמלת סיעוד: 315,525 זכאים ב־2022; 25% מבני 65+ זכאים. [עמ׳ מודפס 40–41]",
+        "באינפוגרפיקה 2023: תוחלת החיים בישראל מעוגלת ל־82 ומדורגת 29 בעולם. בפרק הבריאות, נתוני 2022 המדויקים: 84.8 לנשים ו־80.7 לגברים. אלו מדדים/שנים שונים. [עמ׳ מודפס 35, 131]",
+        "תוחלת חיים בגיל 65 (ממוצע 2018–2022): נשים 22.0 שנים, גברים 19.4; בגיל 75: נשים 13.7, גברים 12.1. [עמ׳ מודפס 132]",
+        "דירוג עצמי טוב/טוב מאוד של הבריאות: 59.7% מבני 65+ (ממוצע 2020–2022); 10.5% — לא טוב בכלל. מוגבלות בפעולות משק בית בקהילה: 22.6%; הליכה/מדרגות: 25.2%. [עמ׳ מודפס 134]",
+        "מוגבלות בטיפול אישי (להתלבש/להתרחץ) בקהילה: 11.1% מבני 65+; 6.4% בגילי 65–74 ו־19.2% בגילי 75+. [עמ׳ מודפס 135; ממוצע 2020–2022]",
+        "שירותי חירום ב־2022: בני 65+ הם 23.3% מביקורי המיון; 22.2% מביקוריהם הם ביקורים חוזרים בתוך חודש משחרור ממיון. שיעור אשפוז כללי: 377 ל־1,000 בני 65+. [עמ׳ מודפס 135]",
+        "ב־2022: בני 65+ מהווים 38.2% מכלל האשפוזים; פנימית היא 41.2% מאשפוזיהם; שהייה ממוצעת במחלקות כלליות 4.9 ימים. [עמ׳ מודפס 136]",
+        "ביטוח בנובמבר 2023, בני 65+: כללית 56.1%, מכבי 26.5%, לאומית 7.0%, מאוחדת 10.4%. [עמ׳ מודפס 137]"
+      ],
+      "sources": [
+        {
+          "document": "13StatisticalYearbookfor65YearOlds.pdf",
+          "locator": "עמודים מודפסים 33–43, 47–55, 131–140 (עמודי PDF 35–45, 49–57, 133–142)",
+          "via": "Rendered page images; P005-2026.pdf, p. 3"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-c94fa29e4b2ba5f1c341cbc1",
+          "sitting": "2020",
+          "number": 86,
+          "reference": "בני 65+ בישראל",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-265a3f4cda33cedc748cb1e7",
+          "sitting": "2020",
+          "number": 89,
+          "reference": "בני 65+ בישראל",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-b43997ccbaf4ab24fb543218",
+          "sitting": "2021-Dec",
+          "number": 15,
+          "reference": "לקט נתונים אינפוגרפי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-dc794bb08255721e56f05ae8",
+          "sitting": "2021-Dec",
+          "number": 99,
+          "reference": "לקט נתונים אינפוגרפי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-ba59a9ce44a01ad7c2566471",
+          "sitting": "2020",
+          "number": 73,
+          "reference": "בני 65+ בישראל",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-6f21fad051c4bdf45e220b18",
+          "sitting": "2022-Jun",
+          "number": 63,
+          "reference": "בני 65+ בישראל — לקט נתונים אינפוגרפי 2020",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-6bdf0a9ecbc4429ad722fe0c",
+          "sitting": "2023-Jun",
+          "number": 25,
+          "reference": "לקט נתונים אינפוגרפי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-6e0a38035542e644273558de",
+          "sitting": "2023-Jun",
+          "number": 92,
+          "reference": "לקט נתונים אינפוגרפי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-53129c84f608ac807da5bc14",
+          "sitting": "2024-Sep",
+          "number": 35,
+          "reference": "לקט נתונים אינפוגרפי · p. 39",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-e5e171a0f9f64094a50ab544",
+          "sitting": "2024-Sep",
+          "number": 78,
+          "reference": "לקט נתונים אינפוגרפי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-c67df43fb4f95364375f911d",
+          "sitting": "2026-Jun",
+          "number": 24,
+          "reference": "Brookdale statistical yearbook · p. 135",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-180704b480f1812b1672abc2",
+          "sitting": "2026-Jun",
+          "number": 63,
+          "reference": "Brookdale statistical yearbook · p. 132",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-d2ff40cf73dadddd2214f235",
+          "sitting": "2025-Jun",
+          "number": 9,
+          "reference": "לקט נתונים אינפוגרפי",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ]
+    },
+    {
+      "id": "ima-2026-15",
+      "imaItem": 15,
+      "title": "יש להכיר את אומדן FIM.",
+      "provenance": "official IMA required-reading file",
+      "bullets": [
+        "IMA דורשת להכיר את אומדן FIM. הרשימה אינה מצרפת כאן מסמך ניקוד של האומדן. [P005-2026.pdf, עמ׳ 3, פריט 15]",
+        "הכלל שניתן לאמת בקבצים שסופקו: אחרי אירוע מוחי או בעיה נוירולוגית אחרת, ציון FIM מתחת ל־75 או Barthel מתחת ל־16 הוא בין ההתוויות לשיקום באשפוז. [3MedicalDirectorProviding.pdf, עמ׳ 6, §7.6]",
+        "להערכת התקדמות השיקום מבצעים הערכה בקבלה ולקראת שחרור ומומלץ להשתמש באותו כלי. [3MedicalDirectorProviding.pdf, עמ׳ 7, §8.4]"
+      ],
+      "sources": [
+        {
+          "document": "P005-2026.pdf",
+          "locator": "PDF עמ׳ 3, פריט 15",
+          "via": "Rendered page images; P005-2026.pdf, p. 3"
+        },
+        {
+          "document": "3MedicalDirectorProviding.pdf",
+          "locator": "PDF עמ׳ 6–7, §§7.6, 8.4",
+          "via": "Rendered page images"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-d77dd3b1ab1dbb492058f5df",
+          "sitting": "2021-Dec",
+          "number": 56,
+          "reference": "FIM",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        },
+        {
+          "id": "mcq-5323c51583402673a5d61738",
+          "sitting": "2026-Jun",
+          "number": 92,
+          "reference": "FIM",
+          "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
+        }
+      ],
+      "gap": "חסר במקורות שסופקו: מדריך פריטי FIM, דרגות הניקוד וכללי חישוב. הכרטיס אינו מספק כיסוי מלא של אומדן FIM."
     }
-  ]
+  ],
+  "requiredReading": {
+    "document": "P005-2026.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "note": "Hazzard 8e: excluding chapters 2–6, 34, 62 (p. 1). Six journal articles are not included; source files were not supplied. PDF citations are 1-based; Brookdale citations use printed pages. Existing cards and historical study notes remain below.",
+    "readMethod": "Rendered page images"
+  }
 }
