@@ -1,5 +1,5 @@
 {
-  "version": "v59",
+  "version": "v60",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -1652,6 +1652,11 @@
       "bytes": 12738
     },
     {
+      "url": "./css/memory-aids.css",
+      "sha256": "e6e5ba230cb03e69b3e4752525222ee07835af84f7733202f20566a10ea7f09b",
+      "bytes": 878
+    },
+    {
       "url": "./data/law-cards.json",
       "sha256": "ba9989d7218a47adc16660d297eb095407830aa9c57fd2a09942ae3366cbd1da",
       "bytes": 27540
@@ -2102,9 +2107,14 @@
       "bytes": 608
     },
     {
+      "url": "./data/memory-aids.json",
+      "sha256": "9c330e7d0faed835392cd9479ba58c494c418a70dcfff6b3fe6c5e03a14803f6",
+      "bytes": 69223
+    },
+    {
       "url": "./index.html",
-      "sha256": "2b5a9a0a0b7744d6bca1151c9767e147fd5779355165f866f31c3e8c0ec59ce3",
-      "bytes": 3273510
+      "sha256": "69d73c4ba9f964bf64436251fb07338ed69b2dd3ab05f73035fa3aaad7b8aa41",
+      "bytes": 3273669
     },
     {
       "url": "./js/exam-evidence.js",
@@ -2137,13 +2147,18 @@
       "bytes": 49513
     },
     {
+      "url": "./js/memory-aids.js",
+      "sha256": "061b78e4a629883605a50d6e31ca4bc558575ac10db6a5a5bf92a7a5f1bc3c79",
+      "bytes": 3777
+    },
+    {
       "url": "./js/reader-cloud.js",
       "sha256": "e52dfc0cc3375bc39a09cdaf1b8117dd14ad03d951f91182dc4cd018963889ad",
       "bytes": 10458
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "41b865516d6ad928903addcadf2960082f7b5717bf3842ce03157147cb90e65b",
+      "sha256": "2244f8ec8b06d69c751d57f99667054a858fa2c0ff671adf9dd4712a64bad316",
       "bytes": 6590
     },
     {
