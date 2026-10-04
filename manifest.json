@@ -495,6 +495,46 @@
       "kind": "study",
       "studyOnly": true,
       "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+    },
+    {
+      "number": "53s",
+      "title": "Hip Fractures — Study",
+      "file": "hazzard8e_ch53_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study summary only - read the full chapter in the book, pp 793-804. Summary + 15-question drill; fast build, not lane-reviewed."
+    },
+    {
+      "number": "67s",
+      "title": "Palliative Care and Special Management Issues — Study",
+      "file": "hazzard8e_ch67_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study summary only - read the full chapter in the book, pp 1045-1054. Summary + 15-question drill; fast build, not lane-reviewed."
+    },
+    {
+      "number": "92s",
+      "title": "Gastrointestinal Malignancies — Study",
+      "file": "hazzard8e_ch92_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study summary only - read the full chapter in the book, pp 1435-1454. Summary + 15-question drill; fast build, not lane-reviewed."
+    },
+    {
+      "number": "95s",
+      "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders — Study",
+      "file": "hazzard8e_ch95_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study summary only - read the full chapter in the book, pp 1483-1508. Summary + 15-question drill; fast build, not lane-reviewed."
+    },
+    {
+      "number": "106s",
+      "title": "Urinary Tract Infections — Study",
+      "file": "hazzard8e_ch106_study.md",
+      "kind": "study",
+      "studyOnly": true,
+      "description": "Study summary only - read the full chapter in the book, pp 1699-1718. Summary + 15-question drill; fast build, not lane-reviewed."
     }
   ]
 }
