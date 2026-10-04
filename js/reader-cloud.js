@@ -164,5 +164,5 @@ window.HazzardCloud = (() => {
     addEventListener('storage',event=>{if(event.key===SESSION||event.key===STATE){epoch++;session=read(SESSION);state=read(STATE);known=false;tick=false;render();if(signed())inspect();}});
     render();if(signed())inspect();
   }
-  return {start,label,get tick(){return tick;},get paused(){return paused();},get pauseAt(){return pauseAt();}};
+  return {start,label,get signedIn(){return signed();},get tick(){return tick;},get paused(){return paused();},get pauseAt(){return pauseAt();}};
 })();
