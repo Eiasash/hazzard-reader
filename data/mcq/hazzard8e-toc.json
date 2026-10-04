@@ -1,0 +1,654 @@
+{
+  "edition": 8,
+  "source": "Hazzard 8e printed Contents pp. v-vii (PDF pages 7-9); Index starts p.1741",
+  "chapters": [
+    {
+      "chapter": "1",
+      "title": "Biology of Aging and Longevity",
+      "start": 3,
+      "end": 22
+    },
+    {
+      "chapter": "2",
+      "title": "Demography and Epidemiology",
+      "start": 23,
+      "end": 46
+    },
+    {
+      "chapter": "3",
+      "title": "Immunology and Inflammation",
+      "start": 47,
+      "end": 64
+    },
+    {
+      "chapter": "4",
+      "title": "Psychosocial Aspects of Aging",
+      "start": 65,
+      "end": 82
+    },
+    {
+      "chapter": "5",
+      "title": "Sex Differences in Health and Longevity",
+      "start": 83,
+      "end": 94
+    },
+    {
+      "chapter": "6",
+      "title": "Social Determinants of Health, Health Disparities, and Health Equity",
+      "start": 95,
+      "end": 108
+    },
+    {
+      "chapter": "7",
+      "title": "Decision Making and Advance Care Planning: What Matters Most",
+      "start": 109,
+      "end": 116
+    },
+    {
+      "chapter": "8",
+      "title": "Principles of Geriatric Assessment",
+      "start": 117,
+      "end": 132
+    },
+    {
+      "chapter": "9",
+      "title": "Mental Status and Neurologic Examination",
+      "start": 133,
+      "end": 150
+    },
+    {
+      "chapter": "10",
+      "title": "Assessment of Decisional Capacity and Competencies",
+      "start": 151,
+      "end": 156
+    },
+    {
+      "chapter": "11",
+      "title": "Prevention and Screening",
+      "start": 157,
+      "end": 170
+    },
+    {
+      "chapter": "12",
+      "title": "Age-Friendly Care",
+      "start": 171,
+      "end": 178
+    },
+    {
+      "chapter": "13",
+      "title": "Geriatrics Around the World",
+      "start": 179,
+      "end": 190
+    },
+    {
+      "chapter": "14",
+      "title": "Models of Hospital and Outpatient Care",
+      "start": 191,
+      "end": 206
+    },
+    {
+      "chapter": "15",
+      "title": "Emergency Department Care",
+      "start": 207,
+      "end": 220
+    },
+    {
+      "chapter": "16",
+      "title": "Institutional Long-Term and Post-Acute Care",
+      "start": 221,
+      "end": 236
+    },
+    {
+      "chapter": "17",
+      "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care",
+      "start": 237,
+      "end": 248
+    },
+    {
+      "chapter": "18",
+      "title": "Transitions of Care",
+      "start": 249,
+      "end": 262
+    },
+    {
+      "chapter": "19",
+      "title": "Value-Based Care",
+      "start": 263,
+      "end": 276
+    },
+    {
+      "chapter": "20",
+      "title": "The Role of Social Workers",
+      "start": 277,
+      "end": 286
+    },
+    {
+      "chapter": "21",
+      "title": "The Patient Perspective",
+      "start": 287,
+      "end": 300
+    },
+    {
+      "chapter": "22",
+      "title": "Medication Prescribing and De-Prescribing",
+      "start": 301,
+      "end": 316
+    },
+    {
+      "chapter": "23",
+      "title": "Substance Use and Disorders",
+      "start": 317,
+      "end": 328
+    },
+    {
+      "chapter": "24",
+      "title": "Integrative Medicine and Health",
+      "start": 329,
+      "end": 344
+    },
+    {
+      "chapter": "25",
+      "title": "Patient-Centered Management of Chronic Diseases",
+      "start": 345,
+      "end": 360
+    },
+    {
+      "chapter": "26",
+      "title": "Legal Issues",
+      "start": 361,
+      "end": 370
+    },
+    {
+      "chapter": "27",
+      "title": "Perioperative Care: Evaluation and Management",
+      "start": 371,
+      "end": 382
+    },
+    {
+      "chapter": "28",
+      "title": "Anesthesia",
+      "start": 383,
+      "end": 398
+    },
+    {
+      "chapter": "29",
+      "title": "Surgical Quality and Outcomes",
+      "start": 399,
+      "end": 404
+    },
+    {
+      "chapter": "30",
+      "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation",
+      "start": 405,
+      "end": 436
+    },
+    {
+      "chapter": "31",
+      "title": "Disorders of Swallowing",
+      "start": 437,
+      "end": 452
+    },
+    {
+      "chapter": "32",
+      "title": "Oral Health",
+      "start": 453,
+      "end": 468
+    },
+    {
+      "chapter": "33",
+      "title": "Low Vision: Assessment and Rehabilitation",
+      "start": 469,
+      "end": 488
+    },
+    {
+      "chapter": "34",
+      "title": "Hearing Loss: Assessment and Management",
+      "start": 489,
+      "end": 502
+    },
+    {
+      "chapter": "35",
+      "title": "Sexuality, Sexual Function, and the Aging Woman",
+      "start": 503,
+      "end": 526
+    },
+    {
+      "chapter": "36",
+      "title": "Gynecologic Disorders",
+      "start": 527,
+      "end": 546
+    },
+    {
+      "chapter": "37",
+      "title": "Sexuality, Sexual Function, and the Aging Man",
+      "start": 547,
+      "end": 554
+    },
+    {
+      "chapter": "38",
+      "title": "Benign Prostate Disorders",
+      "start": 555,
+      "end": 574
+    },
+    {
+      "chapter": "39",
+      "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis",
+      "start": 575,
+      "end": 592
+    },
+    {
+      "chapter": "40",
+      "title": "Applied Clinical Geroscience",
+      "start": 593,
+      "end": 604
+    },
+    {
+      "chapter": "41",
+      "title": "Managing the Care of Patients with Multiple Chronic Conditions",
+      "start": 605,
+      "end": 614
+    },
+    {
+      "chapter": "42",
+      "title": "Frailty",
+      "start": 615,
+      "end": 632
+    },
+    {
+      "chapter": "43",
+      "title": "Falls",
+      "start": 633,
+      "end": 642
+    },
+    {
+      "chapter": "44",
+      "title": "Sleep Disorders",
+      "start": 643,
+      "end": 664
+    },
+    {
+      "chapter": "45",
+      "title": "Syncope and Dizziness",
+      "start": 665,
+      "end": 678
+    },
+    {
+      "chapter": "46",
+      "title": "Pressure Injuries",
+      "start": 679,
+      "end": 698
+    },
+    {
+      "chapter": "47",
+      "title": "Incontinence",
+      "start": 699,
+      "end": 718
+    },
+    {
+      "chapter": "48",
+      "title": "Elder Mistreatment",
+      "start": 719,
+      "end": 728
+    },
+    {
+      "chapter": "49",
+      "title": "Muscle Aging and Sarcopenia",
+      "start": 729,
+      "end": 740
+    },
+    {
+      "chapter": "50",
+      "title": "Mobility Assessment and Management",
+      "start": 741,
+      "end": 758
+    },
+    {
+      "chapter": "51",
+      "title": "Osteoporosis",
+      "start": 759,
+      "end": 778
+    },
+    {
+      "chapter": "52",
+      "title": "Osteoarthritis",
+      "start": 779,
+      "end": 792
+    },
+    {
+      "chapter": "53",
+      "title": "Hip Fractures",
+      "start": 793,
+      "end": 804
+    },
+    {
+      "chapter": "54",
+      "title": "Therapeutic Exercise",
+      "start": 805,
+      "end": 816
+    },
+    {
+      "chapter": "55",
+      "title": "Rehabilitation",
+      "start": 817,
+      "end": 834
+    },
+    {
+      "chapter": "56",
+      "title": "The Aging Brain",
+      "start": 835,
+      "end": 852
+    },
+    {
+      "chapter": "57",
+      "title": "Cognitive Changes in Normal and Pathologic Aging",
+      "start": 853,
+      "end": 878
+    },
+    {
+      "chapter": "58",
+      "title": "Delirium",
+      "start": 879,
+      "end": 892
+    },
+    {
+      "chapter": "59",
+      "title": "Dementia Including Alzheimer Disease",
+      "start": 893,
+      "end": 918
+    },
+    {
+      "chapter": "60",
+      "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
+      "start": 919,
+      "end": 934
+    },
+    {
+      "chapter": "61",
+      "title": "Parkinson Disease and Related Disorders",
+      "start": 935,
+      "end": 952
+    },
+    {
+      "chapter": "62",
+      "title": "Cerebrovascular Disease",
+      "start": 953,
+      "end": 980
+    },
+    {
+      "chapter": "63",
+      "title": "Other Neurodegenerative Disorders",
+      "start": 981,
+      "end": 996
+    },
+    {
+      "chapter": "64",
+      "title": "Traumatic Brain Injury and Chronic Traumatic Encephalopathy",
+      "start": 997,
+      "end": 1006
+    },
+    {
+      "chapter": "65",
+      "title": "Major Depression",
+      "start": 1007,
+      "end": 1020
+    },
+    {
+      "chapter": "66",
+      "title": "General Topics in Geriatric Psychiatry",
+      "start": 1021,
+      "end": 1044
+    },
+    {
+      "chapter": "67",
+      "title": "Palliative Care and Special Management Issues",
+      "start": 1045,
+      "end": 1054
+    },
+    {
+      "chapter": "68",
+      "title": "Pain Management",
+      "start": 1055,
+      "end": 1070
+    },
+    {
+      "chapter": "69",
+      "title": "Management of Common Nonpain Symptoms",
+      "start": 1071,
+      "end": 1076
+    },
+    {
+      "chapter": "70",
+      "title": "Palliative Care Across Care Settings",
+      "start": 1077,
+      "end": 1088
+    },
+    {
+      "chapter": "71",
+      "title": "Effective Communication Strategies For Patients with Serious Illness",
+      "start": 1089,
+      "end": 1096
+    },
+    {
+      "chapter": "72",
+      "title": "Ethical Issues",
+      "start": 1097,
+      "end": 1114
+    },
+    {
+      "chapter": "73",
+      "title": "The Aging Cardiovascular System",
+      "start": 1115,
+      "end": 1132
+    },
+    {
+      "chapter": "74",
+      "title": "Coronary Heart Disease and Dyslipidemia",
+      "start": 1133,
+      "end": 1148
+    },
+    {
+      "chapter": "75",
+      "title": "Valvular Heart Disease",
+      "start": 1149,
+      "end": 1164
+    },
+    {
+      "chapter": "76",
+      "title": "Heart Failure",
+      "start": 1165,
+      "end": 1192
+    },
+    {
+      "chapter": "77",
+      "title": "Cardiac Arrhythmias",
+      "start": 1193,
+      "end": 1208
+    },
+    {
+      "chapter": "78",
+      "title": "Peripheral Vascular Disease",
+      "start": 1209,
+      "end": 1218
+    },
+    {
+      "chapter": "79",
+      "title": "Hypertension",
+      "start": 1219,
+      "end": 1228
+    },
+    {
+      "chapter": "80",
+      "title": "Respiratory System and Selected Pulmonary Disorders",
+      "start": 1229,
+      "end": 1234
+    },
+    {
+      "chapter": "81",
+      "title": "Chronic Obstructive Pulmonary Disease",
+      "start": 1235,
+      "end": 1266
+    },
+    {
+      "chapter": "82",
+      "title": "Aging of the Kidney",
+      "start": 1267,
+      "end": 1276
+    },
+    {
+      "chapter": "83",
+      "title": "Kidney Diseases",
+      "start": 1277,
+      "end": 1298
+    },
+    {
+      "chapter": "84",
+      "title": "Aging of the Gastrointestinal System and Selected Lower GI Disorders",
+      "start": 1299,
+      "end": 1314
+    },
+    {
+      "chapter": "85",
+      "title": "Upper Gastrointestinal Disorders",
+      "start": 1315,
+      "end": 1336
+    },
+    {
+      "chapter": "86",
+      "title": "Hepatic, Pancreatic, and Biliary Diseases",
+      "start": 1337,
+      "end": 1352
+    },
+    {
+      "chapter": "87",
+      "title": "Constipation",
+      "start": 1353,
+      "end": 1380
+    },
+    {
+      "chapter": "88",
+      "title": "Cancer and Aging: General Principles",
+      "start": 1381,
+      "end": 1394
+    },
+    {
+      "chapter": "89",
+      "title": "Breast Disease",
+      "start": 1395,
+      "end": 1408
+    },
+    {
+      "chapter": "90",
+      "title": "Prostate Cancer",
+      "start": 1409,
+      "end": 1420
+    },
+    {
+      "chapter": "91",
+      "title": "Lung Cancer",
+      "start": 1421,
+      "end": 1434
+    },
+    {
+      "chapter": "92",
+      "title": "Gastrointestinal Malignancies",
+      "start": 1435,
+      "end": 1454
+    },
+    {
+      "chapter": "93",
+      "title": "Skin Cancer",
+      "start": 1455,
+      "end": 1472
+    },
+    {
+      "chapter": "94",
+      "title": "Aging of the Hematopoietic System and Anemia",
+      "start": 1473,
+      "end": 1482
+    },
+    {
+      "chapter": "95",
+      "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders",
+      "start": 1483,
+      "end": 1508
+    },
+    {
+      "chapter": "96",
+      "title": "Coagulation Disorders",
+      "start": 1509,
+      "end": 1524
+    },
+    {
+      "chapter": "97",
+      "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
+      "start": 1525,
+      "end": 1544
+    },
+    {
+      "chapter": "98",
+      "title": "Thyroid Diseases",
+      "start": 1545,
+      "end": 1558
+    },
+    {
+      "chapter": "99",
+      "title": "Diabetes Mellitus",
+      "start": 1559,
+      "end": 1588
+    },
+    {
+      "chapter": "100",
+      "title": "Myopathies, Polymyalgia Rheumatica, and Giant Cell Arteritis",
+      "start": 1589,
+      "end": 1606
+    },
+    {
+      "chapter": "101",
+      "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
+      "start": 1607,
+      "end": 1628
+    },
+    {
+      "chapter": "102",
+      "title": "Back Pain and Spinal Stenosis",
+      "start": 1629,
+      "end": 1642
+    },
+    {
+      "chapter": "103",
+      "title": "Fibromyalgia and Myofascial Pain Syndromes",
+      "start": 1643,
+      "end": 1666
+    },
+    {
+      "chapter": "104",
+      "title": "Infection and Appropriate Antimicrobial Selection",
+      "start": 1667,
+      "end": 1678
+    },
+    {
+      "chapter": "105",
+      "title": "Bacterial Pneumonia and Tuberculosis",
+      "start": 1679,
+      "end": 1698
+    },
+    {
+      "chapter": "106",
+      "title": "Urinary Tract Infections",
+      "start": 1699,
+      "end": 1718
+    },
+    {
+      "chapter": "107",
+      "title": "Other Viruses: Human Immunodeficiency Virus Infection and Herpes Zoster",
+      "start": 1719,
+      "end": 1732
+    },
+    {
+      "chapter": "108",
+      "title": "Influenza, COVID-19, and Other Respiratory Viruses",
+      "start": 1733,
+      "end": 1740
+    }
+  ]
+}
