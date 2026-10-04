@@ -2687,7 +2687,8 @@
       "fromBasic": false,
       "duplicates": [
         2472
-      ]
+      ],
+      "explanationIncomplete": true
     },
     "3145": {
       "id": "mcq-367e30a2ed9b80657da3ed48",
@@ -3482,7 +3483,14 @@
       "fromBasic": false,
       "duplicates": [
         2514
-      ]
+      ],
+      "explanation": "על פי חוק ביטוח בריאות ממלכתי (1994) וסל הבריאות הישראלי, מכשיר שמיעה נכלל בסל שירותי הבריאות המסופקים על ידי **קופת החולים**, ללא תלות במקום מגורים של המטופל – כולל מוסד גריאטרי סיעודי. עיקרון זה קריטי: אשפוז בבית חולים סיעודי אינו מעביר את האחריות לציוד רפואי הכלול בסל אל המוסד. המוסד הסיעודי (ג') אחראי לשירותים הסיעודיים עצמם בלבד. משרד הבריאות (ב') אינו מממן ישירות. המטופל/משפחה (ד') אינם חייבים לשאת בעלות שירות הכלול בסל. מקור: חוק ביטוח בריאות ממלכתי, תוספת שנייה.",
+      "explanationSource": {
+        "file": "Geriatrics/data/explanations.json",
+        "sourceIndex": 2514,
+        "commit": "ad9843385fa62c633497022784aa852a23227b72",
+        "method": "Verbatim complete explanation of catalog-listed duplicate; identical options and key"
+      }
     },
     "3194": {
       "id": "mcq-b64b2a93425c5569d9a155e6",
@@ -5529,7 +5537,24 @@
       "fromBasic": false,
       "duplicates": [
         2731
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2024-may-q4-source.png"
+      ],
+      "imageSource": {
+        "url": "https://ima-files.s3.amazonaws.com/644281_35261d06-318a-4789-bd87-4fb212d23dbe.pdf",
+        "page": 2,
+        "figure": 1,
+        "readMethod": "Rendered album page and verified crop against numbered question paper"
+      },
+      "explanationIncomplete": false,
+      "explanation": "חוסר סימטריה בפנים בבוקר עם קושי בסגירת עין מצביע על **שיתוק עצב הפנים (CN VII) היקפי – Bell's Palsy**. בשיתוק היקפי נפגע כל ענף העצב, כולל הסיב העליון, ולכן **לא ניתן לסגור את העין ולא להרים גבה** בצד הפגוע – זהו הסימן המבדיל המרכזי מול פגיעה מרכזית.\n\n**מדוע האחרות שגויות:**\n- **א. חולשת יד ימין** – מצביעה על פגיעה מרכזית (CVA), אך בשיתוק היקפי אין מעורבות גפיים.\n- **ב. דופק לא סדיר** – רלוונטי ל-CVA אמבולי, אך לא ממצא אופייני לשיתוק היקפי.\n- **ד. שיווי משקל לקוי** – מאפיין פגיעה במוח קטן או גזע מוח, לא Bell's Palsy.\n\n(Harrison's; Hazzard's Geriatric Medicine)",
+      "explanationSource": {
+        "file": "Geriatrics/data/explanations.json",
+        "sourceIndex": 2731,
+        "commit": "c548c8eeda05bc4bebe9cd1d961a7a1164dbc658",
+        "method": "Verbatim complete explanation of catalog-listed duplicate; stem identical ignoring whitespace, identical options and key"
+      }
     },
     "6": {
       "id": "mcq-8ebd24e88685391b550381e3",
@@ -5583,7 +5608,24 @@
       "fromBasic": false,
       "duplicates": [
         2734
-      ]
+      ],
+      "images": [
+        "data/mcq/images/2024-may-q8-source.png"
+      ],
+      "imageSource": {
+        "url": "https://ima-files.s3.amazonaws.com/644281_35261d06-318a-4789-bd87-4fb212d23dbe.pdf",
+        "page": 3,
+        "figure": 2,
+        "readMethod": "Rendered album page and verified crop against numbered question paper"
+      },
+      "explanationIncomplete": false,
+      "explanation": "**אוסטאומיאליטיס בפצע לחץ – חשד גבוה מחייב פעולה**\n\nהממצאים הקלינייים מצביעים על **אוסטאומיאליטיס**: פצע לחץ בעקב ללא ריפוי מעל 6 שבועות, כאב מקומי עז, אודם וחום מקומי, CRP מוגבר – גם ללא חום סיסטמי ולויקוציטוזיס (שניהם נעדרים לעיתים קרובות בקשישים עקב אימונוסנסנס). ה-UpToDate/Hazzard ממליצים על **דגימת עצם לתרבית** לפני תחילת אנטיביוטיקה IV רחבת טווח, על מנת להכוון טיפול ממוקד.\n\n- **א' שגויה** – המשך HYDROGEL בפצע מודבק הוא התרשלות.\n- **ב' שגויה** – VAC ללא טיפול בזיהום עצמי יחמיר את המצב.\n- **ד' שגויה** – חבישות מתקדמות אינן מספיקות כאשר יש חשד לאוסטאומיאליטיס.",
+      "explanationSource": {
+        "file": "Geriatrics/data/explanations.json",
+        "sourceIndex": 2734,
+        "commit": "c548c8eeda05bc4bebe9cd1d961a7a1164dbc658",
+        "method": "Verbatim complete explanation of catalog-listed duplicate; stem identical ignoring whitespace, identical options and key"
+      }
     },
     "3339": {
       "id": "mcq-0b3a1e91eb40ee076419243b",
@@ -5693,7 +5735,23 @@
       "edition": 8,
       "paperPage": 6,
       "fromBasic": false,
-      "duplicates": []
+      "duplicates": [],
+      "images": [
+        "data/mcq/images/2024-may-q16-source.png"
+      ],
+      "imageSource": {
+        "url": "https://ima-files.s3.amazonaws.com/644281_35261d06-318a-4789-bd87-4fb212d23dbe.pdf",
+        "page": 4,
+        "figure": 3,
+        "readMethod": "Rendered album page and verified crop against numbered question paper"
+      },
+      "q": "?? 74. ??? ???????? ?????? ?????? ???????? ?? ?????? ????????. ???? ?????? ????? PHQ9. ???? ????? ?????? ?? ????? (??? ????? ???? 3). ??? ??????? ??? ?????? ????????",
+      "questionSource": "IMA May 2024 Subspecialty question paper, rendered page 6, Q16; restores original image-based stem in place of upstream PHQ9=7 paraphrase.",
+      "explanation": "",
+      "explanationIncomplete": true,
+      "explanationSource": {
+        "reason": "Previous explanation describes the upstream PHQ9=7 paraphrase, not the restored official figure. No verified complete explanation of the original form available."
+      }
     },
     "3347": {
       "id": "mcq-72e468cf141dda15964157c9",
