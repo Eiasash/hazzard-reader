@@ -2,7 +2,7 @@
 
 Book images cited by past exams. Tap an image to zoom.
 
-## Figure 74-5 ? book image
+## Figure 74-5 — book image
 
 <a id="p1139"></a>
 

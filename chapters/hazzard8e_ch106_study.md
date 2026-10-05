@@ -103,7 +103,7 @@ Fast build from the book; not lane-reviewed.
 - [2026-Jun Q84 — mcq-f7b82a0ad50cab63832650a2](?chapter=bank&q=mcq-f7b82a0ad50cab63832650a2)
 - [2025-Jun Q12 — mcq-60d358f39722f9df5a3990cc](?chapter=bank&q=mcq-60d358f39722f9df5a3990cc)
 
-## Table 106-2 ? book image
+## Table 106-2 — book image
 
 ![Hazzard 8e, Table 106-2, p.1703](hazzard8e_ch106_table106-2_p1703.png)
 
