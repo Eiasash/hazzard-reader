@@ -885,11 +885,15 @@
       "source": "מראה מקום גריאטריה 2020.pdf",
       "reference": "Hazzard 7e · p. 929 · Table 62-4",
       "questionRef": "Hazzard 7e · p. 929 · Table 62-4",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "title-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "56"
+      ],
+      "chapter7": "62",
+      "title7": "Cellular and Neurochemical Aspects of the Aging Brain"
     },
     "mcq-4856c7ff9699788b6989204c": {
       "sitting": "2020",
@@ -3871,11 +3875,13 @@
       "source": "refs_2022_subspec.pdf",
       "reference": "Hazzard 7e · p. 5-6",
       "questionRef": "Hazzard 7e · p. 5-6",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "topic-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "1"
+      ]
     },
     "mcq-efa1a6064be7ba2a539f8ad4": {
       "sitting": "2022-Jun",
@@ -4110,11 +4116,13 @@
       "source": "refs_2022_subspec.pdf",
       "reference": "Hazzard 7e · p. 21",
       "questionRef": "Hazzard 7e · p. 21",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "topic-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "1"
+      ]
     },
     "mcq-186034b9ada01a15d0310a5d": {
       "sitting": "2022-Jun",
@@ -17247,6 +17255,74 @@
       "resolved": 0,
       "fallback": 0,
       "practice": 0,
+      "chapterLinked": 0
+    },
+    "56": {
+      "ids": [
+        "mcq-ba2c6c8f21675ae60319c03f"
+      ],
+      "past": 1,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 1
+    },
+    "1": {
+      "ids": [
+        "mcq-b50ef7b89d34aea2228e11f4",
+        "mcq-f365a90a91b0e154885b1034"
+      ],
+      "past": 2,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 2
+    },
+    "40": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "18": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "25": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "17": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "14": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "12": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "24": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
       "chapterLinked": 0
     }
   }
