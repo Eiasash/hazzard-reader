@@ -1305,7 +1305,7 @@
   },
   "articles": {
     "title": "Required articles (IMA P005-2026)",
-    "note": "Article summaries follow the supplied sources. IWG and VASCOG cards retain the owner-supplied text and page citations; AA and JAMA use the supplied XML/PDF. Linked past questions name the article explicitly; their original answers and explanations remain unchanged.",
+    "note": "Article summaries follow the supplied sources. IWG and VASCOG cards retain the owner-supplied text and page citations; AA, JAMA and NEJM use the supplied XML/PDF. Linked past questions name the article explicitly; their original answers and explanations remain unchanged.",
     "cards": [
       {
         "id": "ima-article-iwg-2024",
@@ -1463,6 +1463,40 @@
             "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
           }
         ]
+      },
+      {
+        "id": "ima-article-hearing-loss-2024",
+        "articleItem": 6,
+        "title": "Age-Related Hearing Loss · NEJM 2024",
+        "direction": "ltr",
+        "provenance": "NEJMcp2306778.pdf - official publisher PDF via owner's institutional library access; printed pages 1505-1512.",
+        "bullets": [
+          "Mechanism and presentation: progressive loss of nonregenerating cochlear sensory hair cells degrades sound encoding into neural signals; hearing declines from early adulthood, especially at higher frequencies. Typical age-related loss is gradual and bilateral without a clear inciting event. Difficulty understanding speech in noise often precedes difficulty in quiet; relatives may notice before the patient does. [p.1505–1506]",
+          "Risk factors: older age, lighter skin color (a marker of cochlear pigmentation; melanin is protective), male sex and noise exposure are the strongest factors listed. Diabetes, smoking and hypertension may contribute through microvascular injury to cochlear vessels. [p.1505]",
+          "Prevalence: clinically significant hearing loss nearly doubles with each decade; more than two thirds of adults 60 years or older have some clinically significant loss. The estimated US burden in 2019 was approximately 72.9 million, or one in five persons. Figure 1 shows increasing prevalence and severity across ages 20–29, 30–39, 40–49, 50–59, 60–69, 70–79 and ≥80; exact percentages for individual bars are not printed. [p.1505; p.1507, Figure 1]",
+          "Evaluation framework: distinguish the incoming speech signal, conductive hearing, sensorineural hearing and central auditory processing. Distance, competing noise and reverberation degrade speech; cognitive impairment, traumatic brain injury and attention disorders can impair central decoding. More than one component may contribute. [p.1506; p.1508, Table 1]",
+          "Initial assessment: use history and otoscopy to identify treatable conductive causes such as otitis media and complete cerumen impaction. Ear drainage, abnormal otoscopy, unremitting tinnitus, vertigo, fluctuating or asymmetric hearing, or sudden loss without a conductive explanation warrant further evaluation or otolaryngology consultation. [p.1506]",
+          "Urgent referral: sudden sensorineural loss needs otolaryngology evaluation, ideally within 3 days after onset; earlier diagnosis and glucocorticoid treatment may improve recovery. It often presents as acute painless unilateral loss with near-complete inability to hear or understand speech in that ear. Annual incidence is 1 in 10,000 persons, most commonly in adults 40 years or older. [p.1506–1507]",
+          "Screening: whispered-voice and finger-rub tests have widely varying sensitivity and specificity. Age, compatible symptoms and absence of findings suggesting another cause may support presumed age-related loss regardless of screening results. Smartphone applications can measure and track the four-frequency pure tone average (PTA4), also called the hearing number. [p.1507]",
+          "Confirmation: refer to an audiologist for calibrated audiometry in a sound-attenuating enclosure. Thresholds are tested from 125 to 8000 Hz; lower thresholds mean better hearing. PTA4 averages thresholds at 500, 1000, 2000 and 4000 Hz. Bone-conduction audiometry and speech-understanding tests help distinguish conductive or central causes and guide rehabilitation. [p.1507]",
+          "WHO grades by PTA4 in the better-hearing ear: normal <20 dB; mild 20 to <35 dB; moderate 35 to <50 dB; moderately severe 50 to <65 dB; severe 65 to <80 dB; profound 80 to <95 dB; complete ≥95 dB. Mild loss may impair conversation in noise despite no difficulty with conversational speech in quiet; moderate loss may also cause difficulty in quiet. [p.1509, Table 2]",
+          "Management goals: improve communication, daily engagement and safety; no restorative therapy is available in this review. Reduce noise exposure and use hearing protection as needed. Converse face to face at arm’s length, reduce background noise and reverberation, and use visual facial/lip cues. Internet calls and closed captions are additional options at any hearing level. [p.1508–1509; p.1510, Figure 2]",
+          "Hearing aids are the primary treatment: amplification improves audibility; directional microphones and digital processing in more advanced devices improve the signal-to-noise ratio. The cited Cochrane review found improved hearing-specific and general health-related quality of life. Technologies cannot fully compensate for degraded peripheral sound encoding. [p.1508–1509; p.1511]",
+          "Over-the-counter (OTC) aids: FDA regulations effective October 17, 2022 allowed purchase without a hearing professional. Intended for adults with perceived mild-to-moderate loss, described in the text as PTA4 generally less than 60 dB, encompassing 90 to 95% of persons with hearing loss. Figure 2 lists 10–60 dB and describes PTA4 ≤60 dB; these are general usefulness ranges, not the WHO severity boundaries. [p.1509; p.1510, Figure 2]",
+          "Prescription aids: obtained through a hearing professional, with higher sound output for more severe loss. Figure 2 depicts a general PTA4 range of 20–90 dB while describing prescription aids as suitable for all levels of hearing loss. Communication strategies and everyday hearing technologies remain useful at any level. [p.1509–1510, Figure 2]",
+          "Cochlear implant referral: consider greater hearing loss (PTA4 generally ≥60 dB) with persistent difficulty understanding speech despite hearing aids; Figure 2 specifies ≥60 dB in one or both ears and insufficient benefit for daily communication. Refer to an implant center or an otolaryngologist specializing in implantation. The device directly stimulates the cochlear nerve; outpatient surgery takes approximately 2 hours and adaptation takes 6 to 12 months. Results vary. [p.1510, Figure 2; p.1511]",
+          "Dementia association: the 2020 Lancet Commission identified middle- and late-life hearing loss as the largest potentially modifiable dementia risk factor, accounting for 8% of cases. Proposed mechanisms involve cognitive load, brain atrophy and social isolation; these are hypotheses about the observed association. [p.1505–1506]",
+          "ACHIEVE: hearing intervention (hearing aids plus related audiologic support) versus health education in adults 70 to 84 years old with hearing loss did not reduce 3-year cognitive decline in the primary analysis of the total cohort. A prespecified sensitivity analysis in participants at increased baseline risk showed 48% less cognitive change over 3 years (global cognitive decline −0.211 SD units versus −0.402 SD units). No effect was found in healthy volunteers at decreased baseline risk. Longer follow-up is needed to clarify effects on cognitive decline and dementia risk. [p.1511]",
+          "Guidelines as reported in 2024: USPSTF 2021 found insufficient evidence to assess benefits and harms of screening asymptomatic adults 50 years or older. For symptoms or patient concerns, clinicians should use clinical judgment about hearing tests. The author knew of no other clinical practice guidelines on age-related hearing loss at publication. [p.1511]",
+          "Author’s approach to the vignette: exclude a conductive cause and indications for otolaryngology referral, then presume some age-related loss. Counsel the patient and spouse about communication, social functioning and potential cognitive-health effects. According to preference, offer an audiologist’s diagnostic evaluation/counseling or a well-regarded hearing-aid retailer; provide smartphone self-testing resources for technology-familiar patients and discuss OTC aids. The forecast of increasing OTC choices and support over the next 2 to 3 years is the author’s 2024 expectation. [p.1511–1512]"
+        ],
+        "sources": [
+          {
+            "document": "NEJMcp2306778.pdf",
+            "locator": "Lin FR. Age-Related Hearing Loss. N Engl J Med 2024;390:1505-1512. doi:10.1056/NEJMcp2306778. Printed pp. 1505–1512 (= PDF pp. 1–8); Figures 1–2 and Tables 1–2."
+          }
+        ],
+        "questions": []
       }
     ],
     "entries": [
@@ -1473,8 +1507,8 @@
       },
       {
         "title": "NEJM Age-Related Hearing Loss 2024",
-        "status": "not available - paywalled",
-        "provenance": "No source file supplied."
+        "status": "read directly",
+        "provenance": "NEJMcp2306778.pdf - official publisher PDF via owner's institutional library access; printed pages 1505-1512."
       }
     ]
   }
