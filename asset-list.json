@@ -1,5 +1,5 @@
 {
-  "version": "v86",
+  "version": "v87",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -447,9 +447,49 @@
       "bytes": 350310
     },
     {
+      "url": "./chapters/hazzard8e_ch22_figure-22-1_p305.webp",
+      "sha256": "278a2d21af9a7288c119468d73a05a7d37a2a8ffdc232baf6a49dec636c00159",
+      "bytes": 23146
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_figure-22-2_p306.webp",
+      "sha256": "fe8eef7765c3e23ceaf6e62c9e4d6030805514b4964438e1dcf866fde01a0e1e",
+      "bytes": 68590
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_figure-22-3_p314.webp",
+      "sha256": "a81d7ef73ac2a518c375d38e77ea578acaa82c6f26675104fedb78c609f2166a",
+      "bytes": 150502
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_medication_prescribing_and_de_prescribing.md",
+      "sha256": "335abcad458e196ea94f2373d8ca301cc6fadc637090d32bdfa7e5e6c6c07357",
+      "bytes": 72739
+    },
+    {
       "url": "./chapters/hazzard8e_ch22_study.md",
       "sha256": "f6c4916949e490659b3db94f450ea9eed7c82a0b981de82ce176b6436ae04498",
       "bytes": 298
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_table-22-1_p304.webp",
+      "sha256": "0f1e7c1fb924c4ecb46b7e30b5fd0c60cf20a96b4cb8fd388fb3f2a833633995",
+      "bytes": 43354
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_table-22-2_p305.webp",
+      "sha256": "aff728a484547b5c80d864da5f60438f91172c1854130362380b9f57cfd790e5",
+      "bytes": 26916
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_table-22-3_p309.webp",
+      "sha256": "019f79cdc27c41ad9f1f01ec01cab48a0117a1ff48bb3ee8353e993da4e1d88b",
+      "bytes": 65228
+    },
+    {
+      "url": "./chapters/hazzard8e_ch22_table-22-4_p312.webp",
+      "sha256": "4b10a21719b96f3e0247df382acd76f25563c6361c787ebea7fab7cbf655448b",
+      "bytes": 24912
     },
     {
       "url": "./chapters/hazzard8e_ch22_table22-2_p305.png",
@@ -502,9 +542,54 @@
       "bytes": 150744
     },
     {
+      "url": "./chapters/hazzard8e_ch39_figure-39-1_p577.webp",
+      "sha256": "999e8086d1b5c6a794941a349440084343a6e06adeae4154450f49985ede2980",
+      "bytes": 124858
+    },
+    {
       "url": "./chapters/hazzard8e_ch39_study.md",
       "sha256": "adfb0ba401bb3f5cc3acef5f29c00409a48e793d32124c277ca64b6c48ebe471",
       "bytes": 322
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_systems_physiology_of_aging_and_selected_disorders_of_homeostasis.md",
+      "sha256": "d971996795fdce2ed98f8ef013c9ab5cb86c5345e5efb805587e8327d4bf1d97",
+      "bytes": 75157
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-1_p581.webp",
+      "sha256": "d2c88f55afb2386d39a64f47a7965cb52db835dbcd6037134553d66cb8f35eb5",
+      "bytes": 120024
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-2_p583.webp",
+      "sha256": "6a658997b521e3e923f504c0f350ef75202eb581bc5bf01765b992051949541e",
+      "bytes": 40908
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-3_p583.webp",
+      "sha256": "b056702c6ca3506e94039bcc6b6e25560d96a872ae8df0049ea99cae6aa06a4b",
+      "bytes": 47620
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-4_p583.webp",
+      "sha256": "d9de8e08a6e29d99c576a4b05ec1c3d50667001163a9276f9b6ea90ca416f131",
+      "bytes": 23276
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-5_p585.webp",
+      "sha256": "1028d35386aae5a6ff07c11baad49434b885ce4a3e88fb516988140402157e60",
+      "bytes": 36004
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-6_p585.webp",
+      "sha256": "9aa6a5d68d076adcb5cc961a0384968a14bdc9d87d72bb8aaab16b2a515b259f",
+      "bytes": 31654
+    },
+    {
+      "url": "./chapters/hazzard8e_ch39_table-39-7_p587.webp",
+      "sha256": "db29b7147c6eee4a200f3afec737b4d0a0696f7305e46f0e8a9a6335b5ac90a6",
+      "bytes": 61600
     },
     {
       "url": "./chapters/hazzard8e_ch39_table39-1_p581.png",
@@ -802,9 +887,84 @@
       "bytes": 53916
     },
     {
+      "url": "./chapters/hazzard8e_ch50_figure-50-1_p747.webp",
+      "sha256": "261221fba0152e6d3b820c5f5fa745d81d96505d7d6219846af78ac0adb385ea",
+      "bytes": 85974
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_figure-50-2_p748.webp",
+      "sha256": "08e156fc9b580c326765baaf408faa15869bc8e2ea95bf1cf73799716262d361",
+      "bytes": 48980
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_figure-50-3_p748.webp",
+      "sha256": "7c4ec5333f0555a2c5b5ec4c159cd20bb1e38be1ee8d69de1ba55a79aba4cd82",
+      "bytes": 28170
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_figure-50-4_p751.webp",
+      "sha256": "1736a044947d58dbf90ba7deb3113056e508d2a3895d3b1a9318b1cc3639f94f",
+      "bytes": 64472
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_mobility_assessment_and_management.md",
+      "sha256": "1931b57e428720df73fe0cc9439fe5b59a216b5fe9a27b0f32e8de8546b55db0",
+      "bytes": 53369
+    },
+    {
       "url": "./chapters/hazzard8e_ch50_study.md",
       "sha256": "217b5796c0f3f82a805e4f86024e27d0fdd8c50019d4c0d3b7b549648291d2a3",
       "bytes": 539
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-1_p742.webp",
+      "sha256": "db7f9d15250a19540709827eb991ec596b35768b0fdfb9408de07c0b821c0023",
+      "bytes": 57018
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-2-continued_p744.webp",
+      "sha256": "16797cdcacffe3831c323fb89702ddb184f9ba95262e526270785079c25112a8",
+      "bytes": 83624
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-2_p743.webp",
+      "sha256": "ce1fd2cbefaff914890190958a4eabe2480c59ba3ab6efe0080c2a2f24ed7c29",
+      "bytes": 189846
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-3_p745.webp",
+      "sha256": "e5635beaed3f77f4606c95150882eeac90cec5064a0a6e2890c563e7eab6a7b4",
+      "bytes": 79068
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-4_p750.webp",
+      "sha256": "7053d128dab8ae5b7110b8f149f638bb69a27aeaa2eebbf474da3ed084911868",
+      "bytes": 25908
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-5_p750.webp",
+      "sha256": "ae9e5a3ad19698fa39037e2b4d3af97bdf0c206d443987052d9aaa80593c7a4d",
+      "bytes": 69166
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-6_p752.webp",
+      "sha256": "632742934ea994a44dc074ab4dc762e0190514f6955e46a1a87622eb89d693eb",
+      "bytes": 38830
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-7_p753.webp",
+      "sha256": "27dca36897588e9b36c7eeb3ac7392a032d8f12f43ffb024c10ac08e15d7c222",
+      "bytes": 120956
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-8_p754.webp",
+      "sha256": "72d3d451cc14ef33ee6f05e879cbfe2988ef7680e4fe58da5806205678a0ea4a",
+      "bytes": 197728
+    },
+    {
+      "url": "./chapters/hazzard8e_ch50_table-50-9_p755.webp",
+      "sha256": "8cd5ed836c1460a585b2669d47476e8640f3607e281ad105e96c43306f887402",
+      "bytes": 47588
     },
     {
       "url": "./chapters/hazzard8e_ch50_table50-2_p743.png",
@@ -2067,6 +2227,131 @@
       "bytes": 7243
     },
     {
+      "url": "./chapters/hazzard8e_ch93_figure-93-10_p1465.webp",
+      "sha256": "e0d46e755792d6260c2bbdde7672491d7c64ae74731f239e688a82810119ffc0",
+      "bytes": 25084
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-11_p1465.webp",
+      "sha256": "d9829b240449f2f2ad87c753215cf44b5379e6add1246733cbab7455389464df",
+      "bytes": 27892
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-12_p1465.webp",
+      "sha256": "7ea2b6172b5d1218a59e2b017f457a8fc87847b7fe51daa140945e7ee3945706",
+      "bytes": 18090
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-13_p1465.webp",
+      "sha256": "4598825818f285896e409a22686645406d52bf000c20a71164856b92488d9a20",
+      "bytes": 35434
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-14_p1466.webp",
+      "sha256": "666568d60da54e86f031c93ad97fc735673c5e7ad8d0c3113d8035f6c98f5ae4",
+      "bytes": 40732
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-15_p1466.webp",
+      "sha256": "a4249819e774a3eae2f0fae6357c3fa0e53a04af75b50ba2cf647a8c7c85a06c",
+      "bytes": 34674
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-16_p1466.webp",
+      "sha256": "58c8589e73249028099a80689e5b6fd9e8d43b4f63cf2011f022da7fd4697e7d",
+      "bytes": 34240
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-17_p1466.webp",
+      "sha256": "0b8c88eab2fa60a4b0ce976cf9226083950c83d2bbdaa76f0fe0f89c14d8a4c6",
+      "bytes": 23520
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-18_p1467.webp",
+      "sha256": "56090fc0f8452ba8dca54b8c1994b4132c2f6ca78c61a03301fb3a594ca9d07d",
+      "bytes": 15644
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-19_p1467.webp",
+      "sha256": "b2da87793b47c64111f1e39c449b820867171bbcb3eaa4f78fa995ae0485d1df",
+      "bytes": 34336
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-1_p1457.webp",
+      "sha256": "a5fda4cf6d5f7bbe665fec018cb1ec16fa2083285405ae86beeda0378b86c94a",
+      "bytes": 22136
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-20_p1469.webp",
+      "sha256": "baf49e542a6bde08d6174d5e95e9eb4b6d1adb7f61e0fbd728079dbfb6fd914d",
+      "bytes": 36212
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-21_p1470.webp",
+      "sha256": "940a61a89b5c304b8507735b86e4bbe2b2a9b25cb368619ed6bf3dc882402853",
+      "bytes": 20838
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-2_p1457.webp",
+      "sha256": "e4f5c4e0cb8774171f0eb8e47c9724bf3bea17aabd9735dad54812ffd6cf2a3d",
+      "bytes": 37814
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-3_p1458.webp",
+      "sha256": "f492f0691febe15018ff566cdb4726e00a9dae3e97fa17e0be08c0edf247eb01",
+      "bytes": 30130
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-4_p1458.webp",
+      "sha256": "532bc3a5a43e747455b702756e2e49843c712c73ce843eb5d85635b43b79114f",
+      "bytes": 35072
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-5_p1459.webp",
+      "sha256": "dd8844052324b8a6a3319179f194a1fb212f965b2ad53b7a8780c794feb0fe5d",
+      "bytes": 32196
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-6_p1459.webp",
+      "sha256": "d1e2780375d146a54e081cfb27bf832d5359b78f4424f762c489589ca75743de",
+      "bytes": 32984
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-7_p1459.webp",
+      "sha256": "382509b8c1dc09d910e04b3ea3e7d3efd623d1ee54c9fed8f8e19c2e2ee4eb01",
+      "bytes": 61116
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-8_p1460.webp",
+      "sha256": "00360480006527d37d364a8be1d350a9035813e80a7416d6818a209d235b25a5",
+      "bytes": 23938
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_figure-93-9_p1464.webp",
+      "sha256": "cb2dfc6e20010a49fbd96f1c129aea9bcfda99b58d50865c338f8d16637fea94",
+      "bytes": 29224
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_skin_cancer.md",
+      "sha256": "440775a7a0329f711a7da48d885626e8264a7554290905ffe85b69f744c66273",
+      "bytes": 75008
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_table-93-1_p1456.webp",
+      "sha256": "2b5bb97fb1ea0259423cc698bad824c62d764e33ee17eba9503a1ce8d9b1a8b7",
+      "bytes": 50582
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_table-93-2_p1460.webp",
+      "sha256": "811dfee34c05d8651d552b6d82022482ac9a264cc1ed7025756b08bb73b5113f",
+      "bytes": 69040
+    },
+    {
+      "url": "./chapters/hazzard8e_ch93_table-93-3_p1464.webp",
+      "sha256": "51b10c570ba736db07e995792b8fd64380f40e6455b384d322f29d77bca7b7b1",
+      "bytes": 30138
+    },
+    {
       "url": "./chapters/hazzard8e_ch95_figure-95-1_p1487.webp",
       "sha256": "d260ccf98fec1e98a967efb5649d9084fae18d38a58ec56254471239694ea4ea",
       "bytes": 41638
@@ -2162,6 +2447,31 @@
       "bytes": 113752
     },
     {
+      "url": "./chapters/hazzard8e_ch96_coagulation_disorders.md",
+      "sha256": "6d669e73a2d1662fd225c16f960633c523c387aa4016b86c271c7b9bad33aa3c",
+      "bytes": 67499
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_figure-96-1_p1510.webp",
+      "sha256": "b3f0a8541358ae6014413d45cfc0fda852d3eb82a084be41320667b152a1ce01",
+      "bytes": 111954
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_figure-96-2_p1511.webp",
+      "sha256": "c8583d7cb629a46642d12234c95ab9f258057129de40fe33aae800f5a6689f3f",
+      "bytes": 98506
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_figure-96-3_p1514.webp",
+      "sha256": "3a3accdfde3ec464fcfb32b7a19aceb8178a27d6fc4ff61ebc9ee3e2a1f778cb",
+      "bytes": 29848
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_figure-96-4_p1518.webp",
+      "sha256": "162e515a6f90eaab4a7e274e71338327bf00057e6ca954368885da39d8adee42",
+      "bytes": 42444
+    },
+    {
       "url": "./chapters/hazzard8e_ch96_figure96-3_p1514.png",
       "sha256": "7a14a251fd7b6df110dac56ff199962cd41c83200518f33497d3a1e669cb6c13",
       "bytes": 90042
@@ -2170,6 +2480,56 @@
       "url": "./chapters/hazzard8e_ch96_study.md",
       "sha256": "0d73db8b995f3c839f630da7bc450771062f961f1120e3171f1c9e49c6b2d249",
       "bytes": 467
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-10_p1522.webp",
+      "sha256": "6da235a9c050d41deb0523ff1f54bd5052c948380b547d699a962c7c1db2de98",
+      "bytes": 44658
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-1_p1512.webp",
+      "sha256": "02cd503a725cbf72ccec0abaf2fcc8ececb547e7eb96f187e5c216d5eed6cada",
+      "bytes": 65848
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-2_p1513.webp",
+      "sha256": "723cc49bda6a7c2687732fab0321beb092435684596630f416b67906083462ae",
+      "bytes": 70924
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-3_p1513.webp",
+      "sha256": "f5bee4319a75f48376363e6a1eb71d695c84b7599df70464fe6b7fc108977116",
+      "bytes": 78836
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-4_p1514.webp",
+      "sha256": "6e8eb29fa45dd8e1ccee85f045e793b7944a114e0bf1c76ec1ec3f4b31432872",
+      "bytes": 48036
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-5_p1517.webp",
+      "sha256": "121f679ec9fadaefd2d441f56c8ba08f264b6f33d6e9c75ebe1857287c0a88c0",
+      "bytes": 52920
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-6_p1519.webp",
+      "sha256": "d66b2337008401b7f45cb4803a810a6f153a25118c055a942f6af989ce1099dd",
+      "bytes": 29442
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-7_p1520.webp",
+      "sha256": "e324a130dfba369787885f35d33bf04ecc70c743512407dc424bc85b7435608c",
+      "bytes": 31898
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-8_p1521.webp",
+      "sha256": "2190a48b197e4368d53f1a9cf7ef82dca7b67ee062bbbd3530a77baee6820697",
+      "bytes": 38238
+    },
+    {
+      "url": "./chapters/hazzard8e_ch96_table-96-9_p1522.webp",
+      "sha256": "c26b9847921d135677999d8f799e3bdd5cf4431af69755e08c1d5d0a779a8bba",
+      "bytes": 66142
     },
     {
       "url": "./chapters/hazzard8e_ch96_table96-2_p1513.png",
@@ -2302,9 +2662,84 @@
       "bytes": 17706
     },
     {
+      "url": "./chapters/hazzard8e_ch9_mental_status_and_neurologic_examination.md",
+      "sha256": "95fd7a7645675a273e42dff6fd36a385e610d2dabf2282339949077f3932beb3",
+      "bytes": 75151
+    },
+    {
       "url": "./chapters/hazzard8e_ch9_study.md",
       "sha256": "8b5995891d0f73e2cb19a93d1d5884cf7a87cc03b8b5994aa45bb4805a3aa81d",
       "bytes": 292
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-10_p145.webp",
+      "sha256": "30e3ddacf0d8867ba25097f32fcb891cf135ae2007cd9d84f922119cacf74d08",
+      "bytes": 85786
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-11_p147.webp",
+      "sha256": "49e76e37f544fee26df00f1dd293c4ef00a7da37d2a3b1d776ae84547f690c12",
+      "bytes": 27370
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-12_p148.webp",
+      "sha256": "2da31d8e8317dfd16fe038613997517f39e018a2ce7486954bc96fa461b8c06d",
+      "bytes": 80262
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-13_p149.webp",
+      "sha256": "1909d5cd01c7471cb3bf404880bffb1e6a741f3901e812ec08b03012ed732a4d",
+      "bytes": 74460
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-14_p149.webp",
+      "sha256": "cd84d29ce091d6d3d790f219373e1cdc28828025f1edc303832d1f3296b36de4",
+      "bytes": 37562
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-1_p134.webp",
+      "sha256": "4360e6b6eb826639203e35ec9bdef2da0112e1943f7d6f3f20beb164e4af9c8f",
+      "bytes": 39074
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-2_p136.webp",
+      "sha256": "0c5bdbceca5732673c7d741c7241ed4eb696f06c989b51469898169e25d75caf",
+      "bytes": 29308
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-3_p137.webp",
+      "sha256": "192b3e25d9cbbae6c5eb482413afd283da9b772460b2c491d3204f7bff0db9ae",
+      "bytes": 110514
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-4_p138.webp",
+      "sha256": "4479bd08e81a53cbd13093934c50f34bda9c45c13415ce696f3539bd1a3e7dc9",
+      "bytes": 136980
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-5_p143.webp",
+      "sha256": "b8ad2c59becc1e192570db4f1c0f205fd74471f59c7aed247b9432d00400f8ac",
+      "bytes": 87028
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-6_p144.webp",
+      "sha256": "6f5f3575c2e323676c7f303caf43f9b914612d67f8342e2e9ad62363b8995e3d",
+      "bytes": 102000
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-7_p144.webp",
+      "sha256": "e84ce4d5ec02a55bb59666c629d5b1237107dd821f1e8b9e9f7f0961aa4b4ccc",
+      "bytes": 22948
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-8_p144.webp",
+      "sha256": "54e026d006a12b3b15521cb8ab65dec94772fc84d39deae4d7fc668a194aeada",
+      "bytes": 18660
+    },
+    {
+      "url": "./chapters/hazzard8e_ch9_table-9-9_p145.webp",
+      "sha256": "de240caaceae54a16eef5f5e42609103a8450763a67e2b6f894247209a4de408",
+      "bytes": 31126
     },
     {
       "url": "./chapters/hazzard8e_ch9_table9-4_p138.png",
@@ -2358,8 +2793,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "776b7aca266bd6516d76061280d7b480f8e7db4a4b5d7f158f856013922ccdd8",
-      "bytes": 12159
+      "sha256": "51594bdb0f65834cda47896ccf0ade6a46786a4baa3aa6330c4b3adfeda9f3f8",
+      "bytes": 12374
     },
     {
       "url": "./data/drug-index.json",
@@ -2543,8 +2978,8 @@
     },
     {
       "url": "./data/mcq/exam-references.json",
-      "sha256": "f9ccf68ec3f97e44859e6e1ecb8b6da293b3cdfb40deb736edf5e2535c7cd639",
-      "bytes": 451551
+      "sha256": "8478dae2095dbfd69893b676c279276f41c1edff86859f3165d8bbe8887f8177",
+      "bytes": 451873
     },
     {
       "url": "./data/mcq/hazzard8e-toc.json",
@@ -2828,7 +3263,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "31c86d00847a391c8db915481d912efe641813c66b9072a39aa756b979ca27c6",
+      "sha256": "635432739decd5b48695db62a6f49810251e8dfe19b3f91ad9d64de75bd5f39f",
       "bytes": 3277783
     },
     {
@@ -2893,7 +3328,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "abf1f92c5033d7696bfab677ab0e34865b100e2fd7dba151ad585220727546a3",
+      "sha256": "bfb0f146b42c80f70face55c0b93d5f154830aa5c2095787dd0a1667192497d3",
       "bytes": 7038
     },
     {
@@ -2908,8 +3343,8 @@
     },
     {
       "url": "./manifest.json",
-      "sha256": "c244d41ce3fbaa876ced9d42ba166d2075be9be1b44ea30f5338379f73e1b838",
-      "bytes": 23667
+      "sha256": "d6bf5aa5644f6b75ba365b203e1960414a4f19db7e0f5958e6f57a9640ec73a0",
+      "bytes": 25184
     }
   ]
 }
