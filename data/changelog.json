@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v93",
+      "date": "2026-10-05",
+      "changes": [
+        "2020-22 past-paper questions now open their Hazzard 8e chapter."
+      ]
+    },
+    {
       "version": "v92",
       "date": "2026-10-05",
       "changes": [

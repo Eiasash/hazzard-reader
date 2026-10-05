@@ -12,8 +12,8 @@ window.HazzardEvidence = (() => {
   // Reuse the exact v55 Study membership, including its labelled legacy fallback.
   function studyIds(data, chapter) {
     if (data.study[chapter]) return data.study[chapter].ids;
-    // Read-only chapters reuse resolved citation membership without changing the sidecar.
-    return /^\d+$/.test(chapter) ? Object.entries(data.questions).filter(([,entry]) => entry.status === 'resolved' && entry.chapters.includes(String(chapter))).map(([id]) => id) : [];
+    // Read-only chapters share the same resolved/page-free chapter membership.
+    return /^\d+$/.test(chapter) ? Object.entries(data.questions).filter(([,entry]) => ['resolved','title-8e','topic-8e'].includes(entry.status) && entry.chapters.includes(String(chapter))).map(([id]) => id) : [];
   }
   function counts(data, chapter) {
     const totals = new Map();
