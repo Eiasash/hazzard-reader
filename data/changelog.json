@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v91",
+      "date": "2026-10-05",
+      "changes": [
+        "Study notes completed for 30 more chapters."
+      ]
+    },
+    {
       "version": "v90",
       "date": "2026-10-05",
       "changes": [
