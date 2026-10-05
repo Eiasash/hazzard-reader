@@ -1,6 +1,6 @@
 const CACHE_VERSION = 'v88';
 // Release caches activate only after the reader's update tap.
-const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-r1';
+const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-r2';
 const SHELL_URL = './index.html';
 const LIST_URL = './asset-list.json';
 const READY_URL = './.offline-ready';
