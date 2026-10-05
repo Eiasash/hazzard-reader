@@ -2,7 +2,7 @@
 
 Book images cited by past exams. Tap an image to zoom.
 
-## Table 16-6 ? book image
+## Table 16-6 — book image
 
 <a id="p231"></a>
 
@@ -10,7 +10,7 @@ Book images cited by past exams. Tap an image to zoom.
 
 [2025-Jun Q87](?chapter=bank&q=mcq-911d970243b87dbe2fe1c675)
 
-## Table 16-6 ? book image
+## Table 16-6 — book image
 
 <a id="p232"></a>
 

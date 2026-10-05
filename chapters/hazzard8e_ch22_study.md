@@ -2,7 +2,7 @@
 
 Book images cited by past exams. Tap an image to zoom.
 
-## Table 22-2 ? book image
+## Table 22-2 — book image
 
 <a id="p305"></a>
 

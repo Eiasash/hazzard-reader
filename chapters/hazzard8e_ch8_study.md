@@ -2,7 +2,7 @@
 
 Book images cited by past exams. Tap an image to zoom.
 
-## Figure 8-2 ? book image
+## Figure 8-2 — book image
 
 <a id="p124"></a>
 

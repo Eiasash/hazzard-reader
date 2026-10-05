@@ -2,7 +2,7 @@
 
 Book images cited by past exams. Tap an image to zoom.
 
-## Figure 96-3 ? book image
+## Figure 96-3 — book image
 
 <a id="p1514"></a>
 
@@ -10,7 +10,7 @@ Book images cited by past exams. Tap an image to zoom.
 
 [2026-Jun Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c)
 
-## Table 96-2 ? book image
+## Table 96-2 — book image
 
 <a id="p1513"></a>
 

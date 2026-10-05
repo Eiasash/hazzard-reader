@@ -2,7 +2,7 @@
 
 Book images cited by past exams. Tap an image to zoom.
 
-## Table 89-4 ? book image
+## Table 89-4 — book image
 
 <a id="p1404"></a>
 
