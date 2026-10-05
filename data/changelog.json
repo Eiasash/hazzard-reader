@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v83",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T11:36:19.261854+00:00",
+      "changes": [
+        "Study pages now show the exam-cited Hazzard tables and figures as book images."
+      ]
+    },
+    {
       "version": "v82",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T11:12:40.052511+00:00",

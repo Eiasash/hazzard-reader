@@ -172,3 +172,21 @@ MCI is noted in up to 15–20% of older adults; roughly 12–15% progress to dem
 The amnestic presentation — slowly progressive memory loss for recent events, often first noticed by family rather than the patient (p900).
 
 </details>
+
+## Table 59-5 — verbatim book excerpt
+
+<a id="p908"></a>
+
+Hazzard 8e, p.908 · [Read source](?chapter=59#p908)
+
+> _Must first meet diagnostic criteria for dementia (see Table 59-1)._
+>
+> | TYPE OF DEMENTIA | ALZHEIMER DISEASE | VASCULAR DEMENTIA | DEMENTIA WITH LEWY BODIES | FRONTOTEMPORAL DEMENTIA |
+> |---|---|---|---|---|
+> | **Typical Course** | Insidious onset and gradually progressive | Acute onset of cognitive impairment with some stabilization (if only one vascular event) and/or stepwise deterioration (if multiple infarcts) | Progressive cognitive decline with fluctuating cognition, attention, and alertness | Insidious onset and gradually progressive |
+> | **Cognitive Symptoms** | Memory is the most commonly affected cognitive domain<br>May also have impairments in executive function, language, and/or visuospatial skills | Various cognitive domains may be affected depending on the location of the clinical stroke(s) and/or severe subcortical cerebrovascular disease | Cognitive symptoms may fluctuate<br>May have prominent impairment in visuospatial ability, attention, and/or executive function | Will have early behavioral disinhibition and apathy (frontal lobe predominance) or early prominent language abnormalities (temporal lobe predominance)<br>Deficits are chiefly noted in executive tasks with relative sparing of memory and visuospatial skills |
+> | **Other Associated Symptoms/Signs** | Some patients may have agitation and/or behavioral changes | May or may not have focal neurologic signs on examination<br>Should have evidence of relevant cerebrovascular disease by brain imaging | May have recurrent well-formed visual hallucinations (usually people or animals), parkinsonism (including tremor, rigidity, and postural instability), recurrent falls and syncope, rapid eye movement (REM) sleep behavior disorder, neuroleptic sensitivity, and/or delusions | In behavioral variant frontotemporal dementia, may have early behavioral disinhibition, apathy, loss of empathy, perseverative behaviors, and hyperorality |
+
+
+
+[2023-Jun Q33](?chapter=bank&q=mcq-4dff765078655193f686e847) · [2024-Sep Q15](?chapter=bank&q=mcq-e571d83442c0d0404eb7e495)

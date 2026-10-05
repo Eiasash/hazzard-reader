@@ -103,3 +103,9 @@ Fast build from the book; not lane-reviewed.
 - [2024-May Q17 — mcq-72e468cf141dda15964157c9](?chapter=bank&q=mcq-72e468cf141dda15964157c9)
 - [2024-May Q35 — mcq-d59bcda0cc381a35cc3134db](?chapter=bank&q=mcq-d59bcda0cc381a35cc3134db)
 - [2025-Jun Q60 — mcq-10163f2b99f5abe875d7d917](?chapter=bank&q=mcq-10163f2b99f5abe875d7d917)
+
+## Figure 53-5 ? book image
+
+![Hazzard 8e, Figure 53-5, p.800](hazzard8e_ch53_figure53-5_p800.png)
+
+[2024-May Q17](?chapter=bank&q=mcq-72e468cf141dda15964157c9)
