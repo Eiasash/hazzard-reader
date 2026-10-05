@@ -531,8 +531,7 @@
       "title": "Mobility Assessment and Management — Study",
       "file": "hazzard8e_ch50_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "8s",
@@ -547,16 +546,14 @@
       "title": "Mental Status and Neurologic Examination — Study",
       "file": "hazzard8e_ch9_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "96s",
       "title": "Coagulation Disorders — Study",
       "file": "hazzard8e_ch96_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "16s",
@@ -571,8 +568,7 @@
       "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis — Study",
       "file": "hazzard8e_ch39_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "74s",
@@ -595,8 +591,7 @@
       "title": "Medication Prescribing and De-Prescribing — Study",
       "file": "hazzard8e_ch22_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "31s",
@@ -704,6 +699,48 @@
       "number": "80",
       "title": "Respiratory System and Selected Pulmonary Disorders",
       "file": "hazzard8e_ch80_respiratory_system_and_selected_pulmonary_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "96",
+      "title": "Coagulation Disorders",
+      "file": "hazzard8e_ch96_coagulation_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "50",
+      "title": "Mobility Assessment and Management",
+      "file": "hazzard8e_ch50_mobility_assessment_and_management.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "22",
+      "title": "Medication Prescribing and De-Prescribing",
+      "file": "hazzard8e_ch22_medication_prescribing_and_de_prescribing.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "9",
+      "title": "Mental Status and Neurologic Examination",
+      "file": "hazzard8e_ch9_mental_status_and_neurologic_examination.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "39",
+      "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis",
+      "file": "hazzard8e_ch39_systems_physiology_of_aging_and_selected_disorders_of_homeostasis.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "93",
+      "title": "Skin Cancer",
+      "file": "hazzard8e_ch93_skin_cancer.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
     }
