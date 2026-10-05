@@ -11,6 +11,31 @@ def read(path):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
+def link_seventh(metadata, bank):
+    links = read(DATA / 'hazzard7e-chapter-links.json')['questions']
+    entries = metadata['questions']
+    for id, link in links.items():
+        if link.get('hold'):
+            continue
+        entry = entries[id]
+        entry.update(chapters=[link['chapter']], pages=[], status=link['method'],
+                     reason='2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor')
+        if link['method'] == 'title-8e':
+            entry['chapter7'] = link['chapter7']
+            entry['title7'] = link['title7']
+    linked = {'resolved', 'title-8e', 'topic-8e'}
+    for ch, membership in metadata['study'].items():
+        old_ids = set(membership['ids'])
+        changed_ids = {id for id, link in links.items() if not link.get('hold')}
+        past = [q for q in bank if q['kind'] == 'past' and
+                (ch in entries[q['id']]['chapters'] if q['id'] in changed_ids else q['id'] in old_ids)]
+        membership.update(ids=[q['id'] for q in past], past=len(past),
+                          resolved=sum(entries[q['id']]['status'] == 'resolved' for q in past),
+                          fallback=sum(entries[q['id']]['status'] not in linked for q in past),
+                          chapterLinked=sum(entries[q['id']]['status'] in {'title-8e', 'topic-8e'} for q in past))
+    return metadata
+
+
 def build():
     bank = read(DATA / 'all.json')
     catalog = read(DATA / 'exam-catalog.json')['records']
@@ -85,9 +110,15 @@ def build():
         if ch in destinations:
             study[ch]['studyOnly'] = True
     result = dict(version=1, edition=8, tocSource='hazzard8e-toc.json', questions=entries, study=study)
+    result = link_seventh(result, bank)
     (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'{len(entries)} official questions; {sum(e["status"] == "resolved" for e in entries.values())} resolved')
 
 
 if __name__ == '__main__':
-    build()
+    import sys
+    if '--link-7e' in sys.argv:
+        result = link_seventh(read(DATA / 'exam-references.json'), read(DATA / 'all.json'))
+        (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    else:
+        build()

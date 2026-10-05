@@ -42,7 +42,7 @@ Historically, a major focus of geriatric medicine has been to conceptually captu
 
 patients is best measured by the ability to function in the environment and that functional status provides powerful prognostic information on multiple adverse health outcomes independent of disease status. An array of large epidemiologic studies provided robust evidence that even minor declines in physical function are associated with substantial deterioration of quality of life, are good metrics of disease severity progression, are more accurate and predictive than traditional organ-specific measures, and provide prognostic information for multiple health-related outcomes, including health care resources utilization, progression of disability, and mortality. This bulk of knowledge created the premises for the conceptualization of frailty as a status of susceptibility that is related to diseases, but evolves independently.
 
-### Frailty Conceptual Development And The “LAYERS” Of Frailty
+### Frailty Conceptual Development And The “Layers” Of Frailty
 
 Most health care professionals recognize that there are complexities that are unique to geriatric patients. Despite extensive research with a focus on the development of functional assessment tools and overall functional status, there is still a vacuum of knowledge about the complexity of aging and its relationship with diseases and disability. Understanding physical and cognitive function is clearly important, but this understanding often does not provide clear and specific paths to interventions. Furthermore, since addressing each single disease does not necessarily require information on functional status, ouside the world of geriatric assessment functional status has often been ignored.
 

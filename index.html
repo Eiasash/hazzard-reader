@@ -27,7 +27,7 @@
   --veil:rgb(38 48 41 / .28);
   --reading:"Times New Roman",Times,serif;
   --ui:system-ui,-apple-system,"Segoe UI",sans-serif;
-  --body:11px; --small:calc(10px * var(--fs,1));
+  --chapter-title-size:calc(12px * var(--fs,1)); --body:11px; --small:calc(10px * var(--fs,1));
   --label:calc(12px * var(--fs,1)); --title:calc(19px * var(--fs,1));
   --heading:calc(14.3px * var(--fs,1)); --subhead:calc(13px * var(--fs,1));
   --s1:calc(4px * var(--fs,1)); --s2:calc(8px * var(--fs,1));
@@ -364,7 +364,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #chapterHeader #headerHome{flex:0 0 44px;min-width:44px;font-size:calc(22px * var(--fs,1));color:var(--accent)}
 #headerHome svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7}
 #headerHome[aria-current]{background:var(--accent-soft)}
-#chapterHeaderTitle{font-size:calc(12px * var(--fs,1));text-align:left;padding-inline:4px}
+#chapterHeader #chapterHeaderTitle{font-size:var(--chapter-title-size);text-align:left;padding-inline:4px}
 .chapter-switch{flex:0 0 88px}
 #chapterHeader .chapter-switch button{min-width:44px;font-size:calc(11px * var(--fs,1));flex:1}
 #chapterHeader .chapter-switch button:first-child{flex:1}
@@ -32674,7 +32674,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v92 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v93 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33960,7 +33960,8 @@ if(cid==='laws')await HazzardLawCards.decorate(copy);
 if(/^\d+s$/.test(cid))await HazzardMemoryAids.decorate(copy,cid);
 if(/^\d+s?$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error){flash(error.message,6000);}
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
-{const h=decodeURIComponent(location.hash.slice(1));let done=false;
+{const h=decodeURIComponent(location.hash.slice(1));let done=new URL(location.href).searchParams.get('chapterTop')==='1';
+  if(done)scrollReadingTo(0);
   if(h.startsWith('search-')){done=revealSearch(h.slice(7))}
   else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
   else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}

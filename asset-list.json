@@ -1,5 +1,5 @@
 {
-  "version": "v92",
+  "version": "v93",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -1223,7 +1223,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch42_frailty.md",
-      "sha256": "edee393d12d31e06dee137288ffd648212455e789de7a6e87fc31a3ca3e0d7a1",
+      "sha256": "de14dcb8f8b449957f79d4f7ff67c1ef968ef2a72163d99923e6b953353bfcff",
       "bytes": 70102
     },
     {
@@ -4138,8 +4138,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "261a61167cd493e9f009ce6eed28a149944b0833d6cb9c4ff50b240b9365e476",
-      "bytes": 13377
+      "sha256": "7c5af507fd749b14f7e336d4f9d88b201d600b0e5a1cae3c8ed440b056e8f76e",
+      "bytes": 13543
     },
     {
       "url": "./data/drug-index.json",
@@ -4323,8 +4323,8 @@
     },
     {
       "url": "./data/mcq/exam-references.json",
-      "sha256": "7c6c5705900025687a7589fbe3901026559ce852f7103a70b9d72d59650b340e",
-      "bytes": 456766
+      "sha256": "5d65270255bc964a7057e65685a96dc269a6a0b3d791c9b83c77f71defbe7662",
+      "bytes": 472435
     },
     {
       "url": "./data/mcq/hazzard8e-toc.json",
@@ -4608,8 +4608,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "fb871b1856cf7e79715d6753771a86645f384ec24a962e428c7576bc50d1cfb9",
-      "bytes": 3305998
+      "sha256": "74ce35a1a3e948a2f624a14667087200cd7e43e71cf03fb8fa756e97b4d69bed",
+      "bytes": 3306145
     },
     {
       "url": "./js/changed-questions.js",
@@ -4623,8 +4623,8 @@
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "b0290276a9d495aa38bdfb6acdb654a15ba7c80dcce6152d36ed7556bb2fcd7a",
-      "bytes": 4787
+      "sha256": "c74d6f1abe8cdda211c882cab5306250bfe2c669fdefa6c9dce2efb129056cec",
+      "bytes": 4806
     },
     {
       "url": "./js/exam-simulation.js",
@@ -4648,8 +4648,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "a537fd5f796ee087c604e5afddfdeb68f111c5e252ca68f41403d97304dc0bc8",
-      "bytes": 60468
+      "sha256": "b9f0bb91c4264372eb37d7c7975669985e35f94b39e4718ae3b972aacaddbf2e",
+      "bytes": 60948
     },
     {
       "url": "./js/memory-aids.js",
@@ -4673,7 +4673,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "c79999e82faccca968b282efb32ae4632435a29df5b3f6afccab8aed30342ba8",
+      "sha256": "6b5544121b0634d7cab43d3e05458cc5fa6b08e2089ea321eac6e3c60cd24a28",
       "bytes": 7395
     },
     {
