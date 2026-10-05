@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v81",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T10:20:04.643087+00:00",
+      "changes": [
+        "Sources completed for 3 more past-paper questions; partial support added for 5; 59 remain marked incomplete."
+      ]
+    },
+    {
       "version": "v80",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T09:50:48.974523+00:00",
