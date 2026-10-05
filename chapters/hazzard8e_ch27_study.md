@@ -2,7 +2,7 @@ Study summary of Chapter 27 — Perioperative Care: Evaluation and Management; t
 
 # Chapter 27 Study: Perioperative Care
 
-**Study page only - full chapter not in the reader**
+**Full chapter available: [Read Chapter 27](?chapter=27).**
 
 *Fast build from the book; not lane-reviewed.*
 

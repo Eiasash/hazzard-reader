@@ -32,10 +32,10 @@ for chapter in manifest['chapters']:
     path = 'chapters/' + chapter['file']
     paths.add(path)
     text = (ROOT / path).read_text(encoding='utf-8')
-    for image in re.findall(r'!\[[^\]]*\]\(([^)\s]+\.(?:png|jpe?g|gif|svg))\)', text, re.I):
+    for image in re.findall(r'!\[[^\]]*\]\(([^)\s]+\.(?:png|jpe?g|gif|svg|webp))\)', text, re.I):
         paths.add('chapters/' + image.rsplit('/', 1)[-1])
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
-paths.update(re.findall(r'(?:src|data-src)="(chapters/[^"?#]+\.(?:png|jpe?g|gif|svg))"', html, re.I))
+paths.update(re.findall(r'(?:src|data-src)="(chapters/[^"?#]+\.(?:png|jpe?g|gif|svg|webp))"', html, re.I))
 files = []
 for path in sorted(paths):
     data = (ROOT / path).read_bytes()

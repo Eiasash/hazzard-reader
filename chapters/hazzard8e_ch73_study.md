@@ -2,7 +2,7 @@ Study summary of Chapter 73; the book is the reference.
 
 # Chapter 73 Study: The Aging Cardiovascular System
 
-**Study page only - full chapter not in the reader**
+**Full chapter available: [Read Chapter 73](?chapter=73).**
 
 Fast build from the book; not lane-reviewed.
 

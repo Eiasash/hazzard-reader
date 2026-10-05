@@ -2,7 +2,7 @@ Study summary of Chapter 95; the book is the reference.
 
 # Chapter 95 Study: Hematologic Malignancies and Plasma Cell Disorders
 
-**Study summary only - read the full chapter in the book, pp 1483-1508.**
+**Full chapter available: [Read Chapter 95](?chapter=95).**
 
 Fast build from the book; not lane-reviewed.
 
