@@ -1,6 +1,7 @@
 const CACHE_VERSION = 'v98';
 // Release caches activate only after the reader's update tap.
-const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
+// Separate corrected assets from already-installed v98 copies during download.
+const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-r1';
 const SHELL_URL = './index.html';
 const LIST_URL = './asset-list.json';
 const READY_URL = './.offline-ready';
