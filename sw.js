@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v97';
+const CACHE_VERSION = 'v98';
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION;
 const SHELL_URL = './index.html';
@@ -82,6 +82,7 @@ async function offlineStatus() {
   return cache;
 }
 self.addEventListener('message', event => {
+  if(event.data?.type==='HAZZARD_VERSION'){event.ports[0]?.postMessage({version:CACHE_VERSION});return;}
   if (event.data?.type === 'HAZZARD_APPLY_UPDATE') {
     event.waitUntil(offlineStatus().then(() => self.skipWaiting()));
     return;
