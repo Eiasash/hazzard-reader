@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v85",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T12:25:30.537936+00:00",
+      "changes": [
+        "Required articles: NEJM 2024 hearing-loss review now has a study card."
+      ]
+    },
+    {
       "version": "v84",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T12:00:19.265872+00:00",
