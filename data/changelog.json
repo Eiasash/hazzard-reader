@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v77",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T08:53:43.357522+00:00",
+      "changes": [
+        "Page-backed explanations added for 93 past-paper questions marked under review. Your affected ones are in Practice → Changed questions; unresolved notes remain visible."
+      ]
+    },
+    {
       "version": "v76",
       "date": "2026-10-05",
       "releasedAt": "2026-10-04T22:02:04.681925+00:00",
@@ -15,7 +23,7 @@
       "releasedAt": "2026-10-04T21:36:20.319596+00:00",
       "changes": [
         "Corrected explanations and source details in the 2020 and December 2021 papers, plus two recent-paper fixes. 163 questions updated.",
-        "Your affected questions are in Practice → Changed questions. Unresolved source details remain visibly under review.",
+        "Your affected questions are in Practice > Changed questions. Unresolved source details remain visibly under review.",
         "Shortened recent release notes; your saved answers and review list are preserved."
       ]
     },
@@ -24,7 +32,7 @@
       "date": "2026-10-04",
       "releasedAt": "2026-10-04T20:25:26.452168+00:00",
       "changes": [
-        "Corrected content in 228 past-paper questions. Your affected ones are in Practice → Changed questions.",
+        "Corrected content in 228 past-paper questions. Your affected ones are in Practice > Changed questions.",
         "Official keys and your saved progress are preserved."
       ]
     },
@@ -33,7 +41,7 @@
       "date": "2026-10-04",
       "releasedAt": "2026-10-04T18:30:12.792801+00:00",
       "changes": [
-        "Corrected content in 231 past-paper questions. Your affected ones are in Practice → Changed questions.",
+        "Corrected content in 231 past-paper questions. Your affected ones are in Practice > Changed questions.",
         "Official keys and your saved progress are preserved."
       ]
     },
@@ -41,7 +49,7 @@
       "version": "v72",
       "date": "2026-10-04",
       "changes": [
-        "Corrected content in 50 past-paper questions. Your affected ones are in Practice → Changed questions.",
+        "Corrected content in 50 past-paper questions. Your affected ones are in Practice > Changed questions.",
         "Official keys and your saved progress are preserved."
       ],
       "releasedAt": "2026-10-04T16:57:04Z"
