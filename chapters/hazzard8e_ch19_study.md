@@ -5,7 +5,7 @@ Study summary of Chapter 19; the book and the full chapter are the reference.
 ## Summary
 
 **Value and risk**
-- Value means patient health outcomes relative to costs. Cost cutting alone can harm outcomes; quality targets alone may miss patient preferences or sustainability (p263).
+- Value means patient health outcomes relative to costs. Quality targets alone may miss patient preferences or sustainability (p263).
 - Low-value care provides little benefit, may harm patients, or wastes resources. Choosing Wisely lists identify targets, but lists alone have had limited effects (p264).
 - Common elements: financial risk sharing, quality measurement, care coordination and population health management (p264-266).
 - Upside risk rewards performance; downside risk permits losses. Bundles cover an episode; capitation pays per person. Quality thresholds help prevent withholding beneficial care (p265).

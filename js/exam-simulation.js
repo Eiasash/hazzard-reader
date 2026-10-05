@@ -20,7 +20,7 @@ window.HazzardSimulation = (() => {
     if(s.status==='running')return s.commit===null;
     return validResult(v.history[s.id])&&record(s.commit)&&HazzardMCQ.validStore({version:1,answers:s.commit.answers})&&Object.keys(s.commit.answers).length===100&&Object.keys(s.commit.answers).every(id=>s.ids.includes(id))&&HazzardReview.valid(s.commit.review);
   }
-  function read(){const raw=localStorage.getItem(KEY),v=raw===null?empty():JSON.parse(raw);if(!valid(v))throw Error('Saved exam simulation is unreadable. Existing data has been kept.');return v;}
+  function read(){const v=HazzardStorage.readProtected(KEY,empty);if(!valid(v))throw Error('Saved exam simulation is unreadable. Existing data has been kept.');return v;}
   function merge(a,b){
     if(!a)return b;
     const history={...b.history};for(const[id,r]of Object.entries(a.history))if(!history[id]||r.at>=history[id].at)history[id]=r;
@@ -71,7 +71,7 @@ window.HazzardSimulation = (() => {
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label','Exam simulation');viewport.append(host);
     let all=[],loaded=false,busy=false,error='',setup=false,reviewing=!!history.state?.hazzardSimulationSearch,gridOpen=false,confirmSubmit=false,selectedSitting='',duration='240',custom='240';
     const controller={active:false,search(){search.open();},get hasUnsaved(){try{return read().session?.status==='submitting';}catch{return true;}},save(){check();},remember(){},sync(){if(loaded)render();},show(){controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else render();}};
-    async function load(){host.innerHTML='<div class="mcq-page">Loading exam simulation…</div>';try{await HazzardMCQ.loadAliases();all=await bank();loaded=true;await check();render();search.restore();}catch(e){error=e.message;host.innerHTML='<div class="mcq-page"><p role="alert">'+esc(error)+'</p><button data-sim="load">Try again</button></div>';}}
+    async function load(){host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page">Loading exam simulation…</div>';try{await HazzardMCQ.loadAliases();all=await bank();loaded=true;await check();render();search.restore();}catch(e){error=e.message;host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="alert">'+esc(error)+'</p><button data-sim="load">Try again</button></div>';}}
     const search=HazzardQuestionSearch.mount({allowAll:false,
       getItems:async()=>{const s=read().session;if(!loaded||!s)throw Error('Start or resume a simulation to search its paper.');const byId=new Map(all.map(q=>[q.id,q]));return s.ids.map(id=>byId.get(id)).filter(Boolean).map(q=>({id:q.id,label:label(s.sitting)+' · Q'+q.examNumber,stem:q.q,text:[q.q,...q.o].join(' ')}));},
       openQuestion:(id,leave)=>{const s=read().session,index=s?.ids.indexOf(id);if(index===undefined||index<0)return;edit(v=>{v.position=index;},true);setup=false;reviewing=s.status==='submitted';gridOpen=false;leave();history.replaceState({...history.state,hazzardSimulationSearch:true},'');render();host.scrollTop=0;}
@@ -104,10 +104,10 @@ window.HazzardSimulation = (() => {
             '<div class="sim-actions"><button data-sim="prev" '+(s.position===0?'disabled':'')+'>Prev</button><button data-sim="next" '+(s.position===99?'disabled':'')+'>Next</button>'+(!done?'<button data-sim="submit">Submit exam</button>':'')+'</div>'+
             (confirmSubmit&&!done?'<section class="sim-confirm" role="region" aria-label="Confirm submission"><p>Submit now? '+(100-count)+' unanswered. Answers will be locked.</p><button data-sim="confirm">Submit and show score</button> <button data-sim="cancel">Keep working</button></section>':'')+'</div>';
         }
-        host.innerHTML='<div class="mcq-page sim-page">'+(error||backgroundError?'<p role="alert">'+esc(error||backgroundError)+'</p>':'')+html+'</div>';
+        host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page sim-page">'+(error||backgroundError?'<p role="alert">'+esc(error||backgroundError)+'</p>':'')+html+'</div>';
         for(const img of host.querySelectorAll('img'))img.onerror=()=>{img.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to download it.'}));};
         tick();
-      }catch(e){host.innerHTML='<div class="mcq-page"><p role="alert">'+esc(e.message)+'</p></div>';}
+      }catch(e){host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="alert">'+esc(e.message)+'</p></div>';}
     }
     function tick(){
       if(!controller.active)return;

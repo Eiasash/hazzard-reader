@@ -22,7 +22,7 @@ window.HazzardReview = (() => {
     if(batch){const answers={};for(const [id,a]of Object.entries(batch.answers)){const target=HazzardMCQ.currentId(id);if(!answers[target]||a.at>=answers[target].at)answers[target]=a;}const ids=[...new Set(batch.ids.map(HazzardMCQ.currentId))];batch={...batch,ids,answers,position:Math.min(batch.position,ids.length)};}
     return {...v,items,batch};
   }
-  function read(){const raw=localStorage.getItem(KEY),v=raw===null?empty():JSON.parse(raw);if(!valid(v))throw Error('Unreadable review queue');return canonical(v);}
+  function read(){const v=HazzardStorage.readProtected(KEY,empty);if(!valid(v))throw Error('Unreadable review queue');return canonical(v);}
   function merge(a,b){a=canonical(a);b=canonical(b);const items={...b.items};for(const[id,r]of Object.entries(a.items))if(!items[id]||r.at>=items[id].at)items[id]=r;const newest=a.batchAt>=b.batchAt?a:b;return {version:1,items,seed:!a.seed?b.seed:!b.seed?a.seed:a.seed.at<=b.seed.at?a.seed:b.seed,settings:a.settings.at>=b.settings.at?a.settings:b.settings,batch:newest.batch,batchAt:newest.batchAt};}
   function write(v){if(!valid(v))throw Error('Review queue could not be saved');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-review-change'));return v;}
   function due(v=read(),today=day()){return Object.entries(v.items).filter(([,r])=>r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
@@ -35,9 +35,9 @@ window.HazzardReview = (() => {
   function set(id,value,answer){const v=read();id=HazzardMCQ.currentId(id);v.items[id]={...(value||blank()),at:Math.max(Date.now(),(v.items[id]?.at||0)+1)};if(answer!==undefined&&v.batch?.ids.includes(id)){if(answer===null)delete v.batch.answers[id];else v.batch.answers[id]=answer;v.batchAt=Math.max(Date.now(),v.batchAt+1);}return write(v);}
   let seedPromise;
   function seed(){return seedPromise ||= (async()=>{
-    await HazzardMCQ.loadAliases();if(read().seed)return read().seed;
+    await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;if(read().seed)return read().seed;
     const response=await fetch('data/mcq/all.json');if(!response.ok)throw Error('Review questions unavailable');const all=await response.json();
-    const raw=localStorage.getItem(HazzardMCQ.KEY),saved=raw===null?{version:1,answers:{}}:JSON.parse(raw);if(!HazzardMCQ.validStore(saved))throw Error('Unreadable MCQ answers');
+    const saved=HazzardMCQ.readStore(false);if(!HazzardMCQ.validStore(saved))throw Error('Unreadable MCQ answers');
     const answers={};for(const[id,a]of Object.entries(saved.answers)){const target=HazzardMCQ.currentId(id);if(!answers[target]||a.at>=answers[target].at)answers[target]=a;}
     const v=read();if(v.seed)return v.seed;let count=0;const now=Date.now(),today=day(now);
     for(const q of all){const a=answers[q.id];if(a?.checked&&!q.accepted.includes(a.selected)&&!v.items[q.id]){v.items[q.id]={active:true,unsure:false,step:0,due:plus(today,Math.floor(count/30)),at:now};count++;}}
