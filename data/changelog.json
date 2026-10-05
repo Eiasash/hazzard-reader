@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v80",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T09:50:48.974523+00:00",
+      "changes": [
+        "Panels open compactly (tap the handle to enlarge); review warnings appear once, comparison notes in Hebrew; Go with no question number opens Q1."
+      ]
+    },
+    {
       "version": "v79",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T09:40:46.404071+00:00",
