@@ -6,7 +6,7 @@ Study summary of Chapter 10; the book and the full chapter are the reference.
 
 **What capacity means**
 - Assess understanding, appreciation, reasoning and the ability to express a choice (p151–152).
-- Capacity is decision-specific and may be time-limited; impairment in one task does not establish incapacity for every decision (p154).
+- Capacity is decision-specific; impairment in one task does not establish incapacity for every decision (p154).
 - Legal incompetence is a court determination; diagnosis, age or eccentricity alone does not establish it (p152).
 - A choice that seems unreasonable to others does not itself negate self-determination; assess the reasoning process (p152).
 
