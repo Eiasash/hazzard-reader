@@ -531,91 +531,91 @@
       "title": "Mobility Assessment and Management — Study",
       "file": "hazzard8e_ch50_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "8s",
       "title": "Principles of Geriatric Assessment — Study",
       "file": "hazzard8e_ch8_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "9s",
       "title": "Mental Status and Neurologic Examination — Study",
       "file": "hazzard8e_ch9_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "96s",
       "title": "Coagulation Disorders — Study",
       "file": "hazzard8e_ch96_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "16s",
       "title": "Institutional Long-Term and Post-Acute Care — Study",
       "file": "hazzard8e_ch16_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "39s",
       "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis — Study",
       "file": "hazzard8e_ch39_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "74s",
       "title": "Coronary Heart Disease and Dyslipidemia — Study",
       "file": "hazzard8e_ch74_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "89s",
       "title": "Breast Disease — Study",
       "file": "hazzard8e_ch89_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "22s",
       "title": "Medication Prescribing and De-Prescribing — Study",
       "file": "hazzard8e_ch22_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "31s",
       "title": "Disorders of Swallowing — Study",
       "file": "hazzard8e_ch31_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "85s",
       "title": "Upper Gastrointestinal Disorders — Study",
       "file": "hazzard8e_ch85_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "103s",
       "title": "Fibromyalgia and Myofascial Pain Syndromes — Study",
       "file": "hazzard8e_ch103_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "107s",
       "title": "Other Viruses: Human Immunodeficiency Virus Infection and Herpes Zoster — Study",
       "file": "hazzard8e_ch107_study.md",
       "kind": "study",
-      "description": "Exam-cited book images. Full Read chapter available."
+      "description": "Concept summary + linked exam questions + exam-cited book images"
     },
     {
       "number": "49",
@@ -695,6 +695,13 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "80s",
+      "title": "Respiratory System and Selected Pulmonary Disorders — Study",
+      "file": "hazzard8e_ch80_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "96",
       "title": "Coagulation Disorders",
       "file": "hazzard8e_ch96_coagulation_disorders.md",
@@ -735,6 +742,13 @@
       "file": "hazzard8e_ch93_skin_cancer.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "93s",
+      "title": "Skin Cancer — Study",
+      "file": "hazzard8e_ch93_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "107",
@@ -779,11 +793,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "78s",
+      "title": "Peripheral Vascular Disease — Study",
+      "file": "hazzard8e_ch78_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "84",
       "title": "Aging of the Gastrointestinal System and Selected Lower GI Disorders",
       "file": "hazzard8e_ch84_aging_of_the_gastrointestinal_system_and_selected_lower_gi_disorders.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "84s",
+      "title": "Aging of the Gastrointestinal System and Selected Lower GI Disorders — Study",
+      "file": "hazzard8e_ch84_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "30",
@@ -793,11 +821,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "30s",
+      "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation — Study",
+      "file": "hazzard8e_ch30_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "90",
       "title": "Prostate Cancer",
       "file": "hazzard8e_ch90_prostate_cancer.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "90s",
+      "title": "Prostate Cancer — Study",
+      "file": "hazzard8e_ch90_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "11",
@@ -807,11 +849,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "11s",
+      "title": "Prevention and Screening — Study",
+      "file": "hazzard8e_ch11_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "69",
       "title": "Management of Common Nonpain Symptoms",
       "file": "hazzard8e_ch69_management_of_common_nonpain_symptoms.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "69s",
+      "title": "Management of Common Nonpain Symptoms — Study",
+      "file": "hazzard8e_ch69_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "31",
@@ -842,11 +898,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "34s",
+      "title": "Hearing Loss: Assessment and Management — Study",
+      "file": "hazzard8e_ch34_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "38",
       "title": "Benign Prostate Disorders",
       "file": "hazzard8e_ch38_benign_prostate_disorders.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "38s",
+      "title": "Benign Prostate Disorders — Study",
+      "file": "hazzard8e_ch38_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "62",
@@ -856,11 +926,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "62s",
+      "title": "Cerebrovascular Disease — Study",
+      "file": "hazzard8e_ch62_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "64",
       "title": "Traumatic Brain Injury and Chronic Traumatic Encephalopathy",
       "file": "hazzard8e_ch64_traumatic_brain_injury_and_chronic_traumatic_encephalopathy.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "64s",
+      "title": "Traumatic Brain Injury and Chronic Traumatic Encephalopathy — Study",
+      "file": "hazzard8e_ch64_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "70",
@@ -870,11 +954,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "70s",
+      "title": "Palliative Care Across Care Settings — Study",
+      "file": "hazzard8e_ch70_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "72",
       "title": "Ethical Issues",
       "file": "hazzard8e_ch72_ethical_issues.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "72s",
+      "title": "Ethical Issues — Study",
+      "file": "hazzard8e_ch72_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     },
     {
       "number": "79",
@@ -884,6 +982,13 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "79s",
+      "title": "Hypertension — Study",
+      "file": "hazzard8e_ch79_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "94",
       "title": "Aging of the Hematopoietic System and Anemia",
       "file": "hazzard8e_ch94_aging_of_the_hematopoietic_system_and_anemia.md",
@@ -891,11 +996,25 @@
       "description": "Fast build from the marked book; not lane-reviewed."
     },
     {
+      "number": "94s",
+      "title": "Aging of the Hematopoietic System and Anemia — Study",
+      "file": "hazzard8e_ch94_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
       "number": "100",
       "title": "Myopathies, Polymyalgia Rheumatica, and Giant Cell Arteritis",
       "file": "hazzard8e_ch100_myopathies_polymyalgia_rheumatica_and_giant_cell_arteritis.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "100s",
+      "title": "Myopathies, Polymyalgia Rheumatica, and Giant Cell Arteritis — Study",
+      "file": "hazzard8e_ch100_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     }
   ]
 }
