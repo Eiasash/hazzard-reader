@@ -189,7 +189,8 @@ window.HazzardMCQ = (() => {
       for(const [mode,label] of [['notes',readOnlyChapter?'Read chapter':'Study notes'],['questions','Exam questions']]){
         const button=document.createElement('button');button.type='button';button.dataset.studyView=mode;button.textContent=label;button.setAttribute('role','tab');button.onclick=()=>mode==='notes'?controller.notes():controller.show();studyTabs.append(button);
       }
-      viewport.prepend(studyTabs);
+      document.getElementById('chapterHeader').append(studyTabs);
+      studyTabs.hidden=viewport.hidden;viewport.classList.add('has-study-tabs');
     }
     const selectTab=mode=>studyTabs?.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.studyView===mode)));
     const filtersObserver=new ResizeObserver(entries=>host.style.setProperty('--mcq-filter-height',(entries[0]?.target.getBoundingClientRect().height||0)+'px'));

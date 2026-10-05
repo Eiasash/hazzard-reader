@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v90",
+      "date": "2026-10-05",
+      "changes": [
+        "Study tabs now hide with the header when you scroll; the top-left button opens Chapters."
+      ]
+    },
+    {
       "version": "v89",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T15:04:29.644303+00:00",
