@@ -1384,11 +1384,15 @@
       "source": "מראה מקום גריאטריה 2020.pdf",
       "reference": "Hazzard 7e · Tables 38-1, 38-2",
       "questionRef": "Hazzard 7e · Tables 38-1, 38-2",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "title-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "33"
+      ],
+      "chapter7": "38",
+      "title7": "Low Vision: Assessment and Rehabilitation"
     },
     "mcq-7de65b6035bfccb52beb4ddb": {
       "sitting": "2020",
@@ -17154,6 +17158,89 @@
       "chapterLinked": 0
     },
     "26": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "28": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "29": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "32": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "33": {
+      "ids": [
+        "mcq-e1d465c64af524a488a79aac"
+      ],
+      "before": 0,
+      "past": 1,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 1
+    },
+    "35": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "37": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "54": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "41": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "71": {
       "ids": [],
       "before": 0,
       "past": 0,

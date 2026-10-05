@@ -1141,6 +1141,114 @@
       "file": "hazzard8e_ch26_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "28",
+      "title": "Anesthesia",
+      "file": "hazzard8e_ch28_anesthesia.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "28s",
+      "title": "Anesthesia — Study",
+      "file": "hazzard8e_ch28_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "29",
+      "title": "Surgical Quality and Outcomes",
+      "file": "hazzard8e_ch29_surgical_quality_and_outcomes.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "29s",
+      "title": "Surgical Quality and Outcomes — Study",
+      "file": "hazzard8e_ch29_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "32",
+      "title": "Oral Health",
+      "file": "hazzard8e_ch32_oral_health.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "32s",
+      "title": "Oral Health — Study",
+      "file": "hazzard8e_ch32_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "33",
+      "title": "Low Vision: Assessment and Rehabilitation",
+      "file": "hazzard8e_ch33_low_vision_assessment_and_rehabilitation.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "33s",
+      "title": "Low Vision: Assessment and Rehabilitation — Study",
+      "file": "hazzard8e_ch33_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "35",
+      "title": "Sexuality, Sexual Function, and the Aging Woman",
+      "file": "hazzard8e_ch35_sexuality_sexual_function_and_the_aging_woman.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "35s",
+      "title": "Sexuality, Sexual Function, and the Aging Woman — Study",
+      "file": "hazzard8e_ch35_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "37",
+      "title": "Sexuality, Sexual Function, and the Aging Man",
+      "file": "hazzard8e_ch37_sexuality_sexual_function_and_the_aging_man.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "37s",
+      "title": "Sexuality, Sexual Function, and the Aging Man — Study",
+      "file": "hazzard8e_ch37_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "54",
+      "title": "Therapeutic Exercise",
+      "file": "hazzard8e_ch54_therapeutic_exercise.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "54s",
+      "title": "Therapeutic Exercise — Study",
+      "file": "hazzard8e_ch54_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "41",
+      "title": "Managing the Care of Patients with Multiple Chronic Conditions",
+      "file": "hazzard8e_ch41_managing_the_care_of_patients_with_multiple_chronic_conditions.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "41s",
+      "title": "Managing the Care of Patients with Multiple Chronic Conditions — Study",
+      "file": "hazzard8e_ch41_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "71",
+      "title": "Effective Communication Strategies For Patients with Serious Illness",
+      "file": "hazzard8e_ch71_effective_communication_strategies_for_patients_with_serious_illness.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "71s",
+      "title": "Effective Communication Strategies For Patients with Serious Illness — Study",
+      "file": "hazzard8e_ch71_study.md",
+      "kind": "study"
     }
   ]
 }

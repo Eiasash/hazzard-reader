@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v95",
+      "date": "2026-10-05",
+      "changes": [
+        "Full Read chapters and study notes added for 9 more chapters."
+      ]
+    },
+    {
       "version": "v94",
       "date": "2026-10-05",
       "changes": [
