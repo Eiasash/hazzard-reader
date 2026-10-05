@@ -910,6 +910,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <div class="dialog-head">
   <span class="mark-state"><span id="markingIndicator" role="status" aria-label="Marking on" title="Marking on" hidden><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></span></span>
   <h2 id="panelTitle">Reading tools</h2>
+  <button id="panelExpand" type="button" aria-label="Expand panel" aria-expanded="false" aria-controls="panel"><span aria-hidden="true"></span></button>
   <button id="closePanel" aria-label="Close panel">×</button>
 </div>
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
@@ -32619,7 +32620,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v77 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v78 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -32896,6 +32897,7 @@ function closePanel(){
 }
 function displayPane(name){
   const pane=$('[data-pane="'+name+'"]');if(!pane)return;
+  setPanelExpanded(false);
   panel.dataset.currentPane=name;
   if(name==='tools')$('#appearanceStatus').open=false;
   for(const p of $$('[data-pane]'))p.hidden=p!==pane;
@@ -32953,6 +32955,13 @@ window.addEventListener('popstate',()=>{
   if(queuedChapter){const next=queuedChapter;queuedChapter=null;openChapter(next.chapter,next.opts);return}
   if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger)}
 });
+function setPanelExpanded(expanded){
+  panel.dataset.expanded=String(expanded);
+  $('#panelExpand').setAttribute('aria-expanded',String(expanded));
+  $('#panelExpand').setAttribute('aria-label',expanded?'Collapse panel':'Expand panel');
+}
+$('#panelExpand').onclick=()=>{setPanelExpanded(panel.dataset.expanded!=='true');viewport()};
+new ResizeObserver(viewport).observe(panel);
 $('#panelBack').onclick=closePanel;
 $('#deskBack').onclick=readingTab;
 // A held claim// A held claim opens its audit record without inserting anything into the reading flow.
@@ -33022,7 +33031,7 @@ document.addEventListener('contextmenu',e=>{suppressPressClick=true;const node=h
 document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();suppressPressClick=false}},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
-document.addEventListener('click',e=>{if(!document.getElementById('readerDebug')?.open&&panel.open&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar,#examBar')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
+document.addEventListener('click',e=>{if(!document.getElementById('readerDebug')?.open&&panel.open&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar,#examBar,#readerUpdateButton')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
 let lastReaderY=0;
 function view(id,opts={}){
   if(!['reader','desk','library'].includes(id))return;
