@@ -167,5 +167,50 @@
     "title": "Israeli law",
     "past": 71,
     "practice": 219
+  },
+  "86": {
+    "title": "Hepatic, Pancreatic, and Biliary Diseases",
+    "past": 2,
+    "practice": 0
+  },
+  "91": {
+    "title": "Lung Cancer",
+    "past": 0,
+    "practice": 0
+  },
+  "66": {
+    "title": "General Topics in Geriatric Psychiatry",
+    "past": 1,
+    "practice": 0
+  },
+  "48": {
+    "title": "Elder Mistreatment",
+    "past": 0,
+    "practice": 0
+  },
+  "10": {
+    "title": "Assessment of Decisional Capacity and Competencies",
+    "past": 0,
+    "practice": 0
+  },
+  "7": {
+    "title": "Decision Making and Advance Care Planning: What Matters Most",
+    "past": 0,
+    "practice": 0
+  },
+  "23": {
+    "title": "Substance Use and Disorders",
+    "past": 0,
+    "practice": 0
+  },
+  "36": {
+    "title": "Gynecologic Disorders",
+    "past": 0,
+    "practice": 0
+  },
+  "26": {
+    "title": "Legal Issues",
+    "past": 0,
+    "practice": 0
   }
 }
