@@ -11,7 +11,8 @@ window.HazzardCloud = (() => {
   const decided=()=>signed()&&state.username===session.username&&state.decided===true;
   // UI-only health: offline alone is never a paused cloud connection.
   const pauseAt=()=>state.dirty&&state.syncedAt?new Date(state.syncedAt).getTime()+86400000:NaN;
-  const paused=()=>navigator.onLine&&!!(session.username||state.username)&&(expired||!signed()||Date.now()>pauseAt());
+  const recoveryPaused=()=>window.HazzardStorage?.blockedKeys().length>0;
+  const paused=()=>recoveryPaused()||navigator.onLine&&!!(session.username||state.username)&&(expired||!signed()||Date.now()>pauseAt());
   function saveState(){localStorage.setItem(STATE,JSON.stringify(state));}
   const time=(at,date=false)=>{
     if(!at||!Number.isFinite(new Date(at).getTime()))return '';
@@ -20,6 +21,7 @@ window.HazzardCloud = (() => {
     return (date?part('day')+'.'+part('month')+' ':'')+part('hour')+':'+part('minute');
   };
   function label(){
+    if(recoveryPaused())return 'Cloud paused - unreadable history';
     if(paused())return 'Cloud paused - '+(!signed()||expired?'sign in again':'last sync '+time(state.syncedAt,true));
     if(expired)return 'Cloud: sign in again';
     if(!signed())return 'Cloud: not signed in';
@@ -41,7 +43,7 @@ window.HazzardCloud = (() => {
     $('cloudPrevious').disabled=busy||checking||!known||!previous?.exists;
     $('cloudRestore').textContent='Restore from cloud'+(current?.exists?' (saved '+time(current.updated_at,true)+')':'');
     $('cloudPrevious').textContent='Restore previous cloud copy'+(previous?.exists?' (saved '+time(previous.updated_at,true)+')':'');
-    $('cloudSync').disabled=busy||checking||!decided();
+    $('cloudSync').disabled=busy||checking||!decided()||recoveryPaused();
     $('cloudUseLocal').disabled=busy||checking;$('cloudStartFresh').disabled=busy||checking;
     dispatchEvent(new Event('hazzard-cloud-status'));
   }
@@ -59,7 +61,7 @@ window.HazzardCloud = (() => {
   }
   function schedule(){
     clearTimeout(timer);
-    if(!signed()||!decided()||restoring)return;
+    if(!signed()||!decided()||restoring||recoveryPaused())return;
     timer=setTimeout(()=>push(),Math.max(2000,INTERVAL-(Date.now()-(state.attemptAt||0))));
   }
   async function inspect(){
@@ -76,7 +78,7 @@ window.HazzardCloud = (() => {
     finally{checking=false;render();if(signed()&&!known){clearTimeout(timer);timer=setTimeout(inspect,INTERVAL);}}
   }
   async function push({manual=false,keepalive=false}={}){
-    if(!signed()||!decided()||busy||restoring)return;
+    if(!signed()||!decided()||busy||restoring||recoveryPaused())return;
     if(!manual&&!state.dirty)return;
     if(!navigator.onLine){schedule();return;}
     if(!manual&&!keepalive&&Date.now()-(state.attemptAt||0)<INTERVAL){schedule();return;}

@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v97', RELEASED = '06.10.2026';
+  const VERSION = 'v98', RELEASED = '06.10.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -60,6 +60,7 @@
       if (!waiting() || !navigator.onLine) return;
       event.preventDefault(); event.stopImmediatePropagation();
       if (applying) return;
+      window.HazzardStorage?.requestPersistence();
       applying = true; saveError = ''; render();
       // Freeze interactions only during the requested save/activation, so a new
       // answer cannot race the snapshot we are about to await.
@@ -90,7 +91,23 @@
     addEventListener('offline', requestStatus);
     addEventListener('hazzard-storage-status', render);
     addEventListener('hazzard-cloud-status', render);
-    document.addEventListener('visibilitychange', () => { if (!document.hidden) requestStatus(); });
+    document.addEventListener('visibilitychange', () => {
+      if(document.hidden||applying)return;
+      // Lock synchronously on return, before a tap can reach an old release.
+      const root=document.documentElement,wasInert=root.inert;root.inert=true;
+      const controller=sw?.controller;
+      if(!controller){root.inert=wasInert;return;}
+      const channel=new MessageChannel();
+      const finish=()=>{clearTimeout(timeout);channel.port1.close();root.inert=wasInert;};
+      const timeout=setTimeout(finish,5000);
+      channel.port1.onmessage=event=>{
+        if(!document.hidden&&parseInt(event.data?.version?.slice(1),10)>parseInt(VERSION.slice(1),10)){
+          clearTimeout(timeout);channel.port1.close();location.reload();return;
+        }
+        finish();requestStatus();
+      };
+      controller.postMessage({type:'HAZZARD_VERSION'},[channel.port2]);
+    });
     if (sw) {
       sw.addEventListener('message', event => {
         const data = event.data;
