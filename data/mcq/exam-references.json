@@ -1675,11 +1675,15 @@
       "source": "מראה מקום גריאטריה 2021.pdf",
       "reference": "Hazzard 7e · p. 37,42 · Table 3-2,3-3",
       "questionRef": "Hazzard 7e · p. 37,42 · Table 3-2,3-3",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "title-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "3"
+      ],
+      "chapter7": "3",
+      "title7": "Immunology of Aging"
     },
     "mcq-30ca809d5327e7a3f40fa96f": {
       "sitting": "2021-Dec",
@@ -17319,6 +17323,71 @@
       "chapterLinked": 0
     },
     "24": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "19": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "20": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "21": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "13": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "2": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "3": {
+      "ids": [
+        "mcq-464ec512c4048c136965e84e"
+      ],
+      "past": 1,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 1
+    },
+    "4": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "5": {
+      "ids": [],
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "chapterLinked": 0
+    },
+    "6": {
       "ids": [],
       "past": 0,
       "resolved": 0,
