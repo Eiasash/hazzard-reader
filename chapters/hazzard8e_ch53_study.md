@@ -2,7 +2,7 @@ Study summary of Chapter 53; the book is the reference.
 
 # Chapter 53 Study: Hip Fractures
 
-**Study summary only - read the full chapter in the book, pp 793-804.**
+**Full chapter available: [Read Chapter 53](?chapter=53).**
 
 Fast build from the book; not lane-reviewed.
 
