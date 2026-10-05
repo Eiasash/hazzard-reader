@@ -4427,7 +4427,8 @@
         {
           "page": 978,
           "chapter": "62",
-          "available": false
+          "available": true,
+          "readerChapter": "62"
         }
       ],
       "tables": [],
@@ -4665,12 +4666,14 @@
         {
           "page": 1592,
           "chapter": "100",
-          "available": false
+          "available": true,
+          "readerChapter": "100"
         },
         {
           "page": 1593,
           "chapter": "100",
-          "available": false
+          "available": true,
+          "readerChapter": "100"
         }
       ],
       "tables": [],
@@ -7047,7 +7050,8 @@
         {
           "page": 1480,
           "chapter": "94",
-          "available": false
+          "available": true,
+          "readerChapter": "94"
         }
       ],
       "tables": [],
@@ -7683,7 +7687,8 @@
         {
           "page": 997,
           "chapter": "64",
-          "available": false
+          "available": true,
+          "readerChapter": "64"
         }
       ],
       "tables": [],
@@ -7762,7 +7767,8 @@
         {
           "page": 1102,
           "chapter": "72",
-          "available": false
+          "available": true,
+          "readerChapter": "72"
         }
       ],
       "tables": [],
@@ -7783,7 +7789,8 @@
         {
           "page": 562,
           "chapter": "38",
-          "available": false
+          "available": true,
+          "readerChapter": "38"
         },
         {
           "page": 701,
@@ -7893,7 +7900,7 @@
           "page": 1316,
           "chapter": "85",
           "available": true,
-          "readerChapter": "85s"
+          "readerChapter": "85"
         }
       ],
       "tables": [
@@ -8106,7 +8113,8 @@
         {
           "page": 1082,
           "chapter": "70",
-          "available": false
+          "available": true,
+          "readerChapter": "70"
         }
       ],
       "tables": [],
@@ -13494,7 +13502,8 @@
         {
           "page": 495,
           "chapter": "34",
-          "available": false
+          "available": true,
+          "readerChapter": "34"
         }
       ],
       "tables": [],
@@ -14081,17 +14090,20 @@
         {
           "page": 1223,
           "chapter": "79",
-          "available": false
+          "available": true,
+          "readerChapter": "79"
         },
         {
           "page": 1224,
           "chapter": "79",
-          "available": false
+          "available": true,
+          "readerChapter": "79"
         },
         {
           "page": 1225,
           "chapter": "79",
-          "available": false
+          "available": true,
+          "readerChapter": "79"
         }
       ],
       "tables": [],
@@ -14494,7 +14506,7 @@
           "page": 446,
           "chapter": "31",
           "available": true,
-          "readerChapter": "31s"
+          "readerChapter": "31"
         },
         {
           "page": 1690,
@@ -14846,7 +14858,7 @@
           "page": 232,
           "chapter": "16",
           "available": true,
-          "readerChapter": "16s"
+          "readerChapter": "16"
         },
         {
           "page": 715,
