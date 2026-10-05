@@ -26,11 +26,12 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "## הסבר קליני\n\n**חיסון נגד הרפס זוסטר (Shingrix)** מומלץ למבוגרים מגיל 50 ומעלה, ובוודאי בגיל 67. היתרון המרכזי של החיסון אינו רק במניעת המחלה עצמה, אלא בעיקר ב**הפחתת הסיכון לנוירלגיה פוסט-הרפטית (Post Herpetic Neuralgia - PHN)** בכ-90%, שהיא הסיבוך השכיח והמתיש ביותר של הרפס זוסטר.\n\n**אפשרות 1 נכונה**: החיסון מומלץ בגיל זה דווקא בשל היכולת להפחית משמעותית את הסיכון ל-PHN, סיבוך שיכול לגרום לכאב כרוני משביתי במשך חודשים עד שנים.\n\n**אפשרות 0 שגויה**: חיסון מומלץ גם (ובעיקר) למי שחלו בעבר באבעבועות רוח, שכן נשיאות נגיף VZV היא הגורם להרפס זוסטר.\n\nיש להבחין בין Zostavax החי לבין Shingrix הרקומביננטי, המכיל אנטיגן gE ואדג׳ובנט. אין לנמק את פסילת ג׳ לגבי Shingrix באמצעות מגבלות החיסון החי; המפתח ההיסטורי הוא ב׳ (Hazzard 8e, עמ׳1728–1729). יש להתייעץ עם רופא במצבי דיכוי חיסוני.\n\n**אפשרות 3 שגויה**: גיל 67 הוא זמן מצוין לחיסון - הסיכון רק עולה עם הגיל, ואין סיבה לדחות.\n\n(Hazzard's Geriatric Medicine, )",
+      "explanation": "**התשובה הרשמית: ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 2).\n\n**Hazzard 8e — ספר הבחינה:** יש להבחין בין Zostavax החי לבין Shingrix הרקומביננטי, המכיל אנטיגן gE ואדג׳ובנט; אין לנמק את פסילת ג׳ לגבי Shingrix באמצעות מגבלות החיסון החי (Hazzard 8e, עמ׳ 1728–1729).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2024):** Shingrix הוא חיסון רקומביננטי: CDC ממליץ על שתי מנות מגיל 50, וכן במבוגרים מדוכאי חיסון מגיל 19. אין להעתיק אליו את מגבלות החיסון החי Zostavax.\n\nCenters for Disease Control and Prevention. Shingles Vaccine Recommendations; Routine recommendations; Immunocompromised adults. [Source](https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "13": {
@@ -168,12 +169,14 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "אימות במהדורה 8: אגוניסטים אופיואידיים עלולים לגרום לתלות גופנית ולתסמיני גמילה בהפסקתם; בכך נתמכת ד׳. אין להסיק מהדיון בתקרת הדיכוי הנשימתי של בופרנורפין תקרת מינון אחידה לכל האופיואידים (Hazzard 8e, עמ׳ 326).\n\nהתשובה הנכונה היא D. שימוש ממושך באופיואידים גורם לתלות פיזית (physical dependence), כך שהפסקה פתאומית עלולה לעורר תסמונת גמילה הכוללת הזעה, טכיקרדיה, שלשולים, כאבי שרירים וחרדה. זהו מנגנון פיזיולוגי צפוי ואינו מעיד בהכרח על התמכרות (addiction). לכן יש להפחית מינון בהדרגה, במיוחד בזקנים הרגישים יותר לתופעות אלו (Hazzard's, פרקי ניהול כאב בזקנים).\n\nעם התחלת טיפול באופיואידים יש להתחיל באופן שגרתי טיפול במשלשלים למניעת עצירות (Hazzard 8e, עמ׳ 1075).\n\n**פנינה קלינית:** בזקנים – \"start low, go slow\" באופיואידים.",
+      "explanation": "אימות במהדורה 8: אגוניסטים אופיואידיים עלולים לגרום לתלות גופנית ולתסמיני גמילה בהפסקתם; בכך נתמכת ד׳. אין להסיק מהדיון בתקרת הדיכוי הנשימתי של בופרנורפין תקרת מינון אחידה לכל האופיואידים (Hazzard 8e, עמ׳ 326).\n\nשימוש ממושך באופיואידים עלול לגרום לתלות גופנית ולתסמיני גמילה בעת הפסקתם (Hazzard 8e, עמ׳ 169, Prescription Drug Misuse; עמ׳ 326).\n\nעם התחלת טיפול באופיואידים יש להתחיל באופן שגרתי טיפול במשלשלים למניעת עצירות (Hazzard 8e, עמ׳ 1075).\n\n**פנינה קלינית:** בזקנים – \"start low, go slow\" באופיואידים.",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained.",
+        "release": "v82",
+        "status": "Unsupported specific withdrawal-symptom list removed; page-supported dependence statement retained.",
         "pages": [
-          326
+          169,
+          326,
+          1075
         ],
         "edition": 8
       }
@@ -378,19 +381,20 @@
       "paperPage": 7,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל א׳, ג׳, ד׳. במהדורה 8 חום עם מאקרוהמטוריה מופיע בקריטריוני המעקב, אך שינוי במראה השתן לבדו אינו מספיק לקביעת UTI. הקריטריונים למעקב אינם מיועדים כשלעצמם לקבלת החלטות קליניות (Hazzard 8e, עמ׳ 1705).",
+      "explanation": "**התשובה הרשמית: א׳, ג׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 24).\n\n**Hazzard 8e — ספר הבחינה:** במהדורה 8 חום עם מאקרוהמטוריה מופיע בקריטריוני המעקב, אך שינוי במראה השתן לבדו אינו מספיק לקביעת UTI. הקריטריונים למעקב אינם מיועדים כשלעצמם לקבלת החלטות קליניות (Hazzard 8e, עמ׳ 1705).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2025):** בחום במבוגר מעל גיל 65, המטוריה גלויה היא אחד הסימנים המקומיים שנלקחים בחשבון; עכירות לבדה אינה אחד מסימני שלב 3. יש לשקול מקורות אחרים לחום ואת ההקשר הקליני.\n\nUK Health Security Agency. Diagnosis of urinary tract infections: quick reference tools for primary care; Diagnostic decision tool for adults over 65 years, Step 3 (updated 7 July 2025). [Source](https://www.gov.uk/government/publications/urinary-tract-infection-diagnosis/diagnosis-of-urinary-tract-infections-quick-reference-tools-for-primary-care).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0001",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2020_key-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1705
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "לדיירת במחלקה סיעודית, בת 85, נלקחה תרבית שתן לאחר הופעת חום 38.2. מה מבין הסימפטומים/סימנים הבאים (בנוסף לחום) מחשיד ל זיהום בדרכי השתן בחולה זו?",
       "explanationReviewNote": "The 8e page supports A; the full rationale for the accepted C and D in this febrile vignette remains unresolved."
@@ -1008,11 +1012,12 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "## הסבר קליני\n\n**היצרות ספינאלית** (Spinal Stenosis) מאופיינת בהיצרות של **תעלת השדרה**, הגורמת ללחץ על **השורשים העצביים** ועל **חוט השדרה**. \n\nהכאב ב**היצרות ספינאלית** תלוי במצב של עמוד השדרה: **אקסטנשן** (יישור/קמירה לאחור) מחמיר את הכאב, בעוד **פלקסיה** (כיפוף קדימה) מקל עליו.\n\nהמפתח הרשמי הוא ד׳. קיימת אי־התאמה למקור שנבדק: Hazzard 8e עמ׳1632 מתאר החמרה באקסטנשן ובשכיבה על הבטן, והקלה בשכיבה על הגב; נדרשת בדיקת עמ׳1884 במהדורה7.\n\nהאופציות השגויות:\n- **אופציה 0** (מעבר משכיבה לישיבה): מעבר זה בעצם משפר את הכאב, כי ישיבה גורמת לפלקסיה\n- **אופציה 1** (הליכה בעליה): הליכה בעליה דווקא גורמת לפלקסיה קלה \n- **אופציה 2** (הרמת חפצים כבדים): זה יותר אופייני ל**דיסק בולט** ולא להיצרות ספינאלית\n\nHazzard 8e עמ׳ 1632 מתאר הקלה בכיפוף ובשכיבה על הגב, והחמרה בעמידה ובהליכה; המפתח ההיסטורי ד׳ נשמר עד לבדיקת המקור במהדורה 7.\n\n*(על פי Hazzard's Geriatric Medicine and Gerontology, )*",
+      "explanation": "**התשובה הרשמית: ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 59).\n\n**Hazzard 8e — ספר הבחינה:** הספר מתאר החמרה באקסטנשן ובשכיבה על הבטן, והקלה בכיפוף ובשכיבה על הגב; זהו נוסח מהדורה 8 לצד התשובה ההיסטורית ד׳ (Hazzard 8e, עמ׳ 1632).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2011):** מתוארת הקלה בכיפוף קדימה, בישיבה או בשכיבה. המסמך שנקרא הוא עדכון NASS משנת 2011; אין לייחס לו המלצה חדשה משנת 2026.\n\nNorth American Spine Society. Diagnosis and Treatment of Degenerative Lumbar Spinal Stenosis; Definition and Natural History, Work Group Consensus Statement, p.9. [Source](https://www.spine.org/Portals/0/assets/downloads/ResearchClinicalCare/Guidelines/LumbarStenosis.pdf).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "68": {
@@ -1038,7 +1043,13 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "התשובה הנכונה היא ב'. לפי חוק הכשרות המשפטית והאפוטרופסות (תיקון מס' 18 – ייפוי כוח מתמשך), אדם כשיר רשאי לערוך ייפוי כוח מתמשך הכולל עניינים רפואיים, רכושיים ואישיים. ייפוי כוח מתמשך **רפואי** ניתן לחתום בפני עורך דין, וכן בפני רופא מורשה, עובד סוציאלי, פסיכולוג או אח מוסמך (6Activating.pdf, עמ׳ 1). המטופלת בת 79 עם סוכרת קלה ויתר לחץ דם – אין סיבה להניח שאינה כשירה מבחינה קוגניטיבית, ולכן יכולה לחתום על ייפוי כוח מתמשך רפואי בפני עו\"ס.\n\n**אפשרות א׳:** לפי סעיף 37 לחוק החולה הנוטה למות, אדם בעל כשרות רשאי למנות מיופה כוח גם לפני שהפך לחולה הנוטה למות; מימוש הסמכות כפוף למצב ולתנאים שבחוק. המפתח הרשמי ב׳ נשמר.\n\nתשובה ג' שגויה – ייפוי כוח מתמשך **מלא** (הכולל גם עניינים רכושיים ואישיים) חייב להיחתם בפני **עורך דין** בלבד, ולא בפני רופא.\n\nתשובה ד' שגויה – ייפוי כוח מתמשך רפואי אינו מוגבל **רק** לעורך דין; כאמור, ניתן לחתום עליו גם בפני עו\"ס מוסמך.\n\n**הבחנה:** לייפוי כוח מתמשך כללי נדרש עורך דין שעבר הכשרה; למסמך רפואי בלבד קיימות גם החלופות המקצועיות המפורטות לעיל (6Activating.pdf, עמ׳ 1)."
+      "explanation": "**התשובה הרשמית: ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 61).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (ללא שנת מהדורה במסמך שנקרא):** בייפוי כוח רפואי בלבד ניתן לחתום בפני עובד סוציאלי, בהתאם לב׳. לפי סעיף 37 לחוק החולה הנוטה למות, אדם בעל כשרות יכול למנות מיופה כוח גם לפני שהפך לחולה הנוטה למות; מימוש הסמכות כפוף לתנאי החוק.\n\nמשרד המשפטים, האפוטרופוס הכללי. מדריך לממנה — ייפוי כוח מתמשך; מדינת ישראל, חוק החולה הנוטה למות, התשס״ו–2005; עמ׳ 4, עריכת ייפוי כוח רפואי; סעיף 37.",
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": null,
+        "conflict": true
+      }
     },
     "70": {
       "id": "mcq-1b9947447ef263b529e44bd0",
@@ -1052,15 +1063,17 @@
       "fromBasic": false,
       "duplicates": [],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "המפתח הרשמי: א׳ (מפתח הר״י, שאלה 62). בטבלה 12.1 של ADA 2020, השורה למבוגר עם מעט מחלות נלוות ותפקוד וקוגניציה שמורים מציינת HbA1c מתחת ל-7.5%, גלוקוז בצום 90–130 מ״ג/ד״ל ולחץ דם מתחת ל-140/90; ערכים אלה קרובים לניסוח ד׳, ואינם מסבירים את מכלול הערכים בא׳ (ADA, 2020, Table 12.1).\n\nבשורת Complex/intermediate טווח הגלוקוז בצום הוא 90–150, אך יעד HbA1c הוא מתחת ל-8.0% ולחץ הדם מתחת ל-140/90; גם שורה זו אינה מספקת את הצירוף שבא׳ (ADA, 2020, Table 12.1).\n\n**נקרא מן המאמר — read from the paper:** American Diabetes Association. 12. Older Adults: Standards of Medical Care in Diabetes—2020. Diabetes Care. 2020;43(Suppl 1):S152–S162. doi:10.2337/dc20-S012. Table 12.1. [טקסט מלא](https://diabetesjournals.org/care/article/43/Supplement_1/S152/30489/12-Older-Adults-Standards-of-Medical-Care-in).",
+      "explanation": "**התשובה הרשמית: א׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 62).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה ברשימת המקורות של בחינת 2020 (2020):** בשורת Healthy: HbA1c מתחת ל־7.5%, גלוקוז בצום 90–130 מ״ג/ד״ל ולחץ דם מתחת ל־140/90 ממ״כ. צירוף היעדים בטבלה תואם בדיוק לאפשרות ד׳. זהו מקור הבחינה ההיסטורית, ולא שינוי בתשובה הרשמית.\n\nAmerican Diabetes Association. 12. Older Adults: Standards of Medical Care in Diabetes—2020. Diabetes Care. 2020;43(Suppl 1):S152–S162. doi:10.2337/dc20-S012; Table 12.1, healthy row, p.S155. [Source](https://diabetesjournals.org/care/article/43/Supplement_1/S152/30489/12-Older-Adults-Standards-of-Medical-Care-in).\n\n**הגרסה העדכנית שנקראה (2026):** בעדכון 2026, בשורת Healthy: HbA1c מתחת ל־7.0–7.5%, גלוקוז בצום 80–130 מ״ג/ד״ל ולחץ דם מתחת ל־130/80 ממ״כ; היעדים מותאמים למצב הבריאות ולסיכון הטיפול. אלה יעדים עדכניים נפרדים מטבלת 2020.\n\nAmerican Diabetes Association Professional Practice Committee for Diabetes. 13. Older Adults: Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1):S277–S296. doi:10.2337/dc26-S013; Table 13.2, healthy row, p.S284. [Source](https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026).",
       "explanationReviewNote": "Explanation under review: ADA 2020 Table 12.1 does not reproduce the fasting-glucose, blood-pressure and A1C combination in official answer A; the key-versus-table difference remains unresolved.",
       "explanationSource": {
-        "release": "v81",
-        "status": "partially",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "citation": "American Diabetes Association. 12. Older Adults: Standards of Medical Care in Diabetes—2020. Diabetes Care. 2020;43(Suppl 1):S152–S162. doi:10.2337/dc20-S012",
         "locator": "Table 12.1, healthy and complex/intermediate rows",
         "pages": [],
-        "url": "https://diabetesjournals.org/care/article/43/Supplement_1/S152/30489/12-Older-Adults-Standards-of-Medical-Care-in"
+        "url": "https://diabetesjournals.org/care/article/43/Supplement_1/S152/30489/12-Older-Adults-Standards-of-Medical-Care-in",
+        "edition": null,
+        "conflict": true
       }
     },
     "71": {
@@ -1105,14 +1118,15 @@
         "מומלץ להעלות מינון של SERTRALINE (LUSTRAL )בהדרגה ל-100 מ\\\"ג ביום ולבחון מחדש תועלת הטיפול מספר שבועות לאחר הגעה למינון זה",
         "מומלץ ללכת במקביל לטיפול פסיכולוגי שכן הסבירות להשגת שיפור עם טיפול תרופתי בלבד הינה נמוכה"
       ],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מכוון להעלאת Sertraline ל־100 מ״ג. במהדורה 8 אין מינון יעיל קבוע או חלון טיפולי צר לכל נוגד דיכאון; הקשר בין המינון לתגובה קטן ברוב התרופות, והמינון מותאם לתגובה ולבטיחות. טיטרציה איטית עדיין מתוארת כעשויה לשפר היענות. זהו שינוי בדגש ההסבר, ולא קביעה שהספר בוחר באפשרות אחרת (Hazzard 8e, עמ׳ 1015).\n\n## הסבר קליני\n\n**התשובה הנכונה היא 2** - יש להעלות את מינון ה-SERTRALINE בהדרגה ל-100 מ״ג ליום ולהעריך מחדש לאחר מספר שבועות.",
+      "explanation": "**התשובה הרשמית: ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 65). ג׳: העלאה הדרגתית של Sertraline ל־100 מ״ג ליום והערכת התועלת לאחר מספר שבועות.\n\n**Hazzard 8e — ספר הבחינה:** הספר אינו מגדיר מינון יעיל קבוע או חלון טיפולי צר לכל נוגד דיכאון; הקשר בין המינון לתגובה קטן ברוב התרופות והמינון מותאם לתגובה ולבטיחות. טיטרציה איטית עשויה לשפר היענות. זהו הבדל בדגש, ולא קביעה שהספר בוחר באפשרות אחרת (Hazzard 8e, עמ׳ 1015).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2022):** כאשר התגובה אינה מספקת, ניתן לשקול העלאת מינון בטווח המאושר אם התרופה נסבלת, החלפה או הוספת טיפול פסיכולוגי, בהחלטה משותפת. מינון גבוה יותר לא בהכרח יעיל יותר ועלול להגביר תופעות לוואי; נדרש מעקב לאחר העלאה.\n\nNICE. Depression in adults: treatment and management (NG222); Recommendation 1.9.5; current PDF, pp.66–67. [Source](https://www.nice.org.uk/guidance/ng222/chapter/Recommendations).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           1015
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "The newer chapter does not establish the exact mandatory 50-to-100 mg optimization sequence in the historical key."
     },
@@ -1388,11 +1402,12 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "## הסבר קליני\n\n**התשובה הנכונה היא 2: היווצרות של אטרומה בדופן כלי הדם הקורונריים**\n\nיש להבדיל בין שינויים **פיזיולוגיים** הקשורים להזדקנות תקינה לבין שינויים **פתולוגיים** המהווים מחלה:\n\n**שינויים פיזיולוגיים בהזדקנות (אפשרויות 0, 1, 3):**\n- לפי Hazzard 8e, השפעת הגיל על מסת חדר שמאל קטנה: לרוב אין שינוי משמעותי ולעיתים יש ירידה קלה; תיתכן התעבות דופן מתונה. המפתח ההיסטורי הוא ג׳ (עמ׳1116–1119).\n- **שקיעת סידן ושומן ברקמת המסתמים** - תהליך דגנרטיבי תקין, במיוחד במסתם האבי והמיטרלי (sclerosis)\n- **פיברוזיס בתאי מערכת ההולכה** - שינוי נפוץ הגורם להאטה בהולכה והסבר להיארעות גבוהה יותר של הפרעות קצב\n\n**שינוי פתולוגי (אפשרות 2):**\n- **אתרוסקלרוזיס כלילי** - היווצרות אטרומה (פלאקים) בעורקים הקורונריים היא **מחלה**, לא תהליך הזדקנות תקין\n- מהווה גורם סיכון עיקרי למחלת לב איסכמית, אוטם שריר הלב ומוות פתאומי\n- ניתנת למניעה וטיפול באמצעות שליטה בגורמי סיכון\n\n**על פי Hazzard's Geriatric Medicine **, אתרוסקלרוזיס נחשבת לפתולוגיה נרכשת ולא לתוצאה בלתי נמנעת של ההזדקנות.",
+      "explanation": "**התשובה הרשמית: ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 82).\n\n**Hazzard 8e — ספר הבחינה:** השפעת הגיל על מסת חדר שמאל קטנה: לרוב אין שינוי משמעותי ולעיתים יש ירידה קלה; תיתכן התעבות דופן מתונה. טרשת עורקים נידונה כתהליך פתולוגי, לצד התשובה ההיסטורית ג׳ (Hazzard 8e, עמ׳ 1116–1119).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "90": {
@@ -1545,11 +1560,12 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "התשובה הנכונה היא הפסקת תרופות שפוגעות בתיאבון. על פי המלצות Choosing Wisely של האגודה האמריקאית לרפואה גריאטרית, אין להשתמש בתרופות מעוררות תיאבון (appetite stimulants) לטיפול באנורקסיה או קכקסיה בקשישים. הסיבה היא שתרופות אלו לא הוכחו כמשפרות תוצאות קליניות משמעותיות (כגון הישרדות או איכות חיים), ולעומת זאת נושאות סיכונים ממשיים. הגישה המומלצת היא תחילה לזהות ולטפל בגורמים הפיכים – ובראשם הפסקת תרופות הפוגעות בתיאבון.\n\nתשובה C (Megestrol Acetate) שגויה מכיוון שתרופה זו נכללת במפורש ברשימת Choosing Wisely כתרופה שאין להשתמש בה בקשישים – היא מעלה סיכון לאירועים תרומבואמבוליים, בצקות, ואף תמותה, ללא שיפור משמעותי במשקל שריר. תשובה D (Mirtazapine) – אמנם ידועה כבעלת תופעת לוואי של עליי בתיאבון, אך GDS של 3/15 מעיד שאין דיכאון משמעותי, ולכן אין הצדקה לטיפול בתרופה נוגדת דיכאון כמעוררת תיאבון. המפתח הרשמי הוא א׳. אין לנמק את פסילת ב׳ בטענה שמתן בין הארוחות מפחית תוספת קלוריות: Hazzard 8e דווקא מעדיף מתן בין הארוחות על פני מתן עמן; התועלת הקלינית תלויה במצב התזונתי ובהקשר (עמ׳428).\n\n**פנינה קלינית:** בגריאטריה, תמיד \"הפסק לפני שתוסיף\" – deprescribing הוא הצעד הטיפולי הראשון באנורקסיה של הקשיש.",
+      "explanation": "**התשובה הרשמית: א׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 92). א׳: הפסקת תרופות הפוגעות בתיאבון היא ההמלצה שהתקבלה בשאלה על Choosing Wisely של AGS.\n\n**Hazzard 8e — ספר הבחינה:** הספר מעדיף תוספים תזונתיים בין הארוחות על פני מתן עמן; התועלת הקלינית תלויה במצב התזונתי ובהקשר. אין לנמק את פסילת ב׳ בכך שמתן בין הארוחות מפחית תוספת קלוריות (Hazzard 8e, עמ׳ 428).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "100": {
@@ -1581,11 +1597,12 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "## הסבר קליני\n\n**התשובה הנכונה היא 2: ירידה בחדות הראיה**\n\nיש להבדיל בין שינויים פיזיולוגיים תקינים בהזדקנות לבין שינויים **פתולוגיים** הדורשים בירור רפואי.\n\n**שינויים פיזיולוגיים תקינים בקשישים** (לפי Hazzard's Geriatric Medicine ):\n\n- **פרסביופיה** (אפשרות 0) - קושי באקומודציה עקב התקשות העדשה, תקין מגיל 40-45\n- **אבחנת צבעים** (אפשרות 1) - קושי בהבחנה בין גוונים כהים (כחול-ירוק) עקב הצהבת העדשה\n- **הסתגלות לחושך** (אפשרות 3) - האטה בהסתגלות למעבר בין תאורות שונות\n\nהמפתח הרשמי הוא ג׳, אך יש לסייג: Hazzard 8e מתאר ירידה מתונה בחדות ראייה בניגודיות גבוהה עם הגיל, וירידה בולטת יותר בתאורה ירודה או בסנוור. ירידה משמעותית או חדשה מחייבת בירור (עמ׳471). \n\nבין המחלות שיש לשקול בירידה משמעותית בראייה:\n- **קטרקט** - עכירות עדשה\n- **ניוון מקולרי** (AMD) - גורם מוביל לעיוורון בקשישים\n- **גלאוקומה** - נזק לעצב הראייה\n- **רטינופתיה סכרתית**\n\n**מסר קליני**: כל קשיש המתלונן על ירידה בחדות הראייה זקוק לבדיקה אופטלמולוגית מקיפה, בלי לייחס ירידה חדשה או משמעותית אוטומטית להזדקנות.",
+      "explanation": "**התשובה הרשמית: ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 94). ג׳: ירידה בחדות הראייה היא האפשרות שהתקבלה.\n\n**Hazzard 8e — ספר הבחינה:** מתוארת ירידה מתונה בחדות ראייה בניגודיות גבוהה עם הגיל, וירידה בולטת יותר בתאורה ירודה או בסנוור. ירידה משמעותית או חדשה מחייבת בירור, בלי לייחס אותה אוטומטית להזדקנות (Hazzard 8e, עמ׳ 471).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "102": {
@@ -1642,20 +1659,21 @@
       "paperPage": 40,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל ג׳ וד׳. במהדורה 8 מוצע להימנע מתרופות המגבירות אספירציה, במיוחד אנטיפסיכוטיות; מעכבי ACE עשויים להפחית סיכון באמצעות רפלקס השיעול, ואילו שימוש ב־PPI דורש הצדקה. כלורהקסידין נזכר לטיפול בדלקת חניכיים, אך מחקר אקראי איכותי לא הראה יעילות של טיפול פה בקבוצות הסיכון הגבוה ביותר (Hazzard 8e, עמ׳ 1690–1691).",
+      "explanation": "**התשובה הרשמית: ג׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2020, שאלה 98).\n\n**Hazzard 8e — ספר הבחינה:** במהדורה 8 מוצע להימנע מתרופות המגבירות אספירציה, במיוחד אנטיפסיכוטיות; מעכבי ACE עשויים להפחית סיכון באמצעות רפלקס השיעול, ואילו שימוש ב־PPI דורש הצדקה. כלורהקסידין נזכר לטיפול בדלקת חניכיים, אך מחקר אקראי איכותי לא הראה יעילות של טיפול פה בקבוצות הסיכון הגבוה ביותר (Hazzard 8e, עמ׳ 1690–1691).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2023):** כלורהקסידין מפחית קולוניזציה אך לא הראה שיפור בתוצאים; מומלץ טיפול מכני בפה. ההמלצה למעכבי ACE למניעת אספירציה לאחר שבץ מוגבלת במסמך למטופלים סינים ויפנים ללא התוויות נגד; אין די ראיות להכלילה לקבוצות אתניות אחרות.\n\nSimpson AJ, Allen JL, Chatwin M, et al.; British Thoracic Society. BTS clinical statement on aspiration pneumonia. Thorax. 2023;78(Suppl 1):s3–s21. doi:10.1136/thorax-2022-219699; Prevention: oral care; pharmacological measures to improve swallowing, pp.s10–s11. [Source](https://www.brit-thoracic.org.uk/document-library/clinical-statements/aspiration-pneumonia/bts-clinical-statement-on-aspiration-pneumonia/).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0004",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2020_key-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1690,
           1691
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "בן 86, דייר מחלקה סיעודית, מאושפז עקב דלקת ריאות. הצוות המטפל מתרשם מאירועים חוזרים של אספירציה. כל הבאים מסייעים בהפחתת סיכון ל- ASPIRATION PNEUMONIA פרט ל-",
       "explanationReviewNote": "The exact rationale for accepting D after appeal is not established by the 8e passage."
@@ -2115,12 +2133,12 @@
         288
       ],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "א׳ נתמכת בדו״ח 2020: בפרק Hearing aids מתוארים מחקרי מעקב שבהם שימוש במכשירי שמיעה נקשר לפחות הידרדרות קוגניטיבית, והוועדה ממליצה לעודד שימוש בהם אצל אנשים עם ירידת שמיעה; הניסוח הוא עדות התומכת בהשפעה מגינה, ואינו הוכחה ניסויית ודאית למניעת דמנציה (Livingston ואח׳, 2020, Hearing aids; Panel 1).\n\n**נקרא מן המאמר — read from the paper:** Livingston G, Huntley J, Sommerlad A, et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet. 2020;396:413–446. doi:10.1016/S0140-6736(20)30367-6. סעיפים Hearing aids ו-Panel 1. [טקסט מלא](https://pmc.ncbi.nlm.nih.gov/articles/PMC7392084/).",
+      "explanation": "א׳ נתמכת בדו״ח 2020: בפרק Hearing aids מתוארים מחקרי מעקב שבהם שימוש במכשירי שמיעה נקשר לפחות הידרדרות קוגניטיבית, והוועדה ממליצה לעודד שימוש בהם אצל אנשים עם ירידת שמיעה; הניסוח הוא עדות התומכת בהשפעה מגינה, ואינו הוכחה ניסויית ודאית למניעת דמנציה (Livingston ואח׳, 2020, Hearing aids; Panel (Recommended strategies for dementia risk reduction) ו-Key messages).\n\n**נקרא מן המאמר — read from the paper:** Livingston G, Huntley J, Sommerlad A, et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet. 2020;396:413–446. doi:10.1016/S0140-6736(20)30367-6. סעיפים Hearing aids ו-Panel (Recommended strategies for dementia risk reduction) ו-Key messages. [טקסט מלא](https://pmc.ncbi.nlm.nih.gov/articles/PMC7392084/).",
       "explanationSource": {
         "release": "v81",
         "status": "fully",
         "citation": "Livingston G, Huntley J, Sommerlad A, et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet. 2020;396:413–446. doi:10.1016/S0140-6736(20)30367-6",
-        "locator": "Hearing aids subsection; Panel 1",
+        "locator": "Hearing aids; unnumbered Panel (Recommended strategies for dementia risk reduction); Key messages",
         "pages": [],
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7392084/"
       },
@@ -2271,16 +2289,17 @@
       "duplicates": [
         296
       ],
-      "explanation": "א׳ וג׳ התקבלו לאחר ערעור. A1c של 6.2% בטווח טרום־סוכרת; גלוקוז אקראי 184 אינו מוכיח סוכרת, ויש להעריך את מכלול הבדיקות וההקשר הקליני (Hazzard 8e, טבלה 99-1, עמ׳ 1560).\n\n## הסבר קליני\n\n### ניתוח הממצאים\n\n**המוגלובין A1C = 6.2%** נמצא בטווח טרום־סוכרת, ואינו לבדו מכריע כל שאלה אבחנתית. לפי קריטריוני ה-ADA (American Diabetes Association):\n\n- **טרום סוכרת**: A1C בטווח 5.7-6.4%\n- **סוכרת**: A1C ≥6.5%\n- **תקין**: A1C <5.7%\n\nערך הגלוקוז של 184 מ\"ג/ד\"ל **אינו בצום** ולכן לא ניתן להסתמך עליו לאבחנה. לאבחון סוכרת נדרש גלוקוז בצום ≥126 מ\"ג/ד\"ל או גלוקוז אקראי ≥200 מ\"ג/ד\"ל עם תסמינים קליניים.\n\n**תשובה 1 (סוכרת)**: שגויה - A1C נמוך מ-6.5%, הסף הנדרש לאבחון סוכרת.\n\n**תשובה 3 (שינוי פיזיולוגי)**: שגויה - A1C של 6.2% מעיד על הפרעה במטבוליזם הגלוקוז ודורש התערבות ומעקב, לא רק בדיקה שנתית.\n\n**המלצה**: שינויי אורח חיים, ירידה במשקל, ומעקב תקופתי למניעת התפתחות לסוכרת גלויה.",
+      "explanation": "**התשובה הרשמית: א׳, ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2021-Dec, שאלה 32).\n\n**Hazzard 8e — ספר הבחינה:** A1c של 6.2% בטווח טרום־סוכרת; גלוקוז אקראי 184 אינו מוכיח סוכרת, ויש להעריך את מכלול הבדיקות וההקשר הקליני (Hazzard 8e, טבלה 99-1, עמ׳ 1560).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2026):** HbA1c של 6.2% נמצא בטווח טרום־סוכרת. גלוקוז אקראי 184 מ״ג/ד״ל אינו עומד בסף האבחנתי של 200 ומעלה עם תסמינים קלאסיים; בהיעדר היפרגליקמיה חד־משמעית נדרש אימות אבחנתי.\n\nAmerican Diabetes Association Professional Practice Committee for Diabetes. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1). doi:10.2337/dc26-S002; Tables 2.1–2.2, Diagnostic Tests for Diabetes. [Source](https://www.guideline.care/images-recos/standards-of-care-2026.pdf).",
       "explanationSource": {
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0006",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2021_key-all.png"
         ],
         "edition": 8,
-        "release": "v75"
+        "release": "v82",
+        "conflict": true
       }
     },
     "137": {
@@ -2430,11 +2449,12 @@
           "https://krmlzwwelqvlfslwltol.supabase.co/storage/v1/object/public/question-images/geri_Dec21_q40.png"
         ]
       },
-      "explanation": "## התשובה הנכונה: ב — תמיסת NaCl 0.9%\n\n**למה ב נכונה:**\nב׳ היא התשובה הרשמית לפי מקור הבחינה במהדורה 7. ב־Hazzard 8e עמ׳ 692–693 בחירת חומר הניקוי תלויה במצב הפצע: סליין מתואר כאפשרות לפצע נקי, בעוד שבפצע מזוהם או עם רקמה נמקית עשויים להידרש חומרים אנטיספטיים. אין לייחס לסליין מעמד גורף של תקן זהב לכל פצע.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** מי חמצן 3% גורמים לנזק ציטוטוקסי לפיברובלסטים ומעכבים היווצרות רקמת גרנולציה, ולכן אינם מומלצים לניקוי שגרתי של פצעי לחץ.\n- **ג.** מים מינרליים סטריליים אינם אופטימליים מכיוון שאינם איזוטוניים ועלולים לגרום להרס אוסמוטי של תאים, בנוסף להיעדר תועלת קלינית מוכחת לעומת NaCl 0.9%.\n- **ד.** הספר ממליץ להימנע מ־Povidone-iodine בפצעים נקיים ומחלימים, אך דן באנטיספטיים בהקשרים אחרים; אין להרחיב זאת לכל פצע כרוני (עמ׳ 692–693, 697).\n\n**נקודת המפתח לקשיש:**\nהבחירה בחומר ניקוי תלויה במצב הפצע ובאיזון בין פעילות אנטימיקרוביאלית לפגיעה בתאים (Hazzard 8e, עמ׳ 693).",
+      "explanation": "**התשובה הרשמית: ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2021-Dec, שאלה 40).\n\n**Hazzard 8e — ספר הבחינה:** בחירת חומר הניקוי תלויה במצב הפצע: סליין הוא אפשרות לפצע נקי; בפצע מזוהם או עם רקמה נמקית עשויים להידרש אנטיספטיים. אין לייחס לסליין מעמד גורף של תקן זהב לכל פצע (Hazzard 8e, עמ׳ 692–693).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "143": {
@@ -2583,11 +2603,12 @@
       "duplicates": [
         312
       ],
-      "explanation": "## הסבר קליני\n\n**התשובה הנכונה היא 0: סיכון מוגבר לאי שליטה על שתן**\n\n**אישור התשובה הנכונה:**\nהשמנה מהווה גורם סיכון מבוסס לאי שליטה על שתן (UI), במיוחד בקרב מבוגרים. BMI של 30 יוצר לחץ מוגבר כרוני על רצפת האגן והסוגר השלפוחיתי, מה שגורם לחולשה ודיספונקציה של מנגנוני השליטה. **המשקל העודף מחמיר UI מסוג stress ו-urge**, והרזיה מתונה יכולה לשפר משמעותית את הסימפטומים.\n\n**שלילת תשובות שגויות:**\n\n**תשובה ב:** הקשר בין BMI לתמותה בגיל המבוגר מורכב ושנוי במחלוקת; אין להציג השמנה כמגינה בהכרח מפני תמותה (Hazzard 8e, עמ׳ 413).\n\n**תשובה 2** - השמנה **מגינה מפני אוסטאופורוזיס** באמצעות עומס מכני על העצמות והמרת אנדרוגנים לאסטרוגן ברקמת השומן.\n\n**תשובה 3** - סרקופניה יכולה להופיע גם בהשמנה, והספר מתאר קשר ביניהן במסגרת השמנה סרקופנית; אין לשלול קשר זה. המפתח הרשמי א׳ נתמך בקשר בין השמנה לאי־שליטה בשתן (Hazzard 8e, עמ׳413,733).\n\n**(Hazzard's Geriatric Medicine, )**",
+      "explanation": "**התשובה הרשמית: א׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2021-Dec, שאלה 48). א׳ נתמכת בקשר בין השמנה לאי־שליטה בשתן (Hazzard 8e, עמ׳ 733).\n\n**Hazzard 8e — ספר הבחינה:** השמנה קשורה לאי־שליטה בשתן, התומכת בא׳, אך סרקופניה יכולה להופיע גם בהשמנה ואין לשלול קשר במסגרת השמנה סרקופנית. הקשר בין BMI לתמותה בגיל המבוגר מורכב (Hazzard 8e, עמ׳ 413, 733).",
       "explanationSource": {
         "edition": 8,
-        "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
-        "release": "v75"
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "release": "v82",
+        "conflict": true
       }
     },
     "149": {
@@ -2707,19 +2728,20 @@
         319,
         362
       ],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל א׳ וג׳. מהדורה 8 מתארת ירידה בתגובה לחיסונים כבר בתת־תזונה קלה עם אלבומין 3.0–3.5 גרם/ד״ל, ולכן אין לנסח את 3 גרם/ד״ל כסף שמתחתיו בלבד מתחיל השינוי. חסר אמיתי במיקרונוטריינטים מצדיק השלמה, אך הראיות להשלמה בהיעדר חסר דלות (Hazzard 8e, עמ׳ 1668).\n\nתשובה A נכונה מכיוון שחסר ויטמין B12 קשור לפגיעה ממשית בתפקוד מערכת החיסון בגיל המבוגר. ויטמין B12 חיוני לסינתזת DNA ולהתפשטות תקינה של לימפוציטים. בהיעדרו, יכולת הלימפוציטים להתרבות בתגובה לאנטיגן נפגעת, וכתוצאה מכך מתקבלת תגובה הומוראלית ירודה לחיסונים, ובפרט לחיסון נגד Streptococcus pneumoniae. תופעה זו מתועדת בספרות הגריאטרית ומתואמת עם עקרונות ה-immunosenescence — תהליך ההזדקנות של מערכת החיסון המוסבר בהרחבה בהאזארד (Hazzard's Geriatric Medicine, פרקים העוסקים באימונולוגיה של ההזדקנות). חשוב לציין שמחסור ב-B12 שכיח מאוד בקשישים בשל ירידה בספיגה המעיתית (אטרופיה גסטרית, ירידה בפקטור הפנימי), ולכן הוא מנגנון רלוונטי ומציאותי.\n\nתשובה B שגויה כיוון שבגיל המבוגר מתרחשת דווקא **ירידה** ביצור IL-2 מתאי T, לא עלייה. הירידה ב-IL-2 היא אחד הסממנים המרכזיים של ה-immunosenescence — היא מגבילה את התפשטות התאי T ומפחיתה את התגובה החיסונית. טעון ה-Distractor הוא הפוך מהמציאות הפיזיולוגית.\n\nתשובה D שגויה מכיוון שכיוון ההשפעה הפוך לחלוטין. ויטמין D ממלא תפקיד אימונומודולטורי חיוני, וחסר בו — לא עודף — קשור לסיכון מוגבר לזיהומים בדרכי הנשימה, כולל שפעת ודלקת ריאות. חסר אמיתי במיקרונוטריינטים עשוי להעלות סיכון לזיהומים ויש לתקנו; אין להסיק מכך שרמות ויטמין D גבוהות מגינות, והראיות לתיסוף ללא חסר דלות (Hazzard 8e, עמ׳1668).\n\n**פנינת בחינה:** בשאלות על immunosenescence יש לזכור את הצירוף: ירידה ב-IL-2, ירידה בתאי T נאיביים, עלייה בתאי T מזיכרון מוגבלים, ופגיעה בתגובה הומוראלית. חסר ויטמין B12 הוא גורם הפיך ונפוץ המחמיר את התמונה — ולכן יש לבדוק ולטפל בו באופן פעיל בקשישים.",
+      "explanation": "**התשובה הרשמית: א׳, ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2021-Dec, שאלה 55).\n\n**Hazzard 8e — ספר הבחינה:** מהדורה 8 מתארת ירידה בתגובה לחיסונים כבר בתת־תזונה קלה עם אלבומין 3.0–3.5 גרם/ד״ל; אין לנסח 3 גרם/ד״ל כסף שמתחתיו בלבד מתחיל השינוי. חסר אמיתי במיקרונוטריינטים מצדיק השלמה, אך הראיות להשלמה בהיעדר חסר דלות (Hazzard 8e, עמ׳ 1668).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0007",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2021_key-all.png"
         ],
         "edition": 8,
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1668
-        ]
+        ],
+        "conflict": true
       },
       "explanationReviewNote": "The specific B12–pneumococcal vaccine link in accepted A was not located."
     },
@@ -3475,8 +3497,14 @@
       "duplicates": [
         359
       ],
-      "explanation": "ההסבר הוסר — המפתח הרשמי של IMA נשאר ג (הרופא האחראי בהתייעצות עם השכנה). לפי חוק החולה הנוטה למות, §39(ב), ייפוי כוח שלא חודש הוא ״מסמך שאינו מחייב״, אך הרופא האחראי חייב לעיין בו ורשאי להתחשב בו. בהעדר הנחיות או החלטות בתוקף, §5(ג) מפנה להחלטת הרופא בהתחשב בהצהרה מפורשת של ״אדם קרוב״; §3 דורש קרבה משפחתית או רגשית, מסירות והיכרות רצופה ומתמשכת. מינוי השכנה בעבר אינו מוכיח לבדו שכל התנאים מתקיימים. נוסף לכך, אם מתקיימת הגדרת ״חסוי״ שב־§29(א), ורצונה אינו ידוע, §29(ג) דורש הסכמת הרופא והאפוטרופוס להארכת חיים, ובכל מקרה אחר הכרעת ועדה מוסדית. לכן הנוסח שסופק אינו תומך באופן חד־משמעי בהסבר למפתח על סמך נתוני השאלה בלבד. מקור: A_dying-patient-law_nevo-consolidated.htm, §§3, 5(ב)–(ג), 29, 39(ב).",
-      "explanationReviewNote": "the official key is C; the original source text is being checked."
+      "explanation": "**התשובה הרשמית: ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2021-Dec, שאלה 95).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2005):** ייפוי כוח שלא חודש הוא מסמך שאינו מחייב, אך הרופא חייב לעיין בו ורשאי להתחשב בו. אדם קרוב נדרש לעמוד בתנאי קרבה והיכרות; אם מתקיימת הגדרת חסוי בסעיף 29, חלות הוראותיו. מינוי השכנה בעבר אינו מוכיח לבדו את כל התנאים.\n\nמדינת ישראל. חוק החולה הנוטה למות, התשס״ו–2005, נוסח משולב; סעיפים 3, 5(ג), 29, 37, 39(ב).",
+      "explanationReviewNote": "the official key is C; the original source text is being checked.",
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": null,
+        "conflict": true
+      }
     },
     "192": {
       "id": "mcq-a7281baa9e47a1ae8a80819e",
@@ -3512,18 +3540,20 @@
       "duplicates": [
         361
       ],
-      "explanation": "החוזר מתייחס לבעיות חריפות חמורות המונעות מאמצים שיקומיים ולהערכה מחדש לאחר האירוע החריף; הוא אינו קובע סף CRP או דרישה גורפת לנרמול מדדי דלקת (חוזר 4/2009, עמ׳ 4).\n\nהמפתח הרשמי לאחר ערעור הוא ג׳, ד׳. ד׳ נתמכת בשיקולי יציבות רפואית ושיתוף פעולה; פצע לחץ והזנה בזונדה שאינם מונעים שיקום אינם התוויות נגד להפניה (חוזר 4/2009, עמ׳ 4, סעיפים 5.2–5.3).",
+      "explanation": "**התשובה הרשמית: ג׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2021-Dec, שאלה 97).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2009):** החוזר דורש לשקול יציבות רפואית ומצבים חריפים המונעים שיקום, ולהעריך מחדש בתום האירוע החריף. הוא אינו קובע סף CRP או צורך גורף בנרמול מדדי דלקת; פצע לחץ וזונדה שאינם מונעים שיקום אינם התוויות נגד.\n\nמשרד הבריאות, מינהל רפואה. אמות מידה למתן טיפול שיקומי לקשישים, חוזר 4/2009; עמ׳ 4, סעיפים 5.2–5.3.",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0008",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2021_key-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           "MoH4/2009 PDF4"
-        ]
+        ],
+        "edition": null,
+        "conflict": true
       },
       "explanationReviewNote": "D is supported; the source does not explain the additional acceptance of C after appeal."
     },
@@ -5516,15 +5546,16 @@
       "duplicates": [
         2598
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳, ללא דירוג ביניהן. SSRIs נידונים כטיפול בדיכאון בגיל המבוגר, תוך הסתייגות שהראיות ליעילות בדיכאון בדמנציה מוגבלות; דונפזיל מיועד לטיפול סימפטומטי באלצהיימר. אלה מטרות טיפול שונות (Hazzard 8e, עמ׳ 929; טבלה 59-7, עמ׳ 912).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2023-Jun, שאלה 7).\n\n**Hazzard 8e — ספר הבחינה:** SSRIs נידונים כטיפול בדיכאון בגיל המבוגר, תוך הסתייגות שהראיות ליעילות בדיכאון בדמנציה מוגבלות; דונפזיל מיועד לטיפול סימפטומטי באלצהיימר. אלה מטרות טיפול שונות (Hazzard 8e, עמ׳ 929; טבלה 59-7, עמ׳ 912).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2024):** הסקירה מדגישה בירור גורמים לתסמינים והתערבויות מותאמות שאינן תרופתיות לתסמינים התנהגותיים ופסיכולוגיים בדמנציה; הראיות ליעילות תרופות פסיכוטרופיות מוגבלות ויש סיכונים. אין בכך החלפה של הערכה וטיפול פרטניים בדיכאון קליני.\n\nReuben DB, Kremen S, Maust DT. Dementia Prevention and Treatment: A Narrative Review. JAMA Intern Med. 2024;184:563–572. doi:10.1001/jamainternmed.2023.8522; Behavioral and Psychological Symptoms of Dementia. [Source](https://doi.org/10.1001/jamainternmed.2023.8522).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           929,
           912
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       }
     },
     "3242": {
@@ -6251,19 +6282,20 @@
       "duplicates": [
         2629
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. Vismodegib מיועד ל־BCC גרורתי או מתקדם מקומית שאינו נתיח, כאשר המטופל אינו מועמד להקרנות. עצם המיקום בעפעף או הישנות בקרקפת אינם מתעדים בשאלה את מלוא תנאי ההתאמה (Hazzard 8e, עמ׳ 1462).",
+      "explanation": "**התשובה הרשמית: ב׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2023-Jun, שאלה 42).\n\n**Hazzard 8e — ספר הבחינה:** Vismodegib מיועד ל־BCC גרורתי או מתקדם מקומית שאינו נתיח, כאשר המטופל אינו מועמד להקרנות. עצם המיקום בעפעף או הישנות בקרקפת אינם מתעדים בשאלה את מלוא תנאי ההתאמה (Hazzard 8e, עמ׳ 1462).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2025):** Vismodegib מיועד ל־BCC גרורתי או מתקדם מקומית, לרבות הישנות לאחר ניתוח או מצב שאינו מתאים לניתוח או להקרנות. מיקום בעפעף או הישנות כשלעצמם אינם מפרטים את כל תנאי ההתאמה.\n\nPDQ Adult Treatment Editorial Board, National Cancer Institute. Skin Cancer Treatment (PDQ®), Health Professional Version; Treatment of Metastatic Basal Cell Carcinoma (or Locally Advanced Disease Untreatable by Local Modalities). [Source](https://www.cancer.gov/types/skin/hp/skin-treatment-pdq).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0014",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2023_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1462
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "למי מהמטופלים הבאים הכי מתאים טיפול ב VISMODEGIB (תרופה מסוג Hh pathway inhibitor)?",
       "explanationReviewNote": "The source supports the drug for advanced BCC, but operability and radiotherapy eligibility are not specified for either accepted vignette."
@@ -6523,20 +6555,21 @@
       "duplicates": [
         2642
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. התיאור של אפרקסיה שפתית וקושי בהבנת משפטים מורכבים מתאים לתיאור אפזיה לא־שוטפת/אגרמטית, שלעיתים קרובות קשורה לפתולוגיית tau. חלבון 14-3-3 נידון בנפרד בבירור מחלות פריון, ולא כהסבר טיפוסי לתסמונת השפתית הזאת (Hazzard 8e, עמ׳ 873, 876).",
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2023-Jun, שאלה 58).\n\n**Hazzard 8e — ספר הבחינה:** התיאור של אפרקסיה שפתית וקושי בהבנת משפטים מורכבים מתאים לתיאור אפזיה לא־שוטפת/אגרמטית, שלעיתים קרובות קשורה לפתולוגיית tau. חלבון 14-3-3 נידון בנפרד בבירור מחלות פריון, ולא כהסבר טיפוסי לתסמונת השפתית הזאת (Hazzard 8e, עמ׳ 873, 876).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0015",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2023_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           873,
           876
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "מטופל הסובל מדמנציה עם קושי ניכר בתפקוד השפתי. המטופל מסוגל להבין משפטים פשוטים, אך לא משפטים מורכבים. קיימת אפרקסיה שפתית. מה סביר למצוא מבחינה פתולוגית?",
       "explanationReviewNote": "A is supported; the reason for accepting D in this language-predominant vignette remains unresolved."
@@ -6740,15 +6773,16 @@
       "duplicates": [
         2651
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. טבלה 99-11 מתארת הפחתת התקדמות CKD במעכבי SGLT2. לגבי חלק מאגוניסטי GLP-1 מתוארת הפחתת אירועים קרדיווסקולריים, אך אין לזהות זאת עם הטענה על הפחתת תסמיני אי־ספיקת לב שבאפשרות א׳ (Hazzard 8e, עמ׳ 1577–1578).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2023-Jun, שאלה 68).\n\n**Hazzard 8e — ספר הבחינה:** טבלה 99-11 מתארת הפחתת התקדמות CKD במעכבי SGLT2. לגבי חלק מאגוניסטי GLP-1 מתוארת הפחתת אירועים קרדיווסקולריים, אך אין לזהות זאת עם הטענה על הפחתת תסמיני אי־ספיקת לב שבאפשרות א׳ (Hazzard 8e, עמ׳ 1577–1578).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2026):** המלצה 9.10 כוללת SGLT2 או GLP-1 עם תועלת מוכחת בסוכרת ו־CKD. המלצות 9.9a–b כוללות תכשירי GLP-1/GIP מסוימים לשיפור תסמינים או אירועי אי־ספיקת לב בסוכרת עם השמנה ו־HFpEF סימפטומטית. אין להרחיב זאת לכל משפחת GLP-1 או לכל חולה עם אי־ספיקת לב; השמנה ו־HFpEF אינן מתועדות בשאלה.\n\nAmerican Diabetes Association Professional Practice Committee for Diabetes. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1). doi:10.2337/dc26-S009; Recommendations 9.9a–9.10. [Source](https://www.guideline.care/images-recos/standards-of-care-2026.pdf).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           1577,
           1578
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "B is directly supported; the specific heart-failure symptom claim in accepted A is not established by the cited table."
     },
@@ -7608,18 +7642,19 @@
       },
       "q": "בן74 . מזה כחודשיים תסמיני דיכאון המשפיעים על התפקוד היומיומי. נבדק במרפאה ובוצעPHQ9 . מצ\"ב תמונת התוצאה של המבחן (ראה תמונה מספר3 ) . לפי הממצאים ?מהי האבחנה המתאימה",
       "questionSource": "IMA May 2024 Subspecialty question paper, rendered page 6, Q16; verbatim stem from Geriatrics/scripts/exam_audit/canonical/may24_al.json, checked against the rendered paper. Replaces upstream PHQ9=7 paraphrase.",
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. בתמונה סכום PHQ-9 הוא 3, וכל הסימפטומים שסומנו מופיעים רק במספר ימים. באלגוריתם האבחנתי נדרשים סימפטומים בתדירות של יותר ממחצית הימים, למעט פריט האובדנות; התמונה אינה מבססת את אלגוריתם Minor depression (Hazzard 8e, עמ׳ 1011; אלבום הבחינה, תמונה 3, עמ׳ 4).\n\nבאלבום הרשמי סומנו 1 בסעיפים 1, 4 ו-5, ו-0 בכל שאר הסעיפים: ציון החומרה הוא 3. לפי הוראות PHQ-9 ב-Hazzard 8e, עמ׳ 1011 (Figure 65-2), בסעיפים 1–8 נספר תסמין לצורך האבחנה כאשר הוא קיים ביותר ממחצית הימים או כמעט בכל יום. בסעיף 9 די גם במספר ימים. לפיכך בטופס הזה אין תסמינים בתדירות המזכה בספירה האבחנתית; הוא אינו ממלא את דרישות הטבלה לדיכאון מז׳ורי או מינורי.\n\nהמפתח הרשמי לאחר ערעורים מקבל ב׳ וד׳. הטופס וההוראות תומכים בד׳; לא נמצא במקור שנקרא הסבר לקבלת ב׳. \n\nמקורות: האלבום הרשמי, מאי 2024, תמונה 3; Hazzard 8e, p. 1011 (PDF p. 1045); מפתח IMA לאחר ערעורים, שאלה 16.",
+      "explanation": "**התשובה הרשמית: ב׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 16).\n\n**Hazzard 8e — ספר הבחינה:** באלבום סכום PHQ-9 הוא 3 (פריטים 1, 4, 5 = 1). נדרשת תדירות של יותר ממחצית הימים, למעט פריט האובדנות; לכן הטופס אינו ממלא את אלגוריתם הדיכאון המז׳ורי או המינורי (Hazzard 8e, Figure 65-2, עמ׳ 1011; אלבום מאי 2024, תמונה 3, עמ׳ 4).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (ללא תאריך; אסמכתאות עד 2010):** האלגוריתם לתסמונת דיכאונית אחרת דורש 2–4 תסמינים, ובהם מצב רוח ירוד או אנהדוניה, לפחות ביותר ממחצית הימים; פריט האובדנות נספר גם בתדירות נמוכה יותר. ניקוד חומרה לבדו אינו אבחנה. בטופס שבשאלה תדירות התסמינים אינה מקיימת את האלגוריתם.\n\nKroenke K, Spitzer RL, Williams JBW, Löwe B. Instructions for Patient Health Questionnaire (PHQ) and GAD-7 Measures; Diagnostic algorithm for Other Depressive Syndrome, p.4. [Source](https://case.edu/medicine/wellness-pathway/sites/default/files/2018-05/instructions.pdf).",
       "explanationIncomplete": true,
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "page": 1011,
         "pdfPage": 1045,
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1011,
           "2024-May album PDF4"
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "The source does not explain why Minor depression was also accepted for this image."
     },
@@ -7636,19 +7671,20 @@
       "duplicates": [
         2743
       ],
-      "explanation": "המפתח הרשמי מקבל ג׳ וד׳. המקור מתאר שיא התאוששות בדיכאון ובקוגניציה סביב ארבעה חודשים, בשיווי משקל ובהליכה סביב תשעה חודשים, ובתפקודי גפיים תחתונות ובתפקודים מורכבים סביב שנה. לכן ד׳ נתמכת ישירות, בעוד המספר של חצי שנה בג׳ אינו המספר שבאיור (Hazzard 8e, עמ׳ 800).",
+      "explanation": "**התשובה הרשמית: ג׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 17).\n\n**Hazzard 8e — ספר הבחינה:** המקור מתאר שיא התאוששות בדיכאון ובקוגניציה סביב ארבעה חודשים, בשיווי משקל ובהליכה סביב תשעה חודשים, ובתפקודי גפיים תחתונות ובתפקודים מורכבים סביב שנה. לכן ד׳ נתמכת ישירות, בעוד המספר של חצי שנה בג׳ אינו המספר שבאיור (Hazzard 8e, עמ׳ 800).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0016",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024a_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           800
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "בן 87, לאחר ניתוח לתיקון שבר בצוואר הירך, שואל לגבי הפרוגנוזה בעוד שנה. מה מהבאים נכון?",
       "explanationReviewNote": "Accepted D is directly supported; the exact six-month statement in accepted C differs from the cited recovery figure."
@@ -7756,19 +7792,20 @@
       "duplicates": [
         2747
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. בטבלה 83-1 תסמונת המוליטית־אורמית נכללת בפגיעה תוך־כלייתית; אי־ספיקת לב חריפה, לרבות בהקשר של יתר לחץ דם ממאיר, מופיעה בעמודת הסיבות הפרה־רנליות. הטבלה אינה מסבירה את קבלת א׳ בנוסח זה (Hazzard 8e, עמ׳ 1281).",
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 22).\n\n**Hazzard 8e — ספר הבחינה:** בטבלה 83-1 תסמונת המוליטית־אורמית נכללת בפגיעה תוך־כלייתית; אי־ספיקת לב חריפה, לרבות בהקשר של יתר לחץ דם ממאיר, מופיעה בעמודת הסיבות הפרה־רנליות. הטבלה מסווגת את הסיבות כך, לצד שתי האפשרויות שהתקבלו במפתח (Hazzard 8e, עמ׳ 1281).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0018",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024a_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1281
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "מה גורם ל-INTRINSIC ACUTE KIDNEY INJURY?",
       "explanationReviewNote": "D is directly supported; Table 83-1 places the acute cardiac-failure wording of A under prerenal causes."
@@ -8083,19 +8120,20 @@
       "duplicates": [
         2764
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. חום בדרך כלל פחות בולט ב־RSV מאשר בשפעת, אך מחקרים מאוחרים המובאים בעמוד מצאו שיעורי אשפוז דומים ואף גבוהים יותר ב־RSV. אין להכליל שבכל אוכלוסייה RSV גורם לפחות אשפוזים (Hazzard 8e, עמ׳ 1737).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 40).\n\n**Hazzard 8e — ספר הבחינה:** חום בדרך כלל פחות בולט ב־RSV מאשר בשפעת, אך מחקרים מאוחרים המובאים בעמוד מצאו שיעורי אשפוז דומים ואף גבוהים יותר ב־RSV. אין להכליל שבכל אוכלוסייה RSV גורם לפחות אשפוזים (Hazzard 8e, עמ׳ 1737).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0019",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024a_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1737
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "מה ההבדלים בין זיהום ויראלי בשפעת INFLUENZA VIRUS לעומת RESPIRATORY SYNCYTIAL VIRUS (RSV)?",
       "explanationReviewNote": "A is supported; the blanket lower-hospitalization claim in accepted B is not supported by the later studies summarized on this page."
@@ -8205,7 +8243,13 @@
       "duplicates": [
         2769
       ],
-      "explanation": "## HFpEF - טיפול\n\n### ✅ א נכונה: EMPAGLIFLOZIN (SGLT2i)\n\nהמפתח הרשמי הוא א; לפי עמ׳ 1188 אמפגליפלוזין הפחית את התוצא המשולב של מוות או אשפוז בשל אי־ספיקת לב, בעיקר בזכות הפחתת אשפוזי אי־ספיקת לב. אין להסיק מכך הפחתה מובהקת נפרדת בתמותה. (Hazzard8e p1188). זהו מהפך בטיפול במחלה זו, במיוחד רלוונטי באוכלוסייה הגריאטרית עם סוכרת ועלייה בל\"ד.\n\n---\n\n### ❌ ב שגויה: CANDESARTAN\nמחקר CHARM-Preserved הראה **הפחתת אשפוזים** (אך לא תמותה) – ההפך ממה שנכתב"
+      "explanation": "**התשובה הרשמית: א׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 45).\n\n**Hazzard 8e — ספר הבחינה:** אמפגליפלוזין הפחית את התוצא המשולב של מוות או אשפוז בשל אי־ספיקת לב, בעיקר בזכות הפחתת אשפוזים; אין להסיק מכך הפחתה מובהקת נפרדת בתמותה. Candesartan הפחית אשפוזים אך לא תמותה (Hazzard 8e, עמ׳ 1188).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2023):** ב־EMPEROR-Preserved אמפגליפלוזין הפחית את התוצא המשולב, בעיקר דרך הפחתת אשפוזי אי־ספיקת לב; לא נמצאה הפחתה במוות קרדיווסקולרי בנפרד. המלצת ההנחיה מתייחסת לתוצא המשולב, ולא להוכחת הפחתה נפרדת בתמותה.\n\nMcDonagh TA, Metra M, Adamo M, et al.; ESC. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2023;44:3627–3639. doi:10.1093/eurheartj/ehad195; Section 3, Chronic heart failure; EMPEROR-Preserved. [Source](https://academic.oup.com/eurheartj/article/44/37/3627/7246292).",
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": 8,
+        "conflict": true
+      }
     },
     "3375": {
       "id": "mcq-23789e6a7328c5cff1a43570",
@@ -8408,19 +8452,20 @@
       "duplicates": [
         2780
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. הספר מתאר חרדה, דיכאון ושינויי אישיות לאחר זעזוע מוח, אך מציין שחומרת הפגיעה אינה מתואמת ישירות עם התפתחות התסמונת. יש להבחין בין נוסח המפתח לבין נוסח המקור (Hazzard 8e, עמ׳ 995).",
+      "explanation": "**התשובה הרשמית: ב׳, ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 57).\n\n**Hazzard 8e — ספר הבחינה:** הספר מתאר חרדה, דיכאון ושינויי אישיות לאחר זעזוע מוח, אך מציין שחומרת הפגיעה אינה מתואמת ישירות עם התפתחות התסמונת. יש להבחין בין נוסח המפתח לבין נוסח המקור (Hazzard 8e, עמ׳ 995).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0021",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024a_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           995
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "מה מאפיין POST-CONCUSSIVE SYNDROME?",
       "explanationReviewNote": "C is directly supported; the claimed severity relationship in accepted B is not established by this passage."
@@ -8514,19 +8559,20 @@
       "duplicates": [
         2786
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. בעמ׳ 997 מתוארים מחקרי עוקבה שבהם TBI עם אובדן הכרה לא נקשר לאבחנת אלצהיימר או לפתולוגיה אופיינית, אף ש־TBI קשור לסיכון לדמנציה באופן רחב יותר. אין לזהות סיכון לדמנציה מכל סוג עם קשר מוכח לאלצהיימר (Hazzard 8e, עמ׳ 997).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 63).\n\n**Hazzard 8e — ספר הבחינה:** בעמ׳ 997 מתוארים מחקרי עוקבה שבהם TBI עם אובדן הכרה לא נקשר לאבחנת אלצהיימר או לפתולוגיה אופיינית, אף ש־TBI קשור לסיכון לדמנציה באופן רחב יותר. אין לזהות סיכון לדמנציה מכל סוג עם קשר מוכח לאלצהיימר (Hazzard 8e, עמ׳ 997).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2024):** סקירת החובה כוללת TBI כגורם סיכון לדמנציה, עם סיכון יחסי 1.8 (רווח בר־סמך 1.5–2.2) בטבלה 1. אין בטבלה זו קביעה שהקשר הוא דווקא לפתולוגיית אלצהיימר או דירוג בין האפשרויות בשאלה.\n\nReuben DB, Kremen S, Maust DT. Dementia Prevention and Treatment: A Narrative Review. JAMA Intern Med. 2024;184:563–572. doi:10.1001/jamainternmed.2023.8522; Table 1, Traumatic brain injury; supplied author PDF p.2. [Source](https://doi.org/10.1001/jamainternmed.2023.8522).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0022",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024a_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           997
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "לאיזה מהבאים יש קורלציה גבוהה עם TRAUMATIC BRAIN INJURY?",
       "explanationReviewNote": "The cited page does not fully substantiate the accepted AD/NPH pair; it explicitly qualifies the AD association."
@@ -8892,19 +8938,20 @@
       "duplicates": [
         2806
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳, ג׳ וד׳. באיור 70-3 הטריגרים ביום הקבלה כוללים תסמינים גופניים או פסיכולוגיים שקשה לשלוט בהם, ויותר מאשפוז אחד לאותה סיבה בחודשים האחרונים. הצורך באופיואיד כשלעצמו אינו מנוסח שם כתחליף לקושי בשליטה בתסמינים (Hazzard 8e, עמ׳ 1082).",
+      "explanation": "**התשובה הרשמית: ב׳, ג׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-May, שאלה 84).\n\n**Hazzard 8e — ספר הבחינה:** באיור 70-3 הטריגרים ביום הקבלה כוללים תסמינים גופניים או פסיכולוגיים שקשה לשלוט בהם, ויותר מאשפוז אחד לאותה סיבה בחודשים האחרונים. הצורך באופיואיד כשלעצמו אינו מנוסח שם כתחליף לקושי בשליטה בתסמינים (Hazzard 8e, עמ׳ 1082).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0024",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024a_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1082
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "במטופל עם מחלה מסכנת חיים, מהי אינדיקציה להזמנת יעוץ פליאטיבי לחולה ביום הראשון לאשפוזו?",
       "explanationReviewNote": "The source supports recurrent admission and difficult symptoms, but does not list every opioid-treated pain episode or every delirium episode as an unconditional day-one trigger."
@@ -9219,15 +9266,16 @@
       "duplicates": [
         2873
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. בטבלה 42-2 ירידה לא מכוונת במשקל היא מעל 10 ליברות בשנה, ולא 2 ק״ג; בטבלה 42-3 נדרשים לפחות שלושה קריטריונים. התיאור המילולי אינו מספק את כל מדידות האחיזה, המהירות והפעילות להגדרה פורמלית (Hazzard 8e, עמ׳ 620–621).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 3).\n\n**Hazzard 8e — ספר הבחינה:** בטבלה 42-2 ירידה לא מכוונת במשקל היא מעל 10 ליברות בשנה, ולא 2 ק״ג; בטבלה 42-3 נדרשים לפחות שלושה קריטריונים. התיאור המילולי אינו מספק את כל מדידות האחיזה, המהירות והפעילות להגדרה פורמלית (Hazzard 8e, עמ׳ 620–621).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           620,
           621
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "The official accepted set A/B is preserved; the source does not fully establish three measured Fried criteria for A."
     },
@@ -9259,19 +9307,20 @@
       "duplicates": [
         2875
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. בטבלה 60-9 היפונתרמיה מופיעה עבור Sertraline ו־Venlafaxine ואינה רשומה בשורות Mirtazapine ו־Bupropion. הטבלה אינה מחקר המשווה שכיחויות, ולכן אינה מוכיחה סיכון אפסי או מדרג כמותי בין ב׳ לד׳ (Hazzard 8e, עמ׳ 929).\n\nמירטאזפין (Mirtazapine) היא התשובה הנכונה מכיוון שמנגנון הפעולה שלה שונה מהותית מזה של תרופות נוגדות דיכאון אחרות, ובפרט אינה מעכבת ספיגה חוזרת של סרוטונין באופן ישיר. מירטאזפין פועלת כאנטגוניסט לקולטני אלפא-2 פרה-סינפטיים וכאנטגוניסט לקולטני סרוטונין מסוג 5-HT2 ו-5-HT3. מנגנון זה אינו מעורב בשחרור ADH (הורמון אנטי-דיורטי) באותה מידה שבה מעורב מנגנון ה-SIADH הנגרם על ידי עיכוב ספיגה חוזרת של סרוטונין. על פי עקרונות Hazzard's Geriatric Medicine, היפונתרמיה הנגרמת מ-SIADH היא סיבוך מוכר ומסוכן בקשישים המטופלים בתרופות סרוטונרגיות, שכן גיל מבוגר מהווה גורם סיכון עצמאי לתגובה זו עקב ירידה ביכולת הכליה לשמר נתרן ושינויים בוויסות הנוזלים.\n\n**סרטרלין (Sertraline) — תשובה א'** היא מעכב ספיגה חוזרת של סרוטונין (SSRI) קלאסי. תרופות מקבוצה זו קשורות באופן מובהק לפיתוח SIADH, שכן סרוטונין מגביר שחרור ADH מההיפותלמוס וגורם לאגירת מים ודילול הנתרן בדם. סרטרלין הוא אחד מה-SSRIs השכיחים ביותר הקשורים להיפונתרמיה בקשישים, ולכן אינו התשובה הנכונה.\n\n**ונלאפקסין (Venlafaxine) — תשובה ג'** היא מעכב ספיגה חוזרת של סרוטונין ונוראפינפרין (SNRI). על אף מרכיב הנוראפינפרין, הרכיב הסרוטונרגי שלה עדיין נושא סיכון משמעותי ל-SIADH ולהיפונתרמיה, ומקרים רבים מתועדים בספרות הגריאטרית. לכן גם היא אינה הבחירה הנכונה.\n\n**פנינה קלינית לבחינה:** בכל מטופל קשיש שמתחיל טיפול נוגד דיכאון, יש לבדוק רמת נתרן בסרום כבסיס ולחזור על הבדיקה כ-2 שבועות לאחר תחילת הטיפול. מירטאזפין מועדפת לעיתים בקשישים גם בשל תופעת הלוואי החיובית של גירוי תיאבון ושיפור שינה.",
+      "explanation": "**התשובה הרשמית: ב׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 5).\n\n**Hazzard 8e — ספר הבחינה:** בטבלה 60-9 היפונתרמיה מופיעה עבור Sertraline ו־Venlafaxine ואינה רשומה בשורות Mirtazapine ו־Bupropion. הטבלה אינה מחקר השוואתי של שכיחויות, ולכן אינה מוכיחה סיכון אפסי או מדרג כמותי בין ב׳ לד׳ (Hazzard 8e, עמ׳ 929).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2023):** Beers 2023 כוללת גם Mirtazapine בין נוגדי הדיכאון המחייבים זהירות בגלל SIADH או היפונתרמיה, וממליצה לנטר נתרן בתחילת טיפול או בשינוי מינון. הטבלה אינה מדרגת את הסיכון היחסי מול Bupropion ואינה מוכיחה סיכון אפסי.\n\nAmerican Geriatrics Society 2023 Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023;71:2052–2081. doi:10.1111/jgs.18372; Table 4, antidepressants; supplied PDF p.17. [Source](https://doi.org/10.1111/jgs.18372).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0026",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024b_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           929
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "o": [
         "Sertraline",
@@ -9560,14 +9609,15 @@
         "ציון 4",
         "ציון 7"
       ],
-      "explanation": "המפתח הרשמי הוא ד׳, ציון 7. בטבלה 42-3 דרגה זו מתארת תלות מלאה באחרים ב־ADL או מחלה סופנית. ריתוק לכיסא גלגלים כשלעצמו אינו מתעד תלות מלאה בכל פעולות היום־יום (Hazzard 8e, עמ׳ 621).\n\n## Clinical Frailty Scale – מטופל מרותק לכיסא גלגלים\n\n### התשובה הנכונה: ד (ציון 7)\n\n**ציון 7 = \"חמור מאוד שביר\" (Severely Frail)**\nציון 7 מוגדר כתלות מלאה בטיפול האישי. ריתוק לכיסא גלגלים לבדו אינו מוסר את מידת התלות; ד היא התשובה הרשמית אך נדרשת הסתייגות זו. (Hazzard8e p124; p621).\n\n---\n\n### למה האחרות שגויות?\n\n| ציון | הגדרה | מדוע לא מתאים |\n|------|--------|---------------|",
+      "explanation": "**התשובה הרשמית: ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 21).\n\n**Hazzard 8e — ספר הבחינה:** בטבלה 42-3 דרגה 7 מתארת תלות מלאה באחרים ב־ADL או מחלה סופנית. ריתוק לכיסא גלגלים כשלעצמו אינו מתעד תלות מלאה בכל פעולות היום־יום (Hazzard 8e, עמ׳ 621).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2020):** דרגה 7 מתארת תלות מלאה בטיפול האישי, מסיבה גופנית או קוגניטיבית; כיסא גלגלים לבדו אינו מתעד את מידת התלות. בגרסה 2 מחלה סופנית ללא שבריריות קשה יכולה להיכלל בדרגה 9.\n\nRockwood K; Dalhousie University, Geriatric Medicine Research. Clinical Frailty Scale, version 2.0; Grade 7, one-page card. [Source](https://cdn.dal.ca/content/dam/dalhousie/pdf/sites/gmr/CFS_V2_en_Card_WM.pdf).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           621
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "The vignette does not establish all the functional criteria for CFS 7."
     },
@@ -9741,15 +9791,16 @@
         3693
       ],
       "q": "איזה מהבאים נכון בנוגע לירידת שמיעה תלוית גיל?",
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. מחקר המתואר בעמ׳ 490 העריך שכ־55% מירידת השמיעה תלוית הגיל ניתנים לייחוס לתורשתיות. בעמ׳ 119 מפורטים מבחני סקר במרפאה, אך כישלון בסקר מצדיק בדיקה אודיומטרית פורמלית; אין להשוות סקר לאבחנה סופית (Hazzard 8e, עמ׳ 119, 490).",
+      "explanation": "**התשובה הרשמית: ב׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 30).\n\n**Hazzard 8e — ספר הבחינה:** מחקר המתואר בעמ׳ 490 העריך שכ־55% מירידת השמיעה תלוית הגיל ניתנים לייחוס לתורשתיות. בעמ׳ 119 מפורטים מבחני סקר במרפאה, אך כישלון בסקר מצדיק בדיקה אודיומטרית פורמלית; אין להשוות סקר לאבחנה סופית (Hazzard 8e, עמ׳ 119, 490).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           119,
           490
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "The book distinguishes clinic screening from formal diagnostic audiometry; accepted D is not fully supported as worded."
     },
@@ -9781,19 +9832,20 @@
       "duplicates": [
         2898
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וג׳. טבלה 102-5 כוללת אוסטאוארתריטיס בקבוצת כאב המתפתח בהדרגה, ואילו שבר דחיסה מופיע בקבוצת התחלה חדה. לכן העמוד תומך ישירות בא׳, אך אינו מסביר לבדו את קבלת ג׳ בערעור (Hazzard 8e, עמ׳ 1634).",
+      "explanation": "**התשובה הרשמית: א׳, ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 32).\n\n**Hazzard 8e — ספר הבחינה:** טבלה 102-5 כוללת אוסטאוארתריטיס בקבוצת כאב המתפתח בהדרגה, ואילו שבר דחיסה מופיע בקבוצת התחלה חדה. לכן העמוד תומך ישירות בא׳, לצד ג׳ שהתקבלה גם היא בערעור (Hazzard 8e, עמ׳ 1634).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0028",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024b_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1634
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "בן 80 מתלונן לאחרונה על כאבי גב, לא ממוקמים, עם מהלך איטי והדרגתי. איזו אבחנה מתאימה לתלונות?",
       "explanationReviewNote": "The rationale for additionally accepting C is not established by Table 102-5."
@@ -10202,20 +10254,21 @@
       "duplicates": [
         2919
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. הידרוקולואידים והידרוגלים מתוארים כחבישות לספיגת הפרשה מועטה עד בינונית, והידרוקולואידים נידונים גם בריפוי פצעי לחץ בדרגה 2. אלגינט והידרופייבר מתאימים להפרשה בינונית עד רבה. התמונה לבדה אינה מדידה של כמות ההפרשה (Hazzard 8e, עמ׳ 693–694).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 53).\n\n**Hazzard 8e — ספר הבחינה:** הידרוקולואידים והידרוגלים מתוארים כחבישות לספיגת הפרשה מועטה עד בינונית, והידרוקולואידים נידונים גם בריפוי פצעי לחץ בדרגה 2. אלגינט והידרופייבר מתאימים להפרשה בינונית עד רבה. התמונה לבדה אינה מדידה של כמות ההפרשה (Hazzard 8e, עמ׳ 693–694).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0029",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024b_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           693,
           694
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "מה הטיפול המתאים לפצע המופיע בתמונה מספר 3?",
       "explanationReviewNote": "Both accepted dressing classes have source support, but the photo alone does not establish all wound and exudate characteristics."
@@ -10805,14 +10858,20 @@
       "duplicates": [
         2951
       ],
-      "explanation": "**הפסקה זמנית של Methotrexate למשך שבועיים לאחר מתן החיסון** היא ההמלצה המועדפת על פי ספרות הגריאטריה (הזארד, פרק 11) ומחקרים קליניים שהדגימו שיפור משמעותי ב- immunogenicity של חיסון השפעת בחולי RA שהפסיקו את ה- MTX זמנית. במפתח שלאחר הערעורים התקבלו א וב. עמ׳ 1619 מציין שהפסקת MTX לשבועיים לאחר חיסון עשויה לשפר תגובה ללא עלייה משמעותית בפעילות RA או בסיכון להתלקחות; אין בכך הבטחה להיעדר סיכון בכל מטופלת. (Hazzard8e p1619; officialkeyQ87). **המשך הטיפול ללא שינוי** התקבל גם הוא במפתח הערעורים; השאלה המקורית אינה מוסרת נתונים על יציבות מחלתה (IMA September 2024 paper p.21; after-appeals key Q87). **הורדת מינון ל-10 מ\"ג** (אפשרות 2) אינה נתמכת בראיות ואינה מדיניות מומלצת לצורך שיפור תגובת חיסון. **החלפה ל- Leflunomide** (אפשרות 3) אינה האפשרות שהתקבלה במפתח לשאלה זו, ואינה קשורה להמלצות חיסון שפעת.",
+      "explanation": "**התשובה הרשמית: א׳, ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 87).\n\n**Hazzard 8e — ספר הבחינה:** הפסקת MTX לשבועיים לאחר חיסון עשויה לשפר תגובה ללא עלייה משמעותית בפעילות RA במחקר המתואר; אין בכך הבטחה להיעדר התלקחות בכל מטופלת. השאלה אינה מוסרת נתונים על יציבות המחלה (Hazzard 8e, עמ׳ 1619; שאלון ספטמבר 2024, עמ׳ 21).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2022):** הפסקת Methotrexate לשבועיים לאחר חיסון שפעת היא המלצה מותנית, אם פעילות המחלה מאפשרת זאת; יש לשקול סיכון להתלקחות ולקבל החלטה משותפת. אין בשאלה נתונים המספיקים לקבוע תנאי זה.\n\nBass AR, Chakravarty E, Akl EA, et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res. 2023;75:449–464. doi:10.1002/acr.25045; Table 3; Methotrexate, guideline PDF p.5. [Source](https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt1c0ef84075c925cf/vaccinations-guideline-manuscript-2022.pdf).",
       "q": "בת 72 עם Rheumatoid Arthritis מטופלת ב- Methotrexate במינון 20 מ״ג פעם בשבוע. היא מעוניינת בקבלת חיסון שפעת. מהי ההמלצה המתאימה?",
       "o": [
         "הפסקה זמנית של Methotrexate לשבועיים",
         "המשך הטיפול ב- Methotrexate ללא שינוי",
         "הורדה זמנית של מינון Methotrexate ל- 10 מ״ג למשך חודש",
         "החלפת הטיפול ל- Leflunomide (Arava)"
-      ]
+      ],
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": 8,
+        "conflict": true
+      }
     },
     "3513": {
       "id": "mcq-b68a3e95e9873facb2f5f6cc",
@@ -10878,20 +10937,21 @@
       "duplicates": [
         2954
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. הספר מדגיש מעקב משקל כדרך פשוטה ואמינה לסקר תת־תזונה בקהילה; ירידה של לפחות 5% במשך 6–12 חודשים מצדיקה בירור. אלבומין אינו סמן רגיש לשלבים מוקדמים, וסגוליותו נמוכה עקב השפעת דלקת ומחלות אחרות (Hazzard 8e, עמ׳ 423–424).",
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 91).\n\n**Hazzard 8e — ספר הבחינה:** הספר מדגיש מעקב משקל כדרך פשוטה ואמינה לסקר תת־תזונה בקהילה; ירידה של לפחות 5% במשך 6–12 חודשים מצדיקה בירור. אלבומין אינו סמן רגיש לשלבים מוקדמים, וסגוליותו נמוכה עקב השפעת דלקת ומחלות אחרות (Hazzard 8e, עמ׳ 423–424).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0030",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024b_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           423,
           424
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "בת 78, מגיעה להערכה גריאטרית כוללנית במרפאה. משקל 54 ק״ג, BMI – 19.2 ק״ג/מ². מהי הבירור הבא שיש להשלים להערכת מצבה התזונתי?",
       "explanationReviewNote": "D is directly supported; these pages do not establish albumin testing as the equally indicated next step in this vignette."
@@ -10909,19 +10969,20 @@
       "duplicates": [
         2955
       ],
-      "explanation": "המפתח הרשמי מקבל ג׳ וד׳. בעמ׳ 161 מתואר מודל כלכלי התומך בממוגרפיה דו־שנתית בתוחלת חיים של לפחות 9.5 שנים; המלצת המחברים מנוסחת בדרך כלל סביב יותר מעשר שנים ובהתאם להעדפות. קולונוסקופיה נכללת בין שיטות הסקר למעי הגס, לצד בדיקות צואה וסיגמואידוסקופיה (Hazzard 8e, עמ׳ 161).",
+      "explanation": "**התשובה הרשמית: ג׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 92).\n\n**Hazzard 8e — ספר הבחינה:** בעמ׳ 161 מתואר מודל כלכלי התומך בממוגרפיה דו־שנתית בתוחלת חיים של לפחות 9.5 שנים; המלצת המחברים מנוסחת בדרך כלל סביב יותר מעשר שנים ובהתאם להעדפות. קולונוסקופיה נכללת בין שיטות הסקר למעי הגס, לצד בדיקות צואה וסיגמואידוסקופיה (Hazzard 8e, עמ׳ 161).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0031",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2024b_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           161
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "q": "מהן ההמלצות לבדיקות סקר במטופל הזקן?"
     },
@@ -10961,15 +11022,17 @@
       "duplicates": [
         2957
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳ (מפתח הר״י לאחר הערעורים, ספטמבר 2024, שאלה 94). א׳ נתמכת בטבלה 58-2: Paroxetine נמנית עם התרופות האנטיכולינרגיות העלולות להשרות או להחמיר דליריום במבוגרים (Hazzard 8e, עמ׳ 883, Table 58-2).",
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2024-Sep, שאלה 94).\n\n**Hazzard 8e — ספר הבחינה:** א׳ נתמכת בטבלה 58-2: Paroxetine נמנית עם התרופות האנטיכולינרגיות העלולות להשרות או להחמיר דליריום במבוגרים (Hazzard 8e, עמ׳ 883, Table 58-2).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2023):** Paroxetine מופיעה ברשימת התרופות בעלות השפעה אנטיכולינרגית חזקה; באדם עם דליריום או בסיכון לו יש להימנע מאנטיכולינרגיים בגלל אפשרות להשראה או להחמרה. סעיפים אלה תומכים במנגנון שבא׳ ואינם מכריעים את הסיכון המדויק שבד׳.\n\nAmerican Geriatrics Society 2023 Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023;71:2052–2081. doi:10.1111/jgs.18372; Table 3, Delirium; Table 7, strong anticholinergics. [Source](https://doi.org/10.1111/jgs.18372).",
       "explanationSource": {
-        "release": "v81",
-        "status": "partially",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "citation": "Hazzard's Geriatric Medicine and Gerontology, 8th ed.",
         "locator": "p.883, Table 58-2",
         "pages": [
           883
-        ]
+        ],
+        "edition": 8,
+        "conflict": true
       },
       "q": "בת 82 אלמנה ואם ל-2, עצמאית ופעילה, דיירת דיור מוגן פנתה למרפאה עקב ירידה במצב הרוח ובאנרגיה. הוחלט להתחיל טיפול בנוגדי דיכאון. מה תופעת לוואי משמעותית של תרופות נוגדות דיכאון באישה זו?",
       "o": [
@@ -11970,15 +12033,16 @@
       "duplicates": [
         3019
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. בתמונה סכום פריטים 1–9 הוא 4; פריט התפקוד נפרד ואינו מתווסף לסכום החומרה. אין סימפטום בתדירות של יותר ממחצית הימים, ולכן הקריטריונים ל־Minor depression לפי האלגוריתם אינם מבוססים מהתמונה בלבד (Hazzard 8e, עמ׳ 1011; אלבום הבחינה, תמונה 4, עמ׳ 3).\n\nבמפתח לאחר ערעורים התקבלו ב׳ וג׳, ללא העדפה רשמית. באלבום סכום סעיפים 1–9 הוא 4; ציון הקושי התפקודי אינו נוסף לסכום. אין להסיק אבחנת דיכאון מינורי מטווח 5–9, שאינו הציון בטופס. (IMA 2025 after-appeals key Q57; official album p.3). התשובה השנייה, **\"יש לחפש גורם אחר לעייפות, מעקב בלבד\"**, אף היא הגיונית כיוון שבגיל 90 תסמינים של עייפות וירידה בתפקוד יכולים לנבוע מגורמים גופניים כגון **hypothyroidism**, **אנמיה**, **אי-ספיקת לב** או **תת-תזונה**, ולכן גישה של שלילת סיבות אורגניות תחילה היא לגיטימית לחלוטין. אין להסיק העדפה של האיגוד או אבחנה מציון שגוי; יש לציין את שתי התשובות שהתקבלו ולהמשיך בירור ומעקב בהתאם לתסמינים ולתפקוד. (Official2025keyp2; Hazzard8e pp1011-1012).",
+      "explanation": "**התשובה הרשמית: ב׳, ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2025-Jun, שאלה 57).\n\n**Hazzard 8e — ספר הבחינה:** סכום פריטים 1–9 הוא 4; פריט התפקוד נפרד ואינו נוסף לסכום. אין תסמין בתדירות של יותר ממחצית הימים, ולכן אלגוריתם הדיכאון המינורי אינו מבוסס מהתמונה. יש להמשיך בירור ומעקב לפי התסמינים והתפקוד (Hazzard 8e, עמ׳ 1011–1012; אלבום יוני 2025, תמונה 4, עמ׳ 3).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (ללא תאריך; אסמכתאות עד 2010):** האלגוריתם לתסמונת דיכאונית אחרת דורש 2–4 תסמינים, ובהם מצב רוח ירוד או אנהדוניה, לפחות ביותר ממחצית הימים; פריט האובדנות נספר גם בתדירות נמוכה יותר. ניקוד חומרה לבדו אינו אבחנה. בטופס שבשאלה תדירות התסמינים אינה מקיימת את האלגוריתם.\n\nKroenke K, Spitzer RL, Williams JBW, Löwe B. Instructions for Patient Health Questionnaire (PHQ) and GAD-7 Measures; Diagnostic algorithm for Other Depressive Syndrome, p.4. [Source](https://case.edu/medicine/wellness-pathway/sites/default/files/2018-05/instructions.pdf).",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           1011,
           "2025 album PDF3"
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "C remains compatible with further evaluation; the source does not fully justify the additionally accepted Minor depression label."
     },
@@ -12045,7 +12109,13 @@
         3023
       ],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "הדו״ח מציין שהסיכון ניתן לשינוי ללא תלות בסטטוס APOE וששינוי גורמי הסיכון עשוי למנוע או לדחות כמעט מחצית ממקרי הדמנציה ברמת האוכלוסייה. (Lancet2024 printed572-573). שאר המסיחים מציגים טענות שאינן תואמות את הדו\"ח. \n\nהמפתח הרשמי: A. לפי Lancet 2024, עמ׳ 573: הסיכון לדמנציה ניתן לשינוי ללא תלות בסטטוס הגנטי של APOE."
+      "explanation": "**התשובה הרשמית: א׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2025-Jun, שאלה 61).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה ברשימת המקורות של בחינת יוני 2025 (2024):** הוועדה מציינת שהסיכון לדמנציה ניתן לשינוי ללא תלות בסטטוס APOE. התערבות בגורמי הסיכון עשויה למנוע או לדחות כמעט מחצית מהמקרים ברמת האוכלוסייה; אין בכך הבטחה לתועלת באדם מסוים. זהו נוסח המקור לצד א׳ שהתקבלה במפתח.\n\nLivingston G, Huntley J, Liu KY, et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet. 2024;404:572–628. doi:10.1016/S0140-6736(24)01296-0; Key messages, p.573 (online PDF p.2). [Source](https://chronicdisease.org/wp-content/uploads/2024/12/Lancet-2024.pdf).",
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": null,
+        "conflict": true
+      }
     },
     "4608": {
       "id": "mcq-57c893ac288cd17663b1e3c3",
@@ -12306,20 +12376,21 @@
       "duplicates": [
         3038
       ],
-      "explanation": "המפתח הרשמי מקבל א׳, ב׳ וד׳. בדיקת שפעת בעונה עשויה לכוון לטיפול אנטי־ויראלי; תרבית כיח אינה נדרשת בהחמרה שגרתית ללא גורמי סיכון לעמידות. פרוקלציטונין אינו מומלץ באופן שגרתי להכוונת אנטיביוטיקה בהחמרת COPD, לפי הדיון בעמ׳ 1261 (Hazzard 8e, עמ׳ 1260–1261).",
+      "explanation": "**התשובה הרשמית: א׳, ב׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2025-Jun, שאלה 77).\n\n**Hazzard 8e — ספר הבחינה:** בדיקת שפעת בעונה עשויה לכוון לטיפול אנטי־ויראלי; תרבית כיח אינה נדרשת בהחמרה שגרתית ללא גורמי סיכון לעמידות. פרוקלציטונין אינו מומלץ באופן שגרתי להכוונת אנטיביוטיקה בהחמרת COPD, לפי הדיון בעמ׳ 1261 (Hazzard 8e, עמ׳ 1260–1261).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2026):** GOLD אינה ממליצה להשתמש בפרוטוקול מבוסס פרוקלציטונין להחלטה על אנטיביוטיקה בהחמרת COPD. תרבית כיח מומלצת בהחמרות תכופות, בחסימה קשה או בצורך בהנשמה; אין להחיל זאת אוטומטית על כל החמרה.\n\nGlobal Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for Prevention, Diagnosis and Management of COPD: 2026 Report, version 1.2; Management of exacerbations — Antibiotics, PDF p.115. [Source](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-REPORT-2026-v1.2-20Nov2025_WMV.pdf).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0037",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2025_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           1260,
           1261
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "B is supported; the book does not fully justify routine sputum culture and procalcitonin in the presented low-resistance-risk vignette."
     },
@@ -12541,13 +12612,15 @@
       ],
       "mockEligible": true,
       "label": "Original exam question restored; A and D accepted after appeal",
-      "explanation": "א׳ וד׳ התקבלו. סעיף 32טו מאפשר לחתום על ייפוי כוח מתמשך לעניינים רפואיים בלבד בפני רופא, עובד סוציאלי, פסיכולוג, אח או אחות מוסמכים, או עורך דין. מדובר בחלופות לבעל המקצוע שבפניו חותמים, ולא בדרישה משותפת לרופא ולעובד סוציאלי (חוק הכשרות המשפטית והאפוטרופסות, סעיף 32טו, PDF עמ׳ 28–29).",
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2025-Jun, שאלה 91).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (ללא שנת מהדורה במסמך שנקרא):** בייפוי כוח רפואי בלבד, בעל המקצוע המאשר יכול להיות רופא, אח או אחות, פסיכולוג, עובד סוציאלי או עורך דין. אלה חלופות; אין דרישה משותפת לחתימה בפני רופא ועובד סוציאלי.\n\nמשרד המשפטים, האפוטרופוס הכללי. מדריך לממנה — ייפוי כוח מתמשך; עמ׳ 4, עריכת ייפוי כוח רפואי.",
       "explanationSource": {
-        "release": "v77",
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained.",
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "pages": [
           "Capacity law section32טו PDF28-29"
-        ]
+        ],
+        "edition": null,
+        "conflict": true
       }
     },
     "4638": {
@@ -12727,19 +12800,20 @@
       "duplicates": [
         4298
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. בעמ׳ 637 TUG מתואר כסקר פשוט לזיהוי מי שזקוק להערכת שיווי משקל והליכה; סקירה של 25 מחקרים מצאה ערך ניבוי מוגבל לנפילות בקהילה, ללא נקודת סף מומלצת. זהו נוסח המקור התומך בד׳, לצד המפתח הרשמי שנשמר (Hazzard 8e, עמ׳ 637).",
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2026-Jun, שאלה 2).\n\n**Hazzard 8e — ספר הבחינה:** בעמ׳ 637 TUG מתואר כסקר פשוט לזיהוי מי שזקוק להערכת שיווי משקל והליכה; סקירה של 25 מחקרים מצאה ערך ניבוי מוגבל לנפילות בקהילה, ללא נקודת סף מומלצת. זהו נוסח המקור התומך בד׳, לצד המפתח הרשמי שנשמר (Hazzard 8e, עמ׳ 637).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה העדכנית שנקראה (2025):** אין להשתמש בכלי חיזוי כדי לנבא את הסיכון לנפילה. הערכת הליכה ושיווי משקל יכולה לסייע בזיהוי צרכים ובהערכה קלינית; היא אינה הופכת ציון TUG יחיד למנבא מהימן.\n\nNICE. Falls: assessment and prevention in older people and in people 50 and over at higher risk (NG249); Recommendation 1.1.1. [Source](https://www.nice.org.uk/guidance/ng249/chapter/Recommendations).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0033",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2026_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           637
         ],
-        "edition": 8
+        "edition": 8,
+        "conflict": true
       },
       "explanationReviewNote": "The source supports D; the categorical high-predictive-value wording in accepted A is not supported."
     },
@@ -13755,18 +13829,20 @@
       "duplicates": [
         4369
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. טבלה 6 מבחינה בין שלב 2, שבו הביצוע האובייקטיבי עדיין בטווח המצופה, לשלב 3, שבו יש ליקוי אובייקטיבי אך העצמאות נשמרת, לעיתים עם חוסר יעילות בפעולות מורכבות. עצמאות כשלעצמה אינה שוללת שלב 3 (Revised criteria for diagnosis and staging of Alzheimer’s disease, 2024, טבלה 6, עמוד 1 ברינדור ה־XML המקומי).",
+      "explanation": "**התשובה הרשמית: ב׳, ג׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2026-Jun, שאלה 73).\n\n**הנחיות/קונצנזוס עדכניים (מקור משני):**\n\n**הגרסה המחייבת בבחינה (2024):** שלב 2 דורש ביצוע אובייקטיבי בטווח המצופה; בשלב 3 יש ליקוי אובייקטיבי עם עצמאות בפעולות היומיום, לעיתים עם האטה או חוסר יעילות בפעולות מורכבות. לכן עצמאות כשלעצמה אינה שוללת שלב 3. זהו דירוג AA שבשאלה; אין לערבבו עם ההגדרה הקלינית־ביולוגית הנפרדת של IWG.\n\nJack CR Jr, Andrews JS, Beach TG, et al.; Alzheimer’s Association Workgroup. Revised criteria for diagnosis and staging of Alzheimer’s disease. Alzheimers Dement. 2024;20:5143–5169. doi:10.1002/alz.13859; Table 6, stages 2–3. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/).",
       "explanationSource": {
-        "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
         "finding": "H-0035",
         "evidence": [
           "multi-explanation-review.json",
           "pages/2026_key-after-appeal-all.png"
         ],
-        "release": "v77",
+        "release": "v82",
         "pages": [
           "AA2024 Table6 local XML render p1"
-        ]
+        ],
+        "edition": null,
+        "conflict": true
       },
       "explanationReviewNote": "The source distinguishes stages 2 and 3; the vignette and accepted pair do not establish one objective-test category without further interpretation."
     },
@@ -14108,7 +14184,13 @@
       "duplicates": [
         4393
       ],
-      "explanation": "מטופלת עם CDI לאחרונה הנדרשת כעת לאנטיביוטיקה מערכתית (Tazocin) נמצאת בסיכון גבוה להישנות, שכן חשיפה מחודשת לאנטיביוטיקה היא גורם הסיכון המרכזי ל-recurrence של C. difficile. עמ׳ 1675 מציין שמניעה בוונקומיצין יעילה, אך אינו מפרט כאן מינון או משך ואינו קובע חובה; לאחר הערעורים התקבלו א וגם ד. (Hazzard8e p1675; after-appeals key Q97). Flagyl אינו יעיל כמניעה, והשתלת צואה שמורה למחלה חוזרת/עקשנית ואינה אמצעי מניעה בהקשר זה."
+      "explanation": "**התשובה הרשמית: א׳, ד׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2026-Jun, שאלה 97).\n\n**Hazzard 8e — ספר הבחינה:** הספר מציין שמניעה בוונקומיצין יעילה, אך אינו מפרט בקטע מינון או משך ואינו קובע חובה; חשיפה מחודשת לאנטיביוטיקה היא גורם סיכון להישנות (Hazzard 8e, עמ׳ 1675).",
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": 8,
+        "conflict": true
+      }
     },
     "4544": {
       "id": "mcq-be0342d1614ce894a9a67d87",
@@ -14152,7 +14234,13 @@
       "duplicates": [
         4396
       ],
-      "explanation": "בטיפול ביובש עיניים ב-Sjögren (keratoconjunctivitis sicca) המקור מתאר טיפול ב-cyclosporine מקומי להפחתת הדלקת, ובפקקי סיליקון (punctal plugs) לחסימת ניקוז הדמעות ושימור הלחות. אנטי-TNF אינו מומלץ: מחקרי RCT (כדוגמת infliximab ו-etanercept) לא הראו תועלת ב-Sjögren ראשוני, כמצוין בהזארד פרק 101, ולכן זהו הטיפול שאינו מומלץ.\n\nהמפתח הרשמי הוא ב׳. האפשרות א׳ מציינת טיפות pilocarpine, בעוד עמ׳ 1623 דן באגוניסטים מוסקריניים ליובש בפה; אין בעמוד אימות לדרך המתן שבאפשרות א׳. (Hazzard 8e p.1623)."
+      "explanation": "**התשובה הרשמית: ב׳** (הר״י (IMA), מפתח התשובות הרשמי הסופי לאחר ערעורים, מועד 2026-Jun, שאלה 100).\n\n**Hazzard 8e — ספר הבחינה:** הספר מתאר Cyclosporine מקומי ופקקי סיליקון ליובש עיניים, ואינו ממליץ על אנטי־TNF. הדיון באגוניסטים מוסקריניים מתייחס ליובש בפה ואינו מאמת את טיפות ה־Pilocarpine שבאפשרות א׳ (Hazzard 8e, עמ׳ 1623).",
+      "explanationSource": {
+        "release": "v82",
+        "status": "Official accepted answer first; separately attributed book and secondary sources.",
+        "edition": 8,
+        "conflict": true
+      }
     },
     "4453": {
       "id": "mcq-4bd44c1b63181235607f0841",
