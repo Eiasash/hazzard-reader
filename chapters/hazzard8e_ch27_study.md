@@ -239,3 +239,9 @@ At least 3 months. If delay is impossible, the book describes LMWH bridging whil
 No; the same statement covers dabigatran and apixaban. The chapter gives 1–4 days before surgery, individualized to renal function, thrombotic risk, and surgical bleeding risk (p380).
 
 </details>
+
+### Table 27-3 — existing book image
+
+[Hazzard 8e, Table 27-3, p.375](#p375)
+
+[2025-Jun Q39](?chapter=bank&q=mcq-18b0ad7f9e472a626caf7cbe)

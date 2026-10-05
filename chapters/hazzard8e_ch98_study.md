@@ -169,3 +169,21 @@ FNA indicated: nodules ≥1 cm that are solid and hypoechoic, ≥1.5 cm isoechoi
 Median survival for anaplastic thyroid carcinoma is about 5 months. Radioactive iodine has no effect on medullary thyroid carcinoma because the C-cells do not contain the sodium-iodide symporter (NIS) (p1556).
 
 </details>
+
+## Table 98-7 — verbatim book excerpt
+
+<a id="p1553"></a>
+
+Hazzard 8e, p.1553 · [Read source](?chapter=98#p1553)
+
+> - *Decreased levothyroxine absorption*
+>   - Increased GI tract binding of levothyroxine: iron (as supplements and in multivitamins), calcium carbonate, aluminum hydroxide, sucralfate, cholestyramine
+>   - Proton pump inhibitors
+>   - Small intestinal diseases: celiac disease, *Helicobacter pylori*-associated gastritis, atrophic gastritis, Crohn disease, short bowel
+> - *Increased levothyroxine metabolism*: phenobarbital, carbamazepine, phenytoin, rifampin
+> - *Increased thyroid-binding globulin*: estrogens, hepatitis
+> - *Decreased thyroid-binding globulin*: androgen use, progressive liver failure, nephrotic syndrome, severe systemic illness
+
+
+
+[2024-May Q24](?chapter=bank&q=mcq-73208d3bcb5312abed0b44aa)
