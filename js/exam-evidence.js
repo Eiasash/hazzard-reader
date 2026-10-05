@@ -9,6 +9,36 @@ window.HazzardEvidence = (() => {
   }
   const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year;};
   const label = entry => sittingLabel(entry.sitting) + ' Q' + entry.number;
+  // Reuse the exact v55 Study membership, including its labelled legacy fallback.
+  function studyIds(data, chapter) {
+    return data.study[chapter]?.ids || [];
+  }
+  function counts(data, chapter) {
+    const totals = new Map();
+    for (const id of new Set(studyIds(data, chapter))) {
+      const entry = data.questions[id];
+      if (entry) totals.set(entry.sitting, (totals.get(entry.sitting) || 0) + 1);
+    }
+    const month = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+    const date = sitting => Number(sitting.slice(0,4))*100+(month[sitting.split('-')[1]]||0);
+    return [...totals].sort((a,b) => date(b[0])-date(a[0]));
+  }
+  async function citationLine(chapter, open) {
+    const entries = counts(await load(), chapter);
+    if (!entries.length) return null;
+    const link = document.createElement('a');
+    link.className = 'chapter-exams'; link.href = '?chapter='+chapter+'s&view=questions';
+    link.append('Exams: ');
+    for (const [i, [sitting, count]] of entries.entries()) {
+      if (i) link.append(' · ');
+      const span = document.createElement('span'), [year, month] = sitting.split('-');
+      span.textContent = (['2024','2021'].includes(year) && month ? month+' ' : '')+year+(count>1?' ×'+count:'');
+      if (year === '2026') span.className = 'chapter-exams-latest';
+      link.append(span);
+    }
+    if (open) link.onclick = event => {event.preventDefault();open();};
+    return link;
+  }
   const questionURL = id => '?chapter=bank&q=' + encodeURIComponent(HazzardMCQ.currentId(id));
   function openPage(page, view) {
     // The source history entry holds its own view, including Study/mock context.
@@ -49,5 +79,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {sittingLabel,load, label, questionURL, openPage, decorate, backControl};
+  return {sittingLabel,load, label, questionURL, openPage, decorate, backControl,studyIds,counts,citationLine};
 })();
