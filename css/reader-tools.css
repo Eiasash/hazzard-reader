@@ -1,8 +1,13 @@
 #appTabs [data-tab="tools"] { position:relative; }
 #appTabs .has-new-release::after { content:""; position:absolute; inset-block-start:5px; inset-inline-end:9px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
-#panel[data-current-pane="tools"] #whatsNewButton { min-height:44px; min-block-size:44px; height:auto; width:100%; text-align:start; margin-block:8px; }
-#panel[open][data-current-pane="tools"] { max-block-size:calc(var(--vv-height) * .6); }
-#panel[open][data-current-pane="whatsNew"] { height:calc(var(--vv-height) * .65); max-block-size:calc(var(--vv-height) * .65); }
+#panel[data-current-pane="tools"] #whatsNewButton { min-height:44px; min-block-size:44px; height:auto; width:auto; text-align:start; margin:0; grid-column:2; grid-row:2; }
+#panel[open][data-current-pane="tools"] { height:auto; max-block-size:calc(var(--vv-height) * .25); }
+#panel[open][data-current-pane="tools"]:has(#appearanceStatus[open]) { max-block-size:calc(var(--vv-height) * .7); }
+#panel[open][data-current-pane="tools"] [data-pane="tools"] { display:grid; grid-template-columns:minmax(0,1fr) auto; align-content:start; column-gap:8px; }
+#panel[data-current-pane="tools"] .settings-controls { grid-column:1 / -1; }
+#panel[data-current-pane="tools"] #appearanceStatus { grid-column:1; grid-row:2; min-width:0; margin:0; }
+#panel[data-current-pane="tools"] #appearanceStatus[open] { grid-column:1 / -1; grid-row:3; }
+#panel[open][data-current-pane="whatsNew"] { height:auto; max-block-size:calc(var(--vv-height) * .65); }
 #panel[data-current-pane="whatsNew"] #panelBack { min-height:44px; min-block-size:44px; flex:none; }
 [data-pane="whatsNew"] { overflow-wrap:anywhere; }
 .release-entry { border-block-end:1px solid var(--rule); padding-block:8px 12px; }
