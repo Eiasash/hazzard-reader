@@ -538,8 +538,7 @@
       "title": "Principles of Geriatric Assessment — Study",
       "file": "hazzard8e_ch8_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "9s",
@@ -575,16 +574,14 @@
       "title": "Coronary Heart Disease and Dyslipidemia — Study",
       "file": "hazzard8e_ch74_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "89s",
       "title": "Breast Disease — Study",
       "file": "hazzard8e_ch89_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "22s",
@@ -614,16 +611,14 @@
       "title": "Fibromyalgia and Myofascial Pain Syndromes — Study",
       "file": "hazzard8e_ch103_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "107s",
       "title": "Other Viruses: Human Immunodeficiency Virus Infection and Herpes Zoster — Study",
       "file": "hazzard8e_ch107_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "49",
@@ -741,6 +736,83 @@
       "number": "93",
       "title": "Skin Cancer",
       "file": "hazzard8e_ch93_skin_cancer.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "107",
+      "title": "Other Viruses: Human Immunodeficiency Virus Infection and Herpes Zoster",
+      "file": "hazzard8e_ch107_other_viruses_human_immunodeficiency_virus_infection_and_herpes_zoster.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "74",
+      "title": "Coronary Heart Disease and Dyslipidemia",
+      "file": "hazzard8e_ch74_coronary_heart_disease_and_dyslipidemia.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "89",
+      "title": "Breast Disease",
+      "file": "hazzard8e_ch89_breast_disease.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "8",
+      "title": "Principles of Geriatric Assessment",
+      "file": "hazzard8e_ch8_principles_of_geriatric_assessment.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "103",
+      "title": "Fibromyalgia and Myofascial Pain Syndromes",
+      "file": "hazzard8e_ch103_fibromyalgia_and_myofascial_pain_syndromes.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "78",
+      "title": "Peripheral Vascular Disease",
+      "file": "hazzard8e_ch78_peripheral_vascular_disease.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "84",
+      "title": "Aging of the Gastrointestinal System and Selected Lower GI Disorders",
+      "file": "hazzard8e_ch84_aging_of_the_gastrointestinal_system_and_selected_lower_gi_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "30",
+      "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation",
+      "file": "hazzard8e_ch30_nutrition_disorders_obesity_and_enteral_parenteral_alimentation.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "90",
+      "title": "Prostate Cancer",
+      "file": "hazzard8e_ch90_prostate_cancer.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "11",
+      "title": "Prevention and Screening",
+      "file": "hazzard8e_ch11_prevention_and_screening.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "69",
+      "title": "Management of Common Nonpain Symptoms",
+      "file": "hazzard8e_ch69_management_of_common_nonpain_symptoms.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
     }
