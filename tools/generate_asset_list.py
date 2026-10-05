@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 # CACHE_VERSION is the release source; refresh page/cloud labels before hashing.
@@ -18,6 +19,20 @@ for name, pattern, replacement in [
         raise ValueError(f'Expected one release label in {name}, found {count}')
     if updated != original:
         path.write_text(updated, encoding='utf-8')
+# Reserve image layout from the actual files, including new chapter crops.
+image_sizes = {}
+for image_path in sorted((ROOT / 'chapters').iterdir()):
+    if image_path.suffix.lower() in {'.png', '.jpg', '.jpeg', '.gif', '.webp'}:
+        with Image.open(image_path) as image:
+            image_sizes[image_path.name] = list(image.size)
+index_path = ROOT / 'index.html'
+html = index_path.read_text(encoding='utf-8')
+html, count = re.subn(r'const imageSizes=\{[^\n]+\};',
+    'const imageSizes=' + json.dumps(image_sizes, separators=(',', ':')) + ';', html)
+if count != 1:
+    raise ValueError(f'Expected one chapter image-size map, found {count}')
+index_path.write_text(html, encoding='utf-8', newline='\n')
+print(f'Generated dimensions for {len(image_sizes)} chapter images')
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
 paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/all.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))

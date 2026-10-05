@@ -3,7 +3,7 @@
 window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
-  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardReview.KEY);
@@ -36,6 +36,7 @@ window.HazzardStorage = (() => {
   else if(key===HazzardSimulation.KEY)valid=HazzardSimulation.valid(value);
   else if(key===HazzardMCQ.VIEW_KEY)valid=HazzardMCQ.validView(value);
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
+  else if(key==='hazzard-chapters-sort-v1')valid=['number','title','yield'].includes(value);
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&['yellow','green','blue'].includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
@@ -44,7 +45,7 @@ window.HazzardStorage = (() => {
       if(typeof raw!=='string'||!owns(key))return false;
       if(key==='hazzard-last-backup-v1')return Number.isFinite(Number(raw))&&Number(raw)>=0;
       if(key===HazzardMCQ.MIGRATION_KEY)return raw==='1';
-      validateNotebookValue(key,JSON.parse(raw));return true;
+      validateNotebookValue(key,key==='hazzard-chapters-sort-v1'?raw:JSON.parse(raw));return true;
     }catch{return false;}
   }
   const status={persisted:null,restored:0,snapshotAt:null,error:''};
