@@ -1,5 +1,5 @@
 {
-  "version": "v89",
+  "version": "v90",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -4038,8 +4038,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "cb60625d0df90603977531254da20fb70f1ec1a6107d6ac71a5a08b046bf12c1",
-      "bytes": 17742
+      "sha256": "978561558ccac59a97d6357237e80ee9eceec2995f89dbd48bc89f01b95c63bf",
+      "bytes": 18474
     },
     {
       "url": "./css/memory-aids.css",
@@ -4053,8 +4053,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "b3ca2653eff7f7e3665e75012a75aca3a3f0e4f2fe970afc6ffa8a8371c94342",
-      "bytes": 12806
+      "sha256": "812d6df8f5d1a674f2c98248ca3349e56c241dfd55487b43cd531d96c8c8c51b",
+      "bytes": 12997
     },
     {
       "url": "./data/drug-index.json",
@@ -4523,13 +4523,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "6f63cd7301767c7f98d938a1a30dbd18328800beb1570969f072d55a7326f05e",
-      "bytes": 3289210
+      "sha256": "4932dd50df7da8997562b19d14266b524680cc8ed81bb04002b5f1c4364d6dc7",
+      "bytes": 3294432
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "d181f417b0ff90a474fe201b044a41d3655d53fd16cfe5957f478d65f62f5948",
-      "bytes": 4370
+      "sha256": "9d440e010e7ced39c8059a153525749cd74cfb7ba4f219b4250eed143f4e2802",
+      "bytes": 4674
     },
     {
       "url": "./js/drug-index.js",
@@ -4563,8 +4563,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "bf3e4c6b75fdcba49cf1619d74f1a59c984f49d5d25ab2cad68b6b8503d5c33a",
-      "bytes": 60181
+      "sha256": "d47f4fb7d5a0114ee3ac1f21d0f5fb2a417ba10835d38002a94738969180ee14",
+      "bytes": 60293
     },
     {
       "url": "./js/memory-aids.js",
@@ -4588,8 +4588,8 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "3d3119cbf345559ae8e6bba305fb3692767238a9c9cb8c9b7832d6a06436e488",
-      "bytes": 7038
+      "sha256": "5bc490f106fd5155c90f88b76fa19f108810973be5ab4cf9ef8b4c4491ea081c",
+      "bytes": 6970
     },
     {
       "url": "./js/reader-storage.js",

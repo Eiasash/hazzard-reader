@@ -514,6 +514,27 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #appTabs .changed-count{font:600 8.5px/1 var(--ui);color:var(--accent);white-space:normal;overflow:visible;text-overflow:clip;max-height:none}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])){gap:0;padding-block:1px}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])) svg{display:none}
+
+ :root{--study-fs:var(--fs,1)}
+#chapterHeader .study-view-tabs{--fs:var(--study-fs,1)}
+/* v90: equal-width icon + label navigation, with status on the icons. */
+#appTabs{--fs:inherit;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;padding-inline:2px}
+#appTabs button,#appTabs [data-tab="tools"]{position:relative;gap:2px;padding:2px 0;font:600 calc(9px * var(--fs,1))/1.2 var(--ui);white-space:nowrap;letter-spacing:0}
+#appTabs button>span:not(#readerStatusChip){overflow:visible;text-overflow:clip}
+#appTabs [data-tab="practice"]:has(.changed-count:not([hidden])){gap:2px;padding-block:2px}
+#appTabs [data-tab="practice"]:has(.changed-count:not([hidden])) svg{display:block}
+#appTabs .changed-count{position:absolute;top:0;left:calc(50% + 2px);min-width:14px;padding:2px 3px;border-radius:10px;background:var(--accent);color:var(--surface);font:700 calc(8px * var(--fs,1))/1 var(--ui)}
+#appTabs .changed-count[hidden]{display:none}
+#readerStatusChip{position:absolute;top:2px;left:calc(50% + 5px);width:8px;height:8px;border-radius:50%;background:#858585;border:1px solid var(--surface);padding:0;overflow:visible}
+#readerStatusChip::before,#readerStatusChip::after,#appTabs .has-new-release::after{display:none}
+#readerStatusChip[data-readiness="ready"]{background:#168448}
+#readerStatusChip[data-readiness="pending"]{background:#b57500}
+:root[data-theme="dark"] #readerStatusChip[data-readiness="ready"]{background:#53d98a}
+:root[data-theme="dark"] #readerStatusChip[data-readiness="pending"]{background:#ffd06a}
+.chapter-sort{display:flex;align-items:center;gap:8px;margin:6px 0 0;font:600 calc(12px * var(--fs,1))/1.3 var(--ui)}
+.chapter-sort select{width:auto;min-height:40px;padding:4px 26px 4px 8px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:7px}
+#chapterSortStatus{font:calc(12px * var(--fs,1))/1.3 var(--ui);margin:4px 0}
+
 </style>
 </head>
 <body>
@@ -900,7 +921,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <div id="library" class="page" hidden="">
 
   <p class="eyebrow">YOUR LIBRARY</p><h1>Chapters</h1>
-  <div class="library-search"><label for="chapterSearch">Search chapters and study pages</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"></div>
+  <div class="library-search"><label for="chapterSearch">Search chapters and study pages</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"><label class="chapter-sort" for="chapterSort">Sort: <select id="chapterSort"><option value="number">Number</option><option value="title">A-Z</option><option value="yield">Exam yield</option></select></label><p id="chapterSortStatus" role="status" hidden></p></div>
   <a id="libraryDrugs" class="library-drugs" href="?chapter=drugs">Drugs · cross-chapter index →</a>
   <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
 </div>
@@ -928,6 +949,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <summary id="appearanceSummary" title="Show release, storage and snapshot details">Checking status…</summary>
 <p id="storageProtection" class="meta" role="status">Storage: checking…</p>
 <p id="releaseStatus" class="meta" role="status"></p>
+<p id="changedQuestionsStatus" class="meta" role="status"></p>
 <p id="autoSaveStatus" class="meta" role="status"></p>
 <div id="cloudControls">
 <p id="cloudStatus" class="meta" role="status">Cloud: not signed in</p>
@@ -32612,6 +32634,33 @@ for(const entry of orderedChapters){
   }
   li.dataset.chapterRow=id;li.dataset.readingChapter=entry.studyOnly?id+'s':id;li.dataset.search=id+' '+entry.title+' '+name.textContent;$('#chapterRows').append(li);
 }
+const CHAPTER_SORT_KEY='hazzard-chapters-sort-v1';
+let chapterSort='number',sortTicket=0;
+try{const saved=localStorage.getItem(CHAPTER_SORT_KEY);if(['number','title','yield'].includes(saved))chapterSort=saved;}catch{}
+$('#chapterSort').value=chapterSort;
+async function sortChapterRows(){
+  const ticket=++sortTicket,mode=chapterSort,rows=$$('#chapterRows [data-chapter-row]'),totals=new Map();
+  try{
+    if(mode==='yield'){
+      const data=await HazzardEvidence.load();
+      for(const row of rows){const years={},counts=HazzardEvidence.counts(data,row.dataset.chapterRow);for(const [sitting,n] of counts){const year=sitting.slice(0,4);years[year]=(years[year]||0)+n;}totals.set(row.dataset.chapterRow,{total:counts.reduce((n,p)=>n+p[1],0),years});}
+    }
+    if(ticket!==sortTicket)return;
+    const years=[...new Set([...totals.values()].flatMap(v=>Object.keys(v.years)))].sort((a,b)=>Number(b)-Number(a));
+    const titles=new Map(orderedChapters.map(c=>[String(c.number),c.title.replace(/^(the|an|a)\s+/i,'')]));
+    rows.sort((a,b)=>{
+      const x=a.dataset.chapterRow,y=b.dataset.chapterRow;
+      // Keep the existing non-numbered law block last in every order.
+      if(!/^\d+$/.test(x)||!/^\d+$/.test(y))return /^\d+$/.test(x)?-1:/^\d+$/.test(y)?1:x.localeCompare(y);
+      if(mode==='title')return titles.get(x).localeCompare(titles.get(y),'en',{sensitivity:'base'})||Number(x)-Number(y);
+      if(mode==='yield'){const l=totals.get(x),r=totals.get(y);if(l.total!==r.total)return r.total-l.total;for(const year of years){const difference=(r.years[year]||0)-(l.years[year]||0);if(difference)return difference;}}
+      return Number(x)-Number(y);
+    });
+    $('#chapterRows').append(...rows);$('#chapterSortStatus').hidden=true;
+  }catch{if(ticket!==sortTicket)return;$('#chapterSortStatus').hidden=false;$('#chapterSortStatus').textContent='Exam counts unavailable. Reconnect and choose Exam yield again.';}
+}
+$('#chapterSort').onchange=async()=>{chapterSort=$('#chapterSort').value;try{localStorage.setItem(CHAPTER_SORT_KEY,chapterSort);}catch{}await sortChapterRows();searchChapters();};
+sortChapterRows();
 const copy=$('#copy'),panel=$('#panel'),fab=$('#readerTools'),pencil=$('#markToggle');
 const chapterTitle=copy.querySelector('h1').textContent;
 prepareImages(copy);
@@ -32620,9 +32669,9 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML='<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v89 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v90 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
-chapterHeader.innerHTML='<button id="headerHome" data-view="desk" aria-label="Home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
+chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
 const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=true;findBar.setAttribute('role','search');
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
@@ -32910,6 +32959,7 @@ function displayPane(name){
 function renderScreen(state){
   const id=state?.hazzardView||'reader',changed=id!==currentView;
   hidePanel();currentView=id;
+  const studyTabs=chapterHeader.querySelector('.study-view-tabs');if(studyTabs)studyTabs.hidden=id!=='reader';
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
   $('#readerViewport').hidden=id!=='reader';pencil.hidden=id!=='reader'||['mock','bank','drugs'].includes(cid);$('#jumpEnds').hidden=id!=='reader';$('#jumpEnds').classList.remove('is-visible');
   examBar.hidden=!state?.hazzardExam;document.body.classList.toggle('examining',!examBar.hidden);if(examBar.hidden)for(const p of examPages)p.classList.remove('exam-current');
@@ -33096,14 +33146,13 @@ function syncTabs(){
   const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':['tools','whatsNew'].includes(pane)?'tools':'reading'):currentView==='library'||cid==='drugs'&&currentView==='reader'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':'reading';
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   $('#chapterHeaderTitle').setAttribute('aria-expanded',String(pane==='contents'));
-  if(currentView==='desk'&&!pane)$('#headerHome').setAttribute('aria-current','page');else $('#headerHome').removeAttribute('aria-current');
-  $('#headerHome').setAttribute('aria-label',currentView==='desk'?'Home — return to reading':'Home');
+  if(currentView==='library'&&!pane)$('#headerHome').setAttribute('aria-current','page');else $('#headerHome').removeAttribute('aria-current');
 }
 function readingTab(){
   returnReading(()=>{if(['mock','bank','drugs'].includes(cid)){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&!['mock','bank','drugs'].includes(last.chapter)?last.chapter:'46')}else if(mcq)mcq.notes()});
 }
 function handleTab(b){
-  if(b.dataset.tab==='tools'&&$('#readerStatusChip').dataset.status==='paused'){
+  if(b.dataset.tab==='tools'&&window.HazzardCloud?.paused){
     if(!panel.open||panel.dataset.currentPane!=='tools')openPanel('tools',b);
     $('#appearanceStatus').open=true;
     requestAnimationFrame(()=>$('#cloudControls').scrollIntoView({block:'start'}));
@@ -33262,7 +33311,9 @@ async function searchChapters(){
   $('#noChapters').hidden=true;if(!q)return;
   status.textContent='Searching all chapters and study pages…';
   const loaded=await chapterIndex();if(ticket!==searchTicket)return;
-  const entries=[...(Array.isArray(loaded)?loaded:loaded.result)].sort((a,b)=>Number(String(b.entry.number)===cid)-Number(String(a.entry.number)===cid)||(parseInt(a.entry.number)||Infinity)-(parseInt(b.entry.number)||Infinity)||String(a.entry.number).localeCompare(String(b.entry.number),undefined,{numeric:true}));let found=0;
+  const ranks=new Map($$('#chapterRows [data-chapter-row]').map((row,i)=>[row.dataset.chapterRow,i]));
+  const rank=entry=>ranks.get(String(entry.number).replace(/s$/,''))??Infinity;
+  const entries=[...(Array.isArray(loaded)?loaded:loaded.result)].sort((a,b)=>rank(a.entry)-rank(b.entry)||String(a.entry.number).localeCompare(String(b.entry.number),undefined,{numeric:true}));let found=0;
   for(const {entry,blocks} of entries){
     let chapterHits=0;
     for(const text of blocks){
@@ -33466,20 +33517,26 @@ function goToPlace(p,exact=false){if(!p)return;if(exact&&Number.isFinite(p.ratio
 function rememberPlace(){if(cid==='drugs'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
 let placeTimer=null,userScrolled=false,lastPlaceWrite=0;
 let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
-readerScroll.addEventListener('scroll',()=>{
-  if(mcq?.active)return;
-  const y=Math.max(0,readerScroll.scrollTop),delta=y-headerScrollY,direction=Math.sign(delta);
+function scrollHeader(scroller){
+  const y=Math.max(0,scroller.scrollTop),delta=y-headerScrollY,direction=Math.sign(delta);
   if(y<=0||marking||!findBar.hidden||!examBar.hidden){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;headerDirection=0}
   else if(delta&&cid!=='mock'&&performance.now()>landingUntil){
     headerTravel=direction===headerDirection?headerTravel+Math.abs(delta):Math.abs(delta);headerDirection=direction;
     if(direction>0&&headerTravel>=60){chapterHeader.classList.add('is-collapsed');chapterHeader.inert=true}
     else if(direction<0&&headerTravel>=30){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   }
-  headerScrollY=y;showJumpPills();syncBookmark();
+  headerScrollY=y;
+}
+readerScroll.addEventListener('scroll',()=>{
+  if(mcq?.active)return;
+  scrollHeader(readerScroll);
+  const y=Math.max(0,readerScroll.scrollTop);showJumpPills();syncBookmark();
   if(currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
   const now=performance.now();if(now-lastPlaceWrite>=1000){rememberPlace();lastPlaceWrite=now;}
   clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,1000);
 },{passive:true});
+$('#readerViewport').addEventListener('scroll',event=>{if(event.target.id==='mcqViewport'&&mcq?.active&&event.currentTarget.classList.contains('has-study-tabs'))scrollHeader(event.target);},true);
+document.addEventListener('pointerdown',event=>{if(currentView==='reader'&&event.clientY<=24+(visualViewport?.offsetTop||0)){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;}},{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
 addEventListener('pagehide',rememberPlace);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else if(!pendingHighlightChanges.size)resyncHighlights()});
@@ -33917,8 +33974,8 @@ try{
 const readOnlyChapter=/^\d+$/.test(cid)&&manifestChapters.some(c=>String(c.number)===cid&&c.kind==='chapter')&&!manifestChapters.some(c=>String(c.number)===cid+'s');
 if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
   mcq=(cid==='mock'&&new URL(location.href).searchParams.get('simulation')==='1'?HazzardSimulation:HazzardMCQ).mount({chapter:cid==='laws'?'law':['mock','bank'].includes(cid)||readOnlyChapter?cid:cid.slice(0,-1),readOnlyChapter,viewport:$('#readerViewport'),readerScroll,
-    onShow:()=>{setMarking(false);chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;$('#jumpEnds').classList.remove('is-visible')},
-    onNotes:()=>{},openImage:openZoom});
+    onShow:()=>{headerScrollY=$('#mcqViewport')?.scrollTop||0;headerTravel=0;headerDirection=0;setMarking(false);chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;$('#jumpEnds').classList.remove('is-visible')},
+    onNotes:()=>{chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerScrollY=readerScroll.scrollTop;headerTravel=0;headerDirection=0;},openImage:openZoom});
   const li=document.createElement('li'),button=document.createElement('button');button.textContent='Exam questions';button.onclick=()=>returnReading(()=>mcq.show());li.append(button);$('[data-pane="contents"] .rows').prepend(li);
   if(!['mock','bank'].includes(cid))pencil.addEventListener('click',()=>mcq.notes(),true);
   if(readOnlyChapter||/^\d+s$/.test(cid))HazzardEvidence.citationLine(readOnlyChapter?cid:cid.slice(0,-1),()=>mcq.show()).then(line=>{if(line)copy.querySelector('h1').after(line);}).catch(error=>console.error('Study exam citations:',error));

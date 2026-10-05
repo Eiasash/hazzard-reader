@@ -34,7 +34,8 @@ window.HazzardChanged = (() => {
       const tab = document.querySelector('#appTabs [data-tab="practice"]');
       let badge = tab?.querySelector('.changed-count');
       if (tab && !badge) { badge = document.createElement('small'); badge.className = 'changed-count'; tab.append(badge); }
-      if (badge) { badge.textContent = questions.length ? label : ''; badge.hidden = !questions.length; }
+      if (badge) { badge.textContent = questions.length ? String(questions.length) : ''; badge.setAttribute('aria-hidden','true'); badge.hidden = !questions.length; }
+      const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent=label;
       tab?.setAttribute('aria-label', questions.length ? 'Practice — ' + label : 'Practice');
       const details = document.createElement('details'), summary = document.createElement('summary');
       summary.textContent = questions.length ? label : 'Changed questions — all done';
@@ -51,6 +52,7 @@ window.HazzardChanged = (() => {
       }
       details.append(list); host.replaceChildren(details);
     } catch {
+      const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent='Changed questions could not be read.';
       host.textContent = 'Changed questions could not be read. ';
       const retry = document.createElement('button'); retry.textContent = 'Try again'; retry.onclick = refresh; host.append(retry);
     }
