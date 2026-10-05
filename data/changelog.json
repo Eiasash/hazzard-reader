@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v84",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T12:00:19.265872+00:00",
+      "changes": [
+        "Chapters now list every past exam that cited them, with counts."
+      ]
+    },
+    {
       "version": "v83",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T11:36:19.261854+00:00",
