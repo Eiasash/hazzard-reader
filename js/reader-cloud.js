@@ -20,6 +20,7 @@ window.HazzardCloud = (() => {
     return (date?part('day')+'.'+part('month')+' ':'')+part('hour')+':'+part('minute');
   };
   function label(){
+    if(paused())return 'Cloud paused - '+(!signed()||expired?'sign in again':'last sync '+time(state.syncedAt,true));
     if(expired)return 'Cloud: sign in again';
     if(!signed())return 'Cloud: not signed in';
     const prefix='Cloud: '+session.username;
