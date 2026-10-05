@@ -1,0 +1,1130 @@
+{
+  "version": 1,
+  "scope": "2020-22 Hazzard 7e references; chapter access only, never page conversion",
+  "titleSource": "https://library.machs.edu.sa/cgi-bin/koha/opac-detail.pl?biblionumber=1389",
+  "questions": {
+    "mcq-dac12cb3fa30972172b47803": {
+      "chapter": "79",
+      "method": "topic-8e",
+      "gist": "Hypertension treatment"
+    },
+    "mcq-d99b606239fb4820b0b484db": {
+      "chapter": "107",
+      "method": "topic-8e",
+      "gist": "Zoster vaccination"
+    },
+    "mcq-3000a3b52a1c7be7af13bd6b": {
+      "chapter": "82",
+      "method": "title-8e",
+      "gist": "Creatinine and GFR",
+      "chapter7": "86",
+      "title7": "Aging of the Kidney"
+    },
+    "mcq-0971fea2ad0a50b32c98cc69": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Alzheimer drug treatment"
+    },
+    "mcq-ac16b91fc581bb67ba82ac50": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Delirium management"
+    },
+    "mcq-754300e4e14e133ec8506c3d": {
+      "chapter": "89",
+      "method": "topic-8e",
+      "gist": "Mammography after age 75"
+    },
+    "mcq-1d7675d40164e88332093c6a": {
+      "chapter": "81",
+      "method": "topic-8e",
+      "gist": "COPD rehabilitation"
+    },
+    "mcq-12c69c59f425d3c5e2eb601a": {
+      "chapter": "100",
+      "method": "topic-8e",
+      "gist": "Polymyalgia rheumatica"
+    },
+    "mcq-e37ba64de1c10f62779e63e7": {
+      "chapter": "68",
+      "method": "topic-8e",
+      "gist": "Opioid adverse effects"
+    },
+    "mcq-c69b8e39936a3e480b518b24": {
+      "chapter": "27",
+      "method": "topic-8e",
+      "gist": "Postoperative complications"
+    },
+    "mcq-9569f2b9b5070fcbd3eb7175": {
+      "chapter": "87",
+      "method": "topic-8e",
+      "gist": "Fecal impaction"
+    },
+    "mcq-fd5c824187f1c0a2dd0dfcf3": {
+      "chapter": "46",
+      "method": "title-8e",
+      "gist": "Pressure injury staging",
+      "chapter7": "52",
+      "title7": "Pressure Ulcers"
+    },
+    "mcq-d332a08b6fe7baa4d221260c": {
+      "chapter": "47",
+      "method": "topic-8e",
+      "gist": "Scheduled voiding"
+    },
+    "mcq-a7176a5f42d0f58dc5e4419b": {
+      "chapter": "30",
+      "method": "topic-8e",
+      "gist": "Refeeding syndrome"
+    },
+    "mcq-6dd18e86c2b0884c947a0130": {
+      "chapter": "22",
+      "method": "topic-8e",
+      "gist": "Drug absorption with aging"
+    },
+    "mcq-672a2233d40478f8ffec6636": {
+      "chapter": "42",
+      "method": "topic-8e",
+      "gist": "Frailty and perioperative risk"
+    },
+    "mcq-940e1a2218bb564522f838ea": {
+      "chapter": "44",
+      "method": "topic-8e",
+      "gist": "Insomnia and benzodiazepines"
+    },
+    "mcq-9e41920180218015f9a52e2c": {
+      "chapter": "55",
+      "method": "title-8e",
+      "gist": "Walking aids",
+      "chapter7": "29",
+      "title7": "Rehabilitation"
+    },
+    "mcq-6cd2288bce5f4bc9856bf941": {
+      "chapter": "106",
+      "method": "topic-8e",
+      "gist": "UTI signs in nursing homes"
+    },
+    "mcq-bcae0dab35a2e9279066d221": {
+      "chapter": "55",
+      "method": "topic-8e",
+      "gist": "Post-stroke complications"
+    },
+    "mcq-0a63b1fdce0707c8e2c49e60": {
+      "chapter": "55",
+      "method": "topic-8e",
+      "gist": "Rollator use and falls"
+    },
+    "mcq-de043ba5e122226b81f19afc": {
+      "chapter": "57",
+      "method": "title-8e",
+      "gist": "Normal cognition versus MCI",
+      "chapter7": "63",
+      "title7": "Cognitive Changes Associated With Normal and Pathologic Aging"
+    },
+    "mcq-5324b8a6225029bff2dabcee": {
+      "chapter": "43",
+      "method": "topic-8e",
+      "gist": "Fall risk factors"
+    },
+    "mcq-31782ec7576d24363ccf2c35": {
+      "chapter": "49",
+      "method": "topic-8e",
+      "gist": "Sarcopenia treatment"
+    },
+    "mcq-d445375f0e6d51ddd11cf38f": {
+      "chapter": "51",
+      "method": "topic-8e",
+      "gist": "Osteoporosis treatment"
+    },
+    "mcq-aef3c629ece2ab30b9a741de": {
+      "chapter": "53",
+      "method": "topic-8e",
+      "gist": "Hip fracture prognosis"
+    },
+    "mcq-6d95836c1f971f2123c4f768": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Alzheimer diagnosis"
+    },
+    "mcq-4022e7f03af5b3eaeb7ba769": {
+      "chapter": "104",
+      "method": "topic-8e",
+      "gist": "Pneumococcal vaccination"
+    },
+    "mcq-775eea0fe2be25460871ab1d": {
+      "chapter": "100",
+      "method": "topic-8e",
+      "gist": "Statin myopathy"
+    },
+    "mcq-d999fc66e84432d68688a775": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "PHQ-9"
+    },
+    "mcq-64427e17545bbfb4d2df9118": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Delirium and lumbar puncture"
+    },
+    "mcq-11cd4c7df5f06368806ea398": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Lewy body dementia"
+    },
+    "mcq-05456f388b60d0b72b35923e": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Depression drug interactions"
+    },
+    "mcq-1c14df9a7f211b844a328592": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Frontotemporal dementia"
+    },
+    "mcq-c2587af5add4e2fcc0bfd570": {
+      "chapter": "106",
+      "method": "title-8e",
+      "gist": "Cystitis treatment",
+      "chapter7": "127",
+      "title7": "Urinary Tract Infections"
+    },
+    "mcq-a99db0fa2bd1efb781390683": {
+      "chapter": "66",
+      "method": "topic-8e",
+      "gist": "Anxiety treatment",
+      "hold": "8e chapter 66 has no Read page in this release"
+    },
+    "mcq-c982624ebb3a0cc1c5b9af74": {
+      "chapter": "105",
+      "method": "title-8e",
+      "gist": "Pneumonia mortality score",
+      "chapter7": "126",
+      "title7": "Pneumonia"
+    },
+    "mcq-ef77c3f440fa29a46ca59282": {
+      "chapter": "55",
+      "method": "topic-8e",
+      "gist": "Hemiplegic shoulder pain"
+    },
+    "mcq-1ad50c81f4e5e743efca813b": {
+      "chapter": "58",
+      "method": "title-8e",
+      "gist": "Delirium medication review",
+      "chapter7": "47",
+      "title7": "Delirium"
+    },
+    "mcq-ce0328117dbe2b4d9dd6b779": {
+      "chapter": "58",
+      "method": "title-8e",
+      "gist": "Delirium differential diagnosis",
+      "chapter7": "47",
+      "title7": "Delirium"
+    },
+    "mcq-ba2c6c8f21675ae60319c03f": {
+      "chapter": "56",
+      "method": "title-8e",
+      "gist": "Brain aging and exercise",
+      "chapter7": "62",
+      "title7": "Cellular and Neurochemical Aspects of the Aging Brain",
+      "hold": "8e chapter 56 has no Read page in this release"
+    },
+    "mcq-4856c7ff9699788b6989204c": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Multiple system atrophy"
+    },
+    "mcq-9512d5398ddbd032e93d9aa1": {
+      "chapter": "102",
+      "method": "topic-8e",
+      "gist": "Lumbar spinal stenosis"
+    },
+    "mcq-4f1b671f9d13f1ba7f55b9b9": {
+      "chapter": "57",
+      "method": "topic-8e",
+      "gist": "Normal pressure hydrocephalus"
+    },
+    "mcq-85190c8c8b3e355b84d145cd": {
+      "chapter": "77",
+      "method": "topic-8e",
+      "gist": "Atrial fibrillation anticoagulation"
+    },
+    "mcq-a699e7fd3c5f532783da5870": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Antidepressant titration"
+    },
+    "mcq-4b4070c930367032e194dba4": {
+      "chapter": "46",
+      "method": "topic-8e",
+      "gist": "Pressure injury nutrition"
+    },
+    "mcq-b2813530d13478a3f7078dae": {
+      "chapter": "76",
+      "method": "title-8e",
+      "gist": "HFpEF examination",
+      "chapter7": "79",
+      "title7": "Heart Failure"
+    },
+    "mcq-9e6331f91eab9337062372ca": {
+      "chapter": "81",
+      "method": "topic-8e",
+      "gist": "COPD inhaler use"
+    },
+    "mcq-766aecb1c1359ae07b51af4b": {
+      "chapter": "98",
+      "method": "topic-8e",
+      "gist": "Myxedema coma"
+    },
+    "mcq-eb45fa8e6fd33a1b05b2b1d4": {
+      "chapter": "76",
+      "method": "topic-8e",
+      "gist": "Advanced heart failure and LVAD"
+    },
+    "mcq-0f379d4cc1e8545a79a292fb": {
+      "chapter": "39",
+      "method": "topic-8e",
+      "gist": "Aging and fluid homeostasis"
+    },
+    "mcq-7b2b812163373e9d00543031": {
+      "chapter": "57",
+      "method": "topic-8e",
+      "gist": "MCI function"
+    },
+    "mcq-985fc997b31032490b29395b": {
+      "chapter": "46",
+      "method": "topic-8e",
+      "gist": "Norton scale"
+    },
+    "mcq-b6010174acb8db2434926ba0": {
+      "chapter": "90",
+      "method": "topic-8e",
+      "gist": "Prostate cancer risk"
+    },
+    "mcq-5eb797ed9d3cec22b634c30d": {
+      "chapter": "73",
+      "method": "title-8e",
+      "gist": "Cardiovascular aging",
+      "chapter7": "75",
+      "title7": "Effects of Aging on Cardiovascular Structure and Function"
+    },
+    "mcq-aa26bdef996a98dd1c649114": {
+      "chapter": "59",
+      "method": "title-8e",
+      "gist": "Dementia drugs and bradycardia",
+      "chapter7": "66",
+      "title7": "Dementia Including Alzheimer Disease"
+    },
+    "mcq-13dba157a8b968526f8555b0": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Delirium recognition"
+    },
+    "mcq-ed04f987b65bb44e392ebaeb": {
+      "chapter": "82",
+      "method": "topic-8e",
+      "gist": "Renal aging"
+    },
+    "mcq-7c2dad0adf8d1917ff506524": {
+      "chapter": "47",
+      "method": "topic-8e",
+      "gist": "Overflow incontinence"
+    },
+    "mcq-e1d465c64af524a488a79aac": {
+      "chapter": "33",
+      "method": "title-8e",
+      "gist": "Aging vision",
+      "chapter7": "38",
+      "title7": "Low Vision: Assessment and Rehabilitation",
+      "hold": "8e chapter 33 has no Read page in this release"
+    },
+    "mcq-7de65b6035bfccb52beb4ddb": {
+      "chapter": "52",
+      "method": "topic-8e",
+      "gist": "Hand osteoarthritis"
+    },
+    "mcq-29b5d2cb0031081c25ada235": {
+      "chapter": "42",
+      "method": "title-8e",
+      "gist": "Fried frailty criteria",
+      "chapter7": "46",
+      "title7": "Frailty"
+    },
+    "mcq-65c8bffe42c22e000a778db8": {
+      "chapter": "15",
+      "method": "topic-8e",
+      "gist": "Emergency care functional decline"
+    },
+    "mcq-1fc7887b9f88109afaaaf18b": {
+      "chapter": "105",
+      "method": "topic-8e",
+      "gist": "Aspiration pneumonia prevention"
+    },
+    "mcq-4cd9324a98a56ce5a20d1d9d": {
+      "chapter": "43",
+      "method": "topic-8e",
+      "gist": "Drugs and falls"
+    },
+    "mcq-d705e101701ec10430730317": {
+      "chapter": "68",
+      "method": "topic-8e",
+      "gist": "Neuropathic pain"
+    },
+    "mcq-fd265aa00a76f0d393b73d2a": {
+      "chapter": "62",
+      "method": "topic-8e",
+      "gist": "Ischemic stroke"
+    },
+    "mcq-658204486ccbe771d799fa34": {
+      "chapter": "73",
+      "method": "title-8e",
+      "gist": "Cardiovascular aging",
+      "chapter7": "75",
+      "title7": "Effects of Aging on Cardiovascular Structure and Function"
+    },
+    "mcq-5fc8a91de7d78511b9bbba72": {
+      "chapter": "61",
+      "method": "topic-8e",
+      "gist": "Parkinson deep brain stimulation"
+    },
+    "mcq-f2e44734c8fb8cb63c290f7f": {
+      "chapter": "78",
+      "method": "topic-8e",
+      "gist": "Peripheral vascular disease"
+    },
+    "mcq-863c990591ff2eedbfe5e922": {
+      "chapter": "53",
+      "method": "topic-8e",
+      "gist": "Orthogeriatric hip fracture care"
+    },
+    "mcq-df7467a91c55e65d07e6d730": {
+      "chapter": "85",
+      "method": "topic-8e",
+      "gist": "PPI and C. difficile"
+    },
+    "mcq-b779bb4d9377055ce33a959e": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Memantine"
+    },
+    "mcq-88049e9258702f86458e6b46": {
+      "chapter": "106",
+      "method": "topic-8e",
+      "gist": "Urine culture indications"
+    },
+    "mcq-a0fa9b557074f9332ce13a1b": {
+      "chapter": "59",
+      "method": "title-8e",
+      "gist": "MCI management",
+      "chapter7": "66",
+      "title7": "Dementia Including Alzheimer Disease"
+    },
+    "mcq-464ec512c4048c136965e84e": {
+      "chapter": "3",
+      "method": "title-8e",
+      "gist": "Immune aging",
+      "chapter7": "3",
+      "title7": "Immunology of Aging",
+      "hold": "8e chapter 3 has no Read page in this release"
+    },
+    "mcq-15cb6cf6f024d61f71bb1c94": {
+      "chapter": "96",
+      "method": "title-8e",
+      "gist": "Padua thrombosis risk",
+      "chapter7": "106",
+      "title7": "Coagulation Disorders"
+    },
+    "mcq-44ec5232c3b70be5ec3546a8": {
+      "chapter": "90",
+      "method": "topic-8e",
+      "gist": "Prostate cancer treatment"
+    },
+    "mcq-2ef61450ff3feeb769b59483": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Depression in Alzheimer disease"
+    },
+    "mcq-b722617aa8858adb7209c45d": {
+      "chapter": "61",
+      "method": "topic-8e",
+      "gist": "Parkinson psychosis"
+    },
+    "mcq-90bbae3292be580263244c30": {
+      "chapter": "99",
+      "method": "title-8e",
+      "gist": "Prediabetes",
+      "chapter7": "110",
+      "title7": "Diabetes Mellitus"
+    },
+    "mcq-dd84ab2a8a962111bd9b32b2": {
+      "chapter": "85",
+      "method": "topic-8e",
+      "gist": "GERD symptoms"
+    },
+    "mcq-79233eb27b6824ea7b609f8d": {
+      "chapter": "86",
+      "method": "topic-8e",
+      "gist": "Cholecystitis",
+      "hold": "8e chapter 86 has no Read page in this release"
+    },
+    "mcq-a7ce378a3066d828eaecb394": {
+      "chapter": "87",
+      "method": "title-8e",
+      "gist": "Laxative mechanisms",
+      "chapter7": "95",
+      "title7": "Constipation"
+    },
+    "mcq-16901cf73d684c18a48a5302": {
+      "chapter": "47",
+      "method": "title-8e",
+      "gist": "Stress incontinence",
+      "chapter7": "53",
+      "title7": "Incontinence"
+    },
+    "mcq-436c68e83cfd3b4ab7732abc": {
+      "chapter": "69",
+      "method": "topic-8e",
+      "gist": "Palliative nonpain symptoms"
+    },
+    "mcq-07d5f0df11465a7265260599": {
+      "chapter": "69",
+      "method": "topic-8e",
+      "gist": "Palliative dyspnea"
+    },
+    "mcq-5a499e769081989f66f37ce2": {
+      "chapter": "30",
+      "method": "topic-8e",
+      "gist": "Obesity complications"
+    },
+    "mcq-87f221efa3f09f65bf3d1d7a": {
+      "chapter": "60",
+      "method": "topic-8e",
+      "gist": "Antipsychotic harms"
+    },
+    "mcq-89fe56c9f8817bf5df610ee7": {
+      "chapter": "22",
+      "method": "topic-8e",
+      "gist": "Clonazepam pharmacokinetics"
+    },
+    "mcq-c1702190897fa5c2a444d31c": {
+      "chapter": "75",
+      "method": "title-8e",
+      "gist": "Endocarditis prophylaxis",
+      "chapter7": "78",
+      "title7": "Valvular Heart Disease"
+    },
+    "mcq-6df632c6cbeac8fa6876ac5f": {
+      "chapter": "42",
+      "method": "title-8e",
+      "gist": "Fried frailty criteria",
+      "chapter7": "46",
+      "title7": "Frailty"
+    },
+    "mcq-73968351b84a111fae178765": {
+      "chapter": null,
+      "method": "topic-8e",
+      "gist": "Menopause and skin collagen",
+      "hold": "Menopause/skin-aging topic has no clear available successor chapter"
+    },
+    "mcq-9263ca029323c02206b33370": {
+      "chapter": "44",
+      "method": "topic-8e",
+      "gist": "Sleep apnea and nocturia"
+    },
+    "mcq-80b1b47e42e14b119b805b9f": {
+      "chapter": "104",
+      "method": "topic-8e",
+      "gist": "Nutrition and infection susceptibility"
+    },
+    "mcq-df5594e108f43358e8380f42": {
+      "chapter": "76",
+      "method": "topic-8e",
+      "gist": "Heart failure prognosis"
+    },
+    "mcq-d45a5cf2195ae867feb692a3": {
+      "chapter": "96",
+      "method": "title-8e",
+      "gist": "Pulmonary embolism risk",
+      "chapter7": "106",
+      "title7": "Coagulation Disorders"
+    },
+    "mcq-57c4cc79fa07a7e570f0a73b": {
+      "chapter": "43",
+      "method": "topic-8e",
+      "gist": "Falls and cataract treatment"
+    },
+    "mcq-7edac86c45eaf0d742915980": {
+      "chapter": "92",
+      "method": "topic-8e",
+      "gist": "Esophageal adenocarcinoma"
+    },
+    "mcq-e2f476b23df1d76c68961d12": {
+      "chapter": "107",
+      "method": "topic-8e",
+      "gist": "Postherpetic neuralgia"
+    },
+    "mcq-0bb518af51e4c54d65f5c097": {
+      "chapter": "105",
+      "method": "topic-8e",
+      "gist": "Pneumonia risk"
+    },
+    "mcq-141fb224311d4c71ea10eacd": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Cholinesterase inhibitors"
+    },
+    "mcq-a68f3e9d6b27e3350372761f": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Dementia assessment during delirium"
+    },
+    "mcq-08e57c41fba38974834cfcc7": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Alzheimer drug efficacy"
+    },
+    "mcq-6592a4a2447a4a4222a125e5": {
+      "chapter": null,
+      "method": "topic-8e",
+      "gist": "Depression across cancer and hip fracture",
+      "hold": "Question spans depression in cancer and hip fracture; no single clear chapter"
+    },
+    "mcq-04351e8011b5f96dae499b8d": {
+      "chapter": "58",
+      "method": "title-8e",
+      "gist": "Postoperative delirium",
+      "chapter7": "47",
+      "title7": "Delirium"
+    },
+    "mcq-eab9b27c6d0193e1d23c6a83": {
+      "chapter": "99",
+      "method": "topic-8e",
+      "gist": "Hypoglycemia in aging"
+    },
+    "mcq-eb47440c5f32121d9311f418": {
+      "chapter": "46",
+      "method": "topic-8e",
+      "gist": "Infected pressure injury"
+    },
+    "mcq-8c2e249d7c54762ff2a08ac6": {
+      "chapter": "78",
+      "method": "topic-8e",
+      "gist": "Carotid stenosis"
+    },
+    "mcq-816b58388ce467ec350c72c3": {
+      "chapter": "58",
+      "method": "title-8e",
+      "gist": "Delirium and restraints",
+      "chapter7": "47",
+      "title7": "Delirium"
+    },
+    "mcq-0ed5d2ae800de06734a63b64": {
+      "chapter": "62",
+      "method": "topic-8e",
+      "gist": "Right MCA stroke"
+    },
+    "mcq-ae154a823b266b763176fd45": {
+      "chapter": "106",
+      "method": "topic-8e",
+      "gist": "Nitrofurantoin pulmonary toxicity"
+    },
+    "mcq-7892555b8057c689d6d7f8d4": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Frontotemporal dementia imaging"
+    },
+    "mcq-ad9a121e09ed2474df94ccb9": {
+      "chapter": "81",
+      "method": "topic-8e",
+      "gist": "COPD and aging"
+    },
+    "mcq-c1a3dda929d99ddfdddc6b5c": {
+      "chapter": "61",
+      "method": "topic-8e",
+      "gist": "Essential tremor"
+    },
+    "mcq-8bb3225a8c4eb0919527c5c1": {
+      "chapter": "43",
+      "method": "title-8e",
+      "gist": "Fall risk associations",
+      "chapter7": "48",
+      "title7": "Falls"
+    },
+    "mcq-a7281baa9e47a1ae8a80819e": {
+      "chapter": "67",
+      "method": "topic-8e",
+      "gist": "Palliative dementia care"
+    },
+    "mcq-392a084da2a4b39dd0a1eaed": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Drug-induced altered consciousness"
+    },
+    "mcq-453eb1451ecfa285a10933de": {
+      "chapter": "98",
+      "method": "topic-8e",
+      "gist": "Thyroid nodule biopsy"
+    },
+    "mcq-98ec853f03c4ddcd93ba163a": {
+      "chapter": "9",
+      "method": "topic-8e",
+      "gist": "Cognitive screening"
+    },
+    "mcq-5d2910508d3a03b9779ece99": {
+      "chapter": "105",
+      "method": "title-8e",
+      "gist": "Pneumonia pathogens",
+      "chapter7": "126",
+      "title7": "Pneumonia"
+    },
+    "mcq-91b98ca785a73e91ef64d8b4": {
+      "chapter": "80",
+      "method": "topic-8e",
+      "gist": "Idiopathic pulmonary fibrosis"
+    },
+    "mcq-77e6ef73149271bca24a7601": {
+      "chapter": "47",
+      "method": "title-8e",
+      "gist": "Drug-induced urinary retention",
+      "chapter7": "53",
+      "title7": "Incontinence"
+    },
+    "mcq-1dfbf73e2dc873a06712d01b": {
+      "chapter": "45",
+      "method": "title-8e",
+      "gist": "Syncope and QT drugs",
+      "chapter7": "51",
+      "title7": "Syncope"
+    },
+    "mcq-f43f24aa5483c1c8750901a0": {
+      "chapter": "46",
+      "method": "topic-8e",
+      "gist": "Infected pressure injury"
+    },
+    "mcq-825df84a1ac736a4d39649d1": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Cognitive activities in Alzheimer disease"
+    },
+    "mcq-bdd5fcf0889facd18a58bee9": {
+      "chapter": "95",
+      "method": "topic-8e",
+      "gist": "CLL evaluation"
+    },
+    "mcq-13e618f70748ac4d528540ae": {
+      "chapter": "74",
+      "method": "topic-8e",
+      "gist": "Post-MI treatment"
+    },
+    "mcq-04182e576b08982e7e75a1af": {
+      "chapter": "99",
+      "method": "topic-8e",
+      "gist": "SGLT2 ketoacidosis"
+    },
+    "mcq-efb2165a67b659aa508edeff": {
+      "chapter": "98",
+      "method": "topic-8e",
+      "gist": "Nonthyroidal illness"
+    },
+    "mcq-bbadbe9e5282d5e1d70af0eb": {
+      "chapter": "97",
+      "method": "topic-8e",
+      "gist": "Adrenal insufficiency"
+    },
+    "mcq-81577a261d274597c2f04b65": {
+      "chapter": "76",
+      "method": "topic-8e",
+      "gist": "Heart failure and digoxin"
+    },
+    "mcq-9534df35cf56acbc6bcb3f35": {
+      "chapter": "83",
+      "method": "title-8e",
+      "gist": "Urgent dialysis",
+      "chapter7": "88",
+      "title7": "End-Stage Renal Disease"
+    },
+    "mcq-7f65ec8a88d55d3dce770791": {
+      "chapter": "95",
+      "method": "topic-8e",
+      "gist": "Myeloma bone disease"
+    },
+    "mcq-b9a15ea73b528886155ee992": {
+      "chapter": "98",
+      "method": "topic-8e",
+      "gist": "Amiodarone thyroid effects"
+    },
+    "mcq-d9237aba5608ead24fbab02e": {
+      "chapter": "100",
+      "method": "topic-8e",
+      "gist": "PMR diagnosis"
+    },
+    "mcq-77f06f1660813e299868c240": {
+      "chapter": "27",
+      "method": "topic-8e",
+      "gist": "Perioperative cardiac risk"
+    },
+    "mcq-f0cf190da9e686f97d19c9b9": {
+      "chapter": "46",
+      "method": "topic-8e",
+      "gist": "Pressure injury cleansing"
+    },
+    "mcq-d9dad11b70ff02c71e9f53e4": {
+      "chapter": null,
+      "method": "title-8e",
+      "gist": "Clozapine neutropenia",
+      "chapter7": "104",
+      "title7": "White Cell Disorders",
+      "hold": "7e White Cell Disorders includes nonmalignant neutropenia; 8e hematologic malignancy chapter is not a clear successor for this item"
+    },
+    "mcq-a607490c61c3576b8a25b473": {
+      "chapter": "39",
+      "method": "topic-8e",
+      "gist": "Hyponatremia"
+    },
+    "mcq-4f755479112a3e00ce0716a7": {
+      "chapter": "51",
+      "method": "topic-8e",
+      "gist": "Bisphosphonate holiday"
+    },
+    "mcq-863336ec5faa197f470aa3e6": {
+      "chapter": "104",
+      "method": "title-8e",
+      "gist": "Fever of unknown origin",
+      "chapter7": "125",
+      "title7": "Infection: General Principles"
+    },
+    "mcq-179fc62f1a0fa33f6358d88b": {
+      "chapter": "58",
+      "method": "title-8e",
+      "gist": "Delirium cognitive profile",
+      "chapter7": "47",
+      "title7": "Delirium"
+    },
+    "mcq-a783600c347387919b4a077a": {
+      "chapter": "60",
+      "method": "title-8e",
+      "gist": "Lithium toxicity",
+      "chapter7": "64",
+      "title7": "Psychoactive Drug Therapy"
+    },
+    "mcq-1dbdcd14969d75c22327d1d7": {
+      "chapter": "102",
+      "method": "topic-8e",
+      "gist": "Low back pain differential"
+    },
+    "mcq-ffcc81375b777601f194e52e": {
+      "chapter": "105",
+      "method": "topic-8e",
+      "gist": "Pneumonia SCAP score"
+    },
+    "mcq-0cd4f4f46a752c02ded1a842": {
+      "chapter": "85",
+      "method": "topic-8e",
+      "gist": "Long-term PPI effects"
+    },
+    "mcq-e4cde6058ec0e9998ca3d55c": {
+      "chapter": "75",
+      "method": "title-8e",
+      "gist": "Aortic valve replacement",
+      "chapter7": "78",
+      "title7": "Valvular Heart Disease"
+    },
+    "mcq-f9e01c5c473afd5df4957617": {
+      "chapter": "47",
+      "method": "topic-8e",
+      "gist": "Overactive bladder"
+    },
+    "mcq-f6ef6ea91e391566fe18e81f": {
+      "chapter": "49",
+      "method": "title-8e",
+      "gist": "Sarcopenia definition",
+      "chapter7": "113",
+      "title7": "Aging of the Muscles and Joints"
+    },
+    "mcq-598f048abb98dabbd6c59fd5": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Pain in delirium"
+    },
+    "mcq-e6b1e9f6cadbead54a532673": {
+      "chapter": "62",
+      "method": "topic-8e",
+      "gist": "Cerebral amyloid angiopathy"
+    },
+    "mcq-01e5bcbd23cbdd830e31b724": {
+      "chapter": "101",
+      "method": "title-8e",
+      "gist": "Late-onset rheumatoid arthritis",
+      "chapter7": "121",
+      "title7": "Rheumatoid Arthritis and Other Autoimmune Diseases"
+    },
+    "mcq-1ca54bc9605d926030d7d932": {
+      "chapter": "75",
+      "method": "title-8e",
+      "gist": "Aortic regurgitation",
+      "chapter7": "78",
+      "title7": "Valvular Heart Disease"
+    },
+    "mcq-1c4533a4cd0e8662d06d60b3": {
+      "chapter": "57",
+      "method": "topic-8e",
+      "gist": "MCI progression"
+    },
+    "mcq-96ca17572f1dc65de0f78ebe": {
+      "chapter": "45",
+      "method": "topic-8e",
+      "gist": "Dizziness differential"
+    },
+    "mcq-2248e492e6c2e7ba57331629": {
+      "chapter": "105",
+      "method": "title-8e",
+      "gist": "CURB-65",
+      "chapter7": "126",
+      "title7": "Pneumonia"
+    },
+    "mcq-f547478edb34790220a0c2ec": {
+      "chapter": "105",
+      "method": "title-8e",
+      "gist": "Pneumonia antibiotics",
+      "chapter7": "126",
+      "title7": "Pneumonia"
+    },
+    "mcq-709d9ab5d0c401eb1452d6ac": {
+      "chapter": "42",
+      "method": "topic-8e",
+      "gist": "Frailty and dialysis"
+    },
+    "mcq-bec9f7bc700b6732cb9a08cd": {
+      "chapter": "44",
+      "method": "topic-8e",
+      "gist": "Drugs and sleep"
+    },
+    "mcq-f1b068fb860ad775dde65af8": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Alzheimer risk factors"
+    },
+    "mcq-4b2eecbd346cf984c3b9e3ed": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Depression and cognition"
+    },
+    "mcq-9ede49a4be37835024268ced": {
+      "chapter": "22",
+      "method": "topic-8e",
+      "gist": "Prescribing cascade"
+    },
+    "mcq-c0cc138e1a6ccfd5eaa9fa9d": {
+      "chapter": "60",
+      "method": "topic-8e",
+      "gist": "DICE dementia behavior framework"
+    },
+    "mcq-04ea2ac93db30b1025979f93": {
+      "chapter": "42",
+      "method": "topic-8e",
+      "gist": "Fried frailty criteria"
+    },
+    "mcq-4aa2c99dfcccf398fd3aa8c9": {
+      "chapter": "87",
+      "method": "topic-8e",
+      "gist": "Colonic pseudo-obstruction"
+    },
+    "mcq-c5345b7ff1fe72dfb2afcbb8": {
+      "chapter": "47",
+      "method": "title-8e",
+      "gist": "Finasteride adverse effects",
+      "chapter7": "53",
+      "title7": "Incontinence"
+    },
+    "mcq-f3014e4124339403b1e47209": {
+      "chapter": "105",
+      "method": "topic-8e",
+      "gist": "Pneumonia discharge"
+    },
+    "mcq-93ed9b58f5e9451decd9ae85": {
+      "chapter": "55",
+      "method": "topic-8e",
+      "gist": "Rehabilitation candidacy"
+    },
+    "mcq-f36a867b1cc82a728769c382": {
+      "chapter": "55",
+      "method": "title-8e",
+      "gist": "Walking aid selection",
+      "chapter7": "29",
+      "title7": "Rehabilitation"
+    },
+    "mcq-c24f583e2f83fe771a93990b": {
+      "chapter": "43",
+      "method": "topic-8e",
+      "gist": "Home fall prevention"
+    },
+    "mcq-910c7b9e34f0328d4580d477": {
+      "chapter": "59",
+      "method": "topic-8e",
+      "gist": "Alzheimer investigations"
+    },
+    "mcq-e2a9158c86980c885a07c5d2": {
+      "chapter": "102",
+      "method": "topic-8e",
+      "gist": "Lumbar spinal stenosis"
+    },
+    "mcq-dcd1c4f9584716e2e478c212": {
+      "chapter": "59",
+      "method": "title-8e",
+      "gist": "Cholinesterase inhibitor bradycardia",
+      "chapter7": "66",
+      "title7": "Dementia Including Alzheimer Disease"
+    },
+    "mcq-72e3ae0b41e7da23ee8ad9df": {
+      "chapter": "80",
+      "method": "topic-8e",
+      "gist": "Respiratory aging"
+    },
+    "mcq-77b00818873a0ab6f67a6a08": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Antidepressants and QT"
+    },
+    "mcq-663fcbfa80f7875e874f04c2": {
+      "chapter": "60",
+      "method": "topic-8e",
+      "gist": "Antipsychotic anticholinergic effects"
+    },
+    "mcq-5b7cd8474f47b3387f03b012": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Complicated grief"
+    },
+    "mcq-b50ef7b89d34aea2228e11f4": {
+      "chapter": "1",
+      "method": "topic-8e",
+      "gist": "Diet and longevity",
+      "hold": "8e chapter 1 has no Read page in this release"
+    },
+    "mcq-efa1a6064be7ba2a539f8ad4": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Antidepressant titration"
+    },
+    "mcq-48b3e914fdc09c76a0914ec8": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Capacity during delirium"
+    },
+    "mcq-d764e07a9fdb51c47a768144": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Delirium prognosis"
+    },
+    "mcq-f121837cfb50e262575eef98": {
+      "chapter": "73",
+      "method": "title-8e",
+      "gist": "Cardiovascular aging",
+      "chapter7": "75",
+      "title7": "Effects of Aging on Cardiovascular Structure and Function"
+    },
+    "mcq-644ec3dbed6cc9d59591d245": {
+      "chapter": "82",
+      "method": "topic-8e",
+      "gist": "Renal aging"
+    },
+    "mcq-7d142f5429d687f80e6f9eef": {
+      "chapter": "86",
+      "method": "topic-8e",
+      "gist": "Pancreatic aging",
+      "hold": "8e chapter 86 has no Read page in this release"
+    },
+    "mcq-3cb8fac0718a2905aacae94c": {
+      "chapter": "106",
+      "method": "topic-8e",
+      "gist": "Urine culture before procedures"
+    },
+    "mcq-7fdc07afc2be6fd590641b66": {
+      "chapter": "47",
+      "method": "topic-8e",
+      "gist": "Bladder aging"
+    },
+    "mcq-f365a90a91b0e154885b1034": {
+      "chapter": "1",
+      "method": "topic-8e",
+      "gist": "Longevity genetics",
+      "hold": "8e chapter 1 has no Read page in this release"
+    },
+    "mcq-d0c122ff80001a3a8a9c3490": {
+      "chapter": "69",
+      "method": "topic-8e",
+      "gist": "Palliative dyspnea"
+    },
+    "mcq-e912594a9fb26110b2414061": {
+      "chapter": "60",
+      "method": "topic-8e",
+      "gist": "Citalopram dose limitation"
+    },
+    "mcq-77c63ac1cd72982a0e62f19f": {
+      "chapter": "68",
+      "method": "topic-8e",
+      "gist": "Opioid counseling"
+    },
+    "mcq-5e8b2616064c7017b1a9e357": {
+      "chapter": "30",
+      "method": "title-8e",
+      "gist": "Medication-related appetite loss",
+      "chapter7": "34",
+      "title7": "Nutrition and Obesity"
+    },
+    "mcq-e21515dd83a262fc0568e173": {
+      "chapter": null,
+      "method": "topic-8e",
+      "gist": "Vitamins and comorbid disease",
+      "hold": "Mixed Hazzard/GRS official reference; left untouched"
+    },
+    "mcq-75f20a243f65f847ffef005f": {
+      "chapter": "63",
+      "method": "title-8e",
+      "gist": "Lewy body dementia criteria",
+      "chapter7": "68",
+      "title7": "Other Neurodegenerative Disorders"
+    },
+    "mcq-5bf331fde8ae2c6f9f86f24b": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Lewy body dementia diagnosis"
+    },
+    "mcq-06ed2999f88c1ab0c78b66e4": {
+      "chapter": "52",
+      "method": "topic-8e",
+      "gist": "Nonpharmacologic osteoarthritis care"
+    },
+    "mcq-6c76daed1c0fae0916954643": {
+      "chapter": "53",
+      "method": "topic-8e",
+      "gist": "Depression after hip fracture"
+    },
+    "mcq-241d17b10ca8797e300714dc": {
+      "chapter": "65",
+      "method": "topic-8e",
+      "gist": "Antidepressant selection"
+    },
+    "mcq-ac5dbf93b93126b7b23d4967": {
+      "chapter": "58",
+      "method": "topic-8e",
+      "gist": "Delirium evaluation"
+    },
+    "mcq-39daaaaa01ff78a8a4d73bcf": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Frontotemporal dementia cognition"
+    },
+    "mcq-98b49863a810b2eb913c19a8": {
+      "chapter": "63",
+      "method": "topic-8e",
+      "gist": "Parkinson dementia risk"
+    },
+    "mcq-a41da8d2368fbd84594bf843": {
+      "chapter": "102",
+      "method": "title-8e",
+      "gist": "Back pain red flags",
+      "chapter7": "122",
+      "title7": "Back Pain and Spinal Stenosis"
+    }
+  }
+}

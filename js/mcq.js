@@ -243,8 +243,13 @@ window.HazzardMCQ = (() => {
       if(q.requiredReadingNote)html+='<p class="mcq-source-note" role="note">'+escape(q.requiredReadingNote)+'</p>';
       if(!q.requiredCard&&([...assigned,String(q.chapter)].some(c=>['2','3','4','5','6','34','62'].includes(c))||membership(q).includes(51)))html+='<p class="mcq-source-note" role="note">chapter not on the 2026 required list</p>';
       if(ref){
-        const unmapped=q.sourceType==='Hazzard'&&ref.status!=='resolved';
+        const chapterLinked=['title-8e','topic-8e'].includes(ref.status);
+        const unmapped=q.sourceType==='Hazzard'&&ref.status!=='resolved'&&!chapterLinked;
         html+='<p class="meta">'+escape(HazzardEvidence.sittingLabel(ref.sitting))+' paper'+(unmapped?(q.edition===7?' · 7e source: not mapped into this 8e reader':' · 8e page not mapped'):'')+'</p>';
+        if(chapterLinked){
+          const c=ref.chapters[0],method=ref.status==='title-8e'?'7e ch '+ref.chapter7+' -> 8e ch '+c+' ('+chapterTitles[c]+')':'topic match';
+          html+='<p class="meta"><a class="mcq-chapter-link" href="?chapter='+encodeURIComponent(c)+'&amp;examBack=1&amp;chapterTop=1">'+escape(ref.reference+' - opens the 8e chapter ('+method+')')+'</a></p>';
+        }
         for(const p of ref.pages)html+=p.available?'<button class="mcq-page-link" data-page="'+p.page+'">Open page '+p.page+'</button>':'<span class="mcq-page-unavailable">Page '+p.page+' · chapter '+escape(p.chapter||'?')+' unavailable in reader</span>';
         const chapters=q.requiredCard?[]:assigned;
         for(const c of chapters){
