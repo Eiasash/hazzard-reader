@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v82",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T11:12:40.052511+00:00",
+      "changes": [
+        "Where sources disagree, explanations now show the official answer first and current guidelines second."
+      ]
+    },
+    {
       "version": "v81",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T10:20:04.643087+00:00",

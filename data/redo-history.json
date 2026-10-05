@@ -6424,6 +6424,286 @@
       "sitting": "2020-Subspec",
       "number": 11,
       "release": "v81"
+    },
+    {
+      "id": "mcq-6cd2288bce5f4bc9856bf941",
+      "label": "2020 Q24",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 24,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-9512d5398ddbd032e93d9aa1",
+      "label": "2020 Q59",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 59,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-25977eff884454c1df2ec0a8",
+      "label": "2020 Q61",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 61,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-1b9947447ef263b529e44bd0",
+      "label": "2020 Q62",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 62,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-a699e7fd3c5f532783da5870",
+      "label": "2020 Q65",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 65,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-5f5bd52885b3e44f366df72b",
+      "label": "2020 Q92",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 92,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-e1d465c64af524a488a79aac",
+      "label": "2020 Q94",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 94,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-1fc7887b9f88109afaaaf18b",
+      "label": "2020 Q98",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 98,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-5a499e769081989f66f37ce2",
+      "label": "2021-Dec Q48",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2021-Dec-Subspec",
+      "number": 48,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-80b1b47e42e14b119b805b9f",
+      "label": "2021-Dec Q55",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2021-Dec-Subspec",
+      "number": 55,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-09467962fb342d44fd6b55fc",
+      "label": "2021-Dec Q95",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2021-Dec-Subspec",
+      "number": 95,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-6ba05d11f3ef3af2f94b0786",
+      "label": "2021-Dec Q97",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2021-Dec-Subspec",
+      "number": 97,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-45b29368078d5d087a1a0b91",
+      "label": "2023-Jun Q7",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2023-Jun-Subspec",
+      "number": 7,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-18c32735090147ca21409515",
+      "label": "2023-Jun Q42",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2023-Jun-Subspec",
+      "number": 42,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-e3682940da67f696841ee7d2",
+      "label": "2023-Jun Q68",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2023-Jun-Subspec",
+      "number": 68,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-92a6c079601ca0714a4342c5",
+      "label": "2024-May Q16",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-May-Subspec",
+      "number": 16,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-edd8a3bd4e1d30138e1e61de",
+      "label": "2024-May Q45",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-May-Subspec",
+      "number": 45,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-f6a71ecfcb071e0bd0b70bca",
+      "label": "2024-May Q63",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-May-Subspec",
+      "number": 63,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-63bf3798074f1dec36283b45",
+      "label": "2024-Sep Q5",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-Sep-Subspec",
+      "number": 5,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-2f9b0a4a271f750ea9bfb769",
+      "label": "2024-Sep Q21",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-Sep-Subspec",
+      "number": 21,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-4641bad3c4f4169ea022ed51",
+      "label": "2024-Sep Q94",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-Sep-Subspec",
+      "number": 94,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-2fdd846e83242323d98210d5",
+      "label": "2026-Jun Q2",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2026-Jun-Subspec",
+      "number": 2,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-a1dae018a6c6f55cc5b317e8",
+      "label": "2026-Jun Q73",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2026-Jun-Subspec",
+      "number": 73,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-dc6cb801b618efb366d202a9",
+      "label": "2026-Jun Q100",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2026-Jun-Subspec",
+      "number": 100,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-8d11851067332e73d676c0a9",
+      "label": "2025-Jun Q57",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2025-Jun-Subspec",
+      "number": 57,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-4bec111cf773419535c13cb7",
+      "label": "2025-Jun Q61",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2025-Jun-Subspec",
+      "number": 61,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-1f85de60d97070cafa120390",
+      "label": "2025-Jun Q77",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2025-Jun-Subspec",
+      "number": 77,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-d99b606239fb4820b0b484db",
+      "label": "2020 Q2",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 2,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-5eb797ed9d3cec22b634c30d",
+      "label": "2020 Q82",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 82,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-90bbae3292be580263244c30",
+      "label": "2021-Dec Q32",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2021-Dec-Subspec",
+      "number": 32,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-f0cf190da9e686f97d19c9b9",
+      "label": "2021-Dec Q40",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2021-Dec-Subspec",
+      "number": 40,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-089f5e7bee6ff0439beb7058",
+      "label": "2024-Sep Q87",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2024-Sep-Subspec",
+      "number": 87,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-7425037b62dd263eb00a7790",
+      "label": "2025-Jun Q91",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2025-Jun-Subspec",
+      "number": 91,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-1eb064d03b4a7940c7ca9ab5",
+      "label": "2026-Jun Q97",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2026-Jun-Subspec",
+      "number": 97,
+      "release": "v82"
+    },
+    {
+      "id": "mcq-e37ba64de1c10f62779e63e7",
+      "label": "2020 Q11",
+      "changedAt": "2026-10-05T11:12:40.052511+00:00",
+      "sitting": "2020-Subspec",
+      "number": 11,
+      "release": "v82"
     }
   ]
 }
