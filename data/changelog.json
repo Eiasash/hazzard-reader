@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v88",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T13:23:08.099479+00:00",
+      "changes": [
+        "Full Read chapters added for 11 more exam-cited chapters."
+      ]
+    },
+    {
       "version": "v87",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T13:04:20.891568+00:00",
