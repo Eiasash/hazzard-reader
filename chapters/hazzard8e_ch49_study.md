@@ -2,7 +2,7 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 
 # Chapter 49 Study: Muscle Aging and Sarcopenia
 
-**Study page only - full chapter not in the reader**
+**Full chapter available: [Read Chapter 49](?chapter=49).**
 
 *Fast build from the book; not lane-reviewed.*
 

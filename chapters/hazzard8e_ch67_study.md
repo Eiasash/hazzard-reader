@@ -2,7 +2,7 @@ Study summary of Chapter 67; the book is the reference.
 
 # Chapter 67 Study: Palliative Care and Special Management Issues
 
-**Study summary only - read the full chapter in the book, pp 1045-1054.**
+**Full chapter available: [Read Chapter 67](?chapter=67).**
 
 Fast build from the book; not lane-reviewed.
 
