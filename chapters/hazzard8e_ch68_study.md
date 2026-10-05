@@ -175,3 +175,18 @@ Up to 12 months in some studies (p1067).
 
 </details>
 
+
+## Table 68-6 — verbatim book excerpt
+
+<a id="p1061"></a>
+
+Hazzard 8e, p.1061 · [Read source](?chapter=68#p1061)
+
+> | DRUG | INITIAL DOSING | COMMENTS |
+> |---|---|---|
+> | Oxycodone, immediate release (Roxicodone) | 5–10 mg every 4–6 hours | Titrate to comfort: continuous use for constant pain and intermittent use for episodic pain |
+> | Fentanyl, transdermal (Duragesic) | 25-mcg patch (every-72-hour dosing) | Should be avoided in opioid-naive patients<br>Dose dependent on previous 24-hour total morphine milligram equivalent dose |
+
+![Hazzard 8e, Table 68-6, p.1061](hazzard8e_ch68_table68-6_p1061.png)
+
+[2023-Jun Q38](?chapter=bank&q=mcq-d4597da4db93e15793da0f6a) · [2025-Jun Q14 (page citation)](?chapter=bank&q=mcq-899b765d3570c519f87c4cd6)

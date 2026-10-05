@@ -209,3 +209,75 @@ The actual exam questions and answer keys as printed in the chapter, reproduced 
 > **As printed on the paper.** "Quentapine" and "Bopropion" are the paper's spellings; the book prints "Quetiapine" (Table 60-8, p928) and "Bupropion" (Table 60-9, p929).
 
 > Book: p929: Selective serotonin reuptake inhibitors "are considered first-line therapy for late-life depression and are generally well tolerated compared to other classes of antidepressants such as TCAs." Table 60-9 (p929) lists sertraline under "SELECTIVE SEROTONIN REUPTAKE INHIBITORS" (initial daily dose 25 mg, maximum 200 mg).
+
+## Table 60-6 — verbatim book excerpt
+
+<a id="p926"></a>
+
+Hazzard 8e, p.926 · [Read source](?chapter=60#p926)
+
+> **Disorientation or confusion with person/object recognition**
+>
+> - Provide reminders, cues, or prompts
+> - Identify individuals if patient does not remember names or has aphasia
+> - Use environmental cues (eg, calendars, keeping blinds raised during the day, keeping lights off at night)
+> - Keep objects for individual tasks in separate, labeled containers
+> - Use simple visual reminders (eg, pictures, arrows pointing to the bathroom)
+>
+> **Confusion/overwhelmed with tasks and environment**
+>
+> - Eliminate noise and distractions while patient is engaged in an activity
+> - Break each task into very simple steps
+> - Offer simple choices (no more than two at a time)
+> - Provide simple verbal commands, using only one or two steps at a time
+> - Remove unnecessary items from the room while patients is engaged in a task
+> - Provide daily, structured, and predictable routines
+>
+> **Wandering or inability to respond appropriately to an emergency**
+>
+> - Provide 24-hour supervision for the patient
+> - Place locks on all exits
+> - Develop an emergency plan. Inform neighbors, fire department, and police of the patient’s condition
+> - Provide patient with medical alert and safe return ID bracelets
+>
+> **Nighttime wakefulness**
+>
+> - Encourage good sleep hygiene (avoid stimulating activity, reduce caffeinated and alcoholic beverages that may affect sleep, limit daytime napping)
+> - Create a quiet routine for bedtime
+> - Evaluate environment for modifiable elements, such as temperature, noise level, light, shadows, and bed comfort
+>
+> **Anxiety, irritability, repetitive questioning, frustration**
+>
+> - Use a relaxed and reassuring voice and light touch to help calm or redirect
+> - Avoid negative words and tone
+> - Allow patient sufficient time to respond to questions
+> - Help patient with aphasia find the words to express him/herself
+> - Allow extra time for tasks and activities
+> - Distract the patient as necessary
+> - Understand that behaviors are not always intentional
+>
+> **Boredom and restlessness**
+>
+> - Create a structured, daily schedule that includes entertainment and exercise
+> - Provide meaningful activities that draw on preserved capabilities and interests
+> - Engage patients in activities involving repetitive motion (eg, folding towels, putting items in containers)
+>
+> **Delusions and hallucinations**
+>
+> - Go along with patient’s point of view of what is true. Avoid arguing or trying to reason as this can make the situation worse
+> - Ignore symptoms that are not distressing the person
+> - Distract the patient as necessary
+>
+> **Apathy**
+>
+> - Give the patient a job at home, such as folding laundry
+> - Focus on the process of doing things rather than the results
+>
+> **Disinhibition**
+>
+> - Distract from an inappropriate topic by calmly and firmly changing the subject
+> - Avoid television shows with violence or sexual content
+
+
+
+[2026-Jun Q9 (page citation)](?chapter=bank&q=mcq-2da4c054f7061a52e843c385)

@@ -224,3 +224,27 @@ The actual exam questions and keys as printed in this chapter's source file (rep
 - ד. Start antibiotic treatment
 
 > Book: p701: "Constipation and resultant fecal impaction are common in both acutely and chronically ill older patients." "Relief of a fecal impaction and effective treatment of constipation can lead to resolution of urinary, as well as fecal, incontinence". Table 47-3 (p702), "Stool impaction": "Disimpaction; appropriate use of bulk-forming agents and laxatives if necessary; implement high fiber intake, adequate mobility, and fluid intake". Outside the pages the examiners cited, pp716–717: "Hard stool in a fecal impaction irritates the rectum and results in the production of mucus and fluid." "This fluid leaks around the mass of impacted stool and precipitates incontinence."
+
+## Figure 47-1 — verbatim book excerpt
+
+<a id="p700"></a>
+
+Hazzard 8e, p.700 · [Read source](?chapter=47#p700)
+
+> **Sympathetic (T11–L2)**
+>
+> Bladder relaxation through inhibition of parasympathetic tone and increased β adrenergic tone.
+>
+> Contraction of bladder neck and urethral contraction through increased α adrenergic tone.
+>
+> **Parasympathetic (S2–S4)**
+>
+> Bladder contraction through cholinergic innervations
+>
+> **Somatic (S2–S4)**
+>
+> Contraction of pelvic floor muscles
+
+![Hazzard 8e, Figure 47-1, p.700](hazzard8e_ch47_figure47-1.png)
+
+[2025-Jun Q66](?chapter=bank&q=mcq-30f0309dc8329f9569c19e59)

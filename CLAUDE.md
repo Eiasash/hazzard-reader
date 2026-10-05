@@ -2,8 +2,9 @@
 
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
-## State (04 Oct 2026)
-- Live at cache **v69**. 32 full chapters with study pages, five additional study-only chapters (15, 27, 49, 73, 82), and Israeli law (`law` / `laws`). The five new pages are fast builds from the book, not lane-reviewed.
+## State (05 Oct 2026)
+- **v83:** 19 source-page crops for 17 exam-cited items, nine verbatim source panels, and links to seven existing Study crops. Thirteen additional image-only Study destinations. Question data and storage unchanged.
+- Historical v69 snapshot: 32 full chapters with study pages, five additional study-only chapters (15, 27, 49, 73, 82), and Israeli law (`law` / `laws`). The five new pages are fast builds from the book, not lane-reviewed.
 - **v69:** Required articles panel beside law cards: supplied IWG/VASCOG cards, AA 2024 XML summary, JAMA 2024 prevention/treatment summary, plus Beers read-directly and paywalled hearing-loss entries. Six exact named-article question links. FIM is partial, supplemented from rendered Hazzard Table 50-2, p.743 (PDF p.777), preserving the printed 0–7 score; full item list/subtotals unavailable. Chapters, past-paper content/IDs and storage unchanged.
 - **v68:** Fifteen numbered IMA required-reading cards from the supplied official files, preserving the seven older cards. Brookdale 2024 no. 26 uses printed-page citations. FIM scoring guide remains a source gap. Dec 2021 Q95 key stays gimel; explanation withdrawn after consolidated-statute review. Simulation defaults to four hours; user overrides and storage unchanged.
 - **v67:** Compared all 48 official image questions with numbered IMA album figures (2022-2026) or rendered papers (2020/2021). Corrected June 2023 Q12/Q29/Q30/Q32 and May 2024 Q35/Q69; retained verified v66-r1 crops. Image-only catalog overrides preserve imports; all question text, keys, IDs, scoring and storage unchanged.

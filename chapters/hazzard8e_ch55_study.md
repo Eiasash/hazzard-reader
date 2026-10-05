@@ -172,3 +172,20 @@ Greater than 90 degrees of hip flexion (also avoid leg crossing and excessive in
 
 </details>
 
+
+## Table 55-4: Occupational therapist — verbatim book excerpt
+
+<a id="p823"></a>
+
+Hazzard 8e, p.823 · [Read source](?chapter=55#p823)
+
+> **Occupational therapist**
+>
+> - Evaluate self-care skills and other activities of daily living
+> - Home assessment
+> - Self-care skills training; recommendations and training in use of assistive technology
+> - Fabrication of splints
+
+
+
+[2025-Jun Q94](?chapter=bank&q=mcq-e494106a09620abcbc2a7e06)

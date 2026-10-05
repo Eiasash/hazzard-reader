@@ -196,3 +196,21 @@ Clindamycin 600 mg PO (or cephalexin 2 g PO), given 1 hour before the procedure 
 > Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
 
 </details>
+
+## Table 75-2 — verbatim book excerpt
+
+<a id="p1152"></a>
+
+Hazzard 8e, p.1152 · [Read source](?chapter=75#p1152)
+
+> **Indications for valve replacement in aortic stenosis**
+>
+> - Symptomatic patients with severe aortic stenosis
+> - Asymptomatic patients with severe aortic stenosis and left ventricular dysfunction (ejection fraction < 50%)
+> - Asymptomatic patients with severe aortic stenosis undergoing other cardiac surgery
+> - Symptomatic patients with low-flow/low-gradient severe aortic stenosis with left ventricular dysfunction
+> - Symptomatic patients with low-flow/low-gradient severe aortic stenosis and LVEF > 50%, if clinical, hemodynamic, and anatomic data support valve obstruction as the most likely cause of symptoms
+
+
+
+[2023-Jun Q97](?chapter=bank&q=mcq-76fb4ce0edbbab9f1ac529f2)

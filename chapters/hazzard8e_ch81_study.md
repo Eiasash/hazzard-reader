@@ -180,3 +180,35 @@ BODE Index score > 5, and FEV1 and DLCO both < 25% predicted, among other criter
 FEV1 < 30% predicted, or FEV1 Z-score < –2.55, helps identify patients at risk for uncontrolled symptoms from advanced COPD; however, FEV1 alone is not sufficient to identify patients who would benefit from palliative care (p1262).
 
 </details>
+
+## Table 81-13 — verbatim book excerpt
+
+<a id="p1260"></a>
+
+Hazzard 8e, p.1260 · [Read source](?chapter=81#p1260)
+
+> | Exacerbation severity | Antibiotics |
+> |---|---|
+> | Mild | None |
+> | Moderate<sup>a,b</sup> | Macrolide, doxycycline, cephalosporin, amoxicillin/clavulanate, bactrim, fluoroquinolone |
+> | Severe<sup>c,d</sup> | Fluoroquinolone, antipseudomonal penicillin, cephalosporin (third generation), vancomycin (if concern for MRSA) |
+>
+> aModerate exacerbations are accompanied by at least two of the following: increased dyspnea, sputum volume, and sputum purulence—in the absence of respiratory failure. bSevere exacerbations are accompanied by at least two of the following: increased dyspnea, sputum volume, and sputum purulence—concurrent with respiratory failure. cIf risk factors for *Pseudomonas*, use ciprofloxacin and obtain sputum culture. dIf risk factors for *Pseudomonas*, use pipercillin-tazobactam or ceftazidime, and obtain sputum culture. If risk factors for MRSA, check nasal MRSA swab and obtain sputum culture.
+
+
+
+[2024-Sep Q68](?chapter=bank&q=mcq-5db8763148c6144657ed06fc)
+
+## Table 81-14: Nausea/vomiting — verbatim book excerpt
+
+<a id="p1263"></a>
+
+Hazzard 8e, p.1263 · [Read source](?chapter=81#p1263)
+
+> | SYMPTOM | PREVALENCE | THERAPIES | NOTES |
+> |---|---|---|---|
+> | Nausea/vomiting | | Haloperidol | |
+
+
+
+[2024-Sep Q11](?chapter=bank&q=mcq-765f7737231c2578f2a85a38)
