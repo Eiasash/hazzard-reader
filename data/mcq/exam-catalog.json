@@ -154,7 +154,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is C; the original source text is being checked.\n\nלפי המאמר של Michele Cournan, ההבדל המרכזי בין שני המדדים נעוץ במטרת המדידה: מדד ה-Barthel תוכנן למדוד את מה שהמטופל **\"יכול לעשות\"** (can do) – כלומר, יכולת תפקודית פוטנציאלית – בעוד שמדד ה-FIM (Functional Independence Measure) תוכנן למדוד את **\"נטל הטיפול\"** (burden of care) – כלומר, כמה סיוע בפועל נדרש מהצוות הטיפולי או המטפלים. ה-FIM מתמקד ברמת העזרה שהמטופל צורך בפועל בביצוע פעילויות, ולכן הוא משקף את העומס על המערכת הטיפולית. לכן תשובה C היא הנכונה.\n\nתשובה A שגויה מכיוון שה-Barthel קדם ל-FIM ואינו מבוסס עליו; למעשה, ה-FIM פותח כשיפור וכהרחבה של מדדים קודמים כולל ה-Barthel. תשובה B הופכת את הקשר – מייחסת ל-FIM את מדידת \"יכול לעשות\" ול-Barthel את \"נטל הטיפול\", וזו טעות. תשובה D שגויה מכיוון שהמאמר אינו טוען שה-Barthel בעל אמינות גבוהה יותר מה-FIM; ה-FIM נחשב למדד בעל תקפות ואמינות מבוססות היטב בשיקום.\n\n**פנינה קלינית:** ההבחנה בין \"מה המטופל מסוגל לעשות\" לבין \"כמה עזרה הוא צריך בפועל\" היא קריטית בשיקום גריאטרי – שני המושגים אינם זהים ומשפיעים על תכנון שחרור שונה."
+      "explanation": "לפי המאמר של Michele Cournan, ההבדל המרכזי בין שני המדדים נעוץ במטרת המדידה: מדד ה-Barthel תוכנן למדוד את מה שהמטופל **\"יכול לעשות\"** (can do) – כלומר, יכולת תפקודית פוטנציאלית – בעוד שמדד ה-FIM (Functional Independence Measure) תוכנן למדוד את **\"נטל הטיפול\"** (burden of care) – כלומר, כמה סיוע בפועל נדרש מהצוות הטיפולי או המטפלים. ה-FIM מתמקד ברמת העזרה שהמטופל צורך בפועל בביצוע פעילויות, ולכן הוא משקף את העומס על המערכת הטיפולית. לכן תשובה C היא הנכונה.\n\nתשובה A שגויה מכיוון שה-Barthel קדם ל-FIM ואינו מבוסס עליו; למעשה, ה-FIM פותח כשיפור וכהרחבה של מדדים קודמים כולל ה-Barthel. תשובה B הופכת את הקשר – מייחסת ל-FIM את מדידת \"יכול לעשות\" ול-Barthel את \"נטל הטיפול\", וזו טעות. תשובה D שגויה מכיוון שהמאמר אינו טוען שה-Barthel בעל אמינות גבוהה יותר מה-FIM; ה-FIM נחשב למדד בעל תקפות ואמינות מבוססות היטב בשיקום.\n\n**פנינה קלינית:** ההבחנה בין \"מה המטופל מסוגל לעשות\" לבין \"כמה עזרה הוא צריך בפועל\" היא קריטית בשיקום גריאטרי – שני המושגים אינם זהים ומשפיעים על תכנון שחרור שונה.",
+      "explanationReviewNote": "the official key is C; the original source text is being checked."
     },
     "21": {
       "id": "mcq-e37ba64de1c10f62779e63e7",
@@ -250,7 +251,8 @@
       "fromBasic": false,
       "duplicates": [],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "Explanation under review: the official key is C; the original source text is being checked.\n\n## הסבר קליני\n\n**התשובה הנכונה היא אפשרות 2**: מרותק לכיסא גלגלים + ירידה במשקל של יותר מ-10% ב-6 חודשים.\n\nעל פי **קריטריוני Medicare Hospice** ומאמר Mitchell על דמנציה מתקדמת, **שילוב של ירידה תפקודית חמורה עם ירידה משמעותית במשקל** מהווה אינדיקטור פרוגנוסטי חזק לתוחלת חיים קצרה. **ירידה במשקל של יותר מ-10% תוך 6 חודשים** משקפת **קטבוליזם מואץ, תת-תזונה חלבון-קלורית והידרדרות כללית** של המצב הפיזיולוגי. כאשר זה משולב עם **ירידה תפקודית חמורה** (ריתוק לכיסא גלגלים המשקף **FAST stage 7** ומעלה), הפרוגנוזה מצביעה על פחות מ-6 חודשים.\n\n**אפשרות 0** מתארת תלות ברחצה עם אירוע בודד של דלקת ריאות שאיפה - לא מספיק לקריטריון hospice ללא אירועים חוזרים.\n\n**אפשרות 1** כוללת MMSE נמוך עם שני אירועי חום, אך ללא הוכחה לאירועים רפואיים חוזרים חמורים או ירידה תזונתית משמעותית.\n\n**אפשרות 3** מציגה ליקוי קוגניטיבי חמור עם זיהום בודד - לא עומדת בקריטריונים המלאים ללא ירידה תפקודית או תזונתית מתועדת.\n\n**מקור**: Hazzard's Geriatric Medicine and Gerontology, , פרק Palliative Care in Advanced Dementia."
+      "explanation": "## הסבר קליני\n\n**התשובה הנכונה היא אפשרות 2**: מרותק לכיסא גלגלים + ירידה במשקל של יותר מ-10% ב-6 חודשים.\n\nעל פי **קריטריוני Medicare Hospice** ומאמר Mitchell על דמנציה מתקדמת, **שילוב של ירידה תפקודית חמורה עם ירידה משמעותית במשקל** מהווה אינדיקטור פרוגנוסטי חזק לתוחלת חיים קצרה. **ירידה במשקל של יותר מ-10% תוך 6 חודשים** משקפת **קטבוליזם מואץ, תת-תזונה חלבון-קלורית והידרדרות כללית** של המצב הפיזיולוגי. כאשר זה משולב עם **ירידה תפקודית חמורה** (ריתוק לכיסא גלגלים המשקף **FAST stage 7** ומעלה), הפרוגנוזה מצביעה על פחות מ-6 חודשים.\n\n**אפשרות 0** מתארת תלות ברחצה עם אירוע בודד של דלקת ריאות שאיפה - לא מספיק לקריטריון hospice ללא אירועים חוזרים.\n\n**אפשרות 1** כוללת MMSE נמוך עם שני אירועי חום, אך ללא הוכחה לאירועים רפואיים חוזרים חמורים או ירידה תזונתית משמעותית.\n\n**אפשרות 3** מציגה ליקוי קוגניטיבי חמור עם זיהום בודד - לא עומדת בקריטריונים המלאים ללא ירידה תפקודית או תזונתית מתועדת.\n\n**מקור**: Hazzard's Geriatric Medicine and Gerontology, , פרק Palliative Care in Advanced Dementia.",
+      "explanationReviewNote": "the official key is C; the original source text is being checked."
     },
     "27": {
       "id": "mcq-a7176a5f42d0f58dc5e4419b",
@@ -368,7 +370,7 @@
       "paperPage": 7,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל א׳, ג׳, ד׳. במהדורה 8 חום עם מאקרוהמטוריה מופיע בקריטריוני המעקב, אך שינוי במראה השתן לבדו אינו מספיק לקביעת UTI. הקריטריונים למעקב אינם מיועדים כשלעצמם לקבלת החלטות קליניות (Hazzard 8e, עמ׳ 1705).\n\n\n\nExplanation under review: The 8e page supports A; the full rationale for the accepted C and D in this febrile vignette remains unresolved.",
+      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל א׳, ג׳, ד׳. במהדורה 8 חום עם מאקרוהמטוריה מופיע בקריטריוני המעקב, אך שינוי במראה השתן לבדו אינו מספיק לקביעת UTI. הקריטריונים למעקב אינם מיועדים כשלעצמם לקבלת החלטות קליניות (Hazzard 8e, עמ׳ 1705).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0001",
@@ -382,7 +384,8 @@
         ],
         "edition": 8
       },
-      "q": "לדיירת במחלקה סיעודית, בת 85, נלקחה תרבית שתן לאחר הופעת חום 38.2. מה מבין הסימפטומים/סימנים הבאים (בנוסף לחום) מחשיד ל זיהום בדרכי השתן בחולה זו?"
+      "q": "לדיירת במחלקה סיעודית, בת 85, נלקחה תרבית שתן לאחר הופעת חום 38.2. מה מבין הסימפטומים/סימנים הבאים (בנוסף לחום) מחשיד ל זיהום בדרכי השתן בחולה זו?",
+      "explanationReviewNote": "The 8e page supports A; the full rationale for the accepted C and D in this febrile vignette remains unresolved."
     },
     "35": {
       "id": "mcq-85ecd5f34b95bd4208559b25",
@@ -395,7 +398,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\nהתשובה הנכונה היא B. לפי המאמר \"Management of Acute Hip Fracture\" וההנחיות הגריאטריות המקובלות, שבר צוואר ירך (hip fracture) בקשיש מחייב התערבות כירורגית מוקדמת – עדיף תוך 24-48 שעות מהקבלה – ולאחריה ניוד מוקדם ככל האפשר. Arthroplasty (החלפת מפרק, חלקית או מלאה) היא הטיפול המומלץ בשברים של צוואר הירך (intracapsular fractures) עם תזוזה, במיוחד בחולים מבוגרים שהלכו לפני השבר. ניתוח מוקדם מפחית תמותה, סיבוכים תרומבואמבוליים, פצעי לחץ, דלקות ריאה ומשך אשפוז. חולה זה, למרות המגבלה שלו, היה פונקציונלי עם הליכון – מה שמצדיק ניתוח.\n\nתשובה A שגויה: טיפול שמרני במתיחה לשלושה שבועות נזנח כמעט לחלוטין בגריאטריה בשל שיעורי תחלואה ותמותה גבוהים מאוד הנובעים מאי-ניידות ממושכת (פצעי לחץ, תרומבואמבוליזם, דלת ריאה, דליריום).\n\nתשובה C שגויה: הימנעות מניתוח בשל מגבלת ניידות קודמת אינה מוצדקת. החולה היה ניידי עם הליכון ושמור קוגניטיבית – אלו מדדים התומכים בניתוח. הגישה השמרנית שמורה למקרים קיצוניים של חולים סופניים או שאינם ניידים כלל.\n\nתשובה D שגויה: מיסמור תוך-לשדי (intramedullary nailing) מיועד לשברים אקסטרה-קפסולריים (intertrochanteric/subtrochanteric), לא לשברי צוואר ירך תוך-קפסולריים."
+      "explanation": "התשובה הנכונה היא B. לפי המאמר \"Management of Acute Hip Fracture\" וההנחיות הגריאטריות המקובלות, שבר צוואר ירך (hip fracture) בקשיש מחייב התערבות כירורגית מוקדמת – עדיף תוך 24-48 שעות מהקבלה – ולאחריה ניוד מוקדם ככל האפשר. Arthroplasty (החלפת מפרק, חלקית או מלאה) היא הטיפול המומלץ בשברים של צוואר הירך (intracapsular fractures) עם תזוזה, במיוחד בחולים מבוגרים שהלכו לפני השבר. ניתוח מוקדם מפחית תמותה, סיבוכים תרומבואמבוליים, פצעי לחץ, דלקות ריאה ומשך אשפוז. חולה זה, למרות המגבלה שלו, היה פונקציונלי עם הליכון – מה שמצדיק ניתוח.\n\nתשובה A שגויה: טיפול שמרני במתיחה לשלושה שבועות נזנח כמעט לחלוטין בגריאטריה בשל שיעורי תחלואה ותמותה גבוהים מאוד הנובעים מאי-ניידות ממושכת (פצעי לחץ, תרומבואמבוליזם, דלת ריאה, דליריום).\n\nתשובה C שגויה: הימנעות מניתוח בשל מגבלת ניידות קודמת אינה מוצדקת. החולה היה ניידי עם הליכון ושמור קוגניטיבית – אלו מדדים התומכים בניתוח. הגישה השמרנית שמורה למקרים קיצוניים של חולים סופניים או שאינם ניידים כלל.\n\nתשובה D שגויה: מיסמור תוך-לשדי (intramedullary nailing) מיועד לשברים אקסטרה-קפסולריים (intertrochanteric/subtrochanteric), לא לשברי צוואר ירך תוך-קפסולריים.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "36": {
       "id": "mcq-bcae0dab35a2e9279066d221",
@@ -557,7 +561,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\nהתשובה הנכונה היא שבמקרה של ספק לגבי חיסון קודם, מותר ומומלץ לתת חיסון חוזר לפנאומוקוק. על פי הנחיות משרד הבריאות הישראלי וה-CDC, כאשר תיעוד ההתחסנות אינו ברור, עדיפות המניעה עולה על החשש ממינון כפול. אצל קשישים, דעיכת המערכת החיסונית (immunosenescence) מגדילה את הסיכון לפנאומוניה קשה ולאלח דם, במיוחד עם רקע של אי ספיקת לב, COPD וסוכרת — ולכן ההגנה נחוצה. אפשרות 0 שגויה — PCV13 בלבד אינו מספק; ההסבר ההיסטורי מתאר גם PPSV23 בסדר מתאים. אפשרות 2 שגויה — גיל מתקדם אינו שולל את הצורך בחיסון; ההפך הוא הנכון. אפשרות 3 שגויה — האינדיקציה לחיסון אינה מותנית בהיסטוריה של דלקת ריאות בעבר. (Hazzard's Geriatric Medicine, )"
+      "explanation": "התשובה הנכונה היא שבמקרה של ספק לגבי חיסון קודם, מותר ומומלץ לתת חיסון חוזר לפנאומוקוק. על פי הנחיות משרד הבריאות הישראלי וה-CDC, כאשר תיעוד ההתחסנות אינו ברור, עדיפות המניעה עולה על החשש ממינון כפול. אצל קשישים, דעיכת המערכת החיסונית (immunosenescence) מגדילה את הסיכון לפנאומוניה קשה ולאלח דם, במיוחד עם רקע של אי ספיקת לב, COPD וסוכרת — ולכן ההגנה נחוצה. אפשרות 0 שגויה — PCV13 בלבד אינו מספק; ההסבר ההיסטורי מתאר גם PPSV23 בסדר מתאים. אפשרות 2 שגויה — גיל מתקדם אינו שולל את הצורך בחיסון; ההפך הוא הנכון. אפשרות 3 שגויה — האינדיקציה לחיסון אינה מותנית בהיסטוריה של דלקת ריאות בעבר. (Hazzard's Geriatric Medicine, )",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "46": {
       "id": "mcq-775eea0fe2be25460871ab1d",
@@ -648,7 +653,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is D; the original source text is being checked.\n\n## התשובה הנכונה: ד — מדובר באנמיה של מחלה כרונית. רק שיפור במצבו הזיהומי ישפר את האנמיה בחינת שלב א' בגריאטריה\n\n**למה ד נכונה:**\nהמטופל מציג תמונה אופיינית של anemia of chronic disease (ACD) בהקשר של זיהום MRSA חמור עם פצעי לחץ דרגה 4. הקומבינציה של ברזל נמוך (32), טרנספרין נמוך (152), פריטין גבוה (188), CRP גבוה מאוד (158) ואלבומין נמוך (26) מצביעה על תהליך דלקתי חמור המעכב שחרור ברזל מהמקרופאגים ומפריע לאריתרופואזה. הטיפול העיקרי ב-ACD הוא טיפול במחלת היסוד, וכאן - בזיהום. האנמיה תשתפר עם שיפור הסטטוס הדלקתי.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** MDS נדיר יותר ודורש ציטופניות מרובות או ממצאים דיספלסטיים; התמונה כאן מוסברת היטב על ידי הזיהום החמור והדלקת המערכתית.\n- **ב.** למרות ברזל נמוך, הפריטין גבוה (188) ולא נמוך, והטרנספרין נמוך - ממצאים שמתאימים ל-ACD ולא לחסר ברזל אמיתי; ברזל תוך ורידי לא יעזור כאשר הברזל \"כלוא\" במקרופאגים.\n- **ג.** ביופסיית מח עצם אינה מוצדקת בחולה בן 92 עם דמנציה מתקדמת וזיהום חמור כאשר התמונה הקלינית והמעבדתית אופיינית ל-ACD.\n\n**נקודת המפתח לקשיש:**\nבקשישים שבירים עם זיהומים כרוניים ופצעי לחץ, ACD שכיחה מאוד ויש להימנע מטיפולים אגרסיביים שאינם מוצדקים; פריטין גבוה במצב דלקתי אינו שולל חסר ברזל אך בהקשר הקליני של ספסיס פעיל, הטיפול הוא במקור הדלקת."
+      "explanation": "## התשובה הנכונה: ד — מדובר באנמיה של מחלה כרונית. רק שיפור במצבו הזיהומי ישפר את האנמיה בחינת שלב א' בגריאטריה\n\n**למה ד נכונה:**\nהמטופל מציג תמונה אופיינית של anemia of chronic disease (ACD) בהקשר של זיהום MRSA חמור עם פצעי לחץ דרגה 4. הקומבינציה של ברזל נמוך (32), טרנספרין נמוך (152), פריטין גבוה (188), CRP גבוה מאוד (158) ואלבומין נמוך (26) מצביעה על תהליך דלקתי חמור המעכב שחרור ברזל מהמקרופאגים ומפריע לאריתרופואזה. הטיפול העיקרי ב-ACD הוא טיפול במחלת היסוד, וכאן - בזיהום. האנמיה תשתפר עם שיפור הסטטוס הדלקתי.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** MDS נדיר יותר ודורש ציטופניות מרובות או ממצאים דיספלסטיים; התמונה כאן מוסברת היטב על ידי הזיהום החמור והדלקת המערכתית.\n- **ב.** למרות ברזל נמוך, הפריטין גבוה (188) ולא נמוך, והטרנספרין נמוך - ממצאים שמתאימים ל-ACD ולא לחסר ברזל אמיתי; ברזל תוך ורידי לא יעזור כאשר הברזל \"כלוא\" במקרופאגים.\n- **ג.** ביופסיית מח עצם אינה מוצדקת בחולה בן 92 עם דמנציה מתקדמת וזיהום חמור כאשר התמונה הקלינית והמעבדתית אופיינית ל-ACD.\n\n**נקודת המפתח לקשיש:**\nבקשישים שבירים עם זיהומים כרוניים ופצעי לחץ, ACD שכיחה מאוד ויש להימנע מטיפולים אגרסיביים שאינם מוצדקים; פריטין גבוה במצב דלקתי אינו שולל חסר ברזל אך בהקשר הקליני של ספסיס פעיל, הטיפול הוא במקור הדלקת.",
+      "explanationReviewNote": "the official key is D; the original source text is being checked."
     },
     "51": {
       "id": "mcq-0763892c4fe5cc16609cece1",
@@ -948,7 +954,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\n## הסבר קליני\n\n**השבר המוצג הוא שבר בין-טרוכנטרי (intertrochanteric fracture)** בחולה קשיש תשוש לאחר נפילה.\n\n**התשובה הנכונה: מסמור תוך-לשדי (intramedullary nails)**\n\nלפי Bhandari וחבריו, **מסמור תוך-לשדי הוא הטיפול המועדף בשברים בין-טרוכנטריים**, במיוחד בשברים לא-יציבים או בחולים קשישים תשושים. שיטה זו מספקת יציבות ביומכנית מעולה, מאפשרת העמסה מוקדמת על הגפה, וקשורה בשיעור סיבוכים נמוך יותר.\n\n**פסילת התשובות השגויות:**\n\n- **קיבוע בברגים בלבד (0)**: מתאים רק לשברים תת-קפסולריים לא-עקורים (subcapital non-displaced), לא לשברים בין-טרוכנטריים\n- **החלפת מפרק (2)**: שמורה לשברים תוך-קפסולריים עקורים עם סיכון לנמק אווסקולרי, או למקרים של פתולוגיה מפרקית קיימת\n- **Sliding hip screw (3)**: אמנם אפשרות טובה לשברים בין-טרוכנטריים יציבים, אך מסמור תוך-לשדי מועדף על-פי Bhandari בשל יתרונות ביומכניים\n\nבחולה תשוש, **הטיפול הניתוחי המוקדם והיציבות המיטבית חיוניים** למניעת סיבוכים והחזרה לתפקוד."
+      "explanation": "## הסבר קליני\n\n**השבר המוצג הוא שבר בין-טרוכנטרי (intertrochanteric fracture)** בחולה קשיש תשוש לאחר נפילה.\n\n**התשובה הנכונה: מסמור תוך-לשדי (intramedullary nails)**\n\nלפי Bhandari וחבריו, **מסמור תוך-לשדי הוא הטיפול המועדף בשברים בין-טרוכנטריים**, במיוחד בשברים לא-יציבים או בחולים קשישים תשושים. שיטה זו מספקת יציבות ביומכנית מעולה, מאפשרת העמסה מוקדמת על הגפה, וקשורה בשיעור סיבוכים נמוך יותר.\n\n**פסילת התשובות השגויות:**\n\n- **קיבוע בברגים בלבד (0)**: מתאים רק לשברים תת-קפסולריים לא-עקורים (subcapital non-displaced), לא לשברים בין-טרוכנטריים\n- **החלפת מפרק (2)**: שמורה לשברים תוך-קפסולריים עקורים עם סיכון לנמק אווסקולרי, או למקרים של פתולוגיה מפרקית קיימת\n- **Sliding hip screw (3)**: אמנם אפשרות טובה לשברים בין-טרוכנטריים יציבים, אך מסמור תוך-לשדי מועדף על-פי Bhandari בשל יתרונות ביומכניים\n\nבחולה תשוש, **הטיפול הניתוחי המוקדם והיציבות המיטבית חיוניים** למניעת סיבוכים והחזרה לתפקוד.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "2396": {
       "id": "mcq-04182e576b08982e7e75a1af",
@@ -1026,7 +1033,8 @@
       "fromBasic": false,
       "duplicates": [],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "Explanation under review: the official key is A; the original source text is being checked.\n\nOfficial IMA key: א. IMA 2020 Subspecialty official answer key, Q62. The conflicting bank explanation is hidden."
+      "explanation": "Official IMA key: א. IMA 2020 Subspecialty official answer key, Q62. The conflicting bank explanation is hidden.",
+      "explanationReviewNote": "the official key is A; the original source text is being checked."
     },
     "71": {
       "id": "mcq-85190c8c8b3e355b84d145cd",
@@ -1070,7 +1078,7 @@
         "מומלץ להעלות מינון של SERTRALINE (LUSTRAL )בהדרגה ל-100 מ\\\"ג ביום ולבחון מחדש תועלת הטיפול מספר שבועות לאחר הגעה למינון זה",
         "מומלץ ללכת במקביל לטיפול פסיכולוגי שכן הסבירות להשגת שיפור עם טיפול תרופתי בלבד הינה נמוכה"
       ],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מכוון להעלאת Sertraline ל־100 מ״ג. במהדורה 8 אין מינון יעיל קבוע או חלון טיפולי צר לכל נוגד דיכאון; הקשר בין המינון לתגובה קטן ברוב התרופות, והמינון מותאם לתגובה ולבטיחות. טיטרציה איטית עדיין מתוארת כעשויה לשפר היענות. זהו שינוי בדגש ההסבר, ולא קביעה שהספר בוחר באפשרות אחרת (Hazzard 8e, עמ׳ 1015).\n\n## הסבר קליני\n\n**התשובה הנכונה היא 2** - יש להעלות את מינון ה-SERTRALINE בהדרגה ל-100 מ״ג ליום ולהעריך מחדש לאחר מספר שבועות.\n\nExplanation under review: The newer chapter does not establish the exact mandatory 50-to-100 mg optimization sequence in the historical key.",
+      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מכוון להעלאת Sertraline ל־100 מ״ג. במהדורה 8 אין מינון יעיל קבוע או חלון טיפולי צר לכל נוגד דיכאון; הקשר בין המינון לתגובה קטן ברוב התרופות, והמינון מותאם לתגובה ולבטיחות. טיטרציה איטית עדיין מתוארת כעשויה לשפר היענות. זהו שינוי בדגש ההסבר, ולא קביעה שהספר בוחר באפשרות אחרת (Hazzard 8e, עמ׳ 1015).\n\n## הסבר קליני\n\n**התשובה הנכונה היא 2** - יש להעלות את מינון ה-SERTRALINE בהדרגה ל-100 מ״ג ליום ולהעריך מחדש לאחר מספר שבועות.",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -1078,7 +1086,8 @@
           1015
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The newer chapter does not establish the exact mandatory 50-to-100 mg optimization sequence in the historical key."
     },
     "74": {
       "id": "mcq-46770db589a259ce0b35d4b0",
@@ -1237,7 +1246,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\nעל פי המאמר של ועדת האתיקה הישראלית לקוביד-19, ההחלטה על תיעדוף הנשמה במצב של מחסור במכונות הנשמה התבססה על **גיל ביולוגי, תפקוד ותחלואה** (תשובה B). עקרון מרכזי בגריאטריה הוא ההבחנה בין גיל כרונולוגי לגיל ביולוגי – גיל כרונולוגי לבדו אינו מנבא טוב של תוצאות טיפול, ולכן ועדת האתיקה דחתה במפורש שימוש בגיל כרונולוגי כקריטריון לתיעדוף, בהתאם לעקרונות אתיים של שוויון ואי-אפליה על בסיס גיל. הגיל הביולוגי משקף את מצבו האמיתי של המטופל, תוך שילוב מדדי תפקוד (ADL, IADL) ונטל תחלואה (comorbidity burden), המנבאים יחד את סיכויי ההישרדות וההתאוששות.\n\n**תשובה A שגויה** כי היא כוללת גיל כרונולוגי, שנדחה כקריטריון אתי. **תשובה C שגויה** אף היא בשל הכללת גיל כרונולוגי, וכן \"אשפוזים חוזרי\" ו\"נכות\" לא היו הקריטריונים שנבחרו. **תשובה D שגויה** כי קוגניציה לבדה לא הוגדרה כקריטריון עצמאי בהנחיות אלו, למרות חשיבותה הקלינית.\n\n**פרל קליני:** בגריאטריה, החלטות תיעדוף אתיות צריכות תמיד להתבסס על גיל ביולוגי ולא כרונולוגי – זהו עיקרון מפתח גם בבחינות וגם בפרקטיקה."
+      "explanation": "על פי המאמר של ועדת האתיקה הישראלית לקוביד-19, ההחלטה על תיעדוף הנשמה במצב של מחסור במכונות הנשמה התבססה על **גיל ביולוגי, תפקוד ותחלואה** (תשובה B). עקרון מרכזי בגריאטריה הוא ההבחנה בין גיל כרונולוגי לגיל ביולוגי – גיל כרונולוגי לבדו אינו מנבא טוב של תוצאות טיפול, ולכן ועדת האתיקה דחתה במפורש שימוש בגיל כרונולוגי כקריטריון לתיעדוף, בהתאם לעקרונות אתיים של שוויון ואי-אפליה על בסיס גיל. הגיל הביולוגי משקף את מצבו האמיתי של המטופל, תוך שילוב מדדי תפקוד (ADL, IADL) ונטל תחלואה (comorbidity burden), המנבאים יחד את סיכויי ההישרדות וההתאוששות.\n\n**תשובה A שגויה** כי היא כוללת גיל כרונולוגי, שנדחה כקריטריון אתי. **תשובה C שגויה** אף היא בשל הכללת גיל כרונולוגי, וכן \"אשפוזים חוזרי\" ו\"נכות\" לא היו הקריטריונים שנבחרו. **תשובה D שגויה** כי קוגניציה לבדה לא הוגדרה כקריטריון עצמאי בהנחיות אלו, למרות חשיבותה הקלינית.\n\n**פרל קליני:** בגריאטריה, החלטות תיעדוף אתיות צריכות תמיד להתבסס על גיל ביולוגי ולא כרונולוגי – זהו עיקרון מפתח גם בבחינות וגם בפרקטיקה.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "83": {
       "id": "mcq-0f379d4cc1e8545a79a292fb",
@@ -1311,7 +1321,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\nהתשובה הנכונה היא ב: מצב פיזי, מצב מנטלי, פעילות יום יומית, ניידות ושליטה על הסוגרים. סולם נורטון (Norton Scale) פותח במקור למניעת פצעי לחץ ומורכב מחמישה פרמטרים אלו בדיוק, כל אחד מדורג בסקלה של 1–4, כך שהציון הכולל נע בין 5 ל־20; ציון נמוך מ־14 מעיד על סיכון מוגבר לפצעי לחץ (Hazzard's Principles of Geriatric Medicine, ). תשובה א שגויה כיוון שגיל, משקל, גובה וחלבון בדם שייכים לכלי הערכה תזונתיים ולא לסולם נורטון. תשובה ג שגויה מאותה סיבה — שילוב של גיל, משקל וחלבון אינו חלק מהסולם המקורי. תשובה ד שגויה כיוון שמחלות רקע וספירת לימפוציטים כוללת (TLC) מאפיינים כלי הערכה תזונתיים כגון MNA, ולא את סולם נורטון."
+      "explanation": "התשובה הנכונה היא ב: מצב פיזי, מצב מנטלי, פעילות יום יומית, ניידות ושליטה על הסוגרים. סולם נורטון (Norton Scale) פותח במקור למניעת פצעי לחץ ומורכב מחמישה פרמטרים אלו בדיוק, כל אחד מדורג בסקלה של 1–4, כך שהציון הכולל נע בין 5 ל־20; ציון נמוך מ־14 מעיד על סיכון מוגבר לפצעי לחץ (Hazzard's Principles of Geriatric Medicine, ). תשובה א שגויה כיוון שגיל, משקל, גובה וחלבון בדם שייכים לכלי הערכה תזונתיים ולא לסולם נורטון. תשובה ג שגויה מאותה סיבה — שילוב של גיל, משקל וחלבון אינו חלק מהסולם המקורי. תשובה ד שגויה כיוון שמחלות רקע וספירת לימפוציטים כוללת (TLC) מאפיינים כלי הערכה תזונתיים כגון MNA, ולא את סולם נורטון.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "88": {
       "id": "mcq-b6010174acb8db2434926ba0",
@@ -1360,7 +1371,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\n## Clinical Explanation\n\nThe **Lee et al. study** on \"Summative Effects of Vascular Risk Factors on the Progression of Alzheimer Disease\" demonstrated that **cardiovascular risk factors accelerate cognitive decline** in Alzheimer's disease patients, with **greater effects in APOE ε4 carriers** (Option 1 is correct).\n\nThis research established that vascular risk factors have a **dose-dependent relationship** with AD progression. Critically, the study found that **APOE ε4 carriers** show enhanced susceptibility to vascular damage, experiencing more rapid cognitive deterioration when cardiovascular risk factors are present.\n\n**Option 0 is incorrect** because the effect was not limited to non-APOE ε4 carriers; in fact, the opposite was true. **Option 2 is incorrect** as the effects were evident before the 3-year timeframe. **Option 3 is incorrect** regarding the specific MMSE decline values cited.\n\nThis finding reinforces the concept of **mixed dementia** pathology described in *Hazzard's Geriatric Medicine and Gerontology, *, where vascular and degenerative processes interact synergistically. The **APOE ε4 genotype** represents both an Alzheimer's risk factor and a modifier of vascular vulnerability, emphasizing the importance of **aggressive cardiovascular risk management** in dementia prevention and treatment, particularly in genetically susceptible individuals."
+      "explanation": "## Clinical Explanation\n\nThe **Lee et al. study** on \"Summative Effects of Vascular Risk Factors on the Progression of Alzheimer Disease\" demonstrated that **cardiovascular risk factors accelerate cognitive decline** in Alzheimer's disease patients, with **greater effects in APOE ε4 carriers** (Option 1 is correct).\n\nThis research established that vascular risk factors have a **dose-dependent relationship** with AD progression. Critically, the study found that **APOE ε4 carriers** show enhanced susceptibility to vascular damage, experiencing more rapid cognitive deterioration when cardiovascular risk factors are present.\n\n**Option 0 is incorrect** because the effect was not limited to non-APOE ε4 carriers; in fact, the opposite was true. **Option 2 is incorrect** as the effects were evident before the 3-year timeframe. **Option 3 is incorrect** regarding the specific MMSE decline values cited.\n\nThis finding reinforces the concept of **mixed dementia** pathology described in *Hazzard's Geriatric Medicine and Gerontology, *, where vascular and degenerative processes interact synergistically. The **APOE ε4 genotype** represents both an Alzheimer's risk factor and a modifier of vascular vulnerability, emphasizing the importance of **aggressive cardiovascular risk management** in dementia prevention and treatment, particularly in genetically susceptible individuals.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "91": {
       "id": "mcq-f7cdd68518d6671b51791c12",
@@ -1386,7 +1398,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\n## הסבר קליני\n\n**מחלקה סיעודית היא התשובה הנכונה** מכיוון שהמימון שלה מבוסס על בדיקת הכנסות מקיפה הכוללת **הן את הכנסות המטופל והן את הכנסות ילדיו**. זהו מודל מימון ייחודי במערכת הסיעוד הישראלית, המבוסס על עקרון האחריות המשפחתית והיכולת הכלכלית.\n\n**למה התשובות האחרות שגויות:**\n\nExplanation under review: the official key is B; historical funding and copayment details are being checked.\n\nExplanation under review: the official key is B; historical funding and copayment details are being checked.\n\nExplanation under review: the official key is B; historical funding and copayment details are being checked.\n\nעקרון בדיקת ההכנסות המשפחתית במחלקות הסיעוד מטרתו לייצר מודל מימון מדורג המאזן בין אחריות ציבורית לאחריות משפחתית."
+      "explanation": "## הסבר קליני\n\n**מחלקה סיעודית היא התשובה הנכונה** מכיוון שהמימון שלה מבוסס על בדיקת הכנסות מקיפה הכוללת **הן את הכנסות המטופל והן את הכנסות ילדיו**. זהו מודל מימון ייחודי במערכת הסיעוד הישראלית, המבוסס על עקרון האחריות המשפחתית והיכולת הכלכלית.\n\n**למה התשובות האחרות שגויות:**\n\nעקרון בדיקת ההכנסות המשפחתית במחלקות הסיעוד מטרתו לייצר מודל מימון מדורג המאזן בין אחריות ציבורית לאחריות משפחתית.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked. the official key is B; historical funding and copayment details are being checked."
     },
     "93": {
       "id": "mcq-c94fa29e4b2ba5f1c341cbc1",
@@ -1448,7 +1461,8 @@
       "paperPage": null,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "Explanation under review: the official key is A; the original source text is being checked.\n\nהתשובה הנכונה היא A: לפי נתוני הבחינה ההיסטורית, כ-30% מהקשישים בישראל רשומים במחלקות לשירותים חברתיים. על פי הפרסום \"בני 65+ בישראל\" של משאב (מרכז מידע ומחקר על הזדקנות), נתון זה משקף את היקף הפנייה של האוכלוסייה המבוגרת למערכת הרווחה המוניציפלית. מחלקות לשירותים חברתיים ברשויות המקומיות מהוות שער כניסה מרכזי לשירותים רבים עבור הקשישים, כולל הפניות לדיור מוגן, סיוע כלכלי ושירותים קהילתיים.\n\nלגבי התשובות השגויות: תשובה B (42% זכאי חוק סיעוד) – הנתון מופרז משמעותית; שיעור הזכאים לגמלת סיעוד מהביטוח הלאומי נמוך בהרבה, בסביבות 17%-20% מכלל הקשישים. תשובה C (8% במוסדות סיעודיים או תשושי נפש) – השיעור בפועל נמוך יותר, כ-3%-4% מהקשישים שוהים במוסדות. תשובה D (1% מקבל מענק חימום) – הנתון אינו תואם את הנתונים המפורסמים; שיעור מקבלי מענק החימום שונה מכך.\n\n**פנינה קלינית:** חשוב לזכור שרוב הקשישים בישראל (כ-96%-97%) חיים בקהילה ולא במוסדות, מה שמדגיש את חשיבות השירותים הקהילתיים ומערכת הרווחה המוניציפלית בתמיכה באוכלוסייה זו."
+      "explanation": "התשובה הנכונה היא A: לפי נתוני הבחינה ההיסטורית, כ-30% מהקשישים בישראל רשומים במחלקות לשירותים חברתיים. על פי הפרסום \"בני 65+ בישראל\" של משאב (מרכז מידע ומחקר על הזדקנות), נתון זה משקף את היקף הפנייה של האוכלוסייה המבוגרת למערכת הרווחה המוניציפלית. מחלקות לשירותים חברתיים ברשויות המקומיות מהוות שער כניסה מרכזי לשירותים רבים עבור הקשישים, כולל הפניות לדיור מוגן, סיוע כלכלי ושירותים קהילתיים.\n\nלגבי התשובות השגויות: תשובה B (42% זכאי חוק סיעוד) – הנתון מופרז משמעותית; שיעור הזכאים לגמלת סיעוד מהביטוח הלאומי נמוך בהרבה, בסביבות 17%-20% מכלל הקשישים. תשובה C (8% במוסדות סיעודיים או תשושי נפש) – השיעור בפועל נמוך יותר, כ-3%-4% מהקשישים שוהים במוסדות. תשובה D (1% מקבל מענק חימום) – הנתון אינו תואם את הנתונים המפורסמים; שיעור מקבלי מענק החימום שונה מכך.\n\n**פנינה קלינית:** חשוב לזכור שרוב הקשישים בישראל (כ-96%-97%) חיים בקהילה ולא במוסדות, מה שמדגיש את חשיבות השירותים הקהילתיים ומערכת הרווחה המוניציפלית בתמיכה באוכלוסייה זו.",
+      "explanationReviewNote": "the official key is A; the original source text is being checked."
     },
     "2400": {
       "id": "mcq-2f8468da786ef8f8b77c15fe",
@@ -1593,7 +1607,7 @@
       "paperPage": 40,
       "fromBasic": false,
       "duplicates": [],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל ג׳ וד׳. במהדורה 8 מוצע להימנע מתרופות המגבירות אספירציה, במיוחד אנטיפסיכוטיות; מעכבי ACE עשויים להפחית סיכון באמצעות רפלקס השיעול, ואילו שימוש ב־PPI דורש הצדקה. כלורהקסידין נזכר לטיפול בדלקת חניכיים, אך מחקר אקראי איכותי לא הראה יעילות של טיפול פה בקבוצות הסיכון הגבוה ביותר (Hazzard 8e, עמ׳ 1690–1691).\n\n\n\nExplanation under review: The exact rationale for accepting D after appeal is not established by the 8e passage.",
+      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל ג׳ וד׳. במהדורה 8 מוצע להימנע מתרופות המגבירות אספירציה, במיוחד אנטיפסיכוטיות; מעכבי ACE עשויים להפחית סיכון באמצעות רפלקס השיעול, ואילו שימוש ב־PPI דורש הצדקה. כלורהקסידין נזכר לטיפול בדלקת חניכיים, אך מחקר אקראי איכותי לא הראה יעילות של טיפול פה בקבוצות הסיכון הגבוה ביותר (Hazzard 8e, עמ׳ 1690–1691).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0004",
@@ -1608,7 +1622,8 @@
         ],
         "edition": 8
       },
-      "q": "בן 86, דייר מחלקה סיעודית, מאושפז עקב דלקת ריאות. הצוות המטפל מתרשם מאירועים חוזרים של אספירציה. כל הבאים מסייעים בהפחתת סיכון ל- ASPIRATION PNEUMONIA פרט ל-"
+      "q": "בן 86, דייר מחלקה סיעודית, מאושפז עקב דלקת ריאות. הצוות המטפל מתרשם מאירועים חוזרים של אספירציה. כל הבאים מסייעים בהפחתת סיכון ל- ASPIRATION PNEUMONIA פרט ל-",
+      "explanationReviewNote": "The exact rationale for accepting D after appeal is not established by the 8e passage."
     },
     "106": {
       "id": "mcq-4cd9324a98a56ce5a20d1d9d",
@@ -1622,7 +1637,8 @@
       "fromBasic": false,
       "duplicates": [],
       "q": "בן 83, עצמאי ב- BADL וללא חסר קוגניטיבי. ברקע - סוכרת, פרפור עליות התקפי ואינסומניה. בשבוע האחרון סובל מברונכיטיס ומטופל באנטיביוטיקה. תרופות קבועות: AMIODARONE (PROCOR), BROTIZOLAM (BONDORMIN), FUROSAMIDE (FUSID), APIXABAN (ELIQUIS), AMOXICILLIN (MOXYPEN), ECITRALOPAM (CIPRALEX). פנה למחלקה לרפואה דחופה לאחר שנפל בביתו כשקם לשירותים בלילה. כל התרופות הבאות יכולות להעלות סיכון לנפילות פרט ל-",
-      "explanation": "**APIXABAN (ELIQUIS)** הוא התשובה הנכונה — נוגדי קרישה מסוג זה אינם גורמים לנפילה אלא מחמירים את תוצאותיה (דימום מוגבר אם מתרחשת נפילה), ולכן אינם מעלים את **סיכון הנפילה** עצמה. בשאלה המקורית לא נמסרו ערכי לחץ דם אורתוסטטי, דופק או נתרן.\n\nExplanation under review: the official key is C; the source text is being checked."
+      "explanation": "**APIXABAN (ELIQUIS)** הוא התשובה הנכונה — נוגדי קרישה מסוג זה אינם גורמים לנפילה אלא מחמירים את תוצאותיה (דימום מוגבר אם מתרחשת נפילה), ולכן אינם מעלים את **סיכון הנפילה** עצמה. בשאלה המקורית לא נמסרו ערכי לחץ דם אורתוסטטי, דופק או נתרן.",
+      "explanationReviewNote": "the official key is C; the source text is being checked."
     },
     "107": {
       "id": "mcq-d705e101701ec10430730317",
@@ -1650,7 +1666,7 @@
       "duplicates": [
         2458
       ],
-      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.\n\nתשובה A שגויה כיוון ש-PFO אינו תמיד קשור לטרומבוזיס ורידי ו-paradoxical embolism. קיימים מנגנונים נוספים כמו יצירת קריש in situ בתוך ה-PFO עצמו או הפרעות קצב עלייתיות נלוות.\n\nתשובה B שגויה כיוון ששבץ של כלי דם גדולים נובע בעיקר מטרשת ב-**internal** carotid artery (במיוחד בביפורקציה) ולא מה-common carotid artery, שם טרשת שכיחה פחות.\n\n**פנינה קלינית:** אוטמים לקונריים קשורים בעיקר ליתר לחץ דם כרוני הגורם לשינויים פתולוגיים בדפנות העורקים החודרים הקטנים.",
+      "explanation": "תשובה A שגויה כיוון ש-PFO אינו תמיד קשור לטרומבוזיס ורידי ו-paradoxical embolism. קיימים מנגנונים נוספים כמו יצירת קריש in situ בתוך ה-PFO עצמו או הפרעות קצב עלייתיות נלוות.\n\nתשובה B שגויה כיוון ששבץ של כלי דם גדולים נובע בעיקר מטרשת ב-**internal** carotid artery (במיוחד בביפורקציה) ולא מה-common carotid artery, שם טרשת שכיחה פחות.\n\n**פנינה קלינית:** אוטמים לקונריים קשורים בעיקר ליתר לחץ דם כרוני הגורם לשינויים פתולוגיים בדפנות העורקים החודרים הקטנים.",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0005",
@@ -1664,7 +1680,8 @@
         "שבץ של כלי דם גדולים נובע בשכיחות גבוהה מאמבוליה מ- common carotid artery",
         "אוטמים לקונרים נגרמים מאמבוליה ל- penetrating arteries מכלי דם ב- circle of Willis",
         "שבץ במנגנון artery to artery embolism יקרה בדרך כלל בכלי דם עם חסימה מוקדמת של 70%<"
-      ]
+      ],
+      "explanationReviewNote": "the official key is C, D; the source text is being checked."
     },
     "109": {
       "id": "mcq-658204486ccbe771d799fa34",
@@ -2063,7 +2080,8 @@
         288
       ],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "Explanation under review: the official key is A; the original source text is being checked.\n\nא׳ היא התשובה הרשמית. עדות מאוחרת משלימה בלבד: דו״ח Lancet 2024, עמ׳ 581, מתאר שבמחקר ACHIEVE לא נמצא אפקט קוגניטיבי כולל, אך בתת־הקבוצה בסיכון גבוה מקבוצת ARIC נמצאה ירידה קטנה יותר בתפקוד הקוגניטיבי. אין לייחס את המחקר המאוחר לדו״ח 2020, שלא נבדק ישירות.\n\nהרכבת משקפיים ביפוקאליים (ב) אינה נכונה – משקפיים ביפוקאליים דווקא מגבירים סיכון לנפילות בקשישים ואינם קשורים להפחתת סיכון לדמנציה. העלאת מינון סטטין (ג) – למרות דיון תיאורטי על תפקיד סטטינים בהגנה קוגניטיבית, אין עדות מוכחת שהעלאת מינון מפחיתה סיכון לדמנציה. הוספת ספירונולקטון (ד) – אמנם רלוונטי לאי-ספיקת לב, אך אין עדות שהוספתו מפחיתה סיכון לדמנציה."
+      "explanation": "א׳ היא התשובה הרשמית. עדות מאוחרת משלימה בלבד: דו״ח Lancet 2024, עמ׳ 581, מתאר שבמחקר ACHIEVE לא נמצא אפקט קוגניטיבי כולל, אך בתת־הקבוצה בסיכון גבוה מקבוצת ARIC נמצאה ירידה קטנה יותר בתפקוד הקוגניטיבי. אין לייחס את המחקר המאוחר לדו״ח 2020, שלא נבדק ישירות.\n\nהרכבת משקפיים ביפוקאליים (ב) אינה נכונה – משקפיים ביפוקאליים דווקא מגבירים סיכון לנפילות בקשישים ואינם קשורים להפחתת סיכון לדמנציה. העלאת מינון סטטין (ג) – למרות דיון תיאורטי על תפקיד סטטינים בהגנה קוגניטיבית, אין עדות מוכחת שהעלאת מינון מפחיתה סיכון לדמנציה. הוספת ספירונולקטון (ד) – אמנם רלוונטי לאי-ספיקת לב, אך אין עדות שהוספתו מפחיתה סיכון לדמנציה.",
+      "explanationReviewNote": "the official key is A; the original source text is being checked."
     },
     "130": {
       "id": "mcq-15cb6cf6f024d61f71bb1c94",
@@ -2299,7 +2317,8 @@
         300,
         2463
       ],
-      "explanation": "Explanation under review: the official key is C; the original source text is being checked.\n\n## התשובה הנכונה: ג — קריאטינין > 2\n\n**למה ג נכונה:**\nקריאטינין מעל 2 מ\"ג/ד\"ל (במקרה זה 2.2) מהווה גורם סיכון מוכח לסיבוכים קרדיאליים בניתוחים אלקטיביים לפי קריטריוני ה-Revised Cardiac Risk Index (RCRI). אי ספיקת כליות עם קריאטינין מעל 2 מגדילה משמעותית את הסיכון לאירועים קרדיאליים פריאופרטיביים כולל אוטם שריר הלב, אי ספיקת לב וקצב לב מסכן חיים. אצל קשישים, הפרעה כלייתית כרונית מעצימה את הסיכון בשל הפתופיזיולוגיה המורכבת והעומס המטבולי של הניתוח.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** טרום סוכרת אינה נחשבת לגורם סיכון קרדיאלי עצמאי לפי ה-RCRI; רק סוכרת ממש עם טיפול באינסולין מהווה גורם סיכון, ורמת הגלוקוז של 117 מעידה על בקרה סבירה.\n- **ב.** Mild mitral regurgitation אינה מופיעה בשאלה ואינה מהווה גורם סיכון משמעותי; רק אי ספיקת לב סימפטומטית או מחלת מסתמים משמעותית נכללות בקריטריונים.\n- **ד.** RBBB בודד ללא הפרעות הולכה אחרות או עדות למחלה מבנית לבבית פעילה אינו גורם סיכון עצמאי לסיבוכים קרדיאליים לפי ה-RCRI.\n\n**נקודת המפתח לקשיש:**\nבהערכה פריאופרטיבית של קשיש יש לחשב eGFR בנוסף לקריאטינין מוחלט (שעלול להיות מטעה עקב מסת שריר נמוכה), ולהעריך את היקף הפגיעה הכלייתית כחלק מההערכה הקרדיאלית המקיפה לפני ניתוח אלקטיבי."
+      "explanation": "## התשובה הנכונה: ג — קריאטינין > 2\n\n**למה ג נכונה:**\nקריאטינין מעל 2 מ\"ג/ד\"ל (במקרה זה 2.2) מהווה גורם סיכון מוכח לסיבוכים קרדיאליים בניתוחים אלקטיביים לפי קריטריוני ה-Revised Cardiac Risk Index (RCRI). אי ספיקת כליות עם קריאטינין מעל 2 מגדילה משמעותית את הסיכון לאירועים קרדיאליים פריאופרטיביים כולל אוטם שריר הלב, אי ספיקת לב וקצב לב מסכן חיים. אצל קשישים, הפרעה כלייתית כרונית מעצימה את הסיכון בשל הפתופיזיולוגיה המורכבת והעומס המטבולי של הניתוח.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** טרום סוכרת אינה נחשבת לגורם סיכון קרדיאלי עצמאי לפי ה-RCRI; רק סוכרת ממש עם טיפול באינסולין מהווה גורם סיכון, ורמת הגלוקוז של 117 מעידה על בקרה סבירה.\n- **ב.** Mild mitral regurgitation אינה מופיעה בשאלה ואינה מהווה גורם סיכון משמעותי; רק אי ספיקת לב סימפטומטית או מחלת מסתמים משמעותית נכללות בקריטריונים.\n- **ד.** RBBB בודד ללא הפרעות הולכה אחרות או עדות למחלה מבנית לבבית פעילה אינו גורם סיכון עצמאי לסיבוכים קרדיאליים לפי ה-RCRI.\n\n**נקודת המפתח לקשיש:**\nבהערכה פריאופרטיבית של קשיש יש לחשב eGFR בנוסף לקריאטינין מוחלט (שעלול להיות מטעה עקב מסת שריר נמוכה), ולהעריך את היקף הפגיעה הכלייתית כחלק מההערכה הקרדיאלית המקיפה לפני ניתוח אלקטיבי.",
+      "explanationReviewNote": "the official key is C; the original source text is being checked."
     },
     "2420": {
       "id": "mcq-a783600c347387919b4a077a",
@@ -2314,7 +2333,8 @@
       "duplicates": [
         301
       ],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\n## התשובה הנכונה: ב — מעבדה כולל רמת LITHIUM בדם\n\n**למה ב נכונה:**\nהחולה מציג תמונה קלאסית של שיכרות ליתיום: רעד, בלבול מתקדם, נפילות, ישנוניות, clonus ובראדיקרדיה. הוספת Hydrochlorothiazide לפני חודש היא הגורם הסביר לעלייה ברמת הליתיום - תיאזידים מעלים את רמת הליתיום בדם על ידי הפחתת סינון כלייתי וספיגה מוגברת בצינורית הפרוקסימלית. בקשיש עם פונקציה כלייתית מופחתת הסיכון גבוה יותר, והבדיקה הדחופה היא רמת ליתיום בדם יחד עם אלקטרוליטים ותפקודי כליה.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** יעוץ נוירולוגי, CT ראש ו-LP מתאימים לחשד לתהליך תוך גולגולתי או דלקתי, אך התמונה הקלינית והקשר הזמני להוספת התיאזיד מצביעים על שיכרות תרופתית.\n- **ג.** CT ראש ו-EEG עשויים להיות חריגים בשיכרות ליתיום אך אינם הבדיקה המאבחנת הראשונית; רמת הליתיום היא הבדיקה הספציפית והזמינה.\n- **ד.** אמנם בדיקות אלה חשובות בחולה מבולבל, אך הטוקסיקולוגיה בשתן לא תזהה ליתיום והתמונה הקלינית ספציפית מדי לאבחנה אחרת.\n\n**נקודת המפתח לקשיש:**\nתיאזידים הם אינטראקציה מסוכנת עם ליתיום בקשישים (STOPP criteria) ומעלים את הרמה ב-25-40%, במיוחד בנוכחת ירידה בתפקוד הכליות הקשורה לגיל וטיפול נוסף ב-RAAS inhibitor שמעלה סיכון לדהידרציה ואי-ספיקת כליות."
+      "explanation": "## התשובה הנכונה: ב — מעבדה כולל רמת LITHIUM בדם\n\n**למה ב נכונה:**\nהחולה מציג תמונה קלאסית של שיכרות ליתיום: רעד, בלבול מתקדם, נפילות, ישנוניות, clonus ובראדיקרדיה. הוספת Hydrochlorothiazide לפני חודש היא הגורם הסביר לעלייה ברמת הליתיום - תיאזידים מעלים את רמת הליתיום בדם על ידי הפחתת סינון כלייתי וספיגה מוגברת בצינורית הפרוקסימלית. בקשיש עם פונקציה כלייתית מופחתת הסיכון גבוה יותר, והבדיקה הדחופה היא רמת ליתיום בדם יחד עם אלקטרוליטים ותפקודי כליה.\n\n**למה האפשרויות האחרות שגויות:**\n- **א.** יעוץ נוירולוגי, CT ראש ו-LP מתאימים לחשד לתהליך תוך גולגולתי או דלקתי, אך התמונה הקלינית והקשר הזמני להוספת התיאזיד מצביעים על שיכרות תרופתית.\n- **ג.** CT ראש ו-EEG עשויים להיות חריגים בשיכרות ליתיום אך אינם הבדיקה המאבחנת הראשונית; רמת הליתיום היא הבדיקה הספציפית והזמינה.\n- **ד.** אמנם בדיקות אלה חשובות בחולה מבולבל, אך הטוקסיקולוגיה בשתן לא תזהה ליתיום והתמונה הקלינית ספציפית מדי לאבחנה אחרת.\n\n**נקודת המפתח לקשיש:**\nתיאזידים הם אינטראקציה מסוכנת עם ליתיום בקשישים (STOPP criteria) ומעלים את הרמה ב-25-40%, במיוחד בנוכחת ירידה בתפקוד הכליות הקשורה לגיל וטיפול נוסף ב-RAAS inhibitor שמעלה סיכון לדהידרציה ואי-ספיקת כליות.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "141": {
       "id": "mcq-dd84ab2a8a962111bd9b32b2",
@@ -2612,7 +2632,8 @@
       "duplicates": [
         317
       ],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\nהתשובה הנכונה היא B. לאחר המנופאוזה חלה ירידה חדה ברמות האסטרוגן, והאסטרוגן ממלא תפקיד מרכזי בשמירה על מבנה העור, במיוחד בייצור קולגן. מחקרים מראים שנשים מאבדות כ-30% מהקולגן בעור בחמש השנים הראשונות לאחר המנופאוזה, מה שמוביל לדילול העור, הופעת קמטים ואובדן גמישות. זהו ממצא קלאסי המתואר בספרות הגריאטרית (Hazzard's Geriatric Medicine, פרקים העוסקים בשינויי עור בהזדקנות).\n\nתשובה A שגויה מכיוון שדווקא עור כהה (עשיר במלנין) מעניק הגנה טובה יותר מפני נזקי שמש ומאט את פירוק הקולגן הפוטואייג'ינג; אין קשר ישיר בין עור כהה לסיכון מוגבר ליובש או ירידה מוגברת בקולגן. תשובה C שגויה כי המצב ההורמונלי המאפיין נשים לאחר המנופאוזה הוא **hypoestrogenism** ולא hypoandrogenism — רמות האנדרוגנים יורדת באופן הדרגתי אך הירידה המשמעותית והמשפיעה על העור היא באסטרוגן. תשובה D שגויה כי עם ההזדקנות חלה ירידה (ולא עלייה) ברמות האלסטין התקין, וכן ירידה בפעילות בלוטות הזיעה, מה שתורם ליובש העור ולפגיעה בוויסות חום."
+      "explanation": "התשובה הנכונה היא B. לאחר המנופאוזה חלה ירידה חדה ברמות האסטרוגן, והאסטרוגן ממלא תפקיד מרכזי בשמירה על מבנה העור, במיוחד בייצור קולגן. מחקרים מראים שנשים מאבדות כ-30% מהקולגן בעור בחמש השנים הראשונות לאחר המנופאוזה, מה שמוביל לדילול העור, הופעת קמטים ואובדן גמישות. זהו ממצא קלאסי המתואר בספרות הגריאטרית (Hazzard's Geriatric Medicine, פרקים העוסקים בשינויי עור בהזדקנות).\n\nתשובה A שגויה מכיוון שדווקא עור כהה (עשיר במלנין) מעניק הגנה טובה יותר מפני נזקי שמש ומאט את פירוק הקולגן הפוטואייג'ינג; אין קשר ישיר בין עור כהה לסיכון מוגבר ליובש או ירידה מוגברת בקולגן. תשובה C שגויה כי המצב ההורמונלי המאפיין נשים לאחר המנופאוזה הוא **hypoestrogenism** ולא hypoandrogenism — רמות האנדרוגנים יורדת באופן הדרגתי אך הירידה המשמעותית והמשפיעה על העור היא באסטרוגן. תשובה D שגויה כי עם ההזדקנות חלה ירידה (ולא עלייה) ברמות האלסטין התקין, וכן ירידה בפעילות בלוטות הזיעה, מה שתורם ליובש העור ולפגיעה בוויסות חום.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "154": {
       "id": "mcq-9263ca029323c02206b33370",
@@ -2643,7 +2664,7 @@
         319,
         362
       ],
-      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל א׳ וג׳. מהדורה 8 מתארת ירידה בתגובה לחיסונים כבר בתת־תזונה קלה עם אלבומין 3.0–3.5 גרם/ד״ל, ולכן אין לנסח את 3 גרם/ד״ל כסף שמתחתיו בלבד מתחיל השינוי. חסר אמיתי במיקרונוטריינטים מצדיק השלמה, אך הראיות להשלמה בהיעדר חסר דלות (Hazzard 8e, עמ׳ 1668).\n\nתשובה A נכונה מכיוון שחסר ויטמין B12 קשור לפגיעה ממשית בתפקוד מערכת החיסון בגיל המבוגר. ויטמין B12 חיוני לסינתזת DNA ולהתפשטות תקינה של לימפוציטים. בהיעדרו, יכולת הלימפוציטים להתרבות בתגובה לאנטיגן נפגעת, וכתוצאה מכך מתקבלת תגובה הומוראלית ירודה לחיסונים, ובפרט לחיסון נגד Streptococcus pneumoniae. תופעה זו מתועדת בספרות הגריאטרית ומתואמת עם עקרונות ה-immunosenescence — תהליך ההזדקנות של מערכת החיסון המוסבר בהרחבה בהאזארד (Hazzard's Geriatric Medicine, פרקים העוסקים באימונולוגיה של ההזדקנות). חשוב לציין שמחסור ב-B12 שכיח מאוד בקשישים בשל ירידה בספיגה המעיתית (אטרופיה גסטרית, ירידה בפקטור הפנימי), ולכן הוא מנגנון רלוונטי ומציאותי.\n\nתשובה B שגויה כיוון שבגיל המבוגר מתרחשת דווקא **ירידה** ביצור IL-2 מתאי T, לא עלייה. הירידה ב-IL-2 היא אחד הסממנים המרכזיים של ה-immunosenescence — היא מגבילה את התפשטות התאי T ומפחיתה את התגובה החיסונית. טעון ה-Distractor הוא הפוך מהמציאות הפיזיולוגית.\n\nתשובה D שגויה מכיוון שכיוון ההשפעה הפוך לחלוטין. ויטמין D ממלא תפקיד אימונומודולטורי חיוני, וחסר בו — לא עודף — קשור לסיכון מוגבר לזיהומים בדרכי הנשימה, כולל שפעת ודלקת ריאות. חסר אמיתי במיקרונוטריינטים עשוי להעלות סיכון לזיהומים ויש לתקנו; אין להסיק מכך שרמות ויטמין D גבוהות מגינות, והראיות לתיסוף ללא חסר דלות (Hazzard 8e, עמ׳1668).\n\n**פנינת בחינה:** בשאלות על immunosenescence יש לזכור את הצירוף: ירידה ב-IL-2, ירידה בתאי T נאיביים, עלייה בתאי T מזיכרון מוגבלים, ופגיעה בתגובה הומוראלית. חסר ויטמין B12 הוא גורם הפיך ונפוץ המחמיר את התמונה — ולכן יש לבדוק ולטפל בו באופן פעיל בקשישים.\n\nExplanation under review: The specific B12–pneumococcal vaccine link in accepted A was not located.",
+      "explanation": "פער בין מהדורות: המפתח מתקופת Hazzard 7e מקבל א׳ וג׳. מהדורה 8 מתארת ירידה בתגובה לחיסונים כבר בתת־תזונה קלה עם אלבומין 3.0–3.5 גרם/ד״ל, ולכן אין לנסח את 3 גרם/ד״ל כסף שמתחתיו בלבד מתחיל השינוי. חסר אמיתי במיקרונוטריינטים מצדיק השלמה, אך הראיות להשלמה בהיעדר חסר דלות (Hazzard 8e, עמ׳ 1668).\n\nתשובה A נכונה מכיוון שחסר ויטמין B12 קשור לפגיעה ממשית בתפקוד מערכת החיסון בגיל המבוגר. ויטמין B12 חיוני לסינתזת DNA ולהתפשטות תקינה של לימפוציטים. בהיעדרו, יכולת הלימפוציטים להתרבות בתגובה לאנטיגן נפגעת, וכתוצאה מכך מתקבלת תגובה הומוראלית ירודה לחיסונים, ובפרט לחיסון נגד Streptococcus pneumoniae. תופעה זו מתועדת בספרות הגריאטרית ומתואמת עם עקרונות ה-immunosenescence — תהליך ההזדקנות של מערכת החיסון המוסבר בהרחבה בהאזארד (Hazzard's Geriatric Medicine, פרקים העוסקים באימונולוגיה של ההזדקנות). חשוב לציין שמחסור ב-B12 שכיח מאוד בקשישים בשל ירידה בספיגה המעיתית (אטרופיה גסטרית, ירידה בפקטור הפנימי), ולכן הוא מנגנון רלוונטי ומציאותי.\n\nתשובה B שגויה כיוון שבגיל המבוגר מתרחשת דווקא **ירידה** ביצור IL-2 מתאי T, לא עלייה. הירידה ב-IL-2 היא אחד הסממנים המרכזיים של ה-immunosenescence — היא מגבילה את התפשטות התאי T ומפחיתה את התגובה החיסונית. טעון ה-Distractor הוא הפוך מהמציאות הפיזיולוגית.\n\nתשובה D שגויה מכיוון שכיוון ההשפעה הפוך לחלוטין. ויטמין D ממלא תפקיד אימונומודולטורי חיוני, וחסר בו — לא עודף — קשור לסיכון מוגבר לזיהומים בדרכי הנשימה, כולל שפעת ודלקת ריאות. חסר אמיתי במיקרונוטריינטים עשוי להעלות סיכון לזיהומים ויש לתקנו; אין להסיק מכך שרמות ויטמין D גבוהות מגינות, והראיות לתיסוף ללא חסר דלות (Hazzard 8e, עמ׳1668).\n\n**פנינת בחינה:** בשאלות על immunosenescence יש לזכור את הצירוף: ירידה ב-IL-2, ירידה בתאי T נאיביים, עלייה בתאי T מזיכרון מוגבלים, ופגיעה בתגובה הומוראלית. חסר ויטמין B12 הוא גורם הפיך ונפוץ המחמיר את התמונה — ולכן יש לבדוק ולטפל בו באופן פעיל בקשישים.",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0007",
@@ -2656,7 +2677,8 @@
         "pages": [
           1668
         ]
-      }
+      },
+      "explanationReviewNote": "The specific B12–pneumococcal vaccine link in accepted A was not located."
     },
     "156": {
       "id": "mcq-d77dd3b1ab1dbb492058f5df",
@@ -2830,7 +2852,8 @@
       "duplicates": [
         329
       ],
-      "explanation": "Explanation under review: the official key is D; the original source text is being checked.\n\n## הסבר קליני\n\nבחולה בת 75 עם כאבי גב תחתון חדשים, יש לשקול מספר גורמים אטיולוגיים.\n\n**התשובה הנכונה היא 3** - שבר אוסטאופורוטי זעיר הוא **לא סביר** במקרה זה.\n\n**הנימוק המרכזי:** בוצע **מיפוי עצמות (Bone Scan)** שלא הדגים קליטה פתולוגית. בדיקה זו רגישה ביותר לזיהוי **שברים אוסטאופורוטיים סמויים** שאינם נראים בצילומי רנטגן רגילים. שבר טרי מראה **היפר-קליטה** במיפוי עצמות כבר תוך 24-72 שעות מהאירוע, ובוודאי לאחר חודשיים של תסמינים.\n\n**הגורמים הסבירים** לכאבים:\n\n- **שרירים תפוסים** - שינוי נעליים יכול לגרום לעומס מכני חדש ול-**muscle strain**\n- **ניוון דיסקים** (Degenerative Disc Disease) - ממצא תואם גיל שעלול לגרום כאב\n- **בליטת דיסק** L3-L4 - יכולה לגרום **לחץ על שורשי עצבים** וכאב\n\n**המסקנה:** מיפוי עצמות שלילי **שולל בוודאות גבוהה** שבר אוסטאופורוטי, מה שהופך אפשרות זו ללא סבירה.\n\n**הפניה:** Hazzard's Geriatric Medicine and Gerontology,  - פרקים על אוסטאופורוזיס והדמיה בגריאטריה."
+      "explanation": "## הסבר קליני\n\nבחולה בת 75 עם כאבי גב תחתון חדשים, יש לשקול מספר גורמים אטיולוגיים.\n\n**התשובה הנכונה היא 3** - שבר אוסטאופורוטי זעיר הוא **לא סביר** במקרה זה.\n\n**הנימוק המרכזי:** בוצע **מיפוי עצמות (Bone Scan)** שלא הדגים קליטה פתולוגית. בדיקה זו רגישה ביותר לזיהוי **שברים אוסטאופורוטיים סמויים** שאינם נראים בצילומי רנטגן רגילים. שבר טרי מראה **היפר-קליטה** במיפוי עצמות כבר תוך 24-72 שעות מהאירוע, ובוודאי לאחר חודשיים של תסמינים.\n\n**הגורמים הסבירים** לכאבים:\n\n- **שרירים תפוסים** - שינוי נעליים יכול לגרום לעומס מכני חדש ול-**muscle strain**\n- **ניוון דיסקים** (Degenerative Disc Disease) - ממצא תואם גיל שעלול לגרום כאב\n- **בליטת דיסק** L3-L4 - יכולה לגרום **לחץ על שורשי עצבים** וכאב\n\n**המסקנה:** מיפוי עצמות שלילי **שולל בוודאות גבוהה** שבר אוסטאופורוטי, מה שהופך אפשרות זו ללא סבירה.\n\n**הפניה:** Hazzard's Geriatric Medicine and Gerontology,  - פרקים על אוסטאופורוזיס והדמיה בגריאטריה.",
+      "explanationReviewNote": "the official key is D; the original source text is being checked."
     },
     "2426": {
       "id": "mcq-f6ef6ea91e391566fe18e81f",
@@ -2911,7 +2934,8 @@
       "duplicates": [
         333
       ],
-      "explanation": "Explanation under review: the official key is D; the original source text is being checked.\n\n## הסבר קליני\n\n**התשובה הנכונה היא 3** - מעורבות של עצב אינטרקוסטלי אינה גורם סיכון ספציפי ל-**Post Herpetic Neuralgia (PHN)**.\n\n**המיקום האינטרקוסטלי (חזה)** הוא האזור **השכיח ביותר** להופעת Herpes Zoster, אך אינו מהווה גורם סיכון מוגבר ל-PHN. גורמי הסיכון המוכרים ל-PHN קשורים לחומרת המחלה החריפה ולמאפייני המטופל, **ולא למיקום הדרמטומלי הרגיל**.\n\n**גורמי הסיכון המבוססים ל-PHN** כוללים:\n\n**גיל מעל 50** (במיוחד מעל 70) - אופציה 2 - עלייה משמעותית בשכיחות PHN עם הגיל, קשורה לירידה בתפקוד החיסוני ויכולת ההתאוששות העצבית.\n\n**כאב עז בשלב החריף** - אופציה 1 - משקף נזק עצבי משמעותי ומנבא כאב כרוני.\n\n**כאב פרודרומלי** (לפני הפריחה) - אופציה 0 - מעיד על מעורבות עצבית משמעותית כבר בשלב מוקדם.\n\nהמיקום היחיד הנושא **סיכון מוגבר** הוא **מעורבות עינית** (V1 - עצב אופתלמי), בשל הסיבוכים החמורים והכאב הממושך באזור זה.\n\n**מקור:** Harrison's Principles of Internal Medicine 22e, Hazzard's Geriatric Medicine"
+      "explanation": "## הסבר קליני\n\n**התשובה הנכונה היא 3** - מעורבות של עצב אינטרקוסטלי אינה גורם סיכון ספציפי ל-**Post Herpetic Neuralgia (PHN)**.\n\n**המיקום האינטרקוסטלי (חזה)** הוא האזור **השכיח ביותר** להופעת Herpes Zoster, אך אינו מהווה גורם סיכון מוגבר ל-PHN. גורמי הסיכון המוכרים ל-PHN קשורים לחומרת המחלה החריפה ולמאפייני המטופל, **ולא למיקום הדרמטומלי הרגיל**.\n\n**גורמי הסיכון המבוססים ל-PHN** כוללים:\n\n**גיל מעל 50** (במיוחד מעל 70) - אופציה 2 - עלייה משמעותית בשכיחות PHN עם הגיל, קשורה לירידה בתפקוד החיסוני ויכולת ההתאוששות העצבית.\n\n**כאב עז בשלב החריף** - אופציה 1 - משקף נזק עצבי משמעותי ומנבא כאב כרוני.\n\n**כאב פרודרומלי** (לפני הפריחה) - אופציה 0 - מעיד על מעורבות עצבית משמעותית כבר בשלב מוקדם.\n\nהמיקום היחיד הנושא **סיכון מוגבר** הוא **מעורבות עינית** (V1 - עצב אופתלמי), בשל הסיבוכים החמורים והכאב הממושך באזור זה.\n\n**מקור:** Harrison's Principles of Internal Medicine 22e, Hazzard's Geriatric Medicine",
+      "explanationReviewNote": "the official key is D; the original source text is being checked."
     },
     "2466": {
       "id": "mcq-1ca54bc9605d926030d7d932",
@@ -2965,12 +2989,13 @@
       "duplicates": [
         336
       ],
-      "explanation": "**תשובה נכונה: C**\n\nהמפתח הרשמי הוא ג׳.\n\nמעכבי אצטילכולין אסטראז (AChEIs) כמו דונפזיל, ריבסטיגמין וגלנטמין משמשים לטיפול באלצהיימר; ההתוויות משתנות לפי התרופה והתכשיר וכוללות גם מחלה חמורה בחלקם (Hazzard 8e, טבלה 59-7, עמ׳ 912). **חולה C** – אישה בת 78 עם ירידה בזיכרון, אובדן חפצים, שוטטות ו-MMSE 23/30 – מתאימה לפרופיל של דמנציה קלה-בינונית, וזו האינדיקציה הקלאסית לטיפול.\n\n**חולה A** – MOCA 27/30 נחשב תקין (סף 26), אין הפרעה תפקודית, ומצב הרוח הירוד מרמז על דיכאון כגורם לתלונות הזיכרון. מדובר לכל היותר ב-MCI או פסאודו-דמנציה דיכאונית – אין המלצה לטיפול ב-AChEI.\n\n**חולה B** – סיעודי לחלוטין, אינו מזהה בני משפחה – דמנציה חמורה מאוד. התועלת ממעכבי AChE בשלב זה מוגבלת מאוד, ולא ניתן אף להעריך קוגניטיבית.\n\nExplanation under review: the official key is C; the seizure-specific rationale for option D requires verification against the original 7e source.",
+      "explanation": "**תשובה נכונה: C**\n\nהמפתח הרשמי הוא ג׳.\n\nמעכבי אצטילכולין אסטראז (AChEIs) כמו דונפזיל, ריבסטיגמין וגלנטמין משמשים לטיפול באלצהיימר; ההתוויות משתנות לפי התרופה והתכשיר וכוללות גם מחלה חמורה בחלקם (Hazzard 8e, טבלה 59-7, עמ׳ 912). **חולה C** – אישה בת 78 עם ירידה בזיכרון, אובדן חפצים, שוטטות ו-MMSE 23/30 – מתאימה לפרופיל של דמנציה קלה-בינונית, וזו האינדיקציה הקלאסית לטיפול.\n\n**חולה A** – MOCA 27/30 נחשב תקין (סף 26), אין הפרעה תפקודית, ומצב הרוח הירוד מרמז על דיכאון כגורם לתלונות הזיכרון. מדובר לכל היותר ב-MCI או פסאודו-דמנציה דיכאונית – אין המלצה לטיפול ב-AChEI.\n\n**חולה B** – סיעודי לחלוטין, אינו מזהה בני משפחה – דמנציה חמורה מאוד. התועלת ממעכבי AChE בשלב זה מוגבלת מאוד, ולא ניתן אף להעריך קוגניטיבית.",
       "explanationSource": {
         "edition": 8,
         "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
         "release": "v75"
-      }
+      },
+      "explanationReviewNote": "the official key is C; the seizure-specific rationale for option D requires verification against the original 7e source."
     },
     "2422": {
       "id": "mcq-ffcc81375b777601f194e52e",
@@ -3059,7 +3084,8 @@
       "fromBasic": false,
       "duplicates": [],
       "q": "בת 85, ברקע דיכאון, פרפור עליות התקפי, היפרליפידמיה. אושפזה במחלקת פנימית גריאטרית בתמונה קלינית של דלקת ריאות. תרופות: ECITRALOPAM 30 mg X1; AMIODARONE 200 mg X1; RIVAROXABAN 15 mg X1. הותחל טיפול ב- LEVOFLOXACIN (TAVANIC). יומיים לאחר האשפוז היא נמצאת מחוסרת הכרה במיטתה. הממצא במוניטור מופיע בתמונה 3. מספר תרופות אותן החולה מקבלת יכולות לגרום לתופעה זו. איזו תרופה לא גורמת לתופעה?",
-      "explanation": "Explanation under review: the official key is D; the original source text is being checked.\n\nריווארוקסבן (Rivaroxaban) הוא מעכב ישיר של פקטור Xa, ומנגנון פעולתו הוא אנטי-קואגולנטי בלבד — הוא אינו משפיע כלל על מוליכות חשמלית בלב, על מרווח ה-QT, ואינו קשור בשום מנגנון להארכת רפולריזציה חדרית. לפיכך, הוא **אינו תורם** להתפתחות Torsades de Pointes ואחראי לתשובה הנכונה.\n\n---\n\n**מדוע שאר התרופות כן תורמות:**\n\n**אמיודארון (A):** זהו נוגד הפרעות קצב מסוג III הידוע ביותר כמאריך מרווח QT. מנגנונו כולל חסימת ערוצי אשלגן (IKr), מה שמביא להארכה משמעותית של פוטנציאל הפעולה ויצירת אחרפוטנציאלים מוקדמים (EADs) — הבסיס הפתופיזיולוגי של Torsades. אמיודארון הוא גם מעכב חזק של CYP3A4 ו-CYP2C9, מה שמגביר רמות של תרופות נוספות. חשוב לציין כי למרות הארכת QT, Torsades עם אמיודארון פחות שכיח יחסית בהשוואה לנוגדי הפרעות קצב אחרים מסיבות מורכבות — אך הוא ודאי תורם במצב זה.\n\n**אסציטלופרם (B):** ה-SSRI מסוג זה הוא מבין ה-SSRIs בעל הפוטנציאל **הגבוה ביותר** להארכת QT, בשל חסימה ישירה של ערוץ IKr (hERG). ה-FDA הנפיק אזהרה ספציפית על כך, במיוחד במינונים גבוהים ובקשישים. בשילוב עם תרופות נוספות המאריכות QT, הסיכון הוא סינרגיסטי.\n\n**לבופלוקסצין (C):** פלואורוקינולונים, ובמיוחד לבופלוקסצין, הם גורם קלאסי ומוכר להארכת QT והשראת Torsades. גם כאן המנגנון כולל חסימת ערוץ IKr. בגיל מבוגר, עם ירידה בקצב הסינוס, היפוקלמיה, ובשילוב תרופות נוספות כבמקרה זה — הסיכון מוגבר באופן משמעותי.\n\n---\n\n**פנינה קלינית / טיפ לבחינה:**\n\nבמטופל גריאטרי עם Torsades de Pointes, יש לבצע סקר שיטתי של **כל** התרופות המאריכות QT באמצעות כלים כגון CredibleMeds/AzCERT. השילוב הקלאסי המסוכן הוא: אמיודארון + אנטיביוטיקה מהמשפחה הפלואורוקינולונית + SSRI — שלושה חוסמי IKr בו-זמנית. ריווארוקסבן ושאר NOACs **לעולם** אינם מאריכים QT ואין לבלבל בין תפקידם האנטי-קואגולנטי לבין השפעה אלקטרופיזיולוגית."
+      "explanation": "ריווארוקסבן (Rivaroxaban) הוא מעכב ישיר של פקטור Xa, ומנגנון פעולתו הוא אנטי-קואגולנטי בלבד — הוא אינו משפיע כלל על מוליכות חשמלית בלב, על מרווח ה-QT, ואינו קשור בשום מנגנון להארכת רפולריזציה חדרית. לפיכך, הוא **אינו תורם** להתפתחות Torsades de Pointes ואחראי לתשובה הנכונה.\n\n---\n\n**מדוע שאר התרופות כן תורמות:**\n\n**אמיודארון (A):** זהו נוגד הפרעות קצב מסוג III הידוע ביותר כמאריך מרווח QT. מנגנונו כולל חסימת ערוצי אשלגן (IKr), מה שמביא להארכה משמעותית של פוטנציאל הפעולה ויצירת אחרפוטנציאלים מוקדמים (EADs) — הבסיס הפתופיזיולוגי של Torsades. אמיודארון הוא גם מעכב חזק של CYP3A4 ו-CYP2C9, מה שמגביר רמות של תרופות נוספות. חשוב לציין כי למרות הארכת QT, Torsades עם אמיודארון פחות שכיח יחסית בהשוואה לנוגדי הפרעות קצב אחרים מסיבות מורכבות — אך הוא ודאי תורם במצב זה.\n\n**אסציטלופרם (B):** ה-SSRI מסוג זה הוא מבין ה-SSRIs בעל הפוטנציאל **הגבוה ביותר** להארכת QT, בשל חסימה ישירה של ערוץ IKr (hERG). ה-FDA הנפיק אזהרה ספציפית על כך, במיוחד במינונים גבוהים ובקשישים. בשילוב עם תרופות נוספות המאריכות QT, הסיכון הוא סינרגיסטי.\n\n**לבופלוקסצין (C):** פלואורוקינולונים, ובמיוחד לבופלוקסצין, הם גורם קלאסי ומוכר להארכת QT והשראת Torsades. גם כאן המנגנון כולל חסימת ערוץ IKr. בגיל מבוגר, עם ירידה בקצב הסינוס, היפוקלמיה, ובשילוב תרופות נוספות כבמקרה זה — הסיכון מוגבר באופן משמעותי.\n\n---\n\n**פנינה קלינית / טיפ לבחינה:**\n\nבמטופל גריאטרי עם Torsades de Pointes, יש לבצע סקר שיטתי של **כל** התרופות המאריכות QT באמצעות כלים כגון CredibleMeds/AzCERT. השילוב הקלאסי המסוכן הוא: אמיודארון + אנטיביוטיקה מהמשפחה הפלואורוקינולונית + SSRI — שלושה חוסמי IKr בו-זמנית. ריווארוקסבן ושאר NOACs **לעולם** אינם מאריכים QT ואין לבלבל בין תפקידם האנטי-קואגולנטי לבין השפעה אלקטרופיזיולוגית.",
+      "explanationReviewNote": "the official key is D; the original source text is being checked."
     },
     "174": {
       "id": "mcq-08e57c41fba38974834cfcc7",
@@ -3345,7 +3371,8 @@
       "duplicates": [
         356
       ],
-      "explanation": "Explanation under review: the official key is B; the original source text is being checked.\n\nהמטופלת מציגה תמונה קלאסית של **רעד אסנציאלי (Essential Tremor)**: רעד פוסטורלי וקינטי דו-צדדי וסימטרי, מערב ידיים וראש, מחמיר במתח נפשי, משתפר עם אלכוהול, ללא ממצאים נוירולוגיים נוספים. זהו הרעד השכיח ביותר באוכלוסייה המבוגרת.\n\n**התשובה הנכונה היא B – Beta blockers**, ובפרט **פרופרנולול (Propranolol)**. זהו קו הטיפול הראשון ברעד אסנציאלי, עם יעילות מוכחת בהפחתת אמפליטודת הרעד. המנגנון כולל חסימת קולטני β2-אדרנרגיים פריפריים בשרירי השלד. טיפול חלופי בקו ראשון הוא פרימידון (Primidone).\n\n**A – Levodopa+Carbidopa** – טיפול בפרקינסוניזם, שבו הרעד הוא רעד מנוחה (rest tremor), חד-צדדי בדרך כלל, עם ברדיקינזיה ורגידיות. כאן אין סימנים פרקינסוניאניים ולכן אין התוויה.\n\n**C – Calcium channel blockers** – אין להם תפקיד מוכח בטיפול ברעד אסנציאלי. פלונאריזין עלול אף לגרום לפרקינסוניזם.\n\n**D – Amantadine** – משמש בפרקינסון (בעיקר לדיסקינזיה) ואינו טיפול ברעד אסנציאלי.\n\n**פנינה קלינית:** השילוב של רעד סימטרי + מעורבות ראש + הקלה באלכוהול + בדיקה נוירולוגית תקינה = רעד אסנציאלי. רעד ראש כמעט ולא מופיע בפרקינסון."
+      "explanation": "המטופלת מציגה תמונה קלאסית של **רעד אסנציאלי (Essential Tremor)**: רעד פוסטורלי וקינטי דו-צדדי וסימטרי, מערב ידיים וראש, מחמיר במתח נפשי, משתפר עם אלכוהול, ללא ממצאים נוירולוגיים נוספים. זהו הרעד השכיח ביותר באוכלוסייה המבוגרת.\n\n**התשובה הנכונה היא B – Beta blockers**, ובפרט **פרופרנולול (Propranolol)**. זהו קו הטיפול הראשון ברעד אסנציאלי, עם יעילות מוכחת בהפחתת אמפליטודת הרעד. המנגנון כולל חסימת קולטני β2-אדרנרגיים פריפריים בשרירי השלד. טיפול חלופי בקו ראשון הוא פרימידון (Primidone).\n\n**A – Levodopa+Carbidopa** – טיפול בפרקינסוניזם, שבו הרעד הוא רעד מנוחה (rest tremor), חד-צדדי בדרך כלל, עם ברדיקינזיה ורגידיות. כאן אין סימנים פרקינסוניאניים ולכן אין התוויה.\n\n**C – Calcium channel blockers** – אין להם תפקיד מוכח בטיפול ברעד אסנציאלי. פלונאריזין עלול אף לגרום לפרקינסוניזם.\n\n**D – Amantadine** – משמש בפרקינסון (בעיקר לדיסקינזיה) ואינו טיפול ברעד אסנציאלי.\n\n**פנינה קלינית:** השילוב של רעד סימטרי + מעורבות ראש + הקלה באלכוהול + בדיקה נוירולוגית תקינה = רעד אסנציאלי. רעד ראש כמעט ולא מופיע בפרקינסון.",
+      "explanationReviewNote": "the official key is B; the original source text is being checked."
     },
     "189": {
       "id": "mcq-5e41e7a32048963dcee0a671",
@@ -3361,7 +3388,8 @@
         357
       ],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "Explanation under review: the official key is A; the original source text is being checked.\n\n## הסבר קליני\n\nעל פי ה-**ADA Standards of Medical Care in Diabetes 2020**, ניהול סוכרת במבוגרים מחולק לפי **מצב תפקודי ובריאותי**.\n\n**מדוע תשובה 0 נכונה?**\n\nהמטופלת מתוארת כ**עצמאית בתפקוד וללא ירידה קוגניטיבית** - מוגדרת כ\"healthy elderly\". עבור קבוצה זו, ה-ADA ממליץ על:\n- **יעד HbA1c < 7.5%** (יותר מתון מאשר במבוגרים צעירים)\n- **הערכה קוגניטיבית שנתית** - חשובה לזיהוי מוקדם של ירידה קוגניטיבית שעלולה להשפיע על יכולת הטיפול העצמי\n\n**מדוע התשובות האחרות שגויות?**\n\n**תשובה 1**: יעד HbA1c < 7% **קפדני מדי** לגיל 84, גם אם תפקודית. יעד לחץ דם 130/80 נכון, אך זה לא ספציפי לקשישים בריאים.\n\n**תשובה 2**: טווח גלוקוז 100-200 **רחב מדי ולא מדויק**. סטטינים חשובים אך לא ייחודיים לקשישים.\n\n**תשובה 3**: יעד גלוקוז 70-100 **נמוך מדי ומסוכן** בקשישים (סיכון להיפוגליקמיה). בדיקת כף רגל חשובה אך לא מגדירה את הטיפול בקשישים בריאים.\n\nעל פי **Hazzard's Geriatric Medicine**, יש להתאים יעדים גליקמיים למצב התפקודי ולתוחלת החיים."
+      "explanation": "## הסבר קליני\n\nעל פי ה-**ADA Standards of Medical Care in Diabetes 2020**, ניהול סוכרת במבוגרים מחולק לפי **מצב תפקודי ובריאותי**.\n\n**מדוע תשובה 0 נכונה?**\n\nהמטופלת מתוארת כ**עצמאית בתפקוד וללא ירידה קוגניטיבית** - מוגדרת כ\"healthy elderly\". עבור קבוצה זו, ה-ADA ממליץ על:\n- **יעד HbA1c < 7.5%** (יותר מתון מאשר במבוגרים צעירים)\n- **הערכה קוגניטיבית שנתית** - חשובה לזיהוי מוקדם של ירידה קוגניטיבית שעלולה להשפיע על יכולת הטיפול העצמי\n\n**מדוע התשובות האחרות שגויות?**\n\n**תשובה 1**: יעד HbA1c < 7% **קפדני מדי** לגיל 84, גם אם תפקודית. יעד לחץ דם 130/80 נכון, אך זה לא ספציפי לקשישים בריאים.\n\n**תשובה 2**: טווח גלוקוז 100-200 **רחב מדי ולא מדויק**. סטטינים חשובים אך לא ייחודיים לקשישים.\n\n**תשובה 3**: יעד גלוקוז 70-100 **נמוך מדי ומסוכן** בקשישים (סיכון להיפוגליקמיה). בדיקת כף רגל חשובה אך לא מגדירה את הטיפול בקשישים בריאים.\n\nעל פי **Hazzard's Geriatric Medicine**, יש להתאים יעדים גליקמיים למצב התפקודי ולתוחלת החיים.",
+      "explanationReviewNote": "the official key is A; the original source text is being checked."
     },
     "190": {
       "id": "mcq-8bb3225a8c4eb0919527c5c1",
@@ -3396,7 +3424,8 @@
       "duplicates": [
         359
       ],
-      "explanation": "Explanation under review: the official key is C; the original source text is being checked.\n\nההסבר הוסר — המפתח הרשמי של IMA נשאר ג (הרופא האחראי בהתייעצות עם השכנה). לפי חוק החולה הנוטה למות, §39(ב), ייפוי כוח שלא חודש הוא ״מסמך שאינו מחייב״, אך הרופא האחראי חייב לעיין בו ורשאי להתחשב בו. בהעדר הנחיות או החלטות בתוקף, §5(ג) מפנה להחלטת הרופא בהתחשב בהצהרה מפורשת של ״אדם קרוב״; §3 דורש קרבה משפחתית או רגשית, מסירות והיכרות רצופה ומתמשכת. מינוי השכנה בעבר אינו מוכיח לבדו שכל התנאים מתקיימים. נוסף לכך, אם מתקיימת הגדרת ״חסוי״ שב־§29(א), ורצונה אינו ידוע, §29(ג) דורש הסכמת הרופא והאפוטרופוס להארכת חיים, ובכל מקרה אחר הכרעת ועדה מוסדית. לכן הנוסח שסופק אינו תומך באופן חד־משמעי בהסבר למפתח על סמך נתוני השאלה בלבד. מקור: A_dying-patient-law_nevo-consolidated.htm, §§3, 5(ב)–(ג), 29, 39(ב)."
+      "explanation": "ההסבר הוסר — המפתח הרשמי של IMA נשאר ג (הרופא האחראי בהתייעצות עם השכנה). לפי חוק החולה הנוטה למות, §39(ב), ייפוי כוח שלא חודש הוא ״מסמך שאינו מחייב״, אך הרופא האחראי חייב לעיין בו ורשאי להתחשב בו. בהעדר הנחיות או החלטות בתוקף, §5(ג) מפנה להחלטת הרופא בהתחשב בהצהרה מפורשת של ״אדם קרוב״; §3 דורש קרבה משפחתית או רגשית, מסירות והיכרות רצופה ומתמשכת. מינוי השכנה בעבר אינו מוכיח לבדו שכל התנאים מתקיימים. נוסף לכך, אם מתקיימת הגדרת ״חסוי״ שב־§29(א), ורצונה אינו ידוע, §29(ג) דורש הסכמת הרופא והאפוטרופוס להארכת חיים, ובכל מקרה אחר הכרעת ועדה מוסדית. לכן הנוסח שסופק אינו תומך באופן חד־משמעי בהסבר למפתח על סמך נתוני השאלה בלבד. מקור: A_dying-patient-law_nevo-consolidated.htm, §§3, 5(ב)–(ג), 29, 39(ב).",
+      "explanationReviewNote": "the official key is C; the original source text is being checked."
     },
     "192": {
       "id": "mcq-a7281baa9e47a1ae8a80819e",
@@ -3411,12 +3440,13 @@
       "duplicates": [
         360
       ],
-      "explanation": "התשובה הנכונה היא C מכיוון שמחקרים רבים הוכיחו כי חולי דמנציה מתקדמת סובלים מנטל סימפטומים גופניים משמעותי הכולל כאב, קוצר נשימה, בעיות בליעה, זיהומים חוזרים ועוד. הייחוד בטיפול הפליאטיבי בדמנציה נובע מכך  הזיהוי והטיפול בהם מורכבים יותר בשל קשיי התקשורת של החולה. עקרון זה מודגש ב-Hazzard's Geriatric Medicine בפרקים העוסקים בטיפול בסוף החיים בדמנציה.\n\nתשובה A שגויה — כאב שכיח מאוד בדמנציה מתקדמת, אך לעיתים קרובות אינו מזוהה ואינו מטופל כראוי בשל חוסר היכולת של החולה לדווח עליו. מדובר בבעיה מרכזית ולא בשכיחות נמוכה.\n\nתשובה B שגויה — דווקא בדמנציה יש חשיבות רבה לשילוב מומחים בטיפול פליאטיבי, כיוון שהמורכבות של זיהוי סימפטומים, קבלת החלטות אתיות וליווי המשפחה דורשים מומחיות ייעודית.\n\nתשובה D שגויה — הגישה המקובלת כיום היא שילוב מוקדם של טיפול פליאטיבי לאורך כל מסלול המחלה, ולא רק בשלבים הסופיים.\n\n**פנינה קלינית:** בחולי דמנציה, יש להשתמש בכלים מובנים להערכת כאב כגון PAINAD, מכיוון שהחולה אינו יכול לדווח באופן מילולי על סבלו.\n\nExplanation under review: the official key is C; the exact quantitative comparison with cancer patients requires the original reference. Hazzard 8e pp.1047–1048 supports substantial symptom burden, not a quantified equivalence.",
+      "explanation": "התשובה הנכונה היא C מכיוון שמחקרים רבים הוכיחו כי חולי דמנציה מתקדמת סובלים מנטל סימפטומים גופניים משמעותי הכולל כאב, קוצר נשימה, בעיות בליעה, זיהומים חוזרים ועוד. הייחוד בטיפול הפליאטיבי בדמנציה נובע מכך  הזיהוי והטיפול בהם מורכבים יותר בשל קשיי התקשורת של החולה. עקרון זה מודגש ב-Hazzard's Geriatric Medicine בפרקים העוסקים בטיפול בסוף החיים בדמנציה.\n\nתשובה A שגויה — כאב שכיח מאוד בדמנציה מתקדמת, אך לעיתים קרובות אינו מזוהה ואינו מטופל כראוי בשל חוסר היכולת של החולה לדווח עליו. מדובר בבעיה מרכזית ולא בשכיחות נמוכה.\n\nתשובה B שגויה — דווקא בדמנציה יש חשיבות רבה לשילוב מומחים בטיפול פליאטיבי, כיוון שהמורכבות של זיהוי סימפטומים, קבלת החלטות אתיות וליווי המשפחה דורשים מומחיות ייעודית.\n\nתשובה D שגויה — הגישה המקובלת כיום היא שילוב מוקדם של טיפול פליאטיבי לאורך כל מסלול המחלה, ולא רק בשלבים הסופיים.\n\n**פנינה קלינית:** בחולי דמנציה, יש להשתמש בכלים מובנים להערכת כאב כגון PAINAD, מכיוון שהחולה אינו יכול לדווח באופן מילולי על סבלו.",
       "explanationSource": {
         "edition": 8,
         "status": "Sentence-level source-image corrections; original IMA 7e bibliography retained. Review notes identify unresolved passages.",
         "release": "v75"
-      }
+      },
+      "explanationReviewNote": "the official key is C; the exact quantitative comparison with cancer patients requires the original reference. Hazzard 8e pp.1047–1048 supports substantial symptom burden, not a quantified equivalence."
     },
     "193": {
       "id": "mcq-6ba05d11f3ef3af2f94b0786",
@@ -3431,7 +3461,7 @@
       "duplicates": [
         361
       ],
-      "explanation": "החוזר מתייחס לבעיות חריפות חמורות המונעות מאמצים שיקומיים ולהערכה מחדש לאחר האירוע החריף; הוא אינו קובע סף CRP או דרישה גורפת לנרמול מדדי דלקת (חוזר 4/2009, עמ׳ 4).\n\nהמפתח הרשמי לאחר ערעור הוא ג׳, ד׳. ד׳ נתמכת בשיקולי יציבות רפואית ושיתוף פעולה; פצע לחץ והזנה בזונדה שאינם מונעים שיקום אינם התוויות נגד להפניה (חוזר 4/2009, עמ׳ 4, סעיפים 5.2–5.3).\n\nExplanation under review: D is supported; the source does not explain the additional acceptance of C after appeal.",
+      "explanation": "החוזר מתייחס לבעיות חריפות חמורות המונעות מאמצים שיקומיים ולהערכה מחדש לאחר האירוע החריף; הוא אינו קובע סף CRP או דרישה גורפת לנרמול מדדי דלקת (חוזר 4/2009, עמ׳ 4).\n\nהמפתח הרשמי לאחר ערעור הוא ג׳, ד׳. ד׳ נתמכת בשיקולי יציבות רפואית ושיתוף פעולה; פצע לחץ והזנה בזונדה שאינם מונעים שיקום אינם התוויות נגד להפניה (חוזר 4/2009, עמ׳ 4, סעיפים 5.2–5.3).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0008",
@@ -3443,7 +3473,8 @@
         "pages": [
           "MoH4/2009 PDF4"
         ]
-      }
+      },
+      "explanationReviewNote": "D is supported; the source does not explain the additional acceptance of C after appeal."
     },
     "194": {
       "id": "mcq-392a084da2a4b39dd0a1eaed",
@@ -4120,7 +4151,7 @@
       "duplicates": [
         2496
       ],
-      "explanation": "Explanation under review: the official key is B, C; the source text is being checked.\n\n## הסבר קליני\n\nהמטופל מציג תמונה קלינית קלאסית של מחלת אלצהיימר (AD): ירידה הדרגתית ומתקדמת בזיכרון לטווח קצר כנקודת פתיחה לפני שלוש שנים, התקדמות לפגיעה בזיכרון לטווח ארוך, אפרקסיה (קושי במכשירי בית, קושי בהתאמת בגדים), דיסאוריינטציה טופוגרפית (הליכה לאיבוד), שינויי אישיות, וחוסר תובנה (אנוסוגנוזיה) — כולם מאפיינים של שלב בינוני-מתקדם של AD עם ציון MMSE 16. הביומרקרים בנוזל השדרה האופייניים ל-AD כוללים **ירידה** ברמת אמילואיד-בטא 42 (עקב שקיעתו בפלאקים) ו**עלייה** ברמות TAU ו-phospho-TAU (עקב ניוון נוירופיברילרי). על פי עקרונות הפרק העוסק בדמנציה בהאריסון ובפרק הייעודי בהאזרד, שילוב זה של שינויים בביומרקרים הוא המאפיין הפתופיזיולוגי המרכזי של AD ומשמש כיום לאבחון ביולוגי מוגדר.\n\n---\n\n**תשובה A — GDS 11:** מדד ה-GDS (Geriatric Depression Scale) מודד דיכאון גריאטרי. ציון 11 מצביע על דיכאון בינוני-חמור. המטופל מציג אפתיה ואדישות, אך אלו מאפיינים נוירופסיכיאטריים של AD ולא בהכרח דיכאון קליני. בנוסף, חוסר תובנה (אנוסוגנוזיה) האופייני ל-AD מקשה על מילוי תקין של שאלוני דיווח עצמי כמו GDS — המטופל אינו מזהה בעיה ולכן לא ידווח על תסמיני דיכאון בצורה אמינה.\n\n**תשובה D — EMG עם איטיות של גלי GAMMA:** בדיקת EMG (אלקטרומיוגרפיה) בודקת את מוליכות עצבים פריפריים ופעילות שריר. אין עדות לפגיעה נוירומוסקולרית פריפרית בחולה זה, ולמחלת אלצהיימר אין ביטוי אופייני ב-EMG. גלי GAMMA אינם מדד EMG סטנדרטי לדמנציה — מדובר בתשובת הסחה ללא בסיס פתופיזיולוגי רלוונטי.\n\n---\n\n### פנינה קלינית לבחינה\n\nבאלצהיימר, זכור: ב-CSF — **\"אמילואיד יורד, TAU עולה\"** (Down-Up). אנוסוגנוזיה (חוסר תובנה על המחלה) היא סימן אופייני לשלב בינוני של AD ומבדילה אותו מדיכאון, שבו החולה בדרך כלל מודע למצבו ואף מגזים בתלונותיו.",
+      "explanation": "## הסבר קליני\n\nהמטופל מציג תמונה קלינית קלאסית של מחלת אלצהיימר (AD): ירידה הדרגתית ומתקדמת בזיכרון לטווח קצר כנקודת פתיחה לפני שלוש שנים, התקדמות לפגיעה בזיכרון לטווח ארוך, אפרקסיה (קושי במכשירי בית, קושי בהתאמת בגדים), דיסאוריינטציה טופוגרפית (הליכה לאיבוד), שינויי אישיות, וחוסר תובנה (אנוסוגנוזיה) — כולם מאפיינים של שלב בינוני-מתקדם של AD עם ציון MMSE 16. הביומרקרים בנוזל השדרה האופייניים ל-AD כוללים **ירידה** ברמת אמילואיד-בטא 42 (עקב שקיעתו בפלאקים) ו**עלייה** ברמות TAU ו-phospho-TAU (עקב ניוון נוירופיברילרי). על פי עקרונות הפרק העוסק בדמנציה בהאריסון ובפרק הייעודי בהאזרד, שילוב זה של שינויים בביומרקרים הוא המאפיין הפתופיזיולוגי המרכזי של AD ומשמש כיום לאבחון ביולוגי מוגדר.\n\n---\n\n**תשובה A — GDS 11:** מדד ה-GDS (Geriatric Depression Scale) מודד דיכאון גריאטרי. ציון 11 מצביע על דיכאון בינוני-חמור. המטופל מציג אפתיה ואדישות, אך אלו מאפיינים נוירופסיכיאטריים של AD ולא בהכרח דיכאון קליני. בנוסף, חוסר תובנה (אנוסוגנוזיה) האופייני ל-AD מקשה על מילוי תקין של שאלוני דיווח עצמי כמו GDS — המטופל אינו מזהה בעיה ולכן לא ידווח על תסמיני דיכאון בצורה אמינה.\n\n**תשובה D — EMG עם איטיות של גלי GAMMA:** בדיקת EMG (אלקטרומיוגרפיה) בודקת את מוליכות עצבים פריפריים ופעילות שריר. אין עדות לפגיעה נוירומוסקולרית פריפרית בחולה זה, ולמחלת אלצהיימר אין ביטוי אופייני ב-EMG. גלי GAMMA אינם מדד EMG סטנדרטי לדמנציה — מדובר בתשובת הסחה ללא בסיס פתופיזיולוגי רלוונטי.\n\n---\n\n### פנינה קלינית לבחינה\n\nבאלצהיימר, זכור: ב-CSF — **\"אמילואיד יורד, TAU עולה\"** (Down-Up). אנוסוגנוזיה (חוסר תובנה על המחלה) היא סימן אופייני לשלב בינוני של AD ומבדילה אותו מדיכאון, שבו החולה בדרך כלל מודע למצבו ואף מגזים בתלונותיו.",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0009",
@@ -4128,7 +4159,8 @@
           "multi-explanation-review.json",
           "pages/2022_key-all.png"
         ]
-      }
+      },
+      "explanationReviewNote": "the official key is B, C; the source text is being checked."
     },
     "3174": {
       "id": "mcq-55806966640834d88ff96fbd",
@@ -4701,7 +4733,7 @@
       "duplicates": [
         2521
       ],
-      "explanation": "Explanation under review: the official key is A, B; the source text is being checked.",
+      "explanation": "",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0010",
@@ -4710,7 +4742,8 @@
           "pages/2022_key-all.png"
         ]
       },
-      "q": "בת 75 התאשפזה לאחרונה עקב בצקת ריאה על רקע אי ספיקת לב עם EF-30%, משנית למחלת לב איסכמית. גורמי סיכון: סוכרת, היפרליפידמיה, יתר לחץ דם אינה מעשנת. הטיפול התרופתי הקבוע כולל VALSARTAN, PROPRANOLOL, ASPIRIN, FUROSEMIDE, METFORMIN. אילו המלצות טיפול מתאימות לחולה הזאת?"
+      "q": "בת 75 התאשפזה לאחרונה עקב בצקת ריאה על רקע אי ספיקת לב עם EF-30%, משנית למחלת לב איסכמית. גורמי סיכון: סוכרת, היפרליפידמיה, יתר לחץ דם אינה מעשנת. הטיפול התרופתי הקבוע כולל VALSARTAN, PROPRANOLOL, ASPIRIN, FUROSEMIDE, METFORMIN. אילו המלצות טיפול מתאימות לחולה הזאת?",
+      "explanationReviewNote": "the official key is A, B; the source text is being checked."
     },
     "3231": {
       "id": "mcq-8c6249eede6e862a64792745",
@@ -5150,7 +5183,7 @@
         2542,
         3139
       ],
-      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.",
+      "explanation": "",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0011",
@@ -5159,7 +5192,8 @@
           "pages/2022_key-all.png"
         ]
       },
-      "q": "מי מהחולים הבאים נמצא בסיכון הגבוה ביותר לפתח CVA ב-3 חודשים אחרי TIA לפי ABCD2 Score?"
+      "q": "מי מהחולים הבאים נמצא בסיכון הגבוה ביותר לפתח CVA ב-3 חודשים אחרי TIA לפי ABCD2 Score?",
+      "explanationReviewNote": "the official key is B, D; the source text is being checked."
     },
     "3224": {
       "id": "mcq-fd9d0f637d71d1ae1ad4cae6",
@@ -5635,7 +5669,8 @@
       "duplicates": [
         2606
       ],
-      "explanation": "## הסבר קליני\n\nRadiographic findings and intraventricular pressure measurement aid the diagnosis of NPH (Hazzard 8e p.876). Explanation under review: the official key is C; the source text supporting the keyed next step is being checked."
+      "explanation": "## הסבר קליני\n\nRadiographic findings and intraventricular pressure measurement aid the diagnosis of NPH (Hazzard 8e p.876).",
+      "explanationReviewNote": "the official key is C; the source text supporting the keyed next step is being checked."
     },
     "3252": {
       "id": "mcq-bd9893fe8c4027b4668a863e",
@@ -5892,7 +5927,8 @@
         "renderScale": 2,
         "verification": "Rendered IMA album label and complete figure visually verified; v67 correction."
       },
-      "explanation": "## היפוקלמיה – התשובה הנכונה ✅\n\n**למה ב' נכונה?**\nהתמונה הקלינית – **איליאוס פרליטי** (חסימת מעי תפקודית): בטן תפוחה, פריסטלטיקה מופחתת, עצירות לאחר ניתוח אורתופדי גדול.\n\nהיפוקלמיה עלולה לפגוע בתנועתיות המעי (Hazzard 8e p.1361) – אשלגן נדרש לתקינות פוטנציאל קרום שריר חלק המעי. ירידת K⁺ → **אטוניה** של שריר המעי → איליאוס.\n\n**גורמי סיכון במקרה זה:**\nExplanation under review: the official key is B; the source text is being checked."
+      "explanation": "## היפוקלמיה – התשובה הנכונה ✅\n\n**למה ב' נכונה?**\nהתמונה הקלינית – **איליאוס פרליטי** (חסימת מעי תפקודית): בטן תפוחה, פריסטלטיקה מופחתת, עצירות לאחר ניתוח אורתופדי גדול.\n\nהיפוקלמיה עלולה לפגוע בתנועתיות המעי (Hazzard 8e p.1361) – אשלגן נדרש לתקינות פוטנציאל קרום שריר חלק המעי. ירידת K⁺ → **אטוניה** של שריר המעי → איליאוס.\n\n**גורמי סיכון במקרה זה:**",
+      "explanationReviewNote": "the official key is B; the source text is being checked."
     },
     "3265": {
       "id": "mcq-368d1c6ff706583ac2c3f156",
@@ -6154,7 +6190,7 @@
       "duplicates": [
         2629
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. Vismodegib מיועד ל־BCC גרורתי או מתקדם מקומית שאינו נתיח, כאשר המטופל אינו מועמד להקרנות. עצם המיקום בעפעף או הישנות בקרקפת אינם מתעדים בשאלה את מלוא תנאי ההתאמה (Hazzard 8e, עמ׳ 1462).\n\n\n\nExplanation under review: The source supports the drug for advanced BCC, but operability and radiotherapy eligibility are not specified for either accepted vignette.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. Vismodegib מיועד ל־BCC גרורתי או מתקדם מקומית שאינו נתיח, כאשר המטופל אינו מועמד להקרנות. עצם המיקום בעפעף או הישנות בקרקפת אינם מתעדים בשאלה את מלוא תנאי ההתאמה (Hazzard 8e, עמ׳ 1462).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0014",
@@ -6168,7 +6204,8 @@
         ],
         "edition": 8
       },
-      "q": "למי מהמטופלים הבאים הכי מתאים טיפול ב VISMODEGIB (תרופה מסוג Hh pathway inhibitor)?"
+      "q": "למי מהמטופלים הבאים הכי מתאים טיפול ב VISMODEGIB (תרופה מסוג Hh pathway inhibitor)?",
+      "explanationReviewNote": "The source supports the drug for advanced BCC, but operability and radiotherapy eligibility are not specified for either accepted vignette."
     },
     "3277": {
       "id": "mcq-c6818d990da1a7ac4b1db4da",
@@ -6425,7 +6462,7 @@
       "duplicates": [
         2642
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. התיאור של אפרקסיה שפתית וקושי בהבנת משפטים מורכבים מתאים לתיאור אפזיה לא־שוטפת/אגרמטית, שלעיתים קרובות קשורה לפתולוגיית tau. חלבון 14-3-3 נידון בנפרד בבירור מחלות פריון, ולא כהסבר טיפוסי לתסמונת השפתית הזאת (Hazzard 8e, עמ׳ 873, 876).\n\n\n\nExplanation under review: A is supported; the reason for accepting D in this language-predominant vignette remains unresolved.",
+      "explanation": "המפתח הרשמי מקבל א׳ וד׳. התיאור של אפרקסיה שפתית וקושי בהבנת משפטים מורכבים מתאים לתיאור אפזיה לא־שוטפת/אגרמטית, שלעיתים קרובות קשורה לפתולוגיית tau. חלבון 14-3-3 נידון בנפרד בבירור מחלות פריון, ולא כהסבר טיפוסי לתסמונת השפתית הזאת (Hazzard 8e, עמ׳ 873, 876).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0015",
@@ -6440,7 +6477,8 @@
         ],
         "edition": 8
       },
-      "q": "מטופל הסובל מדמנציה עם קושי ניכר בתפקוד השפתי. המטופל מסוגל להבין משפטים פשוטים, אך לא משפטים מורכבים. קיימת אפרקסיה שפתית. מה סביר למצוא מבחינה פתולוגית?"
+      "q": "מטופל הסובל מדמנציה עם קושי ניכר בתפקוד השפתי. המטופל מסוגל להבין משפטים פשוטים, אך לא משפטים מורכבים. קיימת אפרקסיה שפתית. מה סביר למצוא מבחינה פתולוגית?",
+      "explanationReviewNote": "A is supported; the reason for accepting D in this language-predominant vignette remains unresolved."
     },
     "3290": {
       "id": "mcq-4de2f99d12c0f96618a8056a",
@@ -6641,7 +6679,7 @@
       "duplicates": [
         2651
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. טבלה 99-11 מתארת הפחתת התקדמות CKD במעכבי SGLT2. לגבי חלק מאגוניסטי GLP-1 מתוארת הפחתת אירועים קרדיווסקולריים, אך אין לזהות זאת עם הטענה על הפחתת תסמיני אי־ספיקת לב שבאפשרות א׳ (Hazzard 8e, עמ׳ 1577–1578).\n\n\n\nExplanation under review: B is directly supported; the specific heart-failure symptom claim in accepted A is not established by the cited table.",
+      "explanation": "המפתח הרשמי מקבל א׳ וב׳. טבלה 99-11 מתארת הפחתת התקדמות CKD במעכבי SGLT2. לגבי חלק מאגוניסטי GLP-1 מתוארת הפחתת אירועים קרדיווסקולריים, אך אין לזהות זאת עם הטענה על הפחתת תסמיני אי־ספיקת לב שבאפשרות א׳ (Hazzard 8e, עמ׳ 1577–1578).",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -6650,7 +6688,8 @@
           1578
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "B is directly supported; the specific heart-failure symptom claim in accepted A is not established by the cited table."
     },
     "3300": {
       "id": "mcq-041747d2188be93271d452d3",
@@ -7508,7 +7547,7 @@
       },
       "q": "בן74 . מזה כחודשיים תסמיני דיכאון המשפיעים על התפקוד היומיומי. נבדק במרפאה ובוצעPHQ9 . מצ\"ב תמונת התוצאה של המבחן (ראה תמונה מספר3 ) . לפי הממצאים ?מהי האבחנה המתאימה",
       "questionSource": "IMA May 2024 Subspecialty question paper, rendered page 6, Q16; verbatim stem from Geriatrics/scripts/exam_audit/canonical/may24_al.json, checked against the rendered paper. Replaces upstream PHQ9=7 paraphrase.",
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. בתמונה סכום PHQ-9 הוא 3, וכל הסימפטומים שסומנו מופיעים רק במספר ימים. באלגוריתם האבחנתי נדרשים סימפטומים בתדירות של יותר ממחצית הימים, למעט פריט האובדנות; התמונה אינה מבססת את אלגוריתם Minor depression (Hazzard 8e, עמ׳ 1011; אלבום הבחינה, תמונה 3, עמ׳ 4).\n\nבאלבום הרשמי סומנו 1 בסעיפים 1, 4 ו-5, ו-0 בכל שאר הסעיפים: ציון החומרה הוא 3. לפי הוראות PHQ-9 ב-Hazzard 8e, עמ׳ 1011 (Figure 65-2), בסעיפים 1–8 נספר תסמין לצורך האבחנה כאשר הוא קיים ביותר ממחצית הימים או כמעט בכל יום. בסעיף 9 די גם במספר ימים. לפיכך בטופס הזה אין תסמינים בתדירות המזכה בספירה האבחנתית; הוא אינו ממלא את דרישות הטבלה לדיכאון מז׳ורי או מינורי.\n\nהמפתח הרשמי לאחר ערעורים מקבל ב׳ וד׳. הטופס וההוראות תומכים בד׳; לא נמצא במקור שנקרא הסבר לקבלת ב׳. \n\nמקורות: האלבום הרשמי, מאי 2024, תמונה 3; Hazzard 8e, p. 1011 (PDF p. 1045); מפתח IMA לאחר ערעורים, שאלה 16.\n\nExplanation under review: The source does not explain why Minor depression was also accepted for this image.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. בתמונה סכום PHQ-9 הוא 3, וכל הסימפטומים שסומנו מופיעים רק במספר ימים. באלגוריתם האבחנתי נדרשים סימפטומים בתדירות של יותר ממחצית הימים, למעט פריט האובדנות; התמונה אינה מבססת את אלגוריתם Minor depression (Hazzard 8e, עמ׳ 1011; אלבום הבחינה, תמונה 3, עמ׳ 4).\n\nבאלבום הרשמי סומנו 1 בסעיפים 1, 4 ו-5, ו-0 בכל שאר הסעיפים: ציון החומרה הוא 3. לפי הוראות PHQ-9 ב-Hazzard 8e, עמ׳ 1011 (Figure 65-2), בסעיפים 1–8 נספר תסמין לצורך האבחנה כאשר הוא קיים ביותר ממחצית הימים או כמעט בכל יום. בסעיף 9 די גם במספר ימים. לפיכך בטופס הזה אין תסמינים בתדירות המזכה בספירה האבחנתית; הוא אינו ממלא את דרישות הטבלה לדיכאון מז׳ורי או מינורי.\n\nהמפתח הרשמי לאחר ערעורים מקבל ב׳ וד׳. הטופס וההוראות תומכים בד׳; לא נמצא במקור שנקרא הסבר לקבלת ב׳. \n\nמקורות: האלבום הרשמי, מאי 2024, תמונה 3; Hazzard 8e, p. 1011 (PDF p. 1045); מפתח IMA לאחר ערעורים, שאלה 16.",
       "explanationIncomplete": true,
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -7520,7 +7559,8 @@
           "2024-May album PDF4"
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The source does not explain why Minor depression was also accepted for this image."
     },
     "3347": {
       "id": "mcq-72e468cf141dda15964157c9",
@@ -7535,7 +7575,7 @@
       "duplicates": [
         2743
       ],
-      "explanation": "המפתח הרשמי מקבל ג׳ וד׳. המקור מתאר שיא התאוששות בדיכאון ובקוגניציה סביב ארבעה חודשים, בשיווי משקל ובהליכה סביב תשעה חודשים, ובתפקודי גפיים תחתונות ובתפקודים מורכבים סביב שנה. לכן ד׳ נתמכת ישירות, בעוד המספר של חצי שנה בג׳ אינו המספר שבאיור (Hazzard 8e, עמ׳ 800).\n\n\n\nExplanation under review: Accepted D is directly supported; the exact six-month statement in accepted C differs from the cited recovery figure.",
+      "explanation": "המפתח הרשמי מקבל ג׳ וד׳. המקור מתאר שיא התאוששות בדיכאון ובקוגניציה סביב ארבעה חודשים, בשיווי משקל ובהליכה סביב תשעה חודשים, ובתפקודי גפיים תחתונות ובתפקודים מורכבים סביב שנה. לכן ד׳ נתמכת ישירות, בעוד המספר של חצי שנה בג׳ אינו המספר שבאיור (Hazzard 8e, עמ׳ 800).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0016",
@@ -7549,7 +7589,8 @@
         ],
         "edition": 8
       },
-      "q": "בן 87, לאחר ניתוח לתיקון שבר בצוואר הירך, שואל לגבי הפרוגנוזה בעוד שנה. מה מהבאים נכון?"
+      "q": "בן 87, לאחר ניתוח לתיקון שבר בצוואר הירך, שואל לגבי הפרוגנוזה בעוד שנה. מה מהבאים נכון?",
+      "explanationReviewNote": "Accepted D is directly supported; the exact six-month statement in accepted C differs from the cited recovery figure."
     },
     "3348": {
       "id": "mcq-e093e5a4b6fbeef11a52e246",
@@ -7654,7 +7695,7 @@
       "duplicates": [
         2747
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. בטבלה 83-1 תסמונת המוליטית־אורמית נכללת בפגיעה תוך־כלייתית; אי־ספיקת לב חריפה, לרבות בהקשר של יתר לחץ דם ממאיר, מופיעה בעמודת הסיבות הפרה־רנליות. הטבלה אינה מסבירה את קבלת א׳ בנוסח זה (Hazzard 8e, עמ׳ 1281).\n\n\n\nExplanation under review: D is directly supported; Table 83-1 places the acute cardiac-failure wording of A under prerenal causes.",
+      "explanation": "המפתח הרשמי מקבל א׳ וד׳. בטבלה 83-1 תסמונת המוליטית־אורמית נכללת בפגיעה תוך־כלייתית; אי־ספיקת לב חריפה, לרבות בהקשר של יתר לחץ דם ממאיר, מופיעה בעמודת הסיבות הפרה־רנליות. הטבלה אינה מסבירה את קבלת א׳ בנוסח זה (Hazzard 8e, עמ׳ 1281).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0018",
@@ -7668,7 +7709,8 @@
         ],
         "edition": 8
       },
-      "q": "מה גורם ל-INTRINSIC ACUTE KIDNEY INJURY?"
+      "q": "מה גורם ל-INTRINSIC ACUTE KIDNEY INJURY?",
+      "explanationReviewNote": "D is directly supported; Table 83-1 places the acute cardiac-failure wording of A under prerenal causes."
     },
     "3353": {
       "id": "mcq-34619531f641d311ae985624",
@@ -7980,7 +8022,7 @@
       "duplicates": [
         2764
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. חום בדרך כלל פחות בולט ב־RSV מאשר בשפעת, אך מחקרים מאוחרים המובאים בעמוד מצאו שיעורי אשפוז דומים ואף גבוהים יותר ב־RSV. אין להכליל שבכל אוכלוסייה RSV גורם לפחות אשפוזים (Hazzard 8e, עמ׳ 1737).\n\n\n\nExplanation under review: A is supported; the blanket lower-hospitalization claim in accepted B is not supported by the later studies summarized on this page.",
+      "explanation": "המפתח הרשמי מקבל א׳ וב׳. חום בדרך כלל פחות בולט ב־RSV מאשר בשפעת, אך מחקרים מאוחרים המובאים בעמוד מצאו שיעורי אשפוז דומים ואף גבוהים יותר ב־RSV. אין להכליל שבכל אוכלוסייה RSV גורם לפחות אשפוזים (Hazzard 8e, עמ׳ 1737).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0019",
@@ -7994,7 +8036,8 @@
         ],
         "edition": 8
       },
-      "q": "מה ההבדלים בין זיהום ויראלי בשפעת INFLUENZA VIRUS לעומת RESPIRATORY SYNCYTIAL VIRUS (RSV)?"
+      "q": "מה ההבדלים בין זיהום ויראלי בשפעת INFLUENZA VIRUS לעומת RESPIRATORY SYNCYTIAL VIRUS (RSV)?",
+      "explanationReviewNote": "A is supported; the blanket lower-hospitalization claim in accepted B is not supported by the later studies summarized on this page."
     },
     "3370": {
       "id": "mcq-16df878cdfb1631a3395a00d",
@@ -8304,7 +8347,7 @@
       "duplicates": [
         2780
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. הספר מתאר חרדה, דיכאון ושינויי אישיות לאחר זעזוע מוח, אך מציין שחומרת הפגיעה אינה מתואמת ישירות עם התפתחות התסמונת. יש להבחין בין נוסח המפתח לבין נוסח המקור (Hazzard 8e, עמ׳ 995).\n\n\n\nExplanation under review: C is directly supported; the claimed severity relationship in accepted B is not established by this passage.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. הספר מתאר חרדה, דיכאון ושינויי אישיות לאחר זעזוע מוח, אך מציין שחומרת הפגיעה אינה מתואמת ישירות עם התפתחות התסמונת. יש להבחין בין נוסח המפתח לבין נוסח המקור (Hazzard 8e, עמ׳ 995).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0021",
@@ -8318,7 +8361,8 @@
         ],
         "edition": 8
       },
-      "q": "מה מאפיין POST-CONCUSSIVE SYNDROME?"
+      "q": "מה מאפיין POST-CONCUSSIVE SYNDROME?",
+      "explanationReviewNote": "C is directly supported; the claimed severity relationship in accepted B is not established by this passage."
     },
     "3386": {
       "id": "mcq-cfab57b8fd5040313f58e263",
@@ -8409,7 +8453,7 @@
       "duplicates": [
         2786
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. בעמ׳ 997 מתוארים מחקרי עוקבה שבהם TBI עם אובדן הכרה לא נקשר לאבחנת אלצהיימר או לפתולוגיה אופיינית, אף ש־TBI קשור לסיכון לדמנציה באופן רחב יותר. אין לזהות סיכון לדמנציה מכל סוג עם קשר מוכח לאלצהיימר (Hazzard 8e, עמ׳ 997).\n\n\n\nExplanation under review: The cited page does not fully substantiate the accepted AD/NPH pair; it explicitly qualifies the AD association.",
+      "explanation": "המפתח הרשמי מקבל א׳ וב׳. בעמ׳ 997 מתוארים מחקרי עוקבה שבהם TBI עם אובדן הכרה לא נקשר לאבחנת אלצהיימר או לפתולוגיה אופיינית, אף ש־TBI קשור לסיכון לדמנציה באופן רחב יותר. אין לזהות סיכון לדמנציה מכל סוג עם קשר מוכח לאלצהיימר (Hazzard 8e, עמ׳ 997).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0022",
@@ -8423,7 +8467,8 @@
         ],
         "edition": 8
       },
-      "q": "לאיזה מהבאים יש קורלציה גבוהה עם TRAUMATIC BRAIN INJURY?"
+      "q": "לאיזה מהבאים יש קורלציה גבוהה עם TRAUMATIC BRAIN INJURY?",
+      "explanationReviewNote": "The cited page does not fully substantiate the accepted AD/NPH pair; it explicitly qualifies the AD association."
     },
     "3392": {
       "id": "mcq-93ccedd90799481334f485da",
@@ -8746,7 +8791,7 @@
       "duplicates": [
         2804
       ],
-      "explanation": "Explanation under review: the official key is B, D; the source text is being checked.",
+      "explanation": "",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0023",
@@ -8755,7 +8800,8 @@
           "pages/2024a_key-after-appeal-all.png"
         ]
       },
-      "q": "בת 76, עם גורמי סיכון קרדיווסקולריים, פונה לחדר מיון עם חולשת צד ימין, צניחת עפעף שמאל חלקית וכפל ראיה. היכן צפוי שימצא האירוע המוחי?"
+      "q": "בת 76, עם גורמי סיכון קרדיווסקולריים, פונה לחדר מיון עם חולשת צד ימין, צניחת עפעף שמאל חלקית וכפל ראיה. היכן צפוי שימצא האירוע המוחי?",
+      "explanationReviewNote": "the official key is B, D; the source text is being checked."
     },
     "3410": {
       "id": "mcq-5f192d8d33ffd433758e1fc3",
@@ -8785,7 +8831,7 @@
       "duplicates": [
         2806
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳, ג׳ וד׳. באיור 70-3 הטריגרים ביום הקבלה כוללים תסמינים גופניים או פסיכולוגיים שקשה לשלוט בהם, ויותר מאשפוז אחד לאותה סיבה בחודשים האחרונים. הצורך באופיואיד כשלעצמו אינו מנוסח שם כתחליף לקושי בשליטה בתסמינים (Hazzard 8e, עמ׳ 1082).\n\n\n\nExplanation under review: The source supports recurrent admission and difficult symptoms, but does not list every opioid-treated pain episode or every delirium episode as an unconditional day-one trigger.",
+      "explanation": "המפתח הרשמי מקבל ב׳, ג׳ וד׳. באיור 70-3 הטריגרים ביום הקבלה כוללים תסמינים גופניים או פסיכולוגיים שקשה לשלוט בהם, ויותר מאשפוז אחד לאותה סיבה בחודשים האחרונים. הצורך באופיואיד כשלעצמו אינו מנוסח שם כתחליף לקושי בשליטה בתסמינים (Hazzard 8e, עמ׳ 1082).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0024",
@@ -8799,7 +8845,8 @@
         ],
         "edition": 8
       },
-      "q": "במטופל עם מחלה מסכנת חיים, מהי אינדיקציה להזמנת יעוץ פליאטיבי לחולה ביום הראשון לאשפוזו?"
+      "q": "במטופל עם מחלה מסכנת חיים, מהי אינדיקציה להזמנת יעוץ פליאטיבי לחולה ביום הראשון לאשפוזו?",
+      "explanationReviewNote": "The source supports recurrent admission and difficult symptoms, but does not list every opioid-treated pain episode or every delirium episode as an unconditional day-one trigger."
     },
     "3412": {
       "id": "mcq-d7ef5d7a467c8ade6436f4f5",
@@ -9048,7 +9095,7 @@
       "duplicates": [
         2821
       ],
-      "explanation": "Explanation under review: the official key is C, D; the source text is being checked.",
+      "explanation": "",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0025",
@@ -9057,7 +9104,8 @@
           "pages/2024a_key-after-appeal-all.png"
         ]
       },
-      "q": "שימוש ממושך ב- INHALED CORTICOSTEROIDS בחולים עם מחלת ריאות חסימתית כרונית (COPD) עלול לגרום לכל התופעות הבאות פרט ל-"
+      "q": "שימוש ממושך ב- INHALED CORTICOSTEROIDS בחולים עם מחלת ריאות חסימתית כרונית (COPD) עלול לגרום לכל התופעות הבאות פרט ל-",
+      "explanationReviewNote": "the official key is C, D; the source text is being checked."
     },
     "3428": {
       "id": "mcq-ff953c4f5cde2966a8ac98cc",
@@ -9110,7 +9158,7 @@
       "duplicates": [
         2873
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. בטבלה 42-2 ירידה לא מכוונת במשקל היא מעל 10 ליברות בשנה, ולא 2 ק״ג; בטבלה 42-3 נדרשים לפחות שלושה קריטריונים. התיאור המילולי אינו מספק את כל מדידות האחיזה, המהירות והפעילות להגדרה פורמלית (Hazzard 8e, עמ׳ 620–621).\n\n\n\nExplanation under review: The official accepted set A/B is preserved; the source does not fully establish three measured Fried criteria for A.",
+      "explanation": "המפתח הרשמי מקבל א׳ וב׳. בטבלה 42-2 ירידה לא מכוונת במשקל היא מעל 10 ליברות בשנה, ולא 2 ק״ג; בטבלה 42-3 נדרשים לפחות שלושה קריטריונים. התיאור המילולי אינו מספק את כל מדידות האחיזה, המהירות והפעילות להגדרה פורמלית (Hazzard 8e, עמ׳ 620–621).",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -9119,7 +9167,8 @@
           621
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The official accepted set A/B is preserved; the source does not fully establish three measured Fried criteria for A."
     },
     "3431": {
       "id": "mcq-9fd00abfaa6396324e34c1d1",
@@ -9149,7 +9198,7 @@
       "duplicates": [
         2875
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. בטבלה 60-9 היפונתרמיה מופיעה עבור Sertraline ו־Venlafaxine ואינה רשומה בשורות Mirtazapine ו־Bupropion. הטבלה אינה מחקר המשווה שכיחויות, ולכן אינה מוכיחה סיכון אפסי או מדרג כמותי בין ב׳ לד׳ (Hazzard 8e, עמ׳ 929).\n\nמירטאזפין (Mirtazapine) היא התשובה הנכונה מכיוון שמנגנון הפעולה שלה שונה מהותית מזה של תרופות נוגדות דיכאון אחרות, ובפרט אינה מעכבת ספיגה חוזרת של סרוטונין באופן ישיר. מירטאזפין פועלת כאנטגוניסט לקולטני אלפא-2 פרה-סינפטיים וכאנטגוניסט לקולטני סרוטונין מסוג 5-HT2 ו-5-HT3. מנגנון זה אינו מעורב בשחרור ADH (הורמון אנטי-דיורטי) באותה מידה שבה מעורב מנגנון ה-SIADH הנגרם על ידי עיכוב ספיגה חוזרת של סרוטונין. על פי עקרונות Hazzard's Geriatric Medicine, היפונתרמיה הנגרמת מ-SIADH היא סיבוך מוכר ומסוכן בקשישים המטופלים בתרופות סרוטונרגיות, שכן גיל מבוגר מהווה גורם סיכון עצמאי לתגובה זו עקב ירידה ביכולת הכליה לשמר נתרן ושינויים בוויסות הנוזלים.\n\n**סרטרלין (Sertraline) — תשובה א'** היא מעכב ספיגה חוזרת של סרוטונין (SSRI) קלאסי. תרופות מקבוצה זו קשורות באופן מובהק לפיתוח SIADH, שכן סרוטונין מגביר שחרור ADH מההיפותלמוס וגורם לאגירת מים ודילול הנתרן בדם. סרטרלין הוא אחד מה-SSRIs השכיחים ביותר הקשורים להיפונתרמיה בקשישים, ולכן אינו התשובה הנכונה.\n\n**ונלאפקסין (Venlafaxine) — תשובה ג'** היא מעכב ספיגה חוזרת של סרוטונין ונוראפינפרין (SNRI). על אף מרכיב הנוראפינפרין, הרכיב הסרוטונרגי שלה עדיין נושא סיכון משמעותי ל-SIADH ולהיפונתרמיה, ומקרים רבים מתועדים בספרות הגריאטרית. לכן גם היא אינה הבחירה הנכונה.\n\n**פנינה קלינית לבחינה:** בכל מטופל קשיש שמתחיל טיפול נוגד דיכאון, יש לבדוק רמת נתרן בסרום כבסיס ולחזור על הבדיקה כ-2 שבועות לאחר תחילת הטיפול. מירטאזפין מועדפת לעיתים בקשישים גם בשל תופעת הלוואי החיובית של גירוי תיאבון ושיפור שינה.\n\nExplanation under review: The table supports the listed adverse-effect distinction but does not establish the lowest comparative incidence.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. בטבלה 60-9 היפונתרמיה מופיעה עבור Sertraline ו־Venlafaxine ואינה רשומה בשורות Mirtazapine ו־Bupropion. הטבלה אינה מחקר המשווה שכיחויות, ולכן אינה מוכיחה סיכון אפסי או מדרג כמותי בין ב׳ לד׳ (Hazzard 8e, עמ׳ 929).\n\nמירטאזפין (Mirtazapine) היא התשובה הנכונה מכיוון שמנגנון הפעולה שלה שונה מהותית מזה של תרופות נוגדות דיכאון אחרות, ובפרט אינה מעכבת ספיגה חוזרת של סרוטונין באופן ישיר. מירטאזפין פועלת כאנטגוניסט לקולטני אלפא-2 פרה-סינפטיים וכאנטגוניסט לקולטני סרוטונין מסוג 5-HT2 ו-5-HT3. מנגנון זה אינו מעורב בשחרור ADH (הורמון אנטי-דיורטי) באותה מידה שבה מעורב מנגנון ה-SIADH הנגרם על ידי עיכוב ספיגה חוזרת של סרוטונין. על פי עקרונות Hazzard's Geriatric Medicine, היפונתרמיה הנגרמת מ-SIADH היא סיבוך מוכר ומסוכן בקשישים המטופלים בתרופות סרוטונרגיות, שכן גיל מבוגר מהווה גורם סיכון עצמאי לתגובה זו עקב ירידה ביכולת הכליה לשמר נתרן ושינויים בוויסות הנוזלים.\n\n**סרטרלין (Sertraline) — תשובה א'** היא מעכב ספיגה חוזרת של סרוטונין (SSRI) קלאסי. תרופות מקבוצה זו קשורות באופן מובהק לפיתוח SIADH, שכן סרוטונין מגביר שחרור ADH מההיפותלמוס וגורם לאגירת מים ודילול הנתרן בדם. סרטרלין הוא אחד מה-SSRIs השכיחים ביותר הקשורים להיפונתרמיה בקשישים, ולכן אינו התשובה הנכונה.\n\n**ונלאפקסין (Venlafaxine) — תשובה ג'** היא מעכב ספיגה חוזרת של סרוטונין ונוראפינפרין (SNRI). על אף מרכיב הנוראפינפרין, הרכיב הסרוטונרגי שלה עדיין נושא סיכון משמעותי ל-SIADH ולהיפונתרמיה, ומקרים רבים מתועדים בספרות הגריאטרית. לכן גם היא אינה הבחירה הנכונה.\n\n**פנינה קלינית לבחינה:** בכל מטופל קשיש שמתחיל טיפול נוגד דיכאון, יש לבדוק רמת נתרן בסרום כבסיס ולחזור על הבדיקה כ-2 שבועות לאחר תחילת הטיפול. מירטאזפין מועדפת לעיתים בקשישים גם בשל תופעת הלוואי החיובית של גירוי תיאבון ושיפור שינה.",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0026",
@@ -9168,7 +9217,8 @@
         "Mirtazapine",
         "Venlafaxine",
         "Bupropion"
-      ]
+      ],
+      "explanationReviewNote": "The table supports the listed adverse-effect distinction but does not establish the lowest comparative incidence."
     },
     "3433": {
       "id": "mcq-729fbafd5c19ea7d160566e7",
@@ -9449,7 +9499,7 @@
         "ציון 4",
         "ציון 7"
       ],
-      "explanation": "המפתח הרשמי הוא ד׳, ציון 7. בטבלה 42-3 דרגה זו מתארת תלות מלאה באחרים ב־ADL או מחלה סופנית. ריתוק לכיסא גלגלים כשלעצמו אינו מתעד תלות מלאה בכל פעולות היום־יום (Hazzard 8e, עמ׳ 621).\n\n## Clinical Frailty Scale – מטופל מרותק לכיסא גלגלים\n\n### התשובה הנכונה: ד (ציון 7)\n\n**ציון 7 = \"חמור מאוד שביר\" (Severely Frail)**\nציון 7 מוגדר כתלות מלאה בטיפול האישי. ריתוק לכיסא גלגלים לבדו אינו מוסר את מידת התלות; ד היא התשובה הרשמית אך נדרשת הסתייגות זו. (Hazzard8e p124; p621).\n\n---\n\n### למה האחרות שגויות?\n\n| ציון | הגדרה | מדוע לא מתאים |\n|------|--------|---------------|\n\nExplanation under review: The vignette does not establish all the functional criteria for CFS 7.",
+      "explanation": "המפתח הרשמי הוא ד׳, ציון 7. בטבלה 42-3 דרגה זו מתארת תלות מלאה באחרים ב־ADL או מחלה סופנית. ריתוק לכיסא גלגלים כשלעצמו אינו מתעד תלות מלאה בכל פעולות היום־יום (Hazzard 8e, עמ׳ 621).\n\n## Clinical Frailty Scale – מטופל מרותק לכיסא גלגלים\n\n### התשובה הנכונה: ד (ציון 7)\n\n**ציון 7 = \"חמור מאוד שביר\" (Severely Frail)**\nציון 7 מוגדר כתלות מלאה בטיפול האישי. ריתוק לכיסא גלגלים לבדו אינו מוסר את מידת התלות; ד היא התשובה הרשמית אך נדרשת הסתייגות זו. (Hazzard8e p124; p621).\n\n---\n\n### למה האחרות שגויות?\n\n| ציון | הגדרה | מדוע לא מתאים |\n|------|--------|---------------|",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -9457,7 +9507,8 @@
           621
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The vignette does not establish all the functional criteria for CFS 7."
     },
     "3448": {
       "id": "mcq-01cdc59c55369cf2a42ea5c5",
@@ -9629,7 +9680,7 @@
         3693
       ],
       "q": "איזה מהבאים נכון בנוגע לירידת שמיעה תלוית גיל?",
-      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. מחקר המתואר בעמ׳ 490 העריך שכ־55% מירידת השמיעה תלוית הגיל ניתנים לייחוס לתורשתיות. בעמ׳ 119 מפורטים מבחני סקר במרפאה, אך כישלון בסקר מצדיק בדיקה אודיומטרית פורמלית; אין להשוות סקר לאבחנה סופית (Hazzard 8e, עמ׳ 119, 490).\n\n\n\nExplanation under review: The book distinguishes clinic screening from formal diagnostic audiometry; accepted D is not fully supported as worded.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וד׳. מחקר המתואר בעמ׳ 490 העריך שכ־55% מירידת השמיעה תלוית הגיל ניתנים לייחוס לתורשתיות. בעמ׳ 119 מפורטים מבחני סקר במרפאה, אך כישלון בסקר מצדיק בדיקה אודיומטרית פורמלית; אין להשוות סקר לאבחנה סופית (Hazzard 8e, עמ׳ 119, 490).",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -9638,7 +9689,8 @@
           490
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The book distinguishes clinic screening from formal diagnostic audiometry; accepted D is not fully supported as worded."
     },
     "3457": {
       "id": "mcq-92095288eae48f2eb7420b46",
@@ -9668,7 +9720,7 @@
       "duplicates": [
         2898
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וג׳. טבלה 102-5 כוללת אוסטאוארתריטיס בקבוצת כאב המתפתח בהדרגה, ואילו שבר דחיסה מופיע בקבוצת התחלה חדה. לכן העמוד תומך ישירות בא׳, אך אינו מסביר לבדו את קבלת ג׳ בערעור (Hazzard 8e, עמ׳ 1634).\n\n\n\nExplanation under review: The rationale for additionally accepting C is not established by Table 102-5.",
+      "explanation": "המפתח הרשמי מקבל א׳ וג׳. טבלה 102-5 כוללת אוסטאוארתריטיס בקבוצת כאב המתפתח בהדרגה, ואילו שבר דחיסה מופיע בקבוצת התחלה חדה. לכן העמוד תומך ישירות בא׳, אך אינו מסביר לבדו את קבלת ג׳ בערעור (Hazzard 8e, עמ׳ 1634).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0028",
@@ -9682,7 +9734,8 @@
         ],
         "edition": 8
       },
-      "q": "בן 80 מתלונן לאחרונה על כאבי גב, לא ממוקמים, עם מהלך איטי והדרגתי. איזו אבחנה מתאימה לתלונות?"
+      "q": "בן 80 מתלונן לאחרונה על כאבי גב, לא ממוקמים, עם מהלך איטי והדרגתי. איזו אבחנה מתאימה לתלונות?",
+      "explanationReviewNote": "The rationale for additionally accepting C is not established by Table 102-5."
     },
     "3459": {
       "id": "mcq-f94957c688e051f74a5dd7d3",
@@ -10088,7 +10141,7 @@
       "duplicates": [
         2919
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וב׳. הידרוקולואידים והידרוגלים מתוארים כחבישות לספיגת הפרשה מועטה עד בינונית, והידרוקולואידים נידונים גם בריפוי פצעי לחץ בדרגה 2. אלגינט והידרופייבר מתאימים להפרשה בינונית עד רבה. התמונה לבדה אינה מדידה של כמות ההפרשה (Hazzard 8e, עמ׳ 693–694).\n\n\n\nExplanation under review: Both accepted dressing classes have source support, but the photo alone does not establish all wound and exudate characteristics.",
+      "explanation": "המפתח הרשמי מקבל א׳ וב׳. הידרוקולואידים והידרוגלים מתוארים כחבישות לספיגת הפרשה מועטה עד בינונית, והידרוקולואידים נידונים גם בריפוי פצעי לחץ בדרגה 2. אלגינט והידרופייבר מתאימים להפרשה בינונית עד רבה. התמונה לבדה אינה מדידה של כמות ההפרשה (Hazzard 8e, עמ׳ 693–694).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0029",
@@ -10103,7 +10156,8 @@
         ],
         "edition": 8
       },
-      "q": "מה הטיפול המתאים לפצע המופיע בתמונה מספר 3?"
+      "q": "מה הטיפול המתאים לפצע המופיע בתמונה מספר 3?",
+      "explanationReviewNote": "Both accepted dressing classes have source support, but the photo alone does not establish all wound and exudate characteristics."
     },
     "3480": {
       "id": "mcq-345208681a53f5565b36e6b5",
@@ -10763,7 +10817,7 @@
       "duplicates": [
         2954
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. הספר מדגיש מעקב משקל כדרך פשוטה ואמינה לסקר תת־תזונה בקהילה; ירידה של לפחות 5% במשך 6–12 חודשים מצדיקה בירור. אלבומין אינו סמן רגיש לשלבים מוקדמים, וסגוליותו נמוכה עקב השפעת דלקת ומחלות אחרות (Hazzard 8e, עמ׳ 423–424).\n\n\n\nExplanation under review: D is directly supported; these pages do not establish albumin testing as the equally indicated next step in this vignette.",
+      "explanation": "המפתח הרשמי מקבל א׳ וד׳. הספר מדגיש מעקב משקל כדרך פשוטה ואמינה לסקר תת־תזונה בקהילה; ירידה של לפחות 5% במשך 6–12 חודשים מצדיקה בירור. אלבומין אינו סמן רגיש לשלבים מוקדמים, וסגוליותו נמוכה עקב השפעת דלקת ומחלות אחרות (Hazzard 8e, עמ׳ 423–424).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0030",
@@ -10778,7 +10832,8 @@
         ],
         "edition": 8
       },
-      "q": "בת 78, מגיעה להערכה גריאטרית כוללנית במרפאה. משקל 54 ק״ג, BMI – 19.2 ק״ג/מ². מהי הבירור הבא שיש להשלים להערכת מצבה התזונתי?"
+      "q": "בת 78, מגיעה להערכה גריאטרית כוללנית במרפאה. משקל 54 ק״ג, BMI – 19.2 ק״ג/מ². מהי הבירור הבא שיש להשלים להערכת מצבה התזונתי?",
+      "explanationReviewNote": "D is directly supported; these pages do not establish albumin testing as the equally indicated next step in this vignette."
     },
     "3517": {
       "id": "mcq-e8ffe5e4732e7d63293662ad",
@@ -10845,7 +10900,7 @@
       "duplicates": [
         2957
       ],
-      "explanation": "Explanation under review: the official key is A, D; the source text is being checked.",
+      "explanation": "",
       "explanationSource": {
         "status": "Affected explanation paragraphs withdrawn pending source review",
         "finding": "H-0032",
@@ -10860,7 +10915,8 @@
         "הארכת QT ו- Torsades de Pointes משנית ל- Venlafaxine",
         "Orthostatic Hypotension משני לטיפול ב- Bupropion",
         "Serotonin Syndrome משני לטיפול ב- Citalopram"
-      ]
+      ],
+      "explanationReviewNote": "the official key is A, D; the source text is being checked."
     },
     "3520": {
       "id": "mcq-533583412fa06778cad38886",
@@ -10912,7 +10968,8 @@
       "duplicates": [
         2960
       ],
-      "explanation": "Explanation under review: the official key is A, D; the source text is being checked."
+      "explanation": "",
+      "explanationReviewNote": "the official key is A, D; the source text is being checked."
     },
     "3523": {
       "id": "mcq-084128e675755a60218e946b",
@@ -11851,7 +11908,7 @@
       "duplicates": [
         3019
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. בתמונה סכום פריטים 1–9 הוא 4; פריט התפקוד נפרד ואינו מתווסף לסכום החומרה. אין סימפטום בתדירות של יותר ממחצית הימים, ולכן הקריטריונים ל־Minor depression לפי האלגוריתם אינם מבוססים מהתמונה בלבד (Hazzard 8e, עמ׳ 1011; אלבום הבחינה, תמונה 4, עמ׳ 3).\n\nבמפתח לאחר ערעורים התקבלו ב׳ וג׳, ללא העדפה רשמית. באלבום סכום סעיפים 1–9 הוא 4; ציון הקושי התפקודי אינו נוסף לסכום. אין להסיק אבחנת דיכאון מינורי מטווח 5–9, שאינו הציון בטופס. (IMA 2025 after-appeals key Q57; official album p.3). התשובה השנייה, **\"יש לחפש גורם אחר לעייפות, מעקב בלבד\"**, אף היא הגיונית כיוון שבגיל 90 תסמינים של עייפות וירידה בתפקוד יכולים לנבוע מגורמים גופניים כגון **hypothyroidism**, **אנמיה**, **אי-ספיקת לב** או **תת-תזונה**, ולכן גישה של שלילת סיבות אורגניות תחילה היא לגיטימית לחלוטין. אין להסיק העדפה של האיגוד או אבחנה מציון שגוי; יש לציין את שתי התשובות שהתקבלו ולהמשיך בירור ומעקב בהתאם לתסמינים ולתפקוד. (Official2025keyp2; Hazzard8e pp1011-1012).\n\nExplanation under review: C remains compatible with further evaluation; the source does not fully justify the additionally accepted Minor depression label.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. בתמונה סכום פריטים 1–9 הוא 4; פריט התפקוד נפרד ואינו מתווסף לסכום החומרה. אין סימפטום בתדירות של יותר ממחצית הימים, ולכן הקריטריונים ל־Minor depression לפי האלגוריתם אינם מבוססים מהתמונה בלבד (Hazzard 8e, עמ׳ 1011; אלבום הבחינה, תמונה 4, עמ׳ 3).\n\nבמפתח לאחר ערעורים התקבלו ב׳ וג׳, ללא העדפה רשמית. באלבום סכום סעיפים 1–9 הוא 4; ציון הקושי התפקודי אינו נוסף לסכום. אין להסיק אבחנת דיכאון מינורי מטווח 5–9, שאינו הציון בטופס. (IMA 2025 after-appeals key Q57; official album p.3). התשובה השנייה, **\"יש לחפש גורם אחר לעייפות, מעקב בלבד\"**, אף היא הגיונית כיוון שבגיל 90 תסמינים של עייפות וירידה בתפקוד יכולים לנבוע מגורמים גופניים כגון **hypothyroidism**, **אנמיה**, **אי-ספיקת לב** או **תת-תזונה**, ולכן גישה של שלילת סיבות אורגניות תחילה היא לגיטימית לחלוטין. אין להסיק העדפה של האיגוד או אבחנה מציון שגוי; יש לציין את שתי התשובות שהתקבלו ולהמשיך בירור ומעקב בהתאם לתסמינים ולתפקוד. (Official2025keyp2; Hazzard8e pp1011-1012).",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -11860,7 +11917,8 @@
           "2025 album PDF3"
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "C remains compatible with further evaluation; the source does not fully justify the additionally accepted Minor depression label."
     },
     "4604": {
       "id": "mcq-cb2418301a941a2746f83dca",
@@ -11925,7 +11983,7 @@
         3023
       ],
       "requiredReadingNote": "not on the 2026 required list",
-      "explanation": "הדו״ח מציין שהסיכון ניתן לשינוי ללא תלות בסטטוס APOE וששינוי גורמי הסיכון עשוי למנוע או לדחות כמעט מחצית ממקרי הדמנציה ברמת האוכלוסייה. (Lancet2024 printed572-573). שאר המסיחים מציגים טענות שאינן תואמות את הדו\"ח. \n\nOfficial key: A. Lancet 2024 p.573 states: dementia risk is modifiable irrespective of APOE genetic status."
+      "explanation": "הדו״ח מציין שהסיכון ניתן לשינוי ללא תלות בסטטוס APOE וששינוי גורמי הסיכון עשוי למנוע או לדחות כמעט מחצית ממקרי הדמנציה ברמת האוכלוסייה. (Lancet2024 printed572-573). שאר המסיחים מציגים טענות שאינן תואמות את הדו\"ח. \n\nהמפתח הרשמי: A. לפי Lancet 2024, עמ׳ 573: הסיכון לדמנציה ניתן לשינוי ללא תלות בסטטוס הגנטי של APOE."
     },
     "4608": {
       "id": "mcq-57c893ac288cd17663b1e3c3",
@@ -12186,7 +12244,7 @@
       "duplicates": [
         3038
       ],
-      "explanation": "המפתח הרשמי מקבל א׳, ב׳ וד׳. בדיקת שפעת בעונה עשויה לכוון לטיפול אנטי־ויראלי; תרבית כיח אינה נדרשת בהחמרה שגרתית ללא גורמי סיכון לעמידות. פרוקלציטונין אינו מומלץ באופן שגרתי להכוונת אנטיביוטיקה בהחמרת COPD, לפי הדיון בעמ׳ 1261 (Hazzard 8e, עמ׳ 1260–1261).\n\n\n\nExplanation under review: B is supported; the book does not fully justify routine sputum culture and procalcitonin in the presented low-resistance-risk vignette.",
+      "explanation": "המפתח הרשמי מקבל א׳, ב׳ וד׳. בדיקת שפעת בעונה עשויה לכוון לטיפול אנטי־ויראלי; תרבית כיח אינה נדרשת בהחמרה שגרתית ללא גורמי סיכון לעמידות. פרוקלציטונין אינו מומלץ באופן שגרתי להכוונת אנטיביוטיקה בהחמרת COPD, לפי הדיון בעמ׳ 1261 (Hazzard 8e, עמ׳ 1260–1261).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0037",
@@ -12200,7 +12258,8 @@
           1261
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "B is supported; the book does not fully justify routine sputum culture and procalcitonin in the presented low-resistance-risk vignette."
     },
     "4624": {
       "id": "mcq-f2448541fe026f7c28b9ebe5",
@@ -12546,7 +12605,7 @@
       "duplicates": [
         3060
       ],
-      "explanation": "המפתח הרשמי הוא ד׳. הספר מונה ממאירות, טיפול הורמונלי ותסמונת נפרוטית בין גורמי הסיכון ל־VTE, ומתאר SSRIs כתרופות העלולות לעכב פעילות טסיות ולהעלות סיכון לדימום. אין בכך לבדו הוכחה להיעדר כל סיכון ל־DVT עם Escitalopram (Hazzard 8e, עמ׳ 1515).\n\n**אסציטלופרם (CIPRALEX) אינו מעלה סיכון ל-DVT.**\n\nSSRI כמו אסציטלופרם אינם גורם סיכון מוכר ל-DVT. להיפך, הם מפחיתים קצת את צבירת הטסיות, ולכן אינם פרו-תרומבוטיים.\n\n**מדוע האחרות נכונות (=מעלות סיכון):**\n\n*(מקור: Hazzard's Geriatric Medicine, Harrison's Principles)*\n\nהמקור בעמ׳ 1516 מתאר ממאירות וטיפולים הורמונליים בין מצבי הסיכון לתרומבוזיס.\n\nExplanation under review: The source supports the class-level contrast, but does not establish the exact drug-specific negative claim.",
+      "explanation": "המפתח הרשמי הוא ד׳. הספר מונה ממאירות, טיפול הורמונלי ותסמונת נפרוטית בין גורמי הסיכון ל־VTE, ומתאר SSRIs כתרופות העלולות לעכב פעילות טסיות ולהעלות סיכון לדימום. אין בכך לבדו הוכחה להיעדר כל סיכון ל־DVT עם Escitalopram (Hazzard 8e, עמ׳ 1515).\n\n**אסציטלופרם (CIPRALEX) אינו מעלה סיכון ל-DVT.**\n\nSSRI כמו אסציטלופרם אינם גורם סיכון מוכר ל-DVT. להיפך, הם מפחיתים קצת את צבירת הטסיות, ולכן אינם פרו-תרומבוטיים.\n\n**מדוע האחרות נכונות (=מעלות סיכון):**\n\n*(מקור: Hazzard's Geriatric Medicine, Harrison's Principles)*\n\nהמקור בעמ׳ 1516 מתאר ממאירות וטיפולים הורמונליים בין מצבי הסיכון לתרומבוזיס.",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
@@ -12554,7 +12613,8 @@
           1515
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The source supports the class-level contrast, but does not establish the exact drug-specific negative claim."
     },
     "4646": {
       "id": "mcq-65f5eec19ad7458727bceca1",
@@ -12605,7 +12665,7 @@
       "duplicates": [
         4298
       ],
-      "explanation": "המפתח הרשמי מקבל א׳ וד׳. בעמ׳ 637 TUG מתואר כסקר פשוט לזיהוי מי שזקוק להערכת שיווי משקל והליכה; סקירה של 25 מחקרים מצאה ערך ניבוי מוגבל לנפילות בקהילה, ללא נקודת סף מומלצת. זהו נוסח המקור התומך בד׳, לצד המפתח הרשמי שנשמר (Hazzard 8e, עמ׳ 637).\n\n\n\nExplanation under review: The source supports D; the categorical high-predictive-value wording in accepted A is not supported.",
+      "explanation": "המפתח הרשמי מקבל א׳ וד׳. בעמ׳ 637 TUG מתואר כסקר פשוט לזיהוי מי שזקוק להערכת שיווי משקל והליכה; סקירה של 25 מחקרים מצאה ערך ניבוי מוגבל לנפילות בקהילה, ללא נקודת סף מומלצת. זהו נוסח המקור התומך בד׳, לצד המפתח הרשמי שנשמר (Hazzard 8e, עמ׳ 637).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0033",
@@ -12618,7 +12678,8 @@
           637
         ],
         "edition": 8
-      }
+      },
+      "explanationReviewNote": "The source supports D; the categorical high-predictive-value wording in accepted A is not supported."
     },
     "4449": {
       "id": "mcq-a106c2e93b7ced5d12e16004",
@@ -13632,7 +13693,7 @@
       "duplicates": [
         4369
       ],
-      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. טבלה 6 מבחינה בין שלב 2, שבו הביצוע האובייקטיבי עדיין בטווח המצופה, לשלב 3, שבו יש ליקוי אובייקטיבי אך העצמאות נשמרת, לעיתים עם חוסר יעילות בפעולות מורכבות. עצמאות כשלעצמה אינה שוללת שלב 3 (Revised criteria for diagnosis and staging of Alzheimer’s disease, 2024, טבלה 6, עמוד 1 ברינדור ה־XML המקומי).\n\n\n\nExplanation under review: The source distinguishes stages 2 and 3; the vignette and accepted pair do not establish one objective-test category without further interpretation.",
+      "explanation": "המפתח הרשמי מקבל ב׳ וג׳. טבלה 6 מבחינה בין שלב 2, שבו הביצוע האובייקטיבי עדיין בטווח המצופה, לשלב 3, שבו יש ליקוי אובייקטיבי אך העצמאות נשמרת, לעיתים עם חוסר יעילות בפעולות מורכבות. עצמאות כשלעצמה אינה שוללת שלב 3 (Revised criteria for diagnosis and staging of Alzheimer’s disease, 2024, טבלה 6, עמוד 1 ברינדור ה־XML המקומי).",
       "explanationSource": {
         "status": "Page-backed supplemental explanation; original IMA bibliography retained. Partial support; review note retained.",
         "finding": "H-0035",
@@ -13644,7 +13705,8 @@
         "pages": [
           "AA2024 Table6 local XML render p1"
         ]
-      }
+      },
+      "explanationReviewNote": "The source distinguishes stages 2 and 3; the vignette and accepted pair do not establish one objective-test category without further interpretation."
     },
     "4520": {
       "id": "mcq-36c1dda6663cb9192906f6ae",

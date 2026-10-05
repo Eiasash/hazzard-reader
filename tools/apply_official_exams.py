@@ -30,7 +30,7 @@ def apply(items, root=ROOT):
             seen.add(key)
             if row.get('images'):
                 q['images'] = list(row['images'])
-            for field in ('q', 'o', 'explanation', 'explanationIncomplete', 'explanationSource',
+            for field in ('q', 'o', 'explanation', 'explanationIncomplete', 'explanationReviewNote', 'explanationSource',
                           'chapter', 'chapterTitle', 'topic', 'topics', 'readerReference',
                           'referenceNote', 'requiredReadingNote', 'requiredCard', 'mockEligible', 'label'):
                 if field in row:
