@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v78",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T09:15:46.261270+00:00",
+      "changes": [
+        "Tap the handle at the top of any panel to expand it to most of the screen; tap again to shrink. The update button is now solid and easier to tap."
+      ]
+    },
+    {
       "version": "v77",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T08:53:43.357522+00:00",
