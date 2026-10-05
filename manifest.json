@@ -1015,6 +1015,132 @@
       "file": "hazzard8e_ch100_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "86",
+      "title": "Hepatic, Pancreatic, and Biliary Diseases",
+      "file": "hazzard8e_ch86_hepatic_pancreatic_and_biliary_diseases.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "86s",
+      "title": "Hepatic, Pancreatic, and Biliary Diseases — Study",
+      "file": "hazzard8e_ch86_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "91",
+      "title": "Lung Cancer",
+      "file": "hazzard8e_ch91_lung_cancer.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "91s",
+      "title": "Lung Cancer — Study",
+      "file": "hazzard8e_ch91_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "66",
+      "title": "General Topics in Geriatric Psychiatry",
+      "file": "hazzard8e_ch66_general_topics_in_geriatric_psychiatry.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "66s",
+      "title": "General Topics in Geriatric Psychiatry — Study",
+      "file": "hazzard8e_ch66_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "48",
+      "title": "Elder Mistreatment",
+      "file": "hazzard8e_ch48_elder_mistreatment.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "48s",
+      "title": "Elder Mistreatment — Study",
+      "file": "hazzard8e_ch48_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "10",
+      "title": "Assessment of Decisional Capacity and Competencies",
+      "file": "hazzard8e_ch10_assessment_of_decisional_capacity_and_competencies.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "10s",
+      "title": "Assessment of Decisional Capacity and Competencies — Study",
+      "file": "hazzard8e_ch10_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "7",
+      "title": "Decision Making and Advance Care Planning: What Matters Most",
+      "file": "hazzard8e_ch7_decision_making_and_advance_care_planning_what_matters_most.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "7s",
+      "title": "Decision Making and Advance Care Planning: What Matters Most — Study",
+      "file": "hazzard8e_ch7_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "23",
+      "title": "Substance Use and Disorders",
+      "file": "hazzard8e_ch23_substance_use_and_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "23s",
+      "title": "Substance Use and Disorders — Study",
+      "file": "hazzard8e_ch23_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "36",
+      "title": "Gynecologic Disorders",
+      "file": "hazzard8e_ch36_gynecologic_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "36s",
+      "title": "Gynecologic Disorders — Study",
+      "file": "hazzard8e_ch36_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
+    },
+    {
+      "number": "26",
+      "title": "Legal Issues",
+      "file": "hazzard8e_ch26_legal_issues.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "26s",
+      "title": "Legal Issues — Study",
+      "file": "hazzard8e_ch26_study.md",
+      "kind": "study",
+      "description": "Concept summary + linked exam questions"
     }
   ]
 }
