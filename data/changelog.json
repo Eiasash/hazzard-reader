@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v79",
+      "date": "2026-10-05",
+      "releasedAt": "2026-10-05T09:40:46.404071+00:00",
+      "changes": [
+        "Small corrections: one answer option restored from the 2022 paper; three explanation fixes."
+      ]
+    },
+    {
       "version": "v78",
       "date": "2026-10-05",
       "releasedAt": "2026-10-05T09:15:46.261270+00:00",
