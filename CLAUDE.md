@@ -3,6 +3,7 @@
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
 ## State (05 Oct 2026)
+- **v88:** 60 full Read chapters: added 107, 74, 89, 8, 103, 78, 84, 30, 90, 11 and 69, in that priority order, from the marked 8e copy. Five existing Study pages retained; six formerly absent chapters have Read and citation-mapped Exam questions only. Question mappings/counts, answers, redo history and storage unchanged.
 - **v87:** 49 full Read chapters: added 96, 50, 22, 9, 39 and 93 (Skin Cancer), in that priority order, from the marked 8e copy. Five existing Study pages retained; 93 is Read only with citation-mapped Exam questions. Question mappings/counts, answers, redo history and storage unchanged.
 - **v86:** 43 full Read chapters: added 49, 82, 27, 53, 15, 73, 95, 92, 67, 106 and 80 from the marked 8e copy. Existing Study pages/drills retained; chapter 80 is Read only with citation-mapped Exam questions. Question mappings, answers and storage unchanged.
 - **v85:** P005 article 6, NEJM 2024 Age-Related Hearing Loss, now has a source-cited card from the supplied official publisher PDF (printed pp.1505–1512); status read directly. Question data, redo history and storage unchanged.
