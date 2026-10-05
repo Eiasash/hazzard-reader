@@ -559,8 +559,7 @@
       "title": "Institutional Long-Term and Post-Acute Care — Study",
       "file": "hazzard8e_ch16_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "39s",
@@ -595,16 +594,14 @@
       "title": "Disorders of Swallowing — Study",
       "file": "hazzard8e_ch31_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "85s",
       "title": "Upper Gastrointestinal Disorders — Study",
       "file": "hazzard8e_ch85_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Exam-cited book images. Tap to zoom."
+      "description": "Exam-cited book images. Full Read chapter available."
     },
     {
       "number": "103s",
@@ -813,6 +810,90 @@
       "number": "69",
       "title": "Management of Common Nonpain Symptoms",
       "file": "hazzard8e_ch69_management_of_common_nonpain_symptoms.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "31",
+      "title": "Disorders of Swallowing",
+      "file": "hazzard8e_ch31_disorders_of_swallowing.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "16",
+      "title": "Institutional Long-Term and Post-Acute Care",
+      "file": "hazzard8e_ch16_institutional_long_term_and_post_acute_care.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "85",
+      "title": "Upper Gastrointestinal Disorders",
+      "file": "hazzard8e_ch85_upper_gastrointestinal_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "34",
+      "title": "Hearing Loss: Assessment and Management",
+      "file": "hazzard8e_ch34_hearing_loss_assessment_and_management.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "38",
+      "title": "Benign Prostate Disorders",
+      "file": "hazzard8e_ch38_benign_prostate_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "62",
+      "title": "Cerebrovascular Disease",
+      "file": "hazzard8e_ch62_cerebrovascular_disease.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "64",
+      "title": "Traumatic Brain Injury and Chronic Traumatic Encephalopathy",
+      "file": "hazzard8e_ch64_traumatic_brain_injury_and_chronic_traumatic_encephalopathy.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "70",
+      "title": "Palliative Care Across Care Settings",
+      "file": "hazzard8e_ch70_palliative_care_across_care_settings.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "72",
+      "title": "Ethical Issues",
+      "file": "hazzard8e_ch72_ethical_issues.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "79",
+      "title": "Hypertension",
+      "file": "hazzard8e_ch79_hypertension.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "94",
+      "title": "Aging of the Hematopoietic System and Anemia",
+      "file": "hazzard8e_ch94_aging_of_the_hematopoietic_system_and_anemia.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "100",
+      "title": "Myopathies, Polymyalgia Rheumatica, and Giant Cell Arteritis",
+      "file": "hazzard8e_ch100_myopathies_polymyalgia_rheumatica_and_giant_cell_arteritis.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed."
     }
