@@ -804,11 +804,13 @@
       "source": "מראה מקום גריאטריה 2020.pdf",
       "reference": "Hazzard 7e · p. 1076",
       "questionRef": "Hazzard 7e · p. 1076",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "topic-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "66"
+      ]
     },
     "mcq-c982624ebb3a0cc1c5b9af74": {
       "sitting": "2020",
@@ -1811,11 +1813,13 @@
       "source": "מראה מקום גריאטריה 2021.pdf",
       "reference": "Hazzard 7e · p. 1532",
       "questionRef": "Hazzard 7e · p. 1532",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "topic-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "86"
+      ]
     },
     "mcq-a7ce378a3066d828eaecb394": {
       "sitting": "2021-Dec",
@@ -4044,11 +4048,13 @@
       "source": "refs_2022_subspec.pdf",
       "reference": "Hazzard 7e · p. 1339",
       "questionRef": "Hazzard 7e · p. 1339",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "topic-8e",
+      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "86"
+      ]
     },
     "mcq-df621afa3901e0520fadaaf0": {
       "sitting": "2022-Jun",
@@ -15947,7 +15953,6 @@
         "mcq-0971fea2ad0a50b32c98cc69",
         "mcq-14495b2b993ed80a455dcf47",
         "mcq-6d95836c1f971f2123c4f768",
-        "mcq-a99db0fa2bd1efb781390683",
         "mcq-41b2b9e9aed4c3e21ea1a031",
         "mcq-aa26bdef996a98dd1c649114",
         "mcq-b779bb4d9377055ce33a959e",
@@ -15990,9 +15995,9 @@
         "mcq-4bec111cf773419535c13cb7"
       ],
       "before": 67,
-      "past": 44,
+      "past": 43,
       "resolved": 12,
-      "fallback": 19,
+      "fallback": 18,
       "practice": 22,
       "chapterLinked": 13
     },
@@ -17070,6 +17075,92 @@
       "practice": 0,
       "studyOnly": true,
       "chapterLinked": 3
+    },
+    "86": {
+      "ids": [
+        "mcq-79233eb27b6824ea7b609f8d",
+        "mcq-7d142f5429d687f80e6f9eef"
+      ],
+      "before": 0,
+      "past": 2,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 2
+    },
+    "91": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "66": {
+      "ids": [
+        "mcq-a99db0fa2bd1efb781390683"
+      ],
+      "before": 0,
+      "past": 1,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 1
+    },
+    "48": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "10": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "7": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "23": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "36": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
+    },
+    "26": {
+      "ids": [],
+      "before": 0,
+      "past": 0,
+      "resolved": 0,
+      "fallback": 0,
+      "practice": 0,
+      "chapterLinked": 0
     }
   }
 }
