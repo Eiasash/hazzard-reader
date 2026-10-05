@@ -2,7 +2,7 @@
 
 Study summary of Chapter 15, Hazzard's Geriatric Medicine and Gerontology, 8e.
 
-**Study page only - full chapter not in the reader.** Summary and recall drill from the book; the book remains the reference. Fast build from the book; not lane-reviewed.
+**Full chapter available: [Read Chapter 15](?chapter=15).** Summary and recall drill from the book; the book remains the reference. Fast build from the book; not lane-reviewed.
 
 ## Summary
 

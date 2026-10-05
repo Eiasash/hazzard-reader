@@ -2,7 +2,7 @@ Study summary of Chapter 82 — Aging of the Kidney; the book is the reference.
 
 # Chapter 82 Study: Aging of the Kidney
 
-Study page only - full chapter not in the reader
+Full chapter available: [Read Chapter 82](?chapter=82).
 
 Fast build from the book; not lane-reviewed.
 

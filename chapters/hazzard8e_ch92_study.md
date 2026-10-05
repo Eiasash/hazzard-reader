@@ -2,7 +2,7 @@ Study summary of Chapter 92; the book is the reference.
 
 # Chapter 92 Study: Gastrointestinal Malignancies
 
-**Study summary only - read the full chapter in the book, pp 1435-1454.**
+**Full chapter available: [Read Chapter 92](?chapter=92).**
 
 Fast build from the book; not lane-reviewed.
 

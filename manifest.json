@@ -461,80 +461,70 @@
       "title": "Emergency Department Care — Study",
       "file": "hazzard8e_ch15_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "27s",
       "title": "Perioperative Care: Evaluation and Management — Study",
       "file": "hazzard8e_ch27_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "49s",
       "title": "Muscle Aging and Sarcopenia — Study",
       "file": "hazzard8e_ch49_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "73s",
       "title": "The Aging Cardiovascular System — Study",
       "file": "hazzard8e_ch73_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "82s",
       "title": "Aging of the Kidney — Study",
       "file": "hazzard8e_ch82_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study page only - full chapter not in the reader. Summary + 15-question drill."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "53s",
       "title": "Hip Fractures — Study",
       "file": "hazzard8e_ch53_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study summary only - read the full chapter in the book, pp 793-804. Summary + 15-question drill; fast build, not lane-reviewed."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "67s",
       "title": "Palliative Care and Special Management Issues — Study",
       "file": "hazzard8e_ch67_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study summary only - read the full chapter in the book, pp 1045-1054. Summary + 15-question drill; fast build, not lane-reviewed."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "92s",
       "title": "Gastrointestinal Malignancies — Study",
       "file": "hazzard8e_ch92_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study summary only - read the full chapter in the book, pp 1435-1454. Summary + 15-question drill; fast build, not lane-reviewed."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "95s",
       "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders — Study",
       "file": "hazzard8e_ch95_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study summary only - read the full chapter in the book, pp 1483-1508. Summary + 15-question drill; fast build, not lane-reviewed."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "106s",
       "title": "Urinary Tract Infections — Study",
       "file": "hazzard8e_ch106_study.md",
       "kind": "study",
-      "studyOnly": true,
-      "description": "Study summary only - read the full chapter in the book, pp 1699-1718. Summary + 15-question drill; fast build, not lane-reviewed."
+      "description": "Summary + 15-question drill. Full Read chapter available."
     },
     {
       "number": "50s",
@@ -639,6 +629,83 @@
       "kind": "study",
       "studyOnly": true,
       "description": "Exam-cited book images. Tap to zoom."
+    },
+    {
+      "number": "49",
+      "title": "Muscle Aging and Sarcopenia",
+      "file": "hazzard8e_ch49_muscle_aging_and_sarcopenia.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "82",
+      "title": "Aging of the Kidney",
+      "file": "hazzard8e_ch82_aging_of_the_kidney.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "27",
+      "title": "Perioperative Care: Evaluation and Management",
+      "file": "hazzard8e_ch27_perioperative_care_evaluation_and_management.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "53",
+      "title": "Hip Fractures",
+      "file": "hazzard8e_ch53_hip_fractures.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "15",
+      "title": "Emergency Department Care",
+      "file": "hazzard8e_ch15_emergency_department_care.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "73",
+      "title": "The Aging Cardiovascular System",
+      "file": "hazzard8e_ch73_the_aging_cardiovascular_system.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "95",
+      "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders",
+      "file": "hazzard8e_ch95_hematologic_malignancies_leukemia_lymphoma_and_plasma_cell_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "92",
+      "title": "Gastrointestinal Malignancies",
+      "file": "hazzard8e_ch92_gastrointestinal_malignancies.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "67",
+      "title": "Palliative Care and Special Management Issues",
+      "file": "hazzard8e_ch67_palliative_care_and_special_management_issues.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "106",
+      "title": "Urinary Tract Infections",
+      "file": "hazzard8e_ch106_urinary_tract_infections.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
+    },
+    {
+      "number": "80",
+      "title": "Respiratory System and Selected Pulmonary Disorders",
+      "file": "hazzard8e_ch80_respiratory_system_and_selected_pulmonary_disorders.md",
+      "kind": "chapter",
+      "description": "Fast build from the marked book; not lane-reviewed."
     }
   ]
 }

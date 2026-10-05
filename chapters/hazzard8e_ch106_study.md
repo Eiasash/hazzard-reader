@@ -2,7 +2,7 @@ Study summary of Chapter 106; the book is the reference.
 
 # Chapter 106 Study: Urinary Tract Infections
 
-**Study summary only - read the full chapter in the book, pp 1699-1718.**
+**Full chapter available: [Read Chapter 106](?chapter=106).**
 
 Fast build from the book; not lane-reviewed.
 
