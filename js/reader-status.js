@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v89', RELEASED = '05.10.2026';
+  const VERSION = 'v90', RELEASED = '05.10.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -19,15 +19,15 @@
       else if (registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
       else { state = complete ? 'ready' : 'downloading'; text = VERSION + (complete ? ' - offline ready' : ' - offline copy incomplete'); }
       const cloud = window.HazzardCloud;
-      if (cloud?.paused && !['waiting', 'incomplete', 'offline'].includes(state)) { state = 'paused'; text = 'Cloud paused'; }
+
       // One deadline refresh; sync scheduling and update-on-tap stay independent.
       clearTimeout(pauseTimer);
       const delay = cloud?.pauseAt - Date.now();
       if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
-      chip.dataset.cloud=state !== 'paused' && cloud?.tick?'synced':'';
+      chip.dataset.readiness = waiting() || applying || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
       chip.dataset.status = state;
       const chipText = state === 'waiting' ? VERSION + ' - update available' : text;
-      if (chip.textContent !== chipText) chip.textContent = chipText;
+      chip.textContent = '';chip.setAttribute('aria-label',chipText);
       button.title = 'Text & appearance — ' + chipText;
       button.setAttribute('aria-label', button.title);
       updateButton.hidden = state !== 'waiting';
