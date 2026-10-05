@@ -29,7 +29,7 @@ window.HazzardEvidence = (() => {
     const data = await load(), entries = counts(data, chapter);
     if (!entries.length) return null;
     const link = document.createElement('a');
-    link.className = 'chapter-exams'; link.href = '?chapter='+chapter+(data.study[chapter]?'s':'')+'&view=questions';
+    link.className = 'chapter-exams'; link.href = '?chapter='+chapter+(data.study[chapter]?'s':'')+'&view=questions&source=past';
     link.append('Exams: ');
     for (const [i, [sitting, count]] of entries.entries()) {
       if (i) link.append(' · ');

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v92",
+      "date": "2026-10-05",
+      "changes": [
+        "More reliable book-page links, simulation resume, phone question filters and update/cloud status; corrected two study explanations."
+      ]
+    },
+    {
       "version": "v91",
       "date": "2026-10-05",
       "changes": [
