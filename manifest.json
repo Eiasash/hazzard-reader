@@ -1357,6 +1357,114 @@
       "title": "Integrative Medicine and Health — Study",
       "file": "hazzard8e_ch24_study.md",
       "kind": "study"
+    },
+    {
+      "number": "19",
+      "title": "Value-Based Care",
+      "file": "hazzard8e_ch19_value_based_care.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "19s",
+      "title": "Value-Based Care — Study",
+      "file": "hazzard8e_ch19_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "20",
+      "title": "The Role of Social Workers",
+      "file": "hazzard8e_ch20_the_role_of_social_workers.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "20s",
+      "title": "The Role of Social Workers — Study",
+      "file": "hazzard8e_ch20_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "21",
+      "title": "The Patient Perspective",
+      "file": "hazzard8e_ch21_the_patient_perspective.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "21s",
+      "title": "The Patient Perspective — Study",
+      "file": "hazzard8e_ch21_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "13",
+      "title": "Geriatrics Around the World",
+      "file": "hazzard8e_ch13_geriatrics_around_the_world.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "13s",
+      "title": "Geriatrics Around the World — Study",
+      "file": "hazzard8e_ch13_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "2",
+      "title": "Demography and Epidemiology",
+      "file": "hazzard8e_ch2_demography_and_epidemiology.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "2s",
+      "title": "Demography and Epidemiology — Study",
+      "file": "hazzard8e_ch2_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "3",
+      "title": "Immunology and Inflammation",
+      "file": "hazzard8e_ch3_immunology_and_inflammation.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "3s",
+      "title": "Immunology and Inflammation — Study",
+      "file": "hazzard8e_ch3_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "4",
+      "title": "Psychosocial Aspects of Aging",
+      "file": "hazzard8e_ch4_psychosocial_aspects_of_aging.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "4s",
+      "title": "Psychosocial Aspects of Aging — Study",
+      "file": "hazzard8e_ch4_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "5",
+      "title": "Sex Differences in Health and Longevity",
+      "file": "hazzard8e_ch5_sex_differences_in_health_and_longevity.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "5s",
+      "title": "Sex Differences in Health and Longevity — Study",
+      "file": "hazzard8e_ch5_study.md",
+      "kind": "study"
+    },
+    {
+      "number": "6",
+      "title": "Social Determinants of Health, Health Disparities, and Health Equity",
+      "file": "hazzard8e_ch6_social_determinants_of_health_health_disparities_and_health_equity.md",
+      "kind": "chapter"
+    },
+    {
+      "number": "6s",
+      "title": "Social Determinants of Health, Health Disparities, and Health Equity — Study",
+      "file": "hazzard8e_ch6_study.md",
+      "kind": "study"
     }
   ]
 }
