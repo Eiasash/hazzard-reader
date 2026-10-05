@@ -247,3 +247,9 @@ HMB/leucine usually appeared within complete supplements; isolated effects and o
 Gait-speed improvement >0.1 m/s or SPPB improvement >1 point. Mass gain alone is insufficient; mobility, daily activities, falls, fatigue, and quality of life matter to patients (p738).
 
 </details>
+
+### Table 49-3 — existing book image
+
+[Hazzard 8e, Table 49-3, p.734](#p734)
+
+[2024-Sep Q65](?chapter=bank&q=mcq-59f85952926fe582c920abfa)

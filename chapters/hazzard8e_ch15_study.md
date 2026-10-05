@@ -267,3 +267,21 @@ Not in the evidence reviewed here (p214). The Clinical Frailty Scale is promisin
 Education, individual provider feedback and electronic clinical decision support to improve prescribing safety. ED deprescribing findings should be communicated to the patient's usual clinicians (p218).
 
 </details>
+
+### Figure 15-2 — existing book image
+
+[Hazzard 8e, Figure 15-2, p.210](#p210)
+
+[2023-Jun Q95](?chapter=bank&q=mcq-b345342fb42d42167d25ca2b) · [2024-May Q75](?chapter=bank&q=mcq-8c8695c6e0e9292f086c2501) · [2024-Sep Q18](?chapter=bank&q=mcq-e3a98b6ee3b58c73a12e6ed4) · [2023-Jun Q66 (page citation)](?chapter=bank&q=mcq-c040b7a76725684cad927088) · [2026-Jun Q98 (page citation)](?chapter=bank&q=mcq-be0342d1614ce894a9a67d87)
+
+### Figure 15-3 — existing book image
+
+[Hazzard 8e, Figure 15-3, p.212](#p212)
+
+[2026-Jun Q98 (page citation)](?chapter=bank&q=mcq-be0342d1614ce894a9a67d87)
+
+### Figure 15-4 — existing book image
+
+[Hazzard 8e, Figure 15-4, p.214](#p214)
+
+[2026-Jun Q98 (page citation)](?chapter=bank&q=mcq-be0342d1614ce894a9a67d87)
