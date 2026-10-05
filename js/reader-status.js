@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v91', RELEASED = '05.10.2026';
+  const VERSION = 'v92', RELEASED = '05.10.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -25,14 +25,17 @@
       const delay = cloud?.pauseAt - Date.now();
       if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
       chip.dataset.readiness = waiting() || applying || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
-      chip.dataset.status = state;
-      const chipText = state === 'waiting' ? VERSION + ' - update available' : text;
+      chip.dataset.status = cloud?.paused ? 'cloud-paused' : state;
+      const chipText = (state === 'waiting' ? VERSION + ' - update available' : text) + (cloud?.paused ? ' - Cloud paused' : '');
+      button.querySelector('span:not(#readerStatusChip)').textContent = cloud?.paused ? 'Cloud paused' : 'Text';
       chip.textContent = '';chip.setAttribute('aria-label',chipText);
       button.title = 'Text & appearance — ' + chipText;
       button.setAttribute('aria-label', button.title);
       updateButton.hidden = state !== 'waiting';
       updateButton.textContent = text;
       updateButton.disabled = applying;
+      const chapterUpdate = document.querySelector('[data-chapter-update]');
+      if (chapterUpdate) { chapterUpdate.hidden = !waiting(); chapterUpdate.disabled = applying || !navigator.onLine; chapterUpdate.onclick = applyUpdate; }
       const at = window.HazzardStorage?.status.snapshotAt;
       const time = at ? new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jerusalem', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(at) : 'none yet';
       detail.textContent = 'Version ' + VERSION + ' (released ' + RELEASED + ') - ' + (navigator.onLine ? 'Online' : 'Offline') + ' - Offline copy: ' + (complete ? 'complete' : 'incomplete') + ' - Last snapshot: ' + time;

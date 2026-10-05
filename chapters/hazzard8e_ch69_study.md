@@ -21,7 +21,7 @@ Study summary of Chapter 69 - Management of Common Nonpain Symptoms; the book an
 **Breathlessness**
 - Patient self-report is the most appropriate measure; breathlessness need not correlate with hypoxia, hypercarbia or tachypnea (p1073).
 - Treat the cause when known, while using a fan, breathing techniques, posture, relaxation, anxiety management and energy conservation (p1074).
-- Oxygen improves outcomes in hypoxic COPD. In nonhypoxic patients, a cited trial found no dyspnea advantage over cannula-delivered air (p1074).
+- Oxygen improves outcomes in hypoxic COPD. In patients with advanced cancer and dyspnea who were not hypoxic (median age 65), a cited trial found no dyspnea advantage of oxygen over cannula-delivered air (p1074).
 - Noninvasive ventilation may help selected patients, but mask intolerance and anxiety can cause discontinuation (p1074).
 
 **Drugs & exam traps**
