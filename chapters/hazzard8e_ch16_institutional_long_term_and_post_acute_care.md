@@ -116,6 +116,10 @@ In addition to these strategies, strong leadership of a medical director (and in
 
 <a id="p227"></a>**[p. 227]**
 
+![Table 16-4 continued](hazzard8e_ch16_table-16-4-continued_p227.webp)
+
+*Table 16-4 continued*
+
 <a id="p228"></a>**[p. 228]**
 
 presentations, teaching rounds, and appropriate documentation procedures. Federal quality measures, as well as other quality indicators, developed through literature review and expert consensus should be used to track improvements in overall care in the NH setting. Medical directors should use these indicators and other approaches in their quality improvement programs and assisting the NH with meeting CMS requirements for Quality Assurance and Performance Improvement (“QAPI”).

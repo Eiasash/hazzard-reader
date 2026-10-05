@@ -643,8 +643,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch16_institutional_long_term_and_post_acute_care.md",
-      "sha256": "41684be94b62ba168a1adf01db79ae730e7716664a78f00b963a8a297094ae2c",
-      "bytes": 43546
+      "sha256": "a565d7d9ffa857d524945da15b8cba02e150f7a46221d6041eec9f67f2ab8d5f",
+      "bytes": 43642
     },
     {
       "url": "./chapters/hazzard8e_ch16_study.md",
@@ -665,6 +665,11 @@
       "url": "./chapters/hazzard8e_ch16_table-16-3_p224.webp",
       "sha256": "340f3e20d339a46f6eda587438037d5fe99a6a9e4eefad4bc938238124c4d38b",
       "bytes": 77368
+    },
+    {
+      "url": "./chapters/hazzard8e_ch16_table-16-4-continued_p227.webp",
+      "sha256": "7b56f354dca3cd45ecbda2d8470bad704a08b3f81117ee7145a36e815bd53405",
+      "bytes": 227984
     },
     {
       "url": "./chapters/hazzard8e_ch16_table-16-4_p226.webp",
@@ -4518,8 +4523,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "99371dbc3b3396737309200da09ab8eefaab3d805819baef30aab7ed85d53092",
-      "bytes": 3289151
+      "sha256": "6f63cd7301767c7f98d938a1a30dbd18328800beb1570969f072d55a7326f05e",
+      "bytes": 3289210
     },
     {
       "url": "./js/changed-questions.js",
