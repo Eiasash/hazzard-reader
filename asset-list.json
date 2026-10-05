@@ -1,5 +1,5 @@
 {
-  "version": "v78",
+  "version": "v79",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -1693,8 +1693,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "dca13adcc086d69cc296995483876d2ab1d95a388f44cc31ab4f9dc074ea1ca0",
-      "bytes": 10174
+      "sha256": "0006fbad3cf86af74ff9b4982731d7d8b4c506b1a4463d622b545aa7b0a5cd45",
+      "bytes": 10424
     },
     {
       "url": "./data/drug-index.json",
@@ -1758,7 +1758,7 @@
     },
     {
       "url": "./data/mcq/47.json",
-      "sha256": "41cd0f615fe848b483590504be211b16d5291696e32e3a721d876293fa66796d",
+      "sha256": "1a0df094ed994fad9d623ae2d584052eb62f046d6702190762ee2e165407f3a4",
       "bytes": 194811
     },
     {
@@ -1813,13 +1813,13 @@
     },
     {
       "url": "./data/mcq/68.json",
-      "sha256": "522752550a8a689314985a7af71a69a9329dbe37c77bc2429bc060f963d30f11",
-      "bytes": 163126
+      "sha256": "0a9947d6c672645fbf33e04cb45ae3086a0cbd3505622a4c0d3b7688791d525d",
+      "bytes": 162912
     },
     {
       "url": "./data/mcq/75.json",
-      "sha256": "0dbb9ab41801af17a719bac97e37fff22858753c37aba47254cfe02fab1f7a5d",
-      "bytes": 23256
+      "sha256": "996324e91bbbab4c66910024f09e8dbb279696a90cabd17870ae27391eed38a2",
+      "bytes": 23259
     },
     {
       "url": "./data/mcq/76.json",
@@ -1868,8 +1868,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "ed4dca4fb73179d5d026b55c01ab0b6ae61f195bf2ce8e1025238993196d0ad9",
-      "bytes": 6577413
+      "sha256": "924ab1c90a4335f91f4bccf4c39d184457ffef76d33362c11fb4cec1991edc0e",
+      "bytes": 6577201
     },
     {
       "url": "./data/mcq/collections.json",
@@ -2158,12 +2158,12 @@
     },
     {
       "url": "./data/redo-history.json",
-      "sha256": "7d147884b08c36f8d9164513009dbeda3e8baf41b8cc2cdb6a4b2d82a453c323",
-      "bytes": 175144
+      "sha256": "3664a5040d873f73dc19d27f3846f15a424fd742f6025bf182a7e1873f4f0d99",
+      "bytes": 175582
     },
     {
       "url": "./index.html",
-      "sha256": "d162bb27b6a21e82d9aaf061ffa0366997003b7cf962cde3af01c2cf0b0aa4d8",
+      "sha256": "263b7a0a0f879327468302a5f1a3ab9bac7346e093e5089cf46f2ec3a9fdbc2f",
       "bytes": 3276904
     },
     {
@@ -2228,7 +2228,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "328cb201670d53bfa79858aea98c75ff09de92389831337da7609d5225c8bcd1",
+      "sha256": "ee3d7515803a9c3317ff862ad479010f3847fec443bae33f938e537b11b249ea",
       "bytes": 7038
     },
     {
