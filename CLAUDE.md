@@ -3,6 +3,7 @@
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
 ## State (05 Oct 2026)
+- **v90:** Study tabs share the auto-hiding header; top-left Chapters shortcut, compact bottom badges/status dots, and Number/A-Z/Exam yield chapter sorting. Sort alone uses new hazzard-chapters-sort-v1; existing stores, content and update-on-tap unchanged.
 - **v89:** 72 full Read chapters: added 31, 16, 85, 34, 38, 62, 64, 70, 72, 79, 94 and 100 in priority order from the marked 8e copy. Three existing Study pages retained; nine formerly absent chapters get Read and citation-mapped Exam questions only. Chapters 34/62 carry the P005 exclusion note. Question mappings/counts, answers, redo history and storage unchanged.
 - **v88:** 60 full Read chapters: added 107, 74, 89, 8, 103, 78, 84, 30, 90, 11 and 69, in that priority order, from the marked 8e copy. Five existing Study pages retained; six formerly absent chapters have Read and citation-mapped Exam questions only. Question mappings/counts, answers, redo history and storage unchanged.
 - **v87:** 49 full Read chapters: added 96, 50, 22, 9, 39 and 93 (Skin Cancer), in that priority order, from the marked 8e copy. Five existing Study pages retained; 93 is Read only with citation-mapped Exam questions. Question mappings/counts, answers, redo history and storage unchanged.
