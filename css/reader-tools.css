@@ -19,6 +19,20 @@
 #readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:12px/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
 #readerDebug button:focus-visible,#readerDebug textarea:focus-visible { outline:2px solid var(--focus,#8a511c); outline-offset:2px; }
 /* The waiting-update action has its own target, separate from Text settings. */
-#readerUpdateButton{position:fixed;right:12px;bottom:calc(60px + env(safe-area-inset-bottom,0px));z-index:90;max-width:calc(100vw - 24px);min-height:44px;padding:10px 16px;border:2px solid #287aca;border-radius:12px;background:var(--paper);color:var(--ink);font:600 13px/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
+#readerUpdateButton{position:fixed;left:calc(var(--vv-left,0px) + var(--vv-width,100vw) / 2);transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 6px);z-index:90;width:min(600px,calc(var(--vv-width,100vw) - 24px));min-height:48px;padding:10px 16px;border:2px solid #287aca;border-radius:24px;background:var(--surface);color:var(--ink);font:600 13px/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
 #readerUpdateButton[hidden]{display:none}
 :root[data-theme="dark"] #readerUpdateButton{border-color:#78baff}
+/* Reserve the update action's row, including when a sheet is open. */
+body:has(#readerUpdateButton:not([hidden])){--update-gap:60px}
+body:has(#readerUpdateButton:not([hidden])) #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--update-gap))}
+body.mark-bar-open:has(#readerUpdateButton:not([hidden])) #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--update-gap) + 49px)}
+body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--update-gap))}
+#panel[open]{translate:0 calc(-1 * var(--update-gap,0px))}
+/* One handle for every pane; title/debug taps and Back retain their handlers. */
+#panel[open] .dialog-head{display:grid;grid-template-columns:minmax(0,1fr) 44px minmax(0,1fr);align-items:center;gap:0;flex:none;height:auto;min-height:44px}
+#panel[open] #panelTitle{grid-column:1;min-width:0;overflow-wrap:anywhere}
+#panel[open] #closePanel{grid-column:3;justify-self:end}
+#panel[open] #panelExpand{grid-column:2;grid-row:1;display:grid;place-items:center;width:44px;height:44px;min-width:44px;min-height:44px;min-block-size:44px;padding:0;border:0;background:transparent;cursor:pointer}
+#panelExpand span{width:24px;height:4px;border-radius:2px;background:var(--muted);pointer-events:none}
+#panel[open] [data-pane]{overscroll-behavior:contain}
+#panel[open][data-expanded="true"],#panel[open][data-expanded="true"]:has(#appearanceStatus[open]){height:min(calc(var(--vv-height) * .75),calc(var(--vv-height) - var(--tabs-height) - var(--update-gap,0px) - env(safe-area-inset-top,0px) - 8px));max-block-size:min(calc(var(--vv-height) * .75),calc(var(--vv-height) - var(--tabs-height) - var(--update-gap,0px) - env(safe-area-inset-top,0px) - 8px));overflow:hidden}
