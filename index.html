@@ -32677,7 +32677,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v106 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v107 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33810,7 +33810,7 @@ addEventListener('pageshow',event=>{if(event.persisted)resyncTimer()});
 addEventListener('storage',event=>{if(event.key===TIMER_KEY)resyncTimer()});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)resyncTimer()});
 // Portable notebook backups contain only the reader's named stores, never other apps' data.
-const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',CHAPTER_SORT_KEY,HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.SYSTEM_KEY]);
+const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4',CHAPTER_SORT_KEY,HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SYSTEM_KEY]);
 const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')||notebookKeys.has(key);
 notebookKeys.add(HazzardMCQ.VIEW_KEY);
 notebookKeys.add(HazzardReview.KEY);
@@ -33827,6 +33827,9 @@ function mergeNotebookValue(key,current,incoming){
   if(key===HazzardMCQ.KEY)return HazzardMCQ.mergeStore(current,incoming);
   if(key===HazzardMCQ.PAPER_KEY)return HazzardMCQ.mergePaper(current,incoming);
   if(key===HazzardMCQ.FLAGS_KEY)return HazzardMCQ.mergeFlags(current,incoming);
+  if(key===HazzardMCQ.GENERATED_FLAGS_KEY){
+    const merged=[...current];for(const flag of incoming)if(!merged.some(saved=>saved.id===flag.id&&saved.at===flag.at))merged.push(flag);return merged;
+  }
   if(key===HazzardMCQ.SYSTEM_KEY)return HazzardMCQ.mergeSystem(current,incoming);
   if(key===HazzardReview.KEY)return HazzardReview.merge(current,incoming);
   if(key===HazzardMCQ.VIEW_KEY)return HazzardMCQ.mergeView(current,incoming);

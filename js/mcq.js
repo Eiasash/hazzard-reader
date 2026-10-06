@@ -4,7 +4,8 @@ window.HazzardMCQ = (() => {
   const KEY = 'hazzard-mcq-v1';
   const GENERATED_FLAGS_KEY='hazzard-generated-flags-v1';
   const generated=q=>q.kind==='practice'&&q.source!=='drill';
-  function generatedFlags(){const raw=localStorage.getItem(GENERATED_FLAGS_KEY);const entries=raw===null?[]:JSON.parse(raw);if(!Array.isArray(entries))throw Error('Generated-practice flags could not be read.');return entries;}
+  const validGeneratedFlags=value=>Array.isArray(value)&&value.every(flag=>flag!==null&&typeof flag==='object'&&!Array.isArray(flag)&&typeof flag.id==='string'&&flag.id.length>0&&Number.isFinite(flag.at)&&flag.at>=0);
+  function generatedFlags(){const raw=localStorage.getItem(GENERATED_FLAGS_KEY);const entries=raw===null?[]:JSON.parse(raw);if(!validGeneratedFlags(entries))throw Error('Generated-practice flags could not be read.');return entries;}
   function showGeneratedCount(){const node=document.getElementById('generatedFlagCount');if(!node)return;try{node.textContent=new Set(generatedFlags().map(f=>f.id)).size+' generated practice items flagged';}catch{node.textContent='Generated-practice flag count unavailable.';}}
   showGeneratedCount();addEventListener('storage',showGeneratedCount);addEventListener('pageshow',showGeneratedCount);
   const MIGRATION_KEY='hazzard-mcq-id-aliases-v53-r1';
@@ -505,7 +506,7 @@ window.HazzardMCQ = (() => {
       if(button.dataset.page){const p=evidence.questions[q.id]?.pages.find(p=>p.page===Number(button.dataset.page)&&p.available)||practicePage(q);if(p){saveView();HazzardEvidence.openPage(p,history.state.mcqView);}return;}
       if(action==='generated-flag'&&generated(q)){
         const status=host.querySelector('[data-generated-status]');
-        try{const entries=generatedFlags();entries.push({id:q.id,at:Date.now()});localStorage.setItem(GENERATED_FLAGS_KEY,JSON.stringify(entries));showGeneratedCount();status.textContent=' Flag saved';}catch{status.textContent=' Flag could not be saved; existing flags kept.';}return;
+        try{const entries=generatedFlags();entries.push({id:q.id,at:Date.now()});HazzardStorage.setItem(GENERATED_FLAGS_KEY,JSON.stringify(entries));showGeneratedCount();status.textContent=' Flag saved';}catch{status.textContent=' Flag could not be saved; existing flags kept.';}return;
       }
       if(action==='flag'){
         if(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden){location.assign('?chapter=bank#flags');return;}
@@ -553,5 +554,5 @@ window.HazzardMCQ = (() => {
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
+  return {rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
 })();
