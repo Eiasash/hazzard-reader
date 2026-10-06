@@ -16190,7 +16190,7 @@
       "past": 11,
       "resolved": 8,
       "fallback": 0,
-      "practice": 1,
+      "practice": 2,
       "chapterLinked": 3
     },
     "76": {
@@ -16220,7 +16220,7 @@
       "past": 20,
       "resolved": 12,
       "fallback": 4,
-      "practice": 24,
+      "practice": 28,
       "chapterLinked": 4
     },
     "77": {
@@ -16239,7 +16239,7 @@
       "past": 9,
       "resolved": 6,
       "fallback": 2,
-      "practice": 32,
+      "practice": 34,
       "chapterLinked": 1
     },
     "81": {
@@ -16263,7 +16263,7 @@
       "past": 14,
       "resolved": 11,
       "fallback": 0,
-      "practice": 16,
+      "practice": 18,
       "chapterLinked": 3
     },
     "83": {
@@ -16285,7 +16285,7 @@
       "past": 12,
       "resolved": 7,
       "fallback": 4,
-      "practice": 11,
+      "practice": 15,
       "chapterLinked": 1
     },
     "87": {
@@ -16309,7 +16309,7 @@
       "past": 14,
       "resolved": 11,
       "fallback": 0,
-      "practice": 48,
+      "practice": 56,
       "chapterLinked": 3
     },
     "88": {
@@ -16325,7 +16325,7 @@
       "past": 6,
       "resolved": 4,
       "fallback": 2,
-      "practice": 34,
+      "practice": 39,
       "chapterLinked": 0
     },
     "97": {
@@ -16580,7 +16580,7 @@
       "past": 8,
       "resolved": 5,
       "fallback": 0,
-      "practice": 0,
+      "practice": 6,
       "studyOnly": true,
       "chapterLinked": 3
     },

@@ -131,7 +131,7 @@ This table is on an official-question-cited page; the question references identi
 
 - Transplant programs increasingly consider otherwise healthy older adults. The chapter closes by recommending a GFR estimate for older patients, measures to prevent progression when impairment is identified, and particular care with medicine choice/dosing and imaging contrast as CKD progresses (p1276).
 
-## Drill
+## Recall
 
 **1. Which structural change supports normal kidney aging in a pathology question?**
 
@@ -139,22 +139,10 @@ This table is on an official-question-cited page; the question references identi
 Basement-membrane thickening, mesangial expansion, and progressive glomerulosclerosis (p1268).
 </details>
 
-**2. Why can a rising serum creatinine be pathological even when it remains near the laboratory normal range?**
-
-<details><summary>Answer</summary>
-Normal aging reduces muscle mass and creatinine production along with filtration, so serum creatinine should remain relatively constant. A rise should not be dismissed; upper-normal creatinine may represent significant functional loss (p1268).
-</details>
-
 **3. How do renal blood flow and vascular resistance change?**
 
 <details><summary>Answer</summary>
 Blood flow falls about 10% per decade, from 600 to 300 mL/min/1.73 m² by the ninth decade; resistance increases in both afferent and efferent arterioles (p1268).
-</details>
-
-**4. Is proteinuria an expected consequence of normal human aging?**
-
-<details><summary>Answer</summary>
-No. It is pathological and requires work-up; normal aging in rats differs, limiting extrapolation (p1269).
 </details>
 
 **5. What are the book's CKD duration requirement and stage subdivisions for moderately reduced GFR?**
@@ -167,12 +155,6 @@ Kidney damage or reduced function for at least 3 months. Stage 3 spans 30–59 m
 
 <details><summary>Answer</summary>
 Some urinary creatinine is secreted by proximal tubules rather than filtered. Cystatin C avoids the age-related creatinine-production problem (p1269).
-</details>
-
-**7. As GFR declines, how does potassium fractional excretion differ in older versus younger adults?**
-
-<details><summary>Answer</summary>
-It does not rise as much in older adults, partly from lower aldosterone or aldosterone resistance; unstressed serum potassium may nevertheless remain normal (p1270).
 </details>
 
 **8. A diuretic-treated older patient develops weakness, ileus, polyuria, and fatigue. Which electrolyte disorder fits?**
@@ -193,12 +175,6 @@ An isolated urine potassium above 40 mEq/L suggests excessive renal loss. Refeed
 It may cause spurious serum hyperkalemia. Obtain plasma potassium when this is suspected (p1271).
 </details>
 
-**11. Does absence of typical ECG changes exclude dangerous hyperkalemia?**
-
-<details><summary>Answer</summary>
-No. Manifestations vary at the same potassium level, and the classic ordered ECG progression is seldom seen; absent changes do not establish error or insignificance (p1271).
-</details>
-
 **12. What does calcium accomplish in severe hyperkalemia, and which treatment removes potassium rather than merely shifting it?**
 
 <details><summary>Answer</summary>
@@ -211,14 +187,3 @@ Calcium stabilizes the myocardial membrane without lowering potassium. Insulin, 
 Trimethoprim/sulfamethoxazole with spironolactone is a highlighted combination. Adrenal insufficiency can present with recurrent volume depletion/AKI, variable hyponatremia/hyperkalemia, and fatigue (p1271).
 </details>
 
-**14. What makes podocyte loss important in the proposed sclerosis mechanism?**
-
-<details><summary>Answer</summary>
-Podocytes are postmitotic and cannot be replaced. Detachment exposes basement membrane and is thought to trigger sclerosis, eventually eliminating the nephron (p1272).
-</details>
-
-**15. Does the chapter establish protein restriction as prevention of normal human kidney aging?**
-
-<details><summary>Answer</summary>
-No. Animal findings are confounded by calorie and mineral changes; the chapter supports protein restriction for uremic symptoms in established disease, not prevention of human age-related change (p1274).
-</details>

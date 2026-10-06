@@ -87,37 +87,37 @@
   "75": {
     "title": "Valvular Heart Disease",
     "past": 8,
-    "practice": 1
+    "practice": 2
   },
   "76": {
     "title": "Heart Failure",
     "past": 19,
-    "practice": 24
+    "practice": 28
   },
   "77": {
     "title": "Cardiac Arrhythmias",
     "past": 12,
-    "practice": 32
+    "practice": 34
   },
   "81": {
     "title": "Chronic Obstructive Pulmonary Disease",
     "past": 14,
-    "practice": 16
+    "practice": 18
   },
   "83": {
     "title": "Kidney Diseases",
     "past": 20,
-    "practice": 11
+    "practice": 15
   },
   "87": {
     "title": "Constipation",
     "past": 12,
-    "practice": 48
+    "practice": 56
   },
   "88": {
     "title": "Cancer and Aging: General Principles",
     "past": 12,
-    "practice": 34
+    "practice": 39
   },
   "97": {
     "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
@@ -375,6 +375,11 @@
   },
   "73": {
     "title": "The Aging Cardiovascular System",
+    "past": 0,
+    "practice": 6
+  },
+  "82": {
+    "title": "Aging of the Kidney",
     "past": 0,
     "practice": 6
   }

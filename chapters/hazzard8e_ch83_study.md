@@ -90,21 +90,13 @@ Study summary of Chapter 83; the book and the full chapter are the reference.
 ### Book contradiction (exam trap)
 - **1-year dialysis survival for octogenarians/nonagenarians is given as two different numbers in the same chapter**: the opening Key Clinical Points box says **50%** (p1278), but the "Prognosis and Survival" section later states **54%** (p1296) for the identical statistic. Both are printed as-is; know which figure a question is quoting.
 
-## Drill
+## Recall
 
 **1. What eGFR, albuminuria, and duration criteria define CKD?**
 
 <details><summary>Answer</summary>
 
 eGFR <60 mL/min/1.73 m² (or albuminuria >30 mg/g, hematuria, urinary casts, or imaging abnormality), persisting more than 3 months (p1278).
-
-</details>
-
-**2. What fraction of US adults over age 70 have CKD by eGFR/albuminuria criteria?**
-
-<details><summary>Answer</summary>
-
-47%, versus about 11.5% in the general adult population (p1278).
 
 </details>
 
@@ -129,14 +121,6 @@ eGFR under 60 mL/min/1.73 m². Combining ACEI and ARB is generally not advised �
 <details><summary>Answer</summary>
 
 Nonoliguric (>400 mL/day), oliguric (100–400 mL/day), anuric (<100 mL/day); nonoliguric AKI has the better prognosis (p1280).
-
-</details>
-
-**6. By how much does NSAID use raise AKI risk in adults over 65?**
-
-<details><summary>Answer</summary>
-
-It doubles the risk (p1282).
 
 </details>
 
@@ -180,27 +164,11 @@ About 90%; CORAL (947 patients) showed no benefit of revascularization over medi
 
 </details>
 
-**12. What renal vein renin ratio predicts a beneficial blood pressure response to revascularization?**
-
-<details><summary>Answer</summary>
-
-A ratio of 1.5 or greater between the two renal veins (p1289).
-
-</details>
-
 **13. Around what GFR does renal anemia typically develop, and what type of anemia is it?**
 
 <details><summary>Answer</summary>
 
 Around GFR 35 mL/min; a normochromic, normocytic anemia due to inadequate erythropoietin production (p1294).
-
-</details>
-
-**14. How much higher is the risk of cardiovascular death for a patient on dialysis compared to the general population?**
-
-<details><summary>Answer</summary>
-
-10 to 100 times higher (p1294).
 
 </details>
 
@@ -211,3 +179,4 @@ Around GFR 35 mL/min; a normochromic, normocytic anemia due to inadequate erythr
 50% (Key Clinical Points, p1278) and 54% (Prognosis and Survival section, p1296) — the same statistic printed differently in two places in the same chapter.
 
 </details>
+
