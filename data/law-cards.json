@@ -1305,28 +1305,28 @@
   },
   "articles": {
     "title": "Required articles (IMA P005-2026)",
-    "note": "Article summaries follow the supplied sources. IWG and VASCOG cards retain the owner-supplied text and page citations; AA, JAMA and NEJM use the supplied XML/PDF. Linked past questions name the article explicitly; their original answers and explanations remain unchanged.",
+    "note": "Article summaries follow the supplied sources. IWG, VASCOG and NEJM cite the official publisher PDFs with journal pagination; AA and JAMA use the supplied XML/PDF. Linked past questions name the article explicitly; their original answers and explanations remain unchanged.",
     "cards": [
       {
         "id": "ima-article-iwg-2024",
         "articleItem": 3,
         "title": "IWG 2024: AD is a clinical-biological construct",
         "direction": "ltr",
-        "provenance": "cards_IWG_VasCog_from_Claude.md — owner-supplied, page-verified by Claude; underlying PDF unavailable on this PC.",
+        "provenance": "jamaneurology_dubois_2024_sc_240001_1733257847.6341.pdf – official publisher PDF; journal pages 1304–1311.",
         "bullets": [
-          "Position: AD = clinical phenotype + positive pathophysiological AD biomarkers; opposes AA 2024 purely biological definition. [ms p.4-6, ms p.11]",
-          "AD diagnosis (clinical setting): established clinical phenotype + supportive biomarkers (CSF, amyloid or tau PET; plasma e.g. p-tau217 pending approval). Covers prodromal (MCI, no loss of function) and dementia (loss of function) stages. [ms p.11, ms p.13]",
-          "Phenotypes - common: amnestic syndrome of the hippocampal type, logopenic aphasia, posterior cortical atrophy; uncommon: corticobasal syndrome, behavioural and dysexecutive variants. [ms p.6, ms p.12]",
-          "Cognitively normal + biomarker-positive = \"asymptomatic at-risk for AD\", NOT AD: brain amyloidosis isolated, or with tauopathy limited to medial temporal regions, or positive phospho-tau fluid biomarker. [ms p.12, Panel 1]",
-          "\"Presymptomatic AD\" (rare): near-deterministic risk - APP/PSEN1/PSEN2 mutations; Down syndrome; APOE e4 homozygous with SORL1 loss of function; amyloid PET+ with tau PET+ in neocortical regions. [ms p.12, Panel 1]",
-          "Numbers: lifetime AD-dementia risk of an amyloid-positive 65-year-old man ~21.9%, only 1.7x amyloid-negative; ~17% of CN isolated-amyloid-positive progressed to MCI over 6 years; tau PET positivity ~35% progression at 7 years. [ms p.7-8]",
-          "IWG recommends NO routine diagnostic biomarker testing in cognitively normal people (incl. subjective cognitive decline) outside research. [ms p.10-11]",
-          "Table 1 AA 2024 vs IWG 2024: AA - any abnormal Core 1 biomarker suffices, CN biomarker+ can be told they have AD, biomarkers could be primary trial endpoints; IWG - objective cognitive deficits + biomarkers needed, CN biomarker+ = at-risk (except rare presymptomatic AD), clinical efficacy required. [ms p.16]"
+          "Position: AD = clinical phenotype + positive pathophysiological AD biomarkers; opposes AA 2024 purely biological definition. [pp.1305,1308]",
+          "AD diagnosis (clinical setting): established clinical phenotype + supportive biomarkers (CSF, amyloid or tau PET; plasma e.g. p-tau217 pending approval). Covers prodromal (MCI, no loss of function) and dementia (loss of function) stages. [pp.1306,1308; Box]",
+          "Phenotypes - common: amnestic syndrome of the hippocampal type, logopenic aphasia, posterior cortical atrophy; uncommon: corticobasal syndrome, behavioural and dysexecutive variants. [pp.1305–1306; Box]",
+          "Cognitively normal + biomarker-positive = \"asymptomatic at-risk for AD\", NOT AD: brain amyloidosis isolated, or with tauopathy limited to medial temporal regions, or positive phospho-tau fluid biomarker. [p.1306, Box]",
+          "\"Presymptomatic AD\" (rare): near-deterministic risk - APP/PSEN1/PSEN2 mutations; Down syndrome; APOE e4 homozygous with SORL1 loss of function; amyloid PET+ with tau PET+ in neocortical regions. [p.1306, Box]",
+          "Numbers: lifetime AD-dementia risk of an amyloid-positive 65-year-old man ~21.9%, only 1.7x amyloid-negative; ~17% of CN isolated-amyloid-positive progressed to MCI over 6 years; tau PET positivity ~35% progression at 7 years. [p.1306]",
+          "IWG recommends NO routine diagnostic biomarker testing in cognitively normal people (incl. subjective cognitive decline) outside research. [p.1308]",
+          "Table AA 2024 vs IWG 2024: AA - any abnormal Core 1 biomarker suffices, CN biomarker+ can be told they have AD, biomarkers could be primary trial endpoints; IWG - objective cognitive deficits + biomarkers needed, CN biomarker+ = at-risk (except rare presymptomatic AD), clinical efficacy required. [p.1307, Table]"
         ],
         "sources": [
           {
-            "document": "cards_IWG_VasCog_from_Claude.md",
-            "locator": "IWG: Dubois B, et al. \"Alzheimer disease is a clinical-biological construct: An IWG recommendation.\" JAMA Neurol. 2024;81(12):1304-1311. doi:10.1001/jamaneurol.2024.3770. HHS author manuscript (PMC12010406). \"ms p.\" = author-manuscript page number."
+            "document": "jamaneurology_dubois_2024_sc_240001_1733257847.6341.pdf",
+            "locator": "Dubois B, et al. Alzheimer Disease as a Clinical-Biological Construct–An International Working Group Recommendation. JAMA Neurol. 2024;81(12):1304–1311. doi:10.1001/jamaneurol.2024.3770. Journal pp. 1304–1311 (= PDF pp. 1–8); Box p.1306; Table p.1307."
           }
         ],
         "questions": [
@@ -1344,28 +1344,24 @@
         "articleItem": 2,
         "title": "VASCOG-2-WSO 2025: vascular cognitive impairment and dementia",
         "direction": "ltr",
-        "provenance": "cards_IWG_VasCog_from_Claude.md — revised owner-supplied bullets retained verbatim, with manuscript-page labels. Gait clarification separately checked on rendered Oxford accepted-manuscript pages 11 and 23.",
+        "provenance": "jamaneurology_sachdev_2025_oi_250068_1762755358.15855.pdf – official publisher PDF; journal pages 1103–1112. Gait wording checked in Observations p.1106 and Box 2 A.2 p.1107.",
         "bullets": [
-          "Terms (84% consensus): umbrella VCID; mild level = vaMCI; major level = VaD. Delphi, >=75% agreement, 3 rounds, 49-54 experts; endorsed by World Stroke Organisation. [ms p.5, ms p.10]",
-          "VaD = 2nd commonest dementia, 15-20% of cases; cerebrovascular disease contributes in up to 75% of dementia. [ms p.6]",
-          "MCI (Table 1): concern + modest objective deficit in >=1 domain, typically 1-2 SD below norms (3rd-16th percentile); IADLs preserved (may need effort/compensation). [ms p.20]",
-          "Dementia (Table 1): concern + clear deficit >=2 SD below norms (<3rd percentile) in >=1 domain; deficits, apart from physical deficits, interfere with independence (at least needing help with IADLs e.g. finances, medications). [ms p.20-21]",
-          "Six domains (Table 2, DSM-5 based): attention and processing speed; executive function; learning and memory; language; perceptual-motor; social cognition. [ms p.10, ms p.22]",
-          "Vascular aetiology (Table 3) needs A AND B. A1: onset temporally related to >=1 clinical stroke; abrupt; deficits persist beyond 3 months; stepwise/fluctuating if multiple strokes. A2 (no stroke/TIA): gradual, slowly progressive, mainly attention/processing speed and/or executive; memory = inefficient encoding/retrieval (vs consolidation/storage in AD). Supportive: apathy, depressive symptoms, emotional lability, gait-balance disorders. [ms p.23]",
-          "B imaging (MRI preferred, >=1): multiple infarcts or a single extensive/strategic infarct (e.g. thalamus); >=2 lacunes outside brainstem (1 if strategic or with extensive WMH); extensive confluent WMH (may correspond to Fazekas 2-3, or periventricular 3 and/or deep 2-3); ICH - one if large/lobar/strategic, or >=2. Microbleeds, cortical superficial siderosis and CAA (Boston 2.0) are supportive only, not sufficient. STRIVE-2 definitions. [ms p.24]",
-          "Changes vs VASCOG-1: gait disturbance and urinary frequency dropped as too non-specific; major depression removed from exclusions; AD and DLB biomarkers added for alternative/additional aetiology; no consensus on a timeframe after stroke (\"beyond 3 months\" retained from VASCOG-1; 3 mo 39%, 6 mo 30%); PSD / SIVaD / MID subtypes not supported - only ischaemic, haemorrhagic or mixed. [ms p.10-11, ms p.13]",
-          "Table 3C alternative/co-aetiology: insidious AD-like onset without matching vascular lesions; early prominent movement disorder (Lewy body); absent/minimal CVD on imaging; AD biomarkers (CSF/plasma Abeta42:40, pTau181, pTau217; amyloid PET; AD mutation or APOE4 homozygosity - authors' addition, not Delphi consensus); DLB biomarkers (DaT imaging, CSF alpha-synuclein seed amplification - authors' addition, not Delphi consensus). [ms p.24-25]",
-          "Certainty (Table 4): probable = clinical criteria + neuroimaging, or clinical + genetic (CADASIL, CARASIL, HERNS, PADMAL, RVCL, COL4A1); possible = clinical criteria met but no imaging/genetic evidence. Mixed causation: state which aetiology is clinically more salient. [ms p.26]",
-          "New \"preclinical/at-risk VCID\": significant incidental imaging CVD meeting criterion B, no cognitive concern and not meeting MCI/dementia; supported by vascular risk factors; mainly for research and prevention. [ms p.27]"
+          "Terms (84% consensus): umbrella VCID; mild level = vaMCI; major level = VaD. Delphi, >=75% agreement, 3 rounds, 49-54 experts; endorsed by World Stroke Organisation. [pp.1103–1105]",
+          "VaD = 2nd commonest dementia, 15-20% of cases; cerebrovascular disease contributes in up to 75% of dementia. [p.1103]",
+          "MCI (Box 1): concern + modest objective deficit in >=1 domain, typically 1-2 SD below norms (3rd-16th percentile); IADLs preserved (may need effort/compensation). [p.1106, Box 1]",
+          "Dementia (Box 1): concern + clear deficit >=2 SD below norms (<3rd percentile) in >=1 domain; deficits, apart from physical deficits, interfere with independence (at least needing help with IADLs e.g. finances, medications). [p.1106, Box 1]",
+          "Six domains (Table, DSM-5 based): attention and processing speed; executive function; learning and memory; language; perceptual-motor; social cognition. [pp.1105–1106, Table]",
+          "Vascular aetiology (Box 2) needs A AND B. A1: onset temporally related to >=1 clinical stroke; abrupt; deficits persist beyond 3 months; stepwise/fluctuating if multiple strokes. A2 (no stroke/TIA): gradual, slowly progressive, mainly attention/processing speed and/or executive; memory = inefficient encoding/retrieval (vs consolidation/storage in AD). Supportive: apathy, depressive symptoms, emotional lability, gait-balance disorders. [p.1107, Box 2 A]",
+          "B imaging (MRI preferred, >=1): multiple infarcts or a single extensive/strategic infarct (e.g. thalamus); >=2 lacunes outside brainstem (1 if strategic or with extensive WMH); extensive confluent WMH (may correspond to Fazekas 2-3, or periventricular 3 and/or deep 2-3); ICH - one if large/lobar/strategic, or >=2. Microbleeds, cortical superficial siderosis and CAA (Boston 2.0) are supportive only, not sufficient. STRIVE-2 definitions. [p.1107, Box 2 B]",
+          "Changes vs VASCOG-1: gait disturbance and urinary frequency dropped as too non-specific; major depression removed from exclusions; AD and DLB biomarkers added for alternative/additional aetiology; no consensus on a timeframe after stroke (\"beyond 3 months\" retained from VASCOG-1; 3 mo 39%, 6 mo 30%); PSD / SIVaD / MID subtypes not supported - only ischaemic, haemorrhagic or mixed. [pp.1105–1106,1108]",
+          "Box 2 C alternative/co-aetiology: insidious AD-like onset without matching vascular lesions; early prominent movement disorder (Lewy body); absent/minimal CVD on imaging; AD biomarkers (CSF/plasma Abeta42:40, pTau181, pTau217; amyloid PET; AD mutation or APOE4 homozygosity - authors' addition, not Delphi consensus); DLB biomarkers (DaT imaging, CSF alpha-synuclein seed amplification - authors' addition, not Delphi consensus). [p.1107, Box 2 C]",
+          "Certainty (Box 3): probable = clinical criteria + neuroimaging, or clinical + genetic (CADASIL, CARASIL, HERNS, PADMAL, RVCL, COL4A1); possible = clinical criteria met but no imaging/genetic evidence. Mixed causation: state which aetiology is clinically more salient. [p.1108, Box 3]",
+          "New \"preclinical/at-risk VCID\": significant incidental imaging CVD meeting criterion B, no cognitive concern and not meeting MCI/dementia; supported by vascular risk factors; mainly for research and prevention. [p.1108, Box 3]"
         ],
         "sources": [
           {
-            "document": "cards_IWG_VasCog_from_Claude.md",
-            "locator": "VasCog: The VASCOG-2-WSO Criteria Consortium. \"Revised Diagnostic Criteria for Vascular Cognitive Impairment and Dementia - The VasCog-2-WSO Criteria.\" JAMA Neurol. 2025. doi:10.1001/jamaneurol.2025.3242. Edinburgh accepted manuscript. \"ms p.\" = manuscript page number printed at page foot (= PDF page - 1; PDF p.1 is the repository cover). Page numbers verified by Claude with per-page text search."
-          },
-          {
-            "document": "Oxford accepted manuscript — https://ora.ox.ac.uk/objects/uuid:c13523b9-fd72-4633-8a4e-d753b11f0710",
-            "locator": "Gait clarification only: Results [ms p.11] and Table 3 A2 guidance [ms p.23]; these printed manuscript pages are also PDF pages 11 and 23 in this copy."
+            "document": "jamaneurology_sachdev_2025_oi_250068_1762755358.15855.pdf",
+            "locator": "The VasCog-2-WSO Criteria Consortium. Revised Diagnostic Criteria for Vascular Cognitive Impairment and Dementia–The VasCog-2-WSO Criteria. JAMA Neurol. 2025;82(11):1103–1112. doi:10.1001/jamaneurol.2025.3242. Journal pp. 1103–1112 (= PDF pp. 1–10); Box 1 and Table p.1106; Box 2 p.1107; Box 3 p.1108."
           }
         ],
         "questions": [
@@ -1384,7 +1380,7 @@
             "basis": "Exact named-article match in the existing official question/reference; source question unchanged."
           }
         ],
-        "gap": "Gait wording (bullets 6 and 8): Table 3 A2 mentions gait-balance disorders under guidance about common supportive features [ms p.23]. The Results text says gait disturbance and urinary frequency did not reach consensus for inclusion in the diagnostic criteria [ms p.11]. Read the table guidance separately from the consensus criterion; the manuscript retains both statements."
+        "gap": "Gait wording (bullets 6 and 8): Box 2 A.2 mentions gait-balance disorders under guidance about common supportive features [p.1107]. The Observations text says gait disturbance and urinary frequency did not reach consensus for inclusion in the diagnostic criteria [p.1106]. Read the box guidance separately from the consensus criterion; the published article retains both statements."
       },
       {
         "id": "ima-article-aa-2024",

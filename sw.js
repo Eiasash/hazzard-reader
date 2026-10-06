@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v116';
+const CACHE_VERSION = 'v117';
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
