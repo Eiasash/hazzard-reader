@@ -42,12 +42,12 @@
   "55": {
     "title": "Rehabilitation",
     "past": 30,
-    "practice": 38
+    "practice": 46
   },
   "57": {
     "title": "Cognitive Changes in Normal and Pathologic Aging",
     "past": 0,
-    "practice": 0
+    "practice": 8
   },
   "58": {
     "title": "Delirium",
@@ -72,17 +72,17 @@
   "63": {
     "title": "Other Neurodegenerative Disorders",
     "past": 0,
-    "practice": 0
+    "practice": 9
   },
   "65": {
     "title": "Major Depression",
     "past": 21,
-    "practice": 19
+    "practice": 21
   },
   "68": {
     "title": "Pain Management",
     "past": 21,
-    "practice": 48
+    "practice": 56
   },
   "75": {
     "title": "Valvular Heart Disease",
@@ -362,5 +362,20 @@
     "title": "Muscle Aging and Sarcopenia",
     "past": 0,
     "practice": 3
+  },
+  "53": {
+    "title": "Hip Fractures",
+    "past": 0,
+    "practice": 8
+  },
+  "67": {
+    "title": "Palliative Care and Special Management Issues",
+    "past": 0,
+    "practice": 7
+  },
+  "73": {
+    "title": "The Aging Cardiovascular System",
+    "past": 0,
+    "practice": 6
   }
 }

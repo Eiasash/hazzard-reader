@@ -58,7 +58,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - **10%** of US HIV cases are in patients ≥50; with modern ART, progression to HIV dementia is rare (**2-3%**), but milder deficits occur in **50-60%** (p876)
 - Neurosyphilis dementia classically emerges **5-25 years** after initial infection (p876)
 
-## Drill
+## Recall
 
 **1. In normal aging, which type of intelligence is relatively preserved and which declines?**
 
@@ -76,27 +76,11 @@ Sustained attention (vigilance) is preserved; divided attention (attending to mo
 
 </details>
 
-**3. Are "real-world" executive functions typically impaired by normal aging?**
-
-<details><summary>Answer</summary>
-
-No — successful aging has little impact on real-world executive functions (planning/executing multi-step tasks), even though performance on novel neuropsychological executive tasks declines slightly (p854).
-
-</details>
-
 **4. In normal aging, which verbal fluency type declines (semantic or phonemic), and which stays stable?**
 
 <details><summary>Answer</summary>
 
 Semantic fluency ("name all the animals you can") declines; phonemic fluency ("words starting with F") generally remains stable (p856).
-
-</details>
-
-**5. On Figure 57-1, what is the prevalence of hypertension among the medical conditions shown affecting cognition in adults 65+?**
-
-<details><summary>Answer</summary>
-
-70% (the highest of the conditions shown; CKD 38%, diabetes 27%, thyroid disease 25%, CAD 17%, sleep apnea 14%, depression 10-15%, COPD 10%) (p856).
 
 </details>
 
@@ -108,59 +92,11 @@ Semantic fluency ("name all the animals you can") declines; phonemic fluency ("w
 
 </details>
 
-**7. What dose of vitamin E showed reduced functional decline in a large trial for mild-to-moderate AD?**
-
-<details><summary>Answer</summary>
-
-2000 IU/day (p860-861).
-
-</details>
-
 **8. What fraction of patients diagnosed with MCI progress to AD, and over what time frame?**
 
 <details><summary>Answer</summary>
 
 About 80% progress to AD within 5 to 8 years, converting at roughly 10-15%/year vs 1-2%/year in the general population (p869).
-
-</details>
-
-**9. What percentage of MCI patients "revert" to normal cognitive testing over time?**
-
-<details><summary>Answer</summary>
-
-15% to 40% (more likely if community-based, biomarker-negative, younger, fewer comorbidities, more education) (p869).
-
-</details>
-
-**10. Roughly how many years before clinical symptom onset does underlying AD neuropathology (β-amyloid, neurofibrillary tangles) typically begin?**
-
-<details><summary>Answer</summary>
-
-About 20 years or more (p862).
-
-</details>
-
-**11. What percentage of all FTLD diagnoses does behavioral variant FTLD (bvFTD) account for?**
-
-<details><summary>Answer</summary>
-
-50-60% (p873).
-
-</details>
-
-**12. Among PD patients who live 20 years or more with the disease, what proportion is expected to develop PDD (PD dementia)?**
-
-<details><summary>Answer</summary>
-
-Upwards of 80% (p870).
-
-</details>
-
-**13. What clinical clue (hallucination type + cognitive screen result) is highly suggestive of DLB rather than AD?**
-
-<details><summary>Answer</summary>
-
-Visual hallucinations occurring in a patient with an MMSE score greater than 20 (p871).
 
 </details>
 

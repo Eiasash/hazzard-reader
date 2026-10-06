@@ -50,7 +50,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
   - Shoulder pain **34% to 84%**; depression **15% to 70%** (p831).
 - Post-THA (posterolateral): avoid **>90 degrees** hip flexion early (p832).
 
-## Drill
+## Recall
 
 **1. What are the four components of the Nagi disablement model?**
 
@@ -68,27 +68,11 @@ Body functions/structures, activities, and participation, shaped by environmenta
 
 </details>
 
-**3. What resistance level (as % of maximal lifting ability) is optimal for a strength-training program?**
-
-<details><summary>Answer</summary>
-
-60% to 80% of the person's maximal lifting ability; older adults starting out should begin lower, around 40% to 50% (p824).
-
-</details>
-
 **4. What duration, intensity, and frequency of aerobic exercise does the book describe?**
 
 <details><summary>Answer</summary>
 
 Continuous activity usually performed for at least 20 minutes at 50% to 80% of maximal oxygen consumption, three to five times per week; several shorter sessions (ie, 10 minutes) per day have shown similar benefit to one 30-minute session (p824).
-
-</details>
-
-**5. How much knee flexion is required to climb stairs with a normal reciprocal gait?**
-
-<details><summary>Answer</summary>
-
-90 degrees of knee flexion (p825).
 
 </details>
 
@@ -116,14 +100,6 @@ In the hand opposite the involved extremity — this preserves a normal gait pat
 
 </details>
 
-**9. What is the mnemonic for using a cane on stairs after a unilateral lower-extremity injury?**
-
-<details><summary>Answer</summary>
-
-"Up with the good, down with the bad" — uninvolved leg leads going up, involved leg + cane lead going down (p827).
-
-</details>
-
 **10. What therapy-intensity requirement distinguishes a Medicare-certified inpatient rehab facility from a skilled nursing facility?**
 
 <details><summary>Answer</summary>
@@ -131,47 +107,6 @@ In the hand opposite the involved extremity — this preserves a normal gait pat
 An inpatient rehab facility requires a minimum of 3 hours of therapy daily; a skilled nursing facility has no required intensity or duration of therapy (p822).
 
 </details>
-
-**11. What fraction of eligible patients receive cardiac rehabilitation?**
-
-<details><summary>Answer</summary>
-
-Only about one-third of eligible patients receive CR (in one large Medicare cohort only 12% participated), despite its beneficial effects (p830).
-
-</details>
-
-**12. How long must a heart failure patient be clinically stable before starting cardiac rehab?**
-
-<details><summary>Answer</summary>
-
-3 to 4 weeks of stable fluid status (p830).
-
-</details>
-
-**13. When can stroke rehabilitation safely begin after a stroke?**
-
-<details><summary>Answer</summary>
-
-As early as 24 to 48 hours poststroke, once the patient is medically stable (p831).
-
-</details>
-
-**14. What proportion of stroke patients develop hemiplegic shoulder pain?**
-
-<details><summary>Answer</summary>
-
-34% to 84% of patients poststroke (p831).
-
-</details>
-
-**15. What hip-flexion angle should be avoided after posterolateral-approach total hip arthroplasty during early recovery?**
-
-<details><summary>Answer</summary>
-
-Greater than 90 degrees of hip flexion (also avoid leg crossing and excessive internal/external rotation) (p832).
-
-</details>
-
 
 ## Table 55-4: Occupational therapist — verbatim book excerpt
 

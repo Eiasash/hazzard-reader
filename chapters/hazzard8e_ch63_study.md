@@ -99,7 +99,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Midodrine / fludrocortisone** — MSA orthostatic hypotension (p986).
 - **Botulinum toxin** — CBD dystonic limb, adjunct therapy (p992).
 
-## Drill
+## Recall
 
 **1. What is the "1-year rule" used to separate DLB from PDD?**
 
@@ -126,59 +126,11 @@ DLB declines faster: about 4–5 points/year vs about 3 points/year in AD (p984)
 
 </details>
 
-**4. What systolic blood pressure drop defines the orthostatic component of MSA diagnostic criteria?**
-
-<details><summary>Answer</summary>
-
-A 30 mmHg drop in systolic blood pressure (a 20 mmHg systolic or 10 mmHg diastolic drop is considered significant in practice, in the absence of appropriate increased heart rate) (p986).
-
-</details>
-
-**5. What characteristic, though nonspecific, MRI sign is described in the pons in MSA?**
-
-<details><summary>Answer</summary>
-
-The "hot cross bun" sign (p986).
-
-</details>
-
-**6. How many of the six possible bvFTD symptoms are required to meet "possible" bvFTD criteria?**
-
-<details><summary>Answer</summary>
-
-Three of six (early disinhibition, early apathy, early loss of sympathy/empathy, early repetitive motor behaviors, early hyperorality, deficits in frontal executive function) (p982).
-
-</details>
-
-**7. What fraction of all FTD cases does bvFTD account for?**
-
-<details><summary>Answer</summary>
-
-More than 50% (p987).
-
-</details>
-
-**8. What TDP-43 subtype is typically seen at autopsy in svPPA?**
-
-<details><summary>Answer</summary>
-
-TDP-43 type C, tau-negative (p988).
-
-</details>
-
 **9. What proportion of nfvPPA cases show TDP-43 pathology versus tau pathology at autopsy?**
 
 <details><summary>Answer</summary>
 
 About 20% show TDP-43 (usually type A); the majority show tau pathology (CBD most common, then PSP, then Pick) (p988).
-
-</details>
-
-**10. What gene mutation, discovered in 2011, is the major cause of familial FTD, ALS, and FTD-ALS?**
-
-<details><summary>Answer</summary>
-
-C9orf72 hexanucleotide repeat expansion (p990).
 
 </details>
 
@@ -190,34 +142,10 @@ About 50% survival at 3 years; aspiration or respiratory failure is the most com
 
 </details>
 
-**12. Which FDA-approved drug extends survival and delays the need for ventilation in ALS?**
-
-<details><summary>Answer</summary>
-
-Riluzole (p991).
-
-</details>
-
 **13. In PSP, is downward or upward vertical gaze palsy more diagnostically specific, and why?**
 
 <details><summary>Answer</summary>
 
 Downward gaze palsy is more specific, because mild vertical gaze limitation is normal with aging (p992).
-
-</details>
-
-**14. In what percentage of PSP cases do falls occur as the first manifestation of disease?**
-
-<details><summary>Answer</summary>
-
-60% (p992).
-
-</details>
-
-**15. In an older adult with a new cortical (lobar) hemorrhage, what diagnosis should be suspected instead of hypertension?**
-
-<details><summary>Answer</summary>
-
-Cerebral amyloid angiopathy (CAA) — hypertensive hemorrhages are typically in deep brain structures, not cortex (p994).
 
 </details>

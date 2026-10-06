@@ -31,23 +31,11 @@ Fast build from the book; not lane-reviewed.
 - Frailty's exclusion as a principal US hospice billing diagnosis does not itself exclude hospice eligibility. (p. 1049)
 - ACP is more than a completed form; preferences may change. (p. 1052)
 
-## Drill
-
-**1. Must a patient stop curative treatment to receive palliative care?**
-
-<details><summary>Answer</summary>No; palliative care can accompany curative treatment at any stage of serious illness. (p. 1045)</details>
+## Recall
 
 **2. What distinguishes primary from specialist palliative care?**
 
 <details><summary>Answer</summary>All clinicians can provide core symptom management, coordination, goals discussions and caregiver support; specialists contribute an interprofessional team with palliative expertise. (p. 1045)</details>
-
-**3. What prognostic certification does the chapter describe for US Medicare hospice?**
-
-<details><summary>Answer</summary>The attending physician and hospice medical director certify terminal illness with expected prognosis <strong>&lt;6 months</strong> if the disease follows its usual course. (p. 1046)</details>
-
-**4. Are local coverage determinations strict hospice admission requirements?**
-
-<details><summary>Answer</summary>No. They are guidelines that help physicians determine prognosis. (p. 1046)</details>
 
 **5. What did the cited noncancer palliative-care meta-analysis associate with palliative care?**
 
@@ -61,29 +49,13 @@ Fast build from the book; not lane-reviewed.
 
 <details><summary>Answer</summary>An empiric stepwise protocol; most patients received acetaminophen at the first step. Opioids may be tried for nonresponders, and PAINAD may help assessment. (p. 1048)</details>
 
-**8. What feeding approach is recommended in advanced dementia with dysphagia?**
-
-<details><summary>Answer</summary>Assisted oral feeding rather than percutaneous feeding tubes; tubes have not improved survival, quality of life, aspiration prevention or pressure-ulcer healing. (p. 1048)</details>
-
 **9. How did aspiration-pneumonia antibiotics affect survival and comfort in advanced dementia?**
 
 <details><summary>Answer</summary>They were associated with improved survival, not improved comfort; intravenous treatment and hospitalization caused greatest discomfort, with similar survival benefit across administration routes. (p. 1048)</details>
 
-**10. Does absence of a single terminal disease automatically exclude a frail patient from hospice?**
-
-<details><summary>Answer</summary>No. Severity and irreversibility of frailty plus multimorbidity can support terminal prognostic certification; the principal-diagnosis billing restriction is a separate issue. (p. 1049)</details>
-
 **11. What domains structure care for multimorbidity?**
 
 <details><summary>Answer</summary>Patient preferences, interpretation of evidence, prognosis, clinical feasibility, and optimization of therapies/care plans. (p. 1049)</details>
-
-**12. Why compare prognosis with time to benefit?**
-
-<details><summary>Answer</summary>When life expectancy is shorter than an intervention's time to benefit, immediate harms may occur without an opportunity to receive its benefits. (p. 1050)</details>
-
-**13. In which direction is clinicians' survival estimate commonly biased?**
-
-<details><summary>Answer</summary>Toward overestimation, by a factor of <strong>3-5</strong>; prognostic indices may improve accuracy over judgment alone. (p. 1051)</details>
 
 **14. How can a clinician express prognostic uncertainty?**
 
