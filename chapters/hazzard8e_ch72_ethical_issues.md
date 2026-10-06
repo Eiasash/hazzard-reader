@@ -366,30 +366,3 @@ and drinking by advance directives (SED by AD) in assisted living and nursing ho
 
 <a id="p1112"></a>**[p. 1112]**
 
-<a id="p1113"></a>**[p. 1113]**
-
-V Part
-
-## Organ Systems and Diseases
-
-<a id="p1114"></a>**[p. 1114]**
-
-### Chapter 92. Gastrointestinal Malignancies / 1435 Chapter 93. Skin Cancer / 1455
-
-### Anemia / 1473 Chapter 95. Hematologic Malignancies (Leukemia/
-
-### Lymphoma) and Plasma Cell Disorders / 1483 Chapter 96. Coagulation Disorders / 1509
-
-### Thyroid Endocrine Disorders / 1525 Chapter 98. Thyroid Diseases / 1545 Chapter 99. Diabetes Mellitus / 1559
-
-### Giant Cell Arteritis / 1589 Chapter 101. Rheumatoid Arthritis and Other Autoimmune
-
-### Diseases / 1607 Chapter 102. Back Pain and Spinal Stenosis / 1629 Chapter 103. Fibromyalgia and Myofascial Pain
-
-### Syndromes / 1643
-
-Selection / 1667 Chapter 105. Bacterial Pneumonia and Tuberculosis / 1679 Chapter 106. Urinary Tract Infections / 1699 Chapter 107. Other Viruses: Human Immunodeficiency Virus
-
-### Infection and Herpes Zoster / 1719 Chapter 108. Influenza, COVID-19, and Other Respiratory
-
-### Viruses / 1733
