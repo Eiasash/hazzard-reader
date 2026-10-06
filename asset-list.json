@@ -1,5 +1,5 @@
 {
-  "version": "v109",
+  "version": "v110",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "57d7d4e8680ce6ec19064ae72b7c6ff76a770fb41e4309fb3c1e585287ebb4a8",
-      "bytes": 16607
+      "sha256": "96fb7c0270c719143913fe8e6d653da79d2d8fd5674682dfa462e0615e9760aa",
+      "bytes": 16849
     },
     {
       "url": "./data/drug-index.json",
@@ -6673,8 +6673,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "7f3760940e536edd36b73587475766e9084baa0be962659571124a5d2fc2c5e9",
-      "bytes": 3324198
+      "sha256": "f67018601ac644d243d364fc2f80bf68cbe8f74257348288cb6754f6b4994abe",
+      "bytes": 3324343
     },
     {
       "url": "./js/changed-questions.js",
@@ -6708,13 +6708,13 @@
     },
     {
       "url": "./js/mcq-review.js",
-      "sha256": "5743a76560af82b4c4444f3f27fa000e585737ab1d86e1158d286b0a017ee218",
-      "bytes": 6539
+      "sha256": "309033331a231dd796efdadad681c19c92d089ac8da23ee9aed549be8d587f10",
+      "bytes": 6567
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "401d5d60516afb6fe1660383c812912e70becab6d03cc858977c8a29e01909d4",
-      "bytes": 67112
+      "sha256": "1d5483744f268b913c8a7d2d939409694cdaf2d87b24fc6b802539267cca2233",
+      "bytes": 73641
     },
     {
       "url": "./js/memory-aids.js",
@@ -6723,8 +6723,8 @@
     },
     {
       "url": "./js/question-search.js",
-      "sha256": "ee18dc54c1897a0b30210e30e8cb7428a5528ab211dfbe46faa61fe255c3f828",
-      "bytes": 3961
+      "sha256": "8832d6218432762ae40cfad932303799e90d592a9fa67b2f443add8f0f8f3060",
+      "bytes": 4059
     },
     {
       "url": "./js/reader-cloud.js",
@@ -6738,7 +6738,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "65bfb5a4c4e3cec40b9e52d60be6757efca666b89f521063bc45bbf17d773dce",
+      "sha256": "9539cf87455232b343befd358650f4389aee70bf2be849f4e74bdfe857cb2f5c",
       "bytes": 8228
     },
     {
