@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v118",
+      "date": "2026-10-06",
+      "changes": [
+        "One practice question on tube feeding in advanced dementia now adds the Ministry of Health recommendation that NG is not a permanent feeding route and PEG is preferred for comfort where medically possible."
+      ]
+    },
+    {
       "version": "v117",
       "date": "2026-10-06",
       "changes": [
