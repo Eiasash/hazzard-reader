@@ -289,4 +289,3 @@ American Physiology’: the fallacy of racial essentialism. J Intern Med. 2020;2
 Disease Prevention and Health Promotion: Healthy People 2030. https://health.gov/healthypeople/objectives-anddata/social-determinants-health. Accessed March 23, 2021.
 
 <a id="p106"></a>**[p. 106]**
-

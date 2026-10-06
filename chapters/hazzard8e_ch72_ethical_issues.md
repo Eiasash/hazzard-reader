@@ -365,4 +365,3 @@ eating and drinking. J Am Geriatr Soc. 2018;66(3): 441–445. Wright JL, Jaggard
 and drinking by advance directives (SED by AD) in assisted living and nursing homes. J Am Med Dir Assoc. 2019;20(11):1362–1366.
 
 <a id="p1112"></a>**[p. 1112]**
-
