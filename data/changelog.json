@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v127",
+      "date": "2026-10-07",
+      "changes": [
+        "149 generated practice questions that could not be checked against any source and whose right answer stood out by length are now hidden from Practice. To see them, turn on 'Include unverifiable practice with a standout answer' in Practice settings."
+      ]
+    },
+    {
       "version": "v126",
       "date": "2026-10-07",
       "changes": [

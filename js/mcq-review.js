@@ -25,7 +25,7 @@ window.HazzardReview = (() => {
   function read(){const v=HazzardStorage.readProtected(KEY,empty);if(!valid(v))throw Error('Unreadable review queue');return canonical(v);}
   function merge(a,b){a=canonical(a);b=canonical(b);const items={...b.items};for(const[id,r]of Object.entries(a.items))if(!items[id]||r.at>=items[id].at)items[id]=r;const newest=a.batchAt>=b.batchAt?a:b;return {version:1,items,seed:!a.seed?b.seed:!b.seed?a.seed:a.seed.at<=b.seed.at?a.seed:b.seed,settings:a.settings.at>=b.settings.at?a.settings:b.settings,batch:newest.batch,batchAt:newest.batchAt};}
   function write(v){if(!valid(v))throw Error('Review queue could not be saved');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-review-change'));return v;}
-  function due(v=read(),today=day()){return Object.entries(v.items).filter(([id,r])=>!HazzardMCQ.excluded(id)&&r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
+  function due(v=read(),today=day(),includeHidden=false){return Object.entries(v.items).filter(([id,r])=>!HazzardMCQ.excluded(id)&&(includeHidden||!HazzardMCQ.standoutHidden(id))&&r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
   function result(previous,{correct,unsure,review=false},now=Date.now()){
     const r={...(previous||blank()),unsure,at:Math.max(now,(previous?.at||0)+1)};
     if(!correct||unsure)return {...r,active:true,step:0,due:plus(day(now),1)};
@@ -43,14 +43,14 @@ window.HazzardReview = (() => {
     for(const q of all){const a=answers[q.id];if(a?.checked&&!q.accepted.includes(a.selected)&&!v.items[q.id]){v.items[q.id]={active:true,unsure:false,step:0,due:plus(today,Math.floor(count/30)),at:now};count++;}}
     v.seed={count,at:now};write(v);return v.seed;
   })().finally(()=>{seedPromise=null;});}
-  function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:due(v,today).filter(id=>available.has(id)).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
+  function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:due(v,today,true).filter(id=>available.has(id)).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
   function position(n){const v=read();if(v.batch&&v.batch.position!==n){v.batch.position=n;v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}}
   function size(n,items){
     const v=read();v.settings={size:n,at:Math.max(Date.now(),v.settings.at+1)};
     if(v.batch){
       const current=v.batch.ids[v.batch.position],available=new Set(items.map(q=>q.id));
       const answered=v.batch.ids.filter(id=>v.batch.answers[id]?.checked);
-      const candidates=[...new Set([...v.batch.ids,...due(v)])].filter(id=>available.has(id)&&!answered.includes(id));
+      const candidates=[...new Set([...v.batch.ids,...due(v,day(),true)])].filter(id=>available.has(id)&&!answered.includes(id));
       // Completed answers are retained even when shrinking below today's count.
       const keep=new Set([...answered,...candidates.slice(0,Math.max(0,n-answered.length))]);
       v.batch.ids=[...new Set([...v.batch.ids,...candidates])].filter(id=>keep.has(id));
