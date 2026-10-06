@@ -6298,32 +6298,32 @@
     },
     {
       "url": "./data/mcq/75.json",
-      "sha256": "2a214231138048ec3b4abdfd0678e9e637792f053fff3bb4b79f53c070350e8b",
+      "sha256": "c518f6d229c3c79479c827a9e561dafe5c69badd6db13bd2831eb0222f97c200",
       "bytes": 24190
     },
     {
       "url": "./data/mcq/76.json",
-      "sha256": "baffa454ec24c59e945877cb34c39b4819b28d24a093e74ced5a562a1a1264ce",
+      "sha256": "1f65333a050ef4cb0e7198cb758739c724511d74a76e69b4811884603c037d4b",
       "bytes": 99459
     },
     {
       "url": "./data/mcq/77.json",
-      "sha256": "08b1d26be1c7af977b00337eab66876f94351ec7cee72aaf82fdbe59b647722f",
+      "sha256": "0da7a4438c919600ec725fae79bc12de36b825ed6f03edf2e7dbfcfd50632e85",
       "bytes": 110227
     },
     {
       "url": "./data/mcq/81.json",
-      "sha256": "a7ce941bc7e7f208671ad65c24a2fcaf497b7215ea2f98418f4ea732bf68b78a",
+      "sha256": "cbe189fd991487bb34f9119d323a9e9e731c56db7a95d419d0f23dfd71730b65",
       "bytes": 72491
     },
     {
       "url": "./data/mcq/82.json",
-      "sha256": "619070c74488ee5f7bed52e376f8a21ee9d5e9d2774a958e8110b082dd1c1d72",
+      "sha256": "e26f9121a930063c11d58a067bf8f5beb5fb18e0bc9017601d664b18daf2cf2f",
       "bytes": 9000
     },
     {
       "url": "./data/mcq/83.json",
-      "sha256": "fc4c898caf9c04a66068e1829272961476e8892f2201bd2fbae8f2c5e3016cdb",
+      "sha256": "f44ce465df82f53801752842014d6891349c9f5d98f1a38a0f49773f7f8cd343",
       "bytes": 74083
     },
     {
@@ -6333,12 +6333,12 @@
     },
     {
       "url": "./data/mcq/87.json",
-      "sha256": "44719acf6e2186c639d43e2860e248a2afd4d424af7d20664c84897c92ba5adc",
+      "sha256": "0ba47efe912e5f2bd37c6c48150904248ba0eb22d80203f7042730e1a14a404c",
       "bytes": 135332
     },
     {
       "url": "./data/mcq/88.json",
-      "sha256": "9948b77ced35e476abe6836b3a0de9f6b688573a1f9d6d3a6cca8675fec62f80",
+      "sha256": "4b8800843e551b090991b842f2182b31aae5ba04ea836217e1bce3b2800c66bc",
       "bytes": 151192
     },
     {
@@ -6363,7 +6363,7 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "18d3b6bc64eaf96bd0a629750375a2a4dfde81a6d661ade82b6bd34e4cfe7c26",
+      "sha256": "9a524c2e7b4baa2b396489a7d2f557f23206b5136ed492fbf5ee4393a8ffd880",
       "bytes": 6783994
     },
     {
