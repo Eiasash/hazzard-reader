@@ -367,4 +367,3 @@ aroscopic adenomectomy (Madigan) versus bipolar transurethral resection of the p
 out phosphodiesterase type 5 inhibitor for treatment of lower urinary tract symptoms secondary to benign prostatic hyperplasia: a systematic review and meta-analysis. World J Urol. 2019;37:143–153.
 
 <a id="p572"></a>**[p. 572]**
-
