@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v115",
+      "date": "2026-10-06",
+      "changes": [
+        "Practice questions retired in v111–v113 were re-checked against their real source (Israeli law files, Brookdale, articles, or the whole book). Verified and restored: 27. Corrected: 22 (see Practice → Changed questions). Still retired: 17. Not checkable with sources in hand, kept with the generated-practice warning: 103."
+      ]
+    },
+    {
       "version": "v113",
       "date": "2026-10-06",
       "changes": [
