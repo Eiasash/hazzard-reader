@@ -44,4 +44,3 @@ Study summary of Chapter 43 — Falls; the book and the full chapter are the ref
 - Cochrane review of **43** community trials: multifactorial interventions → **23%** fewer falls overall (p641).
 - RACF: single-component interventions generally ineffective; multidisciplinary multifactorial programs with staff education work (p641).
 - Two large General-Practice-based trials (fractures n = **5451**; serious fall injuries n = **9803**) found NO significant reduction in falls or fractures — raises questions about funding/implementing interventions; multifactorial interventions work better when provided directly than when relying on referral to routine service providers (p641).
-
