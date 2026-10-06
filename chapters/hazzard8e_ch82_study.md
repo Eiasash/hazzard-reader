@@ -186,4 +186,3 @@ Calcium stabilizes the myocardial membrane without lowering potassium. Insulin, 
 <details><summary>Answer</summary>
 Trimethoprim/sulfamethoxazole with spironolactone is a highlighted combination. Adrenal insufficiency can present with recurrent volume depletion/AKI, variable hyponatremia/hyperkalemia, and fatigue (p1271).
 </details>
-
