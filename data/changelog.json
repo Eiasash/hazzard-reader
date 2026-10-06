@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v129",
+      "date": "2026-10-07",
+      "changes": [
+        "Text fixes in 6 practice questions: a wrong symptom in one stem, wording that gave the answer away in two, garbled wording in three, and wrong figure or section numbers in three. No answers changed."
+      ]
+    },
+    {
       "version": "v128",
       "date": "2026-10-07",
       "changes": [
