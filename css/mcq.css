@@ -119,3 +119,7 @@ body:has(#chapterHeader .study-view-tabs:not([hidden])) #findBar,body:has(#chapt
 .mcq-page>nav.mcq-filters{position:sticky;top:0;z-index:3;background:var(--page);padding-block:8px;border-bottom:1px solid var(--rule)}
 #readerViewport.has-study-tabs .mcq-page>nav.mcq-filters{top:calc(-94px - var(--s4))}
 body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-page>nav.mcq-filters{top:calc(-1 * var(--s4))}
+
+.mcq-answer-flag-row a{display:grid;gap:4px;color:var(--ink);text-decoration:none;padding:8px 0;overflow-wrap:anywhere}
+.mcq-answer-flag-row a:hover{text-decoration:underline}
+.mcq-answer-flag-row button{min-width:40px;min-height:40px}
