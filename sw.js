@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v121';
+const CACHE_VERSION = 'v121'; // Batch 6: option-text explanation references.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
