@@ -367,19 +367,3 @@ aroscopic adenomectomy (Madigan) versus bipolar transurethral resection of the p
 out phosphodiesterase type 5 inhibitor for treatment of lower urinary tract symptoms secondary to benign prostatic hyperplasia: a systematic review and meta-analysis. World J Urol. 2019;37:143–153.
 
 <a id="p572"></a>**[p. 572]**
-
-<a id="p573"></a>**[p. 573]**
-
-III Part
-
-## Geriatric Conditions
-
-Chapter 39. Systems Physiology of Aging and Selected Disorders of Homeostasis / 575 Chapter 40. Applied Clinical Geroscience / 593 Chapter 41. Managing the Care of Patients with Multiple Chronic Conditions / 605
-
-<a id="p574"></a>**[p. 574]**
-
-### Chapter 59. Dementia including Alzheimer Disease / 893 Chapter 60. Behavioral Symptoms of Dementia and Psycho-
-
-active Drug Therapy / 919 Chapter 61. Parkinson Disease and Related Disorders / 935 Chapter 62. Cerebrovascular Disease / 953 Chapter 63. Other Neurodegenerative Disorders / 981 Chapter 64. Traumatic Brain Injury and Chronic Traumatic
-
-### Encephalopathy / 997 Chapter 65. Major Depression / 1007 Chapter 66. General Topics in Geriatric Psychiatry / 1021

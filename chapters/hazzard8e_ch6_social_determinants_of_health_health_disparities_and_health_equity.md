@@ -289,13 +289,3 @@ American Physiology’: the fallacy of racial essentialism. J Intern Med. 2020;2
 Disease Prevention and Health Promotion: Healthy People 2030. https://health.gov/healthypeople/objectives-anddata/social-determinants-health. Accessed March 23, 2021.
 
 <a id="p106"></a>**[p. 106]**
-
-<a id="p107"></a>**[p. 107]**
-
-II Part
-
-## Principles of Geriatrics
-
-<a id="p108"></a>**[p. 108]**
-
-### Alimentation / 405 Chapter 31. Disorders of Swallowing / 437 Chapter 32. Oral Health / 453

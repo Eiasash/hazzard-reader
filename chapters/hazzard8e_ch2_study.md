@@ -2,6 +2,8 @@ Study summary of Chapter 2; the book and the full chapter are the reference.
 
 # Chapter 2 Study: Demography and Epidemiology
 
+> Excluded from the IMA required reading list (P005-2026); not cited in the 2020-2026 past papers.
+
 ## Summary
 
 **Population aging and its measurement**

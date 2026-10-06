@@ -14,7 +14,7 @@ Study summary of Chapter 32; the book and the full chapter are the reference.
 **Dry mouth, senses and mucosa**
 - Salivary hypofunction is not an inevitable consequence of healthy aging. Review medicines, systemic disease and head/neck treatment (p457-458).
 - Address causative medicines where possible; consider dose modification, alternatives, sugar-free stimulation and saliva substitutes (p458).
-- Pilocarpine **5 mg TID** or cevimeline **30 mg TID** can help when functional salivary tissue remains (p458).
+- Pilocarpine **5 mg TID and qhs** or cevimeline **30 mg TID** can help when functional salivary tissue remains (p458).
 - Oral moisture can be supported with appropriate sugar-free fluids and gels; keep removable dentures clean and out during sleep (p458).
 - Taste changes in healthy aging are generally modest; medicines and impaired smell can contribute to food complaints (p458-459).
 - Consider malignancy in persistent lesions: biopsy a lesion not healed within **2 to 3 weeks** after removal of suspected causes (p461).

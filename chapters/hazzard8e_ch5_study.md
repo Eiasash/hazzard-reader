@@ -2,6 +2,8 @@ Study summary of Chapter 5; the book and the full chapter are the reference.
 
 # Chapter 5 Study: Sex Differences in Health and Longevity
 
+> Excluded from the IMA required reading list (P005-2026); not cited in the 2020-2026 past papers.
+
 ## Summary
 
 **Survival differences and their interpretation**
