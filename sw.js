@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v128'; // Official past-paper source inference.
+const CACHE_VERSION = 'v129'; // Practice-question text fixes.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
