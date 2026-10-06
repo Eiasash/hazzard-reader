@@ -122,12 +122,12 @@
   "97": {
     "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
     "past": 0,
-    "practice": 0
+    "practice": 8
   },
   "98": {
     "title": "Thyroid Diseases",
     "past": 0,
-    "practice": 0
+    "practice": 3
   },
   "99": {
     "title": "Diabetes Mellitus",
@@ -138,29 +138,29 @@
   "101": {
     "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
     "past": 0,
-    "practice": 0
+    "practice": 4
   },
   "102": {
     "title": "Back Pain and Spinal Stenosis",
     "past": 0,
-    "practice": 0
+    "practice": 7
   },
   "104": {
     "title": "Infection and Appropriate Antimicrobial Selection",
     "past": 34,
-    "practice": 39,
+    "practice": 42,
     "topicFallback": 27
   },
   "105": {
     "title": "Bacterial Pneumonia and Tuberculosis",
     "past": 34,
-    "practice": 39,
+    "practice": 42,
     "topicFallback": 27
   },
   "108": {
     "title": "Influenza, COVID-19, and Other Respiratory Viruses",
     "past": 34,
-    "practice": 39,
+    "practice": 40,
     "topicFallback": 27
   },
   "law": {
@@ -382,5 +382,20 @@
     "title": "Aging of the Kidney",
     "past": 0,
     "practice": 6
+  },
+  "92": {
+    "title": "Gastrointestinal Malignancies",
+    "past": 0,
+    "practice": 12
+  },
+  "95": {
+    "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders",
+    "past": 0,
+    "practice": 8
+  },
+  "106": {
+    "title": "Urinary Tract Infections",
+    "past": 0,
+    "practice": 7
   }
 }
