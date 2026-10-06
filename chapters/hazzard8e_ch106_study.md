@@ -34,31 +34,11 @@ Fast build from the book; not lane-reviewed.
 - Nitrofurantoin/fosfomycin lack adequate renal penetration for complicated UTI. (p. 1711)
 - Avoid unnecessary catheters and remove promptly when no longer indicated; routine fixed-interval replacement is not recommended. (p. 1714)
 
-## Drill
-
-**1. Does pyuria convert asymptomatic bacteriuria into symptomatic UTI?**
-
-<details><summary>Answer</summary>No. ASB can occur with or without pyuria in the absence of localizing genitourinary symptoms. (p. 1699)</details>
-
-**2. What distinguishes simple cystitis from complicated UTI in this chapter?**
-
-<details><summary>Answer</summary>Simple cystitis is confined to the bladder; complicated infection extends beyond it, including renal-parenchymal infection in pyelonephritis. (p. 1700)</details>
+## Recall
 
 **3. How is recurrent UTI defined?**
 
 <details><summary>Answer</summary>At least <strong>3 symptomatic UTIs in 12 months</strong> or <strong>2 in 6 months</strong>, following clinical resolution of each episode with treatment. (p. 1700)</details>
-
-**4. Does a high postvoid residual consistently predict symptomatic UTI?**
-
-<details><summary>Answer</summary>No. Study findings conflict; high residuals were not consistently associated with symptomatic infection in ambulatory women or long-term-care residents. (p. 1702)</details>
-
-**5. What ASB-treatment exception is specified for older adults?**
-
-<details><summary>Answer</summary>Screening and treatment before endoscopic urologic procedures associated with mucosal trauma. (p. 1703)</details>
-
-**6. Should a urine color or odor change alone establish UTI?**
-
-<details><summary>Answer</summary>No. A change in urine character is insufficient and may reflect mild dehydration, diet or medications. (p. 1705)</details>
 
 **7. What are the different purposes of McGeer and Loeb criteria?**
 
@@ -83,14 +63,6 @@ Fast build from the book; not lane-reviewed.
 **12. What is the fosfomycin dose and its usual place in simple-cystitis treatment?**
 
 <details><summary>Answer</summary><strong>3 g as a single oral dose</strong>; generally reserved for highly resistant pathogens or inability to use other first-line agents. It is not recommended for complicated UTI. (p. 1709)</details>
-
-**13. Can an older man have simple cystitis?**
-
-<details><summary>Answer</summary>Yes. Men should not automatically be classified as having complicated UTI, but require careful assessment for infection extending beyond the bladder. (p. 1710)</details>
-
-**14. When may a week of antibiotics suffice for an older man with simple cystitis?**
-
-<details><summary>Answer</summary>For most, <strong>7 days</strong> is adequate if the response is prompt, within <strong>72 hours</strong>. (p. 1711)</details>
 
 **15. What warning signs prevent a nonspecific presentation from being treated as routine observation alone?**
 

@@ -35,43 +35,19 @@ Fast build from the book; not lane-reviewed.
 - Anemia or renal dysfunction from another established cause does not itself fulfill myeloma-related organ damage. (p. 1503)
 - Bone scans are generally negative in myeloma because lesions are purely lytic. (p. 1504)
 
-## Drill
-
-**1. What core process causes MDS-associated cytopenias?**
-
-<details><summary>Answer</summary>Ineffective clonal hematopoiesis with impaired maturation and differentiation. (p. 1483)</details>
-
-**2. What confirms suspected MDS?**
-
-<details><summary>Answer</summary>Bone marrow biopsy with cytogenetic analysis, after evaluating peripheral counts/smear and potential mimics such as nutritional deficiencies. (p. 1484)</details>
+## Recall
 
 **3. Which patients with MDS are more likely to benefit from erythropoietin?**
 
 <details><summary>Answer</summary>Those with lower-risk scores, serum erythropoietin <strong>&lt;500 mU/mL</strong>, low transfusion requirements and a shorter interval from diagnosis to treatment. (p. 1485)</details>
 
-**4. Does early worsening of counts necessarily mean hypomethylating therapy has failed?**
-
-<details><summary>Answer</summary>No. Myelosuppression often worsens for several months before a response becomes detectable. (p. 1485)</details>
-
 **5. What is the lenalidomide-responsive cytogenetic MDS subset, and what cautions matter?**
 
 <details><summary>Answer</summary>Transfusion-dependent disease with deletion of the long arm of chromosome <strong>5</strong> as the sole abnormality; watch myelosuppression and adjust dosing for renal impairment. (p. 1486)</details>
 
-**6. Does older age alone mean AML therapy offers no survival benefit?**
-
-<details><summary>Answer</summary>No. Clinical-trial and population data show chemotherapy can improve survival over supportive care for many older adults. (p. 1487)</details>
-
 **7. What is critical for successful oral TKI treatment of CML?**
 
 <details><summary>Answer</summary>Daily adherence and careful response monitoring; PCR provides sensitive monitoring, and comorbid cardiac/thrombotic risks inform drug selection. (p. 1490)</details>
-
-**8. Is a bone marrow biopsy usually required to diagnose CLL?**
-
-<details><summary>Answer</summary>No. History, examination, peripheral blood counts/smear and flow cytometry can usually establish diagnosis and staging. (p. 1490)</details>
-
-**9. Does isolated CLL leukocytosis mandate treatment?**
-
-<details><summary>Answer</summary>No. Therapy is reserved for symptoms or progression with cytopenias; the rate of count increase is more informative than the absolute count alone. (p. 1491)</details>
 
 **10. What BTK-inhibitor risks matter in an anticoagulated patient with CLL?**
 
@@ -81,17 +57,9 @@ Fast build from the book; not lane-reviewed.
 
 <details><summary>Answer</summary>Reticulocyte count and direct Coombs testing help distinguish hemolysis from decreased marrow production. (p. 1492)</details>
 
-**12. Why is fine-needle aspiration insufficient for lymphoma subtyping?**
-
-<details><summary>Answer</summary>Classification requires adequate tissue for morphology and increasingly complex immunophenotypic/genetic studies; an excisional or incisional core lymph-node biopsy is generally preferred. (p. 1494)</details>
-
 **13. What are the protein and marrow thresholds for non-IgM MGUS?**
 
 <details><summary>Answer</summary>Serum monoclonal protein <strong>&lt;30 g/L</strong> and marrow plasma cells <strong>&lt;10%</strong>, without related end-organ damage or amyloidosis. (p. 1503)</details>
-
-**14. Why does diabetic nephropathy not automatically establish myeloma-related renal damage?**
-
-<details><summary>Answer</summary>Damage must be attributable to the plasma-cell disorder; a concomitant explanation such as established diabetic nephropathy with stable renal function does not satisfy that criterion. (p. 1503)</details>
 
 **15. How do renal dosing requirements differ for lenalidomide and bortezomib?**
 

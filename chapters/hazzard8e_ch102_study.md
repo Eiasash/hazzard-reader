@@ -47,37 +47,13 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 - DISH needs no therapy; sacral insufficiency fracture pain resolves in 4–6 weeks with analgesics, and antiresorptive therapy should be started to prevent future fractures; sciatica usually improves without therapy — surgery only if it persists despite conservative trials (p1639–1640).
 - Prevention/risk factors for disabling back pain: female sex, multiple comorbidities (including arthritis), depressive symptoms, poor grip strength (marker of global weakness), hip weakness, obesity (p1640).
 
-## Drill
-
-**1. What percentage of vertebral compression fractures are actually symptomatic?**
-
-<details><summary>Answer</summary>
-
-Only about 30% to 40% (p1631).
-
-</details>
-
-**2. Roughly what proportion of patients who sustain one vertebral fracture will have another within 5 years?**
-
-<details><summary>Answer</summary>
-
-Over 20% (p1631).
-
-</details>
+## Recall
 
 **3. What historical clue helps differentiate an osteoporotic sacral (insufficiency) fracture, and how often is there a preceding fall?**
 
 <details><summary>Answer</summary>
 
 Persistent low back/groin/buttock pain with marked tenderness on sacral pressure; about 50% of patients had a preceding fall (p1631).
-
-</details>
-
-**4. In older adults, what is a key pitfall in recognizing infectious back pain (eg, discitis/osteomyelitis)?**
-
-<details><summary>Answer</summary>
-
-Fever can be absent in older patients with infection, so its absence does not rule it out (p1631).
 
 </details>
 
@@ -94,14 +70,6 @@ L4-L5 most common (followed by L3-L4 and L5-S1); lateral recess stenosis there m
 <details><summary>Answer</summary>
 
 Extension (standing, walking, walking downhill) worsens symptoms; flexion (sitting, bending forward, leaning on a walker/cart) relieves them — the "shopping cart sign" (p1632).
-
-</details>
-
-**7. How do you distinguish neurogenic claudication from vascular claudication on exercise testing?**
-
-<details><summary>Answer</summary>
-
-Neurogenic claudication is worse on a treadmill but relieved on a bicycle (spinal flexion increases canal diameter); vascular claudication remains symptomatic on both (p1636).
 
 </details>
 
@@ -134,30 +102,6 @@ Flowing calcification/ossification along the anterolateral aspect of at least 4 
 <details><summary>Answer</summary>
 
 Age > 70, recent significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).
-
-</details>
-
-**12. Why is lumbar spine imaging a poor stand-alone diagnostic tool in older adults?**
-
-<details><summary>Answer</summary>
-
-Abnormalities (disc bulge, disc degeneration, spinal stenosis, annular tears) are extremely common in asymptomatic older adults — eg, 93% degenerative disc disease and 36% herniated nucleus pulposus in asymptomatic adults over 60 — so imaging must be interpreted alongside history/exam (p1636).
-
-</details>
-
-**13. In the epidural steroid injection RCT of 400 older adults with lumbar spinal stenosis, what did adding glucocorticoid to lidocaine achieve?**
-
-<details><summary>Answer</summary>
-
-Minimal or no additional short-term benefit in disability or leg pain compared with lidocaine alone (no placebo arm was included) (p1639).
-
-</details>
-
-**14. In the SPORT trial, what fraction of the nonoperative arm had crossed over to surgery by 8 years?**
-
-<details><summary>Answer</summary>
-
-52% (p1639).
 
 </details>
 
