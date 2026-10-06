@@ -132,4 +132,3 @@ Up to 50% develop delirium. Allogeneic SCT was historically limited to patients 
 73% are projected to be 65 or older, and almost 50% are projected to be 75 or older, out of a projected 26 million total survivors (p1393).
 
 </details>
-

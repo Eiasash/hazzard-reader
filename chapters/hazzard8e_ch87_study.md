@@ -118,4 +118,3 @@ PVR >100 mL; constipation increased retention risk 4-fold (p1362).
 Fiber 20-35 g/day (start at 3-4 g/day and titrate); fluid 1.5-2 L/day enhanced fiber's effect in an RCT in adults 18-50, though often impractical for frail older patients (p1370).
 
 </details>
-

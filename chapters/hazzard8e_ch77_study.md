@@ -157,4 +157,3 @@ Warfarin to a target INR of 2–3 for 45 days, then discontinued if transesophag
 LVEF ≤ 35% with NYHA class II–III (or LVEF < 30% with NYHA class I) on guideline-directed medical therapy, more than 40 days after MI or more than 90 days after revascularization (p1206).
 
 </details>
-

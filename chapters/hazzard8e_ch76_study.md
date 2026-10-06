@@ -175,4 +175,3 @@ SGLT2 inhibitors. In EMPEROR-Preserved (n=5988, EF >40%), empagliflozin reduced 
 Less than 50% for older adults generally; fewer than 25% for patients ≥80y hospitalized with heart failure survive more than 5 years (p1190).
 
 </details>
-

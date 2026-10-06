@@ -179,4 +179,3 @@ Around GFR 35 mL/min; a normochromic, normocytic anemia due to inadequate erythr
 50% (Key Clinical Points, p1278) and 54% (Prognosis and Survival section, p1296) — the same statistic printed differently in two places in the same chapter.
 
 </details>
-
