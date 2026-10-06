@@ -61,7 +61,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 *No exam-trap or book self-contradiction note is flagged in this source chapter.*
 
-## Drill
+## Recall
 
 **1. What Rome IV threshold and time frame define chronic constipation?**
 
@@ -79,43 +79,11 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 </details>
 
-**3. Does normal aging itself reduce bowel movement frequency?**
-
-<details><summary>Answer</summary>
-
-No — weekly BM frequency is essentially unchanged with age; only 1-7% of any age group report ≤2 BM/wk (p1355).
-
-</details>
-
-**4. What incidence of new-onset constipation was found in nursing home residents screened every 3 months?**
-
-<details><summary>Answer</summary>
-
-7% (p1355).
-
-</details>
-
 **5. How prolonged is total gut transit time in bedridden/institutionalized older adults with constipation, versus normal?**
 
 <details><summary>Answer</summary>
 
 6 days to more than 14 days, versus a normal total transit of under 72 hours (p1356).
-
-</details>
-
-**6. What fraction of non-constipated older adults fail to expel a test sphere on simulated defecation testing?**
-
-<details><summary>Answer</summary>
-
-37% (p1357).
-
-</details>
-
-**7. Above what daily dose of iron sulfate does absorption not substantially increase in older people, while GI side effects may increase?**
-
-<details><summary>Answer</summary>
-
-Iron sulfate >325 mg/day (p1359).
 
 </details>
 
@@ -135,14 +103,6 @@ Risk of tardive dyskinesia is increased in older adults; avoid continuous treatm
 
 </details>
 
-**10. What treatment regimen resolved overflow fecal incontinence in 94% of frail nursing home residents?**
-
-<details><summary>Answer</summary>
-
-Daily enemas until no further response, followed by lactulose (p1361).
-
-</details>
-
 **11. What PVR cutoff and relative risk link constipation to urinary retention in hospitalized older women?**
 
 <details><summary>Answer</summary>
@@ -151,34 +111,10 @@ PVR >100 mL; constipation increased retention risk 4-fold (p1362).
 
 </details>
 
-**12. What cecal diameter on plain x-ray defines Ogilvie syndrome (acute colonic pseudo-obstruction)?**
-
-<details><summary>Answer</summary>
-
-≥10 cm (p1362).
-
-</details>
-
-**13. Is colonoscopy indicated for constipation alone in older adults?**
-
-<details><summary>Answer</summary>
-
-No — in one octogenarian series, cancer detection was only 2% for symptoms other than bleeding (eg, constipation) vs 12% for bleeding; workup is warranted only with systemic features, bleeding, or unexplained change in habit (p1368).
-
-</details>
-
 **14. What daily fiber intake does the chapter recommend, and what fluid intake enhanced fiber's effect in trials?**
 
 <details><summary>Answer</summary>
 
 Fiber 20-35 g/day (start at 3-4 g/day and titrate); fluid 1.5-2 L/day enhanced fiber's effect in an RCT in adults 18-50, though often impractical for frail older patients (p1370).
-
-</details>
-
-**15. Why should docusate be avoided as a first-line laxative despite being the most-prescribed nursing-home agent?**
-
-<details><summary>Answer</summary>
-
-It has little or no true laxative effect, even at doses of 300 mg/day (p1376).
 
 </details>
