@@ -57,7 +57,7 @@ window.HazzardStorage = (() => {
     [HazzardMCQ.PAPER_KEY,{label:'Saved paper',fresh:'paper',empty:()=>({version:1,settings:{length:25,sources:['past','practice'],year:'all',level:'all',topic:'all'},paper:null,at:0})}],
     [HazzardSimulation.KEY,{label:'Exam simulation',fresh:'simulation',empty:()=>({version:1,at:0,session:null,history:{}})}]
   ]);
-  const unreadable=new Map();
+  const unreadable=new Map(),recoverySnapshots=new Map();
   function protect(key){
     const spec=protectedStores.get(key);if(!spec)return false;
     const raw=localStorage.getItem(key);
@@ -80,8 +80,26 @@ window.HazzardStorage = (() => {
     localStorage.setItem(key,JSON.stringify(protectedStores.get(key).empty()));
     unreadable.delete(key);snapshot();
   }
+  function snapshotTime(at){
+    const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(at);
+    const part=name=>parts.find(p=>p.type===name).value;
+    return part('day')+'.'+part('month')+'.'+part('year')+' '+part('hour')+':'+part('minute');
+  }
+  async function restoreSnapshot(key){
+    if(!protect(key))return;
+    const selected=recoverySnapshots.get(key);
+    const row=selected&&db&&(await rows()).find(row=>row.id===selected.id);
+    if(!row||row.hash!==selected.hash||!Object.hasOwn(row.storage,key)||!await usable(row))throw Error('That local snapshot is unavailable. Existing history kept.');
+    // Explicit recovery replaces only this unreadable store; its raw side copy stays.
+    if(!protect(key))return;
+    localStorage.setItem(key,row.storage[key]);
+    unreadable.delete(key);snapshot();
+  }
   function recoveryHTML(){
-    return blockedKeys().map(key=>{const spec=protectedStores.get(key);return '<section class="mcq-recovery" role="alert"><p>'+spec.label+' could not be read.</p><button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud uploads paused. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';}).join('');
+    return blockedKeys().map(key=>{const spec=protectedStores.get(key),saved=recoverySnapshots.get(key);
+      const local=saved?'<button data-storage-snapshot="'+key+'">Restore latest local snapshot ('+snapshotTime(saved.at)+')</button> ':'';
+      return '<section class="mcq-recovery" role="alert"><p>'+spec.label+' could not be read.</p>'+local+'<button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
+    }).join('');
   }
   blockedKeys();
   const status={persisted:null,restored:0,snapshotAt:null,error:''};
@@ -99,6 +117,15 @@ window.HazzardStorage = (() => {
   function transaction(mode){try{return db.transaction(STORE,mode,{durability:'strict'});}catch{return db.transaction(STORE,mode);}}
   function rows(){return new Promise((resolve,reject)=>{const tx=transaction('readonly'),request=tx.objectStore(STORE).getAll();request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});}
   async function usable(row){return row?.version===1&&Number.isFinite(row.at)&&isRecord(row.storage)&&Object.entries(row.storage).every(([k,v])=>validRaw(k,v))&&typeof row.hash==='string'&&row.hash===await hash(row.storage);}
+  async function indexSnapshots(){
+    const saved=(await rows()).sort((a,b)=>b.at-a.at||b.id-a.id);let latest=null;
+    recoverySnapshots.clear();
+    for(const row of saved){if(await usable(row)){
+      latest??=row;
+      for(const key of protectedStores.keys())if(!recoverySnapshots.has(key)&&Object.hasOwn(row.storage,key))recoverySnapshots.set(key,{id:row.id,at:row.at,hash:row.hash});
+    }}
+    return latest;
+  }
   function snapshot(){
     // Capture the whole reader state at the change, not at pagehide. Primary
     // localStorage has already acknowledged this write before we get here.
@@ -115,6 +142,7 @@ window.HazzardStorage = (() => {
         const request=store.getAll();request.onsuccess=()=>{const ordered=request.result.sort((a,b)=>b.at-a.at||b.id-a.id);for(const row of ordered.slice(KEEP))store.delete(row.id);};
         tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error||Error('Automatic snapshot could not be written'));tx.onerror=()=>{};
       });
+      await indexSnapshots();
       status.snapshotAt=at;status.error='';notify();
       dispatchEvent(new Event('hazzard-snapshot-saved'));
     }).catch(error=>{if(queuedPayload===payload)queuedPayload=null;status.error=error.message||'Automatic local snapshot failed.';notify();});
@@ -123,8 +151,7 @@ window.HazzardStorage = (() => {
   const ready=(async()=>{
     try{
       db=await new Promise((resolve,reject)=>{const request=indexedDB.open(DB_NAME,1);request.onupgradeneeded=()=>request.result.createObjectStore(STORE,{keyPath:'id',autoIncrement:true});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('Automatic snapshots are blocked by another tab.'));});
-      const saved=(await rows()).sort((a,b)=>b.at-a.at||b.id-a.id);let latest=null;
-      for(const row of saved){if(await usable(row)){latest=row;break;}}
+      const latest=await indexSnapshots();
       if(latest){
         status.snapshotAt=latest.at;
         // Restore only absent or invalid values. Valid empty marks/grades are
@@ -138,5 +165,5 @@ window.HazzardStorage = (() => {
   function setItem(key,raw){if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}localStorage.setItem(key,raw);if(owns(key))snapshot();}
   function removeItem(key){if(protect(key))return;localStorage.removeItem(key);if(owns(key))snapshot();}
   addEventListener('storage',event=>{if(event.storageArea===localStorage&&owns(event.key))snapshot();});
-  return {readProtected,blockedKeys,recoveryHTML,startFresh,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
+  return {readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();

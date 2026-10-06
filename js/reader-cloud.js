@@ -21,7 +21,7 @@ window.HazzardCloud = (() => {
     return (date?part('day')+'.'+part('month')+' ':'')+part('hour')+':'+part('minute');
   };
   function label(){
-    if(recoveryPaused())return 'Cloud paused - unreadable history';
+    if(recoveryPaused())return 'Cloud paused - a saved store could not be read';
     if(paused())return 'Cloud paused - '+(!signed()||expired?'sign in again':'last sync '+time(state.syncedAt,true));
     if(expired)return 'Cloud: sign in again';
     if(!signed())return 'Cloud: not signed in';
@@ -159,6 +159,7 @@ window.HazzardCloud = (() => {
     $('cloudSync').onclick=()=>push({manual:true});
     $('cloudRestore').onclick=()=>restore('current');$('cloudPrevious').onclick=()=>restore('prev');
     addEventListener('hazzard-snapshot-saved',changed);
+    addEventListener('hazzard-storage-status',render);
     addEventListener('online',()=>{if(!known)inspect();else schedule();});
     // Lifecycle flush bypasses the foreground debounce; failures retain dirty state.
     const leave=()=>{if(decided()&&!restoring){try{state.dirty=true;saveState();}catch{}push({keepalive:true});}};
