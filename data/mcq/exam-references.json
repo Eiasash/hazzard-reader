@@ -15739,7 +15739,7 @@
       "past": 9,
       "resolved": 5,
       "fallback": 2,
-      "practice": 13,
+      "practice": 12,
       "chapterLinked": 2
     },
     "46": {
@@ -15812,7 +15812,7 @@
       "past": 25,
       "resolved": 18,
       "fallback": 0,
-      "practice": 70,
+      "practice": 69,
       "chapterLinked": 7
     },
     "51": {
@@ -15836,7 +15836,7 @@
       "past": 14,
       "resolved": 6,
       "fallback": 6,
-      "practice": 25,
+      "practice": 24,
       "chapterLinked": 2
     },
     "52": {
@@ -15894,7 +15894,7 @@
       "past": 29,
       "resolved": 10,
       "fallback": 13,
-      "practice": 46,
+      "practice": 47,
       "chapterLinked": 6
     },
     "57": {
@@ -16169,7 +16169,7 @@
       "past": 15,
       "resolved": 11,
       "fallback": 1,
-      "practice": 56,
+      "practice": 55,
       "chapterLinked": 3
     },
     "75": {
@@ -16325,7 +16325,7 @@
       "past": 6,
       "resolved": 4,
       "fallback": 2,
-      "practice": 39,
+      "practice": 40,
       "chapterLinked": 0
     },
     "97": {
@@ -16366,7 +16366,7 @@
       "past": 12,
       "resolved": 8,
       "fallback": 0,
-      "practice": 3,
+      "practice": 6,
       "chapterLinked": 4
     },
     "99": {
@@ -16396,7 +16396,7 @@
       "past": 20,
       "resolved": 17,
       "fallback": 0,
-      "practice": 34,
+      "practice": 33,
       "chapterLinked": 3
     },
     "101": {
@@ -16451,7 +16451,7 @@
       "past": 8,
       "resolved": 5,
       "fallback": 0,
-      "practice": 42,
+      "practice": 3,
       "chapterLinked": 3
     },
     "105": {
@@ -16476,7 +16476,7 @@
       "past": 15,
       "resolved": 7,
       "fallback": 0,
-      "practice": 42,
+      "practice": 3,
       "chapterLinked": 8
     },
     "108": {
@@ -16490,7 +16490,7 @@
       "past": 4,
       "resolved": 4,
       "fallback": 0,
-      "practice": 40,
+      "practice": 1,
       "chapterLinked": 0
     },
     "15": {
@@ -16506,7 +16506,7 @@
       "past": 6,
       "resolved": 5,
       "fallback": 0,
-      "practice": 3,
+      "practice": 4,
       "studyOnly": true,
       "chapterLinked": 1
     },
@@ -16524,7 +16524,7 @@
       "past": 7,
       "resolved": 5,
       "fallback": 0,
-      "practice": 3,
+      "practice": 4,
       "studyOnly": true,
       "chapterLinked": 2
     },
@@ -16543,7 +16543,7 @@
       "past": 8,
       "resolved": 6,
       "fallback": 0,
-      "practice": 3,
+      "practice": 4,
       "studyOnly": true,
       "chapterLinked": 2
     },
@@ -16738,7 +16738,7 @@
       "past": 1,
       "resolved": 1,
       "fallback": 0,
-      "practice": 0,
+      "practice": 1,
       "studyOnly": true,
       "chapterLinked": 0
     },
@@ -16754,7 +16754,7 @@
       "past": 5,
       "resolved": 3,
       "fallback": 0,
-      "practice": 0,
+      "practice": 1,
       "studyOnly": true,
       "chapterLinked": 2
     },
@@ -16914,7 +16914,7 @@
       "past": 5,
       "resolved": 2,
       "fallback": 0,
-      "practice": 0,
+      "practice": 2,
       "studyOnly": true,
       "chapterLinked": 3
     },
@@ -17166,7 +17166,7 @@
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "practice": 0,
+      "practice": 1,
       "chapterLinked": 0
     },
     "26": {
@@ -17213,7 +17213,7 @@
       "past": 1,
       "resolved": 0,
       "fallback": 0,
-      "practice": 0,
+      "practice": 1,
       "chapterLinked": 1
     },
     "35": {
@@ -17268,7 +17268,8 @@
       "past": 1,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 1
+      "chapterLinked": 1,
+      "practice": 0
     },
     "1": {
       "ids": [
@@ -17278,91 +17279,104 @@
       "past": 2,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 2
+      "chapterLinked": 2,
+      "practice": 0
     },
     "40": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "18": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "25": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "17": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "14": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "12": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "24": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "19": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "20": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "21": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "13": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "2": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "3": {
       "ids": [
@@ -17371,28 +17385,32 @@
       "past": 1,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 1
+      "chapterLinked": 1,
+      "practice": 0
     },
     "4": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "5": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     },
     "6": {
       "ids": [],
       "past": 0,
       "resolved": 0,
       "fallback": 0,
-      "chapterLinked": 0
+      "chapterLinked": 0,
+      "practice": 0
     }
   }
 }

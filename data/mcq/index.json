@@ -17,7 +17,7 @@
   "45": {
     "title": "Syncope and Dizziness",
     "past": 3,
-    "practice": 13
+    "practice": 12
   },
   "46": {
     "title": "Pressure Injuries",
@@ -27,12 +27,12 @@
   "47": {
     "title": "Incontinence",
     "past": 15,
-    "practice": 70
+    "practice": 69
   },
   "51": {
     "title": "Osteoporosis",
     "past": 16,
-    "practice": 25
+    "practice": 24
   },
   "52": {
     "title": "Osteoarthritis",
@@ -42,7 +42,7 @@
   "55": {
     "title": "Rehabilitation",
     "past": 30,
-    "practice": 46
+    "practice": 47
   },
   "57": {
     "title": "Cognitive Changes in Normal and Pathologic Aging",
@@ -82,7 +82,7 @@
   "68": {
     "title": "Pain Management",
     "past": 21,
-    "practice": 56
+    "practice": 55
   },
   "75": {
     "title": "Valvular Heart Disease",
@@ -117,7 +117,7 @@
   "88": {
     "title": "Cancer and Aging: General Principles",
     "past": 12,
-    "practice": 39
+    "practice": 40
   },
   "97": {
     "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
@@ -127,12 +127,12 @@
   "98": {
     "title": "Thyroid Diseases",
     "past": 0,
-    "practice": 3
+    "practice": 6
   },
   "99": {
     "title": "Diabetes Mellitus",
     "past": 22,
-    "practice": 34,
+    "practice": 33,
     "topicFallback": 22
   },
   "101": {
@@ -148,19 +148,19 @@
   "104": {
     "title": "Infection and Appropriate Antimicrobial Selection",
     "past": 34,
-    "practice": 42,
+    "practice": 3,
     "topicFallback": 27
   },
   "105": {
     "title": "Bacterial Pneumonia and Tuberculosis",
     "past": 34,
-    "practice": 42,
+    "practice": 3,
     "topicFallback": 27
   },
   "108": {
     "title": "Influenza, COVID-19, and Other Respiratory Viruses",
     "past": 34,
-    "practice": 40,
+    "practice": 1,
     "topicFallback": 27
   },
   "law": {
@@ -206,7 +206,7 @@
   "36": {
     "title": "Gynecologic Disorders",
     "past": 0,
-    "practice": 0
+    "practice": 1
   },
   "26": {
     "title": "Legal Issues",
@@ -231,7 +231,7 @@
   "33": {
     "title": "Low Vision: Assessment and Rehabilitation",
     "past": 0,
-    "practice": 0
+    "practice": 1
   },
   "35": {
     "title": "Sexuality, Sexual Function, and the Aging Woman",
@@ -351,17 +351,17 @@
   "15": {
     "title": "Emergency Department Care",
     "past": 0,
-    "practice": 3
+    "practice": 4
   },
   "27": {
     "title": "Perioperative Care: Evaluation and Management",
     "past": 0,
-    "practice": 3
+    "practice": 4
   },
   "49": {
     "title": "Muscle Aging and Sarcopenia",
     "past": 0,
-    "practice": 3
+    "practice": 4
   },
   "53": {
     "title": "Hip Fractures",
