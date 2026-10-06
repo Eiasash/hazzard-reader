@@ -2,7 +2,7 @@
   "42": {
     "title": "Frailty",
     "past": 16,
-    "practice": 12
+    "practice": 21
   },
   "43": {
     "title": "Falls",
@@ -12,12 +12,12 @@
   "44": {
     "title": "Sleep Disorders",
     "past": 10,
-    "practice": 17
+    "practice": 25
   },
   "45": {
     "title": "Syncope and Dizziness",
     "past": 3,
-    "practice": 11
+    "practice": 13
   },
   "46": {
     "title": "Pressure Injuries",
@@ -32,12 +32,12 @@
   "51": {
     "title": "Osteoporosis",
     "past": 16,
-    "practice": 22
+    "practice": 25
   },
   "52": {
     "title": "Osteoarthritis",
     "past": 15,
-    "practice": 12
+    "practice": 18
   },
   "55": {
     "title": "Rehabilitation",
@@ -347,5 +347,20 @@
     "title": "Social Determinants of Health, Health Disparities, and Health Equity",
     "past": 0,
     "practice": 0
+  },
+  "15": {
+    "title": "Emergency Department Care",
+    "past": 0,
+    "practice": 3
+  },
+  "27": {
+    "title": "Perioperative Care: Evaluation and Management",
+    "past": 0,
+    "practice": 3
+  },
+  "49": {
+    "title": "Muscle Aging and Sarcopenia",
+    "past": 0,
+    "practice": 3
   }
 }

@@ -146,21 +146,13 @@ All scoring and time windows above: Figure 15-2, p211. A single introductory pro
 
 - Transitional-care nursing can reduce admission/readmission while increasing early returns; specialized nurses and volunteer models require training, leadership and quality control. Telemedicine and technology-assisted screening are emerging approaches whose proposed uses still require evaluation. Sustainable care depends on local, collaborative and patient-centered improvement (p219). Further-reading bibliography continues on p220; it is not additional clinical teaching.
 
-## Drill
+## Recall
 
 **1. Which delirium motor subtype is more common in the ED, and which later mood outcome is associated with delirium?**
 
 <details><summary>Answer</summary>
 
 Hypoactive delirium is more common and more often missed. Delirium is associated with post-hospital depression as well as cognitive/functional decline and longer admission (p209).
-
-</details>
-
-**2. What prevalence/incidence range does the chapter give for delirium in older ED patients?**
-
-<details><summary>Answer</summary>
-
-6–38% of ED adults over 65 present with or develop delirium; the range includes prevalent and incident cases (p209).
 
 </details>
 
@@ -220,27 +212,11 @@ For ED dementia screening, any AMT4 error flags high risk (p212). Within 4AT it 
 
 </details>
 
-**10. Why might caregiver AD8 help when a highly educated patient passes brief performance testing?**
-
-<details><summary>Answer</summary>
-
-It asks a reliable informant about cognitive change from baseline and avoids the education-related false negatives described for several patient performance screens (p213). Its positive threshold is at least 2 affirmative changes (p212).
-
-</details>
-
 **11. Which three screening contexts in this chapter include AMT4?**
 
 <details><summary>Answer</summary>
 
 4AT delirium screening (p211), ED dementia screening (p212), and initial cognitive assessment in the Senior Aid elder-abuse tool (p214).
-
-</details>
-
-**12. What follows uncertain confidence in a patient's ability to report abuse?**
-
-<details><summary>Answer</summary>
-
-A physical assessment for suggestive injury/neglect and other concerning findings, integrated with the complaint, answers and observations. AMT4 helps judge reporting ability; it does not establish or exclude abuse (Figure 15-4, p214).
 
 </details>
 
