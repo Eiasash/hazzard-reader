@@ -60,7 +60,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 
 *No exam-trap or book self-contradiction note is flagged in this source chapter.*
 
-## Drill
+## Recall
 
 **1. Roughly how many older US adults die from influenza each year, and which influenza types are clinically relevant?**
 
@@ -123,14 +123,6 @@ HD-IIV4 contains 4× the antigen dose per component and generates higher antibod
 <details><summary>Answer</summary>
 
 Treatment reduces clinical severity if given within 48 hours of symptom onset (the book's stated window, not an absolute cutoff — ch105 p1689 adds oseltamivir in severe CAP even after 48 h); about 70–90% effective for prophylaxis (p1736).
-
-</details>
-
-**9. In the Tecumseh, Michigan, community study, what effect did immunizing 86% of children have on adult influenza rates?**
-
-<details><summary>Answer</summary>
-
-It reduced influenza among adults in the community by about a third, compared with an adjacent, unimmunized community — evidence for indirect (herd) protection of older adults via childhood immunization (p1736).
 
 </details>
 
