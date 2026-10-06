@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v113",
+      "date": "2026-10-06",
+      "changes": [
+        "Batch 3 of 4: practice questions where the right answer stood out by length were checked against the book and rewritten (or retired)."
+      ]
+    },
+    {
       "version": "v112",
       "date": "2026-10-06",
       "changes": [
