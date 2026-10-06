@@ -343,7 +343,7 @@ window.HazzardMCQ = (() => {
     }
     function answerFlagsList(byId){
       try{
-        const entries=generatedFlags().sort((a,b)=>b.at-a.at);
+        const entries=generatedFlags().filter(f=>!byId.get(f.id)?.retired).sort((a,b)=>b.at-a.at);
         const date=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
         return '<h2>Answer looks wrong ('+entries.length+')</h2>'+(entries.length?entries.map(f=>{
           const q=byId.get(f.id),stem=Array.from(q?q.q:'Question no longer in the current bank');
@@ -469,7 +469,7 @@ window.HazzardMCQ = (() => {
         if(bankMode&&!reviewMode&&!redoMode&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
         const restored=!target&&restoreView(view);
         loaded=true;restoringView=restored;search.restore();
-        if(target){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice=items.some(q=>q.id===currentId(target)&&q.retired)?'This generated practice item has been retired because the book does not establish a single best answer. Saved answers are retained.':'That question is unavailable.';render();}}
+        if(target){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice=items.some(q=>q.id===currentId(target)&&q.retired)?'This generated practice item has been retired. Saved answers are retained.':'That question is unavailable.';render();}}
         else{
           const rv=reviewMode?history.state?.reviewView:null;
           if(rv&&visible()[position]?.id===rv.id){lastAnswer=rv.lastAnswer||null;restoringView=true;}
