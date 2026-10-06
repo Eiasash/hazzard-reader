@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v119",
+      "date": "2026-10-06",
+      "changes": [
+        "60 past-paper explanations that carried a 'being checked' or 'under review' note were checked against their source. Completed: 3. Final note on what the source does not explain: 38. Not covered by the sources in hand: 19."
+      ]
+    },
+    {
       "version": "v118",
       "date": "2026-10-06",
       "changes": [
