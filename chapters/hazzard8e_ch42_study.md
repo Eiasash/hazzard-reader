@@ -44,7 +44,7 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
 - HIV: frailty prevalence **5–20%** in younger HIV+ patients; risk ↑ with **CD4 <350 cells/mm³**, further risk factors: **CD4 <100 cells/mm³**, clinical AIDS, previous opportunistic illnesses (p628)
 - Transplant: MELD predicts waitlist mortality but predicts posttransplant outcomes only at scores **above 35**; Fried-criteria frailty tracked quality of life better than MELD severity in end-stage liver disease (p629)
 
-## Drill
+## Recall
 
 **1. What are the 5 components of the Fried physical frailty phenotype?**
 
@@ -62,59 +62,11 @@ Unintentional weight loss, weakness, exhaustion, slowness, and low activity (p61
 
 </details>
 
-**3. What unintentional weight-loss threshold is used for the CHS weight-loss criterion?**
-
-<details><summary>Answer</summary>
-
-More than 10 lb lost unintentionally in the prior year (p620).
-
-</details>
-
 **4. What distance is walked to test the "slowness" criterion, and what defines an abnormal result?**
 
 <details><summary>Answer</summary>
 
 15-ft walk time; abnormal = slowest 20%, stratified by gender and height (p620).
-
-</details>
-
-**5. What is the Rockwood Frailty Index (FI), operationally?**
-
-<details><summary>Answer</summary>
-
-The ratio of deficits present in a person to the total number of deficits considered, built from a series of 70 measurements ("deficits") (p620, p623).
-
-</details>
-
-**6. What is the reported ceiling value the Frailty Index approaches?**
-
-<details><summary>Answer</summary>
-
-FI ~0.7 (p623).
-
-</details>
-
-**7. How many categories does the Clinical Frailty Scale (CFS) have?**
-
-<details><summary>Answer</summary>
-
-7 categories, based on overall clinical impression (p623).
-
-</details>
-
-**8. How many domains does the Edmonton Frail Scale (EFS) assess?**
-
-<details><summary>Answer</summary>
-
-9 domains: cognition, general health status, functional independence, social support, medication use, nutrition, mood, continence, and functional performance (p623).
-
-</details>
-
-**9. What CDR score is used to define the "mild cognitive impairment" component of cognitive frailty?**
-
-<details><summary>Answer</summary>
-
-CDR = 0.5, with Alzheimer disease/other dementias excluded (p627).
 
 </details>
 
@@ -134,34 +86,10 @@ Average 11%, reported range 4.0%–59% depending on definition/setting (p626).
 
 </details>
 
-**12. Over 4.5 years, what proportion of adults over 70 transition between frailty states at least once?**
-
-<details><summary>Answer</summary>
-
-Nearly 60% (p626).
-
-</details>
-
-**13. Above what MELD score does MELD predict posttransplant outcomes?**
-
-<details><summary>Answer</summary>
-
-Only at scores above 35; MELD predicts waitlist mortality (p629).
-
-</details>
-
 **14. What CD4+ T-cell count thresholds are linked to HIV-related frailty risk?**
 
 <details><summary>Answer</summary>
 
 CD4 <350 cells/mm³ (a marker of advanced HIV disease) is independently associated with a frailty-related phenotype; CD4 <100 cells/mm³ is a further risk factor, as are clinical AIDS and previous opportunistic illnesses (p628).
-
-</details>
-
-**15. How much more prevalent is frailty among patients with cardiovascular disease compared to those without?**
-
-<details><summary>Answer</summary>
-
-About 3 times more prevalent (p628).
 
 </details>

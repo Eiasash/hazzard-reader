@@ -126,15 +126,7 @@ Supporting table on the cited page; the official SPPB question does not explicit
 
 - Further-reading references conclude the chapter here; clinical narrative ends on the preceding page (p738–739).
 
-## Drill
-
-**1. What distinguishes sarcopenia from an isolated finding of low muscle mass?**
-
-<details><summary>Answer</summary>
-
-Modern definitions incorporate muscle function. Strength and performance predict adverse outcomes better than mass alone; the precise combination depends on the chosen consensus definition (p730–732).
-
-</details>
+## Recall
 
 **2. Under the chapter's EWGSOP2 approach, what comes first, what confirms muscle involvement, and what indicates severity?**
 
@@ -184,27 +176,11 @@ Hand osteoarthritis, low motivation, and neurologic disorders are examples. Low 
 
 </details>
 
-**8. Why is a bedside BIA result less definitive than a direct measurement of muscle function?**
-
-<details><summary>Answer</summary>
-
-BIA estimates mass using device- and population-specific equations/cutoffs; limited standardization reduces accuracy. Mass measures do not consistently predict adverse outcomes, whereas functional measures have stronger prognostic links (p732, p735).
-
-</details>
-
 **9. What does SPPB add to gait speed, and what can replace a dynamometer when needed?**
 
 <details><summary>Answer</summary>
 
 SPPB adds balance and sit-to-stand performance reflecting strength/power/endurance. Sit-to-stand can also serve as a strength proxy without a dynamometer; TUG is a physical-performance test (p735–736).
-
-</details>
-
-**10. A person has low muscle mass, preserved gait/grip, and low food intake without a catabolic disease. Which diagnosis does this chapter prioritize?**
-
-<details><summary>Answer</summary>
-
-Malnutrition: low muscle mass without impaired muscle function favors it as the main diagnosis. Assess the other GLIM domains; low mass alone does not establish sarcopenia, cachexia, or frailty (p736).
 
 </details>
 
