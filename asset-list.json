@@ -1,5 +1,5 @@
 {
-  "version": "v122-r1",
+  "version": "v123",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "4f6eed4910749e958c1cc1376266448dda5171bd333184095062fdd10d6b116a",
-      "bytes": 20644
+      "sha256": "dc9bc0b1e307d5a538ce0e860a4deb3ef3d0df4105ac551da5337ed6792bc6b9",
+      "bytes": 21103
     },
     {
       "url": "./data/drug-index.json",
@@ -6158,13 +6158,13 @@
     },
     {
       "url": "./data/mcq/42.json",
-      "sha256": "849d57c5a90273b801c868609b7a47c877575064c6343ffed1699467c2888ed7",
-      "bytes": 77254
+      "sha256": "ab47082501334255acf2762486e4957cc2142177a3d6bef302f70fed80cab934",
+      "bytes": 77721
     },
     {
       "url": "./data/mcq/43.json",
-      "sha256": "1f30f599a1545ef435aad0435f982a360985087535f7a8a5698323ee1cb1ba4f",
-      "bytes": 200425
+      "sha256": "9eeedd1cf9b126a9aa83573971e28311e7c1df427aba5ff380b4fd91ca08dc3e",
+      "bytes": 200690
     },
     {
       "url": "./data/mcq/44.json",
@@ -6208,8 +6208,8 @@
     },
     {
       "url": "./data/mcq/52.json",
-      "sha256": "d1e86fec6c169120c34e5ab5afe4eeab989e79a915ba58ab7e66e3c6d84d192d",
-      "bytes": 61437
+      "sha256": "b3a8591848663e0355d09f051d8fdc212f11e8f37a01488b1d9d2629051fef64",
+      "bytes": 61836
     },
     {
       "url": "./data/mcq/53.json",
@@ -6223,8 +6223,8 @@
     },
     {
       "url": "./data/mcq/55.json",
-      "sha256": "3ae93bc37cb36ad824af1ab923ef7aa85f4d9d9e3f8fa992c489e0d375c79579",
-      "bytes": 181397
+      "sha256": "c198f5646afeaed33aa40c42f3ed32d7db6a8386a7887514ddbad79f08e51080",
+      "bytes": 182070
     },
     {
       "url": "./data/mcq/56.json",
@@ -6238,8 +6238,8 @@
     },
     {
       "url": "./data/mcq/58.json",
-      "sha256": "ce14c1a0ff53af11553bc14864241c3e0215acbe229255e1c8e088fff1a3b8c8",
-      "bytes": 338744
+      "sha256": "eea21a660d00eba1aa02ffd05bdbd5d51ba494f9de1b1baf3b3060479234ebd8",
+      "bytes": 339401
     },
     {
       "url": "./data/mcq/59.json",
@@ -6313,8 +6313,8 @@
     },
     {
       "url": "./data/mcq/77.json",
-      "sha256": "bcc024bfd3ebdc67ec377a6d9114eaf9a3fa2a551e1ce7c544d54235bcb65fc0",
-      "bytes": 110298
+      "sha256": "9073eb1a661690bfeb9b4f2d35a198dc5653db45921185c7261266ff2d8df13d",
+      "bytes": 111009
     },
     {
       "url": "./data/mcq/81.json",
@@ -6338,8 +6338,8 @@
     },
     {
       "url": "./data/mcq/87.json",
-      "sha256": "193ac02e9904c2118e94bbe404589ded177f0ea302511557849278aac6387ef0",
-      "bytes": 138106
+      "sha256": "5cb70d820605cb6afb4783b363d88d19d638fa030761d7a40d6da4d052f6483c",
+      "bytes": 138642
     },
     {
       "url": "./data/mcq/88.json",
@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "f8d66f9f64ce437d10b7add7a5118d22808514e00298a056861dfd29b42667eb",
-      "bytes": 6881704
+      "sha256": "deccc8830925c38a6dcc18473efc315868504eec9f99d033e219cc3aaac4466e",
+      "bytes": 6887763
     },
     {
       "url": "./data/mcq/collections.json",
@@ -6648,8 +6648,8 @@
     },
     {
       "url": "./data/mcq/law.json",
-      "sha256": "a8f8c2516cf7fd3ad333c2f169cbbcad2d4e4d163f27fa669514088982a37ddd",
-      "bytes": 637575
+      "sha256": "3982df04a729087907515c5ae5f660c6b7d29cd06ab6f3d42e63614587c2aac7",
+      "bytes": 637784
     },
     {
       "url": "./data/mcq/official-overrides.json",
@@ -6673,13 +6673,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "b989ec5ef0416cb16c465579dec2ac1aea0d5665a34a2164070b17b52c023b7b",
-      "bytes": 3324346
+      "sha256": "1cc33735dffa3f14591ed4a6c85883a2a09f7e6394f6400be1553450293e4c2c",
+      "bytes": 3324343
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "bc9f90e90451e7f5d7e5f9fb764dd32082b0f5d44996ebc4641e04eae4913bf4",
-      "bytes": 19786
+      "sha256": "e9cb1f04588a9a38781774b08369722fabc877c8710f84e4d38e62c38f7af39b",
+      "bytes": 21950
     },
     {
       "url": "./js/drug-index.js",
@@ -6738,8 +6738,8 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "0570556d17f7b0073476b8470d070abfa6b6ba81cd8354fd26db347184f991b6",
-      "bytes": 8231
+      "sha256": "033bf846cbb1219bc8e60f068241a2f4b7bfa12f27853d7766d82bbfc3186b4a",
+      "bytes": 8228
     },
     {
       "url": "./js/reader-storage.js",
