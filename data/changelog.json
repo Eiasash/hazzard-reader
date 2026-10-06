@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v117",
+      "date": "2026-10-06",
+      "changes": [
+        "The IWG 2024, VASCOG-2-WSO 2025 and NEJM 2024 article cards now cite the published journal versions."
+      ]
+    },
+    {
       "version": "v116",
       "date": "2026-10-06",
       "changes": [
