@@ -57,7 +57,7 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - Fluoxetine is the one antidepressant that breaks the "always taper slowly" rule (p1016).
 - The PHQ-9 diagnostic table's dysthymia row requires Q2 (depressed mood) specifically, sustained **2 years** — not just any 3–4 symptoms (p1011).
 
-## Drill
+## Recall
 
 **1. What percentage of older adults meet criteria for major depression, and how does that compare with other age groups?**
 
@@ -72,14 +72,6 @@ About 5% — lower than in other age groups; among older adults, greater age bri
 <details><summary>Answer</summary>
 
 0–4 = no/insignificant symptoms; 5–9 = mild, generally subsyndromal, depression (p1009, p1012).
-
-</details>
-
-**3. On the PHQ-9 diagnostic algorithm, what specific additional criterion (beyond symptom count) distinguishes probable dysthymia from minor depression?**
-
-<details><summary>Answer</summary>
-
-Question 2 (depressed mood) must be endorsed and present for 2 years, in addition to 3–4 symptoms and functional impairment (p1011).
 
 </details>
 
@@ -137,14 +129,6 @@ Three to six treatments per week for 2 to 4 weeks; ECT has few side effects, and
 <details><summary>Answer</summary>
 
 No clear antidepressant benefit for subsyndromal depression despite similar health impact to major depression, and antidepressants do not generally work for depression in the setting of dementia (p1012, p1015).
-
-</details>
-
-**11. Why might slow up-titration of an antidepressant improve adherence even though patients reach the same final dose either way?**
-
-<details><summary>Answer</summary>
-
-Patients likely receive more personalized attention during dose increases and experience fewer side effects with gradual titration (p1015).
 
 </details>
 

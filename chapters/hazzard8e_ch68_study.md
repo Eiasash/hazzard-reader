@@ -53,29 +53,13 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - **Book claim to flag**: the chapter states knee OA prevalence is "two times higher in men than women" (p1067) — worth double-checking against other sources before quoting, since knee OA is more commonly described as female-predominant elsewhere
 - Nonpharmacologic: physical therapy (including low-impact aquatic-based therapy/exercise for patients with chronic pain and stiffness), CBT/ACT/biofeedback, mindfulness-based stress reduction, and complementary therapies (acupuncture, massage) all have a role, especially in patients who can't tolerate medications or procedures (p1068)
 
-## Drill
-
-**1. What is the time cutoff that separates acute from chronic (persistent) pain?**
-
-<details><summary>Answer</summary>
-
-More than 3 months defines chronic/persistent pain; acute pain is tied to a short duration of tissue healing (approximately ≤3 months) (p1055).
-
-</details>
+## Recall
 
 **2. What defines "high-impact" chronic pain, and how common was it in the US in 2016?**
 
 <details><summary>Answer</summary>
 
 Chronic pain that limits life or work activities on most or every day for the past 6 months; an estimated 8% of US adults (20 million people) had it in 2016 (p1055).
-
-</details>
-
-**3. What percentage of the population is affected by neuropathic pain?**
-
-<details><summary>Answer</summary>
-
-7% to 10% of the population (p1056).
 
 </details>
 
@@ -87,27 +71,11 @@ Peripheral sensitization (inflammatory mediators like histamine/bradykinin lower
 
 </details>
 
-**5. About what fraction of Medicare Part D beneficiaries received an opioid prescription in a 2016 analysis?**
-
-<details><summary>Answer</summary>
-
-One in three (p1060).
-
-</details>
-
 **6. What starting-dose adjustment does the chapter recommend for opioids in older adults, and what are the CDC's MME/day caution thresholds?**
 
 <details><summary>Answer</summary>
 
 Start at about 25% to 50% of the dose given to younger patients; the CDC recommends carefully weighing risk/benefit above 50 MME/day and avoiding doses above 90 MME/day (p1060).
-
-</details>
-
-**7. How does opioid-induced hyperalgesia present clinically, in contrast to opioid tolerance?**
-
-<details><summary>Answer</summary>
-
-Patients with opioid-induced hyperalgesia show *increased* pain with *increased* opioid doses (and may develop diffuse allodynia beyond the original pain site), whereas tolerance presents as simple loss of effectiveness without worsening pain on higher doses (p1061).
 
 </details>
 
@@ -135,14 +103,6 @@ More than 30 days of daily use; the drug should be gradually tapered rather than
 
 </details>
 
-**11. What diagnostic nerve-block response predicts benefit from radiofrequency denervation for facet- or SIJ-mediated pain?**
-
-<details><summary>Answer</summary>
-
-An 80% reduction in pain (80% relief) after the diagnostic medial-branch (facet) or lateral-branch (SIJ) nerve block (p1066).
-
-</details>
-
 **12. What proportion of adults over 80 have sustained a vertebral compression fracture (VCF), and what proportion of VCFs actually result from a fall?**
 
 <details><summary>Answer</summary>
@@ -150,31 +110,6 @@ An 80% reduction in pain (80% relief) after the diagnostic medial-branch (facet)
 An estimated 40% to 50% of people older than 80 have had a VCF; only about a quarter of VCFs result from falls — most are precipitated by routine activities like bending or lifting (p1066).
 
 </details>
-
-**13. Above what percentage of vertebral height loss are vertebroplasty/kyphoplasty contraindicated?**
-
-<details><summary>Answer</summary>
-
-Greater than 66% vertebral height loss (p1066).
-
-</details>
-
-**14. What percentage of adults 65 and older have arthritis or chronic joint pain, per this chapter?**
-
-<details><summary>Answer</summary>
-
-60% (p1066).
-
-</details>
-
-**15. Up to how long has PRP (platelet-rich plasma) shown efficacy for knee osteoarthritis in some studies?**
-
-<details><summary>Answer</summary>
-
-Up to 12 months in some studies (p1067).
-
-</details>
-
 
 ## Table 68-6 — verbatim book excerpt
 
