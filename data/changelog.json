@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v109",
+      "date": "2026-10-06",
+      "changes": [
+        "One generated practice question that tested an excluded chapter under the wrong chapter label has been retired."
+      ]
+    },
+    {
       "version": "v108",
       "date": "2026-10-06",
       "changes": [
