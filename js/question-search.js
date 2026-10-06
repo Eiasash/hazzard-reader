@@ -19,7 +19,7 @@ window.HazzardQuestionSearch = (() => {
         status.textContent=matches.length+' matching questions';
         for(const q of matches){
           const button=document.createElement('button'),label=document.createElement('strong'),preview=document.createElement('span');button.type='button';
-          label.textContent=q.label;preview.textContent=q.stem;preview.dir='auto';button.append(label,preview);
+          label.textContent=q.label;preview.textContent=q.stem;preview.dir='auto';button.append(label,preview);if(q.note){const note=document.createElement('span');note.textContent=q.note;button.append(note);}
           button.onclick=()=>{remember();input.blur();openQuestion(q.id,()=>{history.pushState({...history.state,hazzardQuestionSearch:null},'');dialog.close();});};results.append(button);
         }
         results.scrollTop=scroll;
