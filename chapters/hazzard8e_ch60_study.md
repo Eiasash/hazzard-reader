@@ -62,31 +62,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - The chapter's own text lists cholinesterase-inhibitor side effects as "eight loss" — a printing error for "weight loss" (correctly spelled in Table 60-9, p929); left as printed on p931.
 - The 2026 exam paper misspells drug names (OLAZAPINE, Quentapine, Bopropion) — these are Olanzapine, Quetiapine, and Bupropion; don't let the spelling throw you (see reproduced questions below).
 
-## Drill
-
-**1. What fraction of dementia patients develop neuropsychiatric symptoms (NPS) at some point in their illness?**
-
-<details><summary>Answer</summary>
-
-Up to **98%** (p919).
-
-</details>
-
-**2. In a dementia patient with an acute or fluctuating change in behavior, what must be excluded before anything else?**
-
-<details><summary>Answer</summary>
-
-Delirium (p923).
-
-</details>
-
-**3. What proportion of dementia patients will suffer from depression over the course of their illness?**
-
-<details><summary>Answer</summary>
-
-Up to **50%** (p923).
-
-</details>
+## Recall
 
 **4. How common are psychotic symptoms in AD versus in dementia with Lewy bodies or Parkinson disease dementia?**
 
@@ -101,14 +77,6 @@ Up to **50%** (p923).
 <details><summary>Answer</summary>
 
 Describe, Investigate, Create, Evaluate (p924).
-
-</details>
-
-**6. In the MIND at Home study, what percentage of community-dwelling dementia patients had unmet care needs?**
-
-<details><summary>Answer</summary>
-
-**99%** (p924).
 
 </details>
 
@@ -128,14 +96,6 @@ Clear-cut major depression; psychosis causing or risking harm; aggression causin
 
 </details>
 
-**9. If an antipsychotic shows no significant benefit for NPS, after how long should it be tapered and withdrawn?**
-
-<details><summary>Answer</summary>
-
-After a **4-week period** (p927).
-
-</details>
-
 **10. Per the AHRQ comparative-effectiveness review, for which targets were risperidone, olanzapine, and aripiprazole most effective?**
 
 <details><summary>Answer</summary>
@@ -152,27 +112,11 @@ Clozapine — limited by serious adverse effects (neutropenia/agranulocytosis) a
 
 </details>
 
-**12. What is the recommended daily dose range of risperidone for NPS in dementia?**
-
-<details><summary>Answer</summary>
-
-**0.25–1 mg** (p928).
-
-</details>
-
 **13. In the CitAD trial, which SSRI improved agitation in Alzheimer disease, and what limited its use?**
 
 <details><summary>Answer</summary>
 
 Citalopram; limited by QTc prolongation and worsened cognition (p929).
-
-</details>
-
-**14. Which SSRI should be avoided in older adults because of anticholinergic activity and delirium risk?**
-
-<details><summary>Answer</summary>
-
-Paroxetine (p929–930).
 
 </details>
 

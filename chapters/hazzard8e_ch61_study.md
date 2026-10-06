@@ -60,29 +60,13 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Table 61-7's psychosis row (p947) lists only clozapine and quetiapine; the text on p946 adds pimavanserin, which unlike quetiapine has prospective trial data for PD psychosis (p946–947).
 - "Currency — declared gap": the book reports a quetiapine-vs-pimavanserin head-to-head trial as in progress; no result is given (p946).
 
-## Drill
+## Recall
 
 **1. What six motor features define parkinsonism, and which one is considered central?**
 
 <details><summary>Answer</summary>
 
 Bradykinesia, rest tremor, rigidity, loss of postural reflexes, flexed posture, and gait freezing; bradykinesia is the central feature (p935).
-
-</details>
-
-**2. What fraction of people over 60 does PD affect?**
-
-<details><summary>Answer</summary>
-
-1% to 2% (p935).
-
-</details>
-
-**3. What is the diagnostic gold standard for PD?**
-
-<details><summary>Answer</summary>
-
-Autopsy showing Lewy bodies in the substantia nigra pars compacta; in practice the diagnosis is typically made on clinical examination (p936).
 
 </details>
 
@@ -94,43 +78,11 @@ Over 90% sporadic; 20 PARK loci (p937).
 
 </details>
 
-**5. Which PD gene mutation is linked to early-onset disease in Ashkenazi Jewish patients?**
-
-<details><summary>Answer</summary>
-
-GBA (GBA1, β-glucocerebrosidase) (p938).
-
-</details>
-
-**6. By the time PD motor symptoms appear, roughly what fraction of posterior-putamen dopaminergic terminals is already lost?**
-
-<details><summary>Answer</summary>
-
-60% to 80% (p938).
-
-</details>
-
-**7. In the Braak model, which stage corresponds to nigral involvement and the onset of motor symptoms of PD?**
-
-<details><summary>Answer</summary>
-
-Stage 3 (of 6 total stages) (p939).
-
-</details>
-
 **8. What is the "1-year rule" used to distinguish PDD from DLB?**
 
 <details><summary>Answer</summary>
 
 In PDD motor symptoms precede cognitive symptoms by more than 1 year; in DLB, motor and cognitive symptoms arise within the same year (p939).
-
-</details>
-
-**9. Under the 2015 MDS criteria, how many of the four supportive criteria are needed alongside bradykinesia for "clinically established" PD?**
-
-<details><summary>Answer</summary>
-
-At least 2 of 4: levodopa treatment response, levodopa-induced dyskinesias, rest tremor, and olfactory loss and/or cardiac sympathetic denervation (p940).
 
 </details>
 

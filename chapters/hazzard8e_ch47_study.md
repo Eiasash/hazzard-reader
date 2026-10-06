@@ -66,37 +66,13 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - As printed (p712–713): the drug table spells "Solifenancin" (sic) for solifenacin; left as printed.
 - Currency — declared gap (p712–713): Table 47-12's drug names/doses are the US market as of press date; Israeli registration/availability was not checked for any agent.
 
-## Drill
-
-**1. What is the chapter's definition of urinary incontinence?**
-
-<details><summary>Answer</summary>
-
-The complaint of any involuntary leakage of urine (p699).
-
-</details>
+## Recall
 
 **2. Roughly what proportion of community-dwelling older women vs. men report any urinary incontinence?**
 
 <details><summary>Answer</summary>
 
 About 35% of women and 22% of men (p699).
-
-</details>
-
-**3. What is the approximate prevalence of urinary incontinence among nursing home residents?**
-
-<details><summary>Answer</summary>
-
-Approaches 60% (p699).
-
-</details>
-
-**4. What is normal bladder capacity in an adult?**
-
-<details><summary>Answer</summary>
-
-300 to 600 mL (p701).
 
 </details>
 
@@ -116,14 +92,6 @@ Reversible/acute causes: symptomatic infection (not asymptomatic bacteriuria), a
 
 </details>
 
-**7. Which class of antihypertensive is classically linked to stress incontinence via a chronic cough?**
-
-<details><summary>Answer</summary>
-
-ACE inhibitors — the cough precipitates stress leakage (Table 47-4, p703).
-
-</details>
-
 **8. A patient started on an anticholinergic bladder drug develops worsening incontinence with suprapubic fullness — what's happening and what do you do?**
 
 <details><summary>Answer</summary>
@@ -137,14 +105,6 @@ Anticholinergic-induced high-PVR (overflow) incontinence; stop the anticholinerg
 <details><summary>Answer</summary>
 
 Stress: leakage coincident with increased intra-abdominal pressure (cough/laugh/exercise). Urgency: sudden strong urge followed by leakage, usually from detrusor overactivity (Table 47-5, p704).
-
-</details>
-
-**10. At approximately what bladder volume is a standing cough stress test performed?**
-
-<details><summary>Answer</summary>
-
-About half-capacity, roughly 200 mL (p705).
 
 </details>
 
@@ -169,14 +129,6 @@ Three sets daily of 15 contractions, building hold time from 3 to 10 seconds (p7
 <details><summary>Answer</summary>
 
 Roughly 60%–70% reduction; a 2- to 4-week trial is needed before concluding a drug has failed (p711).
-
-</details>
-
-**14. What long-term safety signal has been associated with antimuscarinic bladder drugs?**
-
-<details><summary>Answer</summary>
-
-Epidemiologic studies show about a 50% relative increase in the odds of developing dementia with antimuscarinic bladder therapy (dose/duration dependent) (p713).
 
 </details>
 
