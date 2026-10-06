@@ -2,6 +2,8 @@ Study summary of Chapter 6; the book and the full chapter are the reference.
 
 # Chapter 6 Study: Social Determinants of Health, Health Disparities, and Health Equity
 
+> Excluded from the IMA required reading list (P005-2026); not cited in the 2020-2026 past papers.
+
 ## Summary
 
 **Separate the concepts**

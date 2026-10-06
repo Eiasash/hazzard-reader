@@ -2,6 +2,8 @@ Study summary of Chapter 4; the book and the full chapter are the reference.
 
 # Chapter 4 Study: Psychosocial Aspects of Aging
 
+> Excluded from the IMA required reading list (P005-2026); not cited in the 2020-2026 past papers.
+
 ## Summary
 
 **Life course, relationships and resilience**
