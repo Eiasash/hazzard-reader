@@ -7,7 +7,7 @@
   "43": {
     "title": "Falls",
     "past": 18,
-    "practice": 59
+    "practice": 74
   },
   "44": {
     "title": "Sleep Disorders",
@@ -22,12 +22,12 @@
   "46": {
     "title": "Pressure Injuries",
     "past": 26,
-    "practice": 26
+    "practice": 35
   },
   "47": {
     "title": "Incontinence",
     "past": 15,
-    "practice": 64
+    "practice": 70
   },
   "51": {
     "title": "Osteoporosis",
@@ -52,22 +52,22 @@
   "58": {
     "title": "Delirium",
     "past": 32,
-    "practice": 84
+    "practice": 90
   },
   "59": {
     "title": "Dementia Including Alzheimer Disease",
     "past": 67,
-    "practice": 22
+    "practice": 30
   },
   "60": {
     "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
     "past": 5,
-    "practice": 15
+    "practice": 22
   },
   "61": {
     "title": "Parkinson Disease and Related Disorders",
     "past": 46,
-    "practice": 52
+    "practice": 56
   },
   "63": {
     "title": "Other Neurodegenerative Disorders",
@@ -132,7 +132,7 @@
   "99": {
     "title": "Diabetes Mellitus",
     "past": 22,
-    "practice": 23,
+    "practice": 34,
     "topicFallback": 22
   },
   "101": {

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v100",
+      "date": "2026-10-06",
+      "changes": [
+        "Drill questions for 8 chapters are now multiple-choice practice questions (old drill ticks do not carry over)."
+      ]
+    },
+    {
       "version": "v99",
       "date": "2026-10-06",
       "changes": [
