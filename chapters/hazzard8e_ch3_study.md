@@ -2,6 +2,8 @@ Study summary of Chapter 3; the book and the full chapter are the reference.
 
 # Chapter 3 Study: Immunology and Inflammation
 
+> Excluded from the IMA required reading list (P005-2026). Cited in the 2020-22 past papers (Hazzard 7e, linked by chapter).
+
 ## Summary
 
 **Immune aging is not uniform suppression**

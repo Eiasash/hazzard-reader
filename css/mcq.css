@@ -100,7 +100,7 @@
 }
 
 /* One wrapping citation line, with only the newest sitting accented. */
-.chapter-exams{display:block;color:var(--muted);font:400 calc(11px * var(--fs,1))/1.65 var(--ui);white-space:normal;overflow:visible;text-overflow:clip;text-decoration:none;margin-top:3px;cursor:pointer}
+.chapter-exams{display:block;min-height:calc(40px * var(--fs,1));box-sizing:border-box;padding:calc(10px * var(--fs,1)) 0;color:var(--muted);font:400 calc(11px * var(--fs,1))/1.65 var(--ui);white-space:normal;overflow:visible;text-overflow:clip;text-decoration:none;margin-top:3px;cursor:pointer}
 .chapter-exams span{display:inline-block;white-space:nowrap}
 .chapter-exams:hover{text-decoration:underline}
 .chapter-exams-latest{color:var(--exam);background:var(--exam-soft);border-radius:4px;padding:0 3px}

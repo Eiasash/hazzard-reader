@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v106",
+      "date": "2026-10-06",
+      "changes": [
+        "Generated practice is now labelled and out of mocks by default; search finds questions; several content fixes."
+      ]
+    },
+    {
       "version": "v105",
       "date": "2026-10-06",
       "changes": [

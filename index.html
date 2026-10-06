@@ -263,9 +263,9 @@ body{padding-block-end:var(--tabs-height)}
 #jumpEnds button span{display:grid;place-items:center;width:36px;height:36px;border-radius:18px;border:1px solid var(--rule);background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px);font:calc(22px * var(--fs,1))/1 var(--ui)}
 #appTabs{background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px)}
 .library-progress{display:block;color:var(--muted);font:400 calc(11px * var(--fs,1))/1.5 var(--ui);margin-top:4px}
-#chapterResults button{display:block;width:100%;text-align:start;padding:12px 4px}
-#chapterResults strong,#chapterResults small{display:block}
-#chapterResults small{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);margin-top:5px}
+#chapterResults button,#bankSearchResults button{display:block;width:100%;text-align:start;padding:12px 4px}
+#chapterResults strong,#chapterResults small,#bankSearchResults strong,#bankSearchResults small{display:block}
+#chapterResults small,#bankSearchResults small{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);margin-top:5px}
 #chapterResults mark{background:var(--hl-yellow);color:var(--hl-ink)}
 #panel[data-current-pane="missed"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
 .missed-question{padding:12px 0;border-bottom:1px solid var(--rule)}
@@ -391,7 +391,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel .rows button{padding-block:8px;font-size:calc(13px * var(--fs,1))}
 #panel .nb-heading{font-size:calc(15px * var(--fs,1))}
 .library-row>.chapter-name{font-size:calc(13px * var(--fs,1));padding-block:8px}
-#chapterResults button{font-size:calc(13px * var(--fs,1));padding-block:8px}
+#chapterResults button,#bankSearchResults button{font-size:calc(13px * var(--fs,1));padding-block:8px}
 .library-search{top:48px}
 #markColour .swatch{background:var(--current-mark);width:14px;height:14px;margin:0 0 0 4px}
 .exam-badge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--accent-soft);color:var(--accent);font:600 calc(10px * var(--fs,1))/1.5 var(--ui);white-space:nowrap}
@@ -924,9 +924,9 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <div id="library" class="page" hidden="">
 
   <p class="eyebrow">YOUR LIBRARY</p><h1>Chapters</h1>
-  <div class="library-search"><label for="chapterSearch">Search chapters and study pages</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"><label class="chapter-sort" for="chapterSort">Sort: <select id="chapterSort"><option value="number">Number</option><option value="title">A-Z</option><option value="yield">Exam yield</option></select></label><p id="chapterSortStatus" role="status" hidden></p></div>
+  <div class="library-search"><label for="chapterSearch">Search book and questions</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"><label class="chapter-sort" for="chapterSort">Sort: <select id="chapterSort"><option value="number">Number</option><option value="title">A-Z</option><option value="yield">Exam yield</option></select></label><p id="chapterSortStatus" role="status" hidden></p></div>
   <a id="libraryDrugs" class="library-drugs" href="?chapter=drugs">Drugs · cross-chapter index →</a>
-  <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
+  <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><section id="bankSearchGroup" hidden><h2>Question bank</h2><ul class="rows" id="bankSearchResults"></ul></section><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
 </div>
 </main><div id="jumpEnds" class="jump-ends"><button id="toTop" aria-label="Go to top of chapter" title="Top"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14M12 20V9m-6 6 6-6 6 6"/></svg></button><button id="toBottom" aria-label="Go to end of chapter" title="End"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19h14M12 4v11m-6-6 6 6 6-6"/></svg></button></div><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
 <button id="markToggle" class="reader-tools" aria-label="Toggle marking" aria-pressed="false" title="Turn marking on"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></button>
@@ -952,6 +952,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <details id="appearanceStatus">
 <summary id="appearanceSummary" title="Show release, storage and snapshot details">Checking status…</summary>
 <p id="releaseStatus" class="meta" role="status"></p>
+<p id="generatedFlagCount" class="meta" role="status"></p>
 <p id="changedQuestionsStatus" class="meta" role="status"></p>
 <p id="autoSaveStatus" class="meta" role="status"></p>
 <div id="cloudControls">
@@ -32676,7 +32677,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v105 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v106 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33296,7 +33297,7 @@ function renderNotebook(){
 }
 const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
 function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,caption,figcaption,.book-caption,summary')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}
-let fullTextIndex=null,searchTicket=0,searchTimer;
+let fullTextIndex=null,bankTextIndex=null,searchTicket=0,searchTimer;
 async function chapterIndex(){
   if(fullTextIndex)return fullTextIndex;
   const result=[],failed=[];
@@ -33315,12 +33316,16 @@ async function chapterIndex(){
 }
 async function searchChapters(){
   const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
-  results.replaceChildren();results.hidden=!q;status.hidden=!q;
+  results.replaceChildren();results.hidden=!q;status.hidden=!q;$('#bankSearchResults').replaceChildren();$('#bankSearchGroup').hidden=true;
   $('#libraryDrugs').href='?chapter=drugs'+(q?'&drugSearch='+encodeURIComponent(q):'');
   let titles=0;for(const li of $$('#chapterRows li')){li.hidden=q&&wordStart(li.dataset.search,q)<0;if(!li.hidden)titles++}
   $('#noChapters').hidden=true;if(!q)return;
-  status.textContent='Searching all chapters and study pages…';
-  const loaded=await chapterIndex();if(ticket!==searchTicket)return;
+  status.textContent='Searching book and question bank?';
+  const bankLoad=bankTextIndex?Promise.resolve(bankTextIndex):fetch('data/mcq/all.json').then(r=>{if(!r.ok)throw Error('Question bank unavailable');return r.json();}).then(items=>bankTextIndex=items);
+  const [loaded,bankResult]=await Promise.all([chapterIndex(),bankLoad.then(items=>({items}),()=>({items:[],failed:true}))]);if(ticket!==searchTicket)return;
+  const words=HazzardQuestionSearch.normalize(q).split(' '),bankHits=bankResult.items.filter(item=>!item.retired&&words.every(w=>HazzardQuestionSearch.normalize([item.q,...item.o].join(' ')).includes(w)));
+  $('#bankSearchGroup').hidden=!bankHits.length;
+  for(const item of bankHits){const li=document.createElement('li'),link=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');link.type='button';link.onclick=()=>location.assign(HazzardEvidence.questionURL(item.id));label.textContent=HazzardMCQ.sourceLabel(item);snippet.dir='auto';snippet.textContent=item.q.slice(0,220)+(item.q.length>220?'…':'');link.append(label,snippet);li.append(link);$('#bankSearchResults').append(li);}
   const ranks=new Map($$('#chapterRows [data-chapter-row]').map((row,i)=>[row.dataset.chapterRow,i]));
   const rank=entry=>ranks.get(String(entry.number).replace(/s$/,''))??Infinity;
   const entries=[...(Array.isArray(loaded)?loaded:loaded.result)].sort((a,b)=>rank(a.entry)-rank(b.entry)||String(a.entry.number).localeCompare(String(b.entry.number),undefined,{numeric:true}));let found=0;
@@ -33336,8 +33341,8 @@ async function searchChapters(){
       if(++chapterHits===3)break;
     }
   }
-  status.textContent=found+' text matches (up to 3 per page).'+(loaded.failed?.length?' Some pages are unavailable. Connect once to finish saving them.':'');
-  $('#noChapters').hidden=found>0||titles>0;
+  status.textContent=found+' text matches (up to 3 per page); '+bankHits.length+' question-bank matches.'+(bankResult.failed?' Question bank unavailable. Reconnect and try again.':'')+(loaded.failed?.length?' Some pages are unavailable. Connect once to finish saving them.':'');
+  $('#noChapters').hidden=found>0||titles>0||bankHits.length>0;
 }
 $('#chapterSearch').oninput=()=>{++searchTicket;clearTimeout(searchTimer);searchTimer=setTimeout(searchChapters,220)};
 function wordStart(text,q,from=0){
