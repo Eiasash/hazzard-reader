@@ -1,5 +1,5 @@
 {
-  "version": "v122",
+  "version": "v122-r1",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -6673,13 +6673,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "2ee5e8568fa696799cf308209123d727a1fcb145f37c800a22070cf6f78b0924",
-      "bytes": 3324343
+      "sha256": "b989ec5ef0416cb16c465579dec2ac1aea0d5665a34a2164070b17b52c023b7b",
+      "bytes": 3324346
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "8b94467992f63944225a81c909a92fae8ec5e62ceb036eae973e5e5a46565f25",
-      "bytes": 19773
+      "sha256": "bc9f90e90451e7f5d7e5f9fb764dd32082b0f5d44996ebc4641e04eae4913bf4",
+      "bytes": 19786
     },
     {
       "url": "./js/drug-index.js",
@@ -6738,8 +6738,8 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "98d9ffd9ac84e6e351acd06d75f745c26e4ae8c4da368dd1b4213a14a59eaa32",
-      "bytes": 8228
+      "sha256": "0570556d17f7b0073476b8470d070abfa6b6ba81cd8354fd26db347184f991b6",
+      "bytes": 8231
     },
     {
       "url": "./js/reader-storage.js",
