@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v120",
+      "date": "2026-10-06",
+      "changes": [
+        "Batch 5 practice questions (answer stood out by length) were checked against their real source (Israeli law files, Brookdale, articles, or the whole book). Source-checked: 24 (options evened out in 24 of them). Corrected: 6 (see Practice → Changed questions). Retired: 1. Not checkable with sources in hand, kept with the generated-practice warning: 53."
+      ]
+    },
+    {
       "version": "v119",
       "date": "2026-10-06",
       "changes": [
