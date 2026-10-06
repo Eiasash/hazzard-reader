@@ -138,12 +138,7 @@ Fast build from the book; not lane-reviewed.
 <a id="p1132"></a>**[p. 1132]**
 - The chapter closes by supporting regular physical activity and conditioning because some age-related declines in cardiovascular and exercise performance are partly preventable and reversible. (p1132)
 
-## Drill
-
-**1. Does cardiomyocyte loss leave uniformly smaller surviving cells?**
-<details><summary>Answer</summary>
-No. Surviving cells enlarge and become more variable in size; the largest are most vulnerable to stress. (p1116)
-</details>
+## Recall
 
 **2. Which node has the greatest pacemaker-cell loss, and why must its quoted percentage be qualified?**
 <details><summary>Answer</summary>
@@ -170,26 +165,6 @@ No. Deposition may increase diastolic stiffness, and in some patients the burden
 LV mass usually shows no change to a slight reduction after body-size adjustment, while LA size commonly increases. LA size alone does not identify the cause of chronically raised filling pressure. (p1118)
 </details>
 
-**7. Why can a senile/sigmoid septum complicate echo interpretation?**
-<details><summary>Answer</summary>
-Disproportionate basal septal thickening may resemble hypertrophic cardiomyopathy; hypertension may contribute, and the change should not automatically be assigned to biological aging alone. (p1119)
-</details>
-
-**8. Does aortic sclerosis mean significant valvular obstruction?**
-<details><summary>Answer</summary>
-No. It is valve thickening without significant hemodynamic dysfunction. It is associated with cardiovascular risk; progressive calcific aortic stenosis is a disease process, not an inevitable physiologic finding. (p1119)
-</details>
-
-**9. Describe regurgitation compatible with normal aging.**
-<details><summary>Answer</summary>
-Trivial or mild, central regurgitation with age-appropriate valve leaflets, associated with annular dilation. Severe regurgitation is not this physiologic pattern. (p1120)
-</details>
-
-**10. Is a thin, hypermobile atrial septum the expected aging pattern?**
-<details><summary>Answer</summary>
-No. Expected aging causes thickening, stiffness, and reduced mobility. A thin hypermobile septum prompts evaluation for aneurysm, PFO, or an atrial septal defect; lipomatous hypertrophy instead has a characteristic dumbbell shape. (p1120)
-</details>
-
 **11. What distinguishes coronary atherosclerosis from Mönckeberg medial calcification in this chapter?**
 <details><summary>Answer</summary>
 Atherosclerosis is disease; medial calcification is described as probably age-related degeneration. Aging also brings coronary dilation and tortuosity. (p1120)
@@ -208,11 +183,6 @@ Resting rate is generally unchanged, while maximum exercise rate declines. The b
 **14. Can a restrictive filling pattern or new regional wall-motion abnormality be dismissed as normal aging?**
 <details><summary>Answer</summary>
 No. Expected delayed relaxation should be interpreted against age norms; restrictive/pseudonormal filling suggests disease (p1123). Regional wall-motion abnormalities remain abnormal (p1124, p1127).
-</details>
-
-**15. Why does faster pulse-wave travel increase cardiac workload?**
-<details><summary>Answer</summary>
-The reflected wave returns before aortic valve closure, increasing systolic afterload instead of supporting diastolic pressure and coronary perfusion after closure. (p1130–1131)
 </details>
 
 ### Table 73-1 — existing book image
