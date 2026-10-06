@@ -59,7 +59,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Very severe obstruction (**FEV1 <30%** predicted or FEV1 Z-score **<–2.55**) helps identify patients at risk for uncontrolled symptoms from advanced COPD — but FEV1 alone is not sufficient to identify who would benefit from palliative care (p1262).
 - SPIKES framework for breaking bad news: **S**etting, **P**erception, **I**nvitation, **K**nowledge, **E**mpathy, **S**trategy/summary (p1264).
 
-## Drill
+## Recall
 
 **1. What are the two fundamental age-related flaws in the GOLD spirometric criteria for COPD?**
 
@@ -98,14 +98,6 @@ Two-thirds of those with chronic-bronchitis symptoms and half of those with phys
 <details><summary>Answer</summary>
 
 ICS combined with LABA reduces exacerbations and hospitalizations with absolute eosinophil count ≥300 cells/mL plus high symptom burden and frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest with eosinophils <100 cells/mL (also older age, frailty, low BMI, high ICS dose); ICS withdrawal can be considered with eosinophils <300 (especially <100) cells/mL (p1253–1254). *[sic — the book's own Table 81-7, p1246, gives cells/μL]*
-
-</details>
-
-**6. Above what daily fluticasone-equivalent ICS dose is accelerated bone-mineral-density loss seen?**
-
-<details><summary>Answer</summary>
-
-Above 1000 mcg/day of fluticasone or equivalent (p1253).
 
 </details>
 
@@ -170,14 +162,6 @@ BODE Index score > 5, and FEV1 and DLCO both < 25% predicted, among other criter
 <details><summary>Answer</summary>
 
 14 years for COPD vs 21 years for heart disease (p1262).
-
-</details>
-
-**15. What FEV1 threshold is used as a red flag for advanced COPD needing palliative-care consideration?**
-
-<details><summary>Answer</summary>
-
-FEV1 < 30% predicted, or FEV1 Z-score < –2.55, helps identify patients at risk for uncontrolled symptoms from advanced COPD; however, FEV1 alone is not sufficient to identify patients who would benefit from palliative care (p1262).
 
 </details>
 

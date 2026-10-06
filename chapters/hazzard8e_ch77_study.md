@@ -52,7 +52,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199, image, Table 77-5) for the classic HF/dyssynchrony indication vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway (running text) — easy to conflate on a question stem.
 - Not all DOACs reduce bleeding vs warfarin: apixaban and edoxaban show less major bleeding at their studied doses; dabigatran only at **110 mg** (150 mg shows similar bleeding to warfarin, not less); rivaroxaban (20 mg, the dose studied) shows only a similar major-bleeding rate to warfarin (p1204, image).
 
-## Drill
+## Recall
 
 **1. In a nursing-home resident, orthostatic hypotension is defined by what blood-pressure drop, and how prevalent is it in frail older nursing-home residents?**
 
@@ -102,27 +102,11 @@ LVEF ≤ 35%, sinus rhythm, LBBB, QRS ≥ 150 ms, NYHA class II, III, or ambulat
 
 </details>
 
-**7. According to the Mode Selection Trial, what happens to heart-failure hospitalization risk when RV pacing occurs ≥ 40% of the time?**
-
-<details><summary>Answer</summary>
-
-A 2.6-fold increase in heart-failure hospitalizations (p1199).
-
-</details>
-
 **8. After TAVR, what percentage of patients develop new LBBB, and what percentage develop high-degree AV block?**
 
 <details><summary>Answer</summary>
 
 New LBBB in 19% to 55%; high-degree AVB in 10% (p1200).
-
-</details>
-
-**9. In the AFFIRM trial subgroup analysis of patients older than 70, what happened with antiarrhythmic drug (AAD) therapy?**
-
-<details><summary>Answer</summary>
-
-AAD therapy was associated with higher all-cause mortality (p1201).
 
 </details>
 

@@ -72,7 +72,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - MS "usually develop symptoms" once MVA falls to **2.5 to 1.5 cm²** (p1156), which overlaps Table 75-7's own **mild** cutoff (>1.5 cm²) — read literally, symptom onset and "mild" grade can coincide.
 - AI surgical trigger is stated twice with different thresholds on the same page: LVESD "> 50 mm" (dilated ventricle, a *consideration*) vs "> 65 mm" (asymptomatic, low-risk, a *possible indication*; the table says "progressive LV dilatation", the text says LVESD) — not contradictory once you note these are different tiers of the same table (Table 75-6), but easy to conflate under exam pressure (p1155).
 
-## Drill
+## Recall
 
 **1. In patients older than 65, what fraction of aortic stenosis is caused by calcific degeneration of a trileaflet valve, and at what age does a bicuspid valve's stenosis typically present?**
 
@@ -103,14 +103,6 @@ Development of symptoms, failure to generate a 20 mmHg increase in blood pressur
 <details><summary>Answer</summary>
 
 STS Predicted Risk of Morbidity and Mortality > 50%; durability of TAVR valves beyond 5 years is unknown, so some patients may need a reintervention ("valve-in-valve" procedure) (p1153).
-
-</details>
-
-**5. What percentage of patients older than 70 with severe symptomatic aortic stenosis were not offered surgery in the cited European study?**
-
-<details><summary>Answer</summary>
-
-41% (corroborated by a second multicenter study showing 33% of patients over 75 not offered replacement) (p1152).
 
 </details>
 

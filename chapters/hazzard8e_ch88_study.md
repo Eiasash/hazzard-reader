@@ -51,7 +51,7 @@ Study summary of Chapter 88; the book and the full chapter are the reference.
 - Direction of stage-at-presentation with age is tumor-specific, not uniform: melanoma presents *more* advanced in older adults; lung cancer presents *less* advanced (more localized) in older adults — do not assume all cancers present later in older patients (p1385).
 - CARG and CRASH are two different chemo-toxicity risk tools with different point scales and different endpoints (CARG = single composite risk tier; CRASH = separate hematologic/nonhematologic percentages) — don't merge their numbers (p1388).
 
-## Drill
+## Recall
 
 **1. What two summary statistics from the National Cancer Institute establish cancer as a disease of aging?**
 
@@ -66,14 +66,6 @@ Over 60% of newly diagnosed malignant tumors and 70% of all cancer deaths occur 
 <details><summary>Answer</summary>
 
 Begins at age 30, progressing at a loss of approximately 1% per year (p1383).
-
-</details>
-
-**3. Roughly what fraction of a species' maximum lifespan does it take for a mutated cell to become a clinically detectable tumor?**
-
-<details><summary>Answer</summary>
-
-Approximately 10% to 30% of the maximum lifespan (p1383).
 
 </details>
 
@@ -101,14 +93,6 @@ Older women have a higher frequency of ER-positive tumors and longer tumor doubl
 
 </details>
 
-**7. Why is ECOG performance status alone considered insufficient in geriatric oncology?**
-
-<details><summary>Answer</summary>
-
-A CGA adds substantial additional functional and prognostic information beyond ECOG PS, even in patients with a good ECOG PS (p1387–1388).
-
-</details>
-
 **8. On the CARG chemotherapy-toxicity risk model, what toxicity rates correspond to the low, intermediate, and high risk-point tiers?**
 
 <details><summary>Answer</summary>
@@ -125,35 +109,11 @@ High-risk: 100% hematologic, 93% nonhematologic toxicity. Low-risk: 7% hematolog
 
 </details>
 
-**10. In the cluster-randomized trial of CGA-guided oncologist recommendations across 41 practices and 718 patients, what was the effect on treatment-related toxicity?**
-
-<details><summary>Answer</summary>
-
-A 20% absolute reduction in toxicity compared with usual oncologist-directed care (p1388).
-
-</details>
-
-**11. Why must chemotherapy dosing in older adults be based on creatinine clearance rather than serum creatinine alone?**
-
-<details><summary>Answer</summary>
-
-There is a decrease in lean body mass in the older adult; thus, adjusting the dose based on a creatinine clearance and not merely the creatinine is very important (p1390).
-
-</details>
-
 **12. What T-score thresholds trigger bone-directed therapy in an older patient on aromatase-inhibitor therapy?**
 
 <details><summary>Answer</summary>
 
 T-score less than −2.0 SD alone, OR less than −1.5 SD with one additional risk factor, OR two or more risk factors (without bone mineral density) (p1390).
-
-</details>
-
-**13. In patients who develop high-grade immune-related adverse events (irAEs) from checkpoint inhibitors, how does outcome differ between older and younger adults?**
-
-<details><summary>Answer</summary>
-
-The incidence of high-grade irAEs is similar between age groups, but older adults who develop high-grade irAEs have worse overall survival, possibly due to side effects of their treatment (steroids and hospitalization), which are often much less tolerated in older adults (p1391).
 
 </details>
 

@@ -85,7 +85,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - β-blockers: the book says carvedilol, metoprolol succinate, and bisoprolol (the 3 US-approved for HF) are "the only three" proven and "should be used" — but the same page reports SENIORS: **nebivolol** significantly lowered death/CV hospitalization in patients ≥70 (p1179). Book contradicts itself: pick the 3 for "which β-blockers should be used", but don't reject nebivolol as "no outcome benefit". Metoprolol tartrate is an acceptable titration-phase alternative (p1179).
 - Digoxin lowers HF hospitalizations but has **no mortality benefit** in either HFREF (DIG trial) or HFPEF (DIG ancillary) — a trap for assuming any drug that reduces hospitalizations also reduces mortality (p1182, p1188).
 
-## Drill
+## Recall
 
 **1. Roughly how many Americans are affected by heart failure today, and what is the projected total by 2030?**
 
@@ -111,30 +111,6 @@ About 6.5 million today; projected to exceed 8 million by 2030 (p1166).
 
 </details>
 
-**4. In older adults, what proportion of left ventricular end-diastolic volume can be attributable to atrial contraction (the atrial "kick")?**
-
-<details><summary>Answer</summary>
-
-As much as 30–40% (p1168–1169).
-
-</details>
-
-**5. What proportion of older adults hospitalized for HFPEF with increased LV wall thickness (>12 mm) were found to have wild-type transthyretin cardiac amyloidosis?**
-
-<details><summary>Answer</summary>
-
-13% (p1171).
-
-</details>
-
-**6. What is the single most common precipitant of an acute heart failure exacerbation in a patient with preexisting HF?**
-
-<details><summary>Answer</summary>
-
-Nonadherence to medications and/or diet — contributing to up to two-thirds of exacerbations (p1172).
-
-</details>
-
 **7. What BNP cutoffs make heart failure highly likely versus much less likely in a nonobese older adult, and why does BNP become a less reliable rule-in test with age?**
 
 <details><summary>Answer</summary>
@@ -156,14 +132,6 @@ General range: "less than 40% to 50%." Working cutoff adopted for the rest of th
 <details><summary>Answer</summary>
 
 Carvedilol 25–50 mg BID, metoprolol succinate 100–200 mg daily, bisoprolol 10 mg daily (p1179).
-
-</details>
-
-**10. Why must sacubitril/valsartan (ARNi) initiation be timed carefully relative to a prior ACE inhibitor?**
-
-<details><summary>Answer</summary>
-
-At least a 36-hour washout from ACE inhibitors is required to mitigate the risk of angioedema (p1180).
 
 </details>
 
