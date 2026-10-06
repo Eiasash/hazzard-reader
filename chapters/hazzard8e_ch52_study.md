@@ -43,21 +43,13 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 - First CMC (thumb base) OA → **trapeziectomy** is the procedure of choice (p790).
 - Prevention: **≥150 min** moderate-intensity or **≥75 min** vigorous-intensity aerobic activity per week (Physical Activity Guidelines for Americans) (p790).
 
-## Drill
+## Recall
 
 **1. How many people in the US have symptomatic OA, and what is its rank among causes of disability?**
 
 <details><summary>Answer</summary>
 
 At least 32 million people (out of ~240 million worldwide with symptomatic OA); OA is the 3rd leading cause of years lived with disability in the US (p779).
-
-</details>
-
-**2. What is the lifetime risk of developing symptomatic knee OA?**
-
-<details><summary>Answer</summary>
-
-1 in 2 (p779).
 
 </details>
 
@@ -69,14 +61,6 @@ An estimated 21% in men and 33% in women (p780).
 
 </details>
 
-**4. How many genome-wide significant genetic risk loci for OA have been identified?**
-
-<details><summary>Answer</summary>
-
-90 (p780).
-
-</details>
-
 **5. What ACR criteria support classifying a patient's joint pain as OA?**
 
 <details><summary>Answer</summary>
@@ -85,27 +69,11 @@ Age >50 years, <30 minutes of morning stiffness, crepitus, bony enlargement/tend
 
 </details>
 
-**6. What synovial fluid white blood cell count threshold distinguishes OA from inflammatory/infectious arthritis?**
-
-<details><summary>Answer</summary>
-
-Less than 2000 cells/mm³ is consistent with OA; greater than 2000 cells/mm³ suggests an inflammatory or infectious etiology (p783).
-
-</details>
-
 **7. How does bending direction affect OA-related lumbar spinal stenosis symptoms?**
 
 <details><summary>Answer</summary>
 
 Symptoms are relieved by bending slightly forward (eg, walking uphill or leaning on a shopping cart) and worsened by bending backward (eg, walking downhill) (p782).
-
-</details>
-
-**8. What fraction of patients with advanced knee OA improve with a physical therapy regimen of strengthening and neuromuscular training?**
-
-<details><summary>Answer</summary>
-
-Two-thirds (p784).
 
 </details>
 
@@ -130,22 +98,6 @@ More than 5% weight loss achieved within a 20-week period (p786).
 <details><summary>Answer</summary>
 
 Glucosamine and chondroitin sulfate (no more effective than placebo in the lowest-bias data), TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).
-
-</details>
-
-**12. Why are topical NSAIDs and topical capsaicin not recommended for hip OA?**
-
-<details><summary>Answer</summary>
-
-Because the hip joint lies too deep under the skin for topical agents to be effective (p787).
-
-</details>
-
-**13. What kidney function cutoff should prompt avoiding NSAIDs in OA patients?**
-
-<details><summary>Answer</summary>
-
-CKD stage IV or V (estimated glomerular filtration rate < 30 cc/min) (p788).
 
 </details>
 

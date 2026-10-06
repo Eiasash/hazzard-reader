@@ -52,7 +52,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - Drug doses for severe OH/PPH: caffeine **250 mg** (2 cups brewed) each morning, fludrocortisone **0.1–0.5 mg** po daily, midodrine **2.5–10 mg** po TID, octreotide **50 mg** subQ 30 min pre-meal *(unusually high vs. the mcg doses typically used clinically — this is the book's own printed text)* (p675)
   > Current practice (not the book): the source trial gave octreotide 50 micrograms (µg) subQ, not 50 mg — Jansen et al., 1989 (PubMed 2646315).
 
-## Drill
+## Recall
 
 **1. What is the definition of syncope, and how does it differ from a seizure or TIA?**
 
@@ -147,22 +147,6 @@ Sensitivity 95%, specificity 45% (p671).
 <details><summary>Answer</summary>
 
 Only 1% to 2% diagnostic yield in unselected populations; implantable loop recorders (ILRs), with higher diagnostic yield, are increasingly recommended as an early diagnostic tool, especially in older patients (p671–672).
-
-</details>
-
-**13. In cardioinhibitory carotid sinus syndrome, how effective is dual-chamber cardiac pacing at abolishing syncope?**
-
-<details><summary>Answer</summary>
-
-Syncope is abolished in 85% to 90% of patients with appropriate dual-chamber pacing (p675).
-
-</details>
-
-**14. How long should each head position be held during the Epley canalith repositioning procedure?**
-
-<details><summary>Answer</summary>
-
-10 to 15 seconds, or until the vertigo subsides, at each of the five positions (p676).
 
 </details>
 

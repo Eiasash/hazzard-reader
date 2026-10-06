@@ -118,7 +118,7 @@ The physiologic-association questions test this table's content; their official 
 
 - Age alone is an inadequate risk estimate. Individual disease burden, baseline function/cognition, and patient goals guide selection, testing, and recovery planning. Minimally invasive approaches may reduce pain/recovery time and possibly operative risk; outcomes relevant to older adults require further study. The remaining page provides acknowledgments and further reading (p380–381).
 
-## Drill
+## Recall
 
 **1. Which baseline domains matter beyond chronological age?**
 
@@ -160,35 +160,11 @@ Fewer dermal vessels/slower re-epithelialization → slower wound healing. Lower
 
 </details>
 
-**6. Why can serum creatinine underestimate perioperative renal vulnerability?**
-
-<details><summary>Answer</summary>
-
-Low skeletal muscle mass reduces creatinine production despite reduced filtration/clearance. Baseline renal insufficiency increases volume/acid–base risk, and altered drug handling increases toxicity (p376).
-
-</details>
-
 **7. Which gastrointestinal changes raise perioperative aspiration risk?**
 
 <details><summary>Answer</summary>
 
 Reduced esophageal peristaltic amplitude and lower-sphincter tone, more hiatal hernia, delayed gastric emptying, and reflux. Neurologic disease may also impair swallowing and secretion control. Hiatal hernia is the pertinent official-question answer (p376).
-
-</details>
-
-**8. Why might delaying surgery for optimization be harmful?**
-
-<details><summary>Answer</summary>
-
-Delayed diagnosis or prolonged optimization may allow a needed elective procedure to become a higher-risk emergency. Balance benefits of optimization against consequences of waiting (p376).
-
-</details>
-
-**9. When is postoperative complication risk greatest?**
-
-<details><summary>Answer</summary>
-
-Immediately after surgery; half of adverse events occur within 3 weeks. Baseline risk factors predict 7-day mortality better than anesthesia duration or operator experience in the chapter's account (p376).
 
 </details>
 
