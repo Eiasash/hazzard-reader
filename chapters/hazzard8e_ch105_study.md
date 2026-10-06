@@ -62,15 +62,7 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 
 *Exam trap: a quinolone looks like a reasonable empiric choice for undifferentiated CAP, but the book says not to prescribe it when pulmonary TB is suspected — its tuberculostatic activity can delay the TB diagnosis (p1689).*
 
-## Drill
-
-**1. Roughly what proportion of pneumonia in older adults is caused by *S pneumoniae*?**
-
-<details><summary>Answer</summary>
-
-20%-65% of cases (p1681).
-
-</details>
+## Recall
 
 **2. What four items make up the Shorr MDRO risk score, and what does a score of zero mean?**
 
@@ -93,14 +85,6 @@ Recent hospitalization (4 pts), admission from long-term care (3 pts), hemodialy
 <details><summary>Answer</summary>
 
 Up to 30% (more often with dehydration or neutropenia); repeat the film at 24-48 hours (p1684).
-
-</details>
-
-**5. What serum lactate cutoff predicts 30-day mortality in older adults with pneumonia?**
-
-<details><summary>Answer</summary>
-
-≥2 mmol/L (p1685).
 
 </details>
 
@@ -141,14 +125,6 @@ No clinical stability by 3-4 days, or deterioration/respiratory failure/septic s
 <details><summary>Answer</summary>
 
 5-7 days; extend for infection by *Legionella*, resistant gram-negative bacilli, or MRSA, or for persistent fever beyond 72 hours, persistence of more than one criterion of clinical instability, inadequate initial coverage, or complications (p1690).
-
-</details>
-
-**11. Why should quinolones be avoided when active pulmonary tuberculosis is suspected but not yet confirmed?**
-
-<details><summary>Answer</summary>
-
-Because of their tuberculostatic activity and the possibility of delaying the diagnosis of pulmonary tuberculosis (p1689).
 
 </details>
 

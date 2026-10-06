@@ -49,15 +49,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - "Cocooning" older adults from exposure by immunizing family, caregivers, and staff is another strategy to address immune senescence (eg, nursing home staff immunization; childhood conjugate pneumococcal vaccines reduce pneumonia risk in older adults) (p1676)
 - Older travelers are **6×** more likely than young adults to have a serious adverse event from **yellow fever** vaccine; travelers' diarrhea affects **25–50%** of visitors to developing countries (p1676)
 
-## Drill
-
-**1. Why doesn't "start low, go slow" apply to antibiotic dosing in older adults?**
-
-<details><summary>Answer</summary>
-
-Time to therapeutic antibiotic blood level is a major determinant of outcome in serious infection; full initial (even loading) doses are needed, with later doses adjusted for renal/hepatic function and interactions (p1667, p1670).
-
-</details>
+## Recall
 
 **2. In what fraction of older adults with serious infection is fever absent, and what temperature defines fever in this population?**
 
@@ -72,22 +64,6 @@ Up to one-third; fever is still defined as ≥100.4°F/38°C, but lower baseline
 <details><summary>Answer</summary>
 
 Skin-surface swabs (eg, pressure ulcers) and urine cultures in the presence of a long-term indwelling catheter — such cultures will always be positive but do not correlate with infection; they are more often misleading than helpful and should NOT guide antibiotic selection (p1668, p1671). Exception: in catheter-associated urosepsis, Table 104-1 says "Culture to guide subsequent therapy" (p1673).
-
-</details>
-
-**4. What dosing frequency threshold is associated with reduced antibiotic adherence?**
-
-<details><summary>Answer</summary>
-
-Any regimen requiring more than twice-daily dosing (p1670).
-
-</details>
-
-**5. How much higher is early (30-day) sepsis mortality in adults over 65 compared with younger adults?**
-
-<details><summary>Answer</summary>
-
-50% higher (p1671).
 
 </details>
 

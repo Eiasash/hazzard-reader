@@ -51,23 +51,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 *Exam traps: the chapter gives two different vitamin D deficiency thresholds in the same section — AGS <30 ng/mL vs IOM <12 ng/mL (insufficiency 12–20) (p1539) — know which guideline a question is citing. Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
 
-## Drill
-
-**1. What is the most common cause of Cushing syndrome in older patients?**
-
-<details><summary>Answer</summary>
-
-Iatrogenic — supraphysiologic corticosteroid dosing (p1526, p1530).
-
-</details>
-
-**2. What is the most common cause of adrenal insufficiency in older patients?**
-
-<details><summary>Answer</summary>
-
-Rapid discontinuation of chronic glucocorticoid therapy (p1526, p1531).
-
-</details>
+## Recall
 
 **3. What is the sick-day glucocorticoid rule for a patient with known adrenal insufficiency?**
 
@@ -82,22 +66,6 @@ Triple the usual daily hydrocortisone dose (about 60 mg total) for 3 days with a
 <details><summary>Answer</summary>
 
 20–50 ng/mL; check a serum TSH to exclude primary hypothyroidism as the cause (p1525, p1528).
-
-</details>
-
-**5. At what size does a pituitary incidentaloma become a "macroincidentaloma" requiring a fuller hormone-deficiency workup?**
-
-<details><summary>Answer</summary>
-
-≥1 cm (p1528–1529).
-
-</details>
-
-**6. What CT finding on an adrenal incidentaloma excludes malignancy and pheochromocytoma?**
-
-<details><summary>Answer</summary>
-
-Low radiodensity, <10 Hounsfield units (p1532).
 
 </details>
 
@@ -117,43 +85,11 @@ Baseline total testosterone <275 ng/dL; testosterone dosed to a target of 500–
 
 </details>
 
-**9. At what hematocrit should testosterone therapy be reduced or stopped?**
-
-<details><summary>Answer</summary>
-
-Hematocrit >54% (p1535–1536).
-
-</details>
-
-**10. Is PSA/DRE monitoring recommended for a 74-year-old man starting testosterone therapy?**
-
-<details><summary>Answer</summary>
-
-No — PSA/DRE screening on testosterone is not recommended in men 70 years or older (or those with life expectancy <10 years) (p1536).
-
-</details>
-
-**11. What proportion of primary hyperparathyroidism cases are due to a single parathyroid adenoma?**
-
-<details><summary>Answer</summary>
-
-80% (p1536).
-
-</details>
-
 **12. Name two lab/imaging thresholds that would indicate parathyroidectomy in an older patient with primary hyperparathyroidism.**
 
 <details><summary>Answer</summary>
 
 Serum calcium >1 mg/dL above the upper limit of normal, and/or DXA T-score <−2.5 at any site (also creatinine clearance <60 mL/min or 24-hour urine calcium >400 mg/24h) (p1526 KCP, p1538–1539).
-
-</details>
-
-**13. What serum 25-hydroxyvitamin D level defines vitamin D sufficiency per the American Geriatrics Society (used for fall/fracture prevention in frail older adults)?**
-
-<details><summary>Answer</summary>
-
->30 ng/mL (p1526 KCP, p1539).
 
 </details>
 

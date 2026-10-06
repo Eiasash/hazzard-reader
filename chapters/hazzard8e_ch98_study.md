@@ -48,21 +48,13 @@ Study summary of Chapter 98 — Thyroid Diseases; the book and the full chapter 
 ### Book contradiction (exam trap)
 - The book's own **"Hypothyroidism"** section heading (p1551) is immediately followed by the sentence "Overt **hyper**thyroidism is defined as a high TSH with low free T4 concentrations" — a genuine misprint in the source text (verified against the page image, not a transcription error here). Read it as **hypothyroidism**; do not let a quick skim flip the diagnosis in your head.
 
-## Drill
+## Recall
 
 **1. By roughly what factor does T4 secretion exceed T3 secretion from the thyroid, and what fraction of each circulates free?**
 
 <details><summary>Answer</summary>
 
 T4 secretion is about 11× that of T3. Only 0.04% of T4 and 0.4% of T3 circulate free (biologically active); the rest is protein-bound (p1545).
-
-</details>
-
-**2. Does TSH rising with normal aging indicate occult thyroid failure?**
-
-<details><summary>Answer</summary>
-
-No — in euthyroid older people without thyroid disease, TSH gradually rises while free T4 stays normal; this is not occult failure (p1546).
 
 </details>
 
@@ -122,14 +114,6 @@ Fatigue (68%) and weakness (53%) — the only two of 24 signs studied that excee
 
 </details>
 
-**10. A patient on 112 μg levothyroxine daily has a rising TSH. Before assuming disease progression, what simple explanation should be checked?**
-
-<details><summary>Answer</summary>
-
-Adherence: missing just one dose per week drops the effective average daily dose to 96 μg, which can be enough to raise TSH (p1552).
-
-</details>
-
 **11. What proportion of older adults on thyroid hormone replacement have a low TSH from overreplacement, and what are the associated risks?**
 
 <details><summary>Answer</summary>
@@ -143,14 +127,6 @@ Up to 40%. Risks mirror endogenous hyperthyroidism, most notably atrial fibrilla
 <details><summary>Answer</summary>
 
 Treat if TSH is persistently ≥10.0 mU/mL; consider treatment if TSH is 7.0-9.9 mU/mL (p1553-1554). *[sic — the book's own Figure 98-4, p1554, gives thyrotropin in mU/L]*
-
-</details>
-
-**13. In managing myxedema coma, what is the critical sequencing error to avoid regarding hydrocortisone and thyroid hormone?**
-
-<details><summary>Answer</summary>
-
-Hydrocortisone must be given before or with thyroid hormone replacement — treating with thyroid hormone alone can precipitate adrenal crisis in a patient with impaired adrenal reserve (p1553).
 
 </details>
 

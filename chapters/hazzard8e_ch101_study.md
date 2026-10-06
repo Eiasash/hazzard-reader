@@ -67,16 +67,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - mRNA vaccines preferred over J&J; immunosuppressed patients get an extra dose ≥28 days after primary series (p1627–1628)
 - Rituximab: vaccinate **2–4 weeks before** next anticipated dose; most other agents held **1–2 weeks** post-vaccination if disease activity allows — but the Task Force reached **no consensus** on interrupting TNF/IL-6R/IL-1R/IL-17/IL-12,23/IL-23 inhibitors around vaccination (Table 101-11, p1628)
 
-## Drill
-
-**1. What total score on the 2010 ACR/EULAR RA classification criteria defines "definite RA"?**
-
-<details><summary>Answer</summary>
-
-A score greater than 6 (Table 101-1) (p1608).
-> Current practice (not the book): the original 2010 ACR/EULAR criteria require a score of ≥6/10 (a score of exactly 6 qualifies) — Aletaha et al., Arthritis Rheum 2010, Table 3.
-
-</details>
+## Recall
 
 **2. What are the sensitivity and specificity of anti-CCP antibodies for RA?**
 
@@ -107,22 +98,6 @@ Acute-onset oligoarticular disease (2–6 joints), involvement of large/proximal
 <details><summary>Answer</summary>
 
 Remitting seronegative symmetric synovitis with pitting edema — affects older men (2–3:1), RF/ANA negative, high ESR, and generally responds well to low-dose prednisone (p1610–1611).
-
-</details>
-
-**6. How useful is anti-CCP antibody testing for distinguishing LORA from polymyalgia rheumatica?**
-
-<details><summary>Answer</summary>
-
-In one small study, 65% of LORA patients were anti-CCP positive versus 0% of PMR patients or healthy older adults — a potentially useful discriminator (p1611).
-
-</details>
-
-**7. What RA-specific risk requires evaluation before intubating a patient with long-standing disease?**
-
-<details><summary>Answer</summary>
-
-Cervical spine disease and atlantoaxial joint instability (RA >10 years) — overextension of the neck during intubation may compromise the brainstem or spinal cord (p1612).
 
 </details>
 
@@ -165,14 +140,6 @@ FDA-approved in 2011 as the first lupus drug in its class (anti-BAFF); indicatio
 
 Schirmer test: less than 5 mm of filter paper wet after 5 minutes. Minor salivary gland biopsy: more than one focus (an aggregate of ≥50 lymphocytes) per 4 mm² of tissue (p1622).
 > Current practice (not the book): 2016 ACR/EULAR primary Sjögren criteria use Schirmer ≤5 mm/5 min and focus score ≥1 focus/4 mm² — Shiboski et al., Arthritis Rheumatol 2017.
-
-</details>
-
-**13. How much more likely are Sjögren syndrome patients to develop lymphoma compared to matched controls?**
-
-<details><summary>Answer</summary>
-
-About 44 times more likely (vs age-, sex- and race-matched controls); the risk may be higher if anti-Ro or anti-La positive (p1626).
 
 </details>
 
