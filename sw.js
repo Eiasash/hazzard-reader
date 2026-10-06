@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v124'; // Batch 9: routed source checks and option length cues.
+const CACHE_VERSION = 'v125'; // Batch 10: routed source checks and option length cues.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
