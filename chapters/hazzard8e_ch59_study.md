@@ -51,15 +51,7 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 - Behavioral symptoms: nonpharmacologic management first-line (see Ch. 60 for detail).
 - **Feeding tubes are not recommended** in advanced AD — they do not prolong survival or improve comfort, and do not reduce pressure sores, infection, or aspiration risk (p916).
 
-## Drill
-
-**1. What is the single most important, validated risk factor for Alzheimer disease?**
-
-<details><summary>Answer</summary>
-
-Age (p894).
-
-</details>
+## Recall
 
 **2. How does APOE ε4 allele dose affect AD risk?**
 
@@ -77,59 +69,11 @@ One ε4 copy increases risk ~4-fold; two copies increase risk ~12-fold (p895).
 
 </details>
 
-**4. What relative risk does midlife physical inactivity carry for later AD?**
-
-<details><summary>Answer</summary>
-
-RR 1.82 (95% CI 1.19–2.78) (p896).
-
-</details>
-
-**5. Roughly what fraction of AD cases worldwide might be attributable to potentially modifiable risk factors?**
-
-<details><summary>Answer</summary>
-
-About one-third might be attributable (p896).
-
-</details>
-
-**6. Which gene accounts for the majority of familial (early-onset) AD mutations?**
-
-<details><summary>Answer</summary>
-
-PSEN1 — about 78% of familial AD mutations (p897).
-
-</details>
-
-**7. What percentage of clinically diagnosed AD-dementia patients turn out to lack the neuropathologic hallmarks of AD (amyloid plaques + tau tangles) at autopsy?**
-
-<details><summary>Answer</summary>
-
-10–30% (p908).
-
-</details>
-
 **8. Name the three FDA-approved acetylcholinesterase inhibitors used for AD.**
 
 <details><summary>Answer</summary>
 
 Donepezil (Aricept), galantamine (Razadyne), rivastigmine (Exelon) (p911).
-
-</details>
-
-**9. What proportion of AD patients experience measurable cognitive improvement on an AChEI?**
-
-<details><summary>Answer</summary>
-
-18–48%; most others instead see a plateau/slowed decline rather than improvement (p911).
-
-</details>
-
-**10. For which severity of AD is memantine (Namenda) FDA-approved?**
-
-<details><summary>Answer</summary>
-
-Moderate-to-severe AD (p911).
 
 </details>
 
@@ -162,14 +106,6 @@ They do not prolong survival or increase comfort, and have not been shown to red
 <details><summary>Answer</summary>
 
 MCI is noted in up to 15–20% of older adults; roughly 12–15% progress to dementia each year (p907).
-
-</details>
-
-**15. What is the most common initial clinical presentation of Alzheimer disease?**
-
-<details><summary>Answer</summary>
-
-The amnestic presentation — slowly progressive memory loss for recent events, often first noticed by family rather than the patient (p900).
 
 </details>
 

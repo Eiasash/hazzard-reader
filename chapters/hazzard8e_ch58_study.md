@@ -60,7 +60,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 - Figure 58-2's flowchart ends "avoid benzodiazepines and other psychoactive drugs" and gives only starting doses; the body text on p889 adds that benzodiazepines remain the treatment of choice for seizure/withdrawal delirium and gives the 24-h antipsychotic maximums the figure omits (p887).
 - Risperidone dose: Figure 58-2 gives **0.25 mg**; the Antipsychotics text gives **0.25–0.5 mg** — both as printed (p889).
 
-## Drill
+## Recall
 
 **1. What acute disorder of attention and cognition affects up to half of hospitalized patients 65 and older, and what fraction of cases are preventable?**
 
@@ -86,14 +86,6 @@ Sensitivity 94–100%, specificity 90–95% (p880).
 
 </details>
 
-**4. What proportion of delirium cases go undetected by clinicians?**
-
-<details><summary>Answer</summary>
-
-Up to 70–85% (p880).
-
-</details>
-
 **5. What predisposing factor is present in up to two-thirds of delirium cases, and what relative risk does it confer?**
 
 <details><summary>Answer</summary>
@@ -110,22 +102,6 @@ Any three of: physical restraints, indwelling bladder catheter, malnutrition, ia
 
 </details>
 
-**7. How much does using two or more psychoactive medications raise delirium risk?**
-
-<details><summary>Answer</summary>
-
-Fivefold (p882).
-
-</details>
-
-**8. What acute-onset timeframe distinguishes delirium from dementia's insidious course?**
-
-<details><summary>Answer</summary>
-
-Delirium changes occur over hours to days; dementia presents insidiously over weeks to months (p883).
-
-</details>
-
 **9. Which form of delirium (hypoactive, hyperactive, or mixed) is the more common form in older patients, and what does the book say about its recognition and prognosis?**
 
 <details><summary>Answer</summary>
@@ -134,35 +110,11 @@ Hypoactive — it often goes unrecognized (reduced activity is often attributed 
 
 </details>
 
-**10. On the 4AT screening tool, what score suggests possible delirium?**
-
-<details><summary>Answer</summary>
-
-A score of 4 or more (out of 0–12) (p884).
-
-</details>
-
-**11. In what fraction of suspected-delirium cases are lumbar puncture, brain imaging, or EEG actually indicated?**
-
-<details><summary>Answer</summary>
-
-Probably fewer than 5–10%. LP: febrile delirious patient with suspected meningitis/encephalitis. Brain imaging: new focal neurologic signs, history/signs of head trauma, or no other identifiable cause (p885).
-
-</details>
-
 **12. What haloperidol starting dose is recommended for severe delirium agitation, and what total loading dose should most antipsychotic-naïve older patients need?**
 
 <details><summary>Answer</summary>
 
 Start 0.25 mg orally or parenterally, repeatable every 30 minutes after vital signs are rechecked; most should require a total loading dose of no more than 2.5 mg (p889).
-
-</details>
-
-**13. Which drug class remains the treatment of choice for delirium caused by seizures or alcohol/medication withdrawal, despite not being first-line for delirium generally?**
-
-<details><summary>Answer</summary>
-
-Benzodiazepines (p889).
 
 </details>
 

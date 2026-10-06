@@ -92,47 +92,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - Table 99-11 prints the DPP-4 row as "↑ Glucagon secretion", while the GLP-1 row directly below prints "↓" and the text says GLP-1 agonists **suppress** glucagon (p1580); the book does not reconcile this (p1577).
 - Table 99-16 is sourced to the 2013 (2nd ed.) Diabetes UK end-of-life recommendations, while the chapter's own text notes they were last updated **November 2021** (p1586).
 
-## Drill
-
-**1. What A1C level meets the diabetes criterion (Table 99-1)?**
-
-<details><summary>Answer</summary>
-
-A1C ≥6.5% — to be confirmed on a separate day (Table 99-1 footnote, p1560); unless clear hyperglycemic symptoms are present (p1561).
-
-</details>
-
-**2. What FPG value diagnoses diabetes?**
-
-<details><summary>Answer</summary>
-
-≥126 mg/dL (7 mmol/L) (p1560).
-
-</details>
-
-**3. What A1C range defines prediabetes?**
-
-<details><summary>Answer</summary>
-
-5.7%–6.4% (p1560).
-
-</details>
-
-**4. At what BMI threshold should an older adult be considered for annual diabetes/prediabetes screening?**
-
-<details><summary>Answer</summary>
-
-BMI ≥25 kg/m² (overweight/obesity), one of several Table 99-3 risk factors (p1561).
-
-</details>
-
-**5. Roughly what fraction of people who meet diabetes criteria are undiagnosed?**
-
-<details><summary>Answer</summary>
-
-About 20% (p1561).
-
-</details>
+## Recall
 
 **6. What are the approximate prevalences of diabetes and of prediabetes among US adults 65 and older?**
 
@@ -150,14 +110,6 @@ Usually eGFR <60 mL/min/1.73m² and/or albuminuria >30 mg/g creatinine (p1562).
 
 </details>
 
-**8. What is the approximate 5-year survival for patients who reach ESRD?**
-
-<details><summary>Answer</summary>
-
-Less than 40% (p1563).
-
-</details>
-
 **9. Which guideline provides the "Good/Intermediate/Poor health" framework for individualizing glycemic targets in older adults, and which US standards mirror it?**
 
 <details><summary>Answer</summary>
@@ -166,51 +118,11 @@ The 2019 Endocrine Society guideline (Table 99-6); a similar framework appears i
 
 </details>
 
-**10. What A1C target applies to a "Good Health" older patient who is NOT on insulin, a sulfonylurea, or a glinide?**
-
-<details><summary>Answer</summary>
-
-A1C <7.5% (p1571).
-
-</details>
-
-**11. What A1C target applies to a "Poor Health" older patient who IS on insulin or a sulfonylurea?**
-
-<details><summary>Answer</summary>
-
-A1C ≥8.0% and <8.5% (p1571).
-
-</details>
-
-**12. Below what eGFR is metformin contraindicated?**
-
-<details><summary>Answer</summary>
-
-eGFR <30 mL/min/1.73m² (p1576).
-
-</details>
-
 **13. Which sulfonylurea should be avoided in older adults, and why?**
 
 <details><summary>Answer</summary>
 
 Glyburide — long half-life raises hypoglycemia risk (p1579).
-
-</details>
-
-**14. What blood pressure target is recommended for most older adults with diabetes?**
-
-<details><summary>Answer</summary>
-
-<140/90 mmHg (p1572).
-
-</details>
-
-**15. What A1C range is associated with better observed survival among nursing-home residents with diabetes?**
-
-<details><summary>Answer</summary>
-
-Between 8% and 9% (p1585).
 
 </details>
 
