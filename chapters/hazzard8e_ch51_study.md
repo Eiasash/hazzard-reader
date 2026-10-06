@@ -68,21 +68,13 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - If 25(OH)D **≤50 nmol/L** → 2000 IU/day; if **≤30 nmol/L** → loading dose **50,000 IU**, then **3000–4000 IU/day** (p778).
 - Bisphosphonates are first-line (IV favors adherence); denosumab an equal alternative given SC route (p778).
 
-## Drill
+## Recall
 
 **1. What T-score defines osteoporosis per WHO criteria, and what additionally defines "severe" osteoporosis?**
 
 <details><summary>Answer</summary>
 
 T-score ≤ −2.5 defines osteoporosis; severe osteoporosis is a T-score ≤ −2.5 plus a fragility fracture (p760).
-
-</details>
-
-**2. How much does fracture risk change per 1-SD decrease in T-score?**
-
-<details><summary>Answer</summary>
-
-Approximately doubles (p759).
 
 </details>
 
@@ -134,27 +126,11 @@ Elemental calcium 1200–1500 mg/day; vitamin D at least 800 IU/day (as much as 
 
 </details>
 
-**9. Why should high-dose bolus vitamin D (e.g., 500,000 IU/year or 60,000 IU/month) be avoided in older adults?**
-
-<details><summary>Answer</summary>
-
-It has consistently been shown to increase the risk of falls (and a trend toward increased fractures) (p773).
-
-</details>
-
 **10. What are the approximate fracture-risk reductions with zoledronic acid 5 mg IV yearly, and what other major benefit did it show?**
 
 <details><summary>Answer</summary>
 
 Vertebral fracture −70%, nonvertebral −25%, hip −41%; it also reduced all-cause mortality (9.6% vs 13% with placebo) (p775–776).
-
-</details>
-
-**11. Why does denosumab's benefit not persist after stopping, unlike bisphosphonates?**
-
-<details><summary>Answer</summary>
-
-Denosumab is not incorporated into bone, so its effect diminishes when treatment is ceased: the antifracture effect declines to pretreatment levels 12 months after discontinuation, and fracture risk increases markedly in those with prior vertebral fracture — unlike bisphosphonates, whose effect persists after stopping (p776).
 
 </details>
 

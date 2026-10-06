@@ -53,21 +53,13 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 ### Institutionalized / dementia
 - Nocturnal wandering and confusion are a leading cause of institutionalization; CPAP can be used successfully in mild-moderate dementia, and treating SDB can improve cognitive function (p662–663).
 
-## Drill
+## Recall
 
 **1. What AHI value alone is diagnostic of SDB, and what value defines severe disease?**
 
 <details><summary>Answer</summary>
 
 AHI greater than 15 is diagnostic alone (or greater than 5 with significant symptoms/comorbidities); AHI greater than 30 is severe (p645).
-
-</details>
-
-**2. What proportion of patients with stable heart failure have some form of sleep-disordered breathing?**
-
-<details><summary>Answer</summary>
-
-Upwards of 50% (p646).
 
 </details>
 
@@ -79,14 +71,6 @@ Greater than 17 inches in men, greater than 16 inches in women (predictive value
 
 </details>
 
-**4. What is the typical CPAP pressure range?**
-
-<details><summary>Answer</summary>
-
-5 to 20 cm H2O (p649).
-
-</details>
-
 **5. Below what ejection fraction is adaptive servo-ventilation (ASV) generally not recommended for central sleep apnea, and why?**
 
 <details><summary>Answer</summary>
@@ -95,35 +79,11 @@ EF less than 45% — the SERVE-HF trial found increased mortality with ASV in th
 
 </details>
 
-**6. Roughly what proportion of older adults have restless legs syndrome (RLS)?**
-
-<details><summary>Answer</summary>
-
-Up to 8% (p651).
-
-</details>
-
-**7. At what serum ferritin level should a patient with RLS start iron supplementation?**
-
-<details><summary>Answer</summary>
-
-Ferritin less than 75 mcg/L (p652).
-
-</details>
-
 **8. What is "augmentation" in RLS pharmacotherapy, and how often does it occur per year on long-acting dopamine agonists?**
 
 <details><summary>Answer</summary>
 
 Worsening of RLS — earlier onset, increased intensity, and/or spread to arms/trunk; estimated at 2% to 15% per year, more likely with higher dose and longer duration (p652).
-
-</details>
-
-**9. How many periodic limb movements in sleep (PLMS) per hour are required to diagnose PLMD?**
-
-<details><summary>Answer</summary>
-
-At least 15 per hour of sleep, plus sleep disturbance not better explained by another disorder (p651).
 
 </details>
 
@@ -140,30 +100,6 @@ Up to 90%, over 10 to 15 years of follow-up (p654).
 <details><summary>Answer</summary>
 
 Melatonin — in a single-center retrospective study, associated with fewer injuries/falls and a better side-effect profile than clonazepam; avoiding benzodiazepines is generally preferable in older patients (p655).
-
-</details>
-
-**12. Which drug is FDA-approved specifically for non–24-hour sleep-wake rhythm disorder?**
-
-<details><summary>Answer</summary>
-
-Tasimelteon, an MT1/MT2 melatonin agonist (p657).
-
-</details>
-
-**13. How long must symptoms persist for insomnia to be classified as chronic rather than short-term?**
-
-<details><summary>Answer</summary>
-
-More than 3 months (short-term is fewer than 3 months) (p657).
-
-</details>
-
-**14. What is the recommended first-line treatment for insomnia in all adults, including older patients?**
-
-<details><summary>Answer</summary>
-
-Cognitive behavioral therapy for insomnia (CBT-I) (p659).
 
 </details>
 
