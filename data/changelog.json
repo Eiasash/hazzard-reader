@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v99",
+      "date": "2026-10-06",
+      "changes": [
+        "Unreadable saved data can now be restored from the latest local snapshot, offline."
+      ]
+    },
+    {
       "version": "v98",
       "date": "2026-10-06",
       "changes": [
