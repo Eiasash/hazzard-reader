@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v126'; // Batch 11: routed source checks and option length cues.
+const CACHE_VERSION = 'v127'; // Practice standout-answer opt-in.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
