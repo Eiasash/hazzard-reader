@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v107",
+      "date": "2026-10-06",
+      "changes": [
+        "Your \"looks wrong\" flags are now included in backups and cloud sync."
+      ]
+    },
+    {
       "version": "v106",
       "date": "2026-10-06",
       "changes": [
