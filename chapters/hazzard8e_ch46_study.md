@@ -86,7 +86,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - **Currency — declared gap.** The chapter states the NPIAP staging system "was updated in 2016"; later revisions to staging or treatment guidelines are not verified in this chapter (p686).
 - **As printed.** Table 46-1's column header reads "PREVENTION INTERVENTONS" (sic, typo in the original) (p683).
 
-## Drill
+## Recall
 
 **1. What are the two most common anatomic sites for a pressure injury?**
 
@@ -96,75 +96,11 @@ Sacrum and heels (p679).
 
 </details>
 
-**2. Approximately what percentage of pressure injuries occur in people older than 65?**
-
-<details><summary>Answer</summary>
-
-About 70% (p679).
-
-</details>
-
-**3. What is the overall mortality when a pressure injury is the identified source of bacteremia?**
-
-<details><summary>Answer</summary>
-
-48% (p680).
-
-</details>
-
-**4. What is the single most important risk factor for pressure injury development across all patient populations?**
-
-<details><summary>Answer</summary>
-
-Severely restricted mobility/immobility — a necessary condition for PI development (p682).
-
-</details>
-
-**5. What degree of tissue deformation consistently ruptures muscle cell membranes?**
-
-<details><summary>Answer</summary>
-
-Deformation exceeding 80% (p681).
-
-</details>
-
-**6. For how many days can inflammatory/edema changes exist in tissue before pressure damage becomes visible on the skin?**
-
-<details><summary>Answer</summary>
-
-2 to 7 days (the preclinical stage) (p681).
-
-</details>
-
-**7. What percentage of native tissue tensile strength does healed scar tissue retain?**
-
-<details><summary>Answer</summary>
-
-About 40% — so a prior full-thickness PI site is at higher risk for future PI (p682).
-
-</details>
-
 **8. In the RCT of 942 nursing home residents, did turning every 2, 3, or 4 hours change PI incidence significantly?**
 
 <details><summary>Answer</summary>
 
 No — 2.5% (q2h) vs 0.6% (q3h) vs 3.1% (q4h), not significantly different (p684).
-
-</details>
-
-**9. What number needed to treat (NNT) did prophylactic silicone foam dressings show for preventing pressure injury in critical care patients?**
-
-<details><summary>Answer</summary>
-
-NNT of 10 (p685).
-
-</details>
-
-**10. Despite no trial showing lower PI rates with nutritional supplementation, what relative-reduction figure does the chapter still cite for oral supplements in at-risk patients?**
-
-<details><summary>Answer</summary>
-
-25% relative reduction in PI incidence (modest evidence) (p685).
 
 </details>
 
@@ -189,14 +125,6 @@ Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon. Stage 4
 <details><summary>Answer</summary>
 
 They have no antiseptic properties, and PI wounds are colonized with bacteria — antiseptic cleansers (e.g., dilute Dakin's or povidone-iodine) are the options (p692). Exception: for clean wounds, less force and physiologic solutions such as normal saline can be used (p693), and antiseptics are avoided on clean and healing PI (p697).
-
-</details>
-
-**14. What agent inhibits the activity of collagenase during enzymatic debridement?**
-
-<details><summary>Answer</summary>
-
-Iodine (p696).
 
 </details>
 

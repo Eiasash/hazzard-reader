@@ -32587,7 +32587,7 @@ const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazz
 const chapterTextPromises=new Map();
 function loadChapterText(entry){if(!chapterTextPromises.has(entry.file))chapterTextPromises.set(entry.file,fetch('chapters/'+entry.file).then(r=>{if(!r.ok)throw new Error('Chapter unavailable');return r.text()}).catch(e=>{chapterTextPromises.delete(entry.file);throw e}));return chapterTextPromises.get(entry.file)}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function parseDrill(md){md=md.replace(/\r\n?/g,'\n');const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
+function parseDrill(md){md=md.replace(/\r\n?/g,'\n').replace(/^#{1,6}\s+Recall[^\n]*\n[\s\S]*?(?=^#{1,6}\s|$(?![\s\S]))/gm,'');const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
 if(['mock','bank','drugs'].includes(requestedChapter)){
   manifestArticle=document.createElement('article');manifestArticle.id='copy';manifestArticle.className='reading-copy';manifestArticle.dataset.chapterId=requestedChapter;
   manifestArticle.innerHTML='<h1>'+ (requestedChapter==='drugs'?'Drugs':requestedChapter==='bank'?'Question bank':'Mock builder')+'</h1>';
@@ -32676,7 +32676,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v99 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v100 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33506,7 +33506,7 @@ async function refreshLibraryMarks(){
     for(const row of $$('#chapterRows [data-chapter-row]')){
       const id=row.dataset.chapterRow,study=id==='law'?'laws':id+'s',p=reading[row.dataset.readingChapter],grades=Object.values(drills[study]?.grades||{}),right=grades.filter(g=>g===1).length;
       let label=row.querySelector('.library-reading-progress');if(!label){label=document.createElement('small');label.className='library-progress library-reading-progress';row.querySelector('.chapter-name').append(label)}
-      label.textContent=(p?.read?'Read ✓':Math.min(99,Math.floor((p?.ratio||0)*100))+'%')+' · '+(grades.length?'Drill '+right+'/'+(drillTotals?.[study]||'…'):'Drill —');
+      label.textContent=(p?.read?'Read ✓':Math.min(99,Math.floor((p?.ratio||0)*100))+'%')+(drillTotals?.[study]>0?' · '+(grades.length?'Drill '+right+'/'+drillTotals[study]:'Drill —'):'');
     }
   };render();
   try{
@@ -33707,6 +33707,8 @@ function initializePractice(){
     for(const answer of [...copy.querySelectorAll('details')]){
       const question=answer.previousElementSibling,number=question?.textContent.trim().match(/^(\d+)\.\s/);
       if(!number||question.tagName!=='P')continue;
+      let heading=question.previousElementSibling;while(heading&&!/^H[1-6]$/.test(heading.tagName))heading=heading.previousElementSibling;
+      if(heading?.textContent.trim()==='Recall')continue;
       const section=document.createElement('section');section.className='drill-q';section.dataset.q=cid+':'+number[1];section.dir='auto';
       question.before(section);section.append(question,answer);
       const grades=document.createElement('div');grades.className='mock-grade';grades.dataset.readerMetadata='grade';
