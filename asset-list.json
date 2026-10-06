@@ -1,5 +1,5 @@
 {
-  "version": "v110",
+  "version": "v111",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "96fb7c0270c719143913fe8e6d653da79d2d8fd5674682dfa462e0615e9760aa",
-      "bytes": 16849
+      "sha256": "5cff568a8e09d3801c5b1782132d79c030ee8b5395870e14f6e14b9ce3ebb99f",
+      "bytes": 17086
     },
     {
       "url": "./data/drug-index.json",
@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "c65e4cb58ee5429f7cbe9372e9a0a31224c9826061b0f73e948d13da62be61bf",
-      "bytes": 6845193
+      "sha256": "c2297175c9796a24ada1f1afd1d39a8ffe8c6112d02db9c40d716dbe99db777d",
+      "bytes": 6856327
     },
     {
       "url": "./data/mcq/collections.json",
@@ -6648,8 +6648,8 @@
     },
     {
       "url": "./data/mcq/law.json",
-      "sha256": "c503510c9bb9149f2496f4fdb167ac9b9ba3049a50e1984bd72b993d6c50dbdd",
-      "bytes": 612475
+      "sha256": "9987ac14e6d65a803c1a1c421a8bd3a40868fe46352b7ce08a3a6ea9550ed8f7",
+      "bytes": 617793
     },
     {
       "url": "./data/mcq/official-overrides.json",
@@ -6673,7 +6673,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "f67018601ac644d243d364fc2f80bf68cbe8f74257348288cb6754f6b4994abe",
+      "sha256": "794ad7717277a517155bd139a580eb26f97ff37be0b7c408b9e58774b19adb75",
       "bytes": 3324343
     },
     {
@@ -6738,7 +6738,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "9539cf87455232b343befd358650f4389aee70bf2be849f4e74bdfe857cb2f5c",
+      "sha256": "4448f0eb983b3d3cbb824d1b03bf6547284115ac121bd39dd2d78f6fde8977bf",
       "bytes": 8228
     },
     {
