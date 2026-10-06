@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v128",
+      "date": "2026-10-07",
+      "changes": [
+        "57 past-paper explanations were re-checked, counting an answer that follows from its source by definition, implication, a stated rule, an exception or elimination, not only word for word. Now explained from the source: 9. Note naming the missing step: 32. Source differs from the key (shown side by side): 13. Not covered by the sources in hand: 3."
+      ]
+    },
+    {
       "version": "v127",
       "date": "2026-10-07",
       "changes": [

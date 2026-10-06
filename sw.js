@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v127'; // Practice standout-answer opt-in.
+const CACHE_VERSION = 'v128'; // Official past-paper source inference.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
