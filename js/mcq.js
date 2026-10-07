@@ -614,8 +614,9 @@ window.HazzardMCQ = (() => {
         if(bankMode&&!reviewMode&&!redoMode&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
         const restored=!target&&restoreView(view);
         loaded=true;restoringView=restored;search.restore();
-        if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page"><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
-        else if(target){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice=items.some(q=>q.id===currentId(target)&&q.retired)?'This generated practice item has been retired. Saved answers are retained.':'That question is unavailable.';render();}}
+        if(target&&items.some(q=>q.id===currentId(target)&&q.retired)){notice='This generated practice item has been retired. Saved answers are retained.';render();}
+        else if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page"><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
+        else if(target){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice='That question is unavailable.';render();}}
         else{
           const rv=reviewMode?history.state?.reviewView:null;
           if(rv&&visible()[position]?.id===rv.id){lastAnswer=rv.lastAnswer||null;restoringView=true;}
