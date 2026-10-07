@@ -125,3 +125,6 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .mcq-answer-flag-row button{min-width:40px;min-height:40px}
 
 .mcq-mixed bdi.mcq-terminal-latin{max-width:calc(100% - 1em)}
+
+.mcq-sort{min-width:0;display:flex;align-items:flex-end;gap:6px}.mcq-sort label{flex:1}.mcq-sort button{min-height:44px;padding:6px;font:calc(12px * var(--fs,1))/1.5 var(--ui)}
+[data-multi="topic"] .mcq-multi-options{max-height:40vh;overflow-y:auto}
