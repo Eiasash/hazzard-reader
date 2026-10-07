@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v134",
+      "date": "2026-10-07",
+      "changes": [
+        "Practice settings: answer options of past-exam questions in the bank are now shuffled by default (switch in Practice settings; the exam simulation keeps the official order). The Question bank also opens in Shuffled order, years and topics mixed; Source order is still under Sort by."
+      ]
+    },
+    {
       "version": "v133-r1",
       "date": "2026-10-07",
       "changes": [
