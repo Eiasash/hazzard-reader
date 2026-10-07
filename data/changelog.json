@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v131",
+      "date": "2026-10-07",
+      "changes": [
+        "Harrison 22e: page-cited summaries of the ten chapters on the required list, each linked to the past-paper questions that cite it (24 questions); 11 more Harrison-cited questions are listed on the Harrison card as outside the required chapters. Restored the question mark in 2026 Q23."
+      ]
+    },
+    {
       "version": "v130",
       "date": "2026-10-07",
       "changes": [

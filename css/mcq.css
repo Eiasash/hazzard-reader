@@ -123,3 +123,5 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .mcq-answer-flag-row a{display:grid;gap:4px;color:var(--ink);text-decoration:none;padding:8px 0;overflow-wrap:anywhere}
 .mcq-answer-flag-row a:hover{text-decoration:underline}
 .mcq-answer-flag-row button{min-width:40px;min-height:40px}
+
+.mcq-mixed bdi.mcq-terminal-latin{max-width:calc(100% - 1em)}
