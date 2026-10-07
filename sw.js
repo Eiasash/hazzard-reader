@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v134'; // Past-exam option shuffle and mixed bank default.
+const CACHE_VERSION = 'v135'; // Cited-source cards and nine source-backed explanation decisions.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';

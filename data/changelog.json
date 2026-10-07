@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v135",
+      "date": "2026-10-07",
+      "changes": [
+        "New cards with page-cited summaries: acute hip fracture (NEJM, with its correspondence), the AGS Choosing Wisely list, and the Ministry of Health procedure on nursing hospitals and the health funds, each linked to the past-paper questions that cite it; 9 past-paper explanations re-checked against those sources."
+      ]
+    },
+    {
       "version": "v134",
       "date": "2026-10-07",
       "changes": [

@@ -48,7 +48,7 @@ window.HazzardLawCards = (() => {
         }
         let pastPaperHeading = false;
         for (const card of [...(articles ? data.articles.cards : data.cards)].sort((a,b) => (a.imaItem || a.articleItem || 100) - (b.imaItem || b.articleItem || 100))) {
-          if (articles && card.citedInPastPapers && !pastPaperHeading) {
+          if (card.citedInPastPapers && !pastPaperHeading) {
             const heading = document.createElement('h2'); heading.dir = 'ltr';
             heading.textContent = 'Also cited in past papers (not on P005-2026)';
             fragment.append(heading); pastPaperHeading = true;
