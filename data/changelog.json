@@ -2,7 +2,7 @@
   "schema": 1,
   "releases": [
     {
-      "version": "v133",
+      "version": "v133-r1",
       "date": "2026-10-07",
       "changes": [
         "Explanations now name answer options by their letters (א-ד) instead of numbers, in 102 questions."
