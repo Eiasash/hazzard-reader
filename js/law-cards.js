@@ -12,10 +12,10 @@ window.HazzardLawCards = (() => {
       const data = await read();
       if (host.dataset.bankId !== id || host.querySelector('.law-question-links')) return;
       const links = document.createElement('div'); links.className = 'exam-evidence law-question-links';
-      for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => (c.imaItem || c.articleItem) && c.questions.some(q => q.id === id))) {
+      for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => (c.imaItem || c.articleItem || c.citedInPastPapers || c.questions.some(q => q.id === id && q.showBasis)) && c.questions.some(q => q.id === id))) {
         const link = document.createElement('a'); link.dir = 'auto';
         link.href = '?chapter=laws&lawCard=' + encodeURIComponent(card.id) + '#law-card-' + encodeURIComponent(card.id);
-        link.textContent = 'IMA ' + (card.articleItem ? 'article ' + card.articleItem : card.imaItem) + ' · ' + card.title;
+        link.textContent = (card.articleItem ? 'IMA article ' + card.articleItem : card.imaItem ? 'IMA ' + card.imaItem : 'Cited source') + ' · ' + card.title;
         const question=card.questions.find(q=>q.id===id);
         if(question.note)link.textContent+=' · '+question.note;
         links.append(link);
@@ -46,9 +46,15 @@ window.HazzardLawCards = (() => {
           note.textContent = articles ? data.articles.note : data.requiredReading.document + ' · pp. 2–3. ' + data.requiredReading.note;
           fragment.append(note);
         }
+        let pastPaperHeading = false;
         for (const card of [...(articles ? data.articles.cards : data.cards)].sort((a,b) => (a.imaItem || a.articleItem || 100) - (b.imaItem || b.articleItem || 100))) {
+          if (articles && card.citedInPastPapers && !pastPaperHeading) {
+            const heading = document.createElement('h2'); heading.dir = 'ltr';
+            heading.textContent = 'Also cited in past papers (not on P005-2026)';
+            fragment.append(heading); pastPaperHeading = true;
+          }
           const numbered = card.imaItem || card.articleItem;
-          const collapsible=numbered || card.requiredBook;
+          const collapsible=numbered || card.requiredBook || card.citedInPastPapers;
           const section = document.createElement(collapsible ? 'details' : 'section'); section.className = 'law-card';
           section.id = 'law-card-' + card.id;
           if (collapsible) section.dir = card.direction || 'rtl';
@@ -58,7 +64,12 @@ window.HazzardLawCards = (() => {
           for (const text of card.bullets) {
             const line = document.createElement('li'); line.textContent = text; list.append(line);
           }
-          section.append(heading, list);
+          section.append(heading);
+          if (card.editionNotice) {
+            const notice = document.createElement('p'); notice.className = 'law-card-gap';
+            notice.dir = 'ltr'; notice.textContent = card.editionNotice; section.append(notice);
+          }
+          section.append(list);
           if (card.provenance) {
             const provenance = document.createElement('p'); provenance.className = 'law-card-source';
             provenance.dir = 'ltr'; provenance.textContent = card.provenance; section.append(provenance);
@@ -80,6 +91,14 @@ window.HazzardLawCards = (() => {
             if(question.note)link.textContent+=' · '+question.note;
             link.title = question.reference;
             links.append(link);
+            if (question.showBasis && question.basis) {
+              const basis = document.createElement('p'); basis.className = 'law-card-source';
+              basis.dir = 'ltr'; basis.textContent = 'Basis: ' + question.basis; links.append(basis);
+            }
+            if (question.editionComparison) {
+              const comparison = document.createElement('p'); comparison.className = 'law-card-source';
+              comparison.dir = 'ltr'; comparison.textContent = question.editionComparison; links.append(comparison);
+            }
           }
           if (card.questions.length) section.append(links);
           else if (!card.requiredBook) {

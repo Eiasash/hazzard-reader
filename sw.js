@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v129'; // Practice-question text fixes.
+const CACHE_VERSION = 'v130'; // Page-cited source cards and text fixes.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';

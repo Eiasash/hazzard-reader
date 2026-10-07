@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v130",
+      "date": "2026-10-07",
+      "changes": [
+        "New cards with page-cited summaries: AGS Beers 2023 (required article), stroke rehabilitation handbook, Lancet dementia commission, ADA diabetes in older adults, and advanced dementia (NEJM), each linked to the past-paper questions that cite it; where a question cites an older edition, the card says so, official answer first. 2 more questions linked to existing cards; 5 text fixes; 2 past-paper explanations re-checked."
+      ]
+    },
+    {
       "version": "v129",
       "date": "2026-10-07",
       "changes": [
