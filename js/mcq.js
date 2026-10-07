@@ -183,13 +183,22 @@ window.HazzardMCQ = (() => {
     box.innerHTML = marked.parse(escape(text));
     for (const node of box.querySelectorAll('a,img')) node.replaceWith(document.createTextNode(node.textContent || node.getAttribute('alt') || ''));
     // Markdown creates independent paragraphs, list items and table cells.
-    // Hebrew anywhere in a block sets its base direction, including drug-first
-    // options. The existing Latin/measurement isolation remains independent.
-    for (const block of box.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th')) block.dir = /[\u05d0-\u05ea]/.test(block.textContent) ? 'rtl' : 'ltr';
+    // Hebrew prose sets RTL, including drug-first options. A Hebrew answer
+    // label alone must not turn an otherwise English explanation into RTL.
+    const englishLabelBlocks = new WeakSet();
+    for (const block of box.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th')) {
+      const text = block.textContent;
+      const prose = text.replace(/\b(?:options?|answers?|choices?)(?:\s+(?:is|are|correct|incorrect))*\s*[:\-]?\s*\(?[אבגדה]['׳]?/giu, '');
+      block.dir = /[\u05d0-\u05ea]/.test(prose) ? 'rtl' : 'ltr';
+      if (block.dir === 'ltr' && /[\u05d0-\u05ea]/.test(text)) englishLabelBlocks.add(block);
+    }
     const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT), nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     for (const node of nodes) {
       const block = node.parentElement.closest('[dir]');
+      // Native LTR layout keeps English punctuation and Hebrew option labels
+      // together; isolating each English run would fragment these paragraphs.
+      if (englishLabelBlocks.has(block)) continue;
       // Keep only the leading Latin run visible to dir=auto. Later runs still
       // need isolation when an English-first block switches back to Hebrew.
       let keepLeading = false;
