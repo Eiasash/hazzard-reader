@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v132'; // Seeded bank shuffle and multiple topics.
+const CACHE_VERSION = 'v133'; // Answer option letters in explanations.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
