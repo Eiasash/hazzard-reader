@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v131'; // Harrison 22e required-chapter cards.
+const CACHE_VERSION = 'v132'; // Seeded bank shuffle and multiple topics.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';

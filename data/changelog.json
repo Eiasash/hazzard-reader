@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v132",
+      "date": "2026-10-07",
+      "changes": [
+        "Question bank: new Shuffled order (a random mix across topics and sittings, with Reshuffle), and Topic now accepts several topics at once."
+      ]
+    },
+    {
       "version": "v131",
       "date": "2026-10-07",
       "changes": [
