@@ -1979,6 +1979,49 @@
         }
       ],
       "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "cited-moh-044-hospital-hmo",
+      "title": "קשרי ביה״ח גריאטרי סיעודי עם קופות החולים — נוהל 0.4.4",
+      "direction": "rtl",
+      "provenance": "MoH-0.4.4-geriatric-hospital-HMO-relations.pdf; edition 3; header updated 01/08/2019. Both Hebrew pages read as rendered images. The supplied copy also cites 04/2022; the header date and that later reference are reported as printed.",
+      "bullets": [
+        "המטופל נשאר מבוטח בקופת החולים גם באשפוז ממושך; רופאי בית החולים ממלאים מולו ומול הקופה את תפקיד רופא המשפחה. אחריות מימון האשפוז נפרדת מאחריות הקופה לשירותים הרפואיים המפורטים בנוהל. [עמ׳ 1, סעיפים 1, 4.1–4.2]",
+        "הקופה אחראית לתרופות, לבדיקות מעבדה והדמיה ולייעוץ מומחים ושירותי מרפאה. מכאן התמיכה ברכיבי התרופה וביקור האורולוג בשאלה על מטופל במחלקה לתשושי נפש. [עמ׳ 1, סעיפים 3.2, 4.2.1–4.2.3]",
+        "אחריות הקופה לציוד רפואי מותנית בזכאות לפי סל הבריאות העדכני; מכשור שמיעה מצוין במפורש כדוגמה. שקיות שתן אינן מפורטות, ולכן הנוהל לבדו אינו מוכיח את זכאות המטופל לפריט זה. [עמ׳ 1, סעיף 4.2.5]",
+        "הקופה מכבדת מרשמים והפניות של רופאי המוסד. אין דרישה לאישור מוקדם של מוקד או רופא מחוז כאשר נהלי הקופה הרגילים אינם דורשים זאת מרופא הקופה הראשוני. [עמ׳ 1, סעיף 5.1]",
+        "לשירות המחייב אישור פונים לפי נהלי הקופה למרפאה המתאמת במחוז או לגורם החלופי שקבעה הקופה. במחלוקת אפשר לפנות לאגף לגריאטריה או לגריאטר המחוז, ורצוי בכתב. [עמ׳ 2, סעיפים 5.2–5.3]",
+        "הנהלת בית החולים מוודאת שהשירות הסוציאלי פועל באופן פעיל למיצוי זכויות המטופל המבוטח בקופה. החוזרים הנזכרים בסעיף האסמכתאות הם הפניות בלבד בכרטיס זה. [עמ׳ 2, סעיפים 6–7]"
+      ],
+      "sources": [
+        {
+          "document": "נוהל רוחב 0.4.4, משרד הבריאות — האגף לגריאטריה",
+          "locator": "מהדורה 3; עודכן 01/08/2019; עמ׳ 1–2."
+        },
+        {
+          "document": "Director of Medical Administration circular 25/2003; Director-General circular 04/2022",
+          "locator": "References only: procedure §§4.2, 5.4, 7. The supplied page labels 04/2022 as a Deputy Director-General circular for supervision of health funds and supplementary insurance. Neither circular was supplied or summarized."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-f5025ceee46f239e675bf3b4",
+          "sitting": "2022-Jun",
+          "number": 58,
+          "reference": "קשרי בית חולים גריאטרי סיעודי עם קופות החולים",
+          "basis": "The official reference row names this source. Section 4.2.5 explicitly names hearing equipment among covered medical equipment for which the health fund is responsible.",
+          "showBasis": true
+        },
+        {
+          "id": "mcq-4b44b39c5b0c8af6453401f9",
+          "sitting": "2023-Jun",
+          "number": 90,
+          "reference": "קשרי בית חולים גריאטרי סיעודי עם קופות החולים",
+          "basis": "The official reference row names this source. Sections 4.2.1 and 4.2.3 assign medicines and specialist consultations to the health fund. Section 4.2.5 makes equipment responsibility conditional on basket entitlement; urine bags are not named, leaving that premise unestablished.",
+          "showBasis": true
+        }
+      ],
+      "citedInPastPapers": true
     }
   ],
   "requiredReading": {
@@ -2558,6 +2601,114 @@
             "reference": "Advanced Dementia",
             "basis": "The official reference row names this source. Tests advanced-dementia complications, hospice criteria or treatment goals.",
             "showBasis": true
+          }
+        ],
+        "citedInPastPapers": true
+      },
+      {
+        "id": "cited-acute-hip-fracture-2017",
+        "title": "Management of Acute Hip Fracture: NEJM 2017, with 2018 correspondence",
+        "direction": "ltr",
+        "provenance": "Bhandari M, Swiontkowski M. NEJM 2017;377:2053–2062; correspondence, NEJM 2018;378:971–972. Read from the supplied PDFs; page-cited paraphrases. The review is primary; correspondence is second-tier.",
+        "bullets": [
+          "Garden I–II are nondisplaced or impacted femoral-neck patterns; the review selects internal fixation for nondisplaced fractures. A basicervical or vertically oriented line favors a sliding hip screw rather than multiple cancellous screws. [pp.2053–2054, 2057; Fig.3 p.2056]",
+          "For a displaced femoral-neck fragility fracture in an older adult, arthroplasty is generally preferred. The algorithm chooses total replacement for a healthy, cognitively intact independent walker and hemiarthroplasty when cognition or ambulation is limited. [pp.2056, 2059; Fig.3]",
+          "Total hip arthroplasty produced better hip-function ratings than hemiarthroplasty over 12–48 months, but more dislocations. The lower pooled reoperation risk was driven mainly by trials without concealed treatment allocation. [p.2059]",
+          "Stable intertrochanteric fractures can be fixed with a sliding hip screw; unstable patterns with a large posteromedial fragment or a reverse-oblique line favor an intramedullary nail. Subtrochanteric fractures usually receive an intramedullary nail. [pp.2056, 2059–2060; Fig.3]",
+          "The images in 2020 Q25 and Q57 match Figure 2B (displaced femoral neck) and Figure 2E (subtrochanteric) respectively. Applying the algorithm yields arthroplasty for Q25 and an intramedullary nail for Q57. [pp.2055–2056, Figs.2–3]",
+          "Guidelines summarized in the review recommend surgery within 48 hours of the event. Its observational meta-analysis associates surgery within 24 hours of admission with lower mortality, while warning that sicker patients are more likely to have delayed surgery. [p.2057]",
+          "Early mobilization and multidisciplinary geriatric care support recovery; perioperative care also includes thromboprophylaxis, antibiotic prophylaxis and osteoporosis assessment and treatment. [p.2060]",
+          "2022-Jun Q82 official key: surgery within 24 hours (IMA final key, Q82, p.3). Review: earlier surgery is associated with lower mortality, and prompt bisphosphonate treatment is encouraged to reduce subsequent fractures. Correspondence (Anagnostis et al.): the cited mortality benefit specifically concerns intravenous zoledronic acid given 2–12 weeks after fracture, compared with placebo; it is not a class-wide claim for every dose in the first month. [Review pp.2057, 2060; correspondence p.971]"
+        ],
+        "sources": [
+          {
+            "document": "NEJMcp1611090.pdf",
+            "locator": "Review, journal pp.2053–2062 (PDF page + 2052)."
+          },
+          {
+            "document": "NEJMc1800044.pdf",
+            "locator": "Hip-fracture correspondence only, journal pp.971–972. Anagnostis et al. informs the mortality distractor in 2022-Jun Q82; Amin et al. was read but supplies no deciding premise for these five questions."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-85ecd5f34b95bd4208559b25",
+            "sitting": "2020",
+            "number": 25,
+            "reference": "Management of Acute Hip Fracture",
+            "basis": "The official reference row names this source. The paper image matches Figure 2B; Figure 3 and pp.2057, 2059–2060 connect the displaced neck fracture, limited ambulation, arthroplasty, timing and early mobilization.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-75d3bab7b0cbdfbc7293b06a",
+            "sitting": "2020",
+            "number": 57,
+            "reference": "Management of Acute Hip Fracture",
+            "basis": "The official reference row names this source. The paper image matches Figure 2E; Figure 3 and p.2060 select an intramedullary nail for a subtrochanteric fracture.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-5b3939c33f45491551d8ea87",
+            "sitting": "2021-Dec",
+            "number": 58,
+            "reference": "Management of Acute Hip Fracture",
+            "basis": "The official reference row names this source. The comparison of total and hemiarthroplasty on p.2059 tests hip function and the dislocation tradeoff.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-03f2d251e63e4dd9a8c4925b",
+            "sitting": "2021-Dec",
+            "number": 60,
+            "reference": "Management of Acute Hip Fracture",
+            "basis": "The official reference row names this source. Garden I/II and the internal-fixation rule appear on pp.2053, 2057.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-5b0c5d8693a2a6b69ff477c9",
+            "sitting": "2022-Jun",
+            "number": 82,
+            "reference": "Management of Acute Hip Fracture",
+            "basis": "The official reference row names this source. The mortality comparison for surgery within 24 hours is on p.2057; Anagnostis et al., p.971, informs exclusion of the bisphosphonate mortality distractor.",
+            "showBasis": true
+          }
+        ],
+        "citedInPastPapers": true
+      },
+      {
+        "id": "cited-ags-choosing-wisely-2014",
+        "title": "AGS Choosing Wisely: Ten Things Physicians and Patients Should Question (2013–2014)",
+        "direction": "ltr",
+        "provenance": "AGS-Choosing-Wisely-Ten-Things-2014.pdf; items 1–5 released 21 February 2013, items 6–10 on 27 February 2014. This card summarizes the historical list cited by the papers, not a later revision.",
+        "bullets": [
+          "In advanced dementia, offer assisted oral feeding instead of percutaneous feeding tubes. Careful hand feeding is at least as good for death, aspiration pneumonia, functional status and comfort. [PDF p.1, item 1]",
+          "Tube feeding is associated with agitation, greater use of physical and chemical restraints, and worsening pressure ulcers. This is the association tested in 2020 Q42. [PDF p.1, item 1]",
+          "For anorexia or cachexia in older adults, the list favors social support, feeding assistance and discussion of goals over prescription appetite stimulants or high-calorie supplements. Weight gain with supplements does not establish improved quality of life, mood, function or survival. [PDF p.2, item 8]",
+          "Megestrol offers little appetite or weight benefit, without improved survival or quality of life, and increases thrombotic events, fluid retention and death. Evidence for mirtazapine as an appetite or weight treatment without depression is limited. [PDF p.2, item 8]",
+          "Review the drug regimen before prescribing: identify high-risk medicines, interactions and treatments continued beyond their indication. This provides the medication-review context for Q92; item 8 does not explicitly instruct stopping appetite-suppressing medicines. [PDF p.2, items 8–9]"
+        ],
+        "sources": [
+          {
+            "document": "AGS-Choosing-Wisely-Ten-Things-2014.pdf",
+            "locator": "PDF pp.1–2: recommendations; pp.3–4: methods and references."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-0763892c4fe5cc16609cece1",
+            "sitting": "2020",
+            "number": 42,
+            "reference": "Choosing Wisely",
+            "basis": "The official reference row names this source. Item 1 links tube feeding in advanced dementia with physical and chemical restraints.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-5f5bd52885b3e44f366df72b",
+            "sitting": "2020",
+            "number": 92,
+            "reference": "Choosing Wisely",
+            "basis": "The official reference row names this source. Item 8 rules out the three proposed appetite/supplement treatments; item 9 supports medication review. Stopping appetite-suppressing medicines is an inference, not a quotation from item 8.",
+            "showBasis": true,
+            "editionComparison": "Historical source: AGS 2014, item 8 discourages high-calorie supplements for this indication. Hazzard 8e p.428 describes possible benefit in selected malnourished patients and prefers supplements between meals. The official AGS-based answer remains first in the explanation; no later AGS edition is substituted."
           }
         ],
         "citedInPastPapers": true
