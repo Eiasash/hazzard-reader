@@ -56,7 +56,7 @@ window.HazzardMCQ = (() => {
   const validTopics=value=>/^(all|\d{1,3})$/.test(value)&&!Array.isArray(value)||Array.isArray(value)&&new Set(value.map(String)).size===value.length&&value.every(v=>/^[0-9]{1,3}$/.test(v));
   const topicChoicesOf=value=>choicesOf(value).map(String);
   const newSeed=previous=>{let seed;do{seed=crypto.getRandomValues(new Uint32Array(1))[0];}while(seed===previous);return seed;};
-  function validView(v){return record(v)&&v.version===1&&/^mcq-[a-f0-9]{24}$/.test(v.id)&&['all','past','practice','drill','law','articles'].includes(v.filter)&&validYears(v.year)&&validLevels(v.level)&&validTopics(v.topic)&&['source','topic','shuffled'].includes(v.sort)&&(v.seed===undefined||Number.isInteger(v.seed)&&v.seed>=0&&v.seed<=0xffffffff)&&typeof v.missedOnly==='boolean'&&typeof v.flagsView==='boolean'&&Number.isFinite(v.scroll)&&v.scroll>=0&&Number.isFinite(v.at)&&v.at>=0&&(v.missedIds==null||Array.isArray(v.missedIds)&&v.missedIds.every(id=>/^mcq-[a-f0-9]{24}$/.test(id)));}
+  function validView(v){return record(v)&&v.version===1&&/^mcq-[a-f0-9]{24}$/.test(v.id)&&['all','past','practice','drill','law','articles'].includes(v.filter)&&validYears(v.year)&&validLevels(v.level)&&validTopics(v.topic)&&['source','topic','shuffled'].includes(v.sort)&&(v.seed===undefined||Number.isInteger(v.seed)&&v.seed>=0&&v.seed<=0xffffffff)&&(v.sortChosen===undefined||typeof v.sortChosen==='boolean')&&typeof v.missedOnly==='boolean'&&typeof v.flagsView==='boolean'&&Number.isFinite(v.scroll)&&v.scroll>=0&&Number.isFinite(v.at)&&v.at>=0&&(v.missedIds==null||Array.isArray(v.missedIds)&&v.missedIds.every(id=>/^mcq-[a-f0-9]{24}$/.test(id)));}
   const mergeView=(a,b)=>a.at>=b.at?a:b;
   // Presentation only: every answer and accepted index stays in source coordinates.
   const P005_IDS=new Set(["mcq-445940e74ca4e81988f72948","mcq-cfcb08dc21c429cd1042b522","mcq-e3bc0e4c400793e7d44ff0c7","mcq-ef4fba8f2902602352e0d03a","mcq-2d2136158de144580f0bb96e","mcq-1bb58ede597bcaa0792a5057","mcq-fb203b324e8a2bd294d852d4","mcq-55281d9a845c3589d652473b","mcq-a41137559e41d3ccae4315c6","mcq-63b30df3a4d8c5a2eff5cde9","mcq-ef4e683f2133096fc7260d0c","mcq-128e49cd60a18dd603a134ce","mcq-25aee1b1318022a61b08a2b1","mcq-d6028ebbd88ff40f89a76314","mcq-93e64635664c322c2373bc71","mcq-5f7d0f91fb93252ece4cd37e","mcq-24929347c42da5c18dc20d1b","mcq-fd42d172bdbbbb55b8141a92","mcq-d6be202a752a1023532cb284","mcq-38230992ebe320c760d01c79","mcq-47b95e29816066a5b20b173d","mcq-e98711034845fd8462324fb7","mcq-0837a6515fdbd7f152a6ef73","mcq-2104f7bc0e98089cbf014728","mcq-1c41bd6a784295d55f4c2596","mcq-f30028539307c40ad42d8153","mcq-27c9522f7399889d7b6d97f2","mcq-22f162fd1a7df7479fe1bdb8","mcq-b4f4cd298cb9dc69bfec895a","mcq-4326a9fd491a4053b9910ae4","mcq-b06df8d06b254d4a88344a1c","mcq-5c169d916a8bf5757e5e1b31","mcq-1d7c2af18bedc9ae42315752","mcq-401fbc2cfe7b6b0384e9cb1d","mcq-bd3cafe99c31f9fec3a91125","mcq-a2cc06f4ec7abef33d3db8ff","mcq-5e86bb4c24a220acc42d4408","mcq-e7ac8258c9ea03300adec483","mcq-972e076c866a224901bfd4bd","mcq-07c52902550efd421aaa5182","mcq-b3d460a6362b7b9ac5c5ea9e","mcq-9bab953ea9f8a55a2b267262","mcq-592065279118ed6571a88b01","mcq-7c7f0ee2380167f2df4e2671","mcq-557672233ae9eb0d7b4fffe7","mcq-db40ee0abf34c7237ff61ea4","mcq-e320e2336fe1ba08a8874ccf","mcq-7678d0f0cb11329add5661f2","mcq-d6b4bb88d21cf2e2129180eb","mcq-b7b4437f160aeffe8eae6e91","mcq-755516e250bdebb7ab0dc8a0","mcq-23a61772b0cd1bc99b5f93d6","mcq-8935bc64881038952dbb8e30","mcq-62c2996ec9157c895f6f9d31","mcq-09535b884d302be802aece78","mcq-0775bc1f6dd8e5408581d977","mcq-96b896624f8bd5d0a8b42a01","mcq-a5775dc3f3b63d06765128e4","mcq-be03ba703e3a60cec057cf6b","mcq-56e863b7db74859b149e6b11","mcq-d3fa3a3a8945541ad8686762","mcq-97f8b83e00e75ce9ba219fcf","mcq-c8ac05492eb019648c556a92","mcq-c2c8a32c3fc69de1efe77d40","mcq-ae991feb0f18e623e8275d77","mcq-f40497dce170d4c065ef636a","mcq-eb4b7f5bcdaa52d76cfc4c36","mcq-f67a3eafe354eadb75dce541","mcq-0e573c2b91708358ad2fccf7"]);
@@ -65,7 +65,7 @@ window.HazzardMCQ = (() => {
   // Like Include generated practice, this opt-in lasts for the current page only.
   const STANDOUT_IDS=new Set(["mcq-014bc0a93fc69d315ebcbd66","mcq-032a2c18787b874cc9ffbb4a","mcq-044911d4e0837ea15be57ab6","mcq-0483a63db9279ee11472c648","mcq-07fe2e1a5ab3a4dfc9a75e19","mcq-0b52c61d654f02debc281edf","mcq-0b6c7e93277203f52ba30f50","mcq-0baab030e7e3a28421bdef82","mcq-0c89e4620e4b0ee397959201","mcq-0e015d5218bea2dce9d6f10e","mcq-10df7b76df38a9f088ca263b","mcq-114d84d5185ca57f4f24a638","mcq-127bf515fc9a35b99c39325d","mcq-12bd8ee2ecd178423b7bd568","mcq-13629dd86cb32118a04a6dad","mcq-139db027298c95019723f985","mcq-1af78560668dcce3a6adcb18","mcq-1beb6d0b3c8c582ec4890d73","mcq-1de979eb6f87a866165b9192","mcq-1f7a97c4c65a535d6b4ca620","mcq-1f92adb433d6d5cfc18e09d5","mcq-2125164bf4974cd8e7f0ac23","mcq-23473602d9d9c912b573e2cb","mcq-2430b0cf4ece4ecc88cf9ca8","mcq-24bedb4fc2743f9050842ceb","mcq-25681be46ac5407bac11f90b","mcq-291a7496d603552cc0659be7","mcq-297d8fa36e34babe9751635b","mcq-29b376657542560d39ffc253","mcq-2a4c7ca09dd04d146cd757bf","mcq-2daec6b183c150d047ebc1a0","mcq-2e36238dd4f16c28277ae84c","mcq-2ef31d2fbe6112c80bee5926","mcq-31cf84cf197872047d98f8d3","mcq-31d5726d187e61198ded3224","mcq-326dd550869c47d2370c147d","mcq-3398a54d81e08867dbc745b8","mcq-346566c9e95c30f0aaf4f1dc","mcq-396c97aad9c833c90dca5a84","mcq-4144f7fef9e166f1aa853a6b","mcq-4162329a24c5d4d93d83a17d","mcq-444c15e90f9f516f44875745","mcq-460e60d9dc77b2d5eab3ec24","mcq-479b867f28a240a0e95cbc5b","mcq-4a11d13f17c9ea44607c6c01","mcq-4b596b9b45143301d1dbc87c","mcq-4caa65474b9733a526dfd9b6","mcq-4ea2377922759e0c039b487a","mcq-506721f729c67997bb5b959b","mcq-553fe001ba88c16bd58aa995","mcq-5684ea1bfb71d3cca1c89328","mcq-568a570a893c8db62fea050b","mcq-5b13e8a36f37d7675386033a","mcq-5b321318cff0af6d45fb810f","mcq-5b3c5045c946b0fc76f2d3a4","mcq-5ca0fc3396c3cd00ab34b99b","mcq-61d765bd35176cb394ea1d4c","mcq-6334045bcaf8296d2a9bfc3f","mcq-6397e304176572de212cb7a4","mcq-63b5261b256797d5f7e138f9","mcq-660fc34f37f3fe1432f26a67","mcq-6a7579842d9fd2be047cd3ef","mcq-6a7a6572c9f100e565672523","mcq-6b9e4ede159317599df8678f","mcq-6efa24d560c4df1b871e045b","mcq-70b366b6090d5c1e6c3f2011","mcq-72a7b9df0d32babbf8fe01ba","mcq-7552c02517105e401cb55fca","mcq-75a210c0bb3af94cbc0b1761","mcq-770045052f12dae4345fcca7","mcq-77053831d3b420e052be4b21","mcq-77ab4a1b1336f63d7d5d7285","mcq-78798ae739e1f8d9e54c733c","mcq-7b61f10b0e09da43b7a59bc6","mcq-7c91e769b4cc7ec153925566","mcq-827b974b0fd4183a6fda5d95","mcq-82a1a43cfaad7704a7d66750","mcq-8316e2fc95e543f3f26c8898","mcq-8614eb8a75afb81b95916577","mcq-8632b57e622908538b588c2d","mcq-86a94c9168328a53c8066e7a","mcq-88db767a3d22600681cc3403","mcq-8a606f8f8be548ad4507e14e","mcq-8a96f6dc4fc2a4b4a03b9cba","mcq-8c8078a68b054f62ac6634c1","mcq-8e03aa83677e26959c3ac715","mcq-8e41c4277ae6bd46dd267da7","mcq-8f25fd8fa77ad9a6c5799dd6","mcq-9045174da3177fda13606848","mcq-90affc0029710751b06319f5","mcq-90eda1202ecfd4470c08a2f3","mcq-9434c4a2307c199ddf5c5db3","mcq-96eb6727b86c119ebda68c71","mcq-98df5d0ab5206ceb23dbbfd6","mcq-995b608c3801b9d4ef2baa04","mcq-9e0e3ccff1eef7dc1644adde","mcq-9e7eddcbdf67f83af6ca4bec","mcq-9ec89992a83ad21a3ae50420","mcq-9f3576cbe0819766129ac2e3","mcq-a51ab6842992792d49b949f4","mcq-a6cde1a8daf57ef900597884","mcq-a77f2ce6d61e523b411e1a86","mcq-a8407f68b88325c137fe00c1","mcq-a912eb506f691dd06c69c737","mcq-abde25eef5f0f4c31580890d","mcq-adcf54cee53dc1acabd9a0c9","mcq-ae7e83ec05dc600cb58b280f","mcq-b27616507048c7e73ac32658","mcq-b32a891064795b871ca183b4","mcq-b59f5d9b56e7c0cc13830a9d","mcq-b6dba79002ef943bf98178b8","mcq-b76c93838a260bf35155ca1f","mcq-b8e17eb6e6ae4a67e9c089bf","mcq-bd49b19d4774e71a74783922","mcq-bdd6a773f35884709151ce30","mcq-bf21e07acd5b7256b808b263","mcq-bfb7f1c0236f077a9065015d","mcq-c023cce698b39c14e66237ce","mcq-c2f57e7777522d9743e16102","mcq-c754381222bdc39bc104bb3f","mcq-c9592e50929dba1beb796110","mcq-ca427d31f12efd5c058070ea","mcq-cab17152e55e1a2ecdb3bdb6","mcq-cb0d50d3969668c66ebdbf99","mcq-d1e785ccbc79adf72719b4d3","mcq-d36a24c3b9e02d84571b3ca0","mcq-d3b0cdb450de242399ac74be","mcq-d490d53a72d5e5cc71cec638","mcq-d6bb383b1aa45112cfa50963","mcq-d7fe8e06fdf78a07366e903e","mcq-da0e88d39eb186aa37c50253","mcq-dc51c43934ea045a98434f71","mcq-dda4ca9c5b00d7a7d07cb6da","mcq-dfe37bb79dbb60008ac1ddf5","mcq-e0ce5bb1476d0756e84c5f83","mcq-e2894e41e944457a17c7db83","mcq-e3e50422b2b80726d2954e05","mcq-e4fc9a27c99fc92d7fe46ffe","mcq-e51257b673dba22bf1696e12","mcq-e6f8098d395ff99d1bd7f305","mcq-e90ba9f3a5ff4e26159342cb","mcq-e99c86220a4824ffde49858e","mcq-e9f50d9717ad6d26c4585dcc","mcq-edabde6a768fcad04a392998","mcq-eec4c1f014d24403a5b5520d","mcq-f1793b202accb3a87f8b4ffe","mcq-f7d35dd38a1848bdd00d204a","mcq-f841cf856a7aeaf4bfa51422","mcq-fed6f1d217902c34dafe6e04"]);
   const STANDOUT_CHAPTER_COUNTS={"42":1,"43":3,"44":1,"45":1,"46":3,"47":5,"51":3,"52":2,"55":3,"58":2,"59":3,"60":2,"61":1,"65":1,"68":4,"81":1,"87":1,"99":2,"law":26};
-  let includeStandout=false;
+  let includeStandout=false,shufflePastOptions=true;
   const standoutCount=chapter=>includeStandout?0:(STANDOUT_CHAPTER_COUNTS[chapter]||0);
   const standoutHidden=id=>!includeStandout&&STANDOUT_IDS.has(currentId(id));
   const standoutLabel='Include unverifiable practice with a standout answer';
@@ -74,6 +74,15 @@ window.HazzardMCQ = (() => {
     const settings=document.createElement('section');
     settings.innerHTML='<h2>Practice settings</h2><button type="button" class="mcq-missed-toggle" role="switch" id="includeStandout" aria-checked="false"><span class="mcq-switch-track" aria-hidden="true"></span>'+standoutLabel+'</button><p class="meta" id="standoutHiddenCount">149 questions hidden by this setting.</p>';
     practicePane.append(settings);
+    const shuffleSwitch=document.createElement('button');
+    shuffleSwitch.type='button';shuffleSwitch.className='mcq-missed-toggle';shuffleSwitch.id='shufflePastOptions';
+    shuffleSwitch.setAttribute('role','switch');shuffleSwitch.setAttribute('aria-checked','true');
+    shuffleSwitch.innerHTML='<span class="mcq-switch-track" aria-hidden="true"></span>Shuffle answer options in past-exam questions';
+    settings.append(shuffleSwitch);
+    shuffleSwitch.onclick=()=>{
+      shufflePastOptions=!shufflePastOptions;shuffleSwitch.setAttribute('aria-checked',String(shufflePastOptions));
+      dispatchEvent(new Event('hazzard-option-order-change'));
+    };
     settings.querySelector('button').onclick=()=>{
       includeStandout=!includeStandout;
       settings.querySelector('button').setAttribute('aria-checked',String(includeStandout));
@@ -86,9 +95,18 @@ window.HazzardMCQ = (() => {
   function linkedOptions(q){
     return q.o.some(o=>/(?:\b(?:all|none) of (?:the )?(?:above|these)|\bboth\s+[A-D]\s+(?:and|&)\s+[A-D]\b|כל (?:התשובות|האפשרויות|האמור לעיל|הנ["״']ל)|אף (?:אחת|אחד) (?:מהתשובות|מהאפשרויות|מהנ["״']ל)|(?:תשובות|אפשרויות)\s+[א-דA-D]['׳״"]?\s*(?:ו[- ]?|and|&)\s*[א-דA-D](?![\p{L}\p{N}]))/iu.test(o));
   }
-  function optionOrder(q){
+  // These explanations mix answer labels with section/clinical labels ambiguously.
+  const OFFICIAL_EXPLANATIONS=new Set([
+    'mcq-18490c5933b53a866c445587', // DICE: answer letters and mnemonic letters.
+    'mcq-dd8d86a52ab0a199b770a4f2', // סעיף used for an answer.
+    'mcq-5323c51583402673a5d61738', // סעיף used for an answer.
+    'mcq-8ceb825522dee040d6bc0a79', // סעיף used for both answers and statute.
+    'mcq-00447e6d3dddf948ba023322', // A source-label range may cease to be contiguous.
+    'mcq-2a3ea14e94c9dbd28fcf1c08' // שלב followed by an answer label.
+  ]);
+  function optionOrder(q,allowPast=true){
     const order=q.o.map((_,i)=>i);
-    if(q.sourceType!=='Hazzard practice'||linkedOptions(q))return order;
+    if((q.kind==='past'?(!allowPast||!shufflePastOptions||OFFICIAL_EXPLANATIONS.has(q.id)):q.sourceType!=='Hazzard practice')||linkedOptions(q))return order;
     let seed=2166136261;
     for(const c of q.id)seed=Math.imul(seed^c.charCodeAt(0),16777619)>>>0;
     for(let i=order.length-1;i>0;i--){
@@ -100,7 +118,7 @@ window.HazzardMCQ = (() => {
     return order;
   }
   function explanationText(q,order=optionOrder(q)){
-    if(q.sourceType!=='Hazzard practice')return q.explanation;
+    if(q.sourceType!=='Hazzard practice'&&q.kind!=='past'||order.every((n,i)=>n===i))return q.explanation;
     const map=c=>{const alphabet=/[A-D]/.test(c)?'ABCD':'אבגד';const i=order.indexOf(alphabet.indexOf(c));return i<0?c:alphabet[i];};
     // Locate all source labels first, then replace once so mappings cannot cascade.
     // Context keeps vitamin D, hepatitis B and mnemonic initials unchanged.
@@ -123,6 +141,24 @@ window.HazzardMCQ = (() => {
     }
     // A bare Hebrew pair is also an option reference (e.g. ב ו-ג אינן...).
     for(const m of text.matchAll(/(?<![\p{L}\p{N}])([אבגד])\s+ו-?([אבגד])(?=\s+(?:אינן|שגויות|נכונות))/gu)){positions.add(m.index);positions.add(m.index+m[0].length-1);}
+    if(q.kind==='past'){
+      mark(/((?:תשובה|תשובות)(?:\s+(?:נכונה|נכונות|שגויה|שגויות|הנכונה|הנכונות|השגויה|השגויות|הרשמית|היא|קלינית|מבחינה|מדעית))*\s*[:—–\-]?\s*\**)([A-Dאבגד])(?=['׳״"*\s.,:()—–-]|$)/gu);
+      mark(/((?:למה|לגבי|במקרה|ולכן|לפיכך|Official IMA key:)\s*\**)([A-Dאבגד])(?=['׳״"*\s.,:()—–-]|$)/gu);
+      mark(/((?<![\p{L}\p{N}]))([A-Dאבגד])(?=\**\s+(?:היא|הוא|נתמכת|מתאימה|פחות מתאימה|נכון|נכונה|שגוי|שגויה|אינה|אינו)(?![\p{L}]))/gu);
+      mark(/(^[ \t|#✅❌*\-]*)([A-Dאבגד])(?=[.)׳'](?:\s|\*)|\s+[—–-])/gmu);
+      mark(/(\*\*)([A-Dאבגד])(?=\s+[—–-])/gu);
+      mark(/(^[ \t]*\|\s*)([אבגד])(?=$)/gmu);
+      mark(/(,\s*)([אבגד])(?=\))/gu);
+      mark(/((?<![\p{L}\p{N}])[ובכלמ]{1,2})([אבגד])(?=['׳](?![\p{L}\p{N}]))/gu);
+      // Statute suffixes/subsections and clinical classifications are not answers.
+      const protectedSpans=[
+        /\d+[א-ת]*(?:\([\dא-ת]+\))+(?:\s+(?:או|ו[-־]?)\s*\([א-ת]+\))*/gu,
+        /\d+[א-ת]+/gu,
+        /[א-ת]["״][א-ת](?:["״][א-ת])?/gu,
+        /(?:שלב|סוג|דרגה|סעיף|פרק|מדרגה|\bgrade|\bclass|\bstage|\btype|\bvitamin|\bhepatitis|ויטמין)\s+\**\(?[A-Dאבגד](?![\p{L}\p{N}])/giu
+      ];
+      for(const regex of protectedSpans)for(const m of text.matchAll(regex))for(let i=m.index;i<m.index+m[0].length;i++)positions.delete(i);
+    }
     return text.split('').map((c,i)=>positions.has(i)?map(c):c).join('');
   }
   const PRACTICE_LABEL='Hazzard practice - US framing';
@@ -305,13 +341,13 @@ window.HazzardMCQ = (() => {
     }
     const selectTab=mode=>studyTabs?.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.studyView===mode)));
     const filtersObserver=new ResizeObserver(entries=>host.style.setProperty('--mcq-filter-height',(entries[0]?.target.getBoundingClientRect().height||0)+'px'));
-    let items=[],topics=[],filter=new URL(location.href).searchParams.get('source')==='past'?'past':'all',year=[],level=[],topic='all',sort='source',seed,position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
+    let items=[],topics=[],filter=new URL(location.href).searchParams.get('source')==='past'?'past':'all',year=[],level=[],topic='all',sort=bankMode?'shuffled':'source',seed=bankMode?newSeed():undefined,position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
     const answers=new Map(),pending=new Map(),retryAnswers=new Map(),dismissed=new Set();
     let personal={version:1,flags:{},lawTopics:{ids:[],at:0}},flagsView=bankMode&&location.hash==='#flags',notice='';
     let systemPrefs={version:1,selected:false,at:0,flags:{}},collections={israeliSystem:{enabled:false,ids:[]},topicFallbacks:{}},lawIds=new Set(),articleIds=new Set(),articleSelected=false,drillSelected=false,generatedSelected=false,lastAnswer=null;
     let missedIds=null,reviewBatch=null,hiddenTarget=null;
     let evidence={questions:{},study:{}},chapterTitles={},bookChapters=[],viewTimer,restoringView=false,restoredViewUnchanged=false;
-    function viewState(){const q=visible()[position]||items[0];return q?{version:1,id:currentId(q.id),filter,year,level,topic,sort,...(seed===undefined?{}:{seed}),missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:host.scrollTop,at:Date.now()}:null;}
+    function viewState(){const q=visible()[position]||items[0];return q?{version:1,id:currentId(q.id),filter,year,level,topic,sort,sortChosen:true,...(seed===undefined?{}:{seed}),missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:host.scrollTop,at:Date.now()}:null;}
     function saveView(){
       if(!loaded||!controller.active||restoringView||redoMode)return;
       if(reviewMode){try{history.replaceState({...history.state,reviewView:{id:visible()[position]?.id,scroll:host.scrollTop,lastAnswer}},'');}catch{storageError='Review position could not be saved.';}return;}
@@ -325,7 +361,7 @@ window.HazzardMCQ = (() => {
     function restoreView(view){
       if(reviewMode||redoMode)return false;
       if(!validView(view))return false;
-      ({filter,topic,sort,seed,missedOnly,flagsView}=view);restoredViewUnchanged=true;if(sort==='shuffled'&&seed===undefined)seed=0;year=choicesOf(view.year);level=choicesOf(view.level);
+      ({filter,topic,sort,seed,missedOnly,flagsView}=view);restoredViewUnchanged=true;if(bankMode&&view.sortChosen!==true&&sort==='source')sort='shuffled';if(sort==='shuffled'&&seed===undefined)seed=newSeed();year=choicesOf(view.year);level=choicesOf(view.level);
       lastAnswer=view.lastAnswer||null;
       if(Array.isArray(view.missedIds))missedIds=new Set(view.missedIds.map(currentId));
       if(Array.isArray(view.retryAnswers))for(const[id,a]of view.retryAnswers)retryAnswers.set(currentId(id),a);
@@ -340,7 +376,7 @@ window.HazzardMCQ = (() => {
       requestAnimationFrame(()=>{if(!restoringView)return;host.scrollTop=view.scroll;restoringView=false;saveView();});
     }
     function jump(id){
-      restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort='source';missedOnly=flagsView=false;missedIds=null;
+      restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort=bankMode?'shuffled':'source';if(sort==='shuffled'&&seed===undefined)seed=newSeed();missedOnly=flagsView=false;missedIds=null;
       id=currentId(id);if(standoutHidden(id)){hiddenTarget=id;notice='This question is hidden. To serve it, turn on '+standoutLabel+' in Practice settings.';}dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
       const url=new URL(location.href);url.searchParams.delete('q');url.hash='';history.replaceState({...history.state,mcqView:null},'',url);
       render();host.scrollTop=0;saveView();
@@ -526,13 +562,13 @@ window.HazzardMCQ = (() => {
       if(reviewMode&&(!q||position===list.length)){content.innerHTML='<h2>'+(!list.length?'Nothing due today':'Daily batch complete')+'</h2><p>Your progress is saved. Come back tomorrow.</p><a href="?chapter=bank">Open question bank</a>';return;}
       if(!q){content.innerHTML='<p>No questions match these filters.</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
-      const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'],order=optionOrder(q);content.dataset.bankId=q.id;
+      const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'],order=optionOrder(q,bankMode);content.dataset.bankId=q.id;
       content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(q.chapter?' · Reader chapter '+escape(q.chapter):'')+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?'<p class="mcq-source-note" role="note">Generated practice, about 1 in 10 known wrong; if it disagrees with the book, the book wins.</p>'+answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label?'<p class="mcq-source-note" role="note">'+escape(q.label)+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
         (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+'</div>'+unsureStatus(q,state,review))+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+order.map((i,display)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(state.checked&&accepted.includes(i)?'✓':state.checked&&state.selected===i?'✕':letters[display]||String(display+1))+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(q.o[i])+'</span></button>').join('')+'</div>'+
         '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+((reviewMode&&!state.checked||!mockMode&&!reviewMode&&position>=list.length-1)?'disabled':'')+'>Next</button></div>'+
-        (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p><section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(explanationText(q,order)):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+citationHTML(q);
+        (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p>'+(q.kind==='past'&&order.some((n,i)=>n!==i)?'<p class="mcq-source-note mcq-official-order" dir="ltr">Options shuffled. Official paper order: answer '+accepted.map(i=>letters[i]).join(', ')+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(explanationText(q,order)):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+citationHTML(q);
       if(state.checked&&(q.explanationReviewNote||q.explanationIncomplete)){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.lang='en';note.textContent=q.explanationReviewNote||'Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       if(q.kind==='past'&&!mockMode)HazzardLawCards.questionLinks(content,q.id);
@@ -687,6 +723,7 @@ window.HazzardMCQ = (() => {
       commit(q,state);if(reviewMode){reviewBatch.answers[q.id]=state;try{const r=HazzardReview.read();r.batch=reviewBatch;r.batchAt=Math.max(Date.now(),r.batchAt+1);HazzardReview.write(r);}catch{storageError='Review answer could not be saved.';}}lastAnswer={...undo,at:state.at};const y=host.scrollTop;render();host.scrollTop=y;
       host.querySelector('[data-mcq="next"]')?.focus({preventScroll:true});
     });
+    addEventListener('hazzard-option-order-change',()=>{if(loaded&&controller.active){const y=host.scrollTop;render();host.scrollTop=y;}});
     addEventListener('hazzard-standout-change',()=>{if(hiddenTarget&&!standoutHidden(hiddenTarget)&&loaded){const id=hiddenTarget;hiddenTarget=null;notice='';jump(id);}else{position=0;sync();}});
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
