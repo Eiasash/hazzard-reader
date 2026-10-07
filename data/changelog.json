@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v136",
+      "date": "2026-10-07",
+      "changes": [
+        "Two practice questions checked against Hazzard: the ciprofloxacin renal-dosing question keeps its answer with a new page-cited explanation (Tables 106-6 and 105-11), and the herpes zoster antiviral question is retired because Table 107-1 supports more than one of its options."
+      ]
+    },
+    {
       "version": "v135",
       "date": "2026-10-07",
       "changes": [
