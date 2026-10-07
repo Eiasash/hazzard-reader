@@ -2,7 +2,12 @@
 
 Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonical; the site is for access and digestion. Build and fix workflow: the `hazzard-chapter-build` skill. Full history of how it got here: `HISTORY.md`.
 
-## State (05 Oct 2026)
+## State (07 Oct 2026, v137)
+- All 108 Hazzard 8e chapters have Read + Study pages (v97). Build phase over at v129; v130-v137 were owner-requested: source cards (Beers 2023, stroke rehabilitation, Lancet dementia, ADA, advanced dementia, Harrison 22e required chapters, hip fracture, AGS Choosing Wisely, MoH 0.4.4), Shuffled default bank order and shuffled past-exam options (exam simulation and mocks keep the official order), option letters in explanations, two book-checked practice fixes (v136) and the retired direct-link notice (v137).
+- MCQ bank: 2,897 questions (800 official, 2,097 practice); 271 source-checked practice (192 verified, 79 corrected); 22 retired. Release log: `data/changelog.json`. Workflow: the `hazzard-chapter-build` skill (Codex jobs from chat-lane-signed prompts).
+- Next-fix list (small content fixes waiting for a release): `C:\Users\eiasa\tmp\next_fix_list.txt` (empty on 07 Oct 2026).
+
+## Earlier state (05 Oct 2026, v90 and before)
 - **v90:** Study tabs share the auto-hiding header; top-left Chapters shortcut, compact bottom badges/status dots, and Number/A-Z/Exam yield chapter sorting. Sort alone uses new hazzard-chapters-sort-v1; existing stores, content and update-on-tap unchanged.
 - **v89:** 72 full Read chapters: added 31, 16, 85, 34, 38, 62, 64, 70, 72, 79, 94 and 100 in priority order from the marked 8e copy. Three existing Study pages retained; nine formerly absent chapters get Read and citation-mapped Exam questions only. Chapters 34/62 carry the P005 exclusion note. Question mappings/counts, answers, redo history and storage unchanged.
 - **v88:** 60 full Read chapters: added 107, 74, 89, 8, 103, 78, 84, 30, 90, 11 and 69, in that priority order, from the marked 8e copy. Five existing Study pages retained; six formerly absent chapters have Read and citation-mapped Exam questions only. Question mappings/counts, answers, redo history and storage unchanged.
