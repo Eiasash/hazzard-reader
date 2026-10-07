@@ -1,5 +1,5 @@
 {
-  "version": "v129",
+  "version": "v130",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "d2f8306195b4ab1b62557338449b0756f2fa56388c88143f8b143995bd1e9d76",
-      "bytes": 23585
+      "sha256": "9b53ff5ba9c93565c356891c6fb27696511344ca2f140097e993ca081c0afed4",
+      "bytes": 24111
     },
     {
       "url": "./data/drug-index.json",
@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./data/law-cards.json",
-      "sha256": "edd3a3adcead71f32f2d52a7c7585b55c575e6994147556fa0c89d60e0e543cf",
-      "bytes": 126201
+      "sha256": "7fb3070dc34b3cf756fe00b026fafb7d8a73c7985bf344696eedb84d9b4bdc21",
+      "bytes": 157091
     },
     {
       "url": "./data/mcq/1.json",
@@ -6243,8 +6243,8 @@
     },
     {
       "url": "./data/mcq/59.json",
-      "sha256": "9b5a76de15e3a3e42d676a0ee9663bcb2e1f79582d694f1ea8cba2b75f3c4a8b",
-      "bytes": 288597
+      "sha256": "9b15e40b3b10866aa28b43815e89b0cbf0459ad1ddd70ee27891527803455d7c",
+      "bytes": 288595
     },
     {
       "url": "./data/mcq/6.json",
@@ -6318,8 +6318,8 @@
     },
     {
       "url": "./data/mcq/81.json",
-      "sha256": "b9367e57c3a084b29b0970b37b6fa8dc3c8d71910f5a0d9c6a0b2ed40c2fdb99",
-      "bytes": 72701
+      "sha256": "5392c491e960b495a9cfa3958be83323aebb725a0e68893d2fb56366c35faae7",
+      "bytes": 72702
     },
     {
       "url": "./data/mcq/82.json",
@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "a880de46a03a98bd895307b2581bfe9d3aa638d9b2598048c515537c3f243c68",
-      "bytes": 6915282
+      "sha256": "700df2d2ed9404770703a8dce3a054aa32bc0e643db50529cb8b582743426a87",
+      "bytes": 6915992
     },
     {
       "url": "./data/mcq/collections.json",
@@ -6673,7 +6673,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "076cf1f087fae99923425168ad7473d7938b1e78c5a4973c034939adc386bd17",
+      "sha256": "644fb5f2f529a9fb53be1bdd2cbd97214f4ccc41e5eac9e140749a6da194f824",
       "bytes": 3324523
     },
     {
@@ -6698,8 +6698,8 @@
     },
     {
       "url": "./js/law-cards.js",
-      "sha256": "3a83a3f7375b86e172d25584c4be32f12963e0dfa22445e90a52a8a9c424238b",
-      "bytes": 6819
+      "sha256": "532f0b0f3bdf91acaaf41b6857acf7ec37697b8b1d5ac97abcddcf8ccf0e9367",
+      "bytes": 8113
     },
     {
       "url": "./js/marked.min.js",
@@ -6738,7 +6738,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "86594ca400f19ab3b486ff80bf30fa6a9a91b09e32127906c983be9087425db7",
+      "sha256": "380c5daab845298db5043ca50ef6a0a6a43fc915ab5e5c659d020dc0a98ce51c",
       "bytes": 8228
     },
     {
