@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v135'; // Cited-source cards and nine source-backed explanation decisions.
+const CACHE_VERSION = 'v136'; // Two book-checked practice corrections; answer keys and stores unchanged.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
