@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v137",
+      "date": "2026-10-07",
+      "changes": [
+        "Retired questions opened from a direct link now always say they are retired."
+      ]
+    },
+    {
       "version": "v136",
       "date": "2026-10-07",
       "changes": [
