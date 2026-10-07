@@ -2,7 +2,7 @@
 .law-cards>summary{min-height:48px;box-sizing:border-box;padding:12px;font-weight:700;cursor:pointer}
 .law-cards-body{padding:0 12px 12px}
 .law-card{padding:14px 0;border-top:1px solid var(--rule)}
-.reading-copy .law-card h2{font:700 calc(15px * var(--fs,1))/1.4 var(--ui);margin:0 0 8px}
+.reading-copy .law-card h2,.reading-copy .law-card h3,.reading-copy .law-cards-body>h2{font:700 calc(15px * var(--fs,1))/1.4 var(--ui);margin:0 0 8px}
 .reading-copy .law-card ul{margin:0 0 10px;padding-inline-start:20px}
 .reading-copy .law-card li{margin:0 0 6px}
 .reading-copy .law-card-source{font:400 calc(11px * var(--fs,1))/1.5 var(--ui);margin:8px 0;unicode-bidi:plaintext}
