@@ -212,6 +212,8 @@ window.HazzardMCQ = (() => {
         }
         const bdi = document.createElement('bdi'); bdi.dir = 'ltr'; bdi.textContent = match[0];
         end = match.index + match[0].length;
+        // Reserve room for an RTL sentence-ending mark beside a wrapped Latin run.
+        if (block?.dir === 'rtl' && /^\?\s*$/.test(node.data.slice(end)) && node === block.lastChild) bdi.classList.add('mcq-terminal-latin');
         if (/[\u0590-\u05ff]/.test(node.data[match.index - 1] || '')) bdi.classList.add('mcq-gap-before');
         if (/[\u0590-\u05ff]/.test(node.data[end] || '')) bdi.classList.add('mcq-gap-after');
         fragment.append(bdi);

@@ -83,6 +83,10 @@ window.HazzardLawCards = (() => {
             line.textContent = 'Source: ' + source.document + ' — ' + source.locator;
             section.append(line);
           }
+          if (card.questionHeading) {
+            const heading = document.createElement('h3'); heading.dir = 'ltr';
+            heading.textContent = card.questionHeading; section.append(heading);
+          }
           const links = document.createElement('div'); links.className = 'exam-evidence';
           for (const question of card.questions) {
             const link = document.createElement('a');

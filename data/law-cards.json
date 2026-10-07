@@ -1299,7 +1299,686 @@
           "locator": "p. 1 (all candidates); pp. 3–5 (Basic additions)"
         }
       ],
+      "questions": [
+        {
+          "id": "mcq-e8b485ecde3675dc9786a734",
+          "sitting": "2020",
+          "number": 41,
+          "reference": "Harrison · pp. 629-630",
+          "basis": "Official reference row: Harrison · pp. 629-630 (מראה מקום גריאטריה 2020.pdf, Q41). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by anemia associated with chronic inflammation to 22e ch. 102, Iron Deficiency and Other Acquired Anemias Due to Decreased Erythrocyte Production; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2020 Subspecialty official answer key, 2020_key.pdf, p.2, Q41): option ד — מדובר באנמיה של מחלה כרונית. רק שיפור במצבו הזיהומי ישפר את האנמיה. 22e mapping: ch. 102, Iron Deficiency and Other Acquired Anemias Due to Decreased Erythrocyte Production (anemia associated with chronic inflammation). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-2f8468da786ef8f8b77c15fe",
+          "sitting": "2020",
+          "number": 90,
+          "reference": "Harrison · p. 860",
+          "basis": "Official reference row: Harrison · p. 860 (מראה מקום גריאטריה 2020.pdf, Q90). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by Clostridioides difficile treatment to 22e ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2020 Subspecialty official answer key, 2020_key.pdf, p.3, Q90): option ד — VANCOMYCIN פומי ו- METRONIDAZOLE ( FLAGYL )תוך ורידי. 22e mapping: ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis (Clostridioides difficile treatment). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-fb38ffdddc5df94e127de7f1",
+          "sitting": "2022-Jun",
+          "number": 17,
+          "reference": "Harrison · p. 3120 · Table 427-1",
+          "basis": "Official reference row: Harrison · p. 3120 · Table 427-1 (refs_2022_subspec.pdf, Q17). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by nonmotor Parkinson manifestations to 22e ch. 446, Parkinson’s Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.1, Q17): option א — Constipation. 22e mapping: ch. 446, Parkinson’s Disease (nonmotor Parkinson manifestations). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-229f23d07885f884509c55bc",
+          "sitting": "2022-Jun",
+          "number": 45,
+          "reference": "Harrison · pp. 3126-3127",
+          "basis": "Official reference row: Harrison · pp. 3126-3127 (refs_2022_subspec.pdf, Q45). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by levodopa fluctuations and dyskinesia to 22e ch. 446, Parkinson’s Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q45): option ד — מתן רציף שלLevodopa/carbidopa בעזרת משאבה ישירות למעי. 22e mapping: ch. 446, Parkinson’s Disease (levodopa fluctuations and dyskinesia). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-f61f4503b91e103bbd6d96d0",
+          "sitting": "2022-Jun",
+          "number": 48,
+          "reference": "Harrison · p. 404",
+          "basis": "Official reference row: Harrison · p. 404 (refs_2022_subspec.pdf, Q48). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by vertebral fracture risk to 22e ch. 423, Osteoporosis; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q48): option ג — שבר קודם בחוליה מהווה גורם סיכון לשבר נוסף. 22e mapping: ch. 423, Osteoporosis (vertebral fracture risk). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-a7798f290b31f35764fbf6d8",
+          "sitting": "2022-Jun",
+          "number": 73,
+          "reference": "Harrison · p. 967",
+          "basis": "Official reference row: Harrison · p. 967 (refs_2022_subspec.pdf, Q73). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by Clostridioides difficile treatment to 22e ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q73): option ב — מומלץ להתחיל טיפול ב- VANCOMYCIN פומי. 22e mapping: ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis (Clostridioides difficile treatment). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-3ed537d091c4ac13b638e895",
+          "sitting": "2022-Jun",
+          "number": 89,
+          "reference": "Harrison · pp. 3127-3128",
+          "basis": "Official reference row: Harrison · pp. 3127-3128 (refs_2022_subspec.pdf, Q89). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by dopamine agonist adverse effects to 22e ch. 446, Parkinson’s Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.3, Q89): option ב — Ropinirole )( רופינידול-דופמין אגוניסט. 22e mapping: ch. 446, Parkinson’s Disease (dopamine agonist adverse effects). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-c6b00b5d138b700320dd560b",
+          "sitting": "2022-Jun",
+          "number": 93,
+          "reference": "Harrison · pp. 1356-1357",
+          "basis": "Official reference row: Harrison · pp. 1356-1357 (refs_2022_subspec.pdf, Q93). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by zoster in an immunocompromised patient to 22e ch. 198, Varicella-Zoster Virus Infections; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.3, Q93): option ג — טיפול ב- Acyclovir תוך ורידי במינון 700 מ\"ג 3 פעמים ביום. 22e mapping: ch. 198, Varicella-Zoster Virus Infections (zoster in an immunocompromised patient). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-54dfe84830860d7279d79548",
+          "sitting": "2022-Jun",
+          "number": 99,
+          "reference": "Harrison · p. 2956",
+          "basis": "Official reference row: Harrison · p. 2956 (refs_2022_subspec.pdf, Q99). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by denosumab adverse effects to 22e ch. 423, Osteoporosis; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.3, Q99): option א — אוסטאונקרוזיס של הלסת. 22e mapping: ch. 423, Osteoporosis (denosumab adverse effects). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-39fad91c5b4510f05efdb072",
+          "sitting": "2024-May",
+          "number": 81,
+          "reference": "Harrison · ch. 372 · pp. 2867",
+          "basis": "Official reference row: Harrison · ch. 372 · pp. 2867 (refs_2024May_subspec.pdf, Q81). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by calcium oxalate arthropathy to 22e ch. 384, Gout and Other Crystal-Associated Arthropathies; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-May Subspecialty official answer key after appeals, 2024a_key-after-appeal.pdf, p.3, Q81): option ד — ויטמין C. 22e mapping: ch. 384, Gout and Other Crystal-Associated Arthropathies (calcium oxalate arthropathy). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        },
+        {
+          "id": "mcq-2035d983cbbeddc401646b0e",
+          "sitting": "2024-Sep",
+          "number": 69,
+          "reference": "Harrison · ch. 59 · pp. 402-403",
+          "basis": "Official reference row: Harrison · ch. 59 · pp. 402-403 (refs_2024Sep_subspec.pdf, Q69). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by bullous pemphigoid to 22e ch. 62, Immunologically Mediated Skin Diseases; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-Sep Subspecialty official answer key after appeals, 2024b_key-after-appeal.pdf, p.2, Q69): option ב — BULLOUS PEMPHIGOID. 22e mapping: ch. 62, Immunologically Mediated Skin Diseases (bullous pemphigoid). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+        }
+      ],
+      "questionHeading": "Cited in past papers but not on the P005-2026 list",
+      "provenance": "P005-2026 p. 1 was read as a rendered image. The ten all-candidates entries match the 22e contents by title and number. The questions below cite Harrison but map by topic to other 22e chapters; older page numbers were not carried across editions."
+    },
+    {
+      "id": "ima-harrison-22e-ch26",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 26 – Neurologic Causes of Weakness and Paralysis",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43. No official Harrison-reference row in the current bank maps to this chapter.",
+      "bullets": [
+        "Weakness means reduced muscular power; distinguish it from fatigability, pain-limited movement, sensory deafferentation, bradykinesia and apraxia. Paralysis denotes inability to contract; paresis denotes less severe weakness. [p.168]",
+        "Upper motor neuron weakness preferentially involves arm extensors/abductors and leg flexors. Lower motor neuron weakness follows the affected motor unit, root, plexus or nerve; myopathy generally affects proximal muscles. [p.168]",
+        "Spasticity is velocity-dependent and predominantly affects antigravity muscles; rigidity persists throughout movement and affects flexors and extensors. Paratonia varies irregularly and often accompanies frontal-lobe disease. [p.168]",
+        "Upper motor neuron lesions usually cause brisk reflexes and an extensor plantar response, but acute lesions can initially depress reflexes. Lower motor neuron lesions cause reduced reflexes and prominent atrophy; myopathic reflexes may remain intact until advanced disease. [p.168]",
+        "Early atrophy with fasciculations favors neuropathic weakness. Distal weakness favors neuropathy, whereas symmetric proximal weakness favors myopathy; electrophysiologic studies help when the clinical distinction is uncertain. [p.169]",
+        "Bilateral corticobulbar injury can produce pseudobulbar palsy with dysarthria, dysphagia, dysphonia, emotional lability, bilateral facial weakness and a brisk jaw jerk. [p.169]",
+        "Neuromuscular-junction weakness varies with preceding muscle activity: sustained or repeated contraction in myasthenia gravis loses force despite continuing effort. [p.169]",
+        "Hemiparesis with aphasia points to cortex; ipsilateral cranial-nerve signs with opposite-side limb weakness point to brainstem. A cervical lesion is suggested by facial sparing with a compatible crossed sensory pattern. [p.170]",
+        "Acute hemiparesis is usually investigated first with brain CT and laboratory studies. A normal CT or a subacute/chronic course leads to brain and/or cervical MRI guided by the associated findings. [p.170]",
+        "Acute paraparesis often originates in the spinal canal even when initially flaccid and areflexic. A sensory level or sphincter disturbance supports cord disease; spinal MRI is the usual initial investigation. [p.170]",
+        "For acute quadriparesis, impaired consciousness directs initial imaging to the brain; an alert patient with upper motor neuron signs generally needs cervical MRI. A possible motor-unit disorder calls for muscle enzymes, electrolytes, EMG and nerve-conduction studies. [pp.170, 171]",
+        "Monoparesis is usually a lower motor neuron problem. Distal symmetric weakness with numbness suggests peripheral neuropathy; symmetric proximal weakness warrants creatine kinase and electrophysiology, with fluctuating ocular/bulbar features suggesting a junction disorder. [p.171]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 26: Neurologic Causes of Weakness and Paralysis; cited printed pages 168, 169, 170, 171."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 26; number and title match the 22e contents."
+        }
+      ],
       "questions": []
+    },
+    {
+      "id": "ima-harrison-22e-ch382",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 382 – Approach to Articular and Musculoskeletal Disorders",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Articular disease tends to hurt with both active and passive movement and may produce diffuse pain, effusion or deformity. Periarticular disease more often causes focal tenderness and pain on active movement while passive motion is relatively spared. [p.2938]",
+        "In older adults, ESR rises with age and can be misleading; low-titer RF or ANA positivity may occur without rheumatic disease. Interpret tests in the clinical context rather than attributing all pain to age or arthritis. [p.2941]",
+        "Medication review matters: Table 382-2 lists ACE inhibitors among drug-induced lupus agents and proton pump inhibitors, ACE inhibitors and hydrochlorothiazide among drug-induced subacute lupus agents. These are separate categories in the 22e table. [p.2940]",
+        "First exclude urgent causes of acute focal pain, especially septic arthritis, crystal arthritis and fracture. Then classify the problem by articular location, inflammation, duration and extent; arthralgia alone does not establish arthritis. [p.2938]",
+        "Inflammatory stiffness can last hours and improves with activity. Noninflammatory stiffness is generally brief or intermittent, usually no more than 45 minutes, and symptoms worsen with activity; warmth, swelling and systemic features support inflammation. [p.2938]",
+        "The chapter classifies symptoms lasting no more than 6 weeks as acute and longer symptoms as chronic. Monoarticular means one joint, oligoarticular two or three, and polyarticular four or more; document whether involvement is symmetric, additive, intermittent or migratory. [p.2940]",
+        "Fibromyalgia is a pain-amplification disorder with sleep disturbance and widespread symptoms but few examination or laboratory abnormalities. Considering it early can prevent unnecessary investigation and treatment. [p.2941]",
+        "Examine involved and uninvolved joints and compare sides. Distinguish fluctuant effusion, compressible synovial thickening and hard bony enlargement; periarticular abnormalities often extend beyond normal joint margins. [p.2941]",
+        "Laboratory testing should address a clinical hypothesis, particularly in monoarthritis, inflammatory/traumatic disease, neurologic or systemic findings, or persistent symptoms. Broad serologic screening has poor predictive value; anti-CCP is more specific than RF for RA. [p.2945]",
+        "A normal serum urate during an acute attack does not exclude gout. Normal ESR or CRP also does not exclude active inflammatory disease; the chapter reports that nearly half of active SLE/RA patients can have normal results. [p.2945]",
+        "Aspirate acute monoarthritis and suspected infection or crystal arthritis. Assess appearance, viscosity, leukocyte count/differential and crystals; obtain Gram stain and culture when infection is suspected. Crystals and septic arthritis can coexist. [pp.2945, 2946]",
+        "Noninflammatory fluid usually has fewer than 2000 leukocytes/µL; inflammatory fluid typically has 2000–50,000/µL. Septic fluid often exceeds 50,000/µL with more than 75% neutrophils, but severe inflammatory arthritis can overlap these values. [p.2946]",
+        "Urate crystals are typically needle-shaped and negatively birefringent; calcium pyrophosphate crystals are usually short, rhomboid and positively birefringent. Routine synovial glucose, protein, LDH and autoantibody assays do not add diagnostic value. [p.2946]",
+        "Plain radiographs are useful after trauma, for monoarticular disease, suspected chronic infection or progressive disability, and as a chronic-disease baseline. Early arthritis may show little beyond soft-tissue changes; select advanced imaging for the specific diagnostic question. [p.2946]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 382: Approach to Articular and Musculoskeletal Disorders; cited printed pages 2938, 2940, 2941, 2945, 2946."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 382; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-34619531f641d311ae985624",
+          "sitting": "2024-May",
+          "number": 23,
+          "reference": "Harrison · ch. 370 · pp. 2844",
+          "basis": "Official reference row: Harrison · ch. 370 · pp. 2844 (refs_2024May_subspec.pdf, Q23). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by articular versus periarticular pain to 22e ch. 382, Approach to Articular and Musculoskeletal Disorders; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-May Subspecialty official answer key after appeals, 2024a_key-after-appeal.pdf, p.1, Q23): option ג — בבורסיטיס הכאב מופק בהנעה .אקטיבית אך לא פסיבית. 22e in hand: Periarticular disorders tend to hurt on active but not passive motion, whereas articular disease limits both. This is the distinction in the cited approach chapter, rather than a reason to remap the question solely by the word bursitis. [p.2938]"
+        },
+        {
+          "id": "mcq-0102d7d6e5b1cbbe232c2184",
+          "sitting": "2024-Sep",
+          "number": 96,
+          "reference": "Harrison · ch. 370 · no page supplied",
+          "basis": "Official reference row: Harrison · ch. 370 · no page supplied (refs_2024Sep_subspec.pdf, Q96). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by age-related limitations of rheumatologic tests to 22e ch. 382, Approach to Articular and Musculoskeletal Disorders; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-Sep Subspecialty official answer key after appeals, 2024b_key-after-appeal.pdf, p.3, Q96): option ב — . לאור גיל המטופלתESR היא בדיקה פחות ספציפית ועלולה להיות מוגברת גם ללא מחלת מפרקים פעילה. 22e in hand: ESR increases with age and low-titer RF/ANA can be positive without rheumatic disease in older adults. [p.2941]"
+        },
+        {
+          "id": "mcq-a71b7ae51235fd1aa80e4961",
+          "sitting": "2024-Sep",
+          "number": 97,
+          "reference": "Harrison · ch. 370 · p. 2847; Table 370-2 (Q97)",
+          "basis": "Official reference row: Harrison · ch. 370 · p. 2847; Table 370-2 (Q97) (refs_2024Sep_subspec.pdf, Q97). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by drug-induced lupus categories in the approach chapter to 22e ch. 382, Approach to Articular and Musculoskeletal Disorders; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-Sep Subspecialty official answer key after appeals, 2024b_key-after-appeal.pdf, p.3, Q97): option א — Omeprazole; option ד — Aspirin. 22e in hand: Table 382-2 lists ACE inhibitors under drug-induced lupus; it separately lists proton pump inhibitors, ACE inhibitors and HCTZ under drug-induced subacute lupus. Thus 22e does not support a blanket assertion that omeprazole cannot induce any lupus phenotype. The official accepted exceptions, including aspirin, remain unchanged; omission from a table is not proof of absence. [p.2940]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "ima-harrison-22e-ch387",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 387 – Periarticular Disorders of the Extremities",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Adhesive capsulitis causes shoulder pain with restriction of both active and passive movement, often with nocturnal pain. It can follow reduced mobility or surgery, is more common in women over 50, and is associated with diabetes, thyroid disease, myocardial infarction and chronic pulmonary disease. [p.2974]",
+        "Adhesive capsulitis is diagnosed clinically: radiographs, ultrasound and MRI lack diagnostic findings but help exclude alternatives. Most cases improve over 1–3 years, although motion may remain limited; physical therapy is central, with NSAIDs or local glucocorticoid injection for symptoms. [pp.2974, 2975]",
+        "Bursitis may follow overuse, trauma, systemic inflammatory disease or infection. In an acutely red or warm olecranon bursa, aspirate for Gram stain, culture and urate crystals to exclude infection or gout. [p.2973]",
+        "Bursitis management starts with removing aggravating factors and resting the involved region; topical/systemic NSAIDs or local glucocorticoid injection are options according to the individual situation. Ultrasound can assist selected diagnoses and injections. [p.2973]",
+        "Greater trochanteric pain syndrome reflects gluteus medius/minimus tendinopathy, with or without bursal inflammation. Lateral hip pain, posterior trochanteric tenderness, pain when lying on that side and pain with resisted abduction support the diagnosis. [p.2973]",
+        "Rotator-cuff tendinitis commonly involves supraspinatus impingement and may coexist with subacromial bursitis. Active overhead abduction is painful, particularly through 60–120 degrees; treatment includes physical therapy, NSAIDs and sometimes local injection. [pp.2973, 2974]",
+        "A rotator-cuff tear causes pain and weakness of abduction/external rotation; no single examination sign is diagnostic. Ultrasound or MRI establishes the diagnosis; acute moderate-to-severe tears with functional loss warrant surgical referral. [p.2974]",
+        "Calcific tendinitis is usually a shoulder hydroxyapatite-deposition disorder. It may cause abrupt severe pain or be asymptomatic; radiograph or ultrasound can establish the diagnosis. Most cases settle with conservative care; persistent pain may require image-guided lavage or other interventions. [p.2974]",
+        "Bicipital tendinitis causes anterior shoulder pain and tenderness in the bicipital groove; resisted supination with the elbow at 90 degrees may reproduce pain. Acute rupture in a healthy active patient merits prompt repair, while surgery is usually unnecessary for an older person with a minimally painful rupture. [p.2974]",
+        "De Quervain tenosynovitis involves abductor pollicis longus and extensor pollicis brevis at the radial styloid. Thumb use and the Finkelstein maneuver provoke pain; initial care is wrist splinting and NSAIDs, with local injection for severe or refractory symptoms. [p.2974]",
+        "Quinolones, glucocorticoids, aromatase inhibitors and statins are associated with tendinopathy, often affecting the Achilles tendon. Withdraw the suspected agent and avoid reintroduction where possible; ultrasound/MRI assess integrity, and rupture may need surgery. [p.2974]",
+        "Lateral epicondylitis is provoked by resisted wrist extension/supination; medial epicondylitis follows resisted flexion/pronation. Rest and conservative measures precede rehabilitation; repeated glucocorticoid injections for lateral epicondylitis should be avoided. [p.2975]",
+        "Plantar fasciitis typically causes marked pain with the first steps after rest and inferior heel tenderness. Heel spurs have little diagnostic value. Stretching, footwear/arch support and activity modification are initial measures; injection may increase rupture risk, and surgery is reserved for failed prolonged conservative care. [p.2975]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 387: Periarticular Disorders of the Extremities; cited printed pages 2973, 2974, 2975."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 387; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-10f0de0773043fed8129feaf",
+          "sitting": "2026-Jun",
+          "number": 21,
+          "reference": "Harrison · ch. 387 · pp. 2974-2975",
+          "basis": "Official reference row: Harrison · ch. 387 · pp. 2974-2975 (מראה מקום גריאטריה 2026.pdf, Q21). 22e chapter/page citation. Mapped by adhesive capsulitis after surgery to 22e ch. 387, Periarticular Disorders of the Extremities; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2026-Jun Subspecialty official answer key after appeals, 2026_key-after-appeal.pdf, p.1, Q21): option ג — Adhesive Capsulitis. 22e in hand: Frozen shoulder restricts active and passive movement, may follow reduced mobility after surgery, often disturbs sleep, and has no diagnostic radiograph, ultrasound or MRI finding. [pp.2974, 2975]"
+        }
+      ]
+    },
+    {
+      "id": "ima-harrison-22e-ch433",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 433 – Approach to the Patient with Neurologic Disease",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Crossed cranial-nerve and limb abnormalities support brainstem localization. Head-sparing weakness with a sensory level, back pain or sphincter dysfunction suggests cord disease; fatigable facial/proximal weakness with preserved sensation suggests the neuromuscular junction. [p.3382]",
+        "Abstract thinking is tested through similarities between objects or concepts and grouping items by shared attributes; memory and calculation are assessed separately. [p.3380]",
+        "Facial examination includes forehead movement, eye closure and lower-face movements. Whole-side facial weakness favors a lower motor neuron lesion; lower-face weakness with upper-face preservation favors an upper motor neuron lesion. [p.3380]",
+        "Trigeminal examination assesses facial sensation and, when indicated, the corneal reflex and jaw closure. Accessory-nerve testing uses shoulder shrug and head rotation; hypoglossal testing assesses tongue bulk, fasciculations, position and strength. [p.3380]",
+        "Strength grades distinguish no movement (0), a trace contraction without joint movement (1), movement with gravity removed (2), movement against gravity without resistance (3), resistance at varying levels (4) and full power (5). [p.3381]",
+        "Localize the problem anatomically before assigning an etiology: focal, multifocal or diffuse; central or peripheral; and isolated neurologic disease or part of a systemic illness. History and examination guide the choice of tests. [pp.3377, 3378]",
+        "Time course narrows the differential: abrupt symptoms suggest vascular disease, seizure or migraine; a seconds-long sensory march favors seizure, a slower march with headache favors migraine, and transient loss of function suggests TIA. [p.3378]",
+        "Corroborate events with witnesses and review medications, toxins, systemic illnesses and family history. The neurologic examination starts during conversation, including language, memory, insight and behavior. [pp.3378, 3379]",
+        "Use a consistent examination sequence covering mental status, cranial nerves, motor function, reflexes, sensation, coordination and gait. Record observed responses precisely and reproduce symptom-provoking activities when feasible. [p.3379]",
+        "Interpret cognitive testing in light of language, culture, education, sensory/motor limitations and comorbidity. Establishing a baseline permits later comparison; assess memory at immediate, delayed and long-term time scales. [pp.3379, 3380]",
+        "Pronator drift is a useful weakness screen, but pain or restricted shoulder motion can mimic it. Weakness distribution also localizes disease: pyramidal patterns suggest corticospinal injury, bilateral proximal weakness myopathy and bilateral distal weakness peripheral neuropathy. [p.3381]",
+        "Assess reflexes side to side using the smallest effective stimulus. Do not rely on Babinski alone: the chapter emphasizes tone, strength, stretch reflexes and coordination because the plantar response has limited diagnostic reliability. [p.3381]",
+        "Romberg primarily tests proprioception. Cortical sensory tests are interpretable only when primary sensation is intact; extinction with double simultaneous stimulation can indicate contralateral parietal dysfunction. [p.3382]",
+        "Interpret coordination in light of weakness and sensory loss. Observe ordinary gait, turning, heel/toe walking and tandem walking; gait integrates multiple systems and may expose deficits missed on individual tests. [p.3382]",
+        "An apparently normal neurologic examination does not exclude serious disease, including seizures, chronic meningitis or TIA. Integrate localization, onset/course, systemic data and targeted laboratory/imaging studies to reach the diagnosis. [p.3382]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 433: Approach to the Patient with Neurologic Disease; cited printed pages 3377, 3378, 3379, 3380, 3381, 3382."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 433; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-2424f3d42a504ae0a13087cd",
+          "sitting": "2024-May",
+          "number": 4,
+          "reference": "Harrison · ch. 422 · p. 3280; Figure 1 margin citation: Hazzard 8e · ch. 9 · p. 143",
+          "basis": "Official reference row: Harrison · ch. 422 · p. 3280; Figure 1 margin citation: Hazzard 8e · ch. 9 · p. 143 (refs_2024May_subspec.pdf, Q4). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by facial-nerve examination to 22e ch. 433, Approach to the Patient with Neurologic Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-May Subspecialty official answer key after appeals, 2024a_key-after-appeal.pdf, p.1, Q4): option ג — קושי בסגירת עין ימין. 22e in hand: Test eye closure as well as forehead and lower facial movements. Weakness of the entire side favors a lower motor neuron lesion. This supports the examination pattern; the supplied figure determines laterality. [p.3380]"
+        },
+        {
+          "id": "mcq-ff32d387904a513e1d0cd5a1",
+          "sitting": "2024-Sep",
+          "number": 37,
+          "reference": "Harrison · ch. 422 · p. 3280",
+          "basis": "Official reference row: Harrison · ch. 422 · p. 3280 (refs_2024Sep_subspec.pdf, Q37). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by cranial nerves and the corneal reflex to 22e ch. 433, Approach to the Patient with Neurologic Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-Sep Subspecialty official answer key after appeals, 2024b_key-after-appeal.pdf, p.1, Q37): option א — פגיעה בעצבV ( TRIGEMINAL) תגרום להפרעה ב - CORNEAL REFLEX. 22e in hand: The trigeminal examination includes the corneal reflex when indicated; accessory-nerve testing uses head rotation/shoulder shrug, while hypoglossal testing examines the tongue. [p.3380]"
+        },
+        {
+          "id": "mcq-57c893ac288cd17663b1e3c3",
+          "sitting": "2025-Jun",
+          "number": 62,
+          "reference": "Harrison · ch. 422 · p. 3280",
+          "basis": "Official reference row: Harrison · ch. 422 · p. 3280 (מראה מקום גריאטריה 2025.pdf, Q62). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by muscle-strength grading to 22e ch. 433, Approach to the Patient with Neurologic Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2025-Jun Subspecialty official answer key after appeals, 2025_key-after-appeal.pdf, p.2, Q62): option ג — רגל 0/5 יד 3/5. 22e in hand: No movement is grade 0; movement against gravity without resistance is grade 3. [p.3381]"
+        },
+        {
+          "id": "mcq-e138ae4c54e9bc2b8f8c2a9d",
+          "sitting": "2026-Jun",
+          "number": 19,
+          "reference": "Harrison · ch. 433 · p. 3382 · Table 433-1",
+          "basis": "Official reference row: Harrison · ch. 433 · p. 3382 · Table 433-1 (מראה מקום גריאטריה 2026.pdf, Q19). 22e chapter/page citation. Mapped by crossed cranial-nerve/limb signs and localization to 22e ch. 433, Approach to the Patient with Neurologic Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2026-Jun Subspecialty official answer key after appeals, 2026_key-after-appeal.pdf, p.1, Q19): option ב — גזע המוח. 22e in hand: Table 433-1 places crossed head/limb weakness and sensory abnormalities under brainstem localization. [p.3382]"
+        },
+        {
+          "id": "mcq-969d468917902ea022b54f50",
+          "sitting": "2026-Jun",
+          "number": 82,
+          "reference": "Harrison · ch. 433 · p. 3380",
+          "basis": "Official reference row: Harrison · ch. 433 · p. 3380 (מראה מקום גריאטריה 2026.pdf, Q82). 22e chapter/page citation. Mapped by abstract thought assessment to 22e ch. 433, Approach to the Patient with Neurologic Disease; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2026-Jun Subspecialty official answer key after appeals, 2026_key-after-appeal.pdf, p.3, Q82): option ב — קטגוריה משותפת. 22e in hand: Abstract thought is tested by similarities between objects/concepts or shared attributes. The passage supports this cognitive domain; it is not a reproduction of the MoCA form. [p.3380]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "ima-harrison-22e-ch436",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 436 – Seizures and Epilepsy",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Post-event muscle soreness, prolonged disorientation and sleepiness favor seizure over syncope. Brief convulsive movements can occur with syncope; incontinence or headache alone does not reliably distinguish the two. [pp.3418, 3419]",
+        "In older adults, cerebrovascular disease, tumors, trauma and degeneration are major seizure causes. Acute seizures in the first 24 hours occur more often after hemorrhagic than ischemic stroke; Alzheimer disease is included among degenerative causes. [pp.3413, 3414]",
+        "The chapter lists tramadol, quinolones and bupropion among potential seizure-provoking drugs. Pregabalin is included among antiseizure options in the status-epilepticus pathway; drug choice still depends on seizure type and the patient. [pp.3414, 3426]",
+        "A seizure is a transient event from abnormal excessive or synchronized neuronal activity; epilepsy denotes an enduring risk of recurrence. A reversible provoked seizure does not automatically establish epilepsy, while one seizure with a high recurrence risk may do so. [pp.3408, 3409]",
+        "The chapter uses the 2017 ILAE classification: focal, generalized or unknown onset. Describe focal events by awareness and motor/nonmotor onset, including evolution to bilateral tonic-clonic activity. [p.3409]",
+        "Focal events may cause sensory, autonomic, emotional or experiential symptoms without convulsions. A Jacksonian march reflects spread through motor cortex; postictal Todd paresis may last minutes to hours. [p.3409]",
+        "Obtain an EEG promptly for a possible seizure disorder. A normal scalp recording does not exclude focal epilepsy; prolonged video-EEG helps characterize uncertain events and distinguish epileptic from nonepileptic episodes. [pp.3417, 3419]",
+        "Initial studies look for glucose, electrolyte, calcium/magnesium, renal and hepatic abnormalities and relevant toxins. Almost all new-onset seizures warrant brain imaging; MRI is preferred for structural lesions, with emergency CT when urgent evaluation is needed and MRI is unavailable. [pp.3417, 3418]",
+        "Treat recurrent seizures without a reversible cause. After one unprovoked seizure, prior brain injury, epileptiform EEG, a significant imaging lesion or nocturnal onset increases recurrence risk and can support starting medication. [p.3420]",
+        "Aim for seizure freedom with minimal toxicity and preferably simple monotherapy. Select the drug by seizure type, comorbidity and interactions; in older adults pay particular attention to cognition, mood, balance and long-term adverse effects. [pp.3420, 3428]",
+        "Lamotrigine, valproate and levetiracetam are described in the text as initial options for generalized tonic-clonic seizures. Ethosuximide treats absence seizures but not focal or tonic-clonic seizures; some sodium-channel drugs can worsen particular generalized seizure types. [p.3424]",
+        "Titrate most drugs slowly and judge treatment by seizure control and adverse effects, not a laboratory range alone. Low albumin may increase the free fraction despite a low total concentration; free-level measurement can aid interpretation. [p.3424]",
+        "Persistent focal seizures despite medication warrant specialist assessment for resection, ablation or neuromodulation where appropriate. Presurgical evaluation must localize seizures and assess the functional risks of intervention. [p.3425]",
+        "Treat generalized convulsive activity lasting beyond 5 minutes as status epilepticus. Stabilize cardiorespiratory function, establish IV access, investigate reversible causes and give antiseizure treatment without delay; the chapter pathway starts with IV benzodiazepine then an IV antiseizure drug. [pp.3425, 3426]",
+        "If visible convulsions stop but coma persists, obtain EEG to exclude ongoing status. Nonconvulsive status also needs prompt treatment; neuromuscular paralysis does not prevent electrographic seizure-related brain injury. [p.3426]",
+        "Epilepsy care includes cognitive and psychiatric comorbidity. Depression is common and requires treatment; the chapter describes SSRIs as generally having little effect on seizures, while tricyclic antidepressants can lower seizure threshold. [p.3426]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 436: Seizures and Epilepsy; cited printed pages 3408, 3409, 3413, 3414, 3417, 3418, 3419, 3420, 3424, 3425, 3426, 3428."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 436; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-7e29198920ca95a14795d359",
+          "sitting": "2023-Jun",
+          "number": 28,
+          "reference": "Harrison · pp. 3315-3316",
+          "basis": "Official reference row: Harrison · pp. 3315-3316 (refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows), Q28). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by seizure versus syncope to 22e ch. 436, Seizures and Epilepsy; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2023-Jun Subspecialty official answer key after appeals, 2023_key-after-appeal.pdf, p.1, Q28): option ב — כאבי שרירים. 22e in hand: Muscle soreness and prolonged postictal confusion favor seizure; brief convulsive movements can also occur with syncope. [pp.3418, 3419]"
+        },
+        {
+          "id": "mcq-e093e5a4b6fbeef11a52e246",
+          "sitting": "2024-May",
+          "number": 18,
+          "reference": "Harrison · ch. 425 · pp. 3310 · Harrison 425-4",
+          "basis": "Official reference row: Harrison · ch. 425 · pp. 3310 · Harrison 425-4 (refs_2024May_subspec.pdf, Q18). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by seizure causes in older adults to 22e ch. 436, Seizures and Epilepsy; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-May Subspecialty official answer key after appeals, 2024a_key-after-appeal.pdf, p.1, Q18): option א — פרכוסים אקוטיים שכיחים יותר בזמן שבץ מוחי דימומי לעומת שבץ איסכמי; option ב — דמנציה על רקע אלצהיימר מהווה גורם סיכון להופעת פרכוסים. 22e in hand: Early poststroke seizures are more common after hemorrhagic than ischemic stroke, and Alzheimer disease is listed as a seizure cause. [pp.3413, 3414]"
+        },
+        {
+          "id": "mcq-65f5eec19ad7458727bceca1",
+          "sitting": "2025-Jun",
+          "number": 100,
+          "reference": "Harrison · ch. 425 · p. 3311 · Table 425-5",
+          "basis": "Official reference row: Harrison · ch. 425 · p. 3311 · Table 425-5 (מראה מקום גריאטריה 2025.pdf, Q100). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by medications and seizure risk to 22e ch. 436, Seizures and Epilepsy; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2025-Jun Subspecialty official answer key after appeals, 2025_key-after-appeal.pdf, p.3, Q100): option ד — PREGABALIN (LYRICA). 22e in hand: Table 436-5 lists tramadol, quinolones and bupropion among seizure-provoking agents. Figure 436-5 includes pregabalin among antiseizure options; this supports the distinction without claiming every clinical use is risk-free. [pp.3414, 3426]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "ima-harrison-22e-ch437",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 437 – Introduction to Cerebrovascular Diseases",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Basilar occlusion can cause bilateral long-tract, cranial-nerve and cerebellar deficits. Preserved consciousness with quadriplegia and cranial-nerve signs suggests a locked-in state from extensive pontine/lower-midbrain infarction; urgent vascular imaging can identify a treatable occlusion. [p.3434]",
+        "ACA territory injury can produce contralateral leg-predominant weakness and sensory loss. Bilateral involvement may combine abulia, pyramidal paraparesis or quadriparesis and urinary incontinence, particularly when both distal ACAs share one proximal supply. [pp.3430, 3431]",
+        "Stroke is an abrupt neurologic deficit attributable to a vascular cause. The chapter describes TIA as complete symptom resolution within 24 hours without imaging evidence of infarction; persistent symptoms or demonstrated infarction indicate stroke. [p.3428]",
+        "Focal ischemia commonly reflects local thrombosis or emboli from proximal arteries or the heart. Systemic hypoperfusion may cause syncope, watershed infarction or, when severe and prolonged, global hypoxic-ischemic injury. [p.3428]",
+        "Teach patients and bystanders to seek emergency help for sudden unilateral weakness/sensory loss, visual or speech change, gait disturbance or severe headache. Rapid assessment is essential because reperfusion treatments are time sensitive. [p.3428]",
+        "Stroke mimics include seizures, migraine, tumors and metabolic disturbance. Slowly spreading symptoms across vascular boundaries may suggest migraine; infection or metabolic stress can transiently reactivate a prior stroke deficit. [pp.3428, 3429]",
+        "Urgent brain imaging distinguishes ischemia from hemorrhage and directs treatment. After acute intervention, prevent complications, plan rehabilitation and choose secondary prevention according to the identified cause. [p.3429]",
+        "A complete MCA syndrome includes opposite-side weakness, sensory loss and homonymous field loss, often with gaze toward the lesion. Dominant-hemisphere injury adds aphasia; nondominant injury adds neglect or anosognosia. [p.3429]",
+        "Dominant superior-division MCA injury can cause nonfluent aphasia with face/arm weakness; inferior-division injury can cause fluent aphasia without weakness. A small internal-capsule perforator lesion may instead produce a pure motor or sensorimotor syndrome. [p.3429]",
+        "Transient monocular visual loss can warn of ipsilateral carotid disease. A carotid lesion found during evaluation must fit the symptomatic vascular territory; an unrelated stenosis should not end the search for the stroke cause. [pp.3429, 3431]",
+        "Basilar-trunk disease often causes bilateral signs whereas a branch occlusion more often causes unilateral findings. Recurrent brief diplopia, dysarthria, vertigo or sensory episodes can precede basilar thrombosis; a fluctuating course is an important warning. [pp.3434, 3435]",
+        "Cerebellar infarction may swell and cause hydrocephalus or brainstem compression, with rapidly evolving deterioration. Large superior-cerebellar territory strokes can require lifesaving neurosurgical intervention. [p.3435]",
+        "An early normal CT does not exclude ischemic stroke, and posterior-fossa infarcts can be obscured. CTA identifies cervical/intracranial occlusion; CT perfusion helps estimate infarcted tissue and threatened penumbra. [p.3435]",
+        "Diffusion MRI can identify acute ischemia within minutes to hours and is particularly useful in the posterior fossa. Carotid duplex, transcranial Doppler, CTA and MRA provide complementary vascular information and can reduce the need for invasive angiography. [p.3438]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 437: Introduction to Cerebrovascular Diseases; cited printed pages 3428, 3429, 3430, 3431, 3434, 3435, 3438."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 437; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-b46cd8ffb128f21dac24b95e",
+          "sitting": "2022-Jun",
+          "number": 44,
+          "reference": "Harrison · p. 3071",
+          "basis": "Official reference row: Harrison · p. 3071 (refs_2022_subspec.pdf, Q44). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by ACA territory and abulia to 22e ch. 437, Introduction to Cerebrovascular Diseases; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q44): option א — Anterior Cerebral Artery Infarction. 22e in hand: Bilateral ACA injury can produce abulia, pyramidal leg weakness and urinary incontinence. [pp.3430, 3431]"
+        },
+        {
+          "id": "mcq-798fb694dcfce37c2510c4c9",
+          "sitting": "2022-Jun",
+          "number": 54,
+          "reference": "Harrison 20e · p. 3076",
+          "basis": "Official reference row: Harrison 20e · p. 3076 (refs_2022_subspec.pdf, Q54). Harrison 20e explicitly named in the official row. Mapped by basilar occlusion and locked-in syndrome to 22e ch. 437, Introduction to Cerebrovascular Diseases; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q54): option ד — Basilar artery. 22e in hand: Basilar occlusion can produce preserved consciousness with quadriplegia and cranial-nerve signs. [p.3434]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "ima-harrison-22e-ch438",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 438 – Ischemic Stroke",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "After TIA, use the clinical syndrome and urgent investigation even when imaging is normal; a relevant infarct reclassifies the event as stroke. The chapter reports a 10–15% 3-month stroke risk, concentrated particularly in the first two days. [p.3448]",
+        "ABCD2 combines age, blood pressure, unilateral weakness or speech disturbance, symptom duration and treated diabetes. Table 438-5 assigns two points for weakness and one for speech disturbance alone; its displayed duration bands are greater than 60 minutes and 10–59 minutes. [p.3448]",
+        "The ischemic penumbra is dysfunctional tissue that remains potentially salvageable around the infarct core. Reperfusion aims to rescue it before prolonged low flow causes irreversible injury. [p.3439]",
+        "Immediately assess airway, breathing, circulation, glucose and last-known-well time, then obtain urgent noncontrast CT. Clinical findings alone cannot reliably separate ischemia from hemorrhage; use vascular imaging to identify a thrombectomy target. [p.3440]",
+        "Avoid routine acute blood-pressure reduction below treatment thresholds because collateral perfusion may depend on pressure. The chapter identifies 220/120 mmHg for reduction in otherwise uncomplicated ischemic stroke, and 185/110 mmHg when thrombolysis is planned. [p.3440]",
+        "For eligible patients, the chapter describes IV thrombolysis generally within 4.5 hours, with selected later cases guided by advanced imaging. Alteplase is 0.9 mg/kg, maximum 90 mg: 10% bolus and the rest over 60 minutes; tenecteplase is 0.25 mg/kg, maximum 25 mg, as a bolus. [p.3441]",
+        "Thrombolysis requires exclusion of hemorrhage and review of bleeding risks and blood pressure. Avoid other antithrombotic treatment for 24 hours after thrombolysis; acute deterioration warrants emergency reassessment and repeat imaging. [p.3441]",
+        "Mechanical thrombectomy improves outcomes for selected large-vessel occlusion, with the greatest benefit from rapid reperfusion. Favorable advanced imaging can identify candidates presenting 6–24 hours after onset; eligible IV thrombolysis remains useful before thrombectomy. [pp.3441, 3442]",
+        "Watch for malignant hemispheric edema and cerebellar infarct swelling. Neurologic deterioration from cerebellar edema or hydrocephalus requires urgent surgical assessment; decompression should precede severe brainstem compression. [p.3441]",
+        "Aspirin gives a small early benefit after ischemic stroke. Routine therapeutic heparin or other anticoagulation for acute atherothrombotic stroke is not supported and increases hemorrhage risk; this differs from treating cerebral venous thrombosis. [pp.3442, 3443]",
+        "Stroke-unit care followed by rehabilitation improves neurologic outcomes and reduces mortality. Prevent immobility complications, including venous thrombosis and infection, using coordinated specialist stroke care. [pp.3440, 3443]",
+        "Determine mechanism for secondary prevention: cardiac or artery-to-artery embolism, local small-vessel thrombosis and flow-limiting large-artery disease require different strategies. Evaluate the heart and relevant extracranial/intracranial arteries. [pp.3443, 3450, 3451]",
+        "After TIA or minor ischemic stroke, short-term aspirin plus clopidogrel for 21 days reduces early recurrence before switching to monotherapy. Prolonged aspirin–clopidogrel use generally adds bleeding without prevention benefit; ticagrelor avoids clopidogrel activation variability. [pp.3448, 3449]",
+        "For nonvalvular AF, anticoagulation prevents embolic stroke; the chapter reviews DOACs as alternatives with advantages over vitamin K antagonists. If an otherwise cryptogenic embolic stroke remains unexplained, at least 30 days of ambulatory monitoring can reveal intermittent AF. [p.3450]",
+        "Treat modifiable vascular risks, especially hypertension, smoking, diabetes and dyslipidemia. The general prevention section gives a blood-pressure target below 130/80 mmHg; distinguish long-term prevention from permissive pressure during the acute ischemic phase. [pp.3440, 3448]",
+        "Carotid endarterectomy benefits appropriately selected patients with recent ipsilateral symptoms and high-grade stenosis, most strongly at 70% or greater. Benefit is greatest within two weeks; selection must account for comorbidity and a perioperative stroke/death risk no greater than 6%. [p.3451]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 438: Ischemic Stroke; cited printed pages 3439, 3440, 3441, 3442, 3443, 3448, 3449, 3450, 3451."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 438; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-c659381a9b8442881efcb5a1",
+          "sitting": "2022-Jun",
+          "number": 91,
+          "reference": "Harrison · p. 3087 · Table 420.5",
+          "basis": "Official reference row: Harrison · p. 3087 · Table 420.5 (refs_2022_subspec.pdf, Q91). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by ABCD2 risk after TIA to 22e ch. 438, Ischemic Stroke; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.3, Q91): option ב — בן 62 , ברקע מחלת ריאות חסימתית, סוכרת ולחץ דם, לחצי דם 148/90 , שבמהלך האירוע הייתה לו חולשה קלה בצד ימין שחלפה לאחר שעה; option ד — בן 90 , ברקע יתר לחץ דם, לחצי דם 130/70 , שבמהלך האירוע הייתה לו חולשה קלה מצד שמאל שחפלה אחרי שעתיים. 22e in hand: ABCD2 weights age, blood pressure, weakness or speech disturbance, duration and diabetes. Table 438-5 prints the two-point duration band as >60 minutes, leaving exactly 60 minutes unstated; the two official accepted answers are retained without re-scoring. [p.3448]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "ima-harrison-22e-ch439",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 439 – Intracerebral Hemorrhage",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Pontine hemorrhage can cause coma and quadriplegia within minutes, with very small pupils that still react to light and impaired horizontal reflex eye movements. Small pontine bleeds can recover substantially; large bleeds may be fatal or leave a locked-in state. [p.3454]",
+        "Noncontrast head CT is generally the preferred first examination for acute intracranial hemorrhage. Location guides the differential; major primary causes include hypertension, cerebral amyloid angiopathy, coagulopathy and sympathomimetic drugs. [pp.3453, 3454]",
+        "Hypertensive hemorrhage usually affects penetrating-vessel territories: putamen, thalamus, cerebellum and pons. Hematoma expansion can occur even without coagulopathy, while anticoagulant-related bleeding may evolve for 24–48 hours. [p.3454]",
+        "Putaminal hemorrhage commonly causes contralateral hemiparesis through internal-capsule involvement. Thalamic hemorrhage often adds a prominent sensory deficit; lobar findings depend on the affected cortex. [p.3454]",
+        "Cerebellar hemorrhage may present with occipital headache, vomiting and gait ataxia, then deteriorate through hydrocephalus or brainstem compression. Urgent neurosurgical evaluation is essential with reduced consciousness or obstructive hydrocephalus; drainage alone is generally insufficient. [pp.3454, 3456]",
+        "Cerebral amyloid angiopathy is an important cause of recurrent lobar hemorrhage in older adults. Lobar microbleeds on susceptibility-sensitive MRI support suspicion; high-risk CAA generally argues against oral anticoagulation. [pp.3454, 3456]",
+        "Protect the airway and rapidly reverse coagulopathy. For selected spontaneous ICH patients initially at systolic pressure 150–220 mmHg, the chapter cites a target of 130–150 mmHg; benefit and safety are less certain with extreme pressure or deep coma/elevated ICP. [p.3453]",
+        "Check platelet count and coagulation studies. CTA, MRA or catheter angiography can investigate an atypical location or unclear cause; contrast extravasation within the hematoma predicts expansion. Lumbar puncture is usually unnecessary and risks herniation. [p.3455]",
+        "Reverse vitamin K antagonists with PCC plus vitamin K; FFP is an alternative when PCC is unavailable. The chapter describes idarucizumab for dabigatran and andexanet alfa for apixaban/rivaroxaban, with PCC an alternative for factor Xa inhibitor reversal. [pp.3455, 3456]",
+        "Platelet transfusion is indicated for ICH with a platelet count below 50,000/µL. In patients taking antiplatelet drugs without thrombocytopenia, the cited trial found no benefit and possible harm from routine platelet transfusion. [p.3456]",
+        "The ICH score incorporates age, hematoma volume, intraventricular blood, infratentorial origin and Glasgow Coma Scale. It stratifies risk but should not be used alone to predict an individual outcome or withhold early aggressive care. [p.3455]",
+        "Routine open evacuation of supratentorial hematomas has not shown overall benefit. The chapter reports benefit from ENRICH minimally invasive removal within 24 hours in selected independent patients with lobar hematomas of 30–80 mL and GCS 5–14. [p.3456]",
+        "When mass effect causes impaired consciousness or hydrocephalus, use specialist-directed ICP management, osmotic therapy and drainage/surgery as indicated. Hyperventilation is a temporary resuscitation measure; glucocorticoids are not recommended for ICH. [p.3456]",
+        "Long-term prevention emphasizes blood-pressure control and avoiding excessive alcohol and stimulants. Functional recovery may continue as hematoma resolves and compressed tissue recovers; coordinated acute care can improve outcomes. [p.3456]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 439: Intracerebral Hemorrhage; cited printed pages 3453, 3454, 3455, 3456."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 439; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-67b58c64de5c252f84b040af",
+          "sitting": "2026-Jun",
+          "number": 32,
+          "reference": "Harrison · ch. 439 · p. 3454",
+          "basis": "Official reference row: Harrison · ch. 439 · p. 3454 (מראה מקום גריאטריה 2026.pdf, Q32). 22e chapter/page citation. Mapped by pontine hemorrhage syndrome to 22e ch. 439, Intracerebral Hemorrhage; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2026-Jun Subspecialty official answer key after appeals, 2026_key-after-appeal.pdf, p.1, Q32): option ג — Pons. 22e in hand: Pontine hemorrhage can cause rapid deep coma, quadriplegia and pinpoint pupils that remain reactive. [p.3454]"
+        }
+      ]
+    },
+    {
+      "id": "ima-harrison-22e-ch458",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "GBS typically produces rapidly progressive ascending weakness and reduced or absent reflexes, sometimes with pain, sensory symptoms and facial/bulbar weakness. About 70% follow infection by 1–3 weeks; Campylobacter jejuni is a well-described antecedent. [p.3617]",
+        "Start immunotherapy promptly when GBS is diagnosed: IVIg and plasma exchange are equally effective for typical GBS, and combining them adds no significant benefit. The chapter gives IVIg as a total of 2 g/kg, usually over five daily infusions. [p.3620]",
+        "Improvement may take weeks. Failure to improve immediately after IVIg or plasma exchange is not itself an indication to switch to the other treatment; an early relapse after initial improvement may respond to brief retreatment with the original therapy. [p.3621]",
+        "Glucocorticoids are ineffective in GBS. Selected very mild cases already at a plateau may be observed without IVIg or plasma exchange; this differs from CIDP, which can respond to glucocorticoids. [pp.3621, 3622]",
+        "Progression usually stops within 4 weeks. Fever at neurologic onset, a clear sensory level or early prominent bladder dysfunction should prompt consideration of an alternative diagnosis, especially spinal cord disease. [p.3617]",
+        "Respiratory and autonomic complications can be dangerous even when limb disease seems modest. Monitor vital capacity, rhythm and blood pressure closely; bulbar dysfunction and rapid progression increase concern for ventilatory failure. [pp.3617, 3621]",
+        "Miller Fisher syndrome combines ophthalmoplegia, ataxia and areflexia without limb weakness and is strongly associated with anti-GQ1b antibodies. Other GBS forms include demyelinating AIDP and axonal AMAN/AMSAN. [p.3617]",
+        "Early electrodiagnostic studies may be minimally abnormal and CSF protein may remain normal until the end of the first week. Do not delay treatment while waiting for characteristic CSF or electrophysiologic findings if clinical suspicion is strong. [pp.3619, 3620]",
+        "The highest Brighton diagnostic-certainty level combines bilateral flaccid weakness, depressed reflexes, a monophasic course reaching nadir within 12 hours–28 days, compatible electrophysiology, elevated CSF protein with fewer than 50 white cells/µL, and exclusion of another cause. [p.3621]",
+        "Supportive care includes nutrition, venous-thrombosis prophylaxis, skin protection, turning and daily range-of-motion exercises. Approximately 85% attain full functional recovery within months to a year, although fatigue and minor examination abnormalities may persist. [p.3621]",
+        "CIDP generally progresses over months; consider acute-onset CIDP when apparent GBS deteriorates more than 9 weeks after onset or relapses at least three times. Clinical, CSF and acquired-demyelination findings guide diagnosis, with testing for monoclonal gammopathy and mimics. [p.3622]",
+        "CIDP treatment is usually indicated for rapid progression or impaired walking. IVIg, subcutaneous immunoglobulin, plasma exchange and glucocorticoids have evidence of benefit; the chapter advises three monthly IVIg courses before declaring treatment failure. [p.3622]",
+        "Nodal/paranodal antibody neuropathies are separated from CIDP in the cited criteria. Their frequent IgG4 association helps explain weaker IVIg responses; rituximab may be effective. [p.3623]",
+        "Multifocal motor neuropathy causes slowly progressive focal motor weakness with persistent conduction block and relative sensory sparing. IVIg or subcutaneous immunoglobulin often helps; glucocorticoids and plasma exchange are ineffective. [p.3623]",
+        "In a CIDP-like neuropathy refractory to standard therapy, consider POEMS or a nodal/paranodal disorder. Subacute asymmetric motor-sensory neuropathy with constitutional symptoms raises concern for vasculitis; combined nerve and muscle biopsy can establish that diagnosis. [pp.3622, 3623]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 458: Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies; cited printed pages 3617, 3619, 3620, 3621, 3622, 3623."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 458; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-b68785058ba8da505dadd1b0",
+          "sitting": "2023-Jun",
+          "number": 78,
+          "reference": "Harrison · p. 3504",
+          "basis": "Official reference row: Harrison · p. 3504 (refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows), Q78). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by early GBS immunotherapy to 22e ch. 458, Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2023-Jun Subspecialty official answer key after appeals, 2023_key-after-appeal.pdf, p.3, Q78): option ג — IVIG. 22e in hand: Early IVIg or plasma exchange is effective for typical GBS; the two treatments are equally effective. [p.3620]"
+        },
+        {
+          "id": "mcq-23789e6a7328c5cff1a43570",
+          "sitting": "2024-May",
+          "number": 46,
+          "reference": "Harrison · ch. 447 · pp. 3501-3502",
+          "basis": "Official reference row: Harrison · ch. 447 · pp. 3501-3502 (refs_2024May_subspec.pdf, Q46). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by post-Campylobacter GBS to 22e ch. 458, Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-May Subspecialty official answer key after appeals, 2024a_key-after-appeal.pdf, p.2, Q46): option ב — GUILLAIN-BARRE SYNDROME. 22e in hand: GBS often follows respiratory or gastrointestinal infection, including Campylobacter jejuni, by 1–3 weeks. [p.3617]"
+        },
+        {
+          "id": "mcq-b002fbac7995c3f45565f22f",
+          "sitting": "2024-May",
+          "number": 96,
+          "reference": "Harrison · ch. 447 · pp. 3504",
+          "basis": "Official reference row: Harrison · ch. 447 · pp. 3504 (refs_2024May_subspec.pdf, Q96). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by GBS treatment and glucocorticoids to 22e ch. 458, Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-May Subspecialty official answer key after appeals, 2024a_key-after-appeal.pdf, p.3, Q96): option ג — סטרואידים. 22e in hand: Glucocorticoids have not proved effective in GBS; IVIg and plasma exchange are established treatments. [pp.3620, 3621]"
+        },
+        {
+          "id": "mcq-bd1708e17c9f1da9803d8051",
+          "sitting": "2025-Jun",
+          "number": 41,
+          "reference": "Harrison · ch. 447 · p. 3504",
+          "basis": "Official reference row: Harrison · ch. 447 · p. 3504 (מראה מקום גריאטריה 2025.pdf, Q41). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by GBS response after IVIg to 22e ch. 458, Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2025-Jun Subspecialty official answer key after appeals, 2025_key-after-appeal.pdf, p.2, Q41): option ג — להמשיך מעקב ותמיכה נשימתית בהתאם לצורך, ללא שינוי בטיפול האימונומודולטורי. 22e in hand: Lack of immediate improvement is not an indication to switch to the alternate immunotherapy. The 22e dose is 2 g/kg TOTAL, usually over five days: 160 g total for the stated 80-kg patient, rather than 160 g/day in the preserved stem. [pp.3620, 3621]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
+    },
+    {
+      "id": "ima-harrison-22e-ch459",
+      "requiredBook": true,
+      "direction": "ltr",
+      "title": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction",
+      "provenance": "Harrison’s Principles of Internal Medicine, 22nd edition (2025), supplied combined volume I/II PDF. Page-cited paraphrases read from the chapter; the book is canonical. Printed page = PDF page − 43.",
+      "bullets": [
+        "Fluctuating ocular, bulbar or proximal weakness that worsens with use and improves after rest suggests myasthenia gravis. Reflexes are generally preserved and sensory loss is absent; chewing difficulty, ptosis and diplopia may precede generalized weakness. [p.3626]",
+        "Anti-AChR antibodies support diagnosis in approximately 85% of generalized MG and 50% of ocular MG; a negative result does not exclude MG. Test MuSK in appropriate AChR-negative generalized cases; interpret low-specificity LRP4 testing only with convincing clinical and electrophysiologic evidence. [p.3627]",
+        "LEMS favors proximal leg weakness with depressed reflexes and autonomic symptoms such as dry mouth, orthostasis or impotence. It is a presynaptic calcium-channel antibody disorder; in older adults investigate malignancy, particularly small-cell lung cancer, and reassess if the initial search is negative. [p.3628]",
+        "LEMS stimulation studies show a low initial response with facilitation after brief exercise or high-frequency stimulation. Symptomatic treatment uses 3,4-diaminopyridine and pyridostigmine; severe disease may require IVIg or plasma exchange. [p.3628]",
+        "For ptosis, an ice pack applied for 2 minutes with at least 2 mm lid elevation is a positive bedside result supporting an NMJ defect. Repetitive stimulation showing more than 10% decrement supports MG; single-fiber EMG is more sensitive but not specific. [pp.3626, 3627]",
+        "Assess ventilatory function and obtain chest CT or MRI at MG diagnosis to evaluate for thymoma. Check thyroid function and search for infection or other triggers during deterioration; antibody concentration does not reliably compare severity between patients. [pp.3627, 3628]",
+        "Pyridostigmine usually gives partial symptomatic benefit; the chapter starts it at 30–60 mg three or four times daily and individualizes timing, including before meals for chewing/swallowing difficulty. MuSK-positive patients often benefit less and may worsen. [p.3628]",
+        "Thymoma removal and thymectomy for autoimmune MG are distinct indications. The MGTX benefit applies to nonthymomatous, AChR-positive generalized MG; ocular, MuSK-positive and seronegative patients were excluded. Thymectomy should follow preparation rather than be an emergency procedure. [p.3629]",
+        "Choose immunotherapy according to urgency and patient risks. IVIg or plasma exchange provides rescue treatment; glucocorticoids and other faster therapies can bridge to slower steroid-sparing agents. Rituximab is particularly effective in MuSK-positive MG. [p.3630]",
+        "Prednisone can transiently worsen weakness early in treatment. Severe hospitalized cases may receive IVIg or plasma exchange before high-dose steroids; subsequent tapering should be gradual, with systematic monitoring for efficacy and adverse effects. [p.3630]",
+        "Plasma exchange and IVIg can produce rapid temporary improvement during severe weakness or before surgery. The chapter gives IVIg as 2 g/kg over 2–5 days; longer-term disease control often requires additional treatment. [p.3631]",
+        "Myasthenic crisis with threatened ventilation requires an intensive-care team experienced in MG. Follow respiratory function systematically; other worsening without ventilatory support is termed exacerbation in the clinical classification. [pp.3626, 3632, 3633]",
+        "Immune-checkpoint inhibitor-associated MG may overlap with myositis and myocarditis and can be fulminant. Management includes glucocorticoids, with plasma exchange or IVIg added for severe weakness; evaluate the overlapping muscle and cardiac disease. [p.3633]",
+        "Aminoglycosides, quinolones, macrolides, intravenous magnesium and procainamide can aggravate myasthenic weakness. Avoid botulinum toxin injections in MG and review potential medication triggers whenever weakness increases. [p.3627]",
+        "Congenital myasthenic syndromes are genetic rather than autoimmune; treatment depends on the molecular defect. Acetylcholinesterase inhibitors help some subtypes but worsen others, including slow-channel, acetylcholinesterase-deficient and DOK7-related disease. [pp.3627, 3628]",
+        "Botulism can mimic MG with bulbar and generalized weakness, preserved mentation and absent sensory loss, but autonomic findings include poorly reactive pupils, ileus and dry mouth. Provide respiratory/supportive care and give antitoxin as early as possible. [p.3628]"
+      ],
+      "sources": [
+        {
+          "document": "Harrison’s Principles of Internal Medicine, 22nd edition",
+          "locator": "ch. 459: Myasthenia Gravis and Other Diseases of the Neuromuscular Junction; cited printed pages 3626, 3627, 3628, 3629, 3630, 3631, 3632, 3633."
+        },
+        {
+          "document": "IMA P005-2026",
+          "locator": "p. 1, all candidates, chapter 459; number and title match the 22e contents."
+        }
+      ],
+      "questions": [
+        {
+          "id": "mcq-5ca3f594502cdce2347b4070",
+          "sitting": "2023-Jun",
+          "number": 27,
+          "reference": "Harrison · p. 3511",
+          "basis": "Official reference row: Harrison · p. 3511 (refs_2023_subspec.pdf (shared Basic + Subspecialty reference list; first 100 rows), Q27). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by suspected MG and antibody testing to 22e ch. 459, Myasthenia Gravis and Other Diseases of the Neuromuscular Junction; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2023-Jun Subspecialty official answer key after appeals, 2023_key-after-appeal.pdf, p.1, Q27): option א — ANTI-AChR RADIOIMMUNOASSAY בדם. 22e in hand: Anti-AChR antibodies are strongly diagnostic when positive, but a negative result does not exclude MG. [p.3627]"
+        },
+        {
+          "id": "mcq-533583412fa06778cad38886",
+          "sitting": "2024-Sep",
+          "number": 95,
+          "reference": "Harrison · ch. 448 · p. 3511",
+          "basis": "Official reference row: Harrison · ch. 448 · p. 3511 (refs_2024Sep_subspec.pdf, Q95). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by fatigable ocular/bulbar weakness and anti-AChR testing to 22e ch. 459, Myasthenia Gravis and Other Diseases of the Neuromuscular Junction; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2024-Sep Subspecialty official answer key after appeals, 2024b_key-after-appeal.pdf, p.3, Q95): option א — בדיקת נוגדנים ( לרצטפור של אצטיל כוליןanti-AChR ). 22e in hand: The described fluctuating pattern suggests MG; anti-AChR testing supports the diagnosis, with negative testing not excluding disease. [pp.3626, 3627]"
+        },
+        {
+          "id": "mcq-f2448541fe026f7c28b9ebe5",
+          "sitting": "2025-Jun",
+          "number": 78,
+          "reference": "Harrison · ch. 448 · pp. 3510-3511",
+          "basis": "Official reference row: Harrison · ch. 448 · pp. 3510-3511 (מראה מקום גריאטריה 2025.pdf, Q78). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by bulbar/ocular MG and anti-AChR testing to 22e ch. 459, Myasthenia Gravis and Other Diseases of the Neuromuscular Junction; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2025-Jun Subspecialty official answer key after appeals, 2025_key-after-appeal.pdf, p.3, Q78): option ג — בדיקת נוגדנים Anti-Acetylcholine Receptor. 22e in hand: Fatigable chewing/swallowing difficulty with diplopia fits the MG pattern; anti-AChR testing is diagnostic when positive. [pp.3626, 3627]"
+        },
+        {
+          "id": "mcq-c74de0a0c671ce548b7cd01d",
+          "sitting": "2026-Jun",
+          "number": 54,
+          "reference": "Harrison · ch. 459 · p. 3628",
+          "basis": "Official reference row: Harrison · ch. 459 · p. 3628 (מראה מקום גריאטריה 2026.pdf, Q54). 22e chapter/page citation. Mapped by LEMS and autonomic symptoms with small-cell lung cancer to 22e ch. 459, Myasthenia Gravis and Other Diseases of the Neuromuscular Junction; no cross-edition page-number conversion.",
+          "showBasis": true,
+          "editionComparison": "Official key (IMA 2026-Jun Subspecialty official answer key after appeals, 2026_key-after-appeal.pdf, p.2, Q54): option ד — למטופל יש אורטוסטטיזם ופה יבש. 22e in hand: LEMS combines proximal weakness, depressed reflexes and autonomic features including dry mouth and orthostasis, often with small-cell lung cancer in older adults. [p.3628]"
+        }
+      ],
+      "editionNotice": "Earlier-edition questions: the official reference is retained and mapped by topic/title to 22e. Only an explicitly named edition is labelled 20e; unspecified earlier editions are not guessed. The official IMA key appears first below, followed by what 22e states; earlier-edition text is not reconstructed."
     }
   ],
   "requiredReading": {
@@ -1506,7 +2185,7 @@
             "sitting": "2026-Jun",
             "number": 39,
             "reference": "Supplied hearing-loss article; title not specified in IMA list or question paper",
-            "basis": "The official row names the NEJM age-related hearing-loss article; Q39 tests its hearing-loss assessment/management content.",
+            "basis": "The official reference row says: Supplied hearing-loss article; title not specified in IMA list or question paper. Q39 is linked here by its hearing-loss assessment/management topic; the row does not name the NEJM article.",
             "showBasis": true
           }
         ]
