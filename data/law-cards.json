@@ -140,6 +140,14 @@
           "reference": "חוזר משרד הבריאות — הפעלת ייפוי כוח מתמשך",
           "stem": "בן 78, אושפז בשל דלקת בדרכי השתן והחמרה בתפקודי הכליות .במהלך האשפוז נפל ,נחבל בראשו ואובחן עם דימום סוב-דוראלי .הומלץ על ביצוע פעולה כירורגית לניקוז למחרת בבוקר. למטופל ייפוי כוח מתמשך לאשתו .לצורך הפעולה מי אמור לחתום?",
           "basis": "Stem explicitly identifies enduring POA and asks who signs for treatment."
+        },
+        {
+          "id": "mcq-3cb7ddba4d5a84d56620fbae",
+          "sitting": "2024-Sep",
+          "number": 77,
+          "reference": "חוק הכשרות המשפטית והאפוטרופסות; Hazzard 8e · ch. 10 · p. 151",
+          "basis": "The official row names the Legal Capacity and Guardianship Law and Hazzard 8e ch.10 p.151. Q77 tests assessment of decision-making capacity, the prerequisite underlying this consent-chain card; the four clinical abilities are supplied by Hazzard, not represented as a quotation from the statute.",
+          "showBasis": true
         }
       ]
     },
@@ -1280,7 +1288,7 @@
       "id": "ima-harrison-22e",
       "requiredBook": true,
       "direction": "ltr",
-      "title": "Harrison 22e ? required chapters (P005-2026)",
+      "title": "Harrison 22e – required chapters (P005-2026)",
       "bullets": [
         "All candidates, including Subspecialty: 26, 382, 387, 433, 436, 437, 438, 439, 458, 459.",
         "Additional chapters for Basic candidates only: 14, 15, 16, 17, 18, 20, 22, 30, 39, 40, 41, 42, 43, 48, 49, 50, 51, 52, 53, 55, 56, 57, 58, 66, 67, 69, 70, 79, 80, 102, 120, 121, 127, 133, 136, 142, 143, 147, 243, 247, 285, 286, 295, 305, 311, 314, 315, 316, 317, 319, 321, 322, 332, 347, 355, 375, 379, 384, 388."
@@ -1288,7 +1296,7 @@
       "sources": [
         {
           "document": "IMA P005-2026",
-          "locator": "p. 1 (all candidates); pp. 3?5 (Basic additions)"
+          "locator": "p. 1 (all candidates); pp. 3–5 (Basic additions)"
         }
       ],
       "questions": []
@@ -1492,15 +1500,391 @@
             "locator": "Lin FR. Age-Related Hearing Loss. N Engl J Med 2024;390:1505-1512. doi:10.1056/NEJMcp2306778. Printed pp. 1505–1512 (= PDF pp. 1–8); Figures 1–2 and Tables 1–2."
           }
         ],
-        "questions": []
+        "questions": [
+          {
+            "id": "mcq-4c92ab23f4ca6e471480cf69",
+            "sitting": "2026-Jun",
+            "number": 39,
+            "reference": "Supplied hearing-loss article; title not specified in IMA list or question paper",
+            "basis": "The official row names the NEJM age-related hearing-loss article; Q39 tests its hearing-loss assessment/management content.",
+            "showBasis": true
+          }
+        ]
+      },
+      {
+        "id": "ima-article-beers-2023",
+        "title": "AGS Beers Criteria 2023: medication risks and alternatives",
+        "direction": "ltr",
+        "provenance": "1_AGS-Beers-2023.pdf; Alternative-Treatments-to-Selected-Medications-in-the-2023-American-Geriatrics-Society-Beers.pdf. Read from the supplied local files; page-cited paraphrases, not a replacement for the source.",
+        "bullets": [
+          "Scope: adults aged 65 or older in ambulatory, acute and institutional care; hospice and end-of-life care are excluded. Use the criteria to inform shared decisions, with attention to the indication and individual circumstances. [p.2052]",
+          "Antipsychotics: bipolar disorder is among the approved-indication exceptions. Dementia-related behavior or delirium does not routinely justify treatment: first try appropriate non-drug measures; substantial danger to self or others is an exception, with periodic attempts to reduce treatment. [pp.2059–2060, Table 2]",
+          "Z-drugs give only small improvements in sleep latency and duration while carrying benzodiazepine-like adverse effects, including delirium, falls and fractures; the recommendation is to avoid them. [p.2060]",
+          "Clonazepam belongs to the benzodiazepines marked for avoidance: older adults are more sensitive, and all benzodiazepines increase cognitive impairment, delirium, falls, fractures and motor-vehicle crashes. The table allows selected indications; it does not rank this patient’s four drugs in a discontinuation sequence. [p.2060]",
+          "Paroxetine is among strongly anticholinergic antidepressants to avoid because of anticholinergic effects, sedation and orthostatic hypotension. This is the Beers basis relevant to 2024 Q94; the accepted serotonin-syndrome alternative is not established by that row. [p.2059]",
+          "Avoid scheduled PPI use beyond eight weeks unless there is a justified exception, such as high bleeding risk, erosive esophagitis, Barrett’s esophagitis, a hypersecretory disorder or demonstrated maintenance need. [p.2062]",
+          "For nonvalvular AF or VTE, avoid initiating warfarin when a suitable DOAC is available. Continuing established warfarin can be reasonable when INR control is good and adverse effects are absent; this is different from starting treatment. [p.2057]",
+          "For long-term AF or VTE treatment, prefer safer alternatives to rivaroxaban because of greater major and gastrointestinal bleeding risk, particularly compared with apixaban. Use caution with dabigatran; consider kidney function, indication and body weight when selecting and dosing a DOAC. [pp.2058,2064, Box 1]",
+          "Clonidine is not recommended for routine hypertension treatment because of CNS adverse effects, bradycardia and orthostatic hypotension; avoid it as first-line hypertension therapy. [p.2058]",
+          "Alternatives companion: assess the cause of insomnia and use CBT-I first. If medication is needed after other approaches, low-dose doxepin, ramelteon or an orexin antagonist may be safer alternatives; evidence for meaningful melatonin benefit is limited. [companion PDF pp.18–19]"
+        ],
+        "sources": [
+          {
+            "document": "1_AGS-Beers-2023.pdf",
+            "locator": "JAGS 2023;71:2052–2081; journal page = PDF page + 2051."
+          },
+          {
+            "document": "Alternative-Treatments-to-Selected-Medications-in-the-2023-American-Geriatrics-Society-Beers.pdf",
+            "locator": "Alternatives companion; PDF pages 18–19. Supplementary, not P005-2026."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-96e73d093ad671f5ad7ae40e",
+            "sitting": "2020",
+            "number": 19,
+            "reference": "2019 AGS Beers Criteria / Pocket Guide",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2020, Q19: option ב, bipolar disorder. Edition in hand — Beers 2023 lists bipolar disorder among the approved-indication exceptions to antipsychotic avoidance [Beers 2023 p.2059]"
+          },
+          {
+            "id": "mcq-b7bab775e701c6dacdbdbbcc",
+            "sitting": "2020",
+            "number": 56,
+            "reference": "2019 AGS Beers Criteria / Pocket Guide",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2020, Q56: option ג, a small reduction in sleep latency. Edition in hand — Beers 2023 describes minimal improvement in sleep latency and duration with Z-drugs, alongside important harms [Beers 2023 p.2060]"
+          },
+          {
+            "id": "mcq-13327a29535d18ffb684c32a",
+            "sitting": "2022-Jun",
+            "number": 21,
+            "reference": "2019 AGS Beers Criteria",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2022-Jun, Q21: option ב, scheduled PPI use beyond eight weeks except in high-risk patients. Edition in hand — Beers 2023 retains the eight-week avoidance recommendation and sets out high-risk and other maintenance exceptions [Beers 2023 p.2062]"
+          },
+          {
+            "id": "mcq-4641bad3c4f4169ea022ed51",
+            "sitting": "2024-Sep",
+            "number": 94,
+            "reference": "Beers Criteria; Hazzard 8e · p. 929 · Table 60-9",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-a542a3a627e208dabd1e6265",
+            "sitting": "2026-Jun",
+            "number": 10,
+            "reference": "Beers Criteria; Hazzard 8e · ch. 11 p. 169; ch. 22 p. 319",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-102e4ab82b9fd8d644e4dbbb",
+            "sitting": "2026-Jun",
+            "number": 30,
+            "reference": "Beers Criteria",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-1003c2e78dcf195a31c9d5a2",
+            "sitting": "2026-Jun",
+            "number": 76,
+            "reference": "Beers Criteria",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-2d928ababba95770cc9cd5c7",
+            "sitting": "2025-Jun",
+            "number": 84,
+            "reference": "American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023;71:2052–2081. · p. 2057 · Table 2",
+            "basis": "The official reference row names this source. Tests medication risks, exceptions or safer alternatives.",
+            "showBasis": true
+          }
+        ],
+        "articleItem": 1,
+        "editionNotice": "Edition difference: 2020 Q19/Q56 and 2022 Q21 cite Beers 2019. This card reads Beers 2023 and the separately supplied alternatives companion; it does not reconstruct the 2019 text. Each earlier-edition question below gives the official key first, then the 2023 statement."
+      },
+      {
+        "id": "cited-ebrsr-2020-ch1",
+        "title": "Stroke Rehabilitation Clinician Handbook 2020: clinical consequences (chapter 1)",
+        "direction": "ltr",
+        "provenance": "Chapter 1_Clinical Consequences_0.pdf. Read from the supplied local files; page-cited paraphrases, not a replacement for the source.",
+        "bullets": [
+          "ACA infarction typically causes contralateral weakness and sensory loss affecting the leg more than the arm; abulia, urinary incontinence and gait apraxia can accompany it. The ACA point tested in 2023 Q76 is on chapter page 6, although that reference row says page 17. [PDF p.6]",
+          "MCA infarction more prominently affects face and arm. Motor and sensory loss and homonymous hemianopsia are contralateral; left-hemisphere lesions may produce aphasia, whereas right-hemisphere lesions may produce left neglect. [chapter pp.6–7]",
+          "Neglect is failure to respond or orient to stimuli on the side opposite the lesion. Right-hemisphere stroke commonly produces left-sided neglect; it can affect eating, dressing and navigation and is associated with worse functional recovery. [PDF p.9]",
+          "Broca/nonfluent aphasia combines effortful, reduced verbal output with relatively preserved comprehension and poor repetition. This pattern matches the comprehension/output/repetition features tested in 2023 Q5 and 2024 Q48. [chapter pp.11–12]",
+          "Use fluency, comprehension and repetition together: impaired repetition also occurs in conduction aphasia, where speech remains fluent and comprehension is good. Preserved repetition separates transcortical motor aphasia from Broca aphasia. [PDF p.11]",
+          "Apraxia is inability to carry out purposeful learned activity despite adequate strength, mobility, sensation, coordination and comprehension. Left-hemisphere lesions can cause it; preserved understanding with difficulty executing dressing or tool-use actions is the distinction tested in 2024 Q36. [PDF p.15]",
+          "Abducens palsy with contralateral hemiparesis localizes to the lower pons in the handbook’s Raymond syndrome entry. The crossed cranial-nerve/limb pattern distinguishes it from the listed midbrain and medullary syndromes. [PDF p.17]"
+        ],
+        "sources": [
+          {
+            "document": "Chapter 1_Clinical Consequences_0.pdf",
+            "locator": "2020, chapter 1: Clinical Consequences of Stroke; chapter page = PDF page."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-76c3fe4d0034388d48825975",
+            "sitting": "2022-Jun",
+            "number": 83,
+            "reference": "Rehabilitation Clinical Handbook 2020 · p. 7",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-1c216c76c7ca78a420618afe",
+            "sitting": "2023-Jun",
+            "number": 5,
+            "reference": "Stroke Rehabilitation Clinician Handbook 2020 · p. 12",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-04094d640ab7256b38fe0c81",
+            "sitting": "2023-Jun",
+            "number": 48,
+            "reference": "Stroke Rehabilitation Clinician Handbook 2020 · p. 17",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-87d97d9a7a60602c31a10797",
+            "sitting": "2023-Jun",
+            "number": 76,
+            "reference": "Stroke Rehabilitation Clinician Handbook 2020 · p. 17; Hazzard 8e · p. 958",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-de35ec8f8613614fad033467",
+            "sitting": "2024-Sep",
+            "number": 36,
+            "reference": "Stroke Rehabilitation Clinician Handbook 2020 · p. 15",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-f8e2b002ef51e8ed9620074a",
+            "sitting": "2024-Sep",
+            "number": 48,
+            "reference": "Stroke Rehabilitation Clinician Handbook 2020 · p. 11",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-2bf17228f99344b4887b156b",
+            "sitting": "2025-Jun",
+            "number": 72,
+            "reference": "Teasell et al. Stroke Rehabilitation Clinician Handbook 2020. 1. Clinical Consequences of Stroke. · pp. 6–9",
+            "basis": "The official reference row names this source. Tests the clinical consequences of stroke in handbook chapter 1.",
+            "showBasis": true
+          }
+        ],
+        "citedInPastPapers": true
+      },
+      {
+        "id": "cited-lancet-dementia-2024",
+        "title": "Lancet Commission 2024: dementia prevention, intervention and care",
+        "direction": "ltr",
+        "provenance": "lancet2024.pdf. Read from the supplied local files; page-cited paraphrases, not a replacement for the source.",
+        "bullets": [
+          "The 2024 model adds high LDL cholesterol and untreated vision loss to the previous twelve factors. Its combined population-attributable fraction is about 45%; this is a model of potentially modifiable risk, not a demonstrated reduction of over 60% from an intervention. [PDF p.23]",
+          "The commission recommends making hearing aids accessible. ACHIEVE found no overall benefit on its three-year cognition endpoint, but the higher-risk ARIC subgroup had less cognitive decline. Observational associations with less dementia should be distinguished from a trial proving dementia prevention. [PDF pp.2,10]",
+          "Smoking cessation is supported: compared with continuing smokers, former smokers had lower risk in the reviewed cohorts. The 2024 model now treats smoking as a midlife risk factor; the report describes cessation as beneficial, while age-specific results vary. [PDF p.13]",
+          "Treat hypertension: two meta-analyses of randomized trials found protective effects on cognition or dementia; a shorter-duration analysis did not establish a dementia-incidence effect. The commission recommends preventing or reducing hypertension across midlife. [PDF pp.2,16–17]",
+          "For the midlife-risk comparison tested in 2023 Q56, the 2024 model assigns hearing loss a weighted attributable fraction of 7%, versus about 3% for traumatic brain injury, 2% for hypertension and 1% for obesity. These are population fractions, not an individual’s probability. [PDF p.23, Table 1]",
+          "2025 Q61 official key: the option asserting that APOE ε4 risk cannot be reduced by external intervention (IMA final answer key, June 2025, Q61, option א). The cited 2024 report instead explicitly says risk remains modifiable regardless of APOE genetic status and that multicomponent approaches may benefit both higher- and lower-genetic-risk groups. The official key is preserved. [PDF p.2]"
+        ],
+        "sources": [
+          {
+            "document": "lancet2024.pdf",
+            "locator": "2024 online-first PDF dated 31 July 2024, numbered 1–57; citations use these PDF pages, not later journal pagination."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-7c85e40d5ccc8aaa1481c211",
+            "sitting": "2021-Dec",
+            "number": 24,
+            "reference": "Dementia prevention, intervention, and care",
+            "basis": "The official reference row names this source. Tests dementia prevention and modifiable risks.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2021-Dec, Q24: option א, hearing aids. Edition in hand — Lancet 2024 recommends hearing aids, while ACHIEVE had no overall three-year cognition benefit and a benefit in the higher-risk ARIC subgroup [2024 PDF pp.2,10]"
+          },
+          {
+            "id": "mcq-cae00a287bb5d67f443b04bb",
+            "sitting": "2022-Jun",
+            "number": 49,
+            "reference": "Dementia prevention, intervention, and care: 2020 report",
+            "basis": "The official reference row names this source. Tests dementia prevention and modifiable risks.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2022-Jun, Q49: option ב, stopping smoking can lower dementia risk even later in life. Edition in hand — Lancet 2024 reviews lower risk among former than continuing smokers, notes variation by age, and encourages cessation [2024 PDF p.13]"
+          },
+          {
+            "id": "mcq-d174954cc165e4a4bf4cb9e3",
+            "sitting": "2023-Jun",
+            "number": 54,
+            "reference": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+            "basis": "The official reference row names this source. Tests dementia prevention and modifiable risks.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2023-Jun, Q54: option ג, treatment of hypertension. Edition in hand — Lancet 2024 reports two protective trial meta-analyses and one shorter-duration analysis without an established dementia-incidence effect [2024 PDF pp.16–17]"
+          },
+          {
+            "id": "mcq-2a6291bad9a3b4e07c81b32e",
+            "sitting": "2023-Jun",
+            "number": 56,
+            "reference": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+            "basis": "The official reference row names this source. Tests dementia prevention and modifiable risks.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2023-Jun, Q56: option א, hearing loss. Edition in hand — Lancet 2024 assigns hearing loss a larger weighted population-attributable fraction than the other three options in this question [2024 PDF p.23, Table 1]"
+          },
+          {
+            "id": "mcq-4bec111cf773419535c13cb7",
+            "sitting": "2025-Jun",
+            "number": 61,
+            "reference": "Livingston et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet 2024;404:572–628. · p. 573",
+            "basis": "The official reference row names this source. Tests dementia prevention and modifiable risks.",
+            "showBasis": true
+          }
+        ],
+        "citedInPastPapers": true,
+        "editionNotice": "Edition difference: 2021 Q24, 2022 Q49 and 2023 Q54/Q56 belong to the 2020-report questions. Only the supplied 2024 report is summarized here; earlier text is not reconstructed. 2025 Q61 actually cites the 2024 report. Official answers appear first in the comparisons below, including the 2025 key/source difference."
+      },
+      {
+        "id": "cited-ada-older-adults-2026",
+        "title": "ADA Standards of Care 2026: Older Adults (section 13)",
+        "direction": "ltr",
+        "provenance": "Standards of Care in Diabetes—2026 ADA.pdf. Read from the supplied local files; page-cited paraphrases, not a replacement for the source.",
+        "bullets": [
+          "Assess medical, psychological, functional and social circumstances together. Screen at least annually for geriatric syndromes, hypoglycemia and polypharmacy; screen for cognitive impairment at age 65 or older at the initial visit, annually and as appropriate. [pp.S277–S278]",
+          "For an older adult with few stable illnesses and intact cognition/function, a reasonable A1C goal is below 7.0–7.5%. Table 13.2 gives fasting/premeal glucose 80–130 mg/dL and blood pressure below 130/80 mmHg; goals are individualized. [p.S284, Table 13.2]",
+          "For complex/intermediate health, Table 13.2 gives a less stringent A1C goal below 8.0% and fasting/premeal glucose 90–150 mg/dL. Cognitive or functional limitations, frailty, treatment risks and patient preferences guide individualization. [p.S284, Table 13.2]",
+          "For very complex/poor health, avoid reliance on A1C. Focus on preventing hypoglycemia and symptomatic hyperglycemia; Table 13.2 gives fasting/premeal glucose 100–180 mg/dL. This differs from the older exam option that couples this range with A1C below 8.5%. [p.S284, Table 13.2]",
+          "When treatment burdens or harms exceed benefits, deintensify within individualized goals; simplify complex insulin plans to reduce hypoglycemia, polypharmacy and burden. Cardiovascular- and kidney-protective agents remain relevant in patients with the corresponding risks, irrespective of glycemia. [p.S285, recommendations 13.14a–d]",
+          "Once-daily basal insulin may be reasonable for many older adults. Noninsulin options are generally preferred for their lower hypoglycemia risk and other benefits; select the regimen for the person’s ability, support and goals rather than leaving symptomatic hyperglycemia untreated. [p.S288]",
+          "Figure 13.3 permits discontinuing prandial insulin at doses of 10 units or less per dose and adding noninsulin treatment; drug choice depends on comorbidities and characteristics. DPP-4 inhibitors are listed among the possible noninsulin agents; they are not the only option. [p.S289, Figure 13.3]"
+        ],
+        "sources": [
+          {
+            "document": "Standards of Care in Diabetes—2026 ADA.pdf",
+            "locator": "2026, section 13 Older Adults, Diabetes Care 49(Suppl 1):S277–S296; journal page = PDF page + 276."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-1b9947447ef263b529e44bd0",
+            "sitting": "2020",
+            "number": 62,
+            "reference": "Standards of Medical Care in Diabetes—2020",
+            "basis": "The official reference row names this source. Tests individualized diabetes goals or treatment simplification in older adults.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2020, Q62: option א, fasting glucose up to 150 mg/dL, blood pressure 140/80 and A1C below 7.5%. Edition in hand — ADA 2026 Table 13.2 lists 80–130 mg/dL, below 130/80 mmHg and A1C below 7.0–7.5% for the healthy category; the older key is retained [2026 p.S284]"
+          },
+          {
+            "id": "mcq-5e41e7a32048963dcee0a671",
+            "sitting": "2021-Dec",
+            "number": 93,
+            "reference": "Standards of Medical Care in Diabetes—2020",
+            "basis": "The official reference row names this source. Tests individualized diabetes goals or treatment simplification in older adults.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2021-Dec, Q93: option א, A1C below 7.5% and annual cognitive assessment. Edition in hand — ADA 2026 recommends initial and annual cognitive screening at age 65 or older and a healthy-category A1C target below 7.0–7.5% [2026 pp.S278,S284]"
+          },
+          {
+            "id": "mcq-56a18f5157de81e337b3769d",
+            "sitting": "2022-Jun",
+            "number": 28,
+            "reference": "Older Adults: Standards of Medical Care in Diabetes",
+            "basis": "The official reference row names this source. Tests individualized diabetes goals or treatment simplification in older adults.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2022-Jun, Q28: option ג, fasting glucose 100–180 mg/dL and A1C below 8.5%. Edition in hand — ADA 2026 retains the 100–180 mg/dL fasting/premeal range for very complex/poor health but says to avoid reliance on A1C and prevent symptomatic extremes [2026 p.S284]"
+          },
+          {
+            "id": "mcq-7df358e819f02b4a8d3dd0d7",
+            "sitting": "2023-Jun",
+            "number": 24,
+            "reference": "ADA Older Adults · Table 13-2",
+            "basis": "The official reference row names this source. Tests individualized diabetes goals or treatment simplification in older adults.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2023-Jun, Q24: option א, long-acting insulin titrated to relieve hyperglycemic symptoms. Edition in hand — ADA 2026 prioritizes avoidance of symptomatic hyperglycemia in poor health and allows once-daily basal insulin as a reasonable option; the stem cites 2022 [2026 pp.S282,S288]"
+          },
+          {
+            "id": "mcq-8180581eed958ca16d78940c",
+            "sitting": "2023-Jun",
+            "number": 70,
+            "reference": "ADA Older Adults · Figure 13.1",
+            "basis": "The official reference row names this source. Tests individualized diabetes goals or treatment simplification in older adults.",
+            "showBasis": true,
+            "editionComparison": "Official key — IMA final answer key, 2023-Jun, Q70: option ד, replace prandial APIDRA with sitagliptin. Edition in hand — ADA 2026 Figure 13.3 permits removing prandial doses of 10 units or less and adding noninsulin therapy, including a DPP-4 inhibitor; select treatment by comorbidity rather than treating sitagliptin as uniquely required. The stem cites 2022 [2026 p.S289]"
+          }
+        ],
+        "citedInPastPapers": true,
+        "editionNotice": "Edition difference: the 2020, 2021 and 2022 questions cite ADA 2020; the stems of 2023 Q24/Q70 explicitly cite ADA 2022, not 2020. This card uses the supplied 2026 section only. Each earlier question below presents its official key first, then the 2026 statement; no earlier-edition text is reconstructed."
+      },
+      {
+        "id": "cited-mitchell-advanced-dementia-2015",
+        "title": "Advanced Dementia: Mitchell, NEJM 2015",
+        "direction": "ltr",
+        "provenance": "Mitchell-2015.pdf. Read from the supplied local files; page-cited paraphrases, not a replacement for the source.",
+        "bullets": [
+          "Advanced dementia involves profound cognitive deficits, minimal speech, loss of independent ambulation and dependence in daily activities. Eating problems and infections are the common clinical complications that repeatedly require care decisions. [p.2534]",
+          "The hospice guideline in Table 1 requires at least FAST 7c with all features from 6a through 7c, plus a qualifying medical complication in the preceding year. FAST 7c means inability to walk independently; inability to sit, smile or hold the head occurs in later stages. [p.2535, Table 1]",
+          "The nutritional complication in Table 1 is insufficient food or fluid to sustain life; in tube-fed patients the listed markers are weight loss over 10% in six months or albumin below 2.5 g/dL. These contextual criteria explain the components tested in 2020 Q16 and 2024 Q57; one isolated marker does not establish every eligibility requirement. [p.2535, Table 1]",
+          "Other qualifying complications include aspiration pneumonia, upper urinary infection, septicemia, recurrent fever despite antibiotics and multiple stage 3 or 4 pressure ulcers. Prognosis is uncertain: the article cautions that hospice criteria do not reliably predict six-month survival. [pp.2533–2535, Table 1]",
+          "Antimicrobials for pneumonia were associated with longer survival but greater discomfort in the observational CASCADE data. No randomized trials established survival or symptom benefit; the decision should follow the person’s goal of comfort or life prolongation and minimize treatment burden. [p.2537]",
+          "For persistent eating difficulty, hand feeding aims at comfort and interaction. Observational evidence does not establish tube-feeding benefits for survival or aspiration prevention; advance planning and shared decisions should align care with the patient’s wishes and goals. [pp.2534–2536]"
+        ],
+        "sources": [
+          {
+            "document": "Mitchell-2015.pdf",
+            "locator": "NEJM 2015;372:2533–2540; journal page = PDF page + 2532."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-14495b2b993ed80a455dcf47",
+            "sitting": "2020",
+            "number": 16,
+            "reference": "Advanced Dementia",
+            "basis": "The official reference row names this source. Tests advanced-dementia complications, hospice criteria or treatment goals.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-afc59f4904977cff5ceae519",
+            "sitting": "2021-Dec",
+            "number": 68,
+            "reference": "Advanced Dementia",
+            "basis": "The official reference row names this source. Tests advanced-dementia complications, hospice criteria or treatment goals.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-22ad374d60860dc3b36fced5",
+            "sitting": "2022-Jun",
+            "number": 46,
+            "reference": "Mitchell SL. Advanced dementia. N Engl J Med.",
+            "basis": "The official reference row names this source. Tests advanced-dementia complications, hospice criteria or treatment goals.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-7f8661f001992e760b345025",
+            "sitting": "2024-Sep",
+            "number": 57,
+            "reference": "Advanced Dementia",
+            "basis": "The official reference row names this source. Tests advanced-dementia complications, hospice criteria or treatment goals.",
+            "showBasis": true
+          }
+        ],
+        "citedInPastPapers": true
       }
     ],
     "entries": [
-      {
-        "title": "Beers 2023",
-        "status": "read directly",
-        "provenance": "1_AGS-Beers-2023.pdf — no card, owner decision."
-      },
       {
         "title": "NEJM Age-Related Hearing Loss 2024",
         "status": "read directly",
