@@ -147,6 +147,7 @@ window.HazzardMCQ = (() => {
   // Retired IDs also stay out of due and hidden-setting counts.
   const RETIRED_IDS=new Set(["mcq-699b4273355c31992364f1f1", "mcq-660fc34f37f3fe1432f26a67", "mcq-d9e9b335f768d1e86d09bef0", "mcq-d979aae832677997cb1ec3a5", "mcq-f9f713a941f2f2e330c614bc", "mcq-7db87995a797f5e507720fae", "mcq-9f8d7037088960a8ef814358", "mcq-66c7b713ba79de02b490ed75", "mcq-b1165d1cc2f7176dcde22187", "mcq-a123634fe43e01ca9d3ed602", "mcq-90f12c9da219a8f407f8e65a", "mcq-073b9a7d0bcb3934f98309b1", "mcq-38bc0abf7bc576c5c5482c6c", "mcq-e3f19e69e262a88b0d55fb6b", "mcq-78b26021e830fa359de80e66", "mcq-239f0c13003ce65b950cb76e", "mcq-39dfcd43e2048d61f5739915", "mcq-130d97e08ddb84a7858b4c55", "mcq-a70b0f47b2d732cef02426c9", "mcq-2c112419b704cf2ee7c61fc6", "mcq-34337a8c30021c8cfb10d7f7", "mcq-af2450a26aa2622ff6b15272", "mcq-321439623b418bc450fb8b55", "mcq-11cda3cf800da67d87b7ef1e", "mcq-85fc106feb538a0c7bf7475a", "mcq-3b739e5674dffc8044abd0f4", "mcq-8a2e0e6afcc4d6dfc3547d1b", "mcq-3a9307f8035b13b33778beee", "mcq-60e52c35d1bcd2882f47e4c3", "mcq-49cc0543456718a3076c6045", "mcq-8044e5976524be641141c648", "mcq-3cb90368c2ed36db8f6675e3", "mcq-20be0cad52ddc8e488192bbf", "mcq-66cfb59089803f7958244223", "mcq-2adaf9f02ab22b76cfbad1a5", "mcq-09ff26e2548551d17575e9ed", "mcq-c2c8a32c3fc69de1efe77d40", "mcq-66df9fb2064c7277ae4c8acf", "mcq-308fd50fb061d108ca145814", "mcq-4383c4d92923a12de298515f", "mcq-cb6654e5a0acd74f57b0b70e", "mcq-62ca800059668ecc4185efea", "mcq-475269ffe6e67d4223caa928", "mcq-54c5288e90331e34de673c84"]);
   for(const id of ["mcq-3afbf0f9b72106238069c283", "mcq-eb930fa58023870834e4de2a", "mcq-87ded8958c78f614611129e7", "mcq-d83b57579731130f5223d128", "mcq-5590fc958a0c9be33349042f", "mcq-a7166eeee0950320121fee29", "mcq-019bf231802c4f0babcf3e65", "mcq-10e277586d2f7f61487d08fa", "mcq-5507c165c4e52230feb53668", "mcq-dbca0ec187cc977ffcb45a5e", "mcq-a9ee28406aba3bbef8715ceb", "mcq-06686a5c7dc4ec3d4dc6d195", "mcq-c34569120a71dde31a3d8c16"])RETIRED_IDS.add(id);
+  for(const id of ["mcq-c3651b79a2bff9be9d6167d3", "mcq-4eb7d8c6ec78250e52740308"])RETIRED_IDS.add(id);
   const retired=id=>RETIRED_IDS.has(currentId(id));
   const STANDOUT_IDS=new Set(["mcq-014bc0a93fc69d315ebcbd66","mcq-032a2c18787b874cc9ffbb4a","mcq-044911d4e0837ea15be57ab6","mcq-0483a63db9279ee11472c648","mcq-07fe2e1a5ab3a4dfc9a75e19","mcq-0b52c61d654f02debc281edf","mcq-0b6c7e93277203f52ba30f50","mcq-0baab030e7e3a28421bdef82","mcq-0c89e4620e4b0ee397959201","mcq-0e015d5218bea2dce9d6f10e","mcq-10df7b76df38a9f088ca263b","mcq-114d84d5185ca57f4f24a638","mcq-127bf515fc9a35b99c39325d","mcq-12bd8ee2ecd178423b7bd568","mcq-13629dd86cb32118a04a6dad","mcq-139db027298c95019723f985","mcq-1af78560668dcce3a6adcb18","mcq-1beb6d0b3c8c582ec4890d73","mcq-1de979eb6f87a866165b9192","mcq-1f7a97c4c65a535d6b4ca620","mcq-1f92adb433d6d5cfc18e09d5","mcq-2125164bf4974cd8e7f0ac23","mcq-23473602d9d9c912b573e2cb","mcq-2430b0cf4ece4ecc88cf9ca8","mcq-24bedb4fc2743f9050842ceb","mcq-25681be46ac5407bac11f90b","mcq-291a7496d603552cc0659be7","mcq-297d8fa36e34babe9751635b","mcq-29b376657542560d39ffc253","mcq-2a4c7ca09dd04d146cd757bf","mcq-2daec6b183c150d047ebc1a0","mcq-2e36238dd4f16c28277ae84c","mcq-2ef31d2fbe6112c80bee5926","mcq-31cf84cf197872047d98f8d3","mcq-31d5726d187e61198ded3224","mcq-326dd550869c47d2370c147d","mcq-3398a54d81e08867dbc745b8","mcq-346566c9e95c30f0aaf4f1dc","mcq-396c97aad9c833c90dca5a84","mcq-4144f7fef9e166f1aa853a6b","mcq-4162329a24c5d4d93d83a17d","mcq-444c15e90f9f516f44875745","mcq-460e60d9dc77b2d5eab3ec24","mcq-479b867f28a240a0e95cbc5b","mcq-4a11d13f17c9ea44607c6c01","mcq-4b596b9b45143301d1dbc87c","mcq-4caa65474b9733a526dfd9b6","mcq-4ea2377922759e0c039b487a","mcq-506721f729c67997bb5b959b","mcq-553fe001ba88c16bd58aa995","mcq-5684ea1bfb71d3cca1c89328","mcq-568a570a893c8db62fea050b","mcq-5b13e8a36f37d7675386033a","mcq-5b321318cff0af6d45fb810f","mcq-5b3c5045c946b0fc76f2d3a4","mcq-5ca0fc3396c3cd00ab34b99b","mcq-61d765bd35176cb394ea1d4c","mcq-6334045bcaf8296d2a9bfc3f","mcq-6397e304176572de212cb7a4","mcq-63b5261b256797d5f7e138f9","mcq-660fc34f37f3fe1432f26a67","mcq-6a7579842d9fd2be047cd3ef","mcq-6a7a6572c9f100e565672523","mcq-6b9e4ede159317599df8678f","mcq-6efa24d560c4df1b871e045b","mcq-70b366b6090d5c1e6c3f2011","mcq-72a7b9df0d32babbf8fe01ba","mcq-7552c02517105e401cb55fca","mcq-75a210c0bb3af94cbc0b1761","mcq-770045052f12dae4345fcca7","mcq-77053831d3b420e052be4b21","mcq-77ab4a1b1336f63d7d5d7285","mcq-78798ae739e1f8d9e54c733c","mcq-7b61f10b0e09da43b7a59bc6","mcq-7c91e769b4cc7ec153925566","mcq-827b974b0fd4183a6fda5d95","mcq-82a1a43cfaad7704a7d66750","mcq-8316e2fc95e543f3f26c8898","mcq-8614eb8a75afb81b95916577","mcq-8632b57e622908538b588c2d","mcq-86a94c9168328a53c8066e7a","mcq-88db767a3d22600681cc3403","mcq-8a606f8f8be548ad4507e14e","mcq-8a96f6dc4fc2a4b4a03b9cba","mcq-8c8078a68b054f62ac6634c1","mcq-8e03aa83677e26959c3ac715","mcq-8e41c4277ae6bd46dd267da7","mcq-8f25fd8fa77ad9a6c5799dd6","mcq-9045174da3177fda13606848","mcq-90affc0029710751b06319f5","mcq-90eda1202ecfd4470c08a2f3","mcq-9434c4a2307c199ddf5c5db3","mcq-96eb6727b86c119ebda68c71","mcq-98df5d0ab5206ceb23dbbfd6","mcq-995b608c3801b9d4ef2baa04","mcq-9e0e3ccff1eef7dc1644adde","mcq-9e7eddcbdf67f83af6ca4bec","mcq-9ec89992a83ad21a3ae50420","mcq-9f3576cbe0819766129ac2e3","mcq-a51ab6842992792d49b949f4","mcq-a6cde1a8daf57ef900597884","mcq-a77f2ce6d61e523b411e1a86","mcq-a8407f68b88325c137fe00c1","mcq-a912eb506f691dd06c69c737","mcq-abde25eef5f0f4c31580890d","mcq-adcf54cee53dc1acabd9a0c9","mcq-ae7e83ec05dc600cb58b280f","mcq-b27616507048c7e73ac32658","mcq-b32a891064795b871ca183b4","mcq-b59f5d9b56e7c0cc13830a9d","mcq-b6dba79002ef943bf98178b8","mcq-b76c93838a260bf35155ca1f","mcq-b8e17eb6e6ae4a67e9c089bf","mcq-bd49b19d4774e71a74783922","mcq-bdd6a773f35884709151ce30","mcq-bf21e07acd5b7256b808b263","mcq-bfb7f1c0236f077a9065015d","mcq-c023cce698b39c14e66237ce","mcq-c2f57e7777522d9743e16102","mcq-c754381222bdc39bc104bb3f","mcq-c9592e50929dba1beb796110","mcq-ca427d31f12efd5c058070ea","mcq-cab17152e55e1a2ecdb3bdb6","mcq-cb0d50d3969668c66ebdbf99","mcq-d1e785ccbc79adf72719b4d3","mcq-d36a24c3b9e02d84571b3ca0","mcq-d3b0cdb450de242399ac74be","mcq-d490d53a72d5e5cc71cec638","mcq-d6bb383b1aa45112cfa50963","mcq-d7fe8e06fdf78a07366e903e","mcq-da0e88d39eb186aa37c50253","mcq-dc51c43934ea045a98434f71","mcq-dda4ca9c5b00d7a7d07cb6da","mcq-dfe37bb79dbb60008ac1ddf5","mcq-e0ce5bb1476d0756e84c5f83","mcq-e2894e41e944457a17c7db83","mcq-e3e50422b2b80726d2954e05","mcq-e4fc9a27c99fc92d7fe46ffe","mcq-e51257b673dba22bf1696e12","mcq-e6f8098d395ff99d1bd7f305","mcq-e90ba9f3a5ff4e26159342cb","mcq-e99c86220a4824ffde49858e","mcq-e9f50d9717ad6d26c4585dcc","mcq-edabde6a768fcad04a392998","mcq-eec4c1f014d24403a5b5520d","mcq-f1793b202accb3a87f8b4ffe","mcq-f7d35dd38a1848bdd00d204a","mcq-f841cf856a7aeaf4bfa51422","mcq-fed6f1d217902c34dafe6e04"]);
   const STANDOUT_CHAPTER_COUNTS={"42":1,"43":3,"44":1,"45":1,"46":3,"47":5,"51":3,"52":2,"55":3,"58":2,"59":3,"60":2,"61":1,"65":1,"68":4,"81":1,"87":1,"99":2,"law":25};
@@ -313,6 +314,19 @@ window.HazzardMCQ = (() => {
   const SOURCE_TITLES={"חוק החולה הנוטה למות, תשס_ו-2005.pdf":"חוק החולה הנוטה למות, תשס״ו-2005","חוק הכשרות המשפטית והאפוטרופסות, תשכ_ב-1962.pdf":"חוק הכשרות המשפטית והאפוטרופסות, תשכ״ב-1962","חוק זכויות החולה, תשנ_ו-1996.pdf":"חוק זכויות החולה, תשנ״ו-1996","10Redefiningtheobligation.pdf":"הגדרה מחדש של חובת ההודעה על נהגים עם מצבי בריאות העלולים לסכן את עצמם וזולתם","1GeriatricsDivisionBroad.pdf":"הגדרת מושגים - נספח","4Recommendations.pdf":"המלצות מותב הוועדה הארצית לחוק החולה הנוטה למות: PEG לחולה עם קיהיון [דמנציה, שיטיון] שהוא נוטה למות","5MedicalGuardianHospitalization.pdf":"מינוי אפוטרופוס על גופו של אדם ו/או רכושו במסגרת אשפוז ממושך","6Activating.pdf":"הפעלת ייפוי כוח מתמשך בביה״ח במקרים דחופים ללא אישור כניסה לתוקף מטעם האפוטרופוס הכללי","7Temporarydecision.pdf":"מקבל החלטות זמני לעניינים רפואיים","8LicensingandOperating.pdf":"אמות מידה לרישוי ותפעול מחלקה גריאטרית ״סיעוד מורכב״","9Procedurefortreatingelderly.pdf":"נוהל טיפול בזקנים נפגעי התעמרות","1_AGS-Beers-2023.pdf":"American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults","B2_enduring-POA_guide_justice-ministry.pdf":"מדריך לממנה - ייפוי כוח מתמשך","hazzard marked .pdf":"Hazzard 8e"};
   function sourceTitle(value){let text=String(value||'');for(const [file,title] of Object.entries(SOURCE_TITLES))text=text.split(file).join(title);return text;}
   function preview(text,limit=180){if(text.length<=limit)return text;const part=text.slice(0,limit+1),end=part.search(/\s+\S*$/u);return (end>0?part.slice(0,end):text.split(/\s/u)[0])+'…';}
+  function latinRuns(terminal=false){
+    const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
+    const word = `[${base}][${base}\\p{M}]*`;
+    // Connectors join only Latin letters/digits on both sides, never Hebrew.
+    const connector = String.raw`(?<=[\p{Script=Latin}0-9])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
+    const token = `(?:[~≈±](?=\\d))?${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|${connector})${word})*`;
+    const quotes = `'"„“”‘’`;
+    const body = `[${base}][${base}\\p{M} \\t.,;${quotes}°^:/+%−–—→←<>=≤≥±×&-]*`;
+    const quoted = `(?<![${base}])[${quotes}]${body}[${quotes}](?![${base}])`;
+    const bracketed = `\\([ \\t]*[${quotes}]?${body}\\)`;
+    const atom = `(?:${bracketed}|${quoted}|${token}%?)`;
+    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector})${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
+  }
   function rich(value) {
     const box = document.createElement('div');
     const decoder = document.createElement('textarea');
@@ -360,6 +374,7 @@ window.HazzardMCQ = (() => {
       const block = node.parentElement.closest('[dir]');
       // English prose uses native word wrapping. Isolate only Hebrew labels.
       if(block?.dir==='ltr'){
+        node.data=node.data.replace(/←/g,'→');
         const fragment=document.createDocumentFragment();let end=0;
         for(const m of node.data.matchAll(/(?<![\p{L}])[א-ד][.)׳]/gu)){
           fragment.append(document.createTextNode(node.data.slice(end,m.index)));
@@ -373,11 +388,7 @@ window.HazzardMCQ = (() => {
       // characters intact; CSS separates terms glued to Hebrew in the import.
       // A run starts with a letter/number, never a Hebrew prefix's hyphen.
       // Combining accents and Greek/micro units belong to the same LTR token.
-      const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
-      const word = `[${base}][${base}\\p{M}]*`;
-      const token = `(?:[~≈±](?=\\d))?${word}(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+${word})*`;
-      const atom = `(?:\\([ \\t]*[${base}][${base}\\p{M} \\t.,;'’°^:/+%−–→←<>=≤≥±×-]*\\)|${token}%?)`;
-      const runs = new RegExp(`${atom}(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${atom})*`, 'gu');
+      const runs = latinRuns();
       let end = 0;
       for (const match of node.data.matchAll(runs)) {
         fragment.append(document.createTextNode(prose(node.data.slice(end, match.index))));
@@ -407,11 +418,7 @@ window.HazzardMCQ = (() => {
         segments.set(node,{start,end:text.length,whole});
       }
       for(const child of block.childNodes)collect(child);
-      const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
-      const word = `[${base}][${base}\\p{M}]*`;
-      const token = `(?:[~≈±](?=\\d))?${word}(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+${word})*`;
-      const atom = `(?:\\([ \\t]*[${base}][${base}\\p{M} \\t.,;'’°^:/+%−–→←<>=≤≥±×-]*\\)|${token}%?)`;
-      const runs = new RegExp(`${atom}(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${atom})*[.,;:!?]?`, 'gu');
+      const runs = latinRuns(true);
       function slice(start,end){
         const fragment=document.createDocumentFragment();
         function copy(node){
@@ -430,7 +437,7 @@ window.HazzardMCQ = (() => {
         if(/[א-ת]/.test(text[m.index+m[0].length]||''))bdi.classList.add('mcq-gap-after');
         // Join punctuation, internal hyphens and the edition to their word.
         const tw=document.createTreeWalker(bdi,NodeFilter.SHOW_TEXT),nodes=[];while(tw.nextNode())nodes.push(tw.currentNode);
-        for(const node of nodes)node.data=node.data.replace(/([\p{Script=Latin}0-9])-(?=[\p{Script=Latin}0-9])/gu,'$1\u2060-\u2060').replace(/([.,;:!?])$/u,'\u2060$1');
+        for(const node of nodes)node.data=node.data.replace(/[←→]/g,'→').replace(/([\p{Script=Latin}0-9])-(?=[\p{Script=Latin}0-9])/gu,'$1\u2060-\u2060').replace(/([.,;:!?])$/u,'\u2060$1');
         output.append(bdi);end=m.index+m[0].length;
       }
       output.append(slice(end,text.length));block.replaceChildren(output);
@@ -455,12 +462,30 @@ window.HazzardMCQ = (() => {
     }
     return box.innerHTML;
   }
+  function boldLabResults(text){
+    const normal = /\([ \t]*(?:(?:נורמה|נורמלי|תקין|ערך תחתון תקין|normal(?: range)?)[ \t:–-]*(?:עד[ \t]+)?[<>≤≥]?[ \t]*\d[^()\n]*|\d+(?:\.\d+)?[ \t]*[-–][ \t]*\d+(?:\.\d+)?[ \t]*)\)/giu;
+    const result = /(?<![\p{L}\p{N}./])(?:\d+(?:[.,]\d+)*)(?:[ \t]*(?:[munpfµμ]?g|[munpµμ]?mol|mEq|[munpµμ]?[iIlL]?U|mOsm)\/(?:dL|mL|L|l|kg)|[ \t]*נמול\/ל|%)?[ \t]*$/u;
+    let output='',end=0;
+    for(const m of text.matchAll(normal)){
+      const before=text.slice(end,m.index),value=result.exec(before);
+      if(!value)continue;
+      const prefix=before.slice(0,value.index);
+      // Unitless results require an explicit lab name; skip scores and strength.
+      if(!/[/%]/.test(value[0])&&!/(?:TSH|T4|FT4|CRP|CK|PTH|B12|HbA1c)\s*(?:היא|הוא|=)?\s*$/iu.test(prefix))continue;
+      // Include a directly attached test name and equals sign, as printed.
+      const label=/(?:[A-Za-z][A-Za-z0-9]*[ \t]*=[ \t]*)$/u.exec(prefix);
+      const start=end+value.index-(label?.[0].length||0),finish=m.index-before.match(/[ \t]*$/u)[0].length;
+      if(text[start-1]==='*'||text[finish]==='*')continue;
+      output+=text.slice(end,start)+'**'+text.slice(start,finish)+'**';end=finish;
+    }
+    return output+text.slice(end);
+  }
   function stemHTML(q){
     const table=q.labTable;
-    if(!table||!table.span||!q.q.includes(table.span))return rich(q.q);
+    if(!table||!table.span||!q.q.includes(table.span))return rich(table?q.q:boldLabResults(q.q));
     const at=q.q.indexOf(table.span);
     const cell=value=>table.direction==='rtl'?rich(value):escape(value);
-    return rich(q.q.slice(0,at))+'<div class="mcq-lab-scroll" tabindex="0" role="region" aria-label="'+escape(table.caption||'Laboratory results')+'"><table class="mcq-lab-table" dir="'+(table.direction==='rtl'?'rtl':'ltr')+'"><thead><tr>'+table.header.map(h=>'<th scope="col">'+cell(h)+'</th>').join('')+'</tr></thead><tbody>'+table.rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+cell(v)+'</th>':'<td>'+cell(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'+rich(q.q.slice(at+table.span.length));
+    return rich(q.q.slice(0,at))+'<div class="mcq-lab-scroll" tabindex="0" role="region" aria-label="'+escape(table.caption||'Laboratory results')+'"><table class="mcq-lab-table" dir="'+(table.direction==='rtl'?'rtl':'ltr')+'"><thead><tr>'+table.header.map(h=>'<th scope="col">'+cell(h)+'</th>').join('')+'</tr></thead><tbody>'+table.rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+cell(v)+'</th>':'<td>'+(table.header[i]?.startsWith('Value')?'<strong>'+cell(v)+'</strong>':cell(v))+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'+rich(q.q.slice(at+table.span.length));
   }
   const PAPER_KEY='hazzard-mcq-papers-v1';
   const defaultSettings=()=>({length:50,topic:'all',sources:['past','practice'],year:[],level:[]});
