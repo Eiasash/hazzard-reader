@@ -80,7 +80,6 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 
 ## Cosmetic list (doesn't block anything)
 - Saved list scroll resets to 0 after Saved → Home → Resume reading → Practice → Home → reload → Practice; the recorded place keeps the value (phone test F03, 08.10.2026).
-- Statistics Week by week lists 12 empty weeks before the log started; show only weeks since the first logged week.
 - Dec 2021 Q21 (mcq-9534df35cf56acbc6bcb3f35) lab table is 402 px wide inside a 336 px scroller; Normal range values are hidden until you swipe sideways, with no hint (phone test F04, 08.10.2026).
 - Practice badge shows Changed questions (26), while the menu says Review (28 due); the two different counts look inconsistent.
 - Exam simulation is styled as a link in the Practice menu, unlike its other rows.
