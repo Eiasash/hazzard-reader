@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v141'; // Official past-paper wording restored from rendered pages.
+const CACHE_VERSION = 'v141'; // Official past-paper wording; preserve printed drug-list spacing.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
