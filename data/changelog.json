@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v143",
+      "date": "2026-10-08",
+      "changes": [
+        "Wording of the remaining 651 past-exam questions checked against the official papers; 529 retyped."
+      ]
+    },
+    {
       "version": "v142",
       "date": "2026-10-08",
       "changes": [
