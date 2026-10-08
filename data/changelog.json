@@ -2,6 +2,15 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v144",
+      "date": "2026-10-08",
+      "changes": [
+        "Statistics readable in dark mode; English names with &, hyphens, dashes or arrows read in order inside Hebrew.",
+        "Patient lab values in bold, apart from the normal ranges.",
+        "Two contradictory heart-failure practice questions retired."
+      ]
+    },
+    {
       "version": "v143",
       "date": "2026-10-08",
       "changes": [
