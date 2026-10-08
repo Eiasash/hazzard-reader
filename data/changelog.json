@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v145",
+      "date": "2026-10-08",
+      "changes": [
+        "Statistics: topics ranked by questions you could lose per exam, estimated cautiously when you have few answers; each topic listed once; empty weeks hidden."
+      ]
+    },
+    {
       "version": "v144",
       "date": "2026-10-08",
       "changes": [
