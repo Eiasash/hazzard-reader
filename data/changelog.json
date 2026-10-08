@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v151",
+      "date": "2026-10-09",
+      "changes": [
+        "Mock papers and the question-bank view are saved only when something changes, so an older device can no longer overwrite them during sync."
+      ]
+    },
+    {
       "version": "v150",
       "date": "2026-10-09",
       "changes": [
