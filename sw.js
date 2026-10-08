@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v137'; // Retired direct links take precedence over exclusion notes.
+const CACHE_VERSION = 'v138'; // Saved revision and Hebrew display.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';

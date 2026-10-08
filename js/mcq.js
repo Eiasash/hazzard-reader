@@ -44,6 +44,49 @@ window.HazzardMCQ = (() => {
     await HazzardStorage.flush();
   }
   const FLAGS_KEY='hazzard-mcq-flags-v1',LAW_TOPICS=[30,31,32,33,34];
+  const SAVED_KEY='hazzard-mcq-saved-v1';
+  const emptySaved=()=>({version:1,questions:{},topics:{}});
+  function validSaved(v){return record(v)&&v.version===1&&['questions','topics'].every(kind=>record(v[kind])&&Object.entries(v[kind]).every(([id,r])=>(kind==='questions'?/^mcq-[a-f0-9]{24}$/:/^\d{1,3}$/).test(id)&&record(r)&&typeof r.saved==='boolean'&&Number.isFinite(r.at)&&r.at>=0));}
+  function mergeSaved(a,b){
+    const out=emptySaved();
+    for(const kind of ['questions','topics'])for(const source of [b,a])for(const[id,r]of Object.entries(source[kind])){
+      const key=kind==='questions'?currentId(id):id,old=out[kind][key];
+      // Deletion wins a tie, including aliases of the same question.
+      if(!old||r.at>old.at||r.at===old.at&&!r.saved)out[kind][key]={...r};
+    }
+    return out;
+  }
+  function readSaved(){return mergeSaved(emptySaved(),HazzardStorage.readProtected(SAVED_KEY,emptySaved));}
+  let revisionUndo=null,revisionNotice='';
+  function setSaved(kind,ids,saved){
+    const value=readSaved(),at=Math.max(Date.now(),...ids.map(id=>(value[kind][id]?.at||0)+1));
+    const previous=ids.map(id=>[id,!!value[kind][id]?.saved]);
+    for(const id of ids)value[kind][id]={saved,at};
+    HazzardStorage.setItem(SAVED_KEY,JSON.stringify(value));
+    revisionUndo=saved?null:{kind,previous,at};revisionNotice=saved?'Saved for revision.':'Removed from saved.';
+  }
+  function revisionButtons(q){
+    const value=readSaved(),question=!!value.questions[currentId(q.id)]?.saved,ids=membership(q).map(String),topic=ids.every(id=>value.topics[id]?.saved);
+    return '<button data-revision="questions" data-revision-ids="'+currentId(q.id)+'" aria-pressed="'+question+'">'+(question?'Saved':'Save question')+'</button><button data-revision="topics" data-revision-ids="'+ids.join(',')+'" aria-pressed="'+topic+'">'+(topic?'Topic saved':'Save topic')+'</button>';
+  }
+  function revisionStatus(){return revisionNotice?'<p class="meta mcq-revision-status" role="status">'+escape(revisionNotice)+(revisionUndo?' <button data-revision="undo">Undo</button>':'')+'</p>':'';}
+  document.addEventListener('click',event=>{
+    const button=event.target.closest('[data-revision]');if(!button||button.disabled)return;
+    try{
+      const kind=button.dataset.revision;
+      if(kind==='undo'){
+        if(!revisionUndo)return;
+        const value=readSaved(),{kind,previous,at}=revisionUndo;
+        if(previous.some(([id])=>value[kind][id]?.at!==at))throw Error('Saved items changed in another tab.');
+        const now=Math.max(Date.now(),at+1);for(const[id,saved]of previous)value[kind][id]={saved,at:now};
+        HazzardStorage.setItem(SAVED_KEY,JSON.stringify(value));revisionUndo=null;revisionNotice='Removal undone.';
+      }else{
+        const ids=button.dataset.revisionIds.split(','),value=readSaved();
+        setSaved(kind,ids,button.hasAttribute('data-revision-remove')?false:!ids.every(id=>value[kind][id]?.saved));
+      }
+    }catch(error){revisionNotice='Could not save revision changes. '+error.message;}
+    dispatchEvent(new Event('hazzard-saved-change'));
+  });
   const SYSTEM_KEY='hazzard-mcq-israeli-system-v1';
   const VIEW_KEY='hazzard-mcq-view-v1';
   const membership=q=>[...new Set([q.topic,...(q.topics||[])])];
@@ -118,13 +161,13 @@ window.HazzardMCQ = (() => {
     return order;
   }
   function explanationText(q,order=optionOrder(q)){
-    if(q.sourceType!=='Hazzard practice'&&q.kind!=='past'||order.every((n,i)=>n===i))return q.explanation;
-    const map=c=>{const alphabet=/[A-D]/.test(c)?'ABCD':'אבגד';const i=order.indexOf(alphabet.indexOf(c));return i<0?c:alphabet[i];};
+    if(!q.explanation)return q.explanation;
+    const map=c=>{const alphabet=/[A-D]/.test(c)?'ABCD':'אבגד';const i=order.indexOf(alphabet.indexOf(c));return i<0?c:'אבגד'[i];};
     // Locate all source labels first, then replace once so mappings cannot cascade.
     // Context keeps vitamin D, hepatitis B and mnemonic initials unchanged.
     const text=String(q.explanation||''),positions=new Set();
     function mark(regex){for(const m of text.matchAll(regex))positions.add(m.index+m[1].length);}
-    mark(/((?:אפשרות|אפשרויות|אופציה|אופציות|תשובה|תשובות|מסיח|מסיחים|[Oo]ptions?|[Aa]nswers?|[Cc]hoices?)(?:\s+(?:הנכונה|הנכונות|השגויה|השגויות|היא|הן|is|are|correct|incorrect))*\s*[:\-]?\s*\**\(?)([A-Dאבגד])(?=['׳״"*\s.,:()—–-]|$)/gu);
+    mark(/((?:אפשרות|אפשרויות|אופציה|אופציות|תשובה|תשובות|מסיח|מסיחים|[Oo]ptions?|[Aa]nswers?|[Cc]hoices?)(?:\s+(?:הנכונה|הנכונות|השגויה|השגויות|היא|הן|is|are|correct|incorrect))*\s*[:\-]?\s*\**\(?)([A-Dאבגד])(?=['׳״"*\s.,;:()—–-]|$)/gu);
     mark(/(^[ \t]*(?:[-*] )?\**)([A-Dאבגד])(?=[.)׳'](?:\s|\*)|\s+[—–-])/gmu);
     mark(/((?<![\p{L}\p{N}]))([אבגד])(?=['׳״](?![\p{L}\p{N}]))/gu);
     mark(/(\*\*)([A-Dאבגד])(?=\*\*(?:\s|[:,.]))/gu);
@@ -136,15 +179,15 @@ window.HazzardMCQ = (() => {
     }
     // Extend a known label through comma/conjunction lists, including glosses.
     for(const position of positions){
-      const tail=text.slice(position+1),next=/^['׳]?\**(?:\s*\([^\n)]*\))?\s*(?:,\s*|ו-?\s*|and\s+|&\s*)([A-Dאבגד])(?=['׳״"*\s.,:()—–-]|$)/u.exec(tail);
+      const tail=text.slice(position+1),next=/^['׳]?\**(?:\s*\([^\n)]*\))?\s*(?:,\s*|ו-?\s*|and\s+|&\s*)([A-Dאבגד])(?=['׳״"*\s.,;:()—–-]|$)/u.exec(tail);
       if(next)positions.add(position+1+next[0].lastIndexOf(next[1]));
     }
     // A bare Hebrew pair is also an option reference (e.g. ב ו-ג אינן...).
     for(const m of text.matchAll(/(?<![\p{L}\p{N}])([אבגד])\s+ו-?([אבגד])(?=\s+(?:אינן|שגויות|נכונות))/gu)){positions.add(m.index);positions.add(m.index+m[0].length-1);}
-    if(q.kind==='past'){
-      mark(/((?:תשובה|תשובות)(?:\s+(?:נכונה|נכונות|שגויה|שגויות|הנכונה|הנכונות|השגויה|השגויות|הרשמית|היא|קלינית|מבחינה|מדעית))*\s*[:—–\-]?\s*\**)([A-Dאבגד])(?=['׳״"*\s.,:()—–-]|$)/gu);
-      mark(/((?:למה|לגבי|במקרה|ולכן|לפיכך|Official IMA key:)\s*\**)([A-Dאבגד])(?=['׳״"*\s.,:()—–-]|$)/gu);
-      mark(/((?<![\p{L}\p{N}]))([A-Dאבגד])(?=\**\s+(?:היא|הוא|נתמכת|מתאימה|פחות מתאימה|נכון|נכונה|שגוי|שגויה|אינה|אינו)(?![\p{L}]))/gu);
+    {
+      mark(/((?:תשובה|תשובות)(?:\s+(?:נכונה|נכונות|שגויה|שגויות|הנכונה|הנכונות|השגויה|השגויות|הרשמית|היא|קלינית|מבחינה|מדעית))*\s*[:—–\-]?\s*\**)([A-Dאבגד])(?=['׳״"*\s.,;:()—–-]|$)/gu);
+      mark(/((?:למה|לגבי|במקרה|ולכן|לפיכך|Official IMA key:)\s*\**)([A-Dאבגד])(?=['׳״"*\s.,;:()—–-]|$)/gu);
+      mark(/((?<![\p{L}\p{N}]))([A-Dאבגד])(?=\**\s+(?:היא|הוא|מציגה|נתמכת|מתאימה|פחות מתאימה|נכון|נכונה|שגוי|שגויה|אינה|אינו)(?![\p{L}]))/gu);
       mark(/(^[ \t|#✅❌*\-]*)([A-Dאבגד])(?=[.)׳'](?:\s|\*)|\s+[—–-])/gmu);
       mark(/(\*\*)([A-Dאבגד])(?=\s+[—–-])/gu);
       mark(/(^[ \t]*\|\s*)([אבגד])(?=$)/gmu);
@@ -224,9 +267,27 @@ window.HazzardMCQ = (() => {
     const englishLabelBlocks = new WeakSet();
     for (const block of box.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th')) {
       const text = block.textContent;
-      const prose = text.replace(/\b(?:options?|answers?|choices?)(?:\s+(?:is|are|correct|incorrect))*\s*[:\-]?\s*\(?[אבגדה]['׳]?/giu, '');
+      const prose = (/[A-Za-z]/.test(text)?text.replace(/(?<![\p{L}])[אבגדה](?![\p{L}])/gu,''):text).replace(/\b(?:options?|answers?|choices?)(?:\s+(?:is|are|correct|incorrect))*\s*[:\-]?\s*\(?[אבגדה]['׳]?/giu, '');
       block.dir = /[\u05d0-\u05ea]/.test(prose) ? 'rtl' : 'ltr';
       if (block.dir === 'ltr' && /[\u05d0-\u05ea]/.test(text)) englishLabelBlocks.add(block);
+    }
+    const citationWalker=document.createTreeWalker(box,NodeFilter.SHOW_TEXT),citationNodes=[];
+    while(citationWalker.nextNode())citationNodes.push(citationWalker.currentNode);
+    for(const node of citationNodes){
+      const fragment=document.createDocumentFragment();let end=0;
+      for(const m of node.data.matchAll(/\([^()\n]*\)[.,;:!?]?/gu)){
+        const body=m[0].slice(1),he=(body.match(/[א-ת]/g)||[]).length,latin=(body.match(/[A-Za-z0-9]/g)||[]).length;
+        if(!/^[^\p{L}\p{N}]*[A-Za-z0-9]/u.test(body)||latin<=he)continue;
+        fragment.append(document.createTextNode(node.data.slice(end,m.index)));
+        const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.className='mcq-citation-run';
+        let partEnd=0;
+        for(const part of m[0].matchAll(/[א-ת](?:[^,;()]|[,;](?=\d))*/gu)){
+          bdi.append(document.createTextNode(m[0].slice(partEnd,part.index)));
+          const rtl=document.createElement('bdi');rtl.dir='rtl';rtl.className='mcq-citation-hebrew';rtl.textContent=part[0].trimEnd();bdi.append(rtl,document.createTextNode(part[0].slice(part[0].trimEnd().length)));partEnd=part.index+part[0].length;
+        }
+        bdi.append(document.createTextNode(m[0].slice(partEnd)));fragment.append(bdi);end=m.index+m[0].length;
+      }
+      if(end){fragment.append(document.createTextNode(node.data.slice(end)));node.replaceWith(fragment);}
     }
     const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT), nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
@@ -243,6 +304,7 @@ window.HazzardMCQ = (() => {
         keepLeading = !/\p{L}/u.test(prefix.toString());
       }
       const fragment = document.createDocumentFragment();
+      const prose=s=>block?.dir==='rtl'?s.replace(/→/g,'←'):s;
       // Keep terms, doses and numeric ranges in logical LTR order. Leave source
       // characters intact; CSS separates terms glued to Hebrew in the import.
       // A run starts with a letter/number, never a Hebrew prefix's hyphen.
@@ -253,7 +315,7 @@ window.HazzardMCQ = (() => {
       const runs = new RegExp(`\\([ \\t]*[${base}][${base}\\p{M} \\t.,;'’°^:/+%−–→←<>=≤≥±×-]*\\)|${token}(?:[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${token})*%?`, 'gu');
       let end = 0;
       for (const match of node.data.matchAll(runs)) {
-        fragment.append(document.createTextNode(node.data.slice(end, match.index)));
+        fragment.append(document.createTextNode(prose(node.data.slice(end, match.index))));
         if (keepLeading && !/\p{L}/u.test(node.data.slice(0, match.index))) {
           fragment.append(document.createTextNode(match[0])); end = match.index + match[0].length;
           continue;
@@ -262,11 +324,11 @@ window.HazzardMCQ = (() => {
         end = match.index + match[0].length;
         // Reserve room for an RTL sentence-ending mark beside a wrapped Latin run.
         if (block?.dir === 'rtl' && /^\?\s*$/.test(node.data.slice(end)) && node === block.lastChild) bdi.classList.add('mcq-terminal-latin');
-        if (/[\u0590-\u05ff]/.test(node.data[match.index - 1] || '')) bdi.classList.add('mcq-gap-before');
-        if (/[\u0590-\u05ff]/.test(node.data[end] || '')) bdi.classList.add('mcq-gap-after');
+        if (/[\u05d0-\u05ea]/.test(node.data[match.index - 1] || '')) bdi.classList.add('mcq-gap-before');
+        if (/[\u05d0-\u05ea]/.test(node.data[end] || '')) bdi.classList.add('mcq-gap-after');
         fragment.append(bdi);
       }
-      fragment.append(document.createTextNode(node.data.slice(end)));
+      fragment.append(document.createTextNode(prose(node.data.slice(end))));
       node.replaceWith(fragment);
     }
     // Markdown emphasis may split a single word (for example **V**isual).
@@ -280,6 +342,7 @@ window.HazzardMCQ = (() => {
       const words=[...text.matchAll(/[\p{Script=Latin}\p{Script=Greek}µ0-9][\p{Script=Latin}\p{Script=Greek}\p{M}µ0-9'’°^²³₀-₉.,/:+%−–<>=≤≥±×→←-]*/gu)];
       for(const match of words.reverse()){
         const run=chars.slice(match.index,match.index+match[0].length);
+        if(run.every(c=>c.node.parentElement.closest('.mcq-citation-run')))continue;
         if(new Set(run.map(c=>c.node.parentElement.closest('bdi')).filter(Boolean)).size<2)continue;
         const range=document.createRange();range.setStart(run[0].node,run[0].offset);range.setEnd(run.at(-1).node,run.at(-1).offset+1);
         const contents=range.extractContents();for(const bdi of contents.querySelectorAll('bdi'))bdi.replaceWith(...bdi.childNodes);
@@ -345,11 +408,12 @@ window.HazzardMCQ = (() => {
     const answers=new Map(),pending=new Map(),retryAnswers=new Map(),dismissed=new Set();
     let personal={version:1,flags:{},lawTopics:{ids:[],at:0}},flagsView=bankMode&&location.hash==='#flags',notice='';
     let systemPrefs={version:1,selected:false,at:0,flags:{}},collections={israeliSystem:{enabled:false,ids:[]},topicFallbacks:{}},lawIds=new Set(),articleIds=new Set(),articleSelected=false,drillSelected=false,generatedSelected=false,lastAnswer=null;
+    let savedView=bankMode&&location.hash==='#saved',savedOnly=bankMode&&new URL(location.href).searchParams.get('saved')==='1';
     let missedIds=null,reviewBatch=null,hiddenTarget=null;
     let evidence={questions:{},study:{}},chapterTitles={},bookChapters=[],viewTimer,restoringView=false,restoredViewUnchanged=false;
     function viewState(){const q=visible()[position]||items[0];return q?{version:1,id:currentId(q.id),filter,year,level,topic,sort,sortChosen:true,...(seed===undefined?{}:{seed}),missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:host.scrollTop,at:Date.now()}:null;}
     function saveView(){
-      if(!loaded||!controller.active||restoringView||redoMode)return;
+      if(!loaded||!controller.active||restoringView||redoMode||savedView)return;
       if(reviewMode){try{history.replaceState({...history.state,reviewView:{id:visible()[position]?.id,scroll:host.scrollTop,lastAnswer}},'');}catch{storageError='Review position could not be saved.';}return;}
       const view=viewState();if(!view)return;
       try{
@@ -376,7 +440,7 @@ window.HazzardMCQ = (() => {
       requestAnimationFrame(()=>{if(!restoringView)return;host.scrollTop=view.scroll;restoringView=false;saveView();});
     }
     function jump(id){
-      restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort=bankMode?'shuffled':'source';if(sort==='shuffled'&&seed===undefined)seed=newSeed();missedOnly=flagsView=false;missedIds=null;
+      restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort=bankMode?'shuffled':'source';if(sort==='shuffled'&&seed===undefined)seed=newSeed();missedOnly=flagsView=savedView=savedOnly=false;missedIds=null;
       id=currentId(id);if(standoutHidden(id)){hiddenTarget=id;notice='This question is hidden. To serve it, turn on '+standoutLabel+' in Practice settings.';}dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
       const url=new URL(location.href);url.searchParams.delete('q');url.hash='';history.replaceState({...history.state,mcqView:null},'',url);
       render();host.scrollTop=0;saveView();
@@ -493,6 +557,15 @@ window.HazzardMCQ = (() => {
         }).join(''):'<p>No answer flags.</p>');
       }catch{return '<h2>Answer looks wrong</h2><p role="alert">Answer flags could not be read; existing flags kept.</p>';}
     }
+    function savedCount(){const saved=readSaved();return [...Object.values(saved.questions),...Object.values(saved.topics)].filter(r=>r.saved).length;}
+    function savedList(){
+      const saved=readSaved(),byId=new Map(items.map(q=>[q.id,q])),entries=kind=>Object.entries(saved[kind]).filter(([,r])=>r.saved).sort((a,b)=>b[1].at-a[1].at);
+      const remove=(kind,id)=>'<button data-revision="'+kind+'" data-revision-ids="'+id+'" data-revision-remove>Remove</button>';
+      return '<h2>Saved for revision</h2><button data-mcq="practice-saved" '+(!entries('questions').length?'disabled':'')+'>Practice saved questions</button><h3>Questions</h3>'+(entries('questions').map(([id,r])=>{
+        const q=byId.get(id),note=!q?'Question no longer in the current bank':q.retired?'This generated practice item has been retired. Saved answers are retained.':excluded(id)?EXCLUDED_NOTE:standoutHidden(id)?'Hidden by Practice settings':'';
+        return '<section class="mcq-saved-row"><div class="mcq-mixed" dir="auto">'+rich(q?q.q.slice(0,180):id)+'</div><p class="meta">'+escape(q?sourceLabel(q):'Unavailable question')+' · '+new Date(r.at).toLocaleDateString('en-GB')+'</p>'+(note?'<p role="note">'+escape(note)+'</p>':'')+'<a href="?chapter=bank&amp;q='+id+'">Open</a> '+remove('questions',id)+'</section>';
+      }).join('')||'<p>No saved questions.</p>')+'<h3>Topics</h3>'+(entries('topics').map(([id])=>'<section class="mcq-saved-row"><strong>'+escape(topics[id]||'Topic '+id)+'</strong><p class="meta">'+items.filter(q=>!q.retired&&!excluded(q.id)&&membership(q).includes(Number(id))).length+' questions</p><button data-saved-topic="'+id+'">Open</button> '+remove('topics',id)+'</section>').join('')||'<p>No saved topics.</p>');
+    }
     function flagsList(){
       const byId=new Map(items.map(q=>[q.id,q])),entries=activeFlags().sort((a,b)=>b[1].at-a[1].at);
       return '<h2>Topic flags</h2>'+(entries.length?entries.map(([id,f])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><div class="mcq-mixed" dir="auto">'+rich(q?q.q:'Question no longer in the current bank')+'</div><p class="meta">'+escape(f.scopes.map(scopeLabel).join(' · '))+'</p><button class="quiet" data-undo-flag="'+id+'">Undo flag</button></section>';}).join(''):'<p>No topic flags.</p>')+answerFlagsList(byId);
@@ -507,6 +580,7 @@ window.HazzardMCQ = (() => {
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q)&&q.mockEligible!==false&&(settings.topic==='all'||membership(q).includes(Number(settings.topic))&&!flagged(q,'topic:'+settings.topic))&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
       let list=items.filter(q=>!q.retired&&!excluded(q.id)&&allowed(q)&&!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||filter==='drill'&&drillTier(q)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+(filter==='drill'?'practice':filter)))&&(!['law','articles'].includes(filter)||!topicsHidden(q))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!topicsHidden(q)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&matchesYear(q,year)&&matchesLevel(q,level)&&(!topicChoicesOf(topic).length||topicChoicesOf(topic).some(t=>membership(q).includes(Number(t))&&!flagged(q,'topic:'+t)))&&(!missedOnly||missedIds.has(q.id)));
+      if(savedOnly){const saved=readSaved();list=list.filter(q=>saved.questions[q.id]?.saved);}
       if(bankMode&&sort==='shuffled')return shuffledBank(list,seed,filter==='law');
       if(bankMode)list.sort((a,b)=>Number(generated(a))-Number(generated(b))||(filter==='law'?(a.kind!=='past')-(b.kind!=='past'):0)||(sort==='topic'?(topics[a.topic]||'').localeCompare(topics[b.topic]||'')||a.t.localeCompare(b.t)||a.sourceIndex-b.sourceIndex:a.t.localeCompare(b.t)||a.topic-b.topic||a.sourceIndex-b.sourceIndex));
       if(!bankMode)list.sort((a,b)=>Number(generated(a))-Number(generated(b)));
@@ -533,14 +607,14 @@ window.HazzardMCQ = (() => {
       if(reviewMode){const r=HazzardReview.read(),done=list.filter(q=>reviewBatch?.answers[q.id]?.checked).length;return '<p class="eyebrow">DAILY PRACTICE</p><h1>Review</h1><p class="meta">'+done+' / '+list.length+' answered · '+HazzardReview.due(r).length+' due</p><label class="mcq-review-size">Daily batch <select data-select="review-size">'+[10,30,50].map(n=>'<option value="'+n+'" '+(n===r.settings.size?'selected':'')+'>'+n+'</option>').join('')+'</select></label>'+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');}
       const title=bankMode?(flagsView?'Missed / flags':'Question bank'):mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
       let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+'</div>';
-      if(bankMode)html+='<div class="mcq-view-links"><button class="quiet" data-mcq="questions" aria-pressed="'+!flagsView+'">Questions</button><button class="quiet" data-mcq="flags" aria-pressed="'+flagsView+'">Flags ('+flagCount()+')</button></div>';
-      if(bankMode&&!flagsView){
+      if(bankMode)html+='<div class="mcq-view-links"><button class="quiet" data-mcq="questions" aria-pressed="'+(!flagsView&&!savedView)+'">Questions</button><button class="quiet" data-mcq="flags" aria-pressed="'+flagsView+'">Flags ('+flagCount()+')</button><button class="quiet" data-mcq="saved" aria-pressed="'+savedView+'">Saved ('+savedCount()+')</button></div>';
+      if(bankMode&&!flagsView&&!savedView){
         const sittings=[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t))].sort().reverse();
         html+='<details class="mcq-jump"><summary>Go to sitting + Q</summary><form data-jump-form><label>Sitting<select name="sitting">'+sittings.map(s=>'<option value="'+escape(s)+'">'+escape(s.replace('-Subspec','').replace('-', ' '))+'</option>').join('')+'</select></label><label>Q<input name="number" type="number" min="1" max="100" inputmode="numeric" aria-label="Question number"></label><button type="submit">Go</button><span role="status" data-jump-status></span></form></details>';
         html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+multiSelection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+multiSelection('level',level,[['all','All levels'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Exam level')+'<div class="mcq-sort">'+selection('sort',sort,[['source','Source'],['topic','Topic'],['shuffled','Shuffled']],'Sort by')+(sort==='shuffled'?'<button type="button" data-mcq="reshuffle">Reshuffle</button>':'')+'</div>'+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
-        html+='<p class="meta">'+list.length+' matching questions'+(filter==='law'?' · Official past exams only.':'')+'</p>';
+        html+='<p class="meta">'+(savedOnly?'Saved questions only · ':'')+list.length+' matching questions'+(filter==='law'?' · Official past exams only.':'')+'</p>';
       }else if(!mockMode&&!bankMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice',PRACTICE_LABEL]].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>';
-      if(!flagsView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
+      if(!flagsView&&!savedView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
       if(filter==='law'||chapter==='law')html+='<p class="meta mcq-law-note">'+(chapter==='law'?'Israeli law: past-exam items are the target; Hazzard items use US law':LAW_NOTE)+'</p>';
       if(collections.topicFallbacks[chapter])html+='<p class="meta mcq-topic-fallback">Practice questions by topic: '+escape(collections.topicFallbacks[chapter].name)+'. Official past questions link to their source pages when available.</p>';
       if(mockMode)html+='<p class="meta">'+Object.values(paper.answers).filter(a=>a.checked).length+' answered (including saved unavailable questions)</p><button class="quiet" data-mcq="builder">Mock builder</button>';
@@ -556,17 +630,18 @@ window.HazzardMCQ = (() => {
     function render(){
       if(mockMode&&building){renderBuilder();return;}
       const list=visible();position=Math.min(position,reviewMode?list.length:Math.max(0,list.length-1));const q=list[position];
-      host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page">'+header(list)+(flagsView?'':hiddenNotice(visible(true).length-list.length))+'<div class="mcq-question"></div></div>';const content=host.querySelector('.mcq-question');
+      host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page">'+header(list)+(flagsView||savedView?'':hiddenNotice(visible(true).length-list.length))+'<div class="mcq-question"></div></div>';const content=host.querySelector('.mcq-question');
       filtersObserver.disconnect();const sticky=host.querySelector('nav.mcq-filters');if(sticky)filtersObserver.observe(sticky);
+      if(bankMode&&savedView){content.innerHTML=savedList()+revisionStatus();return;}
       if(!reviewMode&&bankMode&&flagsView){content.innerHTML=flagsList();return;}
       if(reviewMode&&(!q||position===list.length)){content.innerHTML='<h2>'+(!list.length?'Nothing due today':'Daily batch complete')+'</h2><p>Your progress is saved. Come back tomorrow.</p><a href="?chapter=bank">Open question bank</a>';return;}
       if(!q){content.innerHTML='<p>No questions match these filters.</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
       const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'],order=optionOrder(q,bankMode);content.dataset.bankId=q.id;
       content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(q.chapter?' · Reader chapter '+escape(q.chapter):'')+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?'<p class="mcq-source-note" role="note">Generated practice, about 1 in 10 known wrong; if it disagrees with the book, the book wins.</p>'+answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label?'<p class="mcq-source-note" role="note">'+escape(q.label)+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
-        (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+'</div>'+unsureStatus(q,state,review))+
+        (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'<div class="mcq-confidence">'+revisionButtons(q)+'</div>':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+revisionButtons(q)+'</div>'+unsureStatus(q,state,review))+revisionStatus()+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
-        '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+order.map((i,display)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(state.checked&&accepted.includes(i)?'✓':state.checked&&state.selected===i?'✕':letters[display]||String(display+1))+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(q.o[i])+'</span></button>').join('')+'</div>'+
+        '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+order.map((i,display)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(letters[display]||String(display+1))+(state.checked&&accepted.includes(i)?' ✓':state.checked&&state.selected===i?' ✕':'')+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(q.o[i])+'</span></button>').join('')+'</div>'+
         '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+((reviewMode&&!state.checked||!mockMode&&!reviewMode&&position>=list.length-1)?'disabled':'')+'>Next</button></div>'+
         (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p>'+(q.kind==='past'&&order.some((n,i)=>n!==i)?'<p class="mcq-source-note mcq-official-order" dir="ltr">Options shuffled. Official paper order: answer '+accepted.map(i=>letters[i]).join(', ')+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(explanationText(q,order)):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+citationHTML(q);
       if(state.checked&&(q.explanationReviewNote||q.explanationIncomplete)){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.lang='en';note.textContent=q.explanationReviewNote||'Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
@@ -594,6 +669,7 @@ window.HazzardMCQ = (() => {
         chapterTitles=Object.fromEntries(bookChapters.map(c=>[c.chapter,c.title]));
         const studyOnly=!!evidence.study[chapter]?.studyOnly;
         [items,topics,collections]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):json('data/mcq/'+(bankMode||mockMode?'all':chapter)+'.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json'),loadAliases()]);
+        if(!bankMode&&!mockMode){const canonical=new Map((await json('data/mcq/all.json')).map(q=>[q.id,q]));items=items.map(q=>canonical.get(q.id)||q);}
         if(evidence.study[chapter]||readOnlyChapter){
           const ids=new Set(HazzardEvidence.studyIds(evidence,chapter)),all=await json('data/mcq/all.json');
           items=[...new Map([...all.filter(q=>ids.has(q.id)||drillTier(q)&&String(q.chapter)===chapter),...items.filter(q=>q.kind==='practice'&&(!q.sourceChecked||String(q.chapter)===chapter))].map(q=>[q.id,q])).values()];
@@ -651,9 +727,11 @@ window.HazzardMCQ = (() => {
     });
     host.addEventListener('click',event=>{
       const button=event.target.closest('button');if(!button||!host.contains(button)||button.disabled)return;restoredViewUnchanged=false;const action=button.dataset.mcq;
-      if(button.dataset.option===undefined&&button.dataset.image===undefined&&button.dataset.page===undefined&&!['undo','unsure','save'].includes(action))lastAnswer=null;
+      if(!button.hasAttribute('data-revision')&&button.dataset.option===undefined&&button.dataset.image===undefined&&button.dataset.page===undefined&&!['undo','unsure','save'].includes(action))lastAnswer=null;
       if(action==='notes'){controller.notes();return;}if(action==='load'){load();return;}if(action==='save'){save();render();return;}
-      if(action==='flags'||action==='questions'){flagsView=action==='flags';render();host.scrollTop=0;return;}
+      if(['flags','questions','saved'].includes(action)){flagsView=action==='flags';savedView=action==='saved';if(action==='questions')savedOnly=false;const url=new URL(location.href);url.hash=savedView?'saved':flagsView?'flags':'';url.searchParams.delete('q');url.searchParams.delete('saved');history.replaceState(history.state,'',url);render();host.scrollTop=0;return;}
+      if(action==='practice-saved'){savedOnly=true;savedView=flagsView=missedOnly=false;filter=topic='all';year=[];level=[];position=0;const url=new URL(location.href);url.hash='';url.searchParams.delete('q');url.searchParams.set('saved','1');history.replaceState(history.state,'',url);render();host.scrollTop=0;return;}
+      if(button.dataset.savedTopic!==undefined){savedOnly=savedView=flagsView=missedOnly=false;filter='all';topic=[button.dataset.savedTopic];year=[];level=[];position=0;const url=new URL(location.href);url.hash='';url.searchParams.delete('saved');url.searchParams.delete('q');history.replaceState(history.state,'',url);render();host.scrollTop=0;return;}
       if(button.dataset.unflagAnswer){changeAnswerFlag(button.dataset.unflagAnswer,Number(button.dataset.flagAt));return;}
       if(button.dataset.undoFlag){writeFlag({id:button.dataset.undoFlag},true);render();return;}
       if(action==='reshuffle'){seed=newSeed(seed);position=0;render();host.scrollTop=0;host.querySelector('[data-mcq="reshuffle"]')?.focus({preventScroll:true});return;}
@@ -726,8 +804,9 @@ window.HazzardMCQ = (() => {
     });
     addEventListener('hazzard-option-order-change',()=>{if(loaded&&controller.active){const y=host.scrollTop;render();host.scrollTop=y;}});
     addEventListener('hazzard-standout-change',()=>{if(hiddenTarget&&!standoutHidden(hiddenTarget)&&loaded){const id=hiddenTarget;hiddenTarget=null;notice='';jump(id);}else{position=0;sync();}});
-    sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
+    addEventListener('hazzard-saved-change',()=>{if(loaded){const y=host.scrollTop;render();host.scrollTop=y;}});
+    sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SAVED_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {optionOrder,linkedOptions,explanationText,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
+  return {SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
 })();
