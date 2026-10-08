@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v138'; // Saved revision and Hebrew display.
+const CACHE_VERSION = 'v139'; // Practice resume, persistent settings and display fixes.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
