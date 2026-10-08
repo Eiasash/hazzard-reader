@@ -94,6 +94,7 @@ window.HazzardCloud = (() => {
       if(generation!==epoch)return;
       const key=HazzardMCQ.SETTINGS_KEY,local=HazzardMCQ.settingsFromRaw(payload.storage[key]),remote=HazzardMCQ.settingsFromRaw(cloud.data?.storage?.[key]);
       if(remote)payload.storage[key]=JSON.stringify(HazzardMCQ.mergeSettings(local,remote));
+      for(const [key,valid,empty,merge] of [[HazzardMCQ.LOG_KEY,HazzardMCQ.validLog,HazzardMCQ.emptyLog,HazzardMCQ.mergeLog],[HazzardMCQ.BAD_KEY,HazzardMCQ.validBad,HazzardMCQ.emptyBad,HazzardMCQ.mergeBad]]){const raw=cloud.data?.storage?.[key];if(raw!==undefined){const remote=JSON.parse(raw);if(!valid(remote))throw Error('Cloud practice history is unreadable; upload paused.');const local=payload.storage[key]===undefined?empty():JSON.parse(payload.storage[key]);if(!valid(local))throw Error('Local practice history is unreadable; upload paused.');payload.storage[key]=JSON.stringify(merge(local,remote));}}
       const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
       if(generation!==epoch)return;
       lastUploaded=captured;state.syncedAt=result.updated_at||new Date().toISOString();
