@@ -340,8 +340,8 @@ window.HazzardMCQ = (() => {
     for(const node of citationNodes){
       const fragment=document.createDocumentFragment();let end=0;
       if(node.parentElement.closest('[dir]')?.dir==='ltr')continue;
-      for(const m of node.data.matchAll(/\([^()\n]*\)/gu)){
-        const body=m[0].slice(1),he=(body.match(/[א-ת]/g)||[]).length,latin=(body.match(/[A-Za-z0-9]/g)||[]).length;
+      for(const m of node.data.matchAll(/\([^()\n]*\)|[A-Z][A-Za-z'’ \t]+,\s*מהדורה\s+\d+[.;]?/gu)){
+        const body=m[0].replace(/^\(/,''),he=(body.match(/[א-ת]/g)||[]).length,latin=(body.match(/[A-Za-z0-9]/g)||[]).length;
         if(!he||!/^[^\p{L}\p{N}]*[A-Za-z0-9]/u.test(body)||latin<=he)continue;
         fragment.append(document.createTextNode(node.data.slice(end,m.index)));
         const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.className='mcq-citation-run';
@@ -392,24 +392,50 @@ window.HazzardMCQ = (() => {
       fragment.append(document.createTextNode(prose(node.data.slice(end))));
       node.replaceWith(fragment);
     }
-    // Markdown emphasis may split a single word (for example **V**isual).
-    // Isolate that whole logical word while retaining its inline formatting.
+    // Rebuild continuous Latin runs across inline emphasis, preserving the
+    // formatting of each original character and explicit Markdown line breaks.
     const blocks='p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th';
     for(const block of box.querySelectorAll(blocks)){
-      if(block.querySelector(blocks))continue;
-      const tw=document.createTreeWalker(block,NodeFilter.SHOW_TEXT),chars=[];let node;
-      while(node=tw.nextNode())for(let i=0;i<node.length;i++)chars.push({node,offset:i,char:node.data[i]});
-      const text=chars.map(c=>c.char).join('');
-      const words=[...text.matchAll(/[\p{Script=Latin}\p{Script=Greek}µ0-9][\p{Script=Latin}\p{Script=Greek}\p{M}µ0-9'’°^²³₀-₉.,/:+%−–<>=≤≥±×→←-]*/gu)];
-      for(const match of words.reverse()){
-        const run=chars.slice(match.index,match.index+match[0].length);
-        if(run.every(c=>c.node.parentElement.closest('.mcq-citation-run')))continue;
-        if(new Set(run.map(c=>c.node.parentElement.closest('bdi')).filter(Boolean)).size<2)continue;
-        const range=document.createRange();range.setStart(run[0].node,run[0].offset);range.setEnd(run.at(-1).node,run.at(-1).offset+1);
-        const contents=range.extractContents();for(const bdi of contents.querySelectorAll('bdi'))bdi.replaceWith(...bdi.childNodes);
-        const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.append(contents);range.insertNode(bdi);
+      if(block.dir!=='rtl'||block.querySelector(blocks))continue;
+      for(const bdi of [...block.querySelectorAll('bdi')])if(!bdi.closest('.mcq-citation-run'))bdi.replaceWith(...bdi.childNodes);
+      const segments=new Map();let text='';
+      function collect(node){
+        const start=text.length,whole=node.nodeName==='BR'||node.classList?.contains('mcq-citation-run');
+        if(node.nodeType===3)text+=node.data;
+        else if(whole)text+='\n';
+        else for(const child of node.childNodes)collect(child);
+        segments.set(node,{start,end:text.length,whole});
       }
+      for(const child of block.childNodes)collect(child);
+      const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
+      const word = `[${base}][${base}\\p{M}]*`;
+      const token = `(?:[~≈±](?=\\d))?${word}(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+${word})*`;
+      const atom = `(?:\\([ \\t]*[${base}][${base}\\p{M} \\t.,;'’°^:/+%−–→←<>=≤≥±×-]*\\)|${token}%?)`;
+      const runs = new RegExp(`${atom}(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?${atom})*[.,;:!?]?`, 'gu');
+      function slice(start,end){
+        const fragment=document.createDocumentFragment();
+        function copy(node){
+          const seg=segments.get(node);
+          if(seg.end<=start||seg.start>=end)return null;
+          if(seg.whole)return node.cloneNode(true);
+          if(node.nodeType===3)return document.createTextNode(node.data.slice(Math.max(0,start-seg.start),Math.min(node.length,end-seg.start)));
+          const clone=node.cloneNode(false);for(const child of node.childNodes){const part=copy(child);if(part)clone.append(part);}return clone.childNodes.length?clone:null;
+        }
+        for(const child of block.childNodes){const part=copy(child);if(part)fragment.append(part);}return fragment;
+      }
+      const output=document.createDocumentFragment();let end=0;
+      for(const m of text.matchAll(runs)){
+        output.append(slice(end,m.index));const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.className='mcq-latin-run';bdi.append(slice(m.index,m.index+m[0].length));
+        if(/[א-ת]/.test(text[m.index-1]||''))bdi.classList.add('mcq-gap-before');
+        if(/[א-ת]/.test(text[m.index+m[0].length]||''))bdi.classList.add('mcq-gap-after');
+        // Join punctuation, internal hyphens and the edition to their word.
+        const tw=document.createTreeWalker(bdi,NodeFilter.SHOW_TEXT),nodes=[];while(tw.nextNode())nodes.push(tw.currentNode);
+        for(const node of nodes)node.data=node.data.replace(/([\p{Script=Latin}0-9])-(?=[\p{Script=Latin}0-9])/gu,'$1\u2060-\u2060').replace(/([.,;:!?])$/u,'\u2060$1');
+        output.append(bdi);end=m.index+m[0].length;
+      }
+      output.append(slice(end,text.length));block.replaceChildren(output);
     }
+    for(const list of box.querySelectorAll('ul,ol'))list.dir=list.querySelector('li')?.dir||'auto';
     for(const block of box.querySelectorAll(blocks)){
       if(block.querySelector(blocks))continue;
       // A word joiner crosses the isolate boundary without splitting the Latin
@@ -528,7 +554,7 @@ window.HazzardMCQ = (() => {
     }
     function jump(id){
       restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort=bankMode?'shuffled':'source';if(sort==='shuffled'&&seed===undefined)seed=newSeed();missedOnly=flagsView=savedView=savedOnly=false;missedIds=null;
-      id=currentId(id);if(bad(id))hiddenTarget=id;if(standoutHidden(id)){hiddenTarget=id;notice='This question is hidden. To serve it, turn on '+standoutLabel+' in Practice settings.';}dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
+      id=currentId(id);hiddenTarget=null;if(bad(id))hiddenTarget=id;if(standoutHidden(id)){hiddenTarget=id;notice='This question is hidden. To serve it, turn on '+standoutLabel+' in Practice settings.';}dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
       const url=new URL(location.href);url.searchParams.delete('q');url.hash='';history.replaceState({...history.state,mcqView:null},'',url);
       render();host.scrollTop=0;saveView();
       host.querySelector('.mcq-question')?.scrollIntoView({block:'start'});
@@ -539,11 +565,15 @@ window.HazzardMCQ = (() => {
       const explicit=q.bookPage||Number(q.ref.match(/\bp\.?\s*(\d+)/i)?.[1]);
       return ch?{chapter,page:explicit||ch.start,available:true,chapterStart:!explicit}:null;
     }
+    function sourceHTML(source){
+      const parts=String(source).split(/((?:pp?\.?\s*|\u00a7{1,2}\s*)\d+(?:[.,\u2013-]\d+)*|\b\d+(?:[\u2013-]\d+)+)/g);
+      return parts.map((part,i)=>i%2?'<bdi dir="ltr" class="mcq-source-locator">'+escape(part)+'</bdi>':'<bdi dir="auto">'+escape(part)+'</bdi>').join('');
+    }
     function citationHTML(q){
       const ref=evidence.questions[q.id];
-      const source=q.ref.replace(/\s*·\s*/g,' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
+      const source=sourceTitle(q.ref).replace(/\s*·\s*/g,' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
       const practice=practicePage(q);
-      let html='<div class="mcq-citations">'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">Source: '+escape(source)+'</button>':'<p class="meta">Source: '+escape(source||sourceLabel(q))+'</p>');
+      let html='<div class="mcq-citations">'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">Source: '+sourceHTML(source)+'</button>':'<p class="meta">Source: '+sourceHTML(source||sourceLabel(q))+'</p>');
       if(generated(q)&&practice&&!ref?.pages?.some(p=>p.available))html+='<button class="mcq-page-link" data-page="'+practice.page+'">Open page '+practice.page+(practice.chapterStart?' (chapter start)':'')+'</button>';
       if(q.referenceNote)html+='<p class="meta" dir="auto">'+escape(q.referenceNote)+'</p>';
       const assigned=ref?.chapters.length?ref.chapters:[String(q.chapter)];
@@ -658,11 +688,11 @@ window.HazzardMCQ = (() => {
       return badList(byId)+'<h2>Topic flags</h2>'+(entries.length?entries.map(([id,f])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><div class="mcq-mixed" dir="auto">'+rich(q?q.q:'Question no longer in the current bank')+'</div><p class="meta">'+escape(f.scopes.map(scopeLabel).join(' · '))+'</p><button class="quiet" data-undo-flag="'+id+'">Undo flag</button></section>';}).join(''):'<p>No topic flags.</p>')+answerFlagsList(byId);
     }
     function paperId(q){return paper.ids.filter(id=>currentId(id)===q.id).sort((a,b)=>(paper.answers[b]?.at??-1)-(paper.answers[a]?.at??-1))[0]||q.id;}
-    function badList(byId){try{const entries=Object.entries(readBad().items).filter(([,r])=>r.bad).sort((a,b)=>b[1].at-a[1].at);return '<h2>Bad question ('+entries.length+')</h2>'+entries.map(([id,r])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><p dir="auto">'+escape(q?.q.slice(0,180)||id)+'</p><p class="meta">'+escape(q?sourceLabel(q):'Unavailable question')+' ? '+new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',dateStyle:'short'}).format(r.at)+'</p><a href="?chapter=bank&amp;q='+id+'">Open</a> <button data-bad="'+id+'">Unflag</button></section>';}).join('')+badStatus();}catch{return '<h2>Bad question</h2><p>unavailable</p>';}}
+    function badList(byId){try{const entries=Object.entries(readBad().items).filter(([,r])=>r.bad).sort((a,b)=>b[1].at-a[1].at);return '<h2>Bad question ('+entries.length+')</h2>'+entries.map(([id,r])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><p dir="auto">'+escape(q?.q.slice(0,180)||id)+'</p><p class="meta">'+escape(q?sourceLabel(q):'Unavailable question')+' \u00b7 '+new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',dateStyle:'short'}).format(r.at)+'</p><a href="?chapter=bank&amp;q='+id+'">Open</a> <button data-bad="'+id+'">Unflag</button></section>';}).join('')+badStatus();}catch{return '<h2>Bad question</h2><p>unavailable</p>';}}
     function stateFor(q){const saved=redoMode?(retryAnswers.get(q.id)||empty()):reviewMode?(reviewBatch?.answers[q.id]||empty()):mockMode?(paper.answers[paperId(q)]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());return saved.checked&&q.sourceChecked?.changedAt&&saved.at<Date.parse(q.sourceChecked.changedAt)?{...saved,checked:false,olderVersion:true}:saved;}
     function reviewDisplayPosition(){const list=visible(),i=list.findIndex(q=>reviewBatch.ids.findIndex(id=>currentId(id)===q.id)>=reviewBatch.position);return i<0?list.length:i;}
     function visible(includeHidden=false){
-      const allowed=q=>(!bad(q.id)||hiddenTarget===q.id)&&(includeHidden||!standoutHidden(q.id));
+      const allowed=q=>(!bad(q.id)||hiddenTarget===q.id&&!savedOnly&&!savedView&&!flagsView&&!missedOnly&&!reviewMode&&!redoMode&&!mockMode)&&(includeHidden||!standoutHidden(q.id));
       if(redoMode){const byId=new Map(items.map(q=>[q.id,q]));return [...redoIds].map(id=>byId.get(id)).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));}
       if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));return (reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));}
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q)&&q.mockEligible!==false&&(settings.topic==='all'||membership(q).includes(Number(settings.topic))&&!flagged(q,'topic:'+settings.topic))&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
@@ -727,7 +757,7 @@ window.HazzardMCQ = (() => {
       if(!q){content.innerHTML='<p>No questions match these filters.</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
       const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'],order=optionOrder(q,bankMode);content.dataset.bankId=q.id;
-      content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(q.chapter?' · Reader chapter '+escape(q.chapter):'')+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?'<p class="mcq-source-note" role="note">Generated practice, about 1 in 10 known wrong; if it disagrees with the book, the book wins.</p>'+answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label?'<p class="mcq-source-note" role="note">'+escape(sourceTitle(q.label))+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
+      content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(q.chapter?' · Reader chapter '+escape(q.chapter):'')+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?'<p class="mcq-source-note" role="note">Generated practice, about 1 in 10 known wrong; if it disagrees with the book, the book wins.</p>'+answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label?'<p class="mcq-source-note" role="note">'+sourceHTML(sourceTitle(q.label))+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
         (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'<div class="mcq-confidence">'+revisionButtons(q)+'</div>':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+revisionButtons(q)+'</div>'+unsureStatus(q,state,review))+revisionStatus()+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+order.map((i,display)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(letters[display]||String(display+1))+(state.checked&&accepted.includes(i)?' ✓':state.checked&&state.selected===i?' ✕':'')+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(q.o[i])+'</span></button>').join('')+'</div>'+
@@ -773,11 +803,12 @@ window.HazzardMCQ = (() => {
           building=n==='builder'||!paper||!(n==='resume'||url.searchParams.get('run')==='1');
           const available=new Set(items.map(q=>q.id));if(paper&&!paper.ids.every(id=>available.has(currentId(id)))){building=true;storageError='Some saved paper questions are unavailable in this release. Start a new paper.';}
         }
-        if(mockMode&&history.state?.mcqMockView){building=history.state.mcqMockView.building;articleSelected=history.state.mcqMockView.articleSelected;}
+        if(mockMode&&new URL(location.href).searchParams.get('n')!=='builder'&&history.state?.mcqMockView){building=history.state.mcqMockView.building;articleSelected=history.state.mcqMockView.articleSelected;}
         let view=history.state?.mcqView;
         const target=bankMode&&!reviewMode?new URL(location.href).searchParams.get('q'):null;
         if(bankMode&&!reviewMode&&!redoMode&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
-        const samePlace=!new URL(location.href).searchParams.has('statsFilter')&&!target&&resumePlace&&resumePlace.screen===practiceScreen();
+        const explicitMissed=bankMode&&location.hash==='#missed'&&new URL(location.href).searchParams.get('practiceResume')!=='1';
+        const samePlace=!explicitMissed&&!(mockMode&&new URL(location.href).searchParams.get('n')==='builder')&&!new URL(location.href).searchParams.has('statsFilter')&&!target&&resumePlace&&resumePlace.screen===practiceScreen();
         if(samePlace){
           if(resumePlace.screen==='missed'){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{view=null;}}
           if(resumePlace.view&&!reviewMode&&!redoMode)view=resumePlace.view;
@@ -787,7 +818,8 @@ window.HazzardMCQ = (() => {
           if(mockMode){building=!!resumePlace.building;articleSelected=!!resumePlace.articleSelected;}
         }
         const statsFilter=new URL(location.href).searchParams.get('statsFilter');
-        const restored=!statsFilter&&!target&&restoreView(view);
+        const restored=!explicitMissed&&!statsFilter&&!target&&restoreView(view);
+        if(explicitMissed){filter=topic='all';year=[];level=[];missedOnly=true;flagsView=savedView=savedOnly=false;missedIds=null;position=0;}
         if(statsFilter){filter=['law','articles'].includes(statsFilter)?statsFilter:'all';topic=/^\d+$/.test(statsFilter)?statsFilter:'all';year=[];level=[];missedOnly=flagsView=savedView=savedOnly=false;position=0;}
         if(bankMode&&!resumePlace&&new URL(location.href).searchParams.get('practiceResume')==='1'){flagsView=savedView=savedOnly=missedOnly=false;const n=visible().findIndex(q=>q.id===view?.id);position=Math.max(0,n);}
         if(samePlace&&resumePlace.id&&(redoMode||savedOnly)){const n=visible().findIndex(q=>q.id===resumePlace.id);if(n>=0)position=n;}
@@ -816,7 +848,8 @@ window.HazzardMCQ = (() => {
       const form=new FormData(event.target),q=items.find(q=>q.kind==='past'&&q.t===form.get('sitting')&&q.examNumber===Number(form.get('number')||1));
       if(q)jump(q.id);else event.target.querySelector('[data-jump-status]').textContent='No question with that sitting and number.';
     });
-    host.addEventListener('change',event=>{const name=event.target.dataset.select;if(!name)return;restoredViewUnchanged=false;lastAnswer=null;const value=event.target.value;
+    host.addEventListener('change',event=>{
+      hiddenTarget=null;const name=event.target.dataset.select;if(!name)return;restoredViewUnchanged=false;lastAnswer=null;const value=event.target.value;
       if(name==='mock-topic'){settings.topic=value;save();render();return;}
       if(name==='review-size'){try{const r=HazzardReview.size(Number(value),items.filter(q=>!excluded(q.id)));reviewBatch=r.batch;position=reviewDisplayPosition();notice='Batch size saved. Completed answers are kept.';}catch{storageError='Batch size could not be saved.';}render();return;}
       if(['topic','year','level','mock-year','mock-level'].includes(name)){
@@ -832,6 +865,7 @@ window.HazzardMCQ = (() => {
     });
     host.addEventListener('click',event=>{
       const button=event.target.closest('button');if(!button||!host.contains(button)||button.disabled)return;restoredViewUnchanged=false;const action=button.dataset.mcq;
+      if(['flags','questions','saved','practice-saved','missed','reshuffle','next','prev','notes'].includes(action)||button.dataset.savedTopic!==undefined)hiddenTarget=null;
       if(!button.hasAttribute('data-revision')&&button.dataset.option===undefined&&button.dataset.image===undefined&&button.dataset.page===undefined&&!['undo','unsure','save'].includes(action))lastAnswer=null;
       if(action==='notes'){controller.notes();return;}if(action==='load'){load();return;}if(action==='save'){save();render();return;}
       if(['flags','questions','saved'].includes(action)){flagsView=action==='flags';savedView=action==='saved';if(action==='questions')savedOnly=false;const url=new URL(location.href);url.hash=savedView?'saved':flagsView?'flags':'';url.searchParams.delete('q');url.searchParams.delete('saved');history.replaceState(history.state,'',url);render();host.scrollTop=0;return;}

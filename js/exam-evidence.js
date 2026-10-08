@@ -38,7 +38,7 @@ window.HazzardEvidence = (() => {
       if (year === '2026') span.className = 'chapter-exams-latest';
       link.append(span);
     }
-    const record=document.createElement('span');record.className='chapter-exams-record';record.textContent=' ? '+await HazzardStats.chapter(chapter,data);link.append(record);
+    const record=document.createElement('span');record.className='chapter-exams-record';record.textContent=' \u00b7 '+await HazzardStats.chapter(chapter,data);link.append(record);
     if (open) link.onclick = event => {event.preventDefault();open();};
     return link;
   }

@@ -153,3 +153,8 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .stats-bar{height:8px;background:var(--line,#ddd);border-radius:4px;overflow:hidden;margin:8px 0}
 .stats-bar span{display:block;height:100%;background:var(--accent,#286050)}
 .stats-total{font-size:1.2em;font-weight:700}
+
+/* Inline Latin phrases share one bidi context across bold/italic text. */
+.mcq-mixed bdi.mcq-latin-run{display:inline;overflow-wrap:normal;word-break:normal}
+.mcq-source-locator{white-space:nowrap;unicode-bidi:isolate}
+.mcq-mixed :is(ul,ol){padding-left:0;padding-right:0;padding-inline-start:1.5em;margin-inline:0}
