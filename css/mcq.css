@@ -136,3 +136,8 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .mcq-mixed bdi.mcq-citation-run{display:inline-block;direction:ltr;unicode-bidi:isolate;overflow-wrap:anywhere}
 
 .mcq-mixed bdi.mcq-citation-hebrew{direction:rtl;text-align:right}
+
+/* LTR prose wraps naturally; only prefixes and terminal marks bind to a word. */
+.mcq-mixed [dir="ltr"] bdi,.mcq-mixed [dir="ltr"] bdi.mcq-citation-run{display:inline}
+.mcq-mixed .mcq-option-label{direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+.mcq-mixed bdi.mcq-prefix-run{display:inline}

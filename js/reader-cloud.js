@@ -83,15 +83,21 @@ window.HazzardCloud = (() => {
     if(!navigator.onLine){schedule();return;}
     if(!manual&&!keepalive&&Date.now()-(state.attemptAt||0)<INTERVAL){schedule();return;}
     busy=true;clearTimeout(timer);const generation=epoch,token=session.session_token;
-    let payload;
+    let payload,captured;
     try{
-      payload=bridge.capture();
+      payload=bridge.capture();captured=JSON.stringify(payload.storage);
       if(!manual&&JSON.stringify(payload.storage)===lastUploaded){state.dirty=false;saveState();return;}
       state.attemptAt=Date.now();saveState();render();
+      // Fetch at upload time: a different device may have newer preferences.
+      // Missing/corrupt local settings never erase a valid cloud preference.
+      const cloud=await rpc('hazzard_cloud_get',{p_token:token,p_which:'current'},keepalive,token);
+      if(generation!==epoch)return;
+      const key=HazzardMCQ.SETTINGS_KEY,local=HazzardMCQ.settingsFromRaw(payload.storage[key]),remote=HazzardMCQ.settingsFromRaw(cloud.data?.storage?.[key]);
+      if(remote)payload.storage[key]=JSON.stringify(HazzardMCQ.mergeSettings(local,remote));
       const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
       if(generation!==epoch)return;
-      lastUploaded=JSON.stringify(payload.storage);state.syncedAt=result.updated_at||new Date().toISOString();
-      state.dirty=JSON.stringify(bridge.capture().storage)!==JSON.stringify(payload.storage);
+      lastUploaded=captured;state.syncedAt=result.updated_at||new Date().toISOString();
+      state.dirty=JSON.stringify(bridge.capture().storage)!==captured;
       saveState();tick=true;error='';notice='';
       previous=current?.exists?current:previous;
       current={exists:true,updated_at:state.syncedAt,data:payload};
