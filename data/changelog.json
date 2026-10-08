@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v139",
+      "date": "2026-10-08",
+      "changes": [
+        "Practice opens where you left off, and Practice settings stay as you set them.",
+        "Display fixes for English text, prefixes, citations and source names; 22 US-only practice questions retired."
+      ]
+    },
+    {
       "version": "v138",
       "date": "2026-10-08",
       "changes": [

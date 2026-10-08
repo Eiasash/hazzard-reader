@@ -79,6 +79,8 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - `tools/verify_study_pages.py` — bolded numbers vs cited page. 52 current misses, all known false positives (image-only or spelled-out numbers; a note sitting between a number and its page cite).
 
 ## Cosmetic list (doesn't block anything)
+- Practice badge shows Changed questions (26), while the menu says Review (28 due); the two different counts look inconsistent.
+- Exam simulation is styled as a link in the Practice menu, unlike its other rows.
 - ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds rows p913 lacks).
 - Odd heading casing here and there.
 
