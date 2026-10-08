@@ -1,5 +1,5 @@
 {
-  "version": "v140",
+  "version": "v140-r1",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -6673,8 +6673,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "eeb3652903455dfdcfdae5abf157b49a585fb88c345f0faacbf826004de11ecd",
-      "bytes": 3327497
+      "sha256": "e7bf08b3bcc1340f9f188b35451952191759ed0a0b8ac322eeac79884b0aac18",
+      "bytes": 3327484
     },
     {
       "url": "./js/changed-questions.js",
@@ -6738,8 +6738,8 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "a415ec2b39d70a1854c4a1293ea76be8ce04671cbcc59cd5879d0b56c2ee05cc",
-      "bytes": 8228
+      "sha256": "a018b9808ae2a0c88174b6cdf20b97a5db56d7d4bb7e1f87e740740e3d73138c",
+      "bytes": 8231
     },
     {
       "url": "./js/reader-storage.js",
@@ -6753,8 +6753,8 @@
     },
     {
       "url": "./js/stats.js",
-      "sha256": "29537b4274195a2b09a9c403f5c9fa453cba37dccc2350da0d9ad35e0126b5ec",
-      "bytes": 12491
+      "sha256": "19bad4b1e40ce6d15977bfeae2a40548885b146ab0f74bdf550d304824b34a53",
+      "bytes": 12535
     },
     {
       "url": "./manifest.json",
