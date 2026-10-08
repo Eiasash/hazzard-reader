@@ -3,7 +3,7 @@
 window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
-  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardReview.KEY);
@@ -30,6 +30,7 @@ window.HazzardStorage = (() => {
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
+  else if(key===HazzardMCQ.SAVED_KEY)valid=HazzardMCQ.validSaved(value);
   else if(key===HazzardMCQ.FLAGS_KEY)valid=HazzardMCQ.validFlags(value);
   else if(key===HazzardMCQ.GENERATED_FLAGS_KEY)valid=HazzardMCQ.validGeneratedFlags(value);
   else if(key===HazzardMCQ.SYSTEM_KEY)valid=HazzardMCQ.validSystem(value);
@@ -53,6 +54,7 @@ window.HazzardStorage = (() => {
   const protectedStores=new Map([
     [HazzardReview.KEY,{label:'Review history',fresh:'review',empty:()=>({version:1,items:{},seed:{count:0,at:Date.now()},settings:{size:30,at:0},batch:null,batchAt:0})}],
     [HazzardMCQ.KEY,{label:'Answers',fresh:'answers',empty:()=>({version:1,answers:{}})}],
+    [HazzardMCQ.SAVED_KEY,{label:'Saved revision',fresh:'saved revision',empty:HazzardMCQ.emptySaved}],
     [HazzardMCQ.FLAGS_KEY,{label:'Topic flags',fresh:'topic flags',empty:()=>({version:1,flags:{},lawTopics:{ids:[],at:0}})}],
     [HazzardMCQ.GENERATED_FLAGS_KEY,{label:'Generated-practice flags',fresh:'generated-practice flags',empty:()=>[]}],
     [HazzardMCQ.SYSTEM_KEY,{label:'Source choices',fresh:'source choices',empty:()=>({version:1,selected:false,at:0,flags:{}})}],

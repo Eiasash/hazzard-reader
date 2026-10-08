@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v138",
+      "date": "2026-10-08",
+      "changes": [
+        "Save questions and topics for revision: Save buttons on every question and a Saved tab in the Question bank.",
+        "Hebrew display fixes in explanations: on-screen option letters, mixed Hebrew–English citations, arrows and prefixes; document titles instead of file names."
+      ]
+    },
+    {
       "version": "v137",
       "date": "2026-10-07",
       "changes": [
