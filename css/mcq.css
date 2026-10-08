@@ -141,3 +141,15 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .mcq-mixed [dir="ltr"] bdi,.mcq-mixed [dir="ltr"] bdi.mcq-citation-run{display:inline}
 .mcq-mixed .mcq-option-label{direction:ltr;unicode-bidi:isolate;white-space:nowrap}
 .mcq-mixed bdi.mcq-prefix-run{display:inline}
+
+/* Plain, scrollable phone statistics; no chart runtime. */
+#statsViewport{position:absolute;inset:0;z-index:8;overflow:auto;background:var(--bg,#fff);overscroll-behavior:contain;padding-bottom:32px}
+.stats-page{max-width:760px;margin:auto;overflow-wrap:anywhere}
+.stats-section{margin:24px 0;padding-top:12px;border-top:1px solid var(--line,#ccc)}
+.stats-section article{padding:12px 0;border-bottom:1px solid var(--line,#ddd)}
+.stats-section h3{margin:4px 0;font-size:1em}.stats-section p{margin:8px 0}
+.stats-actions,.mcq-confidence{display:flex;flex-wrap:wrap;gap:6px;max-width:100%}
+.stats-actions a,.stats-actions button{min-height:44px;display:inline-flex;align-items:center;padding:6px 10px;font:inherit}
+.stats-bar{height:8px;background:var(--line,#ddd);border-radius:4px;overflow:hidden;margin:8px 0}
+.stats-bar span{display:block;height:100%;background:var(--accent,#286050)}
+.stats-total{font-size:1.2em;font-weight:700}

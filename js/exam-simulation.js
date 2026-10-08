@@ -29,6 +29,7 @@ window.HazzardSimulation = (() => {
     return {version:1,at:Math.max(a.at,b.at),session,history};
   }
   function write(v){if(!valid(v))throw Error('Exam simulation could not be saved.');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-simulation-change'));return v;}
+  const localLogs=new Map();
   let bankPromise,checking=false,backgroundError='';
   function bank(){return bankPromise ||= fetch('data/mcq/all.json').then(r=>{if(!r.ok)throw Error('Exam questions unavailable. Reconnect and try again.');return r.json();}).catch(e=>{bankPromise=null;throw e;});}
   function questions(s,all){const byId=new Map(all.map(q=>[q.id,q]));const list=s.ids.map(id=>byId.get(HazzardMCQ.currentId(id)));if(list.some((q,i)=>!q||q.t!==s.sitting||q.examNumber!==i+1))throw Error('This sitting is incomplete. The saved attempt has been kept.');return list;}
@@ -38,6 +39,7 @@ window.HazzardSimulation = (() => {
     // make replay safe after a failed write, reload, restore or another tab.
     const incoming=HazzardMCQ.migrateValue(HazzardMCQ.KEY,{version:1,answers:s.commit.answers});
     HazzardStorage.setItem(HazzardMCQ.KEY,JSON.stringify(HazzardMCQ.mergeStore(HazzardMCQ.readStore(false),incoming)));
+    for(const action of localLogs.get(s.id)||[]){const a=s.commit.answers[action.id];if(a?.checked&&HazzardMCQ.persistedAnswer(action.id,a))HazzardMCQ.appendLog(action);}
     HazzardReview.write(HazzardReview.merge(HazzardReview.read(),s.commit.review));
     s.status='submitted';s.at=Math.max(Date.now(),s.at+1);v.at=s.at;return write(v);
   }
@@ -46,11 +48,12 @@ window.HazzardSimulation = (() => {
     if(s.status!=='running')return finish(v);
     const list=questions(s,all),now=Date.now(),ended=Math.min(now,s.deadline),normal=HazzardMCQ.readStore(),review=HazzardReview.read(),answerUpdates={};
     // Store only changed review records; preserve the user's daily batch/settings.
-    const reviewUpdates={...review,items:{}};
+    const reviewUpdates={...review,items:{}};const logs=[];
     let correct=0,total=0;
     list.forEach((q,i)=>{
       const id=s.ids[i],selected=s.answers[id]??null,at=Math.max(ended,(normal.answers[q.id]?.at||0)+1,(review.items[q.id]?.at||0)+1);
       answerUpdates[id]={selected,checked:selected!==null,at};
+      if(selected!==null){const action=HazzardMCQ.logAction(q,'answer',s.id+':'+HazzardMCQ.currentId(id),ended);if(action){action.entry[1]=review.items[q.id]?.unsure?'u':q.accepted.includes(selected)?'c':'w';logs.push(action);}}
       if(!scored(q))return;
       total++;const right=selected!==null&&q.accepted.includes(selected);if(right)correct++;
       const previous=review.items[q.id];
@@ -58,7 +61,7 @@ window.HazzardSimulation = (() => {
     });
     const result={sitting:s.sitting,at:ended,correct,total,timeMs:Math.max(0,ended-s.startedAt),automatic:automatic||now>=s.deadline};
     s.status='submitting';s.commit={answers:answerUpdates,review:reviewUpdates};s.at=Math.max(now,s.at+1);v.at=s.at;v.history[s.id]=result;
-    write(v);return finish(v);
+    localLogs.set(s.id,logs);write(v);return finish(v);
   }
   async function check(){
     if(checking)return;checking=true;
@@ -120,6 +123,7 @@ window.HazzardSimulation = (() => {
     }
     // Re-read before each edit so a stale tab cannot unlock a submitted attempt.
     function edit(change,allowSubmitted=false){const v=read(),s=v.session;if(!s)return;if(s.status==='running'&&Date.now()>=s.deadline){check();return;}if(s.status!=='running'&&!(allowSubmitted&&s.status==='submitted'))return;change(s);s.at=Math.max(Date.now(),s.at+1);v.at=s.at;write(v);}
+    addEventListener('hazzard-bad-change',()=>{if(loaded)render();});
     addEventListener('hazzard-saved-change',()=>{if(loaded){const y=host.scrollTop;render();host.scrollTop=y;}});
     host.addEventListener('change',e=>{if(e.target.name==='duration'){duration=e.target.value;const field=host.querySelector('.sim-custom');field.hidden=duration!=='custom';field.querySelector('input').disabled=duration!=='custom';field.querySelector('input').required=duration==='custom';}if(e.target.name==='sitting')selectedSitting=e.target.value;if(e.target.name==='custom')custom=e.target.value;});
     host.addEventListener('submit',async e=>{

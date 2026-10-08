@@ -3,7 +3,7 @@
 window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
-  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardMCQ.SETTINGS_KEY);
@@ -32,6 +32,8 @@ window.HazzardStorage = (() => {
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
   else if(key===HazzardMCQ.SETTINGS_KEY)valid=HazzardMCQ.validSettings(value);
+  else if(key===HazzardMCQ.LOG_KEY)valid=HazzardMCQ.validLog(value);
+  else if(key===HazzardMCQ.BAD_KEY)valid=HazzardMCQ.validBad(value);
   else if(key===HazzardMCQ.SAVED_KEY)valid=HazzardMCQ.validSaved(value);
   else if(key===HazzardMCQ.FLAGS_KEY)valid=HazzardMCQ.validFlags(value);
   else if(key===HazzardMCQ.GENERATED_FLAGS_KEY)valid=HazzardMCQ.validGeneratedFlags(value);
@@ -54,6 +56,8 @@ window.HazzardStorage = (() => {
   }
   // Unreadable practice stores stay byte-for-byte intact until an explicit recovery.
   const protectedStores=new Map([
+    [HazzardMCQ.LOG_KEY,{label:'Weekly answer log',fresh:'weekly log',empty:HazzardMCQ.emptyLog}],
+    [HazzardMCQ.BAD_KEY,{label:'Bad question flags',fresh:'bad flags',empty:HazzardMCQ.emptyBad}],
     [HazzardReview.KEY,{label:'Review history',fresh:'review',empty:()=>({version:1,items:{},seed:{count:0,at:Date.now()},settings:{size:30,at:0},batch:null,batchAt:0})}],
     [HazzardMCQ.KEY,{label:'Answers',fresh:'answers',empty:()=>({version:1,answers:{}})}],
     [HazzardMCQ.SAVED_KEY,{label:'Saved revision',fresh:'saved revision',empty:HazzardMCQ.emptySaved}],
