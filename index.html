@@ -99,7 +99,8 @@ figure{margin:var(--s6) 0} img,svg{max-inline-size:100%;block-size:auto}
 .full{inline-size:100%}
 .rows{list-style:none;margin:0;padding:0}
 .rows li{border-block-end:var(--line) solid var(--rule)}
-.rows button{display:block;inline-size:100%;text-align:start;border:0;border-radius:0;background:transparent;padding:var(--s4) 0}
+.rows button,.rows a.sim-entry{display:block;inline-size:100%;text-align:start;border:0;border-radius:0;background:transparent;padding:var(--s4) 0}
+.rows a.sim-entry{font-family:var(--ui);font-weight:500;color:var(--ink);text-decoration:none;box-sizing:border-box}
 .rows strong,.rows small{display:block}
 .rows small{font-size:var(--small);color:var(--muted);font-weight:400;margin-block-start:var(--s1)}
 .row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:var(--s2)}
@@ -315,7 +316,7 @@ body{padding-block-end:var(--tabs-height)}
 #panel .icon-control svg{width:20px;height:20px}
 #readerLinks{border-top:1px solid var(--rule);padding-top:8px;justify-content:space-between}
 #panelBack{font-size:calc(12px * var(--fs,1))}
-#panel .rows button{font-size:calc(14px * var(--fs,1))}
+#panel .rows button,#panel .rows a.sim-entry{font-size:calc(14px * var(--fs,1))}
 #panel .meta{font-size:calc(12px * var(--fs,1))}
 #panel .rows small{font-size:calc(12px * var(--fs,1))}
 #panel [data-pane="practice"]>p{font:400 calc(14px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
@@ -388,7 +389,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel .dialog-head{margin-bottom:4px}
 #panel .settings-controls{gap:8px;margin-bottom:8px}
 #panel .settings-controls label{margin:0}
-#panel .rows button{padding-block:8px;font-size:calc(13px * var(--fs,1))}
+#panel .rows button,#panel .rows a.sim-entry{padding-block:8px;font-size:calc(13px * var(--fs,1))}
 #panel .nb-heading{font-size:calc(15px * var(--fs,1))}
 .library-row>.chapter-name{font-size:calc(13px * var(--fs,1));padding-block:8px}
 #chapterResults button,#bankSearchResults button{font-size:calc(13px * var(--fs,1));padding-block:8px}
@@ -499,7 +500,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel:not([data-current-pane="tools"]) #closePanel{position:relative;min-width:40px;min-height:40px;min-block-size:40px;width:40px;height:40px;padding:2px;border:0;background:transparent;font:calc(24px * var(--fs,1))/36px var(--ui)}
 #panel:not([data-current-pane="tools"]) #closePanel::before{content:"";position:absolute;inset:2px;border:1px solid var(--control);border-radius:10px;pointer-events:none}
 #panel:not([data-current-pane="tools"]) [data-pane]{padding-bottom:0}
-#panel:not([data-current-pane="tools"]) .rows button{min-height:calc(44px * var(--fs,1));min-block-size:40px;padding:calc(4px * var(--fs,1)) 0;font-size:calc(15px * var(--fs,1));line-height:1.2}
+#panel:not([data-current-pane="tools"]) .rows button,#panel:not([data-current-pane="tools"]) .rows a.sim-entry{min-height:calc(44px * var(--fs,1));min-block-size:40px;padding:calc(4px * var(--fs,1)) 0;font-size:calc(15px * var(--fs,1));line-height:1.2}
 #panel:not([data-current-pane="tools"]) .rows small{font-size:calc(12px * var(--fs,1));line-height:1.25;margin-top:0}
 #panel:not([data-current-pane="tools"]) .meta{font-size:calc(12px * var(--fs,1));margin:calc(4px * var(--fs,1)) 0}
 #panel [data-pane="practice"]>p{display:none}
@@ -32678,7 +32679,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v149 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v150 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v150",
+      "date": "2026-10-09",
+      "changes": [
+        "Practice-place snapshots, Saved scroll, phone lab tables, Practice statistics and menu styling fixed."
+      ]
+    },
+    {
       "version": "v149",
       "date": "2026-10-09",
       "changes": [

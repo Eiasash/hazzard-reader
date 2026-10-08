@@ -1,5 +1,5 @@
 {
-  "version": "v149",
+  "version": "v150",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5958,8 +5958,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "6a1f028ee41dac5fbc98bd46a7e39db5eb3a31501fabb03100ec6eb6558b4963",
-      "bytes": 21847
+      "sha256": "0447aca2ee8506f341de74fd41c70261483e9a0e1e7b6c64f190a8ad5f09dc31",
+      "bytes": 21913
     },
     {
       "url": "./css/memory-aids.css",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "0af67be015cae21f7b09d0a990997202263ae6be543c90db4d2807f294a29d01",
-      "bytes": 30023
+      "sha256": "9d3318077ada2424db1d8f7bc057f84232e707794a58a245bd93a06854912f46",
+      "bytes": 30228
     },
     {
       "url": "./data/drug-index.json",
@@ -6673,8 +6673,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "52782b4e457fbad2573e7d6e8887be0fd1f615b42f0a433b5b636ed98eb9a7be",
-      "bytes": 3327623
+      "sha256": "eaca182cf16d26e2e837ba53a5e6913161d56314aacb10fdf852bf4a7b70db6e",
+      "bytes": 3327866
     },
     {
       "url": "./js/changed-questions.js",
@@ -6713,8 +6713,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "89ee88294110d8d254fbba4bed3f51b771fdef4498ca026d1657055f9367f803",
-      "bytes": 120088
+      "sha256": "0ed1e96db290098aa1e149994dc39599b23ed2d7dd6f9aa2dbb9c465f6275d94",
+      "bytes": 120912
     },
     {
       "url": "./js/memory-aids.js",
@@ -6738,13 +6738,13 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "16b0e057b9128f02302c15e8cf866215e9ecda5d064a3fabaf1105932261d599",
+      "sha256": "eb24fb8c0db287e489937cab03c0b05cc69e3e08f3ec89277bbd03b03ce59a08",
       "bytes": 8228
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "e8863078954e39c6f9cdcf5f6a86c1cb22433ee4e331a8839fe3ad624100e9b3",
-      "bytes": 15157
+      "sha256": "b882e29a281b20f5d94495c80720d3302c264c49d5c495f5be41d2765c6ad627",
+      "bytes": 15476
     },
     {
       "url": "./js/reader-whats-new.js",
@@ -6753,8 +6753,8 @@
     },
     {
       "url": "./js/stats.js",
-      "sha256": "dbbc4992fbe106f214ce893f86cf0a516586d45c2599146dcf195656196bce82",
-      "bytes": 12676
+      "sha256": "548ae2f9f5162e6b105f91efcaf97a5485e2d3c49676608f1c653c2df6b6f0a8",
+      "bytes": 12697
     },
     {
       "url": "./manifest.json",
