@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v140'; // Statistics, weekly answers and bad-question flags.
+const CACHE_VERSION = 'v140-r1'; // Statistics, weekly answers and bad-question flags.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
