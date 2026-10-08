@@ -317,13 +317,14 @@ window.HazzardMCQ = (() => {
   function latinRuns(terminal=false){
     const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
     const word = `[${base}][${base}\\p{M}]*`;
-    // Connectors join only Latin letters/digits on both sides, never Hebrew.
-    const connector = String.raw`(?<=[\p{Script=Latin}0-9])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
-    const token = `(?:[~≈±](?=\\d))?${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|${connector})${word})*`;
+    // An English closing bracket can also connect to the next Latin atom.
+    const connector = String.raw`(?<=[\p{Script=Latin}0-9)])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
+    const sign = String.raw`(?:(?<![^ \t(=:])[-−](?=\d)|[~≈±](?=\d))?`;
+    const token = `${sign}${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|${connector})${word})*`;
     const quotes = `'"„“”‘’`;
     const body = `[${base}][${base}\\p{M} \\t.,;${quotes}°^:/+%−–—→←<>=≤≥±×&-]*`;
     const quoted = `(?<![${base}])[${quotes}]${body}[${quotes}](?![${base}])`;
-    const bracketed = `\\([ \\t]*[${quotes}]?${body}\\)`;
+    const bracketed = `\\([ \\t]*[${quotes}]?${body}[ \\t]*\\)`;
     const atom = `(?:${bracketed}|${quoted}|${token}%?)`;
     return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector})${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
   }
@@ -441,6 +442,26 @@ window.HazzardMCQ = (() => {
         output.append(bdi);end=m.index+m[0].length;
       }
       output.append(slice(end,text.length));block.replaceChildren(output);
+    }
+    // Keep short English brackets whole; long titles keep their normal wrapping.
+    const bracketWalker=document.createTreeWalker(box,NodeFilter.SHOW_TEXT),bracketNodes=[];
+    while(bracketWalker.nextNode())bracketNodes.push(bracketWalker.currentNode);
+    for(const node of bracketNodes){
+      const fragment=document.createDocumentFragment();let end=0;
+      for(const m of node.data.matchAll(/\([ \t]*['"„“”‘’]?[\p{Script=Latin}\p{Script=Greek}µ0-9][^()\nא-ת]*\)/gu)){
+        const inner=m[0].slice(1,-1).replace(/\u2060/g,'');
+        const short=inner.length<=30&&inner.trim().split(/\s+/u).length<=4;
+        fragment.append(document.createTextNode(node.data.slice(end,m.index)));
+        if(short){const span=document.createElement('span');span.className='mcq-short-bracket';span.textContent=m[0];fragment.append(span);}
+        else {
+          const first=m[0].match(/^\([ \t]*\S+/u)[0],last=m[0].match(/\S+[ \t]*\)$/u)[0];
+          const edge=text=>{const span=document.createElement('span');span.className='mcq-bracket-edge';span.textContent=text;return span;};
+          if(first.length+last.length>=m[0].length)fragment.append(document.createTextNode(m[0]));
+          else fragment.append(edge(first),document.createTextNode(m[0].slice(first.length,m[0].length-last.length)),edge(last));
+        }
+        end=m.index+m[0].length;
+      }
+      if(end){fragment.append(document.createTextNode(node.data.slice(end)));node.replaceWith(fragment);}
     }
     for(const list of box.querySelectorAll('ul,ol'))list.dir=list.querySelector('li')?.dir||'auto';
     for(const block of box.querySelectorAll(blocks)){

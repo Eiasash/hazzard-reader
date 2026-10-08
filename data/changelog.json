@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v146",
+      "date": "2026-10-08",
+      "changes": [
+        "Negative numbers keep their minus sign; English titles in brackets read in order and short ones stay on one line; three cut-off explanations completed from their sources (or marked incomplete where no source is in hand); Statistics section headings no longer hide under the top bar; Jun 2022 Q78 bracket fixed."
+      ]
+    },
+    {
       "version": "v145",
       "date": "2026-10-08",
       "changes": [
