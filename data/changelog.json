@@ -2,6 +2,15 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v142",
+      "date": "2026-10-08",
+      "changes": [
+        "Fixes from the phone test: Missed / flags and Mock builder open from any Practice screen, Source lines show titles, English phrases inside Hebrew read in order, and list bullets stay inside the card.",
+        "A question flagged Bad no longer appears in Practice saved questions.",
+        "Missing words restored in 6 past-exam questions, from the official papers."
+      ]
+    },
+    {
       "version": "v141",
       "date": "2026-10-08",
       "changes": [
