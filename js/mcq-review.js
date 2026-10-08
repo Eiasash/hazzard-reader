@@ -25,7 +25,7 @@ window.HazzardReview = (() => {
   function read(){const v=HazzardStorage.readProtected(KEY,empty);if(!valid(v))throw Error('Unreadable review queue');return canonical(v);}
   function merge(a,b){a=canonical(a);b=canonical(b);const items={...b.items};for(const[id,r]of Object.entries(a.items))if(!items[id]||r.at>=items[id].at)items[id]=r;const newest=a.batchAt>=b.batchAt?a:b;return {version:1,items,seed:!a.seed?b.seed:!b.seed?a.seed:a.seed.at<=b.seed.at?a.seed:b.seed,settings:a.settings.at>=b.settings.at?a.settings:b.settings,batch:newest.batch,batchAt:newest.batchAt};}
   function write(v){if(!valid(v))throw Error('Review queue could not be saved');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-review-change'));return v;}
-  function due(v=read(),today=day(),includeHidden=false){return Object.entries(v.items).filter(([id,r])=>!HazzardMCQ.retired(id)&&!HazzardMCQ.excluded(id)&&(includeHidden||!HazzardMCQ.standoutHidden(id))&&r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
+  function due(v=read(),today=day(),includeHidden=false){return Object.entries(v.items).filter(([id,r])=>!HazzardMCQ.retired(id)&&!HazzardMCQ.bad(id)&&!HazzardMCQ.excluded(id)&&(includeHidden||!HazzardMCQ.standoutHidden(id))&&r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
   function result(previous,{correct,unsure,review=false},now=Date.now()){
     const r={...(previous||blank()),unsure,at:Math.max(now,(previous?.at||0)+1)};
     if(!correct||unsure)return {...r,active:true,step:0,due:plus(day(now),1)};

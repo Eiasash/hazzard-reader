@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v139'; // Practice resume, persistent settings and display fixes.
+const CACHE_VERSION = 'v140'; // Statistics, weekly answers and bad-question flags.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
