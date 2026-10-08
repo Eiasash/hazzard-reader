@@ -6,6 +6,7 @@ window.HazzardStorage = (() => {
   const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
+  keys.add(HazzardMCQ.SETTINGS_KEY);
   keys.add(HazzardReview.KEY);
   keys.add(HazzardSimulation.KEY);
   const owns=key=>typeof key==='string'&&(keys.has(key)||key.startsWith('stage-a-highlights-v1:'));
@@ -30,6 +31,7 @@ window.HazzardStorage = (() => {
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
+  else if(key===HazzardMCQ.SETTINGS_KEY)valid=HazzardMCQ.validSettings(value);
   else if(key===HazzardMCQ.SAVED_KEY)valid=HazzardMCQ.validSaved(value);
   else if(key===HazzardMCQ.FLAGS_KEY)valid=HazzardMCQ.validFlags(value);
   else if(key===HazzardMCQ.GENERATED_FLAGS_KEY)valid=HazzardMCQ.validGeneratedFlags(value);
@@ -114,7 +116,7 @@ window.HazzardStorage = (() => {
   }
   let db=null,tail=Promise.resolve(),queuedPayload=null;
   function capture(){
-    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
+    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;if(!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
     return storage;
   }
   async function hash(storage){const bytes=new TextEncoder().encode(JSON.stringify(storage));const digest=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');}
@@ -160,7 +162,7 @@ window.HazzardStorage = (() => {
         status.snapshotAt=latest.at;
         // Restore only absent or invalid values. Valid empty marks/grades are
         // intentional changes and must not be resurrected from older copies.
-        for(const [key,raw]of Object.entries(latest.storage))if(!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
+        for(const [key,raw]of Object.entries(latest.storage))if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
       }
       await snapshot();
     }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
