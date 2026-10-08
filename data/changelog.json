@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v149",
+      "date": "2026-10-09",
+      "changes": [
+        "Explanation tables fit the phone screen; a typo fixed in June 2025 Q25."
+      ]
+    },
+    {
       "version": "v148",
       "date": "2026-10-08",
       "changes": [
