@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v140",
+      "date": "2026-10-08",
+      "changes": [
+        "Statistics: your clean rate overall, by topic, by exam paper and in each chapter, with the topics most at risk first.",
+        "Week by week: questions answered and first-try accuracy on new official questions, from this release on.",
+        "A Bad question button on every question; 13 number-recall drill questions retired.",
+        "Page-header dates removed from 13 Sep 2024 answers."
+      ]
+    },
+    {
       "version": "v139",
       "date": "2026-10-08",
       "changes": [
