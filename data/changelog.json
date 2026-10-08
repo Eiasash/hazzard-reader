@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v147",
+      "date": "2026-10-08",
+      "changes": [
+        "Cut-off explanations completed in 29 past-exam questions (June 2022 and June 2023), from Hazzard with page references."
+      ]
+    },
+    {
       "version": "v146",
       "date": "2026-10-08",
       "changes": [
