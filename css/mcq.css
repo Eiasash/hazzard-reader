@@ -145,7 +145,7 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 /* Plain, scrollable phone statistics; no chart runtime. */
 #statsViewport{position:absolute;inset:0;z-index:8;overflow:auto;background:var(--page);font-family:var(--ui);overscroll-behavior:contain;padding-bottom:32px}
 .stats-page{max-width:760px;margin:auto;overflow-wrap:anywhere}
-.stats-section{margin:24px 0;padding-top:12px;border-top:1px solid var(--line,#ccc)}
+.stats-section{scroll-margin-top:calc(48px + 8px);margin:24px 0;padding-top:12px;border-top:1px solid var(--line,#ccc)}
 .stats-section article{padding:12px 0;border-bottom:1px solid var(--line,#ddd)}
 .stats-section h3{margin:4px 0;font-size:1em}.stats-section p{margin:8px 0}
 .stats-actions,.mcq-confidence{display:flex;flex-wrap:wrap;gap:6px;max-width:100%}
@@ -160,3 +160,5 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .mcq-mixed :is(ul,ol){padding-left:0;padding-right:0;padding-inline-start:1.5em;margin-inline:0}
 
 #statsViewport :is(h1,h2,h3){font-family:var(--ui)}
+
+.mcq-short-bracket,.mcq-bracket-edge{white-space:nowrap}
