@@ -185,16 +185,18 @@ window.HazzardMCQ = (() => {
   }
   addEventListener('storage',e=>{if(e.key===SETTINGS_KEY||e.key===null)refreshSettings();});
   const practiceScreens=['bank','review','saved','saved-practice','flags','missed','changed','mock','simulation'];
-  function readPracticePlace(){
-    try{const p=JSON.parse(localStorage.getItem(PLACE_KEY));if(!record(p)||p.version!==1||!practiceScreens.includes(p.screen)||!Number.isFinite(p.scroll)||p.scroll<0)return null;
-      if(p.id!=null&&!/^mcq-[a-f0-9]{24}$/.test(p.id))return null;
-      if(p.view!=null&&!validView(p.view))return null;
-      for(const key of ['redoIds','missedIds'])if(p[key]!=null&&(!Array.isArray(p[key])||!p[key].every(id=>/^mcq-[a-f0-9]{24}$/.test(id))))return null;
-      if(p.retryAnswers!=null&&!validStore({version:1,answers:p.retryAnswers}))return null;
-      return p;
-    }catch{return null;}
+  function validPracticePlace(p){
+    if(!record(p)||p.version!==1||!practiceScreens.includes(p.screen)||!Number.isFinite(p.scroll)||p.scroll<0)return false;
+    if(p.id!=null&&!/^mcq-[a-f0-9]{24}$/.test(p.id))return false;
+    if(p.view!=null&&!validView(p.view))return false;
+    for(const key of ['redoIds','missedIds'])if(p[key]!=null&&(!Array.isArray(p[key])||!p[key].every(id=>/^mcq-[a-f0-9]{24}$/.test(id))))return false;
+    if(p.retryAnswers!=null&&!validStore({version:1,answers:p.retryAnswers}))return false;
+    return true;
   }
-  function rememberPractice(screen,detail){try{localStorage.setItem(PLACE_KEY,JSON.stringify({version:1,screen,...detail}));}catch{}}
+  function readPracticePlace(){
+    try{const p=JSON.parse(localStorage.getItem(PLACE_KEY));return validPracticePlace(p)?p:null;}catch{return null;}
+  }
+  function rememberPractice(screen,detail){try{HazzardStorage.setItem(PLACE_KEY,JSON.stringify({version:1,screen,...detail}));}catch{}}
   function practiceURL(){const p=readPracticePlace(),screen=p?.screen||'bank';return '?chapter='+(['mock','simulation'].includes(screen)?'mock':'bank')+'&practiceResume=1'+({review:'&review=1',changed:'&redo=1','saved-practice':'&saved=1',simulation:'&simulation=1',mock:p?.building?'&n=builder':'&run=1',saved:'#saved',flags:'#flags',missed:'#missed'}[screen]||'');}
   const EXCLUDED_NOTE='Excluded by P005 (IMA required reading)';
   function linkedOptions(q){
@@ -505,7 +507,7 @@ window.HazzardMCQ = (() => {
     const table=q.labTable;
     if(!table||!table.span||!q.q.includes(table.span))return rich(table?q.q:boldLabResults(q.q));
     const at=q.q.indexOf(table.span);
-    const cell=value=>table.direction==='rtl'?rich(value):escape(value);
+    const cell=value=>table.direction==='rtl'?rich(value):String(value).split(/(\d+(?:[.,]\d+)*(?:\s*[-\u2013\u2212]\s*\d+(?:[.,]\d+)*)?)/g).map((part,i)=>i%2?'<span class="mcq-lab-number">'+escape(part)+'</span>':escape(part)).join('');
     return rich(q.q.slice(0,at))+'<div class="mcq-lab-scroll" tabindex="0" role="region" aria-label="'+escape(table.caption||'Laboratory results')+'"><table class="mcq-lab-table" dir="'+(table.direction==='rtl'?'rtl':'ltr')+'"><thead><tr>'+table.header.map(h=>'<th scope="col">'+cell(h)+'</th>').join('')+'</tr></thead><tbody>'+table.rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+cell(v)+'</th>':'<td>'+(table.header[i]?.startsWith('Value')?'<strong>'+cell(v)+'</strong>':cell(v))+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'+rich(q.q.slice(at+table.span.length));
   }
   const PAPER_KEY='hazzard-mcq-papers-v1';
@@ -542,7 +544,7 @@ window.HazzardMCQ = (() => {
   function mount({chapter,viewport,readerScroll,onShow,onNotes,openImage,readOnlyChapter=false}){
     const bankMode=chapter==='bank',mockMode=chapter==='mock',redoMode=bankMode&&new URL(location.href).searchParams.get('redo')==='1',reviewMode=!redoMode&&bankMode&&new URL(location.href).searchParams.get('review')==='1';
     const resumePlace=readPracticePlace();
-    let redoIds=new Set();
+    let redoIds=new Set(),recoveringPlace=false;
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label',bankMode?'Question bank':mockMode?'Mock paper':'Exam questions');viewport.append(host);
     let studyTabs;
     if(!bankMode&&!mockMode){
@@ -646,6 +648,7 @@ window.HazzardMCQ = (() => {
       return html+'</div>';
     }
     function sync(){
+      if(recoveringPlace&&!HazzardStorage.blockedKeys().includes(PLACE_KEY)&&readPracticePlace()){controller.active=false;const url=new URL(practiceURL(),location.href);if(url.pathname===location.pathname&&url.search===location.search){history.replaceState(null,'',url);location.reload();}else location.assign(url.href);return;}
       if(reviewMode){try{reviewBatch=HazzardReview.read().batch;if(reviewBatch)position=reviewDisplayPosition();}catch{storageError='Review queue could not be read.';}}
       let flagsError='';try{personal=readFlags();systemPrefs=readSystem();}catch{flagsError='Personal topic flags or source choices could not be read. Existing data has not been overwritten.';}
       try{const saved=mockMode?readPaper():readStore();if(mockMode){if(saved&&!paperPending){paper=saved.paper;settings=saved.settings;}if(paper)position=paper.position;}else{answers.clear();for(const [id,a]of Object.entries(saved.answers))answers.set(id,a)}storageError='';}
@@ -662,7 +665,7 @@ window.HazzardMCQ = (() => {
       }catch{storageError='Answers could not be saved. Keep this page open and try again.';if(mockMode)paperPending=true;}
     }
     const controller={active:false,search(){saveView();if(mockMode)history.replaceState({...history.state,mcqMockView:{building,articleSelected}},'');search.open();},get hasUnsaved(){return pending.size>0||paperPending},sync,save,remember:saveView,
-      show(source){if(source==='past'){filter='past';position=0;history.replaceState({...history.state,mcqView:null},'');}if(!bankMode&&!mockMode)history.replaceState({...history.state,hazzardStudyMode:"questions"},'');selectTab('questions');controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else render();},
+      show(source){if(source==='past'){filter='past';position=0;history.replaceState({...history.state,mcqView:null},'');}if(!bankMode&&!mockMode)history.replaceState({...history.state,hazzardStudyMode:"questions"},'');selectTab('questions');controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else{const place=savedView?readPracticePlace():null;if(place?.screen==='saved')restoringView=true;render();if(restoringView&&place)restoreScroll(place);}},
       notes(){if(bankMode||mockMode)return;history.replaceState({...history.state,hazzardStudyMode:"notes"},'');selectTab('notes');saveView();lastAnswer=null;controller.active=false;host.hidden=true;readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
     };
     const search=HazzardQuestionSearch.mount({
@@ -792,6 +795,7 @@ window.HazzardMCQ = (() => {
     }
     const hiddenNotice=n=>'<p class="meta mcq-standout-hidden">'+n+' questions hidden by the &ldquo;'+standoutLabel+'&rdquo; setting.</p>';
     function render(){
+      recoveringPlace ||= HazzardStorage.blockedKeys().includes(PLACE_KEY);
       requestAnimationFrame(savePracticePlace);
       if(mockMode&&building){renderBuilder();return;}
       const list=visible();position=Math.min(position,reviewMode?list.length:Math.max(0,list.length-1));const q=list[position];
@@ -996,5 +1000,5 @@ window.HazzardMCQ = (() => {
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SAVED_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
+  return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
 })();

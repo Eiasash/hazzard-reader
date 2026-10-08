@@ -7,6 +7,7 @@ window.HazzardStorage = (() => {
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardMCQ.SETTINGS_KEY);
+  keys.add(HazzardMCQ.PLACE_KEY);
   keys.add(HazzardReview.KEY);
   keys.add(HazzardSimulation.KEY);
   const owns=key=>typeof key==='string'&&(keys.has(key)||key.startsWith('stage-a-highlights-v1:'));
@@ -32,6 +33,7 @@ window.HazzardStorage = (() => {
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
   else if(key===HazzardMCQ.SETTINGS_KEY)valid=HazzardMCQ.validSettings(value);
+  else if(key===HazzardMCQ.PLACE_KEY)valid=HazzardMCQ.validPracticePlace(value);
   else if(key===HazzardMCQ.LOG_KEY)valid=HazzardMCQ.validLog(value);
   else if(key===HazzardMCQ.BAD_KEY)valid=HazzardMCQ.validBad(value);
   else if(key===HazzardMCQ.SAVED_KEY)valid=HazzardMCQ.validSaved(value);
@@ -56,6 +58,7 @@ window.HazzardStorage = (() => {
   }
   // Unreadable practice stores stay byte-for-byte intact until an explicit recovery.
   const protectedStores=new Map([
+    [HazzardMCQ.PLACE_KEY,{label:'Practice place',fresh:'practice place',empty:()=>({version:1,screen:'bank',id:null,scroll:0})}],
     [HazzardMCQ.LOG_KEY,{label:'Weekly answer log',fresh:'weekly log',empty:HazzardMCQ.emptyLog}],
     [HazzardMCQ.BAD_KEY,{label:'Bad question flags',fresh:'bad flags',empty:HazzardMCQ.emptyBad}],
     [HazzardReview.KEY,{label:'Review history',fresh:'review',empty:()=>({version:1,items:{},seed:{count:0,at:Date.now()},settings:{size:30,at:0},batch:null,batchAt:0})}],
@@ -71,11 +74,11 @@ window.HazzardStorage = (() => {
   function protect(key){
     const spec=protectedStores.get(key);if(!spec)return false;
     const raw=localStorage.getItem(key);
-    if(raw===null||validRaw(key,raw)){unreadable.delete(key);return false;}
+    if((raw===null&&!(key===HazzardMCQ.PLACE_KEY&&recoverySnapshots.has(key)))||validRaw(key,raw)){unreadable.delete(key);return false;}
     if(unreadable.get(key)?.raw!==raw){
       const date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format().replaceAll('-','');
       const side=key+'-unreadable-'+date;
-      try{if(localStorage.getItem(side)===null)localStorage.setItem(side,raw);}catch{/* The original remains intact even if storage is full. */}
+      try{if(raw!==null&&localStorage.getItem(side)===null)localStorage.setItem(side,raw);}catch{/* The original remains intact even if storage is full. */}
       unreadable.set(key,{raw,value:spec.empty()});
     }
     return true;
