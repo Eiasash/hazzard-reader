@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v141",
+      "date": "2026-10-08",
+      "changes": [
+        "Scrambled wording fixed in 148 past-exam questions, retyped from the official papers."
+      ]
+    },
+    {
       "version": "v140",
       "date": "2026-10-08",
       "changes": [
