@@ -333,7 +333,7 @@ window.HazzardMCQ = (() => {
     const quoted = `(?<![${base}])[${quotes}]${body}[${quotes}](?![${base}])`;
     const bracketed = `\\([ \\t]*[${quotes}]?${body}[ \\t]*\\)`;
     const atom = `(?:${bracketed}|${quoted}|${token}%?)`;
-    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector})${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
+    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|(?<=[\\p{Script=Latin}0-9])(?=\\()|(?<=\\))(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
   }
   function rich(value) {
     const box = document.createElement('div');
