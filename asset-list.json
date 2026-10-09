@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "13b04653bf125a6277434e2510eb262a715b3920a837c92e81ee7b5b0029e168",
-      "bytes": 6958001
+      "sha256": "ed7f8b042a3408dcb5b26fdb811fd939a351c33794fadab0d9b6b7804b896e0f",
+      "bytes": 6958936
     },
     {
       "url": "./data/mcq/collections.json",
