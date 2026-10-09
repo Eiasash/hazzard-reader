@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v170",
+      "date": "2026-10-10",
+      "changes": [
+        "Text cleanup in 59 explanations: cut-off source lines completed or removed, dangling commas removed, and spaces added between Hebrew words and numbers."
+      ]
+    },
+    {
       "version": "v169",
       "date": "2026-10-10",
       "changes": [
