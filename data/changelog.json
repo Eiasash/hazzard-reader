@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v163",
+      "date": "2026-10-09",
+      "changes": [
+        "The last 15 cut-off past-exam explanations are now complete, from Hazzard 8e and MoH documents; where no source in hand settles an option, a note names the missing step."
+      ]
+    },
+    {
       "version": "v162",
       "date": "2026-10-09",
       "changes": [
