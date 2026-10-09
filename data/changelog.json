@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v165",
+      "date": "2026-10-09",
+      "changes": [
+        "Brackets that mix English and Hebrew, such as (PCV20 בלבד) or (heart failure, סוכרת, CKD), now read in Hebrew order; book citations keep their layout."
+      ]
+    },
+    {
       "version": "v164",
       "date": "2026-10-09",
       "changes": [
