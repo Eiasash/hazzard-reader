@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v168",
+      "date": "2026-10-10",
+      "changes": [
+        "Comparison signs such as <20 or ≥80 stay with their number in Hebrew text; journal citations read in order; one option letter and four dangling commas fixed; table headers no longer break mid-word."
+      ]
+    },
+    {
       "version": "v167",
       "date": "2026-10-10",
       "changes": [
