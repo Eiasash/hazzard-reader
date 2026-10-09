@@ -631,7 +631,7 @@ window.HazzardMCQ = (() => {
       if(q.referenceNote)html+='<p class="meta" dir="auto">'+escape(q.referenceNote)+'</p>';
       const assigned=ref?.chapters.length?ref.chapters:[String(q.chapter)];
       if(q.requiredReadingNote)html+='<p class="mcq-source-note" role="note">'+escape(q.requiredReadingNote)+'</p>';
-      if(!q.requiredCard&&(assigned.some(c=>['2','3','4','5','6','34','62'].includes(c))||membership(q).includes(51)))html+='<p class="mcq-source-note" role="note">chapter not on the 2026 required list</p>';
+      if(!q.requiredCard&&(assigned.some(c=>['2','3','4','5','6','34','62'].includes(c))))html+='<p class="mcq-source-note" role="note">chapter not on the 2026 required list</p>';
       if(ref){
         const chapterLinked=['title-8e','topic-8e'].includes(ref.status);
         const unmapped=q.sourceType==='Hazzard'&&ref.status!=='resolved'&&!chapterLinked;
