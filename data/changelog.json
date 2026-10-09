@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v167",
+      "date": "2026-10-10",
+      "changes": [
+        "31 past-exam explanations that stopped short now explain every wrong option, from Hazzard 8e, Harrison 22e and Israeli sources; where no source in hand settles an option, a note names the missing step."
+      ]
+    },
+    {
       "version": "v166",
       "date": "2026-10-09",
       "changes": [
