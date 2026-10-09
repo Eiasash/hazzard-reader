@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v156",
+      "date": "2026-10-09",
+      "changes": [
+        "The Practice menu now shows the Changed questions count that appears on the Practice tab."
+      ]
+    },
+    {
       "version": "v155",
       "date": "2026-10-09",
       "changes": [
