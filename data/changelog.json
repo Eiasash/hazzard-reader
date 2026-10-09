@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v155",
+      "date": "2026-10-09",
+      "changes": [
+        "Two official explanations completed from their own sources: June 2023 Q9 (Chen 2022) and June 2022 Q63 (Brookdale 2020)."
+      ]
+    },
+    {
       "version": "v154",
       "date": "2026-10-09",
       "changes": [
