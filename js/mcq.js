@@ -364,7 +364,7 @@ window.HazzardMCQ = (() => {
       if(node.parentElement.closest('[dir]')?.dir==='ltr')continue;
       for(const m of node.data.matchAll(/\([^()\n]*\)|[A-Z][A-Za-z'’ \t]+,\s*מהדורה\s+\d+[.;]?/gu)){
         const body=m[0].replace(/^\(/,''),he=(body.match(/[א-ת]/g)||[]).length,latin=(body.match(/[A-Za-z0-9]/g)||[]).length;
-        if(!he||!/^[^\p{L}\p{N}]*[A-Za-z0-9]/u.test(body)||latin<=he)continue;
+        if(!he||!/^[^\p{L}\p{N}]*[A-Za-z0-9]/u.test(body)||latin<=he||!/^\(?\s*(?:Hazzard|Harrison|NEJM|JAMA|Lancet|BMJ|Official|MOH|MoH|Brookdale|Beers|AGS|IWG|ADA|ESC|ACC|AHA|KDIGO|GOLD|NICE|WHO|USPSTF|Cochrane|CDC|ACIP|DSM|EWGSOP|PROMISE)|עמ['׳]\s?\d|\bPDF\s?p?\.?\s?\d|\bpp?\.\s?\d|et al\.?|מהדורה\s+\d/u.test(m[0]))continue;
         fragment.append(document.createTextNode(node.data.slice(end,m.index)));
         const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.className='mcq-citation-run';
         let partEnd=0;
