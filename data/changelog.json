@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v160",
+      "date": "2026-10-09",
+      "changes": [
+        "20 past-exam explanations that were cut off are now complete, from Hazzard 8e, Harrison 22e, the Dying Patient Act and MoH documents."
+      ]
+    },
+    {
       "version": "v159",
       "date": "2026-10-09",
       "changes": [
