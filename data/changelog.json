@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v162",
+      "date": "2026-10-09",
+      "changes": [
+        "Commas, periods and question marks next to numbers and English terms inside Hebrew are back on the correct side."
+      ]
+    },
+    {
       "version": "v161",
       "date": "2026-10-09",
       "changes": [
