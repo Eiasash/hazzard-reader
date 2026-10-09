@@ -426,7 +426,7 @@ window.HazzardMCQ = (() => {
         segments.set(node,{start,end:text.length,whole});
       }
       for(const child of block.childNodes)collect(child);
-      const runs = latinRuns(true);
+      const runs = latinRuns();
       function slice(start,end){
         const fragment=document.createDocumentFragment();
         function copy(node){
