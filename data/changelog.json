@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v169",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed 43 garbled words (Hebrew letters swapped for English or Arabic ones) in 41 questions, a misplaced full stop in one past-exam stem, and one Source line's section order."
+      ]
+    },
+    {
       "version": "v168",
       "date": "2026-10-10",
       "changes": [
