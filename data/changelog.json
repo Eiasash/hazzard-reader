@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v159",
+      "date": "2026-10-09",
+      "changes": [
+        "June 2023 Q50 (mobility tests) explanation completed from the NEJM 2021 article."
+      ]
+    },
+    {
       "version": "v158",
       "date": "2026-10-09",
       "changes": [
