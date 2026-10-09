@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v166'; // Practice count consistency and agent encoding instructions.
+const CACHE_VERSION = 'v167'; // Practice count consistency and agent encoding instructions.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
