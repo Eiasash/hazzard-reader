@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v157",
+      "date": "2026-10-09",
+      "changes": [
+        "May 2024 Q96 (Guillain-Barre treatment) explanation completed from Harrison 22e."
+      ]
+    },
+    {
       "version": "v156",
       "date": "2026-10-09",
       "changes": [
