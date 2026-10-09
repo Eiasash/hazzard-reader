@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v152'; // Official past-paper wording; preserve printed drug-list spacing.
+const CACHE_VERSION = 'v153'; // Merge notebooks across devices at every cloud sync.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';

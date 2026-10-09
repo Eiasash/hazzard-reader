@@ -4,8 +4,8 @@ window.HazzardCloud = (() => {
   const APIKEY='sb_publishable_tUuqQQ8RKMvLDwTz5cKkOg_o_y-rHtw';
   const SESSION='hazzard-cloud-session-v1',STATE='hazzard-cloud-state-v1',INTERVAL=120000;
   const read=key=>{try{return JSON.parse(localStorage.getItem(key))||{};}catch{return {};}};
-  let session=read(SESSION),state=read(STATE),bridge,timer,busy=false,checking=false,restoring=false,epoch=0;
-  let current=null,previous=null,known=false,error='',notice='',expired=false,tick=false,lastUploaded=null;
+  let session=read(SESSION),state=read(STATE),bridge,timer,busy=false,checking=false,restoring=false,merging=false,epoch=0;
+  let current=null,previous=null,known=false,error='',notice='',expired=false,tick=false;
   const $=id=>document.getElementById(id);
   const signed=()=>typeof session.session_token==='string'&&!!session.session_token&&typeof session.username==='string';
   const decided=()=>signed()&&state.username===session.username&&state.decided===true;
@@ -73,40 +73,48 @@ window.HazzardCloud = (() => {
       if(generation!==epoch)return;
       current=a;previous=b;known=true;error='';
       if(!decided()&&bridge.hasData()&&!a.exists){state={username:session.username,decided:true,dirty:true};saveState();}
-      if(decided())schedule();
+      if(decided())await push({manual:true});
     }catch(e){if(generation===epoch)error=e.message;}
     finally{checking=false;render();if(signed()&&!known){clearTimeout(timer);timer=setTimeout(inspect,INTERVAL);}}
   }
   async function push({manual=false,keepalive=false}={}){
     if(!signed()||!decided()||busy||restoring||recoveryPaused())return;
-    if(!manual&&!state.dirty)return;
     if(!navigator.onLine){schedule();return;}
     if(!manual&&!keepalive&&Date.now()-(state.attemptAt||0)<INTERVAL){schedule();return;}
     busy=true;clearTimeout(timer);const generation=epoch,token=session.session_token;
-    let payload,captured;
+    const beforeState=JSON.stringify(state);
     try{
-      payload=bridge.capture();captured=JSON.stringify(payload.storage);
-      if(!manual&&JSON.stringify(payload.storage)===lastUploaded){state.dirty=false;saveState();return;}
-      state.attemptAt=Date.now();saveState();render();
-      // Fetch at upload time: a different device may have newer preferences.
-      // Missing/corrupt local settings never erase a valid cloud preference.
+      state.attemptAt=Date.now();render();
       const cloud=await rpc('hazzard_cloud_get',{p_token:token,p_which:'current'},keepalive,token);
       if(generation!==epoch)return;
-      const key=HazzardMCQ.SETTINGS_KEY,local=HazzardMCQ.settingsFromRaw(payload.storage[key]),remote=HazzardMCQ.settingsFromRaw(cloud.data?.storage?.[key]);
-      if(remote)payload.storage[key]=JSON.stringify(HazzardMCQ.mergeSettings(local,remote));
-      for(const [key,valid,empty,merge] of [[HazzardMCQ.LOG_KEY,HazzardMCQ.validLog,HazzardMCQ.emptyLog,HazzardMCQ.mergeLog],[HazzardMCQ.BAD_KEY,HazzardMCQ.validBad,HazzardMCQ.emptyBad,HazzardMCQ.mergeBad]]){const raw=cloud.data?.storage?.[key];if(raw!==undefined){const remote=JSON.parse(raw);if(!valid(remote))throw Error('Cloud practice history is unreadable; upload paused.');const local=payload.storage[key]===undefined?empty():JSON.parse(payload.storage[key]);if(!valid(local))throw Error('Local practice history is unreadable; upload paused.');payload.storage[key]=JSON.stringify(merge(local,remote));}}
-      const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
+      // The backup bridge uses the current device as current and cloud as incoming.
+      // Re-capture after asynchronous work so edits made during the fetch survive.
+      merging=true;
+      let payload;
+      try{payload=await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch);}
+      finally{merging=false;}
       if(generation!==epoch)return;
-      lastUploaded=captured;state.syncedAt=result.updated_at||new Date().toISOString();
-      state.dirty=JSON.stringify(bridge.capture().storage)!==captured;
-      saveState();tick=true;error='';notice='';
-      previous=current?.exists?current:previous;
-      current={exists:true,updated_at:state.syncedAt,data:payload};
+      const differs=!cloud.exists||!bridge.equal(payload.storage,cloud.data.storage);
+      if(differs){
+        const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
+        if(generation!==epoch)return;
+        state.syncedAt=result.updated_at||new Date().toISOString();
+        previous=cloud.exists?cloud:previous;
+        current={exists:true,updated_at:state.syncedAt,data:payload};
+      }else current=cloud;
+      known=true;
+      state.dirty=!bridge.equal(bridge.capture().storage,payload.storage);
+      // attemptAt is a scheduling clock, not a reason to write unchanged storage.
+      const persisted={...state};delete persisted.attemptAt;
+      const prior=JSON.parse(beforeState);delete prior.attemptAt;
+      if(JSON.stringify(persisted)!==JSON.stringify(prior))saveState();
+      tick=true;error='';notice='';
     }catch(e){if(generation===epoch){tick=false;error=expired?'':e.message;}}
-    finally{busy=false;render();if(signed()&&state.dirty)schedule();}
+    finally{busy=false;render();if(signed())schedule();}
   }
+
   function changed(){
-    if(restoring||!decided())return;
+    if(restoring||merging||!decided())return;
     state.dirty=true;tick=false;
     try{saveState();}catch{error='Cloud settings could not be saved.';}
     render();schedule();
@@ -150,7 +158,7 @@ window.HazzardCloud = (() => {
         if(generation!==epoch)return;
         if(typeof result.session_token!=='string'||!result.session_token||typeof result.username!=='string')throw Error('Sign-in response was incomplete.');
         const next={session_token:result.session_token,username:result.username};
-        localStorage.setItem(SESSION,JSON.stringify(next));session=next;expired=false;tick=false;known=false;lastUploaded=null;
+        localStorage.setItem(SESSION,JSON.stringify(next));session=next;expired=false;tick=false;known=false;
         if(state.username!==session.username){state={username:session.username};saveState();}
         await inspect();
       }catch(e){error=e.message;}
