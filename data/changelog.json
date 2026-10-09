@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v161",
+      "date": "2026-10-09",
+      "changes": [
+        "Law and Ministry of Health citations in 15 explanations now read in the right order."
+      ]
+    },
+    {
       "version": "v160",
       "date": "2026-10-09",
       "changes": [
