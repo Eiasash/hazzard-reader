@@ -619,8 +619,8 @@ window.HazzardMCQ = (() => {
       return ch?{chapter,page:explicit||ch.start,available:true,chapterStart:!explicit}:null;
     }
     function sourceHTML(source){
-      const parts=String(source).split(/((?:pp?\.?\s*|\u00a7{1,2}\s*)\d+(?:[.,\u2013-]\d+)*|\b\d+(?:[\u2013-]\d+)+)/g);
-      return parts.map((part,i)=>i%2?'<bdi dir="ltr" class="mcq-source-locator">'+escape(part)+'</bdi>':'<bdi dir="auto">'+escape(part)+'</bdi>').join('');
+      const parts=String(source).split(/((?:pp?\.?\s*|\u00a7{1,2}\s*)\d+[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*(?:\s*[.,\u2013-]\s*(?=[\d(\u00a7])\u00a7{0,2}\d*[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*)*|\b\d+(?:[\u2013-]\d+)+)/g);
+      return parts.map((part,i)=>i%2?'<bdi dir="ltr" class="mcq-source-locator">'+escape(part).replace(/([\u05d0-\u05ea]+)/g,'<bdi>$1</bdi>')+'</bdi>':'<bdi dir="auto">'+escape(part)+'</bdi>').join('');
     }
     function citationHTML(q){
       const ref=evidence.questions[q.id];

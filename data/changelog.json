@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v166",
+      "date": "2026-10-09",
+      "changes": [
+        "Three explanation tables and stray ** marks in 14 explanations display properly; Source lines keep law sub-sections such as §13(ב)–(ג) in order."
+      ]
+    },
+    {
       "version": "v165",
       "date": "2026-10-09",
       "changes": [
