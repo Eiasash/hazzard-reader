@@ -326,14 +326,14 @@ window.HazzardMCQ = (() => {
     const word = `[${base}][${base}\\p{M}]*`;
     // An English closing bracket can also connect to the next Latin atom.
     const connector = String.raw`(?<=[\p{Script=Latin}0-9)])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
-    const sign = String.raw`(?:(?<![^ \t(=:])[-−](?=\d)|[~≈±](?=\d))?`;
-    const token = `${sign}${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|${connector})${word})*`;
+    const sign = String.raw`(?:(?<![^ \t(=:])[-−](?=\d)|(?:(?<![^ \t(=:])|(?<=[\u05d0-\u05ea]-))[<>≤≥][ \t]?(?=\d)|[~≈±](?=\d))?`;
+    const token = `${sign}${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|(?<=\\d);(?=\\d)|${connector})${word})*`;
     const quotes = `'"„“”‘’`;
     const body = `[${base}][${base}\\p{M} \\t.,;${quotes}°^:/+%−–—→←<>=≤≥±×&-]*`;
     const quoted = `(?<![${base}])[${quotes}]${body}[${quotes}](?![${base}])`;
     const bracketed = `\\([ \\t]*[${quotes}]?${body}[ \\t]*\\)`;
     const atom = `(?:${bracketed}|${quoted}|${token}%?)`;
-    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|(?<=[\\p{Script=Latin}0-9])(?=\\()|(?<=\\))(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
+    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|(?<=[\\p{Script=Latin}0-9])(?=\\()|(?<=\\))[;:]?(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
   }
   function rich(value) {
     const box = document.createElement('div');
@@ -477,7 +477,7 @@ window.HazzardMCQ = (() => {
       // phrase into independently reordered boxes. Its later words still wrap.
       const tw=document.createTreeWalker(block,NodeFilter.SHOW_TEXT),chars=[];let n;
       while(n=tw.nextNode())for(let i=0;i<n.length;i++)chars.push({node:n,offset:i,char:n.data[i]});
-      for(const m of [...chars.map(c=>c.char).join('').matchAll(/[א-ת]+[-־](?=[~≈±]?[\p{Script=Latin}0-9])/gu)].reverse()){
+      for(const m of [...chars.map(c=>c.char).join('').matchAll(/[א-ת]+[-־](?=[~≈±<>≤≥]?[\p{Script=Latin}0-9])/gu)].reverse()){
         const last=chars[m.index+m[0].length-1],first=chars[m.index+m[0].length];
         last.node.insertData(last.offset+1,'\u2060');
         const bdi=first.node.parentElement.closest('bdi');if(bdi)bdi.classList.add('mcq-prefix-run');
