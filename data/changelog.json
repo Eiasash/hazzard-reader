@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v158",
+      "date": "2026-10-09",
+      "changes": [
+        "May 2024 Q96: the rehabilitation option now gives Harrison's stated reason."
+      ]
+    },
+    {
       "version": "v157",
       "date": "2026-10-09",
       "changes": [
