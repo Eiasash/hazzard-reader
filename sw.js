@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v155'; // Merge notebooks across devices at every cloud sync.
+const CACHE_VERSION = 'v155'; // Two source-completed explanations; corrected UTF-8 text.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
