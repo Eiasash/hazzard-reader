@@ -81,6 +81,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 ## Cosmetic list (doesn't block anything)
 - ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds rows p913 lacks).
 - Odd heading casing here and there.
+- An option letter before a bracket that mixes English and Hebrew reads out of order inside Hebrew: in mcq-a7ef58ae7e009a3a9ac61661 'אפשרות A (disorganized thinking בלבד)' shows 'בלבד' before 'disorganized thinking' (same for its option C line), and in mcq-df8d82c1297db051571bb46f '**C (PCV20 בלבד)**' shows 'בלבד' before 'PCV20' (checked on v162, 09.10.2026).
 
 ## Reader behavior (02 Oct 2026, cache v39)
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).

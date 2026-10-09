@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v164",
+      "date": "2026-10-09",
+      "changes": [
+        "Numbers and terms written right against a bracket, such as 25(OH)D or del(5q), and four book citations now read in order inside Hebrew."
+      ]
+    },
+    {
       "version": "v163",
       "date": "2026-10-09",
       "changes": [
