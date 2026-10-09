@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v153",
+      "date": "2026-10-09",
+      "changes": [
+        "Cloud sync now merges your devices: flags, saved questions, answers and highlights from another device are added at each sync instead of being overwritten."
+      ]
+    },
+    {
       "version": "v152",
       "date": "2026-10-09",
       "changes": [

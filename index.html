@@ -32679,7 +32679,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v152 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v153 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -33897,6 +33897,59 @@ function cloudHasData(){
     return false;
   });}catch{return false;}
 }
+// Compare notebook values as JSON; serialization order is not a change.
+function equalCloudStorage(a,b){
+  const sorted=value=>Array.isArray(value)?value.map(sorted):isRecord(value)?Object.fromEntries(Object.keys(value).sort().map(key=>[key,sorted(value[key])])):value;
+  const value=(key,raw)=>{try{return key===CHAPTER_SORT_KEY?raw:JSON.parse(raw)}catch{return raw}};
+  const normalized=storage=>Object.fromEntries(Object.keys(storage).sort().map(key=>[key,sorted(value(key,storage[key]))]));
+  return JSON.stringify(normalized(a))===JSON.stringify(normalized(b));
+}
+async function mergeCloudNotebook(backup,active){
+  if(backup&&(backup.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage)))throw Error('Invalid cloud notebook. Sync paused.');
+  await HazzardMCQ.loadAliases();
+  const plan=()=>{
+    const payload=captureNotebook(),changes=[];
+    for(const [key,raw] of Object.entries(backup?.storage||{})){
+      if(!isNotebookKey(key)||typeof raw!=='string')throw Error('Invalid cloud notebook. Sync paused.');
+      // Preserve the existing tolerance for missing/unreadable cloud preferences.
+      if(key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;
+      const incoming=key===CHAPTER_SORT_KEY?raw:JSON.parse(raw);validateNotebookValue(key,incoming);
+      const previous=payload.storage[key]??null,current=previous===null?null:key===CHAPTER_SORT_KEY?previous:JSON.parse(previous);
+      if(current!==null)validateNotebookValue(key,current);
+      const merged=mergeNotebookValue(key,current,incoming),next=key===CHAPTER_SORT_KEY?merged:JSON.stringify(HazzardMCQ.migrateValue(key,merged));
+      if(previous===null||!equalCloudStorage({[key]:previous},{[key]:next})){changes.push({key,previous,next});payload.storage[key]=next;}
+    }
+    return {payload,changes};
+  };
+  let result=plan();
+  if(!result.changes.length)return result.payload;
+  for(;;){
+    const before=captureNotebook().storage;
+    await HazzardStorage.snapshot();
+    if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
+    if(!active())throw Error('Cloud session changed.');
+    // Snapshot again if the UI saved an edit while IndexedDB was pending.
+    if(equalCloudStorage(before,captureNotebook().storage))break;
+  }
+  result=plan();
+  const written=[];
+  try{for(const change of result.changes){localStorage.setItem(change.key,change.next);written.push(change);}}
+  catch{
+    for(const change of written.reverse()){if(change.previous===null)localStorage.removeItem(change.key);else localStorage.setItem(change.key,change.previous);}
+    throw Error('Cloud merge could not be saved. Previous notebook kept.');
+  }
+  if(result.changes.length){
+    resyncHighlights();
+    if(cid==='mock'&&practiceState){practiceState=readJSON(MOCK_KEY,practiceState);practiceRender()}else resyncPractice();
+    resyncTimer();HazzardMCQ.refreshSettings();mcq?.sync();refreshSavedPlaces();refreshResume();refreshLibraryMarks();refreshMissedCount();
+    const display=readJSON('stage-a-display-v4',null);if(display){size=display.size;colour=display.colour;document.documentElement.dataset.theme=display.theme;applyDisplay()}
+    renderNotebook();
+    const savedPaper=HazzardMCQ.readPaper();$('#mockResume').hidden=!savedPaper?.paper;
+    if(savedPaper?.paper)$('#mockResume').textContent='Resume current paper ('+savedPaper.paper.ids.length+' questions)';
+    await HazzardStorage.snapshot();
+  }
+  return captureNotebook();
+}
 async function restoreCloudNotebook(backup){
   if(backup?.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage))throw Error('Invalid cloud notebook. Nothing was restored.');
   if(pendingHighlightChanges.size||mcq?.hasUnsaved||displaySaveFailed||timerSaveFailed)throw Error('Save current changes before restoring.');
@@ -34053,7 +34106,7 @@ document.addEventListener('click',async event=>{
   else if(button.hasAttribute('data-storage-file'))$('#notebookBackupFile').click();
   else{try{HazzardStorage.startFresh(button.dataset.storageFresh);mcq?.sync();}catch{flash('Could not start fresh. Existing history kept.',6000);}}
 });
-HazzardCloud.start({capture:captureNotebook,hasData:cloudHasData,restore:restoreCloudNotebook});
+HazzardCloud.start({capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
 dispatchEvent(new Event('hazzard-reader-ready'));
 })();</script>
 
