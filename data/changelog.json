@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v171",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixes from the phone test: quote markers and stray punctuation removed from 33 explanations, one law source note reordered, and the question header's Reader chapter and required-list note now follow its Study link."
+      ]
+    },
+    {
       "version": "v170",
       "date": "2026-10-10",
       "changes": [
