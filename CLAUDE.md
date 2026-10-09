@@ -83,6 +83,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - Odd heading casing here and there.
 - A Hebrew prefix before a number or English term that is directly followed by an English-only citation, such as "ל-1000 (Hazzard 8e p. 1484)", renders as one left-to-right piece, so the prefix sits next to the citation (72 runs in 66 questions on v166, 17 after a prefix).
 - The three-column explanation table in mcq-041747d2188be93271d452d3 extends about 4 CSS px past its card edge at 360 px (inside the page; all text stays in the card).
+- In an English-only citation paragraph a page range can wrap after its dash: mcq-5f5bd52885b3e44f366df72b shows "2014;62(5):950–" with "960" on the next line at 360 px.
 
 ## Reader behavior (02 Oct 2026, cache v39)
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
