@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v154",
+      "date": "2026-10-09",
+      "changes": [
+        "The cloud note now describes the merging sync."
+      ]
+    },
+    {
       "version": "v153",
       "date": "2026-10-09",
       "changes": [
