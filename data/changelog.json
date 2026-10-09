@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v152",
+      "date": "2026-10-09",
+      "changes": [
+        "Statistics: topics with fewer than 5 answers now say how many more are needed for a score, instead of 'not yet tested'."
+      ]
+    },
+    {
       "version": "v151",
       "date": "2026-10-09",
       "changes": [
