@@ -325,16 +325,19 @@ window.HazzardMCQ = (() => {
     const base = String.raw`\p{Script=Latin}\p{Script=Greek}µ0-9\u2080-\u2089\u00b2\u00b3\u00b9\u2070-\u2079`;
     const word = `[${base}][${base}\\p{M}]*`;
     // An English closing bracket can also connect to the next Latin atom.
-    const connector = String.raw`(?<=[\p{Script=Latin}0-9)])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
+    const connector = String.raw`(?<=[\p{Script=Latin}0-9)+])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
     const plus = String.raw`(?<=[\p{Script=Latin}0-9])\++[ \t]+(?=[\p{Script=Latin}0-9]|[<>\u2264\u2265][ \t]?[0-9])`;
     const sign = String.raw`(?:(?<![^ \t(=:])[-−](?=\d)|(?:(?<![^ \t(=:])|(?<=[\u05d0-\u05ea]-))[<>≤≥][ \t]?(?=\d)|[~≈±](?=\d))?`;
-    const token = `${sign}${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|(?<=\\d);(?=\\d)|${connector})${word})*`;
+    const join = `(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|(?<=\\d);(?=\\d)|${connector})`;
+    const token = `${sign}${word}(?:${join}${word})*`;
+    // Only this token, not an earlier word in the run, may qualify its suffix.
+    const tail = `(?=${sign}(?:${word}${join})*[${base}\\p{M}]*\\p{Script=Latin})${token}(?!${join}${word})%?\\++(?![${base}\\p{M}+])%?`;
     const quotes = `'"„“”‘’`;
     const body = `[${base}][${base}\\p{M} \\t.,;${quotes}°^:/+%−–—→←<>=≤≥±×&-]*`;
     const quoted = `(?<![${base}])[${quotes}]${body}[${quotes}](?![${base}])`;
     const bracketed = `\\([ \\t]*[${quotes}]?${body}[ \\t]*\\)`;
-    const atom = `(?:${bracketed}|${quoted}|${token}%?)`;
-    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|${plus}|(?<=[\\p{Script=Latin}0-9])(?=\\()|(?<=\\))[;:]?(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
+    const atom = `(?:${bracketed}|${quoted}|${tail}|${token}%?)`;
+    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|${plus}|(?<=[\\p{Script=Latin}0-9+])(?=\\()|(?<=\\))[;:]?(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
   }
   function rich(value) {
     const box = document.createElement('div');
