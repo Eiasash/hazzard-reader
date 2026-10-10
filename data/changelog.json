@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v185",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: the sepsis question now tests what to do (broad initial coverage for the gram-negative organisms more common in older adults) instead of a bare percentage, and a driving-law explanation loses an unsourced CDR sentence. If you marked the sepsis question Bad, unflag it in Flags to see the new version."
+      ]
+    },
+    {
       "version": "v184",
       "date": "2026-10-10",
       "changes": [
