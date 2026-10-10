@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v175",
+      "date": "2026-10-10",
+      "changes": [
+        "Question fixes: 17 past questions now show their correct chapter; 36 infection practice questions hidden by a wrong chapter-3 label are back in Practice as generated practice; 34 diabetes and thyroid practice questions now point to chapter 99, 98 or 97 instead of 40; 9 practice questions moved to the topic they ask about; changing Source no longer clears the chosen topic."
+      ]
+    },
+    {
       "version": "v174",
       "date": "2026-10-10",
       "changes": [
