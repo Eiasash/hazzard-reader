@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v173",
+      "date": "2026-10-10",
+      "changes": [
+        "Study: Chapter links under a question now always open that chapter's Study notes."
+      ]
+    },
+    {
       "version": "v172",
       "date": "2026-10-10",
       "changes": [
