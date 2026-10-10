@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v198'; // Bold answer declarations and display-ordered option explanations.
+const CACHE_VERSION = 'v199'; // Bold answer declarations and display-ordered option explanations.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
