@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v182",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: four questions you flagged. The falls question about a wrist fracture before discharge has a corrected stem, new options and an explanation from Hazzard; the bvFTD criteria question now lists the six symptoms; 2023 Q31 (MACE) loses a stray full stop; 2022 Q15 (back-pain red flags) now explains that prolonged systemic use is a reasonable reading of the steroid item, while the cited passages do not specify a route. If you marked any of them Bad, unflag them in Flags to see the fixed versions."
+      ]
+    },
+    {
       "version": "v181",
       "date": "2026-10-10",
       "changes": [
