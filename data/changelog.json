@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v184",
+      "date": "2026-10-10",
+      "changes": [
+        "New: every explanation now opens with the correct answer in bold, and explanation lines about each option follow the on-screen order א to ד."
+      ]
+    },
+    {
       "version": "v183",
       "date": "2026-10-10",
       "changes": [
