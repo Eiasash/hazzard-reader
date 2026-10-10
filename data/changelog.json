@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v176",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: opening or scrolling Statistics could stop automatic backups, the update button and cloud sync. If your update button fails once, close the app completely and reopen it. The Israeli law & ethics source no longer says it holds only past exams."
+      ]
+    },
+    {
       "version": "v175",
       "date": "2026-10-10",
       "changes": [
