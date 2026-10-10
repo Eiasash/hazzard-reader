@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v179'; // Practice count consistency and agent encoding instructions.
+const CACHE_VERSION = 'v180'; // Keep charged lab labels with their values in Hebrew questions.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
