@@ -91,17 +91,17 @@ window.HazzardCloud = (() => {
       // Re-capture after asynchronous work so edits made during the fetch survive.
       merging=true;
       let payload;
-      try{payload=await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch);}
+      try{payload=cloud.exists&&cloud.updated_at&&cloud.updated_at===state.seenAt?bridge.capture():await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch);}
       finally{merging=false;}
       if(generation!==epoch)return;
       const differs=!cloud.exists||!bridge.equal(payload.storage,cloud.data.storage);
       if(differs){
         const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
         if(generation!==epoch)return;
-        state.syncedAt=result.updated_at||new Date().toISOString();
+        state.syncedAt=result.updated_at||new Date().toISOString();state.seenAt=result.updated_at||null;
         previous=cloud.exists?cloud:previous;
         current={exists:true,updated_at:state.syncedAt,data:payload};
-      }else current=cloud;
+      }else{current=cloud;state.seenAt=cloud.updated_at||null;}
       known=true;
       state.dirty=!bridge.equal(bridge.capture().storage,payload.storage);
       // attemptAt is a scheduling clock, not a reason to write unchanged storage.
