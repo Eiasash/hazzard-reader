@@ -2,10 +2,17 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v177",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: a highlight, bookmark or 'answer looks wrong' flag you remove no longer comes back after cloud sync on the same phone."
+      ]
+    },
+    {
       "version": "v176",
       "date": "2026-10-10",
       "changes": [
-        "Fixed: opening or scrolling Statistics could stop automatic backups, the update button and cloud sync. If your update button fails once, close the app completely and reopen it. The Israeli law & ethics source no longer says it holds only past exams."
+        "Fixed: opening Statistics could stop automatic backups, the update button and cloud sync. If your update button fails once, close the app completely and reopen it. The Israeli law & ethics source no longer says it holds only past exams."
       ]
     },
     {
