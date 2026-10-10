@@ -8342,6 +8342,18 @@
       "label": "Practice · A clinician is comparing intra-articular injection studies for knee osteoarthritis. Which ",
       "changedAt": "2026-10-10T23:27:25.840535+03:00",
       "release": "v201"
+    },
+    {
+      "id": "mcq-cafc04a7f27715c56200ef28",
+      "label": "Practice · גבר בן 82 אובחן עם סרטן ערמונית בסיכון גבוה ללא גרורות. הוא ללא תסמינים מהמחלה, ותוחלת חיי",
+      "changedAt": "2026-10-10T23:43:46.040866+03:00",
+      "release": "v202"
+    },
+    {
+      "id": "mcq-d0af281f60dded984df5c678",
+      "label": "Practice · חוקרים פיתחו מדד דם הקשור לתמותה עתידית ומציעים להשתמש בשינוי בו להערכת תועלת של טיפולים ב",
+      "changedAt": "2026-10-10T23:43:46.040866+03:00",
+      "release": "v202"
     }
   ]
 }
