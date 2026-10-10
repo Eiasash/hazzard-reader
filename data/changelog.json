@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v178",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: changing the Mock builder topic no longer shrinks or ends the paper you already started.",
+        "Fixed: the thyroid practice question on an 82-year-old with TSH 8 no longer gives its answer away; its wrong options and explanation now come from Hazzard p.1553 and Figure 98-4.",
+        "Added: the explanations of 2021-Dec Q1 (ischemic stroke) and 2026-Jun Q77 (bone disease on dialysis) now say, from Hazzard, why their other options are wrong.",
+        "If you marked any of these three questions Bad, unflag them in Flags to see the fixed versions."
+      ]
+    },
+    {
       "version": "v177",
       "date": "2026-10-10",
       "changes": [
