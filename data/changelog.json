@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v201",
+      "date": "2026-10-10",
+      "changes": [
+        "Rewritten explanations: 1 practice questions were rewritten from the source; 263 explanations no longer name options by their shuffled letter and lost other leftovers"
+      ]
+    },
+    {
       "version": "v200",
       "date": "2026-10-10",
       "changes": [
