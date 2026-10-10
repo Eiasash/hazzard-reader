@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v174",
+      "date": "2026-10-10",
+      "changes": [
+        "Topic fixes: 61 past questions moved to the topic their stem is about (mostly in the June 2026 paper), 18 stray topic tags removed, and 5 questions given their correct chapter."
+      ]
+    },
+    {
       "version": "v173",
       "date": "2026-10-10",
       "changes": [
