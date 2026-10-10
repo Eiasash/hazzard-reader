@@ -645,7 +645,7 @@ window.HazzardMCQ = (() => {
         for(const c of chapters){
           const ch=evidence.study[c];if(!ch)continue;
           const title=chapterTitles[c]||(c===String(q.chapter)?q.chapterTitle:'');
-          html+='<p class="meta"><a href="?chapter='+encodeURIComponent(ch.studyOnly?c+'s':c)+'">Study: Chapter '+escape(c)+' - '+escape(title)+'</a></p>';
+          html+='<p class="meta"><a href="?chapter='+encodeURIComponent(c+'s')+'">Study: Chapter '+escape(c)+' - '+escape(title)+'</a></p>';
         }
         if(ref.tables.length)html+='<p class="meta">'+escape(ref.tables.map(t=>'Table '+t).join(', '))+'</p>';
       }
