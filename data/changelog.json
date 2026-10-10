@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v195",
+      "date": "2026-10-10",
+      "changes": [
+        "432 generated practice questions that the explanation audit found flawed (garbled wording, two defensible answers, or an answer given away by its form) are now hidden by default; Practice settings, Include hidden practice, serves them."
+      ]
+    },
+    {
       "version": "v194",
       "date": "2026-10-10",
       "changes": [
