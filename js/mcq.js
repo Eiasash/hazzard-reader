@@ -326,6 +326,7 @@ window.HazzardMCQ = (() => {
     const word = `[${base}][${base}\\p{M}]*`;
     // An English closing bracket can also connect to the next Latin atom.
     const connector = String.raw`(?<=[\p{Script=Latin}0-9)])[ \t]*[&–—-][ \t]*(?=[\p{Script=Latin}0-9])`;
+    const plus = String.raw`(?<=[\p{Script=Latin}0-9])\++[ \t]+(?=[\p{Script=Latin}0-9]|[<>\u2264\u2265][ \t]?[0-9])`;
     const sign = String.raw`(?:(?<![^ \t(=:])[-−](?=\d)|(?:(?<![^ \t(=:])|(?<=[\u05d0-\u05ea]-))[<>≤≥][ \t]?(?=\d)|[~≈±](?=\d))?`;
     const token = `${sign}${word}(?:(?:[.,'’°^/:+%−–<>=≤≥±×→←-]+|(?<=\\d);(?=\\d)|${connector})${word})*`;
     const quotes = `'"„“”‘’`;
@@ -333,7 +334,7 @@ window.HazzardMCQ = (() => {
     const quoted = `(?<![${base}])[${quotes}]${body}[${quotes}](?![${base}])`;
     const bracketed = `\\([ \\t]*[${quotes}]?${body}[ \\t]*\\)`;
     const atom = `(?:${bracketed}|${quoted}|${token}%?)`;
-    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|(?<=[\\p{Script=Latin}0-9])(?=\\()|(?<=\\))[;:]?(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
+    return new RegExp(`${atom}(?:(?:[.,;:]?[ \\t]+(?:[<>=≤≥±×→←]+[ \\t]*)?|${connector}|${plus}|(?<=[\\p{Script=Latin}0-9])(?=\\()|(?<=\\))[;:]?(?=[\\p{Script=Latin}0-9]))${atom})*${terminal?'[.,;:!?]?':''}`, 'gu');
   }
   function rich(value) {
     const box = document.createElement('div');
