@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v189",
+      "date": "2026-10-10",
+      "changes": [
+        "Rewritten explanations: 223 questions now explain why the answer is right and why each other option is wrong, from the source; 5 number-recall questions were rewritten to test the point behind the number"
+      ]
+    },
+    {
       "version": "v188",
       "date": "2026-10-10",
       "changes": [
