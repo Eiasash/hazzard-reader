@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v179",
+      "date": "2026-10-10",
+      "changes": [
+        "New: in Shuffled order the Question bank leaves out questions you have already answered; a question you answer stays on screen until you reshuffle or reopen the bank. Source and Topic order, Missed only and Review still show them. Fixed: five questions you flagged (vertebral fracture, cardiac rehabilitation, the patient's right to read the medical record, spironolactone in CKD, and seizure versus syncope, now under Syncope/Dizziness). If you marked any of them Bad or Wrong topic, unflag them in Flags to see the fixed versions."
+      ]
+    },
+    {
       "version": "v178",
       "date": "2026-10-10",
       "changes": [
