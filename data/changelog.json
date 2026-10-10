@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v181",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: terms like CD4+, HR+ or NAD+ inside Hebrew text now keep the plus sign on the right side."
+      ]
+    },
+    {
       "version": "v180",
       "date": "2026-10-10",
       "changes": [
