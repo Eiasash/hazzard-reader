@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v186",
+      "date": "2026-10-10",
+      "changes": [
+        "Law-question explanations now list the options from א to ד, in the order shown on screen."
+      ]
+    },
+    {
       "version": "v185",
       "date": "2026-10-10",
       "changes": [

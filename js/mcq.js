@@ -279,10 +279,11 @@ window.HazzardMCQ = (() => {
   }
   function orderedExplanation(q,order){
     const {text,positions}=explanationLabels(q,order);
-    if(!text||q.law||/\d+[א-ת]*(?:\([\dא-ת]+\))|(?:סעיף|סעיפים)\s+[א-ד]['׳]?/u.test(text))return text;
+    if(!text)return text;
+    const guarded=q.law||/\d+[א-ת]*(?:\([\dא-ת]+\))|(?:סעיף|סעיפים)\s+[א-ד]['׳]?/u.test(text);
     let offset=0;
     const lines=text.split('\n').map(line=>{
-      const m=/^([ \t]*(?:- )?(?:\*\*)?)([א-ד])(?=[.)]|[ \t]+[—–-])/u.exec(line);
+      const m=(guarded?/^([ \t]*\*\*)([א-ד])(?=\. )/u:/^([ \t]*(?:- )?(?:\*\*)?)([א-ד])(?=[.)]|[ \t]+[—–-])/u).exec(line);
       const label=m&&positions.has(offset+m[1].length)?'אבגד'.indexOf(m[2]):-1;
       offset+=line.length+1;return {line,label};
     });
