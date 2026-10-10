@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v183",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: terms like HER2- or 5q- inside Hebrew text now keep the minus sign on the right side."
+      ]
+    },
+    {
       "version": "v182",
       "date": "2026-10-10",
       "changes": [
