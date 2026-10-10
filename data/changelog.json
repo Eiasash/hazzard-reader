@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v198",
+      "date": "2026-10-10",
+      "changes": [
+        "Rewritten explanations: 5 questions now explain why the answer is right and why each other option is wrong, from the source; 5 practice questions were rewritten from the source"
+      ]
+    },
+    {
       "version": "v197",
       "date": "2026-10-10",
       "changes": [

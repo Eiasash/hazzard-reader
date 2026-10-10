@@ -8300,6 +8300,36 @@
       "label": "Practice · A frail hospitalized older adult develops acute colonic pseudo-obstruction with abdominal ",
       "changedAt": "2026-10-10T21:50:07.469320+03:00",
       "release": "v197"
+    },
+    {
+      "id": "mcq-97493251f3a6046e514ca6fa",
+      "label": "Practice · גבר בן 75 מדווח על שינוי בטעם המזון, ירידה בתיאבון וירידה במשקל שהחלו לאחר שינוי בכמה מתרו",
+      "changedAt": "2026-10-10T22:06:08.237722+03:00",
+      "release": "v198"
+    },
+    {
+      "id": "mcq-d7947f0b3a41155a5df4df97",
+      "label": "Practice · גבר בן 78 החלים מדלקת ריאות. בביקורי מרפאה ובמדידות ביתיות חוזרות לחץ הדם סביב 170/90, ללא",
+      "changedAt": "2026-10-10T22:06:08.237722+03:00",
+      "release": "v198"
+    },
+    {
+      "id": "mcq-ec1ec29961295cf8f9b08508",
+      "label": "Practice · אישה בת 76 הנוטלת sertraline ו־hydrochlorothiazide מגיעה עם בלבול חדש ופרכוס. נתרן 118 mEq",
+      "changedAt": "2026-10-10T22:06:08.237722+03:00",
+      "release": "v198"
+    },
+    {
+      "id": "mcq-cb17c35c722f778617411a6e",
+      "label": "Practice · An older adult with hip osteoarthritis has stable CKD stage IV and an eGFR of 24 cc/min. A",
+      "changedAt": "2026-10-10T22:06:08.237722+03:00",
+      "release": "v198"
+    },
+    {
+      "id": "mcq-7c9f2acf34dd73d71de69a94",
+      "label": "Practice · An older adult with renal artery stenosis has a renal vein renin ratio of 1.6. Which inter",
+      "changedAt": "2026-10-10T22:06:08.237722+03:00",
+      "release": "v198"
     }
   ]
 }
