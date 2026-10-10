@@ -24,7 +24,7 @@ window.HazzardStorage = (() => {
     valid=isRecord(value)&&value.version===1&&value.chapterId===key.slice('stage-a-highlights-v1:'.length)&&isRecord(value.marks)&&Object.entries(value.marks).every(([id,m])=>/^u\d+$/.test(id)&&validHighlight(m))
       &&(value.history===undefined||Array.isArray(value.history)&&value.history.every(m=>/^u\d+$/.test(m.id)&&validHighlight(m)))
       &&(value.ranges===undefined||isRecord(value.ranges)&&Object.entries(value.ranges).every(([id,m])=>/^r[\w-]*$/.test(id)&&validHighlight(m)&&(m.prefix===undefined||typeof m.prefix==='string')&&(m.suffix===undefined||typeof m.suffix==='string')));
-  }else if(key===PLACE_KEY)valid=isRecord(value)&&(value.chapters===undefined||isRecord(value.chapters)&&Object.entries(value.chapters).every(([id,p])=>/^(?:\d+s?|laws?|mock)$/.test(id)&&place(p)))&&(value.last==null||place(value.last));
+  }else if(key===PLACE_KEY)valid=isRecord(value)&&(value.chapters===undefined||isRecord(value.chapters)&&Object.entries(value.chapters).every(([id,p])=>/^(?:\d+s?|laws?|mock|bank)$/.test(id)&&place(p)))&&(value.last==null||place(value.last));
   else if(key===BOOKMARK_KEY)valid=Array.isArray(value)&&value.every(place);
   else if(key===MOCK_KEY)valid=progress(value)&&stringList(value.ids);
   else if(key===DRILL_KEY)valid=isRecord(value)&&(value.chapters===undefined||isRecord(value.chapters)&&Object.entries(value.chapters).every(([id,p])=>/^(?:\d+s|laws)$/.test(id)&&progress(p)));

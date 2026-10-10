@@ -274,7 +274,7 @@ window.HazzardMCQ = (() => {
     return text.split('').map((c,i)=>positions.has(i)?map(c):c).join('');
   }
   const PRACTICE_LABEL='Hazzard practice - US framing';
-  const LAW_NOTE='Official past-exam questions on Israeli law, health systems and ethics.';
+  const LAW_NOTE='Questions on Israeli law, health systems and ethics.';
   const normalizeSource=value=>['system','Law & ethics','Israeli law & system','Israeli law & ethics'].includes(value)?'law':value;
   const record = value => value !== null && typeof value === 'object' && !Array.isArray(value);
   function validStore(value) {
@@ -792,7 +792,7 @@ window.HazzardMCQ = (() => {
         const sittings=[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t))].sort().reverse();
         html+='<details class="mcq-jump"><summary>Go to sitting + Q</summary><form data-jump-form><label>Sitting<select name="sitting">'+sittings.map(s=>'<option value="'+escape(s)+'">'+escape(s.replace('-Subspec','').replace('-', ' '))+'</option>').join('')+'</select></label><label>Q<input name="number" type="number" min="1" max="100" inputmode="numeric" aria-label="Question number"></label><button type="submit">Go</button><span role="status" data-jump-status></span></form></details>';
         html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+multiSelection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+multiSelection('level',level,[['all','All levels'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Exam level')+'<div class="mcq-sort">'+selection('sort',sort,[['source','Source'],['topic','Topic'],['shuffled','Shuffled']],'Sort by')+(sort==='shuffled'?'<button type="button" data-mcq="reshuffle">Reshuffle</button>':'')+'</div>'+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
-        html+='<p class="meta">'+(savedOnly?'Saved questions only · ':'')+list.length+' matching questions'+(filter==='law'?' · Official past exams only.':'')+'</p>';
+        html+='<p class="meta">'+(savedOnly?'Saved questions only · ':'')+list.length+' matching questions'+'</p>';
       }else if(!mockMode&&!bankMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice',PRACTICE_LABEL]].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>';
       if(!flagsView&&!savedView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
       if(filter==='law'||chapter==='law')html+='<p class="meta mcq-law-note">'+(chapter==='law'?'Israeli law: past-exam items are the target; Hazzard items use US law':LAW_NOTE)+'</p>';
