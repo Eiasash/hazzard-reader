@@ -229,8 +229,8 @@ window.HazzardMCQ = (() => {
     }
     return order;
   }
-  function explanationText(q,order=optionOrder(q)){
-    if(!q.explanation)return q.explanation;
+  function explanationLabels(q,order=optionOrder(q)){
+    if(!q.explanation)return {text:q.explanation,positions:new Set()};
     const map=c=>{const alphabet=/[A-D]/.test(c)?'ABCD':'אבגד';const i=order.indexOf(alphabet.indexOf(c));return i<0?c:'אבגד'[i];};
     // Locate all source labels first, then replace once so mappings cannot cascade.
     // Context keeps vitamin D, hepatitis B and mnemonic initials unchanged.
@@ -271,7 +271,96 @@ window.HazzardMCQ = (() => {
       ];
       for(const regex of protectedSpans)for(const m of text.matchAll(regex))for(let i=m.index;i<m.index+m[0].length;i++)positions.delete(i);
     }
-    return text.split('').map((c,i)=>positions.has(i)?map(c):c).join('');
+    return {text:text.split('').map((c,i)=>positions.has(i)?map(c):c).join(''),positions};
+  }
+  // Keep mapping and its recognized source positions together; offsets are unchanged.
+  function explanationText(q,order=optionOrder(q)){
+    return explanationLabels(q,order).text;
+  }
+  function orderedExplanation(q,order){
+    const {text,positions}=explanationLabels(q,order);
+    if(!text||q.law||/\d+[א-ת]*(?:\([\dא-ת]+\))|(?:סעיף|סעיפים)\s+[א-ד]['׳]?/u.test(text))return text;
+    let offset=0;
+    const lines=text.split('\n').map(line=>{
+      const m=/^([ \t]*(?:- )?(?:\*\*)?)([א-ד])(?=[.)]|[ \t]+[—–-])/u.exec(line);
+      const label=m&&positions.has(offset+m[1].length)?'אבגד'.indexOf(m[2]):-1;
+      offset+=line.length+1;return {line,label};
+    });
+    for(let start=0;start<lines.length;){
+      if(lines[start].label<0){start++;continue;}
+      let end=start+1;while(end<lines.length&&lines[end].label>=0)end++;
+      if(end-start>1)lines.splice(start,end-start,...lines.slice(start,end).sort((a,b)=>a.label-b.label));
+      start=end;
+    }
+    return lines.map(item=>item.line).join('\n');
+  }
+  function explanationHTML(q,order=optionOrder(q)){
+    const box=document.createElement('div');
+    box.innerHTML=rich(orderedExplanation(q,order)||'');
+    // A generic heading is not an answer, but may precede an explicit key.
+    let opening=box.firstElementChild;
+    const generic=/^(?:הסבר(?: קליני| מפורט)?|ניתוח (?:השאלה|התשובות)|explanation|clinical explanation|rationale)\s*:?\s*$/iu;
+    while(opening&&generic.test(opening.textContent.trim()))opening=opening.nextElementSibling;
+    const plain=(opening?.textContent.trim()||'').replace(/^✅\s*/u,'');
+    const explicit=/^(?:(?:✅\s*)?(?:(?:מדוע|למה)\s+)?(?:ה?תשוב(?:ה|ות)(?:\s+(?:ה?נכונ(?:ה|ות)|הרשמי(?:ת|ות)))?|(?:the\s+)?(?:(?:correct|official|accepted)\s+)?answers?|official IMA key)\s*(?:[:—–-]|היא|הן|is|are|[א-דA-D]['׳]?\s+(?:נכונ|התקבל))|[א-ד]['׳]?(?:\s*[,ו&-]\s*[א-ד]['׳]?)*\s+התקבלו|all answers accepted|המפתח הרשמי(?: והבנק| לאחר ערעורים)? (?:מסמנ|הוא|מקבל))/iu.test(plain)
+      ||/^(?:(?:למה|מדוע)\s+[א-ד]['׳]?\s+נכונ?[ה]?|תשובה\s+[א-ד]['׳]?\s*(?:[—–-]|נכונ)|[א-ד]['׳]?\s+(?:נכון|נכונה|היא התשובה)|ה?תשובה\s+[„“"])/u.test(plain)
+      ||/^(?:מדוע|למה).*התשובה הנכונה/u.test(plain)
+      ||(/^H[1-6]$/.test(opening?.tagName||'')&&/התשובה הנכונה|correct answer/iu.test(plain));
+    // Look only in the opening declaration, not later rationale/distractors.
+    const declaration=plain.split(/\n|(?<=[.!?])\s+|\s+(?:מכיוון|משום|שכן)\s+/u)[0];
+    const normalize=s=>s.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+    const content=normalize(declaration);
+    const optionTexts=explicit?q.o.map(option=>{const node=document.createElement('div');node.innerHTML=rich(option);return normalize(node.textContent);}):[];
+    // Content-only keys can paraphrase the option. Require an identifying phrase
+    // unique to that option, rather than treating an answer-heading prefix as proof.
+    const words=declaration.match(/[\p{L}\p{N}]+/gu)||[];
+    const phrases=words.flatMap((word,i)=>[word.length>=5||/^[A-Z]{2,}$/.test(word)?normalize(word):'',normalize(words.slice(i,i+2).join(' '))]).filter(s=>s.length>=3);
+    const matches=optionTexts.map(option=>phrases.filter(phrase=>option.includes(phrase)));
+    const namedContent=i=>matches[i].length>0&&optionTexts.every((_,j)=>j===i||matches[i].some(phrase=>!matches[j].includes(phrase)));
+    // Bilingual/abbreviated content-only declarations already present in the bank.
+    const aliases=[
+      ['נינטדניב','NINTEDANIB'],['וורפרין','WARFARIN'],['לורזפאם','LORAZEPAM'],['ליסינופריל','LISINOPRIL'],
+      ['comprehensive geriatric assessment','הערכה גריאטרית מקיפה'],
+      ['הפסקת nitrofurantoin ומעקב צופה','הפסק nitrofurantoin וצפה'],
+      ['הפסקה מיידית של donepezil','הפסקת donepezil לאלתר'],
+      ['healthcare proxy / surrogate decision-maker','מי יקבל החלטות אם היא לא תוכל'],
+      ['לחקור את הבנתו של הבן ואת הערכים שלו','בוא נבין מה אתה מבין לגבי הפרוגנוזה של אביך ומה הכי חשוב לו'],
+      ['ניקוז Foley לטווח קצר','השאר Foley עם monitoring יומי למשך 48-72 שעות']
+    ];
+    const aliasContent=i=>aliases.some(([he,en])=>content.includes(normalize(he))&&optionTexts[i].includes(normalize(en)));
+    const labels=new Set([...declaration.matchAll(/(?<![\p{L}\p{N}])(?:ו-?)?([א-דA-D])(?=['׳]?(?:[^\p{L}\p{N}]|$))/gu)].map(m=>'אבגד'.includes(m[1])?'אבגד'.indexOf(m[1]):'ABCD'.indexOf(m[1])));
+    const accepted=q.accepted||[q.c];
+    const allAccepted=/^all answers accepted/iu.test(plain)&&accepted.length===q.o.length;
+    const covers=explicit&&accepted.every(i=>{
+      if(labels.has(order.indexOf(i)))return true;
+      const optionText=optionTexts[i];
+      return optionText.length>0&&(content.includes(optionText)||namedContent(i)||aliasContent(i));
+    });
+    if(explicit&&(allAccepted||covers)){
+      // Bold only the declaration, keeping the surrounding rich DOM and prose.
+      opening.classList.add('mcq-answer-declaration');
+      const walker=document.createTreeWalker(opening,NodeFilter.SHOW_TEXT),range=document.createRange();
+      let remaining=opening.textContent.indexOf(declaration)+declaration.length,node;
+      range.setStart(opening,0);
+      while((node=walker.nextNode())){
+        if(remaining<=node.length){range.setEnd(node,remaining);break;}
+        remaining-=node.length;
+      }
+      if(node){const strong=document.createElement('strong');strong.style.fontWeight='700';strong.append(range.extractContents());range.insertNode(strong);}
+      return box.innerHTML;
+    }
+    const english=/^\p{Script=Latin}$/u.test((box.querySelector('p')?.textContent||box.textContent).match(/\p{L}/u)?.[0]||'');
+    const answer=document.createElement('div');answer.className='mcq-answer-declaration';answer.style.fontWeight='700';answer.dir=english?'ltr':'rtl';
+    const title=document.createElement('span');
+    title.textContent=english?(accepted.length>1?'Correct answers: ':'Correct answer: '):(accepted.length>1?'התשובות הנכונות: ':'התשובה הנכונה: ');
+    answer.append(title);
+    accepted.forEach((i,n)=>{
+      if(n)answer.append(document.createTextNode(' · '));
+      const label=document.createElement('bdi');label.dir=answer.dir;label.textContent=('אבגדה'[order.indexOf(i)]||String(order.indexOf(i)+1))+'. ';
+      const option=document.createElement('div');option.className='mcq-mixed';option.dir='auto';option.lang='he';option.style.display='inline-block';option.innerHTML=rich(q.o[i]);
+      answer.append(label,option);
+    });
+    box.prepend(answer);return box.innerHTML;
   }
   const PRACTICE_LABEL='Hazzard practice - US framing';
   const LAW_NOTE='Questions on Israeli law, health systems and ethics.';
@@ -841,7 +930,7 @@ window.HazzardMCQ = (() => {
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+order.map((i,display)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(letters[display]||String(display+1))+(state.checked&&accepted.includes(i)?' ✓':state.checked&&state.selected===i?' ✕':'')+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(q.o[i])+'</span></button>').join('')+'</div>'+
         '<div class="mcq-actions"><button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+((reviewMode&&!state.checked||!mockMode&&!reviewMode&&position>=list.length-1)?'disabled':'')+'>Next</button></div>'+
-        (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p>'+(q.kind==='past'&&order.some((n,i)=>n!==i)?'<p class="mcq-source-note mcq-official-order" dir="ltr">Options shuffled. Official paper order: answer '+accepted.map(i=>letters[i]).join(', ')+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(q.explanation?rich(explanationText(q,order)):'<p>אין הסבר במאגר לשאלה זו.</p>')+'</div></section>':'')+citationHTML(q);
+        (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p>'+(q.kind==='past'&&order.some((n,i)=>n!==i)?'<p class="mcq-source-note mcq-official-order" dir="ltr">Options shuffled. Official paper order: answer '+accepted.map(i=>letters[i]).join(', ')+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(explanationHTML(q,order))+'</div></section>':'')+citationHTML(q);
       if(state.checked&&(q.explanationReviewNote||q.explanationIncomplete)){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.lang='en';note.textContent=q.explanationReviewNote||'Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       if(q.kind==='past'&&!mockMode)HazzardLawCards.questionLinks(content,q.id);
@@ -1031,5 +1120,5 @@ window.HazzardMCQ = (() => {
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SAVED_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
+  return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,explanationHTML,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
 })();
