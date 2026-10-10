@@ -7328,6 +7328,36 @@
       "label": "Practice · An older outpatient has primary hyperparathyroidism caused by a single parathyroid adenoma",
       "changedAt": "2026-10-10T19:30:43.768904+03:00",
       "release": "v188"
+    },
+    {
+      "id": "mcq-30c82a2cc97c7930197d674a",
+      "label": "Practice · לפי מודל השבריריות של Fried, שלושה מתוך חמישה מאפיינים מאפשרים לזהות שבריריות. איזה תהליך ",
+      "changedAt": "2026-10-10T19:48:51.729366+03:00",
+      "release": "v189"
+    },
+    {
+      "id": "mcq-3f0d56ec264d78fea490c3f6",
+      "label": "Practice · אישה בת 76 נבדקת בשל לוחות לבנים בפות, אזורי פורפורה ואיחוי חלקי של השפתיים. הגרד פחת לאחר",
+      "changedAt": "2026-10-10T19:48:51.729366+03:00",
+      "release": "v189"
+    },
+    {
+      "id": "mcq-121b54b84e5152a02d33094b",
+      "label": "Practice · בניסוי קהילתי במטופלים מבוגרים עם סרטן מתקדם, התערבויות מונחות הערכה גריאטרית מקיפה הפחיתו",
+      "changedAt": "2026-10-10T19:48:51.729366+03:00",
+      "release": "v189"
+    },
+    {
+      "id": "mcq-8d9e81938b00004038e5148f",
+      "label": "Practice · במחקר אקראי במבוגרים עם גידולים מוצקים שהחלו כימותרפיה, תוכנית המבוססת על הערכה גריאטרית מ",
+      "changedAt": "2026-10-10T19:48:51.729366+03:00",
+      "release": "v189"
+    },
+    {
+      "id": "mcq-64697dbbe0116e769b7ec7db",
+      "label": "Practice · In an older adult with a vertebral compression fracture, which presentation supports consi",
+      "changedAt": "2026-10-10T19:48:51.729366+03:00",
+      "release": "v189"
     }
   ]
 }
