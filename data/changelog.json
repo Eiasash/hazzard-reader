@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v204",
+      "date": "2026-10-11",
+      "changes": [
+        "Rewritten explanations: 232 explanations no longer name options by their shuffled letter and lost other leftovers"
+      ]
+    },
+    {
       "version": "v203",
       "date": "2026-10-10",
       "changes": [
