@@ -8330,6 +8330,12 @@
       "label": "Practice · An older adult with renal artery stenosis has a renal vein renin ratio of 1.6. Which inter",
       "changedAt": "2026-10-10T22:06:08.237722+03:00",
       "release": "v198"
+    },
+    {
+      "id": "mcq-cd23ec181d3e2fe47822676d",
+      "label": "Practice · אישה בת 87 נבדקת שבוע לאחר ניתוח שבר ירך. בהשוואה להערכה קוגניטיבית תקינה שתועדה לפני הנית",
+      "changedAt": "2026-10-10T22:21:52.321498+03:00",
+      "release": "v199"
     }
   ]
 }
