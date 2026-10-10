@@ -6752,6 +6752,534 @@
       "sitting": "2021-Dec-Subspec",
       "number": 48,
       "release": "v92"
+    },
+    {
+      "id": "mcq-9ab87c4570a97da9928617ed",
+      "label": "Practice · איזו גישה תזונתית בסרקופניה תואמת את הראיות המתוארות בספר?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-6f53b6cc9e45c059c358bdc8",
+      "label": "Practice · במטופל מעל גיל 80 המקבל Levothyroxine, הספר מציע לכוון את ה־TSH לחלק העליון של הטווח התקין",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b770bd49be0a78af3fb136d8",
+      "label": "Practice · גבר בן 76 עם סרטן קיבה נמצא בסיכון גבוה לרעילות כימותרפיה לפי CRASH. איזו גישה נתמכת במחקר",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-d59a9955e7025542643b2159",
+      "label": "Practice · אישה בת 78 עם יובש בנרתיק וכאב בחדירה לא השתפרה עם חומרי סיכה. נמצאו רירית חיוורת ואובדן ק",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b6e84b32a0968f1e817d7d23",
+      "label": "Practice · אישה מבוגרת זקוקה לבחירת טיפול בזיהום שתן מסובך. לפי טבלה 106-6 ב־Hazzard, איזו מהתרופות ה",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-20720facc0f100136614f57d",
+      "label": "Practice · מטופל עם פצע לחץ אינו מצליח להשלים את צרכיו התזונתיים דרך הפה, בין היתר בגלל הגבלות תזונתי",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-238976b0d84f94072a9bf892",
+      "label": "Practice · בפצע לחץ נקי בדרגה 2 עם הפרשה מועטה נבחרה חבישה הידרוקולואידית. Hazzard מתאר החלפה כל שלוש",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-14048e7f3bac621d08d5fd03",
+      "label": "Practice · An older inpatient has an acute, fluctuating change in mental status. Which additional fin",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-7e829106d3fe239fb104491c",
+      "label": "Practice · An older inpatient develops delirium after several psychoactive medications are added. Whi",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-5e4d7a03b9fecb19946ba0df",
+      "label": "Practice · Hazzard links midlife physical inactivity and obesity to later Alzheimer disease. Which in",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0ae873b6b487cff2c570ddef",
+      "label": "Practice · Hazzard reports discordance between a clinical Alzheimer dementia diagnosis and autopsy fi",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-26e303047c1894da49ab7cca",
+      "label": "Practice · When counseling a family about symptomatic medication for Alzheimer disease, which stateme",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0fab0a62ed2d40cd490ed1da",
+      "label": "Practice · According to Hazzard, how are neuropsychiatric symptoms in dementia associated with diseas",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-a3cf84964cfc7f4f08f0426f",
+      "label": "Practice · An older adult with dementia develops irritability and anxiety. Which approach best reflec",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-97713193f33861de8e07c13f",
+      "label": "Practice · The MIND at Home study found unmet care needs in nearly all community-dwelling dementia pa",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-9345f465e67567b17b3cfd29",
+      "label": "Practice · A patient with dementia-related agitation has no significant benefit after a 4-week antips",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-542eb20ceaf650cfd003d162",
+      "label": "Practice · In the Alzheimer disease antipsychotic trial discussed by Hazzard, olanzapine and risperid",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-36258ead3f0abd7bfd8d5f68",
+      "label": "Practice · Which statement best describes parkinsonism and its causes?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-f112528238099ce7ce5e3a44",
+      "label": "Practice · At the onset of Parkinson motor symptoms, substantial dopaminergic terminal loss is alread",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-72296826b63625a72baab975",
+      "label": "Practice · An older adult has a fall without physical injury but becomes afraid of falling again. Whi",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-7196000e69f57e8809d9d052",
+      "label": "Practice · An older resident falls without sustaining a physical injury, then becomes afraid of falli",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-e528693fe9e1aa39f642c884",
+      "label": "Practice · An older adult avoids usual daily activities because of fear after a fall. Which combinati",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-cc576faab350be7b2e5d07cb",
+      "label": "Practice · Hazzard associates psychoactive medication use with a two- to threefold increase in fall r",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-e28447616f635d907504906c",
+      "label": "Practice · A patient falls the day after an antihypertensive dose change. Which interpretation best r",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-7239d9834e172e57d85c9352",
+      "label": "Practice · A robust older adult falls on an icy path, while an older adult with very poor physical ab",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-7e9c8c91fe0d9495c3538d2a",
+      "label": "Practice · An older community-dwelling person reports a stair fall during the past year and performs ",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0a2bbe7fd99b0fd813c86536",
+      "label": "Practice · After completing a CaHFRiS fall screen for a care-home resident, which use of the findings",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-53f9cbaf7821f01a14a18c0d",
+      "label": "Practice · When designing an exercise program to reduce falls in community-dwelling older adults, whi",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-8cb584efa048fffc9c3cb9d1",
+      "label": "Practice · Pressure injuries are especially common in older adults. Which principle should guide prev",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-8eb8b877b7ec8d9eedcebfe2",
+      "label": "Practice · After prolonged pressure over a bony prominence, an older adult’s skin is still intact. Wh",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-27f42bd3893f5bfa6ac52a5e",
+      "label": "Practice · An immobilized older patient wears heel protectors. Why do these not remove the need to co",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-29f0f8e55b516a6da7c64429",
+      "label": "Practice · Which approach to urinary incontinence in an older nursing-home resident is supported by t",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-08b6d64961a7ebdcb044735a",
+      "label": "Practice · During bladder filling, what immediate relationship between bladder pressure and outlet re",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-7f60dc6ab9c4c85df4cf3761",
+      "label": "Practice · A woman performs a cough stress test while standing with a comfortably full bladder. Which",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b0390db8b84586e64e5e1b79",
+      "label": "Practice · What is the rationale for the glucose criteria used to diagnose diabetes?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-d2ff2135c62f41937b32cc70",
+      "label": "Practice · An older adult without clear hyperglycemic symptoms has an A1C at or above 6.5% but fastin",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-671aed99682676c96cff487a",
+      "label": "Practice · An older adult with diabetes has albuminuria and impaired GFR. Which interpretation best f",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-e76705078ad7c7d2b4ee2abd",
+      "label": "Practice · Why does the framework include a lower HbA1c boundary when older adults use insulin or oth",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-4b1276eba5678945977c3e19",
+      "label": "Practice · An older adult taking metformin is acutely hospitalized with a major illness causing decre",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-62bbbd5fdcb02ef58384ada4",
+      "label": "Practice · Which approach best fits a nursing-home resident with diabetes, substantial disability and",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-6eed0d03806d69f3a013331f",
+      "label": "Practice · What does the Frailty Index express in the deficit-accumulation approach described by Hazz",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-bd0f0052aa882a252622a349",
+      "label": "Practice · Why was the Clinical Frailty Scale developed as a practical alternative to the detailed Fr",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-a06f2f2499492064230c8ca0",
+      "label": "Practice · Which description best captures the clinical purpose of the Edmonton Frail Scale?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0fdff73e3a9bc14b8b0602a6",
+      "label": "Practice · Which combination fits the operational definition of cognitive frailty described in Hazzar",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b873bb5b1df46aca06bbca1b",
+      "label": "Practice · Which pattern of transitions between frailty states is supported by the chapter?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-e1c101998a9937cc6c4f62c5",
+      "label": "Practice · When assessing an older candidate for liver transplantation, which conclusion best reflect",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-25e4fe27c7b411eb023f5473",
+      "label": "Practice · Hazzard reports that frailty is about three times more prevalent among people with cardiov",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-5dfe3338ff7a2bb0d5ebb8c6",
+      "label": "Practice · Which explanation of sleep-disordered breathing in stable heart failure correctly distingu",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-53ee281e63511cb90b2cef62",
+      "label": "Practice · An older adult is starting fixed CPAP for obstructive sleep apnea. What is the purpose of ",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-76571f7c56c0c9710bd2ad4b",
+      "label": "Practice · Which symptom pattern best supports restless legs syndrome in an older adult with an urge ",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-eb9c7b03d9cd3c915d84c4fa",
+      "label": "Practice · An older adult has syncope attributed to symptomatic cardioinhibitory carotid sinus syndro",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-1757f3810b8eab8a8da3bab7",
+      "label": "Practice · An older ED patient has an acute change in attention but is quiet rather than agitated. Wh",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-d600c9a0d4fecd98b6747ab0",
+      "label": "Practice · An older adult with symptomatic knee osteoarthritis asks how conservative treatment and jo",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-edd8a68dfbe51469e43da126",
+      "label": "Practice · Hazzard describes many genetic risk loci for osteoarthritis. Which interpretation of these",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-ec192fada41f3259be29772f",
+      "label": "Practice · Which physical-therapy plan best reflects the chapter's approach to advanced knee osteoart",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-8c27102d094272e10d38f820",
+      "label": "Practice · An older adult is beginning resistance training and has not yet mastered the movement patt",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-93ad66707395c98cc6dc232c",
+      "label": "Practice · Why should flexibility training aim for sufficient functional motion rather than maximizin",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-51664017e7f6736a8ab9c5a5",
+      "label": "Practice · Only about one-third of eligible patients receive cardiac rehabilitation in the estimate c",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0555bb344e1fffd2ce927fff",
+      "label": "Practice · Which approach best follows the chapter when planning exercise-based cardiac rehabilitatio",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0dc69564ae915eadd12eaeda",
+      "label": "Practice · Which approach best addresses hemiplegic shoulder pain during stroke rehabilitation?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b4fa6fc48457f06a9a03ab39",
+      "label": "Practice · Which interpretation best matches Hazzard's review of vitamin E supplementation and the tr",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-f165dca9c56a9bbc8b8e7b4c",
+      "label": "Practice · A person diagnosed with mild cognitive impairment later performs within the normal range o",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-7253f4193a13a93ec62d783f",
+      "label": "Practice · A patient has progressive disinhibition, apathy and loss of empathy, but an early MMSE sco",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-a5d2c920f5d5cc17b96e37ab",
+      "label": "Practice · Cognitive decline is common during long-standing Parkinson disease. Which finding best sup",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-47d08ffa501e75a45ba8faa6",
+      "label": "Practice · An older adult has predominant progressive behavior and personality changes, with relative",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-f8e0859aaeffa8d21512a809",
+      "label": "Practice · Which early presentation should most strongly raise suspicion for behavioral-variant front",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-974196f3bcdd34eefee5e9fb",
+      "label": "Practice · An older adult has early gait impairment and backward falls suggesting progressive supranu",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-af1c88c8c99826135bc03eb4",
+      "label": "Practice · Why does adequate control of acute postoperative pain matter for an older adult’s longer-t",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-589055450881a43205d5fec4",
+      "label": "Practice · Which mechanism defines neuropathic pain in Hazzard, rather than nociceptive pain?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b70dfa909d9ece4884bc5e90",
+      "label": "Practice · A patient with facet-mediated pain obtains 80% pain relief after a diagnostic medial-branc",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-0304d3a2cf42b2f0be227c89",
+      "label": "Practice · Which description best explains the process underlying osteoarthritic joint pain?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-f1059f1832385fcb7a77ad09",
+      "label": "Practice · Some studies report promising results from platelet-rich plasma injections for knee osteoa",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-a482a6deb806b31649ea7745",
+      "label": "Practice · Why does atrial contraction contribute more to left-ventricular filling in older adults?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-8754ff1f06a5e4a6e81cf7a2",
+      "label": "Practice · Frequent right ventricular pacing is associated with increased heart-failure hospitalizati",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-274b9aac5f85ca97943ab06b",
+      "label": "Practice · An older adult taking an NSAID becomes volume depleted. Which assessment principle follows",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-c20bfd8f3c78d3b8b8c85f02",
+      "label": "Practice · Which approach best follows from the high cardiovascular risk described in older patients ",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-367c9917f42ad2586ee40196",
+      "label": "Practice · Why can a slow-release oral iron preparation reduce bowel effects without improving iron r",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-396bf7d502bb917e6cdd6cc8",
+      "label": "Practice · How does the time needed for a mutated cell to become a detectable tumor help explain the ",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-5e33c7b5c13de2899a3e7d37",
+      "label": "Practice · Trials described by Hazzard found lower treatment toxicity with CGA-guided oncology care. ",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-1f748c91c80b85449c4e7221",
+      "label": "Practice · When considering whether to stop colorectal-cancer screening in an older adult, which appr",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-45004e2ebed41355e20fe3ae",
+      "label": "Practice · An older patient has a newly identified pituitary macroincidentaloma at least 1 cm in size",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-ce705429ab436fbc8829206e",
+      "label": "Practice · Why is hematocrit monitored during testosterone treatment in an older man?",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-944856ded0c76511b507a98f",
+      "label": "Practice · Before using the rheumatoid-arthritis classification score in Hazzard Table 101-1, which c",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-e0d4a0676133ca433fd6a245",
+      "label": "Practice · Which interpretation best explains the association between Sjögren syndrome and lymphoma d",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-ebab75ef46efa1ab0af51a43",
+      "label": "Practice · An older adult with osteoporosis develops height loss and kyphosis without recalling sever",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-b4a96b767f65f19bf3afc082",
+      "label": "Practice · An older adult with an osteoporotic vertebral compression fracture has persistent severe b",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-dc159d6b533cb3b7f545a983",
+      "label": "Practice · An older adult presents with pneumonia before a causative organism has been identified. Wh",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
+    },
+    {
+      "id": "mcq-02092e35bdf82a72a2b6c074",
+      "label": "Practice · Why might immunizing school-aged children against influenza reduce influenza among older a",
+      "changedAt": "2026-10-10T18:59:20.876573+03:00",
+      "release": "v187"
     }
   ]
 }
