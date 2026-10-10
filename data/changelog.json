@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v180",
+      "date": "2026-10-10",
+      "changes": [
+        "Fixed: lab values written like K+ 5.8 or Na+ 124 inside Hebrew questions now read in order."
+      ]
+    },
+    {
       "version": "v179",
       "date": "2026-10-10",
       "changes": [
