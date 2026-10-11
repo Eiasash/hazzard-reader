@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v234",
+      "date": "2026-10-12",
+      "changes": [
+        "Remove a single highlight straight from your notebook with the × next to it."
+      ]
+    },
+    {
       "version": "v233",
       "date": "2026-10-12",
       "changes": [
