@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v215",
+      "date": "2026-10-11",
+      "changes": [
+        "Long links now wrap on phones, source quotes start on their own line, and 32 explanations were tidied (no slashes between Hebrew words, no stray English clauses or Clinical Pearl sections)."
+      ]
+    },
+    {
       "version": "v214",
       "date": "2026-10-11",
       "changes": [
@@ -36,7 +43,7 @@
       "version": "v210",
       "date": "2026-10-11",
       "changes": [
-        "Rewritten explanations: 20 questions now explain why the answer is right and why each other option is wrong, from the source"
+        "20 official explanations were repaired from the source, some with a \"missing step\" note where no source settles a comparison."
       ]
     },
     {
