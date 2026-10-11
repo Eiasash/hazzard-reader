@@ -154,8 +154,8 @@ window.HazzardMCQ = (() => {
   for(const id of ["mcq-3afbf0f9b72106238069c283", "mcq-eb930fa58023870834e4de2a", "mcq-87ded8958c78f614611129e7", "mcq-d83b57579731130f5223d128", "mcq-5590fc958a0c9be33349042f", "mcq-a7166eeee0950320121fee29", "mcq-019bf231802c4f0babcf3e65", "mcq-10e277586d2f7f61487d08fa", "mcq-5507c165c4e52230feb53668", "mcq-dbca0ec187cc977ffcb45a5e", "mcq-a9ee28406aba3bbef8715ceb", "mcq-06686a5c7dc4ec3d4dc6d195", "mcq-c34569120a71dde31a3d8c16"])RETIRED_IDS.add(id);
   for(const id of ["mcq-4eb7d8c6ec78250e52740308"])RETIRED_IDS.add(id);
   const retired=id=>RETIRED_IDS.has(currentId(id));
-  const STANDOUT_IDS=new Set(["mcq-032a2c18787b874cc9ffbb4a","mcq-06a15a9053f355094b929a71","mcq-13629dd86cb32118a04a6dad","mcq-200f8271168f1ad2caf96ecd","mcq-212c8a36867291ad136fc1b9","mcq-3b5ae1e2e9727c9436fce936","mcq-41a840b17c28ea089331fa78","mcq-5acee2d958c3195d8016f799","mcq-6c5e7fb57bcb951de0f439e2","mcq-7b70f07311595f68ed7aa9ea","mcq-7c91e769b4cc7ec153925566","mcq-84bc251181428aa940215436","mcq-8de67b970bb8294ae6d6bd8c","mcq-8e03aa83677e26959c3ac715","mcq-c1ccbb8fa3fae19de6db05d3","mcq-d3b0cdb450de242399ac74be","mcq-d945a556f4297d7ed1019a93"]);
-  const STANDOUT_CHAPTER_COUNTS={"88":1,"law":8};
+  const STANDOUT_IDS=new Set(["mcq-06a15a9053f355094b929a71","mcq-200f8271168f1ad2caf96ecd","mcq-3b5ae1e2e9727c9436fce936","mcq-7b70f07311595f68ed7aa9ea","mcq-84bc251181428aa940215436","mcq-8e03aa83677e26959c3ac715","mcq-d3b0cdb450de242399ac74be"]);
+  const STANDOUT_CHAPTER_COUNTS={"88":1,"law":2};
   for(const id of RETIRED_IDS)STANDOUT_IDS.delete(id);
   const SETTINGS_KEY='hazzard-practice-settings-v1',PLACE_KEY='hazzard-practice-place-v1';
   const settingNames=['includeStandout','shufflePastOptions','generatedSelected','drillSelected'];
