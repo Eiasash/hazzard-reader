@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v233",
+      "date": "2026-10-12",
+      "changes": [
+        "Removed an outdated note saying deleted items can come back from another device. Tap Update on each device the first time you open it."
+      ]
+    },
+    {
       "version": "v232",
       "date": "2026-10-12",
       "changes": [
