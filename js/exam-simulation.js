@@ -29,7 +29,6 @@ window.HazzardSimulation = (() => {
     return {version:1,at:Math.max(a.at,b.at),session,history};
   }
   function write(v){if(!valid(v))throw Error('Exam simulation could not be saved.');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-simulation-change'));return v;}
-  const localLogs=new Map();
   let bankPromise,checking=false,backgroundError='';
   function bank(){return bankPromise ||= fetch('data/mcq/all.json').then(r=>{if(!r.ok)throw Error('Exam questions unavailable. Reconnect and try again.');return r.json();}).catch(e=>{bankPromise=null;throw e;});}
   function questions(s,all){const byId=new Map(all.map(q=>[q.id,q]));const list=s.ids.map(id=>byId.get(HazzardMCQ.currentId(id)));if(list.some((q,i)=>!q||q.t!==s.sitting||q.examNumber!==i+1))throw Error('This sitting is incomplete. The saved attempt has been kept.');return list;}
@@ -39,7 +38,7 @@ window.HazzardSimulation = (() => {
     // make replay safe after a failed write, reload, restore or another tab.
     const incoming=HazzardMCQ.migrateValue(HazzardMCQ.KEY,{version:1,answers:s.commit.answers});
     HazzardStorage.setItem(HazzardMCQ.KEY,JSON.stringify(HazzardMCQ.mergeStore(HazzardMCQ.readStore(false),incoming)));
-    for(const action of localLogs.get(s.id)||[]){const a=s.commit.answers[action.id];if(a?.checked&&HazzardMCQ.persistedAnswer(action.id,a))HazzardMCQ.appendLog(action);}
+    for(const action of s.commit.logs||[]){const a=s.commit.answers[action.id];if(a?.checked&&HazzardMCQ.persistedAnswer(action.id,a))HazzardMCQ.appendLog(action);}
     HazzardReview.write(HazzardReview.merge(HazzardReview.read(),s.commit.review));
     s.status='submitted';s.at=Math.max(Date.now(),s.at+1);v.at=s.at;return write(v);
   }
@@ -60,8 +59,8 @@ window.HazzardSimulation = (() => {
       if(!right||previous)reviewUpdates.items[q.id]=HazzardReview.result(previous,{correct:right,unsure:previous?.unsure||false},at);
     });
     const result={sitting:s.sitting,at:ended,correct,total,timeMs:Math.max(0,ended-s.startedAt),automatic:automatic||now>=s.deadline};
-    s.status='submitting';s.commit={answers:answerUpdates,review:reviewUpdates};s.at=Math.max(now,s.at+1);v.at=s.at;v.history[s.id]=result;
-    localLogs.set(s.id,logs);write(v);return finish(v);
+    s.status='submitting';s.commit={answers:answerUpdates,review:reviewUpdates,logs};s.at=Math.max(now,s.at+1);v.at=s.at;v.history[s.id]=result;
+    write(v);return finish(v);
   }
   async function check(){
     if(checking)return;checking=true;
