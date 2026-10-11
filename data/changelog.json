@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v212",
+      "date": "2026-10-11",
+      "changes": [
+        "Rewritten explanations: 553 practice questions were rewritten from the source",
+        "554 hidden practice questions were fixed or confirmed from the book and are served again"
+      ]
+    },
+    {
       "version": "v211",
       "date": "2026-10-11",
       "changes": [
