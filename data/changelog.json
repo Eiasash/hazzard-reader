@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v223",
+      "date": "2026-10-11",
+      "changes": [
+        "8 explanations that repeated the same full reference after every option now use a short tag per option, with the full reference once at the end."
+      ]
+    },
+    {
       "version": "v222",
       "date": "2026-10-11",
       "changes": [
@@ -60,7 +67,7 @@
       "version": "v215",
       "date": "2026-10-11",
       "changes": [
-        "Long links now wrap on phones, source quotes start on their own line, and 32 explanations were tidied (no slashes between Hebrew words, no stray English clauses or Clinical Pearl sections)."
+        "Long links now wrap on phones, source quotes start on their own line, and 9 explanations were tidied (of 32 reviewed) (no slashes between Hebrew words, no stray English clauses or Clinical Pearl sections)."
       ]
     },
     {
