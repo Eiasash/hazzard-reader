@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v207",
+      "date": "2026-10-11",
+      "changes": [
+        "432 generated practice questions whose answer no checked source confirms are now hidden by default, so Practice serves only questions backed by the book or another checked source; Practice settings, Include hidden practice, serves them."
+      ]
+    },
+    {
       "version": "v206",
       "date": "2026-10-11",
       "changes": [
