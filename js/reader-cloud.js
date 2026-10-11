@@ -133,10 +133,10 @@ window.HazzardCloud = (() => {
       if(!copy.exists)throw Error('No cloud copy is available.');
       if(!confirm('Restore '+(which==='prev'?'previous cloud copy':'from cloud')+' (saved '+time(copy.updated_at,true)+')? This replaces this phone’s notebook. A local snapshot is saved first.'))return;
       restoring=true;clearTimeout(timer);
-      await bridge.restore(copy.data);
+      const summary=await bridge.restore(copy.data);
       if(generation!==epoch)return;
       state={username:session.username,decided:true,dirty:false,restoredAt:new Date().toISOString(),restoredCopyAt:copy.updated_at};saveState();
-      tick=false;error='';notice='Cloud copy restored. Local snapshot kept.';
+      tick=false;error='';notice='Cloud copy restored. Local snapshot kept.'+(summary||'');
       // Do not immediately re-upload a restore: retain the server's previous copy.
     }catch(e){if(generation===epoch)error=e.message||'Restore failed.';}
     finally{restoring=false;busy=false;render();}
