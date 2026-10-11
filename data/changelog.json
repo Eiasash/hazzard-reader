@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v230",
+      "date": "2026-10-11",
+      "changes": [
+        "1 practice questions are now in English, written from their source instead of translated"
+      ]
+    },
+    {
       "version": "v229",
       "date": "2026-10-11",
       "changes": [
