@@ -15998,6 +15998,1428 @@
       "label": "Practice · A 78-year-old man with a low income, diabetes, and heart failure has been hospitalized thr",
       "changedAt": "2026-10-11T18:22:04.863896+03:00",
       "release": "v216"
+    },
+    {
+      "id": "mcq-00d77f400146c113ffb896e7",
+      "label": "Practice · A 75-year-old man with COPD develops confusion and fatigue over 12 hours. His family says ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e0371fb89eb1523da1dbadad",
+      "label": "Practice · An 84-year-old woman with progressive Alzheimer dementia and an MMSE score of 18/30 takes ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a070b3da0b69e66b2db89e22",
+      "label": "Practice · A 71-year-old man presents with cognitive decline, visual hallucinations, slow shuffling g",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b80f7395c8d20b3718e510da",
+      "label": "Practice · An 80-year-old patient taking chronic morphine for cancer pain develops fecal impaction. W",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f7904762d92d23812211736d",
+      "label": "Practice · An 84-year-old patient has exertional dyspnea, orthopnea, preserved ejection fraction, and",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a132dcb6466e825db60524c4",
+      "label": "Practice · A 70-year-old man with an eGFR of 25 develops severe constipation while taking opioid anal",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b84d942e1dac38df43dba69d",
+      "label": "Practice · A 78-year-old woman taking levothyroxine for hypothyroidism develops atrial fibrillation. ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-90507ce1829dae10f6d7ca4a",
+      "label": "Practice · An 80-year-old man with hypertension, stage 3a CKD (eGFR 52), and albuminuria is being ass",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9eaebe462ab51346d0b6a674",
+      "label": "Practice · An 85-year-old patient has a 4AT score of 6. Which action addresses the potential causes o",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-932719fda3a77cf867a660f4",
+      "label": "Practice · An 82-year-old man is admitted with a hip fracture and is being prepared for surgery. When",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4afd6b8f60fe26bb0103733a",
+      "label": "Practice · An 83-year-old woman is seen two weeks after a stroke. She has atrial fibrillation, blood ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-378831f6b250042f5cc5200a",
+      "label": "Practice · In Hazzard's discussion of the free-radical theory of aging, which process links free-radi",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c4f19cb61d6f91b26b387c0a",
+      "label": "Practice · A 78-year-old patient with advanced dementia takes oxycodone for chronic pain and has seve",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3864f36f45040ed1b66400bd",
+      "label": "Practice · An older adult with constipation takes verapamil, amitriptyline, and oral ferrous sulfate.",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a6c57fcadb249c4088bc78de",
+      "label": "Practice · An 85-year-old woman has severe constipation and fecal incontinence. Rectal examination fi",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-563d67018d30ce7fd7a45119",
+      "label": "Practice · A 90-year-old patient with severe dementia has chronic constipation despite trials of poly",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9c8b9082671ca90bb6c359e3",
+      "label": "Practice · What does overflow fecal incontinence that resembles diarrhea represent, and what finding ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-deba4d2f44c82d40100dde38",
+      "label": "Practice · Which description of lactulose matches the source table that lists flatulence and abdomina",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6d8030f7d5c537505229861d",
+      "label": "Practice · Why do oral NSAIDs require particular caution in older adults with osteoarthritis?",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-efb709ce7d9951952073fc93",
+      "label": "Practice · An asymptomatic 82-year-old woman has a first TSH result of 8 mU/L with normal free T4. Wh",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-62ea502c494c013bb9384b7b",
+      "label": "Practice · Which pair of adverse effects is particularly associated with levothyroxine overreplacemen",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ae7e83ec05dc600cb58b280f",
+      "label": "Practice · A patient taking amiodarone develops thyroid dysfunction. Which pairing of underlying thyr",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-537012a2425e85f25bf6f282",
+      "label": "Practice · Which description best characterizes myxedema coma?",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-8e41c4277ae6bd46dd267da7",
+      "label": "Practice · What explains the USPSTF position on routine screening for thyroid dysfunction in adults a",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-355d5b9843b988d9192bc1b9",
+      "label": "Practice · A 78-year-old patient taking levothyroxine 100 micrograms daily reports palpitations and n",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d6e00f1f32926461c71a1eb8",
+      "label": "Practice · An 82-year-old man with COPD, heart failure, and diabetes is hospitalized for an acute exa",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6ec400f9db9a3a7e95c14d1f",
+      "label": "Practice · A 78-year-old man screens positive on SARC-F and reports difficulty rising from a chair, c",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-8eb8a18021db101dfe15cbd9",
+      "label": "Practice · An 82-year-old man had a stroke six months ago and has mild residual left-sided weakness a",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5435ddf7ed1349907da90cee",
+      "label": "Practice · A 79-year-old man with mild dementia (MMSE 24/30) lives with his family and attends a comm",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-75fdc00ca50225501fbce7d9",
+      "label": "Practice · A 72-year-old woman with dementia and bilateral knee osteoarthritis cannot reliably report",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-2ea805f1f3bcb2411282f7b7",
+      "label": "Practice · A 74-year-old man with recent stroke has foot drop that limits safe walking. Cognition is ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6c750e6f74bd836077090e32",
+      "label": "Practice · A 71-year-old man with peripheral arterial disease and diabetes has chronic leg pain and r",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3f0d56ec264d78fea490c3f6",
+      "label": "Practice · A 76-year-old woman has white vulvar plaques, areas of purpura, and partial labial fusion.",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5e8fdc7b0a711207cdfdfb0f",
+      "label": "Practice · A 69-year-old man with hypertension presents with new erectile dysfunction. Diabetes was r",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b2ef7c80a13e0d976cc232e2",
+      "label": "Practice · A 66-year-old man reports four months of progressive erectile dysfunction. He has no known",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9b61e2de261614cff248d584",
+      "label": "Practice · A 68-year-old woman with diabetes, hypertension, and mild depression reports reduced sexua",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ff75dc6e0cc2a4679c9377ac",
+      "label": "Practice · A 66-year-old woman with early Alzheimer disease attends with her husband. He reports that",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4c163dcfdbc593e097a17817",
+      "label": "Practice · A 78-year-old woman with recurrent urinary tract infections, pelvic organ prolapse, and st",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-38291965ee27947e59371896",
+      "label": "Practice · An 82-year-old frail man with heart failure and chronic kidney disease has iron-deficiency",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4bc455efd05c6f1c86df64a8",
+      "label": "Practice · A 75-year-old woman with chronic anemia from myelodysplastic syndrome previously had no sy",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a792bb8ad54498d29487046c",
+      "label": "Practice · A 71-year-old woman with iron-deficiency anemia has taken daily oral iron for 6 weeks. Hem",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-1b0192a332196e360df7c59d",
+      "label": "Practice · A 68-year-old postmenopausal woman has irritative voiding symptoms, urgency, and urgency i",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-850127ed700137db3455a85e",
+      "label": "Practice · A 75-year-old woman has mixed urinary incontinence with both stress and urgency symptoms. ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d6e5b9f87cb177c3b7771d54",
+      "label": "Practice · A healthy, active 70-year-old woman has persistent urgency incontinence despite behavioral",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e2a9f5ace31e635c39772ebc",
+      "label": "Practice · A 69-year-old woman with mixed incontinence uses a controlled, slow-release vaginal estrog",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-550b00c645f3d14a0a919ef0",
+      "label": "Practice · A cancer center is developing a geriatric oncology program. Which combination of implement",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4da6fb9bc45aae6036dde3f5",
+      "label": "Practice · A 76-year-old man with metastatic prostate cancer presents after a fall. He has had increa",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c63ca22222dd103d94280246",
+      "label": "Practice · A 72-year-old man with localized prostate cancer is considering active surveillance rather",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9429aa2262c51cff40966775",
+      "label": "Practice · An 85-year-old man with heart failure, diabetes, and chronic kidney disease has a PSA of 1",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e445579e30c9966d2042ad19",
+      "label": "Practice · A 72-year-old woman with metastatic breast cancer diagnosed six months ago has worsening f",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d5b75af017acdfc07fa6a4a2",
+      "label": "Practice · An 81-year-old man has a 2 cm breast mass. Biopsy shows invasive ductal carcinoma that is ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b5982eeb5917c3137a99bf22",
+      "label": "Practice · A 69-year-old woman who was cognitively at her usual baseline until this week develops con",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-212b643daa9c591d6cffc1f9",
+      "label": "Practice · A 71-year-old woman with localized hormone receptor-positive breast cancer has recurrent f",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d628c71a259ec1bf9d081300",
+      "label": "Practice · A 67-year-old woman takes an aromatase inhibitor for breast cancer. Which effect described",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a3c9935c6e8734bbc5ea347d",
+      "label": "Practice · A 76-year-old Hispanic woman with limited English presents with her son for a breast lump ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-11884e96f90bdaf5abe9d0b3",
+      "label": "Practice · After resection of colon cancer, eight lymph nodes were examined. How should this extent o",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-667f0175b23376efb315e0f9",
+      "label": "Practice · A 76-year-old man has undergone complete resection of stage III colon cancer (T3N1M0). He ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b5b4c869758c63dd0712bd5a",
+      "label": "Practice · An 81-year-old woman has undergone complete resection of stage II, node-negative colon can",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-690bf91bd18f610099d74392",
+      "label": "Practice · An 85-year-old woman with colon cancer requires surgery. She has heart failure and COPD. H",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-240525f04ec8fe2e72e6f4ae",
+      "label": "Practice · An 82-year-old man has a rapidly growing red, 1.5 cm lesion on his sun-exposed scalp that ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e286fc4113925af373df4712",
+      "label": "Practice · A person with limited life expectancy has a basal cell carcinoma in a low-risk area withou",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a8020e4012972e4e629e59f5",
+      "label": "Practice · A 71-year-old woman with moderate dementia has a new pigmented lesion that has changed rec",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-715434ad78cb9ea84664947f",
+      "label": "Practice · A 78-year-old man with stage II NSCLC (T2N1M0) underwent successful lobectomy six weeks ag",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-270d9e24eaa092fb4e8c6184",
+      "label": "Practice · In which population did the PACIFIC trial evaluate durvalumab, according to Hazzard?",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-cefc0cec6088873e0431e817",
+      "label": "Practice · A 73-year-old woman with unresectable stage IIIA NSCLC is being considered for definitive ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0837a6515fdbd7f152a6ef73",
+      "label": "Practice · A 69-year-old woman with controlled rheumatoid arthritis takes methotrexate and prednisone",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ceb8b3e359edc561601ffe05",
+      "label": "Practice · An 84-year-old man with mild cognitive impairment, MMSE 23, and heart failure attends afte",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6eae0b94430e060f01c44971",
+      "label": "Practice · A 79-year-old woman with atrial fibrillation, hypertension, and a recent ischemic stroke u",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f6b3669c5ef6da1d69c00a54",
+      "label": "Practice · A 77-year-old man with diabetes and stage 3a chronic kidney disease is hospitalized for pn",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9747ff1cfe3ca7b95087190c",
+      "label": "Practice · An 83-year-old man with advanced COPD, FEV1 30% predicted, coronary disease, and frailty w",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-17ca199d22bdf14a9a5ea1e2",
+      "label": "Practice · A 74-year-old woman with diabetes and HbA1c 7.2% reports dizziness and near-falls. She tak",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-044fda38ec480cff8f0e5ccd",
+      "label": "Practice · A 78-year-old man with Parkinson disease takes two hours to finish his morning routine, ha",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-1cefbbe1c52a1fadf2b84188",
+      "label": "Practice · An 85-year-old woman living independently has stopped hosting family meals and needs help ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d84fad091b9595eb8a034c32",
+      "label": "Practice · A 76-year-old woman with diabetes and hypertension is brought by her daughter because she ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d66bfd5e27ea32e240f9635b",
+      "label": "Practice · A 77-year-old woman with COPD and knee osteoarthritis has persistent knee pain despite ace",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0f5a41d1ea056cf046c126a8",
+      "label": "Practice · An older adult with delirium has ranitidine on the home medication list. Ranitidine is no ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-2961ab141bd6904c88604874",
+      "label": "Practice · An 86-year-old nursing-home resident with advanced Parkinson disease is hospitalized with ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-399e93505b020503a5024580",
+      "label": "Practice · An 82-year-old woman with moderate Alzheimer disease and osteoporosis becomes more agitate",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-2777ae61cc2bc02af8df3cf8",
+      "label": "Practice · An 86-year-old man from assisted living presents with acute confusion and a positive CAM. ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f1e5d16f6095d04ef348147c",
+      "label": "Practice · An 83-year-old woman who lives alone is found on the floor, having last been seen 18 hours",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-429636517dfbf24b6fcc5962",
+      "label": "Practice · An 80-year-old woman with moderate vascular dementia in a memory-care unit has refused bat",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-cfd8331377daeb6bc6c8a624",
+      "label": "Practice · A patient develops respiratory depression after an opioid dose increase. Alongside respira",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f325648ac07812a3f61a9834",
+      "label": "Practice · An 81-year-old nursing-home resident with moderate dementia is found on the floor and cann",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c5a00bbe977c93453b987289",
+      "label": "Practice · An 84-year-old woman with osteoarthritis becomes drowsy while taking oxycodone. The team i",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5493182e5108d5c7d6b8ad34",
+      "label": "Practice · A 79-year-old woman is being assessed for home palliative care after three admissions in f",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a0f55cfbfc37629308eebbb8",
+      "label": "Practice · A 92-year-old woman with frailty has unintentional weight loss of 15 lb, exhaustion, grip ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-68fbd246fe9af04028418e22",
+      "label": "Practice · A 72-year-old woman with type 2 diabetes, hypertension, and recently diagnosed mild cognit",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b3d460a6362b7b9ac5c5ea9e",
+      "label": "Practice · An initial parenteral antibiotic dose is being selected for an older adult with a complica",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a07f65732c4f66ff568008dc",
+      "label": "Practice · An 81-year-old assisted-living resident is hospitalized with failure to thrive. He has los",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e817bdda20dbd2e4a2124856",
+      "label": "Practice · A 77-year-old woman with moderate vascular dementia, diabetes, and stage 4 chronic kidney ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9bab953ea9f8a55a2b267262",
+      "label": "Practice · The organism in a urine culture from a woman with pyelonephritis is susceptible to nitrofu",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b4b851368cfd1976c5e26f8c",
+      "label": "Practice · A 77-year-old man with chronic kidney disease and asymptomatic, non-life-threatening hyper",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-da220564b557a7aade08e9a8",
+      "label": "Practice · An 82-year-old man on the third day after right hemicolectomy develops acute confusion and",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-40b47298ce126cf107bce372",
+      "label": "Practice · An older patient with advanced kidney dysfunction has cognitive impairment that may repres",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-7c7f0ee2380167f2df4e2671",
+      "label": "Practice · A 73-year-old man with Parkinson disease and diabetes presents with fever and cough. His w",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3efe77174f290bfdcd4c7f34",
+      "label": "Practice · An 82-year-old woman with moderate visual impairment from diabetic retinopathy has been co",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-83e959b9abab81aafbe1a48d",
+      "label": "Practice · A 72-year-old woman hospitalized for a severe COPD exacerbation develops new urinary incon",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a8bc42d8684aad7530c799ac",
+      "label": "Practice · An 81-year-old man with mild cognitive impairment and type 2 diabetes has nocturia that di",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b7b4437f160aeffe8eae6e91",
+      "label": "Practice · An 80-year-old nursing-home resident with severe Alzheimer disease has had four episodes d",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e726ffefaa45d63c3554e902",
+      "label": "Practice · An 81-year-old woman with stage 4 CKD, heart failure, and mixed urinary incontinence takes",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-755516e250bdebb7ab0dc8a0",
+      "label": "Practice · An 86-year-old woman with advanced dementia in a memory-care unit has been treated for thr",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9c8a6d3e223cbda36911f861",
+      "label": "Practice · An 84-year-old woman who lives alone and manages her medications was independent in basic ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ada79917b3d472d0864a4bc6",
+      "label": "Practice · Which statement matches the HFrEF outcomes of SGLT2 inhibitors described in Hazzard?",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-98e1cdd5a7cc0e451991737a",
+      "label": "Practice · A 75-year-old man hospitalized with pneumonia has Parkinson disease, benign prostatic hype",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-15e7c8eebead17b5f8e9ab98",
+      "label": "Practice · A man with Parkinson disease is hospitalized for pneumonia. He develops new confusion and ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9f0f15a011392bd47e967318",
+      "label": "Practice · An 80-year-old woman with type 2 diabetes and mild dementia has weight loss and frequent f",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4cdacb95b5a45f9148a306e0",
+      "label": "Practice · An 84-year-old man with mild cognitive impairment has recurrent falls, reduced activity, a",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3c3d1e09c1e9b32d1f73f820",
+      "label": "Practice · A 77-year-old woman has fallen twice at home, once reaching for a kitchen shelf and once o",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-fc59e1c845ad86538bd2a048",
+      "label": "Practice · An 83-year-old man with Parkinson disease has repeated falls when turning and freezes at d",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5e50bd9cd46f472c7e711150",
+      "label": "Practice · An 81-year-old man with stable COPD has snoring, unrefreshing sleep, and daytime sleepines",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-cf0914b0d0e81052b340de08",
+      "label": "Practice · An 84-year-old nursing-home resident with advanced Parkinson disease has severe REM sleep ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b0740146fcdf0c6f2819b90b",
+      "label": "Practice · An 81-year-old man with Parkinson disease, hypertension and osteoarthritis is assessed aft",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b90ab0c2178e55da30ff009a",
+      "label": "Practice · A 73-year-old woman with diabetes and a recent hip replacement has recurrent sudden episod",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-1b3905ad4e48f31947e14ab8",
+      "label": "Practice · An 84-year-old woman with urinary retention and overflow incontinence needs bladder draina",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a06a249f42d8488cf43481df",
+      "label": "Practice · An 84-year-old man has become slower and weaker over six months, has difficulty rising fro",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-89aeb9862614a5d1971d95fa",
+      "label": "Practice · A 77-year-old man hospitalized for a heart-failure exacerbation becomes confused at night,",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5c872bf476c30d9b0cd38ec9",
+      "label": "Practice · A 76-year-old man with type 2 diabetes and cognitive impairment needs treatment intensific",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-23a61772b0cd1bc99b5f93d6",
+      "label": "Practice · An 83-year-old woman with diabetes and hypertension is hospitalized for heart failure. A u",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-bcc0e4f00968e522d2eadf51",
+      "label": "Practice · An 85-year-old man with Parkinson disease and recurrent falls freezes when walking through",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-7a9040756ef9905402192678",
+      "label": "Practice · A 75-year-old woman with rheumatoid arthritis reports recurrent falls over three months. S",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-8935bc64881038952dbb8e30",
+      "label": "Practice · An 83-year-old man with a painful, swollen knee undergoes arthrocentesis. The synovial flu",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-af1ecb535265e406bb7e4833",
+      "label": "Practice · An 85-year-old man becomes confused on the second day after total knee arthroplasty. He pu",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-fdd4e1076948a6f004469d51",
+      "label": "Practice · An 81-year-old man with Parkinson disease and knee osteoarthritis has recurrent falls and ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b23b2d149653e7699a123904",
+      "label": "Practice · A 79-year-old man becomes acutely confused on the second day after hip hemiarthroplasty. H",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6dce0a323206853cad760389",
+      "label": "Practice · A 75-year-old woman is being reviewed for osteoporosis one year after a hip fracture. She ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-53d73bf4c0a4e3dc615c8cd4",
+      "label": "Practice · An older adult with stable type 2 diabetes is being considered for oral treatment. There i",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ac463d5cca925f4ddacb4509",
+      "label": "Practice · A 78-year-old man with mild-to-moderate Alzheimer disease, MMSE 20, and stage 3 CKD with e",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b476cea9057460b2d0c4589d",
+      "label": "Practice · A 75-year-old woman with early Alzheimer disease (MMSE 24) and diabetes attends a routine ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-56773e414e88f3e9f98cd327",
+      "label": "Practice · An 86-year-old woman with moderate Alzheimer dementia lives with her daughter and needs he",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-1a5d9fad15c87c0f2916d2b8",
+      "label": "Practice · An 82-year-old man with vascular dementia is hospitalized for acute decompensated heart fa",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-1a600327d37cdbbd4ebcf0e4",
+      "label": "Practice · A 77-year-old man with early Parkinson disease lives alone and independently manages his I",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9e8b34a1a6ebdbc3336f9c70",
+      "label": "Practice · An 85-year-old man with mild Parkinson disease and stage 4 CKD (eGFR 22) develops visual h",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3ee9dd8a7e99399e659ce3f4",
+      "label": "Practice · A man with longstanding Parkinson disease who takes dopaminergic medication develops ortho",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-929be238bcf157c5e795b077",
+      "label": "Practice · An 81-year-old woman has progressive word-finding difficulty and trouble naming familiar o",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-19cb2ed05f8aa844824c810d",
+      "label": "Practice · An 81-year-old man has a year of progressive, effortful, telegraphic speech with grammatic",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d06967371079047bbb34729f",
+      "label": "Practice · An 81-year-old woman with diabetes and stage 4 CKD (eGFR 22 mL/min/1.73 m²) is hospitalize",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a8403df7df9a19dbc977135a",
+      "label": "Practice · An 88-year-old nursing-home resident with moderate Alzheimer disease has become withdrawn ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-85986952168024a2fc642cbe",
+      "label": "Practice · An 82-year-old man with mild dementia and treated depression has acquired a firearm for pr",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-1aeddaca181579855e4070d2",
+      "label": "Practice · A 74-year-old woman with depression and osteoarthritis has persistent hip pain despite ace",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d440772a30c5e7192e2dbdcb",
+      "label": "Practice · An 84-year-old woman with Alzheimer disease, osteoporosis and recurrent urinary infections",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-31e451c64140b7b80d7247dd",
+      "label": "Practice · A 77-year-old Korean woman with pancreatic cancer is hospitalized for pain control. Throug",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f64678686f8db7af0ce8e2b2",
+      "label": "Practice · An 83-year-old man with heart failure, stage 3b CKD (eGFR 35), and mild dementia is receiv",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b405bff777bf6fa7c48f0506",
+      "label": "Practice · An 82-year-old African American woman with ESRD on hemodialysis, severe peripheral arteria",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d8e73631331c186fe16dd925",
+      "label": "Practice · A 79-year-old woman with mild cognitive impairment, legal blindness from macular degenerat",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-dc8106f603658454fb8dba52",
+      "label": "Practice · An 84-year-old man with knee osteoarthritis still has pain that limits walking despite top",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-7bd72047163aac5d9879301c",
+      "label": "Practice · A 77-year-old woman with chronic low-back pain has marked lumbar facet arthropathy on MRI,",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4f5d5e1faeb9ad4a1e952c6c",
+      "label": "Practice · An 80-year-old woman with severe knee osteoarthritis has recurrent pain rated 7/10 that li",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-37929706ee744a72d261b8da",
+      "label": "Practice · A 78-year-old man has severe right-sided trigeminal neuralgia in the V2 distribution. He s",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-72676570be120cbd0d5fbd6d",
+      "label": "Practice · An 82-year-old woman hospitalized with pneumonia becomes irritable on the third hospital d",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-85c88a05522e02a311ccde9d",
+      "label": "Practice · A 75-year-old man with symptomatic lumbar spinal stenosis asks about epidural steroid inje",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-df5f0e0b3a44f67c5a031888",
+      "label": "Practice · An 82-year-old man with lung cancer appears independent and has good performance status. W",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a3d289b01e0ebc03c9182d22",
+      "label": "Practice · A 78-year-old man with COPD, coronary artery disease, and chronic pain from lumbar spinal ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f5c01784c8a6a219168f1236",
+      "label": "Practice · A 76-year-old man with COPD on home oxygen, heart failure (EF 25%), and stage 3b CKD has w",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-82bee2b3b7973bbeaf9c5c84",
+      "label": "Practice · An 85-year-old woman with severe COPD (FEV1 22%), osteoporosis, and severe frailty (CFS 7)",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-399586152fcafcb04023daa5",
+      "label": "Practice · An 80-year-old woman with advanced heart failure, moderate dementia, and pressure ulcers h",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-cc60194c383b30f3b2a91823",
+      "label": "Practice · An 80-year-old woman with heart failure, chronic kidney disease and newly diagnosed lung a",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-15e4b324e152d5041f2781f1",
+      "label": "Practice · A 78-year-old woman with diabetes and mild dementia lives alone. Her A1C is 9.2% on metfor",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d2b9b86173fdc4d523a214cb",
+      "label": "Practice · A 76-year-old woman with moderate Alzheimer disease has recurrent urinary tract infections",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-035772140143b94b98a3cfcc",
+      "label": "Practice · A 79-year-old woman with COPD, heart failure, and diabetes develops acute kidney injury du",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e706f5e097b419993dbd50c8",
+      "label": "Practice · A patient with heart failure and reduced ejection fraction is eligible to switch from an A",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a477e30992a8ebf79aab96e2",
+      "label": "Practice · An 83-year-old woman with paroxysmal atrial fibrillation takes warfarin. After a fall, her",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-57f3e3ab49d029a8cd7fa2d6",
+      "label": "Practice · A 79-year-old woman with new atrial fibrillation (CHA2DS2-VASc score 4) and stage 3b chron",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0d29aca9c1bc7be9aba09f6e",
+      "label": "Practice · An older woman with acute coronary syndrome and renal impairment is being considered for l",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ab5a80a880b0ef151fe7c73a",
+      "label": "Practice · An 82-year-old man with coronary disease, previous bypass surgery, diabetes, and chronic k",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0c3faceebf5564cd197f4fe2",
+      "label": "Practice · An 84-year-old man with HFrEF, ejection fraction 35%, stage 4 CKD with eGFR 22 mL/min/1.73",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-44e34384ad2fffde28fcdbb9",
+      "label": "Practice · An 85-year-old woman with HFrEF (EF 28%), moderate Alzheimer dementia, and creatinine clea",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-8c5c05e0956051d1b98307be",
+      "label": "Practice · A 76-year-old woman with newly diagnosed heart failure with reduced ejection fraction feel",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4b12b2b09f6a219dc0a66d76",
+      "label": "Practice · An 86-year-old woman with severe aortic stenosis is not a candidate for valve replacement.",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0e8c0fbe832f044acabf3d06",
+      "label": "Practice · A 77-year-old woman with diabetes, hypertension, and newly diagnosed paroxysmal atrial fib",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-45e3a5e9829e912ef856d828",
+      "label": "Practice · An 82-year-old woman with heart failure (EF 35%), permanent atrial fibrillation, and type ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5e470139bcdc2e5f9113aff5",
+      "label": "Practice · A 75-year-old man survives a witnessed ventricular-fibrillation arrest at his gym. CPR beg",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5b2ba402fe98c73372ba1cd2",
+      "label": "Practice · A 77-year-old man with paroxysmal atrial fibrillation, coronary artery disease, and a left",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-70f7bb3ceffe1b2984ad2644",
+      "label": "Practice · An 86-year-old nursing-home resident with moderate vascular dementia, hypertension, and a ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5147a78085d0ebd52ab07d45",
+      "label": "Practice · A 78-year-old woman develops acute confusion, visual hallucinations, and nighttime agitati",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e7b19e4e91bcb638b7e68eac",
+      "label": "Practice · A 78-year-old man with diabetes and chronic kidney disease is having his hypertension trea",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-56614f391c04935bca4dd3b1",
+      "label": "Practice · A 76-year-old woman with hypertension and mild frailty walks with a walker and covers 5.2 ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-587a66507712957a38af1bdc",
+      "label": "Practice · A 75-year-old man with hypertension, prediabetes, and BPH takes chlorthalidone 25 mg daily",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c8011072b9bc4a0d8d109047",
+      "label": "Practice · A 78-year-old man with severe COPD (FEV1 35% predicted) presents with acute dyspnea and co",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9435b8493727b44199216fb3",
+      "label": "Practice · A 76-year-old woman with COPD has an FEV1 of 45% predicted, sarcopenia with a grip strengt",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-622756065ee09c30f171397f",
+      "label": "Practice · A 77-year-old woman with moderate COPD and frailty has lost 15 lb unintentionally, reports",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-cf3ac31f2f87da6603f4909c",
+      "label": "Practice · A 77-year-old man with COPD (FEV1 55%), hypertension, and stage 3a chronic kidney disease ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-54c1293e7e5217bf4a7ca1b3",
+      "label": "Practice · A 77-year-old man with COPD (FEV1 45%), coronary disease, and diabetes has had four admiss",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a06aada7d4008649524d7b5e",
+      "label": "Practice · An older woman with advanced kidney disease develops unexplained behavioral changes and co",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5edf09276d366849ee179944",
+      "label": "Practice · A patient with chronic kidney disease requests treatment for joint pain. Which prescribing",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-8ca6469d156b9958785fd27a",
+      "label": "Practice · A 77-year-old man with atrial fibrillation and moderate mitral stenosis needs anticoagulat",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-09535b884d302be802aece78",
+      "label": "Practice · A 76-year-old man with stage 3b chronic kidney disease (eGFR 42 mL/min/1.73 m²) and diabet",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6de583a4863d8e7bae21890a",
+      "label": "Practice · An 82-year-old woman with dementia has persistent liquid fecal soiling after a period of c",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0af0743d61fcbc69ed176690",
+      "label": "Practice · An 84-year-old nursing home resident has moderate dementia, heart failure with an ejection",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4f79446ef4862cbe3286b78c",
+      "label": "Practice · A 77-year-old woman has ulcerative colitis in remission on mesalamine 800 mg three times d",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5a5099a128c7b070538811c0",
+      "label": "Practice · A 73-year-old woman hospitalized with a heart failure exacerbation receives intravenous fu",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-90337fd96599748cef044523",
+      "label": "Practice · An 82-year-old woman with mild cognitive impairment, diabetes, and stage 3a CKD (eGFR 52) ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-28deb3d15cc25d27870a9371",
+      "label": "Practice · An 81-year-old man with advanced chronic kidney disease, coronary artery disease, and rece",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e8fbf59e92a0a0a40cd5bae1",
+      "label": "Practice · An 83-year-old woman with chronic kidney disease and a creatinine clearance of 35 mL/min h",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-528bcc9401b7da148470b0ec",
+      "label": "Practice · An 86-year-old resident with constipation and a defecatory disorder has significant cognit",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c89cbd99f0f30325b1a3514f",
+      "label": "Practice · A 79-year-old nursing-home resident with advanced Parkinson disease and recurrent UTIs has",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-87d91efed73fcfa3f8b69c5f",
+      "label": "Practice · An 87-year-old man with moderate vascular dementia presents from a nursing facility with a",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0e29c83fa4e034cec7a58761",
+      "label": "Practice · A 92-year-old woman with COPD requiring home oxygen, heart failure (ejection fraction 35%)",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-d8e71ab579e90e2a0447f8b8",
+      "label": "Practice · An 81-year-old man with Alzheimer disease (MMSE 18) is brought to the emergency department",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ee932e717022b76574c5c475",
+      "label": "Practice · An 85-year-old man is in a nursing facility for rehabilitation after a hip fracture. He ha",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-fd72a920f8d1af02df86fb17",
+      "label": "Practice · An 83-year-old man with advanced COPD on home oxygen at 3 L/min, moderate dementia, and fa",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-cfcac3aa65af3f329a0f7f53",
+      "label": "Practice · An older woman with constipation and abdominal distension has an empty rectum on examinati",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c8b71dab412201b1d909fee3",
+      "label": "Practice · A 72-year-old man with newly diagnosed metastatic pancreatic cancer started sustained-rele",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6c7c47d3052ed97a7deeb55d",
+      "label": "Practice · A 91-year-old man with advanced Parkinson disease, dysphagia requiring a pureed diet, and ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b1ab2313e3e2afe1687ea87c",
+      "label": "Practice · An 81-year-old woman with newly diagnosed breast cancer is admitted with delirium after he",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-72a136f4a9ba1ace859fd966",
+      "label": "Practice · An 82-year-old man with metastatic pancreatic cancer has lost 15% of his body weight over ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ed1780e7e9c21bbbae2bc8ef",
+      "label": "Practice · A 79-year-old man has localized prostate cancer (Gleason 3+4, PSA 8.2), type 2 diabetes (H",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e7af1feb5db30015563d7dd4",
+      "label": "Practice · A 75-year-old woman completed adjuvant chemotherapy for breast cancer three months ago. Sh",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4adf25ce6341971ebdd52dc8",
+      "label": "Practice · An 81-year-old woman treated for ER-positive/PR-positive breast cancer 5 years ago has new",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-29e39f7543975951b910a29a",
+      "label": "Practice · An 82-year-old man with localized low-risk prostate cancer asks about active surveillance ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-a4cd359ebdc75203c9ddd5a3",
+      "label": "Practice · After radical prostatectomy, a patient's PSA does not fall to an undetectable level. Which",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c8c88cc2225f0a98231bf72c",
+      "label": "Practice · A 79-year-old man with locally advanced prostate cancer has received leuprolide for 18 mon",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-439d51efbe2a3e1bc488ba94",
+      "label": "Practice · An 83-year-old man with castration-resistant prostate cancer and extensive bone metastases",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-0639559ae1891f3f17ee8276",
+      "label": "Practice · A 78-year-old woman who has never smoked has stage IV lung adenocarcinoma, brain metastase",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c90912c13aec4aa0e70bf2b9",
+      "label": "Practice · An older woman recovers slowly after resection of stage II NSCLC. What does the delayed re",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e06f568b0239f1e5daa693e5",
+      "label": "Practice · A 79-year-old woman treated with oxaliplatin for colon cancer develops peripheral neuropat",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6c1c6cc334fb14a3e8dd85c5",
+      "label": "Practice · According to Hazzard, which rationale supports considering a shorter duration of oxaliplat",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-2c4fb1f7582ee0571a352d4d",
+      "label": "Practice · An older adult with metastatic colorectal cancer has uncontrollable bleeding from the prim",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-e08615c0affc35e5eb50c977",
+      "label": "Practice · A 77-year-old woman develops acute confusion after laparoscopic right hemicolectomy for co",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-c726a11761cf151c7d6514dd",
+      "label": "Practice · For a basal cell carcinoma located in a low-risk area, which combination of life expectanc",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-fcceaa876c9a7e7df4d7b244",
+      "label": "Practice · A 78-year-old man with iron-deficiency anemia is suitable for oral iron replacement. He to",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3ee13517fb25c7db1b3e744d",
+      "label": "Practice · An 84-year-old woman with mild cognitive impairment (MMSE 24) and stage 4 CKD (eGFR 22 mL/",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-4f855501d207eed9edb1615a",
+      "label": "Practice · A 78-year-old man with CLL takes ibrutinib 420 mg/day. He also has hypertension treated wi",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-8a50015ab683e2a21bbddcff",
+      "label": "Practice · An older patient with multiple myeloma and renal insufficiency is about to receive lenalid",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-65798d7c19b330460279d4e8",
+      "label": "Practice · A 77-year-old woman with AML in remission after venetoclax/azacitidine, diabetes, and depr",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-97cff23d9212e0a645c0ce24",
+      "label": "Practice · A 77-year-old nursing-home resident with moderate dementia is minimally responsive on morn",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-9de46a38d6118487095e423f",
+      "label": "Practice · An 84-year-old woman with type 2 diabetes, stage 3a chronic kidney disease (eGFR 45), and ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-b34ae0744831be41342214bd",
+      "label": "Practice · An 83-year-old man with mild cognitive impairment and diabetes presents with fatigue and p",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-56e863b7db74859b149e6b11",
+      "label": "Practice · An 84-year-old man with diabetes, hypertension and mild cognitive impairment (MMSE 22) pre",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-97f8b83e00e75ce9ba219fcf",
+      "label": "Practice · An 81-year-old man is hospitalized with a complicated urinary tract infection, fever, flan",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-eb4b7f5bcdaa52d76cfc4c36",
+      "label": "Practice · An older woman requests an antibiotic despite the absence of a clinical indication. Which ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-3e16fb157e5db87fdbcbab61",
+      "label": "Practice · What is the role of the FRAX calculator when assessing fracture risk in an older adult?",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-5c2d6f615d3a56c622cd1608",
+      "label": "Practice · A 68-year-old man reports fatigue, reduced libido, and mild depression. One morning total ",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-eaa88420df0f2fcfcc539e79",
+      "label": "Practice · A 72-year-old man reports fatigue, reduced libido, and muscle weakness. His total testoste",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-ee8cf752c6c5f018b1527add",
+      "label": "Practice · A 72-year-old man has primary hypogonadism diagnosed 15 years ago and has not received tes",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-6f8b4823d7eda84189604783",
+      "label": "Practice · A 72-year-old man has received testosterone for hypogonadism for six months. Routine testi",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-fe286e3590b1475618e15f43",
+      "label": "Practice · A 78-year-old woman recovering from hip replacement after a fracture walks with a walker b",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
+    },
+    {
+      "id": "mcq-f2dca2721395c791023099bd",
+      "label": "Practice · A 78-year-old woman with moderate dementia is cared for at home by her married daughter, w",
+      "changedAt": "2026-10-11T18:46:29.394019+03:00",
+      "release": "v217"
     }
   ]
 }
