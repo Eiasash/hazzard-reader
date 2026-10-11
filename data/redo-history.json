@@ -17846,6 +17846,42 @@
       "label": "Practice · בישראל, חולה בגירה הוגדרה כדין כחולה הנוטה למות שאינה בעלת כשרות. אין הנחיות רפואיות מקדימ",
       "changedAt": "2026-10-11T20:34:06.913531+03:00",
       "release": "v222"
+    },
+    {
+      "id": "mcq-b05da4df5691426eedd44d74",
+      "label": "Practice · אישה בת 83 עם דמנציה מתקדמת מסוג אלצהיימר (MMSE 8/30) מאושפזת מבית אבות עם דלקת ריאות משאי",
+      "changedAt": "2026-10-11T22:32:17.551186+03:00",
+      "release": "v225"
+    },
+    {
+      "id": "mcq-f3532fa6576e0b1eb10fc8f2",
+      "label": "Practice · Which interpretation of fasting plasma glucose agrees with Hazzard Table 99-1?",
+      "changedAt": "2026-10-11T22:32:17.551186+03:00",
+      "release": "v225"
+    },
+    {
+      "id": "mcq-37ef91fd69035d54488aac20",
+      "label": "Practice · An older adult has a BMI of 25 kg/m². How should this finding affect consideration of annu",
+      "changedAt": "2026-10-11T22:32:17.551186+03:00",
+      "release": "v225"
+    },
+    {
+      "id": "mcq-ccc949a00db4026b27c7fc99",
+      "label": "Practice · Which perioperative care plan is supported by Hazzard’s discussion of postoperative risk?",
+      "changedAt": "2026-10-11T22:32:17.551186+03:00",
+      "release": "v225"
+    },
+    {
+      "id": "mcq-5fd00366f45d518a12b162fb",
+      "label": "Practice · Why is arthroplasty commonly used for displaced femoral-neck fractures?",
+      "changedAt": "2026-10-11T22:32:17.551186+03:00",
+      "release": "v225"
+    },
+    {
+      "id": "mcq-383b8e2c7d2822050725e688",
+      "label": "Practice · Describe regurgitation compatible with normal aging.",
+      "changedAt": "2026-10-11T22:32:17.551186+03:00",
+      "release": "v225"
     }
   ]
 }
