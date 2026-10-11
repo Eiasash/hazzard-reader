@@ -173,6 +173,9 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 #imageZoom .zoom-bar{position:absolute;inset-inline:0;inset-block-start:0;display:flex;align-items:center;justify-content:space-between;gap:var(--s2);padding:max(var(--s2),env(safe-area-inset-top)) var(--s3) var(--s2);background:rgb(0 0 0 / .55)}
 #imageZoom .zoom-bar .meta{color:#ccc}
 #imageZoom .zoom-bar button{background:#222;color:#eee;border-color:#666}
+.nb-highlight>button:first-child{min-inline-size:0;overflow-wrap:anywhere}
+#panel .rows .nb-highlight-remove{flex:none;inline-size:auto;min-inline-size:44px;min-block-size:44px;padding:4px 8px;color:var(--muted)}
+.nb-highlight.nb-removed>button:first-child{opacity:.55}
 .nb-item{display:flex;align-items:stretch}
 .nb-item>button:first-child{flex:1}
 .rows .nb-item .nb-remove{inline-size:auto;flex:none;padding:0 var(--s3);color:var(--muted);font-size:var(--small)}
@@ -32679,7 +32682,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v233 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v234 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -32949,7 +32952,7 @@ function viewport(){
 }
 // Controls occupy their own flex row, outside the scrolling reading area.
 function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
-function hidePanel(){if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');gesture=null}
+function hidePanel(){notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');gesture=null}
 function closePanel(){
   if(closingHistory)return;
   if(history.state?.hazzardDepth){closingHistory=true;history.back()}
@@ -33238,8 +33241,8 @@ function updateStorageNotice(){
   $('#highlightStorageStatus').textContent=text;$('#highlightStorageStatus').hidden=!text||!panel.open;
   if(panel.open)viewport();
 }
-function writeHighlights(saved){
-  HazzardStorage.setItem(highlightStorageKey,JSON.stringify(saved));
+function writeHighlights(saved,key=highlightStorageKey){
+  HazzardStorage.setItem(key,JSON.stringify(saved));
 }
 function saveHighlight(u){
   pendingHighlightChanges.set(u.id,u.marked?{colour:u.colour,text:highlightText(u),at:Date.now()}:null);
@@ -33262,12 +33265,58 @@ function restoreHighlights(){
   updateStorageNotice();
 }
 function toggleUnit(u){u.marked=!u.marked;u.colour=u.marked?colour:null;paintUnit(u);saveHighlight(u)}
+// Removed rows live only for this open notebook; saved highlights use the usual writer.
+const notebookRemovedHighlights=new Map();
+const notebookHighlightId=(ch,kind,id)=>ch+':'+kind+':'+id;
+function notebookHighlightItems(ch,items){
+  for(const [key,item] of [...notebookRemovedHighlights].sort((a,b)=>a[1].index-b[1].index))if(item.ch===ch){
+    const found=items.findIndex(m=>notebookHighlightId(ch,m.kind,m.id)===key);
+    if(found>=0)items.splice(found,1);
+    items.splice(Math.min(item.index,items.length),0,item);
+  }
+  return items;
+}
+function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
+  const li=document.createElement('li'),go=document.createElement('button'),action=document.createElement('button');
+  const key=notebookHighlightId(ch,item.kind,item.id);li.className='nb-item nb-highlight';
+  go.textContent=item.text;go.dir='auto';
+  go.onclick=()=>{
+    if(ch!==cid){openChapter(ch,{hash:'hl-'+item.id});return;}
+    const el=item.kind==='marks'?unitMap.get(item.id)?.parts.find(p=>p.isConnected):rangeMarks.get(item.id)?.spans[0];
+    if(el)returnReading(()=>revealReading(el,{block:'center'}));
+  };
+  const refresh=()=>{const removed=notebookRemovedHighlights.has(key);go.disabled=removed;action.textContent=removed?'Undo':'\u00d7';action.setAttribute('aria-label',removed?'Undo remove highlight':'Remove highlight');li.classList.toggle('nb-removed',removed);};
+  action.className='nb-highlight-remove';action.type='button';
+  action.onclick=()=>{
+    try{
+      const storageKey='stage-a-highlights-v1:'+ch,raw=localStorage.getItem(storageKey);
+      if(HazzardStorage.blockedKeys().includes(storageKey))throw Error('Saved highlights could not be read. Your stored data has not been changed.');
+      const saved=raw===null?{version:1,chapterId:ch,marks:{},history:[]}:JSON.parse(raw);
+      HazzardStorage.validate(storageKey,saved);
+      const removed=notebookRemovedHighlights.get(key);
+      if(removed){
+        const signature=item.kind==='marks'?'m:'+item.id:HazzardStorage.removals.rangeSignature(removed.mark);
+        const removalAt=HazzardStorage.removals.read().highlights[ch]?.[signature]||0;
+        (saved[item.kind]||={})[item.id]={...removed.mark,at:Math.max(Date.now(),removalAt+1)};
+        saved[item.kind]=Object.fromEntries([...new Set([...removed.order,...Object.keys(saved[item.kind])])].filter(id=>Object.hasOwn(saved[item.kind],id)).map(id=>[id,saved[item.kind][id]]));
+      }else{
+        const mark=saved[item.kind]?.[item.id];if(!mark)throw Error('This highlight has changed. Close and reopen your notebook.');
+        item.mark={...mark};item.order=Object.keys(saved[item.kind]);delete saved[item.kind][item.id];
+      }
+      writeHighlights(saved,storageKey);
+      if(removed)notebookRemovedHighlights.delete(key);else notebookRemovedHighlights.set(key,{...item,ch,index});
+      if(ch===cid)resyncHighlights();
+      refresh();onCountChange();showSaved(removed?'\u2713 Saved':'\u2713 Removed');
+    }catch(error){notebookStatus(error.message||'This highlight change could not be saved. Try again.');}
+  };
+  refresh();li.append(go,action);return li;
+}
 function renderNotebook(){
   if(!pendingHighlightChanges.size)resyncHighlights();
   const list=$('#notebookMarks');list.replaceChildren();
-  const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks.values()].map(r=>({el:r.spans[0],text:r.text}))];
+  const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({id:u.id,kind:'marks',el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks].map(([id,r])=>({id,kind:'ranges',el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
-  for(const it of items){const li=document.createElement('li'),b=document.createElement('button');b.textContent=it.text;b.dir='auto';b.onclick=()=>returnReading(()=>revealReading(it.el,{block:'center'}));li.append(b);list.append(li)}
+  notebookHighlightItems(cid,items).forEach((it,index)=>list.append(notebookHighlightRow(cid,it,index)));
   if(!list.children.length){const li=document.createElement('li');li.textContent='No highlights in this chapter yet.';list.append(li)}
   const places=$('#notebookPlaces');places.replaceChildren();
   let bookmarks=[];
@@ -33288,13 +33337,16 @@ function renderNotebook(){
   if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. While reading, turn Highlight on → Bookmark this spot.';places.append(li)}
   const other=$('#notebookOther');other.replaceChildren();
   const prefix='stage-a-highlights-v1:',groups=[];
-  try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=JSON.parse(localStorage.getItem(k))}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({id,text:m.text})),...Object.entries(d?.ranges||{}).map(([id,m])=>({id,text:m.text}))];if(marks.length)groups.push({ch,marks})}}catch{}
+  try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=JSON.parse(localStorage.getItem(k))}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({id,kind:'marks',text:m.text})),...Object.entries(d?.ranges||{}).map(([id,m])=>({id,kind:'ranges',text:m.text}))];if(marks.length)groups.push({ch,marks})}}catch{}
+  for(const item of notebookRemovedHighlights.values())if(item.ch!==cid&&!groups.some(g=>g.ch===item.ch))groups.push({ch:item.ch,marks:[]});
   groups.sort((a,b)=>String(a.ch).localeCompare(String(b.ch),undefined,{numeric:true}));
   if(groups.length){const h=document.createElement('h3');h.className='nb-heading';h.textContent='Other chapters';other.append(h)}
   for(const g of groups){
     const box=document.createElement('details'),sum=document.createElement('summary'),ul=document.createElement('ul');box.className='nb-group';ul.className='rows';
-    sum.textContent=chapterLabel(g.ch)+' ('+g.marks.length+')';box.append(sum,ul);
-    for(const m of g.marks){const li=document.createElement('li'),b=document.createElement('button');b.textContent=m.text;b.dir='auto';b.onclick=()=>openChapter(g.ch,{hash:'hl-'+m.id});li.append(b);ul.append(li)}
+    const items=notebookHighlightItems(g.ch,g.marks);
+    const updateCount=()=>{sum.textContent=chapterLabel(g.ch)+' ('+items.filter(m=>!notebookRemovedHighlights.has(notebookHighlightId(g.ch,m.kind,m.id))).length+')';};
+    updateCount();box.append(sum,ul);
+    items.forEach((m,index)=>ul.append(notebookHighlightRow(g.ch,m,index,updateCount)));
     other.append(box);
   }
   const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
