@@ -159,7 +159,7 @@ window.HazzardMCQ = (() => {
   for(const id of RETIRED_IDS)STANDOUT_IDS.delete(id);
   const SETTINGS_KEY='hazzard-practice-settings-v1',PLACE_KEY='hazzard-practice-place-v1';
   const settingNames=['includeStandout','shufflePastOptions','generatedSelected','drillSelected'];
-  const defaultPracticeSettings=()=>({version:1,includeStandout:false,shufflePastOptions:true,generatedSelected:false,drillSelected:false,at:0});
+  const defaultPracticeSettings=()=>({version:1,includeStandout:false,shufflePastOptions:true,generatedSelected:true,drillSelected:true,at:0});
   function validSettings(v){return v!==null&&typeof v==='object'&&v.version===1&&settingNames.every(k=>typeof v[k]==='boolean')&&Number.isFinite(v.at)&&v.at>=0;}
   function settingsFromRaw(raw){try{const v=JSON.parse(raw);return validSettings(v)?v:null;}catch{return null;}}
   function readSettings(){return settingsFromRaw(localStorage.getItem(SETTINGS_KEY))||defaultPracticeSettings();}
@@ -614,7 +614,7 @@ window.HazzardMCQ = (() => {
     return rich(q.q.slice(0,at))+'<div class="mcq-lab-scroll" tabindex="0" role="region" aria-label="'+escape(table.caption||'Laboratory results')+'"><table class="mcq-lab-table" dir="'+(table.direction==='rtl'?'rtl':'ltr')+'"><thead><tr>'+table.header.map(h=>'<th scope="col">'+cell(h)+'</th>').join('')+'</tr></thead><tbody>'+table.rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+cell(v)+'</th>':'<td>'+(table.header[i]?.startsWith('Value')?'<strong>'+cell(v)+'</strong>':cell(v))+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'+rich(q.q.slice(at+table.span.length));
   }
   const PAPER_KEY='hazzard-mcq-papers-v1';
-  const defaultSettings=()=>({length:50,topic:'all',sources:['past','practice'],year:[],level:[]});
+  const defaultSettings=()=>({length:50,topic:'all',sources:['past','practice','law'],year:[],level:[]});
   function validPaper(value){
     const p=value?.paper,s=value?.settings;
     if(!record(value)||value.version!==1||!Number.isFinite(value.at)||!record(s)||![25,50,100].includes(s.length)||!Array.isArray(s.sources)||new Set(s.sources).size!==s.sources.length||!s.sources.every(x=>['past','practice','law'].includes(normalizeSource(x)))||!validYears(s.year)||!validLevels(s.level)||(s.topic!=null&&!/^(all|\d{1,3})$/.test(s.topic)))return false;
@@ -664,7 +664,7 @@ window.HazzardMCQ = (() => {
     const pendingLogs=new Map(),pendingUndos=new Map();
     const answers=new Map(),pending=new Map(),retryAnswers=new Map(),dismissed=new Set();
     let personal={version:1,flags:{},lawTopics:{ids:[],at:0}},flagsView=bankMode&&location.hash==='#flags',notice='';
-    let systemPrefs={version:1,selected:false,at:0,flags:{}},collections={israeliSystem:{enabled:false,ids:[]},topicFallbacks:{}},lawIds=new Set(),articleIds=new Set(),articleSelected=false,drillSelected=readSettings().drillSelected,generatedSelected=readSettings().generatedSelected,lastAnswer=null;
+    let systemPrefs={version:1,selected:false,at:0,flags:{}},collections={israeliSystem:{enabled:false,ids:[]},topicFallbacks:{}},lawIds=new Set(),articleIds=new Set(),articleSelected=true,drillSelected=readSettings().drillSelected,generatedSelected=readSettings().generatedSelected,lastAnswer=null;
     let savedView=bankMode&&location.hash==='#saved',savedOnly=bankMode&&new URL(location.href).searchParams.get('saved')==='1';
     let missedIds=null,reviewBatch=null,hiddenTarget=null;
     let answeredIds=new Set();
