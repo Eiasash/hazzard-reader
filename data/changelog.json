@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v232",
+      "date": "2026-10-12",
+      "changes": [
+        "Removals now stay removed on your other device. Tap Update on each device the first time you open it."
+      ]
+    },
+    {
       "version": "v231",
       "date": "2026-10-12",
       "changes": [

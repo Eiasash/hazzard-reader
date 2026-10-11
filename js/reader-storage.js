@@ -4,6 +4,7 @@ window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
   const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  keys.add('hazzard-removals-v1');
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardMCQ.SETTINGS_KEY);
@@ -16,9 +17,61 @@ window.HazzardStorage = (() => {
   const validHighlight=mark=>mark&&['yellow','green','blue'].includes(mark.colour)&&typeof mark.text==='string';
   const sizes={small:12,medium:13.5,large:15};
   const validTimer=state=>Number.isInteger(state?.phase)&&state.phase>=0&&state.phase<3&&Number.isFinite(state.left)&&state.left>=0&&state.left<=[1500,300,300][state.phase]&&typeof state.running==='boolean'&&Number.isFinite(state.end)&&state.end>=0&&(!state.running||state.end>0);
+
+  const REMOVALS_KEY='hazzard-removals-v1',REMOVALS_MAX=5000,REMOVALS_AGE=365*86400000;
+  const emptyRemovals=()=>({version:1,bookmarks:{},generatedFlags:{},highlights:{}});
+  const removalTimes=v=>isRecord(v)&&Object.values(v).every(at=>Number.isFinite(at)&&at>=0);
+  function validRemovals(v){return isRecord(v)&&v.version===1&&Object.keys(v).every(k=>['version','bookmarks','generatedFlags','highlights'].includes(k))&&removalTimes(v.bookmarks)&&removalTimes(v.generatedFlags)&&isRecord(v.highlights)&&Object.entries(v.highlights).every(([chapter,entries])=>/^(?:\d+s?|laws?|mock|bank)$/.test(chapter)&&removalTimes(entries)&&Object.keys(entries).every(k=>/^m:u\d+$/.test(k)||k.startsWith('r:')));}
+  const bookmarkSignature=b=>JSON.stringify([b.chapter,b.unit??null,b.snippet??null,b.ratio]);
+  const rangeSignature=m=>'r:'+JSON.stringify([m.text,m.prefix||'',m.suffix||'']);
+  const addTime=m=>Number.isFinite(m?.at)?m.at:0;
+  function mergeRemovals(a,b,now=Date.now()){
+    const out=emptyRemovals(),entries=[];
+    for(const v of [a,b]){
+      if(v==null)continue;if(!validRemovals(v))throw Error('Removal records could not be read. Saved data kept.');
+      for(const section of ['bookmarks','generatedFlags'])for(const [id,at]of Object.entries(v[section]))out[section][id]=Math.max(out[section][id]??-1,at);
+      for(const [chapter,marks]of Object.entries(v.highlights)){const target=out.highlights[chapter]||={};for(const [id,at]of Object.entries(marks))target[id]=Math.max(target[id]??-1,at);}
+    }
+    for(const section of ['bookmarks','generatedFlags'])for(const [id,at]of Object.entries(out[section]))entries.push({map:out[section],id,at,order:section+id});
+    for(const [chapter,marks]of Object.entries(out.highlights))for(const [id,at]of Object.entries(marks))entries.push({map:marks,id,at,order:'highlights'+chapter+id});
+    entries.sort((a,b)=>a.at-b.at||(a.order<b.order?-1:a.order>b.order?1:0));
+    const expired=entries.filter(e=>e.at<now-REMOVALS_AGE).length,remove=Math.max(expired,entries.length-REMOVALS_MAX);
+    for(const e of entries.slice(0,remove))delete e.map[e.id];
+    for(const [chapter,marks]of Object.entries(out.highlights))if(!Object.keys(marks).length)delete out.highlights[chapter];
+    return out;
+  }
+  function readRemovals(){const raw=localStorage.getItem(REMOVALS_KEY);if(raw===null)return emptyRemovals();const v=JSON.parse(raw);if(!validRemovals(v))throw Error('Removal records could not be read. Saved data kept.');return v;}
+  function applyRemovals(key,value,removals){
+    const survives=(item,at)=>at===undefined||addTime(item)>at;
+    if(key===BOOKMARK_KEY)return value.filter(b=>survives(b,removals.bookmarks[bookmarkSignature(b)]));
+    if(key===HazzardMCQ.GENERATED_FLAGS_KEY)return value.filter(f=>survives(f,removals.generatedFlags[f.id+'@'+f.at]));
+    if(key.startsWith('stage-a-highlights-v1:')){const records=removals.highlights[value.chapterId]||{};return {...value,marks:Object.fromEntries(Object.entries(value.marks).filter(([id,m])=>survives(m,records['m:'+id]))),...(value.ranges===undefined?{}:{ranges:Object.fromEntries(Object.entries(value.ranges).filter(([id,m])=>survives(m,records[rangeSignature(m)])))}),...(value.history===undefined?{}:{history:value.history.filter(m=>survives(m,records['m:'+m.id]))})};}
+    return value;
+  }
+  function removalChange(key,raw){
+    if(key!==BOOKMARK_KEY&&key!==HazzardMCQ.GENERATED_FLAGS_KEY&&!key.startsWith('stage-a-highlights-v1:'))return null;
+    const previous=localStorage.getItem(key),next=JSON.parse(raw);validateNotebookValue(key,next);
+    if(previous===null)return null;const before=JSON.parse(previous);validateNotebookValue(key,before);
+    const out=readRemovals(),at=Date.now();let changed=false;
+    const put=(map,id)=>{map[id]=Math.max(map[id]??-1,at);changed=true;};
+    if(key===BOOKMARK_KEY){const kept=new Set(next.map(bookmarkSignature));for(const b of before)if(!kept.has(bookmarkSignature(b)))put(out.bookmarks,bookmarkSignature(b));}
+    else if(key===HazzardMCQ.GENERATED_FLAGS_KEY){const kept=new Set(next.map(f=>f.id+'@'+f.at));for(const f of before)if(!kept.has(f.id+'@'+f.at))put(out.generatedFlags,f.id+'@'+f.at);}
+    else{
+      const records=out.highlights[before.chapterId]||={},kept=new Set([...Object.keys(next.marks),...(next.history||[]).map(m=>m.id)]);
+      for(const id of [...Object.keys(before.marks),...(before.history||[]).map(m=>m.id)])if(!kept.has(id)){
+        // Reattaching the same saved sentence is a move, not a removal.
+        const old=before.marks[id]||(before.history||[]).find(m=>m.id===id);
+        if(!Object.entries(next.marks).some(([nextId,m])=>!Object.hasOwn(before.marks,nextId)&&m.text===old.text&&addTime(m)===addTime(old)))put(records,'m:'+id);
+      }
+      const ranges=new Set(Object.values(next.ranges||{}).map(rangeSignature));for(const m of Object.values(before.ranges||{}))if(!ranges.has(rangeSignature(m)))put(records,rangeSignature(m));
+    }
+    return changed?JSON.stringify(mergeRemovals(out,null)):null;
+  }
+  const removals={key:REMOVALS_KEY,empty:emptyRemovals,valid:validRemovals,read:readRemovals,merge:mergeRemovals,apply:applyRemovals,bookmarkSignature,rangeSignature,addTime};
   function validateNotebookValue(key,value){
   const place=p=>isRecord(p)&&typeof p.chapter==='string'&&Number.isFinite(p.at)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&(p.snippet===undefined||typeof p.snippet==='string')&&(p.unit==null||typeof p.unit==='string');
   const progress=p=>isRecord(p)&&(p.grades===undefined||isRecord(p.grades)&&Object.values(p.grades).every(g=>g===0||g===1))&&(p.revealed===undefined||stringList(p.revealed))&&(p.retryIds==null||stringList(p.retryIds));
+  if(key===REMOVALS_KEY){if(!validRemovals(value))throw Error('Removal records could not be read. Saved data kept.');return;}
   let valid=false;
   if(key.startsWith('stage-a-highlights-v1:')){
     valid=isRecord(value)&&value.version===1&&value.chapterId===key.slice('stage-a-highlights-v1:'.length)&&isRecord(value.marks)&&Object.entries(value.marks).every(([id,m])=>/^u\d+$/.test(id)&&validHighlight(m))
@@ -175,8 +228,8 @@ window.HazzardStorage = (() => {
     }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
     notify();
   })();
-  function setItem(key,raw){if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}localStorage.setItem(key,raw);if(owns(key))snapshot();}
+  function setItem(key,raw){if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}const change=removalChange(key,raw),previous=localStorage.getItem(REMOVALS_KEY);if(change!==null)localStorage.setItem(REMOVALS_KEY,change);try{localStorage.setItem(key,raw);}catch(error){if(change!==null){if(previous===null)localStorage.removeItem(REMOVALS_KEY);else localStorage.setItem(REMOVALS_KEY,previous);}throw error;}if(owns(key))snapshot();}
   function removeItem(key){if(protect(key))return;localStorage.removeItem(key);if(owns(key))snapshot();}
   addEventListener('storage',event=>{if(event.storageArea===localStorage&&owns(event.key))snapshot();});
-  return {readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
+  return {removals,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();
