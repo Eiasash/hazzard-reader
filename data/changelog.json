@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v219",
+      "date": "2026-10-11",
+      "changes": [
+        "106 official explanations are now in English, the language of their source"
+      ]
+    },
+    {
       "version": "v218",
       "date": "2026-10-11",
       "changes": [
