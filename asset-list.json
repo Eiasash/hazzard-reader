@@ -1,5 +1,5 @@
 {
-  "version": "v226",
+  "version": "v227",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "c44adf7e2c142615d472fa952c04a12c424f88119256d54611519c974ca11b52",
-      "bytes": 50968
+      "sha256": "ac047a6f633a329062b0d5759a7223c8bdb35ddd9bbcb158449098a2d42877a1",
+      "bytes": 51245
     },
     {
       "url": "./data/drug-index.json",
@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "2e7fe013452f07e0ced77485057c89c21809dfd99fd263ab023663f546a00071",
-      "bytes": 7342122
+      "sha256": "65a7804c6fe4b41866905e2d92c6d5ea5f16a7ed750c243dbdb8cf52c60a54ce",
+      "bytes": 7344964
     },
     {
       "url": "./data/mcq/collections.json",
@@ -6668,12 +6668,12 @@
     },
     {
       "url": "./data/redo-history.json",
-      "sha256": "153cebda91b3c4ed05ae24668b48d01c540cb594fdf3329851ca124b8079c91b",
-      "bytes": 739543
+      "sha256": "77ec078a9e35aad4d2a73ac6d4ee01b234fa0bd91bfd8c72db2bab131e25fe1b",
+      "bytes": 740902
     },
     {
       "url": "./index.html",
-      "sha256": "56009eab588ae09edddeeb555e77658378a2618f7599f7930fe3d8b5ed6c54d8",
+      "sha256": "286592d1fc30e57b32f34330dfd25b76fbf2163e7486ccbb6a90136701046db7",
       "bytes": 3331484
     },
     {
@@ -6738,7 +6738,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "694c0477bb1087f6c599ce35336aa4762d7cb0a69688880904e8cb4889655365",
+      "sha256": "b3ece16ebeb9b23d2db03abb7c63b2c671b05aea6d21eb5ac0ad92bb9ac86d94",
       "bytes": 8228
     },
     {

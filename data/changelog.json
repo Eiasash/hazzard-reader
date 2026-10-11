@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v227",
+      "date": "2026-10-11",
+      "changes": [
+        "5 practice questions are now in English, written from their source instead of translated",
+        "1 Hebrew-source practice question was rewritten in Hebrew from its source"
+      ]
+    },
+    {
       "version": "v226",
       "date": "2026-10-11",
       "changes": [

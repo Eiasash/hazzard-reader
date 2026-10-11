@@ -17882,6 +17882,36 @@
       "label": "Practice · Describe regurgitation compatible with normal aging.",
       "changedAt": "2026-10-11T22:32:17.551186+03:00",
       "release": "v225"
+    },
+    {
+      "id": "mcq-5e435f15574910b998bfb83d",
+      "label": "Practice · An 84-year-old woman with stable dementia develops inattention and fluctuating confusion o",
+      "changedAt": "2026-10-11T23:06:45.610850+03:00",
+      "release": "v227"
+    },
+    {
+      "id": "mcq-454342f7a604a563273fa8fb",
+      "label": "Practice · A 91-year-old man with advanced Parkinson disease, dysphagia and recurrent aspiration pneu",
+      "changedAt": "2026-10-11T23:06:45.610850+03:00",
+      "release": "v227"
+    },
+    {
+      "id": "mcq-8ce3f745f0cb27afc04066a0",
+      "label": "Practice · An 81-year-old man with hypertension, type 2 diabetes, and mild cognitive impairment has i",
+      "changedAt": "2026-10-11T23:06:45.610850+03:00",
+      "release": "v227"
+    },
+    {
+      "id": "mcq-c331e42d6df57eb73915dde6",
+      "label": "Practice · אדם עם דמנציה מתקדמת מתקשה באכילה. איזה תהליך לבחירת דרך ההזנה תואם את המלצות הוועדה הארצי",
+      "changedAt": "2026-10-11T23:06:45.610850+03:00",
+      "release": "v227"
+    },
+    {
+      "id": "mcq-f3532fa6576e0b1eb10fc8f2",
+      "label": "Practice · Which interpretation of fasting plasma glucose agrees with Hazzard Table 99-1? Assume that",
+      "changedAt": "2026-10-11T23:06:45.610850+03:00",
+      "release": "v227"
     }
   ]
 }
