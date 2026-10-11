@@ -20,7 +20,7 @@ window.HazzardChanged = (() => {
     return [...latest.values()].filter(q => {
       const answer = answers[q.id];
       return !!(answer?.checked && Number.isInteger(answer.selected) && Number.isFinite(answer.at) && answer.at < q.at);
-    });
+    }).sort((a,b)=>a.label.localeCompare(b.label,'en',{numeric:true}));
   }
   async function load() {
     if (data) return data;
@@ -38,7 +38,7 @@ window.HazzardChanged = (() => {
     try {
       const entries = await load();
       await HazzardMCQ.loadAliases();
-      const questions = pending(entries, answers()).sort((a,b)=>a.label.localeCompare(b.label,'en',{numeric:true}));
+      const questions = pending(entries, answers());
       const label = 'Changed questions: ' + questions.length + ' to redo';
       const tab = document.querySelector('#appTabs [data-tab="practice"]');
       let badge = tab?.querySelector('.changed-count');
@@ -47,7 +47,7 @@ window.HazzardChanged = (() => {
       const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent=label;
       tab?.setAttribute('aria-label', questions.length ? 'Practice — ' + label : 'Practice');
       const details = document.createElement('details'), summary = document.createElement('summary');
-      summary.textContent = questions.length ? label : 'Changed questions — all done';
+      summary.textContent = 'Show the list';
       details.className = 'changed-questions'; details.open = host.querySelector('details')?.open || false;
       details.append(summary);
       const note = document.createElement('p');
@@ -59,7 +59,17 @@ window.HazzardChanged = (() => {
         link.href = '?chapter=bank&redo=1&q=' + encodeURIComponent(q.id);
         link.textContent = q.label + ' — redo this question'; row.append(link); list.append(row);
       }
-      details.append(list); host.replaceChildren(details);
+      details.append(list);
+      const row = document.createElement(questions.length ? 'a' : 'div');
+      row.className = 'sim-entry changed-run';
+      const title = document.createElement('strong'), count = document.createElement('small');
+      title.textContent = questions.length ? 'Redo changed questions' : 'Changed questions \u2014 all done';
+      if (questions.length) {
+        row.href = '?chapter=bank&redo=1&q=' + encodeURIComponent(questions[0].id);
+        count.textContent = questions.length + ' to redo \u00b7 one after another';
+      }
+      row.append(title, count); host.replaceChildren(row);
+      if (questions.length) host.append(details);
     } catch {
       const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent='Changed questions could not be read.';
       host.textContent = 'Changed questions could not be read. ';
@@ -68,7 +78,8 @@ window.HazzardChanged = (() => {
   }
   const pane = document.querySelector('[data-pane="practice"]');
   if (pane) {
-    const host = document.createElement('div'); host.id = 'changedQuestions'; pane.prepend(host);
+    const host = document.createElement('li'); host.id = 'changedQuestions';
+    pane.querySelector('[data-review-link]').closest('li').after(host);
     new MutationObserver(() => { if (!pane.hidden) refresh(); }).observe(pane, {attributes:true,attributeFilter:['hidden']});
   }
   addEventListener('pageshow', refresh);
