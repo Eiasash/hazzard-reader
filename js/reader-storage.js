@@ -122,8 +122,8 @@ window.HazzardStorage = (() => {
     try{await navigator.storage?.persist?.();status.persisted=await navigator.storage?.persisted?.()??false;}catch{status.persisted=false;}notify();return status.persisted;
   }
   let db=null,tail=Promise.resolve(),queuedPayload=null;
-  function capture(){
-    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;if(!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
+  function capture(preserveInvalid=false){
+    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
     return storage;
   }
   async function hash(storage){const bytes=new TextEncoder().encode(JSON.stringify(storage));const digest=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');}
@@ -139,13 +139,13 @@ window.HazzardStorage = (() => {
     }}
     return latest;
   }
-  function snapshot(){
+  function snapshot({preserveInvalid=false}={}){
     // Capture the whole reader state at the change, not at pagehide. Primary
     // localStorage has already acknowledged this write before we get here.
     if(blockedKeys().length){notify();return tail;}
-    let storage;try{storage=capture();}catch(error){status.error=error.message;notify();return tail;}
+    let storage;try{storage=capture(preserveInvalid);}catch(error){status.error=error.message;notify();return tail;}
     const payload=JSON.stringify(storage),at=Date.now();
-    if(payload===queuedPayload)return tail;
+    if(payload===queuedPayload&&!preserveInvalid)return tail;
     queuedPayload=payload;
     tail=tail.then(async()=>{
       if(!db)throw Error('Automatic local snapshots are unavailable. Manual backup still works.');

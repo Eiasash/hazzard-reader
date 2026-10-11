@@ -32679,7 +32679,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v230 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v231 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -32783,6 +32783,7 @@ function openChapter(chapter,opts={}){
   if(closingHistory){queuedChapter={chapter,opts};return}
   if((history.state?.hazzardDepth||0)>0){returnReading(()=>openChapter(chapter,opts));return}
   if(String(chapter)===cid&&!opts.n){
+    closeStatistics();
     if(mcq){if(!['bank','mock'].includes(cid)){if(opts.view==='questions')mcq.show(opts.source);else mcq.notes();}else if(cid==='bank'&&opts.hash){const url=new URL(location.href);url.search='';url.searchParams.set('chapter','bank');url.hash=opts.hash;history.replaceState({...history.state,mcqView:null},'',url);location.reload();return}else mcq.show();}
     if(opts.hash?.startsWith('search-'))revealSearch(decodeURIComponent(opts.hash.slice(7)));
     else if(opts.hash?.startsWith('bm-'))goToPlace(readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===opts.hash.slice(3)));
@@ -32966,7 +32967,9 @@ function displayPane(name){
   if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();
   if(!panel.open)panel.show();pane.scrollTop=0;
 }
+function closeStatistics(){$('#statsViewport')?.remove();}
 function renderScreen(state){
+  closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
   hidePanel();currentView=id;
   const studyTabs=chapterHeader.querySelector('.study-view-tabs');if(studyTabs)studyTabs.hidden=id!=='reader';
@@ -33171,7 +33174,7 @@ function handleTab(b){
     requestAnimationFrame(()=>$('#cloudControls').scrollIntoView({block:'start'}));
     return;
   }
-  if(b.dataset.tab==='practice'&&HazzardStats.active){location.assign(HazzardMCQ.practiceURL());return;}
+  if(b.dataset.tab==='practice'&&$('#statsViewport')){location.assign(HazzardMCQ.practiceURL());return;}
   if(b.dataset.tab==='practice'){if(['bank','mock'].includes(cid)&&currentView==='reader'&&!panel.open){openPanel('practice',b);}else{const url=new URL(HazzardMCQ.practiceURL(),location.href);if(url.href===location.href)history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');location.assign(url.href);}return}
   if(b.dataset.tab==='chapters'&&cid==='drugs'&&currentView==='reader'){view('library');return}
   if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
@@ -33532,7 +33535,7 @@ async function refreshLibraryMarks(){
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
 function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:readerScroll.scrollTop/span,at:Date.now()}}
 function goToPlace(p,exact=false){if(!p)return;if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if(copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
+function rememberPlace(){if($('#statsViewport')||copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
 let placeTimer=null,userScrolled=false,lastPlaceWrite=0;
 let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
 function scrollHeader(scroller){
@@ -33950,6 +33953,17 @@ async function mergeCloudNotebook(backup,active){
   }
   return captureNotebook();
 }
+// Keep raw unreadable preferences in the pre-restore copy, including absent incoming keys.
+function restoreNotebookState(){
+  const previous=captureNotebook().storage,blocked=new Set(HazzardStorage.blockedKeys()),invalid=[];
+  const settingsRaw=localStorage.getItem(HazzardMCQ.SETTINGS_KEY);if(settingsRaw!==null)previous[HazzardMCQ.SETTINGS_KEY]=settingsRaw;
+  for(const [key,raw] of Object.entries(previous)){
+    if(blocked.has(key))continue;
+    try{validateNotebookValue(key,key===CHAPTER_SORT_KEY?raw:JSON.parse(raw));}catch{invalid.push(key);}
+  }
+  return {previous,invalid};
+}
+function restoreSummary(invalid,incoming){return invalid.length?' Unreadable saved items (raw text kept in the local snapshot): '+invalid.map(key=>key+(Object.hasOwn(incoming,key)?' (restored)':' (kept; absent from backup)')).join(', ')+'.':'';}
 async function restoreCloudNotebook(backup){
   if(backup?.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage))throw Error('Invalid cloud notebook. Nothing was restored.');
   if(pendingHighlightChanges.size||mcq?.hasUnsaved||displaySaveFailed||timerSaveFailed)throw Error('Save current changes before restoring.');
@@ -33960,7 +33974,8 @@ async function restoreCloudNotebook(backup){
     const value=key===CHAPTER_SORT_KEY?raw:JSON.parse(raw);validateNotebookValue(key,value);
     incoming[key]=key===CHAPTER_SORT_KEY?value:JSON.stringify(HazzardMCQ.migrateValue(key,value));
   }
-  await HazzardStorage.snapshot();
+  const {previous,invalid}=restoreNotebookState();
+  await HazzardStorage.snapshot({preserveInvalid:true});
   if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
   // Revision removals survive explicit restores of older cloud copies too.
   const savedKey=HazzardMCQ.SAVED_KEY,savedRaw=localStorage.getItem(savedKey);
@@ -33968,7 +33983,8 @@ async function restoreCloudNotebook(backup){
   for(const [key,valid,empty,merge] of [[HazzardMCQ.LOG_KEY,HazzardMCQ.validLog,HazzardMCQ.emptyLog,HazzardMCQ.mergeLog],[HazzardMCQ.BAD_KEY,HazzardMCQ.validBad,HazzardMCQ.emptyBad,HazzardMCQ.mergeBad]]){const raw=localStorage.getItem(key);if(raw!==null&&!HazzardStorage.blockedKeys().includes(key))incoming[key]=incoming[key]?JSON.stringify(merge(HazzardMCQ.rawValue(key,valid,empty),JSON.parse(incoming[key]))):raw;}
   const settingsKey=HazzardMCQ.SETTINGS_KEY,settingsRaw=localStorage.getItem(settingsKey);
   if(settingsRaw!==null){const local=HazzardMCQ.settingsFromRaw(settingsRaw),remote=HazzardMCQ.settingsFromRaw(incoming[settingsKey]);if(!remote)incoming[settingsKey]=settingsRaw;else if(local)incoming[settingsKey]=JSON.stringify(HazzardMCQ.mergeSettings(local,remote));}
-  const previous=captureNotebook().storage;if(settingsRaw!==null)previous[settingsKey]=settingsRaw;
+  for(const key of invalid)if(!Object.hasOwn(incoming,key))incoming[key]=previous[key];
+  const summary=restoreSummary(invalid,backup.storage);
   const keys=new Set([...Object.keys(previous),...Object.keys(incoming)]);
   // One atomic synchronous batch from the UI's perspective; snapshot only the
   // completed notebook, never intermediate restored stores.
@@ -33984,6 +34000,7 @@ async function restoreCloudNotebook(backup){
   await HazzardStorage.flush();
   const savedPaper=HazzardMCQ.readPaper();$('#mockResume').hidden=!savedPaper?.paper;
   if(savedPaper?.paper)$('#mockResume').textContent='Resume current paper ('+savedPaper.paper.ids.length+' questions)';
+  return summary;
 }
 function notebookStatus(message){const node=$('#backupStatus');node.textContent=message;node.hidden=false;viewport()}
 $('#backupNotebook').onclick=()=>{
@@ -34008,16 +34025,16 @@ $('#notebookBackupFile').onchange=async event=>{
     if(pendingHighlightChanges.size)throw new Error('Some current highlights are not saved yet. Keep this page open and try again.');
     if(mcq?.hasUnsaved)throw new Error('Some MCQ answers are not saved yet. Save them before restoring a backup.');
     await HazzardMCQ.loadAliases();
-    const changes=[];
+    const {invalid}=restoreNotebookState(),changes=[];
     for(const [key,raw] of Object.entries(backup.storage)){
       if(!isNotebookKey(key))throw new Error('This file contains data outside the Hazzard notebook. Nothing was restored.');
       let incoming;try{if(typeof raw!=='string')throw new Error();incoming=key===CHAPTER_SORT_KEY?raw:JSON.parse(raw)}catch{throw new Error('This backup contains unreadable notebook data. Nothing was restored.')}
       validateNotebookValue(key,incoming);
       const previous=localStorage.getItem(key);let current=null;
-      if(previous!==null){try{current=key===CHAPTER_SORT_KEY?previous:JSON.parse(previous);validateNotebookValue(key,current)}catch{if(key===HazzardMCQ.SETTINGS_KEY||HazzardStorage.blockedKeys().includes(key))current=null;else throw new Error('Existing notebook data could not be read safely. Nothing was restored.')}}
+      if(previous!==null){try{current=key===CHAPTER_SORT_KEY?previous:JSON.parse(previous);validateNotebookValue(key,current)}catch{if(invalid.includes(key)||HazzardStorage.blockedKeys().includes(key))current=null;else throw new Error('Existing notebook data could not be read safely. Nothing was restored.')}}
       const merged=mergeNotebookValue(key,current,incoming),next=key===CHAPTER_SORT_KEY?merged:JSON.stringify(HazzardMCQ.migrateValue(key,merged));if(next!==previous)changes.push({key,previous,next});
     }
-    if(changes.length){await HazzardStorage.snapshot();if(HazzardStorage.status.error)throw new Error(HazzardStorage.status.error);}
+    if(changes.length||invalid.length){await HazzardStorage.snapshot({preserveInvalid:true});if(HazzardStorage.status.error)throw new Error(HazzardStorage.status.error);}
     const written=[];
     try{for(const change of changes){localStorage.setItem(change.key,change.next);written.push(change)}}
     catch{
@@ -34031,7 +34048,7 @@ $('#notebookBackupFile').onchange=async event=>{
     const display=readJSON('stage-a-display-v4',null);if(display){size=display.size;colour=display.colour;document.documentElement.dataset.theme=display.theme;applyDisplay()}
     resyncTimer();HazzardMCQ.refreshSettings();mcq?.sync();refreshResume();renderNotebook();refreshLibraryMarks();refreshMissedCount();
     const savedPaper=HazzardMCQ.readPaper();if(savedPaper?.paper){$('#mockResume').hidden=false;$('#mockResume').textContent='Resume current paper ('+savedPaper.paper.ids.length+' questions)'}
-    notebookStatus((changes.length?'Backup merged. Existing highlights, grades and saved places were kept.':'Everything in this backup is already saved.')+(addedMockQuestions?' Reload the mock page to show added questions.':''));
+    notebookStatus((changes.length?'Backup merged. Existing highlights, grades and saved places were kept.':'Everything in this backup is already saved.')+(addedMockQuestions?' Reload the mock page to show added questions.':'')+restoreSummary(invalid,backup.storage));
   }catch(error){notebookStatus(error.message||'Restore failed. Keep the backup file and try again.')}
   finally{restoreButton.disabled=false;event.target.value=''}
 };
@@ -34068,8 +34085,8 @@ try{
 const readOnlyChapter=/^\d+$/.test(cid)&&manifestChapters.some(c=>String(c.number)===cid&&c.kind==='chapter')&&!manifestChapters.some(c=>String(c.number)===cid+'s');
 if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
   mcq=(cid==='mock'&&new URL(location.href).searchParams.get('simulation')==='1'?HazzardSimulation:HazzardMCQ).mount({chapter:cid==='laws'?'law':['mock','bank'].includes(cid)||readOnlyChapter?cid:cid.slice(0,-1),readOnlyChapter,viewport:$('#readerViewport'),readerScroll,
-    onShow:()=>{headerScrollY=$('#mcqViewport')?.scrollTop||0;headerTravel=0;headerDirection=0;setMarking(false);chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;$('#jumpEnds').classList.remove('is-visible')},
-    onNotes:()=>{chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerScrollY=readerScroll.scrollTop;headerTravel=0;headerDirection=0;},openImage:openZoom});
+    onShow:()=>{closeStatistics();headerScrollY=$('#mcqViewport')?.scrollTop||0;headerTravel=0;headerDirection=0;setMarking(false);chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;$('#jumpEnds').classList.remove('is-visible')},
+    onNotes:()=>{closeStatistics();chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerScrollY=readerScroll.scrollTop;headerTravel=0;headerDirection=0;},openImage:openZoom});
   const li=document.createElement('li'),button=document.createElement('button');button.textContent='Exam questions';button.onclick=()=>returnReading(()=>mcq.show());li.append(button);$('[data-pane="contents"] .rows').prepend(li);
   if(!['mock','bank'].includes(cid))pencil.addEventListener('click',()=>mcq.notes(),true);
   if(readOnlyChapter||/^\d+s$/.test(cid))HazzardEvidence.citationLine(readOnlyChapter?cid:cid.slice(0,-1),()=>returnReading(()=>mcq.show('past'))).then(line=>{if(line)copy.querySelector('h1').after(line);}).catch(error=>console.error('Study exam citations:',error));
