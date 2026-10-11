@@ -91,7 +91,7 @@ window.HazzardCloud = (() => {
       // Re-capture after asynchronous work so edits made during the fetch survive.
       merging=true;
       let payload;
-      try{payload=cloud.exists&&cloud.updated_at&&cloud.updated_at===state.seenAt?bridge.capture():await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch);}
+      try{payload=await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch);}
       finally{merging=false;}
       if(generation!==epoch)return;
       const differs=!cloud.exists||!bridge.equal(payload.storage,cloud.data.storage);
