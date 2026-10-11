@@ -297,7 +297,7 @@ window.HazzardMCQ = (() => {
   }
   function explanationHTML(q,order=optionOrder(q)){
     const box=document.createElement('div');
-    box.innerHTML=rich(orderedExplanation(q,order)||'');
+    box.innerHTML=rich((orderedExplanation(q,order)||'').replace(/(?<!\n)\n(?=["\u201c\u201e\u05f4'])/gu,'\n\n'));
     // A generic heading is not an answer, but may precede an explicit key.
     let opening=box.firstElementChild;
     const generic=/^(?:הסבר(?: קליני| מפורט)?|ניתוח (?:השאלה|התשובות)|explanation|clinical explanation|rationale)\s*:?\s*$/iu;
