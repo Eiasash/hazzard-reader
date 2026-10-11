@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v226",
+      "date": "2026-10-11",
+      "changes": [
+        "Question bank and Statistics come first in Practice; redo changed questions in one run; clearer Statistics with charts and weak spots."
+      ]
+    },
+    {
       "version": "v225",
       "date": "2026-10-11",
       "changes": [
