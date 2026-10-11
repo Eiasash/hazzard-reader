@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v217",
+      "date": "2026-10-11",
+      "changes": [
+        "556 practice questions are now in English, written from their source instead of translated",
+        "234 official explanations are now in English, the language of their source"
+      ]
+    },
+    {
       "version": "v216",
       "date": "2026-10-11",
       "changes": [
