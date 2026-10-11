@@ -2,15 +2,19 @@
 window.HazzardEvidence = (() => {
   let promise;
   function load() {
-    return promise ||= fetch('data/mcq/exam-references.json').then(r => {
+    return promise ||= Promise.all([fetch('data/mcq/exam-references.json'),fetch('data/mcq/all.json')]).then(async ([r,bank]) => {
       if (!r.ok) throw Error('Exam references unavailable. Reconnect and reload.');
-      return r.json();
+      if(!bank.ok)throw Error('Question data unavailable');
+      const data=await r.json(),all=await bank.json();data.currentChapters={};
+      for(const q of all)if(!q.retired&&q.chapter!=null)(data.currentChapters[String(q.chapter)]||=[]).push(q.id);
+      return data;
     }).catch(e => { promise = null; throw e; });
   }
   const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year;};
   const label = entry => sittingLabel(entry.sitting) + ' Q' + entry.number;
-  // Reuse the exact v55 Study membership, including its labelled legacy fallback.
+  // Numeric chapter practice follows current assignments; special collections keep their membership.
   function studyIds(data, chapter) {
+    if (/^\d+$/.test(chapter)&&data.currentChapters)return data.currentChapters[chapter]||[];
     if (data.study[chapter]) return data.study[chapter].ids;
     // Read-only chapters share the same resolved/page-free chapter membership.
     return /^\d+$/.test(chapter) ? Object.entries(data.questions).filter(([,entry]) => ['resolved','title-8e','topic-8e'].includes(entry.status) && entry.chapters.includes(String(chapter))).map(([id]) => id) : [];

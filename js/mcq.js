@@ -271,6 +271,10 @@ window.HazzardMCQ = (() => {
       ];
       for(const regex of protectedSpans)for(const m of text.matchAll(regex))for(let i=m.index;i<m.index+m[0].length;i++)positions.delete(i);
     }
+    // In a Sources line, a quoted author initial is not a shuffled option label.
+    for(const line of text.matchAll(/^(?:\u05de\u05e7\u05d5\u05e8(?:\u05d5\u05ea)?|Sources?):[^\n]*$/gmu)){
+      for(const m of line[0].matchAll(/(?:^|[\s:(;,])([\u05d0-\u05ea]{2,})[ \t]+([\u05d0-\u05d3])['\u05f3](?=,\s*[\u05d0-\u05ea]{2,}[ \t]+[\u05d0-\u05ea]['\u05f3])/gu))positions.delete(line.index+m.index+m[0].length-2);
+    }
     return {text:text.split('').map((c,i)=>positions.has(i)?map(c):c).join(''),positions};
   }
   // Keep mapping and its recognized source positions together; offsets are unchanged.
@@ -865,7 +869,7 @@ window.HazzardMCQ = (() => {
       if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));return (reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));}
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q)&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
-      let list=items.filter(q=>!q.retired&&!excluded(q.id)&&allowed(q)&&!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||filter==='drill'&&drillTier(q)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+(filter==='drill'?'practice':filter)))&&(!['law','articles'].includes(filter)||!topicsHidden(q))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!topicsHidden(q)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&matchesYear(q,year)&&matchesLevel(q,level)&&(!topicChoicesOf(topic).length||topicChoicesOf(topic).some(t=>membership(q).includes(Number(t))&&!flagged(q,'topic:'+t)))&&(!missedOnly||missedIds.has(q.id)));
+      let list=items.filter(q=>!q.retired&&!excluded(q.id)&&allowed(q)&&!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||filter==='drill'&&drillTier(q)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+(filter==='drill'?'practice':filter)))&&(!['law','articles'].includes(filter)||!topicsHidden(q))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!topicsHidden(q)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&matchesYear(q,year)&&matchesLevel(q,level)&&topicMatches(q)&&(!missedOnly||missedIds.has(q.id)));
       if(savedOnly){const saved=readSaved();list=list.filter(q=>saved.questions[q.id]?.saved);}
       if(ordinaryShuffled()&&!includeAnswered)list=list.filter(q=>!answeredIds.has(currentId(q.id)));
       if(bankMode&&sort==='shuffled')return shuffledBank(list,seed,filter==='law');
@@ -874,7 +878,17 @@ window.HazzardMCQ = (() => {
       return list;
     }
     function selection(name,value,choices,label){return '<label>'+label+'<select data-select="'+name+'">'+choices.map(([v,text])=>'<option value="'+escape(v)+'" '+(String(v)===value?'selected':'')+'>'+escape(text)+'</option>').join('')+'</select></label>';}
+    let sessionTopics=null;
+    function topicFilter(value,choices){
+      const selected=sessionTopics||topicChoicesOf(value),byId=new Map(choices);
+      byId.set('law','Israeli law & ethics');byId.set('articles','Required articles');
+      const option=(v,text,category=false)=>'<label><input type="checkbox" data-select="'+(category?'topic-category':'topic')+'" value="'+escape(v)+'" '+((category?HazzardTopicCategories.find(c=>c.id===v).topics.every(t=>selected.includes(t)):v==='all'?!selected.length:selected.includes(v))?'checked':'')+'><span>'+escape(text)+'</span></label>';
+      const labels=selected.map(t=>byId.get(t)||t),summary=labels.length>2?labels.length+' topics':labels.join(', ')||'All topics';
+      return '<div class="mcq-multi"><span>Topic</span><details data-multi="topic"><summary aria-label="Topic: '+escape(summary)+'">'+escape(summary)+'</summary><div class="mcq-multi-options" role="group" aria-label="Topic">'+option('all','All topics')+HazzardTopicCategories.map(c=>'<details data-topic-category="'+c.id+'"><summary>'+escape(c.name)+'</summary>'+option(c.id,'All in '+c.name,true)+c.topics.map(t=>option(t,byId.get(t)||topics[t])).join('')+'</details>').join('')+'</div></details></div>';
+    }
+    function topicMatches(q){const chosen=sessionTopics||topicChoicesOf(topic);return !chosen.length||chosen.some(t=>t==='law'?lawIds.has(q.id):t==='articles'?articleIds.has(q.id):membership(q).includes(Number(t))&&!flagged(q,'topic:'+t));}
     function multiSelection(name,value,choices,label){
+      if(name==='topic')return topicFilter(value,choices);
       const selected=name==='topic'?topicChoicesOf(value):choicesOf(value),labels=choices.filter(([v])=>selected.includes(v)).map(([,text])=>text);
       const summary=labels.length>2?labels.length+(name==='topic'?' topics':name.endsWith('year')?' years':' levels'):labels.join(', ')||choices[0][1];
       return '<div class="mcq-multi"><span>'+label+'</span><details data-multi="'+name+'"><summary aria-label="'+label+': '+escape(summary)+'">'+escape(summary)+'</summary><div class="mcq-multi-options" role="group" aria-label="'+label+'">'+choices.map(([v,text])=>'<label><input type="checkbox" data-select="'+name+'" value="'+escape(v)+'" '+((v==='all'?!selected.length:selected.includes(v))?'checked':'')+'><span>'+escape(text)+'</span></label>').join('')+'</div></details></div>';
@@ -928,7 +942,7 @@ window.HazzardMCQ = (() => {
       if(!q){content.innerHTML='<p>'+(answeredHidden()?'All matching questions are answered. Choose Sort by Source or Topic to see them.':'No questions match these filters.')+'</p>'+(!bankMode&&!mockMode?'<button data-mcq="notes">Open study notes</button>':'');return;}
       if(mockMode&&paper.finished){content.innerHTML=score(list);return;}
       const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'],order=optionOrder(q,bankMode);content.dataset.bankId=q.id;
-      content.innerHTML='<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(/^ima-harrison-22e-ch\d+$/.test(q.chapter||'')?' · '+escape(q.chapterTitle):(rc=>rc.length?' · Reader chapter'+(rc.length>1?'s ':' ')+escape(rc.join(', ')):'')(evidence.questions[q.id]?.chapters?.length?evidence.questions[q.id].chapters.map(String):q.chapter?[String(q.chapter)]:[]))+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label?'<p class="mcq-source-note" role="note">'+sourceHTML(sourceTitle(q.label))+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
+      content.innerHTML=(redoMode?'<p class="meta mcq-redo-progress">Redo '+(position+1)+' of '+list.length+'</p>':'')+'<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(/^ima-harrison-22e-ch\d+$/.test(q.chapter||'')?' · '+escape(q.chapterTitle):(rc=>rc.length?' · Reader chapter'+(rc.length>1?'s ':' ')+escape(rc.join(', ')):'')(evidence.questions[q.id]?.chapters?.length?evidence.questions[q.id].chapters.map(String):q.chapter?[String(q.chapter)]:[]))+' <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label?'<p class="mcq-source-note" role="note">'+sourceHTML(sourceTitle(q.label))+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
         (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'<div class="mcq-confidence">'+revisionButtons(q)+'</div>':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+revisionButtons(q)+'</div>'+unsureStatus(q,state,review))+revisionStatus()+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
         '<div class="mcq-options" role="group" aria-label="Answer options" dir="rtl">'+order.map((i,display)=>'<button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-letter">'+(letters[display]||String(display+1))+(state.checked&&accepted.includes(i)?' ✓':state.checked&&state.selected===i?' ✕':'')+'</span><span class="mcq-mixed" dir="auto" lang="he">'+rich(q.o[i])+'</span></button>').join('')+'</div>'+
@@ -959,7 +973,7 @@ window.HazzardMCQ = (() => {
         chapterTitles=Object.fromEntries(bookChapters.map(c=>[c.chapter,c.title]));
         const studyOnly=!!evidence.study[chapter]?.studyOnly;
         [items,topics,collections]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):json('data/mcq/'+(bankMode||mockMode?'all':chapter)+'.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json'),loadAliases()]);
-        if(!bankMode&&!mockMode){const canonical=new Map((await json('data/mcq/all.json')).map(q=>[q.id,q]));items=items.map(q=>canonical.get(q.id)||q);}
+        if(!bankMode&&!mockMode){const all=await json('data/mcq/all.json'),canonical=new Map(all.map(q=>[q.id,q]));items=/^\d+$/.test(chapter)?all.filter(q=>String(q.chapter)===chapter):items.map(q=>canonical.get(q.id)||q);}
         if(evidence.study[chapter]||readOnlyChapter){
           const ids=new Set(HazzardEvidence.studyIds(evidence,chapter)),all=await json('data/mcq/all.json');
           items=[...new Map([...all.filter(q=>ids.has(q.id)||drillTier(q)&&String(q.chapter)===chapter),...items.filter(q=>q.kind==='practice'&&(!q.sourceChecked||String(q.chapter)===chapter))].map(q=>[q.id,q])).values()];
@@ -1022,6 +1036,17 @@ window.HazzardMCQ = (() => {
     });
     host.addEventListener('change',event=>{
       hiddenTarget=null;const name=event.target.dataset.select;if(!name)return;restoredViewUnchanged=false;lastAnswer=null;const value=event.target.value;
+      if(name==='topic-category'||name==='topic'){
+        const selected=sessionTopics||topicChoicesOf(topic),ids=name==='topic-category'?HazzardTopicCategories.find(c=>c.id===value).topics:[value];
+        const next=value==='all'?[]:event.target.checked?[...new Set([...selected,...ids])]:selected.filter(t=>!ids.includes(t));
+        const open=[...host.querySelectorAll('[data-topic-category][open]')].map(n=>n.dataset.topicCategory),y=host.scrollTop;
+        // Collections cannot be encoded as numeric topic ids in the existing store.
+        if(next.some(t=>!/^\d+$/.test(t)))sessionTopics=next;else{sessionTopics=null;topic=next;}
+        position=0;rebuildAnswered();render();if(!sessionTopics)saveView();
+        host.querySelector('[data-multi="topic"]').open=true;
+        for(const id of open)host.querySelector('[data-topic-category="'+id+'"]').open=true;
+        host.scrollTop=y;host.querySelector('[data-select="'+name+'"][value="'+value+'"]').focus({preventScroll:true});return;
+      }
       if(name==='mock-topic'){settings.topic=value;save();render();return;}
       if(name==='review-size'){try{const r=HazzardReview.size(Number(value),items.filter(q=>!excluded(q.id)));reviewBatch=r.batch;position=reviewDisplayPosition();notice='Batch size saved. Completed answers are kept.';}catch{storageError='Batch size could not be saved.';}render();return;}
       if(['topic','year','level','mock-year','mock-level'].includes(name)){

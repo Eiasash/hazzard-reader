@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v229",
+      "date": "2026-10-11",
+      "changes": [
+        "Grouped Statistics and Topic filters into categories, simplified progress and Review rows, aligned chapter practice with current assignments, and fixed one explanation’s repeated citations and author initial."
+      ]
+    },
+    {
       "version": "v228",
       "date": "2026-10-11",
       "changes": [
