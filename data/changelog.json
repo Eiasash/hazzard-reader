@@ -2,6 +2,15 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v222",
+      "date": "2026-10-11",
+      "changes": [
+        "23 official explanations are now in English, the language of their source",
+        "Rewritten explanations: 10 practice questions were rewritten from the source",
+        "10 hidden practice questions were fixed or confirmed from the book and are served again"
+      ]
+    },
+    {
       "version": "v221",
       "date": "2026-10-11",
       "changes": [
