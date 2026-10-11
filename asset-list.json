@@ -1,5 +1,5 @@
 {
-  "version": "v228",
+  "version": "v229",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5958,8 +5958,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "f9cb6d2b705e20b9ea8c8f51c32672c3b7720ef22d31b6f79739f711e17f086e",
-      "bytes": 24552
+      "sha256": "a93eb181933fc0fc796aae172daff59c7b0d0d3c3e125e3295b6ffad570a45d7",
+      "bytes": 25842
     },
     {
       "url": "./css/memory-aids.css",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "27d8584b4dc6c18067a4acd8c3bb0ed879ef83002ad9aab683bedeef0b005527",
-      "bytes": 51506
+      "sha256": "cc1f559d37b11bd1108c3a2aafe6a04a9b4f8fdefcfcb1568628f095f4c3fdf3",
+      "bytes": 51820
     },
     {
       "url": "./data/drug-index.json",
@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "cb4499cb5449032ea1cffc1fb7a60232f2ed6862722b2a112b7efef92c2f635c",
-      "bytes": 7345206
+      "sha256": "732968d4b013094106c11caae4c0436bb3afb65fafcce1f7b14947f8029d472f",
+      "bytes": 7343915
     },
     {
       "url": "./data/mcq/collections.json",
@@ -6673,13 +6673,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "8b6969728a67d4530a190411431d8fd7286ac1bda0c50e6f3dce65d3a95a778b",
-      "bytes": 3331484
+      "sha256": "47e48e81d0e61c0fd9601cd3e4fc6bd1cd4417a2584efba6289250854817abb3",
+      "bytes": 3331502
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "f7ed63a49e4f97559bbc937a1dca0c144309ee5ab91307a9c9ac7652aedefabb",
-      "bytes": 26181
+      "sha256": "8c3f3403198f43d4084c55141891d2d6409d47e089cb84ad22156ad9b8fd6539",
+      "bytes": 26811
     },
     {
       "url": "./js/drug-index.js",
@@ -6688,8 +6688,8 @@
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "53a6c8e061cce3de20fe501dad2b1b1c9f885fc52bfb9c427bffa135ae28ebad",
-      "bytes": 4986
+      "sha256": "5230815da88630a13871e08c156e4d0ab034b3ac9dc16ea25a7cdfe3195d531d",
+      "bytes": 5406
     },
     {
       "url": "./js/exam-simulation.js",
@@ -6713,8 +6713,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "785de99035aed5d74da6d6fd34c3764bb0585427a8729400f865d7d733f4fbcc",
-      "bytes": 126107
+      "sha256": "eaae1ebf4d922df5dec12815e61c26b44a7f4a6f4735dbf0e3ac1c2e62501af3",
+      "bytes": 129118
     },
     {
       "url": "./js/memory-aids.js",
@@ -6738,7 +6738,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "8ae56524e316dbe495dae32a7e25fa364ae31a2eaa63b7b54cd0fb94ee2ff811",
+      "sha256": "47169c52b0a6c2259f373308b392774774082cf47512e3d64aa948917d7142aa",
       "bytes": 8228
     },
     {
@@ -6753,8 +6753,8 @@
     },
     {
       "url": "./js/stats.js",
-      "sha256": "8514d6665d34d6ebc521b3a2e9202ff32bb1d89479f4cc40b6026b0bbfd11a2a",
-      "bytes": 14186
+      "sha256": "fc54d150e0fc7ed20c876cc37f743c83d4c9cc59bea8db7000ce67a48397dd82",
+      "bytes": 16829
     },
     {
       "url": "./manifest.json",

@@ -82,6 +82,16 @@ window.HazzardChanged = (() => {
     pane.querySelector('[data-review-link]').closest('li').after(host);
     new MutationObserver(() => { if (!pane.hidden) refresh(); }).observe(pane, {attributes:true,attributeFilter:['hidden']});
   }
+  // Keep the existing due updater; format its number as a Practice row.
+  const reviewLink=pane?.querySelector('[data-review-link]');
+  function reviewRow(){
+    if(!reviewLink||reviewLink.querySelector('strong'))return;
+    const match=/Review \((.*)\)/.exec(reviewLink.textContent);if(!match)return;
+    const title=document.createElement('strong'),detail=document.createElement('small');
+    title.textContent='Review';detail.textContent=match[1]+' \u00b7 spaced repetition';
+    reviewLink.replaceChildren(title,detail);
+  }
+  if(reviewLink){new MutationObserver(reviewRow).observe(reviewLink,{childList:true});reviewRow();}
   addEventListener('pageshow', refresh);
   addEventListener('hazzard-reader-ready', refresh);
   addEventListener('storage', event => { if (event.key === HazzardMCQ.KEY || event.key === null) refresh(); });
