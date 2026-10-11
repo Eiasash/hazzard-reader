@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v211",
+      "date": "2026-10-11",
+      "changes": [
+        "Drill, source-checked and generated practice now appear in Practice and in mock papers by default; Practice settings can still turn each group off. Hidden practice stays off, and the exam simulation stays past papers only."
+      ]
+    },
+    {
       "version": "v210",
       "date": "2026-10-11",
       "changes": [
