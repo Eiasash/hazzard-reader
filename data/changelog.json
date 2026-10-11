@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v228",
+      "date": "2026-10-11",
+      "changes": [
+        "Removed the outdated practice error-rate note, explained unavailable saved mock questions and unsaved answers, and corrected question chapter and page links."
+      ]
+    },
+    {
       "version": "v227",
       "date": "2026-10-11",
       "changes": [
