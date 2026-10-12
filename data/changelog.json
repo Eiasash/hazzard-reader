@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v248",
+      "date": "2026-10-12",
+      "changes": [
+        "Statistics: a Next up block, tappable counts and sittings, answer counts on weak spots, and fewer screens to scroll."
+      ]
+    },
+    {
       "version": "v247",
       "date": "2026-10-12",
       "changes": [
