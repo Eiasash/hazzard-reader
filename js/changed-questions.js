@@ -24,10 +24,11 @@ window.HazzardChanged = (() => {
   }
   async function load() {
     if (data) return data;
-    return loading ||= fetch('data/redo-history.json').then(async response => {
+    return loading ||= Promise.all([fetch('data/redo-history.json'),fetch('data/mcq/content-changes.json')]).then(async ([response,content]) => {
+      if (!content.ok) throw Error('Changed questions unavailable');
       if (!response.ok) throw Error('Changed questions unavailable');
       const value = await response.json();
-      data = [...value.questions, ...V115, ...V116, ...V120, ...V121, ...V122, ...V123, ...V124, ...V125, ...V126];
+      data = [...(await content.json()), ...value.questions, ...V115, ...V116, ...V120, ...V121, ...V122, ...V123, ...V124, ...V125, ...V126];
       if (!data.length) throw Error('Changed questions unavailable');
       return data;
     }).catch(error => { data = null; loading = null; throw error; });
