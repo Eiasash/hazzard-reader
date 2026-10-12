@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v242",
+      "date": "2026-10-12",
+      "changes": [
+        "Practice questions no longer list an unrelated Harrison chapter under Source; small display fixes."
+      ]
+    },
+    {
       "version": "v241",
       "date": "2026-10-12",
       "changes": [
