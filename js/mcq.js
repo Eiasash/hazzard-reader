@@ -490,6 +490,14 @@ window.HazzardMCQ = (() => {
       const text = block.textContent;
       const prose = (/[A-Za-z]/.test(text)?text.replace(/(?<![\p{L}])[אבגדה](?![\p{L}])/gu,''):text).replace(/\b(?:options?|answers?|choices?)(?:\s+(?:is|are|correct|incorrect))*\s*[:\-]?\s*\(?[אבגדה]['׳]?/giu, '');
       block.dir = /[\u05d0-\u05ea]/.test(prose) ? 'rtl' : 'ltr';
+      // A complete English quotation keeps its trailing Hebrew page cite outside.
+      if (/^["\u201c][^\u05d0-\u05ea\n]+["\u201d]\s*\(\u05e2\u05de['\u05f3]\s*\d+(?:[-\u2013, ]\d+)*\)\.?$/.test(text.trim())) {
+        block.dir='ltr';
+        const quote=text.match(/^[\s\S]*["\u201d](?=\s*\()/)[0];
+        const cite=document.createElement('bdi');cite.dir='rtl';cite.className='mcq-quote-cite';
+        cite.textContent=text.slice(quote.length).trim();block.replaceChildren(document.createTextNode(quote+' '),cite);
+      }
+
     }
     const citationWalker=document.createTreeWalker(box,NodeFilter.SHOW_TEXT),citationNodes=[];
     while(citationWalker.nextNode())citationNodes.push(citationWalker.currentNode);
@@ -498,6 +506,11 @@ window.HazzardMCQ = (() => {
       if(node.parentElement.closest('[dir]')?.dir==='ltr')continue;
       for(const m of node.data.matchAll(/\([^()\n]*\)|[A-Z][A-Za-z'’ \t]+,\s*מהדורה\s+\d+[.;]?/gu)){
         const body=m[0].replace(/^\(/,''),he=(body.match(/[א-ת]/g)||[]).length,latin=(body.match(/[A-Za-z0-9]/g)||[]).length;
+        // Keep an English citation separate from a Hebrew-prefixed term.
+        if(!he && /^(?:Hazzard|Harrison)\b/.test(body) && /[\u05d0-\u05ea]+[-\u05be]\s*[^\u05d0-\u05ea()]*[A-Za-z0-9]\s*$/.test(node.data.slice(0,m.index))){
+          fragment.append(document.createTextNode(node.data.slice(end,m.index)));
+          const cite=document.createElement('bdi');cite.dir='ltr';cite.className='mcq-citation-run';cite.textContent=m[0];fragment.append(cite);end=m.index+m[0].length;continue;
+        }
         if(!he||!/^[^\p{L}\p{N}]*[A-Za-z0-9]/u.test(body)||latin<=he||!/^\(?\s*(?:Hazzard|Harrison|NEJM|JAMA|Lancet|BMJ|Official|MOH|MoH|Brookdale|Beers|AGS|IWG|ADA|ESC|ACC|AHA|KDIGO|GOLD|NICE|WHO|USPSTF|Cochrane|CDC|ACIP|DSM|EWGSOP|PROMISE)|עמ['׳]\s?\d|\bPDF\s?p?\.?\s?\d|\bpp?\.\s?\d|et al\.?|מהדורה\s+\d/u.test(m[0]))continue;
         fragment.append(document.createTextNode(node.data.slice(end,m.index)));
         const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.className='mcq-citation-run';
@@ -621,6 +634,20 @@ window.HazzardMCQ = (() => {
         if(next?.nodeType===3&&/^[.,;:!?](?=\s*[א-ת]|\s*$)/u.test(next.data)){next.data='\u2060'+next.data;bdi.classList.add('mcq-terminal-latin');}
       }
       for(const bdi of block.querySelectorAll('bdi'))if(!bdi.textContent)bdi.remove();
+    }
+    // Keep a journal citation's page range together without altering its text.
+    const rangeWalker=document.createTreeWalker(box,NodeFilter.SHOW_TEXT),rangeNodes=[];
+    while(rangeWalker.nextNode())rangeNodes.push(rangeWalker.currentNode);
+    for(const node of rangeNodes){
+      const matches=[...node.data.matchAll(/\b\d{4};\d+(?:\(\d+\))?:(\d+[-\u2013]\d+)/g)];
+      if(!matches.length)continue;
+      const fragment=document.createDocumentFragment();let end=0;
+      for(const m of matches){
+        const start=m.index+m[0].length-m[1].length;
+        fragment.append(document.createTextNode(node.data.slice(end,start)));
+        const span=document.createElement('span');span.className='mcq-page-range';span.textContent=m[1];fragment.append(span);end=start+m[1].length;
+      }
+      fragment.append(document.createTextNode(node.data.slice(end)));node.replaceWith(fragment);
     }
     return box.innerHTML;
   }
