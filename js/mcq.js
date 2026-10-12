@@ -1094,7 +1094,7 @@ window.HazzardMCQ = (() => {
         const statsFilter=new URL(location.href).searchParams.get('statsFilter');
         const restored=!explicitMissed&&!statsFilter&&!target&&restoreView(view);
         if(explicitMissed){filter=topic='all';year=[];level=[];missedOnly=true;flagsView=savedView=savedOnly=false;missedIds=null;position=0;}
-        if(statsFilter){filter=['law','articles'].includes(statsFilter)?statsFilter:'all';topic=/^\d+$/.test(statsFilter)?statsFilter:'all';year=[];level=[];missedOnly=flagsView=savedView=savedOnly=false;position=0;}
+        if(statsFilter){filter=['past','law','articles'].includes(statsFilter)?statsFilter:'all';topic=/^\d+$/.test(statsFilter)?statsFilter:'all';year=[];level=[];missedOnly=explicitMissed;flagsView=location.hash==='#flags';savedView=savedOnly=false;position=0;}
         if(!restored)rebuildAnswered();
         if(bankMode&&!resumePlace&&new URL(location.href).searchParams.get('practiceResume')==='1'){flagsView=savedView=savedOnly=missedOnly=false;rebuildAnswered();answeredIds.delete(currentId(view?.id));const n=visible().findIndex(q=>q.id===view?.id);position=Math.max(0,n);}
         if(samePlace&&resumePlace.id&&(redoMode||savedOnly)){const n=visible().findIndex(q=>q.id===resumePlace.id);if(n>=0)position=n;}
