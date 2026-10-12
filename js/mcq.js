@@ -378,6 +378,9 @@ window.HazzardMCQ = (() => {
       if(node){const strong=document.createElement('strong');strong.style.fontWeight='700';strong.append(range.extractContents());range.insertNode(strong);}
       return finish();
     }
+    // Complete marked option reasons already identify every accepted answer.
+    const markedOptions=new Set(lines.filter(({label})=>label>=0).map(({label})=>order[label]));
+    if(order.length&&order.every(i=>markedOptions.has(i)))return finish();
     const english=/^\p{Script=Latin}$/u.test((box.querySelector('p')?.textContent||box.textContent).match(/\p{L}/u)?.[0]||'');
     const answer=document.createElement('div');answer.className='mcq-answer-declaration';answer.style.fontWeight='700';answer.dir=english?'ltr':'rtl';
     const title=document.createElement('span');
@@ -762,9 +765,9 @@ window.HazzardMCQ = (() => {
     }
     function citationHTML(q){
       const ref=evidence.questions[q.id];
-      const source=sourceTitle(q.ref).replace(/\s*·\s*/g,' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
+      const source=sourceTitle(q.ref).replace(/\s*·\s*(\u00a7?)/g,(_,section)=>section?' · '+section:' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
       const practice=practicePage(q),requiredChapter=/^ima-harrison-22e-ch\d+$/.test(q.chapter||'');
-      let html='<div class="mcq-citations">'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">Source: '+sourceHTML(source)+'</button>':'<p class="meta">Source: '+sourceHTML(source||sourceLabel(q))+'</p>');
+      let html='<div class="mcq-citations">'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">'+sourceHTML('Source: '+source)+'</button>':'<p class="meta">'+sourceHTML('Source: '+(source||sourceLabel(q)))+'</p>');
       if(requiredChapter)html+='<p class="meta"><a href="?chapter=laws&amp;lawCard='+encodeURIComponent(q.chapter)+'#law-card-'+encodeURIComponent(q.chapter)+'">Study: '+escape(q.chapterTitle)+'</a></p>';
       if(generated(q)&&practice&&!ref?.pages?.some(p=>p.available))html+='<button class="mcq-page-link" data-page="'+practice.page+'">Open page '+practice.page+(practice.chapterStart?' (chapter start)':'')+'</button>';
       if(q.referenceNote)html+='<p class="meta" dir="auto">'+escape(q.referenceNote)+'</p>';
@@ -946,7 +949,7 @@ window.HazzardMCQ = (() => {
         summary.push(...choicesOf(year),...choicesOf(level).map(id=>id==='Subspec'?'Subspecialty':id==='unspecified'?'Not specified':id));
         if(savedOnly)summary.push('Saved only');if(missedOnly)summary.push('Missed only');
         const filterSummary='Filters: '+(summary.join(' \u00b7 ')||'none')+' \u00b7 '+({source:'Source order',topic:'Topic order',shuffled:'Shuffled'}[sort]);
-        html+='<button type="button" class="mcq-filter-toggle" data-mcq="toggle-filters" aria-expanded="'+bankFiltersOpen+'" aria-controls="mcq-filter-panel"><span>'+escape(filterSummary)+' \u00b7 <span class="mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</span></span><span class="mcq-filter-chevron" aria-hidden="true">\u2304</span></button><div id="mcq-filter-panel"'+(bankFiltersOpen?'':' hidden')+'>';
+        html+='<button type="button" class="mcq-filter-toggle" data-mcq="toggle-filters" aria-expanded="'+bankFiltersOpen+'" aria-controls="mcq-filter-panel"><span>'+escape(filterSummary)+' \u00b7 <span class="mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</span></span><svg class="mcq-filter-chevron" aria-hidden="true" viewBox="0 0 16 16" focusable="false"><path d="m4 6 4 4 4-4"/></svg></button><div id="mcq-filter-panel"'+(bankFiltersOpen?'':' hidden')+'>';
 
         html+='<details class="mcq-jump"><summary>Go to sitting + Q</summary><form data-jump-form><label>Sitting<select name="sitting">'+sittings.map(s=>'<option value="'+escape(s)+'">'+escape(s.replace('-Subspec','').replace('-', ' '))+'</option>').join('')+'</select></label><label>Q<input name="number" type="number" min="1" max="100" inputmode="numeric" aria-label="Question number"></label><button type="submit">Go</button><span role="status" data-jump-status></span></form></details>';
         html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+multiSelection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+multiSelection('level',level,[['all','All levels'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Exam level')+'<div class="mcq-sort">'+selection('sort',sort,[['source','Source'],['topic','Topic'],['shuffled','Shuffled']],'Sort by')+(sort==='shuffled'?'<button type="button" data-mcq="reshuffle">Reshuffle</button>':'')+'</div>'+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
