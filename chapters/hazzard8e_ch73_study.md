@@ -25,7 +25,6 @@ Fast build from the book; not lane-reviewed.
 
 ![Table 73-1: age-related changes in the anatomy of the heart](hazzard8e_ch73_table73_1_p1116.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -58,7 +57,6 @@ Fast build from the book; not lane-reviewed.
 
 ![Figure 73-1: ventricular wall thickness versus age](hazzard8e_ch73_fig73_1_p1119.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -75,7 +73,6 @@ Fast build from the book; not lane-reviewed.
 
 ![Figure 73-2: normal indexed mean cardiac valve circumferences versus age](hazzard8e_ch73_fig73_2_p1120.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -91,7 +88,6 @@ Fast build from the book; not lane-reviewed.
 
 ![Table 73-2: age-related changes in cardiovascular physiology](hazzard8e_ch73_table73_2_p1121.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -99,7 +95,6 @@ Fast build from the book; not lane-reviewed.
 
 ![Figure 73-3: both panels comparing cardiac chambers with age](hazzard8e_ch73_fig73_3_p1121.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 

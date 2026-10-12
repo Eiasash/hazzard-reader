@@ -34,7 +34,6 @@ Study summary of Chapter 15, Hazzard's Geriatric Medicine and Gerontology, 8e.
 
 ![Table 15-3. Risk factors for delirium, p210.](hazzard8e_ch15_table15_3_p210.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -42,7 +41,6 @@ Study summary of Chapter 15, Hazzard's Geriatric Medicine and Gerontology, 8e.
 
 ![Figure 15-2. Delirium screening instruments, first panel, p210.](hazzard8e_ch15_figure15_2a_p210.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 **Book inconsistency:** this panel's arrow from normal RASS to “No Delirium” conflicts with the book's CAM/bCAM rule in Table 58-3, p884: acute change plus inattention and either altered consciousness or disorganized thinking. Normal alertness alone does not exclude that combination. [See the book's delirium chapter](?chapter=58#p884).
 
@@ -75,7 +73,6 @@ All scoring and time windows above: Figure 15-2, p211. A single introductory pro
 
 ![Figure 15-2 continued. 4AT and RASS, p211.](hazzard8e_ch15_figure15_2b_p211.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -92,7 +89,6 @@ All scoring and time windows above: Figure 15-2, p211. A single introductory pro
 
 ![Figure 15-3. ED dementia screening instruments, p212.](hazzard8e_ch15_figure15_3_p212.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 </details>
 
@@ -118,7 +114,7 @@ All scoring and time windows above: Figure 15-2, p211. A single introductory pro
 
 ![Figure 15-4. Senior Aid Tool, p214.](hazzard8e_ch15_figure15_4_p214.png)
 
-*Highlighting is the owner's annotation, not the book's.* The official references cite pages; the figures here supply the tested instruments, without converting a page citation into an explicit figure citation.
+The official references cite pages; the figures here supply the tested instruments, without converting a page citation into an explicit figure citation.
 
 </details>
 

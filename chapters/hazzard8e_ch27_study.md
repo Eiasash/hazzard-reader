@@ -61,7 +61,6 @@ Study summary of Chapter 27 — Perioperative Care: Evaluation and Management; t
 
 ![Table 27-3. Physiologic changes of aging and effects on perioperative care, printed page 375.](ch27_table27_3_p375.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 The physiologic-association questions test this table's content; their official references name the page without an explicit table label. The printed renal arrow and cardiac terminology are preserved in the image and explained above.
 

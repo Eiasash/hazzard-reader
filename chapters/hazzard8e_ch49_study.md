@@ -55,7 +55,6 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 
 ![Table 49-3. Components of the SARC-F screening test, printed page 734.](ch49_table49_3_p734.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 This table supplies the content tested by the official SARC-F question; the official reference names the page, without a table label.
 
@@ -87,7 +86,6 @@ This table supplies the content tested by the official SARC-F question; the offi
 
 ![Table 49-4. Cutoff points to define low grip strength and reduced gait speed, printed page 735.](ch49_table49_4_p735.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 Supporting table on the cited page; the official SPPB question does not explicitly cite this table.
 

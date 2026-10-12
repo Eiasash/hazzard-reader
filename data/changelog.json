@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v252",
+      "date": "2026-10-13",
+      "changes": [
+        "Display fixes: answer marks, image Close button, Statistics title, Hebrew-English lines and a few small layout details."
+      ]
+    },
+    {
       "version": "v251",
       "date": "2026-10-12",
       "changes": [

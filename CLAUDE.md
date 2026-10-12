@@ -39,7 +39,6 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 
 ## Cosmetic list (doesn't block anything)
 - ch75 Table 75-6 ghost title bar baked into the scan; cropping it out would remove the caption. The marked PDF has no separate annotations to remove.
-- Statistics, Barely started: each row shows the topic name as a link, then a count that starts with a leftover separator dot; drop the dot in a future release.
 
 ## Reader behavior
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
