@@ -208,5 +208,5 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .mcq-option-explanation.wrong .mcq-explanation-icon{color:var(--mcq-wrong)}
 .mcq-option-reason{min-width:0;flex:1}.mcq-option-reason>p:last-child{margin-bottom:0}.mcq-option-reason>ul{list-style:none;margin:0;padding:0}
 .mcq-filter-toggle{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:44px;margin:8px 0;padding:9px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);font:calc(13px * var(--fs,1))/1.5 var(--ui);text-align:start;white-space:normal;overflow-wrap:anywhere}
-.mcq-filter-toggle .mcq-count{font:inherit;margin:0}.mcq-filter-chevron{flex:none;font-size:1.3em}.mcq-filter-toggle[aria-expanded=true] .mcq-filter-chevron{transform:rotate(180deg)}
+.mcq-filter-toggle .mcq-count{font:inherit;margin:0}.mcq-filter-chevron{display:block;flex:none;width:1.3em;height:1.3em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.mcq-filter-toggle[aria-expanded=true] .mcq-filter-chevron{transform:rotate(180deg)}
 #mcq-filter-panel[hidden]{display:none}
