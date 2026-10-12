@@ -4,9 +4,10 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 
 ## Current state
 - All 108 Hazzard 8e chapters have Read + Study pages; Study opens on the chapter summary. Ch 2–6, 34 and 62 carry the P005-exclusion note. Israeli law block (`law` / `laws`) and required-article cards sit beside the chapters.
-- MCQ bank: `data/mcq/all.json` holds 2,897 questions — 800 official past-paper (Subspecialty track only) and 2,097 practice, of which 58 practice are retired and never served. The app loads a small catalogue plus 256 chunks generated from all.json by `python tools/generate_question_data.py` (also run by `tools/generate_asset_list.py`). Exam simulation is official-only.
+- MCQ bank: `data/mcq/all.json` holds 2,897 questions — 800 official past-paper (Subspecialty track only) and 2,097 practice, of which 60 practice are retired and never served. The app loads a small catalogue plus 256 chunks generated from all.json by `python tools/generate_question_data.py` (also run by `tools/generate_asset_list.py`). Exam simulation is official-only.
 - Explanations render per-option lines in on-screen order, each in a framed block with a green tick (key or accepted option) or red cross; prose without per-option lines gets no marks.
 - Per-question audit history: `C:\Users\eiasa\tmp\audit\question_registry.json` (+ .csv), rebuilt by `build_registry.py` in that folder after each release. Any job on questions starts from it.
+- The question bank is closed to database-wide work after v244 (fin1).
 - Release log: `data/changelog.json`. Release reports: `C:\Users\eiasa\Documents\Codex\<date>\<job>\report.md`. Release notes for v32 to v137 and the build history: `HISTORY.md`.
 - Workflow: the `hazzard-chapter-build` skill. Codex builds from prompts signed by the project's release lane (lane protocol: project doc `claude/LANE_PROTOCOL.md` in the claude.ai project).
 - Next-fix list (small content fixes waiting for a release): `C:\Users\eiasa\tmp\next_fix_list.txt`.
@@ -37,10 +38,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - `tools/verify_study_pages.py` — bolded numbers vs cited page. 52 current misses, all known false positives (image-only or spelled-out numbers; a note sitting between a number and its page cite).
 
 ## Cosmetic list (doesn't block anything)
-- ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds rows p913 lacks).
-- Odd heading casing here and there.
-- In openings written "התשובה היא **X**", the bold answer renders in a visibly different, narrower font from the bold text around it in the Windows Chromium screenshots of the v240 records (P005-excluded). A served v239 rewrite with the same opening (mcq-bcbf4a8f530b0030835c92fc) rendered in Linux Chromium shows no difference (both in system-ui, weight 900); not yet checked on the Android phone.
-- In an explanation's Hebrew "מקור:" line that lists two English sources joined by " · ", the English pieces can reorder (in the P005-excluded mcq-fb203b324e8a2bd294d852d4 at 360 px, "DISEASE" renders after the Harrison part). Served lines with the same shape: mcq-7b70f07311595f68ed7aa9ea, mcq-06a15a9053f355094b929a71.
+- ch75 Table 75-6 ghost title bar baked into the scan; cropping it out would remove the caption. The marked PDF has no separate annotations to remove.
 
 ## Reader behavior
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
