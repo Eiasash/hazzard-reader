@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v235",
+      "date": "2026-10-12",
+      "changes": [
+        "Chapters and questions open faster; five questions tidied."
+      ]
+    },
+    {
       "version": "v234",
       "date": "2026-10-12",
       "changes": [
