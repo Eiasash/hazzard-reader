@@ -42,8 +42,6 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - A Hebrew prefix before a number or English term that is directly followed by an English-only citation, such as "ל-1000 (Hazzard 8e p. 1484)", renders as one left-to-right piece, so the prefix sits next to the citation (72 runs in 66 questions on v166, 17 after a prefix).
 - The three-column explanation table in mcq-041747d2188be93271d452d3 extends about 4 CSS px past its card edge at 360 px (inside the page; all text stays in the card).
 - In an English-only citation paragraph a page range can wrap after its dash: mcq-5f5bd52885b3e44f366df72b shows "2014;62(5):950–" with "960" on the next line at 360 px.
-- Question bank filter toggle: the chevron is a plain letter “v” / “^” rather than an icon, and sits lower than the summary text when collapsed (v238).
-- The grey "Source:" footer under a question's options joins a Hebrew title straight onto the section sign with no separator ("…נפגעי התעמרות§1.2,§8.2–8.5"); the yellow source banner above the stem shows the same title correctly separated (" · ").
 - In an explanation paragraph that is an English quote followed by a Hebrew page cite, the cite renders inside the quote: mcq-592065279118ed6571a88b01 shows '(עמ' 1703) symptoms."' with the cite before the last word (v240).
 - In openings written "התשובה היא **X**", the bold answer renders in a visibly different, narrower font from the bold text around it in the Windows Chromium screenshots of the v240 records (P005-excluded). A served v239 rewrite with the same opening (mcq-bcbf4a8f530b0030835c92fc) rendered in Linux Chromium shows no difference (both in system-ui, weight 900); not yet checked on the Android phone.
 

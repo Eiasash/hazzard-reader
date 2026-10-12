@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v241",
+      "date": "2026-10-12",
+      "changes": [
+        "Explanations no longer repeat the answer above the ticked options; small display fixes."
+      ]
+    },
+    {
       "version": "v240",
       "date": "2026-10-12",
       "changes": [
