@@ -2,7 +2,7 @@
 
 Carol K. Chan, Constantine G. Lyketsos
 
-> **Status (22 Sep 2026).** Cleared by the chat lane and published. The clearance covers the nine tables against printed pages 921, 922 and 924–929 (every drug-table dose read from the page); the p919 opener and both boxes; the Q9 and Q52 wording against the question-paper crops and the examiners' reference rows; and the support quotes on pages 925, 927 and 929. Not covered by the lane: the prose-only pages 920, 923 and 930–933 and the prose on the table pages (checked by the text-layer guards), and the answer keys (read from key 899478 by the build's own check).
+> **Status (22 Sep 2026).** Verified against the page images and published. That check covers the nine tables against printed pages 921, 922 and 924–929 (every drug-table dose read from the page); the p919 opener and both boxes; the Q9 and Q52 wording against the question-paper crops and the examiners' reference rows; and the support quotes on pages 925, 927 and 929. Not covered by that check: the prose-only pages 920, 923 and 930–933 and the prose on the table pages (checked by the text-layer guards), and the answer keys (read from key 899478 by the build's own check).
 
 > **Source and method.** Printed pages 919–933 of the 8th edition, from the publisher's own text layer (PDF page = printed + 34). Prose, both boxes and all nine tables; the chapter has no figures. Checked against an independently typeset copy of the chapter. Page markers are printed page numbers. The two boxes are moved up to follow the opening paragraph.
 
