@@ -4958,7 +4958,9 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 <script src="js/reader-storage.js"></script>
 <script src="js/reader-cloud.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-let mcq=null;
+let mcq=null,practiceCountsPromise;
+const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(async r=>r.ok?{chapters:(await r.json()).chapters||[],loaded:true}:{chapters:[],loaded:false}).catch(()=>({chapters:[],loaded:false}));
+if(['bank','mock'].includes(new URLSearchParams(location.search).get('chapter')))HazzardMCQ.preload().catch(()=>{});
 await HazzardStorage.ready;
 try{await HazzardMCQ.migrateSaved();}catch(error){HazzardStorage.status.error='Saved-question recovery: '+error.message;}
 HazzardSimulation.startClock();
@@ -4987,6 +4989,7 @@ if(!requestedChapter){
   const url=new URL(location.href);url.searchParams.set('chapter',requestedChapter);history.replaceState(null,'',url);
 }
 
+if(/^\d+s?$/.test(requestedChapter))HazzardEvidence.preload().catch(()=>{});
 // --- manifest-driven chapter loader (future .md files; no code change per chapter) ---
 function renderManifestChapterHtml(mdText){
   // marked v12 mis-pairs some **bold** runs (e.g. "cm²**, … **>"), leaving literal ** on screen. Pre-convert simple one-line bold.
@@ -5011,7 +5014,7 @@ function renderManifestChapterHtml(mdText){
   return html;
 }
 let manifestChapters=[],manifestLoaded=false;
-try{const manifestRes=await fetch('manifest.json',{cache:'no-store'});if(manifestRes.ok){manifestChapters=(await manifestRes.json()).chapters||[];manifestLoaded=true;}}catch{}
+{const result=await manifestRequest;manifestChapters=result.chapters;manifestLoaded=result.loaded;}
 let manifestArticle=null,newMockPaper=false;
 const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1';
 const chapterTextPromises=new Map();
@@ -5106,7 +5109,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v236 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v237 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5430,6 +5433,7 @@ function navigateUI(id,pane=null,find=false,replace=false,exam=false){
   renderScreen(next);
 }
 function openPanel(name,trigger){
+  if(name==='practice')fillPracticeCounts();
   if(name==='tools')HazzardStorage.requestPersistence();
   if(name==='contents'&&['bank','mock'].includes(cid))return;
   if(closingHistory){queuedOpen={name,trigger};return}
@@ -6575,13 +6579,13 @@ if(!history.state?.hazzardView){try{history.replaceState({...history.state,hazza
 else if(!newMockPaper)renderScreen(history.state);
 // v41: retain the original study copy and mark identities. MCQs scroll
 // separately and never contribute to the book's saved reading position.
-try{
-  const catalog=await HazzardMCQ.loadIndex();
+function fillPracticeCounts(){return practiceCountsPromise ||= HazzardMCQ.loadIndex().then(catalog=>{
   for(const button of $$('#qbankRows button[data-chapter]')){
     const base=button.dataset.chapter.replace(/s$/,''),counts=catalog[base];
     if(counts){const refresh=()=>{const hidden=HazzardMCQ.standoutCount(base);button.querySelector('small').textContent=counts.past+' past exams · '+(counts.practice-hidden)+' practice · '+hidden+' hidden by Practice settings';};refresh();addEventListener('hazzard-practice-settings-change',refresh);}
   }
-}catch{}
+}).catch(()=>{practiceCountsPromise=null;});}
+if(['bank','mock'].includes(cid))try{await HazzardMCQ.preload();}catch{}
 const readOnlyChapter=/^\d+$/.test(cid)&&manifestChapters.some(c=>String(c.number)===cid&&c.kind==='chapter')&&!manifestChapters.some(c=>String(c.number)===cid+'s');
 if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
   mcq=(cid==='mock'&&new URL(location.href).searchParams.get('simulation')==='1'?HazzardSimulation:HazzardMCQ).mount({chapter:cid==='laws'?'law':['mock','bank'].includes(cid)||readOnlyChapter?cid:cid.slice(0,-1),readOnlyChapter,viewport:$('#readerViewport'),readerScroll,
