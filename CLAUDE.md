@@ -61,6 +61,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 ## Rules
 - Fast mode: build, check once, deploy. No new guards, sweeps or review rounds unless Eias asks; state time cost before proposing extras.
 - Chapters **47, 58, 60, 61, 99** render from `<template>` blocks in `index.html`, not their `.md` — edit both.
+- Chapter text: never add, remove or split a sentence in a served chapter or study page. Mark-unit ids are kept only for registry-matched text and are otherwise a running count, so one sentence more or less shifts every later saved highlight (tx1 HOLD, 12 Oct 2026; ch99 has no registry coverage). A period inside a sentence (e.g. “pp.”) also splits a unit. Reword in place, sentence for sentence, and compare the full unit maps before merging (tx1/tx2 reproduce.py).
 - Book text stays even when wrong (the exam is drawn from it):
   - misprint the book itself contradicts → `*[sic — the book's own Table/Figure X, pNNN, gives …]*`
   - faithful but outdated → one `> Current practice (not the book): … — source, year.` line, only from a fetched source (indent 2 spaces under a `- ` bullet).
