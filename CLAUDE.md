@@ -7,7 +7,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - MCQ bank: `data/mcq/all.json` holds 2,897 questions — 800 official past-paper (Subspecialty track only) and 2,097 practice, of which 60 practice are retired and never served. The app loads a small catalogue plus 256 chunks generated from all.json by `python tools/generate_question_data.py` (also run by `tools/generate_asset_list.py`). Exam simulation is official-only.
 - Explanations render per-option lines in on-screen order, each in a framed block with a green tick (key or accepted option) or red cross; prose without per-option lines gets no marks.
 - Per-question audit history: `C:\Users\eiasa\tmp\audit\question_registry.json` (+ .csv), rebuilt by `build_registry.py` in that folder after each release. Any job on questions starts from it.
-- The question bank is closed to database-wide work after v244 (fin1).
+- The question bank is closed to database-wide work after v244 (fin1): no audits or sweeps across it; a question changes only when Eias reports an error, and it is fixed from the source.
 - Release log: `data/changelog.json`. Release reports: `C:\Users\eiasa\Documents\Codex\<date>\<job>\report.md`. Release notes for v32 to v137 and the build history: `HISTORY.md`.
 - Workflow: the `hazzard-chapter-build` skill. Codex builds from prompts signed by the project's release lane (lane protocol: project doc `claude/LANE_PROTOCOL.md` in the claude.ai project).
 - Next-fix list (small content fixes waiting for a release): `C:\Users\eiasa\tmp\next_fix_list.txt`.
@@ -39,6 +39,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 
 ## Cosmetic list (doesn't block anything)
 - ch75 Table 75-6 ghost title bar baked into the scan; cropping it out would remove the caption. The marked PDF has no separate annotations to remove.
+- Law-block questions show "Reader chapter law" under the stem; show "Israeli law" instead (renderer-only label).
 
 ## Reader behavior
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
