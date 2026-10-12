@@ -16,7 +16,7 @@ def generate():
         if 'sourceChecked' in q:
             row['sourceChecked'] = {k: v for k, v in q['sourceChecked'].items() if k == 'changedAt'}
         catalog.append(row)
-    outputs = {'data/mcq/catalog.json': catalog, 'data/mcq/content-changes.json': [{'id': q['id'], 'label': 'Practice \u00b7 '+q['q'][:90], 'changedAt': q['sourceChecked']['changedAt'], 'release': q['sourceChecked']['release'], 'content_changed': True} for q in all_questions if q.get('content_changed')]} 
+    outputs = {'data/mcq/catalog.json': catalog, 'data/mcq/content-changes.json': [{'id': q['id'], 'label': 'Practice \u00b7 '+q['q'][:90], 'changedAt': q['sourceChecked']['changedAt'], 'release': q['sourceChecked']['release'], 'content_changed': True} for q in all_questions if q.get('content_changed')]}
     outputs.update({f'data/mcq/chunks/{key}.json': value for key, value in sorted(chunks.items())})
     for name, value in outputs.items():
         path = ROOT / name
@@ -26,4 +26,4 @@ def generate():
 
 if __name__ == '__main__':
     outputs = generate()
-    print(f'Generated catalogue and {len(outputs)-1} question chunks')
+    print(f'Generated catalogue and {sum("/chunks/" in name for name in outputs)} question chunks')
