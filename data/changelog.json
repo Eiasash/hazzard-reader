@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v239",
+      "date": "2026-10-12",
+      "changes": [
+        "46 more explanations now go option by option, with a tick or a cross on each option’s line."
+      ]
+    },
+    {
       "version": "v238",
       "date": "2026-10-12",
       "changes": [
