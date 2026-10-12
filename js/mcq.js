@@ -404,6 +404,10 @@ window.HazzardMCQ = (() => {
   function loadIndex() {
     return catalogPromise ||= Promise.all([json('data/mcq/index.json'),HazzardEvidence.load()]).then(([index,evidence])=>Object.fromEntries([...new Set([...Object.keys(index),...Object.keys(evidence.study)])].map(ch=>[ch,{...index[ch],...(evidence.study[ch]?{past:evidence.study[ch].past,practice:evidence.study[ch].practice}: {})}]))).catch(error => { catalogPromise = null; throw error; });
   }
+  let startupMetadata;
+  function preload() {
+    return startupMetadata ||= Promise.all([loadIndex(),json('data/mcq/hazzard8e-toc.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json')]).catch(error=>{startupMetadata=null;throw error;});
+  }
   function sourceLabel(q) {
     if (q.sourceChecked) return 'Source-checked practice';
     if (q.source === 'drill') return 'Hazzard practice · Drill';
@@ -980,11 +984,13 @@ window.HazzardMCQ = (() => {
     async function load(){
       if(busy)return;busy=true;host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="status">Loading questions…</p></div>';
       try{
+        let toc;
+        [,toc,topics,collections]=await preload();
         evidence=await HazzardEvidence.load();
-        bookChapters=(await json('data/mcq/hazzard8e-toc.json')).chapters;
+        bookChapters=toc.chapters;
         chapterTitles=Object.fromEntries(bookChapters.map(c=>[c.chapter,c.title]));
         const studyOnly=!!evidence.study[chapter]?.studyOnly;
-        [items,topics,collections]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):(bankMode||mockMode?HazzardQuestionData.catalog():json('data/mcq/'+chapter+'.json')),json('data/mcq/topics.json'),json('data/mcq/collections.json'),loadAliases()]);
+        [items]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):(bankMode||mockMode?HazzardQuestionData.catalog():json('data/mcq/'+chapter+'.json')),loadAliases()]);
         if(!bankMode&&!mockMode){const all=await HazzardQuestionData.catalog(),canonical=new Map(all.map(q=>[q.id,q]));items=/^\d+$/.test(chapter)?all.filter(q=>String(q.chapter)===chapter):items.map(q=>canonical.get(q.id)||q);}
         if(evidence.study[chapter]||readOnlyChapter){
           const ids=new Set(HazzardEvidence.studyIds(evidence,chapter)),all=await HazzardQuestionData.catalog();
@@ -1163,5 +1169,5 @@ window.HazzardMCQ = (() => {
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SAVED_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,explanationHTML,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,mount};
+  return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,explanationHTML,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,preload,mount};
 })();

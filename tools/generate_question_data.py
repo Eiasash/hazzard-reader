@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-FIELDS = set('id sourceIndex kind q c accepted t topic topics law chapter source examNumber retired mockEligible'.split())
+FIELDS = set('id sourceIndex kind q c accepted t topic topics law chapter source examNumber retired mockEligible content_changed'.split())
 
 def generate():
     all_questions = json.loads((ROOT / 'data/mcq/all.json').read_text(encoding='utf-8'))
