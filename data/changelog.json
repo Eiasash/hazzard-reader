@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v240",
+      "date": "2026-10-12",
+      "changes": [
+        "Four practice questions fixed from the book."
+      ]
+    },
+    {
       "version": "v239",
       "date": "2026-10-12",
       "changes": [
