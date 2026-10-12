@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v250",
+      "date": "2026-10-12",
+      "changes": [
+        "Statistics: shorter page, one-tap weak spots and labelled Next up."
+      ]
+    },
+    {
       "version": "v249",
       "date": "2026-10-12",
       "changes": [
