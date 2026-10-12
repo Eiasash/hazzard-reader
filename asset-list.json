@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "f8c957d4e1acb752292afa417fbc4e585a8440fa155b4aa7e3ee71e819807bff",
-      "bytes": 55084
+      "sha256": "2b1e2a93a70bdcc83e4f3efd70d0ed27d0d9ed9958055df8f2178d5589a5defc",
+      "bytes": 55263
     },
     {
       "url": "./data/drug-index.json",
