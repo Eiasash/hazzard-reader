@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v243",
+      "date": "2026-10-12",
+      "changes": [
+        "About 480 practice questions now sit under the chapter their book pages come from."
+      ]
+    },
+    {
       "version": "v242",
       "date": "2026-10-12",
       "changes": [
