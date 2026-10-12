@@ -351,13 +351,14 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #jumpEnds{right:max(0px,env(safe-area-inset-right))}
 #jumpEnds button span{width:40px;height:40px;border:0;background:color-mix(in srgb,var(--surface) 45%,transparent);backdrop-filter:blur(3px);font-size:calc(19px * var(--fs,1));opacity:.55}
 #jumpEnds button{padding:2px}
+:root:not([data-theme="dark"]) #jumpEnds button span{opacity:1}
 .mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 53px)}
 #reader{padding-right:max(44px,var(--gutter))}
 [data-pane="contents"] .rows button{padding:10px 0;min-height:44px}
 .dialog-head{position:relative}
 #panelBack{margin:0 0 8px;text-align:left;min-height:44px}
 .reading-copy summary,.nb-group summary,.missed-question summary{min-height:44px;cursor:pointer}
-#imageZoom .zoom-bar button{min-width:44px}
+#imageZoom .zoom-bar button{min-width:44px;white-space:nowrap;flex:none}
 /* v38: compact controls retain 44px touch targets independently of reading size. */
 :root{--tap:44px;--label:calc(13px * var(--fs,1));--small:calc(12px * var(--fs,1));--title:calc(24px * var(--fs,1));--heading:calc(19px * var(--fs,1));--subhead:calc(16px * var(--fs,1));--s4:12px;--s6:18px;--s8:24px}
 #appTabs{grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;padding-inline:4px}
@@ -5121,7 +5122,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v251 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v252 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5416,7 +5417,8 @@ function displayPane(name){
   if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();
   if(!panel.open)panel.show();pane.scrollTop=0;
 }
-function closeStatistics(){$('#statsViewport')?.remove();}
+let statisticsTitle=null;
+function closeStatistics(){if(statisticsTitle){const title=$('#chapterHeaderTitle');title.textContent=statisticsTitle.text;title.title=statisticsTitle.title;statisticsTitle=null}$('#statsViewport')?.remove();}
 function renderScreen(state){
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
@@ -5758,6 +5760,7 @@ function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
   };
   refresh();li.append(go,action);return li;
 }
+function snippetDirection(text){return (String(text).match(/[\u0590-\u05ff]/g)||[]).length>(String(text).match(/[A-Za-z]/g)||[]).length?'rtl':'ltr'}
 function renderNotebook(){
   if(!pendingHighlightChanges.size)resyncHighlights();
   const list=$('#notebookMarks');list.replaceChildren();
@@ -5775,7 +5778,7 @@ function renderNotebook(){
     const heading=document.createElement('li');heading.className='nb-heading';heading.textContent=chapterLabel(chapter);places.append(heading);
     for(const bm of group){
     const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
-    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');go.querySelector('small').dir='auto';
+    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');go.querySelector('small').dir=snippetDirection(bm.snippet||'');
     go.onclick=()=>openChapter(bm.chapter,{hash:'bm-'+bm.at});
     del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{const list=readJSON(BOOKMARK_KEY,[]),signature=HazzardStorage.removals.bookmarkSignature(bm),present=list.some(x=>HazzardStorage.removals.bookmarkSignature(x)===signature);if(writeJSON(BOOKMARK_KEY,present?list.filter(x=>HazzardStorage.removals.bookmarkSignature(x)!==signature):[{...bm,at:Date.now()},...list])){showSaved(present?'✓ Removed':'✓ Saved');del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark()}else notebookStatus('This bookmark change could not be saved. Try again.')};
     li.append(go,del);places.append(li);
@@ -5840,7 +5843,7 @@ async function searchChapters(){
       const at=wordStart(text,q);if(at<0)continue;
       const start=Math.max(0,at-65),end=Math.min(text.length,at+q.length+100),excerpt=text.slice(start,end);
       const li=document.createElement('li'),b=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');
-      label.textContent=searchLabel(entry);snippet.dir='auto';
+      label.textContent=searchLabel(entry);snippet.dir=snippetDirection(excerpt);
       snippet.append((start?'…':'')+text.slice(start,at));const mark=document.createElement('mark');mark.textContent=text.slice(at,at+q.length);snippet.append(mark,text.slice(at+q.length,end)+(end<text.length?'…':''));
       b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt,offset:at-start}))});li.append(b);results.append(li);found++;
       if(++chapterHits===3)break;
@@ -6087,7 +6090,7 @@ function refreshResume(){
   const last=readJSON(PLACE_KEY,{}).last;
   $('.resume-card h2').textContent=chapterLabel(last?.chapter||cid);
   $('.resume-card .meta').textContent=last?.snippet?'“'+last.snippet.slice(0,80)+'…”':last?.ratio>0.005?'About '+Math.round(last.ratio*100)+'% through this chapter.':'At the beginning of the chapter.';
-  $('.resume-card .meta').dir='auto';
+  $('.resume-card .meta').dir=snippetDirection(last?.snippet||'');
   const reading=readJSON(READING_KEY,{}).chapters||{},drills=readJSON(DRILL_KEY,{}).chapters||{};
   const readChapters=orderedChapters.filter(c=>/^\d+$/.test(c.number)&&!c.studyOnly);
   const read=readChapters.filter(c=>reading[c.number]?.read).length;
@@ -6263,7 +6266,7 @@ addEventListener('storage',event=>{if(event.key===(cid==='mock'?MOCK_KEY:DRILL_K
 // Navigation is added after mark identities are allocated; saved highlights stay attached.
 function chapterNavigation(){
   const base=cid==='laws'?'law':cid.replace(/s$/,''),chapter=orderedChapters.find(c=>String(c.number)===base);
-  const title=$('#chapterHeaderTitle');title.textContent=chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;
+  const title=$('#chapterHeaderTitle');title.textContent=copy.dataset.notLoaded?'Chapter not loaded':chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;
   if(!chapter){chapterHeader.querySelector('.chapter-switch').hidden=true;pencil.hidden=true;return}
   const study=base==='law'?'laws':base+'s',isStudy=cid!==base;
   for(const [id,label] of [[base,'Chapter'],[study,'Study']]){
@@ -6298,7 +6301,7 @@ function tStep(){
   if(now-tState.end>timerCycleMs){tState.end+=Math.floor((now-tState.end)/timerCycleMs)*timerCycleMs;changed=true}
   while(tState.end<=now){done=phases[tState.phase][0];tState.phase=(tState.phase+1)%3;tState.end+=phases[tState.phase][1]*60000;changed=true}
   tState.left=Math.max(0,(tState.end-now)/1000);
-  if(changed){saveTimer();if(done){try{navigator.vibrate?.([300,150,300])}catch{}flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}}
+  if(changed){saveTimer();if(done){try{if(navigator.userActivation?.hasBeenActive)navigator.vibrate?.([300,150,300])}catch{}flash(done+' done — now '+phases[tState.phase][0].toLowerCase()+' for '+phases[tState.phase][1]+' minutes.',8000)}}
   tRender();
 }
 let timerBeforeReset=null;
@@ -6615,7 +6618,7 @@ if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
     addEventListener('load',()=>{if(!userScrolled&&!mcq.active)readerScroll.scrollTop=y;},{once:true});
   }
 }
-document.getElementById('openStatistics').onclick=()=>{if(mcq)mcq.active=false;hidePanel();currentView='reader';for(const id of ['reader','desk','library'])$('#'+id).hidden=id!=='reader';$('#readerViewport').hidden=false;history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');HazzardStats.open($('#readerViewport'));};
+document.getElementById('openStatistics').onclick=()=>{const title=$('#chapterHeaderTitle');statisticsTitle||={text:title.textContent,title:title.title};title.textContent=title.title='Statistics';chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(mcq)mcq.active=false;hidePanel();currentView='reader';for(const id of ['reader','desk','library'])$('#'+id).hidden=id!=='reader';$('#readerViewport').hidden=false;history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');HazzardStats.open($('#readerViewport'));};
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   mcq?.remember();

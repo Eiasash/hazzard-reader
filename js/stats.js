@@ -52,7 +52,7 @@ window.HazzardStats=(()=>{
     const ranked=rows.filter(r=>r.answered>=5).sort((a,b)=>b.risk-a.risk||a.name.localeCompare(b.name)),untested=rows.filter(r=>r.answered<5&&(r.total||r.collection)).sort((a,b)=>b.frequency-a.frequency||a.name.localeCompare(b.name));
     const link=(r,label)=>'<a href="?chapter=bank&amp;statsFilter='+r.id+'">'+label+'</a>';
     const weakRow=r=>'<article class="stats-topic stats-compact" data-stats-topic="'+r.id+'"><a class="stats-weak-link" href="?chapter=bank&amp;statsFilter='+r.id+'"><h3 dir="auto">'+esc(r.name)+'</h3>'+pill(r,true)+'</a></article>';
-    const barely=r=>'<div class="stats-barely-line" data-stats-topic="'+r.id+'"><a class="stats-topic-name" href="?chapter=bank&amp;statsFilter='+r.id+'" dir="auto">'+esc(r.name)+'</a><span> \u00b7 '+r.answered+'/'+r.total+' answered</span></div>';
+    const barely=r=>'<div class="stats-barely-line" data-stats-topic="'+r.id+'"><a class="stats-topic-name" href="?chapter=bank&amp;statsFilter='+r.id+'" dir="auto">'+esc(r.name)+'</a><span>'+r.answered+'/'+r.total+' answered</span></div>';
     const compact=r=>'<article class="stats-topic-line" data-stats-topic="'+r.id+'"><a href="?chapter=bank&amp;statsFilter='+r.id+'" class="stats-topic-name" title="'+esc(r.name)+'" dir="auto">'+esc(r.name)+'</a><span class="stats-topic-count">'+r.answered+'/'+r.total+'</span>'+pill(r)+(!r.collection?'<button class="stats-save-topic" data-revision="topics" data-revision-ids="'+r.id+'" aria-label="Save topic" title="Save topic">\u2606</button>':'')+'</article>';
     const all=HazzardTopicCategories.map(category=>{
       const members=rows.filter(r=>category.topics.includes(r.id));

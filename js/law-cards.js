@@ -118,6 +118,7 @@ window.HazzardLawCards = (() => {
           const source = document.createElement('p'); source.className = 'law-card-source'; source.textContent = entry.provenance;
           row.append(heading, source); fragment.append(row);
         }
+        for (const line of fragment.querySelectorAll('.law-card-source')) line.dir = 'auto';
         body.replaceChildren(fragment);
         const selected = new URL(location.href).searchParams.get('lawCard');
         const target = selected && [...body.children].find(e => e.id === 'law-card-' + selected);

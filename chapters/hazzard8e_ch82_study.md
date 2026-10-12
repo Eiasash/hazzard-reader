@@ -34,7 +34,6 @@ Fast build from the book; not lane-reviewed.
 
 ![Figure 82-1: serum creatinine versus calculated clearance at different ages](hazzard8e_ch82_fig82_1_p1268.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 This figure is on an official-question-cited page; the question references identify pages, not this figure explicitly.
 
@@ -57,7 +56,6 @@ This figure is on an official-question-cited page; the question references ident
 
 ![Table 82-1: National Kidney Foundation classification of chronic kidney disease](hazzard8e_ch82_table82_1_p1269.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 This table is on an official-question-cited page; the question references identify pages, not this table explicitly.
 
@@ -68,7 +66,6 @@ This table is on an official-question-cited page; the question references identi
 
 ![Table 82-2: complications of chronic kidney disease](hazzard8e_ch82_table82_2_p1269.png)
 
-*Highlighting is the owner's annotation, not the book's.*
 
 This table is on an official-question-cited page; the question references identify pages, not this table explicitly.
 
