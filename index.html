@@ -164,7 +164,6 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 .reading-copy img,.reading-copy figure svg{cursor:zoom-in}
 .jump-ends{position:fixed;z-index:6;inset-inline-start:max(var(--s2),env(safe-area-inset-left));inset-block-end:calc(var(--vv-bottom-gap,0px) + max(var(--s3),env(safe-area-inset-bottom)));display:flex;flex-direction:column;gap:var(--s2)}
 .jump-ends button{inline-size:calc(36px * var(--fs,1));block-size:calc(36px * var(--fs,1));min-block-size:calc(36px * var(--fs,1));padding:calc(8px * var(--fs,1));border-radius:50%;display:grid;place-items:center;opacity:.8;background:var(--surface)}
-:root:not([data-theme="dark"]) .jump-ends button{opacity:1;color:var(--ink)}
 .jump-ends svg{inline-size:100%;block-size:100%}
 #imageZoom{position:fixed;inset:0;top:0;left:0;inline-size:100vw;block-size:100dvh;max-inline-size:none;max-block-size:none;margin:0;padding:0;border:0;border-radius:0;background:#111;color:#eee;overflow:hidden}
 #imageZoom[open]{display:block}
@@ -352,6 +351,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #jumpEnds{right:max(0px,env(safe-area-inset-right))}
 #jumpEnds button span{width:40px;height:40px;border:0;background:color-mix(in srgb,var(--surface) 45%,transparent);backdrop-filter:blur(3px);font-size:calc(19px * var(--fs,1));opacity:.55}
 #jumpEnds button{padding:2px}
+:root:not([data-theme="dark"]) #jumpEnds button span{opacity:1}
 .mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 53px)}
 #reader{padding-right:max(44px,var(--gutter))}
 [data-pane="contents"] .rows button{padding:10px 0;min-height:44px}
