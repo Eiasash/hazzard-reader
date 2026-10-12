@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v246",
+      "date": "2026-10-12",
+      "changes": [
+        "Israeli-law practice questions are labelled as Israeli law, not US framing."
+      ]
+    },
+    {
       "version": "v245",
       "date": "2026-10-12",
       "changes": [

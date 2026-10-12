@@ -438,6 +438,7 @@ window.HazzardMCQ = (() => {
   }
   function sourceLabel(q) {
     if (q.sourceChecked) return 'Source-checked practice';
+    if (q.kind === 'practice' && q.t === 'Israeli law / MoH') return 'Israeli law practice';
     if (q.source === 'drill') return 'Hazzard practice · Drill';
     if (q.kind === 'practice') return PRACTICE_LABEL;
     const match = /^(\d{4})(?:-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec))?(?:-(Subspec|Basic))?$/.exec(q.t);
@@ -991,7 +992,7 @@ window.HazzardMCQ = (() => {
       }else if(!mockMode&&!bankMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice',PRACTICE_LABEL]].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>';
       if(!bankMode&&!flagsView&&!savedView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
       if(mockMode&&paper){const byId=new Map(items.map(q=>[q.id,q])),unavailable=paper.ids.filter(id=>{const q=byId.get(currentId(id));return !q||q.retired;}).length;if(unavailable)html+='<p class="meta mcq-unavailable">'+unavailable+' saved question'+(unavailable===1?' is':'s are')+' no longer available</p>';}
-      if(filter==='law'||chapter==='law')html+='<p class="meta mcq-law-note">'+(chapter==='law'?'Israeli law: past-exam items are the target; Hazzard items use US law':LAW_NOTE)+'</p>';
+      if(filter==='law'||chapter==='law')html+='<p class="meta mcq-law-note">'+(chapter==='law'?'Israeli law: past-exam items and Israeli-law practice are the target; Hazzard practice items use US law.':LAW_NOTE)+'</p>';
       if(collections.topicFallbacks[chapter])html+='<p class="meta mcq-topic-fallback">Practice questions by topic: '+escape(collections.topicFallbacks[chapter].name)+'. Official past questions link to their source pages when available.</p>';
       if(mockMode)html+='<p class="meta">'+Object.values(paper.answers).filter(a=>a.checked).length+' answered (including saved unavailable questions)</p><button class="quiet" data-mcq="builder">Mock builder</button>';
       if(storageError)html+='<p role="alert">'+escape(storageError)+'</p><button data-mcq="save">Save again</button>';
