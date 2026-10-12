@@ -215,3 +215,13 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 
 /* Explanation emphasis uses its paragraph typeface, including nested answer bold. */
 .mcq-explanation strong{font-family:inherit;font-size:inherit;font-style:inherit;line-height:inherit;font-weight:700}
+
+/* Statistics navigation and compact disclosures. */
+.stats-page #stats-next{margin-top:8px;padding-top:8px}
+.stats-next{display:grid;gap:2px}.stats-next a{display:flex;align-items:center;min-height:44px;font-size:13px}
+.stats-page #stats-overview{margin-top:12px}.stats-page .stats-legend{font-size:11px;line-height:1.5;margin:4px 0 10px}
+.stats-page #stats-overview a{display:inline-flex;align-items:center;min-height:44px}
+.stats-page #stats-weak .stats-row-heading{flex-wrap:wrap;gap:2px 8px}
+.stats-barely-line{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;border-bottom:1px solid var(--rule)}
+.stats-barely-line span{min-width:0}.stats-barely-line a{display:flex;align-items:center;min-height:44px;flex-shrink:0}
+a.stats-sitting{color:inherit;text-decoration:none;min-height:44px}a.stats-sitting h3{text-decoration:underline;color:var(--accent)}
