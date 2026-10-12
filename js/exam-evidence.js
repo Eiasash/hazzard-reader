@@ -2,10 +2,9 @@
 window.HazzardEvidence = (() => {
   let promise;
   function load() {
-    return promise ||= Promise.all([fetch('data/mcq/exam-references.json'),fetch('data/mcq/all.json')]).then(async ([r,bank]) => {
+    return promise ||= Promise.all([fetch('data/mcq/exam-references.json'),HazzardQuestionData.catalog()]).then(async ([r,bank]) => {
       if (!r.ok) throw Error('Exam references unavailable. Reconnect and reload.');
-      if(!bank.ok)throw Error('Question data unavailable');
-      const data=await r.json(),all=await bank.json();data.currentChapters={};
+      const data=await r.json(),all=bank;data.currentChapters={};
       for(const q of all)if(!q.retired&&q.chapter!=null)(data.currentChapters[String(q.chapter)]||=[]).push(q.id);
       return data;
     }).catch(e => { promise = null; throw e; });

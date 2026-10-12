@@ -6,7 +6,7 @@ window.HazzardStats=(()=>{
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let active=false,filesPromise;
   async function json(path){const r=await fetch(path);if(!r.ok)throw Error('Question data unavailable');return r.json();}
-  function files(){return filesPromise ||= Promise.all([json('data/mcq/all.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json'),HazzardChanged.load(),M().loadAliases()]).then(([all,topics,collections,changes])=>({all,topics,collections,changes})).catch(e=>{filesPromise=null;throw e;});}
+  function files(){return filesPromise ||= Promise.all([HazzardQuestionData.catalog(),json('data/mcq/topics.json'),json('data/mcq/collections.json'),HazzardChanged.load(),M().loadAliases()]).then(([all,topics,collections,changes])=>({all,topics,collections,changes})).catch(e=>{filesPromise=null;throw e;});}
   function raw(key,valid,empty){try{return {ok:true,value:M().rawValue(key,valid,empty)};}catch{return {ok:false,value:null};}}
   function snapshot(){
     const m=M(),answers=raw(m.KEY,m.validStore,()=>({version:1,answers:{}})),review=raw(HazzardReview.KEY,HazzardReview.valid,()=>({version:1,items:{},seed:null,settings:{size:30,at:0},batch:null,batchAt:0})),bad=raw(m.BAD_KEY,m.validBad,m.emptyBad),log=raw(m.LOG_KEY,m.validLog,m.emptyLog),settings=raw(m.SETTINGS_KEY,m.validSettings,()=>({version:1,includeStandout:false,shufflePastOptions:true,generatedSelected:true,drillSelected:true,at:0})),simulation=raw(HazzardSimulation.KEY,HazzardSimulation.valid,()=>({version:1,at:0,session:null,history:{}})),paper=raw(m.PAPER_KEY,v=>v===null||m.validPaper(v),()=>null);

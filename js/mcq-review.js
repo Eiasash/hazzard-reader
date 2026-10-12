@@ -36,7 +36,7 @@ window.HazzardReview = (() => {
   let seedPromise;
   function seed(){return seedPromise ||= (async()=>{
     await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;if(read().seed)return read().seed;
-    const response=await fetch('data/mcq/all.json');if(!response.ok)throw Error('Review questions unavailable');const all=await response.json();
+    const all=await HazzardQuestionData.catalog();
     const saved=HazzardMCQ.readStore(false);if(!HazzardMCQ.validStore(saved))throw Error('Unreadable MCQ answers');
     const answers={};for(const[id,a]of Object.entries(saved.answers)){const target=HazzardMCQ.currentId(id);if(!answers[target]||a.at>=answers[target].at)answers[target]=a;}
     const v=read();if(v.seed)return v.seed;let count=0;const now=Date.now(),today=day(now);

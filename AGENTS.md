@@ -1,1 +1,2 @@
 Windows PowerShell turns Hebrew into '?' when Hebrew text passes through a command line, a here-string or a pipe (for example @' ... '@ | python -). Never type Hebrew in a shell command. Write Hebrew only from a UTF-8 file read by Python, or as \uXXXX escapes in a Python source file. After any write that contains Hebrew, read the file back with Python and confirm it contains Hebrew letters and no run of three or more '?'.
+Content releases edit data/mcq/all.json and then run python tools/generate_question_data.py (also run by tools/generate_asset_list.py).
