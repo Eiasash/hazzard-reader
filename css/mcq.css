@@ -146,9 +146,9 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 /* Plain, scrollable phone statistics; no chart runtime. */
 #statsViewport{position:absolute;inset:0;z-index:8;overflow:auto;background:var(--page);font-family:var(--ui);overscroll-behavior:contain;padding-bottom:32px}
 .stats-page{max-width:760px;margin:auto;overflow-wrap:anywhere}
-.stats-section{scroll-margin-top:calc(48px + 8px);margin:24px 0;padding-top:12px;border-top:1px solid var(--line,#ccc)}
-.stats-section article{padding:12px 0;border-bottom:1px solid var(--line,#ddd)}
-.stats-section h3{margin:4px 0;font-size:1em}.stats-section p{margin:8px 0}
+.stats-section{scroll-margin-top:calc(48px + 8px);margin:var(--s3) 0;padding-top:var(--s2);border-top:1px solid var(--line,#ccc)}
+.stats-section article{padding:var(--s1) 0;border-bottom:1px solid var(--line,#ddd)}
+.stats-section h3{margin:0;font-size:1em}.stats-section h2{margin:var(--s1) 0 var(--s2)}.stats-section p{margin:var(--s1) 0}
 .stats-actions,.mcq-confidence{display:flex;flex-wrap:wrap;gap:6px;max-width:100%}
 .stats-actions a,.stats-actions button{min-height:44px;display:inline-flex;align-items:center;padding:6px 10px;font:inherit}
 .stats-total{font-size:1.2em;font-weight:700}
@@ -177,14 +177,13 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .stats-ring,.stats-arc{fill:none;stroke-width:10}.stats-ring{stroke:var(--rule)}.stats-arc{stroke:var(--accent)}
 .stats-donut text{fill:var(--ink);font:700 21px var(--ui)}.stats-donut figcaption{font-size:12px;line-height:1.6}.stats-donut figcaption strong,.stats-donut figcaption span{display:block}
 .stats-donut figcaption span{color:var(--muted);font-size:11px;white-space:nowrap}
-.stats-row-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}.stats-row-heading h3{min-width:0}
 .stats-pill{display:inline-block;flex-shrink:0;border-radius:12px;padding:3px 8px;font-size:11px;font-weight:650;white-space:nowrap;color:var(--muted);background:var(--soft)}
 .stats-red{color:var(--stats-red);background:var(--stats-red-bg)}.stats-amber{color:var(--stats-amber);background:var(--stats-amber-bg)}.stats-green{color:var(--stats-green);background:var(--stats-green-bg)}
-.stats-section .stats-compact{padding:8px 0}.stats-compact .stats-actions{gap:4px}.stats-compact .stats-actions a{padding:2px 0;margin-right:12px}
+.stats-section .stats-compact{padding:0}.stats-weak-link{display:flex;align-items:center;justify-content:space-between;gap:var(--s2);min-height:var(--tap);text-decoration:none}.stats-weak-link h3{min-width:0;text-decoration:underline;color:var(--accent)}
 .stats-section{border-color:var(--rule)}.stats-section article{border-color:var(--rule)}
-.stats-sitting{display:flex;align-items:center;gap:12px}.stats-donut-small{flex:0 0 52px}.stats-donut-small svg{width:52px}.stats-donut-small text{font-size:22px}
+.stats-sitting{display:flex;align-items:center;gap:var(--s2);min-height:44px}.stats-sitting .stats-donut-small{flex-basis:calc(40px * var(--fs,1))}.stats-sitting .stats-donut-small svg{width:calc(40px * var(--fs,1))}.stats-donut-small{flex:0 0 52px}.stats-donut-small svg{width:52px}.stats-donut-small text{font-size:22px}
 .stats-sitting>div{display:flex;flex:1;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:3px 8px}.stats-sitting h3{flex-basis:100%}.stats-sitting p{margin:0}
-.stats-disclosure>summary{min-height:44px;cursor:pointer;font-weight:650;align-content:center}.stats-disclosure{margin:12px 0;padding-top:4px}
+.stats-disclosure>summary{min-height:44px;cursor:pointer;font-weight:650;align-content:center}.stats-disclosure{margin:var(--s2) 0;padding-top:var(--s1)}
 #changedQuestions>.changed-run{display:flex;width:100%;box-sizing:border-box;padding:12px 0;text-decoration:none;align-items:flex-start}
 #changedQuestions>.changed-run small{color:var(--muted)}#changedQuestions .changed-questions>summary{font-size:12px;padding:6px 0;color:var(--muted)}
 
@@ -194,7 +193,7 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .stats-category>summary>span:first-child{flex:1;min-width:0}.stats-category .stats-donut-small{flex-basis:32px}.stats-category .stats-donut-small svg{width:32px}
 .stats-category{border-bottom:1px solid var(--rule)}.stats-topic-count{font-size:11px;white-space:nowrap}
 .stats-section .stats-topic-line{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto 44px;align-items:center;gap:4px;padding:2px 0;min-height:44px;font-size:11px}
-.stats-topic-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.stats-topic-line .stats-pill{font-size:10px;padding:3px 5px}.stats-topic-line>a{display:flex;align-items:center;min-height:44px}.stats-save-topic{min-height:44px;padding:0;font-size:22px;background:transparent;border:0;color:var(--accent)}
+.stats-topic-name{min-width:0;overflow-wrap:anywhere;white-space:normal}.stats-topic-line .stats-pill{font-size:10px;padding:3px 5px}.stats-topic-line>a{display:flex;align-items:center;min-height:44px}.stats-save-topic{min-height:44px;padding:0;font-size:22px;background:transparent;border:0;color:var(--accent)}
 .stats-rare>summary,[data-topic-category]>summary{cursor:pointer;min-height:44px;align-content:center;font-size:12px;font-weight:600}
 .stats-week-line{display:flex;align-items:center;gap:6px;font-size:11px}.stats-week-line h3{font-size:10px;flex:1}.stats-week-line p{flex:1;font-size:10px}.stats-week-line .stats-pill{font-size:10px}
 .mcq-multi-options>details{border-bottom:1px solid var(--rule)}.mcq-multi-options>details>label{padding-inline-start:12px}
@@ -221,7 +220,6 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .stats-next{display:grid;gap:2px}.stats-next a{display:flex;align-items:center;min-height:44px;font-size:13px}
 .stats-page #stats-overview{margin-top:12px}.stats-page .stats-legend{font-size:11px;line-height:1.5;margin:4px 0 10px}
 .stats-page #stats-overview a{display:inline-flex;align-items:center;min-height:44px}
-.stats-page #stats-weak .stats-row-heading{flex-wrap:wrap;gap:2px 8px}
 .stats-barely-line{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;border-bottom:1px solid var(--rule)}
 .stats-barely-line span{min-width:0}.stats-barely-line a{display:flex;align-items:center;min-height:44px;flex-shrink:0}
 a.stats-sitting{color:inherit;text-decoration:none;min-height:44px}a.stats-sitting h3{text-decoration:underline;color:var(--accent)}
