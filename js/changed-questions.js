@@ -39,7 +39,12 @@ window.HazzardChanged = (() => {
     try {
       const entries = await load();
       await HazzardMCQ.loadAliases();
-      const questions = pending(entries, answers());
+      const pendingEntries = pending(entries, answers());
+      const bank = new Map(pendingEntries.length ? (await HazzardQuestionData.catalog()).map(q=>[q.id,q]) : []);
+      const questions = pendingEntries.filter(entry=>{
+        const q=bank.get(entry.id);
+        return q?.content_changed && !q.retired && !HazzardMCQ.excluded(q.id) && !HazzardMCQ.standoutHidden(q.id);
+      });
       const label = 'Changed questions: ' + questions.length + ' to redo';
       const tab = document.querySelector('#appTabs [data-tab="practice"]');
       let badge = tab?.querySelector('.changed-count');

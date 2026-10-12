@@ -1,10 +1,15 @@
 /* Citation metadata is separate from imported questions and answer stores. */
 window.HazzardEvidence = (() => {
-  let promise;
-  function load() {
-    return promise ||= Promise.all([fetch('data/mcq/exam-references.json'),HazzardQuestionData.catalog()]).then(async ([r,bank]) => {
+  let promise, referencePromise;
+  function references() {
+    return referencePromise ||= fetch('data/mcq/exam-references.json').then(r=>{
       if (!r.ok) throw Error('Exam references unavailable. Reconnect and reload.');
-      const data=await r.json(),all=bank;data.currentChapters={};
+      return r.json();
+    }).catch(e=>{referencePromise=null;throw e;});
+  }
+  function load() {
+    return promise ||= Promise.all([references(),HazzardQuestionData.catalog()]).then(([data,bank]) => {
+      const all=bank;data.currentChapters={};
       for(const q of all)if(!q.retired&&q.chapter!=null)(data.currentChapters[String(q.chapter)]||=[]).push(q.id);
       return data;
     }).catch(e => { promise = null; throw e; });
@@ -56,7 +61,7 @@ window.HazzardEvidence = (() => {
     location.assign(url);
   }
   async function decorate(copy, chapter) {
-    const data = await load(), byPage = new Map();
+    const data = await references(), byPage = new Map();
     for (const [id, entry] of Object.entries(data.questions)) {
       if (entry.status !== 'resolved') continue;
       for (const p of entry.pages) {
@@ -85,5 +90,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {sittingLabel,load, label, questionURL, openPage, decorate, backControl,studyIds,counts,citationLine};
+  return {sittingLabel,load,preload:references, label, questionURL, openPage, decorate, backControl,studyIds,counts,citationLine};
 })();

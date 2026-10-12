@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v237",
+      "date": "2026-10-12",
+      "changes": [
+        "Opens faster from a cold start; 23 practice explanations now name options by content instead of by letter."
+      ]
+    },
+    {
       "version": "v236",
       "date": "2026-10-12",
       "changes": [
