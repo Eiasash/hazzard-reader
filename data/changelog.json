@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v251",
+      "date": "2026-10-12",
+      "changes": [
+        "Statistics: tap a topic name in All topics to practise it; empty topics are hidden."
+      ]
+    },
+    {
       "version": "v250",
       "date": "2026-10-12",
       "changes": [
