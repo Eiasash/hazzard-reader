@@ -1,5 +1,5 @@
 {
-  "version": "v235",
+  "version": "v236",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -2758,13 +2758,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch46_pressure_injuries.md",
-      "sha256": "8282958d513bc8e596d887fdbd723cf5a82e9e3c77a92cbe8f0af567e454823c",
-      "bytes": 96529
+      "sha256": "746847c526cc9e60ff22b3ff346ed859d8cf3e90f9c24f5f083fa16948cef15c",
+      "bytes": 96380
     },
     {
       "url": "./chapters/hazzard8e_ch46_study.md",
-      "sha256": "71303b592d5009043b87b99c87b29570f71edb3fe733991fdc0b81d08af0bbe2",
-      "bytes": 13355
+      "sha256": "ab08f1b8165ed96fc4d08303a06cacf71053f33778113df419cb8b3b1adee162",
+      "bytes": 13338
     },
     {
       "url": "./chapters/hazzard8e_ch47_figure47-1.png",
@@ -2783,13 +2783,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch47_incontinence.md",
-      "sha256": "7a78fa2ba8e6a38c9ea08aacfdc153240b9e47331cd04cfc0791d7edeb0e6f3c",
-      "bytes": 90908
+      "sha256": "f4e9c36eae0ba0b389b847121887ada3a0446b06350ad9cc1a827a24da590efc",
+      "bytes": 90891
     },
     {
       "url": "./chapters/hazzard8e_ch47_study.md",
-      "sha256": "cf47501c03df6ca8a6d59000163c6424734930713272685ff8c0eb2e5dfb19f2",
-      "bytes": 15837
+      "sha256": "2f2a7fa5ec29f58e34c5f0462b4a5ff5f2b6bd681fb56ef43456d116782b476e",
+      "bytes": 15820
     },
     {
       "url": "./chapters/hazzard8e_ch48_elder_mistreatment.md",
@@ -3463,8 +3463,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch60_bpsd_psychoactive.md",
-      "sha256": "a6bba790402c00436a179e8ab1bec4e141f71f794aee6eb6a23861e8fa8f4905",
-      "bytes": 79154
+      "sha256": "1339e5c1b6200df92bdf03fd37856e7a878f7742de08e1d4d57091d2cf8b81de",
+      "bytes": 79161
     },
     {
       "url": "./chapters/hazzard8e_ch60_study.md",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "280ed09289a33cdceef9dadff604604d7d77ce1a03bb54edf39e8fa8ff9b8e14",
-      "bytes": 53090
+      "sha256": "2a100cc7e6692d414259fff783c95ea85b24776da05216389ae069405f473799",
+      "bytes": 53265
     },
     {
       "url": "./data/drug-index.json",
@@ -7973,8 +7973,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "1a1ca7ecbb1cc73348130367094810ee4f2e0bc059a769c53c2873cc5cc6392d",
-      "bytes": 920741
+      "sha256": "bf7f561fb9d4dfc142fbb26e55b2a46d29fe8d12b9765ca2cdc259af18d1f697",
+      "bytes": 920582
     },
     {
       "url": "./js/changed-questions.js",
@@ -8043,7 +8043,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "75542ee1063d7ccb5ab5ef271b917beefde083bd635307b0c9b795518419bb29",
+      "sha256": "294d0a1e087a47b5ec98c39d5d3f5965c80a79c58aa2ca8711b01557cd99d203",
       "bytes": 8228
     },
     {

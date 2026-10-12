@@ -612,7 +612,7 @@ Vaughan CP, Markland AD. Urinary incontinence in women. Ann Intern Med. 2020;172
 
 ![Picture no. 3 for Q64](ima2026_album_picture3_Q64.png)
 
-> Description by the builder, not from the paper (wording checked against the image by the chat lane). Picture no. 3 (IMA image album 885645, published separately from the question paper): frontal plain radiograph of the abdomen and pelvis, marked R. Mottled, bubbly material lies along the right flank, in the left upper abdomen and down the left flank, and fills the lower pelvis. The description implies no diagnosis.
+> Description by the builder, not from the paper (wording checked against the image). Picture no. 3 (IMA image album 885645, published separately from the question paper): frontal plain radiograph of the abdomen and pelvis, marked R. Mottled, bubbly material lies along the right flank, in the left upper abdomen and down the left flank, and fills the lower pelvis. The description implies no diagnosis.
 
 - א. Laxatives  ← **key**
 - ב. Insertion of a rectal tube

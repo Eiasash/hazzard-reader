@@ -146,7 +146,7 @@ The actual exam questions and answer keys as printed in the chapter, reproduced 
 
 ![Picture no. 1 for Q7](ima2026_album_picture1_Q7.png)
 
-> Description by the builder, not from the paper (checked against the image by the chat lane). Picture no. 1 (IMA image album 885645, published separately from the question paper): a deep open wound with a large band of cream to pale-yellow slough through the middle, brown to olive-green necrotic tissue in the lower left, and red granulation tissue along the right edge and lower rim; the surrounding skin is dusky pink-purple. The photograph cannot settle what the pale central structure is, and the description implies no stage.
+> Description by the builder, not from the paper (checked against the image). Picture no. 1 (IMA image album 885645, published separately from the question paper): a deep open wound with a large band of cream to pale-yellow slough through the middle, brown to olive-green necrotic tissue in the lower left, and red granulation tissue along the right edge and lower rim; the surrounding skin is dusky pink-purple. The photograph cannot settle what the pale central structure is, and the description implies no stage.
 
 - א. Mechanical
 - ב. Enzymatic
