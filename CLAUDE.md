@@ -39,8 +39,8 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 ## Cosmetic list (doesn't block anything)
 - ch75 Table 75-6 ghost title bar baked into the scan; ch59 Table 59-7 p912 keeps its bottom band (it holds rows p913 lacks).
 - Odd heading casing here and there.
-- The three-column explanation table in mcq-041747d2188be93271d452d3 extends about 4 CSS px past its card edge at 360 px (inside the page; all text stays in the card).
 - In openings written "התשובה היא **X**", the bold answer renders in a visibly different, narrower font from the bold text around it in the Windows Chromium screenshots of the v240 records (P005-excluded). A served v239 rewrite with the same opening (mcq-bcbf4a8f530b0030835c92fc) rendered in Linux Chromium shows no difference (both in system-ui, weight 900); not yet checked on the Android phone.
+- In an explanation's Hebrew "מקור:" line that lists two English sources joined by " · ", the English pieces can reorder (in the P005-excluded mcq-fb203b324e8a2bd294d852d4 at 360 px, "DISEASE" renders after the Harrison part). Served lines with the same shape: mcq-7b70f07311595f68ed7aa9ea, mcq-06a15a9053f355094b929a71.
 
 ## Reader behavior
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
