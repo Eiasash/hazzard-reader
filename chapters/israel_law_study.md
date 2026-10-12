@@ -1,6 +1,10 @@
 <div dir="rtl">
 
+<div dir="ltr">
+
 Study summary of the Israel Law block; `israel_law.md` is the reference source (primary law/MoH text, not Hazzard).
+
+</div>
 
 # סיכום: חוק ישראלי ונתוני ברוקדייל
 
