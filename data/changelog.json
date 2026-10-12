@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v247",
+      "date": "2026-10-12",
+      "changes": [
+        "Practice filters and labels now describe what they show; one more Israeli-law question sits in the law block."
+      ]
+    },
+    {
       "version": "v246",
       "date": "2026-10-12",
       "changes": [
