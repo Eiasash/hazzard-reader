@@ -2,7 +2,7 @@
 
 Joyce M. Black
 
-> **Status (21 Sep 2026).** Chat lane reviewed the tables and both 2026 questions against the images (round 1); round-1 fixes applied; the six transcribed stage definitions checked word for word against pp. 687–688 (round 2). Published. Republished 22 Sep with the approved glue ("cm²/wk", p692). Red tests (redtest46.py, 22 Sep): 26/26 mutations red, every check46 check red at least once, shipped files unchanged.
+> **Status (21 Sep 2026).** Verified against the page images: the tables, both 2026 questions and the six transcribed stage definitions, word for word against pp 687-688. Published. Updated 22 Sep with the wording "cm²/wk" (p692). Rechecked 22 Sep with no change to the published text.
 
 > **Source and method.** Printed pages 679–698 of the 8th edition, from the publisher's own text layer (PDF page = printed + 34). Prose, both boxes, both tables and the four figure captions; the figures (staging photographs with their definitions, tissue types, the PUSH tool and the Bates-Jensen tool) are page images, not transcribed. Checked against an independently typeset copy of the chapter. Page markers are printed page numbers. The two boxes are moved up to follow the opening paragraph.
 
@@ -459,7 +459,7 @@ Schultz G. Bjarnsholt T, James GA, et al. Consensus guidelines for the identific
 
 ![Picture no. 1 for Q7](ima2026_album_picture1_Q7.png)
 
-> Description by the builder, not from the paper (checked against the image by the chat lane). Picture no. 1 (IMA image album 885645, published separately from the question paper): a deep open wound with a large band of cream to pale-yellow slough through the middle, brown to olive-green necrotic tissue in the lower left, and red granulation tissue along the right edge and lower rim; the surrounding skin is dusky pink-purple. The photograph cannot settle what the pale central structure is, and the description implies no stage.
+> Description by the builder, not from the paper (checked against the image). Picture no. 1 (IMA image album 885645, published separately from the question paper): a deep open wound with a large band of cream to pale-yellow slough through the middle, brown to olive-green necrotic tissue in the lower left, and red granulation tissue along the right edge and lower rim; the surrounding skin is dusky pink-purple. The photograph cannot settle what the pale central structure is, and the description implies no stage.
 
 - א. Mechanical
 - ב. Enzymatic
