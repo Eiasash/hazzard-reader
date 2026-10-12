@@ -42,3 +42,5 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 #panelExpand span{width:24px;height:4px;border-radius:2px;background:var(--muted);pointer-events:none}
 #panel[open] [data-pane]{overscroll-behavior:contain}
 #panel[open][data-expanded="true"],#panel[open][data-expanded="true"]:has(#appearanceStatus[open]){height:min(calc(var(--vv-height) * .75),calc(var(--vv-height) - var(--tabs-height) - var(--update-gap,0px) - env(safe-area-inset-top,0px) - 8px));max-block-size:min(calc(var(--vv-height) * .75),calc(var(--vv-height) - var(--tabs-height) - var(--update-gap,0px) - env(safe-area-inset-top,0px) - 8px));overflow:hidden}
+
+#panelExpand:focus:not(:focus-visible){outline:none}
