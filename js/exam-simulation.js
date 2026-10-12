@@ -30,7 +30,7 @@ window.HazzardSimulation = (() => {
   }
   function write(v){if(!valid(v))throw Error('Exam simulation could not be saved.');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-simulation-change'));return v;}
   let bankPromise,checking=false,backgroundError='';
-  function bank(){return bankPromise ||= fetch('data/mcq/all.json').then(r=>{if(!r.ok)throw Error('Exam questions unavailable. Reconnect and try again.');return r.json();}).catch(e=>{bankPromise=null;throw e;});}
+  function bank(){return bankPromise ||= HazzardQuestionData.full().catch(e=>{bankPromise=null;throw e;});}
   function questions(s,all){const byId=new Map(all.map(q=>[q.id,q]));const list=s.ids.map(id=>byId.get(HazzardMCQ.currentId(id)));if(list.some((q,i)=>!q||q.t!==s.sitting||q.examNumber!==i+1))throw Error('This sitting is incomplete. The saved attempt has been kept.');return list;}
   function finish(v){
     const s=v.session;if(s?.status!=='submitting')return v;
