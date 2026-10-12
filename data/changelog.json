@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v244",
+      "date": "2026-10-12",
+      "changes": [
+        "Source labels now match each question's real source, Israeli-law questions sit in the law block, and the last display fixes."
+      ]
+    },
+    {
       "version": "v243",
       "date": "2026-10-12",
       "changes": [
