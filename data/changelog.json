@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v253",
+      "date": "2026-10-13",
+      "changes": [
+        "Law page: removed a file listing that did not belong there."
+      ]
+    },
+    {
       "version": "v252",
       "date": "2026-10-13",
       "changes": [
