@@ -1,5 +1,5 @@
 {
-  "version": "v252",
+  "version": "v253",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5938,8 +5938,8 @@
     },
     {
       "url": "./chapters/israel_law.md",
-      "sha256": "b06b3831fd08e49622e13fbe4a1448508dc93ad1f44faa50c68bc6abf96f48da",
-      "bytes": 33914
+      "sha256": "210d4a1886e402a6c8f354fd1a337998156596bd23c0ddd6ac11264c234bbd7e",
+      "bytes": 33075
     },
     {
       "url": "./chapters/israel_law_study.md",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "51d63a7f36d5bb0105e62065da2f6d900a2556e01a8540211b90f0ea2989f037",
-      "bytes": 56459
+      "sha256": "65b08f9c7771714beae31b812ed741c0c3a4ea34471ef37490cd64ac369fa59f",
+      "bytes": 56622
     },
     {
       "url": "./data/drug-index.json",
@@ -5988,8 +5988,8 @@
     },
     {
       "url": "./data/mark-unit-registry.json",
-      "sha256": "889fb0343be193ef0fa34bac77d60726047dca5176f1a05ebe6b867053a4acd9",
-      "bytes": 435059
+      "sha256": "acb989d862f132059c88f31caf5734f25076a08fd9c14ce8e25f12932682d3cb",
+      "bytes": 470638
     },
     {
       "url": "./data/mcq/1.json",
@@ -7973,7 +7973,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "158ed4b5c3ca99c2b9133925e1eb10ef3a253f3697848e47f3f8bdd6c32701b9",
+      "sha256": "b42e73929b35eb9ce8d6e3463d17d0aaabf189b82bc9dce6c2ef900aab61a100",
       "bytes": 922586
     },
     {
@@ -8043,7 +8043,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "cc031a3f18be963cfcd3854ccbdbf3508dabcbe917851baa06a71c7b6fa59dde",
+      "sha256": "809a4793b7eab536411a6cbee50e294ff1f6e21a6c6edd1f244058cb5d01c9fd",
       "bytes": 8228
     },
     {
