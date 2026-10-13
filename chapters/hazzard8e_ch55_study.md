@@ -44,7 +44,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
   - Heart failure: stable **3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
 - PAD: walk-to-pain program needs **≥6 months** for benefit (p830).
 - Lower extremity amputation: **60% to 80%** get phantom limb pain; **~10%** of those with phantom pain rate it severe enough to be disabling (p830).
-- Stroke: rehab starts **24 to 48 hours** poststroke (p831).
+- Stroke: rehab can begin as early as **24 to 48 hours** poststroke once the patient is medically stable (p831).
   - Dysphagia silent in **up to one-third**; aphasia in **one-third** (p831).
   - Bladder incontinence **50% to 70%** month 1, back to general-population levels by **6 months** (p831).
   - Shoulder pain **34% to 84%**; depression **15% to 70%** (p831).

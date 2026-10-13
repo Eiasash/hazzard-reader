@@ -11,7 +11,8 @@ window.HazzardStorage = (() => {
   keys.add(HazzardMCQ.PLACE_KEY);
   keys.add(HazzardReview.KEY);
   keys.add(HazzardSimulation.KEY);
-  const owns=key=>typeof key==='string'&&(keys.has(key)||key.startsWith('stage-a-highlights-v1:'));
+  const highlightKey=key=>typeof key==='string'&&key.startsWith('stage-a-highlights-v1:')&&!key.includes('-unreadable-');
+  const owns=key=>typeof key==='string'&&(keys.has(key)||highlightKey(key));
   const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
   const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
   const validHighlight=mark=>mark&&['yellow','green','blue'].includes(mark.colour)&&typeof mark.text==='string';
@@ -109,8 +110,12 @@ window.HazzardStorage = (() => {
       validateNotebookValue(key,key==='hazzard-chapters-sort-v1'?raw:JSON.parse(raw));return true;
     }catch{return false;}
   }
-  // Unreadable practice stores stay byte-for-byte intact until an explicit recovery.
+  // Unreadable stores stay byte-for-byte intact until an explicit recovery.
+  const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||highlightKey(key);
   const protectedStores=new Map([
+    [PLACE_KEY,{label:'Reading place',fresh:'reading place',empty:()=>({chapters:{}})}],
+    [BOOKMARK_KEY,{label:'Bookmarks',fresh:'bookmarks',empty:()=>[]}],
+    [READING_KEY,{label:'Reading progress',fresh:'reading progress',empty:()=>({chapters:{}})}],
     [HazzardMCQ.PLACE_KEY,{label:'Practice place',fresh:'practice place',empty:()=>({version:1,screen:'bank',id:null,scroll:0})}],
     [HazzardMCQ.LOG_KEY,{label:'Weekly answer log',fresh:'weekly log',empty:HazzardMCQ.emptyLog}],
     [HazzardMCQ.BAD_KEY,{label:'Bad question flags',fresh:'bad flags',empty:HazzardMCQ.emptyBad}],
@@ -123,9 +128,16 @@ window.HazzardStorage = (() => {
     [HazzardMCQ.PAPER_KEY,{label:'Saved paper',fresh:'paper',empty:()=>({version:1,settings:{length:25,sources:['past','practice'],year:'all',level:'all',topic:'all'},paper:null,at:0})}],
     [HazzardSimulation.KEY,{label:'Exam simulation',fresh:'simulation',empty:()=>({version:1,at:0,session:null,history:{}})}]
   ]);
+  function protectedStore(key){
+    if(!protectedStores.has(key)&&highlightKey(key)){
+      const chapterId=key.slice('stage-a-highlights-v1:'.length);
+      protectedStores.set(key,{label:'Highlights ('+chapterId+')',fresh:'highlights',empty:()=>({version:1,chapterId,marks:{},history:[]})});
+    }
+    return protectedStores.get(key);
+  }
   const unreadable=new Map(),recoverySnapshots=new Map();
   function protect(key){
-    const spec=protectedStores.get(key);if(!spec)return false;
+    const spec=protectedStore(key);if(!spec)return false;
     const raw=localStorage.getItem(key);
     if((raw===null&&!(key===HazzardMCQ.PLACE_KEY&&recoverySnapshots.has(key)))||validRaw(key,raw)){unreadable.delete(key);return false;}
     if(unreadable.get(key)?.raw!==raw){
@@ -136,7 +148,7 @@ window.HazzardStorage = (() => {
     }
     return true;
   }
-  function blockedKeys(){for(const key of protectedStores.keys())protect(key);return [...unreadable.keys()];}
+  function blockedKeys(){for(const key of Object.keys(localStorage))if(readerStore(key))protectedStore(key);for(const key of protectedStores.keys())protect(key);return [...unreadable.keys()];}
   function readProtected(key,fallback){
     if(protect(key))return structuredClone(unreadable.get(key).value);
     const raw=localStorage.getItem(key);return raw===null?fallback():JSON.parse(raw);
@@ -161,10 +173,11 @@ window.HazzardStorage = (() => {
     localStorage.setItem(key,row.storage[key]);
     unreadable.delete(key);snapshot();
   }
-  function recoveryHTML(){
-    return blockedKeys().map(key=>{const spec=protectedStores.get(key),saved=recoverySnapshots.get(key);
+  function recoveryHTML(reader=false){
+    const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    return blockedKeys().filter(key=>readerStore(key)===reader).map(rawKey=>{const spec=protectedStores.get(rawKey),saved=recoverySnapshots.get(rawKey),key=escape(rawKey);
       const local=saved?'<button data-storage-snapshot="'+key+'">Restore latest local snapshot ('+snapshotTime(saved.at)+')</button> ':'';
-      return '<section class="mcq-recovery" role="alert"><p>'+spec.label+' could not be read.</p>'+local+'<button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
+      return '<section class="mcq-recovery" role="alert"><p>'+escape(spec.label)+' could not be read.</p>'+local+'<button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
     }).join('');
   }
   blockedKeys();
@@ -188,6 +201,7 @@ window.HazzardStorage = (() => {
     recoverySnapshots.clear();
     for(const row of saved){if(await usable(row)){
       latest??=row;
+      for(const key of Object.keys(row.storage))protectedStore(key);
       for(const key of protectedStores.keys())if(!recoverySnapshots.has(key)&&Object.hasOwn(row.storage,key))recoverySnapshots.set(key,{id:row.id,at:row.at,hash:row.hash});
     }}
     return latest;
