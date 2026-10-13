@@ -34,7 +34,7 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
 - Concentric layers: outer = clinical presentation (multimorbidity, physical/cognitive impairment); middle = biomarker layer (inflammation, hormones, body composition, energetics); inner = core biological hallmarks of aging (p617)
 - "Inflammaging": chronic elevation of IL-6 and TNF-α, present even in disease-free older adults (p624); accumulating senescent cells spilling SASP molecules may account, at least in part, for the high circulating inflammatory markers (p625)
 - Multi-hormonal decline: DHEAS, testosterone, estrogens, GH/IGF-1, vitamin D ↓, with relative preservation of cortisol/thyroid hormones (p625)
-- Muscle energy demand rises **100-fold** from rest to contraction — mitochondrial decline + reduced satellite-cell repair capacity impair this reserve (p625)
+- Muscle energy demand rises as much as **100-fold** from rest to contraction — mitochondrial decline + reduced satellite-cell repair capacity impair this reserve (p625)
 - RMR = **60–70%** of total daily energy expenditure; initially rises (compensation), later falls as frailty develops — hypothesized that this RMR shift marks failure of resilience and accelerated, irreversible deterioration (p626)
 
 **Frailty in specific disease contexts**

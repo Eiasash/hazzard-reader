@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v254",
+      "date": "2026-10-13",
+      "changes": [
+        "Seven study lines restored to the book's wording; law questions all show under Law; damaged saved highlights, bookmarks and progress are kept for you to restore; Statistics labels grow with text size; easier Open tap on flagged questions; mock papers titled Mock paper."
+      ]
+    },
+    {
       "version": "v253",
       "date": "2026-10-13",
       "changes": [
