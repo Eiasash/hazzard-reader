@@ -8,7 +8,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - PI = localized skin/soft-tissue damage over a bony prominence or device; sacrum and heels are the most common sites (p679).
 - **~70%** of PI occur in people **>65y**; prevalence **9–22%** in nursing-home (NH) residents, **5–32%** in hospitalized patients (p679).
 - Joint Commission estimate: **2.5 million** US acute-care patients treated for PI/year (p680); separate annual cost estimate **~$27 billion** (2016) (p680).
-- Pain: **87%** report pain with dressing changes; only **6%** of those reporting PI pain receive any pain medication (p680).
+- Pain: of people with PI who are able to report pain, **87%** report pain with dressing changes; only **6%** of those reporting PI pain receive any pain medication (p680).
 - When PI is the source of bacteremia, mortality is **48%** (p680).
 - Hospital-acquired PI: **11%** in-hospital mortality, **15%** mortality at 30 days post-discharge (p680).
 - NH residents: PI unhealed at 6 months → **64%** mortality vs **11%** if healed (p680).
@@ -16,7 +16,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 **Pathophysiology**
 - 4 mechanisms: direct high-magnitude deformation, capillary-occlusion ischemia, shear-induced ischemia, and reduced tissue tolerance (malnutrition, arterial disease, neuropathy, moisture, prior scar) (p682).
 - Muscle cell membranes rupture at **>80%** deformation; **2 h** of strain **>50%** causes irreversible muscle damage (p681).
-- Inflammatory/edema changes exist **2–7 days** before visible skin breakdown (preclinical stage) (p681).
+- Inflammatory/edema changes can occur **2–7 days** before visible skin breakdown (preclinical stage) (p681).
 - Healed scar tissue retains only **40%** of native tissue tensile strength → higher future PI risk at old sites (p682).
 
 **Risk screening & assessment**

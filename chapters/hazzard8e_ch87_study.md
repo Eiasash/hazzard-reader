@@ -47,7 +47,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 ### Drugs (name — dose — key cautions)
 - **Senna** — 1-3 tabs at bedtime; onset **8-12 h** (p1372); cheap, safe first-line stimulant.
-- **Bisacodyl** — **10 mg** PO daily (p1375); caution: bisacodyl used for colonoscopy prep may raise ischemic colitis risk in patients with cardiovascular disease (p1368).
+- **Bisacodyl** — **5–10 mg** by mouth up to **3 times/wk** (Table 87-9, p1373); **10 mg daily** was the trial regimen in outpatients with a mean age of **62** (p1375); caution: bisacodyl used for colonoscopy prep may raise ischemic colitis risk in patients with cardiovascular disease (p1368).
 - **Psyllium/bulk agents** — 1-3×/day with fluids; adds **1.4** BM/wk vs placebo (p1375); caution: impaction risk if fluid intake is poor.
 - **Lactulose/sorbitol** — 15-30 mL/day; adds **1.9** BM/wk (p1376); sorbitol equally effective and cheaper.
 - **PEG** — more potent hyperosmolar laxative than lactulose; disimpaction regimen **1 L (8 sachets)/day × 3 days** achieved **89%** success (p1376); caution: liquid stools.
