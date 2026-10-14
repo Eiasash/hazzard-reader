@@ -1,5 +1,5 @@
 {
-  "version": "v257",
+  "version": "v258",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "091bdeb798ddb2174782e90702e96fb45c162e600f59e31774e73c55b3c7049e",
-      "bytes": 57689
+      "sha256": "2218660c2cae96d13b076d028977158a897061be1a8e7f094b8a11cb27afd66c",
+      "bytes": 57911
     },
     {
       "url": "./data/drug-index.json",
@@ -7973,7 +7973,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "e27d29d77728f95a2ebbd03fb53999c75ffd3fbe702e962a547eab12a1f98314",
+      "sha256": "a8fc64917873b76a9757e5d3152d60e3c2f5719d65760c235cf7a582e50a4bdc",
       "bytes": 934525
     },
     {
@@ -8013,8 +8013,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "fd5dcbf2fd59667d64d28801832419415a0bb349eb8772f23366283c83492a2a",
-      "bytes": 150979
+      "sha256": "aac588dc71ba2763a584b6dc13ad8784448cc651888d2608fd14707657699631",
+      "bytes": 152589
     },
     {
       "url": "./js/memory-aids.js",
@@ -8043,7 +8043,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "baa03f0d433ef987dd916644cb26a9b6fbbaa90c05716ee56c706c4772944b0e",
+      "sha256": "bb5a24196c636f0db2188938da885c4440eebf79e01fe297fcf1867fb2b3d453",
       "bytes": 8228
     },
     {
