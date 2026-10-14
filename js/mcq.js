@@ -1369,6 +1369,15 @@ window.HazzardAnswerHighlights = (() => {
       fragments.push({start,end:part.end,text:text.slice(start,part.end)});return fragments;
     });
   }
+  function optionSentences(text){
+    const parts=answerSentences(text);
+    // The bank's leading option labels are Hebrew letters followed by a full stop.
+    if(parts.length>1&&/^[\u05d0-\u05ea]\.$/.test(parts[0].text.trim())){
+      const start=parts[0].start,end=parts[1].end;
+      parts.splice(0,2,{start,end,text:text.slice(start,end)});
+    }
+    return parts;
+  }
   function sentenceAt(e){
     const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),node=caret?.offsetNode||range?.startContainer,offset=caret?.offset??range?.startOffset;
     if(!node||node.nodeType!==Node.TEXT_NODE||!current.root.contains(node)||tapExcluded(node.parentElement))return null;
@@ -1377,7 +1386,7 @@ window.HazzardAnswerHighlights = (() => {
     if(!shown||!canonical||shown.s.length!==canonical.s.length)return null;
     let at=shown.nodes.findIndex((n,i)=>n===node&&shown.offs[i]>=offset);
     if(at<0)at=shown.nodes.lastIndexOf(node);if(at<0)return null;
-    const sentence=answerSentences(canonical.s,region==='main'?answerLineEnds(source,canonical):[]).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
+    const sentence=(region==='option'?optionSentences(canonical.s):answerSentences(canonical.s,answerLineEnds(source,canonical))).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
     let {start,end}=sentence;while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
     return {questionId:current.q.id,region,...(block?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
