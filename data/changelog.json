@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v260",
+      "date": "2026-10-14",
+      "changes": [
+        "In a chapter's notebook, highlights you made in answer keys now appear together with that chapter's own highlights."
+      ]
+    },
+    {
       "version": "v259",
       "date": "2026-10-14",
       "changes": [
