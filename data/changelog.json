@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v257",
+      "date": "2026-10-14",
+      "changes": [
+        "Highlighting a sentence in an answer key now includes its page reference, for example (p. 901)."
+      ]
+    },
+    {
       "version": "v256",
       "date": "2026-10-14",
       "changes": [
