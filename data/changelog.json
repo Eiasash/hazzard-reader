@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v259",
+      "date": "2026-10-14",
+      "changes": [
+        "In an answer key, an option's letter and its heading are now highlighted together in one tap."
+      ]
+    },
+    {
       "version": "v258",
       "date": "2026-10-14",
       "changes": [
