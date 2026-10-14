@@ -1334,6 +1334,20 @@ window.HazzardAnswerHighlights = (() => {
     const g=tapGesture;if(!g||e.pointerId!==g.id)return;
     g.ended=true;g.valid=!g.moved&&!g.selected&&Math.abs((g.viewport?.scrollTop||0)-g.scroll)<8&&performance.now()-g.time<500;
   }
+  function answerSentences(text){
+    // Keep the chapter splitter and its unit IDs intact; join only abbreviation cuts here.
+    const out=[];
+    for(const part of bridge().sentences(text)){
+      const previous=out[out.length-1],tail=previous?.text.trimEnd()||'';
+      const page=/\bpp?\.$/i.test(tail)&&/^\s*\d/.test(part.text);
+      const abbreviation=/\b(?:Fig|Figs|Tab|Ch|No|vs|e\.g|i\.e|Dr|Prof|approx)\.$/i.test(tail)||/\bTable\.$/.test(tail);
+      // A citation's author initial is different from an answer label or vitamin D.
+      const authorInitial=/(?:\b(?:sources?|references?|by|from)\b|[;(])/i.test(tail)&&/(?:\b\p{Lu}[\p{L}'\u2019-]+\s+(?:\p{Lu}\.\s*)*|(?:\(|\bby\s+|\bfrom\s+)(?:\p{Lu}\.\s*)*)\p{Lu}\.$/u.test(tail);
+      if(previous&&(page||abbreviation||authorInitial)){previous.end=part.end;previous.text=text.slice(previous.start,previous.end);}
+      else out.push({...part});
+    }
+    return out;
+  }
   function sentenceAt(e){
     const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),node=caret?.offsetNode||range?.startContainer,offset=caret?.offset??range?.startOffset;
     if(!node||node.nodeType!==Node.TEXT_NODE||!current.root.contains(node)||tapExcluded(node.parentElement))return null;
@@ -1342,7 +1356,7 @@ window.HazzardAnswerHighlights = (() => {
     if(!shown||!canonical||shown.s.length!==canonical.s.length)return null;
     let at=shown.nodes.findIndex((n,i)=>n===node&&shown.offs[i]>=offset);
     if(at<0)at=shown.nodes.lastIndexOf(node);if(at<0)return null;
-    const sentence=bridge().sentences(canonical.s).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
+    const sentence=answerSentences(canonical.s).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
     let {start,end}=sentence;while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
     return {questionId:current.q.id,region,...(block?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
@@ -1356,10 +1370,14 @@ window.HazzardAnswerHighlights = (() => {
     if(e.detail===0||!g?.ended||!g.valid)return;
     try{
       const mark=sentenceAt(e);if(!mark)return;
-      const existing=highlighted?.dataset.answerHighlight||items().find(m=>m.questionId===mark.questionId&&m.region===mark.region&&m.optionIndex===mark.optionIndex&&m.text===mark.text&&m.prefix===mark.prefix&&m.suffix===mark.suffix)?.id;
-      if(existing){setRemoved(existing,true);resetSelection();}
+      const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark),end=start+mark.text.length;
+      const existing=items().filter(m=>{
+        if(m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)return false;
+        const at=findAnchor(text,m);return at>=0&&at<end&&at+m.text.length>start;
+      });
+      if(existing.length){for(const m of existing)setRemoved(m.id,true);resetSelection();}
       else{pending=mark;saveSelection(bridge().answerColour());}
-      e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:!!existing}}));
+      e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:existing.length>0}}));
     }catch(error){dispatchEvent(new CustomEvent('hazzard-answer-highlight-error',{detail:error.message}));}
   }
   function attach(root,q,order){
