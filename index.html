@@ -5126,7 +5126,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v255 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v256 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5134,8 +5134,9 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight it, or select words and tap Save selection.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
 document.body.append(markBar);
+new ResizeObserver(()=>{if(!markBar.hidden&&markBar.classList.contains('answer-mark-bar'))document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
 examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPrevious" aria-label="Previous exam page">↑</button><button id="examNext" aria-label="Next exam page">↓</button><button id="examClose" aria-label="Close exam pages">✕</button>';document.body.append(examBar);
 let examIndex=-1;
@@ -5611,6 +5612,8 @@ $('#markRemove').onclick=()=>{try{if(HazzardAnswerHighlights.removeSelected())sh
 document.addEventListener('selectionchange',()=>{if(currentView==='reader'&&!panel.open&&HazzardAnswerHighlights.captureSelection()){setMarking(true);syncMarkingUI();}});
 addEventListener('hazzard-answer-highlight-selection',()=>{if(currentView==='reader'&&!panel.open){setMarking(true);syncMarkingUI();}});
 addEventListener('hazzard-answer-highlights-ready',()=>{syncMarkingUI();});
+addEventListener('hazzard-answer-highlight-tap',e=>{showSaved(e.detail.removed?'Removed':undefined);syncMarkingUI();});
+addEventListener('hazzard-answer-highlight-error',e=>flash(e.detail,6000));
 $('#toggleTheme').onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';applyDisplay();saveDisplay()};
 function cycleColour(){colour=['yellow','green','blue'][(['yellow','green','blue'].indexOf(colour)+1)%3];applyDisplay();saveDisplay()}
 $('#cycleColour').onclick=$('#deskCycleColour').onclick=cycleColour;
@@ -5620,8 +5623,8 @@ function syncMarkingUI(){
   const answer=HazzardAnswerHighlights.available(),questionView=!!mcq?.active||['bank','mock'].includes(String(copy.dataset.chapterId||'')),selection=HazzardAnswerHighlights.selectionState();
   if(questionView)pencil.hidden=currentView!=='reader'||!answer;
   $('#bookmark').hidden=answer;$('#markSelection').hidden=!answer;$('#markSelection').disabled=!selection.canSave;
-  $('#markRemove').hidden=!answer||!selection.canRemove;
-  $('#markingIndicator').hidden=!marking;markBar.hidden=!marking||currentView!=='reader'||panel.open||questionView&&!answer;document.body.classList.toggle('mark-bar-open',!markBar.hidden);$('#markColour').setAttribute('aria-label','Highlight colour: '+colour+'. Tap for next colour');
+  $('#markRemove').hidden=!answer||!selection.canRemove;$('#markHint').hidden=!answer;markBar.classList.toggle('answer-mark-bar',answer);
+  $('#markingIndicator').hidden=!marking;markBar.hidden=!marking||currentView!=='reader'||panel.open||questionView&&!answer;document.body.classList.toggle('mark-bar-open',!markBar.hidden);document.body.classList.toggle('answer-mark-bar-open',!markBar.hidden&&answer);$('#markColour').setAttribute('aria-label','Highlight colour: '+colour+'. Tap for next colour');
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
@@ -6033,7 +6036,7 @@ function wrapIndexRange(ix,start,end,id,colour){
     const sp=document.createElement('span');sp.className='hl-range';sp.dataset.range=id;sp.dataset.marked='';sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
   return spans;
 }
-window.HazzardHighlighter={textIndex,wrapIndexRange};
+window.HazzardHighlighter={textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader',answerColour:()=>colour};
 function placeRange(id,m){
   const ix=textIndex();let best=-1,bestScore=-1,from=0,at;
   while((at=ix.s.indexOf(m.text,from))!==-1){let sc=0;const pre=ix.s.slice(Math.max(0,at-(m.prefix||'').length),at),suf=ix.s.slice(at+m.text.length,at+m.text.length+(m.suffix||'').length);

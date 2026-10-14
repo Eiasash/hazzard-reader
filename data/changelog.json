@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v256",
+      "date": "2026-10-14",
+      "changes": [
+        "Highlight in answer keys now works like the chapters: turn Highlight on and tap a sentence to highlight it, tap it again to remove it."
+      ]
+    },
+    {
       "version": "v255",
       "date": "2026-10-14",
       "changes": [
