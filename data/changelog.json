@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v258",
+      "date": "2026-10-14",
+      "changes": [
+        "In an answer key, the answer line and headings are now highlighted on their own; the first sentence is a separate tap."
+      ]
+    },
+    {
       "version": "v257",
       "date": "2026-10-14",
       "changes": [

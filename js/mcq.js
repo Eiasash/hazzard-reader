@@ -1334,7 +1334,23 @@ window.HazzardAnswerHighlights = (() => {
     const g=tapGesture;if(!g||e.pointerId!==g.id)return;
     g.ended=true;g.valid=!g.moved&&!g.selected&&Math.abs((g.viewport?.scrollTop||0)-g.scroll)<8&&performance.now()-g.time<500;
   }
-  function answerSentences(text){
+  function answerLineEnds(root,index){
+    // The anchor index normalizes newlines; recover only these main-region line ends.
+    const starts=new Map(),walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let raw='',node;
+    while((node=walker.nextNode())){starts.set(node,raw.length);raw+=node.data;}
+    const offsets=index.nodes.map((n,i)=>starts.get(n)+index.offs[i]),ends=new Set();
+    const add=end=>{while(end<index.s.length&&/\s/.test(index.s[end]))end++;if(end)ends.add(end);};
+    for(const line of raw.matchAll(/(?:^|\n)[ \t]*(?:Official answer:|Correct answer:|\u05d4\u05ea\u05e9\u05d5\u05d1\u05d4 \u05d4\u05e8\u05e9\u05de\u05d9\u05ea:)[^\n]*/giu)){
+      const start=line.index+line[0].search(/\S/),end=line.index+line[0].trimEnd().length;
+      if(!offsets.includes(start))continue; // Option-region lines are not in this index.
+      let last=offsets.findLastIndex(offset=>offset<end);if(last>=0)add(last+1);
+    }
+    for(const heading of root.querySelectorAll('h1,h2,h3,h4,h5,h6')){
+      const last=index.nodes.findLastIndex(n=>heading.contains(n));if(last>=0)add(last+1);
+    }
+    return [...ends].sort((a,b)=>a-b);
+  }
+  function answerSentences(text,lineEnds=[]){
     // Keep the chapter splitter and its unit IDs intact; join only abbreviation cuts here.
     const out=[];
     for(const part of bridge().sentences(text)){
@@ -1346,17 +1362,22 @@ window.HazzardAnswerHighlights = (() => {
       if(previous&&(page||abbreviation||authorInitial)){previous.end=part.end;previous.text=text.slice(previous.start,previous.end);}
       else out.push({...part});
     }
-    return out;
+    // Keep every v257 boundary, adding only answer-label and heading line ends.
+    return out.flatMap(part=>{
+      const fragments=[];let start=part.start;
+      for(const end of lineEnds){if(end<=start||end>=part.end)continue;fragments.push({start,end,text:text.slice(start,end)});start=end;}
+      fragments.push({start,end:part.end,text:text.slice(start,part.end)});return fragments;
+    });
   }
   function sentenceAt(e){
     const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),node=caret?.offsetNode||range?.startContainer,offset=caret?.offset??range?.startOffset;
     if(!node||node.nodeType!==Node.TEXT_NODE||!current.root.contains(node)||tapExcluded(node.parentElement))return null;
     const block=node.parentElement.closest('.mcq-option-explanation'),region=block?'option':'main',optionIndex=block?Number(block.dataset.optionIndex):undefined;
-    const shown=regionIndex(current.root,region,optionIndex),canonical=regionIndex(canonicalRoot(current.q),region,optionIndex);
+    const source=canonicalRoot(current.q),shown=regionIndex(current.root,region,optionIndex),canonical=regionIndex(source,region,optionIndex);
     if(!shown||!canonical||shown.s.length!==canonical.s.length)return null;
     let at=shown.nodes.findIndex((n,i)=>n===node&&shown.offs[i]>=offset);
     if(at<0)at=shown.nodes.lastIndexOf(node);if(at<0)return null;
-    const sentence=answerSentences(canonical.s).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
+    const sentence=answerSentences(canonical.s,region==='main'?answerLineEnds(source,canonical):[]).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
     let {start,end}=sentence;while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
     return {questionId:current.q.id,region,...(block?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
