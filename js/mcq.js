@@ -1263,7 +1263,7 @@ window.HazzardAnswerHighlights = (() => {
   const items=()=>Object.entries(read().items).filter(([,m])=>!m.removed).map(([id,m])=>({id,...m}));
   function write(value){if(HazzardStorage.blockedKeys().includes(KEY))throw Error('Answer highlights could not be read. Restore them before saving.');HazzardStorage.setItem(KEY,JSON.stringify(value));dispatchEvent(new Event('hazzard-answer-highlights-change'));}
   function setRemoved(id,removed){const value=read(),m=value.items[id];if(!m||m.removed===removed)return;value.items[id]={...m,removed,updatedAt:Math.max(Date.now(),m.updatedAt+1)};write(value);}
-  let current=null,pending=null,selectedId=null;
+  let current=null,pending=null,selectedId=null,tapGesture=null;
   const bridge=()=>window.HazzardHighlighter;
   function available(){return !!(current?.root.isConnected&&!current.root.closest('[hidden]')&&!current.root.closest('[inert]'));}
   function regionIndex(root,region,optionIndex){
@@ -1306,7 +1306,15 @@ window.HazzardAnswerHighlights = (() => {
     while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
     return {questionId:current.q.id,region,...(a?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
-  function captureSelection(){const mark=selection();if(mark){pending=mark;selectedId=null;return true;}return false;}
+  function captureSelection(){
+    const mark=selection();if(!mark)return false;
+    // Keep the last real explanation selection when a touch on the toolbar collapses it.
+    pending=mark;selectedId=null;
+    const range=getSelection().getRangeAt(0),parent=n=>n.nodeType===Node.ELEMENT_NODE?n:n.parentElement;
+    const a=parent(range.startContainer).closest('[data-answer-highlight]'),b=parent(range.endContainer).closest('[data-answer-highlight]');
+    if(a&&b&&a.dataset.answerHighlight===b.dataset.answerHighlight)selectedId=a.dataset.answerHighlight;
+    return true;
+  }
   function saveSelection(colour){
     const mark=selection()||pending;if(!mark||!available()||mark.questionId!==current.q.id)return false;
     const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
@@ -1315,9 +1323,52 @@ window.HazzardAnswerHighlights = (() => {
   function resetSelection(){pending=null;selectedId=null;}
   const selectionState=()=>({canSave:!!pending,canRemove:!!selectedId});
   function removeSelected(){if(!selectedId)return false;setRemoved(selectedId,true);resetSelection();return true;}
+  const tapExcluded=target=>target.closest('a,button,input,textarea,select,summary,img,svg,[role="button"],.mcq-source-note,.mcq-explanation-icon,[data-answer-heading]');
+  function tapDown(e){
+    tapGesture=null;if(!available()||!e.isPrimary||e.button!==0||tapExcluded(e.target))return;
+    const viewport=current.root.closest('#mcqViewport');
+    tapGesture={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now(),scroll:viewport?.scrollTop||0,viewport,moved:false,selected:!getSelection()?.isCollapsed};
+  }
+  function tapMove(e){if(tapGesture&&e.pointerId===tapGesture.id&&Math.hypot(e.clientX-tapGesture.x,e.clientY-tapGesture.y)>10)tapGesture.moved=true;}
+  function tapUp(e){
+    const g=tapGesture;if(!g||e.pointerId!==g.id)return;
+    g.ended=true;g.valid=!g.moved&&!g.selected&&Math.abs((g.viewport?.scrollTop||0)-g.scroll)<8&&performance.now()-g.time<500;
+  }
+  function sentenceAt(e){
+    const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),node=caret?.offsetNode||range?.startContainer,offset=caret?.offset??range?.startOffset;
+    if(!node||node.nodeType!==Node.TEXT_NODE||!current.root.contains(node)||tapExcluded(node.parentElement))return null;
+    const block=node.parentElement.closest('.mcq-option-explanation'),region=block?'option':'main',optionIndex=block?Number(block.dataset.optionIndex):undefined;
+    const shown=regionIndex(current.root,region,optionIndex),canonical=regionIndex(canonicalRoot(current.q),region,optionIndex);
+    if(!shown||!canonical||shown.s.length!==canonical.s.length)return null;
+    let at=shown.nodes.findIndex((n,i)=>n===node&&shown.offs[i]>=offset);
+    if(at<0)at=shown.nodes.lastIndexOf(node);if(at<0)return null;
+    const sentence=bridge().sentences(canonical.s).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
+    let {start,end}=sentence;while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
+    return {questionId:current.q.id,region,...(block?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
+  }
+  function tapClick(e){
+    const g=tapGesture;tapGesture=null;if(!available()||tapExcluded(e.target)||!getSelection()?.isCollapsed)return;
+    const highlighted=e.target.closest('[data-answer-highlight]');
+    if(!bridge().answerMarking()){
+      if(highlighted){selectedId=highlighted.dataset.answerHighlight;pending=null;dispatchEvent(new Event('hazzard-answer-highlight-selection'));}
+      return;
+    }
+    if(e.detail===0||!g?.ended||!g.valid)return;
+    try{
+      const mark=sentenceAt(e);if(!mark)return;
+      const existing=highlighted?.dataset.answerHighlight||items().find(m=>m.questionId===mark.questionId&&m.region===mark.region&&m.optionIndex===mark.optionIndex&&m.text===mark.text&&m.prefix===mark.prefix&&m.suffix===mark.suffix)?.id;
+      if(existing){setRemoved(existing,true);resetSelection();}
+      else{pending=mark;saveSelection(bridge().answerColour());}
+      e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:!!existing}}));
+    }catch(error){dispatchEvent(new CustomEvent('hazzard-answer-highlight-error',{detail:error.message}));}
+  }
   function attach(root,q,order){
-    current=root&&q?{root,q,order}:null;resetSelection();
-    if(root&&q){root.querySelector(':scope > h3')?.setAttribute('data-answer-heading','');repaint();root.onclick=e=>{const mark=e.target.closest('[data-answer-highlight]');if(mark&&getSelection()?.isCollapsed){selectedId=mark.dataset.answerHighlight;pending=null;dispatchEvent(new Event('hazzard-answer-highlight-selection'));}};}
+    if(current){current.root.onpointerdown=current.root.onpointermove=current.root.onpointerup=current.root.onpointercancel=current.root.onclick=null;}
+    current=root&&q?{root,q,order}:null;resetSelection();tapGesture=null;
+    if(root&&q){
+      root.querySelector(':scope > h3')?.setAttribute('data-answer-heading','');repaint();
+      root.onpointerdown=tapDown;root.onpointermove=tapMove;root.onpointerup=tapUp;root.onpointercancel=()=>{tapGesture=null;};root.onclick=tapClick;
+    }
     dispatchEvent(new Event('hazzard-answer-highlights-ready'));
   }
   async function notebookItems(){

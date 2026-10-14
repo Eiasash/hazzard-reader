@@ -231,3 +231,7 @@ a.stats-sitting{color:inherit;text-decoration:none;min-height:44px}a.stats-sitti
 .mcq-explanation .hl-range[data-answer-highlight]{cursor:pointer}
 body.mark-bar-open #mcqViewport{padding-bottom:calc(68px*var(--fs,1))}
 #markBar:has(#markSelection:not([hidden])) button{padding:calc(4px*var(--fs,1)) calc(6px*var(--fs,1));min-height:calc(44px*var(--fs,1));min-width:calc(44px*var(--fs,1))}
+#markBar.answer-mark-bar{flex-wrap:wrap}
+#markHint{flex-basis:100%;margin:0;padding:2px 0;font:inherit;line-height:1.35;color:var(--muted)}
+body.answer-mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--answer-mark-bar-height,100px))}
+body.answer-mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--answer-mark-bar-height,100px) + 4px)}
