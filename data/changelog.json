@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v255",
+      "date": "2026-10-14",
+      "changes": [
+        "You can now highlight inside answer keys. Those highlights appear in the Notebook under their Hazzard chapter, under Law and articles, and by exam cycle."
+      ]
+    },
+    {
       "version": "v254",
       "date": "2026-10-13",
       "changes": [

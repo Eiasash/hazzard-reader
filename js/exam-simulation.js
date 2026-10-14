@@ -94,6 +94,7 @@ window.HazzardSimulation = (() => {
     function resultHTML(v){const r=v.history[v.session.id];return '<h1>Simulation submitted</h1><p>'+esc(label(r.sitting))+'</p><p class="mcq-score-value">'+r.correct+' / '+r.total+'</p><p>'+Math.round(r.correct/r.total*100)+'% · scored questions only</p><p>Time used: '+elapsed(r.timeMs)+(r.automatic?' · Time expired; auto-submitted':'')+'</p><p>Wrong and unanswered scored questions are in your review queue.</p><button data-sim="review">Review all 100 questions</button> <button data-sim="setup">Choose another sitting</button>'+historyHTML(v);}
     function render(){
       if(!loaded)return;
+      window.HazzardAnswerHighlights?.attach(null);
       try{
         const v=read(),s=v.session;let html='';
         if(!s||setup)html=setupHTML(v);
@@ -113,6 +114,7 @@ window.HazzardSimulation = (() => {
         }
         host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page sim-page">'+(error||backgroundError?'<p role="alert">'+esc(error||backgroundError)+'</p>':'')+html+'</div>';
         for(const img of host.querySelectorAll('img'))img.onerror=()=>{img.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to download it.'}));};
+        if(s?.status==='submitted'&&host.querySelector('.mcq-explanation')){const q=questions(s,all)[s.position];window.HazzardAnswerHighlights?.attach(host.querySelector('.mcq-explanation'),q,q.o.map((_,i)=>i));}
         tick();requestAnimationFrame(remember);
       }catch(e){host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="alert">'+esc(e.message)+'</p></div>';}
     }

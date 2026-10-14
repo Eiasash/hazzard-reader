@@ -5,6 +5,7 @@ window.HazzardStorage = (() => {
   const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
   const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add('hazzard-removals-v1');
+  keys.add(HazzardAnswerHighlights.KEY);
   keys.add(HazzardMCQ.MIGRATION_KEY);
   keys.add(HazzardMCQ.VIEW_KEY);
   keys.add(HazzardMCQ.SETTINGS_KEY);
@@ -84,6 +85,7 @@ window.HazzardStorage = (() => {
   else if(key===DRILL_KEY)valid=isRecord(value)&&(value.chapters===undefined||isRecord(value.chapters)&&Object.entries(value.chapters).every(([id,p])=>/^(?:\d+s|laws)$/.test(id)&&progress(p)));
   else if(key===READING_KEY)valid=isRecord(value)&&isRecord(value.chapters)&&Object.values(value.chapters).every(p=>isRecord(p)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&typeof p.read==='boolean');
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
+  else if(key===HazzardAnswerHighlights.KEY)valid=HazzardAnswerHighlights.valid(value);
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
   else if(key===HazzardMCQ.SETTINGS_KEY)valid=HazzardMCQ.validSettings(value);
@@ -111,8 +113,9 @@ window.HazzardStorage = (() => {
     }catch{return false;}
   }
   // Unreadable stores stay byte-for-byte intact until an explicit recovery.
-  const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||highlightKey(key);
+  const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||key===HazzardAnswerHighlights.KEY||highlightKey(key);
   const protectedStores=new Map([
+    [HazzardAnswerHighlights.KEY,{label:'Answer-key highlights',fresh:'answer-key highlights',empty:HazzardAnswerHighlights.empty}],
     [PLACE_KEY,{label:'Reading place',fresh:'reading place',empty:()=>({chapters:{}})}],
     [BOOKMARK_KEY,{label:'Bookmarks',fresh:'bookmarks',empty:()=>[]}],
     [READING_KEY,{label:'Reading progress',fresh:'reading progress',empty:()=>({chapters:{}})}],

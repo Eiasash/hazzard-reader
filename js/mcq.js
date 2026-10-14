@@ -856,7 +856,7 @@ window.HazzardMCQ = (() => {
     }
     const controller={active:false,search(){saveView();if(mockMode)history.replaceState({...history.state,mcqMockView:{building,articleSelected}},'');search.open();},get hasUnsaved(){return pending.size>0||paperPending},sync,save,remember:saveView,
       show(source){if(source==='past'){filter='past';position=0;history.replaceState({...history.state,mcqView:null},'');}if(!bankMode&&!mockMode)history.replaceState({...history.state,hazzardStudyMode:"questions"},'');selectTab('questions');controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else{const place=savedView?readPracticePlace():null;if(place?.screen==='saved')restoringView=true;rebuildAnswered();render();if(restoringView&&place)restoreScroll(place);}},
-      notes(){if(bankMode||mockMode)return;history.replaceState({...history.state,hazzardStudyMode:"notes"},'');selectTab('notes');saveView();lastAnswer=null;controller.active=false;host.hidden=true;readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
+      notes(){if(bankMode||mockMode)return;history.replaceState({...history.state,hazzardStudyMode:"notes"},'');selectTab('notes');saveView();lastAnswer=null;controller.active=false;host.hidden=true;window.HazzardAnswerHighlights?.attach(null);readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
     };
     const search=HazzardQuestionSearch.mount({
       getItems:async all=>{if(!loaded)throw Error('Questions are still loading. Try again.');return (await HazzardQuestionData.hydrate((all?items:mockMode?builderPool(true):flagsView?visible(true,true).filter(q=>activeFlags().some(([id])=>id===q.id)):visible(true,true)).filter(q=>!q.retired))).map(q=>({id:q.id,label:sourceLabel(q),stem:q.q,note:excluded(q.id)?EXCLUDED_NOTE:standoutHidden(q.id)?'Hidden by Practice settings':'',text:[q.id,q.q,...q.o,q.explanation].join(' ')}));},
@@ -1008,6 +1008,7 @@ window.HazzardMCQ = (() => {
     function render(bodyOnly=false){
       if(mockMode){const title=document.getElementById('chapterHeaderTitle');title.textContent=title.title=building?'Mock builder':'Mock paper';}
       const turn=++bodyTurn;
+      window.HazzardAnswerHighlights?.attach(null);
       recoveringPlace ||= HazzardStorage.blockedKeys().includes(PLACE_KEY);
       requestAnimationFrame(savePracticePlace);
       if(mockMode&&building){renderBuilder();return;}
@@ -1038,6 +1039,7 @@ window.HazzardMCQ = (() => {
         (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="rtl" role="status">'+(correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p>'+(q.kind==='past'&&order.some((n,i)=>n!==i)?'<p class="mcq-source-note mcq-official-order" dir="ltr">Options shuffled. Official paper order: answer '+accepted.map(i=>letters[i]).join(', ')+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he"><h3 dir="rtl">הסבר</h3><div class="mcq-mixed" dir="auto">'+(explanationHTML(q,order))+'</div></section>':'')+citationHTML(q);
       if(state.checked&&(q.explanationReviewNote||q.explanationIncomplete)){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.lang='en';note.textContent=q.explanationReviewNote||'Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
+      if(state.checked&&!mockMode)window.HazzardAnswerHighlights?.attach(content.querySelector('.mcq-explanation'),q,order);
       if(q.kind==='past'&&!mockMode)HazzardLawCards.questionLinks(content,q.id);
       saveView();
     }
@@ -1248,4 +1250,91 @@ window.HazzardMCQ = (() => {
     return controller;
   }
   return {LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,explanationHTML,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,preload,mount};
+})();
+
+/* Answer-key anchors share the reader's range renderer and toolbar. Chapter
+   marks, option order, explanation HTML and answer stores are never changed. */
+window.HazzardAnswerHighlights = (() => {
+  const KEY='hazzard-answer-highlights-v1',colours=['yellow','green','blue'];
+  const empty=()=>({version:1,items:{}}),record=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
+  const valid=v=>record(v)&&v.version===1&&record(v.items)&&Object.entries(v.items).every(([id,m])=>/^a[\w-]+$/.test(id)&&record(m)&&typeof m.questionId==='string'&&m.questionId.length>0&&['main','option'].includes(m.region)&&(m.region==='main'?m.optionIndex===undefined:Number.isInteger(m.optionIndex)&&m.optionIndex>=0)&&typeof m.text==='string'&&m.text.length>0&&typeof m.prefix==='string'&&typeof m.suffix==='string'&&colours.includes(m.colour)&&Number.isFinite(m.at)&&m.at>=0&&Number.isFinite(m.updatedAt)&&m.updatedAt>=m.at&&typeof m.removed==='boolean');
+  function merge(a,b){const out=empty();for(const value of [a,b]){if(value==null)continue;if(!valid(value))throw Error('Answer highlights could not be read. Saved data kept.');for(const [id,m] of Object.entries(value.items)){const old=out.items[id];if(!old||m.updatedAt>old.updatedAt||m.updatedAt===old.updatedAt&&m.removed)out.items[id]={...m};}}return out;}
+  function read(){const value=HazzardStorage.readProtected(KEY,empty);if(!valid(value))throw Error('Answer highlights could not be read. Saved data kept.');return value;}
+  const items=()=>Object.entries(read().items).filter(([,m])=>!m.removed).map(([id,m])=>({id,...m}));
+  function write(value){if(HazzardStorage.blockedKeys().includes(KEY))throw Error('Answer highlights could not be read. Restore them before saving.');HazzardStorage.setItem(KEY,JSON.stringify(value));dispatchEvent(new Event('hazzard-answer-highlights-change'));}
+  function setRemoved(id,removed){const value=read(),m=value.items[id];if(!m||m.removed===removed)return;value.items[id]={...m,removed,updatedAt:Math.max(Date.now(),m.updatedAt+1)};write(value);}
+  let current=null,pending=null,selectedId=null;
+  const bridge=()=>window.HazzardHighlighter;
+  function available(){return !!(current?.root.isConnected&&!current.root.closest('[hidden]')&&!current.root.closest('[inert]'));}
+  function regionIndex(root,region,optionIndex){
+    if(region==='option'&&!root.querySelector('.mcq-option-explanation[data-option-index="'+optionIndex+'"] .mcq-option-reason'))return null;
+    return bridge().textIndex(root,n=>{
+      if(n.parentElement.closest('.mcq-source-note,.mcq-explanation-icon,[data-answer-heading]'))return false;
+      const block=n.parentElement.closest('.mcq-option-explanation');
+      return region==='option'?!!block&&Number(block.dataset.optionIndex)===optionIndex&&!!n.parentElement.closest('.mcq-option-reason'):!block;
+    });
+  }
+  function canonicalRoot(q){const root=document.createElement('div');root.innerHTML=HazzardMCQ.explanationHTML(q,q.o.map((_,i)=>i));return root;}
+  function findAnchor(text,m){
+    let best=-1,score=-1,from=0,at;
+    while((at=text.indexOf(m.text,from))!==-1){let n=0;const pre=text.slice(Math.max(0,at-m.prefix.length),at),suf=text.slice(at+m.text.length,at+m.text.length+m.suffix.length);for(let i=1;i<=pre.length&&pre[pre.length-i]===m.prefix[m.prefix.length-i];i++)n++;for(let i=0;i<suf.length&&suf[i]===m.suffix[i];i++)n++;if(n>score){best=at;score=n;}from=at+1;}
+    return best;
+  }
+  function clearPaint(root){for(const span of root.querySelectorAll('[data-answer-highlight]')){const parent=span.parentNode;span.replaceWith(...span.childNodes);parent.normalize();}}
+  function repaint(){
+    if(!current||!bridge())return;clearPaint(current.root);
+    const source=canonicalRoot(current.q);
+    for(const m of items().filter(m=>m.questionId===current.q.id)){
+      const canonical=regionIndex(source,m.region,m.optionIndex),shown=regionIndex(current.root,m.region,m.optionIndex);
+      if(!canonical||!shown||canonical.s.length!==shown.s.length)continue;
+      const start=findAnchor(canonical.s,m);if(start<0)continue;
+      for(const span of bridge().wrapIndexRange(shown,start,start+m.text.length,m.id,m.colour))span.dataset.answerHighlight=m.id;
+    }
+  }
+  function regions(){if(!current||!bridge())return [];const source=canonicalRoot(current.q),out=[{region:'main'}];for(const optionIndex of new Set([...source.querySelectorAll('.mcq-option-explanation')].map(block=>Number(block.dataset.optionIndex))))out.push({region:'option',optionIndex});return out.map(r=>({...r,text:regionIndex(source,r.region,r.optionIndex)?.s||''}));}
+  function selection(){
+    if(!available()||!bridge())return null;
+    const selection=getSelection();if(!selection||selection.isCollapsed||selection.rangeCount!==1)return null;
+    const range=selection.getRangeAt(0);if(!current.root.contains(range.startContainer)||!current.root.contains(range.endContainer))return null;
+    const parent=n=>n.nodeType===Node.ELEMENT_NODE?n:n.parentElement;
+    const a=parent(range.startContainer).closest('.mcq-option-explanation'),b=parent(range.endContainer).closest('.mcq-option-explanation');
+    if(a!==b)return null;
+    const region=a?'option':'main',optionIndex=a?Number(a.dataset.optionIndex):undefined,shown=regionIndex(current.root,region,optionIndex),canonical=regionIndex(canonicalRoot(current.q),region,optionIndex);
+    if(!shown||!canonical||shown.s.length!==canonical.s.length)return null;
+    const selected=[];for(let i=0;i<shown.nodes.length;i++){const n=shown.nodes[i],o=shown.offs[i];if(range.comparePoint(n,o)>=0&&range.comparePoint(n,o+1)<=0)selected.push(i);}
+    if(!selected.length)return null;let start=selected[0],end=selected[selected.length-1]+1;
+    while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
+    return {questionId:current.q.id,region,...(a?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
+  }
+  function captureSelection(){const mark=selection();if(mark){pending=mark;selectedId=null;return true;}return false;}
+  function saveSelection(colour){
+    const mark=selection()||pending;if(!mark||!available()||mark.questionId!==current.q.id)return false;
+    const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
+    value.items[id]={...mark,at,colour:colours.includes(colour)?colour:'yellow',removed:false,updatedAt:at};write(value);pending=null;selectedId=null;getSelection()?.removeAllRanges();return id;
+  }
+  function resetSelection(){pending=null;selectedId=null;}
+  const selectionState=()=>({canSave:!!pending,canRemove:!!selectedId});
+  function removeSelected(){if(!selectedId)return false;setRemoved(selectedId,true);resetSelection();return true;}
+  function attach(root,q,order){
+    current=root&&q?{root,q,order}:null;resetSelection();
+    if(root&&q){root.querySelector(':scope > h3')?.setAttribute('data-answer-heading','');repaint();root.onclick=e=>{const mark=e.target.closest('[data-answer-highlight]');if(mark&&getSelection()?.isCollapsed){selectedId=mark.dataset.answerHighlight;pending=null;dispatchEvent(new Event('hazzard-answer-highlight-selection'));}};}
+    dispatchEvent(new Event('hazzard-answer-highlights-ready'));
+  }
+  async function notebookItems(){
+    const marks=items();if(!marks.length)return [];
+    const [catalog,evidence]=await Promise.all([HazzardQuestionData.catalog(),HazzardEvidence.load()]),map=new Map(catalog.map(q=>[q.id,q]));
+    await HazzardQuestionData.hydrate([...new Set(marks.map(m=>map.get(m.questionId)).filter(Boolean))]);
+    return marks.map(m=>{
+      const q=map.get(m.questionId),ref=evidence.questions[m.questionId];let chapter=null,sitting=null,sittingLabel='',questionNumber=null,label=m.questionId,unplaced=true;
+      if(q){const hazzard=/^Hazzard(?: practice)?$/i.test(q.sourceType||'')||!q.sourceType&&(/Hazzard/i.test(q.ref||'')||/^\d+$/.test(q.chapter||'')&&!q.law&&!q.suppliedArticle);if(hazzard)chapter=(ref?.chapters?.length?ref.chapters:[q.bookChapter||q.chapter]).map(String).find(c=>/^\d+$/.test(c))||null;
+        label=HazzardMCQ.sourceLabel(q);if(q.kind==='past'){sitting=ref?.sitting||q.t||null;sittingLabel=label.replace(/\s*\u00b7 Q\d+$/,'');questionNumber=q.examNumber??ref?.number??null;}
+        const ix=regionIndex(canonicalRoot(q),m.region,m.optionIndex);unplaced=!ix||findAnchor(ix.s,m)<0;
+      }
+      return {...m,chapter,sitting,sittingLabel,questionNumber,label,unplaced};
+    });
+  }
+  addEventListener('hazzard-answer-highlights-change',()=>{repaint();dispatchEvent(new Event('hazzard-answer-highlights-ready'));});
+  addEventListener('storage',e=>{if(e.key===KEY){resetSelection();repaint();dispatchEvent(new Event('hazzard-answer-highlights-change'));}});
+  addEventListener('pageshow',e=>{if(e.persisted)repaint();});
+  return {KEY,empty,valid,merge,read,items,setRemoved,notebookItems,attach,available,regions,selection,captureSelection,selectionState,saveSelection,removeSelected,resetSelection};
 })();

@@ -225,3 +225,9 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .stats-barely-line{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:calc(11px*var(--fs,1));border-bottom:1px solid var(--rule)}
 .stats-barely-line span{flex-shrink:0;white-space:nowrap}.stats-barely-line a{display:flex;align-items:center;min-height:44px;flex:1;min-width:0}
 a.stats-sitting{color:inherit;text-decoration:none;min-height:44px}a.stats-sitting h3{text-decoration:underline;color:var(--accent)}
+
+/* The reader range marks and toolbar also annotate visible answer keys. */
+.mcq-explanation .hl-range[data-marked]{background:var(--mark-colour);color:var(--hl-ink);border-radius:0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.mcq-explanation .hl-range[data-answer-highlight]{cursor:pointer}
+body.mark-bar-open #mcqViewport{padding-bottom:calc(68px*var(--fs,1))}
+#markBar:has(#markSelection:not([hidden])) button{padding:calc(4px*var(--fs,1)) calc(6px*var(--fs,1));min-height:calc(44px*var(--fs,1));min-width:calc(44px*var(--fs,1))}
