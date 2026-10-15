@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v262",
+      "date": "2026-10-15",
+      "changes": [
+        "Cross out answer options: tap the strike mark on an option to eliminate it before you answer; tap again to undo. Crosses reset when the app reloads."
+      ]
+    },
+    {
       "version": "v261",
       "date": "2026-10-15",
       "changes": [
