@@ -1,5 +1,5 @@
 {
-  "version": "v260",
+  "version": "v261",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5968,13 +5968,13 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "1c26878fda87aee61927f6a8de56d29b8fda9a1951c4ef93e3675726db7028ab",
-      "bytes": 5841
+      "sha256": "f54a0bd7f570763ae51d1bb64ca372e2a79680ada23f26817c7699f69b3f50d7",
+      "bytes": 5926
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "c3a82c97e79cb60721b74520a9bb1d3cdd7371c8c7f21735aa9ac94333ab8fbe",
-      "bytes": 58327
+      "sha256": "0d804fb24d2e2d05c749c4e93c44edf1ca80f9ea2c5b278c15196eae8d0c728f",
+      "bytes": 58522
     },
     {
       "url": "./data/drug-index.json",
@@ -6383,8 +6383,8 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "f0a23880cecd703a9eab2bd1e6b75bb95b109849d93b65f17a2c849800cd61b4",
-      "bytes": 7340944
+      "sha256": "adbbd9aca3d3d9aa87fac6a8836b36182a999e6745704299ab8d92223dfbb989",
+      "bytes": 7340940
     },
     {
       "url": "./data/mcq/catalog.json",
@@ -6493,8 +6493,8 @@
     },
     {
       "url": "./data/mcq/chunks/14.json",
-      "sha256": "4a39712dabebf0a6de134b342a1dc7a49fba285e343ab45e17e97f3d86e0160b",
-      "bytes": 28011
+      "sha256": "2cd2604f05b83ff466a0c8e02aa1c063191b9a4a7d2ce8aa51af66dd788eadb1",
+      "bytes": 28007
     },
     {
       "url": "./data/mcq/chunks/15.json",
@@ -7973,8 +7973,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "df182c4e653dac7877dcc51c82b9c2c7efb4466cb554925a90a85d7a1a5bf504",
-      "bytes": 934670
+      "sha256": "586644048ee398085dd634a8e4ee63986a473852452048a295ad73dee1c78416",
+      "bytes": 934745
     },
     {
       "url": "./js/changed-questions.js",
@@ -8043,7 +8043,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "306f9a8ee69fdfa47cfac6985191d4a73ee4de4439a6de4fe418e413ac0f6b47",
+      "sha256": "ca86e4be98e002e6c5e690622621bb5b636c9041858d876e20289ab0fc9a838b",
       "bytes": 8228
     },
     {

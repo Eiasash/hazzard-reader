@@ -39,8 +39,6 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 
 ## Cosmetic list (doesn't block anything)
 - ch75 Table 75-6 ghost title bar baked into the scan; cropping it out would remove the caption. The marked PDF has no separate annotations to remove.
-- Notebook: on Hebrew answer-key rows the x remove button sits flush against the end of the text line with no gap (seen on v256 phone screenshots); readable and tappable.
-- Notebook: on the Question bank page the "Your highlights in Question bank. No highlights in this chapter yet." line shows above the saved places while answer-key highlights exist below it under "Law and articles" and "By exam cycle" (seen on v258, live-checked 14 Oct); nothing is lost.
 - Answer-key tap highlight (v259): 16 main-region fragments of 3 non-space characters or fewer remain their own tap, each a lone list number or percentage such as "12.", "E4.", "4%"; harmless.
 
 ## Reader behavior
