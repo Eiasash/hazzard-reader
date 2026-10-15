@@ -46,6 +46,7 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 #panelExpand:focus:not(:focus-visible){outline:none}
 
 /* Answer-key excerpts use the existing Notebook rows and actions. */
+.nb-answer-highlight>.nb-highlight-remove{margin-inline-start:calc(8px*var(--fs,1))}
 .nb-answer-text{display:block;white-space:pre-wrap;overflow-wrap:anywhere}
 .nb-answer-highlight small{display:block;margin-block-start:calc(3px*var(--fs,1));line-height:1.4;overflow-wrap:anywhere}
 .nb-answer-list{margin-block:calc(4px*var(--fs,1)) calc(8px*var(--fs,1))}
