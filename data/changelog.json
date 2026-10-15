@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v261",
+      "date": "2026-10-15",
+      "changes": [
+        "Fixed a stray space in one option of a law question, and two small Notebook layout details."
+      ]
+    },
+    {
       "version": "v260",
       "date": "2026-10-14",
       "changes": [
