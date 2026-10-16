@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v263",
+      "date": "2026-10-16",
+      "changes": [
+        "Cross-out marks now start fresh with every new exam, mock or redo; they no longer carry over from an earlier attempt."
+      ]
+    },
+    {
       "version": "v262",
       "date": "2026-10-15",
       "changes": [

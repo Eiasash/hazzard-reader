@@ -1059,6 +1059,7 @@ window.HazzardMCQ = (() => {
     }
     function newPaper(){
       const chosen=shuffle(builderPool()).slice(0,settings.length);if(!chosen.length)return;
+      crossed.clear();
       paper={size:settings.length,ids:chosen.map(q=>q.id),answers:{},finished:false,retry:false,position:0,at:Date.now()};position=0;building=false;paperPending=true;save();
       const url=new URL(location.href);url.searchParams.delete('n');url.searchParams.set('run','1');history.replaceState(history.state,'',url);
     }
@@ -1079,7 +1080,7 @@ window.HazzardMCQ = (() => {
         }
         if(redoMode)redoIds=new Set(HazzardChanged.pending(await HazzardChanged.load(),HazzardChanged.answers()).map(q=>q.id));
         else await HazzardReview.seed();
-        if(reviewMode){reviewBatch=HazzardReview.batch(items.filter(q=>!excluded(q.id)));position=reviewDisplayPosition();}
+        if(reviewMode){const previousDay=HazzardReview.read().batch?.day;reviewBatch=HazzardReview.batch(items.filter(q=>!excluded(q.id)));if(reviewBatch.day!==previousDay)crossed.clear();position=reviewDisplayPosition();}
         lawIds=new Set(collections.israeliLawEthics.ids);articleIds=new Set(collections.suppliedArticles?.ids||[]);
         if(mockMode){
           const url=new URL(location.href),n=url.searchParams.get('n');
@@ -1093,6 +1094,7 @@ window.HazzardMCQ = (() => {
         if(bankMode&&!reviewMode&&!redoMode&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
         const explicitMissed=bankMode&&location.hash==='#missed'&&new URL(location.href).searchParams.get('practiceResume')!=='1';
         const samePlace=!explicitMissed&&!(mockMode&&new URL(location.href).searchParams.get('n')==='builder')&&!new URL(location.href).searchParams.has('statsFilter')&&!target&&resumePlace&&resumePlace.screen===practiceScreen();
+        if(!samePlace&&(redoMode||explicitMissed))crossed.clear();
         if(samePlace){
           if(resumePlace.screen==='missed'){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{view=null;}}
           if(resumePlace.view&&!reviewMode&&!redoMode)view=resumePlace.view;
@@ -1188,7 +1190,7 @@ window.HazzardMCQ = (() => {
       if(button.dataset.unflagAnswer){changeAnswerFlag(button.dataset.unflagAnswer,Number(button.dataset.flagAt));return;}
       if(button.dataset.undoFlag){writeFlag({id:button.dataset.undoFlag},true);render();return;}
       if(action==='reshuffle'){seed=newSeed(seed);rebuildAnswered();position=0;render();host.scrollTop=0;host.querySelector('[data-mcq="reshuffle"]')?.focus({preventScroll:true});return;}
-      if(action==='missed'){missedOnly=!missedOnly;missedIds=null;retryAnswers.clear();if(!missedOnly)rebuildAnswered();position=0;render();host.querySelector('[data-mcq="missed"]')?.focus({preventScroll:true});return;}
+      if(action==='missed'){missedOnly=!missedOnly;if(missedOnly)crossed.clear();missedIds=null;retryAnswers.clear();if(!missedOnly)rebuildAnswered();position=0;render();host.querySelector('[data-mcq="missed"]')?.focus({preventScroll:true});return;}
       if(button.dataset.length){settings.length=Number(button.dataset.length);save();render();return;}
       if(button.dataset.source==='practice'&&mockMode){changeSetting('generatedSelected',!generatedSelected);return;}
       if(button.dataset.source==='drill'){changeSetting('drillSelected',!drillSelected);return;}
@@ -1205,7 +1207,7 @@ window.HazzardMCQ = (() => {
       if(button.dataset.filter){filter=button.dataset.filter;position=0;render();host.scrollTop=0;return;}
       const list=visible();
       if(action==='review'){paper.finished=false;position=0;save();render();host.scrollTop=0;return;}
-      if(action==='retry-missed'){const missed=list.filter(q=>{const s=stateFor(q);return !s.checked||!q.accepted.includes(s.selected)});paper.ids=[...new Set(missed.map(q=>q.id))];paper.answers={};paper.finished=false;paper.retry=true;position=0;save();render();host.scrollTop=0;return;}
+      if(action==='retry-missed'){const missed=list.filter(q=>{const s=stateFor(q);return !s.checked||!q.accepted.includes(s.selected)});crossed.clear();paper.ids=[...new Set(missed.map(q=>q.id))];paper.answers={};paper.finished=false;paper.retry=true;position=0;save();render();host.scrollTop=0;return;}
       const q=list[position];if(!q)return;if(button.dataset.image!==undefined){openImage(button.querySelector('img'));return;}
       if(button.dataset.page){const p=evidence.questions[q.id]?.pages.find(p=>p.page===Number(button.dataset.page)&&p.available)||practicePage(q);if(p){saveView();HazzardEvidence.openPage(p,history.state.mcqView);}return;}
       if(action==='generated-flag'&&generated(q)){
