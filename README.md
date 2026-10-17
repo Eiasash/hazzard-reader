@@ -4,15 +4,14 @@
 
 Personal, phone-first study site for *Hazzard's Geriatric Medicine and Gerontology*, 8th edition, built for the Israeli geriatrics board exam (Shlav A). The book is canonical; this site is for access and digestion, not a certified transcription. Not a general resource.
 
-## What's on it (05 Oct 2026, cache v89)
+## What's on it
 
-- **72 chapters**: 8, 9, 11, 15, 16, 22, 27, 30, 31, 34, 38, 39, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 55, 57, 58, 59, 60, 61, 62, 63, 64, 65, 67, 68, 69, 70, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108 - full text from the book with inline printed-page markers (`pNNN`), tables as text or tight upright crops.
-- **Study pages for 55 Read chapters and additional study-only chapters** (`?chapter=NNs`, e.g. `?chapter=58s`): summaries and drills or exam-cited source images, retained in their existing format (chapters 11, 30, 34, 38, 62, 64, 69, 70, 72, 78, 79, 80, 84, 90, 93, 94, 100 have Read and Exam questions only); chapters with 2026 exam questions include them with the official keys.
-- **Israeli law block** (`?chapter=law`, study drill `?chapter=laws`, Hebrew): Dying Patient Law, Patient's Rights Law, Legal Capacity and Guardianship Law (enduring power of attorney), MoH circulars MR 20/2009 and MK 8/2018, geriatric-hospital procedures 0.2.1 and 3.4.2, Brookdale 65+ yearbook (2025, compared with 2023). Primary sources, not Hazzard.
-- Reader controls stay below the text, with Small/Medium/Large sizes (Large is 19px at the standard root size), direct chapter/study and previous/next links, and phone Back navigation.
-- Study drills and 20/50/100-question mock papers keep revealed answers and Got it/Missed self-grades, with retry-missed views.
-- Highlights, saved places and the 25/5/5 timer survive navigation and reload.
-- Works offline after Reading tools shows **Offline ready**. A failed update leaves the old service worker and its complete caches active; the next visit retries installation.
+- **108 chapters** with Read pages and **108 Study pages** for summaries and drills.
+- **Israeli law block** (`?chapter=law`, study `?chapter=laws`, Hebrew): end-of-life and patient rights, legal capacity and guardianship, enduring power of attorney, Ministry of Health circulars, geriatric-hospital procedures and Brookdale data.
+- **Question bank:** 800 official past-paper questions and 2,097 practice questions, including 60 retired practice questions that are not served.
+- Highlights and saved places are collected in the **Notebook**; reading position is saved per chapter and restored when reopened.
+- **Small/Medium/Large** text sizes, Chapter/Study links and previous/next chapter navigation.
+- Works offline after **Text & appearance** shows **offline ready**.
 
 ## How it was checked
 

@@ -9,7 +9,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - Per-question audit history: `C:\Users\eiasa\tmp\audit\question_registry.json` (+ .csv), rebuilt by `build_registry.py` in that folder after each release. Any job on questions starts from it.
 - The question bank is closed to database-wide work after v244 (fin1): no audits or sweeps across it; a question changes only when Eias reports an error, and it is fixed from the source.
 - Release log: `data/changelog.json`. Release reports: `C:\Users\eiasa\Documents\Codex\<date>\<job>\report.md`. Release notes for v32 to v137 and the build history: `HISTORY.md`.
-- Workflow: the `hazzard-chapter-build` skill. Codex builds from prompts signed by the project's release lane (lane protocol: project doc `claude/LANE_PROTOCOL.md` in the claude.ai project).
+- Workflow: the `hazzard-chapter-build` skill. Codex builds from prompts issued by the project's release lane (lane protocol: project doc `claude/LANE_PROTOCOL.md` in the claude.ai project).
 - Next-fix list (small content fixes waiting for a release): `C:\Users\eiasa\tmp\next_fix_list.txt`.
 
 ## Storage (never rename, never drop)
