@@ -7,7 +7,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - MCQ bank: `data/mcq/all.json` holds 2,897 questions — 800 official past-paper (Subspecialty track only) and 2,097 practice, of which 60 practice are retired and never served. The app loads a small catalogue plus 256 chunks generated from all.json by `python tools/generate_question_data.py` (also run by `tools/generate_asset_list.py`). Exam simulation is official-only.
 - Explanations render per-option lines in on-screen order, each in a framed block with a green tick (key or accepted option) or red cross; prose without per-option lines gets no marks.
 - Per-question audit history: `C:\Users\eiasa\tmp\audit\question_registry.json` (+ .csv), rebuilt by `build_registry.py` in that folder after each release. Any job on questions starts from it.
-- The question bank is closed to database-wide work after v244 (fin1): no audits or sweeps across it; a question changes only when Eias reports an error, and it is fixed from the source.
+- Question-bank scope and release obligations: C:\Users\eiasa\ai-relay\cowork\CURRENT_SETUP.md, MERGES / APPROVALS (hazzard-reader).
 - Release log: `data/changelog.json`. Release reports: `C:\Users\eiasa\Documents\Codex\<date>\<job>\report.md`. Release notes for v32 to v137 and the build history: `HISTORY.md`.
 - Workflow: the `hazzard-chapter-build` skill. Codex builds from prompts issued by the project's release lane (lane protocol: project doc `claude/LANE_PROTOCOL.md` in the claude.ai project).
 - Next-fix list (small content fixes waiting for a release): `C:\Users\eiasa\tmp\next_fix_list.txt`.
@@ -26,7 +26,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - Study pages: keep the book's qualifiers (up to / may / in one study / estimated / in the US) and conditions; answers inside one-line `<details>` need `<strong>`, not `**`.
 - Crops: tight, upright, table/figure + caption + footnotes only; verify full-size against the page (thumbnails miss truncation).  No "highlighting is the owner's annotation" note (Eias's request — he knows).
 - After release edits, run `python tools/generate_asset_list.py` to refresh `asset-list.json` (all files, SHA-256 fingerprints and byte sizes); commit the list with the release. The static site still has no framework or build step.
-- Every deploy bumps `CACHE_VERSION` in `sw.js`; the SW must only delete `hazzard-*` caches (origin shared with Stage A, Geriatrics, InternalMedicine, FamilyMedicine, ward-helper, Toranot — all do the same).
+- Release obligations (including the `CACHE_VERSION` bump in `sw.js`): C:\Users\eiasa\ai-relay\cowork\CURRENT_SETUP.md, MERGES / APPROVALS (hazzard-reader). The SW must only delete `hazzard-*` caches (origin shared with Stage A, Geriatrics, InternalMedicine, FamilyMedicine, ward-helper, Toranot — all do the same).
 - Verify on the live URL at 360×644 in light and dark before calling anything done; report in ≤3 lines, including what wasn't tested.
 
 ## Source
