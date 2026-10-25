@@ -76,6 +76,14 @@ window.HazzardMCQ = (() => {
     const value=readSaved(),question=!!value.questions[currentId(q.id)]?.saved,ids=membership(q).map(String),topic=ids.every(id=>value.topics[id]?.saved);
     return badButton(q)+'<button data-revision="questions" data-revision-ids="'+currentId(q.id)+'" aria-pressed="'+question+'">'+(question?'Saved':'Save question')+'</button><button data-revision="topics" data-revision-ids="'+ids.join(',')+'" aria-pressed="'+topic+'">'+(topic?'Topic saved':'Save topic')+'</button>';
   }
+  // Move the live controls, keeping their handlers, state and focus targets.
+  function dockActions(host){
+    const page=host.querySelector('.mcq-page'),bar=page?.querySelector('.mcq-actions,.sim-actions');
+    if(!bar)return;
+    for(const button of page.querySelectorAll('[data-mcq="unsure"],[data-revision="questions"],[data-sim="flag"]'))bar.append(button);
+    bar.classList.add('mcq-docked-actions');
+    page.append(bar);
+  }
   function revisionStatus(){return badStatus()+(revisionNotice?'<p class="meta mcq-revision-status" role="status">'+escape(revisionNotice)+(revisionUndo?' <button data-revision="undo">Undo</button>':'')+'</p>':'');}
   document.addEventListener('click',event=>{
     const button=event.target.closest('[data-revision]');if(!button||button.disabled)return;
@@ -1017,6 +1025,7 @@ window.HazzardMCQ = (() => {
     function render(bodyOnly=false){
       if(mockMode){const title=document.getElementById('chapterHeaderTitle');title.textContent=title.title=building?'Mock builder':'Mock paper';}
       const turn=++bodyTurn;
+      host.querySelector('.mcq-docked-actions')?.remove();
       window.HazzardAnswerHighlights?.attach(null);
       recoveringPlace ||= HazzardStorage.blockedKeys().includes(PLACE_KEY);
       requestAnimationFrame(savePracticePlace);
@@ -1050,6 +1059,7 @@ window.HazzardMCQ = (() => {
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       if(state.checked&&!mockMode)window.HazzardAnswerHighlights?.attach(content.querySelector('.mcq-explanation'),q,order);
       if(q.kind==='past'&&!mockMode)HazzardLawCards.questionLinks(content,q.id);
+      dockActions(host);
       saveView();
     }
     function builderPool(includeHidden=false){
@@ -1074,7 +1084,7 @@ window.HazzardMCQ = (() => {
         bookChapters=toc.chapters;
         chapterTitles=Object.fromEntries(bookChapters.map(c=>[c.chapter,c.title]));
         const studyOnly=!!evidence.study[chapter]?.studyOnly;
-        [items]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):(bankMode||mockMode?HazzardQuestionData.catalog():json('data/mcq/'+chapter+'.json')),loadAliases()]);
+        [items]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):(bankMode||mockMode||/^\d+$/.test(chapter)?HazzardQuestionData.catalog():json('data/mcq/'+chapter+'.json')),loadAliases()]);
         if(!bankMode&&!mockMode){const all=await HazzardQuestionData.catalog(),canonical=new Map(all.map(q=>[q.id,q]));items=/^\d+$/.test(chapter)?all.filter(q=>String(q.chapter)===chapter):items.map(q=>canonical.get(q.id)||q);}
         if(evidence.study[chapter]||readOnlyChapter){
           const ids=new Set(HazzardEvidence.studyIds(evidence,chapter)),all=await HazzardQuestionData.catalog();
@@ -1268,7 +1278,7 @@ window.HazzardMCQ = (() => {
     sync();addEventListener('storage',event=>{if(event.key===KEY||event.key===PAPER_KEY||event.key===FLAGS_KEY||event.key===GENERATED_FLAGS_KEY||event.key===SAVED_KEY||event.key===SYSTEM_KEY||event.key===HazzardReview.KEY||event.key===null)sync()});addEventListener('pageshow',event=>{if(event.persisted)sync()});
     return controller;
   }
-  return {crossed,LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,optionOrder,linkedOptions,explanationText,explanationHTML,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,preload,mount};
+  return {crossed,LOG_KEY,BAD_KEY,emptyLog,emptyBad,validLog,validBad,mergeLog,mergeBad,readBad,bad,rawValue,currentAnswers,logAction,appendLog,persistedAnswer,retired,sourceTitle,SETTINGS_KEY,PLACE_KEY,validPracticePlace,validSettings,settingsFromRaw,readSettings,mergeSettings,refreshSettings,readPracticePlace,rememberPractice,practiceURL,SAVED_KEY,emptySaved,validSaved,mergeSaved,readSaved,revisionButtons,revisionStatus,dockActions,optionOrder,linkedOptions,explanationText,explanationHTML,excluded,standoutHidden,standoutCount,EXCLUDED_NOTE,rich,stemHTML,membership,readStore,sourceLabel,KEY,PAPER_KEY,FLAGS_KEY,GENERATED_FLAGS_KEY,validGeneratedFlags,SYSTEM_KEY,VIEW_KEY,validView,mergeView,MIGRATION_KEY,loadAliases,migrateSaved,migrateValue,currentId,validSystem,mergeSystem,validStore,validPaper,validFlags,mergeStore,mergePaper,mergeFlags,readPaper,loadIndex,preload,mount};
 })();
 
 /* Answer-key anchors share the reader's range renderer and toolbar. Chapter

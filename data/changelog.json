@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v266",
+      "date": "2026-10-25",
+      "changes": [
+        "Question screens keep Prev, Next and your marking buttons pinned at the bottom, so you no longer scroll down after every answer; updates download less, because question files the app never reads are no longer fetched."
+      ]
+    },
+    {
       "version": "v265",
       "date": "2026-10-25",
       "changes": [

@@ -36,7 +36,7 @@ if count != 1:
 index_path.write_text(html, encoding='utf-8', newline='\n')
 print(f'Generated dimensions for {len(image_sizes)} chapter images')
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
-paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/all.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
+paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
 paths.update(question_files)
 paths.update({'js/question-data.js','data/verification-registry.json','data/mark-unit-registry.json'})
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
@@ -45,7 +45,9 @@ paths.add('js/stats.js')
 paths.add('data/redo-history.json')
 for chapter in [*mcq_index, 'all']:
     path = f'data/mcq/{chapter}.json'
-    paths.add(path)
+    # Numeric chapters use the catalogue; retain every question image and nonnumeric file.
+    if chapter != 'all' and not str(chapter).isdigit():
+        paths.add(path)
     for question in json.loads((ROOT / path).read_text(encoding='utf-8')):
         paths.update(question['images'])
 for chapter in manifest['chapters']:

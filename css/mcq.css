@@ -236,3 +236,11 @@ body.mark-bar-open #mcqViewport{padding-bottom:calc(68px*var(--fs,1))}
 #markHint{flex-basis:100%;margin:0;padding:2px 0;font:inherit;line-height:1.35;color:var(--muted)}
 body.answer-mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--answer-mark-bar-height,100px))}
 body.answer-mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--answer-mark-bar-height,100px) + 4px)}
+
+/* The live action row occupies flow space and follows the question viewport. */
+.mcq-page:has(>.mcq-docked-actions){padding-bottom:0}
+.mcq-page>.mcq-docked-actions{position:sticky;bottom:0;z-index:3;display:flex;flex-wrap:wrap;align-items:center;gap:calc(4px * var(--fs,1));margin:calc(12px * var(--fs,1)) 0 0;padding:calc(6px * var(--fs,1)) 0;border-top:calc(1px * var(--fs,1)) solid var(--rule);background:var(--page)}
+.mcq-docked-actions>button{flex:1 0 auto;min-width:0;min-height:calc(44px * var(--fs,1));padding:calc(4px * var(--fs,1));font:600 calc(12px * var(--fs,1))/1.3 var(--ui);white-space:nowrap}
+.sim-actions.mcq-docked-actions>button{font-size:calc(11px * var(--fs,1))}
+.mcq-docked-actions>[aria-pressed=true]{background:#fff0c2;color:#594000;border-color:#a17713}
+[data-theme=dark] .mcq-docked-actions>[aria-pressed=true]{background:#534318;color:#fff0bc;border-color:#b69a4d}

@@ -115,6 +115,7 @@ window.HazzardSimulation = (() => {
             (confirmSubmit&&!done?'<section class="sim-confirm" role="region" aria-label="Confirm submission"><p>Submit now? '+(100-count)+' unanswered. Answers will be locked.</p><button data-sim="confirm">Submit and show score</button> <button data-sim="cancel">Keep working</button></section>':'')+'</div>';
         }
         host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page sim-page">'+(error||backgroundError?'<p role="alert">'+esc(error||backgroundError)+'</p>':'')+html+'</div>';
+        HazzardMCQ.dockActions(host);
         for(const img of host.querySelectorAll('img'))img.onerror=()=>{img.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to download it.'}));};
         if(s?.status==='submitted'&&host.querySelector('.mcq-explanation')){const q=questions(s,all)[s.position];window.HazzardAnswerHighlights?.attach(host.querySelector('.mcq-explanation'),q,q.o.map((_,i)=>i));}
         tick();requestAnimationFrame(remember);
