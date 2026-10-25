@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v267",
+      "date": "2026-10-25",
+      "changes": [
+        "24 practice questions moved to the chapter their cited Hazzard pages belong to, each checked on the page in the book."
+      ]
+    },
+    {
       "version": "v266",
       "date": "2026-10-25",
       "changes": [
