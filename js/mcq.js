@@ -130,7 +130,7 @@ window.HazzardMCQ = (() => {
     try{const before=currentAnswers(rawValue(KEY,validStore,()=>({version:1,answers:{}})).answers)[currentId(q.id)];return {id:currentId(q.id),entry:[Math.floor(at/60000),'u',kind==='answer'&&!(before?.checked===true&&Number.isInteger(before.selected))?1:0,eventId,kind,false]};}catch{return null;}
   }
   function appendLog(action){if(!action)return;try{const value=rawValue(LOG_KEY,validLog,emptyLog),incoming=emptyLog();incoming.items[action.id]=[action.entry];HazzardStorage.setItem(LOG_KEY,JSON.stringify(mergeLog(value,incoming)));}catch{/* Unreadable history is preserved, never replaced. */}}
-  function persistedAnswer(id,a){try{const actual=currentAnswers(rawValue(KEY,validStore,()=>({version:1,answers:{}})).answers)[currentId(id)];return actual?.at===a.at&&actual?.checked===a.checked&&actual?.selected===a.selected;}catch{return false;}}
+  function persistedAnswer(id,a){try{const store=HazzardStorage.blockedKeys().includes(KEY)?readStore(false):rawValue(KEY,validStore,()=>({version:1,answers:{}}));const actual=currentAnswers(store.answers)[currentId(id)];return actual?.at===a.at&&actual?.checked===a.checked&&actual?.selected===a.selected;}catch{return false;}}
   function removeLog(action){if(!action)return;appendLog({...action,entry:[...action.entry.slice(0,5),true]});}
 
   const SYSTEM_KEY='hazzard-mcq-israeli-system-v1';
@@ -271,10 +271,10 @@ window.HazzardMCQ = (() => {
       mark(/((?<![\p{L}\p{N}])[ובכלמ]{1,2})([אבגד])(?=['׳](?![\p{L}\p{N}]))/gu);
       // Statute suffixes/subsections and clinical classifications are not answers.
       const protectedSpans=[
-        /\d+[א-ת]*(?:\([\dא-ת]+\))+(?:\s+(?:או|ו[-־]?)\s*\([א-ת]+\))*/gu,
+        /\d+[א-ת]*(?:\([\dא-ת]+\))+(?:\s*(?:[,–—-]|או|עד|ו[-־]?)\s*\([א-ת]+\))*/gu,
         /\d+[א-ת]+/gu,
         /[א-ת]["״][א-ת](?:["״][א-ת])?/gu,
-        /(?:שלב|סוג|דרגה|סעיף|פרק|מדרגה|\bgrade|\bclass|\bstage|\btype|\bvitamin|\bhepatitis|ויטמין)\s+\**\(?[A-Dאבגד](?![\p{L}\p{N}])/giu
+        /(?:שלב|סוג|דרגה|סעיף(?:\s+קטן)?|סימן|נספח|החלטה|פרק|מדרגה|\bgrade|\bclass|\bstage|\btype|\bvitamin|\bhepatitis|ויטמין)\s+\**\(?[A-Dאבגד](?![\p{L}\p{N}])/giu
       ];
       for(const regex of protectedSpans)for(const m of text.matchAll(regex))for(let i=m.index;i<m.index+m[0].length;i++)positions.delete(i);
     }
@@ -843,6 +843,8 @@ window.HazzardMCQ = (() => {
       try{const saved=mockMode?readPaper():readStore();if(mockMode){if(saved&&!paperPending){paper=saved.paper;settings=saved.settings;}if(paper)position=paper.position;}else{answers.clear();for(const [id,a]of Object.entries(saved.answers))answers.set(id,a)}storageError='';}
       catch{storageError='Saved answers could not be read. Existing data has not been overwritten.';}
       for(const [id,a]of pending)answers.set(id,a);
+      missedIds=null;
+      if(loaded)rebuildAnswered();
       if(flagsError)storageError=flagsError;
       if(loaded)render();
     }

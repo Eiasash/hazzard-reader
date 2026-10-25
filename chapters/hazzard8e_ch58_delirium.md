@@ -342,7 +342,7 @@ Wilson JE, Mart MF, Cunningham C, et al. Delirium. Nat Rev Dis Primer. 2020;6:1�
 - ג. Delirium cannot be diagnosed without evidence of a change in level of consciousness
 - ד. This is most likely a hidden dementia that worsened during the admission
 
-> Book: p879: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness (no identified cause is required). p885: delirium is a clinical diagnosis. p880 (Key Clinical Point 4): delirium is commonly due to multiple causes.
+> Book: p880: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness (no identified cause is required). p885: delirium is a clinical diagnosis. p880 (Key Clinical Point 4): delirium is commonly due to multiple causes.
 
 **Q40** — sourced to [p. 880–882](#p880). What is the relationship between delirium and dementia?
 
@@ -369,5 +369,5 @@ Wilson JE, Mart MF, Cunningham C, et al. Delirium. Nat Rev Dis Primer. 2020;6:1�
 - ג. CAM positive, 4AT ≥ 4  ← **key**
 - ד. CAM negative, 4AT < 4
 
-> Book: Table 58-3 (p884): 4AT scores 0 to 12, and a score ≥ 4 suggests possible delirium. p879: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness.
+> Book: Table 58-3 (p884): 4AT scores 0 to 12, and a score ≥ 4 suggests possible delirium. p880: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness.
 

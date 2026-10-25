@@ -43,7 +43,7 @@ window.HazzardChanged = (() => {
       const bank = new Map(pendingEntries.length ? (await HazzardQuestionData.catalog()).map(q=>[q.id,q]) : []);
       const questions = pendingEntries.filter(entry=>{
         const q=bank.get(entry.id);
-        return q?.content_changed && !q.retired && !HazzardMCQ.excluded(q.id) && !HazzardMCQ.standoutHidden(q.id);
+        return q?.content_changed && !q.retired && !HazzardMCQ.bad(q.id) && !HazzardMCQ.excluded(q.id) && !HazzardMCQ.standoutHidden(q.id);
       });
       const label = 'Changed questions: ' + questions.length + ' to redo';
       const tab = document.querySelector('#appTabs [data-tab="practice"]');
@@ -102,6 +102,7 @@ window.HazzardChanged = (() => {
   addEventListener('hazzard-reader-ready', refresh);
   addEventListener('storage', event => { if (event.key === HazzardMCQ.KEY || event.key === null) refresh(); });
   addEventListener('hazzard-review-change', () => queueMicrotask(refresh));
+  addEventListener('hazzard-bad-change', () => queueMicrotask(refresh));
   function answers() {
     const value = JSON.parse(localStorage.getItem(HazzardMCQ.KEY) || '{"answers":{}}');
     if (!value.answers || typeof value.answers !== 'object' || Array.isArray(value.answers)) throw Error('Answers unavailable');

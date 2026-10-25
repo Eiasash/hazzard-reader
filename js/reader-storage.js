@@ -113,7 +113,8 @@ window.HazzardStorage = (() => {
     }catch{return false;}
   }
   // Unreadable stores stay byte-for-byte intact until an explicit recovery.
-  const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||key===HazzardAnswerHighlights.KEY||highlightKey(key);
+  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===TIMER_KEY||key===REMOVALS_KEY;
+  const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||sharedRecoveryStore(key)||key===HazzardAnswerHighlights.KEY||highlightKey(key);
   const protectedStores=new Map([
     [HazzardAnswerHighlights.KEY,{label:'Answer-key highlights',fresh:'answer-key highlights',empty:HazzardAnswerHighlights.empty}],
     [PLACE_KEY,{label:'Reading place',fresh:'reading place',empty:()=>({chapters:{}})}],
@@ -124,6 +125,7 @@ window.HazzardStorage = (() => {
     [MISSED_KEY,{label:'Missed questions',fresh:'missed questions',empty:()=>({questions:{}})}],
     [TIMER_KEY,{label:'Study timer',fresh:'study timer',empty:()=>({phase:0,left:1500,running:false,end:0})}],
     [REMOVALS_KEY,{label:'Deletion records',fresh:'deletion records',empty:emptyRemovals}],
+    [HazzardMCQ.SETTINGS_KEY,{label:'Practice settings',fresh:'practice settings',empty:()=>({version:1,includeStandout:false,shufflePastOptions:true,generatedSelected:true,drillSelected:true,at:0})}],
     [HazzardMCQ.PLACE_KEY,{label:'Practice place',fresh:'practice place',empty:()=>({version:1,screen:'bank',id:null,scroll:0})}],
     [HazzardMCQ.LOG_KEY,{label:'Weekly answer log',fresh:'weekly log',empty:HazzardMCQ.emptyLog}],
     [HazzardMCQ.BAD_KEY,{label:'Bad question flags',fresh:'bad flags',empty:HazzardMCQ.emptyBad}],
@@ -161,10 +163,23 @@ window.HazzardStorage = (() => {
     if(protect(key))return structuredClone(unreadable.get(key).value);
     const raw=localStorage.getItem(key);return raw===null?fallback():JSON.parse(raw);
   }
+  function applySavedRemovals(records){
+    for(const key of Object.keys(localStorage)){
+      if(key!==BOOKMARK_KEY&&key!==HazzardMCQ.GENERATED_FLAGS_KEY&&!highlightKey(key))continue;
+      const inMemory=protect(key),value=inMemory?unreadable.get(key).value:JSON.parse(localStorage.getItem(key));
+      const next=applyRemovals(key,value,records),raw=JSON.stringify(next);
+      if(raw===JSON.stringify(value))continue;
+      if(inMemory)unreadable.get(key).value=next;else localStorage.setItem(key,raw);
+    }
+  }
   function startFresh(key){
     if(!protect(key))return;
-    localStorage.setItem(key,JSON.stringify(protectedStores.get(key).empty()));
-    unreadable.delete(key);snapshot();
+    const base=protectedStores.get(key).empty();
+    const next=key===REMOVALS_KEY?mergeRemovals(base,unreadable.get(key).value):base;
+    localStorage.setItem(key,JSON.stringify(next));
+    unreadable.delete(key);
+    if(key===REMOVALS_KEY)applySavedRemovals(next);
+    snapshot();
   }
   function snapshotTime(at){
     const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(at);
@@ -176,14 +191,17 @@ window.HazzardStorage = (() => {
     const selected=recoverySnapshots.get(key);
     const row=selected&&db&&(await rows()).find(row=>row.id===selected.id);
     if(!row||row.hash!==selected.hash||!Object.hasOwn(row.storage,key)||!await usable(row))throw Error('That local snapshot is unavailable. Existing history kept.');
-    // Explicit recovery replaces only this unreadable store; its raw side copy stays.
+    // Explicit recovery keeps the raw side copy; recovered removals also prune deleted marks.
     if(!protect(key))return;
-    localStorage.setItem(key,row.storage[key]);
-    unreadable.delete(key);snapshot();
+    const records=key===REMOVALS_KEY?mergeRemovals(JSON.parse(row.storage[key]),unreadable.get(key).value):null;
+    localStorage.setItem(key,records?JSON.stringify(records):row.storage[key]);
+    unreadable.delete(key);
+    if(records)applySavedRemovals(records);
+    snapshot();
   }
   function recoveryHTML(reader=false){
     const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-    return blockedKeys().filter(key=>readerStore(key)===reader).map(rawKey=>{const spec=protectedStores.get(rawKey),saved=recoverySnapshots.get(rawKey),key=escape(rawKey);
+    return blockedKeys().filter(key=>reader===null||readerStore(key)===reader||sharedRecoveryStore(key)).map(rawKey=>{const spec=protectedStores.get(rawKey),saved=recoverySnapshots.get(rawKey),key=escape(rawKey);
       const local=saved?'<button data-storage-snapshot="'+key+'">Restore latest local snapshot ('+snapshotTime(saved.at)+')</button> ':'';
       return '<section class="mcq-recovery" role="alert"><p>'+escape(spec.label)+' could not be read.</p>'+local+'<button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
     }).join('');
@@ -197,7 +215,7 @@ window.HazzardStorage = (() => {
   }
   let db=null,tail=Promise.resolve(),queuedPayload=null;
   function capture(preserveInvalid=false){
-    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
+    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&!protectedStores.has(key)&&!validRaw(key,raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
     return storage;
   }
   async function hash(storage){const bytes=new TextEncoder().encode(JSON.stringify(storage));const digest=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');}

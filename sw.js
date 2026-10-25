@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v264'; // On-demand reading and question data.
+const CACHE_VERSION = 'v265'; // On-demand reading and question data.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
@@ -6,8 +6,12 @@ const LIST_URL = './asset-list.json';
 const READY_URL = './.offline-ready';
 
 async function verifyCachedAssets(cache, urls) {
-  for (const url of urls) {
-    if (!(await cache.match(url))?.ok) throw new Error('Missing offline file: ' + url);
+  for (let start = 0; start < urls.length; start += 64) {
+    const batch = urls.slice(start, start + 64);
+    const matches = await Promise.all(batch.map(url => cache.match(url)));
+    for (let i = 0; i < batch.length; i++) {
+      if (!matches[i]?.ok) throw new Error('Missing offline file: ' + batch[i]);
+    }
   }
 }
 async function fingerprint(response) {

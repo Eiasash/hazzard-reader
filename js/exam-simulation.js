@@ -36,6 +36,8 @@ window.HazzardSimulation = (() => {
     const s=v.session;if(s?.status!=='submitting')return v;
     // The journal is durable before either legacy store changes. Timestamp merges
     // make replay safe after a failed write, reload, restore or another tab.
+    const blocked=new Set(HazzardStorage.blockedKeys());
+    if(blocked.has(HazzardMCQ.KEY)||blocked.has(HazzardMCQ.LOG_KEY)||blocked.has(HazzardReview.KEY))throw Error('Saved answers, weekly log or review history could not be read. Your completed simulation is safe and will finish saving once storage is restored.');
     const incoming=HazzardMCQ.migrateValue(HazzardMCQ.KEY,{version:1,answers:s.commit.answers});
     HazzardStorage.setItem(HazzardMCQ.KEY,JSON.stringify(HazzardMCQ.mergeStore(HazzardMCQ.readStore(false),incoming)));
     for(const action of s.commit.logs||[]){const a=s.commit.answers[action.id];if(a?.checked&&HazzardMCQ.persistedAnswer(action.id,a))HazzardMCQ.appendLog(action);}
