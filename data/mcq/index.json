@@ -12,12 +12,12 @@
   "44": {
     "title": "Sleep Disorders",
     "past": 10,
-    "practice": 25
+    "practice": 38
   },
   "45": {
     "title": "Syncope and Dizziness",
     "past": 3,
-    "practice": 12
+    "practice": 23
   },
   "46": {
     "title": "Pressure Injuries",
@@ -27,7 +27,7 @@
   "47": {
     "title": "Incontinence",
     "past": 15,
-    "practice": 69
+    "practice": 68
   },
   "51": {
     "title": "Osteoporosis",
@@ -47,17 +47,17 @@
   "57": {
     "title": "Cognitive Changes in Normal and Pathologic Aging",
     "past": 0,
-    "practice": 10
+    "practice": 11
   },
   "58": {
     "title": "Delirium",
     "past": 32,
-    "practice": 90
+    "practice": 91
   },
   "59": {
     "title": "Dementia Including Alzheimer Disease",
     "past": 68,
-    "practice": 28
+    "practice": 29
   },
   "60": {
     "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
@@ -67,12 +67,12 @@
   "61": {
     "title": "Parkinson Disease and Related Disorders",
     "past": 45,
-    "practice": 42
+    "practice": 40
   },
   "63": {
     "title": "Other Neurodegenerative Disorders",
     "past": 0,
-    "practice": 9
+    "practice": 21
   },
   "65": {
     "title": "Major Depression",
@@ -82,7 +82,7 @@
   "68": {
     "title": "Pain Management",
     "past": 21,
-    "practice": 55
+    "practice": 49
   },
   "75": {
     "title": "Valvular Heart Disease",
@@ -92,7 +92,7 @@
   "76": {
     "title": "Heart Failure",
     "past": 19,
-    "practice": 28
+    "practice": 39
   },
   "77": {
     "title": "Cardiac Arrhythmias",
@@ -106,8 +106,8 @@
   },
   "83": {
     "title": "Kidney Diseases",
-    "past": 20,
-    "practice": 15
+    "past": 19,
+    "practice": 14
   },
   "87": {
     "title": "Constipation",
@@ -147,20 +147,20 @@
   },
   "104": {
     "title": "Infection and Appropriate Antimicrobial Selection",
-    "past": 34,
-    "practice": 3,
+    "past": 2,
+    "practice": 10,
     "topicFallback": 27
   },
   "105": {
     "title": "Bacterial Pneumonia and Tuberculosis",
-    "past": 34,
-    "practice": 3,
+    "past": 0,
+    "practice": 7,
     "topicFallback": 27
   },
   "108": {
     "title": "Influenza, COVID-19, and Other Respiratory Viruses",
-    "past": 34,
-    "practice": 1,
+    "past": 0,
+    "practice": 4,
     "topicFallback": 27
   },
   "law": {
@@ -216,7 +216,7 @@
   "28": {
     "title": "Anesthesia",
     "past": 0,
-    "practice": 7
+    "practice": 8
   },
   "29": {
     "title": "Surgical Quality and Outcomes",
@@ -236,7 +236,7 @@
   "35": {
     "title": "Sexuality, Sexual Function, and the Aging Woman",
     "past": 0,
-    "practice": 0
+    "practice": 4
   },
   "37": {
     "title": "Sexuality, Sexual Function, and the Aging Man",
@@ -286,7 +286,7 @@
   "17": {
     "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care",
     "past": 16,
-    "practice": 24
+    "practice": 23
   },
   "14": {
     "title": "Models of Hospital and Outpatient Care",
@@ -355,8 +355,8 @@
   },
   "27": {
     "title": "Perioperative Care: Evaluation and Management",
-    "past": 0,
-    "practice": 4
+    "past": 17,
+    "practice": 25
   },
   "49": {
     "title": "Muscle Aging and Sarcopenia",
@@ -365,8 +365,8 @@
   },
   "53": {
     "title": "Hip Fractures",
-    "past": 0,
-    "practice": 8
+    "past": 13,
+    "practice": 20
   },
   "67": {
     "title": "Palliative Care and Special Management Issues",
@@ -381,7 +381,7 @@
   "82": {
     "title": "Aging of the Kidney",
     "past": 0,
-    "practice": 6
+    "practice": 14
   },
   "92": {
     "title": "Gastrointestinal Malignancies",
@@ -396,17 +396,17 @@
   "106": {
     "title": "Urinary Tract Infections",
     "past": 0,
-    "practice": 23
+    "practice": 25
   },
   "8": {
     "title": "Principles of Geriatric Assessment",
     "past": 5,
-    "practice": 25
+    "practice": 26
   },
   "22": {
     "title": "Medication Prescribing and De-Prescribing",
     "past": 39,
-    "practice": 92
+    "practice": 85
   },
   "62": {
     "title": "Cerebrovascular Disease",
@@ -422,5 +422,25 @@
     "title": "Hypertension",
     "past": 5,
     "practice": 17
+  },
+  "11": {
+    "title": "Prevention and Screening",
+    "past": 7,
+    "practice": 21
+  },
+  "30": {
+    "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation",
+    "past": 4,
+    "practice": 34
+  },
+  "38": {
+    "title": "Benign Prostate Disorders",
+    "past": 7,
+    "practice": 22
+  },
+  "72": {
+    "title": "Ethical Issues",
+    "past": 9,
+    "practice": 14
   }
 }
