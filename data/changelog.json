@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v264",
+      "date": "2026-10-25",
+      "changes": [
+        "Safer saving: drill grades, missed questions, the study timer and deletion records are now protected like your answers if they ever become unreadable; restoring a backup file no longer brings back highlights you deleted; one unreadable flag store no longer stops the Review queue."
+      ]
+    },
+    {
       "version": "v263",
       "date": "2026-10-16",
       "changes": [

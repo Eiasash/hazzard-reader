@@ -1,5 +1,5 @@
 {
-  "version": "v263",
+  "version": "v264",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5958,8 +5958,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "8b160ce9ff15e9a0ab9f9233deacc79b7a4c8e8adc4703d13084ef23c2cbedbc",
-      "bytes": 31054
+      "sha256": "7cedacb4ffeccd01828ee5ab76cf88b43132146780b3405a69c9917db3d627a8",
+      "bytes": 31090
     },
     {
       "url": "./css/memory-aids.css",
@@ -5968,13 +5968,13 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "f54a0bd7f570763ae51d1bb64ca372e2a79680ada23f26817c7699f69b3f50d7",
-      "bytes": 5926
+      "sha256": "5856c7224fd89b88604e6e58ce89d40cd11e98379383f4163bb4574af1412e0e",
+      "bytes": 5944
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "8615fb99669ee20fb64d02f71d5c80a6780e2c14e88b15f9eaa9cd0cf5f5987b",
-      "bytes": 58995
+      "sha256": "c49a8e5bf63c7ebadd14fdc37746855d66e679f6f4fa65ff81f4ccd43b2394df",
+      "bytes": 59379
     },
     {
       "url": "./data/drug-index.json",
@@ -7973,8 +7973,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "65cfaa28d64361e3b0c838a07d8de10e457f1ee11f335d6ae64fcb4c52e2e006",
-      "bytes": 934745
+      "sha256": "39485a2faa0ac9740932b15a67acd9455cab783ea7929cc579c31f777a271a03",
+      "bytes": 935675
     },
     {
       "url": "./js/changed-questions.js",
@@ -8013,8 +8013,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "213a5b2cd38c4f70792aff9512384ddbc1bdb32d09adfbce71abb0ebe454e2aa",
-      "bytes": 154737
+      "sha256": "f8de05aea3a5b6ec14ddada9ff005868135df0eede86d88af4c17e79cbc67ccd",
+      "bytes": 154804
     },
     {
       "url": "./js/memory-aids.js",
@@ -8043,13 +8043,13 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "7f520123b97b298afff098b443358643965579fe08ea63ce8a7481a0c634f728",
+      "sha256": "7364087f05f5e0eb702a7b99cbe5d9394b54a890aa0e765ed5efd6b22c390209",
       "bytes": 8228
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "f5f9406e2f2f4da1a57741a85f472c30bfd8433913b6879a326ff95430e7426d",
-      "bytes": 22723
+      "sha256": "1e55d347a91afaafcd047ee311612a655ed1f5747632f327a94624d59470c664",
+      "bytes": 23631
     },
     {
       "url": "./js/reader-whats-new.js",

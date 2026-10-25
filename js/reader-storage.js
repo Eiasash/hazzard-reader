@@ -42,7 +42,7 @@ window.HazzardStorage = (() => {
     for(const [chapter,marks]of Object.entries(out.highlights))if(!Object.keys(marks).length)delete out.highlights[chapter];
     return out;
   }
-  function readRemovals(){const raw=localStorage.getItem(REMOVALS_KEY);if(raw===null)return emptyRemovals();const v=JSON.parse(raw);if(!validRemovals(v))throw Error('Removal records could not be read. Saved data kept.');return v;}
+  function readRemovals(){if(protect(REMOVALS_KEY))return structuredClone(unreadable.get(REMOVALS_KEY).value);const raw=localStorage.getItem(REMOVALS_KEY);if(raw===null)return emptyRemovals();const v=JSON.parse(raw);if(!validRemovals(v))throw Error('Removal records could not be read. Saved data kept.');return v;}
   function applyRemovals(key,value,removals){
     const survives=(item,at)=>at===undefined||addTime(item)>at;
     if(key===BOOKMARK_KEY)return value.filter(b=>survives(b,removals.bookmarks[bookmarkSignature(b)]));
@@ -119,6 +119,11 @@ window.HazzardStorage = (() => {
     [PLACE_KEY,{label:'Reading place',fresh:'reading place',empty:()=>({chapters:{}})}],
     [BOOKMARK_KEY,{label:'Bookmarks',fresh:'bookmarks',empty:()=>[]}],
     [READING_KEY,{label:'Reading progress',fresh:'reading progress',empty:()=>({chapters:{}})}],
+    [DRILL_KEY,{label:'Drill grades',fresh:'drill grades',empty:()=>({})}],
+    [MOCK_KEY,{label:'Legacy mock progress',fresh:'legacy mock progress',empty:()=>({ids:[],grades:{},revealed:[]})}],
+    [MISSED_KEY,{label:'Missed questions',fresh:'missed questions',empty:()=>({questions:{}})}],
+    [TIMER_KEY,{label:'Study timer',fresh:'study timer',empty:()=>({phase:0,left:1500,running:false,end:0})}],
+    [REMOVALS_KEY,{label:'Deletion records',fresh:'deletion records',empty:emptyRemovals}],
     [HazzardMCQ.PLACE_KEY,{label:'Practice place',fresh:'practice place',empty:()=>({version:1,screen:'bank',id:null,scroll:0})}],
     [HazzardMCQ.LOG_KEY,{label:'Weekly answer log',fresh:'weekly log',empty:HazzardMCQ.emptyLog}],
     [HazzardMCQ.BAD_KEY,{label:'Bad question flags',fresh:'bad flags',empty:HazzardMCQ.emptyBad}],
@@ -245,7 +250,13 @@ window.HazzardStorage = (() => {
     }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
     notify();
   })();
-  function setItem(key,raw){if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}const change=removalChange(key,raw),previous=localStorage.getItem(REMOVALS_KEY);if(change!==null)localStorage.setItem(REMOVALS_KEY,change);try{localStorage.setItem(key,raw);}catch(error){if(change!==null){if(previous===null)localStorage.removeItem(REMOVALS_KEY);else localStorage.setItem(REMOVALS_KEY,previous);}throw error;}if(owns(key))snapshot();}
+  function setItem(key,raw){
+    if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}
+    const change=removalChange(key,raw),protectedRemovals=change!==null&&protect(REMOVALS_KEY),previous=localStorage.getItem(REMOVALS_KEY),previousValue=protectedRemovals?structuredClone(unreadable.get(REMOVALS_KEY).value):null;
+    if(change!==null){if(protectedRemovals)unreadable.get(REMOVALS_KEY).value=JSON.parse(change);else localStorage.setItem(REMOVALS_KEY,change);}
+    try{localStorage.setItem(key,raw);}catch(error){if(change!==null){if(protectedRemovals)unreadable.get(REMOVALS_KEY).value=previousValue;else if(previous===null)localStorage.removeItem(REMOVALS_KEY);else localStorage.setItem(REMOVALS_KEY,previous);}throw error;}
+    if(owns(key))snapshot();
+  }
   function removeItem(key){if(protect(key))return;localStorage.removeItem(key);if(owns(key))snapshot();}
   addEventListener('storage',event=>{if(event.storageArea===localStorage&&owns(event.key))snapshot();});
   return {removals,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};

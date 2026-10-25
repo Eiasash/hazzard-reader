@@ -13,7 +13,7 @@ window.HazzardMCQ = (() => {
   const drillTier=q=>q.source==='drill'||!!q.sourceChecked;
   const generated=q=>q.kind==='practice'&&!drillTier(q);
   const validGeneratedFlags=value=>Array.isArray(value)&&value.every(flag=>flag!==null&&typeof flag==='object'&&!Array.isArray(flag)&&typeof flag.id==='string'&&flag.id.length>0&&Number.isFinite(flag.at)&&flag.at>=0);
-  function generatedFlags(){const raw=localStorage.getItem(GENERATED_FLAGS_KEY);const entries=raw===null?[]:JSON.parse(raw);if(!validGeneratedFlags(entries))throw Error('Generated-practice flags could not be read.');return entries;}
+  function generatedFlags(){const entries=HazzardStorage.readProtected(GENERATED_FLAGS_KEY,()=>[]);if(!validGeneratedFlags(entries))throw Error('Generated-practice flags could not be read.');return entries;}
   function showGeneratedCount(){const node=document.getElementById('generatedFlagCount');if(!node)return;try{node.textContent=new Set(generatedFlags().map(f=>f.id)).size+' generated practice items flagged';}catch{node.textContent='Generated-practice flag count unavailable.';}}
   showGeneratedCount();addEventListener('storage',showGeneratedCount);addEventListener('pageshow',showGeneratedCount);
   const MIGRATION_KEY='hazzard-mcq-id-aliases-v53-r1';
@@ -111,7 +111,7 @@ window.HazzardMCQ = (() => {
   function mergeBad(a,b){const out=emptyBad();for(const source of [b,a])for(const[id,r]of Object.entries(source.items)){const key=currentId(id),old=out.items[key];if(!old||r.at>old.at||r.at===old.at&&!r.bad)out.items[key]={...r};}return out;}
   // Strict reads are deliberately separate from recovery-backed UI reads.
   function rawValue(key,valid,empty){const raw=localStorage.getItem(key);if(raw===null)return empty();const value=JSON.parse(raw);if(!valid(value))throw Error('Unavailable store: '+key);return value;}
-  function readBad(){return mergeBad(emptyBad(),rawValue(BAD_KEY,validBad,emptyBad));}
+  function readBad(){const value=HazzardStorage.readProtected(BAD_KEY,emptyBad);if(!validBad(value))throw Error('Unavailable store: '+BAD_KEY);return mergeBad(emptyBad(),value);}
   function bad(id){try{return !!readBad().items[currentId(id)]?.bad;}catch{return false;}}
   let badUndo=null,badNotice='';
   function badButton(q){try{return '<button data-bad="'+currentId(q.id)+'" aria-pressed="'+bad(q.id)+'">'+(bad(q.id)?'Flagged bad':'Bad question')+'</button>';}catch{return '<span>Bad flags unavailable</span>';}}
