@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v265",
+      "date": "2026-10-25",
+      "changes": [
+        "Safer saving and recovery: answers, exam-simulation results, drill grades, the timer and deleted highlights now survive a damaged store and its recovery, and the recovery prompt shows on reading pages too; law explanations keep their statute section letters when options are shuffled; the chapter header stays open when you resume reading; a corrected apixaban table reference; faster offline update check."
+      ]
+    },
+    {
       "version": "v264",
       "date": "2026-10-25",
       "changes": [

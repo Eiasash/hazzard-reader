@@ -1,5 +1,5 @@
 {
-  "version": "v264",
+  "version": "v265",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -3353,7 +3353,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch58_delirium.md",
-      "sha256": "fd9798e54dc011651e556e4e1b77e0a1299ab01cf5d242162a2ff77e2a469d7a",
+      "sha256": "1e7f5efa68958c3b4720b42bc00e10e515891c0a5f1ab53acc05b63e3e851184",
       "bytes": 70661
     },
     {
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "c49a8e5bf63c7ebadd14fdc37746855d66e679f6f4fa65ff81f4ccd43b2394df",
-      "bytes": 59379
+      "sha256": "b389211043be8b0ff4145b62aabea5d014f22f277925e5b22dc3a0d68c036784",
+      "bytes": 59889
     },
     {
       "url": "./data/drug-index.json",
@@ -6383,12 +6383,12 @@
     },
     {
       "url": "./data/mcq/all.json",
-      "sha256": "adbbd9aca3d3d9aa87fac6a8836b36182a999e6745704299ab8d92223dfbb989",
+      "sha256": "40aa0584093a0f040339e0f21572fff53f478667409b3e71b0a38ad2bb3028d5",
       "bytes": 7340940
     },
     {
       "url": "./data/mcq/catalog.json",
-      "sha256": "d8fb91aa0cd6134c73656cf8a49a16bd2750bf8003671ff08cb682d5852611e3",
+      "sha256": "9bb2eae49a442b38f8d47d65aeb80091fbb8fa1d99881369c5adde05043f4aba",
       "bytes": 1449376
     },
     {
@@ -6883,7 +6883,7 @@
     },
     {
       "url": "./data/mcq/chunks/62.json",
-      "sha256": "8e1767b82f428b320eb3587f97c77ff990106f35a243992b58fa4cca0d6907bc",
+      "sha256": "fd1b3ec04c6b67af2dfba8d2d436d0703fd0c30978f7287d86cedfe136e771ac",
       "bytes": 39921
     },
     {
@@ -7973,13 +7973,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "39485a2faa0ac9740932b15a67acd9455cab783ea7929cc579c31f777a271a03",
-      "bytes": 935675
+      "sha256": "3ed48c0026b173f6f7c9047473690de6648499c67315cc63f0f36f5b2f987137",
+      "bytes": 937651
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "9b16805407f4f2608edf020896ae6948ef3af7ca1c9f6269180aed252ed75218",
-      "bytes": 27307
+      "sha256": "731ae0ac69f62a1f94f3f72e62fb53dace429dacc48ccdac6f0c80e893d3b030",
+      "bytes": 27405
     },
     {
       "url": "./js/drug-index.js",
@@ -7993,8 +7993,8 @@
     },
     {
       "url": "./js/exam-simulation.js",
-      "sha256": "9cd84114c44b7b54ce9f6f0987e24e202b0b3d95c908d663ab344a4111a8084e",
-      "bytes": 23964
+      "sha256": "d1e1f962684ce5649cb47e19d7b4de5667fee583b40ea7da8423e5c24727c259",
+      "bytes": 24283
     },
     {
       "url": "./js/law-cards.js",
@@ -8013,8 +8013,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "f8de05aea3a5b6ec14ddada9ff005868135df0eede86d88af4c17e79cbc67ccd",
-      "bytes": 154804
+      "sha256": "a4b5c1ad727ae6348f7e99f27843f7f00c931984dfeb757afffc16201ae0ed78",
+      "bytes": 154998
     },
     {
       "url": "./js/memory-aids.js",
@@ -8043,13 +8043,13 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "7364087f05f5e0eb702a7b99cbe5d9394b54a890aa0e765ed5efd6b22c390209",
+      "sha256": "1b2c4ef3ae2b6990a91de454e350fe90b597cdfc34f26684998e2f9c77d59258",
       "bytes": 8228
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "1e55d347a91afaafcd047ee311612a655ed1f5747632f327a94624d59470c664",
-      "bytes": 23631
+      "sha256": "a729b6f9931b681d867de8144abee55a59e7a08ae885a36ef92ed0c62e360d3b",
+      "bytes": 24886
     },
     {
       "url": "./js/reader-whats-new.js",
@@ -8058,8 +8058,8 @@
     },
     {
       "url": "./js/stats.js",
-      "sha256": "bf2dcfe9a16d16ae5a44b76b78fcaa0f4e4ea18fb581fc3e2d33a01b56a63939",
-      "bytes": 18641
+      "sha256": "63692d359e129dbad120c8fd6f27ef774601b27c91d17c6cecb9e0a8acad73ee",
+      "bytes": 18758
     },
     {
       "url": "./manifest.json",
