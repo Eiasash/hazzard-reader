@@ -18,7 +18,7 @@
 #readerDebug { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100vw - 20px)); max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); padding:14px; border:1px solid var(--rule,#68737f); border-radius:12px; background:var(--surface,#fffdf8); color:var(--ink,#263029); font:14px/1.45 system-ui,sans-serif; overflow:auto; }
 #readerDebug::backdrop { background:rgb(0 0 0 / .45); }
 #readerDebug[open] { display:block; }
-#readerDebug h2 { font-size:18px; margin:0 0 10px; }
+#readerDebug h2 { font-size:calc(18px*var(--fs,1)); margin:0 0 10px; }
 #readerDebug .debug-actions { display:flex; flex-wrap:wrap; gap:8px; position:sticky; inset-block-start:-14px; background:var(--surface,#fffdf8); padding-block:8px; }
 #readerDebug button { min-height:44px; min-width:44px; padding:8px 12px; background:var(--soft,#eeece3); color:inherit; border:1px solid var(--rule,#68737f); border-radius:8px; font:inherit; cursor:pointer; }
 #readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:12px/1.5 monospace; }
