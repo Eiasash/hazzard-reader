@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v269",
+      "date": "2026-10-26",
+      "changes": [
+        "One practice question given its Hazzard chapter label and moved to chapter 28, checked on the page in the book."
+      ]
+    },
+    {
       "version": "v268",
       "date": "2026-10-25",
       "changes": [
