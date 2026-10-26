@@ -545,6 +545,22 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .chapter-sort select{width:auto;min-height:40px;padding:4px 26px 4px 8px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:7px}
 #chapterSortStatus{font:calc(12px * var(--fs,1))/1.3 var(--ui);margin:4px 0}
 
+/* Account entry shares the existing cloud sheet on every view. */
+#chapterHeader #headerCloud{display:flex;align-items:center;justify-content:center;gap:calc(5px * var(--fs,1));flex:0 0 auto;max-width:calc(110px * var(--fs,1));min-width:calc(44px * var(--fs,1));padding-inline:calc(6px * var(--fs,1));border-radius:calc(22px * var(--fs,1));color:var(--accent);background:var(--soft);white-space:nowrap}
+#headerCloud .cloud-person{position:relative;display:flex;flex:none}
+#headerCloud svg{width:calc(19px * var(--fs,1));height:calc(19px * var(--fs,1));fill:none;stroke:currentColor;stroke-width:1.7}
+#headerCloudLabel{overflow:hidden;text-overflow:ellipsis}
+#headerCloud .cloud-state-dot{position:absolute;right:calc(-2px * var(--fs,1));bottom:0;width:calc(7px * var(--fs,1));height:calc(7px * var(--fs,1));border:calc(1px * var(--fs,1)) solid currentColor;border-radius:50%;background:var(--surface)}
+#headerCloud[data-signed-in="true"] .cloud-state-dot{background:var(--accent)}
+#chapterHeader:has(#headerCloud):has(.study-view-tabs:not([hidden])){grid-template-columns:calc(44px * var(--fs,1)) calc(44px * var(--fs,1)) minmax(0,1fr) calc(88px * var(--fs,1)) calc(44px * var(--fs,1)) calc(44px * var(--fs,1))}
+#chapterHeader:has(.study-view-tabs:not([hidden])) #headerCloud{grid-column:6;grid-row:1}
+#chapterHeader:has(.study-view-tabs:not([hidden])) #headerCloudLabel{display:none}
+@media(max-width:600px){
+  #chapterHeader:has(#headerCloud) .chapter-step{flex-basis:calc(28px * var(--fs,1));min-width:calc(28px * var(--fs,1))}
+  #chapterHeader #headerCloud{max-width:calc(88px * var(--fs,1))}
+  #chapterHeader:has(#markToggle:not([hidden])) #headerCloud{width:calc(44px * var(--fs,1));padding-inline:0}
+  #chapterHeader:has(#markToggle:not([hidden])) #headerCloudLabel{display:none}
+}
 </style>
 </head>
 <body>
@@ -5150,10 +5166,13 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v272 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v273 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
+const headerCloud=document.createElement('button');headerCloud.id='headerCloud';headerCloud.type='button';headerCloud.dataset.panel='tools';headerCloud.setAttribute('aria-label','Sign in');headerCloud.title='Sign in';
+headerCloud.innerHTML='<span class="cloud-person">'+tabIcon('<circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/>')+'<span class="cloud-state-dot" aria-hidden="true"></span></span><span id="headerCloudLabel">Sign in</span>';
+chapterHeader.append(headerCloud);
 const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=true;findBar.setAttribute('role','search');
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);

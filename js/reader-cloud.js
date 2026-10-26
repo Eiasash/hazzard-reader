@@ -39,6 +39,11 @@ window.HazzardCloud = (() => {
     $('cloudStatus').textContent=label();
     $('cloudError').textContent=error||notice;
     const loggedIn=signed();
+    const accountLabel=loggedIn?session.username:'Sign in';
+    $('headerCloudLabel').textContent=accountLabel;
+    $('headerCloud').dataset.signedIn=String(loggedIn);
+    $('headerCloud').setAttribute('aria-label',loggedIn?'Signed in as '+session.username:'Sign in');
+    $('headerCloud').title=loggedIn?'Signed in as '+session.username:'Sign in';
     $('cloudAuthChoices').hidden=loggedIn;
     $('cloudLogin').hidden=loggedIn||authMode!=='login';
     $('cloudRegister').hidden=loggedIn||authMode!=='register';
@@ -243,9 +248,9 @@ window.HazzardCloud = (() => {
       if(passwordOpen)$('cloudCurrentPassword').focus();
     };
     $('cloudCancelPassword').onclick=()=>{passwordOpen=false;clearPasswords();error='';notice='';render();};
-    for(const id of ['cloudSettingsEntry','cloudNotebookEntry'])$(id).addEventListener('click',event=>{
+    for(const id of ['cloudSettingsEntry','cloudNotebookEntry','headerCloud'])$(id).addEventListener('click',event=>{
       // The existing delegated tools button toggles an already-open panel.
-      if($('panel').dataset.currentPane==='tools')event.stopPropagation();
+      if($('panel').open&&$('panel').dataset.currentPane==='tools')event.stopPropagation();
       if(!signed())authMode='login';render();
       requestAnimationFrame(()=>{
         $('appearanceStatus').open=true;

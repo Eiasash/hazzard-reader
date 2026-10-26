@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v273",
+      "date": "2026-10-26",
+      "changes": [
+        "Exam level removed and replaced by Track for past papers; the bank no longer shows an empty list because of a hidden setting. A sign-in button in the top bar shows whether you are signed in. Sign out after using someone else's device."
+      ]
+    },
+    {
       "version": "v272",
       "date": "2026-10-26",
       "changes": [
