@@ -1,11 +1,22 @@
 # Derive the runtime catalogue and body chunks from canonical data/mcq/all.json.
 import json
+import re
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = set('id sourceIndex kind q c accepted t topic topics law chapter source examNumber retired mockEligible content_changed'.split())
 
 def generate():
     all_questions = json.loads((ROOT / 'data/mcq/all.json').read_text(encoding='utf-8'))
+    # The save validator runs before fetch; derive its exact Basic sitting IDs here.
+    sittings = json.loads((ROOT / 'data/mcq/exam-catalog.json').read_text(encoding='utf-8')).get('basicSittings', {})
+    simulation = ROOT / 'js/exam-simulation.js'
+    original = simulation.read_text(encoding='utf-8')
+    updated, count = re.subn(r'(  // BEGIN GENERATED BASIC SITTINGS\n).*?(\n  // END GENERATED BASIC SITTINGS)',
+                             lambda m: m[1] + '  const BASIC_SITTINGS = ' + json.dumps(sittings, separators=(',', ':')) + ';' + m[2], original, flags=re.S)
+    if count != 1:
+        raise ValueError('Missing Basic sitting catalogue markers')
+    if updated != original:
+        simulation.write_text(updated, encoding='utf-8', newline='\n')
     catalog, chunks = [], {}
     for q in all_questions:
         # Hash prefixes keep chunk URLs stable when questions are added or moved.

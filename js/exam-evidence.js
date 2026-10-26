@@ -14,7 +14,7 @@ window.HazzardEvidence = (() => {
       return data;
     }).catch(e => { promise = null; throw e; });
   }
-  const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year;};
+  const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year+(sitting.endsWith('-Basic')?' · Basic track':'');};
   const label = entry => sittingLabel(entry.sitting) + ' Q' + entry.number;
   // Numeric chapter practice follows current assignments; special collections keep their membership.
   function studyIds(data, chapter) {
@@ -42,7 +42,7 @@ window.HazzardEvidence = (() => {
     for (const [i, [sitting, count]] of entries.entries()) {
       if (i) link.append(' · ');
       const span = document.createElement('span'), [year, month] = sitting.split('-');
-      span.textContent = (['2024','2021'].includes(year) && month ? month+' ' : '')+year+(count>1?' ×'+count:'');
+      span.textContent = (sitting.endsWith('-Basic')?sittingLabel(sitting):(['2024','2021'].includes(year) && month ? month+' ' : '')+year)+(count>1?' ×'+count:'');
       if (year === '2026') span.className = 'chapter-exams-latest';
       link.append(span);
     }

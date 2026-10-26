@@ -458,7 +458,7 @@ window.HazzardMCQ = (() => {
     if (q.kind === 'practice') return PRACTICE_LABEL;
     const match = /^(\d{4})(?:-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec))?(?:-(Subspec|Basic))?$/.exec(q.t);
     if (!match) return 'Shlav A';
-    return 'Shlav A ' + (match[2] ? match[2] + ' ' : '') + match[1] + ' · Subspecialty' + (q.examNumber ? ' · Q' + q.examNumber : '');
+    return 'Shlav A ' + (match[2] ? match[2] + ' ' : '') + match[1] + (match[3]==='Basic'?' · Basic track':' · Subspecialty') + (q.examNumber ? ' · Q' + q.examNumber : '');
   }
   const SOURCE_TITLES={"חוק החולה הנוטה למות, תשס_ו-2005.pdf":"חוק החולה הנוטה למות, תשס״ו-2005","חוק הכשרות המשפטית והאפוטרופסות, תשכ_ב-1962.pdf":"חוק הכשרות המשפטית והאפוטרופסות, תשכ״ב-1962","חוק זכויות החולה, תשנ_ו-1996.pdf":"חוק זכויות החולה, תשנ״ו-1996","10Redefiningtheobligation.pdf":"הגדרה מחדש של חובת ההודעה על נהגים עם מצבי בריאות העלולים לסכן את עצמם וזולתם","1GeriatricsDivisionBroad.pdf":"הגדרת מושגים - נספח","4Recommendations.pdf":"המלצות מותב הוועדה הארצית לחוק החולה הנוטה למות: PEG לחולה עם קיהיון [דמנציה, שיטיון] שהוא נוטה למות","5MedicalGuardianHospitalization.pdf":"מינוי אפוטרופוס על גופו של אדם ו/או רכושו במסגרת אשפוז ממושך","6Activating.pdf":"הפעלת ייפוי כוח מתמשך בביה״ח במקרים דחופים ללא אישור כניסה לתוקף מטעם האפוטרופוס הכללי","7Temporarydecision.pdf":"מקבל החלטות זמני לעניינים רפואיים","8LicensingandOperating.pdf":"אמות מידה לרישוי ותפעול מחלקה גריאטרית ״סיעוד מורכב״","9Procedurefortreatingelderly.pdf":"נוהל טיפול בזקנים נפגעי התעמרות","1_AGS-Beers-2023.pdf":"American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults","B2_enduring-POA_guide_justice-ministry.pdf":"מדריך לממנה - ייפוי כוח מתמשך","hazzard marked .pdf":"Hazzard 8e"};
   function sourceTitle(value){let text=String(value||'');for(const [file,title] of Object.entries(SOURCE_TITLES))text=text.split(file).join(title);return text;}
@@ -747,6 +747,10 @@ window.HazzardMCQ = (() => {
     const selectTab=mode=>studyTabs?.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.studyView===mode)));
     const filtersObserver=new ResizeObserver(entries=>host.style.setProperty('--mcq-filter-height',(entries[0]?.target.getBoundingClientRect().height||0)+'px'));
     let items=[],topics=[],filter=new URL(location.href).searchParams.get('source')==='past'?'past':'all',year=[],level=[],topic='all',sort=bankMode?'shuffled':'source',seed=bankMode?newSeed():undefined,position=0,loaded=false,busy=false,paper=null,paperPending=false,storageError='',missedOnly=bankMode&&location.hash==='#missed',building=mockMode,settings=defaultSettings();
+    // Track is session-only: reload retains the existing Subspecialty default.
+    let track='Subspec';
+    const matchesTrack=q=>track==='both'||(track==='Basic'?q.kind==='past'&&q.t.endsWith('-Basic'):!q.t.endsWith('-Basic'));
+    const trackChoices=[['Subspec','Subspecialty'],['Basic','Basic track'],['both','Both tracks']];
     const pendingLogs=new Map(),pendingUndos=new Map();
     const answers=new Map(),pending=new Map(),retryAnswers=new Map(),dismissed=new Set();
     let personal={version:1,flags:{},lawTopics:{ids:[],at:0}},flagsView=bankMode&&location.hash==='#flags',notice='';
@@ -796,6 +800,7 @@ window.HazzardMCQ = (() => {
     }
     function jump(id){
       const wasOrdinary=ordinaryShuffled();
+      track=items.find(q=>q.id===currentId(id))?.t.endsWith('-Basic')?'Basic':'Subspec';
       restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort=bankMode?'shuffled':'source';if(sort==='shuffled'&&seed===undefined)seed=newSeed();missedOnly=flagsView=savedView=savedOnly=false;missedIds=null;
       if(!wasOrdinary)rebuildAnswered();
       id=currentId(id);answeredIds.delete(id);hiddenTarget=null;if(bad(id))hiddenTarget=id;if(standoutHidden(id)){hiddenTarget=id;notice='This question is hidden. To serve it, turn on '+standoutLabel+' in Practice settings.';}dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
@@ -953,7 +958,7 @@ window.HazzardMCQ = (() => {
       if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));return (reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));}
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q)&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
-      let list=items.filter(q=>!q.retired&&!excluded(q.id)&&allowed(q)&&!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||filter==='drill'&&drillTier(q)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+(filter==='drill'?'practice':filter)))&&(!['law','articles'].includes(filter)||!topicsHidden(q))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!topicsHidden(q)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&matchesYear(q,year)&&matchesLevel(q,level)&&topicMatches(q)&&(!missedOnly||missedIds.has(q.id)));
+      let list=items.filter(q=>matchesTrack(q)&&!q.retired&&!excluded(q.id)&&allowed(q)&&!dismissed.has(q.id)&&(filter==='all'||filter==='law'&&lawIds.has(q.id)||filter==='articles'&&articleIds.has(q.id)||filter==='drill'&&drillTier(q)||q.kind===filter)&&(filter==='all'||!flagged(q,'source:'+(filter==='drill'?'practice':filter)))&&(!['law','articles'].includes(filter)||!topicsHidden(q))&&(chapter!=='law'||!flagged(q,'source:law')&&(!q.law||!topicsHidden(q)))&&(bankMode||!flagged(q,'chapter:'+chapter))&&matchesYear(q,year)&&matchesLevel(q,level)&&topicMatches(q)&&(!missedOnly||missedIds.has(q.id)));
       if(savedOnly){const saved=readSaved();list=list.filter(q=>saved.questions[q.id]?.saved);}
       if(ordinaryShuffled()&&!includeAnswered)list=list.filter(q=>!answeredIds.has(currentId(q.id)));
       if(bankMode&&sort==='shuffled')return shuffledBank(list,seed,filter==='law');
@@ -994,8 +999,8 @@ window.HazzardMCQ = (() => {
       let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+'</div>';
       if(bankMode)html+='<div class="mcq-view-links"><button class="quiet" data-mcq="questions" aria-pressed="'+(!flagsView&&!savedView)+'">Questions</button><button class="quiet" data-mcq="flags" aria-pressed="'+flagsView+'">Flags ('+flagCount()+')</button><button class="quiet" data-mcq="saved" aria-pressed="'+savedView+'">Saved ('+savedCount()+')</button></div>';
       if(bankMode&&!flagsView&&!savedView){
-        const sittings=[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t))].sort().reverse();
-        const summary=[];
+        const sittings=[...new Set(items.filter(q=>q.kind==='past'&&matchesTrack(q)).map(q=>q.t))].sort().reverse();
+        const summary=[trackChoices.find(([id])=>id===track)[1]];
         if(filter!=='all')summary.push(sourceChoices().find(([id])=>id===filter)?.[1]||filter);
         for(const id of topicChoicesOf(topic))summary.push(topicChoices().find(([value])=>String(value)===String(id))?.[1]||id);
         summary.push(...choicesOf(year),...choicesOf(level).map(id=>id==='Subspec'?'Subspecialty':id==='unspecified'?'Not specified':id));
@@ -1003,10 +1008,10 @@ window.HazzardMCQ = (() => {
         const filterSummary='Filters: '+(summary.join(' \u00b7 ')||'none')+' \u00b7 '+({source:'Source order',topic:'Topic order',shuffled:'Shuffled'}[sort]);
         html+='<button type="button" class="mcq-filter-toggle" data-mcq="toggle-filters" aria-expanded="'+bankFiltersOpen+'" aria-controls="mcq-filter-panel"><span>'+escape(filterSummary)+' \u00b7 <span class="mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</span></span><svg class="mcq-filter-chevron" aria-hidden="true" viewBox="0 0 16 16" focusable="false"><path d="m4 6 4 4 4-4"/></svg></button><div id="mcq-filter-panel"'+(bankFiltersOpen?'':' hidden')+'>';
 
-        html+='<details class="mcq-jump"><summary>Go to sitting + Q</summary><form data-jump-form><label>Sitting<select name="sitting">'+sittings.map(s=>'<option value="'+escape(s)+'">'+escape(s.replace('-Subspec','').replace('-', ' '))+'</option>').join('')+'</select></label><label>Q<input name="number" type="number" min="1" max="100" inputmode="numeric" aria-label="Question number"></label><button type="submit">Go</button><span role="status" data-jump-status></span></form></details>';
-        html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+multiSelection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+multiSelection('level',level,[['all','All levels'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Exam level')+'<div class="mcq-sort">'+selection('sort',sort,[['source','Source'],['topic','Topic'],['shuffled','Shuffled']],'Sort by')+(sort==='shuffled'?'<button type="button" data-mcq="reshuffle">Reshuffle</button>':'')+'</div>'+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
+        html+='<details class="mcq-jump"><summary>Go to sitting + Q</summary><form data-jump-form><label>Sitting<select name="sitting">'+sittings.map(s=>'<option value="'+escape(s)+'">'+escape(s.endsWith('-Basic')?HazzardEvidence.sittingLabel(s):s.replace('-Subspec','').replace('-', ' '))+'</option>').join('')+'</select></label><label>Q<input name="number" type="number" min="1" max="150" inputmode="numeric" aria-label="Question number"></label><button type="submit">Go</button><span role="status" data-jump-status></span></form></details>';
+        html+='<div class="mcq-bank-filters">'+selection('source',filter,[['all','All sources'],...sourceChoices()],'Source')+multiSelection('topic',topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('year',year,[['all','All years'],...[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse().map(y=>[y,y])],'Year')+multiSelection('level',level,[['all','All levels'],['Subspec','Subspecialty'],['unspecified','Not specified']],'Exam level')+selection('track',track,trackChoices,'Track')+'<div class="mcq-sort">'+selection('sort',sort,[['source','Source'],['topic','Topic'],['shuffled','Shuffled']],'Sort by')+(sort==='shuffled'?'<button type="button" data-mcq="reshuffle">Reshuffle</button>':'')+'</div>'+'<button class="mcq-missed-toggle" type="button" role="switch" data-mcq="missed" aria-checked="'+missedOnly+'"><span class="mcq-switch-track" aria-hidden="true"></span>Missed only</button></div>';
         html+='<p class="meta">'+(savedOnly?'Saved questions only · ':'')+list.length+' matching questions'+(answeredHidden()?' · '+answeredHidden()+' answered hidden':'')+'</p>'+hiddenNotice(visible(true).length-list.length)+'</div>';
-      }else if(!mockMode&&!bankMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice',chapter==='law'?'Practice':PRACTICE_LABEL]].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>';
+      }else if(!mockMode&&!bankMode)html+='<nav class="mcq-filters" aria-label="Question type">'+[['all','All'],['past','Past exams'],['practice',chapter==='law'?'Practice':PRACTICE_LABEL]].map(([id,label])=>'<button data-filter="'+id+'" aria-pressed="'+(filter===id)+'">'+label+'</button>').join('')+'</nav>'+selection('track',track,trackChoices,'Track');
       if(!bankMode&&!flagsView&&!savedView)html+='<p class="meta mcq-count">'+(list.length?(position+1)+' of '+list.length:'0 questions')+'</p>';
       if(mockMode&&paper){const byId=new Map(items.map(q=>[q.id,q])),unavailable=paper.ids.filter(id=>{const q=byId.get(currentId(id));return !q||q.retired;}).length;if(unavailable)html+='<p class="meta mcq-unavailable">'+unavailable+' saved question'+(unavailable===1?' is':'s are')+' no longer available</p>';}
       if(filter==='law'||chapter==='law')html+='<p class="meta mcq-law-note">'+(chapter==='law'?'Israeli law: past-exam items and Israeli-law practice are the target; Hazzard practice items use US law.':LAW_NOTE)+'</p>';
@@ -1172,6 +1177,7 @@ window.HazzardMCQ = (() => {
         render();if(!isMock)saveView();host.querySelector('[data-multi="'+name+'"]').open=true;host.scrollTop=y;
         host.querySelector('[data-select="'+name+'"][value="'+value+'"]').focus({preventScroll:true});return;
       }
+      if(name==='track'){track=value;level=[];year=[];position=0;rebuildAnswered();render();host.scrollTop=0;return;}
       if(name==='source'){filter=normalizeSource(value);year=[];level=[];}else if(name==='sort'){sort=value;if(sort==='shuffled'&&seed===undefined)seed=newSeed();}
       if(name==='source'||name==='sort'&&sort==='shuffled')rebuildAnswered();
       position=0;render();host.scrollTop=0;
