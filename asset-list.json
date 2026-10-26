@@ -5993,7 +5993,7 @@
     },
     {
       "url": "./data/mcq/catalog.json",
-      "sha256": "2f89061f7abd8e5bbb6229bf3805da391c6a259f947edec6fadbe0d64f8fd7b1",
+      "sha256": "0a7b047192d3216cc7f00679fb10225327642be7ffc2245c11121b8acf546e7d",
       "bytes": 1607334
     },
     {
@@ -6403,8 +6403,8 @@
     },
     {
       "url": "./data/mcq/chunks/51.json",
-      "sha256": "faf15181104c6c635e7d0c9282d83d009428acac83dbdfdb5af2df2bc995254b",
-      "bytes": 24422
+      "sha256": "bb5f7055c9f2c818fa912c02381f5f6ad6a1a32b03f576749a54f7c5e383beb0",
+      "bytes": 23382
     },
     {
       "url": "./data/mcq/chunks/52.json",
@@ -7118,8 +7118,8 @@
     },
     {
       "url": "./data/mcq/chunks/e0.json",
-      "sha256": "d83a168a9b0578fb6ead4613394ef65097980c846ba3796ed165a8d7d69a92f8",
-      "bytes": 28644
+      "sha256": "f4dbbdacbba5bb274a57fb65525e0933dff75978b16b3ce58c8a4c7f936b998f",
+      "bytes": 29684
     },
     {
       "url": "./data/mcq/chunks/e1.json",
@@ -7288,7 +7288,7 @@
     },
     {
       "url": "./data/mcq/exam-references.json",
-      "sha256": "b717a1c76b681f4d729350b823fb851bde320850b65d876aea1d4118c0f34488",
+      "sha256": "195dac937212a686ac060ce2ad7a5a4a26ac04614831a68461e5e48c1a3ea254",
       "bytes": 621195
     },
     {
@@ -7743,7 +7743,7 @@
     },
     {
       "url": "./js/exam-simulation.js",
-      "sha256": "2195d204727bbccd0634baa0ce3acefc984ca7630860f7772764fdc613a987a5",
+      "sha256": "eee52f366555cfb84360224c2c759d2cea726645c8ca5cfd416d7ca1139c3abf",
       "bytes": 54720
     },
     {
