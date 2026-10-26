@@ -16380,6 +16380,787 @@
       "pages": [],
       "tables": [],
       "chapters": []
+    },
+    "mcq-12756b62471793b4a810acc0": {
+      "sitting": "2025-Jun-Basic",
+      "number": 150,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 274 · p. 2050 · Table 274-3",
+      "questionRef": "Harrison · ch. 274 · p. 2050 · Table 274-3",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-1c457e2c35edb938216dfc20": {
+      "sitting": "2025-Jun-Basic",
+      "number": 145,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 75 · pp. 573-574",
+      "questionRef": "Harrison · ch. 75 · pp. 573-574",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-5a3f7ae1a23329873b4b243a": {
+      "sitting": "2025-Jun-Basic",
+      "number": 115,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 308 · p. 2282",
+      "questionRef": "Harrison · ch. 308 · p. 2282",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-eed40e276ad22b382dff9e64": {
+      "sitting": "2025-Jun-Basic",
+      "number": 129,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 275 · p. 2063",
+      "questionRef": "Harrison · ch. 275 · p. 2063",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-cb89f90016ad0e9c97dcff99": {
+      "sitting": "2025-Jun-Basic",
+      "number": 118,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 98 · p. 1547 · Table 98-1",
+      "questionRef": "Hazzard 8e · ch. 98 · p. 1547 · Table 98-1",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1547,
+          "chapter": "98",
+          "available": true
+        }
+      ],
+      "tables": [
+        "98-1"
+      ],
+      "chapters": [
+        "98"
+      ]
+    },
+    "mcq-1b30d64df3b512d3c86507d0": {
+      "sitting": "2025-Jun-Basic",
+      "number": 130,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 131 · pp. 1040-1041",
+      "questionRef": "Harrison · ch. 131 · pp. 1040-1041",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-dffd76e21eb073a03b58b671": {
+      "sitting": "2025-Jun-Basic",
+      "number": 124,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 310 · p. 2303 · Table 310-2",
+      "questionRef": "Harrison · ch. 310 · p. 2303 · Table 310-2",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-84e06ede8812b083fb7a09a9": {
+      "sitting": "2025-Jun-Basic",
+      "number": 120,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 64 · pp. 444-445",
+      "questionRef": "Harrison · ch. 64 · pp. 444-445",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-2b3c688b819a97deb4fefcf6": {
+      "sitting": "2025-Jun-Basic",
+      "number": 110,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 372 · pp. 2862-2863",
+      "questionRef": "Harrison · ch. 372 · pp. 2862-2863",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-f32d9fb1734647649c885c9b": {
+      "sitting": "2025-Jun-Basic",
+      "number": 109,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 40 · p. 274 · Table 40-1",
+      "questionRef": "Harrison · ch. 40 · p. 274 · Table 40-1",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-356a725ed4d5740e9dda54d3": {
+      "sitting": "2025-Jun-Basic",
+      "number": 101,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 64 · pp. 438-439",
+      "questionRef": "Harrison · ch. 64 · pp. 438-439",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-4c63596ac17af5fe30a92887": {
+      "sitting": "2025-Jun-Basic",
+      "number": 121,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · chs. 53 + 52 · pp. 342, 337 · Figure 52-4",
+      "questionRef": "Harrison · chs. 53 + 52 · pp. 342, 337 · Figure 52-4",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-9cf3a3d46c26e13809d224e1": {
+      "sitting": "2025-Jun-Basic",
+      "number": 142,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Official reference (book not stated) · ch. 77 · p. 1207 · Table 77-7",
+      "questionRef": "Official reference (book not stated) · ch. 77 · p. 1207 · Table 77-7",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1207,
+          "chapter": "77",
+          "available": true
+        }
+      ],
+      "tables": [
+        "77-7"
+      ],
+      "chapters": [
+        "77"
+      ]
+    },
+    "mcq-b2378c344ed1bd7ea7a2ff1e": {
+      "sitting": "2025-Jun-Basic",
+      "number": 144,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 303 · p. 2240",
+      "questionRef": "Harrison · ch. 303 · p. 2240",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-9f445759f0fb24592f780558": {
+      "sitting": "2025-Jun-Basic",
+      "number": 116,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 240 · p. 1830",
+      "questionRef": "Harrison · ch. 240 · p. 1830",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-9bddccff96cb66a3829e208c": {
+      "sitting": "2025-Jun-Basic",
+      "number": 104,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 98 · p. 1547 · Table 98-1",
+      "questionRef": "Hazzard 8e · ch. 98 · p. 1547 · Table 98-1",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1547,
+          "chapter": "98",
+          "available": true
+        }
+      ],
+      "tables": [
+        "98-1"
+      ],
+      "chapters": [
+        "98"
+      ]
+    },
+    "mcq-b2542a05496f3c5c65789a5f": {
+      "sitting": "2025-Jun-Basic",
+      "number": 112,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 98 · pp. 1552-1553",
+      "questionRef": "Hazzard 8e · ch. 98 · pp. 1552-1553",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1552,
+          "chapter": "98",
+          "available": true
+        },
+        {
+          "page": 1553,
+          "chapter": "98",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "98"
+      ]
+    },
+    "mcq-777d91eb7840ca302219d066": {
+      "sitting": "2025-Jun-Basic",
+      "number": 149,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 76 · pp. 1181-1183",
+      "questionRef": "Hazzard 8e · ch. 76 · pp. 1181-1183",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1181,
+          "chapter": "76",
+          "available": true
+        },
+        {
+          "page": 1182,
+          "chapter": "76",
+          "available": true
+        },
+        {
+          "page": 1183,
+          "chapter": "76",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "76"
+      ]
+    },
+    "mcq-5e224d34c3d2b7e3865cd3c8": {
+      "sitting": "2025-Jun-Basic",
+      "number": 148,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 41 · p. 277 · Table 41-2",
+      "questionRef": "Harrison · ch. 41 · p. 277 · Table 41-2",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-ac78425d31aff77f8821da4d": {
+      "sitting": "2025-Jun-Basic",
+      "number": 140,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 239 · p. 1823 · Table 239-1",
+      "questionRef": "Harrison · ch. 239 · p. 1823 · Table 239-1",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-9a0eec1f9659eda83a93a932": {
+      "sitting": "2025-Jun-Basic",
+      "number": 127,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 300 · p. 2217",
+      "questionRef": "Harrison · ch. 300 · p. 2217",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-db4e8050ad93439ad1ce865f": {
+      "sitting": "2025-Jun-Basic",
+      "number": 137,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 300 · p. 2219 · Figure 300-2",
+      "questionRef": "Harrison · ch. 300 · p. 2219 · Figure 300-2",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-8ba8e74d5c20b2a454883a8e": {
+      "sitting": "2025-Jun-Basic",
+      "number": 114,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 138 · p. 1104",
+      "questionRef": "Harrison · ch. 138 · p. 1104",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-a048ac58a4684acecde15357": {
+      "sitting": "2025-Jun-Basic",
+      "number": 131,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 55 · p. 364",
+      "questionRef": "Harrison · ch. 55 · p. 364",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-c371717d44119358c9948299": {
+      "sitting": "2025-Jun-Basic",
+      "number": 138,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 311 · p. 2313",
+      "questionRef": "Harrison · ch. 311 · p. 2313",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-650b82d5eabb65bc0e75f6ac": {
+      "sitting": "2025-Jun-Basic",
+      "number": 132,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 275 · pp. 2060-2063",
+      "questionRef": "Harrison · ch. 275 · pp. 2060-2063",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-d75a307e471d0d03bd330fc5": {
+      "sitting": "2025-Jun-Basic",
+      "number": 111,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 64 · p. 437",
+      "questionRef": "Harrison · ch. 64 · p. 437",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-125cbe852f9fa44d57dadc49": {
+      "sitting": "2025-Jun-Basic",
+      "number": 128,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 305 · p. 2255",
+      "questionRef": "Harrison · ch. 305 · p. 2255",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-d633ec797eeffa4731d308c6": {
+      "sitting": "2025-Jun-Basic",
+      "number": 106,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 54 · p. 357",
+      "questionRef": "Harrison · ch. 54 · p. 357",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-2dec739bd9d3b24028f380a4": {
+      "sitting": "2025-Jun-Basic",
+      "number": 105,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 16 · p. 116",
+      "questionRef": "Harrison · ch. 16 · p. 116",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-3f128545fc43247949026d44": {
+      "sitting": "2025-Jun-Basic",
+      "number": 113,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 50 · p. 324",
+      "questionRef": "Harrison · ch. 50 · p. 324",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-ff76bcabb8895e106bbaed7b": {
+      "sitting": "2025-Jun-Basic",
+      "number": 135,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 275 · p. 2063",
+      "questionRef": "Harrison · ch. 275 · p. 2063",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-904f270b9ec501a587e9861b": {
+      "sitting": "2025-Jun-Basic",
+      "number": 103,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 50 · p. 323 · Figure 50-3",
+      "questionRef": "Harrison · ch. 50 · p. 323 · Figure 50-3",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-2da83a695fa3bbab96638b5c": {
+      "sitting": "2025-Jun-Basic",
+      "number": 108,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 240 · p. 1830 · Table 240-1",
+      "questionRef": "Harrison · ch. 240 · p. 1830 · Table 240-1",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-ec84dec372f58abc0a8594d6": {
+      "sitting": "2025-Jun-Basic",
+      "number": 117,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 344 · p. 2632",
+      "questionRef": "Harrison · ch. 344 · p. 2632",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-a404384acf5a3f4a03d0ef23": {
+      "sitting": "2025-Jun-Basic",
+      "number": 126,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 65 · pp. 453-454",
+      "questionRef": "Harrison · ch. 65 · pp. 453-454",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-1fde009618dd32afd7dc7b73": {
+      "sitting": "2025-Jun-Basic",
+      "number": 136,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 372 · pp. 2863-2864",
+      "questionRef": "Harrison · ch. 372 · pp. 2863-2864",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-474c586de9e8dcfbda4ad496": {
+      "sitting": "2025-Jun-Basic",
+      "number": 122,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 97 · p. 1539 · Table 97-10",
+      "questionRef": "Hazzard 8e · ch. 97 · p. 1539 · Table 97-10",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1539,
+          "chapter": "97",
+          "available": true
+        }
+      ],
+      "tables": [
+        "97-10"
+      ],
+      "chapters": [
+        "97"
+      ]
+    },
+    "mcq-dacde8cbbb9ea6dd5829baf2": {
+      "sitting": "2025-Jun-Basic",
+      "number": 125,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 48 · p. 314 · Figure 48-2",
+      "questionRef": "Harrison · ch. 48 · p. 314 · Figure 48-2",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-c98a0830e2080f25da25a8b0": {
+      "sitting": "2025-Jun-Basic",
+      "number": 146,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 75 · p. 565",
+      "questionRef": "Harrison · ch. 75 · p. 565",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-d3d6c26e0d495cd5b61653e7": {
+      "sitting": "2025-Jun-Basic",
+      "number": 107,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 99 · pp. 1562-1563, 1573",
+      "questionRef": "Hazzard 8e · ch. 99 · pp. 1562-1563, 1573",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1562,
+          "chapter": "99",
+          "available": true
+        },
+        {
+          "page": 1563,
+          "chapter": "99",
+          "available": true
+        },
+        {
+          "page": 1573,
+          "chapter": "99",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "99"
+      ]
+    },
+    "mcq-5d5e6bceb2d9ff0127364f73": {
+      "sitting": "2025-Jun-Basic",
+      "number": 102,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 131 · pp. 1046-1047",
+      "questionRef": "Harrison · ch. 131 · pp. 1046-1047",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-39946414e0773be4fb99f910": {
+      "sitting": "2025-Jun-Basic",
+      "number": 133,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 95 · p. 1501",
+      "questionRef": "Hazzard 8e · ch. 95 · p. 1501",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1501,
+          "chapter": "95",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "95"
+      ]
+    },
+    "mcq-9e63da5fcde5c0cf271d6f73": {
+      "sitting": "2025-Jun-Basic",
+      "number": 139,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 137 · p. 1096 · Table 137-2",
+      "questionRef": "Harrison · ch. 137 · p. 1096 · Table 137-2",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-0aa5f686e3b59340f14db1f7": {
+      "sitting": "2025-Jun-Basic",
+      "number": 141,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Official reference (book not stated) · ch. 100 · p. 1605",
+      "questionRef": "Official reference (book not stated) · ch. 100 · p. 1605",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1605,
+          "chapter": "100",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "100"
+      ]
+    },
+    "mcq-de92a386e0ddf092e78f5d24": {
+      "sitting": "2025-Jun-Basic",
+      "number": 134,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Official reference (book not stated) · ch. 75 · p. 1161 · Table 75-14",
+      "questionRef": "Official reference (book not stated) · ch. 75 · p. 1161 · Table 75-14",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1161,
+          "chapter": "75",
+          "available": true
+        }
+      ],
+      "tables": [
+        "75-14"
+      ],
+      "chapters": [
+        "75"
+      ]
+    },
+    "mcq-8d25a66a3df7ec66e248a685": {
+      "sitting": "2025-Jun-Basic",
+      "number": 143,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 39 · p. 588",
+      "questionRef": "Hazzard 8e · ch. 39 · p. 588",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 588,
+          "chapter": "39",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "39"
+      ]
+    },
+    "mcq-5f8104158e7aebcbaeb7fd62": {
+      "sitting": "2025-Jun-Basic",
+      "number": 147,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 74 · pp. 562-563",
+      "questionRef": "Harrison · ch. 74 · pp. 562-563",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
+    },
+    "mcq-86b262840f3c7de29023078e": {
+      "sitting": "2025-Jun-Basic",
+      "number": 119,
+      "edition": 8,
+      "source": "2025/references.pdf",
+      "reference": "Hazzard 8e · ch. 80 · p. 1231",
+      "questionRef": "Hazzard 8e · ch. 80 · p. 1231",
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1231,
+          "chapter": "80",
+          "available": true
+        }
+      ],
+      "tables": [],
+      "chapters": [
+        "80"
+      ]
+    },
+    "mcq-fedd8966ed942284ce8ca48d": {
+      "sitting": "2025-Jun-Basic",
+      "number": 123,
+      "edition": 22,
+      "source": "2025/references.pdf",
+      "reference": "Harrison · ch. 142 · pp. 1131-1132 · Table 42-1",
+      "questionRef": "Harrison · ch. 142 · pp. 1131-1132 · Table 42-1",
+      "status": "unresolved",
+      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "pages": [],
+      "tables": [],
+      "chapters": []
     }
   },
   "study": {
@@ -16918,11 +17699,12 @@
         "mcq-4f72edde12c83ecaea816428",
         "mcq-92f1bc01da4974c018371e81",
         "mcq-65b34859cab672fc287d6c20",
-        "mcq-ca4ef9243406c07cf8276806"
+        "mcq-ca4ef9243406c07cf8276806",
+        "mcq-de92a386e0ddf092e78f5d24"
       ],
       "before": 8,
-      "past": 11,
-      "resolved": 8,
+      "past": 12,
+      "resolved": 9,
       "fallback": 0,
       "practice": 2,
       "chapterLinked": 3
@@ -16949,11 +17731,12 @@
         "mcq-d6f42ab8d1be3a2ddc5790b8",
         "mcq-65f1b2348078e99a77093d23",
         "mcq-78efef2ee60d19f031350bbc",
-        "mcq-538cb2dab0c6ea72540a81e9"
+        "mcq-538cb2dab0c6ea72540a81e9",
+        "mcq-777d91eb7840ca302219d066"
       ],
       "before": 19,
-      "past": 21,
-      "resolved": 13,
+      "past": 22,
+      "resolved": 14,
       "fallback": 4,
       "practice": 28,
       "chapterLinked": 4
@@ -16969,11 +17752,12 @@
         "mcq-102e4ab82b9fd8d644e4dbbb",
         "mcq-b057a2ce63d661c48b469edf",
         "mcq-0cd20cd280f46d0acf25449c",
-        "mcq-2f108a771e027a49d0986f2e"
+        "mcq-2f108a771e027a49d0986f2e",
+        "mcq-9cf3a3d46c26e13809d224e1"
       ],
       "before": 12,
-      "past": 10,
-      "resolved": 7,
+      "past": 11,
+      "resolved": 8,
       "fallback": 2,
       "practice": 34,
       "chapterLinked": 1
@@ -17074,11 +17858,12 @@
         "mcq-22e94436a9815853eed097a3",
         "mcq-0dd3353be9d7e981544cb1cf",
         "mcq-755606bb446afd8eb85ee844",
-        "mcq-f4c9254576a742f22bfe7d34"
+        "mcq-f4c9254576a742f22bfe7d34",
+        "mcq-474c586de9e8dcfbda4ad496"
       ],
       "before": 0,
-      "past": 9,
-      "resolved": 8,
+      "past": 10,
+      "resolved": 9,
       "fallback": 0,
       "practice": 8,
       "chapterLinked": 1
@@ -17097,11 +17882,14 @@
         "mcq-804b6ad2cccaa569c0b6acaf",
         "mcq-a9564119e3f03b2dcc342926",
         "mcq-6593d3a8fd894eded1a95488",
-        "mcq-7400870fc10d03a49c2e9070"
+        "mcq-7400870fc10d03a49c2e9070",
+        "mcq-9bddccff96cb66a3829e208c",
+        "mcq-b2542a05496f3c5c65789a5f",
+        "mcq-cb89f90016ad0e9c97dcff99"
       ],
       "before": 0,
-      "past": 13,
-      "resolved": 9,
+      "past": 16,
+      "resolved": 12,
       "fallback": 0,
       "practice": 6,
       "chapterLinked": 4
@@ -17129,11 +17917,12 @@
         "mcq-dfd19ed053a8fd2e83f6dd49",
         "mcq-803bd75b3c3a8ecbbb228d97",
         "mcq-ab8aa14b6cb35dc299bb7f20",
-        "mcq-2d103bb25f66fd57f375f554"
+        "mcq-2d103bb25f66fd57f375f554",
+        "mcq-d3d6c26e0d495cd5b61653e7"
       ],
       "before": 22,
-      "past": 22,
-      "resolved": 19,
+      "past": 23,
+      "resolved": 20,
       "fallback": 0,
       "practice": 33,
       "chapterLinked": 3
@@ -17382,11 +18171,12 @@
         "mcq-bd9893fe8c4027b4668a863e",
         "mcq-834756aabc08598d8f45a7f5",
         "mcq-d7ef5d7a467c8ade6436f4f5",
-        "mcq-c0958b48b6b8fb43106b759b"
+        "mcq-c0958b48b6b8fb43106b759b",
+        "mcq-39946414e0773be4fb99f910"
       ],
       "before": 0,
-      "past": 6,
-      "resolved": 4,
+      "past": 7,
+      "resolved": 5,
       "fallback": 0,
       "practice": 8,
       "studyOnly": true,
