@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v272",
+      "date": "2026-10-26",
+      "changes": [
+        "Basic track: the 2025 paper added (its 50 internal-medicine questions with the official key and source, and the full 150-question paper in Exam simulation). Tap Update on every device before starting a basic-track sitting."
+      ]
+    },
+    {
       "version": "v271",
       "date": "2026-10-26",
       "changes": [
