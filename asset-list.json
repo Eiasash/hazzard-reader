@@ -5993,8 +5993,8 @@
     },
     {
       "url": "./data/mcq/catalog.json",
-      "sha256": "0a7b047192d3216cc7f00679fb10225327642be7ffc2245c11121b8acf546e7d",
-      "bytes": 1607334
+      "sha256": "981a8a966e42610f55e2fbf86b7e383b8f3fb463885a8fe8db6ebd71a485eb4e",
+      "bytes": 1607336
     },
     {
       "url": "./data/mcq/chunks/00.json",
@@ -6018,8 +6018,8 @@
     },
     {
       "url": "./data/mcq/chunks/04.json",
-      "sha256": "c669c022d154487fd6b4b19d2406180a767ebbcb89375f9b06364fd48c638b13",
-      "bytes": 49043
+      "sha256": "9d9368afc0e5b4814995abe00ed9100023e65e06ec2f9446ff11d293d138ead8",
+      "bytes": 49044
     },
     {
       "url": "./data/mcq/chunks/05.json",
@@ -6948,8 +6948,8 @@
     },
     {
       "url": "./data/mcq/chunks/be.json",
-      "sha256": "54c5973c14c94468b3ab76ce9d742bd1578ea08341ffcefa56d49225e0f51eb8",
-      "bytes": 27938
+      "sha256": "eba3a4bf4caf9cbb6aaf727d50f0b40e9db974dfb6f6e4eebdfbbbc052b0ae02",
+      "bytes": 27953
     },
     {
       "url": "./data/mcq/chunks/bf.json",
