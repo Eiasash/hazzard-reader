@@ -35,7 +35,7 @@ def apply(items, root=ROOT):
                           'referenceNote', 'requiredReadingNote', 'requiredCard', 'mockEligible', 'label'):
                 if field in row:
                     q[field] = row[field]
-            q.update(t=row['sitting'] + '-Subspec', examNumber=row['number'],
+            q.update(t=row['sitting'] if row['sitting'].endswith('-Basic') else row['sitting'] + '-Subspec', examNumber=row['number'],
                      sourceType=row['type'], ref=row['reference'],
                      referenceSource='IMA ' + row['sitting'] + f' reference list, Q{row["number"]}',
                      israeliSystem=row['type'] in {'Law', 'Procedure', 'Circular', 'Yearbook'},

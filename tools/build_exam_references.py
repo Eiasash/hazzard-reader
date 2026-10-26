@@ -36,7 +36,7 @@ def link_seventh(metadata, bank):
     return metadata
 
 
-def build():
+def build(write=True):
     bank = read(DATA / 'all.json')
     catalog = read(DATA / 'exam-catalog.json')['records']
     toc = read(DATA / 'hazzard8e-toc.json')['chapters']
@@ -111,8 +111,10 @@ def build():
             study[ch]['studyOnly'] = True
     result = dict(version=1, edition=8, tocSource='hazzard8e-toc.json', questions=entries, study=study)
     result = link_seventh(result, bank)
-    (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    if write:
+        (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'{len(entries)} official questions; {sum(e["status"] == "resolved" for e in entries.values())} resolved')
+    return result
 
 
 if __name__ == '__main__':

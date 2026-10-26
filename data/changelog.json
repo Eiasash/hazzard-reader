@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v271",
+      "date": "2026-10-26",
+      "changes": [
+        "Basic-track (שלב א') 2026 official paper added as its own track: its 50 internal-medicine questions (101-150) added with the official key and source, and the full 150-question paper in Exam simulation; older papers and explanations follow. Tap Update on every device before starting a basic-track sitting."
+      ]
+    },
+    {
       "version": "v270",
       "date": "2026-10-26",
       "changes": [
