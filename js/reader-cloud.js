@@ -6,7 +6,7 @@ window.HazzardCloud = (() => {
   const read=key=>{try{return JSON.parse(localStorage.getItem(key))||{};}catch{return {};}};
   let session=read(SESSION),state=read(STATE),bridge,timer,busy=false,checking=false,restoring=false,merging=false,epoch=0;
   let current=null,previous=null,known=false,error='',notice='',expired=false,tick=false;
-  let authMode='login',authBusy=false,passwordOpen=false,passwordBusy=false;
+  let authMode='login',authBusy=false,passwordOpen=false,passwordBusy=false,lastSyncedAt='';
   const USERNAME_RULE='Use 3-32 lowercase letters, digits, _ or -, starting with a letter or digit.';
   const PASSWORD_RULE='Password must be 6-200 characters.';
   const $=id=>document.getElementById(id);
@@ -31,7 +31,8 @@ window.HazzardCloud = (() => {
     const prefix='Cloud: '+session.username;
     if(time(state.restoredAt)&&(!time(state.syncedAt)||new Date(state.restoredAt)>new Date(state.syncedAt)))
       return prefix+' - restored '+time(state.restoredAt,true)+(time(state.restoredCopyAt)?' (cloud copy from '+time(state.restoredCopyAt,true)+')':'');
-    return prefix+(time(state.syncedAt)?' - last synced '+time(state.syncedAt):' - not synced yet');
+    const synced=lastSyncedAt||state.syncedAt;
+    return prefix+(time(synced)?' - last synced '+time(synced):' - not synced yet');
   }
   function render(){
     if(!bridge)return;
@@ -48,7 +49,8 @@ window.HazzardCloud = (() => {
     $('cloudChangePassword').setAttribute('aria-expanded',String(passwordOpen));
     for(const id of ['cloudShowLogin','cloudShowRegister','cloudSignIn','cloudCreateAccount'])$(id).disabled=authBusy;
     $('cloudSavePassword').disabled=passwordBusy;
-    const entry=loggedIn?session.username+' - '+(time(state.syncedAt)?'last synced '+time(state.syncedAt,true):'not synced yet'):'Sign in to sync';
+    const synced=lastSyncedAt||state.syncedAt;
+    const entry=loggedIn?session.username+' - '+(time(synced)?'last synced '+time(synced,true):'not synced yet'):'Sign in to sync';
     for(const id of ['cloudSettingsEntry','cloudNotebookEntry'])$(id).textContent=entry;
     $('cloudDecision').hidden=!signed()||decided()||!known;
     $('cloudDecisionText').textContent=current?.exists?'Choose which notebook to use on this phone.':'No cloud copy yet. Choose Start fresh to enable uploads.';
@@ -63,7 +65,7 @@ window.HazzardCloud = (() => {
     dispatchEvent(new Event('hazzard-cloud-status'));
   }
   function expire(){
-    epoch++;session={};expired=true;tick=false;clearTimeout(timer);
+    epoch++;session={};expired=true;tick=false;lastSyncedAt='';clearTimeout(timer);
     try{localStorage.removeItem(SESSION);}catch{}
     error='';render();
   }
@@ -135,7 +137,9 @@ window.HazzardCloud = (() => {
       const persisted={...state};delete persisted.attemptAt;
       const prior=JSON.parse(beforeState);delete prior.attemptAt;
       if(JSON.stringify(persisted)!==JSON.stringify(prior))saveState();
-      tick=true;error='';notice='';
+      // A successful pull is a sync even when there is nothing to upload.
+      // Keep this display clock transient so unchanged storage stays byte-identical.
+      lastSyncedAt=new Date().toISOString();tick=true;error='';notice='';
     }catch(e){if(generation===epoch){tick=false;error=expired?'':e.message;}}
     finally{busy=false;render();if(signed())schedule();}
   }
@@ -197,7 +201,7 @@ window.HazzardCloud = (() => {
       if(typeof result.session_token!=='string'||!result.session_token||typeof result.username!=='string')throw Error('Sign-in response was incomplete.');
       const next={session_token:result.session_token,username:result.username};
       localStorage.setItem(SESSION,JSON.stringify(next));session=next;expired=false;tick=false;known=false;
-      current=null;previous=null;passwordOpen=false;authMode='login';
+      current=null;previous=null;passwordOpen=false;authMode='login';lastSyncedAt='';
       // Explicit sign-in enables the existing merge-based sync on this device.
       if(!decided()){
         state=state.username===session.username?{...state,decided:true,dirty:true}:{username:session.username,decided:true,dirty:true};
@@ -254,7 +258,7 @@ window.HazzardCloud = (() => {
     $('cloudUsername').value=session.username||state.username||'';
     $('cloudSignOut').onclick=()=>{
       clearPasswords();
-      try{localStorage.removeItem(SESSION);epoch++;session={};expired=false;tick=false;known=false;current=null;previous=null;passwordOpen=false;authMode='login';clearTimeout(timer);error='';notice='';}
+      try{localStorage.removeItem(SESSION);epoch++;session={};expired=false;tick=false;known=false;current=null;previous=null;passwordOpen=false;authMode='login';lastSyncedAt='';clearTimeout(timer);error='';notice='';}
       catch{error='Sign out could not be saved.';}
       render();
     };
@@ -268,7 +272,7 @@ window.HazzardCloud = (() => {
     const leave=()=>{if(decided()&&!restoring)push({keepalive:true});};
     addEventListener('pagehide',leave);
     document.addEventListener('visibilitychange',()=>{if(document.hidden)leave();else if(!known)inspect();});
-    addEventListener('storage',event=>{if(event.key===SESSION||event.key===STATE){epoch++;session=read(SESSION);state=read(STATE);known=false;tick=false;render();if(signed())inspect();}});
+    addEventListener('storage',event=>{if(event.key===SESSION||event.key===STATE){epoch++;session=read(SESSION);state=read(STATE);known=false;tick=false;lastSyncedAt='';render();if(signed())inspect();}});
     render();if(signed())inspect();
   }
   return {start,label,get signedIn(){return signed();},get tick(){return tick;},get paused(){return paused();},get pauseAt(){return pauseAt();}};
