@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v275",
+      "date": "2026-10-26",
+      "changes": [
+        "Chapter pages: the header shows the chapter number again on small phones when signed in, and the Chapter/Study labels fit."
+      ]
+    },
+    {
       "version": "v274",
       "date": "2026-10-26",
       "changes": [
