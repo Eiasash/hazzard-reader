@@ -50,3 +50,18 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 .nb-answer-text{display:block;white-space:pre-wrap;overflow-wrap:anywhere}
 .nb-answer-highlight small{display:block;margin-block-start:calc(3px*var(--fs,1));line-height:1.4;overflow-wrap:anywhere}
 .nb-answer-list{margin-block:calc(4px*var(--fs,1)) calc(8px*var(--fs,1))}
+
+/* Cloud entry remains visible with release details folded. */
+#panel[open][data-current-pane="tools"] { max-block-size:calc(var(--vv-height) * .45); }
+#panel[open][data-current-pane="tools"]:has(#appearanceStatus[open]) { max-block-size:calc(var(--vv-height) * .7); }
+#panel[data-current-pane="tools"] #cloudSettingsEntry { grid-column:1 / -1; grid-row:2; height:auto; min-height:40px; text-align:start; white-space:normal; font:600 calc(13px * var(--fs,1))/1.4 var(--ui); }
+#panel[data-current-pane="tools"] #appearanceStatus { grid-row:3; }
+#panel[data-current-pane="tools"] #whatsNewButton { grid-row:3; }
+#panel[data-current-pane="tools"] #appearanceStatus[open] { grid-row:4; }
+#cloudControls { font:calc(14px * var(--fs,1))/1.4 var(--ui); }
+#panel #cloudControls input { font-size:calc(16px * var(--fs,1)); }
+#panel #cloudControls button { font:500 calc(13px * var(--fs,1))/1.4 var(--ui); }
+#cloudAuthChoices { display:flex; gap:8px; }
+#panel #cloudAuthChoices button { flex:1; text-align:center; }
+#cloudAuthChoices [aria-pressed="true"] { border-color:var(--accent); color:var(--accent); }
+#cloudNotebookEntry { width:100%; white-space:normal; text-align:start; font:600 calc(13px * var(--fs,1))/1.4 var(--ui); }

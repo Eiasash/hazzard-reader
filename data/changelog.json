@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v270",
+      "date": "2026-10-26",
+      "changes": [
+        "Cloud sync: create an account and change your password in the app; sign in from Settings and the Notebook, and sync runs automatically once you are signed in."
+      ]
+    },
+    {
       "version": "v269",
       "date": "2026-10-26",
       "changes": [
