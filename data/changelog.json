@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v287",
+      "date": "2026-10-27",
+      "changes": [
+        "Basic track: more explanations completed, from current guidelines, papers and drug labels where the textbooks were silent."
+      ]
+    },
+    {
       "version": "v286",
       "date": "2026-10-27",
       "changes": [
