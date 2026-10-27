@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v284'; // On-demand reading and question data.
+const CACHE_VERSION = 'v285'; // On-demand reading and question data.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
