@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v292",
+      "date": "2026-10-27",
+      "changes": [
+        "The last four basic-track explanations are complete, read from Harrison 21e, the edition their official keys cite."
+      ]
+    },
+    {
       "version": "v291",
       "date": "2026-10-27",
       "changes": [
