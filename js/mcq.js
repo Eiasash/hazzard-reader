@@ -817,13 +817,19 @@ window.HazzardMCQ = (() => {
     }
     function sourceHTML(source){
       const rtl=/^Source: [^A-Za-z\u05d0-\u05ea]*[\u05d0-\u05ea]/.test(source);
+      const locators=/((?:pp?\.?\s*|\u00a7{1,2}\s*)\d+[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*(?:\s*[.,\u2013-]\s*(?=[\d(\u00a7])\u00a7{0,2}\d*[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*)*|\b\d+(?:[\u2013-]\d+)+)/g;
       const render=(text,rtl=false)=>{
-        const parts=String(text).split(/((?:pp?\.?\s*|\u00a7{1,2}\s*)\d+[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*(?:\s*[.,\u2013-]\s*(?=[\d(\u00a7])\u00a7{0,2}\d*[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*)*|\b\d+(?:[\u2013-]\d+)+)/g);
+        const parts=String(text).split(locators);
         return parts.map((part,i)=>i%2?'<bdi dir="ltr" class="mcq-source-locator">'+escape(part).replace(/([\u05d0-\u05ea]+)/g,'<bdi>$1</bdi>')+'</bdi>':rtl?part.split(/(\d+(?:[.,:\/\u2013-]\d+)*(?:\+)?)/g).map((text,n)=>n%2?'<bdi dir="ltr">'+escape(text)+'</bdi>':escape(text)).join(''):'<bdi dir="auto">'+escape(part)+'</bdi>').join('');
       };
-      if(!rtl)return render(source);
+      let prefix='';
+      if(!rtl){
+        const tail=String(source).replace(locators,part=>' '.repeat(part.length)).search(/[\u05d0-\u05ea]/);
+        if(tail<0)return render(source);
+        prefix=render(source.slice(0,tail));source=source.slice(tail);
+      }
       const runs=String(source).split(/([A-Za-z](?:[A-Za-z]|\d[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*|[ \t.,:;()+\/\u00a7\u2013-])*)/g);
-      return '<bdi dir="rtl" style="display:block;text-align:right">'+runs.map((part,i)=>i%2?'<bdi dir="ltr">'+render(part.trimEnd())+'</bdi>'+escape(part.slice(part.trimEnd().length)):render(part,true)).join('')+'</bdi>';
+      return prefix+'<bdi dir="rtl" style="display:block;text-align:right">'+runs.map((part,i)=>i%2?'<bdi dir="ltr">'+render(part.trimEnd())+'</bdi>'+escape(part.slice(part.trimEnd().length)):render(part,true)).join('')+'</bdi>';
     }
     function citationHTML(q){
       const ref=evidence.questions[q.id];
