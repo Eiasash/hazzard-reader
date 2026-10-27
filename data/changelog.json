@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v282",
+      "date": "2026-10-27",
+      "changes": [
+        "Basic track: the May 2024 paper's 50 internal-medicine questions now have full explanations, option by option, from Harrison 22e and Hazzard 8e."
+      ]
+    },
+    {
       "version": "v281",
       "date": "2026-10-27",
       "changes": [
