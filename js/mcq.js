@@ -822,9 +822,8 @@ window.HazzardMCQ = (() => {
     function citationHTML(q){
       const ref=evidence.questions[q.id];
       const source=sourceTitle(q.ref).replace(/\s*·\s*(\u00a7?)/g,(_,section)=>section?' · '+section:' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
-      const practice=practicePage(q),requiredChapter=/^ima-harrison-22e-ch\d+$/.test(q.chapter||'');
+      const practice=practicePage(q);
       let html='<div class="mcq-citations">'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">'+sourceHTML('Source: '+source)+'</button>':'<p class="meta">'+sourceHTML('Source: '+(source||sourceLabel(q)))+'</p>');
-      if(requiredChapter)html+='<p class="meta"><a href="?chapter=laws&amp;lawCard='+encodeURIComponent(q.chapter)+'#law-card-'+encodeURIComponent(q.chapter)+'">Study: '+escape(q.chapterTitle)+'</a></p>';
       if(generated(q)&&practice&&!ref?.pages?.some(p=>p.available))html+='<button class="mcq-page-link" data-page="'+practice.page+'">Open page '+practice.page+(practice.chapterStart?' (chapter start)':'')+'</button>';
       if(q.referenceNote)html+='<p class="meta" dir="auto">'+escape(q.referenceNote)+'</p>';
       const assigned=ref?.chapters.length?ref.chapters:[String(q.chapter)];
@@ -1064,7 +1063,7 @@ window.HazzardMCQ = (() => {
       if(state.checked&&(q.explanationReviewNote||q.explanationIncomplete)){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.lang='en';note.textContent=q.explanationReviewNote||'Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       if(state.checked&&!mockMode)window.HazzardAnswerHighlights?.attach(content.querySelector('.mcq-explanation'),q,order);
-      if(q.kind==='past'&&!mockMode)HazzardLawCards.questionLinks(content,q.id);
+      if(q.kind==='past'&&!mockMode||/^ima-harrison-22e-ch\d+$/.test(q.chapter||''))HazzardLawCards.questionLinks(content,q.id,q,mockMode||q.kind!=='past');
       dockActions(host);
       saveView();
     }

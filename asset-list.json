@@ -1,5 +1,5 @@
 {
-  "version": "v287",
+  "version": "v288",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "9a0dd671453e61388491ec8a8c63aae84e134999916881644b4b5871d8256742",
-      "bytes": 65983
+      "sha256": "bef705be06322c96fa6149a8a81043350750091198406e6220439b5edf9fe38b",
+      "bytes": 66235
     },
     {
       "url": "./data/drug-index.json",
@@ -7723,7 +7723,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "12c376f1ea4950be494322a199a8f8ac80f36ed88ad6d7186fb64b08b94ce584",
+      "sha256": "c0edfd9295bab4267b800ea3248beaa8643b620050aa287568933bbbb69466fa",
       "bytes": 943153
     },
     {
@@ -7748,8 +7748,8 @@
     },
     {
       "url": "./js/law-cards.js",
-      "sha256": "a496d9148e81e1c0a2757146b55b2e71a376fbf5cf88e943513cb97847c85970",
-      "bytes": 8404
+      "sha256": "3f262f1ba0828b5e83c6e69efef9a806c4d9fc800710d05bac0115f4666ffcb9",
+      "bytes": 9136
     },
     {
       "url": "./js/marked.min.js",
@@ -7763,8 +7763,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "850b76542f1cfb3af316464274b11ecee8062e49ce4334f151ec4d8d12fb0f0f",
-      "bytes": 156400
+      "sha256": "3b55969818521fef4fa3ef4fc45cbc3ff30000ff84dd9d6791d07bb8e15c943f",
+      "bytes": 156208
     },
     {
       "url": "./js/memory-aids.js",
@@ -7793,7 +7793,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "a90fc42e44b69b873540dc75da39dd3bd728333922cc4757770afe4a0dfc052c",
+      "sha256": "1eacc6e2b1891989d4995966e23823c35dd640b267cf0f224c8400e33cfd7979",
       "bytes": 8228
     },
     {
