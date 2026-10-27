@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v288",
+      "date": "2026-10-27",
+      "changes": [
+        "Harrison-filed questions no longer show a Study link that opened the Israeli law page; the link now appears only where a Harrison study card exists."
+      ]
+    },
+    {
       "version": "v287",
       "date": "2026-10-27",
       "changes": [

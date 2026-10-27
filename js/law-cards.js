@@ -7,10 +7,19 @@ window.HazzardLawCards = (() => {
       return response.json();
     }).catch(error => { promise = null; throw error; });
   }
-  async function questionLinks(host, id) {
+  async function questionLinks(host, id, question, studyOnly = false) {
     try {
       const data = await read();
-      if (host.dataset.bankId !== id || host.querySelector('.law-question-links')) return;
+      if (host.dataset.bankId !== id) return;
+      const citations = host.querySelector('.mcq-citations');
+      if (citations && /^ima-harrison-22e-ch\d+$/.test(question?.chapter || '') && data.cards.some(card => card.id === question.chapter) && !citations.querySelector('.mcq-harrison-study')) {
+        const line = document.createElement('p'); line.className = 'meta mcq-harrison-study';
+        const link = document.createElement('a');
+        link.href = '?chapter=laws&lawCard=' + encodeURIComponent(question.chapter) + '#law-card-' + encodeURIComponent(question.chapter);
+        link.textContent = 'Study: ' + question.chapterTitle;
+        line.append(link); citations.firstElementChild.after(line);
+      }
+      if (studyOnly || host.querySelector('.law-question-links')) return;
       const links = document.createElement('div'); links.className = 'exam-evidence law-question-links';
       for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => (c.imaItem || c.articleItem || c.citedInPastPapers || c.questions.some(q => q.id === id && q.showBasis)) && c.questions.some(q => q.id === id))) {
         const link = document.createElement('a'); link.dir = 'auto';
