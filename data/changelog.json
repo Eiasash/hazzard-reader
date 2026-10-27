@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v291",
+      "date": "2026-10-27",
+      "changes": [
+        "Chapter 87 study: lactulose and sorbitol dose now matches Table 87-9 (once or twice daily); a highlight on the old line still attaches. Chapter 99: the Endocrine Society asterisk is shown as printed. Practice questions show their source line after you answer. 2023 Q3 moved to Falls; one chapter 88 practice question rewritten; empty lines removed from the 2022 basic results screen."
+      ]
+    },
+    {
       "version": "v290",
       "date": "2026-10-27",
       "changes": [
