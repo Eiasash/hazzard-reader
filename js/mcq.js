@@ -823,7 +823,7 @@ window.HazzardMCQ = (() => {
       };
       if(!rtl)return render(source);
       const runs=String(source).split(/([A-Za-z](?:[A-Za-z]|\d[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*|[ \t.,:;()+\/\u00a7\u2013-])*)/g);
-      return '<bdi dir="rtl">'+runs.map((part,i)=>i%2?'<bdi dir="ltr">'+render(part.trimEnd())+'</bdi>'+escape(part.slice(part.trimEnd().length)):render(part,true)).join('')+'</bdi>';
+      return '<bdi dir="rtl" style="display:block;text-align:right">'+runs.map((part,i)=>i%2?'<bdi dir="ltr">'+render(part.trimEnd())+'</bdi>'+escape(part.slice(part.trimEnd().length)):render(part,true)).join('')+'</bdi>';
     }
     function citationHTML(q){
       const ref=evidence.questions[q.id];
