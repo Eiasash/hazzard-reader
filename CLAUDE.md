@@ -4,7 +4,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 
 ## Current state
 - All 108 Hazzard 8e chapters have Read + Study pages; Study opens on the chapter summary. Ch 2–6, 34 and 62 carry the P005-exclusion note. Israeli law block (`law` / `laws`) and required-article cards sit beside the chapters.
-- MCQ bank: `data/mcq/all.json` holds 2,897 questions — 800 official past-paper (Subspecialty track only) and 2,097 practice, of which 60 practice are retired and never served. The app loads a small catalogue plus 256 chunks generated from all.json by `python tools/generate_question_data.py` (also run by `tools/generate_asset_list.py`). Exam simulation is official-only.
+- MCQ bank: `data/mcq/all.json` holds 3,197 questions — 1,100 official past-paper (800 subspecialty, 2020-2026, and 300 basic-track, Q101-150 of 2022-2026) and 2,097 practice, of which 60 practice are retired and never served. The app loads a small catalogue plus 256 chunks generated from all.json by `python tools/generate_question_data.py` (also run by `tools/generate_asset_list.py`). Exam simulation is official-only.
 - Explanations render per-option lines in on-screen order, each in a framed block with a green tick (key or accepted option) or red cross; prose without per-option lines gets no marks.
 - Per-question audit history: `C:\Users\eiasa\tmp\audit\question_registry.json` (+ .csv), rebuilt by `build_registry.py` in that folder after each release. Any job on questions starts from it.
 - Question-bank scope and release obligations: C:\Users\eiasa\ai-relay\cowork\CURRENT_SETUP.md, MERGES / APPROVALS (hazzard-reader).
@@ -34,6 +34,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - Repo clone: C:\Users\eiasa\repos\hazzard-reader; releases are Codex PRs from that clone.
 
 ## Tools
+- Codex browser checks are written as script files in the report folder and run with python or node. Inline PowerShell check commands were once refused by Codex's automatic approval review ("blocked by policy"), and a classifier denial is never worked around.
 - `tools/lane_diff.py NN` — two-way text diff vs the book (MISSING / EXTRA / SUBSTITUTIONS).
 - `tools/verify_study_pages.py` — bolded numbers vs cited page. 52 current misses, all known false positives (image-only or spelled-out numbers; a note sitting between a number and its page cite).
 

@@ -15,12 +15,14 @@ for name, pattern, replacement in [
     ('index.html', r'(id="readerStatusChip"[^>]*>)v\d+(?:-r\d+)?( - checking offline copy)', rf'\g<1>{version}\2'),
 ]:
     path = ROOT / name
-    original = path.read_text(encoding='utf-8')
+    with path.open(encoding='utf-8', newline='') as source:
+        original = source.read()
     updated, count = re.subn(pattern, replacement, original)
     if count != 1:
         raise ValueError(f'Expected one release label in {name}, found {count}')
     if updated != original:
-        path.write_text(updated, encoding='utf-8')
+        with path.open('w', encoding='utf-8', newline='') as target:
+            target.write(updated)
 # Reserve image layout from the actual files, including new chapter crops.
 image_sizes = {}
 for image_path in sorted((ROOT / 'chapters').iterdir()):
@@ -28,12 +30,14 @@ for image_path in sorted((ROOT / 'chapters').iterdir()):
         with Image.open(image_path) as image:
             image_sizes[image_path.name] = list(image.size)
 index_path = ROOT / 'index.html'
-html = index_path.read_text(encoding='utf-8')
+with index_path.open(encoding='utf-8', newline='') as source:
+    html = source.read()
 html, count = re.subn(r'const imageSizes=\{[^\n]+\};',
     'const imageSizes=' + json.dumps(image_sizes, separators=(',', ':')) + ';', html)
 if count != 1:
     raise ValueError(f'Expected one chapter image-size map, found {count}')
-index_path.write_text(html, encoding='utf-8', newline='\n')
+with index_path.open('w', encoding='utf-8', newline='') as target:
+    target.write(html)
 print(f'Generated dimensions for {len(image_sizes)} chapter images')
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
 paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
@@ -65,5 +69,5 @@ for path in sorted(paths):
     if Path(path).suffix in {'.html', '.md', '.js', '.json', '.css'}:
         data = data.replace(b'\r\n', b'\n')
     files.append({'url': './' + path, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)})
-(ROOT / 'asset-list.json').write_text(json.dumps({'version': version, 'files': files}, indent=2) + '\n', encoding='utf-8')
+(ROOT / 'asset-list.json').write_text(json.dumps({'version': version, 'files': files}, indent=2) + '\n', encoding='utf-8', newline='\n')
 print(f'{version}: {len(files)} files, {sum(f["bytes"] for f in files):,} bytes')
