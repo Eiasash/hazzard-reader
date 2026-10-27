@@ -244,3 +244,5 @@ body.answer-mark-bar-open #jumpEnds{bottom:calc(var(--vv-bottom-gap,0px) + var(-
 .sim-actions.mcq-docked-actions>button{font-size:calc(11px * var(--fs,1))}
 .mcq-docked-actions>[aria-pressed=true]{background:#fff0c2;color:#594000;border-color:#a17713}
 [data-theme=dark] .mcq-docked-actions>[aria-pressed=true]{background:#534318;color:#fff0bc;border-color:#b69a4d}
+
+.chapter-p005-note{display:inline-block;margin-inline-start:calc(5px*var(--fs,1));padding:calc(1px*var(--fs,1)) calc(4px*var(--fs,1));border-radius:calc(4px*var(--fs,1))}
