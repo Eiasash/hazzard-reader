@@ -822,7 +822,7 @@ window.HazzardMCQ = (() => {
         return parts.map((part,i)=>i%2?'<bdi dir="ltr" class="mcq-source-locator">'+escape(part).replace(/([\u05d0-\u05ea]+)/g,'<bdi>$1</bdi>')+'</bdi>':rtl?escape(part):'<bdi dir="auto">'+escape(part)+'</bdi>').join('');
       };
       if(!rtl)return render(source);
-      const runs=String(source).split(/([A-Za-z](?:[A-Za-z]|\d[\u05d0-\u05ea]*|[ \t.,:;()+\/\u00a7\u2013-])*)/g);
+      const runs=String(source).split(/([A-Za-z](?:[A-Za-z]|\d[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*|[ \t.,:;()+\/\u00a7\u2013-])*)/g);
       return '<bdi dir="rtl">'+runs.map((part,i)=>i%2?'<bdi dir="ltr">'+render(part)+'</bdi>':render(part,true)).join('')+'</bdi>';
     }
     function citationHTML(q){
