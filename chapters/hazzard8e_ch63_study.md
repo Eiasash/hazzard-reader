@@ -10,7 +10,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Early recurrent falls as a presenting symptom → suspect **PSP**, vascular dementia, or PD (p981).
 - Prominent early behavior/personality change without amnesia → suspect **FTD** (p982).
 - Vertical gaze abnormality + **preserved oculocephalic reflex** + falls/dysphagia → suggests PSP (p982).
-- Possible bvFTD needs **3 of 6** core symptoms (early disinhibition, apathy, loss of sympathy/empathy, repetitive motor behaviors, hyperorality, executive deficit) (p982).
+- Possible bvFTD needs **3 of 6** core symptoms (early disinhibition, apathy, loss of sympathy/empathy, repetitive motor behaviors, hyperorality, frontal executive deficit with relative visuospatial sparing) (p982).
 - Underlying pathology groups the syndromes: **alpha-synuclein** unites DLB, PDD, and MSA; **tau** predominates in PSP, CBD, and nfvPPA; **TDP-43** in svPPA; **amyloid β + tau** in AD and lvPPA (Table 63-5, p993).
 
 ### Dementia with Lewy Bodies (DLB)

@@ -44,6 +44,12 @@ window.HazzardReview = (() => {
     v.seed={count,at:now};write(v);return v.seed;
   })().finally(()=>{seedPromise=null;});}
   function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:due(v,today,true).filter(id=>available.has(id)).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
+  function nextBatch(items){
+    const v=read(),available=new Set(items.map(q=>q.id)),completed=new Set(Object.keys(v.batch?.answers||{}));
+    const ids=due(v).filter(id=>available.has(id)&&!completed.has(id)).slice(0,v.settings.size);
+    if(!ids.length)return null;
+    v.batch={day:day(),ids,answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);return v.batch;
+  }
   function position(n){const v=read();if(v.batch&&v.batch.position!==n){v.batch.position=n;v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}}
   function size(n,items){
     const v=read();v.settings={size:n,at:Math.max(Date.now(),v.settings.at+1)};
@@ -59,5 +65,5 @@ window.HazzardReview = (() => {
     }
     return write(v);
   }
-  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,result,set,seed,batch,position,size};
+  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,result,set,seed,batch,nextBatch,position,size};
 })();

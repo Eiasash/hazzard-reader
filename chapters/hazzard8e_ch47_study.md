@@ -31,7 +31,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - Basic work-up for all: history ± bladder diary, exam, urinalysis, PVR when at risk (Table 47-6, p705).
 - Gross bladder distention (**≥ 500 mL**) is detectable on abdominal exam (p705).
 - Cough stress test: bladder filled to about half-capacity (**~200 mL**), standing position most sensitive (p705).
-- PVR interpretation: **PVR < 100 mL** normal; **PVR > 200 mL** abnormal; 100–200 mL is equivocal (p707).
+- PVR interpretation: **PVR < 100 mL** without straining generally reflects adequate emptying; **PVR > 200 mL** abnormal; 100–200 mL is equivocal (p707).
 - Refer for urologic/gynecologic/urodynamic evaluation if: PVR **≥ 200 mL**, difficulty passing a 14-French catheter, recurrent symptomatic UTI (**≥ 2** episodes/12 mo), hematuria, marked prolapse, marked prostatic enlargement/suspected cancer, recent (6–12 mo) pelvic/urinary-tract surgery or irradiation, or failed behavioral/drug trial (Table 47-7, p708).
 
 **Management — behavioral (first-line)**

@@ -41,7 +41,7 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - Treatment failure = no clinical stability by **3-4 days**, or deterioration/respiratory failure/septic shock in the first **72 h**; associated with a **fivefold** increase in mortality. However, stability may take longer **without implying therapeutic failure** in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure) (p1690).
 - A **5-7 day** course is sufficient for most pneumonia even in older adults; extend for *Legionella*, resistant GNB, or MRSA, or for persistent fever beyond **72 h**, persistence of >1 instability criterion, inadequate initial coverage, or complications (p1690).
 - PCV13 should be given first, with PPSV given at least **8 weeks** later, per ACIP (p1690).
-  > Current practice (not the book): PCV15, PCV20 or PCV21 for adults ≥50; after PCV15 give PPSV23 one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026.
+  > Current practice (not the book): prior vaccination determines the schedule: PCV15, PCV20 or PCV21 for adults ≥50 who never received a PCV or whose history is unknown; after PCV15 give PPSV23 if not previously administered, one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026.
 
 ### Tuberculosis — Epidemiology & Pathophysiology
 - **>1.7 billion** people (about **25%** of the world's population) are estimated to be infected with *M tuberculosis*; high-burden regions run **≥100/100,000**, while the US, Western Europe, Canada, Japan, and Australia run **<25/100,000** (p1691).

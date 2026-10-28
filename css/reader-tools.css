@@ -54,7 +54,7 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 /* Cloud entry remains visible with release details folded. */
 #panel[open][data-current-pane="tools"] { max-block-size:calc(var(--vv-height) * .45); }
 #panel[open][data-current-pane="tools"]:has(#appearanceStatus[open]) { max-block-size:calc(var(--vv-height) * .7); }
-#panel[data-current-pane="tools"] #cloudSettingsEntry { grid-column:1 / -1; grid-row:2; height:auto; min-height:40px; text-align:start; white-space:normal; font:600 calc(13px * var(--fs,1))/1.4 var(--ui); }
+#panel[data-current-pane="tools"] #cloudSettingsEntry { grid-column:1 / -1; grid-row:2; height:auto; min-height:44px; text-align:start; white-space:normal; font:600 calc(13px * var(--fs,1))/1.4 var(--ui); }
 #panel[data-current-pane="tools"] #appearanceStatus { grid-row:3; }
 #panel[data-current-pane="tools"] #whatsNewButton { grid-row:3; }
 #panel[data-current-pane="tools"] #appearanceStatus[open] { grid-row:4; }

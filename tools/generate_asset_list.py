@@ -47,6 +47,7 @@ paths.update({'js/question-data.js','data/verification-registry.json','data/mark
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
 paths.add('js/changed-questions.js')
 paths.add('js/stats.js')
+paths.add('data/search-index.json')
 paths.add('data/redo-history.json')
 for chapter in [*mcq_index, 'all']:
     path = f'data/mcq/{chapter}.json'

@@ -15,7 +15,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - **Rule out delirium first** for any acute or fluctuating change in cognition/behavior (p923).
 - NPI = most-used research tool for NPS; NPI-Q = brief clinic version, measures **12 NPS** domains plus informant distress (p922).
 - Medication review is essential: the anticholinergic-risk/delirium med list (**Table 60-3**, p922) includes non-obvious agents **digoxin** and **furosemide** alongside the classic anticholinergics (TCAs, diphenhydramine/hydroxyzine/promethazine, oxybutynin, scopolamine).
-- New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — only if meningitis/encephalitis suspected (p922).
+- New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922).
 - Depression affects up to **50%** of dementia patients and may go undetected — in dementia it is more likely to present with agitation, irritability, and anxiety (p923).
 - Psychosis occurs in **20% to 30%** of AD patients vs **over 50%** of DLB/Parkinson disease dementia patients; visual hallucinations (more common in DLB) may be the most clinically useful feature to distinguish DLB from AD (p923–924).
 
@@ -30,7 +30,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 **Drugs — antipsychotics** (all carry a black-box mortality warning in dementia)
 - No significant benefit after a **4-week period** → taper and withdraw; reassess at least monthly while tapering and for at least **4 months** after stopping (p927).
 - Delirium-related agitation (short-term, low-dose), all q6h PRN: haloperidol **0.25–0.5 mg** PO/IV, quetiapine **12.5–25 mg** PO, olanzapine **2.5 mg** PO or **1.25–2.5 mg** IM, or risperidone **0.25–0.5 mg** PO/IV (p923).
-  > Current practice (not the book): risperidone is not given IV; the only injectable form (Risperdal Consta) is IM only — "Do not administer intravenously" — Risperdal Consta prescribing information (Janssen).
+  > Current practice (not the book): risperidone is not given IV; Risperdal Consta is IM only — "Do not administer intravenously" — Risperdal Consta prescribing information (Janssen).
 - Risperidone **0.25–1 mg**/day — most effective for psychosis and agitation per AHRQ review; dose-dependent EPS, ↑cerebrovascular risk (p928).
 - Olanzapine **2.5–10 mg**/day — most effective for agitation per AHRQ review; sedation, weight gain, glucose effects (p928).
 - Quetiapine **12.5–150 mg**/day — sedation, orthostatic hypotension; with clozapine, less likely than other antipsychotics to worsen parkinsonian symptoms (p928).

@@ -51,7 +51,7 @@ Study summary of Chapter 83; the book and the full chapter are the reference.
 - Prevalence **2–3%** of general hypertensive population; up to **40%** of refractory hypertension (p1287).
 - Atherosclerosis accounts for almost **90%** of cases in older adults, fibrous dysplasia the rest (p1287); other causes — Table 83-3 (p1288).
 - Duplex ultrasound sensitivity/specificity: low-to-mid **90%** range (p1288).
-- Renal vein renin ratio **≥1.5** between kidneys predicts a beneficial BP response to revascularization; failure to lateralize does *not* predict a negative response (p1289).
+- Renal vein renin ratio **≥1.5** between kidneys predicts a beneficial BP response to revascularization; failure to lateralize does *not* predict a negative response; overall BP response cannot be predicted confidently with renal vein renin measurements (p1289).
 - CORAL trial (**947** patients): no benefit of revascularization vs. medical management (p1289).
 - Up to **50%** of stenoses worsen over time, at up to **5%/year** (p1289).
 

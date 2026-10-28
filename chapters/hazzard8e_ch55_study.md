@@ -34,7 +34,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 **Adaptive aids**
 - Canes: opposite the involved leg; "up with the good, down with the bad" on stairs (p827).
 - **Table 55-5** (p828): power wheelchair needs cognitive ability to operate safely (controls don't require intact UEs) — may be beneficial in neurologic disease (high-level SCI, MS, ALS) or multiple-limb amputation; rollator is good for outside walking because of large wheels and has a seat for resting.
-- Diabetic foot disease: Medicare covers **one pair** of shoes/inserts **each year** (p829).
+- Diabetes and severe diabetic foot disease: Medicare covers **one pair** of therapeutic shoes and inserts or shoe modifications **each year** (p829).
 
 **Condition-specific rehab**
 - Pulmonary: exercise **three times a week or more**, target moderate dyspnea (p829).

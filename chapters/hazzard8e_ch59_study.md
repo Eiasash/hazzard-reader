@@ -33,7 +33,7 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 - Late stages: falls, dysphagia, incontinence, immobility; death commonly from pneumonia, urosepsis, dehydration, pressure sores.
 
 **Evaluation**
-- NIA-AA dementia criteria (Table 59-1): decline from previous level that interferes with function, not explained by delirium or major psychiatric disorder; history from patient and a knowledgeable informant + objective cognitive assessment (p895).
+- NIA-AA dementia criteria (Table 59-1): decline from previous level that interferes with function, not explained by delirium or major psychiatric disorder; history from patient and a knowledgeable informant + objective cognitive assessment; impairment involves at least two cognitive or behavioral domains (p895).
 - NIA-AA MCI criteria (Table 59-2): concern about change noted by the patient, an informant or a clinician; lower performance in ≥1 domain; **preserved independence in functional abilities**; not dementia (p896).
 - Reversible-cause workup: meds (anticholinergic/sedating), depression, hearing loss, OSA, alcohol, vascular disease, delirium.
 - Labs: B12, folate, TSH, CBC, electrolytes, LFTs, 25-OH vitamin D; HIV/syphilis if atypical; thiamine if heavy alcohol use (p906).
@@ -41,15 +41,15 @@ Study summary of Chapter 59 — Dementia Including Alzheimer Disease; the book a
 - **MCI noted in up to 15–20%** of older adults; progresses to dementia at **~12–15%/year** (p907).
 
 **Drugs**
-- **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil **4–6 wk** before 5→10 mg (the 10→23 mg step after **3 months** on 10 mg) (p912), galantamine **≥4 wk** per step (p912), rivastigmine **≥2 wk** per oral step or **4–6 wk** for the patch (p913); **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
-- **Memantine (Namenda)** — NMDA-receptor antagonist, approved for **moderate-to-severe AD**; combo with an AChEI is not superior to either drug alone (p911).
+- **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil **4–6 wk** before 5→10 mg (the 10→23 mg step after **3 months** on 10 mg) (p912), galantamine **≥4 wk** per step (p912), rivastigmine **≥2 wk** per oral step or **4–6 wk** for the patch (p912); **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
+- **Memantine (Namenda)** — NMDA-receptor antagonist, approved for **moderate-to-severe AD**; combo with an AChEI has not been shown to be superior to either drug alone (p911).
 - **Aducanumab** — FDA accelerated approval **June 2021** (p911); anti-amyloid monoclonal antibody, **FDA-labeled only for MCI due to AD and mild AD** (not moderate-to-severe AD) (Table 59-7, p914). One trial: **22%** reduced cognitive decline (CDR-SB) over **18 months**; no statistically significant benefit in the other trial. ARIA-E/ARIA-H in **34–36%** of high-dose patients, **~80%** of those asymptomatic (p911).
 
 **Prevention, safety, and end-of-life**
 - **SPRINT-MIND**: SBP goal **120 mmHg** (vs 140) → **19%** reduction in incident MCI (p915).
 - Nonpharmacologic care: exercise, cognitive/social stimulation, safety review (driving, firearms, stove), caregiver support/respite.
 - Behavioral symptoms: nonpharmacologic management first-line (see Ch. 60 for detail).
-- **Feeding tubes are not recommended** in advanced AD — they do not prolong survival or improve comfort, and do not reduce pressure sores, infection, or aspiration risk (p916).
+- **Feeding tubes are not recommended** in advanced AD — they do not prolong survival or improve comfort, and have not been shown to reduce pressure sores, infection, or aspiration risk (p916).
 
 ## Recall
 

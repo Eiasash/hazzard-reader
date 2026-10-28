@@ -35,7 +35,7 @@ window.HazzardChanged = (() => {
   }
   async function refresh() {
     const host = document.getElementById('changedQuestions');
-    if (!host) return;
+    if (!host || (document.getElementById('desk')?.hidden !== false && document.querySelector('[data-pane="practice"]')?.hidden !== false)) return;
     try {
       const entries = await load();
       await HazzardMCQ.loadAliases();

@@ -5,7 +5,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 ## Summary
 
 ### Definition & Epidemiology
-- Rome IV: ≥2 of the following, on >**25%** of occasions, for ≥**12 wk** in the last **12 mo**: ≤**2 BM/week**, straining, hard stool (Bristol 1-2), sensation of incomplete evacuation, sensation of anorectal obstruction, manual maneuvers to defecate (p1354).
+- Rome IV: ≥2 of the following, on >**25%** of occasions, for ≥**12 wk** in the last **12 mo**: ≤**2 BM/week**, straining, hard stool (Bristol 1-2), sensation of incomplete evacuation, sensation of anorectal obstruction, manual maneuvers to defecate; loose stools rarely occur without laxatives and IBS criteria are not fulfilled (p1354).
 - North American prevalence **12-19%**; an estimated **63 million** people in North America meet Rome II criteria for constipation (p1354).
 - Self-reported constipation in adults 65+: **26%** women, **16%** men; rises to **34%/26%** in the 84+ group (p1354).
 - Normal aging does NOT reduce bowel movement frequency: only **1-7%** of any age group report ≤2 BM/wk. Among older adults who self-report "constipation," **<10%** actually have ≤2 BM/wk and **>50%** move bowels daily — straining (**65%**) and hard stool (**39%**) drive the complaint, not frequency; **21%** of community-dwelling people 65+ have rectal outlet delay (p1355).
@@ -36,7 +36,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 ### Evaluation
 - Digital rectal exam is required in everyone reporting constipation; an empty rectum on exam does NOT exclude the diagnosis (p1364).
-- Normal perineal descent is <**4 cm** (p1365). Plain x-ray: megacolon = colon diameter >**6.5 cm**; rectal dilatation >**4 cm** implies dysmotility (p1365).
+- Normal perineal descent is <**4 cm** (p1365). Plain x-ray: colon diameter >**6.5 cm** without acute obstruction points toward megacolon; rectal dilatation >**4 cm** implies dysmotility (p1365).
 - Colonic transit marker study: normal clears to ≤**5 of 24** markers by day **5**; balloon expulsion normal range **1-5 min** (p1368).
 - Colonoscopy is NOT indicated for constipation alone — in 400 colonoscopies in octogenarians, cancer detection was only **2%** for symptoms other than bleeding (eg, constipation, abdominal pain) vs **12%** for bleeding (p1368).
 
@@ -46,11 +46,11 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - Biofeedback outperforms laxatives/diazepam for rectal outlet delay/dyssynergia: **70% vs 23%** response at 3 months, **80% vs 22%** at 6-12 months (p1371).
 
 ### Drugs (name — dose — key cautions)
-- **Senna** — 1-3 tabs at bedtime; onset **8-12 h** (p1372); cheap, safe first-line stimulant.
+- **Senna** — 1-3 tabs at bedtime if symptoms persist after bulk laxatives in ambulant older people (Table 87-11, p1378); onset **8-12 h** (p1372); cheap, safe first-line stimulant.
 - **Bisacodyl** — **5–10 mg** by mouth up to **3 times/wk** (Table 87-9, p1373); **10 mg daily** was the trial regimen in outpatients with a mean age of **62** (p1375); caution: bisacodyl used for colonoscopy prep may raise ischemic colitis risk in patients with cardiovascular disease (p1368).
 - **Psyllium/bulk agents** — 1-3×/day with fluids; adds **1.4** BM/wk vs placebo (p1375); caution: impaction risk if fluid intake is poor.
 - **Lactulose/sorbitol** — 15–30 mL once or twice daily (Table 87-9, p1373); adds **1.9** BM/wk (p1376); sorbitol equally effective and cheaper.
-- **PEG** — more potent hyperosmolar laxative than lactulose; disimpaction regimen **1 L (8 sachets)/day × 3 days** achieved **89%** success (p1376); caution: liquid stools.
+- **PEG** — more potent hyperosmolar laxative than lactulose; a trial of PEG plus electrolytes for disimpaction at **1 L (8 sachets)/day × 3 days** achieved **89%** success (p1376); caution: liquid stools.
 - **Magnesium salts** — avoid magnesium hydroxide in CKD; magnesium citrate not recommended in older adults at all (pseudo-obstruction risk) (p1376).
 - **Docusate** — avoid: little or no laxative action, even at **300 mg/day** (p1376), despite being the predominantly prescribed agent in US nursing homes (p1372).
 - **Glycerin suppository** — first-line for rectal outlet delay; **bisacodyl suppository** second-line; onset **5-45 min** (p1377).
@@ -67,7 +67,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 <details><summary>Answer</summary>
 
-≥2 of: ≤2 BM/wk, straining, hard stool (Bristol 1-2), incomplete evacuation, anorectal obstruction sensation, manual maneuvers — on >25% of occasions for ≥12 wk in the last 12 mo (p1354).
+≥2 of: ≤2 BM/wk, straining, hard stool (Bristol 1-2), incomplete evacuation, anorectal obstruction sensation, manual maneuvers — on >25% of occasions for ≥12 wk in the last 12 mo; loose stools rarely occur without laxatives and IBS criteria are not fulfilled (p1354).
 
 </details>
 
