@@ -1,6 +1,11 @@
 {
-  "version": "v293",
+  "version": "v294",
   "files": [
+    {
+      "url": "./app.webmanifest",
+      "sha256": "8212030ad6f4c7ee17083c162e3db38bd11dfd0e3e3982f27a3ee96b5625dbde",
+      "bytes": 458
+    },
     {
       "url": "./chapters/ch27_table27_3_p375.png",
       "sha256": "79fb12b481a66efd77319503b074ea121c0f99e73eae88bb233975d71c852f40",
@@ -23,8 +28,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch100_myopathies_polymyalgia_rheumatica_and_giant_cell_arteritis.md",
-      "sha256": "47b19a3134086ba74661f431eb3b898306cdd3b7a9983750e5ce269e964cda8f",
-      "bytes": 92175
+      "sha256": "2c1899cc8410e220f018f66c79ec52894c811a793b8af5cf14f5ca64e1265f03",
+      "bytes": 92177
     },
     {
       "url": "./chapters/hazzard8e_ch100_study.md",
@@ -3723,8 +3728,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch68_study.md",
-      "sha256": "c0207be1b2b4f92d2bcc4f1f7d4da3a2097b1a43620bb35cc2cd4f6095fd32f1",
-      "bytes": 11026
+      "sha256": "481019ddc1e889e184757da0a4569ae2cd574e76f0f204662a61e28cf4f85cfc",
+      "bytes": 11028
     },
     {
       "url": "./chapters/hazzard8e_ch68_table68-1_p1056.png",
@@ -5628,8 +5633,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch96_coagulation_disorders.md",
-      "sha256": "6d669e73a2d1662fd225c16f960633c523c387aa4016b86c271c7b9bad33aa3c",
-      "bytes": 67499
+      "sha256": "82e47454e4ee352fbd38980c267bf6e4f20c4dc79e19851e6fd64fd09980f34f",
+      "bytes": 67500
     },
     {
       "url": "./chapters/hazzard8e_ch96_figure-96-1_p1510.webp",
@@ -5958,8 +5963,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "e45086057cf7342ca12a632a7be873714f7d97908fbb927dc45aa57c232f2fa3",
-      "bytes": 32157
+      "sha256": "0eee4ccc68947c63391d22fc16101b6d97e6099fe172646d00799f0d94d3e9f2",
+      "bytes": 32360
     },
     {
       "url": "./css/memory-aids.css",
@@ -5968,18 +5973,23 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "8d40b0269583624b7254b3f97ee072c90c56730fad15cd3e46a1e80572f0a945",
-      "bytes": 7167
+      "sha256": "454ed4275be61223b20e096aab90ecc823089042fb972ad75b8b99bcf4c8532f",
+      "bytes": 7247
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "d46ef0aa7eb11eb12417637127c54543e80d257e39c4ef9ef0321f7d156f7ed2",
-      "bytes": 67841
+      "sha256": "2dfb16eb1797195097786c62070d54dd68a762d5ece4be66545da77098e9fe31",
+      "bytes": 68218
     },
     {
       "url": "./data/drug-index.json",
       "sha256": "38e7eed7f4792f82ed689c06ac203c33f4e9f70e9e62800fffc871691fc7c7ce",
       "bytes": 736097
+    },
+    {
+      "url": "./data/highlight-aliases.json",
+      "sha256": "da1ec33dc99809ea07e18356d932bde81d2cd3efc6c8882e08d7b60f6755e096",
+      "bytes": 1974
     },
     {
       "url": "./data/law-cards.json",
@@ -7722,9 +7732,19 @@
       "bytes": 1762821
     },
     {
+      "url": "./icons/hazzard-192.png",
+      "sha256": "75bd73f9505acec0d12078f5f01c0137f47307916dcb7082ea91526112c16064",
+      "bytes": 639
+    },
+    {
+      "url": "./icons/hazzard-512.png",
+      "sha256": "98e7548744494cf698b4be93e5b5056d505653247c8a258ed821e85b48736f18",
+      "bytes": 1990
+    },
+    {
       "url": "./index.html",
-      "sha256": "d176faebb03c8fceef77ad10d1425f92c7b7acf2cf0cd05baf46cf4d9166a372",
-      "bytes": 945055
+      "sha256": "3607af3034dae9d01e0a4498f385ea4706f125464842e76102fd6e4136bf4d52",
+      "bytes": 947794
     },
     {
       "url": "./js/changed-questions.js",
@@ -7763,8 +7783,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "4c12ecb7d8601cbc9095221f7db8f950036fd158b14591630b444509288b4d9a",
-      "bytes": 157296
+      "sha256": "42bc49c32a735cb02ac9cc09e2be52c37bd36305bf48453fb244cfe6e82fa62b",
+      "bytes": 157960
     },
     {
       "url": "./js/memory-aids.js",
@@ -7778,8 +7798,8 @@
     },
     {
       "url": "./js/question-search.js",
-      "sha256": "8832d6218432762ae40cfad932303799e90d592a9fa67b2f443add8f0f8f3060",
-      "bytes": 4059
+      "sha256": "517ca7bfb43c3f9cc253bdea8b518c2ffd3c321d49f0a2bf57c7d1d198e96ac6",
+      "bytes": 4217
     },
     {
       "url": "./js/reader-cloud.js",
@@ -7793,8 +7813,8 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "ea43f615c33a07d1f3f4b2335e1b78fa55a3ebd7ae51eb376a38c86d7fac2e96",
-      "bytes": 8616
+      "sha256": "d64d5c2250b43e6eaa2de2c3325ad7d9dc311964877fb5efe226ca05f015938c",
+      "bytes": 9571
     },
     {
       "url": "./js/reader-storage.js",

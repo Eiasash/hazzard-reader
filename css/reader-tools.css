@@ -15,17 +15,17 @@
 .release-entry h3 { margin-block:4px 8px; }
 .release-entry ul { padding-inline-start:22px; }
 .release-entry li { margin-block:8px; line-height:1.5; }
-#readerDebug { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100vw - 20px)); max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); padding:14px; border:1px solid var(--rule,#68737f); border-radius:12px; background:var(--surface,#fffdf8); color:var(--ink,#263029); font:14px/1.45 system-ui,sans-serif; overflow:auto; }
+#readerDebug { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100vw - 20px)); max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); padding:14px; border:1px solid var(--rule,#68737f); border-radius:12px; background:var(--surface,#fffdf8); color:var(--ink,#263029); font:calc(14px * var(--fs,1))/1.45 system-ui,sans-serif; overflow:auto; }
 #readerDebug::backdrop { background:rgb(0 0 0 / .45); }
 #readerDebug[open] { display:block; }
 #readerDebug h2 { font-size:calc(18px*var(--fs,1)); margin:0 0 10px; }
 #readerDebug .debug-actions { display:flex; flex-wrap:wrap; gap:8px; position:sticky; inset-block-start:-14px; background:var(--surface,#fffdf8); padding-block:8px; }
 #readerDebug button { min-height:44px; min-width:44px; padding:8px 12px; background:var(--soft,#eeece3); color:inherit; border:1px solid var(--rule,#68737f); border-radius:8px; font:inherit; cursor:pointer; }
-#readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:12px/1.5 monospace; }
-#readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:12px/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
+#readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:calc(12px * var(--fs,1))/1.5 monospace; }
+#readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:calc(12px * var(--fs,1))/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
 #readerDebug button:focus-visible,#readerDebug textarea:focus-visible { outline:2px solid var(--focus,#8a511c); outline-offset:2px; }
 /* The waiting-update action has its own target, separate from Text settings. */
-#readerUpdateButton{position:fixed;left:calc(var(--vv-left,0px) + var(--vv-width,100vw) / 2);transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 6px);z-index:90;width:min(600px,calc(var(--vv-width,100vw) - 24px));min-height:48px;padding:10px 16px;border:2px solid #287aca;border-radius:24px;background:var(--surface);color:var(--ink);font:600 13px/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
+#readerUpdateButton{position:fixed;left:calc(var(--vv-left,0px) + var(--vv-width,100vw) / 2);transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 6px);z-index:90;width:min(600px,calc(var(--vv-width,100vw) - 24px));min-height:48px;padding:10px 16px;border:2px solid #287aca;border-radius:24px;background:var(--surface);color:var(--ink);font:600 calc(13px * var(--fs,1))/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
 #readerUpdateButton[hidden]{display:none}
 :root[data-theme="dark"] #readerUpdateButton{border-color:#78baff}
 /* Reserve the update action's row, including when a sheet is open. */

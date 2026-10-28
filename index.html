@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/memory-aids.css">
 <link rel="stylesheet" href="css/drug-index.css">
 <link rel="stylesheet" href="css/reader-tools.css">
+<link rel="manifest" href="app.webmanifest">
 <style>
 /* CORE SYSTEM. All authored pixel dimensions scale with the existing --fs control.
    Percentages, viewport measurements, grid fractions and unitless line heights are structural. */
@@ -447,24 +448,24 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .practice-controls .mock-grade button[aria-pressed="true"]{color:var(--hl-ink);background:transparent}
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="1"]::before{background:var(--hl-green);border-color:var(--accent);border-width:2px}
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="0"]::before{background:var(--hl-pink);border-color:var(--stop);border-width:2px}
-/* v52: one control row, independent of reading size and mobile text autosizing. */
-#panel[data-current-pane="tools"]{--fs:1;--body:13px;--small:12px;--label:13px;--tap:40px;max-block-size:calc(var(--vv-height) * .25);padding:10px 12px;font:13px/18px var(--ui);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+/* One settings control row; text follows the reader size. */
+#panel[data-current-pane="tools"]{--body:calc(13px * var(--fs,1));--small:calc(12px * var(--fs,1));--label:calc(13px * var(--fs,1));--tap:40px;max-block-size:calc(var(--vv-height) * .25);padding:10px 12px;font:calc(13px * var(--fs,1))/18px var(--ui);-webkit-text-size-adjust:100%;text-size-adjust:100%}
 #panel[data-current-pane="tools"]:has(#appearanceStatus[open]){max-block-size:calc(var(--vv-height) * .7)}
 #panel[data-current-pane="tools"] *{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 #panel[data-current-pane="tools"] .dialog-head{flex:none;height:36px;margin:0 0 6px}
-#panel[data-current-pane="tools"] #panelTitle{font:600 14px/18px var(--ui)}
+#panel[data-current-pane="tools"] #panelTitle{font:600 calc(14px * var(--fs,1))/18px var(--ui)}
 #panel[data-current-pane="tools"] [data-pane="tools"]{flex:1;overflow:auto;padding:0;min-width:0}
 #panel[data-current-pane="tools"] .settings-controls{display:grid;grid-template-columns:minmax(0,1fr) 40px 40px;gap:8px;margin:0}
-#panel[data-current-pane="tools"] button{min-height:40px;min-block-size:40px;height:40px;font:500 13px/18px var(--ui);padding:0 8px}
+#panel[data-current-pane="tools"] button{min-height:40px;min-block-size:40px;height:40px;font:500 calc(13px * var(--fs,1))/18px var(--ui);padding:0 8px}
 #panel[data-current-pane="tools"] #sizeChoices{min-width:0}
 #panel[data-current-pane="tools"] .icon-control{width:40px;min-width:40px;justify-content:center;padding:0}
 #panel[data-current-pane="tools"] .swatch{width:20px;height:20px;margin:0;background:var(--current-mark);border:1px solid var(--control)}
-#panel[data-current-pane="tools"] #closePanel{min-width:40px;min-height:40px;min-block-size:40px;width:40px;height:40px;padding:0;font:24px/40px var(--ui)}
-#panel[data-current-pane="tools"] .meta{font:12px/16px var(--ui);margin:6px 0}
+#panel[data-current-pane="tools"] #closePanel{min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:0;font:24px/44px var(--ui)}
+#panel[data-current-pane="tools"] .meta{font:calc(12px * var(--fs,1))/16px var(--ui);margin:6px 0}
 #cloudControls input{display:block;width:100%;box-sizing:border-box;min-height:40px;margin:4px 0 8px;padding:8px;border:1px solid var(--control);border-radius:6px;background:var(--paper);color:var(--ink);font:16px var(--ui)}
 #panel #cloudControls button{display:block;width:100%;height:auto;min-height:40px;margin:4px 0;padding:8px;white-space:normal;text-align:left}
 #cloudControls [hidden]{display:none!important}
-#appearanceStatus{margin-top:4px;font:12px/16px var(--ui);color:var(--muted)}
+#appearanceStatus{margin-top:4px;font:calc(12px * var(--fs,1))/16px var(--ui);color:var(--muted)}
 #appearanceStatus summary{display:block;min-width:0;min-height:40px;line-height:40px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;list-style:none}
 #appearanceStatus summary::-webkit-details-marker{display:none}
 #appearanceStatus summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
@@ -493,7 +494,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 
 /* v53: one S/M/L scale for reading and UI; fixed reachability controls. */
 :root{--body:calc(.75rem * var(--fs,1))}
-#panel[data-current-pane="tools"],#appTabs{--fs:1;--s1:4px;--s2:8px;--s3:12px;--s4:12px;--s6:18px;--s8:24px;--gutter:12px;--radius:12px;--line:1px;letter-spacing:.1px}
+#panel[data-current-pane="tools"],#appTabs{--s1:4px;--s2:8px;--s3:12px;--s4:12px;--s6:18px;--s8:24px;--gutter:12px;--radius:12px;--line:1px;letter-spacing:.1px}
 #appTabs{--tap:44px}
 #homeProgress{white-space:normal}
 .library-row{grid-template-columns:minmax(0,1fr) calc(48px * var(--fs,1)) calc(52px * var(--fs,1));min-height:calc(64px * var(--fs,1))}
@@ -503,20 +504,20 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel:not([data-current-pane="tools"]){height:auto;max-block-size:calc(var(--vv-height) * .30 * var(--fs,1));padding:calc(6px * var(--fs,1)) calc(12px * var(--fs,1));font:400 calc(13px * var(--fs,1))/1.35 var(--ui)}
 #panel:not([data-current-pane="tools"]) .dialog-head{min-height:40px;margin-bottom:0}
 #panel:not([data-current-pane="tools"]) #panelTitle{font:600 calc(16px * var(--fs,1))/1.25 var(--ui)}
-#panel:not([data-current-pane="tools"]) #closePanel{position:relative;min-width:40px;min-height:40px;min-block-size:40px;width:40px;height:40px;padding:2px;border:0;background:transparent;font:calc(24px * var(--fs,1))/36px var(--ui)}
+#panel:not([data-current-pane="tools"]) #closePanel{position:relative;min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:2px;border:0;background:transparent;font:calc(24px * var(--fs,1))/36px var(--ui)}
 #panel:not([data-current-pane="tools"]) #closePanel::before{content:"";position:absolute;inset:2px;border:1px solid var(--control);border-radius:10px;pointer-events:none}
 #panel:not([data-current-pane="tools"]) [data-pane]{padding-bottom:0}
-#panel:not([data-current-pane="tools"]) .rows button,#panel:not([data-current-pane="tools"]) .rows a.sim-entry{min-height:calc(44px * var(--fs,1));min-block-size:40px;padding:calc(4px * var(--fs,1)) 0;font-size:calc(15px * var(--fs,1));line-height:1.2}
+#panel:not([data-current-pane="tools"]) .rows button,#panel:not([data-current-pane="tools"]) .rows a.sim-entry{min-height:calc(44px * var(--fs,1));min-block-size:44px;padding:calc(4px * var(--fs,1)) 0;font-size:calc(15px * var(--fs,1));line-height:1.2}
 #panel:not([data-current-pane="tools"]) .rows small{font-size:calc(12px * var(--fs,1));line-height:1.25;margin-top:0}
 #panel:not([data-current-pane="tools"]) .meta{font-size:calc(12px * var(--fs,1));margin:calc(4px * var(--fs,1)) 0}
 #panel [data-pane="practice"]>p{display:none}
 #panel .nb-heading,#panel .nb-group h3{font:600 calc(15px * var(--fs,1))/1.3 var(--ui);margin:calc(6px * var(--fs,1)) 0 calc(2px * var(--fs,1))}
 #panel .notebook-backup{margin-top:calc(6px * var(--fs,1));padding-top:calc(6px * var(--fs,1))}
-#panel .notebook-backup button{min-height:40px;min-block-size:40px;margin-bottom:4px;padding:calc(5px * var(--fs,1)) calc(8px * var(--fs,1))}
+#panel .notebook-backup button{min-height:44px;min-block-size:44px;margin-bottom:4px;padding:calc(5px * var(--fs,1)) calc(8px * var(--fs,1))}
 #panel:not([data-current-pane="tools"]) #panelBack{margin:0;min-height:40px;min-block-size:40px;padding-block:2px}
 
-.changed-questions summary{cursor:pointer;min-height:44px;padding:10px 4px;font:600 14px/1.5 var(--ui)}
-.changed-questions p{font:400 13px/1.5 var(--ui);color:var(--muted)}
+.changed-questions summary{cursor:pointer;min-height:44px;padding:10px 4px;font:600 calc(14px * var(--fs,1))/1.5 var(--ui)}
+.changed-questions p{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
 .changed-questions .rows a{display:flex;align-items:center;min-height:44px;padding:6px 4px;box-sizing:border-box}
 #appTabs .changed-count{font:600 8.5px/1 var(--ui);color:var(--accent);white-space:normal;overflow:visible;text-overflow:clip;max-height:none}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])){gap:0;padding-block:1px}
@@ -568,6 +569,18 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])) .chapter-switch{flex-basis:calc(90px * var(--fs,1))}
 body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])) .chapter-switch button:first-child{flex:0 0 calc(46px * var(--fs,1))}
 body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])):has(.study-view-tabs:not([hidden])){grid-template-columns:calc(44px * var(--fs,1)) calc(44px * var(--fs,1)) minmax(0,1fr) calc(90px * var(--fs,1)) calc(44px * var(--fs,1)) calc(44px * var(--fs,1))}
+
+.reading-copy h2.callout-heading{font-family:inherit;font-size:1em;font-weight:700;line-height:inherit;margin:1.33em 0;text-wrap:wrap}
+.contents-steps{display:flex;justify-content:space-between;gap:8px}
+.contents-steps button{min-width:44px;min-height:44px;font-size:calc(22px * var(--fs,1))}
+#chapterHeader #chapterHeaderTitle{min-width:44px}
+#chapterHeader:has(#headerCloud) .chapter-step{flex-basis:44px;min-width:44px}
+#cloudNotebookEntry,#backupNotebook,#restoreNotebook,#shufflePastOptions{min-height:44px;min-block-size:44px;min-width:44px}
+[data-review="bank"],[data-changed="bank"],[data-stats="bank"],.mcq-page a[href="?chapter=bank"],a.mcq-cite-link{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+@media(max-width:420px){
+  #chapterHeader #markToggle,#chapterHeader #headerCloud{flex:0 0 44px;min-width:44px;width:44px;max-width:44px;padding-inline:0}
+  #markToggle>span:not(.pencil-icon),#headerCloudLabel{display:none}
+}
 </style>
 </head>
 <body>
@@ -1016,6 +1029,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button id="cloudSignOut">Sign out</button>
 </div>
 <form id="cloudPasswordChange" hidden novalidate>
+<input type="text" name="username" autocomplete="username" hidden>
 <label>Current password<input id="cloudCurrentPassword" name="current-password" type="password" autocomplete="current-password"></label>
 <label>New password<input id="cloudNewPassword" name="new-password" type="password" autocomplete="new-password" aria-describedby="cloudNewPasswordRule"></label>
 <p id="cloudNewPasswordRule" class="meta">Use 6-200 characters.</p>
@@ -5045,7 +5059,8 @@ if(/^\d+s?$/.test(requestedChapter))HazzardEvidence.preload().catch(()=>{});
 // --- manifest-driven chapter loader (future .md files; no code change per chapter) ---
 function renderManifestChapterHtml(mdText){
   // marked v12 mis-pairs some **bold** runs (e.g. "cm²**, … **>"), leaving literal ** on screen. Pre-convert simple one-line bold.
-  mdText=mdText.replace(/(?<!\*)\*\*(?!\*)([^*\n]+?)(?<!\*)\*\*(?!\*)/g,(m,t)=>'<strong>'+t.replace(/~/g,'&#126;')+'</strong>');
+  mdText=mdText.replace(/(?<![\\*])\*\*(?![\s*])([^*\n]*?\S)(?<![\\*])\*\*(?!\*)/g,(m,t)=>'<strong>'+t.replace(/~/g,'&#126;')+'</strong>');
+  mdText=mdText.split('\n').map(line=>line.includes('<')&&line.includes('>')?line.replace(/(?<![\\*\w])\*(?![\s*])([^*\n]*?\S)(?<![\\*])\*(?!\*)/g,'<em>$1</em>'):line).join('\n');
   let html=marked.parse(mdText);
   if(['42','43','44','55','59','63','87'].includes(requestedChapter)){
     html=html.replace(/(<h[1-6]>)([\s\S]*?)(<\/h[1-6]>)/g,(_,open,inner,close)=>{
@@ -5174,7 +5189,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v293 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v294 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5196,11 +5211,21 @@ let savedTickTimer;
 function showSaved(message='✓ Saved'){savedTick.textContent=message;savedTick.hidden=false;clearTimeout(savedTickTimer);savedTickTimer=setTimeout(()=>savedTick.hidden=true,1800)}
 $('#toTop').innerHTML='<span aria-hidden="true">↑</span>';$('#toBottom').innerHTML='<span aria-hidden="true">↓</span>';
 pencil.className='';pencil.innerHTML='<span class="pencil-icon" aria-hidden="true">✎</span><span>Highlight</span>';pencil.setAttribute('aria-label','Highlight: Off');
+const contentsSteps=document.createElement('nav');contentsSteps.className='contents-steps';contentsSteps.setAttribute('aria-label','Previous and next chapters');
+$('[data-pane="contents"]').prepend(contentsSteps);
+const narrowHeader=matchMedia('(max-width:420px)');
+function placeHeaderSteps(){
+  const previous=$('#headerPrevious'),next=$('#headerNext'),title=$('#chapterHeaderTitle');
+  if(narrowHeader.matches)contentsSteps.append(previous,next);
+  else {title.before(previous);title.after(next)}
+  contentsSteps.hidden=!narrowHeader.matches;
+}
+narrowHeader.addEventListener('change',placeHeaderSteps);placeHeaderSteps();
 const contentsTargets=[];
 if(true){
   document.title='Stage A — '+chapterTitle;
   const list=$('[data-pane="contents"] .rows');list.replaceChildren();
-  for(const heading of copy.querySelectorAll('h1,h2,h3')){
+  for(const heading of copy.querySelectorAll('h1,h2:not(.callout-heading),h3')){
     const li=document.createElement('li'),button=document.createElement('button');
     const target=heading.id||'reader-section-'+contentsTargets.length;contentsTargets.push({heading,target});
     button.dataset.jump=target;button.textContent=heading.textContent;button.dir='auto';
@@ -5255,7 +5280,7 @@ function smoothPageMarkers(copy){
       a.dataset.exam='2026';
       if(flagNode.nodeType===3){const badge=document.createElement('span');badge.className='exam-page-badge';badge.textContent=flag[0].trim();flagNode.before(document.createTextNode(flag[0].match(/^\s*/)[0]),badge);flagNode.data=flagNode.data.slice(flag[0].length)}
     }
-    s.remove();a.className='pg';a.dataset.page=m[1];a.dataset.readerMetadata='page';a.setAttribute('aria-label','Page '+m[1]);
+    s.remove();a.className='pg';a.dataset.page=m[1];a.dataset.readerMetadata='page';a.setAttribute('role','note');a.setAttribute('aria-label','Page '+m[1]);
   }
   const sentenceEnd=/[.!?]["”’)\]]*$/;
   for(const a of [...copy.querySelectorAll('a.pg')]){
@@ -5302,9 +5327,10 @@ const unitMap=new Map();
 const readingPage=!['bank','mock'].includes(copy.dataset.chapterId);
 async function readingJSON(path){const r=await fetch(path);if(!r.ok)throw Error('Reading metadata unavailable. Reconnect and reload.');return r.json();}
 const emptyProvenance={bookObjects:{placements:[],objects:{}},claims:{},evidence:{},reviewStatus:{auditResults:{},pendingSources:{}}};
-const [markRegistry,provenanceRegistry]=await Promise.all([
+const [markRegistry,provenanceRegistry,highlightAliases]=await Promise.all([
   readingPage?readingJSON('data/mark-unit-registry.json').catch(()=>({})):Promise.resolve({}),
-  copy.querySelector('[data-claim]')?readingJSON('data/verification-registry.json').catch(()=>emptyProvenance):Promise.resolve(emptyProvenance)
+  copy.querySelector('[data-claim]')?readingJSON('data/verification-registry.json').catch(()=>emptyProvenance):Promise.resolve(emptyProvenance),
+  readingPage?readingJSON('data/highlight-aliases.json').catch(()=>null):Promise.resolve([])
 ]);
 const retainedMarkIds=markRegistry[copy.dataset.chapterId];
 const markIdQueues=new Map(Object.entries(retainedMarkIds?.entries||{}).map(([key,ids])=>[key,[...ids]]));
@@ -5344,6 +5370,13 @@ for(const n of loose){const u=newUnit(n.textContent,[],unitScope(n.parentElement
 
 // New navigation targets are assigned after mark identities, preserving saved highlights.
 for(const {heading,target} of contentsTargets)if(!heading.id)heading.id=target;
+// Keep callout appearance, Contents entries and saved unit identities unchanged.
+for(const old of copy.querySelectorAll('h4')){
+  if(!/^(Learning Objectives|Key Clinical Points)$/i.test(old.textContent.trim()))continue;
+  const heading=document.createElement('h2');
+  for(const attr of old.attributes)heading.setAttribute(attr.name,attr.value);
+  heading.classList.add('callout-heading');heading.append(...old.childNodes);old.replaceWith(heading);
+}
 // Add book captions after mark identities are allocated, preserving saved highlights.
 // Object identity comes only from the full TABLE/FIGURE identifier in the registry.
 function evidencePageLabel(source){
@@ -5475,7 +5508,7 @@ function displayPane(name){
   if(!panel.open)panel.show();pane.scrollTop=0;
 }
 let statisticsTitle=null;
-function closeStatistics(){if(statisticsTitle){const title=$('#chapterHeaderTitle');title.textContent=statisticsTitle.text;title.title=statisticsTitle.title;statisticsTitle=null}$('#statsViewport')?.remove();}
+function closeStatistics(){if(statisticsTitle){const title=$('#chapterHeaderTitle');title.textContent=statisticsTitle.text;title.title=statisticsTitle.title;title.setAttribute('aria-label',title.textContent+' - Chapter contents');statisticsTitle=null}$('#statsViewport')?.remove();}
 function renderScreen(state){
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
@@ -5709,7 +5742,7 @@ function markContext(e){e.preventDefault()}
 function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
 function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();toggleUnit(u)}}
 function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();toggleUnit(u)}}}
-function paintUnit(u){for(const p of u.parts){p.toggleAttribute('data-marked',u.marked);if(u.marked)p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')');else p.style.removeProperty('--mark-colour')}(u.parts.find(p=>p.textContent.trim())||u.parts[0]).setAttribute('aria-pressed',String(u.marked))}
+function paintUnit(u){for(const p of u.parts){p.toggleAttribute('data-marked',u.marked);if(u.marked)p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')');else p.style.removeProperty('--mark-colour')}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
 function validHighlight(mark){return mark&&['yellow','green','blue'].includes(mark.colour)&&typeof mark.text==='string'}
 function readHighlights(){
@@ -5727,10 +5760,10 @@ function unitByText(text,oldId,taken){
   const hits=[...unitMap.values()].filter(u=>!taken.has(u.id)&&highlightText(u).includes(text));
   return hits.length===1?hits[0]:null;
 }
-const studyHighlightWording = {chapter:'87s',id:'u42',old:"Lactulose/sorbitol \u2014 15-30 mL/day; adds 1.9 BM/wk (p1376); sorbitol equally effective and cheaper.",current:"Lactulose/sorbitol \u2014 15\u201330 mL once or twice daily (Table 87-9, p1373); adds 1.9 BM/wk (p1376); sorbitol equally effective and cheaper."};
 function studyWordingUnit(id,text){
-  const a=studyHighlightWording,u=unitMap.get(id);
-  return cid===a.chapter&&id===a.id&&text===a.old&&u&&highlightText(u)===a.current?u:null;
+  if(!highlightAliases)throw Error('Highlight aliases unavailable. Reconnect and reload.');
+  const u=unitMap.get(id);
+  return u&&highlightAliases.some(a=>cid===a.chapter&&id===a.id&&text===a.old&&highlightText(u)===a.new)?u:null;
 }
 function archiveUnresolved(saved){
   let changed=false;
@@ -6423,7 +6456,7 @@ addEventListener('storage',event=>{if(event.key===(cid==='mock'?MOCK_KEY:DRILL_K
 // Navigation is added after mark identities are allocated; saved highlights stay attached.
 function chapterNavigation(){
   const base=cid==='laws'?'law':cid.replace(/s$/,''),chapter=orderedChapters.find(c=>String(c.number)===base);
-  const title=$('#chapterHeaderTitle');title.textContent=copy.dataset.notLoaded?'Chapter not loaded':chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;
+  const title=$('#chapterHeaderTitle');title.textContent=copy.dataset.notLoaded?'Chapter not loaded':chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;title.setAttribute('aria-label',title.textContent+' - Chapter contents');
   if(!chapter){chapterHeader.querySelector('.chapter-switch').hidden=true;pencil.hidden=true;return}
   const study=base==='law'?'laws':base+'s',isStudy=cid!==base;
   for(const [id,label] of [[base,'Chapter'],[study,'Study']]){
@@ -6820,7 +6853,7 @@ if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
     addEventListener('load',()=>{if(!userScrolled&&!mcq.active)readerScroll.scrollTop=y;},{once:true});
   }
 }
-document.getElementById('openStatistics').onclick=()=>{const title=$('#chapterHeaderTitle');statisticsTitle||={text:title.textContent,title:title.title};title.textContent=title.title='Statistics';chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(mcq)mcq.active=false;hidePanel();currentView='reader';for(const id of ['reader','desk','library'])$('#'+id).hidden=id!=='reader';$('#readerViewport').hidden=false;history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');HazzardStats.open($('#readerViewport'));};
+document.getElementById('openStatistics').onclick=()=>{const title=$('#chapterHeaderTitle');statisticsTitle||={text:title.textContent,title:title.title};title.textContent=title.title='Statistics';title.setAttribute('aria-label','Statistics');chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(mcq)mcq.active=false;hidePanel();currentView='reader';for(const id of ['reader','desk','library'])$('#'+id).hidden=id!=='reader';$('#readerViewport').hidden=false;history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');HazzardStats.open($('#readerViewport'));};
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   mcq?.remember();

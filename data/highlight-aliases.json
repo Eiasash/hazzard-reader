@@ -1,0 +1,32 @@
+[
+  {
+    "chapter": "87s",
+    "id": "u42",
+    "old": "Lactulose/sorbitol — 15-30 mL/day; adds 1.9 BM/wk (p1376); sorbitol equally effective and cheaper.",
+    "new": "Lactulose/sorbitol — 15–30 mL once or twice daily (Table 87-9, p1373); adds 1.9 BM/wk (p1376); sorbitol equally effective and cheaper."
+  },
+  {
+    "chapter": "96",
+    "id": "u137",
+    "old": "TABLE 96-2 ■ PATTERNS AND EVALUATION OF A PROLONGED PROTHROMBIN TIME (PT) AND/OR ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT)*",
+    "new": "TABLE 96-2 ■ PATTERNS AND EVALUATION OF A PROLONGED PROTHROMBIN TIME (PT) AND/OR ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT)"
+  },
+  {
+    "chapter": "75",
+    "id": "u554",
+    "old": "STS-PROM row: low risk < 4% *and*, intermediate 4%–8% *or*, high > 8%; prohibitive = surgical risk of death or major morbidity > 50% (see crop for the frailty/organ-dysfunction/impediment rows).",
+    "new": "STS-PROM row: low risk < 4% and, intermediate 4%–8% or, high > 8%; prohibitive = surgical risk of death or major morbidity > 50% (see crop for the frailty/organ-dysfunction/impediment rows)."
+  },
+  {
+    "chapter": "100",
+    "id": "u520",
+    "old": "Like PMR, GCA shares genetic risk factors (such as susceptibility to HLA-DRB101 and HLA-DRB104 genotypes) and pathogenetic pathways involving both the innate and adaptive immune system.",
+    "new": "Like PMR, GCA shares genetic risk factors (such as susceptibility to HLA-DRB1*01 and HLA-DRB1*04 genotypes) and pathogenetic pathways involving both the innate and adaptive immune system."
+  },
+  {
+    "chapter": "68s",
+    "id": "u72",
+    "old": "HLA-B1502 and HLA-A3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065).",
+    "new": "HLA-B*1502 and HLA-A*3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065)."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "Hazzard 8e reader",
+  "short_name": "Hazzard",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#205b4b",
+  "background_color": "#f8f5ed",
+  "icons": [
+    {
+      "src": "icons/hazzard-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/hazzard-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

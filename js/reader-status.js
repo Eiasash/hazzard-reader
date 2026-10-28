@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v293', RELEASED = '28.10.2026';
+  const VERSION = 'v294', RELEASED = '28.10.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -9,7 +9,7 @@
     document.body.append(updateButton);
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
     const sw = navigator.serviceWorker;
-    let registration, complete = false, progress = null, newerController = false, applying = false, saveError = '', pauseTimer;
+    let registration, complete = false, progress = null, progressVersion = VERSION, newerController = false, applying = false, saveError = '', pauseTimer;
     const waiting = () => registration?.waiting || newerController;
     function render() {
       let state, text;
@@ -18,6 +18,8 @@
       else if (waiting()) { state = 'waiting'; text = saveError ? 'Save failed - tap to retry' : 'Update ready - tap to reload'; }
       else if (registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
       else { state = complete ? 'ready' : 'downloading'; text = VERSION + (complete ? ' - offline ready' : ' - offline copy incomplete'); }
+      const downloading = !waiting() && progress !== null && navigator.onLine;
+      const progressText = progressVersion + ' - downloading ' + progress + '%';
       const cloud = window.HazzardCloud;
 
       // One deadline refresh; sync scheduling and update-on-tap stay independent.
@@ -38,11 +40,11 @@
       if (chapterUpdate) { chapterUpdate.hidden = !waiting(); chapterUpdate.disabled = applying || !navigator.onLine; chapterUpdate.onclick = applyUpdate; }
       const at = window.HazzardStorage?.status.snapshotAt;
       const time = at ? new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jerusalem', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(at) : 'none yet';
-      detail.textContent = 'Version ' + VERSION + ' (released ' + RELEASED + ') - ' + (navigator.onLine ? 'Online' : 'Offline') + ' - Offline copy: ' + (complete ? 'complete' : 'incomplete') + ' - Last snapshot: ' + time;
+      detail.textContent = 'Version ' + VERSION + ' (released ' + RELEASED + ') - ' + (navigator.onLine ? 'Online' : 'Offline') + ' - Offline copy: ' + (downloading ? progressText : complete ? 'complete' : 'incomplete') + ' - Last snapshot: ' + time;
       const storage = window.HazzardStorage?.status;
       const protection = storage?.persisted === true ? 'protected' : storage?.persisted === false ? 'not protected' : 'protection checking';
       const summary = document.getElementById('appearanceSummary');
-      summary.textContent = VERSION + ' - ' + (navigator.onLine ? 'online' : 'offline') + ' - ' + (complete ? 'offline ready' : 'offline incomplete') + ' - ' + protection + ' - ' + (storage?.error ? 'snapshot error' : 'snapshot ' + time);
+      summary.textContent = (downloading ? progressText : VERSION) + ' - ' + (navigator.onLine ? 'online' : 'offline') + ' - ' + (downloading ? 'offline copy downloading' : complete ? 'offline ready' : 'offline incomplete') + ' - ' + protection + ' - ' + (storage?.error ? 'snapshot error' : 'snapshot ' + time);
       summary.textContent+=' - '+(window.HazzardCloud?.label()||'Cloud: not signed in');
       summary.title = summary.textContent + ' — tap for details';
       // Home already observes this element; keep one status source for both views.
@@ -53,7 +55,7 @@
     function watch(worker) {
       if (!worker) return;
       progress = null;
-      worker.addEventListener('statechange', () => { render(); requestStatus(); });
+      worker.addEventListener('statechange', () => { if(worker.state==='redundant')progress=null;render(); requestStatus(); });
       render();
     }
     async function applyUpdate(event) {
@@ -117,12 +119,21 @@
       controller.postMessage({type:'HAZZARD_VERSION'},[channel.port2]);
     });
     if (sw) {
-      sw.addEventListener('message', event => {
+      sw.addEventListener('message', async event => {
         const data = event.data;
         if (data?.type !== 'HAZZARD_OFFLINE_STATUS') return;
-        if (event.source === registration?.installing && Number.isFinite(data.progress)) progress = data.progress;
+        const source=event.source;
+        if(!source?.scriptURL||new URL(source.scriptURL).origin!==location.origin||new URL(source.scriptURL).pathname!==new URL('sw.js',location.href).pathname)return;
+        if(Number.isFinite(data.progress)){
+          const reg=registration||await sw.getRegistration();
+          const current=data.version===VERSION;
+          const update=/^v\d+$/.test(data.version)&&Number(data.version.slice(1))>Number(VERSION.slice(1))&&(source===reg?.installing||source===reg?.waiting);
+          if(!current&&!update)return;
+          progress=Math.max(0,Math.min(100,Math.floor(data.progress)));progressVersion=data.version;
+        }
         if (event.source === sw.controller) {
           complete = data.version === VERSION && data.complete === true;
+          if(complete&&!registration?.installing)progress=null;
           newerController = data.version !== VERSION && data.complete === true;
         }
         render();
