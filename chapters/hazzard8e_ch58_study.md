@@ -159,14 +159,14 @@ The actual 2026 specialist-exam questions and answer keys sourced to this chapte
 - ג. Delirium cannot be diagnosed without evidence of a change in level of consciousness
 - ד. This is most likely a hidden dementia that worsened during the admission
 
-**Q40** — sourced to [p. 880–882]. What is the relationship between delirium and dementia?
+**Q40** (support p883-884) — sourced to [p. 880–882]. What is the relationship between delirium and dementia?
 
 - א. Delirium is really an early stage of previously undiagnosed dementia
 - ב. Dementia is a major risk factor for delirium, but delirium itself does not affect the risk of future cognitive decline
 - ג. Delirium causes permanent brain damage and therefore necessarily leads to dementia
 - ד. Delirium is associated with a higher risk of cognitive decline and dementia, even in people without prior dementia ← **key**
 
-**Q58** — sourced to [p. 889]. In a patient with delirium at the end of life, what is the recommendation on benzodiazepines?
+**Q58** (support p890) — sourced to [p. 889]. In a patient with delirium at the end of life, what is the recommendation on benzodiazepines?
 
 - א. They may be used as additional therapy in extreme agitation that has not responded to other treatment ← **key**
 - ב. They should be avoided because they raise the anticholinergic burden

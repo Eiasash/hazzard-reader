@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v295",
+      "date": "2026-10-28",
+      "changes": [
+        "Content fixes from a source check: law cards and law questions now match the circulars' wording, 2024 Q99 option D shows the paper's sign, 2024 Q18 shows both Harrison editions and Q97 the Harrison table, the pressure-injury Study page names the five antiseptics to avoid, and leftover review notes are removed from explanations."
+      ]
+    },
+    {
       "version": "v294",
       "date": "2026-10-28",
       "changes": [

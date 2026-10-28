@@ -28,5 +28,71 @@
     "id": "u72",
     "old": "HLA-B1502 and HLA-A3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065).",
     "new": "HLA-B*1502 and HLA-A*3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065)."
+  },
+  {
+    "chapter": "46s",
+    "id": "u28",
+    "old": "Stage 3: full-thickness, fat visible, no bone/muscle/tendon exposed (p686).",
+    "new": "Stage 3: full-thickness, fat visible, no bone/muscle/tendon exposed (p686-687, Figure 46-1)."
+  },
+  {
+    "chapter": "46s",
+    "id": "u39",
+    "old": "Saline/water lack antiseptic properties and should seldom be used on (colonized) PI — antiseptic options: Dakin's 0.25% or povidone-iodine (10%/1% free iodine) on colonized PI, applied 10–15 min before redressing; lavage 4–15 psi (p692). For clean wounds, less force and physiologic solutions such as normal saline can be used (p693); avoid antiseptics on clean and healing PI (p697).",
+    "new": "Saline/water lack antiseptic properties and should seldom be used on (colonized) PI — antiseptic options: Dakin's 0.25% or povidone-iodine (10%/1% free iodine) on colonized PI, applied 10–15 min before redressing; lavage 4–15 psi (p692). For clean wounds, less force and physiologic solutions such as normal saline can be used (p693); avoid povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, and acetic acid on clean and healing PI (p697)."
+  },
+  {
+    "chapter": "46s",
+    "id": "u92",
+    "old": "Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon.",
+    "new": "Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon (p686-687, Figure 46-1)."
+  },
+  {
+    "chapter": "46s",
+    "id": "u100",
+    "old": "Exception: for clean wounds, less force and physiologic solutions such as normal saline can be used (p693), and antiseptics are avoided on clean and healing PI (p697).",
+    "new": "Exception: for clean wounds, less force and physiologic solutions such as normal saline can be used (p693), and povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, and acetic acid are avoided on clean and healing PI (p697)."
+  },
+  {
+    "chapter": "58",
+    "id": "u830",
+    "old": "Q40 — sourced to p.",
+    "new": "Q40 (support p883-884) — sourced to p."
+  },
+  {
+    "chapter": "58",
+    "id": "u834",
+    "old": "Q58 — sourced to p.",
+    "new": "Q58 (support p890) — sourced to p."
+  },
+  {
+    "chapter": "58s",
+    "id": "u115",
+    "old": "Q40 — sourced to [p.",
+    "new": "Q40 (support p883-884) — sourced to [p."
+  },
+  {
+    "chapter": "58s",
+    "id": "u118",
+    "old": "Q58 — sourced to [p.",
+    "new": "Q58 (support p890) — sourced to [p."
+  },
+  {
+    "chapter": "law",
+    "id": "u119",
+    "old": "כאשר רופא מומחה במוסד קבע שמטופל בגיר אינו מסוגל להבין בענייניו הרפואיים ונזקק לטיפול שיש דחיפות לתיתו (ושאינו אשפוז פסיכיאטרי) (§14א(א)), ואין לו מיופה כוח או אפוטרופוס לענייניו הרפואיים — עובד סוציאלי במוסד הרפואי, באישור מנהל המוסד (בקופת חולים — הרופא המחוזי), רשאי לתת לבן משפחה בגיר אישור בכתב לשמש \"מקבל החלטות זמני\" (§14א(ב)).",
+    "new": "כאשר רופא מומחה במוסד קבע שמטופל בגיר אינו מסוגל להבין בענייניו הרפואיים ונזקק לטיפול שיש דחיפות לתיתו (ושאינו אשפוז פסיכיאטרי) (§14א(א)), ואין לו מיופה כוח או אפוטרופוס לענייניו הרפואיים — עובד סוציאלי במוסד הרפואי, באישור מנהל המוסד (בקופת חולים — הרופא המחוזי), רשאי לתת לאדם בגיר אישור בכתב לשמש \"מקבל החלטות זמני\", לפי סדר הקדימויות שבסעיף 14ב ובכפוף לחריג שבסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6))."
+  },
+  {
+    "chapter": "laws",
+    "id": "u10",
+    "old": "מקבל החלטות זמני (§14א): כאשר רופא מומחה קבע שמטופל בגיר אינו מסוגל להבין בענייניו הרפואיים וזקוק לטיפול דחוף (לא אשפוז פסיכיאטרי), ואין לו מיופה כוח/אפוטרופוס רפואי — עובד סוציאלי במוסד, באישור מנהל המוסד, יכול לאשר בן משפחה כמקבל החלטות זמני, לתוקף 6 חודשים מיום שניתן.",
+    "new": "מקבל החלטות זמני (§14א): כאשר רופא מומחה קבע שמטופל בגיר אינו מסוגל להבין בענייניו הרפואיים וזקוק לטיפול דחוף (לא אשפוז פסיכיאטרי), ואין לו מיופה כוח/אפוטרופוס רפואי — עובד סוציאלי במוסד, באישור מנהל המוסד, יכול לאשר אדם בגיר כמקבל החלטות זמני לפי סדר הקדימויות בסעיף 14ב ובכפוף לחריג בסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6)), לתוקף 6 חודשים מיום שניתן."
+  },
+  {
+    "chapter": "laws",
+    "id": "u93",
+    "old": "מקבל החלטות זמני — בן משפחה בגיר שמאושר בכתב על ידי עובד סוציאלי במוסד הרפואי (באישור מנהל המוסד), לאחר שרופא מומחה קבע שהמטופל אינו מסוגל להבין וזקוק לטיפול דחוף, לפי סדר הקדימויות (§14א-ב).",
+    "new": "מקבל החלטות זמני — אדם בגיר שמאושר בכתב על ידי עובד סוציאלי במוסד הרפואי (באישור מנהל המוסד), לאחר שרופא מומחה קבע שהמטופל אינו מסוגל להבין וזקוק לטיפול דחוף, לפי סדר הקדימויות בסעיף 14ב ובכפוף לחריג בסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6))."
   }
 ]
