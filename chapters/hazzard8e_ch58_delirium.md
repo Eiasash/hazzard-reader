@@ -344,7 +344,7 @@ Wilson JE, Mart MF, Cunningham C, et al. Delirium. Nat Rev Dis Primer. 2020;6:1�
 
 > Book: p880: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness (no identified cause is required). p885: delirium is a clinical diagnosis. p880 (Key Clinical Point 4): delirium is commonly due to multiple causes.
 
-**Q40** — sourced to [p. 880–882](#p880). What is the relationship between delirium and dementia?
+**Q40** (support p883-884) — sourced to [p. 880–882](#p880). What is the relationship between delirium and dementia?
 
 - א. Delirium is really an early stage of previously undiagnosed dementia
 - ב. Dementia is a major risk factor for delirium, but delirium itself does not affect the risk of future cognitive decline
@@ -353,7 +353,7 @@ Wilson JE, Mart MF, Cunningham C, et al. Delirium. Nat Rev Dis Primer. 2020;6:1�
 
 > Book: p884: patients who develop delirium are at increased risk for development of dementia, and cognitive function is affected for up to a year. p883: the contribution of delirium to permanent impairment is "an area of active research" (so ג overstates it).
 
-**Q58** — sourced to [p. 889](#p889). In a patient with delirium at the end of life, what is the recommendation on benzodiazepines?
+**Q58** (support p890) — sourced to [p. 889](#p889). In a patient with delirium at the end of life, what is the recommendation on benzodiazepines?
 
 - א. They may be used as additional therapy in extreme agitation that has not responded to other treatment  ← **key**
 - ב. They should be avoided because they raise the anticholinergic burden

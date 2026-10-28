@@ -28,7 +28,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - NYHA III–IV: **25%**/yr mortality; NYHA II: **6%**/yr (p1153).
 - LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
 - Table 75-5 severe cutoffs: jet-width/LVOT ratio **≥ 65%**, vena contracta **≥ 0.6 cm**, regurgitant volume **≥ 60 mL/beat**, EROA **≥ 30 mm²** (p1154).
-- Table 75-6 tiers — **indications** (actual replacement criteria): symptomatic + severe AI regardless of LV function, OR asymptomatic + severe AI + EF **< 50%**, OR severe AI undergoing other cardiac surgery; **considerations**: asymptomatic, normal LV function, dilated ventricle with LVESD **> 50 mm**, or moderate AI undergoing other cardiac surgery; **possible indication**: asymptomatic, normal function, progressive LV dilatation **> 65 mm** if surgical risk is low (table does not name the dimension; the text calls it LVESD) (p1155).
+- Table 75-6 tiers — **indications** (actual replacement criteria): symptomatic + severe AI regardless of LV function, OR asymptomatic + severe AI + EF **< 50%**, OR severe AI undergoing other cardiac surgery; **considerations**: asymptomatic, severe AI, normal LV function, dilated ventricle with LVESD **> 50 mm**, or moderate AI undergoing other cardiac surgery; **possible indication**: asymptomatic, severe AI, normal function, progressive LV dilatation **> 65 mm** if surgical risk is low (table does not name the dimension; the text calls it LVESD) (p1155).
   > Current practice (not the book): the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.
 - Severe LV dysfunction: operative mortality **at least 10%**, with lower postsurgical survival (p1155).
 
@@ -48,7 +48,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Severe chronic MR (especially with a flail leaflet): **7%**/yr mortality (p1158).
 - 10-yr survival by EF: **32%** if EF < 50%, **53%** if borderline EF 50–60%, **70%** if EF > 60% — all untreated (p1158).
 - Table 75-10 severe cutoffs: vena contracta **≥ 0.7 cm**, regurgitant volume **≥ 60 mL/beat**, RF **≥ 50%**; EROA row prints "**≥ 40**" cm² — almost certainly a misprint for ≥0.40 (see exam-trap note) (p1158).
-- Repair durability: reoperation rate **~7–10%** at 10 yr, said to equal replacement's own reoperation rate (p1159).
+- Repair durability, as printed: freedom from reoperation equaling that of valve replacement (**7%–10% at 10 years**) (p1159).
 - Operative mortality: **2%** for repair vs **6%** for replacement overall; a 292-patient >70y cohort found **0.7%** in-hospital mortality for repair vs **14%** for replacement (p1160).
 - Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; both as printed.
 

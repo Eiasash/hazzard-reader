@@ -456,17 +456,17 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel[data-current-pane="tools"] #panelTitle{font:600 calc(14px * var(--fs,1))/18px var(--ui)}
 #panel[data-current-pane="tools"] [data-pane="tools"]{flex:1;overflow:auto;padding:0;min-width:0}
 #panel[data-current-pane="tools"] .settings-controls{display:grid;grid-template-columns:minmax(0,1fr) 40px 40px;gap:8px;margin:0}
-#panel[data-current-pane="tools"] button{min-height:40px;min-block-size:40px;height:40px;font:500 calc(13px * var(--fs,1))/18px var(--ui);padding:0 8px}
+#panel[data-current-pane="tools"] button{min-height:44px;min-block-size:44px;height:44px;font:500 calc(13px * var(--fs,1))/18px var(--ui);padding:0 8px}
 #panel[data-current-pane="tools"] #sizeChoices{min-width:0}
-#panel[data-current-pane="tools"] .icon-control{width:40px;min-width:40px;justify-content:center;padding:0}
+#panel[data-current-pane="tools"] .icon-control{width:44px;min-width:44px;justify-content:center;padding:0}
 #panel[data-current-pane="tools"] .swatch{width:20px;height:20px;margin:0;background:var(--current-mark);border:1px solid var(--control)}
 #panel[data-current-pane="tools"] #closePanel{min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:0;font:24px/44px var(--ui)}
 #panel[data-current-pane="tools"] .meta{font:calc(12px * var(--fs,1))/16px var(--ui);margin:6px 0}
-#cloudControls input{display:block;width:100%;box-sizing:border-box;min-height:40px;margin:4px 0 8px;padding:8px;border:1px solid var(--control);border-radius:6px;background:var(--paper);color:var(--ink);font:16px var(--ui)}
-#panel #cloudControls button{display:block;width:100%;height:auto;min-height:40px;margin:4px 0;padding:8px;white-space:normal;text-align:left}
+#cloudControls input{display:block;width:100%;box-sizing:border-box;min-height:44px;margin:4px 0 8px;padding:8px;border:1px solid var(--control);border-radius:6px;background:var(--paper);color:var(--ink);font:16px var(--ui)}
+#panel #cloudControls button{display:block;width:100%;height:auto;min-height:44px;margin:4px 0;padding:8px;white-space:normal;text-align:left}
 #cloudControls [hidden]{display:none!important}
 #appearanceStatus{margin-top:4px;font:calc(12px * var(--fs,1))/16px var(--ui);color:var(--muted)}
-#appearanceStatus summary{display:block;min-width:0;min-height:40px;line-height:40px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;list-style:none}
+#appearanceStatus summary{display:block;min-width:0;min-height:44px;line-height:44px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;list-style:none}
 #appearanceStatus summary::-webkit-details-marker{display:none}
 #appearanceStatus summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 #appearanceStatus[open] summary{color:var(--accent)}
@@ -514,7 +514,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel .nb-heading,#panel .nb-group h3{font:600 calc(15px * var(--fs,1))/1.3 var(--ui);margin:calc(6px * var(--fs,1)) 0 calc(2px * var(--fs,1))}
 #panel .notebook-backup{margin-top:calc(6px * var(--fs,1));padding-top:calc(6px * var(--fs,1))}
 #panel .notebook-backup button{min-height:44px;min-block-size:44px;margin-bottom:4px;padding:calc(5px * var(--fs,1)) calc(8px * var(--fs,1))}
-#panel:not([data-current-pane="tools"]) #panelBack{margin:0;min-height:40px;min-block-size:40px;padding-block:2px}
+#panel:not([data-current-pane="tools"]) #panelBack{margin:0;min-height:44px;min-block-size:44px;padding-block:2px}
 
 .changed-questions summary{cursor:pointer;min-height:44px;padding:10px 4px;font:600 calc(14px * var(--fs,1))/1.5 var(--ui)}
 .changed-questions p{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
@@ -967,7 +967,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <div id="library" class="page" hidden="">
 
   <p class="eyebrow">YOUR LIBRARY</p><h1>Chapters</h1>
-  <div class="library-search"><label for="chapterSearch">Search book and questions</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"><label class="chapter-sort" for="chapterSort">Sort: <select id="chapterSort"><option value="number">Number</option><option value="title">A-Z</option><option value="yield">Exam yield</option></select></label><p id="chapterSortStatus" role="status" hidden></p></div>
+  <div class="library-search"><label for="chapterSearch">Search book and questions</label><input id="chapterSearch" type="search" placeholder="Word, phrase, title or chapter number" autocomplete="off"><label class="chapter-sort" for="chapterSort">Sort: <select id="chapterSort"><option value="number">Number</option><option value="title">A-Z</option><option value="yield">Exam yield</option><option value="weak">Weak x high-yield</option></select></label><p id="chapterSortStatus" role="status" hidden></p></div>
   <a id="libraryDrugs" class="library-drugs" href="?chapter=drugs">Drugs · cross-chapter index →</a>
   <p id="chapterSearchStatus" class="meta" role="status" hidden></p><ul class="rows" id="chapterResults" hidden></ul><section id="bankSearchGroup" hidden><h2>Question bank</h2><ul class="rows" id="bankSearchResults"></ul></section><ul class="rows" id="chapterRows"></ul><p id="noChapters" hidden>No matching chapters.</p>
 </div>
@@ -1043,7 +1043,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </details>
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
-</section><section data-pane="whatsNew" data-title="What’s new" hidden><div id="whatsNewList" aria-live="polite"></div></section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter’s exam questions or practise across the book.</p><ul class="rows"><li><button data-chapter="bank"><strong>Question bank</strong><small>All topics · source, year and topic filters</small></button></li><li><button id="openStatistics"><strong>Statistics</strong><small>Your answered questions and clean rate</small></button></li><li><a class="sim-entry" data-review-link href="?chapter=bank&amp;review=1">Review (0 due)</a></li><li><button data-panel="missed"><strong>Missed / flags</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Official sitting · timed · end-only feedback</small></a></li><li><button data-mock="builder"><strong>Mock builder</strong><small>Choose length and sources</small></button></li><li><button data-panel="session"><strong>Study timer</strong><small>Read, recall and rest</small></button></li></ul></section><section data-pane="missed" data-title="My missed questions" hidden><p id="missedStatus" class="meta" role="status"></p><div id="missedQuestions"></div></section><section data-pane="qbank" data-title="Question bank" hidden=""><ul class="rows" id="qbankRows"></ul></section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="cloudNotebookEntry" data-panel="tools" type="button">Sign in to sync</button><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
+</section><section data-pane="whatsNew" data-title="What’s new" hidden><div id="whatsNewList" aria-live="polite"></div></section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="session" data-title="Study session" hidden=""><p class="eyebrow">READ / RECALL / REST</p><h1 id="timerClock">25:00</h1><p>Pressure injuries</p><p class="meta" id="timerPhase">Read — step 1 of 3</p><p class="meta">25 minutes reading · 5 minutes recall · 5 minutes rest. The phone vibrates at each change.</p><div class="mock-actions"><button class="primary" id="timerStart">Start</button><button id="timerReset">Reset</button></div></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter’s exam questions or practise across the book.</p><ul class="rows"><li><button data-chapter="bank"><strong>Question bank</strong><small>All topics · source, year and topic filters</small></button></li><li><button id="openStatistics"><strong>Statistics</strong><small>Your answered questions and clean rate</small></button></li><li><a class="sim-entry" data-review-link href="?chapter=bank&amp;review=1">Review (0 due)</a></li><li><button data-panel="missed"><strong>Missed / flags</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Official sitting · timed · end-only feedback</small></a></li><li><button data-mock="builder"><strong>Mock builder</strong><small>Choose length and sources</small></button></li><li><button data-panel="session"><strong>Study timer</strong><small>Read, recall and rest</small></button></li></ul></section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><p class="meta">Your highlights in Pressure injuries.</p><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div><h3 class="nb-heading">Saved places</h3><ul class="rows" id="notebookPlaces"></ul><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p><div class="notebook-backup"><button id="cloudNotebookEntry" data-panel="tools" type="button">Sign in to sync</button><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div></section><section data-pane="sampleChapter" data-title="Chapter specimen" hidden=""><p class="meta">This chapter has not been added yet.</p><button class="primary full" data-view="reader">Return to current chapter</button></section></dialog>
 
 
 
@@ -5022,7 +5022,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <script src="js/reader-storage.js"></script>
 <script src="js/reader-cloud.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-let mcq=null,practiceCountsPromise;
+let mcq=null;
 const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(async r=>r.ok?{chapters:(await r.json()).chapters||[],loaded:true}:{chapters:[],loaded:false}).catch(()=>({chapters:[],loaded:false}));
 if(['bank','mock'].includes(new URLSearchParams(location.search).get('chapter')))HazzardMCQ.preload().catch(()=>{});
 await HazzardStorage.ready;
@@ -5052,7 +5052,7 @@ if(!requestedChapter){
   const last=readJSON('hazzard-place-v1',{}).last;
   if(last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter))requestedChapter=last.chapter;
   requestedChapter ||= '46';
-  const url=new URL(location.href);url.searchParams.set('chapter',requestedChapter);history.replaceState(null,'',url);
+  const url=new URL(location.href);if(url.searchParams.get('home')!=='1'&&url.searchParams.get('stats')!=='1')url.searchParams.set('chapter',requestedChapter);history.replaceState(null,'',url);
 }
 
 if(/^\d+s?$/.test(requestedChapter))HazzardEvidence.preload().catch(()=>{});
@@ -5104,7 +5104,7 @@ if(['mock','bank','drugs'].includes(requestedChapter)){
   manifestArticle=document.createElement('article');manifestArticle.id='copy';manifestArticle.className='reading-copy';manifestArticle.dataset.chapterId=requestedChapter;
   manifestArticle.innerHTML='<h1>'+ (requestedChapter==='drugs'?'Drugs':requestedChapter==='bank'?'Question bank':'Mock builder')+'</h1>';
 }
-if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Template')){
+if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Template') && !(requestedChapter==='46' && document.querySelector('#copy[data-chapter-id="46"]'))){
   const entry=manifestChapters.find(c=>String(c.number)===String(requestedChapter));
   if(entry){
     try{
@@ -5121,6 +5121,11 @@ if(requestedChapter && !document.getElementById('chapter'+requestedChapter+'Temp
   }
 }
 const templateCopies=new Map($$('template[id^=chapter][id$=Template]').map(t=>[t.content.querySelector('[data-chapter-id]').dataset.chapterId,t.innerHTML]));
+window.HazzardStudyPreview={async html(chapter){
+  const id=String(chapter);if(templateCopies.has(id))return templateCopies.get(id);
+  const entry=manifestChapters.find(e=>String(e.number)===id);if(!entry)throw Error('Study page unavailable');
+  return renderManifestChapterHtml(await loadChapterText(entry));
+}};
 for(const chapterTemplate of $$('template[id^=chapter][id$=Template]')){
   if(chapterTemplate.content.querySelector('[data-chapter-id]')?.dataset.chapterId===requestedChapter)$('#copy').replaceWith(chapterTemplate.content.cloneNode(true));
   chapterTemplate.remove();
@@ -5157,13 +5162,18 @@ for(const entry of orderedChapters){
 const CHAPTER_SORT_KEY='hazzard-chapters-sort-v1';
 let chapterSort='number',sortTicket=0;
 try{const saved=localStorage.getItem(CHAPTER_SORT_KEY);if(['number','title','yield'].includes(saved))chapterSort=saved;}catch{}
+if(new URL(location.href).searchParams.get('chapterSort')==='weak')chapterSort='weak';
 $('#chapterSort').value=chapterSort;
 async function sortChapterRows(){
   const ticket=++sortTicket,mode=chapterSort,rows=$$('#chapterRows [data-chapter-row]'),totals=new Map();
   try{
-    if(mode==='yield'){
+    if(mode==='yield'||mode==='weak'){
       const data=await HazzardEvidence.load();
       for(const row of rows){const years={},counts=HazzardEvidence.counts(data,row.dataset.chapterRow);for(const [sitting,n] of counts){const year=sitting.slice(0,4);years[year]=(years[year]||0)+n;}totals.set(row.dataset.chapterRow,{total:counts.reduce((n,p)=>n+p[1],0),years});}
+    }
+    if(mode==='weak'){
+      const [data,evidence]=await Promise.all([HazzardStats.files(),HazzardEvidence.load()]),m=HazzardStats.model(data);
+      for(const [id,total]of totals){const ids=new Set(HazzardEvidence.studyIds(evidence,id).map(HazzardMCQ.currentId)),measured=m.measure(m.questions.filter(q=>q.kind==='past'&&ids.has(q.id)));total.missed=measured.answered-measured.clean;total.weak=total.missed*total.total;}
     }
     if(ticket!==sortTicket)return;
     const years=[...new Set([...totals.values()].flatMap(v=>Object.keys(v.years)))].sort((a,b)=>Number(b)-Number(a));
@@ -5173,13 +5183,17 @@ async function sortChapterRows(){
       // Keep the existing non-numbered law block last in every order.
       if(!/^\d+$/.test(x)||!/^\d+$/.test(y))return /^\d+$/.test(x)?-1:/^\d+$/.test(y)?1:x.localeCompare(y);
       if(mode==='title')return titles.get(x).localeCompare(titles.get(y),'en',{sensitivity:'base'})||Number(x)-Number(y);
-      if(mode==='yield'){const l=totals.get(x),r=totals.get(y);if(l.total!==r.total)return r.total-l.total;for(const year of years){const difference=(r.years[year]||0)-(l.years[year]||0);if(difference)return difference;}}
+      if(mode==='yield'||mode==='weak'){const l=totals.get(x),r=totals.get(y);if(mode==='weak'&&l.weak!==r.weak)return r.weak-l.weak;if(l.total!==r.total)return r.total-l.total;for(const year of years){const difference=(r.years[year]||0)-(l.years[year]||0);if(difference)return difference;}}
       return Number(x)-Number(y);
     });
     $('#chapterRows').append(...rows);$('#chapterSortStatus').hidden=true;
   }catch{if(ticket!==sortTicket)return;$('#chapterSortStatus').hidden=false;$('#chapterSortStatus').textContent='Exam counts unavailable. Reconnect and choose Exam yield again.';}
 }
-$('#chapterSort').onchange=async()=>{chapterSort=$('#chapterSort').value;try{const raw=localStorage.getItem(CHAPTER_SORT_KEY);if(raw!==null&&!['number','title','yield'].includes(raw))HazzardStorage.preserveUnreadable(CHAPTER_SORT_KEY,raw);HazzardStorage.setItem(CHAPTER_SORT_KEY,chapterSort);}catch{}await sortChapterRows();searchChapters();};
+$('#chapterSort').onchange=async()=>{
+  chapterSort=$('#chapterSort').value;const url=new URL(location.href);
+  if(chapterSort==='weak')url.searchParams.set('chapterSort','weak');else{url.searchParams.delete('chapterSort');try{const raw=localStorage.getItem(CHAPTER_SORT_KEY);if(raw!==null&&!['number','title','yield'].includes(raw))HazzardStorage.preserveUnreadable(CHAPTER_SORT_KEY,raw);HazzardStorage.setItem(CHAPTER_SORT_KEY,chapterSort);}catch{}}
+  history.replaceState(history.state,'',url);await sortChapterRows();searchChapters();
+};
 sortChapterRows();
 const copy=$('#copy'),panel=$('#panel'),fab=$('#readerTools'),pencil=$('#markToggle');
 const chapterTitle=copy.querySelector('h1').textContent;
@@ -5189,7 +5203,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v297 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v298 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5208,7 +5222,7 @@ examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPre
 let examIndex=-1;
 const savedTick=document.createElement('div');savedTick.id='savedTick';savedTick.setAttribute('role','status');savedTick.hidden=true;document.body.append(savedTick);
 let savedTickTimer;
-function showSaved(message='✓ Saved'){savedTick.textContent=message;savedTick.hidden=false;clearTimeout(savedTickTimer);savedTickTimer=setTimeout(()=>savedTick.hidden=true,1800)}
+function showSaved(message='✓ Saved'){if(panel?.open&&panel.dataset.currentPane==='notebook'&&/Removed/.test(message))return;savedTick.textContent=message;savedTick.hidden=false;clearTimeout(savedTickTimer);savedTickTimer=setTimeout(()=>savedTick.hidden=true,1800)}
 $('#toTop').innerHTML='<span aria-hidden="true">↑</span>';$('#toBottom').innerHTML='<span aria-hidden="true">↓</span>';
 pencil.className='';pencil.innerHTML='<span class="pencil-icon" aria-hidden="true">✎</span><span>Highlight</span>';pencil.setAttribute('aria-label','Highlight: Off');
 const contentsSteps=document.createElement('nav');contentsSteps.className='contents-steps';contentsSteps.setAttribute('aria-label','Previous and next chapters');
@@ -5489,7 +5503,7 @@ function viewport(){
 }
 // Controls occupy their own flex row, outside the scrolling reading area.
 function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
-function hidePanel(){notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');gesture=null}
+function hidePanel(){notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');gesture=null;syncTabs()}
 function closePanel(){
   if(closingHistory)return;
   if(history.state?.hazzardDepth){closingHistory=true;history.back()}
@@ -5504,12 +5518,40 @@ function displayPane(name){
   $('#panelTitle').textContent=pane.dataset.title;
   $('#panelBack').hidden=!['qbank','mock','missed','session','whatsNew'].includes(name);
   $('#panelBack').removeAttribute('data-panel');$('#panelBack').textContent=name==='whatsNew'?'‹ Text & appearance':currentView==='desk'?'‹ Home':'‹ Practice';
-  if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();if(name==='missed')renderMissedDeck();
+  if(name==='notebook')renderNotebook();if(name==='practice')refreshMissedCount();
   if(!panel.open)panel.show();pane.scrollTop=0;
 }
 let statisticsTitle=null;
-function closeStatistics(){if(statisticsTitle){const title=$('#chapterHeaderTitle');title.textContent=statisticsTitle.text;title.title=statisticsTitle.title;title.setAttribute('aria-label',title.textContent+' - Chapter contents');statisticsTitle=null}$('#statsViewport')?.remove();}
+function closeStatistics(){
+  if(statisticsTitle){
+    const title=$('#chapterHeaderTitle');title.textContent=statisticsTitle.text;title.title=statisticsTitle.title;title.disabled=statisticsTitle.disabled;
+    if(statisticsTitle.panel)title.dataset.panel=statisticsTitle.panel;else title.removeAttribute('data-panel');
+    title.setAttribute('aria-label',statisticsTitle.label);
+    for(const [node,hidden]of statisticsTitle.controls)node.hidden=hidden;
+    if(mcq)mcq.active=statisticsTitle.mcqActive;
+    statisticsTitle=null;
+  }
+  document.body.classList.remove('statistics-open');$('#statsViewport')?.remove();
+}
+function renderStatistics(pane=null){
+  const title=$('#chapterHeaderTitle');
+  statisticsTitle||={text:title.textContent,title:title.title,label:title.getAttribute('aria-label')||'',disabled:title.disabled,panel:title.dataset.panel,mcqActive:mcq?.active,controls:[...document.querySelectorAll('#headerModeSwitch,#markToggle,#findToggle,#headerPrevious,#headerNext,.study-view-tabs')].map(n=>[n,n.hidden])};
+  title.textContent=title.title='Statistics';title.setAttribute('aria-label','Statistics');title.disabled=true;title.removeAttribute('data-panel');title.removeAttribute('aria-expanded');
+  for(const [node]of statisticsTitle.controls)node.hidden=true;
+  document.body.classList.add('statistics-open');chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
+  if(mcq)mcq.active=false;currentView='reader';
+  for(const id of ['reader','desk','library'])$('#'+id).hidden=true;
+  $('#readerViewport').hidden=false;$('#jumpEnds').hidden=true;
+  findBar.hidden=true;document.body.classList.remove('finding');
+  HazzardStats.open($('#readerViewport'));if(pane)displayPane(pane);syncTabs();viewport();
+}
+function openStatistics(replace=false){
+  hidePanel();const url=new URL(location.href);url.searchParams.delete('home');url.searchParams.set('stats','1');
+  const state={...history.state,hazzardView:'reader',hazzardStats:true,hazzardPane:null,hazzardDepth:(history.state?.hazzardDepth||0)+(replace?0:1)};
+  history[replace?'replaceState':'pushState'](state,'',url);renderStatistics();
+}
 function renderScreen(state){
+  if(state?.hazzardStats){hidePanel();renderStatistics(state.hazzardPane);return;}
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
   hidePanel();currentView=id;
@@ -5522,7 +5564,7 @@ function renderScreen(state){
   if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
   else{chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
   if(state?.hazzardPane)displayPane(state.hazzardPane);
-  if(id==='desk'){refreshResume();refreshLibraryMarks().then(refreshResume)}if(id==='library')refreshLibraryMarks();
+  if(id==='desk'){HazzardChanged.refresh();refreshResume();refreshLibraryMarks().then(refreshResume)}if(id==='library')refreshLibraryMarks();
   if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
   syncTabs();syncMarkingUI();updateStorageNotice();viewport();
 }
@@ -5532,14 +5574,16 @@ function navigateUI(id,pane=null,find=false,replace=false,exam=false){
   const previous={...history.state,hazzardView:currentView,hazzardReaderY:lastReaderY,hazzardWindowY:window.scrollY};
   history.replaceState(previous,'');
   const next={...previous,hazzardPreviousMock:previous.hazzardPreviousMock,hazzardView:id,hazzardPane:pane,hazzardFind:find,hazzardExam:exam,hazzardReaderY:lastReaderY,hazzardDepth:(previous.hazzardDepth||0)+(replace?0:1)};
-  history[replace?'replaceState':'pushState'](next,'');
+  next.hazzardStats=!!previous.hazzardStats&&id==='reader'&&!!pane;
+  const url=new URL(location.href);if(next.hazzardStats)url.searchParams.set('stats','1');else url.searchParams.delete('stats');
+  if(id==='desk')url.searchParams.set('home','1');else url.searchParams.delete('home');
+  history[replace?'replaceState':'pushState'](next,'',url);
   if(id!=='reader')setMarking(false);
   renderScreen(next);
 }
 function openPanel(name,trigger){
-  if(name==='practice')fillPracticeCounts();
   if(name==='tools')HazzardStorage.requestPersistence();
-  if(name==='contents'&&['bank','mock'].includes(cid))return;
+  if(name==='contents'&&(['bank','mock','drugs'].includes(cid)||$('#statsViewport')))return;
   if(closingHistory){queuedOpen={name,trigger};return}
   if(name==='contents'&&currentView!=='reader'){returnReading(()=>openPanel(name,trigger));return}
   if(panel.open&&panel.dataset.currentPane===name){closePanel();return}
@@ -5713,7 +5757,7 @@ function syncMarkingUI(){
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
-  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':['tools','whatsNew'].includes(pane)?'tools':'reading'):currentView==='library'||cid==='drugs'&&currentView==='reader'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':'reading';
+  const active=pane?(['practice','qbank','mock','missed','session'].includes(pane)?'practice':pane==='notebook'?'notebook':['tools','whatsNew'].includes(pane)?'tools':'reading'):$('#statsViewport')?'practice':currentView==='library'||cid==='drugs'&&currentView==='reader'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':'reading';
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   $('#chapterHeaderTitle').setAttribute('aria-expanded',String(pane==='contents'));
   if(currentView==='library'&&!pane)$('#headerHome').setAttribute('aria-current','page');else $('#headerHome').removeAttribute('aria-current');
@@ -5728,8 +5772,7 @@ function handleTab(b){
     requestAnimationFrame(()=>$('#cloudControls').scrollIntoView({block:'start'}));
     return;
   }
-  if(b.dataset.tab==='practice'&&$('#statsViewport')){location.assign(HazzardMCQ.practiceURL());return;}
-  if(b.dataset.tab==='practice'){if(['bank','mock'].includes(cid)&&currentView==='reader'&&!panel.open){openPanel('practice',b);}else{const url=new URL(HazzardMCQ.practiceURL(),location.href);if(url.href===location.href)history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');location.assign(url.href);}return}
+  if(b.dataset.tab==='practice'){openPanel('practice',b);return}
   if(b.dataset.tab==='chapters'&&cid==='drugs'&&currentView==='reader'){view('library');return}
   if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
   if(b.dataset.view)view(b.dataset.view);else openPanel(b.dataset.panel,b);
@@ -5889,8 +5932,8 @@ function notebookAnswerRow(item){
   li.append(go,action);return li;
 }
 function notebookAnswerList(host,items,heading=true){
-  const section=document.createElement('div');section.className='nb-answer-list';
-  if(heading){const h=document.createElement('h3');h.className='nb-heading';h.textContent='From question answer keys';section.append(h);}
+  const section=document.createElement(heading?'details':'div');section.className='nb-answer-list';
+  if(heading){const h=document.createElement('summary');h.className='nb-heading';h.textContent='From question answer keys ('+items.filter(item=>!notebookRemovedAnswerHighlights.has(item.id)).length+')';section.append(h);}
   const list=document.createElement('ul');list.className='rows';for(const item of items)list.append(notebookAnswerRow(item));section.append(list);host.append(section);
 }
 function notebookSittingTime(sitting){
@@ -5911,7 +5954,7 @@ async function renderNotebookAnswerHighlights(ticket){
     const currentChapter=notebookBaseChapter(cid),currentItems=chapterItems.get(currentChapter)||[];
     if(currentItems.length){
       const list=$('#notebookMarks');list.querySelector('.nb-empty')?.remove();
-      for(const item of currentItems)list.append(notebookAnswerRow(item));
+      notebookAnswerList(current,currentItems);
     }
     chapterItems.delete(currentChapter);
     const other=$('#notebookOther');
@@ -5959,7 +6002,7 @@ function renderNotebook(){
     const heading=document.createElement('li');heading.className='nb-heading';heading.textContent=chapterLabel(chapter);places.append(heading);
     for(const bm of group){
     const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
-    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=chapterLabel(bm.chapter);go.querySelector('small').textContent=(bm.snippet||'')+(bm.snippet?'…':'');go.querySelector('small').dir=snippetDirection(bm.snippet||'');
+    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=bm.snippet||'Saved place';go.querySelector('small').textContent='Open saved place';go.querySelector('small').dir=snippetDirection(bm.snippet||'');
     go.onclick=()=>openChapter(bm.chapter,{hash:'bm-'+bm.at});
     del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{const list=readJSON(BOOKMARK_KEY,[]),signature=HazzardStorage.removals.bookmarkSignature(bm),present=list.some(x=>HazzardStorage.removals.bookmarkSignature(x)===signature);if(writeJSON(BOOKMARK_KEY,present?list.filter(x=>HazzardStorage.removals.bookmarkSignature(x)!==signature):[{...bm,at:Date.now()},...list])){showSaved(present?'✓ Removed':'✓ Saved');del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark()}else notebookStatus('This bookmark change could not be saved. Try again.')};
     li.append(go,del);places.append(li);
@@ -5989,20 +6032,11 @@ const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
 function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,caption,figcaption,.book-caption,summary')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}
 let fullTextIndex=null,bankTextIndex=null,searchTicket=0,searchTimer;
 async function chapterIndex(){
-  if(fullTextIndex)return fullTextIndex;
-  const result=[],failed=[];
-  // A small queue avoids parsing the entire book in one unbroken phone task.
-  for(const entry of manifestChapters){
-    try{
-      const root=document.createElement('div');
-      root.innerHTML=templateCopies.get(String(entry.number))||renderManifestChapterHtml(await loadChapterText(entry));
-      smoothPageMarkers(root);
-      result.push({entry,blocks:searchBlocks(root).map(searchText)});
-      await new Promise(resolve=>setTimeout(resolve,0));
-    }catch{failed.push(entry.number)}
-  }
-  if(!failed.length)fullTextIndex=result;
-  return {result,failed};
+  return fullTextIndex ||= fetch('data/search-index.json').then(async response=>{
+    if(!response.ok)throw Error('Search index unavailable');
+    const payload=await response.json();if(!Array.isArray(payload))throw Error('Invalid search index');
+    return {result:payload.map(([id,blocks])=>({entry:manifestChapters.find(e=>String(e.number)===String(id)),blocks})).filter(r=>r.entry),failed:[]};
+  }).catch(()=>{fullTextIndex=null;return {result:[],failed:manifestChapters.map(e=>e.number)};});
 }
 async function searchChapters(){
   const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
@@ -6097,7 +6131,7 @@ function stepFind(delta){
   const {range,block}=findMatches[findIndex];landOnMatch(range,block);
 }
 $('#findToggle').onclick=openFind;$('#findClose').onclick=closeFind;
-if(['bank','mock'].includes(String(copy.dataset.chapterId))){$('#chapterHeaderTitle').removeAttribute('data-panel');$('#chapterHeaderTitle').disabled=true;$('#chapterHeaderTitle').removeAttribute('aria-expanded');$('#chapterHeaderTitle').setAttribute('aria-label',chapterTitle);$('#findToggle').setAttribute('aria-label','Find questions');}
+if(['bank','mock','drugs'].includes(String(copy.dataset.chapterId))){$('#chapterHeaderTitle').removeAttribute('data-panel');$('#chapterHeaderTitle').disabled=true;$('#chapterHeaderTitle').removeAttribute('aria-expanded');$('#chapterHeaderTitle').setAttribute('aria-label',chapterTitle);$('#findToggle').setAttribute('aria-label','Find questions');}
 $('#findText').oninput=()=>{clearTimeout(findTimer);findTimer=setTimeout(updateFind,120)};
 $('#findText').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();stepFind(e.shiftKey?-1:1)}};
 $('#findPrevious').onclick=()=>stepFind(-1);$('#findNext').onclick=()=>stepFind(1);
@@ -6224,6 +6258,14 @@ async function refreshLibraryMarks(){
     }
   }catch(error){console.error('Chapter exam citations:',error);}
 
+  try{
+    const [statsData,evidence]=await Promise.all([HazzardStats.files(),HazzardEvidence.load()]),m=HazzardStats.model(statsData);
+    for(const row of $$('#chapterRows [data-chapter-row]')){
+      const ids=new Set(HazzardEvidence.studyIds(evidence,row.dataset.chapterRow).map(HazzardMCQ.currentId)),r=m.measure(m.questions.filter(q=>q.kind==='past'&&ids.has(q.id)));
+      let badge=row.querySelector('.chapter-missed');if(!badge){badge=document.createElement('small');badge.className='chapter-missed';row.querySelector('.chapter-name').append(badge);}
+      badge.textContent=m.ready?(r.answered-r.clean)+' missed':'Missed count unavailable';
+    }
+  }catch(error){console.error('Chapter missed counts:',error);}
   if(!drillTotals){const totals={};await Promise.allSettled(manifestChapters.filter(c=>c.kind==='study').map(async c=>{totals[c.number]=parseDrill(await loadChapterText(c)).length}));drillTotals=totals;render()}
 }
 
@@ -6318,44 +6360,8 @@ function recordMissed(id,grade){
   if(!writeJSON(MISSED_KEY,archive))flash('Missed questions could not be saved. Keep this page open.',6000);
 }
 function refreshMissedCount(){$('#missedCount').textContent='Saved MCQ mistakes · filter by source and topic'}
-let missedTicket=0;
-async function renderMissedDeck(){
-  const ticket=++missedTicket,archive=collectMissed(),ids=Object.entries(archive.questions).filter(([,x])=>x.grade===0).map(([id])=>id),host=$('#missedQuestions'),status=$('#missedStatus');host.replaceChildren();
-  status.textContent=ids.length?'Loading '+ids.length+' missed questions…':'No missed questions. Mark a drill or mock question Missed to add it here.';
-  let unavailable=0;
-  for(const entry of manifestChapters.filter(c=>c.kind==='study')){
-    const wanted=ids.filter(id=>id.split(':')[0]===String(entry.number));if(!wanted.length)continue;
-    let questions;try{questions=parseDrill(await loadChapterText(entry))}catch{unavailable+=wanted.length;continue}
-    if(ticket!==missedTicket)return;
-    const group=document.createElement('section'),heading=document.createElement('h3');heading.textContent=chapterLabel(String(entry.number).replace(/s$/,''))+' ('+wanted.length+')';group.append(heading);
-    for(const id of wanted){
-      const question=questions[Number(id.split(':')[1])-1];if(!question){unavailable++;continue}
-      const item=document.createElement('section');item.className='missed-question';item.dataset.missedId=id;item.dir='auto';
-      item.innerHTML='<p><strong>'+marked.parseInline(question.q)+'</strong></p><details><summary>Answer</summary>'+marked.parse(question.a)+'</details>';
-      const grades=document.createElement('div');grades.className='mock-grade';
-      grades.innerHTML='<button data-grade="1" aria-pressed="false">✓ Got it</button><button data-grade="0" aria-pressed="true">✗ Missed</button>';item.append(grades);
-      compactPracticeControls(item);let resolved=false;
-      for(const button of grades.querySelectorAll('button'))button.onclick=()=>{
-        const grade=Number(button.dataset.grade),drills=readJSON(DRILL_KEY,{}),mock=readJSON(MOCK_KEY,null);let saved=true;
-        if(resolved===(grade===1))return;
-        for(const state of Object.values(drills.chapters||{}))if(Object.hasOwn(state.grades||{},id))state.grades[id]=grade;
-        saved=writeJSON(DRILL_KEY,drills)&&saved;
-        if(Object.hasOwn(mock?.grades||{},id)){mock.grades[id]=grade;saved=writeJSON(MOCK_KEY,mock)&&saved}
-        if(saved){const current=collectMissed();current.questions[id]={grade,at:Date.now()};saved=writeJSON(MISSED_KEY,current)}
-        if(!saved){status.textContent='Could not save this answer. Keep this page open and try again.';return}
-        resolved=grade===1;
-        for(const b of grades.querySelectorAll('button'))b.setAttribute('aria-pressed',String(Number(b.dataset.grade)===grade));
-        resyncPractice();refreshMissedCount();refreshLibraryMarks();showSaved();
-        status.textContent=Object.values(collectMissed().questions).filter(q=>q.grade===0).length+' questions still missed.';
-      };group.append(item);
-    }
-    host.append(group);
-  }
-  if(ticket===missedTicket&&ids.length)status.textContent=ids.length+' missed questions. Got it removes a question from this deck; Missed keeps it or undoes Got it.'+(unavailable?' '+unavailable+' unavailable; reconnect to finish saving the book.':'');
-}
-
 // ---------- practice ----------
-{const rows=$('#qbankRows');for(const c of manifestChapters.filter(c=>c.kind==='study')){const li=document.createElement('li'),b=document.createElement('button');b.dataset.chapter=c.number;const base=String(c.number).replace(/s$/,''),e=manifestChapters.find(x=>String(x.number)===base);b.innerHTML='<strong></strong><small></small>';b.querySelector('strong').textContent=base==='law'?'Israeli law':'Chapter '+base+' — '+(e?.title||c.title.replace(/ — Study$/,''));b.querySelector('small').textContent=c.description||'Summary + drill';li.append(b);rows.append(li)}}
+
 {try{const st=HazzardMCQ.readPaper();if(st?.paper){$('#mockResume').hidden=false;$('#mockResume').textContent='Resume current paper ('+st.paper.ids.length+' questions)'}}catch{}}
 // Self-grading uses the existing mock store; chapter-drill progress is new data.
 
@@ -6829,12 +6835,6 @@ if(!history.state?.hazzardView){try{history.replaceState({...history.state,hazza
 else if(!newMockPaper)renderScreen(history.state);
 // v41: retain the original study copy and mark identities. MCQs scroll
 // separately and never contribute to the book's saved reading position.
-function fillPracticeCounts(){return practiceCountsPromise ||= HazzardMCQ.loadIndex().then(catalog=>{
-  for(const button of $$('#qbankRows button[data-chapter]')){
-    const base=button.dataset.chapter.replace(/s$/,''),counts=catalog[base];
-    if(counts){const refresh=()=>{const hidden=HazzardMCQ.standoutCount(base);button.querySelector('small').textContent=counts.past+' past exams · '+(counts.practice-hidden)+' practice · '+hidden+' hidden by Practice settings';};refresh();addEventListener('hazzard-practice-settings-change',refresh);}
-  }
-}).catch(()=>{practiceCountsPromise=null;});}
 if(['bank','mock'].includes(cid))try{await HazzardMCQ.preload();}catch{}
 const readOnlyChapter=/^\d+$/.test(cid)&&manifestChapters.some(c=>String(c.number)===cid&&c.kind==='chapter')&&!manifestChapters.some(c=>String(c.number)===cid+'s');
 if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
@@ -6853,7 +6853,9 @@ if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
     addEventListener('load',()=>{if(!userScrolled&&!mcq.active)readerScroll.scrollTop=y;},{once:true});
   }
 }
-document.getElementById('openStatistics').onclick=()=>{const title=$('#chapterHeaderTitle');statisticsTitle||={text:title.textContent,title:title.title};title.textContent=title.title='Statistics';title.setAttribute('aria-label','Statistics');chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(mcq)mcq.active=false;hidePanel();currentView='reader';for(const id of ['reader','desk','library'])$('#'+id).hidden=id!=='reader';$('#readerViewport').hidden=false;history.replaceState({...history.state,hazzardView:'reader',hazzardPane:null,hazzardDepth:0},'');HazzardStats.open($('#readerViewport'));};
+document.getElementById('openStatistics').onclick=()=>openStatistics();
+if(new URL(location.href).searchParams.get('stats')==='1')openStatistics(true);
+else if(new URL(location.href).searchParams.get('home')==='1')navigateUI('desk',null,false,true);
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   mcq?.remember();
@@ -6863,7 +6865,9 @@ window.HazzardPrepareUpdate=async()=>{
   await HazzardStorage.flush();
   if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
 };
-$('#appearanceStatus').addEventListener('toggle',()=>requestAnimationFrame(viewport));
+$('#appearanceStatus').addEventListener('toggle',()=>{if($('#appearanceStatus').open)setPanelExpanded(true);requestAnimationFrame(viewport)});
+$('#cloudSettingsEntry').addEventListener('click',()=>{setPanelExpanded(true);$('#appearanceStatus').open=true;requestAnimationFrame(()=>$('#cloudControls').scrollIntoView({block:'start'}));});
+$('#cloudSignIn').textContent='Sign in & sync';
 addEventListener('hazzard-cloud-status',()=>requestAnimationFrame(viewport));
 function refreshRecoveredReader(key){
   if(key===HazzardAnswerHighlights.KEY){dispatchEvent(new Event('hazzard-answer-highlights-change'));refreshSavedPlaces();readerRecovery();return;}

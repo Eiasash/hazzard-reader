@@ -38,7 +38,7 @@ Study summary of Chapter 98 — Thyroid Diseases; the book and the full chapter 
 
 ### Thyroid nodules & cancer
 - **50%** of thyroid glands have a nodule at autopsy; malignancy is present in **7-9%** of thyroid nodules, higher in men than women. Evaluation does not differ by age; nonpalpable nodules carry the same risk as palpable nodules of the same size, and multiple nodules the same risk as a solitary nodule (p1555).
-- FNA indicated: nodules **≥1 cm** solid + hypoechoic; **≥1.5 cm** isoechoic/hyperechoic solid; abnormal cervical lymph nodes. FNA **or observation**: mixed cystic-solid or spongiform nodules **≥2 cm**. FNA not required: purely cystic nodules or nodules **<1 cm** (Table 98-8, p1555).
+- FNA indicated: nodules **≥1 cm** solid + hypoechoic; **≥1.5 cm** isoechoic/hyperechoic solid; abnormal cervical lymph nodes. FNA **or observation**: mixed cystic-solid or spongiform nodules **≥2 cm**. FNA not required: purely cystic nodules or nodules **<1 cm**; low TSH prompts radionuclide scanning, and functioning hot nodules do not require cytologic evaluation (Table 98-8, p1555).
 - Benign-nodule follow-up: repeat ultrasound in **12-18 months**, then surveillance every **2-5 years**. A nodule with two benign FNAs needs no further aspiration (p1556).
 - Thyroid cancer incidence peaks at age **65-69** (**29.6/100,000**); 5-year survival is **98%** (age 50-64), **97%** (65-74), **88%** (75+) (p1556).
 - Lobectomy (instead of total thyroidectomy) is an option for tumors **1-4 cm** without extrathyroidal extension or node involvement (p1556).
@@ -134,7 +134,7 @@ Treat if TSH is persistently ≥10.0 mU/mL; consider treatment if TSH is 7.0-9.9
 
 <details><summary>Answer</summary>
 
-FNA indicated: nodules ≥1 cm that are solid and hypoechoic, ≥1.5 cm isoechoic/hyperechoic solid, or abnormal cervical lymph nodes. FNA or observation: mixed cystic-solid or spongiform nodules ≥2 cm. FNA not required: purely cystic nodules or nodules <1 cm (p1555).
+FNA indicated: nodules ≥1 cm that are solid and hypoechoic, ≥1.5 cm isoechoic/hyperechoic solid, or abnormal cervical lymph nodes. FNA or observation: mixed cystic-solid or spongiform nodules ≥2 cm. FNA not required: purely cystic nodules or nodules <1 cm; low TSH prompts radionuclide scanning, and functioning hot nodules do not require cytologic evaluation (p1555).
 
 </details>
 

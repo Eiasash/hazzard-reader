@@ -20,7 +20,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - Healed scar tissue retains only **40%** of native tissue tensile strength → higher future PI risk at old sites (p682).
 
 **Risk screening & assessment**
-- Movement is the key screen: none developed PI with **>50** spontaneous body movements/night vs **90%** PI with **≤20** movements/night (p682).
+- In one monitored geriatric study, none developed PI with **>50** spontaneous body movements/night vs **90%** PI with **≤20** movements/night (p682).
 - High-risk flags: age **>75y**, age >65 with scheduled surgery **≥3h**, hospital transport time **>1h** (p682); ICU surgery **≥8h** (p683).
 - Braden scale scores **six** risk domains (p683).
 - Reassessment cadence: acute care every shift; home health weekly ×**4** weeks then every other week; NH weekly ×**4** weeks then quarterly (p683).
@@ -47,7 +47,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - Blanchable erythema = discoloration **>1cm** (p686).
 
 **Early (nonvisual) detection**
-- Ultrasound detects damage before clinical signs: **~80%** with abnormal images had no documented erythema (p686).
+- Early work suggests ultrasound may detect damage before clinical signs: **~80%** with abnormal images had no documented erythema (p686).
 - Thermography: in one NH study, areas of blanchable erythema with cooler skin temperatures were more likely to develop necrotic ulcers within **7 days**; capacitance devices read in **3–8 seconds** (p686).
 
 **Healing benchmarks & assessment tools**

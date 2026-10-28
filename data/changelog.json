@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v298",
+      "date": "2026-10-28",
+      "changes": [
+        "Statistics shows each paper once and its links keep you in that paper or topic; Review runs as one queue; quick filter chips, Next unanswered and a Weak x high-yield chapter sort; Study previews open over the question; chapter search uses a prebuilt index. About 30 study lines and four law cards restored to their sources' wording."
+      ]
+    },
+    {
       "version": "v297",
       "date": "2026-10-28",
       "changes": [

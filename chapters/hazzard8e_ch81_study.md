@@ -32,7 +32,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL** *[sic — the book's own Table 81-7, p1246, gives cells/μL]*); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; posterior subcapsular cataracts; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
 - Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
-- Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance (p1254).
+- Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance; maintenance may be considered for frequent exacerbators despite maximal triple inhalers when worsening airflow obstruction and airway inflammation drive symptoms, without hearing impairment, resting tachycardia or other arrhythmia, apparent QTc-prolongation risk, or clinical/radiographic NTM evidence, with NTM assessment before regular use (p1254).
 - Theophylline: goal level **8–12 mcg/mL**; narrow therapeutic window, rarely used now (p1255).
 
 ### Devices & adherence

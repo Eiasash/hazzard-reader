@@ -42,7 +42,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Wearing-off = adequate levodopa dose fails to last **≥6 hours** (p944); more frequent levodopa dosing may be the simplest approach; MAO-B inhibitors help mild wearing-off slightly, and COMT inhibitors are useful (p945). ⟨2026 exam Q83⟩
 
 **Management — dyskinesias & nonmotor complications**
-- Peak-dose dyskinesia: reduce levodopa dose, or add amantadine (start **100 mg BID**, up to **200 mg BID**); buspirone up to **20 mg/day** (p946).
+- Peak-dose dyskinesia: reduce levodopa dose, or add amantadine (start **100 mg BID**, up to **200 mg BID**); buspirone up to **20 mg/day** may benefit some patients (p946).
 - Diphasic dyskinesias (Table 61-6, p945; p946) — occur at the start/end of dose (not peak), mixed chorea/dystonia, mainly affect the legs; distinct from peak-dose dyskinesia above.
 - Drug-induced hallucinations: reduce dopaminergic burden first; then quetiapine (start **25 mg qhs**) or pimavanserin (**17 mg 1–2×/day**, reduce with CYP3A4 inhibitors) (p946). ⟨2026 exam Q75⟩
   > Current practice (not the book): pimavanserin 34 mg PO once daily, no titration; 10 mg once daily with strong CYP3A4 inhibitors — FDA Nuplazid label, 2026.

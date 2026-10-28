@@ -92,7 +92,7 @@ window.HazzardDrugs = (() => {
         for (const entry of entries) {
           const row = el('details', '', 'drug-entry'); row.id = 'drug-' + entry.id;
           const summary = el('summary'), name = el('strong', entry.name), meta = el('span', entry.kind === 'class' ? 'Drug class' : entry.class, 'drug-class');
-          summary.append(name, meta, el('small', entry.passages.length + ' passages · ' + entry.questions.length + ' questions'));
+          summary.append(name, meta, el('small', entry.passages.length + (entry.passages.length===1?' passage':' passages') + ' · ' + entry.questions.length + (entry.questions.length===1?' question':' questions')));
           const body = el('div', '', 'drug-body'); row.append(summary, body);
           let populated = false;
           row.addEventListener('toggle', () => {
@@ -106,7 +106,7 @@ window.HazzardDrugs = (() => {
         }
         if (!entries.length) fragment.append(el('p', 'No matching drug or class. Try a generic name or a shorter search.'));
         results.replaceChildren(fragment);
-        status.textContent = entries.length + ' entries · ' + data.counts.drugs + ' drugs + ' + data.counts.classes + ' classes in the index';
+        status.textContent = entries.length + (entries.length===1?' entry':' entries') + ' · ' + data.counts.drugs + ' drugs + ' + data.counts.classes + ' classes in the index';
       } catch (error) {
         status.textContent = error.message || 'Drug index could not be loaded.';
         const retry = el('button', 'Retry drug index'); retry.onclick = render;
