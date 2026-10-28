@@ -12,20 +12,20 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 - Diagnostic: AHI **> 15** alone, or **> 5** with symptoms/comorbidities; AHI **> 30** = severe (p645).
 - Age-dependent SDB risk factors (Table 44-1, p646): ↑BMI/central obesity, ↓muscle tension, altered airway anatomy, ↑airway collapsibility, ↓thyroid function, ↓lung volume.
 - Moderate-to-severe SDB estimated in **6%** of women, **13%** of men in a 2007–2010 cohort of middle-aged adults; OSA underdiagnosed, especially in women (p646).
-- CSA is **two to three times** more prevalent at age 65–90 vs 39–64; upwards of **50%** of stable heart-failure patients have some form of SDB (p646).
+- CSA is **two to three times** more prevalent at age 65–90 vs 39–64; an estimated upwards of **50%** of stable heart-failure patients have some form of SDB (p646).
 - Neck circumference **> 17 inches** (men) / **> 16 inches** (women) predicts SDB, less so in elderly; Friedman palate positions **III and IV** = high OSA risk (p647).
 - Peripheral arterial tone–based home devices are not validated for central apneas and should not be used with alpha-blockers or atrial fibrillation; HSAT only for high pretest probability without significant cardiopulmonary comorbidity; a negative HSAT does not rule out OSA (p648–649).
-- CPAP pressure usually **5 to 20 cm H2O**; well tolerated above age 80 and in mild-moderate dementia (p649).
+- CPAP pressure usually **5 to 20 cm H2O**; observational studies found it well tolerated above age 80 and in mild-moderate dementia (p649).
 - Only **50% to 70%** of patients remain CPAP-adherent at 1 year (p649).
 - ASV generally not recommended if EF **less than 45%** (SERVE-HF: increased mortality) (p649).
-- Hypoglossal nerve stimulation trials limited to BMI **less than 32 kg/m2**; cohort of **62** patients aged 65–80 showed benefit (p650).
+- Hypoglossal nerve stimulation trials limited to highly selected CPAP-intolerant patients with BMI **less than 32 kg/m2**; cohort of **62** patients aged 65–80 showed benefit (p650).
 
 ### RLS / periodic limb movement disorder
 - RLS affects up to **8%** of older adults; **1.5 to 2 times** more common in women; **two to five times** more prevalent in chronic renal failure (p651).
 - PLMS last **0.5 seconds to 10 seconds**, **5 to 90 seconds** apart; **at least four** in a row required; PLMD needs **at least 15** PLMS/hour (p651).
 - PLMS coexist with RLS (**80%–90%**), RBD (**70%**), narcolepsy (**45%–65%**) — PLMD is a diagnosis of exclusion (p651).
 - PLMS seen on PSG in up to **45%** of older adults, often not clinically significant (p652).
-- Start iron if ferritin **less than 75 mcg/L**; consider IV iron if ferritin **less than 300 mcg/L** with moderate-severe symptoms (p652).
+- Start iron if ferritin **less than 75 mcg/L**; consider IV iron if ferritin **less than 300 mcg/L** with moderate-severe symptoms, although IV iron is usually reserved for iron malabsorption (p652).
 - Dopamine-agonist augmentation risk **2% to 15%** per year, worse with higher dose/duration (p652).
 - Drugs (Table 44-2, p653): Ropinirole **0.25–4 mg**, Pramipexole **0.125–2 mg** — caution: augmentation, behavioral disinhibition. Carbidopa/levodopa **25/100–25/200 mg** — reserve for infrequent dosing (highest augmentation risk). Gabapentin enacarbil **600–1200 mg** (only α2δ ligand FDA-approved for RLS), gabapentin **100–1800 mg**, pregabalin **300 mg** — caution: sedation, suicidal ideation. Clonazepam **0.25–2 mg**, temazepam **15–30 mg** — limited evidence, cognitive risk. Opiate agents (all off-label) for refractory RLS: codeine **30–60 mg**, tramadol **50–100 mg**, oxycodone **5–15 mg**, hydrocodone **5–15 mg**, methadone **5–10 mg**.
   > Current practice (not the book): FDA-labelled RLS dosing of pramipexole is 0.125 mg once daily 2–3 h before bedtime, titrated if needed to 0.25 then 0.5 mg; no evidence that 0.75 mg adds benefit — US prescribing information (pramipexole tablets, DailyMed), 2026.
@@ -44,11 +44,11 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 ### Insomnia
 - Chronic if symptoms persist **more than 3 months**; short-term if **fewer than 3 months** (p657).
 - Prevalence up to **10%** in young adults, rising to **30% to 48%** after age 65; more common in women; up to **40%** of caregivers use sleep aids (p658).
-- **A third** of older patients had persistent severe insomnia at 4-year follow-up; **more than 80%** of women over 85 report sleeping difficulties (p658).
+- In one study, **a third** of older patients had persistent severe insomnia at 4-year follow-up; **more than 80%** of women over 85 report sleeping difficulties (p658).
 - CBT-I is first-line treatment for all adults with insomnia (p659).
 - Stimulus control: get out of bed if not asleep within **20 minutes** (p662).
 - Sleep restriction: time-in-bed = average sleep time **+ 15 minutes**, advance 15 min once efficiency **80%–85%**, goal ~**8 hours** (p662).
-- Drugs: Benzodiazepines ↓ sleep latency ~**10 minutes**, ↑ total sleep time **30 to 60 minutes**; avoid long-acting flurazepam/quazepam; all Beers-listed (p659). Temazepam start **7.5 mg**, usual **7.5–30 mg**, half-life **8.8 h** — caution: psychomotor impairment, increased fall risk; eszopiclone start **1 mg**, usual **1–2 mg**, half-life **6 h** — caution: avoid high-fat meals, unpleasant taste/headache (Table 44-5, p660). Zolpidem/zaleplon — rapid onset, take immediately before bed; Beers-listed (p659). Ramelteon (MT1/MT2 agonist) — few side effects, less amnestic (p660). Suvorexant/lemborexant (DORA) — only suvorexant FDA-approved for insomnia with Alzheimer dementia (trial of **277** patients, mild-moderate AD, sleep time up **around half an hour** after 2 weeks) (p660). Doxepin low-dose **3–6 mg** for insomnia vs **100–300 mg** as an antidepressant (p661). Avoid diphenhydramine as primary therapy — long half-life, next-day sedation, rapid tolerance, dry mouth, urinary retention, delirium, decreased cognition (p661).
+- Drugs: Benzodiazepines ↓ sleep latency ~**10 minutes**, ↑ total sleep time **30 to 60 minutes**; avoid long-acting flurazepam/quazepam; all Beers-listed (p659). Temazepam start **7.5 mg**, usual **7.5–30 mg**, half-life **8.8 h** — caution: psychomotor impairment, increased fall risk; eszopiclone start **1 mg**, usual **1–2 mg**, half-life **6 h** — caution: avoid high-fat meals, unpleasant taste/headache (Table 44-5, p660). Zolpidem/zaleplon — rapid onset, take immediately before bed; Beers-listed (p659). Ramelteon (MT1/MT2 agonist) — few side effects; lack of amnestic properties makes it somewhat less effective for subjective improvement in sleep (p660). Suvorexant/lemborexant (DORA) — only suvorexant FDA-approved for insomnia with Alzheimer dementia (trial of **277** patients, mild-moderate AD, sleep time up **around half an hour** after 2 weeks) (p660). Doxepin low-dose **3–6 mg** for insomnia vs **100–300 mg** as an antidepressant (p661). Avoid diphenhydramine as primary therapy — long half-life, next-day sedation, rapid tolerance, dry mouth, urinary retention, delirium, decreased cognition (p661).
 
 ### Institutionalized / dementia
 - Nocturnal wandering and confusion are a leading cause of institutionalization; CPAP can be used successfully in mild-moderate dementia, and treating SDB can improve cognitive function (p662–663).

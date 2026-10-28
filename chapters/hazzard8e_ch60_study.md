@@ -40,7 +40,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928).
 
 **Drugs — antidepressants**
-- Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition limit its use (p929).
+- Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition may limit its use (p929).
 - Sertraline — initial **25** mg, max **200** mg/day; despite early promise, not shown superior to placebo for depression in dementia (p929).
 - Escitalopram — the cleaner S-enantiomer of citalopram; being studied for agitation (S-CitAD) (p930).
 - Paroxetine — anticholinergic properties, should be avoided in older adults (p930); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (p929).
@@ -54,7 +54,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - Benzodiazepines are used in **8.5% to 20%** of AD patients despite weak efficacy evidence; avoid, except emergencies (severe agitation with risk of harm) or failure of alternative pharmacologic interventions; if used, sparingly, short-acting preferred; glucuronidated agents (oxazepam, temazepam, lorazepam) preferable with complex medical comorbidities — no active metabolites (p931).
 - Meta-analyses: donepezil, galantamine, and memantine beat placebo in reducing emergence of NPS (modest vs neuroleptics); AChI + memantine combination beats monotherapy and placebo; not first-line for acute NPS of moderate or greater severity, but reasonable for chronic NPS (p931).
 - Methylphenidate improved apathy in AD in randomized trials; modafinil did not in one small RCT (p931).
-- Melatonin doses **up to 10 mg** showed little or no sleep benefit in a Cochrane review (p931); one small trial of melatonin **3 mg** helped agitation/sundowning (p932); ramelteon showed no sleep benefit (p932).
+- A Cochrane review found low-certainty evidence that melatonin doses **up to 10 mg** may have little or no sleep benefit (p931); one small trial of melatonin **3 mg** helped agitation/sundowning (p932); ramelteon showed no sleep benefit (p932).
 - Anticonvulsants ("mood stabilizers") are generally disappointing: valproate is ineffective and poorly tolerated; carbamazepine helped in one small trial but is a potent enzyme inducer with marrow-toxicity risk (p930).
 
 **Exam traps / book notes**

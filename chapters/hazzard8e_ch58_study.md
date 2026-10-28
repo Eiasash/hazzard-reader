@@ -53,7 +53,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 **Special populations**
 - COVID-19: hospitalization delirium rates **25–84%** (p889).
 - Postacute/nursing home: **16%** meet full CAM criteria on admission, another **50%** are subsyndromal; of those admitted with delirium, **>50%** still delirious at 1 month (p890).
-- End of life: delirium in **>80%** of patients; for refractory agitated delirium, **lorazepam 0.5–1.0 mg** PO/IV/SQ is the sedation agent of choice (p890).
+- End of life: delirium in **>80%** of patients; if sedation is indicated for severe agitated delirium, **lorazepam**, starting dose **0.5–1.0 mg** PO/IV/SQ is the sedation agent of choice (p890).
 
 **Exam traps / book contradictions**
 - Acute-onset timeframe: Cardinal Features/Table 58-4 say "hours to days," but the Algorithm-for-Evaluation text says "hours to weeks" for acute change — both as printed, not reconciled; a 2–3-week history falls inside one window and outside the other (p886).
@@ -126,7 +126,7 @@ Start 0.25 mg orally or parenterally, repeatable every 30 minutes after vital si
 
 </details>
 
-**15. What agent and dose are recommended for sedation in refractory agitated delirium at the end of life?**
+**15. What agent and starting dose are recommended for sedation in severe agitated delirium at the end of life?**
 
 <details><summary>Answer</summary>
 

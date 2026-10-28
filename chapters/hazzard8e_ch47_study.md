@@ -36,7 +36,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 
 **Management — behavioral (first-line)**
 - Weight loss of **5%–10%** of body weight reduces UI episodes in women (p708).
-- Pelvic floor (Kegel) exercises: **3 sets/day of 15 contractions**, building hold from **3 to 10 seconds** (p709).
+- Pelvic floor (Kegel) exercises: for example, **3 sets/day of 15 contractions**, building hold from **3 to 10 seconds** (p709).
 - Prompted voiding: offer toileting every **2 hours** in the day; **25%–40%** of nursing home residents respond, identified with a **3-day trial** (p710).
 - Bladder-retraining protocol after catheter removal — *if the patient is having difficulty voiding* (complete retention or very low output, eg, **≤ 240 mL in 8 h** with adequate fluid intake): recheck PVR by scan/in-and-out cath every 6–8 h until **≤ 200 mL**; place a Foley if PVR **> 300–400 mL** (Table 47-11, p711).
 
@@ -51,11 +51,11 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 
 **Procedures / devices / catheters**
 - Percutaneous tibial nerve stimulation: weekly **30-minute** sessions for up to **12 weeks** (p714).
-- Botulinum toxin A (cystoscopic): effect lasts about **6 months** (p715).
+- Botulinum toxin A (cystoscopic): early trial results suggest the effect lasts about **6 months** (p715).
 - Chronic indwelling catheter: reserve for urinary retention causing overflow incontinence/infections/renal dysfunction that can't be corrected or managed with intermittent catheterization, poorly healing wounds/pressure sores where urine adds moisture, terminally ill or severely impaired patients for whom bed/clothing changes are uncomfortable, or patient preference (Table 47-13, p715).
 
 **Fecal incontinence**
-- **30%–50%** of institutionalized patients with frequent UI also have fecal incontinence — shared pathophysiology (p716).
+- **30%–50%** of institutionalized patients with frequent UI also have fecal incontinence — this coexistence suggests common pathophysiologic mechanisms (p716).
 - Constipation is technically **< 3** bowel movements/week (p717); the most common causes of fecal incontinence are constipation and laxative use, neurologic disorders, and colorectal disorders (p716); relieving a fecal impaction can resolve urinary as well as fecal incontinence (p701).
 - Causes listed (Table 47-15): fecal impaction, constipation, laxative overuse/abuse, neurologic disorders (dementia, stroke, spinal cord disease), colorectal disorders (diarrheal illness, diabetic autonomic neuropathy, rectal sphincter damage); hyperosmotic enteral feedings — diluting or slow continuous infusion is sometimes helpful (p716).
 
@@ -108,11 +108,11 @@ Stress: leakage coincident with increased intra-abdominal pressure (cough/laugh/
 
 </details>
 
-**11. What is the recommended pelvic floor (Kegel) exercise regimen?**
+**11. What is an example of a pelvic floor (Kegel) exercise regimen?**
 
 <details><summary>Answer</summary>
 
-Three sets daily of 15 contractions, building hold time from 3 to 10 seconds (p709).
+For example, three sets daily of 15 contractions, building hold time from 3 to 10 seconds (p709).
 
 </details>
 

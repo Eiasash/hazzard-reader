@@ -26,7 +26,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - Reassessment cadence: acute care every shift; home health weekly ×**4** weeks then every other week; NH weekly ×**4** weeks then quarterly (p683).
 
 **Prevention — repositioning & support surfaces**
-- General turning interval **q2–3h** (p683); RCT of **942** NH residents randomized to q2h/q3h/q4h turning (p683) found no significant difference in PI incidence: **2.5%** vs **0.6%** vs **3.1%** (p684).
+- General turning interval **q2–3h** (p683); RCT of **942** NH residents on high-density foam mattresses randomized to q2h/q3h/q4h turning (p683) found no significant difference in PI incidence: **2.5%** vs **0.6%** vs **3.1%** (p684).
 - Position at **30°** side-lying; chairbound patients repositioned **hourly** (shift weight **q15min**), hip flexion **90°** (p684).
 - Standard mattress **4-inch** viscoelastic foam; OR risk = surgery **>3h**, ASA **≥3**, or prone position (p684).
 - Prophylactic silicone foam dressings (critical care patients) cut heel PI (**3%** vs **12%**) and sacral PI (**1%** vs **5%**), NNT **10** (p685).
@@ -48,7 +48,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 
 **Early (nonvisual) detection**
 - Ultrasound detects damage before clinical signs: **~80%** with abnormal images had no documented erythema (p686).
-- Thermography: cooler blanchable erythema predicts necrotic ulcer within **7 days**; capacitance devices read in **3–8 seconds** (p686).
+- Thermography: in one NH study, areas of blanchable erythema with cooler skin temperatures were more likely to develop necrotic ulcers within **7 days**; capacitance devices read in **3–8 seconds** (p686).
 
 **Healing benchmarks & assessment tools**
 - Reconsider the treatment plan if no healing signs in **2 weeks** (p689).
@@ -74,7 +74,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 
 **Drugs (name — scenario — caution)**
 - Oral MSSA/strep: cephalexin, cefadroxil, dicloxacillin, clindamycin. Oral MRSA: clindamycin, amoxicillin+doxycycline, or TMP-SMX (p697).
-- Parenteral empiric: cefazolin, ceftriaxone, clindamycin; vancomycin for MRSA; metronidazole/carbapenem/beta-lactamase inhibitor for anaerobes (p697).
+- Parenteral empiric: cefazolin, ceftriaxone, clindamycin; vancomycin may be required for MRSA; metronidazole/carbapenem/beta-lactamase inhibitor for anaerobes (p697).
 - Ground metronidazole on the wound bed for odor when debridement isn't possible; antiseptics in full-thickness PI — cadexomer iodine/silver/honey/PHMB dressings reduce bioburden; mupirocin is effective against MRSA (p697).
 - Avoid on clean/healing PI (fibroblast-toxic in vitro): povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, acetic acid (p697).
 - EMLA cream (lidocaine **2.5%** + prilocaine **2.5%**) or opioids/NSAIDs **30 min** pre-procedure for severe wound pain (p697); EMLA cut venous-wound pain scores by **21 mm** (p698).
@@ -96,11 +96,11 @@ Sacrum and heels (p679).
 
 </details>
 
-**8. In the RCT of 942 nursing home residents, did turning every 2, 3, or 4 hours change PI incidence significantly?**
+**8. In the RCT of 942 nursing home residents on high-density foam mattresses, did turning every 2, 3, or 4 hours change PI incidence significantly?**
 
 <details><summary>Answer</summary>
 
-No — 2.5% (q2h) vs 0.6% (q3h) vs 3.1% (q4h), not significantly different (p684).
+No — among residents on high-density foam mattresses, 2.5% (q2h) vs 0.6% (q3h) vs 3.1% (q4h), not significantly different (p684).
 
 </details>
 

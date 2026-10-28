@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v296",
+      "date": "2026-10-28",
+      "changes": [
+        "Study pages and explanations get back the book's own qualifiers (may, estimated, at least, in one study), with one exam-trap note where the book prints the DLB rule two ways."
+      ]
+    },
+    {
       "version": "v295",
       "date": "2026-10-28",
       "changes": [
