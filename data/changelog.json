@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v293",
+      "date": "2026-10-28",
+      "changes": [
+        "Safer restore and update: an answer saved during a backup restore or while another tab updates is no longer lost. Basic-track simulations no longer count questions where every answer was accepted, so their totals are now 142 to 148 by sitting; earlier results stay as they were."
+      ]
+    },
+    {
       "version": "v292",
       "date": "2026-10-27",
       "changes": [

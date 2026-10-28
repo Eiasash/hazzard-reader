@@ -43,7 +43,16 @@
   }
   function persist() {
     clearTimeout(persistTimer); persistTimer = null; lastPersist = Date.now();
-    try { localStorage.setItem(KEY, JSON.stringify({schema:1, entries:entries.slice(-50)})); } catch {}
+    try {
+      const raw=localStorage.getItem(KEY);let unreadable=false;
+      if(raw!==null){try{const saved=JSON.parse(raw);unreadable=raw.length>MAX_BYTES||saved?.schema!==1||!Array.isArray(saved.entries);}catch{unreadable=true;}}
+      if(unreadable){
+        // This early-loaded script may run before the storage helper is ready.
+        if(!window.HazzardStorage?.preserveUnreadable)return;
+        HazzardStorage.preserveUnreadable(KEY,raw);
+      }
+      localStorage.setItem(KEY, JSON.stringify({schema:1, entries:entries.slice(-50)}));
+    } catch {}
   }
   function schedulePersist() {
     if (!persistTimer) persistTimer = setTimeout(persist, Math.max(0, 2000 - (Date.now() - lastPersist)));

@@ -1,5 +1,5 @@
 {
-  "version": "v292",
+  "version": "v293",
   "files": [
     {
       "url": "./chapters/ch27_table27_3_p375.png",
@@ -5973,8 +5973,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "fbc9b20b9c1f595cd97f4541cb0d9aff693d8bf2e34d748ea39dbf46f9c88852",
-      "bytes": 67459
+      "sha256": "d46ef0aa7eb11eb12417637127c54543e80d257e39c4ef9ef0321f7d156f7ed2",
+      "bytes": 67841
     },
     {
       "url": "./data/drug-index.json",
@@ -7723,8 +7723,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "c7c8b85049bb33686f8c7e6694b12c130d6344ed415b192bc6628b2fae4273b1",
-      "bytes": 944384
+      "sha256": "d176faebb03c8fceef77ad10d1425f92c7b7acf2cf0cd05baf46cf4d9166a372",
+      "bytes": 945055
     },
     {
       "url": "./js/changed-questions.js",
@@ -7743,8 +7743,8 @@
     },
     {
       "url": "./js/exam-simulation.js",
-      "sha256": "6d7a8586f6049b1f9bb0b979be9fae2b7e71499b116ae007e25dd157ba5a4209",
-      "bytes": 54738
+      "sha256": "55cdfa7e06fca8c217ec79b4916552e040f5c9274912cef61b78ab0bde89af7f",
+      "bytes": 55034
     },
     {
       "url": "./js/law-cards.js",
@@ -7788,18 +7788,18 @@
     },
     {
       "url": "./js/reader-debug.js",
-      "sha256": "78431fca54959b659cf50b6ab2ddce0cd1fa20f00d20a4ccace84fdad5371892",
-      "bytes": 12393
+      "sha256": "1516692027784a1b2a5d9dd6fcddcaf0534448a9843c6050412c246f2a4ec419",
+      "bytes": 12852
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "e380a96d1608c744e415ee4304389dda183ac0b3d6a9dd5707f7d745bb3faad2",
-      "bytes": 8228
+      "sha256": "ea43f615c33a07d1f3f4b2335e1b78fa55a3ebd7ae51eb376a38c86d7fac2e96",
+      "bytes": 8616
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "a729b6f9931b681d867de8144abee55a59e7a08ae885a36ef92ed0c62e360d3b",
-      "bytes": 24886
+      "sha256": "ee2a039525fcc1a5f24f2d360586d92f9e3f2f99d395bc562f53ead67177adfa",
+      "bytes": 24974
     },
     {
       "url": "./js/reader-whats-new.js",

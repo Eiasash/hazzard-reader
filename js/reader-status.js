@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v292', RELEASED = '27.10.2026';
+  const VERSION = 'v293', RELEASED = '28.10.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -100,9 +100,17 @@
       const channel=new MessageChannel();
       const finish=()=>{clearTimeout(timeout);channel.port1.close();root.inert=wasInert;};
       const timeout=setTimeout(finish,5000);
-      channel.port1.onmessage=event=>{
+      channel.port1.onmessage=async event=>{
         if(!document.hidden&&parseInt(event.data?.version?.slice(1),10)>parseInt(VERSION.slice(1),10)){
-          clearTimeout(timeout);channel.port1.close();location.reload();return;
+          clearTimeout(timeout);channel.port1.close();
+          if(applying){root.inert=wasInert;return;}
+          applying=true;newerController=true;saveError='';render();
+          try{await window.HazzardPrepareUpdate();location.reload();}
+          catch(error){
+            applying=false;saveError=error.message||'Could not save before update.';
+            root.inert=wasInert;render();detail.textContent+=' - '+saveError;
+          }
+          return;
         }
         finish();requestStatus();
       };
