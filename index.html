@@ -2407,7 +2407,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <li>ד. This is most likely a hidden dementia that worsened during the admission</li>
 </ul>
 <div class="note"><p>Book: p880: the CAM algorithm relies on acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness (no identified cause is required). p885: delirium is a clinical diagnosis. p880 (Key Clinical Point 4): delirium is commonly due to multiple causes.</p></div>
-<p><strong>Q40</strong> — sourced to <a href="#p880">p. 880–882</a>. What is the relationship between delirium and dementia?</p>
+<p><strong>Q40</strong> (support p883-884) — sourced to <a href="#p880">p. 880–882</a>. What is the relationship between delirium and dementia?</p>
 <ul>
 <li>א. Delirium is really an early stage of previously undiagnosed dementia</li>
 <li>ב. Dementia is a major risk factor for delirium, but delirium itself does not affect the risk of future cognitive decline</li>
@@ -2415,7 +2415,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <li>ד. Delirium is associated with a higher risk of cognitive decline and dementia, even in people without prior dementia  ← <strong>key</strong></li>
 </ul>
 <div class="note"><p>Book: p884: patients who develop delirium are at increased risk for development of dementia, and cognitive function is affected for up to a year. p883: the contribution of delirium to permanent impairment is &quot;an area of active research&quot; (so ג overstates it).</p></div>
-<p><strong>Q58</strong> — sourced to <a href="#p889">p. 889</a>. In a patient with delirium at the end of life, what is the recommendation on benzodiazepines?</p>
+<p><strong>Q58</strong> (support p890) — sourced to <a href="#p889">p. 889</a>. In a patient with delirium at the end of life, what is the recommendation on benzodiazepines?</p>
 <ul>
 <li>א. They may be used as additional therapy in extreme agitation that has not responded to other treatment  ← <strong>key</strong></li>
 <li>ב. They should be avoided because they raise the anticholinergic burden</li>
@@ -5189,7 +5189,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v294 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v295 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);

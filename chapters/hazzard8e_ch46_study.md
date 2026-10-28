@@ -40,7 +40,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 **Staging (NPIAP six-category system)**
 - **Stage 1**: intact skin, nonblanchable erythema; reversible in **1–3 weeks** (p686).
 - **Stage 2**: partial-thickness, open dermis; should heal in **2–4 weeks** if properly treated (p686).
-- **Stage 3**: full-thickness, fat visible, no bone/muscle/tendon exposed (p686).
+- **Stage 3**: full-thickness, fat visible, no bone/muscle/tendon exposed (p686-687, Figure 46-1).
 - **Stage 4**: full-thickness with bone/muscle/tendon/cartilage exposed (p686).
 - **Deep tissue PI (DTPI)**: purple/maroon intact skin, appears **~48h** after intense pressure (p686).
 - **Unstageable**: full-thickness, depth obscured by slough/eschar (p687).
@@ -57,7 +57,7 @@ Study summary of Chapter 46 — Pressure Injuries; the book and the full chapter
 - BWAT: **13** characteristics, each scored **1–5**, total range **13–65** (p689).
 
 **Local treatment**
-- Saline/water lack antiseptic properties and should seldom be used on (colonized) PI — antiseptic options: Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692). For clean wounds, less force and physiologic solutions such as normal saline can be used (p693); avoid antiseptics on clean and healing PI (p697).
+- Saline/water lack antiseptic properties and should seldom be used on (colonized) PI — antiseptic options: Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692). For clean wounds, less force and physiologic solutions such as normal saline can be used (p693); avoid povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, and acetic acid on clean and healing PI (p697).
 - Moist dressings re-epithelialize up to **40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; PI are typically colonized with **≥10⁵** organisms/mL and may carry this load for long periods without clinical signs of infection (p693-694).
 - One retrospective study: air-fluidized beds healed fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
 - **Table 46-2**: pain-reducing dressing categories are hydrocolloids (p693), plus hydrogels (cooling effect), alginates, and hydrofibers (p694) — composite, transparent-film, wound-filler, and foam dressings list no pain-relief use in the table.
@@ -108,7 +108,7 @@ No — 2.5% (q2h) vs 0.6% (q3h) vs 3.1% (q4h), not significantly different (p684
 
 <details><summary>Answer</summary>
 
-Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon. Stage 4: full-thickness with exposed bone, muscle, tendon, ligament, or cartilage (p686).
+Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon (p686-687, Figure 46-1). Stage 4: full-thickness with exposed bone, muscle, tendon, ligament, or cartilage (p686).
 
 </details>
 
@@ -124,7 +124,7 @@ Stage 3: full-thickness with fat visible, no exposed bone/muscle/tendon. Stage 4
 
 <details><summary>Answer</summary>
 
-They have no antiseptic properties, and PI wounds are colonized with bacteria — antiseptic cleansers (e.g., dilute Dakin's or povidone-iodine) are the options (p692). Exception: for clean wounds, less force and physiologic solutions such as normal saline can be used (p693), and antiseptics are avoided on clean and healing PI (p697).
+They have no antiseptic properties, and PI wounds are colonized with bacteria — antiseptic cleansers (e.g., dilute Dakin's or povidone-iodine) are the options (p692). Exception: for clean wounds, less force and physiologic solutions such as normal saline can be used (p693), and povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, and acetic acid are avoided on clean and healing PI (p697).
 
 </details>
 
