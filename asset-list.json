@@ -5978,8 +5978,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "101193f9032a9599a0632b03d4609ffbedafa22c61907c030c2e95b2b02074a5",
-      "bytes": 69742
+      "sha256": "a5c0171dbba1a4338647ea4351b92d79346a4236f5c53ebabaf0ab14da363163",
+      "bytes": 69688
     },
     {
       "url": "./data/drug-index.json",
