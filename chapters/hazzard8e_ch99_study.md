@@ -42,7 +42,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - Cognitive screening at diagnosis, then **annually** if borderline or **every 2–3 years** if normal (p1568).
 
 **Management goals — individualized A1C framework (Table 99-6, all p1571)**
-- 3 tiers by comorbidity/function/cognition: Good, Intermediate, Poor health.
+- 3 tiers by comorbidity/function/cognition: Good, Intermediate, Poor health; Current practice (not the book): individualize targets (grade C): healthy older adults with few stable illnesses and intact cognition/function should have lower goals such as A1C <7.0-7.5% and/or CGM time in 70-180 mg/dL ≥70% and time ≤70 mg/dL ≤4%; complex/intermediate health prioritizes hypoglycemia avoidance, with less stringent goals such as A1C <8.0%, time in 70-180 mg/dL ≥50% and time <70 mg/dL <1%, considering cognition/function, frailty, comorbidity, medication risk-benefit and preferences; very complex/poor health avoids reliance on A1C and focuses on avoiding hypoglycemia and symptomatic hyperglycemia, with no numerical CGM goal specified; fasting/premeal and bedtime ranges respectively are 80-130/80-180 mg/dL (healthy), 90-150/100-180 (complex/intermediate) and 100-180/110-200 (very complex/poor); lower A1C goals require no recurrent/severe hypoglycemia or undue treatment burden - ADA Standards of Care 2026, Section 13, recommendations 13.7a-c pS282 and Table 13.2 pS284
 - Good health: A1C **<7.5%** if not on a hypoglycemia-risk drug; **≥7.0 and <7.5%** if on insulin/sulfonylurea/glinide.
 - Intermediate health: **<8%** (not on risk drug) / **≥7.5 and <8.0%** (on risk drug).
 - Poor health: **<8.5%** (not on risk drug) / **≥8.0 and <8.5%** (on risk drug).
@@ -63,7 +63,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 
 **Drugs — noninsulin (Table 99-11, p1577–1578)**
 - **Metformin** / metformin ER: printed dose lines 500–1000 mg BID, max **2500 mg/d**, 500–2000 mg qd — the page does not pair each line to an agent (p1577). Cautions: avoid if **eGFR <30**; avoid in unstable heart failure/acute illness (lactic-acidosis risk) (p1576).
-- **Sulfonylureas** (e.g., glipizide 2.5–10 mg qd–BID) (p1577). Cautions: hypoglycemia; avoid **glyburide** — long half-life, not recommended in older adults (p1579); avoid in renal/hepatic impairment (p1579).
+- **Sulfonylureas** (e.g., glipizide 2.5–10 mg qd–BID) (p1577). Cautions: hypoglycemia; avoid **glyburide** — long half-life, not recommended in older adults (p1579); avoid in renal/hepatic impairment (p1579); Required reading: see [AGS Beers 2023 required-article card](?chapter=laws&lawCard=ima-article-beers-2023#law-card-ima-article-beers-2023) for qualified sulfonylurea avoidance and the preference if one is used (Table 2, p2061)
 - **DPP-4 inhibitors** (e.g., sitagliptin 100 mg qd) (p1577). Cautions: renal dose-adjust (except linagliptin); possible pancreatitis; possible heart-failure hospitalization.
 - **GLP-1 agonists** (e.g., liraglutide, semaglutide [also oral], dulaglutide) — injectable (semaglutide also oral), dose lines range from twice daily to once weekly; source table does not pair each dose line to its named agent (p1577–1578). Cautions: nausea/vomiting, possible pancreatitis, avoid exenatide/lixisenatide if **eGFR <30**.
 - **SGLT-2 inhibitors** (e.g., empagliflozin 10–25 mg qd) (p1578). Cautions: avoid if **eGFR <25–30** — Table 99-11 (p1578); genital/UTI infections; DKA (rare in T2DM; the volume effect may contribute) (p1578, p1580).

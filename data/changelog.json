@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v297",
+      "date": "2026-10-28",
+      "changes": [
+        "The FIM card is complete (18 items, motor and cognitive subtotals), the Beers 2023 card gains the 2023 distinctions with study-page pointers, and six study lines carry a one-line current-practice note read from the newest guideline."
+      ]
+    },
+    {
       "version": "v296",
       "date": "2026-10-28",
       "changes": [

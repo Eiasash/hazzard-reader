@@ -37,7 +37,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - Aripiprazole **5–10 mg**/day — most effective for overall NPS per AHRQ review; lower EPS, nausea (p928).
 - Haloperidol **0.5–5** mg/day — high EPS risk; should not be a first-line neuroleptic in nonemergent situations (p928). Retrospective cohorts: higher mortality than risperidone, olanzapine, aripiprazole, ziprasidone, or quetiapine (p927).
 - Clozapine **6.25–75 mg**/day — low EPS risk, so a good option for psychotic symptoms in DLB (DLB/PD patients are extremely EPS-sensitive, except to clozapine); limited by neutropenia/agranulocytosis — weekly blood draws in the first **6 months** (p928).
-- Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928).
+- Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928); Current practice (not the book): brexpiprazole received FDA approval in May 2023 for agitation associated with Alzheimer dementia; its boxed warning states increased mortality in older patients with dementia-related psychosis treated with antipsychotics - AGS Alternatives 2025, Table 3 footnote e, p12; FDA announcement, 11 May 2023, approval and boxed-warning paragraphs
 
 **Drugs — antidepressants**
 - Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition may limit its use (p929).

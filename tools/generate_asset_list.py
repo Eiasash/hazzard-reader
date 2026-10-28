@@ -67,7 +67,7 @@ files = []
 for path in sorted(paths):
     data = (ROOT / path).read_bytes()
     # GitHub Pages serves Git's LF text, even from a Windows CRLF checkout.
-    if Path(path).suffix in {'.html', '.md', '.js', '.json', '.css'}:
+    if Path(path).suffix in {'.html', '.md', '.js', '.json', '.css', '.webmanifest'}:
         data = data.replace(b'\r\n', b'\n')
     files.append({'url': './' + path, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)})
 (ROOT / 'asset-list.json').write_text(json.dumps({'version': version, 'files': files}, indent=2) + '\n', encoding='utf-8', newline='\n')

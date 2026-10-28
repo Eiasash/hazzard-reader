@@ -1,5 +1,5 @@
 {
-  "version": "v296",
+  "version": "v297",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -2623,8 +2623,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch43_study.md",
-      "sha256": "37d4ec5567258c4fcf6166c207a17cf51dd15c5b3836804b5fee2c63500732ee",
-      "bytes": 7556
+      "sha256": "6e638c768cc604bb1f5a1733dfac3ba565fa185cc19ee6e41a14e6baa434a7f1",
+      "bytes": 7763
     },
     {
       "url": "./chapters/hazzard8e_ch43_table43-1_p635.png",
@@ -2693,8 +2693,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch44_study.md",
-      "sha256": "063584da7770c82a0f69b9b955092333fd41c9ba300642a0541ed518762f28f3",
-      "bytes": 9114
+      "sha256": "fa9a30f69be149937f49f7a4846717dacd3d56e90f3424f83daad84131f7871d",
+      "bytes": 9549
     },
     {
       "url": "./chapters/hazzard8e_ch44_table44-1_p646.png",
@@ -2793,8 +2793,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch47_study.md",
-      "sha256": "8d0824d37a6174d7f47a56a9b87fa62fe4a7f8ae67403e672eececa7e6c14fe8",
-      "bytes": 15916
+      "sha256": "b6593cde7fd708e772459395a227b448fe985da1b87d2ab60302302f8ddb6bca",
+      "bytes": 16624
     },
     {
       "url": "./chapters/hazzard8e_ch48_elder_mistreatment.md",
@@ -3373,8 +3373,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch58_study.md",
-      "sha256": "151b884a2518e86fc1d6d06a6d0c5d22c3501fb3ef6e71f08c9bd4ca2e4c3008",
-      "bytes": 12611
+      "sha256": "f51b42447d88071327a747b707e769a3d1adb09ac1532cf48bd685e9697fc442",
+      "bytes": 13203
     },
     {
       "url": "./chapters/hazzard8e_ch59_dementia_including_alzheimer_disease.md",
@@ -3473,8 +3473,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch60_study.md",
-      "sha256": "ad8c0b3008ec986e20e3656db1e3f00326af5cea8699673818967d6e303a9e72",
-      "bytes": 16544
+      "sha256": "4df928863d50a97a5617767a351e34da24e9a1e6c5b665b0abe3471e0a0eec72",
+      "bytes": 16917
     },
     {
       "url": "./chapters/hazzard8e_ch61_figure61-1.png",
@@ -3493,8 +3493,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch61_study.md",
-      "sha256": "c429a0576aa5035f4377ac901c4ea4959843248fb31868e80e1e8ec68ca383a6",
-      "bytes": 14213
+      "sha256": "6085c5b58a3294e966016217a8e22b366d80ab1b0ce9c4ec58dcdac360ae743b",
+      "bytes": 14774
     },
     {
       "url": "./chapters/hazzard8e_ch62_cerebrovascular_disease.md",
@@ -5843,8 +5843,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch99_study.md",
-      "sha256": "b09c970ff5a0ff83808daf5e7cd2d8f8cda2861861ac588f8cdcc34ca5bffcc4",
-      "bytes": 15816
+      "sha256": "bf6d019acf96787f3735ad8bc75bd610d1f89e2560f1a1fb69bbef9840e82d66",
+      "bytes": 17047
     },
     {
       "url": "./chapters/hazzard8e_ch9_mental_status_and_neurologic_examination.md",
@@ -5978,8 +5978,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "35ea7d6570ba2dbf94eeef7ea7d87744c1bc140630fbe52f4aa00d8502f767c5",
-      "bytes": 68929
+      "sha256": "b9a0d0af0825ebd951785747d7f17f7961efd45a4b707436e4133eca067c21ba",
+      "bytes": 69265
     },
     {
       "url": "./data/drug-index.json",
@@ -5988,13 +5988,13 @@
     },
     {
       "url": "./data/highlight-aliases.json",
-      "sha256": "7122902aef2d35e0ba6d5ff522b3e395eaedb3a2f4792e1d1f823ef30a500bd9",
-      "bytes": 34121
+      "sha256": "65b1ca9f0833f3dc499fe92ef362b9b8de450a6cd2846fa7c603c59144d23627",
+      "bytes": 44328
     },
     {
       "url": "./data/law-cards.json",
-      "sha256": "46150ffc7450216c73130e2612c67e9ffd2e95e2d087509a53536f58c2b4d720",
-      "bytes": 255804
+      "sha256": "2fa75f1ef374c6a06977ce0815f309a8753cf5db35a48e52d4d9561251189735",
+      "bytes": 261898
     },
     {
       "url": "./data/mark-unit-registry.json",
@@ -7743,8 +7743,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "ec0f04c06421f746dd25d803fb7a4a4037f9260ce9a15d1ac48090a2c49b0697",
-      "bytes": 947828
+      "sha256": "d0c758fe3a88c2e963c5828f1edc92823680410a9dbae2c14af0f119d5b1b939",
+      "bytes": 947811
     },
     {
       "url": "./js/changed-questions.js",
@@ -7813,7 +7813,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "0fdf31f43c58b529ca5564d60db736adbefb33377aab6c857f0aa349df9d3102",
+      "sha256": "d67b8b1d5d1ef439ffcc6bdc0c446110b667ef79f09551a913172eff7ee5bd3d",
       "bytes": 9571
     },
     {

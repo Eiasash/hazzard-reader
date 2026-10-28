@@ -17,7 +17,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 - CAM (4-item algorithm: acute onset/fluctuating course + inattention + [disorganized thinking OR altered consciousness]) — sensitivity **94–100%**, specificity **90–95%** (p880).
 - Cardinal features: acute onset **hours–days**, fluctuating course, inattention — vs dementia's insidious **weeks–months** course (p883).
 - Hypoactive form is the more common form in older patients; it often goes unrecognized and carries an overall poorer prognosis (p883).
-- Screening tools (Table 58-3, p884): **4AT** scores 0–12, **≥4** suggests delirium; **Nu-DESC** scores 0–10.
+- Screening tools (Table 58-3, p884): **4AT** scores 0–12, **≥4** suggests delirium; **Nu-DESC** scores 0–10; Current practice (not the book): when delirium indicators are present, a competent practitioner should assess with 4AT; use CAM-ICU or ICDSC in critical care or the recovery room after surgery; a healthcare professional with relevant expertise makes the final diagnosis if assessment indicates delirium - NICE CG103, recommendations updated 2023, 1.6.1-1.6.2, p11
 
 **Risk factors**
 - Predisposing: dementia (**2–5×** risk, present in up to **two-thirds** of delirium cases), age **>70**, severe illness/multimorbidity, functional/sensory impairment, prior delirium or stroke (p881).
@@ -26,7 +26,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 
 **Drugs & delirium**
 - Medications contribute to **≥30%** of cases (p882). Any psychoactive drug **4×** risk; ≥2 psychoactive drugs **5×** risk; sedative-hypnotics **3–12×**, narcotics **3×**, anticholinergics **5–12×** (p882).
-- Beers-listed culprits (Table 58-2, p883): anticholinergics, antipsychotics, benzodiazepines, corticosteroids, H2-blockers, meperidine, Z-drugs (zolpidem/eszopiclone/zaleplon), TCAs. Psychoactive drugs should be discontinued or minimized whenever possible (p885).
+- Beers-listed culprits (Table 58-2, p883): anticholinergics, antipsychotics, benzodiazepines, corticosteroids, H2-blockers, meperidine, Z-drugs (zolpidem/eszopiclone/zaleplon), TCAs. Psychoactive drugs should be discontinued or minimized whenever possible (p885); Required reading: see [AGS Beers 2023 required-article card](?chapter=laws&lawCard=ima-article-beers-2023#law-card-ima-article-beers-2023) for opioids and delirium, including the balanced pain-management caveat (Table 3, p2066)
 
 **Evaluation**
 - CAM short form applied in over **10,000** studies, translated into over **19** languages (p884).

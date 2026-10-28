@@ -1246,7 +1246,16 @@
         "טווח האומדן: ממטופלים שאינם הולכים למטופלים הולכים (nonambulatory to ambulatory). [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
         "פריטים הקשורים לניידות כוללים העברות, תנועה (הליכה או שימוש בכיסא גלגלים, מדרגות) ופעילויות יום־יום. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
         "ניקוד כפי שמודפס בספר: “Each item scored from 0 (unable to perform) to 7 (performs independently)”. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
-        "בארה״ב היה מחויב לצורך דיווח והחזר כספי במוסדות שיקום באשפוז עד 2019. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]"
+        "בארה״ב היה מחויב לצורך דיווח והחזר כספי במוסדות שיקום באשפוז עד 2019. [Hazzard 8e, Table 50-2, p.743 / PDF p.777]",
+        "Scoring source: FIM has 18 items: 13 motor and 5 cognitive; the total score is 18-126. [AROC, The FIM instrument, unpaginated web section]",
+        "Scoring source - self-care (6 motor items): eating, grooming, bathing, upper-body dressing, lower-body dressing, toileting. [University of Saskatchewan FIM description, section 3.5, p.30]",
+        "Scoring source - sphincter control (2 motor items): bladder management, bowel management. [University of Saskatchewan FIM description, section 3.5, p.30]",
+        "Scoring source - transfers (3 motor items): bed/chair/wheelchair, toilet, tub/shower. [University of Saskatchewan FIM description, section 3.5, p.30]",
+        "Scoring source - locomotion (2 motor items): walking/wheelchair, stairs. [University of Saskatchewan FIM description, section 3.5, p.30]",
+        "Scoring source - communication (2 cognitive items): comprehension, expression; social cognition (3 cognitive items): social interaction, problem solving, memory. [University of Saskatchewan FIM description, section 3.5, pp.30-31]",
+        "Scoring source - subtotals: motor = sum of the first 13 items, range 13-91; cognitive = sum of the last 5 items, range 5-35; total = sum of all 18 items, range 18-126. [University of Saskatchewan FIM description, section 3.4, p.30]",
+        "Scoring source - each item uses a seven-level ordinal scale from 1 (dependent, assistance needed) to 7 (independent); higher scores mean greater independence. [RehabMeasures FIM infographic, What will I have to do?, single page; AROC, The FIM instrument]",
+        "Hazzard Table 50-2 (p.743) prints 0-7; the FIM scoring source gives 1-7 per item - RehabMeasures FIM infographic, What will I have to do?, single page."
       ],
       "sources": [
         {
@@ -1263,6 +1272,21 @@
           "document": "hazzard marked .pdf",
           "locator": "Hazzard 8e, Table 50-2, printed p.743 / PDF p.777",
           "via": "Rendered page image, visually read"
+        },
+        {
+          "document": "AROC FIM / WeeFIM",
+          "locator": "The FIM instrument; unpaginated web section",
+          "url": "https://www.uow.edu.au/australasian-health-outcomes-consortium/aroc/fim-weefim/"
+        },
+        {
+          "document": "University of Saskatchewan thesis, 2001: The Functional Outcome and Length of Stay of Aboriginal Patients in Saskatchewan Inpatient Rehabilitation Programs",
+          "locator": "Chapter 3, sections 3.4-3.5, printed pp.29-31 (PDF pp.44-46)",
+          "url": "https://harvest.usask.ca/bitstreams/189c981a-c78b-4dd3-8fa8-fd658f027510/download"
+        },
+        {
+          "document": "RehabMeasures FIM infographic",
+          "locator": "What will I have to do?; single unnumbered page",
+          "url": "https://www.sralab.org/sites/default/files/downloads/2024-03/Functional%20Independence%20Measure.VFINALaccessibilitychecked.pdf"
         }
       ],
       "questions": [
@@ -1281,8 +1305,8 @@
           "basis": "Explicit reference/stem topic match. Older papers may use a different edition; this card does not replace their key."
         }
       ],
-      "gap": "Partial — כיסוי חלקי: רשימת הפריטים המלאה וסכומי הביניים אינם במקורות שסופקו. הכרטיס אינו מספק מדריך ניקוד מלא של FIM.",
-      "coverage": "partial"
+      "gap": "Complete for the 18 items, domains, motor/cognitive subtotals and scoring ranges shown here; this summary is not the full administration manual.",
+      "coverage": "complete"
     },
     {
       "id": "ima-harrison-22e",
@@ -2248,7 +2272,16 @@
           "For nonvalvular AF or VTE, avoid initiating warfarin when a suitable DOAC is available. Continuing established warfarin can be reasonable when INR control is good and adverse effects are absent; this is different from starting treatment. [p.2057]",
           "For long-term AF or VTE treatment, prefer safer alternatives to rivaroxaban because of greater major and gastrointestinal bleeding risk, particularly compared with apixaban. Use caution with dabigatran; consider kidney function, indication and body weight when selecting and dosing a DOAC. [pp.2058,2064, Box 1]",
           "Clonidine is not recommended for routine hypertension treatment because of CNS adverse effects, bradycardia and orthostatic hypotension; avoid it as first-line hypertension therapy. [p.2058]",
-          "Alternatives companion: assess the cause of insomnia and use CBT-I first. If medication is needed after other approaches, low-dose doxepin, ramelteon or an orexin antagonist may be safer alternatives; evidence for meaningful melatonin benefit is limited. [companion PDF pp.18–19]"
+          "Alternatives companion: assess the cause of insomnia and use CBT-I first. If medication is needed after other approaches, low-dose doxepin, ramelteon or an orexin antagonist may be safer alternatives; evidence for meaningful melatonin benefit is limited. [companion PDF pp.18–19]",
+          "Sulfonylureas: avoid as first- or second-line monotherapy or add-on treatment unless substantial barriers prevent use of safer, more effective agents; if one is used, prefer a short-acting agent such as glipizide over glyburide or glimepiride. Strong recommendation; evidence: hypoglycemia high, cardiovascular events/all-cause mortality moderate, cardiovascular death/ischemic stroke low. [AGS Beers 2023, Table 2, p.2061]",
+          "Dextromethorphan/quinidine: avoid in heart failure (strong recommendation, low-quality evidence). Separately, use with caution: efficacy is limited for dementia-related behavioral symptoms (this efficacy qualification does not apply to pseudobulbar affect), with falls, important interactions and heart-failure concerns (strong recommendation, moderate-quality evidence). [AGS Beers 2023, Table 3, p.2065; Table 4, p.2068]",
+          "Opioids: avoid in older adults with delirium or high delirium risk because they can induce or worsen delirium, with the table rationale qualifying this advice. For pain, balance treatment using validated pain assessment and multimodal approaches, including nondrug measures, to minimize opioid use. Strong recommendation; moderate-quality evidence. [AGS Beers 2023, Table 3, p.2066]",
+          "Anticholinergics: in people with prior falls or fractures, avoid unless safer alternatives are unavailable; if a listed drug must be used, consider reducing other CNS-active drugs and implement fall-risk reduction strategies. Strong recommendation; high-quality evidence for anticholinergics. [AGS Beers 2023, Table 3, p.2066]",
+          "Estrogen: do not start systemic oral or transdermal estrogen; consider deprescribing existing systemic treatment (strong recommendation, high-quality evidence). Low-dose vaginal cream/tablets are acceptable for dyspareunia, recurrent lower UTIs and other vaginal symptoms (weak recommendation, moderate-quality evidence). After breast cancer, if nonhormonal measures fail, discuss low-dose vaginal estrogen risks and benefits with the healthcare provider. [AGS Beers 2023, Table 2, p.2061]",
+          "Muscle relaxants: avoidance for agents typically used for musculoskeletal complaints does not apply to the spasticity agents baclofen and tizanidine, which can still cause substantial adverse effects. The musculoskeletal-relaxant avoidance is strong, with moderate-quality evidence. [AGS Beers 2023, Table 2, p.2063]",
+          "Baclofen: avoid in older adults with eGFR <60 mL/min because encephalopathy requiring hospitalization is more likely; if it cannot be avoided, use the lowest effective dose and monitor for CNS toxicity, including altered mental status. Strong recommendation; moderate-quality evidence. [AGS Beers 2023, Table 6, p.2073]",
+          "Sodium: use mirtazapine, SNRIs, SSRIs, TCAs, carbamazepine, oxcarbazepine, antipsychotics, diuretics and tramadol with caution; these can cause or worsen SIADH/hyponatremia, so monitor sodium closely when starting or changing doses. Strong recommendation; moderate-quality evidence. [AGS Beers 2023, Table 4, p.2068]",
+          "CNS combinations: avoid concurrent use of 3 or more drugs from these CNS-active groups and minimize their number: antiepileptics including gabapentinoids, antidepressants (TCAs, SSRIs, SNRIs), antipsychotics, benzodiazepines, Z-drugs, opioids and skeletal muscle relaxants, because of falls and fractures. Strong recommendation; high-quality evidence. [AGS Beers 2023, Table 5, p.2070]"
         ],
         "sources": [
           {
