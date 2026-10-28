@@ -52,7 +52,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Antimuscarinics (trihexyphenidyl, benztropine) — **avoid in patients >70 years**: cognitive impairment, hallucinations, and linked to freezing of gait (p947).
 
 **Surgical therapy**
-- DBS (STN or GPi target) — FDA-approved **2002**; for motor fluctuations/dyskinesias or medication-refractory tremor; does **not** improve postural instability or other axial features (p949).
+- DBS (STN or GPi target) — FDA-approved **2002**; for motor fluctuations/dyskinesias or medication-refractory tremor; does **not** improve postural instability or other axial features (p949); Current practice (not the book): NICE recommends subcutaneous foslevodopa/foscarbidopa infusion as an option for adults with advanced levodopa-responsive Parkinson disease, severe motor fluctuations and hyperkinesia or dyskinesia despite available medicines, only when apomorphine or DBS cannot be used or no longer controls symptoms and the commercial arrangement applies; FDA approved it on 16 October 2024 for motor fluctuations in adults with advanced Parkinson disease - NICE TA934 2023, 1.1 p4; FDA NDA216962 approval package cover and approval letter p1
 - Focused ultrasound (FUS) — FDA-approved **2018** for tremor; ablative/non-programmable, no anesthesia needed (p949).
 
 **Exam traps / book against itself** (flagged in the source chapter)

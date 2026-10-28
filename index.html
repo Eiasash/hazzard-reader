@@ -576,7 +576,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 #chapterHeader #chapterHeaderTitle{min-width:44px}
 #chapterHeader:has(#headerCloud) .chapter-step{flex-basis:44px;min-width:44px}
 #cloudNotebookEntry,#backupNotebook,#restoreNotebook,#shufflePastOptions{min-height:44px;min-block-size:44px;min-width:44px}
-[data-review="bank"],[data-changed="bank"],[data-stats="bank"],.mcq-page a[href="?chapter=bank"],a.mcq-cite-link{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+[data-review="bank"],[data-changed="bank"],[data-stats="bank"],.mcq-page a[href="?chapter=bank"]{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
 @media(max-width:420px){
   #chapterHeader #markToggle,#chapterHeader #headerCloud{flex:0 0 44px;min-width:44px;width:44px;max-width:44px;padding-inline:0}
   #markToggle>span:not(.pencil-icon),#headerCloudLabel{display:none}
@@ -992,7 +992,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button id="cloudSettingsEntry" data-panel="tools" type="button">Sign in to sync</button>
 <div id="readerLinks" hidden></div>
 <button id="whatsNewButton" data-panel="whatsNew">What’s new</button>
-<p id="storageProtection" class="meta" role="status">Storage protected: checking…</p><p id="storageProtectionHelp" class="meta" hidden>Install the reader to the home screen (Chrome menu &gt; Add to Home screen / Install app) so the browser keeps the offline book and saved work; meanwhile cloud sync and the existing backup download are the safety net.</p>
+<p id="storageProtection" class="meta" role="status">Storage protected: checking…</p><p id="storageProtectionHelp" class="meta" hidden>Install the reader to the home screen (Chrome menu &gt; Add to Home screen / Install app) to help Chrome keep the offline book and saved work; meanwhile cloud sync and the existing backup download are the safety net.</p>
 <details id="appearanceStatus">
 <summary id="appearanceSummary" title="Show release, storage and snapshot details">Checking status…</summary>
 <p id="releaseStatus" class="meta" role="status"></p>
@@ -5189,7 +5189,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v296 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v297 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);

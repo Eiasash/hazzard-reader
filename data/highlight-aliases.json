@@ -382,5 +382,65 @@
     "id": "u83",
     "old": "לעשות מאמץ סביר לשכנע אותו לקבל מזון ונוזלים (אף באמצעים מלאכותיים), חמצן, טיפולים שגרתיים למחלות בו-זמניות/רקע וטיפול מקל — ורק אז, אם הוא עדיין מסרב, לכבד את סירובו (§15).",
     "new": "לכבד את רצונו ולהימנע מטיפול רפואי בו (§15(א)); בנפרד, לעשות מאמץ סביר לשכנעו לקבל חמצן, מזון ונוזלים (אף באמצעים מלאכותיים), טיפולים שגרתיים למחלות בו-זמניות/רקע וטיפול מקל (§15(ב))."
+  },
+  {
+    "chapter": "43s",
+    "id": "u30",
+    "old": "Medications: withdrawing centrally-acting drugs did NOT significantly reduce falls in the most recent systematic review (5 trials, 1309 participants; RaR 0.98, 95% CI 0.63–1.51) — better to prevent uptake than deprescribe later (p639). Avoid prescribing benzodiazepines/z-drugs/other psychotropics for insomnia unless there is a clear pattern of addiction or inability to complete a withdrawal program; consider nonpharmacological approaches (p639). Vitamin D: no benefit in community-dwelling older adults (even if deficient); may reduce falls in RACF residents (p639).",
+    "new": "Medications: withdrawing centrally-acting drugs did NOT significantly reduce falls in the most recent systematic review (5 trials, 1309 participants; RaR 0.98, 95% CI 0.63–1.51) — better to prevent uptake than deprescribe later (p639). Avoid prescribing benzodiazepines/z-drugs/other psychotropics for insomnia unless there is a clear pattern of addiction or inability to complete a withdrawal program; consider nonpharmacological approaches (p639). Vitamin D: no benefit in community-dwelling older adults (even if deficient); may reduce falls in RACF residents (p639); Required reading: see AGS Beers 2023 required-article card for anticholinergics with prior falls or fractures (Table 3, p2066)"
+  },
+  {
+    "chapter": "44s",
+    "id": "u24",
+    "old": "Drugs (Table 44-2, p653): Ropinirole 0.25–4 mg, Pramipexole 0.125–2 mg — caution: augmentation, behavioral disinhibition. Carbidopa/levodopa 25/100–25/200 mg — reserve for infrequent dosing (highest augmentation risk). Gabapentin enacarbil 600–1200 mg (only α2δ ligand FDA-approved for RLS), gabapentin 100–1800 mg, pregabalin 300 mg — caution: sedation, suicidal ideation. Clonazepam 0.25–2 mg, temazepam 15–30 mg — limited evidence, cognitive risk. Opiate agents (all off-label) for refractory RLS: codeine 30–60 mg, tramadol 50–100 mg, oxycodone 5–15 mg, hydrocodone 5–15 mg, methadone 5–10 mg.Current practice (not the book): FDA-labelled RLS dosing of pramipexole is 0.125 mg once daily 2–3 h before bedtime, titrated if needed to 0.25 then 0.5 mg; no evidence that 0.75 mg adds benefit — US prescribing information (pramipexole tablets, DailyMed), 2026.",
+    "new": "Drugs (Table 44-2, p653): Ropinirole 0.25–4 mg, Pramipexole 0.125–2 mg — caution: augmentation, behavioral disinhibition. Carbidopa/levodopa 25/100–25/200 mg — reserve for infrequent dosing (highest augmentation risk). Gabapentin enacarbil 600–1200 mg (only α2δ ligand FDA-approved for RLS), gabapentin 100–1800 mg, pregabalin 300 mg — caution: sedation, suicidal ideation. Clonazepam 0.25–2 mg, temazepam 15–30 mg — limited evidence, cognitive risk. Opiate agents (all off-label) for refractory RLS: codeine 30–60 mg, tramadol 50–100 mg, oxycodone 5–15 mg, hydrocodone 5–15 mg, methadone 5–10 mg.Current practice (not the book): FDA-labelled RLS dosing of pramipexole is 0.125 mg once daily 2–3 h before bedtime, titrated if needed to 0.25 then 0.5 mg; no evidence that 0.75 mg adds benefit — US prescribing information (pramipexole tablets, DailyMed), 2026; Current practice (not the book): AASM conditionally suggests against standard pramipexole, transdermal rotigotine or ropinirole use in adults with RLS because of augmentation with longer-term treatment; evidence certainty is moderate for pramipexole/ropinirole and low for rotigotine; patients prioritizing short-term symptom relief over long-term adverse effects may still choose these agents - AASM 2025, recommendations 12-14, p144"
+  },
+  {
+    "chapter": "47s",
+    "id": "u27",
+    "old": "Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ intraocular pressure, delirium, constipation (p712); patients with dementia must be followed for drug-induced delirium (p713).",
+    "new": "Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ intraocular pressure, delirium, constipation (p712); patients with dementia must be followed for drug-induced delirium (p713); Current practice (not the book): offer an antimuscarinic or beta-3 agonist for OAB (Strong recommendation, Grade A); counsel on side effects and potential dementia/cognitive risk with antimuscarinics (Clinical Principles), using shared decision-making and patient preferences; when pharmacotherapy is indicated, consider a beta-3 agonist trial first, as typically preferred in the guideline discussion - AUA/SUFU 2024, statements 16-18 and discussion, p24-27"
+  },
+  {
+    "chapter": "47s",
+    "id": "u29",
+    "old": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712).",
+    "new": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712); Required reading: see AGS Beers 2023 required-article card for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)"
+  },
+  {
+    "chapter": "58s",
+    "id": "u13",
+    "old": "Screening tools (Table 58-3, p884): 4AT scores 0–12, ≥4 suggests delirium; Nu-DESC scores 0–10.",
+    "new": "Screening tools (Table 58-3, p884): 4AT scores 0–12, ≥4 suggests delirium; Nu-DESC scores 0–10; Current practice (not the book): when delirium indicators are present, a competent practitioner should assess with 4AT; use CAM-ICU or ICDSC in critical care or the recovery room after surgery; a healthcare professional with relevant expertise makes the final diagnosis if assessment indicates delirium - NICE CG103, recommendations updated 2023, 1.6.1-1.6.2, p11"
+  },
+  {
+    "chapter": "58s",
+    "id": "u18",
+    "old": "Beers-listed culprits (Table 58-2, p883): anticholinergics, antipsychotics, benzodiazepines, corticosteroids, H2-blockers, meperidine, Z-drugs (zolpidem/eszopiclone/zaleplon), TCAs. Psychoactive drugs should be discontinued or minimized whenever possible (p885).",
+    "new": "Beers-listed culprits (Table 58-2, p883): anticholinergics, antipsychotics, benzodiazepines, corticosteroids, H2-blockers, meperidine, Z-drugs (zolpidem/eszopiclone/zaleplon), TCAs. Psychoactive drugs should be discontinued or minimized whenever possible (p885); Required reading: see AGS Beers 2023 required-article card for opioids and delirium, including the balanced pain-management caveat (Table 3, p2066)"
+  },
+  {
+    "chapter": "60s",
+    "id": "u28",
+    "old": "Pimavanserin 34 mg/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928).",
+    "new": "Pimavanserin 34 mg/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928); Current practice (not the book): brexpiprazole received FDA approval in May 2023 for agitation associated with Alzheimer dementia; its boxed warning states increased mortality in older patients with dementia-related psychosis treated with antipsychotics - AGS Alternatives 2025, Table 3 footnote e, p12; FDA announcement, 11 May 2023, approval and boxed-warning paragraphs"
+  },
+  {
+    "chapter": "61s",
+    "id": "u39",
+    "old": "DBS (STN or GPi target) — FDA-approved 2002; for motor fluctuations/dyskinesias or medication-refractory tremor; does not improve postural instability or other axial features (p949).",
+    "new": "DBS (STN or GPi target) — FDA-approved 2002; for motor fluctuations/dyskinesias or medication-refractory tremor; does not improve postural instability or other axial features (p949); Current practice (not the book): NICE recommends subcutaneous foslevodopa/foscarbidopa infusion as an option for adults with advanced levodopa-responsive Parkinson disease, severe motor fluctuations and hyperkinesia or dyskinesia despite available medicines, only when apomorphine or DBS cannot be used or no longer controls symptoms and the commercial arrangement applies; FDA approved it on 16 October 2024 for motor fluctuations in adults with advanced Parkinson disease - NICE TA934 2023, 1.1 p4; FDA NDA216962 approval package cover and approval letter p1"
+  },
+  {
+    "chapter": "99s",
+    "id": "u30",
+    "old": "3 tiers by comorbidity/function/cognition: Good, Intermediate, Poor health.",
+    "new": "3 tiers by comorbidity/function/cognition: Good, Intermediate, Poor health; Current practice (not the book): individualize targets (grade C): healthy older adults with few stable illnesses and intact cognition/function should have lower goals such as A1C <7.0-7.5% and/or CGM time in 70-180 mg/dL ≥70% and time ≤70 mg/dL ≤4%; complex/intermediate health prioritizes hypoglycemia avoidance, with less stringent goals such as A1C <8.0%, time in 70-180 mg/dL ≥50% and time <70 mg/dL <1%, considering cognition/function, frailty, comorbidity, medication risk-benefit and preferences; very complex/poor health avoids reliance on A1C and focuses on avoiding hypoglycemia and symptomatic hyperglycemia, with no numerical CGM goal specified; fasting/premeal and bedtime ranges respectively are 80-130/80-180 mg/dL (healthy), 90-150/100-180 (complex/intermediate) and 100-180/110-200 (very complex/poor); lower A1C goals require no recurrent/severe hypoglycemia or undue treatment burden - ADA Standards of Care 2026, Section 13, recommendations 13.7a-c pS282 and Table 13.2 pS284"
+  },
+  {
+    "chapter": "99s",
+    "id": "u45",
+    "old": "Sulfonylureas (e.g., glipizide 2.5–10 mg qd–BID) (p1577). Cautions: hypoglycemia; avoid glyburide — long half-life, not recommended in older adults (p1579); avoid in renal/hepatic impairment (p1579).",
+    "new": "Sulfonylureas (e.g., glipizide 2.5–10 mg qd–BID) (p1577). Cautions: hypoglycemia; avoid glyburide — long half-life, not recommended in older adults (p1579); avoid in renal/hepatic impairment (p1579); Required reading: see AGS Beers 2023 required-article card for qualified sulfonylurea avoidance and the preference if one is used (Table 2, p2061)"
   }
 ]
