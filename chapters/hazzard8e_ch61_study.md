@@ -11,7 +11,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Incidence: **4.5–19/100,000 person-years** across all ages; **27.2–107.2/100,000 person-years** for age >60 (p936).
 - Prevalence: **100–200/100,000** overall; **>1 in 100** for age >60; PD is about **1.5×** more common in men (p936).
 - **>90%** of PD is sporadic; **20** known *PARK* genetic loci (p937). GBA (*GBA1*) mutations are linked to early-onset PD, particularly in patients of **Ashkenazi Jewish** ancestry (p938).
-- Atypical parkinsonisms (PSP, MSA, CBS) have a combined prevalence of **5% to 10%** of PD's (p938).
+- Atypical parkinsonisms (PSP, MSA, CBS) have a prevalence of roughly **5% to 10%** of PD's (p938).
 
 **Pathophysiology**
 - Normal aging: lose **0.5% to 1%** of nigrostriatal nerve terminals per year after the 3rd decade. By PD motor-symptom onset, **60% to 80%** of posterior-putamen dopaminergic terminals are already lost (p938).
@@ -36,7 +36,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Ergot agonists (pergolide, bromocriptine, cabergoline) — fibrosis risk (cardiac valvulopathy, retroperitoneal/pleuropulmonary/pericardial); **pergolide withdrawn from the US market** (p944).
 - Rotigotine (transdermal patch) — for swallowing difficulty / nocturnal akinesia (p944).
 - Apomorphine (subcut) / sublingual film (Kynmobi) — may be the most powerful agonist; used for rapid "off" rescue; intense nausea (p944).
-- Amantadine — **100 mg BID** for PD symptoms, **300–400 mg/day** for antidyskinetic effect; confusion, hallucinations, livedo reticularis; poorly tolerated in older adults (p944). Only established effective antidyskinetic agent (antiglutamatergic).
+- Amantadine — usually **100 mg BID** for PD symptoms, usually **300–400 mg/day** for antidyskinetic effect; confusion, hallucinations, livedo reticularis; often poorly tolerated in older adults (p944). Only established effective antidyskinetic agent (antiglutamatergic).
 - Table 61-5 also lists domperidone (peripheral dopamine-receptor blocker for GI upset from levodopa/agonists; **not available in the US**) and MAO-B inhibitors (selegiline, rasagiline, safinamide) — mild symptomatic benefit, no proven neuroprotective benefit (p944).
 - Opicapone (COMT-I) — once-daily dosing; istradefylline (A2A antagonist) — once-daily, reduces off-time with carbidopa/levodopa in patients with motor fluctuations (p945).
 - Wearing-off = adequate levodopa dose fails to last **≥6 hours** (p944); more frequent levodopa dosing may be the simplest approach; MAO-B inhibitors help mild wearing-off slightly, and COMT inhibitors are useful (p945). ⟨2026 exam Q83⟩

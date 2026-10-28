@@ -19,10 +19,10 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **MMSE can swing up to 50% day-to-day** with fluctuation (p983).
 - **RBD in 85% of DLB** vs **15% PD** vs **60% MSA** — RBD is a core diagnostic feature (p983).
 - **Depression in up to 40%**; **visual hallucinations, misperceptions or (less often) delusional misidentification in ~2/3**; **parkinsonism eventually in up to 70%** (p983).
-- McKeith criteria: probable DLB = **2 core features**, or 1 core + 1 suggestive feature (p984).
+- McKeith criteria: probable DLB = **2 core features**, or 1 core + 1 suggestive feature (p984); exam trap: the text says one core plus one supportive feature and classifies RBD as core, while the Table 63-3 footnote says one core plus at least one suggestive feature and the table classifies RBD as suggestive (p984).
   > Current practice (not the book): probable DLB = ≥2 core features, or 1 core feature + ≥1 indicative biomarker (reduced DAT uptake on SPECT/PET, abnormal MIBG scintigraphy, or PSG-confirmed REM sleep without atonia) — DLB Consortium 4th consensus report (McKeith et al.), 2017.
 - **MMSE decline −4 to −5 pts/yr** vs **~3 pts/yr in AD** — faster course than AD (p984).
-- **Mean survival ~10y**, disability progressing **~10%/yr** (p983).
+- In postmortem-confirmed DLB cases, **mean survival ~10y**, disability progressing **~10%/yr** (p983).
 - "1-year rule": cognitive symptoms must precede parkinsonism by **≥12 months** to call DLB vs PDD — arbitrary, often hard to apply (p984).
   > Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.
 - Robust cholinesterase-inhibitor response (often better than AD, especially hallucinations); often neuroleptic sensitivity.
@@ -30,14 +30,14 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 ### Parkinson Disease Dementia (PDD)
 - Distinguished from DLB primarily by timing: dementia arises **years-to-decades after** established motor PD.
 - **~1/3 of PD patients** eventually develop PDD (p985).
-- Predictors: older age at motor onset, bradykinesia/non-tremor phenotype, bilateral onset, declining levodopa response, depression, hallucinations (p985).
+- Possible predictors: older age at motor onset, bradykinesia/non-tremor phenotype, bilateral onset, declining levodopa response, depression, hallucinations (p985).
 - DLB declines faster than PDD (p985).
 
 ### Multiple System Atrophy (MSA)
 - **Death within 6–10y; 10-yr survival ~40%** (p985).
 - **Incidence ~0.6/100,000 person-years** (or 1.86–4.9/100,000 population), rising to **6/100,000 person-years after age 50**; **mean onset 54y**; **~3x more common in men** (p985).
 - Subtypes: **MSA-P (parkinsonism) ~80%**, **MSA-C (cerebellar) ~20%**; orthostatic-predominant subtype → worse survival (p985).
-- Orthostatic dx criterion: **≥30 mmHg systolic BP drop** (practically, **≥20 systolic/≥10 diastolic** considered significant in the absence of an appropriate heart-rate increase) (p986).
+- Orthostatic dx criterion: **≥30 mmHg systolic BP drop** (practically, **≥20 systolic or ≥10 diastolic** considered significant in the absence of an appropriate heart-rate increase) (p986).
 - Suspect an alternative diagnosis if onset **<age 30** or family history present (p986).
 - Sleep complaints: **fragmentation 53%, early waking 33%, insomnia 20%**; RBD up to 60% (p986). Stridor → worse survival/sudden-death risk (p986).
 - MRI: putaminal atrophy/hypointensity; nonspecific **"hot cross bun" sign** in pons (p986).
@@ -45,18 +45,18 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 
 ### FTLD spectrum (bvFTD, PPA variants, Pick disease)
 - Focal frontal/anterior-temporal atrophy; brain as light as **750 g** at autopsy (p986).
-- **bvFTD accounts for >50%** of FTD cases; pathology **~50% tau, ~50% TDP-43, <10% FUS** (p987).
+- In most centers, **bvFTD accounts for >50%** of FTD cases; pathology **~50% tau, ~50% TDP-43, <10% FUS** (p987).
 - **bvFTD mean onset mid-50s** (p989); depression uncommon (unlike AD) (p989).
 - PPA = isolated language deficit **≥2 years** before other decline (p987).
-  - **nfvPPA**: apraxic/agrammatic speech, preserved single-word comprehension; left-dominant atrophy (inferior frontal/insula/caudate); **~20% TDP-43 (type A)** at autopsy, remainder tau (CBD > PSP > Pick) (p988).
-  - **svPPA**: fluent but semantically empty speech, surface dyslexia; begins in amygdala/anterior temporal lobe; most behaviorally prominent PPA; usually **TDP-43 type C**, tau-negative (p988).
-  - Logopenic PPA = usually an **AD** language presentation; may respond to cholinesterase inhibitors (p987).
+  - **nfvPPA**: apraxic/agrammatic speech, preserved single-word comprehension; left-dominant atrophy (inferior frontal/insula/caudate); **~20% TDP pathology (usually TDP-43 type A)** at autopsy, most show tau (CBD > PSP > Pick) (p988).
+  - **svPPA**: fluent but semantically empty speech, surface dyslexia; begins in amygdala/anterior temporal lobe; most behaviorally prominent PPA; often **TDP-43 type C**-positive, tau-negative inclusions at autopsy (p988).
+  - Logopenic PPA = usually an **AD** language presentation; may respond to cholinesterase inhibitors if imaging or other biomarkers confirm AD etiology (p987-988).
 - **Pick disease**: pathologic dx, found in ~**20%** of clinical bvFTD-pattern cases; Pick disease usually 3R-tau; dentate gyrus heavily involved (can be spared in AD) (p989–990).
 - Genetics: **MAPT** mutation → FTDP-17, **mean onset ~52y** (p990). **GRN** mutation → **up to 11% of sporadic / ~25% of familial** FTD; **~10% of carriers remain asymptomatic past age 70**; **>10% show autoimmunity** (p990). **C9orf72** hexanucleotide expansion = the major cause of familial FTD/ALS/FTD-ALS (p990).
-- Treatment: symptomatic only — SSRIs for behavioral symptoms/cravings/compulsions; atypical neuroleptics only if delusions are problematic; **no role for cholinesterase inhibitors** (may worsen agitation) (p991).
+- Treatment: symptomatic only — SSRIs for behavioral symptoms/cravings/compulsions; atypical neuroleptics can be considered if delusions are problematic; **no theoretical basis for cholinesterase inhibitors** (may worsen agitation) (p991).
 
 ### Amyotrophic Lateral Sclerosis (ALS)
-- **Incidence 1–2/100,000/yr; ~5,000 new US cases/yr; ~2:1 M:F** (p991).
+- **Incidence 1–2/100,000/yr; ~5,000 new cases/yr; ~2:1 M:F** (p991).
 - **Bulbar onset in ~25%** (more common in older patients); **pseudobulbar affect in up to 45%** (p991).
 - Mixed upper + lower motor neuron signs; EMG is diagnostic.
 - **Only 50% survival at 3 years**; aspiration/respiratory failure is the leading cause of death (p991).
@@ -65,11 +65,11 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 ### Corticobasal Degeneration (CBD)
 - **Mean onset mid-60s**; asymmetric parkinsonism + apraxia + cortical sensory loss ± alien limb (p991).
 - Tauopathy sharing a pathology spectrum with FTD/PSP; unlike Pick disease, ballooned neurons are extensive (primary sensory and motor regions); Pick bodies absent (p992).
-- Symptomatic treatment only; levodopa helps a minority; **no role for cholinesterase inhibitors** (p992).
+- Symptomatic treatment only; levodopa helps a minority; **no theoretical basis for cholinesterase inhibitors** (p992).
 
 ### Progressive Supranuclear Palsy (PSP)
 - **Prevalence 1/100,000 overall**, rising to **7/100,000 after age 55** (p992).
-- **Falls as the first symptom in 60%**; downward vertical gaze palsy is more specific than upward (mild vertical gaze limitation is normal with aging), with **preserved oculocephalic reflex** (p992).
+- **Falls as the first symptom in 60%**; downward vertical gaze palsy is more specific than upward (mild vertical gaze limitation is normal with aging), with **oculocephalic reflex preserved early in disease** (p992).
 - **Dysphagia in 46% within the first 5 years**; **bradykinesia in only ~25%** of autopsy-confirmed cases (p992).
 - **Survival 6–10y** from diagnosis; levodopa helps some patients but efficacy wanes (p992).
 
@@ -90,8 +90,8 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Postconcussive syndrome occurs in 30–80%**; headache, dizziness/vertigo, insomnia, irritability, impaired memory/cognition — usually resolves over months but can persist indefinitely (p995).
 
 ### Key drugs mentioned (no specific mg doses are given in this chapter)
-- **Cholinesterase inhibitors** — first-line for DLB (often better response than AD, esp. hallucinations); **no role** in bvFTD/CBD, may worsen agitation (p984, p991–992).
-- **Levodopa** — helps parkinsonism in DLB (only after hallucinations/fluctuation are controlled), ~1/3 of MSA patients, and some PSP/CBD patients, but efficacy is limited/wanes (p984, p986, p992).
+- **Cholinesterase inhibitors** — first-line for DLB (often better response than AD, esp. hallucinations); **no theoretical basis for use** in bvFTD/CBD, may worsen agitation (p984, p991–992).
+- **Levodopa** — can be used if indicated for parkinsonism in DLB (once hallucinations/fluctuation are controlled), ~1/3 of MSA patients, and some PSP/CBD patients, but efficacy is limited/wanes (p984, p986, p992).
 - **Atypical neuroleptics** — bvFTD delusions if problematic; use with caution/avoid in DLB (neuroleptic sensitivity) (p984, p991).
 - **SSRIs** — bvFTD behavioral symptoms (cravings, compulsions) (p991).
 - **Melatonin / low-dose clonazepam** — RBD in DLB/MSA (p984, p986).

@@ -10,7 +10,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 
 **Evaluation**
 - SPPB (gait speed + chair stands + balance): worse scores → falls, NH placement, mortality; UAB Life-Space Assessment = mobility over the preceding month (p820).
-- Assess rehab potential only after acute illness resolves — delirium, hemodynamic instability, occult fracture, acute infection delay it (p821).
+- Assess rehab potential after acute illness resolves — delirium, hemodynamic instability, occult fracture, acute infection may delay referral to rehabilitation (p821).
 
 **Sites of care (Medicare)**
 - Inpatient rehab facility: **at least 3 hours** of therapy/day required, 24-hr nursing (p822).
@@ -23,7 +23,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 **Exercise prescription**
 - Strength: **60% to 80%** of max lifting ability; older beginners start at **~40% to 50%** (p824).
 - Aerobic: usually **≥20 minutes** at **50% to 80%** VO2max; beginners start with **5 to 10 minutes**; needs **three to five times per week** (p824).
-- Flexibility: **90 degrees** knee flexion for stairs; **120 to 150 degrees** shoulder flexion/abduction to reach overhead (p825).
+- Flexibility: **at least 90 degrees** knee flexion for stairs; **120 to 150 degrees** shoulder flexion/abduction to reach overhead (p825).
 - CIMT: **4 to 6 hours/day** forced use of affected limb; greater upper-extremity motor gains than conventional treatment, but the between-group differences were not significant at 6 months (p825).
 - Sarcopenia: **60% to 80% of 1RM**, **two to three times a week** (p832).
 
@@ -41,14 +41,14 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 - Cardiac rehab: only **one-third** of eligible patients participate (**12%** in a 600k-patient Medicare cohort) (p830).
   - CR vs. none: mortality **2.3% vs. 5.3%**; benefit sustained at 5 years, **16% vs. 25%** (p830).
   - **≥25 sessions** → **20% lower** 5-yr mortality vs. fewer sessions (p830).
-  - Heart failure: stable **3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
+  - Heart failure: stable **at least 3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
 - PAD: walk-to-pain program needs **≥6 months** for benefit (p830).
 - Lower extremity amputation: **60% to 80%** get phantom limb pain; **~10%** of those with phantom pain rate it severe enough to be disabling (p830).
 - Stroke: rehab can begin as early as **24 to 48 hours** poststroke once the patient is medically stable (p831).
-  - Dysphagia silent in **up to one-third**; aphasia in **one-third** (p831).
+  - Dysphagia can be silent in **up to one-third of patients with dysphagia**; aphasia in **one-third** (p831).
   - Bladder incontinence **50% to 70%** month 1, back to general-population levels by **6 months** (p831).
   - Shoulder pain **34% to 84%**; depression **15% to 70%** (p831).
-- Post-THA (posterolateral): avoid **>90 degrees** hip flexion early (p832).
+- Post-THA (posterolateral): may need to avoid **more than 90 degrees** hip flexion early (p832).
 
 ## Recall
 
