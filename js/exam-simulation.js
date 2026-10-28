@@ -15,12 +15,14 @@ window.HazzardSimulation = (() => {
   const sittingOK=s=>/^(2020|2021-Dec|2022-Jun|2023-Jun|2024-May|2024-Sep|2025-Jun|2026-Jun)-Subspec$/.test(s)||!!basicIds(s);
   const runOK=id=>typeof id==='string'&&/^[\w-]{1,80}$/.test(id);
   const empty=()=>({version:1,at:0,session:null,history:{}});
-  const scored=(q,sitting=q.t)=>!!basicIds(sitting)||q.mockEligible!==false&&!q.o.every((_,i)=>q.accepted.includes(i));
+  const scored=(q,sitting=q.t)=>(!!basicIds(sitting)||q.mockEligible!==false)&&!q.o.every((_,i)=>scoreAccepted(q,sitting).includes(i));
+  // Validation also runs before the bank loads; retain pre-v293 totals of 150.
+  const basicUnscored={'2026-Jun-Basic':2,'2025-Jun-Basic':8,'2024-Sep-Basic':3,'2024-May-Basic':4,'2023-Jun-Basic':3,'2022-Jun-Basic':6};
   const label=s=>s.replace(/-(Subspec|Basic)$/,'').replace('-', ' ')+' · '+(basicIds(s)?'Basic track':'Subspecialty');
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const elapsed=ms=>{const n=Math.ceil(ms/1000);return Math.floor(n/3600)+':'+String(Math.floor(n/60)%60).padStart(2,'0')+':'+String(n%60).padStart(2,'0');};
   const date=at=>new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(at).replaceAll('/','.');
-  function validResult(r){return record(r)&&sittingOK(r.sitting)&&stamp(r.at)&&Number.isInteger(r.correct)&&Number.isInteger(r.total)&&r.total>0&&(basicIds(r.sitting)?r.total===sittingSize(r.sitting):r.total<=100)&&r.correct>=0&&r.correct<=r.total&&stamp(r.timeMs)&&typeof r.automatic==='boolean';}
+  function validResult(r){return record(r)&&sittingOK(r.sitting)&&stamp(r.at)&&Number.isInteger(r.correct)&&Number.isInteger(r.total)&&r.total>0&&(basicIds(r.sitting)?(r.total===sittingSize(r.sitting)||r.total===sittingSize(r.sitting)-basicUnscored[r.sitting]):r.total<=100)&&r.correct>=0&&r.correct<=r.total&&stamp(r.timeMs)&&typeof r.automatic==='boolean';}
   function valid(v){
     if(!record(v)||v.version!==1||!stamp(v.at)||!record(v.history)||!Object.entries(v.history).every(([id,r])=>runOK(id)&&validResult(r)))return false;
     const s=v.session;if(s===null)return true;
