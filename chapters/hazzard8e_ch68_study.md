@@ -91,7 +91,7 @@ Start at about 25% to 50% of the dose given to younger patients; the CDC recomme
 
 <details><summary>Answer</summary>
 
-HLA-B*1502 and HLA-A*3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065).
+HLA-B\*1502 and HLA-A\*3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065).
 
 </details>
 

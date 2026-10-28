@@ -96,7 +96,7 @@ Causes of a prolonged PT and aPTT Patients with prolongation of both the PT and 
 
 ![Table 96-2](hazzard8e_ch96_table-96-2_p1513.webp)
 
-*TABLE 96-2 ■ PATTERNS AND EVALUATION OF A PROLONGED PROTHROMBIN TIME (PT) AND/OR ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT)**
+**TABLE 96-2 ■ PATTERNS AND EVALUATION OF A PROLONGED PROTHROMBIN TIME (PT) AND/OR ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT)**
 
 disease, DIC, or administration of systemic fibrinolytic agents (eg, tPA). Additional diagnostic measures in this setting may include measurements of fibrinogen and fibrinogen degradation products.
 

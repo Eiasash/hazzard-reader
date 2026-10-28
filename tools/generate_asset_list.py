@@ -41,6 +41,7 @@ with index_path.open('w', encoding='utf-8', newline='') as target:
 print(f'Generated dimensions for {len(image_sizes)} chapter images')
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
 paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
+paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png','data/highlight-aliases.json'})
 paths.update(question_files)
 paths.update({'js/question-data.js','data/verification-registry.json','data/mark-unit-registry.json'})
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v294",
+      "date": "2026-10-28",
+      "changes": [
+        "The reader can now be installed as an app from Chrome's menu, which lets the browser protect your offline book and saved work. Download progress shows as a percentage. Bigger tap targets, text size reaches the settings sheet, and stray asterisks in four chapters are fixed."
+      ]
+    },
+    {
       "version": "v293",
       "date": "2026-10-28",
       "changes": [

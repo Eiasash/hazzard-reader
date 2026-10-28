@@ -17,6 +17,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - IndexedDB `hazzard-reader-snapshots-v1` keeps five checksummed reader snapshots (`js/reader-storage.js`); startup restores missing or corrupt values from the newest valid one. Retired question IDs resolve through history-backed aliases at read time. Cloud sync uses the existing Supabase RPCs with the notebook export format.
 
 ## Rules
+- js/exam-simulation.js validResult holds per-basic-sitting all-accepted counts; any change to a basic record's accepted set must update them in the same release.
 - Fast mode: build, check once, deploy. No new guards, sweeps or review rounds unless Eias asks; state time cost before proposing extras.
 - Chapters **47, 58, 60, 61, 99** render from `<template>` blocks in `index.html`, not their `.md` — edit both.
 - Chapter text: never add, remove or split a sentence in a served chapter or study page. Mark-unit ids are kept only for registry-matched text and are otherwise a running count, so one sentence more or less shifts every later saved highlight (ch99 has no registry coverage). A period inside a sentence (e.g. “pp.”) also splits a unit. Reword in place, sentence for sentence, and compare the full unit maps before merging (tx1/tx2 reproduce.py).
@@ -34,6 +35,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - Repo clone: C:\Users\eiasa\repos\hazzard-reader; releases are Codex PRs from that clone.
 
 ## Tools
+- `data/highlight-aliases.json` maps exact old/new highlight text for one chapter and unit; consulted only after an exact match fails.
 - Codex browser checks are written as script files in the report folder and run with python or node. Inline PowerShell check commands were once refused by Codex's automatic approval review ("blocked by policy"), and a classifier denial is never worked around.
 - `tools/lane_diff.py NN` — two-way text diff vs the book (MISSING / EXTRA / SUBSTITUTIONS).
 - `tools/verify_study_pages.py` — bolded numbers vs cited page. 52 current misses, all known false positives (image-only or spelled-out numbers; a note sitting between a number and its page cite).

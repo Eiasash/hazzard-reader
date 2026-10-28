@@ -1,9 +1,11 @@
 /* Question search owns only transient browser-history state, never answer stores. */
 window.HazzardQuestionSearch = (() => {
   const normalize = value => String(value).normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/\s+/g,' ').trim();
+  let instance=0;
   function mount({getItems,openQuestion,allowAll=true}) {
     const dialog=document.createElement('dialog');dialog.className='question-search';dialog.setAttribute('aria-labelledby','questionSearchTitle');
     dialog.innerHTML='<div class="question-search-heading"><h2 id="questionSearchTitle">Find questions</h2><button type="button" aria-label="Close question search">✕</button></div><input type="search" aria-label="Search question text" placeholder="Search question text" autocomplete="off" dir="auto"><label class="question-search-scope"><input type="checkbox"> All questions</label><p class="meta question-search-help"></p><p role="status"></p><div class="question-search-results"></div>';
+    const titleId='questionSearchTitle-'+(++instance);dialog.querySelector('h2').id=titleId;dialog.setAttribute('aria-labelledby',titleId);
     document.body.append(dialog);
     const input=dialog.querySelector('input[type=search]'),all=dialog.querySelector('input[type=checkbox]'),results=dialog.querySelector('.question-search-results'),status=dialog.querySelector('[role=status]');
     dialog.querySelector('label').hidden=!allowAll;

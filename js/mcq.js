@@ -70,7 +70,7 @@ window.HazzardMCQ = (() => {
     const previous=ids.map(id=>[id,!!value[kind][id]?.saved]);
     for(const id of ids)value[kind][id]={saved,at};
     HazzardStorage.setItem(SAVED_KEY,JSON.stringify(value));
-    revisionUndo=saved?null:{kind,previous,at};revisionNotice=saved?'Saved for revision.':'Removed from saved.';
+    revisionUndo={kind,previous,at};revisionNotice=saved?'Saved for revision.':'Removed from saved.';
   }
   function revisionButtons(q){
     const value=readSaved(),question=!!value.questions[currentId(q.id)]?.saved,ids=membership(q).map(String),topic=ids.every(id=>value.topics[id]?.saved);
@@ -81,6 +81,11 @@ window.HazzardMCQ = (() => {
     const page=host.querySelector('.mcq-page'),bar=page?.querySelector('.mcq-actions,.sim-actions');
     if(!bar)return;
     for(const button of page.querySelectorAll('[data-mcq="unsure"],[data-revision="questions"],[data-sim="flag"]'))bar.append(button);
+    const notices=document.createElement('div');notices.className='mcq-docked-notices';
+    const unsureStatus=page.querySelector('.mcq-unsure-status:not([hidden])'),undo=page.querySelector('.mcq-answer-undo');
+    if(unsureStatus&&undo)unsureStatus.append(undo);
+    for(const status of page.querySelectorAll('.mcq-unsure-status,.mcq-revision-status'))notices.append(status);
+    if(notices.childElementCount)bar.prepend(notices);
     bar.classList.add('mcq-docked-actions');
     page.append(bar);
   }
@@ -100,7 +105,9 @@ window.HazzardMCQ = (() => {
         setSaved(kind,ids,button.hasAttribute('data-revision-remove')?false:!ids.every(id=>value[kind][id]?.saved));
       }
     }catch(error){revisionNotice='Could not save revision changes. '+error.message;}
+    const host=button.closest('.mcq-page')?.parentElement,kind=button.dataset.revision;
     dispatchEvent(new Event('hazzard-saved-change'));
+    host?.querySelector('[data-revision="'+kind+'"]')?.focus({preventScroll:true});
   });
 
   const LOG_KEY='hazzard-mcq-log-v1',BAD_KEY='hazzard-mcq-bad-v1';
@@ -1256,7 +1263,7 @@ window.HazzardMCQ = (() => {
           const value=state.checked?HazzardReview.result(attempt?.id===q.id?attempt.previousReview:previousReview,{correct:q.accepted.includes(state.selected),unsure,review:reviewMode&&attempt?.id===q.id}):{...(previousReview||HazzardReview.blank()),unsure,...(unsure?{active:true,step:0,due:HazzardReview.plus(HazzardReview.day(),1)}:{})};
           const log=unsure?logAction(q,'unsure'):null,saved=HazzardReview.set(q.id,value);if(log){const raw=rawValue(HazzardReview.KEY,HazzardReview.valid,()=>null);if(raw.items[q.id]?.at===saved.items[q.id].at&&raw.items[q.id].unsure)appendLog(log);}unsureRemoved=unsure?null:{id:q.id,until:Date.now()+3000};lastAnswer={kind:'unsure',log,id:q.id,previousReview,reviewAt:saved.items[q.id].at,previousAction,attempt};
         }catch{storageError='Uncertainty could not be saved. Try again.';}
-        const y=host.scrollTop;render();host.scrollTop=y;return;
+        const y=host.scrollTop;render();host.scrollTop=y;host.querySelector('[data-mcq="unsure"]')?.focus({preventScroll:true});return;
       }
       if(action==='undo'){
         if(lastAnswer?.id!==q.id)return;
