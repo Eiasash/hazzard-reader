@@ -610,5 +610,23 @@
     "id": "u36",
     "old": "PCV13 should be given first, with PPSV given at least 8 weeks later, per ACIP (p1690).Current practice (not the book): PCV15, PCV20 or PCV21 for adults ≥50; after PCV15 give PPSV23 one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026.",
     "new": "PCV13 should be given first, with PPSV given at least 8 weeks later, per ACIP (p1690).Current practice (not the book): prior vaccination determines the schedule: PCV15, PCV20 or PCV21 for adults ≥50 who never received a PCV or whose history is unknown; after PCV15 give PPSV23 if not previously administered, one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026."
+  },
+  {
+    "chapter": "74s",
+    "id": "u25",
+    "old": "Study summary of Chapter 74 - Coronary Heart Disease and Dyslipidemia; the book and the full chapter are the reference.",
+    "new": "Study summary of Chapter 74 - Coronary Heart Disease and Dyslipidemia; the book and the full chapter are the reference; additional current-practice valve reading: ESC/EACTS 2025 and ACC/AHA 2020 with corrections."
+  },
+  {
+    "chapter": "75s",
+    "id": "u62",
+    "old": "Study summary of Chapter 75; the book and the full chapter are the reference.",
+    "new": "Study summary of Chapter 75; the book and the full chapter are the reference; additional current-practice valve reading: ESC/EACTS 2025 and ACC/AHA 2020 with corrections."
+  },
+  {
+    "chapter": "75s",
+    "id": "u44",
+    "old": "Table 75-15 (INR targets + aspirin): mechanical aortic valve INR 2–3 (2.5–3.5 with risk factors), mechanical mitral valve INR 2.5–3.5 always; bioprosthetic INR 2–3 for 3 months only if no risk factors — with risk factors, bioprosthetic mitral rises to INR 2.5–3.5 (bioprosthetic aortic stays 2–3, no stated 3-mo limit); aspirin 75–325 mg/day with a mechanical valve, 75–100 mg/day with a bioprosthetic valve (p1161).Current practice (not the book): with a mechanical valve on warfarin, adding aspirin 75–100 mg daily may be considered when bleeding risk is low (Class 2b), not routinely — ACC/AHA valvular guideline, 2020.",
+    "new": "Table 75-15 (INR targets + aspirin): mechanical aortic valve INR 2–3 (2.5–3.5 with risk factors), mechanical mitral valve INR 2.5–3.5 always; bioprosthetic INR 2–3 for 3 months only if no risk factors — with risk factors, bioprosthetic mitral rises to INR 2.5–3.5 (bioprosthetic aortic stays 2–3, no stated 3-mo limit); aspirin 75–325 mg/day with a mechanical valve, 75–100 mg/day with a bioprosthetic valve (p1161).Current practice (not the book): with a mechanical valve on VKA, adding low-dose aspirin 75–100 mg/day for antiplatelet therapy requires a separate indication (ESC/EACTS: concomitant symptomatic atherosclerotic disease) and low bleeding risk; ESC/EACTS 2025 class IIa, level B — ESC/EACTS 2025, Eur Heart J 2025;46:4635; ACC/AHA 2020 class 2b, level B-R — ACC/AHA 2020, Circulation 2021;143:e142."
   }
 ]
