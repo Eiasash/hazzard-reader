@@ -299,3 +299,19 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-bank .mcq-docked-actions>[data-mcq="next"]{flex:1.3 1 0;background:transparent;color:var(--page)}
 .mcq-bank .mcq-docked-actions>[data-mcq="next"]::before{background:var(--accent);border-color:var(--accent)}
 .mcq-harrison-study a,.law-question-links a{min-height:44px;display:inline-flex;align-items:center}
+
+/* Compact bank filter controls and a single-line topic label. */
+#mcq-filter-panel .mcq-bank-filters{margin:6px 0;gap:6px}
+#mcq-filter-panel .mcq-sort,#mcq-filter-panel .mcq-filter-shortcuts{grid-column:1 / -1}
+#mcq-filter-panel .mcq-sort{flex-wrap:nowrap}
+#mcq-filter-panel .mcq-sort label{min-width:0}
+#mcq-filter-panel .mcq-sort button{flex:none}
+#mcq-filter-panel .mcq-filter-shortcuts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:6px}
+#mcq-filter-panel .mcq-jump{margin:0;min-width:0}
+#mcq-filter-panel .mcq-jump summary{box-sizing:border-box;min-height:44px;padding:6px 8px;border:1px solid var(--control);border-radius:8px;background:var(--surface)}
+#mcq-filter-panel .mcq-jump[open]{grid-column:1 / -1}
+#mcq-filter-panel .mcq-missed-toggle{width:100%;align-self:start}
+#mcq-filter-panel{padding-bottom:12px}
+.mcq-topic-label{flex-wrap:nowrap;min-width:0}
+.mcq-topic-text{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mcq-topic-label>.mcq-topic-flag{flex:none}
