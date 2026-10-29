@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v301",
+      "date": "2026-10-29",
+      "changes": [
+        "Tidier Filters panel: the official after-appeals line stays, and Go to sitting is a button."
+      ]
+    },
+    {
       "version": "v300",
       "date": "2026-10-29",
       "changes": [
