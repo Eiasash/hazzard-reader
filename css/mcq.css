@@ -272,3 +272,18 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-preview-header{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px;background:var(--surface);border-bottom:1px solid var(--rule);z-index:2}
 .mcq-preview-header button,.mcq-preview-header a{min-height:44px;min-width:44px;display:inline-flex;align-items:center;padding:8px;font-size:calc(13px * var(--fs,1))}
 .mcq-preview-body{padding:16px}
+
+/* Compact bank controls: one action row and one scrollable filter row. */
+.mcq-bank .mcq-docked-actions{flex-wrap:nowrap}
+.mcq-bank .mcq-docked-actions>button{flex:1 1 0;min-width:44px;font-size:calc(13px * var(--fs,1))}
+.mcq-bank .mcq-filter-toggle{margin-bottom:0}
+.mcq-bank-chips{flex-wrap:nowrap;gap:4px;margin:0 0 6px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+.mcq-bank-chips>button{flex:none;min-width:44px;min-height:44px;padding:6px 0;border:0;border-radius:0;background:transparent;font:500 calc(13px * var(--fs,1))/1.3 var(--ui);white-space:nowrap}
+.mcq-bank-chips>button>span{display:flex;align-items:center;justify-content:center;gap:4px;min-height:32px;box-sizing:border-box;padding:4px 9px;border:1px solid var(--rule);border-radius:18px;background:var(--surface);color:var(--muted)}
+.mcq-bank-chips>[aria-pressed="true"]{background:transparent}
+.mcq-bank-chips>[aria-pressed="true"]>span{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.mcq-chip-clear{font-size:1em;line-height:1}
+.mcq-bank-chips>.mcq-official-chip{margin-inline-start:4px;padding-inline-start:8px;border-inline-start:1px solid var(--rule)}
+.mcq-flag-toast{position:fixed;z-index:12;inset-inline:12px;bottom:calc(var(--tabs-height,56px) + var(--vv-bottom-gap,0px) + 72px * var(--fs,1));display:flex;align-items:center;gap:8px;max-width:700px;margin-inline:auto;padding:8px 12px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);color:var(--ink);box-shadow:0 3px 14px #0002;font:calc(13px * var(--fs,1))/1.4 var(--ui)}
+.mcq-flag-toast>span{flex:1}
+.mcq-flag-toast>button{flex:none;min-width:44px;min-height:44px}
