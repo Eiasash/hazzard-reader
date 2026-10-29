@@ -1170,7 +1170,7 @@ window.HazzardMCQ = (() => {
       if(state.checked&&(q.explanationReviewNote||q.explanationIncomplete)){const note=document.createElement('p');note.className='mcq-source-note';note.setAttribute('role','note');note.dir='ltr';note.lang='en';note.textContent=q.explanationReviewNote||'Explanation incomplete in source.';content.querySelector('.mcq-explanation').append(note);}
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
       if(state.checked&&!mockMode)window.HazzardAnswerHighlights?.attach(content.querySelector('.mcq-explanation'),q,order);
-      if(!mockMode&&state.checked)HazzardLawCards.questionLinks(content,q.id,q);
+      if(state.checked)HazzardLawCards.questionLinks(content,q.id,q,mockMode);
       dockActions(host);
       if(host.classList.contains('mcq-bank')){
         const secondary=document.createElement('div');secondary.className='mcq-secondary-actions';secondary.setAttribute('role','group');secondary.setAttribute('aria-label','Question tools');
