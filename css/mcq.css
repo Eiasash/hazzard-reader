@@ -287,3 +287,14 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-flag-toast{position:fixed;z-index:12;inset-inline:12px;bottom:calc(var(--tabs-height,56px) + var(--vv-bottom-gap,0px) + 72px * var(--fs,1));display:flex;align-items:center;gap:8px;max-width:700px;margin-inline:auto;padding:8px 12px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);color:var(--ink);box-shadow:0 3px 14px #0002;font:calc(13px * var(--fs,1))/1.4 var(--ui)}
 .mcq-flag-toast>span{flex:1}
 .mcq-flag-toast>button{flex:none;min-width:44px;min-height:44px}
+
+/* Keep the bank focused on the question and its answer options. */
+.mcq-bank .mcq-heading{display:none}
+.mcq-bank .mcq-filter-toggle{white-space:nowrap;min-width:0}
+.mcq-bank .mcq-filter-toggle>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mcq-secondary-actions{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;margin:10px 0;align-items:center}
+.mcq-secondary-actions>button{flex:1 0 auto;min-width:44px;min-height:44px;padding:6px 8px;font:600 calc(12px * var(--fs,1))/1.3 var(--ui);white-space:nowrap}
+.mcq-secondary-actions>.mcq-topic-flag{border:1px solid var(--control);border-radius:8px;background:var(--surface);color:var(--muted);text-decoration:none;margin:0}
+.mcq-bank .mcq-docked-actions{bottom:8px;margin-bottom:8px}
+.mcq-bank .mcq-docked-actions>[data-mcq="next"]{flex:1.3 1 0;background:var(--accent);border-color:var(--accent);color:var(--page)}
+.mcq-harrison-study a,.law-question-links a{min-height:44px;display:inline-flex;align-items:center}

@@ -10,7 +10,7 @@ window.HazzardLawCards = (() => {
   async function questionLinks(host, id, question, studyOnly = false) {
     try {
       const data = await read();
-      if (host.dataset.bankId !== id) return;
+      if (host.dataset.bankId !== id || !host.querySelector('.mcq-result')) return;
       const citations = host.querySelector('.mcq-citations');
       if (citations && /^ima-harrison-22e-ch\d+$/.test(question?.chapter || '') && data.cards.some(card => card.id === question.chapter) && !citations.querySelector('.mcq-harrison-study')) {
         const line = document.createElement('p'); line.className = 'meta mcq-harrison-study';
@@ -24,7 +24,7 @@ window.HazzardLawCards = (() => {
       for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => (c.imaItem || c.articleItem || c.citedInPastPapers || c.questions.some(q => q.id === id && q.showBasis)) && c.questions.some(q => q.id === id))) {
         const link = document.createElement('a'); link.dir = 'auto';
         link.href = '?chapter=laws&lawCard=' + encodeURIComponent(card.id) + '#law-card-' + encodeURIComponent(card.id);
-        link.textContent = (card.articleItem ? 'IMA article ' + card.articleItem : card.imaItem ? 'IMA ' + card.imaItem : 'Cited source') + ' · ' + card.title;
+        link.textContent = card.id.startsWith('valve-') ? 'Study: ' + card.title : (card.articleItem ? 'IMA article ' + card.articleItem : card.imaItem ? 'IMA ' + card.imaItem : 'Cited source') + ' · ' + card.title;
         const question=card.questions.find(q=>q.id===id);
         if(question.note)link.textContent+=' · '+question.note;
         links.append(link);
@@ -40,7 +40,7 @@ window.HazzardLawCards = (() => {
   async function decoratePanel(copy, articles) {
     const panel = document.createElement('details');
     panel.className = 'law-cards' + (articles ? ' article-cards' : ''); panel.dataset.readerMetadata = articles ? 'article-cards' : 'law-cards';
-    const summary = document.createElement('summary'); summary.textContent = articles ? 'Required articles (IMA P005-2026)' : 'Law cards · IMA required reading';
+    const summary = document.createElement('summary'); summary.textContent = articles ? 'Articles: required and additional reading' : 'Law cards · IMA required reading';
     const body = document.createElement('div'); body.className = 'law-cards-body';
     panel.append(summary, body);
     if (articles) copy.querySelector('.law-cards').after(panel);
@@ -63,7 +63,7 @@ window.HazzardLawCards = (() => {
             fragment.append(heading); pastPaperHeading = true;
           }
           const numbered = card.imaItem || card.articleItem;
-          const collapsible=numbered || card.requiredBook || card.citedInPastPapers;
+          const collapsible=articles || numbered || card.requiredBook || card.citedInPastPapers;
           const section = document.createElement(collapsible ? 'details' : 'section'); section.className = 'law-card';
           section.id = 'law-card-' + card.id;
           if (collapsible) section.dir = card.direction || 'rtl';

@@ -1,4 +1,4 @@
-Study summary of Chapter 75; the book and the full chapter are the reference.
+Study summary of Chapter 75; the book and the full chapter are the reference; additional current-practice valve reading: [ESC/EACTS 2025](?chapter=laws&lawCard=valve-esc-eacts-2025#law-card-valve-esc-eacts-2025) and [ACC/AHA 2020 with corrections](?chapter=laws&lawCard=valve-acc-aha-2020#law-card-valve-acc-aha-2020).
 
 # Chapter 75 Study: Valvular Heart Disease
 
@@ -57,7 +57,7 @@ Study summary of Chapter 75; the book and the full chapter are the reference.
 - Antibiotic prophylaxis (Table 75-14): **amoxicillin 2 g PO** 1h pre-procedure (standard); penicillin-allergic: **clindamycin 600 mg** or **cephalexin 2 g** PO; unable to take oral: **ampicillin 2 g IV/IM**; unable to take oral + PCN-allergic: **clindamycin 600 mg IV** or **cefazolin 1 g IV/IM** (p1161). Given only for gingival/periapical/oral-mucosal dental procedures or active-infection surgery, not routine nondental procedures (p1161).
   > Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO, or cefazolin/ceftriaxone IM/IV — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
 - Table 75-15 (INR targets + aspirin): mechanical aortic valve **INR 2–3** (**2.5–3.5** with risk factors), mechanical mitral valve **INR 2.5–3.5** always; bioprosthetic **INR 2–3 for 3 months only** if no risk factors — with risk factors, bioprosthetic mitral rises to **INR 2.5–3.5** (bioprosthetic aortic stays **2–3**, no stated 3-mo limit); aspirin **75–325 mg/day** with a mechanical valve, **75–100 mg/day** with a bioprosthetic valve (p1161).
-  > Current practice (not the book): with a mechanical valve on warfarin, adding aspirin 75–100 mg daily may be considered when bleeding risk is low (Class 2b), not routinely — ACC/AHA valvular guideline, 2020.
+  > Current practice (not the book): with a mechanical valve on VKA, adding low-dose aspirin 75–100 mg/day for antiplatelet therapy requires a separate indication (ESC/EACTS: concomitant symptomatic atherosclerotic disease) and low bleeding risk; ESC/EACTS 2025 class IIa, level B — ESC/EACTS 2025, Eur Heart J 2025;46:4635; ACC/AHA 2020 class 2b, level B-R — ACC/AHA 2020, Circulation 2021;143:e142.
 - Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
 - Bleeding more likely with INR **> 5**; INR **5–10**: *can be* treated by holding warfarin + oral vitamin K **1–2.5 mg**, check INR daily until < 5 (p1161).
   > Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.

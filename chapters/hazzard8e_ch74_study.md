@@ -1,4 +1,4 @@
-Study summary of Chapter 74 - Coronary Heart Disease and Dyslipidemia; the book and the full chapter are the reference.
+Study summary of Chapter 74 - Coronary Heart Disease and Dyslipidemia; the book and the full chapter are the reference; additional current-practice valve reading: [ESC/EACTS 2025](?chapter=laws&lawCard=valve-esc-eacts-2025#law-card-valve-esc-eacts-2025) and [ACC/AHA 2020 with corrections](?chapter=laws&lawCard=valve-acc-aha-2020#law-card-valve-acc-aha-2020).
 
 # Chapter 74 Study: Coronary Heart Disease and Dyslipidemia
 

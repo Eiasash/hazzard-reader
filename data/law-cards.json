@@ -2745,6 +2745,650 @@
           }
         ],
         "citedInPastPapers": true
+      },
+      {
+        "id": "valve-esc-eacts-2025",
+        "title": "ESC/EACTS 2025 valvular heart disease",
+        "direction": "ltr",
+        "coverage": "Current practice (not the book)",
+        "editionNotice": "Additional reading: this guideline is not named in IMA P005-2026. Official exam text, sources and keys remain unchanged.",
+        "provenance": "Own-word summaries from the supplied PDF, checked against rendered recommendation tables and pages. Recommendation class/evidence level are given where the source grades the statement; definitions and narrative follow-up are marked ungraded.",
+        "bullets": [
+          "Scope: additional current-practice reading, not the Hazzard book and not a P005-2026 required article. Definitions and follow-up prose below have no separate recommendation class or evidence level.",
+          "AS severity: high-gradient severe AS has mean gradient >=40 mmHg, Vmax >=4.0 m/s and AVA <=1.0 cm2 (or <=0.6 cm2/m2); low flow is SVi <=35 mL/m2. With discordant measurements, confirm severity using integrated imaging rather than AVA alone. [Definition; section 8.2.1, p4663 / PDF p29]",
+          "Severe AS: intervene for symptoms with high-gradient disease, or confirmed low-flow/low-gradient disease and LVEF <50% [I/B]; with preserved LVEF, confirmed symptomatic low-flow/low-gradient AS merits consideration [IIa/B]. [Recommendation Table 4, p4670 / PDF p36]",
+          "Asymptomatic severe AS: intervene when LVEF <50% without another cause [I/B]. In severe high-gradient AS with LVEF >=50%, normal exercise testing if feasible and low procedural risk, early intervention is an alternative to close surveillance [IIa/A]. This broad early-intervention option differs from ACC/AHA 2020. [Recommendation Table 4, p4670 / PDF p36]",
+          "Additional asymptomatic AS triggers at low procedural risk include mean gradient >=60 mmHg or Vmax >5.0 m/s; severe calcification with Vmax progression >=0.3 m/s/year; repeatedly >3 times age/sex-adjusted normal BNP/NT-proBNP without another explanation; or LVEF <55% without another cause [IIa/B]. Sustained exercise BP fall >20 mmHg is IIa/C. [Recommendation Table 4, p4670 / PDF p36]",
+          "TAVI versus SAVR: TAVI is recommended from age 70 with a tricuspid aortic valve and suitable anatomy [I/A]; SAVR is recommended below 70 when surgical risk is low [I/B]. Other patients need an individual Heart Team choice incorporating anatomy, lifetime valve strategy, life expectancy and preference [I/C]. These age boundaries differ from ACC/AHA's <65, 65-80 and >80 framework. [Recommendation Table 4, p4670 / PDF p36]",
+          "AR severity uses integrated findings: vena contracta >6 mm, EROA >=30 mm2, regurgitant volume >=60 mL/beat and echo regurgitant fraction >50%; holodiastolic descending-aortic reversal and LV consequences support the assessment. [Definition; Figure 4, p4659 / PDF p25]",
+          "Severe AR: surgery is recommended for symptoms regardless of LV function, or without symptoms if resting LVEF <=50%, LVESD >50 mm or LVESDi >25 mm/m2 [I/B]. The indexed threshold is especially relevant in small adults. ACC/AHA 2020 uses LVEF <=55% for its class 1 indication. [Recommendation Table 3, p4662 / PDF p28]",
+          "Earlier surgery in asymptomatic severe AR may be considered at low surgical risk if LVEF <=55%, LVESDi >22 mm/m2 or LVESVi >45 mL/m2 [IIb/B]. TAVI may be considered for symptomatic severe AR when surgery is unsuitable and anatomy is suitable [IIb/B]. [Recommendation Table 3, p4662 / PDF p28]",
+          "MR severity: vena contracta >=7 mm (>=8 mm biplane), EROA >=40 mm2 and regurgitant volume >=60 mL support severe MR; an elliptical orifice or low-flow state can justify lower EROA/volume thresholds. Regurgitant fraction >=50% is another criterion. Integrate findings and distinguish primary from ventricular or atrial secondary MR. [Definition; Figure 10, p4672 / PDF p38]",
+          "Severe primary MR: repair is preferred when durable [I/B]; surgery is recommended for operable symptomatic patients or asymptomatic LV dysfunction, defined by LVEF <=60%, LVESD >=40 mm or LVESDi >=20 mm/m2 [I/B]. [Recommendation Table 6, p4674 / PDF p40]",
+          "With preserved LV function, low-risk asymptomatic severe primary MR warrants durable repair if at least three are present: AF, resting SPAP >50 mmHg, LA volume index >=60 mL/m2 or diameter >=55 mm, and at least moderate secondary TR [I/B]. AF or pulmonary hypertension alone, or major LA enlargement in a low-risk patient, supports consideration of surgery [IIa/B]. [Recommendation Table 6, p4675 / PDF p41]",
+          "For symptomatic severe primary MR with suitable anatomy and high surgical risk, TEER should be considered [IIa/B]. This is a Heart Team decision, not an age-only rule. [Recommendation Table 6, p4675 / PDF p41]",
+          "Ventricular secondary MR: after optimized GDMT and CRT when indicated, TEER is recommended in stable symptomatic patients without relevant CAD who meet the clinical/echo selection criteria [I/A]. Key Table 7 criteria include NYHA >=II, LVEF 20%-50%, LVESD <=70 mm and SPAP <=70 mmHg; exclude severe RV dysfunction, advanced HF and other major valve disease, and require suitable anatomy plus a recent HF admission or raised natriuretic peptides. ACC/AHA 2020 grades selected secondary-MR TEER 2a. [Recommendation Table 7 and Table 7, pp4678-4679 / PDF pp44-45]",
+          "Mechanical valves require lifelong VKA [I/A]; DOACs and/or DAPT must not replace it to prevent valve thrombosis [III/A]. [Recommendation Table 14, p4693 / PDF p59]",
+          "Mechanical-valve INR targets: current-generation bileaflet or single-tilting aortic valve without extra prothrombotic factors, 2.5 (range 2-3); with such factors, 3.0 (2.5-3.5). Older ball-cage/tilting-disc valves and any mitral/tricuspid mechanical valve: 3.0 (2.5-3.5) without extra factors, 3.5 (3-4) with them. Targets depend on valve type/position and patient risk [I/A]. [Table 10 and Recommendation Table 14, p4693 / PDF p59]",
+          "Adding aspirin 75-100 mg/day to VKA is considered for selected mechanical-valve patients with concomitant symptomatic atherosclerotic disease after individual bleeding-risk assessment [IIa/B]; it is not routine. Separately, major thromboembolism despite adequate INR may justify increasing the INR target or adding low-dose aspirin [IIa/C]. ACC/AHA's separate-antiplatelet-indication recommendation is class 2b. [Recommendation Table 14, p4693 / PDF p59]",
+          "After surgical bioprosthetic implantation without another OAC indication: aortic position, aspirin 75-100 mg/day or VKA for the first 3 months [IIa/B]; mitral/tricuspid position, VKA for the first 3 months [IIa/B]. [Recommendation Table 16, p4696 / PDF p62]",
+          "After TAVI without another OAC indication: aspirin 75-100 mg/day for 12 months [I/A], then consider continued low-dose aspirin [IIa/C]. DAPT without a separate clear indication is not recommended [III/B], and routine OAC is not recommended [III/A]. This differs from optional short DAPT/VKA strategies in ACC/AHA 2020. [Recommendation Table 16, p4696 / PDF p62]",
+          "With a separate OAC indication after surgical bioprosthetic implantation, continue OAC [I/B]; in AF, DOACs should be considered over VKA after 3 months [IIa/B]. TAVI patients with another OAC indication require OAC [I/B]. These rules do not apply to mechanical valves. [Recommendation Table 16, pp4696-4697 / PDF pp62-63]",
+          "Endocarditis prevention: dental extraction/oral surgery and gingival or periapical manipulation warrant prophylaxis in patients with prosthetic valves (including transcatheter), prosthetic repair material or previous IE; also consider it after transcatheter mitral/tricuspid repair. Stress dental/skin hygiene and asepsis. The VHD text refers to the separate ESC endocarditis guideline for regimen details. [Ungraded narrative; section 14.4.3, p4698 / PDF p64]",
+          "Native-valve follow-up: severe asymptomatic AS at least every 6 months, moderate degenerative AS at least yearly; severe asymptomatic AR yearly, or every 3-6 months near intervention thresholds/progressive LV changes; moderate AR yearly clinically with echo every 2 years. [Ungraded follow-up; sections 7.5 and 8.6, pp4660,4671 / PDF pp26,37]",
+          "MR/prosthesis follow-up: severe asymptomatic primary MR without an intervention indication, clinical and echo review twice yearly; moderate MR with preserved LV function, yearly clinical review and echo every 1-2 years. Bioprosthetic valves need a baseline TTE within 3 months, again at 1 year and annually thereafter, sooner for symptoms. [Ungraded follow-up; sections 9.1.5 and 14.2, pp4675,4691 / PDF pp41,57]",
+          "Older-adult assessment: frailty, nutrition, comorbidity, functional recovery, life expectancy and the patient's goals supplement procedural risk scores. Surgical scores can overestimate TAVI risk. Frailty is assessed systematically with appropriate tools; decisions remain multidisciplinary and patient-centred. [Ungraded assessment; sections 5.1-5.2 and Figure 3, pp4653-4654 / PDF pp19-20]"
+        ],
+        "sources": [
+          {
+            "document": "ESC/EACTS 2025, Eur Heart J 2025;46:4635-4736; doi:10.1093/eurheartj/ehaf194",
+            "locator": "2025_ESC-EACTS_valvular_heart_disease.pdf; the exact printed/PDF page or table is given in each bullet."
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-06cf245c971609dcd84176ca",
+            "sitting": "Practice",
+            "number": 1166,
+            "reference": "Hazzard Ch 77 — CARDIAC ARRHYTHMIAS",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-d63e66fd99b2a7f0122cc185",
+            "sitting": "Practice",
+            "number": 1719,
+            "reference": "Hazzard 8e (marked) · pp.1052, 1153",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-8b52ce59675a85ee8879d616",
+            "sitting": "Practice",
+            "number": 1735,
+            "reference": "Hazzard Ch 75 — VALVULAR HEART DISEASE",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-3b7d026f627bf2637993a3ca",
+            "sitting": "Practice",
+            "number": 1742,
+            "reference": "Hazzard Ch 77 — CARDIAC ARRHYTHMIAS",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-4b12b2b09f6a219dc0a66d76",
+            "sitting": "Practice",
+            "number": 1771,
+            "reference": "Hazzard Ch 75 — VALVULAR HEART DISEASE",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-e4cde6058ec0e9998ca3d55c",
+            "sitting": "2020",
+            "number": 47,
+            "reference": "Hazzard 7e · p. 1168-1169 · Table 78-1,78-2",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-1ca54bc9605d926030d7d932",
+            "sitting": "2021-Dec",
+            "number": 70,
+            "reference": "Hazzard 7e · p. 1171 · Table 78-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-34ff8f5428c6552af1c3341b",
+            "sitting": "2022-Jun",
+            "number": 24,
+            "reference": "GRS — Syncope + Gastroenterology",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-451247c9890caf3f339aeb4d",
+            "sitting": "2023-Jun",
+            "number": 83,
+            "reference": "Hazzard 8e · p. 1150-1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-76fb4ce0edbbab9f1ac529f2",
+            "sitting": "2023-Jun",
+            "number": 97,
+            "reference": "Hazzard 8e · pp. 1150,1152 · Tables 75-1,75-2",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-5967f5970f29d909cde6fe19",
+            "sitting": "2024-May",
+            "number": 36,
+            "reference": "Hazzard 8e · p. 1480",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-3e9b544b729728bac5b28c1c",
+            "sitting": "2024-Sep",
+            "number": 20,
+            "reference": "Hazzard 8e · p. 1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-a48ff09dba8d7490a501c290",
+            "sitting": "2024-Sep",
+            "number": 70,
+            "reference": "Hazzard 8e · p. 1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-4f72edde12c83ecaea816428",
+            "sitting": "2026-Jun",
+            "number": 71,
+            "reference": "Hazzard 8e · p. 1153 · Table 75-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-92f1bc01da4974c018371e81",
+            "sitting": "2026-Jun",
+            "number": 94,
+            "reference": "Hazzard 8e · p. 1150",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-f6a934085589d01c76d9730c",
+            "sitting": "2025-Jun",
+            "number": 2,
+            "reference": "Hazzard 8e · p. 1121 · Table 73-2",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-65b34859cab672fc287d6c20",
+            "sitting": "2025-Jun",
+            "number": 22,
+            "reference": "Hazzard 8e · p. 1153 · Table 75-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-ca4ef9243406c07cf8276806",
+            "sitting": "2025-Jun",
+            "number": 48,
+            "reference": "Hazzard 8e · p. 1161 · Table 75-15",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-cfd98ef908bbf2b458fbb15a",
+            "sitting": "2026-Jun-Basic",
+            "number": 109,
+            "reference": "Harrison · ch. 247 · p. 1871",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-9bc7ff98319ad08c34d203e7",
+            "sitting": "2026-Jun-Basic",
+            "number": 121,
+            "reference": "Harrison · ch. 133 · p. 1037",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-39050283680c77548f117011",
+            "sitting": "2026-Jun-Basic",
+            "number": 125,
+            "reference": "Harrison · ch. 133 · p. 1048 · Table 133-8",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-869bbb108abf4eef1f067b9f",
+            "sitting": "2026-Jun-Basic",
+            "number": 132,
+            "reference": "Harrison · ch. 133 · p. 1043 · Table 133-5",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-9f445759f0fb24592f780558",
+            "sitting": "2025-Jun-Basic",
+            "number": 116,
+            "reference": "Harrison · ch. 240 · p. 1830",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-12756b62471793b4a810acc0",
+            "sitting": "2025-Jun-Basic",
+            "number": 150,
+            "reference": "Harrison · ch. 274 · p. 2050 · Table 274-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-8432a911588b7f8c2a392455",
+            "sitting": "2024-Sep-Basic",
+            "number": 108,
+            "reference": "Harrison · ch. 128 · pp. 1033-1034 · Tables 128-8, 128-9",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-842d3e1ee5c32df82a7895ae",
+            "sitting": "2024-Sep-Basic",
+            "number": 129,
+            "reference": "Harrison · ch. 239 · pp. 1821-1822",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-6773688c3c44df05d7ecb0b5",
+            "sitting": "2024-Sep-Basic",
+            "number": 131,
+            "reference": "Hazzard 8e · ch. 75 · pp. 1152-1153",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-8b25bc06ab666f9e2b1a5628",
+            "sitting": "2024-May-Basic",
+            "number": 104,
+            "reference": "Hazzard 8e · ch. 75 · pp. 1150, 1154, 1156 · Table 75-4",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-0cb5ebbfdf9b6fcfbc2a7d24",
+            "sitting": "2024-May-Basic",
+            "number": 113,
+            "reference": "Harrison · ch. 264 · pp. 1996-1997",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-84fa6dc3c314a805e10625d0",
+            "sitting": "2024-May-Basic",
+            "number": 115,
+            "reference": "Harrison · ch. 239 · p. 1823 · Table 239-1",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-80eed129e94991d5ae264cf6",
+            "sitting": "2024-May-Basic",
+            "number": 135,
+            "reference": "Harrison · ch. 128 · p. 1026 · Table 128-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-d2c5ea7ebee8dc1b114cfb92",
+            "sitting": "2023-Jun-Basic",
+            "number": 107,
+            "reference": "הזארד 1150-1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-52e0e246a50af6e23d65cdc9",
+            "sitting": "2023-Jun-Basic",
+            "number": 120,
+            "reference": "הזארד עמוד 1203 טבלה 77-8",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-2a44e79a3f2ef60a79e535cf",
+            "sitting": "2023-Jun-Basic",
+            "number": 148,
+            "reference": "הריסון עמוד 1026 טבלה 128-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          }
+        ]
+      },
+      {
+        "id": "valve-acc-aha-2020",
+        "title": "ACC/AHA 2020 valvular heart disease (with 2021-2024 corrections)",
+        "direction": "ltr",
+        "coverage": "Current practice (not the book)",
+        "editionNotice": "Additional reading: this guideline is not named in IMA P005-2026. Official exam text, sources and keys remain unchanged.",
+        "provenance": "Own-word summaries from the supplied PDF, checked against rendered recommendation tables and pages. Recommendation class/evidence level are given where the source grades the statement; definitions and narrative follow-up are marked ungraded.",
+        "bullets": [
+          "Scope: additional current-practice reading, not the Hazzard book and not a P005-2026 required article. This card applies the supplied 2021, 2023 and 2024 corrections; classes below are those of ACC/AHA 2020, not upgrades from newer ESC guidance.",
+          "Severe AS: Vmax >=4 m/s or mean gradient >=40 mmHg; AVA is typically <=1.0 cm2 but is not required for the high-gradient definition. Low-flow/low-gradient phenotypes require additional confirmation; preserved-EF low-flow AS uses SVi <35 mL/m2 at systolic BP <140 mmHg. [Definition; Table 13, e91 / PDF p20]",
+          "AS intervention: symptomatic high-gradient severe AS warrants AVR [1/A]; asymptomatic severe AS with LVEF <50%, severe AS at other cardiac surgery, or symptomatic low-flow/low-gradient AS with reduced EF warrants AVR [1/B-NR]. With preserved EF and low-flow/low-gradient AS, AS must be the most likely cause of symptoms [1/B-NR]. [Section 3.2.3, e94 / PDF p23]",
+          "Asymptomatic severe AS at low surgical risk: reduced exercise tolerance or exercise systolic BP fall >=10 mmHg [2a/B-NR]; Vmax >=5 m/s [2a/B-R]; BNP >3 times normal or Vmax increase >=0.3 m/s/year [2a/B-NR] support AVR. ESC 2025 also offers early intervention more broadly in low-risk high-gradient severe AS with preserved EF. [Section 3.2.3, e94 / PDF p23]",
+          "TAVI versus SAVR when a bioprosthetic AVR is appropriate: below 65 years or expected survival >20 years, SAVR [1/A]; symptomatic patients aged 65-80 with feasible transfemoral access, either SAVR or TAVI after shared decision-making [1/A]; above 80 or expected survival <10 years, transfemoral TAVI if feasible [1/A]. ESC 2025 instead uses a 70-year boundary for suitable tricuspid-valve AS. [Section 3.2.4.2, e99 / PDF p28]",
+          "High/prohibitive surgical-risk severe symptomatic AS: TAVI is recommended only when expected survival after TAVI exceeds 12 months with acceptable quality of life [1/A]. Predicted survival <12 months or minimal expected quality-of-life gain supports palliative care after shared decision-making [1/C-EO]. [Section 3.2.4.2, e99 / PDF p28]",
+          "Severe AR: vena contracta >0.6 cm, regurgitant volume >=60 mL/beat, regurgitant fraction >=50% or ERO >=0.3 cm2 are major criteria; chronic severe AR also requires evidence of LV dilation. Integrate the measurements rather than use a single cutoff. [Definition; Table 15, e105 / PDF p34]",
+          "Severe AR: operate for symptoms regardless of LV function, or without symptoms when LVEF <=55% and no other explanation for LV dysfunction [1/B-NR]. With LVEF >55%, LVESD >50 mm or indexed LVESD >25 mm/m2 makes surgery reasonable [2a/B-NR]. ESC 2025's class I LVEF threshold is <=50%. [Section 4.3.3, e107 / PDF p36]",
+          "Asymptomatic severe AR at low surgical risk: a progressive LVEF decline to 55%-60% across at least 3 studies, or increasing LVEDD into the >65 mm range, may justify surgery [2b/B-NR]. TAVI should not replace indicated SAVR in an operable patient with isolated severe AR [3: Harm/B-NR]. [Section 4.3.3, e107 / PDF p36]",
+          "Severe primary MR: vena contracta >=0.7 cm, regurgitant volume >=60 mL, regurgitant fraction >=50% and ERO >=0.40 cm2 are integrated severity criteria; not every criterion is present in every patient. [Definition; Table 17, e121 / PDF p50]",
+          "Primary MR intervention: symptomatic severe MR, or asymptomatic severe MR with LVEF <=60% and/or LVESD >=40 mm, warrants surgery [1/B-NR]. Prefer repair over replacement for degenerative disease when a durable repair is achievable [1/B-NR]. [Section 7.2.4 and Table 17, e121,e124 / PDF pp50,53]",
+          "Asymptomatic severe primary MR with LVEF >60% and LVESD <40 mm: repair is reasonable at an expert valve centre if durable success is >95% and expected mortality <1% [2a/B-NR]. In severely symptomatic primary MR at high/prohibitive surgical risk, TEER is reasonable with favourable anatomy and life expectancy >=1 year [2a/B-NR]. [Section 7.2.4, e124 / PDF p53]",
+          "Secondary MR despite optimal HF therapy: TEER is reasonable with persistent NYHA II-IV symptoms, suitable TEE anatomy, LVEF 20%-50%, LVESD <=70 mm and PASP <=70 mmHg [2a/B-R]. The 2021 correction specifies LVESD, not LVEDD. ESC 2025 grades its selected ventricular-SMR TEER indication I/A. [Section 7.3.4, e129 / PDF p58; 2021 correction e229]",
+          "Mechanical valves: use VKA [1/A]. Target INR 2.5 for a current bileaflet/single-tilting aortic valve without thromboembolic risk factors; 3.0 for mechanical mitral valves or aortic valves with additional risk factors/older-generation prostheses [1/B-NR]. [Section 11.2, e142 / PDF p71]",
+          "Mechanical valve plus a separate antiplatelet indication: aspirin 75-100 mg/day may be added to VKA only when bleeding risk is low [2b/B-R]; routine aspirin is not implied. ESC 2025 specifies symptomatic atherosclerotic disease and grades that selected use IIa/B. [Section 11.2 recommendation 8, e142 / PDF p71]",
+          "Mechanical On-X aortic valve without thromboembolic risk factors: INR 1.5-2.0 with continued aspirin 75-100 mg/day may be reasonable starting at least 3 months after surgery [2b/B-R]; do not generalize this to all mechanical valves. [Section 11.2 recommendation 9, e142 / PDF p71]",
+          "DOAC limits: dabigatran is contraindicated in mechanical valves [3: Harm/B-R]; anti-Xa oral anticoagulants are not recommended in mechanical valves [3: Harm/C-EO]. Rivaroxaban 10 mg/day plus aspirin after TAVI without another OAC indication is contraindicated [3: Harm/B-R]. [Section 11.2 recommendations 12-14, e142 / PDF p71]",
+          "Bioprostheses without another OAC indication: aspirin 75-100 mg/day is reasonable after TAVI [2a/B-R] or surgical AVR/mitral replacement [2a/B-NR]. At low bleeding risk after surgical AVR/mitral replacement, VKA with INR 2.5 for 3-6 months is reasonable [2a/B-NR]. [Section 11.2, e142 / PDF p71]",
+          "The 2020 document also permits 3-6 months of DAPT after TAVI [2b/B-NR] or at least 3 months of VKA at INR 2.5 [2b/B-NR] in low-bleeding-risk patients. These are older options: ESC 2025 recommends aspirin alone without another indication and advises against routine DAPT/OAC. [Section 11.2, e142 / PDF p71; compare ESC Recommendation Table 16]",
+          "IE prophylaxis is reasonable before dental procedures manipulating gingiva/periapical tissue or perforating oral mucosa for prosthetic valves, prosthetic repair material, previous IE, specified cyanotic/residual congenital lesions, or transplant valvulopathy [2a/C-LD]. Routine prophylaxis for nondental procedures without active infection is not recommended [3: No Benefit/B-NR]. [Section 2.4.2, e82 / PDF p11]",
+          "Imaging/follow-up: TTE is the standard initial test; investigate discordant findings with additional imaging. With normal LV function and no symptoms, mild AS/AR/MR generally needs echo every 3-5 years, moderate disease every 1-2 years and severe disease every 6-12 months; use earlier reassessment for LV dilation, mixed lesions or new symptoms. [Ungraded general guidance; Tables 3,5, e80-e81 / PDF pp9-10]",
+          "Prosthetic valves: obtain a postprocedural TTE baseline [1/B-NR]; new symptoms/signs require repeat TTE [1/C-EO] and, when dysfunction is suspected, TEE/CT/fluoroscopy even if TTE is unrevealing [1/C-LD]. Surgical bioprosthetic TTE at 5 and 10 years then annually is reasonable [2a/C-LD]. [Section 11.1.1, e137 / PDF p66]",
+          "Risk and frailty: estimate procedure-specific risk and discuss it with the patient [1/C-EO]. Frailty, irreversible organ dysfunction and procedural impediments supplement STS estimates. Corrected Table 8 uses >50% death/major morbidity at 30 days for prohibitive risk; its corrected high-risk frailty cell reads <=1 index with moderate-to-severe frailty. [Section 2.5, e85 / PDF p14; 2023 e8 and 2024 e267 corrections]",
+          "Correction detail: secondary rheumatic-fever prophylaxis is distinct from dental IE prophylaxis; Table 6's penicillin V dose is 250 mg orally twice daily after the 2023 correction. This is a table regimen, not a new IE-prophylaxis dose. [Section 2.4.1: 1/C-EO; Table 6, e82 / PDF p11; 2023 e185 correction]"
+        ],
+        "sources": [
+          {
+            "document": "ACC/AHA 2020, Circulation 2021;143:e72-e227; doi:10.1161/CIR.0000000000000923",
+            "locator": "2020_ACC-AHA_valvular_heart_disease_Otto.pdf; the exact printed/PDF page or table is given in each bullet."
+          },
+          {
+            "document": "ACC/AHA guideline correction",
+            "locator": "Circulation 2021;143:e229; 10.1161/CIR.0000000000000955"
+          },
+          {
+            "document": "ACC/AHA guideline correction",
+            "locator": "Circulation 2023;148:e8; 10.1161/CIR.0000000000001177"
+          },
+          {
+            "document": "ACC/AHA guideline correction",
+            "locator": "Circulation 2023;148:e185; 10.1161/CIR.0000000000001190"
+          },
+          {
+            "document": "ACC/AHA guideline correction",
+            "locator": "Circulation 2024;150:e267; 10.1161/CIR.0000000000001284"
+          }
+        ],
+        "questions": [
+          {
+            "id": "mcq-06cf245c971609dcd84176ca",
+            "sitting": "Practice",
+            "number": 1166,
+            "reference": "Hazzard Ch 77 — CARDIAC ARRHYTHMIAS",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-d63e66fd99b2a7f0122cc185",
+            "sitting": "Practice",
+            "number": 1719,
+            "reference": "Hazzard 8e (marked) · pp.1052, 1153",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-8b52ce59675a85ee8879d616",
+            "sitting": "Practice",
+            "number": 1735,
+            "reference": "Hazzard Ch 75 — VALVULAR HEART DISEASE",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-3b7d026f627bf2637993a3ca",
+            "sitting": "Practice",
+            "number": 1742,
+            "reference": "Hazzard Ch 77 — CARDIAC ARRHYTHMIAS",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-4b12b2b09f6a219dc0a66d76",
+            "sitting": "Practice",
+            "number": 1771,
+            "reference": "Hazzard Ch 75 — VALVULAR HEART DISEASE",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-e4cde6058ec0e9998ca3d55c",
+            "sitting": "2020",
+            "number": 47,
+            "reference": "Hazzard 7e · p. 1168-1169 · Table 78-1,78-2",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-1ca54bc9605d926030d7d932",
+            "sitting": "2021-Dec",
+            "number": 70,
+            "reference": "Hazzard 7e · p. 1171 · Table 78-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-34ff8f5428c6552af1c3341b",
+            "sitting": "2022-Jun",
+            "number": 24,
+            "reference": "GRS — Syncope + Gastroenterology",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-451247c9890caf3f339aeb4d",
+            "sitting": "2023-Jun",
+            "number": 83,
+            "reference": "Hazzard 8e · p. 1150-1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-76fb4ce0edbbab9f1ac529f2",
+            "sitting": "2023-Jun",
+            "number": 97,
+            "reference": "Hazzard 8e · pp. 1150,1152 · Tables 75-1,75-2",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-5967f5970f29d909cde6fe19",
+            "sitting": "2024-May",
+            "number": 36,
+            "reference": "Hazzard 8e · p. 1480",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-3e9b544b729728bac5b28c1c",
+            "sitting": "2024-Sep",
+            "number": 20,
+            "reference": "Hazzard 8e · p. 1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-a48ff09dba8d7490a501c290",
+            "sitting": "2024-Sep",
+            "number": 70,
+            "reference": "Hazzard 8e · p. 1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-4f72edde12c83ecaea816428",
+            "sitting": "2026-Jun",
+            "number": 71,
+            "reference": "Hazzard 8e · p. 1153 · Table 75-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-92f1bc01da4974c018371e81",
+            "sitting": "2026-Jun",
+            "number": 94,
+            "reference": "Hazzard 8e · p. 1150",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-f6a934085589d01c76d9730c",
+            "sitting": "2025-Jun",
+            "number": 2,
+            "reference": "Hazzard 8e · p. 1121 · Table 73-2",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-65b34859cab672fc287d6c20",
+            "sitting": "2025-Jun",
+            "number": 22,
+            "reference": "Hazzard 8e · p. 1153 · Table 75-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-ca4ef9243406c07cf8276806",
+            "sitting": "2025-Jun",
+            "number": 48,
+            "reference": "Hazzard 8e · p. 1161 · Table 75-15",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-cfd98ef908bbf2b458fbb15a",
+            "sitting": "2026-Jun-Basic",
+            "number": 109,
+            "reference": "Harrison · ch. 247 · p. 1871",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-9bc7ff98319ad08c34d203e7",
+            "sitting": "2026-Jun-Basic",
+            "number": 121,
+            "reference": "Harrison · ch. 133 · p. 1037",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-39050283680c77548f117011",
+            "sitting": "2026-Jun-Basic",
+            "number": 125,
+            "reference": "Harrison · ch. 133 · p. 1048 · Table 133-8",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-869bbb108abf4eef1f067b9f",
+            "sitting": "2026-Jun-Basic",
+            "number": 132,
+            "reference": "Harrison · ch. 133 · p. 1043 · Table 133-5",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-9f445759f0fb24592f780558",
+            "sitting": "2025-Jun-Basic",
+            "number": 116,
+            "reference": "Harrison · ch. 240 · p. 1830",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-12756b62471793b4a810acc0",
+            "sitting": "2025-Jun-Basic",
+            "number": 150,
+            "reference": "Harrison · ch. 274 · p. 2050 · Table 274-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-8432a911588b7f8c2a392455",
+            "sitting": "2024-Sep-Basic",
+            "number": 108,
+            "reference": "Harrison · ch. 128 · pp. 1033-1034 · Tables 128-8, 128-9",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-842d3e1ee5c32df82a7895ae",
+            "sitting": "2024-Sep-Basic",
+            "number": 129,
+            "reference": "Harrison · ch. 239 · pp. 1821-1822",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-6773688c3c44df05d7ecb0b5",
+            "sitting": "2024-Sep-Basic",
+            "number": 131,
+            "reference": "Hazzard 8e · ch. 75 · pp. 1152-1153",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-8b25bc06ab666f9e2b1a5628",
+            "sitting": "2024-May-Basic",
+            "number": 104,
+            "reference": "Hazzard 8e · ch. 75 · pp. 1150, 1154, 1156 · Table 75-4",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-0cb5ebbfdf9b6fcfbc2a7d24",
+            "sitting": "2024-May-Basic",
+            "number": 113,
+            "reference": "Harrison · ch. 264 · pp. 1996-1997",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-84fa6dc3c314a805e10625d0",
+            "sitting": "2024-May-Basic",
+            "number": 115,
+            "reference": "Harrison · ch. 239 · p. 1823 · Table 239-1",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-80eed129e94991d5ae264cf6",
+            "sitting": "2024-May-Basic",
+            "number": 135,
+            "reference": "Harrison · ch. 128 · p. 1026 · Table 128-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-d2c5ea7ebee8dc1b114cfb92",
+            "sitting": "2023-Jun-Basic",
+            "number": 107,
+            "reference": "הזארד 1150-1151",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-52e0e246a50af6e23d65cdc9",
+            "sitting": "2023-Jun-Basic",
+            "number": 120,
+            "reference": "הזארד עמוד 1203 טבלה 77-8",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          },
+          {
+            "id": "mcq-2a44e79a3f2ef60a79e535cf",
+            "sitting": "2023-Jun-Basic",
+            "number": 148,
+            "reference": "הריסון עמוד 1026 טבלה 128-3",
+            "basis": "Additional current-practice reading linked by the valve topic in the explanation; this guideline is not being substituted for the official source or answer key.",
+            "showBasis": true
+          }
+        ]
       }
     ],
     "entries": [
