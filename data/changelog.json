@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v300",
+      "date": "2026-10-29",
+      "changes": [
+        "Every Harrison-cited question links to a reading card for its cited pages; new ESC/EACTS 2025 and ACC/AHA 2020 valve-disease cards; the mechanical-valve aspirin note gives both guideline conditions; less clutter above the options.",
+        "Citations whose edition or page cannot be confirmed are explicitly marked not read. Existing cards and official question text remain unchanged."
+      ]
+    },
+    {
       "version": "v299",
       "date": "2026-10-29",
       "changes": [

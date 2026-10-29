@@ -40,7 +40,7 @@ window.HazzardMCQ = (() => {
       for(const node of body.querySelectorAll('[id]'))node.id='preview-'+node.id;
       for(const link of body.querySelectorAll('a[href^="#"]'))link.href=target.pathname+target.search+link.getAttribute('href');
       for(const image of body.querySelectorAll('img'))image.loading='lazy';
-      if(marked)requestAnimationFrame(()=>marked.scrollIntoView({block:'start'}));
+      if(marked)requestAnimationFrame(()=>{marked.style.scrollMarginTop=(header.offsetHeight+12)+'px';marked.scrollIntoView({block:'start'});});
     }catch(error){body.textContent=error.message||'Source unavailable. Use Open fully to try the full page.';}
     return true;
   }
@@ -1174,7 +1174,7 @@ window.HazzardMCQ = (() => {
       dockActions(host);
       if(host.classList.contains('mcq-bank')){
         const secondary=document.createElement('div');secondary.className='mcq-secondary-actions';secondary.setAttribute('role','group');secondary.setAttribute('aria-label','Question tools');
-        for(const control of content.querySelectorAll('[data-bad],[data-revision="topics"],[data-mcq="flag"],.mcq-answer-undo'))secondary.append(control);
+        for(const selector of ['[data-bad]','[data-revision="topics"]','[data-mcq="flag"]','.mcq-answer-undo'])for(const control of content.querySelectorAll(selector))secondary.append(control);
         content.querySelector('.mcq-options').after(secondary);
         const confidence=content.querySelector('.mcq-confidence');if(confidence&&!confidence.childElementCount)confidence.remove();
       }

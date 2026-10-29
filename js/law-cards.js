@@ -7,21 +7,24 @@ window.HazzardLawCards = (() => {
       return response.json();
     }).catch(error => { promise = null; throw error; });
   }
+  const isHarrisonCard = card => card.id.startsWith('ima-harrison-') && card.id !== 'ima-harrison-22e';
   async function questionLinks(host, id, question, studyOnly = false) {
     try {
       const data = await read();
       if (host.dataset.bankId !== id || !host.querySelector('.mcq-result')) return;
       const citations = host.querySelector('.mcq-citations');
-      if (citations && /^ima-harrison-22e-ch\d+$/.test(question?.chapter || '') && data.cards.some(card => card.id === question.chapter) && !citations.querySelector('.mcq-harrison-study')) {
-        const line = document.createElement('p'); line.className = 'meta mcq-harrison-study';
+      const harrisonCards = data.cards.filter(card => isHarrisonCard(card) && (card.id === question?.chapter || card.questions.some(q => q.id === id)));
+      if (citations) for (const card of harrisonCards.filter(card => !harrisonCards.some(other => other.id === card.id + '-cited-pages'))) {
+        if (citations.querySelector('[data-harrison-card="' + card.id + '"]')) continue;
+        const line = document.createElement('p'); line.className = 'meta mcq-harrison-study'; line.dataset.harrisonCard = card.id;
         const link = document.createElement('a');
-        link.href = '?chapter=laws&lawCard=' + encodeURIComponent(question.chapter) + '#law-card-' + encodeURIComponent(question.chapter);
-        link.textContent = 'Study: ' + question.chapterTitle;
-        line.append(link); citations.firstElementChild.after(line);
+        link.href = '?chapter=laws&lawCard=' + encodeURIComponent(card.id) + '#law-card-' + encodeURIComponent(card.id);
+        link.textContent = 'Study: ' + card.title;
+        line.append(link); citations.append(line);
       }
       if (studyOnly || host.querySelector('.law-question-links')) return;
       const links = document.createElement('div'); links.className = 'exam-evidence law-question-links';
-      for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => (c.imaItem || c.articleItem || c.citedInPastPapers || c.questions.some(q => q.id === id && q.showBasis)) && c.questions.some(q => q.id === id))) {
+      for (const card of [...data.cards, ...(data.articles?.cards || [])].filter(c => !isHarrisonCard(c) && (c.imaItem || c.articleItem || c.citedInPastPapers || c.questions.some(q => q.id === id && q.showBasis)) && c.questions.some(q => q.id === id))) {
         const link = document.createElement('a'); link.dir = 'auto';
         link.href = '?chapter=laws&lawCard=' + encodeURIComponent(card.id) + '#law-card-' + encodeURIComponent(card.id);
         link.textContent = card.id.startsWith('valve-') ? 'Study: ' + card.title : (card.articleItem ? 'IMA article ' + card.articleItem : card.imaItem ? 'IMA ' + card.imaItem : 'Cited source') + ' · ' + card.title;
@@ -59,7 +62,7 @@ window.HazzardLawCards = (() => {
         for (const card of [...(articles ? data.articles.cards : data.cards)].sort((a,b) => (a.imaItem || a.articleItem || 100) - (b.imaItem || b.articleItem || 100))) {
           if (card.citedInPastPapers && !pastPaperHeading) {
             const heading = document.createElement('h2'); heading.dir = 'ltr';
-            heading.textContent = 'Also cited in past papers (not on P005-2026)';
+            heading.textContent = 'Additional cited reading';
             fragment.append(heading); pastPaperHeading = true;
           }
           const numbered = card.imaItem || card.articleItem;
