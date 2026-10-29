@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v299",
+      "date": "2026-10-29",
+      "changes": [
+        "The question bank looks like it did before: shuffled by default, one row of Prev, Unsure, Save and Next, and a single small row of filter chips. Skip answered is a switch in Filters."
+      ]
+    },
+    {
       "version": "v298",
       "date": "2026-10-28",
       "changes": [
