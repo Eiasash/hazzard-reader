@@ -8,7 +8,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - Explanations render per-option lines in on-screen order, each in a framed block with a green tick (key or accepted option) or red cross; prose without per-option lines gets no marks.
 - Per-question audit history: `C:\Users\eiasa\tmp\audit\question_registry.json` (+ .csv), rebuilt by `build_registry.py` in that folder after each release. Any job on questions starts from it.
 - Question-bank scope and release obligations: C:\Users\eiasa\ai-relay\cowork\CURRENT_SETUP.md, MERGES / APPROVALS (hazzard-reader).
-- Release log: `data/changelog.json`. Release reports: `C:\Users\eiasa\Documents\Codex\<date>\<job>\report.md`. Release notes for v32 to v137 and the build history: `HISTORY.md`.
+- Release log: `data/changelog.json`. Release reports: `C:\Users\eiasa\Documents\Codex\<date>\<job>\report.md`. Release notes and the build history: `HISTORY.md`.
 - Workflow: the `hazzard-chapter-build` skill. Codex builds from prompts issued by the project's release lane (lane protocol: project doc `claude/LANE_PROTOCOL.md` in the claude.ai project).
 - Next-fix list (small content fixes waiting for a release): `C:\Users\eiasa\tmp\next_fix_list.txt`.
 
@@ -48,7 +48,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - At Large text, the settings status line ellipsises at "not protecte...", hiding the protection word.
 - Option arrows in 2022 Subspec Q20, Q26, 2023 Subspec Q34 and 2023 Basic Q132 rely on right-to-left mirroring of the stored ASCII arrow; a renderer change that isolates left-to-right runs in options would flip them. The comparison signs in 2022 Basic Q144 options A and B, 2023 Basic Q141 and Sep 2024 Basic Q134 stem carry an invisible right-to-left mark since v285; renderer or search changes must preserve their printed appearance.
 - ch75 Table 75-6 ghost title bar baked into the scan; cropping it out would remove the caption. The marked PDF has no separate annotations to remove.
-- Answer-key tap highlight (v259): 16 main-region fragments of 3 non-space characters or fewer remain their own tap, each a lone list number or percentage such as "12.", "E4.", "4%"; harmless.
+- Answer-key tap highlight: 16 main-region fragments of 3 non-space characters or fewer remain their own tap, each a lone list number or percentage such as "12.", "E4.", "4%"; harmless.
 
 ## Reader behavior
 - Page markers render as a small inline `pNNN` tag; a paragraph the page break cut mid-sentence is joined at display time (source .md untouched).
