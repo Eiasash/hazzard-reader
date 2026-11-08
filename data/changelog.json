@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v302",
+      "date": "2026-11-08",
+      "changes": [
+        "Two small wording fixes in an explanation and the maintainers' notes."
+      ]
+    },
+    {
       "version": "v301",
       "date": "2026-10-29",
       "changes": [
