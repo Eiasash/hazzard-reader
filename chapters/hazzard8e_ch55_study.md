@@ -114,7 +114,7 @@ Cognitive impairment calls for an assessment of ability to learn and follow inst
 - Assess rehab potential after acute illness resolves — delirium, hemodynamic instability, occult fracture, acute infection may delay referral to rehabilitation (p821).
 
 **Sites of care (Medicare)**
-- Inpatient rehab facility: **at least 3 hours** of therapy/day required, 24-hr nursing (p822).
+- **US Medicare inpatient rehabilitation** includes 24-hour rehabilitation nursing and generally **3 hours of therapy per day on at least 5 days/week**, or **15 hours in 7 consecutive days** in documented cases. Multiple therapy disciplines participate, including PT or OT (p822; [CMS inpatient rehabilitation criteria](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/inpatient-rehabilitation-hospitals)).
 - SNF: 24-hr nursing, no required minimum therapy intensity (p822).
 - Home health ("homebound"): face-to-face encounter **within 90 days before or 30 days after** start; recertified **every 60 days** (p822).
 
@@ -143,7 +143,7 @@ Cognitive impairment calls for an assessment of ability to learn and follow inst
   - CR vs. none: mortality **2.3% vs. 5.3%**; benefit sustained at 5 years, **16% vs. 25%** (p830).
   - **≥25 sessions** → **20% lower** 5-yr mortality vs. fewer sessions (p830).
   - Heart failure: stable **at least 3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
-- PAD: walk-to-pain program needs **≥6 months** for benefit (p830).
+- **PAD with claudication:** supervised exercise uses intermittent walking to moderate-to-maximum symptoms, alternating with rest. A standard program is **30–45 minutes of active exercise at least 3 times/week for at least 12 weeks**; continue training thereafter. The six-month period described on p830 is not a minimum time to benefit ([2024 ACC/AHA PAD guideline](https://doi.org/10.1161/CIR.0000000000001251)).
 - Lower extremity amputation: **60% to 80%** get phantom limb pain; **~10%** of those with phantom pain rate it severe enough to be disabling (p830).
 - Stroke: rehab can begin as early as **24 to 48 hours** poststroke once the patient is medically stable (p831).
   - Dysphagia can be silent in **up to one-third of patients with dysphagia**; aphasia in **one-third** (p831).
@@ -214,7 +214,7 @@ In the hand opposite the involved extremity — this preserves a normal gait pat
 
 <details><summary>Answer</summary>
 
-An inpatient rehab facility requires a minimum of 3 hours of therapy daily; a skilled nursing facility has no required intensity or duration of therapy (p822).
+A US Medicare inpatient rehabilitation facility generally provides 3 hours of therapy on at least 5 days/week, or 15 hours over 7 consecutive days in documented cases. A skilled nursing facility has no equivalent fixed session-intensity requirement (p822, CMS inpatient rehabilitation coverage criteria).
 
 </details>
 

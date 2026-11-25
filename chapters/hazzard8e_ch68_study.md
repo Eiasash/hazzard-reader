@@ -31,7 +31,7 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - **7.7%** increase in opioid-overdose deaths in adults **>65 yr**, 2013→2014 (p1060)
 - 2016 CDC guideline for older adults: prefer immediate-release (rec #4), lowest effective dose (rec #5), follow-up **1 to 4 weeks** after starting then at least **every 3 months** (rec #7); use state PDMPs (p1060)
 - Start opioids at **25% to 50%** of the younger-adult dose in older adults (p1060)
-- CDC caution thresholds: reassess benefit/risk **>50 MME/day**; avoid **>90 MME/day** (p1060)
+- Before increasing to **50 MME/day or more**, pause to reassess benefits and risks and consider precautions. The 2022 CDC guideline for outpatient pain treatment uses dosage as a guidepost and rejects an inflexible 90-MME ceiling. It excludes cancer-related pain treatment, palliative care and end-of-life care (p1060 discusses the 2016 guideline).
 - Opioid-induced hyperalgesia: pain *worsens* with increasing opioid dose (vs tolerance, where it doesn't) — manage by tapering and adding nonopioid/NMDA-antagonist therapy (p1061)
 - Perioperative: continuous **end-tidal CO2 monitoring** for high-risk patients, especially the first **24 hours** after surgery (p1062)
 
@@ -40,7 +40,7 @@ Study summary of Chapter 68 — Pain Management; the book and the full chapter a
 - NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7, verified against the page image)
 - Table 68-7 singles out indomethacin and ketorolac as Beers 2019 "avoid" outright (high risk of GI toxicity and acute kidney injury) — a stronger caution than the general "avoid long-term use" that applies to ibuprofen, naproxen, meloxicam, diclofenac, and nabumetone (Table 68-7, p1063)
 - SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags both SNRIs and TCAs (amitriptyline, nortriptyline) as "avoid" with a history of falls/fractures, and TCAs additionally for anticholinergic burden (Table 68-8, p1063)
-- Gabapentinoids/sodium channel blockers (carbamazepine, oxcarbazepine) for neuropathic pain; genotype screening may be indicated for **HLA-B\*1502** and **HLA-A\*3101** (most common in South Asian ancestry) — carriers are at risk of severe skin reactions such as Stevens–Johnson syndrome; carbamazepine is a potent CYP450 inducer (interacts with warfarin, lithium) (p1065)
+- Carbamazepine and oxcarbazepine are sodium-channel blockers used for selected neuropathic pain syndromes. **HLA-B*15:02** increases the risk of SJS/TEN with either drug and is more frequent in several East, Southeast and South Asian populations. **HLA-A*31:01** is associated with a broader range of carbamazepine reactions in several ancestries. Carbamazepine induces CYP enzymes and can reduce warfarin exposure. Combined lithium and carbamazepine can cause neurotoxicity (p1065, CPIC).
 - Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use; carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
   > Current practice (not the book): renal impairment is not a labelled contraindication for gabapentin or pregabalin; both need renal dose reduction (incl. CrCl <15 and post-haemodialysis supplemental doses) — FDA/DailyMed gabapentin and Pfizer Lyrica labels.
 - Benzodiazepines (eg clonazepam) for neuropathic pain: daily use **>30 days** risks physiologic dependence — taper, don't stop abruptly; tracked as lorazepam milligram equivalents (LMEs) in PDMPs (p1065)
@@ -75,7 +75,7 @@ Peripheral sensitization (inflammatory mediators like histamine/bradykinin lower
 
 <details><summary>Answer</summary>
 
-Start at about 25% to 50% of the dose given to younger patients; the CDC recommends carefully weighing risk/benefit above 50 MME/day and avoiding doses above 90 MME/day (p1060).
+The chapter suggests lower initial opioid doses in older adults, often 25–50% of a younger adult's dose (p1060). Choose the drug and dose for renal function, frailty and prior exposure. CDC 2022 recommends reassessment before reaching **50 MME/day** and individualized decisions rather than a fixed 90-MME ceiling.
 
 </details>
 
@@ -91,7 +91,7 @@ Start at about 25% to 50% of the dose given to younger patients; the CDC recomme
 
 <details><summary>Answer</summary>
 
-HLA-B\*1502 and HLA-A\*3101 (most common in South Asian ancestry) — carriers are at increased risk of severe skin reactions such as Stevens–Johnson syndrome (p1065).
+HLA-B*15:02 is linked to carbamazepine- and oxcarbazepine-associated SJS/TEN. HLA-A*31:01 is associated with several carbamazepine hypersensitivity reactions and occurs across multiple ancestries. The genes do not have the same geographic distribution (p1065, CPIC).
 
 </details>
 

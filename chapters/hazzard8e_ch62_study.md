@@ -12,7 +12,7 @@ Study summary of Chapter 62 - Cerebrovascular Disease; the book and the full cha
 - MRI diffusion imaging is more sensitive for acute infarction; CTA/MRA identifies major arterial disease and large-vessel occlusion (p953, p965).
 
 **Acute ischemic treatment**
-- In eligible patients, alteplase **0.9 mg/kg**, with **10%** as a bolus and the rest over **1 hour**, reduces disability; review hemorrhage risk and exclusions (p966).
+- In eligible patients, IV alteplase is **0.9 mg/kg up to 90 mg total**. Give 10% as a bolus over one minute and the remainder over 60 minutes. Review hemorrhage risk and exclusions (p966, Activase prescribing information).
 - Earlier treatment is better. The chapter supports the selected **3–4.5-hour** window and imaging-based selection for some wake-up/extended-window presentations (p967).
 - Thrombectomy benefits selected disabling large-vessel occlusions; imaging-selected DAWN patients were **6–24 hours** from last-known-well. Favorable tissue imaging is not a reason to delay treatment (p968–969).
 - After IV thrombolysis, maintain BP below **180/105 mm Hg** for at least **24 hours** and obtain follow-up CT/MRI; antithrombotics are generally withheld until hemorrhage is excluded (p969).

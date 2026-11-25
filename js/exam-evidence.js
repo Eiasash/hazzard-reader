@@ -61,7 +61,7 @@ window.HazzardEvidence = (() => {
     history.replaceState({...history.state, mcqView: view}, '');
     const url = new URL(location.href);
     url.search = ''; url.searchParams.set('chapter', page.readerChapter || page.chapter);
-    url.searchParams.set('examBack', '1'); url.hash = 'p' + page.page;
+    url.searchParams.set('examBack', '1'); url.hash = page.anchor || 'p' + page.page;
     location.assign(url);
   }
   const rebuilt = new Set(['1','3','22','46','55','58','59','61','99']);
@@ -70,8 +70,15 @@ window.HazzardEvidence = (() => {
     const wanted=new Map();
     for(const [id,entry] of Object.entries(data.questions)){
       for(const p of [...entry.pages,...(entry.supportPages||[])])if(String(p.chapter)===chapter&&p.passage&&p.anchor){
-        if(!wanted.has(p.page))wanted.set(p.page,[]);
-        wanted.get(p.page).push({id,printed:entry.pages.includes(p),...p});
+        // The full reader and the preview can wrap a printed-page break on
+        // either side of the corresponding words. The exact quote determines
+        // the location; both known page contexts are candidates.
+        const locations=new Set([p.contextPage??p.page]);
+        if(p.rangeText)locations.add(p.page);
+        for(const location of locations){
+          if(!wanted.has(location))wanted.set(location,[]);
+          wanted.get(location).push({id,printed:entry.pages.includes(p),...p});
+        }
       }
     }
     if(!wanted.size)return;
@@ -85,7 +92,19 @@ window.HazzardEvidence = (() => {
       const text=(node.tagName==='IMG'?(node.alt||''):node.textContent).replace(/\s+/g,' ').trim();
       for(let index=active.length-1;index>=0;index--){
         const p=active[index];
-        if(text!==p.passage&&!(p.passage.length>=90&&text.startsWith(p.passage)))continue;
+        let boundary;
+        if(p.imageFile){
+          if(node.tagName!=='IMG'||(node.dataset.src||node.getAttribute('src')||'').split('/').pop()!==p.imageFile)continue;
+        }else if(p.rangeText){
+          if(!text.includes(p.rangeText))continue;
+          // During reflow a printed page marker can sit inside a paragraph.
+          // Land at the verified words on that page, also in the question preview.
+          const indexed=window.HazzardHighlighter.textIndex(node),at=indexed.s.indexOf(p.rangeText);
+          if(at<0)continue;
+          boundary=document.createRange();
+          boundary.setStart(indexed.nodes[at],indexed.offs[at]);
+          boundary.collapse(true);
+        }else if(text!==p.passage&&!(p.passage.length>=90&&text.startsWith(p.passage)))continue;
         active.splice(index,1);
         if(copy.querySelector('[id="'+p.anchor+'"]'))continue;
         const marker=document.createElement('span');
@@ -93,7 +112,9 @@ window.HazzardEvidence = (() => {
         marker.className='exam-passage-target';
         if(p.printed){marker.dataset.examIds=p.id;marker.dataset.examReadPage=String(p.page);}
         marker.dataset.readerMetadata='exam';
-        if(node.tagName==='IMG')node.before(marker);else node.prepend(marker);
+        if(boundary)boundary.insertNode(marker);
+        else if(node.tagName==='IMG')node.before(marker);
+        else node.prepend(marker);
       }
     }
   }

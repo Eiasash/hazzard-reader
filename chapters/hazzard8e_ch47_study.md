@@ -42,7 +42,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 
 **Drugs** (condensed from Table 47-12, p712–713)
 - Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ intraocular pressure, delirium, constipation (p712); patients with dementia must be followed for drug-induced delirium (p713); Current practice (not the book): offer an antimuscarinic or beta-3 agonist for OAB (Strong recommendation, Grade A); counsel on side effects and potential dementia/cognitive risk with antimuscarinics (Clinical Principles), using shared decision-making and patient preferences; when pharmacotherapy is indicated, consider a beta-3 agonist trial first, as typically preferred in the guideline discussion - AUA/SUFU 2024, statements 16-18 and discussion, p24-27
-- Mirabegron (beta-3 agonist) 25–50 mg qd (p712) — beta-3 agonists should not be used in uncontrolled hypertension (p714).
+- **Mirabegron** 25–50 mg once daily for overactive bladder, with renal/hepatic dose adjustment when appropriate. Monitor BP. US labeling advises against mirabegron in **severe uncontrolled hypertension** (systolic ≥180 or diastolic ≥110 mm Hg). This warning is drug-specific (pp712,714; FDA mirabegron prescribing information).
 - Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712); Required reading: see [AGS Beers 2023 required-article card](?chapter=laws&lawCard=ima-article-beers-2023#law-card-ima-article-beers-2023) for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)
 - Tamsulosin (alpha blocker, for men) 0.4–0.8 mg qd — less effect on blood pressure (greater blood pressure effects at the 0.8 mg dose) (Table 47-12, p713).
 - Duloxetine 30–60 mg daily — nausea, xerostomia, headache (p713); no drug is FDA-approved for stress UI; recommended in other countries only as second-line for those who prefer medication to surgery (p714).
@@ -56,7 +56,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 
 **Fecal incontinence**
 - **30%–50%** of institutionalized patients with frequent UI also have fecal incontinence — this coexistence suggests common pathophysiologic mechanisms (p716).
-- Constipation is technically **< 3** bowel movements/week (p717); the most common causes of fecal incontinence are constipation and laxative use, neurologic disorders, and colorectal disorders (p716); relieving a fecal impaction can resolve urinary as well as fecal incontinence (p701).
+- Fewer than **3 spontaneous bowel movements/week** is one feature of constipation. Hard stool, straining or incomplete evacuation can occur even with daily bowel movements (p717). Common contributors to fecal incontinence include constipation/impaction, laxative use, and neurologic or colorectal disorders (p716). Relieving impaction can improve both urinary and fecal incontinence (p701).
 - Causes listed (Table 47-15): fecal impaction, constipation, laxative overuse/abuse, neurologic disorders (dementia, stroke, spinal cord disease), colorectal disorders (diarrheal illness, diabetic autonomic neuropathy, rectal sphincter damage); hyperosmotic enteral feedings — diluting or slow continuous infusion is sometimes helpful (p716).
 
 **Exam traps / book notes**

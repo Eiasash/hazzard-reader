@@ -5,7 +5,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 ## Summary
 
 **Definitions (WHO criteria, Table 51-1)**
-- T-score **> −1** = normal; **≤ −1 to > −2.5** = osteopenia (the table prints "≤ 1 but > −2.5" — minus sign evidently dropped); **≤ −2.5** = osteoporosis; **≤ −2.5 + a fragility fracture** = severe osteoporosis (p760).
+- DXA T-score **≥−1.0** is normal, **below −1.0 but above −2.5** is low bone mass, and **≤−2.5** is osteoporosis. A T-score ≤−2.5 plus a fragility fracture defines severe/established osteoporosis in the WHO classification (Table 51-1, p760; [Bone Health and Osteoporosis Foundation](https://www.bonehealthandosteoporosis.org/patients/diagnosis-information/bone-density-examtesting/)).
 - Each 1-SD drop in T-score ≈ **doubles** fracture risk (p759).
 - **Postmenopausal** osteoporosis: women **51–75 years**, driven by estrogen loss. **Senile** osteoporosis: **>60 years**, both sexes, from reduced bone turnover/osteoblast numbers (p759).
 
@@ -17,7 +17,7 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Annual US cost **>$22 billion**; projected **$25 billion**/3 million fractures by 2025 (p760).
 
 **Bone biology (brief)**
-- Trabecular bone = **80%** of skeletal mass, more metabolically active than cortical bone (p760).
+- **Cortical bone accounts for approximately 80%** of total adult skeletal mass and **trabecular bone for approximately 20%**. Trabecular bone has higher metabolic activity and is prominent in the vertebrae and pelvis (p760; WHO Technical Report Series 921, correcting the mass attribution).
 - Bone remodeling cycle (basic multicellular unit) lasts **6–9 months** (p763).
 - Menopause: rapid spine bone loss **~3%/year** for ~5 years, then **>0.5%/year** generalized (p765).
 - Age-related decline **~0.5%/year** after the 3rd decade; marrow fat can occupy up to **90%** of marrow cavity in older adults (p766).
@@ -45,26 +45,26 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 - Secondary-cause workup: primary hyperparathyroidism → ionized calcium + PTH; Paget disease → alkaline phosphatase; glucocorticoid use → medical history (Table 51-3, p769).
 
 **Nutrition**
-- Calcium **1200–1500 mg/day**; vitamin D **≥800 IU/day**, though as much as **2000 IU/day** and more may be needed to reach 25(OH)D **≥75 nmol/L** (p772).
+- Hazzard discusses total elemental calcium **1,200–1,500 mg/day** and vitamin D **at least 800 IU/day**, sometimes **2,000 IU/day or more** to reach a bone-disease target of **75 nmol/L (30 ng/mL)** (p772). Current BHOF calcium targets from diet plus supplements are **1,200 mg/day for women ≥51 and men ≥71** and **1,000 mg/day for men 50–70**. Individualize supplementation and avoid exceeding the total target through unnecessary tablets ([BHOF calcium and vitamin D](https://www.bonehealthandosteoporosis.org/patients/treatment/calciumvitamin-d/get-the-facts-on-calcium-and-vitamin-d/)).
 - High-dose vitamin D **bolus** dosing (500,000 IU/year or 60,000 IU/month) **increases fall risk** — avoid (p773).
 - Frank deficiency (**≤30 nmol/L**): loading dose **50,000 IU** cholecalciferol or ergocalciferol; all others: daily **1000–4000 IU** cholecalciferol (p773).
 
 **Pharmacologic treatment (Table 51-5)**
-- **Alendronate** 70 mg weekly PO: ~50% ↓ hip + vertebral fracture over 3 years (Table 51-5, p774); equally effective ≤75 vs >75 years (**51%** vs **38%** vertebral fracture reduction at 12 months); time to benefit **8 months** (p775); contraindicated if eGFR **< 35 mL/min** (Table 51-5, p774).
+- **Alendronate 70 mg orally weekly** reduced hip and vertebral fracture risk by roughly 50% over three years in the studies summarized (Table 51-5, p774). The cited age subgroups ≤75 and >75 had **51% and 38%** lower vertebral fracture risk at 12 months, respectively. Estimated time to benefit in those ≥70 was **8 months** (p775). US labeling does not recommend alendronate at **creatinine clearance <35 mL/min**. Contraindications to oral use include delayed esophageal emptying, inability to remain upright for 30 minutes and hypocalcemia (FDA Fosamax prescribing information).
 - **Risedronate** 35 mg weekly PO (or 75 mg × 2 consecutive days/month, or 150 mg monthly PO): **41%–49%** ↓ vertebral, **36%** ↓ nonvertebral fracture over 3 years; also approved for glucocorticoid-induced osteoporosis (Table 51-5, p774).
-- **Zoledronic acid** 5 mg IV yearly ×3: **70%** ↓ vertebral, **25%** ↓ nonvertebral, **41%** ↓ hip fracture (p775); also cut all-cause mortality (**9.6%** vs **13%** placebo) (p776).
-- **Denosumab** 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels **12 months** after stopping, and fracture risk rises markedly in those with prior vertebral fracture (p776).
-- **Teriparatide** 20 mcg/day SC, **max 24 months**: **65%** ↓ vertebral, **53%** ↓ nonvertebral fracture (p776); caution or avoidance if at increased osteosarcoma risk — Paget disease, previous radiation therapy, hypercalcemia, skeletal metastases, or history of prostate cancer/lymphoma (Table 51-5, p774).
-- **Abaloparatide** 80 mcg/day SC, **max 2 years**: **86%** ↓ vertebral, **43%** ↓ nonvertebral fracture (p777).
-- **Romosozumab** 210 mg monthly SC, **max 12 months**; 12 months of romosozumab followed by 12 months of denosumab: **75%** ↓ vertebral fracture; vs alendronate: **48%** ↓ vertebral, **19%** ↓ nonvertebral, **38%** ↓ hip (p777).
+- **Zoledronic acid 5 mg IV yearly for three years** reduced vertebral, nonvertebral and hip fracture risk by **70%, 25% and 41%**, respectively, in the postmenopausal osteoporosis trial (p775). A separate trial in patients treated after hip-fracture repair reported deaths in **9.6%** with zoledronic acid versus **13.3%** with placebo (p776; [HORIZON Recurrent Fracture Trial](https://pubmed.ncbi.nlm.nih.gov/17878149/)). US labeling contraindicates the osteoporosis infusion in acute renal impairment or creatinine clearance <35 mL/min.
+- **Denosumab** 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels **12 months** after stopping, and fracture risk rises markedly in those with prior vertebral fracture (p776). Plan antiresorptive follow-on before stopping or delaying treatment. Advanced CKD, particularly dialysis or CKD–mineral and bone disorder, raises the risk of severe hypocalcemia ([FDA boxed warning](https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease)).
+- **Teriparatide 20 micrograms SC daily** reduced vertebral and nonvertebral fractures by **65% and 53%**, respectively, in the cited trial (pp774,776). US labeling permits treatment **beyond two years only if high fracture risk persists or returns**. Avoid in people at increased baseline osteosarcoma risk, including Paget disease, bone metastases, prior skeletal malignancy or radiation involving the skeleton. Avoid in underlying hypercalcemic disorders as a separate precaution (FDA Forteo prescribing information).
+- **Abaloparatide 80 micrograms SC daily** reduced new vertebral fractures by **86%** and nonvertebral fractures by **43%** in the overall 18-month trial. US labeling does not recommend use for more than **two years in a lifetime** (p777; FDA Tymlos prescribing information).
+- **Romosozumab 210 mg SC monthly for 12 doses**. In FRAME, romosozumab versus placebo for one year, followed by denosumab in both groups, reduced new vertebral fractures **75% at two years**. In ARCH, romosozumab versus alendronate for one year, followed by alendronate in both groups, reduced vertebral, nonvertebral and hip fractures by **48%, 19% and 38%**, respectively (p777). US labeling advises against starting within **one year of MI or stroke** and calls for individual cardiovascular risk assessment (FDA Evenity boxed warning).
 - Teriparatide and abaloparatide should be considered as **starting therapy** for **very high fracture risk** and/or multiple fractures (p777); after teriparatide, treatment with an antiresorptive is imperative to maintain BMD gains (p776).
 
 **Complications**
 - **ONJ**: very rare at osteoporosis dosing, **0.001%–0.01%** (p776); in postmenopausal women on oral bisphosphonates specifically, **0.02%–0.06%** — a dental check should *not* delay treatment (p777).
-- **AFF**: **3.2–50 per 100,000** person-years on bisphosphonates; **>100 per 100,000** with long-term use (p777); investigate groin/thigh pain with x-ray (fracture often precedes pain) (p776).
+- **AFF**: **3.2–50 per 100,000** person-years on bisphosphonates; **>100 per 100,000** with long-term use (p777); new groin or thigh pain warrants femur imaging for an incomplete atypical fracture. Prodromal pain can precede a complete fracture by weeks or months (pp776–777; FDA bisphosphonate prescribing information).
 
 **Nursing home / long-term care**
-- All residents: vitamin D **≥800 IU/day** + calcium **1200 mg/day**; check 25(OH)D first (p778).
+- All residents: vitamin D **≥800 IU/day** + total calcium **1200 mg/day** from food and supplements as needed. Individualize in CKD or hypercalcemia and check 25(OH)D first (p778).
 - If 25(OH)D **≤50 nmol/L** → 2000 IU/day; if **≤30 nmol/L** → loading dose **50,000 IU**, then **3000–4000 IU/day** (p778).
 - Bisphosphonates are first-line (IV favors adherence); denosumab an equal alternative given SC route (p778).
 
@@ -122,7 +122,7 @@ Inability to hold a semi-tandem stand for 10 seconds; gait velocity < 0.8 m/s; T
 
 <details><summary>Answer</summary>
 
-Elemental calcium 1200–1500 mg/day; vitamin D at least 800 IU/day (as much as 2000 IU/day and more may be needed); serum 25(OH)D ≥ 75 nmol/L is optimally effective for fall and fracture prevention (p772). (p767 separately suggests a goal of > 80 nmol/L.)
+Hazzard’s osteoporosis regimen discusses elemental calcium 1,200–1,500 mg/day and vitamin D at least 800 IU/day, sometimes 2,000 IU/day or more for its **75 nmol/L** bone-disease target (p772; p767 separately mentions above 80 nmol/L). BHOF advises 1,200 mg/day total calcium for women ≥51 and men ≥71, and 1,000 mg/day for men 50–70. A universal 25(OH)D target for preventing falls in otherwise healthy adults has not been established (BHOF Clinician’s Guide; Endocrine Society 2024).
 
 </details>
 
@@ -130,7 +130,7 @@ Elemental calcium 1200–1500 mg/day; vitamin D at least 800 IU/day (as much as 
 
 <details><summary>Answer</summary>
 
-Vertebral fracture −70%, nonvertebral −25%, hip −41%; it also reduced all-cause mortality (9.6% vs 13% with placebo) (p775–776).
+In the postmenopausal osteoporosis trial, vertebral, nonvertebral and hip fractures fell **70%, 25% and 41%**. In a separate post-hip-fracture trial, all-cause mortality was **9.6% versus 13.3%** with placebo (pp775–776; PMID 17878149).
 
 </details>
 
@@ -138,7 +138,7 @@ Vertebral fracture −70%, nonvertebral −25%, hip −41%; it also reduced all-
 
 <details><summary>Answer</summary>
 
-Teriparatide and abaloparatide: maximum 2 years. Romosozumab: maximum 12 months. Limits relate to osteosarcoma risk seen in nonclinical/animal studies (teriparatide) and a cardiovascular event signal plus potential oncogenesis (romosozumab) (p776–777).
+US labeling permits teriparatide beyond two years only when high fracture risk persists or returns. Abaloparatide beyond two years in a lifetime is not recommended. Romosozumab is limited to 12 monthly doses as the anabolic effect wanes, followed by an antiresorptive when indicated. Its separate boxed warning advises against starting within one year of MI or stroke (pp776–777; FDA Forteo, Tymlos and Evenity labels).
 
 </details>
 
@@ -154,7 +154,7 @@ Teriparatide and abaloparatide: maximum 2 years. Romosozumab: maximum 12 months.
 
 <details><summary>Answer</summary>
 
-3.2 to 50 cases per 100,000 person-years (higher, >100 per 100,000, with long-term use); new groin or thigh pain should prompt an x-ray, since fracture often precedes pain (p776–777).
+The reported AFF risk is **3.2–50 per 100,000 person-years**, and may exceed **100 per 100,000** after long exposure. New groin or thigh pain can signal an incomplete fracture weeks or months before a complete fracture. Obtain femur imaging (pp776–777; FDA bisphosphonate prescribing information).
 
 </details>
 

@@ -10,7 +10,7 @@ Fast build from the book; not lane-reviewed.
 
 ### Definition & scope
 - Palliative care addresses serious-illness symptoms, stress and quality of life for patients and families; it can accompany curative treatment at any stage. Primary palliative care includes symptom care, coordination, communication and caregiver support. (p. 1045)
-- US Medicare hospice: attending physician and hospice medical director certify expected prognosis **<6 months** if the disease follows its usual course; coverage determinations guide prognosis, rather than impose admission requirements. (p. 1046)
+- US Medicare hospice requires a prognosis of **six months or less** if the illness runs its usual course. Initial certification comes from the hospice physician and, if the patient has a designated attending physician, that physician. Coverage guidelines support clinical judgment (p1046, CMS Medicare Benefit Policy Manual, chapter 9).
 <a id="p1047"></a>
 - Trials support quality-of-life and family benefits; noncancer evidence includes less emergency use, hospitalization and symptom burden. Dementia trials have been least promising. (p. 1047)
 

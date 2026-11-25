@@ -53,7 +53,9 @@
         {
           "page": 1263,
           "chapter": "81",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1263-mcq-765f7737231c2578f2a85a38",
+          "passage": "Table 81-14"
         },
         {
           "page": 1391,
@@ -4816,7 +4818,9 @@
         {
           "page": 928,
           "chapter": "60",
-          "available": true
+          "available": true,
+          "anchor": "exam-p928-mcq-45b29368078d5d087a1a0b91",
+          "passage": "Aside from depression, antidepressants are also used to treat other NPS, including anxiety, "
         },
         {
           "page": 929,
@@ -5051,7 +5055,9 @@
         {
           "page": 1269,
           "chapter": "82",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1269-mcq-03e515ea1394f1b7d0176064",
+          "passage": "Proteinuria Despite the significant decline in GFR that occurs with aging, proteinuria is no"
         }
       ],
       "tables": [],
@@ -5515,7 +5521,9 @@
         {
           "page": 910,
           "chapter": "59",
-          "available": true
+          "available": true,
+          "anchor": "exam-p910-mcq-432e69e7294ba1333bbb87f6",
+          "passage": "Acetylcholinesterase inhibitors (AChEIs) are the mainstay of therapy for AD. AChEIs increase"
         },
         {
           "page": 911,
@@ -5717,7 +5725,9 @@
         {
           "page": 431,
           "chapter": "30",
-          "available": true
+          "available": true,
+          "anchor": "exam-p431-mcq-9133456e88257f8d41edd4d4",
+          "passage": "Table 30-12"
         },
         {
           "page": 432,
@@ -5848,7 +5858,9 @@
         {
           "page": 795,
           "chapter": "53",
-          "available": true
+          "available": true,
+          "anchor": "exam-p795-mcq-78b3359272a717f584c23b2c",
+          "passage": "Figure 53-2"
         }
       ],
       "tables": [],
@@ -5975,7 +5987,9 @@
         {
           "page": 773,
           "chapter": "51",
-          "available": true
+          "available": true,
+          "anchor": "exam-p773-mcq-3bde7ff46a9992e97fc59c24",
+          "passage": "Alendronate The efficacy of alendronate has been well established in increasing BMD at all s"
         },
         {
           "page": 774,
@@ -6123,7 +6137,11 @@
         {
           "page": 991,
           "chapter": "63",
-          "available": true
+          "available": true,
+          "contextPage": 990,
+          "rangeText": "There is no theoretical basis for the use of cholinesterase inhibitors, which can aggravate agitation.",
+          "anchor": "exam-p991-mcq-4de2f99d12c0f96618a8056a",
+          "passage": "Treatment approaches for FTD and related disorders are generally aimed at symptom management"
         }
       ],
       "tables": [],
@@ -6159,7 +6177,9 @@
         {
           "page": 1418,
           "chapter": "90",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1418-mcq-ac3eccdcd0b272b7e74ac6e3",
+          "passage": "Chemotherapy Chemotherapy still has an important role in mCRPC after progressing through the"
         },
         {
           "page": 1419,
@@ -6352,7 +6372,9 @@
         {
           "page": 210,
           "chapter": "15",
-          "available": true
+          "available": true,
+          "anchor": "exam-p210-mcq-c040b7a76725684cad927088",
+          "passage": "Table 15-3"
         }
       ],
       "tables": [],
@@ -6577,7 +6599,9 @@
         {
           "page": 1181,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1181-mcq-d034cd9715f2f2dd845cca98",
+          "passage": "Sodium-glucose cotransporter-2 inhibitors (SGLT2 inhibitors) Sodium-glucose cotransporter-2 "
         },
         {
           "page": 1182,
@@ -6590,6 +6614,15 @@
       "tables": [],
       "chapters": [
         "76"
+      ],
+      "supportPages": [
+        {
+          "page": 1176,
+          "chapter": "76",
+          "available": true,
+          "anchor": "exam-p1176-mcq-d034cd9715f2f2dd845cca98",
+          "passage": "By virtue of age and their preexisting cardiopulmonary syndrome, older adults with heart fai"
+        }
       ]
     },
     "mcq-0a8fce186272773039f15df2": {
@@ -7802,7 +7835,9 @@
         {
           "page": 864,
           "chapter": "57",
-          "available": true
+          "available": true,
+          "anchor": "exam-p864-mcq-84574748534649bfe7575675",
+          "passage": "Table 57-3"
         },
         {
           "page": 873,
@@ -7929,7 +7964,7 @@
           "chapter": "57",
           "available": true,
           "anchor": "exam-p873-mcq-bdc90ebe3c1c31ceaf06284d",
-          "passage": "Primary progressive aphasia PPA typically occurs in the fifth or sixth decade of life, and i"
+          "passage": "Frontotemporal lobar degeneration (FTLD) is caused by a range of underlying neuropathologic "
         },
         {
           "page": 933,
@@ -8013,7 +8048,9 @@
         {
           "page": 1738,
           "chapter": "108",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1738-mcq-f297a4ae2b83c4e68890a250",
+          "passage": "Similar to SARS-CoV, SARS-CoV-2 binds to the angiotensin-converting enzyme 2 receptor to ent"
         }
       ],
       "tables": [],
@@ -8215,7 +8252,9 @@
         {
           "page": 1120,
           "chapter": "73",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1120-mcq-16df878cdfb1631a3395a00d",
+          "passage": "Atrial septum The atrial septum thickens and becomes stiffer with age, probably owing to fat"
         }
       ],
       "tables": [
@@ -8270,7 +8309,11 @@
         {
           "page": 1449,
           "chapter": "92",
-          "available": true
+          "available": true,
+          "contextPage": 1448,
+          "rangeText": "Second-line therapy for HCC now includes regorafenib",
+          "anchor": "exam-p1449-mcq-20e54ddaf7f4529fefdbae47",
+          "passage": "lenvatinib. Second-line therapy for HCC now includes regorafenib for those for whom sorafeni"
         }
       ],
       "tables": [],
@@ -8314,7 +8357,9 @@
         {
           "page": 1186,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1186-mcq-edd8a3bd4e1d30138e1e61de",
+          "passage": "β-Blockers β-Blockers have little or no direct effect on diastolic function, but theoretical"
         },
         {
           "page": 1187,
@@ -8540,7 +8585,9 @@
         {
           "page": 1270,
           "chapter": "82",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1270-mcq-f7f1da57f641c281b8dd1d40",
+          "passage": "Hypokalemia can result from poor intake (eating disorders, alcoholism), increased losses (di"
         },
         {
           "page": 1271,
@@ -8552,7 +8599,9 @@
         {
           "page": 1533,
           "chapter": "97",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1533-mcq-f7f1da57f641c281b8dd1d40",
+          "passage": "Evaluation and management of primary hyperaldosteronism and pheochromocytoma The initial eva"
         }
       ],
       "tables": [],
@@ -8607,7 +8656,11 @@
         {
           "page": 995,
           "chapter": "63",
-          "available": true
+          "available": true,
+          "contextPage": 994,
+          "rangeText": "There are also behavioral symptoms such as irritability, anxiety, and depression, and even subtle personality changes.",
+          "anchor": "exam-p995-mcq-14a74b272deb47e84ad4ed44",
+          "passage": "Mild TBI, synonymous with “concussion” and defined as head injury with less than 30 minutes "
         }
       ],
       "tables": [],
@@ -9098,7 +9151,9 @@
         {
           "page": 1074,
           "chapter": "69",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1074-mcq-04041334b8bb59711f917744",
+          "passage": "In patients with COPD and hypoxia, long-term oxygen therapy increases QoL and prolongs survi"
         }
       ],
       "tables": [],
@@ -9204,7 +9259,11 @@
         {
           "page": 881,
           "chapter": "58",
-          "available": true
+          "available": true,
+          "contextPage": 880,
+          "rangeText": "tomography (SPECT) studies have shown that delirium is mostly associated with decreased cerebral blood flow, but these results have been variable.",
+          "anchor": "exam-p881-mcq-5f192d8d33ffd433758e1fc3",
+          "passage": "The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought "
         }
       ],
       "tables": [],
@@ -9347,7 +9406,11 @@
         {
           "page": 789,
           "chapter": "52",
-          "available": true
+          "available": true,
+          "contextPage": 788,
+          "rangeText": "pain relief typically lasts for up to 2 months",
+          "anchor": "exam-p789-mcq-df7cdf261f46a089b090d1a5",
+          "passage": "be bothersome despite oral pharmacologic therapies. They are particularly efficacious in pat"
         }
       ],
       "tables": [],
@@ -9561,12 +9624,18 @@
         {
           "page": 919,
           "chapter": "60",
-          "available": true
+          "available": true,
+          "anchor": "exam-p919-mcq-482e5db0580ad7a0c6dcd21c",
+          "passage": "Nonpharmacologic interventions should be the first-line treatment and antipsychotics should "
         },
         {
           "page": 920,
           "chapter": "60",
-          "available": true
+          "available": true,
+          "contextPage": 919,
+          "rangeText": "Appropriate indications for medications include failure of nonpharmacologic therapies and presence of NPS severe enough to interfere with the patient’s overall quality of life and function.",
+          "anchor": "exam-p920-mcq-482e5db0580ad7a0c6dcd21c",
+          "passage": "Appropriate indications for medications include failure of nonpharmacologic therapies and pr"
         },
         {
           "page": 927,
@@ -9627,7 +9696,9 @@
         {
           "page": 1254,
           "chapter": "81",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1254-mcq-8a61d27740b818d564cb66db",
+          "passage": "Importantly, meta-analyses of RCT and a large case-control study have observed an increase ("
         }
       ],
       "tables": [],
@@ -9870,17 +9941,23 @@
         {
           "page": 1459,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1459-mcq-03212a29c6c5136df49162da",
+          "passage": "Clinical presentation A majority of cutaneous SCCs (80%) develop in chronically sun-exposed "
         },
         {
           "page": 1460,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1460-mcq-03212a29c6c5136df49162da",
+          "passage": "macule), and BCC. Any lesion suspicious for cancer, including persistent ulcers, should be b"
         },
         {
           "page": 1461,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1461-mcq-03212a29c6c5136df49162da",
+          "passage": "Topical chemotherapy (5-fluorouracil, imiquimod) The two main topical chemotherapeutic agent"
         },
         {
           "page": 1462,
@@ -9890,7 +9967,9 @@
         {
           "page": 1463,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1463-mcq-03212a29c6c5136df49162da",
+          "passage": "patients with limited life expectancy, some providers also consider active surveillance appr"
         }
       ],
       "tables": [],
@@ -9998,7 +10077,9 @@
         {
           "page": 1063,
           "chapter": "68",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1063-mcq-3e123a9bd8bb77dc77805cf5",
+          "passage": "Table 68-8"
         },
         {
           "page": 1064,
@@ -10772,7 +10853,9 @@
         {
           "page": 1269,
           "chapter": "82",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1269-mcq-9d2304f27d614fa4907fbfd2",
+          "passage": "Proteinuria Despite the significant decline in GFR that occurs with aging, proteinuria is no"
         }
       ],
       "tables": [],
@@ -11493,6 +11576,15 @@
       "tables": [],
       "chapters": [
         "61"
+      ],
+      "supportPages": [
+        {
+          "page": 999,
+          "chapter": "64",
+          "available": true,
+          "anchor": "exam-p999-mcq-5461c18463aace56c08459fe",
+          "passage": "Multiple studies have implicated any lifetime history of TBI as a risk factor for Parkinson "
+        }
       ]
     },
     "mcq-eb1d5bba9a6717079d54d5d1": {
@@ -11715,7 +11807,9 @@
         {
           "page": 1687,
           "chapter": "105",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1687-mcq-d9bbf859bdecffecf6be2702",
+          "passage": "Clinical guidelines recommend the use of prognostic scales, mainly PSI and CURB-65, for admi"
         }
       ],
       "tables": [
@@ -11899,7 +11993,11 @@
         {
           "page": 161,
           "chapter": "11",
-          "available": true
+          "available": true,
+          "contextPage": 160,
+          "rangeText": "an older woman has a life expectancy of at least 9.5 years",
+          "anchor": "exam-p161-mcq-e8ffe5e4732e7d63293662ad",
+          "passage": "of serious complications after screening mammography appears to be approximately 1 in 1000, "
         },
         {
           "page": 1561,
@@ -12390,7 +12488,9 @@
         {
           "page": 319,
           "chapter": "23",
-          "available": true
+          "available": true,
+          "anchor": "exam-p319-mcq-a542a3a627e208dabd1e6265",
+          "passage": "Despite contraindications for older adults, benzodiazepines are disproportionately prescribe"
         }
       ],
       "tables": [],
@@ -12599,7 +12699,9 @@
         {
           "page": 1237,
           "chapter": "81",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1237-mcq-e53fe32921107e7f9d4490f5",
+          "passage": "Healthy aging is associated with structural and functional changes in the lungs and chest wa"
         }
       ],
       "tables": [],
@@ -12952,12 +13054,18 @@
         {
           "page": 880,
           "chapter": "58",
-          "available": true
+          "available": true,
+          "contextPage": 879,
+          "rangeText": "The CAM algorithm relies on the presence of acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness.",
+          "anchor": "exam-p880-mcq-951c823a478f4026c20d4bad",
+          "passage": "The definition of and diagnostic criteria for delirium continue to evolve. Standardized crit"
         },
         {
           "page": 881,
           "chapter": "58",
-          "available": true
+          "available": true,
+          "anchor": "exam-p881-mcq-951c823a478f4026c20d4bad",
+          "passage": "The etiology of delirium is usually multifactorial. Among older persons, delirium results fr"
         }
       ],
       "tables": [],
@@ -13115,7 +13223,9 @@
         {
           "page": 882,
           "chapter": "58",
-          "available": true
+          "available": true,
+          "anchor": "exam-p882-mcq-b14f606286b7110d9c822ade",
+          "passage": "Dementia or cognitive impairment"
         }
       ],
       "tables": [],
@@ -13254,12 +13364,16 @@
         {
           "page": 617,
           "chapter": "42",
-          "available": true
+          "available": true,
+          "anchor": "exam-p617-mcq-e1593b4c91f0875d66348128",
+          "passage": "These characteristics can be considered as the common beacon at the confluence of all frailt"
         },
         {
           "page": 618,
           "chapter": "42",
-          "available": true
+          "available": true,
+          "anchor": "exam-p618-mcq-e1593b4c91f0875d66348128",
+          "passage": "TABLE 42-1 ■ CHARACTERISTICS OF FRAILTY"
         }
       ],
       "tables": [
@@ -13329,7 +13443,9 @@
         {
           "page": 1116,
           "chapter": "73",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1116-mcq-9cd512aa5d4da9861ca5104a",
+          "passage": "Table 73-1"
         },
         {
           "page": 1117,
@@ -13380,7 +13496,9 @@
         {
           "page": 643,
           "chapter": "44",
-          "available": true
+          "available": true,
+          "anchor": "exam-p643-mcq-722507b469ee330def4732a6",
+          "passage": "Sleep is a reversible behavioral state that is characterized by a decreased responsiveness t"
         },
         {
           "page": 644,
@@ -13495,7 +13613,9 @@
         {
           "page": 1064,
           "chapter": "68",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1064-mcq-1a35ec921b0a54fb337bf6ae",
+          "passage": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
         },
         {
           "page": 1065,
@@ -13755,7 +13875,9 @@
         {
           "page": 375,
           "chapter": "27",
-          "available": true
+          "available": true,
+          "anchor": "exam-p375-mcq-f065ded45c3214b7bc02b061",
+          "passage": "Pulmonary Complications Postoperative pulmonary complications are another important cause of"
         },
         {
           "page": 376,
@@ -14041,7 +14163,9 @@
         {
           "page": 662,
           "chapter": "44",
-          "available": true
+          "available": true,
+          "anchor": "exam-p662-mcq-7049069651d5b4f5ebce9c85",
+          "passage": "Sleep in older adults living in nursing homes is well known to be disturbed, particularly in"
         },
         {
           "page": 663,
@@ -14424,7 +14548,9 @@
         {
           "page": 1150,
           "chapter": "75",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1150-mcq-92f1bc01da4974c018371e81",
+          "passage": "Patients with aortic valve stenosis develop compensatory LV hypertrophy, which can be seen o"
         }
       ],
       "tables": [],
@@ -14513,17 +14639,23 @@
         {
           "page": 212,
           "chapter": "15",
-          "available": true
+          "available": true,
+          "anchor": "exam-p212-mcq-be0342d1614ce894a9a67d87",
+          "passage": "Figure 15-3"
         },
         {
           "page": 213,
           "chapter": "15",
-          "available": true
+          "available": true,
+          "anchor": "exam-p213-mcq-be0342d1614ce894a9a67d87",
+          "passage": "of not relying upon an available, communicative, or cooperative patient in the ED where pati"
         },
         {
           "page": 214,
           "chapter": "15",
-          "available": true
+          "available": true,
+          "anchor": "exam-p214-mcq-be0342d1614ce894a9a67d87",
+          "passage": "Figure 15-4"
         }
       ],
       "tables": [],
@@ -14559,7 +14691,9 @@
         {
           "page": 1485,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1485-mcq-c0958b48b6b8fb43106b759b",
+          "passage": "Table 95-1"
         }
       ],
       "tables": [],
@@ -14921,7 +15055,9 @@
         {
           "page": 1709,
           "chapter": "106",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1709-mcq-60d358f39722f9df5a3990cc",
+          "passage": "E coli (the most commonly identified pathogen in urine cultures), and when given for 5 to 7 "
         },
         {
           "page": 1710,
@@ -15037,7 +15173,9 @@
         {
           "page": 641,
           "chapter": "43",
-          "available": true
+          "available": true,
+          "anchor": "exam-p641-mcq-ebb48fc2c1941aee8ce92d21",
+          "passage": "Many RCTs have shown interventions for preventing falls in older people. These have built on"
         }
       ],
       "tables": [],
@@ -15267,7 +15405,9 @@
         {
           "page": 828,
           "chapter": "55",
-          "available": true
+          "available": true,
+          "anchor": "exam-p828-mcq-403fd909d8963b5766ac33df",
+          "passage": "Table 55-5"
         }
       ],
       "tables": [],
@@ -15935,7 +16075,9 @@
         {
           "page": 1223,
           "chapter": "79",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1223-mcq-ba95508abaa2e8c6c5b63ba6",
+          "passage": "The optimal SBP treatment goal for patients older than 65 years has evolved from the startin"
         },
         {
           "page": 1224,
@@ -15947,7 +16089,9 @@
         {
           "page": 1225,
           "chapter": "79",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1225-mcq-ba95508abaa2e8c6c5b63ba6",
+          "passage": "General treatment recommendations for stage 1 hypertension are summarized in Table 79-3. For"
         }
       ],
       "tables": [],
@@ -16016,7 +16160,9 @@
         {
           "page": 924,
           "chapter": "60",
-          "available": true
+          "available": true,
+          "anchor": "exam-p924-mcq-b6e0367710cf1836980a73db",
+          "passage": "Of note, many medications used to treat Parkinson disease, such as anticholinergic agents, a"
         },
         {
           "page": 984,
@@ -16215,7 +16361,11 @@
         {
           "page": 941,
           "chapter": "61",
-          "available": true
+          "available": true,
+          "contextPage": 940,
+          "rangeText": "Dopamine transporter SPECT imaging has been approved to distinguish essential tremor from PD in patients with atypical tremor manifestation.",
+          "anchor": "exam-p941-mcq-592ed9671a2804086a3079b9",
+          "passage": "Although the diagnosis of PD rests largely on the clinical history and examination, there ar"
         }
       ],
       "tables": [],
@@ -16236,7 +16386,9 @@
         {
           "page": 870,
           "chapter": "57",
-          "available": true
+          "available": true,
+          "anchor": "exam-p870-mcq-d6cc2532e17ec18447c17651",
+          "passage": "Most patients with PD exhibit at least some decline in attention, working memory, processing"
         }
       ],
       "tables": [],
@@ -16331,7 +16483,9 @@
         {
           "page": 1531,
           "chapter": "97",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1531-mcq-755606bb446afd8eb85ee844",
+          "passage": "Epidemiology and causes The incidence of adrenal insufficiency in patients 65 years or older"
         }
       ],
       "tables": [],
@@ -16546,7 +16700,9 @@
         {
           "page": 617,
           "chapter": "42",
-          "available": true
+          "available": true,
+          "anchor": "exam-p617-mcq-c248e85aeb9a0ac89190125f",
+          "passage": "The next, second layer closer to the frailty core could be defined as the “area of biomarker"
         },
         {
           "page": 618,
@@ -16812,7 +16968,9 @@
         {
           "page": 716,
           "chapter": "47",
-          "available": true
+          "available": true,
+          "anchor": "exam-p716-mcq-911d970243b87dbe2fe1c675",
+          "passage": "Do not change catheters at arbitrary fixed intervals"
         }
       ],
       "tables": [
@@ -16920,7 +17078,9 @@
         {
           "page": 1184,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1184-mcq-78efef2ee60d19f031350bbc",
+          "passage": "In contrast to ICDs, which reduce the risk of sudden death but do not improve quality of lif"
         },
         {
           "page": 1189,
@@ -17267,7 +17427,9 @@
         {
           "page": 964,
           "chapter": "62",
-          "available": true
+          "available": true,
+          "anchor": "exam-p964-mcq-08ad58cb588514eb5cb52bcb",
+          "passage": "Hematologic diseases such as acute and chronic leukemia, essential and secondary thrombocyto"
         },
         {
           "page": 1513,
@@ -18755,7 +18917,9 @@
         {
           "page": 1183,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1183-mcq-777d91eb7840ca302219d066",
+          "passage": "Ivabradine Ivabradine is a new therapeutic agent that selectively inhibits the If current in"
         }
       ],
       "tables": [],
@@ -19515,7 +19679,9 @@
         {
           "page": 1150,
           "chapter": "75",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1150-mcq-8b25bc06ab666f9e2b1a5628",
+          "passage": "Aortic stenosis has a long asymptomatic latency period, when the only finding is a harsh, la"
         },
         {
           "page": 1154,
@@ -20334,7 +20500,9 @@
         {
           "page": 1174,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1174-mcq-6109da3d3d42107aafeb13c6",
+          "passage": "levels increase modestly with age especially in women ( Figure 76-6 ), declining renal funct"
         },
         {
           "page": 1175,
@@ -20440,7 +20608,11 @@
         {
           "page": 1673,
           "chapter": "104",
-          "available": true
+          "available": true,
+          "contextPage": 1674,
+          "imageFile": "hazzard8e_ch104_table104-1_p1673.png",
+          "anchor": "exam-p1673-mcq-f487d5826d3f57bd7350d653",
+          "passage": "Table 104-1"
         },
         {
           "page": 1675,
@@ -20694,7 +20866,9 @@
         {
           "page": 1489,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1489-mcq-356253b1a4c51ce96b4853a6",
+          "passage": "Diagnosis is suspected by the demonstration of granulocytosis in the peripheral blood with a"
         },
         {
           "page": 1490,
@@ -20726,7 +20900,9 @@
         {
           "page": 1495,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1495-mcq-356253b1a4c51ce96b4853a6",
+          "passage": "In DLBCL, the putative cell of origin as identified on GEP is prognostic, with germinal cent"
         },
         {
           "page": 1496,

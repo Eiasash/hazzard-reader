@@ -21,9 +21,9 @@ Fast build from the book; not lane-reviewed.
 - Reconcile medications and individualize surgical decisions using prior function, cognition, comorbidities and goals. Nonsurgical care may suit selected patients with very high operative risk or very short life expectancy. (p. 797)
 - Mobilize on the day of surgery if possible, certainly by postoperative day **1**; remove an inserted catheter the following morning. Monitor delirium, pulmonary complications and heart failure. (p. 797)
 <a id="p800"></a>
-- Match rehabilitation to functional loss, ability to participate, endurance and home support. Acute rehabilitation requires at least **3 hours/day** and at least two therapy disciplines. (p. 800)
+- Match rehabilitation to functional loss, endurance, ability to participate and home support. US Medicare inpatient rehabilitation generally requires **3 hours/day on at least 5 days/week**, or **15 hours within 7 consecutive days** in documented cases. At least two therapy disciplines are needed, including PT or OT (p800; [CMS inpatient rehabilitation criteria](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/inpatient-rehabilitation-hospitals)).
 <a id="p801"></a>
-- Continue DVT prophylaxis for **21-31 days** after surgery. Up to **50%** of previously independent older adults may need walking aids at **1 year**. (p. 801)
+- Hazzard gives **21–31 days** of postoperative thromboprophylaxis; NICE recommends **one month** after fragility hip/proximal femur fracture when VTE risk outweighs bleeding risk. Up to **50%** of previously independent older adults may need walking aids at **one year** (p801; NICE NG89, recommendation 1.11.2).
 
 ### Drugs & prevention
 - Individualize analgesia for sustained relief and therapy-related pain while minimizing sedation; the optimal regimen is not established here. A preoperative nerve block can reduce pain. (p. 797)
@@ -58,7 +58,7 @@ Fast build from the book; not lane-reviewed.
 
 **13. What participation requirements distinguish acute inpatient rehabilitation?**
 
-<details><summary>Answer</summary>Ability to participate for at least <strong>3 hours/day</strong>, with at least two rehabilitation disciplines involved. (p. 800)</details>
+<details><summary>Answer</summary>In a US Medicare inpatient rehabilitation facility, generally <strong>3 hours/day on at least 5 days/week</strong>, or <strong>15 hours in 7 consecutive days</strong> in documented cases. Multiple therapy disciplines are required, including PT or OT (p800; CMS inpatient rehabilitation criteria).</details>
 
 **14. What should be investigated when recovery is slower than expected?**
 

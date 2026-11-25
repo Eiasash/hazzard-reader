@@ -18,8 +18,8 @@ Study summary of Chapter 78 - Peripheral Vascular Disease; the book and the full
 **Carotid disease & aneurysm**
 - Carotid plaque can embolize and cause stroke; maximize antiplatelet, lipid and risk-factor management, including smoking cessation (p1212–1213).
 - The chapter generally favors endarterectomy over stenting in older patients; stenting has specific indications and is not routinely indicated for asymptomatic older patients (p1209–1210).
-- AAA means over **50%** vessel-diameter enlargement, generally above **3 cm** in men. It may remain silent until expansion or rupture (p1214).
-- Repair is generally considered above **5–5.5 cm**; endovascular repair has short-term advantages, but long-term outcomes can resemble open repair (p1210).
+- An abdominal aortic aneurysm is usually defined on ultrasound by an infrarenal aortic diameter **≥3.0 cm** or an enlargement at least 50% above the expected diameter. It can remain silent until expansion or rupture (p1214, USPSTF AAA screening recommendation).
+- For an unruptured AAA, ACC/AHA recommends repair at a maximal diameter **≥5.5 cm in men or ≥5.0 cm in women**. Symptoms attributable to the aneurysm or rapid growth may warrant earlier repair. Endovascular repair can have short-term benefits, with later outcomes dependent on anatomy, follow-up and reintervention (p1210).
 - Endovascular repair still requires long-term imaging follow-up; medical management includes smoking cessation and control of comorbid vascular risks (p1210, p1215).
 
 **Venous disease & exam traps**

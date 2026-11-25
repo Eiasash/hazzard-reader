@@ -5539,7 +5539,20 @@ const pendingHighlightChanges=new Map();
 let highlightHistory=[],highlightLoadFailed=false,highlightSaveFailed=false,displaySaveFailed=false;
 if('scrollRestoration' in history)history.scrollRestoration='manual';
 function unitScope(node){const base=node.closest('[data-claim]')?.dataset.claim||node.closest('[id]')?.id||node.tagName.toLowerCase();const cell=node.closest('td,th');return base+(cell?'|row:'+cell.closest('tr').querySelector('th')?.textContent.replace(/\s+/g,' ').trim()+'|'+cell.tagName:'')}
-function newUnit(text,parts=[],scope=''){const retained=markIdQueues.get(scope+'|'+text.replace(/\s+/g,' ').trim())?.shift();const u={id:retained||'u'+(++nextUnit),text,parts,marked:false,colour:null};unitMap.set(u.id,u);return u}
+function newUnit(text,parts=[],scope=''){
+  const retained=markIdQueues.get(scope+'|'+text.replace(/\s+/g,' ').trim())?.shift();
+  // A corrected sentence may occupy several adjacent spans. Its published ID
+  // still refers to the entire passage for highlights, bookmarks and reading place.
+  const existing=retained&&unitMap.get(retained);
+  if(existing){
+    existing.text=existing.text.trimEnd()+' '+text.trimStart();
+    existing.parts.push(...parts);
+    return existing;
+  }
+  const unit={id:retained||'u'+(++nextUnit),text,parts,marked:false,colour:null};
+  unitMap.set(unit.id,unit);
+  return unit;
+}
 function sentences(text){
   // Source line wrapping is whitespace, not a sentence break. Map normalized offsets back.
   let normalized='';const offsets=[];
@@ -6402,15 +6415,15 @@ window.HazzardHighlighter={textIndex,wrapIndexRange,sentences,answerMarking:()=>
 function placeRange(id,m){
   const ix=textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
   let best=-1,length=m.text.length,bestScore=-1;
-  function consider(text,at,newLength){
+  function consider(text,at,target,lengthAfter){
     let score=0;
     for(let i=1;i<=prefix.length&&i<=at&&text[at-i]===prefix[prefix.length-i];i++)score++;
     const end=at+m.text.length;
     for(let i=0;i<suffix.length&&text[end+i]===suffix[i];i++)score++;
-    if(score>bestScore){best=at;length=newLength;bestScore=score;}
+    if(lengthAfter>0&&score>bestScore){best=target;length=lengthAfter;bestScore=score;}
   }
   if(!m.text.length)return false;
-  for(let at=ix.s.indexOf(m.text);at!==-1;at=ix.s.indexOf(m.text,at+1))consider(ix.s,at,m.text.length);
+  for(let at=ix.s.indexOf(m.text);at!==-1;at=ix.s.indexOf(m.text,at+1))consider(ix.s,at,at,m.text.length);
   // Only exact, published wording aliases for the current numbered sentence may
   // relocate an old selection. Keep the original quote and context in storage.
   if(bestScore<prefix.length+suffix.length || best<0){
@@ -6423,11 +6436,28 @@ function placeRange(id,m){
       if(ix.s[start]===' ')start++;
       if(!ix.s.startsWith(alias.new,start))continue;
       const previous=ix.s.slice(0,start)+alias.old+ix.s.slice(start+alias.new.length);
-      if(m.text===alias.old){consider(previous,start,alias.new.length);continue;}
-      if(alias.old.length!==alias.new.length)continue;
+      if(m.text===alias.old){consider(previous,start,start,alias.new.length);continue;}
+      if(alias.old.length!==alias.new.length&&!alias.edits)continue;
+      function mapOffset(offset,end){
+        if(offset<0)return start+offset;
+        if(offset>=alias.old.length)return start+alias.new.length+offset-alias.old.length;
+        let delta=0;
+        for(const [oldStart,oldEnd,newStart,newEnd] of alias.edits||[]){
+          if(offset<oldStart)break;
+          if(oldStart===oldEnd&&offset===oldStart)return start+(end?newStart:newEnd);
+          if(offset===oldStart)return start+newStart;
+          if(offset<oldEnd)return start+(end?newEnd:newStart);
+          delta=newEnd-oldEnd;
+        }
+        return start+offset+delta;
+      }
       const low=Math.max(0,start-m.text.length+1),high=start+alias.old.length;
       for(let at=previous.indexOf(m.text,low);at!==-1&&at<high;at=previous.indexOf(m.text,at+1)){
-        consider(previous,at,m.text.length);
+        const left=at-start,right=left+m.text.length;
+        const moved=alias.movedPhrases?.find(([from,to])=>left>=from&&right<=to);
+        const begin=moved?start+moved[2]:mapOffset(left,false);
+        const end=moved?start+moved[3]:mapOffset(right,true);
+        consider(previous,at,begin,end-begin);
       }
     }
   }

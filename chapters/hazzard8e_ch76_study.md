@@ -53,7 +53,7 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 - **Bisoprolol** — start 1.25–2.5 mg daily → target 10 mg daily (p1179). The book calls these "the only three drugs that were studied and subsequently demonstrated benefit" — yet the same page reports **SENIORS** (age ≥70, n=2128): **nebivolol** significantly lowered death or CV hospitalization (p1179).
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
 - **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
-- **Spironolactone** — 12.5–50 mg daily; **eplerenone** — 25–50 mg daily; both contraindicated if creatinine **≥2.5 mg/dL** or hyperkalemia; SGLT2 inhibitors reduced death and HF hospitalizations in HFREF in DAPA-HF and EMPEROR-Reduced, with similar efficacy over age 75 and regardless of diabetes (p1181).
+- **Steroidal MRAs for symptomatic HFrEF:** initiate if **eGFR >30 mL/min/1.73 m²** and **serum K <5.0 mEq/L**, then monitor both. The chapter lists spironolactone **12.5–50 mg daily** and eplerenone **25–50 mg daily** and gives an older creatinine cutoff (p1181). DAPA-HF and EMPEROR-Reduced demonstrated improvements in their HF/CV composite outcomes, including in patients without diabetes. Mortality effects differed between trials.
   > Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
 - **Hydralazine/isosorbide dinitrate** — older-adult start 12.5–25 mg TID–QID / 10 mg TID–QID (p1182).
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
@@ -63,12 +63,12 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 
 ### Device Therapy
 - ICD: NYHA II–III HFREF, EF **≤35%** (primary prevention) or post-arrest VT/VF (secondary); benefit declines with age; patients **≥80y** are **twice as likely** as younger patients to have major implant complications (p1184).
-- CRT: NYHA II–IV HFREF, EF **≤35%**, QRS **≥150 ms**; improves symptoms/survival even in octogenarians, unlike ICD (p1184).
+- **CRT:** the strongest standard indication includes LVEF **≤35%**, sinus rhythm, **LBBB** and QRS **≥150 ms**, with NYHA II, III or ambulatory IV symptoms despite guideline-directed therapy. In selected older adults, CRT improves symptoms, quality of life and survival. ICD therapy targets arrhythmic sudden death (p1184, AHA/ACC/HFSA 2022).
 - MitraClip (COAPT trial, **n=614**, HFREF + moderate-severe secondary MR despite max GDMT): lower HF hospitalization and lower all-cause mortality vs medical therapy alone (p1184).
 
 ### HFPEF-Specific Therapy
-- Only **SGLT2 inhibitors** show consistent benefit in HFPEF trials to date (p1184).
-- EMPEROR-Preserved (**n=5988**, EF **>40%**): death/HF hospitalization HR **0.79** (95% CI 0.69–0.90, *p*<0.001), driven by fewer HF hospitalizations; effect consistent regardless of diabetes status (p1188). Dapagliflozin also improved symptoms/exercise function over 12wk in the smaller Preserved-HF trial (n=324) (Table 76-11, p1185).
+- SGLT2 inhibitors reduced HF events in preserved/mildly reduced EF trials. Subsequent **FINEARTS-HF** also demonstrated a reduction with finerenone in the composite rate of total worsening HF events and cardiovascular deaths among participants with LVEF ≥40% (p1184 describes the earlier evidence).
+- **EMPEROR-Preserved:** in 5,988 patients with EF >40%, empagliflozin reduced the combined risk of **cardiovascular death or hospitalization for HF** (HR 0.79, 95% CI 0.69–0.90, p<0.001), mainly through fewer HF hospitalizations. Results were consistent regardless of diabetes. PRESERVED-HF, a smaller dapagliflozin trial of 324 patients, assessed symptoms and exercise function at 12 weeks (p1185, 1188).
 - Digoxin **not recommended** in HFPEF except as an adjunct for rate control in AF (p1188).
 
 ### Prognosis & End-of-Life
@@ -82,16 +82,16 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 
 ### Exam traps / book contradictions
 - **Two EF numbers for HFREF, not a contradiction — a general range narrowed to a working cutoff**: the chapter first gives the general literature range ("less than 40% to 50%"), then explicitly adopts **EF <45%** as its working definition for HFREF (**≥45%** for HFPEF) for the rest of the discussion (p1175). A question could test either number.
-- β-blockers: the book says carvedilol, metoprolol succinate, and bisoprolol (the 3 US-approved for HF) are "the only three" proven and "should be used" — but the same page reports SENIORS: **nebivolol** significantly lowered death/CV hospitalization in patients ≥70 (p1179). Book contradicts itself: pick the 3 for "which β-blockers should be used", but don't reject nebivolol as "no outcome benefit". Metoprolol tartrate is an acceptable titration-phase alternative (p1179).
+- The three **guideline-recommended HFrEF beta blockers** are carvedilol, metoprolol succinate and bisoprolol. US labeling for bisoprolol alone is for hypertension, although its HFrEF efficacy is established. Among 2,128 patients aged ≥70, SENIORS found a benefit from nebivolol on the composite of death or cardiovascular hospitalization. These are separate evidence and regulatory questions (p1179).
 - Digoxin lowers HF hospitalizations but has **no mortality benefit** in either HFREF (DIG trial) or HFPEF (DIG ancillary) — a trap for assuming any drug that reduces hospitalizations also reduces mortality (p1182, p1188).
 
 ## Recall
 
-**1. Roughly how many Americans are affected by heart failure today, and what is the projected total by 2030?**
+**1. What US heart failure prevalence did Hazzard report, and how many affected adults did the cited projection anticipate by 2030?**
 
 <details><summary>Answer</summary>
 
-About 6.5 million today; projected to exceed 8 million by 2030 (p1166).
+Hazzard reported about **6.5 million** US patients and projected **over 8 million by 2030** (p1166). Both figures refer to the chapter's reporting period and forecast.
 
 </details>
 
@@ -135,11 +135,11 @@ Carvedilol 25–50 mg BID, metoprolol succinate 100–200 mg daily, bisoprolol 1
 
 </details>
 
-**11. What creatinine threshold contraindicates mineralocorticoid receptor antagonists (spironolactone/eplerenone), and what is spironolactone's typical dose range?**
+**11. What renal-function and potassium thresholds govern MRA initiation in HFrEF, and which spironolactone dose range does the chapter describe?**
 
 <details><summary>Answer</summary>
 
-Creatinine ≥2.5 mg/dL (or preexisting hyperkalemia); spironolactone 12.5–50 mg once daily (p1181).
+For MRA initiation in HFrEF, **eGFR must be above 30 mL/min/1.73 m² and potassium below 5.0 mEq/L**. Monitor both after starting. The chapter describes spironolactone **12.5–50 mg once daily** (p1181, AHA/ACC/HFSA 2022).
 > Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
 
 </details>
@@ -156,15 +156,15 @@ Creatinine ≥2.5 mg/dL (or preexisting hyperkalemia); spironolactone 12.5–50 
 
 <details><summary>Answer</summary>
 
-EF ≤35% and QRS ≥150 ms in NYHA II–IV HFREF. Unlike an ICD (which reduces sudden death but does not improve quality of life), CRT improves symptoms, exercise tolerance, quality of life, and survival — including in octogenarians (p1184).
+The clearest CRT indication is symptomatic NYHA II, III or ambulatory IV HFrEF despite guideline-directed treatment, **EF ≤35%**, sinus rhythm, **LBBB** and **QRS ≥150 ms**. CRT can improve function and survival in selected octogenarians. An ICD prevents arrhythmic sudden death (p1184).
 
 </details>
 
-**14. Which drug class is the only one with consistent trial benefit in HFPEF, and what was the key outcome in its largest preserved-EF trial?**
+**14. Which drug class was tested in EMPEROR-Preserved, and which outcome drove the trial's composite benefit?**
 
 <details><summary>Answer</summary>
 
-SGLT2 inhibitors. In EMPEROR-Preserved (n=5988, EF >40%), empagliflozin reduced death or HF hospitalization (HR 0.79, 95% CI 0.69–0.90, p<0.001), driven mainly by fewer HF hospitalizations, regardless of diabetes status (p1188).
+Empagliflozin, an **SGLT2 inhibitor**, reduced cardiovascular death or HF hospitalization in EMPEROR-Preserved (n=5,988, EF >40%, HR 0.79, 95% CI 0.69–0.90). Fewer HF hospitalizations drove the result, irrespective of diabetes status (p1188).
 
 </details>
 

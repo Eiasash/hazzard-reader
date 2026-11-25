@@ -29,7 +29,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 
 **Drugs — antipsychotics** (all carry a black-box mortality warning in dementia)
 - No significant benefit after a **4-week period** → taper and withdraw; reassess at least monthly while tapering and for at least **4 months** after stopping (p927).
-- Delirium-related agitation (short-term, low-dose), all q6h PRN: haloperidol **0.25–0.5 mg** PO/IV, quetiapine **12.5–25 mg** PO, olanzapine **2.5 mg** PO or **1.25–2.5 mg** IM, or risperidone **0.25–0.5 mg** PO/IV (p923).
+- For significant delirium-related agitation requiring short-term medication, the chapter gives these low PRN doses at six-hour intervals (p923). Haloperidol **0.25–0.5 mg** orally (IV only with appropriate monitoring), quetiapine **12.5–25 mg** orally, olanzapine **2.5 mg** orally or **1.25–2.5 mg** IM, or risperidone **0.25–0.5 mg orally**. There is no approved IV risperidone formulation.
   > Current practice (not the book): risperidone is not given IV; Risperdal Consta is IM only — "Do not administer intravenously" — Risperdal Consta prescribing information (Janssen).
 - Risperidone **0.25–1 mg**/day — most effective for psychosis and agitation per AHRQ review; dose-dependent EPS, ↑cerebrovascular risk (p928).
 - Olanzapine **2.5–10 mg**/day — most effective for agitation per AHRQ review; sedation, weight gain, glucose effects (p928).

@@ -55,7 +55,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - Sporadic prion disease (CJD): typically diagnosed **60s**, age range **40-80** (p876)
 - **Normal pressure hydrocephalus (NPH)** makes up **~6%** of dementia cases; classic triad = gait/balance disturbance, urinary incontinence, cognitive deficits; unlike most other dementias, cognitive symptoms often present *later* in the course (p876)
 - NPH shunt outcomes: at 6 months, **83%** improved gait and **46%** improved memory; at 5 years, only **39%** of surviving shunt cases remained gait-improved and **<10%** still showed cognitive improvement (p876)
-- **10%** of US HIV cases are in patients ≥50; with modern ART, progression to HIV dementia is rare (**2-3%**), but milder deficits occur in **50-60%** (p876)
+- CDC reported that **over half** of people living with diagnosed HIV in the US were aged 50 or older at the end of 2021. Hazzard cites an older 10% figure and reports **2–3%** progression to HIV-associated dementia with combination ART and **50–60%** prevalence of milder cognitive deficits in the cohorts it reviews (p876).
 - Neurosyphilis dementia classically emerges **5-25 years** after initial infection (p876)
 
 ## Recall
@@ -108,10 +108,10 @@ NPH makes up about 6% of dementia cases. At 6 months post-shunt, 83% improve in 
 
 </details>
 
-**15. Roughly what fraction of US HIV cases are in patients 50 or older, and how common is progression to HIV-associated dementia with modern antiretroviral therapy?**
+**15. What proportion of people living with diagnosed HIV in the US were aged 50 or older in CDC's 2021 data, and how does the chapter distinguish dementia from milder cognitive deficits?**
 
 <details><summary>Answer</summary>
 
-About 10% of US HIV cases are in patients 50+; progression to HIV-associated dementia is now rare (2-3%) with combination antiretroviral therapy, though milder cognitive deficits still occur in 50-60% (p876).
+Over half were 50 or older at the end of 2021 in CDC surveillance. The chapter's treated cohorts had an estimated 2–3% progression to HIV-associated dementia, while milder cognitive deficits were more frequent (50–60%, p876).
 
 </details>

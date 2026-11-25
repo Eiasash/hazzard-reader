@@ -32,7 +32,7 @@ Study summary of Chapter 98 — Thyroid Diseases; the book and the full chapter 
 - IV levothyroxine dose = **75%** of the oral dose (p1552).
 - Missing **1 dose/week** on a 112 μg daily regimen drops the effective average dose to 96 μg — check adherence before assuming disease progression when TSH varies (p1552).
 - Up to **40%** of older adults on thyroid hormone replacement have a low TSH (iatrogenic overreplacement) — risk mirrors endogenous hyperthyroidism (AF, bone loss) (p1552).
-- Subclinical hypothyroidism = high TSH, normal free T4; prevalence **4%** general population, **~10%** at 65+. Retest in **1-3 months** if TSH 4.5-14.9 mIU/mL, or **1-2 weeks** if ≥15.0 (p1553). *[sic — the book's own Figure 98-4, p1554, gives thyrotropin in mU/L]*
+- Subclinical hypothyroidism = high TSH, normal free T4; prevalence **4%** general population, **~10%** at 65+. Retest in **1-3 months** if TSH 4.5-14.9 mIU/L, or **1-2 weeks** if ≥15.0 (p1553). *(Figure 98-4, p1554, confirms mU/L; the p1553 prose misprints the unit.)*
 - TSH **≥10 mIU/L** predicts CV mortality, CHD, and heart failure; TSH **≥7 mIU/L** predicts CV mortality alone (p1553). Per Figure 98-4, treat if TSH is persistently **≥10.0 mU/L** (age ≥65); consider treatment at **7.0-9.9 mU/L** (p1553). *(Figure 98-4, p1554, uses mU/L; the prose on p1553 misprints mU/mL.)*
 - **Myxedema coma**: give IV hydrocortisone **before/with** thyroid hormone — treating with thyroid hormone alone can precipitate adrenal crisis. Initial levothyroxine **200-400 μg**, then **75-100 μg/day**; avoid added T3 (cardiac risk) (p1553).
 

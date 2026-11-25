@@ -29,7 +29,7 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 
 <a id="p732"></a>**[p. 732]**
 
-- **EWGSOP2:** assess strength first when sarcopenia is suspected; use muscle mass to confirm a muscular contribution to weakness. The book calls low strength without a mass measurement **“suspected sarcopenia.”** Muscle quality may substitute for mass; low physical performance indicates severity and greater adverse-outcome risk. Case finding uses symptoms or questionnaires (p732).
+- **EWGSOP2:** assess strength first when sarcopenia is suspected; use muscle mass to confirm a muscular contribution to weakness. Low strength is **probable sarcopenia** in EWGSOP2. Hazzard uses “suspected” for this stage before muscle quantity or quality is measured. Muscle quality may substitute for mass; low physical performance indicates severity and greater adverse-outcome risk. Case finding uses symptoms or questionnaires (p732; [EWGSOP2 consensus](https://doi.org/10.1093/ageing/afy169)).
 - The updated **AWGS** approach also starts with case finding, but setting changes the pathway. In specialized care, strength precedes performance and mass assessment. Its criteria and thresholds are not interchangeable with the European criteria (p732).
 - **SDOC:** low grip strength and slow usual gait speed independently predict falls, mobility limitation, hip fracture, and mortality in community-dwelling older adults. DXA lean mass did not predict incident adverse outcomes, with or without body-size adjustment; SDOC recommends including strength and gait speed, excluding DXA low muscle mass from its definition (p732).
 - Definitions that use low mass alone can yield community prevalence as high as **40%**; definitions incorporating function give about **10–15%**. Incidence may exceed **3% per year**, but has been studied less (p732).
@@ -48,7 +48,7 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 - Aging impairs the balance of protein synthesis and breakdown: uptake falls, catabolism probably rises, and muscle is lost. Fast fibers and their satellite cells are particularly affected. Increasing extracellular and intra-/intermuscular fat produces **myosteatosis**. Mitochondrial dysfunction, altered IGF-1/mTOR/FoxO signaling, and altered gene expression are also implicated (p734).
 - Neural control changes contribute, but their relative importance is uncertain. Nutrition alone cannot correct neural impairment; exercise acts through both neural and muscular pathways. Muscle–bone endocrine communication is being studied. Coexisting osteoporosis and sarcopenia increase adverse outcomes; the chapter calls this **osteosarcopenia** (p734).
 - **SARC-F asks about perceived strength, assistance walking, rising from a chair, climbing stairs, and falls.** It can be self-administered. It does not ask about descending stairs, bed transfers, or bone-density measurement as its listed components (Table 49-3, p734).
-- The book reports high sensitivity at a low cutoff **>1 point** and good specificity at a high cutoff **>4**. Preserve those printed inequalities. Screening has **not been proved cost-effective**, universally or in selected settings/populations. SARC-F can help in settings with a high expected prevalence, including geriatric clinics, hospital, rehabilitation, and nursing homes; modified versions may add calf circumference (p734).
+- The book reports high sensitivity at a low cutoff **>1 point** and good specificity at a high cutoff **>4**. These are thresholds compared in the chapter. The usual positive SARC-F screen is **≥4/10** (p771). Screening has **not been proved cost-effective**, universally or in selected settings/populations. SARC-F can help in settings with a high expected prevalence, including geriatric clinics, hospital, rehabilitation, and nursing homes; modified versions may add calf circumference (p734).
 - Weakness, slow movement, visible wasting, falls, ADL difficulty, or difficulty rising from bed/chair can trigger assessment even without questionnaire screening. Under the chapter's EWGSOP2 pathway, first measure **handgrip strength** using a validated standardized protocol. A hydraulic Jamar dynamometer has the largest evidence base. Direct leg-strength testing requires more expensive equipment and lacks established population cutoffs; grip is a practical proxy (p734).
 
 <details data-claim="ch49-table49-3"><summary>Book table: SARC-F components (p734)</summary>
@@ -130,7 +130,7 @@ Supporting table on the cited page; the official SPPB question does not explicit
 
 <details><summary>Answer</summary>
 
-Strength first; muscle mass or quality supports confirmation; low physical performance indicates severity. The book calls low strength without mass measurement “suspected sarcopenia” (p732).
+In EWGSOP2, low strength indicates **probable sarcopenia**. Low muscle quantity or quality confirms it, and low physical performance indicates severity. Hazzard calls the probable stage “suspected” (p732; EWGSOP2 consensus).
 
 </details>
 
@@ -154,7 +154,7 @@ Perceived strength, assistance walking, rising from a chair, climbing stairs, an
 
 <details><summary>Answer</summary>
 
-High sensitivity with a cutoff >1 point; good specificity with a cutoff >4. Screening cost-effectiveness has not been established (p734).
+The chapter reports high sensitivity above 1 point and good specificity above 4 when comparing thresholds (p734). The usual positive SARC-F screen is **4/10 or higher** (p771). Screening cost-effectiveness has not been established.
 
 </details>
 

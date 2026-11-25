@@ -11,7 +11,7 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 
 **Screening & diagnosis (PHQ-9)**
 - PHQ-9 scoring: **0–4** = no/insignificant symptoms, **5–9** = mild/subsyndromal depression, **≥10** = typically correlates with major depression and warrants further evaluation and clinical intervention (p1009, p1012).
-- Diagnostic algorithm by symptom count (Fig 65-2, p1011): 1–4 symptoms + functional impairment → "other" (reassurance); 2–4 symptoms + Q1/Q2 + impairment → minor depression (watchful waiting); 3–4 symptoms + Q2 (mood) present **2 years** + impairment → chronic depression (probably dysthymia); **5** symptoms + Q1/Q2 + impairment → major depression, graded moderate at PHQ-9 **15–19** and severe at PHQ-9 **20** (as printed in the table).
+- Figure 65-2 combines symptom count, depressed mood or loss of interest, duration and functional impairment to guide diagnostic assessment. Its chronic-depression row specifies mood symptoms for two years. For standardized **PHQ-9 severity**, 10–14 is moderate, 15–19 moderately severe, and 20–27 severe (p1011, Kroenke et al.). The score supports evaluation and does not independently diagnose major depression.
 - Item 9 asks about death wishes or more intensive suicidal ideation — clearly an important part of the assessment (p1012).
 - Two core distinguishing features of geriatric depression: **anhedonia** and **hopelessness** — they may be important clues when deficits in basic needs (Maslow's hierarchy, Fig 65-1) are more apparent than depressed mood (p1008).
 - **Social isolation** (objective — network size, contact frequency) vs **loneliness** (subjective — perceived inadequacy of connection) are distinct but closely related constructs; loneliness is fundamentally related to depression, whereas some isolation (living alone, selectivity) may reflect capability and preference and need not signify a problem (p1009).
@@ -27,7 +27,7 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 - Structured psychotherapy trials run **~3 months**; if no improvement by **1–2 months**, consider switching modality (p1014).
 
 **Treatment options**
-- **ECT**: response rate **>80%**, remission rate **>60%** — no trial has ever shown medications more effective than ECT, and older patients respond even better than younger adults; course is **3–6 treatments/week for 2–4 weeks**; few side effects — short-term memory loss almost always resolves within a few weeks (p1014).
+- In studies summarized by Hazzard, ECT response exceeded **80%** and remission exceeded **60%**, with favorable responses in older adults (p1014). The APA describes an acute course commonly given **2–3 times weekly**, often **6–12 sessions**. Confusion and difficulty learning new material usually improve, but some autobiographical memory gaps may persist.
   > Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
 - Antidepressants do **not** show benefit for minor/subsyndromal depression despite it having similar health/QOL impact to major depression — don't reflexively medicate mild cases (p1012, p1015).
 - Antidepressants do **not generally work in dementia**-associated depression; favor behavioral/caregiver-support interventions instead (p1015).
@@ -37,8 +37,8 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 
 **Stopping antidepressants**
 - DSM-5 defines major depression as an "episode" — expected to improve over time even without treatment, which complicates decisions about indefinite maintenance therapy (p1015).
-- Most **SSRIs, SNRIs, and mirtazapine** can be tapered over **2–4 weeks**; **tricyclics need several months** (p1016).
-- **Fluoxetine** is the exception — its long half-life means it does not require tapering, and a single **20 mg** dose can even be used to smooth withdrawal from other antidepressants (p1016).
+- Reduce antidepressants in steps, with smaller reductions as the dose falls. Hazzard describes 2–4 weeks for many SSRIs, SNRIs and mirtazapine and longer courses for TCAs (p1016). NICE recommends adjusting the pace to the drug, duration, prior withdrawal and symptoms. Some patients need weeks or months.
+- **Fluoxetine** has a long half-life. NICE allows a period of alternate-day dosing for some people taking 20 mg/day and recommends gradual withdrawal at 40–60 mg/day. A clinician-directed switch from another drug requires attention to interactions and washout (p1016, NICE NG222 recommendation 1.4.18).
   > Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
 - Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016).
 
@@ -79,7 +79,7 @@ About 5% — lower than in other age groups; among older adults, greater age bri
 
 <details><summary>Answer</summary>
 
-Moderate: PHQ-9 score 15–19. Severe: "PHQ-9 score of 20" as printed in the Fig 65-2 table (p1011).
+The validated PHQ-9 grades are 10–14 moderate, 15–19 moderately severe and 20–27 severe. Figure 65-2 prints “moderate” for 15–19 and “20” for severe, which differs from the validated severity bands (p1011, Kroenke et al.).
 
 </details>
 
@@ -119,7 +119,7 @@ Response rate >80%, remission rate >60% — no trial has ever found medications 
 
 <details><summary>Answer</summary>
 
-Three to six treatments per week for 2 to 4 weeks; ECT has few side effects, and short-term memory loss almost always resolves within a few weeks after the course (p1014).
+The APA describes **two or three ECT treatments per week**, often **6–12 treatments**, individualized to response. Post-treatment confusion and difficulty retaining new information usually improve. Some memory gaps for events around the treatment period can persist. The chapter gives a different historical frequency (p1014).
 > Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
 
 </details>
@@ -140,11 +140,11 @@ Almost half of residents in some nursing home populations are prescribed an anti
 
 </details>
 
-**13. What tapering schedule applies to most SSRIs, SNRIs, and mirtazapine, and to tricyclic antidepressants? Which antidepressant is an exception to tapering, and why?**
+**13. How should antidepressant tapering be individualized, and how does fluoxetine's long half-life affect dose reduction?**
 
 <details><summary>Answer</summary>
 
-Most SSRIs/SNRIs/mirtazapine: taper over 2–4 weeks; tricyclics: taper over several months. Fluoxetine is the exception — its long half-life means it does not require tapering, and a single 20 mg dose can even smooth withdrawal from other antidepressants (p1016).
+Reduce in steps guided by symptoms, half-life and duration of treatment. The book gives 2–4 weeks as an example for several agents and longer tapers for TCAs (p1016). NICE notes that 20 mg/day of fluoxetine can sometimes be reduced with alternate-day dosing, while 40–60 mg/day requires gradual reduction.
 > Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
 
 </details>

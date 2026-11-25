@@ -94,6 +94,9 @@ def build(write=True):
                     location['anchor'] = anchor
                 cue = mapping.get('passages', {}).get(str(location['page']))
                 if cue and not anchor and not location.get('citationOnly'):
+                    if isinstance(cue, dict):
+                        location.update({key: cue[key] for key in ('contextPage', 'rangeText', 'imageFile') if key in cue})
+                        cue = cue['text']
                     location.update(anchor=f"exam-p{location['page']}-{ident}", passage=cue)
             entry['chapters'] = mapping.get('chapters', list(dict.fromkeys(p['chapter'] for p in entry['pages'])))
             entry['tables'] = mapping.get('tables', [])

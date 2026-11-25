@@ -70,7 +70,7 @@ Study summary of Chapter 83; the book and the full chapter are the reference.
 
 ### ESKD Complications
 - Anemia: typically develops around GFR **~35 mL/min**; normochromic, normocytic (p1294). The chapter gives a conservative hemoglobin level near **11.5 g/dL** and misprints the unit as mg/dL (p1294); [KDIGO 2026, recommendation 3.3.1](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf) advises an ESA treatment target below 11.5 g/dL in adults with CKD.
-- Functional iron deficiency in ESKD: ferritin **<500 ng/mL** or iron saturation **<30%** (p1294).
+- Hazzard describes ferritin **<500 ng/mL** or transferrin saturation **<30%** under its historical “functional iron deficiency” wording (p1294). In anemic patients receiving hemodialysis, [KDIGO 2026 recommendation 2.1](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf) suggests starting iron when **both** ferritin is **≤500 ng/mL** and transferrin saturation is **≤30%**.
 - Cardiovascular death risk on dialysis: **10–100×** the general-population risk (p1294).
 - Secondary hyperparathyroidism: PTH begins rising by GFR **~40 mL/min** (p1295).
 - Pyridoxine (vitamin B6) supplementation for malnutrition: **50 mg/day** (p1295).

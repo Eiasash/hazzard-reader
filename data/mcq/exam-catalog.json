@@ -5880,7 +5880,8 @@
         "bankChapter": "60",
         "passages": {
           "929": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act ",
-          "930": "Mirtazapine Mirtazapine is a nonadrenergic and specific serotonergic antidepressant. In the "
+          "930": "Mirtazapine Mirtazapine is a nonadrenergic and specific serotonergic antidepressant. In the ",
+          "928": "Aside from depression, antidepressants are also used to treat other NPS, including anxiety, "
         }
       }
     },
@@ -6131,7 +6132,8 @@
         ],
         "bankChapter": "82",
         "passages": {
-          "1268": "thereafter. Care should be taken when reading the literature to keep in mind that changes ob"
+          "1268": "thereafter. Care should be taken when reading the literature to keep in mind that changes ob",
+          "1269": "Proteinuria Despite the significant decline in GFR that occurs with aging, proteinuria is no"
         }
       }
     },
@@ -6683,7 +6685,8 @@
         "passages": {
           "912": "Table 59-7 — FDA-approved medications for the treatment of Alzheimer disease, reproduced as ",
           "913": "Table 59-7",
-          "914": "Table 59-7 (continued) — FDA-approved medications for the treatment of Alzheimer disease, re"
+          "914": "Table 59-7 (continued) — FDA-approved medications for the treatment of Alzheimer disease, re",
+          "910": "Acetylcholinesterase inhibitors (AChEIs) are the mainstay of therapy for AD. AChEIs increase"
         }
       }
     },
@@ -6876,7 +6879,8 @@
           432
         ],
         "passages": {
-          "432": "Pulmonary aspiration is a relatively common complication of EN, but unless aspiration causes"
+          "432": "Pulmonary aspiration is a relatively common complication of EN, but unless aspiration causes",
+          "431": "Table 30-12"
         }
       }
     },
@@ -7051,7 +7055,8 @@
           795
         ],
         "passages": {
-          "794": "Approximately half of all hip fractures occur in the area of the femoral neck (or “intracaps"
+          "794": "Approximately half of all hip fractures occur in the area of the femoral neck (or “intracaps",
+          "795": "Figure 53-2"
         }
       }
     },
@@ -7192,7 +7197,8 @@
         "passages": {
           "774": "Table 51-5",
           "776": "Denosumab is a humanized monoclonal antibody that binds to RANKL and inhibits osteoclast act",
-          "775": "Zoledronic acid In postmenopausal women (mean age 73) with osteoporosis (BMD ≤ −2.5 or radio"
+          "775": "Zoledronic acid In postmenopausal women (mean age 73) with osteoporosis (BMD ≤ −2.5 or radio",
+          "773": "Alendronate The efficacy of alendronate has been well established in increasing BMD at all s"
         }
       }
     },
@@ -7350,7 +7356,12 @@
           991
         ],
         "passages": {
-          "984": "The clinical course of DLB is often faster than that seen in AD and a drop of four to five p"
+          "984": "The clinical course of DLB is often faster than that seen in AD and a drop of four to five p",
+          "991": {
+            "text": "Treatment approaches for FTD and related disorders are generally aimed at symptom management",
+            "contextPage": 990,
+            "rangeText": "There is no theoretical basis for the use of cholinesterase inhibitors, which can aggravate agitation."
+          }
         }
       }
     },
@@ -7386,7 +7397,8 @@
         "bankChapter": "90",
         "passages": {
           "1416": "The goal of ADT is to decrease the level of testosterone available to potentiate growth of t",
-          "1417": "Given the potential for improved survival for patients remaining on testicular androgen supp"
+          "1417": "Given the potential for improved survival for patients remaining on testicular androgen supp",
+          "1418": "Chemotherapy Chemotherapy still has an important role in mCRPC after progressing through the"
         }
       }
     },
@@ -7575,7 +7587,8 @@
           210
         ],
         "passages": {
-          "209": "A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) or develop ("
+          "209": "A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) or develop (",
+          "210": "Table 15-3"
         }
       }
     },
@@ -7786,8 +7799,13 @@
         "passages": {
           "1179": "In general, the treatment of HFREF in older patients does not differ substantially from that",
           "1180": "Angiotensin receptor neprilysin inhibitor (ARNi) Sacubitril inhibits a neprilysin, a neutral",
-          "1182": "The Digitalis Investigation Group (DIG) reported the results of a prospective randomized tri"
-        }
+          "1182": "The Digitalis Investigation Group (DIG) reported the results of a prospective randomized tri",
+          "1181": "Sodium-glucose cotransporter-2 inhibitors (SGLT2 inhibitors) Sodium-glucose cotransporter-2 ",
+          "1176": "By virtue of age and their preexisting cardiopulmonary syndrome, older adults with heart fai"
+        },
+        "supportPages": [
+          1176
+        ]
       }
     },
     "3306": {
@@ -9234,7 +9252,8 @@
           "57"
         ],
         "passages": {
-          "873": "Behavioral variant FTLD This diagnostic category (bvFTD) accounts for nearly 50% to 60% of a"
+          "873": "Behavioral variant FTLD This diagnostic category (bvFTD) accounts for nearly 50% to 60% of a",
+          "864": "Table 57-3"
         }
       }
     },
@@ -9423,7 +9442,7 @@
           993
         ],
         "passages": {
-          "873": "Primary progressive aphasia PPA typically occurs in the fifth or sixth decade of life, and i"
+          "873": "Frontotemporal lobar degeneration (FTLD) is caused by a range of underlying neuropathologic "
         }
       }
     },
@@ -9494,7 +9513,8 @@
           "108"
         ],
         "passages": {
-          "1737": "Coronaviruses are a large family of enveloped, positive-strand RNA viruses that are endemic "
+          "1737": "Coronaviruses are a large family of enveloped, positive-strand RNA viruses that are endemic ",
+          "1738": "Similar to SARS-CoV, SARS-CoV-2 binds to the angiotensin-converting enzyme 2 receptor to ent"
         }
       }
     },
@@ -9737,7 +9757,8 @@
         "passages": {
           "1116": "Table 73-1",
           "1118": "Left ventricular and atrial size Changes in LV cavity size with aging have been a matter of ",
-          "1119": "Due to increasing LV mass and free wall thickness and shrinking LV size, prior studies among"
+          "1119": "Due to increasing LV mass and free wall thickness and shrinking LV size, prior studies among",
+          "1120": "Atrial septum The atrial septum thickens and becomes stiffer with age, probably owing to fat"
         }
       }
     },
@@ -9806,7 +9827,12 @@
           "92"
         ],
         "passages": {
-          "1448": "Treatment—Primary Liver Cancer Treatment options for older adults with HCC restricted to the"
+          "1448": "Treatment—Primary Liver Cancer Treatment options for older adults with HCC restricted to the",
+          "1449": {
+            "text": "lenvatinib. Second-line therapy for HCC now includes regorafenib for those for whom sorafeni",
+            "contextPage": 1448,
+            "rangeText": "Second-line therapy for HCC now includes regorafenib"
+          }
         }
       }
     },
@@ -9865,7 +9891,8 @@
           "76"
         ],
         "passages": {
-          "1187": "differ between groups, but patients randomized to candesartan experienced a significant 16% "
+          "1187": "differ between groups, but patients randomized to candesartan experienced a significant 16% ",
+          "1186": "β-Blockers β-Blockers have little or no direct effect on diastolic function, but theoretical"
         }
       }
     },
@@ -10162,7 +10189,9 @@
         ],
         "bankChapter": "82",
         "passages": {
-          "1271": "The definition of hyperkalemia varies from laboratory to laboratory and from clinical report"
+          "1271": "The definition of hyperkalemia varies from laboratory to laboratory and from clinical report",
+          "1270": "Hypokalemia can result from poor intake (eating disorders, alcoholism), increased losses (di",
+          "1533": "Evaluation and management of primary hyperaldosteronism and pheochromocytoma The initial eva"
         }
       }
     },
@@ -10235,7 +10264,12 @@
           "63"
         ],
         "passages": {
-          "994": "Mild TBI, synonymous with “concussion” and defined as head injury with less than 30 minutes "
+          "994": "Mild TBI, synonymous with “concussion” and defined as head injury with less than 30 minutes ",
+          "995": {
+            "text": "Mild TBI, synonymous with “concussion” and defined as head injury with less than 30 minutes ",
+            "contextPage": 994,
+            "rangeText": "There are also behavioral symptoms such as irritability, anxiety, and depression, and even subtle personality changes."
+          }
         }
       }
     },
@@ -10808,7 +10842,8 @@
         ],
         "bankChapter": "69",
         "passages": {
-          "1073": "Evaluation of Dyspnea (Breathlessness) Due to the high rates of COPD and heart failure in ol"
+          "1073": "Evaluation of Dyspnea (Breathlessness) Due to the high rates of COPD and heart failure in ol",
+          "1074": "In patients with COPD and hypoxia, long-term oxygen therapy increases QoL and prolongs survi"
         }
       }
     },
@@ -10965,7 +11000,14 @@
         ],
         "namedChapters": [
           "58"
-        ]
+        ],
+        "passages": {
+          "881": {
+            "text": "The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought ",
+            "contextPage": 880,
+            "rangeText": "tomography (SPECT) studies have shown that delirium is mostly associated with decreased cerebral blood flow, but these results have been variable."
+          }
+        }
       }
     },
     "3411": {
@@ -11133,7 +11175,12 @@
           "52"
         ],
         "passages": {
-          "788": "Glucocorticoid agents Intra-articular glucocorticoid (eg, methylprednisolone, triamcinolone)"
+          "788": "Glucocorticoid agents Intra-articular glucocorticoid (eg, methylprednisolone, triamcinolone)",
+          "789": {
+            "text": "be bothersome despite oral pharmacologic therapies. They are particularly efficacious in pat",
+            "contextPage": 788,
+            "rangeText": "pain relief typically lasts for up to 2 months"
+          }
         }
       }
     },
@@ -11364,7 +11411,13 @@
           "60"
         ],
         "passages": {
-          "927": "Antipsychotics provide (at times considerable) benefit to some patients with psychosis and a"
+          "927": "Antipsychotics provide (at times considerable) benefit to some patients with psychosis and a",
+          "919": "Nonpharmacologic interventions should be the first-line treatment and antipsychotics should ",
+          "920": {
+            "text": "Appropriate indications for medications include failure of nonpharmacologic therapies and pr",
+            "contextPage": 919,
+            "rangeText": "Appropriate indications for medications include failure of nonpharmacologic therapies and presence of NPS severe enough to interfere with the patient’s overall quality of life and function."
+          }
         }
       }
     },
@@ -11439,7 +11492,8 @@
           "81"
         ],
         "passages": {
-          "1253": "The systemic adverse effects of ICS are well described. Several have unique implications in "
+          "1253": "The systemic adverse effects of ICS are well described. Several have unique implications in ",
+          "1254": "Importantly, meta-analyses of RCT and a large case-control study have observed an increase ("
         }
       }
     },
@@ -11706,7 +11760,11 @@
         "bankChapter": "93",
         "passages": {
           "1457": "Differential diagnosis Several lesions may present similarly to an AK. Of these, it is most ",
-          "1458": "Differential diagnosis There are several dermatologic lesions that can present similarly to "
+          "1458": "Differential diagnosis There are several dermatologic lesions that can present similarly to ",
+          "1459": "Clinical presentation A majority of cutaneous SCCs (80%) develop in chronically sun-exposed ",
+          "1460": "macule), and BCC. Any lesion suspicious for cancer, including persistent ulcers, should be b",
+          "1461": "Topical chemotherapy (5-fluorouracil, imiquimod) The two main topical chemotherapeutic agent",
+          "1463": "patients with limited life expectancy, some providers also consider active surveillance appr"
         }
       }
     },
@@ -11799,7 +11857,8 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1391": "Nausea and vomiting One complication frequently seen in treatment of the older adult with ca"
+          "1391": "Nausea and vomiting One complication frequently seen in treatment of the older adult with ca",
+          "1263": "Table 81-14"
         }
       }
     },
@@ -11873,7 +11932,8 @@
           "68-3"
         ],
         "passages": {
-          "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
+          "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca",
+          "1063": "Table 68-8"
         }
       }
     },
@@ -12843,7 +12903,8 @@
         ],
         "passages": {
           "1267": "Aging in the kidney is characterized by changes in both structure and function. It must be e",
-          "1268": "Renal blood flow Average renal blood flow decreases about 10% per decade, dropping from 600 "
+          "1268": "Renal blood flow Average renal blood flow decreases about 10% per decade, dropping from 600 ",
+          "1269": "Proteinuria Despite the significant decline in GFR that occurs with aging, proteinuria is no"
         }
       }
     },
@@ -13701,7 +13762,13 @@
         ],
         "namedChapters": [
           "61"
-        ]
+        ],
+        "supportPages": [
+          999
+        ],
+        "passages": {
+          "999": "Multiple studies have implicated any lifetime history of TBI as a risk factor for Parkinson "
+        }
       }
     },
     "3500": {
@@ -13977,7 +14044,8 @@
           "105-4"
         ],
         "passages": {
-          "1686": "Table 105-4"
+          "1686": "Table 105-4",
+          "1687": "Clinical guidelines recommend the use of prognostic scales, mainly PSI and CURB-65, for admi"
         }
       }
     },
@@ -14228,7 +14296,12 @@
           "99"
         ],
         "passages": {
-          "119": "There are several screening questionaries for hearing loss including the Hearing Handicap In"
+          "119": "There are several screening questionaries for hearing loss including the Hearing Handicap In",
+          "161": {
+            "text": "of serious complications after screening mammography appears to be approximately 1 in 1000, ",
+            "contextPage": 160,
+            "rangeText": "an older woman has a life expectancy of at least 9.5 years"
+          }
         }
       }
     },
@@ -14820,7 +14893,8 @@
         ],
         "passages": {
           "1710": "In men, all UTI episodes have been considered as complicated in the past. However, it is not",
-          "1711": "Management of complicated UTI (infection extending beyond the bladder including pyelonephrit"
+          "1711": "Management of complicated UTI (infection extending beyond the bladder including pyelonephrit",
+          "1709": "E coli (the most commonly identified pathogen in urine cultures), and when given for 5 to 7 "
         }
       }
     },
@@ -14943,7 +15017,8 @@
         ],
         "bankChapter": "43",
         "passages": {
-          "638": "There is now a strong body of evidence to support interventions for preventing falls in olde"
+          "638": "There is now a strong body of evidence to support interventions for preventing falls in olde",
+          "641": "Many RCTs have shown interventions for preventing falls in older people. These have built on"
         }
       }
     },
@@ -15184,7 +15259,8 @@
           "55"
         ],
         "passages": {
-          "827": "A walker usually is prescribed when a cane does not provide sufficient support. Walkers prov"
+          "827": "A walker usually is prescribed when a cane does not provide sufficient support. Walkers prov",
+          "828": "Table 55-5"
         }
       }
     },
@@ -15916,7 +15992,9 @@
           "79"
         ],
         "passages": {
-          "1224": "Overview Currently available evidence supports two general principles with respect to antihy"
+          "1224": "Overview Currently available evidence supports two general principles with respect to antihy",
+          "1223": "The optimal SBP treatment goal for patients older than 65 years has evolved from the startin",
+          "1225": "General treatment recommendations for stage 1 hypertension are summarized in Table 79-3. For"
         }
       }
     },
@@ -16000,7 +16078,8 @@
           "63"
         ],
         "passages": {
-          "984": "The clinical course of DLB is often faster than that seen in AD and a drop of four to five p"
+          "984": "The clinical course of DLB is often faster than that seen in AD and a drop of four to five p",
+          "924": "Of note, many medications used to treat Parkinson disease, such as anticholinergic agents, a"
         }
       }
     },
@@ -16218,7 +16297,14 @@
         ],
         "namedChapters": [
           "61"
-        ]
+        ],
+        "passages": {
+          "941": {
+            "text": "Although the diagnosis of PD rests largely on the clinical history and examination, there ar",
+            "contextPage": 940,
+            "rangeText": "Dopamine transporter SPECT imaging has been approved to distinguish essential tremor from PD in patients with atypical tremor manifestation."
+          }
+        }
       }
     },
     "4611": {
@@ -16256,7 +16342,8 @@
           948
         ],
         "passages": {
-          "948": "Mild cognitive symptoms can be seen in some PD patients with early disease and worsen with i"
+          "948": "Mild cognitive symptoms can be seen in some PD patients with early disease and worsen with i",
+          "870": "Most patients with PD exhibit at least some decline in attention, working memory, processing"
         }
       }
     },
@@ -16342,7 +16429,8 @@
           "97"
         ],
         "passages": {
-          "1530": "The most suggestive symptoms of Cushing syndrome are easy bruisability, broad (> 1 cm) purpl"
+          "1530": "The most suggestive symptoms of Cushing syndrome are easy bruisability, broad (> 1 cm) purpl",
+          "1531": "Epidemiology and causes The incidence of adrenal insufficiency in patients 65 years or older"
         }
       }
     },
@@ -16572,7 +16660,8 @@
         ],
         "bankChapter": "42",
         "passages": {
-          "619": "FIGURE 42-2. Schematic representation of the pathologic vicious cycle proposed to lead to a "
+          "619": "FIGURE 42-2. Schematic representation of the pathologic vicious cycle proposed to lead to a ",
+          "617": "The next, second layer closer to the frailty core could be defined as the “area of biomarker"
         }
       }
     },
@@ -16853,7 +16942,8 @@
         ],
         "passages": {
           "232": "Table 16-6",
-          "715": "Intermittent catheterization can help in the management of patients with urinary retention a"
+          "715": "Intermittent catheterization can help in the management of patients with urinary retention a",
+          "716": "Do not change catheters at arbitrary fixed intervals"
         }
       }
     },
@@ -16998,7 +17088,8 @@
         ],
         "bankChapter": "76",
         "passages": {
-          "1189": "An emerging therapy for patients with end-stage refractory heart failure (primarily HFREF) i"
+          "1189": "An emerging therapy for patients with end-stage refractory heart failure (primarily HFREF) i",
+          "1184": "In contrast to ICDs, which reduce the risk of sudden death but do not improve quality of lif"
         }
       }
     },
@@ -17493,7 +17584,8 @@
           "23"
         ],
         "passages": {
-          "169": "Prescription Drug Misuse Prescription drug misuse is poorly described in the medical literat"
+          "169": "Prescription Drug Misuse Prescription drug misuse is poorly described in the medical literat",
+          "319": "Despite contraindications for older adults, benzodiazepines are disproportionately prescribe"
         }
       }
     },
@@ -17708,7 +17800,8 @@
           "81"
         ],
         "passages": {
-          "1236": "a. The most often used criteria for establishing and staging airflow obstruction are based o"
+          "1236": "a. The most often used criteria for establishing and staging airflow obstruction are based o",
+          "1237": "Healthy aging is associated with structural and functional changes in the lungs and chest wa"
         }
       }
     },
@@ -18039,7 +18132,15 @@
         ],
         "namedChapters": [
           "58"
-        ]
+        ],
+        "passages": {
+          "880": {
+            "text": "The definition of and diagnostic criteria for delirium continue to evolve. Standardized crit",
+            "contextPage": 879,
+            "rangeText": "The CAM algorithm relies on the presence of acute onset and fluctuating course, inattention, and either disorganized thinking or altered level of consciousness."
+          },
+          "881": "The etiology of delirium is usually multifactorial. Among older persons, delirium results fr"
+        }
       }
     },
     "4481": {
@@ -18201,7 +18302,8 @@
           884
         ],
         "passages": {
-          "880": "The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought "
+          "880": "The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought ",
+          "882": "Dementia or cognitive impairment"
         }
       }
     },
@@ -18339,7 +18441,9 @@
           620
         ],
         "passages": {
-          "620": "TABLE 42-2 ■ CRITERIA FOR FRAILTY SYNDROME ACCORDING TO FRIED AND COLLEAGUES"
+          "620": "TABLE 42-2 ■ CRITERIA FOR FRAILTY SYNDROME ACCORDING TO FRIED AND COLLEAGUES",
+          "617": "These characteristics can be considered as the common beacon at the confluence of all frailt",
+          "618": "TABLE 42-1 ■ CHARACTERISTICS OF FRAILTY"
         }
       }
     },
@@ -18407,7 +18511,8 @@
         ],
         "bankChapter": "73",
         "passages": {
-          "1117": "endothelin (ET) effects, reactive oxidation species, inflammation, advanced glycosylation en"
+          "1117": "endothelin (ET) effects, reactive oxidation species, inflammation, advanced glycosylation en",
+          "1116": "Table 73-1"
         }
       }
     },
@@ -18460,7 +18565,8 @@
           "44-1"
         ],
         "passages": {
-          "644": "Figure 44-1"
+          "644": "Figure 44-1",
+          "643": "Sleep is a reversible behavioral state that is characterized by a decreased responsiveness t"
         }
       }
     },
@@ -18602,7 +18708,8 @@
         ],
         "bankChapter": "68",
         "passages": {
-          "1065": "While sodium channel blockers like carbamazepine and oxcarbazepine represent highly efficaci"
+          "1065": "While sodium channel blockers like carbamazepine and oxcarbazepine represent highly efficaci",
+          "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
         }
       }
     },
@@ -18837,7 +18944,8 @@
         ],
         "bankChapter": "27",
         "passages": {
-          "376": "Other Concerns A neurologic event, such as a stroke, may increase the risk of aspiration by "
+          "376": "Other Concerns A neurologic event, such as a stroke, may increase the risk of aspiration by ",
+          "375": "Pulmonary Complications Postoperative pulmonary complications are another important cause of"
         }
       }
     },
@@ -19143,7 +19251,8 @@
           "44"
         ],
         "passages": {
-          "663": "The presence of dementia and other neurodegenerative disorders may impact therapy for sleep "
+          "663": "The presence of dementia and other neurodegenerative disorders may impact therapy for sleep ",
+          "662": "Sleep in older adults living in nursing homes is well known to be disturbed, particularly in"
         }
       }
     },
@@ -19516,7 +19625,8 @@
         ],
         "bankChapter": "75",
         "passages": {
-          "1152": "Operative risk associated with SAVR should be assessed using the Society of Thoracic Surgeon"
+          "1152": "Operative risk associated with SAVR should be assessed using the Society of Thoracic Surgeon",
+          "1150": "Patients with aortic valve stenosis develop compensatory LV hypertrophy, which can be seen o"
         }
       }
     },
@@ -19608,7 +19718,10 @@
           "15"
         ],
         "passages": {
-          "211": "Figure 15-2 continued"
+          "211": "Figure 15-2 continued",
+          "212": "Figure 15-3",
+          "213": "of not relying upon an available, communicative, or cooperative patient in the ED where pati",
+          "214": "Figure 15-4"
         }
       }
     },
@@ -19637,7 +19750,8 @@
         ],
         "passages": {
           "1483": "Myelodysplastic syndromes (MDS) are a heterogenous group of clonal hematopoietic disorders c",
-          "1484": "Risk Stratification The World Health Organization (WHO) classification scheme incorporates e"
+          "1484": "Risk Stratification The World Health Organization (WHO) classification scheme incorporates e",
+          "1485": "Table 95-1"
         }
       }
     },
@@ -20008,7 +20122,8 @@
           "96-3"
         ],
         "passages": {
-          "1513": "Table 96-3"
+          "1513": "Table 96-3",
+          "964": "Hematologic diseases such as acute and chronic leukemia, essential and secondary thrombocyto"
         }
       }
     },
@@ -22189,7 +22304,8 @@
         ],
         "passages": {
           "1181": "Mineralocorticoid receptor antagonists (MRA) The MRAs spironolactone and eplerenone are rela",
-          "1182": "The Digitalis Investigation Group (DIG) reported the results of a prospective randomized tri"
+          "1182": "The Digitalis Investigation Group (DIG) reported the results of a prospective randomized tri",
+          "1183": "Ivabradine Ivabradine is a new therapeutic agent that selectively inhibits the If current in"
         }
       }
     },
@@ -23385,7 +23501,8 @@
         ],
         "passages": {
           "1154": "Table 75-4",
-          "1156": "Mitral stenosis often presents with new-onset atrial fibrillation or an embolic event; somet"
+          "1156": "Mitral stenosis often presents with new-onset atrial fibrillation or an embolic event; somet",
+          "1150": "Aortic stenosis has a long asymptomatic latency period, when the only finding is a harsh, la"
         }
       }
     },
@@ -24700,7 +24817,8 @@
           "1172": "As previously discussed, older patients have limited cardiovascular reserve and they are les",
           "1173": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A",
           "1175": "the most useful technique because it is noninvasive, widely available, and, in addition to p",
-          "1176": "Indeed, almost all patients with significant systolic dysfunction also have concomitant echo"
+          "1176": "Indeed, almost all patients with significant systolic dysfunction also have concomitant echo",
+          "1174": "levels increase modestly with age especially in women ( Figure 76-6 ), declining renal funct"
         }
       }
     },
@@ -24817,7 +24935,12 @@
           "104-1"
         ],
         "passages": {
-          "1675": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps"
+          "1675": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps",
+          "1673": {
+            "text": "Table 104-1",
+            "contextPage": 1674,
+            "imageFile": "hazzard8e_ch104_table104-1_p1673.png"
+          }
         }
       }
     },
@@ -25115,7 +25238,9 @@
           1504
         ],
         "passages": {
-          "1494": "Table 95-9"
+          "1494": "Table 95-9",
+          "1489": "Diagnosis is suspected by the demonstration of granulocytosis in the peripheral blood with a",
+          "1495": "In DLBCL, the putative cell of origin as identified on GEP is prognostic, with germinal cent"
         }
       }
     },
