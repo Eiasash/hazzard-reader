@@ -22,7 +22,7 @@
   --page:#f8f5ed; --surface:#fffdf8; --soft:#eeece3;
   --ink:#263029; --muted:#5e685e; --rule:#d8dacf; --control:#7a867a;
   --accent:#205b4b; --accent-soft:#e2eee5; --focus:#8a511c;
-  --hl-ink:#263029;
+  --hl-ink:#263029; --underline-red:#cf303e;
   --hl-yellow:#f0df9f; --hl-green:#c7deb5; --hl-blue:#c7deee;
   --hl-purple:#ded2ed; --hl-pink:#ebc5ce; --hl-orange:#f2d0aa;
   --veil:rgb(38 48 41 / .28);
@@ -43,7 +43,7 @@
   --page:#111315; --surface:#252a30; --soft:#303740;
   --ink:#f4f6f8; --muted:#c6cdd4; --rule:#68737f; --control:#8894a1;
   --accent:#b8dccb; --accent-soft:#263e35; --focus:#ffd27b;
-  --hl-ink:#fff9ed;
+  --hl-ink:#fff9ed; --underline-red:#ff7480;
   --hl-yellow:#554724; --hl-green:#314b35; --hl-blue:#2d4658;
   --hl-purple:#463b58; --hl-pink:#59383f; --hl-orange:#5b412b;
   --veil:rgb(0 0 0 / .42);
@@ -582,14 +582,25 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   #markToggle>span:not(.pencil-icon),#headerCloudLabel{display:none}
 }
 
-/* Keep the original tap units intact while the reader confirms a sentence. */
+/* The saved green colour is displayed as an underline. */
 .marking [data-unit] {-webkit-tap-highlight-color:transparent}
-[data-tap-preview],::highlight(answer-preview) {
-  text-decoration:underline 2px #cf303e;
+[data-marked="green"] {
+  text-decoration:underline 2px var(--underline-red);
   text-underline-offset:.18em;
 }
-:root[data-theme="dark"] [data-tap-preview],:root[data-theme="dark"] ::highlight(answer-preview) {
-  text-decoration-color:#ff7480;
+.reading-copy [data-marked="green"],.mcq-explanation .hl-range[data-marked="green"] {
+  background:transparent;
+  color:inherit;
+}
+.reading-copy :is(svg,img)[data-marked="green"] {
+  outline:none;
+  box-shadow:0 2px var(--underline-red);
+}
+:root[data-mark-style="underline"] :is(#markColour,#deskColour,#cycleColour) .swatch {
+  background:transparent;
+  border:0;
+  border-radius:0;
+  border-bottom:2px solid var(--underline-red);
 }
 #panel[open][data-current-pane="tools"] .dialog-head {grid-template-columns:minmax(0,1fr) 44px 44px}
 #panel[open][data-current-pane="tools"] #panelTitle {white-space:nowrap}
@@ -1005,7 +1016,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   <div class="settings-controls">
     <div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">S</button><button data-size="medium" aria-label="Medium" aria-pressed="false">M</button><button data-size="large" aria-label="Large" aria-pressed="false">L</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg></button>
-    <button id="cycleColour" class="icon-control" aria-label="Marking colour: yellow. Next: green" title="Marking colour: yellow. Next: green"><span class="swatch" aria-hidden="true"></span></button>
+    <button id="cycleColour" class="icon-control" aria-label="Marking colour: yellow. Next: Underline" title="Marking colour: yellow. Next: Underline"><span class="swatch" aria-hidden="true"></span></button>
   </div>
 
 <button id="cloudSettingsEntry" data-panel="tools" type="button">Sign in to sync</button>
@@ -5222,7 +5233,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v303 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v304 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5233,7 +5244,7 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to preview it. Tap again or choose Save selection.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to mark or remove it.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour"><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
 document.body.append(markBar);
 new ResizeObserver(()=>{if(!markBar.hidden&&markBar.classList.contains('answer-mark-bar'))document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
@@ -5353,7 +5364,6 @@ function openChapter(chapter,opts={}){
 }
 const readerScroll=$('#readerScroll');
 const sizes={small:12,medium:13.5,large:15};
-let previewUnit=null;
 let marking=false,colour='yellow',size='small',anchor=null,gesture=null;
 let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
@@ -5710,6 +5720,7 @@ function view(id,opts={}){
   if(id===currentView&&!panel.open){returnReading();return}
   closeProvenance();navigateUI(id,null,false,!!opts.replace);
 }
+function colourLabel(value){return value==='green'?'Underline':value}
 function applyDisplay(){
   const px=sizes[size];document.documentElement.style.setProperty('--fs',px/sizes.small);document.body.style.fontSize='var(--body)';
   for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
@@ -5718,8 +5729,8 @@ function applyDisplay(){
   const nextTheme=document.documentElement.dataset.theme==='dark'?'light':'dark';
   $('#toggleTheme').setAttribute('aria-label','Switch to '+nextTheme+' theme');$('#toggleTheme').title='Switch to '+nextTheme+' theme';
   const nextColour=['yellow','green','blue'][(['yellow','green','blue'].indexOf(colour)+1)%3];
-  $('#cycleColour').setAttribute('aria-label','Marking colour: '+colour+'. Next: '+nextColour);$('#cycleColour').title=$('#cycleColour').getAttribute('aria-label');
-  $('#deskColourLabel').textContent='Marking colour: '+colour;viewport();
+  $('#cycleColour').setAttribute('aria-label','Marking colour: '+colourLabel(colour)+'. Next: '+colourLabel(nextColour));$('#cycleColour').title=$('#cycleColour').getAttribute('aria-label');
+  $('#deskColourLabel').textContent='Marking colour: '+colourLabel(colour);viewport();
 }
 function saveDisplay(){try{const raw=localStorage.getItem('stage-a-display-v4');if(raw!==null){try{HazzardStorage.validate('stage-a-display-v4',JSON.parse(raw))}catch{HazzardStorage.preserveUnreadable('stage-a-display-v4',raw)}}HazzardStorage.setItem('stage-a-display-v4',JSON.stringify({size,colour,theme:document.documentElement.dataset.theme}));displaySaveFailed=false}catch{displaySaveFailed=true}updateStorageNotice()}
 try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p){if(Object.hasOwn(sizes,p.size))size=p.size;if(['yellow','green','blue'].includes(p.colour))colour=p.colour;if(['light','dark'].includes(p.theme))document.documentElement.dataset.theme=p.theme}else if(matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.dataset.theme='dark'}catch{}
@@ -5747,7 +5758,7 @@ document.addEventListener('click',e=>{
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(marking)setMarking(false)}});
 function setMarking(on){
-  if(marking===on)return;marking=on;gesture=null;clearUnitPreview();document.body.classList.toggle('marking',on);
+  if(marking===on)return;marking=on;gesture=null;document.body.classList.toggle('marking',on);
   syncMarkingUI();if(on){if(!HazzardAnswerHighlights.available())getSelection()?.removeAllRanges();syncBookmark()}else HazzardAnswerHighlights.resetSelection();
   const action=on?'addEventListener':'removeEventListener';
   copy[action]('pointerdown',markDown);copy[action]('pointermove',markMove);copy[action]('pointerup',markUp);copy[action]('pointercancel',markCancel);copy[action]('click',markClick);copy[action]('keydown',markKey);copy[action]('contextmenu',markContext);
@@ -5767,13 +5778,16 @@ $('#toggleTheme').onclick=()=>{document.documentElement.dataset.theme=document.d
 function cycleColour(){colour=['yellow','green','blue'][(['yellow','green','blue'].indexOf(colour)+1)%3];applyDisplay();saveDisplay()}
 $('#cycleColour').onclick=$('#deskCycleColour').onclick=cycleColour;
 function syncMarkingUI(){
-  document.documentElement.style.setProperty('--current-mark','var(--hl-'+colour+')');
+  const underline=colour==='green';
+  document.documentElement.dataset.markStyle=underline?'underline':'fill';
+  document.documentElement.style.setProperty('--current-mark',underline?'transparent':'var(--hl-'+colour+')');
+  $('#markColourLabel').textContent=underline?'Underline':'Colour';
   pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Turn marking off':'Turn marking on';pencil.setAttribute('aria-label','Highlight: '+(marking?'On':'Off'));if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   const answer=HazzardAnswerHighlights.available(),questionView=!!mcq?.active||['bank','mock'].includes(String(copy.dataset.chapterId||'')),selection=HazzardAnswerHighlights.selectionState();
   if(questionView)pencil.hidden=currentView!=='reader'||!answer;
   $('#bookmark').hidden=answer;$('#markSelection').hidden=!answer;$('#markSelection').disabled=!selection.canSave;
   $('#markRemove').hidden=!answer||!selection.canRemove;$('#markHint').hidden=!answer;markBar.classList.toggle('answer-mark-bar',answer);
-  $('#markingIndicator').hidden=!marking;markBar.hidden=!marking||currentView!=='reader'||panel.open||questionView&&!answer;document.body.classList.toggle('mark-bar-open',!markBar.hidden);document.body.classList.toggle('answer-mark-bar-open',!markBar.hidden&&answer);$('#markColour').setAttribute('aria-label','Highlight colour: '+colour+'. Tap for next colour');
+  $('#markingIndicator').hidden=!marking;markBar.hidden=!marking||currentView!=='reader'||panel.open||questionView&&!answer;document.body.classList.toggle('mark-bar-open',!markBar.hidden);document.body.classList.toggle('answer-mark-bar-open',!markBar.hidden&&answer);$('#markColour').setAttribute('aria-label','Highlight colour: '+colourLabel(colour)+'. Tap for next colour');
 }
 function syncTabs(){
   const pane=panel.open?panel.dataset.currentPane:null;
@@ -5803,21 +5817,9 @@ function markUp(e){if(gesture&&e.pointerId===gesture.id){gesture.ended=true;gest
 function markCancel(){gesture=null}
 function markContext(e){e.preventDefault()}
 function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
-function clearUnitPreview(){
-  for(const part of previewUnit?.parts||[])part.removeAttribute('data-tap-preview');
-  previewUnit=null;
-}
-function chooseUnit(u){
-  const confirm=previewUnit===u;
-  clearUnitPreview();
-  if(u.marked||confirm){toggleUnit(u);return;}
-  previewUnit=u;
-  for(const part of u.parts)part.setAttribute('data-tap-preview','');
-  flash('Tap the underlined sentence again to save.');
-}
-function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();chooseUnit(u)}}
-function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();chooseUnit(u)}}}
-function paintUnit(u){for(const p of u.parts){p.toggleAttribute('data-marked',u.marked);if(u.marked)p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')');else p.style.removeProperty('--mark-colour')}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
+function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();toggleUnit(u)}}
+function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();toggleUnit(u)}}}
+function paintUnit(u){for(const p of u.parts){if(u.marked){p.dataset.marked=u.colour;p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')')}else{p.removeAttribute('data-marked');p.style.removeProperty('--mark-colour')}}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
 function validHighlight(mark){return mark&&['yellow','green','blue'].includes(mark.colour)&&typeof mark.text==='string'}
 function readHighlights(){
@@ -5908,7 +5910,7 @@ function notebookHighlightItems(ch,items){
 function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
   const li=document.createElement('li'),go=document.createElement('button'),action=document.createElement('button');
   const key=notebookHighlightId(ch,item.kind,item.id);li.className='nb-item nb-highlight';
-  go.textContent=item.text;go.dir='auto';
+  go.textContent=item.text;go.dir='auto';go.dataset.marked=item.colour;
   go.onclick=()=>{
     if(ch!==cid){openChapter(ch,{hash:'hl-'+item.id});return;}
     const el=item.kind==='marks'?unitMap.get(item.id)?.parts.find(p=>p.isConnected):rangeMarks.get(item.id)?.spans[0];
@@ -5949,7 +5951,7 @@ panel.addEventListener('close',()=>{notebookRemovedAnswerHighlights.clear();note
 function notebookAnswerRow(item){
   const li=document.createElement('li'),go=document.createElement('button'),text=document.createElement('span'),meta=document.createElement('small'),action=document.createElement('button');
   li.className='nb-item nb-highlight nb-answer-highlight';li.dataset.answerHighlight=item.id;
-  text.textContent=item.text;text.dir=snippetDirection(item.text);text.className='nb-answer-text';
+  text.textContent=item.text;text.dir=snippetDirection(item.text);text.className='nb-answer-text';text.dataset.marked=item.colour;
   const reference=[item.sittingLabel,item.questionNumber!=null?'Question '+item.questionNumber:item.label].filter(Boolean).join(' \u00b7 ');
   meta.textContent=(item.unplaced?'Unplaced \u00b7 ':'')+reference;meta.className='meta';
   go.append(text,meta);go.onclick=()=>{location.href=HazzardEvidence.questionURL(item.questionId);};
@@ -6020,7 +6022,7 @@ function renderNotebook(){
   for(const node of panel.querySelectorAll('details[data-notebook-chapter],details[data-notebook-sitting]')){const key=node.dataset.notebookChapter?'chapter:'+node.dataset.notebookChapter:'sitting:'+node.dataset.notebookSitting;if(node.open)notebookOpenGroups.add(key);else notebookOpenGroups.delete(key);}
   if(!pendingHighlightChanges.size)resyncHighlights();
   const list=$('#notebookMarks');list.replaceChildren();
-  const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({id:u.id,kind:'marks',el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks].map(([id,r])=>({id,kind:'ranges',el:r.spans[0],text:r.text}))];
+  const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({id:u.id,kind:'marks',colour:u.colour,el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks].map(([id,r])=>({id,kind:'ranges',colour:r.colour,el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
   notebookHighlightItems(cid,items).forEach((it,index)=>list.append(notebookHighlightRow(cid,it,index)));
   if(!list.children.length){const li=document.createElement('li');li.className='nb-empty';li.textContent='No highlights in this chapter yet.';list.append(li)}
@@ -6043,7 +6045,7 @@ function renderNotebook(){
   if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. While reading, turn Highlight on → Bookmark this spot.';places.append(li)}
   const other=$('#notebookOther');other.replaceChildren();
   const prefix='stage-a-highlights-v1:',groups=[];
-  try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix)||k.includes('-unreadable-'))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=HazzardStorage.readProtected(k,()=>null)}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({id,kind:'marks',text:m.text})),...Object.entries(d?.ranges||{}).map(([id,m])=>({id,kind:'ranges',text:m.text}))];if(marks.length)groups.push({ch,marks})}}catch{}
+  try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix)||k.includes('-unreadable-'))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=HazzardStorage.readProtected(k,()=>null)}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({id,kind:'marks',colour:m.colour,text:m.text})),...Object.entries(d?.ranges||{}).map(([id,m])=>({id,kind:'ranges',colour:m.colour,text:m.text}))];if(marks.length)groups.push({ch,marks})}}catch{}
   for(const item of notebookRemovedHighlights.values())if(item.ch!==cid&&!groups.some(g=>g.ch===item.ch))groups.push({ch:item.ch,marks:[]});
   groups.sort((a,b)=>String(a.ch).localeCompare(String(b.ch),undefined,{numeric:true}));
   if(groups.length){const h=document.createElement('h3');h.className='nb-heading';h.textContent='Other chapters';other.append(h)}
@@ -6056,8 +6058,8 @@ function renderNotebook(){
     other.append(box);
   }
   const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
-  for(const r of unplacedRanges){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not found in the current text';excerpt.textContent=r.text;li.append(label,excerpt);historyList.append(li)}
-  for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;li.append(label,excerpt);historyList.append(li)}
+  for(const r of unplacedRanges){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not found in the current text';excerpt.textContent=r.text;excerpt.dataset.marked=r.colour;li.append(label,excerpt);historyList.append(li)}
+  for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=mark.text;excerpt.dataset.marked=mark.colour;li.append(label,excerpt);historyList.append(li)}
   renderNotebookAnswerHighlights(ticket);
 }
 const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
@@ -6193,7 +6195,7 @@ function wrapIndexRange(ix,start,end,id,colour){
   while(k<end){const node=ix.nodes[k];let j=k;while(j+1<end&&ix.nodes[j+1]===node)j++;
     const a=ix.offs[k],b=ix.offs[j]+1;let t=node;if(a>0)t=t.splitText(a);if(b-a<t.length)t.splitText(b-a);
     // later indices in this same node now live in the split-off tail; only one segment per node is wrapped
-    const sp=document.createElement('span');sp.className='hl-range';sp.dataset.range=id;sp.dataset.marked='';sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
+    const sp=document.createElement('span');sp.className='hl-range';sp.dataset.range=id;sp.dataset.marked=colour;sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
   return spans;
 }
 window.HazzardHighlighter={textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader',answerColour:()=>colour};
