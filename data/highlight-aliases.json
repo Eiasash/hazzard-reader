@@ -634,5 +634,17 @@
     "id": "u191",
     "old": "The cited p938 and p941 discuss the syndromes; Chapter 63 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).",
     "new": "The cited p938 and p941 discuss the syndromes; Chapter 64 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999)."
+  },
+  {
+    "chapter": "55s",
+    "id": "u22",
+    "old": "Cardiac rehab: only one-third of eligible patients participate (12% in a 600k-patient Medicare cohort) (p830). CR vs. none: mortality 2.3% vs. 5.3%; benefit sustained at 5 years, 16% vs. 25% (p830). ≥25 sessions → 20% lower 5-yr mortality vs. fewer sessions (p830). Heart failure: stable at least 3 to 4 weeks before starting; CR → 28% lower mortality/hospitalization, 29% lower death rate, peak VO2 +15% to 30%, symptoms/ADLs/well-being +15% to 50%; QoL gains seen as early as 2 months (p830).",
+    "new": "Cardiac rehab: only one-third of eligible patients participate (12% in a cohort of more than 600,000 Medicare patients) (p830). CR vs. none: mortality 2.3% vs. 5.3%; benefit sustained at 5 years, 16% vs. 25% (p830). ≥25 sessions → 20% lower 5-yr mortality vs. fewer sessions (p830). Heart failure: stable at least 3 to 4 weeks before starting; CR → 28% lower mortality/hospitalization, 29% lower death rate, peak VO2 +15% to 30%, symptoms/ADLs/well-being +15% to 50%; QoL gains seen as early as 2 months (p830)."
+  },
+  {
+    "chapter": "99s",
+    "id": "u40",
+    "old": "CVD-outcome-proven drug classes (large CVOTs, average participant age >60): SGLT-2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) and GLP-1 agonists (liraglutide, semaglutide, dulaglutide) (p1571).",
+    "new": "CVD-outcome-proven drug classes (large CVOTs, average participant age >60): SGLT-2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) and GLP-1 agonists (liraglutide, semaglutide, dulaglutide) (p1570–1571)."
   }
 ]

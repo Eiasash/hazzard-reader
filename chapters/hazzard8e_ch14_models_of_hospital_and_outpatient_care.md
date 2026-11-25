@@ -376,9 +376,9 @@ Allen K, Hazelett S, Martin M, et al. An innovation center
 
 model to transform health systems to improve care of older adults. J Am Geriatr Soc. 2020;68:15–22. American College of Surgeons. Geriatric Surgery Verifica-
 
-tion Program. https://www.facs.org/Quality-Programs/ geriatric-surgery. American Geriatrics Society. CoCare: HELP. https://help.
+tion Program. https://www.facs.org/Quality-Programs/ geriatric-surgery. American Geriatrics Society. CoCare: HELP. [https://help](<https://help.agscocare.org>).
 
-agscocare.org. American Geriatrics Society. CoCare: Ortho. https://ortho.
+agscocare.org. American Geriatrics Society. CoCare: Ortho. [https://ortho](<https://ortho.agscocare.org>).
 
 agscocare.org. Bhasin S, Gill TM, Reuben DB, et al. A randomized trial of
 
@@ -400,11 +400,11 @@ dwelling older adults. N Engl J Med. 2020;382(8): 734–743. Gill TM, McGloin JM
 
 tion in a pragmatic trial of community-living older persons: the STRIDE Study. J Am Geriatr Soc. 2020;68: 1242–1249.
 
-GRACE. http://graceteamcare.indiana.edu/home.html. Hastings N, Sloane R, Morey MC, et al. Assisted early
+GRACE. [http://graceteamcare.indiana.edu/home.html](<https://cdn.iuhealth.org/resources/GRACE-Brochure_2021_web.pdf>). Hastings N, Sloane R, Morey MC, et al. Assisted early
 
 mobility for hospitalized older veterans: preliminary data from the STRIDE Program. J Am Geriatr Soc. 2014; 62:2180–2184. Hastings SN, Choate AL, Mahanna EP, et al. Early mobil-
 
-ity in the hospital: lessons learned from the STRIDE Program. Geriatrics 2018;3:61. Hospital at Home. http://www.hospitalathome.org/about-
+ity in the hospital: lessons learned from the STRIDE Program. Geriatrics 2018;3:61. Hospital at Home. [http://www.hospitalathome.org/about-](<https://www.hospitalathome.org/about-us/history.php>)
 
 us/history.php. Hung WW, Macias Tejada, Soryal S, et al. The Acute Care
 
@@ -430,7 +430,7 @@ tion of integrated care coordination with postsurgical outcomes in high-risk old
 
 cise be promoted as a model of care? Dissemination of the Department of Veterans Affairs Gerofit Program. J Am Geriatr Soc. 2018;66:1009–1016. Naylor MD, Brooten D, Campbell R, et al. Compre-
 
-hensive discharge planning and home follow-up of hospitalized elders: a randomized clinical trial. JAMA. 1999;281:613–620. PACE. http://www.npaonline.org/website/article.asp?id= 12&title=Who,_What_and_Where_Is_PACE? Reuben DB, Ganz DA, Roth CP, et al. Effect of a nurse prac-
+hensive discharge planning and home follow-up of hospitalized elders: a randomized clinical trial. JAMA. 1999;281:613–620. PACE. [http://www.npaonline.org/website/article.asp?id=](<https://www.npaonline.org/connect-learn/pace-learning-center>) 12&title=Who,_What_and_Where_Is_PACE? Reuben DB, Ganz DA, Roth CP, et al. Effect of a nurse prac-
 
 titioner comanagement on the care of geriatric conditions. J Am Geriatr Soc. 2013;61:857–867. Reuben DB, Tan ZS, Romero T, et al. Patient and care-
 

@@ -182,7 +182,7 @@ window.HazzardFlashcards = (() => {
     }
   }
 
-  function install(copy, chapter, open, resize) {
+  function install(copy, chapter, open, resize, expand) {
     onResize = resize;
     pane = document.createElement('section');
     pane.hidden = true;
@@ -229,6 +229,7 @@ window.HazzardFlashcards = (() => {
       if (!session || !isShowing()) return;
       session.revealed = event.currentTarget.open;
       saveSession();
+      if (session.revealed) expand?.();
       onResize();
     });
     for (const button of pane.querySelectorAll('[data-flash-grade]')) button.addEventListener('click', () => {

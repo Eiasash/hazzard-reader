@@ -100,7 +100,7 @@ Following the initial intake, a thorough physical examination should be complete
 
 ## Treatment
 
-## Physiologic Considerations And Medication Management In Older Adults
+### Physiologic Considerations And Medication Management In Older Adults
 
 Age-related organ dysfunction poses significant challenges for nonopioid and opioid pain medication management in older adults. The gastrointestinal, hepatic, renal, and respiratory systems are particularly important to consider when initiating and dosing pain medications in this population. There is a plethora of age-related pharmacokinetic changes that clinicians should consider before prescribing pain medications ( **Table 68-5** ). Decreases in gastric secretion
 
@@ -127,13 +127,13 @@ Lastly, changes in the pulmonary systems such as decreased elasticity of the lun
 
 rigidity may lead to an increase in respiratory complications such as respiratory depression, which is of paramount importance when prescribing and dosing opioid medications.
 
-## Opioid Medication And Prescribing Practices For Older Adults
+### Opioid Medication And Prescribing Practices For Older Adults
 
 The first wave of the opioid epidemic began with the increased prescribing of opioids in the 1990s, with overdoses increasing since at least 1999. Furthermore, an analysis of Medicare beneficiaries’ prescription opioid use in 2016 showed one in three Medicare Part D beneficiaries received a prescription for an opioid. Unfortunately, older adults are not immune from the detrimental consequences of opioid misuse disorder, including overdoses and deaths. The Centers for Disease Control and Prevention (CDC) reported an increase in drug overdoses and opioid deaths in the aging population, with a 7.7% increase in deaths related to opioid overdose in persons older than 65 years from 2013 to 2014. Older adults with opioid use disorder appear to be at higher risk of death compared to younger adults with the disorder. This disparity in death may be related to altered age-related organ function and accidental medication-related deaths.
 
 In 2016, the CDC released its landmark guideline for prescribing opioids for chronic pain, which includes special considerations for prescribing practices in older adults. First, given reduced renal function and medication clearance even without renal disease, older adults may be more susceptible to the accumulation of opioids and, therefore, identifying the therapeutic window between safe dosages and higher dosages associated with respiratory depression and overdose may be extremely challenging. Cognitive impairment may increase the risk for medication-related errors and opioid-induced confusion. Prescribing providers should pay particular attention to prescribing immediate-release opioids (recommendation #4); prescribing the lowest effective dose possible (recommendation #5); and maintaining close follow-up within 1 to 4 weeks of starting opioid therapy, with subsequent follow-up at least every 3 months or more frequently (recommendation #7). Clinicians should also consider instituting bowel regimens to prevent constipation, performing risk assessments for falls, monitoring for cognitive impairment, and performing random urine drug screen monitoring, especially when there are other caregivers involved in the patient’s care. In response to the opioid epidemic in the United States, the CDC has also recommended that prescribers utilize state-wide prescription drug monitoring programs (PDMPs) prior to prescribing any opioid or other controlled substance to monitor a patient’s use of controlled substances and minimize the risk for abuse, overdose, and diversion.
 
-## Commonly Used Opioid Medications
+### Commonly Used Opioid Medications
 
 For patients with moderate acute or chronic pain that has failed to respond to conservative management with nonopioid medications or nonpharmacological therapies, weak opioids such as hydrocodone, codeine, and tramadol may be considered after a thorough discussion with the patient about potential risks versus benefit. In patients with severe acute or persistent pain, more potent opioids are available, including morphine, methadone, fentanyl, oxycodone, buprenorphine, hydromorphone, and oxymorphone. Of note, in opioids combined with nonopioid analgesics, the maximum dose is typically dictated by the maximum dose of acetaminophen, NSAID, or aspirin. A table of commonly used opioid medications with recommended starting doses is featured in **Table 68-6** .
 
@@ -147,7 +147,7 @@ Despite the number of different opioid medications, they generally possess simil
 
 A consideration in the use of opioids in managing chronic pain is the risk for development of opioid-induced hyperalgesia. Opioid-induced hyperalgesia refers to a state of nociceptive sensitization in which patients taking opioids for the treatment of pain develop hyperalgesia, or increased sensitivity to painful stimuli. The mechanism of opioid-induced hyperalgesia is not entirely clear, but is thought to be due to neuroplastic changes in the peripheral and central nervous system that lead to sensitization of pronociceptive pathways. While all patients receiving opioids are at risk for opioid-induced hyperalgesia, groups with increased risk include patients with a history of opioid use disorder, chronic pain patients receiving opioids, and patients on high doses of potent opioids. Clinical signs of opioid-induced hyperalgesia include lack of effectiveness of opioids in the absence of disease progression, which may be difficult to distinguish from opioid tolerance. However, in contrast to patients with opioid tolerance, patients with opioid-induced hyperalgesia will often show increased levels of pain with increased doses of opioids. Patients may also report symptoms such as diffuse allodynia beyond the region of the original pain. Management of patients with opioid-induced hyperalgesia includes attempting to gradually reduce or eliminate the opioid and evaluate symptoms. Combination therapy with nonopioid analgesics, opioids with unique properties such as buprenorphine, or NMDA receptor antagonists may prove to be more effective in patients with opioid-induced hyperalgesia.
 
-## Management Of Acute And Postoperative Pain
+### Management Of Acute And Postoperative Pain
 
 Management of acute pain and pain around the time of surgery is challenging. Poorly controlled and undertreated pain is associated with prolonged hospitalization, delayed wound healing, increase in health care utilization and costs, poor patient satisfaction, and adverse psychological consequences. In addition, one of the most significant long-term
 
@@ -157,7 +157,7 @@ consequences of poorly treated acute postsurgical pain is the development of chr
 
 Enhanced Recovery after Surgery (ERAS) protocols have become more commonplace across the United States, especially in light of the opioid epidemic. The mainstay of ERAS protocols is the judicious use of multimodal analgesia. ERAS protocols attempt to minimize the use of opioids and offer opioid-sparing techniques such as intravenous or oral acetaminophen, intravenous or oral NSAIDs, intravenous lidocaine infusion, intravenous ketamine infusion, liposomal bupivacaine, neuraxial and peripheral regional anesthesia regional techniques for select surgeries, as well as patient-controlled modalities. Opioids still play an important role in the treatment of acute and postoperative pain, but are limited by their side effects and other sequelae, especially in older adults. If using opioid medications for acute pain in the inpatient setting, it is important to consider the following risk factors for opioid-related respiratory depression (and other adverse events), including a history of sleep apnea, obesity, concomitant administration of other respiratory depressant drugs such as benzodiazepines, opioid-naïve patients, opioid-tolerant patients, and chronic obstructive pulmonary disease. While supplemental oxygen is commonly used after surgery, it may produce acceptable oxygen saturation levels via pulse oximetry even with substantial hypoventilation. Thus, patients with risk factors for opioid-related respiratory depression should be considered for perioperative monitoring with continuous end-tidal carbon dioxide monitoring, especially during the first 24 hours after surgery.
 
-## Management Of Chronic Pain
+### Management Of Chronic Pain
 
 For patients with mild chronic pain, nonopioid analgesics, such as NSAIDs or acetaminophen, are recommended. These medications are available in tablet, capsule, topical, and injection form with many being available over the counter.
 
@@ -171,7 +171,7 @@ COX-2, on the other hand, is present throughout the body in lower concentrations
 
 For older adults at risk for adverse events associated with systemic NSAIDs, topical agents such as diclofenac 1% gel, represent a safe form of an anti-inflammatory treatment that can be massaged onto intact skin overlying painful areas, such as joints affected by osteoarthritis or other inflammatory conditions.
 
-## Other Adjunct Medications For Chronic Pain
+### Other Adjunct Medications For Chronic Pain
 
 In addition to opioids analgesics, a number of other medications may be helpful in the management of chronic pain depending on the diagnosis and etiology of the patient’s pain. **Table 68-8** reviews common medications used in the
 
@@ -204,7 +204,7 @@ While sodium channel blockers like carbamazepine and oxcarbazepine represent hig
 
 In patients with moderate-to-severe chronic musculoskeletal pain, muscle relaxants may be indicated to alleviate pain. A variety of muscle relaxants are available, including baclofen, methocarbamol, tizanidine, and cyclobenzaprine. While these medications are typically indicated on an as-needed basis to treat muscle spasm, patients with chronic musculoskeletal pain such as temporomandibular joint and muscle disorders caused by parafunctional habits (ie, jaw clenching and tooth grinding) may benefit from a nightly dose to reduce their pain. However, all muscle relaxants carry potential side effects of sedation and anticholinergic effects. The lowest possible dose is recommended when initiating therapy, with patients gradually increasing the dose either as needed or as tolerated.
 
-## Nonpharmacological Treatments
+### Nonpharmacological Treatments
 
 Chronic pain in older adults is often treated with a multimodal pain management approach: a combination of medications, physical therapy, psychological interventions, or interventional pain management. Interventional pain management is defined as the discipline of medicine devoted to the diagnosis and treatment of pain-related disorders, principally with the application of interventional techniques (commonly referred to as injection therapies), independently or in conjunction with other treatment modalities. Interventional pain procedures are performed by a myriad of providers, including, but not limited to, anesthesiologists, physiatrists, neurologists, neurosurgeons, orthopedic surgeons, rheumatologists, and radiologists. Interventional pain procedures have the added benefit of targeting specific nociceptive transmission sites with the goal of minimizing the intake of oral medications and their end organ effects. Thus, interventional pain management techniques offer older adults an alternative treatment pathway with potentially fewer side effects.
 
@@ -244,7 +244,7 @@ In general, all three types of injections are safe and have relatively few side 
 
 **Neuropathic pain conditions and the use of interventional pain management** Neuropathic pain conditions are more common in older adults, as the risk for conditions that cause neuropathic pain increase with age. For example, conditions like diabetes, herpes zoster, stroke, as well as cancer treatment can all result in neuropathic pain. While most patients respond to standard medications like anticonvulsants and gabapentinoids, older adults may not tolerate frontline treatment with anticonvulsants or gabapentinoids due to side effects of sedation and impaired cognition. Although relatively rare, neuropathic pain affecting the orofacial pain region, such as trigeminal neuralgia and postherpetic neuralgia, can be particularly difficult to manage due to its impact on speaking, chewing, and swallowing. Nerve blocks represent a safe, minimally invasive treatment option that can be both diagnostic, allowing clinicians to localize the source of pain, and therapeutic, in reducing the intensity or frequency of pain. For patients with suspected neuropathic pain of the facial region, an MRI of the brain with trigeminal protocol is recommended to rule out any mass lesion or vascular compression of the trigeminal nerve. Nerve blocks frequently performed in the orofacial region include inferior alveolar nerve blocks for trigeminal neuralgia of the V3 distribution, posterior superior alveolar nerve blocks for trigeminal neuralgia of the V2 distribution, occipital nerve blocks for occipital neuralgia and cervicogenic headaches, and sphenopalatine ganglion blocks for cluster headaches. While the duration of relief with a nerve block can be variable, for some patients, periodic nerve blocks can be helpful for treating flares of pain while avoiding polypharmacy with multiple analgesics and anticonvulsant medications. For older adults with persistent, refractory orofacial pain who cannot tolerate frontline treatments such as anticonvulsant medications, referral to neurosurgery is recommended for consideration of microvascular decompression of the trigeminal nerve, rhizotomy, or gamma knife radiosurgery targeting the trigeminal nerve.
 
-## Behavioral Therapies For The Treatment Of Pain
+### Behavioral Therapies For The Treatment Of Pain
 
 In addition to the aforementioned pharmacological and nonpharmacological interventions, behavioral therapy plays a central role in the management of pain, particularly in older patients who are prone to the side effects of medications or may not be candidates for interventional treatment. Behavioral therapies represent safe and noninvasive techniques targeted to reduce pain, restore function and mobility, and improve overall physical and mental health. In fact, many patients themselves often directly state to their doctors that they are eager to try a more conservative treatment rather than initiate a new medication or undergo an invasive procedure.
 
@@ -266,7 +266,7 @@ There are various complementary and alternative therapies that can potentially r
 
 - By the 2019 American Geriatrics Society Beers Criteria<sup>®</sup> Update Expert Panel. American Geriatrics Society 2019 Updated AGS Beers Criteria<sup>®</sup> for potentially inappropriate medication use in older adults. _J Am Geriatr Soc_ . 2019;67(4):674–694.
 
-- Centers for Disease Control and Prevention. (2016, January 1). Increases in drug and opioid overdose deaths— United States, 2000–2014. _Morbidity and Mortality Weekly Report_ . https://www.cdc.gov/mmwr/preview/ mmwrhtml/mm6450a3.htm?s_cid=mm6450a3_w. Accessed May 29, 2021.
+- Centers for Disease Control and Prevention. (2016, January 1). Increases in drug and opioid overdose deaths— United States, 2000–2014. _Morbidity and Mortality Weekly Report_ . [https://www.cdc.gov/mmwr/preview/](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6450a3.htm>) mmwrhtml/mm6450a3.htm?s_cid=mm6450a3_w. Accessed May 29, 2021.
 
 - Chau DL, Walker V, Pai L, Cho LM. Opiates and elderly: use and side effects. _Clin Interv Aging_ . 2008;3(2):273–278.
 
@@ -276,7 +276,7 @@ There are various complementary and alternative therapies that can potentially r
 
    - Adults — United States, 2016. _MMWR Morb Mortal Wkly Rep_ 2018;67:1001–1006.
 
-- Department of Health and Human Services. (2016). Opioids in Medicare Part D: Concerns about extreme use and questionable prescribing. _Office of the Inspector General_ . https://oig.hhs.gov/oei/reports/oei-02-17-00250 .asp. Accessed May 29, 2021.
+- Department of Health and Human Services. (2016). Opioids in Medicare Part D: Concerns about extreme use and questionable prescribing. _Office of the Inspector General_ . [https://oig.hhs.gov/oei/reports/oei-02-17-00250](<https://oig.hhs.gov/reports/all/2017/opioids-in-medicare-part-d-concerns-about-extreme-use-and-questionable-prescribing/>) .asp. Accessed May 29, 2021.
 
 - Dowell D, Haegerich TM, Chou R. CDC guideline for prescribing opioids for chronic pain—United States, 2016. _MMWR Recomm Rep_ . 2016;65(No. RR-1):1–49.
 

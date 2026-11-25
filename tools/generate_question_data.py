@@ -2,6 +2,10 @@
 import json
 import re
 from pathlib import Path
+if __package__:
+    from .build_exam_references import build as build_exam_references
+else:
+    from build_exam_references import build as build_exam_references
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = set('id sourceIndex kind q c accepted t topic topics law chapter source examNumber retired mockEligible content_changed'.split())
 
@@ -18,7 +22,7 @@ def generate():
     if updated != original:
         simulation.write_text(updated, encoding='utf-8', newline='\n')
     catalog, chunks = [], {}
-    references = json.loads((ROOT / 'data/mcq/exam-references.json').read_text(encoding='utf-8'))['questions']
+    references = build_exam_references()['questions']
     chapters = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))['chapters']
     chapter_titles = {str(c['number']): c['title'] for c in chapters}
     for q in all_questions:
@@ -36,6 +40,9 @@ def generate():
             row['sourceChecked'] = {k: v for k, v in q['sourceChecked'].items() if k == 'changedAt'}
         catalog.append(row)
     outputs = {'data/mcq/catalog.json': catalog, 'data/mcq/content-changes.json': [{'id': q['id'], 'label': 'Practice \u00b7 '+q['q'][:90], 'changedAt': q['sourceChecked']['changedAt'], 'release': q['sourceChecked']['release'], 'content_changed': True} for q in all_questions if q.get('content_changed')]}
+    # Chapters search uses catalogue stems and these options. Explanations
+    # and images can stay in their individual question chunks.
+    outputs['data/mcq/search-options.json'] = {q['id']: q['o'] for q in all_questions if not q.get('retired')}
     outputs.update({f'data/mcq/chunks/{key}.json': value for key, value in sorted(chunks.items())})
     for name, value in outputs.items():
         path = ROOT / name

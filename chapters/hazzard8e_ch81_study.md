@@ -28,8 +28,8 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Postmortem study of COPD-exacerbation deaths: heart failure **37%**, pulmonary thromboembolism **21%**, pneumonia **28%**, respiratory failure **14%** (p1247).
 
 ### Pharmacologic management (stable COPD)
-- Stepwise approach: SABA rescue → long-acting BD (LAMA usually first-line, greater exacerbation reduction than LABA) → add the other class → add ICS (combined with a LABA — **ICS monotherapy is not recommended** in COPD, unlike asthma) for frequent exacerbations not controlled by LABA and/or LAMA, hospitalization for exacerbation, or concomitant asthma; ICS+LABA reduces exacerbations/hospitalizations with eosinophils **≥300 cells/mL** *[sic — the book's own Table 81-7, p1246, gives cells/μL]* plus high symptom burden and frequent exacerbations (p1253; agents in Table 81-10, p1249–1252).
-- ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL** *[sic — the book's own Table 81-7, p1246, gives cells/μL]*); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; posterior subcapsular cataracts; atypical mycobacterial infection (p1253–1254).
+- Stepwise approach: SABA rescue → long-acting BD (LAMA usually first-line, greater exacerbation reduction than LABA) → add the other class → add ICS (combined with a LABA — **ICS monotherapy is not recommended** in COPD, unlike asthma) for frequent exacerbations not controlled by LABA and/or LAMA, hospitalization for exacerbation, or concomitant asthma; ICS+LABA reduces exacerbations/hospitalizations with eosinophils **≥300 cells/μL** plus high symptom burden and frequent exacerbations (p1253; agents in Table 81-10, p1249–1252). *(Table 81-7, p1246, and [GOLD Figure 3.10](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=29) use cells/μL; the prose on p1253 prints cells/mL.)*
+- ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/μL**); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
 - Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
 - Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance; maintenance may be considered for frequent exacerbators despite maximal triple inhalers when worsening airflow obstruction and airway inflammation drive symptoms, without hearing impairment, resting tachycardia or other arrhythmia, apparent QTc-prolongation risk, or clinical/radiographic NTM evidence, with NTM assessment before regular use (p1254).
@@ -50,7 +50,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 ### Surgical & LTOT
 - LTOT indicated for resting PaO2 **≤55 mm Hg** or SpO2 **≤88%** (daily use ≥16 h/day improves survival) (Table 81-11, p1256).
 - LVRS candidates: FEV1 **<50%** predicted, RV **>150–200%** predicted, upper-lobe-predominant emphysema; FEV1 or DLCO **<20%** predicted + homogeneous emphysema = higher surgical mortality, do not operate (p1258).
-- Lung transplant referral thresholds: FEV1/DLCO **<25%** predicted, PaCO2 **>50 mmHg**, BODE **>5**; median post-transplant survival **5–6 years**; age >70 has higher 30-day/1-year mortality (p1258–1259).
+- Lung transplant referral thresholds: both FEV1 and DLCO **<25%** predicted, PaCO2 **>50 mmHg**, BODE **>5**; median post-transplant survival **5–6 years**; age >70 has higher 30-day/1-year mortality (p1258–1259).
 
 ### Palliative care
 - Average life expectancy from diagnosis: **14 years** for COPD vs **21 years** for heart disease (p1262).
@@ -97,7 +97,7 @@ Two-thirds of those with chronic-bronchitis symptoms and half of those with phys
 
 <details><summary>Answer</summary>
 
-ICS combined with LABA reduces exacerbations and hospitalizations with absolute eosinophil count ≥300 cells/mL plus high symptom burden and frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest with eosinophils <100 cells/mL (also older age, frailty, low BMI, high ICS dose); ICS withdrawal can be considered with eosinophils <300 (especially <100) cells/mL (p1253–1254). *[sic — the book's own Table 81-7, p1246, gives cells/μL]*
+ICS combined with LABA reduces exacerbations and hospitalizations with absolute eosinophil count ≥300 cells/μL plus high symptom burden and frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest with eosinophils <100 cells/μL (also older age, frailty, low BMI, high ICS dose); ICS withdrawal can be considered with eosinophils <300 (especially <100) cells/μL (p1253–1254). *(Table 81-7, p1246, and [GOLD Figure 3.10](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=29) use cells/μL; the prose on p1253 prints cells/mL.)*
 
 </details>
 

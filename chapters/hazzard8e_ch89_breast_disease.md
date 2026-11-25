@@ -170,7 +170,7 @@ Tools to predict the benefit of chemotherapy are available. These include genomi
 
 Tools to predict the patient’s life expectancy (exclusive of their breast cancer diagnosis), general health status, and risk for chemotherapy toxicity should be used to assess the older patient. There is vast heterogeneity in function and comorbidity in older patients at any given age. Table 89-2 presents a list of key websites and resources for providers who care for older patients with cancer.
 
-An online tool, ePrognosis (https://eprognosis.ucsf. edu/), estimates life expectancy based on medical history and has been validated for use among women with earlystage breast cancer. By providing an estimate of noncancer mortality risk, the ePrognosis tool can help frame treatment decisions for adjuvant chemotherapy and provide a starting point for conversation with the patient about their own preferences.
+An online tool, ePrognosis ([https://eprognosis.ucsf](<https://eprognosis.ucsf.edu/>). edu/), estimates life expectancy based on medical history and has been validated for use among women with earlystage breast cancer. By providing an estimate of noncancer mortality risk, the ePrognosis tool can help frame treatment decisions for adjuvant chemotherapy and provide a starting point for conversation with the patient about their own preferences.
 
 Additionally, we recommend that patients older than 70 years and/or with multiple comorbid conditions should be screened for geriatric syndromes using a
 
@@ -268,7 +268,7 @@ despite increasing awareness of this issue. Past examinations of receipt of care
 
 Breast cancer is a major gerontologic problem. Both physician and patient education concerning screening, early diagnosis, and management of breast cancer in this age group are required. Available data indicate that optimal treatment of breast cancer in older women results in outcomes similar to those from treatment of younger women. The GA should be used to optimize treatment decisions and those older patients with satisfactory function and good life expectancy should be managed with judicious “state-of-the-art” therapy. Palliative care should be initiated early in almost all symptomatic patients. Barriers to the treatment of breast cancer in older women are generic to the treatment of all illnesses in this age group and include access to care, transportation, adequate family and social support, physician bias, racial inequities, and treatment costs. Changes in health care policy, as well as focused research related to cancer in the geriatric population, will be needed to overcome these obstacles.
 
-breast cancer: meta-analyses of long-term outcome among 100,000 women in 123 randomised trials. Lancet. 2012;379(9814):432–444. ePrognosis. Estimating prognosis for elders. http://eprog-
+breast cancer: meta-analyses of long-term outcome among 100,000 women in 123 randomised trials. Lancet. 2012;379(9814):432–444. ePrognosis. Estimating prognosis for elders. [http://eprog-](<https://eprognosis.ucsf.edu/>)
 
 nosis.ucsf.edu/. Helson HD, Smith ME, Griffin JC, Fu R. Use of medica-
 

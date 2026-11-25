@@ -218,7 +218,7 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 Administration on Aging. A Profile of Older Americans.
 
-Washington, DC: Administration on Aging; 2019. https:// acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
+Washington, DC: Administration on Aging; 2019. [https://](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508>) acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
 
 aid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/ x3mK. Barry KL, Blow FC. Drinking over the lifespan: focus on
 
@@ -236,7 +236,7 @@ New York, NY: John Wiley & Sons, Inc; 2019. Han BH, Moore AA, Sherman S, Keyes K
 
 Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005–2014. Drug Alcohol Depend. 2017;170:198–207. HIV Among People Aged 50 and Over, Centers for
 
-Disease Prevention and Control. https://www.cdc .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
+Disease Prevention and Control. [https://www.cdc](<https://www.cdc.gov/hiv/data-research/facts-stats/older-americans.html>) .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
 
 Kadushin G, Egan M. Gerontological Home Health Care: A
 
@@ -248,16 +248,16 @@ health-related quality of life among LGBT older adults. Gerontologist. 2017;57(S
 
 lenges. J Aging Res. 2016;2016:2404857. National Association of Social Workers. NASW standards
 
-for palliative and end of life care (2015). https://www .socialworkers.org/Practice/Practice-Standards-Guidelines. Accessed December 6, 2021. National Association of Social Workers. NASW guidelines
+for palliative and end of life care (2015). [https://www](<https://www.socialworkers.org/Practice/Practice-Standards-Guidelines>) .socialworkers.org/Practice/Practice-Standards-Guidelines. Accessed December 6, 2021. National Association of Social Workers. NASW guidelines
 
-for social work practice in healthcare settings (2016). www.socialworkers.org/practice/standards/NASW HealthCareStandards.pdf. Rodriguez J. Labors of Love: Nursing Homes and the Struc-
+for social work practice in healthcare settings (2016). [www.socialworkers.org/practice/standards/NASW](<https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/NASW-Standards-for-Social-Work-Practice-in-Health-Care-Settings> "NASW Standards for Social Work Practice in Health Care Settings.") HealthCareStandards.pdf. Rodriguez J. Labors of Love: Nursing Homes and the Struc-
 
 ture of Care Work. New York, NY: New York University Press; 2014. Standards and Indicators for Cultural Competence in Social
 
-Work Practice, NASW, 2015. https://www.socialworkers. org/LinkClick.aspx?fileticket= 7dVckZAYUmk%3D&- portalid=0. Accessed December 6, 2021. Weaver RH, Roberto KA. Home and community-based
+Work Practice, NASW, 2015. [https://www.socialworkers](<https://www.socialworkers.org/LinkClick.aspx?fileticket=7dVckZAYUmk%3D&portalid=0>). org/LinkClick.aspx?fileticket= 7dVckZAYUmk%3D&- portalid=0. Accessed December 6, 2021. Weaver RH, Roberto KA. Home and community-based
 
 service use by vulnerable older adults. Gerontologist. 2017;57(3):540–551. World Health Organization. Suicide in the world, 2019.
 
-https://www.who.int/publications/i/item/suicide-inthe-world. Accessed January 5, 2022. Zerden L, Lombardi B, Jones A. Social workers in inte-
+[https://www.who.int/publications/i/item/suicide-inthe-world](<https://www.who.int/publications/i/item/suicide-in-the-world>). Accessed January 5, 2022. Zerden L, Lombardi B, Jones A. Social workers in inte-
 
 grated health care: improving care throughout the life course. Soc Work Health Care. 2019;58(1):142–149.

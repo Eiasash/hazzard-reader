@@ -212,7 +212,7 @@ The pattern of female sexual response may vary across time and relationships, al
 
 As men age, the sexual response becomes more similar to that of women (a phenomenon some refer to as “feminization of the male sexual response cycle”). Tactile stimulation and foreplay are increasingly important for older male arousal, the time to erection and orgasm is longer, and latency between orgasms (the refractory period) is increased. Because few older men or women are aware of
 
-these phenomena, these changes often cause unnecessary anxiety and shame, leading some couples to cease sexual activity as a consequence. The changes to sexual physiology that occur with age may be beneficial to some couples, as the mutual need for foreplay and the longer arousal phase in men makes it easier for some couples to experience simultaneous orgasm. Older couples should be provided basic information about the normative changes to sexual function that occur with aging. The National Institute on Aging offers an “AgePage” on this topic (http://www.nia.nih. gov/health/publication/sexuality-later-life); the American Association of Retired Persons (AARP) also offers accessible, consumer-focused information about sexuality and intimacy in its publications. WomanLab.org, a resource from the University of Chicago Program in Integrative Sexual Medicine, was codeveloped with aging women to fill gaps in public and clinician understanding of female sexuality in the context of aging and illness.
+these phenomena, these changes often cause unnecessary anxiety and shame, leading some couples to cease sexual activity as a consequence. The changes to sexual physiology that occur with age may be beneficial to some couples, as the mutual need for foreplay and the longer arousal phase in men makes it easier for some couples to experience simultaneous orgasm. Older couples should be provided basic information about the normative changes to sexual function that occur with aging. The National Institute on Aging offers an “AgePage” on this topic ([http://www.nia.nih](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>). gov/health/publication/sexuality-later-life); the American Association of Retired Persons (AARP) also offers accessible, consumer-focused information about sexuality and intimacy in its publications. WomanLab.org, a resource from the University of Chicago Program in Integrative Sexual Medicine, was codeveloped with aging women to fill gaps in public and clinician understanding of female sexuality in the context of aging and illness.
 
 Building on the pioneering work of Masters and Johnson, Basson proposed a widely referenced intimacybased, cyclical model of the female sexual response that incorporates the quality and duration of the relationship as well as the psycho-emotional component of female sexuality (Figure 35-5B). In women, sexual desire may occur before or following sexual arousal. This model emphasizes the role of intimacy in generating female sexual desire and suggests that lack of intimacy and unsatisfying sexual encounters can raise the threshold for interest and arousal in a subsequent sexual encounter. Rather than linear and discrete, the phases of the female sexual response are described by Basson as variably overlapping in a way that “blends mind and body.”
 
@@ -306,7 +306,7 @@ There is ample evidence that older women, including those who are not currently 
 
 ![Figure 35-7](hazzard8e_ch35_figure-35-7_p516.webp)
 
-*FIGURE 35-7. Examples of image and text indicating freedom from discrimination for lesbian, gay, bisexual, transsexual (LGBT) patients. Front (top left) and back (top right) of brochure for the Program in Integrative Sexual Medicine at the University of Chicago, showing rainbow flag icon indicating that LGBT patients are welcome; bottom: excerpt from patient bill of rights and responsibilities for the Cook County Health and Hospitals System indicating nondiscrimination policy. (Top, Reproduced with permission from anneryanphoto.com. Bottom, https://cookcountyhealth.org/wp-content/uploads/2014-03-27Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf.)*
+*FIGURE 35-7. Examples of image and text indicating freedom from discrimination for lesbian, gay, bisexual, transsexual (LGBT) patients. Front (top left) and back (top right) of brochure for the Program in Integrative Sexual Medicine at the University of Chicago, showing rainbow flag icon indicating that LGBT patients are welcome; bottom: excerpt from patient bill of rights and responsibilities for the Cook County Health and Hospitals System indicating nondiscrimination policy. (Top, Reproduced with permission from anneryanphoto.com. Bottom, [https://cookcountyhealth.org/wp-content/uploads/2014-03-27Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf](<https://cookcountyhealth.org/wp-content/uploads/2014-03-27-Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf>).)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -388,7 +388,7 @@ physical and mental health, medications, substance use, and sexual function must
 
 ### Clinical Evaluation of Sexual Dysfunction
 
-Health care providers should routinely inquire about sexual function during visits to normalize the topic and establish a safe space to discuss concerns. Questions to assess sexual dysfunction are summarized in Table 35-10. Identification of the level of personal distress caused by each problem can be assessed informally by asking, “How much does this problem bother you?” and can be noted as a lot, somewhat, or not at all. Not uncommonly, an older woman will say she is not bothered by the problem, but is motivated to address it for relational purposes. The Derogatis Female Sexual Distress Scale (2002) and other research tools can be used to track change in distress over time, but have not been validated in geriatric-age women. We recommend the PROMIS sexual function measures (http://www.nihpromis.org/measures/availableinstruments).
+Health care providers should routinely inquire about sexual function during visits to normalize the topic and establish a safe space to discuss concerns. Questions to assess sexual dysfunction are summarized in Table 35-10. Identification of the level of personal distress caused by each problem can be assessed informally by asking, “How much does this problem bother you?” and can be noted as a lot, somewhat, or not at all. Not uncommonly, an older woman will say she is not bothered by the problem, but is motivated to address it for relational purposes. The Derogatis Female Sexual Distress Scale (2002) and other research tools can be used to track change in distress over time, but have not been validated in geriatric-age women. We recommend the PROMIS sexual function measures ([http://www.nihpromis.org/measures/availableinstruments](<https://www.healthmeasures.net/explore-measurement-systems/promis>)).
 
 Although many adult female sexual function problems have a psychosocial component, a thorough gynecologic physical examination by a skilled practitioner is needed to
 
@@ -502,7 +502,7 @@ abuse of elderly and vulnerable adults: U.S. preventive services task force reco
 
 measure health outcomes from the patient perspective. https://www.healthmeasures.net/explore-measurementsystems/promis. Accessed December 13, 2021. National Institute on Aging. AgePage: sexuality in later life;
 
-Revised 2017. http://www.nia.nih.gov/sites/default/files/ sexuality_in_later_life_0.pdf. Accessed December 14, 2020. Parish SJ, Hahn SR, Goldstein SW, et al. The international
+Revised 2017. [http://www.nia.nih.gov/sites/default/files/](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>) sexuality_in_later_life_0.pdf. Accessed December 14, 2020. Parish SJ, Hahn SR, Goldstein SW, et al. The international
 
 society for the study of women’s sexual health process
 
@@ -518,7 +518,7 @@ uploads/2014/04/Finding-Solutions-for-FSD-ACOG. pdf. Accessed December 13, 2021.
 
 menopause: an International Menopause Society White Paper. Climacteric. 2018;21(5):415–427. US Department of Health and Human Services, Centers
 
-for Medicare & Medicaid Services. Your guide to Medicare’s preventive services; Revised 2018. https://www .medicare.gov/Pubs/pdf/10110-Medicare-PreventiveServices.pdf. Accessed December 13, 2021. World Health Organization. Defining Sexual Health: Report
+for Medicare & Medicaid Services. Your guide to Medicare’s preventive services; Revised 2018. [https://www](<https://www.medicare.gov/publications/10110-your-guide-to-medicare-preventive-services.pdf>) .medicare.gov/Pubs/pdf/10110-Medicare-PreventiveServices.pdf. Accessed December 13, 2021. World Health Organization. Defining Sexual Health: Report
 
 of Technical Consultation on Sexual Health. Geneva: World Health Organization; 2002.
 

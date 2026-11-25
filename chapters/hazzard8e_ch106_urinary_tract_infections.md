@@ -294,7 +294,7 @@ tation of urinary tract infection (UTI) differs with aging in women. Arch Geront
 
 and prevention of urinary tract infections in post-acute and long-term care settings: a consensus statement from AMDA’s Infection Advisory Subcommittee. J Am Med Dir Assoc. 2020;21(1):12–24.e2. Centers for Disease Control and Prevention. Core Ele-
 
-ments of Antibiotic Stewardship. https://www.cdc.gov/ antibiotic-use/core-elements/index.html. Accessed August 29, 2021. D’Agata E, Loeb MB, Mitchell SL. Challenges in assessing
+ments of Antibiotic Stewardship. [https://www.cdc.gov/](<https://www.cdc.gov/antibiotic-use/core-elements/index.html>) antibiotic-use/core-elements/index.html. Accessed August 29, 2021. D’Agata E, Loeb MB, Mitchell SL. Challenges in assessing
 
 nursing home residents with advanced dementia for suspected urinary tract infections. J Am Geriatr Soc. 2013;61(1):62–66. Drekonja DM, Rector TS, Cutting A, Johnson JR. Urinary
 
@@ -364,6 +364,6 @@ of antibiotic use for urinary tract infection in nursing home residents. J Am Me
 
 bial use in a cohort of us nursing homes, 2017. JAMA. 2021;325(13):1286–1295. Toolkit 1. Start an Antimicrobial Stewardship Program.
 
-Agency for Healthcare Research and Quality. Available at: https://www.ahrq.gov/nhguide/toolkits/implementmonitor-sustain-program/toolkit1-start-program.html. Accessed August 29, 2021. van Buul LW, Vreeken HL, Bradley SF, et al. The devel-
+Agency for Healthcare Research and Quality. Available at: [https://www.ahrq.gov/nhguide/toolkits/implementmonitor-sustain-program/toolkit1-start-program.html](<https://www.ahrq.gov/nhguide/toolkits/implement-monitor-sustain-program/toolkit1-start-program.html>). Accessed August 29, 2021. van Buul LW, Vreeken HL, Bradley SF, et al. The devel-
 
 opment of a decision tool for the empiric treatment of suspected urinary tract infection in frail older adults: a Delphi consensus procedure. J Am Med Dir Assoc. 2018;19(9):757–764.

@@ -18,7 +18,7 @@ Study summary of Chapter 31 - Disorders of Swallowing; the book and the full cha
 
 **Management**
 - Compensatory strategies alter bolus flow or environment; rehabilitation targets muscle or neural function. The approaches may be combined (p449).
-- In Parkinson disease/dementia trials, honey-thick fluids reduced immediate aspiration more than nectar-thick or chin-down strategies, but chin-down and thickened fluids were equally effective for pneumonia prevention over **3 months** (p450).
+- In Parkinson disease/dementia trials, honey-thick fluids reduced immediate aspiration more than nectar-thick or chin-down strategies, but the trial found no significant difference in pneumonia incidence between chin-down and thickened fluids over **3 months** (p450; Robbins et al., PMID 18378947).
 - Free-water protocols require oral care and careful selection; small studies in ambulatory, cognitively intact rehabilitation patients cannot establish safety for all older adults (p450).
 - Promote oral hygiene and review medication formulations and dysphagia-provoking drugs. Pills taken lying down or with too little fluid can damage the esophagus (p451).
 

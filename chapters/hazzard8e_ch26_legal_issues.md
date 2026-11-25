@@ -278,6 +278,6 @@ decision making into communication with older adults with cancer and their careg
 
 ism and Human Rights Committee. American College of Physicians Ethics Manual, 7th ed. Ann Intern Med. 2019;170 (Suppl.):S1–S32. U.S. Department of Health and Human Services, Health
 
-Resources and Services Administration. NPDB Guidebook. Rockville, MD: U.S. Department of Health and Human Services; 2018. Available at https://www .npdb.hrsa.gov/resources/aboutGuidebooks.jsp. Accessed February 2, 2021.
+Resources and Services Administration. NPDB Guidebook. Rockville, MD: U.S. Department of Health and Human Services; 2018. Available at [https://www](<https://www.npdb.hrsa.gov/resources/aboutGuidebooks.jsp>) .npdb.hrsa.gov/resources/aboutGuidebooks.jsp. Accessed February 2, 2021.
 
 <a id="p370"></a>**[p. 370]**

@@ -5,7 +5,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 ## Summary
 
 ### Definition & Epidemiology
-- Rome IV: ≥2 of the following, on >**25%** of occasions, for ≥**12 wk** in the last **12 mo**: ≤**2 BM/week**, straining, hard stool (Bristol 1-2), sensation of incomplete evacuation, sensation of anorectal obstruction, manual maneuvers to defecate; loose stools rarely occur without laxatives and IBS criteria are not fulfilled (p1354).
+- **Rome IV functional constipation** requires at least two features: straining, hard or lumpy stool (Bristol 1–2), incomplete evacuation, anorectal blockage, manual maneuvers (each in more than **25%** of defecations), or fewer than **3 spontaneous bowel movements/week**; criteria must be met during the last **3 months**, with onset at least **6 months** before diagnosis, rare loose stools without laxatives and insufficient criteria for IBS ([Rome Foundation, C2](https://theromefoundation.org/rome-iv/rome-iv-criteria/)); Hazzard Table 87-1 prints 12 weeks in the last 12 months (p1354).
 - North American prevalence **12-19%**; an estimated **63 million** people in North America meet Rome II criteria for constipation (p1354).
 - Self-reported constipation in adults 65+: **26%** women, **16%** men; rises to **34%/26%** in the 84+ group (p1354).
 - Normal aging does NOT reduce bowel movement frequency: only **1-7%** of any age group report ≤2 BM/wk. Among older adults who self-report "constipation," **<10%** actually have ≤2 BM/wk and **>50%** move bowels daily — straining (**65%**) and hard stool (**39%**) drive the complaint, not frequency; **21%** of community-dwelling people 65+ have rectal outlet delay (p1355).
@@ -25,7 +25,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - Parkinson disease: **59%** meet Rome criteria (vs **21%** in age-matched controls); pelvic dyssynergia affects **60%** of PD patients (p1360).
 - Stroke: **60%** of patients are constipated while undergoing rehabilitation (p1360).
 - Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. If using metoclopramide, older adults should avoid continuous treatment for longer than **12 weeks**, with a **2-week** drug holiday or a dose decrease as tolerated (tardive dyskinesia risk) (p1361).
-- <3 BM/week carries a >**2-fold** colon cancer risk in adjusted studies — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
+- In one adjusted study, reporting <3 BM/week was associated with >**2-fold** colon cancer risk — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
 
 ### Complications
 - Overflow fecal incontinence in frail nursing home residents: enemas-until-clear then lactulose achieved **94%** resolution — yet only **4%** of these residents are referred for further assessment (p1361).
@@ -43,7 +43,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 ### Nonpharmacologic Management
 - Fiber target **20-35 g/day**; start low at **3-4 g/day** and titrate up to limit bloating (p1370).
 - Fluid **1.5-2 L/day** significantly enhanced the effect of added fiber in an RCT in adults aged 18-50; often not practical or acceptable for frail older patients (p1370).
-- Biofeedback outperforms laxatives/diazepam for rectal outlet delay/dyssynergia: **70% vs 23%** response at 3 months, **80% vs 22%** at 6-12 months (p1371).
+- For dyssynergic defecation, biofeedback improved symptoms in **70% vs 23%** with diazepam at 3 months; in a separate comparison, **80% vs 22%** improved with biofeedback versus laxatives at both 6 and 12 months (p1371).
 
 ### Drugs (name — dose — key cautions)
 - **Senna** — 1-3 tabs at bedtime if symptoms persist after bulk laxatives in ambulant older people (Table 87-11, p1378); onset **8-12 h** (p1372); cheap, safe first-line stimulant.
@@ -67,7 +67,7 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 <details><summary>Answer</summary>
 
-≥2 of: ≤2 BM/wk, straining, hard stool (Bristol 1-2), incomplete evacuation, anorectal obstruction sensation, manual maneuvers — on >25% of occasions for ≥12 wk in the last 12 mo; loose stools rarely occur without laxatives and IBS criteria are not fulfilled (p1354).
+At least two features: fewer than three spontaneous bowel movements/week, or straining, Bristol 1–2 stools, incomplete evacuation, blockage or manual maneuvers in more than 25% of defecations; symptoms fulfill criteria for the last three months and began at least six months before diagnosis, loose stools are rare without laxatives, and IBS criteria are insufficient ([Rome Foundation, C2](https://theromefoundation.org/rome-iv/rome-iv-criteria/)); Table 87-1 (p1354) gives a different time window.
 
 </details>
 

@@ -222,21 +222,21 @@ options for people with dementia: a systematic review. J Am Geriatr Soc. 2011;59
 
 Efficacy of treating pain to reduce behavioural disturbances in residents of nursing homes with dementia: cluster randomised clinical trial. BMJ. 2011;343:d4065. IOM (Institute of Medicine). Dying in America: Improv-
 
-ing Quality and Honoring Individual Preferences Near the End of Life. Washington, DC: The National Academies Press; 2014. https://www.nap.edu/catalog/18748/ dying-in-america-improving-quality-and-honoringindividual-preferences-near [nap.edu]. Accessed February 18, 2022. IOM (Institute of Medicine). Unequal Treatment: Con-
+ing Quality and Honoring Individual Preferences Near the End of Life. Washington, DC: The National Academies Press; 2014. [https://www.nap.edu/catalog/18748/](<https://doi.org/10.17226/18748>) dying-in-america-improving-quality-and-honoringindividual-preferences-near [nap.edu]. Accessed February 18, 2022. IOM (Institute of Medicine). Unequal Treatment: Con-
 
-fronting Racial and Ethnic Disparities in Health Care, 2002. http://nationalacademies.org/hmd/reports/2002/
+fronting Racial and Ethnic Disparities in Health Care, 2002. [http://nationalacademies.org/hmd/reports/2002/](<https://doi.org/10.17226/10260>)
 
 communication, ACP, and individualized care plans. Appropriate referrals to specialty-level palliative care should also be considered when palliative needs are great, given the increasingly robust evidence base of benefit for both palliative care and hospice.
 
 unequal-treatment-confronting-racial-and-ethnicdisparities-in-health-care.aspx. Accessed May 10, 2016. IOM (Institute of Medicine). (US) Committee on Les-
 
-bian, Gay, Bisexual, and Transgender Health Issues and Research Gaps and Opportunities. The Health of Lesbian, Gay, Bisexual, and Transgender People: Building a Foundation for Better Understanding. Washington, DC: The National Academies Press; 2011. https://nationalacademies.org/hmd/reports/2011/the-health-of-lesbiangay-bisexual-and-transgender-people.aspx. Accessed May 10, 2016. Johnson KS. Racial and ethnic disparities in palliative care.
+bian, Gay, Bisexual, and Transgender Health Issues and Research Gaps and Opportunities. The Health of Lesbian, Gay, Bisexual, and Transgender People: Building a Foundation for Better Understanding. Washington, DC: The National Academies Press; 2011. [https://nationalacademies.org/hmd/reports/2011/the-health-of-lesbiangay-bisexual-and-transgender-people.aspx](<https://doi.org/10.17226/13128>). Accessed May 10, 2016. Johnson KS. Racial and ethnic disparities in palliative care.
 
 J Palliat Med. 2013;16:1329–1334. Mitchell SL, Teno JM, Kiely DK, et al. The clinical
 
 course of advanced dementia. N Engl J Med. 2009;361: 1529–1538. National Hospice and Palliative Care Organization. NHP-
 
-COs Facts and Figures. Hospice Care in America. http://www.nhpco.org/hospice-statistics-researchpress-room/facts-hospice-and-palliative-care. Accessed May 10, 2021. Quinn KL, Shurrab M, Gitau K, et al. Association of
+COs Facts and Figures. Hospice Care in America. [http://www.nhpco.org/hospice-statistics-researchpress-room/facts-hospice-and-palliative-care](<https://www.nhpco.org/wp-content/uploads/NHPCO-Facts-Figures-2020-edition.pdf>). Accessed May 10, 2021. Quinn KL, Shurrab M, Gitau K, et al. Association of
 
 receipt of palliative care interventions with health care use, quality of life, and symptom burden among adults with chronic noncancer illness: a systematic review and meta-analysis. JAMA. 2020;324:1439–1450. Sampson EL, Candy B, Jones L. Enteral tube feeding for
 

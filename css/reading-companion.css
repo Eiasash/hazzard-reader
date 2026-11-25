@@ -1,5 +1,5 @@
 @media (min-width: 1200px) {
-  :root { --desktop-header-height: 64px; }
+  :root { --desktop-header-height: 64px; --desktop-mark-width: max(76px, calc(72px * var(--fs, 1))); }
   #chapterHeader:not(:has(.study-view-tabs:not([hidden]))) {
     height: var(--desktop-header-height);
     padding-inline: 12px;
@@ -17,16 +17,17 @@
     flex-basis: 52px;
   }
   #chapterHeader #findToggle, #chapterHeader .chapter-step { font-size: calc(26px * var(--fs, 1)); }
-  #chapterHeader #markToggle { flex-basis: 76px; }
+  #chapterHeader #markToggle { inline-size: var(--desktop-mark-width); flex-basis: var(--desktop-mark-width); }
   #chapterHeader .chapter-switch { flex-basis: 164px; }
   body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])) .chapter-switch { flex-basis: 164px; }
   body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])) .chapter-switch button:first-child { flex: 1; }
   #chapterHeader:has(.study-view-tabs:not([hidden])) {
     height: 120px;
     grid-template-rows: 56px 56px;
-    grid-template-columns: 52px 52px minmax(0, 1fr) 164px 76px 100px !important;
+    grid-template-columns: 52px 52px minmax(0, 1fr) 164px var(--desktop-mark-width) 100px !important;
   }
   #readerViewport.has-study-tabs #reader, #readerViewport.has-study-tabs #mcqViewport { padding-top: calc(120px + var(--s4)); }
+  #chapterHeader:has(.study-view-tabs:not([hidden])) #headerCloudLabel { display: inline; }
   #readerScroll > #reader { padding-top: calc(var(--desktop-header-height) + var(--s4)); }
   body.finding #readerScroll > #reader { padding-top: 172px; }
   body.examining #readerScroll > #reader { padding-top: 132px; }

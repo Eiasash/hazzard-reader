@@ -138,7 +138,7 @@ When a patient is dying, the aim may be freedom from distress even if closure is
 - **Stage 4**: full-thickness with bone/muscle/tendon/cartilage exposed (p686).
 - **Deep tissue PI (DTPI)**: purple/maroon intact skin, appears **~48h** after intense pressure (p686).
 - **Unstageable**: full-thickness, depth obscured by slough/eschar (p687).
-- Blanchable erythema = discoloration **>1cm** (p686).
+- **Blanchable erythema** pales with gentle pressure and the color returns on release. The chapter describes a flat patch **larger than 1 cm** (p686). Size alone does not determine blanchability.
 
 **Early (nonvisual) detection**
 - Early work suggests ultrasound may detect damage before clinical signs: **~80%** with abnormal images had no documented erythema (p686).
@@ -147,11 +147,11 @@ When a patient is dying, the aim may be freedom from distress even if closure is
 **Healing benchmarks & assessment tools**
 - Reconsider the treatment plan if no healing signs in **2 weeks** (p689).
 - **75%** of stage 2 PI heal within **60 days**; only **17%** of stage 3/4 PI do (p689).
-- PUSH tool: **10** wound-size categories, exudate **0–3**, tissue type **0–4** (p689).
+- PUSH scores wound area **0–10** (zero for a closed wound plus ten positive-size bands), exudate **0–3**, and tissue type **0–4** (p689; NPIAP PUSH Tool 3.0).
 - BWAT: **13** characteristics, each scored **1–5**, total range **13–65** (p689).
 
 **Local treatment**
-- Saline/water lack antiseptic properties and should seldom be used on (colonized) PI — antiseptic options: Dakin's **0.25%** or povidone-iodine (**10%**/**1%** free iodine) on colonized PI, applied **10–15 min** before redressing; lavage **4–15 psi** (p692). For clean wounds, less force and physiologic solutions such as normal saline can be used (p693); avoid povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, and acetic acid on clean and healing PI (p697).
+- Clean a pressure injury with a nonirritating, nontoxic solution such as saline or clean water. Wound colonization alone does not justify routine antiseptics. If an antimicrobial cleanser is specifically indicated, select the agent, concentration and contact time for the wound and product. Historical examples include **0.25% sodium hypochlorite** and **10% povidone-iodine containing 1% available iodine**. Irrigation at **4–15 psi** can remove debris. Avoid cytotoxic antiseptics on clean granulating tissue (pp692–693, 697; [WHS guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/)).
 - Moist dressings re-epithelialize up to **40% faster** than wounds left open to air; hydrocolloid/foam changed **q3–5 days**; PI are typically colonized with **≥10⁵** organisms/mL and may carry this load for long periods without clinical signs of infection (p693-694).
 - One retrospective study: air-fluidized beds healed fastest: **5.2 cm²/wk** vs **1.5 cm²/wk** (pressure-reduction) vs **1.8 cm²/wk** (low-air-loss) (p692).
 - **Table 46-2**: pain-reducing dressing categories are hydrocolloids (p693), plus hydrogels (cooling effect), alginates, and hydrofibers (p694) — composite, transparent-film, wound-filler, and foam dressings list no pain-relief use in the table.

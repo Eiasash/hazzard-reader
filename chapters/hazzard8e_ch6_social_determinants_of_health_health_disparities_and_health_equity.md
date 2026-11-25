@@ -154,7 +154,7 @@ Applying a life course perspective to health disparities among older adults allo
 
 ![Figure 6-4](hazzard8e_ch6_figure-6-4_p101.webp)
 
-*FIGURE 6-4. Social determinants of health and health outcomes interact across life course stages and foci. (Data from 2017 National Population Projections Tables: Main Series https://www.census.gov/data/tables/2017/ demo/popproj/2017-summary-tables.html.)*
+*FIGURE 6-4. Social determinants of health and health outcomes interact across life course stages and foci. (Data from 2017 National Population Projections Tables: Main Series [https://www.census.gov/data/tables/2017/](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>) demo/popproj/2017-summary-tables.html.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -286,6 +286,6 @@ fundamental causes of health inequalities: theory, evidence, and policy implicat
 
 American Physiology’: the fallacy of racial essentialism. J Intern Med. 2020;288(3):368–370. US Department of Health and Human Services, Office of
 
-Disease Prevention and Health Promotion: Healthy People 2030. https://health.gov/healthypeople/objectives-anddata/social-determinants-health. Accessed March 23, 2021.
+Disease Prevention and Health Promotion: Healthy People 2030. [https://health.gov/healthypeople/objectives-anddata/social-determinants-health](<https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health>). Accessed March 23, 2021.
 
 <a id="p106"></a>**[p. 106]**

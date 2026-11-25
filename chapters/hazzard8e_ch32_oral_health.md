@@ -304,7 +304,7 @@ dental hygienist, dental assistant, and health aides. One key goal is to determi
 
 ![Figure 32-9](hazzard8e_ch32_figure-32-9_p465.webp)
 
-*FIGURE 32-9. Oral and pharyngeal cancer incidence and deaths by race and ethnicity, sex, per 100,000, USA, 2013-2018. (Data from SEER: https://seer.cancer.gov/statfacts/html/oralcav.html.)*
+*FIGURE 32-9. Oral and pharyngeal cancer incidence and deaths by race and ethnicity, sex, per 100,000, USA, 2013-2018. (Data from SEER: [https://seer.cancer.gov/statfacts/html/oralcav.html](<https://seer.cancer.gov/statfacts/html/oralcav.html>).)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -388,7 +388,7 @@ in the elderly and its association with nutritional status, socio-economic and l
 
 National Cancer Institute. SEER Stat Fact Sheets: Oral
 
-Cavity and Pharynx Cancer. Available at https://seer. cancer.gov/statfacts/html/oralcav.html. Accessed October 26, 2020. Pretty IA, Ellwood RP, Lo EC, et al. The Seattle Care Path-
+Cavity and Pharynx Cancer. Available at [https://seer](<https://seer.cancer.gov/statfacts/html/oralcav.html>). cancer.gov/statfacts/html/oralcav.html. Accessed October 26, 2020. Pretty IA, Ellwood RP, Lo EC, et al. The Seattle Care Path-
 
 way for securing oral health in older patients. Gerodontology. 2014;31(suppl 1):77–87. Slade GD, Akinkugbe AA, Sanders AE. Projections of U.S.
 

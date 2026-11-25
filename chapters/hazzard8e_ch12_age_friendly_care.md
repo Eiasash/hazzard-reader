@@ -182,7 +182,7 @@ aging population and significantly reduce unnecessary hospitalizations, saving h
 
 American Hospital Association: The Value Initiative
 
-Issue Brief: Creating Value with Age-Friendly Health Systems; 2020. https://www.aha.org/system/files/media/ file/2020/08/value-initiative-issue-brief-10-creatingvalue-with-age-friendly-health-systems.pdf [aha.org]. Accessed February 7, 2022 Chung GC, Marottoli RA, Cooney LM Jr, Rhee TG.
+Issue Brief: Creating Value with Age-Friendly Health Systems; 2020. [https://www.aha.org/system/files/media/](<https://www.aha.org/issue-brief/2020-08-11-value-initiative-issue-brief-creating-value-age-friendly-health-systems>) file/2020/08/value-initiative-issue-brief-10-creatingvalue-with-age-friendly-health-systems.pdf [aha.org]. Accessed February 7, 2022 Chung GC, Marottoli RA, Cooney LM Jr, Rhee TG.
 
 Cost-related medication nonadherence among older adults: findings from a nationally representative sample. J Am Geriatr Soc. 2019;67(12):2463–2473. Diaz-Gutierrez MJ, Martinez-Cengotitabengoa M, Saez de
 
@@ -202,7 +202,7 @@ on people with dementia: a systematic review and meta-analysis. Clin Interv Agin
 
 Lown Institute: Medication Overload and Older Americans;
 
-2020. https://lowninstitute.org/projects/medicationoverload-how-the-drive-to-prescribe-is-harming-olderamericans/ [lowninstitute.org]. Accessed February 7, 2022 Martin P, Tamblyn R, Benedetti A, Ahmed S, Tannenbaum
+2020. [https://lowninstitute.org/projects/medicationoverload-how-the-drive-to-prescribe-is-harming-olderamericans/](<https://lowninstitute.org/wp-content/uploads/2019/08/medication-overload-lown-web.pdf>) [lowninstitute.org]. Accessed February 7, 2022 Martin P, Tamblyn R, Benedetti A, Ahmed S, Tannenbaum
 
 C. Effect of a pharmacist-led educational intervention on inappropriate medication prescriptions in older adults: the D-PRESCRIBE randomized clinical trial. JAMA. 2018;320(18):1889–1898. Misra A, Lloyd JT. Hospital utilization and expenditures
 

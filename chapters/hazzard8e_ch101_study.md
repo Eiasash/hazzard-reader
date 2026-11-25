@@ -12,7 +12,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 **RA — epidemiology**
 - US/Western prevalence **~0.8%**; **0.2–0.3%** China/Japan/Greece/Africa; up to **7%** in some American-Indian/Alaska Native populations (p1608)
-- Women affected **2–3×** more than men overall, but this **gender parity disappears in old age** (p1608) — LORA occurs with roughly equal M:F (p1610)
+- Women affected **2–3×** more than men overall, but the **female predominance narrows in late-onset disease** (p1608) — LORA occurs with roughly equal M:F (p1610)
 - Peak incidence in the **6th–8th decades** (p1608); RF prevalence rises with age to **~30% by age 90** (p1610)
 
 **LORA clinical pattern (Table 101-2)** (p1610)
@@ -23,7 +23,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 **RA — evaluation**
 - ACR functional class I–IV (**Table 101-3**) (p1611)
 - >10 yr RA duration → risk of **cervical spine/atlantoaxial instability** — assess before intubation (p1612)
-- **Vectra DA**: FDA-approved 12-protein multibiomarker blood test for RA disease activity, complements (does not replace) clinical judgment (p1612)
+- **Vectra DA**: laboratory-developed 12-protein blood test for RA disease activity, complements (does not replace) clinical judgment (p1612; Labcorp Vectra sample report, test 504965, documents its regulatory status)
 - Rheumatoid nodules in up to **40%** of seropositive White patients; pleuritis/pericarditis in **20–30%** (usually asymptomatic) (p1613)
 
 **RA — pharmacotherapy (Table 101-4, Table 101-5)**
@@ -33,7 +33,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 **RA — biologics safety & steroids**
 - CONSIDER mnemonic for biologic safety in older adults (**Table 101-6**): Comorbidities, Opportunistic infections, Novel presentation of side effects, Screening, Immunization, Drug dosing and interactions, Evaluate, Remaining lifespan (p1618)
-- Glucocorticoid dose-response in Medicare beneficiaries **>75 yr**: **≤5 mg, >5–10 mg, >10 mg/day** → **20%, 32%, 47%** increased serious-infection risk vs **13%** in non-users (p1618)
+- Glucocorticoid dose-response in Medicare patients aged **75 or older**: **≤5 mg, >5–10 mg, >10 mg/day** → approximately **20, 32 and 47 hospitalized infections per 100 person-years**, respectively, versus **13 per 100 person-years** without glucocorticoids (p1618)
   > Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.
 - TB screening (skin test or IGRA + CXR) required before anticytokine therapy; anti-TNF associated with **~4×** malignancy rate in one meta-analysis (p1617)
 
@@ -43,7 +43,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - 2019 EULAR/ACR criteria (**Table 101-7**) use **ANA ≥1:80** as entry criterion (p1620)
 - LOL diagnostic delay averages **2–3 years**; female:male ratio **4:1** in LOL vs **9:1** in younger-onset lupus (p1621)
 - LOL symptom frequencies (**Table 101-8**): arthritis/arthralgia **60%**, rash **47%**, cytopenias **45%**, interstitial pneumonitis **41%**, serositis **32%**, glomerulonephritis only **24%** — milder, less classic disease than YOL (p1621)
-- **Belimumab** (anti-BAFF) — first lupus drug in its class to get FDA approval, **2011**, indication expanded to lupus nephritis **2021**; voclosporin (oral calcineurin inhibitor) also approved for active lupus nephritis, role in older patients untested (p1621–1622)
+- **Belimumab** (anti-BAFF) — first lupus drug in its class to get FDA approval, **2011**, indication expanded to adult active lupus nephritis in **December 2020**; voclosporin (oral calcineurin inhibitor) also approved for active lupus nephritis, role in older patients untested (p1621–1622; FDA supplemental approval letter, December 2020)
 
 **Sjögren syndrome**
 - Second commonest autoimmune disease after RA; prevalence **0.04–4.8%**; peak onset **4th–5th decade**, **9:1** F:M (p1622)
@@ -64,7 +64,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - Aromatase inhibitors: as many as **half** of women get subjective joint achiness or pain, rarely frank arthritis (p1626–1627)
 
 **COVID-19 and rheumatic disease (Table 101-11)**
-- mRNA vaccines preferred over J&J; immunosuppressed patients get an extra dose ≥28 days after primary series (p1627–1628)
+- Historical vaccine schedule in this edition: mRNA vaccines were preferred to J&J, and an extra dose at least 28 days after the primary series was advised for immunosuppressed patients (p1627–1628)
 - Rituximab: vaccinate **2–4 weeks before** next anticipated dose; most other agents held **1–2 weeks** post-vaccination if disease activity allows — but the Task Force reached **no consensus** on interrupting TNF/IL-6R/IL-1R/IL-17/IL-12,23/IL-23 inhibitors around vaccination (Table 101-11, p1628)
 
 ## Recall
@@ -81,7 +81,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 <details><summary>Answer</summary>
 
-Typical RA affects women 2–3× more than men, but this gender parity disappears in old age (p1608) — LORA occurs with roughly equal frequency in men and women (p1610).
+Typical RA affects women 2–3× more than men, but the female predominance narrows in late-onset disease (p1608) — LORA occurs with roughly equal frequency in men and women (p1610).
 
 </details>
 
@@ -105,7 +105,7 @@ Remitting seronegative symmetric synovitis with pitting edema — affects older 
 
 <details><summary>Answer</summary>
 
-≤5 mg, >5–10 mg, and >10 mg/day of glucocorticoid conferred 20%, 32%, and 47% increased risk of serious infection respectively, versus 13% in non-users (p1618).
+≤5 mg, >5–10 mg, and >10 mg/day of glucocorticoid were associated with approximately 20, 32 and 47 hospitalized infections per 100 person-years, respectively, versus 13 per 100 person-years without glucocorticoids (p1618; George et al., Table 3).
 > Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.
 
 </details>
@@ -130,7 +130,7 @@ LOL has a female:male ratio of about 4:1, versus about 9:1 in younger-onset lupu
 
 <details><summary>Answer</summary>
 
-FDA-approved in 2011 as the first lupus drug in its class (anti-BAFF); indication expanded to active lupus nephritis in 2021 (p1621–1622).
+FDA-approved in 2011 as the first lupus drug in its class (anti-BAFF); indication expanded to adult active lupus nephritis in December 2020 (p1621–1622; FDA supplemental approval letter, December 2020).
 
 </details>
 

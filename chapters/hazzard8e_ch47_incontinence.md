@@ -576,7 +576,7 @@ Lightner DJ, Gomelsky A, Souter L, Vasavada SP. Diagnosis and treatment of overa
 
 McVary KT, Roehrborn CG, Avins AL, et al. Update on AUA guideline on the management of benign prostatic hyperplasia. J Urol. 2011;185(5):1793‒1803.
 
-NICE treatment guidelines (NG 123) for Urinary Incontinence and pelvic organ prolapse in women. www.nice. org.uk/guidance/ng123. Last updated 24 June 2019. Accessed January 31, 2021.
+NICE treatment guidelines (NG 123) for Urinary Incontinence and pelvic organ prolapse in women. [www.nice](<https://www.nice.org.uk/guidance/ng123>). org.uk/guidance/ng123. Last updated 24 June 2019. Accessed January 31, 2021.
 
 Ouslander JG. Management of overactive bladder. N Engl J Med. 2004;350:786–799.
 

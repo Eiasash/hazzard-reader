@@ -60,12 +60,27 @@ for chapter in [*mcq_index, 'all']:
         paths.add(path)
     for question in json.loads((ROOT / path).read_text(encoding='utf-8')):
         paths.update(question['images'])
+recall_section = re.compile(r'^#{1,6}\s+Recall[^\n]*\n[\s\S]*?(?=^#{1,6}\s|\Z)', re.MULTILINE)
+self_graded_question = re.compile(
+    r'^\*\*\d+\.\s+[\s\S]+?\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*</summary>[\s\S]*?</details>',
+    re.MULTILINE,
+)
 for chapter in manifest['chapters']:
     path = 'chapters/' + chapter['file']
     paths.add(path)
     text = (ROOT / path).read_text(encoding='utf-8')
+    if chapter['kind'] == 'study':
+        count = len(self_graded_question.findall(recall_section.sub('', text)))
+        if count:
+            chapter['drillCount'] = count
+        else:
+            chapter.pop('drillCount', None)
     for image in re.findall(r'!\[[^\]]*\]\(([^)\s]+\.(?:png|jpe?g|gif|svg|webp))\)', text, re.I):
         paths.add('chapters/' + image.rsplit('/', 1)[-1])
+manifest_path = ROOT / 'manifest.json'
+manifest_text = json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
+if manifest_text != manifest_path.read_text(encoding='utf-8'):
+    manifest_path.write_text(manifest_text, encoding='utf-8', newline='\n')
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
 paths.update(re.findall(r'(?:src|data-src)="(chapters/[^"?#]+\.(?:png|jpe?g|gif|svg|webp))"', html, re.I))
 files = []

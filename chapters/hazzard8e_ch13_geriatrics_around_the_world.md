@@ -200,6 +200,6 @@ atric medicine in Malaysia-riding the wave of political change. Geriatrics (Base
 
 DA, Donca V. The geriatric workforce in Romania: the need to improve data and management. Eur J Public Health. 2020;30(Suppl 4):iv28–iv31. Won CW, Kim S, Swagerty D. Why geriatric medicine is
 
-important for Korea: lessons learned in the United States. J Korean Med Sci. 2018;33(26):e175. World Health Organization. https://www.who.int/publica-
+important for Korea: lessons learned in the United States. J Korean Med Sci. 2018;33(26):e175. World Health Organization. [https://www.who.int/publica-](<https://pmnch.who.int/resources/publications/i/item/integrated-care-for-older-people-%28-icope%29-guidance-for-person-centred-assessment-and-pathways-in-primary-care>)
 
 tions/i/item/WHO-FWC-ALC-19.1. Accessed January 18, 2022.

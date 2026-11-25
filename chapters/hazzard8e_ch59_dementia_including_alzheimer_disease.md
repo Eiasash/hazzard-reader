@@ -171,7 +171,7 @@ There is some evidence that AD is more common among women, although study result
 
 ## Pathophysiology
 
-## Genetics Of Alzheimer Disease
+### Genetics Of Alzheimer Disease
 
 Based on the onset of symptoms, AD is normally divided into two groups: younger-onset (< 65 years) and late-onset (> 65 years) disease. Younger-onset patients include individuals with familial AD which accounts for between 1% and 5% of all AD cases and to date has been linked to mutations in the genes for the APP (gene name _APP_ ) on chromosome 21, presenilin 1 (PS1; gene name _PSEN1_ ) on chromosome 14, and presenilin 2 (PS2; gene name _PSEN2_ ) on chromosome 1. Among these genes, more than 250 different mutations have so far been identified, accounting for approximately 40% of all cases of familial AD, yet only 0.5% of AD cases overall. Most of the mutations (~ 200) are found in the _PSEN1_ gene and account for 78% of the familial AD mutations. _APP_ mutations (~ 33) account for<span id="exam-mcq-187eadc07d0f6464af5a1c18" data-exam-ids="mcq-187eadc07d0f6464af5a1c18" data-exam-read-page="897" data-reader-metadata="exam"></span>
 
@@ -183,7 +183,7 @@ Late-onset AD, also called sporadic AD, accounts for greater than 95% of all cas
 
 With the advent of genome-wide association studies (GWASs), a number of new genetic loci with genome-wide significance have been identified. In addition to _APOE4_ , more than 40 other polymorphisms have been associated with increased risk for late-onset AD. However, none of these associations has been uniformly confirmed in every population group studied to date. Over 20 genetic loci have been associated with late-onset AD, leading to four main mechanisms: Aβ metabolism, lipid metabolism, immune response, and cell signaling. Further research is needed to clarify the impact of other genetic changes on AD risk, genetic-environmental interactions, and the impact of such genetic factors on mechanisms of neurodegeneration and neuroprotection.
 
-## Neuropathology Of Alzheimer Disease
+### Neuropathology Of Alzheimer Disease
 
 The neuropathologic hallmarks of AD include amyloid plaques, neurofibrillary tangles, and neuritic plaques ( **Figure 59-1** ). The latter are a subset of amyloid plaques that are closely associated with neuronal injury and occur with dystrophic neurites. Cerebral amyloid angiopathy (CAA) frequently co-occurs with amyloid plaques, resulting from deposition of Aβ into cerebral vessels. Sporadic CAA is observed in 80% to 90% of AD patients and may cause lobar intracerebral hemorrhages and microbleeds. Together these processes contribute to loss of neurons and
 
@@ -203,7 +203,7 @@ appear as paired, helically twisted protein filaments composed of highly stable 
 
 In 2012, NIA and the Alzheimer’s Association published revised criteria for AD neuropathologic change. These criteria recommended reporting on the presence and extent of hallmark lesions for AD observed at autopsy independent of the individual’s cognitive state. These new guidelines took into account several well-established neuropathologic scoring criteria and integrated them into an “ABC score” based on three parameters ( _A_ myloid, _B_ raak, _C_ ERAD): criterion “A” ranks the Aβ plaque score (based on criteria from Thal et al.), criterion “B” measures the neurofibrillary tangle stage (modified from Braak criteria), and criterion “C” assesses the neuritic plaque score (modified from the Consortium to Establish a Registry for Alzheimer Disease [CERAD]). For reporting, these ABC scores are then transformed into one of four levels of neuropathic change: none, low, intermediate, or high. While CAA is not considered in the “ABC” score, the guidelines recognize that these changes frequently co-occur with parenchymal Aβ plaques and recommend neuropathologists comment on such changes separately within the neuropathology report.
 
-## Amyloid Precursor Protein Processing And Generation Of Aβ
+### Amyloid Precursor Protein Processing And Generation Of Aβ
 
 Aβ is a 39 to 43 amino acid hydrophobic peptide proteolytically released from a much larger precursor, APP. Although APP is the major source of toxic Aβ, it also exerts several important functions in the nervous system, including serving as a cell-surface receptor, growth factor, protease inhibitor, cell–cell interaction molecule, coreceptor/partner in the endocytic/lysosomal network, coagulation inhibitor factor, cell-surface scaffold protein, kinesin-interacting molecule for axonal transport, and transcription factor. The generation of Aβ from APP ( **Figure 59-2** ) requires the sequential recruitment of two enzymatic activities: β-secretase, also called BACE1, and γ-secretase, a multimeric protein
 
@@ -533,17 +533,17 @@ used in cardiovascular disease prevention. Some potential prevention therapies c
 
 ## Special Issues
 
-## Comorbidity
+### Comorbidity
 
 Managing comorbid illnesses in a person with AD can be challenging. Patients may forget to take important medications for comorbid conditions which, in turn, may exacerbate confusion. Persons with AD may not be able to remember symptoms related to other comorbid illnesses, such as recent episodes of chest pain, shortness of breath, or localization of arthritis pain. Thus, it is important to educate families and caregivers on how they can best assist their loved one in managing their comorbid illnesses. For example, a caregiver of an AD patient with diabetes may need to directly observe insulin administration and meal intake to maintain good glucose control. An AD patient with significant chronic pain may need their caregiver to write down the time of day that they become more agitated with the goal of optimizing the timing of their pain medications. Each management plan will need to be tailored to the AD patient’s comorbid illnesses and social situation, utilizing community resources as available.
 
 Persons with dementia are more likely to experience delirium in response to medical illness or surgery. Thus, educating families that acute episodes of confusion may suggest a harboring infection or other illness may help families seek out appropriate medical care when watching for behavioral changes. Caregivers should be forewarned that an AD patient is at increased risk for delirium following surgical procedures and that interventions such as avoiding anticholinergic and sedative hypnotic medications, maintaining good sleep-wake cycles, optimizing pain control, using hearing aids and glasses as appropriate, and establishing daytime activities may help reduce risk of escalating postoperative delirium (see also Chapter 58).
 
-## Care Settings
+### Care Settings
 
 Ensuring a safe living environment is a high priority for patients with any form of dementia including AD. Patients living in their own house or independent apartment may need additional safety measures implemented around their home, such as by posting emergency numbers on the wall, using timers to remind them to turn the stove off, using medical alert systems, and optimizing use of home care services to assist with tasks such as bathing, cleaning, meal preparation, transportation, and medication administration. Once patients can no longer identify what to do in an emergency situation, then 24-hour supervision is recommended. Through partnering with family and friends and use of community resources, some individuals with AD are able to stay in their own home their entire lives. However, a variety of social circumstances, medical or behavioral issues, or economic limitations may necessitate that a person with AD move to a more structured, supervised setting. The choice of setting (eg, assisted living facility, skilled nursing facility, or locked dementia unit) varies from patient to patient and depends on the degree of cognitive impairment, cultural preferences, comorbid illnesses, economic resources, and behavioral and safety concerns.
 
-## Palliative And End-Of-Life Care
+### Palliative And End-Of-Life Care
 
 Upon diagnosis of AD, many patients and families have questions as to what to expect in the years ahead. Since the course of AD progression may depend not only on genetic and environmental factors but also comorbid medical conditions, the rate of decline is difficult to predict. Once an AD patient is medically treated and after all potentially reversible contributing factors have been addressed, obtaining repeat cognitive testing may give the clinician an idea of the trajectory of the individual’s decline and help inform the family on what to expect in the years ahead. Providing information to family and caregivers early in the disease course on end-of-life planning may help smooth this difficult transition later in the illness. Use of respite services, home health aides or family members, or palliative care may help the person with AD stay in the home longer. If their social network cannot support the patient as care needs increase, then nursing home placement or hospice care may be necessary. Caregivers of AD patients may go through feelings of guilt when a loved one is moved from home to a facility, so appropriate support should be provided. Capacity for decision making should be assessed regularly throughout the course of the illness with appropriate activation of advanced care planning when the patient is no longer able to make their own health care decisions.
 
@@ -585,9 +585,9 @@ Symptoms of Dementia. Management of neuropsychiatric symptoms of dementia in cli
 
 <a id="p918"></a>**[p. 918]**
 
-- US Department of Health and Human Services National Alzheimer’s Project Act. http://aspe.hhs.gov/nationalalzheimers-project-act. Accessed September 10, 2015.
+- US Department of Health and Human Services National Alzheimer’s Project Act. [http://aspe.hhs.gov/nationalalzheimers-project-act](<https://aspe.hhs.gov/collaborations-committees-advisory-groups/napa>). Accessed September 10, 2015.
 
-   - US Food and Drug Administration Postmarket Drug Safety Information for Patients and Providers: Aducanumab (marketed as Aduhelm) Information. https://www
+   - US Food and Drug Administration Postmarket Drug Safety Information for Patients and Providers: Aducanumab (marketed as Aduhelm) Information. [https://www](<https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761178s011lbl.pdf>)
 
 .fda.gov/drugs/postmarket-drug-safety-informationpatients-and-providers/aducanumab-marketedaduhelm-information
 

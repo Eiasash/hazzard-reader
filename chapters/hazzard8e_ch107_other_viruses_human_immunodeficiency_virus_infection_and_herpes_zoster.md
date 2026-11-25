@@ -10,7 +10,7 @@ Kristine M. Erlandson, Kenneth Schmader
 
 ## HUMAN IMMUNODEFICIENCY VIRUS INFECTION
 
-## DEFINITION
+### DEFINITION
 
 HIV is the virus that causes acquired immunodeficiency syndrome (AIDS). HIV destroys CD4+ T cells vital to defense of infections, and when untreated, leads to a progressively immunocompromised state with an increased risk for opportunistic infections, cancers, and other complications.
 
@@ -32,7 +32,7 @@ HIV is the virus that causes acquired immunodeficiency syndrome (AIDS). HIV dest
 
 3. While AIDS-associated conditions have declined markedly, comorbid illnesses occur more frequently than in age-matched, HIV-uninfected control populations leading to early multimorbidity, polypharmacy, and functional decline even in those with HIV controlled by ART.
 
-## EPIDEMIOLOGY
+### EPIDEMIOLOGY
 
 One of the most amazing success stories of our lifetime is the transformation of HIV infection from a rapidly fatal disease that manifested in the first AIDS cases in early 1980s to a chronic health condition, with this shift driven in part by the tremendous advocacy of the HIV community. With early initiation of effective ART, HIV-1 RNA can now be quickly reduced to undetectable levels. Not only does this decrease the risk of immune suppression and associated comorbidities, but effective ART essentially eradicates between person transmission of HIV. This discovery that Undetectable = Untransmittable (or U = U) has resulted in a transformative experience for many people living with HIV, as they can now live without the fear of transmitting HIV to partners or close contacts. Unfortunately, despite early initiation of ART, we have yet to fully eradicate HIV, with rare exceptions occurring in the setting of bone marrow transplantation. As a result, a growing number of people are now living, and aging, with HIV. In the United States and Europe, as of 2018, over 50% of people living with HIV are age 50 or older, with approximately 20% age 65 or older.
 
@@ -44,7 +44,7 @@ sexual encounters. Use of medications to treat erectile dysfunction and enhance 
 
 While uptake of pre-exposure prophylaxis (PrEP) is less common among older versus younger adults, PrEP is an extremely effective tool for prevention of HIV transmission among patients at risk of HIV acquisition. Efficacy is presumed to be similar among older adults; however, few studies have included older adults, and the risk of adverse events and toxicity may be higher. A combination of strategies (barrier protection, ensuring viral suppression among people with diagnosed HIV, and providing PrEP to people at risk for HIV) has decreased and can continue to decrease transmission of new cases of HIV.
 
-## EVALUATION
+### EVALUATION
 
 Screening No one is immune to HIV infection, and nearly 15% of people with HIV (PWH) in the United States and approximately 45% of persons worldwide are unaware of their diagnosis, presenting the greatest transmission risk. The nonspecific or asymptomatic presentation of new HIV may lead to a missed diagnosis for months or even years, as physicians and their patients are both likely to underestimate the risk of HIV infection among older adults. Prompt diagnosis and treatment of HIV decreases transmission and improves outcomes across the age spectrum. U = U has also led to a greater emphasis on the HIV care continuum: ensuring that each person living with HIV is diagnosed, linked to and receives care, is retained in care overtime, and achieves viral suppression.
 
@@ -56,7 +56,7 @@ In addition to routine testing, HIV testing should be conducted as part of a dia
 
 HIV Testing In most clinical settings, the prior two-step ELISA (antibody) and Western blot testing strategy has been replaced by a fourth-generation combination HIV-1/2 immunoassay that tests for both HIV-1 and HIV-2 antibodies and the HIV p24 antigen. If positive, a confirmatory immunoassay will distinguish between HIV-1 and HIV-2 (primarily found in Africa). If there is any concern for recently acquired HIV infection, based on recent exposure or symptoms (fever, malaise, lymphadenopathy), the immunoassay should be combined with a PCR test for HIV-1 viral load as the p24 antigen will not turn positive until approximately 5 to 7 days after the HIV-1 viral load is detectable. Both false-negative and false-positive tests are now extremely rare with the combined antibody/ antigen test. Rapid screening tests (including home kits) detect antibody only and have a higher rate of false negative results.
 
-## MANAGEMENT
+### MANAGEMENT
 
 Selection and Initiation of Antiretroviral Treatment Patients with a new HIV diagnosis should be connected to HIV care as quickly as possible. ART is recommended for any patient regardless of CD4+ T-cell count, with greatest benefit on long-term prognosis seen if the CD4+ count remains more than 500 cells/μL. Rapid treatment of HIV offers immediate benefit by preventing declines in CD4+ count and decreasing HIV transmission. Indeed, some HIV programs have instituted rapid start programs with initiation of ART on the same day of HIV testing. Data also
 
@@ -116,7 +116,7 @@ In summary, people aged 50 or older now account for a majority of PWH as a conse
 
 ## HERPES ZOSTER
 
-## Learning Objectives
+### Learning Objectives
 
 - Understand the impact of aging on the incidence of herpes
 
@@ -152,11 +152,11 @@ HSV, for suspected organ involvement, and for atypical presentations, particular
 
 5. The recombinant zoster vaccine is recommended for all immunocompetent adults 50 years and older by ACIP for the prevention of herpes zoster.
 
-## DEFINITION
+### DEFINITION
 
 Herpes zoster is a neurocutaneous disease that is caused by the reactivation of VZV from a latent infection of dorsal sensory or cranial nerve ganglia following primary infection with VZV earlier in life. Herpes zoster is characterized by unilateral, dermatomal pain and rash. Postherpetic neuralgia (PHN) is pain 90 or more days after rash onset.
 
-## EPIDEMIOLOGY
+### EPIDEMIOLOGY
 
 VZV Transmission VZV is a double-stranded DNA herpesvirus that is transmitted from person to person via direct contact or airborne
 
@@ -174,7 +174,7 @@ The cardinal epidemiological feature of herpes zoster is its increase in inciden
 
 include White race, female sex, psychological stress, and physical trauma.
 
-## PRESENTATION
+### PRESENTATION
 
 VZV reactivates in the affected sensory ganglion and spreads in the peripheral sensory nerve, causing prodromal symptoms that frequently precede the rash by several days. These prodromal symptoms are located in the involved dermatome and range from a superficial itching, tingling, or burning to severe, deep, boring, or lancinating pain, paresthesia, or hyperesthesia. The pain can be constant or intermittent. The prodrome may be mistaken for many other conditions in older adults, including pleurisy, a myocardial infarction, cholecystitis, appendicitis, renal colic, a collapsed intervertebral disk, glaucoma, trigeminal neuralgia, or unappreciated trauma. The prodromal symptoms usually last a few days, although they have been reported to last more than a week. Zoster sine herpete is a condition when patients experience acute dermatomal neuralgia without ever developing a skin eruption.
 
@@ -198,13 +198,13 @@ Other complications include ocular inflammation in the setting of ophthalmic her
 
 area of the face and in the mouth. Cranial nerve VII and VIII involvement, or Ramsey Hunt syndrome, is characterized by facial palsy in combination with herpes zoster lesions of the ipsilateral external ear, ear canal, tympanic membrane, or hard palate. Symptoms include tinnitus, vertigo, deafness, problems with balance, and facial paresis. Involvement of cranial nerves IX and X may produce pharyngeal or laryngeal lesions and resulting pharyngitis or laryngitis. Motor paralysis, from VZV-induced destruction of motor neurons in the anterior spinal horn or motor radiculitis corresponding to the extension of VZV infection from the involved sensory ganglion, involves muscle groups with innervation that is contiguous with that of the affected dermatome. Painful Bell palsy in an older adult strongly suggests herpes zoster.
 
-## EVALUATION
+### EVALUATION
 
 In patients who present with prodromal pain and no rash, herpes zoster is often confused with other causes of unilateral, localized pain in older adults. One diagnostic clue to the presence of prodromal pain is localized cutaneous sensory abnormalities (eg, hyperesthesia, dysesthesia) in the affected dermatome. Herpes zoster is easily diagnosed when an older adult patient presents with the typical dermatomal vesicular rash and pain. During the rash phase, herpes simplex has the most similar presentation to herpes zoster. Evidence supporting herpes simplex includes a presentation in a younger population, multiple reoccurrences of lesions, and the absence of chronic pain. The lesions themselves are more difficult to distinguish, particularly when herpes zoster occurs in areas commonly affected by simplex (eg, oral, genital, buttock lesions). The differential diagnosis also includes contact dermatitis, burns, and vesicular lesions associated with fungal infections, but the history and examination usually make the distinction clear.
 
 The diagnosis of herpes zoster may need laboratory diagnostic testing when differentiating herpes zoster from HSV infection is necessary, for suspected organ involvement, and for atypical presentations, particularly in the immunocompromised host. The preferred diagnostic test is PCR because it is highly sensitive and specific, and results are available within hours of specimen receipt. The best specimen is vesicle fluid, which contains abundant VZV. Lacking vesicle fluid, acceptable specimens include lesion scrapings, crusts, tissue biopsy, or cerebrospinal fluid.
 
-## MANAGEMENT
+### MANAGEMENT
 
 Acute Herpes Zoster The principal goal of the treatment of herpes zoster in older adults is to decrease the length of the acute attack and to reduce or eliminate pain. Patients should be instructed to keep the rash clean and dry to decrease
 
@@ -228,7 +228,7 @@ Adjuvant Agents If moderate-to-severe herpes zoster pain is inadequately relieve
 
 Ophthalmic zoster with ocular involvement requires ophthalmological consultation. Oral antiviral and analgesic therapy is the mainstay of treatment as it is for herpes zoster presenting on the rest of the body but other ocular therapies may be necessary. These treatments are best managed by an ophthalmologist and include antibiotic ophthalmic ointment to prevent bacterial infection of the ocular surface, topical steroids to reduce ocular inflammation, mydriatics as needed for iritis, and ocular pressure-lowering drugs as needed for glaucoma.
 
-## PREVENTION
+### PREVENTION
 
 Recombinant Zoster Vaccine The adjuvanted recombinant zoster vaccine (RZV; Shingrix©) is a powerful tool to prevent herpes zoster and PHN in older adults. It contains two components: recombinant VZV surface glycoprotein E (gE) antigen and the AS01B adjuvant system. AS01B adjuvant contains monophosphoryl lipid A (MPL) and QS-21, a saponin, combined in a liposomal formulation. VZV gE elicits an immune response against VZV, while the adjuvant strongly potentiates the immune response by enhancing the innate immune response to the antigen.
 
@@ -278,7 +278,7 @@ era of polypharmacy. J Int AIDS Soc. 2020;23(2):e25449. CD4+ Count-Guided Interr
 
 ment. N Engl J Med. 2006;355(22):2283–2296. Centers for Disease Control and Prevention. HIV and
 
-Older Americans. Available at: https://www.cdc.gov/ hiv/group/age/olderamericans/index.html. Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
+Older Americans. Available at: [https://www.cdc.gov/](<https://www.cdc.gov/hiv/data-research/facts-stats/older-americans.html>) hiv/group/age/olderamericans/index.html. Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
 
 HIV AIDS. 2014;9(4):294–301. Deeks SG. HIV infection, inflammation, immunosenes-
 
@@ -310,7 +310,7 @@ Associated Comorbidities, Coinfections, and Complications: Summary and Recommend
 
 of accelerated or accentuated aging? J Gerontol A Biol Sci Med Sci. 2014;69(7):833–842. Panel on Antiretroviral Guidelines for Adults and Adoles-
 
-cents. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services. Available at https://clinicalinfo. hiv.gov/sites/default/files/inline-files/AdultandAdolescentGL.pdf. Accessed December 20, 2020. Piggott DA, Erlandson KM, Yarasheski KE. Frailty in
+cents. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services. Available at [https://clinicalinfo](<https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv>). hiv.gov/sites/default/files/inline-files/AdultandAdolescentGL.pdf. Accessed December 20, 2020. Piggott DA, Erlandson KM, Yarasheski KE. Frailty in
 
 HIV: epidemiology, biology, measurement, interventions, and research needs. Curr HIV/AIDS Rep. 2016; 13(6):340–348. Sangarlangkarn A, Merlin JS, Tucker RO, Kelley AS.
 

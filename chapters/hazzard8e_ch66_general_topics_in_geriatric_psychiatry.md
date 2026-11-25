@@ -528,7 +528,7 @@ atic review of interventions to prevent suicidal behaviors and reduce suicidal i
 
 Personality disorders in older adults: a review of epidemiology, assessment, and treatment. Curr Psychiatry Rep. 2020;22(3):1–14. Stanley B, Brown G. Safety Plan Treatment Manual to
 
-Reduce Suicide Risk: Veteran Version. 2008. http://www .mentalhealth.va.gov/mentalhealth/suicide_prevention. Accessed February 22, 2022. Uchida H, Mamo DC, Mulsant BH, et al. Increased antipsy-
+Reduce Suicide Risk: Veteran Version. 2008. [http://www](<http://www.mentalhealth.va.gov/mentalhealth/suicide_prevention>) .mentalhealth.va.gov/mentalhealth/suicide_prevention. Accessed February 22, 2022. Uchida H, Mamo DC, Mulsant BH, et al. Increased antipsy-
 
 chotic sensitivity in elderly patients: evidence and mechanisms. J Clin Psychiatry. 2009;70(3):397–405. Wenneberg AM, Canham SL, Smith MT, et al. Optimiz-
 

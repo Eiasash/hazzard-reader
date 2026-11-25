@@ -78,6 +78,9 @@ p{margin:0 0 var(--s4)}
 .reading-copy :is(p,h2,h3,td,th){scroll-margin-block:var(--s6)}
 .reading-copy ul{padding-inline-start:var(--s6);margin-block:0 var(--s4)}
 .reading-copy li+li{margin-block-start:var(--s2)}
+.reading-copy #what-the-exams-asked{margin-block:10px 4px;font-size:calc(16px * var(--fs,1))}
+.reading-copy #what-the-exams-asked+ul{margin-block-end:8px}
+.reading-copy #what-the-exams-asked+ul>li+li{margin-block-start:.25em}
 .reading-copy [lang="he"]{font-family:var(--ui);line-height:1.65}
 .reading-copy [data-marked]{color:var(--hl-ink);background:var(--mark-colour,var(--hl-yellow));border-radius:var(--s1);box-decoration-break:clone;-webkit-box-decoration-break:clone}.marking .reading-copy [data-unit]{cursor:pointer}.reading-copy :is(svg,img)[data-marked]{outline:var(--line) solid var(--accent)}
 [dir=rtl] code{unicode-bidi:isolate}
@@ -389,20 +392,25 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .launch-tiles strong{font-size:calc(14px * var(--fs,1))}
 .launch-tiles small{font-size:calc(11px * var(--fs,1))}
 .launch-tiles .tile-arrow{display:none}
-.home-priorities{display:grid;gap:10px}
+.home-priorities{display:grid;align-items:start;gap:6px}
 .home-priorities>*{min-inline-size:0}
-#homeReview{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;padding:8px 14px;background:var(--accent-soft);border-inline-start:4px solid var(--accent);color:var(--ink);text-decoration:none;font:600 calc(15px * var(--fs,1))/1.3 var(--ui)}
+#homeReview{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:4px 10px;background:var(--accent-soft);border-inline-start:3px solid var(--accent);color:var(--ink);text-decoration:none;font:600 calc(13px * var(--fs,1))/1.25 var(--ui)}
 #homeReviewCount{color:var(--accent);text-align:end}
-.home-weak h2,.home-coverage h2{font-size:calc(18px * var(--fs,1));margin:0 0 6px}
-.home-weak .meta,.home-coverage .meta{margin:4px 0}
-.home-weak-name{margin:6px 0 0;font:600 calc(15px * var(--fs,1))/1.35 var(--ui);overflow-wrap:anywhere}
+.home-weak,.home-coverage,.home-priorities .resume-card{padding:6px 10px}
+.home-weak h2,.home-coverage h2,.home-priorities .resume-card h2{font-size:calc(15px * var(--fs,1));margin:0 0 2px}
+.home-weak .meta,.home-coverage .meta,.home-priorities .resume-card .meta{font:400 calc(11px * var(--fs,1))/1.4 var(--ui);margin:2px 0}
+.home-weak-name{margin:2px 0 0;font:600 calc(13px * var(--fs,1))/1.3 var(--ui);overflow-wrap:anywhere}
+.home-priorities .resume-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-content:center;align-items:center;column-gap:8px;background:var(--surface);border-color:var(--rule);border-inline-start-color:var(--accent)}
+.home-priorities .resume-card>:not(#resume){grid-column:1}
+.home-priorities .resume-card .eyebrow{font-size:calc(11px * var(--fs,1));margin:0}
 .home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:2px 16px}
-.home-actions a,#resume{display:inline-flex;align-items:center;min-block-size:44px;font:600 calc(14px * var(--fs,1))/1.3 var(--ui)}
-#resume{justify-content:center;border-radius:var(--radius);padding:6px 10px;text-decoration:none}
-.home-coverage{margin-block:12px}
-.home-meter{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:2px 8px;margin-block:8px;font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
+.home-actions a,#resume{display:inline-flex;align-items:center;min-block-size:44px;font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+#resume{grid-column:2;grid-row:1 / span 3;align-self:center;justify-content:center;inline-size:auto;border-radius:var(--s2);padding:4px 8px;text-decoration:none}
+.home-coverage{margin-block:6px}
+.home-meter{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:2px 8px;margin-block:5px;font:500 calc(12px * var(--fs,1))/1.3 var(--ui)}
+.home-meter label{margin:0;font:inherit}
 .home-meter span{font-variant-numeric:tabular-nums}
-.home-meter progress{grid-column:1 / -1;inline-size:100%;accent-color:var(--accent)}
+.home-meter progress{grid-column:1 / -1;inline-size:100%;block-size:6px;accent-color:var(--accent)}
 @media(min-width:760px){.home-priorities{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}#homeReview{grid-column:1/-1}}
 #homeStatus{font:calc(11px * var(--fs,1))/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
 #homeBackup{font:calc(11px * var(--fs,1))/1.4 var(--ui);margin:4px 0 0;color:var(--muted)}
@@ -471,7 +479,8 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #panel[data-current-pane="tools"] .dialog-head{flex:none;height:36px;margin:0 0 6px}
 #panel[data-current-pane="tools"] #panelTitle{font:600 calc(14px * var(--fs,1))/18px var(--ui)}
 #panel[data-current-pane="tools"] [data-pane="tools"]{flex:1;overflow:auto;padding:0;min-width:0}
-#panel[data-current-pane="tools"] .settings-controls{display:grid;grid-template-columns:minmax(0,1fr) 40px 40px;gap:8px;margin:0}
+#panel[data-current-pane="tools"] .settings-controls{display:grid;grid-template-columns:minmax(0,1fr) 44px 44px;gap:4px;margin:0}
+#panel[data-current-pane="tools"] .settings-controls button:focus-visible{outline-offset:-3px}
 #panel[data-current-pane="tools"] button{min-height:44px;min-block-size:44px;height:44px;font:500 calc(13px * var(--fs,1))/18px var(--ui);padding:0 8px}
 #panel[data-current-pane="tools"] #sizeChoices{min-width:0}
 #panel[data-current-pane="tools"] .icon-control{width:44px;min-width:44px;justify-content:center;padding:0}
@@ -515,7 +524,9 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .library-row{grid-template-columns:minmax(0,1fr) calc(48px * var(--fs,1)) calc(52px * var(--fs,1));min-height:calc(64px * var(--fs,1))}
 .library-row>.chapter-name{min-width:0}
 #chapterRows .library-row button{min-height:calc(44px * var(--fs,1))}
-.launch-tiles button{min-height:calc(72px * var(--fs,1))}
+.launch-tiles button{min-height:44px;padding:5px 9px}
+.launch-tiles strong{font-size:calc(13px * var(--fs,1))}
+.launch-tiles small{margin-top:1px}
 #panel:not([data-current-pane="tools"]){height:auto;max-block-size:calc(var(--vv-height) * .30 * var(--fs,1));padding:calc(6px * var(--fs,1)) calc(12px * var(--fs,1));font:400 calc(13px * var(--fs,1))/1.35 var(--ui)}
 #panel:not([data-current-pane="tools"]) .dialog-head{min-height:40px;margin-bottom:0}
 #panel:not([data-current-pane="tools"]) #panelTitle{font:600 calc(16px * var(--fs,1))/1.25 var(--ui)}
@@ -1001,7 +1012,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <div id="desk" class="page" hidden>
   <button class="quiet" id="deskBack">‹ Reading</button><p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>What to study next</h1>
   <div class="home-priorities">
-    <a class="card" id="homeReview" href="?chapter=bank&amp;review=1"><span>Review today</span><span id="homeReviewCount">Loading…</span></a>
+    <a class="card" id="homeReview" href="?chapter=bank&amp;review=1&amp;queue=today"><span>Review today</span><span id="homeReviewCount">Loading…</span></a>
     <section class="card home-weak" aria-labelledby="homeWeakHeading">
       <h2 id="homeWeakHeading">Weakest high-yield chapter</h2>
       <p class="home-weak-name" id="homeWeakName">Checking your answers…</p><p class="meta" id="homeWeakDetail"></p>
@@ -2075,7 +2086,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <p>Kane RL, Ouslander JG, Resnick B, Malone ML. Essentials of Clinical Geriatrics. 8th ed. New York, NY: McGraw-Hill; 2018.</p>
 <p>Lightner DJ, Gomelsky A, Souter L, Vasavada SP. Diagnosis and treatment of overactive bladder (non-neurogenic) in adults: AUA/SUFU Guideline. J Urol. 2019;202:558–563.</p>
 <p>McVary KT, Roehrborn CG, Avins AL, et al. Update on AUA guideline on the management of benign prostatic hyperplasia. J Urol. 2011;185(5):1793‒1803.</p>
-<p>NICE treatment guidelines (NG 123) for Urinary Incontinence and pelvic organ prolapse in women. <a href="http://www.nice">www.nice</a>. org.uk/guidance/ng123. Last updated 24 June 2019. Accessed January 31, 2021.</p>
+<p>NICE treatment guidelines (NG 123) for Urinary Incontinence and pelvic organ prolapse in women. <a href="https://www.nice.org.uk/guidance/ng123">www.nice</a>. org.uk/guidance/ng123. Last updated 24 June 2019. Accessed January 31, 2021.</p>
 <p>Ouslander JG. Management of overactive bladder. N Engl J Med. 2004;350:786–799.</p>
 <p>Subak LL, Wing R, West DS, et al. Weight loss to treat urinary incontinence in overweight and obese women. N Engl J Med. 2009;360:481–490.</p>
 <p>Thom DH. Variation in estimates of urinary incontinence prevalence in the community: effects of differences in definition, population characteristics, and study type. J Am Geriatr Soc. 1998;46:473–480.</p>
@@ -3801,7 +3812,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <figure><img data-src="chapters/hazzard8e_ch99_figure99-2.png" alt="Figure 99-2" loading="lazy" decoding="async" width="1058" height="429"><figcaption>Figure 99-2</figcaption></figure>
 <div class="note"><p><em>FIGURE 99-2. Incidence (per 1000) of major diabetes complications among adults with diabetes, by age, 2009. CHF, congestive heart failure; ER, emergency room; ESRD, end-stage renal disease. (Data from National Diabetes Statistics Report 2020. Estimates of Diabetes and Its Burden in the United States. US Department of Health and Human Services. Centers for Disease Control and Prevention.)</em></p></div>
 <p>Diabetes was the seventh leading cause of death in the United States in 2019 based on death certificate records. In fact, diabetes may be underreported as a cause of death. Only 35% to 40% of people who died with diabetes had it listed anywhere on the death certificate, and only 10% to 15% had it listed as the underlying cause of death. Overall, risk for death among those with diabetes is about twice that of people with similar age but without diabetes. Over 70% of diabetes attributed deaths occurred among people age 70 and older.</p>
-<p>Figure 99-1 describes the prevalence of diabetes (diagnosed and undiagnosed) by age groups in the United States in 2013 to 2016, along with the prevalence of people with prediabetes (<a href="https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report">https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report</a>. pdf, accessed 5/31/2021). Among people aged 65 or older in the United States, the total prevalence of diabetes is about 27% and the prevalence of prediabetes is nearly 50%, both higher than younger age groups. About 20% of people meeting criteria for diabetes are undiagnosed. The incidence rate of newly diagnosed diabetes is the highest among those aged 45 to 64 and 65 to 79, estimated at 10 new cases/1000 people and 9 new cases/1000 people in 2017 to 2018, respectively.</p>
+<p>Figure 99-1 describes the prevalence of diabetes (diagnosed and undiagnosed) by age groups in the United States in 2013 to 2016, along with the prevalence of people with prediabetes (<a href="https://stacks.cdc.gov/view/cdc/85309">https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report</a>. pdf, accessed 5/31/2021). Among people aged 65 or older in the United States, the total prevalence of diabetes is about 27% and the prevalence of prediabetes is nearly 50%, both higher than younger age groups. About 20% of people meeting criteria for diabetes are undiagnosed. The incidence rate of newly diagnosed diabetes is the highest among those aged 45 to 64 and 65 to 79, estimated at 10 new cases/1000 people and 9 new cases/1000 people in 2017 to 2018, respectively.</p>
 <p>Older adults with diabetes mellitus are susceptible to all the usual complications of diabetes. Rates of end-stage renal disease (ESRD), loss of vision, myocardial infarction, stroke, peripheral vascular disease (PVD), and peripheral neuropathy all increase with age in the absence of diabetes, and their incidence and co-occurrence are all exaggerated by the presence of diabetes in older adults, as shown in Figure 99-2. Patients with diabetes are at very high risk for CVD, and this risk increases dramatically with age. In 2011, the percentage of US adults with diabetes reporting heart disease or stroke was 28% among those aged 35 to 64, 43% among those aged 65 to 74, and 55% among those aged 75 or older.</p>
 <span id="diabetes-kidney-risk" data-reader-metadata="exam"></span>
 <span id="exam-mcq-d3d6c26e0d495cd5b61653e7-p1562" data-exam-ids="mcq-d3d6c26e0d495cd5b61653e7" data-exam-read-page="1562" data-reader-metadata="exam"></span>
@@ -4634,7 +4645,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <p>Holman RR, Paul SK, Bethel MA, et al. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med. 2008;359(15):1577–1589.</p>
 <p>Huang ES, Zhang Q, Gandra N, Chin MH, Meltzer DO. The effect of comorbid illness and functional status on the expected benefits of intensive glucose control in older patients with type 2 diabetes: a decision analysis. Ann Intern Med. 2008;149:11–19.</p>
 <p>Inzucchi SE, Bergenstal RM, Buse JB, et al. Management of hyperglycemia in type 2 diabetes, 2015: a patient-centered approach. Update to a position statement of the American Diabetes Association and the European Association for the Study of Diabetes. Diabetes Care. 2015;38:140–149.</p>
-<p>James J, Hicks D, Sinclair A. <a href="https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/%5Btrenddiabetes.online%5D">https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/[trenddiabetes.online]</a>. Accessed January 28, 2022.</p>
+<p>James J, Hicks D, Sinclair A. <a href="https://www.diabetes.org.uk/for-professionals/improving-care/clinical-recommendations-for-professionals/diagnosis-ongoing-management-monitoring/end-of-life-care">https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/[trenddiabetes.online]</a>. Accessed January 28, 2022.</p>
 <p>Kirkman MS, Briscoe VJ, Clark N, et al. Diabetes in older adults: a consensus report. J Am Geriatr Soc. 2012; 60(12):2342–2356 and Diabetes Care. 2012;35(12): 2650–2664.</p>
 <p>Laiteerapong N, Huang ES. Chapter 16. Diabetes in older adults. In: Cowie CC, Casagrande SS, Menke A, et al., eds. Diabetes in America, 3rd ed. Bethesda, MD: National Institute of Diabetes and Digestive and Kidney Diseases (US); 2018 Aug.</p>
 <p>Lee P, Halter JB. The pathophysiology of hyperglycemia in older adults: clinical considerations. Diabetes Care. 2017;40(4):444–452.</p>
@@ -5259,7 +5270,6 @@ const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazz
 const chapterTextPromises=new Map();
 function loadChapterText(entry){if(!chapterTextPromises.has(entry.file))chapterTextPromises.set(entry.file,fetch('chapters/'+entry.file).then(r=>{if(!r.ok)throw new Error('Chapter unavailable');return r.text()}).catch(e=>{chapterTextPromises.delete(entry.file);throw e}));return chapterTextPromises.get(entry.file)}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function parseDrill(md){md=md.replace(/\r\n?/g,'\n').replace(/^#{1,6}\s+Recall[^\n]*\n[\s\S]*?(?=^#{1,6}\s|$(?![\s\S]))/gm,'');const out=[],re=/^\*\*(\d+)\.\s+([\s\S]+?)\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*<\/summary>([\s\S]*?)<\/details>/gm;let m;while(m=re.exec(md))out.push({q:m[2].trim(),a:m[3].trim()});return out}
 if(['mock','bank','drugs'].includes(requestedChapter)){
   manifestArticle=document.createElement('article');manifestArticle.id='copy';manifestArticle.className='reading-copy';manifestArticle.dataset.chapterId=requestedChapter;
   manifestArticle.innerHTML='<h1>'+ (requestedChapter==='drugs'?'Drugs':requestedChapter==='bank'?'Question bank':'Mock builder')+'</h1>';
@@ -5378,7 +5388,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v307 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v308 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5890,7 +5900,10 @@ document.addEventListener('click',e=>{
   const simulationLink=e.target.closest('a[href*="simulation=1"]');
   if(simulationLink&&cid==='mock'&&new URL(location.href).searchParams.get('simulation')==='1'){e.preventDefault();returnReading(()=>mcq?.show());return;}
   const reviewLink=e.target.closest('[data-review-link]');
-  if(reviewLink&&cid==='bank'&&new URL(location.href).searchParams.get('review')==='1'){e.preventDefault();returnReading(()=>mcq?.show());return;}
+  if(reviewLink&&cid==='bank'){
+    const here=new URL(location.href).searchParams,target=new URL(reviewLink.href).searchParams;
+    if(here.get('review')==='1'&&here.get('queue')===target.get('queue')){e.preventDefault();returnReading(()=>mcq?.show());return;}
+  }
   const b=e.target.closest('button');if(!b)return;
   if(b.dataset.tab){handleTab(b);return}
   if(b.dataset.grade!==undefined&&b.closest('.mock-q,.drill-q'))gradePractice(b);
@@ -6187,8 +6200,21 @@ function renderNotebook(){
     for(const bm of group){
     const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
     go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=bm.snippet||'Saved place';go.querySelector('small').textContent='Open saved place';go.querySelector('small').dir=snippetDirection(bm.snippet||'');
-    go.onclick=()=>openChapter(bm.chapter,{hash:'bm-'+bm.at});
-    del.className='nb-remove';del.textContent='Remove';del.onclick=()=>{const list=readJSON(BOOKMARK_KEY,[]),signature=HazzardStorage.removals.bookmarkSignature(bm),present=list.some(x=>HazzardStorage.removals.bookmarkSignature(x)===signature);if(writeJSON(BOOKMARK_KEY,present?list.filter(x=>HazzardStorage.removals.bookmarkSignature(x)!==signature):[{...bm,at:Date.now()},...list])){showSaved(present?'✓ Removed':'✓ Saved');del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark()}else notebookStatus('This bookmark change could not be saved. Try again.')};
+    const signature=HazzardStorage.removals.bookmarkSignature(bm);
+    const samePlace=item=>HazzardStorage.removals.bookmarkSignature(item)===signature;
+    go.onclick=()=>{
+      const current=readJSON(BOOKMARK_KEY,[]).find(samePlace);
+      if(current)openChapter(current.chapter,{hash:'bm-'+current.at});
+      else notebookStatus('This bookmark is no longer saved.');
+    };
+    del.className='nb-remove';del.textContent='Remove';
+    del.onclick=()=>{
+      const list=readJSON(BOOKMARK_KEY,[]),present=list.some(samePlace);
+      const next=present?list.filter(item=>!samePlace(item)):[{...bm,at:Date.now()},...list];
+      if(!writeJSON(BOOKMARK_KEY,next)){notebookStatus('This bookmark change could not be saved. Try again.');return}
+      showSaved(present?'✓ Removed':'✓ Saved');
+      del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark();
+    };
     li.append(go,del);places.append(li);
     }
   }
@@ -6222,6 +6248,15 @@ async function chapterIndex(){
     return {result:payload.map(([id,blocks])=>({entry:manifestChapters.find(e=>String(e.number)===String(id)),blocks})).filter(r=>r.entry),failed:[]};
   }).catch(()=>{fullTextIndex=null;return {result:[],failed:manifestChapters.map(e=>e.number)};});
 }
+function bankSearchIndex(){
+  return bankTextIndex ||= Promise.all([HazzardQuestionData.catalog(),readingJSON('data/mcq/search-options.json')]).then(([catalog,options])=>
+    catalog.filter(q=>!q.retired).map(item=>{
+      const choices=options[item.id];
+      if(!Array.isArray(choices)||choices.length!==item.o.length)throw Error('Question search options unavailable');
+      return {item,text:HazzardQuestionSearch.normalize([item.id,item.q,...choices].join(' '))};
+    })
+  ).catch(error=>{bankTextIndex=null;throw error;});
+}
 async function searchChapters(){
   const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
   results.replaceChildren();results.hidden=!q;status.hidden=!q;$('#bankSearchResults').replaceChildren();$('#bankSearchGroup').hidden=true;
@@ -6229,11 +6264,21 @@ async function searchChapters(){
   let titles=0;for(const li of $$('#chapterRows li')){li.hidden=q&&wordStart(li.dataset.search,q)<0;if(!li.hidden)titles++}
   $('#noChapters').hidden=true;if(!q)return;
   status.textContent='Searching book and question bank…';
-  const bankLoad=bankTextIndex?Promise.resolve(bankTextIndex):HazzardQuestionData.full().then(items=>bankTextIndex=items);
-  const [loaded,bankResult]=await Promise.all([chapterIndex(),bankLoad.then(items=>({items}),()=>({items:[],failed:true}))]);if(ticket!==searchTicket)return;
-  const words=HazzardQuestionSearch.normalize(q).split(' '),bankHits=bankResult.items.filter(item=>!item.retired&&words.every(w=>HazzardQuestionSearch.normalize([item.id,item.q,...item.o].join(' ')).includes(w)));
-  $('#bankSearchGroup').hidden=!bankHits.length;
-  for(const item of bankHits){const li=document.createElement('li'),link=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');link.type='button';link.onclick=()=>location.assign(HazzardEvidence.questionURL(item.id));label.textContent=HazzardMCQ.sourceLabel(item);snippet.dir='auto';snippet.textContent=item.q.slice(0,220)+(item.q.length>220?'…':'');link.append(label,snippet);if(HazzardMCQ.excluded(item.id)){const note=document.createElement('small');note.textContent=HazzardMCQ.EXCLUDED_NOTE;link.append(note);}li.append(link);$('#bankSearchResults').append(li);}
+  const words=HazzardQuestionSearch.normalize(q).split(' ');
+  const bankLoad=bankSearchIndex().then(rows=>{
+    if(ticket!==searchTicket)return {count:0};
+    const hits=rows.filter(row=>words.every(word=>row.text.includes(word)));
+    $('#bankSearchGroup').hidden=!hits.length;
+    for(const {item} of hits){
+      const li=document.createElement('li'),link=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');
+      link.type='button';link.onclick=()=>location.assign(HazzardEvidence.questionURL(item.id));
+      label.textContent=HazzardMCQ.sourceLabel(item);snippet.dir='auto';snippet.textContent=item.q.slice(0,220)+(item.q.length>220?'…':'');link.append(label,snippet);
+      if(HazzardMCQ.excluded(item.id)){const note=document.createElement('small');note.textContent=HazzardMCQ.EXCLUDED_NOTE;link.append(note);}
+      li.append(link);$('#bankSearchResults').append(li);
+    }
+    return {count:hits.length};
+  }).catch(()=>({count:0,failed:true}));
+  const loaded=await chapterIndex();if(ticket!==searchTicket)return;
   const ranks=new Map($$('#chapterRows [data-chapter-row]').map((row,i)=>[row.dataset.chapterRow,i]));
   const rank=entry=>ranks.get(String(entry.number).replace(/s$/,''))??Infinity;
   const entries=[...(Array.isArray(loaded)?loaded:loaded.result)].sort((a,b)=>rank(a.entry)-rank(b.entry)||String(a.entry.number).localeCompare(String(b.entry.number),undefined,{numeric:true}));let found=0;
@@ -6249,9 +6294,14 @@ async function searchChapters(){
       if(++chapterHits===3)break;
     }
   }
-  status.textContent=found+' text matches (up to 3 per page); '+bankHits.length+' question-bank matches.'+(bankResult.failed?' Question bank unavailable. Reconnect and try again.':'')+(loaded.failed?.length?' Some pages are unavailable. Connect once to finish saving them.':'');
-  $('#noChapters').hidden=found>0||titles>0||bankHits.length>0;
+  const bankResult=await bankLoad;if(ticket!==searchTicket)return;
+  status.textContent=found+' text matches (up to 3 per page); '+bankResult.count+' question-bank matches.'+(bankResult.failed?' Question bank unavailable. Reconnect and try again.':'')+(loaded.failed?.length?' Some pages are unavailable. Connect once to finish saving them.':'');
+  $('#noChapters').hidden=found>0||titles>0||bankResult.count>0;
 }
+$('#chapterSearch').addEventListener('focus',()=>{
+  // Download the indexes while the resident types the first query.
+  chapterIndex();bankSearchIndex().catch(()=>{});
+},{once:true});
 $('#chapterSearch').oninput=()=>{++searchTicket;clearTimeout(searchTimer);searchTimer=setTimeout(searchChapters,220)};
 function wordStart(text,q,from=0){
   if(!q)return -1;const lower=text.toLowerCase();q=q.toLowerCase();let at=from;
@@ -6350,20 +6400,39 @@ function wrapIndexRange(ix,start,end,id,colour){
 }
 window.HazzardHighlighter={textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader',answerColour:()=>colour};
 function placeRange(id,m){
-  const ix=textIndex();let best=-1,bestScore=-1,from=0,at;
-  while((at=ix.s.indexOf(m.text,from))!==-1){let sc=0;const pre=ix.s.slice(Math.max(0,at-(m.prefix||'').length),at),suf=ix.s.slice(at+m.text.length,at+m.text.length+(m.suffix||'').length);
-    for(let i=1;i<=pre.length&&pre[pre.length-i]===m.prefix[m.prefix.length-i];i++)sc++;for(let i=0;i<suf.length&&suf[i]===m.suffix[i];i++)sc++;
-    if(sc>bestScore){best=at;bestScore=sc}from=at+1}
-  if(best<0){
-    const u=studyWordingUnit(studyHighlightWording.id,m.text);
-    if(!u)return false;
-    const local=textIndex(copy,n=>n.parentElement.closest('[data-unit]')?.dataset.unit===u.id);
-    if(local.s.trim()!==studyHighlightWording.current)return false;
-    const start=local.s.indexOf(studyHighlightWording.current);
-    const spans=wrapIndexRange(local,start,start+studyHighlightWording.current.length,id,m.colour);
-    rangeMarks.set(id,{...m,spans});return true;
+  const ix=textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
+  let best=-1,length=m.text.length,bestScore=-1;
+  function consider(text,at,newLength){
+    let score=0;
+    for(let i=1;i<=prefix.length&&i<=at&&text[at-i]===prefix[prefix.length-i];i++)score++;
+    const end=at+m.text.length;
+    for(let i=0;i<suffix.length&&text[end+i]===suffix[i];i++)score++;
+    if(score>bestScore){best=at;length=newLength;bestScore=score;}
   }
-  const spans=wrapIndexRange(ix,best,best+m.text.length,id,m.colour);rangeMarks.set(id,{...m,spans});return true;
+  if(!m.text.length)return false;
+  for(let at=ix.s.indexOf(m.text);at!==-1;at=ix.s.indexOf(m.text,at+1))consider(ix.s,at,m.text.length);
+  // Only exact, published wording aliases for the current numbered sentence may
+  // relocate an old selection. Keep the original quote and context in storage.
+  if(bestScore<prefix.length+suffix.length || best<0){
+    for(const alias of highlightAliases||[]){
+      if(alias.chapter!==cid)continue;
+      const unit=unitMap.get(alias.id);
+      if(!unit||highlightText(unit)!==alias.new)continue;
+      let start=ix.nodes.findIndex(n=>n.parentElement.closest('[data-unit]')?.dataset.unit===alias.id);
+      if(start<0)continue;
+      if(ix.s[start]===' ')start++;
+      if(!ix.s.startsWith(alias.new,start))continue;
+      const previous=ix.s.slice(0,start)+alias.old+ix.s.slice(start+alias.new.length);
+      if(m.text===alias.old){consider(previous,start,alias.new.length);continue;}
+      if(alias.old.length!==alias.new.length)continue;
+      const low=Math.max(0,start-m.text.length+1),high=start+alias.old.length;
+      for(let at=previous.indexOf(m.text,low);at!==-1&&at<high;at=previous.indexOf(m.text,at+1)){
+        consider(previous,at,m.text.length);
+      }
+    }
+  }
+  if(best<0)return false;
+  const spans=wrapIndexRange(ix,best,best+length,id,m.colour);rangeMarks.set(id,{...m,spans});return true;
 }
 function unwrapRange(id){const r=rangeMarks.get(id);if(!r)return;for(const sp of r.spans){const p=sp.parentNode;if(!p)continue;sp.replaceWith(...sp.childNodes);p.normalize()}rangeMarks.delete(id)}
 function saveRanges(){try{const saved=readHighlights();saved.ranges=Object.fromEntries([...rangeMarks].map(([id,r])=>[id,{colour:r.colour,text:r.text,prefix:r.prefix,suffix:r.suffix,...(r.at===undefined?{}:{at:r.at})}]).concat(unplacedRanges.map(r=>[r.id,{colour:r.colour,text:r.text,prefix:r.prefix,suffix:r.suffix,...(r.at===undefined?{}:{at:r.at})}])));writeHighlights(saved);highlightSaveFailed=false}catch{highlightSaveFailed=true}updateStorageNotice()}
@@ -6418,20 +6487,19 @@ function rememberFurthest(place){
   data.chapters={...data.chapters,[place.chapter]:{ratio,read}};
   const saved=writeJSON(READING_KEY,data);if(!saved)flash('Reading progress could not be saved.',6000);return saved;
 }
-let drillTotals=null;
+const drillTotals=Object.fromEntries(manifestChapters.filter(chapter=>chapter.drillCount).map(chapter=>[chapter.number,chapter.drillCount]));
 async function refreshLibraryMarks(){
   if(companionFrame||currentView==='desk'||currentView==='reader'&&opensOnHome&&new URL(location.href).searchParams.get('home')==='1')return;
   const data=readJSON(READING_KEY,{chapters:{}});data.chapters=data.chapters||{};
   const places=readJSON(PLACE_KEY,{}),saved=[...Object.values(places.chapters||{}),...readJSON(BOOKMARK_KEY,[])];
   for(const p of saved){if(!p||p.chapter==='mock'||!Number.isFinite(p.ratio))continue;const old=data.chapters[p.chapter]||{ratio:0,read:false};data.chapters[p.chapter]={ratio:Math.min(1,Math.max(old.ratio,p.ratio)),read:old.read||p.ratio>=0.9999}}
   if(JSON.stringify(data)!==JSON.stringify(readJSON(READING_KEY,{chapters:{}}))&&!writeJSON(READING_KEY,data))flash('Reading progress could not be saved.',6000);
-  const render=()=>{const drills=readJSON(DRILL_KEY,{}).chapters||{},reading=readJSON(READING_KEY,data).chapters||{};
-    for(const row of $$('#chapterRows [data-chapter-row]')){
-      const id=row.dataset.chapterRow,study=id==='law'?'laws':id+'s',p=reading[row.dataset.readingChapter],grades=Object.values(drills[study]?.grades||{}),right=grades.filter(g=>g===1).length;
-      let label=row.querySelector('.library-reading-progress');if(!label){label=document.createElement('small');label.className='library-progress library-reading-progress';row.querySelector('.chapter-name').append(label)}
-      label.textContent=(p?.read?'Read ✓':Math.min(99,Math.floor((p?.ratio||0)*100))+'%')+(drillTotals?.[study]>0?' · '+(grades.length?'Drill '+right+'/'+drillTotals[study]:'Drill —'):'');
-    }
-  };render();
+  const drills=readJSON(DRILL_KEY,{}).chapters||{},reading=readJSON(READING_KEY,data).chapters||{};
+  for(const row of $$('#chapterRows [data-chapter-row]')){
+    const id=row.dataset.chapterRow,study=id==='law'?'laws':id+'s',p=reading[row.dataset.readingChapter],grades=Object.values(drills[study]?.grades||{}),right=grades.filter(g=>g===1).length;
+    let label=row.querySelector('.library-reading-progress');if(!label){label=document.createElement('small');label.className='library-progress library-reading-progress';row.querySelector('.chapter-name').append(label)}
+    label.textContent=(p?.read?'Read ✓':Math.min(99,Math.floor((p?.ratio||0)*100))+'%')+(drillTotals[study]>0?' · '+(grades.length?'Drill '+right+'/'+drillTotals[study]:'Drill —'):'');
+  }
   // Chapter rows are only displayed in the Library.
   if(currentView!=='library')return;
   try{
@@ -6451,7 +6519,6 @@ async function refreshLibraryMarks(){
       badge.textContent=m.ready?(r.answered-r.clean)+' missed':'Missed count unavailable';
     }
   }catch(error){console.error('Chapter missed counts:',error);}
-  if(!drillTotals){const totals={};await Promise.allSettled(manifestChapters.filter(c=>c.kind==='study').map(async c=>{totals[c.number]=parseDrill(await loadChapterText(c)).length}));drillTotals=totals;render()}
 }
 
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
@@ -6752,8 +6819,15 @@ function mergeNotebookValue(key,current,incoming){
   if(key===HazzardReview.KEY)return HazzardReview.merge(current,incoming);
   if(key===HazzardMCQ.VIEW_KEY)return HazzardMCQ.mergeView(current,incoming);
   if(key.startsWith('stage-a-highlights-v1:')){
-    const merged={...incoming,...current,marks:{...current.marks},ranges:{...current.ranges},history:[...(current.history||[])]};
-    const keepHistory=m=>{if(merged.marks[m.id]?.text===m.text)return;const i=merged.history.findIndex(x=>x.id===m.id&&x.text===m.text);if(i<0)merged.history.push(m);else if(removals.addTime(m)>removals.addTime(merged.history[i]))merged.history[i]=m;};
+    const merged={...incoming,...current,marks:{...current.marks}};
+    // Keep optional fields absent in notebooks that have never used them.
+    if(current.ranges||incoming.ranges)merged.ranges={...current.ranges};
+    if(current.history||incoming.history)merged.history=[...(current.history||[])];
+    const keepHistory=m=>{
+      if(merged.marks[m.id]?.text===m.text)return;
+      const history=merged.history??=[],i=history.findIndex(x=>x.id===m.id&&x.text===m.text);
+      if(i<0)history.push(m);else if(removals.addTime(m)>removals.addTime(history[i]))history[i]=m;
+    };
     for(const [id,mark] of Object.entries(incoming.marks)){
       if(!Object.hasOwn(merged.marks,id))merged.marks[id]=mark;
       else{const old=merged.marks[id];if(removals.addTime(mark)>removals.addTime(old)){merged.marks[id]=mark;if(old.text!==mark.text)keepHistory({id,...old});}else if(old.text!==mark.text)keepHistory({id,...mark});}
@@ -7025,7 +7099,7 @@ const companionStudy=cid==='law'?'laws':cid+'s';
 HazzardReadingCompanion.mount({id:cid,studyId:manifestChapters.some(c=>String(c.number)===companionStudy)?companionStudy:null,copy,scroll:readerScroll,landOnSource:landOnMatch});
 // Insert evidence metadata only after highlight units and drill identities exist.
 HazzardEvidence.backControl($('#readerViewport'));
-HazzardFlashcards.install(copy,cid,button=>openPanel('flashcards',button),viewport);
+HazzardFlashcards.install(copy,cid,button=>openPanel('flashcards',button),viewport,()=>setPanelExpanded(true));
 if(cid==='drugs')await HazzardDrugs.mount(copy);
 if(cid==='laws')await HazzardLawCards.decorate(copy);
 if(/^\d+s$/.test(cid))await HazzardMemoryAids.decorate(copy,cid);

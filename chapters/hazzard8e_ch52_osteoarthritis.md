@@ -289,7 +289,7 @@ OA is a highly prevalent disease among older adults worldwide. Older age, obesit
 
 - Fernandes L, Hagen KB, Bijlsma JW, et al.; European League Against Rheumatism (EULAR). EULAR recommendations for the non-pharmacological core management of hip and knee osteoarthritis. _Ann Rheum Dis_ . 2013;72(7):1125–1135.
 
-- Hunter DJ, Bierma-Zeinstra S. Osteoarthritis. _Lancet._ 2019;393:1745–1759. doi:10.1016/S0140-6736(19) 30417-9.
+- Hunter DJ, Bierma-Zeinstra S. Osteoarthritis. _Lancet._ 2019;393:1745–1759. [doi:10.1016/S0140-6736(19)](<https://doi.org/10.1016/S0140-6736(19)30417-9>) 30417-9.
 
 - Katz JN, Arant KR, Loeser RF. Diagnosis and treatment of hip and knee osteoarthritis. _JAMA._ 2021;325(6):568. doi:10.1001/jama.2020.22171.
 
