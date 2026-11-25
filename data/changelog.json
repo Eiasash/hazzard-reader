@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v304",
+      "date": "2026-11-25",
+      "changes": [
+        "Highlighting: the green colour is now a red underline; one tap marks a sentence, as many as you like, and Done keeps them."
+      ]
+    },
+    {
       "version": "v303",
       "date": "2026-11-25",
       "changes": [

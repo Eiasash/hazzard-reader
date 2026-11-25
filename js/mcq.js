@@ -1459,7 +1459,7 @@ window.HazzardAnswerHighlights = (() => {
         const host=m.region==='option'?current.root.querySelector('.mcq-option-explanation[data-option-index="'+m.optionIndex+'"] .mcq-option-reason'):current.root;
         const excerpt=document.createElement('p');excerpt.dataset.priorExcerpt='';excerpt.dataset.readerMetadata='highlight';
         excerpt.append('Previously highlighted: ');
-        const span=document.createElement('span');span.className='hl-range';span.dataset.marked='';span.dataset.answerHighlight=m.id;
+        const span=document.createElement('span');span.className='hl-range';span.dataset.marked=m.colour;span.dataset.answerHighlight=m.id;
         span.style.setProperty('--mark-colour','var(--hl-'+m.colour+')');span.textContent=m.text;excerpt.append(span);host.append(excerpt);
         continue;
       }
@@ -1484,7 +1484,7 @@ window.HazzardAnswerHighlights = (() => {
   function captureSelection(){
     const mark=selection();if(!mark)return false;
     // Keep the last real explanation selection when a touch on the toolbar collapses it.
-    clearPreview();pending=mark;selectedId=null;
+    pending=mark;selectedId=null;
     const range=getSelection().getRangeAt(0),parent=n=>n.nodeType===Node.ELEMENT_NODE?n:n.parentElement;
     const a=parent(range.startContainer).closest('[data-answer-highlight]'),b=parent(range.endContainer).closest('[data-answer-highlight]');
     if(a&&b&&a.dataset.answerHighlight===b.dataset.answerHighlight)selectedId=a.dataset.answerHighlight;
@@ -1495,20 +1495,7 @@ window.HazzardAnswerHighlights = (() => {
     const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
     value.items[id]={...mark,at,colour:colours.includes(colour)?colour:'yellow',removed:false,updatedAt:at};write(value);resetSelection();getSelection()?.removeAllRanges();return id;
   }
-  function clearPreview(){window.CSS?.highlights?.delete('answer-preview');}
-  function resetSelection(){clearPreview();pending=null;selectedId=null;}
-  function previewSentence(mark,start,end){
-    clearPreview();
-    const index=regionIndex(current.root,mark.region,mark.optionIndex);
-    const ranges=[];
-    for(let i=start;i<end;){
-      let j=i+1;while(j<end&&index.nodes[j]===index.nodes[i])j++;
-      const range=document.createRange();
-      range.setStart(index.nodes[i],index.offs[i]);range.setEnd(index.nodes[j-1],index.offs[j-1]+1);
-      ranges.push(range);i=j;
-    }
-    CSS.highlights.set('answer-preview',new Highlight(...ranges));
-  }
+  function resetSelection(){pending=null;selectedId=null;}
   const selectionState=()=>({canSave:!!pending,canRemove:!!selectedId});
   function removeSelected(){if(!selectedId)return false;setRemoved(selectedId,true);resetSelection();return true;}
   const tapExcluded=target=>target.closest('a,button,input,textarea,select,summary,img,svg,[role="button"],.mcq-source-note,.mcq-explanation-icon,[data-answer-heading]');
@@ -1581,12 +1568,16 @@ window.HazzardAnswerHighlights = (() => {
   function tapClick(e){
     const g=tapGesture;tapGesture=null;if(!available()||tapExcluded(e.target)||!getSelection()?.isCollapsed)return;
     const highlighted=e.target.closest('[data-answer-highlight]');
-    if(!bridge().answerMarking()||highlighted?.closest('[data-prior-excerpt]')){
+    if(!bridge().answerMarking()){
       if(highlighted){selectedId=highlighted.dataset.answerHighlight;pending=null;dispatchEvent(new Event('hazzard-answer-highlight-selection'));}
       return;
     }
     if(e.detail===0||!g?.ended||!g.valid)return;
     try{
+      if(highlighted?.closest('[data-prior-excerpt]')){
+        setRemoved(highlighted.dataset.answerHighlight,true);resetSelection();
+        e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:true}}));return;
+      }
       const mark=sentenceAt(e);if(!mark)return;
       const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark),end=start+mark.text.length;
       const existing=items().filter(m=>{
@@ -1594,10 +1585,7 @@ window.HazzardAnswerHighlights = (() => {
         const at=findAnchor(text,m);return at>=0&&at<end&&at+m.text.length>start;
       });
       if(existing.length){for(const m of existing)setRemoved(m.id,true);resetSelection();}
-      else if(!pending||pending.region!==mark.region||pending.optionIndex!==mark.optionIndex||findAnchor(text,pending)!==start||pending.text!==mark.text){
-        pending=mark;selectedId=null;previewSentence(mark,start,end);
-        e.preventDefault();dispatchEvent(new Event('hazzard-answer-highlight-selection'));return;
-      }else{saveSelection(bridge().answerColour());}
+      else{pending=mark;saveSelection(bridge().answerColour());}
       e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:existing.length>0}}));
     }catch(error){dispatchEvent(new CustomEvent('hazzard-answer-highlight-error',{detail:error.message}));}
   }
