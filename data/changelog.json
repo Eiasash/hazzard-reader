@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v303",
+      "date": "2026-11-25",
+      "changes": [
+        "Explanations flow in the page, a compact Text panel, a red underline when choosing a sentence to highlight, a wider desktop layout, and Chapter 55 rebuilt with exam labels, fuller notes and the Israeli rehabilitation context."
+      ]
+    },
+    {
       "version": "v302",
       "date": "2026-11-08",
       "changes": [

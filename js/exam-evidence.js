@@ -60,27 +60,46 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = 'p' + page.page;
     location.assign(url);
   }
+  function askedBadge(entries, description) {
+    const badge = document.createElement('span');
+    badge.className = 'exam-evidence'; badge.dataset.readerMetadata = 'exam';
+    badge.setAttribute('aria-label', description);
+    for (const [id, entry] of entries) {
+      const link = document.createElement('a');
+      link.href = questionURL(id); link.textContent = 'Asked: ' + label(entry);
+      badge.append(link);
+    }
+    return badge;
+  }
   async function decorate(copy, chapter) {
     const data = await references(), byPage = new Map();
+    const rehabilitationStudy = chapter === '55s';
+    const sourceChapter = rehabilitationStudy ? '55' : chapter;
+    const earlier = [];
     for (const [id, entry] of Object.entries(data.questions)) {
+      if(sourceChapter==='55' && Number(entry.sitting.slice(0,4))<2023 && (entry.chapters.includes('55') || data.study['55']?.ids.includes(id))) earlier.push([id,entry]);
       if (entry.status !== 'resolved') continue;
       for (const p of entry.pages) {
-        if ((p.readerChapter || p.chapter) !== chapter || !p.available) continue;
+        if ((p.readerChapter || p.chapter) !== sourceChapter || !p.available) continue;
         if (!byPage.has(p.page)) byPage.set(p.page, []);
         byPage.get(p.page).push([id, entry]);
       }
     }
-    for (const marker of copy.querySelectorAll('a.pg')) {
-      const entries = byPage.get(Number(marker.dataset.page));
-      if (!entries?.length) continue;
-      const badge = document.createElement('span');
-      badge.className = 'exam-evidence'; badge.dataset.readerMetadata = 'exam';
-      badge.setAttribute('aria-label', 'Asked here, page ' + marker.dataset.page);
-      for (const [id, entry] of entries) {
-        const link = document.createElement('a');
-        link.href = questionURL(id); link.textContent = 'Asked: ' + label(entry);
-        badge.append(link);
+    if(earlier.length){
+      const badge=askedBadge(earlier,'Asked in this chapter');
+      badge.id='asked-chapter';copy.querySelector('h1')?.after(badge);
+    }
+    if(rehabilitationStudy){
+      for(const marker of copy.querySelectorAll('[data-exam-ids]')){
+        const entries=marker.dataset.examIds.split(' ').map(id=>[id,data.questions[id]]).filter(([,entry])=>entry);
+        if(entries.length)marker.after(askedBadge(entries,'Related exam questions'));
       }
+    }
+    const markers=rehabilitationStudy?'[data-exam-page]':'a.pg';
+    for (const marker of copy.querySelectorAll(markers)) {
+      const entries = byPage.get(Number(marker.dataset.examPage || marker.dataset.page));
+      if (!entries?.length) continue;
+      const badge = askedBadge(entries, 'Asked here, page ' + (marker.dataset.examPage || marker.dataset.page));
       marker.classList.add('exam-page-marker');marker.after(badge);
     }
   }

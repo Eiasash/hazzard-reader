@@ -315,3 +315,7 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-topic-label{flex-wrap:nowrap;min-width:0}
 .mcq-topic-text{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .mcq-topic-label>.mcq-topic-flag{flex:none}
+
+.mcq-explanation {block-size:auto;max-block-size:none;overflow:visible}
+#mcqViewport:has(.mcq-docked-actions) {scroll-padding-block-end:calc(60px * var(--fs,1))}
+.mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}

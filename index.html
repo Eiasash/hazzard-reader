@@ -246,7 +246,7 @@ body{padding-block-end:var(--tabs-height)}
 #appTabs button[aria-current]{background:var(--accent-soft);color:var(--accent)}
 #appTabs svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 #appTabs .text-icon{font:600 23px/22px var(--reading)}
-#chapterHeader{--fs:1;text-size-adjust:100%;-webkit-text-size-adjust:100%;position:absolute;z-index:6;inset:0 0 auto;height:48px;display:flex;align-items:center;gap:2px;padding:2px 4px;background:var(--surface);border-bottom:1px solid var(--rule);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.3 var(--ui);transform:translateY(0);transition:transform 200ms ease;will-change:transform}
+#chapterHeader{text-size-adjust:100%;-webkit-text-size-adjust:100%;position:absolute;z-index:6;inset:0 0 auto;height:48px;display:flex;align-items:center;gap:2px;padding:2px 4px;background:var(--surface);border-bottom:1px solid var(--rule);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.3 var(--ui);transform:translateY(0);transition:transform 200ms ease;will-change:transform}
 #chapterHeader.is-collapsed{transform:translateY(-100%);pointer-events:none}
 #readerScroll{overflow-anchor:none}
 #reader{padding-top:calc(48px + var(--s4))}
@@ -580,6 +580,25 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 @media(max-width:420px){
   #chapterHeader #markToggle,#chapterHeader #headerCloud{flex:0 0 44px;min-width:44px;width:44px;max-width:44px;padding-inline:0}
   #markToggle>span:not(.pencil-icon),#headerCloudLabel{display:none}
+}
+
+/* Keep the original tap units intact while the reader confirms a sentence. */
+.marking [data-unit] {-webkit-tap-highlight-color:transparent}
+[data-tap-preview],::highlight(answer-preview) {
+  text-decoration:underline 2px #cf303e;
+  text-underline-offset:.18em;
+}
+:root[data-theme="dark"] [data-tap-preview],:root[data-theme="dark"] ::highlight(answer-preview) {
+  text-decoration-color:#ff7480;
+}
+#panel[open][data-current-pane="tools"] .dialog-head {grid-template-columns:minmax(0,1fr) 44px 44px}
+#panel[open][data-current-pane="tools"] #panelTitle {white-space:nowrap}
+#panel[open][data-current-pane="tools"] #cloudSettingsEntry {grid-column:1;grid-row:2}
+#panel[open][data-current-pane="tools"] #whatsNewButton {grid-column:2;grid-row:2}
+#panel[open][data-current-pane="tools"] #appearanceStatus {grid-column:1 / -1;grid-row:3}
+@media(min-width:1024px) {
+  #readerScroll>.page {max-inline-size:min(90vw,calc(860px * var(--fs,1)))}
+  .page:has(#chapterRows),.mcq-page {max-inline-size:min(92vw,1180px);max-width:1180px}
 }
 </style>
 </head>
@@ -992,9 +1011,9 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button id="cloudSettingsEntry" data-panel="tools" type="button">Sign in to sync</button>
 <div id="readerLinks" hidden></div>
 <button id="whatsNewButton" data-panel="whatsNew">What’s new</button>
-<p id="storageProtection" class="meta" role="status">Storage protected: checking…</p><p id="storageProtectionHelp" class="meta" hidden>Install the reader to the home screen (Chrome menu &gt; Add to Home screen / Install app) to help Chrome keep the offline book and saved work; meanwhile cloud sync and the existing backup download are the safety net.</p>
 <details id="appearanceStatus">
 <summary id="appearanceSummary" title="Show release, storage and snapshot details">Checking status…</summary>
+<p id="storageProtection" class="meta" role="status">Storage protected: checking…</p><p id="storageProtectionHelp" class="meta" hidden>Install the reader to the home screen (Chrome menu &gt; Add to Home screen / Install app) to help Chrome keep the offline book and saved work; meanwhile cloud sync and the existing backup download are the safety net.</p>
 <p id="releaseStatus" class="meta" role="status"></p>
 <p id="generatedFlagCount" class="meta" role="status"></p>
 <p id="changedQuestionsStatus" class="meta" role="status"></p>
@@ -5203,7 +5222,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v301 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v303 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5214,7 +5233,7 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight it, or select words and tap Save selection.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to preview it. Tap again or choose Save selection.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour">Colour <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
 document.body.append(markBar);
 new ResizeObserver(()=>{if(!markBar.hidden&&markBar.classList.contains('answer-mark-bar'))document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
@@ -5334,6 +5353,7 @@ function openChapter(chapter,opts={}){
 }
 const readerScroll=$('#readerScroll');
 const sizes={small:12,medium:13.5,large:15};
+let previewUnit=null;
 let marking=false,colour='yellow',size='small',anchor=null,gesture=null;
 let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
@@ -5727,7 +5747,7 @@ document.addEventListener('click',e=>{
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(marking)setMarking(false)}});
 function setMarking(on){
-  if(marking===on)return;marking=on;gesture=null;document.body.classList.toggle('marking',on);
+  if(marking===on)return;marking=on;gesture=null;clearUnitPreview();document.body.classList.toggle('marking',on);
   syncMarkingUI();if(on){if(!HazzardAnswerHighlights.available())getSelection()?.removeAllRanges();syncBookmark()}else HazzardAnswerHighlights.resetSelection();
   const action=on?'addEventListener':'removeEventListener';
   copy[action]('pointerdown',markDown);copy[action]('pointermove',markMove);copy[action]('pointerup',markUp);copy[action]('pointercancel',markCancel);copy[action]('click',markClick);copy[action]('keydown',markKey);copy[action]('contextmenu',markContext);
@@ -5783,8 +5803,20 @@ function markUp(e){if(gesture&&e.pointerId===gesture.id){gesture.ended=true;gest
 function markCancel(){gesture=null}
 function markContext(e){e.preventDefault()}
 function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
-function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();toggleUnit(u)}}
-function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();toggleUnit(u)}}}
+function clearUnitPreview(){
+  for(const part of previewUnit?.parts||[])part.removeAttribute('data-tap-preview');
+  previewUnit=null;
+}
+function chooseUnit(u){
+  const confirm=previewUnit===u;
+  clearUnitPreview();
+  if(u.marked||confirm){toggleUnit(u);return;}
+  previewUnit=u;
+  for(const part of u.parts)part.setAttribute('data-tap-preview','');
+  flash('Tap the underlined sentence again to save.');
+}
+function markClick(e){const g=gesture;gesture=null;if(!marking||panel.open||e.detail===0||!g||!g.ended||!g.valid)return;if(e.target.closest('button,input,textarea,summary,[data-reader-metadata]'))return;if(!getSelection().isCollapsed)return;const r=e.target.closest('.hl-range');if(r&&copy.contains(r)){e.preventDefault();removeRangeMark(r.dataset.range);return}const u=unitAt(e);if(u){e.preventDefault();chooseUnit(u)}}
+function markKey(e){if(e.target.closest('[data-reader-metadata]'))return;if(marking&&!panel.open&&['Enter',' '].includes(e.key)){const u=unitMap.get(e.target.closest('[data-unit]')?.dataset.unit);if(u){e.preventDefault();chooseUnit(u)}}}
 function paintUnit(u){for(const p of u.parts){p.toggleAttribute('data-marked',u.marked);if(u.marked)p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')');else p.style.removeProperty('--mark-colour')}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
 function validHighlight(mark){return mark&&['yellow','green','blue'].includes(mark.colour)&&typeof mark.text==='string'}
