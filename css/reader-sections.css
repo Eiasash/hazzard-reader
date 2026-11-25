@@ -1,0 +1,113 @@
+/* The chapter name stays in the header below the visible Sections control. */
+body:has(#reader:not([hidden])) #chapterHeaderTitle[data-sections]:not(:disabled)::before {
+  content: attr(data-sections);
+  display: block;
+  color: var(--accent);
+  font: 700 calc(12px * var(--fs, 1))/1.25 var(--ui);
+}
+@media (max-width: 420px) {
+  /* The four icon controls already have 44px tap targets. Let their grid
+     tracks fit those controls so the label still fits at the largest size. */
+  body:has(#reader:not([hidden])) #chapterHeader:has(#chapterHeaderTitle[data-sections]):has(.study-view-tabs:not([hidden])) {
+    grid-template-columns: 44px 44px minmax(0, 1fr) calc(90px * var(--fs, 1)) 44px 44px !important;
+  }
+}
+.reader-section-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+  text-align: start;
+}
+.reader-section-link bdi { min-width: 0; text-align: start; overflow-wrap: anywhere; }
+.section-exam-count {
+  flex: none;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+.section-count-legend {
+  margin-block: 2px 5px;
+  color: var(--muted);
+  font: 600 calc(11px * var(--fs, 1))/1.35 var(--ui);
+  text-align: end;
+}
+.section-picker-list { list-style: none; padding: 0; margin: 0; }
+.section-picker-list li { margin: 0; border-block-end: 1px solid var(--rule); }
+.section-picker-list .reader-section-link {
+  min-block-size: 44px;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  padding: 5px 0;
+  font: 500 calc(14px * var(--fs, 1))/1.3 var(--ui);
+}
+.section-picker-list .reader-section-link:focus-visible { outline-offset: -2px; }
+[data-pane="contents"] .section-nested { padding-inline-start: 14px; }
+#panel[data-current-pane="contents"]:not([data-expanded="true"]) {
+  height: min(38vh, 320px);
+  max-block-size: min(calc(var(--vv-height, 100dvh) * .38), 320px);
+}
+[data-pane="contents"] .section-exam-count { padding-inline-end: 5px; }
+#readerSectionOutline { display: none; }
+@media (min-width: 1200px) {
+  body.with-section-outline { --reader-outline-width: clamp(196px, 17vw, 256px); }
+  body.with-section-outline #readerViewport {
+    inset-inline-start: calc(var(--vv-left, 0px) + var(--reader-outline-width));
+  }
+  body.with-section-outline:not(.with-reading-companion) #readerViewport {
+    inline-size: calc(var(--vv-width, 100vw) - var(--reader-outline-width));
+  }
+  #readerSectionOutline:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    inset-inline-start: var(--vv-left, 0px);
+    inset-block-start: calc(var(--vv-top, 0px) + var(--desktop-header-height, 64px));
+    inset-block-end: calc(var(--vv-bottom-gap, 0px) + var(--tabs-height) + var(--update-gap, 0px));
+    inline-size: var(--reader-outline-width);
+    padding: 14px 12px 0;
+    border-inline-end: 1px solid var(--rule);
+    background: var(--surface);
+  }
+  body:has(#readerViewport.has-study-tabs) #readerSectionOutline {
+    inset-block-start: calc(var(--vv-top, 0px) + 120px);
+  }
+  #readerSectionOutline h2 {
+    margin: 0;
+    font: 650 calc(18px * var(--fs, 1))/1.35 var(--reading);
+  }
+  #readerSectionOutline ul {
+    min-height: 0;
+    list-style: none;
+    margin: 0;
+    padding: 2px 2px 12px;
+    overflow: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+  }
+  #readerSectionOutline li { margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+  #readerSectionOutline button {
+    min-height: 36px;
+    padding: 6px 4px;
+    background: transparent;
+    border: 0;
+    color: var(--ink);
+    font: 550 calc(12px * var(--fs, 1))/1.4 var(--ui);
+  }
+  #readerSectionOutline .section-nested button { padding-inline-start: 12px; font-weight: 400; }
+  #readerSectionOutline button:hover { background: var(--accent-soft); }
+  #readerSectionOutline button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+}
+/* The side-by-side Study document keeps its own picker, without a second rail. */
+html[data-reading-companion] body #chapterHeader > .companion-sections {
+  display: block !important;
+  order: 1;
+  flex: none;
+  padding-inline: 6px;
+  color: var(--accent);
+}
+html[data-reading-companion]:has(#readerScroll[inert]) body #chapterHeader > .companion-sections { display: none !important; }
+html[data-reading-companion] #panel[data-current-pane="contents"] { max-width: 100%; }

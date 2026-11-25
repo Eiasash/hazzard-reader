@@ -111,11 +111,107 @@ window.HazzardMCQ = (() => {
     const value=readSaved(),question=!!value.questions[currentId(q.id)]?.saved,ids=membership(q).map(String),topic=ids.every(id=>value.topics[id]?.saved);
     return badButton(q)+'<button data-revision="questions" data-revision-ids="'+currentId(q.id)+'" aria-pressed="'+question+'">'+(question?'Saved':'Save question')+'</button><button data-revision="topics" data-revision-ids="'+ids.join(',')+'" aria-pressed="'+topic+'">'+(topic?'Topic saved':'Save topic')+'</button>';
   }
+  function closeQuestionMenu(trigger,restoreFocus=false){
+    const panel=trigger.nextElementSibling;
+    if(panel.hidePopover)panel.hidePopover();else panel.hidden=true;
+    trigger.setAttribute('aria-expanded','false');
+    if(restoreFocus)trigger.focus({preventScroll:true});
+  }
+  function dismissOutsideQuestionMenu(event){
+    const trigger=document.querySelector('[data-question-menu-trigger][aria-expanded="true"]');
+    if(trigger&&!trigger.parentElement.contains(event.target instanceof Node?event.target:null))closeQuestionMenu(trigger);
+  }
+  document.addEventListener('focusin',dismissOutsideQuestionMenu);
+  document.addEventListener('pointerdown',dismissOutsideQuestionMenu);
+  window.addEventListener('blur',dismissOutsideQuestionMenu);
+
+  function mountQuestionMenu(page){
+    const items=['[data-bad]','[data-revision="topics"]','[data-mcq="flag"]'].map(selector=>page.querySelector(selector)).filter(Boolean);
+    if(!items.length)return;
+    const id='question-actions-'+page.querySelector('[data-bank-id]').dataset.bankId;
+    const group=document.createElement('span');group.className='mcq-question-tools';
+    group.innerHTML='<button type="button" id="'+id+'-trigger" data-question-menu-trigger aria-label="More question actions" title="More question actions" aria-haspopup="menu" aria-expanded="false" aria-controls="'+id+'" commandfor="'+id+'" command="toggle-popover"><span aria-hidden="true">⋯</span></button>'+
+      '<span id="'+id+'" class="mcq-question-menu" popover="auto"><span role="menu" focusgroup="menu nomemory" aria-labelledby="'+id+'-trigger"></span></span>';
+    const trigger=group.firstElementChild,panel=trigger.nextElementSibling,list=panel.firstElementChild;
+    const nativeGroup='focusGroup' in HTMLElement.prototype,nativePopover=!!panel.showPopover;
+    for(const item of items){
+      if(item.hasAttribute('aria-pressed')){
+        item.setAttribute('role','menuitemcheckbox');
+        item.setAttribute('aria-checked',item.getAttribute('aria-pressed'));
+        item.removeAttribute('aria-pressed');
+      }else item.setAttribute('role','menuitem');
+      if(!nativeGroup)item.tabIndex=-1;
+      list.append(item);
+    }
+    (page.querySelector('.mcq-topic-label')||page.querySelector('.sim-tools')).append(group);
+    if(!nativePopover)panel.hidden=true;
+    else if(!('commandForElement' in trigger))trigger.setAttribute('popovertarget',id);
+
+    let focusOnOpen=null;
+    function opened(){
+      if(!nativePopover||!CSS.supports('position-area','block-end')){
+        const box=trigger.getBoundingClientRect(),menu=panel.getBoundingClientRect(),gap=4;
+        const below=box.bottom+gap,above=box.top-menu.height-gap;
+        panel.style.inset='auto';
+        panel.style.margin='0';
+        panel.style.top=Math.max(gap,below+menu.height<=innerHeight-gap?below:above)+'px';
+        panel.style.left=Math.max(gap,Math.min(box.right-menu.width,innerWidth-gap-menu.width))+'px';
+      }
+      focusOnOpen?.focus({preventScroll:true});focusOnOpen=null;
+    }
+    panel.addEventListener('beforetoggle',event=>trigger.setAttribute('aria-expanded',String(event.newState==='open')));
+    panel.addEventListener('toggle',event=>{if(event.newState==='open')opened();});
+    trigger.addEventListener('click',event=>{
+      event.stopPropagation(); // Opening tools must preserve the current answer's Undo.
+      if(event.detail===0&&trigger.getAttribute('aria-expanded')==='false')focusOnOpen??=items[0];
+      if(!nativePopover){
+        if(!panel.hidden){closeQuestionMenu(trigger);return;}
+        panel.hidden=false;trigger.setAttribute('aria-expanded','true');opened();
+      }
+    });
+    group.addEventListener('keydown',event=>{
+      const open=trigger.getAttribute('aria-expanded')==='true',key=event.key;
+      if(open&&(key==='Escape'||key==='Tab')){
+        if(key==='Escape'){event.preventDefault();event.stopPropagation();}
+        closeQuestionMenu(trigger,true);return;
+      }
+      if(event.target===trigger&&(key==='ArrowDown'||key==='ArrowUp')){
+        event.preventDefault();
+        const item=key==='ArrowUp'?items[items.length-1]:items[0];
+        if(open)item.focus();else{focusOnOpen=item;trigger.click();}
+        return;
+      }
+      const index=items.indexOf(event.target);
+      if(index===-1)return;
+      let next;
+      if(key==='Home')next=0;
+      else if(key==='End')next=items.length-1;
+      else if(!nativeGroup&&key==='ArrowDown')next=(index+1)%items.length;
+      else if(!nativeGroup&&key==='ArrowUp')next=(index+items.length-1)%items.length;
+      else return;
+      event.preventDefault();items[next].focus();
+    });
+    list.addEventListener('click',event=>{
+      if(!event.target.closest('button'))return;
+      const host=page.parentElement;
+      closeQuestionMenu(trigger,true);
+      // Flagging can remove this question. Its replacement may still be loading.
+      requestAnimationFrame(()=>{
+        if(document.activeElement!==document.body||host.hidden)return;
+        const target=host.querySelector('[data-question-menu-trigger]')||host.querySelector('[data-undo-flag], [data-mcq="toggle-filters"]')||host;
+        if(target===host)host.tabIndex=-1;
+        target.focus({preventScroll:true});
+      });
+    });
+  }
   // Move the live controls, keeping their handlers, state and focus targets.
   function dockActions(host){
     const page=host.querySelector('.mcq-page'),bar=page?.querySelector('.mcq-actions,.sim-actions');
     if(!bar)return;
+    mountQuestionMenu(page);
     for(const button of page.querySelectorAll('[data-mcq="unsure"],[data-revision="questions"],[data-sim="flag"]'))bar.append(button);
+    const confidence=page.querySelector('.mcq-confidence');
+    if(confidence&&!confidence.childElementCount)confidence.remove();
     if(host.classList.contains('mcq-bank')){
       const next=bar.querySelector('[data-mcq="next"]'),unsure=bar.querySelector('[data-mcq="unsure"]'),save=bar.querySelector('[data-revision="questions"]');
       if(unsure)bar.insertBefore(unsure,next);
@@ -148,7 +244,7 @@ window.HazzardMCQ = (() => {
     }catch(error){revisionNotice='Could not save revision changes. '+error.message;}
     const host=button.closest('.mcq-page')?.parentElement,kind=button.dataset.revision;
     dispatchEvent(new Event('hazzard-saved-change'));
-    host?.querySelector('[data-revision="'+kind+'"]')?.focus({preventScroll:true});
+    if(!button.closest('.mcq-question-menu'))host?.querySelector('[data-revision="'+kind+'"]')?.focus({preventScroll:true});
   });
 
   const LOG_KEY='hazzard-mcq-log-v1',BAD_KEY='hazzard-mcq-bad-v1';
@@ -1177,12 +1273,6 @@ window.HazzardMCQ = (() => {
       if(state.checked&&!mockMode)window.HazzardAnswerHighlights?.attach(content.querySelector('.mcq-explanation'),q,order);
       if(state.checked)HazzardLawCards.questionLinks(content,q.id,q,mockMode);
       dockActions(host);
-      if(host.classList.contains('mcq-bank')){
-        const secondary=document.createElement('div');secondary.className='mcq-secondary-actions';secondary.setAttribute('role','group');secondary.setAttribute('aria-label','Question tools');
-        for(const selector of ['[data-bad]','[data-revision="topics"]','[data-mcq="flag"]','.mcq-answer-undo'])for(const control of content.querySelectorAll(selector))secondary.append(control);
-        content.querySelector('.mcq-options').after(secondary);
-        const confidence=content.querySelector('.mcq-confidence');if(confidence&&!confidence.childElementCount)confidence.remove();
-      }
       saveView();
     }
     function builderPool(includeHidden=false){

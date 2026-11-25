@@ -12,6 +12,7 @@ window.HazzardStorage = (() => {
   keys.add(HazzardMCQ.PLACE_KEY);
   keys.add(HazzardReview.KEY);
   keys.add(HazzardSimulation.KEY);
+  keys.add(HazzardFlashcards.KEY);
   const highlightKey=key=>typeof key==='string'&&key.startsWith('stage-a-highlights-v1:')&&!key.includes('-unreadable-');
   const owns=key=>typeof key==='string'&&(keys.has(key)||highlightKey(key));
   const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
@@ -86,6 +87,7 @@ window.HazzardStorage = (() => {
   else if(key===READING_KEY)valid=isRecord(value)&&isRecord(value.chapters)&&Object.values(value.chapters).every(p=>isRecord(p)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&typeof p.read==='boolean');
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===HazzardAnswerHighlights.KEY)valid=HazzardAnswerHighlights.valid(value);
+  else if(key===HazzardFlashcards.KEY)valid=HazzardFlashcards.valid(value);
   else if(key===HazzardMCQ.KEY)valid=HazzardMCQ.validStore(value);
   else if(key===HazzardMCQ.PAPER_KEY)valid=HazzardMCQ.validPaper(value);
   else if(key===HazzardMCQ.SETTINGS_KEY)valid=HazzardMCQ.validSettings(value);
@@ -113,9 +115,10 @@ window.HazzardStorage = (() => {
     }catch{return false;}
   }
   // Unreadable stores stay byte-for-byte intact until an explicit recovery.
-  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===TIMER_KEY||key===REMOVALS_KEY;
+  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===TIMER_KEY||key===REMOVALS_KEY||key===HazzardFlashcards.KEY;
   const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||sharedRecoveryStore(key)||key===HazzardAnswerHighlights.KEY||highlightKey(key);
   const protectedStores=new Map([
+    [HazzardFlashcards.KEY,{label:'Flashcard progress',fresh:'flashcard progress',empty:HazzardFlashcards.empty}],
     [HazzardAnswerHighlights.KEY,{label:'Answer-key highlights',fresh:'answer-key highlights',empty:HazzardAnswerHighlights.empty}],
     [PLACE_KEY,{label:'Reading place',fresh:'reading place',empty:()=>({chapters:{}})}],
     [BOOKMARK_KEY,{label:'Bookmarks',fresh:'bookmarks',empty:()=>[]}],
@@ -147,6 +150,8 @@ window.HazzardStorage = (() => {
   }
   const unreadable=new Map(),recoverySnapshots=new Map();
   function preserveUnreadable(key,raw){
+  // Grades own one key. Keep its raw value there until explicit recovery.
+  if(key===HazzardFlashcards.KEY)return;
   const date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format().replaceAll('-','');
   const side=key+'-unreadable-'+date;
     if(raw!==null&&localStorage.getItem(side)===null)localStorage.setItem(side,raw);

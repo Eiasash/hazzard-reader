@@ -46,9 +46,13 @@ paths.update(question_files)
 paths.update({'js/question-data.js','data/verification-registry.json','data/mark-unit-registry.json'})
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
 paths.add('js/changed-questions.js')
+paths.update({'js/flashcards.js', 'css/flashcards.css', 'data/flashcards.json'})
 paths.add('js/stats.js')
+paths.add('js/study-home.js')
 paths.add('data/search-index.json')
 paths.add('data/redo-history.json')
+paths.update({'js/reading-companion.js', 'css/reading-companion.css'})
+paths.update({'js/reader-sections.js', 'css/reader-sections.css'})
 for chapter in [*mcq_index, 'all']:
     path = f'data/mcq/{chapter}.json'
     # Numeric chapters use the catalogue; retain every question image and nonnumeric file.

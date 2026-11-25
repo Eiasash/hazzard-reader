@@ -33,15 +33,36 @@ window.HazzardReview = (() => {
     return r;
   }
   function set(id,value,answer){const v=read();id=HazzardMCQ.currentId(id);v.items[id]={...(value||blank()),at:Math.max(Date.now(),(v.items[id]?.at||0)+1)};if(answer!==undefined&&v.batch?.ids.includes(id)){if(answer===null)delete v.batch.answers[id];else v.batch.answers[id]=answer;v.batchAt=Math.max(Date.now(),v.batchAt+1);}return write(v);}
+  // An older notebook can display its first review day before opening a review.
+  function initialQueue(v, all, answers, now=Date.now()){
+    if(v.seed)return v;
+    const items={...v.items},today=day(now);
+    let count=0;
+    for(const q of all){
+      const a=answers[q.id];
+      if(a?.checked&&!q.accepted.includes(a.selected)&&!items[q.id]){
+        items[q.id]={active:true,unsure:false,step:0,due:plus(today,Math.floor(count/30)),at:now};
+        count++;
+      }
+    }
+    return {...v,items,seed:{count,at:now}};
+  }
+  function catalogDue(all, now=Date.now()){
+    let v=canonical(HazzardMCQ.rawValue(KEY,valid,empty));
+    if(!v.seed){
+      const saved=HazzardMCQ.rawValue(HazzardMCQ.KEY,HazzardMCQ.validStore,()=>({version:1,answers:{}}));
+      v=initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers),now);
+    }
+    const live=new Set(all.filter(q=>!q.retired).map(q=>HazzardMCQ.currentId(q.id)));
+    return due(v,day(now)).filter(id=>live.has(id));
+  }
   let seedPromise;
   function seed(){return seedPromise ||= (async()=>{
     await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;if(read().seed)return read().seed;
     const all=await HazzardQuestionData.catalog();
     const saved=HazzardMCQ.readStore(false);if(!HazzardMCQ.validStore(saved))throw Error('Unreadable MCQ answers');
-    const answers={};for(const[id,a]of Object.entries(saved.answers)){const target=HazzardMCQ.currentId(id);if(!answers[target]||a.at>=answers[target].at)answers[target]=a;}
-    const v=read();if(v.seed)return v.seed;let count=0;const now=Date.now(),today=day(now);
-    for(const q of all){const a=answers[q.id];if(a?.checked&&!q.accepted.includes(a.selected)&&!v.items[q.id]){v.items[q.id]={active:true,unsure:false,step:0,due:plus(today,Math.floor(count/30)),at:now};count++;}}
-    v.seed={count,at:now};write(v);return v.seed;
+    const v=read();if(v.seed)return v.seed;
+    return write(initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers))).seed;
   })().finally(()=>{seedPromise=null;});}
   function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:due(v,today,true).filter(id=>available.has(id)).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
   function nextBatch(items){
@@ -65,5 +86,5 @@ window.HazzardReview = (() => {
     }
     return write(v);
   }
-  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,result,set,seed,batch,nextBatch,position,size};
+  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,result,set,seed,batch,nextBatch,position,size};
 })();
