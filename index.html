@@ -6901,7 +6901,19 @@ if(/^\d+s?$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error
   if(h.startsWith('search-')){done=revealSearch(h.slice(7))}
   else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
   else if(h.startsWith('bm-')){const bm=readJSON(BOOKMARK_KEY,[]).find(b=>String(b.at)===h.slice(3));if(bm){setTimeout(()=>goToPlace(bm),60);done=true}}
-  else if(h){const t=document.getElementById(h);if(t){setTimeout(()=>/^p\d+$/.test(h)?landOnMatch(t):t.scrollIntoView(),60);done=true}}
+  else if(h){
+    const t=document.getElementById(h),back=history.state?.examReturn;
+    if(t){
+      setTimeout(()=>{
+        if(back?.anchor===h && Number.isFinite(back.offset)){
+          const offset=t.getBoundingClientRect().top-readerScroll.getBoundingClientRect().top;
+          readerScroll.scrollBy({top:offset-back.offset,behavior:'instant'});
+        }else if(/^p\d+$/.test(h))landOnMatch(t);
+        else t.scrollIntoView();
+      },60);
+      done=true;
+    }
+  }
   if(!done&&newMockPaper){scrollReadingTo(0);rememberPlace()}
   else if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0){goToPlace(p,true);flash('Back where you left off.',2500);addEventListener('load',()=>{if(!userScrolled&&!mcq?.active)goToPlace(p,true)})}}
 }

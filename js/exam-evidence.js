@@ -152,7 +152,9 @@ window.HazzardEvidence = (() => {
       const link=event.target.closest('.exam-links a,.section-practice a');
       if(!link||event.defaultPrevented||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
       const url=new URL(location.href);url.hash=link.parentElement.id;
-      history.replaceState({...history.state,hazzardReaderY:document.getElementById('readerScroll').scrollTop},'',url);
+      const scroller=document.getElementById('readerScroll');
+      const offset=link.parentElement.getBoundingClientRect().top-scroller.getBoundingClientRect().top;
+      history.replaceState({...history.state,hazzardReaderY:scroller.scrollTop,examReturn:{anchor:link.parentElement.id,offset}},'',url);
     });
     const bank=new Map((await HazzardQuestionData.catalog()).map(q=>[q.id,q]));
     function refresh(){

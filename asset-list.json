@@ -7748,8 +7748,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "d1a0e2120424a2b813cbc5caf01aaa1a97281f768f59bc9d344cbec690ad3571",
-      "bytes": 953125
+      "sha256": "e8500334f8298ae5ec13289dd8c243098d6be50e6fad49560a60bb102e96796d",
+      "bytes": 953466
     },
     {
       "url": "./js/changed-questions.js",
@@ -7763,8 +7763,8 @@
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "cb2635a44713a391ca63f80aafdcdbfe977b463d6ef78abecf9b23799926b9f3",
-      "bytes": 11412
+      "sha256": "97a789ceaf4779e2d413d65cc8668f2348c257d7f4f6b1e2f4cfed5ad46853d7",
+      "bytes": 11596
     },
     {
       "url": "./js/exam-simulation.js",
