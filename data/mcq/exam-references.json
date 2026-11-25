@@ -5311,18 +5311,12 @@
           "page": 693,
           "chapter": "46",
           "available": true
-        },
-        {
-          "page": 694,
-          "chapter": "46",
-          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "46"
-      ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 693–694."
+      ]
     },
     "mcq-4dff765078655193f686e847": {
       "sitting": "2023-Jun",
@@ -7321,11 +7315,12 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "46-2"
+      ],
       "chapters": [
         "46"
-      ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 693–694."
+      ]
     },
     "mcq-7f71419177e54d446b41de5d": {
       "sitting": "2024-May",
@@ -7802,7 +7797,8 @@
       "chapters": [
         "46"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 698."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 698.",
+      "bankChapter": "46"
     },
     "mcq-20e54ddaf7f4529fefdbae47": {
       "sitting": "2024-May",
@@ -10582,12 +10578,7 @@
       "reason": "",
       "pages": [
         {
-          "page": 694,
-          "chapter": "46",
-          "available": true
-        },
-        {
-          "page": 697,
+          "page": 696,
           "chapter": "46",
           "available": true
         }
@@ -10595,8 +10586,7 @@
       "tables": [],
       "chapters": [
         "46"
-      ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 694, 697."
+      ]
     },
     "mcq-5db8763148c6144657ed06fc": {
       "sitting": "2024-Sep",
@@ -15757,7 +15747,8 @@
       "tables": [],
       "chapters": [
         "46"
-      ]
+      ],
+      "bankChapter": "46"
     },
     "mcq-b0830837aa5b57c0f1e2f3e2": {
       "sitting": "2025-Jun",
@@ -20178,7 +20169,7 @@
       "past": 28,
       "resolved": 18,
       "fallback": 4,
-      "practice": 35,
+      "practice": 32,
       "chapterLinked": 6
     },
     "47": {

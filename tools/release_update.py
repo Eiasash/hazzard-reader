@@ -42,6 +42,8 @@ def user_data(snapshot):
                 continue
         if key == 'hazzard-bookmarks-v1' and value == []:
             continue
+        if key == 'hazzard-flashcards-v1' and value == {'version': 1, 'cards': {}}:
+            continue
         if key == 'hazzard-mcq-papers-v1' and isinstance(value, dict) and isinstance(value.get('paper'), dict):
             value['paper'].pop('position', None)
         if key == 'hazzard-exam-simulation-v1' and isinstance(value, dict) and isinstance(value.get('session'), dict):
@@ -106,6 +108,10 @@ def run_update(args):
     head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     if head != args.head:
         raise ValueError(f'Checked-out HEAD {head} differs from requested test head {args.head}')
+    for name in ('asset-list.json', 'sw.js'):
+        committed = subprocess.check_output(['git', 'show', f'{head}:{name}'], cwd=ROOT)
+        if (ROOT / name).read_bytes().replace(b'\r\n', b'\n') != committed:
+            raise ValueError(f'{name} differs from the requested test head')
     shell={name:download(name) for name in ('sw.js','index.html','asset-list.json')}
     manifest=json.loads(shell['asset-list.json'])
     old_version = manifest['version']
@@ -298,6 +304,10 @@ def run_update(args):
               'raw_after_update_diff':diff(before,after),'raw_offline_diff':diff(before,offline),
               'capture':'Window capture phase of the actual Update button click, before the button handler.',
               'offline_browser':True,'worker_after':new_version,'worker_offline':new_version})
+            result['personal_data_digests'] = {
+                stage: {k: sha(json.dumps(v, ensure_ascii=False).encode('utf-8')) for k,v in sorted(user_data(snapshot).items())}
+                for stage,snapshot in [('before',before),('after',after),('offline',offline)]
+            }
             if any(result['after_update_diff'].values()) or any(result['offline_diff'].values()):
                 raise ValueError('Personal study data changed during update or offline reload')
             assert not server_errors,server_errors
