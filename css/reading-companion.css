@@ -1,0 +1,94 @@
+@media (min-width: 1200px) {
+  :root { --desktop-header-height: 64px; }
+  #chapterHeader:not(:has(.study-view-tabs:not([hidden]))) {
+    height: var(--desktop-header-height);
+    padding-inline: 12px;
+    gap: 6px;
+  }
+  #chapterHeader button, #chapterHeader .chapter-switch button, #chapterHeader #chapterHeaderTitle,
+  #chapterHeader #markToggle, #chapterHeader #headerCloud {
+    height: 52px;
+    min-height: 52px;
+    font-size: calc(15px * var(--fs, 1));
+  }
+  #chapterHeader #headerHome, #chapterHeader #findToggle,
+  #chapterHeader:has(#headerCloud) .chapter-step {
+    min-width: 52px;
+    flex-basis: 52px;
+  }
+  #chapterHeader #findToggle, #chapterHeader .chapter-step { font-size: calc(26px * var(--fs, 1)); }
+  #chapterHeader #markToggle { flex-basis: 76px; }
+  #chapterHeader .chapter-switch { flex-basis: 164px; }
+  body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])) .chapter-switch { flex-basis: 164px; }
+  body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterHeader:has(.chapter-switch:not([hidden])) .chapter-switch button:first-child { flex: 1; }
+  #chapterHeader:has(.study-view-tabs:not([hidden])) {
+    height: 120px;
+    grid-template-rows: 56px 56px;
+    grid-template-columns: 52px 52px minmax(0, 1fr) 164px 76px 100px !important;
+  }
+  #readerViewport.has-study-tabs #reader, #readerViewport.has-study-tabs #mcqViewport { padding-top: calc(120px + var(--s4)); }
+  #readerScroll > #reader { padding-top: calc(var(--desktop-header-height) + var(--s4)); }
+  body.finding #readerScroll > #reader { padding-top: 172px; }
+  body.examining #readerScroll > #reader { padding-top: 132px; }
+  #library, #desk { padding-top: calc(var(--desktop-header-height) + 12px); }
+  #readerViewport:not(.has-study-tabs) #mcqViewport { inset-block-start: var(--desktop-header-height); }
+  #readerNotice { top: var(--desktop-header-height); }
+
+  body.with-reading-companion {
+    --companion-width: calc((var(--vv-width, 100vw) - var(--reader-outline-width, 0px)) * .44);
+  }
+  body.with-reading-companion #readerViewport {
+    inline-size: calc(var(--vv-width, 100vw) - var(--reader-outline-width, 0px) - var(--companion-width));
+  }
+  body.with-reading-companion #readerScroll > #reader { max-inline-size: min(100%, calc(800px * var(--fs, 1))); padding-inline: clamp(18px, 2.5vw, 44px); }
+  body.with-reading-companion #jumpEnds { right: calc(var(--companion-width) + 4px); }
+  #readingCompanion:not([hidden]) {
+    position: fixed;
+    top: calc(var(--vv-top, 0px) + var(--desktop-header-height));
+    right: calc(100% - var(--vv-left, 0px) - var(--vv-width, 100vw));
+    bottom: calc(var(--vv-bottom-gap, 0px) + var(--tabs-height) + var(--update-gap, 0px));
+    width: var(--companion-width);
+    border-inline-start: 1px solid var(--rule);
+    background: var(--page);
+    overflow: hidden;
+  }
+  #readingCompanionFrame { display: block; width: 100%; height: 100%; border: 0; background: var(--page); }
+  body.statistics-open #readerViewport #statsViewport { padding-top: var(--desktop-header-height); }
+  #findBar, #examBar { top: calc(var(--vv-top, 0px) + var(--desktop-header-height)); }
+  body:has(#chapterHeader .study-view-tabs:not([hidden])) :is(#findBar, #examBar) { top: calc(var(--vv-top, 0px) + 120px); }
+}
+
+/* A companion uses the original study document, including its highlights,
+   grading and menus. Navigation and the update action belong to the parent. */
+html[data-reading-companion] {
+  --companion-toolbar: 56px;
+  --tabs-height: 0px;
+}
+html[data-reading-companion] #appTabs, html[data-reading-companion] #jumpEnds,
+html[data-reading-companion] .chapter-nav, html[data-reading-companion] #readerUpdateButton { display: none !important; }
+html[data-reading-companion] body #chapterHeader {
+  display: flex !important;
+  height: var(--companion-toolbar) !important;
+  padding: 4px 10px;
+  gap: 6px;
+  transform: none;
+  pointer-events: auto;
+}
+html[data-reading-companion] #chapterHeader > :not(.study-view-tabs):not(#markToggle):not(.companion-all):not(.companion-sections) { display: none !important; }
+html[data-reading-companion] #chapterHeader .study-view-tabs { flex: 1; order: 0; gap: 4px; margin: 0; padding: 0; }
+html[data-reading-companion] #chapterHeader #markToggle { order: 2; flex: 0 0 54px; }
+html[data-reading-companion] #chapterHeader .companion-all { order: 1; padding-inline: 6px; color: var(--accent); }
+html[data-reading-companion] #chapterHeader .study-view-tabs button { font: 600 calc(14px * var(--fs, 1))/1.2 var(--ui); }
+html[data-questions-only] [data-study-view="notes"] { display: none; }
+html[data-reading-companion] #readerViewport { inset-block-start: var(--companion-toolbar); inset-block-end: 0; }
+html[data-reading-companion] body.mark-bar-open #readerViewport { inset-block-end: 52px; }
+html[data-reading-companion] #readerViewport.has-study-tabs #reader { padding: 18px clamp(16px, 4vw, 28px) 28px; }
+html[data-reading-companion] #readerViewport.has-study-tabs #mcqViewport { inset: 0; padding-top: 0; scroll-padding-top: 8px; }
+html[data-reading-companion] #readerViewport.has-study-tabs .mcq-page > nav.mcq-filters { top: 0; }
+html[data-reading-companion] #readerNotice { top: 0; }
+html[data-reading-companion] #readerScroll { scrollbar-width: thin; }
+html[data-reading-companion] .companion-destination { display: grid; gap: 12px; padding: 20px; }
+html[data-reading-companion] .companion-load-error {
+  position: fixed; inset: 0; z-index: 99; display: grid; align-content: start;
+  justify-items: start; gap: 12px; padding: 18px; background: var(--page);
+}

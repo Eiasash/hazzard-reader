@@ -515,7 +515,8 @@
       "tables": [],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-85ecd5f34b95bd4208559b25": {
       "sitting": "2020",
@@ -804,7 +805,8 @@
         "106"
       ],
       "chapter7": "127",
-      "title7": "Urinary Tract Infections"
+      "title7": "Urinary Tract Infections",
+      "bankChapter": "106"
     },
     "mcq-a99db0fa2bd1efb781390683": {
       "sitting": "2020",
@@ -837,7 +839,8 @@
         "105"
       ],
       "chapter7": "126",
-      "title7": "Pneumonia"
+      "title7": "Pneumonia",
+      "bankChapter": "105"
     },
     "mcq-ef77c3f440fa29a46ca59282": {
       "sitting": "2020",
@@ -1673,7 +1676,8 @@
       "tables": [],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-a0fa9b557074f9332ce13a1b": {
       "sitting": "2021-Dec",
@@ -1963,7 +1967,8 @@
       "tables": [],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-89fe56c9f8817bf5df610ee7": {
       "sitting": "2021-Dec",
@@ -2058,7 +2063,8 @@
       "tables": [],
       "chapters": [
         "104"
-      ]
+      ],
+      "bankChapter": "104"
     },
     "mcq-d77dd3b1ab1dbb492058f5df": {
       "sitting": "2021-Dec",
@@ -2228,7 +2234,8 @@
       "tables": [],
       "chapters": [
         "105"
-      ]
+      ],
+      "bankChapter": "105"
     },
     "mcq-141fb224311d4c71ea10eacd": {
       "sitting": "2021-Dec",
@@ -2590,7 +2597,8 @@
         "105"
       ],
       "chapter7": "126",
-      "title7": "Pneumonia"
+      "title7": "Pneumonia",
+      "bankChapter": "105"
     },
     "mcq-e9726c2e2313e5408517930a": {
       "sitting": "2021-Dec",
@@ -2932,7 +2940,8 @@
       "tables": [],
       "chapters": [
         "39"
-      ]
+      ],
+      "bankChapter": "39"
     },
     "mcq-4f755479112a3e00ce0716a7": {
       "sitting": "2021-Dec",
@@ -2964,7 +2973,8 @@
         "104"
       ],
       "chapter7": "125",
-      "title7": "Infection: General Principles"
+      "title7": "Infection: General Principles",
+      "bankChapter": "104"
     },
     "mcq-179fc62f1a0fa33f6358d88b": {
       "sitting": "2021-Dec",
@@ -3029,7 +3039,8 @@
       "tables": [],
       "chapters": [
         "105"
-      ]
+      ],
+      "bankChapter": "105"
     },
     "mcq-0cd4f4f46a752c02ded1a842": {
       "sitting": "2021-Dec",
@@ -3231,7 +3242,8 @@
         "105"
       ],
       "chapter7": "126",
-      "title7": "Pneumonia"
+      "title7": "Pneumonia",
+      "bankChapter": "105"
     },
     "mcq-7425037b62dd263eb00a7790": {
       "sitting": "2025-Jun",
@@ -3274,7 +3286,8 @@
         "105"
       ],
       "chapter7": "126",
-      "title7": "Pneumonia"
+      "title7": "Pneumonia",
+      "bankChapter": "105"
     },
     "mcq-7e475d72d1c6b9b8c726614b": {
       "sitting": "2022-Jun",
@@ -3661,7 +3674,8 @@
       "tables": [],
       "chapters": [
         "105"
-      ]
+      ],
+      "bankChapter": "105"
     },
     "mcq-93ed9b58f5e9451decd9ae85": {
       "sitting": "2022-Jun",
@@ -4139,7 +4153,8 @@
       "tables": [],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-7fdc07afc2be6fd590641b66": {
       "sitting": "2022-Jun",
@@ -4868,7 +4883,8 @@
       ],
       "chapters": [
         "107"
-      ]
+      ],
+      "bankChapter": "107"
     },
     "mcq-2f6126281b7935fddb54098c": {
       "sitting": "2023-Jun",
@@ -5295,18 +5311,12 @@
           "page": 693,
           "chapter": "46",
           "available": true
-        },
-        {
-          "page": 694,
-          "chapter": "46",
-          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "46"
-      ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 693–694."
+      ]
     },
     "mcq-4dff765078655193f686e847": {
       "sitting": "2023-Jun",
@@ -5828,7 +5838,8 @@
       ],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-5bd556826b1d81bb1416aceb": {
       "sitting": "2023-Jun",
@@ -6109,7 +6120,8 @@
       "tables": [],
       "chapters": [
         "15"
-      ]
+      ],
+      "bankChapter": "15"
     },
     "mcq-5687d58f50abb0a5affaee3d": {
       "sitting": "2023-Jun",
@@ -6698,7 +6710,8 @@
       ],
       "chapters": [
         "105"
-      ]
+      ],
+      "bankChapter": "105"
     },
     "mcq-b345342fb42d42167d25ca2b": {
       "sitting": "2023-Jun",
@@ -6996,7 +7009,8 @@
       ],
       "chapters": [
         "104"
-      ]
+      ],
+      "bankChapter": "104"
     },
     "mcq-3e85381471c86c4427c12e34": {
       "sitting": "2024-May",
@@ -7254,7 +7268,8 @@
       "tables": [],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-93e0cbe108de9a8412f0af06": {
       "sitting": "2024-May",
@@ -7300,11 +7315,12 @@
           "available": true
         }
       ],
-      "tables": [],
+      "tables": [
+        "46-2"
+      ],
       "chapters": [
         "46"
-      ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 693–694."
+      ]
     },
     "mcq-7f71419177e54d446b41de5d": {
       "sitting": "2024-May",
@@ -7570,7 +7586,8 @@
       "tables": [],
       "chapters": [
         "108"
-      ]
+      ],
+      "bankChapter": "108"
     },
     "mcq-d59bcda0cc381a35cc3134db": {
       "sitting": "2024-May",
@@ -7708,7 +7725,8 @@
       "tables": [],
       "chapters": [
         "108"
-      ]
+      ],
+      "bankChapter": "108"
     },
     "mcq-16df878cdfb1631a3395a00d": {
       "sitting": "2024-May",
@@ -7779,7 +7797,8 @@
       "chapters": [
         "46"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 698."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 698.",
+      "bankChapter": "46"
     },
     "mcq-20e54ddaf7f4529fefdbae47": {
       "sitting": "2024-May",
@@ -7867,7 +7886,9 @@
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "ima-harrison-22e-ch458",
+      "bankChapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies"
     },
     "mcq-1e0a386f06ead1859e01f5c4": {
       "sitting": "2024-May",
@@ -8609,7 +8630,8 @@
       ],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-39fad91c5b4510f05efdb072": {
       "sitting": "2024-May",
@@ -9073,7 +9095,8 @@
       "tables": [],
       "chapters": [
         "105"
-      ]
+      ],
+      "bankChapter": "105"
     },
     "mcq-ff953c4f5cde2966a8ac98cc": {
       "sitting": "2024-Sep",
@@ -10555,12 +10578,7 @@
       "reason": "",
       "pages": [
         {
-          "page": 694,
-          "chapter": "46",
-          "available": true
-        },
-        {
-          "page": 697,
+          "page": 696,
           "chapter": "46",
           "available": true
         }
@@ -10568,8 +10586,7 @@
       "tables": [],
       "chapters": [
         "46"
-      ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 694, 697."
+      ]
     },
     "mcq-5db8763148c6144657ed06fc": {
       "sitting": "2024-Sep",
@@ -10927,7 +10944,8 @@
       ],
       "chapters": [
         "105"
-      ]
+      ],
+      "bankChapter": "105"
     },
     "mcq-65f1b2348078e99a77093d23": {
       "sitting": "2024-Sep",
@@ -11047,7 +11065,8 @@
       "tables": [],
       "chapters": [
         "108"
-      ]
+      ],
+      "bankChapter": "108"
     },
     "mcq-7b26cdc007e22b5187d35b3b": {
       "sitting": "2024-Sep",
@@ -11694,7 +11713,8 @@
       ],
       "chapters": [
         "47"
-      ]
+      ],
+      "bankChapter": "47"
     },
     "mcq-e53fe32921107e7f9d4490f5": {
       "sitting": "2026-Jun",
@@ -11890,7 +11910,8 @@
       "tables": [],
       "chapters": [
         "58"
-      ]
+      ],
+      "bankChapter": "58"
     },
     "mcq-632ba530eb4611e16d60adfe": {
       "sitting": "2026-Jun",
@@ -12042,7 +12063,8 @@
       "tables": [],
       "chapters": [
         "58"
-      ]
+      ],
+      "bankChapter": "58"
     },
     "mcq-cb821058a8ec2093841fd0cb": {
       "sitting": "2026-Jun",
@@ -13400,7 +13422,8 @@
       "tables": [],
       "chapters": [
         "104"
-      ]
+      ],
+      "bankChapter": "104"
     },
     "mcq-be0342d1614ce894a9a67d87": {
       "sitting": "2026-Jun",
@@ -13440,7 +13463,8 @@
       "tables": [],
       "chapters": [
         "15"
-      ]
+      ],
+      "bankChapter": "15"
     },
     "mcq-c0958b48b6b8fb43106b759b": {
       "sitting": "2026-Jun",
@@ -13808,7 +13832,8 @@
       "tables": [],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-ff5dff1131122d86e4378271": {
       "sitting": "2025-Jun",
@@ -14276,11 +14301,6 @@
           "page": 880,
           "chapter": "58",
           "available": true
-        },
-        {
-          "page": 881,
-          "chapter": "58",
-          "available": true
         }
       ],
       "tables": [],
@@ -14352,7 +14372,8 @@
       "tables": [],
       "chapters": [
         "104"
-      ]
+      ],
+      "bankChapter": "104"
     },
     "mcq-a5af01dd00d786e51c85ce5b": {
       "sitting": "2025-Jun",
@@ -14859,7 +14880,8 @@
         "104",
         "105"
       ],
-      "referenceNote": "Paper lists chapter 104 with pp.1675,1693-1694. The source pages span chapter 104 (p.1675) and chapter 105 (pp.1693-1694)."
+      "referenceNote": "Paper lists chapter 104 with pp.1675,1693-1694. The source pages span chapter 104 (p.1675) and chapter 105 (pp.1693-1694).",
+      "bankChapter": "104"
     },
     "mcq-c96af8d727732c9078673e23": {
       "sitting": "2025-Jun",
@@ -15366,7 +15388,8 @@
       "tables": [],
       "chapters": [
         "47"
-      ]
+      ],
+      "bankChapter": "47"
     },
     "mcq-7c399ddd1ed048f9ccb52dbf": {
       "sitting": "2025-Jun",
@@ -15445,7 +15468,8 @@
       ],
       "chapters": [
         "99"
-      ]
+      ],
+      "bankChapter": "99"
     },
     "mcq-f9ddad4ce7003ed68fcf7bd8": {
       "sitting": "2025-Jun",
@@ -15575,7 +15599,8 @@
       "tables": [],
       "chapters": [
         "58"
-      ]
+      ],
+      "bankChapter": "58"
     },
     "mcq-78efef2ee60d19f031350bbc": {
       "sitting": "2025-Jun",
@@ -15722,7 +15747,8 @@
       "tables": [],
       "chapters": [
         "46"
-      ]
+      ],
+      "bankChapter": "46"
     },
     "mcq-b0830837aa5b57c0f1e2f3e2": {
       "sitting": "2025-Jun",
@@ -16428,11 +16454,17 @@
           "page": 1181,
           "chapter": "76",
           "available": true
+        },
+        {
+          "page": 1578,
+          "chapter": "99",
+          "available": true
         }
       ],
       "tables": [],
       "chapters": [
-        "76"
+        "76",
+        "99"
       ]
     },
     "mcq-dd3ca4e7f3e974c9a3ac3e3f": {
@@ -19064,11 +19096,19 @@
       "source": "2023/references.pdf",
       "reference": "הזארד, עמוד 1585",
       "questionRef": "הזארד, עמוד 1585",
-      "status": "unresolved",
-      "reason": "No explicit printed page",
-      "pages": [],
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1585,
+          "chapter": "99",
+          "available": true
+        }
+      ],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "99"
+      ]
     },
     "mcq-6cdbfa9491aed8865e110cf1": {
       "sitting": "2023-Jun-Basic",
@@ -19207,11 +19247,21 @@
       "source": "2023/references.pdf",
       "reference": "הזארד עמוד 1584 טבלה 99-15",
       "questionRef": "הזארד עמוד 1584 טבלה 99-15",
-      "status": "unresolved",
-      "reason": "No explicit printed page",
-      "pages": [],
-      "tables": [],
-      "chapters": []
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 1584,
+          "chapter": "99",
+          "available": true
+        }
+      ],
+      "tables": [
+        "99-15"
+      ],
+      "chapters": [
+        "99"
+      ]
     },
     "mcq-c4febd7011941016300c7113": {
       "sitting": "2023-Jun-Basic",
@@ -20119,7 +20169,7 @@
       "past": 28,
       "resolved": 18,
       "fallback": 4,
-      "practice": 35,
+      "practice": 32,
       "chapterLinked": 6
     },
     "47": {
@@ -20304,7 +20354,7 @@
       "past": 35,
       "resolved": 22,
       "fallback": 0,
-      "practice": 90,
+      "practice": 91,
       "chapterLinked": 13
     },
     "59": {
@@ -20737,10 +20787,15 @@
     },
     "99": {
       "ids": [
+        "mcq-1b9947447ef263b529e44bd0",
         "mcq-90bbae3292be580263244c30",
         "mcq-eab9b27c6d0193e1d23c6a83",
+        "mcq-5e41e7a32048963dcee0a671",
         "mcq-04182e576b08982e7e75a1af",
+        "mcq-56a18f5157de81e337b3769d",
+        "mcq-7df358e819f02b4a8d3dd0d7",
         "mcq-e3682940da67f696841ee7d2",
+        "mcq-8180581eed958ca16d78940c",
         "mcq-f603c1f000f2b50035e3edce",
         "mcq-2816a676311ac49e2dafcfb5",
         "mcq-2d266bac558345e208370988",
@@ -20759,15 +20814,16 @@
         "mcq-803bd75b3c3a8ecbbb228d97",
         "mcq-ab8aa14b6cb35dc299bb7f20",
         "mcq-2d103bb25f66fd57f375f554",
+        "mcq-538cb2dab0c6ea72540a81e9",
         "mcq-d3d6c26e0d495cd5b61653e7",
         "mcq-404df6b6e3e250f64badb08a",
         "mcq-2e8b0536cb4bfe34d45e5e24"
       ],
       "before": 22,
-      "past": 25,
-      "resolved": 20,
-      "fallback": 2,
-      "practice": 33,
+      "past": 31,
+      "resolved": 23,
+      "fallback": 5,
+      "practice": 44,
       "chapterLinked": 3
     },
     "101": {
@@ -21772,7 +21828,7 @@
       "resolved": 0,
       "fallback": 0,
       "chapterLinked": 1,
-      "practice": 0
+      "practice": 2
     },
     "4": {
       "ids": [],

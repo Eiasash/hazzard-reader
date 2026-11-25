@@ -43,6 +43,38 @@ def generate():
         path.write_text(json.dumps(value, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8', newline='\n')
     return outputs
 
+def editorial_inputs(chapter=None):
+    """Return the question and evidence locators from which an editor writes a fresh explanation."""
+    bank = json.loads((ROOT / 'data/mcq/all.json').read_text(encoding='utf-8'))
+    references = json.loads((ROOT / 'data/mcq/exam-references.json').read_text(encoding='utf-8'))['questions']
+    for question in bank:
+        reference = references.get(question['id'], {})
+        assignment = reference.get('bankChapter', question.get('chapter'))
+        links = {str(assignment), *map(str, reference.get('chapters', []))}
+        links.update(str(p.get('readerChapter') or p.get('chapter')) for p in reference.get('pages', []))
+        if chapter is not None and str(chapter) not in links:
+            continue
+        fields = ('id', 'kind', 'q', 'o', 'c', 'accepted', 't', 'examNumber', 'ref', 'images',
+                  'sourceType', 'chapter', 'bookChapter', 'retired')
+        item = {key: question[key] for key in fields if key in question}
+        published = question.get('explanation') or ''
+        item['explanationLanguage'] = 'he' if len(re.findall('[א-ת]', published)) > len(re.findall('[A-Za-z]', published)) else 'en'
+        item['effectiveChapter'] = assignment
+        item['examReference'] = {k: reference[k] for k in ('edition', 'reference', 'chapters', 'pages', 'tables', 'status', 'source', 'sitting', 'number') if k in reference}
+        checked = question.get('sourceChecked') or {}
+        item['reading'] = {key: checked[key] for key in ('source', 'locator') if key in checked}
+        yield item
+
+
 if __name__ == '__main__':
-    outputs = generate()
-    print(f'Generated catalogue and {sum("/chunks/" in name for name in outputs)} question chunks')
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--editorial-input', metavar='CHAPTER', help='Write source-first drafting inputs to stdout. Use all for the whole bank.')
+    args = parser.parse_args()
+    if args.editorial_input:
+        chapter = None if args.editorial_input == 'all' else args.editorial_input
+        for item in editorial_inputs(chapter):
+            print(json.dumps(item, ensure_ascii=False))
+    else:
+        outputs = generate()
+        print(f'Generated catalogue and {sum("/chunks/" in name for name in outputs)} question chunks')

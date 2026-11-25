@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v307",
+      "date": "2026-11-25",
+      "changes": [
+        "Delirium, immunology, diabetes and pressure injuries now have exam-linked study notes and Israeli context. Jump between sections, study Read and Study or questions side by side on desktop, and review flashcards for nine chapters. Home shows what to study next. Question actions share one menu."
+      ]
+    },
+    {
       "version": "v306",
       "date": "2026-11-25",
       "changes": [

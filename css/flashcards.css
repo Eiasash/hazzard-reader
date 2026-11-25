@@ -1,0 +1,60 @@
+.study-flashcards {
+  margin-block: .4em .7em;
+  min-block-size: 44px;
+}
+
+#panel [data-pane="flashcards"] {
+  padding: .25em .25em .5em;
+  overflow-wrap: anywhere;
+}
+
+.flashcard-order, .flashcard-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .55em;
+}
+
+.flashcard-order select, #flashcardAnswer summary, .flashcard-actions button {
+  min-block-size: 44px;
+}
+
+.flashcard-order select {
+  max-inline-size: 100%;
+  font: inherit;
+  color: var(--ink);
+  background: var(--surface);
+}
+
+#flashcardCount, #flashcardFront, #flashcardBack, #flashcardTotals {
+  margin-block: .45em;
+}
+
+#flashcardFront, #flashcardDone {
+  font: 600 calc(19px * var(--fs, 1))/1.35 var(--reading);
+}
+
+#flashcardAnswer summary {
+  cursor: pointer;
+  align-content: center;
+  font-weight: 600;
+}
+
+#flashcardAnswer p {
+  line-height: 1.55;
+}
+
+.flashcard-sources {
+  display: grid;
+  justify-items: start;
+  gap: .25em;
+  margin-block: .4em .6em;
+}
+
+.flashcard-sources a {
+  padding-block: .25em;
+}
+
+.flashcard-actions button {
+  flex: 1 1 6em;
+}
