@@ -105,7 +105,7 @@
 .chapter-exams{display:block;min-height:calc(40px * var(--fs,1));box-sizing:border-box;padding:calc(10px * var(--fs,1)) 0;color:var(--muted);font:400 calc(11px * var(--fs,1))/1.65 var(--ui);white-space:normal;overflow:visible;text-overflow:clip;text-decoration:none;margin-top:3px;cursor:pointer}
 .chapter-exams span{display:inline-block;white-space:nowrap}
 .chapter-exams .chapter-exams-record{display:inline}
-.chapter-exams:hover{text-decoration:underline}
+.chapter-exams:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .chapter-exams-latest{color:var(--exam);background:var(--exam-soft);border-radius:4px;padding:0 3px}
 .reading-copy>.chapter-exams{margin:4px 0 14px;font-size:calc(12px * var(--fs,1))}
 .study-view-tabs{display:flex;grid-column:1 / -1;gap:4px;padding:2px 4px;margin:0;background:var(--surface)}
@@ -319,3 +319,11 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-explanation {block-size:auto;max-block-size:none;overflow:visible}
 #mcqViewport:has(.mcq-docked-actions) {scroll-padding-block-end:calc(60px * var(--fs,1))}
 .mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}
+
+/* Reader annotations are inserted after highlight units have been assigned. */
+#copy .exam-links{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:0 .25em;max-width:100%;margin:0 .25em;font:600 calc(11px * var(--fs,1))/1.3 var(--ui);color:var(--exam);vertical-align:baseline}
+#copy .exam-links a{display:inline-flex;align-items:center;min-height:24px;min-block-size:24px;padding:0 .14em;border:0;border-radius:3px;background:transparent;white-space:nowrap;color:inherit}
+#copy .exam-links a:focus-visible,#copy .exam-links a:hover{background:var(--exam-soft);outline:1px solid var(--exam)}
+#copy .exam-missed{display:inline-block;color:var(--exam);font:600 calc(11px * var(--fs,1))/1.3 var(--ui);margin-inline:.35em;padding:.1em .35em;border:1px solid currentColor;border-radius:3px}
+#copy .section-practice{font:500 calc(12px * var(--fs,1))/1.55 var(--ui);margin:.4em 0 1.4em;color:var(--muted)}
+#copy .section-practice a{display:inline-block;padding-block:4px;color:var(--accent)}

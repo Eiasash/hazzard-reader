@@ -11,6 +11,11 @@ window.HazzardEvidence = (() => {
     return promise ||= Promise.all([references(),HazzardQuestionData.catalog()]).then(([data,bank]) => {
       const all=bank;data.currentChapters={};
       for(const q of all)if(!q.retired&&q.chapter!=null)(data.currentChapters[String(q.chapter)]||=[]).push(q.id);
+      // A bibliography can cite two chapters or name one chapter and print a page in another.
+      for(const chapter of ['1','22','59','61']){
+        const cited=Object.entries(data.questions).filter(([,entry])=>entry.chapters.includes(chapter)).map(([id])=>id);
+        data.currentChapters[chapter]=[...new Set([...(data.currentChapters[chapter]||[]),...cited])];
+      }
       return data;
     }).catch(e => { promise = null; throw e; });
   }
@@ -60,48 +65,128 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = 'p' + page.page;
     location.assign(url);
   }
-  function askedBadge(entries, description) {
+  const rebuilt = new Set(['1','22','55','59','61']);
+  function askedBadge(entries, description, anchor, compact) {
     const badge = document.createElement('span');
-    badge.className = 'exam-evidence'; badge.dataset.readerMetadata = 'exam';
-    badge.setAttribute('aria-label', description);
-    for (const [id, entry] of entries) {
-      const link = document.createElement('a');
-      link.href = questionURL(id); link.textContent = 'Asked: ' + label(entry);
+    badge.className = compact ? 'exam-evidence exam-links' : 'exam-evidence';
+    badge.dataset.readerMetadata = 'exam';
+    badge.id = anchor;
+    badge.setAttribute('aria-label',description);
+    if(compact) badge.append('Asked:');
+    for(const [index,[id,entry]] of entries.entries()){
+      const link=document.createElement('a');
+      const [year,month]=entry.sitting.split('-');
+      if(compact && index)badge.append('·');
+      link.href=questionURL(id);
+      link.textContent=compact ? (month?month+' ':'')+year+(entry.sitting.endsWith('-Basic')?' Basic':'')+' Q'+entry.number : 'Asked: '+label(entry);
+      link.setAttribute('aria-label','Asked: '+label(entry));
       badge.append(link);
     }
     return badge;
   }
   async function decorate(copy, chapter) {
-    const data = await references(), byPage = new Map();
-    const rehabilitationStudy = chapter === '55s';
-    const sourceChapter = rehabilitationStudy ? '55' : chapter;
-    const earlier = [];
-    for (const [id, entry] of Object.entries(data.questions)) {
-      if(sourceChapter==='55' && Number(entry.sitting.slice(0,4))<2023 && (entry.chapters.includes('55') || data.study['55']?.ids.includes(id))) earlier.push([id,entry]);
-      if (entry.status !== 'resolved') continue;
-      for (const p of entry.pages) {
-        if ((p.readerChapter || p.chapter) !== sourceChapter || !p.available) continue;
-        if (!byPage.has(p.page)) byPage.set(p.page, []);
-        byPage.get(p.page).push([id, entry]);
+    const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=rebuilt.has(sourceChapter);
+    if(study&&!compact)return;
+    const data=compact?await load():await references(), byPage=new Map(), earlier=[];
+    const memberIds=new Set(data.currentChapters?.[sourceChapter]||[]);
+    const explicit=new Map();
+    for(const marker of copy.querySelectorAll('[data-exam-ids][data-exam-read-page]')){
+      for(const id of marker.dataset.examIds.split(/\s+/)){
+        if(!explicit.has(id))explicit.set(id,new Set());
+        explicit.get(id).add(Number(marker.dataset.examReadPage));
       }
     }
-    if(earlier.length){
-      const badge=askedBadge(earlier,'Asked in this chapter');
-      badge.id='asked-chapter';copy.querySelector('h1')?.after(badge);
-    }
-    if(rehabilitationStudy){
-      for(const marker of copy.querySelectorAll('[data-exam-ids]')){
-        const entries=marker.dataset.examIds.split(' ').map(id=>[id,data.questions[id]]).filter(([,entry])=>entry);
-        if(entries.length)marker.after(askedBadge(entries,'Related exam questions'));
+    for(const [id,entry] of Object.entries(data.questions)){
+      if(Number(entry.sitting.slice(0,4))<2023){
+        if(compact && (memberIds.has(id)||entry.chapters.includes(sourceChapter)))earlier.push([id,entry]);
+        continue;
+      }
+      if(entry.status!=='resolved')continue;
+      for(const p of entry.pages){
+        if((p.readerChapter||p.chapter)!==sourceChapter||!p.available||explicit.get(id)?.has(p.page))continue;
+        if(!byPage.has(p.page))byPage.set(p.page,[]);
+        byPage.get(p.page).push([id,entry]);
       }
     }
-    const markers=rehabilitationStudy?'[data-exam-page]':'a.pg';
-    for (const marker of copy.querySelectorAll(markers)) {
-      const entries = byPage.get(Number(marker.dataset.examPage || marker.dataset.page));
-      if (!entries?.length) continue;
-      const badge = askedBadge(entries, 'Asked here, page ' + (marker.dataset.examPage || marker.dataset.page));
-      marker.classList.add('exam-page-marker');marker.after(badge);
+    const annotations=[], sections=[];
+    function labelAt(marker,entries,description,anchor){
+      if(!marker||!entries.length)return;
+      const badge=askedBadge(entries,description,anchor,compact);
+      marker.after(badge);
+      if(compact&&!study)annotations.push({element:badge,ids:entries.map(([id])=>id)});
     }
+    if(earlier.length)labelAt(copy.querySelector('h1'),earlier,'Asked in this chapter','asked-chapter');
+    let section,serial=0;
+    const markers=study?'h2,[data-exam-page],[data-exam-ids],[data-practice-ids]':'a.pg,[data-exam-ids],[data-practice-ids]';
+    for(const marker of copy.querySelectorAll(markers)){
+      if(marker.tagName==='H2'){
+        if(section)section.end=marker;
+        section={ids:new Set(),end:null};
+        sections.push(section);
+        continue;
+      }
+      const page=Number(marker.dataset.examPage||marker.dataset.page||0);
+      const entries=page ? byPage.get(page)||[] : (marker.dataset.examIds||'').split(/\s+/).filter(id=>data.questions[id]).map(id=>[id,data.questions[id]]);
+      const practice=(marker.dataset.practiceIds||'').split(/\s+/).filter(id=>data.questions[id]);
+      if(section)for(const id of [...entries.map(([id])=>id),...practice])section.ids.add(id);
+      if(!study && practice.length)annotations.push({element:marker,ids:practice});
+      if(page && entries.length)marker.classList.add('exam-page-marker');
+      const visible=compact&&study ? entries.filter(([,e])=>Number(e.sitting.slice(0,4))>=2023) : entries;
+      labelAt(marker,visible,page?'Asked here, page '+page:'Related exam questions','asked-at-'+(++serial));
+    }
+    if(!compact)return;
+    const counts=[];
+    for(const {ids,end} of sections){
+      if(!ids.size)continue;
+      const line=document.createElement('p'),link=document.createElement('a'),status=document.createElement('span');
+      line.dataset.readerMetadata='exam';line.className='section-practice';
+      line.id='practise-section-'+(counts.length+1);
+      link.href=HazzardMCQ.sessionURL([...ids])+'&sectionPractice=1';
+      link.textContent='Practise the '+ids.size+' exam question'+(ids.size===1?'':'s')+' on this section';
+      line.append(link,status);
+      if(end)end.before(line);else copy.append(line);
+      counts.push({element:status,ids:[...ids]});
+    }
+    // The reader scrolls an inner viewport. Anchor its own history entry before leaving.
+    copy.addEventListener('click',event=>{
+      const link=event.target.closest('.exam-links a,.section-practice a');
+      if(!link||event.defaultPrevented||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+      const url=new URL(location.href);url.hash=link.parentElement.id;
+      history.replaceState({...history.state,hazzardReaderY:document.getElementById('readerScroll').scrollTop},'',url);
+    });
+    const bank=new Map((await HazzardQuestionData.catalog()).map(q=>[q.id,q]));
+    function refresh(){
+      let answers;
+      try{answers=HazzardMCQ.currentAnswers(HazzardMCQ.rawValue(HazzardMCQ.KEY,HazzardMCQ.validStore,()=>({version:1,answers:{}})).answers);}catch{}
+      function record(ids){
+        let answered=0,missed=0;
+        for(const id of ids){
+          const a=answers?.[id],q=bank.get(id);
+          if(q && a?.checked===true && Number.isInteger(a.selected)){
+            answered++;
+            if(!q.accepted.includes(a.selected))missed++;
+          }
+        }
+        return {answered,missed};
+      }
+      for(const c of counts){
+        const r=record(c.ids);
+        c.element.textContent=answers?' · '+r.answered+' answered · '+r.missed+' missed':' · Answer record unavailable';
+      }
+      for(const item of annotations){
+        const missed=record(item.ids).missed;
+        if(!missed){item.mark?.remove();item.mark=null;continue;}
+        if(!item.mark){
+          item.mark=document.createElement('small');item.mark.className='exam-missed';item.mark.dataset.readerMetadata='exam';
+          item.element.after(item.mark);
+        }
+        item.mark.textContent='missed';item.mark.title=missed+' linked question'+(missed===1?'':'s')+' answered incorrectly';
+      }
+    }
+    refresh();addEventListener('pageshow',refresh);
+    addEventListener('storage',e=>{if(!e.key||e.key===HazzardMCQ.KEY)refresh();});
+    addEventListener('hazzard-saved-change',refresh);
+    document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
   }
   function backControl(viewport) {
     if (new URL(location.href).searchParams.get('examBack') !== '1') return;

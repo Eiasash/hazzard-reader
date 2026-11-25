@@ -2,6 +2,101 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 
 # Chapter 61 Study: Parkinson Disease and Related Disorders
 
+## What the exams asked
+
+- Recognizing idiopathic Parkinson disease and distinguishing rest from action tremor [June 2023 Q80](?chapter=61#exam-mcq-13fabc9f0d6f8fd34d20852e), [June 2026 Q31](?chapter=61#exam-mcq-fe0fe26539d3780822b8f018), [May 2024 Q50](?chapter=61#exam-mcq-a107f1d68006598cfe6fe356), [September 2024 Q24](?chapter=61#exam-mcq-639704ca0a2e07b231f57fca), [December 2021 Q92](?chapter=61#asked-chapter).
+- What levodopa improves and what a transporter scan can establish [June 2026 Q15](?chapter=61#exam-mcq-584a3091801f4b8f87c4f086), [June 2025 Q64](?chapter=61#exam-mcq-592ed9671a2804086a3079b9).
+- Early autonomic failure with ataxia suggests multiple system atrophy [June 2026 Q60](?chapter=61#exam-mcq-5aff8ef3237b31ebc14818a4).
+- Nigral cell loss, exposure associations and the relative frequency of atypical syndromes [May 2024 Q37](?chapter=61#exam-mcq-66ccc4806be30db38956eb5f), [September 2024 Q59](?chapter=61#exam-mcq-c52415f4d7c73e695361110a), [September 2024 Q74](?chapter=61#exam-mcq-5461c18463aace56c08459fe).
+- Initial levodopa, motor fluctuations and the different adverse effects of agonists [May 2024 Q61](?chapter=61#exam-mcq-991b3e62e78d2629cd03bad6), [June 2025 Q11](?chapter=61#exam-mcq-7a90308e12b3ad9cc1b6f81a), [September 2024 Q76](?chapter=61#exam-mcq-16cdb9d2de9f736383dda397), [June 2022 Q89](?chapter=61#asked-chapter).
+- Predictable end-of-dose immobility versus involuntary movements at peak dose [June 2026 Q83](?chapter=61#exam-mcq-704a1bc1d1352115cfd1c494), [September 2024 Q86](?chapter=61#exam-mcq-8967c8cfe2bde76fda19ff30), [June 2022 Q45](?chapter=61#asked-chapter).
+- Hallucinations from dopamine therapy versus depression accompanying the disease [June 2026 Q75](?chapter=61#exam-mcq-c422e711b9b76e815a130a7a), [May 2024 Q95](?chapter=61#exam-mcq-d1250479506c48ee2bf3b920), [December 2021 Q31](?chapter=61#asked-chapter).
+- Nonmotor constipation and dream enactment during REM sleep [June 2022 Q17](?chapter=61#asked-chapter), [September 2024 Q81](?chapter=61#exam-mcq-dac49a0a832949e5496bfde8).
+- Selecting patients for deep brain stimulation [June 2025 Q82](?chapter=61#exam-mcq-7c399ddd1ed048f9ccb52dbf), [December 2021 Q4](?chapter=61#asked-chapter).
+- Presyncope and a dementia drug: the Basic-track reference names Chapter 59 but prints Parkinson treatment pages [June 2026 Basic Q102](?chapter=61#p945).
+
+## Reading the movement examination
+
+<span data-exam-ids="mcq-13fabc9f0d6f8fd34d20852e mcq-a107f1d68006598cfe6fe356 mcq-639704ca0a2e07b231f57fca mcq-fe0fe26539d3780822b8f018"></span>
+
+<span data-practice-ids="mcq-c1a3dda929d99ddfdddc6b5c"></span>
+
+Bradykinesia is the central motor feature. Look for a gradual, often asymmetric onset and tremor in a supported limb at rest. Tremor on holding the arms out or when writing points toward essential tremor, although mixed tremor and coexistence are possible. The December 2021 patient spilled soup from a spoon, had bilateral hand and head tremor, and improved after alcohol. The official treatment choice was a beta blocker. Hazzard explains the clinical distinction; propranolol is specifically supported for limb tremor by the AAN essential-tremor guideline (p940; AAN clinician summary, 2011).
+
+**A supportive sign is different from a prerequisite.** For clinically established PD the chapter describes bradykinesia, no exclusion criterion and at least two supportive findings among levodopa response, levodopa-induced dyskinesia, rest tremor, and olfactory loss or cardiac sympathetic denervation. September 2024 selected rest tremor. June 2026 selected tremor beginning asymmetrically at rest. June 2023 paired bradykinesia with impaired postural reflexes. Prominent early postural instability raises suspicion of an alternative disorder, even though impairment can appear later in PD (p939-941, Tables 61-3 and 61-4).
+
+<span data-exam-ids="mcq-584a3091801f4b8f87c4f086 mcq-592ed9671a2804086a3079b9 mcq-5aff8ef3237b31ebc14818a4"></span>
+
+**Limb versus axial response.** Levodopa usually helps distal dexterity and limb rigidity most. Tremor responds variably. Hypophonia, dysphagia and postural instability often reflect additional nondopaminergic injury. In June 2026 this distinction separated the limb pair from mixed pairs that contained an axial or autonomic complaint (p939).
+
+**DaT SPECT establishes terminal loss.** Essential tremor may look like PD but normally preserves striatal uptake. PSP, DLB and MSA can each reduce uptake. Thus an abnormal scan supports degenerative parkinsonism without naming the underlying disease. Early severe orthostatic hypotension, bladder or erectile dysfunction together with cerebellar ataxia favor MSA. Downward gaze palsy and early backward falls favor PSP. Asymmetric dystonia with apraxia, cortical sensory loss or an alien limb suggests corticobasal syndrome (p939-943).
+
+## Why the motor syndrome develops
+
+<span data-exam-ids="mcq-66ccc4806be30db38956eb5f mcq-c52415f4d7c73e695361110a mcq-5461c18463aace56c08459fe"></span>
+
+The characteristic lesions are misfolded alpha-synuclein in Lewy bodies and loss of dopaminergic neurons in the substantia nigra pars compacta. Losing nigrostriatal input favors inhibition of movement. In contrast to the milder terminal loss of ordinary aging, the posterior and dorsal putamen are preferentially affected. An estimated 60% to 80% of posterior-putaminal terminals have already been lost by motor onset. The Braak model places symptomatic nigral involvement at stage 3 and allows sleep, autonomic and olfactory changes to precede it (p938-939).
+
+**Risk association is not causation.** The September 2024 alternatives contrasted suggested higher risk with manganese exposure against inverse associations with smoking and caffeinated coffee. PD is more common in men. The official locator is p936; the environmental discussion continues on p937. Hazzard does not present the inverse associations as preventive treatments (p936-937).
+
+PSP, MSA and CBS together have a prevalence roughly 5% to 10% of PD prevalence, and DLB is more common than those other atypical syndromes. This comparison does not establish the fraction of all parkinsonism that is atypical. September 2024 also asked about contact sports. The cited p938 and p941 discuss the syndromes; Chapter 63 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).
+
+## When to alter dopaminergic treatment
+
+<span data-exam-ids="mcq-991b3e62e78d2629cd03bad6 mcq-7a90308e12b3ad9cc1b6f81a mcq-16cdb9d2de9f736383dda397"></span>
+
+<span data-practice-ids="mcq-3ed537d091c4ac13b638e895"></span>
+
+Levodopa crosses the blood-brain barrier as a dopamine precursor. Carbidopa or benserazide reduces peripheral conversion, improving availability and limiting gastrointestinal effects. In an older person whose motor symptoms impair quality of life, its greater motor benefit and lower propensity for hallucinations than agonists matter. Pramipexole and ropinirole can cause daytime somnolence or sudden sleep attacks, ankle edema and impulsive eating, spending, gambling or sexual behavior. Ask patients and families about new behaviors because the patient may never volunteer them. Their temporal relation to an agonist supports reviewing and reducing its dose as tolerated (p943-946).
+
+**Levodopa versus an agonist.** Clinical trials found fewer dyskinesias and less wearing-off with agonists, but greater neuropsychiatric toxicity, particularly in older adults. June 2025 selected motor fluctuations as the effect more common with levodopa. The list prints p943 and p964; the comparison continues on p944, whereas p964 is in the stroke chapter (p943-945).
+
+<span data-exam-ids="mcq-8967c8cfe2bde76fda19ff30 mcq-704a1bc1d1352115cfd1c494"></span>
+
+<span data-practice-ids="mcq-229f23d07885f884509c55bc"></span>
+
+**End of dose versus peak dose.** A useful dose followed by stiffness before the next tablet means the benefit wears off early. Shortening the interval or adding a COMT inhibitor extends motor coverage. Entacapone increases effective levodopa exposure and can aggravate dyskinesia. In contrast, irregular, dance-like movements at peak exposure suggest lowering each dose, sometimes giving smaller doses more often to preserve mobility. September 2024 omitted timing relative to doses; its reduction answer assumes peak-dose dyskinesia. Diphasic movements occur as the dose starts and ends and need a different assessment. June 2022 asked about continuous intestinal levodopa for troublesome fluctuations with a good motor response (p943-946).
+
+<span data-exam-ids="mcq-c422e711b9b76e815a130a7a mcq-d1250479506c48ee2bf3b920"></span>
+
+<span data-practice-ids="mcq-b722617aa8858adb7209c45d"></span>
+
+**Hallucinations versus depression.** Review acute precipitants and other psychoactive medicines. If hallucinations track dopaminergic treatment, reduce the load as motor function permits. Abrupt levodopa withdrawal can cause a neuroleptic malignant-like syndrome. The December 2021 key selected quetiapine for frightening hallucinations; the text also considers pimavanserin, or clozapine with blood-count monitoring when symptoms remain severe or frightening. Depression may precede motor signs and needs a separate assessment. A lower dopaminergic dose may help drug-related sleepiness or psychosis but is not a general treatment for depression (p946-947).
+
+## Sleep, cognition and function
+
+<span data-exam-ids="mcq-dac49a0a832949e5496bfde8"></span>
+
+<span data-practice-ids="mcq-fb38ffdddc5df94e127de7f1"></span>
+
+Loss of muscle atonia in REM sleep lets a person act out a dream and injure a bed partner. Ask about the movements and protect the sleeping space. Clonazepam can suppress the episodes. Melatonin can be tried first; the chapter describes it as less effective. Nighttime rigidity from wearing-off has a different mechanism and may improve with better nocturnal motor coverage. Constipation is among the autonomic features of PD and can worsen with anticholinergic drugs. June 2022 selected constipation; Hazzard also includes drooling in its nonmotor list (p942, p947-948).
+
+<span data-exam-ids="mcq-7c399ddd1ed048f9ccb52dbf"></span>
+
+<span data-practice-ids="mcq-5fc8a91de7d78511b9bbba72"></span>
+
+DBS targets the subthalamic nucleus or globus pallidus internus in selected patients with disabling motor fluctuations, dyskinesia or medication-refractory tremor. A good levodopa response helps identify motor features likely to improve with stimulation, with refractory tremor an exception. Recurrent falls from postural instability, prominent cognitive impairment or serious depression reduce suitability. December 2021 selected troublesome on-off states with preserved cognition. June 2025 selected uncontrolled tremor (p949).
+
+<span data-exam-ids="mcq-987cf6b109f3fe9f8d976b83"></span>
+
+The June 2026 Basic item asked about a dementia medicine in a patient with presyncope and an abnormal ECG. The list names Chapter 59 but prints p945-946, which describe Parkinson motor fluctuations and medication complications. The official answer is donepezil. The link between cholinesterase inhibition and bradycardia appears in the dementia treatment discussion on p912; the printed Parkinson pages do not establish that cardiac adverse effect.
+
+**Later-stage care.** Cognitive impairment in PD commonly affects attention and executive function. Long-established motor disease before dementia favors PDD, whereas dementia around motor onset favors DLB. Exercise, gait cueing and physical therapy support mobility; swallowing difficulty and loss of independence call for discussions about support, feeding decisions and goals with the patient and caregivers (p939, p942, p948-950).
+
+## Israeli context
+
+<div dir="rtl" lang="he">
+
+<p><strong>פרקינסון וגמלת סיעוד בבית.</strong> רעד או ברדיקינזיה אינם כשלעצמם מדד לתלות. אצל אדם עם פרקינסון בודקים, למשל, אם הוא זקוק לאדם אחר כדי ללכת בתוך הבית, להתלבש, להתרחץ, לאכול או לטפל בהפרשות. אפשר לעמוד בתנאי התפקודי גם כשנדרשת השגחה צמודה עקב סכנת חיים מיידית או סכנת פגיעה באדם עצמו או בזולת. הזכאות תלויה גם בגיל הפרישה ובתושבות, בהכנסות, במסגרת המגורים ובכללים בדבר גמלאות אחרות. <a href="https://www.btl.gov.il/benefits/Long_Term_Care/Pages/zakaut.aspx">הביטוח הלאומי, תנאי הזכאות לגמלת סיעוד, תנאים 1–5</a>.</p>
+
+<p><strong>מה לתעד כאשר התפקוד משתנה לאורך היום.</strong> אם המטופל הולך בכוחות עצמו לאחר נטילת לבודופה אך זקוק לליווי או לעזרה פיזית לפני המנה הבאה, חשוב לתאר באילו שעות ובאילו פעולות נדרשת העזרה. זו דרך ליישם את הערכת התפקוד במחלה עם תנודות מוטוריות. הביטוח הלאומי מבקש מסמכים רפואיים ותפקודיים עדכניים, ובכללם מידע על הטיפול התרופתי. המעריך רשאי להשלים פרטים בטלפון או בביקור בית. בבדיקה ביתית של אדם עם ירידה קוגניטיבית נדרשת נוכחות בן משפחה או אפוטרופוס. <a href="https://www.btl.gov.il/benefits/Long_Term_Care/Pages/adltest.aspx">הביטוח הלאומי, בדיקת יכולת תפקוד, מסלול המעריך המוסמך</a>. מנגנון התנודות מתואר בפרק זה בעמ׳ 944–945.</p>
+
+<p><strong>הערכה שיקומית לאחר אשפוז.</strong> אם אדם עם פרקינסון הלך לפני מחלה חריפה וכעת זקוק לעזרה בקימה ובהעברות, יש להשוות את תפקודו הנוכחי לתפקוד שקדם לאירוע. מגבלה קודמת מאפשרת שיקום אם הרופא מעריך שאפשר לשוב לתפקוד הקודם או להשיג שיפור משמעותי. בירידה קוגניטיבית בודקים אם שיתוף הפעולה מאפשר טיפול. מומחה בגריאטריה או בשיקום קובע את ההמלצה ואת היעדים בהתייעצות רב־מקצועית. <a href="https://www.gov.il/he/departments/policies/mr04-2009">משרד הבריאות, חוזר מינהל רפואה 4/2009, סעיפים 5.1.4, 5.2 ו־6.1–6.4</a>.</p>
+
+<p><strong>בחירת מסגרת השיקום.</strong> קופת החולים אחראית לשיקום. לפי הצורך והתנאים בבית ניתן לשקול שיקום בבית, במכון, בשיקום יום או באשפוז. אצל מטופל שנמצא מתאים לשיקום, צורך בהשגחה רפואית וסיעודית ממושכת או היעדר אפשרות לטיפול מתאים בבית ובקהילה הם התוויות לשיקום באשפוז. לאחר אשפוז בבית חולים ההמלצה צריכה להופיע במכתב השחרור. <a href="https://www.gov.il/he/departments/policies/mr04-2009">חוזר 4/2009, סעיפים 4.1, 7 ו־10.1</a>. <a href="https://me.health.gov.il/older-adult/keep-me-healthy/rehabilitation/geriatric-rehabilitation/">משרד הבריאות, שיקום גריאטרי, ״ייעוץ רפואי גריאטרי לפני השיקום״ ו״תהליך השיקום הגריאטרי״</a>.</p>
+
+</div>
+
 ## Summary
 
 **Definition & epidemiology**

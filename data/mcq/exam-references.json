@@ -110,7 +110,8 @@
       ],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-8d91e921a4f3e6b38cc30ba0": {
       "sitting": "2024-May",
@@ -425,7 +426,8 @@
       "tables": [],
       "chapters": [
         "22"
-      ]
+      ],
+      "bankChapter": "22"
     },
     "mcq-96e73d093ad671f5ad7ae40e": {
       "sitting": "2020",
@@ -588,7 +590,8 @@
         "57"
       ],
       "chapter7": "63",
-      "title7": "Cognitive Changes Associated With Normal and Pathologic Aging"
+      "title7": "Cognitive Changes Associated With Normal and Pathologic Aging",
+      "bankChapter": "57"
     },
     "mcq-5324b8a6225029bff2dabcee": {
       "sitting": "2020",
@@ -693,7 +696,8 @@
       "tables": [],
       "chapters": [
         "100"
-      ]
+      ],
+      "bankChapter": "100"
     },
     "mcq-d999fc66e84432d68688a775": {
       "sitting": "2020",
@@ -738,7 +742,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-0763892c4fe5cc16609cece1": {
       "sitting": "2020",
@@ -781,7 +786,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-c2587af5add4e2fcc0bfd570": {
       "sitting": "2020",
@@ -813,7 +819,8 @@
       "tables": [],
       "chapters": [
         "66"
-      ]
+      ],
+      "bankChapter": "66"
     },
     "mcq-c982624ebb3a0cc1c5b9af74": {
       "sitting": "2020",
@@ -862,7 +869,8 @@
         "58"
       ],
       "chapter7": "47",
-      "title7": "Delirium"
+      "title7": "Delirium",
+      "bankChapter": "58"
     },
     "mcq-ce0328117dbe2b4d9dd6b779": {
       "sitting": "2020",
@@ -896,7 +904,8 @@
         "56"
       ],
       "chapter7": "62",
-      "title7": "Cellular and Neurochemical Aspects of the Aging Brain"
+      "title7": "Cellular and Neurochemical Aspects of the Aging Brain",
+      "bankChapter": "56"
     },
     "mcq-4856c7ff9699788b6989204c": {
       "sitting": "2020",
@@ -911,7 +920,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-b7bab775e701c6dacdbdbbcc": {
       "sitting": "2020",
@@ -967,7 +977,8 @@
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-25977eff884454c1df2ec0a8": {
       "sitting": "2020",
@@ -1159,15 +1170,20 @@
       "number": 76,
       "edition": 7,
       "source": "מראה מקום גריאטריה 2020.pdf",
-      "reference": "Hazzard 7e · p. 1087",
+      "reference": "Hazzard 7e · Table 108-7",
       "questionRef": "Hazzard 7e · p. 1087",
-      "status": "topic-8e",
-      "reason": "2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor",
+      "status": "title-8e",
+      "reason": "The rendered IMA row identifies seventh-edition Table 108-7. Chapter-level link only.",
       "pages": [],
-      "tables": [],
+      "tables": [
+        "108-7"
+      ],
       "chapters": [
-        "39"
-      ]
+        "97"
+      ],
+      "chapter7": 108,
+      "title7": "Aging of the Endocrine System and Selected Endocrine Disorders",
+      "bankChapter": "97"
     },
     "mcq-7b2b812163373e9d00543031": {
       "sitting": "2020",
@@ -1182,7 +1198,8 @@
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-64017e896e68192670a11fe2": {
       "sitting": "2020",
@@ -1242,7 +1259,8 @@
         "73"
       ],
       "chapter7": "75",
-      "title7": "Effects of Aging on Cardiovascular Structure and Function"
+      "title7": "Effects of Aging on Cardiovascular Structure and Function",
+      "bankChapter": "73"
     },
     "mcq-41b2b9e9aed4c3e21ea1a031": {
       "sitting": "2020",
@@ -1311,7 +1329,8 @@
         "59"
       ],
       "chapter7": "66",
-      "title7": "Dementia Including Alzheimer Disease"
+      "title7": "Dementia Including Alzheimer Disease",
+      "bankChapter": "59"
     },
     "mcq-13dba157a8b968526f8555b0": {
       "sitting": "2020",
@@ -1523,7 +1542,8 @@
         "73"
       ],
       "chapter7": "75",
-      "title7": "Effects of Aging on Cardiovascular Structure and Function"
+      "title7": "Effects of Aging on Cardiovascular Structure and Function",
+      "bankChapter": "73"
     },
     "mcq-2a733ae05cc2358d92d04f65": {
       "sitting": "2021-Dec",
@@ -1609,7 +1629,8 @@
       "tables": [],
       "chapters": [
         "85"
-      ]
+      ],
+      "bankChapter": "85"
     },
     "mcq-b779bb4d9377055ce33a959e": {
       "sitting": "2021-Dec",
@@ -1686,7 +1707,8 @@
         "3"
       ],
       "chapter7": "3",
-      "title7": "Immunology of Aging"
+      "title7": "Immunology of Aging",
+      "bankChapter": "3"
     },
     "mcq-30ca809d5327e7a3f40fa96f": {
       "sitting": "2021-Dec",
@@ -1999,11 +2021,14 @@
       "source": "מראה מקום גריאטריה 2021.pdf",
       "reference": "Hazzard 7e · p. 601-602",
       "questionRef": "Hazzard 7e · p. 601-602",
-      "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "status": "topic-8e",
+      "reason": "Seventh-edition pp. 601–602. The menopause and skin topic has an eighth-edition chapter-level counterpart in Chapter 35. No page conversion.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "35"
+      ],
+      "bankChapter": "35"
     },
     "mcq-9263ca029323c02206b33370": {
       "sitting": "2021-Dec",
@@ -2233,7 +2258,8 @@
       "tables": [],
       "chapters": [
         "59"
-      ]
+      ],
+      "bankChapter": "59"
     },
     "mcq-08e57c41fba38974834cfcc7": {
       "sitting": "2021-Dec",
@@ -2370,7 +2396,8 @@
       "tables": [],
       "chapters": [
         "106"
-      ]
+      ],
+      "bankChapter": "106"
     },
     "mcq-7892555b8057c689d6d7f8d4": {
       "sitting": "2021-Dec",
@@ -2385,7 +2412,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-ad9a121e09ed2474df94ccb9": {
       "sitting": "2021-Dec",
@@ -2501,7 +2529,8 @@
       "tables": [],
       "chapters": [
         "58"
-      ]
+      ],
+      "bankChapter": "58"
     },
     "mcq-dc794bb08255721e56f05ae8": {
       "sitting": "2021-Dec",
@@ -2543,7 +2572,7 @@
       "pages": [],
       "tables": [],
       "chapters": [
-        "9"
+        "59"
       ]
     },
     "mcq-5d2910508d3a03b9779ece99": {
@@ -2623,7 +2652,8 @@
         "45"
       ],
       "chapter7": "51",
-      "title7": "Syncope"
+      "title7": "Syncope",
+      "bankChapter": "45"
     },
     "mcq-f43f24aa5483c1c8750901a0": {
       "sitting": "2020",
@@ -2968,7 +2998,8 @@
         "60"
       ],
       "chapter7": "64",
-      "title7": "Psychoactive Drug Therapy"
+      "title7": "Psychoactive Drug Therapy",
+      "bankChapter": "60"
     },
     "mcq-1dbdcd14969d75c22327d1d7": {
       "sitting": "2021-Dec",
@@ -3013,7 +3044,8 @@
       "tables": [],
       "chapters": [
         "85"
-      ]
+      ],
+      "bankChapter": "85"
     },
     "mcq-e4cde6058ec0e9998ca3d55c": {
       "sitting": "2020",
@@ -3140,7 +3172,7 @@
       "pages": [],
       "tables": [],
       "chapters": [
-        "57"
+        "59"
       ]
     },
     "mcq-96ca17572f1dc65de0f78ebe": {
@@ -3384,10 +3416,11 @@
       "reference": "GRS — Dermatology — Xerosis",
       "questionRef": "GRS — Dermatology — Xerosis",
       "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "reason": "The official bibliography names GRS — Dermatology — Xerosis. No corresponding Chapter 1 citation.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": null
     },
     "mcq-bec9f7bc700b6732cb9a08cd": {
       "sitting": "2022-Jun",
@@ -3751,7 +3784,8 @@
       "tables": [],
       "chapters": [
         "80"
-      ]
+      ],
+      "bankChapter": "80"
     },
     "mcq-77b00818873a0ab6f67a6a08": {
       "sitting": "2022-Jun",
@@ -3781,7 +3815,8 @@
       "tables": [],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-337fb16dd9a502a6454e5030": {
       "sitting": "2022-Jun",
@@ -3791,10 +3826,11 @@
       "reference": "GRS — Psychology of Aging",
       "questionRef": "GRS — Psychology of Aging",
       "status": "unresolved",
-      "reason": "Outside 2023–2026 Hazzard 8e scope; no 7e page mapping",
+      "reason": "The official bibliography names GRS — Psychology of Aging. No corresponding Chapter 1 citation.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": null
     },
     "mcq-b46cd8ffb128f21dac24b95e": {
       "sitting": "2022-Jun",
@@ -4029,7 +4065,8 @@
         "73"
       ],
       "chapter7": "75",
-      "title7": "Effects of Aging on Cardiovascular Structure and Function"
+      "title7": "Effects of Aging on Cardiovascular Structure and Function",
+      "bankChapter": "73"
     },
     "mcq-6f21fad051c4bdf45e220b18": {
       "sitting": "2022-Jun",
@@ -4057,7 +4094,8 @@
       "tables": [],
       "chapters": [
         "82"
-      ]
+      ],
+      "bankChapter": "82"
     },
     "mcq-7d142f5429d687f80e6f9eef": {
       "sitting": "2022-Jun",
@@ -4072,7 +4110,8 @@
       "tables": [],
       "chapters": [
         "86"
-      ]
+      ],
+      "bankChapter": "86"
     },
     "mcq-df621afa3901e0520fadaaf0": {
       "sitting": "2022-Jun",
@@ -4212,7 +4251,8 @@
       "tables": [],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-77c63ac1cd72982a0e62f19f": {
       "sitting": "2022-Jun",
@@ -4244,7 +4284,8 @@
         "30"
       ],
       "chapter7": "34",
-      "title7": "Nutrition and Obesity"
+      "title7": "Nutrition and Obesity",
+      "bankChapter": "30"
     },
     "mcq-e21515dd83a262fc0568e173": {
       "sitting": "2022-Jun",
@@ -4300,7 +4341,8 @@
         "63"
       ],
       "chapter7": "68",
-      "title7": "Other Neurodegenerative Disorders"
+      "title7": "Other Neurodegenerative Disorders",
+      "bankChapter": "63"
     },
     "mcq-5bf331fde8ae2c6f9f86f24b": {
       "sitting": "2022-Jun",
@@ -4315,7 +4357,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-06ed2999f88c1ab0c78b66e4": {
       "sitting": "2022-Jun",
@@ -4442,7 +4485,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-ddef9cf1f78256b78075c984": {
       "sitting": "2022-Jun",
@@ -4470,7 +4514,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-fb612354b8ab97a21a687655": {
       "sitting": "2022-Jun",
@@ -4561,17 +4606,20 @@
       "reason": "",
       "pages": [
         {
-          "page": 1117,
+          "page": 1116,
           "chapter": "73",
           "available": true,
           "readerChapter": "73"
         }
       ],
-      "tables": [],
+      "tables": [
+        "73-1"
+      ],
       "chapters": [
         "73"
       ],
-      "referenceNote": "Paper cites p.1116; content is on p.1117."
+      "referenceNote": "The IMA list prints Table 73-1 on p1116. The related discussion continues on p1117.",
+      "bankChapter": "73"
     },
     "mcq-a77459f28aa5bea68b87e0b9": {
       "sitting": "2023-Jun",
@@ -4763,7 +4811,8 @@
       "tables": [],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-194c7693fedb20234ecb92da": {
       "sitting": "2023-Jun",
@@ -4877,7 +4926,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-03e515ea1394f1b7d0176064": {
       "sitting": "2023-Jun",
@@ -5026,7 +5076,8 @@
       "tables": [],
       "chapters": [
         "97"
-      ]
+      ],
+      "bankChapter": "97"
     },
     "mcq-558754bdd0a7904a5c8cdd50": {
       "sitting": "2023-Jun",
@@ -5468,7 +5519,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-9133456e88257f8d41edd4d4": {
       "sitting": "2023-Jun",
@@ -5828,7 +5880,8 @@
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-4de2f99d12c0f96618a8056a": {
       "sitting": "2023-Jun",
@@ -6069,17 +6122,24 @@
       "reason": "",
       "pages": [
         {
-          "page": 1231,
-          "chapter": "80",
+          "page": 1280,
+          "chapter": "83",
           "available": true,
-          "readerChapter": "80"
+          "readerChapter": "83"
+        },
+        {
+          "page": 1281,
+          "chapter": "83",
+          "available": true,
+          "readerChapter": "83"
         }
       ],
       "tables": [],
       "chapters": [
-        "80"
+        "83"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1231."
+      "referenceNote": "The IMA list prints pp1280–1281 in Chapter 83. The respiratory physiology supporting the key is in Chapter 80 on p1231.",
+      "bankChapter": "83"
     },
     "mcq-e3682940da67f696841ee7d2": {
       "sitting": "2023-Jun",
@@ -6397,7 +6457,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-e8ba38432f0a33923c977eb3": {
       "sitting": "2023-Jun",
@@ -6599,7 +6660,12 @@
       "reason": "",
       "pages": [
         {
-          "page": 876,
+          "page": 864,
+          "chapter": "57",
+          "available": true
+        },
+        {
+          "page": 865,
           "chapter": "57",
           "available": true
         }
@@ -6608,7 +6674,8 @@
       "chapters": [
         "57"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 876."
+      "referenceNote": "IMA cites pp. 864-865 and Table 57-3. The explanation uses the prion-disease passage on p. 876.",
+      "bankChapter": "57"
     },
     "mcq-a755639ae8845f1d1ee36a9e": {
       "sitting": "2023-Jun",
@@ -6984,27 +7051,18 @@
       "reason": "",
       "pages": [
         {
-          "page": 928,
-          "chapter": "60",
-          "available": true
-        },
-        {
-          "page": 946,
-          "chapter": "61",
-          "available": true
-        },
-        {
-          "page": 947,
-          "chapter": "61",
-          "available": true
+          "page": 889,
+          "chapter": "58",
+          "available": true,
+          "readerChapter": "58"
         }
       ],
       "tables": [],
       "chapters": [
-        "60",
-        "61"
+        "58"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 928,946-947."
+      "referenceNote": "The official list cites Chapter 58 p889. The pharmacology in the explanation also draws on Chapter 60 p928 and Chapter 61 pp946–947.",
+      "bankChapter": "58"
     },
     "mcq-a6c338a57828b765465f7cbf": {
       "sitting": "2024-May",
@@ -7104,7 +7162,8 @@
       "chapters": [
         "52",
         "76"
-      ]
+      ],
+      "bankChapter": "52"
     },
     "mcq-2420c29631c2ef60e0dcfac5": {
       "sitting": "2024-May",
@@ -7330,7 +7389,8 @@
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-2cae81434ec4479d828221ef": {
       "sitting": "2024-May",
@@ -7374,7 +7434,8 @@
       "tables": [],
       "chapters": [
         "80"
-      ]
+      ],
+      "bankChapter": "80"
     },
     "mcq-94046bbc8c7e9ec313c279d7": {
       "sitting": "2024-May",
@@ -7436,8 +7497,8 @@
           "available": true
         },
         {
-          "page": 993,
-          "chapter": "63",
+          "page": 933,
+          "chapter": "60",
           "available": true
         }
       ],
@@ -7448,7 +7509,8 @@
         "57",
         "63"
       ],
-      "referenceNote": "Paper cites chapters 57,63 and pp.873,933. Table 63-5 is on p.993 (chapter 63); p.933 is a bibliography page. Open page uses pp.873 and 993."
+      "referenceNote": "IMA names Chapters 57 and 63, pp. 873 and 933 and Table 63-5. Printed p. 933 is in Chapter 60. Table 63-5 is on p. 993.",
+      "bankChapter": "57"
     },
     "mcq-8d483913bdc5a9afe5b428bb": {
       "sitting": "2024-May",
@@ -7694,7 +7756,8 @@
       ],
       "chapters": [
         "73"
-      ]
+      ],
+      "bankChapter": "73"
     },
     "mcq-beb6eeb9a6b97998b481179e": {
       "sitting": "2024-May",
@@ -8380,7 +8443,8 @@
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-b9c4a66523aee26652ec01e3": {
       "sitting": "2024-May",
@@ -8404,7 +8468,8 @@
       ],
       "chapters": [
         "85"
-      ]
+      ],
+      "bankChapter": "85"
     },
     "mcq-50ec9e1a09b76ec99af22266": {
       "sitting": "2024-May",
@@ -8425,7 +8490,8 @@
       "tables": [],
       "chapters": [
         "65"
-      ]
+      ],
+      "bankChapter": "65"
     },
     "mcq-8c8695c6e0e9292f086c2501": {
       "sitting": "2024-May",
@@ -8519,7 +8585,8 @@
       ],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-4ea0e38022bf9d5645f8e014": {
       "sitting": "2024-May",
@@ -8881,7 +8948,9 @@
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies",
+      "bankChapter": "ima-harrison-22e-ch458"
     },
     "mcq-5e44f7b9b75a76f17420c999": {
       "sitting": "2024-May",
@@ -8956,7 +9025,8 @@
       ],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-8a61d27740b818d564cb66db": {
       "sitting": "2024-May",
@@ -9117,7 +9187,8 @@
       ],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-729fbafd5c19ea7d160566e7": {
       "sitting": "2024-Sep",
@@ -9265,12 +9336,7 @@
       "reason": "",
       "pages": [
         {
-          "page": 897,
-          "chapter": "59",
-          "available": true
-        },
-        {
-          "page": 898,
+          "page": 896,
           "chapter": "59",
           "available": true
         }
@@ -9563,7 +9629,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-639704ca0a2e07b231f57fca": {
       "sitting": "2024-Sep",
@@ -9894,7 +9961,8 @@
       "tables": [],
       "chapters": [
         "80"
-      ]
+      ],
+      "bankChapter": "80"
     },
     "mcq-dc0464bd4d984c0b0a739fe8": {
       "sitting": "2024-Sep",
@@ -9960,7 +10028,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-54abfb3201d262c46e1c4f83": {
       "sitting": "2024-Sep",
@@ -10016,7 +10085,8 @@
       "tables": [],
       "chapters": [
         "82"
-      ]
+      ],
+      "bankChapter": "82"
     },
     "mcq-f705217fdbb945bd5ee28a3c": {
       "sitting": "2024-Sep",
@@ -10282,7 +10352,8 @@
       "tables": [],
       "chapters": [
         "44"
-      ]
+      ],
+      "bankChapter": "44"
     },
     "mcq-7f8661f001992e760b345025": {
       "sitting": "2024-Sep",
@@ -10470,7 +10541,8 @@
       "tables": [],
       "chapters": [
         "82"
-      ]
+      ],
+      "bankChapter": "82"
     },
     "mcq-90d840a5077cb2840fbdba04": {
       "sitting": "2024-Sep",
@@ -10530,10 +10602,11 @@
       "reference": "Harrison · ch. 59 · pp. 402-403",
       "questionRef": "Harrison · ch. 59 · pp. 402-403",
       "status": "unresolved",
-      "reason": "Official reference is not Hazzard 8e",
+      "reason": "The official bibliography names Harrison · ch. 59 · pp. 402-403. No corresponding Chapter 1 citation.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": null
     },
     "mcq-a48ff09dba8d7490a501c290": {
       "sitting": "2024-Sep",
@@ -10672,7 +10745,8 @@
       ],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-16cdb9d2de9f736383dda397": {
       "sitting": "2024-Sep",
@@ -10782,7 +10856,8 @@
       "tables": [],
       "chapters": [
         "61"
-      ]
+      ],
+      "bankChapter": "61"
     },
     "mcq-3f018bbcbb31f1f29b15dfb4": {
       "sitting": "2024-Sep",
@@ -11082,7 +11157,9 @@
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction",
+      "bankChapter": "ima-harrison-22e-ch459"
     },
     "mcq-0102d7d6e5b1cbbe232c2184": {
       "sitting": "2024-Sep",
@@ -11108,7 +11185,9 @@
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "ima-harrison-21e-ch370",
+      "bankChapterTitle": "Harrison 21e ch. 370 - Approach to Articular and Musculoskeletal Disorders"
     },
     "mcq-084128e675755a60218e946b": {
       "sitting": "2024-Sep",
@@ -11240,7 +11319,8 @@
       "tables": [],
       "chapters": [
         "45"
-      ]
+      ],
+      "bankChapter": "45"
     },
     "mcq-2fdd846e83242323d98210d5": {
       "sitting": "2026-Jun",
@@ -11441,11 +11521,29 @@
       "source": "מראה מקום גריאטריה 2026.pdf",
       "reference": "Beers Criteria; Hazzard 8e · ch. 11 p. 169; ch. 22 p. 319",
       "questionRef": "Beers Criteria; Hazzard 8e · ch. 11 p. 169; ch. 22 p. 319",
-      "status": "unresolved",
-      "reason": "Official reference is not Hazzard 8e",
-      "pages": [],
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 169,
+          "chapter": "11",
+          "available": true,
+          "readerChapter": "11"
+        },
+        {
+          "page": 319,
+          "chapter": "23",
+          "available": true,
+          "readerChapter": "23"
+        }
+      ],
       "tables": [],
-      "chapters": []
+      "chapters": [
+        "11",
+        "22",
+        "23"
+      ],
+      "referenceNote": "The IMA bibliography names Beers Criteria and Hazzard Chapter 11 p169 and Chapter 22 p319. Printed p319 is in Chapter 23. Its page link opens that printed page."
     },
     "mcq-1524e05c07475dd26f840cbe": {
       "sitting": "2026-Jun",
@@ -11515,7 +11613,8 @@
       "tables": [],
       "chapters": [
         "65"
-      ]
+      ],
+      "bankChapter": "65"
     },
     "mcq-dfc6865b46f8f70ea32d00cb": {
       "sitting": "2026-Jun",
@@ -12067,12 +12166,17 @@
       "reason": "",
       "pages": [
         {
-          "page": 883,
+          "page": 880,
           "chapter": "58",
           "available": true
         },
         {
-          "page": 884,
+          "page": 881,
+          "chapter": "58",
+          "available": true
+        },
+        {
+          "page": 882,
           "chapter": "58",
           "available": true
         }
@@ -12081,7 +12185,8 @@
       "chapters": [
         "58"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 883-884."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 883-884.",
+      "bankChapter": "58"
     },
     "mcq-6885558109e8e77f5cee7a87": {
       "sitting": "2026-Jun",
@@ -12231,7 +12336,8 @@
       "tables": [],
       "chapters": [
         "108"
-      ]
+      ],
+      "bankChapter": "108"
     },
     "mcq-9cd512aa5d4da9861ca5104a": {
       "sitting": "2026-Jun",
@@ -12440,25 +12546,14 @@
           "chapter": "39",
           "available": true,
           "readerChapter": "39"
-        },
-        {
-          "page": 576,
-          "chapter": "39",
-          "available": true,
-          "readerChapter": "39"
-        },
-        {
-          "page": 577,
-          "chapter": "39",
-          "available": true,
-          "readerChapter": "39"
         }
       ],
       "tables": [],
       "chapters": [
         "39"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 575–577."
+      "referenceNote": "The IMA list prints p575. The explicit definition continues on p576.",
+      "bankChapter": "39"
     },
     "mcq-eccca84830066af8dba63fda": {
       "sitting": "2026-Jun",
@@ -12479,7 +12574,8 @@
       "tables": [],
       "chapters": [
         "58"
-      ]
+      ],
+      "bankChapter": "58"
     },
     "mcq-37b56e13ad45cb6e9d57eec9": {
       "sitting": "2026-Jun",
@@ -12832,7 +12928,8 @@
       "tables": [],
       "chapters": [
         "58"
-      ]
+      ],
+      "bankChapter": "58"
     },
     "mcq-c422e711b9b76e815a130a7a": {
       "sitting": "2026-Jun",
@@ -12913,7 +13010,8 @@
       "tables": [],
       "chapters": [
         "44"
-      ]
+      ],
+      "bankChapter": "44"
     },
     "mcq-50371b2acb85b22aca082547": {
       "sitting": "2026-Jun",
@@ -12962,7 +13060,8 @@
       "tables": [],
       "chapters": [
         "22"
-      ]
+      ],
+      "bankChapter": "22"
     },
     "mcq-c8b02247f79a908e51cd5f6b": {
       "sitting": "2026-Jun",
@@ -13182,7 +13281,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-dd8d86a52ab0a199b770a4f2": {
       "sitting": "2026-Jun",
@@ -13395,7 +13495,8 @@
       "tables": [],
       "chapters": [
         "101"
-      ]
+      ],
+      "bankChapter": "101"
     },
     "mcq-be42dc9ffed6104e5fdedf88": {
       "sitting": "2025-Jun",
@@ -13450,7 +13551,8 @@
       ],
       "chapters": [
         "73"
-      ]
+      ],
+      "bankChapter": "73"
     },
     "mcq-379839aaebec0e3a1494bbd7": {
       "sitting": "2025-Jun",
@@ -13511,7 +13613,8 @@
       ],
       "chapters": [
         "68"
-      ]
+      ],
+      "bankChapter": "68"
     },
     "mcq-68050a5cca6b5c86ca5a1754": {
       "sitting": "2025-Jun",
@@ -13582,7 +13685,8 @@
       ],
       "chapters": [
         "60"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-dbb934b7ace8c448489dcf01": {
       "sitting": "2025-Jun",
@@ -13641,7 +13745,8 @@
       ],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-7a90308e12b3ad9cc1b6f81a": {
       "sitting": "2025-Jun",
@@ -13659,16 +13764,17 @@
           "available": true
         },
         {
-          "page": 944,
-          "chapter": "61",
+          "page": 964,
+          "chapter": "62",
           "available": true
         }
       ],
       "tables": [],
       "chapters": [
-        "61"
+        "61",
+        "62"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 943-944."
+      "referenceNote": "IMA names Chapter 61 and pp. 943 and 964. Printed p. 964 is in Chapter 62. The drug comparison is on pp. 943-944."
     },
     "mcq-60d358f39722f9df5a3990cc": {
       "sitting": "2025-Jun",
@@ -13771,7 +13877,8 @@
       "tables": [],
       "chapters": [
         "9"
-      ]
+      ],
+      "bankChapter": "9"
     },
     "mcq-ebb48fc2c1941aee8ce92d21": {
       "sitting": "2025-Jun",
@@ -13818,7 +13925,8 @@
       "tables": [],
       "chapters": [
         "99"
-      ]
+      ],
+      "bankChapter": "99"
     },
     "mcq-e3d703443b76b9de6cb9b9b3": {
       "sitting": "2025-Jun",
@@ -13842,7 +13950,8 @@
       ],
       "chapters": [
         "39"
-      ]
+      ],
+      "bankChapter": "39"
     },
     "mcq-c35e64bb9f1ba0dc91fc878d": {
       "sitting": "2025-Jun",
@@ -13865,7 +13974,8 @@
       ],
       "chapters": [
         "87"
-      ]
+      ],
+      "bankChapter": "87"
     },
     "mcq-bda874582d05d3ff86418724": {
       "sitting": "2025-Jun",
@@ -14149,7 +14259,8 @@
       "tables": [],
       "chapters": [
         "57"
-      ]
+      ],
+      "bankChapter": "57"
     },
     "mcq-6b6488b782c2b2fe03cb2ac8": {
       "sitting": "2025-Jun",
@@ -14219,7 +14330,8 @@
       "tables": [],
       "chapters": [
         "44"
-      ]
+      ],
+      "bankChapter": "44"
     },
     "mcq-9314de1137fde9d2d0386670": {
       "sitting": "2025-Jun",
@@ -14325,7 +14437,9 @@
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies",
+      "bankChapter": "ima-harrison-22e-ch458"
     },
     "mcq-3929e741ee0d01c333a58865": {
       "sitting": "2025-Jun",
@@ -14446,7 +14560,8 @@
       "tables": [],
       "chapters": [
         "39"
-      ]
+      ],
+      "bankChapter": "39"
     },
     "mcq-c42934955cd7ee9c0f7b5a69": {
       "sitting": "2025-Jun",
@@ -14689,7 +14804,8 @@
       "chapters": [
         "60",
         "63"
-      ]
+      ],
+      "bankChapter": "60"
     },
     "mcq-8d11851067332e73d676c0a9": {
       "sitting": "2025-Jun",
@@ -14866,16 +14982,17 @@
       "reason": "",
       "pages": [
         {
-          "page": 947,
-          "chapter": "61",
+          "page": 870,
+          "chapter": "57",
           "available": true
         }
       ],
       "tables": [],
       "chapters": [
-        "61"
+        "57"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 947."
+      "referenceNote": "IMA cites Chapter 57 p. 870. Chapter 61 discusses cholinesterase inhibitors on pp. 947-948.",
+      "bankChapter": "57"
     },
     "mcq-30f0309dc8329f9569c19e59": {
       "sitting": "2025-Jun",
@@ -14946,7 +15063,8 @@
       "tables": [],
       "chapters": [
         "97"
-      ]
+      ],
+      "bankChapter": "97"
     },
     "mcq-80f153dd89506d38a83cdd6b": {
       "sitting": "2025-Jun",
@@ -14988,18 +15106,14 @@
           "page": 876,
           "chapter": "57",
           "available": true
-        },
-        {
-          "page": 877,
-          "chapter": "57",
-          "available": true
         }
       ],
       "tables": [],
       "chapters": [
         "57"
       ],
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 876–877."
+      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 876–877.",
+      "bankChapter": "57"
     },
     "mcq-4c3fda6b97055d09bfccf60c": {
       "sitting": "2025-Jun",
@@ -15217,7 +15331,8 @@
       ],
       "chapters": [
         "68"
-      ]
+      ],
+      "bankChapter": "68"
     },
     "mcq-1bbe7663ed422d20fc60e429": {
       "sitting": "2025-Jun",
@@ -15293,7 +15408,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-2d928ababba95770cc9cd5c7": {
       "sitting": "2025-Jun",
@@ -15584,7 +15700,8 @@
       "tables": [],
       "chapters": [
         "63"
-      ]
+      ],
+      "bankChapter": "63"
     },
     "mcq-57e9758f76f4b86d937420c0": {
       "sitting": "2025-Jun",
@@ -15663,7 +15780,9 @@
       "reason": "Official reference is not Hazzard 8e",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "ima-harrison-21e-ch425",
+      "bankChapterTitle": "Harrison 21e ch. 425 - Seizures and Epilepsy"
     },
     "mcq-95d11526a0e907c4a8a6c4ab": {
       "sitting": "2026-Jun-Basic",
@@ -16134,7 +16253,8 @@
       "tables": [],
       "chapters": [
         "61"
-      ]
+      ],
+      "referenceNote": "IMA names Chapter 59 and pp. 945-946. Those pages are in Chapter 61 and concern Parkinson therapy. The dementia drug and cardiac reasoning are given separately in the explanation."
     },
     "mcq-7400870fc10d03a49c2e9070": {
       "sitting": "2026-Jun-Basic",
@@ -20124,7 +20244,6 @@
         "mcq-de043ba5e122226b81f19afc",
         "mcq-4f1b671f9d13f1ba7f55b9b9",
         "mcq-7b2b812163373e9d00543031",
-        "mcq-1c4533a4cd0e8662d06d60b3",
         "mcq-6e959b7192d8e122edb0cdea",
         "mcq-d916d6ad3dc4260447e9cfc6",
         "mcq-84574748534649bfe7575675",
@@ -20133,14 +20252,15 @@
         "mcq-2c222ff05e233d6a6fe09f61",
         "mcq-8e48e83c0431ef1068a73da5",
         "mcq-2123175e42ed252688cfa361",
+        "mcq-d6cc2532e17ec18447c17651",
         "mcq-2a3ea14e94c9dbd28fcf1c08"
       ],
       "before": 0,
       "past": 13,
-      "resolved": 9,
+      "resolved": 10,
       "fallback": 0,
       "practice": 8,
-      "chapterLinked": 4
+      "chapterLinked": 3
     },
     "58": {
       "ids": [
@@ -20161,6 +20281,7 @@
         "mcq-2300745d4729a76c5c6eaf36",
         "mcq-44875ac01536e75940855557",
         "mcq-af7e2902ab0c68c1979a7e51",
+        "mcq-274382e2c38144a8f8c22a15",
         "mcq-f50f078f4e52cacdf4dd1730",
         "mcq-8c8695c6e0e9292f086c2501",
         "mcq-5f192d8d33ffd433758e1fc3",
@@ -20180,8 +20301,8 @@
         "mcq-72a9aa156cbc5b8eae1840a9"
       ],
       "before": 32,
-      "past": 34,
-      "resolved": 21,
+      "past": 35,
+      "resolved": 22,
       "fallback": 0,
       "practice": 90,
       "chapterLinked": 13
@@ -20201,7 +20322,9 @@
         "mcq-141fb224311d4c71ea10eacd",
         "mcq-a68f3e9d6b27e3350372761f",
         "mcq-08e57c41fba38974834cfcc7",
+        "mcq-98ec853f03c4ddcd93ba163a",
         "mcq-825df84a1ac736a4d39649d1",
+        "mcq-1c4533a4cd0e8662d06d60b3",
         "mcq-f1b068fb860ad775dde65af8",
         "mcq-910c7b9e34f0328d4580d477",
         "mcq-dcd1c4f9584716e2e478c212",
@@ -20230,14 +20353,15 @@
         "mcq-969d468917902ea022b54f50",
         "mcq-f236daa600ddb2c31e2d699f",
         "mcq-be30faa89f4f223edef3ac59",
-        "mcq-4bec111cf773419535c13cb7"
+        "mcq-4bec111cf773419535c13cb7",
+        "mcq-987cf6b109f3fe9f8d976b83"
       ],
       "before": 67,
-      "past": 43,
-      "resolved": 12,
+      "past": 46,
+      "resolved": 13,
       "fallback": 18,
       "practice": 30,
-      "chapterLinked": 13
+      "chapterLinked": 15
     },
     "60": {
       "ids": [
@@ -20248,7 +20372,6 @@
         "mcq-e912594a9fb26110b2414061",
         "mcq-45b29368078d5d087a1a0b91",
         "mcq-c6a327d1e984cf14664a4c22",
-        "mcq-274382e2c38144a8f8c22a15",
         "mcq-18490c5933b53a866c445587",
         "mcq-57825e4b2e4819d0b41d9393",
         "mcq-4ea0e38022bf9d5645f8e014",
@@ -20263,8 +20386,8 @@
         "mcq-b6e0367710cf1836980a73db"
       ],
       "before": 5,
-      "past": 20,
-      "resolved": 14,
+      "past": 19,
+      "resolved": 13,
       "fallback": 1,
       "practice": 22,
       "chapterLinked": 5
@@ -20279,7 +20402,6 @@
         "mcq-229f23d07885f884509c55bc",
         "mcq-3ed537d091c4ac13b638e895",
         "mcq-13fabc9f0d6f8fd34d20852e",
-        "mcq-274382e2c38144a8f8c22a15",
         "mcq-66ccc4806be30db38956eb5f",
         "mcq-a107f1d68006598cfe6fe356",
         "mcq-991b3e62e78d2629cd03bad6",
@@ -20297,13 +20419,12 @@
         "mcq-704a1bc1d1352115cfd1c494",
         "mcq-7a90308e12b3ad9cc1b6f81a",
         "mcq-592ed9671a2804086a3079b9",
-        "mcq-d6cc2532e17ec18447c17651",
         "mcq-7c399ddd1ed048f9ccb52dbf",
         "mcq-987cf6b109f3fe9f8d976b83"
       ],
       "before": 46,
-      "past": 29,
-      "resolved": 22,
+      "past": 27,
+      "resolved": 20,
       "fallback": 4,
       "practice": 56,
       "chapterLinked": 3
@@ -20506,6 +20627,7 @@
         "mcq-9534df35cf56acbc6bcb3f35",
         "mcq-7e475d72d1c6b9b8c726614b",
         "mcq-b53c26359f2994f24955cccd",
+        "mcq-5687d58f50abb0a5affaee3d",
         "mcq-7f71419177e54d446b41de5d",
         "mcq-eb4176cd70d5d177aafe8cc6",
         "mcq-39fad91c5b4510f05efdb072",
@@ -20517,8 +20639,8 @@
         "mcq-28b6d2af7cf87462379ebe90"
       ],
       "before": 20,
-      "past": 13,
-      "resolved": 7,
+      "past": 14,
+      "resolved": 8,
       "fallback": 4,
       "practice": 15,
       "chapterLinked": 2
@@ -20566,6 +20688,7 @@
     "97": {
       "ids": [
         "mcq-f37f1403dad31e7fe082843a",
+        "mcq-0f379d4cc1e8545a79a292fb",
         "mcq-bbadbe9e5282d5e1d70af0eb",
         "mcq-76624b03e2c62f9093ab0142",
         "mcq-d0fbd7b7469793665d39657d",
@@ -20580,11 +20703,11 @@
         "mcq-dda6ac411f9ab187b0ed6d34"
       ],
       "before": 0,
-      "past": 13,
+      "past": 14,
       "resolved": 9,
       "fallback": 3,
       "practice": 8,
-      "chapterLinked": 1
+      "chapterLinked": 2
     },
     "98": {
       "ids": [
@@ -20958,18 +21081,17 @@
     },
     "9": {
       "ids": [
-        "mcq-98ec853f03c4ddcd93ba163a",
         "mcq-6885558109e8e77f5cee7a87",
         "mcq-c9d51b9f2f9b51f0a157938b",
         "mcq-b636980ea067e5dc8b2d57c5"
       ],
       "before": 0,
-      "past": 4,
+      "past": 3,
       "resolved": 3,
       "fallback": 0,
       "practice": 0,
       "studyOnly": true,
-      "chapterLinked": 1
+      "chapterLinked": 0
     },
     "96": {
       "ids": [
@@ -21001,19 +21123,18 @@
     },
     "39": {
       "ids": [
-        "mcq-0f379d4cc1e8545a79a292fb",
         "mcq-a607490c61c3576b8a25b473",
         "mcq-4c7f1796411e5742b15b4aea",
         "mcq-e3d703443b76b9de6cb9b9b3",
         "mcq-28f16301f638acf0121222dd"
       ],
       "before": 0,
-      "past": 5,
+      "past": 4,
       "resolved": 3,
       "fallback": 0,
       "practice": 1,
       "studyOnly": true,
-      "chapterLinked": 2
+      "chapterLinked": 1
     },
     "74": {
       "ids": [
@@ -21050,11 +21171,12 @@
         "mcq-9ede49a4be37835024268ced",
         "mcq-95f642a729895dc17239d748",
         "mcq-6e143cb30a2a136307230c2d",
+        "mcq-a542a3a627e208dabd1e6265",
         "mcq-6394b74a1a69f2de3bcda7b2"
       ],
       "before": 0,
-      "past": 6,
-      "resolved": 3,
+      "past": 7,
+      "resolved": 4,
       "fallback": 0,
       "practice": 0,
       "studyOnly": true,
@@ -21119,14 +21241,13 @@
       "ids": [
         "mcq-91b98ca785a73e91ef64d8b4",
         "mcq-72e3ae0b41e7da23ee8ad9df",
-        "mcq-5687d58f50abb0a5affaee3d",
         "mcq-122d9fc74517c768b3d882c2",
         "mcq-e2505429368dfde81cea15ac",
         "mcq-b51ad3fe1826ffb8741047b1"
       ],
       "before": 0,
-      "past": 6,
-      "resolved": 4,
+      "past": 5,
+      "resolved": 3,
       "fallback": 0,
       "practice": 0,
       "studyOnly": true,
@@ -21149,11 +21270,12 @@
     "11": {
       "ids": [
         "mcq-6a3a4989b7a53b19593f44a7",
-        "mcq-e8ffe5e4732e7d63293662ad"
+        "mcq-e8ffe5e4732e7d63293662ad",
+        "mcq-a542a3a627e208dabd1e6265"
       ],
       "before": 0,
-      "past": 2,
-      "resolved": 2,
+      "past": 3,
+      "resolved": 3,
       "fallback": 0,
       "practice": 0,
       "studyOnly": true,
@@ -21263,11 +21385,12 @@
         "mcq-fd265aa00a76f0d393b73d2a",
         "mcq-0ed5d2ae800de06734a63b64",
         "mcq-e6b1e9f6cadbead54a532673",
-        "mcq-452a5972839367e2dbab3541"
+        "mcq-452a5972839367e2dbab3541",
+        "mcq-7a90308e12b3ad9cc1b6f81a"
       ],
       "before": 0,
-      "past": 4,
-      "resolved": 1,
+      "past": 5,
+      "resolved": 2,
       "fallback": 0,
       "practice": 0,
       "studyOnly": true,
@@ -21411,10 +21534,12 @@
       "chapterLinked": 0
     },
     "23": {
-      "ids": [],
+      "ids": [
+        "mcq-a542a3a627e208dabd1e6265"
+      ],
       "before": 0,
-      "past": 0,
-      "resolved": 0,
+      "past": 1,
+      "resolved": 1,
       "fallback": 0,
       "practice": 0,
       "chapterLinked": 0
@@ -21476,13 +21601,15 @@
       "chapterLinked": 1
     },
     "35": {
-      "ids": [],
+      "ids": [
+        "mcq-73968351b84a111fae178765"
+      ],
       "before": 0,
-      "past": 0,
+      "past": 1,
       "resolved": 0,
       "fallback": 0,
       "practice": 0,
-      "chapterLinked": 0
+      "chapterLinked": 1
     },
     "37": {
       "ids": [],

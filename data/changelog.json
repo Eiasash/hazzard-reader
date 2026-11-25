@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v305",
+      "date": "2026-11-25",
+      "changes": [
+        "Dementia, Parkinson disease, prescribing and the biology of aging rebuilt: exam labels, fuller notes led by what the exams asked, and rewritten explanations. Chapters now sort by Last used. These four chapters and Rehabilitation have compact Asked links, section practice with answered and missed counts, and missed markers in Read. The Chapters list no longer underlines exam counts. The four rebuilt chapters include sourced Israeli context."
+      ]
+    },
+    {
       "version": "v304",
       "date": "2026-11-25",
       "changes": [
