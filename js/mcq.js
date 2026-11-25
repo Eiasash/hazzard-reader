@@ -371,7 +371,7 @@ window.HazzardMCQ = (() => {
   function explanationHTML(q,order=optionOrder(q)){
     const box=document.createElement('div');
     const lines=orderedExplanation(q,order,true),acceptedOptions=q.accepted||[q.c];
-    const prose=text=>rich(text.replace(/(?<!\n)\n(?=["\u201c\u201e\u05f4'])/gu,'\n\n'));
+    const prose=text=>rich(text.replace(/(?<!\n)\n(?=["\u201c\u201e\u05f4']|Key note: )/gu,'\n\n'));
     let pending=[];
     const flush=()=>{if(pending.length){box.insertAdjacentHTML('beforeend',prose(pending.join('\n')));pending=[];}};
     for(const {line,label} of lines){
