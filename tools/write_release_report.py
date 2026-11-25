@@ -42,6 +42,8 @@ def main():
         parser.error('--hold must include a reason')
     first = status_line(args.repo, args.branch, args.tested_head, args.hold)
     body = args.body.read_text(encoding='utf-8').lstrip()
+    if re.match(r'^(?:READY|HOLD)(?:[ \t]|\n|$)', body):
+        body = body.partition('\n')[2].lstrip('\n')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', newline='\n', dir=args.output.parent, delete=False) as tmp:
         tmp.write(first + '\n\n' + body.rstrip() + '\n')
