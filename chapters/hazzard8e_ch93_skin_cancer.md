@@ -56,7 +56,7 @@ Adverse effects of UV radiation can be prevented via photoprotective behaviors i
 
 ## NONMELANOMA SKIN CANCER (KERATINOCYTE CARCINOMA)
 
-## Actinic Keratoses
+### Actinic Keratoses
 
 Definition Actinic keratoses (AK) are precancerous lesions classically found in sun-exposed areas of the body. AKs develop when exposure to chronic UV radiation leads to dysplasia of keratinocytes in the epidermis.
 
@@ -78,7 +78,7 @@ Differential diagnosis Several lesions may present similarly to an AK. Of these,
 
 Course and complications While most AKs remain stable or undergo spontaneous remission, a small percentage of them develop into cutaneous SCCs. This change, if it does occur, happens over the course of several years in immunocompetent individuals. The cumulative risk for malignant change depends on the number of lesions and their chronicity.
 
-## Basal Cell Carcinoma
+### Basal Cell Carcinoma
 
 Definition BCC is the most common type of skin cancer. It originates from tumor progenitor cells that are typically within the basal layer of the epidermis, or less commonly,
 
@@ -116,7 +116,7 @@ Course and complications BCCs typically grow indolently for years but are capabl
 
 Metastasis is rare, however does occur, particularly if the lesion is larger than 2 cm in diameter, on the head and neck, and invades beyond fat. The estimated incidence of BCC metastasis ranges from 0.0028% to 0.55%. Recurrence is more likely than metastasis, even though the risk of recurrence is small after any standard treatment. Since BCCs grow slowly, recurrence is more likely several years after treatment of the initial tumor, with studies finding that 56% of recurrences occurred 5 years or more after the primary tumor was definitively treated. The risk of a new primary skin cancer is higher than either metastasis or recurrence, for example, for men with SCC, 28% will develop a BCC. Regular follow-up should therefore be provided to these patients, generally in the form of a skin check once a year.
 
-## Squamous Cell Carcinoma
+### Squamous Cell Carcinoma
 
 Definition SCC is the second most common type of skin cancer. The majority of cutaneous SCCs develop from AKs; yet, while AKs are considered to be precancerous lesions, not every AK develops into an SCC. Most SCCs are low-risk lesions that have high cure rates following treatment. It should be noted, however, that SCCs do have the potential to metastasize.
 
@@ -412,11 +412,11 @@ can be reasonably considered in patients who are near the end of life, particula
 
 National Comprehensive Cancer Network. Basal Cell
 
-Skin Cancer (Version 1.2020). 2019; https://www.nccn .org/professionals/physician_gls/pdf/nmsc.pdf. Accessed November 23, 2020. National Comprehensive Cancer Network. Cutaneous
+Skin Cancer (Version 1.2020). 2019; [https://www.nccn](<https://www.nccn.org/professionals/physician_gls/pdf/nmsc.pdf>) .org/professionals/physician_gls/pdf/nmsc.pdf. Accessed November 23, 2020. National Comprehensive Cancer Network. Cutaneous
 
-Melanoma (Version 4.2020). 2020; https://www.nccn .org/professionals/physician_gls/pdf/cutaneous _melanoma.pdf. Accessed November 23, 2020. National Comprehensive Cancer Network. Squamous
+Melanoma (Version 4.2020). 2020; [https://www.nccn](<https://www.nccn.org/professionals/physician_gls/pdf/cutaneous_melanoma.pdf>) .org/professionals/physician_gls/pdf/cutaneous _melanoma.pdf. Accessed November 23, 2020. National Comprehensive Cancer Network. Squamous
 
-Cell Skin Cancer (Version 2.2020). 2020; https://www .nccn.org/professionals/physician_gls/pdf/squamous .pdf. Accessed November 24, 2020. Regula CG, Alam M, Behshad R, et al. Functionality of
+Cell Skin Cancer (Version 2.2020). 2020; [https://www](<https://www.nccn.org/professionals/physician_gls/pdf/squamous.pdf>) .nccn.org/professionals/physician_gls/pdf/squamous .pdf. Accessed November 24, 2020. Regula CG, Alam M, Behshad R, et al. Functionality of
 
 patients 75 years and older undergoing Mohs micrographic surgery: a multicenter study. Dermatol Surg. 2017;43(7):904–910. Siegel JA, Korgavkar K, Weinstock MA. Current per-
 

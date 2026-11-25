@@ -256,7 +256,7 @@ Cancer is the leading cause of death in men and women aged 60 to 79 years. The b
 
 - Hurria A, Togawa K, Mohile SG, et al. Predicting chemotherapy toxicity in older adults with cancer: a prospective multicenter study. _J Clin Oncol_ . 2011;29:3457–3465.
 
-- Institute of Medicine. Delivering high quality cancer care. Charting a new course for a system in crisis. Institute of Medicine (IOM) 2013 Report. https://www.nap.edu/ read/18359/chapter/1. Accessed January 14, 2022.
+- Institute of Medicine. Delivering high quality cancer care. Charting a new course for a system in crisis. Institute of Medicine (IOM) 2013 Report. [https://www.nap.edu/](<https://doi.org/10.17226/18359>) read/18359/chapter/1. Accessed January 14, 2022.
 
 - Kadambi S, Loh KP, Dunne R, et al. Older adults with cancer and their caregivers – current landscape and future directions for clinical care. _Nat Rev._ 2020;17(12):742–755.
 
@@ -270,7 +270,7 @@ receiving chemotherapy: ASCO Guideline for Geriatric Oncology. _J Clin Oncol._ 2
 
 - Muhandiramge J, Orchard S, Haydon A, et al. The acceleration of ageing in older patients with cancer. _J Geriatr Oncol_ . 2021;12(3):343–351.
 
-- National Comprehensive Cancer Network (NCCN) guidelines for Senior Adult Oncology version 1.2020. http://www .nccn.org/professionals/physician_gls/f_guidelines.asp#age.
+- National Comprehensive Cancer Network (NCCN) guidelines for Senior Adult Oncology version 1.2020. [http://www](<https://www.nccn.org/professionals/physician_gls/pdf/senior.pdf> "NCCN Older Adult Oncology guidelines. Previous editions may require sign-in.") .nccn.org/professionals/physician_gls/f_guidelines.asp#age.
 
 - Peterson LL, Hurria A, Feng T, et al. Association between renal function and chemotherapy-related toxicity in older adults with cancer. _J Geriatr Oncol_ . 2017;8(2):96–101.
 

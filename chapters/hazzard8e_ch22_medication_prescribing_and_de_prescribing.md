@@ -350,7 +350,7 @@ Optimizing use of drug therapy is a critical priority for older adults and invol
 
 Duerden M, Avery T, Payne R. Polypharmacy and medicines
 
-optimisation—Making it safe and sound. The King’s Fund. 2013. https://www.kingsfund.org.uk/sites/files/kf/field/ field_publication_file/polypharmacy-and-medicinesoptimisation-kingsfund-nov13.pdf. Gurwitz JH, Field TS, Judge J, et al. The incidence of adverse
+optimisation—Making it safe and sound. The King’s Fund. 2013. [https://www.kingsfund.org.uk/sites/files/kf/field/](<https://www.kingsfund.org.uk/insight-and-analysis/reports/polypharmacy-and-medicines-optimisation>) field_publication_file/polypharmacy-and-medicinesoptimisation-kingsfund-nov13.pdf. Gurwitz JH, Field TS, Judge J, et al. The incidence of adverse
 
 drug events in two large academic long-term care facilities. Am J Med. 2005;118(3):251–258. Holmes HM, Hayley DC, Alexander GC, Sachs GA. Recon-
 

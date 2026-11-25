@@ -279,9 +279,14 @@
       "gist": "Advanced heart failure and LVAD"
     },
     "mcq-0f379d4cc1e8545a79a292fb": {
-      "chapter": "39",
-      "method": "topic-8e",
-      "gist": "Aging and fluid homeostasis"
+      "chapter": "97",
+      "method": "title-8e",
+      "gist": "Aging and fluid homeostasis",
+      "chapter7": 108,
+      "title7": "Aging of the Endocrine System and Selected Endocrine Disorders",
+      "tables": [
+        "108-7"
+      ]
     },
     "mcq-7b2b812163373e9d00543031": {
       "chapter": "57",
@@ -515,10 +520,9 @@
       "title7": "Frailty"
     },
     "mcq-73968351b84a111fae178765": {
-      "chapter": null,
+      "chapter": "35",
       "method": "topic-8e",
-      "gist": "Menopause and skin collagen",
-      "hold": "Menopause/skin-aging topic has no clear available successor chapter"
+      "gist": "Menopause and skin collagen"
     },
     "mcq-9263ca029323c02206b33370": {
       "chapter": "44",
@@ -660,7 +664,7 @@
       "gist": "Thyroid nodule biopsy"
     },
     "mcq-98ec853f03c4ddcd93ba163a": {
-      "chapter": "9",
+      "chapter": "59",
       "method": "topic-8e",
       "gist": "Cognitive screening"
     },
@@ -860,7 +864,7 @@
       "title7": "Valvular Heart Disease"
     },
     "mcq-1c4533a4cd0e8662d06d60b3": {
-      "chapter": "57",
+      "chapter": "59",
       "method": "topic-8e",
       "gist": "MCI progression"
     },

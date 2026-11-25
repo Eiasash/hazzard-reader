@@ -33,6 +33,7 @@ body:has(#readerUpdateButton:not([hidden])){--update-gap:60px}
 body:has(#readerUpdateButton:not([hidden])) #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--update-gap))}
 body.mark-bar-open:has(#readerUpdateButton:not([hidden])) #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--update-gap) + 49px)}
 body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--update-gap))}
+body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(--update-gap))}
 #panel[open]{translate:0 calc(-1 * var(--update-gap,0px))}
 /* One handle for every pane; title/debug taps and Back retain their handlers. */
 #panel[open] .dialog-head{display:grid;grid-template-columns:minmax(0,1fr) 44px minmax(0,1fr);align-items:center;gap:0;flex:none;height:auto;min-height:44px}

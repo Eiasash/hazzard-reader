@@ -39,7 +39,7 @@ The characteristic lesions are misfolded alpha-synuclein in Lewy bodies and loss
 
 **Risk association is not causation.** The September 2024 alternatives contrasted suggested higher risk with manganese exposure against inverse associations with smoking and caffeinated coffee. PD is more common in men. The official locator is p936; the environmental discussion continues on p937. Hazzard does not present the inverse associations as preventive treatments (p936-937).
 
-PSP, MSA and CBS together have a prevalence roughly 5% to 10% of PD prevalence, and DLB is more common than those other atypical syndromes. This comparison does not establish the fraction of all parkinsonism that is atypical. September 2024 also asked about contact sports. The cited p938 and p941 discuss the syndromes; Chapter 63 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).
+PSP, MSA and CBS together have a prevalence roughly 5% to 10% of PD prevalence, and DLB is more common than those other atypical syndromes. This comparison does not establish the fraction of all parkinsonism that is atypical. September 2024 also asked about contact sports. The cited p938 and p941 discuss the syndromes; Chapter 64 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).
 
 ## When to alter dopaminergic treatment
 
@@ -91,9 +91,9 @@ The June 2026 Basic item asked about a dementia medicine in a patient with presy
 
 <p><strong>מה לתעד כאשר התפקוד משתנה לאורך היום.</strong> אם המטופל הולך בכוחות עצמו לאחר נטילת לבודופה אך זקוק לליווי או לעזרה פיזית לפני המנה הבאה, חשוב לתאר באילו שעות ובאילו פעולות נדרשת העזרה. זו דרך ליישם את הערכת התפקוד במחלה עם תנודות מוטוריות. הביטוח הלאומי מבקש מסמכים רפואיים ותפקודיים עדכניים, ובכללם מידע על הטיפול התרופתי. המעריך רשאי להשלים פרטים בטלפון או בביקור בית. בבדיקה ביתית של אדם עם ירידה קוגניטיבית נדרשת נוכחות בן משפחה או אפוטרופוס. <a href="https://www.btl.gov.il/benefits/Long_Term_Care/Pages/adltest.aspx">הביטוח הלאומי, בדיקת יכולת תפקוד, מסלול המעריך המוסמך</a>. מנגנון התנודות מתואר בפרק זה בעמ׳ 944–945.</p>
 
-<p><strong>הערכה שיקומית לאחר אשפוז.</strong> אם אדם עם פרקינסון הלך לפני מחלה חריפה וכעת זקוק לעזרה בקימה ובהעברות, יש להשוות את תפקודו הנוכחי לתפקוד שקדם לאירוע. מגבלה קודמת מאפשרת שיקום אם הרופא מעריך שאפשר לשוב לתפקוד הקודם או להשיג שיפור משמעותי. בירידה קוגניטיבית בודקים אם שיתוף הפעולה מאפשר טיפול. מומחה בגריאטריה או בשיקום קובע את ההמלצה ואת היעדים בהתייעצות רב־מקצועית. <a href="https://www.gov.il/he/departments/policies/mr04-2009">משרד הבריאות, חוזר מינהל רפואה 4/2009, סעיפים 5.1.4, 5.2 ו־6.1–6.4</a>.</p>
+<p><strong>הערכה שיקומית לאחר אשפוז.</strong> אם אדם עם פרקינסון הלך לפני מחלה חריפה וכעת זקוק לעזרה בקימה ובהעברות, יש להשוות את תפקודו הנוכחי לתפקוד שקדם לאירוע. מגבלה קודמת מאפשרת שיקום אם הרופא מעריך שאפשר לשוב לתפקוד הקודם או להשיג שיפור משמעותי. בירידה קוגניטיבית בודקים אם שיתוף הפעולה מאפשר טיפול. מומחה בגריאטריה או בשיקום קובע את ההמלצה ואת היעדים בהתייעצות רב־מקצועית. <a href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf">משרד הבריאות, חוזר מינהל רפואה 4/2009, סעיפים 5.1.4, 5.2 ו־6.1–6.4</a>.</p>
 
-<p><strong>בחירת מסגרת השיקום.</strong> קופת החולים אחראית לשיקום. לפי הצורך והתנאים בבית ניתן לשקול שיקום בבית, במכון, בשיקום יום או באשפוז. אצל מטופל שנמצא מתאים לשיקום, צורך בהשגחה רפואית וסיעודית ממושכת או היעדר אפשרות לטיפול מתאים בבית ובקהילה הם התוויות לשיקום באשפוז. לאחר אשפוז בבית חולים ההמלצה צריכה להופיע במכתב השחרור. <a href="https://www.gov.il/he/departments/policies/mr04-2009">חוזר 4/2009, סעיפים 4.1, 7 ו־10.1</a>. <a href="https://me.health.gov.il/older-adult/keep-me-healthy/rehabilitation/geriatric-rehabilitation/">משרד הבריאות, שיקום גריאטרי, ״ייעוץ רפואי גריאטרי לפני השיקום״ ו״תהליך השיקום הגריאטרי״</a>.</p>
+<p><strong>בחירת מסגרת השיקום.</strong> קופת החולים אחראית לשיקום. לפי הצורך והתנאים בבית ניתן לשקול שיקום בבית, במכון, בשיקום יום או באשפוז. אצל מטופל שנמצא מתאים לשיקום, צורך בהשגחה רפואית וסיעודית ממושכת או היעדר אפשרות לטיפול מתאים בבית ובקהילה הם התוויות לשיקום באשפוז. לאחר אשפוז בבית חולים ההמלצה צריכה להופיע במכתב השחרור. <a href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf">חוזר 4/2009, סעיפים 4.1, 7 ו־10.1</a>. <a href="https://me.health.gov.il/older-adult/keep-me-healthy/rehabilitation/geriatric-rehabilitation/">משרד הבריאות, שיקום גריאטרי, ״ייעוץ רפואי גריאטרי לפני השיקום״ ו״תהליך השיקום הגריאטרי״</a>.</p>
 
 </div>
 
@@ -112,7 +112,7 @@ The June 2026 Basic item asked about a dementia medicine in a patient with presy
 - Normal aging: lose **0.5% to 1%** of nigrostriatal nerve terminals per year after the 3rd decade. By PD motor-symptom onset, **60% to 80%** of posterior-putamen dopaminergic terminals are already lost (p938).
 - Direct pathway (D1, excitatory, pro-movement) vs indirect pathway (D2, inhibitory, anti-movement); dopamine loss shifts balance toward the indirect pathway → net hypokinesia (p938).
 - Braak staging (6 stages total): stages 1–2 = premotor (olfactory, sleep, autonomic); **stage 3** = nigral involvement = onset of motor symptoms; stages 5–6 = cortical Lewy bodies = cognitive decline (p939).
-- PDD vs DLB "1-year rule": motor symptoms precede cognitive symptoms by **>1 year** in PDD; motor and cognitive symptoms arise within the same year in DLB (p939).
+- **PDD:** dementia begins more than one year after established motor parkinsonism. **DLB:** dementia begins before parkinsonism, together with it, or within one year after motor onset (p939, DLB Consortium 2017).
 
 **Diagnosis & distinguishing PD from atypical parkinsonism**
 - Levodopa responds best for bradykinesia + rigidity; axial features (hypophonia, dysphagia, postural instability) are often medication-refractory (p939). ⟨2026 exam Q15⟩
@@ -131,24 +131,24 @@ The June 2026 Basic item asked about a dementia medicine in a patient with presy
 - Ergot agonists (pergolide, bromocriptine, cabergoline) — fibrosis risk (cardiac valvulopathy, retroperitoneal/pleuropulmonary/pericardial); **pergolide withdrawn from the US market** (p944).
 - Rotigotine (transdermal patch) — for swallowing difficulty / nocturnal akinesia (p944).
 - Apomorphine (subcut) / sublingual film (Kynmobi) — may be the most powerful agonist; used for rapid "off" rescue; intense nausea (p944).
-- Amantadine — usually **100 mg BID** for PD symptoms, usually **300–400 mg/day** for antidyskinetic effect; confusion, hallucinations, livedo reticularis; often poorly tolerated in older adults (p944). Only established effective antidyskinetic agent (antiglutamatergic).
+- **Amantadine, immediate release.** The chapter describes 100 mg twice daily for motor symptoms and higher doses for dyskinesia (p944). In older adults, reduced renal clearance may cause accumulation. Use renal-function-adjusted dosing and monitor confusion, hallucinations, edema and livedo reticularis. The chapter's 300–400 mg/day range is not a routine geriatric starting dose (US prescribing information).
 - Table 61-5 also lists domperidone (peripheral dopamine-receptor blocker for GI upset from levodopa/agonists; **not available in the US**) and MAO-B inhibitors (selegiline, rasagiline, safinamide) — mild symptomatic benefit, no proven neuroprotective benefit (p944).
 - Opicapone (COMT-I) — once-daily dosing; istradefylline (A2A antagonist) — once-daily, reduces off-time with carbidopa/levodopa in patients with motor fluctuations (p945).
 - Wearing-off = adequate levodopa dose fails to last **≥6 hours** (p944); more frequent levodopa dosing may be the simplest approach; MAO-B inhibitors help mild wearing-off slightly, and COMT inhibitors are useful (p945). ⟨2026 exam Q83⟩
 
 **Management — dyskinesias & nonmotor complications**
-- Peak-dose dyskinesia: reduce levodopa dose, or add amantadine (start **100 mg BID**, up to **200 mg BID**); buspirone up to **20 mg/day** may benefit some patients (p946).
+- For peak-dose dyskinesia, consider smaller levodopa doses or amantadine when appropriate. The chapter describes **100–200 mg twice daily** in selected patients (p946). For immediate-release amantadine, tailor initiation and escalation to renal function, age and neuropsychiatric tolerability. The text also describes buspirone up to 20 mg/day in selected patients.
 - Diphasic dyskinesias (Table 61-6, p945; p946) — occur at the start/end of dose (not peak), mixed chorea/dystonia, mainly affect the legs; distinct from peak-dose dyskinesia above.
 - Drug-induced hallucinations: reduce dopaminergic burden first; then quetiapine (start **25 mg qhs**) or pimavanserin (**17 mg 1–2×/day**, reduce with CYP3A4 inhibitors) (p946). ⟨2026 exam Q75⟩
   > Current practice (not the book): pimavanserin 34 mg PO once daily, no titration; 10 mg once daily with strong CYP3A4 inhibitors — FDA Nuplazid label, 2026.
-- Clozapine more effective but agranulocytosis in **1% to 2%** → weekly CBC; try quetiapine/pimavanserin first (p946–947).
+- For persistent PD psychosis the chapter considers clozapine after quetiapine or pimavanserin, citing agranulocytosis in **1–2%** (p946–947). Follow the absolute neutrophil count: with stable counts, weekly during the first 6 months, every 2 weeks during months 7–12, then monthly (US clozapine labeling).
 - Severe psychosis needing drug withdrawal: taper anti-PD meds stepwise over **3 days** — abrupt levodopa withdrawal risks a neuroleptic-malignant-like syndrome (p946).
 - RBD: clonazepam **0.5–2 mg** at bedtime; melatonin as a less-effective first try (p947).
 - Antimuscarinics (trihexyphenidyl, benztropine) — **avoid in patients >70 years**: cognitive impairment, hallucinations, and linked to freezing of gait (p947).
 
 **Surgical therapy**
 - DBS (STN or GPi target) — FDA-approved **2002**; for motor fluctuations/dyskinesias or medication-refractory tremor; does **not** improve postural instability or other axial features (p949); Current practice (not the book): NICE recommends subcutaneous foslevodopa/foscarbidopa infusion as an option for adults with advanced levodopa-responsive Parkinson disease, severe motor fluctuations and hyperkinesia or dyskinesia despite available medicines, only when apomorphine or DBS cannot be used or no longer controls symptoms and the commercial arrangement applies; FDA approved it on 16 October 2024 for motor fluctuations in adults with advanced Parkinson disease - NICE TA934 2023, 1.1 p4; FDA NDA216962 approval package cover and approval letter p1
-- Focused ultrasound (FUS) — FDA-approved **2018** for tremor; ablative/non-programmable, no anesthesia needed (p949).
+- Focused ultrasound creates an irreversible, nonprogrammable lesion. The 2018 US indication was unilateral thalamotomy for medication-refractory tremor-dominant PD. Patients are generally awake, and local anesthetic can be used to secure the stereotactic frame (p949).
 
 **Exam traps / book against itself** (flagged in the source chapter)
 - Table 61-7 lists antimuscarinics for tremor with no caveat, but the text on p947 says avoid them in patients over 70 (p946–947).
@@ -177,7 +177,7 @@ Over 90% sporadic; 20 PARK loci (p937).
 
 <details><summary>Answer</summary>
 
-In PDD motor symptoms precede cognitive symptoms by more than 1 year; in DLB, motor and cognitive symptoms arise within the same year (p939).
+In PDD, established motor parkinsonism begins more than one year before dementia. Dementia before, together with, or within one year after parkinsonism fits the DLB timing convention (p939, DLB Consortium 2017).
 
 </details>
 

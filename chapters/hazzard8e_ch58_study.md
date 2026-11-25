@@ -93,8 +93,6 @@ Discuss how much alertness and contact with family the patient wants to preserve
 
 Recovery planning matters in postacute care. In one cohort, 16% of admissions met full CAM criteria and another 50% had subsyndromal features. Among those admitted delirious, more than half were still delirious a month later. Persistent delirium tracked with incomplete functional recovery, readmission and mortality. Record baseline function, residual attention deficits and who can report change after discharge. Older people with COVID-19 may present with delirium even without the usual respiratory symptoms. Isolation and barriers to communication can compound immobility and disorientation (p889–890).
 
-<a id="israeli-context"></a>
-
 ## Israeli context — דליריום באשפוז ובקהילה
 
 <p dir="rtl"><strong>מה השתנה מאז אתמול?</strong> כדאי לבקש מהמשפחה דוגמאות לשינוי בקשב ובערנות, ולברר עם צוות הלילה אם הופיעו אי־שקט או ישנוניות. משרד הבריאות מתאר הערכה ליד המיטה בשיטת CAM ובירור של חמצון, כאב, עצירות ואצירת שתן לצד מדדים חיוניים. אחרי ניתוח גם בוקר צלול יכול לבוא לאחר לילה של בלבול. אם הבלבול נמשך אחרי השחרור, נדרש מעקב רפואי בקהילה. משרד הבריאות, ״דליריום ובלבול חריף בגיל השלישי״, 9.10.2024, סעיפים ״איך מאבחנים דליריום״, ״בדיקות שצריך לערוך לאחר אבחון דליריום״ ו״הטיפול בדליריום״.</p>

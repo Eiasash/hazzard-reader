@@ -90,7 +90,7 @@ A quarter of older adults did not try to take less pain medication and half did 
 
 ![Figure 21-1](hazzard8e_ch21_figure-21-1_p289.webp)
 
-*FIGURE 21-1. Opioids. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www.healthyagingpoll .org/reports-more/report/older-adults-experiences-opioid-prescriptions.)*
+*FIGURE 21-1. Opioids. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/older-adults-experiences-opioid-prescriptions>) .org/reports-more/report/older-adults-experiences-opioid-prescriptions.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -98,7 +98,7 @@ A quarter of older adults did not try to take less pain medication and half did 
 
 ![Figure 21-2](hazzard8e_ch21_figure-21-2_p290.webp)
 
-*FIGURE 21-2. Marijuana. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www.healthyagingpoll .org/reports-more/report/older-adults-perspective-medical-marijuana.)*
+*FIGURE 21-2. Marijuana. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/older-adults-perspective-medical-marijuana>) .org/reports-more/report/older-adults-perspective-medical-marijuana.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -132,7 +132,7 @@ Although urinary incontinence is common among older women, embarrassment about u
 
 ![Figure 21-3](hazzard8e_ch21_figure-21-3_p291.webp)
 
-*FIGURE 21-3. Sexual health. (Courtesy from National Poll on Healthy Aging. University of Michigan https://deepblue.lib.umich .edu/bitstream/handle/2027.42/143212/NPHA-Sexual-Health-Report_050118_final.pdf?sequence=1&isAllowed=y.)*
+*FIGURE 21-3. Sexual health. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://deepblue.lib.umich](<https://deepblue.lib.umich.edu/bitstream/handle/2027.42/143212/NPHA-Sexual-Health-Report_050118_final.pdf?sequence=1&isAllowed=y>) .edu/bitstream/handle/2027.42/143212/NPHA-Sexual-Health-Report_050118_final.pdf?sequence=1&isAllowed=y.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -144,7 +144,7 @@ incontinence, 41% described leakage as a problem, and 31% had leakage episodes a
 
 ![Figure 21-4](hazzard8e_ch21_figure-21-4_p291.webp)
 
-*FIGURE 21-4. Urinary incontinence. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www .healthyagingpoll.org/reports-more/report/urinary-incontinence-inevitable-part-aging.)*
+*FIGURE 21-4. Urinary incontinence. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/urinary-incontinence-inevitable-part-aging>) .healthyagingpoll.org/reports-more/report/urinary-incontinence-inevitable-part-aging.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -200,7 +200,7 @@ Patient portals have become the preferred form of communication with patients fo
 
 ![Figure 21-5](hazzard8e_ch21_figure-21-5_p293.webp)
 
-*FIGURE 21-5. Telehealth. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www.healthyagingpoll .org/reports-more/report/telehealth-use-among-older-adults-and-during-covid-19.)*
+*FIGURE 21-5. Telehealth. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/telehealth-use-among-older-adults-and-during-covid-19>) .org/reports-more/report/telehealth-use-among-older-adults-and-during-covid-19.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -250,7 +250,7 @@ Ageism is prevalent, and older adults may experience ageism in their day-to-day 
 
 ![Figure 21-6](hazzard8e_ch21_figure-21-6_p295.webp)
 
-*FIGURE 21-6. Advance care planning. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www .healthyagingpoll.org/reports-more/report/older-adults-experiences-advance-care-planning.)*
+*FIGURE 21-6. Advance care planning. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/older-adults-experiences-advance-care-planning>) .healthyagingpoll.org/reports-more/report/older-adults-experiences-advance-care-planning.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -296,7 +296,7 @@ More than one in five of older adults (22%) had experienced an emergency or disa
 
 ![Figure 21-7](hazzard8e_ch21_figure-21-7_p296.webp)
 
-*FIGURE 21-7. Food insecurity. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www .healthyagingpoll.org/reports-more/report/how-food-insecurity-affects-older-adults.)*
+*FIGURE 21-7. Food insecurity. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/how-food-insecurity-affects-older-adults>) .healthyagingpoll.org/reports-more/report/how-food-insecurity-affects-older-adults.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -304,7 +304,7 @@ More than one in five of older adults (22%) had experienced an emergency or disa
 
 ![Figure 21-8](hazzard8e_ch21_figure-21-8_p297.webp)
 
-*FIGURE 21-8. Emergency planning. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www .healthyagingpoll.org/reports-more/report/emergency-planning-among-older-adults.)*
+*FIGURE 21-8. Emergency planning. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/emergency-planning-among-older-adults>) .healthyagingpoll.org/reports-more/report/emergency-planning-among-older-adults.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -332,7 +332,7 @@ Family caregivers play a vital role in providing support to older adults living 
 
 ![Figure 21-9](hazzard8e_ch21_figure-21-9_p298.webp)
 
-*FIGURE 21-9. Pets. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www.healthyagingpoll .org/reports-more/report/how-pets-contribute-healthy-aging.)*
+*FIGURE 21-9. Pets. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/how-pets-contribute-healthy-aging>) .org/reports-more/report/how-pets-contribute-healthy-aging.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -358,7 +358,7 @@ As shown in Figure 21-10, in June 2020, more than half of older adults reported 
 
 ![Figure 21-10](hazzard8e_ch21_figure-21-10_p299.webp)
 
-*FIGURE 21-10. Loneliness. (Courtesy from National Poll on Healthy Aging. University of Michigan https://www .healthyagingpoll.org/reports-more/report/loneliness-among-older-adults-and-during-covid-19-pandemic.)*
+*FIGURE 21-10. Loneliness. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/loneliness-among-older-adults-and-during-covid-19-pandemic>) .healthyagingpoll.org/reports-more/report/loneliness-among-older-adults-and-during-covid-19-pandemic.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -406,7 +406,7 @@ health of older adults by increasing use and access. Health Affairs Blog. Electr
 
 Roberts JS. Correlates of formal support service use among dementia caregivers. J Gerontol Soc Work. 2021; 64(2):135–150. Harbaugh CM, Malani P, Solway E, et al. Self-reported dis-
 
-posal of leftover opioids among US adults 50-80. Reg Anesth Pain Med. 2020;45(12):949–954. Institute for Healthcare Policy & Innovation. https://ihpi.
+posal of leftover opioids among US adults 50-80. Reg Anesth Pain Med. 2020;45(12):949–954. Institute for Healthcare Policy & Innovation. [https://ihpi](<https://ihpi.umich.edu/>).
 
 umich.edu/. Accessed June 23, 2021. Kullgren JT, Malani P, Kirch M, et al. Older adults’ percep-
 
@@ -418,7 +418,7 @@ is associated with multiple chronic conditions and physical health status among 
 
 perceptions of antibiotics among US adults aged 50–80 years. Infect Control Hosp Epidemiol. 2021;42(5):628–629. Maust DT, Solway E, Langa KM, et al. Perception of demen-
 
-tia risk and preventive actions among US adults aged 50 to 64 years. JAMA Neurol. 2020;77(2):259–262. National Poll on Healthy Aging. https://www.healthyaging-
+tia risk and preventive actions among US adults aged 50 to 64 years. JAMA Neurol. 2020;77(2):259–262. National Poll on Healthy Aging. [https://www.healthyaging-](<https://www.healthyagingpoll.org/>)
 
 poll.org/. Accessed June 23, 2021. Scherer AM, Solway E, Malani PM, et al. Factors associated
 

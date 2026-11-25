@@ -23,7 +23,7 @@ June 2022 Q51 tested the **balance of macronutrients**. Among diets compared in 
 
 June 2022 Q71 asked for the exception among four genes. The candidate-gene studies cited in the chapter found variants near **FOXO3A, APOE and SIRT3** more often in long-lived people. **KITLG** is absent from that list. Enrichment in a selected group does not establish causality or predict how long an individual will live (p19).
 
-**Candidate association versus replication.** FOXO3A participates in insulin and IGF signaling, SIRT3 regulates mitochondrial processes, and APOE variants influence cardiovascular and Alzheimer disease risk. Of the variants discussed, only the APOE finding had replicated in multiple studies. A variant may influence age at death by altering susceptibility to a particular disease. This is why the chapter discusses healthy aging as an outcome in addition to survival (p17–19).
+**Candidate association versus replication.** FOXO3A participates in insulin and IGF signaling, SIRT3 regulates mitochondrial processes, and APOE variants influence cardiovascular and Alzheimer disease risk. In the genome-wide screens reviewed in this chapter, only the APOE association had appeared in multiple studies. A variant may influence age at death by altering susceptibility to a particular disease. This is why the chapter discusses healthy aging as an outcome in addition to survival (p17–19).
 
 ## How the experimental findings fit together
 

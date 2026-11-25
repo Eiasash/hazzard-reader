@@ -256,7 +256,7 @@ including providing a written letter of recommendations regarding driving cessat
 
 The possession of firearms by people with dementia is another area in which the autonomy and self-determination of the individual needs to be weighed against the safety of the
 
-individual and of society. Of people with dementia, 60% have firearms in their homes and only 17% of families report storing these weapons unloaded and locked. Having firearms in the home increases the likelihood of suicide completion. Ten states and the District of Columbia require a permit to buy a firearm. Hawaii restricts persons with organic brain syndromes from possessing firearms, while Texas prohibits persons with dementia from obtaining a license to carry a handgun in public. There are “red flag laws” called extreme risk protection order (ERPO) laws in 17 states, which provide a means for court-ordered firearm removal based on reasonable or substantial threat. Strategies for assessing and counseling firearm safety in patients with dementia and their families are shown in Table 72-6. As dementia progresses, the recommendations become more focused on counseling families to restrict access to the firearm and remove the firearm from the home environment. A website has been developed to assist families and caregivers in discussing changes regarding safety in dementia, including firearms, driving and home safety (https:// safetyindementia.org/).
+individual and of society. Of people with dementia, 60% have firearms in their homes and only 17% of families report storing these weapons unloaded and locked. Having firearms in the home increases the likelihood of suicide completion. Ten states and the District of Columbia require a permit to buy a firearm. Hawaii restricts persons with organic brain syndromes from possessing firearms, while Texas prohibits persons with dementia from obtaining a license to carry a handgun in public. There are “red flag laws” called extreme risk protection order (ERPO) laws in 17 states, which provide a means for court-ordered firearm removal based on reasonable or substantial threat. Strategies for assessing and counseling firearm safety in patients with dementia and their families are shown in Table 72-6. As dementia progresses, the recommendations become more focused on counseling families to restrict access to the firearm and remove the firearm from the home environment. A website has been developed to assist families and caregivers in discussing changes regarding safety in dementia, including firearms, driving and home safety ([https://](<https://safetyindementia.org/>) safetyindementia.org/).
 
 <a id="p1108"></a>**[p. 1108]**
 
@@ -314,9 +314,9 @@ American Medical Directors Association, 2008, White
 
 paper, The role of a facility ethics committee in decisionmaking at the end of life. Available at https://paltc.org/ amda-white-papers-and-resolution-position-statements/ role-facility-ethics-committee-decision-making. Accessed February 22, 2021. American Medical Association Code of Medical Ethics.
 
-Chapter 5: Opinions on caring for patients at the end of life. Available at https://www.ama-assn.org/system/ files/2019-06/code-of-medical-ethics-chapter-5.pdf. Accessed February 7, 2021. American Medical Directors Association. 2016, Capacity for
+Chapter 5: Opinions on caring for patients at the end of life. Available at [https://www.ama-assn.org/system/](<https://www.ama-assn.org/system/files/2019-06/code-of-medical-ethics-chapter-5.pdf>) files/2019-06/code-of-medical-ethics-chapter-5.pdf. Accessed February 7, 2021. American Medical Directors Association. 2016, Capacity for
 
-sexual consent in dementia in long-term care. Available at https://paltc.org/amda-white-papers-and-resolutionposition-statements/capacity-sexual-consent-dementialong-term-care. Accessed January 10, 2021. Baile W, Buckman R, Lenzi R, Glober G, Beale EA, Kudelka
+sexual consent in dementia in long-term care. Available at [https://paltc.org/amda-white-papers-and-resolutionposition-statements/capacity-sexual-consent-dementialong-term-care](<https://paltmed.org/sites/default/files/2023-10/White%20Paper%20A16%20%28Capacity%20for%20Sexual%20Consent%20in%20Dementia%20in%20LTC%29.pdf>). Accessed January 10, 2021. Baile W, Buckman R, Lenzi R, Glober G, Beale EA, Kudelka
 
 AP. SPIKES—a six-step protocol for delivering bad news: application to the patient with cancer. Oncologist. 2000;5:302–311. Betz ME, McCourt AD, Vernick JS, Ranney ML, Maust DT,
 
@@ -336,7 +336,7 @@ statement: making medical treatment decisions for unbefriended older adults. J A
 
 healthcare resources in the COVID-19 era and beyond: ethical considerations regarding older adults. J Am Geriatr Soc. 2020;68(6):1143–1149. Fox E, Berkowitz KA, Chanko BL, Powell T. Ethics Consulta-
 
-tion: Responding to Ethics Questions in Health Care. Second edition. Available at http://vaww.ethics.va.gov/docs/integratedethics/ec_primer.pdf. Accessed February 22, 2021. Gruenewald DA. Voluntary stopping eating and drinking: a
+tion: Responding to Ethics Questions in Health Care. Second edition. Available at [http://vaww.ethics.va.gov/docs/integratedethics/ec_primer.pdf](<https://etica.uazuay.edu.ec/sites/etica.uazuay.edu.ec/files/public/ECprimer.pdf> "Public copy of the VA Ethics Consultation primer."). Accessed February 22, 2021. Gruenewald DA. Voluntary stopping eating and drinking: a
 
 practical approach for long-term care facilities. J Palliat Med. 2018;21(9):1214–1220. Metzer E. Ethics and intimate sexual activity in long-term
 
@@ -356,7 +356,7 @@ a safe discharge: more than a capacity evaluation. J Am Geriatr Soc. 2020;68(4):
 
 physician-assisted suicide in patients with multiple geriatric syndromes. JAMA Intern Med. 2021;181(2):245–250. VHA National Center for Ethics in Health Care. Ethics
 
-guidance for pandemics 2020. Available at http://vaww
+guidance for pandemics 2020. Available at [http://vaww](<https://www.publichealth.va.gov/docs/n-coronavirus/COVID-19_Response_Plan_07Aug2020_signed_final.pdf#page=31> "The standalone 2020 ethics document requires VA access. The public VHA COVID-19 Response Plan cites the ethical guidance on PDF page 31.")
 
 .ethics.va.gov/ETHICS/activities/pandemic/Ethics_ Guidance_for_Pandemics_2020.pdf. Accessed February 22, 2021. Wax JW, An AW, Kosier N, Quill TE. Voluntary stopping
 

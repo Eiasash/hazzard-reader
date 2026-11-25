@@ -56,7 +56,7 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 
 **Absorption versus clearance.** Drug absorption is largely preserved with aging. Changes in lean body mass and fat affect distribution, while hepatic metabolism and renal excretion may reduce clearance. December 2021 asked how more body fat affects a lipid-soluble drug. This mechanism does not determine a precise duration of clonazepam action. Assess other medications, organ function, sensitivity and clinical response when choosing a dose. Shorter-acting benzodiazepines and Z-drugs can still carry substantial fall risk (p302–303).
 
-**Risk depends on the indication.** The 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning. Behavioral symptoms in dementia warrant assessment of triggers and non-drug measures. Medication may be appropriate when distress or risk of harm makes the balance favorable. The same reasoning applies to prolonged acid suppression. Check why the treatment continues and whether an exception such as erosive esophagitis applies (p303–304, p312, AGS Beers 2019 Table 2).
+**Risk depends on the indication.** The 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning. Behavioral symptoms in dementia warrant assessment of triggers and non-drug measures. For dementia-related behavior, Beers reserves antipsychotics for a substantial threat of harm to the patient or others when non-drug measures have failed or cannot be used. The same reasoning applies to prolonged acid suppression. Check why the treatment continues and whether an exception such as erosive esophagitis applies (p303–304, p312, AGS Beers 2019 Table 2).
 
 **Consider the specific adverse effect.** The older exam questions pair fever and neutropenia with clozapine, new joint symptoms and suspected pericardial inflammation with hydralazine, and prolonged PPI use with fractures, enteric infection or interstitial nephritis. Identifying an exposure focuses the examination and laboratory investigation. The description alone does not prove drug causation (Hazzard p928, p1287, p1322–1323, p1624–1625).
 
@@ -69,8 +69,6 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 **Monitoring is part of the prescription.** In the nursing-home study described in the chapter, preventable adverse events often arose during ordering or monitoring. Check kidney function when choosing a renally cleared drug, assess for bleeding with anticoagulation and ask about new confusion or oversedation with psychoactive treatment. Care transitions and changes in preferences are reasons to repeat the review (p308–313).
 
 **Plan a feasible regimen.** Align dosing times where possible, use the minimum effective dose and agree on what to monitor after a drug is reduced or stopped. For limited life expectancy, distinguish symptom relief now from prevention whose benefit may arrive later. Tight glucose control may expose a frail older adult to hypoglycemia, so treatment goals include health status and remaining life expectancy (p313–315).
-
-<a id="israeli-context"></a>
 
 ## Israeli context — סקירת תרופות וזכאות בקהילה בישראל
 

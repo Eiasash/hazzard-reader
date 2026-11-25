@@ -302,7 +302,7 @@ Alexander CE, Scullion MMF, Omar MI, et al. Bipolar ver-
 
 sus monopolar transurethral resection of the prostate for lower urinary tract symptoms secondary to benign prostatic obstruction. Cochrane Database Syst Rev. 2019;12(12):CD009629. American Urological Association (AUA) guidelines on
 
-the management of benign prostatic hyperplasia. https://www.auanet.org/guidelines/guidelines/benignprostatic-hyperplasia-(bph)-guideline. Accessed August 29, 2021. Bachmann A, Tubaro A, Barber N, et al. A European mul-
+the management of benign prostatic hyperplasia. [https://www.auanet.org/guidelines/guidelines/benignprostatic-hyperplasia-(bph)-guideline](<https://www.auanet.org/documents/Guidelines/Archive/BPH-2019.pdf>). Accessed August 29, 2021. Bachmann A, Tubaro A, Barber N, et al. A European mul-
 
 ticenter randomized noninferiority trial comparing 180 W GreenLight XPS laser vaporization and transurethral resection of the prostate for the treatment of benign prostatic obstruction: 12-month results of the GOLIATH study. J Urol. 2015;193(2):570–578. Barry MJ, Link CL, McNaughton-Collins MF, McKinlay
 

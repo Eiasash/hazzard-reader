@@ -90,7 +90,7 @@ body:has(#reader:not([hidden])) #chapterHeaderTitle[data-sections]:not(:disabled
   }
   #readerSectionOutline li { margin: 0; padding: 0; border-top: 1px solid var(--rule); }
   #readerSectionOutline button {
-    min-height: 36px;
+    min-height: 44px;
     padding: 6px 4px;
     background: transparent;
     border: 0;

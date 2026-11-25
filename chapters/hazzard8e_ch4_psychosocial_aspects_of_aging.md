@@ -516,4 +516,4 @@ planning for adults: a consensus definition from a multidisciplinary Delphi pane
 
 adjustment process: examining the longitudinal change patterns of retirees’ psychological well-being. J Appl Psychol. 2007;92:455–474. World Health Organization. Global Age-Friendly Cities:
 
-A Guide. Geneva, Switzerland: WHO Press; 2007. http://www.who.int/ageing/publications/Global_age_ friendly_cities_Guide_English.pdf. Accessed February 3, 2021.
+A Guide. Geneva, Switzerland: WHO Press; 2007. [http://www.who.int/ageing/publications/Global_age](<https://www.who.int/publications/i/item/9789241547307>)_ friendly_cities_Guide_English.pdf. Accessed February 3, 2021.

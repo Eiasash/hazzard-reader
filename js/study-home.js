@@ -1,6 +1,7 @@
 /* Home measures the same official questions and first-try results as Statistics. */
 window.HazzardStudyHome = (() => {
   const element = id => document.getElementById(id);
+  const minimumChapterAnswers = 5;
   let generation = 0, dayTimer;
 
   function meter(id, count, total) {
@@ -64,7 +65,7 @@ window.HazzardStudyHome = (() => {
     const high = rows.filter(r => r.yieldCount > 0 && r.yieldCount >= median && r.available);
     if (!high.length) return false;
     const byYield = (a, b) => b.yieldCount - a.yieldCount || Number(a.id) - Number(b.id);
-    const tested = high.filter(r => r.answered).sort((a, b) =>
+    const tested = high.filter(r => r.answered >= minimumChapterAnswers).sort((a, b) =>
       a.rate - b.rate || b.answered - a.answered || byYield(a, b));
     const chosen = tested[0] || high.sort(byYield)[0];
     const name = 'Ch. ' + chosen.id + ' · ' + chosen.title;
@@ -75,8 +76,8 @@ window.HazzardStudyHome = (() => {
       detail.textContent = chosen.clean + ' of ' + chosen.answered + ' answered correctly on the first try (' +
         Math.round(100 * chosen.rate) + '%) · ' + examCount;
     } else {
-      element('homeWeakName').textContent = 'No high-yield exam answers yet.';
-      detail.textContent = 'Start with ' + name + ' (' + examCount + ').';
+      element('homeWeakName').textContent = 'Not enough answers yet.';
+      detail.textContent = 'Answer ' + minimumChapterAnswers + ' questions in a high-yield chapter. Suggested: ' + name + '.';
     }
     const target = studyIds.has(chosen.id + 's') ? chosen.id + 's' : chosen.id;
     const practice = element('homeWeakPractice'), study = element('homeWeakStudy');

@@ -31,10 +31,10 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 **Pharmacologic management**
 - Topical NSAIDs are first-line, *before* oral NSAIDs, for hand/knee/foot OA; not recommended for hip OA (joint depth precludes efficacy) (p787).
 - Topical capsaicin: **0.03%** is better tolerated than **0.08%**; no demonstrated benefit in hip OA (p787).
-- Acetaminophen: FDA-reduced maximum dose **3 g/day** (p787).
+- **Acetaminophen:** the ACR/AF OA guideline uses a conservative **3 g/day** maximum for regular treatment, with monitoring and lower limits when indicated. The FDA general adult ceiling across all products is **4 g in 24 hours**. Follow the lower product- or patient-specific limit, especially with liver disease, low body weight or substantial alcohol exposure (p787; [FDA](https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen), ACR/AF OA guideline).
 - Avoid NSAIDs if **CKD stage IV or V** (eGFR **<30 cc/min**) (p788).
 - ACR/AF and OARSI recommend **against** glucosamine or chondroitin sulfate for knee/hip OA (p788). Bisphosphonates showed no efficacy for pain or function, and TNF inhibitors/IL-1 receptor antagonists were not efficacious for erosive OA and are not recommended (p788); the ACR/AF figure lists all three as strongly recommended against (Figure 52-5, p786).
-- Intra-articular glucocorticoid: pain relief up to **2 months**; no more than **3 injections per 6-month period** (p789).
+- Intra-articular glucocorticoids may relieve pain for up to **2 months**. Hazzard discourages more than **three injections in six months** (p789). Repeat injections are individualized. EULAR describes a customary limit of **3–4 per joint per year**, while acknowledging limited evidence for a precise safe frequency (EULAR intra-articular therapy recommendations, 2021).
 - Viscosupplementation (IA hyaluronic acid): not recommended by ACR/AF/OARSI (p789). Platelet-rich plasma/mesenchymal stem cell therapy: still experimental and not FDA-approved — only within an FDA-approved trial (p789); ACR/AF strongly against for knee/hip (Figure 52-5, p786).
 
 **Surgery & prevention**
@@ -105,7 +105,7 @@ Glucosamine and chondroitin sulfate (no more effective than placebo in the lowes
 
 <details><summary>Answer</summary>
 
-No more than 3 injections within a 6-month period; pain relief typically lasts up to 2 months (p789).
+Hazzard advises against more than **three injections in six months** and describes pain relief lasting up to **two months** (p789). EULAR cites a customary limit of 3–4 injections in the same joint per year, with limited evidence for a universal safe count.
 
 </details>
 

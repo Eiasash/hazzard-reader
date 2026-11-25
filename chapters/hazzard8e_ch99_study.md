@@ -46,7 +46,7 @@ Glucose ranges are in mg/dL. The lower A1C boundary in the right column reflects
 
 <span data-practice-ids="mcq-90bbae3292be580263244c30"></span>
 
-The three diagnostic tests sample different physiology. Fasting glucose reflects basal glucose regulation, a two-hour value tests recovery after a 75-g load, and A1C averages exposure over preceding weeks. Any one of a confirmed fasting plasma glucose of at least 126 mg/dL after eight hours without calories, a two-hour glucose of at least 200 mg/dL or an A1C of at least 6.5% meets a diabetes criterion. Classic symptoms or hyperglycemic crisis with a random glucose of at least 200 mg/dL provide another route. Prediabetes corresponds to fasting 100–125, two-hour 140–199, or A1C 5.7%–6.4% (pp1559–1561, Table 99-1).
+The three diagnostic tests sample different physiology. Fasting glucose reflects basal glucose regulation, a two-hour value tests recovery after a [75-g load](https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/diabetes-type-2/), and A1C averages exposure over preceding weeks. Any one of a confirmed fasting plasma glucose of at least 126 mg/dL after eight hours without calories, a two-hour glucose of at least 200 mg/dL or an A1C of at least 6.5% meets a diabetes criterion. Classic symptoms or hyperglycemic crisis with a random glucose of at least 200 mg/dL provide another route. Prediabetes corresponds to fasting 100–125, two-hour 140–199, or A1C 5.7%–6.4% (pp1559–1561, Table 99-1).
 
 **When tests disagree.** Repeat the abnormal test in an asymptomatic patient. Isolated postchallenge hyperglycemia is relatively frequent in older people and predicts complications even with a fasting glucose below 126. Shortened red-cell survival, including hemolysis or recent blood loss, can falsely lower A1C. In December 2021 Q32, random glucose was 184 and A1C 6.2%. That A1C is compatible with prediabetes, and further testing can clarify whether another criterion for diabetes is met (pp1560–1561).
 
@@ -178,7 +178,7 @@ Coordinate primary care, endocrinology, nursing education, nutrition, eye and fo
 - Statins may be indicated for nearly all older diabetics except those with end-stage disease and very limited life expectancy; benefit at age ≥75 without ASCVD is still being studied (p1571).
 - If a statin alone doesn't reach the LDL-C goal, add ezetimibe or a PCSK9 inhibitor; if fasting triglycerides **>500 mg/dL**, add fish oil and/or fenofibrate to reduce pancreatitis risk (Table 99-8, p1572).
 - Aspirin **75–162 mg/d** recommended for secondary prevention (known CVD); primary prevention remains controversial because of bleeding risk (p1572).
-- CVD-outcome-proven drug classes (large CVOTs, average participant age >60): SGLT-2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) and GLP-1 agonists (liraglutide, semaglutide, dulaglutide) (p1571).
+- CVD-outcome-proven drug classes (large CVOTs, average participant age >60): SGLT-2 inhibitors (empagliflozin, canagliflozin, dapagliflozin) and GLP-1 agonists (liraglutide, semaglutide, dulaglutide) (p1570–1571).
 
 **Microvascular complications**
 - Annual eGFR + urine albumin-to-creatinine ratio screening (p1572).

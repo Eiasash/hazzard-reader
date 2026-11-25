@@ -19,11 +19,11 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **MMSE can swing up to 50% day-to-day** with fluctuation (p983).
 - **RBD in 85% of DLB** vs **15% PD** vs **60% MSA** — RBD is a core diagnostic feature (p983).
 - **Depression in up to 40%**; **visual hallucinations, misperceptions or (less often) delusional misidentification in ~2/3**; **parkinsonism eventually in up to 70%** (p983).
-- McKeith criteria: probable DLB = **2 core features**, or 1 core + 1 suggestive feature (p984); exam trap: the text says one core plus one supportive feature and classifies RBD as core, while the Table 63-3 footnote says one core plus at least one suggestive feature and the table classifies RBD as suggestive (p984).
+- **Probable DLB:** at least two core clinical features, or one core feature plus an indicative biomarker (DLB Consortium 2017). REM sleep behavior disorder is a core feature. For book questions, p984 discusses RBD as core, while the older Table 63-3 uses the term “suggestive” and places RBD in that category.
   > Current practice (not the book): probable DLB = ≥2 core features, or 1 core feature + ≥1 indicative biomarker (reduced DAT uptake on SPECT/PET, abnormal MIBG scintigraphy, or PSG-confirmed REM sleep without atonia) — DLB Consortium 4th consensus report (McKeith et al.), 2017.
 - **MMSE decline −4 to −5 pts/yr** vs **~3 pts/yr in AD** — faster course than AD (p984).
 - In postmortem-confirmed DLB cases, **mean survival ~10y**, disability progressing **~10%/yr** (p983).
-- "1-year rule": cognitive symptoms must precede parkinsonism by **≥12 months** to call DLB vs PDD — arbitrary, often hard to apply (p984).
+- **One-year rule:** DLB is favored when dementia starts before, concurrently with, or within one year after parkinsonism. PDD is favored when established PD precedes dementia by more than one year. The interval is an operational convention (p984, DLB Consortium 2017).
   > Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.
 - Robust cholinesterase-inhibitor response (often better than AD, especially hallucinations); often neuroleptic sensitivity.
 
@@ -35,9 +35,9 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 
 ### Multiple System Atrophy (MSA)
 - **Death within 6–10y; 10-yr survival ~40%** (p985).
-- **Incidence ~0.6/100,000 person-years** (or 1.86–4.9/100,000 population), rising to **6/100,000 person-years after age 50**; **mean onset 54y**; **~3x more common in men** (p985).
+- In older epidemiologic studies MSA **incidence** was about 0.6 per 100,000 person-years, and **prevalence** was 1.86–4.9 per 100,000 people. The chapter reports incidence rising to 6 per 100,000 person-years after age 50, mean onset at 54 years and a male predominance in its cited population (p985).
 - Subtypes: **MSA-P (parkinsonism) ~80%**, **MSA-C (cerebellar) ~20%**; orthostatic-predominant subtype → worse survival (p985).
-- Orthostatic dx criterion: **≥30 mmHg systolic BP drop** (practically, **≥20 systolic or ≥10 diastolic** considered significant in the absence of an appropriate heart-rate increase) (p986).
+- In the 2022 MDS criteria, neurogenic orthostatic hypotension is a **systolic fall ≥20 mm Hg**, usually accompanied by a **diastolic fall ≥10 mm Hg**, with a blunted heart-rate response. The time window is 3 minutes for clinically established MSA and up to 10 minutes for clinically probable MSA. The 30-mm Hg systolic threshold on p986 reflects earlier criteria.
 - Suspect an alternative diagnosis if onset **<age 30** or family history present (p986).
 - Sleep complaints: **fragmentation 53%, early waking 33%, insomnia 20%**; RBD up to 60% (p986). Stridor → worse survival/sudden-death risk (p986).
 - MRI: putaminal atrophy/hypointensity; nonspecific **"hot cross bun" sign** in pons (p986).
@@ -47,7 +47,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Focal frontal/anterior-temporal atrophy; brain as light as **750 g** at autopsy (p986).
 - In most centers, **bvFTD accounts for >50%** of FTD cases; pathology **~50% tau, ~50% TDP-43, <10% FUS** (p987).
 - **bvFTD mean onset mid-50s** (p989); depression uncommon (unlike AD) (p989).
-- PPA = isolated language deficit **≥2 years** before other decline (p987).
+- **Primary progressive aphasia:** insidious, progressive language impairment is the dominant early deficit and the main initial limitation on daily activities. The book describes an older two-year isolated-language criterion (p987). The international consensus criteria do not require waiting two years to diagnose PPA.
   - **nfvPPA**: apraxic/agrammatic speech, preserved single-word comprehension; left-dominant atrophy (inferior frontal/insula/caudate); **~20% TDP pathology (usually TDP-43 type A)** at autopsy, most show tau (CBD > PSP > Pick) (p988).
   - **svPPA**: fluent but semantically empty speech, surface dyslexia; begins in amygdala/anterior temporal lobe; most behaviorally prominent PPA; often **TDP-43 type C**-positive, tau-negative inclusions at autopsy (p988).
   - Logopenic PPA = usually an **AD** language presentation; may respond to cholinesterase inhibitors if imaging or other biomarkers confirm AD etiology (p987-988).
@@ -105,7 +105,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 
 <details><summary>Answer</summary>
 
-Cognitive symptoms must predate parkinsonism by ≥12 months to call it DLB rather than PDD (though this is arbitrary and hard to apply clinically) (p984).
+DLB can be diagnosed when dementia precedes parkinsonism, begins concurrently, or appears within one year of motor onset. PDD describes dementia after more than one year of established motor PD. The timing convention is described by the DLB Consortium (p984, 2017 consensus).
 > Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.
 
 </details>

@@ -56,6 +56,23 @@ window.HazzardReview = (() => {
     const live=new Set(all.filter(q=>!q.retired).map(q=>HazzardMCQ.currentId(q.id)));
     return due(v,day(now)).filter(id=>live.has(id));
   }
+  // Home opens every currently due question. Keep its navigation in this
+  // history entry; the resident's separately sized Practice batch stays saved.
+  function todayBatch(all){
+    const today=day(),dueIds=catalogDue(all),saved=history.state?.hazzardDueQueue;
+    if(saved?.day!==today||!Array.isArray(saved.ids)||!saved.ids.every(idOK)){
+      return {day:today,ids:dueIds,position:0,answers:{}};
+    }
+    const ids=[...new Set(saved.ids.map(HazzardMCQ.currentId))],remaining=new Set(dueIds);
+    const records=HazzardMCQ.readStore().answers,answers={};
+    for(const id of ids)if(!remaining.has(id)&&records[id]?.checked)answers[id]=records[id];
+    const position=Number.isInteger(saved.position)?Math.max(0,Math.min(saved.position,ids.length)):0;
+    return {day:today,ids,position,answers};
+  }
+  function rememberToday(batch){
+    const {day,ids,position}=batch;
+    history.replaceState({...history.state,hazzardDueQueue:{day,ids,position}},'');
+  }
   let seedPromise;
   function seed(){return seedPromise ||= (async()=>{
     await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;if(read().seed)return read().seed;
@@ -86,5 +103,5 @@ window.HazzardReview = (() => {
     }
     return write(v);
   }
-  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,result,set,seed,batch,nextBatch,position,size};
+  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
 })();

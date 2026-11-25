@@ -50,7 +50,7 @@ homeostenosis, in the form of diminished capacity to respond to varied challenge
 
 ## AN INTEGRATIVE APPROACH TO THE PHYSIOLOGY OF AGING
 
-## Cross-Cutting Physiological Changes of Aging
+### Cross-Cutting Physiological Changes of Aging
 
 Loss of complexity Geriatricians are in many ways experts in clinical complexity and in dealing with complicated decisions that arise from multiple morbidity, the multifactorial nature of most geriatric conditions, and the complex multidimensional needs of many older adults. However, declines in complexity involving critical structural and functional components accompany and greatly contribute to these clinical manifestations. Selected examples include losses with aging in the complexity of dendritic arborizations (Figure 39-1A), neuronal circuits (Chapter 56), and bone architecture (Chapter 51). Further discussion is provided in the section on systemic patterns of change later in this chapter.
 

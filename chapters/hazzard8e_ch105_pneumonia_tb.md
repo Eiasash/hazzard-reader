@@ -126,11 +126,11 @@ symptoms do not rule out a pneumonia diagnosis. The most common atypical manifes
 
 ## Evaluation
 
-## Initial Evaluation
+### Initial Evaluation
 
 At the time of initial assessment of the older patient with pneumonia stratification by severity of illness should be performed based on the level of consciousness, respiratory, and hemodynamic parameters, taking into account medical, functional, and/or cognitive situations. Nonspecific complaints or atypical clinical presentation are associated with a lower level of acuity and therefore a delay in the initial assessment and early antibiotic administration in the emergency department. Older adults less frequently have fever, tachycardia, and/or elevation of leukocytes compared with younger patients. These changes may hinder an appropriate diagnosis of sepsis and impact adequate early therapeutic treatment. A recent study has shown that the undisturbed vital signs such as normal heart rate and temperature in older patients with suspected infection delay antibiotic administration and increase the likelihood of hospitalization with the need for intensive care. Therefore, respiratory rate and altered level of consciousness may be the only initial signs of severity in older patients with suspected infection and should trigger evaluation for pneumonia.
 
-## Diagnostic Evaluation
+### Diagnostic Evaluation
 
 After the initial stratification of severity status, tests should be performed to diagnose pneumonia and its etiology. The diagnosis of pneumonia based on physical examination has poor sensitivity and specificity; therefore, the diagnosis should be confirmed by performing a chest x-ray.
 
@@ -150,7 +150,7 @@ Detecting pneumococcal and _L pneumophila_ bacterial antigens in urine by immuno
 
 Test for viral detection in nasopharyngeal aspirates should be used in epidemiologic studies and in those patients diagnosed with influenza who are candidates for antiviral treatment. The best use of these tests has not been defined as many viruses that can cause illness are not represented on widely used viral panels (decreasing sensitivity) and a positive test may not provide sufficient evidence of an alternate diagnosis to allow the clinician to stop antibacterial therapy (limited specificity).
 
-## Risk Stratification
+### Risk Stratification
 
 The assessment of severity status is essential to designing an individualized care plan for older patients with pneumonia; age, comorbidity, microbial etiology, and early administration of appropriate antibiotic therapy all influence mortality. Previous studies have showed that older pneumonia patients with moderate-severe basal functional dependence have an increased risk of mortality in the short- and long-term compared to those who are independent.
 
@@ -296,15 +296,15 @@ There is increasing data on pharmacological interventions that act on the swallo
 
 ## Pulmonary Tuberculosis
 
-## Epidemiology
+### Epidemiology
 
 _Mycobacterium tuberculosis_ causes tuberculosis (TB) and is a leading infectious cause of death in adults worldwide. More than 1.7 billion people (about 25% of the world population) are estimated to be infected with _M tuberculosis_ . The highest rates (100 per 100,000 or higher) are observed in sub-Saharan Africa, India, the islands of Southeast Asia, and Micronesia. Low rates (< 25 cases per 100,000 inhabitants) occur in the United States, Western Europe, Canada, Japan, and Australia. TB continues to be an important social and health problem in our environment today, given that the geriatric contingent represents a considerable part of the population, doubly exposed to suffering from the disease, either due to the reactivation of an old form, or due to exogenous disease, and their forms of presentation seem to differ from those usually seen. The disease has two waves of higher incidence, one between 15 and 35 years old and another after 65 years of age. TB can be activated during the course of life, especially as a consequence of the alterations in immune response in old age. Long-term facilities, especially those related to geriatric care, represent an increase in bacillary transmission.
 
-## Etiology
+### Etiology
 
 Mycobacteria are slow-growing aerobic bacilli. Their distinctive characteristic is a complex cell envelope rich in lipids, responsible for their classification as acid-alcohol resistant, and their relative resistance to Gram staining. Tuberculosis really only designates the disease caused by _M tuberculosis_ , the main reservoir of which is humans. A similar disease can occasionally be found due to infection with closely related mycobacteria, such as _M bovis_ , _M africanum_ , and _M microti_ , which, in conjunction with _M tuberculosis_ , are known as the _Mycobacterium tuberculosis_ complex.
 
-## Pathophysiology And Immunological Aspects
+### Pathophysiology And Immunological Aspects
 
 With age there is a decline in immunological protection both in the production of high-affinity antibodies as well as a decrease in immune memory in response to vaccination and delayed hypersensitivity. In senescence, in addition to the response of T cells, which contribute to defense against infections with the production of specific cytokine patterns, other frequent and negative extrinsic factors associated with age and tuberculosis must be taken into account, such as inappropriate diet, poor nutritional status, low physical activity, and comorbidity. In the immune system, by displaying antigens, macrophages, give rise to clonal proliferation of T lymphocytes that differentiate into memory T lymphocytes, cytotoxic and suppressor T helper lymphocytes (CD4+), and T lymphocytes (CD8+). When suppressor CD8+ T lymphocytes show high activity with little response to CD4+, as can occur with age, large numbers of bacilli are released and severe forms of the disease appear.
 
@@ -330,7 +330,7 @@ Extrapulmonary TB can appear anywhere and manifest without evidence of pulmonary
 
 In some patients, active disease develops when they are reinfected, rather than when latent disease reactivates. Reinfection is more likely to be the mechanism in areas where TB is prevalent and patients are exposed to a large inoculum of bacilli. Reactivation of latent infection predominates in low prevalence areas. In a given patient, it is difficult to determine whether active disease is the result of reinfection or reactivation.
 
-## Clinical Characteristics
+### Clinical Characteristics
 
 In the immunocompetent population, the usual form of presentation of TB is pulmonary. However, TB in older patients acquires a series of special characteristics with respect to other age groups. Thus, there is a high risk of disseminated forms, or less radiological evidence of cavitation in its pulmonary presentation. Consequently, this can lead to a high morbidity and mortality in this group, perhaps derived from a delay in diagnosis and the frequent association with other intercurrent diseases in this population group.
 
@@ -346,7 +346,7 @@ Sometimes an acute respiratory distress syndrome appears due to the development 
 
 Reactivation of the disease in older adults can involve all organs, although those most frequently affected are the lungs, brain, kidneys, long bones, vertebrae, or lymph nodes. Reactivation may cause few symptoms and go unnoticed for weeks to months, delaying proper evaluation. The frequent finding of other diseases in older adults further complicates the diagnosis. Regardless of their age, nursing home residents are at risk of contracting the disease due to recent transmission, which can cause apical, middle lobe, or lower lobe pneumonia, as well as pleural effusion. Pneumonia may not be recognized as TB and may persist and also spread to others, while being erroneously treated with ineffective broad-spectrum antibiotics. In the United States, miliary TB and tuberculous meningitis, which in the past were believed to mainly affect young children, are more common in older adults.
 
-## Diagnosis
+### Diagnosis
 
 TB is a frequently overlooked diagnosis in older patients. A high index of suspicion is crucial for the identification of infected individuals.
 
@@ -370,7 +370,7 @@ However, the IGRA test is still incapable of discriminating either previous from
 
 latent TB infection or TB disease. A negative IGRA test result indicates little likelihood of having latent TB infection or disease. Clinical efficacy is affected in immunocompromised individuals owing to a reduced and fluctuant interferon-γ synthesis in these patients. Factors such as immunosuppression contribute to obtaining indeterminate results, which must be taken into account when interpreting the test.
 
-## Treatment
+### Treatment
 
 The treatment of TB in older adults does not differ from that in the adult population, although it must be taken into account that adverse effects increase with age. The goals of TB treatment include eradication of _M tuberculosis_ infection, and prevention of transmission, disease relapse, and the development of drug resistance.
 
@@ -378,11 +378,11 @@ The risks and benefits of preventive treatment must be carefully evaluated befor
 
 Risk factors for treatment failure and relapse include inadequate adherence to treatment, high burden of clinical disease (presence of cavitary disease, bilateral disease, and/ or extrapulmonary disease), drug resistance, malabsorption, malnourishment, and mistakes in diagnosis.
 
-## Chemoprophylaxis
+### Chemoprophylaxis
 
 Due to the possible appearance of adverse events in older adult, chemoprophylaxis is generally administered only if the induration of the Mantoux TST increases by ≥ 15 mm following a previous negative reaction. In close contacts of patients with active TB and other individuals at high risk with negative TST or interferon-γ release tests, preventive treatment should also be considered, unless contraindicated.
 
-## Intensive Phase
+### Intensive Phase
 
 First-line drugs include isoniazid, rifampin, pyrazinamide, and ethambutol. Drug doses are summarized in **Table 105-12** . The drugs should be administered on an empty stomach if tolerated, but dosing with food is acceptable to ameliorate gastrointestinal upset and is preferable to dividing doses or changing to second-line agents.
 
@@ -390,7 +390,7 @@ The intensive phase usually consists of four drugs (isoniazid, rifampin, pyrazin
 
 If pyrazinamide must be excluded from the intensive phase of treatment (due to hepatotoxicity, gout, or pregnancy), the intensive phase should consist of isoniazid, rifampin, and ethambutol administered daily for 2 months, and the continuation phase should be extended to 7 months (total duration of treatment extended to 9 months).
 
-## Continuation Phase
+### Continuation Phase
 
 The continuation phase usually consists of two drugs (isoniazid and rifampin) administered for at least 4 additional months for a total of 6 months. The continuation phase should be extended to 7 months (total duration of treatment 9 months) for patients in the following circumstances:
 
@@ -398,11 +398,11 @@ The continuation phase usually consists of two drugs (isoniazid and rifampin) ad
 
 - b. Patients in whom the intensive treatment phase did not include 2 months of pyrazinamide.
 
-## Drug-Resistant Tb
+### Drug-Resistant Tb
 
 Drug-resistant TB varies according to the pattern of resistance. In general, multidrug-resistant TB requires treatment for 18 to 24 months with a regimen containing four or five active drugs. The presumed activity is based on the results of susceptibility tests, previous exposure to antituberculosis drugs, or patterns of drug susceptibility in the community. The regimen should include all remaining active first-line drugs, including pyrazinamide if the strain is susceptible, plus second-line drugs. Fluoroquinolones are alternative antituberculous agents that should only be used with other second-line drugs as needed to achieve a four-dose regimen or five drugs in patients with drug intolerance or resistance to first-line agents. Designing a treatment regimen for super-resistant TB is even more challenging, often requiring the use of highly toxic and unproven drugs such as clofazimine and linezolid.
 
-## Treatment Of Latent Tb
+### Treatment Of Latent Tb
 
 Treatment of latent TB is primarily indicated in people with a negative TST result, which became positive in the previous 2 years, and people with radiological changes compatible with previous TB but without evidence of active TB. Other indications for preventive treatment are people who, if infected, would be at high risk of developing active TB (HIV-infected, drug-induced immunodeficiency) and all children older than 5 years who are in close contact with a person with a positive TB smear, regardless of whether they present TST conversion. Other individuals with an incidental positive TST or IGRA test but without these risk factors are usually treated with the drugs indicated for latent TB. However, clinicians must consider the individual risks of drug toxicity and compare these with the benefits of treatment.
 
@@ -429,7 +429,7 @@ Treatment is usually based on the administration of isoniazid for 9 months, unle
 
 Patients under treatment for a latent infection should be advised to stop taking the drug if they develop new symptoms, particularly unexplained tiredness, loss of appetite, or nausea. Monitoring the onset of symptoms and encouraging patients to complete treatment are considered to be part of appropriate standard clinical and public health practice.
 
-## Adverse Events
+### Adverse Events
 
 Antituberculous drugs are associated with a broad array of adverse effects. Hepatotoxicity is an important adverse effect that warrants careful clinical care. In both curative and preventive treatments, the possible development of isoniazid-induced hepatitis increases with age, with no differences between men and women. Despite this and other adverse effects, the benefits versus harm of the treatment have been clearly demonstrated. More than one antituberculous drug in a treatment regimen may be associated with hepatotoxicity, and in some cases the most significant contributor may be identified and eliminated without loss of the other drugs in the regimen. Among the first-line antituberculous drugs, hepatotoxicity may be caused by isoniazid, rifampin, and pyrazinamide.
 
@@ -499,7 +499,7 @@ patients with community-acquired pneumonia. _Am J Respir Crit Care Med_ . 1994;1
 
 - von Baum H, Welte T, Marre R, Suttorp N, Ewig S. Community-acquired pneumonia through _Enterobacteriaceae_ and _Pseudomonas aeruginosa_ : diagnosis, incidence and predictors. _Eur Respir J_ . 2010;35:598–605.
 
-- UpToDate. https://www-uptodate-com.m-husc.a17.csinet. es/contents/treatment-of-drug-resistant-pulmonarytuberculosis-in-adults?search=tuberculosis&source= search_result&selectedTitle=8~150&usage_type= default&display_rank=8.
+- UpToDate. [https://www-uptodate-com.m-husc.a17.csinet](<https://www.uptodate.com/contents/treatment-of-drug-resistant-pulmonary-tuberculosis-in-adults>). es/contents/treatment-of-drug-resistant-pulmonarytuberculosis-in-adults?search=tuberculosis&source= search_result&selectedTitle=8~150&usage_type= default&display_rank=8.
 
 <a id="p1698"></a>**[p. 1698]**
 

@@ -378,7 +378,7 @@ trial enrollment of older adults with cancer: a qualitative study of the percept
 
 patients in clinical trials for cancer drug registration: a 7-year experience by the US Food and Drug Administration. J Clin Oncol. 2004;22(22):4626–4631. The American Cancer Society. Cancer Facts & Figures 2020:
 
-Revised June 2020. https://www.cancer.org/content/ dam/cancer-org/research/cancer-facts-and-statistics/ annual-cancer-facts-and-figures/2020/cancer-facts-andfigures-2020.pdf. Colorectal Cancer André T, Meyerhardt J, Iveson T, et al. Effect of duration
+Revised June 2020. [https://www.cancer.org/content/](<https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2020.html>) dam/cancer-org/research/cancer-facts-and-statistics/ annual-cancer-facts-and-figures/2020/cancer-facts-andfigures-2020.pdf. Colorectal Cancer André T, Meyerhardt J, Iveson T, et al. Effect of duration
 
 of adjuvant chemotherapy for patients with stage III colon cancer (IDEA collaboration): final results from a prospective, pooled analysis of six randomized, phase 3 trials. Lancet Oncol. 2020;21(12):1620–1629. André T, Shiu K-K, Kim T W, et al. Pembrolizumab in
 
@@ -390,7 +390,7 @@ vant therapy with mFOLFIRINOX versus preoperative
 
 circulating tumor DNA (ctDNA). Collectively, NGS can help as a strategy to guide treatment discussions for older adults with cancer, yet NGS-enabled precision oncology can add complexity to clinical decision-making and additional work is needed to understand the optimal tissue on which to perform NGS (primary tumor or metastasis, tumor DNA or circulating tumor DNA, etc) and the optimal timing for when to obtain NGS (at initial diagnosis, following a predefined amount of therapy, or when the disease is refractory).
 
-chemoradiation in patients with locally advanced rectal cancer: final results of PRODIGE 23 phase III trial, a UNICANCER GI trial. J Clin Oncol. 2020;38(15): 4007. ePrognosis. Colorectal Screening Survey. http://cancer-
+chemoradiation in patients with locally advanced rectal cancer: final results of PRODIGE 23 phase III trial, a UNICANCER GI trial. J Clin Oncol. 2020;38(15): 4007. ePrognosis. Colorectal Screening Survey. [http://cancer-](<https://eprognosis.ucsf.edu/cancer/>)
 
 screening.eprognosis.org/screening/. Goldberg RM, Rabah-Fisch I, Bleiberg H, et al. Pooled
 

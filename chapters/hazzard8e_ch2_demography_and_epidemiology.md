@@ -160,7 +160,7 @@ Recent estimates from the National Vital Statistics Report (Table 2-3) have impl
 
 ![Figure 2-5](hazzard8e_ch2_figure-2-5_p28.webp)
 
-*FIGURE 2-5. Percent distribution of the U.S. population aged 65 and older by race and ethnicity, 2017, 2020, 2030, 2040, 2050, 2060. (Data from the US Census Bureau, 2017 National Populations Projections Tables: Main Series. https://www .census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html.)*
+*FIGURE 2-5. Percent distribution of the U.S. population aged 65 and older by race and ethnicity, 2017, 2020, 2030, 2040, 2050, 2060. (Data from the US Census Bureau, 2017 National Populations Projections Tables: Main Series. [https://www](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>) .census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 
@@ -198,7 +198,7 @@ It is important to note that these prevalence estimates were based on Medicare c
 
 ![Figure 2-6](hazzard8e_ch2_figure-2-6_p30.webp)
 
-*FIGURE 2-6. Age-specific death rates for leading cause of death in the older population, United States, 2017. (Data from CDC/ NCHS, National Vital Statistics System, Mortality 2017. National Center for Health Statistics; 2018. https://www.cdc.gov/nchs/ data/dvs/lcwk/lcwk1_hr_2017-a.pdf.)*
+*FIGURE 2-6. Age-specific death rates for leading cause of death in the older population, United States, 2017. (Data from CDC/ NCHS, National Vital Statistics System, Mortality 2017. National Center for Health Statistics; 2018. [https://www.cdc.gov/nchs/](<https://www.cdc.gov/nchs/data/dvs/lcwk/lcwk1_hr_2017-a.pdf>) data/dvs/lcwk/lcwk1_hr_2017-a.pdf.)*
 
 *Owner annotations/highlights are from the marked source copy, not the book.*
 

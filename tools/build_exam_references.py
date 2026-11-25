@@ -1,6 +1,7 @@
-"""Rebuild citation metadata only; never rewrite questions, answers or IDs."""
+"""Build the reader links from IMA records, chapter-level 7e matches and the served book."""
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,116 +12,120 @@ def read(path):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
-def link_seventh(metadata, bank):
-    links = read(DATA / 'hazzard7e-chapter-links.json')['questions']
-    entries = metadata['questions']
-    for id, link in links.items():
-        if link.get('hold'):
+def page_destinations(manifest, toc):
+    html = (ROOT / 'index.html').read_text(encoding='utf-8')
+    result, paragraphs = {}, {}
+    for chapter in manifest:
+        number = chapter['number']
+        if not number.isdigit() or chapter['kind'] != 'chapter':
             continue
-        entry = entries[id]
-        entry.update(chapters=[link['chapter']], pages=[], status=link['method'],
-                     reason='2020-22 Hazzard 7e reference; linked to the 8e chapter by topic, no page anchor')
-        if link['method'] == 'title-8e':
-            entry['chapter7'] = link['chapter7']
-            entry['title7'] = link['title7']
-    linked = {'resolved', 'title-8e', 'topic-8e'}
-    for ch, membership in metadata['study'].items():
-        old_ids = set(membership['ids'])
-        changed_ids = {id for id, link in links.items() if not link.get('hold')}
-        past = [q for q in bank if q['kind'] == 'past' and
-                (ch in entries[q['id']]['chapters'] if q['id'] in changed_ids else q['id'] in old_ids)]
-        membership.update(ids=[q['id'] for q in past], past=len(past),
-                          resolved=sum(entries[q['id']]['status'] == 'resolved' for q in past),
-                          fallback=sum(entries[q['id']]['status'] not in linked for q in past),
-                          chapterLinked=sum(entries[q['id']]['status'] in {'title-8e', 'topic-8e'} for q in past))
-    return metadata
+        template = re.search(r'<template\b[^>]*id="chapter' + number + r'Template"[^>]*>(.*?)</template>', html, re.S)
+        content = template[1] if template else (ROOT / 'chapters' / chapter['file']).read_text(encoding='utf-8')
+        markers = set(map(int, re.findall(r'id="p(\d+)"', content)))
+        extent = toc[number]
+        for page in range(extent['start'], extent['end'] + 1):
+            result[page] = dict(page=page, chapter=number, available=page in markers)
+        current_page = None
+        for tag in re.finditer(r'<(?:a|span)\b[^>]*>', content):
+            attrs = dict(re.findall(r'([\w-]+)="([^"]*)"', tag[0]))
+            anchor = attrs.get('id', '')
+            if re.fullmatch(r'p\d+', anchor):
+                current_page = int(anchor[1:])
+            if anchor and 'data-exam-ids' in attrs:
+                printed = int(attrs.get('data-exam-read-page') or current_page or 0)
+                for ident in attrs['data-exam-ids'].split():
+                    paragraphs.setdefault((ident, printed), anchor)
+    return result, paragraphs
 
 
 def build(write=True):
     bank = read(DATA / 'all.json')
-    catalog = read(DATA / 'exam-catalog.json')['records']
-    toc = read(DATA / 'hazzard8e-toc.json')['chapters']
-    manifest = read(ROOT / 'manifest.json')['chapters']
-    html = (ROOT / 'index.html').read_text(encoding='utf-8')
-    markers, destinations = {}, {}
-    for ch in manifest:
-        number = ch['number'].removesuffix('s')
-        if not number.isdigit() or not (ch['kind'] == 'chapter' or ch.get('studyOnly')):
-            continue
-        # Five chapters render from templates, so inspect the actual surface.
-        template = re.search(r'<template\b[^>]*id="chapter' + ch['number'] + r'Template"[^>]*>(.*?)</template>', html, re.S)
-        content = template[1] if template else (ROOT / 'chapters' / ch['file']).read_text(encoding='utf-8')
-        markers[number] = set(map(int, re.findall(r'id="p(\d+)"', content)))
-        if ch.get('studyOnly'):
-            destinations[number] = ch['number']
-    official = {(r['sitting'], r['number']): r for r in catalog.values()}
-    entries = {}
-    for q in bank:
-        if q['kind'] != 'past':
-            continue
-        sitting = q['t'].removesuffix('-Subspec')
-        r = official[(sitting, q['examNumber'])]
-        entry = dict(sitting=sitting, number=r['number'], edition=r['edition'],
-                     source=r['source'], reference=r['reference'], questionRef=q['ref'],
-                     status='unresolved', reason='', pages=[], tables=[], chapters=[])
-        entries[q['id']] = entry
-        if r['edition'] != 8 or not 2023 <= int(sitting[:4]) <= 2026:
-            entry['reason'] = 'Outside 2023–2026 Hazzard 8e scope; no 7e page mapping'
-            continue
-        if r['type'] != 'Hazzard':
-            entry['reason'] = 'Official reference is not Hazzard 8e'
-            continue
-        # A checked correction never silently replaces the printed IMA citation.
-        ref = r.get('readerReference', r['reference'])
-        if r.get('referenceNote'):
-            entry['referenceNote'] = r['referenceNote']
-        entry['tables'] = list(dict.fromkeys(re.findall(r'\bTable\s+(\d+[-–]\d+)', ref, re.I)))
-        # Only explicit p./pp. locators count as pages. Table/chapter numbers do not.
-        page_sets = re.findall(r'\bpp?\.\s*(\d+(?:\s*[-–]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-–]\s*\d+)?)*)', ref, re.I)
-        pages = set()
-        for page_set in page_sets:
-            for span in page_set.split(','):
-                ends = [int(v) for v in re.split(r'[-–]', span)]
-                if len(ends) == 1:
-                    pages.add(ends[0])
-                elif ends[0] <= ends[1] <= 1740:
-                    pages.update(range(ends[0], ends[1] + 1))
-        for page in sorted(pages):
-            ch = next((c['chapter'] for c in toc if c['start'] <= page <= c['end']), None)
-            entry['pages'].append(dict(page=page, chapter=ch, available=page in markers.get(ch, set())))
-            if ch in destinations:
-                entry['pages'][-1]['readerChapter'] = destinations[ch]
-        entry['chapters'] = list(dict.fromkeys(p['chapter'] for p in entry['pages'] if p['chapter']))
-        if pages and all(p['chapter'] for p in entry['pages']):
-            entry['status'] = 'resolved'
-        else:
-            entry['reason'] = 'No explicit printed page' if not pages else 'Printed page outside chapter TOC ranges'
-    study = {}
+    official = {(r['sitting'], r['number']): r for r in read(DATA / 'exam-catalog.json')['records'].values()}
+    historical = read(DATA / 'hazzard7e-chapter-links.json')['questions']
+    toc = {row['chapter']: row for row in read(DATA / 'hazzard8e-toc.json')['chapters']}
+    pages, paragraphs = page_destinations(read(ROOT / 'manifest.json')['chapters'], toc)
     index = read(DATA / 'index.json')
-    for ch in dict.fromkeys([*index, *destinations]):
-        if ch == 'law':
-            continue  # The Israeli-law collection has its own explicit membership.
-        old = read(DATA / f'{ch}.json') if ch in index else []
-        past = [q for q in bank if q['kind'] == 'past' and
-                (ch in entries[q['id']]['chapters'] if entries[q['id']]['status'] == 'resolved' else ch not in destinations and str(q.get('chapter')) == ch)]
-        study[ch] = dict(ids=[q['id'] for q in past], before=sum(q['kind'] == 'past' for q in old),
-                         past=len(past), resolved=sum(entries[q['id']]['status'] == 'resolved' for q in past),
-                         fallback=sum(entries[q['id']]['status'] != 'resolved' for q in past),
-                         practice=sum(q['kind'] == 'practice' for q in old))
-        if ch in destinations:
-            study[ch]['studyOnly'] = True
+    study = {}
+    for chapter in toc:
+        imported = read(DATA / (chapter + '.json')) if chapter in index else []
+        study[chapter] = dict(ids=[], before=sum(q['kind']=='past' for q in imported), past=0,
+                              resolved=0, fallback=0, practice=0, chapterLinked=0)
+
+    entries = {}
+    for question in bank:
+        if question['kind'] != 'past':
+            chapter = str(question.get('chapter'))
+            if chapter in study and not question.get('retired'):
+                study[chapter]['practice'] += 1
+            continue
+        ident = question['id']
+        sitting = question['t'].removesuffix('-Subspec')
+        record = official[sitting, question['examNumber']]
+        mapping = record.get('readerMapping', {})
+        entry = dict(sitting=sitting, number=record['number'], edition=record['edition'], source=record['source'],
+                     reference=record['reference'], questionRef=question['ref'], status='unresolved',
+                     reason='The bibliography gives no Hazzard 8e page for this question.', pages=[], tables=[], chapters=[])
+        entries[ident] = entry
+        for field in ('bankChapter', 'bankChapterTitle'):
+            if field in mapping:
+                entry[field] = mapping[field]
+        if record.get('referenceNote'):
+            entry['referenceNote'] = record['referenceNote']
+        old = historical.get(ident)
+        if int(sitting[:4]) < 2023:
+            if old and not old.get('hold'):
+                entry.update(chapters=[old['chapter']], status=old['method'],
+                             reason='Eighth-edition topic or chapter match. Seventh-edition page numbers are not transferable.')
+                for field in ('chapter7', 'title7', 'tables'):
+                    if field in old:
+                        entry[field] = old[field]
+            elif old and old.get('hold'):
+                entry['reason'] = old['hold']
+        elif 'printedPages' in mapping:
+            cited = mapping['printedPages']
+            # Distinguish an official but misleading locator from a verified teaching passage.
+            entry['pages'] = [{**pages[p], **({'citationOnly': True} if p in mapping.get('citationOnly', []) else {})}
+                              for p in cited if p in pages and not mapping.get('topicOnly')]
+            if mapping.get('supportPages'):
+                entry['supportPages'] = [dict(pages[p]) for p in mapping['supportPages']]
+            for location in [*entry['pages'], *entry.get('supportPages', [])]:
+                anchor = paragraphs.get((ident, location['page']))
+                if anchor and not location.get('citationOnly'):
+                    location['anchor'] = anchor
+                cue = mapping.get('passages', {}).get(str(location['page']))
+                if cue and not anchor and not location.get('citationOnly'):
+                    if isinstance(cue, dict):
+                        location.update({key: cue[key] for key in ('contextPage', 'rangeText', 'imageFile') if key in cue})
+                        cue = cue['text']
+                    location.update(anchor=f"exam-p{location['page']}-{ident}", passage=cue)
+            entry['chapters'] = mapping.get('chapters', list(dict.fromkeys(p['chapter'] for p in entry['pages'])))
+            entry['tables'] = mapping.get('tables', [])
+            if mapping.get('figures'):
+                entry['figures'] = mapping['figures']
+            if entry['pages']:
+                entry.update(status='resolved', reason='')
+            elif entry['chapters']:
+                status = 'topic-8e' if mapping.get('topicOnly') else 'chapter-only'
+                entry.update(status=status, reason='Topic match to the eighth edition.' if status=='topic-8e'
+                             else 'The bibliography names the chapter without giving a printed page.')
+        membership = {str(mapping.get('bankChapter', question.get('chapter'))), *entry['chapters']}
+        for chapter in membership.intersection(study):
+            row = study[chapter]
+            row['ids'].append(ident)
+            row['past'] += 1
+            if entry['status'] == 'resolved':
+                row['resolved'] += 1
+            elif entry['chapters']:
+                row['chapterLinked'] += 1
+            else:
+                row['fallback'] += 1
     result = dict(version=1, edition=8, tocSource='hazzard8e-toc.json', questions=entries, study=study)
-    result = link_seventh(result, bank)
     if write:
-        (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'{len(entries)} official questions; {sum(e["status"] == "resolved" for e in entries.values())} resolved')
+        (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n',
+                                                  encoding='utf-8', newline='\n')
+    print(f'{len(entries)} official questions: {dict(Counter(e["status"] for e in entries.values()))}')
     return result
 
 
 if __name__ == '__main__':
-    import sys
-    if '--link-7e' in sys.argv:
-        result = link_seventh(read(DATA / 'exam-references.json'), read(DATA / 'all.json'))
-        (DATA / 'exam-references.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    else:
-        build()
+    build()

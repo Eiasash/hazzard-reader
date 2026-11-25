@@ -306,7 +306,7 @@ Institutional Special Needs Plans (I-SNPs). Retrieved
 
 <a id="p276"></a>**[p. 276]**
 
-January 13, 2021. https://www.cms.gov/Medicare/ Health-Plans/SpecialNeedsPlans/I-SNPs. Choosing Wisely. (2019). American Geriatrics Society:
+January 13, 2021. [https://www.cms.gov/Medicare/](<https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans/institutional>) Health-Plans/SpecialNeedsPlans/I-SNPs. Choosing Wisely. (2019). American Geriatrics Society:
 
 Ten Things Clinicians and Patients Should Question. https://www.choosingwisely.org/societies/americangeriatrics-society/. Accessed December 14, 2021. Daras LC, Vadnais A, Pogue YZ, et al. Nearly one in five
 

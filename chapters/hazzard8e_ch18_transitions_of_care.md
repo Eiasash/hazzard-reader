@@ -302,7 +302,7 @@ Fuji KT, Abbott AA, Norris JF. Exploring transitions in care
 
 from patient, caregiver, and health-care provider perspectives. Clin Nurs Res. 2013;22(3):258–274. Gleason KM, Brake H, Agramonte V, Perfetti C. Medica-
 
-tions at Transitions and Clinical Handoffs (MATCH) Toolkit for Medication Reconciliation. http://www .ahrq.gov/professionals/quality-patient-safety/patientsafety-resources/resources/match/match.pdf. Accessed March 31, 2015. Gozalo P, Teno JM, Mitchell SL, et al. End-of-life transitions
+tions at Transitions and Clinical Handoffs (MATCH) Toolkit for Medication Reconciliation. [http://www](<http://www.ahrq.gov/professionals/quality-patient-safety/patientsafety-resources/resources/match/match.pdf>) .ahrq.gov/professionals/quality-patient-safety/patientsafety-resources/resources/match/match.pdf. Accessed March 31, 2015. Gozalo P, Teno JM, Mitchell SL, et al. End-of-life transitions
 
 among nursing home residents with cognitive issues. N Engl J Med. 2011;365:1212–1221. Jencks SF, Williams MV, Coleman EA. Rehospitalizations
 

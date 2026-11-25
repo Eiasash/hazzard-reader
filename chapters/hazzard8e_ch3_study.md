@@ -34,7 +34,7 @@ Resolution requires dying neutrophils to be cleared by macrophages. In the human
 
 ## Vaccine responses and investigational treatments
 
-- **Influenza.** With less antibody production after standard vaccination, increasing the antigen dose or adding an adjuvant can improve the response. In the trial described, high-dose vaccine gave a 24% **relative** reduction in influenza-like illness compared with standard dose. Antibody titers and clinical illness are different outcomes (p59–60).
+- **Influenza.** With less antibody production after standard vaccination, increasing the antigen dose or adding an adjuvant can improve the response. In the trial described, high-dose vaccine gave 24% **relative efficacy** against laboratory-confirmed influenza with protocol-defined influenza-like illness compared with standard dose. Antibody titers and clinical illness are different outcomes (p59–60; DíazGranados et al., NEJM 2014, doi:10.1056/NEJMoa1315727).
 - **Zoster.** Loss of cell-mediated control allows latent varicella zoster virus to reactivate. Protection with the older live vaccine fell markedly with age. In separate trials, the adjuvanted recombinant vaccine reduced shingles by 97% in adults aged 50 or older and by 90% in those aged 70 or older. The older cohort also had fewer cases of postherpetic neuralgia (p60–61).
 - **Pneumococcus.** Capsular polysaccharide triggers chiefly a direct B-cell response. Attaching it to a carrier protein recruits T-cell help and allows immune memory to form. CAPiTA found fewer cases of vaccine-type pneumonia and invasive disease with the 13-valent conjugate vaccine, in a population studied before widespread use of conjugate vaccine in Dutch children. Childhood vaccination can change older adults’ exposure to those serotypes (p61).
 - **COVID-19.** The chapter describes stronger inflammatory responses in severe illness and substantial variation across clinical studies. The original mRNA vaccine trials found protection in older participants, with neutralizing antibodies and T-cell responses. Their initial estimates covered the strains and follow-up periods studied (p61–62).
@@ -62,7 +62,7 @@ Resolution requires dying neutrophils to be cleared by macrophages. In the human
 - Human marrow B-cell production appears generally preserved, unlike prominent mouse changes; circulating B-cell numbers, antibody responses and repertoire diversity decline (p58-59).
 
 **Vaccines and investigational approaches in the book**
-- Influenza high-dose/adjuvanted formulations can improve responses. One trial found **24% relative efficacy** for high-dose versus standard-dose vaccine against influenza-like illness (p60).
+- Influenza high-dose/adjuvanted formulations can improve responses. One trial found **24% relative efficacy** for high-dose versus standard-dose vaccine against laboratory-confirmed influenza with protocol-defined influenza-like illness (p60; DíazGranados et al., NEJM 2014).
 - Recombinant zoster vaccine reduced shingles by **97%** in a trial of adults **50 or older**, and **90%** in another of adults **70 or older**; the latter also reduced postherpetic neuralgia (p61).
 - Pneumococcal polysaccharide vaccine is largely T-independent; conjugation enables T-cell help and memory. CAPiTA's Dutch results may not transfer directly to US settings with childhood conjugate vaccination (p61).
 - Coronavirus disease disproportionately affected older adults; inflammatory and immune-response changes are under investigation, with heterogeneous clinical studies (p61-62).

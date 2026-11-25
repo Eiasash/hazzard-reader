@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v308",
+      "date": "2026-11-26",
+      "changes": [
+        "Home uses your text size, opens the full due queue in one tap and waits for five answers before naming a weakest chapter. Saved passage navigation, exam links and question explanations have been corrected."
+      ]
+    },
+    {
       "version": "v307",
       "date": "2026-11-25",
       "changes": [

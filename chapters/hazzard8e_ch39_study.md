@@ -11,7 +11,7 @@ Study summary of Chapter 39 - Systems Physiology of Aging and Selected Disorders
 **Temperature disorders**
 - Hypothermia may occur without extreme cold, shivering or a complaint of feeling cold. Use a low-reading thermometer; investigate infection, hypoglycemia and hypothyroidism (p583–584).
 - Mild hypothermia at **32–35°C** generally responds to insulation and a warm environment; active external heating may cause vasodilation and hypovolemic shock (p584).
-- Core temperature below **32°C** requires active core rewarming. Severe cases require intensive supportive care and ECG monitoring (p584).
+- Below **32°C**, start active rewarming and monitor ECG, temperature and circulation. Stable patients can receive active external rewarming with warmed fluids when indicated. Escalate to specialist core or extracorporeal rewarming for failure to rewarm, hemodynamic instability or cardiac arrest (p584; European Resuscitation Council Guidelines 2025, Special Circumstances).
 - Insulin is ineffective below **30°C**; drug metabolism and responsiveness change during hypothermia and rewarming, allowing accumulation and subsequent toxicity (p584).
 - Heatstroke needs rapid cooling and supportive care. Remove clothing, cool skin and monitor temperature, fluid balance and cardiovascular status to avoid hypothermic overshoot (p585).
 

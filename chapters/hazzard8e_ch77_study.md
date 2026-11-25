@@ -28,19 +28,19 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - CABANA trial (**n = 2204** (p1201)) patients: catheter ablation not superior to AAD for the primary composite endpoint at 5y, but reduced AF recurrence and the combined death/CV-hospitalization secondary endpoint.
 - **Stroke risk is 5× higher** (p1202) with AF. CHA2DS2-VASc: anticoagulate if **≥ 2** (p1203) points in men or **≥ 3** (p1203) in women (Table 77-8); maximum score **9** (p1202). HAS-BLED: **0–2** (p1202) score = low risk, **3–9** (p1202) score = high risk.
 - DOACs preferred over warfarin as first-line stroke prevention **for nonvalvular AF** — valvular AF (moderate–severe MS or mechanical valve) needs warfarin regardless of score; no dabigatran/rivaroxaban/edoxaban in ESRD/dialysis (Table 77-8, p1203); apixaban and edoxaban show lower major-bleeding risk in patients **75 years** or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (PPI recommended).
-- Watchman LAA occlusion: warfarin to INR **2–3** (p1203) for **45 days** (p1203) post-implant, then stop if TEE confirms complete LAA closure.
+- **WATCHMAN:** the original trials used warfarin to INR **2–3** with aspirin for approximately **45 days**. Reassessment by TEE looked for device thrombus and significant peri-device leak before transition to antiplatelet therapy. Current postimplant regimens depend on device, bleeding risk, imaging and labeling (p1203).
 
 **DOACs** (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)
-- **Dabigatran** (Pradaxa) 150 mg BID (110 mg BID with concomitant verapamil, age ≥80, or increased GI-bleeding risk) — RE-LY, dose-dependent results: **150 mg** → **34%** ↓ stroke/SE vs warfarin, similar major bleeding; **110 mg** → similar stroke/SE, **20%** ↓ major bleeding (p1204, image). Reversal: idarucizumab.
-- **Rivaroxaban** (Xarelto) 20 mg daily (15 mg if CrCl 30–49) — ROCKET-AF; noninferior to warfarin for stroke prevention, but only a similar (not lower) major-bleeding rate vs warfarin (p1204, image). Reversal: andexanet alfa.
-- **Apixaban** (Eliquis) 5 mg BID (2.5 mg BID if ≥2 of: age ≥80, weight <60 kg, Cr ≥1.5 mg/dL) — ARISTOTLE; **21%** ↓ stroke/SE and **31%** ↓ major bleeding vs warfarin (p1205, image).
+- **Dabigatran.** RE-LY studied 150 mg and 110 mg twice daily: 150 mg reduced stroke/systemic embolism by 34% with similar major bleeding to warfarin, while 110 mg had similar efficacy and about 20% less major bleeding. The **110 mg twice-daily AF regimen is jurisdiction-specific** (for example, European labeling in selected older patients or with verapamil) and is not the US adult AF dose. Dose by local labeling and renal function. Specific reversal agent: idarucizumab (Table 77-9, p1204).
+- **Rivaroxaban.** In ROCKET-AF, 20 mg daily (15 mg for CrCl 30–49 mL/min) was noninferior to warfarin for stroke prevention, with a similar major-bleeding rate. US adult AF labeling uses **20 mg with the evening meal when CrCl >50 mL/min**, or **15 mg with the evening meal when CrCl ≤50 mL/min** within labeled renal-use conditions. US commercial sales of andexanet alfa ended in December 2025. Management of life-threatening bleeding follows local reversal protocols (Table 77-9, p1204).
+- **Apixaban for AF:** 5 mg twice daily, reduced to 2.5 mg twice daily when **at least two** criteria apply: age **≥80 years**, weight **≤60 kg**, serum creatinine **≥1.5 mg/dL**. ARISTOTLE found 21% less stroke/systemic embolism and 31% less major bleeding versus warfarin (Table 77-9, p1205, Eliquis prescribing information).
   > Current practice (not the book): the Eliquis label's weight criterion is body weight **≤60 kg** (not <60) — Eliquis prescribing information §2.1 (BMS).
-- **Endoxaban / edoxaban** (Savaysa) 60 mg daily (30 mg if CrCl 30–50, weight ≤60 kg, or select interacting drugs) — ENGAGE AF-TIMI 48, dose-dependent results: **60 mg** → noninferior for stroke/SE, **20%** ↓ major bleeding; **30 mg** → no stroke/SE benefit (noninferiority margin only, HR 1.07), major bleeding **1.61% vs 3.43%** (HR 0.47) vs warfarin (p1205, image).
+- **Edoxaban.** In the US, adult nonvalvular AF dosing is **60 mg once daily for CrCl >50 to 95 mL/min**, or **30 mg once daily for CrCl 15–50 mL/min**. Avoid use for NVAF when CrCl exceeds 95 mL/min. Weight and P-gp criteria in Table 77-9 pertain to trial protocols and some other indications or jurisdictions. ENGAGE AF studied higher- and lower-dose strategies, both noninferior for stroke/systemic embolism in its primary analysis, with less major bleeding. The low-dose arm had more ischemic stroke than warfarin (p1205, Savaysa prescribing information §2.1).
 
 **Other tachyarrhythmias**
 - Atrial flutter: cavotricuspid-isthmus ablation success **> 90–95%** (p1206), complications **< 1–2%** (p1206).
 - SVT: AVNRT is the most common type in older adults. β-blockers and CCBs are first-line therapy (p1206); acute options in Table 77-10 include vagal maneuvers and adenosine, with synchronized cardioversion if hemodynamically unstable or refractory to adenosine (Table 77-10, p1206); ablation success **85%** (p1206) to better than **95%** (p1206), major complications **< 2–3%** (p1206).
-- ICD primary SCD prevention: ischemic CM, LVEF **≤ 35%** (p1206) NYHA II–III (or LVEF **< 30%** (p1206) NYHA I) on GDMT, more than **40 days** (p1206) post-MI or more than **90 days** (p1206) post-revascularization; or nonischemic CM LVEF **≤ 35%** (p1206) NYHA II–III despite GDMT.
+- **Primary-prevention ICD:** on GDMT, ischemic cardiomyopathy with LVEF **≤35%** and NYHA II–III, or LVEF **≤30%** and NYHA I, after the applicable waiting periods (at least **40 days after MI** and reassessment after revascularization, generally at least **90 days**). Nonischemic cardiomyopathy may qualify with LVEF ≤35% and NYHA II–III despite GDMT. Expected meaningful survival should exceed one year (p1206, AHA/ACC/HFSA).
 - ICD secondary prevention: cardiac arrest from VT/VF not from a reversible cause; spontaneous sustained VT with structural heart disease; or unexplained syncope with inducible hemodynamically significant VT/VF at EPS when drug therapy is ineffective, not tolerated, or not preferred (p1206).
 
 **End-of-life device management**
@@ -74,7 +74,7 @@ Initial (immediate, within 15 s), classic (within 3 min), delayed (>3 min), and 
 
 <details><summary>Answer</summary>
 
-Pauses ≥ 3 seconds or heart rate < 40 bpm for more than 10 seconds; pacing is reasonable for patients older than 40 years (p1194).
+A cardioinhibitory vasovagal response may produce a pause **≥3 seconds** or a heart rate **<40/min for more than 10 seconds**. Dual-chamber pacing may be reasonable in selected patients **over 40** with recurrent vasovagal syncope and documented prolonged spontaneous pauses (p1194).
 
 </details>
 
@@ -142,11 +142,11 @@ Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaro
 
 </details>
 
-**14. After Watchman left atrial appendage occlusion, what anticoagulation is given, at what INR target, and for how long before it can be stopped?**
+**14. What was the initial warfarin regimen in the original WATCHMAN studies, and what should follow-up imaging assess before changing antithrombotic therapy?**
 
 <details><summary>Answer</summary>
 
-Warfarin to a target INR of 2–3 for 45 days, then discontinued if transesophageal echocardiogram confirms complete LAA closure (p1203).
+The historical regimen used warfarin **INR 2–3** with aspirin for about **45 days**. Before switching to the planned antiplatelet regimen, assess device-related thrombus and peri-device leak. Current regimens and imaging follow-up depend on device labeling and the patient's bleeding/thrombotic risks (p1203).
 
 </details>
 
@@ -154,6 +154,6 @@ Warfarin to a target INR of 2–3 for 45 days, then discontinued if transesophag
 
 <details><summary>Answer</summary>
 
-LVEF ≤ 35% with NYHA class II–III (or LVEF < 30% with NYHA class I) on guideline-directed medical therapy, more than 40 days after MI or more than 90 days after revascularization (p1206).
+After MI, primary-prevention ICD criteria include **LVEF ≤35% with NYHA II–III**, or **LVEF ≤30% with NYHA I**, despite guideline-directed therapy and with expected meaningful survival beyond one year. Assess at least **40 days after MI** and reassess after revascularization, generally at least **90 days** afterward (p1206, AHA/ACC/HFSA).
 
 </details>

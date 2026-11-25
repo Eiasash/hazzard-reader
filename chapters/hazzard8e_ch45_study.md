@@ -42,15 +42,15 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - In a review of 2106 patients ≥65 admitted after syncope, postural BP was measured in only **38%** of episodes, yet had the highest diagnostic yield of any test: affected diagnosis **18%–26%**, management **25%–30%**, and determined etiology **15%–21%** (p672)
 - ~**10%** of ED syncope patients have a serious outcome within **7 to 30 days** of the visit (p673)
 - Dix-Hallpike maneuver (Figure 45-1) BPPV criteria: latency **1 to 5 sec** between maneuver completion and onset, nystagmus/vertigo lasting **10–20 sec**, and fatigability (decreasing intensity) with repeated testing (p673–674)
-- Episodic dizziness timing clue: **<1 minute** suggests BPPV; **20 to 120 minutes** suggests TIA or migraine; **>120 minutes to 2 days** suggests Meniere disease/recurrent vestibulopathy (p670)
+- **Episode duration is a clue.** BPPV typically causes positional attacks lasting **less than 1 minute**. Spontaneous attacks can overlap in TIA, vestibular migraine and Ménière disease. Definite Ménière disease includes attacks lasting **20 minutes–12 hours** with characteristic auditory findings; probable episodes can last up to **24 hours** (p670; [Bárány Society criteria](https://pubmed.ncbi.nlm.nih.gov/25882471/)).
 
 **Management**
 - Vestibular rehabilitation: improvement usually seen after **6 to 8 weeks** (p676)
 - Epley canalith repositioning maneuver (Figure 45-2): each of the 5 head positions held **10 to 15 sec** or until vertigo subsides (p676)
 - Cardioinhibitory CSS: dual-chamber cardiac pacing abolishes syncope in **85% to 90%** of patients (p675)
-- ICD indicated for syncope + VT with EF **<35%**, syncope + prior MI, or VT induced on electrophysiologic study (p675)
-- Drug doses for severe OH/PPH: caffeine **250 mg** (2 cups brewed) each morning, fludrocortisone **0.1–0.5 mg** po daily, midodrine **2.5–10 mg** po TID, octreotide **50 mg** subQ 30 min pre-meal *(unusually high vs. the mcg doses typically used clinically — this is the book's own printed text)* (p675)
-  > Current practice (not the book): the source trial gave octreotide 50 micrograms (µg) subQ, not 50 mg — Jansen et al., 1989 (PubMed 2646315).
+- Syncope caused by sustained VT warrants electrophysiologic assessment for an ICD, including ventricular function and reversible causes. After a previous MI, **unexplained syncope with inducible sustained VT on electrophysiologic study** is an ICD indication. Previous MI alone does not justify implantation (p675; [ESC syncope guideline](https://doi.org/10.1093/eurheartj/ehy037)).
+- For severe symptomatic **OH**, specialist options include midodrine **2.5–10 mg up to three times daily** while awake (avoid near bedtime) or fludrocortisone **0.05–0.2 mg daily** with potassium, edema and supine BP monitoring. Avoid fludrocortisone in heart failure. For **postprandial hypotension**, the chapter discusses caffeine **250 mg** in the morning and a small study of subcutaneous octreotide **50 micrograms** before a glucose load (p675; [OH review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10024337/), [AHA statement](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/)).
+  > Octreotide was studied in **micrograms**. The textbook’s milligram unit overstates the trial dose by a factor of 1,000 ([Jansen et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2646315/)).
 
 ## Recall
 
@@ -130,7 +130,7 @@ Only in 38% of episodes — yet they had the highest diagnostic yield of any tes
 
 <details><summary>Answer</summary>
 
-Episodes lasting <1 minute suggest BPPV; 20 to 120 minutes suggest TIA or migraine; more than 120 minutes up to 2 days suggest Meniere disease or recurrent vestibulopathy (p670).
+BPPV commonly causes positional spells under 1 minute. TIA and vestibular migraine can overlap in duration. Definite Ménière attacks last 20 minutes–12 hours with characteristic auditory findings, and probable attacks can last up to 24 hours (p670; Bárány Society criteria, PMID 25882471).
 
 </details>
 

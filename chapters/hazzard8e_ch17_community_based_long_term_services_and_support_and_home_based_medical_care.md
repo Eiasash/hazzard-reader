@@ -184,7 +184,7 @@ Ricauda N, Wilson AD, Barclay L. A meta-analysis of “hospital in the home.” 
 
 management for low-income seniors: a randomized controlled trial. JAMA. 2007;298(22):2623–2633. Evaluating PACE: A review of the literature. Office of
 
-the Assistant Secretary for Planning and Evaluation (ASPE). https://aspe.hhs.gov/sites/default/files/private/ pdf/76976/PACELitRev.pdf. Accessed December 14, 2021. Farias FAC, Dagostini CM, Bicca YA, Falavigna VF,
+the Assistant Secretary for Planning and Evaluation (ASPE). [https://aspe.hhs.gov/sites/default/files/private/](<https://aspe.hhs.gov/basic-report/evaluating-pace-review-literature>) pdf/76976/PACELitRev.pdf. Accessed December 14, 2021. Farias FAC, Dagostini CM, Bicca YA, Falavigna VF,
 
 Falavigna A. Remote patient monitoring: a systematic review. Telemed J E Health. 2020;26(5):576–583. Gomes B, Calanzani N, Curiale V, McCrone P, Higginson
 
@@ -198,7 +198,7 @@ KM. Multidimensional preventive home visit programs for community-dwelling older
 
 Impact of transitional care services for chronically ill older patients: a systematic evidence review. J Am Geriatr Soc. 2017;65(7):1597–1608. Long-Term Services and Supports Expenditures on Home
 
-and Community-Based Services. https://www.medicaid. gov/state-overviews/scorecard/ltss-expenditures-onhcbs/index.html. Accessed December 14, 2021. Narayan MC, Scafide KN. systematic review of racial/
+and Community-Based Services. [https://www.medicaid](<https://www.medicaid.gov/state-overviews/scorecard>). gov/state-overviews/scorecard/ltss-expenditures-onhcbs/index.html. Accessed December 14, 2021. Narayan MC, Scafide KN. systematic review of racial/
 
 ethnic outcome disparities in home health care. J Transcult Nurs. 2017;28(6):598–607. Ornstein KA, Leff B, Covinsky KE, et al. Epidemiology of
 

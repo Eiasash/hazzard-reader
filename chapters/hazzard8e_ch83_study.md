@@ -49,7 +49,7 @@ Study summary of Chapter 83; the book and the full chapter are the reference.
 
 ### Renovascular Disease
 - Prevalence **2–3%** of general hypertensive population; up to **40%** of refractory hypertension (p1287).
-- Atherosclerosis accounts for almost **90%** of cases in older adults, fibrous dysplasia the rest (p1287); other causes — Table 83-3 (p1288).
+- Atherosclerosis accounts for almost **90%** of renovascular cases in older adults (p1287), and a recognized nonatherosclerotic cause is **[fibromuscular dysplasia](https://pubmed.ncbi.nlm.nih.gov/30648921/)**; Hazzard prints “fibrous dysplasia” in the paragraph and in Table 83-3 (p1288).
 - Duplex ultrasound sensitivity/specificity: low-to-mid **90%** range (p1288).
 - Renal vein renin ratio **≥1.5** between kidneys predicts a beneficial BP response to revascularization; failure to lateralize does *not* predict a negative response; overall BP response cannot be predicted confidently with renal vein renin measurements (p1289).
 - CORAL trial (**947** patients): no benefit of revascularization vs. medical management (p1289).
@@ -69,8 +69,8 @@ Study summary of Chapter 83; the book and the full chapter are the reference.
 - A time-limited dialysis trial is typically predetermined at **4–6 weeks** (p1293).
 
 ### ESKD Complications
-- Anemia: typically develops around GFR **~35 mL/min**; normochromic, normocytic (p1294). Conservative hemoglobin target **~11.5** (printed "mg/dL" in the book — clinically hemoglobin is measured in g/dL; read the number, not the stated unit) (p1294).
-- Functional iron deficiency in ESKD: ferritin **<500 ng/mL** or iron saturation **<30%** (p1294).
+- Anemia: typically develops around GFR **~35 mL/min**; normochromic, normocytic (p1294). The chapter gives a conservative hemoglobin level near **11.5 g/dL** and misprints the unit as mg/dL (p1294); [KDIGO 2026, recommendation 3.3.1](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf) advises an ESA treatment target below 11.5 g/dL in adults with CKD.
+- Hazzard describes ferritin **<500 ng/mL** or transferrin saturation **<30%** under its historical “functional iron deficiency” wording (p1294). In anemic patients receiving hemodialysis, [KDIGO 2026 recommendation 2.1](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf) suggests starting iron when **both** ferritin is **≤500 ng/mL** and transferrin saturation is **≤30%**.
 - Cardiovascular death risk on dialysis: **10–100×** the general-population risk (p1294).
 - Secondary hyperparathyroidism: PTH begins rising by GFR **~40 mL/min** (p1295).
 - Pyridoxine (vitamin B6) supplementation for malnutrition: **50 mg/day** (p1295).

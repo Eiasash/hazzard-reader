@@ -14,12 +14,12 @@ Study summary of Chapter 42 — Frailty; the book and the full chapter are the r
   - Low activity: lowest 20% kcal/wk; men cutoff **<383 kcal/wk** (p620)
   - Drawbacks: no cognitive dimension; weight-loss criterion can miss sarcopenic-obesity frailty; thresholds derived from CHS cohort (p620)
 - **Deficit Accumulation / Frailty Index (FI)** (Rockwood): unweighted ratio of deficits present ÷ total considered, built from a series of **70** measurements ("deficits") (p620, p623); rises nonlinearly with age (Gompertz-like), higher in women, ceiling **FI ~0.7** (p623)
-- **Clinical Frailty Scale (CFS)**: **7-category** clinician-judgment scale derived from FI work; similar predictive power to FI for institutionalization/death (p623)
+- **Clinical Frailty Scale (CFS)**: the **original seven-category** version used clinical judgment and predicted institutionalization and death similarly to the FI (p623). The [current CFS has nine levels](https://www.dal.ca/sites/gmr/our-tools/clinical-frailty-scale.html).
 - **Edmonton Frail Scale (EFS)**: **9 domains** — cognition, general health, function, social support, meds, nutrition, mood, continence, performance (p623)
 - **Cognitive frailty**: physical frailty + mild cognitive impairment (**CDR 0.5**), with AD/dementia excluded; it has been suggested that physical frailty should precede the cognitive impairment, to separate physically driven cognitive decline (p627)
 - **Table 42-3** (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elders Survey (VES-13), FRAIL Scale (p621–622)
-  - **Table 42-3** also spells out the **CFS's 7 categories** (p621): 1 = very fit; 2 = well (no active disease); 3 = well, with treated comorbid disease; 4 = apparently vulnerable (not frankly dependent, "slowed up"); 5 = mildly frail (IADL help only); 6 = moderately frail (help with IADLs + ADLs); 7 = severely frail (ADL-dependent) or terminally ill
-  - **VES-13**: frail if score **≥3** (range 0–10); **FRAIL Scale** (fatigue, resistance, ambulation, illness count >5, weight loss >5%): **0** = no frailty, **1–2** = intermediate, **≥3** = frailty (p622)
+  - **Table 42-3** also spells out the **original CFS’s seven categories** (p621): 1 = very fit; 2 = well (no active disease); 3 = well, with treated comorbid disease; 4 = apparently vulnerable (not frankly dependent, "slowed up"); 5 = mildly frail (IADL help only); 6 = moderately frail (help with IADLs + ADLs); 7 = severely frail (ADL-dependent) or terminally ill. The current nine-point CFS scores terminal illness as 9.
+  - **VES-13**: frail if score **≥3** (range 0–10); **FRAIL Scale** (fatigue, resistance, ambulation, ≥5 of 11 specified illnesses, weight loss ≥5% over the preceding year): **0** = no frailty, **1–2** = intermediate, **≥3** = frailty (p622; validated FRAIL questionnaire, Morley et al., PMCID PMC4515112).
 
 **Epidemiology**
 - Community-dwelling age ≥65: average prevalence **11%** (reported range **4.0–59%** across definitions/settings) (p626)

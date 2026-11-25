@@ -13,7 +13,7 @@ Study summary of Chapter 88; the book and the full chapter are the reference.
 
 ### Screening & Presentation
 - Older adults are simultaneously **underscreened** (racial/ethnic minorities, <high-school education, below poverty line) and **overscreened** (routine screening continues even with <5-year life expectancy or severe nursing-home disability, risking net harm from work-up) (p1384).
-- New Mexico study of **800** patients 65+: only **29%** were asymptomatic at diagnosis; **48%** presented within 2 months of symptom onset, but **19%** delayed ≥12 weeks and **7.4%** delayed ≥1 year (p1385).
+- New Mexico study of **800** patients older than 65: only **29%** were asymptomatic at diagnosis; **48%** presented within 2 months of symptom onset, but **19%** delayed ≥12 weeks and **7.4%** delayed ≥1 year (p1385).
 - Biological behavior varies by tumor type and is not uniformly "more indolent" with age: **malignant melanoma** presents with more advanced, deeper local disease in older patients; **lung cancer** presents with *more* localized disease in older patients; breast cancer in older women is more often ER-positive with longer doubling time (generally better-prognosis biology) — yet overall cancer-related survival is still *lower* in older women (p1385).
 - AML has a distinctly worse prognosis in older adults: poor-prognosis karyotypes (5q-, 7q-), antecedent MDS, chemo-resistance pathways, and lower apoptosis of leukemic blasts after ara-C/daunorubicin (p1385–1386).
 
@@ -43,7 +43,7 @@ Study summary of Chapter 88; the book and the full chapter are the reference.
 - End-of-life nutrition: IV fluids/TPN/tube feeding do **not** prolong life and may worsen comfort (pulmonary congestion, edema); dehydration near death is generally comfortable except for xerostomia (treat with swabs/ice chips) (p1392).
 
 ### Survivorship & Caregivers
-- By **2030**, **70%** of cancer patients will be 65+, with incidence in this group rising **~70%** from 2010–2030. **16 million** cancer survivors currently in the US, **~60%** age 65+; by **2040**, projected **26 million** survivors, **73%** age 65+, almost **50%** age 75+ (p1392–1393).
+- By **2030**, **70%** of cancer patients will be 65+, with incidence in this group rising **~70%** from 2010–2030. The chapter counted **16 million** US cancer survivors at the time of writing, **~60%** age 65+; by **2040**, projected **26 million** survivors, **73%** age 65+, almost **50%** age 75+ (p1392–1393).
 - **63%** of home care for older cancer patients comes from informal caregivers; nearly **40%** of these caregivers have their own comorbidities and rate their own health fair/poor (p1393).
 
 ### Exam traps / book nuances

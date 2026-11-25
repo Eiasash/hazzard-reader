@@ -19,14 +19,14 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 
 ### Influenza Immunization
 - 2014 systematic review (35 studies, 15 countries): vaccine effectiveness **38–70%** in seasons of vaccine/strain match, **15–59%** in mismatch seasons — "important but modest" (p1735).
-- **HD-IIV4** (high-dose) has **4×** the antigen dose of standard-dose vaccine and is more effective in older adults; **aIIV4** (MF59-adjuvanted) also shows increased immunogenicity and is linked in observational studies to reduced hospitalization for flu, pneumonia, and cardiovascular events; **RIV4** (recombinant) also promising. ACIP endorses any of these for older adults (p1735).
+- The edition’s **HD-IIV4** (high-dose) has **4×** the antigen dose of standard-dose vaccine and is more effective in older adults; **aIIV4** (MF59-adjuvanted) also shows increased immunogenicity and is linked in observational studies to reduced hospitalization for flu, pneumonia, and cardiovascular events; **RIV4** (recombinant) also promising. Current US ACIP guidance preferentially recommends age-appropriate high-dose, adjuvanted, or recombinant influenza vaccine for adults 65 or older; the seasonal formulations are now trivalent (p1735).
 - Nursing-home RCT: zanamivir vs rimantadine chemoprophylaxis — influenza risk **3% vs 8%** (p = **0.038**) (p1735).
 - **4 cluster-randomized trials** show immunizing nursing-home **staff** reduces resident mortality — possibly more than immunizing residents themselves (p1735).
 
 ### Influenza Antivirals (name — key facts)
 - **Amantadine / rimantadine** — influenza A only; current strains largely resistant; no longer recommended (p1736).
 - **Zanamivir (inhaled) / oseltamivir (oral)** — neuraminidase inhibitors, active vs A and B; **70–90%** effective for prophylaxis, and as treatment reduce clinical severity **if given within 48 hours** of symptom onset (most community patients present after 48 h, limiting feasibility; ch105 p1689 adds oseltamivir in severe CAP even if >48 h have passed); oseltamivir needs renal dosing; zanamivir may worsen or provoke respiratory distress in underlying obstructive disease (p1736).
-- **Peramivir (IV)** — FDA-approved **2015**, IV-only formulation (p1736).
+- **Peramivir (IV)** — first FDA-approved in **December 2014**, IV-only formulation (p1736; FDA original approval, application 206426).
 - **Baloxavir marboxil (oral)** — polymerase inhibitor, approved **2018**; also 48-hour window; resistance emerges quickly, limiting use (p1736).
 
 ### Herd Immunity — Immunizing Children
@@ -46,7 +46,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 ### SARS-CoV-2 / COVID-19
 - Three novel coronaviruses crossed to humans in two decades: **SARS-CoV (2002)**, **MERS-CoV (2012)**, **SARS-CoV-2 (2019)** (p1737).
 - SARS-CoV-2 binds the **ACE2** receptor and, unlike SARS-CoV/MERS (lower respiratory tract), replicates heavily in the **upper** respiratory tract — a key driver of transmissibility (p1738).
-- Asymptomatic/presymptomatic transmission was estimated in one study to account for up to **79%** of documented cases (p1738).
+- An early model attributed **79%** of documented cases to people whose infections were undocumented; undocumented infection could include mild symptoms (p1738).
 - Incubation ~**5 days** (symptoms in most by **12 days**); **older adults ~7 days** (longer) (p1738).
 - **40%** of patients (mean age 81 in one study) presented **atypically** — falls, weakness, delirium — rather than classic fever/cough/dyspnea (p1738).
 - Up to **80%** of SARS-CoV-2 deaths have occurred in adults **65+** (p1738).
@@ -56,7 +56,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - RT-PCR (nasopharyngeal) is the diagnostic cornerstone; turnaround **15 minutes to several days**; POC antigen tests return results in **under an hour** but are validated only in symptomatic patients (p1739).
   > Current practice (not the book): FDA guidance covers home antigen testing without symptoms by serial testing — after a negative, retest at 48 h and again 48 h later (at least 3 tests) — FDA, 2024.
 - **Dexamethasone** reduces mortality in patients needing oxygen/ventilation, no benefit if not requiring respiratory support (p1739).
-- Vaccine candidates demonstrated **>90%** effectiveness against infection (p1740).
+- The original randomized mRNA vaccine trials demonstrated **over 90% efficacy against symptomatic COVID-19**; preventing all infections was a different endpoint (p1740; Polack et al., 2020, and Baden et al., 2021).
 
 *No exam-trap or book self-contradiction note is flagged in this source chapter.*
 
@@ -154,7 +154,7 @@ Ribavirin — it is aerosolized (hard to deliver via face mask to older adults),
 
 <details><summary>Answer</summary>
 
-The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; transmission through asymptomatic or presymptomatic cases was estimated in one study to account for up to 79% of documented cases (p1738).
+The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; the early modeling estimate of 79% concerned previously undocumented infections, including infections with mild symptoms (p1738).
 
 </details>
 

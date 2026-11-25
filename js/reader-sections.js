@@ -90,6 +90,11 @@ window.HazzardSections = (() => {
     for (const node of copy.querySelectorAll(scan.join(','))) {
       const row = byHeading.get(node);
       if (row) { section = row; continue; }
+      if (section && node.matches('a[href*="q="]') && node.closest('.chapter-exam-membership')) {
+        const id = new URL(node.href).searchParams.get('q');
+        if (members.has(id) && official.has(id)) section.ids.add(id);
+        continue;
+      }
       if (!section || (node.closest('[data-reader-metadata]') &&
           !node.closest('.exam-evidence,.law-cards') && !node.matches('a.pg'))) continue;
       if (node.matches('a[href*="q="]')) {

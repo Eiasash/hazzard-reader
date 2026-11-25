@@ -72,7 +72,7 @@ relationships is poor, or those people are offering kinds of support that the pe
 
 ![Figure 65-2](hazzard8e_ch65_figure65-2a_p1010.png)
 
-> *FIGURE 65-2. Patient Health Questionnaire-9 (PHQ-9). (PHQ-9 is adapted from PRIME MD TODAY, developed by Drs. Robert L. Spitzer. Janet B.W. Williams, Kurt Kroenke, and colleagues, with an educational grant from Pfizer Inc. For research information. Contact Dr Spitzer at ris8@columbia edu. Use of the PHQ-9 may only be made in accordance with the Terms of Use available at _http://www.pfizer.com_ , Copyright @1999 Pfizer Inc. All rights reserved. PRIME MD TODAY is a trademark of Pfizer Inc.)*
+> *FIGURE 65-2. Patient Health Questionnaire-9 (PHQ-9). (PHQ-9 is adapted from PRIME MD TODAY, developed by Drs. Robert L. Spitzer. Janet B.W. Williams, Kurt Kroenke, and colleagues, with an educational grant from Pfizer Inc. For research information. Contact Dr Spitzer at ris8@columbia edu. Use of the PHQ-9 may only be made in accordance with the Terms of Use available at _[http://www.pfizer.com](<http://www.pfizer.com>)_ , Copyright @1999 Pfizer Inc. All rights reserved. PRIME MD TODAY is a trademark of Pfizer Inc.)*
 
 <a id="p1011"></a>**[p. 1011]**
 

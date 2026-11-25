@@ -5,9 +5,9 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 ## Summary
 
 ### Epidemiology & definitions
-- COPD is currently the **4th leading cause of death** in the US; projected to be the **5th leading cause of disability** and **3rd cause of death** worldwide by 2030 (p1235).
+- Hazzard cited an earlier US mortality ranking and projected COPD to rank fifth for disability and third for death worldwide by 2030 (p1235). In CDC's final **2024** US statistics, the broader category **chronic lower respiratory diseases**, which includes COPD and asthma, ranked **fifth**.
 - Global prevalence **10%–12%** (up to **384 million cases**, 2010 estimate); spirometry-confirmed COPD prevalence **15.4%** in US adults ≥65 (p1235).
-- Half of adults with COPD will be **≥75 years old** by 2030 (p1235).
+- The chapter projected that people aged **75 or older** would account for about **half of adults with COPD by 2030** (p1235).
 - Dyspnea in **one-third** of older persons; chronic bronchitis in **15%**; wheezing in **12%** (p1235).
 - Chronic bronchitis = chronic cough + sputum production for **≥3 months/year for 2 consecutive years** (p1239).
 - **Two-thirds** of people with chronic-bronchitis symptoms and **half** with physician-diagnosed emphysema/COPD have *normal* spirometry — symptoms ≠ airflow obstruction (p1235).
@@ -15,11 +15,11 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 
 ### Diagnosis & spirometry
 - Diagnosis needs compatible history **plus** spirometry-confirmed airflow obstruction (p1242).
-- GOLD criterion: fixed **FEV1/FVC < 0.70** — doesn't correct for age, overdiagnoses older adults (prevalence **37.7%** by GOLD vs **15.4%** by age-adjusted Z-score) (p1243–1244).
+- In a compatible clinical context, GOLD uses **post-bronchodilator FEV1/FVC <0.70**. Because the fixed ratio does not adjust for age, it can classify more older adults as obstructed than an age-adjusted lower limit of normal. In the older cohort described here, estimates were **37.7% versus 15.4%** (p1244, Table 81-5).
 - Normal aging lung alone (no COPD) already shows ↑chest-wall rigidity, ↓elastic recoil, "senile emphysema," air trapping, and ↑closing volume approaching FRC — the same physiologic changes seen in COPD, just less severe (single vs double arrows) — part of why fixed spirometric cutoffs overdiagnose older adults (Table 81-1, p1238).
 - Age-adjusted approach (GLI): airflow obstruction = FEV1/FVC **Z-score < –1.64** (5th percentile LLN); **–2.55** = 0.5th percentile, a severity marker (p1243–1244).
-- ATS/ERS FEV1 staging thresholds: **≥70% Pred = mild, 50–69% = moderate, <50% = severe** (p1244, Table 81-5).
-- PRISm = preserved FEV1/FVC ratio but low FEV1 + inflammatory-airway features — still at risk (p1244).
+- Table 81-5 reproduces older ATS/ERS categories using FEV1 percent predicted: **≥70%**, **50–69%** and **<50%** (p1244). The 2022 ERS/ATS interpretive standard grades impairment by **z-score**. GOLD's airflow-obstruction grades are a separate framework.
+- **PRISm** is a post-bronchodilator spirometric pattern with **FEV1/FVC ≥0.70** and **FEV1 <80% predicted**. It can be associated with respiratory symptoms or later airflow obstruction. Demonstrating airway inflammation is not part of its definition (p1244, GOLD).
 
 ### Comorbidity & functional burden
 - COPD patients average **3.7 chronic conditions** and **35 filled prescriptions/year** (p1247).
@@ -28,8 +28,8 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 - Postmortem study of COPD-exacerbation deaths: heart failure **37%**, pulmonary thromboembolism **21%**, pneumonia **28%**, respiratory failure **14%** (p1247).
 
 ### Pharmacologic management (stable COPD)
-- Stepwise approach: SABA rescue → long-acting BD (LAMA usually first-line, greater exacerbation reduction than LABA) → add the other class → add ICS (combined with a LABA — **ICS monotherapy is not recommended** in COPD, unlike asthma) for frequent exacerbations not controlled by LABA and/or LAMA, hospitalization for exacerbation, or concomitant asthma; ICS+LABA reduces exacerbations/hospitalizations with eosinophils **≥300 cells/mL** *[sic — the book's own Table 81-7, p1246, gives cells/μL]* plus high symptom burden and frequent exacerbations (p1253; agents in Table 81-10, p1249–1252).
-- ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL** *[sic — the book's own Table 81-7, p1246, gives cells/μL]*); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; posterior subcapsular cataracts; atypical mycobacterial infection (p1253–1254).
+- **COPD inhaled treatment:** offer a short-acting rescue bronchodilator. GOLD 2026 generally favors **LABA/LAMA** for symptomatic group B or exacerbation-prone group E patients and considers **LABA/LAMA/ICS** in group E at eosinophils **≥300 cells/μL**. Following exacerbations on LABA/LAMA, ICS benefit is more likely as the eosinophil count rises. Concomitant asthma requires an ICS-containing regimen. Table 81-7 gives cells/μL; the p1253 prose prints cells/mL (Table 81-10, p1249–1252; [GOLD treatment algorithms](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=29)).
+- ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/μL**); ↓ bone mineral density above **1000 mcg/day** fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
 - Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
 - Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance; maintenance may be considered for frequent exacerbators despite maximal triple inhalers when worsening airflow obstruction and airway inflammation drive symptoms, without hearing impairment, resting tachycardia or other arrhythmia, apparent QTc-prolongation risk, or clinical/radiographic NTM evidence, with NTM assessment before regular use (p1254).
@@ -50,7 +50,7 @@ Study summary of Chapter 81 — Chronic Obstructive Pulmonary Disease; the book 
 ### Surgical & LTOT
 - LTOT indicated for resting PaO2 **≤55 mm Hg** or SpO2 **≤88%** (daily use ≥16 h/day improves survival) (Table 81-11, p1256).
 - LVRS candidates: FEV1 **<50%** predicted, RV **>150–200%** predicted, upper-lobe-predominant emphysema; FEV1 or DLCO **<20%** predicted + homogeneous emphysema = higher surgical mortality, do not operate (p1258).
-- Lung transplant referral thresholds: FEV1/DLCO **<25%** predicted, PaCO2 **>50 mmHg**, BODE **>5**; median post-transplant survival **5–6 years**; age >70 has higher 30-day/1-year mortality (p1258–1259).
+- Lung transplant referral thresholds: both FEV1 and DLCO **<25%** predicted, PaCO2 **>50 mmHg**, BODE **>5**; median post-transplant survival **5–6 years**; age >70 has higher 30-day/1-year mortality (p1258–1259).
 
 ### Palliative care
 - Average life expectancy from diagnosis: **14 years** for COPD vs **21 years** for heart disease (p1262).
@@ -97,7 +97,7 @@ Two-thirds of those with chronic-bronchitis symptoms and half of those with phys
 
 <details><summary>Answer</summary>
 
-ICS combined with LABA reduces exacerbations and hospitalizations with absolute eosinophil count ≥300 cells/mL plus high symptom burden and frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest with eosinophils <100 cells/mL (also older age, frailty, low BMI, high ICS dose); ICS withdrawal can be considered with eosinophils <300 (especially <100) cells/mL (p1253–1254). *[sic — the book's own Table 81-7, p1246, gives cells/μL]*
+ICS combined with LABA reduces exacerbations and hospitalizations with absolute eosinophil count ≥300 cells/μL plus high symptom burden and frequent exacerbations (GOLD Group D). Pneumonia risk with ICS is greatest with eosinophils <100 cells/μL (also older age, frailty, low BMI, high ICS dose); ICS withdrawal can be considered with eosinophils <300 (especially <100) cells/μL (p1253–1254). *(Table 81-7, p1246, and [GOLD Figure 3.10](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=29) use cells/μL; the prose on p1253 prints cells/mL.)*
 
 </details>
 
