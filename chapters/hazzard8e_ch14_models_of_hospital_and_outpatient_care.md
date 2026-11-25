@@ -404,7 +404,7 @@ GRACE. [http://graceteamcare.indiana.edu/home.html](<https://cdn.iuhealth.org/re
 
 mobility for hospitalized older veterans: preliminary data from the STRIDE Program. J Am Geriatr Soc. 2014; 62:2180–2184. Hastings SN, Choate AL, Mahanna EP, et al. Early mobil-
 
-ity in the hospital: lessons learned from the STRIDE Program. Geriatrics 2018;3:61. Hospital at Home. [http://www.hospitalathome.org/about-](<https://www.hospitalathome.org/about-us/history.php>)
+ity in the hospital: lessons learned from the STRIDE Program. Geriatrics 2018;3:61. Hospital at Home. [http://www.hospitalathome.org/about-](<https://publichealth.jhu.edu/2005/burton-hospital-home> "Johns Hopkins Hospital at Home program, published results and history")
 
 us/history.php. Hung WW, Macias Tejada, Soryal S, et al. The Acute Care
 

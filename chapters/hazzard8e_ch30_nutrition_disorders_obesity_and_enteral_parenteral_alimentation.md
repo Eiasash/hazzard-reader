@@ -268,7 +268,7 @@ As a general rule, a diet rich in fresh fruits, vegetables, legumes, and whole g
 
 ![Figure 30-6](hazzard8e_ch30_figure-30-6_p417.webp)
 
-*FIGURE 30-6. ChooseMyPlate.gov, U.S. Department of Agriculture, Center for Nutrition Policy and Promotion, June 2, 2011, USDA Center for Nutrition Policy & Promotion (CNPP). (Reproduced with permission from [http://choosemyplate.gov/](<https://www.myplate.gov/>).)*
+*FIGURE 30-6. ChooseMyPlate.gov, U.S. Department of Agriculture, Center for Nutrition Policy and Promotion, June 2, 2011, USDA Center for Nutrition Policy & Promotion (CNPP). (Reproduced with permission from [http://choosemyplate.gov/](<https://obamawhitehouse.archives.gov/blog/2011/06/02/usda-unveils-new-simple-tips-stay-healthy-active-and-fit> "Archived US government publication introducing the MyPlate icon").)*
 
 <a id="p418"></a>**[p. 418]**
 
@@ -644,7 +644,7 @@ the provision and assessment of nutrition support therapy in the adult criticall
 
 tion support: adult hospitalized patients. Nutr Clin Pract. 2018;33(6):907–920. US Department of Agriculture, Center for Nutrition Pol-
 
-icy and Promotion. ChooseMyPlate.gov. USDA Center for Nutrition Policy & Promotion (CNPP). June 2, 2011. Available at [http://choosemyplate.gov/](<https://www.myplate.gov/>). Accessed December 15, 2021. Volkert D, Beck AM, Cederholm T, et al. ESPEN guideline
+icy and Promotion. ChooseMyPlate.gov. USDA Center for Nutrition Policy & Promotion (CNPP). June 2, 2011. Available at [http://choosemyplate.gov/](<https://obamawhitehouse.archives.gov/blog/2011/06/02/usda-unveils-new-simple-tips-stay-healthy-active-and-fit> "Archived US government publication introducing the MyPlate icon"). Accessed December 15, 2021. Volkert D, Beck AM, Cederholm T, et al. ESPEN guideline
 
 on clinical nutrition and hydration in geriatrics. Clin Nutr. 2019;38(1):10–47. Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly
 

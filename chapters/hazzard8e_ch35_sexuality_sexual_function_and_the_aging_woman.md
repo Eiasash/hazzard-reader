@@ -466,7 +466,7 @@ ual Health. ACOG Committee Opinion No 706 Summary. Obstet Gynecol. 2017;130(1):2
 
 tical Manual of Mental Disorders: DSM-5. Washington, DC: American Psychiatric Association; 2013. Baron SR, Florendo J, Sandbo S, Mihai A, Lindau ST. Sex-
 
-ual pain disorders in women. Clinician Reviews; 2011. http://www.clinicianreviews.com/the-publication/pastissues-single-view/sexual-pain-disorders-in-women/ 59f19a0743f02eceb02c4bd7196c235c.html. Accessed March 24, 2016. Basson R. The female sexual response: a different model.
+ual pain disorders in women. Clinician Reviews; 2011. [http://www.clinicianreviews.com/the-publication/pastissues-single-view/sexual-pain-disorders-in-women/](<https://www.mdedge.com/content/sexual-pain-disorders-women-0>) 59f19a0743f02eceb02c4bd7196c235c.html. Accessed March 24, 2016. Basson R. The female sexual response: a different model.
 
 J Sex Marital Ther. 2000;26(1):51–65. Basson R, Wierman ME, Van Lankveld J, Brotto L. Reports:
 

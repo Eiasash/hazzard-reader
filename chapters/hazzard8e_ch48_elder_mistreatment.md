@@ -218,7 +218,7 @@ injury patterns associated with physical elder abuse: analysis of legally adjudi
 
 sion in long-term care facilities: an understudied problem. Aggress Violent Behav. 2008;13(2):77–87. Under the Radar: New York State Elder Abuse Prevalence
 
-Study: Self-Reported Prevalence and Documented Case Surveys 2012. [https://ocfs.ny.gov/main/reports/](<https://ocfs.ny.gov/main/reports/Under%20the%20Radar%2005%2012%2011%20final%20report.pdf>) Under%20the%20Radar%2005%2012%2011%20 final%20report.pdf. Accessed June 3, 2021.
+Study: Self-Reported Prevalence and Documented Case Surveys 2012. [https://ocfs.ny.gov/main/reports/](<https://elderabuse.weill.cornell.edu/sites/default/files/undertheradar051211.pdf> "Original New York elder-abuse prevalence study, author-hosted copy") Under%20the%20Radar%2005%2012%2011%20 final%20report.pdf. Accessed June 3, 2021.
 
 <a id="p727"></a>**[p. 727]**
 

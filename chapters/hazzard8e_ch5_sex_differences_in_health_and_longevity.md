@@ -12,7 +12,7 @@ Steven N. Austad
 
 ## THE ROBUSTNESS OF SEX DIFFERENCES IN LONGEVITY
 
-Women live longer than men in every country and in every historical epoch for which reliable information exists. This fact is documented in the Human Mortality Database (www.mortality.org), which compiles historical demographic information from 41 countries over periods for which data are particularly dependable. Accordingly, the length of these records varies. Sweden has the longest period of reliable birth and death records of any country. Beginning in 1751 these records are moderately reliable, and they are very reliable from 1860 to the present day. Sweden’s life expectancy over this 250+-year period dipped as low as 18 years during periods of famine or pestilence and has risen as high as today’s 83 years. However, in each and every year, regardless of overall life expectancy, women have outlived men (Figure 5-1). The same is true for each of the 41 countries in the Human Mortality Database for every year on record!
+Women live longer than men in every country and in every historical epoch for which reliable information exists. This fact is documented in the Human Mortality Database ([www.mortality.org](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview")), which compiles historical demographic information from 41 countries over periods for which data are particularly dependable. Accordingly, the length of these records varies. Sweden has the longest period of reliable birth and death records of any country. Beginning in 1751 these records are moderately reliable, and they are very reliable from 1860 to the present day. Sweden’s life expectancy over this 250+-year period dipped as low as 18 years during periods of famine or pestilence and has risen as high as today’s 83 years. However, in each and every year, regardless of overall life expectancy, women have outlived men (Figure 5-1). The same is true for each of the 41 countries in the Human Mortality Database for every year on record!
 
 #### Learning Objectives
 
@@ -278,7 +278,7 @@ ison of eunuchs with intact men and women in a mentally retarded population. J G
 
 Human Mortality Database. University of California,
 
-Berkeley (USA), and Max Planck Institute for Demographic Research (Germany). www.mortality.org or www.humanmortality.de. Accessed November 2014. Kindig DA, Cheng ER. Even as mortality fell in most US
+Berkeley (USA), and Max Planck Institute for Demographic Research (Germany). [www.mortality.org](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview") or [www.humanmortality.de](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview"). Accessed November 2014. Kindig DA, Cheng ER. Even as mortality fell in most US
 
 counties, female mortality nonetheless rose in 42.8 percent of counties from 1992 to 2006. Health Aff (Millwood). 2013;32(3):451–458. Macintyre S, Ford G, Hunt K. Do women ‘over-report’
 
