@@ -18,7 +18,13 @@ def generate():
     if updated != original:
         simulation.write_text(updated, encoding='utf-8', newline='\n')
     catalog, chunks = [], {}
+    references = json.loads((ROOT / 'data/mcq/exam-references.json').read_text(encoding='utf-8'))['questions']
+    chapters = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))['chapters']
+    chapter_titles = {str(c['number']): c['title'] for c in chapters}
     for q in all_questions:
+        chapter = references.get(q['id'], {}).get('bankChapter')
+        if chapter is not None:
+            q = {**q, 'chapter': chapter, 'chapterTitle': chapter_titles[chapter]}
         # Hash prefixes keep chunk URLs stable when questions are added or moved.
         chunk = q['id'][4:6]
         chunks.setdefault(chunk, []).append(q)

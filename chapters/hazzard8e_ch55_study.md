@@ -2,6 +2,102 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 
 # Chapter 55 Study: Rehabilitation
 
+## What the exams asked
+
+- Choosing a walker for freezing, preprosthetic gait or exertional dyspnea — [June 2023 Q13, May 2024 Q29, June 2025 Q25](?chapter=55#p828).
+- Choosing the hand for a cane and the leading leg on stairs — [September 2024 Q83, June 2026 Q69](?chapter=55#p827).
+- Getting out of bed after hip surgery and protecting a posterior hip replacement — [June 2023 Q45, May 2024 Q52](?chapter=55#p832).
+- Exercise in compensated heart failure — [June 2023 Q44](?chapter=55#p830).
+- Occupational therapy when the discharge destination is a nursing facility — [June 2025 Q94](?chapter=55#p825).
+- Which office test predicts difficulty climbing stairs — [June 2026 Q35](?chapter=55#p820).
+- Cane stability, safe rollator use and the appropriate side after hemiparesis — [2020 Q23, Q28 and June 2022 Q34](?chapter=55#asked-chapter).
+- Silent aspiration and shoulder protection after stroke — [2020 Q26 and Q50](?chapter=55#asked-chapter).
+- Readiness to participate after an acute illness — [June 2022 Q33](?chapter=55#asked-chapter).
+
+- How FIM describes assistance and how a rehabilitation referral is assessed — [2020 Q10 and Q84, December 2021 Q17, Q57 and Q97, June 2022 Q16](?chapter=55#asked-chapter). These earlier questions cite the FIM paper or Israeli procedures.
+- Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 has no bibliographic locator in the official list. [Read the Israeli context](#israeli-context).
+- Motor planning and the pattern of functional recovery — September 2024 Q36 cites the Stroke Rehabilitation Clinician Handbook, p15. June 2026 Q92 identifies FIM and the examination image.
+
+## Selecting an aid by the task
+
+<span data-exam-page="828"></span>
+
+A **pick-up walker** provides bilateral support on a stationary frame. The patient can unload a leg completely, which explains the choice before a unilateral amputee has a prosthesis. Lifting the frame for each step costs strength and coordination and slows gait (p828, Table 55-5).
+
+A **two-wheeled walker** advances more easily and permits a smoother gait. Its fixed wheels make turns less smooth than a rollator's, but two wheels give more stability than four. The table lists Parkinson disease as a situation in which it may help. June 2023 described freezing and backward falls (p827–828).
+
+A **four-wheeled rollator** turns easily, negotiates outdoor surfaces and provides a seat. For a patient limited by exertional dyspnea, the chance to sit and recover matters. The price of that mobility is less stability and the need to coordinate the hand brakes before sitting or standing (p827–828).
+
+<span data-exam-page="827"></span>
+
+A **straight cane** widens the base of support and provides sensory feedback through the hand. Advance the cane with the involved leg, holding it in the opposite hand. The June 2026 patient had left hip abductor weakness and needed minimal help with balance, making a single point in the right hand appropriate. A quad cane accepts more weight and can help in hemiparesis, but its heavier, wider base may catch the foot or fit poorly on a stair (p827–828).
+
+**Stairs reverse the sequence.** Ascend first with the uninvolved leg while the cane and involved leg support from below. Descend first with the cane and involved leg, keeping the stronger leg above to control lowering. September 2024 asked which leg descends first after a right ankle fracture (p827).
+
+## Hip surgery, precautions and mobilization
+
+<span data-exam-page="832"></span>
+
+Early mobilization after hip fracture limits deconditioning and the complications of bed rest. Fracture stability determines permissible loading after repair. When feasible, weight bearing as tolerated is easier for older adults to achieve than touchdown loading. June 2023 asked about mobility on the first postoperative day after uncomplicated hip replacement. Its official answer permits loading as tolerated, while the passage that explicitly contrasts loading regimens describes fracture repair (p832).
+
+After a **traditional posterolateral hip replacement**, crossing the legs, excessive flexion and rotating the leg may increase the risk of early dislocation. A raised toilet seat reduces the flexion required to sit down. May 2024 tested crossing the legs. Knee replacement calls for a different early task: controlling pain and swelling so that movement and quadriceps work can restore range (p832).
+
+## Cardiac rehabilitation and medical stability
+
+<span data-exam-page="830"></span>
+
+The patient in June 2023 had reduced ejection fraction but no active congestion. Exercise can address peripheral muscle conditioning as well as cardiovascular adaptations, reducing exercise intolerance and improving daily function. Hazzard calls for controlled fluid status and clinical stability for at least three to four weeks before starting exercise in heart failure. A remote admission alone does not establish readiness (p830).
+
+A cardiac rehabilitation program also provides monitoring, risk-factor management and support for adherence. In the Medicare cohort cited by Hazzard, participants had lower mortality than nonparticipants. That observation describes outcomes in the cohort and does not quantify an individual patient's expected benefit (p830).
+
+## Measuring function and choosing a team intervention
+
+<span data-exam-page="820"></span>
+
+**Five timed rises from a chair** test lower-extremity strength. Table 55-1 links that attribute to walking and stair climbing, which is why June 2026 selected it. Gait speed measures dynamic performance, progressively narrower standing positions challenge static balance, and life-space records where the person actually moved in the preceding month (p820–821).
+
+<span data-exam-page="825"></span>
+
+**Occupational therapy** turns improvement into something the patient can do, such as eating, dressing or grooming. June 2025 asked about a patient already destined for nursing care. The destination changes how training is planned, but self-care still matters. The official reference list prints p825. The explicit list of self-care evaluation, training, assistive technology and home assessment is in Table 55-4 on p823.
+
+## Stroke recovery and readiness to participate
+
+<span data-exam-ids="mcq-de35ec8f8613614fad033467 mcq-5323c51583402673a5d61738"></span>
+
+September 2024 Q36 asked about apraxia: difficulty executing a learned action despite understanding the instruction and recovering strength. June 2026 Q92 asked for a different inference: transfers and communication improved while walking and stairs stayed at the lowest FIM score. The accepted explanation is a continuing weight-bearing restriction. The chart measures performance and does not identify the fracture. Official locators: September 2024 reference list, Q36, Stroke Rehabilitation Clinician Handbook p15; June 2026 album, Figure 4.
+
+After stroke, inability to swallow safely and inability to communicate are separate barriers to rehabilitation. Aspiration can be silent in up to one-third of **patients with dysphagia**. Absence of coughing therefore cannot establish safe swallowing. The 2020 paper tested the denominator, alongside rates of incontinence, depression and shoulder pain (p831).
+
+When tone and motor control change in the hemiplegic shoulder, positioning protects the joint from subluxation and early range-of-motion work helps prevent contracture. Those are separate aims of the treatment in 2020 Q50. The page supports positioning without naming a particular sling (p831).
+
+Cognitive impairment calls for an assessment of ability to learn and follow instructions. A reversible acute problem such as delirium can delay that assessment. June 2022 Q33 contrasts a patient who can follow simple commands with patients whose current illness or participation limits effective treatment. Establish what the patient could do before the event and reassess after stabilization (p820–821).
+
+<a id="israeli-context"></a>
+
+## Israeli context — שיקום גריאטרי בישראל
+
+<span data-exam-ids="mcq-f6c1d45922e1027bb5ab4324 mcq-92187e5ab10d4fe7ecd14771 mcq-b68a3e95e9873facb2f5f6cc mcq-1bbe7663ed422d20fc60e429"></span>
+
+<div lang="he" dir="rtl">
+<p><strong>מי מתאים לשיקום?</strong> ההערכה משלבת את המצב הרפואי הנוכחי, התפקוד לפני האירוע, יכולת הלמידה ושיתוף הפעולה. לאחר מחלה חריפה שמונעת מאמץ שיקומי יש להעריך מחדש. ירידה קוגניטיבית קודמת אינה שוללת שיקום אם המטופל מסוגל להשתתף ולהפיק תועלת. פצע לחץ או הזנה בזונדה שאינם מפריעים לטיפול, וכן איסור דריכה זמני, אינם כשלעצמם סיבה לדחיית ההפניה. חוזר מינהל רפואה 4/2009, סעיפים 5.2–5.4, עמ׳ 4.</p>
+<p><strong>מי מחליט ומי אחראי?</strong> מומחה בגריאטריה או בשיקום בבית החולים מתייעץ עם הצוות הרב־מקצועי, משתף את המטופל ומשפחתו ומתעד את הנימוקים. האחריות למתן השיקום חלה על קופת החולים. ההמלצה מועברת לפחות שני ימי עבודה לפני השחרור. מומחה מטעם הקופה משיב בתוך שני ימי עבודה לכל היותר. סטייה מההמלצה מחייבת הנמקה ותוכנית חלופית. במחלוקת על הצורך בשיקום אפשר להפנות להערכה באשפוז שיקומי או לקבל חוות דעת נוספת ממומחה מוסכם. חוזר 4/2009, סעיפים 4.1, 6.3–6.8, עמ׳ 3, 5–6.</p>
+<p><strong>אשפוז, שיקום יום או בית.</strong> צורך בהשגחה רפואית וסיעודית ממושכת, בית שאינו מאפשר טיפול, ליקוי שדורש משאבים ייעודיים או היעדר מסגרת קהילתית מתאימה מצדיקים שיקום באשפוז. בקהילה ניתן לקבל טיפול רב־מקצועי בשיקום יום, טיפול ממקצוע אחד במכון או טיפול בבית. לאחר שחרור לקהילה נדרשת הערכה בתוך שני ימי עבודה מהשחרור והתאמת תוכנית ומסגרת בתוך חמישה ימי עבודה מההפניה. חוזר 4/2009, סעיפים 7, 10.1–10.3, עמ׳ 6–8.</p>
+<p><strong>משך ותוצאה.</strong> בשיקום אורתופדי באשפוז החוזר מציין לפחות 14 יום, ובשיקום נוירולוגי לפחות 25 יום. תקופה קצרה יותר טעונה נימוק ברשומה ובמכתב השחרור על סמך הערכה תפקודית כוללנית. יש להעריך בקבלה ולפני השחרור בכלים שמאפשרים להשוות תפקוד לאורך השיקום. לאחר אירוע מוחי או פגיעה נוירולוגית אחרת, סעיף 7.6 מונה ציון FIM נמוך מ־75 או Barthel נמוך מ־16 כהתוויה לשיקום באשפוז. אלה ספים לבחירת מסגרת באוכלוסייה המוגדרת. חוזר 4/2009, סעיפים 7.6, 8.3–8.4, 9.2, 13.2, עמ׳ 6–7, 9.</p>
+<p><strong>שיקום, סיעוד מורכב ואשפוז סיעודי בקוד.</strong> בבדיקת מועמד לאשפוז סיעודי מסובסד האחות בודקת אם מדובר בסיעוד מורכב ואם מוצו אפשרויות השיקום. ועדת הסיווג בראשות הגריאטר המחוזי קובעת התאמה לסיווג סיעודי או תשוש נפש. קבלה בקוד דורשת הפניה מאושרת מלשכת הבריאות, גם במעבר פנימי מסיעוד מורכב לאשפוז במימון המשרד. מקורות: חוזר מינהל רפואה 20/2009, נספח נוהל 01-09, סעיפים 4.1, 9.2.1; נוהל 3.4.2, סעיפים 3.1, 5.1–5.2.</p>
+<p><strong>מי משלם באשפוז סיעודי כרוני?</strong> במסלול הקוד משרד הבריאות משלם למוסד וגובה השתתפות עצמית לפי הכללים ובהתאם ליכולת הכלכלית. חוזר מנכ״ל 8/2018 מיום 21.03.2018 החליף את חוזר 24/2005, שאליו מפנה נוהל 20/2009. התחולה המפורטת בחוזר החדש היא מ־08.04.2018. מקור: חוזר מנכ״ל 8/2018, עמ׳ 1–2, סעיפים 1–3, 6.</p>
+<p><strong>מה ממשיך במחלקה סיעודית?</strong> הפיזיותרפיסט מתאים אביזרי ניידות וישיבה לצורכי הדייר, מדריך את הדייר והצוות בשימוש, ועוקב אחרי היעילות. אם נדרשת הערכת בליעה, קלינאי התקשורת מתעד את הממצאים ומדריך את המטפלים לגבי מרקמי מזון ושתייה ואכילה בטוחה. אלו הנחיות לעבודה במחלקות סיעודיות ותשושי נפש. נהלים 1.6.0.1 סעיף 4.4.3, 1.6.0.3 סעיף 5, ו־1.9.0.1 סעיפים 5.2.6–5.2.8, מיום 18.12.2025.</p>
+<p><strong>מה תפקיד הביטוח הלאומי?</strong> בנוהל האשפוז המסובסד, הביטוח הלאומי קובע את הזכאות לסיוע מכוח חוק ביטוח בריאות ממלכתי כתנאי מקדמי לאשפוז סיעודי באמצעות משרד הבריאות. בתקופת ההמתנה העובדת הסוציאלית מדריכה את המשפחה לגבי עזרה בקהילה, ובכלל זה גמלת סיעוד מהביטוח הלאומי. ההמלצה לטיפול שיקומי נבחנת במסלול הרפואי של בית החולים וקופת החולים שתואר לעיל. חוזר 20/2009, נספח נוהל 01-09, סעיפים 4.2, 14.2.1, עמ׳ 2, 9 בנספח.</p>
+<p><strong>מדוע זמינות המסגרת משנה?</strong> בפוסטר של מכון ברוקדייל נבדקו ארבעה סוגי מחלקות בגריאטריה פעילה: שיקום, סיעוד מורכב תומך, תת־חריפה והנשמה ממושכת. נתוני הפעילות בשנים 2010–2020 וראיונות עם בעלי תפקידים הצביעו על פערי היצע גאוגרפיים ועל קושי בגיוס כוח אדם. הנתונים מתארים את מערכת השירותים בתקופת המחקר. ברוקדייל, ״אתגרי אשפוז במחלקות לגריאטריה פעילה״, עמ׳ 1, רקע, שיטות וממצאים.</p>
+<p><strong>המשך עזרה בקהילה.</strong> בסיום שיקום פעיל מתעדים תפקוד, שיפור שהושג וצרכים שנותרו. ההמלצות כוללות לפי הצורך גורמי סיוע נוספים בקהילה, ובהם שירותי רווחה וסיוע לפי חוק ביטוח סיעוד. חוזר 4/2009, סעיף 11.2.2, עמ׳ 8.</p>
+<p><strong>מה מודדים בביקור פיזיותרפיה?</strong> הערכת הקבלה מתעדת ניידות, תפקוד יומיומי והשתתפות, ומגדירה מטרות עם המטופל והמשפחה. בבית בודקים גם את הגישה, המדרגות, המעברים, האביזרים ובטיחות השימוש בהם, ואת יכולתם של המטפלים העיקריים לסייע. הממצאים וההמלצות להמשך תפקוד ושיקום נכללים בסיכום הפיזיותרפיה. חוזר חטיבת הרפואה 7/2026, סעיפים 8.2.4, 8.3.1–8.3.3, ופרק ג סעיף 6, עמ׳ 8–10, 19–20.</p>
+<p>סעיף 8.2.4 בחוזר 7/2026 מיום 30.08.2026 מחליף ומבטל את ההנחיה לפיזיותרפיסט בנושא הערכה תפקודית מיום 29.01.2012. עמוד הפתיחה מחליף גם את חוזרי הפיזיותרפיה המנויים בו משנים 2009, 2011 ו־2013. פרק ד ממשיך להפנות לאמות המידה למתן טיפול שיקומי לקשישים.</p>
+<p>חוזר 4/2009 מיום 14.01.2009 החליף ועדכן את החוזרים 83/1995 מיום 23.11.1995, 18/1998 מיום 09.03.1998 ו־46/2004 מיום 14.10.2004. מקור: עמוד הפתיחה של חוזר 4/2009.</p>
+</div>
+
+**Day rehabilitation in practice.** The Kiryat Bialik center initially accepted patients who needed at least two rehabilitation disciplines. Its aim was to shorten or replace hospitalization for suitable patients, mainly people recovering from stroke or living with other neurological disorders. This was the center's admission policy during the 2009–2011 evaluation. Brookdale, RR-622-12 (2012), publication summary, paragraphs 1–4.
+
+**Access and outcome are different measures.** In the Israeli 2009–2010 hospital survey, 56.5% of interviewed stroke survivors and 73.5% of interviewed hip-fracture survivors received inpatient rehabilitation. These proportions describe service receipt among the interviewed patients. Incomplete discharge recommendations limited the investigators' ability to distinguish failure to refer from failure to receive a service. The accompanying commentary called for measuring function across transitions as well as recording referral and receipt. Zucker et al., 2013, Results, Table 1 and Discussion; Resnik, 2013, commentary on discharge documentation and outcome assessment.
+
 ## Summary
 
 **Frameworks**
@@ -49,6 +145,15 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
   - Bladder incontinence **50% to 70%** month 1, back to general-population levels by **6 months** (p831).
   - Shoulder pain **34% to 84%**; depression **15% to 70%** (p831).
 - Post-THA (posterolateral): may need to avoid **more than 90 degrees** hip flexion early (p832).
+
+**Putting the rest of the chapter into a plan**
+
+- A diagnosis identifies the disease. A functional history identifies the task that has become difficult and the circumstances in which it fails. Two patients who cannot walk the same distance may be limited by dyspnea or by pain on loading a joint. The impairment, intervention and suitable destination can differ (p818–820).
+- The team should set a measurable activity goal with the patient and family. Exercise to improve strength or range is most useful when it serves a task such as rising from a chair, reaching a shelf or transferring into a bath. Persistent symptoms after a session prompt reconsideration of its dose (p822–825).
+- Heat, cold and electrical stimulation serve different purposes. Impaired circulation, sensation or cognition can make a thermal treatment unsafe. Buoyancy can assist movement, whereas whole-body warming can be poorly tolerated. The chapter distinguishes stimulation for pain from stimulation for muscle recruitment and wound healing (p825–827).
+- Adapt the environment as well as the person. A bathing aid, an appropriate toilet seat or a device for dressing may restore independence in a specific task. Assess whether the patient can operate it and whether it fits at home. Electronic controls and communication aids can help when movement or speech limits participation (p827–829).
+- In Parkinsonism, auditory rhythm or visual cues can reduce freezing for some patients. In osteoarthritis, strengthening can improve function and reduce pain, but the exercise that provokes pain should be modified or avoided. Following amputation, previous walking ability, the energy demands of prosthetic gait and capacity to learn matter when planning mobility (p830–832).
+- At discharge, residual impairments can limit activity and expose the patient to further complications of inactivity. A transition to feasible community exercise extends the gains of a time-limited rehabilitation episode (p832–833).
 
 ## Recall
 
