@@ -1003,8 +1003,14 @@ window.HazzardMCQ = (() => {
       if(q.kind!=='practice')return null;
       const checked=q.sourceChecked||{},source=q.ref||'';
       const named=/Hazzard/i.test(source), reviewed=/Hazzard/i.test(checked.source||'');
+      // A chapter-only import can have a more precise teaching citation. Read
+      // only the locator immediately attached to Hazzard's eighth edition;
+      // journal pagination and a law's section numbers belong to other sources.
+      const citation=(q.explanation||'').match(/^(?:Reference|אסמכתא) · [^\n]+/mu)?.[0]||'';
+      const teaching=citation.match(/\bHazzard\s+8e\s*[,·]?\s*(?:(?:Ch(?:apter)?\.?|פרק)\s*\d+\s*[,·–-]\s*)?(?:pp?\.?|עמ[׳']|עמוד(?:ים)?)\s*(\d+)\b/iu);
       const printed=Number(q.bookPage)||(reviewed&&Number(String(checked.locator||'').match(/^(?:pp?\.?\s*)?(\d+)\b/i)?.[1]))
-        ||(named&&Number(source.match(/\bpp?\.?\s*(\d+)/i)?.[1]));
+        ||(named&&Number(source.match(/\bpp?\.?\s*(\d+)/i)?.[1]))
+        ||((named||reviewed)&&Number(teaching?.[1]));
       if(printed){
         const destination=bookChapters.find(c=>c.start<=printed&&printed<=c.end);
         if(destination)return {chapter:destination.chapter,page:printed,available:true};
@@ -1033,7 +1039,7 @@ window.HazzardMCQ = (() => {
       const source=sourceTitle(ref?.reference||q.ref).replace(/\s*·\s*(\u00a7?)/g,(_,section)=>section?' · '+section:' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
       const practice=practicePage(q);
       let html='<div class="mcq-citations">'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">'+sourceHTML('Source: '+source)+'</button>':'<p class="meta">'+sourceHTML('Source: '+(source||sourceLabel(q)))+'</p>');
-      if(generated(q)&&practice&&!ref?.pages?.some(p=>p.available))html+='<button class="mcq-page-link" data-page="'+practice.page+'">Open page '+practice.page+(practice.chapterStart?' (chapter start)':'')+'</button>';
+      if(practice&&q.source!=='drill'&&!ref?.pages?.some(p=>p.available))html+='<button class="mcq-page-link" data-page="'+practice.page+'">Open page '+practice.page+(practice.chapterStart?' (chapter start)':'')+'</button>';
       const note=ref?.referenceNote||q.referenceNote;
       if(note)html+='<p class="meta" dir="auto">'+escape(note)+'</p>';
       const assigned=ref?.chapters.length?ref.chapters:[String(q.chapter)];
