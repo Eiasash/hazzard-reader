@@ -12,7 +12,7 @@ window.HazzardEvidence = (() => {
       const all=bank;data.currentChapters={};
       for(const q of all)if(!q.retired&&q.chapter!=null)(data.currentChapters[String(q.chapter)]||=[]).push(q.id);
       // A bibliography can cite two chapters or name one chapter and print a page in another.
-      for(const chapter of ['1','22','59','61']){
+      for(const chapter of rebuilt){
         const cited=Object.entries(data.questions).filter(([,entry])=>entry.chapters.includes(chapter)).map(([id])=>id);
         data.currentChapters[chapter]=[...new Set([...(data.currentChapters[chapter]||[]),...cited])];
       }
@@ -65,7 +65,7 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = 'p' + page.page;
     location.assign(url);
   }
-  const rebuilt = new Set(['1','22','55','59','61']);
+  const rebuilt = new Set(['1','3','22','46','55','58','59','61','99']);
   function askedBadge(entries, description, anchor, compact) {
     const badge = document.createElement('span');
     badge.className = compact ? 'exam-evidence exam-links' : 'exam-evidence';
