@@ -28,6 +28,8 @@ A **two-wheeled walker** advances more easily and permits a smoother gait. Its f
 
 A **four-wheeled rollator** turns easily, negotiates outdoor surfaces and provides a seat. For a patient limited by exertional dyspnea, the chance to sit and recover matters. The price of that mobility is less stability and the need to coordinate the hand brakes before sitting or standing (p827–828).
 
+<span data-practice-ids="mcq-9e41920180218015f9a52e2c mcq-0a63b1fdce0707c8e2c49e60 mcq-f36a867b1cc82a728769c382" data-reader-metadata="exam"></span>
+
 <span data-exam-page="827"></span>
 
 A **straight cane** widens the base of support and provides sensory feedback through the hand. Advance the cane with the involved leg, holding it in the opposite hand. The June 2026 patient had left hip abductor weakness and needed minimal help with balance, making a single point in the right hand appropriate. A quad cane accepts more weight and can help in hemiparesis, but its heavier, wider base may catch the foot or fit poorly on a stair (p827–828).
@@ -62,6 +64,8 @@ A cardiac rehabilitation program also provides monitoring, risk-factor managemen
 
 ## Stroke recovery and readiness to participate
 
+<span data-practice-ids="mcq-610da062dae0a19d869b2ef7 mcq-bcae0dab35a2e9279066d221 mcq-ef77c3f440fa29a46ca59282 mcq-93ed9b58f5e9451decd9ae85" data-reader-metadata="exam"></span>
+
 <span data-exam-ids="mcq-de35ec8f8613614fad033467 mcq-5323c51583402673a5d61738"></span>
 
 September 2024 Q36 asked about apraxia: difficulty executing a learned action despite understanding the instruction and recovering strength. June 2026 Q92 asked for a different inference: transfers and communication improved while walking and stairs stayed at the lowest FIM score. The accepted explanation is a continuing weight-bearing restriction. The chart measures performance and does not identify the fracture. Official locators: September 2024 reference list, Q36, Stroke Rehabilitation Clinician Handbook p15; June 2026 album, Figure 4.
@@ -75,6 +79,8 @@ Cognitive impairment calls for an assessment of ability to learn and follow inst
 <a id="israeli-context"></a>
 
 ## Israeli context — שיקום גריאטרי בישראל
+
+<span data-practice-ids="mcq-f7cdd68518d6671b51791c12 mcq-e9726c2e2313e5408517930a mcq-584efd4ae05bbe5c48d0409f mcq-6ba05d11f3ef3af2f94b0786 mcq-fda71abd73e488940f33d8a8" data-reader-metadata="exam"></span>
 
 <span data-exam-ids="mcq-f6c1d45922e1027bb5ab4324 mcq-92187e5ab10d4fe7ecd14771 mcq-b68a3e95e9873facb2f5f6cc mcq-1bbe7663ed422d20fc60e429"></span>
 

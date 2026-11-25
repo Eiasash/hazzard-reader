@@ -22,9 +22,11 @@ def generate():
     chapters = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))['chapters']
     chapter_titles = {str(c['number']): c['title'] for c in chapters}
     for q in all_questions:
-        chapter = references.get(q['id'], {}).get('bankChapter')
-        if chapter is not None:
-            q = {**q, 'chapter': chapter, 'chapterTitle': chapter_titles[chapter]}
+        reference = references.get(q['id'], {})
+        if 'bankChapter' in reference:
+            chapter = reference['bankChapter']
+            title = '' if chapter is None else (reference.get('bankChapterTitle') or chapter_titles[chapter])
+            q = {**q, 'chapter': chapter, 'chapterTitle': title}
         # Hash prefixes keep chunk URLs stable when questions are added or moved.
         chunk = q['id'][4:6]
         chunks.setdefault(chunk, []).append(q)

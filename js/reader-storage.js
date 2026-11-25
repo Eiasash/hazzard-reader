@@ -100,7 +100,7 @@ window.HazzardStorage = (() => {
   else if(key===HazzardSimulation.KEY)valid=HazzardSimulation.valid(value);
   else if(key===HazzardMCQ.VIEW_KEY)valid=HazzardMCQ.validView(value);
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
-  else if(key==='hazzard-chapters-sort-v1')valid=['number','title','yield'].includes(value);
+  else if(key==='hazzard-chapters-sort-v1')valid=['number','title','yield','recent'].includes(value);
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&['yellow','green','blue'].includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
