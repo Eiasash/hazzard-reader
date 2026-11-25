@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v306",
+      "date": "2026-11-25",
+      "changes": [
+        "Rewritten question explanations introduce the clinical concept, explain each answer choice, and flag differences between exam scoring and clinical guidance."
+      ]
+    },
+    {
       "version": "v305",
       "date": "2026-11-25",
       "changes": [
