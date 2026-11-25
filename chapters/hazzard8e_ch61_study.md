@@ -39,7 +39,7 @@ The characteristic lesions are misfolded alpha-synuclein in Lewy bodies and loss
 
 **Risk association is not causation.** The September 2024 alternatives contrasted suggested higher risk with manganese exposure against inverse associations with smoking and caffeinated coffee. PD is more common in men. The official locator is p936; the environmental discussion continues on p937. Hazzard does not present the inverse associations as preventive treatments (p936-937).
 
-PSP, MSA and CBS together have a prevalence roughly 5% to 10% of PD prevalence, and DLB is more common than those other atypical syndromes. This comparison does not establish the fraction of all parkinsonism that is atypical. September 2024 also asked about contact sports. The cited p938 and p941 discuss the syndromes; Chapter 63 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).
+PSP, MSA and CBS together have a prevalence roughly 5% to 10% of PD prevalence, and DLB is more common than those other atypical syndromes. This comparison does not establish the fraction of all parkinsonism that is atypical. September 2024 also asked about contact sports. The cited p938 and p941 discuss the syndromes; Chapter 64 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).
 
 ## When to alter dopaminergic treatment
 
