@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v315",
+      "date": "2026-11-26",
+      "changes": [
+        "Hypertension, legal issues, geriatric assessment, behavioral symptoms of dementia and emergency department care now have exam-linked Study notes, Israeli context, flashcards and revised question explanations."
+      ]
+    },
+    {
       "version": "v314",
       "date": "2026-11-26",
       "changes": [
