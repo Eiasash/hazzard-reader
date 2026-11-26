@@ -21434,5 +21434,725 @@
         81
       ]
     ]
+  },
+  {
+    "chapter": "45s",
+    "id": "u17",
+    "old": "OH-contributing drug classes: antipsychotics (MAOIs, TCAs), diuretics, beta-blockers, nitrates/alpha-blockers — alpha+beta combination especially dangerous (p668)",
+    "new": "Drugs that can contribute to OH include antipsychotics, antidepressants such as MAOIs and TCAs, diuretics, beta-blockers, nitrates and alpha-blockers. Combined alpha and beta blockade further impairs compensation on standing (p668)",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        29
+      ],
+      [
+        2,
+        15,
+        31,
+        31
+      ],
+      [
+        16,
+        29,
+        32,
+        39
+      ],
+      [
+        44,
+        51,
+        54,
+        54
+      ],
+      [
+        53,
+        53,
+        56,
+        90
+      ],
+      [
+        57,
+        58,
+        94,
+        94
+      ],
+      [
+        94,
+        95,
+        130,
+        135
+      ],
+      [
+        109,
+        109,
+        149,
+        150
+      ],
+      [
+        110,
+        111,
+        151,
+        159
+      ],
+      [
+        117,
+        118,
+        165,
+        170
+      ],
+      [
+        123,
+        134,
+        175,
+        183
+      ],
+      [
+        135,
+        145,
+        184,
+        191
+      ],
+      [
+        146,
+        155,
+        192,
+        224
+      ]
+    ]
+  },
+  {
+    "chapter": "30s",
+    "id": "u27",
+    "old": "Past-exam questions linked to this chapter (2):",
+    "new": "Two questions below cite passages in Chapter 30 that directly teach their answers.",
+    "edits": [
+      [
+        0,
+        9,
+        0,
+        3
+      ],
+      [
+        20,
+        26,
+        14,
+        19
+      ],
+      [
+        27,
+        29,
+        20,
+        24
+      ],
+      [
+        30,
+        34,
+        25,
+        33
+      ],
+      [
+        35,
+        42,
+        34,
+        36
+      ],
+      [
+        43,
+        47,
+        37,
+        82
+      ]
+    ]
+  },
+  {
+    "chapter": "97s",
+    "id": "u8",
+    "old": "Hyperprolactinemia tiers: mild 20–50 ng/mL (rarely needs treatment, just exclude primary hypothyroidism with TSH), moderate 50–250 ng/mL (refer — likely prolactinoma), severe >250 ng/mL (refer — almost always a large prolactinoma) (p1525, p1528).",
+    "new": "Hyperprolactinemia tiers: mild 20–50 ng/mL (rarely needs treatment, review medicines, renal function and TSH and repeat a mild elevation after rest), moderate 50–250 ng/mL (refer — likely prolactinoma), severe >250 ng/mL (refer — almost always a large prolactinoma) (p1525, p1528).",
+    "edits": [
+      [
+        68,
+        72,
+        68,
+        74
+      ],
+      [
+        73,
+        80,
+        75,
+        85
+      ],
+      [
+        81,
+        88,
+        86,
+        91
+      ],
+      [
+        89,
+        103,
+        92,
+        100
+      ],
+      [
+        104,
+        108,
+        101,
+        104
+      ],
+      [
+        112,
+        112,
+        108,
+        147
+      ]
+    ]
+  },
+  {
+    "chapter": "97s",
+    "id": "u18",
+    "old": "Primary hyperaldosteronism affects 5–10% of hypertensive patients; workup = plasma aldosterone:renin ratio, stop spironolactone 4 weeks before testing; primary hyperaldosteronism suggested by aldosterone >10 ng/dL with renin activity <1 ng/mL/hr (p1532–1533).",
+    "new": "Primary hyperaldosteronism affects 5–10% of hypertensive patients; workup = plasma aldosterone:renin ratio, withdraw spironolactone for 4 weeks before testing when safe and feasible; primary hyperaldosteronism suggested by aldosterone >10 ng/dL with renin activity <1 ng/mL/hr (p1532–1533).",
+    "edits": [
+      [
+        108,
+        112,
+        108,
+        116
+      ],
+      [
+        127,
+        127,
+        131,
+        135
+      ],
+      [
+        150,
+        150,
+        158,
+        181
+      ]
+    ]
+  },
+  {
+    "chapter": "97s",
+    "id": "u44",
+    "old": "Exam traps: the chapter gives two different vitamin D deficiency thresholds in the same section — AGS <30 ng/mL vs IOM <12 ng/mL (insufficiency 12–20) (p1539) — know which guideline a question is citing.",
+    "new": "Exam traps: the historical AGS fall-prevention goal in high-risk patients was a minimum of 30 ng/mL. Falling short of that goal does not itself diagnose vitamin D deficiency. The IOM classified values below 12 ng/mL as deficient (p1539) — know which guideline a question is citing.",
+    "edits": [
+      [
+        16,
+        23,
+        16,
+        26
+      ],
+      [
+        24,
+        29,
+        27,
+        30
+      ],
+      [
+        30,
+        33,
+        31,
+        46
+      ],
+      [
+        34,
+        43,
+        47,
+        152
+      ],
+      [
+        64,
+        64,
+        173,
+        174
+      ],
+      [
+        65,
+        114,
+        175,
+        178
+      ],
+      [
+        119,
+        120,
+        183,
+        207
+      ],
+      [
+        129,
+        143,
+        216,
+        218
+      ],
+      [
+        144,
+        150,
+        219,
+        228
+      ]
+    ]
+  },
+  {
+    "chapter": "97s",
+    "id": "u53",
+    "old": "What medication must be stopped, and for how long, before an aldosterone-to-renin ratio is drawn?",
+    "new": "Which drug can interfere with the aldosterone-to-renin ratio, and what washout can be used when clinically safe?",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        5
+      ],
+      [
+        5,
+        15,
+        6,
+        10
+      ],
+      [
+        16,
+        20,
+        11,
+        14
+      ],
+      [
+        21,
+        23,
+        15,
+        24
+      ],
+      [
+        24,
+        32,
+        25,
+        29
+      ],
+      [
+        33,
+        60,
+        30,
+        33
+      ],
+      [
+        87,
+        87,
+        60,
+        61
+      ],
+      [
+        88,
+        90,
+        62,
+        65
+      ],
+      [
+        91,
+        96,
+        66,
+        111
+      ]
+    ]
+  },
+  {
+    "chapter": "97s",
+    "id": "u54",
+    "old": "Spironolactone, for 4 weeks (p1532–1533).",
+    "new": "Spironolactone for 4 weeks if safe and feasible. Monitor potassium and blood pressure and arrange alternative therapy when needed (pages 1532–1533).",
+    "edits": [
+      [
+        14,
+        15,
+        14,
+        14
+      ],
+      [
+        28,
+        28,
+        27,
+        130
+      ],
+      [
+        29,
+        34,
+        131,
+        141
+      ]
+    ]
+  },
+  {
+    "chapter": "45s",
+    "id": "u22",
+    "old": "CSS = CSH plus syncope on stimulation; vasovagal syncope or OH coexists in one-third of CSH patients; about half of CSS patients sustain an injury/fracture during episodes (p669)",
+    "new": "CSS requires an abnormal response that reproduces the patient’s usual spontaneous symptoms in a compatible clinical history; vasovagal syncope or OH coexists in one-third of CSH patients; about half of CSS patients sustain an injury/fracture during episodes (p669)",
+    "edits": [
+      [
+        4,
+        5,
+        4,
+        12
+      ],
+      [
+        6,
+        9,
+        13,
+        15
+      ],
+      [
+        10,
+        14,
+        16,
+        24
+      ],
+      [
+        15,
+        22,
+        25,
+        33
+      ],
+      [
+        23,
+        25,
+        34,
+        38
+      ],
+      [
+        26,
+        37,
+        39,
+        123
+      ]
+    ]
+  },
+  {
+    "chapter": "45s",
+    "id": "u50",
+    "old": "Seizures may occur during a syncopal event as a consequence of cerebral hypoperfusion, but are rarely a cause of syncope (p665).",
+    "new": "Brief myoclonic jerks can occur during syncope from hypoperfusion. They do not, by themselves, establish an epileptic seizure (p665).",
+    "edits": [
+      [
+        0,
+        8,
+        0,
+        5
+      ],
+      [
+        9,
+        12,
+        6,
+        25
+      ],
+      [
+        26,
+        27,
+        39,
+        46
+      ],
+      [
+        28,
+        71,
+        47,
+        51
+      ],
+      [
+        85,
+        85,
+        65,
+        78
+      ],
+      [
+        87,
+        90,
+        80,
+        82
+      ],
+      [
+        91,
+        94,
+        83,
+        94
+      ],
+      [
+        95,
+        101,
+        95,
+        104
+      ],
+      [
+        102,
+        103,
+        105,
+        107
+      ],
+      [
+        104,
+        109,
+        108,
+        117
+      ],
+      [
+        110,
+        120,
+        118,
+        125
+      ]
+    ]
+  },
+  {
+    "chapter": "45s",
+    "id": "u84",
+    "old": "What is the diagnostic yield of a 24-hour ambulatory Holter monitor in an unselected syncope population, and what device is replacing it?",
+    "new": "What is the diagnostic yield of a 24-hour ambulatory Holter monitor in an unselected syncope population, and when can longer monitoring help?",
+    "edits": [
+      [
+        109,
+        113,
+        109,
+        113
+      ],
+      [
+        114,
+        120,
+        114,
+        117
+      ],
+      [
+        121,
+        123,
+        118,
+        124
+      ],
+      [
+        124,
+        133,
+        125,
+        135
+      ],
+      [
+        134,
+        136,
+        136,
+        140
+      ]
+    ]
+  },
+  {
+    "chapter": "45s",
+    "id": "u85",
+    "old": "Only 1% to 2% diagnostic yield in unselected populations; implantable loop recorders (ILRs), with higher diagnostic yield, are increasingly recommended as an early diagnostic tool, especially in older patients (p671–672).",
+    "new": "Only 1% to 2% diagnostic yield in unselected populations; a Holter is useful when symptoms are frequent. An implantable loop recorder can capture an infrequent recurrent episode when arrhythmia remains a concern after the initial assessment (p671–672).",
+    "edits": [
+      [
+        58,
+        58,
+        58,
+        108
+      ],
+      [
+        75,
+        84,
+        125,
+        133
+      ],
+      [
+        85,
+        92,
+        134,
+        137
+      ],
+      [
+        93,
+        154,
+        138,
+        145
+      ],
+      [
+        158,
+        163,
+        149,
+        159
+      ],
+      [
+        164,
+        174,
+        160,
+        169
+      ],
+      [
+        175,
+        180,
+        170,
+        177
+      ],
+      [
+        181,
+        191,
+        178,
+        182
+      ],
+      [
+        192,
+        194,
+        183,
+        193
+      ],
+      [
+        195,
+        200,
+        194,
+        201
+      ],
+      [
+        201,
+        209,
+        202,
+        240
+      ]
+    ]
+  },
+  {
+    "chapter": "34",
+    "id": "u43",
+    "old": "Excluded from the IMA required reading list (P005-2026); cited once in past papers.",
+    "new": "P005-2026 excludes Chapter 34 and separately assigns the NEJM review on age-related hearing loss.",
+    "edits": [
+      [
+        0,
+        8,
+        0,
+        9
+      ],
+      [
+        9,
+        13,
+        10,
+        52
+      ],
+      [
+        18,
+        21,
+        57,
+        61
+      ],
+      [
+        22,
+        30,
+        62,
+        68
+      ],
+      [
+        31,
+        38,
+        69,
+        71
+      ],
+      [
+        39,
+        43,
+        72,
+        83
+      ],
+      [
+        44,
+        56,
+        84,
+        91
+      ],
+      [
+        57,
+        82,
+        92,
+        96
+      ]
+    ]
+  },
+  {
+    "chapter": "34s",
+    "id": "u21",
+    "old": "Excluded from the IMA required reading list (P005-2026); cited once in past papers.",
+    "new": "P005-2026 excludes Chapter 34 and separately assigns the NEJM review on age-related hearing loss.",
+    "edits": [
+      [
+        0,
+        8,
+        0,
+        9
+      ],
+      [
+        9,
+        13,
+        10,
+        52
+      ],
+      [
+        18,
+        21,
+        57,
+        61
+      ],
+      [
+        22,
+        30,
+        62,
+        68
+      ],
+      [
+        31,
+        38,
+        69,
+        71
+      ],
+      [
+        39,
+        43,
+        72,
+        83
+      ],
+      [
+        44,
+        56,
+        84,
+        91
+      ],
+      [
+        57,
+        82,
+        92,
+        96
+      ]
+    ]
+  },
+  {
+    "chapter": "34s",
+    "id": "u26",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Past-exam questions linked to this chapter (3):",
+    "edits": [
+      [
+        44,
+        45,
+        44,
+        45
+      ]
+    ]
+  },
+  {
+    "chapter": "100s",
+    "id": "u27",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Past-exam questions linked to this chapter (8):",
+    "edits": [
+      [
+        44,
+        45,
+        44,
+        45
+      ]
+    ]
   }
 ]

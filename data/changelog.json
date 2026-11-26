@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v316",
+      "date": "2026-11-26",
+      "changes": [
+        "Nutrition disorders and alimentation, hearing loss, endocrine disorders, myopathies and vasculitis, and syncope and dizziness now have exam-linked Study notes, Israeli context, flashcards and revised question explanations."
+      ]
+    },
+    {
       "version": "v315",
       "date": "2026-11-26",
       "changes": [
