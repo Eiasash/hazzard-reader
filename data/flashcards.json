@@ -7630,6 +7630,128 @@
     ]
   },
   {
+    "id": "ch34-family",
+    "chapter": "34",
+    "page": 490,
+    "anchor": "ch34-heritability",
+    "front": "How can hearing loss run in families when diabetes and noise also damage hearing?",
+    "back": "The family study estimated heritability at about 55% of population variation. This cannot be read as a fraction of individual cases. This is compatible with environmental and vascular injury in the same patient. Hazzard 8e, pp489–491. September 2024 Q30 names the chapter only.",
+    "questionIds": [
+      "mcq-db9b505b636e803c1bb580ce"
+    ]
+  },
+  {
+    "id": "ch34-consonants",
+    "chapter": "34",
+    "page": 495,
+    "anchor": "exam-p495-mcq-ca570710752bad38efb708ba",
+    "front": "A patient can hear the voice but misses words. Why is ספר (sefer) particularly vulnerable in presbycusis?",
+    "back": "Both /s/ and /f/ carry high-frequency cues that separate words. The voice may remain audible through its lower-frequency sounds. Hazzard 8e, pp494–495, Table 34-2.",
+    "questionIds": [
+      "mcq-ca570710752bad38efb708ba"
+    ]
+  },
+  {
+    "id": "ch34-implant",
+    "chapter": "34",
+    "page": 1510,
+    "anchor": "ch34-implant-referral",
+    "front": "PTA4 is 70 dB in the better ear. Speech is unclear even in quiet with well-fitted aids. What next?",
+    "back": "Refer for cochlear implant evaluation. A PTA4 generally at least 60 dB in one or both ears plus poor aided communication warrants assessment. Refer before deciding candidacy. Lin, NEJM 2024, pp1509–1511, Table 2 and Figure 2.",
+    "questionIds": [
+      "mcq-4c92ab23f4ca6e471480cf69"
+    ],
+    "sourceLabel": "Assigned article · Lin, NEJM 2024, pp1509–1511",
+    "studyReference": {
+      "anchor": "ch34-study-implant",
+      "label": "PTA4 and aided sentence scores"
+    }
+  },
+  {
+    "id": "ch34-audiogram",
+    "chapter": "34",
+    "page": 495,
+    "anchor": "ch34-peripheral",
+    "front": "Which pattern makes presbycusis the leading diagnosis in an older patient with gradual hearing difficulty?",
+    "back": "Bilateral high-frequency sensorineural loss. Basal cochlear damage affects high pitches first. A flat or mixed pattern is also possible, and asymmetry or abrupt onset merits a different work-up. Hazzard 8e, pp495–496, Figure 34-5.",
+    "questionIds": [
+      "mcq-2d2136158de144580f0bb96e",
+      "mcq-55281d9a845c3589d652473b",
+      "mcq-a41137559e41d3ccae4315c6",
+      "mcq-d6028ebbd88ff40f89a76314"
+    ]
+  },
+  {
+    "id": "ch34-digital-aid",
+    "chapter": "34",
+    "page": 499,
+    "anchor": "ch34-aids",
+    "front": "A patient has bilateral high-frequency thresholds of 45–50 dB and trouble following conversation. How can amplification help?",
+    "back": "Fit hearing aids to the audiogram and assess speech understanding in the settings that matter to the patient. Digital gain can improve audibility at affected frequencies while preserving comfortable volume elsewhere. Hazzard 8e, p499, Figure 34-6.",
+    "questionIds": [
+      "mcq-63b30df3a4d8c5a2eff5cde9"
+    ]
+  },
+  {
+    "id": "ch34-communication",
+    "chapter": "34",
+    "page": 497,
+    "anchor": "ch34-noise",
+    "front": "A patient follows one speaker but loses words in background noise. How do you assess this limitation and adapt the visit?",
+    "back": "Speech-in-noise testing such as QuickSIN measures the extra signal advantage required. Reduce background noise, face the patient and allow time to process speech. Hazzard 8e, pp495–497; Lin, NEJM 2024, p1509.",
+    "questionIds": [
+      "mcq-55281d9a845c3589d652473b",
+      "mcq-7678d0f0cb11329add5661f2"
+    ]
+  },
+  {
+    "id": "ch34-cognition",
+    "chapter": "34",
+    "page": 500,
+    "anchor": "ch34-cognition",
+    "front": "What can you tell a patient about hearing rehabilitation and future cognitive decline?",
+    "back": "Hearing loss and cognitive decline are associated. Rehabilitation improves communication. The ACHIEVE trial found no overall difference in cognitive change at three years, with less decline in a higher-risk subgroup. Hazzard 8e, p500; Lin, NEJM 2024, p1511.",
+    "questionIds": [
+      "mcq-93e64635664c322c2373bc71"
+    ]
+  },
+  {
+    "id": "ch34-earwax",
+    "chapter": "34",
+    "page": 1508,
+    "anchor": "ch34-practice-wax",
+    "front": "When is earwax clinically impacted, and what should follow removal?",
+    "back": "Wax that produces symptoms or obstructs a necessary examination is impacted. Recheck the ear and symptoms after removal; investigate persistent hearing loss. AAO-HNSF Earwax guideline (2017), KAS 2A, 5A and 9; related discussion in Lin, NEJM 2024, pp1506–1508.",
+    "questionIds": [
+      "mcq-24929347c42da5c18dc20d1b"
+    ],
+    "sourceLabel": "Practice application · AAO-HNSF Earwax guideline"
+  },
+  {
+    "id": "ch34-tinnitus",
+    "chapter": "34",
+    "page": 1506,
+    "anchor": "ch34-practice-tinnitus",
+    "front": "An older adult reports tinnitus. What should you check before considering imaging?",
+    "back": "Clarify laterality, pulsation and distress, examine the ear, review medication and obtain audiometry. Target imaging to concerning features, including asymmetric hearing or focal neurologic signs. AAO-HNSF Tinnitus Update (2026), KAS 1–2, 5–6; related discussion in Lin, NEJM 2024, p1506.",
+    "questionIds": [
+      "mcq-5f7d0f91fb93252ece4cd37e"
+    ],
+    "sourceLabel": "Practice application · AAO-HNSF Tinnitus Update"
+  },
+  {
+    "id": "ch34-visual-release",
+    "chapter": "34",
+    "page": 141,
+    "anchor": "ch34-practice-visual",
+    "front": "A patient with vision and hearing loss sees people and animals but recognizes that they are unreal. Which sensory deficit explains the hallucinations?",
+    "back": "Loss of visual input can produce Charles Bonnet syndrome. Insight usually persists. Check for other causes of new hallucinations. Hazzard 8e, Ch 9, p141; NHS, Charles Bonnet syndrome, 2026, symptoms and causes.",
+    "questionIds": [
+      "mcq-ef4e683f2133096fc7260d0c"
+    ],
+    "sourceLabel": "Practice application · NHS Charles Bonnet syndrome"
+  },
+  {
     "id": "ch97-sick-day-replacement",
     "chapter": "97",
     "page": 1532,
@@ -7844,6 +7966,143 @@
     "back": "The mass must be homogeneous and the measurement taken on unenhanced CT. At 10 HU or below this appearance is characteristic of a benign lipid-rich lesion. Hazzard 8e, p. 1532; ESE/ENSAT 2023, recommendation 2.3.",
     "questionIds": [
       "mcq-38e4e7a93de1d3642f3d9d86"
+    ]
+  },
+  {
+    "id": "ch100-gca-negative-biopsy",
+    "chapter": "100",
+    "page": 1605,
+    "anchor": "exam-p1605-mcq-6a914458cacf7c8f2fe7390b",
+    "front": "Sudden visual decline and jaw claudication suggest GCA, but the first temporal artery biopsy is negative. What now?",
+    "back": "Treat threatened vision immediately with high-dose glucocorticoids and consider IV pulse therapy. A biopsy can miss skip lesions. Review the specimen, consider the opposite artery if cranial suspicion remains high, and use vascular imaging when further evidence is needed. Hazzard 8e, pp. 1604–1605.",
+    "questionIds": [
+      "mcq-6a914458cacf7c8f2fe7390b"
+    ]
+  },
+  {
+    "id": "ch100-gca-steroid-sparing",
+    "chapter": "100",
+    "page": 1605,
+    "anchor": "exam-p1605-mcq-0aa5f686e3b59340f14db1f7",
+    "front": "When should tocilizumab be introduced in a patient with newly diagnosed GCA?",
+    "back": "Consider early use alongside glucocorticoids when steroid toxicity, relapse or prolonged treatment is a substantial concern. IL-6 receptor blockade helps maintain remission during tapering. Urgent glucocorticoids remain necessary when vision is threatened. Hazzard 8e, p. 1605.",
+    "questionIds": [
+      "mcq-0aa5f686e3b59340f14db1f7"
+    ]
+  },
+  {
+    "id": "ch100-gca-1990-criteria",
+    "chapter": "100",
+    "page": 1605,
+    "anchor": "ch100-classification",
+    "front": "Which temporal artery findings belong to the 1990 classification criteria for GCA?",
+    "back": "Tenderness on palpation of the artery or diminished pulse, and characteristic biopsy with mononuclear or granulomatous arteritis. Giant cells may be present. The laboratory item was ESR of at least 50 mm/hour. Clinical classification required three of five items. Hazzard 8e, p. 1605, Table 100-5.",
+    "questionIds": [
+      "mcq-186034b9ada01a15d0310a5d"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1605"
+  },
+  {
+    "id": "ch100-pmr-girdles",
+    "chapter": "100",
+    "page": 1601,
+    "anchor": "exam-p1601-mcq-1fcd40e8291a57c865060963",
+    "front": "A patient has prolonged morning stiffness and struggles to get dressed. Which pattern favors PMR?",
+    "back": "Bilateral shoulder-girdle aching is more common than hip-girdle pain. Movement hurts, but strength is usually preserved. Low-grade fever can accompany the syndrome. Hazzard 8e, p. 1601.",
+    "questionIds": [
+      "mcq-1fcd40e8291a57c865060963"
+    ]
+  },
+  {
+    "id": "ch100-pmr-epidemiology",
+    "chapter": "100",
+    "page": 1600,
+    "anchor": "ch100-pmr-age",
+    "front": "Who typically develops PMR, and what peripheral joint involvement is compatible with it?",
+    "back": "Women are affected about twice as often as men, and roughly 90% of cases occur after 60. Mild symmetric nonerosive synovitis can involve hands, wrists and knees. Related Hazzard 8e teaching, pp. 1600–1601.",
+    "questionIds": [
+      "mcq-12c69c59f425d3c5e2eb601a"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1600"
+  },
+  {
+    "id": "ch100-pmr-serology",
+    "chapter": "100",
+    "page": 1601,
+    "anchor": "ch100-pmr-labs",
+    "front": "Which finding fits PMR in a patient with shoulder stiffness, elevated CRP, positive RF and an abnormal EMG?",
+    "back": "A negative ANA fits, but is nonspecific. RF positivity suggests checking for elderly-onset rheumatoid arthritis. In PMR, CK is usually normal and inflammatory EMG changes are rare. Microcytosis needs a separate explanation. Related Hazzard 8e teaching, p. 1601.",
+    "questionIds": [
+      "mcq-d9237aba5608ead24fbab02e"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1601"
+  },
+  {
+    "id": "ch100-dermatomyositis-emg",
+    "chapter": "100",
+    "page": 1592,
+    "anchor": "exam-p1592-mcq-b278a02fd7eb7f2e75f74912",
+    "front": "Dorsal knuckle erythema, loss of function and CK of 1,235 occur in an older patient. What should EMG and biopsy show?",
+    "back": "Dermatomyositis commonly yields a proximal myopathic EMG. Biopsy may show perifascicular atrophy and mononuclear cells around vessels. A history of cancer strengthens the need for a directed malignancy evaluation. Hazzard 8e, pp. 1590–1593.",
+    "questionIds": [
+      "mcq-b278a02fd7eb7f2e75f74912"
+    ]
+  },
+  {
+    "id": "ch100-statin-interaction",
+    "chapter": "100",
+    "page": 1598,
+    "anchor": "ch100-statin-risk",
+    "front": "Which concurrent drug matters when a stroke rehabilitation patient starts high-dose atorvastatin?",
+    "back": "Amiodarone can increase exposure to a statin metabolized by CYP3A4. Ask about interacting drugs and distinguish new muscle weakness or CK elevation from aches with normal CK. Symptoms can begin months after starting treatment. Related Hazzard 8e teaching, p. 1598.",
+    "questionIds": [
+      "mcq-775eea0fe2be25460871ab1d"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1598"
+  },
+  {
+    "id": "ch100-statin-stop",
+    "chapter": "100",
+    "page": 1598,
+    "anchor": "ch100-statin-ck",
+    "front": "A patient taking a statin has myalgia and CK 12 times the upper limit of normal. What action is indicated?",
+    "back": "Stop the statin. The chapter specifies withdrawal above ten times the upper limit. Assess the severity and follow CK and strength. Persistent abnormalities raise the possibility of anti-HMGCR-associated necrotizing myopathy. Hazzard 8e, p. 1598.",
+    "questionIds": [
+      "mcq-13a6c8cd041ebb025c0829f4",
+      "mcq-2a0e19fa9b6faf6858428b34"
+    ]
+  },
+  {
+    "id": "ch100-colchicine-renal",
+    "chapter": "100",
+    "page": 1598,
+    "anchor": "ch100-colchicine",
+    "front": "Why review the colchicine dose in an older patient with gout and reduced kidney function?",
+    "back": "Renal impairment increases neuromuscular toxicity even with daily prophylactic dosing. Tailor the dose or interval to renal function. Look for new proximal weakness and increased CK. Hazzard 8e, p. 1598.",
+    "questionIds": [
+      "mcq-d545b51c475b1d54ee9006f6"
+    ]
+  },
+  {
+    "id": "ch100-steroid-myopathy",
+    "chapter": "100",
+    "page": 1597,
+    "anchor": "ch100-steroid",
+    "front": "A patient receiving prolonged prednisone has weak hip flexors and a normal CK. What addresses the myopathy?",
+    "back": "Coordinate a steroid taper and begin reconditioning exercise. Steroid-related type II fiber atrophy commonly occurs without CK elevation or inflammatory EMG findings. Hazzard 8e, p. 1597.",
+    "questionIds": [
+      "mcq-7a9040756ef9905402192678"
+    ]
+  },
+  {
+    "id": "ch100-muscle-enzyme",
+    "chapter": "100",
+    "page": 1590,
+    "anchor": "ch100-muscle-enzymes",
+    "front": "In a patient with weakness after cardiac rehabilitation, which initial blood test measures a muscle enzyme?",
+    "back": "Serum creatine kinase measures muscle enzyme release. Thyroid and electrolyte tests look for possible causes of weakness, and postural blood-pressure measurement investigates a separate contributor to falls. Hazzard 8e, pp. 1590–1591.",
+    "questionIds": [
+      "mcq-ba5ea5f9914ded295291e8be"
     ]
   },
   {

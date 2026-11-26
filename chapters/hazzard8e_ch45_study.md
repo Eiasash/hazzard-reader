@@ -94,7 +94,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 **Carotid sinus hypersensitivity / carotid sinus syndrome (CSS)**
 - CSH definition: asystole **≥3 sec** (cardioinhibitory) and/or systolic BP fall **>50 mmHg** (vasodepressor) during carotid sinus massage (p669)
 - Massage technique: done sequentially on each side; recommended duration **5 to 10 sec**; maximal HR fall occurs within **5 sec** of onset (p669)
-- CSS = CSH plus syncope on stimulation; vasovagal syncope or OH coexists in **one-third** of CSH patients; about **half** of CSS patients sustain an injury/fracture during episodes (p669)
+- CSS requires an abnormal response that reproduces the patient’s usual spontaneous symptoms in a compatible clinical history; vasovagal syncope or OH coexists in **one-third** of CSH patients; about **half** of CSS patients sustain an injury/fracture during episodes (p669)
 
 **Evaluation of syncope**
 - Presence of heart disease independently predicts cardiac syncope: sensitivity **95%**, specificity **45%** (p671)
@@ -120,7 +120,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 
 <details><summary>Answer</summary>
 
-Transient loss of consciousness from cerebral hypoperfusion, with loss of postural tone and spontaneous, complete recovery. Other transient causes of LOC (eg, vertebrobasilar ischemia, hypoxemia, hypoglycemia) are technically not syncope if they involve focal neurologic abnormalities or do not recover spontaneously without intervention (eg, oxygen or glucose). Seizures may occur during a syncopal event as a consequence of cerebral hypoperfusion, but are rarely a cause of syncope (p665).
+Transient loss of consciousness from cerebral hypoperfusion, with loss of postural tone and spontaneous, complete recovery. Other transient causes of LOC (eg, vertebrobasilar ischemia, hypoxemia, hypoglycemia) are technically not syncope if they involve focal neurologic abnormalities or do not recover spontaneously without intervention (eg, oxygen or glucose). Brief myoclonic jerks can occur during syncope from hypoperfusion. They do not, by themselves, establish an epileptic seizure (p665).
 
 </details>
 
@@ -204,11 +204,11 @@ Sensitivity 95%, specificity 45% (p671).
 
 </details>
 
-**12. What is the diagnostic yield of a 24-hour ambulatory Holter monitor in an unselected syncope population, and what device is replacing it?**
+**12. What is the diagnostic yield of a 24-hour ambulatory Holter monitor in an unselected syncope population, and when can longer monitoring help?**
 
 <details><summary>Answer</summary>
 
-Only 1% to 2% diagnostic yield in unselected populations; implantable loop recorders (ILRs), with higher diagnostic yield, are increasingly recommended as an early diagnostic tool, especially in older patients (p671–672).
+Only 1% to 2% diagnostic yield in unselected populations; a Holter is useful when symptoms are frequent. An implantable loop recorder can capture an infrequent recurrent episode when arrhythmia remains a concern after the initial assessment (p671–672).
 
 </details>
 

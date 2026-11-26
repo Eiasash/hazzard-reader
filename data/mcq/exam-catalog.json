@@ -6605,8 +6605,14 @@
         ],
         "bankChapter": "100",
         "passages": {
-          "1593": "The cardinal manifestation of DM is a symmetric proximal weakness of subacute onset. In some",
-          "1592": "Idiopathic Inflammatory Myopathies The idiopathic inflammatory myopathies (IIM) are the most"
+          "1593": {
+            "text": "The predominant inflammatory infiltrate is seen in the perimysial and perivascular regions and comprises CD4+ T-cells, B-cells, dendritic cells, and macrophages.",
+            "rangeText": "The predominant inflammatory infiltrate is seen in the perimysial and perivascular regions and comprises CD4+ T-cells, B-cells, dendritic cells, and macrophages."
+          },
+          "1592": {
+            "text": "Patients with classic dermatomyositis (DM) typically present with symmetric proximal muscle weakness, elevated muscle enzymes, and characteristic cutaneous findings.",
+            "rangeText": "Patients with classic dermatomyositis (DM) typically present with symmetric proximal muscle weakness, elevated muscle enzymes, and characteristic cutaneous findings."
+          }
         }
       }
     },
@@ -13179,6 +13185,14 @@
         ],
         "chapters": [
           "34"
+        ],
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "34",
+            "anchor": "ch34-heritability",
+            "label": "Hazzard 8e teaching on familial hearing loss, p490; the examination specifies Chapter 34 without a printed page."
+          }
         ]
       }
     },
@@ -16181,7 +16195,7 @@
           "34"
         ],
         "passages": {
-          "495": "However, losses at higher frequencies like those in ARHL cost the ability to discriminate be"
+          "495": "However, losses at higher frequencies like those in ARHL cost the ability to discriminate between many words with f, p, k, s, t, th sounds"
         }
       }
     },
@@ -19504,7 +19518,18 @@
       "fromBasic": false,
       "duplicates": [
         4335
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "34",
+            "anchor": "ch34-implant-referral",
+            "label": "P005 article 6: Lin, Age-Related Hearing Loss, NEJM 2024, pp1509–1511, Table 2 and Figure 2."
+          }
+        ]
+      },
+      "referenceNote": "The June 2026 bibliography gives מאמר (article) without an author or title. The P005-2026 syllabus, p3, separately assigns article 6, Age-Related Hearing Loss (Lin, NEJM 2024, pp1505–1512). See Table 2, Figure 2 and the cochlear implant discussion on pp1509–1511. P005 p1 excludes Hazzard Chapter 34."
     },
     "4486": {
       "id": "mcq-b14f606286b7110d9c822ade",
@@ -21741,7 +21766,10 @@
           "100"
         ],
         "passages": {
-          "1605": "Treatment The risk of acute visual loss mandates that corticosteroid therapy be initiated in"
+          "1605": {
+            "text": "Biopsy of the contralateral artery infrequently provides pathologic confirmation when the initial biopsy is negative but may be pursued in a patient for whom the diagnosis remains in doubt",
+            "rangeText": "Biopsy of the contralateral artery infrequently provides pathologic confirmation when the initial biopsy is negative but may be pursued in a patient for whom the diagnosis remains in doubt"
+          }
         }
       }
     },
@@ -23555,7 +23583,10 @@
           "100"
         ],
         "passages": {
-          "1605": "Treatment The risk of acute visual loss mandates that corticosteroid therapy be initiated in"
+          "1605": {
+            "text": "For patients with new-onset GCA who are at increased risk of developing glucocorticoidrelated adverse effects or complications, relapse, or prolonged therapy and in patients who experience relapse, tocilizumab should be instituted early on in the course of treatment.",
+            "rangeText": "For patients with new-onset GCA who are at increased risk of developing glucocorticoidrelated adverse effects or complications, relapse, or prolonged therapy and in patients who experience relapse, tocilizumab should be instituted early on in the course of treatment."
+          }
         }
       }
     },
@@ -26165,7 +26196,10 @@
           1601
         ],
         "passages": {
-          "1601": "Clinical features and diagnostic criteria An abrupt onset or slowly progressive, symmetric p"
+          "1601": {
+            "text": "Shoulder pain (75%–90%) is more common than hip pain (50%–70%).",
+            "rangeText": "Shoulder pain (75%–90%) is more common than hip pain (50%–70%)."
+          }
         }
       }
     },

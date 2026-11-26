@@ -103,7 +103,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 **Treat pain and preserve function.** Consider zoledronic acid for active, symptomatic Paget disease. Correct hypocalcemia or vitamin D deficiency, check renal function and use the labeled 5 mg IV dose over at least 15 minutes only if appropriate. The Paget formulation is contraindicated below creatinine clearance 35 mL/min or with acute renal impairment. Provide gait aids, physical therapy, hearing evaluation or orthopedic referral according to the site and functional effects (p. 1542). [Zoledronic acid prescribing information, sections 2.6–2.9 and 4](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a9b3737-9ce6-4a89-b76e-6aab79eba9cf).
 
-**Use 25-hydroxyvitamin D to assess stores.** PTH can maintain calcitriol despite depleted stores. Limited sun exposure, malabsorption, impaired kidney function and enzyme-inducing drugs all affect vitamin D balance. Severe deficiency can cause osteomalacia, proximal weakness, falls and fractures. For established severe deficiency the chapter offers daily replacement or a limited high-dose weekly course followed by maintenance. Hypercalciuria can precede overt toxicity. The historical AGS high-risk target above 30 ng/mL and IOM general-population value above 20 ng/mL answer different questions. Contemporary prevention guidance does not set a universal screening threshold for healthy adults (pp. 1539–1540). [Endocrine Society, 2024 guideline communication](https://doi.org/10.1210/clinem/dgae322).
+**Use 25-hydroxyvitamin D to assess stores.** PTH can maintain calcitriol despite depleted stores. Limited sun exposure, malabsorption, impaired kidney function and enzyme-inducing drugs all affect vitamin D balance. Severe deficiency can cause osteomalacia, proximal weakness, falls and fractures. For established severe deficiency the chapter offers daily replacement or a limited high-dose weekly course followed by maintenance. Hypercalciuria can precede overt toxicity. Hazzard describes the historical AGS high-risk target as above 30 ng/mL. The [original AGS consensus](https://doi.org/10.1111/jgs.12631) calls 30 ng/mL the minimum goal. The IOM general-population threshold answers a different question. Contemporary prevention guidance does not set a universal screening threshold for healthy adults (pp. 1539–1540). [Endocrine Society, 2024 guideline communication](https://doi.org/10.1210/clinem/dgae322).
 
 **After menopause.** Ovarian estrogen production falls. Bone density declines most rapidly in the first three to five years, then more slowly. Ask about low-trauma fractures, height loss and family history, and assess fracture risk. Across endocrine disorders, choose replacement doses with declining clearance, multimorbidity, functional goals and treatment burden in mind (pp. 1525–1527, 1536).
 
@@ -121,7 +121,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Hormone replacement doses in older adults may be **lower than young-adult doses** because metabolic clearance of thyroid hormone, hydrocortisone, and testosterone falls with age (p1526).
 
 ### Pituitary
-- Hyperprolactinemia tiers: **mild 20–50 ng/mL** (rarely needs treatment, just exclude primary hypothyroidism with TSH), **moderate 50–250 ng/mL** (refer — likely prolactinoma), **severe >250 ng/mL** (refer — almost always a large prolactinoma) (p1525, p1528).
+- Hyperprolactinemia tiers: **mild 20–50 ng/mL** (rarely needs treatment, review medicines, renal function and TSH and repeat a mild elevation after rest), **moderate 50–250 ng/mL** (refer — likely prolactinoma), **severe >250 ng/mL** (refer — almost always a large prolactinoma) (p1525, p1528).
 - Pituitary incidentaloma prevalence **10–20%** on autopsy/imaging series; macroincidentaloma defined as **≥1 cm** and needs a fuller hormone-deficiency workup plus serial MRI every 1–2 years (p1528–1529).
 - Chronic hypopituitarism incidence **<0.5 per 100,000/yr**; most common deficits are secondary hypogonadism and hypothyroidism, but **secondary hypoadrenalism, though less common, can be life-threatening** — these patients need an alert bracelet (p1529).
 
@@ -133,7 +133,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - The standard cosyntropin test measures peak serum cortisol at 30 or 60 minutes; the traditional, assay-dependent threshold is **18 μg/dL** (500 nmol/L), and p1531 misprints the unit as mg/dL ([Endocrine Society, recommendation 2.1](https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency)).
   > Current practice (not the book): peak cortisol below 500 nmol/L (18 μg/dL, assay dependent) at 30 or 60 min indicates adrenal insufficiency — Endocrine Society primary adrenal insufficiency guideline, 2016.
 - The chapter reports incidental adrenal masses in **~4%** of high-resolution abdominal CT scans and greater malignancy risk above **4 cm** (p1532); a **homogeneous mass measuring ≤10 HU on unenhanced CT** has benign imaging features and needs no further imaging under [ESE/ENSAT recommendation 2.3](https://academic.oup.com/ejendo/article/189/1/G1/7198474).
-- Primary hyperaldosteronism affects **5–10%** of hypertensive patients; workup = plasma aldosterone:renin ratio, stop **spironolactone 4 weeks** before testing; primary hyperaldosteronism suggested by aldosterone **>10 ng/dL** with renin activity **<1 ng/mL/hr** (p1532–1533).
+- Primary hyperaldosteronism affects **5–10%** of hypertensive patients; workup = plasma aldosterone:renin ratio, withdraw **spironolactone for 4 weeks** before testing when safe and feasible; primary hyperaldosteronism suggested by aldosterone **>10 ng/dL** with renin activity **<1 ng/mL/hr** (p1532–1533).
 - Pheochromocytoma incidence **<5 per million/year** but becomes more common after age 50 (p1533).
 
 ### Gonadal / Testes
@@ -160,7 +160,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Serum alkaline phosphatase is elevated in **90%** of patients; normal/near-normal AP does not exclude monostotic disease (p1542).
 - Treatment of choice: **zoledronic acid 5 mg IV** over 15–20 minutes, often a single dose sustaining remission **5–6 years**; contraindicated if creatinine clearance **<35 mL/min** (p1542).
 
-*Exam traps: the chapter gives two different vitamin D deficiency thresholds in the same section — AGS <30 ng/mL vs IOM <12 ng/mL (insufficiency 12–20) (p1539) — know which guideline a question is citing. Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
+*Exam traps: the historical AGS fall-prevention goal in high-risk patients was a minimum of 30 ng/mL. Falling short of that goal does not itself diagnose vitamin D deficiency. The IOM classified values below 12 ng/mL as deficient (p1539) — know which guideline a question is citing. Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
 
 ## Recall
 
@@ -180,11 +180,11 @@ Triple the usual daily hydrocortisone dose (about 60 mg total) for 3 days with a
 
 </details>
 
-**7. What medication must be stopped, and for how long, before an aldosterone-to-renin ratio is drawn?**
+**7. Which drug can interfere with the aldosterone-to-renin ratio, and what washout can be used when clinically safe?**
 
 <details><summary>Answer</summary>
 
-Spironolactone, for 4 weeks (p1532–1533).
+Spironolactone for 4 weeks if safe and feasible. Monitor potassium and blood pressure and arrange alternative therapy when needed (pages 1532–1533).
 
 </details>
 
