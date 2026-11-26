@@ -6651,5 +6651,431 @@
       "mcq-4a67daf896618faf079e1cb0"
     ],
     "sourceLabel": "Read the practice topic · Ch. 38, p. 569"
+  },
+  {
+    "id": "ch26-certificate",
+    "chapter": "26",
+    "front": "הפנימית מבקשת תעודה למינוי אפוטרופוס לפני הכנסת צנתר. האם להמתין לגריאטר?",
+    "back": "מומחה ברפואה פנימית הוא אחד מחמשת המומחים המנויים בחוזר. בדקו את היכולת להבין את הצנתר והדיאליזה, תקנו גורמים הפיכים ותעדו את הממצאים. חוזר מינהל רפואה 10/2006, סעיף 9.3.1, עמ׳ 4.",
+    "page": 4,
+    "anchor": "ch26-certificate",
+    "questionIds": [
+      "mcq-2a733ae05cc2358d92d04f65"
+    ],
+    "sourceLabel": "Read · חוזר מינהל רפואה 10/2006, עמ׳ 4"
+  },
+  {
+    "id": "ch26-unsafe-driver",
+    "chapter": "26",
+    "front": "נהג משאית עם פגיעה בשיפוט ממשיך לנהוג לאחר שהוזהר. למי מדווחים?",
+    "back": "למרב״ד. סעיף 12ב(א) מחייב רופא מטפל לדווח אם לדעתו המחלה מסכנת את הנהג או את זולתו בנהיגה. מתעדים את האזהרה. רשות הרישוי מקבלת את ההחלטה על הרישיון. נוסח הפקודה מובא בחוזר 6/2023, עמ׳ 1.",
+    "page": 1,
+    "anchor": "ch26-unsafe-driver",
+    "questionIds": [
+      "mcq-892e75ca458f60b67b249129"
+    ],
+    "sourceLabel": "Read · פקודת התעבורה, סעיף 12ב(א)"
+  },
+  {
+    "id": "ch26-medical-poa",
+    "chapter": "26",
+    "front": "מי יכול לערוך ייפוי כוח רפואי בלבד, ומה משתנה כשמוסיפים רכוש?",
+    "back": "למסמך רפואי בלבד די ברופא מורשה, עובד סוציאלי, פסיכולוג רשום, אח או אחות מוסמכים, או עורך דין. כשמוסיפים רכוש נדרש עורך דין שהוכשר לכך. חוק הכשרות, סעיפים 32יד ו־32טו, נוסח 19.01.2026, עמ׳ 27–29.",
+    "page": 29,
+    "anchor": "ch26-medical-poa",
+    "questionIds": [
+      "mcq-7425037b62dd263eb00a7790"
+    ],
+    "sourceLabel": "Read · חוק הכשרות, סעיף 32טו"
+  },
+  {
+    "id": "ch26-urgent-poa",
+    "chapter": "26",
+    "front": "ניקוז דימום תת־דוראלי נחוץ בדחיפות. מה בודקים לפני שחתימת אשת המטופל תספיק?",
+    "back": "בודקים אם הוא יכול להסכים בעצמו, ואם לאו, האם המסמך מקנה לאשתו סמכות רפואית והאם התקיימו תנאיו. בדרך הרגילה פונים להפעלה. בחריג הדחוף המתועד אפשר לקבל את הסכמתה לפני האישור הרשמי. הנחיית הבריאות והמשפטים מ־07.08.2023, עמ׳ 1–2.",
+    "page": 2,
+    "anchor": "ch26-urgent-poa",
+    "questionIds": [
+      "mcq-ecd64ab60c729ac9474151bc"
+    ],
+    "sourceLabel": "Read · הפעלת ייפוי כוח דחוף, עמ׳ 1–2"
+  },
+  {
+    "id": "ch26-oxygen-driving",
+    "chapter": "26",
+    "front": "איזה פרט בחולה עם פיברוזיס ריאתי הוא עילה לדיווח למרב״ד?",
+    "back": "אי־ספיקה נשימתית המחייבת חמצן בזמן נהיגה. השתמשו בטופס המעודכן. ישנוניות זמנית מתרופה מחייבת אזהרה והערכה עד להתייצבות. חוזר 6/2023, סעיפים 7–11, עמ׳ 3–4, וטופס הדיווח המעודכן, ״נשימה״.",
+    "page": 3,
+    "anchor": "ch26-oxygen-driving",
+    "questionIds": [
+      "mcq-b057a2ce63d661c48b469edf"
+    ],
+    "sourceLabel": "Read · חוזר 6/2023, עמ׳ 3–4 וטופס הדיווח"
+  },
+  {
+    "id": "ch26-supported-decisions",
+    "chapter": "26",
+    "front": "מה רשאי לעשות תומך בהחלטות אם אחיו מתקשה לבחור בטיפול?",
+    "back": "לקבל ולהנגיש מידע בתחום שהוגדר בצו ולעזור לאח לבטא ולממש בחירה שלו. אין לו סמכות להחליט על ניתוח במקומו. שינוי מהותי המחייב פתרון אחר מובא לבית המשפט. סעיף 67ב לחוק הכשרות ותקנה 10, ק״ת 11262, עמ׳ 2377–2378.",
+    "page": 2377,
+    "anchor": "ch26-supported-decisions",
+    "questionIds": [
+      "mcq-9976242ecf825d241593f4bd"
+    ],
+    "sourceLabel": "Read · חוק הכשרות, סעיף 67ב ותקנה 10"
+  },
+  {
+    "id": "ch8-moderate-frailty",
+    "chapter": "8",
+    "page": 124,
+    "anchor": "exam-p124-mcq-9f480bcc831187d54db7aa64",
+    "front": "A centenarian transfers independently with a walker but needs help with bathing, shoes and all trips outside. Which Clinical Frailty Scale level fits?",
+    "back": "Level 6, moderate frailty. Help with outside tasks and housekeeping now extends to parts of personal care. Level 5 usually involves high-order instrumental tasks and level 7 means complete dependence for personal care. Hazzard 8e, pp. 123–124, Figure 8-2.",
+    "questionIds": [
+      "mcq-9f480bcc831187d54db7aa64",
+      "mcq-a7174befb3bbc104a0f6fe64",
+      "mcq-87d329c905cb99a4f4653c4b",
+      "mcq-d508d06fd10848c4c580797c"
+    ]
+  },
+  {
+    "id": "ch8-hearing-screen",
+    "chapter": "8",
+    "page": 119,
+    "anchor": "exam-p119-mcq-e8ffe5e4732e7d63293662ad",
+    "front": "An older adult reports difficulty hearing. What can be done in the office, and when does formal audiometry enter the pathway?",
+    "back": "Ask directly, use a whisper test or screen with a handheld tone test. A positive result calls for formal audiologic assessment. For the other screening choices, the 9.5-year mammography threshold came from modeling and colonoscopy is one of several colorectal options. Hazzard 8e, pp. 119 and 161.",
+    "questionIds": [
+      "mcq-e8ffe5e4732e7d63293662ad"
+    ]
+  },
+  {
+    "id": "ch8-chair-rise",
+    "chapter": "8",
+    "page": 121,
+    "anchor": "ch8-chair-stand",
+    "front": "In the exam photograph the patient stands with arms crossed over the chest and a chair directly behind. What is being tested?",
+    "back": "The chair stand assesses lower-limb strength while preventing push-off with the arms. Timed Up and Go also requires walking, turning, returning and sitting. June 2023 photograph 6. Related Hazzard 8e, p. 121.",
+    "questionIds": [
+      "mcq-04264ad2870fe33fb2ff62e0"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 121"
+  },
+  {
+    "id": "ch8-oncology-assessment",
+    "chapter": "8",
+    "page": 131,
+    "anchor": "ch8-oncology",
+    "front": "An older adult with newly staged lung cancer has fallen, been hospitalized and moved in with family. What should guide treatment selection?",
+    "back": "A geriatric assessment identifies functional, cognitive, nutritional, medical and social vulnerabilities and clarifies goals. Use those findings to plan support and cancer treatment. June 2022 cited GRS Oncology. Related Hazzard 8e, pp. 128–131.",
+    "questionIds": [
+      "mcq-d197b64bdd5cccc4cb77d9b4"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 131"
+  },
+  {
+    "id": "ch8-basic-instrumental",
+    "chapter": "8",
+    "page": 123,
+    "anchor": "ch8-function",
+    "front": "A person feeds and dresses herself but can no longer buy groceries, cook meals or organize medication. Which level of function has changed?",
+    "back": "Instrumental activities of daily living. Feeding and dressing test basic personal care. Shopping, meal preparation and taking medicines test independent household life. New difficulty merits evaluation before complete dependence develops. Hazzard 8e, p. 123.",
+    "questionIds": [
+      "mcq-465a1afd6cb544dfc2a096cf",
+      "mcq-f1931fa1acbe4ffa8a3899eb",
+      "mcq-0437c345ef32ff27314bb684",
+      "mcq-d868c8eb293a3566de7be635",
+      "mcq-2012c2ba106e6203cd6dccdb"
+    ]
+  },
+  {
+    "id": "ch8-screen-cognition",
+    "chapter": "8",
+    "page": 121,
+    "anchor": "ch8-cognitive",
+    "front": "At a wellness visit the family reports memory decline. What can a brief screen tell you, and what should happen next?",
+    "back": "Assess the concern and its impact on daily life. An abnormal score increases the probability of dementia and calls for detailed assessment. A normal score cannot exclude it. Evidence for screening an asymptomatic population answers a different question. Hazzard 8e, pp. 121–123.",
+    "questionIds": [
+      "mcq-6b29551f166fec779e4a82df",
+      "mcq-5e73c67331c7ed6f086df2c6"
+    ]
+  },
+  {
+    "id": "ch8-mood-function",
+    "chapter": "8",
+    "page": 123,
+    "anchor": "ch8-mood",
+    "front": "Why ask about low mood and loss of pleasure when the presenting complaint is declining function?",
+    "back": "Depression can increase disability and is treatable. Ask about both symptoms during the preceding two weeks and follow a positive brief screen with a fuller evaluation. Track everyday function as well as symptoms. Hazzard 8e, p. 123.",
+    "questionIds": [
+      "mcq-841c6b989a670f1f58a1b781"
+    ]
+  },
+  {
+    "id": "ch8-cga-domains",
+    "chapter": "8",
+    "page": 128,
+    "anchor": "ch8-domains",
+    "front": "Falls, weight loss and missed medicines coexist with multimorbidity. Which domains must the assessment bring together?",
+    "back": "Physical health, function, psychological health including cognition and mood, and the social and home environment. Findings across domains explain why an apparently appropriate prescription or diet may be impractical. Hazzard 8e, pp. 128–129.",
+    "questionIds": [
+      "mcq-8b8611ca170b429cfb4945f5",
+      "mcq-2e8fc0eac1e23a8f562d32b3",
+      "mcq-9e56334adc2d0b4017c9c791",
+      "mcq-5980997a3a7efa47f060050c"
+    ]
+  },
+  {
+    "id": "ch8-cga-team-priorities",
+    "chapter": "8",
+    "page": 130,
+    "anchor": "ch8-plan",
+    "front": "A team has identified twelve problems. How does it decide which actions to take first?",
+    "back": "Identify treatable problems and ask the patient which outcomes matter. Prioritize expected benefit and urgency, give each action an owner and plan follow-up. A drug that may be causing delirium warrants prompt action. Hazzard 8e, pp. 129–130.",
+    "questionIds": [
+      "mcq-8d6b7354a22999565f339f68",
+      "mcq-8c0e42a8041e973c89123e3e",
+      "mcq-7e47b4709d83417f24ca48c8",
+      "mcq-702a96954156e63b1f816bf6"
+    ]
+  },
+  {
+    "id": "ch8-cga-review",
+    "chapter": "8",
+    "page": 130,
+    "anchor": "ch8-monitoring",
+    "front": "Six weeks after a geriatric assessment the agreed goals are still out of reach. What should monitoring trigger?",
+    "back": "Check implementation and barriers with the patient. Reassess, discuss clinical changes or new priorities, revise the plan and continue follow-up. Longer and more frequent monitoring requires more resources. Hazzard 8e, p. 130.",
+    "questionIds": [
+      "mcq-7e509aa6c7021c87d9859fd6",
+      "mcq-4fa8b634c15989a3d5ae7872",
+      "mcq-fc962fbcc47c09b068628950"
+    ]
+  },
+  {
+    "id": "ch8-cga-trial-outcomes",
+    "chapter": "8",
+    "page": 130,
+    "anchor": "ch8-hip-fracture",
+    "front": "Which outcome improved in the eight hip-fracture comanagement trials, and which improved in the separate post-discharge trial?",
+    "back": "Fewer hip-fracture patients needed a higher care level at discharge. Inpatient mortality showed only a nonsignificant trend. The post-discharge trial found fewer hospital readmissions, without measurable improvement in functional decline, acute-care visits or depression at 24 weeks. Hazzard 8e, pp. 130–131.",
+    "questionIds": [
+      "mcq-e4e165206749fd01a6b6f019",
+      "mcq-cd082a2f87cf79989c3bb991"
+    ]
+  },
+  {
+    "id": "ch8-incontinence-interview",
+    "chapter": "8",
+    "page": 120,
+    "anchor": "ch8-bladder",
+    "front": "A woman leaks urine with exercise and coughing. Which brief interview distinguishes the usual pattern from urgency-associated leakage?",
+    "back": "The three incontinence questions (3IQ) ask about leakage during the past three months, its circumstances and the most frequent pattern. Leakage chiefly with physical activity suggests stress-predominant incontinence. Hazzard 8e, p. 120, Table 8-2.",
+    "questionIds": [
+      "mcq-c22fe3e92df4ec6916d47d2e"
+    ]
+  },
+  {
+    "id": "ch8-prescribing-cascade",
+    "chapter": "8",
+    "page": 121,
+    "anchor": "ch8-polypharmacy",
+    "front": "Confusion starts after oxybutynin is prescribed for bladder urgency. What should precede another cognitive prescription?",
+    "back": "Review the anticholinergic medication and consider a monitored withdrawal while looking for other causes. A new drug given for an adverse effect of another drug can start a prescribing cascade. Hazzard 8e, p. 121. AGS Beers Criteria 2023, Table 7.",
+    "questionIds": [
+      "mcq-31865cb5766d4a185cce417f"
+    ]
+  },
+  {
+    "id": "ch60-harm-and-dose",
+    "chapter": "60",
+    "page": 927,
+    "anchor": "ch60-mortality",
+    "front": "What mortality warning belongs in a discussion before treating dangerous agitation with an antipsychotic?",
+    "back": "Antipsychotics increase mortality in older adults with dementia, including cardiovascular deaths. Risk is highest soon after initiation and appears dose-related. Define the target and plan reassessment. Hazzard p. 927.",
+    "questionIds": [
+      "mcq-87f221efa3f09f65bf3d1d7a"
+    ]
+  },
+  {
+    "id": "ch60-lithium-thiazide",
+    "chapter": "60",
+    "page": 931,
+    "anchor": "ch60-lithium",
+    "front": "A person taking lithium develops new tremor, falls and confusion after starting a thiazide. What should you measure?",
+    "back": "Obtain serum lithium, renal function and electrolytes urgently. Thiazide-related sodium loss can reduce lithium clearance, and the therapeutic window is narrow. Hazzard p. 931.",
+    "questionIds": [
+      "mcq-a783600c347387919b4a077a"
+    ]
+  },
+  {
+    "id": "ch60-dice-sequence",
+    "chapter": "60",
+    "page": 924,
+    "anchor": "exam-p924-mcq-18490c5933b53a866c445587",
+    "front": "In DICE, which step includes checking for constipation, and what follows?",
+    "back": "Investigate looks for causes of the described behavior. Create a plan with the caregiver, then evaluate whether it was tried and whether distress improved. Hazzard p. 924, Table 60-4.",
+    "questionIds": [
+      "mcq-c0cc138e1a6ccfd5eaa9fa9d",
+      "mcq-18490c5933b53a866c445587"
+    ]
+  },
+  {
+    "id": "ch60-antimuscarinic-antipsychotics",
+    "chapter": "60",
+    "page": 928,
+    "anchor": "ch60-anticholinergic-antipsychotics",
+    "front": "Which antipsychotic profiles suggest anticholinergic effects, and how was the four-way ranking graded?",
+    "back": "Olanzapine and higher-dose quetiapine can contribute. Haloperidol is more notable for extrapyramidal effects. The June 2022 paper accepted all four responses and supplies no single valid ranking. Hazzard p. 928, Table 60-8.",
+    "questionIds": [
+      "mcq-663fcbfa80f7875e874f04c2"
+    ]
+  },
+  {
+    "id": "ch60-citalopram-repolarization",
+    "chapter": "60",
+    "page": 929,
+    "anchor": "exam-p929-mcq-6655a23a9c4d6fc4c36f3cf9",
+    "front": "Why cap citalopram at 20 mg daily above age 60, and which ECG interval is relevant?",
+    "back": "Increasing exposure can prolong QT, from the start of QRS to the end of T, and raise the risk of torsades de pointes. Hazzard p. 929, Table 60-9.",
+    "questionIds": [
+      "mcq-e912594a9fb26110b2414061",
+      "mcq-6655a23a9c4d6fc4c36f3cf9"
+    ]
+  },
+  {
+    "id": "ch60-mood-and-cognition",
+    "chapter": "60",
+    "page": 929,
+    "anchor": "exam-p929-mcq-45b29368078d5d087a1a0b91",
+    "front": "Escitalopram and donepezil were both accepted for a person with Alzheimer disease and new depressive symptoms. What is the target of each?",
+    "back": "Escitalopram can treat a clinically significant depressive disorder. Donepezil treats the underlying symptomatic Alzheimer disease. Assess mood separately because antidepressant benefit specifically in dementia is variable. Hazzard pp. 928–931.",
+    "questionIds": [
+      "mcq-45b29368078d5d087a1a0b91"
+    ]
+  },
+  {
+    "id": "ch60-dangerous-aggression",
+    "chapter": "60",
+    "page": 927,
+    "anchor": "exam-p927-mcq-c6a327d1e984cf14664a4c22",
+    "front": "When does persistent agitation or psychosis justify considering an antipsychotic?",
+    "back": "Address reversible causes and try suitable environmental care. Significant risk of harm or severe distress can justify a low-dose, time-limited trial after discussing risks. Family burden also warrants direct support. Hazzard pp. 925 and 927.",
+    "questionIds": [
+      "mcq-c6a327d1e984cf14664a4c22",
+      "mcq-2da4c054f7061a52e843c385"
+    ]
+  },
+  {
+    "id": "ch60-least-anticholinergic",
+    "chapter": "60",
+    "page": 922,
+    "anchor": "exam-p922-mcq-57825e4b2e4819d0b41d9393",
+    "front": "Which has the least anticholinergic burden among escitalopram, metoclopramide, amitriptyline and promethazine?",
+    "back": "Escitalopram has relatively little antimuscarinic activity. Review the other agents when assessing medication effects, including delirium or motor adverse effects. Hazzard p. 922, Table 60-3, and p. 930.",
+    "questionIds": [
+      "mcq-57825e4b2e4819d0b41d9393"
+    ]
+  },
+  {
+    "id": "ch60-haloperidol-seizures",
+    "chapter": "60",
+    "page": 928,
+    "anchor": "exam-p928-mcq-4ea0e38022bf9d5645f8e014",
+    "front": "Which neurologic adverse effect besides parkinsonism appears for haloperidol in Table 60-8?",
+    "back": "Seizure is listed along with sedation and orthostatic hypotension. Clozapine is particularly associated with agranulocytosis. Hazzard p. 928.",
+    "questionIds": [
+      "mcq-4ea0e38022bf9d5645f8e014"
+    ]
+  },
+  {
+    "id": "ch60-nps-prognosis",
+    "chapter": "60",
+    "page": 927,
+    "anchor": "exam-p927-mcq-482e5db0580ad7a0c6dcd21c",
+    "front": "How do the prognostic associations of behavioral symptoms compare with the expected antipsychotic benefit?",
+    "back": "Behavioral symptoms are linked to faster decline, caregiver strain and institutional placement. Average antipsychotic benefit is modest and concentrated in selected target symptoms. Hazzard pp. 919–920 and 927–928.",
+    "questionIds": [
+      "mcq-482e5db0580ad7a0c6dcd21c"
+    ]
+  },
+  {
+    "id": "ch60-delirium-timeline",
+    "chapter": "60",
+    "page": 923,
+    "anchor": "exam-p923-mcq-9fd00abfaa6396324e34c1d1",
+    "front": "What distinguishes a behavioral symptom of established dementia from possible delirium in an exam vignette?",
+    "back": "Chronic decline with wandering and disinhibition fits dementia. Abrupt somnolence, inattention or fluctuation calls for delirium assessment even in someone with known dementia. Hazzard pp. 922–923.",
+    "questionIds": [
+      "mcq-9fd00abfaa6396324e34c1d1"
+    ]
+  },
+  {
+    "id": "ch60-sodium-risk",
+    "chapter": "60",
+    "page": 929,
+    "anchor": "exam-p929-mcq-63bf3798074f1dec36283b45",
+    "front": "Which alternatives to sertraline and venlafaxine received credit for lower hyponatremia risk?",
+    "back": "Mirtazapine and bupropion. SSRIs and SNRIs can lower serum sodium, and a lower-risk alternative still warrants clinical monitoring. Hazzard pp. 929–930.",
+    "questionIds": [
+      "mcq-63bf3798074f1dec36283b45"
+    ]
+  },
+  {
+    "id": "ch60-time-limited-trial",
+    "chapter": "60",
+    "page": 927,
+    "anchor": "exam-p927-mcq-eb1d5bba9a6717079d54d5d1",
+    "front": "What should happen after four weeks of antipsychotic therapy at an adequate dose without meaningful benefit?",
+    "back": "Taper and withdraw the drug. Monitor symptoms at least monthly during tapering and for at least four months afterward, and continue behavioral care. Hazzard p. 927.",
+    "questionIds": [
+      "mcq-eb1d5bba9a6717079d54d5d1"
+    ]
+  },
+  {
+    "id": "ch60-serotonergic-or-anticholinergic",
+    "chapter": "60",
+    "page": 929,
+    "anchor": "exam-p929-mcq-aa5c10df9c19aad52cd3cfa8",
+    "front": "How do paroxetine-related retention and confusion differ from citalopram-related serotonin toxicity?",
+    "back": "Paroxetine has appreciable anticholinergic activity. Serotonin toxicity can cause agitation, clonus, hyperreflexia and autonomic instability, particularly with interacting serotonergic drugs. Hazzard pp. 929–930, Table 60-9.",
+    "questionIds": [
+      "mcq-4641bad3c4f4169ea022ed51",
+      "mcq-aa5c10df9c19aad52cd3cfa8"
+    ]
+  },
+  {
+    "id": "ch60-late-life-major-depression",
+    "chapter": "60",
+    "page": 929,
+    "anchor": "exam-p929-mcq-3c902dfe8cf32cf96518b8b1",
+    "front": "Which initial drug fits major depression with mild anxiety and ischemic heart disease among sertraline, quetiapine, bupropion and amitriptyline?",
+    "back": "Sertraline treats depression with relatively little anticholinergic burden. Monitor sodium and tolerability. Consider renal function, activation, orthostasis and cardiac conduction effects when comparing the alternatives. Hazzard pp. 929–930.",
+    "questionIds": [
+      "mcq-3c902dfe8cf32cf96518b8b1"
+    ]
+  },
+  {
+    "id": "ch60-agitation-during-care",
+    "chapter": "60",
+    "page": 924,
+    "anchor": "ch60-agitation-investigation",
+    "front": "Bathing provokes agitation that settles with reassurance. How do DICE and the IPA algorithm guide the next step?",
+    "back": "Describe the episode and investigate fear, discomfort and the care interaction. Agree on a practical change with the caregiver and evaluate it. The IPA article calls its iterative cycle Investigate, Plan and Act. Related teaching in Hazzard p. 924.",
+    "questionIds": [
+      "mcq-9fd9a6436651576bca84dab2"
+    ]
+  },
+  {
+    "id": "ch60-lewy-body-treatment",
+    "chapter": "60",
+    "page": 984,
+    "anchor": "exam-p984-mcq-b6e0367710cf1836980a73db",
+    "front": "A person with cognitive decline, recurrent visual hallucinations, falls and sleep disturbance needs dementia treatment. What is the best listed drug?",
+    "back": "Donepezil can improve cognitive symptoms and may diminish hallucinations in dementia with Lewy bodies. Dopamine blockers can cause severe sensitivity reactions. Hazzard pp. 924 and 984.",
+    "questionIds": [
+      "mcq-b6e0367710cf1836980a73db"
+    ],
+    "readChapter": "63"
   }
 ]

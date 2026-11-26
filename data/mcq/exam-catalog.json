@@ -5922,9 +5922,18 @@
         ],
         "bankChapter": "60",
         "passages": {
-          "929": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act ",
-          "930": "Mirtazapine Mirtazapine is a nonadrenergic and specific serotonergic antidepressant. In the ",
-          "928": "Aside from depression, antidepressants are also used to treat other NPS, including anxiety, "
+          "929": {
+            "text": "They are considered first-line therapy for late-life depression",
+            "rangeText": "They are considered first-line therapy for late-life depression"
+          },
+          "930": {
+            "text": "there was no difference between mirtazapine and placebo",
+            "rangeText": "there was no difference between mirtazapine and placebo"
+          },
+          "928": {
+            "text": "Aside from depression, antidepressants are also used to treat other NPS",
+            "rangeText": "Aside from depression, antidepressants are also used to treat other NPS"
+          }
         }
       }
     },
@@ -5996,7 +6005,10 @@
           927
         ],
         "passages": {
-          "927": "The Clinical Antipsychotic Trial of International Effectiveness—Alzheimer’s Disease (CATIE-A"
+          "927": {
+            "text": "when nonpharmacologic approaches have been tried, and when symptoms are severe and dangerous",
+            "rangeText": "when nonpharmacologic approaches have been tried, and when symptoms are severe and dangerous"
+          }
         }
       }
     },
@@ -7278,7 +7290,19 @@
       "fromBasic": false,
       "duplicates": [
         2636
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "8",
+            "page": 121,
+            "anchor": "ch8-chair-stand",
+            "label": "Hazzard 8e, p. 121, unassisted chair rise and lower-limb strength"
+          }
+        ]
+      },
+      "referenceNote": "The examination cites Mobility Assessment in Older Adults (NEJM 2021) and shows the chair stand in photograph 6. Hazzard 8e p. 121 is related teaching."
     },
     "3284": {
       "id": "mcq-7025f4162f1dd6a89f317d36",
@@ -8444,7 +8468,18 @@
       "duplicates": [
         2674
       ],
-      "explanation": "## תשובה נכונה: ב – דיווח למרב\"ד\n\n### למה ב' נכונה?\nבמצב של **סכנה לציבור**, חובת הדיווח גוברת על סודיות רפואית. בישראל קיים **מרב\"ד (מרכז רפואי לבטיחות בדרכים)** – הגוף הרשמי והמוסמך לטפל בנהגים עם מצבים רפואיים המסכנים בטיחות בדרכים. הדיווח אליו הוא הפעולה החוקית והמסודרת הנכונה, המרב״ד מעריך כשירות רפואית וממליץ לרשות הרישוי על מתן רישיון, הגבלתו, התלייתו או ביטולו. (MOH6/2023 pp2-3 §5,7.5).\n\n---\n\n### למה האחרות שגויות?\n\n| אפשרות | מדוע שגויה |\n|--------|------------|"
+      "explanation": "## תשובה נכונה: ב – דיווח למרב\"ד\n\n### למה ב' נכונה?\nבמצב של **סכנה לציבור**, חובת הדיווח גוברת על סודיות רפואית. בישראל קיים **מרב\"ד (מרכז רפואי לבטיחות בדרכים)** – הגוף הרשמי והמוסמך לטפל בנהגים עם מצבים רפואיים המסכנים בטיחות בדרכים. הדיווח אליו הוא הפעולה החוקית והמסודרת הנכונה, המרב״ד מעריך כשירות רפואית וממליץ לרשות הרישוי על מתן רישיון, הגבלתו, התלייתו או ביטולו. (MOH6/2023 pp2-3 §5,7.5).\n\n---\n\n### למה האחרות שגויות?\n\n| אפשרות | מדוע שגויה |\n|--------|------------|",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "26",
+            "anchor": "ch26-unsafe-driver",
+            "label": "נהג משאית עם דמנציה ופגיעה בשיפוט"
+          }
+        ]
+      },
+      "referenceNote": "The published bibliography names the Traffic Ordinance. The reporting duty is section 12b(a). Circular 6/2023 postdates the June 2023 sitting and is linked for subsequent implementation."
     },
     "3323": {
       "id": "mcq-6e0a38035542e644273558de",
@@ -9772,7 +9807,7 @@
         2755
       ],
       "readerReference": "Hazzard 8e ch. 57,63 pp. 873,993 Table 63-5",
-      "referenceNote": "IMA names Chapters 57 and 63, pp. 873 and 933 and Table 63-5. Printed p. 933 is in Chapter 60. Table 63-5 is on p. 993.",
+      "referenceNote": "IMA lists Chapters 57 and 63, pp. 873 and 933, and Table 63-5. Printed p. 933 contains references. Table 63-5 is on p. 993 and lists tau and TDP-43 for behavioral-variant frontotemporal dementia.",
       "explanation": "## הסבר קליני\n\n### מדוע התשובה הנכונה היא B — משקעי TAU\n\nהתמונה הקלינית המתוארת — שינויים התנהגותיים בולטים כגון אכילה כפייתית של ממתקים (היפרפאגיה), דיסאינהיביציה חברתית (הערות פוגעניות לזרים, כניסה לחדרי שינה ופתיחת מגירות של אחרים), ללא ירידה קוגניטיבית כללית משמעותית (MMSE 28/30) — מהווה את התמונה הקלאסית של **Behavioral Variant Frontotemporal Dementia (bvFTD)**. מבחן השעון חושף ליקוי בתפקוד אקסקוטיבי-פרונטלי (הצלחה בהצבת מספרים אך כישלון בסימון מחוגים), בעוד שהזיכרון האפיזודי שמור יחסית — מאפיין טיפוסי ל-FTD לעומת מחלת אלצהיימר.\n\nמבחינה פתולוגית, FTLD היא קבוצה הטרוגנית הכוללת משקעי tau או TDP-43, בין היתר; tau היא האפשרות המתאימה מבין התשובות (Hazzard8e p873). (בפרט ב-Pick's disease עם גופיפי Pick, וכן בפרוגרסיבית קורטיקובזלית ובשיתוק על-גרעיני קדמי), הפוגעים באונות הפרונטליות והטמפורליות האנטריוריות. על פי עקרונות Hazzard's Geriatric Medicine, FTD היא גורם שכיח לדמנציה בגיל הביניים (תחת גיל 65), ואין לקבוע שהפתולוגיה היא tau על סמך התסמונת ההתנהגותית בלבד. (Hazzard8e p873).\n\n---\n\n### מדוע כל תשובה שגויה היא שגויה\n\n**A — משקעי בטא-עמילואיד ו-TAU:** שילוב זה מאפיין את **מחלת אלצהיימר** הקלאסית, שבה קיימים לוחות עמילואיד חוץ-תאיים לצד שזירי TAU תוך-תאיים. כאן הירידה הקוגניטיבית מתחילה לרוב בזיכרון אפיזודי, לא בדיסאינהיביציה התנהגותית. MMSE של 28/30 עם תמונה התנהגותית כה בולטת אינה מתיישבת עם אלצהיימר.\n\n**C — משקעי Alpha-synuclein:** חלבון זה מאפיין **מחלת פרקינסון, Lewy Body Dementia, ו-MSA**. תמונות אלו כוללות בדרך כלל תסמינים מוטוריים פרקינסוניים, הזיות ויזואליות, ותנודתיות קוגניטיבית — שאף אחד מהם אינו נוכח כאן.\n\n**D — משקעי בטא-עמילואיד בלבד:** עמילואיד בלבד, ללא TAU, אינו מספיק לגרום לדמנציה סימפטומטית, ואינו מאפיין ישות קלינית-פתולוגית עצמאית מוכרת בקונטקסט של דמנציה עם שינויים התנהגותיים פרונטליים.\n\n---\n\n### פנינת בחינה\n\n> ב-FTD ה-MMSE עשוי להיות תקין לחלוטין בשלבים המוקדמים — האבחנה מבוססת על **התנהגות** לא על זיכרון. שילוב של דיסאינהיביציה + היפרפאגיה + ליקוי אקסקוטיבי במבחן שעון = חשוד ב-bvFTD; החלבון הפתולוגי אינו נקבע מן התסמונת בלבד. (Hazzard8e p873).",
       "readerMapping": {
         "bankChapter": "57",
@@ -9786,8 +9821,7 @@
         ],
         "chapters": [
           "57",
-          "63",
-          "60"
+          "63"
         ],
         "tables": [
           "63-5"
@@ -9799,7 +9833,14 @@
           993
         ],
         "passages": {
-          "873": "Frontotemporal lobar degeneration (FTLD) is caused by a range of underlying neuropathologic "
+          "873": {
+            "text": "Frontotemporal lobar degeneration (FTLD) is caused by a range",
+            "rangeText": "Frontotemporal lobar degeneration (FTLD) is caused by a range"
+          },
+          "993": {
+            "text": "Table 63-5",
+            "imageFile": "hazzard8e_ch63_table63-5_p993.png"
+          }
         }
       }
     },
@@ -10906,7 +10947,7 @@
       "duplicates": [
         2789
       ],
-      "referenceNote": "The bibliography names Chapter 64. Printed p. 924 is in Chapter 60.",
+      "referenceNote": "The IMA chapter column says 64. Its page 924 and Table 60-4 both belong to Chapter 60 and teach the DICE model.",
       "readerMapping": {
         "printedPages": [
           924
@@ -10922,7 +10963,10 @@
           "60-4"
         ],
         "passages": {
-          "924": "Table 60-4 — Describe, investigate, create, and evaluate (DICE) approach (printed 924)"
+          "924": {
+            "text": "Provider investigates possible causes of problem behavior",
+            "rangeText": "Provider investigates possible causes of problem behavior"
+          }
         }
       }
     },
@@ -11299,7 +11343,10 @@
           "60-3"
         ],
         "passages": {
-          "922": "Table 60-3 — Medications with anticholinergic activity, which have increased risk of causing"
+          "922": {
+            "text": "Metoclopramide (Reglan)",
+            "rangeText": "Metoclopramide (Reglan)"
+          }
         }
       }
     },
@@ -11354,7 +11401,10 @@
           "60-8"
         ],
         "passages": {
-          "928": "Table 60-8 — Select antipsychotic dosages and side effects (printed 928)"
+          "928": {
+            "text": "High risk of EPS, sedation, orthostatic hypotension, seizure",
+            "rangeText": "High risk of EPS, sedation, orthostatic hypotension, seizure"
+          }
         }
       }
     },
@@ -11881,12 +11931,18 @@
           "60"
         ],
         "passages": {
-          "927": "Antipsychotics provide (at times considerable) benefit to some patients with psychosis and a",
-          "919": "Nonpharmacologic interventions should be the first-line treatment and antipsychotics should ",
+          "927": {
+            "text": "their efficacy is modest",
+            "rangeText": "their efficacy is modest"
+          },
+          "919": {
+            "text": "Difficult behaviors and psychotic symptoms are among the highest determinants of institutionalization",
+            "rangeText": "Difficult behaviors and psychotic symptoms are among the highest determinants of institutionalization"
+          },
           "920": {
-            "text": "Appropriate indications for medications include failure of nonpharmacologic therapies and pr",
-            "contextPage": 919,
-            "rangeText": "Appropriate indications for medications include failure of nonpharmacologic therapies and presence of NPS severe enough to interfere with the patient’s overall quality of life and function."
+            "text": "Appropriate indications for medications include failure of nonpharmacologic therapies",
+            "rangeText": "Appropriate indications for medications include failure of nonpharmacologic therapies",
+            "contextPage": 919
           }
         }
       }
@@ -12105,8 +12161,14 @@
           "60"
         ],
         "passages": {
-          "922": "Differential diagnosis for NPS includes: medical conditions, delirium and primary psychiatri",
-          "923": "If a patient exhibits a sudden drop or fluctuation of cognition, delirium should be consider"
+          "922": {
+            "text": "Presentation with acute changes in cognition and behavior should raise suspicion for delirium",
+            "rangeText": "Presentation with acute changes in cognition and behavior should raise suspicion for delirium"
+          },
+          "923": {
+            "text": "Delirium is characterized by acute onset over hours or days with a fluctuating course",
+            "rangeText": "Delirium is characterized by acute onset over hours or days with a fluctuating course"
+          }
         }
       }
     },
@@ -12157,7 +12219,10 @@
           "60-9"
         ],
         "passages": {
-          "929": "Table 60-9 — Antidepressant oral dosages and side effects (printed 929)"
+          "929": {
+            "text": "GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, headache",
+            "rangeText": "GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, headache"
+          }
         }
       }
     },
@@ -14436,7 +14501,10 @@
           "60-7"
         ],
         "passages": {
-          "927": "Table 60-7 — General guidelines for starting psychotropic medications for neuropsychiatric s"
+          "927": {
+            "text": "Psychotropic use (particularly antipsychotics) should be time-limited",
+            "rangeText": "Psychotropic use (particularly antipsychotics) should be time-limited"
+          }
         }
       }
     },
@@ -15049,7 +15117,10 @@
           "60-9"
         ],
         "passages": {
-          "929": "Table 60-9 — Antidepressant oral dosages and side effects (printed 929)"
+          "929": {
+            "text": "Anticholinergic effects may increase risk of delirium",
+            "rangeText": "Anticholinergic effects may increase risk of delirium"
+          }
         }
       }
     },
@@ -15453,7 +15524,10 @@
           "60-9"
         ],
         "passages": {
-          "929": "Table 60-9 — Antidepressant oral dosages and side effects (printed 929)"
+          "929": {
+            "text": "Anticholinergic effects may increase risk of delirium",
+            "rangeText": "Anticholinergic effects may increase risk of delirium"
+          }
         }
       }
     },
@@ -16409,7 +16483,18 @@
       "fromBasic": false,
       "duplicates": [
         3002
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "60",
+            "page": 924,
+            "anchor": "ch60-agitation-investigation",
+            "label": "Related teaching · DICE investigation of modifiable causes · Hazzard 8e, p. 924"
+          }
+        ]
+      }
     },
     "4587": {
       "id": "mcq-bd1708e17c9f1da9803d8051",
@@ -16865,8 +16950,15 @@
           "63"
         ],
         "passages": {
-          "984": "The clinical course of DLB is often faster than that seen in AD and a drop of four to five p",
-          "924": "Of note, many medications used to treat Parkinson disease, such as anticholinergic agents, a"
+          "984": {
+            "text": "Patients with DLB should be tried on cholinesterase inhibitors",
+            "rangeText": "Patients with DLB should be tried on cholinesterase inhibitors"
+          },
+          "924": {
+            "text": "In DLB, hallucinations tend to be well-formed images",
+            "rangeText": "In DLB, hallucinations tend to be well-formed images",
+            "contextPage": 923
+          }
         }
       }
     },
@@ -17969,7 +18061,18 @@
         ],
         "edition": null,
         "conflict": true
-      }
+      },
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "26",
+            "anchor": "ch26-medical-poa",
+            "label": "עריכת ייפוי כוח רפואי"
+          }
+        ]
+      },
+      "referenceNote": "The published bibliography prints only חוק (law). Section 32טו is related Israeli legal reading for the health-only instrument. Both A and D were accepted after appeal."
     },
     "4638": {
       "id": "mcq-78efef2ee60d19f031350bbc",
@@ -18474,7 +18577,10 @@
         ],
         "bankChapter": "60",
         "passages": {
-          "925": "Nonpharmacologic interventions are first-line in the management of NPS in dementia patients "
+          "925": {
+            "text": "Some patients who do not respond to nonpharmacologic approaches may require targeted medication therapy",
+            "rangeText": "Some patients who do not respond to nonpharmacologic approaches may require targeted medication therapy"
+          }
         }
       }
     },
@@ -19237,7 +19343,10 @@
           "8-2"
         ],
         "passages": {
-          "124": "Figure 8-2",
+          "124": {
+            "text": "Figure 8-2",
+            "imageFile": "hazzard8e_ch8_figure-8-2_p124.webp"
+          },
           "621": {
             "text": "Table 42-3",
             "imageFile": "hazzard8e_ch42_table42-3_p621.png"
@@ -19459,7 +19568,18 @@
       "duplicates": [
         4342
       ],
-      "explanation": "למטופל קיים כבר ייפוי כוח מתמשך שמינה את אשתו — ולכן כשהוא מאבד כשירות, המנגנון הנכון הוא הפעלת ייפוי הכוח הקיים (משלוח הצהרת מיופה הכוח על התקיימות התנאי המפעיל) ולאחריה חתימת האישה כמיופת כוח. אין צורך למנות אותה כאפוטרופוס — זהו הליך משפטי מיותר הסותר את עצם תכלית הייפוי, שנועד דווקא למנוע אפוטרופסות. \"מקבל החלטות זמני\" הוא מנגנון חלופי המיועד למצב שבו אין ייפוי כוח בתוקף, ולכן אינו רלוונטי כאן. תחילה יש לקבוע אם המטופל מסוגל לתת הסכמה מדעת. אם אינו מסוגל ונדרש טיפול דחוף, החוזר מאפשר במקרים המתאימים הסכמת מיופת הכוח לפני קבלת אישור ההפעלה, בכפוף להתחייבות ולתיעוד הנדרשים. (6Activating.pdf pp1-2)."
+      "explanation": "למטופל קיים כבר ייפוי כוח מתמשך שמינה את אשתו — ולכן כשהוא מאבד כשירות, המנגנון הנכון הוא הפעלת ייפוי הכוח הקיים (משלוח הצהרת מיופה הכוח על התקיימות התנאי המפעיל) ולאחריה חתימת האישה כמיופת כוח. אין צורך למנות אותה כאפוטרופוס — זהו הליך משפטי מיותר הסותר את עצם תכלית הייפוי, שנועד דווקא למנוע אפוטרופסות. \"מקבל החלטות זמני\" הוא מנגנון חלופי המיועד למצב שבו אין ייפוי כוח בתוקף, ולכן אינו רלוונטי כאן. תחילה יש לקבוע אם המטופל מסוגל לתת הסכמה מדעת. אם אינו מסוגל ונדרש טיפול דחוף, החוזר מאפשר במקרים המתאימים הסכמת מיופת הכוח לפני קבלת אישור ההפעלה, בכפוף להתחייבות ולתיעוד הנדרשים. (6Activating.pdf pp1-2).",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "26",
+            "anchor": "ch26-urgent-poa",
+            "label": "חתימה על ניתוח דחוף כשיש ייפוי כוח"
+          }
+        ]
+      },
+      "referenceNote": "The published bibliography prints הפעלת (activation). The vignette concerns the joint urgent activation guidance of 7 August 2023. The link is related legal teaching."
     },
     "4493": {
       "id": "mcq-79f5aabcf9100a6621351cea",
@@ -19660,7 +19780,10 @@
           "60"
         ],
         "passages": {
-          "929": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act "
+          "929": {
+            "text": "They are considered first-line therapy for late-life depression",
+            "rangeText": "They are considered first-line therapy for late-life depression"
+          }
         }
       }
     },
@@ -20471,7 +20594,18 @@
       "fromBasic": false,
       "duplicates": [
         4381
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "26",
+            "anchor": "ch26-oxygen-driving",
+            "label": "חמצן בזמן נהיגה ומגבלות זמניות"
+          }
+        ]
+      },
+      "referenceNote": "The published bibliography prints חוזר (circular). The respiratory criterion is in the replacement reporting form following the 24 August 2023 update to Circular 6/2023."
     },
     "4532": {
       "id": "mcq-a84c59a354c18de39d822ccd",
@@ -20588,7 +20722,18 @@
       "fromBasic": false,
       "duplicates": [
         4385
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "26",
+            "anchor": "ch26-supported-decisions",
+            "label": "גבולות תפקידו של תומך בקבלת החלטות"
+          }
+        ]
+      },
+      "referenceNote": "The published bibliography prints קבלת. Section 67ב and the 2024 regulations explain supported decision making. No statutory section is printed in the reference row."
     },
     "4536": {
       "id": "mcq-547eebb19117759411a47609",
@@ -23724,7 +23869,10 @@
           "60"
         ],
         "passages": {
-          "929": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act "
+          "929": {
+            "text": "QTc prolongation at doses",
+            "rangeText": "QTc prolongation at doses"
+          }
         }
       }
     },

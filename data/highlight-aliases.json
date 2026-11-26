@@ -20656,5 +20656,125 @@
         213
       ]
     ]
+  },
+  {
+    "chapter": "8s",
+    "id": "u32",
+    "old": "Past-exam questions linked to this chapter (2):",
+    "new": "Two past-exam questions cite printed pages in Chapter 8.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        8
+      ],
+      [
+        20,
+        26,
+        24,
+        28
+      ],
+      [
+        27,
+        29,
+        29,
+        36
+      ],
+      [
+        30,
+        34,
+        37,
+        42
+      ],
+      [
+        35,
+        42,
+        43,
+        45
+      ],
+      [
+        43,
+        47,
+        46,
+        56
+      ]
+    ]
+  },
+  {
+    "chapter": "26",
+    "id": "u43",
+    "old": "Not cited in the 2020-2026 past papers.",
+    "new": "Six past questions cite Israeli legal material or Ministry instructions, with no direct citation to the U.S. textbook chapter.",
+    "edits": [
+      [
+        0,
+        3,
+        0,
+        3
+      ],
+      [
+        4,
+        9,
+        4,
+        8
+      ],
+      [
+        10,
+        12,
+        9,
+        99
+      ],
+      [
+        17,
+        26,
+        104,
+        108
+      ],
+      [
+        27,
+        31,
+        109,
+        117
+      ],
+      [
+        32,
+        38,
+        118,
+        125
+      ]
+    ]
+  },
+  {
+    "chapter": "26s",
+    "id": "u26",
+    "old": "No past-exam questions are currently linked to this chapter.",
+    "new": "Six past questions link to this chapter through Israeli statutes and Ministry instructions, with no direct Hazzard citation.",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        7,
+        12,
+        8,
+        8
+      ],
+      [
+        23,
+        43,
+        19,
+        23
+      ],
+      [
+        59,
+        59,
+        39,
+        123
+      ]
+    ]
   }
 ]
