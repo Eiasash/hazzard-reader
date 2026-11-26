@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v317",
+      "date": "2026-11-26",
+      "changes": [
+        "Elder mistreatment, peripheral vascular disease, pulmonary disorders, breast disease, anemia, and infection and antimicrobial selection now have exam-linked Study notes, Israeli context, flashcards and revised question explanations."
+      ]
+    },
+    {
       "version": "v316",
       "date": "2026-11-26",
       "changes": [
