@@ -2,6 +2,73 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 
 # Chapter 47 Study: Incontinence
 
+## What the exams asked
+
+- Who keeps the outlet closed while the bladder fills, and what makes it contract for voiding? [June 2023 Q2](?chapter=47#exam-p700-mcq-a77459f28aa5bea68b87e0b9) · [June 2025 Q66](?chapter=47#exam-p700-mcq-30f0309dc8329f9569c19e59).
+- How do normal capacity, first urge and postvoid residual differ from age-associated involuntary contractions? [June 2025 Q88](?chapter=47#exam-p707-mcq-44ea7b7d5de2b617e3e9bfed) · [June 2022 Q70](?chapter=47#asked-chapter) · [Read the eighth-edition discussion](?chapter=47#ch47-aging-contractions).
+- What does a weak stream with continuous dribbling suggest, and which tests come first? [June 2023 Q36](?chapter=47#exam-p707-mcq-7b5f1873a64c120ce3892039) · [2020 Q93](?chapter=47#asked-chapter) · [Read the retention mechanism](?chapter=47#ch47-retained-urine).
+- When can urgency and weak emptying coexist in a neurologically impaired man considering prostate surgery? [May 2024 Q68](?chapter=47#exam-p701-mcq-e2d127b4b2b341b7154a9425) · [Read the surgical decision in Chapter 38](?chapter=38#exam-p562-mcq-e2d127b4b2b341b7154a9425).
+- Which medicines can cause cough-associated leakage, urgency or retention? [June 2026 Q17](?chapter=47#exam-p703-mcq-9dcabfcf87a03b3d498fce3d) · [June 2025 Q54](?chapter=47#exam-p703-mcq-2e7dd4430690d60bc89b80f4) · [June 2026 Q44](?chapter=47#exam-p703-mcq-c6b6b0376463f87b97f47931) · [December 2021 Q44](?chapter=47#asked-chapter) · [Read about drug-induced residual urine](?chapter=47#ch47-drug-retention).
+- Which metabolic or bowel disorders can precipitate acute leakage? [May 2024 Q92](?chapter=47#exam-p702-mcq-c2ee36b048f810572296abfe) · [June 2025 Q98](?chapter=47#exam-p702-mcq-b0830837aa5b57c0f1e2f3e2) · [June 2026 Q64](?chapter=47#exam-p701-mcq-ec5cbb9f7b28b3e7733522d9).
+- What does incidental pyuria mean in a clinically well long-term-care resident? [June 2025 Q81](?chapter=47#exam-p705-mcq-d3016371143763c986f9973c).
+- When do a voiding diary, assisted toileting and a nearby commode address the cause? [June 2023 Q62](?chapter=47#exam-p707-mcq-93174381fd654b82b0cca672) · [June 2025 Q30](?chapter=47#exam-p709-mcq-08d1f5a8c0d9c28af969b1a0) · [2020 Q15](?chapter=47#asked-chapter) · [Read the scheduled-toileting paragraph](?chapter=47#ch47-scheduled-toileting).
+- Which first treatment fits cough leakage, and which medication fits urgency in an independent woman? [December 2021 Q43](?chapter=47#asked-chapter) · [Read about pelvic-floor exercise](?chapter=47#ch47-pelvic-exercises) · [December 2021 Q45](?chapter=47#asked-chapter) · [Read about bladder relaxants](?chapter=47#ch47-bladder-relaxants).
+- Which obstruction needs assessment for an intervention despite an alpha blocker? [September 2024 Q12](?chapter=47#exam-p709-mcq-f29bfd95e2f83369c82a4b34).
+- Which enzyme does finasteride inhibit, and which adverse effects point to it? [September 2024 Q50](?chapter=47#exam-p712-mcq-3452f8f6cfd764cc9e8162f6) · [September 2024 Q22](?chapter=47#exam-p713-mcq-01cdc59c55369cf2a42ea5c5) · [June 2022 Q30](?chapter=47#asked-chapter) · [Read the finasteride mechanism on p. 713](?chapter=47#exam-p713-mcq-3452f8f6cfd764cc9e8162f6).
+- How can a person with a neurogenic bladder avoid the infection risks of a continuously indwelling catheter? [June 2025 Q87](?chapter=47#exam-p715-mcq-911d970243b87dbe2fe1c675).
+
+## Storage, voiding and the residual
+
+<span data-exam-ids="mcq-a77459f28aa5bea68b87e0b9 mcq-30f0309dc8329f9569c19e59" data-reader-metadata="exam"></span>
+**Storage is a coordinated action.** A sympathetic response relaxes the detrusor and tightens the bladder neck. Sacral somatic nerves maintain striated pelvic-floor and external sphincter tone. When a person chooses to void, outlet tone falls and parasympathetic cholinergic activity contracts the detrusor. A stroke can release the sacral reflex from descending inhibition and cause urgency. A sacral or peripheral lesion may instead leave a poorly contracting bladder (pp. 699–701, Figure 47-1).
+
+<span data-exam-ids="mcq-44ea7b7d5de2b617e3e9bfed" data-reader-metadata="exam"></span>
+**Ask which volume is being measured.** First urge generally occurs at 150 to 350 mL. A bladder may hold 300 to 600 mL and usually empties in under two minutes. Scan within a few minutes of spontaneous voiding. Below 100 mL generally indicates adequate emptying without straining. Above 200 mL is abnormal. Between these values, symptoms, repeat measurements and circumstances matter. A nursing-home resident can have frequent small voids while retaining a large residual (pp. 701, 705–708).
+
+**Aging changes the likelihood of a finding.** Involuntary contractions occur in 40% to 75% of older incontinent patients and also occur in some continent adults. The combination of a sudden contraction and slow transfer to the toilet often produces the actual leak. Residual volume tends to rise, functional capacity can fall, and the association of childbirth with incontinence weakens in older women (p. 701).
+
+<span data-exam-ids="mcq-7b5f1873a64c120ce3892039" data-reader-metadata="exam"></span>
+**An almost permanently wet man with hesitancy needs an emptying assessment.** Prostatic obstruction, weak detrusor contraction and medication effects can all leave urine behind. Check symptoms, medications, examination and urinalysis. Culture selectively when infection is suspected. Measure the residual promptly by ultrasound. June 2023 Q36 accepted both urinalysis with culture and a bladder scan. Cystoscopy or urodynamics is reserved for an indication such as hematuria, unresolved mechanism or planning an intervention. The sitting cites pp. 703, 705 and 707 and names Table 47-5, which is printed on p. 704 (pp. 703–708).
+
+<span data-exam-ids="mcq-e2d127b4b2b341b7154a9425" data-reader-metadata="exam"></span>
+**Urgency plus weak emptying can mimic prostatic obstruction.** The detrusor contracts involuntarily during filling but generates insufficient force during emptying. A low flow rate alone cannot distinguish weak contraction from a narrowed outlet. In frail men with neurologic disease considering prostate surgery, filling cystometry and a pressure-flow study can clarify what surgery could correct. Parkinson disease and spinal cord injury are examples in Chapter 38 (Ch. 47, pp. 701, 703–704, and Ch. 38, p. 562).
+
+## Abrupt leakage and medication review
+
+<span data-exam-ids="mcq-9dcabfcf87a03b3d498fce3d mcq-2e7dd4430690d60bc89b80f4 mcq-c6b6b0376463f87b97f47931" data-reader-metadata="exam"></span>
+**Distinguish three drug mechanisms by the story.** A new dry cough followed immediately by leakage suggests ACE-inhibitor–precipitated stress incontinence. Review enalapril and select an appropriate replacement. A person taking donepezil may instead develop frequency and irresistible urgency through increased cholinergic activity. Oxybutynin reduces detrusor contraction. New constipation, fullness and 380 mL remaining after a void point to retention, especially in a man with BPH. Stop the antimuscarinic and assess drainage. Reducing a necessary diuretic would not restore contraction (pp. 702–705, Tables 47-4 and 47-5).
+
+<span data-exam-ids="mcq-c2ee36b048f810572296abfe mcq-b0830837aa5b57c0f1e2f3e2" data-reader-metadata="exam"></span>
+**Identify increased production as well as a weak bladder.** Hyperglycemia can cause osmotic diuresis. Hypercalcemia, loop diuretics and nighttime mobilization of dependent edema may also produce more urine than the person can manage. Hypocalcemia was the exception in May 2024. Peripheral arterial disease was the exception in June 2025, which distinguished it from venous edema or fluid overload. Atrophic vaginitis produces local irritation, while a new access barrier or delirium can cause acute leakage despite previously effective continence (pp. 701–703, Tables 47-3 and 47-4).
+
+<span data-exam-ids="mcq-ec5cbb9f7b28b3e7733522d9" data-reader-metadata="exam"></span>
+**Watery stool with a distended abdomen can signal impaction.** A retained stool mass can irritate the rectum and cause liquid to escape around it. It can also impede bladder emptying or trigger reflex contractions. Examine for impaction and retention and clear the stool when confirmed. Treating the liquid as primary diarrhea with loperamide can worsen retention of stool. Address subsequent toileting, mobility and constipation (pp. 701–702, 716–717).
+
+<span data-exam-ids="mcq-d3016371143763c986f9973c" data-reader-metadata="exam"></span>
+**Interpret urine testing in context.** Urinalysis can identify blood, glucose or evidence of inflammation during the evaluation of new symptoms. A clinically well resident with long-standing stable incontinence and leukocytes discovered on a routine test gains no benefit from antibiotics merely for pyuria or bacteriuria. Reassess for new localizing or systemic features if the clinical situation changes (p. 705).
+
+## Choose treatment by the mechanism and the person’s abilities
+
+<span data-exam-ids="mcq-93174381fd654b82b0cca672 mcq-08d1f5a8c0d9c28af969b1a0" data-reader-metadata="exam"></span>
+**A diary can guide the caregiver as well as the patient.** Record voids, wet episodes, fluids and circumstances to find a workable toileting pattern. Someone who can transfer but cannot initiate toileting may benefit from assistance at fixed daytime intervals. Habit training tailors the schedule to an individual’s usual voids. Prompted voiding adds wet/dry checks, offers to toilet and praise. A three-day trial can identify responders. After knee surgery, moving the commode closer and facilitating transfers can address the barrier immediately (pp. 707–711, Tables 47-9 and 47-10).
+
+**For patients able to learn, match the exercise to the event.** With stress leakage, teach a pelvic-floor squeeze before a cough or lift. Leakage during a standing cough with the bladder about half full supports stress incontinence. Delayed leakage can follow a cough-triggered bladder contraction. With urgency, rapid pelvic contractions, urge suppression and a diary form part of bladder training. In mixed incontinence, begin with the symptoms that bother the patient most. Local vaginal estrogen can help when atrophic symptoms are present and may take months to have an effect (pp. 705, 709–710, 714).
+
+<span data-exam-ids="mcq-f29bfd95e2f83369c82a4b34" data-reader-metadata="exam"></span>
+**Persistent retention needs an emptying plan.** An alpha blocker can reduce smooth-muscle tone at the prostatic outlet in BPH without correcting fixed obstruction or weak contractility. Document the residual, assess renal or infectious consequences and discuss drainage and possible removal of a confirmed obstruction. A bladder relaxant can worsen high-residual leakage. Among patients who do not need ongoing drainage, a retrial after temporary catheterization is often possible (pp. 707–709, 711, 714–715).
+
+<span data-exam-ids="mcq-01cdc59c55369cf2a42ea5c5 mcq-3452f8f6cfd764cc9e8162f6" data-reader-metadata="exam"></span>
+**Separate storage drugs from prostate drugs.** Mirabegron stimulates beta-3 receptors during filling and can raise blood pressure or pulse. Antimuscarinics reduce bladder contractions but can cause dry mouth, constipation, delirium or retention. Finasteride instead inhibits type II 5-alpha reductase, reducing conversion of testosterone to dihydrotestosterone. Sexual dysfunction with gynecomastia points to finasteride. Tadalafil acts on phosphodiesterase type 5. The September 2024 Q50 bibliography lists p. 712, where Table 47-12 begins. The finasteride mechanism and adverse effects are on its continuation on p. 713 (pp. 711–714).
+
+<span data-exam-ids="mcq-911d970243b87dbe2fe1c675" data-reader-metadata="exam"></span>
+**Drain a neurogenic bladder without continuous catheter exposure when practical.** Clean intermittent catheterization at home can be performed by a trained patient or caregiver. Adjust frequency to measured volumes. When a catheter must remain, keep the system closed and urine flowing freely. Avoid routine irrigation or changing the catheter on an arbitrary schedule. New leakage around it, pain or falling output calls for examination for obstruction or displacement (Ch. 47, pp. 715–716, Tables 47-13 and 47-14, and Ch. 16, p. 232, Table 16-6).
+
+## Israeli context
+
+**מתי אומדים שליטה על הסוגרים?** חוזר מינהל האחיות 248/2025 עוסק באי־שליטה תפקודית. באשפוז אקוטי מבצעים אומדן בקבלה, בשינוי מצב ובשחרור. באשפוז תת־אקוטי או ממושך יש להשלים את אומדן הקבלה בתוך 72 שעות. לבני 65 ומעלה בקהילה מומלץ אומדן שנתי בביקור תקופתי. אחרי שחרור עם צנתר שתן חדש יש לבצע אומדן בקהילה תוך עשרה ימים. החריגים מפורטים מתחת לטבלה. [משרד הבריאות, 02.11.2025, עמ׳ 3, טבלת ״אומדן אי שליטה״](https://www.gov.il/BlobFolder/policy/nd248-2025/he/files_circulars_nd_nd248-2025.pdf#page=3).
+
+**כשהקושי הוא להגיע לשירותים.** האחות מתאימה עם המטופל תכנית מעשית. אפשר לקרב את אמצעי ההתרוקנות, לשפר תאורה וגישה, להציע ליווי יזום, לתזמן התרוקנות ולנהל יומן. כשיש חשד לאצירת שתן עוקבים אחר השארית. לפי הצורך מפנים להערכת רצפת האגן או לצוות נוסף. האומדן, ההתערבות וההמלצות להמשך מתועדים ברשומה ובמכתב השחרור. [משרד הבריאות, חוזר 248/2025, עמ׳ 2–4, ״אחריות וסמכות״, ״תוכנית התערבות״ ו״תיעוד״](https://www.gov.il/BlobFolder/policy/nd248-2025/he/files_circulars_nd_nd248-2025.pdf#page=2).
+
 ## Summary
 
 **Definition & epidemiology**
@@ -43,7 +110,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 **Drugs** (condensed from Table 47-12, p712–713)
 - Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ intraocular pressure, delirium, constipation (p712); patients with dementia must be followed for drug-induced delirium (p713); Current practice (not the book): offer an antimuscarinic or beta-3 agonist for OAB (Strong recommendation, Grade A); counsel on side effects and potential dementia/cognitive risk with antimuscarinics (Clinical Principles), using shared decision-making and patient preferences; when pharmacotherapy is indicated, consider a beta-3 agonist trial first, as typically preferred in the guideline discussion - AUA/SUFU 2024, statements 16-18 and discussion, p24-27
 - **Mirabegron** 25–50 mg once daily for overactive bladder, with renal/hepatic dose adjustment when appropriate. Monitor BP. US labeling advises against mirabegron in **severe uncontrolled hypertension** (systolic ≥180 or diastolic ≥110 mm Hg). This warning is drug-specific (pp712,714; FDA mirabegron prescribing information).
-- Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712); Required reading: see [AGS Beers 2023 required-article card](?chapter=laws&lawCard=ima-article-beers-2023#law-card-ima-article-beers-2023) for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)
+- Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; Table 47-12 (p712) lists a history of gynecologic cancer as a contraindication and breast cancer as a relative contraindication. In practice, cancer type and treatment matter. After inadequate relief with nonhormonal treatment, selected breast-cancer survivors may choose low-dose vaginal estrogen after a risk–benefit discussion. For patients taking an aromatase inhibitor, involve the oncologist in that decision. [ACOG clinical consensus, 2021](https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/12/treatment-of-urogenital-symptoms-in-individuals-with-a-history-of-estrogen-dependent-breast-cancer). See [AGS Beers 2023 required-article card](?chapter=laws&lawCard=ima-article-beers-2023#law-card-ima-article-beers-2023) for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)
 - Tamsulosin (alpha blocker, for men) 0.4–0.8 mg qd — less effect on blood pressure (greater blood pressure effects at the 0.8 mg dose) (Table 47-12, p713).
 - Duloxetine 30–60 mg daily — nausea, xerostomia, headache (p713); no drug is FDA-approved for stress UI; recommended in other countries only as second-line for those who prefer medication to surgery (p714).
 - Drug therapy overall: most studies suggest a **60%–70%** reduction in episode frequency in selected older adults; give a **2–4 week** trial before switching (p711).
@@ -142,7 +209,7 @@ Fecal incontinence; it co-occurs in about 30%–50% of such patients (p716).
 
 ### 2026 exam questions for this chapter
 
-The actual exam questions and keys as printed in this chapter's source file (reproduced verbatim, not paraphrased).
+English renderings of the 2026 questions and their post-appeal answers follow.
 
 > Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority). Keys are from key 899478 (after appeals). The support line is the book's own text, with its printed page; it supports an answer, it is not the key.
 

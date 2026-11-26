@@ -4631,7 +4631,8 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": null
     },
     "mcq-8c6249eede6e862a64792745": {
       "sitting": "2022-Jun",
@@ -4734,8 +4735,9 @@
           "page": 700,
           "chapter": "47",
           "available": true,
+          "rangeText": "Sympathetic tone closes the bladder neck",
           "anchor": "exam-p700-mcq-a77459f28aa5bea68b87e0b9",
-          "passage": "At the most basic level, urination is governed by a reflex in the sacral spinal cord. During"
+          "passage": "Sympathetic tone closes the bladder neck"
         }
       ],
       "tables": [],
@@ -5292,6 +5294,7 @@
           "page": 1059,
           "chapter": "68",
           "available": true,
+          "imageFile": "hazzard8e_ch68_table68-3_p1059.png",
           "anchor": "exam-p1059-mcq-795f2687afa4d5918ddb65de",
           "passage": "Table 68-3"
         }
@@ -5644,22 +5647,25 @@
           "page": 703,
           "chapter": "47",
           "available": true,
+          "rangeText": "A high PVR can result from anatomic or neurogenic obstruction to urinary outflow",
           "anchor": "exam-p703-mcq-7b5f1873a64c120ce3892039",
-          "passage": "Table 47-5 lists the clinical definitions and common causes of persistent urinary incontinen"
+          "passage": "A high PVR can result from anatomic or neurogenic obstruction to urinary outflow"
         },
         {
           "page": 705,
           "chapter": "47",
           "available": true,
+          "rangeText": "Urinalysis should be performed to look for evidence of infection",
           "anchor": "exam-p705-mcq-7b5f1873a64c120ce3892039",
-          "passage": "Urinalysis should be performed to look for evidence of infection, hematuria, and glucosuria."
+          "passage": "Urinalysis should be performed to look for evidence of infection"
         },
         {
           "page": 707,
           "chapter": "47",
           "available": true,
+          "rangeText": "the PVR determination can be done by portable ultrasonography",
           "anchor": "exam-p707-mcq-7b5f1873a64c120ce3892039",
-          "passage": "voiding difficulty, or a history of urinary retention, and those taking medications with sig"
+          "passage": "the PVR determination can be done by portable ultrasonography"
         }
       ],
       "tables": [
@@ -5668,7 +5674,18 @@
       "chapters": [
         "47"
       ],
-      "bankChapter": "47"
+      "bankChapter": "47",
+      "referenceNote": "The bibliography cites pp. 703, 705 and 707 and names Table 47-5. The table itself is printed on p. 704.",
+      "supportPages": [
+        {
+          "page": 704,
+          "chapter": "47",
+          "available": true,
+          "rangeText": "Anatomic obstruction by prostate",
+          "anchor": "exam-p704-mcq-7b5f1873a64c120ce3892039",
+          "passage": "Anatomic obstruction by prostate"
+        }
+      ]
     },
     "mcq-0081f896ab2a7645732697e6": {
       "sitting": "2023-Jun",
@@ -6327,15 +6344,18 @@
           "page": 707,
           "chapter": "47",
           "available": true,
+          "rangeText": "combining this accessibility with some form of scheduled toileting",
           "anchor": "exam-p707-mcq-93174381fd654b82b0cca672",
-          "passage": "Several therapeutic modalities are used in managing incontinent patients (Table 47-8). Speci"
+          "passage": "combining this accessibility with some form of scheduled toileting"
         },
         {
           "page": 708,
           "chapter": "47",
           "available": true,
+          "contextPage": 707,
+          "rangeText": "appropriate use of toilet substitutes",
           "anchor": "exam-p708-mcq-93174381fd654b82b0cca672",
-          "passage": "Many types of behavioral interventions are available for the management of urinary incontine"
+          "passage": "appropriate use of toilet substitutes"
         }
       ],
       "tables": [],
@@ -6392,15 +6412,18 @@
           "page": 1206,
           "chapter": "77",
           "available": true,
+          "rangeText": "LVEF of less than or equal to 35% with NYHA class II-III function class",
           "anchor": "exam-p1206-mcq-eea29e0984ea5088b834d159",
-          "passage": "Indications for implantation of an ICD for primary SCD prevention include: (1) ischemic card"
+          "passage": "LVEF of less than or equal to 35% with NYHA class II-III function class"
         },
         {
           "page": 1207,
           "chapter": "77",
           "available": true,
+          "contextPage": 1206,
+          "rangeText": "usefulness of ICD in reducing the risk of SCD and total mortality for both primary and secondary prevention in selected populations.",
           "anchor": "exam-p1207-mcq-eea29e0984ea5088b834d159",
-          "passage": "comparing AAD therapy to ICD have demonstrated the usefulness of ICD in reducing the risk of"
+          "passage": "usefulness of ICD in reducing the risk of SCD and total mortality for both primary and secondary prevention in selected populations."
         }
       ],
       "tables": [],
@@ -7740,8 +7763,9 @@
           "page": 787,
           "chapter": "52",
           "available": true,
+          "rangeText": "Gastrointestinal complications such as peptic ulcers and bleeding are potential side effects.",
           "anchor": "exam-p787-mcq-38f357fdf35289d175b07a3e",
-          "passage": "While efficacious, NSAIDs should be prescribed with caution, particularly in patients with c"
+          "passage": "Gastrointestinal complications such as peptic ulcers and bleeding are potential side effects."
         },
         {
           "page": 788,
@@ -7750,14 +7774,15 @@
           "contextPage": 787,
           "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk.",
           "anchor": "exam-p788-mcq-38f357fdf35289d175b07a3e",
-          "passage": "of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Usi"
+          "passage": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk."
         },
         {
           "page": 1173,
           "chapter": "76",
           "available": true,
+          "rangeText": "can worsen heart failure by impairing renal sodium and water excretion",
           "anchor": "exam-p1173-mcq-38f357fdf35289d175b07a3e",
-          "passage": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A"
+          "passage": "can worsen heart failure by impairing renal sodium and water excretion"
         }
       ],
       "tables": [],
@@ -7896,6 +7921,7 @@
           "page": 1203,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-8_p1203.png",
           "anchor": "exam-p1203-mcq-93e0cbe108de9a8412f0af06",
           "passage": "Table 77-8"
         }
@@ -9131,15 +9157,17 @@
           "page": 562,
           "chapter": "38",
           "available": true,
+          "rangeText": "Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility.",
           "anchor": "exam-p562-mcq-e2d127b4b2b341b7154a9425",
-          "passage": "Urine peak flow rate measurement is commonly used in urologic practice. In the AUA BPH guide"
+          "passage": "Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility."
         },
         {
           "page": 701,
           "chapter": "47",
           "available": true,
+          "rangeText": "detrusor hyperactivity combined with poor bladder contractility",
           "anchor": "exam-p701-mcq-e2d127b4b2b341b7154a9425",
-          "passage": "Older men with prostatic enlargement may have decreased urine flow rates and detrusor muscle"
+          "passage": "detrusor hyperactivity combined with poor bladder contractility"
         }
       ],
       "tables": [],
@@ -9631,8 +9659,9 @@
           "page": 788,
           "chapter": "52",
           "available": true,
+          "rangeText": "injections can significantly relieve pain due to OA.",
           "anchor": "exam-p788-mcq-df7cdf261f46a089b090d1a5",
-          "passage": "Glucocorticoid agents Intra-articular glucocorticoid (eg, methylprednisolone, triamcinolone)"
+          "passage": "injections can significantly relieve pain due to OA."
         },
         {
           "page": 789,
@@ -9641,7 +9670,7 @@
           "contextPage": 788,
           "rangeText": "pain relief typically lasts for up to 2 months",
           "anchor": "exam-p789-mcq-df7cdf261f46a089b090d1a5",
-          "passage": "be bothersome despite oral pharmacologic therapies. They are particularly efficacious in pat"
+          "passage": "pain relief typically lasts for up to 2 months"
         }
       ],
       "tables": [],
@@ -9707,15 +9736,17 @@
           "page": 702,
           "chapter": "47",
           "available": true,
+          "rangeText": "Metabolic (hyperglycemia, hypercalcemia)",
           "anchor": "exam-p702-mcq-c2ee36b048f810572296abfe",
-          "passage": "Table 47-3 — Reversible conditions that cause or contribute to urinary incontinence in older"
+          "passage": "Metabolic (hyperglycemia, hypercalcemia)"
         },
         {
           "page": 703,
           "chapter": "47",
           "available": true,
+          "rangeText": "Polyuria, frequency, urgency",
           "anchor": "exam-p703-mcq-c2ee36b048f810572296abfe",
-          "passage": "Table 47-4 — Medications that can potentially affect continence (printed 703)"
+          "passage": "Polyuria, frequency, urgency"
         }
       ],
       "tables": [
@@ -10002,8 +10033,9 @@
           "page": 1201,
           "chapter": "77",
           "available": true,
+          "rangeText": "Rapid up-titration or use of higher doses of BB and CCB can be associated with adverse events related to hypotension, attenuation of baroreceptor reflex, impaired conduction, or autonomic function.",
           "anchor": "exam-p1201-mcq-f2071d46927ab12d9f43632b",
-          "passage": "β-Blockers (BB) and non-dihydropyridine calcium channel blockers (CCB) slow down the AV noda"
+          "passage": "Rapid up-titration or use of higher doses of BB and CCB can be associated with adverse events related to hypotension, attenuation of baroreceptor reflex, impaired conduction, or autonomic function."
         }
       ],
       "tables": [],
@@ -10129,6 +10161,7 @@
           "page": 1201,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-6_p1201.png",
           "anchor": "exam-p1201-mcq-cdc9bd78706bb7538460a9ec",
           "passage": "Table 77-6"
         }
@@ -10288,8 +10321,9 @@
           "page": 709,
           "chapter": "47",
           "available": true,
+          "rangeText": "Surgical removal of obstruction",
           "anchor": "exam-p709-mcq-f29bfd95e2f83369c82a4b34",
-          "passage": "Table 47-9 — Primary treatments for different types of geriatric urinary incontinence (print"
+          "passage": "Surgical removal of obstruction"
         }
       ],
       "tables": [
@@ -10573,15 +10607,17 @@
           "page": 712,
           "chapter": "47",
           "available": true,
+          "rangeText": "Table 47-12",
           "anchor": "exam-p712-mcq-01cdc59c55369cf2a42ea5c5",
-          "passage": "Table 47-12 — Drugs commonly used in the united states to treat urinary incontinence (printe"
+          "passage": "Table 47-12"
         },
         {
           "page": 713,
           "chapter": "47",
           "available": true,
+          "rangeText": "Sexual dysfunction, gynecomastia",
           "anchor": "exam-p713-mcq-01cdc59c55369cf2a42ea5c5",
-          "passage": "Inhibits type II 5-alpha reductase, interfering with conversion of testosterone to 5-alpha-d"
+          "passage": "Sexual dysfunction, gynecomastia"
         }
       ],
       "tables": [
@@ -10676,15 +10712,17 @@
           "page": 781,
           "chapter": "52",
           "available": true,
+          "rangeText": "Pain tends to worsen with increased activity or weight-bearing and to improve with rest.",
           "anchor": "exam-p781-mcq-21da5c61dfcebe5d355fab8f",
-          "passage": "The American College of Rheumatology (ACR) has proposed specific criteria to standardize the"
+          "passage": "Pain tends to worsen with increased activity or weight-bearing and to improve with rest."
         },
         {
           "page": 782,
           "chapter": "52",
           "available": true,
+          "rangeText": "Radiographic findings specific to knee OA patients include medial tibiofemoral and/or patellofemoral joint space narrowing, along with osteophyte formation.",
           "anchor": "exam-p782-mcq-21da5c61dfcebe5d355fab8f",
-          "passage": "OA can usually be diagnosed clinically based on history and physical examination alone. Alth"
+          "passage": "Radiographic findings specific to knee OA patients include medial tibiofemoral and/or patellofemoral joint space narrowing, along with osteophyte formation."
         }
       ],
       "tables": [],
@@ -10706,6 +10744,7 @@
           "page": 1202,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-7_p1202.png",
           "anchor": "exam-p1202-mcq-ef2bb73ec06eb89fbd6291e8",
           "passage": "Table 77-7"
         }
@@ -11265,7 +11304,10 @@
         {
           "page": 712,
           "chapter": "47",
-          "available": true
+          "available": true,
+          "rangeText": "Table 47-12",
+          "anchor": "exam-p712-mcq-3452f8f6cfd764cc9e8162f6",
+          "passage": "Table 47-12"
         }
       ],
       "tables": [],
@@ -11273,14 +11315,15 @@
         "47"
       ],
       "bankChapter": "47",
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 713.",
+      "referenceNote": "The bibliography cites p. 712, where Table 47-12 begins. Its finasteride mechanism is printed on the continuation on p. 713.",
       "supportPages": [
         {
           "page": 713,
           "chapter": "47",
           "available": true,
+          "rangeText": "Inhibits type II 5-alpha reductase",
           "anchor": "exam-p713-mcq-3452f8f6cfd764cc9e8162f6",
-          "passage": "Inhibits type II 5-alpha reductase, interfering with conversion of testosterone to 5-alpha-d"
+          "passage": "Inhibits type II 5-alpha reductase"
         }
       ]
     },
@@ -11602,8 +11645,9 @@
           "page": 788,
           "chapter": "52",
           "available": true,
+          "rangeText": "Like other narcotic agents, it can also cause nausea, dizziness, somnolence, vomiting, and increased mortality risk.",
           "anchor": "exam-p788-mcq-08422871dc127dcc0309a5da",
-          "passage": "Narcotic analgesics Tramadol is a weak μ-opioid receptor inhibitor that inhibits the reuptak"
+          "passage": "Like other narcotic agents, it can also cause nausea, dizziness, somnolence, vomiting, and increased mortality risk."
         }
       ],
       "tables": [],
@@ -12392,7 +12436,19 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "101",
+      "referenceNote": "Harrison 21e chapter 370, Approach to Articular and Musculoskeletal Disorders (chapter 382 in the 22nd edition). The exam bibliography supplies no printed page. Hazzard 8e p. 1610 provides separate teaching on the effect of age on ESR and RF.",
+      "supportPages": [
+        {
+          "page": 1610,
+          "chapter": "101",
+          "available": true,
+          "rangeText": "Erythrocyte sedimentation rate (ESR) normally increases with age, especially in women.",
+          "anchor": "exam-p1610-mcq-0102d7d6e5b1cbbe232c2184",
+          "passage": "Erythrocyte sedimentation rate (ESR) normally increases with age, especially in women."
+        }
+      ]
     },
     "mcq-a71b7ae51235fd1aa80e4961": {
       "sitting": "2024-Sep",
@@ -12971,8 +13027,9 @@
           "page": 703,
           "chapter": "47",
           "available": true,
+          "rangeText": "Cough precipitating stress incontinence",
           "anchor": "exam-p703-mcq-9dcabfcf87a03b3d498fce3d",
-          "passage": "Table 47-4 — Medications that can potentially affect continence (printed 703)"
+          "passage": "Cough precipitating stress incontinence"
         }
       ],
       "tables": [
@@ -13282,7 +13339,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "77",
+          "page": 1202,
+          "anchor": "ch77-beers-anticoagulant",
+          "label": "Hazzard 8e, p. 1202, older adults and anticoagulant bleeding risk"
+        }
+      ]
     },
     "mcq-fe0fe26539d3780822b8f018": {
       "sitting": "2026-Jun",
@@ -13650,15 +13715,17 @@
           "page": 703,
           "chapter": "47",
           "available": true,
+          "rangeText": "Urinary retention, overflow incontinence, stool impaction",
           "anchor": "exam-p703-mcq-c6b6b0376463f87b97f47931",
-          "passage": "Table 47-5 lists the clinical definitions and common causes of persistent urinary incontinen"
+          "passage": "Urinary retention, overflow incontinence, stool impaction"
         },
         {
           "page": 704,
           "chapter": "47",
           "available": true,
+          "rangeText": "Medication effect (see Table 47-4)",
           "anchor": "exam-p704-mcq-c6b6b0376463f87b97f47931",
-          "passage": "Table 47-5 — Basic types and causes of persistent urinary incontinence (printed 704)"
+          "passage": "Medication effect (see Table 47-4)"
         }
       ],
       "tables": [
@@ -14138,6 +14205,7 @@
           "page": 1047,
           "chapter": "67",
           "available": true,
+          "rangeText": "Early palliative care for newly diagnosed metastatic lung cell cancer patients",
           "anchor": "exam-p1047-mcq-4ec2512c26a7775166980a4b",
           "passage": "The Evidence for Palliative Care Systems The evidence for specialist palliative care interve"
         }
@@ -14176,15 +14244,17 @@
           "page": 701,
           "chapter": "47",
           "available": true,
+          "rangeText": "Relief of a fecal impaction and effective treatment of constipation",
           "anchor": "exam-p701-mcq-ec5cbb9f7b28b3e7733522d9",
-          "passage": "Constipation and resultant fecal impaction are common in both acutely and chronically ill ol"
+          "passage": "Relief of a fecal impaction and effective treatment of constipation"
         },
         {
           "page": 702,
           "chapter": "47",
           "available": true,
+          "rangeText": "Disimpaction; appropriate use of bulk-forming agents and laxatives",
           "anchor": "exam-p702-mcq-ec5cbb9f7b28b3e7733522d9",
-          "passage": "Table 47-3 — Reversible conditions that cause or contribute to urinary incontinence in older"
+          "passage": "Disimpaction; appropriate use of bulk-forming agents and laxatives"
         }
       ],
       "tables": [
@@ -15125,6 +15195,7 @@
           "page": 785,
           "chapter": "52",
           "available": true,
+          "imageFile": "hazzard8e_ch52_figure52-4.png",
           "anchor": "exam-p785-mcq-be42dc9ffed6104e5fdedf88",
           "passage": "Figure 52-4"
         },
@@ -15132,6 +15203,7 @@
           "page": 786,
           "chapter": "52",
           "available": true,
+          "imageFile": "hazzard8e_ch52_figure52-5.png",
           "anchor": "exam-p786-mcq-be42dc9ffed6104e5fdedf88",
           "passage": "Figure 52-5"
         },
@@ -15139,8 +15211,9 @@
           "page": 787,
           "chapter": "52",
           "available": true,
+          "rangeText": "All patients with hand, knee, and hip OA should be instructed in the use of thermal agents.",
           "anchor": "exam-p787-mcq-be42dc9ffed6104e5fdedf88",
-          "passage": "Heat and cold therapy Thermal modalities may be effective for relieving OA symptoms, but the"
+          "passage": "All patients with hand, knee, and hip OA should be instructed in the use of thermal agents."
         }
       ],
       "tables": [],
@@ -15935,8 +16008,9 @@
           "page": 709,
           "chapter": "47",
           "available": true,
+          "rangeText": "Behavioral interventions (caregiver dependent)",
           "anchor": "exam-p709-mcq-08d1f5a8c0d9c28af969b1a0",
-          "passage": "Table 47-9 — Primary treatments for different types of geriatric urinary incontinence (print"
+          "passage": "Behavioral interventions (caregiver dependent)"
         }
       ],
       "tables": [
@@ -16131,6 +16205,7 @@
           "page": 1048,
           "chapter": "67",
           "available": true,
+          "rangeText": "In fact, feeding tube usage has been associated with the development of pressure ulcers",
           "anchor": "exam-p1048-mcq-caa086c8705cdeb3606c5536",
           "passage": "In advanced stages of dementia, weight loss and dysphagia are common with the latter putting"
         }
@@ -16544,8 +16619,9 @@
           "page": 703,
           "chapter": "47",
           "available": true,
+          "rangeText": "Cholinesterase inhibitors",
           "anchor": "exam-p703-mcq-2e7dd4430690d60bc89b80f4",
-          "passage": "Table 47-4 — Medications that can potentially affect continence (printed 703)"
+          "passage": "Cholinesterase inhibitors"
         }
       ],
       "tables": [
@@ -16773,6 +16849,7 @@
           "page": 1048,
           "chapter": "67",
           "available": true,
+          "rangeText": "Antibiotic therapy for aspiration pneumonia in advanced dementia has been associated with improved survival but not improved comfort.",
           "anchor": "exam-p1048-mcq-8b2cfa55422f88f802142d29",
           "passage": "Infections, specifically urinary tract infections and pneumonia, are frequently diagnosed in"
         }
@@ -16868,6 +16945,7 @@
           "page": 700,
           "chapter": "47",
           "available": true,
+          "imageFile": "hazzard8e_ch47_figure47-1.png",
           "anchor": "exam-p700-mcq-30f0309dc8329f9569c19e59",
           "passage": "Figure 47-1"
         }
@@ -17109,13 +17187,15 @@
           "page": 1202,
           "chapter": "77",
           "available": true,
+          "rangeText": "avoidance of NSAIDs and elimination of antiplatelet agents if possible.",
           "anchor": "exam-p1202-mcq-0cd20cd280f46d0acf25449c",
-          "passage": "The risk of stroke is five times higher in patients with AF. Anticoagulant therapy reduces s"
+          "passage": "avoidance of NSAIDs and elimination of antiplatelet agents if possible."
         },
         {
           "page": 1203,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-8_p1203.png",
           "anchor": "exam-p1203-mcq-0cd20cd280f46d0acf25449c",
           "passage": "Table 77-8"
         }
@@ -17333,8 +17413,9 @@
           "page": 705,
           "chapter": "47",
           "available": true,
+          "rangeText": "there is no benefit to treating bacteriuria in patients with chronic, stable incontinence",
           "anchor": "exam-p705-mcq-d3016371143763c986f9973c",
-          "passage": "Urinalysis should be performed to look for evidence of infection, hematuria, and glucosuria."
+          "passage": "there is no benefit to treating bacteriuria in patients with chronic, stable incontinence"
         }
       ],
       "tables": [],
@@ -17471,13 +17552,15 @@
           "page": 715,
           "chapter": "47",
           "available": true,
+          "rangeText": "Intermittent catheterization can help in the management of patients with urinary retention",
           "anchor": "exam-p715-mcq-911d970243b87dbe2fe1c675",
-          "passage": "Intermittent catheterization can help in the management of patients with urinary retention a"
+          "passage": "Intermittent catheterization can help in the management of patients with urinary retention"
         },
         {
           "page": 716,
           "chapter": "47",
           "available": true,
+          "rangeText": "Do not change catheters at arbitrary fixed intervals",
           "anchor": "exam-p716-mcq-911d970243b87dbe2fe1c675",
           "passage": "Do not change catheters at arbitrary fixed intervals"
         }
@@ -17504,15 +17587,18 @@
           "page": 701,
           "chapter": "47",
           "available": true,
+          "contextPage": 700,
+          "rangeText": "normal bladder capacity is 300 to 600 mL",
           "anchor": "exam-p701-mcq-44ea7b7d5de2b617e3e9bfed",
-          "passage": "Several age-related changes can contribute to the development of urinary incontinence. In ge"
+          "passage": "normal bladder capacity is 300 to 600 mL"
         },
         {
           "page": 707,
           "chapter": "47",
           "available": true,
+          "rangeText": "PVR values of less than 100 mL in the absence of straining",
           "anchor": "exam-p707-mcq-44ea7b7d5de2b617e3e9bfed",
-          "passage": "voiding difficulty, or a history of urinary retention, and those taking medications with sig"
+          "passage": "PVR values of less than 100 mL in the absence of straining"
         }
       ],
       "tables": [],
@@ -17763,8 +17849,9 @@
           "page": 702,
           "chapter": "47",
           "available": true,
+          "rangeText": "Metabolic (hyperglycemia, hypercalcemia)",
           "anchor": "exam-p702-mcq-b0830837aa5b57c0f1e2f3e2",
-          "passage": "Table 47-3 — Reversible conditions that cause or contribute to urinary incontinence in older"
+          "passage": "Metabolic (hyperglycemia, hypercalcemia)"
         }
       ],
       "tables": [
@@ -18523,6 +18610,7 @@
           "page": 1201,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-6_p1201.png",
           "anchor": "exam-p1201-mcq-2f108a771e027a49d0986f2e",
           "passage": "Table 77-6"
         }
@@ -19320,6 +19408,7 @@
           "page": 1202,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-7_p1202.png",
           "anchor": "exam-p1202-mcq-9cf3a3d46c26e13809d224e1",
           "passage": "Table 77-7"
         }
@@ -21229,22 +21318,25 @@
           "page": 1195,
           "chapter": "77",
           "available": true,
+          "rangeText": "Patients with SND may present with persistent sinus bradycardia, sinus arrest, or sinoatrial exit block",
           "anchor": "exam-p1195-mcq-80487577b314a49f9eb9ccb2",
-          "passage": "Sinus node dysfunction (SND), historically known as sick sinus syndrome (SSS), is related to"
+          "passage": "Patients with SND may present with persistent sinus bradycardia, sinus arrest, or sinoatrial exit block"
         },
         {
           "page": 1196,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_figure77-1b.png",
           "anchor": "exam-p1196-mcq-80487577b314a49f9eb9ccb2",
-          "passage": "FIGURE 77-1B. Sinus arrest of 4.2 seconds in a patient with paroxysmal atrial fibrillation/f"
+          "passage": "Figure 77-1B"
         },
         {
           "page": 1197,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-3_p1197.png",
           "anchor": "exam-p1197-mcq-80487577b314a49f9eb9ccb2",
-          "passage": "However, for patients with symptomatic SND that is infrequent or in those who are frail/bedr"
+          "passage": "Table 77-3"
         }
       ],
       "tables": [],
@@ -21319,6 +21411,7 @@
           "page": 1203,
           "chapter": "77",
           "available": true,
+          "imageFile": "hazzard8e_ch77_table77-8_p1203.png",
           "anchor": "exam-p1203-mcq-52e0e246a50af6e23d65cdc9",
           "passage": "Table 77-8"
         }
@@ -23426,18 +23519,16 @@
       "ids": [
         "mcq-7de65b6035bfccb52beb4ddb",
         "mcq-06ed2999f88c1ab0c78b66e4",
-        "mcq-4d0d80bd3f778a9252f39413",
         "mcq-38f357fdf35289d175b07a3e",
         "mcq-df7cdf261f46a089b090d1a5",
         "mcq-21da5c61dfcebe5d355fab8f",
         "mcq-08422871dc127dcc0309a5da",
-        "mcq-0102d7d6e5b1cbbe232c2184",
         "mcq-be42dc9ffed6104e5fdedf88"
       ],
       "before": 15,
-      "past": 9,
+      "past": 7,
       "resolved": 5,
-      "fallback": 2,
+      "fallback": 0,
       "practice": 28,
       "chapterLinked": 2
     },
@@ -24464,13 +24555,14 @@
         "mcq-345208681a53f5565b36e6b5",
         "mcq-dd417a7bb5968ba747380bb0",
         "mcq-089f5e7bee6ff0439beb7058",
+        "mcq-0102d7d6e5b1cbbe232c2184",
         "mcq-dc6cb801b618efb366d202a9",
         "mcq-5e98e5b4f20aeaa91b485dcd"
       ],
       "before": 0,
-      "past": 9,
+      "past": 10,
       "resolved": 8,
-      "fallback": 0,
+      "fallback": 1,
       "practice": 5,
       "chapterLinked": 1
     },

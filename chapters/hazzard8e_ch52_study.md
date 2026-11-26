@@ -2,10 +2,70 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 
 # Chapter 52 Study: Osteoarthritis
 
+## What the exams asked
+
+- Which treatment applies to the **hand** as well as the knee and hip? Read the joint columns for heat, cold and TENS. [June 2025 Q1](?chapter=52#exam-p785-mcq-be42dc9ffed6104e5fdedf88).
+- Which radiographic pair supports OA in a woman with activity-related knee pain and brief stiffness? [September 2024 Q26](?chapter=52#exam-p782-mcq-21da5c61dfcebe5d355fab8f).
+- Which potential harm belongs in a discussion about tramadol for chronic pain? [September 2024 Q63](?chapter=52#exam-p788-mcq-08422871dc127dcc0309a5da).
+- What does a PPI protect against during systemic NSAID treatment, and what happens to renal and cardiovascular risk? [May 2024 Q14](?chapter=52#exam-p788-mcq-38f357fdf35289d175b07a3e).
+- What can relieve one painful knee when walking is limited and eGFR is 28? [May 2024 Q89](?chapter=52#exam-p789-mcq-df7cdf261f46a089b090d1a5).
+- Which aid stabilizes a knee that gives way? [June 2022 Q86, chapter-level citation](?chapter=52#asked-chapter) · [Read the brace paragraph](?chapter=52#ch52-knee-brace).
+- Which risk factor explains the nodal hand changes in the photograph? [2020 Q95, chapter-level citation](?chapter=52#asked-chapter) · [Read about body weight and hand OA](?chapter=52#ch52-hand-weight).
+
+## Recognize the painful joint
+
+<span data-exam-ids="mcq-21da5c61dfcebe5d355fab8f" data-reader-metadata="exam"></span>
+
+**From history to radiograph.** A patient with knee OA may first notice sharp pain on the stairs that settles at rest. After sitting, the joint takes time to loosen. Morning stiffness usually clears within half an hour. Look for joint-line tenderness, crepitus on active movement, a cool effusion and instability. A film showing loss of tibiofemoral joint space and marginal osteophytes agrees with that history. Subchondral sclerosis and cysts may accompany cartilage loss. A radiographic abnormality alone cannot tell you which knee hurts or how far a patient can walk (pp. 781–783, Figure 52-1).
+
+**The hand photograph.** Bony enlargement at distal interphalangeal joints produces Heberden nodes, while proximal interphalangeal enlargements are Bouchard nodes. Thumb-base OA may square off the hand and make turning a key or opening a jar difficult. Excess body weight is associated with OA even at the hand, which does not bear body weight during walking. That association explains the 2020 risk-factor question. Age is the strongest overall risk factor and obesity is the strongest modifiable one. A strong family history is common in generalized nodal OA. Look for asymmetric narrowing, marginal osteophytes and, in erosive hand OA, central erosions with a gull-wing outline (pp. 779–783, Figure 52-2).
+
+**When a previous OA diagnosis is insufficient.** Persistent warmth or synovitis, prolonged morning stiffness and pain improving with activity suggest another process. Aspirate an unexplained acute, hot effusion. OA fluid usually has fewer than 2,000 white cells per cubic millimeter. A higher count shifts the differential toward inflammatory or infectious arthritis. Microscopy can identify crystals and culture investigates infection. Crystals do not exclude infection. Reserve inflammatory blood tests for a clinical suspicion of another condition. MRI can show meniscal damage, subchondral changes and synovitis before plain films become abnormal, but is seldom needed to diagnose OA (pp. 782–783).
+
+## Match physical treatment to the joint
+
+<span data-exam-ids="mcq-be42dc9ffed6104e5fdedf88" data-reader-metadata="exam"></span>
+
+**Trace each intervention across the joint columns.** In Figure 52-4, localized warmth or cooling is a conditional option for hand, knee and hip symptoms. For a stiff hand, warm water or a paraffin bath can provide temporary relief and make movement easier. A cold pack may ease pain and swelling. Protect the skin and limit an application to about twenty minutes. The figure assigns weight loss for people with excess weight and tai chi to knee and hip OA. Figure 52-5 advises against TENS for knee and hip OA and gives it no positive hand recommendation. A thumb-base orthosis has stronger support than orthoses for other hand joints (pp. 785–787).
+
+**When the knee gives way.** A tibiofemoral brace can improve stability and walking in a painful varus or valgus knee and may lower fall risk. A patellofemoral brace is a conditional option for patellofemoral symptoms. Prescribe strengthening when quadriceps weakness contributes to buckling. Fit a cane near the greater trochanter, in the hand opposite the painful leg, with about 15–20 degrees of elbow flexion. A walker may suit bilateral disease or greater disability. Weight loss exceeding 5% over about twenty weeks is a realistic initial target for an overweight person with knee or hip OA. Benefits need not wait for 10% loss. Combine a sustainable eating plan with strengthening and aerobic activity (pp. 784–787).
+
+## Choose analgesia around the patient's risks
+
+<span data-exam-ids="mcq-38f357fdf35289d175b07a3e" data-reader-metadata="exam"></span>
+
+**Separate upper gastrointestinal protection from kidney and heart safety.** A topical NSAID such as diclofenac is an early choice for one painful knee. It is also an option for hand OA and for symptomatic foot OA in the chapter. The hip lies too deep for reliable benefit. Oral NSAIDs can help when several joints hurt or a topical trial fails, but older age, anticoagulation and glucocorticoids magnify gastrointestinal bleeding risk. A PPI lowers the upper GI risk of a nonselective NSAID. COX-2 selectivity also reduces some GI toxicity. Neither strategy prevents renal injury, hypertension or fluid retention. Avoid systemic NSAIDs in stage IV or V CKD. NSAIDs can worsen heart failure by reducing renal sodium and water excretion and attenuating treatment response (pp. 787–788 and ch. 76, p. 1173).
+
+<span data-exam-ids="mcq-df7cdf261f46a089b090d1a5" data-reader-metadata="exam"></span>
+
+**One knee remains disabling despite therapy.** Check whether the pain and examination still fit OA, whether an aid would help and what activity the patient wants to regain. In the woman with an eGFR of 28, a diclofenac injection still exposes the kidneys to a systemic NSAID. An intra-articular glucocorticoid targets the painful knee and may relieve symptoms for up to two months. For the hip, image guidance helps place the needle. Reconsider after each injection according to prior benefit and alternatives. Arthroscopic lavage has not outperformed sham surgery for degenerative knee pain (pp. 788–789).
+
+<span data-exam-ids="mcq-08422871dc127dcc0309a5da" data-reader-metadata="exam"></span>
+
+**Tramadol is a conditional option when alternatives are inadequate.** It acts at μ-opioid receptors and inhibits reuptake of serotonin and norepinephrine. Discuss a concrete goal, such as walking from the bedroom to the kitchen. Reassess drowsiness, dizziness, falls, constipation, respiratory effects and interacting serotonergic medicines. Seizures can occur at recommended doses. An OA cohort found higher one-year mortality after starting tramadol than after several NSAIDs. Differences in who received each drug limit causal interpretation. If an opioid trial is warranted, the chapter advises trying tramadol before a stronger opioid and keeping dose and duration limited (p. 788). [Tramadol prescribing information, warnings and section 12.1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=855905c7-1481-4b2d-a318-3254ad8ed73c) · [Original OA cohort](https://doi.org/10.1001/jama.2019.1347).
+
+**Other options and their limits.** Acetaminophen can be tried briefly when NSAIDs are unsuitable. Continue regular treatment only for meaningful relief and monitor hepatic toxicity. The ACR/AF OA guideline uses 3 g daily in divided doses as its regular-treatment maximum. FDA gives a general adult ceiling of 4 g in 24 hours across all products. Lower individual or product limits take precedence. Duloxetine may help knee OA pain when tolerated. Capsaicin can help knee pain but often irritates skin, and applying it to fingers risks transfer to the eyes. Give the joint and the guideline when discussing hyaluronic acid injections. ACR/AF recommends against them conditionally for knee and thumb-base OA and strongly for hip OA. OARSI allows selected knee use depending on comorbidities. Neither PRP nor stem-cell injection is routinely recommended for knee or hip OA (pp. 785–789). [ACR/AF guideline](https://doi.org/10.1002/acr.24131) · [OARSI guideline](https://doi.org/10.1016/j.joca.2019.06.011) · [FDA acetaminophen guidance](https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen).
+
+## Other joints, prevention and surgical decisions
+
+**The distribution can identify the origin of pain.** Hip OA can refer to the knee. Groin pain with internal rotation and difficulty putting on a shoe point back to the hip. At the foot, painful limited dorsiflexion of the first MTP can impair push-off. A stiff insert or rocker sole can reduce painful motion. Neck OA may cause radicular pain or impaired dexterity. Lumbar stenosis often eases in flexion, as when leaning on a shopping cart, and worsens with extension. Ask which movement reproduces the symptom before attributing it to an incidental film finding (pp. 781–784, 786–787).
+
+**Why risk and symptoms vary.** Failed repair affects cartilage, synovium, subchondral bone and periarticular tissues. Matrix-degrading enzymes, inflammation, oxidative stress and chondrocyte senescence contribute. Prior meniscal or ligament injury, malalignment and abnormal hip shape concentrate load. Recreational walking alone has not shown the same risk as injury-prone activities. Many genetic variants, including cartilage-matrix and interleukin pathways, have small individual effects. Clinical classification criteria standardize research groups and do not replace evaluating the patient. No routinely available drug has been shown to arrest structural progression (pp. 779–781, 788–790).
+
+**Build a plan around function.** Education, pacing and a progressive home program help a person manage symptoms between visits. Start with mobility and isometric work if joint motion is too painful, then progress resistance, balance and aerobic conditioning. Aquatic exercise can make movement possible with severe deconditioning. Occupational therapy can adapt grips, writing tools and meal preparation. Ask what remains difficult after treatment. Persistent pain and lost function despite an adequate conservative trial justify discussing surgery if the patient is fit and wishes to proceed (pp. 784–790).
+
+**Match surgery to the distribution.** Varus malalignment with predominantly medial knee disease can be treated by a high tibial osteotomy that shifts load toward a healthier compartment. Unicompartmental replacement can suit localized disease and allow faster initial recovery, but has a higher revision rate. For symptomatic multicompartment disease, total replacement addresses all involved compartments. Comorbidities influence the likely magnitude of benefit and complication risk. For thumb-base OA, trapeziectomy is the usual surgical choice after unsuccessful conservative care. Arthrodesis can trade motion for pain relief and stability at selected joints, including the DIP and first MTP (pp. 789–790).
+
+## Israeli context
+
+**הסבר למטופלים.** משרד הבריאות מתאר אוסטאוארתריטיס כמחלת מפרקים שכיחה בגיל המבוגר. פגיעה בסחוס ושינוי הדרגתי במבנה המפרק עשויים להתבטא בכאב ובהגבלת תנועה. השינוי יכול להתקדם לאורך שנים, ולעיתים להתפתח לאחר פגיעה במפרק. ראו בפרק ״סוגי דלקת מפרקים״ את הסעיף ״אוסטאו - ארתריטיס (דלקת מפרקים ניוונית)״. [משרד הבריאות, תסמינים וגורמים לדלקת מפרקים, 9.10.2024](https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/arthritis/).
+
+**מה אפשר להציע בשיחה במרפאה.** בסעיף ״פיזיותרפיה״ מוסבר שאפשר לעבוד על שימור טווח התנועה ועל חיזוק השרירים שסביב המפרק. בסעיף ״ניתוחים״ מתוארת האפשרות לשקול החלפת מפרק כאשר הטיפול השמרני אינו מספיק. זהו דף מידע לציבור העוסק בכמה סוגי דלקת מפרקים. את בחירת התרופה והמינון יש להתאים למפרק הכואב ולמחלות הרקע. [משרד הבריאות, ״הטיפול בדלקת מפרקים״, תתי־הסעיפים ״פיזיותרפיה״ ו״ניתוחים״](https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/arthritis/).
+
 ## Summary
 
 **Epidemiology & burden**
-- **~240 million** worldwide have symptomatic OA; **≥32 million** in the US. OA is the **3rd leading cause of years lived with disability** in the US and the most common cause of mobility limitation in older adults (p779).
+- The chapter estimates **~240 million** people worldwide with symptomatic OA and **≥32 million** in the US. In the data it cites, OA ranked **third for years lived with disability** in the US and was the most common cause of mobility limitation in older adults (p779).
 - **1 in 2** lifetime risk of developing symptomatic knee OA (p779).
 - Hip or knee OA carries **20% excess mortality** vs those without it (p779).
 - Radiographic OA (adults >60): hand **20%–40%**, knee **30%–40%**. Symptomatic OA: hand **13%–26%**, knee **10%–14%**, hip (≥45) **~10%**, foot (>50) **17%** — disabling in **9.5%** (p779).
@@ -13,7 +73,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 
 **Risk factors**
 - Obesity is the strongest *modifiable* risk factor; reducing weight from obese to normal is *estimated* to cut knee OA incidence by **21%** (men) / **33%** (women) (p780).
-- Genetics: **90** genome-wide significant OA risk loci identified; COL2A1 (type II collagen) is among the implicated genes (p780).
+- Genetics: **90** genome-wide significant OA risk loci reported in the studies available to the chapter; COL2A1 (type II collagen) is among the implicated genes (p780).
 - **Table 52-1 — Secondary causes of OA**: anatomical abnormalities, metabolic/endocrine (diabetes mellitus, hemochromatosis, acromegaly, hyperparathyroidism, ochronosis), crystal deposition disease (gout, pseudogout), inflammatory arthritis, trauma, and others (avascular necrosis, neuropathic Charcot joints) (p780).
 
 **Diagnosis**
@@ -35,7 +95,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 - Avoid NSAIDs if **CKD stage IV or V** (eGFR **<30 cc/min**) (p788).
 - ACR/AF and OARSI recommend **against** glucosamine or chondroitin sulfate for knee/hip OA (p788). Bisphosphonates showed no efficacy for pain or function, and TNF inhibitors/IL-1 receptor antagonists were not efficacious for erosive OA and are not recommended (p788); the ACR/AF figure lists all three as strongly recommended against (Figure 52-5, p786).
 - Intra-articular glucocorticoids may relieve pain for up to **2 months**. Hazzard discourages more than **three injections in six months** (p789). Repeat injections are individualized. EULAR describes a customary limit of **3–4 per joint per year**, while acknowledging limited evidence for a precise safe frequency (EULAR intra-articular therapy recommendations, 2021).
-- Viscosupplementation (IA hyaluronic acid): not recommended by ACR/AF/OARSI (p789). Platelet-rich plasma/mesenchymal stem cell therapy: still experimental and not FDA-approved — only within an FDA-approved trial (p789); ACR/AF strongly against for knee/hip (Figure 52-5, p786).
+- Viscosupplementation (intra-articular hyaluronic acid) has little clear benefit in low-bias trials. ACR/AF recommends against it for knee OA, while OARSI allows selected knee use depending on comorbidities (p789 and the guideline comparison above). Hazzard advises restricting PRP and mesenchymal stem-cell treatments to trials (p789). ACR/AF recommends against both for knee and hip OA. For symptomatic knee OA specifically, AAOS gives limited support to PRP for pain and function because trial results vary. These treatments have not been shown to restore lost cartilage. [AAOS knee OA guideline, Platelet-rich Plasma](https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-knee/oak3cpg.pdf).
 
 **Surgery & prevention**
 - High tibial osteotomy: **~25%** failure rate at 10 years (p789).
@@ -49,7 +109,7 @@ Study summary of Chapter 52; the book and the full chapter are the reference.
 
 <details><summary>Answer</summary>
 
-At least 32 million people (out of ~240 million worldwide with symptomatic OA); OA is the 3rd leading cause of years lived with disability in the US (p779).
+The chapter reports at least 32 million people in the US and about 240 million worldwide. OA ranked third for years lived with disability in the US estimates it cites (p779).
 
 </details>
 
@@ -97,7 +157,7 @@ More than 5% weight loss achieved within a 20-week period (p786).
 
 <details><summary>Answer</summary>
 
-Glucosamine and chondroitin sulfate (no more effective than placebo in the lowest-bias data), TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).
+Glucosamine for hand, hip or knee OA, and chondroitin sulfate for hip or knee OA. Hand OA is an exception: ACR/AF conditionally recommends chondroitin sulfate for this site. Other drugs recommended against include TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).
 
 </details>
 

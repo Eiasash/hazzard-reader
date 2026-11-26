@@ -4760,7 +4760,11 @@
       "fromBasic": false,
       "duplicates": [
         3683
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": null
+      }
     },
     "3187": {
       "id": "mcq-b50ef7b89d34aea2228e11f4",
@@ -5785,7 +5789,10 @@
           700
         ],
         "passages": {
-          "700": "At the most basic level, urination is governed by a reflex in the sacral spinal cord. During"
+          "700": {
+            "text": "Sympathetic tone closes the bladder neck",
+            "rangeText": "Sympathetic tone closes the bladder neck"
+          }
         }
       }
     },
@@ -6390,7 +6397,10 @@
           "68-3"
         ],
         "passages": {
-          "1059": "Table 68-3",
+          "1059": {
+            "text": "Table 68-3",
+            "imageFile": "hazzard8e_ch68_table68-3_p1059.png"
+          },
           "1048": {
             "text": "of nonpharmacologic management in situations that risk patient or caregiver safety. As part ",
             "contextPage": 1047,
@@ -6824,11 +6834,28 @@
         ],
         "bankChapter": "47",
         "passages": {
-          "703": "Table 47-5 lists the clinical definitions and common causes of persistent urinary incontinen",
-          "705": "Urinalysis should be performed to look for evidence of infection, hematuria, and glucosuria.",
-          "707": "voiding difficulty, or a history of urinary retention, and those taking medications with sig"
-        }
-      }
+          "703": {
+            "text": "A high PVR can result from anatomic or neurogenic obstruction to urinary outflow",
+            "rangeText": "A high PVR can result from anatomic or neurogenic obstruction to urinary outflow"
+          },
+          "705": {
+            "text": "Urinalysis should be performed to look for evidence of infection",
+            "rangeText": "Urinalysis should be performed to look for evidence of infection"
+          },
+          "707": {
+            "text": "the PVR determination can be done by portable ultrasonography",
+            "rangeText": "the PVR determination can be done by portable ultrasonography"
+          },
+          "704": {
+            "text": "Anatomic obstruction by prostate",
+            "rangeText": "Anatomic obstruction by prostate"
+          }
+        },
+        "supportPages": [
+          704
+        ]
+      },
+      "referenceNote": "The bibliography cites pp. 703, 705 and 707 and names Table 47-5. The table itself is printed on p. 704."
     },
     "3271": {
       "id": "mcq-0081f896ab2a7645732697e6",
@@ -7627,8 +7654,15 @@
           710
         ],
         "passages": {
-          "707": "Several therapeutic modalities are used in managing incontinent patients (Table 47-8). Speci",
-          "708": "Many types of behavioral interventions are available for the management of urinary incontine"
+          "707": {
+            "text": "combining this accessibility with some form of scheduled toileting",
+            "rangeText": "combining this accessibility with some form of scheduled toileting"
+          },
+          "708": {
+            "text": "appropriate use of toilet substitutes",
+            "rangeText": "appropriate use of toilet substitutes",
+            "contextPage": 707
+          }
         }
       }
     },
@@ -7681,8 +7715,15 @@
         ],
         "bankChapter": "77",
         "passages": {
-          "1206": "Indications for implantation of an ICD for primary SCD prevention include: (1) ischemic card",
-          "1207": "comparing AAD therapy to ICD have demonstrated the usefulness of ICD in reducing the risk of"
+          "1206": {
+            "text": "LVEF of less than or equal to 35% with NYHA class II-III function class",
+            "rangeText": "LVEF of less than or equal to 35% with NYHA class II-III function class"
+          },
+          "1207": {
+            "text": "usefulness of ICD in reducing the risk of SCD and total mortality for both primary and secondary prevention in selected populations.",
+            "rangeText": "usefulness of ICD in reducing the risk of SCD and total mortality for both primary and secondary prevention in selected populations.",
+            "contextPage": 1206
+          }
         }
       }
     },
@@ -9155,13 +9196,19 @@
           "76"
         ],
         "passages": {
-          "787": "While efficacious, NSAIDs should be prescribed with caution, particularly in patients with c",
-          "788": {
-            "text": "of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Usi",
-            "contextPage": 787,
-            "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk."
+          "787": {
+            "text": "Gastrointestinal complications such as peptic ulcers and bleeding are potential side effects.",
+            "rangeText": "Gastrointestinal complications such as peptic ulcers and bleeding are potential side effects."
           },
-          "1173": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A"
+          "788": {
+            "text": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk.",
+            "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk.",
+            "contextPage": 787
+          },
+          "1173": {
+            "text": "can worsen heart failure by impairing renal sodium and water excretion",
+            "rangeText": "can worsen heart failure by impairing renal sodium and water excretion"
+          }
         }
       }
     },
@@ -9386,7 +9433,10 @@
           "77-8"
         ],
         "passages": {
-          "1203": "Table 77-8"
+          "1203": {
+            "text": "Table 77-8",
+            "imageFile": "hazzard8e_ch77_table77-8_p1203.png"
+          }
         }
       }
     },
@@ -10937,8 +10987,14 @@
           "38"
         ],
         "passages": {
-          "701": "Older men with prostatic enlargement may have decreased urine flow rates and detrusor muscle",
-          "562": "Urine peak flow rate measurement is commonly used in urologic practice. In the AUA BPH guide"
+          "701": {
+            "text": "detrusor hyperactivity combined with poor bladder contractility",
+            "rangeText": "detrusor hyperactivity combined with poor bladder contractility"
+          },
+          "562": {
+            "text": "Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility.",
+            "rangeText": "Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility."
+          }
         }
       }
     },
@@ -11577,11 +11633,14 @@
           "52"
         ],
         "passages": {
-          "788": "Glucocorticoid agents Intra-articular glucocorticoid (eg, methylprednisolone, triamcinolone)",
+          "788": {
+            "text": "injections can significantly relieve pain due to OA.",
+            "rangeText": "injections can significantly relieve pain due to OA."
+          },
           "789": {
-            "text": "be bothersome despite oral pharmacologic therapies. They are particularly efficacious in pat",
-            "contextPage": 788,
-            "rangeText": "pain relief typically lasts for up to 2 months"
+            "text": "pain relief typically lasts for up to 2 months",
+            "rangeText": "pain relief typically lasts for up to 2 months",
+            "contextPage": 788
           }
         }
       }
@@ -11659,8 +11718,14 @@
           "47-4"
         ],
         "passages": {
-          "702": "Table 47-3 — Reversible conditions that cause or contribute to urinary incontinence in older",
-          "703": "Table 47-4 — Medications that can potentially affect continence (printed 703)"
+          "702": {
+            "text": "Metabolic (hyperglycemia, hypercalcemia)",
+            "rangeText": "Metabolic (hyperglycemia, hypercalcemia)"
+          },
+          "703": {
+            "text": "Polyuria, frequency, urgency",
+            "rangeText": "Polyuria, frequency, urgency"
+          }
         }
       }
     },
@@ -11967,7 +12032,10 @@
           "77"
         ],
         "passages": {
-          "1201": "β-Blockers (BB) and non-dihydropyridine calcium channel blockers (CCB) slow down the AV noda"
+          "1201": {
+            "text": "Rapid up-titration or use of higher doses of BB and CCB can be associated with adverse events related to hypotension, attenuation of baroreceptor reflex, impaired conduction, or autonomic function.",
+            "rangeText": "Rapid up-titration or use of higher doses of BB and CCB can be associated with adverse events related to hypotension, attenuation of baroreceptor reflex, impaired conduction, or autonomic function."
+          }
         }
       }
     },
@@ -12141,7 +12209,10 @@
           "77-6"
         ],
         "passages": {
-          "1201": "Table 77-6"
+          "1201": {
+            "text": "Table 77-6",
+            "imageFile": "hazzard8e_ch77_table77-6_p1201.png"
+          }
         }
       }
     },
@@ -12320,7 +12391,10 @@
         ],
         "bankChapter": "47",
         "passages": {
-          "709": "Table 47-9 — Primary treatments for different types of geriatric urinary incontinence (print"
+          "709": {
+            "text": "Surgical removal of obstruction",
+            "rangeText": "Surgical removal of obstruction"
+          }
         }
       }
     },
@@ -12674,8 +12748,14 @@
         ],
         "bankChapter": "47",
         "passages": {
-          "712": "Table 47-12 — Drugs commonly used in the united states to treat urinary incontinence (printe",
-          "713": "Inhibits type II 5-alpha reductase, interfering with conversion of testosterone to 5-alpha-d"
+          "712": {
+            "text": "Table 47-12",
+            "rangeText": "Table 47-12"
+          },
+          "713": {
+            "text": "Sexual dysfunction, gynecomastia",
+            "rangeText": "Sexual dysfunction, gynecomastia"
+          }
         }
       }
     },
@@ -12792,8 +12872,14 @@
           "52"
         ],
         "passages": {
-          "781": "The American College of Rheumatology (ACR) has proposed specific criteria to standardize the",
-          "782": "OA can usually be diagnosed clinically based on history and physical examination alone. Alth"
+          "781": {
+            "text": "Pain tends to worsen with increased activity or weight-bearing and to improve with rest.",
+            "rangeText": "Pain tends to worsen with increased activity or weight-bearing and to improve with rest."
+          },
+          "782": {
+            "text": "Radiographic findings specific to knee OA patients include medial tibiofemoral and/or patellofemoral joint space narrowing, along with osteophyte formation.",
+            "rangeText": "Radiographic findings specific to knee OA patients include medial tibiofemoral and/or patellofemoral joint space narrowing, along with osteophyte formation."
+          }
         }
       }
     },
@@ -12830,7 +12916,10 @@
           "77-7"
         ],
         "passages": {
-          "1202": "Table 77-7"
+          "1202": {
+            "text": "Table 77-7",
+            "imageFile": "hazzard8e_ch77_table77-7_p1202.png"
+          }
         }
       }
     },
@@ -13547,7 +13636,7 @@
       ],
       "explanation": "## Finasteride - מנגנון פעולה\n\n### ✅ תשובה ב' נכונה:\nFinasteride מעכב את האנזים **5-Alpha Reductase** (בעיקר סוג II), האחראי להמרת **טסטוסטרון → DHT** (דיהידרוטסטוסטרון). DHT הוא הגורם העיקרי להיפרפלזיה שפירה של הערמונית (BPH) ולנשירת שיער אנדרוגנית.\n\n---\n\n### ❌ תשובות שגויות:\n\n- **א'** - הפוך! הכיוון הנכון הוא המרת **טסטוסטרון ל-DHT** (לא להיפך). Finasteride חוסם בדיוק את ההמרה הזו.",
       "readerReference": "Hazzard 8e · p. 713",
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 713.",
+      "referenceNote": "The bibliography cites p. 712, where Table 47-12 begins. Its finasteride mechanism is printed on the continuation on p. 713.",
       "readerMapping": {
         "printedPages": [
           712
@@ -13560,7 +13649,14 @@
         ],
         "bankChapter": "47",
         "passages": {
-          "713": "Inhibits type II 5-alpha reductase, interfering with conversion of testosterone to 5-alpha-d"
+          "713": {
+            "text": "Inhibits type II 5-alpha reductase",
+            "rangeText": "Inhibits type II 5-alpha reductase"
+          },
+          "712": {
+            "text": "Table 47-12",
+            "rangeText": "Table 47-12"
+          }
         }
       }
     },
@@ -13947,7 +14043,10 @@
         ],
         "bankChapter": "52",
         "passages": {
-          "788": "Narcotic analgesics Tramadol is a weak μ-opioid receptor inhibitor that inhibits the reuptak"
+          "788": {
+            "text": "Like other narcotic agents, it can also cause nausea, dizziness, somnolence, vomiting, and increased mortality risk.",
+            "rangeText": "Like other narcotic agents, it can also cause nausea, dizziness, somnolence, vomiting, and increased mortality risk."
+          }
         }
       }
     },
@@ -14993,7 +15092,22 @@
       "duplicates": [
         2959
       ],
-      "explanation": "## תשובה ב' נכונה ✅\n\n### למה ב' נכונה?\nה-ESR (שקיעת דם) **עולה באופן פיזיולוגי עם הגיל**, במיוחד אצל נשים מבוגרות — גם ללא מחלה דלקתית פעילה. לכן היא **בדיקה לא ספציפית** באוכלוסייה הגריאטרית, ועלולה להוביל לאבחנת יתר. עדיף להשתמש ב-CRP שפחות מושפע מהגיל.\n\n---\n\n### למה האחרות שגויות?\n\n**א' ❌** — RF נוטה להיות **פחות ספציפי** בגיל מבוגר (עד15% מהמטופלים המבוגרים עשויים להראות RF או ANA חיוביים בכייל נמוך (Harrison22e ch382p2941(PDF2984))."
+      "explanation": "## תשובה ב' נכונה ✅\n\n### למה ב' נכונה?\nה-ESR (שקיעת דם) **עולה באופן פיזיולוגי עם הגיל**, במיוחד אצל נשים מבוגרות — גם ללא מחלה דלקתית פעילה. לכן היא **בדיקה לא ספציפית** באוכלוסייה הגריאטרית, ועלולה להוביל לאבחנת יתר. עדיף להשתמש ב-CRP שפחות מושפע מהגיל.\n\n---\n\n### למה האחרות שגויות?\n\n**א' ❌** — RF נוטה להיות **פחות ספציפי** בגיל מבוגר (עד15% מהמטופלים המבוגרים עשויים להראות RF או ANA חיוביים בכייל נמוך (Harrison22e ch382p2941(PDF2984)).",
+      "readerMapping": {
+        "passages": {
+          "1610": {
+            "text": "Erythrocyte sedimentation rate (ESR) normally increases with age, especially in women.",
+            "rangeText": "Erythrocyte sedimentation rate (ESR) normally increases with age, especially in women."
+          }
+        },
+        "printedPages": [],
+        "supportPages": [
+          1610
+        ],
+        "bankChapter": "101",
+        "chapters": []
+      },
+      "referenceNote": "Harrison 21e chapter 370, Approach to Articular and Musculoskeletal Disorders (chapter 382 in the 22nd edition). The exam bibliography supplies no printed page. Hazzard 8e p. 1610 provides separate teaching on the effect of age on ESR and RF."
     },
     "3522": {
       "id": "mcq-a71b7ae51235fd1aa80e4961",
@@ -15138,9 +15252,18 @@
           "52-5"
         ],
         "passages": {
-          "785": "Figure 52-4",
-          "786": "Figure 52-5",
-          "787": "Heat and cold therapy Thermal modalities may be effective for relieving OA symptoms, but the"
+          "785": {
+            "text": "Figure 52-4",
+            "imageFile": "hazzard8e_ch52_figure52-4.png"
+          },
+          "786": {
+            "text": "Figure 52-5",
+            "imageFile": "hazzard8e_ch52_figure52-5.png"
+          },
+          "787": {
+            "text": "All patients with hand, knee, and hip OA should be instructed in the use of thermal agents.",
+            "rangeText": "All patients with hand, knee, and hip OA should be instructed in the use of thermal agents."
+          }
         }
       }
     },
@@ -16009,7 +16132,10 @@
           "47-9"
         ],
         "passages": {
-          "709": "Table 47-9 — Primary treatments for different types of geriatric urinary incontinence (print"
+          "709": {
+            "text": "Behavioral interventions (caregiver dependent)",
+            "rangeText": "Behavioral interventions (caregiver dependent)"
+          }
         }
       }
     },
@@ -16232,7 +16358,10 @@
         ],
         "bankChapter": "67",
         "passages": {
-          "1048": "In advanced stages of dementia, weight loss and dysphagia are common with the latter putting"
+          "1048": {
+            "text": "In advanced stages of dementia, weight loss and dysphagia are common with the latter putting",
+            "rangeText": "In fact, feeding tube usage has been associated with the development of pressure ulcers"
+          }
         }
       }
     },
@@ -16675,7 +16804,10 @@
           "47-4"
         ],
         "passages": {
-          "703": "Table 47-4 — Medications that can potentially affect continence (printed 703)"
+          "703": {
+            "text": "Cholinesterase inhibitors",
+            "rangeText": "Cholinesterase inhibitors"
+          }
         }
       }
     },
@@ -16946,7 +17078,10 @@
           "68"
         ],
         "passages": {
-          "1048": "Infections, specifically urinary tract infections and pneumonia, are frequently diagnosed in"
+          "1048": {
+            "text": "Infections, specifically urinary tract infections and pneumonia, are frequently diagnosed in",
+            "rangeText": "Antibiotic therapy for aspiration pneumonia in advanced dementia has been associated with improved survival but not improved comfort."
+          }
         }
       }
     },
@@ -17045,7 +17180,10 @@
           "47-1"
         ],
         "passages": {
-          "700": "Figure 47-1"
+          "700": {
+            "text": "Figure 47-1",
+            "imageFile": "hazzard8e_ch47_figure47-1.png"
+          }
         }
       }
     },
@@ -17307,8 +17445,14 @@
           "77-8"
         ],
         "passages": {
-          "1203": "Table 77-8",
-          "1202": "The risk of stroke is five times higher in patients with AF. Anticoagulant therapy reduces s"
+          "1203": {
+            "text": "Table 77-8",
+            "imageFile": "hazzard8e_ch77_table77-8_p1203.png"
+          },
+          "1202": {
+            "text": "avoidance of NSAIDs and elimination of antiplatelet agents if possible.",
+            "rangeText": "avoidance of NSAIDs and elimination of antiplatelet agents if possible."
+          }
         }
       }
     },
@@ -17540,7 +17684,10 @@
           "47"
         ],
         "passages": {
-          "705": "Urinalysis should be performed to look for evidence of infection, hematuria, and glucosuria."
+          "705": {
+            "text": "there is no benefit to treating bacteriuria in patients with chronic, stable incontinence",
+            "rangeText": "there is no benefit to treating bacteriuria in patients with chronic, stable incontinence"
+          }
         }
       }
     },
@@ -17689,8 +17836,14 @@
         ],
         "passages": {
           "232": "Table 16-6",
-          "715": "Intermittent catheterization can help in the management of patients with urinary retention a",
-          "716": "Do not change catheters at arbitrary fixed intervals"
+          "715": {
+            "text": "Intermittent catheterization can help in the management of patients with urinary retention",
+            "rangeText": "Intermittent catheterization can help in the management of patients with urinary retention"
+          },
+          "716": {
+            "text": "Do not change catheters at arbitrary fixed intervals",
+            "rangeText": "Do not change catheters at arbitrary fixed intervals"
+          }
         }
       }
     },
@@ -17717,8 +17870,15 @@
           "47"
         ],
         "passages": {
-          "701": "Several age-related changes can contribute to the development of urinary incontinence. In ge",
-          "707": "voiding difficulty, or a history of urinary retention, and those taking medications with sig"
+          "701": {
+            "text": "normal bladder capacity is 300 to 600 mL",
+            "rangeText": "normal bladder capacity is 300 to 600 mL",
+            "contextPage": 700
+          },
+          "707": {
+            "text": "PVR values of less than 100 mL in the absence of straining",
+            "rangeText": "PVR values of less than 100 mL in the absence of straining"
+          }
         }
       }
     },
@@ -18012,7 +18172,10 @@
           "47-3"
         ],
         "passages": {
-          "702": "Table 47-3 — Reversible conditions that cause or contribute to urinary incontinence in older"
+          "702": {
+            "text": "Metabolic (hyperglycemia, hypercalcemia)",
+            "rangeText": "Metabolic (hyperglycemia, hypercalcemia)"
+          }
         }
       }
     },
@@ -18547,7 +18710,10 @@
           "47-4"
         ],
         "passages": {
-          "703": "Table 47-4 — Medications that can potentially affect continence (printed 703)"
+          "703": {
+            "text": "Cough precipitating stress incontinence",
+            "rangeText": "Cough precipitating stress incontinence"
+          }
         }
       }
     },
@@ -18841,7 +19007,18 @@
       "duplicates": [
         4326
       ],
-      "explanation": "לפי Beers 2023 יש להימנע מריברוקסבן לטיפול ממושך בפרפור פרוזדורים או ב-VTE ולהעדיף חלופה בטוחה יותר, כגון אפיקסבן, בשל סיכון גבוה יותר לדימום משמעותי ובמערכת העיכול. (Beers 2023 pp2058,2064). ל-Apixaban הפרופיל הבטיחותי הטוב ביותר, ובמיוחד באי-ספיקת כליות כמו אצל מטופל זה (פינוי כלייתי נמוך יחסית). לכן ההעדפה ל-Apixaban על פני Rivaroxaban בשל פרופיל בטיחות טוב יותר היא הנכונה. Rivaroxaban אינו מועדף בשל המתן החד-יומי (ב) ואינו התרופה המועדפת ב-GFR<30 (שם דווקא Apixaban נחקר ומועדף יותר, ג), ובחירת Dabigatran בשל קיום Antidote (ד) שגויה — הוא בעל פינוי כלייתי ניכר ושכיחות גבוהה יותר של דימום ודיספפסיה מה-GI בקשישים. לפי BEERS."
+      "explanation": "לפי Beers 2023 יש להימנע מריברוקסבן לטיפול ממושך בפרפור פרוזדורים או ב-VTE ולהעדיף חלופה בטוחה יותר, כגון אפיקסבן, בשל סיכון גבוה יותר לדימום משמעותי ובמערכת העיכול. (Beers 2023 pp2058,2064). ל-Apixaban הפרופיל הבטיחותי הטוב ביותר, ובמיוחד באי-ספיקת כליות כמו אצל מטופל זה (פינוי כלייתי נמוך יחסית). לכן ההעדפה ל-Apixaban על פני Rivaroxaban בשל פרופיל בטיחות טוב יותר היא הנכונה. Rivaroxaban אינו מועדף בשל המתן החד-יומי (ב) ואינו התרופה המועדפת ב-GFR<30 (שם דווקא Apixaban נחקר ומועדף יותר, ג), ובחירת Dabigatran בשל קיום Antidote (ד) שגויה — הוא בעל פינוי כלייתי ניכר ושכיחות גבוהה יותר של דימום ודיספפסיה מה-GI בקשישים. לפי BEERS.",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "77",
+            "page": 1202,
+            "anchor": "ch77-beers-anticoagulant",
+            "label": "Hazzard 8e, p. 1202, older adults and anticoagulant bleeding risk"
+          }
+        ]
+      }
     },
     "4477": {
       "id": "mcq-fe0fe26539d3780822b8f018",
@@ -19217,8 +19394,14 @@
         ],
         "bankChapter": "47",
         "passages": {
-          "703": "Table 47-5 lists the clinical definitions and common causes of persistent urinary incontinen",
-          "704": "Table 47-5 — Basic types and causes of persistent urinary incontinence (printed 704)"
+          "703": {
+            "text": "Urinary retention, overflow incontinence, stool impaction",
+            "rangeText": "Urinary retention, overflow incontinence, stool impaction"
+          },
+          "704": {
+            "text": "Medication effect (see Table 47-4)",
+            "rangeText": "Medication effect (see Table 47-4)"
+          }
         }
       }
     },
@@ -19726,7 +19909,10 @@
         ],
         "bankChapter": "67",
         "passages": {
-          "1047": "The Evidence for Palliative Care Systems The evidence for specialist palliative care interve"
+          "1047": {
+            "text": "The Evidence for Palliative Care Systems The evidence for specialist palliative care interve",
+            "rangeText": "Early palliative care for newly diagnosed metastatic lung cell cancer patients"
+          }
         }
       }
     },
@@ -20820,8 +21006,14 @@
         ],
         "bankChapter": "47",
         "passages": {
-          "702": "Table 47-3 — Reversible conditions that cause or contribute to urinary incontinence in older",
-          "701": "Constipation and resultant fecal impaction are common in both acutely and chronically ill ol"
+          "702": {
+            "text": "Disimpaction; appropriate use of bulk-forming agents and laxatives",
+            "rangeText": "Disimpaction; appropriate use of bulk-forming agents and laxatives"
+          },
+          "701": {
+            "text": "Relief of a fecal impaction and effective treatment of constipation",
+            "rangeText": "Relief of a fecal impaction and effective treatment of constipation"
+          }
         }
       }
     },
@@ -21911,7 +22103,10 @@
           "77-6"
         ],
         "passages": {
-          "1201": "Table 77-6"
+          "1201": {
+            "text": "Table 77-6",
+            "imageFile": "hazzard8e_ch77_table77-6_p1201.png"
+          }
         }
       }
     },
@@ -23093,7 +23288,10 @@
           "77-7"
         ],
         "passages": {
-          "1202": "Table 77-7"
+          "1202": {
+            "text": "Table 77-7",
+            "imageFile": "hazzard8e_ch77_table77-7_p1202.png"
+          }
         }
       }
     },
@@ -26030,9 +26228,18 @@
           1197
         ],
         "passages": {
-          "1195": "Sinus node dysfunction (SND), historically known as sick sinus syndrome (SSS), is related to",
-          "1196": "FIGURE 77-1B. Sinus arrest of 4.2 seconds in a patient with paroxysmal atrial fibrillation/f",
-          "1197": "However, for patients with symptomatic SND that is infrequent or in those who are frail/bedr"
+          "1195": {
+            "text": "Patients with SND may present with persistent sinus bradycardia, sinus arrest, or sinoatrial exit block",
+            "rangeText": "Patients with SND may present with persistent sinus bradycardia, sinus arrest, or sinoatrial exit block"
+          },
+          "1196": {
+            "text": "Figure 77-1B",
+            "imageFile": "hazzard8e_ch77_figure77-1b.png"
+          },
+          "1197": {
+            "text": "Table 77-3",
+            "imageFile": "hazzard8e_ch77_table77-3_p1197.png"
+          }
         }
       }
     },
@@ -26121,7 +26328,10 @@
           "77-8"
         ],
         "passages": {
-          "1203": "Table 77-8"
+          "1203": {
+            "text": "Table 77-8",
+            "imageFile": "hazzard8e_ch77_table77-8_p1203.png"
+          }
         }
       }
     },
