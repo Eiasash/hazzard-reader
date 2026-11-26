@@ -2,7 +2,7 @@
 
 <div dir="ltr">
 
-Study summary of the Israel Law block; `israel_law.md` is the reference source (primary law/MoH text, not Hazzard).
+This Study page uses the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures for the legal sections. The statistics and drills use Brookdale’s *65+ in Israel: Statistical Abstract 2024*, **no. 26**, required by P005-2026, p3.
 
 </div>
 

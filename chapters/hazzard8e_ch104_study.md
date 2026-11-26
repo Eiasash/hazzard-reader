@@ -211,11 +211,11 @@ Nearly one in four; giant cell arteritis (GCA) and polyarteritis nodosa (PAN) re
 
 </details>
 
-**14. According to Table 104-2, what are the four major category percentages for causes of FUO in older patients?**
+**14. What percentage of FUO cases in older patients falls into each of the five major categories in Table 104-2?**
 
 <details><summary>Answer</summary>
 
-Infections 35%, inflammatory disorders 28%, malignancy 19%, no diagnosis 13% (p1675).
+Infections **35%**, inflammatory disorders **28%**, malignancy **19%**, other causes (pulmonary emboli or drug fever) **5%**, and no diagnosis **13%** (Table 104-2, p1675).
 
 </details>
 

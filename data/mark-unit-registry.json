@@ -14657,7 +14657,7 @@
     }
   },
   "55s": {
-    "maxId": 233,
+    "maxId": 234,
     "entries": {
       "copy|CHAPTER 55s / HAZZARD": [
         "u33"
@@ -15363,8 +15363,27 @@
       ],
       "copy|Motor planning and the pattern of functional recovery — September 2024 Q36 cites the Stroke Rehabilitation Clinician Handbook, p15. Related reading on apraxia. June 2026 Q92 identifies FIM and the examination image. Open the original FIM chart · Related reading on hip loading.": [
         "u86"
+      ],
+      "copy|MIRE: 890-nm, 30-min × 3/week × 12 treatments. Most studies showed no improvement in sensation over placebo (p826).": [
+        "u16"
+      ],
+      "copy|PAD with claudication. The book advises intermittent walking to the onset of pain to increase walking distance before claudication begins (p825). It describes a program lasting at least 6 months and reports better gains with treadmill walking than strength training (p830).Current practice (not the book): supervised exercise alternates walking to moderate-to-maximum claudication with rest, working toward 30–45 minutes of active walking per session, at least 3 sessions weekly for at least 12 weeks. 2024 ACC/AHA PAD guideline, Table 14.": [
+        "u23"
+      ],
+      "copy|What is the MIRE protocol, and how did sensation after treatment compare with placebo?": [
+        "u56"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        235,
+        -1
+      ],
+      [
+        236,
+        0
+      ]
+    ]
   },
   "1s": {
     "maxId": 24,
@@ -15550,7 +15569,7 @@
     }
   },
   "59s": {
-    "maxId": 254,
+    "maxId": 256,
     "entries": {
       "chapter-59-study-dementia-including-alzheimer-disease|Chapter 59 Study: Dementia Including Alzheimer Disease": [
         "u1"
@@ -16311,6 +16330,18 @@
       ],
       "copy|Among the 425 with any ARIA, 103 (24.2%) had symptoms and 322 (75.8%) did not (p911, EMERGE/ENGAGE integrated safety analysis, Tables 1 and 3).": [
         "u78"
+      ],
+      "copy|AChEIs (mainstay): donepezil (Aricept), galantamine (Razadyne), rivastigmine (Exelon) — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil 4–6 wk before 5→10 mg (the 10→23 mg step after 3 months on 10 mg) (p912), galantamine ≥4 wk per step (p912), rivastigmine ≥2 wk per oral step or 4–6 wk for the initial patch step, with a maximum of 13.3 mg/24 h (Table 59-7, p913); 18–48% show cognitive improvement, most others have a plateau or slower cognitive decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.": [
+        "u29"
+      ],
+      "copy|Aducanumab received FDA accelerated approval in June 2021 after trials in MCI due to AD or mild AD dementia (p911, Table 59-7, p914). EMERGE found 22% less worsening on CDR-SB over 18 months. ENGAGE did not show significant benefit. Hazzard reports MRI abnormalities (ARIA-E or ARIA-H) in 34–36% of high-dose participants, with about 80% of affected participants asymptomatic (p911).Current practice (not the book): the pooled trial safety analysis found ARIA-E in 35.2% and any ARIA in 41.3% of the 10 mg/kg group. Of those with any ARIA, 75.8% had no reported symptoms — Salloway et al., EMERGE/ENGAGE safety analysis, Tables 1 and 3.": [
+        "u31"
+      ],
+      "copy|Hazzard reports ARIA in 34–36% of high-dose participants.": [
+        "u255"
+      ],
+      "copy|Of those with ARIA, approximately 80% were asymptomatic, so about 20% were symptomatic (p911).": [
+        "u256"
       ]
     }
   },
@@ -17110,11 +17141,17 @@
       ],
       "copy|Dementia before, together with, or within one year after parkinsonism fits the DLB timing convention (p939, DLB Consortium 2017).": [
         "u83"
+      ],
+      "copy|Hazzard advises considering clozapine when quetiapine or pimavanserin is ineffective or hallucinations are frightening. It gives an agranulocytosis risk of 1–2%, directs weekly blood counts, and says to discontinue clozapine if leukopenia develops (pp946–947).Current practice (not the book): for stable normal absolute neutrophil counts, the US Clozaril label specifies weekly ANC in months 1–6, every 2 weeks in months 7–12 and monthly thereafter — US prescribing information, Table 1.": [
+        "u35"
+      ],
+      "copy|Hazzard describes focused ultrasound as delivering a “radiofrequency ablation to the STN,” with other targets possible, and says it “does not involve anesthesia” (p949, printed wording). The lesion is irreversible and cannot be reprogrammed.Current practice (not the book): the 2018 US device indication specifies unilateral thalamotomy for medication-refractory tremor in tremor-dominant PD, using ultrasound thermal ablation of the ventral intermediate nucleus. Local anesthesia has been used for placement of the stereotactic frame — FDA device indication, 2018, prospective PD thalamotomy study, 2021.": [
+        "u40"
       ]
     }
   },
   "58s": {
-    "maxId": 135,
+    "maxId": 313,
     "entries": {
       "chapter-58-study-delirium|Chapter 58 Study: Delirium": [
         "u1"
@@ -17502,8 +17539,31 @@
         "u133",
         "u134",
         "u135"
+      ],
+      "copy|Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, ICU stay >10 days, and physiologic derangements (elevated BUN/creatinine ratio, elevated serum urea, abnormal serum albumin, abnormal Na/glucose/K, metabolic acidosis).": [
+        "u15"
+      ],
+      "copy|At end of life, delirium affects >80% of patients. Hazzard names haloperidol as first-line therapy for terminally ill patients with delirium and acknowledges a randomized trial that did not support its use. For severe agitated delirium, sedation can be additional therapy when consistent with goals of care. If sedation is indicated, the chapter recommends lorazepam, initially 0.5–1.0 mg PO, IV or SQ (p890).": [
+        "u32"
+      ],
+      "copy|CAM requires acute onset with a fluctuating course and impaired attention, accompanied by disorganized thinking or a change in level of consciousness.": [
+        "u168"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        314,
+        -178
+      ],
+      [
+        346,
+        -177
+      ],
+      [
+        491,
+        0
+      ]
+    ]
   },
   "3s": {
     "maxId": 74,
@@ -17739,7 +17799,7 @@
     }
   },
   "99s": {
-    "maxId": 420,
+    "maxId": 423,
     "entries": {
       "chapter-99-study-diabetes-mellitus|Chapter 99 Study: Diabetes Mellitus": [
         "u1"
@@ -19000,8 +19060,21 @@
       ],
       "copy|Hazzard gives a BP goal below 140/90 mmHg for most (p1572). ADA 2026 recommends below 130/80 mmHg when safely attainable. For poor health, limited life expectancy or high treatment risk, a goal such as below 140/90 may be appropriate. Check standing BP (ADA 2026, recommendation 13.9).": [
         "u35"
+      ],
+      "copy|Glargine U-100 has no peak and lasts 20 to >24 hours. Glargine U-300 also has no peak and lasts 28–36 hours (Table 99-12, p1579). The chapter gives an initial glargine dose of 10 units once daily or 0.2 units/kg/day (p1581).": [
+        "u51"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        424,
+        -3
+      ],
+      [
+        427,
+        0
+      ]
+    ]
   },
   "46s": {
     "maxId": 325,
@@ -19973,6 +20046,9 @@
       ],
       "copy|משרד הבריאות, איך לבחור מוסד אשפוז סיעודי, סעיף התאמת מוסד אשפוז וטבלת רמת התפקוד": [
         "u325"
+      ],
+      "copy|Hazzard says saline and water should seldom be used to cleanse a colonized pressure injury because they have no antiseptic activity. It lists 0.25% sodium hypochlorite and dilute povidone-iodine (10% povidone with 1% free iodine) among the antiseptic solutions (p692). Low-pressure lavage at 4–15 psi can lift fibrin and slough. For a clean wound, gentler cleansing and physiologic saline are appropriate (p693). Avoid cytotoxic antiseptics on clean, healing tissue (p697).Current practice (not the book): choose a pH-balanced, nonirritating, nontoxic cleanser for routine care. Tap water from a reliable source is acceptable — WHS pressure ulcer guideline, 2023 update, recommendations 3.5 and 4.1.": [
+        "u39"
       ]
     }
   },
@@ -20985,7 +21061,7 @@
     }
   },
   "51s": {
-    "maxId": 109,
+    "maxId": 213,
     "entries": {
       "chapter-51-study-osteoporosis|Chapter 51 Study: Osteoporosis": [
         "u1"
@@ -21309,11 +21385,42 @@
         "u107",
         "u108",
         "u109"
+      ],
+      "copy|Hazzard limits teriparatide and abaloparatide to 2 years because animal studies found osteosarcoma with teriparatide (pp776–777).": [
+        "u211"
+      ],
+      "copy|It limits romosozumab to 12 months, citing excess cardiovascular events in one phase 3 trial and a concern about possible oncogenesis extrapolated from the teriparatide rodent findings (p777).": [
+        "u212"
+      ],
+      "copy|Current practice (not the book): the US teriparatide label identifies the osteosarcoma signal in rats and allows consideration of treatment beyond two years only if high fracture risk persists or returns.": [
+        "u86"
+      ],
+      "copy|Use of abaloparatide beyond two years in a lifetime is not recommended.": [
+        "u86"
+      ],
+      "copy|Romosozumab is limited to 12 monthly doses because its anabolic effect wanes, followed by an antiresorptive when indicated.": [
+        "u87"
+      ],
+      "copy|Its boxed warning advises against starting within one year of myocardial infarction or stroke.": [
+        "u88"
+      ],
+      "copy|Forteo · Tymlos · Evenity.": [
+        "u213"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        214,
+        -104
+      ],
+      [
+        315,
+        0
+      ]
+    ]
   },
   "52s": {
-    "maxId": 74,
+    "maxId": 226,
     "entries": {
       "chapter-52-study-osteoarthritis|Chapter 52 Study: Osteoarthritis": [
         "u1"
@@ -21547,8 +21654,36 @@
       ],
       "copy|Other drugs recommended against include TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).": [
         "u59"
+      ],
+      "copy|Which OA drugs do the chapter’s figures recommend against, and where do the two figures disagree?": [
+        "u58"
+      ],
+      "copy|Figure 52-5B (p786) recommends against glucosamine, bisphosphonates, TNF inhibitors and IL-1 receptor antagonists for hand, knee and hip OA.": [
+        "u59"
+      ],
+      "copy|It shows a strong recommendation against chondroitin for knee and hip OA, consistent with p788.": [
+        "u224"
+      ],
+      "copy|For hand OA, Figure 52-4 (p785) shows a conditional recommendation for chondroitin, while Figure 52-5B (p786) shows a conditional recommendation against it.": [
+        "u225"
+      ],
+      "copy|Current practice (not the book): the ACR/AF guideline text conditionally recommends chondroitin sulfate for hand OA and strongly recommends against it for knee or hip OA.": [
+        "u59"
+      ],
+      "copy|ACR/AF OA guideline, 2019.": [
+        "u226"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        227,
+        -152
+      ],
+      [
+        376,
+        0
+      ]
+    ]
   },
   "53s": {
     "maxId": 70,
@@ -22021,7 +22156,7 @@
     }
   },
   "63s": {
-    "maxId": 108,
+    "maxId": 113,
     "entries": {
       "chapter-63-study-other-neurodegenerative-disorders|Chapter 63 Study: Other Neurodegenerative Disorders": [
         "u1"
@@ -22342,11 +22477,36 @@
         "u106",
         "u107",
         "u108"
+      ],
+      "copy|Probable DLB: p984 gives two core features or one core plus one supportive feature in the prose. Table 63-3 gives two core features or one core plus at least one suggestive feature. The prose includes REM sleep behavior disorder among core features, whereas the table lists it as suggestive (p984).Current practice (not the book): probable DLB = ≥2 core features, or 1 core feature + ≥1 indicative biomarker (reduced DAT uptake on SPECT/PET, abnormal MIBG scintigraphy, or PSG-confirmed REM sleep without atonia) — DLB Consortium 4th consensus report (McKeith et al.), 2017.": [
+        "u17"
+      ],
+      "copy|One-year rule, as printed: p984 says the research criteria require cognitive symptoms that “predate parkinsonism by 12 months.” The chapter calls the temporal distinction arbitrary and difficult to apply (pp984–985). Ch 57, p870, describes DLB when dementia precedes or occurs within one year of motor onset, and PDD when dementia develops after a year of established motor PD.Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.": [
+        "u20"
+      ],
+      "copy|Ch 63, p984, prints “predate parkinsonism by 12 months” as the research criterion.": [
+        "u112"
+      ],
+      "copy|This conflicts with the timing described in Ch 57, p870.": [
+        "u113"
+      ],
+      "copy|There, DLB includes dementia preceding or occurring within one year of parkinsonism, and PDD describes dementia after a year of established motor PD.": [
+        "u86"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        114,
+        -5
+      ],
+      [
+        117,
+        0
+      ]
+    ]
   },
   "65s": {
-    "maxId": 104,
+    "maxId": 257,
     "entries": {
       "chapter-65-study-major-depression|Chapter 65 Study: Major Depression": [
         "u1"
@@ -22644,11 +22804,65 @@
         "u102",
         "u103",
         "u104"
+      ],
+      "copy|In the studies summarized by Hazzard, ECT response exceeded 80% and remission exceeded 60%, with favorable responses in older adults. The average initial course was 3–6 treatments per week for 2–4 weeks. Short-term memory loss almost always resolved within a few weeks after the course (p1014).Current practice (not the book): ECT is commonly given 2–3 times weekly, often for 6–12 treatments. Some patients experience longer-lasting gaps in autobiographical memory — American Psychiatric Association, What Is Electroconvulsive Therapy?.": [
+        "u17"
+      ],
+      "copy|Hazzard gives 2–4 weeks as a rough taper for most SSRIs, SNRIs and mirtazapine. It gives several months for tricyclics (p1016).": [
+        "u251"
+      ],
+      "copy|Hazzard states that fluoxetine does not require tapering because of its long half-life. If withdrawal symptoms occur despite a long taper of an antidepressant, the chapter suggests considering a single 20 mg dose of fluoxetine (p1016).Current practice (not the book): reduce doses in stages, tailoring the pace to the medicine and symptoms. For fluoxetine 20 mg/day, alternate-day dosing can be a step down. At 40–60 mg/day, withdraw gradually — NICE NG222, recommendations 1.4.16–1.4.18, 2022.": [
+        "u252"
+      ],
+      "copy|Discontinuation symptoms (sweating, chills, dizziness, flu-like symptoms, GI upset, insomnia, vivid and excessive dreaming, depressed mood, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016).": [
+        "u26"
+      ],
+      "copy|Hazzard gives an average initial course of 3–6 treatments per week for 2–4 weeks (p1014).": [
+        "u193"
+      ],
+      "copy|Assess medical and anesthetic suitability.": [
+        "u198"
+      ],
+      "copy|Hazzard says short-term memory loss almost always resolves within a few weeks after the course (p1014).": [
+        "u253"
+      ],
+      "copy|The average initial course in Hazzard is 3–6 treatments per week for 2–4 weeks.": [
+        "u254"
+      ],
+      "copy|Short-term memory loss almost always resolves within a few weeks after the course ends (p1014).": [
+        "u255"
+      ],
+      "copy|Hazzard gives 2–4 weeks for most SSRIs, SNRIs and mirtazapine and several months for tricyclics.": [
+        "u83"
+      ],
+      "copy|It states that fluoxetine does not require tapering.": [
+        "u256"
+      ],
+      "copy|For symptoms despite a long taper, the chapter suggests considering one dose of fluoxetine 20 mg (p1016).": [
+        "u257"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        258,
+        -153
+      ],
+      [
+        346,
+        -152
+      ],
+      [
+        350,
+        -150
+      ],
+      [
+        401,
+        0
+      ]
+    ]
   },
   "68s": {
-    "maxId": 318,
+    "maxId": 322,
     "entries": {
       "chapter-68-study-pain-management|Chapter 68 Study: Pain Management": [
         "u1"
@@ -23622,11 +23836,44 @@
       ],
       "copy|Individualize a gradual taper when dependence is likely because abrupt withdrawal can cause seizures (FDA boxed warning).": [
         "u75"
+      ],
+      "copy|Hazzard’s summary of the 2016 CDC guideline calls for careful assessment of benefits and risks above 50 MME/day and avoidance of doses above 90 MME/day (p1060). Current practice note.": [
+        "u21"
+      ],
+      "copy|In its account of the 2016 CDC guidance, Hazzard advises evaluating benefits and risks above 50 MME/day and avoiding doses above 90 MME/day.": [
+        "u319"
+      ],
+      "copy|It recommends review within one to four weeks of starting opioids and at least every three months thereafter (p1060).": [
+        "u191"
+      ],
+      "copy|Current practice (not the book): CDC 2022 advises reassessment before increasing to ≥50 MME/day, closer follow-up and offering naloxone at or above that level.": [
+        "u192"
+      ],
+      "copy|It treats dosage thresholds as guideposts for individual decisions.": [
+        "u193"
+      ],
+      "copy|Its outpatient recommendations exclude cancer-related pain treatment, palliative care, end-of-life care and sickle cell disease.": [
+        "u195"
+      ],
+      "copy|CDC 2022, recommendations 4, 7 and 8.": [
+        "u196"
+      ],
+      "copy|What starting dose in older adults and what daily opioid thresholds does the chapter give on p1060?": [
+        "u66"
+      ],
+      "copy|Start at about 25–50% of the dose used in younger adults.": [
+        "u320"
+      ],
+      "copy|Evaluate benefits and risks carefully above 50 MME/day and avoid doses above 90 MME/day in the chapter’s account of the 2016 CDC guideline (p1060).": [
+        "u321"
+      ],
+      "copy|Current practice note.": [
+        "u322"
       ]
     }
   },
   "75s": {
-    "maxId": 131,
+    "maxId": 284,
     "entries": {
       "chapter-75-study-valvular-heart-disease|Chapter 75 Study: Valvular Heart Disease": [
         "u1"
@@ -24027,11 +24274,51 @@
       ],
       "copy|What annual rate of LV dysfunction, symptoms or death was reported in asymptomatic aortic insufficiency with an end-systolic dimension greater than 50 mm, versus 40–50 mm?": [
         "u82"
+      ],
+      "copy|Mechanical aortic valve without thromboembolic risk factors: the book gives a 48–72-hour preoperative warfarin hold, restart within 24 hours after surgery, and no heparin bridge. It describes bridging for a mechanical mitral valve or a mechanical aortic valve with high-risk features (p1162).Current practice (not the book): CHEST suggests a warfarin hold of at least five days when interruption is necessary and resumption within 24 hours when hemostasis permits. CHEST suggests against routine bridging. ACC/AHA allows individualized bridging for higher-risk mechanical valves and advises interruption without bridging for a bileaflet mechanical aortic valve without additional thromboembolic risk. CHEST 2022 · ACC/AHA 2020.": [
+        "u47"
+      ],
+      "copy|Hazzard gives a 48–72-hour preoperative hold for a mechanical aortic valve without thromboembolic risk factors.": [
+        "u109"
+      ],
+      "copy|Restart warfarin within 24 hours after surgery.": [
+        "u109"
+      ],
+      "copy|In this setting the book specifies no bridging heparin (p1162).": [
+        "u280"
+      ],
+      "copy|Which oral regimens does Table 75-14 give for dental endocarditis prophylaxis in an eligible patient with penicillin allergy?": [
+        "u112"
+      ],
+      "copy|The printed table lists clindamycin 600 mg PO or cephalexin 2 g PO, given once 1 hour before the procedure (Table 75-14, p1161).": [
+        "u281"
+      ],
+      "copy|Current practice (not the book): AHA dental guidance removes clindamycin.": [
+        "u282"
+      ],
+      "copy|For eligible adults with penicillin allergy, give cephalexin 2 g, azithromycin or clarithromycin 500 mg, or doxycycline 100 mg PO 30–60 minutes before the procedure.": [
+        "u113"
+      ],
+      "copy|Avoid cephalosporins after anaphylaxis, angioedema or urticaria with penicillin or ampicillin.": [
+        "u283"
+      ],
+      "copy|AHA prevention card, dental regimens based on the 2021 scientific statement.": [
+        "u284"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        285,
+        -153
+      ],
+      [
+        433,
+        0
+      ]
+    ]
   },
   "76s": {
-    "maxId": 273,
+    "maxId": 277,
     "entries": {
       "chapter-76-study-heart-failure|Chapter 76 Study: Heart Failure": [
         "u1"
@@ -24849,8 +25136,36 @@
       ],
       "copy|A BNP below 100 pg/mL makes heart failure much less likely in a nonobese older adult.": [
         "u85"
+      ],
+      "copy|Steroidal MRAs in HFrEF. The book gives spironolactone 12.5–50 mg once daily and eplerenone 25–50 mg once daily. It lists creatinine ≥2.5 mg/dL or preexisting hyperkalemia as contraindications and calls for close renal-function and potassium monitoring in older patients (p1181).Current practice (not the book): For symptomatic HFrEF, AHA/ACC/HFSA recommends starting an MRA if eGFR is >30 mL/min/1.73 m² and serum potassium is <5.0 mEq/L, with close monitoring at initiation and afterward. 2022 heart failure guideline, section 7.3.3.": [
+        "u46"
+      ],
+      "copy|SGLT2 inhibitors in HFrEF. DAPA-HF and EMPEROR-Reduced showed fewer HF events in patients with or without diabetes (p1181). The trials improved their respective composite outcomes, with differing effects on cardiovascular mortality. DAPA-HF · EMPEROR-Reduced.": [
+        "u275"
+      ],
+      "copy|Which renal and potassium findings does Hazzard list as contraindications to an MRA in HFrEF, and what spironolactone dose range does it give?": [
+        "u96"
+      ],
+      "copy|Hazzard lists creatinine ≥2.5 mg/dL or preexisting hyperkalemia as contraindications.": [
+        "u276"
+      ],
+      "copy|It calls for close monitoring of renal function and serum potassium in older patients.": [
+        "u277"
+      ],
+      "copy|The spironolactone dose is 12.5–50 mg once daily (p1181).": [
+        "u97"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        278,
+        -4
+      ],
+      [
+        279,
+        0
+      ]
+    ]
   },
   "77s": {
     "maxId": 96,
@@ -30209,9 +30524,22 @@
         "u56",
         "u57",
         "u58"
+      ],
+      "copy|Table 42-3 (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elders Survey (VES-13), FRAIL Scale (p621–622) Table 42-3 also spells out the original CFS’s seven categories (p621): 1 = very fit; 2 = well (no active disease); 3 = well, with treated comorbid disease; 4 = apparently vulnerable (not frankly dependent, \"slowed up\"); 5 = mildly frail (IADL help only); 6 = moderately frail (help with IADLs + ADLs); 7 = severely frail (ADL-dependent) or terminally ill. The current nine-point CFS scores terminal illness as 9. VES-13: frail if score ≥3 (range 0–10). FRAIL Scale: fatigue, resistance, ambulation, more than 5 illnesses, and more than 5% weight loss. Score 0 = no frailty, 1–2 = intermediate, ≥3 = frailty (Table 42-3, p622).Current practice (not the book): the validation study’s Methods scored 5 or more of 11 illnesses and at least 5% weight loss over 12 months. Its appendix uses >5% for weight loss. Morley et al., 2012, Methods and appendix.": [
+        "u9"
       ]
     },
-    "maxId": 58
+    "maxId": 203,
+    "sequenceOffsets": [
+      [
+        204,
+        -145
+      ],
+      [
+        349,
+        0
+      ]
+    ]
   },
   "27": {
     "entries": {
@@ -56933,9 +57261,63 @@
       ],
       "copy|Neutropenia can be life-threatening and requires absolute neutrophil count monitoring, typically weekly in the first six months (p928).": [
         "u118"
+      ],
+      "copy|Clozapine, 6.25–75 mg/day. Hazzard calls clozapine a good option for psychotic symptoms in DLB because it has a low risk of extrapyramidal effects. Neutropenia or agranulocytosis limits its use. The table specifies weekly blood draws during the first 6 months (p928).Current practice (not the book): The DLB Consortium cites benefit in Parkinson disease psychosis. Efficacy and tolerability in DLB itself remain unestablished. Fourth consensus report, 2017.": [
+        "u27"
+      ],
+      "copy|Escitalopram is the S-enantiomer of citalopram. Hazzard describes S-CitAD as ongoing at press time (p930).Current practice (not the book): S-CitAD subsequently found no significant benefit for agitation at 12 weeks and observed drug-related QT prolongation. S-CitAD trial, 2025.": [
+        "u31"
+      ],
+      "copy|Table 60-9 gives a maximum of 20 mg daily above age 60.": [
+        "u296"
+      ],
+      "copy|Hazzard describes improved agitation, lower caregiver stress, better ADL performance and less rescue lorazepam with citalopram in CitAD (p929).": [
+        "u332"
+      ],
+      "copy|Current practice (not the book): the published CitAD trial found improvement in selected agitation and caregiver-distress measures, with cognitive worsening and QT prolongation at its target of 30 mg/day.": [
+        "u333"
+      ],
+      "copy|ADL performance and rescue lorazepam use did not differ significantly.": [
+        "u334"
+      ],
+      "copy|S-CitAD found no significant improvement in agitation at 12 weeks with escitalopram and reported QT prolongation.": [
+        "u300"
+      ],
+      "copy|CitAD trial, 2014, Table 2 · S-CitAD trial, 2025.": [
+        "u303"
+      ],
+      "copy|Which drug does the chapter call a good option for psychotic symptoms in DLB, and which adverse effect limits its use?": [
+        "u335"
+      ],
+      "copy|Hazzard names clozapine because of its low risk of extrapyramidal effects.": [
+        "u336"
+      ],
+      "copy|Severe neutropenia requires close laboratory monitoring, with weekly blood draws for the first six months in the book’s table (p928).": [
+        "u118"
+      ],
+      "copy|Current practice note.": [
+        "u337"
       ]
     },
-    "maxId": 170
+    "maxId": 337,
+    "sequenceOffsets": [
+      [
+        338,
+        -167
+      ],
+      [
+        463,
+        -166
+      ],
+      [
+        464,
+        -160
+      ],
+      [
+        492,
+        0
+      ]
+    ]
   },
   "15": {
     "entries": {
@@ -63611,9 +63993,54 @@
       ],
       "copy|Monitor potassium and blood pressure and arrange alternative therapy when needed (pages 1532–1533).": [
         "u54"
+      ],
+      "copy|The chapter reports incidental adrenal masses in about 4% of high-resolution abdominal CT scans and greater malignancy risk above 4 cm. Its printed low-attenuation cutoff for excluding malignancy and pheochromocytoma is <10 HU (p1532). Current practice note.": [
+        "u17"
+      ],
+      "copy|Vitamin D thresholds differ within the chapter. Key Clinical Point 2 defines deficiency in older patients as serum 25-hydroxyvitamin D <30 ng/mL (p1525). Page 1539 separately reports AGS sufficiency >30 ng/mL for frail, high-risk older adults and IOM sufficiency >20 ng/mL, insufficiency 12–20 ng/mL, and deficiency <12 ng/mL.": [
+        "u32"
+      ],
+      "copy|The book says lipid-rich attenuation <10 HU on CT excludes malignancy and pheochromocytoma (p1532).": [
+        "u291"
+      ],
+      "copy|Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp1532–1533).": [
+        "u242"
+      ],
+      "copy|Current practice (not the book): A homogeneous lesion measuring ≤10 HU on unenhanced CT needs no further imaging.": [
+        "u292"
+      ],
+      "copy|Hormonal assessment is a separate decision.": [
+        "u293"
+      ],
+      "copy|ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10.": [
+        "u244"
+      ],
+      "copy|Exam traps: Key Clinical Point 2 defines vitamin D deficiency in older patients as <30 ng/mL (p1525).": [
+        "u44"
+      ],
+      "copy|Page 1539 gives a separate IOM deficiency threshold of <12 ng/mL and an AGS sufficiency target of >30 ng/mL for high-risk older patients.": [
+        "u294"
       ]
     },
-    "maxId": 73
+    "maxId": 294,
+    "sequenceOffsets": [
+      [
+        295,
+        -221
+      ],
+      [
+        460,
+        -219
+      ],
+      [
+        461,
+        -216
+      ],
+      [
+        507,
+        0
+      ]
+    ]
   },
   "34": {
     "entries": {
@@ -71302,9 +71729,25 @@
       ],
       "copy|The chapter highlights high-dose influenza, adjuvanted recombinant zoster, and mRNA SARS-CoV-2 vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1668; detail p1676).": [
         "u30"
+      ],
+      "copy|What percentage of FUO cases in older patients falls into each of the five major categories in Table 104-2?": [
+        "u270"
+      ],
+      "copy|Infections 35%, inflammatory disorders 28%, malignancy 19%, other causes (pulmonary emboli or drug fever) 5%, and no diagnosis 13% (Table 104-2, p1675).": [
+        "u79"
       ]
     },
-    "maxId": 94
+    "maxId": 270,
+    "sequenceOffsets": [
+      [
+        271,
+        -176
+      ],
+      [
+        446,
+        0
+      ]
+    ]
   },
   "104": {
     "entries": {
@@ -80545,7 +80988,7 @@
     }
   },
   "101s": {
-    "maxId": 101,
+    "maxId": 105,
     "entries": {
       "chapter-101-study-rheumatoid-arthritis-and-other-autoimmune-diseases|Chapter 101 Study: Rheumatoid Arthritis and Other Autoimmune Diseases": [
         "u1"
@@ -80862,8 +81305,36 @@
       ],
       "covid-19-and-rheumatic-disease-table-101-11|COVID-19 and rheumatic disease (Table 101-11)": [
         "u54"
+      ],
+      "copy|Vectra DA is a 12-protein blood test for RA disease activity. Hazzard describes it as US FDA-approved and as a complement to clinical judgment (p1612).Current practice (not the book): Labcorp identifies Vectra as its laboratory-developed test and states that it lacks FDA clearance or approval — Labcorp sample report, test 504965, 2022.": [
+        "u14"
+      ],
+      "copy|In Medicare beneficiaries with RA older than 75, Hazzard reports 20%, 32% and 47% increased risk of serious infection with glucocorticoid doses of ≤5, >5–10 and >10 mg/day, respectively, and 13% risk without glucocorticoids (printed wording, p1618).Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.": [
+        "u20"
+      ],
+      "copy|Belimumab (anti-BAFF) was the first lupus drug in its class to receive FDA approval in 2011. Hazzard dates the expanded indication for active lupus nephritis to 2021. Voclosporin, an oral calcineurin inhibitor, also received FDA approval for adult active lupus nephritis with background immunosuppression, with its role in older patients untested (pp1621–1622).Current practice (not the book): the US supplemental approval for belimumab in adult active lupus nephritis was issued in December 2020 — FDA approval letter, 2020.": [
+        "u27"
+      ],
+      "copy|For Medicare beneficiaries with RA older than 75, p1618 reports 20%, 32% and 47% increased risk of serious infection at ≤5, >5–10 and >10 mg/day, respectively, and 13% risk without glucocorticoids (printed wording).": [
+        "u69"
+      ],
+      "copy|Hazzard dates initial FDA approval to 2011 and the expanded active lupus nephritis indication to 2021 (pp1621–1622).": [
+        "u79"
+      ],
+      "copy|Current practice (not the book): the US supplemental approval was issued in December 2020 — FDA approval letter, 2020.": [
+        "u105"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        106,
+        -4
+      ],
+      [
+        109,
+        0
+      ]
+    ]
   },
   "102s": {
     "maxId": 74,
@@ -81079,7 +81550,7 @@
     }
   },
   "105s": {
-    "maxId": 105,
+    "maxId": 109,
     "entries": {
       "chapter-105-study-bacterial-pneumonia-and-tuberculosis|Chapter 105 Study: Bacterial Pneumonia and Tuberculosis": [
         "u1"
@@ -81373,8 +81844,24 @@
         "u103",
         "u104",
         "u105"
+      ],
+      "copy|Hazzard defines hospital-acquired pneumonia as pneumonia arising more than 48 hours into a hospital stay or during the 10–14 days after hospital discharge (p1681).Current practice (not the book): ATS/IDSA defines HAP as pneumonia arising ≥48 hours after admission that was not incubating on admission. Recent discharge alone does not meet that definition — ATS/IDSA HAP/VAP guideline, 2016.": [
+        "u11"
+      ],
+      "copy|Hazzard usually treats latent TB with 9 months of isoniazid unless resistance is suspected. 4 months of rifampin is the alternative for isoniazid resistance or intolerance, and 12 weeks of isoniazid plus rifapentine was also effective (p1694).Current practice (not the book): when suitable, short rifamycin-based courses are preferred, including 3 months of weekly isoniazid plus rifapentine or 4 months of daily rifampin. Daily isoniazid for 6 or 9 months is an alternative — NTCA/CDC guideline, 2020.": [
+        "u46"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        110,
+        -4
+      ],
+      [
+        114,
+        0
+      ]
+    ]
   },
   "106s": {
     "maxId": 77,
@@ -81901,7 +82388,7 @@
     }
   },
   "laws": {
-    "maxId": 123,
+    "maxId": 125,
     "entries": {
       "section|סיכום: חוק ישראלי ונתוני ברוקדייל": [
         "u1"
@@ -82276,6 +82763,12 @@
       ],
       "copy|14.6% בגילי 65–74 לעומת 36.3% בבני 75+; בסך הכול 22.6% מבני 65+ (ממוצע 2020–2022) (ברוקדייל, שנתון 2024, עמ' 134).": [
         "u117"
+      ],
+      "copy|This Study page uses the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures for the legal sections.": [
+        "u124"
+      ],
+      "copy|The statistics and drills use Brookdale’s 65+ in Israel: Statistical Abstract 2024, no. 26, required by P005-2026, p3.": [
+        "u125"
       ]
     }
   },

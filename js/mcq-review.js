@@ -71,22 +71,55 @@ window.HazzardReview = (() => {
     const live=new Set(all.filter(q=>!q.retired).map(q=>HazzardMCQ.currentId(q.id)));
     return ordered(due(v,day(now)).filter(id=>live.has(id)),all);
   }
+  function officialDue(all) {
+    const past = new Set(all.filter(q=>q.kind==='past').map(q=>HazzardMCQ.currentId(q.id)));
+    return catalogDue(all).filter(id=>past.has(id));
+  }
+  function numberedPoints() {
+    const points = new Map();
+    function add(owner, kind, id, mark, label) {
+      if (!mark?.number || mark.removed) return;
+      const key = JSON.stringify([owner,kind,id]);
+      points.set(key,{id:key, point:mark, label});
+    }
+    for (const key of Object.keys(localStorage).sort()) {
+      if (!key.startsWith('stage-a-highlights-v1:') || key.includes('-unreadable-')) continue;
+      const chapter=key.slice('stage-a-highlights-v1:'.length);
+      const saved=HazzardStorage.readProtected(key,()=>null);
+      if (!saved) throw Error('Saved highlights unavailable');
+      const label='Chapter '+chapter.replace(/s$/,'')+(chapter.endsWith('s')?' · Study':'');
+      for(const mark of saved.history || []) add(chapter,'marks',mark.id,mark,label);
+      for(const kind of ['marks','ranges']) for(const [id,mark] of Object.entries(saved[kind]||{})) add(chapter,kind,id,mark,label);
+    }
+    for(const [id,mark] of Object.entries(HazzardAnswerHighlights.read().items)) add(mark.questionId,'answer',id,mark,'Question explanation');
+    const ordered=[...points.values()].sort((a,b)=>a.label.localeCompare(b.label,undefined,{numeric:true}) || a.point.number-b.point.number || a.id.localeCompare(b.id));
+    const shift = ordered.length ? Math.floor(Date.parse(day())/86400000) % ordered.length : 0;
+    return ordered.slice(shift).concat(ordered.slice(0,shift));
+  }
+  function mix(questions,points) {
+    const run=[];
+    for(let i=0;i<Math.max(questions.length,points.length);i++) {
+      if(questions[i])run.push(questions[i]);
+      if(points[i])run.push(points[i]);
+    }
+    return run;
+  }
   // Home opens every currently due question. Keep its navigation in this
   // history entry; the resident's separately sized Practice batch stays saved.
-  function todayBatch(all){
-    const today=day(),dueIds=catalogDue(all),saved=history.state?.hazzardDueQueue;
-    if(saved?.day!==today||!Array.isArray(saved.ids)||!saved.ids.every(idOK)){
-      return {day:today,ids:dueIds,position:0,answers:{}};
+  function todayBatch(all, official=false){
+    const today=day(),dueIds=official?officialDue(all):catalogDue(all),saved=history.state?.hazzardDueQueue;
+    if(saved?.scope!==(official?"official":"today")||saved?.day!==today||!Array.isArray(saved.ids)||!saved.ids.every(idOK)){
+      return {scope:official?"official":"today",day:today,ids:dueIds,position:0,answers:{}};
     }
     const ids=[...new Set(saved.ids.map(HazzardMCQ.currentId))],remaining=new Set(dueIds);
     const records=HazzardMCQ.readStore().answers,answers={};
     for(const id of ids)if(!remaining.has(id)&&records[id]?.checked)answers[id]=records[id];
     const position=Number.isInteger(saved.position)?Math.max(0,Math.min(saved.position,ids.length)):0;
-    return {day:today,ids,position,answers};
+    return {scope:official?"official":"today",day:today,ids,position,answers};
   }
   function rememberToday(batch){
-    const {day,ids,position}=batch;
-    history.replaceState({...history.state,hazzardDueQueue:{day,ids,position}},'');
+    const {day,ids,position,scope}=batch;
+    history.replaceState({...history.state,hazzardDueQueue:{day,ids,position,scope}},'');
   }
   let seedPromise;
   function seed(){return seedPromise ||= (async()=>{
@@ -118,5 +151,5 @@ window.HazzardReview = (() => {
     }
     return write(v);
   }
-  return {KEY,STEPS,officialFirst,setOrder,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
+  return {KEY,STEPS,officialFirst,setOrder,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,officialDue,numberedPoints,mix,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
 })();

@@ -124,10 +124,13 @@ window.HazzardStudyHome = (() => {
     if (ticket !== generation || element('desk').hidden) return;
     const stores = HazzardStats.snapshot(), now = Date.now(), today = HazzardReview.day(now);
     const hasCatalog = catalog.status === 'fulfilled' && aliases.status === 'fulfilled';
-    let due, recommended = false, answered = null, total = 0;
+    let official,due, recommended = false, answered = null, total = 0;
     if (hasCatalog && stores.review.ok && stores.bad.ok && stores.settings.ok) {
-      try { due = HazzardReview.catalogDue(catalog.value, now).length; } catch { /* Legacy answers may be unreadable. */ }
+      try { due = HazzardReview.catalogDue(catalog.value, now).length;official=HazzardReview.officialDue(catalog.value).length; } catch { /* Legacy answers may be unreadable. */ }
     }
+    const shortcut=element('officialDue');
+    element('officialCount').textContent=official==null?'Queue unavailable':official?' '+official+' due':'None due today';
+    if(official>0)shortcut.href='?chapter=bank&review=1&queue=official';else shortcut.removeAttribute('href');
     element('homeReviewCount').textContent = due == null ? 'Queue unavailable' :
       due + (due === 1 ? ' question due' : ' questions due');
     if (hasCatalog && changes.status === 'fulfilled' && stores.answers.ok && stores.bad.ok) {

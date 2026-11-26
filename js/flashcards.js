@@ -104,7 +104,7 @@ window.HazzardFlashcards = (() => {
       const priority = session.order === 'missed' && rank != null ? [' · Missed question', ' · Missed topic', ' · Missed chapter'][rank] || '' : '';
       element('flashcardCount').textContent = 'Chapter ' + card.chapter + ' · ' + (session.position + 1) + ' of ' + session.ids.length + priority + grade;
       question.textContent = card.front;
-      element('flashcardBack').textContent = card.back;
+      element('flashcardBack').textContent = card.back.replace(/\n> (?=Current practice \(not the book\):)/g, '\n');
       const source = element('flashcardSource'), sourceChapter = card.readChapter || card.chapter;
       const sourceURL = new URL(location.href);
       sourceURL.search = new URLSearchParams({chapter: sourceChapter, cardSource: card.id});

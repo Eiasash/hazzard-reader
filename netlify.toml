@@ -1,0 +1,3 @@
+[build]
+  command = "python tools/build_preview.py dist"
+  publish = "dist"

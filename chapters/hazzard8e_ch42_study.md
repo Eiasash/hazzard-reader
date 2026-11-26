@@ -85,7 +85,8 @@ Functional assessment adds information that a diagnosis list misses. A patient w
 - **Cognitive frailty**: physical frailty + mild cognitive impairment (**CDR 0.5**), with AD/dementia excluded; it has been suggested that physical frailty should precede the cognitive impairment, to separate physically driven cognitive decline (p627)
 - **Table 42-3** (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elders Survey (VES-13), FRAIL Scale (p621–622)
   - **Table 42-3** also spells out the **original CFS’s seven categories** (p621): 1 = very fit; 2 = well (no active disease); 3 = well, with treated comorbid disease; 4 = apparently vulnerable (not frankly dependent, "slowed up"); 5 = mildly frail (IADL help only); 6 = moderately frail (help with IADLs + ADLs); 7 = severely frail (ADL-dependent) or terminally ill. The current nine-point CFS scores terminal illness as 9.
-  - **VES-13**: frail if score **≥3** (range 0–10); **FRAIL Scale** (fatigue, resistance, ambulation, ≥5 of 11 specified illnesses, weight loss ≥5% over the preceding year): **0** = no frailty, **1–2** = intermediate, **≥3** = frailty (p622; validated FRAIL questionnaire, Morley et al., PMCID PMC4515112).
+  - **VES-13**: frail if score **≥3** (range 0–10). **FRAIL Scale**: fatigue, resistance, ambulation, **more than 5 illnesses**, and **more than 5% weight loss**. Score **0** = no frailty, **1–2** = intermediate, **≥3** = frailty (Table 42-3, p622).
+    > Current practice (not the book): the validation study’s Methods scored **5 or more of 11 illnesses** and **at least 5% weight loss over 12 months**. Its appendix uses **>5%** for weight loss. [Morley et al., 2012, Methods and appendix](https://pmc.ncbi.nlm.nih.gov/articles/PMC4515112/).
 
 ## How frailty changes over time
 

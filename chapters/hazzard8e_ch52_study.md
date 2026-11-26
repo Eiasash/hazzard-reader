@@ -153,11 +153,13 @@ More than 5% weight loss achieved within a 20-week period (p786).
 
 </details>
 
-**11. Which OA drug therapies does the ACR/AF guideline recommend against, and why?**
+**11. Which OA drugs do the chapter’s figures recommend against, and where do the two figures disagree?**
 
 <details><summary>Answer</summary>
 
-Glucosamine for hand, hip or knee OA, and chondroitin sulfate for hip or knee OA. Hand OA is an exception: ACR/AF conditionally recommends chondroitin sulfate for this site. Other drugs recommended against include TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).
+Figure 52-5B (p786) recommends against glucosamine, bisphosphonates, TNF inhibitors and IL-1 receptor antagonists for hand, knee and hip OA. It shows a strong recommendation against chondroitin for knee and hip OA, consistent with p788. For **hand OA**, Figure 52-4 (p785) shows a **conditional recommendation for** chondroitin, while Figure 52-5B (p786) shows a **conditional recommendation against** it.
+
+> Current practice (not the book): the ACR/AF guideline text conditionally recommends chondroitin sulfate for hand OA and strongly recommends against it for knee or hip OA. [ACR/AF OA guideline, 2019](https://doi.org/10.1002/acr.24131).
 
 </details>
 

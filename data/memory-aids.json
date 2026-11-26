@@ -83,7 +83,7 @@
               "Cholinesterase inhibitors — frequency, urgency",
               "ACE inhibitors — cough precipitating stress leakage",
               "Beta adrenergic agonists — rarely retention",
-              "Calcium channel blockers — retention, edema/nocturia",
+              "Calcium channel blockers — may contribute to urinary retention or edema with nocturia",
               "Gabapentin, pregabalin, glitazones — edema/nocturia",
               "Alcohol — polyuria, frequency, urgency, sedation, delirium, immobility",
               "Caffeine — polyuria, bladder irritation"
@@ -323,7 +323,7 @@
     "65s": [
       {
         "title": "Antidepressant discontinuation symptoms",
-        "mnemonic": "Sweat, chill, spin, gut; dreams, vertigo, numb, shocks",
+        "mnemonic": "Sweat, chills, flu; dizzy, gut, sleep and dreams; mood, vertigo, numbness, shocks",
         "page": "1015–1016",
         "groups": [
           {
@@ -332,8 +332,11 @@
               "Sweating",
               "Chills",
               "Dizziness",
+              "Flu-like symptoms",
               "GI upset",
-              "Vivid dreaming",
+              "Insomnia",
+              "Vivid and excessive dreaming",
+              "Depressed mood",
               "Vertigo",
               "Numbness",
               "Shock-like sensations"
@@ -341,7 +344,7 @@
           }
         ],
         "note": "Can mimic relapse or lack of efficacy.",
-        "source": "chapters/hazzard8e_ch65_study.md",
+        "source": "Hazzard 8e, Chapter 65, printed pages 1015–1016",
         "tested": {
           "sitting": "2024-May",
           "number": 74,

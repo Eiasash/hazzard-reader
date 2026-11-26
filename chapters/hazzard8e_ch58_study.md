@@ -27,7 +27,7 @@ Study summary of Chapter 58 — Delirium; the book and the full chapter are the 
 
 Start by asking a relative or nurse when the patient last followed a conversation normally. Inattention may look like losing a thread halfway through a sentence, answering an earlier question or failing months backward. Acute change and fluctuation carry more diagnostic weight than a poor memory score alone. In December 2021 Q29 the patient could register three words yet struggled to sustain attention. A quiet older person who becomes slow and drowsy over hours deserves the same medical assessment as someone trying to climb out of bed. Hypoactive delirium is the more common motor presentation in older adults and is often overlooked as fatigue or low mood. Hyperactive and hypoactive features may alternate (p883–885).
 
-CAM requires an acute or fluctuating change and impaired attention, accompanied by disorganized thinking or a change in level of consciousness. Normal arousal during one examination can coexist with a positive CAM. Orientation to place can also be preserved in a patient who repeatedly falls asleep or cannot sustain a simple task. During an acute admission, do not wait to identify one reversible cause before recognizing the syndrome and investigating it. June 2026 Q34 describes this distinction in a man with heart failure and new fluctuating drowsiness despite a normal CT (p879–880, 883–885).
+CAM requires acute onset with a fluctuating course and impaired attention, accompanied by disorganized thinking or a change in level of consciousness. Normal arousal during one examination can coexist with a positive CAM. Orientation to place can also be preserved in a patient who repeatedly falls asleep or cannot sustain a simple task. During an acute admission, do not wait to identify one reversible cause before recognizing the syndrome and investigating it. June 2026 Q34 describes this distinction in a man with heart failure and new fluctuating drowsiness despite a normal CT (p879–880, 883–885).
 
 The short CAM applies its features after a cognitive assessment. UB-2 is an initial screen using the day of the week and months backward. One incorrect answer leads to a more complete assessment, such as the 3D-CAM. May 2024 Q75 gives substantial disorientation without a baseline history. Ask whether this represents an acute or fluctuating change before completing CAM. September 2024 Q25 supplies the missing time course through nursing observations (p880, 884, Table 58-3 and p211, Figure 15-2).
 
@@ -122,7 +122,7 @@ Recovery planning matters in postacute care. In one cohort, 16% of admissions me
 
 **Risk factors**
 - Predisposing: dementia (**2–5×** risk, present in up to **two-thirds** of delirium cases), age **>70**, severe illness/multimorbidity, functional/sensory impairment, prior delirium or stroke (p881).
-- Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, **ICU stay >10 days**, and physiologic derangements (elevated BUN/creatinine ratio, abnormal Na/glucose/K, metabolic acidosis).
+- Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, **ICU stay >10 days**, and physiologic derangements (elevated BUN/creatinine ratio, **elevated serum urea**, **abnormal serum albumin**, abnormal Na/glucose/K, metabolic acidosis).
 - Validated hospital precipitants (restraints, malnutrition, >3 medications added in the previous day, bladder catheter, any iatrogenic event): each independently confers **2–4×** risk; effects are cumulative (p882).
 
 **Drugs & delirium**
@@ -154,7 +154,7 @@ Recovery planning matters in postacute care. In one cohort, 16% of admissions me
 **Special populations**
 - COVID-19: hospitalization delirium rates **25–84%** (p889).
 - Postacute/nursing home: **16%** meet full CAM criteria on admission, another **50%** are subsyndromal; of those admitted with delirium, **>50%** still delirious at 1 month (p890).
-- End of life: delirium in **>80%** of patients; if sedation is indicated for severe agitated delirium, **lorazepam**, starting dose **0.5–1.0 mg** PO/IV/SQ is the sedation agent of choice (p890).
+- At end of life, delirium affects **>80%** of patients. Hazzard names **haloperidol as first-line therapy** for terminally ill patients with delirium and acknowledges a randomized trial that did not support its use. For **severe agitated delirium**, sedation can be **additional therapy** when consistent with goals of care. If sedation is indicated, the chapter recommends **lorazepam**, initially **0.5–1.0 mg** PO, IV or SQ (p890).
 
 **Exam traps / book contradictions**
 - Acute-onset timeframe: Cardinal Features/Table 58-4 say "hours to days," but the Algorithm-for-Evaluation text says "hours to weeks" for acute change — both as printed, not reconciled; a 2–3-week history falls inside one window and outside the other (p886).

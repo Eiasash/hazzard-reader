@@ -1,5 +1,5 @@
 {
-  "version": "v324",
+  "version": "v325",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -88,8 +88,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch101_study.md",
-      "sha256": "83cc4ed68140f5b9cf77e6cc1799fc0171aeb258d4f0f01c0055179859d4ca91",
-      "bytes": 12362
+      "sha256": "5fa8a51f7d5b56428cab2b4f6796bc36ed0e6d614fad435ad0cbd718960b0d84",
+      "bytes": 13006
     },
     {
       "url": "./chapters/hazzard8e_ch101_table101-10_p1624.png",
@@ -283,8 +283,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch104_study.md",
-      "sha256": "de6fa6f5d9178fd2901041c4c9fe1ca0797795e83e44baa282feccc07d1ba861",
-      "bytes": 29981
+      "sha256": "29a21060029c1c7a000a48c134cba95b165709e0a8a592f6daba9b5e81c7a9a0",
+      "bytes": 30068
     },
     {
       "url": "./chapters/hazzard8e_ch104_table104-1_p1672.png",
@@ -313,8 +313,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch105_study.md",
-      "sha256": "b8d6006466d9d9a1eb44d42e33556c4bfc96d423fa556ad3daf6403c8c2b0855",
-      "bytes": 18390
+      "sha256": "e83ea7d35bb33b79194d82d0bb548cfd585551e5f3cf469d05a73f8b7b1e6414",
+      "bytes": 18920
     },
     {
       "url": "./chapters/hazzard8e_ch105_table105-10_p1688.png",
@@ -393,8 +393,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch106_study.md",
-      "sha256": "9cabab9a051812c414ef38d1b72dbec7155e94a1bc315431611f208734300daa",
-      "bytes": 8607
+      "sha256": "c0b3f4486bcba172909a7840746e6efdb579ae19f5f1d0cbc1d88587bad2aa88",
+      "bytes": 8585
     },
     {
       "url": "./chapters/hazzard8e_ch106_table-106-1_p1701.webp",
@@ -2583,8 +2583,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch42_study.md",
-      "sha256": "6f54da55e36cdd85b78dbb77d7e117672a3097b408aaa06256cd684499d9a441",
-      "bytes": 22801
+      "sha256": "f9fa767f058c3e7e47158094621cdbd508e41a72359ea5ce5ca9691770478536",
+      "bytes": 23036
     },
     {
       "url": "./chapters/hazzard8e_ch42_table42-3_p621.png",
@@ -2768,8 +2768,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch46_study.md",
-      "sha256": "4b6cf609091fc794a61da21587b609aeea3333c2201f5ef35f70fff34f0ee400",
-      "bytes": 32873
+      "sha256": "8d0453e0d429236ac83e6f43b0ed7b1c86d2ace2d043fc6ffd739bfa05a23872",
+      "bytes": 33055
     },
     {
       "url": "./chapters/hazzard8e_ch47_figure47-1.png",
@@ -3073,8 +3073,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch51_study.md",
-      "sha256": "1d080644bea1b5cc1f4f60d713a0a0fe43253245ba4e6345fcbb1e3b7cb6a8fb",
-      "bytes": 26212
+      "sha256": "35a354ced1d6580d7c9b129abd4bdcc91055ffc666a96336d1872a40f77b73b0",
+      "bytes": 26942
     },
     {
       "url": "./chapters/hazzard8e_ch51_table51-1_p760.png",
@@ -3133,8 +3133,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch52_study.md",
-      "sha256": "1b0a44b29c70f0a7407e46763e75713cfe9b5e11c2e725214ff2b286e9777238",
-      "bytes": 21380
+      "sha256": "6f11a265e9ce8cb8414b36a3d148e2324b356c41e652bb4cb13c90c378be794f",
+      "bytes": 21671
     },
     {
       "url": "./chapters/hazzard8e_ch53_figure-53-1_p794.webp",
@@ -3238,8 +3238,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch55_study.md",
-      "sha256": "3df8033a9fe2ad3aa417d9f07f37c461a2a479eba9a4dca08c8f62f3eae49c04",
-      "bytes": 30698
+      "sha256": "03450dc4b700a77690fb380123d9a3a70db54ac9e60de2f29cc73abd81921724",
+      "bytes": 30936
     },
     {
       "url": "./chapters/hazzard8e_ch55_table55-4_p823.png",
@@ -3373,8 +3373,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch58_study.md",
-      "sha256": "845ca4b921ca2d7f120ca25ee51809d6b53e3c601b980d4eaf53438d6900873a",
-      "bytes": 34832
+      "sha256": "5468c84a013d293329e3d25ab5e30e2c2da8663b8eec15f702ce6ad70023af5a",
+      "bytes": 35131
     },
     {
       "url": "./chapters/hazzard8e_ch59_dementia_including_alzheimer_disease.md",
@@ -3398,8 +3398,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch59_study.md",
-      "sha256": "cd509b73f911d6f837ee64f87e98fad0387bf1522aef835feda747a4149f04ac",
-      "bytes": 32022
+      "sha256": "6aca1d949d15ce9db721360670cc837f4346b6a53ecb6385bf8fb7a81f5b1e82",
+      "bytes": 32325
     },
     {
       "url": "./chapters/hazzard8e_ch59_table59-4_p903.png",
@@ -3473,8 +3473,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch60_study.md",
-      "sha256": "ddc8644eed52cdc2e485198a3f9686ce99565b0020ada5c9c25a669da4867324",
-      "bytes": 33998
+      "sha256": "3124cf3f16ba4a7c93ada8912c8a9d450e95e4b4fa3d28be5f56a9a540fb1d49",
+      "bytes": 34333
     },
     {
       "url": "./chapters/hazzard8e_ch61_figure61-1.png",
@@ -3493,8 +3493,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch61_study.md",
-      "sha256": "1d21faeaea133ffb62ffe228efaeb7115a32f71a9c899e38ddc6e580325ee339",
-      "bytes": 31259
+      "sha256": "618862a25f6a87f9dfb92851ed742c1bb033ca1b6777b21dcbdfa4b012119f38",
+      "bytes": 32037
     },
     {
       "url": "./chapters/hazzard8e_ch62_cerebrovascular_disease.md",
@@ -3558,8 +3558,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch63_study.md",
-      "sha256": "adb396a89b2edce90b1d748962b1df77e226e6449fc4dd21c0d84f6723765787",
-      "bytes": 14114
+      "sha256": "e9ee2fa3431dd6f4d170d52d47b88703d5f7ce4081c5d29b7561e84618ac302e",
+      "bytes": 14250
     },
     {
       "url": "./chapters/hazzard8e_ch63_table63-5_p993.png",
@@ -3638,8 +3638,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch65_study.md",
-      "sha256": "d5045830403bb8891a6fe8685b3c69fa9eb44efed6c85d315c49ca0f500a283a",
-      "bytes": 31107
+      "sha256": "8963f372f7bf1c596d23c67312a55c0e0946ee2fe2d79668ec919cd26ec5334c",
+      "bytes": 30894
     },
     {
       "url": "./chapters/hazzard8e_ch65_table65-1_p1017.png",
@@ -3728,8 +3728,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch68_study.md",
-      "sha256": "ce2f07385f37464cb7534e4f3769af0c0c288d8a786f621a52114d7a22308f8e",
-      "bytes": 36403
+      "sha256": "45eadd22dc4f586f2a7a08f335df660a0d289754443b2064b6cbecb6ab3b2c31",
+      "bytes": 36365
     },
     {
       "url": "./chapters/hazzard8e_ch68_table68-1_p1056.png",
@@ -4133,8 +4133,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch75_study.md",
-      "sha256": "632aef74b402108ee66fc319261840b5173a49da8998a77945495ef1f07f1780",
-      "bytes": 38301
+      "sha256": "ee6684e173208f501c3ce122f20b774f9eaaf66fde7c846c689a32fdabb6db16",
+      "bytes": 38339
     },
     {
       "url": "./chapters/hazzard8e_ch75_table75-12_p1160.png",
@@ -4203,8 +4203,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch76_study.md",
-      "sha256": "83500dae0212379f6aad73f5198c95b5d9500ae03b1c802f7395ecc07954919f",
-      "bytes": 34449
+      "sha256": "a4ec1f16ec221a63d36c0cc1f412fcbd2ba22fc5138d9a430dbd44b31e297446",
+      "bytes": 34858
     },
     {
       "url": "./chapters/hazzard8e_ch76_table76-10_p1178.png",
@@ -5743,8 +5743,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch97_study.md",
-      "sha256": "12740403b93b904ce15770733c3555e75d3de7488a8b121e17eb7fab10766862",
-      "bytes": 31354
+      "sha256": "fd3e7647690989b965f7d91330260e39b064ab0c1d3a80e4ade12e41ba863524",
+      "bytes": 31550
     },
     {
       "url": "./chapters/hazzard8e_ch97_table97-5_p1534.png",
@@ -5843,8 +5843,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch99_study.md",
-      "sha256": "2115f0bb0cb6b4a2b1dcc0a2859f18d7ab68dddd747f804dde5984316a175ec3",
-      "bytes": 45189
+      "sha256": "fb526329c3e876d876daefc9b45d8b059e532ac848fc3a251960c6c1f76de8bb",
+      "bytes": 45337
     },
     {
       "url": "./chapters/hazzard8e_ch9_mental_status_and_neurologic_examination.md",
@@ -5853,8 +5853,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch9_study.md",
-      "sha256": "3785345ffa18b85440f607176f2077e41104746a98d32ef22625f1fd25c28257",
-      "bytes": 6439
+      "sha256": "65b4191228e3c939fd8614a792cc933f2b470019823dafefd46cdcaebe6f75cd",
+      "bytes": 6453
     },
     {
       "url": "./chapters/hazzard8e_ch9_table-9-10_p145.webp",
@@ -5948,8 +5948,8 @@
     },
     {
       "url": "./chapters/israel_law_study.md",
-      "sha256": "47d2ac9b4c2298c7ee2633c257019e56ba94d1041ad3389fd8e3c86df86c07d1",
-      "bytes": 17664
+      "sha256": "f5bce690114b69759a5fad6d99c150c2ffd62915e3140494ed153caaa7143b32",
+      "bytes": 17860
     },
     {
       "url": "./css/drug-index.css",
@@ -5958,8 +5958,8 @@
     },
     {
       "url": "./css/flashcards.css",
-      "sha256": "245c142b5c9d23b8e04bdda13d6dc5af11f2c12e572c1bc355bcd19a1c060812",
-      "bytes": 1208
+      "sha256": "3d14966a21cbebe6c9ca417155040401949cf7200c88aadaea46e4230965adef",
+      "bytes": 1250
     },
     {
       "url": "./css/law-cards.css",
@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "c0667922943c6e02530ba582cd9166085a453986119e4a392974ccac07975e87",
-      "bytes": 10778
+      "sha256": "b263d81edd8ca2ecf8d6f9796b5ba50e7b9276a735045b132aa1f9e01b4adc6d",
+      "bytes": 10345
     },
     {
       "url": "./css/reading-companion.css",
@@ -5993,23 +5993,23 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "0eff653ccea5b3a61fa8dc10ba1c4fb97b94329313ad863d2d5be5ef6a05bd85",
-      "bytes": 78737
+      "sha256": "4ff0f6e7d8cc6a9f6f539bf0eb6db1e6b77a7353d654268dcf2c12b1711337b8",
+      "bytes": 79258
     },
     {
       "url": "./data/drug-index.json",
-      "sha256": "662b4b1711f388f886998a3af31ba80c5681f4462f4617791d559e58976a3a40",
-      "bytes": 1175148
+      "sha256": "fac34dad272ebaae8130a2928dc0ec9444684306039f93ecc195a6341e9fb929",
+      "bytes": 1174023
     },
     {
       "url": "./data/flashcards.json",
-      "sha256": "a53e70f51e553d35a7dd8f254cffa5ea2577d270946e3e4a96419df1954278fd",
-      "bytes": 477992
+      "sha256": "88e858b1502cdb89320833a68e0fc357c7024b18cc4fa363deef6fc143a34957",
+      "bytes": 478894
     },
     {
       "url": "./data/highlight-aliases.json",
-      "sha256": "4942130ac38c941afeae7bb99d8d5c626b1a0d47e607ca40c15ee6b31d3996fa",
-      "bytes": 495287
+      "sha256": "3d13cc99fa61741e5ad79f6cbfc41479135536fb2b8f622aaac4a95cc1265eb0",
+      "bytes": 499081
     },
     {
       "url": "./data/law-cards.json",
@@ -6033,8 +6033,8 @@
     },
     {
       "url": "./data/mark-units/101s.json",
-      "sha256": "61ae7df80c9798f2a178e2e17b965b99ba67fac6d3c0edd7b58276985ecab560",
-      "bytes": 12516
+      "sha256": "2e629cf56fc54c1b55dffa97b0acf0485fde763de690ffba137eae191a658f98",
+      "bytes": 14525
     },
     {
       "url": "./data/mark-units/102s.json",
@@ -6048,13 +6048,13 @@
     },
     {
       "url": "./data/mark-units/104s.json",
-      "sha256": "3e0c685b471c639c8de009df497ab471115c2a57d06fa6b75de33ad692129437",
-      "bytes": 16689
+      "sha256": "72423362e7049d895b88a17c6f9e383c11b42c83591677ff6f6366fb4241701f",
+      "bytes": 17021
     },
     {
       "url": "./data/mark-units/105s.json",
-      "sha256": "13a801928ae2682c2607234857085cb94e61a6de53d9a5ba7f0b13d130561a6c",
-      "bytes": 17026
+      "sha256": "ad40c30f639f4f9e87ad18f334a112da8dd2e7770b371c4ccd62514dd0e41a99",
+      "bytes": 17995
     },
     {
       "url": "./data/mark-units/106.json",
@@ -6218,8 +6218,8 @@
     },
     {
       "url": "./data/mark-units/42s.json",
-      "sha256": "a56ecd65ab6fc636e317445923f7f2ad6c2133cafc86f639b1e99b6dcd78a2d5",
-      "bytes": 7746
+      "sha256": "d72f191241d47596d27d2b5396a5ff5463fa95a9f1c9749ec322acd5c9e145de",
+      "bytes": 8858
     },
     {
       "url": "./data/mark-units/43.json",
@@ -6258,8 +6258,8 @@
     },
     {
       "url": "./data/mark-units/46s.json",
-      "sha256": "3453c2ca30715df76e992eb074f69c692db6acb954d8d491cbcf2fff250bcb42",
-      "bytes": 34338
+      "sha256": "cbffa7f962be50e24a26838d7bc1f636328b18ea5c7de4090d6f1bfe7aaa8547",
+      "bytes": 35057
     },
     {
       "url": "./data/mark-units/47.json",
@@ -6303,8 +6303,8 @@
     },
     {
       "url": "./data/mark-units/51s.json",
-      "sha256": "c99b261c1ea22146f813941ee3a021635189f0fa85ac4d06e799197943828030",
-      "bytes": 15310
+      "sha256": "e589c0655e70015181c50e7d39bcc072998cacd14be839b94d91ddde367f0e8d",
+      "bytes": 16307
     },
     {
       "url": "./data/mark-units/52.json",
@@ -6313,8 +6313,8 @@
     },
     {
       "url": "./data/mark-units/52s.json",
-      "sha256": "347b326216710bdcab9debc7664138e179c5a980bb8f80e42927cdf8ecc7839c",
-      "bytes": 9778
+      "sha256": "41b5f31abdc4f116f7e70a90ebdff15ab6203f143878b97821edb79f545a5f3c",
+      "bytes": 10603
     },
     {
       "url": "./data/mark-units/53.json",
@@ -6333,8 +6333,8 @@
     },
     {
       "url": "./data/mark-units/55s.json",
-      "sha256": "9b454d5558d0e05f7ffc3c1a0f07ff684faec26a28b09d805b23c282e27135e8",
-      "bytes": 29803
+      "sha256": "9267f79246666721939bbf91539a9c1c40cfad0a328e86dd55911f436396b1ec",
+      "bytes": 30632
     },
     {
       "url": "./data/mark-units/57s.json",
@@ -6348,8 +6348,8 @@
     },
     {
       "url": "./data/mark-units/58s.json",
-      "sha256": "fe74bc0ef0cd884aa20027322ecf11a339b02a405a12ba4845df229d8adaf9cb",
-      "bytes": 14209
+      "sha256": "e572c471d69f8bebc3fd1c9b0bcce3c26b222724a3be8f9b46b68e1066601697",
+      "bytes": 15192
     },
     {
       "url": "./data/mark-units/59.json",
@@ -6358,8 +6358,8 @@
     },
     {
       "url": "./data/mark-units/59s.json",
-      "sha256": "84d64ecb248466ff02c40e217e0ff3dd0d73bd0e6bcd619210e7b76234bd3bf5",
-      "bytes": 31553
+      "sha256": "16fff0cd17d73564257cc8ee5caa906133188c4709ccf969409e872cdec4dad4",
+      "bytes": 33086
     },
     {
       "url": "./data/mark-units/60.json",
@@ -6368,8 +6368,8 @@
     },
     {
       "url": "./data/mark-units/60s.json",
-      "sha256": "e8b396fc091bf7191ab5ae72d022ecef7078c378c0b878697ac37aae4f40c563",
-      "bytes": 20657
+      "sha256": "60e0ca60dcdb8a6812674ceda7693baea1a41a46d7e4d80799a5253aa189916c",
+      "bytes": 22641
     },
     {
       "url": "./data/mark-units/61.json",
@@ -6378,8 +6378,8 @@
     },
     {
       "url": "./data/mark-units/61s.json",
-      "sha256": "aefae8ba435b570e5909c09637e9019757bb19ccc5cb03e30b369df737d5dd48",
-      "bytes": 32574
+      "sha256": "f4f2ad21be4441a31f183346800d0d6fb8ee359099e69a14e1c7677f1dcd9022",
+      "bytes": 33718
     },
     {
       "url": "./data/mark-units/62.json",
@@ -6398,8 +6398,8 @@
     },
     {
       "url": "./data/mark-units/63s.json",
-      "sha256": "e54710b456248994e522201dfd64afacc78e834585a6cc8216b0dd3b02de9352",
-      "bytes": 14057
+      "sha256": "68e5a305a6c631f5333e091bb117796392b36df278a5389160ffcd4b76403bf4",
+      "bytes": 15688
     },
     {
       "url": "./data/mark-units/64.json",
@@ -6408,8 +6408,8 @@
     },
     {
       "url": "./data/mark-units/65s.json",
-      "sha256": "9f5c0c55900339e625ac7753b9b8deaa1d03cd6634949582dc5341f53690bb70",
-      "bytes": 13873
+      "sha256": "159d3be948df1858723acf9f955c4fbae84061760dee29bc187400d4f753eda7",
+      "bytes": 16313
     },
     {
       "url": "./data/mark-units/66.json",
@@ -6428,8 +6428,8 @@
     },
     {
       "url": "./data/mark-units/68s.json",
-      "sha256": "046716297cfe19694405f4f28b69177cc9d34fe590097ab303ce7f8dad0fbaf7",
-      "bytes": 38627
+      "sha256": "907811746297abf47cb8583fddaa327efa276ae91de9c164356aaaf6b5f69944",
+      "bytes": 39976
     },
     {
       "url": "./data/mark-units/7.json",
@@ -6468,13 +6468,13 @@
     },
     {
       "url": "./data/mark-units/75s.json",
-      "sha256": "c014d04cd7f385419baac76e1600f48bbb31f4ca49889261d64e7114c92ffcb1",
-      "bytes": 21578
+      "sha256": "4d53850fd5274136e5cd01b600a36c58fc3bde26ac1e527686c9c7dcb4b06be2",
+      "bytes": 23402
     },
     {
       "url": "./data/mark-units/76s.json",
-      "sha256": "b27a2f54d777e39f6f8f8dae7c8c5a3003ed995a88738420a73da1eec2ae77e7",
-      "bytes": 35857
+      "sha256": "ee02724fc971adbb98c56ff59b155110ca38bb69c07f6d9a160267dfca671369",
+      "bytes": 37169
     },
     {
       "url": "./data/mark-units/77.json",
@@ -6648,8 +6648,8 @@
     },
     {
       "url": "./data/mark-units/97s.json",
-      "sha256": "a4bce25e288b3e2de125485210b1ea320dc0eb0124881c062d7ed42791f244cb",
-      "bytes": 11253
+      "sha256": "da26e3cbce581d53f2701d3b8551fe5a8476539f4d46b447b0a62ce5059f4108",
+      "bytes": 12706
     },
     {
       "url": "./data/mark-units/98s.json",
@@ -6663,8 +6663,8 @@
     },
     {
       "url": "./data/mark-units/99s.json",
-      "sha256": "19238356db34cc49e39e8830e5b57f206f5582e83406783c77741379891cc80a",
-      "bytes": 47922
+      "sha256": "20d38dc93616a57ca2cd3bec5945cb47ace02eb5a2319dde9c615bb20b5fb961",
+      "bytes": 48201
     },
     {
       "url": "./data/mark-units/9s.json",
@@ -6678,8 +6678,8 @@
     },
     {
       "url": "./data/mark-units/laws.json",
-      "sha256": "95c1f7fb3651b796c9ab53e1b05ee2b09622ebf8c1e27ba78ced8654c1a5383d",
-      "bytes": 20313
+      "sha256": "bad8ace397c79da03f4d5e8128456eb33ddb3b560b3ddd03c6eb9df90470c621",
+      "bytes": 20651
     },
     {
       "url": "./data/mcq/catalog.json",
@@ -6888,8 +6888,8 @@
     },
     {
       "url": "./data/mcq/chunks/28.json",
-      "sha256": "23cb6809df1e50c7c8e96b09a385d70fb3535510dc31c0dc2809f744a5e8c2d5",
-      "bytes": 19065
+      "sha256": "e4aedb9e73bc3913b91b247aff733354fe036811fc4791a2672909ac1976ed0d",
+      "bytes": 19122
     },
     {
       "url": "./data/mcq/chunks/29.json",
@@ -6973,8 +6973,8 @@
     },
     {
       "url": "./data/mcq/chunks/39.json",
-      "sha256": "0f6728a77d906bd5f28b6ecaf6fd25e6b45623498dc60dc5fffde8836d5b2be4",
-      "bytes": 38673
+      "sha256": "8df83b42c893fe5f5a1ed9b77d48114138a75cc98b05d90c0faeb82b4bb1dfd2",
+      "bytes": 38675
     },
     {
       "url": "./data/mcq/chunks/3a.json",
@@ -6983,8 +6983,8 @@
     },
     {
       "url": "./data/mcq/chunks/3b.json",
-      "sha256": "5f8c147d7ae29f9871f09a4008037ce2f48eb7cb42fbca1494118bf523c027d5",
-      "bytes": 23633
+      "sha256": "d81dd3280d9a6db81ded239e49ea5cabfbfd9eb4808842760d70a6a1f9a59c32",
+      "bytes": 23735
     },
     {
       "url": "./data/mcq/chunks/3c.json",
@@ -7538,8 +7538,8 @@
     },
     {
       "url": "./data/mcq/chunks/aa.json",
-      "sha256": "9d51463b400f97b0e340bd82895b8f98dd1f750e8d48e0006f13928ce368ce67",
-      "bytes": 30734
+      "sha256": "b1164ac7fc531bad255d7853f8b06b4baf3de69f4c82bf268c896b72d68aafe4",
+      "bytes": 31124
     },
     {
       "url": "./data/mcq/chunks/ab.json",
@@ -7768,8 +7768,8 @@
     },
     {
       "url": "./data/mcq/chunks/d8.json",
-      "sha256": "f1fc2049d1aa0ea2f4dd00e39a3d2df43143029700277bdbc080d161dba03e42",
-      "bytes": 33702
+      "sha256": "0d2358c0eefcd1eb1a459f98995561c1b6c51772e917529f9303d82ad49e4bd8",
+      "bytes": 34077
     },
     {
       "url": "./data/mcq/chunks/d9.json",
@@ -7943,8 +7943,8 @@
     },
     {
       "url": "./data/mcq/chunks/fb.json",
-      "sha256": "0257dde2ddbb19def1a506e905198dedb592acef16720e21ea90dd6e2c0a89ad",
-      "bytes": 21355
+      "sha256": "b4440f3295c84f0fe229ff8cfcc8560131d1b751dab0b60a95d8e2771169591b",
+      "bytes": 21414
     },
     {
       "url": "./data/mcq/chunks/fc.json",
@@ -8403,8 +8403,8 @@
     },
     {
       "url": "./data/memory-aids.json",
-      "sha256": "87111a405414581ea983709e5adba76e3a39e964d5e57f43507d2a5c974d6b95",
-      "bytes": 18474
+      "sha256": "13c66de739384ed10e3f2c5bf22a610ce0de070318f9676f5c419290d1555b6c",
+      "bytes": 18658
     },
     {
       "url": "./data/redo-history.json",
@@ -8413,8 +8413,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "8fa64fbba371f37754a5291dd2b4e144bda4f1a51a71623329aa3ce0a7dab2d0",
-      "bytes": 8723584
+      "sha256": "a41277c9a7070a2d3f73992cd790e432c14df161cde7d9a7a0e1baa31c43d605",
+      "bytes": 8724099
     },
     {
       "url": "./data/verification-registry.json",
@@ -8433,8 +8433,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "15e8a0c3563823984afcd29384f9fbc1d77a4b7beb820118a99a11eaed7b4a4a",
-      "bytes": 1007581
+      "sha256": "df955b18c0f9e48e7538b73c94bcd96b5cf5283f7c3dcbaf1063f751ab82fb92",
+      "bytes": 1000568
     },
     {
       "url": "./js/changed-questions.js",
@@ -8458,8 +8458,8 @@
     },
     {
       "url": "./js/flashcards.js",
-      "sha256": "e1ca7981d3d43d1dd32a3bf9abdc8f7867d31d4f856f116cb70e15123b1b3b70",
-      "bytes": 15318
+      "sha256": "1d4b7e9fdbf44e2ed8d9f25c1d501fbdc23b06db107dcd6ef9df0aa6244ec954",
+      "bytes": 15379
     },
     {
       "url": "./js/law-cards.js",
@@ -8473,13 +8473,13 @@
     },
     {
       "url": "./js/mcq-review.js",
-      "sha256": "776f90b1a539909c07ddbd907b0a12dda0234144d1087d3e06934ff5a73d7888",
-      "bytes": 9554
+      "sha256": "7fbb3bd740d54572157bf14c4d9c728942182df9ba19a264835067caa13e48da",
+      "bytes": 11568
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "ac4a6c5cc50a9fcf7476740f82bd4eecf2019e9a6cbad7464c565586fde43ebb",
-      "bytes": 175414
+      "sha256": "82042806b1d4c60e3b11abf196bf7aa62f1975c0743d3b9106eac805ee5f5898",
+      "bytes": 176577
     },
     {
       "url": "./js/memory-aids.js",
@@ -8503,8 +8503,13 @@
     },
     {
       "url": "./js/reader-debug.js",
-      "sha256": "1516692027784a1b2a5d9dd6fcddcaf0534448a9843c6050412c246f2a4ec419",
-      "bytes": 12852
+      "sha256": "67c9f69746502bfb8218ef70c406bcdaad166a3cfa19b3b75576687d36cca842",
+      "bytes": 12499
+    },
+    {
+      "url": "./js/reader-input.js",
+      "sha256": "44baf139fe662c34a71d413eec2f8c7cdb85ba2401329143ac034acdbcd98770",
+      "bytes": 3686
     },
     {
       "url": "./js/reader-sections.js",
@@ -8513,7 +8518,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "ea804f5baafb72f1a99d08778d5b3a377df7ec9ccdea1739f5f43eeb938b13a4",
+      "sha256": "7ce34b81008f43b318633529464dcb2376fe14fb9143e364cd660b4143853b3a",
       "bytes": 9155
     },
     {
@@ -8538,8 +8543,8 @@
     },
     {
       "url": "./js/study-home.js",
-      "sha256": "d65a1bd3c27065350f47d82e2041e30279f6d066fce69be87a1cd2929081c966",
-      "bytes": 8109
+      "sha256": "5822efc4ee3523af8367ead73d4878967fe824b990192a917f6a19d53cc2c5a8",
+      "bytes": 8452
     },
     {
       "url": "./manifest.json",

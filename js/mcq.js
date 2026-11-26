@@ -909,7 +909,10 @@ window.HazzardMCQ = (() => {
     // Track is session-only: reload retains the existing Subspecialty default.
     let track=activeTrack;
     const params=new URL(location.href).searchParams;
-    const todayReview=reviewMode&&params.get('queue')==='today';
+    const todayReview=reviewMode&&['today','official'].includes(params.get('queue'));
+    const officialReview=todayReview&&params.get('queue')==='official';
+    const mixed=todayReview&&!officialReview;
+    let points=null;
     let sitting=params.get('sitting')||'',sessionIds=params.has('session')?[...new Set(params.get('session').split(',').filter(id=>/^mcq-[a-f0-9]{24}$/.test(id)))]:null;
     let quick=params.get('focus')==='weak'?'weak':['unanswered','missed','unsure'].includes(params.get('quick'))?params.get('quick'):'all',quickIds=null;
     const scoped=()=>!!sitting||sessionIds!==null||params.has('statsFilter');
@@ -957,6 +960,7 @@ window.HazzardMCQ = (() => {
     function savePracticePlace(){
       if(!loaded||!controller.active||viewport.hidden||restoringView||!(bankMode||mockMode))return;
       const screen=practiceScreen(),q=visible()[position];
+      if(q?.point||officialReview)return;
       rememberPractice(screen,{id:q?.id||null,scroll:host.scrollTop,...(todayReview?{queue:'today'}:{}),...(mockMode?{building,articleSelected}:{}),...(['saved','saved-practice','flags','changed'].includes(screen)?{view:viewState()}:{}),...(missedOnly||redoMode?{missedIds:missedIds?[...missedIds]:null,redoIds:[...redoIds],retryAnswers:Object.fromEntries(retryAnswers)}:{})});
     }
     function saveView(){
@@ -1076,7 +1080,7 @@ window.HazzardMCQ = (() => {
     }
     function sync(){
       if(recoveringPlace&&!HazzardStorage.blockedKeys().includes(PLACE_KEY)&&readPracticePlace()){controller.active=false;const url=new URL(practiceURL(),location.href);if(url.pathname===location.pathname&&url.search===location.search){history.replaceState(null,'',url);location.reload();}else location.assign(url.href);return;}
-      if(reviewMode&&(!todayReview||items.length)){try{reviewBatch=todayReview?HazzardReview.todayBatch(items):HazzardReview.read().batch;if(reviewBatch)position=reviewDisplayPosition();}catch{storageError='Review queue could not be read.';}}
+      if(reviewMode&&(!todayReview||items.length)){try{reviewBatch=todayReview?HazzardReview.todayBatch(items,officialReview):HazzardReview.read().batch;if(reviewBatch)position=reviewDisplayPosition();}catch{storageError='Review queue could not be read.';}}
       let flagsError='';try{personal=readFlags();systemPrefs=readSystem();}catch{flagsError='Personal topic flags or source choices could not be read. Existing data has not been overwritten.';}
       try{const saved=mockMode?readPaper():readStore();if(mockMode){if(saved&&!paperPending){paper=saved.paper;settings=saved.settings;}if(paper)position=paper.position;}else{answers.clear();for(const [id,a]of Object.entries(saved.answers))answers.set(id,a)}storageError='';}
       catch{storageError='Saved answers could not be read. Existing data has not been overwritten.';}
@@ -1177,12 +1181,14 @@ window.HazzardMCQ = (() => {
     function badList(byId){try{const entries=Object.entries(readBad().items).filter(([id,r])=>r.bad&&!retired(id)).sort((a,b)=>b[1].at-a[1].at);return '<h2>Bad question ('+entries.length+')</h2>'+entries.map(([id,r])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><p dir="auto">'+escape(q?.q.slice(0,180)||id)+'</p><p class="meta">'+escape(q?sourceLabel(q):'Unavailable question')+' \u00b7 '+new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',dateStyle:'short'}).format(r.at)+'</p><a href="?chapter=bank&amp;q='+id+'">Open</a> <button data-bad="'+id+'">Unflag</button></section>';}).join('')+badStatus();}catch{return '<h2>Bad question</h2><p>unavailable</p>';}}
     function stateFor(q){const saved=redoMode?(retryAnswers.get(q.id)||empty()):reviewMode?(reviewBatch?.answers[q.id]||empty()):mockMode?(paper.answers[paperId(q)]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());return saved.checked&&q.sourceChecked?.changedAt&&saved.at<Date.parse(q.sourceChecked.changedAt)?{...saved,checked:false,olderVersion:true}:saved;}
     function reviewDisplayPosition(){
+      if(mixed)return history.state?.mixedDay===reviewBatch.day?Math.min(history.state.mixedPosition||0,visible().length):0;
       const remaining=new Set(reviewBatch.ids.slice(reviewBatch.position).map(currentId));
       const list=visible(),index=list.findIndex(q=>remaining.has(q.id));
       return index<0?list.length:index;
     }
     function rememberReviewPosition(index){
-      if(todayReview){reviewBatch.position=index;HazzardReview.rememberToday(reviewBatch);}
+      if(mixed)history.replaceState({...history.state,mixedDay:reviewBatch.day,mixedPosition:position},'');
+      if(todayReview){reviewBatch.position=Math.max(0,index);HazzardReview.rememberToday(reviewBatch);}
       else HazzardReview.position(index);
     }
     document.addEventListener('keydown',e=>{
@@ -1196,7 +1202,7 @@ window.HazzardMCQ = (() => {
       const badFlags=badItems();
       const allowed=q=>(!badFlags[currentId(q.id)]?.bad||hiddenTarget===q.id&&!savedOnly&&!savedView&&!flagsView&&!missedOnly&&!reviewMode&&!redoMode&&!mockMode)&&(includeHidden||!standoutHidden(q.id));
       if(redoMode){const byId=new Map(items.map(q=>[q.id,q]));return [...redoIds].map(id=>byId.get(id)).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));}
-      if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));return (reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));}
+      if(reviewMode){const byId=new Map(items.map(q=>[q.id,q]));const qs=(reviewBatch?.ids||[]).map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q));return mixed?HazzardReview.mix(qs,points??=HazzardReview.numberedPoints()):qs;}
       if(mockMode){const byId=new Map(items.map(q=>[q.id,q]));return paper?paper.ids.map(id=>byId.get(currentId(id))).filter(q=>q&&!q.retired&&!excluded(q.id)&&allowed(q)&&q.mockEligible!==false&&!flagged(q,'mock')&&!dismissed.has(q.id)):[];}
       if(missedOnly&&missedIds===null)missedIds=new Set(items.filter(q=>answers.get(q.id)?.checked&&!q.accepted.includes(answers.get(q.id).selected)).map(q=>q.id));
       if(sessionIds!==null){
@@ -1243,10 +1249,10 @@ window.HazzardMCQ = (() => {
       if(redoMode)return '<p class="eyebrow">PRACTICE</p><h1>Changed questions - redo</h1><p class="meta">'+(list.length?(position+1)+' of '+list.length:'All changed questions answered')+'</p><p>Answer again after the change to clear each question from the collection.</p><a href="?chapter=bank">Open question bank</a>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'');
       if(reviewMode){
         const r=HazzardReview.read(),done=list.filter(q=>reviewBatch?.answers[q.id]?.checked).length;
-        const remaining=todayReview?list.length-done:HazzardReview.due(r).length;
+        const remaining=todayReview?list.filter(q=>!q.point).length-done:HazzardReview.due(r).length;
         const order='<label>Review order <select data-select="review-order"><option value="due">Due order</option><option value="official" '+(HazzardReview.officialFirst()?'selected':'')+'>Official past papers first</option></select></label>';
         const size=todayReview?'':'<label class="mcq-review-size">Queue size <select data-select="review-size">'+[10,30,50].map(n=>'<option value="'+n+'" '+(n===r.settings.size?'selected':'')+'>'+n+'</option>').join('')+'</select></label>';
-        return '<p class="eyebrow">DAILY PRACTICE</p><h1>'+(todayReview?'Review today':'Review')+'</h1><p class="meta">'+done+' / '+list.length+' answered · '+remaining+' due</p>'+order+size+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:todayReview?'No questions due today':'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
+        return '<p class="eyebrow">DAILY PRACTICE</p><h1>'+(officialReview?'Official questions due today':mixed?'Daily review':'Review')+'</h1><p class="meta">'+done+' / '+list.length+' answered · '+remaining+' due</p>'+(todayReview?'':order)+size+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:todayReview?'No questions due today':'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
       }
       const title=bankMode?(flagsView?'Missed / flags':'Question bank'):mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
       let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+'</div>';
@@ -1300,6 +1306,16 @@ window.HazzardMCQ = (() => {
       filtersObserver.disconnect();const sticky=host.querySelector('nav.mcq-filters');if(sticky)filtersObserver.observe(sticky);
       }
       const content=host.querySelector('.mcq-question');
+      if(q?.point){
+        const title=document.createElement('h2'),answer=document.createElement('details'),reveal=document.createElement('summary'),quote=document.createElement('blockquote'),note=document.createElement('p');
+        title.textContent=q.label+' · Point '+q.point.number;
+        reveal.textContent='Reveal'; quote.dir=note.dir='auto';quote.textContent=q.point.text;note.textContent=q.point.note||'';
+        answer.append(reveal,quote,note);content.replaceChildren(title,answer);
+        for(const [key,label] of [['prev','Previous'],['next','Next']]){
+          const b=document.createElement('button');b.type='button';b.dataset.mcq=key;b.textContent=label;b.disabled=key==='prev'&&!position;content.append(b);
+        }
+        return;
+      }
       if(bankMode&&savedView){content.innerHTML=savedList()+revisionStatus();return;}
       if(!reviewMode&&bankMode&&flagsView){content.innerHTML=flagsList();return;}
       if(reviewMode&&(!q||position===list.length)){content.innerHTML='<h2>'+(!list.length?'Nothing due today':'Review complete')+'</h2><p>Your progress is saved. No more cards are due.</p><a href="?chapter=bank">Open question bank</a>';return;}
@@ -1357,7 +1373,7 @@ window.HazzardMCQ = (() => {
         else await HazzardReview.seed();
         if(reviewMode){
           const previousDay=todayReview?history.state?.hazzardDueQueue?.day:HazzardReview.read().batch?.day;
-          reviewBatch=todayReview?HazzardReview.todayBatch(items):HazzardReview.batch(items.filter(q=>!excluded(q.id)));
+          reviewBatch=todayReview?HazzardReview.todayBatch(items,officialReview):HazzardReview.batch(items.filter(q=>!excluded(q.id)));
           if(todayReview)HazzardReview.rememberToday(reviewBatch);
           if(reviewBatch.day!==previousDay)crossed.clear();
           position=reviewDisplayPosition();
@@ -1508,7 +1524,9 @@ window.HazzardMCQ = (() => {
       const list=visible();
       if(action==='review'){paper.finished=false;position=0;save();render();host.scrollTop=0;return;}
       if(action==='retry-missed'){const missed=list.filter(q=>{const s=stateFor(q);return !s.checked||!q.accepted.includes(s.selected)});crossed.clear();paper.ids=[...new Set(missed.map(q=>q.id))];paper.answers={};paper.finished=false;paper.retry=true;position=0;save();render();host.scrollTop=0;return;}
-      const q=list[position];if(!q)return;if(button.dataset.image!==undefined){openImage(button.querySelector('img'));return;}
+      const q=list[position];if(!q)return;
+      if(q.point){if(action==='prev'||action==='next'){position+= action==='prev'?-1:1;rememberReviewPosition(0);render();host.scrollTop=0;}return;}
+      if(button.dataset.image!==undefined){openImage(button.querySelector('img'));return;}
       if(button.dataset.page){
         const ref=evidence.questions[q.id],locations=ref?[...ref.pages,...(ref.supportPages||[])]:[];
         const p=locations.find(source=>source.page===Number(button.dataset.page)&&source.available)||practicePage(q);
@@ -1658,12 +1676,8 @@ window.HazzardAnswerHighlights = (() => {
       if(m.removed||m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)continue;
       const offset=findAnchor(text,m);if(offset>=0)intervals.push({key,start:offset,end:offset+m.text.length});
     }
-    const merged=bridge().unionOfMarks(start,start+mark.text.length,intervals);
-    const note=[...new Set(merged.hits.map(i=>before[i.key].note).filter(Boolean))].join('\n');
-    for(const {key} of merged.hits){
-      const m=value.items[key];value.items[key]={...m,removed:true,updatedAt:Math.max(at,m.updatedAt+1)};
-    }
-    value.items[id]={...mark,text:text.slice(merged.start,merged.end),prefix:text.slice(Math.max(0,merged.start-48),merged.start),suffix:text.slice(merged.end,merged.end+48),at,colour,removed:false,updatedAt:at,...(note?{note}:{})};
+    if(intervals.some(item=>item.start===start&&item.end===start+mark.text.length))return false;
+    value.items[id]={...mark,at,colour,removed:false,updatedAt:at};
     write(value);return undoChanges(value,before);
 
   }

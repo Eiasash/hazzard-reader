@@ -24864,5 +24864,65 @@
     "id": "u25",
     "old": "2025-Jun Q12 — mcq-60d358f39722f9df5a3990cc",
     "new": "2025-Jun Q12"
+  },
+  {
+    "chapter": "65s",
+    "id": "u26",
+    "old": "Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016).",
+    "new": "Discontinuation symptoms (sweating, chills, dizziness, flu-like symptoms, GI upset, insomnia, vivid and excessive dreaming, depressed mood, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016)."
+  },
+  {
+    "chapter": "58s",
+    "id": "u15",
+    "old": "Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, ICU stay >10 days, and physiologic derangements (elevated BUN/creatinine ratio, abnormal Na/glucose/K, metabolic acidosis).",
+    "new": "Precipitating (Table 58-1, p882): polypharmacy, restraints, bladder catheter, infection, iatrogenic complications, surgery, urgent/trauma admission, coma, ICU stay >10 days, and physiologic derangements (elevated BUN/creatinine ratio, elevated serum urea, abnormal serum albumin, abnormal Na/glucose/K, metabolic acidosis)."
+  },
+  {
+    "chapter": "60s",
+    "id": "u300",
+    "old": "The subsequent S-CitAD trial did not find significant improvement in agitation at 12 weeks with escitalopram and found QT prolongation.",
+    "new": "S-CitAD found no significant improvement in agitation at 12 weeks with escitalopram and reported QT prolongation."
+  },
+  {
+    "chapter": "60s",
+    "id": "u303",
+    "old": "CitAD trial, Table 2 · S-CitAD trial, primary outcome and safety",
+    "new": "CitAD trial, 2014, Table 2 · S-CitAD trial, 2025."
+  },
+  {
+    "chapter": "97s",
+    "id": "u242",
+    "old": "Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp.",
+    "new": "Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp1532–1533)."
+  },
+  {
+    "chapter": "97s",
+    "id": "u244",
+    "old": "ESE/ENSAT, recommendations 2.3 and 3.2–3.10.",
+    "new": "ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10."
+  },
+  {
+    "chapter": "51s",
+    "id": "u86",
+    "old": "US labeling permits teriparatide beyond two years only when high fracture risk persists or returns. Abaloparatide beyond two years in a lifetime is not recommended.",
+    "new": "Current practice (not the book): the US teriparatide label identifies the osteosarcoma signal in rats and allows consideration of treatment beyond two years only if high fracture risk persists or returns. Use of abaloparatide beyond two years in a lifetime is not recommended."
+  },
+  {
+    "chapter": "51s",
+    "id": "u87",
+    "old": "Romosozumab is limited to 12 monthly doses as the anabolic effect wanes, followed by an antiresorptive when indicated.",
+    "new": "Romosozumab is limited to 12 monthly doses because its anabolic effect wanes, followed by an antiresorptive when indicated."
+  },
+  {
+    "chapter": "51s",
+    "id": "u88",
+    "old": "Its separate boxed warning advises against starting within one year of MI or stroke (pp776–777; FDA Forteo, Tymlos and Evenity labels).",
+    "new": "Its boxed warning advises against starting within one year of myocardial infarction or stroke."
+  },
+  {
+    "chapter": "104s",
+    "id": "u79",
+    "old": "Infections 35%, inflammatory disorders 28%, malignancy 19%, no diagnosis 13% (p1675).",
+    "new": "Infections 35%, inflammatory disorders 28%, malignancy 19%, other causes (pulmonary emboli or drug fever) 5%, and no diagnosis 13% (Table 104-2, p1675)."
   }
 ]

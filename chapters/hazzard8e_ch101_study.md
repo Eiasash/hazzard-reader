@@ -31,7 +31,8 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 - ACR functional class I–IV (**Table 101-3**) (p1611)
 - >10 yr RA duration → risk of **cervical spine/atlantoaxial instability** — assess before intubation (p1612)
-- **Vectra DA**: laboratory-developed 12-protein blood test for RA disease activity, complements (does not replace) clinical judgment (p1612; Labcorp Vectra sample report, test 504965, documents its regulatory status)
+- **Vectra DA** is a 12-protein blood test for RA disease activity. Hazzard describes it as US FDA-approved and as a complement to clinical judgment (p1612).
+  > Current practice (not the book): Labcorp identifies Vectra as its laboratory-developed test and states that it lacks FDA clearance or approval — [Labcorp sample report, test 504965, 2022](https://files.labcorp.com/testmenu-d8/sample_reports/504965.pdf).
 - Rheumatoid nodules in up to **40%** of seropositive White patients; pleuritis/pericarditis in **20–30%** (usually asymptomatic) (p1613)
 
 ## RA — pharmacotherapy (Table 101-4, Table 101-5)
@@ -43,7 +44,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 ## RA — biologics safety & steroids
 
 - CONSIDER mnemonic for biologic safety in older adults (**Table 101-6**): Comorbidities, Opportunistic infections, Novel presentation of side effects, Screening, Immunization, Drug dosing and interactions, Evaluate, Remaining lifespan (p1618)
-- Glucocorticoid dose-response in Medicare patients aged **75 or older**: **≤5 mg, >5–10 mg, >10 mg/day** → approximately **20, 32 and 47 hospitalized infections per 100 person-years**, respectively, versus **13 per 100 person-years** without glucocorticoids (p1618)
+- In Medicare beneficiaries with RA **older than 75**, Hazzard reports **20%, 32% and 47% increased risk** of serious infection with glucocorticoid doses of **≤5, >5–10 and >10 mg/day**, respectively, and **13% risk** without glucocorticoids (printed wording, p1618).
   > Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.
 
 <span data-exam-page="1617"></span>
@@ -65,7 +66,8 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - Patients with LOL may be more prone to cytopenias, serositis and interstitial pneumonitis than younger-onset patients (p1621)
 - LOL diagnostic delay averages **2–3 years**; female:male ratio **4:1** in LOL vs **9:1** in younger-onset lupus (p1621)
 - LOL symptom frequencies (**Table 101-8**): arthritis/arthralgia **60%**, rash **47%**, cytopenias **45%**, interstitial pneumonitis **41%**, serositis **32%**, glomerulonephritis only **24%** — milder, less classic disease than YOL (p1621)
-- **Belimumab** (anti-BAFF) — first lupus drug in its class to get FDA approval, **2011**, indication expanded to adult active lupus nephritis in **December 2020**; voclosporin (oral calcineurin inhibitor) also approved for active lupus nephritis, role in older patients untested (p1621–1622; FDA supplemental approval letter, December 2020)
+- **Belimumab** (anti-BAFF) was the first lupus drug in its class to receive FDA approval in **2011**. Hazzard dates the expanded indication for active lupus nephritis to **2021**. Voclosporin, an oral calcineurin inhibitor, also received FDA approval for adult active lupus nephritis with background immunosuppression, with its role in older patients untested (pp1621–1622).
+  > Current practice (not the book): the US supplemental approval for belimumab in adult active lupus nephritis was issued in **December 2020** — [FDA approval letter, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125370Orig1s073_761043Orig1s013ltr.pdf).
 
 ## Sjögren syndrome
 
@@ -135,7 +137,7 @@ Remitting seronegative symmetric synovitis with pitting edema — affects older 
 
 <details><summary>Answer</summary>
 
-≤5 mg, >5–10 mg, and >10 mg/day of glucocorticoid were associated with approximately 20, 32 and 47 hospitalized infections per 100 person-years, respectively, versus 13 per 100 person-years without glucocorticoids (p1618; George et al., Table 3).
+For Medicare beneficiaries with RA older than 75, p1618 reports **20%, 32% and 47% increased risk** of serious infection at **≤5, >5–10 and >10 mg/day**, respectively, and **13% risk** without glucocorticoids (printed wording).
 > Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.
 
 </details>
@@ -160,7 +162,8 @@ LOL has a female:male ratio of about 4:1, versus about 9:1 in younger-onset lupu
 
 <details><summary>Answer</summary>
 
-FDA-approved in 2011 as the first lupus drug in its class (anti-BAFF); indication expanded to adult active lupus nephritis in December 2020 (p1621–1622; FDA supplemental approval letter, December 2020).
+Hazzard dates initial FDA approval to **2011** and the expanded active lupus nephritis indication to **2021** (pp1621–1622).
+> Current practice (not the book): the US supplemental approval was issued in **December 2020** — [FDA approval letter, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125370Orig1s073_761043Orig1s013ltr.pdf).
 
 </details>
 

@@ -60,7 +60,9 @@ Enhanced recovery protocols use complementary mechanisms: acetaminophen, NSAIDs 
 
 With **tolerance**, the same dose gives less relief. With **opioid-induced hyperalgesia**, pain may worsen when the opioid is increased or spread beyond the original painful region, even without disease progression. Chronic exposure, particularly at high doses of potent opioids, increases suspicion. Reassess the diagnosis, consider a gradual reduction and follow the response. Distinguish diffuse allodynia during escalation from aches that begin after abrupt withdrawal (p1061).
 
-Page 1060 summarizes the US 2016 opioid guideline, including a review within one to four weeks and at least every three months thereafter. CDC 2022 advises reassessing before reaching **50 morphine milligram equivalents per day**, adding follow-up and offering naloxone when indicated. Dosage is a guidepost for an individual review. There is no fixed 90-MME ceiling. The 2022 outpatient recommendations exclude cancer-related pain treatment, palliative care, end-of-life care and pain related to sickle cell disease. [CDC 2022 guideline, recommendations 4, 7 and 8](https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm).
+In its account of the 2016 CDC guidance, Hazzard advises evaluating benefits and risks above **50 MME/day** and avoiding doses **above 90 MME/day**. It recommends review within one to four weeks of starting opioids and at least every three months thereafter (p1060).
+
+> Current practice (not the book): <span id="current-opioid-dose" data-reader-metadata="navigation"></span>CDC 2022 advises reassessment before increasing to **≥50 MME/day**, closer follow-up and offering naloxone at or above that level. It treats dosage thresholds as guideposts for individual decisions. Its outpatient recommendations exclude cancer-related pain treatment, palliative care, end-of-life care and sickle cell disease. [CDC 2022, recommendations 4, 7 and 8](https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm).
 
 ## Neuropathic and musculoskeletal pain: which drug, which risk?
 
@@ -142,7 +144,7 @@ Page 1067 states knee OA is twice as prevalent in men. In the Framingham cohort 
 - **7.7%** increase in opioid-overdose deaths in adults **>65 yr**, 2013→2014 (p1060)
 - 2016 CDC guideline for older adults: prefer immediate-release (rec #4), lowest effective dose (rec #5), follow-up **1 to 4 weeks** after starting then at least **every 3 months** (rec #7); use state PDMPs (p1060)
 - Start opioids at **25% to 50%** of the younger-adult dose in older adults (p1060)
-- Before increasing to **50 MME/day or more**, pause to reassess benefits and risks and consider precautions. The 2022 CDC guideline for outpatient pain treatment uses dosage as a guidepost and rejects an inflexible 90-MME ceiling. It excludes cancer-related pain treatment, palliative care and end-of-life care (p1060 discusses the 2016 guideline).
+- Hazzard’s summary of the 2016 CDC guideline calls for careful assessment of benefits and risks **above 50 MME/day** and avoidance of doses **above 90 MME/day** (p1060). [Current practice note](#current-opioid-dose).
 - Opioid-induced hyperalgesia: pain *worsens* with increasing opioid dose (vs tolerance, where it doesn't) — manage by tapering and adding nonopioid/NMDA-antagonist therapy (p1061)
 - Perioperative: continuous **end-tidal CO2 monitoring** for high-risk patients, especially the first **24 hours** after surgery (p1062)
 
@@ -182,11 +184,11 @@ Peripheral sensitization (inflammatory mediators like histamine/bradykinin lower
 
 </details>
 
-**6. What starting-dose adjustment does the chapter recommend for opioids in older adults, and what are the CDC's MME/day caution thresholds?**
+**6. What starting dose in older adults and what daily opioid thresholds does the chapter give on p1060?**
 
 <details><summary>Answer</summary>
 
-The chapter suggests lower initial opioid doses in older adults, often 25–50% of a younger adult's dose (p1060). Choose the drug and dose for renal function, frailty and prior exposure. CDC 2022 recommends reassessment before reaching **50 MME/day** and individualized decisions rather than a fixed 90-MME ceiling.
+Start at about **25–50% of the dose used in younger adults**. Evaluate benefits and risks carefully **above 50 MME/day** and avoid doses **above 90 MME/day** in the chapter’s account of the 2016 CDC guideline (p1060). [Current practice note](#current-opioid-dose).
 
 </details>
 

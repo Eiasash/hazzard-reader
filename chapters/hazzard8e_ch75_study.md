@@ -158,8 +158,8 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - Thromboembolism risk **1–2%/yr** mechanical vs **0.7%/yr** bioprosthetic, lower still for aortic- vs mitral-position prostheses (p1161).
 - **Supratherapeutic INR:** assess bleeding, urgency and thrombotic risk. Without bleeding at INR 4.5–10, hold warfarin as appropriate and recheck INR. Routine vitamin K is generally unnecessary. The historical option of oral vitamin K 1–2.5 mg at INR 5–10 on p1161 is not a blanket treatment instruction (CHEST).
   > Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.
-- When warfarin interruption is required for an elective procedure, CHEST generally advises stopping it **at least five days beforehand**. A bileaflet mechanical aortic valve without added risk generally does not require bridging. For higher-risk mechanical valves, weigh thrombotic and procedural bleeding risks with the valve team. CHEST 2022 suggests against routine bridging, while ACC/AHA allows it in selected high-risk patients. Restart when hemostasis permits (p1162 describes an older 48–72-hour approach).
-  > <span id="current-practice-2" data-reader-metadata="navigation"></span>Current practice (not the book): stop warfarin ≥5 days (rather than <5 days) before an elective surgery/procedure (conditional recommendation) — ACCP/CHEST perioperative antithrombotic guideline, 2022.
+- **Mechanical aortic valve without thromboembolic risk factors:** the book gives a **48–72-hour** preoperative warfarin hold, restart **within 24 hours after surgery**, and **no heparin bridge**. It describes bridging for a mechanical mitral valve or a mechanical aortic valve with high-risk features (p1162).
+  > Current practice (not the book): <span id="current-practice-2" data-reader-metadata="navigation"></span>CHEST suggests a warfarin hold of **at least five days** when interruption is necessary and resumption **within 24 hours** when hemostasis permits. CHEST suggests against routine bridging. ACC/AHA allows individualized bridging for higher-risk mechanical valves and advises interruption without bridging for a bileaflet mechanical aortic valve without additional thromboembolic risk. [CHEST 2022](https://doi.org/10.1016/j.chest.2022.07.025) · [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
@@ -272,17 +272,17 @@ If VKA is chosen after surgical bioprosthetic aortic valve replacement, target I
 
 <details><summary>Answer</summary>
 
-For elective procedures requiring interruption, stop warfarin **at least five days** beforehand and verify adequate INR decline. A bileaflet mechanical aortic valve without added thromboembolic risk generally needs no heparin bridge. Resume warfarin once hemostasis permits, often within 12–24 hours (p1162, CHEST 2022).
+Hazzard gives a **48–72-hour** preoperative hold for a mechanical aortic valve without thromboembolic risk factors. Restart warfarin **within 24 hours after surgery**. In this setting the book specifies **no bridging heparin** (p1162).
 > [Current practice note](#current-practice-2)
 
 </details>
 
-**15. What is the standard oral antibiotic and dose for endocarditis prophylaxis in a penicillin-allergic patient able to take oral medication?**
+**15. Which oral regimens does Table 75-14 give for dental endocarditis prophylaxis in an eligible patient with penicillin allergy?**
 
 <details><summary>Answer</summary>
 
-For eligible adults with penicillin allergy, an oral AHA alternative is **cephalexin 2 g** if there was no anaphylaxis, angioedema or urticaria, or **azithromycin/clarithromycin 500 mg** or **doxycycline 100 mg**. Give one dose **30–60 minutes before** the indicated dental procedure. The clindamycin regimen printed on p1161 is historical.
-> Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
+The printed table lists **clindamycin 600 mg PO** or **cephalexin 2 g PO**, given once **1 hour before the procedure** (Table 75-14, p1161).
+> Current practice (not the book): AHA dental guidance removes clindamycin. For eligible adults with penicillin allergy, give cephalexin 2 g, azithromycin or clarithromycin 500 mg, or doxycycline 100 mg PO **30–60 minutes before** the procedure. Avoid cephalosporins after anaphylaxis, angioedema or urticaria with penicillin or ampicillin. [AHA prevention card, dental regimens based on the 2021 scientific statement](https://www.heart.org/-/media/Files/Health-Topics/Infective-Endocarditis/Infective-Endocarditis-Wallet-Card.pdf).
 
 </details>
 

@@ -186,7 +186,9 @@ In the postmenopausal osteoporosis trial, vertebral, nonvertebral and hip fractu
 
 <details><summary>Answer</summary>
 
-US labeling permits teriparatide beyond two years only when high fracture risk persists or returns. Abaloparatide beyond two years in a lifetime is not recommended. Romosozumab is limited to 12 monthly doses as the anabolic effect wanes, followed by an antiresorptive when indicated. Its separate boxed warning advises against starting within one year of MI or stroke (pp776–777; FDA Forteo, Tymlos and Evenity labels).
+Hazzard limits **teriparatide and abaloparatide to 2 years** because animal studies found osteosarcoma with teriparatide (pp776–777). It limits **romosozumab to 12 months**, citing excess cardiovascular events in one phase 3 trial and a concern about possible oncogenesis extrapolated from the teriparatide rodent findings (p777).
+
+> Current practice (not the book): the US teriparatide label identifies the osteosarcoma signal in rats and allows consideration of treatment beyond two years only if high fracture risk persists or returns. Use of abaloparatide beyond two years in a lifetime is not recommended. Romosozumab is limited to 12 monthly doses because its anabolic effect wanes, followed by an antiresorptive when indicated. Its boxed warning advises against starting within one year of myocardial infarction or stroke. [Forteo](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aae667c5-381f-4f92-93df-2ed6158d07b0) · [Tymlos](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8) · [Evenity](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=471baba2-7154-4488-9891-0db2f46791e7).
 
 </details>
 

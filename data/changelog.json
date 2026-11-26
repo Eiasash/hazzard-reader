@@ -2,6 +2,15 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v325",
+      "date": "2026-11-26",
+      "changes": [
+        "Hold a word, drag across the passage and release to save exactly that text. Tap a mark to edit it. Undo returns to the regular tabs automatically.",
+        "Daily review includes numbered points. Home also opens official questions due today. Editorial table notes expand on demand.",
+        "Verified Study, flashcard, memory-aid and explanation corrections against the printed sources. Official keys are unchanged."
+      ]
+    },
+    {
       "version": "v324",
       "date": "2026-11-26",
       "changes": [

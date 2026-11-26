@@ -5,7 +5,7 @@
   const LIMIT = 100, MAX_BYTES = 128 * 1024;
   const encoder = new TextEncoder();
   let entries = [], persistTimer, lastPersist = 0, dialog, prepared = '', restoreFocus;
-  let closing = false, taps = 0, lastTap = 0, uiTimer;
+  let closing = false, uiTimer;
   const workers = new Map();
   const version = () => window.HazzardRelease?.version || 'startup (version not loaded)';
   // Preserve canonical reader IDs, not arbitrary strings with a familiar prefix.
@@ -130,7 +130,7 @@
   });
   function finishClose() {
     if (!dialog?.open) return;
-    dialog.close(); closing = false; taps = 0;
+    dialog.close(); closing = false;
     restoreFocus?.focus?.({preventScroll:true});
   }
   function close() {
@@ -147,13 +147,16 @@
   }
   // Capture before reader popstate/Escape handlers: the overlay owns exactly one entry.
   addEventListener('popstate', event => {
-    if (history.state?.[MARKER]) { event.stopImmediatePropagation(); open(false); }
-    else if (dialog?.open) { event.stopImmediatePropagation(); finishClose(); }
+    if (dialog?.open) { event.stopImmediatePropagation(); finishClose(); }
   }, true);
   document.addEventListener('keydown', event => {
     if (dialog?.open && event.key === 'Escape') { event.preventDefault(); event.stopImmediatePropagation(); close(); }
   }, true);
   function start() {
+    // Previous versions copied the overlay flag into other navigation entries.
+    if(history.state?.[MARKER]){
+      const clean={...history.state};delete clean[MARKER];history.replaceState(clean,'');
+    }
     dialog = document.createElement('dialog'); dialog.id = 'readerDebug'; dialog.setAttribute('aria-labelledby','readerDebugTitle');
     dialog.innerHTML = '<h2 id="readerDebugTitle">Reader debug</h2><div class="debug-actions"><button data-debug="copy">Copy</button><button data-debug="save">Save as file</button><button data-debug="clear">Clear log</button><button data-debug="close">Close</button></div><p role="status" id="readerDebugStatus">Diagnostics stay on this device.</p><textarea aria-label="Select diagnostics to copy" readonly hidden></textarea><pre></pre>';
     document.body.append(dialog);
@@ -183,17 +186,14 @@
         } catch { status.textContent = 'Download could not be started. Use Copy instead.'; }
       }
     });
-    const panel = document.getElementById('panel');
-    document.getElementById('panelTitle')?.addEventListener('click', () => {
-      if (!panel?.open || panel.dataset.currentPane !== 'tools') { taps = 0; return; }
-      const now = performance.now(); taps = now - lastTap > 1000 ? 1 : taps + 1; lastTap = now;
-      if (taps >= 7) { taps = 0; open(); }
-    });
-    if (panel) new MutationObserver(() => { if (!panel.open || panel.dataset.currentPane !== 'tools') taps = 0; }).observe(panel, {attributes:true,attributeFilter:['open','data-current-pane']});
-    if (new URL(location.href).searchParams.get('debug') === '1' || history.state?.[MARKER]) open();
+    document.getElementById('readerDiagnostics').onclick=()=>{
+      const panel=document.getElementById('panel');
+      if(panel.open&&panel.dataset.currentPane==='tools')open();
+    };
+    if (new URL(location.href).searchParams.get('debug') === '1') open();
   }
   addEventListener('online', scheduleRender); addEventListener('offline', scheduleRender); addEventListener('resize', scheduleRender);
   addEventListener('hazzard-cloud-status', scheduleRender);
-  addEventListener('pageshow', () => { if (history.state?.[MARKER]) open(false); if (dialog?.open) { render(); refreshWorkers(); } });
+  addEventListener('pageshow', () => { if (dialog?.open) { render(); refreshWorkers(); } });
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true}); else start();
 })();
