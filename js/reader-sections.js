@@ -25,7 +25,9 @@ window.HazzardSections = (() => {
 
   function makeList(rows, existing = new Map()) {
     const list = document.createDocumentFragment();
+    const chapterTitle=rows.find(row=>row.heading.tagName==='H1');
     for (const row of rows) {
+      if(row===chapterTitle){existing.get(row.heading.id)?.remove();continue;}
       const item = existing.get(row.heading.id) || document.createElement('li');
       const button = item.querySelector('button') || document.createElement('button');
       const name = document.createElement('bdi'), count = document.createElement('span');

@@ -5,7 +5,8 @@
       "version": "v323",
       "date": "2026-11-26",
       "changes": [
-        "Pen gestures draw directly on the text. The one-row pen bar previews the next point number, with Bookmark under More. The study pane control is in Sections."
+        "Pen gestures mark directly, with numbered badges and a one-row pen bar showing the next number. Undo is in the bar and Bookmark is under More.",
+        "Reader text cannot be dragged out of the page. With the pen off you can still select and copy. Phone reading uses Read/Study in the header, and Chapter start and Chapter end are in Sections."
       ]
     },
     {

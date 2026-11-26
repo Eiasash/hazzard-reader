@@ -44,7 +44,6 @@ window.HazzardReadingCompanion = (() => {
       history.pushState({...history.state, companionSource: true}, '', next);
     }
     readingSource = true;
-    if(!desktop.matches&&!pane.hidden)document.getElementById('toggleCompanion').click();
     land(target);
     focusAt(target);
     return true;
@@ -164,7 +163,7 @@ window.HazzardReadingCompanion = (() => {
     const toggle=document.createElement('button');
     toggle.id='toggleCompanion';toggle.type='button';
     toggle.setAttribute('aria-controls',pane.id);
-    document.querySelector('[data-pane="contents"]').prepend(toggle);
+    document.querySelector('[data-pane="contents"] .chapter-actions').prepend(toggle);
     function setOpen(open){
       preference=String(open);
       try { localStorage.setItem(prefKey,preference); } catch {}
@@ -176,8 +175,8 @@ window.HazzardReadingCompanion = (() => {
       const available = !reader.hidden && !scroll.inert &&
         params.get('home') !== '1' && params.get('stats') !== '1' &&
         !document.body.classList.contains('statistics-open');
-      const show=available&&(preference===null?desktop.matches:preference==='true');
-      toggle.hidden=!available;
+      const show=available&&desktop.matches&&preference!=='false';
+      toggle.hidden=!available||!desktop.matches;
       toggle.textContent=show?'Hide study notes and exam questions':'Show study notes and exam questions';
       toggle.setAttribute('aria-expanded',String(show));
       document.body.classList.toggle('with-reading-companion', show);

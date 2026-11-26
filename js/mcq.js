@@ -1757,6 +1757,7 @@ window.HazzardAnswerHighlights = (() => {
     current=root&&q?{root,q,order}:null;resetSelection();tapGesture=null;
     if(root&&q){
       root.querySelector(':scope > h3')?.setAttribute('data-answer-heading','');repaint();
+      bridge()?.disableTextDrag(root);
       root.onpointerdown=tapDown;root.onpointermove=tapMove;root.onpointerup=tapUp;root.onpointercancel=()=>{tapGesture=null;};root.onclick=tapClick;
     }
     dispatchEvent(new Event('hazzard-answer-highlights-ready'));
