@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v319",
+      "date": "2026-11-26",
+      "changes": [
+        "Reading place recovers automatically from a local or cloud copy. Backup, sync and account controls are together in the Notebook.",
+        "Hide or reopen the study pane, select exact words and add numbered notes. Open a table full screen and read past exam links at the end of the paragraph."
+      ]
+    },
+    {
       "version": "v318",
       "date": "2026-11-26",
       "changes": [

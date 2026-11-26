@@ -44,6 +44,7 @@ window.HazzardReadingCompanion = (() => {
       history.pushState({...history.state, companionSource: true}, '', next);
     }
     readingSource = true;
+    if(!desktop.matches&&!pane.hidden)document.getElementById('toggleCompanion').click();
     land(target);
     focusAt(target);
     return true;
@@ -130,7 +131,7 @@ window.HazzardReadingCompanion = (() => {
     }
   }
 
-  function mount({id, studyId, copy, scroll, landOnSource}) {
+  function mount({id, studyId, copy, scroll, landOnSource, preserveLayout}) {
     if (embedded) {
       document.addEventListener('click', onLink, true);
       if (new URL(location.href).searchParams.has('session')) {
@@ -157,12 +158,30 @@ window.HazzardReadingCompanion = (() => {
     pane.setAttribute('aria-label', 'Chapter study pane');
     pane.hidden = true;
     document.querySelector('main').append(pane);
+    const prefKey='hazzard-study-pane-open';
+    let preference=null;
+    try { preference=localStorage.getItem(prefKey); } catch {}
+    const toggle=document.createElement('button');
+    toggle.id='toggleCompanion';toggle.type='button';
+    toggle.setAttribute('aria-controls',pane.id);
+    document.body.append(toggle);
+    function setOpen(open){
+      preference=String(open);
+      try { localStorage.setItem(prefKey,preference); } catch {}
+      preserveLayout(layout);
+    }
+    toggle.onclick=()=>setOpen(pane.hidden);
     function layout() {
       const params = new URLSearchParams(location.search);
-      const show = desktop.matches && !reader.hidden && !scroll.inert &&
+      const available = !reader.hidden && !scroll.inert &&
         params.get('home') !== '1' && params.get('stats') !== '1' &&
         !document.body.classList.contains('statistics-open');
+      const show=available&&(preference===null?desktop.matches:preference==='true');
+      toggle.hidden=!available||panel.open;
+      toggle.textContent=show?'Hide study pane':'Show study pane';
+      toggle.setAttribute('aria-expanded',String(show));
       document.body.classList.toggle('with-reading-companion', show);
+      document.body.classList.toggle('full-reading-pane', available&&!show);
       if (!show && !pane.hidden && document.activeElement === frame) focusAt(scroll);
       pane.hidden = !show;
       pane.inert = panel.open;

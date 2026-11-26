@@ -93,3 +93,30 @@ html[data-reading-companion] .companion-load-error {
   position: fixed; inset: 0; z-index: 99; display: grid; align-content: start;
   justify-items: start; gap: 12px; padding: 18px; background: var(--page);
 }
+
+#toggleCompanion {
+  position: fixed; z-index: 7; right: 4px;
+  bottom: calc(var(--vv-bottom-gap, 0px) + var(--tabs-height) + var(--update-gap, 0px));
+  min-height: 44px; padding: 4px 12px; border: 1px solid var(--rule);
+  background: var(--surface); color: var(--accent); border-radius: 8px;
+  font: 600 calc(12px * var(--fs, 1))/1.25 var(--ui);
+}
+body:has(#toggleCompanion:not([hidden])) #jumpEnds { margin-bottom: 44px; }
+body.mark-bar-open #toggleCompanion { bottom: calc(var(--vv-bottom-gap, 0px) + var(--tabs-height) + var(--update-gap, 0px) + 49px); }
+@media (min-width: 1200px) {
+  body.full-reading-pane #readerScroll > #reader { max-inline-size: 100%; }
+  #readingCompanionFrame { height: calc(100% - 44px); }
+}
+@media (max-width: 1199px) {
+  #readingCompanion:not([hidden]) {
+    position: fixed; z-index: 6; inset: calc(var(--vv-top, 0px) + 48px) 0 calc(var(--vv-bottom-gap, 0px) + var(--tabs-height) + var(--update-gap, 0px));
+    padding-bottom: 44px; background: var(--page);
+  }
+  #readingCompanionFrame { display: block; width: 100%; height: 100%; border: 0; }
+}
+
+@media (max-width:1199px) {
+  body.with-reading-companion #jumpEnds { display:none; }
+  body.full-reading-pane #toggleCompanion { width:44px; padding:0; font-size:0; }
+  body.full-reading-pane #toggleCompanion::before { content:'Study'; font:600 11px var(--ui); }
+}

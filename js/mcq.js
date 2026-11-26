@@ -1573,9 +1573,10 @@ window.HazzardMCQ = (() => {
 /* Answer-key anchors share the reader's range renderer and toolbar. Chapter
    marks, option order, explanation HTML and answer stores are never changed. */
 window.HazzardAnswerHighlights = (() => {
-  const KEY='hazzard-answer-highlights-v1',colours=['yellow','green','blue'];
+  const KEY='hazzard-answer-highlights-v1';
+  const highlightColours=['yellow','green','blue','pink','purple'];
   const empty=()=>({version:1,items:{}}),record=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
-  const valid=v=>record(v)&&v.version===1&&record(v.items)&&Object.entries(v.items).every(([id,m])=>/^a[\w-]+$/.test(id)&&record(m)&&typeof m.questionId==='string'&&m.questionId.length>0&&['main','option'].includes(m.region)&&(m.region==='main'?m.optionIndex===undefined:Number.isInteger(m.optionIndex)&&m.optionIndex>=0)&&typeof m.text==='string'&&m.text.length>0&&typeof m.prefix==='string'&&typeof m.suffix==='string'&&colours.includes(m.colour)&&Number.isFinite(m.at)&&m.at>=0&&Number.isFinite(m.updatedAt)&&m.updatedAt>=m.at&&typeof m.removed==='boolean');
+  const valid=v=>record(v)&&v.version===1&&record(v.items)&&Object.entries(v.items).every(([id,m])=>/^a[\w-]+$/.test(id)&&record(m)&&typeof m.questionId==='string'&&m.questionId.length>0&&['main','option'].includes(m.region)&&(m.region==='main'?m.optionIndex===undefined:Number.isInteger(m.optionIndex)&&m.optionIndex>=0)&&typeof m.text==='string'&&m.text.length>0&&typeof m.prefix==='string'&&typeof m.suffix==='string'&&highlightColours.includes(m.colour)&&Number.isFinite(m.at)&&m.at>=0&&Number.isFinite(m.updatedAt)&&m.updatedAt>=m.at&&typeof m.removed==='boolean');
   function merge(a,b){const out=empty();for(const value of [a,b]){if(value==null)continue;if(!valid(value))throw Error('Answer highlights could not be read. Saved data kept.');for(const [id,m] of Object.entries(value.items)){const old=out.items[id];if(!old||m.updatedAt>old.updatedAt||m.updatedAt===old.updatedAt&&m.removed)out.items[id]={...m};}}return out;}
   function read(){const value=HazzardStorage.readProtected(KEY,empty);if(!valid(value))throw Error('Answer highlights could not be read. Saved data kept.');return value;}
   const items=()=>Object.entries(read().items).filter(([,m])=>!m.removed).map(([id,m])=>({id,...m}));
@@ -1642,10 +1643,10 @@ window.HazzardAnswerHighlights = (() => {
     if(a&&b&&a.dataset.answerHighlight===b.dataset.answerHighlight)selectedId=a.dataset.answerHighlight;
     return true;
   }
-  function saveSelection(colour){
-    const mark=selection()||pending;if(!mark||!available()||mark.questionId!==current.q.id)return false;
+  function saveSelection(colour,mark=selection()||pending){
+    if(!mark||!available()||mark.questionId!==current.q.id)return false;
     const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
-    value.items[id]={...mark,at,colour:colours.includes(colour)?colour:'yellow',removed:false,updatedAt:at};write(value);resetSelection();getSelection()?.removeAllRanges();return id;
+    value.items[id]={...mark,at,colour:highlightColours.includes(colour)?colour:'yellow',removed:false,updatedAt:at};write(value);resetSelection();getSelection()?.removeAllRanges();return id;
   }
   function resetSelection(){pending=null;selectedId=null;}
   const selectionState=()=>({canSave:!!pending,canRemove:!!selectedId});
@@ -1720,23 +1721,19 @@ window.HazzardAnswerHighlights = (() => {
   function tapClick(e){
     const g=tapGesture;tapGesture=null;if(!available()||tapExcluded(e.target)||!getSelection()?.isCollapsed)return;
     const highlighted=e.target.closest('[data-answer-highlight]');
-    if(!bridge().answerMarking()){
-      if(highlighted){selectedId=highlighted.dataset.answerHighlight;pending=null;dispatchEvent(new Event('hazzard-answer-highlight-selection'));}
-      return;
-    }
     if(e.detail===0||!g?.ended||!g.valid)return;
+    if(highlighted){
+      e.preventDefault();bridge().editMark('answer',highlighted.dataset.answerHighlight);return;
+    }
+    if(!bridge().answerMarking())return;
     try{
-      if(highlighted?.closest('[data-prior-excerpt]')){
-        setRemoved(highlighted.dataset.answerHighlight,true);resetSelection();
-        e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:true}}));return;
-      }
       const mark=sentenceAt(e);if(!mark)return;
       const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark),end=start+mark.text.length;
       const existing=items().filter(m=>{
         if(m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)return false;
         const at=findAnchor(text,m);return at>=0&&at<end&&at+m.text.length>start;
       });
-      if(existing.length){for(const m of existing)setRemoved(m.id,true);resetSelection();}
+      if(existing.length){bridge().editMark('answer',existing[0].id);return;}
       else{pending=mark;saveSelection(bridge().answerColour());}
       e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:existing.length>0}}));
     }catch(error){dispatchEvent(new CustomEvent('hazzard-answer-highlight-error',{detail:error.message}));}
@@ -1766,5 +1763,11 @@ window.HazzardAnswerHighlights = (() => {
   addEventListener('hazzard-answer-highlights-change',()=>{repaint();dispatchEvent(new Event('hazzard-answer-highlights-ready'));});
   addEventListener('storage',e=>{if(e.key===KEY){resetSelection();repaint();dispatchEvent(new Event('hazzard-answer-highlights-change'));}});
   addEventListener('pageshow',e=>{if(e.persisted)repaint();});
-  return {KEY,empty,valid,merge,read,items,setRemoved,notebookItems,attach,available,regions,selection,captureSelection,selectionState,saveSelection,removeSelected,resetSelection};
+  function edit(id,fields,original){
+    const value=read(),mark=value.items[id];
+    if(!mark||mark.removed||mark.updatedAt!==original.updatedAt)throw Error('This highlight changed. Open it again.');
+    value.items[id]={...mark,...fields,removed:!fields,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
+    write(value);
+  }
+  return {KEY,highlightColours,empty,valid,merge,read,items,edit,pending:()=>selection()||pending,setRemoved,notebookItems,attach,available,regions,selection,captureSelection,selectionState,saveSelection,removeSelected,resetSelection};
 })();
