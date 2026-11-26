@@ -5845,5 +5845,486 @@
       "anchor": "low-desire-and-low-testosterone",
       "label": "sleep evaluation and reversible causes"
     }
+  },
+  {
+    "id": "ch47-filling-innervation",
+    "chapter": "47",
+    "page": 700,
+    "anchor": "exam-p700-mcq-30f0309dc8329f9569c19e59",
+    "front": "Which nerves relax the filling bladder, close the outlet and permit voluntary tightening of the pelvic floor?",
+    "back": "Sympathetic activity supports detrusor relaxation and smooth-muscle outlet closure. Somatic sacral nerves activate the striated pelvic floor. Parasympathetic outflow contracts the detrusor for voiding. Hazzard 8e, p. 700, Figure 47-1.",
+    "questionIds": [
+      "mcq-a77459f28aa5bea68b87e0b9",
+      "mcq-30f0309dc8329f9569c19e59"
+    ]
+  },
+  {
+    "id": "ch47-normal-residual",
+    "chapter": "47",
+    "page": 707,
+    "anchor": "exam-p707-mcq-44ea7b7d5de2b617e3e9bfed",
+    "front": "A bladder scan shortly after a spontaneous void shows 75 mL. What does this tell you if the patient did not strain?",
+    "back": "A residual below 100 mL generally means adequate emptying. Values of 100 to 200 mL need clinical context, and above 200 mL is abnormal. First urge and bladder capacity are separate measurements. Hazzard 8e, pp. 701, 707.",
+    "questionIds": [
+      "mcq-44ea7b7d5de2b617e3e9bfed"
+    ]
+  },
+  {
+    "id": "ch47-aging-detrusor",
+    "chapter": "47",
+    "page": 701,
+    "anchor": "ch47-aging-contractions",
+    "front": "Does finding involuntary contractions prove that an older person leaks urine?",
+    "back": "No. Involuntary contractions occur in 40% to 75% of older incontinent patients and also in continent adults. Mobility and access help determine whether urgency becomes leakage. Hazzard 8e, p. 701.",
+    "questionIds": [
+      "mcq-7fdc07afc2be6fd590641b66"
+    ]
+  },
+  {
+    "id": "ch47-wet-with-hesitancy",
+    "chapter": "47",
+    "page": 707,
+    "anchor": "exam-p707-mcq-7b5f1873a64c120ce3892039",
+    "front": "An older man with BPH is always wet, has a weak stream and struggles to start. Which bedside measurement distinguishes overflow from an isolated storage problem?",
+    "back": "Measure the postvoid residual within minutes. Chronic retention can produce dribbling without awareness. Urinalysis also belongs in initial assessment, with culture selected for a clinical indication. Hazzard 8e, pp. 703–705, 707.",
+    "questionIds": [
+      "mcq-7c2dad0adf8d1917ff506524",
+      "mcq-7b5f1873a64c120ce3892039"
+    ]
+  },
+  {
+    "id": "ch47-detrusor-before-surgery",
+    "chapter": "47",
+    "page": 701,
+    "anchor": "exam-p701-mcq-e2d127b4b2b341b7154a9425",
+    "front": "Why consider pressure-flow testing before prostate surgery in a man with Parkinson disease who has urgency and slow flow?",
+    "back": "Overactivity during filling can coexist with weak contractility during emptying. Outlet surgery cannot correct an underactive detrusor. Hazzard 8e, Ch. 47, p. 701 and Ch. 38, p. 562.",
+    "questionIds": [
+      "mcq-e2d127b4b2b341b7154a9425"
+    ]
+  },
+  {
+    "id": "ch47-ace-cough-leakage",
+    "chapter": "47",
+    "page": 703,
+    "anchor": "exam-p703-mcq-9dcabfcf87a03b3d498fce3d",
+    "front": "A new dry cough on enalapril provokes immediate urinary leakage. Which mechanism can be removed?",
+    "back": "ACE-inhibitor cough raises abdominal pressure and triggers stress leakage. Review and replace the cough-provoking treatment while maintaining appropriate cardiovascular therapy. Hazzard 8e, pp. 702–703, Table 47-4.",
+    "questionIds": [
+      "mcq-9dcabfcf87a03b3d498fce3d"
+    ]
+  },
+  {
+    "id": "ch47-donepezil-urgency",
+    "chapter": "47",
+    "page": 703,
+    "anchor": "exam-p703-mcq-2e7dd4430690d60bc89b80f4",
+    "front": "An older woman taking donepezil develops frequency and leaks during a sudden urge. Which drug action fits?",
+    "back": "Acetylcholinesterase inhibition increases cholinergic activity and can promote frequency and urgency. Review the medication and clarify whether infection, retention or access also contributes. Hazzard 8e, p. 703, Table 47-4.",
+    "questionIds": [
+      "mcq-2e7dd4430690d60bc89b80f4"
+    ]
+  },
+  {
+    "id": "ch47-new-retention",
+    "chapter": "47",
+    "page": 703,
+    "anchor": "exam-p703-mcq-c6b6b0376463f87b97f47931",
+    "front": "Urgency becomes continuous wetness after oxybutynin. The residual is 380 mL. What has changed?",
+    "back": "An antimuscarinic can weaken contraction and turn incomplete emptying into overflow. Stop the precipitant, assess drainage and review other retaining drugs such as opioids. Hazzard 8e, pp. 701–704, Table 47-4.",
+    "questionIds": [
+      "mcq-77e6ef73149271bca24a7601",
+      "mcq-c6b6b0376463f87b97f47931"
+    ]
+  },
+  {
+    "id": "ch47-metabolic-polyuria",
+    "chapter": "47",
+    "page": 702,
+    "anchor": "exam-p702-mcq-c2ee36b048f810572296abfe",
+    "front": "Which calcium disturbance promotes acute leakage, and how does heart failure with edema contribute?",
+    "back": "High calcium can cause polyuria. Dependent fluid can return to the circulation when supine and increase nocturnal urine production. Hyperglycemia and loop diuretics can also overwhelm storage or access. Hazzard 8e, pp. 701–703, Tables 47-3 and 47-4.",
+    "questionIds": [
+      "mcq-c2ee36b048f810572296abfe",
+      "mcq-b0830837aa5b57c0f1e2f3e2"
+    ]
+  },
+  {
+    "id": "ch47-liquid-around-stool",
+    "chapter": "47",
+    "page": 702,
+    "anchor": "exam-p702-mcq-ec5cbb9f7b28b3e7733522d9",
+    "front": "How can one bowel disorder explain watery leakage, abdominal distension and impaired bladder emptying?",
+    "back": "Liquid and mucus can escape around an impacted rectal mass. The mass can impair bladder emptying. Assess both systems and clear the impaction, then prevent recurrence. Hazzard 8e, pp. 701–702, 716–717.",
+    "questionIds": [
+      "mcq-ec5cbb9f7b28b3e7733522d9"
+    ]
+  },
+  {
+    "id": "ch47-asymptomatic-pyuria",
+    "chapter": "47",
+    "page": 705,
+    "anchor": "exam-p705-mcq-d3016371143763c986f9973c",
+    "front": "A well nursing-home resident with stable incontinence has pyuria on routine testing. What would change management?",
+    "back": "New urinary symptoms or systemic illness warrant reassessment. Pyuria alone does not justify a culture-driven antibiotic course for a clinically well resident. Hazzard 8e, p. 705.",
+    "questionIds": [
+      "mcq-d3016371143763c986f9973c"
+    ]
+  },
+  {
+    "id": "ch47-assisted-toileting",
+    "chapter": "47",
+    "page": 707,
+    "anchor": "exam-p707-mcq-93174381fd654b82b0cca672",
+    "front": "An ambulatory resident with dementia leaks because he cannot initiate toileting. How can staff use a diary?",
+    "back": "Record voids and wet episodes and offer regular trips to the toilet. A personalized schedule can anticipate his usual voids, while prompted voiding adds cues and positive feedback. Hazzard 8e, pp. 707, 710–711.",
+    "questionIds": [
+      "mcq-d332a08b6fe7baa4d221260c",
+      "mcq-93174381fd654b82b0cca672"
+    ]
+  },
+  {
+    "id": "ch47-mobility-toilet-access",
+    "chapter": "47",
+    "page": 709,
+    "anchor": "exam-p709-mcq-08d1f5a8c0d9c28af969b1a0",
+    "front": "A woman leaks en route to the bathroom after knee replacement. Which intervention directly addresses the limiting step?",
+    "back": "Make the toilet reachable in time, for example with a nearby commode, an unobstructed path or transfer assistance. Environmental change treats the functional component. Hazzard 8e, p. 709, Table 47-9.",
+    "questionIds": [
+      "mcq-08d1f5a8c0d9c28af969b1a0"
+    ]
+  },
+  {
+    "id": "ch47-pelvic-floor-timing",
+    "chapter": "47",
+    "page": 709,
+    "anchor": "ch47-pelvic-exercises",
+    "front": "A patient leaks without warning only during coughing and sneezing. What do you teach her to do before a cough?",
+    "back": "Identify the pelvic-floor muscles, practice isolated contractions and squeeze just before a cough. This reinforces outlet closure during a pressure rise. Hazzard 8e, pp. 709–710.",
+    "questionIds": [
+      "mcq-16901cf73d684c18a48a5302"
+    ]
+  },
+  {
+    "id": "ch47-storage-medication",
+    "chapter": "47",
+    "page": 711,
+    "anchor": "ch47-bladder-relaxants",
+    "front": "An independent woman has daytime and nighttime urgency. Which listed bladder relaxant stimulates beta-3 receptors?",
+    "back": "Mirabegron promotes storage without antimuscarinic blockade. Consider behavioral treatment and review blood pressure, residual risk and treatment preferences. Hazzard 8e, pp. 711–714, Table 47-12.",
+    "questionIds": [
+      "mcq-f9e01c5c473afd5df4957617"
+    ]
+  },
+  {
+    "id": "ch47-outlet-intervention",
+    "chapter": "47",
+    "page": 709,
+    "anchor": "exam-p709-mcq-f29bfd95e2f83369c82a4b34",
+    "front": "What if a man still has obstructive symptoms, overflow and a high residual while taking an alpha blocker?",
+    "back": "Assess whether obstruction or poor contractility explains the residual and whether drainage is needed. Confirmed obstruction can warrant a prostate procedure. Hazzard 8e, pp. 709, 714–715, Table 47-9.",
+    "questionIds": [
+      "mcq-f29bfd95e2f83369c82a4b34"
+    ]
+  },
+  {
+    "id": "ch47-finasteride-androgen",
+    "chapter": "47",
+    "page": 713,
+    "anchor": "exam-p713-mcq-3452f8f6cfd764cc9e8162f6",
+    "front": "Which prostate drug reduces dihydrotestosterone and can cause sexual dysfunction with gynecomastia?",
+    "back": "Finasteride inhibits type II 5-alpha reductase and reduces conversion of testosterone to dihydrotestosterone. Tadalafil instead inhibits phosphodiesterase type 5. Hazzard 8e, p. 713, continuation of Table 47-12.",
+    "questionIds": [
+      "mcq-c5345b7ff1fe72dfb2afcbb8",
+      "mcq-01cdc59c55369cf2a42ea5c5",
+      "mcq-3452f8f6cfd764cc9e8162f6"
+    ]
+  },
+  {
+    "id": "ch47-neurogenic-catheter",
+    "chapter": "47",
+    "page": 715,
+    "anchor": "exam-p715-mcq-911d970243b87dbe2fe1c675",
+    "front": "How do you drain a neurogenic bladder while reducing exposure to an indwelling catheter?",
+    "back": "When feasible, use intermittent catheterization and adjust its frequency to measured volumes. If long-term catheterization is necessary, maintain closed unobstructed drainage and change the catheter for clinical indications. Hazzard 8e, pp. 715–716 and p. 232, Table 16-6.",
+    "questionIds": [
+      "mcq-911d970243b87dbe2fe1c675"
+    ]
+  },
+  {
+    "id": "ch67-painad",
+    "chapter": "67",
+    "front": "A resident with advanced dementia becomes restless during wound dressing. How can you assess pain when self-report fails?",
+    "back": "Observe breathing, vocalization, facial expression, body language and consolability with PAINAD. Compare behavior at rest, during wound care and after analgesia. Hazzard 8e, pp. 1048, 1059.",
+    "page": 1048,
+    "anchor": "exam-p1048-mcq-795f2687afa4d5918ddb65de",
+    "questionIds": [
+      "mcq-795f2687afa4d5918ddb65de"
+    ]
+  },
+  {
+    "id": "ch67-tube-ulcers",
+    "chapter": "67",
+    "front": "How does tube feeding affect pressure-ulcer risk in advanced dementia?",
+    "back": "New ulcers are more common in observational studies, and healing of existing ulcers is not improved. Offer assisted oral feeding and assess reversible causes of poor intake. Hazzard 8e, p. 1048.",
+    "page": 1048,
+    "anchor": "exam-p1048-mcq-caa086c8705cdeb3606c5536",
+    "questionIds": [
+      "mcq-caa086c8705cdeb3606c5536"
+    ]
+  },
+  {
+    "id": "ch67-pneumonia",
+    "chapter": "67",
+    "front": "Antibiotics for suspected aspiration pneumonia in advanced dementia: which two outcomes should you discuss separately?",
+    "back": "Survival and comfort. Treated residents lived longer in observational data, without greater comfort. Intravenous therapy or hospitalization was most burdensome, with similar survival benefit across routes. Hazzard 8e, p. 1048.",
+    "page": 1048,
+    "anchor": "exam-p1048-mcq-8b2cfa55422f88f802142d29",
+    "questionIds": [
+      "mcq-8b2cfa55422f88f802142d29"
+    ]
+  },
+  {
+    "id": "ch67-concurrent-oncology",
+    "chapter": "67",
+    "front": "What did early palliative care add during oncologic treatment for metastatic non-small-cell lung cancer?",
+    "back": "Better quality of life, less depression and longer median survival in the trial. Referral can occur at diagnosis. A tumor response assessment or pain complaint is unnecessary. Hazzard 8e, p. 1047.",
+    "page": 1047,
+    "anchor": "exam-p1047-mcq-4ec2512c26a7775166980a4b",
+    "questionIds": [
+      "mcq-4ec2512c26a7775166980a4b"
+    ]
+  },
+  {
+    "id": "ch67-israel-feeding",
+    "chapter": "67",
+    "front": "כיצד בוחרים דרך הזנה בחולה עם דמנציה שהוגדר כנוטה למות ועדיין אוכל מעט?",
+    "back": "המותב מעדיף האכלה פומית איטית ומותאמת כשזו מספקת ומתאימה מבחינה רפואית. בודקים בליעה וצרכים, משלימים נוזלים לפי הצורך ומתעדים את ההחלטה. המלצות המותב, עמ׳ 5–6.",
+    "page": 5,
+    "anchor": "ch67-il-feeding",
+    "questionIds": [
+      "mcq-e30d5b23a9f65b0c495739e2"
+    ],
+    "sourceLabel": "Read · המלצות המותב, עמ׳ 5–6"
+  },
+  {
+    "id": "ch67-dementia-burden",
+    "chapter": "67",
+    "front": "How does physical symptom burden in advanced dementia compare with that in advanced cancer?",
+    "back": "Patients can experience substantial pain, breathlessness and other distress in either illness. In dementia, impaired communication makes observation important. Discuss goals before the ability to participate is lost. Hazzard 8e, pp. 1047–1048.",
+    "page": 1047,
+    "anchor": "ch67-dementia-burden",
+    "questionIds": [
+      "mcq-a7281baa9e47a1ae8a80819e"
+    ]
+  },
+  {
+    "id": "ch67-ipf",
+    "chapter": "67",
+    "front": "When should support for dyspnea and distress begin in idiopathic pulmonary fibrosis?",
+    "back": "Assess palliative needs at diagnosis and at subsequent stages. Involve the respiratory team and primary care, adding specialist palliative support for complex problems. NICE QS79, quality statement 5, p. 21.",
+    "page": 21,
+    "anchor": "ch67-ipf",
+    "questionIds": [
+      "mcq-541d754d4b0be259fbc19247"
+    ],
+    "sourceLabel": "Read · NICE QS79, p. 21"
+  },
+  {
+    "id": "ch67-hospice",
+    "chapter": "67",
+    "front": "In US Medicare, who initially certifies hospice prognosis, and what prognosis is required?",
+    "back": "The hospice physician and a designated attending physician, if present, certify a life expectancy of six months or less on the normal course of the illness. LCD indicators inform the estimate. Hazzard 8e, p. 1046, and CMS Medicare Benefit Policy Manual, ch. 9, §20.1.",
+    "page": 1046,
+    "anchor": "ch67-hospice",
+    "questionIds": []
+  },
+  {
+    "id": "ch67-frailty",
+    "chapter": "67",
+    "front": "How does rehabilitation differ in early and end-stage frailty?",
+    "back": "Early frailty can respond to resistance training and nutritional correction. With limited reversibility, tailor activity, the environment and caregiving to the person’s goals. Reassess a therapeutic trial if function does not improve. Hazzard 8e, p. 1049, Table 67-2.",
+    "page": 1049,
+    "anchor": "ch67-frailty",
+    "questionIds": []
+  },
+  {
+    "id": "ch67-time-benefit",
+    "chapter": "67",
+    "front": "Why compare the time to preventive benefit with life expectancy?",
+    "back": "Intervention-related harm can occur immediately. If benefit takes longer than the patient is expected to live, screening or tight preventive targets may offer burden without a realistic benefit. Hazzard 8e, p. 1050.",
+    "page": 1050,
+    "anchor": "ch67-time-benefit",
+    "questionIds": []
+  },
+  {
+    "id": "ch67-prognostic-range",
+    "chapter": "67",
+    "front": "What can a clinician say when an individual survival date cannot be predicted?",
+    "back": "Ask what the patient wants to know. Give a range or best, worst and most likely scenarios, explain what informs the estimate, then ask what the patient and family took from it. Hazzard 8e, pp. 1051–1052.",
+    "page": 1052,
+    "anchor": "ch67-prognosis",
+    "questionIds": []
+  },
+  {
+    "id": "ch67-american-directives",
+    "chapter": "67",
+    "front": "How do a US health care proxy, living will and POLST differ?",
+    "back": "A proxy names a decision maker. A living will states future treatment wishes after loss of capacity. POLST carries actionable current treatment orders between settings. Hazzard 8e, p. 1052, Table 67-4.",
+    "page": 1052,
+    "anchor": "ch67-acp",
+    "questionIds": []
+  },
+  {
+    "id": "ch67-inclusive",
+    "chapter": "67",
+    "front": "Who determines which supporters belong in a serious-illness conversation?",
+    "back": "Ask the patient whom they rely on and want included. A family of choice may provide intimate day-to-day support. Help document a surrogate if the person wants that supporter to make future decisions. Hazzard 8e, pp. 1050–1051.",
+    "page": 1050,
+    "anchor": "ch67-inclusive",
+    "questionIds": []
+  },
+  {
+    "id": "ch67-spiritual",
+    "chapter": "67",
+    "front": "Which domains does FICA explore?",
+    "back": "Faith or sources of meaning, their importance, community support, and how the patient would like these needs addressed in care. Hazzard 8e, p. 1053.",
+    "page": 1053,
+    "anchor": "ch67-spiritual",
+    "questionIds": []
+  },
+  {
+    "id": "ch77-apixaban-after-pneumonia",
+    "chapter": "77",
+    "page": 1205,
+    "anchor": "ch77-apixaban-dose",
+    "front": "An older man develops AF during pneumonia, returns to sinus rhythm, and takes aspirin after a remote MI. At age 75, 70 kg and normal renal function, what apixaban dose fits?",
+    "back": "5 mg twice daily. Age, weight and creatinine do not meet the two-of-three reduction rule. With stable coronary disease and no other antiplatelet indication, stop aspirin to reduce bleeding. Hazzard 8e, pp. 1202–1205.",
+    "questionIds": [
+      "mcq-85190c8c8b3e355b84d145cd"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1205"
+  },
+  {
+    "id": "ch77-icd-after-infarction",
+    "chapter": "77",
+    "page": 1206,
+    "anchor": "exam-p1206-mcq-eea29e0984ea5088b834d159",
+    "front": "Does EF 35% with NYHA III symptoms six months after MI support a primary-prevention ICD?",
+    "back": "Yes, after appropriate medical therapy and the applicable recovery intervals, if meaningful survival beyond a year is expected. A separate secondary-prevention indication can follow a VF arrest without a reversible cause, even at a higher EF. Hazzard 8e, pp. 1206–1207.",
+    "questionIds": [
+      "mcq-eea29e0984ea5088b834d159"
+    ]
+  },
+  {
+    "id": "ch77-rheumatic-stenosis",
+    "chapter": "77",
+    "page": 1203,
+    "anchor": "exam-p1203-mcq-93e0cbe108de9a8412f0af06",
+    "front": "Which anticoagulant is appropriate in new AF with moderate rheumatic mitral stenosis and GFR 29?",
+    "back": "Warfarin with INR monitoring, generally targeting 2–3. Moderate rheumatic mitral stenosis determines the drug class irrespective of the usual stroke-score threshold. Hazzard 8e, p. 1203, Table 77-8.",
+    "questionIds": [
+      "mcq-93e0cbe108de9a8412f0af06"
+    ]
+  },
+  {
+    "id": "ch77-rate-control-conduction",
+    "chapter": "77",
+    "page": 1201,
+    "anchor": "exam-p1201-mcq-f2071d46927ab12d9f43632b",
+    "front": "Why might an older patient develop bradycardia or AV block after a beta-blocker dose increase for AF?",
+    "back": "Beta blockers slow AV nodal conduction. Monitor pulse and blood pressure with titration. Digoxin can accumulate with renal impairment, and diltiazem or verapamil can worsen reduced systolic function. Hazzard 8e, p. 1201.",
+    "questionIds": [
+      "mcq-f2071d46927ab12d9f43632b"
+    ]
+  },
+  {
+    "id": "ch77-rhythm-decompensated-hf",
+    "chapter": "77",
+    "page": 1201,
+    "anchor": "exam-p1201-mcq-cdc9bd78706bb7538460a9ec",
+    "front": "Which listed drug can maintain sinus rhythm after admission with NYHA IV heart failure: flecainide, propafenone, amiodarone or dronedarone?",
+    "back": "Amiodarone. Class Ic agents are unsuitable in significant structural disease, and dronedarone can increase mortality after decompensation or in advanced symptomatic heart failure. Hazzard 8e, p. 1201, Table 77-6.",
+    "questionIds": [
+      "mcq-cdc9bd78706bb7538460a9ec"
+    ]
+  },
+  {
+    "id": "ch77-stroke-risk-four",
+    "chapter": "77",
+    "page": 1202,
+    "anchor": "exam-p1202-mcq-ef2bb73ec06eb89fbd6291e8",
+    "front": "A 73-year-old woman with AF, hypertension and diabetes has what CHA₂DS₂-VASc score and historical annual stroke estimate?",
+    "back": "Four points: one each for age 65–74, hypertension, diabetes and female sex. Table 77-7A estimates 4% per year for this score. Hazzard 8e, p. 1202.",
+    "questionIds": [
+      "mcq-ef2bb73ec06eb89fbd6291e8"
+    ]
+  },
+  {
+    "id": "ch77-beers-bleeding",
+    "chapter": "77",
+    "page": 1202,
+    "anchor": "ch77-beers-anticoagulant",
+    "front": "What explains the 2023 Beers preference for apixaban over long-term rivaroxaban in an eligible older adult with AF?",
+    "back": "Rivaroxaban carries more major and gastrointestinal bleeding in older adults. A necessary once-daily schedule can justify an exception. Beers 2023, Table 2, p. 2058. Related Hazzard 8e teaching, p. 1202.",
+    "questionIds": [
+      "mcq-102e4ab82b9fd8d644e4dbbb"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1202"
+  },
+  {
+    "id": "ch77-stroke-stable-coronary",
+    "chapter": "77",
+    "page": 1202,
+    "anchor": "exam-p1202-mcq-0cd20cd280f46d0acf25449c",
+    "front": "Five years after MI, does a mechanical fall justify aspirin alone for a 75-year-old with documented AF?",
+    "back": "No. Age and vascular disease confer embolic risk even after spontaneous rhythm conversion. Use appropriate oral anticoagulation and address the fall hazard. In stable coronary disease without another antiplatelet indication, avoid adding aspirin. Hazzard 8e, pp. 1202–1203.",
+    "questionIds": [
+      "mcq-0cd20cd280f46d0acf25449c"
+    ]
+  },
+  {
+    "id": "ch77-dofetilide-hf",
+    "chapter": "77",
+    "page": 1201,
+    "anchor": "exam-p1201-mcq-2f108a771e027a49d0986f2e",
+    "front": "In AF with ischemic cardiomyopathy and EF 35%, which listed rhythm drug can be used when amiodarone is not offered?",
+    "back": "Dofetilide, with renal dose selection and inpatient QT monitoring. Flecainide and propafenone are unsuitable in ischemic structural disease. Hazzard 8e, p. 1201, Table 77-6.",
+    "questionIds": [
+      "mcq-2f108a771e027a49d0986f2e"
+    ]
+  },
+  {
+    "id": "ch77-has-bled-blood-pressure",
+    "chapter": "77",
+    "page": 1202,
+    "anchor": "exam-p1202-mcq-9cf3a3d46c26e13809d224e1",
+    "front": "Which HAS-BLED item is present when an older adult with AF has uncontrolled systolic hypertension?",
+    "back": "Hypertension supplies the H. Review modifiable bleeding risks, including interacting drugs. Heart failure is part of the stroke score and diverticulosis alone does not earn a point. Hazzard 8e, p. 1202, Table 77-7B.",
+    "questionIds": [
+      "mcq-9cf3a3d46c26e13809d224e1"
+    ]
+  },
+  {
+    "id": "ch77-symptomatic-sinus-pause",
+    "chapter": "77",
+    "page": 1197,
+    "anchor": "exam-p1197-mcq-80487577b314a49f9eb9ccb2",
+    "front": "A woman with presyncope has a long rhythm-strip pause with no regular P waves passing through it. What treatment addresses the likely mechanism?",
+    "back": "Symptomatic sinus node dysfunction can require permanent pacing after reversible causes are addressed. Persisting regular P waves during a ventricular pause would suggest AV block. Hazzard 8e, pp. 1195–1197, Table 77-3.",
+    "questionIds": [
+      "mcq-80487577b314a49f9eb9ccb2"
+    ]
+  },
+  {
+    "id": "ch77-aortic-valve-and-dialysis",
+    "chapter": "77",
+    "page": 1203,
+    "anchor": "exam-p1203-mcq-52e0e246a50af6e23d65cdc9",
+    "front": "Which permits consideration of a DOAC for AF: severe native aortic stenosis, a mechanical aortic valve, or severe mitral stenosis?",
+    "back": "Severe native aortic stenosis can permit a DOAC such as apixaban. The other two valve conditions call for a vitamin K antagonist. Dialysis additionally rules out dabigatran in the exam scenario. Hazzard 8e, p. 1203, Table 77-8.",
+    "questionIds": [
+      "mcq-52e0e246a50af6e23d65cdc9"
+    ]
   }
 ]

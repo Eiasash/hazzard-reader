@@ -19958,5 +19958,125 @@
         334
       ]
     ]
+  },
+  {
+    "chapter": "67s",
+    "id": "u29",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Chapter 67 covers symptom relief, goals of care and advance planning on printed pages 1045–1054.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        7
+      ],
+      [
+        5,
+        10,
+        8,
+        10
+      ],
+      [
+        11,
+        15,
+        11,
+        17
+      ],
+      [
+        16,
+        19,
+        18,
+        25
+      ],
+      [
+        20,
+        25,
+        26,
+        33
+      ],
+      [
+        26,
+        29,
+        34,
+        39
+      ],
+      [
+        30,
+        43,
+        40,
+        95
+      ]
+    ]
+  },
+  {
+    "chapter": "67",
+    "id": "u27",
+    "old": "Status.",
+    "new": "Clinical scope.",
+    "edits": [
+      [
+        0,
+        6,
+        0,
+        14
+      ]
+    ]
+  },
+  {
+    "chapter": "67",
+    "id": "u28",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Symptom relief, goals of care and advance planning, pp. 1045–1054.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        7
+      ],
+      [
+        5,
+        10,
+        8,
+        15
+      ],
+      [
+        11,
+        15,
+        16,
+        21
+      ],
+      [
+        16,
+        19,
+        22,
+        24
+      ],
+      [
+        20,
+        25,
+        25,
+        29
+      ],
+      [
+        26,
+        29,
+        30,
+        33
+      ],
+      [
+        30,
+        43,
+        34,
+        54
+      ],
+      [
+        44,
+        44,
+        55,
+        66
+      ]
+    ]
   }
 ]

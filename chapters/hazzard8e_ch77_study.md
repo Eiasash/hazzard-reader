@@ -2,6 +2,76 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 
 # Chapter 77 Study: Cardiac Arrhythmias
 
+## What the exams asked
+
+- Which anticoagulant is appropriate in AF with rheumatic mitral stenosis, a mechanical valve, a native stenotic aortic valve or dialysis? [May 2024 Q20](?chapter=77#exam-p1203-mcq-93e0cbe108de9a8412f0af06) · [June 2023 Basic Q120](?chapter=77#exam-p1203-mcq-52e0e246a50af6e23d65cdc9).
+- After pneumonia-associated AF, does a return to sinus rhythm or a previous fall change stroke prevention five years after MI? [June 2025 Q74](?chapter=77#exam-p1202-mcq-0cd20cd280f46d0acf25449c) · [2020 Q63, chapter-level reference](?chapter=77#asked-chapter).
+- How do four CHA₂DS₂-VASc points translate into annual stroke risk, and which condition counts in HAS-BLED? [September 2024 Q27](?chapter=77#exam-p1202-mcq-ef2bb73ec06eb89fbd6291e8) · [June 2025 Basic Q142](?chapter=77#exam-p1202-mcq-9cf3a3d46c26e13809d224e1).
+- Which rate-control drugs impair conduction or contractility, and which rhythm-control drugs are suitable in reduced-EF heart failure? [September 2024 Q2](?chapter=77#exam-p1201-mcq-f2071d46927ab12d9f43632b) · [September 2024 Q7](?chapter=77#exam-p1201-mcq-cdc9bd78706bb7538460a9ec) · [June 2026 Basic Q144](?chapter=77#exam-p1201-mcq-2f108a771e027a49d0986f2e).
+- What does a prolonged pause on a continuous rhythm strip mean in an older woman with presyncope? [June 2023 Basic Q117](?chapter=77#exam-p1197-mcq-80487577b314a49f9eb9ccb2).
+- When does an infarct survivor qualify for a primary-prevention ICD, and how does a history of VF change the question? [June 2023 Q64](?chapter=77#exam-p1206-mcq-eea29e0984ea5088b834d159).
+- Why favor apixaban when considering long-term rivaroxaban in an older adult with AF? [June 2026 Q30, related chapter teaching](?chapter=77#ch77-beers-anticoagulant). The exam bibliography cites the 2023 Beers Criteria.
+
+## AF and stroke prevention
+
+<span data-exam-ids="mcq-93e0cbe108de9a8412f0af06 mcq-52e0e246a50af6e23d65cdc9" data-reader-metadata="exam"></span>
+
+**Identify the valve lesion first.** In AF with moderate or severe mitral stenosis or any mechanical valve, use a vitamin K antagonist. For rheumatic mitral stenosis the usual INR target is 2–3. A mechanical valve's target also depends on its position and type. A measured GFR of 29 does not turn rivaroxaban into an appropriate choice for the 69-year-old with rheumatic stenosis. Severe **native aortic stenosis** does not carry the same restriction: apixaban can be suitable for the 85-year-old with diabetes. In dialysis, avoid dabigatran. Read recommendations for advanced kidney disease together with the product information for the treatment setting (p. 1203, Table 77-8).
+
+<span data-exam-ids="mcq-0cd20cd280f46d0acf25449c" data-reader-metadata="exam"></span>
+
+**A patient in sinus rhythm at discharge can still need stroke prevention.** Infection may reveal an underlying tendency to AF. In the two exam cases, age 75 supplies two CHA₂DS₂-VASc points and prior MI supplies one. A mechanical fall six months earlier calls for attention to tripping hazards. It does not in itself offset the benefit of anticoagulation. For stable coronary disease years after the event, oral anticoagulation alone generally limits bleeding compared with continuing aspirin, assuming no history of stent thrombosis or another current antiplatelet indication. At age 75, 70 kg and normal kidney function, the man takes the usual apixaban AF dose of **5 mg twice daily**. Arrange follow-up for recurrent AF and reassess stroke and bleeding risks (pp. 1202–1205, Tables 77-7 to 77-9). [ACC/AHA/ACCP/HRS AF guideline, §§6.8.2 and 10.10](https://doi.org/10.1161/CIR.0000000000001193).
+
+<span data-exam-ids="mcq-ef2bb73ec06eb89fbd6291e8" data-reader-metadata="exam"></span>
+
+**Read the correct half of Table 77-7.** Part A estimates stroke risk. Heart failure, hypertension, diabetes, vascular disease, age 65–74 and female sex each contribute one point. Age 75 or older contributes two in place of the younger age band. Prior stroke, TIA or systemic embolism contributes two. The 73-year-old woman with diabetes and hypertension therefore has four points and a **4% annual estimate** in this historical table. Actual risk at a given score varies among populations. The 2024 ESC guideline uses CHA₂DS₂-VA without sex: it recommends anticoagulation at two or more points and consideration at one. Keep the scoring system specified by the question (pp. 1202–1203). [ESC 2024 AF guideline, §6.1](https://doi.org/10.1093/eurheartj/ehae176).
+
+<span data-exam-ids="mcq-9cf3a3d46c26e13809d224e1" data-reader-metadata="exam"></span>
+
+**HAS-BLED flags harms that can be reduced.** Part B includes hypertension, renal or liver dysfunction, prior stroke, prior bleeding, unstable INR, older age, and medicines or alcohol that increase bleeding. Uncontrolled hypertension is common to the stroke-prevention discussion and the bleeding assessment. Diverticulosis without bleeding and head trauma without a documented major bleed do not earn independent points. Review blood pressure, NSAIDs, unnecessary antiplatelets, alcohol, hemoglobin and renal function. A score of three or higher calls for closer follow-up, and does not by itself justify withholding anticoagulation (p. 1202, Table 77-7B).
+
+<span data-practice-ids="mcq-102e4ab82b9fd8d644e4dbbb" data-reader-metadata="exam"></span>
+
+**Choosing a direct anticoagulant.** In people aged 75 and older, the trials summarized on p. 1202 found less intracranial bleeding with DOACs than with warfarin, and favorable major-bleeding results for apixaban and edoxaban. The June 2026 question specifically tests Beers: for long-term AF or VTE treatment, prefer a safer alternative to rivaroxaban, particularly apixaban. Once-daily dosing can justify an exception if essential for adherence. Renal impairment calls for assessing individual drug suitability. An available antidote alone is a poor reason to prefer dabigatran. [AGS Beers Criteria 2023, Table 2, p. 2058](https://doi.org/10.1111/jgs.18372).
+
+## AF symptoms, ventricular rate and sinus rhythm
+
+<span data-exam-ids="mcq-f2071d46927ab12d9f43632b" data-reader-metadata="exam"></span>
+
+**Start by identifying the treatment goal.** Beta blockers, diltiazem and verapamil slow AV nodal conduction. Dihydropyridines such as amlodipine are antihypertensives without useful AF rate control. A pulse in the chapter's range of 80–110/min may be acceptable in the absence of significant symptoms or heart failure. Titrate against symptoms, blood pressure and conduction. Rapid escalation can cause hypotension or AV block. Avoid diltiazem and verapamil in substantially reduced systolic function. Digoxin's narrow therapeutic window becomes especially important with fluctuating renal function. AV-node ablation with pacing can control a refractory ventricular rate while leaving AF and its embolic risk in place (p. 1201).
+
+<span data-exam-ids="mcq-cdc9bd78706bb7538460a9ec mcq-2f108a771e027a49d0986f2e" data-reader-metadata="exam"></span>
+
+**For rhythm control, read across the row for the underlying heart disease.** Flecainide and propafenone are options in structurally normal hearts but are unsuitable with ischemic myocardial disease or HFrEF. Table 77-6 lists amiodarone and dofetilide for AF with reduced EF. Amiodarone is the choice offered after a recent admission with NYHA IV heart failure. Dofetilide is the choice offered in the separate case with ischemic cardiomyopathy and EF 35%. Dofetilide initiation requires renal dosing and inpatient QT monitoring; amiodarone warrants surveillance for extracardiac toxicity. Avoid dronedarone after recent decompensation or with advanced symptomatic heart failure (p. 1201). [ACC/AHA/ACCP/HRS AF guideline, §§8.3.1–8.3.2](https://doi.org/10.1161/CIR.0000000000001193).
+
+**Which evidence applies to this patient?** Older drug-strategy trials supported rate control in mildly symptomatic patients. The AFFIRM analysis of patients over 70 associated antiarrhythmic therapy with higher all-cause mortality. Early rhythm control in recently diagnosed AF and rhythm control in selected patients with heart failure can improve outcomes. Persistent symptoms, treatment tolerance, stage of AF and patient preferences matter. Electrical cardioversion restores sinus rhythm acutely; catheter ablation is more effective than drugs at suppressing recurrence but does not remove the need to assess stroke risk. CABANA did not show superiority for its primary composite endpoint in the intention-to-treat comparison (pp. 1200–1202). [ACC/AHA/ACCP/HRS AF guideline, §8.1](https://doi.org/10.1161/CIR.0000000000001193).
+
+## A pause, a block or a shockable rhythm
+
+<span data-exam-ids="mcq-80487577b314a49f9eb9ccb2" data-reader-metadata="exam"></span>
+
+**Look for atrial activity during the pause.** The June 2023 Basic strip runs across three lines. A faster irregular rhythm gives way to a long quiet interval in the middle line, then slower beats return. Regular P waves do not continue through the pause. This supports sinus node dysfunction in a patient with recurrent presyncope. In advanced AV block, atrial impulses continue but fail to produce ventricular complexes. Check for a reversible driver and establish a relationship between symptoms and bradycardia. Permanent pacing relieves symptoms attributable to sinus node dysfunction. The 4.2-second pause illustrated in Figure 77-1B belongs to the textbook example, not a measured duration from this examination strip (pp. 1195–1197, Table 77-3).
+
+<span data-exam-ids="mcq-eea29e0984ea5088b834d159" data-reader-metadata="exam"></span>
+
+**Primary prevention asks who remains at risk after recovery.** In ischemic heart failure, an EF of 35% and NYHA class III symptoms six months after MI fit the usual criteria despite guideline-directed therapy, provided meaningful survival beyond a year is expected. Two weeks after MI and one month after bypass surgery are too early for routine primary-prevention implantation. Allow at least 40 days after MI and 90 days after revascularization when applicable. **Secondary prevention asks what caused the arrest.** A survivor of VF without a reversible trigger can qualify even with EF 45%. VF confined to an acute reversible ischemic event requires a different assessment. The June 2023 question leaves the timing of VF unspecified. In very old adults, discuss function, cognition, competing illness and the patient's priorities before implanting a device (pp. 1206–1207). [AHA/ACC/HRS ICD decision aid](https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Guidelines/2018/VASCD-Guideline-Tool.pdf).
+
+## Other chapter decisions
+
+**Which mechanism caused the collapse?** A standing pressure fall, a meal-related episode, a reflex prodrome and an abrupt pause each suggest a different mechanism. Older patients may have more than one. Review vasodilators, diuretics, volume loss and autonomic disease. A postprandial episode typically occurs 30–90 minutes after eating. Correct contributors and teach slow position changes before escalating medication. In carotid sinus syndrome, the physiologic response must reproduce symptoms. A positive physiologic response alone is hypersensitivity (pp. 1193–1195).
+
+**Pacing and resynchronization.** Sinus node disease and AV block have different electrocardiographic signatures. For new unstable symptomatic AV block after TAVR, stabilize the patient and address permanent pacing before discharge. New LBBB or PR prolongation may require surveillance after discharge. Frequent right ventricular pacing can worsen synchrony, ventricular function and mitral regurgitation. An existing indication for pacing with substantial anticipated RV pacing and impaired EF is a different CRT pathway from the patient with symptomatic heart failure, LBBB and a broad QRS (pp. 1197–1200, Tables 77-3 to 77-5).
+
+**An embolic stroke without documented AF.** Trials of empiric anticoagulation for embolic stroke of undetermined source did not reduce recurrent stroke compared with aspirin. Prolonged monitoring may reveal occult AF. In a patient with a pacemaker, inspect the stored electrogram to confirm that a recorded atrial high-rate episode is genuine. Duration and baseline stroke risk matter when discussing anticoagulation for device-detected episodes. Left atrial appendage occlusion is a separate option in selected patients unsuitable for long-term anticoagulation. It requires a plan for postimplant antithrombotic treatment and imaging (pp. 1202–1203).
+
+**Flutter, SVT and ventricular ectopy.** Typical flutter uses the cavotricuspid isthmus. Ablation can interrupt that circuit, while stroke prevention still depends on embolic risk. AV nodal reentry is the commonest SVT mechanism described in older patients. For a stable regular narrow-complex tachycardia, vagal maneuvers and adenosine can interrupt AV node-dependent reentry. Instability calls for synchronized cardioversion. Pre-excited AF is an important exception to AV nodal blockade. Incidental nonsustained VT prompts a search for structural disease, ischemia and impaired EF before deciding on prognosis or a device (p. 1206, Table 77-10).
+
+## Israeli context
+
+**אפיקסבן בפרפור פרוזדורים שאינו מסתמי.** לפי המדריך לרופא של אפיקסבן תרו, מינון המניעה הרגיל הוא 5 מ״ג פעמיים ביום. מפחיתים ל־2.5 מ״ג פעמיים ביום כשמתקיימים לפחות שניים משלושה תנאים: גיל 80 ומעלה, משקל 60 ק״ג ומטה וקריאטינין בסרום 1.5 מ״ג לד״ל ומעלה. באותה התוויה, פינוי קריאטינין של 15–29 מ״ל לדקה מצדיק את המינון המופחת גם בלי שני תנאים. התכשיר אינו מומלץ בפינוי נמוך מ־15 או בדיאליזה. בשחרור יש להסביר למטופל או למטפל כיצד לזהות דימום, מתי לפנות לעזרה ולמה חשוב להציג את כרטיס הבטיחות לפני פעולה פולשנית. [אפיקסבן תרו, מדריך לרופא, ינואר 2026, עמ׳ 2–3 ואיור 2](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/apixaban-taro-hcp/he/files_safety_information-library_apixaban-taro-hcp.pdf).
+
+**דפיברילטור מושתל בסוף החיים.** בחולה הנוטה למות המבקש להימנע מהארכת חייו אפשר לבטל את הטיפול בשוקים עתידיים ולהשאיר את פעולת הקיצוב. השיחה נועדה לברר את מטרות החולה ולהסביר אילו טיפולים המכשיר ימשיך לתת. רצוי לדון באפשרות כבר לפני ההשתלה ולתכנן, במידת האפשר, תכנות אלקטיבי בתיאום עם קרדיולוג ואיש צוות שהוכשר לכך. ההנחיה עוסקת בביטול שוקים ואינה משמשת היתר להפסקת קיצוב רציף במטופל התלוי בו. [הר״י, כיבוי דפיברילטור מושתל, יולי 2020, עמ׳ 3–4](https://www.ima.org.il/userfiles/image/Ne158_Defibrillator.pdf).
+
 ## Summary
 
 **Syncope in older adults**
@@ -46,6 +116,8 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 **End-of-life device management**
 - PPM deactivation can be decided by the patient or legal surrogate via shared decision-making; after that, a written request to deactivate the PPM plus a DNR order is required (p1200). For ICDs, the patient or legal surrogate should be informed of the right to deactivate when the end-of-life decision is appropriate (p1207).
 - PPM-dependent patients may die immediately on deactivation; non-dependent patients need monitoring for symptoms (p1200).
+
+The discussion on pp. 1200 and 1207 reflects the US context. For Israeli patients, see the Israeli guidance above on future ICD shocks and ongoing pacing.
 
 **Exam traps / book notes**
 - The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips **twice**: score **6** → **9.8** %/year, score **7** → **9.6** %/year (a small dip), then score **8** → **6.7** %/year (a bigger dip, equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.
