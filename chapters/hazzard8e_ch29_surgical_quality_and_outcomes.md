@@ -140,7 +140,7 @@ Identification of specific quality improvement opportunities for the elderly und
 
 Association of loss of independence with readmission and death after discharge in older patients after surgical procedures. JAMA Surg. 2016;151(9):e161689. Centers for Disease Control and Prevention. National
 
-Center for Health Statistics: Number of Discharges from Short-stay Hospitals, by First-listed Diagnosis and Age: United States, 2010. www.cdc.gov/nchs/data/nhds/ 4procedures/2010pro4_numberprocedureage.pdf. Accessed February 28, 2021. Chesney TR, Haas B, Coburn NG, et al. Patient-centered
+Center for Health Statistics: <a href="https://archive.cdc.gov/www_cdc_gov/nchs/data/nhds/3firstlisted/2010first3_numberage.pdf" aria-label="CDC 2010 National Hospital Discharge Survey: discharges by first-listed diagnosis and age (PDF)" title="CDC 2010 National Hospital Discharge Survey: discharges by first-listed diagnosis and age (PDF)">Number of Discharges from Short-stay Hospitals, by First-listed Diagnosis and Age: United States, 2010</a>. <a href="https://archive.cdc.gov/www_cdc_gov/nchs/data/nhds/4procedures/2010pro4_numberprocedureage.pdf" aria-label="CDC 2010 National Hospital Discharge Survey: all-listed procedures by procedure category and age (PDF)" title="CDC 2010 National Hospital Discharge Survey: all-listed procedures by procedure category and age (PDF)">www.cdc.gov/nchs/data/nhds/ 4procedures/2010pro4_numberprocedureage.pdf</a>. Accessed February 28, 2021. Chesney TR, Haas B, Coburn NG, et al. Patient-centered
 
 time-at-home outcomes in older adults after surgical cancer treatment. JAMA Surg. 2020;155(11):e203754. Daiello LA, Racine AM, Yun Gou R, et al. Postoperative
 

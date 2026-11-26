@@ -236,7 +236,7 @@ New York, NY: John Wiley & Sons, Inc; 2019. Han BH, Moore AA, Sherman S, Keyes K
 
 Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005–2014. Drug Alcohol Depend. 2017;170:198–207. HIV Among People Aged 50 and Over, Centers for
 
-Disease Prevention and Control. [https://www.cdc](<https://www.cdc.gov/hiv/data-research/facts-stats/older-americans.html>) .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
+Disease Prevention and Control. [https://www.cdc](<https://stacks.cdc.gov/view/cdc/149188>) .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
 
 Kadushin G, Egan M. Gerontological Home Health Care: A
 
