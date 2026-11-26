@@ -5203,11 +5203,13 @@ const homeReadingKeys={reading:READING_KEY,place:PLACE_KEY,bookmarks:BOOKMARK_KE
 const manifestData=await manifestRequest;
 const examYieldRank=new Map(manifestData.order.map((chapter,index)=>[chapter,index]));
 let requestedChapter=launchParams.get('chapter');
-if(!requestedChapter||launchParams.get('home')==='1'&&launchParams.get('stats')!=='1'){
+let opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
+if(!requestedChapter||opensOnHome){
   const last=readJSON(PLACE_KEY,{}).last;
   const resumable=last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter)&&(!manifestData.loaded||last.chapter==='mock'||manifestData.chapters.some(c=>c.number===last.chapter));
-  if(!resumable&&!location.search&&!location.hash)launchParams.set('home','1');
-  if(launchParams.get('home')==='1'&&launchParams.get('stats')!=='1'){
+  if(!resumable&&!location.search&&!location.hash)opensOnHome=true;
+  if(opensOnHome){
+    launchParams.set('home','1');
     requestedChapter=resumable&&last.chapter!=='mock'?last.chapter:HazzardStudyHome.startReading(manifestData.order,homeReadingKeys)?.chapter;
     if(requestedChapter&&launchParams.has('chapter'))launchParams.set('chapter',requestedChapter);
   }else if(resumable)requestedChapter=last.chapter;
@@ -5215,7 +5217,6 @@ if(!requestedChapter||launchParams.get('home')==='1'&&launchParams.get('stats')!
   if(launchParams.get('home')!=='1'&&launchParams.get('stats')!=='1')launchParams.set('chapter',requestedChapter);
   const url=new URL(location.href);url.search=launchParams.toString();history.replaceState(history.state,'',url);
 }
-const opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
 if(!opensOnHome)delete document.documentElement.dataset.resolvingRoot;
 if(companionFrame)await HazzardMCQ.loadAliases();
 else{
@@ -6645,7 +6646,7 @@ function refreshResume(){
   HazzardStudyHome.refresh(manifestChapters,homeReadingKeys);
   refreshHomeStatus();
 }
-const homeStores=new Set([PLACE_KEY,READING_KEY,HazzardMCQ.KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.SETTINGS_KEY,HazzardReview.KEY]);
+const homeStores=new Set([PLACE_KEY,BOOKMARK_KEY,READING_KEY,HazzardMCQ.KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.SETTINGS_KEY,HazzardReview.KEY]);
 addEventListener('storage',event=>{if(event.key===null||homeStores.has(event.key))refreshResume()});
 for(const name of ['hazzard-review-change','hazzard-bad-change','hazzard-practice-settings-change','focus'])addEventListener(name,refreshResume);
 $('#homeRetry').onclick=refreshResume;
