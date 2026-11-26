@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v318",
+      "date": "2026-11-26",
+      "changes": [
+        "Full-site audit fixes for exam links, question feedback and study sessions, including the rehabilitation card on motor and cognitive FIM scores."
+      ]
+    },
+    {
       "version": "v317",
       "date": "2026-11-26",
       "changes": [

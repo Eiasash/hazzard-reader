@@ -8998,5 +8998,17 @@
     "questionIds": [
       "mcq-bf7cb43b526ce8038c0f0cb9"
     ]
+  },
+  {
+    "id": "ch55-fim-mobility-and-supervision",
+    "chapter": "55",
+    "front": "A patient reaches FIM level 6 for walking and transfers, while problem-solving remains at level 2. What should the discharge plan account for?",
+    "back": "Level 6 means modified independence on those motor tasks. Limited problem-solving and memory can still make supervision necessary, and dressing or bathing may require hands-on help. Hazzard 8e, p. 821, related rehabilitation assessment; December 2021 Q56, FIM table on exam p. 23.",
+    "page": 821,
+    "anchor": "ch55-fim-safety",
+    "sourceLabel": "Related rehabilitation assessment · p. 821",
+    "questionIds": [
+      "mcq-d77dd3b1ab1dbb492058f5df"
+    ]
   }
 ]

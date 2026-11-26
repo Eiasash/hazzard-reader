@@ -15,6 +15,7 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 - Readiness to participate after an acute illness — [June 2022 Q33](?chapter=55#asked-chapter).
 
 - How FIM describes assistance and how a rehabilitation referral is assessed — [2020 Q10 and Q84, December 2021 Q17, Q57 and Q97, June 2022 Q16](?chapter=55#asked-chapter). These earlier questions cite the FIM paper or Israeli procedures.
+- Can a patient who transfers with a device live without supervision if problem-solving and memory still require help? [December 2021 Q56, chapter-level exam link](?chapter=55#asked-chapter) · [Read the motor and cognitive profile](?chapter=55#ch55-fim-safety).
 - Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 has no bibliographic locator in the official list. [Read the Israeli context](#israeli-context).
 - Motor planning and the pattern of functional recovery — September 2024 Q36 cites the Stroke Rehabilitation Clinician Handbook, p15. June 2026 Q92 identifies FIM and the examination image.
 
