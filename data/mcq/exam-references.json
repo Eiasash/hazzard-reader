@@ -2761,7 +2761,9 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "94",
+      "bankChapterTitle": "Aging of the Hematopoietic System and Anemia"
     },
     "mcq-bdd5fcf0889facd18a58bee9": {
       "sitting": "2020",
@@ -3290,7 +3292,9 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "94",
+      "bankChapterTitle": "Aging of the Hematopoietic System and Anemia"
     },
     "mcq-2248e492e6c2e7ba57331629": {
       "sitting": "2022-Jun",
@@ -5136,6 +5140,7 @@
           "page": 1502,
           "chapter": "95",
           "available": true,
+          "imageFile": "hazzard8e_ch95_table-95-14_p1502.webp",
           "anchor": "exam-p1502-mcq-bd9893fe8c4027b4668a863e",
           "passage": "Table 95-14"
         }
@@ -5363,7 +5368,17 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "ima-harrison-22e-ch459",
+      "bankChapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction",
+      "relatedTeaching": [
+        {
+          "chapter": "31",
+          "anchor": "ch31-neuromuscular",
+          "label": "Hazzard 8e, p. 445, Table 31-3 · neurologic causes of dysphagia"
+        }
+      ],
+      "referenceNote": "The IMA cites Harrison p. 3511. In 21e this is ch. 448, Table 448-1. The corresponding 22e assay table is 459-1, p. 3627."
     },
     "mcq-7e29198920ca95a14795d359": {
       "sitting": "2023-Jun",
@@ -5734,6 +5749,13 @@
       "tables": [],
       "chapters": [
         "83"
+      ],
+      "relatedTeaching": [
+        {
+          "chapter": "72",
+          "anchor": "ch72-il-dialysis",
+          "label": "סירוב למחזור הבא של דיאליזה"
+        }
       ]
     },
     "mcq-09dd973c12abe37ee635c2e7": {
@@ -6938,7 +6960,14 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "72",
+          "anchor": "ch72-il-authority",
+          "label": "מי קובע את מעמד החולה באשפוז"
+        }
+      ]
     },
     "mcq-6a3a4989b7a53b19593f44a7": {
       "sitting": "2023-Jun",
@@ -6954,8 +6983,9 @@
           "page": 165,
           "chapter": "11",
           "available": true,
+          "rangeText": "Pneumococcal Conjugate Vaccine (PCV13) followed in 6 to 12 months by the Pneumococcal Polysaccharide Vaccine (PPSV23)",
           "anchor": "exam-p165-mcq-6a3a4989b7a53b19593f44a7",
-          "passage": "Pneumococcal Vaccination Pneumococcal infections represent a major cause of morbidity and mo"
+          "passage": "Pneumococcal Conjugate Vaccine (PCV13) followed in 6 to 12 months by the Pneumococcal Polysaccharide Vaccine (PPSV23)"
         },
         {
           "page": 1255,
@@ -7011,7 +7041,14 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "72",
+          "anchor": "ch72-il-close-person",
+          "label": "דיאליזה ואדם קרוב"
+        }
+      ]
     },
     "mcq-1464838102c98ff3a34184c7": {
       "sitting": "2023-Jun",
@@ -7655,6 +7692,7 @@
           "page": 1485,
           "chapter": "95",
           "available": true,
+          "imageFile": "hazzard8e_ch95_table-95-1_p1485.webp",
           "anchor": "exam-p1485-mcq-834756aabc08598d8f45a7f5",
           "passage": "Table 95-1"
         }
@@ -9069,8 +9107,9 @@
           "page": 1102,
           "chapter": "72",
           "available": true,
+          "imageFile": "hazzard8e_ch72_table-72-3_p1102.webp",
           "anchor": "exam-p1102-mcq-48a5d49ae2033ae5ac32e7a1",
-          "passage": "TABLE 72-3 ■ THE SPIKES APPROACH TO BREAKING BAD NEWS"
+          "passage": "Table 72-3"
         }
       ],
       "tables": [],
@@ -9497,22 +9536,25 @@
           "page": 1490,
           "chapter": "95",
           "available": true,
+          "rangeText": "B-cell CLL accounts for over 95% of all CLL.",
           "anchor": "exam-p1490-mcq-d7ef5d7a467c8ade6436f4f5",
-          "passage": "Chronic lymphocytic leukemia (CLL) is the most common leukemia in the Western Hemisphere and"
+          "passage": "B-cell CLL accounts for over 95% of all CLL."
         },
         {
           "page": 1491,
           "chapter": "95",
           "available": true,
+          "rangeText": "Leukocytosis alone (stage 0) does not require therapy",
           "anchor": "exam-p1491-mcq-d7ef5d7a467c8ade6436f4f5",
-          "passage": "Therapy for B-cell CLL is not considered curative and therefore has been reserved for patien"
+          "passage": "Leukocytosis alone (stage 0) does not require therapy"
         },
         {
           "page": 1492,
           "chapter": "95",
           "available": true,
+          "rangeText": "reticulocyte counts and direct Coombs testing should be obtained to help differentiate hemolysis from decreased bone marrow production",
           "anchor": "exam-p1492-mcq-d7ef5d7a467c8ade6436f4f5",
-          "passage": "Autoimmune manifestations of CLL are common and include development of antibodies to platele"
+          "passage": "reticulocyte counts and direct Coombs testing should be obtained to help differentiate hemolysis from decreased bone marrow production"
         }
       ],
       "tables": [],
@@ -11902,6 +11944,13 @@
       "tables": [],
       "chapters": [
         "10"
+      ],
+      "relatedTeaching": [
+        {
+          "chapter": "72",
+          "anchor": "ch72-il-capacity",
+          "label": "ארבע יכולות קליניות וכשרות משפטית"
+        }
       ]
     },
     "mcq-e5e171a0f9f64094a50ab544": {
@@ -12235,17 +12284,15 @@
           "page": 119,
           "chapter": "8",
           "available": true,
+          "rangeText": "patients should be referred to an audiologist",
           "anchor": "exam-p119-mcq-e8ffe5e4732e7d63293662ad",
-          "passage": "There are several screening questionaries for hearing loss including the Hearing Handicap In"
+          "passage": "patients should be referred to an audiologist"
         },
         {
           "page": 161,
           "chapter": "11",
           "available": true,
-          "contextPage": 160,
-          "rangeText": "an older woman has a life expectancy of at least 9.5 years",
-          "anchor": "exam-p161-mcq-e8ffe5e4732e7d63293662ad",
-          "passage": "of serious complications after screening mammography appears to be approximately 1 in 1000, "
+          "anchor": "exam-p161-mcq-e8ffe5e4732e7d63293662ad"
         },
         {
           "page": 1561,
@@ -12259,7 +12306,8 @@
         "8",
         "11",
         "99"
-      ]
+      ],
+      "referenceNote": "The printed references are pp. 119, 161 and 1561. Page 161 contains both the mammography model and the list of colorectal screening options. The final paper accepts C and D. Page 119 covers an initial hearing screen and referral, and p. 1561 covers diabetes screening after 65."
     },
     "mcq-98debcd301b2d91929e937da": {
       "sitting": "2024-Sep",
@@ -12734,8 +12782,9 @@
           "page": 169,
           "chapter": "11",
           "available": true,
+          "rangeText": "prescribing recommendations that suggest only short-term use and use only for intended indications",
           "anchor": "exam-p169-mcq-a542a3a627e208dabd1e6265",
-          "passage": "Prescription Drug Misuse Prescription drug misuse is poorly described in the medical literat"
+          "passage": "prescribing recommendations that suggest only short-term use and use only for intended indications"
         },
         {
           "page": 319,
@@ -15012,22 +15061,25 @@
           "page": 1483,
           "chapter": "95",
           "available": true,
+          "rangeText": "treatment should be risk-adapted based on disease and patient characteristics",
           "anchor": "exam-p1483-mcq-c0958b48b6b8fb43106b759b",
-          "passage": "Myelodysplastic syndromes (MDS) are a heterogenous group of clonal hematopoietic disorders c"
+          "passage": "treatment should be risk-adapted based on disease and patient characteristics"
         },
         {
           "page": 1484,
           "chapter": "95",
           "available": true,
+          "rangeText": "requiring assistance with activities of daily living (ADLs) and high fatigue rating were independently associated with shorter survival",
           "anchor": "exam-p1484-mcq-c0958b48b6b8fb43106b759b",
-          "passage": "Risk Stratification The World Health Organization (WHO) classification scheme incorporates e"
+          "passage": "requiring assistance with activities of daily living (ADLs) and high fatigue rating were independently associated with shorter survival"
         },
         {
           "page": 1485,
           "chapter": "95",
           "available": true,
+          "imageFile": "hazzard8e_ch95_table-95-3_p1485.webp",
           "anchor": "exam-p1485-mcq-c0958b48b6b8fb43106b759b",
-          "passage": "Table 95-1"
+          "passage": "Table 95-3"
         }
       ],
       "tables": [],
@@ -16636,7 +16688,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "72",
+          "anchor": "ch72-il-icd",
+          "label": "נטרול שוקים תוך שמירה על קיצוב"
+        }
+      ],
+      "referenceNote": "The bibliography prints only חוק (law). The question concerns the Israeli Dying Patient Law. The Israeli professional societies’ 2020 position paper, pp. 3–4, explains how the law applies to disabling ICD shocks while preserving pacing."
     },
     "mcq-10163f2b99f5abe875d7d917": {
       "sitting": "2025-Jun",
@@ -16952,6 +17012,7 @@
           "page": 446,
           "chapter": "31",
           "available": true,
+          "imageFile": "hazzard8e_ch31_table-31-5_p446.webp",
           "anchor": "exam-p446-mcq-4c3fda6b97055d09bfccf60c",
           "passage": "Table 31-5"
         },
@@ -16959,15 +17020,17 @@
           "page": 1690,
           "chapter": "105",
           "available": true,
+          "rangeText": "In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia",
           "anchor": "exam-p1690-mcq-4c3fda6b97055d09bfccf60c",
-          "passage": "In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia, though effi"
+          "passage": "In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia"
         },
         {
           "page": 1691,
           "chapter": "105",
           "available": true,
+          "rangeText": "It is important to avoid all medications that could potentiate aspirations, such as sedatives, and especially antipsychotics.",
           "anchor": "exam-p1691-mcq-4c3fda6b97055d09bfccf60c",
-          "passage": "There is increasing data on pharmacological interventions that act on the swallowing reflex "
+          "passage": "It is important to avoid all medications that could potentiate aspirations, such as sedatives, and especially antipsychotics."
         }
       ],
       "tables": [
@@ -16976,6 +17039,16 @@
       "chapters": [
         "31",
         "105"
+      ],
+      "supportPages": [
+        {
+          "page": 451,
+          "chapter": "31",
+          "available": true,
+          "rangeText": "Poor oral hygiene is a risk factor for pneumonia",
+          "anchor": "exam-p451-mcq-4c3fda6b97055d09bfccf60c",
+          "passage": "Poor oral hygiene is a risk factor for pneumonia"
+        }
       ]
     },
     "mcq-2bf17228f99344b4887b156b": {
@@ -17183,7 +17256,17 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "ima-harrison-22e-ch459",
+      "bankChapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction",
+      "relatedTeaching": [
+        {
+          "chapter": "31",
+          "anchor": "ch31-neuromuscular",
+          "label": "Hazzard 8e, p. 445, Table 31-3 · neurologic causes of dysphagia"
+        }
+      ],
+      "referenceNote": "The IMA cites Harrison 21e, ch. 448, pp. 3510–3511. The corresponding 22e chapter is 459, pp. 3626–3627."
     },
     "mcq-17e66840ae11bd49e4b668cf": {
       "sitting": "2025-Jun",
@@ -19086,8 +19169,9 @@
           "page": 1501,
           "chapter": "95",
           "available": true,
+          "rangeText": "a quantitative measure of excess kappa or lambda light chains produced by a plasma cell clone",
           "anchor": "exam-p1501-mcq-39946414e0773be4fb99f910",
-          "passage": "Serum-free light chain assay The serum-free light chain is a quantitative measure of excess "
+          "passage": "a quantitative measure of excess kappa or lambda light chains produced by a plasma cell clone"
         }
       ],
       "tables": [],
@@ -21318,64 +21402,76 @@
         {
           "page": 1483,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1484,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1485,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1486,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1487,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1488,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1489,
           "chapter": "95",
           "available": true,
+          "rangeText": "The presence of the Philadelphia chromosome t(9;22) and/or its products",
           "anchor": "exam-p1489-mcq-356253b1a4c51ce96b4853a6",
-          "passage": "Diagnosis is suspected by the demonstration of granulocytosis in the peripheral blood with a"
+          "passage": "The presence of the Philadelphia chromosome t(9;22) and/or its products"
         },
         {
           "page": 1490,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1491,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1492,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1493,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1494,
           "chapter": "95",
           "available": true,
+          "imageFile": "hazzard8e_ch95_table-95-9_p1494.webp",
           "anchor": "exam-p1494-mcq-356253b1a4c51ce96b4853a6",
           "passage": "Table 95-9"
         },
@@ -21383,53 +21479,61 @@
           "page": 1495,
           "chapter": "95",
           "available": true,
-          "anchor": "exam-p1495-mcq-356253b1a4c51ce96b4853a6",
-          "passage": "In DLBCL, the putative cell of origin as identified on GEP is prognostic, with germinal cent"
+          "citationOnly": true
         },
         {
           "page": 1496,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1497,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1498,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1499,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1500,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1501,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1502,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1503,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1504,
           "chapter": "95",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -22973,14 +23077,12 @@
     "31": {
       "ids": [
         "mcq-0763892c4fe5cc16609cece1",
-        "mcq-5ca3f594502cdce2347b4070",
-        "mcq-4c3fda6b97055d09bfccf60c",
-        "mcq-f2448541fe026f7c28b9ebe5"
+        "mcq-4c3fda6b97055d09bfccf60c"
       ],
       "before": 0,
-      "past": 4,
+      "past": 2,
       "resolved": 1,
-      "fallback": 3,
+      "fallback": 1,
       "practice": 14,
       "chapterLinked": 0
     },
@@ -24197,22 +24299,22 @@
     },
     "94": {
       "ids": [
+        "mcq-e8b485ecde3675dc9786a734",
+        "mcq-e3641c7ad953ca3a3d403746",
         "mcq-b64b2a93425c5569d9a155e6",
         "mcq-5967f5970f29d909cde6fe19"
       ],
       "before": 0,
-      "past": 2,
+      "past": 4,
       "resolved": 1,
-      "fallback": 1,
+      "fallback": 3,
       "practice": 21,
       "chapterLinked": 0
     },
     "95": {
       "ids": [
-        "mcq-e8b485ecde3675dc9786a734",
         "mcq-bdd5fcf0889facd18a58bee9",
         "mcq-7f65ec8a88d55d3dce770791",
-        "mcq-e3641c7ad953ca3a3d403746",
         "mcq-bd9893fe8c4027b4668a863e",
         "mcq-834756aabc08598d8f45a7f5",
         "mcq-d7ef5d7a467c8ade6436f4f5",
@@ -24221,9 +24323,9 @@
         "mcq-356253b1a4c51ce96b4853a6"
       ],
       "before": 0,
-      "past": 10,
+      "past": 8,
       "resolved": 6,
-      "fallback": 2,
+      "fallback": 0,
       "practice": 18,
       "chapterLinked": 2
     },

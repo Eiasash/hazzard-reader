@@ -70,7 +70,7 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = page.anchor || 'p' + page.page;
     location.assign(url);
   }
-  const rebuilt = new Set(['1','3','7','17','22','27','42','43','44','46','49','51','53','55','58','59','61','62','65','68','74','75','76','81','83','87','88','98','99']);
+  const rebuilt = new Set(['1','3','7','11','17','22','27','31','37','42','43','44','46','49','51','53','55','58','59','61','62','65','68','72','74','75','76','81','83','87','88','95','98','99']);
   const isRebuilt = chapter => rebuilt.has(String(chapter));
   async function addPassages(copy,chapter,data){
     data ||= await references();
@@ -305,7 +305,11 @@ window.HazzardEvidence = (() => {
       const entries=page ? byPage.get(page)||[] : (marker.dataset.examIds||'').split(/\s+/).filter(id=>data.questions[id]).map(id=>[id,data.questions[id]]);
       const practice=(marker.dataset.practiceIds||'').split(/\s+/).filter(id=>data.questions[id]);
       if(section)for(const id of [...entries.map(([id])=>id),...practice])section.ids.add(id);
-      const relatedHere=practice.filter(id=>memberIds.has(id)&&!data.questions[id].chapters.includes(sourceChapter)&&Number(data.questions[id].sitting.slice(0,4))>=2023);
+      const relatedHere=practice.filter(id=>{
+        const entry=data.questions[id];
+        if(entry.chapters.includes(sourceChapter)||Number(entry.sitting.slice(0,4))<2023)return false;
+        return memberIds.has(id)||entry.relatedTeaching?.some(target=>String(target.chapter)===sourceChapter);
+      });
       const otherPractice=practice.filter(id=>!relatedHere.includes(id));
       if(!study&&otherPractice.length)annotations.push({element:marker,ids:otherPractice});
       if(page && entries.length)marker.classList.add('exam-page-marker');

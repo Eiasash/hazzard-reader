@@ -2,7 +2,7 @@
 
 Anita J. Kumar, Tanya M. Wildes, Heidi D. Klepin, Bayard L. Powell
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Past-exam passages were matched to the marked edition.
 
 > **Source and method.** Printed pages 1483-1508, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
@@ -174,7 +174,7 @@ Chronic lymphocytic leukemia (CLL) is the most common leukemia in the Western He
 
 B-Cell CLL B-cell CLL accounts for over 95% of all CLL. Approximately 25% of such patients are identified with asymptomatic lymphocytosis during evaluation for other medical problems. Symptomatic patients may present with weight loss, fatigue, recurrent infections, fevers, or pain associated with hepatosplenomegaly or bulky lymphadenopathy. In most patients, the disease has a gradual progression spanning several years and the extent of the lymphoid burden at diagnosis correlates well with length of preexisting disease. In some patients, the disease has a more aggressive course, and progression to advanced clinical stages may occur within a few months of diagnosis. Identification of molecular and protein markers are beginning to explain the heterogenous natural history observed in this disease.
 
-The diagnosis of CLL requires presence of monoclonal B lymphocytes greater than or equal to 5 × 10<sup>9</sup>/L with a specific immunophenotyping pattern (coexpression of CD5 and CD20/23 with weak expression of surface immunoglobulin) by flow cytometry. Diagnosis and staging of CLL can usually be established by history, physical examination (careful evaluation for lymphadenopathy and splenomegaly), CBC with review of the blood smear, and immunophenotyping of the peripheral blood using flow cytometry. Classic findings on the peripheral smear include increased mature-appearing lymphocytes and smudge cells (peripheral smear artifact reflecting the fragility of the B-CLL cells to mechanical manipulation). Bone marrow studies are usually not needed for diagnosis.
+The diagnosis of CLL requires presence of monoclonal B lymphocytes greater than or equal to 5 × 10<sup>9</sup>/L with a specific immunophenotyping pattern (coexpression of CD5 and CD20/23 with weak expression of surface immunoglobulin) by flow cytometry. Diagnosis and staging of CLL can usually be established by history, physical examination (careful evaluation for lymphadenopathy and splenomegaly), CBC with review of the blood smear, and immunophenotyping of the peripheral blood using flow cytometry. <span id="ch95-cll-film"></span>Classic findings on the peripheral smear include increased mature-appearing lymphocytes and smudge cells (peripheral smear artifact reflecting the fragility of the B-CLL cells to mechanical manipulation). Bone marrow studies are usually not needed for diagnosis.
 
 <a id="p1491"></a>**[p. 1491]**
 
@@ -522,7 +522,7 @@ Emerging therapies. The entire wealth of emerging treatments, either approved in
 
 Prevention of complications
 
-Skeletal-Related Events Intravenous bisphosphonates are effective for primary or secondary prevention of skeletalrelated events (including pathologic fractures or painful lytic lesions requiring radiation). Zoledronic acid and pamidronate are utilized in the United States. Denosumab, the RANK ligand inhibitor, is approved for patients with multiple myeloma and utilized in patients with renal impairment in whom bisphosphonates are contraindicated.
+Skeletal-Related Events Intravenous bisphosphonates are effective for primary or secondary prevention of skeletalrelated events (including pathologic fractures or painful lytic lesions requiring radiation). <span id="ch95-bone-protection"></span>Zoledronic acid and pamidronate are utilized in the United States. Denosumab, the RANK ligand inhibitor, is approved for patients with multiple myeloma and utilized in patients with renal impairment in whom bisphosphonates are contraindicated.
 
 Infection Prophylaxis Patients with multiple myeloma should receive the pneumococcal vaccine and annual influenza vaccinations. Patients receiving certain treatments should receive herpes zoster prophylaxis with acyclovir or valacyclovir. One randomized trial demonstrated a reduction in fever or early death in patients treated with levofloxacin for the first 3 months after diagnosis.
 
