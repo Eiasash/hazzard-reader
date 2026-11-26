@@ -32,7 +32,7 @@ Hip fracture is a major public health problem with significant consequences for 
 
 The direct medical and indirect nonreimbursed costs (eg, unpaid caregiving services and lost wages of patients and caregivers) of hip fracture have been estimated to be as high as $20 billion annually in the United States. Over the past few years, measures have been taken in an attempt to reduce costs of care for hip fractures. This approach, called bundling, gives a single standardized payment that includes the total cost for all care for the patient for 90 days after surgery. Hospitals with high costs are at risk to lose money with bundled care. The largest costs are typically postacute care and readmissions. The switch to bundled care forces hospitals to work to reduce readmissions and complications when possible, and attempt to send patients home rather than to subacute care. Bundling also promotes interaction between surgeons, geriatricians, and postacute care centers to try to focus rehabilitation goals and reduce length of stay in the postacute center.
 
-Among those who have experienced a hip fracture, approximately 18% of women and 36% of men are expected to die within the first year of their fracture. The highest mortality rates occur within the first few months after a fracture among those who are in the poorest health. In addition, comparison of survival rates of female hip fracture patients to similarly impaired women without fractures indicates that
+<span id="ch53-prognosis"></span>Among those who have experienced a hip fracture, approximately 18% of women and 36% of men are expected to die within the first year of their fracture. The highest mortality rates occur within the first few months after a fracture among those who are in the poorest health. In addition, comparison of survival rates of female hip fracture patients to similarly impaired women without fractures indicates that
 
 <a id="p794"></a>**[p. 794]**
 
@@ -78,7 +78,7 @@ In addition, the prevalence of vitamin D deficiency among hip fracture patients 
 
 The Geriatrician’s Role in Preoperative Care The geriatrician can serve a central role in caring for patients upon admission to the acute care hospital by evaluating the medical and perioperative issues, ensuring maximal medical stabilization prior to surgery, and providing early detection and ongoing vigilance regarding risks for and development of, postoperative medical complications. The geriatrician is well positioned to discuss with the patient and family the anticipated hospital and postacute care procedures and transitions, thereby reducing uncertainty and alleviating anxiety at this unanticipated and challenging time.
 
-Studies indicate that a multidisciplinary approach to acute care for hip fracture can improve clinical outcomes. Several models of orthogeriatrics comanagement have been developed. Models vary from geriatric consultation or liaison services, management on a geriatric ward with orthopedic consultation, and integrated inpatient orthogeriatric units. A systematic review and meta-analysis of 18 studies found that orthogeriatric collaboration was associated with reduced in-hospital mortality, reduced long-term mortality, and reduced length of stay. A randomized trial of orthogeriatric care provided on a geriatrics ward (vs an
+<span id="ch53-orthogeriatrics"></span>Studies indicate that a multidisciplinary approach to acute care for hip fracture can improve clinical outcomes. Several models of orthogeriatrics comanagement have been developed. Models vary from geriatric consultation or liaison services, management on a geriatric ward with orthopedic consultation, and integrated inpatient orthogeriatric units. A systematic review and meta-analysis of 18 studies found that orthogeriatric collaboration was associated with reduced in-hospital mortality, reduced long-term mortality, and reduced length of stay. A randomized trial of orthogeriatric care provided on a geriatrics ward (vs an
 
 ![Figure 53-3](hazzard8e_ch53_figure-53-3_p796.webp)
 
@@ -223,3 +223,13 @@ sedation in older patients undergoing hip fracture repair on postoperative delir
 indicators for mortality following hip fracture surgery: a systematic review and meta-analysis. Age Ageing. 2014; 43:464–471.
 
 <a id="p804"></a>**[p. 804]**
+
+## Exam article companion — operative timing and implant choice
+
+<a id="ch53-article-timing"></a>
+
+The 2017 review cites an association between surgery within 24 hours of admission and lower mortality. Medical instability can both delay surgery and increase mortality, which limits what that comparison can show about timing alone. The review describes a 48-hour operative target when feasible and emphasizes early mobilization. [Management of Acute Hip Fracture, p. 2057](https://doi.org/10.1056/NEJMcp1611090).
+
+<a id="ch53-article-implant"></a>
+
+Earlier trials summarized in the 2017 review found better hip function after total replacement than after hemiarthroplasty, with more dislocations after total replacement. The subsequent HEALTH trial in previously ambulatory patients found that the average functional advantage was clinically small over two years, with similar rates of secondary procedures. [Management of Acute Hip Fracture, p. 2059](https://doi.org/10.1056/NEJMcp1611090), [HEALTH, 2019](https://doi.org/10.1056/NEJMoa1906190).
