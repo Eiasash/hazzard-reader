@@ -139,3 +139,20 @@ body.reading-bars-hidden #readerViewport {inset-block-end:var(--vv-bottom-gap,0p
 body.reading-bars-hidden #mcqViewport {inset-block-start:0}
 body.reading-bars-hidden :is(.mcq-docked-actions,#findBar) {visibility:hidden;pointer-events:none}
 body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
+
+#bottomSlot #appTabs{block-size:calc(52px + env(safe-area-inset-bottom,0px));min-block-size:0;max-block-size:calc(52px + env(safe-area-inset-bottom,0px));align-items:stretch;box-sizing:border-box}
+#bottomSlot #appTabs button{height:auto;min-block-size:44px;align-self:stretch}
+#bottomSlot #highlightEditor input[hidden]{display:none!important}
+:is(#copy,.mcq-explanation) :is(input,textarea,[contenteditable]:not([contenteditable="false"])){user-select:text;-webkit-user-select:text;touch-action:auto}
+@media(max-width:450px){#chapterHeader :is(#headerPrevious,#headerNext){display:none!important}}
+
+.reader-range-paint :is(#copy,.mcq-explanation) :is([data-range],[data-answer-highlight],[data-unit])[data-marked]:not(img,svg){
+  background:transparent!important;border-radius:0!important;text-decoration:none!important;color:inherit
+}
+::highlight(reader-yellow){background-color:var(--hl-yellow);color:var(--hl-ink)}
+::highlight(reader-blue){background-color:var(--hl-blue);color:var(--hl-ink)}
+::highlight(reader-pink){background-color:var(--hl-pink);color:var(--hl-ink)}
+::highlight(reader-purple){background-color:var(--hl-purple);color:var(--hl-ink)}
+::highlight(reader-green){text-decoration:underline 2px var(--underline-red)}
+
+#bottomSlot #markNumber:focus,#bottomSlot #markNote:focus{outline:1px solid var(--accent);outline-offset:0;border-color:var(--accent)}

@@ -163,7 +163,7 @@ window.HazzardReadingCompanion = (() => {
     const toggle=document.createElement('button');
     toggle.id='toggleCompanion';toggle.type='button';
     toggle.setAttribute('aria-controls',pane.id);
-    document.querySelector('[data-pane="contents"] .chapter-actions').prepend(toggle);
+    document.querySelector('[data-pane="tools"]').append(toggle);
     function setOpen(open){
       preference=String(open);
       try { localStorage.setItem(prefKey,preference); } catch {}

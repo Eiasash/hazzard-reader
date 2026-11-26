@@ -1709,13 +1709,8 @@ window.HazzardAnswerHighlights = (() => {
     const value=read(),mark=value.items[id];
     if(!mark||mark.removed||mark.updatedAt!==original.updatedAt)throw Error('This highlight changed. Open it again.');
     value.items[id]={...mark,...fields,removed:!fields,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
-    if(fields&&Object.hasOwn(fields,'number')||!fields&&mark.number){
-      const numbered=Object.entries(value.items).filter(([key,m])=>key!==id&&!m.removed&&m.questionId===mark.questionId&&m.number).sort((a,b)=>a[1].number-b[1].number||a[1].at-b[1].at);
-      if(fields?.number)numbered.splice(Math.min(fields.number-1,numbered.length),0,[id,value.items[id]]);
-      numbered.forEach(([,m],i)=>{if(m.number!==i+1){m.number=i+1;m.updatedAt=Math.max(Date.now(),m.updatedAt+1);}});
-    }
     write(value);
   }
-  function nextPoint(){return 1+items().reduce((n,m)=>m.questionId===current?.q.id&&Number.isSafeInteger(m.number)?Math.max(n,m.number):n,0);}
+  function nextPoint(){return 1+Object.values(read().items).reduce((n,m)=>m.questionId===current?.q.id&&Number.isSafeInteger(m.number)?Math.max(n,m.number):n,0);}
   return {nextPoint,KEY,highlightColours,empty,valid,merge,read,items,edit,setRemoved,notebookItems,attach,available,regions,selection,saveSelection};
 })();

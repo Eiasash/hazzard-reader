@@ -1,5 +1,8 @@
 /* Finger strokes use Android's touch stream. A swipe before the hold belongs
    to the browser. Once the hold wins, preview and save share the same Range. */
+function isReaderControl(target){
+  return !!target?.closest?.('input,textarea,select,option,button,a[href],label,summary,[contenteditable]:not([contenteditable="false"]),[role="button"],[role="link"],dialog,[role="dialog"],#panel');
+}
 function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close}) {
   let timer;
   function cancel(){
@@ -7,6 +10,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   }
   function start(event,point,type){
     cancel();
+    if(isReaderControl(event.target))return;
     const stroke=begin({target:event.target,button:type==='touch'?0:event.button,
       clientX:point.clientX,clientY:point.clientY,pointerId:point.identifier??event.pointerId,
       preventDefault:()=>event.preventDefault()});
@@ -68,11 +72,12 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
     if(!event.isPrimary||event.button!==0)return;
     dismissedContact=false;strokeClick=false;openerTarget=null;
     if(!outside(event.target))return;
+    if(isReaderControl(event.target)){close();return;}
     dismissedContact=true;close();
     event.preventDefault();event.stopImmediatePropagation();
   },true);
   document.addEventListener('touchstart',event=>{
-    if(event.touches.length===1&&outside(event.target)){dismissedContact=true;close();}
+    if(event.touches.length===1&&outside(event.target)){if(isReaderControl(event.target)){close();return;}dismissedContact=true;close();}
     if(dismissedContact)event.stopImmediatePropagation();
   },{capture:true,passive:true});
   document.addEventListener('touchend',event=>{
@@ -81,6 +86,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
     event.stopImmediatePropagation();
   },{capture:true,passive:false});
   document.addEventListener('click',event=>{
+    if(isReaderControl(event.target)){dismissedContact=false;openerTarget=null;strokeClick=false;if(outside(event.target))close();return;}
     if(strokeClick&&event.detail!==0){
       strokeClick=false;event.preventDefault();event.stopImmediatePropagation();return;
     }
@@ -155,4 +161,50 @@ function installPointRail(main){
       (r.type==='attributes'||[...r.addedNodes,...r.removedNodes].some(n=>n.nodeType===1&&!n.matches('.point-rail,.point-badge')))))schedule();
   }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['data-point','data-marked','open','hidden']});
   addEventListener('resize',schedule);document.fonts?.ready.then(schedule);schedule();
+}
+
+// DOM markers remain the tap targets. Paint the whole saved range once so
+// whitespace between sentence units and inline elements gets the same ink.
+function installSavedHighlightPaint(main){
+  if(!window.CSS?.highlights||typeof Highlight!=='function')return;
+  const colours=['yellow','green','blue','pink','purple'];
+  const marker='[data-marked]';
+  let scheduled=false;
+  function paint(){
+    scheduled=false;
+    const byColour=new Map(colours.map(colour=>[colour,[]]));
+    for(const root of main.querySelectorAll('#copy,.mcq-explanation')){
+      const marks=new Map();
+      for(const part of root.querySelectorAll(marker)){
+        if(part.matches('img,svg')||part.closest('[data-reader-metadata]'))continue;
+        const id=part.dataset.answerHighlight||part.dataset.range||part.dataset.unit;
+        if(!id||!byColour.has(part.dataset.marked))continue;
+        const text=document.createTreeWalker(part,NodeFilter.SHOW_TEXT);
+        let first=null,last=null,node;
+        while(node=text.nextNode()){
+          if(!node.length||node.parentElement.closest('[data-reader-metadata]'))continue;
+          if(!first)first=node;last=node;
+        }
+        if(!first)continue;
+        const record=marks.get(id);
+        if(record)record.last=last;
+        else marks.set(id,{first,last,colour:part.dataset.marked});
+      }
+      for(const {first,last,colour} of marks.values()){
+        const range=document.createRange();range.setStart(first,0);range.setEnd(last,last.length);
+        byColour.get(colour).push(range);
+      }
+    }
+    for(const [colour,ranges] of byColour){
+      const name='reader-'+colour;
+      if(ranges.length){const ink=new Highlight(...ranges);ink.priority=-1;CSS.highlights.set(name,ink);}
+      else CSS.highlights.delete(name);
+    }
+  }
+  function schedule(){if(!scheduled){scheduled=true;queueMicrotask(paint);}}
+  new MutationObserver(records=>{
+    if(records.some(r=>r.type==='attributes'||r.target.closest?.(marker)||
+      [...r.addedNodes,...r.removedNodes].some(n=>n.nodeType===1&&(n.matches(marker)||n.querySelector(marker)))))schedule();
+  }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['data-marked','data-range','data-answer-highlight']});
+  document.documentElement.classList.add('reader-range-paint');paint();
 }

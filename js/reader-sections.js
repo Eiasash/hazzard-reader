@@ -166,7 +166,7 @@ window.HazzardSections = (() => {
     const picker = document.createElement('ul');
     picker.className = 'section-picker-list';
     picker.append(makeList(rows, existing));
-    list.before(legend(), picker);
+    list.before(picker);
     pane.append(pane.querySelector('.contents-steps'));
     const trigger = document.getElementById('chapterHeaderTitle');
     trigger.dataset.sections = 'Sections';
@@ -212,7 +212,7 @@ window.HazzardSections = (() => {
         const description = available ? n + ' official exam question' + (n === 1 ? '' : 's') +
           (row.heading.tagName === 'H1' ? ' at the chapter heading' : ' in this section') : 'Official exam count unavailable';
         for (const badge of row.counts) {
-          badge.textContent = available ? String(n) : '—';
+          badge.textContent = available && n ? n + (n === 1 ? ' question' : ' questions') : '';
           badge.setAttribute('aria-label', description);
           badge.title = description;
         }

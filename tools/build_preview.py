@@ -73,7 +73,7 @@ def write_package(out):
  start(){
    const controls=document.getElementById('cloudControls');
    document.getElementById('cloudStatus').textContent=this.label();
-   controls.querySelectorAll('input,button:not(#cloudShowLogin):not(#cloudShowRegister)').forEach(control=>control.disabled=true);
+   controls.querySelectorAll('button:not(#cloudShowLogin):not(#cloudShowRegister)').forEach(control=>control.disabled=true);
    const show=register=>{
      document.getElementById('cloudLogin').hidden=register;
      document.getElementById('cloudRegister').hidden=!register;
