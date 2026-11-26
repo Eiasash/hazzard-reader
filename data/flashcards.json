@@ -8251,5 +8251,460 @@
       "mcq-0711696008f91800aabf06e8",
       "mcq-ef164ba9f42c11b66a3b814f"
     ]
+  },
+  {
+    "id": "ch78-claudication-training",
+    "chapter": "78",
+    "page": 1211,
+    "anchor": "exam-p1211-mcq-2cae81434ec4479d828221ef",
+    "front": "A smoker stops after the same two blocks each day. Which treatment improves walking distance, and how should he walk?",
+    "back": "Support smoking cessation and structured, preferably supervised walking. Walk into tolerable claudication, recover, then repeat. Adjust the pace for balance and other disabilities. The chapter describes about 30 minutes three times a week. Hazzard 8e, p. 1211.",
+    "questionIds": [
+      "mcq-2cae81434ec4479d828221ef",
+      "mcq-dc273bbcbd9d3932d110ec30"
+    ]
+  },
+  {
+    "id": "ch78-short-lesion",
+    "chapter": "78",
+    "page": 1212,
+    "anchor": "ch78-short-lesion",
+    "front": "When does a short focal arterial stenosis in a claudicant justify angioplasty?",
+    "back": "Consider it when important activities remain limited despite exercise and medical therapy and the expected functional benefit justifies procedural risk. New rest pain or tissue loss changes the urgency. Related Hazzard 8e, pp. 1210–1212.",
+    "questionIds": [
+      "mcq-f2e44734c8fb8cb63c290f7f"
+    ]
+  },
+  {
+    "id": "ch78-carotid-fifty",
+    "chapter": "78",
+    "page": 1213,
+    "anchor": "exam-p1213-mcq-0248cf414c0e282383f0c986",
+    "front": "A frail woman with nephropathy had a TIA and has 50% right internal carotid stenosis. What must be clarified before offering surgery?",
+    "back": "Confirm a recent matching retinal or hemispheric event. Start medical prevention in every case. Consider endarterectomy selectively at 50%–69% if anticipated benefit exceeds the perioperative and competing risks. Hazzard 8e, pp. 1212–1214.",
+    "questionIds": [
+      "mcq-0248cf414c0e282383f0c986"
+    ]
+  },
+  {
+    "id": "ch78-incidental-carotid",
+    "chapter": "78",
+    "page": 1214,
+    "anchor": "ch78-incidental-stenosis",
+    "front": "How does an incidental 80% carotid stenosis differ from a symptomatic stenosis when deciding on repair?",
+    "back": "Intensive medical prevention is foundational. The historical operative option is selected endarterectomy in a low-risk patient with adequate longevity. CREST-2 found a four-year benefit for added stenting and no significant benefit for added endarterectomy in separate trials. Related Hazzard 8e, pp. 1213–1214. CREST-2, Table 2.",
+    "questionIds": [
+      "mcq-8c2e249d7c54762ff2a08ac6"
+    ]
+  },
+  {
+    "id": "ch78-carotid-procedural-risk",
+    "chapter": "78",
+    "page": 1214,
+    "anchor": "ch78-carotid-complications",
+    "front": "What trade-off matters when choosing between carotid endarterectomy and transfemoral stenting in an octogenarian?",
+    "back": "Endarterectomy carries more myocardial infarction and local cranial nerve injury. Transfemoral stenting carries more perioperative stroke, especially with a calcified or tortuous arch. Hazzard 8e, p. 1214.",
+    "questionIds": [
+      "mcq-1022c846920c65105d58e1d0",
+      "mcq-d606d4971ee0e51892e25d64"
+    ]
+  },
+  {
+    "id": "ch78-venous-duplex",
+    "chapter": "78",
+    "page": 1217,
+    "anchor": "exam-p1217-mcq-ee6477061bffbce186548a21",
+    "front": "An older patient has bilateral brown pigmentation around the lower shins and ankles. Which test identifies the underlying venous problem?",
+    "back": "Venous duplex demonstrates venous anatomy and the direction and duration of flow. The chapter considers superficial reflux of at least 0.5 second significant. Chronic venous hypertension causes edema, hemosiderin deposition and sometimes ulceration. Hazzard 8e, pp. 1216–1217.",
+    "questionIds": [
+      "mcq-ee6477061bffbce186548a21"
+    ]
+  },
+  {
+    "id": "ch78-statin-older-adults",
+    "chapter": "78",
+    "page": 1211,
+    "anchor": "ch78-pad-medical",
+    "front": "How does statin initiation differ between an 86-year-old smoker without known vascular disease and a 79-year-old with atherosclerotic PAD?",
+    "back": "PAD is clinical atherosclerotic disease and merits secondary prevention. At 86 without known disease, weigh potential primary-prevention benefit against life expectancy, treatment burden and preferences. The examination cites GRS Cardiovascular Disease. Related Hazzard 8e, p. 1211, and 2026 ACC/AHA Dyslipidemia Guideline, section 4.2.8.3.",
+    "questionIds": [
+      "mcq-8c6249eede6e862a64792745"
+    ]
+  },
+  {
+    "id": "ch78-cilostazol-heart-failure",
+    "chapter": "78",
+    "page": 1211,
+    "anchor": "ch78-pad-medical",
+    "front": "Which medication can improve persistent walking-limited claudication, and which cardiac condition excludes it?",
+    "back": "Cilostazol inhibits phosphodiesterase III and can improve walking distance. Avoid it in heart failure of any severity. Continue exercise and vascular prevention. Hazzard 8e, p. 1211, with correction from the 2024 ACC/AHA PAD guideline, section 5.7.",
+    "questionIds": [
+      "mcq-d27afce187bf131c421e9848"
+    ]
+  },
+  {
+    "id": "ch78-post-bypass-rest-pain",
+    "chapter": "78",
+    "page": 1210,
+    "anchor": "ch78-rest-pain",
+    "front": "What does new foot pain at rest after arterial bypass require you to assess before adjusting analgesia?",
+    "back": "Check for inadequate perfusion or graft occlusion. Examine temperature, pulses or Doppler signals, sensation and movement. Acute pain with a cold, numb or weak limb requires emergency assessment. Hazzard 8e, pp. 1210–1212.",
+    "questionIds": [
+      "mcq-e4bc651942adef02174dabf5"
+    ]
+  },
+  {
+    "id": "ch78-aaa-size",
+    "chapter": "78",
+    "page": 1215,
+    "anchor": "ch78-aneurysm-size",
+    "front": "Which anatomical measurement drives elective AAA repair decisions, and what else can shorten the timetable?",
+    "back": "Maximal aneurysm diameter predicts rupture. Usual repair thresholds are 5.5 cm for men and 5.0 cm for women. Symptoms attributable to the aneurysm or rapid growth can justify earlier intervention. Hazzard 8e, pp. 1215–1216. 2022 ACC/AHA Aortic Disease Guideline, section 6.5.5.3.",
+    "questionIds": [
+      "mcq-18e6cc1491ac1b1ca673da7c",
+      "mcq-82a8b9629027ac2af839ee0d"
+    ]
+  },
+  {
+    "id": "ch78-aaa-surveillance",
+    "chapter": "78",
+    "page": 1215,
+    "anchor": "ch78-aneurysm-symptoms",
+    "front": "A man with a 4.8-cm asymptomatic AAA has annual ultrasounds. What changes the timing?",
+    "back": "New abdominal or back pain potentially attributable to the aneurysm prompts immediate clinical reassessment and appropriate imaging. Ultrasound is preferred for routine follow-up. A stable small aneurysm does not call for stopping aerobic activity or starting doxycycline. Hazzard 8e, pp. 1215–1216, Table 78-2.",
+    "questionIds": [
+      "mcq-7b7a470a6281026e784dd2dd"
+    ]
+  },
+  {
+    "id": "ch94-renal-anemia-pneumonia",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "exam-p1480-mcq-5967f5970f29d909cde6fe19",
+    "front": "A patient with pneumonia has hemoglobin of 8.3 g/dL, high ferritin, low transferrin and creatinine of 1.9 mg/dL. What must you establish before prescribing an ESA?",
+    "back": "Confirm persistent CKD-related anemia and address reversible causes, including inflammation. The exam favors renal anemia with an ESA. A single creatinine cannot establish chronicity. Hazzard 8e, p. 1480, and KDIGO 2026, Figure 5.",
+    "questionIds": [
+      "mcq-5967f5970f29d909cde6fe19"
+    ]
+  },
+  {
+    "id": "ch94-stable-renal-anemia",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-workup",
+    "front": "An independent patient with stable CKD has hemoglobin of 11.1 g/dL and no anemia symptoms. Start an ESA?",
+    "back": "Monitor the trend and finish assessing correctable causes. An ESA is usually unnecessary at this hemoglobin in stable nondialysis CKD. GRS, Nephrology, Chronic Kidney Disease. Related Hazzard 8e evaluation, p. 1480.",
+    "questionIds": [
+      "mcq-b64b2a93425c5569d9a155e6"
+    ],
+    "studyReference": {
+      "anchor": "ch94s-stable-renal",
+      "label": "June 2022 renal case and KDIGO Figure 5"
+    },
+    "sourceLabel": "Related Hazzard evaluation · p. 1480"
+  },
+  {
+    "id": "ch94-iron-sepsis",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-causes",
+    "front": "During sepsis, serum iron and transferrin fall while ferritin and CRP rise. What is happening to iron?",
+    "back": "Inflammation raises hepcidin, restricting iron release from stores and availability to the marrow. Treat the infection and reassess. The 2020 exam cites Harrison, pp. 629–630. The corresponding 21e comparison is Table 97-6, p. 753.",
+    "questionIds": [
+      "mcq-e8b485ecde3675dc9786a734"
+    ],
+    "studyReference": {
+      "anchor": "ch94s-iron-restriction",
+      "label": "2020 sepsis case and iron studies"
+    },
+    "sourceLabel": "Related causes of anemia · Hazzard 8e, p. 1480"
+  },
+  {
+    "id": "ch94-hip-fracture-postoperative",
+    "chapter": "94",
+    "page": 1474,
+    "anchor": "ch94-stress",
+    "front": "Hemoglobin is 8.5 g/dL with normal cell size and iron indices just after hip fracture fixation. Which cause best fits the timing?",
+    "back": "Perioperative blood loss, with a possible dilutional contribution. Follow serial hemoglobin and assess continued loss if it falls further. GRS, Hematology. Hazzard 8e, p. 1474, explains reduced marrow reserve after bleeding.",
+    "questionIds": [
+      "mcq-e3641c7ad953ca3a3d403746"
+    ],
+    "studyReference": {
+      "anchor": "ch94s-postoperative",
+      "label": "June 2022 hip-fracture case and prospective cohort"
+    },
+    "sourceLabel": "Related marrow response to bleeding · Hazzard 8e, p. 1474"
+  },
+  {
+    "id": "ch94-oral-iron-spacing",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-iron",
+    "front": "Why leave a day between oral iron doses in a stable older adult with iron-deficiency anemia?",
+    "back": "A dose raises hepcidin for up to 24 hours. The next day, less intestinal iron reaches the blood. Alternate-day dosing avoids that interval and oral therapy is usually sufficient. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-d989e8f41faf9358b2743e5f",
+      "mcq-491e8548e27bbf805f604686",
+      "mcq-38291965ee27947e59371896",
+      "mcq-ef85d0464735b7a8d81f6c21",
+      "mcq-fcceaa876c9a7e7df4d7b244"
+    ]
+  },
+  {
+    "id": "ch94-intravenous-iron",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-intravenous",
+    "front": "When should oral iron be replaced by an infusion?",
+    "back": "Consider intravenous iron when an adequate oral course fails to improve the anemia or adverse effects prevent treatment. Check why the response is poor, including ongoing loss. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-a792bb8ad54498d29487046c",
+      "mcq-2a937050d9430d7a30da21d6",
+      "mcq-e9d568ecc9ed6a625e61c6d7",
+      "mcq-fe3ed1ff87e9893db1784b95"
+    ]
+  },
+  {
+    "id": "ch94-first-tests",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-workup",
+    "front": "Which tests distinguish common causes of anemia before you ascribe it to aging or CKD?",
+    "back": "Start with CBC and differential, reticulocytes, iron indices and ferritin, B12, red-cell folate, creatinine, thyroid and liver function. Select further studies from the findings. Marrow biopsy is warranted when marrow malignancy is suspected. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-4caa65474b9733a526dfd9b6",
+      "mcq-f0e487f2b65842ecf04ed41d",
+      "mcq-91de2309a478f854812e5404",
+      "mcq-9d67cdf76b53fd3cdab0fa74"
+    ]
+  },
+  {
+    "id": "ch94-unexplained-anemia",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-unexplained",
+    "front": "After a negative anemia work-up, how can erythropoietin help explain some cases despite preserved filtration?",
+    "back": "Some patients produce too little erythropoietin for the degree of anemia despite preserved renal excretory function. Unexplained anemia is a diagnosis of exclusion. Clonal mutations account for only a minority. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-e8482e204c5ed512bec605e9",
+      "mcq-38a795de141595e2fc888769",
+      "mcq-22496d720618843a4687f939"
+    ]
+  },
+  {
+    "id": "ch94-symptomatic-transfusion",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-transfusion",
+    "front": "A patient with chronic anemia now has chest pain and dyspnea on minimal exertion at 7.6 g/dL. What changes?",
+    "back": "New end-organ ischemia supports prompt transfusion and clinical reassessment. Hazzard gives 8 g/dL in this situation and 7 g/dL as its general threshold. Neither is a universal treatment target. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-4bc455efd05c6f1c86df64a8"
+    ]
+  },
+  {
+    "id": "ch94-chronic-transfusion-target",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-chronic-transfusion",
+    "front": "Why might increasing a chronic hemolysis transfusion target from 6 to 7 g/dL make treatment worse?",
+    "back": "In the chapter’s example the patient functions well at a stable 6 g/dL. Maintaining 7 g/dL increases transfusions without improving quality of life. New symptoms or a falling level would prompt reassessment. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-71fc7746ea319783cc9fe74d",
+      "mcq-401b01ce02c31c9f05cba4ae"
+    ]
+  },
+  {
+    "id": "ch94-treatment-burden",
+    "chapter": "94",
+    "page": 1480,
+    "anchor": "ch94-quality",
+    "front": "A frail patient struggles to attend weekly injection visits. Which outcome should shape anemia treatment?",
+    "back": "Weigh symptom relief and daily function against adverse effects and the practical burden of treatment. A normal hemoglobin does not justify repeated visits or transfusions by itself. Hazzard 8e, p. 1480.",
+    "questionIds": [
+      "mcq-4e6ac123c2f829c3e574dbd1"
+    ]
+  },
+  {
+    "id": "ch94-inflammaging",
+    "chapter": "94",
+    "page": 1479,
+    "anchor": "ch94-inflammaging",
+    "front": "How can an older patient have impaired adaptive immunity and persistent inflammatory signaling at the same time?",
+    "back": "Inflammaging is systemic, chronic, low-grade inflammation. Senescent T cells proliferate poorly yet may activate inflammatory pathways. In the marrow, IL-1 favors myeloid differentiation and IL-6 promotes platelet production. Hazzard 8e, p. 1479.",
+    "questionIds": [
+      "mcq-cbfe7f3cff9bc361d44a5610"
+    ]
+  },
+  {
+    "id": "ch104-vaccination-record",
+    "chapter": "104",
+    "page": 1676,
+    "anchor": "ch104-vaccine-history",
+    "front": "An 85-year-old entering long-term care cannot document a pneumococcal vaccine. What determines the next step?",
+    "back": "Check records, then vaccinate according to the schedule for unknown status. Age and chronic heart or lung disease increase the risk of invasive illness. Prior pneumonia does not identify the vaccine needed. Israel introduced PCV20 in place of PCV13 in February 2025. Hazzard 8e, p. 1676, and Israel Ministry of Health.",
+    "questionIds": [
+      "mcq-4022e7f03af5b3eaeb7ba769"
+    ]
+  },
+  {
+    "id": "ch104-nutritional-response",
+    "chapter": "104",
+    "page": 1668,
+    "anchor": "ch104-nutrition",
+    "front": "Does a serum albumin of 3.2 g/dL rule out impaired vaccine response? How does low B12 fit?",
+    "back": "No. Hazzard describes weaker responses in outpatients with albumin 3.0–3.5 g/dL. Low B12 also correlated with weaker pneumococcal polysaccharide antibody responses in a small study. Neither finding predicts an individual vaccine failure. Hazzard 8e, p. 1668, and PMID 8554224.",
+    "questionIds": [
+      "mcq-80b1b47e42e14b119b805b9f"
+    ]
+  },
+  {
+    "id": "ch104-fulminant-cdi",
+    "chapter": "104",
+    "page": 1673,
+    "anchor": "ch104-shock-cdi",
+    "front": "Toxin-positive diarrhea, creatinine 2 mg/dL and blood pressure 82/45 mmHg. Which finding changes the route of CDI therapy?",
+    "back": "Hypotension indicates fulminant CDI. Give enteral vancomycin with IV metronidazole and resuscitate. If ileus interferes with delivery, consider rectal vancomycin. Assess early for surgical complications. Hazzard 8e, p. 1673, Table 104-1, and SHEA/IDSA Table 1.",
+    "questionIds": [
+      "mcq-2f8468da786ef8f8b77c15fe"
+    ]
+  },
+  {
+    "id": "ch104-stable-cdi",
+    "chapter": "104",
+    "page": 1672,
+    "anchor": "ch104-stable-cdi",
+    "front": "A stable 87-year-old develops diarrhea and a positive stool toxin on cefuroxime. Is stopping cefuroxime sufficient?",
+    "back": "Stop unnecessary cefuroxime and treat the active CDI. Oral vancomycin is suitable among the offered drugs. Fidaxomicin is preferred when feasible for initial nonfulminant CDI. Hazzard 8e, p. 1672, Table 104-1, and SHEA/IDSA 2021.",
+    "questionIds": [
+      "mcq-a7798f290b31f35764fbf6d8"
+    ]
+  },
+  {
+    "id": "ch104-cdi-recurrence",
+    "chapter": "104",
+    "page": 1675,
+    "anchor": "exam-p1675-mcq-9314de1137fde9d2d0386670",
+    "front": "Which is the main age-specific difference in CDI: treatment protocol, carriage progressing to symptoms, or recurrence?",
+    "back": "Recurrence is more frequent in older adults. Severity and prior episodes guide treatment. The chapter estimates about 15% of asymptomatic carriers became symptomatic following antibiotics. Hazzard 8e, p. 1675.",
+    "questionIds": [
+      "mcq-9314de1137fde9d2d0386670"
+    ]
+  },
+  {
+    "id": "ch104-cdi-secondary-prevention",
+    "chapter": "104",
+    "page": 1675,
+    "anchor": "exam-p1675-mcq-1eb064d03b4a7940c7ca9ab5",
+    "front": "A 78-year-old with one resolved CDI episode needs antibiotics for pneumonia. What changed in prevention guidance after June 2026?",
+    "back": "AGA advises against routine vancomycin during other antibiotics for CDI prevention. Hazzard describes a benefit, and 2021 ACG guidance allowed consideration in selected high-risk patients. Treat new compatible diarrhea if it develops. Hazzard 8e, p. 1675, and AGA 2026, advice 12.",
+    "questionIds": [
+      "mcq-1eb064d03b4a7940c7ca9ab5"
+    ]
+  },
+  {
+    "id": "ch104-pneumonia-two-routes",
+    "chapter": "104",
+    "page": 1673,
+    "anchor": "exam-p1673-mcq-f487d5826d3f57bd7350d653",
+    "front": "After recent admission for CDI, a patient with pneumonia is confused and hypotensive. What do IV and oral vancomycin each contribute?",
+    "back": "IV vancomycin covers MRSA when risk warrants it. Piperacillin–tazobactam covers susceptible gram-negative pathogens. Oral vancomycin adds no lung activity. Evaluate severe community-onset pneumonia, including atypical coverage and specific resistance risks, separately from CDI prevention. Hazzard 8e, pp. 1673, 1675.",
+    "questionIds": [
+      "mcq-f487d5826d3f57bd7350d653"
+    ]
+  },
+  {
+    "id": "ch104-fuogca",
+    "chapter": "104",
+    "page": 1675,
+    "anchor": "exam-p1675-mcq-c8b02247f79a908e51cd5f6b",
+    "front": "In an older patient with prolonged unexplained fever, which inflammatory diseases replace lupus in the differential?",
+    "back": "Giant cell arteritis with polymyalgia rheumatica and polyarteritis nodosa. In the pooled series temporal arteritis/PMR was the largest individual grouping at 19% of all cases, although infection was the largest overall category. Hazzard 8e, pp. 1675–1676, Table 104-2.",
+    "questionIds": [
+      "mcq-863336ec5faa197f470aa3e6",
+      "mcq-c8b02247f79a908e51cd5f6b"
+    ]
+  },
+  {
+    "id": "ch104-fuothrombosis",
+    "chapter": "104",
+    "page": 1676,
+    "anchor": "exam-p1676-mcq-69627e46d0dee853a8d53e0e",
+    "front": "Can thrombosis cause fever of unknown origin without recurrent pulmonary embolism?",
+    "back": "Yes. Deep venous thrombosis can occasionally cause persistent fever with or without recurrent pulmonary emboli. Hematologic cancer, occult infection, vasculitis and drug fever remain important competing explanations. Hazzard 8e, pp. 1675–1676.",
+    "questionIds": [
+      "mcq-69627e46d0dee853a8d53e0e"
+    ]
+  },
+  {
+    "id": "ch104-tb-tests",
+    "chapter": "104",
+    "page": 1675,
+    "anchor": "exam-p1675-mcq-cb2418301a941a2746f83dca",
+    "front": "A BCG-vaccinated older adult has a positive skin test. What can a subsequent IGRA clarify?",
+    "back": "BCG can produce a false-positive skin test. IGRA is more specific following BCG and needs one blood draw. A positive result still requires assessment for active TB before classifying infection as latent. Hazzard 8e, pp. 1675, 1693–1694.",
+    "questionIds": [
+      "mcq-cb2418301a941a2746f83dca"
+    ]
+  },
+  {
+    "id": "ch104-afebrile-delirium",
+    "chapter": "104",
+    "page": 1669,
+    "anchor": "ch104-afebrile",
+    "front": "An older adult has new confusion and poor intake without a high temperature. What prevents both missed infection and overtreatment?",
+    "back": "Recognize that baseline temperature and febrile response may both be lower. Examine for a focus and consider alternative causes. A positive urine culture can reflect asymptomatic bacteriuria. Hazzard 8e, p. 1669.",
+    "questionIds": [
+      "mcq-e3bc0e4c400793e7d44ff0c7",
+      "mcq-9e7eddcbdf67f83af6ca4bec",
+      "mcq-77bd3f4ed50251ea9aadb9f2"
+    ]
+  },
+  {
+    "id": "ch104-initial-dose",
+    "chapter": "104",
+    "page": 1670,
+    "anchor": "ch104-dosing",
+    "front": "How can a patient need a full first antibiotic dose and a smaller maintenance dose?",
+    "back": "Rapid therapeutic exposure matters in serious infection. Later drug accumulation depends on clearance, so review renal and hepatic function, interacting drugs and toxicity. Hazzard 8e, pp. 1667, 1670.",
+    "questionIds": [
+      "mcq-96b896624f8bd5d0a8b42a01",
+      "mcq-eb4b7f5bcdaa52d76cfc4c36",
+      "mcq-bb5e3a5c32aba0206b2588a3"
+    ]
+  },
+  {
+    "id": "ch104-sepsis-source",
+    "chapter": "104",
+    "page": 1671,
+    "anchor": "ch104-sepsis",
+    "front": "Which likely source changes empirical coverage in an older adult with sepsis and a chronic urinary catheter?",
+    "back": "Urinary or gastrointestinal infection makes gram-negative bacilli especially important. Catheter-associated urinary sepsis can also involve enterococci. Select adequate empirical coverage, obtain informative cultures and narrow as results arrive. Hazzard 8e, pp. 1671–1673, Table 104-1.",
+    "questionIds": [
+      "mcq-31ecf9b8f51a46f23c556d36",
+      "mcq-ad6d93ff97243c6f35df10b3"
+    ]
+  },
+  {
+    "id": "ch104-stable-implant",
+    "chapter": "104",
+    "page": 1674,
+    "anchor": "ch104-device",
+    "front": "Why obtain cultures before starting antibiotics in stable suspected prosthetic infection?",
+    "back": "The organism and susceptibility help select therapy and determine whether implant retention is feasible. Distinguish stable patients from those needing immediate sepsis treatment. Consider function, implant stability and surgical risk. Hazzard 8e, pp. 1673–1674.",
+    "questionIds": [
+      "mcq-05cff8fb74ea0d99a8f60776"
+    ]
+  },
+  {
+    "id": "ch104-feasible-regimen",
+    "chapter": "104",
+    "page": 1670,
+    "anchor": "ch104-adherence",
+    "front": "When does antibiotic dosing frequency become a particular adherence concern?",
+    "back": "Hazzard associates more than two doses per day with poorer adherence. Ask about swallowing, sensory impairment, caregivers and existing medicines before choosing an equally effective simpler schedule. Hazzard 8e, p. 1670.",
+    "questionIds": [
+      "mcq-bf7cb43b526ce8038c0f0cb9"
+    ]
   }
 ]

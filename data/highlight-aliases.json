@@ -22154,5 +22154,151 @@
         45
       ]
     ]
+  },
+  {
+    "chapter": "78s",
+    "id": "u8",
+    "old": "Antiplatelet treatment and a high-potency statin address vascular risk. Cilostazol may improve claudication distance; use caution with heart failure (p1211).",
+    "new": "Antiplatelet treatment and a high-potency statin address vascular risk. Cilostazol may improve claudication distance and is contraindicated in heart failure of any severity (p1211 and 2024 ACC/AHA PAD guideline, section 5.7).",
+    "edits": [
+      [
+        116,
+        117,
+        116,
+        116
+      ],
+      [
+        118,
+        121,
+        117,
+        120
+      ],
+      [
+        122,
+        129,
+        121,
+        123
+      ],
+      [
+        130,
+        134,
+        124,
+        142
+      ],
+      [
+        149,
+        149,
+        157,
+        173
+      ],
+      [
+        155,
+        155,
+        179,
+        223
+      ]
+    ]
+  },
+  {
+    "chapter": "78s",
+    "id": "u26",
+    "old": "Past-exam questions linked to this chapter (2):",
+    "new": "The following subspecialty questions cite eighth-edition pages in this chapter.",
+    "edits": [
+      [
+        0,
+        9,
+        0,
+        26
+      ],
+      [
+        20,
+        26,
+        37,
+        41
+      ],
+      [
+        27,
+        29,
+        42,
+        65
+      ],
+      [
+        42,
+        47,
+        78,
+        79
+      ]
+    ]
+  },
+  {
+    "chapter": "94",
+    "id": "u27",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "The exam passages were checked against the marked eighth edition.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        3
+      ],
+      [
+        5,
+        10,
+        4,
+        8
+      ],
+      [
+        11,
+        15,
+        9,
+        38
+      ],
+      [
+        20,
+        25,
+        43,
+        49
+      ],
+      [
+        26,
+        29,
+        50,
+        56
+      ],
+      [
+        30,
+        43,
+        57,
+        64
+      ]
+    ]
+  },
+  {
+    "chapter": "94s",
+    "id": "u27",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Four past-exam questions are linked to this chapter.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        9
+      ],
+      [
+        19,
+        19,
+        24,
+        28
+      ],
+      [
+        42,
+        47,
+        51,
+        52
+      ]
+    ]
   }
 ]

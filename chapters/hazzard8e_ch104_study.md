@@ -2,6 +2,85 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 # Chapter 104 Study: Infection and Appropriate Antimicrobial Selection
 
+## What the exams asked
+
+- **C. difficile after antibiotics.** How do treatment and route change between a stable patient with diarrhea on cefuroxime and a patient with toxin-positive diarrhea and shock? [June 2022 Q73, chapter-level teaching](?chapter=104#asked-chapter) · [2020 Q90, chapter-level teaching](?chapter=104#asked-chapter).
+- **Recurrence after clinical recovery.** What changes with age, and should a patient without diarrhea receive preventive oral vancomycin during treatment for pneumonia? [June 2025 Q36](?chapter=104#exam-p1675-mcq-9314de1137fde9d2d0386670) · [June 2026 Q97](?chapter=104#exam-p1675-mcq-1eb064d03b4a7940c7ca9ab5).
+- **Severe pneumonia after a hospital stay.** Which IV drugs cover the likely resistant pathogens when that coverage is warranted, and what would oral vancomycin add? [June 2023 Basic Q115](?chapter=104#exam-p1673-mcq-f487d5826d3f57bd7350d653) · [Recurrence-prevention passage](?chapter=104#exam-p1675-mcq-f487d5826d3f57bd7350d653).
+- **Fever of unknown origin.** Why consider giant cell arteritis, where does venous thrombosis enter the differential, and how does the autoimmune contribution differ from that in younger adults? [December 2021 Q18, chapter-level teaching](?chapter=104#asked-chapter) · [May 2024 Q7](?chapter=104#exam-p1676-mcq-69627e46d0dee853a8d53e0e) · [June 2026 Q81](?chapter=104#exam-p1675-mcq-c8b02247f79a908e51cd5f6b).
+- **TB testing after BCG.** Why can the skin test be positive, and why can a positive IGRA alone never distinguish latent from active disease? [June 2025 Q58](?chapter=104#exam-p1675-mcq-cb2418301a941a2746f83dca) · [BCG cross-reactivity in Chapter 105](?chapter=105#exam-p1693-mcq-cb2418301a941a2746f83dca) · [Interpretation of a positive IGRA](?chapter=105#exam-p1694-mcq-cb2418301a941a2746f83dca).
+- **Vaccine response and prevention.** Which nutritional deficits correlate with weaker responses, and what should an 85-year-old moving to long-term care do when prior pneumococcal vaccination cannot be confirmed? [December 2021 Q55, chapter-level teaching](?chapter=104#asked-chapter) · [2020 Q35, chapter-level teaching](?chapter=104#asked-chapter).
+
+## C. difficile at three different clinical encounters
+
+**New diarrhea on an antibiotic.** Ask about the number and consistency of stools, laxatives, abdominal pain and recent antimicrobial exposure. A positive stool toxin with new diarrhea fits active disease. In the stable patient on cefuroxime, discontinue unnecessary cefuroxime and give an oral CDI agent. Fidaxomicin reduces subsequent recurrence and is preferred when feasible. Oral vancomycin remains effective and was the appropriate listed treatment. Drug withdrawal alone leaves active CDI untreated. Hazzard, pp. 1672–1673, Table 104-1. [SHEA/IDSA 2021 focused update, Table 1](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/).
+
+**Shock changes the route and urgency.** The older man with five watery stools has a pressure of 82/45 mmHg, leukocytosis and kidney injury. Hypotension is enough to recognize fulminant CDI. Give fluids and urgent multidisciplinary care, including early surgical assessment when appropriate. Start enteral vancomycin 500 mg every six hours with intravenous metronidazole 500 mg every eight hours. Consider rectal vancomycin if ileus prevents effective delivery. Avoid loperamide in this presentation. Hazzard, p. 1673, Table 104-1. [SHEA/IDSA, fulminant CDI](https://www.idsociety.org/globalassets/idsa/practice-guidelines/cdi-2021-focused-update.pdf).
+
+<span data-exam-ids="mcq-9314de1137fde9d2d0386670" data-exam-read-page="1675" data-reader-metadata="exam"></span>
+
+**Recovery followed by recurrent diarrhea.** Older age raises the risk of recurrent CDI. Repeated trips to the toilet can threaten independence even without shock, particularly in someone with impaired balance or dementia. Hazzard reports asymptomatic carriage in about 2% of community residents, 10% after outpatient health care exposure, and 20–50% in hospital or long-term care. Only about 15% of carriers in the cited data developed symptoms following antibiotic exposure. Interpret a positive result in the clinical setting (p. 1675).
+
+<span data-exam-ids="mcq-1eb064d03b4a7940c7ca9ab5" data-exam-read-page="1675" data-reader-metadata="exam"></span>
+
+**Recovery followed by pneumonia without diarrhea.** This is a prevention decision. Hazzard describes oral vancomycin prophylaxis favorably and ACG in 2021 allowed selective use in people at high risk during subsequent systemic antibiotic treatment. The AGA update published after the June 2026 exam advises against giving it for that purpose. Long-term suppression for selected people with multiple recurrences is a different indication. Treat the pneumonia, minimize unnecessary antibiotic exposure and investigate recurrent diarrhea if it appears (pp. 1672, 1675). [ACG, recommendation 18](https://gi.org/guideline/diagnosis-and-management-of-c-difficile-associated-diarrhea-and-colitis/) · [AGA, 30 June 2026, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
+
+**Recurrent disease and adjuncts.** Fidaxomicin and a vancomycin taper are options after relapse. Microbiota restoration after an appropriate course of antimicrobial treatment can help selected patients with recurrent CDI. The chapter's success estimate of 80–90% refers to transplantation for refractory relapse. Bezlotoxumab, an antibody against toxin B, was used with CDI treatment to reduce recurrence in selected patients at high risk. It was not a stand-alone treatment or general prophylaxis before unrelated antibiotics. The EU withdrew marketing authorization for commercial reasons on 20 October 2026 (p. 1675). [SHEA/IDSA, recommendations II–III](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [European Medicines Agency, Zinplava](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava).
+
+## Severe pneumonia after hospitalization
+
+<span data-exam-ids="mcq-f487d5826d3f57bd7350d653" data-exam-read-page="1673" data-reader-metadata="exam"></span>
+
+**Two weeks after discharge.** Confusion, tachypnea and hypotension require immediate sepsis assessment and effective treatment. The exam drew on the hospital-acquired pneumonia row of Table 104-1. In severe disease that row combines IV vancomycin with an antipseudomonal beta-lactam such as piperacillin–tazobactam. Oral vancomycin is poorly absorbed and provides no treatment for MRSA pneumonia. In practice this presentation is community-onset. Review previous respiratory isolates, parenteral antibiotics during the prior 90 days and local resistance risks before assigning MRSA or Pseudomonas coverage. Standard severe community-acquired pneumonia regimens include atypical coverage. Collect appropriate specimens and reassess broad treatment as results arrive (pp. 1672–1673). [ATS/IDSA, 1 October 2019, recommendations 9–11 and Table 4](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults).
+
+<span data-exam-ids="mcq-f487d5826d3f57bd7350d653" data-exam-read-page="1675" data-reader-metadata="exam"></span>
+
+**Why two vancomycin routes appeared together.** Intravenous vancomycin in the pneumonia regimen reaches the systemic circulation. The additional oral drug in the vignette was intended to prevent recurrent CDI after the recent hospitalization. No diarrhea is described. The choice about gut prophylaxis leaves the need for adequate pneumonia therapy unchanged (p. 1675). [AGA, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
+
+## Fever of unknown origin in older adults
+
+<span data-exam-ids="mcq-c8b02247f79a908e51cd5f6b" data-exam-read-page="1675" data-reader-metadata="exam"></span>
+
+**Keep duration and differential separate.** The classic definition requires a temperature above 38.3°C for at least three weeks with the cause still unclear after one week of evaluation. Age changes the differential. Hazzard describes autoimmune disease in nearly one quarter of patients over 60, a greater proportion than in younger adults. Giant cell arteritis (GCA) and polyarteritis nodosa feature prominently. Lupus was essentially absent in the older series (p. 1675).
+
+<span data-exam-ids="mcq-69627e46d0dee853a8d53e0e" data-exam-read-page="1675" data-reader-metadata="exam"></span>
+
+**Distinguish the commonest group from the commonest individual diagnosis offered.** The pooled table gives infections 35%, inflammatory disorders 28%, malignancies 19%, miscellaneous causes 5%, and undiagnosed cases 13%. GCA and polymyalgia rheumatica together account for 19% of all cases. Endocarditis and hematologic cancers each account for about 10%. This explains why the 2021 exam favors temporal arteritis with polymyalgia rheumatica among its individual choices (p. 1675, Table 104-2).
+
+<span data-exam-ids="mcq-69627e46d0dee853a8d53e0e" data-exam-read-page="1676" data-reader-metadata="exam"></span>
+
+**Remember venous thrombosis.** Deep venous thrombosis occasionally causes prolonged unexplained fever, with or without recurrent pulmonary embolism. Ask about prior immobility, pain, leg asymmetry and respiratory symptoms. Drug fever also belongs in the differential. Infections still account for the larger share in the table, while malignancy accounts for about one fifth (pp. 1675–1676).
+
+<span data-exam-ids="mcq-c8b02247f79a908e51cd5f6b" data-exam-read-page="1676" data-reader-metadata="exam"></span>
+
+**Investigate clues to arteritis promptly.** Headache, jaw claudication or visual symptoms are important, but isolated fever with persistently high inflammatory markers can be the presenting feature. Hazzard discusses temporal artery biopsy even without classic cranial symptoms when the ESR is elevated. History, examination, medication review, basic laboratory studies, appropriate cultures and chest radiography come first in undifferentiated FUO. Cross-sectional imaging can reveal occult infection or malignancy. FDG-PET/CT can localize large-vessel inflammation, and glucocorticoids can reduce diagnostic yield (p. 1676).
+
+## Tuberculosis testing and atypical presentation
+
+<span data-exam-ids="mcq-cb2418301a941a2746f83dca" data-exam-read-page="1675" data-reader-metadata="exam"></span>
+
+**What the tests can answer.** The skin test depends on delayed hypersensitivity. Its sensitivity decreases with age, and prior BCG can cause a positive reaction. IGRA requires one blood draw and is more specific after BCG. A positive IGRA indicates immune sensitization to TB. Evaluate for active disease with symptoms, examination, chest imaging and appropriate further testing before classifying infection as latent. Two-step baseline testing applies to selected skin-test settings. Older adults with active TB may have vague pain, functional or mental change and widespread infiltrates without classic hemoptysis or apical cavities (pp. 1675, 1693–1694). [Read the BCG passage](?chapter=105#exam-p1693-mcq-cb2418301a941a2746f83dca).
+
+## Vaccine response, recognition and antibiotic selection
+
+**Why nutrition matters.** Comorbidity, weakened barriers, impaired neutrophil responses and loss of naïve T-cell diversity all shape infection risk. In older outpatients, Hazzard describes weaker vaccine responses even with albumin 3.0–3.5 g/dL. Albumin also falls with illness and inflammation. There is no sharp cutoff below 3 that defines the loss of protection. A small study found weaker pneumococcal antibody responses with low vitamin B12. Correct an identified deficiency without promising improved clinical protection from indiscriminate supplementation (pp. 1667–1669). [Low B12 and response to pneumococcal polysaccharide vaccination](https://pubmed.ncbi.nlm.nih.gov/8554224/).
+
+**The older adult without a vaccine record.** Look for documentation, then vaccinate using the applicable schedule when the history remains unknown. An 85-year-old entering long-term care with diabetes, COPD and heart failure is at appreciable risk. An earlier pneumonia neither documents pneumococcal immunization nor determines the product schedule. High-dose influenza and adjuvanted zoster vaccines illustrate ways to improve responses despite immunosenescence. Immunizing caregivers can also reduce exposure (pp. 1668, 1676).
+
+**An acute change without fever.** Compare cognition, oral intake and function with baseline. Frail people often start with a lower temperature and mount a smaller rise, so serious infection can occur below 38°C. Localize the illness and consider dehydration, drug effects and noninfectious causes. Routine urine cultures for isolated confusion or surveillance cultures from chronic catheters can identify colonization. In genuine catheter-associated urosepsis, obtain appropriate cultures and promptly cover likely gram-negative bacilli, considering enterococci and individual resistance risks (pp. 1669–1673).
+
+**Immediate exposure, then a sustainable regimen.** In serious infection, choose an appropriate first dose to reach an effective concentration promptly. Adjust subsequent treatment for clearance, interactions and toxicity. Poor perfusion can limit tissue delivery even when the organism is susceptible. A regimen requiring more than two doses daily may be difficult to follow. Ask who administers each dose, whether tablets can be swallowed and how renal function and response will be monitored. Selected patients can complete treatment with a highly bioavailable oral regimen or supported outpatient IV therapy (pp. 1667, 1670).
+
+**Bloodstream, valve and device infection.** Urinary and gastrointestinal foci make enteric gram-negative bacilli especially important in older adults with sepsis. Recovery may bring new cognitive and functional disability. Endocarditis can present with little fever or leukocytosis, and transesophageal echocardiography is more sensitive when transthoracic images are limited by calcification or prosthetic material. In a stable patient with suspected prosthetic joint infection obtain informative specimens first. Early stable implants may permit debridement and retention. Instability, chronicity and limited oral drug options favor exchange. Selected patients with high surgical risk may favor suppression after discussion of functional goals (pp. 1671–1674).
+
+**Long-term care, palliation and travel.** Gastroenteritis may quickly dehydrate a frail resident. Clustered illness warrants early infection-control attention. Discuss whether an antibiotic will relieve symptoms at the end of life, as with painful candidiasis, and whether diagnostic testing will change care. For travel, review the destination, cardiac drug interactions with malaria prophylaxis, and the balance of yellow fever exposure against the higher risk of serious vaccine reactions in older adults. Fluid and electrolyte replacement is central to managing traveler's diarrhea (pp. 1671, 1675–1676).
+
+## Israeli context
+
+**טיפול בזיהום בקלוסטרידיואידס דיפיצילה בסורוקה.** בהנחיית בית החולים מומלץ להפסיק אנטיביוטיקה שאינה נחוצה. בחשד לזיהום חמור מתחילים טיפול בטרם קבלת תוצאת המעבדה. במחלה פולמיננטית ההנחיה המקומית משלבת ונקומיצין דרך הפה עם מטרונידזול דרך הווריד. בחשד למגה־קולון טוקסי פונים להדמיה ולייעוץ כירורגי. [המרכז הרפואי סורוקה, הנחיות אנטיביוטיות, עדכון 22.11.2023, ״בירור נדרש״ ו״טיפול במחלה קשה פולמיננטית״](https://soroka.dag.anova.co.il/2018/05/02/gastrointestinal-infections/).
+
+**חיסון פנאומוקוק בגיל מבוגר.** משרד הבריאות ממליץ על חיסון לבני 65 ומעלה וגם לצעירים יותר עם מחלות רקע המעלות את הסיכון. החיסון זמין לאורך השנה בקופות החולים. בהנחיית אגף האפידמיולוגיה מיום 07.01.2025 נקבע שפרבנר 20 יחליף את פרבנר 13 אצל הגורמים המחסנים החל מיום 01.02.2025. פרטי החיסון בשאלת 2020 משקפים את התרכיבים שהיו בשימוש אז. [משרד הבריאות, חיסון נגד פנאומוקוקוס, 19.11.2025, ״למה כדאי להתחסן״](https://me.health.gov.il/older-adult/services-rights/vaccines/recommended-vaccines/pneumonia-vaccine/) · [אגף האפידמיולוגיה, הנחיה 08700425, עמ׳ 1](https://www.gov.il/BlobFolder/policy/pneumo/he/files_publications_units_epidemiology_vaccine_guidelines_epi-08700425.pdf).
+
 ## Summary
 
 **Why older adults get infected more, and present differently**

@@ -5973,8 +5973,15 @@
         ],
         "bankChapter": "78",
         "passages": {
-          "1213": "Interventional Once a diagnosis of carotid stenosis is made, several factors are taken into ",
-          "1214": "Carotid artery stenting (CAS) via percutaneous approach is an acceptable approach to treatin"
+          "1213": {
+            "text": "In symptomatic patients with 50% to 69% stenosis, risk-benefit analysis should be given careful consideration prior to intervention",
+            "rangeText": "In symptomatic patients with 50% to 69% stenosis, risk-benefit analysis should be given careful consideration prior to intervention"
+          },
+          "1214": {
+            "text": "support intervention, but only in centers that have excellent perioperative outcomes.",
+            "rangeText": "support intervention, but only in centers that have excellent perioperative outcomes.",
+            "contextPage": 1213
+          }
         }
       }
     },
@@ -9054,8 +9061,15 @@
           "104-2"
         ],
         "passages": {
-          "1675": "Table 104-2 — Fever of unknown origin (FUO) in older patients",
-          "1676": "The diagnostic algorithm for older adults is influenced by the age-varied differential diagn"
+          "1675": {
+            "text": "Other (pulmonary emboli, drug fever)",
+            "rangeText": "Other (pulmonary emboli, drug fever)"
+          },
+          "1676": {
+            "text": "and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.",
+            "rangeText": "and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.",
+            "contextPage": 1675
+          }
         }
       }
     },
@@ -9762,7 +9776,10 @@
         ],
         "bankChapter": "78",
         "passages": {
-          "1211": "Pharmacologic Medical management should consist of an antiplatelet agent in conjunction with"
+          "1211": {
+            "text": "Exercise therapy is classically performed by having patients walk beyond the onset of pain for as long as they can safely tolerate",
+            "rangeText": "Exercise therapy is classically performed by having patients walk beyond the onset of pain for as long as they can safely tolerate"
+          }
         }
       }
     },
@@ -10043,7 +10060,7 @@
           "94"
         ],
         "passages": {
-          "1480": "Causes of Anemia in the Older Adult The prevalence of different causes of anemia varies in d"
+          "1480": "Erythropoiesis-stimulating agents (ESAs) are analogs of EPO and widely used in end-stage renal disease–related anemia and patients with MDS with moderate to severe anemia. Data on application of ESAs in other causes of anemia including UAE are limited."
         }
       }
     },
@@ -16477,7 +16494,10 @@
           "104"
         ],
         "passages": {
-          "1675": "CDI disproportionately affects older adults and results in greater morbidity and mortality. "
+          "1675": {
+            "text": "but the risk of relapse after treatment is much greater in older adults",
+            "rangeText": "but the risk of relapse after treatment is much greater in older adults"
+          }
         }
       }
     },
@@ -17139,9 +17159,19 @@
           "104"
         ],
         "passages": {
-          "1675": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age. Newer d",
-          "1693": "The IGRA test (interferon-γ release assay) was designed to improve latent TB infection diagn",
-          "1694": "latent TB infection or TB disease. A negative IGRA test result indicates little likelihood o"
+          "1675": {
+            "text": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age.",
+            "rangeText": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age."
+          },
+          "1693": {
+            "text": "in persons receiving the bacillus Calmette-Guerin (BCG) vaccine.",
+            "rangeText": "in persons receiving the bacillus Calmette-Guerin (BCG) vaccine."
+          },
+          "1694": {
+            "text": "latent TB infection or TB disease.",
+            "rangeText": "latent TB infection or TB disease.",
+            "contextPage": 1693
+          }
         }
       }
     },
@@ -20681,8 +20711,14 @@
         ],
         "bankChapter": "104",
         "passages": {
-          "1676": "Another potentially valuable modality, 18F-FDG-PET/CT is superior to tagged WBC scans or gal",
-          "1675": "FUO is classically defined as temperature more than 101°F (38.3°C) for at least 3 weeks and "
+          "1676": {
+            "text": "temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults.",
+            "rangeText": "temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults."
+          },
+          "1675": {
+            "text": "autoimmune disease is a more frequent cause of FUO in adults older than 60 years",
+            "rangeText": "autoimmune disease is a more frequent cause of FUO in adults older than 60 years"
+          }
         }
       }
     },
@@ -21100,7 +21136,10 @@
           "104"
         ],
         "passages": {
-          "1675": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps"
+          "1675": {
+            "text": "Vancomycin prophylaxis is also be effective.",
+            "rangeText": "Vancomycin prophylaxis is also be effective."
+          }
         }
       }
     },
@@ -22279,8 +22318,14 @@
           "78"
         ],
         "passages": {
-          "1217": "Evaluation The gold standard for initial evaluation of CVI is duplex ultrasonography. Utiliz",
-          "1216": "Definition Chronic venous insufficiency (CVI) is a condition of altered blood flow in the le"
+          "1217": {
+            "text": "The gold standard for initial evaluation of CVI is duplex ultrasonography.",
+            "rangeText": "The gold standard for initial evaluation of CVI is duplex ultrasonography."
+          },
+          "1216": {
+            "text": "A common finding in older adults is lipodermatosclerosis and hemosiderin deposition at the malleolar level.",
+            "rangeText": "A common finding in older adults is lipodermatosclerosis and hemosiderin deposition at the malleolar level."
+          }
         }
       }
     },
@@ -26466,7 +26511,10 @@
           "104-1"
         ],
         "passages": {
-          "1675": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps",
+          "1675": {
+            "text": "Vancomycin prophylaxis is also be effective.",
+            "rangeText": "Vancomycin prophylaxis is also be effective."
+          },
           "1673": {
             "text": "Table 104-1",
             "contextPage": 1674,
