@@ -1699,7 +1699,21 @@
     "chapter": "60s",
     "id": "u11",
     "old": "New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — only if meningitis/encephalitis suspected (p922).",
-    "new": "New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922)."
+    "new": "New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922). Interpret urine findings in context. With delirium and bacteriuria alone, and no urinary symptoms, fever or hemodynamic instability, assess other causes and observe rather than treating bacteriuria. IDSA, recommendation V.1.",
+    "edits": [
+      [
+        225,
+        229,
+        225,
+        234
+      ],
+      [
+        274,
+        274,
+        279,
+        504
+      ]
+    ]
   },
   {
     "chapter": "60s",
@@ -20654,6 +20668,770 @@
         93,
         93,
         213
+      ]
+    ]
+  },
+  {
+    "chapter": "8s",
+    "id": "u32",
+    "old": "Past-exam questions linked to this chapter (2):",
+    "new": "Two past-exam questions cite printed pages in Chapter 8.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        8
+      ],
+      [
+        20,
+        26,
+        24,
+        28
+      ],
+      [
+        27,
+        29,
+        29,
+        36
+      ],
+      [
+        30,
+        34,
+        37,
+        42
+      ],
+      [
+        35,
+        42,
+        43,
+        45
+      ],
+      [
+        43,
+        47,
+        46,
+        56
+      ]
+    ]
+  },
+  {
+    "chapter": "26",
+    "id": "u43",
+    "old": "Not cited in the 2020-2026 past papers.",
+    "new": "Six past questions cite Israeli legal material or Ministry instructions, with no direct citation to the U.S. textbook chapter.",
+    "edits": [
+      [
+        0,
+        3,
+        0,
+        3
+      ],
+      [
+        4,
+        9,
+        4,
+        8
+      ],
+      [
+        10,
+        12,
+        9,
+        99
+      ],
+      [
+        17,
+        26,
+        104,
+        108
+      ],
+      [
+        27,
+        31,
+        109,
+        117
+      ],
+      [
+        32,
+        38,
+        118,
+        125
+      ]
+    ]
+  },
+  {
+    "chapter": "26s",
+    "id": "u26",
+    "old": "No past-exam questions are currently linked to this chapter.",
+    "new": "Six past questions link to this chapter through Israeli statutes and Ministry instructions, with no direct Hazzard citation.",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        7,
+        12,
+        8,
+        8
+      ],
+      [
+        23,
+        43,
+        19,
+        23
+      ],
+      [
+        59,
+        59,
+        39,
+        123
+      ]
+    ]
+  },
+  {
+    "chapter": "8s",
+    "id": "u10",
+    "old": "The chapter reports PHQ-9 above 10 with 88% sensitivity and 88% specificity; for dementia, caregiver-rated Cornell score at least 6 has 93% sensitivity and 97% specificity (p123).",
+    "new": "The chapter reports PHQ-9 above 10 with 88% sensitivity and 88% specificity; for dementia, it reports 93% sensitivity and 97% specificity at a Cornell score of at least 6 (p123). In the original Cornell instrument, the clinician rates symptoms using information from the patient and an informant. Alexopoulos et al., 1988.",
+    "edits": [
+      [
+        91,
+        106,
+        91,
+        93
+      ],
+      [
+        107,
+        135,
+        94,
+        101
+      ],
+      [
+        172,
+        172,
+        138,
+        171
+      ],
+      [
+        179,
+        179,
+        178,
+        322
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u5",
+    "old": "NPS → higher mortality, faster cognitive decline, and are a top driver of institutionalization.",
+    "new": "NPS are associated with higher mortality, faster cognitive decline and institutional placement (pp. 919–920).",
+    "edits": [
+      [
+        4,
+        5,
+        4,
+        23
+      ],
+      [
+        48,
+        49,
+        66,
+        66
+      ],
+      [
+        54,
+        57,
+        71,
+        84
+      ],
+      [
+        58,
+        59,
+        85,
+        94
+      ],
+      [
+        60,
+        63,
+        95,
+        99
+      ],
+      [
+        64,
+        94,
+        100,
+        108
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u11",
+    "old": "New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922).",
+    "new": "New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922). Interpret urine findings in context. With delirium and bacteriuria alone, and no urinary symptoms, fever or hemodynamic instability, assess other causes and observe rather than treating bacteriuria. IDSA, recommendation V.1.",
+    "edits": [
+      [
+        279,
+        279,
+        279,
+        504
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u27",
+    "old": "Clozapine 6.25–75 mg/day — low EPS risk, so a good option for psychotic symptoms in DLB (DLB/PD patients are extremely EPS-sensitive, except to clozapine); limited by neutropenia/agranulocytosis — weekly blood draws in the first 6 months (p928).",
+    "new": "Clozapine 6.25–75 mg/day — lower motor risk than potent dopamine blockers, but it can still cause serious harm. Evidence of benefit comes from Parkinson disease psychosis. Efficacy and tolerability specifically in DLB remain uncertain. Seek specialist input if persistent dangerous or severely distressing psychosis warrants a trial. DLB Consortium consensus. Use is limited by neutropenia/agranulocytosis — weekly blood draws in the first 6 months (p928).",
+    "edits": [
+      [
+        27,
+        30,
+        27,
+        32
+      ],
+      [
+        31,
+        34,
+        33,
+        38
+      ],
+      [
+        39,
+        39,
+        43,
+        73
+      ],
+      [
+        41,
+        43,
+        75,
+        78
+      ],
+      [
+        44,
+        45,
+        79,
+        81
+      ],
+      [
+        46,
+        50,
+        82,
+        85
+      ],
+      [
+        51,
+        57,
+        86,
+        91
+      ],
+      [
+        58,
+        61,
+        92,
+        97
+      ],
+      [
+        62,
+        71,
+        98,
+        105
+      ],
+      [
+        72,
+        80,
+        106,
+        210
+      ],
+      [
+        88,
+        89,
+        218,
+        334
+      ],
+      [
+        92,
+        95,
+        337,
+        337
+      ],
+      [
+        96,
+        104,
+        338,
+        348
+      ],
+      [
+        105,
+        108,
+        349,
+        359
+      ],
+      [
+        109,
+        118,
+        360,
+        363
+      ],
+      [
+        119,
+        155,
+        364,
+        366
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u31",
+    "old": "Escitalopram — the cleaner S-enantiomer of citalopram; being studied for agitation (S-CitAD) (p930).",
+    "new": "Escitalopram — the S-enantiomer of citalopram. S-CitAD, ongoing when p930 was written, later found no significant benefit for agitation at 12 weeks. S-CitAD trial.",
+    "edits": [
+      [
+        18,
+        26,
+        18,
+        18
+      ],
+      [
+        53,
+        54,
+        45,
+        46
+      ],
+      [
+        55,
+        60,
+        47,
+        55
+      ],
+      [
+        61,
+        68,
+        56,
+        121
+      ],
+      [
+        83,
+        84,
+        136,
+        149
+      ],
+      [
+        91,
+        92,
+        156,
+        156
+      ],
+      [
+        93,
+        99,
+        157,
+        162
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u33",
+    "old": "Mirtazapine — sedating at lower doses; in one RCT (24 vs 16) no benefit over placebo for sleep in dementia, with increased daytime sleepiness (p930).",
+    "new": "Mirtazapine — sedating at lower doses; in the sleep pilot, 8 received mirtazapine and 16 placebo (24 total). Nighttime sleep did not improve and daytime sleepiness increased. Page 930 misstates the treatment-group size. Scoralick et al., methods and results.",
+    "edits": [
+      [
+        42,
+        45,
+        42,
+        45
+      ],
+      [
+        46,
+        49,
+        46,
+        96
+      ],
+      [
+        54,
+        56,
+        101,
+        108
+      ],
+      [
+        57,
+        88,
+        109,
+        118
+      ],
+      [
+        95,
+        97,
+        125,
+        128
+      ],
+      [
+        98,
+        107,
+        129,
+        132
+      ],
+      [
+        108,
+        112,
+        133,
+        140
+      ],
+      [
+        113,
+        122,
+        141,
+        144
+      ],
+      [
+        142,
+        148,
+        164,
+        173
+      ],
+      [
+        149,
+        149,
+        174,
+        258
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u117",
+    "old": "Which antipsychotic's low EPS risk makes it a good option for psychotic symptoms in dementia with Lewy bodies, and what limits its use?",
+    "new": "Which antipsychotic has relatively low motor toxicity, and what limits extrapolating its Parkinson psychosis evidence to dementia with Lewy bodies?",
+    "edits": [
+      [
+        19,
+        21,
+        19,
+        34
+      ],
+      [
+        26,
+        29,
+        39,
+        44
+      ],
+      [
+        30,
+        34,
+        45,
+        54
+      ],
+      [
+        35,
+        40,
+        55,
+        58
+      ],
+      [
+        41,
+        43,
+        59,
+        63
+      ],
+      [
+        44,
+        45,
+        64,
+        70
+      ],
+      [
+        46,
+        50,
+        71,
+        84
+      ],
+      [
+        51,
+        57,
+        85,
+        88
+      ],
+      [
+        58,
+        61,
+        89,
+        98
+      ],
+      [
+        62,
+        71,
+        99,
+        108
+      ],
+      [
+        72,
+        80,
+        109,
+        117
+      ],
+      [
+        81,
+        83,
+        118,
+        120
+      ],
+      [
+        109,
+        134,
+        146,
+        146
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u118",
+    "old": "Clozapine — limited by serious adverse effects (neutropenia/agranulocytosis) and close laboratory monitoring: weekly blood draws in the first 6 months (p928).",
+    "new": "Clozapine has lower motor toxicity, but efficacy and tolerability in dementia with Lewy bodies are uncertain. Neutropenia can be life-threatening and requires absolute neutrophil count monitoring, typically weekly in the first six months (p928).",
+    "edits": [
+      [
+        10,
+        11,
+        10,
+        13
+      ],
+      [
+        12,
+        19,
+        14,
+        19
+      ],
+      [
+        20,
+        22,
+        20,
+        25
+      ],
+      [
+        23,
+        30,
+        26,
+        35
+      ],
+      [
+        31,
+        38,
+        36,
+        39
+      ],
+      [
+        39,
+        76,
+        40,
+        48
+      ],
+      [
+        81,
+        86,
+        53,
+        65
+      ],
+      [
+        87,
+        97,
+        66,
+        184
+      ],
+      [
+        108,
+        109,
+        195,
+        206
+      ],
+      [
+        116,
+        128,
+        213,
+        213
+      ],
+      [
+        142,
+        143,
+        227,
+        230
+      ]
+    ]
+  },
+  {
+    "chapter": "79s",
+    "id": "u28",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Past-exam questions linked to this chapter (6):",
+    "edits": [
+      [
+        44,
+        45,
+        44,
+        45
+      ]
+    ]
+  },
+  {
+    "chapter": "79s",
+    "id": "u9",
+    "old": "For ambulatory community-living older adults, the cited guideline uses a systolic goal of 130 mm Hg; high comorbidity burden or limited life expectancy calls for patient-informed judgment (p1223).",
+    "new": "For ambulatory community-living older adults, p1223 summarizes the goal as 130 mm Hg. The 2017 guideline specifies below 130 if average systolic pressure is at least 130. Substantial comorbidity or limited life expectancy calls for individualized judgment.",
+    "edits": [
+      [
+        46,
+        46,
+        46,
+        63
+      ],
+      [
+        49,
+        81,
+        66,
+        66
+      ],
+      [
+        87,
+        89,
+        72,
+        74
+      ],
+      [
+        99,
+        100,
+        84,
+        85
+      ],
+      [
+        101,
+        105,
+        86,
+        182
+      ],
+      [
+        117,
+        124,
+        194,
+        194
+      ],
+      [
+        162,
+        178,
+        232,
+        246
+      ],
+      [
+        187,
+        195,
+        255,
+        255
+      ]
+    ]
+  },
+  {
+    "chapter": "15s",
+    "id": "u85",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Clinical focus includes delirium, cognition, elder protection and safe discharge.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        8
+      ],
+      [
+        5,
+        10,
+        9,
+        14
+      ],
+      [
+        11,
+        15,
+        15,
+        23
+      ],
+      [
+        16,
+        19,
+        24,
+        33
+      ],
+      [
+        20,
+        25,
+        34,
+        44
+      ],
+      [
+        26,
+        29,
+        45,
+        50
+      ],
+      [
+        30,
+        43,
+        51,
+        80
+      ]
+    ]
+  },
+  {
+    "chapter": "15",
+    "id": "u40",
+    "old": "Status.",
+    "new": "Clinical scope.",
+    "edits": [
+      [
+        0,
+        6,
+        0,
+        14
+      ]
+    ]
+  },
+  {
+    "chapter": "15",
+    "id": "u41",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Assessment, treatment and disposition of older adults in the emergency department.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        11
+      ],
+      [
+        5,
+        10,
+        12,
+        21
+      ],
+      [
+        11,
+        15,
+        22,
+        56
+      ],
+      [
+        20,
+        25,
+        61,
+        70
+      ],
+      [
+        26,
+        43,
+        71,
+        81
       ]
     ]
   }

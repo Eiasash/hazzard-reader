@@ -3325,7 +3325,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "26",
+          "anchor": "ch26-medical-poa",
+          "label": "עריכת ייפוי כוח רפואי"
+        }
+      ],
+      "referenceNote": "The published bibliography prints only חוק (law). Section 32טו is related Israeli legal reading for the health-only instrument. Both A and D were accepted after appeal."
     },
     "mcq-84d3d5742962924755e8f0b3": {
       "sitting": "2022-Jun",
@@ -3447,7 +3455,10 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "97",
+      "bankChapterTitle": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
+      "referenceNote": "The bibliography names GRS Endocrinology, Adrenal Insufficiency. The bank topic is adrenal insufficiency in Chapter 97. No eighth-edition page is cited."
     },
     "mcq-541d754d4b0be259fbc19247": {
       "sitting": "2022-Jun",
@@ -4849,22 +4860,25 @@
           "page": 928,
           "chapter": "60",
           "available": true,
+          "rangeText": "Aside from depression, antidepressants are also used to treat other NPS",
           "anchor": "exam-p928-mcq-45b29368078d5d087a1a0b91",
-          "passage": "Aside from depression, antidepressants are also used to treat other NPS, including anxiety, "
+          "passage": "Aside from depression, antidepressants are also used to treat other NPS"
         },
         {
           "page": 929,
           "chapter": "60",
           "available": true,
+          "rangeText": "They are considered first-line therapy for late-life depression",
           "anchor": "exam-p929-mcq-45b29368078d5d087a1a0b91",
-          "passage": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act "
+          "passage": "They are considered first-line therapy for late-life depression"
         },
         {
           "page": 930,
           "chapter": "60",
           "available": true,
+          "rangeText": "there was no difference between mirtazapine and placebo",
           "anchor": "exam-p930-mcq-45b29368078d5d087a1a0b91",
-          "passage": "Mirtazapine Mirtazapine is a nonadrenergic and specific serotonergic antidepressant. In the "
+          "passage": "there was no difference between mirtazapine and placebo"
         }
       ],
       "tables": [],
@@ -4915,7 +4929,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "79",
+          "page": 1223,
+          "anchor": "ch79-intensive-time",
+          "label": "Related Hazzard 8e teaching, p. 1223, individualizing the systolic target"
+        }
+      ]
     },
     "mcq-c6a327d1e984cf14664a4c22": {
       "sitting": "2023-Jun",
@@ -4931,8 +4953,9 @@
           "page": 927,
           "chapter": "60",
           "available": true,
+          "rangeText": "when nonpharmacologic approaches have been tried, and when symptoms are severe and dangerous",
           "anchor": "exam-p927-mcq-c6a327d1e984cf14664a4c22",
-          "passage": "The Clinical Antipsychotic Trial of International Effectiveness—Alzheimer’s Disease (CATIE-A"
+          "passage": "when nonpharmacologic approaches have been tried, and when symptoms are severe and dangerous"
         }
       ],
       "tables": [],
@@ -6027,7 +6050,16 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "8",
+          "page": 121,
+          "anchor": "ch8-chair-stand",
+          "label": "Hazzard 8e, p. 121, unassisted chair rise and lower-limb strength"
+        }
+      ],
+      "referenceNote": "The examination cites Mobility Assessment in Older Adults (NEJM 2021) and shows the chair stand in photograph 6. Hazzard 8e p. 121 is related teaching."
     },
     "mcq-7025f4162f1dd6a89f317d36": {
       "sitting": "2023-Jun",
@@ -6484,13 +6516,15 @@
           "page": 209,
           "chapter": "15",
           "available": true,
+          "rangeText": "but is associated with an increased hospital length of stay, cognitive and functional decline, and post-hospital depression.",
           "anchor": "exam-p209-mcq-c040b7a76725684cad927088",
-          "passage": "A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) or develop ("
+          "passage": "but is associated with an increased hospital length of stay, cognitive and functional decline, and post-hospital depression."
         },
         {
           "page": 210,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_table-15-3_p210.webp",
           "anchor": "exam-p210-mcq-c040b7a76725684cad927088",
           "passage": "Table 15-3"
         }
@@ -7149,7 +7183,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "26",
+          "anchor": "ch26-unsafe-driver",
+          "label": "נהג משאית עם דמנציה ופגיעה בשיפוט"
+        }
+      ],
+      "referenceNote": "The published bibliography names the Traffic Ordinance. The reporting duty is section 12b(a). Circular 6/2023 postdates the June 2023 sitting and is linked for subsequent implementation."
     },
     "mcq-6e0a38035542e644273558de": {
       "sitting": "2023-Jun",
@@ -7246,6 +7288,7 @@
           "page": 211,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp",
           "anchor": "exam-p211-mcq-b345342fb42d42167d25ca2b",
           "passage": "Figure 15-2 continued"
         }
@@ -8170,8 +8213,9 @@
           "page": 873,
           "chapter": "57",
           "available": true,
+          "rangeText": "Frontotemporal lobar degeneration (FTLD) is caused by a range",
           "anchor": "exam-p873-mcq-bdc90ebe3c1c31ceaf06284d",
-          "passage": "Frontotemporal lobar degeneration (FTLD) is caused by a range of underlying neuropathologic "
+          "passage": "Frontotemporal lobar degeneration (FTLD) is caused by a range"
         },
         {
           "page": 933,
@@ -8185,16 +8229,18 @@
       ],
       "chapters": [
         "57",
-        "63",
-        "60"
+        "63"
       ],
       "bankChapter": "57",
-      "referenceNote": "IMA names Chapters 57 and 63, pp. 873 and 933 and Table 63-5. Printed p. 933 is in Chapter 60. Table 63-5 is on p. 993.",
+      "referenceNote": "IMA lists Chapters 57 and 63, pp. 873 and 933, and Table 63-5. Printed p. 933 contains references. Table 63-5 is on p. 993 and lists tau and TDP-43 for behavioral-variant frontotemporal dementia.",
       "supportPages": [
         {
           "page": 993,
           "chapter": "63",
-          "available": true
+          "available": true,
+          "imageFile": "hazzard8e_ch63_table63-5_p993.png",
+          "anchor": "exam-p993-mcq-bdc90ebe3c1c31ceaf06284d",
+          "passage": "Table 63-5"
         }
       ]
     },
@@ -9106,8 +9152,9 @@
           "page": 924,
           "chapter": "60",
           "available": true,
+          "rangeText": "Provider investigates possible causes of problem behavior",
           "anchor": "exam-p924-mcq-18490c5933b53a866c445587",
-          "passage": "Table 60-4 — Describe, investigate, create, and evaluate (DICE) approach (printed 924)"
+          "passage": "Provider investigates possible causes of problem behavior"
         }
       ],
       "tables": [
@@ -9117,7 +9164,7 @@
         "60",
         "64"
       ],
-      "referenceNote": "The bibliography names Chapter 64. Printed p. 924 is in Chapter 60."
+      "referenceNote": "The IMA chapter column says 64. Its page 924 and Table 60-4 both belong to Chapter 60 and teach the DICE model."
     },
     "mcq-48a5d49ae2033ae5ac32e7a1": {
       "sitting": "2024-May",
@@ -9337,6 +9384,7 @@
           "page": 211,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp",
           "anchor": "exam-p211-mcq-8c8695c6e0e9292f086c2501",
           "passage": "Figure 15-2 continued"
         },
@@ -9424,8 +9472,9 @@
           "page": 922,
           "chapter": "60",
           "available": true,
+          "rangeText": "Metoclopramide (Reglan)",
           "anchor": "exam-p922-mcq-57825e4b2e4819d0b41d9393",
-          "passage": "Table 60-3 — Medications with anticholinergic activity, which have increased risk of causing"
+          "passage": "Metoclopramide (Reglan)"
         }
       ],
       "tables": [
@@ -9450,8 +9499,9 @@
           "page": 928,
           "chapter": "60",
           "available": true,
+          "rangeText": "High risk of EPS, sedation, orthostatic hypotension, seizure",
           "anchor": "exam-p928-mcq-4ea0e38022bf9d5645f8e014",
-          "passage": "Table 60-8 — Select antipsychotic dosages and side effects (printed 928)"
+          "passage": "High risk of EPS, sedation, orthostatic hypotension, seizure"
         }
       ],
       "tables": [
@@ -9888,24 +9938,26 @@
           "page": 919,
           "chapter": "60",
           "available": true,
+          "rangeText": "Difficult behaviors and psychotic symptoms are among the highest determinants of institutionalization",
           "anchor": "exam-p919-mcq-482e5db0580ad7a0c6dcd21c",
-          "passage": "Nonpharmacologic interventions should be the first-line treatment and antipsychotics should "
+          "passage": "Difficult behaviors and psychotic symptoms are among the highest determinants of institutionalization"
         },
         {
           "page": 920,
           "chapter": "60",
           "available": true,
           "contextPage": 919,
-          "rangeText": "Appropriate indications for medications include failure of nonpharmacologic therapies and presence of NPS severe enough to interfere with the patient’s overall quality of life and function.",
+          "rangeText": "Appropriate indications for medications include failure of nonpharmacologic therapies",
           "anchor": "exam-p920-mcq-482e5db0580ad7a0c6dcd21c",
-          "passage": "Appropriate indications for medications include failure of nonpharmacologic therapies and pr"
+          "passage": "Appropriate indications for medications include failure of nonpharmacologic therapies"
         },
         {
           "page": 927,
           "chapter": "60",
           "available": true,
+          "rangeText": "their efficacy is modest",
           "anchor": "exam-p927-mcq-482e5db0580ad7a0c6dcd21c",
-          "passage": "Antipsychotics provide (at times considerable) benefit to some patients with psychosis and a"
+          "passage": "their efficacy is modest"
         }
       ],
       "tables": [],
@@ -10083,15 +10135,17 @@
           "page": 922,
           "chapter": "60",
           "available": true,
+          "rangeText": "Presentation with acute changes in cognition and behavior should raise suspicion for delirium",
           "anchor": "exam-p922-mcq-9fd00abfaa6396324e34c1d1",
-          "passage": "Differential diagnosis for NPS includes: medical conditions, delirium and primary psychiatri"
+          "passage": "Presentation with acute changes in cognition and behavior should raise suspicion for delirium"
         },
         {
           "page": 923,
           "chapter": "60",
           "available": true,
+          "rangeText": "Delirium is characterized by acute onset over hours or days with a fluctuating course",
           "anchor": "exam-p923-mcq-9fd00abfaa6396324e34c1d1",
-          "passage": "If a patient exhibits a sudden drop or fluctuation of cognition, delirium should be consider"
+          "passage": "Delirium is characterized by acute onset over hours or days with a fluctuating course"
         }
       ],
       "tables": [],
@@ -10113,8 +10167,9 @@
           "page": 929,
           "chapter": "60",
           "available": true,
+          "rangeText": "GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, headache",
           "anchor": "exam-p929-mcq-63bf3798074f1dec36283b45",
-          "passage": "Table 60-9 — Antidepressant oral dosages and side effects (printed 929)"
+          "passage": "GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, headache"
         }
       ],
       "tables": [
@@ -10495,6 +10550,7 @@
           "page": 210,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-2_p210.webp",
           "anchor": "exam-p210-mcq-e3a98b6ee3b58c73a12e6ed4",
           "passage": "Figure 15-2"
         }
@@ -10504,12 +10560,15 @@
         "15"
       ],
       "bankChapter": "15",
-      "referenceNote": "Paper cites p.210; AMT4 is on p.211, the continuation of Figure 15-2.",
+      "referenceNote": "The bibliography cites p. 210, where Figure 15-2 begins with bCAM. The 4AT and its AMT4 questions appear in the continuation on p. 211.",
       "supportPages": [
         {
           "page": 211,
           "chapter": "15",
-          "available": true
+          "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp",
+          "anchor": "exam-p211-mcq-e3a98b6ee3b58c73a12e6ed4",
+          "passage": "Figure 15-2 continued"
         }
       ],
       "figures": [
@@ -11933,8 +11992,9 @@
           "page": 927,
           "chapter": "60",
           "available": true,
+          "rangeText": "Psychotropic use (particularly antipsychotics) should be time-limited",
           "anchor": "exam-p927-mcq-eb1d5bba9a6717079d54d5d1",
-          "passage": "Table 60-7 — General guidelines for starting psychotropic medications for neuropsychiatric s"
+          "passage": "Psychotropic use (particularly antipsychotics) should be time-limited"
         }
       ],
       "tables": [
@@ -12399,8 +12459,9 @@
           "page": 929,
           "chapter": "60",
           "available": true,
+          "rangeText": "Anticholinergic effects may increase risk of delirium",
           "anchor": "exam-p929-mcq-4641bad3c4f4169ea022ed51",
-          "passage": "Table 60-9 — Antidepressant oral dosages and side effects (printed 929)"
+          "passage": "Anticholinergic effects may increase risk of delirium"
         }
       ],
       "tables": [
@@ -12796,8 +12857,9 @@
           "page": 925,
           "chapter": "60",
           "available": true,
+          "rangeText": "Some patients who do not respond to nonpharmacologic approaches may require targeted medication therapy",
           "anchor": "exam-p925-mcq-2da4c054f7061a52e843c385",
-          "passage": "Nonpharmacologic interventions are first-line in the management of NPS in dementia patients "
+          "passage": "Some patients who do not respond to nonpharmacologic approaches may require targeted medication therapy"
         }
       ],
       "tables": [],
@@ -13188,7 +13250,16 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "15",
+          "page": 135,
+          "anchor": "ch15-il-yearbook",
+          "label": "שנתון ברוקדייל 2024, עמ׳ 135, שיעורי ביקורים במיון"
+        }
+      ],
+      "referenceNote": "Brookdale Statistical Yearbook 2024, printed p. 135 (PDF page 137). Table 2.21, printed p. 164, gives the underlying ED visit rates for 2022."
     },
     "mcq-05fcd2cc3d52e4ec75c5cf4b": {
       "sitting": "2026-Jun",
@@ -13279,14 +13350,24 @@
           "page": 213,
           "chapter": "15",
           "available": true,
+          "rangeText": "Preventing elder abuse requires a team-based approach that begins in the pre-hospital environment",
           "anchor": "exam-p213-mcq-632ba530eb4611e16d60adfe",
-          "passage": "Abuse of the older adult can take many forms, including physical or psychological harms, fin"
+          "passage": "Preventing elder abuse requires a team-based approach that begins in the pre-hospital environment"
         }
       ],
       "tables": [],
       "chapters": [
         "15"
-      ]
+      ],
+      "relatedTeaching": [
+        {
+          "chapter": "15",
+          "page": 6,
+          "anchor": "ch15-il-protection",
+          "label": "חוזר מנכ״ל 22/03, עמ׳ 6, הגנה ושחרור"
+        }
+      ],
+      "referenceNote": "Hazzard p. 213 describes the ED team response. Israeli Ministry of Health circular 22/03, sections 8–10, supplies the reporting and protection instructions."
     },
     "mcq-b9e9379a1932f5609365e505": {
       "sitting": "2026-Jun",
@@ -13545,6 +13626,7 @@
           "page": 124,
           "chapter": "8",
           "available": true,
+          "imageFile": "hazzard8e_ch8_figure-8-2_p124.webp",
           "anchor": "exam-p124-mcq-9f480bcc831187d54db7aa64",
           "passage": "Figure 8-2"
         },
@@ -13794,7 +13876,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "26",
+          "anchor": "ch26-urgent-poa",
+          "label": "חתימה על ניתוח דחוף כשיש ייפוי כוח"
+        }
+      ],
+      "referenceNote": "The published bibliography prints הפעלת (activation). The vignette concerns the joint urgent activation guidance of 7 August 2023. The link is related legal teaching."
     },
     "mcq-79f5aabcf9100a6621351cea": {
       "sitting": "2026-Jun",
@@ -13965,8 +14055,9 @@
           "page": 929,
           "chapter": "60",
           "available": true,
+          "rangeText": "They are considered first-line therapy for late-life depression",
           "anchor": "exam-p929-mcq-3c902dfe8cf32cf96518b8b1",
-          "passage": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act "
+          "passage": "They are considered first-line therapy for late-life depression"
         }
       ],
       "tables": [],
@@ -14762,7 +14853,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "26",
+          "anchor": "ch26-oxygen-driving",
+          "label": "חמצן בזמן נהיגה ומגבלות זמניות"
+        }
+      ],
+      "referenceNote": "The published bibliography prints חוזר (circular). The respiratory criterion is in the replacement reporting form following the 24 August 2023 update to Circular 6/2023."
     },
     "mcq-a84c59a354c18de39d822ccd": {
       "sitting": "2026-Jun",
@@ -14887,7 +14986,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "26",
+          "anchor": "ch26-supported-decisions",
+          "label": "גבולות תפקידו של תומך בקבלת החלטות"
+        }
+      ],
+      "referenceNote": "The published bibliography prints קבלת. Section 67ב and the 2024 regulations explain supported decision making. No statutory section is printed in the reference row."
     },
     "mcq-547eebb19117759411a47609": {
       "sitting": "2026-Jun",
@@ -15086,6 +15193,7 @@
           "page": 211,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp",
           "anchor": "exam-p211-mcq-be0342d1614ce894a9a67d87",
           "passage": "Figure 15-2 continued"
         },
@@ -15093,6 +15201,7 @@
           "page": 212,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-3_p212.webp",
           "anchor": "exam-p212-mcq-be0342d1614ce894a9a67d87",
           "passage": "Figure 15-3"
         },
@@ -15100,13 +15209,15 @@
           "page": 213,
           "chapter": "15",
           "available": true,
+          "rangeText": "whereas AMT-4, O3DY, and most other dementia screening instruments often yield false-negative findings",
           "anchor": "exam-p213-mcq-be0342d1614ce894a9a67d87",
-          "passage": "of not relying upon an available, communicative, or cooperative patient in the ED where pati"
+          "passage": "whereas AMT-4, O3DY, and most other dementia screening instruments often yield false-negative findings"
         },
         {
           "page": 214,
           "chapter": "15",
           "available": true,
+          "imageFile": "hazzard8e_ch15_figure-15-4_p214.webp",
           "anchor": "exam-p214-mcq-be0342d1614ce894a9a67d87",
           "passage": "Figure 15-4"
         }
@@ -15391,8 +15502,9 @@
           "page": 929,
           "chapter": "60",
           "available": true,
+          "rangeText": "Anticholinergic effects may increase risk of delirium",
           "anchor": "exam-p929-mcq-aa5c10df9c19aad52cd3cfa8",
-          "passage": "Table 60-9 — Antidepressant oral dosages and side effects (printed 929)"
+          "passage": "Anticholinergic effects may increase risk of delirium"
         }
       ],
       "tables": [
@@ -16255,7 +16367,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "60",
+          "page": 924,
+          "anchor": "ch60-agitation-investigation",
+          "label": "Related teaching · DICE investigation of modifiable causes · Hazzard 8e, p. 924"
+        }
+      ]
     },
     "mcq-bd1708e17c9f1da9803d8051": {
       "sitting": "2025-Jun",
@@ -16582,22 +16702,25 @@
           "page": 1223,
           "chapter": "79",
           "available": true,
+          "rangeText": "Its recommendation for ambulatory, community-living older adults is a SBP goal of 130 mm Hg.",
           "anchor": "exam-p1223-mcq-ba95508abaa2e8c6c5b63ba6",
-          "passage": "The optimal SBP treatment goal for patients older than 65 years has evolved from the startin"
+          "passage": "Its recommendation for ambulatory, community-living older adults is a SBP goal of 130 mm Hg."
         },
         {
           "page": 1224,
           "chapter": "79",
           "available": true,
+          "rangeText": "drug selection will depend on whether the patient’s hypertension is simple or complicated by another comorbid condition.",
           "anchor": "exam-p1224-mcq-ba95508abaa2e8c6c5b63ba6",
-          "passage": "Overview Currently available evidence supports two general principles with respect to antihy"
+          "passage": "drug selection will depend on whether the patient’s hypertension is simple or complicated by another comorbid condition."
         },
         {
           "page": 1225,
           "chapter": "79",
           "available": true,
+          "rangeText": "Patients who present with stage 2 hypertension will almost certainly require at least two drugs to control their blood pressure",
           "anchor": "exam-p1225-mcq-ba95508abaa2e8c6c5b63ba6",
-          "passage": "General treatment recommendations for stage 1 hypertension are summarized in Table 79-3. For"
+          "passage": "Patients who present with stage 2 hypertension will almost certainly require at least two drugs to control their blood pressure"
         }
       ],
       "tables": [],
@@ -16669,15 +16792,18 @@
           "page": 924,
           "chapter": "60",
           "available": true,
+          "contextPage": 923,
+          "rangeText": "In DLB, hallucinations tend to be well-formed images",
           "anchor": "exam-p924-mcq-b6e0367710cf1836980a73db",
-          "passage": "Of note, many medications used to treat Parkinson disease, such as anticholinergic agents, a"
+          "passage": "In DLB, hallucinations tend to be well-formed images"
         },
         {
           "page": 984,
           "chapter": "63",
           "available": true,
+          "rangeText": "Patients with DLB should be tried on cholinesterase inhibitors",
           "anchor": "exam-p984-mcq-b6e0367710cf1836980a73db",
-          "passage": "The clinical course of DLB is often faster than that seen in AD and a drop of four to five p"
+          "passage": "Patients with DLB should be tried on cholinesterase inhibitors"
         }
       ],
       "tables": [],
@@ -19700,8 +19826,9 @@
           "page": 929,
           "chapter": "60",
           "available": true,
+          "rangeText": "QTc prolongation at doses",
           "anchor": "exam-p929-mcq-6655a23a9c4d6fc4c36f3cf9",
-          "passage": "Selective serotonin reuptake inhibitors Selective serotonin reuptake inhibitors (SSRIs) act "
+          "passage": "QTc prolongation at doses"
         }
       ],
       "tables": [],
@@ -21684,8 +21811,9 @@
           "page": 1222,
           "chapter": "79",
           "available": true,
+          "rangeText": "older patients who present with primarily diastolic hypertension merit a careful evaluation with a focus on a renovascular cause.",
           "anchor": "exam-p1222-mcq-5c4353506d173329433ddcfd",
-          "passage": "Evaluation Similar to younger patients, more than 90% of older hypertensive patients have es"
+          "passage": "older patients who present with primarily diastolic hypertension merit a careful evaluation with a focus on a renovascular cause."
         }
       ],
       "tables": [],
@@ -21707,6 +21835,7 @@
           "page": 1221,
           "chapter": "79",
           "available": true,
+          "imageFile": "hazzard8e_ch79_table-79-1_p1221.webp",
           "anchor": "exam-p1221-mcq-7559bbef5d36d19293f61fdb",
           "passage": "Table 79-1"
         },
@@ -21714,6 +21843,7 @@
           "page": 1225,
           "chapter": "79",
           "available": true,
+          "imageFile": "hazzard8e_ch79_table-79-3_p1225.webp",
           "anchor": "exam-p1225-mcq-7559bbef5d36d19293f61fdb",
           "passage": "Table 79-3"
         }
@@ -22954,7 +23084,6 @@
     "15": {
       "ids": [
         "mcq-65c8bffe42c22e000a778db8",
-        "mcq-d7379922f12176eafcb6759f",
         "mcq-c040b7a76725684cad927088",
         "mcq-b345342fb42d42167d25ca2b",
         "mcq-8c8695c6e0e9292f086c2501",
@@ -22964,9 +23093,9 @@
         "mcq-be0342d1614ce894a9a67d87"
       ],
       "before": 4,
-      "past": 9,
+      "past": 8,
       "resolved": 6,
-      "fallback": 2,
+      "fallback": 1,
       "practice": 8,
       "chapterLinked": 1
     },
@@ -23749,7 +23878,6 @@
         "mcq-e912594a9fb26110b2414061",
         "mcq-45b29368078d5d087a1a0b91",
         "mcq-c6a327d1e984cf14664a4c22",
-        "mcq-bdc90ebe3c1c31ceaf06284d",
         "mcq-18490c5933b53a866c445587",
         "mcq-57825e4b2e4819d0b41d9393",
         "mcq-4ea0e38022bf9d5645f8e014",
@@ -23766,8 +23894,8 @@
         "mcq-6655a23a9c4d6fc4c36f3cf9"
       ],
       "before": 5,
-      "past": 22,
-      "resolved": 16,
+      "past": 21,
+      "resolved": 15,
       "fallback": 1,
       "practice": 31,
       "chapterLinked": 5
@@ -24442,6 +24570,7 @@
         "mcq-f37f1403dad31e7fe082843a",
         "mcq-0f379d4cc1e8545a79a292fb",
         "mcq-bbadbe9e5282d5e1d70af0eb",
+        "mcq-d7379922f12176eafcb6759f",
         "mcq-76624b03e2c62f9093ab0142",
         "mcq-d0fbd7b7469793665d39657d",
         "mcq-f7f1da57f641c281b8dd1d40",
@@ -24455,9 +24584,9 @@
         "mcq-dda6ac411f9ab187b0ed6d34"
       ],
       "before": 0,
-      "past": 14,
+      "past": 15,
       "resolved": 12,
-      "fallback": 0,
+      "fallback": 1,
       "practice": 24,
       "chapterLinked": 2
     },

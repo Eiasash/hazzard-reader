@@ -4,7 +4,7 @@ Marshall B. Kapp
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> Six past questions cite Israeli legal material or Ministry instructions, with no direct citation to the U.S. textbook chapter.
 
 > **Source and method.** Printed pages 361-370, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
@@ -281,3 +281,17 @@ ism and Human Rights Committee. American College of Physicians Ethics Manual, 7t
 Resources and Services Administration. NPDB Guidebook. Rockville, MD: U.S. Department of Health and Human Services; 2018. Available at [https://www](<https://www.npdb.hrsa.gov/resources/aboutGuidebooks.jsp>) .npdb.hrsa.gov/resources/aboutGuidebooks.jsp. Accessed February 2, 2021.
 
 <a id="p370"></a>**[p. 370]**
+
+## Israeli context — הדין הישראלי בהחלטות רפואיות ובנהיגה
+
+<span id="ch26-certificate" data-reader-metadata="exam"></span>**תעודת רופא לצורך מינוי אפוטרופוס.** בחולה עם בלבול ואורמיה בודקים את היכולת להבין את הצורך בצנתר, את החלופות ואת תוצאות ההחלטה. חוזר 10/2006 מונה חמישה מומחים הרשאים לערוך תעודה, ובהם מומחה ברפואה פנימית. רופא מומחה במחלה שגורמת לקושי עדיף כשאפשר. התעודה מביאה ממצאים בפני בית המשפט. לפני פנייה למינוי מבררים אם הקושי הפיך ואם ניתן מענה פחות מגביל. [חוזר 10/2006, סעיף 9.3.1, עמ׳ 4](https://www.gov.il/BlobFolder/policy/mr10-2006/he/files_circulars_mr_mr10_2006.pdf) · [חוק הכשרות המשפטית והאפוטרופסות, סעיף 33א](https://main.knesset.gov.il/apps/legislation/main/laws/2000326).
+
+<span id="ch26-unsafe-driver" data-practice-ids="mcq-892e75ca458f60b67b249129" data-reader-metadata="exam"></span>**נהג משאית עם דמנציה ופגיעה בשיפוט.** סעיף 12ב(א) לפקודת התעבורה מחייב רופא המטפל באדם מגיל 16 ומאבחן מחלה שלדעתו עלולה לגרום לסיכון בנהיגה לדווח לרשות הרפואית המוסמכת. במקרה של נהג המשאית הממשיך לנהוג, פונים למרב״ד. אין צורך בהסכמת הנהג לדיווח הנדרש בדין. מזהירים מפני המשך נהיגה ומתעדים את ההסבר. המרב״ד ממליץ ורשות הרישוי מחליטה בעניין הרישיון. [פקודת התעבורה, סעיף 12ב(א), מובא בחוזר מנכ״ל 6/2023, עמ׳ 1–3](https://www.gov.il/BlobFolder/policy/mk06-2023/he/files_circulars_mk_mk06_2023.pdf) · [חוק זכויות החולה, סעיף 20(א)(2)](https://main.knesset.gov.il/apps/legislation/main/laws/2000634).
+
+<span id="ch26-medical-poa" data-practice-ids="mcq-7425037b62dd263eb00a7790" data-reader-metadata="exam"></span>**עריכת ייפוי כוח רפואי.** אדם בגיר המסוגל להבין את משמעות ייפוי הכוח יכול לבחור מי יפעל בשמו. למסמך רפואי בלבד די בבעל מקצוע אחד מבין רופא מורשה, עובד סוציאלי, פסיכולוג רשום ואח או אחות מוסמכים, או בעורך דין. הממנה ומיופה הכוח חותמים כנדרש. מסמך הכולל גם רכוש נערך בפני עורך דין שהוכשר לכך ושאין לו עניין אישי במסמך. בחירה באחות מומחית בגריאטריה תקפה בזכות היותה אחות מוסמכת. [חוק הכשרות המשפטית והאפוטרופסות, סעיפים 32יד–32טו](https://main.knesset.gov.il/apps/legislation/main/laws/2000326).
+
+<span id="ch26-urgent-poa" data-practice-ids="mcq-ecd64ab60c729ac9474151bc" data-reader-metadata="exam"></span>**חתימה על ניתוח דחוף כשיש ייפוי כוח.** מבררים תחילה אם המטופל מסוגל להבין את הניתוח ולהסכים לו. אם אינו מסוגל, בודקים שהמסמך מכסה את ההחלטה ושמתקיימים תנאיו. בדרך הרגילה מיופת הכוח מודיעה לאפוטרופוס הכללי ומצרפת את האישורים. כשדחיית הטיפול אינה אפשרית, ההנחיה מאפשרת במקרים חריגים לקבל את הסכמתה עוד לפני האישור הרשמי, לאחר בדיקת המסמך ותיעוד ההתחייבות להסדיר את ההפעלה. במסמך שהופקד וטרם אושרה הפעלתו יכול להינתן למיופת הכוח אישור זמני לפי תנאי החוק. [הנחיית הבריאות והמשפטים, 07.08.2023, עמ׳ 1–2](https://www.gov.il/BlobFolder/generalpage/info_210823/he/medical%20directors.pdf) · [חוק זכויות החולה, סעיפים 14א ו־14ב(ה)](https://main.knesset.gov.il/apps/legislation/main/laws/2000634).
+
+<span id="ch26-oxygen-driving" data-practice-ids="mcq-b057a2ce63d661c48b469edf" data-reader-metadata="exam"></span>**חמצן בזמן נהיגה ומגבלות זמניות.** בפיברוזיס ריאתי עם צורך קבוע בחמצן מבררים אם החמצן נדרש גם בזמן הנהיגה. זהו הקריטריון הנשימתי בטופס. ישנוניות חולפת בתחילת טיפול מצריכה אזהרה להימנע מנהיגה עד להתייצבות. בחולשת גפה בודקים את השליטה בפועל ברכב ואת הצורך באביזר מותאם. יש להשתמש בטופס המעודכן שבפורטל המרב״ד. ב־24.08.2023 בוטל נספח א׳ המקורי של החוזר. [חוזר 6/2023, סעיפים 7–11, עמ׳ 3–4](https://www.gov.il/BlobFolder/policy/mk06-2023/he/files_circulars_mk_mk06_2023.pdf) · [העדכון מ־24.08.2023](https://www.gov.il/BlobFolder/policy/mk06-2023/he/files_circulars_mk_mk-275558923.pdf) · [טופס הדיווח המעודכן, הסעיף הנשימתי](https://www.gov.il/he/service/medical-fitness-reports-for-drivers).
+
+<span id="ch26-supported-decisions" data-practice-ids="mcq-9976242ecf825d241593f4bd" data-reader-metadata="exam"></span>**גבולות תפקידו של תומך בקבלת החלטות.** התומך רשאי לקבל מידע בהיקף שנקבע בצו, להנגישו ולסייע לאדם לבטא בחירה או לממש החלטה. הפעולה נשענת על רצונו של האדם. התומך אינו חותם על ניתוח או עורך הנחיות מקדימות במקום מקבל התמיכה. אם ההחמרה אינה מאפשרת החלטה גם עם עזרה, התומך מודיע לבית המשפט על השינוי המהותי. המשך הטיפול מחייב בירור של המסלול המתאים להחלטה המסוימת. [חוק הכשרות המשפטית והאפוטרופסות, סעיף 67ב](https://main.knesset.gov.il/apps/legislation/main/laws/2000326) · [תקנות קבלת החלטות נתמכת, תקנות 10(ט), 11–12, ק״ת 11262, עמ׳ 2377–2378](https://olaw.org.il/takanot/takanot-11262.pdf).
