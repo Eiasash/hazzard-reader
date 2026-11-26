@@ -7505,7 +7505,7 @@ async function restoreCloudNotebook(backup){
   if(savedPaper?.paper)$('#mockResume').textContent='Resume current paper ('+savedPaper.paper.ids.length+' questions)';
   return summary;
 }
-function notebookStatus(message){if(panel.dataset.currentPane!=='backup')flash(message,6000);const node=$('#backupStatus');node.textContent=message;node.hidden=false;viewport()}
+function notebookStatus(message){if(!panel.open||panel.dataset.currentPane!=='tools'||!settingsParts.get('backup')?.open)flash(message,6000);const node=$('#backupStatus');node.textContent=message;node.hidden=false;viewport()}
 $('#backupNotebook').onclick=()=>{
   try{
     if(mcq?.hasUnsaved)throw new Error('Some MCQ answers are not saved yet. Keep this page open and try again.');

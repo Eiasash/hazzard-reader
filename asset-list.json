@@ -8438,8 +8438,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "c7c95dadb536e778413cf1a7df74c4aa8c1204502154695824d584019055d031",
-      "bytes": 1002494
+      "sha256": "31ee94d9538471e04ab303dc13a74c1d4c6b2e40d50b88198244349fd31339cb",
+      "bytes": 1002542
     },
     {
       "url": "./js/changed-questions.js",
@@ -8528,8 +8528,8 @@
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "02ea5ef6ad8e11dc972db78601d49322709ae682f5ca5ba1982b4b2a1c9e3603",
-      "bytes": 29703
+      "sha256": "3a545750072c160fe16bb91d9299d237a1ff4364f900f65dd97a2618cef09a7e",
+      "bytes": 29770
     },
     {
       "url": "./js/reader-whats-new.js",
