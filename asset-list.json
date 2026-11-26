@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "adef7aa9219b24f98c0407fb8c0896508c24b617d49553297899cbf84281381e",
-      "bytes": 23125
+      "sha256": "9d3d8501ad6ed6f906034e3ad100ea28f4bb17d428d2a1d051e77bd30415c0db",
+      "bytes": 23548
     },
     {
       "url": "./css/reading-companion.css",
@@ -5993,8 +5993,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "102730f2e1c554fd66913a6303386e0c85b0d4821dd46e365a16deca813041df",
-      "bytes": 79544
+      "sha256": "2140e911d6388fa86a9131ca7a20ce2e7fed9f839a86ca2ab0f06213f9aaa484",
+      "bytes": 79702
     },
     {
       "url": "./data/drug-index.json",
@@ -8438,8 +8438,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "31ee94d9538471e04ab303dc13a74c1d4c6b2e40d50b88198244349fd31339cb",
-      "bytes": 1002542
+      "sha256": "99cf3dceb6e0b65c2fc9ef9986f5533c5a0b5a11aebaf99eef06504f5753cd2e",
+      "bytes": 1005422
     },
     {
       "url": "./js/changed-questions.js",
@@ -8483,8 +8483,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "bba63978c2611dac65a9b38ecac1fecc2c1c2990ccc463c3951246083ab06010",
-      "bytes": 175706
+      "sha256": "b9fb902eeaa96a3c39ed9f56c976767b33afd28ce06abad809e505e7cc6bfa40",
+      "bytes": 178392
     },
     {
       "url": "./js/memory-aids.js",
@@ -8513,8 +8513,8 @@
     },
     {
       "url": "./js/reader-input.js",
-      "sha256": "b93e464b8bbf4c6d9fba606f63a20da64f827496c34d289fcff3bf0c0e9d106a",
-      "bytes": 11189
+      "sha256": "a91f63cff6fb6c58812eb0675d42ac2af803453be0f4e73510d81819d3319a42",
+      "bytes": 13829
     },
     {
       "url": "./js/reader-sections.js",
@@ -8558,8 +8558,8 @@
     },
     {
       "url": "./js/study-page.js",
-      "sha256": "9a9da2cbd85fdfb43bbec9fef6e6dbf446fbce45c233afee4b0917bb412a8abe",
-      "bytes": 13007
+      "sha256": "a415f9c10b1d72295a88d753480ef52529772ad69b13ff3f36e9abaf85ecc94c",
+      "bytes": 13077
     },
     {
       "url": "./manifest.json",

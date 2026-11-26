@@ -1614,7 +1614,7 @@ window.HazzardAnswerHighlights = (() => {
   function read(){const value=HazzardStorage.readProtected(KEY,empty);if(!valid(value))throw Error('Answer highlights could not be read. Saved data kept.');return value;}
   const items=()=>Object.entries(read().items).filter(([,m])=>!m.removed).map(([id,m])=>({id,...m}));
   function write(value){if(HazzardStorage.blockedKeys().includes(KEY))throw Error('Answer highlights could not be read. Restore them before saving.');HazzardStorage.setItem(KEY,JSON.stringify(value));dispatchEvent(new Event('hazzard-answer-highlights-change'));}
-  function setRemoved(id,removed){const value=read(),m=value.items[id];if(!m||m.removed===removed)return;value.items[id]={...m,removed,updatedAt:Math.max(Date.now(),m.updatedAt+1)};write(value);}
+  function setRemoved(id,removed){const value=read(),m=value.items[id];if(!m||m.removed===removed)return;value.items[id]={...m,removed,updatedAt:Math.max(Date.now(),m.updatedAt+1)};if(current?.q.id===m.questionId)numberPlacedPoints(questionPoints(value),'updatedAt');write(value);}
   let current=null;
   const bridge=()=>window.HazzardHighlighter;
   function available(){return !!(current?.root.isConnected&&!current.root.closest('[hidden]')&&!current.root.closest('[inert]'));}
@@ -1651,8 +1651,9 @@ window.HazzardAnswerHighlights = (() => {
       }
       const spans=bridge().wrapIndexRange(shown,start,start+m.text.length,m.id,m.colour);
       for(const span of spans)span.dataset.answerHighlight=m.id;
-      if(spans.length){spans[0].dataset.markKey=m.id;spans[0].tabIndex=0;spans[0].setAttribute('role','button');if(m.number)spans[0].dataset.point=m.number;}
+      if(spans.length){spans[0].dataset.markKey=m.id;spans[0].tabIndex=0;spans[0].setAttribute('role','button');if(m.number){spans[0].dataset.point=m.number;spans[0].dataset.pointInk=m.colour;}}
     }
+    displayPointOrder(current.root);
   }
   function regions(){if(!current||!bridge())return [];const source=canonicalRoot(current.q),out=[{region:'main'}];for(const optionIndex of new Set([...source.querySelectorAll('.mcq-option-explanation')].map(block=>Number(block.dataset.optionIndex))))out.push({region:'option',optionIndex});return out.map(r=>({...r,text:regionIndex(source,r.region,r.optionIndex)?.s||''}));}
   function selection(range){
@@ -1669,20 +1670,53 @@ window.HazzardAnswerHighlights = (() => {
     while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
     return {questionId:current.q.id,region,...(a?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
+  function questionPoints(value){
+    if(!current)return [];
+    const source=canonicalRoot(current.q),points=[];
+    let base=0;
+    for(const option of [null,...current.order]){
+      const region=option===null?'main':'option',text=regionIndex(source,region,option)?.s;
+      if(!text)continue;
+      for(const [id,mark] of Object.entries(value.items)){
+        if(mark.removed||!mark.number||mark.questionId!==current.q.id||mark.region!==region||region==='option'&&mark.optionIndex!==option)continue;
+        const offset=findAnchor(text,mark);
+        if(offset>=0)points.push({id,mark,start:base+offset,end:base+offset+mark.text.length});
+      }
+      base+=text.length+1;
+    }
+    return points;
+  }
+  function changeRegion(value,mark,colour,erase=false){
+    const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex)?.s;
+    if(!text)return false;
+    const start=findAnchor(text,mark);if(start<0)return false;
+    const end=start+mark.text.length,items=[];
+    for(const [id,item] of Object.entries(value.items)){
+      if(item.removed||item.questionId!==mark.questionId||item.region!==mark.region||item.optionIndex!==mark.optionIndex)continue;
+      const offset=findAnchor(text,item);if(offset>=0)items.push({id,mark:item,start:offset,end:offset+item.text.length});
+    }
+    const plan=planHighlightStroke(text,start,end,items),now=Date.now();
+    for(const hit of plan.hits)value.items[hit.id]={...hit.mark,removed:true,updatedAt:Math.max(now,hit.mark.updatedAt+1)};
+    function put(left,right,fields,id='a'+crypto.randomUUID()){
+      value.items[id]={...fields,questionId:mark.questionId,region:mark.region,...(mark.region==='option'?{optionIndex:mark.optionIndex}:{}),
+        text:text.slice(left,right),prefix:text.slice(Math.max(0,left-48),left),suffix:text.slice(right,right+48),
+        at:fields.at??now,updatedAt:Math.max(now,(value.items[id]?.updatedAt||0)+1),removed:false};
+    }
+    for(const piece of plan.pieces){
+      put(piece.start,piece.end,piece.inherit?piece.source.mark:{colour:piece.source.mark.colour},piece.inherit?piece.source.id:undefined);
+    }
+    if(!erase&&plan.paint){
+      const fields={colour},notes=[...new Set(plan.consumed.map(i=>i.mark.note).filter(Boolean))];
+      if(notes.length)fields.note=notes.join('\n');
+      if(mark.number||plan.consumed.some(i=>i.mark.number))fields.number=1;
+      put(start,end,fields);
+    }
+    numberPlacedPoints(questionPoints(value),'updatedAt');return true;
+  }
   function saveSelection(colour,mark){
     if(!mark||!available()||mark.questionId!==current.q.id)return false;
-    const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
-    const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark);
-    if(start<0)return false;
-    const intervals=[];
-    for(const [key,m] of Object.entries(value.items)){
-      if(m.removed||m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)continue;
-      const offset=findAnchor(text,m);if(offset>=0)intervals.push({key,start:offset,end:offset+m.text.length});
-    }
-    if(intervals.some(item=>item.start===start&&item.end===start+mark.text.length))return false;
-    value.items[id]={...mark,at,colour,removed:false,updatedAt:at};
+    const value=read();if(!changeRegion(value,mark,colour))return false;
     write(value);return true;
-
   }
   function attach(root,q,order){
     current=root&&q?{root,q,order}:null;
@@ -1711,9 +1745,23 @@ window.HazzardAnswerHighlights = (() => {
   function edit(id,fields,original){
     const value=read(),mark=value.items[id];
     if(!mark||mark.removed||mark.updatedAt!==original.updatedAt)throw Error('This highlight changed. Open it again.');
-    value.items[id]={...mark,...fields,removed:!fields,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
+    if(fields){
+      value.items[id]={...mark,...fields,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
+      if(Object.hasOwn(fields,'number'))numberPlacedPoints(questionPoints(value),'updatedAt');
+      write(value);return;
+    }
+    const before=structuredClone(value.items);
+    if(!changeRegion(value,mark,mark.colour,true))value.items[id]={...mark,removed:true,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
+    const keys=Object.keys(value.items).filter(key=>JSON.stringify(before[key])!==JSON.stringify(value.items[key]));
     write(value);
+    return ()=>{
+      const latest=read();
+      if(keys.some(key=>JSON.stringify(latest.items[key])!==JSON.stringify(value.items[key])))throw Error('Highlights changed. Undo is no longer available.');
+      for(const key of keys){
+        latest.items[key]={...(before[key]||{...latest.items[key],removed:true}),updatedAt:Math.max(Date.now(),latest.items[key].updatedAt+1)};
+      }
+      numberPlacedPoints(questionPoints(latest),'updatedAt');write(latest);
+    };
   }
-  function nextPoint(){return 1+Object.values(read().items).reduce((n,m)=>m.questionId===current?.q.id&&Number.isSafeInteger(m.number)?Math.max(n,m.number):n,0);}
-  return {nextPoint,KEY,highlightColours,empty,valid,merge,read,items,edit,setRemoved,notebookItems,attach,available,regions,selection,saveSelection};
+  return {KEY,highlightColours,empty,valid,merge,read,items,edit,setRemoved,notebookItems,attach,available,regions,selection,saveSelection};
 })();

@@ -111,12 +111,11 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 #reader.page,.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
 #copy,.mcq-explanation {position:relative}
 .point-rail {position:absolute;inset:0 0 auto;height:0;pointer-events:none;z-index:1}
-.point-badge {position:absolute;transform:translate(-100%,-50%);min-inline-size:1.5em;padding:0 3px;box-sizing:border-box;
+.point-badge {position:absolute;pointer-events:auto;cursor:pointer;min-inline-size:0;min-block-size:0;padding:0 2px;box-sizing:border-box;
   border:1px solid color-mix(in srgb,var(--badge-ink) 64%,var(--muted));border-radius:5px;
   font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
   background:var(--badge-ink);color:var(--hl-ink)}
-.point-badge::before {content:attr(data-number)}
-.point-badge[data-side="right"] {transform:translateY(-50%)}
+.point-badge:focus-visible {outline:2px solid var(--accent);outline-offset:1px}
 .point-badge[data-ink="green"] {color:var(--underline-red);background:var(--surface);border-color:var(--underline-red)}
 #highlightEditor .mark-palette {display:flex;align-items:center;justify-content:space-between;gap:4px;padding-bottom:3px}
 #inkDots {display:flex;align-items:center}
@@ -252,3 +251,10 @@ body.reading-bars-hidden #mcqViewport{padding-block-end:calc(var(--tabs-height) 
 
 button:disabled[data-unavailable]::after{content:attr(data-unavailable);display:block;font:400 .85em/1.35 var(--ui);white-space:normal}
 #panel button:disabled[data-unavailable]{height:auto;white-space:normal}
+
+#markUndoToast:not([hidden]){min-height:48px;display:flex;align-items:center;justify-content:center;gap:18px;color:var(--ink);font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+#markUndoToast button{min-height:44px;min-width:64px;color:var(--accent)}
+
+@media(max-width:450px){
+  #bottomSlot #appTabs button,#bottomSlot #appTabs [data-tab="tools"]{font-size:clamp(10px,3.1vw,calc(12px * var(--fs,1)));min-inline-size:0;padding-inline:0}
+}

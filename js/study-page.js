@@ -269,6 +269,7 @@ window.HazzardStudyPage = (() => {
         sourceTitles.add(node);
       }
     }
+    if(families.has('summary'))setOpen(families.get('summary'),true);
     foldPractice(copy);
     mergeRepeats(copy);
     copy.addEventListener('click', event => {

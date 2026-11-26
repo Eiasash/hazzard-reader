@@ -149,9 +149,12 @@ window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request
      script.src=src;script.onload=resolve;script.onerror=()=>reject(Error('Unable to load '+src));document.head.append(script);
    });
  }
+ const owner=document;
+ const active=()=>owner.defaultView&&owner.defaultView.document===owner;
  let classic=[];
  for(const [src,module] of SCRIPTS){
-   if(module){await Promise.all(classic);classic=[];await load(src,true);}
+   if(!active())return;
+   if(module){await Promise.all(classic);classic=[];if(!active())return;await load(src,true);}
    else classic.push(load(src,false));
  }
  await Promise.all(classic);

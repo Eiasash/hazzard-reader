@@ -5,11 +5,12 @@
       "version": "v325",
       "date": "2026-11-26",
       "changes": [
-        "Hold, drag and lift to save one continuous highlight. Tap it for colour, number, note, Copy or Delete. Other marks keep their numbers.",
+        "Drag across an entirely highlighted passage to erase it. Drag across mixed text to replace it with one colour. Tap a point badge to edit its mark. Points follow reading order, and Delete offers Undo.",
         "Settings, Notebook and Practice are full pages. Scrolling down hides the bars. The study timer has been retired.",
         "Study pages group related material once. Flashcards have a full view with Again and Know. Chapters have one search, sort chips and a single progress line.",
         "The Drugs index links printed passages, verified Israeli brands and matching bank questions. Book search and Home now fetch only the data they need.",
-        "The second content pass checked 72 Study pages against their sources. Official question keys are unchanged."
+        "The second content pass checked 72 Study pages against their sources. Official question keys are unchanged.",
+        "Study opens with Summary expanded. Unrecognized page addresses offer a link Home."
       ]
     },
     {

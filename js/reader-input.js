@@ -122,23 +122,59 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   return cancel;
 }
 
-// Number labels belong to a separate absolute rail. In a wrapped inline span
-// the static position of ::before can be on the line *before* its first word.
-function installPointRail(main){
+// Edit canonical character intervals once, before repainting any DOM fragments.
+function planHighlightStroke(text,start,end,items){
+  const hits=items.filter(m=>m.start<end&&m.end>start).sort((a,b)=>a.start-b.start||a.end-b.end);
+  let cursor=start,covered=true;
+  for(const hit of hits){
+    if(hit.start>cursor&&text.slice(cursor,hit.start).trim())covered=false;
+    cursor=Math.max(cursor,hit.end);
+  }
+  covered=covered&&cursor>=end;
+  const pieces=[],consumed=[];
+  for(const hit of hits){
+    let kept=false;
+    for(let [left,right] of [[hit.start,Math.min(hit.end,start)],[Math.max(hit.start,end),hit.end]]){
+      while(left<right&&/\s/.test(text[left]))left++;
+      while(left<right&&/\s/.test(text[right-1]))right--;
+      if(left>=right||!/[\p{L}\p{N}\p{M}\p{S}]/u.test(text.slice(left,right)))continue;
+      pieces.push({start:left,end:right,source:hit,inherit:!kept});kept=true;
+    }
+    if(!kept)consumed.push(hit);
+  }
+  return {hits,pieces,consumed,paint:!covered};
+}
+
+// Number only the points with a destination on this page. Reading a page does
+// not rewrite the notebook. A user edit commits its current reading order.
+function numberPlacedPoints(items,stamp){
+  items.filter(item=>item.mark.number).sort((a,b)=>a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))
+    .forEach(({mark},i)=>{if(mark.number!==i+1){mark.number=i+1;mark[stamp]=Math.max(Date.now(),(mark[stamp]||0)+1);}});
+}
+function displayPointOrder(root){
+  let number=0;
+  for(const marker of root.querySelectorAll('[data-mark-key][data-point]'))marker.dataset.point=String(++number);
+}
+function installPointRail(main,openMark){
   const rails=new Map();let frame=0;
   const schedule=()=>{if(!frame)frame=requestAnimationFrame(layout);};
   const resized=new ResizeObserver(schedule);
   function layout(){
     frame=0;
-    for(const [root,rail] of rails)if(!root.isConnected){resized.unobserve(root);rails.delete(root);}
+    for(const [root] of rails)if(!root.isConnected){resized.unobserve(root);rails.delete(root);}
     for(const root of main.querySelectorAll('#copy,.mcq-explanation')){
       let rail=rails.get(root);
-      const markers=root.querySelectorAll('[data-point]');
+      const markers=root.querySelectorAll('[data-mark-key][data-point]');
       if(!markers.length&&!rail)continue;
-      if(!rail){rail=document.createElement('div');rail.className='point-rail';rail.dataset.readerMetadata='point-labels';
-        rail.setAttribute('aria-hidden','true');root.append(rail);rails.set(root,rail);resized.observe(root);}
-      const origin=rail.getBoundingClientRect(), labels=document.createDocumentFragment();
+      if(!rail){
+        rail=document.createElement('div');rail.className='point-rail';rail.dataset.readerMetadata='point-labels';
+        rail.addEventListener('click',event=>{const badge=event.target.closest('button[data-mark-id]');if(badge)openMark(badge.dataset.kind,badge.dataset.markId);});
+        root.append(rail);rails.set(root,rail);resized.observe(root);
+      }
+      const origin=rail.getBoundingClientRect(),labels=document.createDocumentFragment();
+      const seen=new Set(),placed=[];
       for(const marker of markers){
+        const id=marker.dataset.markKey;if(seen.has(id))continue;seen.add(id);
         const walker=document.createTreeWalker(marker,NodeFilter.SHOW_TEXT);
         let node,index=-1;
         while(node=walker.nextNode()){index=node.data.search(/\S/u);if(index>=0)break;}
@@ -147,11 +183,22 @@ function installPointRail(main){
         const glyph=first.getBoundingClientRect();if(!glyph.height)continue;
         const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
         const rect=block.getBoundingClientRect(),rtl=getComputedStyle(block).direction==='rtl';
-        const badge=document.createElement('span');badge.className='point-badge';badge.dataset.number=marker.dataset.point;
-        badge.dataset.ink=marker.dataset.marked||'yellow';badge.dataset.side=rtl?'right':'left';
-        badge.style.setProperty('--badge-ink','var(--hl-'+badge.dataset.ink+',var(--hl-yellow))');
-        badge.style.left=(rtl?rect.right-origin.left+5:rect.left-origin.left-5)+'px';
-        badge.style.top=(glyph.top+glyph.height/2-origin.top)+'px';labels.append(badge);
+        const badge=document.createElement('button');badge.type='button';badge.className='point-badge';
+        const number=marker.dataset.point;badge.dataset.number=number;badge.textContent=number;
+        badge.dataset.markId=id;badge.dataset.kind=marker.dataset.answerHighlight?'answer':marker.dataset.range?'ranges':'marks';
+        const ink=marker.dataset.pointInk||marker.dataset.marked;
+        badge.dataset.ink=ink;badge.dataset.side=rtl?'right':'left';
+        badge.setAttribute('aria-label','Edit point '+number);badge.style.setProperty('--badge-ink','var(--hl-'+ink+')');
+        const scale=parseFloat(getComputedStyle(root).getPropertyValue('--fs'))||1;
+        const size=Math.ceil(22*scale),width=Math.max(size,Math.ceil((number.length*8+6)*scale));
+        const proposed=rtl?rect.right-origin.left+3:rect.left-origin.left-3-width;
+        const x=Math.max(-origin.left+1,Math.min(proposed,document.documentElement.clientWidth-origin.left-width-1));
+        let top=glyph.top-origin.top+(glyph.height-size)/2;
+        for(const other of placed){
+          if(x<other.x+other.width+2&&x+width+2>other.x&&top<other.bottom+2&&top+size>other.top-2)top=other.bottom+2;
+        }
+        placed.push({x,width,top,bottom:top+size});placed.sort((a,b)=>a.top-b.top);
+        badge.style.left=x+'px';badge.style.top=top+'px';badge.style.width=width+'px';badge.style.height=size+'px';labels.append(badge);
       }
       rail.replaceChildren(labels);
     }
@@ -159,7 +206,7 @@ function installPointRail(main){
   new MutationObserver(records=>{
     if(records.some(r=>!r.target.closest?.('.point-rail')&&
       (r.type==='attributes'||[...r.addedNodes,...r.removedNodes].some(n=>n.nodeType===1&&!n.matches('.point-rail,.point-badge')))))schedule();
-  }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['data-point','data-marked','open','hidden']});
+  }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['data-point','data-point-ink','data-marked','open','hidden']});
   addEventListener('resize',schedule);document.fonts?.ready.then(schedule);schedule();
 }
 

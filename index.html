@@ -1034,7 +1034,6 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   <div class="mark-palette"><div id="inkDots" role="group" aria-label="Highlight colour"></div><button type="button" id="penNumbers" role="switch" aria-checked="false"><span class="number-switch" aria-hidden="true"></span>Number new marks</button></div>
   <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button id="markDelete" type="button">Delete</button></div>
   <input id="markNote" aria-label="Highlight note" placeholder="Note" maxlength="500" hidden>
-  <input id="markNumber" aria-label="Point number" type="number" min="1" step="1" placeholder="Point number" hidden>
 </div>
 
 
@@ -5198,13 +5197,15 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <script src="js/reader-storage.js"></script>
 <script src="js/settings-controls.js"></script>
 <script src="js/reader-cloud.js"></script>
-<script type="module">if(!HazzardReadingCompanion.embedded)await import('./js/reader-status.js');</script>
+<script type="module">if(!window.frameElement?.hasAttribute('data-reading-companion'))await import('./js/reader-status.js');</script>
 <script src="js/reader-whats-new.js"></script>
 <script src="js/changed-questions.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const companionFrame=HazzardReadingCompanion.embedded;
+const companion=window.HazzardReadingCompanion;
+if(!companion){if(!document.defaultView||document.defaultView.document!==document)return;throw Error('Chapter navigation could not be loaded. Reload to retry.');}
+const companionFrame=companion.embedded;
 const launchParams=new URLSearchParams(location.search);
-if(HazzardReadingCompanion.unexpectedRoute())return;
+if(companion.unexpectedRoute())return;
 let mcq=null;
 const manifestRequest=(window.HazzardEarlyFetch?.get('manifest.json')||fetch('manifest.json',{cache:'no-store'})).then(r=>{
   if(!r.ok)throw Error('Chapter list unavailable');
@@ -5359,8 +5360,18 @@ if(manifestArticle)$('#copy').replaceWith(manifestArticle);
 if(!lightHome && requestedChapter && $('#copy')?.dataset.chapterId!==String(requestedChapter)){
   const miss=document.createElement('article');miss.className='reading-copy';miss.id='copy';miss.dataset.chapterId=String(requestedChapter);
   miss.dataset.notLoaded='true';
-  const needsUpdate=manifestLoaded&&!manifestChapters.some(c=>String(c.number)===String(requestedChapter))&&!templateCopies.has(String(requestedChapter));
-  miss.innerHTML='<p class="eyebrow">NOT LOADED</p><h1>'+(needsUpdate?'This chapter needs the reader update':'Chapter '+String(requestedChapter).replace(/[^\w-]/g,'')+' could not be loaded')+'</h1><p>'+(needsUpdate?'This chapter is not included in the installed version. Connect to download the reader update.':'This page is not available right now. Reconnect and reload; once opened online it stays available offline.')+'</p>'+(needsUpdate?'<button type="button" data-chapter-update hidden>Update reader</button>':'');
+  const unknown=manifestLoaded&&!manifestChapters.some(c=>String(c.number)===String(requestedChapter))&&!templateCopies.has(String(requestedChapter));
+  const title=document.createElement('h1'),message=document.createElement('p'),home=document.createElement('a');
+  title.textContent=unknown?'Page not found':'Chapter could not be loaded';
+  message.textContent=unknown?'This address is not in the reader.':'The chapter file is unavailable. Reconnect and reload to try again.';
+  home.href='?home=1';home.textContent='Home';miss.append(title,message,home);
+  if(unknown&&navigator.onLine){
+    fetch('manifest.json?check-newer=1',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(latest=>{
+      if(!latest?.chapters?.some(entry=>String(entry.number)===String(requestedChapter)))return;
+      title.textContent='This chapter needs the reader update';message.textContent='This page is included in a newer reader. Reload to update.';
+      navigator.serviceWorker?.getRegistration().then(reg=>reg?.update()).catch(()=>{});
+    }).catch(()=>{});
+  }
   $('#copy').replaceWith(miss);
 }
 // One catalog row pairs the chapter with its study page.
@@ -5469,8 +5480,19 @@ markBar.prepend($('#highlightEditor'));
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
 examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPrevious" aria-label="Previous exam page">↑</button><button id="examNext" aria-label="Next exam page">↓</button><button id="examClose" aria-label="Close exam pages">✕</button>';
 let scrollIntentUntil=0;
+const undoToast=document.createElement('div');undoToast.id='markUndoToast';undoToast.hidden=true;
+undoToast.innerHTML='<span role="status">Highlight deleted</span><button type="button">Undo</button>';
+let undoTimer,undoAction;
+function clearMarkUndo(){clearTimeout(undoTimer);undoAction=null;undoToast.hidden=true;syncMarkingUI();}
+function offerMarkUndo(action){
+  if(!action)return;
+  clearTimeout(undoTimer);undoAction=action;undoToast.hidden=false;setReadingBarsHidden(false);syncMarkingUI();
+  undoTimer=setTimeout(clearMarkUndo,4500);
+}
+undoToast.querySelector('button').onclick=()=>{const action=undoAction;clearMarkUndo();try{action?.();}catch(error){flash(error.message,4000);}};
+document.addEventListener('pointerdown',event=>{if(undoAction&&!undoToast.contains(event.target))clearMarkUndo();},true);
 const bottomSlot=document.createElement('div');bottomSlot.id='bottomSlot';
-bottomSlot.append(appTabs,markBar,examBar);document.body.append(bottomSlot);
+bottomSlot.append(appTabs,markBar,examBar,undoToast);document.body.append(bottomSlot);
 new ResizeObserver(()=>{const height=bottomSlot.getBoundingClientRect().height;if(height)document.documentElement.style.setProperty('--tabs-height',height+'px');}).observe(bottomSlot);
 let examIndex=-1;
 const savedTick=document.createElement('div');savedTick.id='savedTick';savedTick.setAttribute('role','status');savedTick.hidden=true;document.body.append(savedTick);
@@ -5574,7 +5596,7 @@ function openChapter(chapter,opts={}){
 const readerScroll=$('#readerScroll');
 const sizes={small:12,medium:13.5,large:15};
 const markColours=HazzardStorage.colours;
-let nextBookNumber=1;
+
 let colour='yellow',size='small',anchor=null;
 let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
@@ -6104,7 +6126,7 @@ function syncMarkingUI(){
   const underline=colour==='green';document.documentElement.dataset.markStyle=underline?'underline':'fill';
   document.documentElement.style.setProperty('--current-mark',underline?'transparent':'var(--hl-'+colour+')');
   markBar.hidden=panel.open||currentView!=='reader'||$('#highlightEditor').hidden;
-  appTabs.hidden=!markBar.hidden||(!examBar.hidden&&!panel.open);
+  appTabs.hidden=!undoToast.hidden||!markBar.hidden||(!examBar.hidden&&!panel.open);
   document.body.classList.toggle('mark-bar-open',!markBar.hidden);
 }
 function syncTabs(){
@@ -6202,10 +6224,11 @@ function restoreHighlights(){
     }
     for(const {kind,id,mark} of bookItems(saved)){
       const node=kind==='marks'?unitMap.get(id)?.parts.find(n=>n.textContent.trim()):rangeMarks.get(id)?.spans[0];
-      if(node){node.dataset.markKey=id;node.tabIndex=0;node.setAttribute('role','button');if(mark.number)node.dataset.point=mark.number;}
+      if(node){node.dataset.markKey=id;node.tabIndex=0;node.setAttribute('role','button');if(mark.number){node.dataset.point=mark.number;node.dataset.pointInk=mark.colour;}}
     }
-    nextBookNumber=nextBookPoint(saved);
 
+
+    displayPointOrder(copy);
     if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
@@ -6249,6 +6272,7 @@ function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
         const mark=saved[item.kind]?.[item.id];if(!mark)throw Error('This highlight has changed. Close and reopen your notebook.');
         item.mark={...mark};item.order=Object.keys(saved[item.kind]);delete saved[item.kind][item.id];
       }
+      if(ch===cid)numberPlacedPoints(placedBookItems(saved),'at');
       writeHighlights(saved,storageKey);
       if(removed)notebookRemovedHighlights.delete(key);else notebookRemovedHighlights.set(key,{...item,ch,index});
       if(ch===cid)resyncHighlights();
@@ -6731,15 +6755,11 @@ function bookOffsets(ix,range){
   while(end>start&&ix.s[end-1]===' ')end--;
   return {start,end};
 }
-function bookQuote(range){
-  const ix=bookTextIndex(),{start,end}=bookOffsets(ix,range);
-  return rangeQuote(ix,start,end);
-}
 function rangeQuote(ix,start,end){
   if(end<=start)return null;
   return {bookText:true,text:ix.s.slice(start,end),prefix:ix.s.slice(Math.max(0,start-48),start),suffix:ix.s.slice(end,end+48)};
 }
-const editor=$('#highlightEditor'),noteField=$('#markNote'),numberField=$('#markNumber');
+const editor=$('#highlightEditor'),noteField=$('#markNote');
 
 let activeMark=null,stopStroke=()=>{};
 const numberingKey='hazzard-number-points:'+cid;
@@ -6748,8 +6768,56 @@ try{numbering=localStorage.getItem(numberingKey)==='1';}catch{}
 function bookItems(saved){
   return ['marks','ranges'].flatMap(kind=>Object.entries(saved[kind]||{}).map(([id,mark])=>({kind,id,mark})));
 }
-function nextBookPoint(saved){
-  return 1+[...bookItems(saved).map(i=>i.mark),...(saved.history||[])].reduce((max,m)=>Number.isSafeInteger(m.number)?Math.max(max,m.number):max,0);
+function placedBookItems(saved,ix=bookTextIndex()){
+  const items=[];
+  for(const item of bookItems(saved)){
+    const parts=item.kind==='marks'?unitMap.get(item.id)?.parts:rangeMarks.get(item.id)?.spans;
+    const nodes=parts?.filter(node=>node.isConnected&&!node.closest('[data-reader-metadata],.exam-page-badge'));
+    if(!nodes?.length)continue;
+    const range=document.createRange();range.setStartBefore(nodes[0]);range.setEndAfter(nodes.at(-1));
+    items.push({...item,...bookOffsets(ix,range)});
+  }
+  return items;
+}
+function changeBookRange(saved,ix,start,end,erase=false){
+  const items=placedBookItems(saved,ix);
+  const plan=planHighlightStroke(ix.s,start,end,items);
+  const remaining=items.filter(item=>!plan.hits.includes(item));
+  const deletedAt=HazzardStorage.removals.read().highlights[cid]||{};
+  for(const item of plan.hits)delete saved[item.kind][item.id];
+  function put(left,right,fields,id='r'+crypto.randomUUID()){
+    const record={...fields,...rangeQuote(ix,left,right)};
+    const signature=HazzardStorage.removals.rangeSignature(record);
+    record.at=Math.max(Date.now(),(record.at||0)+1,(deletedAt[signature]||0)+1);
+    (saved.ranges||={})[id]=record;remaining.push({id,mark:record,start:left,end:right});
+  }
+  for(const piece of plan.pieces){
+    const {source,inherit}=piece;
+    const fields=inherit?source.mark:{colour:source.mark.colour};
+    put(piece.start,piece.end,fields);
+  }
+  if(!erase&&plan.paint){
+    const fields={colour};
+    const notes=[...new Set(plan.consumed.map(item=>item.mark.note).filter(Boolean))];
+    if(notes.length)fields.note=notes.join('\n');
+    if(numbering||plan.consumed.some(item=>item.mark.number))fields.number=1;
+    put(start,end,fields);
+  }
+  numberPlacedPoints(remaining,'at');
+}
+function undoBookChange(before,after){
+  const account=JSON.stringify(after);
+  return ()=>{
+    const current=readHighlights();
+    if(JSON.stringify(current)!==account)throw Error('Highlights changed. Undo is no longer available.');
+    const removals=HazzardStorage.removals.read().highlights[cid]||{};
+    for(const {kind,id,mark} of bookItems(before)){
+      if(JSON.stringify(mark)===JSON.stringify(current[kind]?.[id]))continue;
+      const key=kind==='marks'?'m:'+id:HazzardStorage.removals.rangeSignature(mark);
+      mark.at=Math.max(Date.now(),(removals[key]||0)+1,(current[kind]?.[id]?.at||0)+1,mark.at+1||0);
+    }
+    persistBook(before);
+  };
 }
 function dismissMarkBar(){
   if(editor.contains(document.activeElement))document.activeElement.blur();
@@ -6758,65 +6826,52 @@ function dismissMarkBar(){
 function persistBook(saved){
   writeHighlights(saved);resyncHighlights();
 }
-function closeMark(){previewPen(null);activeMark=null;editor.hidden=true;noteField.hidden=numberField.hidden=true;syncMarkingUI();}
-function markNodes({kind,id}){
-  return (kind==='marks'?unitMap.get(id)?.parts:rangeMarks.get(id)?.spans)?.filter(n=>n.isConnected&&n.getClientRects().length&&!n.closest('[data-reader-metadata],.exam-page-badge'))||[];
-}
-function markRange(mark){
-  const nodes=markNodes(mark);if(!nodes.length)return null;
-  const range=document.createRange();range.setStart(nodes[0],0);range.setEnd(nodes.at(-1),nodes.at(-1).childNodes.length);return range;
-}
+function closeMark(){previewPen(null);activeMark=null;editor.hidden=true;noteField.hidden=true;syncMarkingUI();}
 function showMark(kind,id,mark){
   activeMark={kind,id,mark};editor.hidden=false;setReadingBarsHidden(false);syncMarkingUI();
   for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
-  $('#pointChip').textContent=mark.number?'Number '+mark.number:'Number';selectInk(mark.colour);
-  if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';numberField.value=mark.number||'';
+  const root=kind==='answer'?document.querySelector('.mcq-explanation'):copy;
+  const placed=[...(root?.querySelectorAll('[data-mark-key][data-point]')||[])].findIndex(n=>n.dataset.markKey===id)+1;
+  $('#pointChip').textContent=mark.number?'Number '+(placed||mark.number):'Number';
+  $('#pointChip').setAttribute('aria-pressed',String(!!mark.number));$('#pointChip').title=mark.number?'Remove this point number':'Number in reading order';selectInk(mark.colour);
+  if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';
 }
-function editMark(kind,id,quote,range){
+function editMark(kind,id){
   try{
     const records=kind==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[kind];
-    if(!id&&quote){
-      if(kind==='answer'){
-        HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:HazzardAnswerHighlights.nextPoint()}:quote);
-        closeMark();return;
-      }
-      return createBook(quote,range);
-    }
-    if(records?.[id]){noteField.hidden=numberField.hidden=true;showMark(kind,id,records[id]);}
+    if(records?.[id]){noteField.hidden=true;showMark(kind,id,records[id]);}
   }catch(e){flash(e.message,6000);}
 }
-function createBook(quote,range){
-  const kind='ranges',id='r'+crypto.randomUUID();
+function createBook(range){
   try{
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
-    const saved=readHighlights(),number=numbering?nextBookPoint(saved):null;
-    const items=bookItems(saved);
-    if(items.length){
-      const ix=bookTextIndex(),bounds=bookOffsets(ix,range);
-      for(const item of items){
-        const painted=markRange(item);if(!painted)continue;
-        const existing=bookOffsets(ix,painted);
-        if(bounds.start===existing.start&&bounds.end===existing.end)return;
-      }
-    }
-    const record={...quote,colour,at:Date.now(),...(number?{number}:{})};
-    (saved[kind]||={})[id]=record;persistBook(saved);
+    const saved=readHighlights(),ix=bookTextIndex(),{start,end}=bookOffsets(ix,range);
+    if(end<=start)return;
+    changeBookRange(saved,ix,start,end);
+    persistBook(saved);
   }catch(e){flash(e.message,6000);}finally{closeMark();}
 }
 function modifyMark(fields){
   if(!activeMark)return;
   try{
-    let {kind,id,mark}=activeMark;
+    const {kind,id,mark}=activeMark;
     if(kind==='answer'){
-      HazzardAnswerHighlights.edit(id,fields,mark);
-      const next=HazzardAnswerHighlights.read().items[id];
-      if(fields)showMark(kind,id,next);else closeMark();return;
+      const undo=HazzardAnswerHighlights.edit(id,fields,mark);
+      if(fields)showMark(kind,id,HazzardAnswerHighlights.read().items[id]);
+      else{closeMark();offerMarkUndo(undo);}
+      return;
     }
     const saved=readHighlights();
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey)||JSON.stringify(saved[kind]?.[id])!==JSON.stringify(mark))throw Error('This highlight changed. Reopen it to edit.');
-    delete saved[kind][id];
-    if(fields)(saved[kind]||={})[id]={...mark,...fields,at:Math.max(Date.now(),(mark.at||0)+1)};
-    persistBook(saved);if(fields)showMark(kind,id,saved[kind][id]);else closeMark();
+    if(!fields){
+      const before=structuredClone(saved),ix=bookTextIndex(),item=placedBookItems(saved,ix).find(item=>item.kind===kind&&item.id===id);
+      if(item&&item.end>item.start)changeBookRange(saved,ix,item.start,item.end,true);
+      else{delete saved[kind][id];numberPlacedPoints(placedBookItems(saved,ix),'at');}
+      persistBook(saved);closeMark();offerMarkUndo(undoBookChange(before,saved));return;
+    }
+    Object.assign(saved[kind][id],fields,{at:Math.max(Date.now(),(mark.at||0)+1)});
+    if(Object.hasOwn(fields,'number'))numberPlacedPoints(placedBookItems(saved),'at');
+    persistBook(saved);showMark(kind,id,saved[kind][id]);
   }catch(e){flash(e.message,6000);closeMark();}
 }
 function selectInk(value){
@@ -6830,12 +6885,11 @@ for(const value of markColours){
   $('#inkDots').append(swatch);
 }
 selectInk(colour);$('#penNumbers').setAttribute('aria-checked',String(numbering));
-$('#markNoteToggle').onclick=()=>{numberField.hidden=true;noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();};
-$('#pointChip').onclick=()=>{noteField.hidden=true;numberField.hidden=!numberField.hidden;if(!numberField.hidden){numberField.focus();numberField.select();}};
+$('#markNoteToggle').onclick=()=>{noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();};
+$('#pointChip').onclick=()=>{if(activeMark)modifyMark({number:activeMark.mark.number?null:1});};
 noteField.oninput=()=>{modifyMark({note:noteField.value});};
-numberField.onchange=()=>{if(numberField.validity.valid)modifyMark({number:numberField.value?Number(numberField.value):null});};
-for(const [field,toggle] of [[numberField,$('#pointChip')],[noteField,$('#markNoteToggle')]])field.addEventListener('blur',event=>{if(event.relatedTarget!==toggle)field.hidden=true;});
-for(const input of [noteField,numberField])input.onkeydown=e=>{if(e.key==='Enter'){input.blur();input.hidden=true;}};
+noteField.addEventListener('blur',event=>{if(event.relatedTarget!==$('#markNoteToggle'))noteField.hidden=true;});
+noteField.onkeydown=e=>{if(e.key==='Enter'){noteField.blur();noteField.hidden=true;}};
 $('#penNumbers').onclick=()=>{
   try{localStorage.setItem(numberingKey,numbering?'0':'1');numbering=!numbering;$('#penNumbers').setAttribute('aria-checked',String(numbering));}
   catch{flash('Numbering could not be saved.',3000);}
@@ -6863,15 +6917,18 @@ function previewPen(range){
   if(!CSS.highlights)return;
   if(range)CSS.highlights.set('pen-preview',new Highlight(range));else CSS.highlights.delete('pen-preview');
 }
-installPointRail(document.querySelector('main'));
+installPointRail(document.querySelector('main'),editMark);
 installSavedHighlightPaint(document.querySelector('main'));
 function cancelPenGesture(){stopStroke();}
 stopStroke=bindReaderInput({
   state:{stroke:null,get mark(){return activeMark;}},
   main:document.querySelector('main'),wordAt:caretWord,paint:previewPen,edit:editMark,close:dismissMarkBar,
   commit(stroke){
-    const quote=stroke.book?bookQuote(stroke.range):HazzardAnswerHighlights.selection(stroke.range);
-    if(quote)editMark(stroke.book?'ranges':'answer',null,quote,stroke.range);
+    if(stroke.book){createBook(stroke.range);return;}
+    try{
+      const quote=HazzardAnswerHighlights.selection(stroke.range);
+      if(quote)HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:1}:quote);
+    }catch(error){flash(error.message,6000);}finally{closeMark();}
   },
   begin(event){
     const root=event.target.closest(readingText);
@@ -7584,7 +7641,7 @@ $('#notebookBackupFile').onchange=async event=>{
 
 restoreHighlights();
 const companionStudy=cid==='law'?'laws':cid+'s';
-HazzardReadingCompanion.mount({id:cid,studyId:manifestChapters.some(c=>String(c.number)===companionStudy)?companionStudy:null,copy,scroll:readerScroll,landOnSource:landOnMatch,preserveLayout,studyURL:pairedStudy});
+companion.mount({id:cid,studyId:manifestChapters.some(c=>String(c.number)===companionStudy)?companionStudy:null,copy,scroll:readerScroll,landOnSource:landOnMatch,preserveLayout,studyURL:pairedStudy});
 // Insert evidence metadata only after highlight units and drill identities exist.
 HazzardEvidence.backControl($('#readerViewport'));
 HazzardFlashcards.install(copy,cid,button=>openPanel('flashcards',button),viewport,()=>setPanelExpanded(true));
@@ -7666,7 +7723,7 @@ delete document.documentElement.dataset.resolvingRoot;
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   await HazzardFlashcards.flush();
-  await HazzardReadingCompanion.prepareUpdate();
+  await companion.prepareUpdate();
   mcq?.remember();
   mcq?.save();
   if(mcq?.hasUnsaved||highlightSaveFailed||displaySaveFailed)throw Error('Some changes are not saved. Keep this page open and save them before updating.');
@@ -7704,11 +7761,11 @@ document.addEventListener('click',async event=>{
   else if(button.hasAttribute('data-storage-file'))$('#notebookBackupFile').click();
   else{try{HazzardStorage.startFresh(button.dataset.storageFresh);refreshRecoveredReader(button.dataset.storageFresh);mcq?.sync();}catch{flash('Could not start fresh. Existing history kept.',6000);}}
 });
-if(companionFrame)parent.HazzardReadingCompanion.frameReady();
+if(companionFrame)parent.HazzardReadingCompanion?.frameReady();
 else HazzardCloud.start({recovered:()=>refreshRecoveredReader(PLACE_KEY),capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
 disableTextDrag(copy);
 dispatchEvent(new Event('hazzard-reader-ready'));
-})().catch(error=>{delete document.documentElement.dataset.resolvingRoot;const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(HazzardReadingCompanion.embedded)HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
+})().catch(error=>{delete document.documentElement.dataset.resolvingRoot;const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(window.HazzardReadingCompanion?.embedded)window.HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
 
 
 

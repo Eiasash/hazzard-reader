@@ -106,6 +106,8 @@ self.addEventListener('message', event => {
 
 self.addEventListener('fetch', event => {
   const req=event.request;
+  const lookup=new URL(req.url);
+  if(lookup.pathname===new URL('manifest.json',self.registration.scope).pathname&&lookup.searchParams.get('check-newer')==='1')return;
   if (req.method!=='GET' || !req.url.startsWith(self.registration.scope)) return;
   event.respondWith((async()=>{
     const cache=await caches.open(CACHE);
