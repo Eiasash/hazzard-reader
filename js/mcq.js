@@ -1594,7 +1594,7 @@ window.HazzardAnswerHighlights = (() => {
   const items=()=>Object.entries(read().items).filter(([,m])=>!m.removed).map(([id,m])=>({id,...m}));
   function write(value){if(HazzardStorage.blockedKeys().includes(KEY))throw Error('Answer highlights could not be read. Restore them before saving.');HazzardStorage.setItem(KEY,JSON.stringify(value));dispatchEvent(new Event('hazzard-answer-highlights-change'));}
   function setRemoved(id,removed){const value=read(),m=value.items[id];if(!m||m.removed===removed)return;value.items[id]={...m,removed,updatedAt:Math.max(Date.now(),m.updatedAt+1)};write(value);}
-  let current=null,pending=null,selectedId=null,tapGesture=null;
+  let current=null;
   const bridge=()=>window.HazzardHighlighter;
   function available(){return !!(current?.root.isConnected&&!current.root.closest('[hidden]')&&!current.root.closest('[inert]'));}
   function regionIndex(root,region,optionIndex){
@@ -1630,7 +1630,7 @@ window.HazzardAnswerHighlights = (() => {
       }
       const spans=bridge().wrapIndexRange(shown,start,start+m.text.length,m.id,m.colour);
       for(const span of spans)span.dataset.answerHighlight=m.id;
-      if(m.number&&spans.length)spans[0].dataset.point=m.number;
+      if(spans.length){spans[0].dataset.markKey=m.id;spans[0].tabIndex=0;spans[0].setAttribute('role','button');if(m.number)spans[0].dataset.point=m.number;}
     }
   }
   function regions(){if(!current||!bridge())return [];const source=canonicalRoot(current.q),out=[{region:'main'}];for(const optionIndex of new Set([...source.querySelectorAll('.mcq-option-explanation')].map(block=>Number(block.dataset.optionIndex))))out.push({region:'option',optionIndex});return out.map(r=>({...r,text:regionIndex(source,r.region,r.optionIndex)?.s||''}));}
@@ -1648,117 +1648,30 @@ window.HazzardAnswerHighlights = (() => {
     while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
     return {questionId:current.q.id,region,...(a?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
-  function captureSelection(){
-    const mark=selection();if(!mark)return false;
-    // Keep the last real explanation selection when a touch on the toolbar collapses it.
-    pending=mark;selectedId=null;
-    const range=getSelection().getRangeAt(0),parent=n=>n.nodeType===Node.ELEMENT_NODE?n:n.parentElement;
-    const a=parent(range.startContainer).closest('[data-answer-highlight]'),b=parent(range.endContainer).closest('[data-answer-highlight]');
-    if(a&&b&&a.dataset.answerHighlight===b.dataset.answerHighlight)selectedId=a.dataset.answerHighlight;
-    return true;
-  }
-  function saveSelection(colour,mark=selection()||pending){
+  function saveSelection(colour,mark){
     if(!mark||!available()||mark.questionId!==current.q.id)return false;
     const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
-    value.items[id]={...mark,at,colour:highlightColours.includes(colour)?colour:'yellow',removed:false,updatedAt:at};write(value);resetSelection();getSelection()?.removeAllRanges();return id;
-  }
-  function resetSelection(){pending=null;selectedId=null;}
-  const selectionState=()=>({canSave:!!pending,canRemove:!!selectedId});
-  function removeSelected(){if(!selectedId)return false;setRemoved(selectedId,true);resetSelection();return true;}
-  const tapExcluded=target=>target.closest('a,button,input,textarea,select,summary,img,svg,[role="button"],.mcq-source-note,.mcq-explanation-icon,[data-answer-heading]');
-  function tapDown(e){
-    tapGesture=null;if(!available()||!e.isPrimary||e.button!==0||tapExcluded(e.target))return;
-    const viewport=current.root.closest('#mcqViewport');
-    tapGesture={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now(),scroll:viewport?.scrollTop||0,viewport,moved:false,selected:!getSelection()?.isCollapsed};
-  }
-  function tapMove(e){if(tapGesture&&e.pointerId===tapGesture.id&&Math.hypot(e.clientX-tapGesture.x,e.clientY-tapGesture.y)>10)tapGesture.moved=true;}
-  function tapUp(e){
-    const g=tapGesture;if(!g||e.pointerId!==g.id)return;
-    g.ended=true;g.valid=!g.moved&&!g.selected&&Math.abs((g.viewport?.scrollTop||0)-g.scroll)<8&&performance.now()-g.time<500;
-  }
-  function answerLineEnds(root,index){
-    // The anchor index normalizes newlines; recover only these main-region line ends.
-    const starts=new Map(),walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let raw='',node;
-    while((node=walker.nextNode())){starts.set(node,raw.length);raw+=node.data;}
-    const offsets=index.nodes.map((n,i)=>starts.get(n)+index.offs[i]),ends=new Set();
-    const add=end=>{while(end<index.s.length&&/\s/.test(index.s[end]))end++;if(end)ends.add(end);};
-    for(const line of raw.matchAll(/(?:^|\n)[ \t]*(?:Official answer:|Correct answer:|\u05d4\u05ea\u05e9\u05d5\u05d1\u05d4 \u05d4\u05e8\u05e9\u05de\u05d9\u05ea:)[^\n]*/giu)){
-      const start=line.index+line[0].search(/\S/),end=line.index+line[0].trimEnd().length;
-      if(!offsets.includes(start))continue; // Option-region lines are not in this index.
-      let last=offsets.findLastIndex(offset=>offset<end);if(last>=0)add(last+1);
+    const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark);
+    if(start<0)return false;
+    const before=structuredClone(value.items),intervals=[];
+    for(const [key,m] of Object.entries(value.items)){
+      if(m.removed||m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)continue;
+      const offset=findAnchor(text,m);if(offset>=0)intervals.push({key,start:offset,end:offset+m.text.length});
     }
-    for(const heading of root.querySelectorAll('h1,h2,h3,h4,h5,h6')){
-      const last=index.nodes.findLastIndex(n=>heading.contains(n));if(last>=0)add(last+1);
+    const merged=bridge().unionOfMarks(start,start+mark.text.length,intervals);
+    const note=[...new Set(merged.hits.map(i=>before[i.key].note).filter(Boolean))].join('\n');
+    for(const {key} of merged.hits){
+      const m=value.items[key];value.items[key]={...m,removed:true,updatedAt:Math.max(at,m.updatedAt+1)};
     }
-    return [...ends].sort((a,b)=>a-b);
-  }
-  function answerSentences(text,lineEnds=[]){
-    // Keep the chapter splitter and its unit IDs intact; join only abbreviation cuts here.
-    const out=[];
-    for(const part of bridge().sentences(text)){
-      const previous=out[out.length-1],tail=previous?.text.trimEnd()||'';
-      const page=/\bpp?\.$/i.test(tail)&&/^\s*\d/.test(part.text);
-      const abbreviation=/\b(?:Fig|Figs|Tab|Ch|No|vs|e\.g|i\.e|Dr|Prof|approx)\.$/i.test(tail)||/\bTable\.$/.test(tail);
-      // A citation's author initial is different from an answer label or vitamin D.
-      const authorInitial=/(?:\b(?:sources?|references?|by|from)\b|[;(])/i.test(tail)&&/(?:\b\p{Lu}[\p{L}'\u2019-]+\s+(?:\p{Lu}\.\s*)*|(?:\(|\bby\s+|\bfrom\s+)(?:\p{Lu}\.\s*)*)\p{Lu}\.$/u.test(tail);
-      if(previous&&(page||abbreviation||authorInitial)){previous.end=part.end;previous.text=text.slice(previous.start,previous.end);}
-      else out.push({...part});
-    }
-    // Keep every v257 boundary, adding only answer-label and heading line ends.
-    return out.flatMap(part=>{
-      const fragments=[];let start=part.start;
-      for(const end of lineEnds){if(end<=start||end>=part.end)continue;fragments.push({start,end,text:text.slice(start,end)});start=end;}
-      fragments.push({start,end:part.end,text:text.slice(start,part.end)});return fragments;
-    });
-  }
-  function optionSentences(text){
-    const parts=answerSentences(text);
-    // The bank's leading option labels are Hebrew letters followed by a full stop.
-    if(parts.length>1&&/^[\u05d0-\u05ea]\.$/.test(parts[0].text.trim())){
-      const start=parts[0].start,end=parts[1].end;
-      parts.splice(0,2,{start,end,text:text.slice(start,end)});
-    }
-    return parts;
-  }
-  function sentenceAt(e){
-    const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),node=caret?.offsetNode||range?.startContainer,offset=caret?.offset??range?.startOffset;
-    if(!node||node.nodeType!==Node.TEXT_NODE||!current.root.contains(node)||tapExcluded(node.parentElement))return null;
-    const block=node.parentElement.closest('.mcq-option-explanation'),region=block?'option':'main',optionIndex=block?Number(block.dataset.optionIndex):undefined;
-    const source=canonicalRoot(current.q),shown=regionIndex(current.root,region,optionIndex),canonical=regionIndex(source,region,optionIndex);
-    if(!shown||!canonical||shown.s.length!==canonical.s.length)return null;
-    let at=shown.nodes.findIndex((n,i)=>n===node&&shown.offs[i]>=offset);
-    if(at<0)at=shown.nodes.lastIndexOf(node);if(at<0)return null;
-    const sentence=(region==='option'?optionSentences(canonical.s):answerSentences(canonical.s,answerLineEnds(source,canonical))).find(s=>at>=s.start&&at<s.end);if(!sentence)return null;
-    let {start,end}=sentence;while(start<end&&/\s/.test(canonical.s[start]))start++;while(end>start&&/\s/.test(canonical.s[end-1]))end--;if(start===end)return null;
-    return {questionId:current.q.id,region,...(block?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
-  }
-  function tapClick(e){
-    const g=tapGesture;tapGesture=null;if(!available()||bridge().penClickSuppressed()||tapExcluded(e.target)||!getSelection()?.isCollapsed)return;
-    const highlighted=e.target.closest('[data-answer-highlight]');
-    if(e.detail===0||!g?.ended||!g.valid)return;
-    if(highlighted){
-      e.preventDefault();if(!bridge().answerMarking())bridge().editMark('answer',highlighted.dataset.answerHighlight);return;
-    }
-    if(!bridge().answerMarking())return;
-    try{
-      const mark=sentenceAt(e);if(!mark)return;
-      const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark),end=start+mark.text.length;
-      const existing=items().filter(m=>{
-        if(m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)return false;
-        const at=findAnchor(text,m);return at>=0&&at<end&&at+m.text.length>start;
-      });
-      if(existing.length)return;
-      else{pending=mark;bridge().editMark('answer',null,mark);}
-      e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:existing.length>0}}));
-    }catch(error){dispatchEvent(new CustomEvent('hazzard-answer-highlight-error',{detail:error.message}));}
+    value.items[id]={...mark,text:text.slice(merged.start,merged.end),prefix:text.slice(Math.max(0,merged.start-48),merged.start),suffix:text.slice(merged.end,merged.end+48),at,colour,removed:false,updatedAt:at,...(note?{note}:{})};
+    write(value);return undoChanges(value,before);
+
   }
   function attach(root,q,order){
-    if(current){current.root.onpointerdown=current.root.onpointermove=current.root.onpointerup=current.root.onpointercancel=current.root.onclick=null;}
-    current=root&&q?{root,q,order}:null;resetSelection();tapGesture=null;
+    current=root&&q?{root,q,order}:null;
     if(root&&q){
       root.querySelector(':scope > h3')?.setAttribute('data-answer-heading','');repaint();
       bridge()?.disableTextDrag(root);
-      root.onpointerdown=tapDown;root.onpointermove=tapMove;root.onpointerup=tapUp;root.onpointercancel=()=>{tapGesture=null;};root.onclick=tapClick;
     }
     dispatchEvent(new Event('hazzard-answer-highlights-ready'));
   }
@@ -1776,7 +1689,7 @@ window.HazzardAnswerHighlights = (() => {
     });
   }
   addEventListener('hazzard-answer-highlights-change',()=>{repaint();dispatchEvent(new Event('hazzard-answer-highlights-ready'));});
-  addEventListener('storage',e=>{if(e.key===KEY){resetSelection();repaint();dispatchEvent(new Event('hazzard-answer-highlights-change'));}});
+  addEventListener('storage',e=>{if(e.key===KEY){repaint();dispatchEvent(new Event('hazzard-answer-highlights-change'));}});
   addEventListener('pageshow',e=>{if(e.persisted)repaint();});
   function edit(id,fields,original){
     const value=read(),mark=value.items[id];
@@ -1789,14 +1702,17 @@ window.HazzardAnswerHighlights = (() => {
       numbered.forEach(([,m],i)=>{if(m.number!==i+1){m.number=i+1;m.updatedAt=Math.max(Date.now(),m.updatedAt+1);}});
     }
     write(value);
-    const keys=Object.keys(value.items).filter(k=>value.items[k].updatedAt!==before[k].updatedAt);
+    return undoChanges(value,before);
+  }
+  function undoChanges(value,before){
+    const keys=Object.keys(value.items).filter(k=>value.items[k].updatedAt!==before[k]?.updatedAt);
     return ()=>{
       const current=read();
       if(keys.some(k=>current.items[k]?.updatedAt!==value.items[k].updatedAt))throw Error('The mark changed. Undo is unavailable.');
-      for(const k of keys)current.items[k]={...before[k],updatedAt:Math.max(Date.now(),current.items[k].updatedAt+1)};
+      for(const k of keys)current.items[k]={...(before[k]||{...current.items[k],removed:true}),updatedAt:Math.max(Date.now(),current.items[k].updatedAt+1)};
       write(current);
     };
   }
   function nextPoint(){return 1+items().reduce((n,m)=>m.questionId===current?.q.id&&Number.isSafeInteger(m.number)?Math.max(n,m.number):n,0);}
-  return {nextPoint,KEY,highlightColours,empty,valid,merge,read,items,edit,pending:()=>selection()||pending,setRemoved,notebookItems,attach,available,regions,selection,captureSelection,selectionState,saveSelection,removeSelected,resetSelection};
+  return {nextPoint,KEY,highlightColours,empty,valid,merge,read,items,edit,setRemoved,notebookItems,attach,available,regions,selection,saveSelection};
 })();

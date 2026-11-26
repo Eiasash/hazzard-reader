@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v324",
+      "date": "2026-11-26",
+      "changes": [
+        "Hold a word to start highlighting without turning the pen on. Drag to extend, then lift to save. Overlapping highlights combine into one mark.",
+        "Tap a saved highlight for Copy, Delete, notes or colour. A single bottom bar replaces navigation while marking. Done brings the tabs back."
+      ]
+    },
+    {
       "version": "v323",
       "date": "2026-11-26",
       "changes": [
