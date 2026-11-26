@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v311",
+      "date": "2026-11-26",
+      "changes": [
+        "Coronary heart disease and dyslipidemia, COPD, thyroid diseases, osteoporosis and hip fractures now have exam-linked Study notes, Israeli context, flashcards and revised question explanations."
+      ]
+    },
+    {
       "version": "v310",
       "date": "2026-11-26",
       "changes": [
