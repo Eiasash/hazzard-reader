@@ -93,22 +93,41 @@ body:has(#panel[open]) #bottomSlot #appTabs:not([hidden]) {display:grid}
 #markBar:not([hidden]) {display:flex;align-items:center;justify-content:space-evenly;padding:4px 8px max(4px,env(safe-area-inset-bottom));min-height:48px}
 #markBar #markFeedback {font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
 #highlightEditor {width:100%;font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
-#highlightEditor .mark-tools {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px}
-#markBar :is(button,select,.auto-number) {min-height:44px;border:1px solid var(--rule);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
+#highlightEditor .mark-tools {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
+#markBar button {min-height:44px;border:1px solid var(--rule);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
 #markBar #penUndo {min-width:88px}
-#highlightEditor .auto-number {display:flex;align-items:center;justify-content:center;gap:4px}
+
 #highlightEditor input:not([type=checkbox]) {display:block;width:100%;min-height:44px;font:16px var(--ui)}
 .keyboard-open #bottomSlot #markBar:not([hidden]) {display:flex!important}
 .mcq-page>.mcq-docked-actions {position:static}
 .mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}
 body.mark-bar-open #mcqViewport {padding-bottom:0}
-#highlightEditor .auto-number input {inline-size:16px;block-size:16px;min-width:16px;min-height:16px;padding:0;margin:0}
+
 :is(#copy,.mcq-explanation),:is(#copy,.mcq-explanation) * {user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-user-drag:none}
 :is(#copy,.mcq-explanation) {touch-action:pan-x pan-y pinch-zoom}
 :root[data-mark-style="underline"]::highlight(pen-preview) {text-decoration:underline 2px var(--underline-red)}
 ::highlight(pen-preview) {background:var(--current-mark,var(--hl-yellow));color:var(--hl-ink)}
 :is(#copy,.mcq-explanation) :is(p,li,td,th,h1,h2,h3,h4,figcaption,blockquote) {position:relative}
-[data-point]::before {content:attr(data-point);position:absolute;inset-inline-end:100%;inset-block-start:auto;margin-inline-end:2px;font:650 .72em/1.5 var(--ui);color:var(--accent);pointer-events:none}
+/* Reserve the rail regardless of the number of marks. The label has no
+   inline width and therefore cannot push the first word or the next line. */
+#reader.page,.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
+[data-point]::before {content:attr(data-point);position:absolute;inset-inline-end:100%;inset-block-start:auto;
+  margin-inline-end:5px;min-inline-size:1.5em;padding:0 3px;box-sizing:border-box;
+  border:1px solid color-mix(in srgb,var(--mark-colour,var(--hl-yellow)) 64%,var(--muted));border-radius:5px;
+  font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
+  background:var(--mark-colour,var(--hl-yellow));color:var(--hl-ink);pointer-events:none}
+[data-marked="green"][data-point]::before {color:var(--underline-red);background:var(--surface);border-color:var(--underline-red)}
+#highlightEditor .mark-palette {display:flex;align-items:center;justify-content:space-between;gap:4px;padding-bottom:3px}
+#inkDots {display:flex;align-items:center}
+#markBar #inkDots button {display:grid;place-items:center;min-width:0;width:clamp(30px,10vw,44px);min-height:44px;padding:0;border:0;background:transparent}
+#inkDots button::before {content:'';display:block;box-sizing:border-box;width:19px;height:19px;border-radius:50%;background:var(--ink-dot);border:1px solid var(--control)}
+#inkDots [data-ink="green"]::before {height:4px;border:0;border-radius:2px;background:var(--underline-red)}
+#inkDots [aria-pressed="true"] {outline:1px solid var(--accent);outline-offset:-4px;background:var(--accent-soft)}
+#markBar #penNumbers {display:flex;align-items:center;gap:6px;color:var(--ink);border:0;background:transparent;padding-inline:4px;text-align:start}
+.number-switch {width:27px;height:16px;flex:none;border-radius:20px;border:1px solid var(--control);background:var(--soft);display:flex;align-items:center;padding:2px}
+.number-switch::after {content:'';width:10px;height:10px;border-radius:50%;background:var(--muted)}
+#penNumbers[aria-checked="true"] .number-switch {justify-content:flex-end;background:var(--accent);border-color:var(--accent)}
+#penNumbers[aria-checked="true"] .number-switch::after {background:var(--surface)}
 .edition-note {margin-block:var(--s2);border-block:1px solid var(--rule)}
 .edition-note>summary {padding:8px 4px;min-height:44px;align-content:center;cursor:pointer;font:600 calc(13px * var(--fs,1))/1.35 var(--ui);color:var(--accent)}
 .edition-note>.note {margin:0 0 8px;padding:4px;border:0}

@@ -1033,7 +1033,8 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </main><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
 
 <div id="highlightEditor" role="group" aria-label="Highlight tools" hidden>
-  <div class="mark-tools"><select id="inkChoice" aria-label="Highlight colour"></select><button id="markNoteToggle" aria-label="Edit note" title="Edit note">Note</button><button id="pointChip" aria-label="Edit point number" title="Edit point number">Number</button><label class="auto-number"><input type="checkbox" id="penNumbers">Number new marks</label><button id="markCopy" type="button">Copy</button><button id="markDelete" type="button">Delete</button></div>
+  <div class="mark-palette"><div id="inkDots" role="group" aria-label="Highlight colour"></div><button type="button" id="penNumbers" role="switch" aria-checked="false"><span class="number-switch" aria-hidden="true"></span>Number new marks</button></div>
+  <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button id="markDelete" type="button">Delete</button></div>
   <input id="markNote" aria-label="Highlight note" placeholder="Note" maxlength="500" hidden>
   <input id="markNumber" aria-label="Point number" type="number" min="1" step="1" placeholder="Point number" hidden>
 </div>
@@ -6677,7 +6678,7 @@ function markRange(mark){
 function showMark(kind,id,mark){
   activeMark={kind,id,mark};editor.hidden=false;syncMarkingUI();
   for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
-  $('#pointChip').textContent=mark.number?'Number '+mark.number:'Number';$('#inkChoice').value=mark.colour;
+  $('#pointChip').textContent=mark.number?'Number '+mark.number:'Number';selectInk(mark.colour);
   if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';numberField.value=mark.number||'';
 }
 function editMark(kind,id,quote,range){
@@ -6729,15 +6730,26 @@ function modifyMark(fields){
     persistBook(before,saved);if(fields)showMark(kind,id,saved[kind][id]);else closeMark();
   }catch(e){flash(e.message,6000);closeMark();}
 }
-for(const value of markColours)$('#inkChoice').add(new Option(colourLabel(value),value));
-$('#inkChoice').onchange=event=>{colour=event.target.value;applyDisplay();saveDisplay();modifyMark({colour});};
-$('#penNumbers').checked=numbering;
+function selectInk(value){
+  for(const swatch of $('#inkDots').children)swatch.setAttribute('aria-pressed',String(swatch.dataset.ink===value));
+}
+for(const value of markColours){
+  const swatch=document.createElement('button');
+  swatch.type='button';swatch.dataset.ink=value;swatch.title=colourLabel(value);
+  swatch.setAttribute('aria-label',swatch.title);swatch.style.setProperty('--ink-dot','var(--hl-'+value+')');
+  swatch.onclick=()=>{colour=value;applyDisplay();saveDisplay();modifyMark({colour:value});};
+  $('#inkDots').append(swatch);
+}
+selectInk(colour);$('#penNumbers').setAttribute('aria-checked',String(numbering));
 $('#markNoteToggle').onclick=()=>{numberField.hidden=true;noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();};
 $('#pointChip').onclick=()=>{noteField.hidden=true;numberField.hidden=!numberField.hidden;if(!numberField.hidden){numberField.focus();numberField.select();}};
 noteField.oninput=()=>{modifyMark({note:noteField.value});};
 numberField.onchange=()=>{if(numberField.validity.valid)modifyMark({number:numberField.value?Number(numberField.value):null});};
 for(const input of [noteField,numberField])input.onkeydown=e=>{if(e.key==='Enter'){input.blur();input.hidden=true;}};
-$('#penNumbers').onchange=()=>{numbering=$('#penNumbers').checked;try{localStorage.setItem(numberingKey,numbering?'1':'0');}catch{flash('Numbering could not be saved.',3000);}};
+$('#penNumbers').onclick=()=>{
+  try{localStorage.setItem(numberingKey,numbering?'0':'1');numbering=!numbering;$('#penNumbers').setAttribute('aria-checked',String(numbering));}
+  catch{flash('Numbering could not be saved.',3000);}
+};
 $('#markCopy').onclick=async()=>{
   if(!activeMark)return;
   try{await navigator.clipboard.writeText(activeMark.mark.text);closeMark();}
