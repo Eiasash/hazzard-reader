@@ -16,9 +16,9 @@ Study summary of Chapter 93 - Skin Cancer; the book and the full chapter are the
 - Suspected melanoma needs complete full-thickness excision with narrow **2-mm** margins or deep saucerization; superficial shaving can prevent accurate depth measurement (p1467).
 
 **Management & drugs**
-- Isolated actinic keratoses: liquid-nitrogen cryotherapy. High-risk keratinocyte cancers commonly require Mohs surgery with margin control (p1460–1462).
+- Isolated actinic keratoses: liquid-nitrogen cryotherapy. High-risk keratinocyte cancers commonly require Mohs surgery with margin control (pp1460–1462). Table 93-2 includes the **eyelid** among high-risk facial sites for both basal and squamous cell carcinoma.
 - Topical fluorouracil: for actinic keratoses, once daily for up to **4 weeks**; imiquimod: twice weekly for **16 weeks**. Both can cause irritation, dryness and burning (p1461).
-- The **5%** formulations can treat selected biopsy-confirmed low-risk superficial basal cell cancers; their cancer dosing differs from actinic-keratosis dosing (p1461).
+- The **5%** formulations can treat selected biopsy-confirmed low-risk superficial basal cell cancers; their cancer dosing differs from actinic-keratosis dosing (p1461). For advanced basal cell carcinoma, the book lists **vismodegib and sonidegib** as systemic options (p1462).
 - Definitive melanoma management incorporates depth and nodal assessment; sentinel node biopsy is ideally coordinated with definitive excision when indicated (p1467–1468).
 - Explain surgical recovery, reconstruction, treatment visits and functional demands; age alone should not determine treatment (p1470–1471).
 

@@ -21,7 +21,7 @@ Study summary of Chapter 28; the book and the full chapter are the reference.
 **Cardiac procedures and goals**
 - Cardiac operations have procedure-specific hemodynamic and monitoring needs; off-pump benefits remain uncertain overall, with possible benefit in geriatric subgroup analyses (p384, p392-393).
 - TAVR may use sedation or general anesthesia; inability to lie still/flat, imaging needs or complications may require conversion (p393-394).
-- Clarify the device indication and pacemaker dependence; plan ICD interference precautions and rescue capability (p395-396).
+- Clarify the device indication and whether the patient is pacemaker-dependent. Plan for ICD interference and rescue during the procedure (p396).
 - Do not automatically suspend an Allow Natural Death order. Discuss and document acceptable interventions, goals and the period of any modification with the patient and perioperative team (p395-396).
 
 ## Exam questions

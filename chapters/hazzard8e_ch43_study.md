@@ -99,7 +99,7 @@ A program that works for an active person in the community may expose a recently
 ### Prevention — Multifactorial
 - Cochrane review of **43** community trials: multifactorial interventions → **23%** fewer falls overall (p641).
 - RACF: single-component interventions generally ineffective; multidisciplinary multifactorial programs with staff education work (p641).
-- Two large primary-care trials found no significant reduction in their respective primary outcomes: **fractures in PreFIT (9,803 participants)** and **serious fall injuries in STRIDE (5,451 participants)**. Direct delivery and uptake of the intervention may matter when implementing prevention through existing services (p641; [PreFIT](https://doi.org/10.1056/NEJMoa2001500), [STRIDE](https://doi.org/10.1056/NEJMoa2002183)).
+- Hazzard reports no significant reduction in **fractures (n = 5,451)** or **serious fall injuries (n = 9,803)** in two primary-care trials (p641). *[sic — the primary reports give the reverse enrollment figures: PreFIT, 9,803 participants (fractures); STRIDE, 5,451 (serious fall injuries).]* Direct delivery and uptake of the intervention may matter when implementing prevention through existing services. [PreFIT](https://doi.org/10.1056/NEJMoa2001500) · [STRIDE](https://doi.org/10.1056/NEJMoa2002183).
 
 ## Israeli context
 

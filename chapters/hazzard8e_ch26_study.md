@@ -71,7 +71,7 @@ Study summary of Chapter 26; the book and the full chapter are the reference.
 
 **What would reasonable care have required?** Professional custom, expert testimony, contemporary evidence, regulatory requirements, accreditation standards and clinical practice guidelines may inform the court. Common practice can fall below an objectively reasonable standard. A validated guideline can support either side of a case. A patient-specific reason for departing from it belongs in the record. The book discusses U.S. state law and the historical pandemic waivers in this context (pp. 362–364, Table 26-2).
 
-**Valid consent is a conversation.** Explain the problem, likely benefits and harms, alternatives, risks of refusal, costs and uncertainty. Elicit questions, check that the person understands, and document voluntary agreement or refusal. Jurisdictions differ in whether professional disclosure custom or what a reasonable patient would need to know determines adequate disclosure. If the patient lacks capacity, seek the authorized surrogate. If delay in an emergency would threaten life or function and consent cannot be obtained in time, document the reason for immediate treatment (pp. 364–365, Table 26-3).
+**Valid consent is a conversation.** Explain the problem, likely benefits and harms, alternatives, risks of refusal, costs and uncertainty. Elicit questions, check that the person understands, and document voluntary agreement or refusal. Jurisdictions differ in whether professional disclosure custom or what a reasonable patient would need to know determines adequate disclosure. On p365, implied consent is expressed by a patient’s actions, such as voluntarily submitting to a specific routine intervention. If the patient lacks capacity, seek the authorized surrogate. If delay in an emergency would threaten life or function and consent cannot be obtained in time, document the reason for immediate treatment (pp. 364–365, Table 26-3).
 
 **A choice others dislike can still be valid.** Ask the patient to express a choice, explain the reasons, distinguish facts from false assumptions, and describe what the alternatives would mean personally. Tailor the discussion to the actual decision and choose a lucid time when capacity fluctuates. If the patient cannot decide, identify an authorized surrogate and keep the patient involved to the extent possible (pp. 365–366, Table 26-4).
 
@@ -90,7 +90,7 @@ Study summary of Chapter 26; the book and the full chapter are the reference.
 **Valid decisions & capacity**
 - Valid medical decisions require voluntariness, adequate information and decision-making capacity (p364).
 - Explain the intervention, risks, benefits, alternatives and refusal; consent is a process, not merely a signed form (p364–365).
-- Emergency treatment may proceed under implied consent when the patient cannot decide and delay threatens life or function (p365).
+- Implied consent comes from a patient’s behavior demonstrating willingness to undergo the intervention. Emergency treatment of an incapacitated patient without an available surrogate is a separate exception (pp364–365).
 - Capacity is functional and decision-specific, may fluctuate, and may improve with support or a better setting (p365–366).
 - Incapacity does not remove the consent obligation: work with an appropriate surrogate (p365).
 
@@ -98,7 +98,7 @@ Study summary of Chapter 26; the book and the full chapter are the reference.
 - A durable health-care power of attorney names an agent; a living will records treatment instructions (p366).
 - An immediate proxy appointment differs from one activated by a specified later event; explain transfer of authority to the patient (p366).
 - Written directives make wishes easier to establish; revisit plans as circumstances change (p366).
-- POLST documents medical orders for a seriously ill patient's current treatment preferences; its legal operation depends on the applicable setting (p366–367).
+- POLST documents medical orders for a seriously ill patient's current treatment preferences and travels with the patient across care settings; its legal operation depends on the applicable setting (p366–367).
 
 **Confidentiality**
 - Protect sensitive information obtained through care; both state and federal law impose duties (p367–368).

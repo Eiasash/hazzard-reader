@@ -15,7 +15,7 @@ Study summary of Chapter 70 - Palliative Care Across Care Settings; the book and
 - Practical support includes adaptive devices, home modifications, caregiver education and access to medication and community resources (p1078, p1084).
 
 **Across settings**
-- Inpatient teams provide symptom expertise, prognostic support, family communication and links to community services (p1080).
+- Inpatient teams provide symptom expertise, prognostic support, family communication and links to community services (p1080). For a patient with a life-limiting condition, Figure 70-3 lists **more than one admission for the same reason in recent months**, a complex home situation or care transition, and failure to thrive as day-1 triggers. On subsequent days, it lists **ICU stay over seven days**, clarification of goals or resuscitation preferences, and help with prognosis. Difficult symptoms and a negative response to the 12-month surprise question apply at either stage (p1082).
 - Outpatient clinics permit earlier relationships and follow-up after inpatient consultation; access still depends on mobility and available assistance (p1083).
 - Home-based care can reach seriously ill patients who do not qualify for hospice. Completely homebound patients have approximately **40%** mortality over **2 years** in cited data (p1084).
 - An ideal home model integrates primary and palliative care, respite, spiritual support and **24/7** clinician access for crises (p1084).

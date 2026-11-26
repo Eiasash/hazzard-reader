@@ -12,7 +12,7 @@ Study summary of Chapter 18; the book and the full chapter are the reference.
 
 **Make the handoff usable**
 - Prepare patients/caregivers to manage medications, attend follow-up, recognize worsening symptoms and know whom to contact (p256).
-- Reinforce education through repeated early follow-up contacts; tailor content and use teach-back rather than overwhelming information (p255-256).
+- Reinforce simple, tailored education before and after discharge. Involve caregivers and observe the patient performing the task over time to check understanding (Table 18-5, p256).
 - Communicate promptly with the receiving team. Include diagnoses, treatments, pending results, medication changes, functional needs, goals and follow-up responsibilities (p253, p256-257).
 - Reconcile actual current use with intended prescriptions: obtain lists, compare, resolve discrepancies, then communicate the final plan (p257).
 - Use the patient, caregivers, prior records, prescribers and pharmacy; include nonprescription products and adherence problems (p257).
@@ -22,7 +22,7 @@ Study summary of Chapter 18; the book and the full chapter are the reference.
 - Home-visit programs depend on willingness to accept home support and geographic reach; alternatives include telephone-based coordination (p258).
 - Project RED reduced emergency visits but did not significantly reduce rehospitalizations in its trial; its younger study population limits extrapolation (p258).
 - INTERACT supports nursing-home recognition, assessment and communication of clinical change; implementation and measured effects vary (p259).
-- Dementia increases transition vulnerability. Preserve familiar caregivers/environment where feasible and communicate baseline cognition and behavior (p259-260).
+- Cognitive impairment increases vulnerability during transitions. Communicate baseline cognition and behavioral symptoms to the receiving team and weigh the benefit of transfer against the harm of an unfamiliar setting (p253, p257, p259–260).
 - Discuss goals and advance planning near end of life; earlier planning may reduce burdensome transitions. Adapt education and caregiver support to dementia severity (p259-260).
 
 ## Exam questions

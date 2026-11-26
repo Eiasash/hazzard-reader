@@ -26,7 +26,7 @@ Separate baseline vulnerability from the immediate insult. Dementia, sensory imp
 
 <span data-exam-ids="mcq-8c8695c6e0e9292f086c2501" data-exam-read-page="211" data-reader-metadata="exam"></span>
 
-In the hip-fracture case, age and place are already wrong, giving **2** AMT4 points. The patient starts months backward but then moves forward, giving **1** attention point. To interpret sleepiness, determine whether it clears within 10 seconds after waking. To score acute change, ask about the past two weeks and whether the change was still apparent in the last 24 hours. A subtotal of three cannot settle the case. A positive UB-2 begins a second-stage CAM interview. Clinical CAM requires acute change or fluctuation and inattention plus disorganized thinking or altered consciousness. [4AT scoring, p. 211](?chapter=15#exam-p211-mcq-8c8695c6e0e9292f086c2501) · [Table 58-3, p. 884](?chapter=58#exam-mcq-8c8695c6e0e9292f086c2501).
+In the hip-fracture case, age and place are already wrong, giving **2** AMT4 points. The patient starts months backward but then moves forward, giving **1** attention point. To interpret sleepiness, determine whether it clears in **less than 10 seconds after waking**, as printed in the 4AT (Figure 15-2, p211). To score acute change, ask about the past two weeks and whether the change was still apparent in the last 24 hours. A subtotal of three cannot settle the case. A positive UB-2 begins a second-stage CAM interview. Clinical CAM requires **acute onset and fluctuating course** (Ch 58 p880) and inattention plus disorganized thinking or altered consciousness. [4AT scoring, p. 211](?chapter=15#exam-p211-mcq-8c8695c6e0e9292f086c2501) · [Table 58-3, p. 884](?chapter=58#exam-mcq-8c8695c6e0e9292f086c2501).
 
 ## What AMT4 measures in each instrument
 
@@ -42,7 +42,7 @@ Within **4AT**, no AMT4 errors earns zero, one earns one, and two or more errors
 
 <span data-exam-ids="mcq-be0342d1614ce894a9a67d87" data-exam-read-page="212" data-reader-metadata="exam"></span>
 
-Within **ED dementia screening**, even one AMT4 error flags higher risk. A well-educated patient may still answer all four questions correctly despite a change in daily functioning. Ask someone who knows the patient whether tasks such as paying bills or keeping appointments have become more difficult. This is why the caregiver AD8 can add information when a bedside test seems reassuring. [Figure 15-3, p. 212](?chapter=15#exam-p212-mcq-be0342d1614ce894a9a67d87).
+Within **ED dementia screening**, even one AMT4 error flags higher risk. A well-educated patient may still answer all four questions correctly despite a change in daily functioning. Ask someone who knows the patient whether tasks such as paying bills or keeping appointments have become more difficult. This is why the caregiver AD8 can add information when a bedside test seems reassuring. [Figure 15-3, p. 212; accompanying discussion p213](?chapter=15#exam-p212-mcq-be0342d1614ce894a9a67d87).
 
 <span data-exam-ids="mcq-be0342d1614ce894a9a67d87" data-exam-read-page="213" data-reader-metadata="exam"></span>
 
@@ -137,7 +137,7 @@ All scoring and time windows above: Figure 15-2, p211. A single introductory pro
 - **≥4:** possible delirium with or without cognitive impairment; **1–3:** possible cognitive impairment; **0:** either unlikely, but delirium remains possible if acute-change information is incomplete. Administration takes **1–2 minutes**. These are screening interpretations, not proof of etiology (Figure 15-2, p211).
 - The figure's abbreviated **RASS** panel prints: **+3** very agitated, removing tubes/catheters or aggressive; **+2** frequent nonpurposeful movement/fighting ventilator; **+1** restless/anxious without vigorous aggression; **0** alert/calm; **−1** drowsy with voice contact >**10 seconds**; **−2** briefly awake with voice eye contact <**10 seconds**; **−3** movement/eye opening to voice without eye contact; **−4** movement/eye opening only to physical stimulation; **−5** no response to either. It gives **30–60 seconds** for administration (p211).
 - **As printed:** the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel above is the book's displayed panel, not a claim to reproduce every RASS category.
-- Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (p211).
+- Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (pp211–212).
 
 <details data-claim="ch15-figure15-2b"><summary>Book figure: 4AT scoring and abbreviated RASS panel (p211)</summary>
 

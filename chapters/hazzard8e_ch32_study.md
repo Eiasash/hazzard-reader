@@ -9,7 +9,7 @@ Study summary of Chapter 32; the book and the full chapter are the reference.
 - Inspect palate, uvula, tongue, cheeks, lips, floor of mouth, gums and teeth with good lighting and retraction (p465).
 - Report infection/abscess promptly; document loose, fractured, decayed or missing teeth and abnormal tissue in dental referrals (p465).
 - Fluoride, effective brushing and interdental cleaning help prevent caries; adapt brush handles or use electric brushes when disability limits care (p456-457, p466).
-- Periodontal disease may progress without pain; treatment depends on infection, bone loss and the person's overall health and function (p456-457).
+- Periodontitis involves inflammation, infection and loss of the tooth’s attachment apparatus. Destruction may cause bone loss, tooth mobility, pain with eating and tooth loss (p456).
 
 **Dry mouth, senses and mucosa**
 - Salivary hypofunction is not an inevitable consequence of healthy aging. Review medicines, systemic disease and head/neck treatment (p457-458).

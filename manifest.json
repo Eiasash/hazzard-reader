@@ -1565,7 +1565,8 @@
       "number": "21s",
       "title": "The Patient Perspective — Study",
       "file": "hazzard8e_ch21_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/21s.json"
     },
     {
       "number": "13",

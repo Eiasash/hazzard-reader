@@ -16,11 +16,11 @@ Study summary of Chapter 103 - Fibromyalgia and Myofascial Pain Syndromes; the b
 - For myofascial pain, stretching, local modalities and addressing perpetuating factors are first-line approaches; medication alone usually does not improve function (p1664).
 
 **Drugs & cautions**
-- Duloxetine: authors start **20 mg daily**, titrating slowly to **60 mg** over at least several weeks; monitor blood pressure and orthostatic symptoms (p1647, p1649).
+- The authors say practitioners may favor SNRIs over TCAs for fibromyalgia because SNRIs have fewer adverse effects. For duloxetine, the authors start **20 mg daily**, titrating slowly to **60 mg** over at least several weeks; monitor blood pressure and orthostatic symptoms (p1647, p1649).
 - Taper duloxetine slowly if stopping: decrease by no more than **50%** at **1–2-week** intervals to avoid withdrawal (p1649).
-- Pregabalin: studied at **300–450 mg/day**; sedation and dizziness may contribute to falls. Start low at bedtime and titrate slowly in older adults (p1649).
+- Pregabalin: p1649 describes studies at **300–450 mg/day**; Table 103-6 lists **150–300 mg/day** with a maximum of **450 mg/day** (p1653); sedation and dizziness may contribute to falls. Start low at bedtime and titrate slowly in older adults (p1649).
 - Gabapentin: the authors report clinical benefit at **100–600 mg/day** despite inconclusive fibromyalgia evidence; sedation and dizziness also limit use (p1649).
-- Milnacipran has approved fibromyalgia efficacy, but these authors do not prescribe it in older adults because of insufficient age-specific data (p1649).
+- Milnacipran has approved fibromyalgia efficacy, but these authors do not prescribe it in older adults because of insufficient age-specific data (pp1647, 1649).
 
 **Exam traps**
 - A tender-point examination is not required by newer screening methods; clinical evaluation for alternative causes remains necessary (p1643–1644).

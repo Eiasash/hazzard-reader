@@ -9,7 +9,7 @@ Study summary of Chapter 91; the book and the full chapter are the reference.
 - In the United States NLST, annual low-dose CT screening reduced lung-cancer mortality by **20%** versus chest radiographs; false positives and procedural harms matter (p1422).
 - A nodule's size, appearance, change over time and patient risk determine evaluation; low/intermediate suspicion may justify serial CT (p1424).
 - Obtain tissue by the least invasive approach likely to yield a diagnosis; select bronchoscopy, endobronchial ultrasound or transthoracic biopsy by location (p1424).
-- Stage before treatment. Brain imaging is indicated for SCLC, advanced NSCLC, or suggestive neurologic symptoms at any stage (p1425).
+- Stage before treatment. The printed discussion calls for brain imaging even with suspected early-stage disease, preferably MRI, especially in confirmed SCLC (p1425).
 
 **Treatment by disease extent**
 - Early NSCLC: assess for resection; stereotactic body radiotherapy offers an option for medically inoperable patients (p1425).
@@ -19,10 +19,10 @@ Study summary of Chapter 91; the book and the full chapter are the reference.
 - Without a targetable alteration, immunotherapy selection depends partly on tumor PD-L1 expression; immune toxicity can affect multiple organs (p1427–1429).
 
 **SCLC & geriatric priorities**
-- SCLC grows rapidly, often presents symptomatically and commonly recurs after an initial response (p1431).
+- SCLC grows rapidly, often presents symptomatically and commonly recurs after an initial response (p1431). Its paraneoplastic presentations include **SIADH, Cushing syndrome and Lambert–Eaton myasthenic syndrome** (p1424).
 - Platinum plus etoposide underpins treatment; concurrent radiation treats limited-stage disease, with greater esophagitis/toxicity than sequential treatment (p1431).
 - Carboplatin may substitute when cisplatin is poorly tolerated; immunotherapy plus chemotherapy improves survival in extensive-stage disease (p1431).
-- Introduce palliative care early and clarify treatment goals (p1432).
+- Introduce palliative care early and clarify treatment goals (pp1421, 1432). In the cited randomized study of metastatic NSCLC, early palliative care was associated with median overall survival of **11.6 months versus 8.9 months** with standard care alone.
 - Assess function, cognition, nutrition, comorbidity, medications and psychosocial support; chronological age and performance status alone incompletely describe fitness (p1433).
 
 ## Exam questions

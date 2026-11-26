@@ -14,13 +14,13 @@ Study summary of Chapter 84 - Aging of the Gastrointestinal System and Selected 
 - Initial mild–moderate C. difficile disease: oral vancomycin **125 mg four times daily** or fidaxomicin **200 mg twice daily**, each for **10 days** (p1305).
 - Intravenous vancomycin does not adequately reach the colonic lumen and is ineffective for C. difficile colitis (p1305).
 - Microscopic colitis may have normal colonoscopy; exclude infection and obtain biopsies. Budesonide **9 mg daily** induces remission; prednisone carries more adverse effects in older adults (p1306).
-- New IBD can occur late in life. Exclude infectious, ischemic, malignant and diverticular mimics before labeling ulcerative colitis (p1306, p1308).
+- New IBD can occur late in life. Exclude infectious, ischemic, malignant and diverticular mimics before labeling ulcerative colitis (pp1306, 1308). In long-standing colonic ulcerative colitis, the book advises surveillance colonoscopy with biopsies **every 1–3 years**, beginning **8–10 years after disease onset** (p1309).
 
 **Ischemia & obstruction**
 - Sudden small-bowel ischemia can be catastrophic; chronic disease may cause postprandial pain, food avoidance and weight loss (p1309).
 - Colonic ischemia more often produces mild crampy pain and limited rectal bleeding. Severe pain may indicate transmural necrosis (p1310).
 - Suspected colonic ischemia warrants CT-based assessment and close monitoring; stabilize, optimize cardiac function and rest the bowel. Antibiotics are used for moderate/severe cases (p1310).
-- Acute colonic pseudo-obstruction often follows severe illness or surgery; distinguish it from mechanical obstruction. Cecal diameter at least **12 cm** marks megacolon and increased concern for perforation (p1310).
+- Acute colonic pseudo-obstruction often follows severe illness, abdominal surgery, or orthopedic surgery of the hip, pelvis or knee; distinguish it from mechanical obstruction. Cecal diameter at least **12 cm** marks megacolon and increased concern for perforation (p1310). Correct reversible contributors, including electrolyte disturbances (p1311).
 
 **Exam traps**
 - Colonic ischemia often lacks demonstrable vascular occlusion; its prognosis differs from catastrophic small-bowel ischemia (p1309–1310).

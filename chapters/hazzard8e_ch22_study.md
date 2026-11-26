@@ -44,7 +44,9 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 
 <span data-exam-ids="mcq-a542a3a627e208dabd1e6265"></span>
 
-**Clonazepam.** Older people generally have a larger volume of distribution for lipid-soluble benzodiazepines and can be more sensitive to their effects. Distribution describes where the drug goes. Sensitivity describes the response to a given exposure. June 2026 Q10 chose clonazepam for review because of cognitive and fall risks. Establish its indication and the likelihood of physical dependence before attempting withdrawal. The Beers criteria give drug-specific cautions and exceptions, but do not rank four agents for a particular patient whose treatment indications are unspecified (Hazzard p302–303 and p319 in Chapter 23, AGS Beers 2023 p2059–2060, p2068).
+**Clonazepam.** Lipid-soluble benzodiazepines have a larger volume of distribution in older adults, who may also be more sensitive to their effects (Ch 22, pp302–303). June 2026 Q10 selected clonazepam for review. Check the original indication and duration: chronic sedative-hypnotic use may cause physical dependence and withdrawal on discontinuation (Ch 11, p169). Ch 23, p319, gives **13%** as the estimated prevalence of benzodiazepine **use** in older adults.
+
+> Current practice (not the book): benzodiazepines increase cognitive and fall risks in older adults; assess the indication and applicable exceptions — AGS Beers Criteria 2023, Table 2.
 
 <span data-exam-ids="mcq-2d928ababba95770cc9cd5c7"></span>
 
@@ -56,7 +58,9 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 
 **Absorption versus clearance.** Drug absorption is largely preserved with aging. Changes in lean body mass and fat affect distribution, while hepatic metabolism and renal excretion may reduce clearance. December 2021 asked how more body fat affects a lipid-soluble drug. This mechanism does not determine a precise duration of clonazepam action. Assess other medications, organ function, sensitivity and clinical response when choosing a dose. Shorter-acting benzodiazepines and Z-drugs can still carry substantial fall risk (p302–303).
 
-**Risk depends on the indication.** The 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning. Behavioral symptoms in dementia warrant assessment of triggers and non-drug measures. For dementia-related behavior, Beers reserves antipsychotics for a substantial threat of harm to the patient or others when non-drug measures have failed or cannot be used. The same reasoning applies to prolonged acid suppression. Check why the treatment continues and whether an exception such as erosive esophagitis applies (p303–304, p312, AGS Beers 2019 Table 2).
+**Risk depends on the indication.** For nursing-home residents with dementia, reserve antipsychotics for situations in which the benefit clearly outweighs the risk, such as behavior posing a **risk to the resident or others**. Reassess the need and consider dose reduction or discontinuation (p308). Review the reason for prolonged acid suppression, including exceptions such as erosive esophagitis (pp303–304, 312).
+
+> Current practice (not the book): the 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning. The 2023 AGS Beers Criteria reserve antipsychotics for dementia-related behavior when nonpharmacologic measures fail or cannot be used and the person threatens substantial harm to self or others — [AGS Beers Criteria 2019, Table 2](https://doi.org/10.1111/jgs.15767) and [AGS Beers Criteria 2023, Table 2](https://doi.org/10.1111/jgs.18372).
 
 **Consider the specific adverse effect.** The older exam questions pair fever and neutropenia with clozapine, new joint symptoms and suspected pericardial inflammation with hydralazine, and prolonged PPI use with fractures, enteric infection or interstitial nephritis. Identifying an exposure focuses the examination and laboratory investigation. The description alone does not prove drug causation (Hazzard p928, p1287, p1322–1323, p1624–1625).
 

@@ -11,7 +11,7 @@ Fast build from the book; not lane-reviewed.
 ### Epidemiology & diagnosis
 - Older adults are underrepresented in treatment trials; consider function, comorbidity, toxicity and social support, and refer early for oncology input. (p. 1435)
 <a id="p1437"></a>
-- Older adults appear to have more right-sided CRC, obstruction and perforation; stage distribution is similar to younger adults. (p. 1437)
+- Older adults appear to have more right-sided CRC, obstruction and perforation; stage distribution is similar to younger adults. Men treated with curative radiotherapy for localized prostate cancer have a reported **70% higher risk** of cancer in the previously irradiated bowel (pp1437–1438).
 - Individualize CRC screening; stopping may be reasonable when life expectancy is shorter than the **5-10 years** for polyp-to-cancer progression. (p. 1440)
 
 ### Management
@@ -22,9 +22,9 @@ Fast build from the book; not lane-reviewed.
 <a id="p1446"></a>
 - Gastric cancer: gastrectomy is the curative treatment described; most, but not all, studies suggest similar perioperative risk across age groups. (p. 1446)
 <a id="p1448"></a>
-- Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. (p. 1448)
+- Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. In the cited study, **five-year survival and complication rates** after transarterial chemoembolization were similar in adults **75 or older** and younger adults (p1448).
 <a id="p1449"></a>
-- Esophageal surgery evidence is mixed: most, but not all, studies suggest age alone is not limiting; assess fitness and cardiopulmonary risk. (p. 1449)
+- Esophageal surgery evidence is mixed: most, but not all, studies suggest age alone is not limiting; assess fitness and cardiopulmonary risk. For Barrett-associated adenocarcinoma, evidence on whether incidence increases with advanced age is conflicting (p1449).
 
 ### Drugs & supportive care
 - Olaparib **300 mg twice daily**: POLO maintenance after at least **16 weeks** of continuous first-line platinum without progression in germline BRCA-mutated metastatic pancreatic cancer; improved progression-free survival, but interim overall survival did not differ. (p. 1446)

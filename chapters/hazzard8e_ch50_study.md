@@ -19,7 +19,7 @@ Study summary of Chapter 50 - Mobility Assessment and Management; the book and t
 **Management**
 - Address impairments while practicing mobility tasks; combine strength, balance, endurance and flexibility training as needed (p755).
 - Use assistive/orthotic devices, environmental adaptations and caregiver training to improve stability, participation and weight-bearing pain (p741, p755).
-- Deconditioning often accompanies reduced mobility and is treatable in many sick or frail older adults. General conditioning and progressively complex walking practice may help (p755).
+- Deconditioning is almost always present as a consequence of reduced mobility and inactivity and is treatable in many sick or frail older adults. General conditioning and progressively complex walking practice may help (p755).
 
 **Exam traps**
 - Gait speed is an integrative functional marker, not a diagnosis of the responsible impairment; assessment scales help choose tasks and monitor treatment (p750, p752).

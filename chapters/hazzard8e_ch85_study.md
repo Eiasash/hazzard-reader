@@ -5,16 +5,16 @@ Study summary of Chapter 85 - Upper Gastrointestinal Disorders; the book and the
 ## Summary
 
 **Presentation & diagnosis**
-- GERD and ulcers may present with anemia, anorexia, vomiting or weight loss rather than typical pain; mild symptoms can accompany severe esophagitis (p1315–1317).
+- GERD and ulcers may present with anemia, anorexia, vomiting or weight loss rather than typical pain; mild symptoms can accompany severe esophagitis. Figure 85-2 includes **dysphagia** among nonspecific presentations of reflux esophagitis in older adults (pp1315–1318).
 - The chapter advises great caution with empiric PPI diagnosis in older adults and generally favors endoscopic evaluation rather than relying on symptom response (p1315, p1317).
 - Peptic ulcer risk reflects H. pylori, mucosa-damaging drugs and impaired mucosal defenses; review NSAIDs and antithrombotic exposure (p1315).
 
 **Acid suppression & H. pylori**
 - PPIs heal erosive esophagitis more effectively than H2 blockers. Studied daily regimens include omeprazole **20 mg** and pantoprazole **40 mg** (p1319).
-- Reassess the indication for ongoing acid suppression; the chapter explicitly includes deprescribing when warranted (p1315).
+- Reassess the indication for ongoing acid suppression; the chapter explicitly includes deprescribing when warranted (p1315). The book reports associations between PPI use and hip, wrist or spine fractures, and a meta-analysis reporting about **twice the risk of C. difficile infection** (pp1322–1323).
 - H. pylori tests can be falsely negative during antisecretory or antibiotic treatment and with gastric atrophy; biopsy location matters (p1327).
 - Confirm eradication, generally at least **1 month** after treatment, using breath/stool testing or endoscopy when clinically indicated (p1327).
-- The chapter describes PPI-based antibiotic combinations and notes greater eradication with **14** versus **7 days**, while acknowledging limited older-adult evidence for the longer regimen (p1328).
+- The chapter describes PPI-based antibiotic combinations and notes greater eradication with **14** versus **7 days**, while acknowledging no studies specifically evaluating the clinical usefulness of two-week triple therapy in older patients at the time of publication (p1328).
 
 **Upper GI bleeding**
 - UGIB originates proximal to the ligament of Treitz; it may cause hematemesis, melena, hematochezia or occult blood loss/anemia (p1331).

@@ -15,7 +15,7 @@ June 2022 Q51 tested the **balance of macronutrients**. Among diets compared in 
 
 **Survival versus aging.** Preventing one fatal illness can lengthen life. The stronger observation in restricted rodents was that changes in renewing tissues, nondividing neurons and extracellular tissues were delayed together. That breadth supports a shared aging process (p4–5).
 
-**What can be said to a patient?** In humans, dietary restriction has improved measures such as blood pressure and lipids. Those outcomes can be measured long before lifespan. The observations do not establish that restriction without malnutrition prolongs human life or that an older patient should restrict protein for longevity (p5–6).
+**What can be said to a patient?** In humans, dietary restriction has improved measures such as blood pressure and lipids. Those outcomes can be measured long before lifespan. The observations do not establish that restriction without malnutrition prolongs human life or that an older patient should restrict protein for longevity (p6).
 
 ## Genes associated with human longevity
 

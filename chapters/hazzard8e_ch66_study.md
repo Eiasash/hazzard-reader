@@ -10,7 +10,7 @@ Study summary of Chapter 66; the book and the full chapter are the reference.
 - Antipsychotics require individualized risk–benefit discussion and monitoring; older adults are vulnerable to adverse effects, and dementia-related use has mortality concerns (p1027–1028).
 
 **Mood & suicide**
-- Depression is common and associated with suicide risk; late-life mood presentations require medical and psychiatric assessment (p1028–1029).
+- Depression is common and associated with suicide risk; late-life mood presentations require medical and psychiatric assessment (pp1021, 1028–1031).
 - Ask directly about suicide, intent, means and protective factors while establishing rapport; older patients may be reluctant to disclose thoughts (p1029–1030).
 - High acute suicide risk requires emergent mental-health evaluation. Reduce access to lethal means, treat the underlying disorder and involve support people (p1030–1031).
 

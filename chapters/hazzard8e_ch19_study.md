@@ -6,7 +6,7 @@ Study summary of Chapter 19; the book and the full chapter are the reference.
 
 **Value and risk**
 - Value means patient health outcomes relative to costs. Quality targets alone may miss patient preferences or sustainability (p263).
-- Low-value care provides little benefit, may harm patients, or wastes resources. Choosing Wisely lists identify targets, but lists alone have had limited effects (p264).
+- Choosing Wisely identifies services that offer little benefit, may harm patients, incur unnecessary costs or waste resources. The AGS lists 10 treatments to avoid. These lists are one component of a broader effort to reduce low-value care (p264, Table 19-1).
 - Common elements: financial risk sharing, quality measurement, care coordination and population health management (p264-266).
 - Upside risk rewards performance; downside risk permits losses. Bundles cover an episode; capitation pays per person. Quality thresholds help prevent withholding beneficial care (p265).
 
@@ -21,7 +21,7 @@ Study summary of Chapter 19; the book and the full chapter are the reference.
 - Donabedian: structure, process and outcomes. Separate intermediate markers from outcomes patients experience, including pain, function and continence (p272-273).
 - Outcome comparisons need appropriate risk adjustment. Multimorbidity, drug interactions and competing recommendations complicate disease-specific measures in older adults (p273-274).
 - Improvement depends on local implementation, leadership and context; there is no universally successful recipe (p274).
-- Measurement burden can divert resources. Imperfect risk adjustment may disadvantage complex patients or safety-net services; monitor outcomes alongside spending (p274-275).
+- Measurement itself consumes resources. Hospital programs may disproportionately penalize safety-net hospitals and those treating complex patients. Evaluate risk adjustment, quality outcomes and spending together (Table 19-3, p269; p274–275).
 
 ## Exam questions
 

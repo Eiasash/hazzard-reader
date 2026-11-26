@@ -24924,5 +24924,47 @@
     "id": "u79",
     "old": "Infections 35%, inflammatory disorders 28%, malignancy 19%, no diagnosis 13% (p1675).",
     "new": "Infections 35%, inflammatory disorders 28%, malignancy 19%, other causes (pulmonary emboli or drug fever) 5%, and no diagnosis 13% (Table 104-2, p1675)."
+  },
+  {
+    "chapter": "1s",
+    "id": "u47",
+    "old": "The observations do not establish that restriction without malnutrition prolongs human life or that an older patient should restrict protein for longevity (p5–6).",
+    "new": "The observations do not establish that restriction without malnutrition prolongs human life or that an older patient should restrict protein for longevity (p6)."
+  },
+  {
+    "chapter": "3s",
+    "id": "u35",
+    "old": "Helper T-cell lineages support intracellular pathogen defense, antibody production in follicles and other specialized responses. Regulatory T cells restrain activation. Tissue-resident memory T cells can provide a rapid local response. Aging affects these populations differently, and peripheral blood findings need not describe their behavior in tissue (p57–58).",
+    "new": "Helper T-cell lineages support intracellular pathogen defense, antibody production in follicles and other specialized responses. Regulatory T cells restrain activation. Tissue-resident memory T cells can provide a rapid local response. Aging affects these populations differently, and peripheral blood findings need not describe their behavior in tissue (p58)."
+  },
+  {
+    "chapter": "15s",
+    "id": "u49",
+    "old": "Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (p211).",
+    "new": "Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (pp211–212)."
+  },
+  {
+    "chapter": "51s",
+    "id": "u169",
+    "old": "Plan an antiresorptive afterward to preserve BMD gains (pp774–777).",
+    "new": "Plan an antiresorptive afterward to preserve BMD gains (p776)."
+  },
+  {
+    "chapter": "104s",
+    "id": "u17",
+    "old": "Age alone should not be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1668; detail p1674)",
+    "new": "Age alone should not be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1667; detail p1674)"
+  },
+  {
+    "chapter": "104s",
+    "id": "u27",
+    "old": "Autoimmune disease causes nearly one in four FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by GCA and polyarteritis nodosa; GCA alone accounts for nearly one in six FUOs ≥60 (KCP #5, p1668; detail p1675)",
+    "new": "Autoimmune disease causes nearly one in four FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by GCA and polyarteritis nodosa; GCA alone accounts for nearly one in six FUOs ≥60 (KCP #5, p1667; detail p1675)"
+  },
+  {
+    "chapter": "104s",
+    "id": "u30",
+    "old": "The chapter highlights high-dose influenza, adjuvanted recombinant zoster, and mRNA SARS-CoV-2 vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1668; detail p1676).",
+    "new": "The chapter highlights high-dose influenza, adjuvanted recombinant zoster, and mRNA SARS-CoV-2 vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1667; detail p1676)."
   }
 ]

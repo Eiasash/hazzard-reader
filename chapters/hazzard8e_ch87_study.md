@@ -25,7 +25,8 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 Check potassium and magnesium. **Hypokalemia impairs neuromuscular function** and reduces the effective cholinergic stimulus to intestinal smooth muscle. The June 2023 question asked which chemistry abnormality to expect. The September 2024 question used the same postoperative radiographic pattern to ask for the diagnosis. A volvulus twists the bowel around its mesentery and can require urgent detorsion. A stercoral ulcer is pressure necrosis beneath a hard fecaloma. Sudden pain and peritonitis from perforation require urgent surgical treatment (pp1361–1362).
 
-<span data-exam-ids="mcq-811bbe2e4f19b983c1f44c2d" data-reader-metadata="exam"></span>**Treat uncomplicated acute dilatation in stages.** Exclude mechanical obstruction and assess for peritonitis or ischemia. Rest the bowel, decompress with a flatus tube as appropriate, correct electrolytes and treat the precipitating illness. If significant dilatation persists, consider neostigmine after assessing contraindications. Its cholinergic action can slow the heart, so treatment requires cardiorespiratory monitoring and access to atropine. Persistent dilatation after drug therapy, or a contraindication to the drug, can warrant endoscopic decompression. PEG enters the discussion after resolution to reduce recurrence (p1362). [ASGE guideline, pp230–232 and Figure 1](https://www.asge.org/docs/default-source/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus-2020-february-gie.pdf).
+<span data-exam-ids="mcq-811bbe2e4f19b983c1f44c2d" data-reader-metadata="exam"></span>**Treat uncomplicated acute colonic dilatation in stages.** Hazzard starts with bowel rest, flatus-tube decompression, correction of potassium and magnesium disturbances, and treatment of the precipitant. Persistent dilatation may warrant neostigmine if cardiac contraindications are absent, then endoscopic decompression if necessary. PEG after resolution can reduce recurrence (p1362).
+> Current practice (not the book): ASGE advises monitored neostigmine with atropine available, and endoscopic decompression when pharmacologic treatment is contraindicated or unsuccessful. [ASGE guideline, pp230–232 and Figure 1](https://www.asge.org/docs/default-source/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus-2020-february-gie.pdf).
 
 June 2022 tested the order of treatment. June 2025 supplied severe hypokalemia and a rectal tube, then asked for the next drug. The accepted option names **neostigmine** followed by the brand name **Mestinon**. In Israel the Mestinon tablet contains pyridostigmine. These are two different active ingredients. [Israeli Mestinon leaflet, October 2024, section 1](https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_19_681206424.pdf).
 
@@ -68,7 +69,8 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 ## Summary
 
 ### Definition & Epidemiology
-- **Rome IV functional constipation** requires at least two features: straining, hard or lumpy stool (Bristol 1–2), incomplete evacuation, anorectal blockage, manual maneuvers (each in more than **25%** of defecations), or fewer than **3 spontaneous bowel movements/week**; criteria must be met during the last **3 months**, with onset at least **6 months** before diagnosis, rare loose stools without laxatives and insufficient criteria for IBS ([Rome Foundation, C2](https://theromefoundation.org/rome-iv/rome-iv-criteria/)); Hazzard Table 87-1 prints 12 weeks in the last 12 months (p1354).
+- **Functional constipation.** Table 87-1 prints at least two features on **>25% of occasions for ≥12 weeks in the last 12 months**, including **≤2 bowel movements/week**, straining, hard stool, incomplete evacuation, blockage or manual maneuvers (p1354).
+  > Current practice (not the book): Rome IV specifies **<3 spontaneous bowel movements/week** for the frequency item, criteria met over the **last 3 months** with onset **≥6 months** earlier, rare loose stools without laxatives and insufficient IBS criteria. [Rome Foundation, C2](https://theromefoundation.org/rome-iv/rome-iv-criteria/).
 - North American prevalence **12-19%**; an estimated **63 million** people in North America meet Rome II criteria for constipation (p1354).
 - Self-reported constipation in adults 65+: **26%** women, **16%** men; rises to **34%/26%** in the 84+ group (p1354).
 - Normal aging does NOT reduce bowel movement frequency: only **1-7%** of any age group report ≤2 BM/wk. Among older adults who self-report "constipation," **<10%** actually have ≤2 BM/wk and **>50%** move bowels daily — straining (**65%**) and hard stool (**39%**) drive the complaint, not frequency; **21%** of community-dwelling people 65+ have rectal outlet delay (p1355).
@@ -87,7 +89,8 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - Calcium supplementation has a real but modest effect: **13%** vs **9.1%** placebo over a 5-year trial (p1359).
 - Parkinson disease: **59%** meet Rome criteria (vs **21%** in age-matched controls); pelvic dyssynergia affects **60%** of PD patients (p1360).
 - Stroke: **60%** of patients are constipated while undergoing rehabilitation (p1360).
-- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. Metoclopramide may treat diabetic gastroparesis. Tardive dyskinesia risk rises with total exposure. For diabetic gastroparesis, US prescribing information advises avoiding more than **12 weeks of total treatment**. A drug holiday does not reset cumulative exposure (p1361). [Reglan prescribing information, Boxed Warning](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397)
+- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. Metoclopramide may treat diabetic gastroparesis. The book advises avoiding **continuous metoclopramide for >12 weeks** and encourages a **two-week drug holiday** or a tolerated dose reduction, with tight glucose control when clinically feasible (p1361).
+  > Current practice (not the book): Tardive dyskinesia risk rises with total exposure. For diabetic gastroparesis, US prescribing information advises avoiding more than **12 weeks of total treatment**. A drug holiday does not reset cumulative exposure. [Reglan prescribing information, Boxed Warning](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397)
 - In one adjusted study, reporting <3 BM/week was associated with >**2-fold** colon cancer risk — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
 
 ### Complications
@@ -119,8 +122,9 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - **Glycerin suppository** — first-line for rectal outlet delay; **bisacodyl suppository** second-line; onset **5-45 min** (p1377).
 - **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide** (placebo-controlled trials showed efficacy at 3 and 6 mg — trial doses) — secretagogues; effective but costly, with limited older-adult trial data (p1377).
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), not associated with major adverse cardiovascular events (p1377).
-- **PAMORAs for opioid-induced constipation** — naldemedine and naloxegol counter opioid effects in the gut. Pooled response rates on p1378 are **52% vs 35%** and **42% vs 29%**, respectively. The pivotal trials measured spontaneous bowel movements, without requiring a sense of complete evacuation. Responders had at least three per week and at least one more than baseline for nine of twelve weeks, including three of the last four. [COMPOSE trials](https://pubmed.ncbi.nlm.nih.gov/28576452/) · [KODIAC trials](https://doi.org/10.1056/NEJMoa1310246)
-- Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); lactulose is a nonabsorbed disaccharide fermented by colonic bacteria, while sorbitol is an osmotic sugar alcohol; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
+- **PAMORAs for opioid-induced constipation.** Hazzard reports **>3 complete spontaneous bowel movements (CSBMs)** for naldemedine (**52% vs 35%**) and **≥3 CSBMs/week** for naloxegol (**42% vs 29%**) (p1378).
+  > Current practice (not the book): The pivotal trials measured spontaneous bowel movements, without requiring a sense of complete evacuation. Responders had at least three per week and at least one more than baseline for nine of twelve weeks, including three of the last four. [COMPOSE trials](https://pubmed.ncbi.nlm.nih.gov/28576452/) · [KODIAC trials](https://doi.org/10.1056/NEJMoa1310246)
+- Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); the table describes lactulose and sorbitol together as “Nonabsorbable disaccharides” fermented by colonic bacteria *[sic — lactulose is a disaccharide; sorbitol is a sugar alcohol]*; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
 
 *The June 2025 pseudo-obstruction option pairs neostigmine with the brand name of a different drug (see Israeli context above).*
 
@@ -130,7 +134,8 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 
 <details><summary>Answer</summary>
 
-At least two features: fewer than three spontaneous bowel movements/week, or straining, Bristol 1–2 stools, incomplete evacuation, blockage or manual maneuvers in more than 25% of defecations; symptoms fulfill criteria for the last three months and began at least six months before diagnosis, loose stools are rare without laxatives, and IBS criteria are insufficient ([Rome Foundation, C2](https://theromefoundation.org/rome-iv/rome-iv-criteria/)); Table 87-1 (p1354) gives a different time window.
+Table 87-1 prints at least two features on **>25% of occasions for ≥12 weeks in the last 12 months**, including **≤2 bowel movements/week**, straining, hard stool, incomplete evacuation, blockage or manual maneuvers (p1354).
+> Current practice (not the book): Rome IV uses fewer than three spontaneous bowel movements weekly and the last-three-month/onset-six-month window. [Rome Foundation, C2](https://theromefoundation.org/rome-iv/rome-iv-criteria/).
 
 </details>
 
@@ -158,11 +163,12 @@ At least two features: fewer than three spontaneous bowel movements/week, or str
 
 </details>
 
-**9. Why must metoclopramide use in older adults be time-limited, and what total duration should generally be avoided for diabetic gastroparesis?**
+**9. Why must metoclopramide use in older adults be time-limited, and what limit and interruption does Hazzard describe for continuous treatment?**
 
 <details><summary>Answer</summary>
 
-Older adults are particularly susceptible to tardive dyskinesia, which may be irreversible. For diabetic gastroparesis, avoid more than 12 weeks of total treatment. Interrupting treatment or reducing the dose does not erase previous exposure (p1361 and the Reglan boxed warning above).
+Older adults are particularly susceptible to potentially irreversible tardive dyskinesia. The book advises avoiding **continuous metoclopramide for >12 weeks** and encourages a **two-week drug holiday** or a tolerated dose reduction, with tight glucose control when clinically feasible (p1361).
+> Current practice (not the book): The US boxed warning addresses **total** treatment exposure; a holiday does not reset the 12-week limit. [Reglan prescribing information, Boxed Warning](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397).
 
 </details>
 

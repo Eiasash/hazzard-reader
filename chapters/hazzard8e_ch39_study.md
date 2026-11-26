@@ -9,9 +9,11 @@ Study summary of Chapter 39 - Systems Physiology of Aging and Selected Disorders
 - Aging changes vary across people and organs: reduced complexity, resilience, end-organ responsiveness and negative feedback interact with accumulated allostatic load (p575–576).
 
 **Temperature disorders**
-- Hypothermia may occur without extreme cold, shivering or a complaint of feeling cold. Use a low-reading thermometer; investigate infection, hypoglycemia and hypothyroidism (p583–584).
+- Hypothermia may occur without extreme cold, shivering or a complaint of feeling cold. With aging, basal temperature is unchanged but shivering intensity declines (p582). Use a low-reading thermometer; investigate infection, hypoglycemia and hypothyroidism (p583–584).
 - Mild hypothermia at **32–35°C** generally responds to insulation and a warm environment; active external heating may cause vasodilation and hypovolemic shock (p584).
-- Below **32°C**, start active rewarming and monitor ECG, temperature and circulation. Stable patients can receive active external rewarming with warmed fluids when indicated. Escalate to specialist core or extracorporeal rewarming for failure to rewarm, hemodynamic instability or cardiac arrest (p584; European Resuscitation Council Guidelines 2025, Special Circumstances).
+- Below **32°C**, the book calls for **active core rewarming**. It describes rapid instillation and removal of **40°C potassium-free peritoneal dialysate** as a core rewarming method (p584).
+
+  > Current practice (not the book): Stable patients can receive active external rewarming with warmed fluids when indicated. Failure to rewarm, hemodynamic instability or cardiac arrest may require specialist core or extracorporeal rewarming — ERC 2025, Special Circumstances.
 - Insulin is ineffective below **30°C**; drug metabolism and responsiveness change during hypothermia and rewarming, allowing accumulation and subsequent toxicity (p584).
 - Heatstroke needs rapid cooling and supportive care. Remove clothing, cool skin and monitor temperature, fluid balance and cardiovascular status to avoid hypothermic overshoot (p585).
 
@@ -19,12 +21,12 @@ Study summary of Chapter 39 - Systems Physiology of Aging and Selected Disorders
 - Hyponatremia symptoms depend on severity and speed of onset; chronic cases can appear less symptomatic. Evaluate osmolality, baseline cognition and volume status (p586–587).
 - Severe symptomatic hyponatremia is an emergency: generally aim for no more than **8 mEq/L** increase in the first **24 hours**, with frequent sodium checks (p587).
 - Treatment depends on physiology: hypertonic saline with or without a loop diuretic for SIADH with concentrated urine; **0.9% saline** for hypovolemia; water restriction plus loop diuretic for hypervolemia (p587).
-- Hypernatremia requires treatment of water loss/deprivation and water replacement; the chapter advises a sodium fall of approximately **8–10 mEq/L/24 h** (p588).
+- Hypernatremia requires treatment of water loss/deprivation and water replacement. In hypotension with compromised circulation, start **0.9% saline** to restore intravascular volume, then switch to a more hypotonic fluid; the chapter advises a sodium fall of approximately **8–10 mEq/L/24 h** (p588).
 
 **Drugs & exam traps**
 - Recurrent volume depletion can reflect mineralocorticoid deficiency even without frank hyperkalemia. For diagnosed isolated deficiency: fludrocortisone **0.1 mg daily** (p589).
 - A BUN/creatinine ratio above **20:1** may reflect low muscle mass rather than volume depletion; low protein intake can instead mask the expected rise (p589).
-- Anticholinergic drugs may provoke cognitive change, constipation, dry mouth and urinary retention; disease and aging-related susceptibility both contribute (p590).
+- Older adults may have reduced sensation of bladder filling (p589). Anticholinergic drugs may provoke cognitive change, constipation, dry mouth and urinary retention; disease and aging-related susceptibility both contribute (p590).
 
 ## Exam-cited book images
 

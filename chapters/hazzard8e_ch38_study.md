@@ -53,7 +53,9 @@ Record voiding times and volumes across the full day and night for about three d
 
 Active observation suits men with uncomplicated mild to moderate symptoms who prefer it and can return for follow-up. Discuss fluid timing, voiding habits, drugs that can precipitate retention and how to recognize a full bladder that fails to empty. In one trial of moderate symptoms, improvement at three years averaged 38% with watchful waiting and 66% after TURP. The choice depends partly on how much the symptoms bother the patient today (pp. 563, 565–566).
 
-Retention, recurrent urinary infection, bladder stones or hematuria warrant prompt urologic assessment. The referral section gives a residual above 250 to 300 mL in the setting of retention. New renal impairment or hydronephrosis increases urgency. An incontinent man with a distended bladder can have overflow leakage. Drain a retained bladder and investigate impaired emptying, especially with renal deterioration. A storage drug can worsen the residual (pp. 562–565). [NICE CG97, section 1.7, treating urinary retention](https://www.nice.org.uk/guidance/cg97/chapter/recommendations#treating-urinary-retention).
+Retention, recurrent urinary infection, bladder stones or hematuria warrant prompt urologic assessment. The chapter gives **over 200 mL** as an example of a large residual warranting immediate referral (p563), flags **over 300 mL** in Figure 38-5 (p559), and lists retention with a residual **over 250–300 mL** for prompt referral (p565). New renal impairment or hydronephrosis increases urgency. An incontinent man with a distended bladder can have overflow leakage. A storage drug can worsen the residual (pp. 562–565).
+
+> Current practice (not the book): NICE advises immediate catheterization for acute urinary retention and catheterization for chronic retention with impaired renal function or hydronephrosis. [NICE CG97, section 1.7, treating urinary retention](https://www.nice.org.uk/guidance/cg97/chapter/recommendations#treating-urinary-retention).
 
 ## Choosing medication by the patient's aim
 

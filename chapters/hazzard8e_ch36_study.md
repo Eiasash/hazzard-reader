@@ -19,7 +19,7 @@ Study summary of Chapter 36; the book and the full chapter are the reference.
 - Most adnexal masses are benign after menopause; transvaginal ultrasound helps characterize them (p539).
 
 **Hormones & pelvic support**
-- Systemic hormone decisions require individualized assessment of symptoms and vascular/cancer risks; the book distinguishes continuing therapy from late initiation (p540–541).
+- Hazzard calls initiation of systemic hormone therapy after age **65** contraindicated. It distinguishes continued treatment begun at menopause, which calls for an individualized decision (p540).
 - Prolapse treatment depends on bother, overall health and goals. Observation may suit uncomplicated, minimally bothersome prolapse (p544).
 - Refer for nonhealing ulceration, bleeding, retention causing recurrent infection, or hydronephrosis (p544).
 - Pelvic-floor exercises and pessaries offer conservative options; assess tissue health and ability to manage the device (p544–545).

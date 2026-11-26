@@ -11,7 +11,7 @@ Study summary of Chapter 107 - Other Viruses: Human Immunodeficiency Virus Infec
 - Viral suppression reduces transmission, but does not generally eradicate HIV. Multimorbidity, polypharmacy and functional decline remain concerns even with controlled infection (p1719).
 
 **Zoster: diagnosis**
-- Reactivation of latent varicella-zoster virus causes unilateral dermatomal pain and rash; postherpetic neuralgia is pain at least **90 days** after rash onset (p1725).
+- Reactivation of latent varicella-zoster virus causes unilateral dermatomal pain and rash; postherpetic neuralgia is pain at least **90 days** after rash onset (p1725). Zoster risk increases with age and immunocompromise, including HIV, hematologic malignancy, transplant, **systemic lupus erythematosus** and immunosuppressive drugs; the chapter also lists female sex, White race, psychological stress and physical trauma (pp1725–1726).
 - Pain, burning or hyperesthesia can precede rash by days and mimic visceral or neurologic disease. Zoster sine herpete can cause dermatomal neuralgia without rash (p1726).
 - Typical dermatomal vesicles with pain support the clinical diagnosis; recurrent localized lesions also raise herpes simplex in the differential (p1727).
 

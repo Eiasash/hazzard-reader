@@ -9,7 +9,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - Three types (A, B, C); only **A and B** are clinically relevant (p1733).
 - **8** RNA segments encode the virus's structural/enzymatic proteins — recombination of whole segments in animals causes antigenic **"shift"** (pandemic risk); annual mutations causing small changes in hemagglutinin cause antigenic **"drift"** (why the vaccine is reformulated yearly) (p1733).
 - Antigenic shift was responsible for the pandemics of **1957–1958, 1968–1969, 2009** (p1734). Only **H1, H2, H3** and **N1, N2** have established stable human lineages (p1734).
-- Older-adult hospitalization for influenza: **136–508/100,000** vs **10–25/100,000** for ages 5–49 (p1734).
+- Older-adult hospitalization for influenza: **136–508/100,000** vs **10–25/100,000** for ages 5–49 (p1734). Influenza predisposes to secondary bacterial pneumonia, particularly from **Streptococcus pneumoniae** and **Staphylococcus aureus**.
 
 ### Diagnosis
 - **Table 108-1** (p1735): culture is good (++) for influenza A/B but only fair (+) for RSV; rapid EIA and DFA/IFA are fair (+) for influenza A/B but poor (+/–) for RSV; **PCR is optimal (+++)** for all three; serology is only good (++) for influenza A/B — interpretation confounded by vaccination — but optimal (+++) for RSV, with no such caveat.
@@ -19,14 +19,18 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 
 ### Influenza Immunization
 - 2014 systematic review (35 studies, 15 countries): vaccine effectiveness **38–70%** in seasons of vaccine/strain match, **15–59%** in mismatch seasons — "important but modest" (p1735).
-- The edition’s **HD-IIV4** (high-dose) has **4×** the antigen dose of standard-dose vaccine and is more effective in older adults; **aIIV4** (MF59-adjuvanted) also shows increased immunogenicity and is linked in observational studies to reduced hospitalization for flu, pneumonia, and cardiovascular events; **RIV4** (recombinant) also promising. Current US ACIP guidance preferentially recommends age-appropriate high-dose, adjuvanted, or recombinant influenza vaccine for adults 65 or older; the seasonal formulations are now trivalent (p1735).
+- The edition’s **HD-IIV4** (high-dose) has **4×** the antigen dose of standard-dose vaccine and is more effective in older adults; **aIIV4** (MF59-adjuvanted) also shows increased immunogenicity and is linked in observational studies to reduced hospitalization for flu, pneumonia, and cardiovascular events; **RIV4** (recombinant) also promising (p1735).
+
+  > Current practice (not the book): Current US ACIP guidance preferentially recommends age-appropriate high-dose, adjuvanted, or recombinant influenza vaccine for adults 65 or older; the seasonal formulations are now trivalent. [CDC/ACIP seasonal influenza recommendations](https://www.cdc.gov/flu/hcp/acip/index.html).
 - Nursing-home RCT: zanamivir vs rimantadine chemoprophylaxis — influenza risk **3% vs 8%** (p = **0.038**) (p1735).
 - **4 cluster-randomized trials** show immunizing nursing-home **staff** reduces resident mortality — possibly more than immunizing residents themselves (p1735).
 
 ### Influenza Antivirals (name — key facts)
 - **Amantadine / rimantadine** — influenza A only; current strains largely resistant; no longer recommended (p1736).
 - **Zanamivir (inhaled) / oseltamivir (oral)** — neuraminidase inhibitors, active vs A and B; **70–90%** effective for prophylaxis, and as treatment reduce clinical severity **if given within 48 hours** of symptom onset (most community patients present after 48 h, limiting feasibility; ch105 p1689 adds oseltamivir in severe CAP even if >48 h have passed); oseltamivir needs renal dosing; zanamivir may worsen or provoke respiratory distress in underlying obstructive disease (p1736).
-- **Peramivir (IV)** — first FDA-approved in **December 2014**, IV-only formulation (p1736; FDA original approval, application 206426).
+- **Peramivir (IV).** Hazzard dates its FDA approval to **early 2015** (p1736).
+
+  > Current practice (not the book): The FDA’s original approval letter is dated **December 19, 2014** (Rapivab, application 206426).
 - **Baloxavir marboxil (oral)** — polymerase inhibitor, approved **2018**; also 48-hour window; resistance emerges quickly, limiting use (p1736).
 
 ### Herd Immunity — Immunizing Children
@@ -39,14 +43,16 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - Incubation **3–5 days**. Infants shed higher titers (**10⁵⁻⁶** pfu/mL) for longer (**10–14 days**) than adults (**10²⁻³** pfu/mL, **3–6 days**) (p1737).
 - Rochester community cohort (1999–2003) of 608 healthy adults 65+: RSV in **8%** (46/608) vs **10%** (56) of a separate high-risk group (CHF or chronic pulmonary disease); **16%** of high-risk participants with RSV required hospitalization; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
 - Nursing-home outbreak attack rates range **2–90%**; one careful Rochester study found **7%** attack rate, RSV causing **27%** of illness (p1737).
-- Tennessee LTC cohort (88,581 person-years): RSV caused **15 hospitalizations and 17 deaths per 1,000 residents** (p1737).
+- Tennessee LTC cohort (88,581 person-years): RSV caused **15 hospitalizations and 17 deaths per 1,000 residents** (p1737). Compared with influenza, RSV typically produces **less pronounced fever** and **more pronounced wheezing**.
 - Viral culture is only **50%** sensitive for RSV; RT-PCR is relatively sensitive and specific (p1737).
 - Only licensed antiviral is **ribavirin** (aerosolized, teratogenic, sparse adult data) — otherwise supportive care only (p1737).
 
 ### SARS-CoV-2 / COVID-19
 - Three novel coronaviruses crossed to humans in two decades: **SARS-CoV (2002)**, **MERS-CoV (2012)**, **SARS-CoV-2 (2019)** (p1737).
 - SARS-CoV-2 binds the **ACE2** receptor and, unlike SARS-CoV/MERS (lower respiratory tract), replicates heavily in the **upper** respiratory tract — a key driver of transmissibility (p1738).
-- An early model attributed **79%** of documented cases to people whose infections were undocumented; undocumented infection could include mild symptoms (p1738).
+- The book attributes **up to 79% of documented cases** to spread from asymptomatic or presymptomatic persons in one early study (p1738).
+
+  > Current practice (not the book): The cited model classified source infections as **undocumented**, which could include mild symptomatic infections. [Li et al., 2020](https://doi.org/10.1126/science.abb3221).
 - Incubation ~**5 days** (symptoms in most by **12 days**); **older adults ~7 days** (longer) (p1738).
 - **40%** of patients (mean age 81 in one study) presented **atypically** — falls, weakness, delirium — rather than classic fever/cough/dyspnea (p1738).
 - Up to **80%** of SARS-CoV-2 deaths have occurred in adults **65+** (p1738).
@@ -56,7 +62,9 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - RT-PCR (nasopharyngeal) is the diagnostic cornerstone; turnaround **15 minutes to several days**; POC antigen tests return results in **under an hour** but are validated only in symptomatic patients (p1739).
   > Current practice (not the book): FDA guidance covers home antigen testing without symptoms by serial testing — after a negative, retest at 48 h and again 48 h later (at least 3 tests) — FDA, 2024.
 - **Dexamethasone** reduces mortality in patients needing oxygen/ventilation, no benefit if not requiring respiratory support (p1739).
-- The original randomized mRNA vaccine trials demonstrated **over 90% efficacy against symptomatic COVID-19**; preventing all infections was a different endpoint (p1740; Polack et al., 2020, and Baden et al., 2021).
+- The book reports **more than 90% effectiveness in preventing infection** for promising vaccine candidates (p1740).
+
+  > Current practice (not the book): The primary efficacy endpoints in the initial mRNA trials were symptomatic COVID-19. [Polack et al., 2020](https://doi.org/10.1056/NEJMoa2034577) · [Baden et al., 2021](https://doi.org/10.1056/NEJMoa2035389).
 
 *No exam-trap or book self-contradiction note is flagged in this source chapter.*
 

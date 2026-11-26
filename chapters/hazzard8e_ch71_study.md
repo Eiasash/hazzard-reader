@@ -26,7 +26,7 @@ Study summary of Chapter 71; the book and the full chapter are the reference.
 **Difficult situations**
 - SPIKES structures difficult news: setting, perception, invitation, knowledge, empathy, then summary/strategy (p1095).
 - Explain the expected course and feeding options in advanced dementia; the chapter finds tube feeding does not improve survival, aspiration or pressure-injury outcomes (p1094).
-- Discuss resuscitation, intensive care and transitions before crisis; hospice and symptom-focused care can be explored in relation to the patient's goals (p1095).
+- Discuss resuscitation, intensive care and transitions in light of the patient’s goals. Table 71-6 gives examples of offering hospice or symptom-focused care at home (p1092); Table 71-8 describes how to discuss difficult news and agree on next steps (p1095).
 - Document and revisit preferences as illness and circumstances change (p1095).
 
 ## Exam questions

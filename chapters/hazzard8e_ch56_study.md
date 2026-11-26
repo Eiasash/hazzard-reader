@@ -21,7 +21,7 @@ Study summary of Chapter 56; the book and the full chapter are the reference.
 **Genes, prevention and measurement**
 - IGF signaling, Klotho and apolipoprotein pathways link aging and cognition; the brain also regulates lifespan through neuroendocrine pathways in animal models (p845-847).
 - Progeroid syndromes are diseases, not proven replicas of normal aging. Epigenetic and glymphatic mechanisms remain active research areas (p846-848).
-- Exercise, cognitive activity, diet, vascular-risk correction and reduced environmental stress may protect brain health; animal dietary-restriction findings are not established human prescriptions (p848-849).
+- Exercise, cognitive activity, diet, vascular-risk correction and reduced environmental stress may protect brain health; animal dietary-restriction findings are not established human prescriptions (pp848–849). Table 56-4 attributes reduced brain-volume loss and stimulation of neurogenesis to physical exercise (p848).
 - Whether physical and cognitive training complement each other is unclear, although some studies report complementary improvements (p849).
 - Distinguish biomarkers of general aging from Alzheimer pathology; combinations of amyloid and tau measures may improve disease prediction, but clinical context remains essential (p849-850).
 

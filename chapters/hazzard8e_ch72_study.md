@@ -79,7 +79,7 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 
 **Driving and home safety.** A person with cognitive or visual impairment may rely on driving for social contact and groceries. Ask about functional change and medication effects, discuss alternatives, document counseling and check the applicable reporting law. The reporting examples in the chapter concern US jurisdictions. When cognitive decline affects household safety around firearms, ask about access and risk, involve the patient and family as appropriate, and plan safe storage or removal (pp. 1106–1108, Tables 72-5 and 72-6).
 
-**Sexual consent in long-term care.** Establish who is involved, what contact each person wants, their understanding of the activity and ability to refuse or stop, and any signs of coercion. Family may help identify preferences or risks. Consent to sexual activity must come from each participant. A facility can support privacy and safe contact while protecting residents from unwanted contact. Quality measures and safety policies can also conflict with residents’ choices about food, activities or comfort at the end of life (pp. 1108–1109, Tables 72-7 and 72-8).
+**Sexual consent in long-term care.** Establish who is involved, what contact each person wants, their understanding of the activity and ability to refuse or stop, and any signs of coercion. Family may help identify preferences or risks. Consent to sexual activity must come from each participant. A facility can support privacy and safe contact while protecting residents from unwanted contact (pp1108–1109, Tables 72-7 and 72-8). Pages 1097–1098 discuss the wider conflict between safety, quality of life and patient preferences. Page 1105 addresses advance directives about feeding in advanced dementia.
 
 **Resource allocation.** Under genuine scarcity, justice requires transparent criteria, an interdisciplinary triage team distinct from the treating team, and review of decisions. A fixed upper age cutoff misses individual variation in short-term prognosis. A life-years rule can perpetuate unequal life expectancy. Continue to ask what treatment the person wants, without pressuring anyone to decline care to free resources (pp. 1109–1110).
 
@@ -105,7 +105,7 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 **Safety, systems & exam traps**
 - Driving concerns involve confidentiality, patient safety and public safety; the chapter notes that reporting obligations vary by US state (p1098).
 - Moral distress occurs when clinicians feel compelled to provide care they believe wrong; unresolved conflict can lead to burnout (p1097).
-- Under resource scarcity, use transparent allocation principles and triage committees; the chapter rejects excluding patients solely by age (p1098–1109).
+- Under resource scarcity, use transparent allocation principles and triage committees; the chapter rejects excluding patients solely by age (pp1098, 1109–1110).
 - Dementia does not automatically settle capacity, disclosure preferences or treatment goals; these require individualized assessment (p1099, p1101–1103).
 
 ## Exam questions

@@ -15463,7 +15463,7 @@
     }
   },
   "22s": {
-    "maxId": 35,
+    "maxId": 158,
     "entries": {
       "chapter-22-study-medication-prescribing-and-de-prescribing|Chapter 22 Study: Medication Prescribing and De-Prescribing": [
         "u1"
@@ -15565,8 +15565,56 @@
       ],
       "copy|Past-exam questions linked to this chapter (3):": [
         "u34"
+      ],
+      "copy|Lipid-soluble benzodiazepines have a larger volume of distribution in older adults, who may also be more sensitive to their effects (Ch 22, pp302–303).": [
+        "u81"
+      ],
+      "copy|June 2026 Q10 selected clonazepam for review.": [
+        "u84"
+      ],
+      "copy|Check the original indication and duration: chronic sedative-hypnotic use may cause physical dependence and withdrawal on discontinuation (Ch 11, p169).": [
+        "u85"
+      ],
+      "copy|Ch 23, p319, gives 13% as the estimated prevalence of benzodiazepine use in older adults.": [
+        "u154"
+      ],
+      "copy|Current practice (not the book): benzodiazepines increase cognitive and fall risks in older adults; assess the indication and applicable exceptions — AGS Beers Criteria 2023, Table 2.": [
+        "u155"
+      ],
+      "copy|For nursing-home residents with dementia, reserve antipsychotics for situations in which the benefit clearly outweighs the risk, such as behavior posing a risk to the resident or others.": [
+        "u156"
+      ],
+      "copy|Reassess the need and consider dose reduction or discontinuation (p308).": [
+        "u157"
+      ],
+      "copy|Review the reason for prolonged acid suppression, including exceptions such as erosive esophagitis (pp303–304, 312).": [
+        "u109"
+      ],
+      "copy|Current practice (not the book): the 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning.": [
+        "u105"
+      ],
+      "copy|The 2023 AGS Beers Criteria reserve antipsychotics for dementia-related behavior when nonpharmacologic measures fail or cannot be used and the person threatens substantial harm to self or others — AGS Beers Criteria 2019, Table 2 and AGS Beers Criteria 2023, Table 2.": [
+        "u158"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        159,
+        -123
+      ],
+      [
+        204,
+        -117
+      ],
+      [
+        222,
+        -112
+      ],
+      [
+        266,
+        0
+      ]
+    ]
   },
   "59s": {
     "maxId": 256,
@@ -17794,6 +17842,18 @@
         "u74"
       ],
       "copy|The influenza vaccine study used everolimus (RAD001), a rapamycin derivative that inhibits mTOR. It measured antibody responses in older adults. The separate rapamycin longevity experiments were in mice. These findings support research into mTOR biology; they do not provide a clinical indication to prescribe an anti-aging treatment (pp. 60, 62). Original human trial.": [
+        "u14"
+      ],
+      "copy|Helper T-cell lineages support intracellular pathogen defense, antibody production in follicles and other specialized responses. Regulatory T cells restrain activation. Tissue-resident memory T cells can provide a rapid local response. Aging affects these populations differently, and peripheral blood findings need not describe their behavior in tissue (p58).": [
+        "u35"
+      ],
+      "copy|Influenza. Increasing the antigen dose or adding an adjuvant can improve responses in older adults. The high-dose vaccine had 24% relative efficacy for preventing influenza-like illness compared with standard dose in the trial summarized on p60.Current practice (not the book): DíazGranados et al. specified laboratory-confirmed influenza associated with protocol-defined influenza-like illness as the primary outcome — NEJM, 2014.": [
+        "u38"
+      ],
+      "copy|High-dose and adjuvanted influenza vaccines can improve responses in older adults. The book reports 24% relative efficacy against influenza-like illness for high-dose versus standard-dose vaccine (p60).": [
+        "u10"
+      ],
+      "copy|Hazzard reports that low-dose rapamycin enhanced older adults’ antibody response to influenza vaccination by about 20%. The mouse experiments on p60 measured lifespan, a different outcome.Current practice (not the book): the human vaccine trial used the mTOR inhibitor everolimus (RAD001), a rapamycin derivative. It studied immune responses rather than human longevity — Mannick et al., 2014.": [
         "u14"
       ]
     }
@@ -20053,7 +20113,7 @@
     }
   },
   "44s": {
-    "maxId": 74,
+    "maxId": 210,
     "entries": {
       "chapter-44-study-sleep-disorders|Chapter 44 Study: Sleep Disorders": [
         "u1"
@@ -20294,25 +20354,93 @@
       ],
       "copy|This estimate applies to isolated RBD and is not an individual prediction (p654, Figure 44-8).": [
         "u61"
+      ],
+      "copy|Hazzard reports greater mortality with ASV for central sleep apnea in heart failure with EF <45% and generally advises against ASV in this group (p649). Current practice (not the book): SERVE-HF found increased mortality with its ASV device in symptomatic chronic heart failure, LVEF ≤45% and predominantly central sleep apnea. Any consideration of ASV in HFrEF requires an experienced center, shared decision-making and close follow-up (SERVE-HF, AASM 2025 central sleep apnea guideline).": [
+        "u15"
+      ],
+      "copy|PLMS last 0.5–10 seconds, occur 5–90 seconds apart and comprise at least four consecutive movements. Hazzard requires at least 15 movements per hour in addition to the clinical criteria for PLMD (pp651–652).Current practice (not the book): The AASM adult PLMD definition uses >15/hour with clinically significant sleep disturbance or daytime dysfunction unexplained by another disorder. AASM RLS guideline, recommendations 3 and 11.": [
+        "u19"
+      ],
+      "copy|Hazzard recommends iron for RLS when ferritin is <75 μg/L. It describes evidence for IV iron in moderate-to-severe RLS with ferritin <300 μg/L, although IV iron is usually reserved for malabsorption (p652).Current practice (not the book): Check ferritin and transferrin saturation in clinically significant RLS. AASM guidance considers iron at ferritin ≤75 µg/L or transferrin saturation <20%, with IV iron when ferritin is 75–100 µg/L if iron is indicated. The moderate–severe RLS trial permitting ferritin 75–300 µg/L required transferrin saturation <20% in that range (trial, AASM 2025 RLS/PLMD guideline).": [
+        "u22"
+      ],
+      "copy|RLS drug selection. Dopamine agonists are the chapter’s long-established first-line choice; it also recognizes alpha-2-delta ligands, particularly when neuropathic pain coexists (p652). Table 44-2 lists pramipexole 0.125–2 mg, ropinirole 0.25–4 mg and gabapentin enacarbil 600–1,200 mg (p653). Table 44-2 lists carbidopa/levodopa 25/100–25/200 mg for infrequent use because of augmentation. Table 44-2 lists off-label gabapentin 100–1,800 mg and pregabalin 300 mg as studied doses. Adjust for renal function and monitor sedation. The table lists clonazepam 0.25–2 mg and temazepam 15–30 mg, with limited evidence and cognitive/fall risks. Its off-label opioid examples are codeine 30–60 mg, tramadol 50–100 mg, oxycodone 5–15 mg, hydrocodone 5–15 mg and methadone 5–10 mg.Current practice (not the book): AASM favors gabapentin, gabapentin enacarbil and pregabalin when appropriate. Dopamine agonists can cause augmentation and behavioral disinhibition. US RLS labeling gives gabapentin enacarbil 600 mg daily with normal renal function and pramipexole titration 0.125–0.5 mg once daily. AASM RLS guideline, recommendations 3 and 11. Current practice (not the book): FDA-labelled RLS dosing of pramipexole is 0.125 mg once daily 2–3 h before bedtime, titrated if needed to 0.25 then 0.5 mg; no evidence that 0.75 mg adds benefit — US prescribing information (pramipexole tablets, DailyMed), 2026; Current practice (not the book): AASM conditionally suggests against standard pramipexole, transdermal rotigotine or ropinirole use in adults with RLS because of augmentation with longer-term treatment; evidence certainty is moderate for pramipexole/ropinirole and low for rotigotine; patients prioritizing short-term symptom relief over long-term adverse effects may still choose these agents - AASM 2025, recommendations 12-14, p144": [
+        "u24"
+      ],
+      "copy|Hazzard describes tasimelteon as an MT1/MT2 agonist approved only for non-24-hour sleep-wake rhythm disorder in adults at the time of writing (p657).Current practice (not the book): US labeling also includes nighttime sleep disturbances in Smith–Magenis syndrome, with formulation depending on age. FDA Hetlioz prescribing information.": [
+        "u33"
+      ],
+      "copy|The book classifies insomnia persisting more than three months as chronic and insomnia lasting fewer than three months as short term (p657).Current practice (not the book): ICSD-3-TR requires sleep disturbance with daytime consequences on ≥3 nights/week for ≥3 months, despite adequate opportunity. VA/DoD 2025, Appendix F.": [
+        "u35"
+      ],
+      "copy|Drugs: Benzodiazepines ↓ sleep latency ~10 minutes, ↑ total sleep time 30 to 60 minutes; avoid long-acting flurazepam/quazepam; all Beers-listed (p659). Temazepam start 7.5 mg, usual 7.5–30 mg, half-life 8.8 h — caution: psychomotor impairment, increased fall risk; eszopiclone start 1 mg, usual 1–2 mg, half-life 6 h — caution: avoid high-fat meals, unpleasant taste/headache (Table 44-5, p660). Zolpidem/zaleplon — rapid onset, take immediately before bed; Beers-listed (p659). Ramelteon (MT1/MT2 agonist) — few side effects; lack of amnestic properties makes it somewhat less effective for subjective improvement in sleep (p660). Suvorexant and lemborexant are dual orexin receptor antagonists for insomnia. Hazzard describes 277 participants, with sleep time increased by about 30 minutes at two weeks (p660). Doxepin low-dose 3–6 mg for insomnia vs 100–300 mg as an antidepressant (p661). Avoid diphenhydramine as primary therapy — long half-life, next-day sedation, rapid tolerance, dry mouth, urinary retention, delirium, decreased cognition (p661).Current practice (not the book): The original trial randomized 285 people and 277 completed it. The placebo-adjusted gain was 28 minutes at week 4. Herring et al..": [
+        "u41"
+      ],
+      "copy|Both examination questions offer melatonin under the brand Circadin.": [
+        "u128"
+      ],
+      "copy|Hazzard includes melatonin and clonazepam among treatments for REM sleep behavior disorder (pp654–655).": [
+        "u208"
+      ],
+      "copy|Current practice (not the book): The AASM conditionally supports immediate-release melatonin for RBD secondary to a medical condition.": [
+        "u129"
+      ],
+      "copy|Hazzard lists dopamine agonists as the established treatment of choice and also discusses alpha-2-delta ligands for first-line treatment (pp652–653).": [
+        "u143"
+      ],
+      "copy|Current practice (not the book): The AASM gives pregabalin a strong recommendation and suggests against standard use of levodopa.": [
+        "u148"
+      ],
+      "copy|Below which EF does Hazzard generally advise against ASV for central sleep apnea in heart failure?": [
+        "u209"
+      ],
+      "copy|Hazzard reports greater mortality with ASV for central sleep apnea in heart failure with EF <45% and generally advises against ASV in this group (p649).": [
+        "u210"
+      ],
+      "copy|Current practice (not the book): SERVE-HF enrolled patients with LVEF ≤45% in symptomatic chronic heart failure with predominantly central sleep apnea.": [
+        "u55"
+      ],
+      "copy|The AASM limits consideration of ASV for central apnea in HFrEF to experienced centers with shared decision-making and close follow-up.": [
+        "u55"
       ]
     },
     "sequenceOffsets": [
       [
-        94,
-        111
+        211,
+        -136
       ],
       [
-        95,
-        -1
+        230,
+        -25
       ],
       [
-        206,
+        231,
+        -137
+      ],
+      [
+        265,
+        -135
+      ],
+      [
+        278,
+        -134
+      ],
+      [
+        282,
+        -131
+      ],
+      [
+        336,
+        -130
+      ],
+      [
+        338,
         0
       ]
     ]
   },
   "45s": {
-    "maxId": 102,
+    "maxId": 246,
     "entries": {
       "chapter-45-study-syncope-and-dizziness|Chapter 45 Study: Syncope and Dizziness": [
         "u1"
@@ -20622,11 +20750,83 @@
       ],
       "copy|An implantable loop recorder can capture an infrequent recurrent episode when arrhythmia remains a concern after the initial assessment (p671–672).": [
         "u85"
+      ],
+      "copy|The chapter calls an abnormal massage response CSH and uses CSS when carotid sinus stimulation produces syncope; vasovagal syncope or OH coexists in one-third of CSH patients; about half of CSS patients sustain an injury/fracture during episodes (p669)": [
+        "u22"
+      ],
+      "copy|Episode duration. Spells under 1 minute suggest BPPV, 20–120 minutes suggests TIA or migraine, and over 120 minutes through 2 days suggests Ménière disease or recurrent vestibulopathy (p670). Current practice (not the book): The Bárány criteria use 20 minutes–12 hours for definite Ménière disease and up to 24 hours for probable disease, with accompanying auditory criteria. Bárány Society, 2015.": [
+        "u30"
+      ],
+      "copy|On p675 the chapter lists ICD indications as syncope due to VT with EF <35%, syncope with previous MI, and VT induced during electrophysiologic testing. It also discusses an ICD for recurrent VT syncope with EF >35% after drug therapy and ablation fail. Current practice (not the book): After prior MI, unexplained syncope with inducible sustained VT on electrophysiologic study is an ICD indication. A history of MI alone does not establish this indication. ESC syncope guideline, 2018.": [
+        "u34"
+      ],
+      "copy|For OH or postprandial hypotension, p675 lists morning caffeine 250 mg, oral fludrocortisone 0.1–0.5 mg daily, oral midodrine 2.5–10 mg three times daily, and subcutaneous octreotide 30 minutes before a meal. The printed octreotide dose is 50 mg [sic — the cited study used 50 micrograms, not milligrams]. Jansen et al., 1989. Current practice (not the book): When drug treatment is appropriate, fludrocortisone is generally dosed at 0.05–0.2 mg/day. Monitor potassium, edema and supine blood pressure and avoid it in heart failure. Avoid midodrine near bedtime. OH review, 2022 · AHA scientific statement, 2024.": [
+        "u243"
+      ],
+      "copy|The chapter describes sleeping with the head raised 30–45 degrees as potentially helpful, the September paper’s listed intervention (pp.": [
+        "u147"
+      ],
+      "copy|Current practice (not the book): How to interpret the angle.": [
+        "u149"
+      ],
+      "copy|For symptomatic cardioinhibitory carotid sinus syndrome, the book calls dual-chamber pacing the treatment of choice (pp669, 672, 675).": [
+        "u244"
+      ],
+      "copy|Current practice (not the book): Dual-chamber pacing can be used in selected patients over 40 with severe recurrent unpredictable syncope and a documented cardioinhibitory response.": [
+        "u194"
+      ],
+      "copy|A vasodepressor component can persist.": [
+        "u195"
+      ],
+      "copy|After the maneuver, the book advises avoiding lying flat for 24–48 hours, or using a cervical collar (pp.": [
+        "u203"
+      ],
+      "copy|Current practice (not the book): Routine post-maneuver positional restrictions and routine vestibular suppressants are discouraged.": [
+        "u245"
+      ],
+      "copy|Current practice (not the book): Continuous acute vertigo needs a stroke assessment.": [
+        "u212"
+      ],
+      "copy|They do not, by themselves, establish an epileptic seizure (pp665, 669).": [
+        "u50"
+      ],
+      "copy|On p670, positional spells under 1 minute suggest BPPV, spells lasting 20–120 minutes suggest TIA or migraine, and spells lasting over 120 minutes through 2 days suggest Ménière disease or recurrent vestibulopathy.": [
+        "u246"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        247,
+        -144
+      ],
+      [
+        291,
+        -143
+      ],
+      [
+        292,
+        -142
+      ],
+      [
+        336,
+        -139
+      ],
+      [
+        342,
+        -138
+      ],
+      [
+        350,
+        -137
+      ],
+      [
+        380,
+        0
+      ]
+    ]
   },
   "49s": {
-    "maxId": 145,
+    "maxId": 215,
     "entries": {
       "chapter-49-study-muscle-aging-and-sarcopenia|Chapter 49 Study: Muscle Aging and Sarcopenia": [
         "u1"
@@ -21057,11 +21257,49 @@
       ],
       "copy|row:undefined|TD|AWGS 2019": [
         "u35"
+      ],
+      "copy|Hazzard describes the Asian Working Group update published in 2020, with case finding first and an algorithm adapted to the setting (p732).Current practice (not the book): The 2025 Asian consensus requires both low strength and low muscle mass for diagnosis and treats physical performance as an outcome. Use the criteria for the named framework. AWGS 2025 consensus": [
+        "u12"
+      ],
+      "copy|SARC-F asks about perceived strength, assistance walking, rising from a chair, climbing stairs and falls (Table 49-3, p734). Ch 51 p771 describes item 3 as difficulty transferring from a chair or bed. This means getting up from either surface; repositioning or moving around within the bed is a different task.": [
+        "u22"
+      ],
+      "copy|Cachexia: severe weight loss and wasting in cancer, HIV infection, or end-stage organ failure. Low muscle mass overlaps with sarcopenia, but excess catabolism/inflammation and endocrine/neurologic changes differ. Identify the underlying disease and its catabolic effects. Hazzard states that cachexia would not respond to sarcopenia treatment; determining which process predominates guides treatment (p736).": [
+        "u56"
+      ],
+      "copy|Hazzard calls low strength without a muscle-mass measurement suspected sarcopenia.": [
+        "u173"
+      ],
+      "copy|Low muscle mass confirms muscle involvement; poor physical performance marks severe disease when the other criteria are present (pp732, 735).": [
+        "u174"
+      ],
+      "copy|Painful hand arthritis and neurologic disease can also reduce grip.": [
+        "u176"
+      ],
+      "copy|Current practice (not the book): EWGSOP2 itself uses probable sarcopenia for low strength before confirmation of low quantity or quality.": [
+        "u215"
+      ],
+      "copy|EWGSOP, Table 1 · EWGSOP2, Table 1 and Figure 1.": [
+        "u178"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        216,
+        -70
+      ],
+      [
+        243,
+        -64
+      ],
+      [
+        279,
+        0
+      ]
+    ]
   },
   "51s": {
-    "maxId": 213,
+    "maxId": 222,
     "entries": {
       "chapter-51-study-osteoporosis|Chapter 51 Study: Osteoporosis": [
         "u1"
@@ -21406,21 +21644,130 @@
       ],
       "copy|Forteo · Tymlos · Evenity.": [
         "u213"
+      ],
+      "copy|Table 51-1 on p760 prints normal >−1, osteopenia ≤1 but >−2.5 [sic — the upper bound lacks a minus sign], osteoporosis ≤−2.5, and severe osteoporosis ≤−2.5 plus a fragility fracture.Current practice (not the book): Standard DXA interpretation uses normal ≥−1.0, low bone mass below −1.0 and above −2.5, and osteoporosis ≤−2.5. Bone Health and Osteoporosis Foundation.": [
+        "u3"
+      ],
+      "copy|Cortical bone predominates in long bones. Hazzard prints that trabecular bone predominates in vertebrae and pelvis and “makes up 80% of skeletal mass” (p760). [sic — adult skeletal mass is approximately 80% cortical and 20% trabecular; WHO Technical Report Series 921.] Trabecular bone has greater metabolic activity.": [
+        "u11"
+      ],
+      "copy|Hazzard discusses total elemental calcium 1,200–1,500 mg/day and vitamin D at least 800 IU/day, sometimes 2,000 IU/day or more to reach a bone-disease target of 75 nmol/L (30 ng/mL) (p772).Current practice (not the book): Current BHOF calcium targets from diet plus supplements are 1,200 mg/day for women ≥51 and men ≥71 and 1,000 mg/day for men 50–70. Individualize supplementation and avoid exceeding the total target through unnecessary tablets (BHOF calcium and vitamin D).": [
+        "u31"
+      ],
+      "copy|Alendronate 70 mg orally weekly reduced hip and vertebral fracture risk by roughly 50% over three years in the studies summarized (Table 51-5, p774). The cited age subgroups ≤75 and >75 had 51% and 38% lower vertebral fracture risk at 12 months, respectively. Estimated time to benefit in those ≥70 was 8 months (p775). Table 51-5 gives eGFR <35 mL/min as a contraindication (p774).Current practice (not the book): US labeling does not recommend alendronate at creatinine clearance <35 mL/min. Contraindications to oral use include delayed esophageal emptying, inability to remain upright for 30 minutes and hypocalcemia (FDA Fosamax prescribing information).": [
+        "u34"
+      ],
+      "copy|Zoledronic acid 5 mg IV yearly for three years reduced vertebral, nonvertebral and hip fracture risk by 70%, 25% and 41%, respectively, in the postmenopausal osteoporosis trial (p775). A separate trial in patients treated after hip-fracture repair reported deaths in 9.6% with zoledronic acid versus 13% with placebo (p776).Current practice (not the book): HORIZON reported the unrounded placebo mortality of 13.3% versus 9.6% with zoledronic acid. US labeling contraindicates the osteoporosis infusion in acute renal impairment or CrCl <35 mL/min. HORIZON Recurrent Fracture Trial.": [
+        "u36"
+      ],
+      "copy|Denosumab 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints \"60 μg,\" a book table-vs-text discrepancy, see chapter note): 40% ↓ hip, 68% ↓ vertebral, 20% ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels 12 months after stopping, and fracture risk rises markedly in those with prior vertebral fracture (p776).Current practice (not the book): Plan antiresorptive follow-on before stopping or delaying treatment. Advanced CKD, particularly dialysis or CKD–mineral and bone disorder, raises the risk of severe hypocalcemia (FDA boxed warning).": [
+        "u37"
+      ],
+      "copy|Teriparatide 20 micrograms SC daily reduced vertebral and nonvertebral fractures by 65% and 53%, respectively, in the cited trial (pp774,776). Table 51-5 limits therapy to 24 months because of the osteosarcoma signal in rats; p776 likewise says no longer than two years.Current practice (not the book): US labeling permits treatment beyond two years only if high fracture risk persists or returns. Avoid in people at increased baseline osteosarcoma risk, including Paget disease, bone metastases, prior skeletal malignancy or radiation involving the skeleton. Avoid in underlying hypercalcemic disorders as a separate precaution (FDA Forteo prescribing information). Forteo prescribing information, §§2.3 and 5.2.": [
+        "u38"
+      ],
+      "copy|Table 51-5 lists approximately 57% lower vertebral fracture risk with abaloparatide 80 μg SC daily and a maximum duration of 24 months (p774). [sic — the chapter’s 18-month trial account gives an 86% reduction in new vertebral fractures and 43% in nonvertebral fractures (p777).]Current practice (not the book): US labeling does not recommend treatment for more than two years in a lifetime. Tymlos prescribing information.": [
+        "u39"
+      ],
+      "copy|Romosozumab 210 mg SC monthly for 12 doses. In FRAME, romosozumab versus placebo for one year, followed by denosumab in both groups, reduced new vertebral fractures 75% at two years. In ARCH, romosozumab versus alendronate for one year, followed by alendronate in both groups, reduced vertebral, nonvertebral and hip fractures by 48%, 19% and 38%, respectively (p777).Current practice (not the book): US labeling advises against starting within one year of MI or stroke and calls for individual cardiovascular risk assessment (FDA Evenity boxed warning). Evenity prescribing information.": [
+        "u40"
+      ],
+      "copy|AFF: 3.2–50 per 100,000 person-years on bisphosphonates; >100 per 100,000 with long-term use (p777). Hazzard states that fracture precedes pain in most cases. New groin or thigh pain warrants femur radiographs for an atypical femoral fracture; a bone scan or MRI may be needed (pp776–777).Current practice (not the book): FDA bisphosphonate labeling notes that prodromal thigh or groin pain may occur weeks or months before a complete fracture. Alendronate prescribing information.": [
+        "u43"
+      ],
+      "copy|Hazzard lists fragility fractures of the wrist, vertebrae or hip as sufficient to trigger therapy without BMD testing.": [
+        "u214"
+      ],
+      "copy|A baseline BMD can still help monitor therapy (p768).": [
+        "u215"
+      ],
+      "copy|Current practice (not the book): BHOF recommends treatment after hip or vertebral fracture regardless of BMD.": [
+        "u137"
+      ],
+      "copy|After a distal forearm fracture it recommends treatment with low bone mass and individualization with normal BMD.": [
+        "u136"
+      ],
+      "copy|BHOF Clinician’s Guide, secondary fracture prevention.": [
+        "u138"
+      ],
+      "copy|Because of osteosarcoma in rats, the book limits teriparatide to two years (Table 51-5, p774 and prose p776).": [
+        "u216"
+      ],
+      "copy|Plan an antiresorptive afterward to preserve BMD gains (p776).": [
+        "u169"
+      ],
+      "copy|Current practice (not the book): The US label allows longer use only if high fracture risk persists or returns.": [
+        "u168"
+      ],
+      "copy|Forteo prescribing information, §§2.3 and 5.2.": [
+        "u170"
+      ],
+      "copy|Chronic steroid exposure may suppress the adrenal stress response (Ch 97 p1532).": [
+        "u183"
+      ],
+      "copy|Current practice (not the book): ACR recommends fracture-risk assessment in adults receiving prednisone-equivalent ≥2.5 mg/day for >3 months.": [
+        "u217"
+      ],
+      "copy|The ESE/Endocrine Society guidance distinguishes oral stress dosing in minor illness from parenteral coverage when vomiting or hemodynamic instability is present.": [
+        "u218"
+      ],
+      "copy|ACR glucocorticoid-induced osteoporosis recommendations · ESE/Endocrine Society 2024, recommendation 3.1 and Table 8.": [
+        "u185"
+      ],
+      "copy|Current practice (not the book): BHOF advises 1,200 mg/day total calcium for women ≥51 and men ≥71, and 1,000 mg/day for men 50–70.": [
+        "u80"
+      ],
+      "copy|BHOF calcium and vitamin D.": [
+        "u219"
+      ],
+      "copy|In a separate post-hip-fracture trial, all-cause mortality was 9.6% versus 13% with placebo (pp775–776).": [
+        "u83"
+      ],
+      "copy|Current practice (not the book): The original post-hip-fracture study reports 13.3% placebo mortality.": [
+        "u220"
+      ],
+      "copy|HORIZON Recurrent Fracture Trial.": [
+        "u221"
+      ],
+      "copy|Hazzard states that fracture precedes pain in most cases.": [
+        "u222"
+      ],
+      "copy|New groin or thigh pain warrants femur radiographs for an atypical femoral fracture; a bone scan or MRI may be needed (pp776–777).": [
+        "u94"
+      ],
+      "copy|Current practice (not the book): Prodromal thigh or groin pain can precede a complete fracture, as noted in US bisphosphonate prescribing information.": [
+        "u94"
       ]
     },
     "sequenceOffsets": [
       [
-        214,
-        -104
+        223,
+        -113
       ],
       [
-        315,
+        248,
+        -109
+      ],
+      [
+        276,
+        -105
+      ],
+      [
+        284,
+        -103
+      ],
+      [
+        285,
+        -99
+      ],
+      [
+        310,
         0
       ]
     ]
   },
   "52s": {
-    "maxId": 226,
+    "maxId": 232,
     "entries": {
       "chapter-52-study-osteoarthritis|Chapter 52 Study: Osteoarthritis": [
         "u1"
@@ -21672,21 +22019,95 @@
       ],
       "copy|ACR/AF OA guideline, 2019.": [
         "u226"
+      ],
+      "copy|Acetaminophen: Ch 52 gives 3 g/day as the FDA maximum and recommends monitoring for hepatotoxicity with prolonged use (p787). [sic — Ch 68, p1062, gives 4,000 mg/day.]Current practice (not the book): ACR/AF uses 3 g/day for regular treatment; the general FDA adult maximum across products is 4 g in 24 hours. Follow a lower product- or patient-specific limit where indicated — ACR/AF, FDA.": [
+        "u21"
+      ],
+      "copy|Intra-articular glucocorticoids may relieve pain for up to 2 months. Hazzard discourages more than three injections in six months (p789).Current practice (not the book): repeat injections are individualized. EULAR describes a customary limit of 3–4 per joint per year, while acknowledging limited evidence for a precise safe frequency (EULAR intra-articular therapy recommendations, 2021).": [
+        "u24"
+      ],
+      "copy|Hazzard describes no clear benefit from intra-articular hyaluronic acid after accounting for study bias, especially in hip OA, although it allows an individual trial after other options fail. It considers PRP and mesenchymal stem-cell therapy experimental and limits their use to trials (p789).Current practice (not the book): ACR/AF advises against hyaluronic acid for knee OA, while OARSI permits selected knee use. ACR/AF advises against PRP and stem-cell injection for knee and hip OA. For knee OA specifically, AAOS assigns limited strength to its recommendation that PRP may reduce pain and improve function — ACR/AF, OARSI, AAOS guideline.": [
+        "u227"
+      ],
+      "copy|Persistent warmth or synovitis, morning stiffness lasting more than one hour and pain improving with activity suggest another process.": [
+        "u107"
+      ],
+      "copy|781–783).": [
+        "u115"
+      ],
+      "copy|Tramadol may be tried before a stronger opioid when other options have failed.": [
+        "u154"
+      ],
+      "copy|The chapter calls it a weak μ-opioid receptor “inhibitor” and describes inhibition of serotonin and norepinephrine reuptake.": [
+        "u155"
+      ],
+      "copy|It considers respiratory depression and constipation less of a problem with tramadol, while warning of adverse effects and physical dependence (p788).": [
+        "u228"
+      ],
+      "copy|Current practice (not the book): tramadol is a μ-opioid agonist.": [
+        "u229"
+      ],
+      "copy|The label warns of respiratory depression, interactions with serotonergic medicines and seizures, including at recommended doses.": [
+        "u157"
+      ],
+      "copy|An observational OA cohort found higher one-year mortality after starting tramadol than several NSAIDs; that association does not establish causality — US prescribing information, warnings and §12.1, Zeng et al., 2019.": [
+        "u159"
+      ],
+      "copy|Ch 52 states that FDA reduced the acetaminophen maximum to 3 g/day and recommends monitoring for hepatotoxicity with prolonged use (p787). [sic — Ch 68, p1062, gives a total maximum of 4,000 mg/day.]": [
+        "u230"
+      ],
+      "copy|Capsaicin can help knee pain but may irritate skin, and applying it to fingers risks transfer to the eyes.": [
+        "u171"
+      ],
+      "copy|The book describes no clear benefit for viscosupplementation in low-bias analyses, especially for hip OA, and reserves PRP and mesenchymal stem-cell treatment for trials (pp785–789).": [
+        "u231"
+      ],
+      "copy|Current practice (not the book): ACR/AF uses 3 g/day for regular acetaminophen treatment; FDA gives a general adult ceiling of 4 g per 24 hours across all products.": [
+        "u232"
+      ],
+      "copy|ACR/AF recommends against hyaluronic acid conditionally for knee or thumb-base OA and strongly for hip OA; OARSI permits selected knee use.": [
+        "u173"
+      ],
+      "copy|ACR/AF recommends against PRP and stem-cell injection for knee or hip OA — ACR/AF guideline, OARSI guideline, FDA.": [
+        "u175"
+      ],
+      "copy|Current practice (not the book): EULAR cites a customary limit of 3–4 injections in the same joint per year, with limited evidence for a universal safe count.": [
+        "u62"
       ]
     },
     "sequenceOffsets": [
       [
-        227,
-        -152
+        233,
+        -158
       ],
       [
-        376,
+        265,
+        -157
+      ],
+      [
+        272,
+        -156
+      ],
+      [
+        310,
+        -146
+      ],
+      [
+        311,
+        -141
+      ],
+      [
+        312,
+        -134
+      ],
+      [
+        358,
         0
       ]
     ]
   },
   "53s": {
-    "maxId": 70,
+    "maxId": 206,
     "entries": {
       "chapter-53-study-hip-fractures|Chapter 53 Study: Hip Fractures": [
         "u1"
@@ -21892,8 +22313,89 @@
       ],
       "copy|Hazzard 8e, Chapter 53, printed pages 793–804.": [
         "u32"
+      ],
+      "copy|Match rehabilitation to functional loss, endurance, ability to participate and home support. Hazzard requires the ability to participate in at least 3 hours of therapy per day and input from at least two rehabilitation disciplines, such as PT and OT (p800).Current practice (not the book): CMS generally requires intensive therapy 3 hours/day on at least 5 days/week or, in documented cases, 15 hours within 7 consecutive days, with multiple disciplines including PT or OT. CMS inpatient rehabilitation criteria.": [
+        "u11"
+      ],
+      "copy|Hazzard gives 21–31 days of postoperative thromboprophylaxis. Up to 50% of previously independent older adults may need walking aids at one year (p801).Current practice (not the book): NICE recommends one month after fragility hip/proximal femur fracture when VTE risk outweighs bleeding risk. NICE NG89, recommendation 1.11.2.": [
+        "u12"
+      ],
+      "copy|A subtrochanteric break lies within 5 cm below the lesser trochanter, and the displaced fragments in 2020 Q57 require a nail spanning the break (p794 and the 2017 hip-fracture review, Figures 2–3 and pp.": [
+        "u106"
+      ],
+      "copy|Hazzard says total replacement is thought to give better long-term results and less pain for active patients (p794).": [
+        "u199"
+      ],
+      "copy|Current practice (not the book): In the later HEALTH trial of previously ambulatory patients with displaced neck fractures, the average functional advantage at two years was clinically small.": [
+        "u112"
+      ],
+      "copy|Consider the person's usual activity and preferences when discussing this trade-off.": [
+        "u114"
+      ],
+      "copy|Hazzard found no mortality difference between spinal and general anesthesia and describes peripheral nerve block for pain.": [
+        "u200"
+      ],
+      "copy|The printed exam locator p869 concerns dementia; hip-fracture anesthesia is on p797.": [
+        "u137"
+      ],
+      "copy|Current practice (not the book): Spinal anesthesia did not improve survival or walking recovery in REGAIN and delirium rates were similar.": [
+        "u134"
+      ],
+      "copy|ASRA bases neuraxial timing on apixaban dose and elapsed time; one fixed two-day interval does not cover every patient.": [
+        "u201"
+      ],
+      "copy|REGAIN · ASRA fifth edition, apixaban recommendations.": [
+        "u138"
+      ],
+      "copy|Current practice (not the book): NICE advises one month of prophylaxis after fragility hip/proximal femur fracture when thrombotic risk outweighs bleeding risk.": [
+        "u202"
+      ],
+      "copy|Hazzard requires the ability to participate in": [
+        "u203"
+      ],
+      "copy|at least 3 hours of therapy per day": [
+        "u204"
+      ],
+      "copy|and input from": [
+        "u205"
+      ],
+      "copy|at least two rehabilitation disciplines": [
+        "u66"
+      ],
+      "copy|, such as PT and OT (p800).": [
+        "u206"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        207,
+        -136
+      ],
+      [
+        242,
+        -135
+      ],
+      [
+        246,
+        -133
+      ],
+      [
+        247,
+        -132
+      ],
+      [
+        263,
+        -124
+      ],
+      [
+        285,
+        -123
+      ],
+      [
+        322,
+        0
+      ]
+    ]
   },
   "57s": {
     "maxId": 79,
@@ -23873,7 +24375,7 @@
     }
   },
   "75s": {
-    "maxId": 284,
+    "maxId": 290,
     "entries": {
       "chapter-75-study-valvular-heart-disease|Chapter 75 Study: Valvular Heart Disease": [
         "u1"
@@ -24304,15 +24806,86 @@
       ],
       "copy|AHA prevention card, dental regimens based on the 2021 scientific statement.": [
         "u284"
+      ],
+      "copy|Severe AS (Table 75-1, p1150): aortic valve area <1.0 cm², jet velocity >4 m/s, mean gradient >40 mm Hg.Current practice (not the book): ACC/AHA describes severe high-gradient AS as peak velocity ≥4.0 m/s or mean gradient ≥40 mm Hg; valve area is typically ≤1.0 cm² — ACC/AHA 2020.": [
+        "u6"
+      ],
+      "copy|Hazzard defines prohibitive SAVR risk as an STS predicted risk of morbidity and mortality over 50% due to comorbidity or serious irreversible conditions. It describes TAVR durability beyond five years as unknown and notes the possibility of valve-in-valve reintervention (p1153).Current practice (not the book): randomized NOTION follow-up reports valve outcomes through 10 years in lower-risk patients — NOTION follow-up, 2024.": [
+        "u14"
+      ],
+      "copy|Severe chronic AR (Table 75-6, p1155): valve replacement is indicated for symptomatic severe AR regardless of LV function, asymptomatic severe AR with EF <50%, or severe AR during other cardiac surgery. Consider surgery with normal LV function and LVESD >50 mm, or for moderate AR during other cardiac surgery. Progressive LV dilatation >65 mm with low surgical risk is a possible indication.Current practice (not the book): ACC/AHA uses LVEF ≤55% for stage C2 severe AR and distinguishes LVESD >50 mm or indexed LVESD >25 mm/m² from progressive severe LV end-diastolic enlargement; the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.": [
+        "u24"
+      ],
+      "copy|Severe mitral stenosis in Table 75-7 (p1156): mitral valve area <1.0 cm², pulmonary artery pressure >50 mm Hg and mean gradient >10 mm Hg. Gradient varies with flow and heart rate.Current practice (not the book): ACC/AHA staging defines severe rheumatic MS by mitral valve area ≤1.5 cm² and very severe MS by ≤1.0 cm² — ACC/AHA 2020.": [
+        "u29"
+      ],
+      "copy|Mitral repair durability: p1159 describes good durability but prints 7–10% as “freedom from reoperation,” an inconsistent endpoint label.Current practice (not the book): in a surgical cohort of 1,604 patients, actual freedom from reoperation after repair was 93.6% at 10 years. Durability depends on anatomy, repair technique and population — Glauber et al., 2015.": [
+        "u39"
+      ],
+      "copy|Endocarditis prophylaxis for eligible adults (Table 75-14, p1161): give amoxicillin 2 g PO 1 hour before. For penicillin allergy the table lists clindamycin 600 mg or cephalexin 2 g PO 1 hour before. If oral dosing is impossible, the table lists ampicillin 2 g IV/IM 30 minutes before, or clindamycin 600 mg IV or cefazolin 1 g IV/IM 30 minutes before for penicillin allergy.Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO, or cefazolin/ceftriaxone IM/IV — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.": [
+        "u43"
+      ],
+      "copy|Prosthetic valves (Table 75-15, p1161): a mechanical aortic valve uses INR 2–3, or 2.5–3.5 with additional risk factors; a mechanical mitral valve uses INR 2.5–3.5. The table adds aspirin 75–325 mg/day for mechanical valves. For a bioprosthetic aortic or mitral valve without additional risk factors, it gives INR 2–3 for 3 months plus aspirin 75–100 mg/day. With risk factors the printed bioprosthetic ranges are 2–3 for aortic and 2.5–3.5 for mitral, with aspirin 75–100 mg/day.Current practice (not the book): US guidance targets INR 2.5 for a current-generation mechanical aortic valve without additional thromboembolic risk and 3.0 for a mechanical mitral valve; VKA to INR 2.5 for 3–6 months is reasonable after selected surgical bioprosthetic replacements. With a mechanical valve on VKA, adding low-dose aspirin 75–100 mg/day for antiplatelet therapy requires a separate indication (ESC/EACTS: concomitant symptomatic atherosclerotic disease) and low bleeding risk; ESC/EACTS 2025 class IIa, level B — ESC/EACTS 2025, Eur Heart J 2025;46:4635; ACC/AHA 2020 class 2b, level B-R — ACC/AHA 2020, Circulation 2021;143:e142.": [
+        "u44"
+      ],
+      "copy|Supratherapeutic INR (p1161): Hazzard states that INR 5–10 can be treated by holding warfarin and giving oral vitamin K 1–2.5 mg. Monitor INR daily until it falls below 5.Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.": [
+        "u46"
+      ],
+      "copy|With asymptomatic severe AR and preserved LV function, Table 75-6 lists LVESD >50 mm for consideration of surgery. For low-risk surgery the table describes progressive LV dilatation >65 mm without specifying the dimension, while the narrative specifically calls it LVESD (p1155). See the current-practice comparison.": [
+        "u53"
+      ],
+      "copy|Current practice (not the book): under 2025 European guidance, early replacement should also be considered alongside close surveillance when severe high-gradient stenosis is genuinely asymptomatic (normal exercise test if feasible), EF is at least 50%, and procedural risk is low.": [
+        "u184"
+      ],
+      "copy|Table 75-14 lists clindamycin 600 mg or cephalexin 2 g orally 1 hour before the procedure for a penicillin-allergic adult (p1161).": [
+        "u285"
+      ],
+      "copy|Current practice (not the book): AHA dental guidance instead includes azithromycin 500 mg 30–60 minutes before the procedure and removes clindamycin.": [
+        "u236"
+      ],
+      "copy|Hazzard defines prohibitive SAVR risk as STS predicted morbidity and mortality >50% due to comorbidity or serious irreversible conditions.": [
+        "u80"
+      ],
+      "copy|It describes TAVR valve durability beyond five years as unknown (p1153).": [
+        "u286"
+      ],
+      "copy|Current practice (not the book): the NOTION randomized trial subsequently reported 10-year outcomes in lower-risk patients — NOTION follow-up, 2024.": [
+        "u287"
+      ],
+      "copy|In asymptomatic severe aortic regurgitation with preserved LV function, how do LV end-systolic and progressive LV enlargement affect referral for surgery?": [
+        "u85"
+      ],
+      "copy|Table 75-6 lists LVESD >50 mm as a reason to consider surgery and progressive LV dilatation >65 mm as a possible indication when surgical risk is low.": [
+        "u288"
+      ],
+      "copy|The table leaves the latter dimension unspecified; the accompanying prose calls it LVESD (p1155).": [
+        "u86"
+      ],
+      "copy|Table 75-15 gives INR 2–3 for the first 3 months plus aspirin 75–100 mg daily after bioprosthetic aortic valve replacement without additional risk factors.": [
+        "u106"
+      ],
+      "copy|For a mechanical aortic valve it gives INR 2–3, increasing to 2.5–3.5 with thromboembolic risk factors, plus aspirin 75–325 mg daily (p1161).": [
+        "u289"
+      ],
+      "copy|Current practice (not the book): ACC/AHA considers VKA to a target INR of 2.5 for 3–6 months reasonable after selected surgical bioprosthetic aortic or mitral replacement — ACC/AHA 2020.": [
+        "u290"
       ]
     },
     "sequenceOffsets": [
       [
-        285,
-        -153
+        291,
+        -159
       ],
       [
-        433,
+        343,
+        -158
+      ],
+      [
+        393,
+        -156
+      ],
+      [
+        436,
         0
       ]
     ]
@@ -25168,7 +25741,7 @@
     ]
   },
   "77s": {
-    "maxId": 96,
+    "maxId": 265,
     "entries": {
       "chapter-77-study-cardiac-arrhythmias|Chapter 77 Study: Cardiac Arrhythmias": [
         "u1"
@@ -25457,11 +26030,156 @@
       ],
       "copy|The 2024 ESC guideline individualizes gastroprotection according to gastrointestinal bleeding risk.": [
         "u77"
+      ],
+      "copy|DOACs preferred over warfarin as first-line stroke prevention for nonvalvular AF — valvular AF (moderate–severe MS or mechanical valve) needs warfarin regardless of score; no dabigatran/rivaroxaban/edoxaban in ESRD/dialysis (Table 77-8, p1203); apixaban and edoxaban show lower major-bleeding risk in patients 75 years or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (p1202 recommends a PPI with these agents).Current practice (not the book): individualize gastroprotection according to overall gastrointestinal bleeding risk. ESC 2024 AF guideline, §6.7.1.": [
+        "u20"
+      ],
+      "copy|WATCHMAN: p1203 describes warfarin to INR 2–3 for 45 days. If TEE confirms complete LAA closure, stop warfarin and use aspirin plus clopidogrel for 6 months, then long-term aspirin. For high bleeding risk, the chapter describes six months of clopidogrel plus long-term aspirin without oral anticoagulation.": [
+        "u255"
+      ],
+      "copy|Dabigatran: Table 77-9 gives 150 mg twice daily or 110 mg twice daily with concomitant verapamil, age ≥80, or increased GI-bleeding risk. In RE-LY, 150 mg reduced stroke/systemic embolism by 34% with similar major bleeding to warfarin; 110 mg had similar efficacy and about 20% less major bleeding. The specific reversal agent is idarucizumab (p1204).Current practice (not the book): 110 mg twice daily for AF is a jurisdiction-dependent regimen, including in European prescribing information; the US adult AF label does not include this regimen — EMA Pradaxa product information.": [
+        "u22"
+      ],
+      "copy|Rivaroxaban: Table 77-9 gives 20 mg daily, or 15 mg daily at CrCl 30–49 mL/min. ROCKET-AF found noninferior stroke prevention and a similar major-bleeding rate versus warfarin. The book lists andexanet alfa (Andexxa) for reversal (p1204).Current practice (not the book): US NVAF labeling gives 20 mg with the evening meal for CrCl >50 mL/min or 15 mg with the evening meal for CrCl ≤50 mL/min within labeled renal-use conditions. US sales of Andexxa ended December 22, 2025 — Xarelto prescribing information, FDA Andexxa safety communication.": [
+        "u23"
+      ],
+      "copy|Apixaban for AF: 5 mg twice daily, reduced to 2.5 mg twice daily when at least two criteria apply: age ≥80 years, weight <60 kg, serum creatinine ≥1.5 mg/dL. ARISTOTLE found 21% less stroke/systemic embolism and 31% less major bleeding versus warfarin (Table 77-9, p1205).Current practice (not the book): the Eliquis label's weight criterion is body weight ≤60 kg (not <60) — Eliquis prescribing information §2.1 (BMS).": [
+        "u24"
+      ],
+      "copy|Edoxaban: Table 77-9 gives 60 mg once daily, reduced to 30 mg once daily for at least one of: CrCl 30–50 mL/min, weight ≤60 kg, or concurrent cyclosporine, dronedarone, erythromycin or ketoconazole (p1205). ENGAGE AF found both dose strategies noninferior for stroke/systemic embolism in the primary analysis, with less major bleeding.Current practice (not the book): US adult NVAF labeling gives 60 mg daily for CrCl >50 to 95 mL/min or 30 mg daily for CrCl 15–50 mL/min. Avoid use for NVAF with CrCl >95 mL/min — Savaysa prescribing information, §2.1.": [
+        "u256"
+      ],
+      "copy|Primary-prevention ICD (p1206): on GDMT, ischemic cardiomyopathy >40 days after MI or >90 days after revascularization with LVEF ≤35% and NYHA II–III, or LVEF <30% and NYHA I. For nonischemic cardiomyopathy: LVEF ≤35% with NYHA II–III despite GDMT. A third indication is prior MI with NSVT, EF ≤40% and inducible sustained monomorphic VT on electrophysiologic study.": [
+        "u28"
+      ],
+      "copy|Not all DOACs reduce bleeding vs warfarin: apixaban and edoxaban show less major bleeding at their studied doses; dabigatran only at 110 mg (150 mg shows similar bleeding to warfarin, not less); rivaroxaban (20 mg, the dose studied) shows only a similar major-bleeding rate to warfarin (Table 77-9, pp1204–1205).": [
+        "u34"
+      ],
+      "copy|Current practice (not the book): for AF with stable coronary disease more than one year after revascularization or CAD not requiring revascularization, oral anticoagulation alone is recommended over adding antiplatelet therapy when there is no history of stent thrombosis.": [
+        "u257"
+      ],
+      "copy|Arrange follow-up after AF during acute illness — ACC/AHA/ACCP/HRS AF guideline, §§6.8.2 and 10.10.": [
+        "u128"
+      ],
+      "copy|Actual risk at a given score varies among populations (pp1202–1203).": [
+        "u135"
+      ],
+      "copy|Current practice (not the book): the 2024 ESC guideline uses CHA₂DS₂-VA without sex: it recommends anticoagulation at two or more points and consideration at one.": [
+        "u136"
+      ],
+      "copy|Keep the scoring system specified by the question.": [
+        "u137"
+      ],
+      "copy|Dofetilide is the choice offered in the separate case with ischemic cardiomyopathy and EF 35% (Table 77-6, p1201).": [
+        "u169"
+      ],
+      "copy|Current practice (not the book): dofetilide initiation requires renal dosing and inpatient QT monitoring; amiodarone warrants surveillance for extracardiac toxicity.": [
+        "u170"
+      ],
+      "copy|Avoid dronedarone after recent decompensation or with advanced symptomatic heart failure.": [
+        "u171"
+      ],
+      "copy|The chapter describes rate control for older patients with mild symptoms and notes that an AFFIRM analysis in patients older than 70 associated antiarrhythmic therapy with higher all-cause mortality.": [
+        "u176"
+      ],
+      "copy|Electrical cardioversion can restore sinus rhythm.": [
+        "u258"
+      ],
+      "copy|Catheter ablation is more effective than drugs at suppressing AF, but the need for stroke prevention still depends on stroke risk.": [
+        "u179"
+      ],
+      "copy|CABANA did not show superiority for its primary composite endpoint in the intention-to-treat comparison (pp1200–1202).": [
+        "u180"
+      ],
+      "copy|Current practice (not the book): rhythm control early after diagnosis and rhythm control in selected patients with heart failure can improve outcomes.": [
+        "u177"
+      ],
+      "copy|Consider symptoms, treatment tolerance, stage of AF and patient preferences — ACC/AHA/ACCP/HRS AF guideline, 2023, §8.1.": [
+        "u178"
+      ],
+      "copy|The book specifies >40 days after MI or >90 days after revascularization.": [
+        "u196"
+      ],
+      "copy|On GDMT the ischemic threshold is EF ≤35% with NYHA II–III or EF <30% with NYHA I.": [
+        "u259"
+      ],
+      "copy|A further indication is prior MI with NSVT, EF ≤40% and inducible sustained monomorphic VT on electrophysiologic study (p1206).": [
+        "u260"
+      ],
+      "copy|Current practice (not the book): the guideline uses at least 40 days after MI and at least 90 days after revascularization, with LVEF ≤30% in NYHA I; anticipated meaningful survival exceeds one year — AHA/ACC/HRS ICD decision aid.": [
+        "u203"
+      ],
+      "copy|An indication for pacing with substantial anticipated RV pacing and impaired EF is a different CRT pathway from symptomatic heart failure with LBBB and a broad QRS (pp1197–1200, Tables 77-3 to 77-5).": [
+        "u221"
+      ],
+      "copy|Current practice (not the book): after TAVR, new AV block with persistent symptoms or hemodynamic instability warrants permanent pacing before discharge; other new conduction disturbances may warrant surveillance — ACC/AHA/HRS bradycardia guideline, §8.1.2.4.": [
+        "u261"
+      ],
+      "copy|Current practice (not the book): the 2024 ESC guideline individualizes gastroprotection according to gastrointestinal bleeding risk.": [
+        "u77"
+      ],
+      "copy|Hazzard gives warfarin to INR 2–3 for 45 days, then discontinues warfarin if TEE confirms complete LAA closure.": [
+        "u262"
+      ],
+      "copy|Follow with aspirin and clopidogrel for 6 months, then long-term aspirin (p1203).": [
+        "u263"
+      ],
+      "copy|After MI, the book gives >40 days after MI or >90 days after revascularization and, on GDMT, EF ≤35% with NYHA II–III or EF <30% with NYHA I.": [
+        "u264"
+      ],
+      "copy|A separate indication after MI is NSVT with EF ≤40% and inducible sustained monomorphic VT on electrophysiologic study (p1206).": [
+        "u265"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        266,
+        -169
+      ],
+      [
+        293,
+        -168
+      ],
+      [
+        296,
+        -167
+      ],
+      [
+        302,
+        -163
+      ],
+      [
+        332,
+        -159
+      ],
+      [
+        334,
+        -151
+      ],
+      [
+        347,
+        -150
+      ],
+      [
+        353,
+        -149
+      ],
+      [
+        364,
+        -144
+      ],
+      [
+        365,
+        -142
+      ],
+      [
+        397,
+        0
+      ]
+    ]
   },
   "81s": {
-    "maxId": 131,
+    "maxId": 257,
     "entries": {
       "chapter-81-study-chronic-obstructive-pulmonary-disease|Chapter 81 Study: Chronic Obstructive Pulmonary Disease": [
         "u1"
@@ -25849,11 +26567,106 @@
       ],
       "copy|Original NETT analysis.": [
         "u106"
+      ],
+      "copy|Hazzard reports COPD as the fourth leading cause of death in the US and projects fifth for disability and third for death worldwide by 2030 (p1235).Current practice (not the book): In CDC's final 2024 US statistics, the broader category chronic lower respiratory diseases, which includes COPD and asthma, ranked fifth. CDC/NCHS, final 2024 mortality.": [
+        "u4"
+      ],
+      "copy|Table 81-5 reproduces older ATS/ERS categories using FEV1 percent predicted: ≥70%, 50–69% and <50% (p1244).Current practice (not the book): The 2022 ERS/ATS interpretive standard grades impairment by z-score. GOLD's airflow-obstruction grades are a separate framework. ERS/ATS interpretive standard, 2022.": [
+        "u16"
+      ],
+      "copy|Hazzard describes normal FEV1/FVC with low FEV1 and evidence of inflammatory airways disease as a group at risk of progression and calls this PRISm (p1244).Current practice (not the book): GOLD defines the post-bronchodilator pattern by FEV1/FVC ≥0.70 and FEV1 <80% predicted. Evidence of airway inflammation is not required. GOLD 2027, initial pharmacological treatment, groups B and E.": [
+        "u248"
+      ],
+      "copy|Skeletal muscle dysfunction in ~30%; sarcopenia in an estimated 22% (up to 63% in nursing-home residents) (p1241). Osteoporosis is a common COPD comorbidity and can further impair mobility (p1241 and Table 81-3, p1242).": [
+        "u20"
+      ],
+      "copy|COPD inhaled treatment: offer a short-acting rescue bronchodilator. Hazzard generally uses a LAMA first for long-acting bronchodilation. In Group D, high symptom burden, frequent exacerbations and blood eosinophils ≥300 cells/mL as printed support adding ICS to LABA (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]Current practice (not the book): GOLD 2026 generally favors LABA/LAMA for symptomatic group B or exacerbation-prone group E patients and considers LABA/LAMA/ICS in group E at eosinophils ≥300 cells/μL. Following exacerbations on LABA/LAMA, ICS benefit is more likely as the eosinophil count rises. Concomitant asthma requires an ICS-containing regimen. GOLD treatment algorithms.": [
+        "u24"
+      ],
+      "copy|ICS risks in older adults: 1.2–1.6-fold increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils <100 cells/mL as printed [sic — Table 81-7 uses cells/µL]); consider osteoporosis prevention during long-term treatment, especially given accelerated bone loss above 1000 mcg/day fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).": [
+        "u25"
+      ],
+      "copy|LVRS candidates: FEV1 <50% predicted, RV >150–200% predicted, upper-lobe-predominant emphysema. Hazzard says surgical LVRS should be avoided when FEV1 or DLCO is <20% predicted and emphysema is homogeneous because postoperative mortality is higher (p1258).Current practice (not the book): NETT defined high risk as FEV1 ≤20% predicted plus either homogeneous emphysema or DLCO ≤20% predicted. NETT high-risk analysis.": [
+        "u42"
+      ],
+      "copy|The chapter advises considering osteoporosis prevention for patients receiving long-term ICS.": [
+        "u182"
+      ],
+      "copy|In the chapter’s GOLD framework, LAMA is generally the first long-acting bronchodilator.": [
+        "u249"
+      ],
+      "copy|ICS with LABA reduces exacerbations and hospitalizations in Group D when eosinophils are ≥300 cells/mL as printed, symptoms are substantial and exacerbations frequent (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]": [
+        "u250"
+      ],
+      "copy|Current practice (not the book): GOLD 2027 recommends LABA plus LAMA as initial therapy for most group B and E patients and permits consideration of initial triple therapy for group E at ≥300 cells/µL.": [
+        "u189"
+      ],
+      "copy|[": [
+        "u192"
+      ],
+      "copy|Hazzard advises direct fluorescent antibody testing with or without PCR during influenza season because specific antiviral therapy may be indicated (p1260).": [
+        "u251"
+      ],
+      "copy|A positive rhinovirus PCR does not exclude bacterial coinfection.": [
+        "u200"
+      ],
+      "copy|Current practice (not the book): During a winter admission, use a molecular influenza assay when influenza is suspected and start empiric oseltamivir promptly, without waiting for the result.": [
+        "u252"
+      ],
+      "copy|CDC, influenza antiviral treatment in hospitalized patients": [
+        "u253"
+      ],
+      "copy|Hazzard reports benefit from ICS/LABA with eosinophils ≥300 cells/mL and high symptom burden plus frequent exacerbations (Group D).": [
+        "u84"
+      ],
+      "copy|ICS-associated pneumonia risk rises with <100 cells/mL, older age, frailty, low BMI or high dose.": [
+        "u85"
+      ],
+      "copy|The chapter discusses ICS withdrawal with <300 cells/mL, particularly <100 cells/mL (pp1253–1254). [sic — all three units are printed per mL in the prose; Table 81-7 on p1246 uses cells/µL.]": [
+        "u254"
+      ],
+      "copy|Current practice (not the book): GOLD expresses these eosinophil counts in cells/µL.": [
+        "u255"
+      ],
+      "copy|GOLD Figure 3.10.": [
+        "u256"
+      ],
+      "copy|Hazzard says surgical LVRS should be avoided when FEV1 or DLCO is <20% predicted and emphysema is homogeneous because postoperative mortality is higher (p1258).": [
+        "u257"
+      ],
+      "copy|Current practice (not the book): In NETT, FEV₁ at most 20% predicted plus either homogeneous emphysema or DLCO at most 20% predicted identified patients at high surgical risk.": [
+        "u106"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        258,
+        -126
+      ],
+      [
+        308,
+        -125
+      ],
+      [
+        311,
+        -121
+      ],
+      [
+        313,
+        -120
+      ],
+      [
+        319,
+        -118
+      ],
+      [
+        366,
+        0
+      ]
+    ]
   },
   "98s": {
-    "maxId": 245,
+    "maxId": 252,
     "entries": {
       "chapter-98-study-thyroid-diseases|Chapter 98 Study: Thyroid Diseases": [
         "u1"
@@ -26612,6 +27425,61 @@
       ],
       "copy|For stable primary hypothyroidism with known coronary artery disease, start oral levothyroxine at 12.5–25 μg daily and titrate gradually according to cardiac symptoms and TSH (ATA section 4b).": [
         "u77"
+      ],
+      "copy|Subclinical hyperthyroidism = low TSH, normal free T4/T3; prevalence 1-6%, persistence >50% on repeat testing. Repeat thyroid testing in 3–6 months. The chapter supports treating older adults with persistent subclinical hyperthyroidism to biochemical euthyroidism (p1551).Current practice (not the book): For adults aged 65 and older with endogenous subclinical hyperthyroidism, the ATA recommends treatment when TSH stays below 0.1 mU/L, and consideration of treatment when it remains between 0.1 mU/L and the lower reference limit. Consider symptoms, cardiac disease and osteoporosis. ATA recommendations 83 and 85.": [
+        "u19"
+      ],
+      "copy|Full replacement dose in older adults is lower than the young-adult 1.6 μg/kg/day. Hazzard gives 25- and 50-μg tablets as reasonable starting doses in older adults (p1552).Current practice (not the book): ATA section 4b recommends 12.5–25 μg/day initially in patients with known CAD, with gradual titration to symptoms and TSH. ATA, section 4b.": [
+        "u23"
+      ],
+      "copy|Subclinical hypothyroidism = high TSH, normal free T4; prevalence 4% general population, ~10% at 65+. Retest in 1-3 months if TSH 4.5–14.9 mIU/mL as printed, or 1–2 weeks if ≥15.0 mIU/mL (p1553). [sic — Figure 98-4 on p1554 gives the clinical unit mU/L.]": [
+        "u28"
+      ],
+      "copy|Myxedema coma: draw cortisol and initiate IV hydrocortisone before or with thyroid hormone. Hazzard gives levothyroxine 200–400 μg initially, then 75–100 μg/day, and cautions against rapid T3 exposure in older patients (p1553).Current practice (not the book): ATA specifies an IV loading dose and lower doses in older or smaller patients and those with CAD or arrhythmia. American Thyroid Association, recommendation 21a.": [
+        "u30"
+      ],
+      "copy|After a benign FNA, Hazzard gives ultrasound at 12–18 months, then every 2–5 years. Suspicious features or significant growth may prompt FNA. After two benign aspirations, no further FNA is required (p1556).Current practice (not the book): After a benign FNA, match surveillance to ultrasound risk. High suspicion calls for repeat ultrasound and US-guided FNA within 12 months. Low or intermediate suspicion calls for ultrasound at 12–24 months. With very low suspicion, wait at least 24 months if rescanning. Two benign US-guided FNAs end routine surveillance for malignancy in that nodule. ATA, recommendation 23.": [
+        "u34"
+      ],
+      "copy|Hazzard gives 200–400 μg levothyroxine initially, followed by 75–100 μg daily.": [
+        "u137"
+      ],
+      "copy|Address ventilation, metabolic disturbances and the precipitant concurrently.": [
+        "u139"
+      ],
+      "copy|The chapter cautions about acute cardiac effects of T3 and increased sensitivity to sedatives (p1553).": [
+        "u140"
+      ],
+      "copy|Current practice (not the book): ATA recommendation 21a specifies intravenous levothyroxine initially, with a lower loading dose for smaller or older patients or those with CAD or arrhythmia.": [
+        "u138"
+      ],
+      "copy|American Thyroid Association, recommendation 21a.": [
+        "u246"
+      ],
+      "copy|Hazzard names 25- and 50-μg tablets as reasonable starting doses in older people.": [
+        "u247"
+      ],
+      "copy|Current practice (not the book): For stable primary hypothyroidism with known CAD, ATA advises starting oral levothyroxine at 12.5–25 μg/day and titrating to symptoms and TSH.": [
+        "u248"
+      ],
+      "copy|ATA, section 4b.": [
+        "u249",
+        "u252"
+      ],
+      "copy|After a benign aspirate, Hazzard advises ultrasound in 12–18 months, then every 2–5 years, with repeat FNA for suspicious changes or significant growth.": [
+        "u230"
+      ],
+      "copy|After two benign FNAs, additional aspirations are unnecessary (p1556).": [
+        "u250"
+      ],
+      "copy|Current practice (not the book): ATA recommendation 23 uses the ultrasound pattern.": [
+        "u230"
+      ],
+      "copy|Hazzard names 25- and 50-μg tablets as reasonable initial levothyroxine doses in older adults.": [
+        "u77"
+      ],
+      "copy|Current practice (not the book): For stable primary hypothyroidism with known coronary artery disease, start oral levothyroxine at 12.5–25 μg daily and titrate gradually according to cardiac symptoms and TSH (ATA section 4b).": [
+        "u251"
       ]
     }
   },
@@ -26736,9 +27604,22 @@
       ],
       "copy|Study summary of Chapter 43 — Falls; the book and the full chapter are the reference.": [
         "u40"
+      ],
+      "copy|Hazzard reports no significant reduction in fractures (n = 5,451) or serious fall injuries (n = 9,803) in two primary-care trials (p641). [sic — the primary reports give the reverse enrollment figures: PreFIT, 9,803 participants (fractures); STRIDE, 5,451 (serious fall injuries).] Direct delivery and uptake of the intervention may matter when implementing prevention through existing services. PreFIT · STRIDE.": [
+        "u38"
       ]
     },
-    "maxId": 40
+    "maxId": 125,
+    "sequenceOffsets": [
+      [
+        126,
+        -85
+      ],
+      [
+        211,
+        0
+      ]
+    ]
   },
   "83": {
     "entries": {
@@ -29373,9 +30254,28 @@
         "u120",
         "u121",
         "u122"
+      ],
+      "copy|Atherosclerosis accounts for almost 90% of renovascular disease in the geriatric population. Hazzard calls the other cause “fibrous dysplasia” in the prose (p1287) and Table 83-3 (p1288).Current practice (not the book): the accepted vascular diagnosis is fibromuscular dysplasia — International consensus, 2019.": [
+        "u41"
+      ],
+      "copy|Anemia in CKD is typically normochromic and normocytic and develops around GFR 35 mL/min. Hazzard prints a conservative hemoglobin target “near 11.5 mg/dL” (p1294). [sic — hemoglobin is measured in g/dL here.]Current practice (not the book): in adults receiving an ESA, target hemoglobin below 11.5 g/dL — KDIGO 2026, recommendation 3.3.1.": [
+        "u270"
+      ],
+      "copy|Hazzard describes ferritin <500 ng/mL or transferrin saturation <30% under its historical “functional iron deficiency” wording (p1294).Current practice (not the book): for anemic patients receiving hemodialysis, KDIGO 2026 recommendation 2.1 suggests starting iron when both ferritin is ≤500 ng/mL and transferrin saturation is ≤30%.": [
+        "u59"
       ]
     },
-    "maxId": 122
+    "maxId": 270,
+    "sequenceOffsets": [
+      [
+        271,
+        -148
+      ],
+      [
+        418,
+        0
+      ]
+    ]
   },
   "62s": {
     "entries": {
@@ -29903,9 +30803,72 @@
       ],
       "copy|Routine primary antiseizure prophylaxis after spontaneous ICH is generally unnecessary (p976, Harrison 21e p3310, Szaflarski et al., Table 2).": [
         "u116"
+      ],
+      "copy|Hazzard’s IV alteplase regimen is 0.9 mg/kg, with 10% as an immediate bolus and the remainder infused over one hour (p966).Current practice (not the book): the US Activase label specifies 90 mg maximum and gives the 10% bolus over one minute — Activase prescribing information.": [
+        "u6"
+      ],
+      "copy|Hazzard’s ABCD² thresholds are age >60 years (1 point) and presenting BP >140/90 (1 point).": [
+        "u171"
+      ],
+      "copy|Unilateral weakness scores 2, isolated speech disturbance 1, duration 10–59 minutes 1 or ≥60 minutes 2, and diabetes 1 (p957).": [
+        "u94"
+      ],
+      "copy|In June 2022 Q91 the four scenarios score 3, 7, 4 and 5 under the original Johnston scoring system.": [
+        "u95"
+      ],
+      "copy|The second and fourth options received official credit.": [
+        "u96"
+      ],
+      "copy|Current practice (not the book): the original validated score gives a point for age ≥60 and a point for systolic BP ≥140 or diastolic BP ≥90.": [
+        "u172"
+      ],
+      "copy|NICE advises against using ABCD² to determine urgency of referral — Johnston et al., 2007, NICE NG128, 1.1.6.": [
+        "u98"
+      ],
+      "copy|Noncontrast head CT is the initial study.": [
+        "u118"
+      ],
+      "copy|If CT is negative and suspicion for SAH remains high, Hazzard says lumbar puncture must be performed (pp977–978).": [
+        "u173"
+      ],
+      "copy|Current practice (not the book): after a negative CT performed within six hours and reported by a radiologist, NICE advises against routine LP.": [
+        "u174"
+      ],
+      "copy|After a later negative CT, consider LP — NICE NG228, recommendations 1.1.11–1.1.14.": [
+        "u120"
+      ],
+      "copy|After aneurysmal SAH, rerupture is most frequent in the first 72 hours.": [
+        "u175"
+      ],
+      "copy|Vasospasm often develops on days 4–14 and may cause a new focal deficit.": [
+        "u123"
+      ],
+      "copy|Delayed hydrocephalus can appear days to weeks later and may require ventriculoperitoneal shunting (p978).": [
+        "u124"
+      ],
+      "copy|Current practice (not the book): for persistent or progressive symptoms with chronic hydrocephalus, NICE advises considering CSF drainage or diversion.": [
+        "u176"
+      ],
+      "copy|If the likely benefit of permanent diversion is uncertain, consider a trial of temporary drainage — NICE NG228, recommendations 1.3.3–1.3.5.": [
+        "u127"
+      ],
+      "copy|For warfarin-associated ICH, Hazzard lists IV vitamin K plus fresh frozen plasma/cryoprecipitate or PCC (p977).": [
+        "u177"
+      ],
+      "copy|Current practice (not the book): in VKA-associated spontaneous ICH with INR ≥2.0, four-factor PCC is preferred to FFP for rapid reversal, with IV vitamin K given directly after factor replacement — AHA/ASA ICH guideline, 2022.": [
+        "u178"
+      ],
+      "copy|For DVT prevention, Hazzard describes subcutaneous heparin or pneumatic compression followed by ambulation as soon as possible (p970).": [
+        "u179"
+      ],
+      "copy|Current practice (not the book): high-dose mobilization within the first 24 hours after acute ischemic stroke can worsen outcomes.": [
+        "u157"
+      ],
+      "copy|Routine fluoxetine for motor recovery has not improved functional outcome and increases fracture risk — AHA/ASA acute ischemic stroke guideline, 2026, Rehabilitation.": [
+        "u159"
       ]
     },
-    "maxId": 170
+    "maxId": 179
   },
   "27s": {
     "entries": {
@@ -30355,9 +31318,53 @@
       ],
       "copy|Hazzard’s Geriatric Medicine and Gerontology, 8e, Chapter 27 (printed pages 371–382).": [
         "u79"
+      ],
+      "copy|The original Revised Cardiac Risk Index assigns one point for preoperative serum creatinine >2.0 mg/dL (Lee et al., 1999).": [
+        "u250"
+      ],
+      "copy|An 83-year-old with creatinine 2.2 mg/dL meets this criterion.": [
+        "u182"
+      ],
+      "copy|The chapter states that rivaroxaban, dabigatran and apixaban do not require perioperative bridging because of their relatively short half-lives.": [
+        "u251"
+      ],
+      "copy|Hazzard advises waiting at least 3 months if possible.": [
+        "u217"
+      ],
+      "copy|When surgery cannot wait, the chapter describes pre- and postoperative LMWH bridging in a warfarin-treated patient with recent VTE while INR <2.0 (p380).": [
+        "u218"
+      ],
+      "copy|Current practice (not the book): most warfarin-treated patients do not need perioperative bridging; consider it for selected patients with high thrombotic risk — AHA/ACC 2024, §7.6.": [
+        "u219"
       ]
     },
-    "maxId": 154
+    "maxId": 251,
+    "sequenceOffsets": [
+      [
+        252,
+        -97
+      ],
+      [
+        279,
+        -96
+      ],
+      [
+        307,
+        -94
+      ],
+      [
+        309,
+        -93
+      ],
+      [
+        310,
+        -88
+      ],
+      [
+        338,
+        0
+      ]
+    ]
   },
   "42s": {
     "entries": {
@@ -32840,9 +33847,46 @@
       ],
       "copy|Sixteen past-exam questions are linked by topic to the Israeli services discussed in this chapter’s teaching notes.": [
         "u24"
+      ],
+      "copy|PACE uses a day health center to deliver comprehensive medical, personal, social and rehabilitative care.": [
+        "u98"
+      ],
+      "copy|Hazzard describes the participants as dually eligible for Medicare and Medicaid and certified as needing nursing-home-level care (pp238–239, Table 17-1).": [
+        "u139"
+      ],
+      "copy|The chapter reports less hospital use in studied populations and mixed costs across payers (pp243–244, Table 17-2).": [
+        "u103"
+      ],
+      "copy|Current practice (not the book): Medicare lists age ≥55, service-area residence, state certification of nursing-home-level need, and safe community living with PACE support.": [
+        "u140"
+      ],
+      "copy|Participants without Medicaid can face premiums.": [
+        "u102"
       ]
     },
-    "maxId": 24
+    "maxId": 140,
+    "sequenceOffsets": [
+      [
+        141,
+        -116
+      ],
+      [
+        214,
+        -115
+      ],
+      [
+        215,
+        -114
+      ],
+      [
+        216,
+        -112
+      ],
+      [
+        251,
+        0
+      ]
+    ]
   },
   "7s": {
     "entries": {
@@ -32920,9 +33964,28 @@
       ],
       "copy|No past-exam questions are currently linked to this chapter.": [
         "u25"
+      ],
+      "copy|בדליריום שמונע הבנה והסכמה להליך דחוף, כגון כריתת כיס מרה או הכנסת צנתר דיאליזה, בודקים אם ייפוי הכוח הרפואי המתמשך חל ואם מתקיימים תנאי הפעלתו.": [
+        "u157"
+      ],
+      "copy|כך גם במטופל מונשם עקב אלח דם שאינו מסוגל להבין את ההחלטה על טרכאוסטומיה.": [
+        "u158"
+      ],
+      "copy|ייפוי כוח מתמשך בעניינים רפואיים בלבד יכול להיחתם בפני עורך דין, רופא מורשה, עובד סוציאלי, פסיכולוג רשום או אח או אחות מוסמכים (חוק הכשרות המשפטית והאפוטרופסות, סעיפים 32טו ו־32יט).": [
+        "u159"
       ]
     },
-    "maxId": 25
+    "maxId": 159,
+    "sequenceOffsets": [
+      [
+        160,
+        -134
+      ],
+      [
+        291,
+        0
+      ]
+    ]
   },
   "62": {
     "entries": {
@@ -36791,9 +37854,45 @@
       ],
       "copy|Five past-exam questions cover stress testing, antithrombotic treatment and discharge therapy after infarction.": [
         "u33"
+      ],
+      "copy|Hazzard describes a prasugrel boxed warning for age ≥75, prior stroke or low BMI because bleeding risk is increased.": [
+        "u180"
+      ],
+      "copy|Ticagrelor has a different risk profile and still requires a bleeding-risk assessment.": [
+        "u93"
+      ],
+      "copy|Current practice (not the book): The US label contraindicates prior stroke/TIA and generally advises against use at age ≥75, with possible consideration for diabetes or prior MI.": [
+        "u181"
+      ],
+      "copy|Low body weight (<60 kg) is a separate bleeding-risk factor.": [
+        "u182"
+      ],
+      "copy|Prasugrel prescribing information, boxed warning and §4.2.": [
+        "u183"
+      ],
+      "copy|The estimated at least 2.5 years to prevent one major event per 100 treated came from trials in adults aged 50–75.": [
+        "u132"
       ]
     },
-    "maxId": 34
+    "maxId": 183,
+    "sequenceOffsets": [
+      [
+        184,
+        -149
+      ],
+      [
+        239,
+        -145
+      ],
+      [
+        277,
+        -144
+      ],
+      [
+        324,
+        0
+      ]
+    ]
   },
   "53": {
     "entries": {
@@ -43223,9 +44322,121 @@
       ],
       "copy|Leukocyte measurements show that shortening is already present in early childhood and proceeds at an age-dependent rate.": [
         "u51"
+      ],
+      "copy|Telomeres protect chromosome ends. Their progressive loss can destabilize chromosomes and increase mutation risk. Page 1383 describes a functional decline from age 30 at about 1% per year.Current practice (not the book): Measured leukocyte telomere shortening also occurs in infancy, and its rate varies with age. Human leukocyte study": [
+        "u6"
+      ],
+      "copy|Geriatric assessment reduced serious treatment toxicity in the two trials summarized on p1388: 718 patients, 20-percentage-point absolute reduction and 620 randomized patients, 10% reduction.": [
+        "u20"
+      ],
+      "copy|Surgery: healing can be compromised at every phase, including inflammatory and proliferative responses and collagen remodeling. The chapter reports that geriatric comanagement can improve 90-day postoperative mortality (pp1388–1389).Current practice (not the book): The cited retrospective cohort of cancer surgery patients aged ≥75 found an association with lower 90-day mortality. Original surgical cohort.": [
+        "u23"
+      ],
+      "copy|Routine symptom assessment and intervention during cancer treatment can improve overall survival by upwards of five months without changing cancer therapy, according to the chapter (p1391).Current practice (not the book): In one trial of electronic symptom monitoring during treatment, median survival was 31.2 versus 26.0 months. A later community trial found better symptom control, function and quality of life without a survival difference. Symptom monitoring can help even when survival is unchanged. Original trial · PRO-TECT": [
+        "u31"
+      ],
+      "copy|In dying patients, the chapter says artificial nutrition and hydration do not prolong life and may increase discomfort and hasten death. It identifies xerostomia as the only reported discomfort attributable to dehydration near death and suggests oral swabs or ice chips (p1392).Current practice (not the book): In the last days of life with advanced cancer, routine artificial hydration or nutrition has no established survival benefit and can add edema, pulmonary congestion or procedural burden. Ask about thirst and discomfort, offer mouth care and safe sips or ice chips as tolerated, and individualize decisions with the patient and family. NCI, Last Days of Life": [
+        "u35"
+      ],
+      "copy|The chapter includes antidepressants, modafinil, corticosteroids and methylphenidate among pharmacologic approaches to cancer fatigue, and says nonpharmacologic approaches are used more often (pp1391–1392).": [
+        "u186"
+      ],
+      "copy|Current practice (not the book): At the end of life a short course of corticosteroids may help selected patients.": [
+        "u125"
+      ],
+      "copy|Distinguish treatment of depression from prescribing an antidepressant solely for fatigue.": [
+        "u127"
+      ],
+      "copy|Hazzard lists metoclopramide, haloperidol and 5-HT3 antagonists among options for cancer treatment-related nausea.": [
+        "u187"
+      ],
+      "copy|Prevention, bowel assessment and small, frequent, low-fat meals are part of the chapter’s approach (pp1391–1392).": [
+        "u188"
+      ],
+      "copy|Current practice (not the book): Persistent nausea after ondansetron and metoclopramide calls for reassessment of its cause and a change in symptom treatment.": [
+        "u130"
+      ],
+      "copy|MASCC advanced-cancer antiemetic guidance": [
+        "u137"
+      ],
+      "copy|The chapter recommends considering functional status, comorbidity and life expectancy when judging likely screening benefit (pp1384–1385).": [
+        "u189"
+      ],
+      "copy|Current practice (not the book): USPSTF recommends biennial mammography at ages 40–74.": [
+        "u190"
+      ],
+      "copy|A pathogenic variant can change surveillance eligibility.": [
+        "u144"
+      ],
+      "copy|Ask about baseline cognition and follow changes in daily function (Ch 88 p1390 and Ch 90 pp1416–1417).": [
+        "u191"
+      ],
+      "copy|Current practice (not the book): Some observational cohorts found more subsequent dementia diagnoses after treatment, a possible risk worth discussing with the man in June 2022 Q75.": [
+        "u151"
+      ],
+      "copy|Two geriatric-assessment trials.": [
+        "u192"
+      ],
+      "copy|The 41-practice trial involving 718 patients reduced serious toxicity by 20 percentage points with assessment-guided recommendations.": [
+        "u193"
+      ],
+      "copy|Hazzard reports 620 randomized patients and a 10% reduction in chemotherapy toxicity in the trial with multidisciplinary implementation (p1388).": [
+        "u194"
+      ],
+      "copy|Current practice (not the book): GAP70+ provided oncologists with a geriatric assessment summary and tailored recommendations for adults aged 70 or older with advanced incurable cancer and at least one impairment.": [
+        "u169"
+      ],
+      "copy|These absolute differences apply to their respective trial populations.": [
+        "u174"
       ]
     },
-    "maxId": 89
+    "maxId": 194,
+    "sequenceOffsets": [
+      [
+        195,
+        -105
+      ],
+      [
+        230,
+        -104
+      ],
+      [
+        231,
+        -102
+      ],
+      [
+        232,
+        -101
+      ],
+      [
+        236,
+        -98
+      ],
+      [
+        242,
+        -96
+      ],
+      [
+        247,
+        -95
+      ],
+      [
+        248,
+        -93
+      ],
+      [
+        261,
+        -91
+      ],
+      [
+        265,
+        -90
+      ],
+      [
+        276,
+        0
+      ]
+    ]
   },
   "49": {
     "entries": {
@@ -44745,9 +45956,74 @@
       ],
       "copy|Interrupting treatment or reducing the dose does not erase previous exposure (p1361 and the Reglan boxed warning above).": [
         "u70"
+      ],
+      "copy|Functional constipation. Table 87-1 prints at least two features on >25% of occasions for ≥12 weeks in the last 12 months, including ≤2 bowel movements/week, straining, hard stool, incomplete evacuation, blockage or manual maneuvers (p1354).Current practice (not the book): Rome IV specifies <3 spontaneous bowel movements/week for the frequency item, criteria met over the last 3 months with onset ≥6 months earlier, rare loose stools without laxatives and insufficient IBS criteria. Rome Foundation, C2.": [
+        "u4"
+      ],
+      "copy|Diabetes: colonic transit prolongs to 200 ± 144 h in immobile diabetics. Metoclopramide may treat diabetic gastroparesis. The book advises avoiding continuous metoclopramide for >12 weeks and encourages a two-week drug holiday or a tolerated dose reduction, with tight glucose control when clinically feasible (p1361).Current practice (not the book): Tardive dyskinesia risk rises with total exposure. For diabetic gastroparesis, US prescribing information advises avoiding more than 12 weeks of total treatment. A drug holiday does not reset cumulative exposure. Reglan prescribing information, Boxed Warning": [
+        "u21"
+      ],
+      "copy|PAMORAs for opioid-induced constipation. Hazzard reports >3 complete spontaneous bowel movements (CSBMs) for naldemedine (52% vs 35%) and ≥3 CSBMs/week for naloxegol (42% vs 29%) (p1378).Current practice (not the book): The pivotal trials measured spontaneous bowel movements, without requiring a sense of complete evacuation. Responders had at least three per week and at least one more than baseline for nine of twelve weeks, including three of the last four. COMPOSE trials · KODIAC trials": [
+        "u49"
+      ],
+      "copy|Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); the table describes lactulose and sorbitol together as “Nonabsorbable disaccharides” fermented by colonic bacteria [sic — lactulose is a disaccharide; sorbitol is a sugar alcohol]; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).": [
+        "u50"
+      ],
+      "copy|Treat uncomplicated acute colonic dilatation in stages.": [
+        "u118"
+      ],
+      "copy|Hazzard starts with bowel rest, flatus-tube decompression, correction of potassium and magnesium disturbances, and treatment of the precipitant.": [
+        "u120"
+      ],
+      "copy|Persistent dilatation may warrant neostigmine if cardiac contraindications are absent, then endoscopic decompression if necessary.": [
+        "u123"
+      ],
+      "copy|PEG after resolution can reduce recurrence (p1362).": [
+        "u124"
+      ],
+      "copy|Current practice (not the book): ASGE advises monitored neostigmine with atropine available, and endoscopic decompression when pharmacologic treatment is contraindicated or unsuccessful.": [
+        "u207"
+      ],
+      "copy|Table 87-1 prints at least two features on >25% of occasions for ≥12 weeks in the last 12 months, including ≤2 bowel movements/week, straining, hard stool, incomplete evacuation, blockage or manual maneuvers (p1354).": [
+        "u208"
+      ],
+      "copy|Current practice (not the book): Rome IV uses fewer than three spontaneous bowel movements weekly and the last-three-month/onset-six-month window.": [
+        "u209"
+      ],
+      "copy|Rome Foundation, C2.": [
+        "u210"
+      ],
+      "copy|Why must metoclopramide use in older adults be time-limited, and what limit and interruption does Hazzard describe for continuous treatment?": [
+        "u68"
+      ],
+      "copy|Older adults are particularly susceptible to potentially irreversible tardive dyskinesia.": [
+        "u69"
+      ],
+      "copy|The book advises avoiding continuous metoclopramide for >12 weeks and encourages a two-week drug holiday or a tolerated dose reduction, with tight glucose control when clinically feasible (p1361).": [
+        "u211"
+      ],
+      "copy|Current practice (not the book): The US boxed warning addresses total treatment exposure; a holiday does not reset the 12-week limit.": [
+        "u212"
+      ],
+      "copy|Reglan prescribing information, Boxed Warning.": [
+        "u213"
       ]
     },
-    "maxId": 83
+    "maxId": 213,
+    "sequenceOffsets": [
+      [
+        214,
+        -130
+      ],
+      [
+        248,
+        -123
+      ],
+      [
+        330,
+        0
+      ]
+    ]
   },
   "95s": {
     "entries": {
@@ -44952,9 +46228,74 @@
       ],
       "copy|MGUS is monitored, and smoldering myeloma warrants closer surveillance and assessment of whether its progression risk supports early treatment. (p. 1503)": [
         "u12"
+      ],
+      "copy|Table 95-14 prints 10%–60% clonal marrow plasma cells for smoldering myeloma with no attributable end-organ damage, and >60% for myeloma when CRAB criteria are absent.": [
+        "u231"
+      ],
+      "copy|Hazzard describes close surveillance of smoldering disease and early-treatment trials (pp1502–1504).": [
+        "u134"
+      ],
+      "copy|Current practice (not the book): IMWG uses ≥60% clonal marrow plasma cells as a myeloma-defining event.": [
+        "u131"
+      ],
+      "copy|Additional SLiM biomarkers are the involved/uninvolved free light-chain ratio ≥100 with involved light chain ≥100 mg/L, or >1 MRI focal lesion of ≥5 mm.": [
+        "u133"
+      ],
+      "copy|In 2025 FDA approved subcutaneous daratumumab with hyaluronidase for adults with high-risk smoldering myeloma.": [
+        "u135"
+      ],
+      "copy|Hazzard lists zoledronic acid and pamidronate and describes denosumab use when renal impairment contraindicates a bisphosphonate.": [
+        "u232"
+      ],
+      "copy|Calcium and vitamin D alone cannot prevent skeletal complications (p1505).": [
+        "u144"
+      ],
+      "copy|Current practice (not the book): ASCO also supports denosumab to prevent skeletal events in myeloma and notes its renal safety advantage in selected patients.": [
+        "u142"
+      ],
+      "copy|The oncology regimen differs from the Prolia regimen named in the distractor.": [
+        "u233"
+      ],
+      "copy|The exam credits the Burkitt pairing, also shown in Table 95-9 (p1494).": [
+        "u172"
+      ],
+      "copy|Current practice (not the book): The ICC classifies BCR::ABL1-positive B-cell ALL.": [
+        "u234"
+      ],
+      "copy|Some myelomas acquire secondary MYC rearrangements, which explains the ambiguity in a question asking about any association.": [
+        "u235"
+      ],
+      "copy|Fine-needle aspiration may suggest lymphoma but is not adequate for identifying lymphoma subtype (p1494).": [
+        "u179"
       ]
     },
-    "maxId": 70
+    "maxId": 235,
+    "sequenceOffsets": [
+      [
+        236,
+        -165
+      ],
+      [
+        296,
+        -159
+      ],
+      [
+        301,
+        -156
+      ],
+      [
+        327,
+        -153
+      ],
+      [
+        332,
+        -152
+      ],
+      [
+        383,
+        0
+      ]
+    ]
   },
   "72": {
     "entries": {
@@ -46647,9 +47988,76 @@
       ],
       "copy|High-fat meals can delay the effect of sildenafil or vardenafil. Tadalafil and avanafil may be taken with or without food, although a high-fat meal can also delay peak avanafil concentration. Tadalafil has a longer window of action (p552). FDA avanafil prescribing information, §§2.1 and 12.3.": [
         "u10"
+      ],
+      "copy|The chapter directs that sildenafil and vardenafil be taken on an empty stomach because high-fat meals or alcohol delay absorption. Food does not significantly interfere with tadalafil or avanafil absorption, and tadalafil has a longer duration of action (p552). Current practice (not the book): Avanafil may be taken with or without food. A high-fat meal can delay peak concentration. FDA prescribing information, 2022, §§2.1, 12.3.": [
+        "u10"
+      ],
+      "copy|In the practice case the man already has exertional symptoms (p550, Figure 37-2).": [
+        "u60"
+      ],
+      "copy|Current practice (not the book): Evaluate possible ischemia and exercise tolerance before treatment.": [
+        "u61"
+      ],
+      "copy|Stress testing can clarify indeterminate risk when clinically appropriate.": [
+        "u62"
+      ],
+      "copy|The chapter states that neither hemodialysis nor testosterone replacement has been shown to improve erectile dysfunction in men with renal failure.": [
+        "u166"
+      ],
+      "copy|Current practice (not the book): A small uncontrolled series found improved erection scores during testosterone treatment of hypogonadal men receiving dialysis.": [
+        "u167"
+      ],
+      "copy|Causation is uncertain.": [
+        "u168"
+      ],
+      "copy|The book advises caution with testosterone in untreated obstructive sleep apnea (Ch 97 p1534).": [
+        "u129"
+      ],
+      "copy|1534": [
+        "u169"
+      ],
+      "copy|Current practice (not the book): Defer testosterone in untreated severe obstructive sleep apnea.": [
+        "u170"
+      ],
+      "copy|Endocrine Society, recommendation 2.2.": [
+        "u132"
       ]
     },
-    "maxId": 25
+    "maxId": 170,
+    "sequenceOffsets": [
+      [
+        171,
+        -145
+      ],
+      [
+        205,
+        -141
+      ],
+      [
+        224,
+        -137
+      ],
+      [
+        227,
+        -141
+      ],
+      [
+        228,
+        -138
+      ],
+      [
+        267,
+        -137
+      ],
+      [
+        269,
+        -136
+      ],
+      [
+        302,
+        0
+      ]
+    ]
   },
   "11s": {
     "entries": {
@@ -46739,9 +48147,49 @@
       ],
       "copy|Flexible sigmoidoscopy has a similar estimated time to benefit (p161). In the later COLONPREV trial of adults aged 50–69, invitation to biennial FIT was noninferior to invitation to one-time colonoscopy for colorectal cancer mortality at ten years. That comparison does not give a time to benefit versus no screening. COLONPREV, 2025.": [
         "u8"
+      ],
+      "copy|Cervix. At age 65, check the actual screening history. The chapter defines adequate prior screening as three consecutive negative cytology results or two consecutive negative HPV co-tests in the preceding ten years, with the most recent within five years. A healthy older woman without adequate prior screening may still benefit. Consider whether she could undergo treatment if a lesion is found. False positives can lead to colposcopy and biopsy (p163).": [
+        "u37"
+      ],
+      "copy|Flexible sigmoidoscopy has a similar estimated time to benefit (p161). Current practice (not the book): In the later COLONPREV trial of adults aged 50–69, invitation to biennial FIT was noninferior to invitation to one-time colonoscopy for colorectal cancer mortality at ten years. That comparison does not give a time to benefit versus no screening. COLONPREV, 2025.": [
+        "u8"
+      ],
+      "copy|The model found biennial mammography cost-effective with life expectancy of at least 9.5 years (p161).": [
+        "u60"
+      ],
+      "copy|Table 11-2 gives 1–5 years for hypertension treatment and 3 months–2.5 years for statins, from first detectable to near-maximal population benefit.": [
+        "u163"
+      ],
+      "copy|The accompanying prose gives a shorter estimate of under 3 months for statins after a recent myocardial infarction, and several years for primary prevention.": [
+        "u164"
+      ],
+      "copy|Orthostasis and falls can occur soon after starting blood pressure treatment.": [
+        "u80"
       ]
     },
-    "maxId": 26
+    "maxId": 164,
+    "sequenceOffsets": [
+      [
+        165,
+        -138
+      ],
+      [
+        175,
+        -137
+      ],
+      [
+        197,
+        -136
+      ],
+      [
+        216,
+        -134
+      ],
+      [
+        297,
+        0
+      ]
+    ]
   },
   "31s": {
     "entries": {
@@ -51213,9 +52661,35 @@
       ],
       "copy|In the chapter’s US ethics framework, withholding and withdrawing unwanted life-prolonging treatment are ethically equivalent, though withdrawal may be psychologically harder. Israeli law separately restricts stopping continuous treatment when stopping could cause death (p1103 and Israeli Dying Patient Law, §21).": [
         "u11"
+      ],
+      "copy|Under resource scarcity, use transparent allocation principles and triage committees; the chapter rejects excluding patients solely by age (pp1098, 1109–1110).": [
+        "u16"
+      ],
+      "copy|A facility can support privacy and safe contact while protecting residents from unwanted contact (pp1108–1109, Tables 72-7 and 72-8).": [
+        "u180"
+      ],
+      "copy|Pages 1097–1098 discuss the wider conflict between safety, quality of life and patient preferences.": [
+        "u189"
+      ],
+      "copy|Page 1105 addresses advance directives about feeding in advanced dementia.": [
+        "u190"
       ]
     },
-    "maxId": 26
+    "maxId": 190,
+    "sequenceOffsets": [
+      [
+        191,
+        -164
+      ],
+      [
+        344,
+        -161
+      ],
+      [
+        350,
+        0
+      ]
+    ]
   },
   "67s": {
     "entries": {
@@ -51399,9 +52873,59 @@
       ],
       "copy|They were associated with improved survival, not improved comfort; intravenous treatment or hospitalization was associated with the greatest discomfort, with similar survival benefit across administration routes. (p. 1048)": [
         "u55"
+      ],
+      "copy|Hazzard describes an expected prognosis less than six months if the illness runs its usual course, certified by the attending physician and hospice medical director (p1046). The same page describes CMS coverage guidance for a prognosis of six months or less.Current practice (not the book): CMS uses six months or less; for the initial period, the hospice physician and the designated attending physician, if any, certify — CMS, chapter 9, §20.1.": [
+        "u5"
+      ],
+      "copy|A resident with advanced dementia and aspiration pneumonia may live longer after antibiotics, without improved comfort.": [
+        "u103"
+      ],
+      "copy|כאשר לא ניתן להאכיל ולהשקות דרך הפה במידה הראויה חולה עם קיהיון הנוטה למות, המותב מנחה לספק מזון ונוזלים בדרך המתאימה למצב, לרבות השלמת נוזלים בעירוי, הזנה בזונדה או ב־PEG (עמ׳ 6, סעיף ח).": [
+        "u149"
+      ],
+      "copy|Hazzard describes US Medicare hospice eligibility as an expected prognosis less than 6 months on the usual disease course, certified by the attending physician and hospice medical director (p1046).": [
+        "u211"
+      ],
+      "copy|Services can include medications for the terminal illness, equipment, respite and bereavement support (pp1045–1047).": [
+        "u167"
+      ],
+      "copy|Current practice (not the book): CMS uses 6 months or less.": [
+        "u212"
+      ],
+      "copy|Initial certification requires the hospice medical director or hospice interdisciplinary-group physician and the patient’s attending physician if any — Medicare Benefit Policy Manual, ch 9, §20.1.": [
+        "u166"
+      ],
+      "copy|The chapter reports 17% survival to discharge and 7% discharge home among older inpatients undergoing CPR (p1053).": [
+        "u206"
       ]
     },
-    "maxId": 61
+    "maxId": 212,
+    "sequenceOffsets": [
+      [
+        213,
+        -151
+      ],
+      [
+        254,
+        -150
+      ],
+      [
+        299,
+        -149
+      ],
+      [
+        314,
+        -143
+      ],
+      [
+        349,
+        -142
+      ],
+      [
+        353,
+        0
+      ]
+    ]
   },
   "47s": {
     "entries": {
@@ -51898,9 +53422,31 @@
       ],
       "copy|English renderings of the 2026 questions and their post-appeal answers follow.": [
         "u102"
+      ],
+      "copy|Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ intraocular pressure, delirium, constipation (p712); patients with dementia must be followed for drug-induced delirium (p713).Current practice (not the book): offer an antimuscarinic or beta-3 agonist for OAB (Strong recommendation, Grade A); counsel on side effects and potential dementia/cognitive risk with antimuscarinics (Clinical Principles), using shared decision-making and patient preferences; when pharmacotherapy is indicated, consider a beta-3 agonist trial first, as typically preferred in the guideline discussion - AUA/SUFU 2024, statements 16-18 and discussion, p24-27": [
+        "u27"
+      ],
+      "copy|Mirabegron: Table 47-12 gives 25–50 mg once daily, with a maximum of 25 mg/day for CrCl 15–20 mL/min or reduced hepatic function (p712). Beta-3 agonists can elevate blood pressure; p714 advises against their use with uncontrolled hypertension.Current practice (not the book): US mirabegron labeling advises against use in severe uncontrolled hypertension, defined as systolic pressure ≥180 or diastolic pressure ≥110 mm Hg; monitor BP periodically — FDA prescribing information.": [
+        "u28"
+      ],
+      "copy|Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; Table 47-12 (p712) lists a history of gynecologic cancer as a contraindication and breast cancer as a relative contraindication.Current practice (not the book): cancer type and treatment matter. After inadequate relief with nonhormonal treatment, selected breast-cancer survivors may choose low-dose vaginal estrogen after a risk–benefit discussion. For patients taking an aromatase inhibitor, involve the oncologist in that decision. ACOG clinical consensus, 2021. See AGS Beers 2023 required-article card for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)": [
+        "u29"
+      ],
+      "copy|Hazzard technically defines constipation as fewer than three bowel movements per week; patients also use the term for difficult passage of hard stools or incomplete evacuation (p717). Common contributors to fecal incontinence include constipation/impaction, laxative use, and neurologic or colorectal disorders (p716). Relieving impaction can improve both urinary and fecal incontinence (p701).": [
+        "u38"
       ]
     },
-    "maxId": 170
+    "maxId": 305,
+    "sequenceOffsets": [
+      [
+        306,
+        -135
+      ],
+      [
+        441,
+        0
+      ]
+    ]
   },
   "52": {
     "entries": {
@@ -55696,9 +57242,33 @@
       ],
       "copy|Past-exam questions linked to this chapter (1):": [
         "u26"
+      ],
+      "copy|The chapter gives over 200 mL as an example of a large residual warranting immediate referral (p563), flags over 300 mL in Figure 38-5 (p559), and lists retention with a residual over 250–300 mL for prompt referral (p565).": [
+        "u100"
+      ],
+      "copy|Current practice (not the book): NICE advises immediate catheterization for acute urinary retention and catheterization for chronic retention with impaired renal function or hydronephrosis.": [
+        "u151"
       ]
     },
-    "maxId": 26
+    "maxId": 151,
+    "sequenceOffsets": [
+      [
+        152,
+        -125
+      ],
+      [
+        225,
+        -124
+      ],
+      [
+        227,
+        -123
+      ],
+      [
+        274,
+        0
+      ]
+    ]
   },
   "26": {
     "entries": {
@@ -59920,9 +61490,48 @@
       ],
       "copy|The chapter reports PHQ-9 above 10 with 88% sensitivity and 88% specificity; for dementia, it reports 93% sensitivity and 97% specificity at a Cornell score of at least 6 (p123). In the original Cornell instrument, the clinician rates symptoms using information from the patient and an informant. Alexopoulos et al., 1988.": [
         "u10"
+      ],
+      "copy|Levels 7–9. At 7, the person depends on others for personal care but can be relatively stable. At 8, complete dependence accompanies approaching the end of life, with little capacity to recover from even a minor illness. Level 9 describes an expected survival under six months in someone not otherwise living with severe frailty (Figure 8-2, p124). Terminal illness and extreme functional dependence answer different questions. Hazzard 8e, pp. 123–124.": [
+        "u42"
+      ],
+      "copy|Observe walking and chair rise. Timed Up and Go uses a 3-m walk; over 12 seconds warrants further evaluation in the prose; Table 8-3 reports a >15-second test cutpoint (p121).": [
+        "u7"
+      ],
+      "copy|The chapter reports PHQ-9 above 10 with 88% sensitivity and 88% specificity; the chapter says caregivers can complete the Cornell scale in dementia and reports 93% sensitivity and 97% specificity at a Cornell score of at least 6 (p123). Current practice (not the book): In the original Cornell instrument, the clinician rates symptoms using information from the patient and an informant. Alexopoulos et al., 1988.": [
+        "u10"
+      ],
+      "copy|Table 8-3 on the same page reports test performance using a different cutpoint, over 15 seconds.": [
+        "u197"
+      ],
+      "copy|128–131": [
+        "u198"
+      ],
+      "copy|Current practice (not the book): ASCO recommends geriatric assessment to identify vulnerabilities in older adults receiving systemic cancer therapy.": [
+        "u199"
+      ],
+      "copy|ASCO 2023 guideline.": [
+        "u120"
       ]
     },
-    "maxId": 33
+    "maxId": 199,
+    "sequenceOffsets": [
+      [
+        200,
+        -166
+      ],
+      [
+        208,
+        -165
+      ],
+      [
+        285,
+        -164
+      ],
+      [
+        361,
+        0
+      ]
+    ]
   },
   "26s": {
     "entries": {
@@ -60006,9 +61615,28 @@
       ],
       "copy|Six past questions link to this chapter through Israeli statutes and Ministry instructions, with no direct Hazzard citation.": [
         "u26"
+      ],
+      "copy|Implied consent comes from a patient’s behavior demonstrating willingness to undergo the intervention. Emergency treatment of an incapacitated patient without an available surrogate is a separate exception (pp364–365).": [
+        "u9"
+      ],
+      "copy|POLST documents medical orders for a seriously ill patient's current treatment preferences and travels with the patient across care settings; its legal operation depends on the applicable setting (p366–367).": [
+        "u15"
+      ],
+      "copy|On p365, implied consent is expressed by a patient’s actions, such as voluntarily submitting to a specific routine intervention.": [
+        "u176"
       ]
     },
-    "maxId": 26
+    "maxId": 176,
+    "sequenceOffsets": [
+      [
+        177,
+        -150
+      ],
+      [
+        326,
+        0
+      ]
+    ]
   },
   "79s": {
     "entries": {
@@ -60101,9 +61729,72 @@
       ],
       "copy|For ambulatory community-living older adults, p1223 summarizes the goal as 130 mm Hg. The 2017 guideline specifies below 130 if average systolic pressure is at least 130. Substantial comorbidity or limited life expectancy calls for individualized judgment.": [
         "u9"
+      ],
+      "copy|For ambulatory community-living older adults, p1223 summarizes the goal as 130 mm Hg. Pages 1220 and 1225, and the 2017 guideline, specify below 130 if average systolic pressure is at least 130. Substantial comorbidity or limited life expectancy calls for individualized judgment.": [
+        "u9"
+      ],
+      "copy|At 165/90 after months of lifestyle changes, a 75-year-old will usually need two agents from the outset, according to the chapter.": [
+        "u58"
+      ],
+      "copy|The prose on p1223 summarizes the goal as 130 mm Hg; pp1220 and 1225 specify below 130.": [
+        "u73"
+      ],
+      "copy|Progressive proximal weakness, bruising or broad purple striae can justify testing for hypercortisolism.": [
+        "u88"
+      ],
+      "copy|Current practice (not the book): Use plasma free or urinary fractionated metanephrines for suspected catecholamine excess.": [
+        "u177"
+      ],
+      "copy|Overnight dexamethasone suppression is one initial test for suspected hypercortisolism.": [
+        "u178"
+      ],
+      "copy|Monitor for hypotension, renal injury and electrolyte disturbance (pp1222–1223).": [
+        "u106"
+      ],
+      "copy|Current practice (not the book): Nursing-home residents and people with dementia, diabetes, prior stroke, standing systolic pressure below 110 or a life expectancy under three years were excluded.": [
+        "u107"
+      ],
+      "copy|A patient with advanced dependency and recurrent aspiration needs a discussion of prognosis, burdens and goals.": [
+        "u108"
+      ],
+      "copy|Hazzard reserves beta blockers for compelling indications, specifically secondary prevention after MI or in coronary artery disease.": [
+        "u179"
+      ],
+      "copy|Current practice (not the book): Long-term beta blockade for a prior MI may be reassessed after one year in patients without reduced ventricular function, angina, arrhythmia or uncontrolled hypertension.": [
+        "u180"
       ]
     },
-    "maxId": 28
+    "maxId": 180,
+    "sequenceOffsets": [
+      [
+        181,
+        -152
+      ],
+      [
+        210,
+        -151
+      ],
+      [
+        224,
+        -150
+      ],
+      [
+        237,
+        -148
+      ],
+      [
+        254,
+        -144
+      ],
+      [
+        264,
+        -142
+      ],
+      [
+        319,
+        0
+      ]
+    ]
   },
   "79": {
     "entries": {
@@ -61616,9 +63307,43 @@
       ],
       "copy|Clinical focus includes delirium, cognition, elder protection and safe discharge.": [
         "u85"
+      ],
+      "copy|Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (pp211–212).": [
+        "u49"
+      ],
+      "copy|To interpret sleepiness, determine whether it clears in less than 10 seconds after waking, as printed in the 4AT (Figure 15-2, p211).": [
+        "u195"
+      ],
+      "copy|Clinical CAM requires acute onset and fluctuating course (Ch 58 p880) and inattention plus disorganized thinking or altered consciousness.": [
+        "u199"
+      ],
+      "copy|Figure 15-3, p. 212; accompanying discussion p213.": [
+        "u219"
       ]
     },
-    "maxId": 166
+    "maxId": 278,
+    "sequenceOffsets": [
+      [
+        279,
+        -112
+      ],
+      [
+        307,
+        -111
+      ],
+      [
+        310,
+        -110
+      ],
+      [
+        329,
+        -108
+      ],
+      [
+        387,
+        0
+      ]
+    ]
   },
   "100": {
     "entries": {
@@ -65676,9 +67401,76 @@
       ],
       "copy|Past-exam questions linked to this chapter (3):": [
         "u26"
+      ],
+      "copy|Key Clinical Point 2 gives over 55% (p489): it describes the proportion of variation in the study population attributable to genetic differences, and cannot count how many individual cases are inherited.": [
+        "u40"
+      ],
+      "copy|Both B and D received credit in September 2024; a clinic screen alone cannot confirm the type or degree of loss (p493).": [
+        "u49"
+      ],
+      "copy|Current practice (not the book): Sudden unilateral hearing loss warrants urgent assessment.": [
+        "u48"
+      ],
+      "copy|Lin, NEJM 2024, pp1506–1507.": [
+        "u103"
+      ],
+      "copy|Table 34-2 places /sh/ in שלום (shalom) at 1000–2000 Hz, whereas /f/, /k/, /s/, /t/ and /th/ are 3000–8000 Hz (p494).": [
+        "u53"
+      ],
+      "copy|Hazzard pp499–500.": [
+        "u104"
+      ],
+      "copy|Current practice (not the book): Lin describes PTA4 generally at least 60 dB in one or both ears with insufficient functional benefit from hearing aids as a reason to consider implant referral.": [
+        "u105"
+      ],
+      "copy|NEJM, 2024, pp1509–1511.": [
+        "u68"
+      ],
+      "copy|The chapter describes observational data (p500).": [
+        "u81"
+      ],
+      "copy|Current practice (not the book): The later ACHIEVE trial found no difference in three-year cognitive change across its full cohort, with slower decline in a prespecified comparison of higher-risk participants.": [
+        "u82"
+      ],
+      "copy|Offer rehabilitation for communication and participation; the evidence does not promise prevention of dementia for each patient (ACHIEVE trial, 2023; Lin, NEJM 2024, p1511).": [
+        "u83"
       ]
     },
-    "maxId": 26
+    "maxId": 105,
+    "sequenceOffsets": [
+      [
+        106,
+        -79
+      ],
+      [
+        119,
+        -78
+      ],
+      [
+        126,
+        -76
+      ],
+      [
+        129,
+        -75
+      ],
+      [
+        140,
+        -74
+      ],
+      [
+        142,
+        -73
+      ],
+      [
+        154,
+        -70
+      ],
+      [
+        173,
+        0
+      ]
+    ]
   },
   "100s": {
     "entries": {
@@ -65765,9 +67557,87 @@
       ],
       "copy|Past-exam questions linked to this chapter (8):": [
         "u27"
+      ],
+      "copy|Steroids can both treat inflammatory disease and cause myopathy; distinguish drug toxicity from persistent inflammatory weakness (pp1589, 1594, 1597).": [
+        "u18"
+      ],
+      "copy|Hazzard names temporal artery biopsy as the diagnostic gold standard because clinical features lack specificity (p1604).": [
+        "u220"
+      ],
+      "copy|Current practice (not the book): The US ACR/Vasculitis Foundation guideline conditionally favors initial unilateral biopsy in its practice setting.": [
+        "u69"
+      ],
+      "copy|Current practice (not the book): The later classification system uses different evidence.": [
+        "u97"
+      ],
+      "copy|The PMR section describes patients aged 50 and older, with roughly 90% of cases after 60 and a female-to-male ratio of about two to one (p1600).": [
+        "u113"
+      ],
+      "copy|Table 100-3 likewise requires age ≥50 (p1602); the GCA prose describes patients older than 50 (p1603).": [
+        "u221"
+      ],
+      "copy|Persistent small-joint synovitis or erosions strengthen the case for elderly-onset rheumatoid arthritis. (pp1600–1601)": [
+        "u116"
+      ],
+      "copy|1590–1595)": [
+        "u150"
+      ],
+      "copy|These are not annual risks (p1598).": [
+        "u170"
+      ],
+      "copy|Current practice (not the book): The European Atherosclerosis Society consensus estimates rhabdomyolysis at about one per 100,000 treated patients per year.": [
+        "u171"
+      ],
+      "copy|Persistent weakness or high CK after withdrawal raises concern for anti-HMGCR-associated necrotizing myopathy.": [
+        "u173"
+      ],
+      "copy|Chronic intake can cause proximal weakness with normal CK.": [
+        "u184"
       ]
     },
-    "maxId": 27
+    "maxId": 221,
+    "sequenceOffsets": [
+      [
+        222,
+        -194
+      ],
+      [
+        263,
+        -193
+      ],
+      [
+        290,
+        -192
+      ],
+      [
+        305,
+        -191
+      ],
+      [
+        307,
+        -189
+      ],
+      [
+        339,
+        -188
+      ],
+      [
+        358,
+        -186
+      ],
+      [
+        359,
+        -184
+      ],
+      [
+        368,
+        -183
+      ],
+      [
+        403,
+        0
+      ]
+    ]
   },
   "30s": {
     "entries": {
@@ -65854,9 +67724,67 @@
       ],
       "copy|Two questions below cite passages in Chapter 30 that directly teach their answers.": [
         "u27"
+      ],
+      "copy|Energy and protein. Less lean mass and activity often lower energy needs more than micronutrient needs. Make each meal nutrient dense. The protein RDA discussed in the chapter is 0.8 g/kg/day. Some experts propose 1.0–1.25 g/kg/day for older adults. With acute illness, major surgery or injury the book discusses 1.5 g/kg/day or more when compatible with renal and hepatic function. Pair adequate nutrition with resistance training to rebuild strength. Energy and protein, pp. 414–415. Table 30-9 (p425) estimates 1.2–1.4 g/kg/day for injury or illness and 1.4–1.8 g/kg/day for severe stress or sepsis.": [
+        "u40"
+      ],
+      "copy|Weight loss of at least 5% of baseline weight over 6–12 months warrants investigation (pp406, 422; voluntary loss also warrants attention in frail older adults).": [
+        "u4"
+      ],
+      "copy|Acutely ill hospitalized patients or those recovering from major surgery/trauma generally warrant 1.5 g/kg/day or more, unless renal/hepatic disease necessitates restriction (p415). Table 30-9 (p425) estimates 1.2–1.4 g/kg/day for injury or illness and 1.4–1.8 g/kg/day for severe stress or sepsis.": [
+        "u9"
+      ],
+      "copy|Table 30-12, p. 431; monitoring discussion, p.": [
+        "u60"
+      ],
+      "copy|Starvation and cachexia, p.": [
+        "u209"
+      ],
+      "copy|424; Figure 30-8, p.": [
+        "u87"
+      ],
+      "copy|The June 2022 question credits levetiracetam as a possible cause of decreased appetite; it cites the earlier edition.": [
+        "u210"
+      ],
+      "copy|Table 30-2 (8e p410) lists medication classes, including drugs for seizures, among potential contributors to appetite suppression or altered smell.": [
+        "u211"
       ]
     },
-    "maxId": 27
+    "maxId": 211,
+    "sequenceOffsets": [
+      [
+        212,
+        -184
+      ],
+      [
+        224,
+        -183
+      ],
+      [
+        243,
+        -182
+      ],
+      [
+        255,
+        -181
+      ],
+      [
+        268,
+        -180
+      ],
+      [
+        271,
+        -178
+      ],
+      [
+        272,
+        -177
+      ],
+      [
+        386,
+        0
+      ]
+    ]
   },
   "97": {
     "entries": {
@@ -70082,9 +72010,53 @@
       ],
       "copy|Four past-exam questions are linked to this chapter.": [
         "u33"
+      ],
+      "copy|Current practice (not the book): Assess left ventricular function before trastuzumab and at intervals during therapy.": [
+        "u191"
+      ],
+      "copy|Current practice (not the book): Multiple births are generally associated with lower long-term risk, although risk can rise temporarily after childbirth.": [
+        "u192"
+      ],
+      "copy|The chapter suggests considering annual or biennial screening if estimated life expectancy is at least ten years and discussing the limited likely benefit when it is five to ten years (pp1397–1398, Table 89-1).": [
+        "u86"
+      ],
+      "copy|Current practice (not the book): The USPSTF found the evidence insufficient at age 75 and older both in the guidance available in 2020 and in its 2024 update.": [
+        "u87"
+      ],
+      "copy|Tamoxifen is the preferred adjuvant endocrine agent for men with hormone-sensitive disease (pp1405–1406).": [
+        "u181"
+      ],
+      "copy|Current practice (not the book): An aromatase inhibitor with gonadal suppression is a possible alternative when tamoxifen is contraindicated.": [
+        "u182"
       ]
     },
-    "maxId": 34
+    "maxId": 192,
+    "sequenceOffsets": [
+      [
+        193,
+        -158
+      ],
+      [
+        214,
+        -157
+      ],
+      [
+        229,
+        -156
+      ],
+      [
+        242,
+        -153
+      ],
+      [
+        334,
+        -150
+      ],
+      [
+        341,
+        0
+      ]
+    ]
   },
   "94s": {
     "entries": {
@@ -70171,9 +72143,46 @@
       ],
       "copy|Four past-exam questions are linked to this chapter.": [
         "u27"
+      ],
+      "copy|One creatinine during pneumonia does not show that the renal impairment is chronic (p1480).": [
+        "u49"
+      ],
+      "copy|Current practice (not the book): Review prior kidney function, address the infection and other reversible causes, and reassess the need for an ESA.": [
+        "u50"
+      ],
+      "copy|Transfusion and ESA treatment serve different time scales.": [
+        "u51"
+      ],
+      "copy|Current practice (not the book): In nondialysis CKD, consider symptoms, persistent anemia and the risks of transfusion and ESA treatment when deciding whether to initiate an ESA.": [
+        "u160"
+      ],
+      "copy|Current practice (not the book): For hospitalized patients with acute myocardial infarction, AABB conditionally suggests a more liberal transfusion strategy when hemoglobin is below 10 g/dL, with low-certainty evidence.": [
+        "u161"
       ]
     },
-    "maxId": 27
+    "maxId": 161,
+    "sequenceOffsets": [
+      [
+        162,
+        -134
+      ],
+      [
+        183,
+        -131
+      ],
+      [
+        189,
+        -130
+      ],
+      [
+        239,
+        -129
+      ],
+      [
+        289,
+        0
+      ]
+    ]
   },
   "78": {
     "entries": {
@@ -71735,16 +73744,135 @@
       ],
       "copy|Infections 35%, inflammatory disorders 28%, malignancy 19%, other causes (pulmonary emboli or drug fever) 5%, and no diagnosis 13% (Table 104-2, p1675).": [
         "u79"
+      ],
+      "copy|The chapter reports protein-energy malnutrition in 30–60% of hospitalized adults over 65 and reduced vaccine responses in outpatients with albumin 3.0–3.5 g/dL (p1668).Current practice (not the book): Inflammation can lower albumin. Serum albumin alone cannot diagnose or grade malnutrition. ASPEN position paper": [
+        "u5"
+      ],
+      "copy|Hazzard says that, almost universally, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671).Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. IDSA, recommendations 45–46.": [
+        "u7"
+      ],
+      "copy|Hazzard describes US Medicare Part D coverage for home OPAT and difficulty securing reimbursement for both antibiotics and the necessary equipment, sometimes influencing discharge placement (p1670).Current practice (not the book): Medicare Part B covers qualifying home infusion drugs, equipment and services. Actual coverage depends on the drug, equipment and benefit. Medicare, home infusion coverage.": [
+        "u11"
+      ],
+      "copy|Age alone should not be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1667; detail p1674)": [
+        "u17"
+      ],
+      "copy|C. difficile: Table 104-1 lists oral vancomycin first-line. In severe disease it pairs vancomycin with IV metronidazole. After recent CDI, prophylactic oral vancomycin during a subsequent antibiotic course reduced recurrence from 26% to 4% in the study the chapter cites (pp1672–1673, 1675).Current practice (not the book): IDSA/SHEA favors fidaxomicin when feasible for initial nonfulminant CDI, with oral vancomycin acceptable. AGA 2026 advises against giving oral vancomycin during systemic antibiotics solely to prevent CDI. SHEA/IDSA 2021 focused update, Table 1 · AGA, advice 12.": [
+        "u22"
+      ],
+      "copy|Autoimmune disease causes nearly one in four FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by GCA and polyarteritis nodosa; GCA alone accounts for nearly one in six FUOs ≥60 (KCP #5, p1667; detail p1675)": [
+        "u27"
+      ],
+      "copy|Table 104-2 breakdown of FUO causes: infections 35%, inflammatory disorders 28% (temporal arteritis/PMR 19%, polyarteritis nodosa 6%), malignancy 19%, other causes (pulmonary emboli, drug fever) 5%, no diagnosis 13% (p1675)": [
+        "u28"
+      ],
+      "copy|Several small studies estimate 18F-FDG uptake in the temporal, maxillary, or vertebral arteries occurs in 64–82% of GCA patients, with very high specificity. Hazzard reports that some authors inferred cranial-artery biopsy could be avoided after absent cranial uptake (p1676).Current practice (not the book): With persistent clinical suspicion after negative imaging, pursue additional imaging or biopsy. Strong suspicion, particularly with ischemic symptoms, warrants urgent treatment. EULAR, principles A and C.": [
+        "u29"
+      ],
+      "copy|The chapter highlights high-dose influenza, adjuvanted recombinant zoster, and mRNA SARS-CoV-2 vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1667; detail p1676).": [
+        "u30"
+      ],
+      "copy|The book’s first-line agent is oral vancomycin.": [
+        "u271"
+      ],
+      "copy|Table 104-1 describes fidaxomicin as equivalent for cure with fewer recurrences, with cost limiting its use.": [
+        "u272"
+      ],
+      "copy|Stopping cefuroxime alone leaves active CDI untreated (p1672).": [
+        "u114"
+      ],
+      "copy|Current practice (not the book): IDSA/SHEA conditionally favors fidaxomicin for initial nonfulminant CDI when feasible; oral vancomycin is an acceptable alternative.": [
+        "u273"
+      ],
+      "copy|Hazzard reports 4% recurrence with oral vancomycin prophylaxis versus 26% without when systemic antibiotics are needed after recent CDI (Table 104-1, p1672).": [
+        "u137"
+      ],
+      "copy|Page 1675 also describes benefit from prophylaxis.": [
+        "u274"
+      ],
+      "copy|Treat the pneumonia, minimize unnecessary antibiotic exposure and investigate recurrent diarrhea if it appears.": [
+        "u140"
+      ],
+      "copy|Current practice (not the book): ACG 2021 allowed selective use in high-risk patients.": [
+        "u275"
+      ],
+      "copy|AGA 2026 advises against using vancomycin during systemic antibiotic treatment solely to prevent CDI.": [
+        "u276"
+      ],
+      "copy|Long-term suppression in selected patients with multiple recurrences is a separate indication.": [
+        "u139"
+      ],
+      "copy|Hazzard describes a prolonged vancomycin taper after relapse, fecal microbiota transplantation for refractory relapse (80–90% success), and passive antibody administration before a subsequent antibiotic course in older adults with recurrent CDI (p1675).": [
+        "u277"
+      ],
+      "copy|Current practice (not the book): Bezlotoxumab, directed against toxin B, was given with treatment of active CDI to reduce recurrence in selected patients.": [
+        "u147"
+      ],
+      "copy|It was not stand-alone treatment or general prophylaxis before unrelated antibiotics.": [
+        "u148"
+      ],
+      "copy|EMA records EU withdrawal for commercial reasons on 20 October 2026.": [
+        "u149"
+      ],
+      "copy|Hazzard describes oral prophylaxis after recent CDI, reporting 26% to 4% recurrence (Table 104-1, p1672; p1675).": [
+        "u278"
+      ],
+      "copy|Current practice (not the book): AGA 2026 advises against vancomycin prescribed during systemic antibiotic administration solely to prevent CDI.": [
+        "u279"
+      ],
+      "copy|Current practice (not the book): A negative cranial PET alone cannot exclude GCA when clinical suspicion persists.": [
+        "u196"
+      ],
+      "copy|Current practice (not the book): For nursing-home residents, a single oral temperature above 37.8°C, repeated oral temperatures above 37.2°C, or a rise above usual temperature of more than 1.1°C can identify fever earlier.": [
+        "u45"
+      ],
+      "copy|Hazzard says that, almost universally, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided.": [
+        "u280"
+      ],
+      "copy|Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671).": [
+        "u281"
+      ],
+      "copy|Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible.": [
+        "u49"
+      ],
+      "copy|If the catheter is replaced, culture urine from the freshly placed catheter.": [
+        "u282"
+      ],
+      "copy|IDSA, recommendations 45–46.": [
+        "u283"
+      ],
+      "copy|A positive IGRA or skin test warrants assessment for active TB before diagnosing latent infection (Ch 104 p1675 for aging and TST sensitivity; Ch 105 pp1693–1694 for BCG, IGRA and assessing active disease).": [
+        "u70"
       ]
     },
-    "maxId": 270,
+    "maxId": 283,
     "sequenceOffsets": [
       [
-        271,
-        -176
+        284,
+        -189
       ],
       [
-        446,
+        301,
+        -184
+      ],
+      [
+        320,
+        -178
+      ],
+      [
+        322,
+        -171
+      ],
+      [
+        338,
+        -169
+      ],
+      [
+        365,
+        -168
+      ],
+      [
+        438,
         0
       ]
     ]
@@ -73631,9 +75759,46 @@
       ],
       "copy|Three past-exam questions link to this topic through the Israeli procedure, and June 2026 Q28 also cites Chapter 15, page 213.": [
         "u25"
+      ],
+      "copy|The prose says one or more positive responses raises suspicion (p722).": [
+        "u154"
+      ],
+      "copy|Figure 48-1 specifies a “yes” to any of questions 2 through 6 (p723).": [
+        "u125"
+      ],
+      "copy|724–725": [
+        "u155"
+      ],
+      "copy|Current practice (not the book): A representative payee manages designated Social Security benefits; the appointment alone does not cover other accounts.": [
+        "u156"
+      ],
+      "copy|SSA, representative payee duties and limits.": [
+        "u146"
       ]
     },
-    "maxId": 25
+    "maxId": 156,
+    "sequenceOffsets": [
+      [
+        157,
+        -131
+      ],
+      [
+        256,
+        -130
+      ],
+      [
+        273,
+        -128
+      ],
+      [
+        274,
+        -127
+      ],
+      [
+        281,
+        0
+      ]
+    ]
   },
   "89": {
     "entries": {
@@ -74930,20 +77095,121 @@
       ],
       "copy|The following subspecialty questions cite eighth-edition pages in this chapter.": [
         "u26"
+      ],
+      "copy|Antiplatelet therapy and statins address vascular risk. Hazzard describes improved walking distance with cilostazol and advises caution in heart failure (p1211). Current practice (not the book): Cilostazol is contraindicated in heart failure of any severity. ACC/AHA 2024, §5.7.": [
+        "u8"
+      ],
+      "copy|Hazzard defines AAA as enlargement of vessel diameter by more than 50%, generally over 3 cm in men (p1214). Current practice (not the book): Screening guidance commonly defines AAA as an aortic diameter of 3.0 cm or greater. USPSTF, 2019.": [
+        "u207"
+      ],
+      "copy|For a good surgical candidate the chapter gives diameter >5.5 cm in men or >5 cm in women or rapid growth >0.50 cm in six months as indications for intervention (p1215). Endovascular repair can have short-term benefits, with later outcomes dependent on anatomy, follow-up and reintervention (pp1215–1216).": [
+        "u205"
+      ],
+      "copy|The book calls it a phosphodiesterase II inhibitor [sic — the drug inhibits phosphodiesterase III] and advises caution in heart failure (p1211).": [
+        "u59"
+      ],
+      "copy|Current practice (not the book): Cilostazol is a PDE-III inhibitor and must not be given in heart failure of any severity.": [
+        "u208"
+      ],
+      "copy|The book recommends intervention in symptomatic patients with more than 70% stenosis (p1213).": [
+        "u209"
+      ],
+      "copy|Current practice (not the book): Endarterectomy can be appropriate in selected patients with symptomatic 50%–69% narrowing.": [
+        "u92"
+      ],
+      "copy|The recommendation is stronger at 70%–99%.": [
+        "u93"
+      ],
+      "copy|The chapter recommends intervention for >70% symptomatic or >80% asymptomatic stenosis in centers with excellent outcomes and patients with anticipated survival exceeding five years.": [
+        "u101"
+      ],
+      "copy|The book also lists significant coronary artery disease and congestive heart failure among reasons to consider carotid stenting.": [
+        "u109"
+      ],
+      "copy|Hazzard gives more than 80% as its asymptomatic threshold on p1213 and describes greater than 70%–80% on p1214.": [
+        "u210"
+      ],
+      "copy|Consider anticipated survival and procedural risk.": [
+        "u211"
+      ],
+      "copy|Current practice (not the book): CREST-2 subsequently studied high-grade stenosis without recent symptoms in two parallel trials at experienced centers.": [
+        "u116"
+      ],
+      "copy|The trials did not randomize patients between the two procedures.": [
+        "u120"
+      ],
+      "copy|Table 78-2 (p1216) presents weak SVS recommendations based on low-quality evidence and lists three years for 3.0–3.9 cm, one year for 4.0–4.9 cm and six months for 5.0–5.4 cm.": [
+        "u166"
+      ],
+      "copy|Current practice (not the book): ACC/AHA starts six-monthly surveillance at 5.0 cm in men and 4.5 cm in women.": [
+        "u212"
+      ],
+      "copy|Hazzard considers elective repair in good surgical candidates with diameters greater than 5.5 cm in men or 5 cm in women.": [
+        "u175"
+      ],
+      "copy|Expansion greater than 0.50 cm in six months can also indicate intervention.": [
+        "u176"
+      ],
+      "copy|Current practice (not the book): ACC/AHA recommends repair at ≥5.5 cm in men or ≥5.0 cm in women, or for attributable symptoms; growth ≥0.5 cm in six months may justify repair.": [
+        "u213"
       ]
     },
-    "maxId": 26,
+    "maxId": 213,
     "sequenceOffsets": [
       [
-        39,
-        166
+        214,
+        -187
       ],
       [
-        41,
-        -2
+        226,
+        -20
       ],
       [
-        207,
+        227,
+        -188
+      ],
+      [
+        247,
+        -187
+      ],
+      [
+        279,
+        -183
+      ],
+      [
+        284,
+        -182
+      ],
+      [
+        291,
+        -181
+      ],
+      [
+        295,
+        -180
+      ],
+      [
+        296,
+        -179
+      ],
+      [
+        299,
+        -177
+      ],
+      [
+        343,
+        -176
+      ],
+      [
+        344,
+        -175
+      ],
+      [
+        350,
+        -173
+      ],
+      [
+        378,
         0
       ]
     ]
@@ -75036,9 +77302,74 @@
       ],
       "copy|Eight past-exam questions are linked to this chapter.": [
         "u28"
+      ],
+      "copy|Current practice (not the book): Compare the patient's ratio with its age-appropriate lower limit and interpret it alongside symptoms and exposures before diagnosing airway disease.": [
+        "u49"
+      ],
+      "copy|Full inflation is a third condition: reduced inward recoil favors a higher TLC, while vertebral height loss and stiffer rib joints restrict expansion (Ch 80 pp1230–1231; Ch 81 p1237 on increased RV and FRC).": [
+        "u57"
+      ],
+      "copy|Current practice (not the book): The size and detection of the FRC change vary by population.": [
+        "u56"
+      ],
+      "copy|Chronic steroids have no established survival benefit in stable IPF (p1231).": [
+        "u86"
+      ],
+      "copy|Current practice (not the book): Oxygen corrects hypoxemia, but the mortality evidence for long-term oxygen in severely hypoxemic COPD cannot simply be applied to IPF.": [
+        "u88"
+      ],
+      "copy|The chapter lists gastrointestinal adverse effects, including nausea and diarrhea, with antifibrotic therapy (p1231).": [
+        "u135"
+      ],
+      "copy|Current practice (not the book): Diarrhea is especially common with nintedanib and nausea with pirfenidone.": [
+        "u90"
+      ],
+      "copy|A promise that side effects will be minor offers less information to the individual patient.": [
+        "u94"
+      ],
+      "copy|Current practice (not the book): United States drug update.": [
+        "u100"
       ]
     },
-    "maxId": 28
+    "maxId": 135,
+    "sequenceOffsets": [
+      [
+        136,
+        -107
+      ],
+      [
+        156,
+        -106
+      ],
+      [
+        162,
+        -104
+      ],
+      [
+        190,
+        -103
+      ],
+      [
+        191,
+        -102
+      ],
+      [
+        192,
+        -101
+      ],
+      [
+        195,
+        -100
+      ],
+      [
+        200,
+        -99
+      ],
+      [
+        234,
+        0
+      ]
+    ]
   },
   "3": {
     "entries": {
@@ -82388,7 +84719,7 @@
     }
   },
   "laws": {
-    "maxId": 125,
+    "maxId": 136,
     "entries": {
       "section|סיכום: חוק ישראלי ונתוני ברוקדייל": [
         "u1"
@@ -82769,6 +85100,60 @@
       ],
       "copy|The statistics and drills use Brookdale’s 65+ in Israel: Statistical Abstract 2024, no. 26, required by P005-2026, p3.": [
         "u125"
+      ],
+      "copy|סף הזמן (§8): רופא אחראי קובע שהחולה נוטה למות אם הבעיה חשוכת מרפא ותוחלת החיים גם עם טיפול אינה עולה על 6 חודשים. בשלב סופי נדרשים גם כשל של כמה מערכות חיוניות ותוחלת חיים של עד שבועיים גם עם טיפול.": [
+        "u126"
+      ],
+      "copy|כשרות ורצון (§§3, 5–7): מגיל 17 קיימת חזקת כשרות, בכפוף לתנאי החוק. הוצאה ממנה דורשת החלטה רפואית מנומקת ומתועדת של הרופא האחראי. ״אדם קרוב״ קשור לחולה בקשר משפחתי או רגשי, מסור לו ומכיר אותו היטב מקשר מתמשך. בהעדר הנחיות או החלטה לפי §5(ב), הרופא האחראי מתחשב בהצהרתו המפורשת לפי §5(ג).": [
+        "u127"
+      ],
+      "copy|טיפול רציף ומחזורי (§21): אסור להפסיק טיפול רציף כאשר ההפסקה עלולה להביא למות החולה. בתנאי החוק אפשר להימנע מחידוש טיפול מחזורי, או מחידוש טיפול רציף שנפסק שלא במכוון ובהתאם לחריג שבסעיף.": [
+        "u128"
+      ],
+      "copy|הנחיות וייפוי כוח לפי חוק החולה הנוטה למות (§§32, 34, 39): לפני מתן הנחיות נדרש מידע מרופא או מאחות מוסמכת. לאחר שנקבע שהאדם נוטה למות, את המידע נותן רופא מומחה. הנחיות וייפוי כוח תקפים עד 5 שנים וניתנים להארכה.": [
+        "u129"
+      ],
+      "copy|מקבל החלטות זמני (§14א): כאשר רופא מומחה קבע שמטופל בגיר אינו מסוגל להבין בענייניו הרפואיים וזקוק לטיפול דחוף (לא אשפוז פסיכיאטרי), ואין לו מיופה כוח/אפוטרופוס רפואי — עובד סוציאלי במוסד, באישור מנהל המוסד או מי שהסמיך, ובקופת חולים באישור הרופא המחוזי או מי שהסמיך, יכול לאשר אדם בגיר כמקבל החלטות זמני לפי סדר הקדימויות בסעיף 14ב ובכפוף לחריג בסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות למינוי אפוטרופוס לפי §35א לחוק הכשרות המשפטית, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6)), לתוקף 6 חודשים מיום שניתן.": [
+        "u10"
+      ],
+      "copy|סדר קדימויות למקבל החלטות זמני (§14ב): בן זוג ← ילד ← הורה ← אח. חריג: מי ששמו פורט בייפוי כוח מתמשך שטרם נכנס לתוקף / בהנחיות מקדימות למינוי אפוטרופוס לפי §35א לחוק הכשרות המשפטית — קודם (§14ב(ה)).": [
+        "u11"
+      ],
+      "copy|חריג דחוף בבית חולים (הוראת משרד הבריאות והאפוטרופוס הכללי, 7.8.2023, עמ׳ 1–2): כשנדרש טיפול רפואי דחוף והחולה אינו יכול להסכים מדעת, אפשר לקבל את הסכמת מיופה הכוח לפני אישור הכניסה לתוקף אם הדבר תואם את רצון החולה. מיופה הכוח מציג את המסמך ומתחייב לפעול בהקדם לקבלת האישור. כשנקבעה פעולה במשותף, נדרשת התחייבות והסכמה של כולם. מתעדים בתיק. האישור מתקבל בדרך כלל בתוך 3 ימי עסקים; אחרי 5 ימים מצרפים אותו או מתעדים את סיבת העיכוב.": [
+        "u130"
+      ],
+      "copy|ייפוי כוח רפואי בלבד (§32טו): אפשר לחתום בפני עורך דין, רופא מורשה, עובד סוציאלי, פסיכולוג או אח מוסמך. תמיכה בקבלת החלטות (§67ב): בית המשפט רשאי למנות תומך לבגיר המסוגל להחליט לעצמו בעזרת תמיכה. התומך מסייע לקבל מידע, להבין חלופות ולממש את ההחלטה. ההחלטה נשארת בידי הבגיר.": [
+        "u131"
+      ],
+      "copy|תוחלת חיים בגיל 65 (ממוצע 2018-2022): נשים 22.0 שנים, גברים 19.4 שנים; בגיל 75: נשים 13.7, גברים 12.1 (עמ׳ 132). תוחלת החיים בגיל 65 משמעה גיל צפוי ממוצע של 87.0 לנשים ושל 84.4 לגברים.": [
+        "u20"
+      ],
+      "copy|ביקורים במלר״ד ב־2022, לכל 1,000 נפש: 419.0 בגיל 65–74, 712.3 בגיל 75–84 ו־1,046.8 בגיל 85 ומעלה (פי 2.5 לעומת גיל 65–74). ברוקדייל 2024, לוח 2.21, עמ׳ 164.": [
+        "u132"
+      ],
+      "copy|מטופל סיעודי-מורכב (§7): סיעודי/תשוש נפש באופן קבוע + אחד מ-7 מצבים (לפי הקריאה המקובלת; הנוסח אינו אומר \"אחד או יותר\" במפורש), כולל: מטופל סיעודי בלתי יציב הזקוק לטיפול וניטור רפואי, פצע לחץ דרגה 3-4, צורך בעירוי/תרופות IV ממושך, בעיות נשימה (טרכאוסטומיה/BIPAP/עומס טיפולי), מטופל סיעודי הזקוק בקביעות לדיאליזה (פריטונאלית או המודיאליזה), מחלות ממאירות הדורשות טיפול אקטיבי, עירויי דם חוזרים למשך תקופה ממושכת, בתדירות העולה על פעם בחודש, לאחר הבירור האבחנתי (§7(6)–(7)).": [
+        "u26"
+      ],
+      "copy|תשוש (§4): ירידה בתפקוד המצריכה עזרה חלקית בפעולות היום־יום. תשוש נפש (§6, לצורך השמה במחלקה מתאימה): אדם מתהלך עם ירידה קוגניטיבית משמעותית, הזקוק לעזרה מלאה בפעולות היום־יום, להכוונה בניידות ולהשגחה בכל שעות היממה (נוהל 0.2.1, עמ׳ 2).": [
+        "u133"
+      ],
+      "copy|הנשמה ממושכת (§10): הנשמה דרך טרכאוסטומיה, העברה מבית חולים כללי אחרי שהות של חודש לפחות ושלושה ניסיונות גמילה כושלים לפחות. נכה נפש (§11): מוגבלות בתפקוד היום־יומי על רקע מחלת נפש (נוהל 0.2.1, עמ׳ 4).": [
+        "u134"
+      ],
+      "copy|קביעת סיווג בבית חולים כללי לקראת העברה (חוזר 26/2010 §§3–4, עמ׳ 2–3): גריאטר קובע סיעודי, תשוש נפש או סיעודי מורכב. לזכאות לקוד סיעודי או תשוש נפש מוסמך גריאטר מחוזי. לקביעת סיווג שיקומי מוסמך גריאטר או מומחה בשיקום. להנשמה כרונית מוסמך מומחה בטיפול נמרץ נשימתי או ריאות. היועץ מתעד את קביעתו והמלצתו.": [
+        "u135"
+      ],
+      "copy|שיקום גריאטרי (חוזר 4/2009 §§5, 7, 9, עמ׳ 3–7): בשבר, פגיעה נוירולוגית או ירידה תפקודית לאחר מחלה מעריכים צורך בשיקום. איסור דריכה זמני, הזנה בזונדה או בגסטרוסטום ופצע לחץ שאינו מפריע לשיקום אינם פוסלים אותו. ירידה קוגניטיבית מאפשרת שיקום כשיש שיתוף פעולה מספיק. לאחר שבץ או פגיעה נוירולוגית אחרת, FIM <75 או Barthel <16 הם שיקול לשיקום באשפוז לפי §7.6. משך השיקום באשפוז מותאם למטופל: לפחות 14 יום באורתופדי ו־25 יום בנוירולוגי; יש לנמק קיצור ברשומה ובמכתב השחרור.": [
+        "u136"
+      ],
+      "copy|מקבל החלטות זמני — אדם בגיר שמאושר בכתב על ידי עובד סוציאלי במוסד הרפואי (באישור מנהל המוסד או מי שהסמיך, ובקופת חולים באישור הרופא המחוזי או מי שהסמיך), לאחר שרופא מומחה קבע שהמטופל אינו מסוגל להבין וזקוק לטיפול דחוף, לפי סדר הקדימויות בסעיף 14ב ובכפוף לחריג בסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות למינוי אפוטרופוס לפי §35א לחוק הכשרות המשפטית, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6)).": [
+        "u93"
+      ],
+      "copy|מיופה הכוח (בתנאי שייפוי הכוח נכנס לתוקף) — הוא גובר על מקבל החלטות זמני; ההליך של §14א (כולל סדר הקדימויות המשפחתי) חל רק בהעדר מיופה כוח/אפוטרופוס רפואי. במקרה חריג ודחוף בבית חולים ניתן להסתמך על ייפוי הכוח לפני קבלת אישור הכניסה לתוקף, בתנאי הוראת 7.8.2023 המפורטים בסיכום.": [
+        "u99"
+      ],
+      "copy|\"סיעודי\" (§5) הוא מחלה כרונית/ליקוי קבוע הדורש מעקב רפואי מיומן לתקופה ממושכת, יחד עם ליקוי תפקודי (מרותק למיטה/עגלה, אי-שליטה בסוגרים, או מתהלך בקושי רק עקב פתולוגיה או סיבוכי מחלות). \"סיעודי-מורכב\" (§7) דורש בנוסף לכך גם עומס טיפולי-רפואי גבוה — לדוגמה פצע לחץ דרגה 3-4, מטופל סיעודי הזקוק בקביעות לדיאליזה, טרכאוסטומיה/BIPAP, או מחלה ממאירה הדורשת טיפול אקטיבי — המצריך צוות בעל מיומנות גבוהה יותר.": [
+        "u123"
       ]
     }
   },
@@ -83549,6 +85934,41 @@
       [
         33,
         1
+      ]
+    ]
+  },
+  "21s": {
+    "entries": {
+      "copy|Most respondents discussed how often to take an opioid with the prescriber. Fewer discussed side effects, when to reduce the dose, overdose or addiction. Ask about leftover pills and safe disposal (p289–290).": [
+        "u8"
+      ],
+      "copy|The poll asked about marijuana’s pain-relief benefits: 31% thought it definitely relieved pain and 38% thought it probably did. These are respondents’ beliefs (p290).": [
+        "u25"
+      ],
+      "copy|Invite sexual-health discussions. Ask about urinary incontinence: some women do not raise it because they consider it mild or a normal part of aging (p290–292).": [
+        "u10"
+      ],
+      "copy|Discuss expected health-care costs around retirement. In the poll, 13% of adults aged 50–64 went without medical care because of cost in the prior year. Some postponed retirement to retain employer-sponsored coverage (p294).": [
+        "u13"
+      ]
+    },
+    "maxId": 25,
+    "sequenceOffsets": [
+      [
+        26,
+        -25
+      ],
+      [
+        33,
+        -22
+      ],
+      [
+        35,
+        -21
+      ],
+      [
+        46,
+        0
       ]
     ]
   }

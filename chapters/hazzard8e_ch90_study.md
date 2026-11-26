@@ -14,13 +14,13 @@ Study summary of Chapter 90 - Prostate Cancer; the book and the full chapter are
 - Choose treatment using tumor risk, life expectancy, comorbidity, baseline quality of life and preferences (p1412).
 - Active surveillance monitors for progression with potential delayed curative treatment; watchful waiting anticipates palliative treatment if needed (p1414).
 - The chapter describes surveillance PSA every **3 months**, rectal examination every **6 months**, and repeat biopsy as warranted (p1414).
-- Radical prostatectomy is an option for confined disease, life expectancy over **10 years** and no surgical contraindication; radiation and brachytherapy are other local options (p1414).
+- Radical prostatectomy is an option for confined disease, life expectancy over **10 years** and no surgical contraindication; radiation and brachytherapy are other local options (p1414). Relative contraindications to **external-beam radiotherapy** include active collagen vascular disease, inflammatory bowel disease and microvascular damage from hypertension or diabetes.
 
 **Advanced disease & treatment**
-- Androgen-deprivation therapy is the initial hormonal approach for advanced disease or relapse after local treatment; timing for isolated biochemical recurrence is controversial (p1416).
+- Androgen-deprivation therapy is the initial hormonal approach for advanced disease or relapse after local treatment; timing for isolated biochemical recurrence is controversial (p1416). Medical castration can use an LHRH agonist, with an antiandrogen started beforehand in metastatic disease to prevent testosterone flare; orchiectomy is a surgical alternative.
 - ADT can reduce bone density by **2–3% per year** initially and increases fracture risk; assess bone health and consider indicated protective therapy (p1417).
 - Docetaxel has demonstrated survival benefit in castration-resistant disease. Mitoxantrone offers palliation but lacks demonstrated survival benefit (p1418).
-- Zoledronic acid can reduce skeletal complications from bone metastases; assess renal function and dental health because renal toxicity and osteonecrosis of the jaw are concerns (p1418).
+- Among the **bisphosphonates** tested in advanced prostate cancer, only zoledronic acid has demonstrated benefit for bone metastases; assess renal function and dental health because renal toxicity and osteonecrosis of the jaw are concerns (p1418).
 
 **Exam traps & urgent complications**
 - New back pain may precede neurologic signs of cord compression; a normal neurologic examination must not delay definitive imaging (p1416).

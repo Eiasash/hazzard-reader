@@ -12,9 +12,9 @@ Study summary of Chapter 12; the book and the full chapter are the reference.
 
 **Translate each element into care**
 - What Matters: elicit and document specific health-outcome goals and care preferences, including end-of-life care, and use them consistently across providers (p172-173).
-- Adapt conversations to preferred language, culture, hearing and literacy; do not assume family roles or personal values (p174).
+- For “What Matters” conversations, ask about preferred language and form of address, literacy, cultural beliefs and the desired role of family (Table 12-1, p174). The book lists hearing examinations separately among measures to maintain mobility (p176).
 - Medication: prescribe when needed, review affordability and understanding, and avoid interference with mentation, mobility or patient priorities (p174-175).
-- Consider deprescribing or dose adjustment when clinically appropriate; ask about withdrawal fears and other barriers, involving patients and caregivers (p174).
+- Physicians report limited time, poor awareness of medication harms, and concern about withdrawal or patient criticism as barriers to deprescribing. Review medicines with the team and involve the patient and caregiver (p174).
 - Computerized support and STOPP/START can identify prescribing problems, but assessment and communication remain team responsibilities (p174-175).
 - Mentation: prevent, identify and manage delirium, dementia and depression. Dementia is not normal aging (p175).
 - Person-centered dementia care recognizes the individual, accepts the person's reality, supports meaningful engagement and relationships, and reassesses care (p175).

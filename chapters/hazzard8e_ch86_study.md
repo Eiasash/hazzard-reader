@@ -17,11 +17,11 @@ Study summary of Chapter 86; the book and the full chapter are the reference.
 - Transplantation can suit selected older adults; age alone is not a contraindication (p1343).
 
 **Biliary disease**
-- Acute cholecystitis may lack fever or marked pain. Ultrasound is the initial investigation; ERCP is therapeutic for common-duct stones (p1345).
+- The key points say that older patients may lack fever, nausea, vomiting or severe abdominal pain (p1338). The diagnostic discussion also describes typical right-upper-quadrant or epigastric pain (p1345). Ultrasound is the initial investigation; ERCP is therapeutic for common-duct stones (p1345).
 - Incidental asymptomatic gallstones do not require treatment. Early laparoscopic surgery suits appropriate patients; drainage may suit very ill patients (p1346).
 
 **Pancreas**
-- Aging may dilate pancreatic ducts without pancreatic disease; malignancy becomes more frequent with age (p1348).
+- Table 86-7 describes fat, fibrosis and reduced pancreatic weight after the seventh decade, and steadily declining bicarbonate after the fourth decade (p1348). Pancreatic duct caliber can increase with age; frank exocrine deficiency is rare without underlying pathology.
 - Acute pancreatitis: pain with amylase/lipase typically **at least 3×** normal; lipase remains elevated longer (p1348).
 - Without gallstones or substantial alcohol exposure, consider underlying malignancy; check triglycerides early (p1348).
 - Chronic pancreatitis: pain, malabsorption and diabetes; enzyme replacement treats malabsorption, and normal enzymes do not exclude disease (p1349).

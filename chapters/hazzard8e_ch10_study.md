@@ -23,7 +23,7 @@ Study summary of Chapter 10; the book and the full chapter are the reference.
 - Not every incapacitated person requires guardianship; existing powers of attorney and supportive family arrangements may suffice (p153).
 - During potentially reversible incapacity, use an interim surrogate arrangement while clarifying recovery and prior wishes (p155).
 - Continue involving the person even when they cannot give full informed consent; seek assent and attend to expressed wishes (p155).
-- Surrogates use the person's known preferences through substituted judgment; when these cannot be established, use a best-interest approach (p155).
+- Surrogates use the person's known preferences through substituted judgment; when these cannot be established, use a best-interest approach (pp153, 155).
 
 ## Exam questions
 

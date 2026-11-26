@@ -11,7 +11,7 @@ Study summary of Chapter 54; the book and the full chapter are the reference.
 - Combine aerobic, resistance and balance work as appropriate rather than treating exercise as a single activity (p805-808, p814).
 
 **Conditions and evidence**
-- Exercise improves cardiovascular fitness and several risk factors; unstable cardiac conditions require attention before training (p808-809).
+- Exercise improves fitness and cardiovascular risk factors. Hazzard lists unstable angina, uncontrolled hypertension or arrhythmias, recent myocardial infarction and severe aortic stenosis among conditions in which exercise is generally contraindicated (p809).
 - During weight loss, exercise attenuates muscle and bone loss but may not eliminate it (p810).
 - Weight-bearing activity may help bone health; fracture-trial evidence has limitations, including potential publication bias (p810-811).
 - Physical activity is associated with lower cancer risk; exercise can benefit people living with cancer (p811).
@@ -22,9 +22,9 @@ Study summary of Chapter 54; the book and the full chapter are the reference.
 - The chapter cites a target of **150 min/week**; if chronic conditions prevent this, remain as active as abilities allow (p814).
 - Include balance exercise for people at risk of falls and judge effort relative to the person's fitness (p814).
 - Begin with tolerable activity and progress gradually; less intense activity maintained over time can still produce benefits (p814).
-- Musculoskeletal overuse injury is the commonest exercise-related problem; gradually increasing duration/intensity lowers injury risk (p813).
+- Overuse injuries of soft tissues are the most common exercise injuries. Increase duration and intensity gradually (p813–814).
 - In diabetes, watch for hypoglycemia as insulin sensitivity can remain increased for **24 to 48 hours** after vigorous activity; attend to feet and footwear (p813).
-- Asymptomatic adults do not need routine screening before starting activity; notifying the clinician allows medication adjustment and individualized support (p813-814).
+- Asymptomatic people planning **moderate-intensity** exercise do not need routine screening before starting. Notify the clinician so activity and medication advice can be individualized (p813–814).
 
 ## Exam questions
 
