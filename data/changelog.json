@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v323",
+      "date": "2026-11-26",
+      "changes": [
+        "Pen gestures mark directly, with numbered badges and a one-row pen bar showing the next number. Undo is in the bar and Bookmark is under More.",
+        "Reader text cannot be dragged out of the page. With the pen off you can still select and copy. Phone reading uses Read/Study in the header, and Chapter start and Chapter end are in Sections."
+      ]
+    },
+    {
       "version": "v322",
       "date": "2026-11-26",
       "changes": [
