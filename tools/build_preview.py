@@ -7,6 +7,8 @@ import shutil
 import tempfile
 from pathlib import Path
 
+from preview_search import build as build_search
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -14,7 +16,7 @@ def write_package(out):
     out.mkdir(parents=True, exist_ok=True)
     source_list = json.loads((ROOT / "asset-list.json").read_text(encoding="utf-8"))
     paths = {entry["url"].removeprefix("./") for entry in source_list["files"]}
-    paths.update({"js/reader-input.js", "data/mcq/all.json", "data/mark-unit-registry.json"})
+    paths.update({"js/reader-input.js", "data/mcq/all.json", "data/mark-unit-registry.json", "js/passage-worker.js"})
     for name in sorted(paths):
         target = out / name
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -44,11 +46,18 @@ def write_package(out):
                       f'<link rel="preload" as="script" href="{src}">' for src,module in scripts)
     html = html.replace("<head>", "<head>"+policy+preload,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
     (out / "index.html").write_text(html,encoding="utf-8",newline="\n")
+    corpus = ROOT / "data/search-index.json"
+    corpus_id = hashlib.sha256(corpus.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:16]
+    # Shards are optional network assets. The full corpus in the existing
+    # offline manifest provides the same search without thousands of requests.
+    bounds = build_search(corpus, out / "search" / corpus_id)
+    search = json.dumps({"corpus": corpus_id, "bounds": bounds}, separators=(",", ":"))
     bootstrap = """(async()=>{
  const host=location.hostname;
  if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev')){
    document.body.textContent='Open the preview on its separate host.';return;
  }
+ window.HazzardBookSearch=BOOK_SEARCH;
  for(const [src,module] of SCRIPTS){
    await new Promise((resolve,reject)=>{
      const script=document.createElement('script');if(module)script.type='module';
@@ -57,7 +66,7 @@ def write_package(out):
  }
 })().catch(e=>{document.body.textContent=e.message;});
 """
-    (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)), encoding="utf-8",newline="\n")
+    (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search), encoding="utf-8",newline="\n")
     paths.add("js/preview-start.js")
     # Keep the v324 account screen. Test-host credentials must never reach live RPCs.
     cloud = """window.HazzardCloud={signedIn:false,tick:false,paused:false,label:()=> 'Cloud sync is unavailable on this preview',

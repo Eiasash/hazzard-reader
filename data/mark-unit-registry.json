@@ -15372,6 +15372,9 @@
       ],
       "copy|What is the MIRE protocol, and how did sensation after treatment compare with placebo?": [
         "u56"
+      ],
+      "copy|CHAPTER 55 / HAZZARD": [
+        "u33"
       ]
     },
     "sequenceOffsets": [
@@ -15386,7 +15389,7 @@
     ]
   },
   "1s": {
-    "maxId": 24,
+    "maxId": 70,
     "entries": {
       "chapter-1-study-biology-of-aging-and-longevity|Chapter 1 Study: Biology of Aging and Longevity": [
         "u1"
@@ -15459,8 +15462,21 @@
       ],
       "copy|Past-paper questions linked to this chapter appear in the Exam questions tab.": [
         "u24"
+      ],
+      "copy|CHAPTER 1 / HAZZARD": [
+        "u19"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        71,
+        -46
+      ],
+      [
+        117,
+        0
+      ]
+    ]
   },
   "22s": {
     "maxId": 158,
@@ -15595,6 +15611,9 @@
       ],
       "copy|The 2023 AGS Beers Criteria reserve antipsychotics for dementia-related behavior when nonpharmacologic measures fail or cannot be used and the person threatens substantial harm to self or others — AGS Beers Criteria 2019, Table 2 and AGS Beers Criteria 2023, Table 2.": [
         "u158"
+      ],
+      "copy|CHAPTER 22 / HAZZARD": [
+        "u25"
       ]
     },
     "sequenceOffsets": [
@@ -16390,6 +16409,9 @@
       ],
       "copy|Of those with ARIA, approximately 80% were asymptomatic, so about 20% were symptomatic (p911).": [
         "u256"
+      ],
+      "copy|CHAPTER 59 / HAZZARD": [
+        "u58"
       ]
     }
   },
@@ -17195,6 +17217,9 @@
       ],
       "copy|Hazzard describes focused ultrasound as delivering a “radiofrequency ablation to the STN,” with other targets possible, and says it “does not involve anesthesia” (p949, printed wording). The lesion is irreversible and cannot be reprogrammed.Current practice (not the book): the 2018 US device indication specifies unilateral thalamotomy for medication-refractory tremor in tremor-dominant PD, using ultrasound thermal ablation of the ventral intermediate nucleus. Local anesthesia has been used for placement of the stereotactic frame — FDA device indication, 2018, prospective PD thalamotomy study, 2021.": [
         "u40"
+      ],
+      "copy|CHAPTER 61 / HAZZARD": [
+        "u66"
       ]
     }
   },
@@ -17596,6 +17621,9 @@
       ],
       "copy|CAM requires acute onset with a fluctuating course and impaired attention, accompanied by disorganized thinking or a change in level of consciousness.": [
         "u168"
+      ],
+      "copy|CHAPTER 58 / HAZZARD": [
+        "u62"
       ]
     },
     "sequenceOffsets": [
@@ -17855,6 +17883,9 @@
       ],
       "copy|Hazzard reports that low-dose rapamycin enhanced older adults’ antibody response to influenza vaccination by about 20%. The mouse experiments on p60 measured lifespan, a different outcome.Current practice (not the book): the human vaccine trial used the mTOR inhibitor everolimus (RAD001), a rapamycin derivative. It studied immune responses rather than human longevity — Mannick et al., 2014.": [
         "u14"
+      ],
+      "copy|CHAPTER 3 / HAZZARD": [
+        "u16"
       ]
     }
   },
@@ -19123,6 +19154,9 @@
       ],
       "copy|Glargine U-100 has no peak and lasts 20 to >24 hours. Glargine U-300 also has no peak and lasts 28–36 hours (Table 99-12, p1579). The chapter gives an initial glargine dose of 10 units once daily or 0.2 units/kg/day (p1581).": [
         "u51"
+      ],
+      "copy|CHAPTER 99 / HAZZARD": [
+        "u87"
       ]
     },
     "sequenceOffsets": [
@@ -20109,6 +20143,9 @@
       ],
       "copy|Hazzard says saline and water should seldom be used to cleanse a colonized pressure injury because they have no antiseptic activity. It lists 0.25% sodium hypochlorite and dilute povidone-iodine (10% povidone with 1% free iodine) among the antiseptic solutions (p692). Low-pressure lavage at 4–15 psi can lift fibrin and slough. For a clean wound, gentler cleansing and physiologic saline are appropriate (p693). Avoid cytotoxic antiseptics on clean, healing tissue (p697).Current practice (not the book): choose a pH-balanced, nonirritating, nontoxic cleanser for routine care. Tap water from a reliable source is acceptable — WHS pressure ulcer guideline, 2023 update, recommendations 3.5 and 4.1.": [
         "u39"
+      ],
+      "copy|CHAPTER 46 / HAZZARD": [
+        "u68"
       ]
     }
   },
@@ -20402,6 +20439,9 @@
       ],
       "copy|The AASM limits consideration of ASV for central apnea in HFrEF to experienced centers with shared decision-making and close follow-up.": [
         "u55"
+      ],
+      "copy|CHAPTER 44 / HAZZARD": [
+        "u45"
       ]
     },
     "sequenceOffsets": [
@@ -20792,6 +20832,9 @@
       ],
       "copy|On p670, positional spells under 1 minute suggest BPPV, spells lasting 20–120 minutes suggest TIA or migraine, and spells lasting over 120 minutes through 2 days suggest Ménière disease or recurrent vestibulopathy.": [
         "u246"
+      ],
+      "copy|CHAPTER 45 / HAZZARD": [
+        "u37"
       ]
     },
     "sequenceOffsets": [
@@ -21281,6 +21324,9 @@
       ],
       "copy|EWGSOP, Table 1 · EWGSOP2, Table 1 and Figure 1.": [
         "u178"
+      ],
+      "copy|CHAPTER 49 / HAZZARD": [
+        "u72"
       ]
     },
     "sequenceOffsets": [
@@ -21737,6 +21783,9 @@
       ],
       "copy|Current practice (not the book): Prodromal thigh or groin pain can precede a complete fracture, as noted in US bisphosphonate prescribing information.": [
         "u94"
+      ],
+      "copy|CHAPTER 51 / HAZZARD": [
+        "u48"
       ]
     },
     "sequenceOffsets": [
@@ -22073,6 +22122,9 @@
       ],
       "copy|Current practice (not the book): EULAR cites a customary limit of 3–4 injections in the same joint per year, with limited evidence for a universal safe count.": [
         "u62"
+      ],
+      "copy|CHAPTER 52 / HAZZARD": [
+        "u31"
       ]
     },
     "sequenceOffsets": [
@@ -22364,6 +22416,9 @@
       ],
       "copy|, such as PT and OT (p800).": [
         "u206"
+      ],
+      "copy|CHAPTER 53 / HAZZARD": [
+        "u29"
       ]
     },
     "sequenceOffsets": [
@@ -22398,7 +22453,7 @@
     ]
   },
   "57s": {
-    "maxId": 79,
+    "maxId": 106,
     "entries": {
       "chapter-57-study-cognitive-changes-in-normal-and-pathologic-aging|Chapter 57 Study: Cognitive Changes in Normal and Pathologic Aging": [
         "u1"
@@ -22626,7 +22681,10 @@
         "u76",
         "u77",
         "u78",
-        "u79"
+        "u79",
+        "u104",
+        "u105",
+        "u106"
       ],
       "normal-aging-what-declines-vs-what-39-s-preserved|Normal aging — what declines vs what's preserved": [
         "u42"
@@ -22654,8 +22712,21 @@
       ],
       "other-reversible-less-common-dementias|Other reversible/less common dementias": [
         "u50"
+      ],
+      "copy|CHAPTER 57 / HAZZARD": [
+        "u40"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        107,
+        -27
+      ],
+      [
+        131,
+        0
+      ]
+    ]
   },
   "63s": {
     "maxId": 113,
@@ -22994,6 +23065,9 @@
       ],
       "copy|There, DLB includes dementia preceding or occurring within one year of parkinsonism, and PDD describes dementia after a year of established motor PD.": [
         "u86"
+      ],
+      "copy|CHAPTER 63 / HAZZARD": [
+        "u82"
       ]
     },
     "sequenceOffsets": [
@@ -23342,6 +23416,9 @@
       ],
       "copy|For symptoms despite a long taper, the chapter suggests considering one dose of fluoxetine 20 mg (p1016).": [
         "u257"
+      ],
+      "copy|CHAPTER 65 / HAZZARD": [
+        "u37"
       ]
     },
     "sequenceOffsets": [
@@ -24371,6 +24448,9 @@
       ],
       "copy|Current practice note.": [
         "u322"
+      ],
+      "copy|CHAPTER 68 / HAZZARD": [
+        "u49"
       ]
     }
   },
@@ -24869,6 +24949,9 @@
       ],
       "copy|Current practice (not the book): ACC/AHA considers VKA to a target INR of 2.5 for 3–6 months reasonable after selected surgical bioprosthetic aortic or mitral replacement — ACC/AHA 2020.": [
         "u290"
+      ],
+      "copy|CHAPTER 75 / HAZZARD": [
+        "u61"
       ]
     },
     "sequenceOffsets": [
@@ -25727,6 +25810,9 @@
       ],
       "copy|The spironolactone dose is 12.5–50 mg once daily (p1181).": [
         "u97"
+      ],
+      "copy|CHAPTER 76 / HAZZARD": [
+        "u72"
       ]
     },
     "sequenceOffsets": [
@@ -26129,6 +26215,9 @@
       ],
       "copy|A separate indication after MI is NSVT with EF ≤40% and inducible sustained monomorphic VT on electrophysiologic study (p1206).": [
         "u265"
+      ],
+      "copy|CHAPTER 77 / HAZZARD": [
+        "u36"
       ]
     },
     "sequenceOffsets": [
@@ -26636,6 +26725,9 @@
       ],
       "copy|Current practice (not the book): In NETT, FEV₁ at most 20% predicted plus either homogeneous emphysema or DLCO at most 20% predicted identified patients at high surgical risk.": [
         "u106"
+      ],
+      "copy|CHAPTER 81 / HAZZARD": [
+        "u67"
       ]
     },
     "sequenceOffsets": [
@@ -27480,6 +27572,9 @@
       ],
       "copy|Current practice (not the book): For stable primary hypothyroidism with known coronary artery disease, start oral levothyroxine at 12.5–25 μg daily and titrate gradually according to cardiac symptoms and TSH (ATA section 4b).": [
         "u251"
+      ],
+      "copy|CHAPTER 98 / HAZZARD": [
+        "u47"
       ]
     }
   },
@@ -27607,6 +27702,9 @@
       ],
       "copy|Hazzard reports no significant reduction in fractures (n = 5,451) or serious fall injuries (n = 9,803) in two primary-care trials (p641). [sic — the primary reports give the reverse enrollment figures: PreFIT, 9,803 participants (fractures); STRIDE, 5,451 (serious fall injuries).] Direct delivery and uptake of the intervention may matter when implementing prevention through existing services. PreFIT · STRIDE.": [
         "u38"
+      ],
+      "copy|CHAPTER 43 / HAZZARD": [
+        "u39"
       ]
     },
     "maxId": 125,
@@ -30263,6 +30361,9 @@
       ],
       "copy|Hazzard describes ferritin <500 ng/mL or transferrin saturation <30% under its historical “functional iron deficiency” wording (p1294).Current practice (not the book): for anemic patients receiving hemodialysis, KDIGO 2026 recommendation 2.1 suggests starting iron when both ferritin is ≤500 ng/mL and transferrin saturation is ≤30%.": [
         "u59"
+      ],
+      "copy|CHAPTER 83 / HAZZARD": [
+        "u76"
       ]
     },
     "maxId": 270,
@@ -30866,6 +30967,9 @@
       ],
       "copy|Routine fluoxetine for motor recovery has not improved functional outcome and increases fracture risk — AHA/ASA acute ischemic stroke guideline, 2026, Rehabilitation.": [
         "u159"
+      ],
+      "copy|CHAPTER 62 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 179
@@ -31336,6 +31440,9 @@
       ],
       "copy|Current practice (not the book): most warfarin-treated patients do not need perioperative bridging; consider it for selected patients with high thrombotic risk — AHA/ACC 2024, §7.6.": [
         "u219"
+      ],
+      "copy|CHAPTER 27 / HAZZARD": [
+        "u76"
       ]
     },
     "maxId": 251,
@@ -31534,6 +31641,9 @@
       ],
       "copy|Table 42-3 (p621) catalogs further named frailty instruments beyond FPP/FI/CFS/EFS — Gill Frailty Measure, Brief Frailty Instrument, Vulnerable Elders Survey (VES-13), FRAIL Scale (p621–622) Table 42-3 also spells out the original CFS’s seven categories (p621): 1 = very fit; 2 = well (no active disease); 3 = well, with treated comorbid disease; 4 = apparently vulnerable (not frankly dependent, \"slowed up\"); 5 = mildly frail (IADL help only); 6 = moderately frail (help with IADLs + ADLs); 7 = severely frail (ADL-dependent) or terminally ill. The current nine-point CFS scores terminal illness as 9. VES-13: frail if score ≥3 (range 0–10). FRAIL Scale: fatigue, resistance, ambulation, more than 5 illnesses, and more than 5% weight loss. Score 0 = no frailty, 1–2 = intermediate, ≥3 = frailty (Table 42-3, p622).Current practice (not the book): the validation study’s Methods scored 5 or more of 11 illnesses and at least 5% weight loss over 12 months. Its appendix uses >5% for weight loss. Morley et al., 2012, Methods and appendix.": [
         "u9"
+      ],
+      "copy|CHAPTER 42 / HAZZARD": [
+        "u28"
       ]
     },
     "maxId": 203,
@@ -33862,6 +33972,9 @@
       ],
       "copy|Participants without Medicaid can face premiums.": [
         "u102"
+      ],
+      "copy|CHAPTER 17 / HAZZARD": [
+        "u19"
       ]
     },
     "maxId": 140,
@@ -33973,6 +34086,9 @@
       ],
       "copy|ייפוי כוח מתמשך בעניינים רפואיים בלבד יכול להיחתם בפני עורך דין, רופא מורשה, עובד סוציאלי, פסיכולוג רשום או אח או אחות מוסמכים (חוק הכשרות המשפטית והאפוטרופסות, סעיפים 32טו ו־32יט).": [
         "u159"
+      ],
+      "copy|CHAPTER 7 / HAZZARD": [
+        "u19"
       ]
     },
     "maxId": 159,
@@ -37872,6 +37988,9 @@
       ],
       "copy|The estimated at least 2.5 years to prevent one major event per 100 treated came from trials in adults aged 50–75.": [
         "u132"
+      ],
+      "copy|CHAPTER 74 / HAZZARD": [
+        "u24"
       ]
     },
     "maxId": 183,
@@ -44388,6 +44507,9 @@
       ],
       "copy|These absolute differences apply to their respective trial populations.": [
         "u174"
+      ],
+      "copy|CHAPTER 88 / HAZZARD": [
+        "u44"
       ]
     },
     "maxId": 194,
@@ -46007,6 +46129,9 @@
       ],
       "copy|Reglan prescribing information, Boxed Warning.": [
         "u213"
+      ],
+      "copy|CHAPTER 87 / HAZZARD": [
+        "u52"
       ]
     },
     "maxId": 213,
@@ -46267,6 +46392,9 @@
       ],
       "copy|Fine-needle aspiration may suggest lymphoma but is not adequate for identifying lymphoma subtype (p1494).": [
         "u179"
+      ],
+      "copy|CHAPTER 95 / HAZZARD": [
+        "u29"
       ]
     },
     "maxId": 235,
@@ -48021,6 +48149,9 @@
       ],
       "copy|Endocrine Society, recommendation 2.2.": [
         "u132"
+      ],
+      "copy|CHAPTER 37 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 170,
@@ -48165,6 +48296,9 @@
       ],
       "copy|Orthostasis and falls can occur soon after starting blood pressure treatment.": [
         "u80"
+      ],
+      "copy|CHAPTER 11 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 164,
@@ -48287,9 +48421,22 @@
       ],
       "copy|Question citing Table 31-5": [
         "u31"
+      ],
+      "copy|CHAPTER 31 / HAZZARD": [
+        "u22"
       ]
     },
-    "maxId": 32
+    "maxId": 147,
+    "sequenceOffsets": [
+      [
+        148,
+        -115
+      ],
+      [
+        263,
+        0
+      ]
+    ]
   },
   "31": {
     "entries": {
@@ -52673,6 +52820,9 @@
       ],
       "copy|Page 1105 addresses advance directives about feeding in advanced dementia.": [
         "u190"
+      ],
+      "copy|CHAPTER 72 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 190,
@@ -52897,6 +53047,9 @@
       ],
       "copy|The chapter reports 17% survival to discharge and 7% discharge home among older inpatients undergoing CPR (p1053).": [
         "u206"
+      ],
+      "copy|CHAPTER 67 / HAZZARD": [
+        "u26"
       ]
     },
     "maxId": 212,
@@ -53434,6 +53587,9 @@
       ],
       "copy|Hazzard technically defines constipation as fewer than three bowel movements per week; patients also use the term for difficult passage of hard stools or incomplete evacuation (p717). Common contributors to fecal incontinence include constipation/impaction, laxative use, and neurologic or colorectal disorders (p716). Relieving impaction can improve both urinary and fecal incontinence (p701).": [
         "u38"
+      ],
+      "copy|CHAPTER 47 / HAZZARD": [
+        "u62"
       ]
     },
     "maxId": 305,
@@ -57248,6 +57404,9 @@
       ],
       "copy|Current practice (not the book): NICE advises immediate catheterization for acute urinary retention and catheterization for chronic retention with impaired renal function or hydronephrosis.": [
         "u151"
+      ],
+      "copy|CHAPTER 38 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 151,
@@ -58867,6 +59026,9 @@
       ],
       "copy|Current practice note.": [
         "u337"
+      ],
+      "copy|CHAPTER 60 / HAZZARD": [
+        "u92"
       ]
     },
     "maxId": 337,
@@ -61511,6 +61673,9 @@
       ],
       "copy|ASCO 2023 guideline.": [
         "u120"
+      ],
+      "copy|CHAPTER 8 / HAZZARD": [
+        "u23"
       ]
     },
     "maxId": 199,
@@ -61624,6 +61789,9 @@
       ],
       "copy|On p365, implied consent is expressed by a patient’s actions, such as voluntarily submitting to a specific routine intervention.": [
         "u176"
+      ],
+      "copy|CHAPTER 26 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 176,
@@ -61762,6 +61930,9 @@
       ],
       "copy|Current practice (not the book): Long-term beta blockade for a prior MI may be reassessed after one year in patients without reduced ventricular function, angina, arrhythmia or uncontrolled hypertension.": [
         "u180"
+      ],
+      "copy|CHAPTER 79 / HAZZARD": [
+        "u21"
       ]
     },
     "maxId": 180,
@@ -63319,6 +63490,9 @@
       ],
       "copy|Figure 15-3, p. 212; accompanying discussion p213.": [
         "u219"
+      ],
+      "copy|CHAPTER 15 / HAZZARD": [
+        "u81"
       ]
     },
     "maxId": 278,
@@ -65745,6 +65919,9 @@
       ],
       "copy|Page 1539 gives a separate IOM deficiency threshold of <12 ng/mL and an AGS sufficiency target of >30 ng/mL for high-risk older patients.": [
         "u294"
+      ],
+      "copy|CHAPTER 97 / HAZZARD": [
+        "u42"
       ]
     },
     "maxId": 294,
@@ -67434,6 +67611,9 @@
       ],
       "copy|Offer rehabilitation for communication and participation; the evidence does not promise prevention of dementia for each patient (ACHIEVE trial, 2023; Lin, NEJM 2024, p1511).": [
         "u83"
+      ],
+      "copy|CHAPTER 34 / HAZZARD": [
+        "u19"
       ]
     },
     "maxId": 105,
@@ -67593,6 +67773,9 @@
       ],
       "copy|Chronic intake can cause proximal weakness with normal CK.": [
         "u184"
+      ],
+      "copy|CHAPTER 100 / HAZZARD": [
+        "u21"
       ]
     },
     "maxId": 221,
@@ -67748,6 +67931,9 @@
       ],
       "copy|Table 30-2 (8e p410) lists medication classes, including drugs for seizures, among potential contributors to appetite suppression or altered smell.": [
         "u211"
+      ],
+      "copy|CHAPTER 30 / HAZZARD": [
+        "u21"
       ]
     },
     "maxId": 211,
@@ -72028,6 +72214,9 @@
       ],
       "copy|Current practice (not the book): An aromatase inhibitor with gonadal suppression is a possible alternative when tamoxifen is contraindicated.": [
         "u182"
+      ],
+      "copy|CHAPTER 89 / HAZZARD": [
+        "u24"
       ]
     },
     "maxId": 192,
@@ -72158,6 +72347,9 @@
       ],
       "copy|Current practice (not the book): For hospitalized patients with acute myocardial infarction, AABB conditionally suggests a more liberal transfusion strategy when hemoglobin is below 10 g/dL, with low-certainty evidence.": [
         "u161"
+      ],
+      "copy|CHAPTER 94 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 161,
@@ -73843,6 +74035,9 @@
       ],
       "copy|A positive IGRA or skin test warrants assessment for active TB before diagnosing latent infection (Ch 104 p1675 for aging and TST sensitivity; Ch 105 pp1693–1694 for BCG, IGRA and assessing active disease).": [
         "u70"
+      ],
+      "copy|CHAPTER 104 / HAZZARD": [
+        "u34"
       ]
     },
     "maxId": 283,
@@ -75774,6 +75969,9 @@
       ],
       "copy|SSA, representative payee duties and limits.": [
         "u146"
+      ],
+      "copy|CHAPTER 48 / HAZZARD": [
+        "u19"
       ]
     },
     "maxId": 156,
@@ -77152,6 +77350,9 @@
       ],
       "copy|Current practice (not the book): ACC/AHA recommends repair at ≥5.5 cm in men or ≥5.0 cm in women, or for attributable symptoms; growth ≥0.5 cm in six months may justify repair.": [
         "u213"
+      ],
+      "copy|CHAPTER 78 / HAZZARD": [
+        "u20"
       ]
     },
     "maxId": 213,
@@ -77329,6 +77530,9 @@
       ],
       "copy|Current practice (not the book): United States drug update.": [
         "u100"
+      ],
+      "copy|CHAPTER 80 / HAZZARD": [
+        "u22"
       ]
     },
     "maxId": 135,
@@ -83315,6 +83519,9 @@
       ],
       "copy|Trimethoprim/sulfamethoxazole with spironolactone is a highlighted combination. Adrenal insufficiency can present with recurrent volume depletion/AKI, variable hyponatremia/hyperkalemia, and fatigue (p1271).": [
         "u110"
+      ],
+      "copy|CHAPTER 82 / HAZZARD": [
+        "u61"
       ]
     }
   },
@@ -83654,6 +83861,9 @@
       ],
       "copy|Current practice (not the book): the US supplemental approval was issued in December 2020 — FDA approval letter, 2020.": [
         "u105"
+      ],
+      "copy|CHAPTER 101 / HAZZARD": [
+        "u42"
       ]
     },
     "sequenceOffsets": [
@@ -83668,7 +83878,7 @@
     ]
   },
   "102s": {
-    "maxId": 74,
+    "maxId": 76,
     "entries": {
       "chapter-102-study-back-pain-and-spinal-stenosis|Chapter 102 Study: Back Pain and Spinal Stenosis": [
         "u1"
@@ -83877,8 +84087,21 @@
         "u72",
         "u73",
         "u74"
+      ],
+      "copy|CHAPTER 102 / HAZZARD": [
+        "u41"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        77,
+        -2
+      ],
+      [
+        79,
+        0
+      ]
+    ]
   },
   "105s": {
     "maxId": 109,
@@ -84181,6 +84404,9 @@
       ],
       "copy|Hazzard usually treats latent TB with 9 months of isoniazid unless resistance is suspected. 4 months of rifampin is the alternative for isoniazid resistance or intolerance, and 12 weeks of isoniazid plus rifapentine was also effective (p1694).Current practice (not the book): when suitable, short rifamycin-based courses are preferred, including 3 months of weekly isoniazid plus rifapentine or 4 months of daily rifampin. Daily isoniazid for 6 or 9 months is an alternative — NTCA/CDC guideline, 2020.": [
         "u46"
+      ],
+      "copy|CHAPTER 105 / HAZZARD": [
+        "u53"
       ]
     },
     "sequenceOffsets": [
@@ -84195,7 +84421,7 @@
     ]
   },
   "106s": {
-    "maxId": 77,
+    "maxId": 92,
     "entries": {
       "chapter-106-study-urinary-tract-infections|Chapter 106 Study: Urinary Tract Infections": [
         "u1"
@@ -84424,11 +84650,24 @@
       ],
       "copy|2025-Jun Q12": [
         "u25"
+      ],
+      "copy|CHAPTER 106 / HAZZARD": [
+        "u28"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        93,
+        -15
+      ],
+      [
+        108,
+        0
+      ]
+    ]
   },
   "9s": {
-    "maxId": 34,
+    "maxId": 44,
     "entries": {
       "chapter-9-study-mental-status-and-neurologic-examination|Chapter 9 Study: Mental Status and Neurologic Examination": [
         "u1"
@@ -84527,11 +84766,24 @@
       ],
       "copy|Past-exam questions linked to this chapter (3):": [
         "u33"
+      ],
+      "copy|CHAPTER 9 / HAZZARD": [
+        "u24"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        45,
+        -10
+      ],
+      [
+        55,
+        0
+      ]
+    ]
   },
   "23s": {
-    "maxId": 24,
+    "maxId": 27,
     "entries": {
       "chapter-23-study-substance-use-and-disorders|Chapter 23 Study: Substance Use and Disorders": [
         "u1"
@@ -84604,11 +84856,24 @@
       ],
       "copy|No past-exam questions are currently linked to this chapter.": [
         "u24"
+      ],
+      "copy|CHAPTER 23 / HAZZARD": [
+        "u19"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        28,
+        -3
+      ],
+      [
+        31,
+        0
+      ]
+    ]
   },
   "96s": {
-    "maxId": 38,
+    "maxId": 52,
     "entries": {
       "chapter-96-study-coagulation-disorders|Chapter 96 Study: Coagulation Disorders": [
         "u1"
@@ -84715,8 +84980,21 @@
       ],
       "copy|Past-exam questions linked to this chapter (3):": [
         "u36"
+      ],
+      "copy|CHAPTER 96 / HAZZARD": [
+        "u26"
       ]
-    }
+    },
+    "sequenceOffsets": [
+      [
+        53,
+        -14
+      ],
+      [
+        67,
+        0
+      ]
+    ]
   },
   "laws": {
     "maxId": 136,

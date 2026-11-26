@@ -2,7 +2,7 @@
 .drug-index h1{font-size:calc(25px * var(--fs,1));margin-bottom:12px}
 .drug-index label,.drug-index input,.drug-index select,.drug-index button,.drug-index p,.drug-index li{font-family:var(--ui);font-size:calc(13px * var(--fs,1))}
 .drug-index label{display:block;font-weight:600;margin:10px 0 5px}
-.drug-index input,.drug-index select{box-sizing:border-box;min-height:44px;max-width:100%;background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:8px 10px}
+.drug-index input,.drug-index select{box-sizing:border-box;min-height:44px;max-width:100%;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:8px 10px}
 .drug-index input{width:100%}
 .drug-filters{display:flex;align-items:center;gap:10px;margin-top:8px}
 .drug-filters label{margin:0}
