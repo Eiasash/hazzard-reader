@@ -347,7 +347,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #bookmark{flex:1;text-align:left}
 #bookmark[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
 
-.mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--answer-mark-bar-height,49px))}
+.mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height))}
 #savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 calc(13px * var(--fs,1)) var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
 #reader{padding-right:max(44px,var(--gutter))}
 [data-pane="contents"] .rows button{padding:10px 0;min-height:44px}
@@ -382,8 +382,8 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .launch-tiles .tile-arrow{display:none}
 .home-priorities{display:grid;align-items:start;gap:6px}
 .home-priorities>*{min-inline-size:0}
-#homeReview{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:4px 10px;background:var(--accent-soft);border-inline-start:3px solid var(--accent);color:var(--ink);text-decoration:none;font:600 calc(13px * var(--fs,1))/1.25 var(--ui)}
-#homeReviewCount{color:var(--accent);text-align:end}
+:is(#homeReview,#officialDue){display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:4px 10px;background:var(--accent-soft);border-inline-start:3px solid var(--accent);color:var(--ink);text-decoration:none;font:600 calc(13px * var(--fs,1))/1.25 var(--ui)}
+:is(#homeReviewCount,#officialCount){color:var(--accent);text-align:end}
 .home-weak,.home-coverage,.home-priorities .resume-card{padding:6px 10px}
 .home-weak h2,.home-coverage h2,.home-priorities .resume-card h2{font-size:calc(15px * var(--fs,1));margin:0 0 2px}
 .home-weak .meta,.home-coverage .meta,.home-priorities .resume-card .meta{font:400 calc(11px * var(--fs,1))/1.4 var(--ui);margin:2px 0}

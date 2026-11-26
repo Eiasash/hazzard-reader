@@ -60,7 +60,15 @@ def write_package(out):
  start(){
    const controls=document.getElementById('cloudControls');
    document.getElementById('cloudStatus').textContent=this.label();
-   controls.querySelectorAll('button,input').forEach(control=>control.disabled=true);
+   controls.querySelectorAll('input,button:not(#cloudShowLogin):not(#cloudShowRegister)').forEach(control=>control.disabled=true);
+   const show=register=>{
+     document.getElementById('cloudLogin').hidden=register;
+     document.getElementById('cloudRegister').hidden=!register;
+     document.getElementById('cloudShowLogin').setAttribute('aria-pressed',String(!register));
+     document.getElementById('cloudShowRegister').setAttribute('aria-pressed',String(register));
+   };
+   document.getElementById('cloudShowLogin').onclick=()=>show(false);
+   document.getElementById('cloudShowRegister').onclick=()=>show(true);show(false);
    dispatchEvent(new Event('hazzard-cloud-status'));
  }};
 """
