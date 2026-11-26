@@ -6395,12 +6395,37 @@ function renderNotebook(){
 const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
 function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,caption,figcaption,.book-caption,summary')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}
 let fullTextIndex=null,bankTextIndex=null,searchTicket=0,searchTimer;
+const indexedChapters=new Map();
+let chapterArrived=null;
 async function chapterIndex(){
+  function accept([id,blocks]){
+    const entry=manifestChapters.find(e=>String(e.number)===String(id));
+    if(entry&&!indexedChapters.has(id)){const row={entry,blocks};indexedChapters.set(id,row);chapterArrived?.(row);}
+  }
   return fullTextIndex ||= fetch('data/search-index.json').then(async response=>{
     if(!response.ok)throw Error('Search index unavailable');
-    const payload=await response.json();if(!Array.isArray(payload))throw Error('Invalid search index');
-    return {result:payload.map(([id,blocks])=>({entry:manifestChapters.find(e=>String(e.number)===String(id)),blocks})).filter(r=>r.entry),failed:[]};
-  }).catch(()=>{fullTextIndex=null;return {result:[],failed:manifestChapters.map(e=>e.number)};});
+    if(!response.body||!window.TextDecoderStream){
+      (await response.json()).forEach(accept);
+    }else{
+      // Each complete child array is a chapter. Ignore brackets inside JSON strings.
+      const reader=response.body.pipeThrough(new TextDecoderStream()).getReader();
+      let depth=0,quoted=false,escaped=false,partial='';
+      for(;;){
+        const {value,done}=await reader.read();if(done)break;
+        let start=0;
+        for(let i=0;i<value.length;i++){
+          const c=value[i];
+          if(quoted){if(escaped)escaped=false;else if(c==='\\')escaped=true;else if(c==='"')quoted=false;continue;}
+          if(c==='"')quoted=true;
+          else if(c==='['){if(++depth===2)start=i;}
+          else if(c===']'&&--depth===1){accept(JSON.parse(partial+value.slice(start,i+1)));partial='';}
+        }
+        if(depth>=2)partial+=value.slice(start);
+      }
+      if(depth||quoted||!indexedChapters.size)throw Error('Incomplete search index');
+    }
+    return {failed:[]};
+  }).catch(()=>{fullTextIndex=null;return {failed:manifestChapters.filter(e=>!indexedChapters.has(String(e.number)))};});
 }
 function bankSearchIndex(){
   return bankTextIndex ||= Promise.all([HazzardQuestionData.catalog(),readingJSON('data/mcq/search-options.json')]).then(([catalog,options])=>
@@ -6432,11 +6457,13 @@ async function searchChapters(){
     }
     return {count:hits.length};
   }).catch(()=>({count:0,failed:true}));
-  const loaded=await chapterIndex();if(ticket!==searchTicket)return;
   const ranks=new Map($$('#chapterRows [data-chapter-row]').map((row,i)=>[row.dataset.chapterRow,i]));
   const rank=entry=>ranks.get(String(entry.number).replace(/s$/,''))??Infinity;
-  const entries=[...(Array.isArray(loaded)?loaded:loaded.result)].sort((a,b)=>rank(a.entry)-rank(b.entry)||String(a.entry.number).localeCompare(String(b.entry.number),undefined,{numeric:true}));let found=0;
-  for(const {entry,blocks} of entries){
+  let found=0;
+  function addChapter({entry,blocks}){
+    if(ticket!==searchTicket)return;
+    const order=rank(entry)*2+(String(entry.number).endsWith('s')?1:0);
+    const next=[...results.children].find(li=>Number(li.dataset.order)>order)||null;
     let chapterHits=0;
     for(const text of blocks){
       const at=wordStart(text,q);if(at<0)continue;
@@ -6444,10 +6471,13 @@ async function searchChapters(){
       const li=document.createElement('li'),b=document.createElement('button'),label=document.createElement('strong'),snippet=document.createElement('small');
       label.textContent=searchLabel(entry);snippet.dir=snippetDirection(excerpt);
       snippet.append((start?'…':'')+text.slice(start,at));const mark=document.createElement('mark');mark.textContent=text.slice(at,at+q.length);snippet.append(mark,text.slice(at+q.length,end)+(end<text.length?'…':''));
-      b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt,offset:at-start}))});li.append(b);results.append(li);found++;
+      b.append(label,snippet);b.onclick=()=>openChapter(entry.number,{hash:'search-'+encodeURIComponent(JSON.stringify({q,excerpt,offset:at-start}))});li.dataset.order=order;li.append(b);results.insertBefore(li,next);found++;
       if(++chapterHits===3)break;
     }
   }
+  chapterArrived=addChapter;indexedChapters.forEach(addChapter);
+  const loaded=await chapterIndex();if(ticket!==searchTicket)return;
+  chapterArrived=null;
   const bankResult=await bankLoad;if(ticket!==searchTicket)return;
   status.textContent=found+' text matches (up to 3 per page); '+bankResult.count+' question-bank matches.'+(bankResult.failed?' Question bank unavailable. Reconnect and try again.':'')+(loaded.failed?.length?' Some pages are unavailable. Connect once to finish saving them.':'');
   $('#noChapters').hidden=found>0||titles>0||bankResult.count>0;
@@ -6457,7 +6487,7 @@ $('#chapterSearch').addEventListener('focus',()=>{
   chapterIndex();bankSearchIndex().catch(()=>{});
 },{once:true});
 $('#chapterSearch').oninput=()=>{
-  ++searchTicket;clearTimeout(searchTimer);
+  ++searchTicket;chapterArrived=null;clearTimeout(searchTimer);
   $('#chapterResults').replaceChildren();$('#bankSearchGroup').hidden=true;
   $('#chapterSearchStatus').textContent='Searching book and question bank…';
   searchTimer=setTimeout(searchChapters,220);
@@ -6658,7 +6688,7 @@ function persistBook(before,saved){
   offerUndo(()=>{
     const current=readHighlights();
     if(changes.some(({k,id,next})=>JSON.stringify(current[k]?.[id])!==JSON.stringify(next)))throw Error('The mark changed on another device. Undo is unavailable.');
-    for(const {k,id,old} of changes){if(old)(current[k]||={})[id]={...old,at:Math.max(Date.now(),HazzardStorage.removals.read().highlights[cid]?.[k==='marks'?'m:'+id:HazzardStorage.removals.rangeSignature(old)] + 1||0)};else delete current[k][id];}
+    for(const {k,id,old,next} of changes){if(old)(current[k]||={})[id]={...old,at:Math.max(Date.now(),(old.at||0)+1,(next?.at||0)+1,HazzardStorage.removals.read().highlights[cid]?.[k==='marks'?'m:'+id:HazzardStorage.removals.rangeSignature(old)] + 1||0)};else delete current[k][id];}
     writeHighlights(current);resyncHighlights();
   });
 }
@@ -6706,7 +6736,7 @@ function editMark(kind,id,quote){
     if(!id&&quote){
       if(kind==='answer'){
         id=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:1+HazzardAnswerHighlights.items().filter(m=>m.questionId===quote.questionId).reduce((n,m)=>Math.max(n,m.number||0),0)}:quote);if(!id)return;
-        offerUndo(()=>HazzardAnswerHighlights.setRemoved(id,true));showMark(kind,id,HazzardAnswerHighlights.read().items[id]);return;
+        const added=HazzardAnswerHighlights.read().items[id];offerUndo(()=>HazzardAnswerHighlights.edit(id,null,added));showMark(kind,id,added);return;
       }
       return createBook(kind,'r'+crypto.randomUUID(),quote);
     }
