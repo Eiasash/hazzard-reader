@@ -1015,7 +1015,6 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
     <p class="meta">Chapters count when you reach the end of Read or Study. Questions cover both exam tracks and exclude items flagged as bad.</p>
   </section>
   <button type="button" id="homeRetry" hidden>Retry study progress</button>
-  <div id="deskColour" hidden><button id="deskCycleColour"><span class="swatch" aria-hidden="true"></span><span id="deskColourLabel"></span></button></div>
   <nav class="launch-tiles" aria-label="Home">
     <button data-view="library"><span><strong>Chapters</strong><small>Read a chapter or open its study page</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
     <button data-panel="practice"><span><strong>Practice</strong><small>Question bank and mock papers</small></span><span class="tile-arrow" aria-hidden="true">›</span></button>
@@ -1054,7 +1053,6 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   <div class="settings-controls">
     <div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">S</button><button data-size="medium" aria-label="Medium" aria-pressed="false">M</button><button data-size="large" aria-label="Large" aria-pressed="false">L</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg></button>
-    <button id="cycleColour" class="icon-control" aria-label="Marking colour: Yellow. Next: Red underline" title="Marking colour: Yellow. Next: Red underline"><span class="swatch" aria-hidden="true"></span></button>
   </div>
 
 
@@ -5444,11 +5442,10 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-const barState={undo:null,timer:null};
-markBar.innerHTML='<span id="markFeedback" role="status">Highlight saved</span><button id="penUndo">Undo</button>';
 markBar.prepend($('#highlightEditor'));
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
 examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPrevious" aria-label="Previous exam page">↑</button><button id="examNext" aria-label="Next exam page">↓</button><button id="examClose" aria-label="Close exam pages">✕</button>';
+let scrollIntentUntil=0;
 const bottomSlot=document.createElement('div');bottomSlot.id='bottomSlot';
 bottomSlot.append(appTabs,markBar,examBar);document.body.append(bottomSlot);
 new ResizeObserver(()=>{const height=bottomSlot.getBoundingClientRect().height;if(height)document.documentElement.style.setProperty('--tabs-height',height+'px');}).observe(bottomSlot);
@@ -5818,7 +5815,7 @@ function renderStatistics(pane=null){
   statisticsTitle||={text:title.textContent,title:title.title,label:title.getAttribute('aria-label')||'',disabled:title.disabled,panel:title.dataset.panel,mcqActive:mcq?.active,controls:[...document.querySelectorAll('#headerModeSwitch,#markToggle,#findToggle,#headerPrevious,#headerNext,.study-view-tabs')].map(n=>[n,n.hidden])};
   title.textContent=title.title='Statistics';title.setAttribute('aria-label','Statistics');title.disabled=true;title.removeAttribute('data-panel');title.removeAttribute('aria-expanded');
   for(const [node]of statisticsTitle.controls)node.hidden=true;
-  document.body.classList.add('statistics-open');chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
+  document.body.classList.add('statistics-open');setReadingBarsHidden(false);
   if(mcq)mcq.active=false;currentView='reader';
   for(const id of ['reader','desk','library'])$('#'+id).hidden=true;
   $('#readerViewport').hidden=false;
@@ -5831,6 +5828,7 @@ function openStatistics(replace=false){
   history[replace?'replaceState':'pushState'](state,'',url);renderStatistics();
 }
 function renderScreen(state){
+  scrollIntentUntil=0;
   if(state?.hazzardStats){hidePanel();renderStatistics(state.hazzardPane);return;}
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
@@ -5840,10 +5838,10 @@ function renderScreen(state){
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
   $('#readerViewport').hidden=id!=='reader';
   examBar.hidden=!state?.hazzardExam;document.body.classList.toggle('examining',!examBar.hidden);if(examBar.hidden)for(const p of examPages)p.classList.remove('exam-current');
-  chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
+  setReadingBarsHidden(false);
   findBar.hidden=!state?.hazzardFind;document.body.classList.toggle('finding',!findBar.hidden);$('#findToggle').setAttribute('aria-expanded',String(!findBar.hidden));
   if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
-  else{chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
+  else{setReadingBarsHidden(false);if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
   if(state?.hazzardPane)displayPane(state.hazzardPane);
   if(id==='desk'){HazzardChanged.refresh();refreshResume()}if(id==='library'){if(chapterSort==='recent')sortChapterRows();refreshLibraryMarks();}
   if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
@@ -6004,9 +6002,7 @@ function updateDisplay(){
   syncMarkingUI();
   const nextTheme=document.documentElement.dataset.theme==='dark'?'light':'dark';
   $('#toggleTheme').setAttribute('aria-label','Switch to '+nextTheme+' theme');$('#toggleTheme').title='Switch to '+nextTheme+' theme';
-  const nextColour=markColours[(markColours.indexOf(colour)+1)%markColours.length];
-  $('#cycleColour').setAttribute('aria-label','Marking colour: '+colourLabel(colour)+'. Next: '+colourLabel(nextColour));$('#cycleColour').title=$('#cycleColour').getAttribute('aria-label');
-  $('#deskColourLabel').textContent='Marking colour: '+colourLabel(colour);viewport();
+  viewport();
 }
 function saveDisplay(){try{const raw=localStorage.getItem('stage-a-display-v4');if(raw!==null){try{HazzardStorage.validate('stage-a-display-v4',JSON.parse(raw))}catch{HazzardStorage.preserveUnreadable('stage-a-display-v4',raw)}}HazzardStorage.setItem('stage-a-display-v4',JSON.stringify({size,colour,theme:document.documentElement.dataset.theme}));displaySaveFailed=false}catch{displaySaveFailed=true}updateStorageNotice()}
 function readDisplay(){try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p){if(Object.hasOwn(sizes,p.size))size=p.size;if(markColours.includes(p.colour))colour=p.colour;if(['light','dark'].includes(p.theme))document.documentElement.dataset.theme=p.theme}else if(matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.dataset.theme='dark'}catch{}}
@@ -6056,14 +6052,10 @@ addEventListener('hazzard-answer-highlights-ready',()=>{syncMarkingUI();});
 addEventListener('hazzard-answer-highlight-tap',()=>syncMarkingUI());
 addEventListener('hazzard-answer-highlight-error',e=>flash(e.detail,6000));
 $('#toggleTheme').onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';applyDisplay();saveDisplay()};
-function cycleColour(){colour=markColours[(markColours.indexOf(colour)+1)%markColours.length];applyDisplay();saveDisplay()}
-$('#cycleColour').onclick=$('#deskCycleColour').onclick=cycleColour;
 function syncMarkingUI(){
   const underline=colour==='green';document.documentElement.dataset.markStyle=underline?'underline':'fill';
   document.documentElement.style.setProperty('--current-mark',underline?'transparent':'var(--hl-'+colour+')');
-  const editing=!$('#highlightEditor').hidden,undo=!!barState.undo&&!editing;
-  $('#markFeedback').hidden=$('#penUndo').hidden=!undo;
-  markBar.hidden=panel.open||currentView!=='reader'||(!editing&&!undo);
+  markBar.hidden=panel.open||currentView!=='reader'||$('#highlightEditor').hidden;
   appTabs.hidden=!markBar.hidden||(!examBar.hidden&&!panel.open);
   document.body.classList.toggle('mark-bar-open',!markBar.hidden);
 }
@@ -6480,7 +6472,7 @@ function clearLanding(){CSS.highlights?.delete('page-find-current');CSS.highligh
 function landOnMatch(target,block){
   const element=block||target;landingUntil=performance.now()+500;
   revealReading(element,{block:'nearest',inline:'nearest'});
-  chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;
+  setReadingBarsHidden(false);
   const align=()=>{
     const v=readerScroll.getBoundingClientRect(),header=chapterHeader.getBoundingClientRect();
     const top=Math.max(v.top,header.bottom,!findBar.hidden?findBar.getBoundingClientRect().bottom:0,!examBar.hidden?examBar.getBoundingClientRect().bottom:0)+12;
@@ -6532,7 +6524,7 @@ $('#findText').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();stepFind(e.s
 $('#findPrevious').onclick=()=>stepFind(-1);$('#findNext').onclick=()=>stepFind(1);
 $('#findAll').onclick=()=>{const q=$('#findText').value;$('#findText').blur();view('library',{replace:true});$('#chapterSearch').value=q;searchChapters()};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
-function revealReading(el,options){if(!el)return;landingUntil=performance.now()+500;chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;mcq?.notes?.();if(el.closest('.mock-q,.drill-q')?.hidden&&practiceState){practiceState.retryIds=null;practiceSave();practiceRender()}for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
+function revealReading(el,options){if(!el)return;landingUntil=performance.now()+500;setReadingBarsHidden(false);mcq?.notes?.();if(el.closest('.mock-q,.drill-q')?.hidden&&practiceState){practiceState.retryIds=null;practiceSave();practiceRender()}for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
 // ---------- storage helpers ----------
 function readJSON(k,d){try{return HazzardStorage.readProtected(k,()=>d)??d}catch{return d}}
 function writeJSON(k,v){try{HazzardStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
@@ -6655,23 +6647,12 @@ function renumber(saved,kind,id,number){
   if(number)list.splice(Math.min(number-1,list.length),0,{mark:saved[kind][id]});
   list.forEach(({mark},i)=>{if(mark.number!==i+1){mark.number=i+1;mark.at=Math.max(Date.now(),(mark.at||0)+1);}});
 }
-function clearUndo(){clearTimeout(barState.timer);barState.undo=null;syncMarkingUI();}
-function dismissMarkBar(){if(editor.contains(document.activeElement))document.activeElement.blur();cancelPenGesture();closeMark();clearUndo();}
-function offerUndo(callback){clearTimeout(barState.timer);barState.undo=callback;barState.timer=setTimeout(clearUndo,4500);syncMarkingUI();}
-$('#penUndo').onclick=()=>{const callback=barState.undo;clearUndo();try{callback?.();closeMark();}catch(error){flash(error.message,6000);}};
-function persistBook(before,saved){
+function dismissMarkBar(){
+  if(editor.contains(document.activeElement))document.activeElement.blur();
+  cancelPenGesture();closeMark();
+}
+function persistBook(saved){
   writeHighlights(saved);resyncHighlights();
-  const changes=[];
-  for(const k of ['marks','ranges'])for(const id of new Set([...Object.keys(before[k]||{}),...Object.keys(saved[k]||{})])){
-    const old=before[k]?.[id],next=saved[k]?.[id];
-    if(JSON.stringify(old)!==JSON.stringify(next))changes.push({k,id,old,next});
-  }
-  offerUndo(()=>{
-    const current=readHighlights();
-    if(changes.some(({k,id,next})=>JSON.stringify(current[k]?.[id])!==JSON.stringify(next)))throw Error('The mark changed on another device. Undo is unavailable.');
-    for(const {k,id,old,next} of changes){if(old)(current[k]||={})[id]={...old,at:Math.max(Date.now(),(old.at||0)+1,(next?.at||0)+1,HazzardStorage.removals.read().highlights[cid]?.[k==='marks'?'m:'+id:HazzardStorage.removals.rangeSignature(old)] + 1||0)};else delete current[k][id];}
-    writeHighlights(current);resyncHighlights();
-  });
 }
 function closeMark(){previewPen(null);activeMark=null;editor.hidden=true;noteField.hidden=numberField.hidden=true;syncMarkingUI();}
 function markNodes({kind,id}){
@@ -6682,7 +6663,7 @@ function markRange(mark){
   const range=document.createRange();range.setStart(nodes[0],0);range.setEnd(nodes.at(-1),nodes.at(-1).childNodes.length);return range;
 }
 function showMark(kind,id,mark){
-  activeMark={kind,id,mark};editor.hidden=false;syncMarkingUI();
+  activeMark={kind,id,mark};editor.hidden=false;setReadingBarsHidden(false);syncMarkingUI();
   for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
   $('#pointChip').textContent=mark.number?'Number '+mark.number:'Number';selectInk(mark.colour);
   if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';numberField.value=mark.number||'';
@@ -6692,8 +6673,8 @@ function editMark(kind,id,quote,range){
     const records=kind==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[kind];
     if(!id&&quote){
       if(kind==='answer'){
-        const undo=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:HazzardAnswerHighlights.nextPoint()}:quote);
-        if(undo)offerUndo(undo);closeMark();return;
+        HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:HazzardAnswerHighlights.nextPoint()}:quote);
+        closeMark();return;
       }
       return createBook(quote,range);
     }
@@ -6704,7 +6685,7 @@ function createBook(quote,range){
   const kind='ranges',id='r'+crypto.randomUUID();
   try{
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
-    const saved=readHighlights(),before=structuredClone(saved),number=numbering?nextBookPoint(saved):null;
+    const saved=readHighlights(),number=numbering?nextBookPoint(saved):null;
     const items=bookItems(saved);
     if(items.length){
       const ix=bookTextIndex(),bounds=bookOffsets(ix,range);
@@ -6715,7 +6696,7 @@ function createBook(quote,range){
       }
     }
     const record={...quote,colour,at:Date.now(),...(number?{number}:{})};
-    (saved[kind]||={})[id]=record;persistBook(before,saved);
+    (saved[kind]||={})[id]=record;persistBook(saved);
   }catch(e){flash(e.message,6000);}finally{closeMark();}
 }
 function modifyMark(fields){
@@ -6723,17 +6704,16 @@ function modifyMark(fields){
   try{
     let {kind,id,mark}=activeMark;
     if(kind==='answer'){
-      const undo=HazzardAnswerHighlights.edit(id,fields,mark);
+      HazzardAnswerHighlights.edit(id,fields,mark);
       const next=HazzardAnswerHighlights.read().items[id];
-      offerUndo(undo);
       if(fields)showMark(kind,id,next);else closeMark();return;
     }
-    const saved=readHighlights(),before=structuredClone(saved);
+    const saved=readHighlights();
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey)||JSON.stringify(saved[kind]?.[id])!==JSON.stringify(mark))throw Error('This highlight changed. Reopen it to edit.');
     delete saved[kind][id];
     if(fields)(saved[kind]||={})[id]={...mark,...fields,at:Math.max(Date.now(),(mark.at||0)+1)};
     if(fields&&Object.hasOwn(fields,'number')||!fields&&mark.number)renumber(saved,kind,id,fields?.number);
-    persistBook(before,saved);if(fields)showMark(kind,id,saved[kind][id]);else closeMark();
+    persistBook(saved);if(fields)showMark(kind,id,saved[kind][id]);else closeMark();
   }catch(e){flash(e.message,6000);closeMark();}
 }
 function selectInk(value){
@@ -6782,7 +6762,7 @@ function previewPen(range){
 installPointRail(document.querySelector('main'));
 function cancelPenGesture(){stopStroke();}
 stopStroke=bindReaderInput({
-  state:{stroke:null,get mark(){return activeMark;},bar:barState},
+  state:{stroke:null,get mark(){return activeMark;}},
   main:document.querySelector('main'),wordAt:caretWord,paint:previewPen,edit:editMark,close:dismissMarkBar,
   commit(stroke){
     const quote=stroke.book?bookQuote(stroke.range):HazzardAnswerHighlights.selection(stroke.range);
@@ -6914,31 +6894,49 @@ async function refreshLibraryMarks(){
 
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
 function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:Math.max(0,Math.min(1,readerScroll.scrollTop/span)),at:Date.now()}}
-function goToPlace(p,exact=false){if(!p)return;landingUntil=performance.now()+500;chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
+function goToPlace(p,exact=false){if(!p)return;landingUntil=performance.now()+500;setReadingBarsHidden(false);if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
 function rememberPlace(){if(companionFrame||$('#statsViewport')||copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
 let placeTimer=null,userScrolled=false,lastPlaceWrite=0;
-let headerScrollY=readerScroll.scrollTop,headerTravel=0,headerDirection=0;
-function scrollHeader(scroller){
-  if(companionFrame||document.body.classList.contains('with-reading-companion'))return;
-  const y=Math.max(0,scroller.scrollTop),delta=y-headerScrollY,direction=Math.sign(delta);
-  if(y<=0||!markBar.hidden||!findBar.hidden||!examBar.hidden){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;headerDirection=0}
-  else if(delta&&cid!=='mock'&&performance.now()>landingUntil){
-    headerTravel=direction===headerDirection?headerTravel+Math.abs(delta):Math.abs(delta);headerDirection=direction;
-    if(direction>0&&headerTravel>=60){chapterHeader.classList.add('is-collapsed');chapterHeader.inert=true}
-    else if(direction<0&&headerTravel>=30){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
-  }
-  headerScrollY=y;
+const scrollPositions=new WeakMap();
+function expectUserScroll(){scrollIntentUntil=performance.now()+900;}
+document.addEventListener('wheel',event=>{if(event.deltaY)expectUserScroll();},{capture:true,passive:true});
+document.addEventListener('touchmove',expectUserScroll,{capture:true,passive:true});
+document.addEventListener('pointermove',event=>{if(event.buttons&&event.pointerType!=='touch')expectUserScroll();},{capture:true,passive:true});
+document.addEventListener('keydown',event=>{
+  if(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(event.key))expectUserScroll();
+},true);
+function setReadingBarsHidden(hidden){
+  chapterHeader.classList.toggle('is-collapsed',hidden);
+  chapterHeader.inert=hidden;
+  bottomSlot.classList.toggle('is-collapsed',hidden);
+  bottomSlot.inert=hidden;
+  document.body.classList.toggle('reading-bars-hidden',hidden);
 }
+document.addEventListener('scroll',event=>{
+  const scroller=event.target===document?document.scrollingElement:event.target;
+  if(!scroller||scroller.closest?.('#highlightEditor,input,textarea,select'))return;
+  const y=Math.max(0,scroller.scrollTop);
+  const previous=scrollPositions.get(scroller)||0,delta=y-previous;
+  if(y>0&&Math.abs(delta)<6)return;
+  scrollPositions.set(scroller,y);
+  // Loading a question or restoring a reading position may scroll without
+  // a gesture. Keep navigation available on entry to that screen.
+  if(!delta||performance.now()>scrollIntentUntil)return;
+  expectUserScroll();
+  if(activeMark)dismissMarkBar();
+  const hidden=y>0&&delta>0;
+  setReadingBarsHidden(hidden);
+  if(companionFrame)frameElement.dispatchEvent(new CustomEvent('reader-scroll-bars',{bubbles:true,detail:hidden}));
+},true);
+document.addEventListener('reader-scroll-bars',event=>setReadingBarsHidden(event.detail===true));
 readerScroll.addEventListener('scroll',()=>{
   if(mcq?.active)return;
-  scrollHeader(readerScroll);
   const y=Math.max(0,readerScroll.scrollTop);syncBookmark();
   if(!copy.dataset.notLoaded&&currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
   const now=performance.now();if(now-lastPlaceWrite>=1000){rememberPlace();lastPlaceWrite=now;}
   clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,1000);
 },{passive:true});
-$('#readerViewport').addEventListener('scroll',event=>{if(event.target.id==='mcqViewport'&&mcq?.active&&event.currentTarget.classList.contains('has-study-tabs'))scrollHeader(event.target);},true);
-document.addEventListener('pointerdown',event=>{if(currentView==='reader'&&event.clientY<=24+(visualViewport?.offsetTop||0)){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;}},{passive:true});
+document.addEventListener('pointerdown',event=>{if(currentView==='reader'&&event.clientY<=24+(visualViewport?.offsetTop||0)){setReadingBarsHidden(false);}},{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
 addEventListener('pagehide',rememberPlace);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else resyncHighlights()});
@@ -7574,8 +7572,8 @@ if(['bank','mock'].includes(cid))try{await HazzardMCQ.preload();}catch{}
 const readOnlyChapter=/^\d+$/.test(cid)&&manifestChapters.some(c=>String(c.number)===cid&&c.kind==='chapter')&&!manifestChapters.some(c=>String(c.number)===cid+'s');
 if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
   mcq=(cid==='mock'&&new URL(location.href).searchParams.get('simulation')==='1'?HazzardSimulation:HazzardMCQ).mount({chapter:cid==='laws'?'law':['mock','bank'].includes(cid)||readOnlyChapter?cid:cid.slice(0,-1),readOnlyChapter,viewport:$('#readerViewport'),readerScroll,
-    onShow:()=>{closeStatistics();headerScrollY=$('#mcqViewport')?.scrollTop||0;headerTravel=0;headerDirection=0;dismissMarkBar();chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false},
-    onNotes:()=>{syncMarkingUI();closeStatistics();chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerScrollY=readerScroll.scrollTop;headerTravel=0;headerDirection=0;},openImage:openZoom});
+    onShow:()=>{scrollIntentUntil=0;closeStatistics();dismissMarkBar();setReadingBarsHidden(false)},
+    onNotes:()=>{scrollIntentUntil=0;syncMarkingUI();closeStatistics();setReadingBarsHidden(false);},openImage:openZoom});
   const li=document.createElement('li'),button=document.createElement('button');button.textContent='Exam questions';button.onclick=()=>returnReading(()=>mcq.show());li.append(button);$('[data-pane="contents"] .rows').prepend(li);
   if(readOnlyChapter||/^\d+s$/.test(cid))HazzardEvidence.citationLine(readOnlyChapter?cid:cid.slice(0,-1),()=>returnReading(()=>mcq.show('past')),true).then(line=>{if(line)copy.querySelector('h1').after(line);}).catch(error=>console.error('Study exam citations:',error));
 

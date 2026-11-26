@@ -51,7 +51,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
     cancel();
     if(s.selecting){
       // Chrome still clicks after mouse/pen release. That click belongs to
-      // the stroke that opened Undo; the next press may dismiss it.
+      // the saved stroke and must not open the editor.
       strokeClick=s.type!=='touch';commit(s);
     }
     else if(!s.moved&&s.hit){
@@ -63,7 +63,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   // Let the browser pan on touchmove; a tap must not fall through to a link,
   // another mark, or a destination tab after the footer changes underneath it.
   let dismissedContact=false,strokeClick=false,openerTarget=null;
-  const outside=target=>(state.mark||state.bar.undo)&&!target.closest?.('#markBar');
+  const outside=target=>state.mark&&!target.closest?.('#markBar');
   document.addEventListener('pointerdown',event=>{
     if(!event.isPrimary||event.button!==0)return;
     dismissedContact=false;strokeClick=false;openerTarget=null;
@@ -109,7 +109,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   main.addEventListener('scroll',event=>{
     if(!event.target.closest?.('#readerScroll,#pairedStudy,#mcqViewport'))return;
     if(state.stroke?.type==='touch'&&!state.stroke.selecting)cancel();
-    if(!state.stroke&&(state.mark||state.bar.undo))close();
+    if(!state.stroke&&state.mark)close();
   },true);
   window.addEventListener('blur',cancel);
   document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});

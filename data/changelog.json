@@ -5,7 +5,7 @@
       "version": "v325",
       "date": "2026-11-26",
       "changes": [
-        "Hold a word, drag across the passage and release to save exactly that text. Tap a mark to edit it. Undo returns to the regular tabs automatically.",
+        "Hold, drag and lift to save a highlight silently. Tap a saved mark to change its colour or delete it. Scrolling down hides the header and bottom controls.",
         "Daily review includes numbered points. Home also opens official questions due today. Editorial table notes expand on demand.",
         "Verified Study, flashcard, memory-aid and explanation corrections against the printed sources. Official keys are unchanged."
       ]

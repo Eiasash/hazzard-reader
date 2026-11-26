@@ -1671,14 +1671,14 @@ window.HazzardAnswerHighlights = (() => {
     const value=read(),at=Date.now(),id='a'+(crypto.randomUUID?.()||at.toString(36)+'-'+Math.random().toString(36).slice(2));
     const text=regionIndex(canonicalRoot(current.q),mark.region,mark.optionIndex).s,start=findAnchor(text,mark);
     if(start<0)return false;
-    const before=structuredClone(value.items),intervals=[];
+    const intervals=[];
     for(const [key,m] of Object.entries(value.items)){
       if(m.removed||m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)continue;
       const offset=findAnchor(text,m);if(offset>=0)intervals.push({key,start:offset,end:offset+m.text.length});
     }
     if(intervals.some(item=>item.start===start&&item.end===start+mark.text.length))return false;
     value.items[id]={...mark,at,colour,removed:false,updatedAt:at};
-    write(value);return undoChanges(value,before);
+    write(value);return true;
 
   }
   function attach(root,q,order){
@@ -1708,7 +1708,6 @@ window.HazzardAnswerHighlights = (() => {
   function edit(id,fields,original){
     const value=read(),mark=value.items[id];
     if(!mark||mark.removed||mark.updatedAt!==original.updatedAt)throw Error('This highlight changed. Open it again.');
-    const before=structuredClone(value.items);
     value.items[id]={...mark,...fields,removed:!fields,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
     if(fields&&Object.hasOwn(fields,'number')||!fields&&mark.number){
       const numbered=Object.entries(value.items).filter(([key,m])=>key!==id&&!m.removed&&m.questionId===mark.questionId&&m.number).sort((a,b)=>a[1].number-b[1].number||a[1].at-b[1].at);
@@ -1716,16 +1715,6 @@ window.HazzardAnswerHighlights = (() => {
       numbered.forEach(([,m],i)=>{if(m.number!==i+1){m.number=i+1;m.updatedAt=Math.max(Date.now(),m.updatedAt+1);}});
     }
     write(value);
-    return undoChanges(value,before);
-  }
-  function undoChanges(value,before){
-    const keys=Object.keys(value.items).filter(k=>value.items[k].updatedAt!==before[k]?.updatedAt);
-    return ()=>{
-      const current=read();
-      if(keys.some(k=>current.items[k]?.updatedAt!==value.items[k].updatedAt))throw Error('The mark changed. Undo is unavailable.');
-      for(const k of keys)current.items[k]={...(before[k]||{...current.items[k],removed:true}),updatedAt:Math.max(Date.now(),current.items[k].updatedAt+1)};
-      write(current);
-    };
   }
   function nextPoint(){return 1+items().reduce((n,m)=>m.questionId===current?.q.id&&Number.isSafeInteger(m.number)?Math.max(n,m.number):n,0);}
   return {nextPoint,KEY,highlightColours,empty,valid,merge,read,items,edit,setRemoved,notebookItems,attach,available,regions,selection,saveSelection};

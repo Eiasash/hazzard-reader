@@ -91,11 +91,9 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 body:has(#panel[open]) #bottomSlot #examBar {display:none}
 body:has(#panel[open]) #bottomSlot #appTabs:not([hidden]) {display:grid}
 #markBar:not([hidden]) {display:flex;align-items:center;justify-content:space-evenly;padding:4px 8px max(4px,env(safe-area-inset-bottom));min-height:48px}
-#markBar #markFeedback {font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
 #highlightEditor {width:100%;font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
 #highlightEditor .mark-tools {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
 #markBar button {min-height:44px;border:1px solid var(--rule);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
-#markBar #penUndo {min-width:88px}
 
 #highlightEditor input:not([type=checkbox]) {display:block;width:100%;min-height:44px;font:16px var(--ui)}
 .keyboard-open #bottomSlot #markBar:not([hidden]) {display:flex!important}
@@ -134,3 +132,10 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 .edition-note {margin-block:var(--s2);border-block:1px solid var(--rule)}
 .edition-note>summary {padding:8px 4px;min-height:44px;align-content:center;cursor:pointer;font:600 calc(13px * var(--fs,1))/1.35 var(--ui);color:var(--accent)}
 .edition-note>.note {margin:0 0 8px;padding:4px;border:0}
+
+#bottomSlot.is-collapsed {transform:translateY(100%);visibility:hidden;pointer-events:none}
+body.reading-bars-hidden #chapterHeader {transform:translateY(-100%);visibility:hidden}
+body.reading-bars-hidden #readerViewport {inset-block-end:var(--vv-bottom-gap,0px)}
+body.reading-bars-hidden #mcqViewport {inset-block-start:0}
+body.reading-bars-hidden :is(.mcq-docked-actions,#findBar) {visibility:hidden;pointer-events:none}
+body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
