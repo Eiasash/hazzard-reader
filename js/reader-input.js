@@ -50,16 +50,19 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
     }
     cancel();
     if(s.selecting)commit(s);
-    else if(!s.moved&&s.hit)edit(...s.hit);
+    else if(!s.moved&&s.hit){
+      if(event.cancelable)event.preventDefault();
+      openerTarget=event.target;edit(...s.hit);
+    }
   }
   // Dismissal owns the whole contact, including the compatibility click.
   // Let the browser pan on touchmove; a tap must not fall through to a link,
   // another mark, or a destination tab after the footer changes underneath it.
-  let dismissedContact=false;
+  let dismissedContact=false,openerTarget=null;
   const outside=target=>(state.mark||state.bar.undo)&&!target.closest?.('#markBar');
   document.addEventListener('pointerdown',event=>{
     if(!event.isPrimary||event.button!==0)return;
-    dismissedContact=false;
+    dismissedContact=false;openerTarget=null;
     if(!outside(event.target))return;
     dismissedContact=true;close();
     event.preventDefault();event.stopImmediatePropagation();
@@ -74,6 +77,9 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
     event.stopImmediatePropagation();
   },{capture:true,passive:false});
   document.addEventListener('click',event=>{
+    if(openerTarget&&event.detail!==0&&(openerTarget===event.target||openerTarget.contains?.(event.target))){
+      openerTarget=null;event.preventDefault();event.stopImmediatePropagation();return;
+    }
     if(!(dismissedContact&&event.detail!==0)&&!outside(event.target))return;
     dismissedContact=false;close();event.preventDefault();event.stopImmediatePropagation();
   },true);
