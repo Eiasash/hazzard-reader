@@ -1032,12 +1032,10 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </main><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
 <button id="markToggle" class="reader-tools" aria-label="Toggle marking" aria-pressed="false" title="Turn marking on"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></button>
 <div id="highlightEditor" role="group" aria-label="Highlight tools" hidden>
-  <div class="mark-tools"><div id="inkDots"></div><button id="markNoteToggle" aria-label="Edit note" title="Edit note">✎</button><button id="pointChip" aria-label="Edit point number" title="Edit point number">#</button><button id="markDelete" aria-label="Delete highlight" title="Delete highlight">×</button></div>
-  <button id="numberPoints" aria-pressed="false">Number points</button>
+  <div class="mark-tools"><div id="inkDots"></div><button id="markNoteToggle" aria-label="Edit note" title="Edit note">✎</button><button id="pointChip" aria-label="Edit point number" title="Edit point number">#</button><button id="markCopy" type="button">Copy</button><button id="markDelete" type="button">Delete</button></div>
   <input id="markNote" aria-label="Highlight note" placeholder="Note" maxlength="500" hidden>
   <input id="markNumber" aria-label="Point number" type="number" min="1" step="1" placeholder="Point number" hidden>
 </div>
-<button type="button" id="markStart" class="mark-grip" aria-label="Move highlight start" title="Drag, tap then choose a word, or use the arrow keys" hidden></button><button type="button" id="markEnd" class="mark-grip" aria-label="Move highlight end" title="Drag, tap then choose a word, or use the arrow keys" hidden></button>
 
 
 <dialog id="panel" data-current-pane="tools" aria-labelledby="panelTitle" aria-modal="true">
@@ -5429,7 +5427,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v323 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v324 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5440,8 +5438,8 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<div id="penDots"></div><button id="penNumbers" aria-pressed="false">Number points</button><button id="penUndo" disabled>Undo</button><button id="markColour" hidden><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button><details id="penMore"><summary aria-label="More pen options" title="More pen options">⋯</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button></details>';
-document.body.append(markBar);
+markBar.innerHTML='<div id="penDots"></div><button id="penNumbers" aria-pressed="false">Number points</button><button id="penUndo" title="Undo" aria-label="Undo" disabled>↶</button><button id="markColour" hidden><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone" title="Done" aria-label="Done">✓</button><details id="penMore"><summary aria-label="More pen options" title="More pen options">⋯</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button></details>';
+markBar.prepend($('#highlightEditor'));document.body.append(markBar);
 new ResizeObserver(()=>{if(!markBar.hidden)document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
 examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPrevious" aria-label="Previous exam page">↑</button><button id="examNext" aria-label="Next exam page">↓</button><button id="examClose" aria-label="Close exam pages">✕</button>';document.body.append(examBar);
@@ -5561,7 +5559,7 @@ const readerScroll=$('#readerScroll');
 const sizes={small:12,medium:13.5,large:15};
 const markColours=HazzardStorage.colours;
 let nextBookNumber=1;
-let marking=false,colour='yellow',size='small',anchor=null,gesture=null;
+let marking=false,colour='yellow',size='small',anchor=null;
 let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
 // Load reading metadata only for a reading page, once per document.
@@ -5759,7 +5757,7 @@ function viewport(){
 }
 // Controls occupy their own flex row, outside the scrolling reading area.
 function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
-function hidePanel(){notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');gesture=null;syncTabs()}
+function hidePanel(){notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');syncTabs()}
 function closePanel(){
   if(closingHistory)return;
   if(history.state?.hazzardDepth){closingHistory=true;history.back()}
@@ -5917,7 +5915,6 @@ function showClaimProvenance(node){
   if(negative?.reason)line(negative.reason);
   else if(pending?.reason)line(pending.reason);
   else if(!entries.length)line(record?.reviewBasis||'No claim-specific source review recorded.');
-  gesture=null;
   if(!provenanceDialog.open){history.pushState({...history.state,hazzardProvenance:true},'');provenanceDialog.showModal()}
 }
 let pressStart=null,suppressPressClick=false,claimHold=null;
@@ -5943,7 +5940,7 @@ document.addEventListener('pointercancel',()=>{cancelClaimHold();pressStart=null
 window.addEventListener('blur',cancelClaimHold);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelClaimHold()});
 document.addEventListener('contextmenu',e=>{
-  if(marking&&e.target.closest('#copy,.mcq-explanation')){e.preventDefault();cancelClaimHold();return;}
+  if(e.target.closest('#copy,.mcq-explanation')){e.preventDefault();cancelClaimHold();return;}
   suppressPressClick=true;if(e.target.closest?.('#copy [data-unit]'))return;const node=heldClaim(e.target);if(node){e.preventDefault();cancelClaimHold();showClaimProvenance(node)}},true);
 document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();suppressPressClick=false}},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
@@ -6049,10 +6046,10 @@ panel.addEventListener('cancel',e=>{e.preventDefault();closePanel();});
 panel.addEventListener('click',e=>{if(e.target!==panel)return;const box=panel.getBoundingClientRect();if(e.clientX<box.left||e.clientX>box.right||e.clientY<box.top||e.clientY>box.bottom)closePanel();});
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(marking)setMarking(false)}});
-// Keep native Copy in reading mode, but never export reader text as an HTML drag.
+// Copy is explicit in the mark editor. Native selection and dragging do not own reader gestures.
 const readingText='#copy,.mcq-explanation';
 document.addEventListener('dragstart',e=>{if(e.target.closest?.(readingText))e.preventDefault();},true);
-document.addEventListener('selectstart',e=>{if(marking&&e.target.closest?.(readingText))e.preventDefault();},true);
+document.addEventListener('selectstart',e=>{if(e.target.closest?.(readingText))e.preventDefault();},true);
 document.addEventListener('pointerdown',e=>{
   const root=e.target.closest?.(readingText);if(!root)return;
   // Annotations and question links can be rendered again after the chapter opens.
@@ -6062,11 +6059,10 @@ document.addEventListener('pointerdown',e=>{
 },true);
 function disableTextDrag(root){root.draggable=false;for(const el of root.querySelectorAll('span,a'))el.draggable=false;}
 function setMarking(on){
-  if(marking===on)return;$('#penMore').open=false;if(!on)closeMark();marking=on;gesture=null;document.body.classList.toggle('marking',on);
-  syncMarkingUI();if(on){if(!HazzardAnswerHighlights.available())getSelection()?.removeAllRanges();syncBookmark()}else HazzardAnswerHighlights.resetSelection();
-  const action=on?'addEventListener':'removeEventListener';
-  copy[action]('pointerdown',markDown);copy[action]('pointermove',markMove);copy[action]('pointerup',markUp);copy[action]('pointercancel',markCancel);copy[action]('keydown',markKey);
-  for(const u of unitMap.values()){const p=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(on){p.tabIndex=0;p.setAttribute('role','button');p.setAttribute('aria-pressed',String(u.marked))}else{p.removeAttribute('tabindex');p.removeAttribute('role');p.removeAttribute('aria-pressed')}}
+  if(marking===on)return;
+  if(!on)cancelPenGesture();
+  marking=on;$('#penMore').open=false;$('#penDots').classList.remove('expanded');
+  document.body.classList.toggle('marking',on);syncMarkingUI();if(on)syncBookmark();
 }
 pencil.onclick=()=>{if(panel.open)returnReading(()=>setMarking(!marking));else setMarking(!marking)};
 $('#markDone').onclick=()=>{getSelection()?.removeAllRanges();setMarking(false);};$('#markColour').onclick=cycleColour;
@@ -6082,7 +6078,7 @@ function syncMarkingUI(){
   document.documentElement.dataset.markStyle=underline?'underline':'fill';
   document.documentElement.style.setProperty('--current-mark',underline?'transparent':'var(--hl-'+colour+')');
   $('#markColourLabel').textContent=underline?'Underline':'Colour';
-  pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Turn marking off':'Turn marking on';pencil.setAttribute('aria-label','Highlight: '+(marking?'On':'Off'));if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
+  pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Close highlight controls':'Highlight colour and numbering';pencil.setAttribute('aria-label',pencil.title);if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   const answer=HazzardAnswerHighlights.available(),questionView=!!mcq?.active||['bank','mock'].includes(String(copy.dataset.chapterId||''));
   if(marking)pointLabel(answer?HazzardAnswerHighlights.nextPoint():nextBookNumber);
   if(questionView)pencil.hidden=currentView!=='reader'||!answer;
@@ -6106,39 +6102,7 @@ function handleTab(b){
   if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
   if(b.dataset.view)view(b.dataset.view);else openPanel(b.dataset.panel,b);
 }
-function markDown(e){if(!e.isPrimary||e.button!==0){gesture=null;return}gesture={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now(),scroll:readerScroll.scrollTop,moved:false,ended:false}}
-function markMove(e){if(gesture&&e.pointerId===gesture.id&&Math.hypot(e.clientX-gesture.x,e.clientY-gesture.y)>10)gesture.moved=true}
-function markUp(e){if(gesture&&e.pointerId===gesture.id){gesture.ended=true;gesture.valid=!gesture.moved&&Math.abs(readerScroll.scrollTop-gesture.scroll)<8&&performance.now()-gesture.time<500}}
-function markCancel(){gesture=null}
-
-function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
-copy.addEventListener('click',e=>{
-  const g=gesture;gesture=null;
-  if(performance.now()<suppressTap)return;
-  if(panel.open||!getSelection().isCollapsed||e.target.closest('a,button,input,textarea,summary,[data-reader-metadata]'))return;
-  if(marking&&e.detail&&(!g?.ended||!g.valid))return;
-  const range=e.target.closest('.hl-range'),unit=unitAt(e);
-  if(range||unit?.marked){e.preventDefault();if(!marking)editMark(range?'ranges':'marks',range?.dataset.range||unit.id);return;}
-  if(!marking||!unit)return;
-  e.preventDefault();
-  const cell=e.target.closest('td,th');
-  if(cell?.querySelector('br')){
-    const part=e.target.closest('span[data-unit]');
-    if(!part)return;
-    const line=document.createRange();line.selectNodeContents(cell);
-    for(const br of cell.querySelectorAll('br')){
-      if(br.compareDocumentPosition(part)&Node.DOCUMENT_POSITION_FOLLOWING)line.setStartAfter(br);
-      else{line.setEndBefore(br);break;}
-    }
-    const mark=bookQuote(line);
-    if(mark)editMark('ranges',null,mark);
-  }else createBook('marks',unit.id,{text:highlightText(unit)});
-});
-function markKey(e){
-  if(!marking||panel.open||e.target.closest('[data-reader-metadata]')||!['Enter',' '].includes(e.key))return;
-  e.preventDefault();e.target.click();
-}
-function paintUnit(u){for(const p of u.parts){if(p.closest('.exam-page-badge'))continue;if(u.marked){p.dataset.marked=u.colour;p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')')}else{p.removeAttribute('data-marked');p.style.removeProperty('--mark-colour')}}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
+function paintUnit(u){for(const p of u.parts){if(p.closest('.exam-page-badge'))continue;if(u.marked){p.dataset.marked=u.colour;p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')')}else{p.removeAttribute('data-marked');p.style.removeProperty('--mark-colour')}}}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
 function validHighlight(mark){return mark&&markColours.includes(mark.colour)&&typeof mark.text==='string'}
 function readHighlights(){
@@ -6208,10 +6172,12 @@ function restoreHighlights(){
     for(const [id,mark] of Object.entries(saved.marks)){const u=unitMap.get(id);u.marked=true;u.record=mark;u.colour=mark.colour;paintUnit(u)}
     unplacedRanges=[];
     for(const [id,m] of Object.entries(saved.ranges||{})){if(!placeRange(id,m))unplacedRanges.push({id,...m})}
-    for(const node of copy.querySelectorAll('[data-point]'))node.removeAttribute('data-point');
-    for(const {kind,id,mark} of bookItems(saved))if(mark.number){
+    for(const node of copy.querySelectorAll('[data-mark-key]')){
+      node.removeAttribute('data-mark-key');node.removeAttribute('data-point');node.removeAttribute('tabindex');node.removeAttribute('role');
+    }
+    for(const {kind,id,mark} of bookItems(saved)){
       const node=kind==='marks'?unitMap.get(id)?.parts.find(n=>n.textContent.trim()):rangeMarks.get(id)?.spans[0];
-      if(node)node.dataset.point=mark.number;
+      if(node){node.dataset.markKey=id;node.tabIndex=0;node.setAttribute('role','button');if(mark.number)node.dataset.point=mark.number;}
     }
     nextBookNumber=nextBookPoint(saved);
     if(!HazzardAnswerHighlights.available())pointLabel(nextBookNumber);
@@ -6613,7 +6579,7 @@ function wrapIndexRange(ix,start,end,id,colour){
     const sp=document.createElement('span');sp.className='hl-range';sp.draggable=false;sp.dataset.range=id;sp.dataset.marked=colour;sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
   return spans;
 }
-window.HazzardHighlighter={disableTextDrag,penClickSuppressed:()=>performance.now()<suppressTap,editMark,textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader'};
+window.HazzardHighlighter={unionOfMarks,disableTextDrag,textIndex,wrapIndexRange,sentences};
 function placeRange(id,m){
   const ix=m.bookText?bookTextIndex():textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
   let best=-1,length=m.text.length,bestScore=-1,ambiguous=false;
@@ -6671,8 +6637,7 @@ function placeRange(id,m){
 function unwrapRange(id){const r=rangeMarks.get(id);if(!r)return;for(const sp of r.spans){const p=sp.parentNode;if(!p)continue;sp.replaceWith(...sp.childNodes);p.normalize()}rangeMarks.delete(id)}
 // Use the same normalized characters for creating and restoring a range.
 function bookTextIndex(){return textIndex(copy,n=>!n.parentElement.closest('.exam-page-badge'));}
-function bookQuote(range){
-  const ix=bookTextIndex();
+function bookOffsets(ix,range){
   function offset(start){
     const edge=range.cloneRange();edge.collapse(start);
     let lo=0,hi=ix.nodes.length;
@@ -6682,12 +6647,19 @@ function bookQuote(range){
   let start=offset(true),end=offset(false);
   while(start<end&&ix.s[start]===' ')start++;
   while(end>start&&ix.s[end-1]===' ')end--;
-  if(start===end)return null;
+  return {start,end};
+}
+function bookQuote(range){
+  const ix=bookTextIndex(),{start,end}=bookOffsets(ix,range);
+  return rangeQuote(ix,start,end);
+}
+function rangeQuote(ix,start,end){
+  if(end<=start)return null;
   return {bookText:true,text:ix.s.slice(start,end),prefix:ix.s.slice(Math.max(0,start-48),start),suffix:ix.s.slice(end,end+48)};
 }
 const editor=$('#highlightEditor'),noteField=$('#markNote'),numberField=$('#markNumber');
-const gripStart=$('#markStart'),gripEnd=$('#markEnd');
-let activeMark=null,drag=null,armedGrip=null,holdTimer,holdPoint,suppressTap=0;
+
+let activeMark=null,holdTimer,penStroke=null;
 const numberingKey='hazzard-number-points:'+cid;
 let numbering=false;
 try{numbering=localStorage.getItem(numberingKey)==='1';}catch{}
@@ -6725,67 +6697,73 @@ function persistBook(before,saved){
     writeHighlights(current);resyncHighlights();
   });
 }
-function closeMark(){previewPen(null);activeMark=null;drag=null;armedGrip=null;editor.hidden=gripStart.hidden=gripEnd.hidden=true;noteField.hidden=numberField.hidden=true;}
-function markNodes(){
-  if(!activeMark)return [];
-  const {kind,id}=activeMark;
-  if(kind==='answer')return [...document.querySelectorAll('.mcq-explanation [data-answer-highlight="'+CSS.escape(id)+'"]')].filter(n=>n.getClientRects().length);
+function closeMark(){previewPen(null);activeMark=null;editor.hidden=true;noteField.hidden=numberField.hidden=true;}
+function markNodes({kind,id}){
   return (kind==='marks'?unitMap.get(id)?.parts:rangeMarks.get(id)?.spans)?.filter(n=>n.isConnected&&n.getClientRects().length&&!n.closest('[data-reader-metadata],.exam-page-badge'))||[];
 }
-function markRange(){
-  const nodes=markNodes();if(!nodes.length)return null;
+function markRange(mark){
+  const nodes=markNodes(mark);if(!nodes.length)return null;
   const range=document.createRange();range.setStart(nodes[0],0);range.setEnd(nodes.at(-1),nodes.at(-1).childNodes.length);return range;
-}
-function positionMark(range=drag?.range||markRange()){
-  if(!activeMark||!range)return;
-  const rects=[...range.getClientRects()].filter(r=>r.width&&r.height),first=rects[0],last=rects.at(-1);
-  if(!first||panel.open){closeMark();return;}
-  const field=editor.contains(document.activeElement)&&document.activeElement.matches('input');
-  const top=Math.max(0,chapterHeader.getBoundingClientRect().bottom),bottom=appTabs.getBoundingClientRect().top||innerHeight;
-  const visible=rects.find(r=>r.bottom>=top&&r.top<bottom);
-  if(!visible&&!field&&!drag){closeMark();return;}
-  const limit=(x,min,max)=>Math.max(min,Math.min(max,x));
-  const placement=visible||first;
-  editor.style.left=limit(placement.left,4,innerWidth-editor.offsetWidth-4)+'px';
-  editor.style.top=limit(placement.top-editor.offsetHeight-12>=top?placement.top-editor.offsetHeight-12:placement.bottom+20,top,Math.min(bottom,visualViewport?.height||innerHeight)-editor.offsetHeight)+'px';
-  for(const [handle,r,start] of [[gripStart,first,true],[gripEnd,last,false]]){
-    const rtl=getComputedStyle(markNodes()[start?0:markNodes().length-1]||copy).direction==='rtl';
-    handle.hidden=r.bottom<top||r.top>bottom;
-    handle.style.left=limit((start!==rtl?r.left:r.right)-(start?22:0),0,innerWidth-26)+'px';handle.style.top=r.bottom-2+'px';
-  }
 }
 function showMark(kind,id,mark){
   activeMark={kind,id,mark};editor.hidden=false;
   for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
-  $('#pointChip').textContent='#'+(mark.number||'');$('#numberPoints').setAttribute('aria-pressed',String(numbering));
+  $('#pointChip').textContent='#'+(mark.number||'');
   if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';numberField.value=mark.number||'';
-  positionMark();
 }
-function editMark(kind,id,quote){
+function editMark(kind,id,quote,range){
   try{
     const records=kind==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[kind];
-    if(!id&&kind==='ranges'&&quote&&Object.values(records||{}).some(m=>HazzardStorage.removals.rangeSignature(m)===HazzardStorage.removals.rangeSignature(quote)))return;
-    if(!id&&kind==='marks')return;
     if(!id&&quote){
       if(kind==='answer'){
-        if(HazzardAnswerHighlights.items().some(m=>m.questionId===quote.questionId&&m.region===quote.region&&m.optionIndex===quote.optionIndex&&HazzardStorage.removals.rangeSignature(m)===HazzardStorage.removals.rangeSignature(quote)))return;
-        id=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:HazzardAnswerHighlights.nextPoint()}:quote);if(!id)return;
-        const added=HazzardAnswerHighlights.read().items[id];offerUndo(()=>HazzardAnswerHighlights.edit(id,null,added));closeMark();return;
+        const undo=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:HazzardAnswerHighlights.nextPoint()}:quote);
+        if(undo)offerUndo(undo);closeMark();return;
       }
-      return createBook(kind,'r'+crypto.randomUUID(),quote);
+      return createBook(quote,range);
     }
-    if(records?.[id]){noteField.hidden=numberField.hidden=true;showMark(kind,id,records[id]);}
+    if(records?.[id]){setMarking(true);noteField.hidden=numberField.hidden=true;showMark(kind,id,records[id]);}
   }catch(e){flash(e.message,6000);}
 }
-function createBook(kind,id,quote){
+// Collect the connected group of intersecting marks. Adjacent words alone do not overlap.
+function unionOfMarks(start,end,intervals){
+  const selection={start,end};
+  let group=[],left=0,right=0;
+  for(const item of [...intervals,selection].sort((a,b)=>a.start-b.start)){
+    if(!group.length||item.start>=right){
+      if(group.includes(selection))break;
+      group=[];left=item.start;right=item.end;
+    }
+    group.push(item);right=Math.max(right,item.end);
+  }
+  return {start:left,end:right,hits:group.filter(i=>i!==selection)};
+}
+function createBook(quote,range){
+  const kind='ranges',id='r'+crypto.randomUUID();
   try{
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
-    const saved=readHighlights(),before=structuredClone(saved),record={...quote,colour,at:Date.now()};
-    if(numbering)record.number=nextBookPoint(saved);
-    (saved[kind]||={})[id]=record;persistBook(before,saved);getSelection()?.removeAllRanges();closeMark();
-  }catch(e){flash(e.message,6000);}
+    const saved=readHighlights(),before=structuredClone(saved),number=numbering?nextBookPoint(saved):null;
+    const items=bookItems(saved);
+    let hits=[];
+    if(items.length){
+      const ix=bookTextIndex();
+      const {start,end}=bookOffsets(ix,range),intervals=[];
+      for(const item of items){
+        const painted=markRange(item);if(!painted)continue;
+        const bounds=bookOffsets(ix,painted);
+        if(bounds.end>bounds.start)intervals.push({...item,...bounds});
+      }
+      const merged=unionOfMarks(start,end,intervals);hits=merged.hits;
+      if(hits.length){
+        quote=rangeQuote(ix,merged.start,merged.end);if(!quote)return;
+      }
+    }
+    for(const item of hits)delete saved[item.kind][item.id];
+    const note=[...new Set(hits.map(i=>i.mark.note).filter(Boolean))].join('\n');
+    const record={...quote,colour,at:Date.now(),...(number?{number}:{}),...(note?{note}:{})};
+    (saved[kind]||={})[id]=record;persistBook(before,saved);
+  }catch(e){flash(e.message,6000);}finally{closeMark();}
 }
-function modifyMark(fields,extent=false){
+function modifyMark(fields){
   if(!activeMark)return;
   try{
     let {kind,id,mark}=activeMark;
@@ -6798,7 +6776,6 @@ function modifyMark(fields,extent=false){
     const saved=readHighlights(),before=structuredClone(saved);
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey)||JSON.stringify(saved[kind]?.[id])!==JSON.stringify(mark))throw Error('This highlight changed. Reopen it to edit.');
     delete saved[kind][id];
-    if(extent&&kind==='marks'){kind='ranges';id='r'+crypto.randomUUID();}
     if(fields)(saved[kind]||={})[id]={...mark,...fields,at:Math.max(Date.now(),(mark.at||0)+1)};
     if(fields&&Object.hasOwn(fields,'number')||!fields&&mark.number)renumber(saved,kind,id,fields?.number);
     persistBook(before,saved);if(fields)showMark(kind,id,saved[kind][id]);else closeMark();
@@ -6810,19 +6787,27 @@ for(const value of markColours){
 }
 for(const dot of $('#inkDots').children){
   const penDot=dot.cloneNode(true);$('#penDots').append(penDot);
-  penDot.onclick=()=>{colour=penDot.dataset.ink;applyDisplay();saveDisplay();};
+  penDot.onclick=()=>{
+    if(!$('#penDots').classList.contains('expanded')){$('#penDots').classList.add('expanded');return;}
+    colour=penDot.dataset.ink;$('#penDots').classList.remove('expanded');applyDisplay();saveDisplay();
+  };
 }
 function displayPen(){
   for(const dot of $('#penDots').children)dot.setAttribute('aria-pressed',String(dot.dataset.ink===colour));
   $('#penNumbers').setAttribute('aria-pressed',String(numbering));
 }
 displayPen();
-$('#markNoteToggle').onclick=()=>{numberField.hidden=true;noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();positionMark();};
-$('#pointChip').onclick=()=>{noteField.hidden=true;numberField.hidden=!numberField.hidden;if(!numberField.hidden){numberField.focus();numberField.select();}positionMark();};
+$('#markNoteToggle').onclick=()=>{numberField.hidden=true;noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();};
+$('#pointChip').onclick=()=>{noteField.hidden=true;numberField.hidden=!numberField.hidden;if(!numberField.hidden){numberField.focus();numberField.select();}};
 noteField.oninput=()=>{modifyMark({note:noteField.value});};
 numberField.onchange=()=>{if(numberField.validity.valid)modifyMark({number:numberField.value?Number(numberField.value):null});};
-for(const input of [noteField,numberField])input.onkeydown=e=>{if(e.key==='Enter'){input.blur();input.hidden=true;positionMark();}};
-$('#penNumbers').onclick=$('#numberPoints').onclick=()=>{numbering=!numbering;try{localStorage.setItem(numberingKey,numbering?'1':'0');}catch{}$('#numberPoints').setAttribute('aria-pressed',String(numbering));displayPen();};
+for(const input of [noteField,numberField])input.onkeydown=e=>{if(e.key==='Enter'){input.blur();input.hidden=true;}};
+$('#penNumbers').onclick=()=>{numbering=!numbering;try{localStorage.setItem(numberingKey,numbering?'1':'0');}catch{}displayPen();};
+$('#markCopy').onclick=async()=>{
+  if(!activeMark)return;
+  try{await navigator.clipboard.writeText(activeMark.mark.text);closeMark();}
+  catch{flash('Copy unavailable. Check clipboard permission.',4000);}
+};
 $('#markDelete').onclick=()=>modifyMark(null);
 function caretWord(x,y){
   const c=document.caretPositionFromPoint?.(x,y),f=!c&&document.caretRangeFromPoint?.(x,y),n=c?.offsetNode||f?.startContainer;
@@ -6832,90 +6817,73 @@ function caretWord(x,y){
   while(at>0&&word(n.data[at-1]))at--;while(end<n.length&&word(n.data[end]))end++;
   if(end===at)return null;const range=document.createRange();range.setStart(n,at);range.setEnd(n,end);return range;
 }
-for(const [handle,start] of [[gripStart,true],[gripEnd,false]]){
-  function adjust(r,word){
-    if(!word||!(activeMark.kind==='answer'?word.startContainer.parentElement.closest('.mcq-explanation'):copy.contains(word.commonAncestorContainer)))return null;
-    const next=r.cloneRange();if(start)next.setStart(word.startContainer,word.startOffset);else next.setEnd(word.endContainer,word.endOffset);
-    return next.collapsed?null:next;
-  }
-  function applyExtent(range){
-    if(!range)return;
-    previewPen(null);
-    const fields=activeMark.kind==='answer'?HazzardAnswerHighlights.selection(range):bookQuote(range);
-    if(fields)modifyMark(fields,true);
-  }
-  handle.onpointerdown=e=>{const range=markRange();if(!range)return;e.preventDefault();handle.setPointerCapture(e.pointerId);drag={range,changed:false};};
-  handle.onpointermove=e=>{
-    if(!drag)return;
-    const next=adjust(drag.range,caretWord(e.clientX,e.clientY-5));if(!next)return;
-    drag={range:next,changed:true};previewPen(next);positionMark(next);
-  };
-  handle.onpointerup=()=>{if(!drag)return;const {range,changed}=drag;drag=null;
-    if(changed)applyExtent(range);else {armedGrip=(word)=>applyExtent(adjust(range,word));flash('Tap the new '+(start?'first':'last')+' word.',2500);}
-  };
-  handle.onkeydown=e=>{
-    if(!['ArrowLeft','ArrowRight'].includes(e.key))return;
-    const range=markRange();if(!range)return;e.preventDefault();
-    const edge=range.cloneRange();edge.collapse(start);
-    const sel=getSelection();sel.removeAllRanges();sel.addRange(edge);
-    sel.modify('move',e.key==='ArrowLeft'?'backward':'forward','word');
-    const next=adjust(range,sel.getRangeAt(0));sel.removeAllRanges();applyExtent(next);
-  };
-  handle.onpointercancel=()=>{drag=null;previewPen(null);positionMark();};
-}
+document.addEventListener('keydown',e=>{
+  const node=e.target.closest?.('[data-mark-key]');if(!node||!['Enter',' '].includes(e.key))return;
+  e.preventDefault();
+  editMark(node.dataset.answerHighlight?'answer':node.dataset.range?'ranges':'marks',node.dataset.markKey);
+});
 function previewPen(range){
   if(!CSS.highlights)return;
   if(range)CSS.highlights.set('pen-preview',new Highlight(range));else CSS.highlights.delete('pen-preview');
 }
-let penStroke=null;
+function cancelPenGesture(){
+  clearTimeout(holdTimer);penStroke=null;closeMark();
+}
 document.addEventListener('pointerdown',e=>{
-  const root=e.target.closest('#copy,.mcq-explanation');
-  if(root&&e.isPrimary)suppressTap=0;
-  if(!marking||!root||e.button!==0||!e.isPrimary||e.target.closest('a,button,summary,[data-reader-metadata]'))return;
-  const word=caretWord(e.clientX,e.clientY);
-  if(!word||!root.contains(word.commonAncestorContainer))return;
-  const marked=e.target.closest('[data-range],[data-answer-highlight],[data-marked]');
-  const id=marked?.dataset.answerHighlight||marked?.dataset.range||marked?.dataset.unit;
-  const existing=id&&[root!==copy?'answer':marked.dataset.range?'ranges':'marks',id];
-  suppressTap=0;holdPoint=[e.clientX,e.clientY];clearTimeout(holdTimer);
-  const scroller=root===copy?readerScroll:root.closest('#mcqViewport');
-  penStroke={id:e.pointerId,root,scroller,word,range:word,existing,selecting:false,moved:false,scroll:scroller.scrollTop,panning:false};
+  if(!e.isPrimary){cancelPenGesture();return;}
+  if(activeMark&&!editor.contains(e.target)&&!markBar.contains(e.target))closeMark();
+  const root=e.target.closest(readingText);
+  if(!root||panel.open||currentView!=='reader'||e.button!==0||e.target.closest('a,button,input,textarea,select,summary,img,svg,[data-reader-metadata]'))return;
+  clearTimeout(holdTimer);
+  const word=caretWord(e.clientX,e.clientY),book=root===copy;
+  const hit=(word?.startContainer.parentElement||e.target).closest('[data-range],[data-answer-highlight],[data-marked]');
+  const id=hit?.dataset.answerHighlight||hit?.dataset.range||hit?.dataset.unit;
+  const scroller=book?readerScroll:root.closest('#mcqViewport');
+  if(!scroller)return;
+  const table=e.target.closest('.table-wrap');
+  const stroke=penStroke={id:e.pointerId,root,word,range:word,book,hit:id&&[book?(hit.dataset.range?'ranges':'marks'):'answer',id],
+    x:e.clientX,y:e.clientY,scroll:scroller.scrollTop,scroller,table,left:table?.scrollLeft||0,selecting:false,moved:false};
   e.preventDefault();e.target.setPointerCapture(e.pointerId);
-  holdTimer=setTimeout(()=>{if(!penStroke)return;cancelClaimHold();penStroke.selecting=true;previewPen(word);},450);
+  if(word&&root.contains(word.commonAncestorContainer))holdTimer=setTimeout(()=>{
+    if(penStroke!==stroke||stroke.moved)return;
+    cancelClaimHold();closeMark();setMarking(true);stroke.selecting=true;previewPen(stroke.range);
+  },350);
 });
 document.addEventListener('pointermove',e=>{
   const stroke=penStroke;if(!stroke||e.pointerId!==stroke.id)return;
-  const dx=e.clientX-holdPoint[0],dy=e.clientY-holdPoint[1];
+  const dx=e.clientX-stroke.x,dy=e.clientY-stroke.y;
   if(!stroke.moved&&Math.hypot(dx,dy)<8)return;
-  stroke.moved=true;clearTimeout(holdTimer);
-  if(!stroke.selecting&&e.pointerType==='touch'&&Math.abs(dy)>Math.abs(dx))stroke.panning=true;
-  if(stroke.panning){stroke.scroller.scrollTop=stroke.scroll-dy;return;}
+  clearTimeout(holdTimer);stroke.moved=true;
+  if(!stroke.selecting){
+    if(e.pointerType==='touch')return; // Let the browser pan and fling normally.
+    stroke.scroller.scrollTop=stroke.scroll-dy;
+    if(stroke.table)stroke.table.scrollLeft=stroke.left-dx;
+    return;
+  }
   const word=caretWord(e.clientX,e.clientY);if(!word||!stroke.root.contains(word.commonAncestorContainer))return;
-  stroke.selecting=true;const range=stroke.word.cloneRange();
+  const range=stroke.word.cloneRange();
   if(word.compareBoundaryPoints(Range.START_TO_START,range)<0)range.setStart(word.startContainer,word.startOffset);
   else range.setEnd(word.endContainer,word.endOffset);
   stroke.range=range;previewPen(range);
 });
-function endPenStroke(e){
+// Only a hold which has already won the gesture may consume the touch move.
+document.getElementById('readerViewport').addEventListener('touchmove',e=>{
+  if(penStroke?.selecting&&e.cancelable)e.preventDefault();
+},{passive:false});
+document.addEventListener('pointerup',e=>{
   const stroke=penStroke;if(!stroke||stroke.id!==e.pointerId)return;
-  clearTimeout(holdTimer);penStroke=null;holdPoint=null;previewPen(null);
-  if(!stroke.selecting&&!stroke.panning)return;
-  suppressTap=performance.now()+700;
-  if(e.type!=='pointerup'||!stroke.selecting)return;
-  if(stroke.existing&&!stroke.moved){editMark(...stroke.existing);return;}
-  const book=stroke.root===copy,quote=book?bookQuote(stroke.range):HazzardAnswerHighlights.selection(stroke.range);
-  if(quote)editMark(book?'ranges':'answer',null,quote);
-}
-document.addEventListener('pointerup',endPenStroke,true);document.addEventListener('pointercancel',endPenStroke,true);
-document.addEventListener('pointerdown',e=>{
-  if(armedGrip&&e.target.closest('#copy,.mcq-explanation')){
-    const apply=armedGrip;armedGrip=null;apply(caretWord(e.clientX,e.clientY));suppressTap=performance.now()+500;e.preventDefault();e.stopImmediatePropagation();return;
-  }
-  armedGrip=null;if(activeMark&&!e.target.closest('#highlightEditor,.mark-grip')){if(document.activeElement===numberField)numberField.blur();closeMark();}},true);
-document.addEventListener('keydown',e=>{if(activeMark&&e.key==='Escape'){closeMark();e.stopImmediatePropagation();}},true);
-document.addEventListener('scroll',()=>{if(activeMark&&!drag)positionMark();},true);
-addEventListener('resize',()=>{if(activeMark)positionMark();});
-
+  clearTimeout(holdTimer);penStroke=null;previewPen(null);
+  if(stroke.selecting){
+    const quote=stroke.book?bookQuote(stroke.range):HazzardAnswerHighlights.selection(stroke.range);
+    if(quote)editMark(stroke.book?'ranges':'answer',null,quote,stroke.range);
+  }else if(!stroke.moved&&stroke.hit)editMark(...stroke.hit);
+},true);
+for(const type of ['pointercancel','lostpointercapture'])document.addEventListener(type,e=>{
+  if(penStroke?.id===e.pointerId)cancelPenGesture();
+},true);
+window.addEventListener('blur',cancelPenGesture);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelPenGesture();});
+document.addEventListener('keydown',e=>{if(activeMark&&e.key==='Escape'){setMarking(false);e.stopImmediatePropagation();}},true);
 function resyncHighlights(){for(const u of unitMap.values())if(u.marked){u.marked=false;u.colour=null;paintUnit(u)}for(const id of [...rangeMarks.keys()])unwrapRange(id);highlightLoadFailed=false;restoreHighlights()}
 addEventListener('pageshow',e=>{if(e.persisted)resyncHighlights()});
 addEventListener('storage',e=>{if(e.key===highlightStorageKey)resyncHighlights()});

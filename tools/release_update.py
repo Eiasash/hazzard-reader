@@ -266,7 +266,12 @@ def run_update(args):
 
     def tap_text(element, needle=None):
         p = point(element, needle)
-        if width == 360:
+        if pg.locator("#markCopy").count():
+            pg.mouse.move(p["x"], p["y"])
+            pg.mouse.down()
+            pg.wait_for_timeout(450)
+            pg.mouse.up()
+        elif width == 360:
             pg.touchscreen.tap(p["x"], p["y"])
         else:
             pg.mouse.click(p["x"], p["y"])
@@ -290,7 +295,7 @@ def run_update(args):
         value = json.loads(raw or "{}")
         return {
             i: m
-            for i, m in value.get("items" if ch == Q else "marks", {}).items()
+            for i, m in (value.get("items", {}) if ch == Q else {**value.get("marks", {}), **value.get("ranges", {})}).items()
             if not m.get("removed")
         }
 
@@ -304,6 +309,8 @@ def run_update(args):
     def colour(label):
         ink = "green" if label == "Underline" else label.lower()
         dot = pg.locator(f'#penDots [data-ink="{ink}"]')
+        if pg.locator("#markCopy").count() and pg.locator("#penDots button:visible").count() == 1:
+            pg.locator("#penDots button:visible").click()
         if dot.is_visible():
             dot.click()
             return
@@ -326,7 +333,7 @@ def run_update(args):
         return pg.locator(
             '.mcq-explanation [data-answer-highlight="' + i + '"]'
             if ch == Q
-            else '#copy [data-unit="' + i + '"][data-marked]'
+            else '#copy [data-range="' + i + '"], #copy [data-unit="' + i + '"][data-marked]'
         )
 
     def assert_style(locator, stored):
@@ -370,10 +377,12 @@ def run_update(args):
         for uid, hue in zip(units, ("yellow", "Underline")):
             colour(hue)
             elt = pg.locator('#copy p span[data-unit="' + uid + '"]').first
+            prior_ids = set(marks(CH))
             tap_text(elt)
             saved = "green" if hue == "Underline" else hue
-            assert marks(CH)[uid]["colour"] == saved
-            assert_style(painted(CH, uid), saved)
+            created, = set(marks(CH)) - prior_ids
+            assert marks(CH)[created]["colour"] == saved
+            assert_style(painted(CH, created), saved)
         assert pg.locator("#bookmark").get_attribute("aria-pressed") == "false"
         if pg.locator("#penMore").is_visible():
             pg.locator("#penMore summary").click()
@@ -404,7 +413,8 @@ def run_update(args):
         assert worker() == old_version
 
     def baseline_evidence(snapshot):
-        entries = json.loads(snapshot[CHKEY + CH])["marks"]
+        chapter = json.loads(snapshot[CHKEY + CH])
+        entries = {**chapter["marks"], **chapter.get("ranges", {})}
         bookmarks = json.loads(snapshot["hazzard-bookmarks-v1"])
         progress = json.loads(snapshot["hazzard-reading-progress-v1"])["chapters"][CH]
         answer = json.loads(snapshot["hazzard-mcq-v1"])["answers"][QID]
