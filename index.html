@@ -5952,7 +5952,7 @@ function visibleReadingAnchor(){
   if(readerScroll.scrollTop<1||readerScroll.inert||$('#reader').hidden)return null;
   const area=copy.getBoundingClientRect(),scrollBox=readerScroll.getBoundingClientRect();
   const top=Math.max(0,scrollBox.top,chapterHeader.getBoundingClientRect().bottom)+2;
-  for(let y=top;y<Math.min(scrollBox.bottom,top+180);y+=8){
+  for(let y=top;y<scrollBox.bottom;y+=y<top+180?8:24){
     for(const x of [area.left+4,area.left+24,area.left+area.width/2]){
       const el=document.elementFromPoint(x,y);
       if(!el?.closest('#copy [data-unit]')||el.closest('[data-reader-metadata]'))continue;
@@ -6114,7 +6114,7 @@ function markKey(e){
   if(!marking||panel.open||e.target.closest('[data-reader-metadata]')||!['Enter',' '].includes(e.key))return;
   e.preventDefault();e.target.click();
 }
-function paintUnit(u){for(const p of u.parts){if(u.marked){p.dataset.marked=u.colour;p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')')}else{p.removeAttribute('data-marked');p.style.removeProperty('--mark-colour')}}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
+function paintUnit(u){for(const p of u.parts){if(p.closest('.exam-page-badge'))continue;if(u.marked){p.dataset.marked=u.colour;p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')')}else{p.removeAttribute('data-marked');p.style.removeProperty('--mark-colour')}}const target=u.parts.find(p=>p.textContent.trim())||u.parts[0];if(marking&&target.getAttribute('role')==='button')target.setAttribute('aria-pressed',String(u.marked));else target.removeAttribute('aria-pressed')}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
 function validHighlight(mark){return mark&&markColours.includes(mark.colour)&&typeof mark.text==='string'}
 function readHighlights(){
@@ -6548,7 +6548,7 @@ function wrapIndexRange(ix,start,end,id,colour){
 }
 window.HazzardHighlighter={editMark,textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader',answerColour:()=>colour};
 function placeRange(id,m){
-  const ix=textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
+  const ix=m.bookText?bookTextIndex():textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
   let best=-1,length=m.text.length,bestScore=-1,ambiguous=false;
   function consider(text,at,target,lengthAfter){
     let score=0;
@@ -6603,8 +6603,9 @@ function placeRange(id,m){
 }
 function unwrapRange(id){const r=rangeMarks.get(id);if(!r)return;for(const sp of r.spans){const p=sp.parentNode;if(!p)continue;sp.replaceWith(...sp.childNodes);p.normalize()}rangeMarks.delete(id)}
 // Use the same normalized characters for creating and restoring a range.
+function bookTextIndex(){return textIndex(copy,n=>!n.parentElement.closest('.exam-page-badge'));}
 function bookQuote(range){
-  const ix=textIndex();
+  const ix=bookTextIndex();
   function offset(start){
     const edge=range.cloneRange();edge.collapse(start);
     let lo=0,hi=ix.nodes.length;
@@ -6615,7 +6616,7 @@ function bookQuote(range){
   while(start<end&&ix.s[start]===' ')start++;
   while(end>start&&ix.s[end-1]===' ')end--;
   if(start===end)return null;
-  return {text:ix.s.slice(start,end),prefix:ix.s.slice(Math.max(0,start-48),start),suffix:ix.s.slice(end,end+48)};
+  return {bookText:true,text:ix.s.slice(start,end),prefix:ix.s.slice(Math.max(0,start-48),start),suffix:ix.s.slice(end,end+48)};
 }
 function storeBookMark(kind,id,mark,original){
   const saved=readHighlights(),records=saved[kind]||={};
@@ -7387,7 +7388,15 @@ if(/^\d+s?$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error
 // Evidence has finished resolving the original printed-page boundaries.
 for(const marker of copy.querySelectorAll('a.pg,.exam-page-badge')){
   const block=marker.closest('p,li,td,th,figcaption,h1,h2,h3,h4,h5,h6');
-  if(block)block.insertBefore(marker,block.querySelector(':scope > .exam-links'));
+  if(!block)continue;
+  let chip=marker;
+  if(marker.matches('.exam-page-badge')){
+    // Old ranges count the printed exam flag at its original character offset.
+    // Keep that source in place but display only the plain, unmarked chip at the end.
+    chip=document.createElement('span');chip.className=marker.className;
+    chip.dataset.readerMetadata='exam';chip.textContent=marker.textContent;marker.hidden=true;
+  }
+  block.insertBefore(chip,block.querySelector(':scope > .exam-links'));
 }
 const figureId=node=>node?.textContent.trim().match(/^fig(?:ure)?\.?\s+(\d+[-–]\d+[a-z]?)(?![\w-])/i)?.[1].toLowerCase().replace('–','-');
 for(const figure of copy.querySelectorAll('figure:has(img)')){
