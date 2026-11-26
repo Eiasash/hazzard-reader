@@ -282,13 +282,40 @@ window.HazzardStorage = (() => {
   // Remove the active key only when its committed copy has the same raw bytes.
   const retiredKeys=new Set(['hazzard-timer-v1','hazzard-timer-v2']),archived={};
   const archivedValues=()=>({...archived});
+  const archiveId='retired-notebook-values';
+  async function archiveRetired(previous={}){
+    const active={};
+    for(const key of retiredKeys){
+      const raw=localStorage.getItem(key);
+      if(raw!==null)active[key]=raw;
+    }
+    await new Promise((resolve,reject)=>{
+      const tx=transaction('readwrite'),store=tx.objectStore(STORE),get=store.get(archiveId);
+      get.onsuccess=()=>{
+        const values={...get.result?.values};
+        for(const key of retiredKeys)if(values[key]===undefined&&typeof previous[key]==='string')values[key]=previous[key];
+        Object.assign(values,active);
+        if(Object.keys(values).length)store.put({id:archiveId,values});
+      };
+      tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error);tx.onerror=()=>{};
+    });
+    const verified=await new Promise((resolve,reject)=>{
+      const tx=transaction('readonly'),get=tx.objectStore(STORE).get(archiveId);
+      get.onsuccess=()=>resolve(get.result?.values||{});get.onerror=()=>reject(get.error);
+    });
+    Object.assign(archived,verified);
+    for(const [key,raw] of Object.entries(active)){
+      if(verified[key]!==raw)throw Error('A historical backup value could not be verified.');
+      if(localStorage.getItem(key)===raw)localStorage.removeItem(key);
+    }
+  }
   function capture(preserveInvalid=false){
     const storage=archivedValues();for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&!protectedStores.has(key)&&!validRaw(key,raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
     return storage;
   }
   async function hash(storage){const bytes=new TextEncoder().encode(JSON.stringify(storage));const digest=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');}
   function transaction(mode){try{return db.transaction(STORE,mode,{durability:'strict'});}catch{return db.transaction(STORE,mode);}}
-  function rows(){return new Promise((resolve,reject)=>{const tx=transaction('readonly'),request=tx.objectStore(STORE).getAll();request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});}
+  function rows(){return new Promise((resolve,reject)=>{const tx=transaction('readonly'),request=tx.objectStore(STORE).getAll();request.onsuccess=()=>resolve(request.result.filter(row=>row.id!==archiveId));request.onerror=()=>reject(request.error);});}
   async function usable(row){return row?.version===1&&Number.isFinite(row.at)&&isRecord(row.storage)&&Object.entries(row.storage).every(([k,v])=>validRaw(k,v))&&typeof row.hash==='string'&&row.hash===await hash(row.storage);}
   async function indexSnapshots(){
     const saved=(await rows()).sort((a,b)=>b.at-a.at||b.id-a.id);let latest=null;
@@ -303,6 +330,9 @@ window.HazzardStorage = (() => {
   function snapshot({preserveInvalid=false}={}){
     // Capture the whole reader state at the change, not at pagehide. Primary
     // localStorage has already acknowledged this write before we get here.
+    if(db&&[...retiredKeys].some(key=>localStorage.getItem(key)!==null)){
+      tail=tail.then(()=>archiveRetired()).catch(error=>{status.error=error.message;notify();});
+    }
     if(blockedKeys().length){notify();return tail;}
     let storage;try{storage=capture(preserveInvalid);}catch(error){status.error=error.message;notify();return tail;}
     const payload=JSON.stringify(storage),at=Date.now();
@@ -313,16 +343,10 @@ window.HazzardStorage = (() => {
       const digest=await hash(storage);
       await new Promise((resolve,reject)=>{
         const tx=transaction('readwrite'),store=tx.objectStore(STORE);store.add({version:1,at,storage,hash:digest});
-        const request=store.getAll();request.onsuccess=()=>{const ordered=request.result.sort((a,b)=>b.at-a.at||b.id-a.id);for(const row of ordered.slice(KEEP))store.delete(row.id);};
+        const request=store.getAll();request.onsuccess=()=>{const ordered=request.result.filter(row=>row.id!==archiveId).sort((a,b)=>b.at-a.at||b.id-a.id);for(const row of ordered.slice(KEEP))store.delete(row.id);};
         tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error||Error('Automatic snapshot could not be written'));tx.onerror=()=>{};
       });
-      const committed=await indexSnapshots();
-      for(const key of retiredKeys){
-        const raw=storage[key];
-        if(typeof raw==='string'&&committed?.storage[key]===raw&&localStorage.getItem(key)===raw){
-          archived[key]=raw;localStorage.removeItem(key);
-        }
-      }
+      await indexSnapshots();
       status.snapshotAt=at;status.error='';notify();
       dispatchEvent(new Event('hazzard-snapshot-saved'));
     }).catch(error=>{if(queuedPayload===payload)queuedPayload=null;status.error=error.message||'Automatic local snapshot failed.';notify();});
@@ -332,13 +356,14 @@ window.HazzardStorage = (() => {
     try{
       db=await new Promise((resolve,reject)=>{const request=indexedDB.open(DB_NAME,1);request.onupgradeneeded=()=>request.result.createObjectStore(STORE,{keyPath:'id',autoIncrement:true});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('Automatic snapshots are blocked by another tab.'));});
       const latest=await indexSnapshots();
+      await archiveRetired(latest?.storage);
       await recoverLocalPlace();
       if(latest){
         status.snapshotAt=latest.at;
         // Restore only absent or invalid values. Valid empty marks/grades are
         // intentional changes and must not be resurrected from older copies.
         for(const [key,raw] of Object.entries(latest.storage)){
-          if(retiredKeys.has(key)){archived[key]=raw;continue;}
+          if(retiredKeys.has(key))continue;
           if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
         }
       }
