@@ -97,3 +97,5 @@ body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(
 #markUndo { bottom:calc(var(--tabs-height) + 54px);left:50%;transform:translateX(-50%);white-space:nowrap;padding:2px 8px;background:var(--surface);border:1px solid var(--rule);border-radius:8px;font:13px var(--ui); }
 #markUndo button { min-height:32px; }
 [data-point]::before { content:attr(data-point);vertical-align:super;font:bold .7em var(--ui);color:var(--accent);margin-inline-end:.2em; }
+
+body:has(#panel[open]) #markUndo { display:none; }

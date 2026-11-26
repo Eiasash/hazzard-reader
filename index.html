@@ -5768,6 +5768,7 @@ function closePanel(){
   else{hidePanel();syncTabs();syncMarkingUI();updateStorageNotice()}
 }
 function displayPane(name){
+  closeMark();
   const pane=$('[data-pane="'+name+'"]');if(!pane)return;
   setPanelExpanded(false);
   panel.dataset.currentPane=name;
@@ -7298,6 +7299,13 @@ function mergeNotebookValue(key,current,incoming){
       const same=Object.keys(merged.ranges).find(key=>removals.rangeSignature(merged.ranges[key])===removals.rangeSignature(mark));if(same!==undefined){if(removals.addTime(mark)>removals.addTime(merged.ranges[same]))merged.ranges[same]=mark;continue;}
       let target=id,n=1;while(Object.hasOwn(merged.ranges,target))target=id+'-restored-'+n++;
       merged.ranges[target]=mark;
+    }
+    // Two offline devices can independently assign the same next point number.
+    const points=bookItems(merged).filter(i=>i.mark.number);
+    if(new Set(points.map(i=>i.mark.number)).size!==points.length){
+      points.sort((a,b)=>a.mark.number-b.mark.number||(a.mark.at||0)-(b.mark.at||0)||(a.id<b.id?-1:1));
+      const at=1+points.reduce((latest,i)=>Math.max(latest,i.mark.at||0),0);
+      points.forEach(({kind,id,mark},i)=>{if(mark.number!==i+1)merged[kind][id]={...mark,number:i+1,at};});
     }
     return merged;
   }
