@@ -1,7 +1,7 @@
 /* Finger strokes use Android's touch stream. A swipe before the hold belongs
    to the browser. Once the hold wins, preview and save share the same Range. */
 function isReaderControl(target){
-  return !!target?.closest?.('input,textarea,select,option,button,a[href],label,summary,[contenteditable]:not([contenteditable="false"]),[role="button"],[role="link"],dialog,[role="dialog"],#panel');
+  return !!target?.closest?.('input,textarea,select,option,button,a[href],label,summary,[contenteditable]:not([contenteditable="false"]),[role="button"]:not([data-mark-key]),[role="link"],dialog,[role="dialog"],#panel');
 }
 function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close}) {
   let timer;
