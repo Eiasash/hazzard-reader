@@ -38,7 +38,11 @@ def write_package(out):
         return ""
     html = re.sub(r"<script\b([^>]*)>(.*?)</script>", executable, html, flags=re.S)
     policy = """<meta http-equiv="Content-Security-Policy" content="connect-src 'self'; object-src 'none'; form-action 'none'; base-uri 'self'">"""
-    html = html.replace("<head>", "<head>"+policy,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
+    # Preserve the parser's parallel fetching while authorizing execution
+    # only after the preview-origin check.
+    preload = "".join(f'<link rel="modulepreload" href="{src}">' if module else
+                      f'<link rel="preload" as="script" href="{src}">' for src,module in scripts)
+    html = html.replace("<head>", "<head>"+policy+preload,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
     (out / "index.html").write_text(html,encoding="utf-8",newline="\n")
     bootstrap = """(async()=>{
  const host=location.hostname;

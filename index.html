@@ -5199,6 +5199,9 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <script src="js/reader-input.js"></script>
 <script src="js/reader-storage.js"></script>
 <script src="js/reader-cloud.js"></script>
+<script type="module">if(!HazzardReadingCompanion.embedded)await import('./js/reader-status.js');</script>
+<script src="js/reader-whats-new.js"></script>
+<script src="js/changed-questions.js"></script>
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const companionFrame=HazzardReadingCompanion.embedded;
 const launchParams=new URLSearchParams(location.search);
@@ -7636,7 +7639,7 @@ disableTextDrag(copy);
 dispatchEvent(new Event('hazzard-reader-ready'));
 })().catch(error=>{delete document.documentElement.dataset.resolvingRoot;const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(HazzardReadingCompanion.embedded)HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
 
-<script type="module">if(!HazzardReadingCompanion.embedded)await import('./js/reader-status.js');</script>
-<script src="js/reader-whats-new.js"></script>
-<script src="js/changed-questions.js"></script>
+
+
+
 </body></html>
