@@ -24,7 +24,7 @@ window.HazzardStudyHome = (() => {
     return value;
   }
 
-  function readingCoverage(chapters, keys) {
+  function completedChapters(keys) {
     let finished;
     try {
       const progress = notebook(keys.reading, null);
@@ -39,6 +39,19 @@ window.HazzardStudyHome = (() => {
       }
       finished = done;
     } catch { /* An unreadable notebook is different from an empty one. */ }
+    return finished;
+  }
+
+  function startReading(order, keys) {
+    if (!order.length) return null;
+    const finished = completedChapters(keys);
+    if (!finished) return null;
+    const unread = order.find(id => !finished.has(id));
+    return {chapter: unread || order[0], reread: !unread};
+  }
+
+  function readingCoverage(chapters, keys) {
+    const finished = completedChapters(keys);
     for (const [id, kind, pattern] of [
       ['homeRead', 'chapter', /^\d+$/], ['homeStudied', 'study', /^\d+s$/]
     ]) {
@@ -138,5 +151,5 @@ window.HazzardStudyHome = (() => {
     watchDay(today, chapters, keys);
   }
 
-  return {refresh};
+  return {refresh, startReading};
 })();

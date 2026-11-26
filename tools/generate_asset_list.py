@@ -1,6 +1,7 @@
 """Run after release edits: python tools/generate_asset_list.py. No site build needed."""
 import hashlib
 import json
+from collections import Counter
 from pathlib import Path
 import re
 from PIL import Image
@@ -40,6 +41,17 @@ with index_path.open('w', encoding='utf-8', newline='') as target:
     target.write(html)
 print(f'Generated dimensions for {len(image_sizes)} chapter images')
 manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
+references = json.loads((ROOT / 'data/mcq/exam-references.json').read_text(encoding='utf-8'))
+years = sorted({q['sitting'][:4] for q in references['questions'].values()}, reverse=True)
+def exam_yield_key(chapter):
+    ids = set(references['study'].get(chapter, {}).get('ids', []))
+    per_year = Counter(references['questions'][ident]['sitting'][:4] for ident in ids)
+    return (-len(ids), *(-per_year[year] for year in years), int(chapter))
+
+manifest['examYieldOrder'] = sorted(
+    (item['number'] for item in manifest['chapters'] if item['kind'] == 'chapter' and item['number'].isdigit()),
+    key=exam_yield_key,
+)
 paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
 paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png','data/highlight-aliases.json'})
 paths.update(question_files)
