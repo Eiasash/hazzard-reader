@@ -331,15 +331,21 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}
 
 /* Reader annotations are inserted after highlight units have been assigned. */
-#copy .exam-links{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:0 .25em;max-width:100%;margin:0 .25em;font:600 calc(11px * var(--fs,1))/1.3 var(--ui);color:var(--exam);vertical-align:baseline}
-#copy .exam-links a{display:inline-flex;align-items:center;min-height:24px;min-block-size:24px;padding:0 .14em;border:0;border-radius:3px;background:transparent;white-space:nowrap;color:inherit}
-#copy .exam-links a:focus-visible,#copy .exam-links a:hover{background:var(--exam-soft);outline:1px solid var(--exam)}
+#copy .exam-links{display:inline-flex;flex-direction:column;max-inline-size:100%;margin:0;font:600 calc(11px * var(--fs,1))/1.3 var(--ui);color:var(--exam);vertical-align:middle}
+#copy .exam-link-group{display:flex;inline-size:100%;min-inline-size:0;contain:inline-size}
+#copy .exam-link-line,#copy .exam-link-extra{display:flex;align-items:center;gap:0 4px}
+#copy .exam-link-line{flex-wrap:nowrap;white-space:nowrap}
+#copy .exam-link-extra{flex-wrap:wrap}
+#copy .exam-link-count{flex:none}
+#copy .exam-links a,#copy .exam-links button{display:inline-flex;flex:none;align-items:center;justify-content:center;box-sizing:border-box;min-block-size:44px;min-inline-size:44px;padding:0 3px;border:0;border-radius:3px;background:transparent;white-space:nowrap;color:inherit;font:inherit}
+#copy .exam-links button{text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+#copy .exam-links :is(a,button):is(:focus-visible,:hover){background:var(--exam-soft);outline:1px solid var(--exam)}
 #copy .exam-missed{display:inline-block;color:var(--exam);font:600 calc(11px * var(--fs,1))/1.3 var(--ui);margin-inline:.35em;padding:.1em .35em;border:1px solid currentColor;border-radius:3px}
 #copy .section-practice{font:500 calc(12px * var(--fs,1))/1.55 var(--ui);margin:.4em 0 1.4em;color:var(--muted)}
 #copy .section-practice a{display:inline-flex;align-items:center;min-block-size:44px;padding-block:4px;color:var(--accent)}
 
-/* The chapter-wide list has its own line; links inside sentences stay inline. */
-#copy #asked-chapter.exam-links a, .chapter-exams { min-block-size: 44px; }
+.chapter-exams { min-block-size: 44px; }
+.chapter-exams-reader{display:flex;align-items:center;gap:.3em;margin:0;padding-block:0;line-height:1.3}
 .mcq-citations .meta > a:only-child { display: inline-flex; align-items: center; min-block-size: 44px; }
 .mcq-page > label:has(> [data-select="track"]) { display: flex; align-items: center; gap: 8px; }
 .mcq-page > label > [data-select="track"] { min-block-size: 44px; padding: 4px 8px; background: var(--surface); color: var(--ink); border: 1px solid var(--control); border-radius: 7px; }

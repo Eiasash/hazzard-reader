@@ -21,7 +21,6 @@ window.HazzardFlashcards = (() => {
     return HazzardStorage.readProtected(KEY, empty);
   }
 
-  const chapters = new Set(['55', '59', '61', '22', '1', '58', '3', '99', '46']);
   let dataset, bank, pane, session, requested, catalog, lookup, onResize;
   let currentRequest = 0, saving = false, pendingGrade = Promise.resolve();
   function loadCards() {
@@ -213,7 +212,7 @@ window.HazzardFlashcards = (() => {
     const row = document.createElement('li');
     row.append(buttonFor('all'));
     document.querySelector('[data-pane="practice"] .rows li')?.after(row);
-    if (chapter.endsWith('s') && chapters.has(chapter.slice(0, -1))) {
+    if (chapter.endsWith('s') && HazzardEvidence.isRebuilt(chapter.slice(0, -1))) {
       const entry = buttonFor(chapter.slice(0, -1));
       entry.dataset.readerMetadata = 'flashcards';
       entry.className = 'study-flashcards';

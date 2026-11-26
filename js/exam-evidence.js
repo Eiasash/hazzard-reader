@@ -20,6 +20,8 @@ window.HazzardEvidence = (() => {
   }
   const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year+(sitting.endsWith('-Basic')?' · Basic track':'');};
   const label = entry => sittingLabel(entry.sitting) + ' Q' + entry.number;
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const sittingDate = sitting => Number(sitting.slice(0,4))*100+months.indexOf(sitting.split('-')[1])+1;
   // Numeric chapter practice follows current assignments; special collections keep their membership.
   function studyIds(data, chapter) {
     if (/^\d+$/.test(chapter)&&data.currentChapters)return data.currentChapters[chapter]||[];
@@ -33,17 +35,19 @@ window.HazzardEvidence = (() => {
       const entry = data.questions[id];
       if (entry) totals.set(entry.sitting, (totals.get(entry.sitting) || 0) + 1);
     }
-    const month = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
-    const date = sitting => Number(sitting.slice(0,4))*100+(month[sitting.split('-')[1]]||0);
-    return [...totals].sort((a,b) => date(b[0])-date(a[0]));
+    return [...totals].sort((a,b) => sittingDate(b[0])-sittingDate(a[0]));
   }
-  async function citationLine(chapter, open) {
+  async function citationLine(chapter, open, reader=false) {
     const data = await load(), entries = counts(data, chapter);
     if (!entries.length) return null;
     const link = document.createElement('a');
     link.className = 'chapter-exams'; link.href = '?chapter='+chapter+(data.study[chapter]?'s':'')+'&view=questions&source=past';
-    link.append('Exams: ');
-    for (const [i, [sitting, count]] of entries.entries()) {
+    if(reader){
+      link.classList.add('chapter-exams-reader');
+      link.append('Exam questions');
+      link.title=entries.map(([sitting,total])=>sittingLabel(sitting)+' ×'+total).join(' · ');
+    }else link.append('Exams: ');
+    if(!reader)for (const [i, [sitting, count]] of entries.entries()) {
       if (i) link.append(' · ');
       const span = document.createElement('span'), [year, month] = sitting.split('-');
       span.textContent = (sitting.endsWith('-Basic')?sittingLabel(sitting):(['2024','2021'].includes(year) && month ? month+' ' : '')+year)+(count>1?' ×'+count:'');
@@ -64,7 +68,8 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = page.anchor || 'p' + page.page;
     location.assign(url);
   }
-  const rebuilt = new Set(['1','3','22','46','55','58','59','61','99']);
+  const rebuilt = new Set(['1','3','22','43','46','55','58','59','61','65','68','76','83','99']);
+  const isRebuilt = chapter => rebuilt.has(String(chapter));
   async function addPassages(copy,chapter,data){
     data ||= await references();
     const wanted=new Map();
@@ -118,22 +123,75 @@ window.HazzardEvidence = (() => {
       }
     }
   }
-  function askedBadge(entries, description, anchor, compact, prefix='Asked') {
+  const fitRows=new WeakMap();
+  const rowObserver=new ResizeObserver(changes=>{
+    for(const badge of new Set(changes.map(change=>change.target.closest('.exam-links'))))fitRows.get(badge)?.();
+  });
+  function askedBadge(entries, description, anchor, prefix='Asked') {
     const badge = document.createElement('span');
-    badge.className = compact ? 'exam-evidence exam-links' : 'exam-evidence';
+    badge.className = 'exam-evidence exam-links';
     badge.dataset.readerMetadata = 'exam';
     badge.id = anchor;
+    badge.setAttribute('role','group');
     badge.setAttribute('aria-label',description);
-    if(compact) badge.append(prefix+':');
-    for(const [index,[id,entry]] of entries.entries()){
+    const headline=document.createElement('span'),count=document.createElement('span');
+    headline.className='exam-link-line';count.className='exam-link-count';
+    const ordered=[...new Map(entries)].sort((a,b)=>sittingDate(b[1].sitting)-sittingDate(a[1].sitting)||a[1].number-b[1].number);
+    const nextSitting=ordered.findIndex(([,entry])=>entry.sitting!==ordered[0][1].sitting);
+    if(nextSitting>1){
+      const [next]=ordered.splice(nextSitting,1);
+      ordered.splice(1,0,next);
+    }
+    count.textContent=prefix+' '+ordered.length;
+    headline.append(count);badge.append(headline);
+    const links=ordered.map(([id,entry])=>{
       const link=document.createElement('a');
       const [year,month]=entry.sitting.split('-');
-      if(compact && index)badge.append('·');
       link.href=questionURL(id);
-      link.textContent=compact ? (month?month+' ':'')+year+(entry.sitting.endsWith('-Basic')?' Basic':'')+' Q'+entry.number : prefix+': '+label(entry);
+      link.textContent=(month?month+' ':'')+year+(entry.sitting.endsWith('-Basic')?' Basic':'')+' Q'+entry.number;
       link.setAttribute('aria-label',prefix+': '+label(entry));
-      badge.append(link);
+      return link;
+    });
+    if(links.length===1){headline.append(links[0]);return badge;}
+    badge.classList.add('exam-link-group');
+    const toggle=document.createElement('button'),extra=document.createElement('span');
+    toggle.type='button';extra.id=anchor+'-more';extra.className='exam-link-extra';
+    toggle.setAttribute('aria-controls',extra.id);
+    headline.append(toggle);badge.append(extra);extra.append(...links);
+    let open=history.state?.examReturn?.anchor===anchor&&history.state.examReturn.expanded===true;
+    let visible=-1,measure='';
+    function disclose(){
+      const rest=links.length-visible;
+      toggle.hidden=rest===0;
+      extra.hidden=!open||rest===0;
+      toggle.setAttribute('aria-expanded',String(!extra.hidden));
+      toggle.textContent=open?'Less':'+'+rest+' more';
+      toggle.setAttribute('aria-label',open?'Show fewer exam links':'Show '+rest+' more exam link'+(rest===1?'':'s'));
     }
+    function preview(n){
+      if(visible!==n){
+        for(let i=n-1;i>=0;i--)if(links[i].parentNode!==headline)headline.insertBefore(links[i],links[i+1]?.parentNode===headline?links[i+1]:toggle);
+        for(let i=Math.min(2,links.length)-1;i>=n;i--)if(links[i].parentNode===headline)extra.prepend(links[i]);
+        visible=n;
+      }
+      disclose();
+    }
+    function fit(){
+      const width=headline.clientWidth,signature=width+'|'+count.getBoundingClientRect().width;
+      if(!width||signature===measure)return;
+      measure=signature;
+      const focus=document.activeElement;
+      let n=Math.min(2,links.length);
+      preview(n);
+      while(n>0&&headline.scrollWidth>width)preview(--n);
+      if(focus&&links.includes(focus)&&focus!==document.activeElement){
+        if(extra.contains(focus)&&extra.hidden){open=true;disclose();}
+        focus.focus({preventScroll:true});
+      }
+    }
+    preview(1);
+    toggle.addEventListener('click',()=>{open=!open;disclose();});
+    fitRows.set(badge,fit);rowObserver.observe(headline);rowObserver.observe(count);
     return badge;
   }
   function refreshExamList(copy,chapter,data){
@@ -160,7 +218,7 @@ window.HazzardEvidence = (() => {
     details.append(items);original.after(details);
   }
   async function decorate(copy, chapter) {
-    const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=rebuilt.has(sourceChapter);
+    const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=isRebuilt(sourceChapter);
     if(!/^\d+$/.test(sourceChapter))return;
     const data=await references(), byPage=new Map(), earlier=[], chapterOnly=[], related=[];
     if(study&&!compact)refreshExamList(copy,sourceChapter,data);
@@ -191,13 +249,22 @@ window.HazzardEvidence = (() => {
     const annotations=[], sections=[];
     function labelAt(marker,entries,description,anchor,prefix){
       if(!marker||!entries.length)return;
-      const badge=askedBadge(entries,description,anchor,compact,prefix);
+      const badge=askedBadge(entries,description,anchor,prefix);
       marker.after(badge);
       if(compact&&!study)annotations.push({element:badge,ids:entries.map(([id])=>id)});
     }
     if(earlier.length)labelAt(copy.querySelector('h1'),earlier,'Asked in this chapter','asked-chapter');
     if(chapterOnly.length)labelAt(copy.querySelector('h1'),chapterOnly,'Chapter reference without a matching printed passage','cited-chapter');
     if(related.length)labelAt(copy.querySelector('h1'),related,'Exam questions related by topic; their bibliography is shown with the question','related-exams','Related exam');
+    copy.addEventListener('click',event=>{
+      const link=event.target.closest('.exam-links a,.section-practice a');
+      if(!link||event.defaultPrevented||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+      const group=link.closest('.exam-links,.section-practice'),scroller=document.getElementById('readerScroll');
+      const url=new URL(location.href);url.hash=group.id;
+      const offset=group.getBoundingClientRect().top-scroller.getBoundingClientRect().top;
+      const expanded=group.querySelector('button[aria-expanded="true"]')!==null;
+      history.replaceState({...history.state,hazzardReaderY:scroller.scrollTop,examReturn:{anchor:group.id,offset,expanded}},'',url);
+    });
     if(study&&!compact){
       // Older Study notes cite their pages inline. Attach links to the first
       // matching passage and keep the original sentence/highlight units intact.
@@ -253,15 +320,6 @@ window.HazzardEvidence = (() => {
       if(end)end.before(line);else copy.append(line);
       counts.push({element:status,ids:[...ids]});
     }
-    // The reader scrolls an inner viewport. Anchor its own history entry before leaving.
-    copy.addEventListener('click',event=>{
-      const link=event.target.closest('.exam-links a,.section-practice a');
-      if(!link||event.defaultPrevented||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
-      const url=new URL(location.href);url.hash=link.parentElement.id;
-      const scroller=document.getElementById('readerScroll');
-      const offset=link.parentElement.getBoundingClientRect().top-scroller.getBoundingClientRect().top;
-      history.replaceState({...history.state,hazzardReaderY:scroller.scrollTop,examReturn:{anchor:link.parentElement.id,offset}},'',url);
-    });
     const bank=new Map((await HazzardQuestionData.catalog()).map(q=>[q.id,q]));
     function refresh(){
       let answers;
@@ -302,5 +360,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {sittingLabel,load,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine};
+  return {sittingLabel,load,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
 })();
