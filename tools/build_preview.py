@@ -4,14 +4,13 @@ import hashlib
 import json
 import re
 import shutil
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def build(out):
-    if out.exists() and any(out.iterdir()):
-        raise ValueError("Choose an empty upload folder")
+def write_package(out):
     out.mkdir(parents=True, exist_ok=True)
     source_list = json.loads((ROOT / "asset-list.json").read_text(encoding="utf-8"))
     paths = {entry["url"].removeprefix("./") for entry in source_list["files"]}
@@ -78,6 +77,27 @@ def build(out):
     worker = worker.replace("event.data?.type === 'HAZZARD_APPLY_UPDATE'", "(event.data?.type === 'HAZZARD_APPLY_UPDATE' || event.data === 'update')")
     (out/"sw.js").write_text(worker,encoding="utf-8",newline="\n")
     print(out,source_list["version"],len(files),"verified assets")
+
+
+def build(out):
+    # Netlify restores the previous dist between builds. Publish fresh files
+    # only after the entire new manifest and worker have been written.
+    out.parent.mkdir(parents=True,exist_ok=True)
+    if out.exists() and any(out.iterdir()) and out != ROOT / "dist":
+        raise ValueError("Choose an empty upload folder outside the build directory")
+    with tempfile.TemporaryDirectory(prefix=".preview-build-",dir=out.parent) as temp:
+        staging = Path(temp)
+        fresh = staging / "new"
+        write_package(fresh)
+        previous = staging / "previous"
+        if out.exists():
+            out.rename(previous)
+        try:
+            fresh.rename(out)
+        except OSError:
+            if previous.exists():
+                previous.rename(out)
+            raise
 
 
 if __name__ == "__main__":
