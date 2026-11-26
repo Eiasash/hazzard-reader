@@ -2728,8 +2728,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch45_syncope_and_dizziness.md",
-      "sha256": "da1e9b903b1078f75e5e31fb563ffd35f3e71682ffcdb8ef1d2d56901725545c",
-      "bytes": 65294
+      "sha256": "71f48e9c6098f306697e757b5a799373326060b0042c46c02c261bca41522864",
+      "bytes": 65844
     },
     {
       "url": "./chapters/hazzard8e_ch45_table45-1_p667.png",
@@ -7753,8 +7753,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "877a9a73395e3870e43848528951bfe8d0039145057a3b4d802f65b2862a2a9d",
-      "bytes": 8618402
+      "sha256": "18c988369b12e551aed3b3793a75e231c2c4c8e26dd3fb3ec8b894b34dadfc87",
+      "bytes": 8618893
     },
     {
       "url": "./data/verification-registry.json",
