@@ -5,7 +5,8 @@
       "version": "v318",
       "date": "2026-11-26",
       "changes": [
-        "Full-site audit fixes for exam links, question feedback and study sessions, including the rehabilitation card on motor and cognitive FIM scores."
+        "Question references open at their verified destinations. Statistics opens the same missed questions it counts, and retired or excluded questions no longer affect flashcard priority.",
+        "Updated question explanations, Study notes and flashcards, including motor and cognitive FIM scores, diabetes care, and thyroid treatment and follow-up."
       ]
     },
     {

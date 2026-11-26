@@ -32,7 +32,9 @@ window.HazzardFlashcards = (() => {
 
   function loadBank() {
     return bank ||= Promise.all([HazzardQuestionData.catalog(), HazzardMCQ.loadAliases()])
-      .then(([rows]) => new Map(rows.filter(q => !q.retired).map(q => [q.id, q])))
+      .then(([rows]) => new Map(rows.filter(q =>
+        !q.retired && !HazzardMCQ.retired(q.id) && !HazzardMCQ.excluded(q.id)
+      ).map(q => [q.id, q])))
       .catch(error => {bank = null; throw error;});
   }
 

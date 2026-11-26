@@ -218,7 +218,7 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 Administration on Aging. A Profile of Older Americans.
 
-Washington, DC: Administration on Aging; 2019. [https://](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508>) acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
+Washington, DC: Administration on Aging; 2019. [https://](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf>) acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
 
 aid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/ x3mK. Barry KL, Blow FC. Drinking over the lifespan: focus on
 

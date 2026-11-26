@@ -66,7 +66,7 @@ Resolution requires dying neutrophils to be cleared by macrophages. In the human
 - Recombinant zoster vaccine reduced shingles by **97%** in a trial of adults **50 or older**, and **90%** in another of adults **70 or older**; the latter also reduced postherpetic neuralgia (p61).
 - Pneumococcal polysaccharide vaccine is largely T-independent; conjugation enables T-cell help and memory. CAPiTA's Dutch results may not transfer directly to US settings with childhood conjugate vaccination (p61).
 - Coronavirus disease disproportionately affected older adults; inflammatory and immune-response changes are under investigation, with heterogeneous clinical studies (p61-62).
-- Low-dose rapamycin/mTOR inhibition, senolytics and metformin are discussed as research approaches; the chapter does not establish routine anti-aging prescriptions (p60, p62).
+- The influenza vaccine study used everolimus (RAD001), a rapamycin derivative that inhibits mTOR. It measured antibody responses in older adults. The separate rapamycin longevity experiments were in mice. These findings support research into mTOR biology; they do not provide a clinical indication to prescribe an anti-aging treatment (pp. 60, 62). [Original human trial](https://pubmed.ncbi.nlm.nih.gov/25540326/).
 
 ## Exam questions
 

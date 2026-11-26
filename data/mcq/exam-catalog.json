@@ -6859,7 +6859,10 @@
           "913": "Table 59-7",
           "914": "Table 59-7 (continued) — FDA-approved medications for the treatment of Alzheimer disease, re",
           "910": "Acetylcholinesterase inhibitors (AChEIs) are the mainstay of therapy for AD. AChEIs increase"
-        }
+        },
+        "citationOnly": [
+          915
+        ]
       }
     },
     "3270": {
@@ -7580,7 +7583,10 @@
         "passages": {
           "874": "Corticobasal Syndrome Corticobasal syndrome (CBS) is the primary clinical phenotype of corti",
           "873": "Progressive Nonfluent/Agrammatic Aphasia Progressive nonfluent/agrammatic aphasia (PNFA) is "
-        }
+        },
+        "citationOnly": [
+          875
+        ]
       }
     },
     "3290": {
@@ -7657,7 +7663,10 @@
           "1416": "The goal of ADT is to decrease the level of testosterone available to potentiate growth of t",
           "1417": "Given the potential for improved survival for patients remaining on testicular androgen supp",
           "1418": "Chemotherapy Chemotherapy still has an important role in mCRPC after progressing through the"
-        }
+        },
+        "citationOnly": [
+          1419
+        ]
       }
     },
     "3292": {
@@ -7838,7 +7847,10 @@
         "passages": {
           "1013": "Figure 65-3",
           "1018": "Several factors are associated with increased risk of suicide (see Figure 65-3 ), including "
-        }
+        },
+        "citationOnly": [
+          1017
+        ]
       }
     },
     "3297": {
@@ -10255,7 +10267,10 @@
           "1118": "Left ventricular and atrial size Changes in LV cavity size with aging have been a matter of ",
           "1119": "Due to increasing LV mass and free wall thickness and shrinking LV size, prior studies among",
           "1120": "Atrial septum The atrial septum thickens and becomes stiffer with age, probably owing to fat"
-        }
+        },
+        "citationOnly": [
+          1117
+        ]
       }
     },
     "3371": {
@@ -12431,7 +12446,12 @@
           "1460": "macule), and BCC. Any lesion suspicious for cancer, including persistent ulcers, should be b",
           "1461": "Topical chemotherapy (5-fluorouracil, imiquimod) The two main topical chemotherapeutic agent",
           "1463": "patients with limited life expectancy, some providers also consider active surveillance appr"
-        }
+        },
+        "citationOnly": [
+          1455,
+          1456,
+          1462
+        ]
       }
     },
     "3436": {
@@ -12501,7 +12521,10 @@
         ],
         "passages": {
           "897": "Based on the onset of symptoms, AD is normally divided into two groups: younger-onset (< 65 "
-        }
+        },
+        "citationOnly": [
+          896
+        ]
       }
     },
     "2": {
@@ -13859,6 +13882,12 @@
             "text": "Table 47-12",
             "rangeText": "Table 47-12"
           }
+        },
+        "citationOnly": [
+          712
+        ],
+        "printedAnchorAliases": {
+          "712": "exam-p712-mcq-3452f8f6cfd764cc9e8162f6"
         }
       }
     },
@@ -14609,7 +14638,10 @@
         ],
         "passages": {
           "999": "Multiple studies have implicated any lifetime history of TBI as a risk factor for Parkinson "
-        }
+        },
+        "citationOnly": [
+          941
+        ]
       }
     },
     "3500": {
@@ -15575,7 +15607,10 @@
         "passages": {
           "1063": "Table 68-8",
           "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
-        }
+        },
+        "citationOnly": [
+          1065
+        ]
       }
     },
     "4551": {
@@ -17790,7 +17825,13 @@
         },
         "supportPages": [
           626
-        ]
+        ],
+        "citationOnly": [
+          618
+        ],
+        "printedAnchorAliases": {
+          "618": "exam-p618-mcq-c248e85aeb9a0ac89190125f"
+        }
       },
       "referenceNote": "The IMA cites pp. 617–619. Figure 42-2 on p. 619 shows the lower resting metabolic rate. The discussion on p. 626 distinguishes early compensation from later frailty."
     },
@@ -17910,7 +17951,10 @@
         "passages": {
           "1063": "Table 68-8",
           "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
-        }
+        },
+        "citationOnly": [
+          1065
+        ]
       }
     },
     "4626": {
@@ -20875,7 +20919,11 @@
         "passages": {
           "1647": "Practitioners may favor SNRIs compared to TCAs for fibromyalgia as they have fewer adverse e",
           "1649": "We recommend starting duloxetine at 20 mg daily and increasing to 60 mg slowly over at least"
-        }
+        },
+        "citationOnly": [
+          1648,
+          1650
+        ]
       }
     },
     "4533": {

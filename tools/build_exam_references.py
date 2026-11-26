@@ -89,6 +89,9 @@ def build(write=True):
             if mapping.get('supportPages'):
                 entry['supportPages'] = [dict(pages[p]) for p in mapping['supportPages']]
             for location in [*entry['pages'], *entry.get('supportPages', [])]:
+                alias = mapping.get('printedAnchorAliases', {}).get(str(location['page']))
+                if alias and location.get('citationOnly'):
+                    location['printedAnchorAlias'] = alias
                 anchor = paragraphs.get((ident, location['page']))
                 if anchor and not location.get('citationOnly'):
                     location['anchor'] = anchor

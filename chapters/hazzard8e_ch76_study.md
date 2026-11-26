@@ -204,7 +204,7 @@ Hazzard reported about **6.5 million** US patients and projected **over 8 millio
 
 <details><summary>Answer</summary>
 
->500 pg/mL is highly suggestive of active HF; <100 pg/mL makes HF much less likely. Natriuretic peptide levels rise modestly with normal aging (especially in women) and with declining renal function, so specificity for HF declines with age (p1174).
+> A BNP above 500 pg/mL strongly supports active heart failure in the appropriate clinical context. A BNP below 100 pg/mL makes heart failure much less likely in a nonobese older adult. Natriuretic peptide levels rise modestly with normal aging (especially in women) and with declining renal function, so specificity for HF declines with age (p1174).
 
 </details>
 

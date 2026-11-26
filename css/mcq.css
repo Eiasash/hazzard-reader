@@ -179,6 +179,7 @@ body:has(#chapterHeader:not(.is-collapsed)) #readerViewport.has-study-tabs .mcq-
 .stats-donut{margin:0;text-align:center;min-width:0}.stats-donut svg{width:112px;max-width:100%;display:block;margin:auto}
 .stats-ring,.stats-arc{fill:none;stroke-width:10}.stats-ring{stroke:var(--rule)}.stats-arc{stroke:var(--accent)}
 .stats-donut text{fill:var(--ink);font:700 21px var(--ui)}.stats-donut figcaption{font-size:calc(12px*var(--fs,1));line-height:1.6}.stats-donut figcaption strong,.stats-donut figcaption span{display:block}
+.stats-donut figcaption a{min-inline-size:44px}
 .stats-donut figcaption span{color:var(--muted);font-size:calc(11px*var(--fs,1));white-space:nowrap}
 .stats-pill{display:inline-block;flex-shrink:0;border-radius:12px;padding:3px 8px;font-size:calc(11px*var(--fs,1));font-weight:650;white-space:nowrap;color:var(--muted);background:var(--soft)}
 .stats-red{color:var(--stats-red);background:var(--stats-red-bg)}.stats-amber{color:var(--stats-amber);background:var(--stats-amber-bg)}.stats-green{color:var(--stats-green);background:var(--stats-green-bg)}

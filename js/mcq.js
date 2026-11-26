@@ -37,8 +37,8 @@ window.HazzardMCQ = (() => {
       if(chapter==='laws'){body.dataset.chapterId='laws';await HazzardLawCards.decorate(body);}
       if(!dialog.isConnected)return true;
       const anchor=target.hash.slice(1),targetPage=/^exam-p(\d+)-/.exec(anchor)?.[1];
-      const marked=anchor&&(body.querySelector('#'+CSS.escape(anchor))||
-        [...body.querySelectorAll('a.pg,a[id^="p"]')].find(n=>'p'+n.dataset.page===anchor||(targetPage&&(n.id==='p'+targetPage||n.dataset.page===targetPage))));
+      const marked=anchor?(body.querySelector('#'+CSS.escape(anchor))||
+        [...body.querySelectorAll('a.pg,a[id^="p"]')].find(n=>'p'+n.dataset.page===anchor||(targetPage&&(n.id==='p'+targetPage||n.dataset.page===targetPage)))):null;
       if(marked?.classList.contains('exam-passage-target'))marked.style.display='block';
       if(marked){for(let node=marked;node&&node!==body;node=node.parentElement)if(node.tagName==='DETAILS')node.open=true;}
       for(const node of body.querySelectorAll('[id]'))node.id='preview-'+node.id;
@@ -1380,6 +1380,11 @@ window.HazzardMCQ = (() => {
         if(sitting){if(!items.some(q=>q.kind==='past'&&q.t===sitting))throw Error('That sitting is unavailable.');filter='past';track=activeTrack=sitting.endsWith('-Basic')?'Basic':'Subspec';year=[];level=[];topic='all';sort='source';missedOnly=flagsView=savedView=savedOnly=false;}
         if(sessionIds!==null){track=activeTrack='both';filter=topic='all';year=[];level=[];sort='source';missedOnly=flagsView=savedView=savedOnly=false;}
         if(statsFilter){track=activeTrack='both';}
+        if(explicitMissed&&(statsFilter==='official-misses'||statsFilter==='past')){
+          track=activeTrack='Subspec';
+          filter='all';
+          missedIds=new Set(await HazzardStats.officialMissedIds());
+        }
         rebuildQuick();
         if(!restored)rebuildAnswered();
         if(bankMode&&!resumePlace&&new URL(location.href).searchParams.get('practiceResume')==='1'){flagsView=savedView=savedOnly=missedOnly=false;rebuildAnswered();answeredIds.delete(currentId(view?.id));const n=visible().findIndex(q=>q.id===view?.id);position=Math.max(0,n);}

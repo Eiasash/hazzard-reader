@@ -5664,7 +5664,8 @@
         {
           "page": 915,
           "chapter": "59",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -6263,7 +6264,8 @@
         {
           "page": 875,
           "chapter": "57",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -6345,7 +6347,8 @@
         {
           "page": 1419,
           "chapter": "90",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -6502,7 +6505,8 @@
         {
           "page": 1017,
           "chapter": "65",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1018,
@@ -8521,7 +8525,8 @@
         {
           "page": 1117,
           "chapter": "73",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1118,
@@ -10279,12 +10284,14 @@
         {
           "page": 1455,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1456,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1457,
@@ -10324,7 +10331,8 @@
         {
           "page": 1462,
           "chapter": "93",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1463,
@@ -10378,7 +10386,8 @@
         {
           "page": 896,
           "chapter": "59",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -11412,9 +11421,8 @@
           "page": 712,
           "chapter": "47",
           "available": true,
-          "rangeText": "Table 47-12",
-          "anchor": "exam-p712-mcq-3452f8f6cfd764cc9e8162f6",
-          "passage": "Table 47-12"
+          "citationOnly": true,
+          "printedAnchorAlias": "exam-p712-mcq-3452f8f6cfd764cc9e8162f6"
         }
       ],
       "tables": [],
@@ -12009,7 +12017,8 @@
         {
           "page": 941,
           "chapter": "61",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -14953,7 +14962,8 @@
         {
           "page": 1648,
           "chapter": "103",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1649,
@@ -14965,7 +14975,8 @@
         {
           "page": 1650,
           "chapter": "103",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -15491,7 +15502,8 @@
         {
           "page": 1065,
           "chapter": "68",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [
@@ -17456,10 +17468,8 @@
           "page": 618,
           "chapter": "42",
           "available": true,
-          "contextPage": 617,
-          "rangeText": "oxidative capacity and reduced energetic efficiency",
-          "anchor": "exam-p618-mcq-c248e85aeb9a0ac89190125f",
-          "passage": "oxidative capacity and reduced energetic efficiency"
+          "citationOnly": true,
+          "printedAnchorAlias": "exam-p618-mcq-c248e85aeb9a0ac89190125f"
         },
         {
           "page": 619,
@@ -17580,7 +17590,8 @@
         {
           "page": 1065,
           "chapter": "68",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [

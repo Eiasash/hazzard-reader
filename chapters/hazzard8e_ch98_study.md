@@ -46,7 +46,7 @@ An apparently normal prior history favors destructive thyroiditis but does not p
 
 ## Overt primary hypothyroidism and a rising TSH on treatment
 
-<span data-exam-ids="mcq-a9564119e3f03b2dcc342926" data-reader-metadata="exam"></span>High TSH with low free T4 means overt primary hypothyroidism. In the postoperative 82-year-old, TSH of 40 with low free T4 warrants treatment despite the recent fracture and nonspecific fatigue. In people aged 65 or older with cardiac disease, begin with a small levothyroxine dose and increase cautiously. The chapter cites 25–50 micrograms as reasonable starting doses. TSH is usually reassessed after six weeks and some older people need seven to eight weeks for equilibration. Beyond age 80 a TSH target of 4–6 mU/L may be appropriate. Excess replacement increases the risks of atrial fibrillation and bone loss (p1552).
+<span data-exam-ids="mcq-a9564119e3f03b2dcc342926" data-reader-metadata="exam"></span>High TSH with low free T4 means overt primary hypothyroidism. In the postoperative 82-year-old, TSH of 40 with low free T4 warrants treatment despite the recent fracture and nonspecific fatigue. In people aged 65 or older with cardiac disease, begin with a small levothyroxine dose and increase cautiously. The chapter gives 25–50 micrograms as examples. For stable primary hypothyroidism with known coronary artery disease, the ATA advises starting oral levothyroxine at 12.5–25 micrograms daily and titrating to symptoms and TSH ([ATA, section 4b](https://doi.org/10.1089/thy.2014.0028)). TSH is usually reassessed after six weeks and some older people need seven to eight weeks for equilibration. Beyond age 80 a TSH target of 4–6 mU/L may be appropriate. Excess replacement increases the risks of atrial fibrillation and bone loss (p1552).
 
 <span data-exam-ids="mcq-73208d3bcb5312abed0b44aa" data-reader-metadata="exam"></span>When previously stable TSH rises, ask about missed doses and how tablets are taken before increasing the prescription. Missing one 112-microgram tablet every week lowers the average daily exposure to 96 micrograms. Calcium carbonate and oral iron bind levothyroxine in the gut. A proton pump inhibitor such as esomeprazole can also decrease absorption. Carbamazepine can increase dose requirements by accelerating metabolism. The May 2024 sitting accepted all four choices, but Table 98-7 assigns carbamazepine to a different mechanism from the three absorption examples (pp1552–1553).
 
@@ -64,7 +64,7 @@ When TSH is low, measure free T4 and consider T3. Autonomous nodules can cause i
 
 The chapter distinguishes asymptomatic screening from evaluating a clinical suspicion. Symptoms can be sparse and TSH is readily measured, but common subclinical findings have uncertain treatment benefits. The cited USPSTF assessment finds insufficient evidence for routine screening. This does not prevent testing in a patient with compatible illness. When central hypothyroidism is a concern, assess both TSH and free T4 (pp1548, 1552–1554).
 
-After a benign aspirate, repeat ultrasound initially at 12–18 months. New suspicious features or significant growth may warrant reassessment. With two benign aspirates the likelihood of two false negatives is very low. Papillary carcinoma is the common follicular-cell cancer and can be more aggressive in older people. Extent of surgery, TSH suppression and postoperative radioiodine depend on risk. Medullary cancer arises from C cells, which lack the sodium-iodide symporter, so radioactive iodine has no therapeutic effect. A rapidly growing neck mass can be anaplastic carcinoma or thyroid lymphoma. Lymphoma often arises with Hashimoto disease and requires a large-needle or surgical biopsy because treatment differs (pp1555–1556).
+After a first benign aspirate, page 1556 gives an initial ultrasound interval of 12–18 months. ATA recommendation 23 uses the ultrasound pattern. A highly suspicious nodule needs repeat ultrasound and US-guided aspiration within 12 months. For low or intermediate suspicion, repeat ultrasound at 12–24 months. For very low suspicion, any repeat scan should be at least 24 months later. New suspicious features or significant growth may warrant reassessment. After two benign US-guided aspirates, cancer surveillance of that nodule can stop. A large nodule may still need review if it causes pressure symptoms ([ATA, recommendation 23](https://doi.org/10.1089/thy.2015.0020)). Papillary carcinoma is the common follicular-cell cancer and can be more aggressive in older people. Extent of surgery, TSH suppression and postoperative radioiodine depend on risk. Medullary cancer arises from C cells, which lack the sodium-iodide symporter, so radioactive iodine has no therapeutic effect. A rapidly growing neck mass can be anaplastic carcinoma or thyroid lymphoma. Lymphoma often arises with Hashimoto disease and requires a large-needle or surgical biopsy because treatment differs (pp1555–1556).
 
 ## Israeli context — נטילת אלטרוקסין ומעקב
 
@@ -97,7 +97,7 @@ After a benign aspirate, repeat ultrasound initially at 12–18 months. New susp
 ### Hypothyroidism
 - Overt hypothyroidism = high TSH + low free T4; prevalence **1-2%**. T3 is not useful for assessing hypothyroidism (p1551).
 - Only **2 of 24** signs exceed 50% prevalence in older hypothyroid patients: fatigue (**68%**) and weakness (**53%**) (p1551).
-- Full replacement dose in older adults is **lower** than the young-adult **1.6 μg/kg/day**; "start low, go slow" in patients ≥65 with cardiac disease, using 25-50 μg tablets (p1552).
+- Full replacement dose in older adults is **lower** than the young-adult **1.6 μg/kg/day**. With known coronary artery disease, start oral levothyroxine at **12.5–25 μg/day** and increase cautiously according to symptoms and TSH (p1552, ATA section 4b).
 - TSH testing usually occurs **6 weeks** after initiation (6 half-lives); older patients may need **7-8 weeks** to reach steady state. Target TSH is upper-normal, up to **4-6 mU/L** in those >80 (p1552).
 - IV levothyroxine dose = **75%** of the oral dose (p1552).
 - Missing **1 dose/week** on a 112 μg daily regimen drops the effective average dose to 96 μg — check adherence before assuming disease progression when TSH varies (p1552).
@@ -109,7 +109,7 @@ After a benign aspirate, repeat ultrasound initially at 12–18 months. New susp
 ### Thyroid nodules & cancer
 - **50%** of thyroid glands have a nodule at autopsy; malignancy is present in **7-9%** of thyroid nodules, higher in men than women. Evaluation does not differ by age; nonpalpable nodules carry the same risk as palpable nodules of the same size, and multiple nodules the same risk as a solitary nodule (p1555).
 - FNA indicated: nodules **≥1 cm** solid + hypoechoic; **≥1.5 cm** isoechoic/hyperechoic solid; abnormal cervical lymph nodes. FNA **or observation**: mixed cystic-solid or spongiform nodules **≥2 cm**. FNA not required: purely cystic nodules or nodules **<1 cm**; low TSH prompts radionuclide scanning, and functioning hot nodules do not require cytologic evaluation (Table 98-8, p1555).
-- Benign-nodule follow-up: repeat ultrasound in **12-18 months**, then surveillance every **2-5 years**. A nodule with two benign FNAs needs no further aspiration (p1556).
+- After a benign FNA, match surveillance to ultrasound risk. **High suspicion** calls for repeat ultrasound and US-guided FNA within 12 months. **Low or intermediate suspicion** calls for ultrasound at 12–24 months. With **very low suspicion**, wait at least 24 months if rescanning. Two benign US-guided FNAs end routine surveillance for malignancy in that nodule (p1556, ATA recommendation 23).
 - Thyroid cancer incidence peaks at age **65-69** (**29.6/100,000**); 5-year survival is **98%** (age 50-64), **97%** (65-74), **88%** (75+) (p1556).
 - Lobectomy (instead of total thyroidectomy) is an option for tumors **1-4 cm** without extrathyroidal extension or node involvement (p1556).
 - **Anaplastic** thyroid carcinoma: mean age at diagnosis **65**; median survival only **5 months** — worst-prognosis thyroid cancer (p1556).
@@ -180,7 +180,7 @@ Fatigue (68%) and weakness (53%) — the only two of 24 signs studied that excee
 
 <details><summary>Answer</summary>
 
-"Start low, go slow" using the smallest tablets (25-50 μg). TSH testing usually occurs at 6 weeks after initiation (6 half-lives), though older patients may need 7-8 weeks to reach steady state; target TSH toward the upper-normal range, up to 4-6 mU/L if over age 80 (p1552).
+For stable primary hypothyroidism with known coronary artery disease, start oral levothyroxine at 12.5–25 μg daily and titrate gradually according to cardiac symptoms and TSH (ATA section 4b). TSH testing usually occurs at 6 weeks after initiation (6 half-lives), though older patients may need 7-8 weeks to reach steady state; target TSH toward the upper-normal range, up to 4-6 mU/L if over age 80 (p1552).
 
 </details>
 

@@ -327,6 +327,8 @@ The pharmacological history of an older patient with diabetes is important both 
 
 **Cognitive function** Since diabetes and aging are each independently associated with increased risk of cognitive impairment, older adults with diabetes are especially at high risk. Dementia, including both Alzheimer type and vascular type, is approximately twice as likely to occur in those with diabetes compared with age-matched nondiabetic people. Subtler impairments of cognition such as mild cognitive impairment (MCI) are also common. Cognitive impairment is associated with poorer glycemic control in clinical trials, and study participants with cognitive impairment had a higher risk for severe hypoglycemia. Hypoglycemia is also associated with higher risk for dementia. Therefore, both the ADA and Endocrine Society Guidelines recommend that older patients with diabetes should have periodic screening for cognitive impairment: at the time of diagnosis, then annually for those with borderline results initially or every 2 to 3 years when initial screening is normal. A positive screening test should be followed up by an appropriate diagnostic evaluation for dementia or MCI.
 
+**Current screening interval (p. 1568).** Current ADA guidance calls for cognitive screening at the initial visit and annually in adults aged 65 and older with diabetes. New difficulties with dosing, meals or hypoglycemia recognition also warrant assessment. [ADA 2026, recommendation 13.3](https://doi.org/10.2337/dc26-S013).
+
 <span id="diabetes-executive" data-reader-metadata="exam"></span>
 
 <span id="exam-mcq-fb7008659f533ecc9b813801" data-exam-ids="mcq-fb7008659f533ecc9b813801" data-exam-read-page="1568" data-reader-metadata="exam"></span>

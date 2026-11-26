@@ -4,20 +4,20 @@ Study summary of Chapter 55 — Rehabilitation; the book and the full chapter ar
 
 ## What the exams asked
 
-- Choosing a walker for freezing, preprosthetic gait or exertional dyspnea — [June 2023 Q13, May 2024 Q29, June 2025 Q25](?chapter=55#p828).
-- Choosing the hand for a cane and the leading leg on stairs — [September 2024 Q83, June 2026 Q69](?chapter=55#p827).
-- Getting out of bed after hip surgery and protecting a posterior hip replacement — [June 2023 Q45, May 2024 Q52](?chapter=55#p832).
-- Exercise in compensated heart failure — [June 2023 Q44](?chapter=55#p830).
-- Occupational therapy when the discharge destination is a nursing facility — [June 2025 Q94](?chapter=55#p825).
-- Which office test predicts difficulty climbing stairs — [June 2026 Q35](?chapter=55#p820).
+- Choosing a walker for freezing, preprosthetic gait or exertional dyspnea — [June 2023 Q13](?chapter=55#exam-p828-mcq-2f6126281b7935fddb54098c), [May 2024 Q29](?chapter=55#exam-p828-mcq-94046bbc8c7e9ec313c279d7), [June 2025 Q25](?chapter=55#exam-p828-mcq-403fd909d8963b5766ac33df).
+- Choosing the hand for a cane and the leading leg on stairs — [September 2024 Q83](?chapter=55#exam-p827-mcq-9bbc0fdb792de2dfb28c9eb8), [June 2026 Q69](?chapter=55#exam-p827-mcq-042c42b64a6aa877df1f6c7b).
+- Getting out of bed after hip surgery and protecting a posterior hip replacement — [June 2023 Q45](?chapter=55#exam-p832-mcq-ae0d624a5184f046705b0afe), [May 2024 Q52](?chapter=55#exam-p832-mcq-7c8fa25ec27c548ea01bc678).
+- Exercise in compensated heart failure — [June 2023 Q44](?chapter=55#exam-p830-mcq-7edc67e3460bd7dcaca620c0).
+- Occupational therapy when the discharge destination is a nursing facility — [June 2025 Q94](?chapter=55#exam-p825-mcq-e494106a09620abcbc2a7e06).
+- Which office test predicts difficulty climbing stairs — [June 2026 Q35](?chapter=55#exam-p820-mcq-cb821058a8ec2093841fd0cb).
 - Cane stability, safe rollator use and the appropriate side after hemiparesis — [2020 Q23, Q28 and June 2022 Q34](?chapter=55#asked-chapter).
 - Silent aspiration and shoulder protection after stroke — [2020 Q26 and Q50](?chapter=55#asked-chapter).
 - Readiness to participate after an acute illness — [June 2022 Q33](?chapter=55#asked-chapter).
 
 - How FIM describes assistance and how a rehabilitation referral is assessed — [2020 Q10 and Q84, December 2021 Q17, Q57 and Q97, June 2022 Q16](?chapter=55#asked-chapter). These earlier questions cite the FIM paper or Israeli procedures.
 - Can a patient who transfers with a device live without supervision if problem-solving and memory still require help? [December 2021 Q56, chapter-level exam link](?chapter=55#asked-chapter) · [Read the motor and cognitive profile](?chapter=55#ch55-fim-safety).
-- Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 has no bibliographic locator in the official list. [Read the Israeli context](#israeli-context).
-- Motor planning and the pattern of functional recovery — September 2024 Q36 cites the Stroke Rehabilitation Clinician Handbook, p15. June 2026 Q92 identifies FIM and the examination image.
+- Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 has no bibliographic locator in the official list. [Read the Israeli context](#israeli-context). Related clinical reading covers [stability](?chapter=55#hl-u259), [participation](?chapter=55#hl-u445) and [choice of setting](?chapter=55#hl-u487).
+- Motor planning and the pattern of functional recovery — September 2024 Q36 cites the Stroke Rehabilitation Clinician Handbook, p15. [Related reading on apraxia](?chapter=59#hl-u845). June 2026 Q92 identifies FIM and the examination image. [Open the original FIM chart](?chapter=bank&q=mcq-5323c51583402673a5d61738) · [Related reading on hip loading](?chapter=55#hl-u878).
 
 ## Selecting an aid by the task
 

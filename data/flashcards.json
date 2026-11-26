@@ -1716,7 +1716,7 @@
     "id": "ch99-poor-health",
     "chapter": "99",
     "front": "What A1C ceiling and fasting range does Table 99-6 give a nursing-home resident with advanced dementia who takes a glucose-lowering drug with low hypoglycemia risk?",
-    "back": "A1C below 8.5% and fasting glucose 100–180 mg/dL. These goals reduce treatment burden while limiting osmotic symptoms. A tolerated regimen at A1C 8.1% need not be intensified. Hazzard 8e, p. 1571.",
+    "back": "Hazzard’s table gives A1C below 8.5% and fasting glucose 100–180 mg/dL for this exam scenario. For current care in very complex or poor health, avoid relying on A1C: use glucose patterns and symptoms to avoid hypoglycemia and symptomatic hyperglycemia. Hazzard 8e, p. 1571; ADA 2026, Table 13.2.",
     "page": 1571,
     "anchor": "diabetes-targets",
     "questionIds": [
@@ -1831,7 +1831,7 @@
     "id": "ch99-cognitive-interval",
     "chapter": "99",
     "front": "When should an older adult with diabetes receive repeat cognitive screening after a normal versus borderline initial result in Hazzard?",
-    "back": "Screen at diagnosis, repeat in two to three years after a normal screen and annually after a borderline screen. A positive result calls for diagnostic evaluation. ADA 2020 used annual screening as appropriate. Hazzard 8e, p. 1568.",
+    "back": "Hazzard gives two to three years after a normal screen and annual follow-up after a borderline screen. A positive screen warrants diagnostic assessment. In current care, ADA recommends screening initially and annually from age 65, with additional assessment when needed. Hazzard 8e, p. 1568; ADA 2026, recommendation 13.3.",
     "page": 1568,
     "anchor": "diabetes-cognitive-screen",
     "questionIds": [
