@@ -5973,8 +5973,15 @@
         ],
         "bankChapter": "78",
         "passages": {
-          "1213": "Interventional Once a diagnosis of carotid stenosis is made, several factors are taken into ",
-          "1214": "Carotid artery stenting (CAS) via percutaneous approach is an acceptable approach to treatin"
+          "1213": {
+            "text": "In symptomatic patients with 50% to 69% stenosis, risk-benefit analysis should be given careful consideration prior to intervention",
+            "rangeText": "In symptomatic patients with 50% to 69% stenosis, risk-benefit analysis should be given careful consideration prior to intervention"
+          },
+          "1214": {
+            "text": "support intervention, but only in centers that have excellent perioperative outcomes.",
+            "rangeText": "support intervention, but only in centers that have excellent perioperative outcomes.",
+            "contextPage": 1213
+          }
         }
       }
     },
@@ -7889,7 +7896,10 @@
           1231
         ],
         "passages": {
-          "1231": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
+          "1231": {
+            "text": "The final result of all of these processes is that, with aging, the FEV1 declines over time.",
+            "rangeText": "The final result of all of these processes is that, with aging, the FEV1 declines over time."
+          }
         },
         "citationOnly": [
           1280,
@@ -8286,7 +8296,18 @@
       "duplicates": [
         2665
       ],
-      "explanation": "## תשובה נכונה: ד – דיווח לפקידת סעד ואי-שחרור עד למציאת פתרון הולם\n\n### למה ד נכונה?\nהמצב מעלה **חשד ממשי להזנחה**: המטפל הרשמי (הבן) לא הגיע לאשפוז כלל, והאישה אושפזה בשל **אי-לקיחת תרופות** – נתון המעורר חשד להזנחה ומחייב בירור, ללא קביעה שהוכח כשל של המטפל. (Official2023 paper p26; abuse procedure §§8-10 p6). חוק הזנחת חסרי ישע מחייב **דיווח חובה** לפקידת סעד. שחרור לאותה סביבה מסכנת ללא בירור – עלול להוביל לנזק חוזר. פקידת הסעד מוסמכת לחקור, להתערב ול"
+      "explanation": "## תשובה נכונה: ד – דיווח לפקידת סעד ואי-שחרור עד למציאת פתרון הולם\n\n### למה ד נכונה?\nהמצב מעלה **חשד ממשי להזנחה**: המטפל הרשמי (הבן) לא הגיע לאשפוז כלל, והאישה אושפזה בשל **אי-לקיחת תרופות** – נתון המעורר חשד להזנחה ומחייב בירור, ללא קביעה שהוכח כשל של המטפל. (Official2023 paper p26; abuse procedure §§8-10 p6). חוק הזנחת חסרי ישע מחייב **דיווח חובה** לפקידת סעד. שחרור לאותה סביבה מסכנת ללא בירור – עלול להוביל לנזק חוזר. פקידת הסעד מוסמכת לחקור, להתערב ול",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "48",
+            "page": 6,
+            "anchor": "ch48-il-discharge",
+            "label": "חוזר מנכ״ל 22/03, עמ׳ 6, דיווח ותכנון שחרור"
+          }
+        ]
+      }
     },
     "3314": {
       "id": "mcq-451247c9890caf3f339aeb4d",
@@ -9054,8 +9075,15 @@
           "104-2"
         ],
         "passages": {
-          "1675": "Table 104-2 — Fever of unknown origin (FUO) in older patients",
-          "1676": "The diagnostic algorithm for older adults is influenced by the age-varied differential diagn"
+          "1675": {
+            "text": "Other (pulmonary emboli, drug fever)",
+            "rangeText": "Other (pulmonary emboli, drug fever)"
+          },
+          "1676": {
+            "text": "and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.",
+            "rangeText": "and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.",
+            "contextPage": 1675
+          }
         }
       }
     },
@@ -9762,7 +9790,10 @@
         ],
         "bankChapter": "78",
         "passages": {
-          "1211": "Pharmacologic Medical management should consist of an antiplatelet agent in conjunction with"
+          "1211": {
+            "text": "Exercise therapy is classically performed by having patients walk beyond the onset of pain for as long as they can safely tolerate",
+            "rangeText": "Exercise therapy is classically performed by having patients walk beyond the onset of pain for as long as they can safely tolerate"
+          }
         }
       }
     },
@@ -9789,7 +9820,10 @@
           "80"
         ],
         "passages": {
-          "1231": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
+          "1231": {
+            "text": "Thus, the FEV1 to FVC ratio drops with aging.",
+            "rangeText": "Thus, the FEV1 to FVC ratio drops with aging."
+          }
         }
       }
     },
@@ -10043,7 +10077,7 @@
           "94"
         ],
         "passages": {
-          "1480": "Causes of Anemia in the Older Adult The prevalence of different causes of anemia varies in d"
+          "1480": "Erythropoiesis-stimulating agents (ESAs) are analogs of EPO and widely used in end-stage renal disease–related anemia and patients with MDS with moderate to severe anemia. Data on application of ESAs in other causes of anemia including UAE are limited."
         }
       }
     },
@@ -13460,7 +13494,10 @@
           "80"
         ],
         "passages": {
-          "1231": "(change of pressure over volume). Using these methods, one can calculate the amount of air i"
+          "1231": {
+            "text": "Loss of elasticity of the lung results in more air residing in the lung at the end of maximum exhalation",
+            "rangeText": "Loss of elasticity of the lung results in more air residing in the lung at the end of maximum exhalation"
+          }
         }
       }
     },
@@ -13520,7 +13557,10 @@
           "89"
         ],
         "passages": {
-          "1396": "genetic predisposition, early menarche, late age at birth of first child (older than 30 year"
+          "1396": {
+            "text": "moderate-to-excessive alcohol use",
+            "rangeText": "moderate-to-excessive alcohol use"
+          }
         }
       }
     },
@@ -16477,7 +16517,10 @@
           "104"
         ],
         "passages": {
-          "1675": "CDI disproportionately affects older adults and results in greater morbidity and mortality. "
+          "1675": {
+            "text": "but the risk of relapse after treatment is much greater in older adults",
+            "rangeText": "but the risk of relapse after treatment is much greater in older adults"
+          }
         }
       }
     },
@@ -17139,9 +17182,19 @@
           "104"
         ],
         "passages": {
-          "1675": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age. Newer d",
-          "1693": "The IGRA test (interferon-γ release assay) was designed to improve latent TB infection diagn",
-          "1694": "latent TB infection or TB disease. A negative IGRA test result indicates little likelihood o"
+          "1675": {
+            "text": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age.",
+            "rangeText": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age."
+          },
+          "1693": {
+            "text": "in persons receiving the bacillus Calmette-Guerin (BCG) vaccine.",
+            "rangeText": "in persons receiving the bacillus Calmette-Guerin (BCG) vaccine."
+          },
+          "1694": {
+            "text": "latent TB infection or TB disease.",
+            "rangeText": "latent TB infection or TB disease.",
+            "contextPage": 1693
+          }
         }
       }
     },
@@ -17416,7 +17469,10 @@
           "89-4"
         ],
         "passages": {
-          "1404": "Table 89-4"
+          "1404": {
+            "text": "Cyclophosphamide can cause cystitis as well as marrow suppression, nausea and vomiting.",
+            "rangeText": "Cyclophosphamide can cause cystitis as well as marrow suppression, nausea and vomiting."
+          }
         }
       }
     },
@@ -19206,6 +19262,12 @@
             "page": 6,
             "anchor": "ch15-il-protection",
             "label": "חוזר מנכ״ל 22/03, עמ׳ 6, הגנה ושחרור"
+          },
+          {
+            "chapter": "48",
+            "page": 6,
+            "anchor": "ch48-il-protection",
+            "label": "חוזר מנכ״ל 22/03, עמ׳ 6, הגנה כאשר נדרש אשפוז"
           }
         ]
       },
@@ -19619,8 +19681,14 @@
         ],
         "bankChapter": "80",
         "passages": {
-          "1230": "Cellular function can change with aging. The cells that line the surface of the alveoli and ",
-          "1231": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
+          "1230": {
+            "text": "As cells age, the extracellular matrix changes to be composed less of elastin and more of collagen",
+            "rangeText": "As cells age, the extracellular matrix changes to be composed less of elastin and more of collagen"
+          },
+          "1231": {
+            "text": "The cumulative result of this is that, with aging, diffusion capacity for carbon monoxide (DLCO) declines.",
+            "rangeText": "The cumulative result of this is that, with aging, diffusion capacity for carbon monoxide (DLCO) declines."
+          }
         }
       }
     },
@@ -20681,8 +20749,14 @@
         ],
         "bankChapter": "104",
         "passages": {
-          "1676": "Another potentially valuable modality, 18F-FDG-PET/CT is superior to tagged WBC scans or gal",
-          "1675": "FUO is classically defined as temperature more than 101°F (38.3°C) for at least 3 weeks and "
+          "1676": {
+            "text": "temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults.",
+            "rangeText": "temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults."
+          },
+          "1675": {
+            "text": "autoimmune disease is a more frequent cause of FUO in adults older than 60 years",
+            "rangeText": "autoimmune disease is a more frequent cause of FUO in adults older than 60 years"
+          }
         }
       }
     },
@@ -21100,7 +21174,10 @@
           "104"
         ],
         "passages": {
-          "1675": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps"
+          "1675": {
+            "text": "Vancomycin prophylaxis is also be effective.",
+            "rangeText": "Vancomycin prophylaxis is also be effective."
+          }
         }
       }
     },
@@ -22106,10 +22183,17 @@
           1231
         ],
         "passages": {
-          "1231": "In patients with suspected or confirmed IPF, referral to pulmonologist is standard of care. "
-        }
+          "1231": {
+            "text": "The antifibrotic medications slow the progression of restriction in lung function studies",
+            "rangeText": "The antifibrotic medications slow the progression of restriction in lung function studies"
+          }
+        },
+        "citationOnly": [
+          1232,
+          1233
+        ]
       },
-      "referenceNote": "IMA gives pp. 1232–1233. The antifibrotic treatment discussion is on the preceding printed page, p. 1231."
+      "referenceNote": "The examination lists Chapter 80, pp1232–1233. Figure 80-2 on p1232 shows the CT appearance of fibrosis. The passage on slowing functional decline with nintedanib is on p1231."
     },
     "4925": {
       "id": "mcq-869bbb108abf4eef1f067b9f",
@@ -22279,8 +22363,14 @@
           "78"
         ],
         "passages": {
-          "1217": "Evaluation The gold standard for initial evaluation of CVI is duplex ultrasonography. Utiliz",
-          "1216": "Definition Chronic venous insufficiency (CVI) is a condition of altered blood flow in the le"
+          "1217": {
+            "text": "The gold standard for initial evaluation of CVI is duplex ultrasonography.",
+            "rangeText": "The gold standard for initial evaluation of CVI is duplex ultrasonography."
+          },
+          "1216": {
+            "text": "A common finding in older adults is lipodermatosclerosis and hemosiderin deposition at the malleolar level.",
+            "rangeText": "A common finding in older adults is lipodermatosclerosis and hemosiderin deposition at the malleolar level."
+          }
         }
       }
     },
@@ -22466,7 +22556,10 @@
           "89-4"
         ],
         "passages": {
-          "1404": "Table 89-4"
+          "1404": {
+            "text": "Trastuzumab can cause cardiomyopathy and infusion reactions.",
+            "rangeText": "Trastuzumab can cause cardiomyopathy and infusion reactions."
+          }
         }
       }
     },
@@ -23072,7 +23165,10 @@
           "80"
         ],
         "passages": {
-          "1231": "In patients with suspected or confirmed IPF, referral to pulmonologist is standard of care. "
+          "1231": {
+            "text": "Additionally, the antifibrotics have significant gastrointestinal side effects including nausea and diarrhea",
+            "rangeText": "Additionally, the antifibrotics have significant gastrointestinal side effects including nausea and diarrhea"
+          }
         }
       }
     },
@@ -26466,7 +26562,10 @@
           "104-1"
         ],
         "passages": {
-          "1675": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps",
+          "1675": {
+            "text": "Vancomycin prophylaxis is also be effective.",
+            "rangeText": "Vancomycin prophylaxis is also be effective."
+          },
           "1673": {
             "text": "Table 104-1",
             "contextPage": 1674,

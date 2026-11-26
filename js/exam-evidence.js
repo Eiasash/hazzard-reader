@@ -70,7 +70,7 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = page.anchor || 'p' + page.page;
     location.assign(url);
   }
-  const rebuilt = new Set(['1','3','7','8','11','15','17','22','26','27','30','31','34','37','38','42','43','44','45','46','47','49','51','52','53','55','58','59','60','61','62','65','67','68','72','74','75','76','77','79','81','83','87','88','95','97','98','99','100']);
+  const rebuilt = new Set(['1','3','7','8','11','15','17','22','26','27','30','31','34','37','38','42','43','44','45','46','47','48','49','51','52','53','55','58','59','60','61','62','65','67','68','72','74','75','76','77','78','79','80','81','83','87','88','89','94','95','97','98','99','100','104']);
   const isRebuilt = chapter => rebuilt.has(String(chapter));
   async function addPassages(copy,chapter,data){
     data ||= await references();
@@ -307,7 +307,15 @@ window.HazzardEvidence = (() => {
       if(section)for(const id of [...entries.map(([id])=>id),...practice])section.ids.add(id);
       const relatedHere=practice.filter(id=>{
         const entry=data.questions[id];
-        if(entry.chapters.includes(sourceChapter)||Number(entry.sitting.slice(0,4))<2023)return false;
+        if(Number(entry.sitting.slice(0,4))<2023)return false;
+        if(entry.chapters.includes(sourceChapter)){
+          // A bibliography can name the right chapter but only give unrelated pages.
+          // Label a separate teaching passage when its marked page matches the verified support.
+          const cited=entry.pages.filter(p=>String(p.readerChapter||p.chapter)===sourceChapter);
+          const teachingPage=Number(marker.dataset.examReadPage);
+          return cited.length>0&&cited.every(p=>p.citationOnly)&&entry.supportPages?.some(p=>
+            String(p.readerChapter||p.chapter)===sourceChapter&&p.page===teachingPage&&p.available);
+        }
         return memberIds.has(id)||entry.relatedTeaching?.some(target=>String(target.chapter)===sourceChapter);
       });
       const otherPractice=practice.filter(id=>!relatedHere.includes(id));

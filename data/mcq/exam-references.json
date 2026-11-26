@@ -4902,15 +4902,18 @@
           "page": 1213,
           "chapter": "78",
           "available": true,
+          "rangeText": "In symptomatic patients with 50% to 69% stenosis, risk-benefit analysis should be given careful consideration prior to intervention",
           "anchor": "exam-p1213-mcq-0248cf414c0e282383f0c986",
-          "passage": "Interventional Once a diagnosis of carotid stenosis is made, several factors are taken into "
+          "passage": "In symptomatic patients with 50% to 69% stenosis, risk-benefit analysis should be given careful consideration prior to intervention"
         },
         {
           "page": 1214,
           "chapter": "78",
           "available": true,
+          "contextPage": 1213,
+          "rangeText": "support intervention, but only in centers that have excellent perioperative outcomes.",
           "anchor": "exam-p1214-mcq-0248cf414c0e282383f0c986",
-          "passage": "Carotid artery stenting (CAS) via percutaneous approach is an acceptable approach to treatin"
+          "passage": "support intervention, but only in centers that have excellent perioperative outcomes."
         }
       ],
       "tables": [],
@@ -6584,8 +6587,9 @@
           "page": 1231,
           "chapter": "80",
           "available": true,
+          "rangeText": "The final result of all of these processes is that, with aging, the FEV1 declines over time.",
           "anchor": "exam-p1231-mcq-5687d58f50abb0a5affaee3d",
-          "passage": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
+          "passage": "The final result of all of these processes is that, with aging, the FEV1 declines over time."
         }
       ]
     },
@@ -6985,7 +6989,15 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "48",
+          "page": 6,
+          "anchor": "ch48-il-discharge",
+          "label": "חוזר מנכ״ל 22/03, עמ׳ 6, דיווח ותכנון שחרור"
+        }
+      ]
     },
     "mcq-451247c9890caf3f339aeb4d": {
       "sitting": "2023-Jun",
@@ -7628,15 +7640,18 @@
           "page": 1675,
           "chapter": "104",
           "available": true,
+          "rangeText": "Other (pulmonary emboli, drug fever)",
           "anchor": "exam-p1675-mcq-69627e46d0dee853a8d53e0e",
-          "passage": "Table 104-2 — Fever of unknown origin (FUO) in older patients"
+          "passage": "Other (pulmonary emboli, drug fever)"
         },
         {
           "page": 1676,
           "chapter": "104",
           "available": true,
+          "contextPage": 1675,
+          "rangeText": "and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome.",
           "anchor": "exam-p1676-mcq-69627e46d0dee853a8d53e0e",
-          "passage": "The diagnostic algorithm for older adults is influenced by the age-varied differential diagn"
+          "passage": "and deep venous thrombosis with or without recurrent pulmonary emboli occasionally causes the syndrome."
         }
       ],
       "tables": [
@@ -8132,8 +8147,9 @@
           "page": 1211,
           "chapter": "78",
           "available": true,
+          "rangeText": "Exercise therapy is classically performed by having patients walk beyond the onset of pain for as long as they can safely tolerate",
           "anchor": "exam-p1211-mcq-2cae81434ec4479d828221ef",
-          "passage": "Pharmacologic Medical management should consist of an antiplatelet agent in conjunction with"
+          "passage": "Exercise therapy is classically performed by having patients walk beyond the onset of pain for as long as they can safely tolerate"
         }
       ],
       "tables": [],
@@ -8156,8 +8172,9 @@
           "page": 1231,
           "chapter": "80",
           "available": true,
+          "rangeText": "Thus, the FEV1 to FVC ratio drops with aging.",
           "anchor": "exam-p1231-mcq-122d9fc74517c768b3d882c2",
-          "passage": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
+          "passage": "Thus, the FEV1 to FVC ratio drops with aging."
         }
       ],
       "tables": [],
@@ -8368,7 +8385,7 @@
           "chapter": "94",
           "available": true,
           "anchor": "exam-p1480-mcq-5967f5970f29d909cde6fe19",
-          "passage": "Causes of Anemia in the Older Adult The prevalence of different causes of anemia varies in d"
+          "passage": "Erythropoiesis-stimulating agents (ESAs) are analogs of EPO and widely used in end-stage renal disease–related anemia and patients with MDS with moderate to severe anemia. Data on application of ESAs in other causes of anemia including UAE are limited."
         }
       ],
       "tables": [],
@@ -11107,8 +11124,9 @@
           "page": 1231,
           "chapter": "80",
           "available": true,
+          "rangeText": "Loss of elasticity of the lung results in more air residing in the lung at the end of maximum exhalation",
           "anchor": "exam-p1231-mcq-e2505429368dfde81cea15ac",
-          "passage": "(change of pressure over volume). Using these methods, one can calculate the amount of air i"
+          "passage": "Loss of elasticity of the lung results in more air residing in the lung at the end of maximum exhalation"
         }
       ],
       "tables": [],
@@ -11155,8 +11173,9 @@
           "page": 1396,
           "chapter": "89",
           "available": true,
+          "rangeText": "moderate-to-excessive alcohol use",
           "anchor": "exam-p1396-mcq-e761fdbaf9a3e692c91a5d37",
-          "passage": "genetic predisposition, early menarche, late age at birth of first child (older than 30 year"
+          "passage": "moderate-to-excessive alcohol use"
         }
       ],
       "tables": [],
@@ -13397,6 +13416,12 @@
           "page": 6,
           "anchor": "ch15-il-protection",
           "label": "חוזר מנכ״ל 22/03, עמ׳ 6, הגנה ושחרור"
+        },
+        {
+          "chapter": "48",
+          "page": 6,
+          "anchor": "ch48-il-protection",
+          "label": "חוזר מנכ״ל 22/03, עמ׳ 6, הגנה כאשר נדרש אשפוז"
         }
       ],
       "referenceNote": "Hazzard p. 213 describes the ED team response. Israeli Ministry of Health circular 22/03, sections 8–10, supplies the reporting and protection instructions."
@@ -13793,15 +13818,17 @@
           "page": 1230,
           "chapter": "80",
           "available": true,
+          "rangeText": "As cells age, the extracellular matrix changes to be composed less of elastin and more of collagen",
           "anchor": "exam-p1230-mcq-b51ad3fe1826ffb8741047b1",
-          "passage": "Cellular function can change with aging. The cells that line the surface of the alveoli and "
+          "passage": "As cells age, the extracellular matrix changes to be composed less of elastin and more of collagen"
         },
         {
           "page": 1231,
           "chapter": "80",
           "available": true,
+          "rangeText": "The cumulative result of this is that, with aging, diffusion capacity for carbon monoxide (DLCO) declines.",
           "anchor": "exam-p1231-mcq-b51ad3fe1826ffb8741047b1",
-          "passage": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
+          "passage": "The cumulative result of this is that, with aging, diffusion capacity for carbon monoxide (DLCO) declines."
         }
       ],
       "tables": [],
@@ -14807,15 +14834,17 @@
           "page": 1675,
           "chapter": "104",
           "available": true,
+          "rangeText": "autoimmune disease is a more frequent cause of FUO in adults older than 60 years",
           "anchor": "exam-p1675-mcq-c8b02247f79a908e51cd5f6b",
-          "passage": "FUO is classically defined as temperature more than 101°F (38.3°C) for at least 3 weeks and "
+          "passage": "autoimmune disease is a more frequent cause of FUO in adults older than 60 years"
         },
         {
           "page": 1676,
           "chapter": "104",
           "available": true,
+          "rangeText": "temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults.",
           "anchor": "exam-p1676-mcq-c8b02247f79a908e51cd5f6b",
-          "passage": "Another potentially valuable modality, 18F-FDG-PET/CT is superior to tagged WBC scans or gal"
+          "passage": "temporal artery biopsy even in the absence of typical history or objective physical findings should be considered in older adults."
         }
       ],
       "tables": [],
@@ -15210,8 +15239,9 @@
           "page": 1675,
           "chapter": "104",
           "available": true,
+          "rangeText": "Vancomycin prophylaxis is also be effective.",
           "anchor": "exam-p1675-mcq-1eb064d03b4a7940c7ca9ab5",
-          "passage": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps"
+          "passage": "Vancomycin prophylaxis is also be effective."
         }
       ],
       "tables": [],
@@ -16312,8 +16342,9 @@
           "page": 1675,
           "chapter": "104",
           "available": true,
+          "rangeText": "but the risk of relapse after treatment is much greater in older adults",
           "anchor": "exam-p1675-mcq-9314de1137fde9d2d0386670",
-          "passage": "CDI disproportionately affects older adults and results in greater morbidity and mortality. "
+          "passage": "but the risk of relapse after treatment is much greater in older adults"
         }
       ],
       "tables": [],
@@ -16893,22 +16924,26 @@
           "page": 1675,
           "chapter": "104",
           "available": true,
+          "rangeText": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age.",
           "anchor": "exam-p1675-mcq-cb2418301a941a2746f83dca",
-          "passage": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age. Newer d"
+          "passage": "Tuberculin skin test (TST) sensitivity to detect latent infection declines with age."
         },
         {
           "page": 1693,
           "chapter": "105",
           "available": true,
+          "rangeText": "in persons receiving the bacillus Calmette-Guerin (BCG) vaccine.",
           "anchor": "exam-p1693-mcq-cb2418301a941a2746f83dca",
-          "passage": "The IGRA test (interferon-γ release assay) was designed to improve latent TB infection diagn"
+          "passage": "in persons receiving the bacillus Calmette-Guerin (BCG) vaccine."
         },
         {
           "page": 1694,
           "chapter": "105",
           "available": true,
+          "contextPage": 1693,
+          "rangeText": "latent TB infection or TB disease.",
           "anchor": "exam-p1694-mcq-cb2418301a941a2746f83dca",
-          "passage": "latent TB infection or TB disease. A negative IGRA test result indicates little likelihood o"
+          "passage": "latent TB infection or TB disease."
         }
       ],
       "tables": [],
@@ -17138,8 +17173,9 @@
           "page": 1404,
           "chapter": "89",
           "available": true,
+          "rangeText": "Cyclophosphamide can cause cystitis as well as marrow suppression, nausea and vomiting.",
           "anchor": "exam-p1404-mcq-6b33c388396f05e09b68141c",
-          "passage": "Table 89-4"
+          "passage": "Cyclophosphamide can cause cystitis as well as marrow suppression, nausea and vomiting."
         }
       ],
       "tables": [
@@ -18560,26 +18596,29 @@
         {
           "page": 1232,
           "chapter": "80",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1233,
           "chapter": "80",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
       "chapters": [
         "80"
       ],
-      "referenceNote": "IMA gives pp. 1232–1233. The antifibrotic treatment discussion is on the preceding printed page, p. 1231.",
+      "referenceNote": "The examination lists Chapter 80, pp1232–1233. Figure 80-2 on p1232 shows the CT appearance of fibrosis. The passage on slowing functional decline with nintedanib is on p1231.",
       "supportPages": [
         {
           "page": 1231,
           "chapter": "80",
           "available": true,
+          "rangeText": "The antifibrotic medications slow the progression of restriction in lung function studies",
           "anchor": "exam-p1231-mcq-d8222a690714331a4dd2ad76",
-          "passage": "In patients with suspected or confirmed IPF, referral to pulmonologist is standard of care. "
+          "passage": "The antifibrotic medications slow the progression of restriction in lung function studies"
         }
       ]
     },
@@ -18675,15 +18714,17 @@
           "page": 1216,
           "chapter": "78",
           "available": true,
+          "rangeText": "A common finding in older adults is lipodermatosclerosis and hemosiderin deposition at the malleolar level.",
           "anchor": "exam-p1216-mcq-ee6477061bffbce186548a21",
-          "passage": "Definition Chronic venous insufficiency (CVI) is a condition of altered blood flow in the le"
+          "passage": "A common finding in older adults is lipodermatosclerosis and hemosiderin deposition at the malleolar level."
         },
         {
           "page": 1217,
           "chapter": "78",
           "available": true,
+          "rangeText": "The gold standard for initial evaluation of CVI is duplex ultrasonography.",
           "anchor": "exam-p1217-mcq-ee6477061bffbce186548a21",
-          "passage": "Evaluation The gold standard for initial evaluation of CVI is duplex ultrasonography. Utiliz"
+          "passage": "The gold standard for initial evaluation of CVI is duplex ultrasonography."
         }
       ],
       "tables": [],
@@ -18808,8 +18849,9 @@
           "page": 1404,
           "chapter": "89",
           "available": true,
+          "rangeText": "Trastuzumab can cause cardiomyopathy and infusion reactions.",
           "anchor": "exam-p1404-mcq-550fdfd2885a7718c788d9b9",
-          "passage": "Table 89-4"
+          "passage": "Trastuzumab can cause cardiomyopathy and infusion reactions."
         }
       ],
       "tables": [
@@ -19225,8 +19267,9 @@
           "page": 1231,
           "chapter": "80",
           "available": true,
+          "rangeText": "Additionally, the antifibrotics have significant gastrointestinal side effects including nausea and diarrhea",
           "anchor": "exam-p1231-mcq-86b262840f3c7de29023078e",
-          "passage": "In patients with suspected or confirmed IPF, referral to pulmonologist is standard of care. "
+          "passage": "Additionally, the antifibrotics have significant gastrointestinal side effects including nausea and diarrhea"
         }
       ],
       "tables": [],
@@ -21432,8 +21475,9 @@
           "page": 1675,
           "chapter": "104",
           "available": true,
+          "rangeText": "Vancomycin prophylaxis is also be effective.",
           "anchor": "exam-p1675-mcq-f487d5826d3f57bd7350d653",
-          "passage": "Guideline-driven therapy for CDI does not differ specifically by age, but the risk of relaps"
+          "passage": "Vancomycin prophylaxis is also be effective."
         }
       ],
       "tables": [

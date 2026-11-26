@@ -4,7 +4,7 @@ Mark S. Lachs, Tony Rosen
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> Three past-exam questions link to this topic through the Israeli elder-mistreatment procedure.
 
 > **Source and method.** Printed pages 719-728, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
@@ -98,15 +98,17 @@ injuries or their upper or lower extremity injuries. Medical and laboratory mark
 
 Until rigorous research identifies reliable forensic markers, clinicians need to consider elder mistreatment in the differential diagnosis of many or most of the clinical presentations they encounter. Fractures may result from osteoporosis or force or both. Depression may be related to neurotransmitter imbalances or a hopeless abusive environment. Malnutrition may be the result of any number of chronic illnesses inexorably worsening, or from the withholding of sustenance.
 
-Dramatic injuries or neglect pose no particular diagnostic challenge. Fractures, burns, contusions, and lacerations, in concert with a credible history, immediately lead to the diagnosis. At the other extreme, subtle presentations that mimic chronic disease are highly challenging. Examples include chronic diseases that frequently decompensate despite a care plan and adequate resources (eg, repeated emergency department visits for congestive heart failure or chronic obstructive pulmonary disease exacerbation). Indeed, because elder mistreatment can be defined so broadly, there are very few presenting signs or symptoms in the geriatric patient for which elder mistreatment is not in the differential diagnosis.
+<span id="ch48-missed-care" data-reader-metadata="exam"></span>Dramatic injuries or neglect pose no particular diagnostic challenge. Fractures, burns, contusions, and lacerations, in concert with a credible history, immediately lead to the diagnosis. At the other extreme, subtle presentations that mimic chronic disease are highly challenging. Examples include chronic diseases that frequently decompensate despite a care plan and adequate resources (eg, repeated emergency department visits for congestive heart failure or chronic obstructive pulmonary disease exacerbation). Indeed, because elder mistreatment can be defined so broadly, there are very few presenting signs or symptoms in the geriatric patient for which elder mistreatment is not in the differential diagnosis.
 
 Many instruments have been devised for the screening or evaluation of elder mistreatment, but they are not applicable to all settings. The Elder Abuse Suspicion Index (EASI) is a short screening instrument that has been validated for cognitively intact patients in a primary setting with a sensitivity of 0.47 and a specificity of 0.75. The EASI (Figure 48-1) is a tool to identify older adults at risk of mistreatment and includes five questions for the patient and one for the physician, with more than or equal to one “yes” response suggesting further assessment is needed.
 
 All screening instruments may assist the clinician by serving as “checklists” to ensure a thorough evaluation. Table 48-3 suggests a system-by-system approach. The importance of heightened awareness cannot be overemphasized in considering the diagnosis. Frequently, clues about potential mistreatment come from ancillary staff members (eg, office reception staff) or home care nurses who observe the abuser-victim dyad away from the health care provider. A general sense that something is amiss in the patient’s environment such as caustic interaction between parties, poor hygiene or dress, frequently missed medical appointments, or failure to adhere with a clearly designated treatment strategy can all be important clues.
 
-The patient and the alleged perpetrator should be interviewed separately and alone. Although there is an
+<span id="ch48-interview" data-reader-metadata="exam"></span>The patient and the alleged perpetrator should be interviewed separately and alone. Although there is an
 
 <a id="p723"></a>**[p. 723]**
+
+<span id="ch48-easi" data-reader-metadata="exam"></span>
 
 ![Figure 48-1](hazzard8e_ch48_figure-48-1_p723.webp)
 
@@ -132,6 +134,8 @@ The first step in confronting any confirmed case of family violence is ensuring 
 
 <a id="p724"></a>**[p. 724]**
 
+<span id="ch48-assessment" data-reader-metadata="exam"></span>
+
 ![Table 48-3](hazzard8e_ch48_table-48-3_p724.webp)
 
 *TABLE 48-3 ■ CLINICAL MANIFESTATIONS OF POTENTIAL MISTREATMENT WITH RECOMMENDED ASSESSMENT*
@@ -140,13 +144,15 @@ The first step in confronting any confirmed case of family violence is ensuring 
 
 Reproduced with permission from Lachs MS, Pillemer K. Abuse and neglect of elderly persons. N Engl J Med. 1995;332(7):437–443.
 
-violence (Table 48-4). What are the specific steps the victim should take if the perpetrator of mistreatment becomes acutely violent? Options include calling the local police department, accessing shelters, emergency department use/hospital admission, or respite care in some evolved systems of long-term care. Additionally, in most states, cases of elder abuse must be reported to adult protective services agencies. This typically results in a home visit to adjudicate the veracity of such a report. State protective service agencies vary widely with respect to their caseloads and
+<span id="ch48-aps" data-reader-metadata="exam"></span>violence (Table 48-4). What are the specific steps the victim should take if the perpetrator of mistreatment becomes acutely violent? Options include calling the local police department, accessing shelters, emergency department use/hospital admission, or respite care in some evolved systems of long-term care. Additionally, in most states, cases of elder abuse must be reported to adult protective services agencies. This typically results in a home visit to adjudicate the veracity of such a report. State protective service agencies vary widely with respect to their caseloads and
 
 available resources; ideally a coordinated approach that brings to bear their expertise and resources in collaboration with the physician and multidisciplinary team produces the best response.
 
-The safety plan paradigm will have limited utility in many cases of elder mistreatment, however, because of victim frailty and/or cognitive impairment that limits the use of self-protective behaviors. Frequently, clinicians find themselves in the predicament of caring for an elder mistreatment victim who lacks capacity. In these cases, the
+<span id="ch48-capacity" data-reader-metadata="exam"></span>The safety plan paradigm will have limited utility in many cases of elder mistreatment, however, because of victim frailty and/or cognitive impairment that limits the use of self-protective behaviors. Frequently, clinicians find themselves in the predicament of caring for an elder mistreatment victim who lacks capacity. In these cases, the
 
 <a id="p725"></a>**[p. 725]**
+
+<span id="ch48-safety-plan" data-reader-metadata="exam"></span>
 
 ![Table 48-4](hazzard8e_ch48_table-48-4_p725.webp)
 
@@ -233,3 +239,13 @@ Yaffe MJ, Wolfson C, Lithwick M, Weiss D. Development
 and validation of a tool to improve physician identification of elder abuse: the Elder Abuse Suspicion Index (EASI). J Elder Abuse Negl. 2008;20:276–300.
 
 <a id="p728"></a>**[p. 728]**
+
+## Israeli context · זיהוי, דיווח והגנה
+
+<span id="ch48-il-interview" data-reader-metadata="exam"></span>**כשהמטופלת משתתקת בנוכחות המלווה.** פחד, אי־נוחות במחיצת המטפל וסירוב לדבר מצדיקים שיחה בפרטיות. הרופא בודק מיד, בשפת המטופלת וללא מלווים לפי שיקול דעתו. העובד הסוציאלי שומע את המעורבים ומתעד את הדברים. רושמים מה המטופלת אמרה ומה השתנה כשהמלווה יצא, בלי להסיק מזה לבדו מי פגע בה. [חוזר מנכ״ל 22/03, סעיפים 8.1–8.4 ונספח 1ב, עמ׳ 6 ו־8](https://www.gov.il/BlobFolder/policy/mk22-2003/he/files_circulars_mk_MK22_2003.pdf#page=8).
+
+<span id="ch48-il-report" data-reader-metadata="exam"></span>**מתי חלה חובת הדיווח של הצוות?** בודקים אם האדם יכול לדאוג לצורכי מחייתו, לבריאותו ולשלומו. גיל, מחלה או מוגבלות עשויים לפגוע ביכולת הזאת. כשבמסגרת התפקיד יש יסוד סביר לחשוב שאחראי עבר בחסר ישע עבירה מהמנויות בחוק, ובהן הזנחה, מדווחים בהקדם האפשרי לעובד סוציאלי שמונה לפי חוק או למשטרה. מסבירים למטופל ומבקשים לשתפו. החובה אינה תלויה בהסכמתו. [חוק העונשין, סעיפים 368א ו־368ד(ב),(ח), עמ׳ 57–58 בקובץ](https://www.btl.gov.il/Laws1/00_0080_000000.pdf#page=57) · [חוזר מנכ״ל 22/03, סעיף 8.5, עמ׳ 6](https://www.gov.il/BlobFolder/policy/mk22-2003/he/files_circulars_mk_MK22_2003.pdf#page=6).
+
+<span id="ch48-il-discharge" data-practice-ids="mcq-e8ba38432f0a33923c977eb3" data-reader-metadata="exam"></span>**הזנחה ותכנון השחרור.** כאשר טיפול חיוני לא ניתן בבית, בודקים מי אמור לספקו, מה החולה מסוגלת לעשות בעצמה ומי זמין לעזור. בחשד לפגיעה בידי האחראי לחסר ישע מפעילים את מסלול הדיווח. את השחרור מתאמים עם פקידת הסעד והצוות המטפל. הסכמת המטופלת לתיאום עם שירותי הרווחה בהמשך הטיפול נבדלת מחובת הדיווח הראשונית. [חוזר מנכ״ל 22/03, סעיפים 8.2–8.5 ו־10, עמ׳ 6, ונספח 1ד, עמ׳ 9](https://www.gov.il/BlobFolder/policy/mk22-2003/he/files_circulars_mk_MK22_2003.pdf#page=6).
+
+<span id="ch48-il-protection" data-practice-ids="mcq-632ba530eb4611e16d60adfe" data-reader-metadata="exam"></span>**חשד לפגיעה שמצריכה אשפוז.** כשיש חשד להתעמרות והזקן זקוק לאשפוז עקב הפגיעה, סעיף 9 מורה לאשפז ל־24 שעות לפחות או לנקוט מיד אמצעים אחרים שיגנו עליו. ההגנה מתווספת לדיווח. כשיש גם הפרעות מטבוליות המצריכות טיפול באשפוז, שיפור בערנות לאחר עירוי אינו מכריע שהחזרה הביתה בטוחה. שומעים את המטופל ומשתפים את הצוות המטפל ואת העובד הסוציאלי. [חוזר מנכ״ל 22/03, סעיפים 8–10, עמ׳ 6](https://www.gov.il/BlobFolder/policy/mk22-2003/he/files_circulars_mk_MK22_2003.pdf#page=6) · [Hazzard, פרק 15, עמ׳ 213, עבודת הצוות במיון](?chapter=15#exam-p213-mcq-632ba530eb4611e16d60adfe).
