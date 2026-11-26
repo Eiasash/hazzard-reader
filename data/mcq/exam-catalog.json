@@ -5705,7 +5705,11 @@
       "fromBasic": false,
       "duplicates": [
         3124
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": null
+      }
     },
     "3235": {
       "id": "mcq-d852902c476364b525be2fb0",
@@ -6320,7 +6324,11 @@
         ],
         "passages": {
           "1059": "Table 68-3",
-          "1048": "of nonpharmacologic management in situations that risk patient or caregiver safety. As part "
+          "1048": {
+            "text": "of nonpharmacologic management in situations that risk patient or caregiver safety. As part ",
+            "contextPage": 1047,
+            "rangeText": "The Pain Assessment in Advanced Dementia (PAINAD) Scale may be a useful tool in this situation."
+          }
         }
       }
     },
@@ -6812,8 +6820,15 @@
           1297
         ],
         "passages": {
-          "1296": "Stopping dialysis has become a common reason for death in the dialysis population, especiall",
-          "1297": "Practice guidelines underscore that a complete review of treatment options, prognosis, and q"
+          "1296": {
+            "text": "While dialysis patients should understand that they have the right to stop treatment",
+            "rangeText": "While dialysis patients should understand that they have the right to stop treatment"
+          },
+          "1297": {
+            "contextPage": 1296,
+            "text": "important to document the decisional capacity of the older adult on dialysis wishing to withdraw",
+            "rangeText": "important to document the decisional capacity of the older adult on dialysis wishing to withdraw"
+          }
         }
       }
     },
@@ -7095,7 +7110,10 @@
           639
         ],
         "passages": {
-          "638": "There is now a strong body of evidence to support interventions for preventing falls in olde",
+          "638": {
+            "text": "Exercise Exercise has a major role to play in preventing falls among older people and is r",
+            "rangeText": "Overall systematic review findings from 64 RCTs"
+          },
           "639": "Medication management Centrally acting medications have consistently been shown to increase "
         }
       }
@@ -7606,7 +7624,7 @@
       "readerReference": "Hazzard 8e · p. 1231",
       "referenceNote": "The IMA list prints pp1280–1281 in Chapter 83. The respiratory physiology supporting the key is in Chapter 80 on p1231.",
       "readerMapping": {
-        "bankChapter": "83",
+        "bankChapter": "80",
         "printedPages": [
           1280,
           1281
@@ -7616,7 +7634,11 @@
         ],
         "passages": {
           "1231": "Several structural changes in the airways of the lungs occur as part of the normal aging pro"
-        }
+        },
+        "citationOnly": [
+          1280,
+          1281
+        ]
       }
     },
     "3299": {
@@ -7797,14 +7819,17 @@
           1182
         ],
         "passages": {
-          "1179": "In general, the treatment of HFREF in older patients does not differ substantially from that",
+          "1179": "In general, the treatment of HFREF in older patients does not differ substantially from that i",
           "1180": "Angiotensin receptor neprilysin inhibitor (ARNi) Sacubitril inhibits a neprilysin, a neutral",
-          "1182": "The Digitalis Investigation Group (DIG) reported the results of a prospective randomized tri",
+          "1182": "Diuretics Diuretics are the most effective agents for relieving pulmonary congestion and edema",
           "1181": "Sodium-glucose cotransporter-2 inhibitors (SGLT2 inhibitors) Sodium-glucose cotransporter-2 ",
           "1176": "By virtue of age and their preexisting cardiopulmonary syndrome, older adults with heart fai"
         },
         "supportPages": [
           1176
+        ],
+        "citationOnly": [
+          1180
         ]
       }
     },
@@ -8311,8 +8336,11 @@
           1181
         ],
         "passages": {
-          "1179": "In the Study of the Effects of Nebivolol Intervention on Outcomes and Rehospitalization in S",
-          "1180": "Angiotensin receptor neprilysin inhibitor (ARNi) Sacubitril inhibits a neprilysin, a neutral",
+          "1179": {
+            "text": "In the Study of the Effects of Nebivolol Intervention on Outcomes and Rehospitalization in Sen",
+            "rangeText": "carvedilol, bisoprolol, and metoprolol succinate"
+          },
+          "1180": "Angiotensin II receptor blockers The use of ARBs for the treatment of heart failure has been e",
           "1181": "Sodium-glucose cotransporter-2 inhibitors (SGLT2 inhibitors) Sodium-glucose cotransporter-2 "
         }
       }
@@ -8882,7 +8910,11 @@
         ],
         "passages": {
           "787": "While efficacious, NSAIDs should be prescribed with caution, particularly in patients with c",
-          "788": "of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Usi",
+          "788": {
+            "text": "of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Usi",
+            "contextPage": 787,
+            "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk."
+          },
           "1173": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A"
         }
       }
@@ -9167,7 +9199,10 @@
           "83-1"
         ],
         "passages": {
-          "1281": "Table 83-1"
+          "1281": {
+            "text": "Table 83-1",
+            "imageFile": "hazzard8e_ch83_table83-1_p1281.png"
+          }
         }
       }
     },
@@ -9662,7 +9697,7 @@
         ],
         "passages": {
           "1014": "The placebo effect is powerful In quite a few studies, antidepressant medications have offer",
-          "1015": "Antidepressants treat major, not minor, depression Although antidepressant medications have "
+          "1015": "Antidepressants do not generally work in dementia Based on a large number of negative studies,"
         }
       }
     },
@@ -9858,7 +9893,10 @@
           "83"
         ],
         "passages": {
-          "1296": "Itching has been reported in up to 40% of patients with kidney failure and can adversely aff"
+          "1296": {
+            "text": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis.",
+            "rangeText": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis."
+          }
         }
       }
     },
@@ -9892,8 +9930,12 @@
         ],
         "passages": {
           "1187": "differ between groups, but patients randomized to candesartan experienced a significant 16% ",
-          "1186": "β-Blockers β-Blockers have little or no direct effect on diastolic function, but theoretical"
-        }
+          "1186": "β-Blockers β-Blockers have little or no direct effect on diastolic function, but theoretical",
+          "1188": "SGLT2 inhibitors have been investigated in two large trials, DELIVER (evaluating dapagliflozin"
+        },
+        "supportPages": [
+          1188
+        ]
       }
     },
     "3375": {
@@ -10001,8 +10043,14 @@
           "83"
         ],
         "passages": {
-          "1285": "New onset of lower extremity edema should always warrant a urinalysis, which is cheap, nonin",
-          "1286": "Diabetic kidney disease or DN is a progressive microvascular complication due to long-standi"
+          "1285": {
+            "text": "The most common diseases identified by kidney biopsy are membranous nephropathy",
+            "rangeText": "The most common diseases identified by kidney biopsy are membranous nephropathy"
+          },
+          "1286": {
+            "text": "In the general adult population in the United States, DN is the most common cause of NS and ESKD requiring dialysis.",
+            "rangeText": "In the general adult population in the United States, DN is the most common cause of NS and ESKD requiring dialysis."
+          }
         }
       }
     },
@@ -10952,6 +11000,16 @@
         "pages": [
           "Harrison 22e p2962"
         ]
+      },
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "83",
+            "anchor": "ch83-harrison-oxalate",
+            "label": "Harrison 21e, ch. 372, p. 2867"
+          }
+        ]
       }
     },
     "3409": {
@@ -11519,7 +11577,10 @@
           "43"
         ],
         "passages": {
-          "639": "In contrast, the evidence for updating glasses to ensure the use of correct prescription gla"
+          "639": {
+            "text": "Home safety interventions Home safety interventions are effective in high-risk groups and ",
+            "rangeText": "Home safety interventions are effective in high-risk groups"
+          }
         }
       }
     },
@@ -12119,7 +12180,10 @@
           "43-2"
         ],
         "passages": {
-          "637": "Table 43-2 — Examples of validated fall-risk screening tools"
+          "637": {
+            "text": "The Alternate Step Test measures the ability of patients to alternatively place their left",
+            "rangeText": "A test time > 10 sec to complete eight alternating steps indicates an impaired performance."
+          }
         }
       }
     },
@@ -14673,7 +14737,7 @@
         ],
         "passages": {
           "1063": "Table 68-8",
-          "1064": "Table 68-8"
+          "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
         }
       }
     },
@@ -15422,7 +15486,7 @@
           "65"
         ],
         "passages": {
-          "1014": "Unfortunately, the beneficial effects tend to decay over time, even with medications, and “m"
+          "1014": "Electroconvulsive therapy (ECT) ECT has suffered from negative press and stereotypes. It remai"
         }
       }
     },
@@ -15732,7 +15796,10 @@
           "83"
         ],
         "passages": {
-          "1295": "Nutrition plays an important role in the health and well-being of patients with kidney failu"
+          "1295": {
+            "text": "The recommended assessments include but not limited to periodic check of body weight, dietary interviews, and serum albumin levels.",
+            "rangeText": "The recommended assessments include but not limited to periodic check of body weight, dietary interviews, and serum albumin levels."
+          }
         }
       }
     },
@@ -16751,7 +16818,7 @@
         ],
         "passages": {
           "1063": "Table 68-8",
-          "1064": "Table 68-8"
+          "1064": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
         }
       }
     },
@@ -17388,7 +17455,10 @@
           "43"
         ],
         "passages": {
-          "637": "The Timed Up and Go Test (TUG) measures the time taken for a person to rise from a chair, wa"
+          "637": {
+            "text": "Best practice guidelines recommend the Timed Up and Go (TUG) Test as a simple screening to",
+            "rangeText": "the predictive value of the TUG for falls in community-dwelling older adults was limited"
+          }
         }
       }
     },
@@ -18105,7 +18175,10 @@
         ],
         "bankChapter": "83",
         "passages": {
-          "1296": "Itching has been reported in up to 40% of patients with kidney failure and can adversely aff"
+          "1296": {
+            "text": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis.",
+            "rangeText": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis."
+          }
         }
       }
     },
@@ -19223,7 +19296,10 @@
           "83"
         ],
         "passages": {
-          "1295": "Kidney failure is associated with abnormalities of divalent ions (Ca2+ , P) and of the hormo"
+          "1295": {
+            "text": "There is a higher incidence of pathologic fracture, vascular or metastatic calcification, and bone pain in older patients on dialysis than in younger patients.",
+            "rangeText": "There is a higher incidence of pathologic fracture, vascular or metastatic calcification, and bone pain in older patients on dialysis than in younger patients."
+          }
         }
       }
     },
@@ -19480,7 +19556,8 @@
           1015
         ],
         "passages": {
-          "1014": "The placebo effect is powerful In quite a few studies, antidepressant medications have offer"
+          "1014": "The placebo effect is powerful In quite a few studies, antidepressant medications have offer",
+          "1015": "There is no standard dosage for antidepressant effect Research about the dose-response curve f"
         }
       }
     },
@@ -19509,7 +19586,10 @@
           "83-1"
         ],
         "passages": {
-          "1281": "Table 83-1"
+          "1281": {
+            "text": "Table 83-1",
+            "imageFile": "hazzard8e_ch83_table83-1_p1281.png"
+          }
         }
       }
     },
@@ -24814,12 +24894,28 @@
           1178
         ],
         "passages": {
-          "1172": "As previously discussed, older patients have limited cardiovascular reserve and they are les",
-          "1173": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A",
-          "1175": "the most useful technique because it is noninvasive, widely available, and, in addition to p",
+          "1172": "bradyarrhythmias in this population. In hospitalized patients, iatrogenic volume overload is a",
+          "1173": "The physical findings in older heart failure patients may be nonspecific or atypical. The clas",
+          "1175": {
+            "text": "new-onset heart failure. Class I studies are defined as those that are indicated in most patie",
+            "contextPage": 1174,
+            "rangeText": "a chest radiograph, an electrocardiogram"
+          },
           "1176": "Indeed, almost all patients with significant systolic dysfunction also have concomitant echo",
-          "1174": "levels increase modestly with age especially in women ( Figure 76-6 ), declining renal funct"
-        }
+          "1174": {
+            "text": "Table 76-6",
+            "imageFile": "hazzard8e_ch76_table76-6_p1174.png"
+          },
+          "1182": "Diuretics Diuretics are the most effective agents for relieving pulmonary congestion and edema"
+        },
+        "supportPages": [
+          1182
+        ],
+        "citationOnly": [
+          1176,
+          1177,
+          1178
+        ]
       }
     },
     "5104": {
@@ -24963,22 +25059,29 @@
       "topic": 24,
       "mockEligible": false,
       "referenceSource": "IMA 2023-Jun Basic reference list, Q116",
-      "referenceNote": "Official reference reads Hazzard 434-435, which does not match Hazzard 8e; chapter assigned by topic.",
+      "referenceNote": "The IMA bibliography names Hazzard pp. 434–435. These Chapter 30 pages discuss nutritional support. The separate teaching passage for uremic burr cells is Harrison 21e, Chapter 63, p. 434, Figure 63-10.",
       "readerMapping": {
         "printedPages": [
           434,
           435
         ],
-        "topicOnly": true,
+        "topicOnly": false,
         "chapters": [
-          "83"
+          "30"
         ],
         "citationOnly": [
           434,
           435
         ],
-        "supportPages": [
-          1294
+        "supportPages": [],
+        "passages": {},
+        "bankChapter": "83",
+        "relatedTeaching": [
+          {
+            "chapter": "83",
+            "anchor": "ch83-harrison-burr",
+            "label": "Harrison 21e, ch. 63, p. 434, Figure 63-10"
+          }
         ]
       }
     },

@@ -46,13 +46,15 @@ window.HazzardEvidence = (() => {
       link.classList.add('chapter-exams-reader');
       link.append('Exam questions');
       link.title=entries.map(([sitting,total])=>sittingLabel(sitting)+' ×'+total).join(' · ');
-    }else link.append('Exams: ');
-    if(!reader)for (const [i, [sitting, count]] of entries.entries()) {
-      if (i) link.append(' · ');
-      const span = document.createElement('span'), [year, month] = sitting.split('-');
-      span.textContent = (sitting.endsWith('-Basic')?sittingLabel(sitting):(['2024','2021'].includes(year) && month ? month+' ' : '')+year)+(count>1?' ×'+count:'');
-      if (year === '2026') span.className = 'chapter-exams-latest';
-      link.append(span);
+    }else{
+      link.append('Exams: ');
+      for (const [i, [sitting, count]] of entries.entries()) {
+        if (i) link.append(' · ');
+        const span = document.createElement('span'), [year, month] = sitting.split('-');
+        span.textContent = (sitting.endsWith('-Basic')?sittingLabel(sitting):(['2024','2021'].includes(year) && month ? month+' ' : '')+year)+(count>1?' ×'+count:'');
+        if (year === '2026') span.className = 'chapter-exams-latest';
+        link.append(span);
+      }
     }
     const record=document.createElement('span');record.className='chapter-exams-record';record.textContent=' \u00b7 '+await HazzardStats.chapter(chapter,data);link.append(record);
     if (open) link.onclick = event => {event.preventDefault();open();};
@@ -116,6 +118,9 @@ window.HazzardEvidence = (() => {
         marker.id=p.anchor;
         marker.className='exam-passage-target';
         if(p.printed){marker.dataset.examIds=p.id;marker.dataset.examReadPage=String(p.page);}
+        else if(data.study[chapter]?.ids.includes(p.id)&&!data.questions[p.id].chapters.includes(chapter)){
+          marker.dataset.practiceIds=p.id;
+        }
         marker.dataset.readerMetadata='exam';
         if(boundary)boundary.insertNode(marker);
         else if(node.tagName==='IMG')node.before(marker);
@@ -159,7 +164,7 @@ window.HazzardEvidence = (() => {
     toggle.setAttribute('aria-controls',extra.id);
     headline.append(toggle);badge.append(extra);extra.append(...links);
     let open=history.state?.examReturn?.anchor===anchor&&history.state.examReturn.expanded===true;
-    let visible=-1,measure='';
+    let visible=0,measure='';
     function disclose(){
       const rest=links.length-visible;
       toggle.hidden=rest===0;
@@ -169,11 +174,9 @@ window.HazzardEvidence = (() => {
       toggle.setAttribute('aria-label',open?'Show fewer exam links':'Show '+rest+' more exam link'+(rest===1?'':'s'));
     }
     function preview(n){
-      if(visible!==n){
-        for(let i=n-1;i>=0;i--)if(links[i].parentNode!==headline)headline.insertBefore(links[i],links[i+1]?.parentNode===headline?links[i+1]:toggle);
-        for(let i=Math.min(2,links.length)-1;i>=n;i--)if(links[i].parentNode===headline)extra.prepend(links[i]);
-        visible=n;
-      }
+      for(let i=visible;i<n;i++)headline.insertBefore(links[i],toggle);
+      for(let i=visible-1;i>=n;i--)extra.prepend(links[i]);
+      visible=n;
       disclose();
     }
     function fit(){
@@ -254,7 +257,7 @@ window.HazzardEvidence = (() => {
       if(compact&&!study)annotations.push({element:badge,ids:entries.map(([id])=>id)});
     }
     if(earlier.length)labelAt(copy.querySelector('h1'),earlier,'Asked in this chapter','asked-chapter');
-    if(chapterOnly.length)labelAt(copy.querySelector('h1'),chapterOnly,'Chapter reference without a matching printed passage','cited-chapter');
+    if(chapterOnly.length)labelAt(copy.querySelector('h1'),chapterOnly,'Chapter reference without a matching printed passage','cited-chapter','Cited');
     if(related.length)labelAt(copy.querySelector('h1'),related,'Exam questions related by topic; their bibliography is shown with the question','related-exams','Related exam');
     copy.addEventListener('click',event=>{
       const link=event.target.closest('.exam-links a,.section-practice a');
@@ -302,10 +305,13 @@ window.HazzardEvidence = (() => {
       const entries=page ? byPage.get(page)||[] : (marker.dataset.examIds||'').split(/\s+/).filter(id=>data.questions[id]).map(id=>[id,data.questions[id]]);
       const practice=(marker.dataset.practiceIds||'').split(/\s+/).filter(id=>data.questions[id]);
       if(section)for(const id of [...entries.map(([id])=>id),...practice])section.ids.add(id);
-      if(!study && practice.length)annotations.push({element:marker,ids:practice});
+      const relatedHere=practice.filter(id=>memberIds.has(id)&&!data.questions[id].chapters.includes(sourceChapter)&&Number(data.questions[id].sitting.slice(0,4))>=2023);
+      const otherPractice=practice.filter(id=>!relatedHere.includes(id));
+      if(!study&&otherPractice.length)annotations.push({element:marker,ids:otherPractice});
       if(page && entries.length)marker.classList.add('exam-page-marker');
       const visible=compact&&study ? entries.filter(([,e])=>Number(e.sitting.slice(0,4))>=2023) : entries;
       labelAt(marker,visible,page?'Asked here, page '+page:'Related exam questions','asked-at-'+(++serial));
+      if(relatedHere.length)labelAt(marker,relatedHere.map(id=>[id,data.questions[id]]),'Related exam questions on this teaching passage','related-at-'+serial,'Related exam');
     }
     if(!compact)return;
     const counts=[];

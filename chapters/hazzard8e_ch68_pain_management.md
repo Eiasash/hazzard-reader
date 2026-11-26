@@ -96,6 +96,8 @@ In older patients, obtaining an accurate history of their pain symptoms and revi
 
 Various verbal and nonverbal pain assessment scales have been reviewed in the evaluation of pain in older patients. These scales are generally classified as unidimensional or multidimensional. A unidimensional pain scale focuses on a single factor, such as the severity of pain or impact of pain on function. In patients with chronic pain, the impact of the pain on physical and mental function, such as their mobility, mood, and fatigue, may be more meaningful than the pain intensity itself. **Table 68-3** provides a review of unidimensional pain scales. Multidimensional scales, on the other hand, include questions to assess pain intensity, interference with enjoyment of life, or history of pain treatments and relief. **Table 68-4** shows a review of multidimensional pain scales that can be useful in assessing pain in older adults.
 
+<span id="ch68-joint-exam" data-practice-ids="mcq-34619531f641d311ae985624" data-reader-metadata="exam"></span>
+
 Following the initial intake, a thorough physical examination should be completed. The affected location of pain should be evaluated for erythema or edema, which could be a marker of inflammation or infection. The musculoskeletal system can be evaluated by palpating for tender trigger points that duplicate the patient’s chief complaint, as well as assessing range of motion, posture, and gait. A neurologic examination for signs of focal muscle weakness, atrophy, or sensory impairments such as numbness or tingling should also be performed to rule out any peripheral or central neuropathic condition.
 
 ## Treatment
@@ -130,6 +132,8 @@ rigidity may lead to an increase in respiratory complications such as respirator
 ### Opioid Medication And Prescribing Practices For Older Adults
 
 The first wave of the opioid epidemic began with the increased prescribing of opioids in the 1990s, with overdoses increasing since at least 1999. Furthermore, an analysis of Medicare beneficiaries’ prescription opioid use in 2016 showed one in three Medicare Part D beneficiaries received a prescription for an opioid. Unfortunately, older adults are not immune from the detrimental consequences of opioid misuse disorder, including overdoses and deaths. The Centers for Disease Control and Prevention (CDC) reported an increase in drug overdoses and opioid deaths in the aging population, with a 7.7% increase in deaths related to opioid overdose in persons older than 65 years from 2013 to 2014. Older adults with opioid use disorder appear to be at higher risk of death compared to younger adults with the disorder. This disparity in death may be related to altered age-related organ function and accidental medication-related deaths.
+
+<span id="ch68-opioid-adverse-effects" data-reader-metadata="exam"></span>
 
 In 2016, the CDC released its landmark guideline for prescribing opioids for chronic pain, which includes special considerations for prescribing practices in older adults. First, given reduced renal function and medication clearance even without renal disease, older adults may be more susceptible to the accumulation of opioids and, therefore, identifying the therapeutic window between safe dosages and higher dosages associated with respiratory depression and overdose may be extremely challenging. Cognitive impairment may increase the risk for medication-related errors and opioid-induced confusion. Prescribing providers should pay particular attention to prescribing immediate-release opioids (recommendation #4); prescribing the lowest effective dose possible (recommendation #5); and maintaining close follow-up within 1 to 4 weeks of starting opioid therapy, with subsequent follow-up at least every 3 months or more frequently (recommendation #7). Clinicians should also consider instituting bowel regimens to prevent constipation, performing risk assessments for falls, monitoring for cognitive impairment, and performing random urine drug screen monitoring, especially when there are other caregivers involved in the patient’s care. In response to the opioid epidemic in the United States, the CDC has also recommended that prescribers utilize state-wide prescription drug monitoring programs (PDMPs) prior to prescribing any opioid or other controlled substance to monitor a patient’s use of controlled substances and minimize the risk for abuse, overdose, and diversion.
 
@@ -179,6 +183,8 @@ In addition to opioids analgesics, a number of other medications may be helpful 
 ![Table 68-7](hazzard8e_ch68_table68-7_p1063.png)
 
 > *Table 68-7 reproduced as a page image (printed p. 1063) — the grid did not extract reliably as text for this fast build.*
+
+<span id="ch68-renal-neuropathy" data-reader-metadata="exam"></span>
 
 ![Table 68-8](hazzard8e_ch68_table68-8_p1063.png)
 

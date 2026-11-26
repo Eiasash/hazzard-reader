@@ -1055,6 +1055,10 @@ window.HazzardMCQ = (() => {
         }
         for(const p of ref.pages)html+=p.available?'<button class="mcq-page-link" data-page="'+p.page+'">Open page '+p.page+'</button>':'<span class="mcq-page-unavailable">Page '+p.page+' · chapter '+escape(p.chapter||'?')+' unavailable in reader</span>';
         for(const p of ref.supportPages||[])if(p.available)html+='<button class="mcq-page-link" data-page="'+p.page+'">Teaching passage · p. '+p.page+'</button>';
+        for(const teaching of ref.relatedTeaching||[]){
+          const href='?chapter='+encodeURIComponent(teaching.chapter)+'&amp;examBack=1#'+encodeURIComponent(teaching.anchor);
+          html+='<p class="meta"><a href="'+href+'">Teaching passage · '+escape(teaching.label)+'</a></p>';
+        }
         const chapters=q.requiredCard?[]:assigned;
         for(const c of chapters){
           const ch=evidence.study[c];if(!ch)continue;

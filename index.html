@@ -4,7 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script src="js/reader-debug.js"></script>
 <script src="js/reading-companion.js"></script>
-<title>Stage A — Pressure injuries</title>
+<title>Stage A — Hazzard Reader</title>
+<script>if(!location.search&&!location.hash)document.documentElement.dataset.resolvingRoot='';</script>
 <meta name="description" content="A quiet reading desk for geriatrics study.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23205b4b%27/%3E%3Cpath d=%27M8 7h11l5 5v13H8z%27 fill=%27%23f8f5ed%27/%3E%3Cpath d=%27M12 15h8m-8 4h8%27 stroke=%27%23205b4b%27 stroke-width=%272%27/%3E%3C/svg%3E">
 <!-- Portable reading specimen. Inline CSS and script; no runtime dependencies. -->
@@ -54,6 +55,7 @@
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:var(--page);color:var(--ink);scroll-behavior:auto}
 body{margin:0;font:400 var(--body)/1.45 var(--reading);letter-spacing:calc(.1px * var(--fs,1));overflow-wrap:break-word}
 [hidden]{display:none!important}
+html[data-resolving-root] #readerViewport{visibility:hidden}
 button,input,textarea,select{font:500 var(--label)/1.35 var(--ui);color:inherit}
 button,a,input,textarea,select{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 button{min-block-size:var(--tap);border:var(--line) solid var(--control);border-radius:var(--radius);padding:var(--s2) var(--s3);background:var(--surface);cursor:pointer;white-space:normal;text-align:center}
@@ -5203,6 +5205,7 @@ if(!requestedChapter){
   const url=new URL(location.href);url.search=launchParams.toString();history.replaceState(history.state,'',url);
 }
 const opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
+if(!opensOnHome)delete document.documentElement.dataset.resolvingRoot;
 if(companionFrame)await HazzardMCQ.loadAliases();
 else{
   try{if(opensOnHome)await HazzardMCQ.loadAliases();else await HazzardMCQ.migrateSaved();}catch(error){HazzardStorage.status.error='Saved-question recovery: '+error.message;}
@@ -5422,7 +5425,7 @@ function placeHeaderSteps(){
 narrowHeader.addEventListener('change',placeHeaderSteps);placeHeaderSteps();
 const contentsTargets=[];
 if(true){
-  document.title='Stage A — '+chapterTitle;
+  document.title=opensOnHome?'Stage A — Home':'Stage A — '+chapterTitle;
   const list=$('[data-pane="contents"] .rows');list.replaceChildren();
   for(const heading of copy.querySelectorAll('h1,h2:not(.callout-heading),h3')){
     const li=document.createElement('li'),button=document.createElement('button');
@@ -5754,6 +5757,7 @@ function renderScreen(state){
   if(state?.hazzardStats){hidePanel();renderStatistics(state.hazzardPane);return;}
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
+  document.title='Stage A — '+(id==='desk'?'Home':id==='library'?'Chapters':chapterTitle);
   hidePanel();currentView=id;
   const studyTabs=chapterHeader.querySelector('.study-view-tabs');if(studyTabs)studyTabs.hidden=id!=='reader';
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
@@ -7182,6 +7186,7 @@ if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 document.getElementById('openStatistics').onclick=()=>openStatistics();
 if(new URL(location.href).searchParams.get('stats')==='1')openStatistics(true);
 else if(new URL(location.href).searchParams.get('home')==='1')navigateUI('desk',null,false,true);
+delete document.documentElement.dataset.resolvingRoot;
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   await HazzardFlashcards.flush();
@@ -7227,7 +7232,7 @@ document.addEventListener('click',async event=>{
 if(companionFrame)parent.HazzardReadingCompanion.frameReady();
 else HazzardCloud.start({capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
 dispatchEvent(new Event('hazzard-reader-ready'));
-})().catch(error=>{const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(HazzardReadingCompanion.embedded)HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
+})().catch(error=>{delete document.documentElement.dataset.resolvingRoot;const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(HazzardReadingCompanion.embedded)HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
 
 <script type="module">if(!HazzardReadingCompanion.embedded)await import('./js/reader-status.js');</script>
 <script src="js/reader-whats-new.js"></script>

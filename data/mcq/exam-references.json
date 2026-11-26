@@ -137,15 +137,17 @@
           "page": 1285,
           "chapter": "83",
           "available": true,
+          "rangeText": "The most common diseases identified by kidney biopsy are membranous nephropathy",
           "anchor": "exam-p1285-mcq-8d91e921a4f3e6b38cc30ba0",
-          "passage": "New onset of lower extremity edema should always warrant a urinalysis, which is cheap, nonin"
+          "passage": "The most common diseases identified by kidney biopsy are membranous nephropathy"
         },
         {
           "page": 1286,
           "chapter": "83",
           "available": true,
+          "rangeText": "In the general adult population in the United States, DN is the most common cause of NS and ESKD requiring dialysis.",
           "anchor": "exam-p1286-mcq-8d91e921a4f3e6b38cc30ba0",
-          "passage": "Diabetic kidney disease or DN is a progressive microvascular complication due to long-standi"
+          "passage": "In the general adult population in the United States, DN is the most common cause of NS and ESKD requiring dialysis."
         }
       ],
       "tables": [],
@@ -4663,7 +4665,8 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": null
     },
     "mcq-d852902c476364b525be2fb0": {
       "sitting": "2023-Jun",
@@ -5233,6 +5236,8 @@
           "page": 1048,
           "chapter": "67",
           "available": true,
+          "contextPage": 1047,
+          "rangeText": "The Pain Assessment in Advanced Dementia (PAINAD) Scale may be a useful tool in this situation.",
           "anchor": "exam-p1048-mcq-795f2687afa4d5918ddb65de",
           "passage": "of nonpharmacologic management in situations that risk patient or caregiver safety. As part "
         },
@@ -5665,15 +5670,18 @@
           "page": 1296,
           "chapter": "83",
           "available": true,
+          "rangeText": "While dialysis patients should understand that they have the right to stop treatment",
           "anchor": "exam-p1296-mcq-7bd5c333fb742a1192c41f33",
-          "passage": "Stopping dialysis has become a common reason for death in the dialysis population, especiall"
+          "passage": "While dialysis patients should understand that they have the right to stop treatment"
         },
         {
           "page": 1297,
           "chapter": "83",
           "available": true,
+          "contextPage": 1296,
+          "rangeText": "important to document the decisional capacity of the older adult on dialysis wishing to withdraw",
           "anchor": "exam-p1297-mcq-7bd5c333fb742a1192c41f33",
-          "passage": "Practice guidelines underscore that a complete review of treatment options, prognosis, and q"
+          "passage": "important to document the decisional capacity of the older adult on dialysis wishing to withdraw"
         }
       ],
       "tables": [],
@@ -5895,8 +5903,9 @@
           "page": 638,
           "chapter": "43",
           "available": true,
+          "rangeText": "Overall systematic review findings from 64 RCTs",
           "anchor": "exam-p638-mcq-e71329f82512960352dd33a0",
-          "passage": "There is now a strong body of evidence to support interventions for preventing falls in olde"
+          "passage": "Exercise Exercise has a major role to play in preventing falls among older people and is r"
         },
         {
           "page": 639,
@@ -6396,19 +6405,21 @@
         {
           "page": 1280,
           "chapter": "83",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1281,
           "chapter": "83",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
       "chapters": [
         "83"
       ],
-      "bankChapter": "83",
+      "bankChapter": "80",
       "referenceNote": "The IMA list prints pp1280–1281 in Chapter 83. The respiratory physiology supporting the key is in Chapter 80 on p1231.",
       "supportPages": [
         {
@@ -6587,14 +6598,13 @@
           "chapter": "76",
           "available": true,
           "anchor": "exam-p1179-mcq-d034cd9715f2f2dd845cca98",
-          "passage": "In general, the treatment of HFREF in older patients does not differ substantially from that"
+          "passage": "In general, the treatment of HFREF in older patients does not differ substantially from that i"
         },
         {
           "page": 1180,
           "chapter": "76",
           "available": true,
-          "anchor": "exam-p1180-mcq-d034cd9715f2f2dd845cca98",
-          "passage": "Angiotensin receptor neprilysin inhibitor (ARNi) Sacubitril inhibits a neprilysin, a neutral"
+          "citationOnly": true
         },
         {
           "page": 1181,
@@ -6608,7 +6618,7 @@
           "chapter": "76",
           "available": true,
           "anchor": "exam-p1182-mcq-d034cd9715f2f2dd845cca98",
-          "passage": "The Digitalis Investigation Group (DIG) reported the results of a prospective randomized tri"
+          "passage": "Diuretics Diuretics are the most effective agents for relieving pulmonary congestion and edema"
         }
       ],
       "tables": [],
@@ -7099,15 +7109,16 @@
           "page": 1179,
           "chapter": "76",
           "available": true,
+          "rangeText": "carvedilol, bisoprolol, and metoprolol succinate",
           "anchor": "exam-p1179-mcq-cb7d90148e8999fdf9097145",
-          "passage": "In the Study of the Effects of Nebivolol Intervention on Outcomes and Rehospitalization in S"
+          "passage": "In the Study of the Effects of Nebivolol Intervention on Outcomes and Rehospitalization in Sen"
         },
         {
           "page": 1180,
           "chapter": "76",
           "available": true,
           "anchor": "exam-p1180-mcq-cb7d90148e8999fdf9097145",
-          "passage": "Angiotensin receptor neprilysin inhibitor (ARNi) Sacubitril inhibits a neprilysin, a neutral"
+          "passage": "Angiotensin II receptor blockers The use of ARBs for the treatment of heart failure has been e"
         },
         {
           "page": 1181,
@@ -7585,6 +7596,8 @@
           "page": 788,
           "chapter": "52",
           "available": true,
+          "contextPage": 787,
+          "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk.",
           "anchor": "exam-p788-mcq-38f357fdf35289d175b07a3e",
           "passage": "of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Usi"
         },
@@ -7773,6 +7786,7 @@
           "page": 1281,
           "chapter": "83",
           "available": true,
+          "imageFile": "hazzard8e_ch83_table83-1_p1281.png",
           "anchor": "exam-p1281-mcq-7f71419177e54d446b41de5d",
           "passage": "Table 83-1"
         }
@@ -8174,7 +8188,7 @@
           "chapter": "65",
           "available": true,
           "anchor": "exam-p1015-mcq-853f055b351088b453cad3a1",
-          "passage": "Antidepressants treat major, not minor, depression Although antidepressant medications have "
+          "passage": "Antidepressants do not generally work in dementia Based on a large number of negative studies,"
         }
       ],
       "tables": [],
@@ -8335,8 +8349,9 @@
           "page": 1296,
           "chapter": "83",
           "available": true,
+          "rangeText": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis.",
           "anchor": "exam-p1296-mcq-eb4176cd70d5d177aafe8cc6",
-          "passage": "Itching has been reported in up to 40% of patients with kidney failure and can adversely aff"
+          "passage": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis."
         }
       ],
       "tables": [],
@@ -8372,6 +8387,15 @@
       "tables": [],
       "chapters": [
         "76"
+      ],
+      "supportPages": [
+        {
+          "page": 1188,
+          "chapter": "76",
+          "available": true,
+          "anchor": "exam-p1188-mcq-edd8a3bd4e1d30138e1e61de",
+          "passage": "SGLT2 inhibitors have been investigated in two large trials, DELIVER (evaluating dapagliflozin"
+        }
       ]
     },
     "mcq-23789e6a7328c5cff1a43570": {
@@ -9225,7 +9249,14 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "relatedTeaching": [
+        {
+          "chapter": "83",
+          "anchor": "ch83-harrison-oxalate",
+          "label": "Harrison 21e, ch. 372, p. 2867"
+        }
+      ]
     },
     "mcq-e99c30e151c2dfdafec0020e": {
       "sitting": "2024-May",
@@ -9744,8 +9775,9 @@
           "page": 639,
           "chapter": "43",
           "available": true,
+          "rangeText": "Home safety interventions are effective in high-risk groups",
           "anchor": "exam-p639-mcq-ff953c4f5cde2966a8ac98cc",
-          "passage": "In contrast, the evidence for updating glasses to ensure the use of correct prescription gla"
+          "passage": "Home safety interventions Home safety interventions are effective in high-risk groups and "
         }
       ],
       "tables": [],
@@ -10255,8 +10287,9 @@
           "page": 637,
           "chapter": "43",
           "available": true,
+          "rangeText": "A test time > 10 sec to complete eight alternating steps indicates an impaired performance.",
           "anchor": "exam-p637-mcq-a95e9c5ca09aca36f108c948",
-          "passage": "Table 43-2 — Examples of validated fall-risk screening tools"
+          "passage": "The Alternate Step Test measures the ability of patients to alternatively place their left"
         }
       ],
       "tables": [
@@ -12270,8 +12303,9 @@
           "page": 637,
           "chapter": "43",
           "available": true,
+          "rangeText": "the predictive value of the TUG for falls in community-dwelling older adults was limited",
           "anchor": "exam-p637-mcq-2fdd846e83242323d98210d5",
-          "passage": "The Timed Up and Go Test (TUG) measures the time taken for a person to rise from a chair, wa"
+          "passage": "Best practice guidelines recommend the Timed Up and Go (TUG) Test as a simple screening to"
         }
       ],
       "tables": [],
@@ -13025,8 +13059,9 @@
           "page": 1296,
           "chapter": "83",
           "available": true,
+          "rangeText": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis.",
           "anchor": "exam-p1296-mcq-34b4e39adec6e653936a4380",
-          "passage": "Itching has been reported in up to 40% of patients with kidney failure and can adversely aff"
+          "passage": "Low-dose gabapentin has been shown to reduce uremic pruritus among patients with advanced CKD on hemodialysis."
         }
       ],
       "tables": [],
@@ -14141,8 +14176,9 @@
           "page": 1295,
           "chapter": "83",
           "available": true,
+          "rangeText": "There is a higher incidence of pathologic fracture, vascular or metastatic calcification, and bone pain in older patients on dialysis than in younger patients.",
           "anchor": "exam-p1295-mcq-5cc3bcb961bbfb9897e8af66",
-          "passage": "Kidney failure is associated with abnormalities of divalent ions (Ca2+ , P) and of the hormo"
+          "passage": "There is a higher incidence of pathologic fracture, vascular or metastatic calcification, and bone pain in older patients on dialysis than in younger patients."
         }
       ],
       "tables": [],
@@ -14418,7 +14454,9 @@
         {
           "page": 1015,
           "chapter": "65",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1015-mcq-d06be14df3b5c357b755243d",
+          "passage": "There is no standard dosage for antidepressant effect Research about the dose-response curve f"
         }
       ]
     },
@@ -14436,6 +14474,7 @@
           "page": 1281,
           "chapter": "83",
           "available": true,
+          "imageFile": "hazzard8e_ch83_table83-1_p1281.png",
           "anchor": "exam-p1281-mcq-37ef49b08af5012046c10790",
           "passage": "Table 83-1"
         }
@@ -14845,7 +14884,7 @@
           "chapter": "68",
           "available": true,
           "anchor": "exam-p1064-mcq-c6d5d418c0657e5ffa7923f3",
-          "passage": "Table 68-8"
+          "passage": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
         },
         {
           "page": 1065,
@@ -15552,7 +15591,7 @@
           "chapter": "65",
           "available": true,
           "anchor": "exam-p1014-mcq-e7a9b86ecadd6d67e6f524b1",
-          "passage": "Unfortunately, the beneficial effects tend to decay over time, even with medications, and “m"
+          "passage": "Electroconvulsive therapy (ECT) ECT has suffered from negative press and stereotypes. It remai"
         }
       ],
       "tables": [],
@@ -15829,8 +15868,9 @@
           "page": 1295,
           "chapter": "83",
           "available": true,
+          "rangeText": "The recommended assessments include but not limited to periodic check of body weight, dietary interviews, and serum albumin levels.",
           "anchor": "exam-p1295-mcq-56a930970c2bcf04fdd39deb",
-          "passage": "Nutrition plays an important role in the health and well-being of patients with kidney failu"
+          "passage": "The recommended assessments include but not limited to periodic check of body weight, dietary interviews, and serum albumin levels."
         }
       ],
       "tables": [],
@@ -16781,7 +16821,7 @@
           "chapter": "68",
           "available": true,
           "anchor": "exam-p1064-mcq-17e66840ae11bd49e4b668cf",
-          "passage": "Table 68-8"
+          "passage": "Tricyclic antidepressants (TCAs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) ca"
         },
         {
           "page": 1065,
@@ -20488,50 +20528,63 @@
           "chapter": "76",
           "available": true,
           "anchor": "exam-p1172-mcq-6109da3d3d42107aafeb13c6",
-          "passage": "As previously discussed, older patients have limited cardiovascular reserve and they are les"
+          "passage": "bradyarrhythmias in this population. In hospitalized patients, iatrogenic volume overload is a"
         },
         {
           "page": 1173,
           "chapter": "76",
           "available": true,
           "anchor": "exam-p1173-mcq-6109da3d3d42107aafeb13c6",
-          "passage": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A"
+          "passage": "The physical findings in older heart failure patients may be nonspecific or atypical. The clas"
         },
         {
           "page": 1174,
           "chapter": "76",
           "available": true,
+          "imageFile": "hazzard8e_ch76_table76-6_p1174.png",
           "anchor": "exam-p1174-mcq-6109da3d3d42107aafeb13c6",
-          "passage": "levels increase modestly with age especially in women ( Figure 76-6 ), declining renal funct"
+          "passage": "Table 76-6"
         },
         {
           "page": 1175,
           "chapter": "76",
           "available": true,
+          "contextPage": 1174,
+          "rangeText": "a chest radiograph, an electrocardiogram",
           "anchor": "exam-p1175-mcq-6109da3d3d42107aafeb13c6",
-          "passage": "the most useful technique because it is noninvasive, widely available, and, in addition to p"
+          "passage": "new-onset heart failure. Class I studies are defined as those that are indicated in most patie"
         },
         {
           "page": 1176,
           "chapter": "76",
           "available": true,
-          "anchor": "exam-p1176-mcq-6109da3d3d42107aafeb13c6",
-          "passage": "Indeed, almost all patients with significant systolic dysfunction also have concomitant echo"
+          "citationOnly": true
         },
         {
           "page": 1177,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1178,
           "chapter": "76",
-          "available": true
+          "available": true,
+          "citationOnly": true
         }
       ],
       "tables": [],
       "chapters": [
         "76"
+      ],
+      "supportPages": [
+        {
+          "page": 1182,
+          "chapter": "76",
+          "available": true,
+          "anchor": "exam-p1182-mcq-6109da3d3d42107aafeb13c6",
+          "passage": "Diuretics Diuretics are the most effective agents for relieving pulmonary congestion and edema"
+        }
       ]
     },
     "mcq-25fade3bda9f47fba53505e6": {
@@ -20636,21 +20689,35 @@
       "source": "2023/references.pdf",
       "reference": "הזארד עמודים 434-435",
       "questionRef": "הזארד עמודים 434-435",
-      "status": "topic-8e",
-      "reason": "Topic match to the eighth edition.",
-      "pages": [],
+      "status": "resolved",
+      "reason": "",
+      "pages": [
+        {
+          "page": 434,
+          "chapter": "30",
+          "available": true,
+          "citationOnly": true
+        },
+        {
+          "page": 435,
+          "chapter": "30",
+          "available": true,
+          "citationOnly": true
+        }
+      ],
       "tables": [],
       "chapters": [
-        "83"
+        "30"
       ],
-      "referenceNote": "Official reference reads Hazzard 434-435, which does not match Hazzard 8e; chapter assigned by topic.",
-      "supportPages": [
+      "bankChapter": "83",
+      "relatedTeaching": [
         {
-          "page": 1294,
           "chapter": "83",
-          "available": true
+          "anchor": "ch83-harrison-burr",
+          "label": "Harrison 21e, ch. 63, p. 434, Figure 63-10"
         }
-      ]
+      ],
+      "referenceNote": "The IMA bibliography names Hazzard pp. 434–435. These Chapter 30 pages discuss nutritional support. The separate teaching passage for uremic burr cells is Harrison 21e, Chapter 63, p. 434, Figure 63-10."
     },
     "mcq-80487577b314a49f9eb9ccb2": {
       "sitting": "2023-Jun-Basic",
@@ -22476,11 +22543,12 @@
         "mcq-5a499e769081989f66f37ce2",
         "mcq-5e8b2616064c7017b1a9e357",
         "mcq-9133456e88257f8d41edd4d4",
-        "mcq-7b26cdc007e22b5187d35b3b"
+        "mcq-7b26cdc007e22b5187d35b3b",
+        "mcq-28b6d2af7cf87462379ebe90"
       ],
       "before": 4,
-      "past": 6,
-      "resolved": 2,
+      "past": 7,
+      "resolved": 3,
       "fallback": 1,
       "practice": 34,
       "chapterLinked": 3
@@ -23494,6 +23562,7 @@
       "ids": [
         "mcq-91b98ca785a73e91ef64d8b4",
         "mcq-72e3ae0b41e7da23ee8ad9df",
+        "mcq-5687d58f50abb0a5affaee3d",
         "mcq-122d9fc74517c768b3d882c2",
         "mcq-e2505429368dfde81cea15ac",
         "mcq-b51ad3fe1826ffb8741047b1",
@@ -23501,8 +23570,8 @@
         "mcq-86b262840f3c7de29023078e"
       ],
       "before": 0,
-      "past": 7,
-      "resolved": 5,
+      "past": 8,
+      "resolved": 6,
       "fallback": 0,
       "practice": 0,
       "chapterLinked": 2
@@ -23555,7 +23624,6 @@
         "mcq-8d91e921a4f3e6b38cc30ba0",
         "mcq-9534df35cf56acbc6bcb3f35",
         "mcq-7e475d72d1c6b9b8c726614b",
-        "mcq-b53c26359f2994f24955cccd",
         "mcq-7bd5c333fb742a1192c41f33",
         "mcq-5687d58f50abb0a5affaee3d",
         "mcq-7f71419177e54d446b41de5d",
@@ -23568,11 +23636,11 @@
         "mcq-28b6d2af7cf87462379ebe90"
       ],
       "before": 19,
-      "past": 14,
-      "resolved": 9,
-      "fallback": 3,
+      "past": 13,
+      "resolved": 10,
+      "fallback": 2,
       "practice": 13,
-      "chapterLinked": 2
+      "chapterLinked": 1
     },
     "84": {
       "ids": [

@@ -339,6 +339,7 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 #copy .exam-link-count{flex:none}
 #copy .exam-links a,#copy .exam-links button{display:inline-flex;flex:none;align-items:center;justify-content:center;box-sizing:border-box;min-block-size:44px;min-inline-size:44px;padding:0 3px;border:0;border-radius:3px;background:transparent;white-space:nowrap;color:inherit;font:inherit}
 #copy .exam-links button{text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+#copy .exam-links a{text-decoration:underline;text-underline-offset:2px}
 #copy .exam-links :is(a,button):is(:focus-visible,:hover){background:var(--exam-soft);outline:1px solid var(--exam)}
 #copy .exam-missed{display:inline-block;color:var(--exam);font:600 calc(11px * var(--fs,1))/1.3 var(--ui);margin-inline:.35em;padding:.1em .35em;border:1px solid currentColor;border-radius:3px}
 #copy .section-practice{font:500 calc(12px * var(--fs,1))/1.55 var(--ui);margin:.4em 0 1.4em;color:var(--muted)}

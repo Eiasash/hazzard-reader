@@ -93,7 +93,7 @@ window.HazzardFlashcards = (() => {
       sourceURL.search = new URLSearchParams({chapter: sourceChapter, cardSource: card.id});
       sourceURL.hash = card.anchor;
       source.href = sourceURL.href;
-      source.textContent = 'Read the passage · Ch. ' + sourceChapter + ', p. ' + card.page;
+      source.textContent = card.sourceLabel || 'Read the passage · Ch. ' + sourceChapter + ', p. ' + card.page;
       const context = element('flashcardContext');
       context.hidden = !card.studyReference;
       if (card.studyReference) {

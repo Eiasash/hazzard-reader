@@ -2,6 +2,95 @@ Study summary of Chapter 76 — Heart Failure; the book and the full chapter are
 
 # Chapter 76 Study: Heart Failure
 
+## What the exams asked
+
+- Recognize an apical S4 in a hypertensive patient with orthopnea and distinguish impaired relaxation from weak contraction — [2020 Q68](?chapter=76#asked-chapter), [May 2024 Q56](?chapter=76#exam-p1175-mcq-551b3101ea16a79edb40dc20).
+- Identify why a BNP elevation is less specific in an older patient with impaired renal function — [June 2023 Q88](?chapter=76#exam-p1174-mcq-1464838102c98ff3a34184c7).
+- Find the most common precipitant of recurrent congestion and recognize pulmonary edema after IV fluids — [June 2023 Q37](?chapter=76#exam-p1172-mcq-0081f896ab2a7645732697e6), [June 2023 Basic Q110](?chapter=76#exam-p1172-mcq-6109da3d3d42107aafeb13c6).
+- Identify thiamine deficiency as a cause of high-output failure and consider replacement in a patient at risk from poor intake and diuresis — [September 2024 Q49](?chapter=76#exam-p1172-mcq-3b316d09c1a5d91bc326475c), [June 2022 Q80](?chapter=76#asked-chapter).
+- Recognize carpal tunnel syndrome as a clue to cardiac amyloidosis — [June 2022 Q55](?chapter=76#asked-chapter).
+- Distinguish upper gastrointestinal protection from the renal and cardiac risks of NSAIDs — [May 2024 Q14](?chapter=76#exam-p1173-mcq-38f357fdf35289d175b07a3e).
+- Separate the effect of influenza vaccination from the outcome evidence for beta blockers, SGLT2 inhibitors and loop diuretics — [June 2023 Q74](?chapter=76#exam-p1179-mcq-d034cd9715f2f2dd845cca98). The [vaccination paragraph](?chapter=76#exam-p1176-mcq-d034cd9715f2f2dd845cca98) is additional teaching on p1176.
+- Identify the beta blockers with HFrEF outcome evidence and choose appropriate therapy after pulmonary edema — [June 2023 Q96](?chapter=76#exam-p1179-mcq-cb7d90148e8999fdf9097145), [June 2022 Q66](?chapter=76#asked-chapter).
+- Compare sacubitril/valsartan with enalapril and select the hydralazine–nitrate alternative for intolerance — [September 2024 Q85](?chapter=76#exam-p1180-mcq-65f1b2348078e99a77093d23), [September 2024 Q60](?chapter=76#exam-p1181-mcq-d6f42ab8d1be3a2ddc5790b8).
+- Distinguish eplerenone from drugs that slow the heart, and interpret digoxin exposure in an older patient with CKD — [June 2025 Basic Q149](?chapter=76#exam-p1181-mcq-777d91eb7840ca302219d066), [December 2021 Q5](?chapter=76#asked-chapter).
+- Interpret the HFpEF trial endpoints for digoxin, candesartan and empagliflozin — [June 2022 Q1](?chapter=76#asked-chapter), [May 2024 Q45](?chapter=76#exam-p1187-mcq-edd8a3bd4e1d30138e1e61de). The [EMPEROR-Preserved paragraph](?chapter=76#exam-p1188-mcq-edd8a3bd4e1d30138e1e61de) gives the trial result beyond the printed citation.
+- Distinguish SGLT2 adverse effects from hypomagnesemia — [June 2026 Basic Q147](?chapter=76#exam-p1181-mcq-538cb2dab0c6ea72540a81e9).
+- Choose CRT for electrical dyssynchrony and consider an LVAD for refractory systolic failure — [May 2024 Q51](?chapter=76#exam-p1184-mcq-61c1dacfc6182349c975f40d), [2020 Q72](?chapter=76#asked-chapter), [June 2025 Q92](?chapter=76#exam-p1189-mcq-78efef2ee60d19f031350bbc).
+- Identify a favorable prognostic association after HF hospitalization — [December 2021 Q59](?chapter=76#asked-chapter).
+
+## Reading the examination and the BNP together
+
+<span data-exam-ids="mcq-551b3101ea16a79edb40dc20 mcq-1464838102c98ff3a34184c7" data-reader-metadata="exam"></span>
+
+When a patient wakes breathless or coughs up frothy sputum, the first question is whether left-sided filling pressure has risen. A fourth heart sound just before S1 reflects late filling against a stiff ventricle. A hypertensive patient with an S4 can develop pulmonary edema without raised neck veins or swollen legs. In contrast, a displaced apex and an S3 favor a dilated, poorly contracting ventricle. These findings shift probability rather than measure EF. An echocardiogram assesses ventricular size, EF, wall thickness, filling and valves (pp1173–1175, Table 76-7).
+
+The aging ventricle relaxes more slowly and relies more on atrial contraction. Rapid AF shortens diastole and removes the atrial contribution. A small change in rate or volume can therefore precipitate symptoms even when the EF was preserved at the patient's last examination. Reduced beta-adrenergic reserve limits the compensatory heart-rate response, and arterial stiffness increases the load against which the ventricle ejects (pp1167–1170).
+
+BNP reflects myocardial stretch. An older person with CKD can have a high result without a new episode of pulmonary edema. Age, particularly in women, and anemia also push levels upward, while higher BMI pushes them downward. In a nonobese older patient a value below 100 pg/mL weighs against active HF, whereas a value above 500 pg/mL supports it when the history and examination agree. Neither value distinguishes HFrEF from HFpEF. Consider alternative pulmonary causes and use chest imaging, ECG and Doppler echocardiography to answer the next question (pp1173–1175).
+
+## Finding the precipitant and the underlying disease
+
+<span data-exam-ids="mcq-0081f896ab2a7645732697e6 mcq-6109da3d3d42107aafeb13c6 mcq-3b316d09c1a5d91bc326475c mcq-38f357fdf35289d175b07a3e" data-reader-metadata="exam"></span>
+
+In established HF, ask what changed before escalating the maintenance dose. Missing tablets, being unable to obtain refills, urinary urgency after the morning diuretic, or dependence on salty prepared food can all produce recurrent congestion. In the series summarized in the chapter, difficulty following medication or diet accounted for up to two-thirds of exacerbations. Among cardiac triggers, ischemia and atrial arrhythmias are especially important. Infection, anemia, thyroid disease, acute kidney dysfunction and newly prescribed drugs can further narrow an older patient's limited reserve (pp1172–1173, Table 76-4).
+
+In the June 2023 Basic case a woman with diastolic HF becomes hypoxemic soon after receiving IV fluid for a febrile urinary infection. The bilateral opacities, timing and limited capacity to accommodate volume favor hydrostatic edema. Support oxygenation, reassess further fluids, treat the congestion and continue treating the infection. The printed range begins with the precipitant on p1172. The [diuretic paragraph](?chapter=76#exam-p1182-mcq-6109da3d3d42107aafeb13c6) explains the treatment separately (pp1172–1175, 1182).
+
+With systemic NSAIDs, reduced prostaglandin activity can both damage the upper gastrointestinal mucosa and impair renal sodium excretion. A proton-pump inhibitor lowers the likelihood of upper gastrointestinal ulcer bleeding but does not prevent kidney injury, higher pressure or congestion. Review over-the-counter analgesics in someone whose diuretics appear to have stopped working. May 2024 Q14 draws the gastrointestinal teaching from Chapter 52 and the HF exacerbation from Chapter 76 (pp787–788, 1173).
+
+Thiamine deficiency, severe chronic anemia, hyperthyroidism and arteriovenous shunting can cause high-output failure. A high cardiac output still falls short of the body's requirements. Wet beriberi is the classic exam association. Look for limited food intake or prolonged diuretic exposure when deficiency is plausible. Replace deficiency without assuming that all patients taking furosemide benefit from routine supplementation (pp1171–1172, Table 76-3).
+
+Amyloid infiltration produces stiff, thickened ventricles. Prior carpal tunnel syndrome, especially bilateral disease, is a clue when HF coincides with otherwise unexplained thickening or atrial arrhythmia. An EF of 40% has many possible causes, and normal BNP does not identify cardiac amyloid. All four options received credit in June 2022 Q55. In a selected group of older patients hospitalized with HFpEF and LV wall thickness over 12 mm, 13% had wild-type ATTR cardiac amyloidosis. That denominator matters when considering testing (p1171, ACC cardiac amyloidosis consensus 2023, Table 1).
+
+## Choosing treatment by the outcome it changes
+
+<span data-exam-ids="mcq-d034cd9715f2f2dd845cca98 mcq-cb7d90148e8999fdf9097145 mcq-65f1b2348078e99a77093d23 mcq-d6f42ab8d1be3a2ddc5790b8 mcq-777d91eb7840ca302219d066" data-reader-metadata="exam"></span>
+
+For stable HFrEF, distinguish the four disease-modifying treatment classes from diuretics for symptom relief. An ARNI or suitable alternative modifies renin–angiotensin signaling, evidence-based beta blockade reduces harmful sympathetic stimulation, an MRA blocks aldosterone and an SGLT2 inhibitor lowers HF events even without diabetes. Start and titrate around blood pressure, pulse, kidney function, potassium and what matters to the patient. With persistent edema, a small increase in creatinine alone is insufficient reason to stop decongestion. If the patient instead becomes dry and orthostatic, reduce the diuretic intensity and reassess (pp1179–1183).
+
+Carvedilol, sustained-release metoprolol succinate and bisoprolol have HFrEF outcome evidence. Atenolol and propranolol cannot inherit those outcomes simply by belonging to the same class. SENIORS also found that nebivolol reduced death or cardiovascular hospitalization in a population aged 70 or older. These findings support starting an appropriate drug after stabilization. Severe decompensation, marked bradycardia and advanced heart block change the immediate decision (p1179).
+
+Compared with enalapril in PARADIGM-HF, sacubitril/valsartan reduced cardiovascular death or HF hospitalization, with more hypotension but less renal impairment and severe hyperkalemia. The risk is lower, not absent. Check pressure, creatinine and potassium and allow at least 36 hours after an ACE inhibitor to reduce angioedema risk. If first-line renin–angiotensin agents cannot be tolerated, hydralazine plus isosorbide dinitrate offers combined arterial and venous dilation. The evidence is for the combination, and multiple daily doses matter when planning support at home (pp1180–1182).
+
+Eplerenone does not directly slow the heart. Bisoprolol acts through beta blockade, ivabradine slows the sinus pacemaker, and digoxin slows AV nodal conduction. In a euvolemic older patient with controlled AF, CKD and a digoxin level of 1.4 ng/mL, reconsider the dose before attributing exertional symptoms to inadequate diuresis. The chapter's low HF concentration range is 0.5–0.9 ng/mL. Declining renal function and hypokalemia increase toxicity risk even when a laboratory labels the concentration therapeutic (pp1179, 1181–1183).
+
+The June 2022 post-discharge question credits two options. For someone taking propranolol, a switch to carvedilol after stabilization addresses HFrEF outcomes. Adding spironolactone can also be appropriate if eGFR is above 30 mL/min/1.73 m² and potassium is below 5.0 mEq/L, with both rechecked after starting. The fluid advice bundled with each option must be considered separately. Table 76-8 warns against excess intake, especially with hyponatremia. Four cups per day is not a general HF prescription, and avoiding all exertion can accelerate deconditioning (pp1176–1179, 1181, AHA/ACC/HFSA 2022, §7.3.3).
+
+Influenza can trigger decompensation, so vaccination belongs in the management plan. The chapter describes an association with lower mortality. The subsequent randomized IVVE trial found a mortality reduction during peak influenza circulation but no significant mortality difference over the full observation period. Loop diuretics relieve breathlessness and edema without an established survival benefit. The distinction between a cohort association, a trial endpoint and symptomatic benefit is what makes June 2023 Q74 difficult (pp1176, 1179–1182, IVVE, PMID 36400089).
+
+## HFpEF trials and adverse effects
+
+<span data-exam-ids="mcq-edd8a3bd4e1d30138e1e61de mcq-538cb2dab0c6ea72540a81e9" data-reader-metadata="exam"></span>
+
+For HFpEF, use a diuretic for pulmonary or systemic congestion and titrate it carefully. A stiff ventricle still depends on adequate preload. Excessive diuresis can lower stroke volume, cause postural symptoms and reduce renal perfusion. Treat hypertension and associated ischemia or AF, and individualize blood pressure targets for a frail patient at risk of falls. Preserved EF does not justify routine use of a beta blocker for prognosis (pp1186–1187).
+
+In CHARM-Preserved, candesartan reduced HF hospitalizations without a demonstrated mortality reduction. In EMPEROR-Preserved, empagliflozin reduced the combined risk of cardiovascular death or HF hospitalization, chiefly through fewer admissions. The separate mortality component was not significantly reduced. In the ancillary DIG trial for preserved EF, an early reduction in HF admissions did not persist as a significant difference across complete follow-up. Digoxin is generally reserved for another indication, such as adjunctive rate control in AF. These are distinct endpoints and distinct reasons for prescribing (pp1185–1188).
+
+SGLT2 inhibition can cause glycosuria, genital fungal infection, volume depletion and, rarely, ketoacidosis. An early fall in eGFR can reflect the expected hemodynamic change, whereas hypotension with poor intake calls for assessment for true volume depletion or kidney injury. Long-term renal protection is compatible with short-term volume sensitivity. In June 2026 Basic Q147, hypomagnesemia belongs more naturally with loop or thiazide diuresis (pp1181–1182, 1578).
+
+## Devices, prognosis and the treatment decision
+
+<span data-exam-ids="mcq-61c1dacfc6182349c975f40d mcq-78efef2ee60d19f031350bbc" data-reader-metadata="exam"></span>
+
+CRT treats delayed ventricular activation. A patient with class III HFrEF despite tolerated therapy, EF at or below 35%, sinus rhythm, LBBB and QRS at least 150 ms fits the strongest indication. NYHA class III is only one component. An EF of 20% with a narrow QRS does not supply an electrical delay to correct. In contrast, an ICD treats lethal ventricular arrhythmia and need not improve exertional symptoms. Discuss expected survival, competing illness, procedural risks and the possibility of future shock deactivation (pp1184, 1190).
+
+Repeated admissions, severe activity limitation and end-organ dysfunction despite optimized treatment prompt an advanced-HF assessment. A durable LVAD can improve survival and function in a selected older person with refractory systolic failure. Screen for comorbidity, support, ability to manage the device and the patient's goals. Chronic inotrope infusion can palliate symptoms or bridge to advanced therapy but has no established long-term survival benefit. A mitral clip targets significant secondary regurgitation rather than mild regurgitation incidentally seen on echo. Palliative consultation is valuable before a decision about implantation (pp1184, 1189–1190).
+
+At a population level, outcomes are poorer in men, in ischemic HF, and with elevated BNP, renal impairment or severe functional limitation. Female sex is the favorable association among the December 2021 Q59 choices. At the bedside, the patient's trajectory and goals matter more than any one characteristic. For advanced disease, revisit the patient's views on hospitalization, resuscitation and future device management with the patient and the people they wish to involve (p1190).
+
+## Israeli context — שיקום לב בישראל
+
+באי־ספיקת לב יציבה, התוויה לשיקום לב במסגרת הסל היא דרגה תפקודית II–III או מקטע פליטה של חדר שמאל הנמוך מ־35%. [חוזר מינהל רפואה 54/2006, סעיף 1.1.3](https://www.gov.il/BlobFolder/policy/mr54-2006/he/files_circulars_mr_mr54_2006.pdf). רופא המשפחה או הקרדיולוג מפנה למכון שיקום לב מוכר. במכון מבצעים הערכה רפואית ותפקודית ומבחן מאמץ, ובהתאם לתוצאות בונים תוכנית אישית. יש לבדוק בקופה את תקופת הזכאות ואת ההשתתפות העצמית לפי מסלול השיקום. לדוגמה, למטופלים עם אי־ספיקת לב שאושרו לשיקום מרחוק, מכבי מפרטת זכאות לתשעה חודשים בהשתתפות עצמית רבעונית. [מכבי, ״שיקום לב בבית״, הסעיפים ״מה הזכאות?״ ו״כמה זה עולה?״](https://www.maccabi4u.co.il/eligibilites/20593/?id=1473). [משרד הבריאות, ״שיקום לב״, 24.11.2026, הסעיפים ״הפניה לשיקום לב״ ו״זכאות לשיקום לב״](https://me.health.gov.il/rehabilitation/exercise-rights/rehabilitation-in-various-situations/cardiac-rehabilitation/)
+
+כבר באשפוז מתחילות ההערכה וההדרכה לקראת השחרור. לאחר האימון בפיקוח במכון, השלב בקהילה מיועד לשמירה על ההישגים באמצעות פעילות עצמאית ומעקב. אם יש קושי להגיע למכון, אפשר לבדוק התאמה לשיקום מרחוק דרך מכון המסוגל לתת מענה לכל רמות הסיכון. במסלול זה מתוארים אימון אירובי ואימון התנגדות, משוב מקוון אחת לשבועיים ומפגשים עם המטפלים. [משרד הבריאות, ״שיקום לב״, הסעיפים ״תהליך שיקום לב״ ו״שיקום לב מרחוק״](https://me.health.gov.il/rehabilitation/exercise-rights/rehabilitation-in-various-situations/cardiac-rehabilitation/)
+
+## Right heart failure and care across the course of illness
+
+Isolated right-sided failure produces systemic venous congestion with less prominent lung findings. Consider pulmonary hypertension from lung disease or chronic thromboembolism, tricuspid disease, right ventricular infarction and acute pulmonary embolism. Assess the cause before treating edema alone. Advanced biventricular failure can also produce marked right-sided signs. New AF, infection, ischemia, drug effects or excess sodium and fluid can mimic progression to truly refractory HF (pp1172–1173, 1189).
+
+When frailty, malnutrition or poor access makes the treatment plan difficult to carry out, ask what the patient can manage at home. Arrange medication reconciliation, accessible follow-up and help with food and activity. After stabilization, graded aerobic and resistance exercise can restore function. For a patient taking a rate-slowing drug, perceived exertion may be more helpful than an age-predicted heart-rate target. The following sections retain the chapter's trial populations, doses and quantitative findings for reference (pp1176–1179).
+
 ## Summary
 
 ### Definition & Epidemiology

@@ -2,6 +2,91 @@ Study summary of Chapter 65 — Major Depression; the book and the full chapter 
 
 # Chapter 65 Study: Major Depression
 
+## What the exams asked
+
+- Interpret the PHQ-9 total, diagnostic frequency, core symptoms and functional impact. [2020 Q37](?chapter=65#asked-chapter), [May 2024 Q16](?chapter=65#exam-p1011-mcq-92a6c079601ca0714a4342c5), [June 2025 Q57](?chapter=65#exam-p1011-mcq-8d11851067332e73d676c0a9).
+- Choose support and reassessment for mild symptoms in a woman with dementia who still enjoys her activities. [June 2026 Q13](?chapter=65#exam-p1012-mcq-2375b0f8bb50a6874cdcb40d).
+- Distinguish drug benefit in major depression from placebo response, minor depression and depression with dementia. [May 2024 Q39](?chapter=65#exam-p1015-mcq-853f055b351088b453cad3a1), [June 2025 Q69](?chapter=65#exam-p1014-mcq-80f153dd89506d38a83cdd6b), [June 2026 Q87, teaching passage](?chapter=65#exam-p1014-mcq-d06be14df3b5c357b755243d). The June 2026 reference names chapter 65 and prints 114–115.
+- Counsel about acute response, remission, cognition and relapse after electroconvulsive therapy. [May 2024 Q30](?chapter=65#exam-p1014-mcq-c58814aafe2a948f65c12bd7), [June 2025 Q31](?chapter=65#exam-p1014-mcq-e7a9b86ecadd6d67e6f524b1).
+- Identify sleep disturbance and caregiver strain in a suicide-risk interview. [June 2023 Q65](?chapter=65#exam-p1013-mcq-8ba7d7954ed6189c4c1f69cc).
+- Recognize SSRI discontinuation from the onset of vivid dreams and sleep disturbance. [May 2024 Q74](?chapter=65#exam-p1015-mcq-50ec9e1a09b76ec99af22266).
+- Optimize a tolerated SSRI before switching or augmenting. [2020 Q65](?chapter=65#asked-chapter), [June 2022 Q52](?chapter=65#asked-chapter).
+- Compare antidepressant interactions, anticholinergic toxicity and QT risk. [2020 Q44](?chapter=65#asked-chapter), [June 2022 Q41](?chapter=65#asked-chapter), [June 2022 Q88](?chapter=65#asked-chapter), [September 2024 Q94, related question citing chapter 60](?chapter=60#exam-p929-mcq-4641bad3c4f4169ea022ed51).
+- Interpret cognitive improvement in a recently bereaved older person and distinguish an acute grief reaction from risk for prolonged grief. [June 2022 Q19](?chapter=65#asked-chapter), [June 2022 Q47](?chapter=65#asked-chapter).
+- Ask about pain when assessing depression in cancer. [December 2021 Q79, chapter-level topic](?chapter=65#asked-chapter).
+
+## Reading a PHQ-9 when the score and the story differ
+
+<span data-exam-ids="mcq-92a6c079601ca0714a4342c5 mcq-8d11851067332e73d676c0a9" data-practice-ids="mcq-d999fc66e84432d68688a775 mcq-17f3488247c30640591d893f" data-reader-metadata="exam"></span>
+
+The PHQ-9 asks about nine symptoms over two weeks. For severity, add the frequency points for all nine responses (0–3 each). For the provisional diagnosis in Figure 65-2, count questions 1–8 only when present on more than half the days or nearly every day. Count any endorsement of item 9 and ask about safety directly. A report of marked impairment on the separate functional question warrants investigation even when few symptoms meet the frequency threshold (p1009–1013).
+
+Ask which core symptom qualifies. Five or more qualifying symptoms including low mood or loss of interest, with impaired function, support evaluation for a major episode. The minor-depression row uses two to four qualifying symptoms with a core symptom and impairment. The chronic-depression row specifically requires low mood (item 2), a two-year history and impairment. Severity scores and diagnostic counts serve different purposes. A total of 10 or more generally warrants assessment for major depression, and following the score over visits can reveal which symptoms have improved (p1010–1012).
+
+In May 2024 Q16, reduced interest, fatigue and appetite change each occurred on several days. Total 3, zero qualifying symptoms, daily tasks very difficult. In June 2025 Q57, interest, mood, energy and appetite each scored one. Total 4, again zero qualifying symptoms and marked interference. Both exams credited minor depression as well as a response compatible with the low count. In clinic, explore impaired function, sleep, illness, medication and distress, and arrange follow-up. Neither image meets the printed minor-depression algorithm (p1011 Figure 65-2).
+
+## Mild symptoms, cognitive complaints and major depression
+
+<span data-exam-ids="mcq-2375b0f8bb50a6874cdcb40d" data-practice-ids="mcq-0d39df9d30c25db0caf64053 mcq-297d8fa36e34babe9751635b mcq-b6e64b3fab0929e225111d7b mcq-a07f65732c4f66ff568008dc mcq-73c84a4c936fe1226cf688b7 mcq-4b2eecbd346cf984c3b9e3ed" data-reader-metadata="exam"></span>
+
+Ask what the person has stopped enjoying and why. Apathy, pain, illness and isolation can all reduce activity. Loss of pleasure and hopelessness can interfere with eating, obtaining essentials and sustaining relationships. Compare mood, cognition and function with the prior baseline and listen to the patient as well as the family. In June 2022 Q19, new concentration and recall problems after bereavement and a change from MMSE 24 to 28 are compatible with a depressive contribution. Neither improvement nor a single test identifies the medication taken or excludes later cognitive disease (p1008–1012).
+
+In June 2026 Q13, crying followed a loss of family authority, while enjoyment of grandchildren and the day center continued. A PHQ-9 of 5, no reported suicidality and a preference against medication favor a conversation about her role, activities she values, and planned follow-up. Distress deserves help even when it falls below a major episode. In dementia, combine a careful review of medical contributors with caregiver support and realistic activities. Complex depression with cognitive impairment is a reason to involve geriatric mental health expertise (p1012, 1014–1015, 1018–1019).
+
+Two weeks of yearning after a spouse’s death can occur in acute grief. Ask whether self-worth and the capacity to enjoy contact are preserved or whether worthlessness, pervasive anhedonia, hopelessness or suicidal thoughts suggest an additional depressive episode. June 2022 Q47 asks about vulnerability to prolonged grief, for which female sex is an associated factor. It does not ask for a diagnosis after two weeks. In adults DSM-5-TR requires at least 12 months after the death for prolonged grief disorder (ch66 p1024; American Psychiatric Association, [Prolonged Grief Disorder](https://www.psychiatry.org/patients-families/prolonged-grief-disorder/)).
+
+## What an antidepressant trial can show
+
+<span data-exam-ids="mcq-853f055b351088b453cad3a1 mcq-80f153dd89506d38a83cdd6b" data-practice-ids="mcq-a699e7fd3c5f532783da5870 mcq-eb632e618b15f7d9c30f0214 mcq-782d8b9278c74d4866e31ebb mcq-efa1a6064be7ba2a539f8ad4 mcq-d06be14df3b5c357b755243d mcq-86553ffd9d4634598286984c" data-reader-metadata="exam"></span>
+
+Begin with the indication. People with major depression may choose a drug, structured psychotherapy or another suitable intervention. Trials in mild or subsyndromal depression show little evidence of a drug benefit. In depression with dementia, check for a measurable improvement before adding to long-term polypharmacy. Placebo-group improvement can be considerable, especially in less severe episodes. Improvement after a prescription can reflect time, clinical contact, expectation and a drug effect. The book cites about six to eight weeks for a measurable antidepressant effect. Continue to check symptoms and safety during that interval (p1012, 1014–1015).
+
+Review adherence, time on treatment, adverse effects, interacting medicines and the diagnosis before calling a drug ineffective. In 2020 Q65, sertraline 50 mg had been tolerated for months without benefit. A gradual trial toward 100 mg with reassessment was reasonable. In June 2022 Q52, two weeks at escitalopram 5 mg had produced some improvement. If tolerated, a move to 10 mg allows a fuller trial before adding a second medicine. Neither dose is a universal therapeutic threshold. A lower initial dose and planned reviews can improve adherence even if the eventual dose is the same. Ask explicitly about sexual effects because patients may otherwise stop treatment without explaining why (p929 Table 60-9, p1014–1015).
+
+For June 2026 Q87, retain the [bibliography’s chapter reference](?chapter=65#cited-chapter). The printed pages 114–115 concern a different chapter. The [placebo discussion on p1014](?chapter=65#exam-p1014-mcq-d06be14df3b5c357b755243d) and the [individualized-dose paragraph on p1015](?chapter=65#exam-p1015-mcq-d06be14df3b5c357b755243d) supply the depression teaching. May 2024 Q39 emphasizes uncertain benefit with dementia, while June 2025 Q69 tests the substantial response within placebo groups (p1014–1015).
+
+## Drug choice and withdrawal
+
+<span data-exam-ids="mcq-50ec9e1a09b76ec99af22266" data-practice-ids="mcq-05456f388b60d0b72b35923e mcq-d0f6fae5fcbe47628b8351c9 mcq-318700fbbbe8272f4f342004 mcq-db35f41289e8ea16b14f500e mcq-77b00818873a0ab6f67a6a08 mcq-241d17b10ca8797e300714dc mcq-4641bad3c4f4169ea022ed51" data-reader-metadata="exam"></span>
+
+Match the adverse effect to the agent. Paroxetine adds anticholinergic burden in someone with memory impairment, delirium risk or impaired bladder emptying. Citalopram has less anticholinergic activity but can prolong QT in a dose-related fashion. In June 2022 Q41 the tracing shows wide-complex tachycardia with changing amplitude, making citalopram the important association. Both citalopram and escitalopram can cause SIADH. In 2020 Q44, tramadol plus venlafaxine raises concern for serotonin toxicity because both enhance serotonergic signaling. September 2024 Q94 accepted paroxetine-associated delirium and citalopram-associated serotonin syndrome. Its published comparison is [chapter 60, Table 60-9](?chapter=60#exam-p929-mcq-4641bad3c4f4169ea022ed51), alongside the Beers Criteria (p929; FDA prescribing information, citalopram and venlafaxine).
+
+Ask what will happen if the drug helps, and when it should be reviewed if it does not. Repeated episodes or clear recurrence following prior discontinuation favor longer treatment. Review benefit, falls, hyponatremia and other adverse effects even after years of stability. Taper in steps when discontinuation is appropriate and assess symptoms as the dose falls. Vivid dreams, insomnia, vertigo, gastrointestinal upset or sensory disturbances emerging after a reduction suggest withdrawal. Compare their timing and character with the previous depressive episode before deciding to restart long-term therapy (p1015–1016).
+
+## ECT counseling and continuation treatment
+
+<span data-exam-ids="mcq-c58814aafe2a948f65c12bd7 mcq-e7a9b86ecadd6d67e6f524b1" data-practice-ids="mcq-32dcdaa3fb20b8370e0e5930 mcq-255b168ea98665c25979872a" data-reader-metadata="exam"></span>
+
+For a severely depressed patient losing weight, becoming psychotic or failing adequate medication trials, discuss ECT early. Treatment is given under anesthesia in a series of sessions. Response means substantial clinical improvement, whereas remission means few or no remaining symptoms. In most studies summarized here, over 80% responded and over 60% remitted. Older adults often responded particularly well. May 2024 Q30 uses remission, and June 2025 Q31 asks about safety. Assess medical and anesthetic suitability and explain transient confusion and difficulty retaining new material. Some gaps in memory for personal events may last longer (p1014; American Psychiatric Association, [What Is Electroconvulsive Therapy?](https://www.psychiatry.org/patients-families/ect/)).
+
+Plan beyond the acute response because benefit can diminish, even during medication treatment. Follow symptoms and discuss continuation medication or maintenance ECT where appropriate. For patients who prefer psychotherapy, offer an accessible structured intervention with explicit goals. The chapter describes cognitive behavioral, interpersonal and group approaches, including reminiscence. Reconsider the chosen modality if there is no improvement after roughly one to two months (p1014).
+
+## Suicide risk and immediate protection
+
+<span data-exam-ids="mcq-8ba7d7954ed6189c4c1f69cc" data-practice-ids="mcq-5e6a651aa59f280ac04bcc4e mcq-85986952168024a2fc642cbe mcq-940fd3f38c80a7b8f75ad22a mcq-830ce0266dd0bff1510f9e28 mcq-2430b0cf4ece4ecc88cf9ca8" data-reader-metadata="exam"></span>
+
+June 2023 Q65 describes a woman with insomnia who cares for a dependent spouse. Figure 65-3 lists insomnia and caregiving stress among the possible risks. It also lists reasons for living, supports and responsibility to others as possible protective factors. Ask what caring for her spouse means to her, how she sleeps and who can give her respite. A protective factor does not cancel an expression of suicidal intent. The same bibliography also cites p1017 for clinical context and p1018 for assessing risk; the two examined factors appear together on the p1013 checklist (p1013, 1017–1018).
+
+Ask directly about thoughts, intent, a plan, prior behavior and access to means. A wish to die may express unbearable pain, hopelessness, a desire for contact or imminent intent. Take the statement seriously and explore it during this encounter. Seek collateral information, reduce access to lethal means with appropriate support and arrange emergency evaluation for imminent danger. Treat pain and isolation at the same time. In an older person with cancer, more severe pain and depressive symptoms can coexist. A discussion of care goals and symptom relief can proceed alongside the safety assessment (p1013, 1017–1018).
+
+## Social context, longitudinal care and referral
+
+Depression is less prevalent in later life than in some younger age groups, yet an older person who becomes depressed may remain so longer. A loss of role, function or connection can be clinically important without meeting criteria for major depression. Ask about basic needs, security, belonging and what still feels worthwhile. Depression and disability can reinforce one another when poor motivation makes self-care harder and worsening illness restricts participation (p1007–1009).
+
+Living alone describes a social arrangement. Loneliness describes how well a person’s relationships meet their needs. Someone may choose solitude and feel connected, or be lonely despite frequent contact. One practical approach is Act–Belong–Commit: identify something the patient can enjoy, someone to do it with and a meaningful role worth sustaining. Physical activity is associated with lower onset or recurrence, and a realistic activity plan can support health alongside depression treatment (p1009, 1014).
+
+Collaborative care uses a designated care manager for contact and symptom tracking, a prescribing primary clinician and psychiatric consultation. Response and remission remain distinct: in real-world collaborative care, fewer than half achieved a 50% symptom reduction at six months and fewer than one-third remitted. Selected trial participants, intensive check-ins and short follow-up can make research outcomes look better than routine practice. Agree on what improvement should look like and make time to review it (p1012, 1014).
+
+During follow-up, ask about stressors and arrange practical help, respite or a call between visits. Clinicians may feel drained when responses are slow or the family’s concerns seem endless. Reflecting with a colleague can preserve the capacity to listen. In long-term care, offer choices, reduce unwanted noise, identify valued activities and consider reminiscence work before escalating drug treatment. Palliative discussions can address pain, social and spiritual support, and what quality of life means throughout serious illness. Worsening symptoms, psychosis, bipolar features, complex drug combinations or consideration of ECT justify psychiatric referral (p1016–1019).
+
+## Israeli context — זיהוי דיכאון ופנייה לטיפול
+
+בבירור ירידה תפקודית כדאי לשאול על שינוי בשינה ובתיאבון, על הנאה מקשרים חברתיים ועל ירידה בזיכרון ובריכוז. משרד הבריאות מציין שלעיתים התלונה הבולטת בגיל המבוגר היא דווקא גופנית. אם השינוי הופיע לאחר התחלת תרופה, מומלץ לברר אותו עם רופא המשפחה ולהביא את רשימת התרופות. [משרד הבריאות, חרדה ודיכאון בגיל השלישי, 20.11.2025, הסעיף ״איך מאבחנים דיכאון״](https://me.health.gov.il/older-adult/keep-me-healthy/common-concerns/anxiety-and-depression/).
+
+אפשר לקבל טיפול קוגניטיבי־התנהגותי במסגרת קופת החולים. בעת טיפול תרופתי משרד הבריאות מדגיש מעקב אחר הפרעות במלחים ובדיקת שילובים עם תרופות קבועות. בלבול חדש לאחר התחלת טיפול הוא סיבה לפנות לבדיקה ולציין אילו תרופות ניטלות. [משרד הבריאות, חרדה ודיכאון בגיל השלישי, ״טיפול בדיכאון ובחרדה בגיל השלישי״ ו״למה חשוב לשים לב אצל מבוגרים עם דמנציה ודיכאון״](https://me.health.gov.il/older-adult/keep-me-healthy/common-concerns/anxiety-and-depression/).
+
+כאשר תסמיני מצב רוח וירידה קוגניטיבית מופיעים יחד, רופא המשפחה יכול לסייע בבחירת הייעוץ המתאים. כדאי לברר עם הקופה אם נדרשת הפניה. האבחון הפסיכוגריאטרי המתואר כולל הערכה קוגניטיבית, הערכת הפרעות נפשיות ובדיקות גופניות לפי הצורך. [משרד הבריאות, פסיכוגריאטריה, 11.10.2023, הסעיפים ״מתי לפנות לגריאטר ומתי לפסיכוגריאטר״ ו״תהליך אבחון פסיכוגריאטרי״](https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/psychogeriatrics/).
+
 ## Summary
 
 **Epidemiology**
