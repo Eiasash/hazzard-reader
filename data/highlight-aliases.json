@@ -17750,5 +17750,159 @@
         355
       ]
     ]
+  },
+  {
+    "chapter": "87s",
+    "id": "u50",
+    "old": "Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); sorbitol/lactulose are nonabsorbable disaccharides metabolized by colonic bacteria to short-chain fatty acids; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).",
+    "new": "Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); lactulose is a nonabsorbed disaccharide fermented by colonic bacteria, while sorbitol is an osmotic sugar alcohol; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).",
+    "edits": [
+      [
+        236,
+        245,
+        236,
+        236
+      ],
+      [
+        255,
+        258,
+        246,
+        248
+      ],
+      [
+        259,
+        272,
+        249,
+        250
+      ],
+      [
+        273,
+        286,
+        251,
+        262
+      ],
+      [
+        287,
+        298,
+        263,
+        285
+      ],
+      [
+        318,
+        318,
+        305,
+        306
+      ],
+      [
+        319,
+        321,
+        307,
+        312
+      ],
+      [
+        322,
+        333,
+        313,
+        321
+      ],
+      [
+        334,
+        339,
+        322,
+        324
+      ],
+      [
+        340,
+        345,
+        325,
+        349
+      ]
+    ]
+  },
+  {
+    "chapter": "87s",
+    "id": "u54",
+    "old": "No exam-trap or book self-contradiction note is flagged in this source chapter.",
+    "new": "The June 2025 pseudo-obstruction option pairs neostigmine with the brand name of a different drug (see Israeli context above).",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        7,
+        4,
+        20
+      ],
+      [
+        8,
+        12,
+        21,
+        32
+      ],
+      [
+        13,
+        15,
+        33,
+        39
+      ],
+      [
+        16,
+        20,
+        40,
+        45
+      ],
+      [
+        21,
+        39,
+        46,
+        57
+      ],
+      [
+        40,
+        44,
+        58,
+        62
+      ],
+      [
+        45,
+        47,
+        63,
+        66
+      ],
+      [
+        48,
+        55,
+        67,
+        72
+      ],
+      [
+        56,
+        58,
+        73,
+        77
+      ],
+      [
+        59,
+        63,
+        78,
+        80
+      ],
+      [
+        64,
+        70,
+        81,
+        82
+      ],
+      [
+        71,
+        78,
+        83,
+        125
+      ]
+    ]
   }
 ]

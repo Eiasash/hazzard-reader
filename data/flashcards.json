@@ -4673,5 +4673,442 @@
     "questionIds": [
       "mcq-10163f2b99f5abe875d7d917"
     ]
+  },
+  {
+    "id": "ch44-taper-and-cbt",
+    "chapter": "44",
+    "front": "After years of nightly brotizolam, an older patient increases the dose and falls. What addresses both withdrawal risk and insomnia?",
+    "back": "Agree on a supervised gradual taper and begin CBT-I. Abrupt cessation can precipitate withdrawal, and replacing the drug with another sedative leaves the causes of chronic insomnia untreated. Hazzard 8e, p. 659.",
+    "page": 659,
+    "anchor": "ch44-hypnotic-falls",
+    "questionIds": [
+      "mcq-940e1a2218bb564522f838ea"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 659"
+  },
+  {
+    "id": "ch44-z-drug-latency",
+    "chapter": "44",
+    "front": "Which sleep benefit can an older patient realistically expect from a Z-drug?",
+    "back": "Only a small shortening of sleep latency. Improvement in total sleep time is limited, while confusion, falls and fractures remain concerns. The exam cites the 2019 Beers guide. Hazzard 8e, p. 659.",
+    "page": 659,
+    "anchor": "ch44-z-drug-safety",
+    "questionIds": [
+      "mcq-b7bab775e701c6dacdbdbbcc"
+    ],
+    "sourceLabel": "Related Hazzard teaching · p. 659"
+  },
+  {
+    "id": "ch44-nocturia-and-headache",
+    "chapter": "44",
+    "front": "An older man has resistant hypertension, nocturia and morning headaches despite bladder treatment. He denies snoring. What investigation is appropriate?",
+    "back": "Sleep testing for sleep-disordered breathing. Older adults can have obstructive apnea without the classic snoring history. Hazzard 8e, pp. 646–649.",
+    "page": 646,
+    "anchor": "ch44-nocturia-apnea",
+    "questionIds": [
+      "mcq-9263ca029323c02206b33370"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 646"
+  },
+  {
+    "id": "ch44-beta-blocker",
+    "chapter": "44",
+    "front": "Which class among an ACE inhibitor, beta-blocker, ARB and alpha-blocker is in the alerting column of the sleep medication table?",
+    "back": "Beta-blockers. Review bisoprolol and the timing of a new sleep complaint. Also ask whether other medications are promoting daytime naps. Hazzard 8e, p. 658, Table 44-3.",
+    "page": 658,
+    "anchor": "ch44-sleep-medication-review",
+    "questionIds": [
+      "mcq-bec9f7bc700b6732cb9a08cd"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 658"
+  },
+  {
+    "id": "ch44-longer-latency",
+    "chapter": "44",
+    "front": "How does normal aging affect the interval from trying to sleep to sleep onset?",
+    "back": "Sleep latency usually lengthens. N3 decreases and sleep becomes more fragmented, which reduces sleep efficiency. Hazzard 8e, p. 643.",
+    "page": 643,
+    "anchor": "exam-p643-mcq-c6818d990da1a7ac4b1db4da",
+    "questionIds": [
+      "mcq-c6818d990da1a7ac4b1db4da"
+    ]
+  },
+  {
+    "id": "ch44-rls-treatment",
+    "chapter": "44",
+    "front": "Which of magnesium, tramadol, pregabalin and carbidopa/levodopa is absent from the RLS treatment table?",
+    "back": "Magnesium. Pregabalin can treat persistent RLS, levodopa is reserved for intermittent symptoms because of augmentation, and opioids are options for refractory disease. Listing in the table does not imply routine initial use. Hazzard 8e, pp. 652–653, Table 44-2.",
+    "page": 653,
+    "anchor": "exam-p653-mcq-b279e83e228404a30ed965fe",
+    "questionIds": [
+      "mcq-b279e83e228404a30ed965fe"
+    ]
+  },
+  {
+    "id": "ch44-dream-enactment",
+    "chapter": "44",
+    "front": "A 65-year-old shouts and strikes her partner while dreaming. What future neurological diagnosis can this precede?",
+    "back": "REM sleep behavior disorder can precede Parkinson disease or another synucleinopathy. Loss of REM muscle atonia permits dream enactment. Ask about injuries and confirm the sleep phenotype on polysomnography. Hazzard 8e, pp. 653–655.",
+    "page": 654,
+    "anchor": "exam-p654-mcq-eebcff8ec2efad1443c4bb06",
+    "questionIds": [
+      "mcq-eebcff8ec2efad1443c4bb06"
+    ]
+  },
+  {
+    "id": "ch44-parkinson-nightmares",
+    "chapter": "44",
+    "front": "Parkinson disease, hyposmia and nightmares prompt questions about witnessed dream enactment. Which offered drug addresses RBD?",
+    "back": "Melatonin. The AASM recommendation is for immediate-release melatonin. Circadin, named in the option, is prolonged-release and its efficacy is uncertain. Address environmental safety as well. Hazzard 8e, p. 655.",
+    "page": 655,
+    "anchor": "exam-p655-mcq-4c92bbd3cca86626e195a256",
+    "questionIds": [
+      "mcq-4c92bbd3cca86626e195a256"
+    ]
+  },
+  {
+    "id": "ch44-aging-hypnogram",
+    "chapter": "44",
+    "front": "Which finding on the aging hypnogram explains a greater proportion of the night spent awake?",
+    "back": "More waking after sleep onset fragments the night, while slow-wave sleep decreases. Figure 44-1 depicts these age-related changes. Hazzard 8e, pp. 643–644.",
+    "page": 644,
+    "anchor": "exam-p644-mcq-722507b469ee330def4732a6",
+    "questionIds": [
+      "mcq-722507b469ee330def4732a6"
+    ]
+  },
+  {
+    "id": "ch44-daytime-light",
+    "chapter": "44",
+    "front": "A nursing-home resident with advanced dementia sleeps much of the day and poorly at night. Which environmental cue should staff strengthen?",
+    "back": "Increase daytime light exposure, encourage appropriate daytime activity and protect a dark, quiet night. These help consolidate a weak sleep–wake rhythm. Hazzard 8e, pp. 662–663, Table 44-9.",
+    "page": 663,
+    "anchor": "exam-p663-mcq-7049069651d5b4f5ebce9c85",
+    "questionIds": [
+      "mcq-7049069651d5b4f5ebce9c85"
+    ]
+  },
+  {
+    "id": "ch44-injurious-rbd",
+    "chapter": "44",
+    "front": "A man with Parkinson disease taking bupropion falls from bed during a dream and fractures his hip. What intervention targets the sleep disorder?",
+    "back": "Improve bedroom safety and consider immediate-release melatonin for RBD. Bupropion is not among the typical antidepressant precipitants. The prolonged-release brand in the exam has weaker evidence. Hazzard 8e, p. 655.",
+    "page": 655,
+    "anchor": "exam-p655-mcq-0e047bf953f0e6f426a35fb0",
+    "questionIds": [
+      "mcq-0e047bf953f0e6f426a35fb0"
+    ]
+  },
+  {
+    "id": "ch75-valve-or-coronaries",
+    "chapter": "75",
+    "front": "Why can a patient with angina and severe aortic stenosis have normal epicardial coronary arteries?",
+    "back": "Coexisting coronary disease is common, but about 40% of patients presenting with angina lack significant coronary disease. Hypertrophy raises oxygen demand while reduced coronary flow reserve limits supply to the subendocardium. Hazzard 8e, p. 1151.",
+    "page": 1151,
+    "anchor": "exam-p1151-mcq-451247c9890caf3f339aeb4d",
+    "questionIds": [
+      "mcq-451247c9890caf3f339aeb4d"
+    ]
+  },
+  {
+    "id": "ch75-as-lv-hypertrophy",
+    "chapter": "75",
+    "front": "A 91-year-old with severe asymptomatic aortic stenosis has preserved contraction. Which ECG finding follows from the pressure load?",
+    "back": "Left ventricular hypertrophy. Thickening compensates for the pressure needed to eject through the narrowed valve and can precede symptoms. Hazzard 8e, p. 1150.",
+    "page": 1150,
+    "anchor": "exam-p1150-mcq-d2c5ea7ebee8dc1b114cfb92",
+    "questionIds": [
+      "mcq-d2c5ea7ebee8dc1b114cfb92"
+    ]
+  },
+  {
+    "id": "ch75-bleeding-and-stenosis",
+    "chapter": "75",
+    "front": "Severe aortic stenosis, epistaxis and recurrent intestinal bleeding occur together. What links these findings?",
+    "back": "High shear impairs von Willebrand factor–mediated platelet adhesion. Colonic angiodysplasia can then bleed (Heyde syndrome). Hazzard 8e, p. 1151.",
+    "page": 1151,
+    "anchor": "exam-p1151-mcq-3e9b544b729728bac5b28c1c",
+    "questionIds": [
+      "mcq-3e9b544b729728bac5b28c1c"
+    ]
+  },
+  {
+    "id": "ch75-echo-intervals",
+    "chapter": "75",
+    "front": "An asymptomatic patient has severe aortic stenosis. When should the echo be repeated, and how does severity change the interval?",
+    "back": "Severe disease warrants echocardiography every six to twelve months, moderate disease every one to two years, and mild disease every three to five years. New symptoms prompt earlier assessment. Hazzard 8e, p. 1151.",
+    "page": 1151,
+    "anchor": "exam-p1151-mcq-a48ff09dba8d7490a501c290",
+    "questionIds": [
+      "mcq-a48ff09dba8d7490a501c290"
+    ]
+  },
+  {
+    "id": "ch75-avr-triggers",
+    "chapter": "75",
+    "front": "Which findings make replacement appropriate in severe aortic stenosis even before symptoms become apparent?",
+    "back": "The chapter lists EF below 50% or planned cardiac surgery as indications. With preserved EF and no additional trigger, verify exercise tolerance and follow closely. New angina attributable to severe obstruction is itself an indication. Hazzard 8e, p. 1152.",
+    "page": 1152,
+    "anchor": "exam-p1152-mcq-76fb4ce0edbbab9f1ac529f2",
+    "questionIds": [
+      "mcq-e4cde6058ec0e9998ca3d55c",
+      "mcq-76fb4ce0edbbab9f1ac529f2"
+    ]
+  },
+  {
+    "id": "ch75-corrigan-and-hill",
+    "chapter": "75",
+    "front": "In chronic aortic regurgitation, how do the arterial pulse and the arm-to-leg pressure comparison change?",
+    "back": "A Corrigan pulse rises and falls rapidly. Hill sign means systolic pressure is higher in the leg than in the arm. Diastolic runoff helps explain the widened pulse pressure. Hazzard 8e, p. 1154.",
+    "page": 1154,
+    "anchor": "exam-p1154-mcq-8b25bc06ab666f9e2b1a5628",
+    "questionIds": [
+      "mcq-1ca54bc9605d926030d7d932",
+      "mcq-8b25bc06ab666f9e2b1a5628"
+    ]
+  },
+  {
+    "id": "ch75-mitral-hoarseness",
+    "chapter": "75",
+    "front": "Which valve disorder can present with hoarseness, and which structure is involved?",
+    "back": "Mitral stenosis can enlarge the left atrium enough to compress the left recurrent laryngeal nerve. This is Ortner syndrome. Hazzard 8e, p. 1156.",
+    "page": 1156,
+    "anchor": "exam-p1156-mcq-8b25bc06ab666f9e2b1a5628",
+    "questionIds": [
+      "mcq-8b25bc06ab666f9e2b1a5628"
+    ]
+  },
+  {
+    "id": "ch75-savr-with-cabg",
+    "chapter": "75",
+    "front": "An older adult has symptomatic severe aortic stenosis and three-vessel coronary disease that requires bypass. Why can surgery be preferable?",
+    "back": "SAVR and coronary bypass can be performed in one operation. Previous chest irradiation instead tends to favor TAVR, provided anatomy and access are suitable. Hazzard 8e, p. 1153.",
+    "page": 1153,
+    "anchor": "exam-p1153-mcq-4f72edde12c83ecaea816428",
+    "questionIds": [
+      "mcq-4f72edde12c83ecaea816428"
+    ]
+  },
+  {
+    "id": "ch75-pacing-versus-recovery",
+    "chapter": "75",
+    "front": "Which complication is more common after TAVR than after surgical replacement despite a generally faster recovery?",
+    "back": "Permanent pacemaker implantation. Paravalvular leak and vascular complications are also more frequent after TAVR in the comparisons reported in this chapter. Hazzard 8e, p. 1153.",
+    "page": 1153,
+    "anchor": "exam-p1153-mcq-6773688c3c44df05d7ecb0b5",
+    "questionIds": [
+      "mcq-6773688c3c44df05d7ecb0b5"
+    ]
+  },
+  {
+    "id": "ch75-goals-severe-dementia",
+    "chapter": "75",
+    "front": "Severe aortic stenosis causes chest pain in a person with advanced dementia. What factors favor palliation?",
+    "back": "Limited life expectancy, severe cognitive or functional impairment, and a low chance of meaningful recovery favor symptom relief after discussion with the patient and surrogate. Hazzard 8e, p. 1153.",
+    "page": 1153,
+    "anchor": "exam-p1153-mcq-65b34859cab672fc287d6c20",
+    "questionIds": [
+      "mcq-65b34859cab672fc287d6c20"
+    ]
+  },
+  {
+    "id": "ch75-surgical-risk",
+    "chapter": "75",
+    "front": "Which listed factor is relatively favorable before SAVR: male sex, renal insufficiency, right heart failure, or concomitant mitral surgery?",
+    "back": "Male sex in the reported surgical cohorts. Renal insufficiency, right heart failure and additional mitral surgery predict higher operative risk. Estimate risk for the individual. Hazzard 8e, p. 1152.",
+    "page": 1152,
+    "anchor": "exam-p1152-mcq-92f1bc01da4974c018371e81",
+    "questionIds": [
+      "mcq-92f1bc01da4974c018371e81"
+    ],
+    "sourceLabel": "Related Hazzard 8e, p. 1152 (printed citation p. 1150)"
+  },
+  {
+    "id": "ch75-mechanical-mitral",
+    "chapter": "75",
+    "front": "After mechanical mitral valve replacement, can aspirin or apixaban replace warfarin?",
+    "back": "Use lifelong warfarin with a usual INR target of 3.0 (range 2.5–3.5). Platelet inhibition alone is inadequate and direct anticoagulants are unsuitable for mechanical valves. Hazzard 8e, p. 1161.",
+    "page": 1161,
+    "anchor": "exam-p1161-mcq-ca4ef9243406c07cf8276806",
+    "questionIds": [
+      "mcq-ca4ef9243406c07cf8276806"
+    ]
+  },
+  {
+    "id": "ch75-bronchoscopy",
+    "chapter": "75",
+    "front": "Does severe native rheumatic mitral stenosis require endocarditis prophylaxis before routine diagnostic bronchoscopy?",
+    "back": "No. The planned procedure and the native valve lesion supply no indication here. Check the cardiac condition and planned procedure before choosing any antibiotic. Hazzard 8e, p. 1161.",
+    "page": 1161,
+    "anchor": "ch75-nondental-procedures",
+    "questionIds": [
+      "mcq-c1702190897fa5c2a444d31c"
+    ],
+    "sourceLabel": "Related Hazzard 8e, p. 1161"
+  },
+  {
+    "id": "ch75-dental-allergy",
+    "chapter": "75",
+    "front": "For indicated dental prophylaxis with penicillin allergy, how do Table 75-14 and current AHA advice differ?",
+    "back": "The historical table includes oral clindamycin 600 mg. The 2024 AHA card includes oral azithromycin 500 mg 30–60 minutes beforehand and removes clindamycin. Both drugs received credit in June 2025 Basic Q134. Hazzard 8e, p. 1161.",
+    "page": 1161,
+    "anchor": "exam-p1161-mcq-de92a386e0ddf092e78f5d24",
+    "questionIds": [
+      "mcq-de92a386e0ddf092e78f5d24"
+    ]
+  },
+  {
+    "id": "ch87-overflow",
+    "chapter": "87",
+    "front": "A patient with dementia has weeks of watery soiling despite loperamide. Which bedside examination can reveal the cause?",
+    "back": "Digital rectal examination can reveal stool with liquid leaking around it. An empty vault can still coexist with proximal fecal loading. Hazzard 8e teaching, pp1361, 1364.",
+    "page": 1364,
+    "anchor": "ch87-overflow",
+    "questionIds": [
+      "mcq-9569f2b9b5070fcbd3eb7175"
+    ]
+  },
+  {
+    "id": "ch87-lactulose",
+    "chapter": "87",
+    "front": "What distinguishes lactulose from PEG and the stimulant laxatives?",
+    "back": "Lactulose reaches the colon as a poorly absorbed disaccharide. Bacterial fermentation contributes to osmosis and gas. PEG retains water without fermentation, while senna and bisacodyl increase propulsion. Hazzard 8e teaching, Table 87-9, pp1373–1374.",
+    "page": 1373,
+    "anchor": "ch87-lactulose",
+    "questionIds": [
+      "mcq-a7ce378a3066d828eaecb394"
+    ]
+  },
+  {
+    "id": "ch87-acute-sequence",
+    "chapter": "87",
+    "front": "A postoperative patient has uncomplicated acute colonic pseudo-obstruction. In what order do you escalate treatment?",
+    "back": "Begin bowel rest, flatus-tube decompression and correction of potassium and magnesium. For persistent dilatation, consider monitored neostigmine if eligible, then endoscopic decompression if needed. Hazzard 8e teaching, p1362.",
+    "page": 1362,
+    "anchor": "ch87-ogilvie",
+    "questionIds": [
+      "mcq-4aa2c99dfcccf398fd3aa8c9"
+    ]
+  },
+  {
+    "id": "ch87-postoperative-potassium",
+    "chapter": "87",
+    "front": "Which electrolyte disturbance should be sought in marked colonic dilatation after hip surgery?",
+    "back": "Hypokalemia impairs effective cholinergic stimulation of gut smooth muscle. Correct it and assess magnesium as part of the reversible causes. Hazzard 8e, pp1310–1311, 1361.",
+    "page": 1361,
+    "anchor": "exam-p1361-mcq-e4acb3e9acd387f3ab55774a",
+    "questionIds": [
+      "mcq-e4acb3e9acd387f3ab55774a"
+    ]
+  },
+  {
+    "id": "ch87-mineral-oil",
+    "chapter": "87",
+    "front": "Which laxative can cause lipoid pneumonia, and who is particularly vulnerable?",
+    "back": "Oral mineral oil may enter the airway in a patient with dysphagia or poor airway protection. Its lipid content can provoke lipoid pneumonia. Hazzard 8e, Table 87-9, p1374.",
+    "page": 1374,
+    "anchor": "exam-p1374-mcq-0b0784b75b4373eb612a632d",
+    "questionIds": [
+      "mcq-0b0784b75b4373eb612a632d"
+    ]
+  },
+  {
+    "id": "ch87-peg-evidence",
+    "chapter": "87",
+    "front": "Which of PEG, lactulose, psyllium and bisacodyl has the strongest evidence in the chapter’s comparison?",
+    "back": "PEG has level one evidence for adults. Lactulose and psyllium have level two evidence. Evidence specifically in frail nursing-home residents is more limited. Hazzard 8e, p1372.",
+    "page": 1372,
+    "anchor": "exam-p1372-mcq-0b3a1e91eb40ee076419243b",
+    "questionIds": [
+      "mcq-0b3a1e91eb40ee076419243b"
+    ]
+  },
+  {
+    "id": "ch87-senna-pigmentation",
+    "chapter": "87",
+    "front": "Which laxative is associated with melanosis coli?",
+    "back": "Senna and other anthraquinones can pigment the colonic mucosa. The IMA prints p1373 and Table 87-4. The senna row is actually in the continuation of Table 87-9 on p1374.",
+    "page": 1374,
+    "anchor": "exam-p1374-mcq-9ae66d685bd288df1e1dae42",
+    "questionIds": [
+      "mcq-9ae66d685bd288df1e1dae42"
+    ]
+  },
+  {
+    "id": "ch87-coffee",
+    "chapter": "87",
+    "front": "Which can increase rectosigmoid motor activity: black coffee, verapamil, calcium supplements or amitriptyline?",
+    "back": "Black coffee produced a rapid response in young healthy volunteers. The other choices can promote constipation. The medication table is on the cited p1359, while the coffee study appears on teaching p1360.",
+    "page": 1360,
+    "anchor": "exam-p1360-mcq-da57058ee45d9336a52750e4",
+    "questionIds": [
+      "mcq-da57058ee45d9336a52750e4"
+    ]
+  },
+  {
+    "id": "ch87-collagen",
+    "chapter": "87",
+    "front": "Which structural change in the aging colon could alter its compliance and propulsion?",
+    "back": "Collagen deposition increases, particularly in the left colon. Reduced inhibitory nerve input can further impair coordination in people with other risk factors. Hazzard 8e, Table 87-4, p1356.",
+    "page": 1356,
+    "anchor": "exam-p1356-mcq-4e388b7f6e0adb26bcb83894",
+    "questionIds": [
+      "mcq-4e388b7f6e0adb26bcb83894"
+    ]
+  },
+  {
+    "id": "ch87-enteric-transmitter",
+    "chapter": "87",
+    "front": "How might loss of acetylcholine-producing enteric neurons contribute to constipation?",
+    "back": "Reduced neural drive can impair propulsion, slowing transit and allowing more water removal. The resulting smaller stool gives the colon less distending stimulus. Hazzard 8e, p1356.",
+    "page": 1356,
+    "anchor": "exam-p1356-mcq-6830feff40ac5bbc0903e834",
+    "questionIds": [
+      "mcq-6830feff40ac5bbc0903e834"
+    ]
+  },
+  {
+    "id": "ch87-ogilvie-recognition",
+    "chapter": "87",
+    "front": "After hip surgery, an older patient has marked tympany and a dilated colon. Which functional bowel disorder fits?",
+    "back": "Acute colonic pseudo-obstruction (Ogilvie syndrome). Assess for mechanical obstruction, ischemia and perforation before selecting treatment. The postoperative presentation is described on p1362.",
+    "page": 1362,
+    "anchor": "exam-p1362-mcq-98debcd301b2d91929e937da",
+    "questionIds": [
+      "mcq-98debcd301b2d91929e937da"
+    ]
+  },
+  {
+    "id": "ch87-outlet",
+    "chapter": "87",
+    "front": "Why can prolonged straining and incomplete emptying reflect either reduced sacral output or dyssynergia?",
+    "back": "Reduced parasympathetic outflow can weaken rectal contraction. Dyssynergia impairs coordination of the abdominal push with outlet relaxation. June 2026 accepted both mechanisms. Hazzard 8e, pp1357–1358, Figure 87-2.",
+    "page": 1358,
+    "anchor": "exam-p1358-mcq-a106c2e93b7ced5d12e16004",
+    "questionIds": [
+      "mcq-a106c2e93b7ced5d12e16004"
+    ]
+  },
+  {
+    "id": "ch87-drug-contributor",
+    "chapter": "87",
+    "front": "A bedbound patient with high TSH, low ferritin and fecal loading takes quetiapine. Which medication change can address constipation?",
+    "back": "Review the indication and taper quetiapine when appropriate. Anticholinergic drugs impair motility. Oral iron can aggravate retention and reducing thyroid replacement may worsen hypothyroidism. Hazzard 8e, Table 87-5, p1359.",
+    "page": 1359,
+    "anchor": "exam-p1359-mcq-c35e64bb9f1ba0dc91fc878d",
+    "questionIds": [
+      "mcq-c35e64bb9f1ba0dc91fc878d"
+    ]
+  },
+  {
+    "id": "ch87-neostigmine",
+    "chapter": "87",
+    "front": "Which drug can decompress the persistently dilated colon after conservative measures fail, and what does Mestinon contain?",
+    "back": "Monitored neostigmine can restore propulsion after mechanical obstruction has been excluded. Mestinon tablets contain pyridostigmine, despite the name pairing in the June 2025 option. Hazzard 8e, p1362 and Israeli Mestinon leaflet, section 1.",
+    "page": 1362,
+    "anchor": "exam-p1362-mcq-811bbe2e4f19b983c1f44c2d",
+    "questionIds": [
+      "mcq-811bbe2e4f19b983c1f44c2d"
+    ]
   }
 ]

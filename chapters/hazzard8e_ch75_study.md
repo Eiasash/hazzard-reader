@@ -2,6 +2,103 @@ Study summary of Chapter 75; the book and the full chapter are the reference; ad
 
 # Chapter 75 Study: Valvular Heart Disease
 
+## What the exams asked
+
+- Explain angina with or without obstructive coronary disease in aortic stenosis. [June 2023 Q83, coronary disease](?chapter=75#exam-p1150-mcq-451247c9890caf3f339aeb4d) · [Mechanism when the coronaries are unobstructed](?chapter=75#exam-p1151-mcq-451247c9890caf3f339aeb4d)
+- Identify LV hypertrophy on the ECG of an asymptomatic patient with a valve area of 0.8 cm². [June 2023 Basic Q107](?chapter=75#exam-p1150-mcq-d2c5ea7ebee8dc1b114cfb92)
+- Recognize acquired platelet dysfunction in severe aortic stenosis. [September 2024 Q20](?chapter=75#exam-p1151-mcq-3e9b544b729728bac5b28c1c)
+- Choose the echocardiographic follow-up interval by stenosis severity. [September 2024 Q70](?chapter=75#exam-p1151-mcq-a48ff09dba8d7490a501c290)
+- Decide when severe aortic stenosis warrants valve replacement despite preserved EF or absent symptoms. [June 2023 Q97, valve severity](?chapter=75#exam-p1150-mcq-76fb4ce0edbbab9f1ac529f2) · [Intervention criteria](?chapter=75#exam-p1152-mcq-76fb4ce0edbbab9f1ac529f2) · [2020 Q47, chapter-level link](?chapter=75#asked-chapter)
+- Identify why a mitral lesion can cause hoarseness and distinguish the arterial signs of aortic stenosis and regurgitation. [May 2024 Basic Q104, mitral stenosis](?chapter=75#exam-p1156-mcq-8b25bc06ab666f9e2b1a5628) · [The carotid upstroke](?chapter=75#exam-p1150-mcq-8b25bc06ab666f9e2b1a5628) · [Peripheral signs of regurgitation](?chapter=75#exam-p1154-mcq-8b25bc06ab666f9e2b1a5628) · [December 2021 Q70, chapter-level link](?chapter=75#asked-chapter)
+- Choose surgery when bypass is also needed, recognize the pacemaker risk with TAVR, and discuss palliation in advanced dementia. [June 2026 Q71](?chapter=75#exam-p1153-mcq-4f72edde12c83ecaea816428) · [September 2024 Basic Q131](?chapter=75#exam-p1153-mcq-6773688c3c44df05d7ecb0b5) · [June 2025 Q22](?chapter=75#exam-p1153-mcq-65b34859cab672fc287d6c20)
+- Distinguish sex-associated operative risk from the additional burden of renal insufficiency, right heart failure or mitral surgery. [June 2026 Q94](?chapter=75#exam-p1150-mcq-92f1bc01da4974c018371e81) · [Additional surgical predictors, p1152](?chapter=75#exam-p1152-mcq-92f1bc01da4974c018371e81)
+- Select lifelong anticoagulation after mechanical mitral valve replacement. [June 2025 Q48](?chapter=75#exam-p1161-mcq-ca4ef9243406c07cf8276806)
+- Decide whether bronchoscopy requires endocarditis prophylaxis and which oral agent is appropriate for a penicillin-allergic patient when dental prophylaxis is indicated. [December 2021 Q51, chapter-level link](?chapter=75#asked-chapter) · [June 2025 Basic Q134](?chapter=75#exam-p1161-mcq-de92a386e0ddf092e78f5d24)
+
+## The pressure-loaded ventricle
+
+<span data-exam-ids="mcq-d2c5ea7ebee8dc1b114cfb92" data-reader-metadata="exam"></span>
+
+Aortic sclerosis thickens the leaflets but permits forward flow. Stenosis makes the left ventricle generate a higher systolic pressure to maintain output. The resulting hypertrophy can appear on ECG or echo while contraction is still preserved. The characteristic murmur rises and falls during systole and radiates to the carotids. The carotid upstroke can be small and delayed, although arterial stiffening makes this less obvious in older people. A bounding pulse with a wide pulse pressure points toward aortic regurgitation (pp1149–1150, 1154).
+
+<span data-exam-ids="mcq-451247c9890caf3f339aeb4d" data-reader-metadata="exam"></span>
+
+**Why does the chest hurt?** Two-thirds of patients in the chapter's series presented with angina, and about 40% of those with angina had no significant coronary disease. Consider coexisting coronary disease first in the older patient. When there is no significant epicardial obstruction, a thick ventricle needs more oxygen while coronary flow reserve is reduced. The subendocardium is particularly vulnerable. Inadequate output during exertion helps explain syncope. Atrial fibrillation removes the atrial contribution to filling and can precipitate dyspnea (pp1150–1151).
+
+<span data-exam-ids="mcq-3e9b544b729728bac5b28c1c" data-reader-metadata="exam"></span>
+
+**Why does a valve lesion cause bleeding?** A severely narrowed valve exposes circulating blood to high shear and impairs von Willebrand factor–dependent platelet adhesion. Epistaxis and easy bruising can precede a major bleed. Gastrointestinal bleeding from colonic angiodysplasia is the association called Heyde syndrome. The mechanism concerns primary hemostasis. Anemia due to vitamin B12 deficiency and intestinal villous atrophy would require a separate explanation (p1151).
+
+## Surveillance and the decision to replace the aortic valve
+
+<span data-exam-ids="mcq-76fb4ce0edbbab9f1ac529f2" data-reader-metadata="exam"></span>
+
+Table 75-1 grades stenosis using valve area, peak jet velocity and mean pressure gradient. It prints an area below 1 cm², velocity above 4 m/s and mean gradient above 40 mm Hg for the severe category. A high velocity and small area coupled with an unexpectedly low mean gradient, as in 2020 Q47, require checking flow and the Doppler measurements. Exertional angina in that setting warrants prompt evaluation. Syncope in someone whose valve area and velocity suggest only mild stenosis warrants a search for another cause (pp1150–1152, Tables 75-1 and 75-2).
+
+**Ask what “asymptomatic” means in daily life.** Someone who stopped climbing stairs may no longer reach the workload that brought on dyspnea. Closely supervised exercise testing can uncover symptoms in a person with severe disease who appears asymptomatic. Symptoms, a flat blood-pressure response or ischemic ST changes identify a group much less likely to remain symptom-free. Exercise testing in symptomatic severe disease carries a risk of hemodynamic collapse (p1151).
+
+**What changes management?** Severe symptomatic stenosis, severe stenosis with EF below 50%, or severe stenosis when another cardiac operation is planned are indications in Table 75-2. Thus a woman with severe stenosis who already needs CABG can have the valve replaced even with an EF of 55% and no symptoms. For an asymptomatic patient with preserved EF and no other trigger, examine the trajectory. Very high jet velocity, abnormal exercise response, markedly elevated BNP or rapid progression can favor earlier intervention in a low-risk patient (pp1151–1152, Table 75-2).
+
+<span data-exam-ids="mcq-a48ff09dba8d7490a501c290" data-reader-metadata="exam"></span>
+
+**When is the next echo due?** The chapter gives six to twelve months for severe, one to two years for moderate, and three to five years for mild asymptomatic stenosis. New exertional angina, syncope or heart failure changes this plan immediately. Asking the patient to report symptoms gives a way to act between scans (p1151).
+
+## Surgery, catheter replacement or palliation
+
+<span data-exam-ids="mcq-65b34859cab672fc287d6c20" data-reader-metadata="exam"></span>
+
+With symptomatic severe stenosis, ask first whether relief of obstruction would meaningfully improve survival, symptoms or function in the time the patient is likely to live. Severe dementia, severe frailty and multiorgan impairment can favor active symptom management. In June 2025 Q22 an area of 0.6 cm², gradient of 50 mm Hg and velocity of 5 m/s already establish severe obstruction. The unresolved question is what outcome the patient could gain. A patient with mild cognitive impairment who wants to return home may have very different priorities and prospects (pp1151–1153, Table 75-3).
+
+<span data-exam-ids="mcq-4f72edde12c83ecaea816428 mcq-6773688c3c44df05d7ecb0b5" data-reader-metadata="exam"></span>
+
+<span data-practice-ids="mcq-8b52ce59675a85ee8879d616" data-reader-metadata="exam"></span>
+
+**Which procedure serves those goals?** A heart team can combine SAVR with coronary bypass or another valve operation. Prior chest irradiation, significant comorbidity or impaired mobility may favor TAVR when access and anatomy permit. The chapter's trial comparisons describe quicker recovery, less major bleeding and less postoperative atrial fibrillation with TAVR. They also describe more permanent pacemakers, paravalvular leakage and vascular complications. The transcatheter frame lies close to the conduction system, and its seal against a calcified annulus can be incomplete. Compare outcomes against the actual alternative under consideration, especially when surgery is prohibitive (pp1152–1153, Table 75-3).
+
+<span data-practice-ids="mcq-4b12b2b09f6a219dc0a66d76" data-reader-metadata="exam"></span>
+
+**What can a balloon alone accomplish?** Inflation can widen a calcific valve enough for temporary relief or help stabilize a patient awaiting definitive treatment. The opening often remains small, and restenosis usually occurs within six to twelve months. A patient considering the procedure for palliation should hear both the potential for short-term relief and the procedural risk (p1152).
+
+<span data-exam-ids="mcq-92f1bc01da4974c018371e81" data-reader-metadata="exam"></span>
+
+**Which patient is likely to tolerate surgery?** Page 1150 describes greater perioperative morbidity and mortality among older women with marked LV hypertrophy. Page 1152 lists right heart failure, renal impairment, advanced symptoms, emergency surgery and concomitant mitral surgery among predictors of operative mortality. Male sex is relatively favorable among the alternatives in June 2026 Q94. For an individual, combine operative risk estimates with cognition, nutritional status, strength, mobility, functional trajectory and the goals of the patient. STS-PROM is derived from operated patients and cannot by itself determine the outcome with conservative care (pp1150, 1152, 1160).
+
+## Matching murmurs, pulses and voice changes to the lesion
+
+<span data-exam-ids="mcq-8b25bc06ab666f9e2b1a5628" data-reader-metadata="exam"></span>
+
+In chronic aortic regurgitation, blood returns from the aorta to the left ventricle during diastole. The widened pulse pressure and rapidly rising, collapsing Corrigan pulse follow from a large systolic stroke volume and diastolic runoff. Hill sign refers to a higher systolic pressure in the leg than in the arm. The usual auscultatory clue is a diastolic murmur. By contrast, stenosis impedes systolic ejection and produces a weak, late carotid upstroke. December 2021 Q70 asked for the pulse in regurgitation. May 2024 Basic Q104 asked for the lesion–finding pair (pp1150, 1153–1154, Table 75-4).
+
+Mitral stenosis impedes left atrial emptying. Raised atrial pressure promotes pulmonary congestion and an enlarged atrium predisposes to atrial fibrillation and embolism. The enlarged left atrium can compress the left recurrent laryngeal nerve and cause hoarseness (Ortner syndrome). An opening snap and a diastolic rumble provide other bedside clues. Echo assesses valve morphology, valve area and pulmonary pressures (pp1155–1157, Table 75-7).
+
+## Anticoagulation and endocarditis prophylaxis
+
+<span data-exam-ids="mcq-ca4ef9243406c07cf8276806" data-reader-metadata="exam"></span>
+
+Mechanical valves are durable but thrombogenic. A mechanical mitral prosthesis requires lifelong warfarin, usually targeting INR 3.0 within a range of 2.5–3.5. Aspirin and clopidogrel inhibit platelets and cannot substitute for this anticoagulation. Apixaban is unsuitable for a mechanical valve. Bioprosthetic valves present a different trade-off because they can structurally deteriorate and generally do not themselves require lifelong anticoagulation. Another indication, such as atrial fibrillation, may still require ongoing therapy (pp1161–1162, Table 75-15).
+
+<span data-exam-ids="mcq-de92a386e0ddf092e78f5d24" data-reader-metadata="exam"></span>
+
+For prophylaxis, establish the cardiac risk and the procedure before choosing a drug. December 2021 Q51 describes routine diagnostic bronchoscopy in a patient with native rheumatic mitral stenosis. This scenario requires no endocarditis prophylaxis. Qualifying dental procedures in a patient with a prosthetic valve or previous endocarditis are a different setting. June 2025 Basic Q134 accepted two oral regimens for a penicillin-allergic patient. Table 75-14 lists clindamycin 600 mg. Current AHA dental guidance instead includes azithromycin 500 mg 30–60 minutes before the procedure and removes clindamycin (p1161, Table 75-14). [AHA prevention card, adult dental regimens](https://www.heart.org/-/Media/Files/Health-Topics/Infective-Endocarditis/Infective-Endocarditis-Wallet-Card.Pdf)
+
+## Other valve decisions
+
+**Aortic regurgitation.** Abrupt severe regurgitation can cause shock before the left ventricle adapts. Endocarditis and acute aortic dissection are important causes. In chronic regurgitation, a dilating ventricle initially accommodates the extra volume. Serial EF and ventricular dimensions can reveal deterioration before overt heart failure. Symptoms attributable to severe regurgitation warrant surgical assessment, even when resting EF appears preserved (pp1153–1155, Tables 75-5 and 75-6).
+
+**Mitral stenosis.** Slowing a rapid heart rate allows more time for filling across a narrowed valve. Diuresis can ease pulmonary congestion. For symptomatic rheumatic stenosis, mobile leaflets, little calcification and limited subvalvular thickening favor balloon commissurotomy. Left atrial thrombus and moderate or severe regurgitation weigh against it. A heavily calcified annulus in an older adult makes operative reconstruction more hazardous (pp1156–1158, Tables 75-7 to 75-9).
+
+**Mitral regurgitation.** Primary disease affects the leaflets or supporting structures. Secondary regurgitation results from ventricular remodeling and annular dilation. Acute papillary muscle or chordal rupture can produce pulmonary edema or shock. A chronic apical holosystolic murmur often radiates toward the axilla and may soften when ventricular and atrial pressures equalize. For suitable primary disease, durable repair preserves ventricular geometry and the supporting apparatus. EF can appear preserved despite evolving dysfunction because some ejection is into the low-pressure atrium. Assess ventricular dimensions, symptoms, pulmonary pressure and new atrial fibrillation when planning intervention (pp1158–1160, Tables 75-10 and 75-11).
+
+**Choosing the prosthesis.** Mechanical valves trade lifelong anticoagulation and bleeding risk for durability. Bioprostheses deteriorate more slowly in older recipients and their aortic position generally outlasts their mitral position. A homograft may be useful when endocarditis has destroyed surrounding tissue. A Ross operation substitutes the patient's pulmonary valve for the aortic valve and requires another valve in the pulmonary position. Its complexity and small incremental durability benefit limit its role in older adults. Surgical sutureless valves still require an open approach and bypass (pp1161–1163).
+
+## Israeli context
+
+בעלון של מרכז הלב בוולפסון מתוארת בחירת דרך החלפת המסתם האאורטלי כהחלטה של הצוות הרב־תחומי בשיתוף המטופל. בהיצרות קשה ותסמינית שוקלים את האנטומיה, מחלות הרקע והסיכון הכרוך בניתוח או בצנתור. קוצר נשימה, תעוקה, עייפות והתעלפויות הם תסמינים שכדאי לברר גם כשהמטופל צמצם את פעילותו. [וולפסון, הדרכה לפני השתלת מסתם אאורטלי בצנתור, עמ׳ 1–2](https://www.gov.il/BlobFolder/generalpage/invasive-cardiology-guide/he/הדרכה-לפני%20השתלת%20מסתם%20אאורטלי%20בצנתור.pdf)
+
+לקראת האשפוז בוולפסון מבקשים להביא התחייבות מהקופה ותוצאות בדיקות, להתייעץ על נטילת נוגדי קרישה ותרופות לסוכרת ולעדכן את הצוות על אי־ספיקת כליות. לפי העלון, לאחר ההשתלה המטופל עובר להשגחה בטיפול נמרץ לב. השחרור לרוב בתוך יום עד שלושה ימים לפי מצבו, והביקורת במרפאת המסתמים נקבעת כעבור ארבעה עד שישה שבועות. [וולפסון, ״דגשים לקראת הפעולה״ ו״תהליך ההחלמה וחזרה לשגרה״, עמ׳ 2–3](https://www.gov.il/BlobFolder/generalpage/invasive-cardiology-guide/he/הדרכה-לפני%20השתלת%20מסתם%20אאורטלי%20בצנתור.pdf)
+
+ניתוח מסתמים נכלל בהתוויות לשיקום לב בסל הבריאות. רופא המשפחה או הקרדיולוג מפנה למכון מוכר. בהערכה הראשונה בודקים את המצב הרפואי והתפקודי ומתאימים תוכנית אימון. לפי משרד הבריאות, לזכאים ניתנים שלושה חודשים ללא עלות, ובהמשך ייתכן מימון חלקי עד שנה. [משרד הבריאות, ״שיקום לב״, הסעיפים ״הפניה לשיקום לב״ ו״זכאות לשיקום לב״, 24.11.2026](https://me.health.gov.il/rehabilitation/exercise-rights/rehabilitation-in-various-situations/cardiac-rehabilitation/)
+
 ## Summary
 
 **Aortic stenosis (AS)**

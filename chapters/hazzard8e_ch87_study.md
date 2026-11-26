@@ -2,6 +2,69 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 
 # Chapter 87 Study: Constipation
 
+## What the exams asked
+
+- Recognize overflow diarrhea in a person with dementia and choose the first bedside examination. [2020 Q13](?chapter=87#asked-chapter) (seventh-edition chapter reference).
+- Distinguish how lactulose, PEG, bisacodyl and senna work. [December 2021 Q41](?chapter=87#asked-chapter) (seventh-edition chapter reference).
+- Sequence treatment for acute colonic pseudo-obstruction. [June 2022 Q26](?chapter=87#asked-chapter) (seventh-edition chapter reference).
+- Identify the electrolyte disturbance associated with a dilated colon after hip surgery. [June 2023 Q30](?chapter=87#exam-p1361-mcq-e4acb3e9acd387f3ab55774a).
+- Match oral mineral oil with a pulmonary complication in a patient at risk of aspiration. [June 2023 Q34](?chapter=87#exam-p1374-mcq-0b0784b75b4373eb612a632d).
+- Compare the quality of evidence for PEG, psyllium, lactulose and bisacodyl. [May 2024 Q9](?chapter=87#exam-p1372-mcq-0b3a1e91eb40ee076419243b).
+- Recognize melanosis coli in a patient taking senna. [May 2024 Q53](?chapter=87#exam-p1373-mcq-9ae66d685bd288df1e1dae42). The [senna row on p1374](?chapter=87#exam-p1374-mcq-9ae66d685bd288df1e1dae42) is on the next page of the laxative table.
+- Distinguish black coffee from three common constipating medications. [September 2024 Q16](?chapter=87#exam-p1359-mcq-da57058ee45d9336a52750e4). The cited risk-factor table lists the medications. The coffee study is on [p1360](?chapter=87#exam-p1360-mcq-da57058ee45d9336a52750e4).
+- Recognize the structural change associated with aging in the colon. [September 2024 Q52](?chapter=87#exam-p1356-mcq-4e388b7f6e0adb26bcb83894).
+- Explain the role of enteric acetylcholine in colonic propulsion. [September 2024 Q79](?chapter=87#exam-p1356-mcq-6830feff40ac5bbc0903e834).
+- Distinguish postoperative pseudo-obstruction from volvulus and perforation. [September 2024 Q93](?chapter=87#exam-p1362-mcq-98debcd301b2d91929e937da).
+- Identify a reversible medication contributor in a bedbound patient with substantial fecal loading. [June 2025 Q20](?chapter=87#exam-p1359-mcq-c35e64bb9f1ba0dc91fc878d).
+- Choose the pharmacologic treatment for persistent acute pseudo-obstruction and identify the drug-name error in the option. [June 2025 Q45](?chapter=87#exam-p1362-mcq-811bbe2e4f19b983c1f44c2d).
+- Distinguish rectal dysmotility from dyssynergic defecation in a patient who strains without leakage. [June 2026 Q3](?chapter=87#exam-p1358-mcq-a106c2e93b7ced5d12e16004).
+
+## A distended abdomen after surgery
+
+<span data-exam-ids="mcq-e4acb3e9acd387f3ab55774a mcq-98debcd301b2d91929e937da" data-reader-metadata="exam"></span>A patient develops a tense, tympanitic abdomen after hip surgery. The film shows a markedly dilated colon. **Acute colonic pseudo-obstruction (Ogilvie syndrome)** is functional failure of propulsion and can accompany surgery, infection and other severe illnesses. Hazzard describes a cecal diameter of **10 cm or more** in this presentation. The measurement helps judge distension and follow progression. A single diameter cannot rule out a mechanical lesion, ischemia or perforation (pp1310–1311, 1361–1362).
+
+Check potassium and magnesium. **Hypokalemia impairs neuromuscular function** and reduces the effective cholinergic stimulus to intestinal smooth muscle. The June 2023 question asked which chemistry abnormality to expect. The September 2024 question used the same postoperative radiographic pattern to ask for the diagnosis. A volvulus twists the bowel around its mesentery and can require urgent detorsion. A stercoral ulcer is pressure necrosis beneath a hard fecaloma. Sudden pain and peritonitis from perforation require urgent surgical treatment (pp1361–1362).
+
+<span data-exam-ids="mcq-811bbe2e4f19b983c1f44c2d" data-reader-metadata="exam"></span>**Treat uncomplicated acute dilatation in stages.** Exclude mechanical obstruction and assess for peritonitis or ischemia. Rest the bowel, decompress with a flatus tube as appropriate, correct electrolytes and treat the precipitating illness. If significant dilatation persists, consider neostigmine after assessing contraindications. Its cholinergic action can slow the heart, so treatment requires cardiorespiratory monitoring and access to atropine. Persistent dilatation after drug therapy, or a contraindication to the drug, can warrant endoscopic decompression. PEG enters the discussion after resolution to reduce recurrence (p1362). [ASGE guideline, pp230–232 and Figure 1](https://www.asge.org/docs/default-source/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus-2020-february-gie.pdf).
+
+June 2022 tested the order of treatment. June 2025 supplied severe hypokalemia and a rectal tube, then asked for the next drug. The accepted option names **neostigmine** followed by the brand name **Mestinon**. In Israel the Mestinon tablet contains pyridostigmine. These are two different active ingredients. [Israeli Mestinon leaflet, October 2024, section 1](https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_19_681206424.pdf).
+
+## When watery leakage means the rectum is full
+
+In an older adult with dementia, several small episodes of watery soiling, poor appetite and abdominal discomfort can be the presenting signs of impaction. Ask the caregiver about the last satisfactory evacuation and the use of laxatives or antidiarrheals. Examine the abdomen and rectum. Liquid stool or mucus can pass around a hard mass, and even soft stool can accumulate when the outlet will not empty. **The presence of stool on digital examination can establish distal retention, but an empty rectum leaves the proximal colon unexamined** (pp1361–1365).
+
+A large firm rectal plug calls for gentle manual evacuation before inserting an enema or suppository, with local anesthetic gel if needed. Assess the extent of remaining loading and whether obstruction is present before prescribing oral clearance. Renal impairment makes repeated phosphate enemas hazardous. After clearance, a regular regimen and reliable assistance to the toilet help prevent another episode. A nursing-home intervention that cleared the rectum and then maintained evacuation with lactulose resolved overflow in 94% of adherent participants, a result tied to that population and regimen (pp1361, 1376, 1378–1379).
+
+## Which laxative fits the problem?
+
+<span data-exam-ids="mcq-0b3a1e91eb40ee076419243b" data-reader-metadata="exam"></span>**Evidence quality and treatment sequence answer different questions.** The comparison of trials on p1372 assigned level one to PEG in adults, meaning consistent findings from well-conducted studies, and level two to psyllium and lactulose. Evidence specific to frail older residents was less extensive. For an ambulant person who drinks well and has uncomplicated constipation, Table 87-11 begins with psyllium and fluids. For a bedridden patient at risk of recurrent impaction it starts with a stimulant and an osmotic agent, then uses PEG if symptoms persist (pp1372, 1378).
+
+**Match the agent to its mechanism.** Lactulose is a nonabsorbed disaccharide. Colonic bacteria ferment it, leaving an osmotic load that retains water and may cause gas and cramps. PEG retains water without depending on bacterial activation. Senna stimulates myenteric activity and typically acts in eight to twelve hours, making bedtime administration practical. Bisacodyl is activated by intestinal brush-border enzymes. Excessive softening can aggravate leakage in a patient with a weak anal sphincter (pp1372–1376).
+
+<span data-exam-ids="mcq-0b0784b75b4373eb612a632d mcq-9ae66d685bd288df1e1dae42" data-reader-metadata="exam"></span>**Match the agent to its harm.** Aspiration of oral mineral oil may cause lipoid pneumonia, especially when swallowing or airway protection is impaired. Mineral oil can also reduce absorption of fat-soluble vitamins. Senna and related anthraquinones can cause melanosis coli. A phosphate enema can cause **high serum phosphate**, especially in kidney disease. Psyllium can cause gas and bloating. Fermentable sugars may taste sweet and produce cramps. Bisacodyl may cause cramps, and a daily suppository can cause rectal burning (Table 87-9, pp1373–1374). The May 2024 bibliography prints “Table 87-4, p1373.” The senna row is on p1374 in the continuation of Table 87-9.
+
+When an opioid is necessary, assess for impaction, start an effective laxative and reassess. Enteric mu-receptor activation slows contraction, increases colonic fluid absorption and raises anal sphincter tone. Refractory opioid-induced constipation can respond to peripheral mu-receptor antagonism. Neurologic disease and reduced mobility warrant active follow-up after clearance. Docusate has little laxative action, and magnesium hydroxide can accumulate in renal impairment (pp1376–1378).
+
+## Distinguishing risk factors from normal aging
+
+<span data-exam-ids="mcq-da57058ee45d9336a52750e4 mcq-c35e64bb9f1ba0dc91fc878d" data-reader-metadata="exam"></span>A medication review is part of the examination. Antipsychotics with antimuscarinic effects and tricyclic antidepressants interfere with cholinergic contraction. Verapamil inhibits lower-bowel smooth-muscle activity. Calcium supplements and oral iron can also aggravate constipation. In a bedbound patient with poor intake, high TSH, low ferritin and fecal loading, review the indication for quetiapine and taper it if appropriate. Iron deficiency and thyroid under-replacement require attention in their own right. Adding oral iron or reducing thyroid replacement would not relieve the current stool burden (Table 87-5, p1359).
+
+The coffee question asked about a physiologic effect. In healthy young volunteers, black coffee increased rectosigmoid activity within four minutes. This observation cannot predict whether coffee will relieve constipation in a frail older patient. The rapid response differs from the sustained inhibitory effects of calcium-channel blockade or antimuscarinic drugs (pp1359–1360).
+
+<span data-exam-ids="mcq-4e388b7f6e0adb26bcb83894 mcq-6830feff40ac5bbc0903e834" data-reader-metadata="exam"></span>Healthy aging generally preserves weekly bowel frequency. In symptomatic individuals, increased left-colonic collagen deposition may alter compliance, and reduced inhibitory input to circular muscle can impair coordinated propulsion. Loss of enteric neurons producing acetylcholine or nitric oxide is a proposed contributor to slow transit. Longer transit removes water, shrinks the stool and reduces the distending stimulus to further propulsion. Do not infer from these mechanisms that constipation is inevitable with aging. The frequency statement on p1356 differs from the explicit epidemiology on p1355 (pp1355–1357).
+
+## A patient strains for an hour but does not leak
+
+<span data-exam-ids="mcq-a106c2e93b7ced5d12e16004" data-reader-metadata="exam"></span>**Rectal dysmotility** can produce a compliant, dilated rectum that retains hard or soft stool. Reduced sensation blunts the urge to empty, and reduced sacral parasympathetic output may reduce rectal contraction. **Pelvic floor dyssynergia** impairs the push itself. Normally the abdomen generates pressure as the external sphincter and puborectalis relax. An inadequate push or paradoxical outlet contraction leaves a feeling of incomplete evacuation despite prolonged straining (pp1357–1358, Figure 87-2).
+
+June 2026 accepted both reduced parasympathetic influence and failure of coordinated abdominal, rectoanal and pelvic-floor activity. The absence of urgency, stains and leakage supports an evacuation complaint, but the history alone cannot identify a single physiological cause. Examine tone and relaxation during an attempted push. When persistent symptoms warrant it, balloon expulsion and manometry help define the problem. Biofeedback trains coordination when the patient can understand, retain and practice the maneuvers (pp1364–1365, 1368, 1370–1371).
+
+## Israeli context
+
+**מניעה בבית.** משרד הבריאות ממליץ לשלב בתפריט דגנים מלאים, קטניות, ירקות ופירות, לשתות מים לאורך היום, לקבוע שגרה של ביקור בשירותים ולהתאים את הפעילות הגופנית ליכולת. ההמלצה על שתייה מתחשבת בין השאר במזג האוויר ובפעילות. בדף מומלץ למתן את צריכת הקפאין. אם העצירות נמשכת למרות הצעדים האלה, יש לפנות לרופא המשפחה. [משרד הבריאות, ״עצירות בגיל השלישי״, 31.12.2023, סעיפי המניעה, השתייה והפעילות הגופנית](https://me.health.gov.il/older-adult/keep-me-healthy/common-concerns/digestive-issues/).
+
+**זיהוי התרופה בשאלת יוני 2025.** החומר הפעיל במסטינון מחפיות 60 מ״ג הוא פירידוסטיגמין ברומיד. ההתוויה הרשומה בעלון היא מיאסתניה גרביס. התרופה הנזכרת בפרק לטיפול בחסימת מעי גס מדומה שאינה משתפרת בטיפול תומך היא נאוסטיגמין. [עלון מסטינון, אוקטובר 2024, הרכב וסעיף 1](https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_19_681206424.pdf).
+
 ## Summary
 
 ### Definition & Epidemiology
@@ -57,9 +120,9 @@ Study summary of Chapter 87 — Constipation; the book and the full chapter are 
 - **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide** (placebo-controlled trials showed efficacy at 3 and 6 mg — trial doses) — secretagogues; effective but costly, with limited older-adult trial data (p1377).
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), not associated with major adverse cardiovascular events (p1377).
 - **PAMORAs for opioid-induced constipation** — naldemedine (**52% vs 35%** achieving >3 CSBM vs placebo) and naloxegol (**42% vs 29%** achieving ≥3 CSBM/wk) (p1378).
-- Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); sorbitol/lactulose are nonabsorbable disaccharides metabolized by colonic bacteria to short-chain fatty acids; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
+- Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); lactulose is a nonabsorbed disaccharide fermented by colonic bacteria, while sorbitol is an osmotic sugar alcohol; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
 
-*No exam-trap or book self-contradiction note is flagged in this source chapter.*
+*The June 2025 pseudo-obstruction option pairs neostigmine with the brand name of a different drug (see Israeli context above).*
 
 ## Recall
 
