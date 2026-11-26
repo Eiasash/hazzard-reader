@@ -6968,7 +6968,7 @@ $('#readerViewport').addEventListener('scroll',event=>{if(event.target.id==='mcq
 document.addEventListener('pointerdown',event=>{if(currentView==='reader'&&event.clientY<=24+(visualViewport?.offsetTop||0)){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerTravel=0;}},{passive:true});
 for(const t of ['touchstart','wheel','keydown'])readerScroll.addEventListener(t,()=>{userScrolled=true},{passive:true});
 addEventListener('pagehide',rememberPlace);
-document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else if(!pendingHighlightChanges.size)resyncHighlights()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)rememberPlace();else resyncHighlights()});
 function bookmarkAtPlace(p){return readJSON(BOOKMARK_KEY,[]).find(b=>b.chapter===p.chapter&&(p.unit?b.unit===p.unit:Math.abs(b.ratio-p.ratio)<0.001))}
 function syncBookmark(){if(!marking)return;const saved=!!bookmarkAtPlace(currentPlace());$('#bookmark').textContent=saved?'Remove bookmark':'Bookmark this spot';$('#bookmark').setAttribute('aria-pressed',String(saved))}
 function savePlaceNow(){
@@ -7457,7 +7457,6 @@ async function restoreCloudNotebook(backup){
 function notebookStatus(message){if(panel.dataset.currentPane!=='backup')flash(message,6000);const node=$('#backupStatus');node.textContent=message;node.hidden=false;viewport()}
 $('#backupNotebook').onclick=()=>{
   try{
-    if(pendingHighlightChanges.size)throw new Error('Some highlights are not saved yet. Keep this page open and try again.');
     if(mcq?.hasUnsaved)throw new Error('Some MCQ answers are not saved yet. Keep this page open and try again.');
     const file=captureNotebook();
     const url=URL.createObjectURL(new Blob([JSON.stringify(file,null,2)],{type:'application/json'})),link=document.createElement('a');
@@ -7474,7 +7473,6 @@ $('#notebookBackupFile').onchange=async event=>{
   try{
     let backup;try{backup=JSON.parse(await file.text())}catch{throw new Error('This file is not a readable JSON backup. Nothing was restored.')}
     if(backup?.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage))throw new Error('Choose a Hazzard notebook backup file. Nothing was restored.');
-    if(pendingHighlightChanges.size)throw new Error('Some current highlights are not saved yet. Keep this page open and try again.');
     if(mcq?.hasUnsaved)throw new Error('Some MCQ answers are not saved yet. Save them before restoring a backup.');
     await HazzardMCQ.loadAliases();
     const plan=()=>{
