@@ -2,6 +2,54 @@ Study summary of Chapter 51; the book and the full chapter are the reference.
 
 # Chapter 51 Study: Osteoporosis
 
+## What the exams asked
+
+- Interpret the young-adult column of the lumbar DXA report and choose a fracture-prevention dose of alendronate. [2020 Q32](?chapter=51#asked-chapter) (Hazzard 7e).
+- Decide whether seven fracture-free years on alendronate and a hip T-score of −2.22 justify a monitored pause. [December 2021 Q11](?chapter=51#asked-chapter) (Hazzard 7e).
+- Recognize a prior vertebral fracture as a predictor of the next and osteonecrosis of the jaw as a rare denosumab complication. [June 2022 Q48](?chapter=51#asked-chapter) and [June 2022 Q99](?chapter=51#asked-chapter) (Harrison references, related to this chapter).
+- Choose treatment after a standing-height fall causes an L2 fracture despite calcium, vitamin D and a prior T-score of −1.5. [June 2023 Q53](?chapter=51#exam-p774-mcq-3bde7ff46a9992e97fc59c24).
+- Match raloxifene, denosumab, zoledronic acid and teriparatide to their effects, persistence and precautions. [May 2024 Q32](?chapter=51#exam-p776-mcq-8d483913bdc5a9afe5b428bb).
+- Identify hyperthyroidism among causes of secondary osteoporosis and choose the corresponding tests. [June 2025 Q95](?chapter=51#exam-p769-mcq-4b4661426332a286351b76b3).
+- Counsel a patient taking long-term prednisone about fever and fracture risk. [June 2026 Q20](?chapter=51#exam-p769-mcq-0dd3353be9d7e981544cb1cf) covers bone protection. [Chapter 97, sick-day dosing](?chapter=97#exam-p1532-mcq-0dd3353be9d7e981544cb1cf) addresses the answer to the vignette.
+- Identify the injectable treatment whose interruption can lead to multiple new vertebral fractures. [June 2026 Q29](?chapter=51#exam-p776-mcq-b9e9379a1932f5609365e505).
+- Recognize a duration-related complication after seven years of alendronate. [June 2026 Q79](?chapter=51#exam-p776-mcq-50371b2acb85b22aca082547).
+
+## When a fracture changes the treatment decision
+
+<span data-exam-ids="mcq-3bde7ff46a9992e97fc59c24" data-reader-metadata="exam"></span>A fall from standing height sufficient to fracture a vertebra identifies skeletal fragility even when the previous DXA showed only low bone mass. The L2 fracture in June 2023 Q53 changes the decision: this patient needs secondary prevention alongside nutrition and fall assessment. An oral bisphosphonate is reasonable when the patient can follow its administration instructions. A yearly infusion is an alternative when swallowing or adherence is a problem and renal function permits. Table 51-5 gives the available regimens (pp768, 773–776).
+
+DXA compares mineral density with a young-adult reference mean. Read the T-score rather than the age-matched Z-score on an older adult's report. In the 2020 paper the L2–L4 T-score is −3.5, so the threshold of −2.5 has already been crossed. Alendronate 70 mg weekly is a treatment dose. Extra calcium alone cannot supply the antifracture benefit. In contrast, a distal forearm fracture prompts evaluation, including BMD and risk factors. BHOF recommends treatment after distal forearm fracture with low bone mass and individualization if BMD is normal. A low-trauma hip or vertebral fracture supports treatment regardless of BMD (pp759–760, 768, 774). [BHOF Clinician’s Guide, secondary fracture prevention](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546973/)
+
+Harrison's June 2022 question about vertebral fracture was testing the history, not a numerical DXA threshold. Loss of height, kyphosis or a new vertebral deformity may reveal a fracture that went unrecognized. A previous vertebral fracture predicts another in either sex. The face and skull are excluded from the usual definition of osteoporotic fragility fractures (Hazzard pp768–770). [Harrison 20e, Chapter 404, Definition](https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&sectionid=192530678)
+
+## Choosing treatment, interrupting it and recognizing harm
+
+<span data-exam-ids="mcq-b9e9379a1932f5609365e505" data-reader-metadata="exam"></span>The date of the last dose can identify the drug. In June 2026 Q29 two missed injections were followed by new lumbar compression fractures. Denosumab blocks RANK ligand and loses its effect between doses because it does not bind bone mineral. Table 51-5 gives **60 mg subcutaneously every six months** and lists rapid loss of bone after cessation. The prose on p776 misprints the unit. Arrange timely injections or a transition to another antiresorptive, especially if vertebral fractures have already occurred (pp774, 776). [Prolia prescribing information, §§2.2 and 5.6](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88)
+
+Bisphosphonates are retained in bone and can still exert an effect after treatment stops. December 2021 Q11 describes no prior fracture and a hip T-score above −2.5 after seven years of alendronate. A monitored holiday can be considered if current risk is modest. Reassess age, falls, interval fractures and BMD before pausing. Reassess during the pause because a new fracture or substantial density loss can change the decision. Patients with high ongoing risk may benefit from continuing longer (pp776–777).
+
+<span data-exam-ids="mcq-50371b2acb85b22aca082547" data-reader-metadata="exam"></span>New thigh or groin pain after several years of bisphosphonate exposure warrants femur radiographs for a possible incomplete atypical femoral fracture. Look for a transverse or short oblique lesion of the lateral cortex in the subtrochanteric region or shaft, sometimes with local cortical thickening. Symptoms can precede a complete fracture. If plain films are unrevealing and suspicion persists, MRI may identify a stress injury. The absolute risk is low compared with the number of usual fragility fractures prevented (pp776–777).
+
+<span data-exam-ids="mcq-8d483913bdc5a9afe5b428bb" data-reader-metadata="exam"></span>Raloxifene's demonstrated fracture benefit is vertebral. Zoledronic acid can cause a transient flu-like illness after infusion. Jaw osteonecrosis is rare with osteoporosis doses and is a recognized complication of denosumab as well. Think of exposed jaw bone that has failed to heal for eight weeks, especially after an extraction. Teriparatide gives a daily, intermittent PTH signal that favors bone formation. The animal osteosarcoma signal led to the traditional two-year course tested in May 2024. Current US labeling allows longer use only if high fracture risk persists or returns. Plan an antiresorptive afterward to preserve BMD gains (pp774–777). [Forteo prescribing information, §§2.3 and 5.2](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021318s059lbl.pdf)
+
+## Secondary osteoporosis and long-term glucocorticoids
+
+<span data-exam-ids="mcq-4b4661426332a286351b76b3" data-reader-metadata="exam"></span>After an unexpected compression fracture or markedly low density, ask what can be reversed. Excess thyroid hormone accelerates remodeling, so the hyperthyroidism row pairs the diagnosis with TSH and thyroxine. Hyperparathyroidism points instead to calcium and PTH, myeloma to a blood count and protein electrophoresis, and androgen deprivation or hypogonadism to the endocrine history in men. Female sex helps estimate baseline risk. It is not a secondary illness. Distinguish a brief prednisone burst from cumulative exposure, and remember that type 2 diabetes may raise fracture risk even with relatively preserved BMD (pp768–769, Table 51-3).
+
+<span data-exam-ids="mcq-0dd3353be9d7e981544cb1cf" data-reader-metadata="exam"></span>Prednisone can reduce osteoblast activity and increase osteoclast-mediated resorption, with bone loss often beginning within six months of starting therapy. The chapter describes an association with ≥7.5 mg/day for more than three months. A dose below that does not assure low risk. The ACR recommends fracture-risk assessment in adults receiving ≥2.5 mg/day for over three months. Age, fracture history and BMD help determine the need for pharmacologic prevention (p769). June 2026 Q20 also asks what the patient taking 5 mg/day should do during a febrile illness. Chronic steroid exposure may suppress the adrenal stress response. Explain a sick-day dose and when vomiting or instability necessitates urgent parenteral coverage (p1532). [ACR glucocorticoid-induced osteoporosis recommendations](https://doi.org/10.1002/acr.25240) · [ESE/Endocrine Society 2024, recommendation 3.1 and Table 8](https://doi.org/10.1210/clinem/dgae250)
+
+## Connecting bone biology to prevention
+
+Osteocytes respond to mechanical loading. Osteoblast-lineage cells regulate osteoclast development through RANK ligand, and its decoy receptor osteoprotegerin limits that signal. Resorption and formation normally replace bone in coupled cycles. With advancing age, fewer bone-forming cells and a shift of marrow progenitors toward adipocytes reduce replacement of resorbed bone. Loss of estrogen accelerates remodeling at menopause. Sex-steroid loss and secondary disorders contribute in older men as well (pp760–768).
+
+Age, prior fracture, gait and strength help explain why people with the same T-score have different risks. Standard FRAX estimates 10-year fracture probability but omits fall history. Use a falls history and a brief functional examination alongside DXA. A person who needs their arms to rise from a chair may have a remediable fall risk. Post-fracture physical therapy can address strength, balance and body mechanics. In residential care, the ability to swallow and follow a dosing schedule, renal function and the facility's ability to maintain treatment determine whether a chosen regimen is practical (pp769–772, 778).
+
+## Israeli context
+
+**בדיקת סקר בגיל המבוגר.** בדף הבדיקות התקופתיות של משרד הבריאות מומלצת בדיקת צפיפות עצם אחת לחמש שנים מגיל 65. בדף מצוינת השתתפות עצמית לפי תנאי הביקור במכון. זו המלצה לבדיקת סקר באוכלוסייה. [משרד הבריאות, 23.09.2026, ״צפיפות העצם״, ״מתי בודקים״ ו״מי מממן״](https://me.health.gov.il/older-adult/services-rights/benefits-and-eligibilities/checkups/)
+
+**זכאות לבדיקה ומעקב לאחר שבר.** מכבי מפרסמת למבוטחיה זכאות לסקר אחת לחמש שנים כבר מגיל 60. מגיל 50 מפורט מסלול מעקב אחת לשנתיים במצבים מוגדרים, ובהם שבר אוסטאופורוטי קודם או טיפול בביספוספונט או ב־SERM. למטופל שכבר נשברה אצלו חוליה יש אפוא שאלה של בירור וטיפול בשבר הנוכחי. מרווח הסקר השגרתי אינו מועד ההמתנה לבירור זה. [מכבי, 29.07.2026, ״בדיקת צפיפות העצם בעקבות אבחנה רפואית״, הסעיפים ״מי זכאי?״ ו״מה הזכאות?״](https://www.maccabi4u.co.il/eligibilites/4144/)
+
 ## Summary
 
 **Definitions (WHO criteria, Table 51-1)**

@@ -54,6 +54,7 @@
           "page": 1263,
           "chapter": "81",
           "available": true,
+          "imageFile": "hazzard8e_ch81_table81-14_p1263.png",
           "anchor": "exam-p1263-mcq-765f7737231c2578f2a85a38",
           "passage": "Table 81-14"
         },
@@ -70,7 +71,8 @@
         "81",
         "88"
       ],
-      "bankChapter": "88"
+      "bankChapter": "88",
+      "referenceNote": "The IMA names chapter 88. Its two printed pages both support haloperidol for nausea: oncology p1391 and the symptom table on COPD p1263."
     },
     "mcq-59f85952926fe582c920abfa": {
       "sitting": "2024-Sep",
@@ -2122,7 +2124,8 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "55"
     },
     "mcq-584efd4ae05bbe5c48d0409f": {
       "sitting": "2021-Dec",
@@ -3972,7 +3975,8 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "referenceNote": "The 2022 list prints “Harrison 404.” Chapter 404 in Harrison 20e is Osteoporosis. This is a related topic in this reader, with no official Hazzard printed page."
     },
     "mcq-cae00a287bb5d67f443b04bb": {
       "sitting": "2022-Jun",
@@ -5329,8 +5333,9 @@
           "page": 1256,
           "chapter": "81",
           "available": true,
+          "rangeText": "PaO2 ≤ 59 mm Hg or SpO2 ≤ 89%, concurrent with CHF/cor pulmonale",
           "anchor": "exam-p1256-mcq-26e8f15baa3a145e21c8d533",
-          "passage": "Table 81-11 — Indications for long-term oxygen therapy"
+          "passage": "PaO2 ≤ 59 mm Hg or SpO2 ≤ 89%, concurrent with CHF/cor pulmonale"
         }
       ],
       "tables": [
@@ -5892,13 +5897,15 @@
           "page": 794,
           "chapter": "53",
           "available": true,
+          "rangeText": "Thus, fractures in the femoral neck region, particularly displaced fractures, are usually managed with joint replacement or arthroplasty rather than internal fixation.",
           "anchor": "exam-p794-mcq-78b3359272a717f584c23b2c",
-          "passage": "Approximately half of all hip fractures occur in the area of the femoral neck (or “intracaps"
+          "passage": "Thus, fractures in the femoral neck region, particularly displaced fractures, are usually managed with joint replacement or arthroplasty rather than internal fixation."
         },
         {
           "page": 795,
           "chapter": "53",
           "available": true,
+          "imageFile": "hazzard8e_ch53_figure-53-2_p795.webp",
           "anchor": "exam-p795-mcq-78b3359272a717f584c23b2c",
           "passage": "Figure 53-2"
         }
@@ -6036,13 +6043,15 @@
           "page": 773,
           "chapter": "51",
           "available": true,
+          "rangeText": "with existing vertebral fracture and low femoral neck BMD decreased the risk",
           "anchor": "exam-p773-mcq-3bde7ff46a9992e97fc59c24",
-          "passage": "Alendronate The efficacy of alendronate has been well established in increasing BMD at all s"
+          "passage": "Alendronate The efficacy of alendronate has been well established in increasing BMD at all sites "
         },
         {
           "page": 774,
           "chapter": "51",
           "available": true,
+          "imageFile": "hazzard8e_ch51_table51-5_p774.png",
           "anchor": "exam-p774-mcq-3bde7ff46a9992e97fc59c24",
           "passage": "Table 51-5"
         },
@@ -6050,18 +6059,22 @@
           "page": 775,
           "chapter": "51",
           "available": true,
+          "rangeText": "radiological evidence of at least one vertebral fracture",
           "anchor": "exam-p775-mcq-3bde7ff46a9992e97fc59c24",
-          "passage": "Zoledronic acid In postmenopausal women (mean age 73) with osteoporosis (BMD ≤ −2.5 or radio"
+          "passage": "Zoledronic acid In postmenopausal women (mean age 73) with osteoporosis (BMD ≤ −2.5 or radiologic"
         },
         {
           "page": 776,
           "chapter": "51",
           "available": true,
+          "rangeText": "patients who continue to fracture or lose BMD after 2 years of bisphosphonate treatment",
           "anchor": "exam-p776-mcq-3bde7ff46a9992e97fc59c24",
-          "passage": "Denosumab is a humanized monoclonal antibody that binds to RANKL and inhibits osteoclast act"
+          "passage": "Indications for teriparatide include a T-score worse than −3.5 or prevalent fractures in the sett"
         }
       ],
-      "tables": [],
+      "tables": [
+        "51-5"
+      ],
       "chapters": [
         "51"
       ]
@@ -6255,8 +6268,9 @@
           "page": 1549,
           "chapter": "98",
           "available": true,
+          "rangeText": "Confusion",
           "anchor": "exam-p1549-mcq-7f4a3ed0b5c9a81e1780006a",
-          "passage": "Table 98-3 — Comparison of clinical features of hyperthyroidism in older versus young patien"
+          "passage": "Confusion"
         }
       ],
       "tables": [
@@ -6574,6 +6588,7 @@
           "page": 1248,
           "chapter": "81",
           "available": true,
+          "imageFile": "hazzard8e_ch81_figure81-2.png",
           "anchor": "exam-p1248-mcq-18741c7ea62219890efeda8a",
           "passage": "Figure 81-2"
         }
@@ -6688,8 +6703,9 @@
           "page": 1253,
           "chapter": "81",
           "available": true,
+          "rangeText": "doses above 1000 mcg/day of fluticasone or equivalent",
           "anchor": "exam-p1253-mcq-0a8fce186272773039f15df2",
-          "passage": "The systemic adverse effects of ICS are well described. Several have unique implications in "
+          "passage": "doses above 1000 mcg/day of fluticasone or equivalent"
         }
       ],
       "tables": [
@@ -6697,6 +6713,17 @@
       ],
       "chapters": [
         "81"
+      ],
+      "referenceNote": "The bibliography gives p1253 plus Table 81-10. The prose on p1253 discusses bone risk; the inhaled corticosteroid row of that table is on p1251.",
+      "supportPages": [
+        {
+          "page": 1251,
+          "chapter": "81",
+          "available": true,
+          "imageFile": "hazzard8e_ch81_table81-10_p1251.png",
+          "anchor": "exam-p1251-mcq-0a8fce186272773039f15df2",
+          "passage": "Table 81-10"
+        }
       ]
     },
     "mcq-87d97d9a7a60602c31a10797": {
@@ -6759,7 +6786,10 @@
       "reason": "The bibliography gives no Hazzard 8e page for this question.",
       "pages": [],
       "tables": [],
-      "chapters": []
+      "chapters": [],
+      "bankChapter": "ima-harrison-22e-ch458",
+      "bankChapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies",
+      "referenceNote": "The bibliography prints Harrison p3504. That page is the treatment of Guillain–Barré syndrome in Harrison 21e, ch. 447. The corresponding 22e question collection is ch. 458."
     },
     "mcq-95f642a729895dc17239d748": {
       "sitting": "2023-Jun",
@@ -6916,21 +6946,24 @@
         {
           "page": 1255,
           "chapter": "81",
-          "available": true
+          "available": true,
+          "citationOnly": true
         },
         {
           "page": 1256,
           "chapter": "81",
           "available": true,
+          "rangeText": "The 13-valent conjugate vaccine (PCV-13) is recommended for people with COPD older than age 65",
           "anchor": "exam-p1256-mcq-6a3a4989b7a53b19593f44a7",
-          "passage": "Pneumococcal vaccination has been shown to reduce COPD exacerbations, community-acquired pne"
+          "passage": "The 13-valent conjugate vaccine (PCV-13) is recommended for people with COPD older than age 65"
         }
       ],
       "tables": [],
       "chapters": [
         "11",
         "81"
-      ]
+      ],
+      "referenceNote": "The IMA also cites p165 in chapter 11, which describes the historical sequence. The introduction to vaccination on p1255 discusses influenza; the pneumococcal paragraph is on p1256."
     },
     "mcq-971cda5e21170c33b0d0b53a": {
       "sitting": "2023-Jun",
@@ -7370,13 +7403,16 @@
           "page": 1138,
           "chapter": "74",
           "available": true,
+          "contextPage": 1137,
+          "rangeText": "In older patients with baseline ECGs abnormalities",
           "anchor": "exam-p1138-mcq-a4e3d6ba430e0534aff9d3e6",
-          "passage": "patients, however, frequently experience difficulty with exercise testing because of decondi"
+          "passage": "In older patients with baseline ECGs abnormalities"
         },
         {
           "page": 1139,
           "chapter": "74",
           "available": true,
+          "imageFile": "hazzard8e_ch74_figure-74-5_p1139.webp",
           "anchor": "exam-p1139-mcq-a4e3d6ba430e0534aff9d3e6",
           "passage": "Figure 74-5"
         }
@@ -7576,8 +7612,9 @@
           "page": 801,
           "chapter": "53",
           "available": true,
+          "rangeText": "DVT prophylaxis should be continued for 21 to 31 days after hip fracture surgery.",
           "anchor": "exam-p801-mcq-a6c338a57828b765465f7cbf",
-          "passage": "Despite ongoing therapy by rehabilitation professionals, increased risk for complications re"
+          "passage": "DVT prophylaxis should be continued for 21 to 31 days after hip fracture surgery."
         }
       ],
       "tables": [],
@@ -7732,6 +7769,7 @@
           "page": 800,
           "chapter": "53",
           "available": true,
+          "imageFile": "hazzard8e_ch53_figure-53-5_p800.webp",
           "anchor": "exam-p800-mcq-72e468cf141dda15964157c9",
           "passage": "Figure 53-5"
         }
@@ -7897,8 +7935,9 @@
           "page": 1553,
           "chapter": "98",
           "available": true,
+          "rangeText": "Increased GI tract binding of levothyroxine",
           "anchor": "exam-p1553-mcq-73208d3bcb5312abed0b44aa",
-          "passage": "Table 98-7 — Drugs/conditions affecting levothyroxine dosage"
+          "passage": "Increased GI tract binding of levothyroxine"
         }
       ],
       "tables": [
@@ -8091,8 +8130,9 @@
           "page": 776,
           "chapter": "51",
           "available": true,
+          "rangeText": "Due to concerns regarding osteosarcoma in animal studies",
           "anchor": "exam-p776-mcq-8d483913bdc5a9afe5b428bb",
-          "passage": "Teriparatide is a synthetic analogue of PTH and promotes both bone resorption and synthesis."
+          "passage": "Indications for teriparatide include a T-score worse than −3.5 or prevalent fractures in the sett"
         }
       ],
       "tables": [],
@@ -8159,8 +8199,9 @@
           "page": 794,
           "chapter": "53",
           "available": true,
+          "rangeText": "In contrast, the blood supply to the intertrochanteric area is plentiful and redundant",
           "anchor": "exam-p794-mcq-d59bcda0cc381a35cc3134db",
-          "passage": "Approximately half of all hip fractures occur in the area of the femoral neck (or “intracaps"
+          "passage": "In contrast, the blood supply to the intertrochanteric area is plentiful and redundant"
         }
       ],
       "tables": [],
@@ -8830,8 +8871,9 @@
           "page": 1547,
           "chapter": "98",
           "available": true,
+          "rangeText": "This can be treated acutely with corticosteroids.",
           "anchor": "exam-p1547-mcq-02bd4d5ac321fb03ca1d5e62",
-          "passage": "Amiodarone is a highly effective antiarrhythmic that can alter thyroid function in numerous "
+          "passage": "This can be treated acutely with corticosteroids."
         }
       ],
       "tables": [],
@@ -9501,8 +9543,9 @@
           "page": 1140,
           "chapter": "74",
           "available": true,
+          "rangeText": "Clopidogrel, a thienopyridine that inhibits ADPdependent platelet aggregation",
           "anchor": "exam-p1140-mcq-50a8d3094541c315ba9859cf",
-          "passage": "Clopidogrel, a thienopyridine that inhibits ADPdependent platelet aggregation, when added to"
+          "passage": "Clopidogrel, a thienopyridine that inhibits ADPdependent platelet aggregation"
         }
       ],
       "tables": [],
@@ -9814,15 +9857,17 @@
           "page": 1253,
           "chapter": "81",
           "available": true,
+          "rangeText": "both of which can increase the risk of injurious falls in older adults",
           "anchor": "exam-p1253-mcq-8a61d27740b818d564cb66db",
-          "passage": "The systemic adverse effects of ICS are well described. Several have unique implications in "
+          "passage": "both of which can increase the risk of injurious falls in older adults"
         },
         {
           "page": 1254,
           "chapter": "81",
           "available": true,
+          "rangeText": "in the risk of pneumonia associated with ICS",
           "anchor": "exam-p1254-mcq-8a61d27740b818d564cb66db",
-          "passage": "Importantly, meta-analyses of RCT and a large case-control study have observed an increase ("
+          "passage": "in the risk of pneumonia associated with ICS"
         }
       ],
       "tables": [],
@@ -10408,16 +10453,16 @@
           "page": 1151,
           "chapter": "75",
           "available": true,
+          "rangeText": "Impaired platelet function and decreased levels of von Willebrand factor",
           "anchor": "exam-p1151-mcq-3e9b544b729728bac5b28c1c",
-          "passage": "Impaired platelet function and decreased levels of von Willebrand factor are also associated"
+          "passage": "Impaired platelet function and decreased levels of von Willebrand factor"
         }
       ],
       "tables": [],
       "chapters": [
-        "75",
-        "74"
+        "75"
       ],
-      "referenceNote": "The bibliography names Chapter 74. Printed p. 1151 is in Chapter 75."
+      "referenceNote": "The IMA bibliography prints chapter 74 and page 1151. That printed page belongs to chapter 75 and describes the acquired bleeding disorder in aortic stenosis."
     },
     "mcq-2f9b0a4a271f750ea9bfb769": {
       "sitting": "2024-Sep",
@@ -10743,8 +10788,9 @@
           "page": 1256,
           "chapter": "81",
           "available": true,
+          "rangeText": "Resting arterial PO2 (PaO2) ≤ 55 mm Hg, or pulse oxygen saturation (SpO2) ≤ 88%",
           "anchor": "exam-p1256-mcq-f94957c688e051f74a5dd7d3",
-          "passage": "Table 81-11 — Indications for long-term oxygen therapy"
+          "passage": "Resting arterial PO2 (PaO2) ≤ 55 mm Hg, or pulse oxygen saturation (SpO2) ≤ 88%"
         }
       ],
       "tables": [
@@ -11177,8 +11223,9 @@
           "page": 1546,
           "chapter": "98",
           "available": true,
+          "rangeText": "TSH concentrations gradually increase with increasing age",
           "anchor": "exam-p1546-mcq-af57ecd77b2b3894df010e23",
-          "passage": "TSH concentrations gradually increase with increasing age, without change in free T4 levels,"
+          "passage": "TSH concentrations gradually increase with increasing age"
         }
       ],
       "tables": [],
@@ -11281,8 +11328,7 @@
           "page": 1249,
           "chapter": "81",
           "available": true,
-          "anchor": "exam-p1249-mcq-d70f2a703a025f91d3f9a0c2",
-          "passage": "Table 81-10"
+          "citationOnly": true
         }
       ],
       "tables": [
@@ -11291,12 +11337,13 @@
       "chapters": [
         "81"
       ],
-      "referenceNote": "Printed IMA citation retained; theophylline row: Hazzard 8e p.1252, Table 81-10.",
+      "referenceNote": "The IMA prints p1249, Table 81-10. The table begins with short-acting bronchodilators there. The theophylline row listing seizures is on p1252 in the continuation.",
       "supportPages": [
         {
           "page": 1252,
           "chapter": "81",
-          "available": true
+          "available": true,
+          "anchor": "exam-p1252-mcq-d70f2a703a025f91d3f9a0c2"
         }
       ]
     },
@@ -11588,8 +11635,9 @@
           "page": 1260,
           "chapter": "81",
           "available": true,
+          "rangeText": "increased dyspnea, sputum volume, and sputum purulence—in the absence of respiratory failure",
           "anchor": "exam-p1260-mcq-5db8763148c6144657ed06fc",
-          "passage": "Table 81-13 — Suggested antibiotic regimens for acute exacerbation of COPD"
+          "passage": "increased dyspnea, sputum volume, and sputum purulence—in the absence of respiratory failure"
         }
       ],
       "tables": [
@@ -11627,16 +11675,16 @@
           "page": 1151,
           "chapter": "75",
           "available": true,
+          "rangeText": "Monitoring by echocardiography should include annual or biannual examinations",
           "anchor": "exam-p1151-mcq-a48ff09dba8d7490a501c290",
-          "passage": "If the patient is truly asymptomatic, continued frequent routine monitoring is reasonable, b"
+          "passage": "Monitoring by echocardiography should include annual or biannual examinations"
         }
       ],
       "tables": [],
       "chapters": [
-        "75",
-        "74"
+        "75"
       ],
-      "referenceNote": "The bibliography names Chapter 74. Printed p. 1151 is in Chapter 75."
+      "referenceNote": "The IMA bibliography prints chapter 74 and page 1151. That printed page belongs to chapter 75 and gives the echocardiographic surveillance intervals for aortic stenosis."
     },
     "mcq-c2279ef45642c96c7994044f": {
       "sitting": "2024-Sep",
@@ -12856,15 +12904,17 @@
           "page": 1236,
           "chapter": "81",
           "available": true,
+          "rangeText": "a fixed ratio of 0.70, which does not distinguish between age-related airflow limitation",
           "anchor": "exam-p1236-mcq-e53fe32921107e7f9d4490f5",
-          "passage": "a. The most often used criteria for establishing and staging airflow obstruction are based o"
+          "passage": "a fixed ratio of 0.70, which does not distinguish between age-related airflow limitation"
         },
         {
           "page": 1237,
           "chapter": "81",
           "available": true,
+          "rangeText": "airflow limitation: defined by a decreased spirometric ratio",
           "anchor": "exam-p1237-mcq-e53fe32921107e7f9d4490f5",
-          "passage": "Healthy aging is associated with structural and functional changes in the lungs and chest wa"
+          "passage": "airflow limitation: defined by a decreased spirometric ratio"
         }
       ],
       "tables": [],
@@ -12899,15 +12949,17 @@
           "page": 769,
           "chapter": "51",
           "available": true,
+          "rangeText": "Glucocorticoid-induced osteoporosis is preventable if treatment is considered",
           "anchor": "exam-p769-mcq-0dd3353be9d7e981544cb1cf",
-          "passage": "The prevalence of osteoporosis in adults taking glucocorticoids is approximately 30%. Bone l"
+          "passage": "The prevalence of osteoporosis in adults taking glucocorticoids is approximately 30%. Bone loss t"
         },
         {
           "page": 1532,
           "chapter": "97",
           "available": true,
+          "rangeText": "The management of “sick days” is similar to above",
           "anchor": "exam-p1532-mcq-0dd3353be9d7e981544cb1cf",
-          "passage": "For patients that are on chronic corticosteroids (and likely have iatrogenic secondary hypoa"
+          "passage": "For patients that are on chronic corticosteroids (and likely have iatrogenic secondary hypoadrena"
         }
       ],
       "tables": [],
@@ -13100,6 +13152,7 @@
           "page": 774,
           "chapter": "51",
           "available": true,
+          "imageFile": "hazzard8e_ch51_table51-5_p774.png",
           "anchor": "exam-p774-mcq-b9e9379a1932f5609365e505",
           "passage": "Table 51-5"
         },
@@ -13107,15 +13160,15 @@
           "page": 775,
           "chapter": "51",
           "available": true,
-          "anchor": "exam-p775-mcq-b9e9379a1932f5609365e505",
-          "passage": "Table 51-5 continued"
+          "citationOnly": true
         },
         {
           "page": 776,
           "chapter": "51",
           "available": true,
+          "rangeText": "denosumab is not incorporated into bones",
           "anchor": "exam-p776-mcq-b9e9379a1932f5609365e505",
-          "passage": "Denosumab is a humanized monoclonal antibody that binds to RANKL and inhibits osteoclast act"
+          "passage": "Denosumab is a humanized monoclonal antibody that binds to RANKL and inhibits osteoclast activati"
         }
       ],
       "tables": [
@@ -13707,15 +13760,34 @@
           "page": 1547,
           "chapter": "98",
           "available": true,
+          "rangeText": "increased thyroid hormone production may occur, which can be treated with methimazole.",
           "anchor": "exam-p1547-mcq-614440aa6ac525d6d42ed6f2",
-          "passage": "Decrease TSH secretion: dopamine, glucocorticoids, octreotide, bexarotene"
+          "passage": "increased thyroid hormone production may occur, which can be treated with methimazole."
         }
       ],
       "tables": [],
       "chapters": [
         "98"
       ],
-      "bankChapter": "98"
+      "bankChapter": "98",
+      "supportPages": [
+        {
+          "page": 1548,
+          "chapter": "98",
+          "available": true,
+          "rangeText": "patients may initially be treated with both corticosteroids and methimazole.",
+          "anchor": "exam-p1548-mcq-614440aa6ac525d6d42ed6f2",
+          "passage": "patients may initially be treated with both corticosteroids and methimazole."
+        },
+        {
+          "page": 1550,
+          "chapter": "98",
+          "available": true,
+          "rangeText": "β-Blocking drugs are useful in the management of tachycardia",
+          "anchor": "exam-p1550-mcq-614440aa6ac525d6d42ed6f2",
+          "passage": "β-Blocking drugs are useful in the management of tachycardia"
+        }
+      ]
     },
     "mcq-3c902dfe8cf32cf96518b8b1": {
       "sitting": "2026-Jun",
@@ -13945,8 +14017,9 @@
           "page": 1548,
           "chapter": "98",
           "available": true,
+          "rangeText": "repeat thyroid function testing as an outpatient is preferred over initiation of levothyroxine.",
           "anchor": "exam-p1548-mcq-804b6ad2cccaa569c0b6acaf",
-          "passage": "may have completely suppressed TSH levels. The pattern of low TSH and low thyroid hormones i"
+          "passage": "repeat thyroid function testing as an outpatient is preferred over initiation of levothyroxine."
         }
       ],
       "tables": [],
@@ -14378,8 +14451,9 @@
           "page": 776,
           "chapter": "51",
           "available": true,
+          "rangeText": "Prolonged use of bisphosphonates is associated with an increased risk of atypical femoral fracture",
           "anchor": "exam-p776-mcq-50371b2acb85b22aca082547",
-          "passage": "Zoledronic acid was shown to be safe and well-tolerated by older adults in the trial at the "
+          "passage": "Zoledronic acid was shown to be safe and well-tolerated by older adults in the trial at the once-"
         }
       ],
       "tables": [],
@@ -15115,8 +15189,9 @@
           "page": 1552,
           "chapter": "98",
           "available": true,
+          "rangeText": "could be as high as 4 to 6 mU/L in those older than age 80.",
           "anchor": "exam-p1552-mcq-a9564119e3f03b2dcc342926",
-          "passage": "Considerations for initial dosing include the age of the patient and degree of thyroid failu"
+          "passage": "could be as high as 4 to 6 mU/L in those older than age 80."
         }
       ],
       "tables": [],
@@ -16383,8 +16458,9 @@
           "page": 1555,
           "chapter": "98",
           "available": true,
+          "rangeText": "intranodular vascularity, and microcalcifications",
           "anchor": "exam-p1555-mcq-6593d3a8fd894eded1a95488",
-          "passage": "The evaluation of a thyroid nodule does not differ by age. The main consideration is detecti"
+          "passage": "intranodular vascularity, and microcalcifications"
         }
       ],
       "tables": [],
@@ -16522,17 +16598,18 @@
       ],
       "tables": [],
       "chapters": [
-        "53",
         "57"
       ],
-      "referenceNote": "All answers accepted after appeal. Printed IMA p.869 retained; general hip-fracture anesthesia discussion is on Hazzard 8e p.797.",
+      "bankChapter": "53",
+      "referenceNote": "The published row names chapter 57, p. 869 (dementia). Chapter 53, p. 797 compares anesthesia for hip fracture and does not prescribe an apixaban interruption interval.",
       "supportPages": [
         {
           "page": 797,
           "chapter": "53",
           "available": true,
+          "rangeText": "No differences have been found in mortality between general and spinal anesthetic.",
           "anchor": "exam-p797-mcq-10163f2b99f5abe875d7d917",
-          "passage": "The majority of patients with a hip fracture will undergo surgical repair. The types of surg"
+          "passage": "No differences have been found in mortality between general and spinal anesthetic."
         }
       ]
     },
@@ -17007,13 +17084,33 @@
           "page": 1259,
           "chapter": "81",
           "available": true,
+          "rangeText": "a positive PCR does not definitively indicate causality",
           "anchor": "exam-p1259-mcq-1f85de60d97070cafa120390",
-          "passage": "Respiratory infection accounts for approximately 70% of COPD exacerbations. Viruses, typical"
+          "passage": "a positive PCR does not definitively indicate causality"
         }
       ],
       "tables": [],
       "chapters": [
         "81"
+      ],
+      "referenceNote": "The IMA prints p1259 on infectious causes. The test-selection caveats for sputum culture and influenza testing are on p1260, and the caution against procalcitonin-directed antibiotic treatment is on p1261.",
+      "supportPages": [
+        {
+          "page": 1260,
+          "chapter": "81",
+          "available": true,
+          "rangeText": "sputum culture is not necessary in routine COPD exacerbations",
+          "anchor": "exam-p1260-mcq-1f85de60d97070cafa120390",
+          "passage": "sputum culture is not necessary in routine COPD exacerbations"
+        },
+        {
+          "page": 1261,
+          "chapter": "81",
+          "available": true,
+          "rangeText": "procalcitonin is not currently recommended to guide antibiotic use in COPD exacerbations",
+          "anchor": "exam-p1261-mcq-1f85de60d97070cafa120390",
+          "passage": "procalcitonin is not currently recommended to guide antibiotic use in COPD exacerbations"
+        }
       ]
     },
     "mcq-f2448541fe026f7c28b9ebe5": {
@@ -17436,13 +17533,15 @@
           "page": 768,
           "chapter": "51",
           "available": true,
+          "rangeText": "lists the major secondary causes of osteoporosis along with laboratory tests",
           "anchor": "exam-p768-mcq-4b4661426332a286351b76b3",
-          "passage": "The diagnosis of primary osteoporosis is made by BMD measurement before fracture or by incid"
+          "passage": "The diagnosis of primary osteoporosis is made by BMD measurement before fracture or by incident f"
         },
         {
           "page": 769,
           "chapter": "51",
           "available": true,
+          "imageFile": "hazzard8e_ch51_table51-3_p769.png",
           "anchor": "exam-p769-mcq-4b4661426332a286351b76b3",
           "passage": "Table 51-3"
         }
@@ -17885,8 +17984,9 @@
           "page": 1546,
           "chapter": "98",
           "available": true,
+          "rangeText": "The increase in TSH with normal aging does not indicate occult thyroid failure",
           "anchor": "exam-p1546-mcq-7400870fc10d03a49c2e9070",
-          "passage": "TSH concentrations gradually increase with increasing age, without change in free T4 levels,"
+          "passage": "The increase in TSH with normal aging does not indicate occult thyroid failure"
         }
       ],
       "tables": [],
@@ -18452,8 +18552,9 @@
           "page": 1547,
           "chapter": "98",
           "available": true,
+          "rangeText": "Decrease thyroid hormone secretion",
           "anchor": "exam-p1547-mcq-9bddccff96cb66a3829e208c",
-          "passage": "Table 98-1 — Drugs that affect thyroid function"
+          "passage": "Decrease thyroid hormone secretion"
         }
       ],
       "tables": [
@@ -18461,6 +18562,16 @@
       ],
       "chapters": [
         "98"
+      ],
+      "supportPages": [
+        {
+          "page": 1548,
+          "chapter": "98",
+          "available": true,
+          "rangeText": "When thyroid dysfunction is suspected clinically, the first step is to measure a TSH level.",
+          "anchor": "exam-p1548-mcq-9bddccff96cb66a3829e208c",
+          "passage": "When thyroid dysfunction is suspected clinically, the first step is to measure a TSH level."
+        }
       ]
     },
     "mcq-2dec739bd9d3b24028f380a4": {
@@ -18589,15 +18700,17 @@
           "page": 1552,
           "chapter": "98",
           "available": true,
+          "rangeText": "It is characterized by profound slowing across systems, including hypothermia, bradycardia, and hypoventilation.",
           "anchor": "exam-p1552-mcq-b2542a05496f3c5c65789a5f",
-          "passage": "Myxedema coma Myxedema coma is a serious medical condition that occurs almost exclusively in"
+          "passage": "It is characterized by profound slowing across systems, including hypothermia, bradycardia, and hypoventilation."
         },
         {
           "page": 1553,
           "chapter": "98",
           "available": true,
+          "rangeText": "Serum should be obtained for cortisol measurement, and then intravenous hydrocortisone should be initiated",
           "anchor": "exam-p1553-mcq-b2542a05496f3c5c65789a5f",
-          "passage": "Treatment of precipitating factors and supportive therapy for any associated metabolic distu"
+          "passage": "Serum should be obtained for cortisol measurement, and then intravenous hydrocortisone should be initiated"
         }
       ],
       "tables": [],
@@ -18684,8 +18797,9 @@
           "page": 1547,
           "chapter": "98",
           "available": true,
+          "rangeText": "Decrease TSH secretion",
           "anchor": "exam-p1547-mcq-cb89f90016ad0e9c97dcff99",
-          "passage": "Table 98-1 — Drugs that affect thyroid function"
+          "passage": "Decrease TSH secretion"
         }
       ],
       "tables": [
@@ -19225,8 +19339,9 @@
           "page": 1140,
           "chapter": "74",
           "available": true,
+          "rangeText": "Unfractionated heparin, in conjunction with antiplatelet therapy",
           "anchor": "exam-p1140-mcq-92fb4b43790e0815a2591e91",
-          "passage": "prior stroke or low body mass index due to increased risk of bleeding. Ticagrelor, with a di"
+          "passage": "Unfractionated heparin, in conjunction with antiplatelet therapy"
         }
       ],
       "tables": [],
@@ -21105,15 +21220,18 @@
           "page": 1137,
           "chapter": "74",
           "available": true,
+          "rangeText": "guidelines recommend exercise ECG as a first strategy for patients with a normal baseline ECG",
           "anchor": "exam-p1137-mcq-fa33b286f3d03d33e2242529",
-          "passage": "Symptomatic older patients should undergo a similar assessment for obstructive coronary dise"
+          "passage": "guidelines recommend exercise ECG as a first strategy for patients with a normal baseline ECG"
         },
         {
           "page": 1138,
           "chapter": "74",
           "available": true,
+          "contextPage": 1137,
+          "rangeText": "Alternatively, for patients who cannot exercise, a pharmacologic-based stress test",
           "anchor": "exam-p1138-mcq-fa33b286f3d03d33e2242529",
-          "passage": "patients, however, frequently experience difficulty with exercise testing because of decondi"
+          "passage": "Alternatively, for patients who cannot exercise, a pharmacologic-based stress test"
         }
       ],
       "tables": [],
@@ -23161,7 +23279,6 @@
         "mcq-aef3c629ece2ab30b9a741de",
         "mcq-75d3bab7b0cbdfbc7293b06a",
         "mcq-863c990591ff2eedbfe5e922",
-        "mcq-d77dd3b1ab1dbb492058f5df",
         "mcq-5b3939c33f45491551d8ea87",
         "mcq-03f2d251e63e4dd9a8c4925b",
         "mcq-5b0c5d8693a2a6b69ff477c9",
@@ -23173,9 +23290,9 @@
         "mcq-10163f2b99f5abe875d7d917"
       ],
       "before": 13,
-      "past": 14,
+      "past": 13,
       "resolved": 5,
-      "fallback": 6,
+      "fallback": 5,
       "practice": 20,
       "chapterLinked": 3
     },
@@ -23197,6 +23314,7 @@
         "mcq-0a63b1fdce0707c8e2c49e60",
         "mcq-ef77c3f440fa29a46ca59282",
         "mcq-f7cdd68518d6671b51791c12",
+        "mcq-d77dd3b1ab1dbb492058f5df",
         "mcq-584efd4ae05bbe5c48d0409f",
         "mcq-6ba05d11f3ef3af2f94b0786",
         "mcq-e9726c2e2313e5408517930a",
@@ -23220,9 +23338,9 @@
         "mcq-e494106a09620abcbc2a7e06"
       ],
       "before": 30,
-      "past": 28,
+      "past": 29,
       "resolved": 10,
-      "fallback": 12,
+      "fallback": 13,
       "practice": 34,
       "chapterLinked": 6
     },
@@ -23659,18 +23777,15 @@
     "74": {
       "ids": [
         "mcq-13e618f70748ac4d528540ae",
-        "mcq-b68785058ba8da505dadd1b0",
         "mcq-a4e3d6ba430e0534aff9d3e6",
         "mcq-50a8d3094541c315ba9859cf",
-        "mcq-3e9b544b729728bac5b28c1c",
-        "mcq-a48ff09dba8d7490a501c290",
         "mcq-92fb4b43790e0815a2591e91",
         "mcq-fa33b286f3d03d33e2242529"
       ],
       "before": 0,
-      "past": 8,
-      "resolved": 6,
-      "fallback": 1,
+      "past": 5,
+      "resolved": 4,
+      "fallback": 0,
       "practice": 12,
       "chapterLinked": 1
     },

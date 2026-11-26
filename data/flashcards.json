@@ -4059,5 +4059,619 @@
     "questionIds": [
       "mcq-709d9ab5d0c401eb1452d6ac"
     ]
+  },
+  {
+    "id": "ch74-exercise-ecg",
+    "chapter": "74",
+    "front": "An independent 82-year-old has predictable pressure on climbing stairs and a normal resting ECG. What can the first functional test tell you?",
+    "back": "Exercise ECG can reproduce symptoms, measure workload and blood-pressure response, and identify inducible ST changes when exercise is adequate. Hazzard 8e, p. 1137.",
+    "page": 1137,
+    "anchor": "exam-p1137-mcq-fa33b286f3d03d33e2242529",
+    "questionIds": [
+      "mcq-fa33b286f3d03d33e2242529"
+    ]
+  },
+  {
+    "id": "ch74-unable-to-exercise",
+    "chapter": "74",
+    "front": "Severe knee disease prevents a diagnostic workload. How can one still assess inducible coronary ischemia?",
+    "back": "Use pharmacologic stress with an appropriate imaging modality, such as dipyridamole perfusion imaging. A resting anatomic image answers a different question. Hazzard 8e, p. 1138.",
+    "page": 1138,
+    "anchor": "exam-p1138-mcq-fa33b286f3d03d33e2242529",
+    "questionIds": [
+      "mcq-a4e3d6ba430e0534aff9d3e6",
+      "mcq-fa33b286f3d03d33e2242529"
+    ]
+  },
+  {
+    "id": "ch74-prior-revascularization",
+    "chapter": "74",
+    "front": "A patient with a previous coronary stent now has exertional symptoms and can exercise. Which branch of Figure 74-5 applies?",
+    "back": "Use exercise stress imaging, with echocardiography or myocardial perfusion imaging. Revascularization history changes the test selection, while new symptoms establish the reason to test. Hazzard 8e, p. 1139.",
+    "page": 1139,
+    "anchor": "exam-p1139-mcq-a4e3d6ba430e0534aff9d3e6",
+    "questionIds": [
+      "mcq-a4e3d6ba430e0534aff9d3e6"
+    ]
+  },
+  {
+    "id": "ch74-clopidogrel-nstemi",
+    "chapter": "74",
+    "front": "Which addition to aspirin after NSTEMI reduced cardiovascular death, MI or stroke, and why does it help?",
+    "back": "Clopidogrel blocks platelet P2Y12 signaling, complementing aspirin. In CURE the relative reduction in the composite outcome was about 20%. Hazzard 8e, p. 1140.",
+    "page": 1140,
+    "anchor": "exam-p1140-mcq-50a8d3094541c315ba9859cf",
+    "questionIds": [
+      "mcq-50a8d3094541c315ba9859cf"
+    ]
+  },
+  {
+    "id": "ch74-age-and-bleeding",
+    "chapter": "74",
+    "front": "Which P2Y12 inhibitor carries the warning about serious bleeding at age 75 or older?",
+    "back": "Prasugrel. Generally avoid it from age 75. Selected patients with diabetes or prior MI may warrant consideration. Prior stroke or TIA is a contraindication at any age. Ticagrelor does not carry this particular age-related warning. Hazzard 8e, p. 1140.",
+    "page": 1140,
+    "anchor": "ch74-prasugrel",
+    "questionIds": [
+      "mcq-50a8d3094541c315ba9859cf",
+      "mcq-92fb4b43790e0815a2591e91"
+    ]
+  },
+  {
+    "id": "ch74-pci-drugs",
+    "chapter": "74",
+    "front": "For an 85-year-old undergoing PCI during acute MI, what roles must the antithrombotic regimen cover?",
+    "back": "Aspirin and a P2Y12 inhibitor limit platelet aggregation, and a parenteral anticoagulant limits clot propagation. Examples include heparin with ticagrelor or enoxaparin with clopidogrel, each with aspirin. Hazzard 8e, p. 1140.",
+    "page": 1140,
+    "anchor": "exam-p1140-mcq-92fb4b43790e0815a2591e91",
+    "questionIds": [
+      "mcq-92fb4b43790e0815a2591e91"
+    ]
+  },
+  {
+    "id": "ch74-discharge-ramipril",
+    "chapter": "74",
+    "front": "After NSTEMI and stenting, EF is 45%, pulse 58 and BP 116/80. With DAPT and a statin already prescribed, which addition addresses ventricular dysfunction without further rate slowing?",
+    "back": "Ramipril, with blood pressure, potassium and creatinine follow-up. The low resting rate argues against adding a beta blocker immediately. Related Hazzard 8e, p. 1143.",
+    "page": 1143,
+    "anchor": "ch74-postmi-ace",
+    "questionIds": [
+      "mcq-13e618f70748ac4d528540ae"
+    ],
+    "sourceLabel": "Related Hazzard 8e, p. 1143"
+  },
+  {
+    "id": "ch81-oxygen-rest",
+    "chapter": "81",
+    "front": "A stable patient has PaO₂ 58 mm Hg at rest and cor pulmonale. Why does he qualify for daily oxygen?",
+    "back": "Cor pulmonale extends eligibility to PaO₂ ≤59 mm Hg or SpO₂ ≤89%. Without a qualifying complication, use PaO₂ ≤55 or SpO₂ ≤88%. Daily oxygen in severe resting hypoxemia improves survival. Table 81-11, p1256.",
+    "page": 1256,
+    "anchor": "exam-p1256-mcq-26e8f15baa3a145e21c8d533",
+    "questionIds": [
+      "mcq-26e8f15baa3a145e21c8d533",
+      "mcq-f94957c688e051f74a5dd7d3"
+    ]
+  },
+  {
+    "id": "ch81-inhaler-selection",
+    "chapter": "81",
+    "front": "An older patient cannot follow the inhaler sequence and has low inspiratory flow. A caregiver can help. Which device fits?",
+    "back": "Consider a nebulizer with caregiver help. A dry-powder inhaler needs sufficient inspiratory flow. The caregiver can prepare, supervise and clean the nebulizer. Figure 81-2, p1248.",
+    "page": 1248,
+    "anchor": "exam-p1248-mcq-18741c7ea62219890efeda8a",
+    "questionIds": [
+      "mcq-18741c7ea62219890efeda8a"
+    ]
+  },
+  {
+    "id": "ch81-cognition",
+    "chapter": "81",
+    "front": "A patient scores 23/30 on the MMSE. What should you ask him to do with his inhaler?",
+    "back": "Demonstrate the complete preparation and inhalation sequence. MMSE below 24 predicts difficulty learning the technique, but observed performance determines the change needed. Hazzard 8e teaching, p1255.",
+    "page": 1255,
+    "anchor": "ch81-technique",
+    "questionIds": [
+      "mcq-9e6331f91eab9337062372ca"
+    ]
+  },
+  {
+    "id": "ch81-ics-bone",
+    "chapter": "81",
+    "front": "Which systemic adverse effect matters when an older adult uses high-dose inhaled fluticasone for years?",
+    "back": "Accelerated bone mineral loss and increased fracture risk have been observed above 1000 micrograms/day or equivalent. Review osteoporosis prevention and the continuing indication for ICS. Hazzard 8e, p1253.",
+    "page": 1253,
+    "anchor": "exam-p1253-mcq-0a8fce186272773039f15df2",
+    "questionIds": [
+      "mcq-0a8fce186272773039f15df2"
+    ]
+  },
+  {
+    "id": "ch81-ics-exceptions",
+    "chapter": "81",
+    "front": "Which two responses were accepted as exceptions in the question on inhaled corticosteroids, and why are falls nuanced?",
+    "back": "Upper gastrointestinal bleeding and falls. Pneumonia and dysphonia are recognized effects. The book links bone and visual effects to injurious falls, while the inhaled steroid–cataract causal link is uncertain. Hazzard 8e, pp1253–1254.",
+    "page": 1253,
+    "anchor": "exam-p1253-mcq-8a61d27740b818d564cb66db",
+    "questionIds": [
+      "mcq-8a61d27740b818d564cb66db"
+    ]
+  },
+  {
+    "id": "ch81-winter-testing",
+    "chapter": "81",
+    "front": "A patient with mild-to-moderate COPD is hospitalized in winter without recent antibiotics or hospitalization. How do the available tests change care?",
+    "back": "Use a molecular influenza test in hospital. When influenza is suspected, start empiric oseltamivir while the result is pending. Rhinovirus PCR alone cannot exclude bacterial coinfection. Routine sputum cultures and procalcitonin-directed antibiotics have limitations. June 2025 accepted culture, influenza testing and procalcitonin. Hazzard 8e, pp1259–1261.",
+    "page": 1259,
+    "anchor": "exam-p1259-mcq-1f85de60d97070cafa120390",
+    "questionIds": [
+      "mcq-1f85de60d97070cafa120390"
+    ]
+  },
+  {
+    "id": "ch81-purulent-flare",
+    "chapter": "81",
+    "front": "Breathlessness, increased sputum and purulence worsen without CO₂ retention. Which treatment addresses this episode?",
+    "back": "Use a short-acting inhaled bronchodilator, a short course of oral prednisone and an appropriate oral antibiotic. Respiratory acidosis, gas exchange, comorbidity and ability to cope at home influence escalation. Hazzard 8e, Table 81-13, pp1260–1261.",
+    "page": 1260,
+    "anchor": "exam-p1260-mcq-5db8763148c6144657ed06fc",
+    "questionIds": [
+      "mcq-5db8763148c6144657ed06fc"
+    ]
+  },
+  {
+    "id": "ch81-theophylline",
+    "chapter": "81",
+    "front": "Which oral COPD drug can cause both seizures and arrhythmias when concentrations rise?",
+    "back": "Theophylline. Check drug interactions and its serum concentration. The seizure entry is in the continuation of Table 81-10 on p1252; the exam bibliography points to the start of the table on p1249.",
+    "page": 1252,
+    "anchor": "exam-p1252-mcq-d70f2a703a025f91d3f9a0c2",
+    "questionIds": [
+      "mcq-d70f2a703a025f91d3f9a0c2"
+    ]
+  },
+  {
+    "id": "ch81-fixed-ratio",
+    "chapter": "81",
+    "front": "Why can a post-bronchodilator FEV₁/FVC below 0.70 overclassify COPD late in life?",
+    "back": "The ratio falls with normal aging and reduced elastic recoil. The fixed threshold can classify results below 0.70 that still fall within the age-adjusted reference range. Interpret with symptoms, exposures and spirometric quality. Hazzard 8e, pp1236–1237.",
+    "page": 1236,
+    "anchor": "exam-p1236-mcq-e53fe32921107e7f9d4490f5",
+    "questionIds": [
+      "mcq-e53fe32921107e7f9d4490f5"
+    ]
+  },
+  {
+    "id": "ch81-vaccines",
+    "chapter": "81",
+    "front": "What pneumococcal schedule was examined for an 80-year-old with COPD in June 2023?",
+    "back": "The historical answer was one dose each of PCV13 and PPSV23 in sequence. Israeli guidance now describes the 20-valent conjugate vaccine. Distinguish the exam schedule from a present-day prescription. Hazzard 8e, pp165, 1255–1256.",
+    "page": 1256,
+    "anchor": "exam-p1256-mcq-6a3a4989b7a53b19593f44a7",
+    "questionIds": [
+      "mcq-6a3a4989b7a53b19593f44a7"
+    ]
+  },
+  {
+    "id": "ch81-rehabilitation",
+    "chapter": "81",
+    "front": "After an admission for a COPD exacerbation, which referral addresses walking intolerance and the risk of another hospitalization?",
+    "back": "Pulmonary rehabilitation combines supervised exercise, education and behavior change. People over 70 and those with persistent severe obstruction can still benefit. Hazzard 8e teaching, p1258.",
+    "page": 1258,
+    "anchor": "ch81-rehab",
+    "questionIds": [
+      "mcq-1d7675d40164e88332093c6a"
+    ]
+  },
+  {
+    "id": "ch81-aging-bone",
+    "chapter": "81",
+    "front": "Why does osteoporosis matter to an older person who already has limited ventilatory reserve?",
+    "back": "Bone loss increases fracture risk. Vertebral deformity and increased chest-wall rigidity can add a mechanical limitation. Assess falls, muscle loss and steroid exposure alongside the airflow obstruction. Hazzard 8e teaching, pp1237–1238, 1241.",
+    "page": 1241,
+    "anchor": "ch81-bone",
+    "questionIds": [
+      "mcq-ad9a121e09ed2474df94ccb9"
+    ]
+  },
+  {
+    "id": "ch81-refractory-nausea",
+    "chapter": "81",
+    "front": "Which option treats persistent nausea after ondansetron and metoclopramide in the advanced-cancer vignette?",
+    "back": "Haloperidol is listed for nausea and vomiting in the palliative symptom table. Assess the cause, including medication effects or constipation. The IMA also cites oncology p1391. Hazzard 8e, Table 81-14, p1263.",
+    "page": 1263,
+    "anchor": "exam-p1263-mcq-765f7737231c2578f2a85a38",
+    "questionIds": [
+      "mcq-765f7737231c2578f2a85a38"
+    ]
+  },
+  {
+    "id": "ch98-myxedema-adrenal",
+    "chapter": "98",
+    "front": "After months without levothyroxine, an older patient is cold, slow and barely responsive. What must accompany urgent thyroid replacement?",
+    "back": "Draw cortisol and give IV hydrocortisone promptly. Thyroid hormone can precipitate adrenal crisis if cortisol reserve is inadequate. Treat precipitating illness and support ventilation. Hazzard 8e, pp. 1552–1553.",
+    "page": 1553,
+    "anchor": "exam-p1553-mcq-b2542a05496f3c5c65789a5f",
+    "questionIds": [
+      "mcq-766aecb1c1359ae07b51af4b",
+      "mcq-b2542a05496f3c5c65789a5f"
+    ]
+  },
+  {
+    "id": "ch98-myxedema-presentation",
+    "chapter": "98",
+    "front": "Why can an older patient responding to pain still have myxedema coma?",
+    "back": "The syndrome describes decompensated thyroid deficiency. Altered mentation with hypothermia, a slow pulse and hypoventilation is characteristic even before complete coma. Hazzard 8e, p. 1552.",
+    "page": 1552,
+    "anchor": "exam-p1552-mcq-b2542a05496f3c5c65789a5f",
+    "questionIds": [
+      "mcq-766aecb1c1359ae07b51af4b",
+      "mcq-b2542a05496f3c5c65789a5f"
+    ]
+  },
+  {
+    "id": "ch98-low-t3-after-pneumonia",
+    "chapter": "98",
+    "front": "After severe pneumonia and glucocorticoids, T3 is low, free T4 normal and TSH just below range. Which step clarifies the diagnosis?",
+    "back": "Repeat thyroid function after recovery. Reduced T4-to-T3 conversion lowers T3, and steroids can suppress TSH. Replacement does not improve nonthyroidal illness. Hazzard 8e, p. 1548.",
+    "page": 1548,
+    "anchor": "exam-p1548-mcq-804b6ad2cccaa569c0b6acaf",
+    "questionIds": [
+      "mcq-efb2165a67b659aa508edeff",
+      "mcq-804b6ad2cccaa569c0b6acaf"
+    ]
+  },
+  {
+    "id": "ch98-amiodarone-early",
+    "chapter": "98",
+    "front": "Two weeks after starting amiodarone, TSH and free T4 are mildly high and T3 is low. What does that combination suggest?",
+    "back": "An early drug effect in an otherwise stable patient. TSH can rise transiently, while inhibited T4-to-T3 conversion raises free T4 and lowers T3. Monitor without adding thyroid therapy solely for this pattern. Hazzard 8e, p. 1547.",
+    "page": 1547,
+    "anchor": "ch98-early-amiodarone",
+    "questionIds": [
+      "mcq-b9a15ea73b528886155ee992"
+    ]
+  },
+  {
+    "id": "ch98-amiodarone-destructive",
+    "chapter": "98",
+    "front": "Which drug addresses leakage of preformed thyroid hormone during amiodarone-associated destructive thyroiditis?",
+    "back": "Corticosteroids. Methimazole inhibits new synthesis, so it targets a different mechanism. Amiodarone usually can continue because its effects persist for months if stopped. Hazzard 8e, pp. 1547–1548.",
+    "page": 1547,
+    "anchor": "exam-p1547-mcq-02bd4d5ac321fb03ca1d5e62",
+    "questionIds": [
+      "mcq-02bd4d5ac321fb03ca1d5e62",
+      "mcq-614440aa6ac525d6d42ed6f2"
+    ]
+  },
+  {
+    "id": "ch98-amiodarone-mechanism",
+    "chapter": "98",
+    "front": "Amiodarone-associated thyrotoxicosis is clear but its mechanism is uncertain. What are the roles of methimazole, glucocorticoids and a beta blocker?",
+    "back": "Methimazole treats overproduction, corticosteroids treat destructive thyroiditis and both may be started if uncertain. A beta blocker controls adrenergic symptoms. Hazzard 8e, pp. 1547–1548 and 1550.",
+    "page": 1547,
+    "anchor": "exam-p1547-mcq-614440aa6ac525d6d42ed6f2",
+    "questionIds": [
+      "mcq-614440aa6ac525d6d42ed6f2"
+    ]
+  },
+  {
+    "id": "ch98-amiodarone-diagnose",
+    "chapter": "98",
+    "front": "A patient develops cold intolerance, constipation and weight gain after starting amiodarone. Which test comes first?",
+    "back": "Measure TSH and use free T4 to classify an abnormal result. Amiodarone can impair thyroid hormone secretion, especially with underlying Hashimoto disease. TBG or thyroid imaging cannot establish functional status. Hazzard 8e, pp. 1547–1548.",
+    "page": 1547,
+    "anchor": "exam-p1547-mcq-9bddccff96cb66a3829e208c",
+    "questionIds": [
+      "mcq-9bddccff96cb66a3829e208c"
+    ]
+  },
+  {
+    "id": "ch98-tsh-suppressing-drugs",
+    "chapter": "98",
+    "front": "Which directly lowers pituitary TSH: prednisone, lithium, sertraline or tamoxifen?",
+    "back": "High-dose prednisone can suppress TSH. Lithium alters thyroid hormone release, sertraline increases hormone metabolism and tamoxifen raises TBG. The exam accepted lithium too. Hazzard 8e, p. 1547, Table 98-1.",
+    "page": 1547,
+    "anchor": "exam-p1547-mcq-cb89f90016ad0e9c97dcff99",
+    "questionIds": [
+      "mcq-cb89f90016ad0e9c97dcff99"
+    ]
+  },
+  {
+    "id": "ch98-healthy-aging",
+    "chapter": "98",
+    "front": "An asymptomatic 82-year-old has TSH 6.1 mIU/L, normal free T4 and negative TPO antibodies. Which feature supports a physiologic shift?",
+    "back": "TSH can rise with age while free T4 remains stable. Reduced clearance offsets reduced production. The reported upper limit reaches about 7.5 mIU/L in people aged at least 80 without thyroid disease. Hazzard 8e, pp. 1546 and 1554.",
+    "page": 1546,
+    "anchor": "exam-p1546-mcq-7400870fc10d03a49c2e9070",
+    "questionIds": [
+      "mcq-af57ecd77b2b3894df010e23",
+      "mcq-7400870fc10d03a49c2e9070"
+    ]
+  },
+  {
+    "id": "ch98-apathetic-hyperthyroidism",
+    "chapter": "98",
+    "front": "In the age-group comparison of hyperthyroidism, did confusion, diarrhea or sweating become more frequent in the older group?",
+    "back": "Confusion occurred in 16% versus 0%. Diarrhea and sweating were less common in older patients, while tachycardia remained frequent. Hazzard 8e, p. 1549, Table 98-3.",
+    "page": 1549,
+    "anchor": "exam-p1549-mcq-7f4a3ed0b5c9a81e1780006a",
+    "questionIds": [
+      "mcq-7f4a3ed0b5c9a81e1780006a"
+    ]
+  },
+  {
+    "id": "ch98-levothyroxine-target",
+    "chapter": "98",
+    "front": "An 82-year-old with heart disease has TSH 40 and low free T4. What distinguishes replacement from overreplacement?",
+    "back": "Start low and titrate levothyroxine gradually. A TSH of 4–6 mU/L may be appropriate over age 80. Allow about six weeks, sometimes seven to eight, to assess the dose. Suppression increases atrial fibrillation and bone loss. Hazzard 8e, p. 1552.",
+    "page": 1552,
+    "anchor": "exam-p1552-mcq-a9564119e3f03b2dcc342926",
+    "questionIds": [
+      "mcq-a9564119e3f03b2dcc342926"
+    ]
+  },
+  {
+    "id": "ch98-lt4-interactions",
+    "chapter": "98",
+    "front": "Calcium carbonate, iron, esomeprazole and carbamazepine can raise the levothyroxine dose requirement. Which works through increased metabolism?",
+    "back": "Carbamazepine. Iron and calcium bind oral levothyroxine in the gut. Esomeprazole can reduce absorption by suppressing gastric acid. The exam accepted all four choices despite asking specifically about absorption. Hazzard 8e, p. 1553, Table 98-7.",
+    "page": 1553,
+    "anchor": "exam-p1553-mcq-73208d3bcb5312abed0b44aa",
+    "questionIds": [
+      "mcq-73208d3bcb5312abed0b44aa"
+    ]
+  },
+  {
+    "id": "ch98-nodule-risk",
+    "chapter": "98",
+    "front": "What makes the ultrasound appearance of a thyroid nodule concerning even if it is an incidental finding?",
+    "back": "Intranodular microcalcifications, irregular margins, hypoechogenicity or a taller-than-wide shape increase suspicion. Palpability and the presence of multiple lesions do not independently raise risk. Hazzard 8e, p. 1555.",
+    "page": 1555,
+    "anchor": "exam-p1555-mcq-6593d3a8fd894eded1a95488",
+    "questionIds": [
+      "mcq-6593d3a8fd894eded1a95488",
+      "mcq-453eb1451ecfa285a10933de"
+    ]
+  },
+  {
+    "id": "ch98-nodule-fna",
+    "chapter": "98",
+    "front": "Which needs aspiration: a 2-cm solid nodule with microcalcifications, a pure cyst, or a functioning hot nodule?",
+    "back": "The solid suspicious nodule meets criteria for ultrasound-guided FNA. Simple cysts and functioning hot nodules ordinarily do not need diagnostic cytology. Assess each lesion in a multinodular gland on its own features. Hazzard 8e, p. 1555, Table 98-8.",
+    "page": 1555,
+    "anchor": "ch98-fna-pattern",
+    "questionIds": [
+      "mcq-453eb1451ecfa285a10933de"
+    ]
+  },
+  {
+    "id": "ch51-lumbar-dxa",
+    "chapter": "51",
+    "front": "A 75-year-old has an L2–L4 T-score of −3.5. Which weekly oral regimen provides fracture prevention?",
+    "back": "Alendronate 70 mg once weekly is an appropriate osteoporosis regimen if renal function and oral administration permit. Calcium and vitamin D address nutritional requirements. Hazzard 8e, Table 51-5, p. 774.",
+    "page": 774,
+    "anchor": "exam-p774-mcq-3bde7ff46a9992e97fc59c24",
+    "questionIds": [
+      "mcq-d445375f0e6d51ddd11cf38f"
+    ]
+  },
+  {
+    "id": "ch51-alendronate-holiday",
+    "chapter": "51",
+    "front": "Seven years of alendronate, no fracture and a femoral-neck T-score of −2.22. When could treatment be paused?",
+    "back": "Consider a monitored bisphosphonate holiday if overall fracture risk is now low or moderate. Reassess falls, age, new fractures and interval density. High ongoing risk may favor continuing. Hazzard 8e, p. 777.",
+    "page": 777,
+    "anchor": "ch51-bisphosphonate-holiday",
+    "questionIds": [
+      "mcq-4f755479112a3e00ce0716a7"
+    ]
+  },
+  {
+    "id": "ch51-vertebral-history",
+    "chapter": "51",
+    "front": "Which historical finding strongly predicts another vertebral fracture in either sex?",
+    "back": "A prior vertebral fragility fracture predicts subsequent fractures even when a current DXA is above the osteoporosis threshold. This is related teaching for the Harrison question. Hazzard 8e, p. 769.",
+    "page": 769,
+    "anchor": "ch51-prior-fracture",
+    "questionIds": [
+      "mcq-f61f4503b91e103bbd6d96d0"
+    ],
+    "sourceLabel": "Related Hazzard teaching · p. 769"
+  },
+  {
+    "id": "ch51-denosumab-jaw",
+    "chapter": "51",
+    "front": "After an extraction, exposed jaw bone has failed to heal for eight weeks in a denosumab user. Which rare complication is suspected?",
+    "back": "Medication-related osteonecrosis of the jaw. An invasive dental procedure increases suspicion. This is related teaching for the Harrison question. Hazzard 8e, p. 777.",
+    "page": 777,
+    "anchor": "ch51-jaw-osteonecrosis",
+    "questionIds": [
+      "mcq-54dfe84830860d7279d79548"
+    ],
+    "sourceLabel": "Related Hazzard teaching · p. 777"
+  },
+  {
+    "id": "ch51-vertebral-secondary-prevention",
+    "chapter": "51",
+    "front": "A fall from standing height causes an L2 fracture in an 84-year-old with a prior T-score of −1.5. What changes in management?",
+    "back": "Add fracture-prevention medication such as a bisphosphonate. A vertebral fragility fracture supports treatment regardless of the earlier DXA. Continue appropriate nutrition and falls prevention. Hazzard 8e, pp. 768, 773–775.",
+    "page": 774,
+    "anchor": "exam-p774-mcq-3bde7ff46a9992e97fc59c24",
+    "questionIds": [
+      "mcq-3bde7ff46a9992e97fc59c24"
+    ]
+  },
+  {
+    "id": "ch51-teriparatide-duration",
+    "chapter": "51",
+    "front": "Why did the traditional teriparatide course stop at two years, and what does current US labeling allow?",
+    "back": "An animal osteosarcoma signal led to the historical limit. US labeling allows consideration beyond two years only when fracture risk remains high or has returned to high. Follow with an antiresorptive to maintain gains. Hazzard 8e, p. 776, and FDA Forteo §§2.3, 5.2.",
+    "page": 776,
+    "anchor": "exam-p776-mcq-8d483913bdc5a9afe5b428bb",
+    "questionIds": [
+      "mcq-8d483913bdc5a9afe5b428bb"
+    ]
+  },
+  {
+    "id": "ch51-secondary-thyroid",
+    "chapter": "51",
+    "front": "A vertebral fracture prompts investigation for secondary osteoporosis. What endocrine disorder pairs with TSH and thyroxine testing?",
+    "back": "Hyperthyroidism accelerates bone turnover. Reversible secondary causes warrant evaluation in women and men with skeletal fragility. Hazzard 8e, Table 51-3, p. 769.",
+    "page": 769,
+    "anchor": "exam-p769-mcq-4b4661426332a286351b76b3",
+    "questionIds": [
+      "mcq-4b4661426332a286351b76b3"
+    ]
+  },
+  {
+    "id": "ch51-prednisone-bone",
+    "chapter": "51",
+    "front": "Does 5 mg/day of prednisone for eight months exclude the need for bone-protective therapy?",
+    "back": "No. Assess fracture risk and determine whether drug treatment is indicated. Chronic glucocorticoids impair formation and increase resorption. The ACR assessment threshold is ≥2.5 mg/day for longer than three months. Hazzard 8e, p. 769.",
+    "page": 769,
+    "anchor": "exam-p769-mcq-0dd3353be9d7e981544cb1cf",
+    "questionIds": [
+      "mcq-0dd3353be9d7e981544cb1cf"
+    ]
+  },
+  {
+    "id": "ch51-prednisone-fever",
+    "chapter": "51",
+    "front": "What should a patient taking long-term low-dose prednisone know about a significant febrile illness?",
+    "back": "An inadequate endogenous cortisol response may require a temporary increase according to a sick-day plan. Inability to retain tablets or hemodynamic instability warrants urgent parenteral coverage. Hazzard 8e, Chapter 97, p. 1532.",
+    "page": 1532,
+    "anchor": "exam-p1532-mcq-0dd3353be9d7e981544cb1cf",
+    "questionIds": [
+      "mcq-0dd3353be9d7e981544cb1cf"
+    ],
+    "readChapter": "97"
+  },
+  {
+    "id": "ch51-missed-injections",
+    "chapter": "51",
+    "front": "Two scheduled osteoporosis injections were missed. Several new vertebral compression fractures followed. Which drug fits?",
+    "back": "Denosumab. It is given every six months and is not retained in bone. Interruption can produce rapid loss of BMD and multiple vertebral fractures. Plan antiresorptive cover before stopping. Hazzard 8e, pp. 774, 776.",
+    "page": 776,
+    "anchor": "exam-p776-mcq-b9e9379a1932f5609365e505",
+    "questionIds": [
+      "mcq-b9e9379a1932f5609365e505"
+    ]
+  },
+  {
+    "id": "ch51-atypical-femur",
+    "chapter": "51",
+    "front": "A patient taking alendronate for seven years develops atraumatic thigh pain. Which uncommon injury warrants imaging?",
+    "back": "An incomplete atypical femoral fracture in the subtrochanteric region or shaft. Obtain femur radiographs and investigate further if symptoms persist despite nondiagnostic films. Hazzard 8e, pp. 776–777.",
+    "page": 776,
+    "anchor": "exam-p776-mcq-50371b2acb85b22aca082547",
+    "questionIds": [
+      "mcq-50371b2acb85b22aca082547"
+    ]
+  },
+  {
+    "id": "ch53-neck-and-replacement",
+    "chapter": "53",
+    "front": "After a fragility fracture, the film shows a prosthetic head and femoral stem. Which fracture and vascular injury explain that choice?",
+    "back": "A displaced intracapsular femoral-neck fracture can interrupt retinacular vessels, leading to nonunion or osteonecrosis. A previously ambulatory patient can benefit from replacement even if they used a walker. Hazzard 8e, pp. 794–795.",
+    "page": 794,
+    "anchor": "exam-p794-mcq-78b3359272a717f584c23b2c",
+    "questionIds": [
+      "mcq-85ecd5f34b95bd4208559b25",
+      "mcq-78b3359272a717f584c23b2c",
+      "mcq-03f2d251e63e4dd9a8c4925b"
+    ]
+  },
+  {
+    "id": "ch53-nail-or-sliding-screw",
+    "chapter": "53",
+    "front": "A short nail carries a screw into the native femoral head. Which fracture is most likely? What if the line lies below the lesser trochanter?",
+    "back": "The short cephalomedullary construct in the exam suggests an intertrochanteric fracture. A displaced subtrochanteric fracture generally needs a nail that spans the unstable fragments. Hazzard 8e, p. 794, and Bhandari and Swiontkowski, pp. 2054–2056, 2060.",
+    "page": 794,
+    "anchor": "exam-p794-mcq-d59bcda0cc381a35cc3134db",
+    "questionIds": [
+      "mcq-75d3bab7b0cbdfbc7293b06a",
+      "mcq-d59bcda0cc381a35cc3134db"
+    ]
+  },
+  {
+    "id": "ch53-total-or-hemi",
+    "chapter": "53",
+    "front": "What does adding an acetabular component achieve in an independently walking patient with a displaced neck fracture?",
+    "back": "Total replacement can give somewhat better hip function than hemiarthroplasty. In HEALTH, the average functional difference over two years was clinically small. Dislocation is a trade-off. Bhandari and Swiontkowski, p. 2059, and HEALTH, NEJM 2019.",
+    "page": 2059,
+    "anchor": "ch53-article-implant",
+    "questionIds": [
+      "mcq-5b3939c33f45491551d8ea87"
+    ],
+    "sourceLabel": "Management of Acute Hip Fracture, p. 2059"
+  },
+  {
+    "id": "ch53-time-to-repair",
+    "chapter": "53",
+    "front": "What outcome was associated with surgery within 24 hours of admission, and why can the comparison be confounded?",
+    "back": "Lower mortality in observational studies. A patient who needs more medical stabilization may wait longer and already have a higher risk of death. The review recommended surgery within 48 hours when feasible. Management of Acute Hip Fracture, p. 2057.",
+    "page": 2057,
+    "anchor": "ch53-article-timing",
+    "questionIds": [
+      "mcq-85ecd5f34b95bd4208559b25",
+      "mcq-5b0c5d8693a2a6b69ff477c9"
+    ],
+    "sourceLabel": "Management of Acute Hip Fracture, p. 2057"
+  },
+  {
+    "id": "ch53-orthogeriatrics",
+    "chapter": "53",
+    "front": "Which outcomes improved in pooled studies of shared orthogeriatric care?",
+    "back": "Lower in-hospital mortality, lower longer-term mortality and shorter stays. A separate randomized ward trial improved four-month mobility without a reduction in in-hospital delirium. Hazzard 8e, pp. 796–797.",
+    "page": 796,
+    "anchor": "ch53-orthogeriatrics",
+    "questionIds": [
+      "mcq-863c990591ff2eedbfe5e922"
+    ]
+  },
+  {
+    "id": "ch53-prognosis",
+    "chapter": "53",
+    "front": "An older man asks about survival and walking one year after hip fracture. What estimates apply?",
+    "back": "The chapter estimates first-year mortality at about 36% in men and 18% in women. Up to half of previously independent adults may still use a walking aid at a year. Hazzard 8e, pp. 793, 801.",
+    "page": 793,
+    "anchor": "ch53-prognosis",
+    "questionIds": [
+      "mcq-aef3c629ece2ab30b9a741de"
+    ]
+  },
+  {
+    "id": "ch53-mood-and-function",
+    "chapter": "53",
+    "front": "How do mood, balance and lower-body activities recover at different rates?",
+    "back": "Mood and cognition reach their best observed level around four months, gait and balance around nine, and complex lower-body tasks near a year. Depressive symptoms can persist during the first six months and accompany slower functional recovery. Hazzard 8e, pp. 799–800, Figure 53-5.",
+    "page": 800,
+    "anchor": "exam-p800-mcq-72e468cf141dda15964157c9",
+    "questionIds": [
+      "mcq-6c76daed1c0fae0916954643",
+      "mcq-72e468cf141dda15964157c9"
+    ]
+  },
+  {
+    "id": "ch53-vte-duration",
+    "chapter": "53",
+    "front": "A patient begins walking short distances in rehabilitation after hip-fracture repair. When does the preventive anticoagulant course usually end?",
+    "back": "The chapter gives 21–31 days from surgery. Assisted walking and discharge from acute care can both occur well before that interval ends. Reassess bleeding risk. Hazzard 8e, p. 801.",
+    "page": 801,
+    "anchor": "exam-p801-mcq-a6c338a57828b765465f7cbf",
+    "questionIds": [
+      "mcq-a6c338a57828b765465f7cbf"
+    ]
+  },
+  {
+    "id": "ch53-anesthetic-choice",
+    "chapter": "53",
+    "front": "An older adult taking apixaban needs hip surgery. Does choosing spinal anesthesia confer a survival advantage?",
+    "back": "No mortality advantage has been demonstrated. Apixaban dose and timing guide the safety of neuraxial puncture. Surgical bleeding risk still matters with general anesthesia. The examination accepted all choices. Hazzard 8e, p. 797 and ASRA 5th edition, apixaban guidance.",
+    "page": 797,
+    "anchor": "exam-p797-mcq-10163f2b99f5abe875d7d917",
+    "questionIds": [
+      "mcq-10163f2b99f5abe875d7d917"
+    ]
   }
 ]
