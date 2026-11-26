@@ -356,7 +356,13 @@ proportion of older patients with lower GI bleeding. On the basis of a high diag
 
 Other diagnostic tests in patients with active lower GI bleeding include scintigraphy (nuclear tagged red blood cell scans), CT angiography, and conventional angiography. Approximately 45% of patients with lower GI bleeding have positive red blood cell scintigraphy. Tagged red blood cell scans can detect bleeding at a rate greater than 0.1 mL/min and are useful to localize the site of bleeding, but unfortunately offer no option for therapy. If a patient has a positive bleeding scan or CT angiography, traditional angiography with selective embolization can be performed to attempt to stop the bleeding. In order to detect active bleeding, angiography requires a higher rate of bleeding than scintigraphy, 0.5 mL/min compared to 0.1 mL/min. Transcatheter embolization of a lower GI bleeding source is effective in 70% to 90% of patients. If bleeding cannot be stopped with angiography, surgery to remove the bleeding colonic segment may be necessary. If a specific bleeding site can be localized with the above studies, a limited surgical resection can be performed rather than a subtotal colectomy.
 
-Vascular ectasias Vascular ectasias, which arise from an age-related degeneration of previously normal blood vessels, typically occur in the cecum and proximal ascending colon. Along with diverticular bleeding, they are responsible for the majority of significant lower GI bleeding
+Vascular ectasias Vascular ectasias, which arise from an age-related degeneration of previously normal blood vessels, typically occur in the cecum and proximal ascending colon. Along with diverticular bleeding, they are responsible for the majority of significant lower GI bleeding episodes in older adults. Ectasias are found in up to 25% of persons older than 60 years who do not have symptoms; they typically are multiple and less than 5 mm in diameter. Vascular ectasias probably arise as a result of repeated episodes of incomplete, low-grade obstruction of submucosal veins caused by increased tension in the colonic wall. The ultimate result is tortuosity and dilation of the venules and the arteriolar–capillary unit that feeds it, resulting in a small arteriovenous communication (Figure 84-5).
+
+Lower GI bleeding caused by a vascular ectasia may be clinically indistinguishable from diverticular bleeding and is characterized by painless hematochezia. Bleeding from vascular ectasias may be hemodynamically significant, and a variety of treatment options exists including electrocoagulation, injection therapy, heater probe application, or argon plasma coagulation.
+
+## ACKNOWLEDGMENT
+
+Many thanks to Richard Saad, MD, for his review and very helpful comments and to David A. Greenwald, MD, for his contributions to the chapter Common Large Intestinal Disorders in earlier editions of this book. Material from that chapter, including tables and figures, has been incorporated into this one.
 
 ## FURTHER READING
 
@@ -377,14 +383,6 @@ analysis: inflammatory bowel disease in the elderly. Aliment Pharmacol Ther. 201
 in the elderly. Gastroenterol Clin. 2001;30(2):445–473. Hall KE, Proctor DD, Fisher L, Rose S. AGA future trends
 
 committee report: effects of aging of the population on gastroenterology practice, education and research. Gastroenterology. 2005;129:1305–1338.
-
-episodes in older adults. Ectasias are found in up to 25% of persons older than 60 years who do not have symptoms; they typically are multiple and less than 5 mm in diameter. Vascular ectasias probably arise as a result of repeated episodes of incomplete, low-grade obstruction of submucosal veins caused by increased tension in the colonic wall. The ultimate result is tortuosity and dilation of the venules and the arteriolar–capillary unit that feeds it, resulting in a small arteriovenous communication (Figure 84-5).
-
-Lower GI bleeding caused by a vascular ectasia may be clinically indistinguishable from diverticular bleeding and is characterized by painless hematochezia. Bleeding from vascular ectasias may be hemodynamically significant, and a variety of treatment options exists including electrocoagulation, injection therapy, heater probe application, or argon plasma coagulation.
-
-## ACKNOWLEDGMENT
-
-Many thanks to Richard Saad, MD, for his review and very helpful comments and to David A. Greenwald, MD, for his contributions to the chapter Common Large Intestinal Disorders in earlier editions of this book. Material from that chapter, including tables and figures, has been incorporated into this one.
 
 Jafri SM, Monkemuller K, Lukens FJ. Endoscopy in the
 

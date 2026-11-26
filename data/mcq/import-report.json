@@ -8009,77 +8009,77 @@
     "42": {
       "title": "Frailty",
       "past": 16,
-      "practice": 12
+      "practice": 21
     },
     "43": {
       "title": "Falls",
-      "past": 18,
-      "practice": 59
+      "past": 19,
+      "practice": 52
     },
     "44": {
       "title": "Sleep Disorders",
       "past": 10,
-      "practice": 17
+      "practice": 38
     },
     "45": {
       "title": "Syncope and Dizziness",
       "past": 3,
-      "practice": 11
+      "practice": 23
     },
     "46": {
       "title": "Pressure Injuries",
       "past": 26,
-      "practice": 26
+      "practice": 35
     },
     "47": {
       "title": "Incontinence",
       "past": 15,
-      "practice": 64
+      "practice": 68
     },
     "51": {
       "title": "Osteoporosis",
       "past": 16,
-      "practice": 22
+      "practice": 24
     },
     "52": {
       "title": "Osteoarthritis",
       "past": 15,
-      "practice": 12
+      "practice": 18
     },
     "55": {
       "title": "Rehabilitation",
       "past": 30,
-      "practice": 38
+      "practice": 47
     },
     "57": {
       "title": "Cognitive Changes in Normal and Pathologic Aging",
-      "past": 0,
-      "practice": 0
+      "past": 1,
+      "practice": 11
     },
     "58": {
       "title": "Delirium",
       "past": 32,
-      "practice": 84
+      "practice": 91
     },
     "59": {
       "title": "Dementia Including Alzheimer Disease",
-      "past": 67,
-      "practice": 22
+      "past": 68,
+      "practice": 29
     },
     "60": {
       "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
       "past": 5,
-      "practice": 15
+      "practice": 22
     },
     "61": {
       "title": "Parkinson Disease and Related Disorders",
-      "past": 46,
-      "practice": 52
+      "past": 45,
+      "practice": 40
     },
     "63": {
       "title": "Other Neurodegenerative Disorders",
       "past": 0,
-      "practice": 0
+      "practice": 21
     },
     "65": {
       "title": "Major Depression",
@@ -8089,91 +8089,376 @@
     "68": {
       "title": "Pain Management",
       "past": 21,
-      "practice": 48
+      "practice": 49
     },
     "75": {
       "title": "Valvular Heart Disease",
       "past": 8,
-      "practice": 1
+      "practice": 2
     },
     "76": {
       "title": "Heart Failure",
       "past": 19,
-      "practice": 24
+      "practice": 39
     },
     "77": {
       "title": "Cardiac Arrhythmias",
-      "past": 12,
-      "practice": 32
+      "past": 11,
+      "practice": 33
     },
     "81": {
       "title": "Chronic Obstructive Pulmonary Disease",
-      "past": 15,
-      "practice": 16
+      "past": 14,
+      "practice": 18
     },
     "83": {
       "title": "Kidney Diseases",
-      "past": 20,
-      "practice": 11
+      "past": 19,
+      "practice": 14
     },
     "87": {
       "title": "Constipation",
       "past": 12,
-      "practice": 48
+      "practice": 56
     },
     "88": {
       "title": "Cancer and Aging: General Principles",
       "past": 12,
-      "practice": 34
+      "practice": 40
     },
     "97": {
       "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
-      "past": 0,
-      "practice": 0
+      "past": 1,
+      "practice": 8
     },
     "98": {
       "title": "Thyroid Diseases",
       "past": 0,
-      "practice": 0
+      "practice": 6
     },
     "99": {
       "title": "Diabetes Mellitus",
-      "past": 0,
-      "practice": 0,
+      "past": 6,
+      "practice": 44,
       "topicFallback": 22
     },
     "101": {
       "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
-      "past": 0,
-      "practice": 0
+      "past": 1,
+      "practice": 4
     },
     "102": {
       "title": "Back Pain and Spinal Stenosis",
       "past": 0,
-      "practice": 0
+      "practice": 7
     },
     "104": {
       "title": "Infection and Appropriate Antimicrobial Selection",
-      "past": 0,
-      "practice": 0,
+      "past": 2,
+      "practice": 10,
       "topicFallback": 27
     },
     "105": {
       "title": "Bacterial Pneumonia and Tuberculosis",
       "past": 0,
-      "practice": 0,
+      "practice": 7,
       "topicFallback": 27
     },
     "108": {
       "title": "Influenza, COVID-19, and Other Respiratory Viruses",
-      "past": 0,
-      "practice": 0,
+      "past": 1,
+      "practice": 4,
       "topicFallback": 27
     },
     "law": {
       "title": "Israeli law",
       "past": 71,
       "practice": 219
+    },
+    "86": {
+      "title": "Hepatic, Pancreatic, and Biliary Diseases",
+      "past": 2,
+      "practice": 0
+    },
+    "91": {
+      "title": "Lung Cancer",
+      "past": 0,
+      "practice": 0
+    },
+    "66": {
+      "title": "General Topics in Geriatric Psychiatry",
+      "past": 1,
+      "practice": 0
+    },
+    "48": {
+      "title": "Elder Mistreatment",
+      "past": 0,
+      "practice": 0
+    },
+    "10": {
+      "title": "Assessment of Decisional Capacity and Competencies",
+      "past": 0,
+      "practice": 0
+    },
+    "7": {
+      "title": "Decision Making and Advance Care Planning: What Matters Most",
+      "past": 0,
+      "practice": 0
+    },
+    "23": {
+      "title": "Substance Use and Disorders",
+      "past": 0,
+      "practice": 0
+    },
+    "36": {
+      "title": "Gynecologic Disorders",
+      "past": 0,
+      "practice": 1
+    },
+    "26": {
+      "title": "Legal Issues",
+      "past": 0,
+      "practice": 0
+    },
+    "28": {
+      "title": "Anesthesia",
+      "past": 0,
+      "practice": 9
+    },
+    "29": {
+      "title": "Surgical Quality and Outcomes",
+      "past": 0,
+      "practice": 0
+    },
+    "32": {
+      "title": "Oral Health",
+      "past": 0,
+      "practice": 0
+    },
+    "33": {
+      "title": "Low Vision: Assessment and Rehabilitation",
+      "past": 0,
+      "practice": 1
+    },
+    "35": {
+      "title": "Sexuality, Sexual Function, and the Aging Woman",
+      "past": 0,
+      "practice": 4
+    },
+    "37": {
+      "title": "Sexuality, Sexual Function, and the Aging Man",
+      "past": 0,
+      "practice": 0
+    },
+    "54": {
+      "title": "Therapeutic Exercise",
+      "past": 0,
+      "practice": 0
+    },
+    "41": {
+      "title": "Managing the Care of Patients with Multiple Chronic Conditions",
+      "past": 0,
+      "practice": 0
+    },
+    "71": {
+      "title": "Effective Communication Strategies For Patients with Serious Illness",
+      "past": 0,
+      "practice": 0
+    },
+    "56": {
+      "title": "The Aging Brain",
+      "past": 0,
+      "practice": 0
+    },
+    "1": {
+      "title": "Biology of Aging and Longevity",
+      "past": 15,
+      "practice": 14
+    },
+    "40": {
+      "title": "Applied Clinical Geroscience",
+      "past": 0,
+      "practice": 0
+    },
+    "18": {
+      "title": "Transitions of Care",
+      "past": 0,
+      "practice": 0
+    },
+    "25": {
+      "title": "Patient-Centered Management of Chronic Diseases",
+      "past": 0,
+      "practice": 0
+    },
+    "17": {
+      "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care",
+      "past": 16,
+      "practice": 23
+    },
+    "14": {
+      "title": "Models of Hospital and Outpatient Care",
+      "past": 0,
+      "practice": 0
+    },
+    "12": {
+      "title": "Age-Friendly Care",
+      "past": 0,
+      "practice": 0
+    },
+    "24": {
+      "title": "Integrative Medicine and Health",
+      "past": 0,
+      "practice": 0
+    },
+    "19": {
+      "title": "Value-Based Care",
+      "past": 0,
+      "practice": 0
+    },
+    "20": {
+      "title": "The Role of Social Workers",
+      "past": 0,
+      "practice": 0
+    },
+    "21": {
+      "title": "The Patient Perspective",
+      "past": 0,
+      "practice": 0
+    },
+    "13": {
+      "title": "Geriatrics Around the World",
+      "past": 0,
+      "practice": 0
+    },
+    "2": {
+      "title": "Demography and Epidemiology",
+      "past": 0,
+      "practice": 9
+    },
+    "3": {
+      "title": "Immunology and Inflammation",
+      "past": 31,
+      "practice": 3
+    },
+    "4": {
+      "title": "Psychosocial Aspects of Aging",
+      "past": 0,
+      "practice": 1
+    },
+    "5": {
+      "title": "Sex Differences in Health and Longevity",
+      "past": 0,
+      "practice": 8
+    },
+    "6": {
+      "title": "Social Determinants of Health, Health Disparities, and Health Equity",
+      "past": 0,
+      "practice": 0
+    },
+    "15": {
+      "title": "Emergency Department Care",
+      "past": 4,
+      "practice": 8
+    },
+    "27": {
+      "title": "Perioperative Care: Evaluation and Management",
+      "past": 17,
+      "practice": 24
+    },
+    "49": {
+      "title": "Muscle Aging and Sarcopenia",
+      "past": 0,
+      "practice": 4
+    },
+    "53": {
+      "title": "Hip Fractures",
+      "past": 13,
+      "practice": 20
+    },
+    "67": {
+      "title": "Palliative Care and Special Management Issues",
+      "past": 15,
+      "practice": 36
+    },
+    "73": {
+      "title": "The Aging Cardiovascular System",
+      "past": 3,
+      "practice": 6
+    },
+    "82": {
+      "title": "Aging of the Kidney",
+      "past": 1,
+      "practice": 14
+    },
+    "92": {
+      "title": "Gastrointestinal Malignancies",
+      "past": 0,
+      "practice": 12
+    },
+    "95": {
+      "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders",
+      "past": 0,
+      "practice": 8
+    },
+    "106": {
+      "title": "Urinary Tract Infections",
+      "past": 0,
+      "practice": 25
+    },
+    "8": {
+      "title": "Principles of Geriatric Assessment",
+      "past": 5,
+      "practice": 26
+    },
+    "22": {
+      "title": "Medication Prescribing and De-Prescribing",
+      "past": 39,
+      "practice": 85
+    },
+    "62": {
+      "title": "Cerebrovascular Disease",
+      "past": 19,
+      "practice": 7
+    },
+    "70": {
+      "title": "Palliative Care Across Care Settings",
+      "past": 0,
+      "practice": 3
+    },
+    "79": {
+      "title": "Hypertension",
+      "past": 5,
+      "practice": 17
+    },
+    "11": {
+      "title": "Prevention and Screening",
+      "past": 7,
+      "practice": 21
+    },
+    "30": {
+      "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation",
+      "past": 4,
+      "practice": 34
+    },
+    "38": {
+      "title": "Benign Prostate Disorders",
+      "past": 7,
+      "practice": 22
+    },
+    "72": {
+      "title": "Ethical Issues",
+      "past": 9,
+      "practice": 14
+    },
+    "39": {
+      "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis",
+      "past": 4,
+      "practice": 28
+    },
+    "80": {
+      "title": "Respiratory System and Selected Pulmonary Disorders",
+      "past": 6,
+      "practice": 6
     }
   },
   "sources": {

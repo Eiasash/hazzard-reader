@@ -5,7 +5,7 @@ body:has(#reader:not([hidden])) #chapterHeaderTitle[data-sections]:not(:disabled
   color: var(--accent);
   font: 700 calc(12px * var(--fs, 1))/1.25 var(--ui);
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   /* The four icon controls already have 44px tap targets. Let their grid
      tracks fit those controls so the label still fits at the largest size. */
   body:has(#reader:not([hidden])) #chapterHeader:has(#chapterHeaderTitle[data-sections]):has(.study-view-tabs:not([hidden])) {

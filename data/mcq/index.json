@@ -46,7 +46,7 @@
   },
   "57": {
     "title": "Cognitive Changes in Normal and Pathologic Aging",
-    "past": 0,
+    "past": 1,
     "practice": 11
   },
   "58": {
@@ -121,7 +121,7 @@
   },
   "97": {
     "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
-    "past": 0,
+    "past": 1,
     "practice": 8
   },
   "98": {
@@ -131,13 +131,13 @@
   },
   "99": {
     "title": "Diabetes Mellitus",
-    "past": 5,
+    "past": 6,
     "practice": 44,
     "topicFallback": 22
   },
   "101": {
     "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
-    "past": 0,
+    "past": 1,
     "practice": 4
   },
   "102": {
@@ -159,7 +159,7 @@
   },
   "108": {
     "title": "Influenza, COVID-19, and Other Respiratory Viruses",
-    "past": 0,
+    "past": 1,
     "practice": 4,
     "topicFallback": 27
   },
@@ -265,7 +265,7 @@
   },
   "1": {
     "title": "Biology of Aging and Longevity",
-    "past": 34,
+    "past": 15,
     "practice": 14
   },
   "40": {
@@ -375,12 +375,12 @@
   },
   "73": {
     "title": "The Aging Cardiovascular System",
-    "past": 0,
+    "past": 3,
     "practice": 6
   },
   "82": {
     "title": "Aging of the Kidney",
-    "past": 0,
+    "past": 1,
     "practice": 14
   },
   "92": {
@@ -442,5 +442,15 @@
     "title": "Ethical Issues",
     "past": 9,
     "practice": 14
+  },
+  "39": {
+    "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis",
+    "past": 4,
+    "practice": 28
+  },
+  "80": {
+    "title": "Respiratory System and Selected Pulmonary Disorders",
+    "past": 6,
+    "practice": 6
   }
 }

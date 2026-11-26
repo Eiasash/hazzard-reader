@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v322",
+      "date": "2026-11-26",
+      "changes": [
+        "Restored the printed reading order above Further Reading in 38 chapters, corrected Study references and protected Hebrew legal labels during answer shuffling.",
+        "Tap or drag in pen mode to mark immediately. Colour, Number points and Undo are on the pen bar. Study updates include Recall grading, due flashcards, official-first review and PC shortcuts."
+      ]
+    },
+    {
       "version": "v321",
       "date": "2026-11-26",
       "changes": [

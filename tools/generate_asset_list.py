@@ -9,6 +9,8 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 from generate_question_data import generate
 question_files = generate()
+from build_drug_index import build as build_drug_index
+build_drug_index()
 # CACHE_VERSION is the release source; refresh page/cloud labels before hashing.
 version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text(encoding='utf-8')).group(1)
 for name, pattern, replacement in [
@@ -86,7 +88,6 @@ for chapter in [*mcq_index, 'all']:
         paths.add(path)
     for question in json.loads((ROOT / path).read_text(encoding='utf-8')):
         paths.update(question['images'])
-recall_section = re.compile(r'^#{1,6}\s+Recall[^\n]*\n[\s\S]*?(?=^#{1,6}\s|\Z)', re.MULTILINE)
 self_graded_question = re.compile(
     r'^\*\*\d+\.\s+[\s\S]+?\*\*[ \t]*\n+[ \t]*<details><summary>[^<]*</summary>[\s\S]*?</details>',
     re.MULTILINE,
@@ -96,7 +97,7 @@ for chapter in manifest['chapters']:
     paths.add(path)
     text = (ROOT / path).read_text(encoding='utf-8')
     if chapter['kind'] == 'study':
-        count = len(self_graded_question.findall(recall_section.sub('', text)))
+        count = len(self_graded_question.findall(text))
         if count:
             chapter['drillCount'] = count
         else:

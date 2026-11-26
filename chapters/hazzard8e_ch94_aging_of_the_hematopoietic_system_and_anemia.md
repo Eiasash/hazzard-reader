@@ -174,7 +174,7 @@ Clearly, there are biological features and properties that distinguish young and
 
 <a id="p1481"></a>**[p. 1481]**
 
-of diseases, especially the increased risk of immunologic, hematologic, myelodysplastic, and HSC-proliferative disorders that so frequently accompany aging. Furthermore, aging affects not only the cellular or the HSC compartment, but also the bone marrow microenvironment. With improved understanding of the fundamental molecular
+of diseases, especially the increased risk of immunologic, hematologic, myelodysplastic, and HSC-proliferative disorders that so frequently accompany aging. Furthermore, aging affects not only the cellular or the HSC compartment, but also the bone marrow microenvironment. With improved understanding of the fundamental molecular events contributing to these pathogenic changes, there have been prospects to develop mechanism-based therapeutic interventions to preserve and maintain normal hematopoiesis. This may provide opportunities to prevent these diseases and further identify, in a more rational manner, novel therapeutic approaches in treating these disorders in older adults.
 
 ## FURTHER READING
 
@@ -189,8 +189,6 @@ CD8 T cells patrol the cerebrospinal fluid in Alzheimer’s disease. Nature. 202
 analysis of chronic HIV infection reveals five-year increase in biological age and epigenetic targeting of HLA. Mol Cell. 2016;62(2):157–168. Henson SM, Lanna A, Riddell NE, et al. p38 signaling
 
 inhibits mTORC1-independent autophagy in senescent human CD8(+) T cells. J Clin Invest. 2014;124(9): 4004–4016.
-
-events contributing to these pathogenic changes, there have been prospects to develop mechanism-based therapeutic interventions to preserve and maintain normal hematopoiesis. This may provide opportunities to prevent these diseases and further identify, in a more rational manner, novel therapeutic approaches in treating these disorders in older adults.
 
 Horvath S. DNA methylation age of human tissues and cell
 

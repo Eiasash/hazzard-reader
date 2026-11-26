@@ -7,6 +7,21 @@ window.HazzardFlashcards = (() => {
     Object.entries(v.cards).every(([id, item]) => /^ch\d+-[a-z0-9-]+$/.test(id) &&
       isObject(item) && ['know', 'again'].includes(item.grade) && Number.isSafeInteger(item.at) && item.at >= 0);
 
+  function dueDay(record){
+    return record.due||HazzardReview.plus(HazzardReview.day(record.at),HazzardReview.STEPS[0]);
+  }
+  async function refreshDue(){
+    const button=document.getElementById('homeFlashDue');if(!button)return;
+    const today=HazzardReview.day();
+    let count=0;
+    try{
+      if(Object.keys(progress().cards).length){
+        const cards=await loadCards(),records=progress().cards;
+        count=cards.filter(card=>records[card.id]&&dueDay(records[card.id])<=today).length;
+      }
+    }catch{button.textContent='Flashcards due · unavailable';button.disabled=true;return;}
+    button.textContent='Flashcards due · '+count;button.disabled=count===0;
+  }
   function merge(local, incoming) {
     const cards = {...local?.cards};
     for (const [id, next] of Object.entries(incoming?.cards || {})) {
@@ -131,9 +146,9 @@ window.HazzardFlashcards = (() => {
       if (request !== currentRequest || !isShowing()) return;
       catalog = cards;
       lookup = new Map(cards.map(card => [card.id, card]));
-      const deck = cards.filter(card => next.scope === 'all' || card.chapter === next.scope);
+      const grades=progress().cards,today=HazzardReview.day();
+      const deck=cards.filter(card=>(next.scope==='all'||card.chapter===next.scope)&&(next.order!=='due'||(grades[card.id]&&dueDay(grades[card.id])<=today)||next.ids?.includes(card.id)));
       const inDeck = new Set(deck.map(card => card.id));
-      const grades = progress().cards;
       const ranks = questions ? missedRanks(deck, questions) : new Map();
       const gradeRank = id => grades[id]?.grade === 'again' ? 0 : grades[id]?.grade === 'know' ? 2 : 1;
       const ids = next.ids ? next.ids.filter(id => inDeck.has(id)) : deck
@@ -166,7 +181,9 @@ window.HazzardFlashcards = (() => {
         if (HazzardStorage.blockedKeys().includes(KEY)) throw Error('Flashcard progress is unreadable. Restore it in the notebook before grading.');
         const saved = progress();
         const at = Math.max(Date.now(), (saved.cards[id]?.at || 0) + 1);
-        HazzardStorage.setItem(KEY, JSON.stringify(merge(saved, {cards: {[id]: {grade: value, at}}})));
+        const old=saved.cards[id],step=value==='again'?0:Math.min(HazzardReview.STEPS.length-1,(old?.grade==='know'?(old.step??0)+1:0));
+        const due=HazzardReview.plus(HazzardReview.day(at),HazzardReview.STEPS[step]);
+        HazzardStorage.setItem(KEY,JSON.stringify(merge(saved,{cards:{[id]:{grade:value,at,step,due}}})));refreshDue();
       };
       if (navigator.locks?.request) await navigator.locks.request(KEY, write);
       else write();
@@ -190,7 +207,7 @@ window.HazzardFlashcards = (() => {
     pane.dataset.pane = 'flashcards';
     pane.dataset.title = 'Flashcards';
     pane.dataset.readerMetadata = 'flashcards';
-    pane.innerHTML = '<label class="flashcard-order">Order <select id="flashcardOrder"><option value="all">All cards</option><option value="missed">Missed topics first</option></select></label>' +
+    pane.innerHTML = '<label class="flashcard-order">Order <select id="flashcardOrder"><option value="all">All cards</option><option value="due">Due cards</option><option value="missed">Missed topics first</option></select></label>' +
       '<p id="flashcardCount" class="meta" role="status"></p>' +
       '<article id="flashcardArticle" hidden><h3 id="flashcardFront" tabindex="-1"></h3><details id="flashcardAnswer"><summary>Show answer</summary>' +
       '<p id="flashcardBack"></p><div class="flashcard-sources"><a id="flashcardSource"></a><a id="flashcardContext" hidden></a></div><div class="flashcard-actions"><button type="button" data-flash-grade="again">Again</button>' +
@@ -211,6 +228,18 @@ window.HazzardFlashcards = (() => {
       });
       return button;
     }
+    const dueButton=document.getElementById('homeFlashDue');
+    dueButton.onclick=()=>{requested={scope:'all',order:'due'};open(dueButton);};
+    refreshDue();
+    document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshDue();});
+    addEventListener('hazzard-flashcards-change',refreshDue);
+    addEventListener('storage',e=>{if(!e.key||e.key===KEY)refreshDue();});
+    document.addEventListener('keydown',e=>{
+      if(!isShowing()||!(matchMedia('(min-width:1200px)').matches||window.HazzardReadingCompanion?.embedded&&parent.matchMedia('(min-width:1200px)').matches)||e.repeat||e.altKey||e.metaKey||e.ctrlKey||e.target.closest('input,select,textarea,[contenteditable=true]'))return;
+      const answer=element('flashcardAnswer');
+      if(e.key===' '&&!e.target.closest('button,summary,a')){e.preventDefault();answer.open=!answer.open;}
+      if(answer.open&&['1','2'].includes(e.key)){e.preventDefault();pane.querySelector('[data-flash-grade="'+(e.key==='1'?'again':'know')+'"]').click();}
+    });
     const row = document.createElement('li');
     row.append(buttonFor('all'));
     document.querySelector('[data-pane="practice"] .rows li')?.after(row);
@@ -251,5 +280,5 @@ window.HazzardFlashcards = (() => {
     addEventListener('hazzard-flashcards-change', () => {if (isShowing()) render();});
   }
 
-  return {KEY, empty, valid, merge, install, show, flush: () => pendingGrade};
+  return {KEY, empty, valid, merge, install, show, refreshDue, flush: () => pendingGrade};
 })();

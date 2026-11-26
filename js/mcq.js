@@ -209,6 +209,9 @@ window.HazzardMCQ = (() => {
     });
   }
   // Move the live controls, keeping their handlers, state and focus targets.
+  const dockSizes=new ResizeObserver(entries=>{
+    for(const {target} of entries){const host=target.closest('#mcqViewport');if(host)host.style.setProperty('--dock-height',target.offsetHeight+'px');}
+  });
   function dockActions(host){
     const page=host.querySelector('.mcq-page'),bar=page?.querySelector('.mcq-actions,.sim-actions');
     if(!bar)return;
@@ -220,14 +223,14 @@ window.HazzardMCQ = (() => {
       const next=bar.querySelector('[data-mcq="next"]'),unsure=bar.querySelector('[data-mcq="unsure"]'),save=bar.querySelector('[data-revision="questions"]');
       if(unsure)bar.insertBefore(unsure,next);
       if(save){save.textContent=save.getAttribute('aria-pressed')==='true'?'Saved':'Save';save.setAttribute('aria-label','Save question');bar.insertBefore(save,next);}
-      bar.classList.add('mcq-docked-actions');page.append(bar);return;
+      bar.classList.add('mcq-docked-actions');dockSizes.observe(bar);page.append(bar);return;
     }
     const notices=document.createElement('div');notices.className='mcq-docked-notices';
     const unsureStatus=page.querySelector('.mcq-unsure-status:not([hidden])'),undo=page.querySelector('.mcq-answer-undo');
     if(unsureStatus&&undo)unsureStatus.append(undo);
     for(const status of page.querySelectorAll('.mcq-unsure-status,.mcq-revision-status'))notices.append(status);
     if(notices.childElementCount)bar.prepend(notices);
-    bar.classList.add('mcq-docked-actions');
+    bar.classList.add('mcq-docked-actions');dockSizes.observe(bar);
     page.append(bar);
   }
   function revisionStatus(){return badStatus()+(revisionNotice?'<p class="meta mcq-revision-status" role="status">'+escape(revisionNotice)+(revisionUndo?' <button data-revision="undo">Undo</button>':'')+'</p>':'');}
@@ -431,7 +434,7 @@ window.HazzardMCQ = (() => {
         /\d+[א-ת]*(?:\([\dא-ת]+\))+(?:\s*(?:[,–—-]|או|עד|ו[-־]?)\s*\([א-ת]+\))*/gu,
         /\d+[א-ת]+/gu,
         /[א-ת]["״][א-ת](?:["״][א-ת])?/gu,
-        /(?:שלב|סוג|דרגה|סעיף(?:\s+קטן)?|סימן|נספח|החלטה|פרק|מדרגה|\bgrade|\bclass|\bstage|\btype|\bvitamin|\bhepatitis|ויטמין)\s+\**\(?[A-Dאבגד](?![\p{L}\p{N}])/giu
+        /(?:שלב|סוג|דרגה|סעיף(?:\s+קטן)?|סימן|נספח|החלטה|פרק|מדרגה|חלק|מסלול|קבוצה|תנאי|טופס|לוח|פסקה|תקנה|\bgrade|\bclass|\bstage|\btype|\bvitamin|\bhepatitis|ויטמין)\s+\**\(?[A-Dאבגד](?![\p{L}\p{N}])/giu
       ];
       for(const regex of protectedSpans)for(const m of text.matchAll(regex))for(let i=m.index;i<m.index+m[0].length;i++)positions.delete(i);
     }
@@ -1182,6 +1185,13 @@ window.HazzardMCQ = (() => {
       if(todayReview){reviewBatch.position=index;HazzardReview.rememberToday(reviewBatch);}
       else HazzardReview.position(index);
     }
+    document.addEventListener('keydown',e=>{
+      if(!(matchMedia('(min-width:1200px)').matches||window.HazzardReadingCompanion?.embedded&&parent.matchMedia('(min-width:1200px)').matches)||host.hidden||!host.getClientRects().length||e.repeat||e.altKey||e.ctrlKey||e.metaKey||e.target.closest('input,textarea,select,[contenteditable=true]')||document.querySelector('dialog[open]'))return;
+      const index='1234'.indexOf(e.key),letter='\u05d0\u05d1\u05d2\u05d3'.indexOf(e.key);
+      const action=e.key.toLowerCase()==='u'?'unsure':e.key.toLowerCase()==='n'||(e.key==='Enter'&&!e.target.closest('a,button,summary'))?'next':null;
+      const selector=index>=0||letter>=0?'[data-option="'+Math.max(index,letter)+'"]':action?'[data-mcq="'+action+'"]':null;
+      const button=selector&&host.querySelector(selector);if(button&&!button.disabled&&button.getClientRects().length){e.preventDefault();button.click();}
+    });
     function visible(includeHidden=false,includeAnswered=false){
       const badFlags=badItems();
       const allowed=q=>(!badFlags[currentId(q.id)]?.bad||hiddenTarget===q.id&&!savedOnly&&!savedView&&!flagsView&&!missedOnly&&!reviewMode&&!redoMode&&!mockMode)&&(includeHidden||!standoutHidden(q.id));
@@ -1234,8 +1244,9 @@ window.HazzardMCQ = (() => {
       if(reviewMode){
         const r=HazzardReview.read(),done=list.filter(q=>reviewBatch?.answers[q.id]?.checked).length;
         const remaining=todayReview?list.length-done:HazzardReview.due(r).length;
+        const order='<label>Review order <select data-select="review-order"><option value="due">Due order</option><option value="official" '+(HazzardReview.officialFirst()?'selected':'')+'>Official past papers first</option></select></label>';
         const size=todayReview?'':'<label class="mcq-review-size">Queue size <select data-select="review-size">'+[10,30,50].map(n=>'<option value="'+n+'" '+(n===r.settings.size?'selected':'')+'>'+n+'</option>').join('')+'</select></label>';
-        return '<p class="eyebrow">DAILY PRACTICE</p><h1>'+(todayReview?'Review today':'Review')+'</h1><p class="meta">'+done+' / '+list.length+' answered · '+remaining+' due</p>'+size+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:todayReview?'No questions due today':'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
+        return '<p class="eyebrow">DAILY PRACTICE</p><h1>'+(todayReview?'Review today':'Review')+'</h1><p class="meta">'+done+' / '+list.length+' answered · '+remaining+' due</p>'+order+size+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:todayReview?'No questions due today':'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
       }
       const title=bankMode?(flagsView?'Missed / flags':'Question bank'):mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
       let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+'</div>';
@@ -1430,6 +1441,7 @@ window.HazzardMCQ = (() => {
         host.scrollTop=y;host.querySelector('[data-select="'+name+'"][value="'+value+'"]').focus({preventScroll:true});return;
       }
       if(name==='mock-topic'){settings.topic=value;save();render();return;}
+      if(name==='review-order'){reviewBatch=HazzardReview.setOrder(value==='official',items,reviewBatch,todayReview);position=reviewDisplayPosition();render();return;}
       if(name==='review-size'){try{const r=HazzardReview.size(Number(value),items.filter(q=>!excluded(q.id)));reviewBatch=r.batch;position=reviewDisplayPosition();notice='Batch size saved. Completed answers are kept.';}catch{storageError='Batch size could not be saved.';}render();return;}
       if(['topic','year','level','mock-year','mock-level'].includes(name)){
         const isMock=name.startsWith('mock-'),key=name==='topic'?'topic':name.endsWith('year')?'year':'level',previous=isMock?settings[key]:key==='topic'?topic:key==='year'?year:level;

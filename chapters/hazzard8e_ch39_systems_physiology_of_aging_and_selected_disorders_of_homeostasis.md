@@ -320,7 +320,13 @@ of up to 5% a week, which together with disruptions in subcellular muscle struct
 
 ## Anticholinergic and Antidopaminergic Medications
 
-Anticholinergic While systematic literature is lacking, older adults appear to be highly sensitive to anticholinergic effects of commonly used medications including altered cognitive function, dry mouth, constipation, and urinary retention. Some of this vulnerability can be attributed to the presence of underlying disease or preclinical pathology. For example, subjects with Alzheimer disease develop new learning deficits at lower scopolamine doses than do age-adjusted normal controls, while the presence of detrusor underactivity predisposes older adults to develop urinary retention when treated with anticholinergic agents. In addition, there is enhanced anticholinergic vulnerability with aging alone, as shown by an augmented and prolonged inhibition of stimulated parotid flow rate in healthy older adults following exposure to an intravenous
+Anticholinergic While systematic literature is lacking, older adults appear to be highly sensitive to anticholinergic effects of commonly used medications including altered cognitive function, dry mouth, constipation, and urinary retention. Some of this vulnerability can be attributed to the presence of underlying disease or preclinical pathology. For example, subjects with Alzheimer disease develop new learning deficits at lower scopolamine doses than do age-adjusted normal controls, while the presence of detrusor underactivity predisposes older adults to develop urinary retention when treated with anticholinergic agents. In addition, there is enhanced anticholinergic vulnerability with aging alone, as shown by an augmented and prolonged inhibition of stimulated parotid flow rate in healthy older adults following exposure to an intravenous anticholinergic drug (glycopyrrolate). Increased blood– brain permeability in old age and in the setting of specific diseases has been proposed as one mechanism that could mediate an augmented vulnerability to develop cognitive or other CNS problems with anticholinergic medications. Other relevant contributing mechanisms include a decreased homeostatic capacity with declines in both numbers and complexity of relevant cellular elements, as well as an aging-associated loss in the ability of muscarinic receptors to be upregulated when exposed to anticholinergic agents.
+
+Antidopaminergic Older adults often develop extrapyramidal side effects when given neuroleptic agents with potent antidopaminergic properties. Interestingly, adverse events such as acute dystonia are relatively rare in old age, while others including rigidity, poverty of movement, and tardive dyskinesia appear to be more common in old age. In many cases, early or preclinical Parkinson disease may render individuals more vulnerable to pharmacologic disruption of relevant CNS dopaminergic circuits. Moreover, aging-associated declines in numbers and function of CNS dopaminergic neurons, as well as a decreased capacity to compensate for additional losses by upregulation of dopaminergic receptors or by neuronal plasticity involving surviving dopaminergic fibers, are also likely to contribute to the loss of such homeostatic mechanisms.
+
+## ACKNOWLEDGMENT
+
+Many thanks to Eleanor Lederer and Vibha Nayak for their contributions to the Disorders of Fluid and Electrolyte Balance chapter in the 7th edition of this book, some components of which were used in this chapter.
 
 ## FURTHER READING
 
@@ -337,14 +343,6 @@ Adv Physiol Educ. 2004;28(1–4):180–187. Epstein Y, Yanovich R. Heatstroke. N
 receptor responsiveness in aging heart and clinical implications. Front Physiol. 2014;4:396. Ferrucci L, Kuchel GA. Heterogeneity of aging: individual
 
 risk factors, mechanisms, patient priorities, and outcomes. J Am Geriatr Soc. 2021;69(3):610–612.
-
-anticholinergic drug (glycopyrrolate). Increased blood– brain permeability in old age and in the setting of specific diseases has been proposed as one mechanism that could mediate an augmented vulnerability to develop cognitive or other CNS problems with anticholinergic medications. Other relevant contributing mechanisms include a decreased homeostatic capacity with declines in both numbers and complexity of relevant cellular elements, as well as an aging-associated loss in the ability of muscarinic receptors to be upregulated when exposed to anticholinergic agents.
-
-Antidopaminergic Older adults often develop extrapyramidal side effects when given neuroleptic agents with potent antidopaminergic properties. Interestingly, adverse events such as acute dystonia are relatively rare in old age, while others including rigidity, poverty of movement, and tardive dyskinesia appear to be more common in old age. In many cases, early or preclinical Parkinson disease may render individuals more vulnerable to pharmacologic disruption of relevant CNS dopaminergic circuits. Moreover, aging-associated declines in numbers and function of CNS dopaminergic neurons, as well as a decreased capacity to compensate for additional losses by upregulation of dopaminergic receptors or by neuronal plasticity involving surviving dopaminergic fibers, are also likely to contribute to the loss of such homeostatic mechanisms.
-
-## ACKNOWLEDGMENT
-
-Many thanks to Eleanor Lederer and Vibha Nayak for their contributions to the Disorders of Fluid and Electrolyte Balance chapter in the 7th edition of this book, some components of which were used in this chapter.
 
 Goldstein DS. How does homeostasis happen? Integra-
 

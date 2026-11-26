@@ -29,7 +29,7 @@ def generate():
         reference = references.get(q['id'], {})
         if 'bankChapter' in reference:
             chapter = reference['bankChapter']
-            title = '' if chapter is None else (reference.get('bankChapterTitle') or chapter_titles[chapter])
+            title = reference.get('bankChapterTitle') or ('' if chapter is None else chapter_titles[chapter])
             q = {**q, 'chapter': chapter, 'chapterTitle': title}
         # Hash prefixes keep chunk URLs stable when questions are added or moved.
         chunk = q['id'][4:6]

@@ -204,6 +204,8 @@ Kidney Transplantation The proportion of individuals older than 65 years who are
 
 centers to list such patients, as well as reduction in waitlisting mortality. Many transplant programs are routinely offering transplantation to people in their late sixties and early seventies if they are otherwise in good health. This is reflected in the fact that donor transplant rates among those older than 65 years has increased from approximately 10 (per 100 waitlist years) in 2015 to 17 (per 100 waitlist years) in 2019.
 
+In summary, kidney disease and failure are predominantly diseases of the older population. All older patients should have an estimate made of their GFR. If a deficit in their kidney function is identified, they should be managed aggressively to prevent progression to kidney failure. As CKD progresses, special attention should be paid to the choice of drugs and their dosing and to the use of contrast dyes for imaging.
+
 ## FURTHER READING
 
 Anderson AH, Yang W, Hsu CY, et al. CRIC Study Inves-
@@ -224,11 +226,7 @@ and Scientific Registry of Transplant Recipients (SRTR). OPTN/SRTR 2019 Annual D
 
 JAMA. 2013;309(13):1343. O’Hare AM, Armistead N, Schrag WL, Diamond L, Moss AH.
 
-Patient-centered care: an opportunity to accomplish
-
-In summary, kidney disease and failure are predominantly diseases of the older population. All older patients should have an estimate made of their GFR. If a deficit in their kidney function is identified, they should be managed aggressively to prevent progression to kidney failure. As CKD progresses, special attention should be paid to the choice of drugs and their dosing and to the use of contrast dyes for imaging.
-
-the “three aims” of the national quality strategy in the Medicare ESRD program. Clin J Am Soc Nephrol. 2014;9(12):2189–2194. O’Hare AM, Hotchkiss JR, Kurella-Tamura M, et al. Inter-
+Patient-centered care: an opportunity to accomplish the “three aims” of the national quality strategy in the Medicare ESRD program. Clin J Am Soc Nephrol. 2014;9(12):2189–2194. O’Hare AM, Hotchkiss JR, Kurella-Tamura M, et al. Inter-
 
 preting treatment effects from clinical trials in the context of real-world risk information: end-stage renal disease prevention in older adults. JAMA Intern Med. 2014;174(3):391–397. Rule AD, Glassock RJ. Chronic kidney disease: classifica-
 

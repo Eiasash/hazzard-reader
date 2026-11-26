@@ -266,7 +266,7 @@ The lyophilized VZV gE antigen is reconstituted with the liquid adjuvant to comp
 
 It is essential to counsel the patient about potential injection site and systemic reactions before administering both doses of RZV. They may feel pain, redness swelling at the injection site or muscle pain, tiredness, headache, chills, fever or nausea. About one in six persons have reactions that transiently prevent them from doing normal activities. Most symptoms resolve in 1 to 3 days. Patients should be counseled to avoid strenuous activities for a few days after vaccination. Reactions to the first dose do not strongly predict reactions to the second dose.
 
-The ACIP provides no recommendation, either for or against, the use of RZV in immunocompromised populations. The FDA label does not list immunocompromised as a contraindication or precaution so administering RZV to immunocompromised individuals is not off-label
+The ACIP provides no recommendation, either for or against, the use of RZV in immunocompromised populations. The FDA label does not list immunocompromised as a contraindication or precaution so administering RZV to immunocompromised individuals is not off-label prescribing to persons 50 years and older; it is off-label for persons younger than 50 years. Currently, best practice is to allow for RZV use in immunocompromised persons on a case-by-case basis if potential benefit is judged to outweigh the risk, using shared decision. Current information from randomized controlled trials indicate that RZV was immunogenic and had no safety concerns in small numbers (100–1000) of different immunocompromised populations including hematopoietic stem cell transplant (HSCT), kidney transplant, hematologic malignancies, solid cancers on chemotherapy, HIV, and immune-mediated disease. RZV VE was demonstrated prospectively in HSCT (VE = 68%) and in post-hoc analyses in hematologic malignancies (VE = 87%) and immune-mediated diseases (VE = 91%).
 
 ## FURTHER READING
 
@@ -295,8 +295,6 @@ dromes in older HIV-infected adults. J Acquir Immune Defic Syndr. 2015;69(2):161
 aging in HIV-infected persons: the Swiss HIV cohort study. Clin Infect Dis. 2011;53(11):1130–1139. High KP, Brennan M, Clifford DB, et al. HIV and aging:
 
 state of knowledge and areas of critical need for research.
-
-prescribing to persons 50 years and older; it is off-label for persons younger than 50 years. Currently, best practice is to allow for RZV use in immunocompromised persons on a case-by-case basis if potential benefit is judged to outweigh the risk, using shared decision. Current information from randomized controlled trials indicate that RZV was immunogenic and had no safety concerns in small numbers (100–1000) of different immunocompromised populations including hematopoietic stem cell transplant (HSCT), kidney transplant, hematologic malignancies, solid cancers on chemotherapy, HIV, and immune-mediated disease. RZV VE was demonstrated prospectively in HSCT (VE = 68%) and in post-hoc analyses in hematologic malignancies (VE = 87%) and immune-mediated diseases (VE = 91%).
 
 A report to the NIH Office of AIDS Research by the HIV and Aging Working Group. J Acquir Immune Defic Syndr. 2012;60(suppl 1):S1–18. Jones A, Cremin I, Abdullah F, et al. Transformation of
 

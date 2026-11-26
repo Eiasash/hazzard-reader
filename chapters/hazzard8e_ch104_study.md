@@ -102,7 +102,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Infective endocarditis in older adults: fever **55%** and leukocytosis **25%** (vs **80%/60%** in younger adults) — a much blunter presentation; TEE improves diagnostic yield **45%** over TTE (p1671)
 - Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections are more likely due to asymptomatic bacteremia seeding the implant, with a wider array of organisms including GI/GU sources — but staphylococci still predominate (p1671, p1674)
 - Evidence for prophylaxis in PJ (prosthetic joint) patients is even weaker than for prosthetic valves; the historical discussion describes considering antibiotic prophylaxis for PJs deemed **"high risk"** — placed within **2 years**, or in immunosuppressed patients (including diabetes, rheumatoid arthritis, malnourishment), or with prior joint infection (p1674–1675)
-  > Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
+  > <span id="current-practice-1" data-reader-metadata="navigation"></span>Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
 - Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1668; detail p1674)
 - Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
@@ -167,7 +167,7 @@ Early: skin flora — coagulase-negative staphylococci, S aureus, diphtheroids. 
 <details><summary>Answer</summary>
 
 PJ placed within 2 years, immunosuppressed patients (diabetes, rheumatoid arthritis, malnourishment), or a history of prior joint infection (p1674–1675).
-> Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
+> [Current practice note](#current-practice-1)
 
 </details>
 

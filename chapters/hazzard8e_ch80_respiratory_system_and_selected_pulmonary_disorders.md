@@ -110,7 +110,7 @@ Maintaining an ideal body weight is also key to maintaining good lung health. Ob
 
 size and reduced ability to breathe. Treatment of osteoporosis and prevention of fractures can help promote lung health in the future.
 
-Aging not only affects respiratory function but also the ability for the body to recover from stresses and illnesses. Especially for aging patients with chronic cardiac or pulmonary conditions, illnesses and exacerbations can lead
+Aging not only affects respiratory function but also the ability for the body to recover from stresses and illnesses. Especially for aging patients with chronic cardiac or pulmonary conditions, illnesses and exacerbations can lead to significant decline in function. With aging, the recovery process can be slow and incomplete. Cardiac and pulmonary rehabilitation is vital in mitigating and reversing functional declines that result from acute illnesses. Referral to these services should be considered for any aging patient with chronic heart or lung conditions recovering from an acute illness.
 
 ## FURTHER READING
 
@@ -131,8 +131,6 @@ aging. Chest. 2009;135(1):173–180. Liu R-M, Liu G. Cell senescence and fibroti
 Exper Geront. 2020;132:110836. Lowery EM, Brubaker AL, Kuhlmann E, Kovacs EJ. The
 
 aging lung. Clin Interv Aging. 2013;8:1489–1496.
-
-to significant decline in function. With aging, the recovery process can be slow and incomplete. Cardiac and pulmonary rehabilitation is vital in mitigating and reversing functional declines that result from acute illnesses. Referral to these services should be considered for any aging patient with chronic heart or lung conditions recovering from an acute illness.
 
 Murray MA, Chotirmall SH. The impact of immunosenes-
 

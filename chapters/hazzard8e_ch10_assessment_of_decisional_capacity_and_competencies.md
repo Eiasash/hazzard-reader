@@ -148,6 +148,14 @@ Individuals may be transiently incapacitated for decision making or their abilit
 
 Even when an individual is no longer able to give informed consent to a procedure or a change in living situation, he or she should still participate in the decision-making process.
 
+Substituted judgment is the process that a surrogate (legally appointed or informal) is supposed to apply as the basis for a decision. Substituted judgment enjoins one to consider the patient’s prior wishes and long-held beliefs as the basis for one’s decision, “deciding as they would have decided” (see Chapter 72). Assent refers to the impaired individual’s willingness to cooperate with a plan of care. It is, in essence, a way to take into consideration the individual’s present desires when making a decision. In cognitively impaired adults, there is a continuum of incapacity. An individual who is incapable of understanding the complexities of a situation or decision may retain high levels of understanding around specific aspects of the process and be able to express their opinions. Even very cognitively impaired patients can give indications of what brings them pleasure and what gives them pain.
+
+Clinicians obtaining consent for medical treatment or research protocols may wish to use a combination of surrogate consent and patient assent (shared decision making). This may be essential in some cases where the patient’s ability to cooperate will be necessary in order to carry out the treatment or procedure.
+
+### Informed Consent in Research
+
+An individual’s ability to consent to participate in research is complex. Because the risks and benefits of being in a research study are more abstract, decisional capacity must be even greater than that for accepting or declining an established medical treatment. This is an important time for dual decision making as outlined in the earlier section. It is also important to establish the voluntarism of the consent. Asking why an individual is volunteering (or a surrogate is volunteering the individual) for a research protocol is vital.
+
 ## FURTHER READING
 
 Applebaum PS. Assessment of patient’s competence to
@@ -163,14 +171,6 @@ Presenting risk information—a review of the effects of “framing” and other
 functions in the informed consent evaluation process: a pilot study. J Am Acad Psychiatry Law. 1997;25:531–540. Marson DC. Loss of competency in Alzheimer’s disease:
 
 conceptual and psychometric approaches. Int J Law Psychiatry. 2001;24:267–283.
-
-Substituted judgment is the process that a surrogate (legally appointed or informal) is supposed to apply as the basis for a decision. Substituted judgment enjoins one to consider the patient’s prior wishes and long-held beliefs as the basis for one’s decision, “deciding as they would have decided” (see Chapter 72). Assent refers to the impaired individual’s willingness to cooperate with a plan of care. It is, in essence, a way to take into consideration the individual’s present desires when making a decision. In cognitively impaired adults, there is a continuum of incapacity. An individual who is incapable of understanding the complexities of a situation or decision may retain high levels of understanding around specific aspects of the process and be able to express their opinions. Even very cognitively impaired patients can give indications of what brings them pleasure and what gives them pain.
-
-Clinicians obtaining consent for medical treatment or research protocols may wish to use a combination of surrogate consent and patient assent (shared decision making). This may be essential in some cases where the patient’s ability to cooperate will be necessary in order to carry out the treatment or procedure.
-
-### Informed Consent in Research
-
-An individual’s ability to consent to participate in research is complex. Because the risks and benefits of being in a research study are more abstract, decisional capacity must be even greater than that for accepting or declining an established medical treatment. This is an important time for dual decision making as outlined in the earlier section. It is also important to establish the voluntarism of the consent. Asking why an individual is volunteering (or a surrogate is volunteering the individual) for a research protocol is vital.
 
 Montello M. Narrative ethics. Hastings Cent Rep. 2014;44:
 

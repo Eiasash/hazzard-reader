@@ -504,6 +504,10 @@ Although gynecologic issues comprise a small part of geriatric care, large impac
 
 cervical cancer screening, early recognition of endometrial and vulvar cancer, and early investigation of abdominopelvic complaints to rule out ovarian cancer will reduce disease burden. Proactive assessment of pelvic floor conditions may also impact quality of life.
 
+## ACKNOWLEDGMENT
+
+Karen L. Miller and Tomas L. Griebling contributed to this chapter in the 7th edition and some material from that chapter has been retained here.
+
 ## FURTHER READING
 
 ### General
@@ -547,10 +551,6 @@ women. Mayo Clin Proc.; 2017;92(3):449–454.
 ACOG Practice Bulletin No. 215. Vaginitis in nonpregnant
 
 patients. Obstet Gynecol. 2020;135(1):e1–e17.
-
-## ACKNOWLEDGMENT
-
-Karen L. Miller and Tomas L. Griebling contributed to this chapter in the 7th edition and some material from that chapter has been retained here.
 
 Shifren JL. Genitourinary syndrome of menopause. Clin
 

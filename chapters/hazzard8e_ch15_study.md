@@ -320,8 +320,6 @@ Education, individual provider feedback and electronic clinical decision support
 
 [Hazzard 8e, Figure 15-3, p.212](#p212)
 
-[2026-Jun Q98 (page citation)](?chapter=bank&q=mcq-be0342d1614ce894a9a67d87)
-
 ### Figure 15-4 — existing book image
 
 [Hazzard 8e, Figure 15-4, p.214](#p214)

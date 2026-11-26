@@ -324,7 +324,11 @@ STOP medications. In some cases, there will be a need to deprescribe drug therap
 
 Many ADEs are dose related, so it is critical to prescribe the minimal dose required to obtain clinical benefit. A classic example of a dose-related adverse event is the association between use of long elimination half-life hypnotic-anxiolytics, antipsychotics, and tricyclic antidepressants and the development of hip fractures. A dose-related association has been found for each class of drug.
 
-Another clinically important example of the benefit of reducing the dose involves the intensity of diabetes treatment. The doses of oral hypoglycemic agents and insulin therapy should not result in overly tight glycemic control, as there is little evidence that using medications to achieve tight glycemic control in older adults with type 2 diabetes is beneficial. Tight glycemic control has been consistently shown to produce higher rates of hypoglycemia in older adults. Realizing this point, the American Geriatrics Society (AGS) has recommended in the Choosing Wisely campaign (an initiative of the ABIM) that physicians should generally avoid using medications to achieve hemoglobin A1c less than 7.5% in most older adults. The AGS suggests hemoglobin A1c targets should reflect the individual older
+Another clinically important example of the benefit of reducing the dose involves the intensity of diabetes treatment. The doses of oral hypoglycemic agents and insulin therapy should not result in overly tight glycemic control, as there is little evidence that using medications to achieve tight glycemic control in older adults with type 2 diabetes is beneficial. Tight glycemic control has been consistently shown to produce higher rates of hypoglycemia in older adults. Realizing this point, the American Geriatrics Society (AGS) has recommended in the Choosing Wisely campaign (an initiative of the ABIM) that physicians should generally avoid using medications to achieve hemoglobin A1c less than 7.5% in most older adults. The AGS suggests hemoglobin A1c targets should reflect the individual older adult’s treatment goals, health status, and remaining life expectancy. The AGS suggests that reasonable glycemic targets would be 7% to 7.5% in healthy older adults with long life expectancy, 7.5% to 8% in those with moderate comorbidity and a life expectancy less than 10 years, and 8% to 9% in those with multiple comorbid conditions and a shorter life expectancy.
+
+## SUMMARY
+
+Optimizing use of drug therapy is a critical priority for older adults and involves achieving the balance between overuse (over prescribing of inappropriate therapy), underuse (under prescribing of beneficial therapy), and misuse (eg, inappropriate dose or duration of therapy). Sex, gender, age, and frailty considerations are important to inform optimal prescribing decisions for all older adults. There are additional considerations that are needed when making prescribing decisions for older adults living in long-term care settings or with limited life expectancy. Prescribing cascades should be avoided and managed by deprescribing when noticed. Particular attention should be given to using all drug therapies only when required and at the minimum effective dose. Practical approaches that integrate patient’s values and preferences should be followed to ensure that older adults are receiving optimal drug therapy.
 
 ## FURTHER READING
 
@@ -341,12 +345,6 @@ Update Expert Panel. American Geriatrics Society 2019 Updated AGS Beers Criteria
 patients to reduce morbidity and mortality. Cochrane Database Syst Rev. 2013;2:CD008986. DeJong C, Covinsky K. Inclusion across the lifespan in car-
 
 diovascular trials-a long road ahead. JAMA Intern Med. 2020;180(11):1533–1534.
-
-adult’s treatment goals, health status, and remaining life expectancy. The AGS suggests that reasonable glycemic targets would be 7% to 7.5% in healthy older adults with long life expectancy, 7.5% to 8% in those with moderate comorbidity and a life expectancy less than 10 years, and 8% to 9% in those with multiple comorbid conditions and a shorter life expectancy.
-
-## SUMMARY
-
-Optimizing use of drug therapy is a critical priority for older adults and involves achieving the balance between overuse (over prescribing of inappropriate therapy), underuse (under prescribing of beneficial therapy), and misuse (eg, inappropriate dose or duration of therapy). Sex, gender, age, and frailty considerations are important to inform optimal prescribing decisions for all older adults. There are additional considerations that are needed when making prescribing decisions for older adults living in long-term care settings or with limited life expectancy. Prescribing cascades should be avoided and managed by deprescribing when noticed. Particular attention should be given to using all drug therapies only when required and at the minimum effective dose. Practical approaches that integrate patient’s values and preferences should be followed to ensure that older adults are receiving optimal drug therapy.
 
 Duerden M, Avery T, Payne R. Polypharmacy and medicines
 

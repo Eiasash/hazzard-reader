@@ -362,7 +362,7 @@ Importantly, NGS can provide both predictive and prognostic information for adul
 
 <a id="p1452"></a>**[p. 1452]**
 
-NGS could help identify possible targets for therapies, which could potentially represent less toxic and more effective options for older adults with cancer. Additionally, NGS can help to identify markers with prognostic significance. For example, microsatellite instability high status often correlates with better survival, while BRAF mutations correlate with worse survival outcomes, regardless of patient age. Recently, growing evidence supports the use of noninvasive genomic profiling of tumors with NGS from blood-derived
+NGS could help identify possible targets for therapies, which could potentially represent less toxic and more effective options for older adults with cancer. Additionally, NGS can help to identify markers with prognostic significance. For example, microsatellite instability high status often correlates with better survival, while BRAF mutations correlate with worse survival outcomes, regardless of patient age. Recently, growing evidence supports the use of noninvasive genomic profiling of tumors with NGS from blood-derived circulating tumor DNA (ctDNA). Collectively, NGS can help as a strategy to guide treatment discussions for older adults with cancer, yet NGS-enabled precision oncology can add complexity to clinical decision-making and additional work is needed to understand the optimal tissue on which to perform NGS (primary tumor or metastasis, tumor DNA or circulating tumor DNA, etc) and the optimal timing for when to obtain NGS (at initial diagnosis, following a predefined amount of therapy, or when the disease is refractory).
 
 ## FURTHER READING
 
@@ -386,11 +386,7 @@ microsatellite-instability–high advanced colorectal cancer. N Engl J Med. 2020
 
 vant chemotherapy and radiation therapy for colorectal cancer in a population-based cohort. J Clin Oncol. 2003;21(7):1293–1300. Conroy T, Lamfichekh N, Etienne P-L, et al. Total neoadju-
 
-vant therapy with mFOLFIRINOX versus preoperative
-
-circulating tumor DNA (ctDNA). Collectively, NGS can help as a strategy to guide treatment discussions for older adults with cancer, yet NGS-enabled precision oncology can add complexity to clinical decision-making and additional work is needed to understand the optimal tissue on which to perform NGS (primary tumor or metastasis, tumor DNA or circulating tumor DNA, etc) and the optimal timing for when to obtain NGS (at initial diagnosis, following a predefined amount of therapy, or when the disease is refractory).
-
-chemoradiation in patients with locally advanced rectal cancer: final results of PRODIGE 23 phase III trial, a UNICANCER GI trial. J Clin Oncol. 2020;38(15): 4007. ePrognosis. Colorectal Screening Survey. [http://cancer-](<https://eprognosis.ucsf.edu/cancer/>)
+vant therapy with mFOLFIRINOX versus preoperative chemoradiation in patients with locally advanced rectal cancer: final results of PRODIGE 23 phase III trial, a UNICANCER GI trial. J Clin Oncol. 2020;38(15): 4007. ePrognosis. Colorectal Screening Survey. [http://cancer-](<https://eprognosis.ucsf.edu/cancer/>)
 
 screening.eprognosis.org/screening/. Goldberg RM, Rabah-Fisch I, Bleiberg H, et al. Pooled
 

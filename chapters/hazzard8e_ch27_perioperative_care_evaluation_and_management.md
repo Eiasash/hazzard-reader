@@ -204,6 +204,10 @@ As our society ages, the need for surgical procedures will continue to increase 
 
 invasive surgery appear promising. Besides decreasing recovery time and postoperative pain, there is some suggestion that overall operative risk may be decreased. Future studies examining clinical outcomes of interest in older adults will be an essential component of evaluating the relative risks and benefits of new interventions.
 
+## ACKNOWLEDGMENT
+
+Many thanks to Satyen S. Nichani, Paul J. Grant, and Preeti N. Malani for their contributions to the Perioperative Evaluation and Management components of this chapter in earlier editions of this book.
+
 ## FURTHER READING
 
 Afilalo J, Kim S, O’Brien S, et al. Gait speed and opera-
@@ -225,10 +229,6 @@ Medicare costs associated with delirium in older patients undergoing major elect
 outcomes for patients aged 80 and older: morbidity and mortality from major noncardiac surgery. J Am Geriatr Soc. 2005;53(3):424–429. Inouye SK, Westendorp RGJ, Saczynski JS. Delirium in
 
 elderly people. Lancet. 2014;383(9920):911–922.
-
-## ACKNOWLEDGMENT
-
-Many thanks to Satyen S. Nichani, Paul J. Grant, and Preeti N. Malani for their contributions to the Perioperative Evaluation and Management components of this chapter in earlier editions of this book.
 
 Kaiser MJ, Bauer JM, Ramsch C, et al. Frequency of mal-
 

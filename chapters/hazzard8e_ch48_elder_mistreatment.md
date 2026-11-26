@@ -178,7 +178,13 @@ Elder mistreatment may also occur in institutional settings. The physician and n
 
 While the focus of elder abuse in long-term care has been on staff abuse of residents, this is probably far less common than previously when regulatory scrutiny was lacking. Recently, resident on resident abuse has been identified as a far more common and pervasive problem among nursing home residents. This includes verbal, physical, and sexual mistreatment. Although there are no prevalence data on the phenomenon, preliminary and indirect evidence suggests that it is highly prevalent. For example, more than 50% of nursing aides in long-term care report the personal experience of being physically hit by a resident in the previous year, typically in the course of providing direct care. Given that the prevalence of dementia and associated behavioral disturbance in long-term care facilities is high, it stands to reason that behavior of this type occurs frequently between residents.
 
-Another recent area of interest has been abuse and neglect that occurs in long-term care environments other than nursing homes (eg, assisted living and board and care environments), because these facilities generally are under considerably less regulation. Interest in mistreatment in assisted-living facilities has also grown in recent years as much sicker patients begin to inhabit these institutions; many believe the higher acuity and generally lower levels of
+Another recent area of interest has been abuse and neglect that occurs in long-term care environments other than nursing homes (eg, assisted living and board and care environments), because these facilities generally are under considerably less regulation. Interest in mistreatment in assisted-living facilities has also grown in recent years as much sicker patients begin to inhabit these institutions; many believe the higher acuity and generally lower levels of staff and supervision are a dangerous admixture in which abuse and neglect are more likely to occur. Data are lacking on the prevalence of abuse, or on the type of abusers, in these settings.
+
+Physicians and other care providers have an important role in the detection of these institutional cases, because they may see potential manifestations of nursing home elder mistreatment in facilities or emergency departments as part of providing customary care. Physicians who suspect institutional abuse have an obligation to immediately report their suspicions to the long-term care ombudsman in their state.
+
+## SUMMARY
+
+Elder mistreatment is a prevalent problem with many potential manifestations. The epidemiology of injuries and other clinical findings is not completely understood, but this does not preclude the clinician from taking an active role in its detection and management. Studies show elder mistreatment victims to be at substantial independent risk of death and quality-of-life decline. The syndrome should be afforded the same vigilance that health care providers devote to other “traditional” medical problems in geriatrics.
 
 ## FURTHER READING
 
@@ -201,14 +207,6 @@ reported elder abuse and neglect: a nine-year observational study. Gerontologist
 elder mistreatment. JAMA. 1998;280:428–432. Laumann EO, Leitsch SA, Waite LJ. Elder mistreatment in
 
 the United States: prevalence estimates from a nationally representative study. J Gerontol B Psychol Sci Soc Sci. 2008;63(4):S248–S250.
-
-staff and supervision are a dangerous admixture in which abuse and neglect are more likely to occur. Data are lacking on the prevalence of abuse, or on the type of abusers, in these settings.
-
-Physicians and other care providers have an important role in the detection of these institutional cases, because they may see potential manifestations of nursing home elder mistreatment in facilities or emergency departments as part of providing customary care. Physicians who suspect institutional abuse have an obligation to immediately report their suspicions to the long-term care ombudsman in their state.
-
-## SUMMARY
-
-Elder mistreatment is a prevalent problem with many potential manifestations. The epidemiology of injuries and other clinical findings is not completely understood, but this does not preclude the clinician from taking an active role in its detection and management. Studies show elder mistreatment victims to be at substantial independent risk of death and quality-of-life decline. The syndrome should be afforded the same vigilance that health care providers devote to other “traditional” medical problems in geriatrics.
 
 Mosqueda L, Burnight K, Gironda MW, Moore AA,
 

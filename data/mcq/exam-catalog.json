@@ -5774,7 +5774,9 @@
         "passages": {
           "1116": "Table 73-1"
         }
-      }
+      },
+      "chapter": "73",
+      "chapterTitle": "The Aging Cardiovascular System"
     },
     "3236": {
       "id": "mcq-a77459f28aa5bea68b87e0b9",
@@ -6380,7 +6382,9 @@
             "rangeText": "if fever of 101.5°F or higher, triple the daily hydrocortisone dose"
           }
         }
-      }
+      },
+      "chapter": "97",
+      "chapterTitle": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders"
     },
     "3256": {
       "id": "mcq-558754bdd0a7904a5c8cdd50",
@@ -7917,7 +7921,9 @@
           1280,
           1281
         ]
-      }
+      },
+      "chapter": "80",
+      "chapterTitle": "Respiratory System and Selected Pulmonary Disorders"
     },
     "3299": {
       "id": "mcq-e3682940da67f696841ee7d2",
@@ -9837,7 +9843,9 @@
             "rangeText": "Thus, the FEV1 to FVC ratio drops with aging."
           }
         }
-      }
+      },
+      "chapter": "80",
+      "chapterTitle": "Respiratory System and Selected Pulmonary Disorders"
     },
     "3358": {
       "id": "mcq-94046bbc8c7e9ec313c279d7",
@@ -10271,7 +10279,9 @@
         "citationOnly": [
           1117
         ]
-      }
+      },
+      "chapter": "73",
+      "chapterTitle": "The Aging Cardiovascular System"
     },
     "3371": {
       "id": "mcq-beb6eeb9a6b97998b481179e",
@@ -12010,7 +12020,9 @@
       "readerMapping": {
         "bankChapter": "ima-harrison-22e-ch458",
         "bankChapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies"
-      }
+      },
+      "chapter": "ima-harrison-22e-ch458",
+      "chapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies"
     },
     "3423": {
       "id": "mcq-5e44f7b9b75a76f17420c999",
@@ -12111,7 +12123,9 @@
         "passages": {
           "854": "TABLE 57-1 ■ COGNITIVE EFFECTS OF NORMAL AGING"
         }
-      }
+      },
+      "chapter": "57",
+      "chapterTitle": "Cognitive Changes in Normal and Pathologic Aging"
     },
     "3426": {
       "id": "mcq-8a61d27740b818d564cb66db",
@@ -13522,7 +13536,9 @@
             "rangeText": "Loss of elasticity of the lung results in more air residing in the lung at the end of maximum exhalation"
           }
         }
-      }
+      },
+      "chapter": "80",
+      "chapterTitle": "Respiratory System and Selected Pulmonary Disorders"
     },
     "3466": {
       "id": "mcq-dc0464bd4d984c0b0a739fe8",
@@ -13698,7 +13714,9 @@
           "1268": "Renal blood flow Average renal blood flow decreases about 10% per decade, dropping from 600 ",
           "1269": "Proteinuria Despite the significant decline in GFR that occurs with aging, proteinuria is no"
         }
-      }
+      },
+      "chapter": "82",
+      "chapterTitle": "Aging of the Kidney"
     },
     "3471": {
       "id": "mcq-f705217fdbb945bd5ee28a3c",
@@ -14473,8 +14491,11 @@
       ],
       "explanation": "## Bullous Pemphigoid – למה ב' נכונה?\n\n**פנינים קליניות:**\n\n✅ **BP היא המחלה הבולוסית השכיחה ביותר בקשישים**\n\n**הממצאים הקלאסיים שמתאימים:**\n- פריחה **אורטיקרית/אדמומית** בשלב הפרודרומלי\n- שלפוחיות **מתוחות ומוצקות** (tight bullae) – על בסיס אדום\n- **גרד עז מאוד**\n- **ללא מעורבות ריריות** (או מינימלית) – סימן מבדיל מרכזי!\n\n---\n\n## למה האחרות שגויות?\n\n| | סיבת הפסילה |\n|---|---|\n| **א.",
       "readerMapping": {
-        "bankChapter": null
-      }
+        "bankChapter": null,
+        "bankChapterTitle": "Harrison · ch. 59 (printed reference)"
+      },
+      "chapter": null,
+      "chapterTitle": "Harrison · ch. 59 (printed reference)"
     },
     "3495": {
       "id": "mcq-a48ff09dba8d7490a501c290",
@@ -15320,7 +15341,9 @@
       "readerMapping": {
         "bankChapter": "ima-harrison-22e-ch459",
         "bankChapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction"
-      }
+      },
+      "chapter": "ima-harrison-22e-ch459",
+      "chapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction"
     },
     "3521": {
       "id": "mcq-0102d7d6e5b1cbbe232c2184",
@@ -15540,7 +15563,9 @@
         "passages": {
           "1121": "Table 73-2"
         }
-      }
+      },
+      "chapter": "73",
+      "chapterTitle": "The Aging Cardiovascular System"
     },
     "4549": {
       "id": "mcq-379839aaebec0e3a1494bbd7",
@@ -16007,7 +16032,9 @@
         "namedChapters": [
           "99"
         ]
-      }
+      },
+      "chapter": "99",
+      "chapterTitle": "Diabetes Mellitus"
     },
     "4565": {
       "id": "mcq-e3d703443b76b9de6cb9b9b3",
@@ -16037,7 +16064,9 @@
         "passages": {
           "581": "Table 39-1"
         }
-      }
+      },
+      "chapter": "39",
+      "chapterTitle": "Systems Physiology of Aging and Selected Disorders of Homeostasis"
     },
     "4566": {
       "id": "mcq-c35e64bb9f1ba0dc91fc878d",
@@ -16694,7 +16723,9 @@
       "readerMapping": {
         "bankChapter": "ima-harrison-22e-ch458",
         "bankChapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies"
-      }
+      },
+      "chapter": "ima-harrison-22e-ch458",
+      "chapterTitle": "Harrison 22e ch. 458 – Guillain-Barré Syndrome and Other Immune-Mediated Neuropathies"
     },
     "4588": {
       "id": "mcq-3929e741ee0d01c333a58865",
@@ -16840,7 +16871,9 @@
         "passages": {
           "582": "Normal body temperature is regulated by the hypothalamic thermoregulatory center, which cont"
         }
-      }
+      },
+      "chapter": "39",
+      "chapterTitle": "Systems Physiology of Aging and Selected Disorders of Homeostasis"
     },
     "4593": {
       "id": "mcq-c42934955cd7ee9c0f7b5a69",
@@ -19880,7 +19913,9 @@
         "passages": {
           "1737": "The clinical features of RSV cannot definitively be distinguished from those of other viruse"
         }
-      }
+      },
+      "chapter": "108",
+      "chapterTitle": "Influenza, COVID-19, and Other Respiratory Viruses"
     },
     "4494": {
       "id": "mcq-9cd512aa5d4da9861ca5104a",
@@ -20179,7 +20214,9 @@
           "575": "Describe general features of physiological aging shared across tissues and organ systems inc",
           "576": "Homeostenosis reflects a narrowing of the capacity to maintain normal homeostasis which resu"
         }
-      }
+      },
+      "chapter": "39",
+      "chapterTitle": "Systems Physiology of Aging and Selected Disorders of Homeostasis"
     },
     "4504": {
       "id": "mcq-eccca84830066af8dba63fda",
@@ -21343,7 +21380,9 @@
         "passages": {
           "1623": "The mainstay of treatment for dry eye remains artificial tears. Preparations now available c"
         }
-      }
+      },
+      "chapter": "101",
+      "chapterTitle": "Rheumatoid Arthritis and Other Autoimmune Diseases"
     },
     "4453": {
       "id": "mcq-4bd44c1b63181235607f0841",

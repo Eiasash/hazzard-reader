@@ -11895,7 +11895,8 @@
       "pages": [],
       "tables": [],
       "chapters": [],
-      "bankChapter": null
+      "bankChapter": null,
+      "bankChapterTitle": "Harrison · ch. 59 (printed reference)"
     },
     "mcq-a48ff09dba8d7490a501c290": {
       "sitting": "2024-Sep",
@@ -23025,7 +23026,7 @@
         "mcq-b50ef7b89d34aea2228e11f4",
         "mcq-f365a90a91b0e154885b1034"
       ],
-      "before": 34,
+      "before": 15,
       "past": 2,
       "resolved": 0,
       "fallback": 0,
@@ -23497,7 +23498,7 @@
         "mcq-28f16301f638acf0121222dd",
         "mcq-8d25a66a3df7ec66e248a685"
       ],
-      "before": 0,
+      "before": 4,
       "past": 5,
       "resolved": 4,
       "fallback": 0,
@@ -23868,7 +23869,7 @@
         "mcq-d6cc2532e17ec18447c17651",
         "mcq-2a3ea14e94c9dbd28fcf1c08"
       ],
-      "before": 0,
+      "before": 1,
       "past": 14,
       "resolved": 11,
       "fallback": 0,
@@ -24261,7 +24262,7 @@
         "mcq-9cd512aa5d4da9861ca5104a",
         "mcq-f6a934085589d01c76d9730c"
       ],
-      "before": 0,
+      "before": 3,
       "past": 7,
       "resolved": 4,
       "fallback": 0,
@@ -24406,7 +24407,7 @@
         "mcq-d8222a690714331a4dd2ad76",
         "mcq-86b262840f3c7de29023078e"
       ],
-      "before": 0,
+      "before": 6,
       "past": 8,
       "resolved": 6,
       "fallback": 0,
@@ -24449,7 +24450,7 @@
         "mcq-379839aaebec0e3a1494bbd7",
         "mcq-8af38ea7cc6ef7cd16c20dde"
       ],
-      "before": 0,
+      "before": 1,
       "past": 9,
       "resolved": 5,
       "fallback": 0,
@@ -24691,7 +24692,7 @@
         "mcq-cbefe6f6ea86d7a584e4cf49",
         "mcq-dda6ac411f9ab187b0ed6d34"
       ],
-      "before": 0,
+      "before": 1,
       "past": 15,
       "resolved": 12,
       "fallback": 1,
@@ -24758,7 +24759,7 @@
         "mcq-404df6b6e3e250f64badb08a",
         "mcq-2e8b0536cb4bfe34d45e5e24"
       ],
-      "before": 5,
+      "before": 6,
       "past": 31,
       "resolved": 23,
       "fallback": 5,
@@ -24796,7 +24797,7 @@
         "mcq-dc6cb801b618efb366d202a9",
         "mcq-5e98e5b4f20aeaa91b485dcd"
       ],
-      "before": 0,
+      "before": 1,
       "past": 10,
       "resolved": 8,
       "fallback": 1,
@@ -24925,7 +24926,7 @@
         "mcq-79f5aabcf9100a6621351cea",
         "mcq-fd87e9c1bd94354816599257"
       ],
-      "before": 0,
+      "before": 1,
       "past": 5,
       "resolved": 5,
       "fallback": 0,

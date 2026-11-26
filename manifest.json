@@ -103,7 +103,8 @@
       "file": "hazzard8e_ch42_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/42s.json"
+      "markUnits": "data/mark-units/42s.json",
+      "drillCount": 6
     },
     {
       "number": "43s",
@@ -119,7 +120,8 @@
       "file": "hazzard8e_ch44_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/44s.json"
+      "markUnits": "data/mark-units/44s.json",
+      "drillCount": 7
     },
     {
       "number": "46s",
@@ -127,7 +129,8 @@
       "file": "hazzard8e_ch46_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 46",
-      "markUnits": "data/mark-units/46s.json"
+      "markUnits": "data/mark-units/46s.json",
+      "drillCount": 6
     },
     {
       "number": "47s",
@@ -135,7 +138,8 @@
       "file": "hazzard8e_ch47_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 47",
-      "markUnits": "data/mark-units/47s.json"
+      "markUnits": "data/mark-units/47s.json",
+      "drillCount": 9
     },
     {
       "number": "55s",
@@ -143,7 +147,8 @@
       "file": "hazzard8e_ch55_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/55s.json"
+      "markUnits": "data/mark-units/55s.json",
+      "drillCount": 7
     },
     {
       "number": "58s",
@@ -151,7 +156,8 @@
       "file": "hazzard8e_ch58_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 58",
-      "markUnits": "data/mark-units/58s.json"
+      "markUnits": "data/mark-units/58s.json",
+      "drillCount": 9
     },
     {
       "number": "59s",
@@ -159,7 +165,8 @@
       "file": "hazzard8e_ch59_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 59",
-      "markUnits": "data/mark-units/59s.json"
+      "markUnits": "data/mark-units/59s.json",
+      "drillCount": 7
     },
     {
       "number": "60s",
@@ -167,7 +174,8 @@
       "file": "hazzard8e_ch60_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 60",
-      "markUnits": "data/mark-units/60s.json"
+      "markUnits": "data/mark-units/60s.json",
+      "drillCount": 8
     },
     {
       "number": "61s",
@@ -175,7 +183,8 @@
       "file": "hazzard8e_ch61_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 61",
-      "markUnits": "data/mark-units/61s.json"
+      "markUnits": "data/mark-units/61s.json",
+      "drillCount": 9
     },
     {
       "number": "63s",
@@ -183,7 +192,8 @@
       "file": "hazzard8e_ch63_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/63s.json"
+      "markUnits": "data/mark-units/63s.json",
+      "drillCount": 6
     },
     {
       "number": "87s",
@@ -191,7 +201,8 @@
       "file": "hazzard8e_ch87_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/87s.json"
+      "markUnits": "data/mark-units/87s.json",
+      "drillCount": 7
     },
     {
       "number": "99s",
@@ -199,7 +210,8 @@
       "file": "hazzard8e_ch99_study.md",
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 99",
-      "markUnits": "data/mark-units/99s.json"
+      "markUnits": "data/mark-units/99s.json",
+      "drillCount": 4
     },
     {
       "number": "45",
@@ -303,7 +315,8 @@
       "file": "hazzard8e_ch45_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/45s.json"
+      "markUnits": "data/mark-units/45s.json",
+      "drillCount": 13
     },
     {
       "number": "51s",
@@ -311,7 +324,8 @@
       "file": "hazzard8e_ch51_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/51s.json"
+      "markUnits": "data/mark-units/51s.json",
+      "drillCount": 12
     },
     {
       "number": "52s",
@@ -319,7 +333,8 @@
       "file": "hazzard8e_ch52_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/52s.json"
+      "markUnits": "data/mark-units/52s.json",
+      "drillCount": 9
     },
     {
       "number": "57s",
@@ -327,7 +342,8 @@
       "file": "hazzard8e_ch57_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/57s.json"
+      "markUnits": "data/mark-units/57s.json",
+      "drillCount": 10
     },
     {
       "number": "68s",
@@ -335,7 +351,8 @@
       "file": "hazzard8e_ch68_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/68s.json"
+      "markUnits": "data/mark-units/68s.json",
+      "drillCount": 7
     },
     {
       "number": "81s",
@@ -343,7 +360,8 @@
       "file": "hazzard8e_ch81_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/81s.json"
+      "markUnits": "data/mark-units/81s.json",
+      "drillCount": 13
     },
     {
       "number": "97s",
@@ -351,7 +369,8 @@
       "file": "hazzard8e_ch97_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/97s.json"
+      "markUnits": "data/mark-units/97s.json",
+      "drillCount": 7
     },
     {
       "number": "98s",
@@ -359,7 +378,8 @@
       "file": "hazzard8e_ch98_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/98s.json"
+      "markUnits": "data/mark-units/98s.json",
+      "drillCount": 12
     },
     {
       "number": "101s",
@@ -367,7 +387,8 @@
       "file": "hazzard8e_ch101_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/101s.json"
+      "markUnits": "data/mark-units/101s.json",
+      "drillCount": 11
     },
     {
       "number": "102s",
@@ -375,7 +396,8 @@
       "file": "hazzard8e_ch102_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/102s.json"
+      "markUnits": "data/mark-units/102s.json",
+      "drillCount": 8
     },
     {
       "number": "104s",
@@ -383,7 +405,8 @@
       "file": "hazzard8e_ch104_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/104s.json"
+      "markUnits": "data/mark-units/104s.json",
+      "drillCount": 12
     },
     {
       "number": "105s",
@@ -391,14 +414,16 @@
       "file": "hazzard8e_ch105_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/105s.json"
+      "markUnits": "data/mark-units/105s.json",
+      "drillCount": 12
     },
     {
       "number": "108s",
       "title": "Influenza, COVID-19 and Respiratory Viruses — Study",
       "file": "hazzard8e_ch108_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "drillCount": 14
     },
     {
       "number": "65",
@@ -450,7 +475,8 @@
       "file": "hazzard8e_ch65_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/65s.json"
+      "markUnits": "data/mark-units/65s.json",
+      "drillCount": 13
     },
     {
       "number": "75s",
@@ -458,7 +484,8 @@
       "file": "hazzard8e_ch75_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/75s.json"
+      "markUnits": "data/mark-units/75s.json",
+      "drillCount": 14
     },
     {
       "number": "76s",
@@ -466,7 +493,8 @@
       "file": "hazzard8e_ch76_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/76s.json"
+      "markUnits": "data/mark-units/76s.json",
+      "drillCount": 11
     },
     {
       "number": "77s",
@@ -474,7 +502,8 @@
       "file": "hazzard8e_ch77_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/77s.json"
+      "markUnits": "data/mark-units/77s.json",
+      "drillCount": 13
     },
     {
       "number": "83s",
@@ -482,7 +511,8 @@
       "file": "hazzard8e_ch83_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/83s.json"
+      "markUnits": "data/mark-units/83s.json",
+      "drillCount": 11
     },
     {
       "number": "88s",
@@ -490,7 +520,8 @@
       "file": "hazzard8e_ch88_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/88s.json"
+      "markUnits": "data/mark-units/88s.json",
+      "drillCount": 10
     },
     {
       "number": "law",
@@ -515,7 +546,8 @@
       "file": "hazzard8e_ch15_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/15s.json"
+      "markUnits": "data/mark-units/15s.json",
+      "drillCount": 12
     },
     {
       "number": "27s",
@@ -523,7 +555,8 @@
       "file": "hazzard8e_ch27_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/27s.json"
+      "markUnits": "data/mark-units/27s.json",
+      "drillCount": 12
     },
     {
       "number": "49s",
@@ -531,14 +564,16 @@
       "file": "hazzard8e_ch49_study.md",
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
-      "markUnits": "data/mark-units/49s.json"
+      "markUnits": "data/mark-units/49s.json",
+      "drillCount": 12
     },
     {
       "number": "73s",
       "title": "The Aging Cardiovascular System — Study",
       "file": "hazzard8e_ch73_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "drillCount": 9
     },
     {
       "number": "82s",
@@ -546,7 +581,8 @@
       "file": "hazzard8e_ch82_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/82s.json"
+      "markUnits": "data/mark-units/82s.json",
+      "drillCount": 9
     },
     {
       "number": "53s",
@@ -554,7 +590,8 @@
       "file": "hazzard8e_ch53_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/53s.json"
+      "markUnits": "data/mark-units/53s.json",
+      "drillCount": 7
     },
     {
       "number": "67s",
@@ -562,14 +599,16 @@
       "file": "hazzard8e_ch67_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/67s.json"
+      "markUnits": "data/mark-units/67s.json",
+      "drillCount": 8
     },
     {
       "number": "92s",
       "title": "Gastrointestinal Malignancies — Study",
       "file": "hazzard8e_ch92_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "drillCount": 3
     },
     {
       "number": "95s",
@@ -577,7 +616,8 @@
       "file": "hazzard8e_ch95_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/95s.json"
+      "markUnits": "data/mark-units/95s.json",
+      "drillCount": 7
     },
     {
       "number": "106s",
@@ -585,14 +625,16 @@
       "file": "hazzard8e_ch106_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/106s.json"
+      "markUnits": "data/mark-units/106s.json",
+      "drillCount": 8
     },
     {
       "number": "50s",
       "title": "Mobility Assessment and Management — Study",
       "file": "hazzard8e_ch50_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/50s.json"
     },
     {
       "number": "8s",
@@ -623,7 +665,8 @@
       "title": "Institutional Long-Term and Post-Acute Care — Study",
       "file": "hazzard8e_ch16_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/16s.json"
     },
     {
       "number": "39s",
@@ -698,7 +741,8 @@
       "title": "Aging of the Kidney",
       "file": "hazzard8e_ch82_aging_of_the_kidney.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/82.json"
     },
     {
       "number": "27",
@@ -729,7 +773,8 @@
       "title": "The Aging Cardiovascular System",
       "file": "hazzard8e_ch73_the_aging_cardiovascular_system.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/73.json"
     },
     {
       "number": "95",
@@ -744,7 +789,8 @@
       "title": "Gastrointestinal Malignancies",
       "file": "hazzard8e_ch92_gastrointestinal_malignancies.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/92.json"
     },
     {
       "number": "67",
@@ -759,14 +805,16 @@
       "title": "Urinary Tract Infections",
       "file": "hazzard8e_ch106_urinary_tract_infections.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/106.json"
     },
     {
       "number": "80",
       "title": "Respiratory System and Selected Pulmonary Disorders",
       "file": "hazzard8e_ch80_respiratory_system_and_selected_pulmonary_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/80.json"
     },
     {
       "number": "80s",
@@ -781,42 +829,48 @@
       "title": "Coagulation Disorders",
       "file": "hazzard8e_ch96_coagulation_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/96.json"
     },
     {
       "number": "50",
       "title": "Mobility Assessment and Management",
       "file": "hazzard8e_ch50_mobility_assessment_and_management.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/50.json"
     },
     {
       "number": "22",
       "title": "Medication Prescribing and De-Prescribing",
       "file": "hazzard8e_ch22_medication_prescribing_and_de_prescribing.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/22.json"
     },
     {
       "number": "9",
       "title": "Mental Status and Neurologic Examination",
       "file": "hazzard8e_ch9_mental_status_and_neurologic_examination.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/9.json"
     },
     {
       "number": "39",
       "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis",
       "file": "hazzard8e_ch39_systems_physiology_of_aging_and_selected_disorders_of_homeostasis.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/39.json"
     },
     {
       "number": "93",
       "title": "Skin Cancer",
       "file": "hazzard8e_ch93_skin_cancer.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/93.json"
     },
     {
       "number": "93s",
@@ -830,14 +884,16 @@
       "title": "Other Viruses: Human Immunodeficiency Virus Infection and Herpes Zoster",
       "file": "hazzard8e_ch107_other_viruses_human_immunodeficiency_virus_infection_and_herpes_zoster.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/107.json"
     },
     {
       "number": "74",
       "title": "Coronary Heart Disease and Dyslipidemia",
       "file": "hazzard8e_ch74_coronary_heart_disease_and_dyslipidemia.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/74.json"
     },
     {
       "number": "89",
@@ -883,7 +939,8 @@
       "title": "Aging of the Gastrointestinal System and Selected Lower GI Disorders",
       "file": "hazzard8e_ch84_aging_of_the_gastrointestinal_system_and_selected_lower_gi_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/84.json"
     },
     {
       "number": "84s",
@@ -897,7 +954,8 @@
       "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation",
       "file": "hazzard8e_ch30_nutrition_disorders_obesity_and_enteral_parenteral_alimentation.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/30.json"
     },
     {
       "number": "30s",
@@ -912,7 +970,8 @@
       "title": "Prostate Cancer",
       "file": "hazzard8e_ch90_prostate_cancer.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/90.json"
     },
     {
       "number": "90s",
@@ -926,7 +985,8 @@
       "title": "Prevention and Screening",
       "file": "hazzard8e_ch11_prevention_and_screening.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/11.json"
     },
     {
       "number": "11s",
@@ -963,7 +1023,8 @@
       "title": "Institutional Long-Term and Post-Acute Care",
       "file": "hazzard8e_ch16_institutional_long_term_and_post_acute_care.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/16.json"
     },
     {
       "number": "85",
@@ -993,7 +1054,8 @@
       "title": "Benign Prostate Disorders",
       "file": "hazzard8e_ch38_benign_prostate_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/38.json"
     },
     {
       "number": "38s",
@@ -1024,7 +1086,8 @@
       "title": "Traumatic Brain Injury and Chronic Traumatic Encephalopathy",
       "file": "hazzard8e_ch64_traumatic_brain_injury_and_chronic_traumatic_encephalopathy.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/64.json"
     },
     {
       "number": "64s",
@@ -1038,7 +1101,8 @@
       "title": "Palliative Care Across Care Settings",
       "file": "hazzard8e_ch70_palliative_care_across_care_settings.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/70.json"
     },
     {
       "number": "70s",
@@ -1144,7 +1208,8 @@
       "title": "General Topics in Geriatric Psychiatry",
       "file": "hazzard8e_ch66_general_topics_in_geriatric_psychiatry.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/66.json"
     },
     {
       "number": "66s",
@@ -1174,7 +1239,8 @@
       "title": "Assessment of Decisional Capacity and Competencies",
       "file": "hazzard8e_ch10_assessment_of_decisional_capacity_and_competencies.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/10.json"
     },
     {
       "number": "10s",
@@ -1219,7 +1285,8 @@
       "title": "Gynecologic Disorders",
       "file": "hazzard8e_ch36_gynecologic_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/36.json"
     },
     {
       "number": "36s",

@@ -272,7 +272,7 @@ In these populations, clinicians should consider early on whether screening test
 
 <a id="p170"></a>**[p. 170]**
 
-burdensome to patients already managing multiple medical conditions. Moreover, individuals with dementia and their family members require careful counseling and consent prior to testing. Medications for asymptomatic conditions should be regularly reevaluated to determine if deprescribing is appropriate (eg, de-intensifying glycemic control). Behavioral counseling might involve managing expectations about reasonable goals, for example, with maintaining moderate physical activity or community engagement. Moreover,
+burdensome to patients already managing multiple medical conditions. Moreover, individuals with dementia and their family members require careful counseling and consent prior to testing. Medications for asymptomatic conditions should be regularly reevaluated to determine if deprescribing is appropriate (eg, de-intensifying glycemic control). Behavioral counseling might involve managing expectations about reasonable goals, for example, with maintaining moderate physical activity or community engagement. Moreover, serious illness and multimorbidity may themselves lead to unavoidable changes in health behaviors. For example, dementia can lead to the loss of interest in eating and malnutrition, and so families should be provided anticipatory guidance on what can be “prevented” and what may be expected as part of the disease trajectory. In general, eliciting patient and family values and preferences can help clinicians align available preventive interventions with the goals of individual patients.
 
 ## FURTHER READING
 
@@ -301,8 +301,6 @@ O’Brien S, Walter LC. Time lag to benefit after screening for breast and color
 public health in older adults: Recommendations from the American College of Sports Medicine and American Heart Association. Circulation. 2007;116(9):1094–1105. Nichol KL, Nordin JD, Nelson DB, Mullooly JP, Hak E. Effec-
 
 tiveness of influenza vaccine in the community-dwelling elderly. N Engl J Med. 2007;357(14):1373–1381.
-
-serious illness and multimorbidity may themselves lead to unavoidable changes in health behaviors. For example, dementia can lead to the loss of interest in eating and malnutrition, and so families should be provided anticipatory guidance on what can be “prevented” and what may be expected as part of the disease trajectory. In general, eliciting patient and family values and preferences can help clinicians align available preventive interventions with the goals of individual patients.
 
 Rollnick S, Mason P, Butler C. Health Behavior
 

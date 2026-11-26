@@ -1,5 +1,5 @@
 {
-  "version": "v321",
+  "version": "v322",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -28,8 +28,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch100_myopathies_polymyalgia_rheumatica_and_giant_cell_arteritis.md",
-      "sha256": "e29cea9630c39d6f2224fea7346078a08a2c35367dc9f6e66dbe5c583406d772",
-      "bytes": 93396
+      "sha256": "e0a829250d2c4cbf249ade55768df47384c47859dc2cd6e4e0bceebe71317f9f",
+      "bytes": 93395
     },
     {
       "url": "./chapters/hazzard8e_ch100_study.md",
@@ -283,8 +283,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch104_study.md",
-      "sha256": "98ccb58883b42ddc6cde23fdfa86e548aaebecb9a2540b74879c16e14c7594c4",
-      "bytes": 30061
+      "sha256": "de6fa6f5d9178fd2901041c4c9fe1ca0797795e83e44baa282feccc07d1ba861",
+      "bytes": 29981
     },
     {
       "url": "./chapters/hazzard8e_ch104_table104-1_p1672.png",
@@ -438,7 +438,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch106_urinary_tract_infections.md",
-      "sha256": "1bdaa1c3e2c3c8a88d1fd9fdbc983b32e3798d9eb2f37a02f7a99780bf489605",
+      "sha256": "13d7556cecd8e5a5937a6be5bf85e9451fc5b69a506b4af791530d45799efdc2",
       "bytes": 83989
     },
     {
@@ -463,8 +463,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch107_other_viruses_human_immunodeficiency_virus_infection_and_herpes_zoster.md",
-      "sha256": "bef34007bd9bf358725cb9da9756de354ebbaf6a7bc3f5281936fa3fc257fafb",
-      "bytes": 57348
+      "sha256": "a83bf30be9143141cbf5d85a09356dda0c938607f2b243a30de038c8cdb90f96",
+      "bytes": 57347
     },
     {
       "url": "./chapters/hazzard8e_ch107_study.md",
@@ -503,7 +503,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch10_assessment_of_decisional_capacity_and_competencies.md",
-      "sha256": "86fbf44ed6a476e6e55127c5f9f858974252ca3a56615c730e676364300f66cb",
+      "sha256": "286831dd96164ae773238271668e73cece697b46b962539694e526274ae9d82c",
       "bytes": 26536
     },
     {
@@ -528,13 +528,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch11_prevention_and_screening.md",
-      "sha256": "b57fcde65b8dcd6d886b4eae1bd3dbfabdaec3d26d780a2c5ad60f4c0c899a34",
-      "bytes": 67097
+      "sha256": "0598852503a2a74da6f2f1488505ceb9e938854bdbd7435915291b3c5f880ae3",
+      "bytes": 67096
     },
     {
       "url": "./chapters/hazzard8e_ch11_study.md",
-      "sha256": "dc5ce040c80a41c7e6bb1768a82be0002a98d34f21c44136ac3983b1769153e7",
-      "bytes": 18997
+      "sha256": "9ae90c4cfedff80cce7a2e0b291043a013b70bdf409014c748f6167ced82bf97",
+      "bytes": 18909
     },
     {
       "url": "./chapters/hazzard8e_ch11_table-11-1_p162.webp",
@@ -693,8 +693,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch15_emergency_department_care.md",
-      "sha256": "e6485e84f9dc93872599d424a53cfde2fe4e7e887047792bcdcdd1f4adf24df8",
-      "bytes": 34618
+      "sha256": "f9ef7d4d79e7b1055d6379875ac4e31ce123b4314e460aff077c692cab6db1a5",
+      "bytes": 34617
     },
     {
       "url": "./chapters/hazzard8e_ch15_figure-15-1-continued_p209.webp",
@@ -768,8 +768,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch15_study.md",
-      "sha256": "518902e2ce04eba7b7bcbb9401e6a8e3c59b35b3609818f23190b8d31d651205",
-      "bytes": 31344
+      "sha256": "1880277f090bb955d53595a5bf9d5987781be7a7988a90770a4ee6e136b88c91",
+      "bytes": 31266
     },
     {
       "url": "./chapters/hazzard8e_ch15_table-15-1_p209.webp",
@@ -813,13 +813,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch16_institutional_long_term_and_post_acute_care.md",
-      "sha256": "3ab13579b073117deb1a343b3a22a4b16b9499e6fca0e7bd6a4e9f57eac7ec85",
-      "bytes": 44234
+      "sha256": "1f66ed93f21ee3a59c80e578a6a3bf9dd51e08af3946c95383bfa31eee02e1eb",
+      "bytes": 44233
     },
     {
       "url": "./chapters/hazzard8e_ch16_study.md",
-      "sha256": "d1f2af1724cf17433ef71497d30ceaca70f253426aa670958d8a4b12c421375c",
-      "bytes": 2927
+      "sha256": "a553f38ba58bcec8a2d040dd6fb425fed86d811d5bc43d555ca803d4b3685077",
+      "bytes": 2865
     },
     {
       "url": "./chapters/hazzard8e_ch16_table-16-1_p222.webp",
@@ -1218,8 +1218,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch22_medication_prescribing_and_de_prescribing.md",
-      "sha256": "746363a18bed31542b12fe29e7ae2ca1aaa80ce71f84e8a33225949003df8844",
-      "bytes": 73790
+      "sha256": "57290e4e8dd4dc6a6eb0ce284598244d34d91b869258d41080613427b9fb07b7",
+      "bytes": 73789
     },
     {
       "url": "./chapters/hazzard8e_ch22_study.md",
@@ -1363,7 +1363,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch26_legal_issues.md",
-      "sha256": "670558c386d937f9b13fecdb0eac8f169dcb11e4edd9e98054f0d109c0c82a0a",
+      "sha256": "8791ae40fc538b05aed1db0939b78b04de1260a5e0e6d9283265c3f244434c85",
       "bytes": 54409
     },
     {
@@ -1398,7 +1398,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch27_perioperative_care_evaluation_and_management.md",
-      "sha256": "c689b22a14829164b9ff09db44389ddcb65e718711579ae6449d4ac7bdd599bd",
+      "sha256": "2ee26055326aca6c6f761d9f4c6cfe81936eed2b46d9476b0f986acdfbeb20d5",
       "bytes": 50398
     },
     {
@@ -1663,8 +1663,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch30_nutrition_disorders_obesity_and_enteral_parenteral_alimentation.md",
-      "sha256": "dd5f79991c22494bba597fcff56ded89b7acf390b2679150948af73fc35e5517",
-      "bytes": 148169
+      "sha256": "6c0db520991aa8f2d9a17f0eff966b61990b44e1f99a05683c8eee5fd77c7a83",
+      "bytes": 148168
     },
     {
       "url": "./chapters/hazzard8e_ch30_study.md",
@@ -2003,7 +2003,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch34_hearing_loss_assessment_and_management.md",
-      "sha256": "0292c37c515ab8bbe636ca0a1bda98d74e357afb62a48f688f24465dfa02dc21",
+      "sha256": "dea68643ccc0c9cf4adcd3394b1b538093ab878569fbfb235a8874d303bc1932",
       "bytes": 66548
     },
     {
@@ -2173,7 +2173,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch36_gynecologic_disorders.md",
-      "sha256": "05b295a7e135403b8abba18655b1e55f0055e424c3061ca3570b15170b266846",
+      "sha256": "566b9174a16cc35579a44ef37c4a59e465120b131d202ea41f4ea37586350a11",
       "bytes": 86885
     },
     {
@@ -2248,8 +2248,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch38_benign_prostate_disorders.md",
-      "sha256": "f2bb28c4437285578e1584e239c4445f4345ddf5e0d9626e0fe476afcaab2d72",
-      "bytes": 59340
+      "sha256": "40fa34c46edaece8e52c49048f682dfd8455071d78b36607650ecb80981e6e9d",
+      "bytes": 59338
     },
     {
       "url": "./chapters/hazzard8e_ch38_figure-38-1_p556.webp",
@@ -2333,8 +2333,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch39_systems_physiology_of_aging_and_selected_disorders_of_homeostasis.md",
-      "sha256": "6e67b40e0348324562d8d95f1c9c38fa6d1700b6645be875714c05e17e4a4465",
-      "bytes": 75158
+      "sha256": "66639eed59f2de2629c3bbd82daf23cc4ebf72233fbfd9d971031f36fee70db8",
+      "bytes": 75157
     },
     {
       "url": "./chapters/hazzard8e_ch39_table-39-1_p581.webp",
@@ -2583,8 +2583,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch42_study.md",
-      "sha256": "ff9f43189989ba4ed5bf964e549734274c6c2dab8da033e659572efc31b4223d",
-      "bytes": 22731
+      "sha256": "6f54da55e36cdd85b78dbb77d7e117672a3097b408aaa06256cd684499d9a441",
+      "bytes": 22801
     },
     {
       "url": "./chapters/hazzard8e_ch42_table42-3_p621.png",
@@ -2693,8 +2693,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch44_study.md",
-      "sha256": "e2088b08a48870b8b2e5e4c127f11811763469a591488d0599df1b9ee94f4eba",
-      "bytes": 23153
+      "sha256": "b113a6b82b33abb7020afae83c01da019c27a0817b9ec2daac2ca3daa2678a02",
+      "bytes": 23381
     },
     {
       "url": "./chapters/hazzard8e_ch44_table44-1_p646.png",
@@ -2798,8 +2798,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch48_elder_mistreatment.md",
-      "sha256": "2a16c720338df692f6c6d5779be73f66e42c5e53f57ad61b9a514af304090809",
-      "bytes": 37113
+      "sha256": "c6f56db86cd8ebb8e6d8cb28454994f0deaf00f86758823b5f5790feeba6b701",
+      "bytes": 37112
     },
     {
       "url": "./chapters/hazzard8e_ch48_figure-48-1_p723.webp",
@@ -2843,13 +2843,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch49_muscle_aging_and_sarcopenia.md",
-      "sha256": "fbae42078021556ea56e6bab4ee6f8b5e4fff2d7f4139d87be73c24aa5c94a28",
-      "bytes": 45979
+      "sha256": "593f4e9e0adc009edaf4edc3af297e8424a0966dbbc0fe4449cecf916e929fe6",
+      "bytes": 45978
     },
     {
       "url": "./chapters/hazzard8e_ch49_study.md",
-      "sha256": "dee3896a3d756edac006325de73089cb01f5fa8c3aeb991e90655b301b9d86f0",
-      "bytes": 29490
+      "sha256": "db9f3b07d6ff20b6f7cdb56f7bb0860b627049ce2c8e1060439521a217fd0bc1",
+      "bytes": 29530
     },
     {
       "url": "./chapters/hazzard8e_ch49_table-49-1_p730.webp",
@@ -2963,13 +2963,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch50_mobility_assessment_and_management.md",
-      "sha256": "1931b57e428720df73fe0cc9439fe5b59a216b5fe9a27b0f32e8de8546b55db0",
-      "bytes": 53369
+      "sha256": "e5e78b658b5e739eefb986390e64cebf9a89d15bdab9f5daeb4520572d88f058",
+      "bytes": 53368
     },
     {
       "url": "./chapters/hazzard8e_ch50_study.md",
-      "sha256": "05c1a0b5dd9be590e0315c052ba011080ecad9895086fba088ed760edc420c1b",
-      "bytes": 3311
+      "sha256": "bed8df6562ca6b82906e9b9d6399b005b60e83d795c332fa07cbb29c7828bdc3",
+      "bytes": 3185
     },
     {
       "url": "./chapters/hazzard8e_ch50_table-50-1_p742.webp",
@@ -3498,8 +3498,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch62_cerebrovascular_disease.md",
-      "sha256": "08cb17c5bff4d42cd01615b0e7d3cb7a36d5c2ad69ab01666658b61867607fd4",
-      "bytes": 143892
+      "sha256": "2ac3f5d9e35f595076db862a37dee1fc315532652e97c9c83de4ba51b5c2ebb6",
+      "bytes": 143891
     },
     {
       "url": "./chapters/hazzard8e_ch62_figure-62-1_p955.webp",
@@ -3603,8 +3603,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch64_traumatic_brain_injury_and_chronic_traumatic_encephalopathy.md",
-      "sha256": "16c86e822e5e491a08807a67aea0a4e45d8a639c8af4d16de8baef77892b06bf",
-      "bytes": 36340
+      "sha256": "134c4635de0f39e11a919acdffc5978d7c3411640a16abe50e9a027f16789373",
+      "bytes": 36339
     },
     {
       "url": "./chapters/hazzard8e_ch65_figure65-1.png",
@@ -3638,8 +3638,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch65_study.md",
-      "sha256": "450a5e336608032eff19b2886d643429ddcc6c3af92c6c842a6768697f686632",
-      "bytes": 31257
+      "sha256": "d5045830403bb8891a6fe8685b3c69fa9eb44efed6c85d315c49ca0f500a283a",
+      "bytes": 31107
     },
     {
       "url": "./chapters/hazzard8e_ch65_table65-1_p1017.png",
@@ -3663,8 +3663,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch66_general_topics_in_geriatric_psychiatry.md",
-      "sha256": "15f14a8ecc8956c7dcc7f14dcbe9e209b56544c7ad164261a839902312e31093",
-      "bytes": 123829
+      "sha256": "e929a69c84dfd090a7bfb3b17d7c44997084defb0b84e5f57be32ffa35f91572",
+      "bytes": 123827
     },
     {
       "url": "./chapters/hazzard8e_ch66_study.md",
@@ -3683,8 +3683,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch67_palliative_care_and_special_management_issues.md",
-      "sha256": "7d572c8c2f0dbb765ba1d0806b3c8fb952e1f6d1116b15f509a40ad2fc59f96c",
-      "bytes": 45294
+      "sha256": "86cdab03d91ded2006d362be4c1327ba6a83cbdb5717c5ca1f8cf370278c0f95",
+      "bytes": 45292
     },
     {
       "url": "./chapters/hazzard8e_ch67_study.md",
@@ -3863,8 +3863,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch70_palliative_care_across_care_settings.md",
-      "sha256": "2a136310043314a0cec7e8c7d803a06b55cc921b8bcabb80689208f704e984ef",
-      "bytes": 53486
+      "sha256": "9cb08ec9a83f3131c741ac5f682af7ead30afdf65f566b030bd580293eb59a17",
+      "bytes": 53485
     },
     {
       "url": "./chapters/hazzard8e_ch70_study.md",
@@ -3923,8 +3923,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch72_ethical_issues.md",
-      "sha256": "cac8e59bbc15044ef5edf33e43572270664cdf9794f8b46e000147a5d3a4f5c1",
-      "bytes": 65878
+      "sha256": "3675b789f8944a549b0d25d7933fd7ed82fc22e41abeb45e3d107672cfeb00a4",
+      "bytes": 65876
     },
     {
       "url": "./chapters/hazzard8e_ch72_figure-72-1_p1101.webp",
@@ -4073,13 +4073,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch73_the_aging_cardiovascular_system.md",
-      "sha256": "cbe7504f04b768cec77426be24267f8bbaf550c9c0b2d4d357a7e4ac304ceb94",
-      "bytes": 75430
+      "sha256": "50381aff98244537a8ff5526b075abe7663d8af0238b209897d22da4fa93c151",
+      "bytes": 75428
     },
     {
       "url": "./chapters/hazzard8e_ch74_coronary_heart_disease_and_dyslipidemia.md",
-      "sha256": "a0b05d4b9fdeaf006fce8a43f8703b7fbff9bb17fb7661f0cc78ccbc61661b9c",
-      "bytes": 78039
+      "sha256": "4358905b90b4fa92dbf3cdb6ecb95ddcbac41d1018c87a2e2b719064f433a654",
+      "bytes": 78038
     },
     {
       "url": "./chapters/hazzard8e_ch74_figure-74-1_p1134.webp",
@@ -4133,8 +4133,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch75_study.md",
-      "sha256": "06a2da050f38701830bf63ab46ccf31515794e1aa7cacf5408d364b34dac25e3",
-      "bytes": 38507
+      "sha256": "632aef74b402108ee66fc319261840b5173a49da8998a77945495ef1f07f1780",
+      "bytes": 38301
     },
     {
       "url": "./chapters/hazzard8e_ch75_table75-12_p1160.png",
@@ -4203,8 +4203,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch76_study.md",
-      "sha256": "624cb88789c880dc1bd6fee696293dd2924aa9669753044b9518bb6365025cf3",
-      "bytes": 34513
+      "sha256": "83500dae0212379f6aad73f5198c95b5d9500ae03b1c802f7395ecc07954919f",
+      "bytes": 34449
     },
     {
       "url": "./chapters/hazzard8e_ch76_table76-10_p1178.png",
@@ -4413,13 +4413,13 @@
     },
     {
       "url": "./chapters/hazzard8e_ch78_peripheral_vascular_disease.md",
-      "sha256": "cdecd6b5add7b58689cb8e75d5f02b2bd013276ff9423dc0e8dac444ee823f9e",
-      "bytes": 50770
+      "sha256": "53868f0e31bc788536b097a6ea8b16fd4057e77961c00094473da007ab45efca",
+      "bytes": 50769
     },
     {
       "url": "./chapters/hazzard8e_ch78_study.md",
-      "sha256": "da8bfe63b017e9b4390ba2a6e02fd10de5726974bdcfc637c1280efda8c4a5e6",
-      "bytes": 19403
+      "sha256": "a38573009420ed8ff0ee84f2b302a5e614308f16c6ab79b1e6b592e4a7bb5a10",
+      "bytes": 19448
     },
     {
       "url": "./chapters/hazzard8e_ch78_table-78-1_p1213.webp",
@@ -4443,7 +4443,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch79_hypertension.md",
-      "sha256": "f1b91169a33773cac006a5f12947ec93520c0124aa23194bcdb55193037ba44f",
+      "sha256": "d20891e5f67b09fbbf5a144c6d3254e86aaf0d1546e841256f32933449e4c086",
       "bytes": 46096
     },
     {
@@ -4473,7 +4473,7 @@
     },
     {
       "url": "./chapters/hazzard8e_ch7_decision_making_and_advance_care_planning_what_matters_most.md",
-      "sha256": "a6473326d09121bb4741b578762eed1b28ce2426005fc474c3a8ac638982aeb5",
+      "sha256": "d52f77cd1f473eb43c4bd2264bff4229764e3b8957daec70d75890794f1fb395",
       "bytes": 45039
     },
     {
@@ -4513,8 +4513,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch80_respiratory_system_and_selected_pulmonary_disorders.md",
-      "sha256": "3fae05c23a2766c4aae056ef02ad16e30a689f53989ea4212ce5b6f2fd6edaaa",
-      "bytes": 19845
+      "sha256": "d610d4cb48569e49d871cace9e0c6291879a1776b286a79c0944f29e8118d31f",
+      "bytes": 19844
     },
     {
       "url": "./chapters/hazzard8e_ch80_study.md",
@@ -4598,8 +4598,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch82_aging_of_the_kidney.md",
-      "sha256": "848a646d6fb80d67b477d1f37c70c22da3c8fda52abbbcf3d35591660ace6709",
-      "bytes": 52255
+      "sha256": "1b73f695fef3f4153fd9608b08a2594318526f5475e08531af37d0bdf387c60b",
+      "bytes": 52254
     },
     {
       "url": "./chapters/hazzard8e_ch82_cockcroft-gault-equation_p1268.webp",
@@ -4683,8 +4683,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch83_study.md",
-      "sha256": "4d2544fdb4b34f02faf5c7926926da1269c70c7435b469435497f7bc46abc377",
-      "bytes": 30988
+      "sha256": "b0ce809ea2beda2104c68da05340a056646bbfef291dfffc8144c1e44308dc02",
+      "bytes": 30896
     },
     {
       "url": "./chapters/hazzard8e_ch83_table83-1_p1281.png",
@@ -4708,8 +4708,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch84_aging_of_the_gastrointestinal_system_and_selected_lower_gi_disorders.md",
-      "sha256": "372e670209be717b419d1e1c5ed07fa99a3681998a519f5557d8972923894abf",
-      "bytes": 67100
+      "sha256": "bf00cdea09c130abe10214b4df002e413f378d5ac4c20407398eb63f84d877dc",
+      "bytes": 67099
     },
     {
       "url": "./chapters/hazzard8e_ch84_figure-84-1_p1300.webp",
@@ -5143,8 +5143,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch89_breast_disease.md",
-      "sha256": "dd0612f7d3082d76730092382a2ce3f4ff5b8c97774751d91fe4f76506578465",
-      "bytes": 48893
+      "sha256": "d345f1180b03aca1e95a1dffd81302e309aa675916230e9db23708bf18334efb",
+      "bytes": 48891
     },
     {
       "url": "./chapters/hazzard8e_ch89_figure-89-1_p1396.webp",
@@ -5223,8 +5223,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch8_principles_of_geriatric_assessment.md",
-      "sha256": "935ea98ff67613cc46fd42a94d93b821c03817700f6a5480a33c5946c29d1fd4",
-      "bytes": 62750
+      "sha256": "dd5c8aa7b6a7eb541b31f9909f724c12ab540cc2fdce0b4c21481a66f79cf1ae",
+      "bytes": 62749
     },
     {
       "url": "./chapters/hazzard8e_ch8_study.md",
@@ -5278,8 +5278,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch90_prostate_cancer.md",
-      "sha256": "6fbf647a13d5f9192d256fa3d9b66d3d6a0aaa329cdde700a12a27214f20ebc5",
-      "bytes": 58269
+      "sha256": "6d3f23cc2cb1eb08c75357bd40a3a42b29358049293a73e1299bc289bceea3d2",
+      "bytes": 58267
     },
     {
       "url": "./chapters/hazzard8e_ch90_study.md",
@@ -5358,8 +5358,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch92_gastrointestinal_malignancies.md",
-      "sha256": "2f7f799a69717ae019d26ee421a9fdd1eb14c7c6f32d3cb5a19069a3eeaf6212",
-      "bytes": 99958
+      "sha256": "ad3ba7884e4d99b7779c1b91083e4fe2740cd9970467502fda35a8164207799c",
+      "bytes": 99956
     },
     {
       "url": "./chapters/hazzard8e_ch92_study.md",
@@ -5473,8 +5473,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch93_skin_cancer.md",
-      "sha256": "8869a85083a32507d68985aecae454adc8ed0ca55d187e7d2c73a91ddaa0d3b8",
-      "bytes": 75230
+      "sha256": "118865207ba3330052a74ab84de1caafe0dd55cc1dddb32a659fe20f3c5d8afa",
+      "bytes": 75229
     },
     {
       "url": "./chapters/hazzard8e_ch93_study.md",
@@ -5498,8 +5498,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch94_aging_of_the_hematopoietic_system_and_anemia.md",
-      "sha256": "b9b418aee101a15f8f15f2773e2423fac95bbf5c47847d52e45cc01e441a08f4",
-      "bytes": 37102
+      "sha256": "75ce935131dd5fde3598199f28264e1fa573057621ab945af23e44c7d63e023b",
+      "bytes": 37101
     },
     {
       "url": "./chapters/hazzard8e_ch94_figure-94-1_p1474.webp",
@@ -5633,8 +5633,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch96_coagulation_disorders.md",
-      "sha256": "82e47454e4ee352fbd38980c267bf6e4f20c4dc79e19851e6fd64fd09980f34f",
-      "bytes": 67500
+      "sha256": "4d98b50e8d70b689b0ca5199daf86b00e65a0778cfd25dc6379a0c35b1695307",
+      "bytes": 67499
     },
     {
       "url": "./chapters/hazzard8e_ch96_figure-96-1_p1510.webp",
@@ -5848,8 +5848,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch9_mental_status_and_neurologic_examination.md",
-      "sha256": "95fd7a7645675a273e42dff6fd36a385e610d2dabf2282339949077f3932beb3",
-      "bytes": 75151
+      "sha256": "606095e44c09dd9027feaad3f8f12ee6d9374069b1ae96490e7ac0c1e9895d41",
+      "bytes": 75150
     },
     {
       "url": "./chapters/hazzard8e_ch9_study.md",
@@ -5968,8 +5968,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "ab1d7568a79ecebcc95cabf6efd94d62e8cd2fe4f4d5ca4bc91c2f59194bc001",
-      "bytes": 42882
+      "sha256": "013513bfecbe04809a8a4d12faa24c06ccf1eb28a20b0789d6101ed22c18a5c8",
+      "bytes": 42925
     },
     {
       "url": "./css/memory-aids.css",
@@ -5978,13 +5978,13 @@
     },
     {
       "url": "./css/reader-sections.css",
-      "sha256": "0960c0ffb4e7170978b91c0adcc4d85e622e28f6e4a62d1f0416192e65edfa4d",
+      "sha256": "07967a6f231c208ba1b801fcfbebcf168b755fe8c3d6b9c23966a520ba4d6d41",
       "bytes": 4380
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "72633d3f5c7f57f6a9faa8aad735d0c85c37450851368d3cf308ab7c34b84761",
-      "bytes": 9678
+      "sha256": "a7a0f598379274ddb16d4322883e21fc7f85d415ba6b30bf5f5981bd13062eb8",
+      "bytes": 10363
     },
     {
       "url": "./css/reading-companion.css",
@@ -5993,13 +5993,13 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "91700c5354b173b97e0aa6f61434408efb5ed2d50436af31541a5c97d8f852c2",
-      "bytes": 77430
+      "sha256": "8432c540ad3e3cab2f13b7ca131f0c3bb66efee642a2ea0de196a804c6b67e9c",
+      "bytes": 77893
     },
     {
       "url": "./data/drug-index.json",
-      "sha256": "38e7eed7f4792f82ed689c06ac203c33f4e9f70e9e62800fffc871691fc7c7ce",
-      "bytes": 736097
+      "sha256": "662b4b1711f388f886998a3af31ba80c5681f4462f4617791d559e58976a3a40",
+      "bytes": 1175148
     },
     {
       "url": "./data/flashcards.json",
@@ -6015,6 +6015,11 @@
       "url": "./data/law-cards.json",
       "sha256": "bd7664273a21dc40757347760c65fe54c0b111d1093cf6e3824871ec7f9220db",
       "bytes": 728831
+    },
+    {
+      "url": "./data/mark-units/10.json",
+      "sha256": "bd95407de467d5b28d85adff6c9c3a4d64c05c3a9bf14f7453555e037fca991d",
+      "bytes": 94
     },
     {
       "url": "./data/mark-units/100.json",
@@ -6052,9 +6057,24 @@
       "bytes": 17026
     },
     {
+      "url": "./data/mark-units/106.json",
+      "sha256": "d88fb5142c9ae2b8ff7fd9ee6b10a17033e96f0089217100c55312c20910276c",
+      "bytes": 93
+    },
+    {
       "url": "./data/mark-units/106s.json",
       "sha256": "e3d5957f8e03c0640214f195397bad346475a5fa28358b4047d03cfa8aaf4d82",
       "bytes": 5623
+    },
+    {
+      "url": "./data/mark-units/107.json",
+      "sha256": "ec3626e389d15d7a1efa280be75f6cb3fe2cf75845bc352c7a53fae3c53f0d8b",
+      "bytes": 89
+    },
+    {
+      "url": "./data/mark-units/11.json",
+      "sha256": "ede05fcc1da843b9141171c62652e043732b59f1726708bb716c126c10eedbe6",
+      "bytes": 89
     },
     {
       "url": "./data/mark-units/11s.json",
@@ -6063,13 +6083,23 @@
     },
     {
       "url": "./data/mark-units/15.json",
-      "sha256": "deeee773fbd2a66e25f7cbbf1229822908217707f25ec37a87ff9a44eb493dce",
-      "bytes": 36229
+      "sha256": "0cc56faab5a0944c6e1795905de48610d7ec20c2897741be0c7fe5960442c945",
+      "bytes": 36275
     },
     {
       "url": "./data/mark-units/15s.json",
       "sha256": "16de0815f1fad943c3052776b33b4167e3d0ebdf5898c5b85ed7c0aba55abc25",
       "bytes": 20265
+    },
+    {
+      "url": "./data/mark-units/16.json",
+      "sha256": "886a70579ef2d8d5e60f3817cc5673bb1b94ac46b579b71427fcb81bd774402c",
+      "bytes": 110
+    },
+    {
+      "url": "./data/mark-units/16s.json",
+      "sha256": "aeccf2f845da67af1c55f070837a912282d7fcc2d54adcdd86f632753046a711",
+      "bytes": 52
     },
     {
       "url": "./data/mark-units/17.json",
@@ -6085,6 +6115,11 @@
       "url": "./data/mark-units/1s.json",
       "sha256": "9b82ea329cff8bfd45d485f36b5dc00131b7bc4396009f70f3fa8446aabad41a",
       "bytes": 2921
+    },
+    {
+      "url": "./data/mark-units/22.json",
+      "sha256": "d44d662cc304056f115cd54756576915fa9e98e4eb78b7f43f0d626fdafbff1b",
+      "bytes": 111
     },
     {
       "url": "./data/mark-units/22s.json",
@@ -6122,6 +6157,11 @@
       "bytes": 75751
     },
     {
+      "url": "./data/mark-units/30.json",
+      "sha256": "ce622c6ab99b0c6e1beda6a0032b714e81c5dc2a8e376fa16ba1edc00f687db7",
+      "bytes": 90
+    },
+    {
       "url": "./data/mark-units/30s.json",
       "sha256": "b7473876ce3ec2726a118b17f92535f50482db97ef8d87cc896b03e1f44fd688",
       "bytes": 3374
@@ -6147,14 +6187,29 @@
       "bytes": 3255
     },
     {
+      "url": "./data/mark-units/36.json",
+      "sha256": "18b1473d85f507a867fbbab6dbbbdda0fee9bd1d54cad4971ff104162c4bbfa1",
+      "bytes": 93
+    },
+    {
       "url": "./data/mark-units/37s.json",
       "sha256": "56640f26ddfa50558aa1c0bb949edc40bbcbb40efb54e6211abdf64a9731958c",
       "bytes": 3266
     },
     {
+      "url": "./data/mark-units/38.json",
+      "sha256": "fd2219f1e3ba3b28c4e61dcefe75f022721cf546033e1e527e5a06485907ca24",
+      "bytes": 121
+    },
+    {
       "url": "./data/mark-units/38s.json",
       "sha256": "2bf180f1bd3e06a2e9c1ba6cfbda795c1583c56a8bddfc79e385bbe345aa2124",
       "bytes": 3045
+    },
+    {
+      "url": "./data/mark-units/39.json",
+      "sha256": "dbb563550f45faa5474a5b7a95bf28818c5e904dfb506adb7df34ca90ff11589",
+      "bytes": 111
     },
     {
       "url": "./data/mark-units/3s.json",
@@ -6183,8 +6238,8 @@
     },
     {
       "url": "./data/mark-units/44s.json",
-      "sha256": "cd3fc2d42031cc30d6c8dabdffad80fc391281d38e08bf71fb6701260c3a60c0",
-      "bytes": 12876
+      "sha256": "9d91f01fe5c6fbc4df6f372f37b7c4e94cc2c86ec520aa4b3f98ab90b4ba1a8e",
+      "bytes": 12921
     },
     {
       "url": "./data/mark-units/45.json",
@@ -6218,8 +6273,8 @@
     },
     {
       "url": "./data/mark-units/48.json",
-      "sha256": "5af0a15fe62610ef550a466a75a5ad04c35fee1d640c650b4b498be6f4f9df71",
-      "bytes": 36767
+      "sha256": "9772f4f95bc1d1166a015547d185c5626eccea3e8bf4a86909ad696cb172ff07",
+      "bytes": 36813
     },
     {
       "url": "./data/mark-units/48s.json",
@@ -6235,6 +6290,16 @@
       "url": "./data/mark-units/49s.json",
       "sha256": "e4f714db7e8228bd6c345430432ca220552b479b39d45dc711754e81741053c7",
       "bytes": 23148
+    },
+    {
+      "url": "./data/mark-units/50.json",
+      "sha256": "2fb29ef1ef7dc390852c5ba81b9bb49b0c7eb9eb7e2b99736570a58cb8e356a2",
+      "bytes": 111
+    },
+    {
+      "url": "./data/mark-units/50s.json",
+      "sha256": "aeccf2f845da67af1c55f070837a912282d7fcc2d54adcdd86f632753046a711",
+      "bytes": 52
     },
     {
       "url": "./data/mark-units/51s.json",
@@ -6337,14 +6402,24 @@
       "bytes": 14057
     },
     {
+      "url": "./data/mark-units/64.json",
+      "sha256": "ba7afd7ecd3a836491b96241886445ce34f41dc727ec3353105a689858cb2cc8",
+      "bytes": 89
+    },
+    {
       "url": "./data/mark-units/65s.json",
       "sha256": "9f5c0c55900339e625ac7753b9b8deaa1d03cd6634949582dc5341f53690bb70",
       "bytes": 13873
     },
     {
+      "url": "./data/mark-units/66.json",
+      "sha256": "2f447d724d0d9afd76e66cdf57e01c8844f362e2f2be5e2231a00a9b44026c49",
+      "bytes": 100
+    },
+    {
       "url": "./data/mark-units/67.json",
-      "sha256": "7fcdf4d555ad0da0c067f630a777204c37dbc8f386e9d396c49fb694d3018a88",
-      "bytes": 47927
+      "sha256": "266df5c59b6b39005e99895df7aa1412d6ebb5ae3ed542457a80a4cd8c947bd7",
+      "bytes": 47973
     },
     {
       "url": "./data/mark-units/67s.json",
@@ -6362,14 +6437,29 @@
       "bytes": 41100
     },
     {
+      "url": "./data/mark-units/70.json",
+      "sha256": "7c84bd3e2c7b3fd8bf71293a05b6af022d779bb99cbd2ba73020239bec50d72d",
+      "bytes": 110
+    },
+    {
       "url": "./data/mark-units/72.json",
-      "sha256": "fcfd631441981ce6882ebbd79e55fd28449133284c1b2f1cc217b92ee2663dea",
-      "bytes": 66400
+      "sha256": "b2b0c053830f45506d52b4a169828b343a22e4d02064b1ada96a5f98c4b5ef1f",
+      "bytes": 66446
     },
     {
       "url": "./data/mark-units/72s.json",
       "sha256": "4f09d753dad58a46a5b75b33aa90737c592cc87515b1524fb82d0681f4a035e8",
       "bytes": 3665
+    },
+    {
+      "url": "./data/mark-units/73.json",
+      "sha256": "ced7fd86312108f160f1f5ebb17104231df71c63e39afc417b54ccc63b63d4aa",
+      "bytes": 88
+    },
+    {
+      "url": "./data/mark-units/74.json",
+      "sha256": "729e18a23bac22241e505545dcdd2d9272d7e0138a4c3307e4c991cb37561a21",
+      "bytes": 89
     },
     {
       "url": "./data/mark-units/74s.json",
@@ -6403,8 +6493,8 @@
     },
     {
       "url": "./data/mark-units/78s.json",
-      "sha256": "4513f7e3953c58efc0fafb9c86580042720f3c87a33b95bcd1b5bc28d531a0d0",
-      "bytes": 3747
+      "sha256": "c7b03b1fd83b92ebf3d6d0d87bdb055e853b5b30e7735916bfecbd9f50f000d9",
+      "bytes": 3792
     },
     {
       "url": "./data/mark-units/79.json",
@@ -6427,6 +6517,11 @@
       "bytes": 68088
     },
     {
+      "url": "./data/mark-units/80.json",
+      "sha256": "2632bcaa50594c86d89d7ddd90bea20b5fd7e9a9396fab831ed7478de2b32b5b",
+      "bytes": 88
+    },
+    {
       "url": "./data/mark-units/80s.json",
       "sha256": "5f58536a8c7f1054590d8757a8894cf98a0640e40a2f97a60f16d6bb49d6265f",
       "bytes": 3176
@@ -6442,6 +6537,11 @@
       "bytes": 16257
     },
     {
+      "url": "./data/mark-units/82.json",
+      "sha256": "cb2cb89cccd9c6e9d1a6408db8fcc9768b52bd6c25b459d26908ba1654a8200e",
+      "bytes": 88
+    },
+    {
       "url": "./data/mark-units/82s.json",
       "sha256": "be43d2c896d4823c5c3f0250681da24bc15269f21c9bd408ee28de4cc80973cc",
       "bytes": 20762
@@ -6455,6 +6555,11 @@
       "url": "./data/mark-units/83s.json",
       "sha256": "52fe4b67c99d291369c2cf380bb529235e7e7279474e53dc662c157f670d48f3",
       "bytes": 12611
+    },
+    {
+      "url": "./data/mark-units/84.json",
+      "sha256": "ed085f1d4a390338303681deffba6d4d9ce5bad1fe44b9be8d49f5bcad74d2dc",
+      "bytes": 111
     },
     {
       "url": "./data/mark-units/87.json",
@@ -6487,6 +6592,26 @@
       "bytes": 3605
     },
     {
+      "url": "./data/mark-units/9.json",
+      "sha256": "edc049c529982b1e05baacbd69a128e733feb5ab522a9ba6ff5c49ca10ca0252",
+      "bytes": 111
+    },
+    {
+      "url": "./data/mark-units/90.json",
+      "sha256": "59c7f0ede56d4e7155a0508d6b1fd720b5e95006f4159f789df02082ece2776f",
+      "bytes": 99
+    },
+    {
+      "url": "./data/mark-units/92.json",
+      "sha256": "f4d00157bd192eacd7930685a988696f03c151df6636fb721d6a5bf201e04aeb",
+      "bytes": 99
+    },
+    {
+      "url": "./data/mark-units/93.json",
+      "sha256": "99fe83116b5bfd6581979086c9873866444ff2ada2e1dd803c1a3f51d2e810c0",
+      "bytes": 88
+    },
+    {
       "url": "./data/mark-units/94.json",
       "sha256": "3e09aa69d67971a8503bdae9acb3b7d451cf7b7e04d2e263bcb711332275bedc",
       "bytes": 40755
@@ -6505,6 +6630,11 @@
       "url": "./data/mark-units/95s.json",
       "sha256": "9e0b005ca90fb9d0fdcc5939cbf376b75a775dc1ef3f058caf7ed25c6d4721f1",
       "bytes": 5711
+    },
+    {
+      "url": "./data/mark-units/96.json",
+      "sha256": "321adea0e679e0503ca14ed917c94cad7fdf41d0d083c4b94ed852375a53a94a",
+      "bytes": 111
     },
     {
       "url": "./data/mark-units/96s.json",
@@ -6718,8 +6848,8 @@
     },
     {
       "url": "./data/mcq/chunks/20.json",
-      "sha256": "f3f92dc16b5c6ee681849c163f38e415d7c9db3c9447e166ffb0129aaaf7dc32",
-      "bytes": 19531
+      "sha256": "bf97feb9a22bf13c89bbcdbe3c3f8963eafc923ddcb9c33891d342f3ae8b01bb",
+      "bytes": 19569
     },
     {
       "url": "./data/mcq/chunks/21.json",
@@ -7848,8 +7978,8 @@
     },
     {
       "url": "./data/mcq/exam-references.json",
-      "sha256": "552adabf8cb3e02a15520a8eefa45ce09837492e6cc338452820530544348508",
-      "bytes": 805406
+      "sha256": "5434d9073813f2dfed88ae1798d8d4d17e0b00efa178ca42719357d52b04d18b",
+      "bytes": 805474
     },
     {
       "url": "./data/mcq/hazzard8e-toc.json",
@@ -8248,8 +8378,8 @@
     },
     {
       "url": "./data/mcq/index.json",
-      "sha256": "8a269ea885f1db17c428037d316f315032048d7e98f3d28c1fe57658f1d62840",
-      "bytes": 8537
+      "sha256": "6727c0661d1e8bbadca45f140c35ff2b67c66accfec9e97de2bb6ce45aa1f8ff",
+      "bytes": 8784
     },
     {
       "url": "./data/mcq/law.json",
@@ -8283,8 +8413,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "6a6b4fde6011494a563c310c10044f02648d76c63130e7b5107214b8b891a6f0",
-      "bytes": 8704476
+      "sha256": "8fa64fbba371f37754a5291dd2b4e144bda4f1a51a71623329aa3ce0a7dab2d0",
+      "bytes": 8723584
     },
     {
       "url": "./data/verification-registry.json",
@@ -8303,8 +8433,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "1ae590020e6cd2fde04880a521d14b681667599f95b894d8814911006938303c",
-      "bytes": 1012673
+      "sha256": "af632133ff077979467c5ca0890e213d79f744ac9f0c4360b9f99268b15168e5",
+      "bytes": 1015762
     },
     {
       "url": "./js/changed-questions.js",
@@ -8313,8 +8443,8 @@
     },
     {
       "url": "./js/drug-index.js",
-      "sha256": "95b92d84fd172d6d938276bfa7e020b4188cbbf53566ca854b47dd9d14122b7d",
-      "bytes": 7963
+      "sha256": "b5883ae0a96521fada228b194b81d5a3cfec960e18264146e2a47adfd13dfe92",
+      "bytes": 7938
     },
     {
       "url": "./js/exam-evidence.js",
@@ -8328,8 +8458,8 @@
     },
     {
       "url": "./js/flashcards.js",
-      "sha256": "2589a253b90ea4094480b59e8ab5a5174f212a06aa3dee5056f215977aa2db29",
-      "bytes": 13204
+      "sha256": "e1ca7981d3d43d1dd32a3bf9abdc8f7867d31d4f856f116cb70e15123b1b3b70",
+      "bytes": 15318
     },
     {
       "url": "./js/law-cards.js",
@@ -8343,18 +8473,18 @@
     },
     {
       "url": "./js/mcq-review.js",
-      "sha256": "e37397b6a1a239a180737338cb5b3250c8f14c00dd2c4cece237162fe4beaf9d",
-      "bytes": 8580
+      "sha256": "776f90b1a539909c07ddbd907b0a12dda0234144d1087d3e06934ff5a73d7888",
+      "bytes": 9554
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "db89b2f760e8be4ee5a461fa50e63a2ba7f66fc82278b7b4a754d5840795f51a",
-      "bytes": 180216
+      "sha256": "62e39306cb88cae337e56974523ad2983ee1d12a32d13b7882282e6daa856593",
+      "bytes": 181876
     },
     {
       "url": "./js/memory-aids.js",
-      "sha256": "393e06eaaa7aaad4647f6e38298c734d8089f02bf477e703295767583351a2ec",
-      "bytes": 4546
+      "sha256": "62af0c18653ba53488f678cfaa0741940be8b28ff21bd3cbdc02fe1bf55785e4",
+      "bytes": 4706
     },
     {
       "url": "./js/question-data.js",
@@ -8383,13 +8513,13 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "b481b9e70b5ac84ed2cfa8e47ec81942e03b4cf66ef4b976d2a6bc345c82907d",
+      "sha256": "163472c9eb6a0802dc09a7bdafbc7aefb587433ead86ff627214ab12d4cb8681",
       "bytes": 9155
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "84923d3d3b9b066b7e8dd784ece947e1dbafcb1bcd982d2288e332d5b320f917",
-      "bytes": 28126
+      "sha256": "0304dbd26cf2a24a521db578044963a29e743bf6903f9af45a1329e63193e5d6",
+      "bytes": 28138
     },
     {
       "url": "./js/reader-whats-new.js",
@@ -8398,8 +8528,8 @@
     },
     {
       "url": "./js/reading-companion.js",
-      "sha256": "da888c4ef78d286bcedca41ad988ada49e22a95a506bcfcc76c35326085b1df1",
-      "bytes": 10990
+      "sha256": "7b0d083a04acc3b953619701bfbcd9a787caf64d79d812df5459728aff33f5e1",
+      "bytes": 11010
     },
     {
       "url": "./js/stats.js",
@@ -8408,13 +8538,13 @@
     },
     {
       "url": "./js/study-home.js",
-      "sha256": "9044e5c5eb53ed4f79d33d906157e2dfc1ee7afed0458027e38f99caffaf83f2",
-      "bytes": 7775
+      "sha256": "d65a1bd3c27065350f47d82e2041e30279f6d066fce69be87a1cd2929081c966",
+      "bytes": 8109
     },
     {
       "url": "./manifest.json",
-      "sha256": "ab14c574877d57de795687bdd2737041fd1dcdacf04b0ad154fd481b93471fbd",
-      "bytes": 55546
+      "sha256": "af46e035121153b9e2e2f115d2cc9f62e34f04245373f3858310f6904e8f95ee",
+      "bytes": 57706
     }
   ]
 }

@@ -51,7 +51,9 @@ window.HazzardMemoryAids = (() => {
             section.append(list);
           }
           const citation = document.createElement('p'); citation.className = 'memory-aid-source';
-          citation.textContent = 'Hazzard 8e · printed p' + aid.page;
+          const page=document.createElement('a');
+          page.href='?chapter='+chapter.replace(/s$/,'')+'#p'+String(aid.page).match(/\d+/)[0];
+          page.textContent='Hazzard 8e · printed p'+aid.page;citation.append(page);
           section.append(citation);
           const tested = document.createElement('p'); tested.className = 'memory-aid-source';
           const question = document.createElement('a');

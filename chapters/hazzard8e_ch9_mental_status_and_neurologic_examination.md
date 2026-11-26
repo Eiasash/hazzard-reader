@@ -368,7 +368,11 @@ Alterations in sensory perception can be indicative of neuropsychiatric dysfunct
 
 function are suggestive of neurologic disease and require further diagnostic testing.
 
-In conclusion, neurologic findings of normal aging include subtle declines in cognitive function, mildly impaired motor function, and altered sensory perceptions. However, exaggerated impairments in cognitive, behavioral, motor, and sensory function suggest the onset of neurologic diseases that commonly afflict the older adult. A comprehensive mental status and neurologic examination is the foundation
+In conclusion, neurologic findings of normal aging include subtle declines in cognitive function, mildly impaired motor function, and altered sensory perceptions. However, exaggerated impairments in cognitive, behavioral, motor, and sensory function suggest the onset of neurologic diseases that commonly afflict the older adult. A comprehensive mental status and neurologic examination is the foundation for identifying neuropathologic conditions that necessitate further laboratory and imaging investigation.
+
+## ACKNOWLEDGMENTS
+
+This chapter was supported by grants from the National Institute on Aging (R01 AG071514, R01 NS101483, and R01 AG069765), the Anne and Leo Albert Charitable Trust, and the Harry T. Mangurian Foundation.
 
 ## FURTHER READING
 
@@ -395,12 +399,6 @@ ponent interventions for preventing falls and fall-related injuries among older 
 ogy of language, speech and emotions in neurodegenerative disease. Parkinsonism Relat Disord. 2014;20(suppl 1): S49–S53. Jones HR, Srinivasan J, Allman GJ, Baker RA. Netter’s
 
 Neurology. 2nd ed. Philadelphia, PA: Elsevier Saunders; 2011.
-
-for identifying neuropathologic conditions that necessitate further laboratory and imaging investigation.
-
-## ACKNOWLEDGMENTS
-
-This chapter was supported by grants from the National Institute on Aging (R01 AG071514, R01 NS101483, and R01 AG069765), the Anne and Leo Albert Charitable Trust, and the Harry T. Mangurian Foundation.
 
 Karantzoulis S, Galvin JE. Distinguishing Alzheimer’s
 

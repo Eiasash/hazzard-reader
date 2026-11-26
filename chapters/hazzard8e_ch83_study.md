@@ -57,8 +57,6 @@ In June 2023 Q39, a cognitively intact man already receiving hemodialysis asks t
 
 ## Recognizing CKD and slowing progression
 
-<span data-practice-ids="mcq-dbca0ec187cc977ffcb45a5e" data-reader-metadata="exam"></span>
-
 A single abnormal creatinine cannot establish chronicity. Compare previous values and look for albuminuria, blood or casts on urine testing and structural changes on imaging persisting for more than three months. Albuminuria and reduced filtration each convey prognostic information. In the US estimate quoted, 47% of adults over 70 met CKD criteria, compared with about 11.5% in all adults. Most were identified by filtration or albuminuria, long before symptoms of kidney failure (p1277–1279).
 
 Review blood pressure, cardiovascular risk, diabetes control, medication doses, nephrotoxic exposures and episodes of AKI. In proteinuric disease, a single ACE inhibitor or ARB can lower pressure and protein loss. Combining them increases complications. In diabetes, consider kidney-protective therapy alongside glucose control. Weigh dietary protein restriction against frailty and unintentional weight loss. If phosphate remains elevated despite dietary changes, use a binder with meals. Correct low vitamin D when present and assess persistent secondary hyperparathyroidism separately. Progressive decline, significant albuminuria, red-cell casts, persistent potassium abnormalities or difficult hypertension are reasons for earlier nephrology involvement and planning (p1279–1280, 1286, 1290).

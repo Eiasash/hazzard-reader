@@ -252,7 +252,11 @@ better and more. Physical environmental adaptations in the home include ramps an
 
 Care for the Immobile Person Interventions to reduce the consequences of immobility include determining the level of care need and living setting, training others to properly position and move the patient, implementing a mobilization plan, use of pressure-reducing devices to prevent pressure ulcer, and, sometimes, using equipment to aid in transfers (see Chapter 46). Persons who are responsible for carrying out transfers of immobile patients, including health aides and family caregivers, need training in proper techniques that reduce injury to the patient and the assistant. Appropriate assistive devices, such as wheelchairs or powerchairs should be considered to increase environmental accessibility.
 
-Absolute bed rest is almost never indicated and should be discouraged in all settings. Mobility-related activities such as scooting in bed, sitting up, and standing can promote improved physiologic function when walking is not feasible. Mobilization, including walking,
+Absolute bed rest is almost never indicated and should be discouraged in all settings. Mobility-related activities such as scooting in bed, sitting up, and standing can promote improved physiologic function when walking is not feasible. Mobilization, including walking, has been shown to be feasible even in the intensive care setting and is associated with reduced intensive care unit delirium. An exception to routine mobilization might be for humanitarian reasons when an individual is actively dying, where routine mobilization might cause suffering without associated benefit. Mobilization, rather than bed rest, during hospitalization for acute illness has been one of the most consistently efficacious interventions in geriatric care units.
+
+## SUMMARY
+
+Mobility disorders are widespread in older adults. Mobility limitations constrain many functions required for independent living and are powerful indicators of future problems. Mobility can be classified using simple screening. Evaluation starts with a triage function or simple measures like gait speed. Many common contributors to mobility limitations can be managed in the primary care setting. A comprehensive mobility evaluation is resource intensive and requires a multidisciplinary team. Evaluation and management include a biomechanical approach to function, a biomedical approach to the physiologic components of mobility, and a biopsychosocial and environmental approach to modifying factors.
 
 ## FURTHER READING
 
@@ -271,12 +275,6 @@ in late-life activity limitations in the United States: an update from five nati
 Preclinical mobility disability predicts incident mobility disability in older women. J Gerontol Med Sci. 2000;55A: M43–52. Guralnik JM, Ferrucci L, Simonsick EM, et al. Lower-
 
 extremity function in persons over the age of 70 years as a predictor of subsequent disability. N Engl J Med. 1995;332:556–561.
-
-has been shown to be feasible even in the intensive care setting and is associated with reduced intensive care unit delirium. An exception to routine mobilization might be for humanitarian reasons when an individual is actively dying, where routine mobilization might cause suffering without associated benefit. Mobilization, rather than bed rest, during hospitalization for acute illness has been one of the most consistently efficacious interventions in geriatric care units.
-
-## SUMMARY
-
-Mobility disorders are widespread in older adults. Mobility limitations constrain many functions required for independent living and are powerful indicators of future problems. Mobility can be classified using simple screening. Evaluation starts with a triage function or simple measures like gait speed. Many common contributors to mobility limitations can be managed in the primary care setting. A comprehensive mobility evaluation is resource intensive and requires a multidisciplinary team. Evaluation and management include a biomechanical approach to function, a biomedical approach to the physiologic components of mobility, and a biopsychosocial and environmental approach to modifying factors.
 
 Jorstad EC, Hauer K, Becker C, et al. Measuring the psy-
 

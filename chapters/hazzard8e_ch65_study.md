@@ -113,7 +113,7 @@ During follow-up, ask about stressors and arrange practical help, respite or a c
 
 **Treatment options**
 - In studies summarized by Hazzard, ECT response exceeded **80%** and remission exceeded **60%**, with favorable responses in older adults (p1014). The APA describes an acute course commonly given **2–3 times weekly**, often **6–12 sessions**. Confusion and difficulty learning new material usually improve, but some autobiographical memory gaps may persist.
-  > Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
+  > <span id="current-practice-1" data-reader-metadata="navigation"></span>Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
 - Antidepressants do **not** show benefit for minor/subsyndromal depression despite it having similar health/QOL impact to major depression — don't reflexively medicate mild cases (p1012, p1015).
 - Antidepressants do **not generally work in dementia**-associated depression; favor behavioral/caregiver-support interventions instead (p1015).
 - Slow up-titration gave much better adherence than a higher starting dose, even though both reached the same eventual dose; separately, dose-response research does not support a **minimum effective dosage** or narrow therapeutic window (p1015).
@@ -124,7 +124,7 @@ During follow-up, ask about stressors and arrange practical help, respite or a c
 - DSM-5 defines major depression as an "episode" — expected to improve over time even without treatment, which complicates decisions about indefinite maintenance therapy (p1015).
 - Reduce antidepressants in steps, with smaller reductions as the dose falls. Hazzard describes 2–4 weeks for many SSRIs, SNRIs and mirtazapine and longer courses for TCAs (p1016). NICE recommends adjusting the pace to the drug, duration, prior withdrawal and symptoms. Some patients need weeks or months.
 - **Fluoxetine** has a long half-life. NICE allows a period of alternate-day dosing for some people taking 20 mg/day and recommends gradual withdrawal at 40–60 mg/day. A clinician-directed switch from another drug requires attention to interactions and washout (p1016, NICE NG222 recommendation 1.4.18).
-  > Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
+  > <span id="current-practice-2" data-reader-metadata="navigation"></span>Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
 - Discontinuation symptoms (sweating, chills, dizziness, GI upset, vivid dreaming, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (p1015–1016).
 
 **Provider & caregiver factors**
@@ -205,7 +205,7 @@ Response rate >80%, remission rate >60% — no trial has ever found medications 
 <details><summary>Answer</summary>
 
 The APA describes **two or three ECT treatments per week**, often **6–12 treatments**, individualized to response. Post-treatment confusion and difficulty retaining new information usually improve. Some memory gaps for events around the treatment period can persist. The chapter gives a different historical frequency (p1014).
-> Current practice (not the book): ECT is typically given two or three times per week; an acute course often consists of 6–12 treatments — American Psychiatric Association (patient page).
+> [Current practice note](#current-practice-1)
 
 </details>
 
@@ -230,7 +230,7 @@ Almost half of residents in some nursing home populations are prescribed an anti
 <details><summary>Answer</summary>
 
 Reduce in steps guided by symptoms, half-life and duration of treatment. The book gives 2–4 weeks as an example for several agents and longer tapers for TCAs (p1016). NICE notes that 20 mg/day of fluoxetine can sometimes be reduced with alternate-day dosing, while 40–60 mg/day requires gradual reduction.
-> Current practice (not the book): fluoxetine can sometimes be stopped by alternate-day dosing at 20 mg/day; at 40–60 mg/day use a gradual withdrawal schedule — NICE NG222 rec 1.4.18, 2022.
+> [Current practice note](#current-practice-2)
 
 </details>
 

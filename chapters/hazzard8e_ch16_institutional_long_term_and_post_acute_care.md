@@ -214,7 +214,15 @@ Some of the key issues that may have an enduring impact on NH care in the United
 
 <a id="p235"></a>**[p. 235]**
 
-4. Renewed focus on polypharmacy and deprescribing of unnecessary medications has been recommended to not only decrease adverse effects and costs, but to avoid unnecessary contacts between staff and residents, as well as the time of administration and documentation for these medications. 5. More proactive discussions of advance directives, beyond “Do Not Resuscitate” to include “Do Not Hospitalize” orders have been recommended because of the potential for very rapid deterioration of residents with life-limiting illnesses among whom the discomforts and risks of hospitalization outweigh the potential benefits. Several organizations produced advance care planning tools with specific language about the pandemic which were useful and will continue to be in the future. The INTERACT website has examples of such tools and links to several other organizations that have developed imilar tools. 6. The need for health systems to evolve so that organizations providing post-acute and long-term care are more closely aligned with local hospitals and home health agencies in order to share learnings, trained staff, and other resources. 7. Continuing evolution of NHs into smaller more homelike facilities, and consideration of separating some types of short vs. long-stayers with appropriate reimbursement, staffing, and education for the different populations. 8. The need for the development of NH research networks with the capability to carry out robust clinical trials, quality improvement research, educational
+4. Renewed focus on polypharmacy and deprescribing of unnecessary medications has been recommended to not only decrease adverse effects and costs, but to avoid unnecessary contacts between staff and residents, as well as the time of administration and documentation for these medications. 5. More proactive discussions of advance directives, beyond “Do Not Resuscitate” to include “Do Not Hospitalize” orders have been recommended because of the potential for very rapid deterioration of residents with life-limiting illnesses among whom the discomforts and risks of hospitalization outweigh the potential benefits. Several organizations produced advance care planning tools with specific language about the pandemic which were useful and will continue to be in the future. The INTERACT website has examples of such tools and links to several other organizations that have developed imilar tools. 6. The need for health systems to evolve so that organizations providing post-acute and long-term care are more closely aligned with local hospitals and home health agencies in order to share learnings, trained staff, and other resources. 7. Continuing evolution of NHs into smaller more homelike facilities, and consideration of separating some types of short vs. long-stayers with appropriate reimbursement, staffing, and education for the different populations. 8. The need for the development of NH research networks with the capability to carry out robust clinical trials, quality improvement research, educational interventions, and epidemiological studies to continue to develop the evidence base for improving NH care with respect to pandemics as well as other areas of care and support.
+
+## ACKNOWLEDGMENTS
+
+This chapter is based on and adapted from Chapter 16 of the eighth edition of Essentials of Clinical Geriatrics (McGraw Hill, 2018).
+
+Dr. Ouslander is a full-time FAU employee and has received support through FAU to conduct research evaluating the INTERACT program from the National Institutes of Health, the Centers for Medicare and Medicaid Services, the Commonwealth Fund, the Retirement Research Foundation, PointClickCare, Medline Industries, and PatientOrderSets (now Think Research). Dr. Ouslander is a paid medical advisor to Pathway Health which holds the exclusive license from FAU for training and sublicensing of INTERACT, and he and his wife receive royalties related to INTERACT. Works on projects related to INTERACT are subject to terms of Conflicts of Interest Management plans developed and approved by the FAU Division of Research Financial Conflict of Interest Committee.
+
+Alice Bonner is an Adjunct Faculty at the Johns Hopkins University School of Nursing and Director of Strategic Partnerships for the CAPABLE Program. She is also Senior Advisor for Aging at the Institute for Healthcare Improvement (IHI). From 2011 to 2013, Bonner was the Director of the CMS Division of Nursing Homes.
 
 ## FURTHER READING
 
@@ -233,16 +241,6 @@ in older adults in long-term care facilities: update on approach to diagnosis an
 Geriatr Soc. 1998;46:232–237. Mor V. Defining and measuring quality outcomes in long-
 
 term care. J Am Med Dir Assoc. 2006;7:532–540.
-
-interventions, and epidemiological studies to continue to develop the evidence base for improving NH care with respect to pandemics as well as other areas of care and support.
-
-## ACKNOWLEDGMENTS
-
-This chapter is based on and adapted from Chapter 16 of the eighth edition of Essentials of Clinical Geriatrics (McGraw Hill, 2018).
-
-Dr. Ouslander is a full-time FAU employee and has received support through FAU to conduct research evaluating the INTERACT program from the National Institutes of Health, the Centers for Medicare and Medicaid Services, the Commonwealth Fund, the Retirement Research Foundation, PointClickCare, Medline Industries, and PatientOrderSets (now Think Research). Dr. Ouslander is a paid medical advisor to Pathway Health which holds the exclusive license from FAU for training and sublicensing of INTERACT, and he and his wife receive royalties related to INTERACT. Works on projects related to INTERACT are subject to terms of Conflicts of Interest Management plans developed and approved by the FAU Division of Research Financial Conflict of Interest Committee.
-
-Alice Bonner is an Adjunct Faculty at the Johns Hopkins University School of Nursing and Director of Strategic Partnerships for the CAPABLE Program. She is also Senior Advisor for Aging at the Institute for Healthcare Improvement (IHI). From 2011 to 2013, Bonner was the Director of the CMS Division of Nursing Homes.
 
 Morley J, Tolson D, Ouslander J, Vellas B. Nursing Home
 
