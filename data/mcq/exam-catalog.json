@@ -6364,8 +6364,14 @@
           1532
         ],
         "passages": {
-          "1532": "20 mg daily; higher dosages may cause adverse effects of Cushing syndrome. The geriatrician ",
-          "1531": "The management of chronic adrenal insufficiency is best done in collaboration with an endocr"
+          "1532": {
+            "text": "The geriatrician should also reinforce the “sick day” management of glucocorticoids that requires tripling the usual daily replacement glucocorticoid dosage",
+            "rangeText": "The geriatrician should also reinforce the “sick day” management of glucocorticoids that requires tripling the usual daily replacement glucocorticoid dosage"
+          },
+          "1531": {
+            "text": "if fever of 101.5°F or higher, triple the daily hydrocortisone dose",
+            "rangeText": "if fever of 101.5°F or higher, triple the daily hydrocortisone dose"
+          }
         }
       }
     },
@@ -6548,7 +6554,18 @@
       "duplicates": [
         2616
       ],
-      "explanation": "## פרכוס vs Syncope – הבדלי אבחנה\n\n### ✅ תשובה ב' נכונה: כאבי שרירים (Myalgia post-ictal)\n\nלאחר פרכוס טוני-קלוני, פעילות שרירית אינטנסיבית גורמת ל**כאבי שרירים** בתקופה פוסט-איקטלית – ממצא שכיח לאחר פרכוס, אך הוא מופיע לעיתים גם לאחר סינקופה לפי הטבלה, ולכן אינו ייחודי לפרכוס. (Harrison22 p3419).\n\n---\n\n### ❌ מדוע האחרות שגויות:\n\n| אפשרות | הסבר |\n|--------|-------|\n| **א' – התעוררות מהירה** | מאפיין **סינקופה** דווקא! בפרכוס יש בלבול פוסט-איקטלי ממ"
+      "explanation": "## פרכוס vs Syncope – הבדלי אבחנה\n\n### ✅ תשובה ב' נכונה: כאבי שרירים (Myalgia post-ictal)\n\nלאחר פרכוס טוני-קלוני, פעילות שרירית אינטנסיבית גורמת ל**כאבי שרירים** בתקופה פוסט-איקטלית – ממצא שכיח לאחר פרכוס, אך הוא מופיע לעיתים גם לאחר סינקופה לפי הטבלה, ולכן אינו ייחודי לפרכוס. (Harrison22 p3419).\n\n---\n\n### ❌ מדוע האחרות שגויות:\n\n| אפשרות | הסבר |\n|--------|-------|\n| **א' – התעוררות מהירה** | מאפיין **סינקופה** דווקא! בפרכוס יש בלבול פוסט-איקטלי ממ",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "45",
+            "page": 669,
+            "anchor": "ch45-convulsive-faint",
+            "label": "Hazzard 8e, p. 669, brief movements and recovery during vasovagal syncope"
+          }
+        ]
+      }
     },
     "3263": {
       "id": "mcq-b278a02fd7eb7f2e75f74912",
@@ -7052,8 +7069,14 @@
           432
         ],
         "passages": {
-          "432": "Pulmonary aspiration is a relatively common complication of EN, but unless aspiration causes",
-          "431": "Table 30-12"
+          "432": {
+            "text": "Metabolic abnormalities related to tube feedings include high potassium and phosphorous requirements",
+            "rangeText": "Metabolic abnormalities related to tube feedings include high potassium and phosphorous requirements"
+          },
+          "431": {
+            "text": "Table 30-12",
+            "imageFile": "hazzard8e_ch30_table-30-12_p431.webp"
+          }
         }
       }
     },
@@ -10064,7 +10087,10 @@
         ],
         "bankChapter": "45",
         "passages": {
-          "675": "The treatment of OH and postprandial hypotension (PPH) starts with nonpharmacologic treatmen"
+          "675": {
+            "text": "For OH, any offending medication should be withdrawn, substituted, or reduced in dose",
+            "rangeText": "For OH, any offending medication should be withdrawn, substituted, or reduced in dose"
+          }
         }
       }
     },
@@ -10413,7 +10439,10 @@
         ],
         "bankChapter": "97",
         "passages": {
-          "1538": "Table 97-9"
+          "1538": {
+            "text": "Table 97-9",
+            "imageFile": "hazzard8e_ch97_table97-9_p1538.png"
+          }
         }
       }
     },
@@ -10642,9 +10671,18 @@
         ],
         "bankChapter": "82",
         "passages": {
-          "1271": "The definition of hyperkalemia varies from laboratory to laboratory and from clinical report",
-          "1270": "Hypokalemia can result from poor intake (eating disorders, alcoholism), increased losses (di",
-          "1533": "Evaluation and management of primary hyperaldosteronism and pheochromocytoma The initial eva"
+          "1271": {
+            "text": "Spurious hyperkalemia, where the measured potassium is elevated but the ambient serum potassium is normal,",
+            "rangeText": "severe thrombocytosis, severe leukocytosis, or red cell disorders."
+          },
+          "1270": {
+            "text": "Hyperkalemia rarely occurs in the setting of normal kidney function because of the tremendous capacity of the kidneys to excrete the daily potassium load.",
+            "rangeText": "Hyperkalemia rarely occurs in the setting of normal kidney function because of the tremendous capacity of the kidneys to excrete the daily potassium load."
+          },
+          "1533": {
+            "text": "severe hypertension and spontaneous hypokalemia",
+            "rangeText": "severe hypertension and spontaneous hypokalemia"
+          }
         }
       }
     },
@@ -10779,7 +10817,10 @@
         ],
         "bankChapter": "45",
         "passages": {
-          "668": "Postprandial hypotension (PPH) PPH, an often overlooked cause of syncope in older adults, is"
+          "668": {
+            "text": "pooling of blood in the splanchnic circulation, a decrease in venous return to the heart",
+            "rangeText": "pooling of blood in the splanchnic circulation, a decrease in venous return to the heart"
+          }
         }
       }
     },
@@ -11400,7 +11441,10 @@
         ],
         "bankChapter": "97",
         "passages": {
-          "1541": "Paget disease most commonly affects the pelvis (70%), lumbar spine and proximal femur (50%),"
+          "1541": {
+            "text": "that is worse with weight-bearing and at night develops in 40% of patients.",
+            "rangeText": "that is worse with weight-bearing and at night develops in 40% of patients."
+          }
         }
       }
     },
@@ -12381,7 +12425,10 @@
         ],
         "bankChapter": "45",
         "passages": {
-          "675": "The treatment of OH and postprandial hypotension (PPH) starts with nonpharmacologic treatmen"
+          "675": {
+            "text": "sleeping in a 30 to 45 degree head-up position can be helpful",
+            "rangeText": "sleeping in a 30 to 45 degree head-up position can be helpful"
+          }
         }
       }
     },
@@ -15007,7 +15054,10 @@
           "30"
         ],
         "passages": {
-          "424": "Presentation and Evaluation Despite its clinical importance, malnutrition is often missed cl"
+          "424": {
+            "text": "The close monitoring of body weight, a readily obtainable measure that reflects imbalance between caloric intake and energy requirements",
+            "rangeText": "The close monitoring of body weight, a readily obtainable measure that reflects imbalance between caloric intake and energy requirements"
+          }
         }
       }
     },
@@ -15300,7 +15350,10 @@
         ],
         "bankChapter": "97",
         "passages": {
-          "1539": "Table 97-10 — Indications for parathyroidectomy in older patients with primary hyperparathyr"
+          "1539": {
+            "text": "bone mineral density by DXA T-score < −2.5 at any site",
+            "rangeText": "bone mineral density by DXA T-score < −2.5 at any site"
+          }
         }
       }
     },
@@ -17377,8 +17430,15 @@
           "97"
         ],
         "passages": {
-          "1530": "The most suggestive symptoms of Cushing syndrome are easy bruisability, broad (> 1 cm) purpl",
-          "1531": "Epidemiology and causes The incidence of adrenal insufficiency in patients 65 years or older"
+          "1530": {
+            "text": "The most common cause of Cushing syndrome is iatrogenic.",
+            "rangeText": "The most common cause of Cushing syndrome is iatrogenic."
+          },
+          "1531": {
+            "text": "If the geriatrician suspects endogenous Cushing syndrome, a rare and often difficult-to-diagnose disorder, then an endocrinologist should be consulted.",
+            "rangeText": "If the geriatrician suspects endogenous Cushing syndrome, a rare and often difficult-to-diagnose disorder, then an endocrinologist should be consulted.",
+            "contextPage": 1530
+          }
         }
       }
     },
@@ -18042,8 +18102,14 @@
         ],
         "bankChapter": "97",
         "passages": {
-          "1534": "Contraindications to testosterone treatment are active prostate cancer and breast cancer, as",
-          "1533": "Diagnosis According to Endocrine Society clinical practice guidelines, the diagnosis of hypo"
+          "1534": {
+            "text": "Contraindications to testosterone treatment are active prostate cancer and breast cancer,",
+            "rangeText": "Contraindications to testosterone treatment are active prostate cancer and breast cancer,"
+          },
+          "1533": {
+            "text": "a consistently low morning serum testosterone on at least two occasions, preferably fasting.",
+            "rangeText": "a consistently low morning serum testosterone on at least two occasions, preferably fasting."
+          }
         }
       }
     },
@@ -18411,7 +18477,10 @@
           "45"
         ],
         "passages": {
-          "668": "Postprandial hypotension (PPH) PPH, an often overlooked cause of syncope in older adults, is"
+          "668": {
+            "text": "a decrease in venous return to the heart, and failure to increase sympathetic nervous system activity, heart rate, and vascular resistance",
+            "rangeText": "a decrease in venous return to the heart, and failure to increase sympathetic nervous system activity, heart rate, and vascular resistance"
+          }
         }
       }
     },
@@ -20223,7 +20292,10 @@
           "45"
         ],
         "passages": {
-          "666": "A syncopal episode results from temporary hypoperfusion of the brain, including the brain st"
+          "666": {
+            "text": "Aging is commonly associated with a decline in baroreflex sensitivity",
+            "rangeText": "Aging is commonly associated with a decline in baroreflex sensitivity"
+          }
         }
       }
     },
@@ -23046,7 +23118,10 @@
           "97-10"
         ],
         "passages": {
-          "1539": "Table 97-10 — Indications for parathyroidectomy in older patients with primary hyperparathyr"
+          "1539": {
+            "text": "24-hour urine calcium > 400 mg/24 h (nephrolithiasis risk)",
+            "rangeText": "24-hour urine calcium > 400 mg/24 h (nephrolithiasis risk)"
+          }
         }
       }
     },
@@ -26496,7 +26571,10 @@
           1528
         ],
         "passages": {
-          "1528": "Optimal management of hyperprolactinemia necessitates collaboration between the geriatrician"
+          "1528": {
+            "text": "phenothiazines, haloperidol, and risperidone",
+            "rangeText": "phenothiazines, haloperidol, and risperidone"
+          }
         }
       }
     },
@@ -26525,8 +26603,14 @@
           1538
         ],
         "passages": {
-          "1537": "Clinical presentation The majority (80%) of patients with primary hyperparathyroidism are as",
-          "1538": "Diagnosis Recommended laboratory and imaging studies to diagnose patients with primary hyper"
+          "1537": {
+            "text": "development or worsening of cognitive impairment or depression",
+            "rangeText": "development or worsening of cognitive impairment or depression"
+          },
+          "1538": {
+            "text": "It is useful to search laboratory records for previous serum calcium measurements because chronic hypercalcemia suggests primary hyperparathyroidism rather than malignancy.",
+            "rangeText": "It is useful to search laboratory records for previous serum calcium measurements because chronic hypercalcemia suggests primary hyperparathyroidism rather than malignancy."
+          }
         }
       }
     },
@@ -27014,7 +27098,10 @@
           "97-9"
         ],
         "passages": {
-          "1538": "Table 97-9"
+          "1538": {
+            "text": "Table 97-9",
+            "imageFile": "hazzard8e_ch97_table97-9_p1538.png"
+          }
         }
       }
     },

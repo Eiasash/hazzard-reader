@@ -21434,5 +21434,135 @@
         81
       ]
     ]
+  },
+  {
+    "chapter": "45s",
+    "id": "u17",
+    "old": "OH-contributing drug classes: antipsychotics (MAOIs, TCAs), diuretics, beta-blockers, nitrates/alpha-blockers — alpha+beta combination especially dangerous (p668)",
+    "new": "Drugs that can contribute to OH include antipsychotics, antidepressants such as MAOIs and TCAs, diuretics, beta-blockers, nitrates and alpha-blockers. Combined alpha and beta blockade further impairs compensation on standing (p668)",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        29
+      ],
+      [
+        2,
+        15,
+        31,
+        31
+      ],
+      [
+        16,
+        29,
+        32,
+        39
+      ],
+      [
+        44,
+        51,
+        54,
+        54
+      ],
+      [
+        53,
+        53,
+        56,
+        90
+      ],
+      [
+        57,
+        58,
+        94,
+        94
+      ],
+      [
+        94,
+        95,
+        130,
+        135
+      ],
+      [
+        109,
+        109,
+        149,
+        150
+      ],
+      [
+        110,
+        111,
+        151,
+        159
+      ],
+      [
+        117,
+        118,
+        165,
+        170
+      ],
+      [
+        123,
+        134,
+        175,
+        183
+      ],
+      [
+        135,
+        145,
+        184,
+        191
+      ],
+      [
+        146,
+        155,
+        192,
+        224
+      ]
+    ]
+  },
+  {
+    "chapter": "30s",
+    "id": "u27",
+    "old": "Past-exam questions linked to this chapter (2):",
+    "new": "Two questions below cite passages in Chapter 30 that directly teach their answers.",
+    "edits": [
+      [
+        0,
+        9,
+        0,
+        3
+      ],
+      [
+        20,
+        26,
+        14,
+        19
+      ],
+      [
+        27,
+        29,
+        20,
+        24
+      ],
+      [
+        30,
+        34,
+        25,
+        33
+      ],
+      [
+        35,
+        42,
+        34,
+        36
+      ],
+      [
+        43,
+        47,
+        37,
+        82
+      ]
+    ]
   }
 ]
