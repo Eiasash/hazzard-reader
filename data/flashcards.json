@@ -8253,6 +8253,87 @@
     ]
   },
   {
+    "id": "ch48-silence",
+    "chapter": "48",
+    "front": "אחרי שבר במפרק הירך המטופלת מפסיקה לענות כשבתה בחדר. מה מבררים תחילה?",
+    "back": "מציעים שיחה ביחידות ובשפתה. בודקים אם היא חוששת לדבר, מה אירע ומה היא צריכה כדי להרגיש בטוחה. השינוי בנוכחות המלווה מכוון לבירור התעמרות נפשית. חוזר 22/03, נספח 1ב, עמ׳ 8, וסעיף 8.1, עמ׳ 6.",
+    "page": 8,
+    "anchor": "ch48-il-interview",
+    "questionIds": [
+      "mcq-e3c3ec0e57070e39c010d2fe"
+    ],
+    "sourceLabel": "Read · חוזר 22/03, נספח 1ב, עמ׳ 8"
+  },
+  {
+    "id": "ch48-reporting-threshold",
+    "chapter": "48",
+    "front": "האם גיל מבוגר ואבחנת דמנציה מספיקים כדי להפעיל את חובת הדיווח על פגיעה בחסר ישע?",
+    "back": "מבררים אם האדם יכול לדאוג למחייתו, לבריאותו ולשלומו. אם יש במסגרת התפקיד יסוד סביר לחשוב שאחראי עבר בחסר ישע עבירה מהמנויות בחוק, מדווחים בהקדם לעובד סוציאלי שמונה לפי חוק או למשטרה. חוק העונשין, סעיפים 368א ו־368ד(ב),(ח), עמ׳ 57–58 בקובץ.",
+    "page": 57,
+    "anchor": "ch48-il-report",
+    "questionIds": [
+      "mcq-e8ba38432f0a33923c977eb3",
+      "mcq-632ba530eb4611e16d60adfe"
+    ],
+    "sourceLabel": "Read · חוק העונשין, סעיפים 368א ו־368ד"
+  },
+  {
+    "id": "ch48-discharge",
+    "chapter": "48",
+    "front": "מטופלת רוצה לשוב לביתה לאחר אשפוז עקב החמצת תרופות ויש חשד להזנחה מצד המטפל האחראי. מה קודם לשחרור?",
+    "back": "מדווחים כאשר מתקיימים תנאי החובה, שומעים את המטופלת ומבררים מי יסייע בפועל. מתאמים פתרון בטוח עם פקידת הסעד והצוות. גם חזרה הביתה עשויה להתאים אם יש מענה לסיכון. חוזר 22/03, סעיפים 8 ו־10, עמ׳ 6.",
+    "page": 6,
+    "anchor": "ch48-il-discharge",
+    "questionIds": [
+      "mcq-e8ba38432f0a33923c977eb3"
+    ],
+    "sourceLabel": "Read · חוזר 22/03, סעיפים 8 ו־10, עמ׳ 6"
+  },
+  {
+    "id": "ch48-protection-period",
+    "chapter": "48",
+    "front": "באיזה מצב קובע נוהל משרד הבריאות תקופת אשפוז מזערית של 24 שעות ומהי החלופה?",
+    "back": "קיים חשד להתעמרות ונדרש אשפוז עקב הפגיעה. סעיף 9 קובע 24 שעות אשפוז לפחות או אמצעי הגנה מיידיים אחרים, בנוסף לדיווח. הצורך הרפואי נבחן בפני עצמו. חוזר 22/03, עמ׳ 6.",
+    "page": 6,
+    "anchor": "ch48-il-protection",
+    "questionIds": [
+      "mcq-632ba530eb4611e16d60adfe"
+    ],
+    "sourceLabel": "Read · חוזר 22/03, סעיף 9, עמ׳ 6"
+  },
+  {
+    "id": "ch48-caregiver-interview",
+    "chapter": "48",
+    "front": "Practice · Why take the caregiver’s account separately after eliciting the patient’s history?",
+    "back": "Clarify who provides care, how injuries occurred and what strains or barriers are present. A companion may dominate the interview or retaliate after a confrontation. Interview each privately and seek collateral information. Hazzard 8e, pp. 722–724, Table 48-3.",
+    "page": 724,
+    "anchor": "ch48-assessment",
+    "questionIds": [
+      "mcq-e3c3ec0e57070e39c010d2fe",
+      "mcq-e8ba38432f0a33923c977eb3"
+    ]
+  },
+  {
+    "id": "ch48-easi",
+    "chapter": "48",
+    "front": "Practice · An older patient needs help with shopping. Does that response alone make EASI positive?",
+    "back": "The first question establishes dependence. A positive response to any of questions 2 through 6 warrants further assessment. This primary-care instrument was validated in cognitively intact adults and cannot exclude abuse when negative. Hazzard 8e, pp. 722–723, Figure 48-1.",
+    "page": 723,
+    "anchor": "ch48-easi",
+    "questionIds": []
+  },
+  {
+    "id": "ch48-unsafe-cohabitation",
+    "chapter": "48",
+    "front": "US practice · A trusted caregiver has stolen money. What has to be settled before assuming the patient can continue living with him?",
+    "back": "Assess immediate danger and continuing access to the patient’s money, involve APS, and arrange practical protection. If staying there cannot be made safe, arrange another safe setting. Ask the patient about preferences and assess capacity for each decision. Hazzard 8e, pp. 723–725.",
+    "page": 724,
+    "anchor": "ch48-aps",
+    "questionIds": [
+      "mcq-66cfb59089803f7958244223"
+    ]
+  },
+  {
     "id": "ch78-claudication-training",
     "chapter": "78",
     "page": 1211,
@@ -8374,6 +8455,217 @@
     "back": "New abdominal or back pain potentially attributable to the aneurysm prompts immediate clinical reassessment and appropriate imaging. Ultrasound is preferred for routine follow-up. A stable small aneurysm does not call for stopping aerobic activity or starting doxycycline. Hazzard 8e, pp. 1215–1216, Table 78-2.",
     "questionIds": [
       "mcq-7b7a470a6281026e784dd2dd"
+    ]
+  },
+  {
+    "id": "ch80-quiet-versus-forced-expiration",
+    "chapter": "80",
+    "front": "Which volume remains after a quiet expiration, and why can it rise with age?",
+    "back": "Functional residual capacity (FRC) is the resting end-expiratory volume. Weaker inward recoil can leave the lung at a higher resting volume. Residual volume is measured after maximal expiration. Hazzard 8e, p1231, explains the recoil and chest-wall mechanics. June 2022 cites Hazzard 7e, pp1236–1237.",
+    "page": 1231,
+    "anchor": "ch80-resting-volume",
+    "questionIds": [
+      "mcq-72e3ae0b41e7da23ee8ad9df"
+    ]
+  },
+  {
+    "id": "ch80-first-second-volume",
+    "chapter": "80",
+    "front": "What happens to FEV1 during healthy aging?",
+    "back": "It falls. Loss of recoil and earlier closure of the small airways reduce the volume expelled in the first second. The pulmonary teaching is on Hazzard 8e, p1231. The 2023 bibliography prints kidney pages 1280–1281.",
+    "page": 1231,
+    "anchor": "exam-p1231-mcq-5687d58f50abb0a5affaee3d",
+    "questionIds": [
+      "mcq-5687d58f50abb0a5affaee3d"
+    ]
+  },
+  {
+    "id": "ch80-ratio-with-age",
+    "chapter": "80",
+    "front": "Why does FEV1/FVC normally decline with age even if total lung capacity is preserved?",
+    "back": "FEV1 falls proportionately more than FVC. Opposing changes in lung recoil and the chest wall keep TLC relatively stable. Interpret an individual ratio against age-appropriate reference limits. Hazzard 8e, p1231.",
+    "page": 1231,
+    "anchor": "exam-p1231-mcq-122d9fc74517c768b3d882c2",
+    "questionIds": [
+      "mcq-122d9fc74517c768b3d882c2"
+    ]
+  },
+  {
+    "id": "ch80-residual-volume",
+    "chapter": "80",
+    "front": "Which volume rises as small airways close earlier during forced expiration?",
+    "back": "Residual volume increases because more air is trapped after maximal expiration. Less air is available for expiration, so FVC tends to fall. Hazzard 8e, p1231.",
+    "page": 1231,
+    "anchor": "exam-p1231-mcq-e2505429368dfde81cea15ac",
+    "questionIds": [
+      "mcq-e2505429368dfde81cea15ac"
+    ]
+  },
+  {
+    "id": "ch80-elastin-and-clearance",
+    "chapter": "80",
+    "front": "Which changes accompany weaker lung recoil and impaired airway clearance?",
+    "back": "The matrix contains less elastin and more collagen. Airway ciliary movement diminishes. The memory T-cell pool expands while the naïve pool shrinks, and DLCO generally declines. Hazzard 8e, pp1230–1231.",
+    "page": 1230,
+    "anchor": "exam-p1230-mcq-b51ad3fe1826ffb8741047b1",
+    "questionIds": [
+      "mcq-b51ad3fe1826ffb8741047b1"
+    ]
+  },
+  {
+    "id": "ch80-fibrosis-presentation",
+    "chapter": "80",
+    "front": "An older nonsmoker has insidious dyspnea, fine crackles and interstitial markings on chest radiography. What diagnosis and treatment do these clues suggest?",
+    "back": "Consider idiopathic pulmonary fibrosis, evaluate other causes, and characterize the pattern on high-resolution CT. Nintedanib can slow loss of FVC in established IPF. Hazzard 8e, pp1231–1232. The December 2021 question supplies a chest radiograph.",
+    "page": 1231,
+    "anchor": "ch80-ipf-presentation",
+    "questionIds": [
+      "mcq-91b98ca785a73e91ef64d8b4"
+    ]
+  },
+  {
+    "id": "ch80-nintedanib-endpoint",
+    "chapter": "80",
+    "front": "Which measurable benefit can be expected of nintedanib in idiopathic pulmonary fibrosis?",
+    "back": "A slower rate of loss of FVC. Existing scar persists and breathlessness may continue. Oxygen treats hypoxemia. The treatment paragraph is on Hazzard 8e, p1231. The 2026 examination prints pp1232–1233.",
+    "page": 1231,
+    "anchor": "exam-p1231-mcq-d8222a690714331a4dd2ad76",
+    "questionIds": [
+      "mcq-d8222a690714331a4dd2ad76"
+    ]
+  },
+  {
+    "id": "ch80-antifibrotic-tolerance",
+    "chapter": "80",
+    "front": "Which gastrointestinal effects should you ask about at follow-up after starting an antifibrotic for IPF?",
+    "back": "Ask about diarrhea, especially with nintedanib, and nausea, especially with pirfenidone. The effect on intake, weight and treatment tolerance guides whether a change is needed. Hazzard 8e, p1231.",
+    "page": 1231,
+    "anchor": "exam-p1231-mcq-86b262840f3c7de29023078e",
+    "questionIds": [
+      "mcq-86b262840f3c7de29023078e"
+    ]
+  },
+  {
+    "id": "ch89-screening-over-75",
+    "chapter": "89",
+    "page": 1397,
+    "anchor": "ch89-screening-over-75",
+    "front": "An 84-year-old asks whether a routine mammogram will help her live longer. What can you say, and what changes if she has a new lump?",
+    "back": "A breast cancer mortality benefit from routine screening after age 75 is unproven. Discuss competing illness, life expectancy and her wishes. A new lump calls for diagnostic assessment regardless of the screening timetable. Related eighth-edition teaching, pp. 1397–1398, Table 89-1.",
+    "questionIds": [
+      "mcq-754300e4e14e133ec8506c3d"
+    ]
+  },
+  {
+    "id": "ch89-modifiable-risk",
+    "chapter": "89",
+    "page": 1396,
+    "anchor": "exam-p1396-mcq-e761fdbaf9a3e692c91a5d37",
+    "front": "Late menarche, many births, drinking alcohol or underweight: which increases breast cancer risk?",
+    "back": "Alcohol. The chapter also identifies early menarche, later first birth, late menopause and postmenopausal obesity as risk factors. Underweight and late menarche reverse the associations presented. Hazzard 8e, pp. 1395–1396.",
+    "questionIds": [
+      "mcq-e761fdbaf9a3e692c91a5d37"
+    ]
+  },
+  {
+    "id": "ch89-bladder-toxicity",
+    "chapter": "89",
+    "page": 1404,
+    "anchor": "exam-p1404-mcq-6b33c388396f05e09b68141c",
+    "front": "A woman treated for metastatic breast cancer has dysuria and hematuria. Which of cyclophosphamide, letrozole, megestrol and methotrexate points to bladder injury?",
+    "back": "Cyclophosphamide can cause cystitis, including hemorrhagic cystitis. Letrozole more often causes arthralgia and bone loss, megestrol can cause weight gain, and methotrexate can cause mucositis or renal toxicity. Hazzard 8e, p. 1404, Table 89-4.",
+    "questionIds": [
+      "mcq-6b33c388396f05e09b68141c"
+    ]
+  },
+  {
+    "id": "ch89-her2-cardiac",
+    "chapter": "89",
+    "page": 1404,
+    "anchor": "exam-p1404-mcq-550fdfd2885a7718c788d9b9",
+    "front": "Which treatment merits left ventricular monitoring: trastuzumab, letrozole, paclitaxel or cyclophosphamide?",
+    "back": "Trastuzumab can cause cardiomyopathy. Assess left ventricular function before and during therapy. Paclitaxel more typically causes neuropathy, letrozole bone loss and cyclophosphamide cystitis. Hazzard 8e, p. 1404, Table 89-4.",
+    "questionIds": [
+      "mcq-550fdfd2885a7718c788d9b9"
+    ]
+  },
+  {
+    "id": "ch89-radiation-omission",
+    "chapter": "89",
+    "page": 1400,
+    "anchor": "ch89-local-control",
+    "front": "After lumpectomy for small, node-negative, hormone-sensitive disease, what does an older woman taking endocrine therapy give up by omitting irradiation?",
+    "back": "Some local control. At ten years the chapter quotes about ten in-breast recurrences per hundred without radiation and two to three with it. Overall survival was similar in this selected population. Hazzard 8e, p. 1400.",
+    "questionIds": [
+      "mcq-52bf851ce3b7623b16e2cae1",
+      "mcq-4984f7f1c3a21e7dcc93c8e2"
+    ]
+  },
+  {
+    "id": "ch89-cga",
+    "chapter": "89",
+    "page": 1402,
+    "anchor": "ch89-geriatric-assessment",
+    "front": "Two patients have the same tumor stage. What assessment reveals why one may have more difficulty tolerating or completing treatment?",
+    "back": "Comprehensive geriatric assessment examines daily function, cognition, comorbidities, medications, nutrition, mood and real-world support. Falls or difficulty organizing treatment can prompt intervention before therapy. Hazzard 8e, pp. 1401–1402.",
+    "questionIds": [
+      "mcq-212b643daa9c591d6cffc1f9",
+      "mcq-128dd7b51db5c96a286ad396"
+    ]
+  },
+  {
+    "id": "ch89-tamoxifen-men",
+    "chapter": "89",
+    "page": 1406,
+    "anchor": "ch89-male-adjuvant",
+    "front": "An independently living man with resected estrogen receptor-positive breast cancer needs adjuvant endocrine treatment. Which agent is preferred?",
+    "back": "Tamoxifen. Its receptor blockade targets hormone-sensitive disease. If contraindicated, an aromatase inhibitor with gonadal suppression is an alternative. Hazzard 8e, pp. 1405–1406.",
+    "questionIds": [
+      "mcq-d5b75af017acdfc07fa6a4a2"
+    ]
+  },
+  {
+    "id": "ch89-support-navigation",
+    "chapter": "89",
+    "page": 1406,
+    "anchor": "ch89-navigation",
+    "front": "A rural patient lives far from oncology care and lacks reliable transport or language support. Which referral addresses the delay?",
+    "back": "Patient navigation and social work to arrange transportation, language assistance and access to resources. Make the cancer treatment decision with her once the practical options are clear. Hazzard 8e, p. 1406.",
+    "questionIds": [
+      "mcq-a3c9935c6e8734bbc5ea347d"
+    ]
+  },
+  {
+    "id": "ch89-concurrent-palliation",
+    "chapter": "89",
+    "page": 1406,
+    "anchor": "ch89-early-palliative-care",
+    "front": "Does a symptomatic patient starting treatment for metastatic breast cancer have to wait for hospice to receive palliative care?",
+    "back": "No. Consider palliative consultation at diagnosis to address symptoms, support the family and discuss goals alongside cancer treatment. Hazzard 8e, p. 1406.",
+    "questionIds": [
+      "mcq-62582f4cfcbb70a0a0c01001"
+    ]
+  },
+  {
+    "id": "ch89-bone-protection",
+    "chapter": "89",
+    "page": 1404,
+    "anchor": "ch89-bone-resorption",
+    "front": "For a breast cancer patient with bone metastases, what do denosumab and bisphosphonates protect against?",
+    "back": "They reduce osteoclast-mediated bone breakdown and the risk of skeletal complications such as pathologic fracture. Focal pain may also benefit from palliative radiation. Hazzard 8e, pp. 1403–1404.",
+    "questionIds": [
+      "mcq-c9be0054fbc68b730b224631"
+    ]
+  },
+  {
+    "id": "ch89-endocrine-metastases",
+    "chapter": "89",
+    "page": 1403,
+    "anchor": "ch89-metastatic-endocrine",
+    "front": "A woman with painful vertebral recurrence of hormone receptor-positive breast cancer declines chemotherapy. What options address systemic disease and local pain?",
+    "back": "Discuss endocrine-based therapy when disease is not rapidly progressive or life-threatening, and assess focal pain for palliative radiation. Her preference about chemotherapy leaves both options open. Hazzard 8e, p. 1403.",
+    "questionIds": [
+      "mcq-4adf25ce6341971ebdd52dc8"
     ]
   },
   {
@@ -8520,7 +8812,7 @@
     "page": 1480,
     "anchor": "ch94-quality",
     "front": "A frail patient struggles to attend weekly injection visits. Which outcome should shape anemia treatment?",
-    "back": "Weigh symptom relief and daily function against adverse effects and the practical burden of treatment. A normal hemoglobin does not justify repeated visits or transfusions by itself. Hazzard 8e, p. 1480.",
+    "back": "Weigh symptom relief and daily function against adverse effects and the practical burden of treatment. Achieving a normal hemoglobin concentration alone does not justify repeated visits or transfusions. Hazzard 8e, p. 1480.",
     "questionIds": [
       "mcq-4e6ac123c2f829c3e574dbd1"
     ]

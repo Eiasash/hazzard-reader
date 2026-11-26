@@ -307,7 +307,15 @@ window.HazzardEvidence = (() => {
       if(section)for(const id of [...entries.map(([id])=>id),...practice])section.ids.add(id);
       const relatedHere=practice.filter(id=>{
         const entry=data.questions[id];
-        if(entry.chapters.includes(sourceChapter)||Number(entry.sitting.slice(0,4))<2023)return false;
+        if(Number(entry.sitting.slice(0,4))<2023)return false;
+        if(entry.chapters.includes(sourceChapter)){
+          // A bibliography can name the right chapter but only give unrelated pages.
+          // Label a separate teaching passage when its marked page matches the verified support.
+          const cited=entry.pages.filter(p=>String(p.readerChapter||p.chapter)===sourceChapter);
+          const teachingPage=Number(marker.dataset.examReadPage);
+          return cited.length>0&&cited.every(p=>p.citationOnly)&&entry.supportPages?.some(p=>
+            String(p.readerChapter||p.chapter)===sourceChapter&&p.page===teachingPage&&p.available);
+        }
         return memberIds.has(id)||entry.relatedTeaching?.some(target=>String(target.chapter)===sourceChapter);
       });
       const otherPractice=practice.filter(id=>!relatedHere.includes(id));

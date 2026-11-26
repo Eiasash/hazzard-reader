@@ -162,6 +162,8 @@ Erythropoiesis-stimulating agents (ESAs) are analogs of EPO and widely used in e
 
 Blood transfusion is the most effective treatment for acute symptomatic anemia. <span id="ch94-transfusion"></span>For the transfusion threshold, we generally use the cutoff hemoglobin level recommended by the AABB—7 g/dL for the general population and 8 g/dL for patients with symptoms of end-organ ischemia. However, older anemic patients should always be transfused with the recognition of comorbidities. Transfusion threshold and frequency may differ based on many factors and should be evaluated on a case-by-case basis. <span id="ch94-chronic-transfusion"></span>For example, in a patient with chronic hemolytic anemia who is otherwise asymptomatic from a baseline hemoglobin of 6 g/dL, aiming a higher hemoglobin goal of 7 g/dL would only increase the frequency of transfusion without improving quality of life.
 
+> **Acute myocardial infarction.** For a hospitalized patient with acute MI, the 2025 AABB guideline conditionally favors a liberal red-cell transfusion strategy when hemoglobin is below 10 g/dL. The evidence is low certainty. Weigh the patient’s clinical state and transfusion risks; this recommendation is specific to acute MI. [AABB acute MI guideline](https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami)
+
 ## CONCLUSION
 
 Clearly, there are biological features and properties that distinguish young and aged HSCs (Table 94-1). These differences provide insights into pathogenic mechanisms
