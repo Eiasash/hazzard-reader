@@ -108,3 +108,44 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});
   return cancel;
 }
+
+// Number labels belong to a separate absolute rail. In a wrapped inline span
+// the static position of ::before can be on the line *before* its first word.
+function installPointRail(main){
+  const rails=new Map();let frame=0;
+  const schedule=()=>{if(!frame)frame=requestAnimationFrame(layout);};
+  const resized=new ResizeObserver(schedule);
+  function layout(){
+    frame=0;
+    for(const [root,rail] of rails)if(!root.isConnected){resized.unobserve(root);rails.delete(root);}
+    for(const root of main.querySelectorAll('#copy,.mcq-explanation')){
+      let rail=rails.get(root);
+      const markers=root.querySelectorAll('[data-point]');
+      if(!markers.length&&!rail)continue;
+      if(!rail){rail=document.createElement('div');rail.className='point-rail';rail.dataset.readerMetadata='point-labels';
+        rail.setAttribute('aria-hidden','true');root.append(rail);rails.set(root,rail);resized.observe(root);}
+      const origin=rail.getBoundingClientRect(), labels=document.createDocumentFragment();
+      for(const marker of markers){
+        const walker=document.createTreeWalker(marker,NodeFilter.SHOW_TEXT);
+        let node,index=-1;
+        while(node=walker.nextNode()){index=node.data.search(/\S/u);if(index>=0)break;}
+        if(!node)continue;
+        const first=document.createRange();first.setStart(node,index);first.setEnd(node,index+1);
+        const glyph=first.getBoundingClientRect();if(!glyph.height)continue;
+        const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
+        const rect=block.getBoundingClientRect(),rtl=getComputedStyle(block).direction==='rtl';
+        const badge=document.createElement('span');badge.className='point-badge';badge.dataset.number=marker.dataset.point;
+        badge.dataset.ink=marker.dataset.marked||'yellow';badge.dataset.side=rtl?'right':'left';
+        badge.style.setProperty('--badge-ink','var(--hl-'+badge.dataset.ink+',var(--hl-yellow))');
+        badge.style.left=(rtl?rect.right-origin.left+5:rect.left-origin.left-5)+'px';
+        badge.style.top=(glyph.top+glyph.height/2-origin.top)+'px';labels.append(badge);
+      }
+      rail.replaceChildren(labels);
+    }
+  }
+  new MutationObserver(records=>{
+    if(records.some(r=>!r.target.closest?.('.point-rail')&&
+      (r.type==='attributes'||[...r.addedNodes,...r.removedNodes].some(n=>n.nodeType===1&&!n.matches('.point-rail,.point-badge')))))schedule();
+  }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['data-point','data-marked','open','hidden']});
+  addEventListener('resize',schedule);document.fonts?.ready.then(schedule);schedule();
+}

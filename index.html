@@ -6773,6 +6773,7 @@ function previewPen(range){
   if(!CSS.highlights)return;
   if(range)CSS.highlights.set('pen-preview',new Highlight(range));else CSS.highlights.delete('pen-preview');
 }
+installPointRail(document.querySelector('main'));
 function cancelPenGesture(){stopStroke();}
 stopStroke=bindReaderInput({
   state:{stroke:null,get mark(){return activeMark;},bar:barState},

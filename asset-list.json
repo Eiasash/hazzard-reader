@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "b3526dfd7af91dc4c36d0fbe8555046ce2b344b0166d1191ff45393ab3048931",
-      "bytes": 12376
+      "sha256": "7d8d3c50188cfd87d69530f7972fe6dbea365506fd8d8e61b992e5f7b8814ebd",
+      "bytes": 12475
     },
     {
       "url": "./css/reading-companion.css",
@@ -8433,8 +8433,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "4c7e62773ddc55af53a49166cb99c01d4cf0a8e3d0617c51a7542a2815ab97e9",
-      "bytes": 1000957
+      "sha256": "f5805f1ebf3d1d97a64f38dc44071bb6165cf4750685264863515296487ec938",
+      "bytes": 1001007
     },
     {
       "url": "./js/changed-questions.js",
@@ -8508,8 +8508,8 @@
     },
     {
       "url": "./js/reader-input.js",
-      "sha256": "cf60e442e5e5c0c3bf993af92d800a66316722239b7f494449a9cfdd83e864db",
-      "bytes": 5403
+      "sha256": "c9ab61cce28942cd601fce67a9b6b6c640ce6cbf67d54ac9aba80abc61778172",
+      "bytes": 8033
     },
     {
       "url": "./js/reader-sections.js",

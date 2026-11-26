@@ -111,12 +111,15 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 /* Reserve the rail regardless of the number of marks. The label has no
    inline width and therefore cannot push the first word or the next line. */
 #reader.page,.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
-[data-point]::before {content:attr(data-point);position:absolute;inset-inline-end:100%;inset-block-start:auto;
-  margin-inline-end:5px;min-inline-size:1.5em;padding:0 3px;box-sizing:border-box;
-  border:1px solid color-mix(in srgb,var(--mark-colour,var(--hl-yellow)) 64%,var(--muted));border-radius:5px;
+#copy,.mcq-explanation {position:relative}
+.point-rail {position:absolute;inset:0 0 auto;height:0;pointer-events:none;z-index:1}
+.point-badge {position:absolute;transform:translate(-100%,-50%);min-inline-size:1.5em;padding:0 3px;box-sizing:border-box;
+  border:1px solid color-mix(in srgb,var(--badge-ink) 64%,var(--muted));border-radius:5px;
   font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
-  background:var(--mark-colour,var(--hl-yellow));color:var(--hl-ink);pointer-events:none}
-[data-marked="green"][data-point]::before {color:var(--underline-red);background:var(--surface);border-color:var(--underline-red)}
+  background:var(--badge-ink);color:var(--hl-ink)}
+.point-badge::before {content:attr(data-number)}
+.point-badge[data-side="right"] {transform:translateY(-50%)}
+.point-badge[data-ink="green"] {color:var(--underline-red);background:var(--surface);border-color:var(--underline-red)}
 #highlightEditor .mark-palette {display:flex;align-items:center;justify-content:space-between;gap:4px;padding-bottom:3px}
 #inkDots {display:flex;align-items:center}
 #markBar #inkDots button {display:grid;place-items:center;min-width:0;width:clamp(30px,10vw,44px);min-height:44px;padding:0;border:0;background:transparent}
