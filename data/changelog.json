@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v320",
+      "date": "2026-11-26",
+      "changes": [
+        "Adjust highlights with word handles, tap a colour to apply it, or turn on Number points for automatic numbering. Notes and Undo stay next to the mark.",
+        "Chapters load their own highlight anchors and preserve marks if the anchors are unavailable. Improved screen-reader labels, lists and table navigation, and removed stale search results while typing."
+      ]
+    },
+    {
       "version": "v319",
       "date": "2026-11-26",
       "changes": [

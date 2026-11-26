@@ -13,7 +13,7 @@ question_files = generate()
 version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text(encoding='utf-8')).group(1)
 for name, pattern, replacement in [
     ('js/reader-status.js', r"const VERSION = '[^']+'", f"const VERSION = '{version}'"),
-    ('index.html', r'(id="readerStatusChip"[^>]*>)v\d+(?:-r\d+)?( - checking offline copy)', rf'\g<1>{version}\2'),
+    ('index.html', r'(id="readerStatusChip"[^>]*aria-label=")v\d+(?:-r\d+)?( - checking offline copy)', rf'\g<1>{version}\2'),
 ]:
     path = ROOT / name
     with path.open(encoding='utf-8', newline='') as source:
@@ -55,7 +55,21 @@ manifest['examYieldOrder'] = sorted(
 paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
 paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png','data/highlight-aliases.json'})
 paths.update(question_files)
-paths.update({'js/question-data.js','data/verification-registry.json','data/mark-unit-registry.json'})
+paths.update({'js/question-data.js','data/verification-registry.json'})
+# Only the current chapter's stable highlight IDs are needed at startup.
+registry = json.loads((ROOT / 'data/mark-unit-registry.json').read_text(encoding='utf-8'))
+manifest['markUnitFiles'] = True
+for chapter in manifest['chapters']:
+    chapter_id = str(chapter['number'])
+    if chapter_id not in registry:
+        chapter.pop('markUnits', None)
+        continue
+    name = f'data/mark-units/{chapter_id}.json'
+    path = ROOT / name
+    path.parent.mkdir(exist_ok=True)
+    path.write_text(json.dumps(registry[chapter_id], ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8', newline='\n')
+    chapter['markUnits'] = name
+    paths.add(name)
 mcq_index = json.loads((ROOT / 'data/mcq/index.json').read_text(encoding='utf-8'))
 paths.add('js/changed-questions.js')
 paths.update({'js/flashcards.js', 'css/flashcards.css', 'data/flashcards.json'})

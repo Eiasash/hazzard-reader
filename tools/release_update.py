@@ -303,15 +303,14 @@ def run_update(args):
 
     def colour(label):
         button = pg.locator("#markColour")
-        for i in range(3):
-            if button.get_attribute("aria-label").startswith(
-                "Highlight colour: " + label + "."
-            ):
+        # v318 called the red style Underline. v319 spelled out its colour.
+        names = {"underline", "red underline"} if label == "Underline" else {label.lower()}
+        for _ in range(6):
+            current = button.get_attribute("aria-label").split(": ", 1)[-1].split(".", 1)[0]
+            if current.lower() in names:
                 return
             button.click()
-        assert button.get_attribute("aria-label").startswith(
-            "Highlight colour: " + label + "."
-        )
+        raise AssertionError(f"Could not select {label} in the live marking toolbar")
 
     def worker():
         return pg.evaluate("""async()=>{const channel=new MessageChannel();

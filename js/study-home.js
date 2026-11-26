@@ -95,7 +95,7 @@ window.HazzardStudyHome = (() => {
     const target = studyIds.has(chosen.id + 's') ? chosen.id + 's' : chosen.id;
     const practice = element('homeWeakPractice'), study = element('homeWeakStudy');
     practice.href = '?chapter=' + target + '&view=questions&source=past';
-    practice.setAttribute('aria-label', 'Practise past exam questions for ' + name);
+    practice.setAttribute('aria-label', practice.textContent+' for ' + name);
     study.href = '?chapter=' + target;
     study.textContent = target.endsWith('s') ? 'Study notes' : 'Read chapter';
     study.setAttribute('aria-label', study.textContent + ' for ' + name);
