@@ -280,7 +280,9 @@ window.HazzardEvidence = (() => {
     function labelAt(marker,entries,description,anchor,prefix){
       if(!marker||!entries.length)return;
       const badge=askedBadge(entries,description,anchor,prefix);
-      marker.after(badge);
+      // Keep the citation anchor at its source, but put its visible links after the prose.
+      const block=marker.closest('p,li,td,th,figcaption,h1,h2,h3,h4,h5,h6');
+      if(block&&block!==marker)block.append(badge);else marker.after(badge);
       if(compact&&!study)annotations.push({element:badge,ids:entries.map(([id])=>id)});
     }
     if(earlier.length)labelAt(copy.querySelector('h1'),earlier,'Asked in this chapter','asked-chapter');

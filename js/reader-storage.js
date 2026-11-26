@@ -17,7 +17,8 @@ window.HazzardStorage = (() => {
   const owns=key=>typeof key==='string'&&(keys.has(key)||highlightKey(key));
   const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
   const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
-  const validHighlight=mark=>mark&&['yellow','green','blue'].includes(mark.colour)&&typeof mark.text==='string';
+  const colours=HazzardAnswerHighlights.highlightColours;
+  const validHighlight=mark=>mark&&colours.includes(mark.colour)&&typeof mark.text==='string';
   const sizes={small:12,medium:13.5,large:15};
   const validTimer=state=>Number.isInteger(state?.phase)&&state.phase>=0&&state.phase<3&&Number.isFinite(state.left)&&state.left>=0&&state.left<=[1500,300,300][state.phase]&&typeof state.running==='boolean'&&Number.isFinite(state.end)&&state.end>=0&&(!state.running||state.end>0);
 
@@ -103,7 +104,7 @@ window.HazzardStorage = (() => {
   else if(key===HazzardMCQ.VIEW_KEY)valid=HazzardMCQ.validView(value);
   else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
   else if(key==='hazzard-chapters-sort-v1')valid=['number','title','yield','recent'].includes(value);
-  else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&['yellow','green','blue'].includes(value.colour)&&['light','dark'].includes(value.theme);
+  else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&colours.includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
   function validRaw(key,raw){
@@ -156,10 +157,39 @@ window.HazzardStorage = (() => {
   const side=key+'-unreadable-'+date;
     if(raw!==null&&localStorage.getItem(side)===null)localStorage.setItem(side,raw);
   }
+  // scrollTop is fractional (and may overscroll on phones); the layout heights are rounded.
+  function normalizePlaces(value){
+    if(!isRecord(value))return value;
+    for(const p of [...Object.values(value.chapters||{}),value.last]){
+      if(isRecord(p)&&Number.isFinite(p.ratio))p.ratio=Math.max(0,Math.min(1,p.ratio));
+    }
+    return value;
+  }
+  function mergePlaces(local={},incoming={}){
+    const newer=(a,b)=>(!a||(b&&b.at>a.at))?b:a;
+    const chapters={...incoming.chapters,...local.chapters};
+    for(const id of Object.keys(incoming.chapters||{}))chapters[id]=newer(local.chapters?.[id],incoming.chapters[id]);
+    return {...incoming,...local,chapters,last:newer(local.last,incoming.last)};
+  }
+  function repairPlace(raw){
+    if(!raw)return null;
+    try{
+      const value=normalizePlaces(JSON.parse(raw));
+      validateNotebookValue(PLACE_KEY,value);
+      return value;
+    }catch{return null;}
+  }
   function protect(key){
     const spec=protectedStore(key);if(!spec)return false;
     const raw=localStorage.getItem(key);
     if((raw===null&&!(key===HazzardMCQ.PLACE_KEY&&recoverySnapshots.has(key)))||validRaw(key,raw)){unreadable.delete(key);return false;}
+    if(key===PLACE_KEY){
+      const fixed=repairPlace(raw);
+      if(fixed){
+        preserveUnreadable(key,raw);
+        localStorage.setItem(key,JSON.stringify(fixed));unreadable.delete(key);return false;
+      }
+    }
     if(unreadable.get(key)?.raw!==raw){
       try{preserveUnreadable(key,raw);}catch{/* The original remains intact even if storage is full. */}
       unreadable.set(key,{raw,value:spec.empty()});
@@ -194,11 +224,20 @@ window.HazzardStorage = (() => {
     const part=name=>parts.find(p=>p.type===name).value;
     return part('day')+'.'+part('month')+'.'+part('year')+' '+part('hour')+':'+part('minute');
   }
+  async function snapshotFor(key){
+    const selected=recoverySnapshots.get(key);
+    const row=selected&&db&&(await rows()).find(r=>r.id===selected.id);
+    return row&&row.hash===selected.hash&&Object.hasOwn(row.storage,key)&&await usable(row)?row:null;
+  }
+  async function recoverLocalPlace(){
+    if(!protect(PLACE_KEY))return false;
+    const row=await snapshotFor(PLACE_KEY);
+    return row&&recoverPlace(row.storage[PLACE_KEY]);
+  }
   async function restoreSnapshot(key){
     if(!protect(key))return;
-    const selected=recoverySnapshots.get(key);
-    const row=selected&&db&&(await rows()).find(row=>row.id===selected.id);
-    if(!row||row.hash!==selected.hash||!Object.hasOwn(row.storage,key)||!await usable(row))throw Error('That local snapshot is unavailable. Existing history kept.');
+    const row=await snapshotFor(key);
+    if(!row)throw Error('That local snapshot is unavailable. Existing history kept.');
     // Explicit recovery keeps the raw side copy; recovered removals also prune deleted marks.
     if(!protect(key))return;
     const records=key===REMOVALS_KEY?mergeRemovals(JSON.parse(row.storage[key]),unreadable.get(key).value):null;
@@ -206,6 +245,25 @@ window.HazzardStorage = (() => {
     unreadable.delete(key);
     if(records)applySavedRemovals(records);
     snapshot();
+  }
+  function recoverPlace(raw){
+    if(!protect(PLACE_KEY))return false;
+    const copy=repairPlace(raw);
+    if(!copy)return false;
+    const blocked=unreadable.get(PLACE_KEY);
+    let old;
+    try{old=JSON.parse(blocked.raw);}catch{}
+    const salvage={chapters:{}};
+    for(const [id,p] of Object.entries(old?.chapters||{})){
+      const part=normalizePlaces({chapters:{[id]:p}});
+      if(validRaw(PLACE_KEY,JSON.stringify(part)))Object.assign(salvage.chapters,part.chapters);
+    }
+    if(old?.last&&validRaw(PLACE_KEY,JSON.stringify(normalizePlaces({last:old.last}))))salvage.last=old.last;
+    preserveUnreadable(PLACE_KEY,blocked.raw);
+    const merged=mergePlaces(mergePlaces(salvage,copy),blocked.value);
+    validateNotebookValue(PLACE_KEY,merged);
+    localStorage.setItem(PLACE_KEY,JSON.stringify(merged));unreadable.delete(PLACE_KEY);
+    status.restored++;return true;
   }
   function recoveryHTML(reader=false){
     const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -266,6 +324,7 @@ window.HazzardStorage = (() => {
     try{
       db=await new Promise((resolve,reject)=>{const request=indexedDB.open(DB_NAME,1);request.onupgradeneeded=()=>request.result.createObjectStore(STORE,{keyPath:'id',autoIncrement:true});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('Automatic snapshots are blocked by another tab.'));});
       const latest=await indexSnapshots();
+      await recoverLocalPlace();
       if(latest){
         status.snapshotAt=latest.at;
         // Restore only absent or invalid values. Valid empty marks/grades are
@@ -277,6 +336,7 @@ window.HazzardStorage = (() => {
     notify();
   })();
   function setItem(key,raw){
+    if(key===PLACE_KEY)validateNotebookValue(key,JSON.parse(raw));
     if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}
     const change=removalChange(key,raw),protectedRemovals=change!==null&&protect(REMOVALS_KEY),previous=localStorage.getItem(REMOVALS_KEY),previousValue=protectedRemovals?structuredClone(unreadable.get(REMOVALS_KEY).value):null;
     if(change!==null){if(protectedRemovals)unreadable.get(REMOVALS_KEY).value=JSON.parse(change);else localStorage.setItem(REMOVALS_KEY,change);}
@@ -284,6 +344,14 @@ window.HazzardStorage = (() => {
     if(owns(key))snapshot();
   }
   function removeItem(key){if(protect(key))return;localStorage.removeItem(key);if(owns(key))snapshot();}
-  addEventListener('storage',event=>{if(event.storageArea===localStorage&&owns(event.key))snapshot();});
-  return {removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
+  addEventListener('storage',async event=>{
+    if(event.storageArea!==localStorage||!owns(event.key))return;
+    if(event.key===PLACE_KEY&&protect(PLACE_KEY)){
+      try{if(await recoverLocalPlace())dispatchEvent(new Event('hazzard-place-recovered'));
+        else dispatchEvent(new Event('hazzard-place-needs-cloud'));}
+      catch(error){status.error=error.message;}
+    }
+    snapshot();
+  });
+  return {colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();

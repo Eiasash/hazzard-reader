@@ -54,9 +54,6 @@ window.HazzardCloud = (() => {
     $('cloudChangePassword').setAttribute('aria-expanded',String(passwordOpen));
     for(const id of ['cloudShowLogin','cloudShowRegister','cloudSignIn','cloudCreateAccount'])$(id).disabled=authBusy;
     $('cloudSavePassword').disabled=passwordBusy;
-    const synced=lastSyncedAt||state.syncedAt;
-    const entry=loggedIn?session.username+' - '+(time(synced)?'last synced '+time(synced,true):'not synced yet'):'Sign in to sync';
-    for(const id of ['cloudSettingsEntry','cloudNotebookEntry'])$(id).textContent=entry;
     $('cloudDecision').hidden=!signed()||decided()||!known;
     $('cloudDecisionText').textContent=current?.exists?'Choose which notebook to use on this phone.':'No cloud copy yet. Choose Start fresh to enable uploads.';
     $('cloudUseLocal').hidden=!bridge.hasData()||!current?.exists;
@@ -97,19 +94,28 @@ window.HazzardCloud = (() => {
     timer=setTimeout(()=>push(),Math.max(2000,INTERVAL-(Date.now()-(state.attemptAt||0))));
   }
   async function inspect(){
-    if(!signed()||checking||busy||recoveryPaused())return;
+    if(!signed()||checking||busy)return;
     if(!navigator.onLine){schedule();return;}
     checking=true;const generation=epoch,token=session.session_token;render();
     try{
       const a=await rpc('hazzard_cloud_get',{p_token:token,p_which:'current'},false,token);
-      if(generation!==epoch||recoveryPaused())return;
+      if(generation!==epoch)return;
       const b=await rpc('hazzard_cloud_get',{p_token:token,p_which:'prev'},false,token);
-      if(generation!==epoch||recoveryPaused())return;
+      if(generation!==epoch)return;
       current=a;previous=b;known=true;error='';
+      if(decided()&&recoveryPaused()){
+        for(const copy of [a,b]){
+          const backup=copy?.data;
+          if(backup?.format==='hazzard-notebook-backup'&&backup.version===1&&HazzardStorage.recoverPlace(backup.storage?.['hazzard-place-v1'])){
+            bridge.recovered();await HazzardStorage.snapshot();break;
+          }
+        }
+      }
+      if(generation!==epoch||recoveryPaused())return;
       if(!decided()&&bridge.hasData()&&!a.exists){state={username:session.username,decided:true,dirty:true};saveState();}
       if(decided())await push({manual:true,incoming:a});
     }catch(e){if(generation===epoch)error=e.message;}
-    finally{checking=false;render();if(signed()&&!known&&!recoveryPaused()){clearTimeout(timer);timer=setTimeout(inspect,INTERVAL);}}
+    finally{checking=false;render();if(signed()&&(!known||recoveryPaused())){clearTimeout(timer);timer=setTimeout(inspect,INTERVAL);}}
   }
   async function push({manual=false,keepalive=false,incoming=null}={}){
     if(!signed()||!decided()||busy||checking&&!incoming||restoring||recoveryPaused())return;
@@ -248,18 +254,6 @@ window.HazzardCloud = (() => {
       if(passwordOpen)$('cloudCurrentPassword').focus();
     };
     $('cloudCancelPassword').onclick=()=>{passwordOpen=false;clearPasswords();error='';notice='';render();};
-    for(const id of ['cloudSettingsEntry','cloudNotebookEntry','headerCloud'])$(id).addEventListener('click',event=>{
-      // The existing delegated tools button toggles an already-open panel.
-      if($('panel').open&&$('panel').dataset.currentPane==='tools')event.stopPropagation();
-      if(!signed())authMode='login';render();
-      requestAnimationFrame(()=>{
-        $('appearanceStatus').open=true;
-        requestAnimationFrame(()=>{
-          $('cloudControls').scrollIntoView({block:'start'});
-          $(signed()?'cloudSync':'cloudUsername').focus({preventScroll:true});
-        });
-      });
-    });
     $('cloudUsername').value=session.username||state.username||'';
     $('cloudSignOut').onclick=()=>{
       clearPasswords();
@@ -272,11 +266,12 @@ window.HazzardCloud = (() => {
     $('cloudRestore').onclick=()=>restore('current');$('cloudPrevious').onclick=()=>restore('prev');
     addEventListener('hazzard-snapshot-saved',changed);
     addEventListener('hazzard-storage-status',render);
-    addEventListener('online',()=>{if(!known)inspect();else schedule();});
+    addEventListener('hazzard-place-needs-cloud',inspect);
+    addEventListener('online',()=>{if(!known||recoveryPaused())inspect();else schedule();});
     // Lifecycle sync uses the same interval and never dirties unchanged storage.
     const leave=()=>{if(decided()&&!restoring)push({keepalive:true});};
     addEventListener('pagehide',leave);
-    document.addEventListener('visibilitychange',()=>{if(document.hidden)leave();else if(!known)inspect();});
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)leave();else if(!known||recoveryPaused())inspect();});
     addEventListener('storage',event=>{if(event.key===SESSION||event.key===STATE){epoch++;session=read(SESSION);state=read(STATE);known=false;tick=false;lastSyncedAt='';render();if(signed())inspect();}});
     render();if(signed())inspect();
   }
