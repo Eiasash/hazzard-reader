@@ -181,7 +181,7 @@ window.HazzardEvidence = (() => {
       const [year,month]=entry.sitting.split('-');
       link.href=questionURL(id);
       link.textContent=(month?month+' ':'')+year+(entry.sitting.endsWith('-Basic')?' Basic':'')+' Q'+entry.number;
-      link.setAttribute('aria-label',prefix+': '+label(entry));
+      link.setAttribute('aria-label',link.textContent+' · '+prefix+' · '+label(entry));
       return link;
     });
     if(links.length===1){headline.append(links[0]);return badge;}

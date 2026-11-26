@@ -1044,13 +1044,15 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </div>
 </main><div id="jumpEnds" class="jump-ends"><button id="toTop" aria-label="Go to top of chapter" title="Top"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h14M12 20V9m-6 6 6-6 6 6"/></svg></button><button id="toBottom" aria-label="Go to end of chapter" title="End"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19h14M12 4v11m-6-6 6 6 6-6"/></svg></button></div><button id="readerTools" class="reader-tools" data-panel="tools" aria-label="Reading tools" aria-controls="panel" aria-expanded="false" aria-haspopup="dialog" title="Reading tools"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 8h6M9 16h6M16 7h6" stroke-width="3"/></svg></button>
 <button id="markToggle" class="reader-tools" aria-label="Toggle marking" aria-pressed="false" title="Turn marking on"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></button>
-<dialog id="highlightEditor" aria-labelledby="editTitle"><form>
-  <h2 id="editTitle">Highlight</h2><blockquote id="editQuote"></blockquote>
-  <label>Colour<select name="colour"></select></label>
-  <label>Note<textarea name="note" maxlength="500" rows="2"></textarea></label>
-  <label>Point number <small>(optional)</small><input type="number" name="number" min="1" max="999999" step="1" inputmode="numeric"></label>
-  <p id="editError" role="status"></p><div><button type="button" name="remove">Delete</button><button type="button" name="cancel">Cancel</button><button type="submit" class="primary">Save</button></div>
-</form></dialog>
+<div id="highlightEditor" role="group" aria-label="Highlight tools" hidden>
+  <div class="mark-tools"><div id="inkDots"></div><button id="markNoteToggle" aria-label="Edit note" title="Edit note">✎</button><button id="pointChip" aria-label="Edit point number" title="Edit point number">#</button><button id="markDelete" aria-label="Delete highlight" title="Delete highlight">×</button></div>
+  <button id="numberPoints" aria-pressed="false">Number points</button>
+  <input id="markNote" aria-label="Highlight note" placeholder="Note" maxlength="500" hidden>
+  <input id="markNumber" aria-label="Point number" type="number" min="1" step="1" placeholder="Point number" hidden>
+</div>
+<button type="button" id="markStart" class="mark-grip" aria-label="Move highlight start" title="Drag, tap then choose a word, or use the arrow keys" hidden></button><button type="button" id="markEnd" class="mark-grip" aria-label="Move highlight end" title="Drag, tap then choose a word, or use the arrow keys" hidden></button>
+<div id="markUndo" role="status" hidden>Highlight changed <button type="button">Undo</button></div>
+
 <dialog id="panel" data-current-pane="tools" aria-labelledby="panelTitle" aria-modal="false">
 <div class="dialog-head">
   <span class="mark-state"><span id="markingIndicator" role="status" aria-label="Marking on" title="Marking on" hidden><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></span></span>
@@ -1065,7 +1067,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   <div class="settings-controls">
     <div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">S</button><button data-size="medium" aria-label="Medium" aria-pressed="false">M</button><button data-size="large" aria-label="Large" aria-pressed="false">L</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg></button>
-    <button id="cycleColour" class="icon-control" aria-label="Marking colour: yellow. Next: Underline" title="Marking colour: yellow. Next: Underline"><span class="swatch" aria-hidden="true"></span></button>
+    <button id="cycleColour" class="icon-control" aria-label="Marking colour: Yellow. Next: Red underline" title="Marking colour: Yellow. Next: Red underline"><span class="swatch" aria-hidden="true"></span></button>
   </div>
 
 
@@ -5217,7 +5219,7 @@ let mcq=null;
 const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(r=>{
   if(!r.ok)throw Error('Chapter list unavailable');
   return r.json();
-}).then(m=>({chapters:m.chapters,order:m.examYieldOrder||[],loaded:true})).catch(()=>({chapters:[],order:[],loaded:false}));
+}).then(m=>({markUnitFiles:m.markUnitFiles===true,chapters:m.chapters,order:m.examYieldOrder||[],loaded:true})).catch(()=>({chapters:[],order:[],loaded:false}));
 if(['bank','mock'].includes(new URLSearchParams(location.search).get('chapter')))HazzardMCQ.preload().catch(()=>{});
 await HazzardStorage.ready;
 const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',READING_KEY='hazzard-reading-progress-v1';
@@ -5435,7 +5437,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v319 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v320 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5446,7 +5448,7 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to mark or remove it.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Save selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour"><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight. Tap a mark to adjust it.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Highlight selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour"><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
 document.body.append(markBar);
 new ResizeObserver(()=>{if(!markBar.hidden&&markBar.classList.contains('answer-mark-bar'))document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
@@ -5575,16 +5577,25 @@ const unitMap=new Map();
 const readingPage=!['bank','mock'].includes(copy.dataset.chapterId);
 async function readingJSON(path){const r=await fetch(path);if(!r.ok)throw Error('Reading metadata unavailable. Reconnect and reload.');return r.json();}
 const emptyProvenance={bookObjects:{placements:[],objects:{}},claims:{},evidence:{},reviewStatus:{auditResults:{},pendingSources:{}}};
-const [markRegistry,provenanceRegistry,highlightAliases]=await Promise.all([
-  readingPage?readingJSON('data/mark-unit-registry.json').catch(()=>({})):Promise.resolve({}),
+async function chapterMarkUnits(){
+  if(!readingPage)return null;
+  const id=copy.dataset.chapterId,chapter=manifestChapters.find(c=>String(c.number)===id);
+  if(manifestLoaded&&chapter&&!chapter.markUnits&&manifestData.markUnitFiles)return null;
+  if(chapter?.markUnits){
+    try{return await readingJSON(chapter.markUnits);}catch{/* Older cached editions carry the complete registry. */}
+  }
+  try{return (await readingJSON('data/mark-unit-registry.json'))[id];}
+  catch{throw Error('Chapter highlight anchors could not load. Reconnect and reload. Your saved marks are kept.');}
+}
+const [retainedMarkIds,provenanceRegistry,highlightAliases]=await Promise.all([
+  chapterMarkUnits(),
   copy.querySelector('[data-claim]')?readingJSON('data/verification-registry.json').catch(()=>emptyProvenance):Promise.resolve(emptyProvenance),
   readingPage?readingJSON('data/highlight-aliases.json').catch(()=>null):Promise.resolve([])
 ]);
-const retainedMarkIds=markRegistry[copy.dataset.chapterId];
+
 const markIdQueues=new Map(Object.entries(retainedMarkIds?.entries||{}).map(([key,ids])=>[key,[...ids]]));
 let nextUnit=retainedMarkIds?.maxId||0;
 const highlightStorageKey='stage-a-highlights-v1:'+copy.dataset.chapterId;
-const pendingHighlightChanges=new Map();
 let highlightHistory=[],highlightLoadFailed=false,highlightSaveFailed=false,displaySaveFailed=false;
 if('scrollRestoration' in history)history.scrollRestoration='manual';
 function unitScope(node){const base=node.closest('[data-claim]')?.dataset.claim||node.closest('[id]')?.id||node.tagName.toLowerCase();const cell=node.closest('td,th');return base+(cell?'|row:'+cell.closest('tr').querySelector('th')?.textContent.replace(/\s+/g,' ').trim()+'|'+cell.tagName:'')}
@@ -5614,7 +5625,7 @@ function sentences(text){
 function wrapRanges(block,ranges){
   const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT),nodes=[];let n,offset=0;
   while(n=walker.nextNode()){nodes.push({n,start:offset,end:offset+n.length});offset+=n.length}
-  for(const {n,start,end}of nodes){const f=document.createDocumentFragment();let cursor=0;for(const r of ranges){const a=Math.max(start,r.start),b=Math.min(end,r.end);if(b<=a)continue;const from=a-start,to=b-start;if(from>cursor)f.append(document.createTextNode(n.data.slice(cursor,from)));const s=document.createElement('span');s.dataset.unit=r.unit.id;s.textContent=n.data.slice(from,to);r.unit.parts.push(s);f.append(s);cursor=to}if(cursor<n.length)f.append(document.createTextNode(n.data.slice(cursor)));n.replaceWith(f)}
+  for(const {n,start,end}of nodes){if(!n.data.trim()&&n.parentElement.matches('ul,ol,table,thead,tbody,tfoot,tr'))continue;const f=document.createDocumentFragment();let cursor=0;for(const r of ranges){const a=Math.max(start,r.start),b=Math.min(end,r.end);if(b<=a)continue;const from=a-start,to=b-start;if(from>cursor)f.append(document.createTextNode(n.data.slice(cursor,from)));const s=document.createElement('span');s.dataset.unit=r.unit.id;s.textContent=n.data.slice(from,to);r.unit.parts.push(s);f.append(s);cursor=to}if(cursor<n.length)f.append(document.createTextNode(n.data.slice(cursor)));n.replaceWith(f)}
 }
 // Paragraphs split into sentences across inline emphasis. Other text blocks are whole units.
 for(const block of copy.querySelectorAll('h1,h2,h3,h4,h5,h6,li,td,th,caption,figcaption,dt,dd')){
@@ -5945,7 +5956,7 @@ function view(id,opts={}){
   if(id===currentView&&!panel.open){returnReading();return}
   closeProvenance();navigateUI(id,null,false,!!opts.replace);
 }
-function colourLabel(value){return value==='green'?'Red underline':value}
+function colourLabel(value){return value==='green'?'Red underline':value[0].toUpperCase()+value.slice(1)}
 // Record a character in the first visible text line, including its screen offset.
 let lastReadingAnchor=null,anchorFrame=0,anchorWidth=innerWidth;
 function visibleReadingAnchor(){
@@ -6091,6 +6102,7 @@ function markCancel(){gesture=null}
 function unitAt(e){let p=e.target.closest('[data-unit]');if(!p){const caret=document.caretPositionFromPoint?.(e.clientX,e.clientY),range=!caret&&document.caretRangeFromPoint?.(e.clientX,e.clientY),n=caret?.offsetNode||range?.startContainer;p=(n?.nodeType===3?n.parentElement:n)?.closest?.('[data-unit]')}return p&&copy.contains(p)?unitMap.get(p.dataset.unit):null}
 copy.addEventListener('click',e=>{
   const g=gesture;gesture=null;
+  if(performance.now()<suppressTap)return;
   if(panel.open||!getSelection().isCollapsed||e.target.closest('a,button,input,textarea,summary,[data-reader-metadata]'))return;
   if(marking&&e.detail&&(!g?.ended||!g.valid))return;
   const range=e.target.closest('.hl-range'),unit=unitAt(e);
@@ -6107,8 +6119,8 @@ copy.addEventListener('click',e=>{
       else{line.setEndBefore(br);break;}
     }
     const mark=bookQuote(line);
-    if(mark)try{storeBookMark('ranges',null,{...mark,colour});}catch(error){flash(error.message,6000);}
-  }else toggleUnit(unit);
+    if(mark)editMark('ranges',null,mark);
+  }else createBook('marks',unit.id,{text:highlightText(unit)});
 });
 function markKey(e){
   if(!marking||panel.open||e.target.closest('[data-reader-metadata]')||!['Enter',' '].includes(e.key))return;
@@ -6167,7 +6179,7 @@ function archiveUnresolved(saved){
 function updateStorageNotice(){
   const messages=[];
   if(highlightLoadFailed)messages.push('Saved highlights could not be read. The saved data has not been replaced.');
-  if(highlightSaveFailed)messages.push(pendingHighlightChanges.size?'Highlight changes are not saved. Keep this page open.':'Highlight history could not be saved. Keep this page open.');
+  if(highlightSaveFailed)messages.push('Highlight history could not be saved. Keep this page open.');
   if(displaySaveFailed)messages.push('Display changes are not saved.');
   if(highlightHistory.length)messages.push(highlightHistory.length+' saved highlight'+(highlightHistory.length===1?' could':'s could')+' not be restored; kept in Your notebook.');
   const text=messages.join(' ');
@@ -6178,27 +6190,21 @@ function updateStorageNotice(){
 function writeHighlights(saved,key=highlightStorageKey){
   HazzardStorage.setItem(key,JSON.stringify(saved));
 }
-function saveHighlight(u){
-  pendingHighlightChanges.set(u.id,u.marked?{colour:u.colour,text:highlightText(u),at:Date.now()}:null);
-  try{
-    const saved=readHighlights();archiveUnresolved(saved);
-    for(const [id,mark] of pendingHighlightChanges){if(mark)saved.marks[id]=mark;else delete saved.marks[id]}
-    highlightHistory=saved.history;writeHighlights(saved);
-    pendingHighlightChanges.clear();highlightSaveFailed=false;highlightLoadFailed=false;showSaved(u.marked?'✓ Saved':'✓ Removed');
-  }catch{highlightSaveFailed=true}
-  updateStorageNotice();
-}
 function restoreHighlights(){
   try{
     const saved=readHighlights(),changed=archiveUnresolved(saved);highlightHistory=saved.history;
     for(const [id,mark] of Object.entries(saved.marks)){const u=unitMap.get(id);u.marked=true;u.record=mark;u.colour=mark.colour;paintUnit(u)}
     unplacedRanges=[];
     for(const [id,m] of Object.entries(saved.ranges||{})){if(!placeRange(id,m))unplacedRanges.push({id,...m})}
+    for(const node of copy.querySelectorAll('[data-point]'))node.removeAttribute('data-point');
+    for(const {kind,id,mark} of bookItems(saved))if(mark.number){
+      const node=kind==='marks'?unitMap.get(id)?.parts.find(n=>n.textContent.trim()):rangeMarks.get(id)?.spans[0];
+      if(node)node.dataset.point=mark.number;
+    }
     if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
 }
-function toggleUnit(u){u.marked=!u.marked;u.colour=u.marked?colour:null;paintUnit(u);saveHighlight(u)}
 // Removed rows live only for this open notebook; saved highlights use the usual writer.
 const notebookRemovedHighlights=new Map();
 const notebookHighlightId=(ch,kind,id)=>ch+':'+kind+':'+id;
@@ -6325,7 +6331,7 @@ addEventListener('storage',event=>{if((event.key===HazzardAnswerHighlights.KEY||
 function renderNotebook(){
   const ticket=++notebookRenderTicket;
   for(const node of panel.querySelectorAll('details[data-notebook-chapter],details[data-notebook-sitting]')){const key=node.dataset.notebookChapter?'chapter:'+node.dataset.notebookChapter:'sitting:'+node.dataset.notebookSitting;if(node.open)notebookOpenGroups.add(key);else notebookOpenGroups.delete(key);}
-  if(!pendingHighlightChanges.size)resyncHighlights();
+  resyncHighlights();
   const list=$('#notebookMarks');list.replaceChildren();
   const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({...u.record,id:u.id,kind:'marks',colour:u.colour,el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks].map(([id,r])=>({...r,id,kind:'ranges',colour:r.colour,el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
@@ -6450,7 +6456,12 @@ $('#chapterSearch').addEventListener('focus',()=>{
   // Download the indexes while the resident types the first query.
   chapterIndex();bankSearchIndex().catch(()=>{});
 },{once:true});
-$('#chapterSearch').oninput=()=>{++searchTicket;clearTimeout(searchTimer);searchTimer=setTimeout(searchChapters,220)};
+$('#chapterSearch').oninput=()=>{
+  ++searchTicket;clearTimeout(searchTimer);
+  $('#chapterResults').replaceChildren();$('#bankSearchGroup').hidden=true;
+  $('#chapterSearchStatus').textContent='Searching book and question bank…';
+  searchTimer=setTimeout(searchChapters,220);
+};
 function wordStart(text,q,from=0){
   if(!q)return -1;const lower=text.toLowerCase();q=q.toLowerCase();let at=from;
   while((at=lower.indexOf(q,at))!==-1){if(at===0||!/[\p{L}\p{N}\p{M}_]/u.test(lower[at-1]))return at;at+=1}return -1;
@@ -6546,7 +6557,7 @@ function wrapIndexRange(ix,start,end,id,colour){
     const sp=document.createElement('span');sp.className='hl-range';sp.dataset.range=id;sp.dataset.marked=colour;sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
   return spans;
 }
-window.HazzardHighlighter={editMark,textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader',answerColour:()=>colour};
+window.HazzardHighlighter={editMark,textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader'};
 function placeRange(id,m){
   const ix=m.bookText?bookTextIndex():textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
   let best=-1,length=m.text.length,bestScore=-1,ambiguous=false;
@@ -6618,58 +6629,201 @@ function bookQuote(range){
   if(start===end)return null;
   return {bookText:true,text:ix.s.slice(start,end),prefix:ix.s.slice(Math.max(0,start-48),start),suffix:ix.s.slice(end,end+48)};
 }
-function storeBookMark(kind,id,mark,original){
-  const saved=readHighlights(),records=saved[kind]||={};
-  if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
-  if(id&&JSON.stringify(records[id])!==JSON.stringify(original))throw Error('This highlight changed. Reopen it to edit the latest copy.');
-  if(mark){
-    if(!id)id=Object.keys(records).find(key=>HazzardStorage.removals.rangeSignature(records[key])===HazzardStorage.removals.rangeSignature(mark))||'r'+crypto.randomUUID();
-    records[id]={...records[id],...mark,at:Math.max(Date.now(),(records[id]?.at||0)+1)};
-  }else delete records[id];
-  writeHighlights(saved);resyncHighlights();showSaved(mark?'Saved':'Removed');
+const editor=$('#highlightEditor'),noteField=$('#markNote'),numberField=$('#markNumber');
+const gripStart=$('#markStart'),gripEnd=$('#markEnd'),undoBox=$('#markUndo');
+let activeMark=null,drag=null,armedGrip=null,undoTimer,holdTimer,holdPoint,suppressTap=0;
+const numberingKey='hazzard-number-points:'+cid;
+let numbering=false;
+try{numbering=localStorage.getItem(numberingKey)==='1';}catch{}
+function bookItems(saved){
+  return ['marks','ranges'].flatMap(kind=>Object.entries(saved[kind]||{}).map(([id,mark])=>({kind,id,mark})));
 }
-const editor=$('#highlightEditor'),editorForm=editor.querySelector('form');
-for(const value of markColours){
-  const opt=new Option(colourLabel(value),value);editorForm.elements.colour.add(opt);
+function renumber(saved,kind,id,number){
+  const list=bookItems(saved).filter(i=>i.mark.number&&(i.kind!==kind||i.id!==id)).sort((a,b)=>a.mark.number-b.mark.number||a.mark.at-b.mark.at||a.id.localeCompare(b.id));
+  if(number)list.splice(Math.min(number-1,list.length),0,{mark:saved[kind][id]});
+  list.forEach(({mark},i)=>{if(mark.number!==i+1){mark.number=i+1;mark.at=Math.max(Date.now(),(mark.at||0)+1);}});
+}
+function offerUndo(callback){
+  clearTimeout(undoTimer);undoBox.hidden=false;
+  undoBox.querySelector('button').onclick=()=>{try{callback();closeMark();undoBox.hidden=true;}catch(e){flash(e.message,6000);}};
+  undoTimer=setTimeout(()=>undoBox.hidden=true,7000);
+}
+function persistBook(before,saved){
+  writeHighlights(saved);resyncHighlights();
+  const changes=[];
+  for(const k of ['marks','ranges'])for(const id of new Set([...Object.keys(before[k]||{}),...Object.keys(saved[k]||{})])){
+    const old=before[k]?.[id],next=saved[k]?.[id];
+    if(JSON.stringify(old)!==JSON.stringify(next))changes.push({k,id,old,next});
+  }
+  offerUndo(()=>{
+    const current=readHighlights();
+    if(changes.some(({k,id,next})=>JSON.stringify(current[k]?.[id])!==JSON.stringify(next)))throw Error('The mark changed on another device. Undo is unavailable.');
+    for(const {k,id,old} of changes){if(old)(current[k]||={})[id]={...old,at:Math.max(Date.now(),HazzardStorage.removals.read().highlights[cid]?.[k==='marks'?'m:'+id:HazzardStorage.removals.rangeSignature(old)] + 1||0)};else delete current[k][id];}
+    writeHighlights(current);resyncHighlights();
+  });
+}
+function closeMark(){activeMark=null;drag=null;armedGrip=null;editor.hidden=gripStart.hidden=gripEnd.hidden=true;noteField.hidden=numberField.hidden=true;}
+function markNodes(){
+  if(!activeMark)return [];
+  const {kind,id}=activeMark;
+  if(kind==='answer')return [...document.querySelectorAll('.mcq-explanation [data-answer-highlight="'+CSS.escape(id)+'"]')].filter(n=>n.getClientRects().length);
+  return (kind==='marks'?unitMap.get(id)?.parts:rangeMarks.get(id)?.spans)?.filter(n=>n.isConnected&&n.getClientRects().length&&!n.closest('[data-reader-metadata],.exam-page-badge'))||[];
+}
+function markRange(){
+  const nodes=markNodes();if(!nodes.length)return null;
+  const range=document.createRange();range.setStart(nodes[0],0);range.setEnd(nodes.at(-1),nodes.at(-1).childNodes.length);return range;
+}
+function positionMark(range=drag?.range||markRange()){
+  if(!activeMark||!range)return;
+  const rects=[...range.getClientRects()].filter(r=>r.width&&r.height),first=rects[0],last=rects.at(-1);
+  if(!first||panel.open){closeMark();return;}
+  const field=editor.contains(document.activeElement)&&document.activeElement.matches('input');
+  const top=Math.max(0,chapterHeader.getBoundingClientRect().bottom),bottom=appTabs.getBoundingClientRect().top||innerHeight;
+  const visible=rects.find(r=>r.bottom>=top&&r.top<bottom);
+  if(!visible&&!field&&!drag){closeMark();return;}
+  const limit=(x,min,max)=>Math.max(min,Math.min(max,x));
+  const placement=visible||first;
+  editor.style.left=limit(placement.left,4,innerWidth-editor.offsetWidth-4)+'px';
+  editor.style.top=limit(placement.top-editor.offsetHeight-12>=top?placement.top-editor.offsetHeight-12:placement.bottom+20,top,Math.min(bottom,visualViewport?.height||innerHeight)-editor.offsetHeight)+'px';
+  for(const [handle,r,start] of [[gripStart,first,true],[gripEnd,last,false]]){
+    const rtl=getComputedStyle(markNodes()[start?0:markNodes().length-1]||copy).direction==='rtl';
+    handle.hidden=r.bottom<top||r.top>bottom;
+    handle.style.left=limit((start!==rtl?r.left:r.right)-(start?22:0),0,innerWidth-26)+'px';handle.style.top=r.bottom-2+'px';
+  }
+}
+function showMark(kind,id,mark){
+  activeMark={kind,id,mark};editor.hidden=false;
+  for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
+  $('#pointChip').textContent='#'+(mark.number||'');$('#numberPoints').setAttribute('aria-pressed',String(numbering));
+  if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';numberField.value=mark.number||'';
+  positionMark();
 }
 function editMark(kind,id,quote){
-  let original;
   try{
     const records=kind==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[kind];
-    if(!id&&kind==='ranges'&&quote)id=Object.keys(records||{}).find(key=>HazzardStorage.removals.rangeSignature(records[key])===HazzardStorage.removals.rangeSignature(quote));
-    original=id?records?.[id]:null;
-  }catch(error){flash(error.message,6000);return;}
-  if(id&&!original)return;
-  const mark=original||quote;
-  if(!mark)return;
-  const form=editorForm.elements;
-  $('#editQuote').textContent=mark.text;form.colour.value=mark.colour||colour;
-  form.note.value=mark.note||'';form.number.value=mark.number??'';
-  form.remove.hidden=!id;$('#editError').textContent='';
-  function save(remove){
-    try{
-      const fields={...mark,colour:form.colour.value,note:form.note.value.trim(),number:form.number.value?Number(form.number.value):null};
+    if(!id&&kind==='ranges'&&quote)id=Object.keys(records||{}).find(k=>HazzardStorage.removals.rangeSignature(records[k])===HazzardStorage.removals.rangeSignature(quote));
+    if(!id&&kind==='marks')return;
+    if(!id&&quote){
       if(kind==='answer'){
-        if(id)HazzardAnswerHighlights.edit(id,remove?null:fields,original);
-        else HazzardAnswerHighlights.saveSelection(fields.colour,fields);
-        showSaved(remove?'Removed':'Saved');
-      }else storeBookMark(kind,id,remove?null:fields,original);
-      editor.close();
-    }catch(error){$('#editError').textContent=error.message;}
-  }
-  editorForm.onsubmit=e=>{e.preventDefault();save(false);};form.remove.onclick=()=>save(true);
-  selectedBookRange=null;getSelection()?.removeAllRanges();syncMarkingUI();editor.showModal();
+        id=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:1+HazzardAnswerHighlights.items().filter(m=>m.questionId===quote.questionId).reduce((n,m)=>Math.max(n,m.number||0),0)}:quote);if(!id)return;
+        offerUndo(()=>HazzardAnswerHighlights.setRemoved(id,true));showMark(kind,id,HazzardAnswerHighlights.read().items[id]);return;
+      }
+      return createBook(kind,'r'+crypto.randomUUID(),quote);
+    }
+    if(records?.[id]){noteField.hidden=numberField.hidden=true;showMark(kind,id,records[id]);}
+  }catch(e){flash(e.message,6000);}
 }
-editorForm.elements.cancel.onclick=()=>editor.close();
-editor.addEventListener('keydown',e=>e.stopPropagation());
+function createBook(kind,id,quote){
+  try{
+    if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
+    const saved=readHighlights(),before=structuredClone(saved),record={...quote,colour,at:Date.now()};
+    if(numbering)record.number=1+bookItems(saved).reduce((n,i)=>Math.max(n,i.mark.number||0),0);
+    (saved[kind]||={})[id]=record;persistBook(before,saved);getSelection()?.removeAllRanges();noteField.hidden=numberField.hidden=true;showMark(kind,id,record);
+  }catch(e){flash(e.message,6000);}
+}
+function modifyMark(fields,extent=false){
+  if(!activeMark)return;
+  try{
+    let {kind,id,mark}=activeMark;
+    if(kind==='answer'){
+      const undo=HazzardAnswerHighlights.edit(id,fields,mark);
+      const next=HazzardAnswerHighlights.read().items[id];
+      offerUndo(undo);
+      if(fields)showMark(kind,id,next);else closeMark();return;
+    }
+    const saved=readHighlights(),before=structuredClone(saved);
+    if(HazzardStorage.blockedKeys().includes(highlightStorageKey)||JSON.stringify(saved[kind]?.[id])!==JSON.stringify(mark))throw Error('This highlight changed. Reopen it to edit.');
+    delete saved[kind][id];
+    if(extent&&kind==='marks'){kind='ranges';id='r'+crypto.randomUUID();}
+    if(fields)(saved[kind]||={})[id]={...mark,...fields,at:Math.max(Date.now(),(mark.at||0)+1)};
+    if(fields&&Object.hasOwn(fields,'number')||!fields&&mark.number)renumber(saved,kind,id,fields?.number);
+    persistBook(before,saved);if(fields)showMark(kind,id,saved[kind][id]);else closeMark();
+  }catch(e){flash(e.message,6000);closeMark();}
+}
+for(const value of markColours){
+  const dot=document.createElement('button');dot.type='button';dot.dataset.ink=value;dot.title=colourLabel(value);dot.setAttribute('aria-label',dot.title);dot.style.setProperty('--ink-dot','var(--hl-'+value+')');
+  dot.onclick=()=>{if(!activeMark)return;colour=value;applyDisplay();saveDisplay();modifyMark({colour:value});};$('#inkDots').append(dot);
+}
+$('#markNoteToggle').onclick=()=>{numberField.hidden=true;noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();positionMark();};
+$('#pointChip').onclick=()=>{noteField.hidden=true;numberField.hidden=!numberField.hidden;if(!numberField.hidden){numberField.focus();numberField.select();}positionMark();};
+noteField.oninput=()=>{modifyMark({note:noteField.value});};
+numberField.onchange=()=>{if(numberField.validity.valid)modifyMark({number:numberField.value?Number(numberField.value):null});};
+for(const input of [noteField,numberField])input.onkeydown=e=>{if(e.key==='Enter'){input.blur();input.hidden=true;positionMark();}};
+$('#numberPoints').onclick=()=>{numbering=!numbering;try{localStorage.setItem(numberingKey,numbering?'1':'0');}catch{}$('#numberPoints').setAttribute('aria-pressed',String(numbering));};
+$('#markDelete').onclick=()=>modifyMark(null);
+function caretWord(x,y){
+  const c=document.caretPositionFromPoint?.(x,y),f=!c&&document.caretRangeFromPoint?.(x,y),n=c?.offsetNode||f?.startContainer;
+  if(n?.nodeType!==3||n.parentElement.closest('[data-reader-metadata],button,a,summary')||!n.length)return null;
+  let at=Math.min(c?.offset??f.startOffset,n.length-1),end=at;
+  const word=ch=>ch&&/[\p{L}\p{M}\p{N}’'-]/u.test(ch);
+  while(at>0&&word(n.data[at-1]))at--;while(end<n.length&&word(n.data[end]))end++;
+  if(end===at)return null;const range=document.createRange();range.setStart(n,at);range.setEnd(n,end);return range;
+}
+for(const [handle,start] of [[gripStart,true],[gripEnd,false]]){
+  function adjust(r,word){
+    if(!word||!(activeMark.kind==='answer'?word.startContainer.parentElement.closest('.mcq-explanation'):copy.contains(word.commonAncestorContainer)))return null;
+    const next=r.cloneRange();if(start)next.setStart(word.startContainer,word.startOffset);else next.setEnd(word.endContainer,word.endOffset);
+    return next.collapsed?null:next;
+  }
+  function applyExtent(range){
+    if(!range)return;
+    const sel=getSelection();sel.removeAllRanges();sel.addRange(range);
+    const fields=activeMark.kind==='answer'?HazzardAnswerHighlights.selection():bookQuote(range);
+    sel.removeAllRanges();if(fields)modifyMark(fields,true);
+  }
+  handle.onpointerdown=e=>{const range=markRange();if(!range)return;e.preventDefault();handle.setPointerCapture(e.pointerId);drag={range,changed:false};};
+  handle.onpointermove=e=>{
+    if(!drag)return;
+    const next=adjust(drag.range,caretWord(e.clientX,e.clientY-5));if(!next)return;
+    drag={range:next,changed:true};const sel=getSelection();sel.removeAllRanges();sel.addRange(next);positionMark(next);
+  };
+  handle.onpointerup=()=>{if(!drag)return;const {range,changed}=drag;drag=null;
+    if(changed)applyExtent(range);else {armedGrip=(word)=>applyExtent(adjust(range,word));flash('Tap the new '+(start?'first':'last')+' word.',2500);}
+  };
+  handle.onkeydown=e=>{
+    if(!['ArrowLeft','ArrowRight'].includes(e.key))return;
+    const range=markRange();if(!range)return;e.preventDefault();
+    const edge=range.cloneRange();edge.collapse(start);
+    const sel=getSelection();sel.removeAllRanges();sel.addRange(edge);
+    sel.modify('move',e.key==='ArrowLeft'?'backward':'forward','word');
+    const next=adjust(range,sel.getRangeAt(0));sel.removeAllRanges();applyExtent(next);
+  };
+  handle.onpointercancel=()=>{drag=null;getSelection()?.removeAllRanges();positionMark();};
+}
+copy.addEventListener('pointerdown',e=>{
+  if(e.button!==0||!e.isPrimary||e.target.closest('a,button,summary,[data-reader-metadata]'))return;
+  const word=caretWord(e.clientX,e.clientY);if(!word||!copy.contains(word.commonAncestorContainer))return;
+  holdPoint=[e.clientX,e.clientY];clearTimeout(holdTimer);
+  holdTimer=setTimeout(()=>{cancelClaimHold();suppressTap=performance.now()+1200;editMark('ranges',null,bookQuote(word));},470);
+});
+copy.addEventListener('pointermove',e=>{if(holdPoint&&Math.hypot(e.clientX-holdPoint[0],e.clientY-holdPoint[1])>8)clearTimeout(holdTimer);});
+for(const event of ['pointerup','pointercancel'])document.addEventListener(event,()=>{clearTimeout(holdTimer);holdPoint=null;},true);
+document.addEventListener('pointerdown',e=>{
+  if(armedGrip&&e.target.closest('#copy,.mcq-explanation')){
+    const apply=armedGrip;armedGrip=null;apply(caretWord(e.clientX,e.clientY));suppressTap=performance.now()+500;e.preventDefault();e.stopImmediatePropagation();return;
+  }
+  armedGrip=null;if(activeMark&&!e.target.closest('#highlightEditor,.mark-grip,#markUndo,[data-marked]')){if(document.activeElement===numberField)numberField.blur();closeMark();}},true);
+document.addEventListener('keydown',e=>{if(activeMark&&e.key==='Escape'){closeMark();e.stopImmediatePropagation();}},true);
+document.addEventListener('scroll',()=>{if(activeMark&&!drag)positionMark();},true);
+addEventListener('resize',()=>{if(activeMark)positionMark();});
+
 document.addEventListener('selectionchange',()=>{
   const sel=getSelection(),range=sel?.rangeCount===1&&!sel.isCollapsed&&sel.getRangeAt(0);
-  selectedBookRange=range&&copy.contains(range.commonAncestorContainer)&&!panel.open&&!editor.open?range.cloneRange():null;
+  selectedBookRange=range&&copy.contains(range.commonAncestorContainer)&&!panel.open&&editor.hidden?range.cloneRange():null;
   if(!HazzardAnswerHighlights.available())syncMarkingUI();
 });
+function finishSelection(){
+  const sel=getSelection();
+  if(drag||!editor.hidden||panel.open||!sel?.rangeCount||sel.isCollapsed)return;
+  const range=sel.getRangeAt(0);
+  if(copy.contains(range.commonAncestorContainer)){const quote=bookQuote(range);if(quote)editMark('ranges',null,quote);}
+  else if(HazzardAnswerHighlights.available()){const quote=HazzardAnswerHighlights.selection();if(quote)editMark('answer',null,quote);}
+}
+document.addEventListener('pointerup',e=>{if(e.target.closest('#copy,.mcq-explanation'))requestAnimationFrame(finishSelection);});
+document.addEventListener('keyup',e=>{if(e.key==='Shift')finishSelection();});
 function resyncHighlights(){for(const u of unitMap.values())if(u.marked){u.marked=false;u.colour=null;paintUnit(u)}for(const id of [...rangeMarks.keys()])unwrapRange(id);highlightLoadFailed=false;restoreHighlights()}
-addEventListener('pageshow',e=>{if(e.persisted&&!pendingHighlightChanges.size)resyncHighlights()});
-addEventListener('storage',e=>{if(e.key===highlightStorageKey&&!pendingHighlightChanges.size)resyncHighlights()});
+addEventListener('pageshow',e=>{if(e.persisted)resyncHighlights()});
+addEventListener('storage',e=>{if(e.key===highlightStorageKey)resyncHighlights()});
 // ---------- images: tap or double-tap to open a zoomable view ----------
 const zoom=document.createElement('dialog');zoom.id='imageZoom';zoom.dataset.readerMetadata='zoom';zoom.innerHTML='<div class="zoom-stage"></div><div class="zoom-bar"><span class="meta">Pinch or double-tap to zoom · drag to move</span><button type="button" class="zoom-close">Close</button></div>';document.body.append(zoom);
 let zs={scale:1,x:0,y:0,base:1},zEl=null;const zPtr=new Map();let zLastTap={t:0,x:0,y:0},zPrev=null;
@@ -6714,6 +6868,9 @@ function installTableViewer(){
   for(const table of tables){
     let wrap=table.parentElement;
     if(!wrap.matches('.table-wrap')){wrap=document.createElement('div');wrap.className='table-wrap';table.before(wrap);wrap.append(table);}
+    const title=wrap.previousElementSibling?.textContent.trim().match(/^Table\s+[\d.-]+[^\n]*/i)?.[0];
+    if(wrap.getAttribute('aria-label')==='Table')wrap.setAttribute('aria-label',title||'Table '+(Array.prototype.indexOf.call(tables,table)+1));
+    for(const th of table.querySelectorAll('th'))if(!th.textContent.trim()&&!th.children.length)th.setAttribute('role','presentation');
     const button=document.createElement('button');button.type='button';button.className='open-table';button.textContent='Open table';button.dataset.readerMetadata='table';
     wrap.before(button);widths.observe(wrap);widths.observe(table);
     button.onclick=()=>{
@@ -7130,7 +7287,7 @@ function mergeNotebookValue(key,current,incoming){
   return current; // Keep an existing timer, including an active session.
 }
 function captureNotebook(){
-  if(pendingHighlightChanges.size||mcq?.hasUnsaved)throw Error('Some changes are not saved yet. Keep this page open.');
+  if(mcq?.hasUnsaved)throw Error('Some changes are not saved yet. Keep this page open.');
   const storage={};for(const key of Object.keys(localStorage).filter(isNotebookKey).sort()){const raw=localStorage.getItem(key);if(key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;storage[key]=raw;}
   return {format:'hazzard-notebook-backup',version:1,exportedAt:new Date().toISOString(),storage};
 }
@@ -7244,7 +7401,7 @@ function restoreNotebookState(){
 function restoreSummary(invalid,incoming){return invalid.length?' Unreadable saved items (raw text kept in the local snapshot): '+invalid.map(key=>key+(Object.hasOwn(incoming,key)?' (restored)':' (kept; absent from backup)')).join(', ')+'.':'';}
 async function restoreCloudNotebook(backup){
   if(backup?.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage))throw Error('Invalid cloud notebook. Nothing was restored.');
-  if(pendingHighlightChanges.size||mcq?.hasUnsaved||displaySaveFailed||timerSaveFailed)throw Error('Save current changes before restoring.');
+  if(mcq?.hasUnsaved||displaySaveFailed||timerSaveFailed)throw Error('Save current changes before restoring.');
   await HazzardMCQ.loadAliases();
   const incoming={};
   for(const [key,raw] of Object.entries(backup.storage)){
@@ -7463,7 +7620,7 @@ window.HazzardPrepareUpdate=async()=>{
   await HazzardReadingCompanion.prepareUpdate();
   mcq?.remember();
   mcq?.save();
-  if(mcq?.hasUnsaved||pendingHighlightChanges.size||highlightSaveFailed||displaySaveFailed||timerSaveFailed)throw Error('Some changes are not saved. Keep this page open and save them before updating.');
+  if(mcq?.hasUnsaved||highlightSaveFailed||displaySaveFailed||timerSaveFailed)throw Error('Some changes are not saved. Keep this page open and save them before updating.');
   if(!copy.dataset.notLoaded&&(rememberPlace()===false||(!companionFrame&&practiceState&&practiceSave()===false)))throw Error('Progress could not be saved. Keep this page open and try again.');
   await HazzardStorage.flush();
   if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);

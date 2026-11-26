@@ -68,15 +68,6 @@ body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(
 #panel [data-pane="backup"] .notebook-backup { margin:0; border:0; padding:0; }
 #dismissRecovery { float:right; min-height:44px; }
 
-#highlightEditor { position:fixed; inset:0; margin:auto; width:min(27rem,calc(100% - 20px)); max-height:90dvh; overflow:auto; padding:16px; background:var(--surface); color:var(--ink); border:1px solid var(--rule); border-radius:12px; }
-#highlightEditor::backdrop { background:#0006; }
-#highlightEditor form { display:grid; gap:8px; font:500 14px/1.4 var(--ui); }
-#highlightEditor h2,#highlightEditor p { margin:0; }
-#highlightEditor blockquote { max-height:5em; overflow:auto; margin:0; padding-inline-start:8px; border-inline-start:2px solid var(--rule); font-family:var(--reading); }
-#highlightEditor label { display:grid; gap:2px; }
-#highlightEditor :is(select,input,textarea) { width:100%; min-height:44px; padding:6px; border:1px solid var(--rule); border-radius:5px; background:var(--page); color:var(--ink); font:16px var(--ui); }
-#highlightEditor form>div { display:flex; justify-content:flex-end; gap:8px; }
-#highlightEditor [name="remove"] { margin-inline-end:auto; }
 
 .open-table { display:block; margin-inline-start:auto; margin-bottom:2px; color:var(--accent); min-height:44px; }
 .open-table + .table-wrap { margin-top:0; max-width:100%; }
@@ -90,3 +81,19 @@ body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(
 #tableViewer button { min-width:44px; min-height:44px; }
 #tableViewer .table-scroll { flex:1; overflow:auto; overscroll-behavior:contain; }
 #tableViewer table :is(td,th) { min-inline-size:10em; }
+
+#highlightEditor,.mark-grip,#markUndo { position:fixed;z-index:24; }
+#highlightEditor { background:var(--surface);color:var(--ink);padding:4px 6px;border:1px solid var(--rule);border-radius:10px;box-shadow:0 2px 10px #0003;max-width:calc(100vw - 8px);font:500 13px/1.2 var(--ui); }
+.mark-tools,#inkDots { display:flex;align-items:center; }
+#highlightEditor button { min-width:32px;min-height:38px;padding:2px 4px;border:0;background:transparent;color:inherit; }
+#highlightEditor button[aria-pressed="true"] { background:var(--accent-soft);outline:1px solid var(--accent);outline-offset:-2px; }
+#inkDots button::before { content:"";display:block;margin:auto;width:17px;height:17px;border-radius:50%;background:var(--ink-dot);border:1px solid var(--muted); }
+#inkDots [data-ink="green"]::before { height:3px;border:0;border-radius:0;background:var(--underline-red); }
+#highlightEditor #numberPoints { min-height:28px;font-size:12px; }
+#highlightEditor input { display:block;width:100%;font:16px var(--ui); }
+.mark-grip { padding:0;border:0;background:transparent;min-width:26px;min-height:30px;width:26px;height:30px;touch-action:none;user-select:none;cursor:ew-resize; }
+.mark-grip::before { content:"";display:block;width:15px;height:18px;background:var(--accent);border:1px solid var(--surface);border-radius:0 80% 65% 65%; }
+#markStart::before { margin-left:auto;border-radius:80% 0 65% 65%; }
+#markUndo { bottom:calc(var(--tabs-height) + 54px);left:50%;transform:translateX(-50%);white-space:nowrap;padding:2px 8px;background:var(--surface);border:1px solid var(--rule);border-radius:8px;font:13px var(--ui); }
+#markUndo button { min-height:32px; }
+[data-point]::before { content:attr(data-point);vertical-align:super;font:bold .7em var(--ui);color:var(--accent);margin-inline-end:.2em; }

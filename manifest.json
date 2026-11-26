@@ -4,37 +4,43 @@
       "number": "46",
       "title": "Pressure Injuries",
       "file": "hazzard8e_ch46_pressure_injuries.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/46.json"
     },
     {
       "number": "47",
       "title": "Incontinence",
       "file": "hazzard8e_ch47_incontinence.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/47.json"
     },
     {
       "number": "58",
       "title": "Delirium",
       "file": "hazzard8e_ch58_delirium.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/58.json"
     },
     {
       "number": "60",
       "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
       "file": "hazzard8e_ch60_bpsd_psychoactive.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/60.json"
     },
     {
       "number": "61",
       "title": "Parkinson Disease and Related Disorders",
       "file": "hazzard8e_ch61_parkinson.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/61.json"
     },
     {
       "number": "99",
       "title": "Diabetes Mellitus",
       "file": "hazzard8e_ch99_diabetes.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/99.json"
     },
     {
       "number": "42",
@@ -48,140 +54,160 @@
       "title": "Falls",
       "file": "hazzard8e_ch43_falls.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Risk factors, assessment and prevention strategies"
+      "description": "Lane-reviewed 25 Sep. Risk factors, assessment and prevention strategies",
+      "markUnits": "data/mark-units/43.json"
     },
     {
       "number": "44",
       "title": "Sleep Disorders",
       "file": "hazzard8e_ch44_sleep_disorders.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Sleep-disordered breathing, RLS/PLMD, RBD, insomnia and circadian disorders"
+      "description": "Lane-reviewed 25 Sep. Sleep-disordered breathing, RLS/PLMD, RBD, insomnia and circadian disorders",
+      "markUnits": "data/mark-units/44.json"
     },
     {
       "number": "55",
       "title": "Rehabilitation",
       "file": "hazzard8e_ch55_rehabilitation.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Function, exercise and condition-specific rehabilitation"
+      "description": "Lane-reviewed 25 Sep. Function, exercise and condition-specific rehabilitation",
+      "markUnits": "data/mark-units/55.json"
     },
     {
       "number": "59",
       "title": "Dementia Including Alzheimer Disease",
       "file": "hazzard8e_ch59_dementia_including_alzheimer_disease.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Diagnostic criteria, evaluation, biomarkers and management"
+      "description": "Lane-reviewed 25 Sep. Diagnostic criteria, evaluation, biomarkers and management",
+      "markUnits": "data/mark-units/59.json"
     },
     {
       "number": "63",
       "title": "Other Neurodegenerative Disorders",
       "file": "hazzard8e_ch63_other_neurodegenerative_disorders.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. DLB, FTLD spectrum, ALS, CBD, PSP and spinocerebellar ataxias"
+      "description": "Lane-reviewed 25 Sep. DLB, FTLD spectrum, ALS, CBD, PSP and spinocerebellar ataxias",
+      "markUnits": "data/mark-units/63.json"
     },
     {
       "number": "87",
       "title": "Constipation",
       "file": "hazzard8e_ch87_constipation.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Pathophysiology, evaluation and laxative/nonpharmacologic management"
+      "description": "Lane-reviewed 25 Sep. Pathophysiology, evaluation and laxative/nonpharmacologic management",
+      "markUnits": "data/mark-units/87.json"
     },
     {
       "number": "42s",
       "title": "Frailty — Study",
       "file": "hazzard8e_ch42_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/42s.json"
     },
     {
       "number": "43s",
       "title": "Falls — Study",
       "file": "hazzard8e_ch43_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 43"
+      "description": "Summary + 15-question drill for Chapter 43",
+      "markUnits": "data/mark-units/43s.json"
     },
     {
       "number": "44s",
       "title": "Sleep Disorders — Study",
       "file": "hazzard8e_ch44_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/44s.json"
     },
     {
       "number": "46s",
       "title": "Pressure Injuries — Study",
       "file": "hazzard8e_ch46_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 46"
+      "description": "Summary + 15-question drill for Chapter 46",
+      "markUnits": "data/mark-units/46s.json"
     },
     {
       "number": "47s",
       "title": "Incontinence — Study",
       "file": "hazzard8e_ch47_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 47"
+      "description": "Summary + 15-question drill for Chapter 47",
+      "markUnits": "data/mark-units/47s.json"
     },
     {
       "number": "55s",
       "title": "Rehabilitation — Study",
       "file": "hazzard8e_ch55_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/55s.json"
     },
     {
       "number": "58s",
       "title": "Delirium — Study",
       "file": "hazzard8e_ch58_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 58"
+      "description": "Summary + 15-question drill for Chapter 58",
+      "markUnits": "data/mark-units/58s.json"
     },
     {
       "number": "59s",
       "title": "Dementia Including Alzheimer Disease — Study",
       "file": "hazzard8e_ch59_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 59"
+      "description": "Summary + 15-question drill for Chapter 59",
+      "markUnits": "data/mark-units/59s.json"
     },
     {
       "number": "60s",
       "title": "BPSD and Psychoactive Drugs — Study",
       "file": "hazzard8e_ch60_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 60"
+      "description": "Summary + 15-question drill for Chapter 60",
+      "markUnits": "data/mark-units/60s.json"
     },
     {
       "number": "61s",
       "title": "Parkinson Disease — Study",
       "file": "hazzard8e_ch61_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 61"
+      "description": "Summary + 15-question drill for Chapter 61",
+      "markUnits": "data/mark-units/61s.json"
     },
     {
       "number": "63s",
       "title": "Other Neurodegenerative Disorders — Study",
       "file": "hazzard8e_ch63_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/63s.json"
     },
     {
       "number": "87s",
       "title": "Constipation — Study",
       "file": "hazzard8e_ch87_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/87s.json"
     },
     {
       "number": "99s",
       "title": "Diabetes Mellitus — Study",
       "file": "hazzard8e_ch99_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 99"
+      "description": "Summary + 15-question drill for Chapter 99",
+      "markUnits": "data/mark-units/99s.json"
     },
     {
       "number": "45",
       "title": "Syncope and Dizziness",
       "file": "hazzard8e_ch45_syncope_and_dizziness.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Evaluation and management of syncope and dizziness in older adults"
+      "description": "Lane-reviewed 25 Sep. Evaluation and management of syncope and dizziness in older adults",
+      "markUnits": "data/mark-units/45.json"
     },
     {
       "number": "51",
@@ -195,7 +221,8 @@
       "title": "Osteoarthritis",
       "file": "hazzard8e_ch52_osteoarthritis.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Pathophysiology, diagnosis and management"
+      "description": "Lane-reviewed 25 Sep. Pathophysiology, diagnosis and management",
+      "markUnits": "data/mark-units/52.json"
     },
     {
       "number": "57",
@@ -216,14 +243,16 @@
       "title": "Chronic Obstructive Pulmonary Disease",
       "file": "hazzard8e_ch81_copd.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Diagnosis, staging and management in older adults"
+      "description": "Lane-reviewed 25 Sep. Diagnosis, staging and management in older adults",
+      "markUnits": "data/mark-units/81.json"
     },
     {
       "number": "97",
       "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
       "file": "hazzard8e_ch97_endocrine_non_thyroid.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Adrenal, gonadal, pituitary and glucose-related endocrine changes"
+      "description": "Lane-reviewed 25 Sep. Adrenal, gonadal, pituitary and glucose-related endocrine changes",
+      "markUnits": "data/mark-units/97.json"
     },
     {
       "number": "98",
@@ -251,7 +280,8 @@
       "title": "Infection and Appropriate Antimicrobial Selection",
       "file": "hazzard8e_ch104_infection_and_appropriate_antimicrobial_selection.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Infection presentation and antimicrobial selection in older adults"
+      "description": "Lane-reviewed 25 Sep. Infection presentation and antimicrobial selection in older adults",
+      "markUnits": "data/mark-units/104.json"
     },
     {
       "number": "105",
@@ -272,56 +302,64 @@
       "title": "Syncope and Dizziness — Study",
       "file": "hazzard8e_ch45_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/45s.json"
     },
     {
       "number": "51s",
       "title": "Osteoporosis — Study",
       "file": "hazzard8e_ch51_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/51s.json"
     },
     {
       "number": "52s",
       "title": "Osteoarthritis — Study",
       "file": "hazzard8e_ch52_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/52s.json"
     },
     {
       "number": "57s",
       "title": "Cognitive Changes in Aging — Study",
       "file": "hazzard8e_ch57_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/57s.json"
     },
     {
       "number": "68s",
       "title": "Pain Management — Study",
       "file": "hazzard8e_ch68_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/68s.json"
     },
     {
       "number": "81s",
       "title": "COPD — Study",
       "file": "hazzard8e_ch81_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/81s.json"
     },
     {
       "number": "97s",
       "title": "Endocrine (Non-Thyroid) — Study",
       "file": "hazzard8e_ch97_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/97s.json"
     },
     {
       "number": "98s",
       "title": "Thyroid Diseases — Study",
       "file": "hazzard8e_ch98_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/98s.json"
     },
     {
       "number": "101s",
@@ -342,7 +380,8 @@
       "title": "Infection and Antimicrobials — Study",
       "file": "hazzard8e_ch104_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/104s.json"
     },
     {
       "number": "105s",
@@ -384,14 +423,16 @@
       "title": "Cardiac Arrhythmias",
       "file": "hazzard8e_ch77_cardiac_arrhythmias.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Arrhythmia diagnosis and management in older adults"
+      "description": "Lane-reviewed 25 Sep. Arrhythmia diagnosis and management in older adults",
+      "markUnits": "data/mark-units/77.json"
     },
     {
       "number": "83",
       "title": "Kidney Diseases",
       "file": "hazzard8e_ch83_kidney_diseases.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. CKD and kidney disease in older adults"
+      "description": "Lane-reviewed 25 Sep. CKD and kidney disease in older adults",
+      "markUnits": "data/mark-units/83.json"
     },
     {
       "number": "88",
@@ -405,49 +446,56 @@
       "title": "Major Depression — Study",
       "file": "hazzard8e_ch65_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/65s.json"
     },
     {
       "number": "75s",
       "title": "Valvular Heart Disease — Study",
       "file": "hazzard8e_ch75_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/75s.json"
     },
     {
       "number": "76s",
       "title": "Heart Failure — Study",
       "file": "hazzard8e_ch76_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/76s.json"
     },
     {
       "number": "77s",
       "title": "Cardiac Arrhythmias — Study",
       "file": "hazzard8e_ch77_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/77s.json"
     },
     {
       "number": "83s",
       "title": "Kidney Diseases — Study",
       "file": "hazzard8e_ch83_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/83s.json"
     },
     {
       "number": "88s",
       "title": "Cancer and Aging — Study",
       "file": "hazzard8e_ch88_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/88s.json"
     },
     {
       "number": "law",
       "title": "Israel Law & Brookdale Data",
       "file": "israel_law.md",
       "kind": "chapter",
-      "description": "Primary-source Israeli law (dying-patient law, EPA, patient rights) and Brookdale 65+ yearbook data, Hebrew"
+      "description": "Primary-source Israeli law (dying-patient law, EPA, patient rights) and Brookdale 65+ yearbook data, Hebrew",
+      "markUnits": "data/mark-units/law.json"
     },
     {
       "number": "laws",
@@ -462,21 +510,24 @@
       "title": "Emergency Department Care — Study",
       "file": "hazzard8e_ch15_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/15s.json"
     },
     {
       "number": "27s",
       "title": "Perioperative Care: Evaluation and Management — Study",
       "file": "hazzard8e_ch27_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/27s.json"
     },
     {
       "number": "49s",
       "title": "Muscle Aging and Sarcopenia — Study",
       "file": "hazzard8e_ch49_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice."
+      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "markUnits": "data/mark-units/49s.json"
     },
     {
       "number": "73s",
@@ -497,14 +548,16 @@
       "title": "Hip Fractures — Study",
       "file": "hazzard8e_ch53_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/53s.json"
     },
     {
       "number": "67s",
       "title": "Palliative Care and Special Management Issues — Study",
       "file": "hazzard8e_ch67_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/67s.json"
     },
     {
       "number": "92s",
@@ -518,7 +571,8 @@
       "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders — Study",
       "file": "hazzard8e_ch95_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/95s.json"
     },
     {
       "number": "106s",
@@ -539,7 +593,8 @@
       "title": "Principles of Geriatric Assessment — Study",
       "file": "hazzard8e_ch8_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/8s.json"
     },
     {
       "number": "9s",
@@ -574,28 +629,32 @@
       "title": "Coronary Heart Disease and Dyslipidemia — Study",
       "file": "hazzard8e_ch74_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/74s.json"
     },
     {
       "number": "89s",
       "title": "Breast Disease — Study",
       "file": "hazzard8e_ch89_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/89s.json"
     },
     {
       "number": "22s",
       "title": "Medication Prescribing and De-Prescribing — Study",
       "file": "hazzard8e_ch22_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/22s.json"
     },
     {
       "number": "31s",
       "title": "Disorders of Swallowing — Study",
       "file": "hazzard8e_ch31_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/31s.json"
     },
     {
       "number": "85s",
@@ -623,7 +682,8 @@
       "title": "Muscle Aging and Sarcopenia",
       "file": "hazzard8e_ch49_muscle_aging_and_sarcopenia.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/49.json"
     },
     {
       "number": "82",
@@ -637,21 +697,24 @@
       "title": "Perioperative Care: Evaluation and Management",
       "file": "hazzard8e_ch27_perioperative_care_evaluation_and_management.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/27.json"
     },
     {
       "number": "53",
       "title": "Hip Fractures",
       "file": "hazzard8e_ch53_hip_fractures.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/53.json"
     },
     {
       "number": "15",
       "title": "Emergency Department Care",
       "file": "hazzard8e_ch15_emergency_department_care.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/15.json"
     },
     {
       "number": "73",
@@ -665,7 +728,8 @@
       "title": "Hematologic Malignancies (Leukemia/Lymphoma) and Plasma Cell Disorders",
       "file": "hazzard8e_ch95_hematologic_malignancies_leukemia_lymphoma_and_plasma_cell_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/95.json"
     },
     {
       "number": "92",
@@ -679,7 +743,8 @@
       "title": "Palliative Care and Special Management Issues",
       "file": "hazzard8e_ch67_palliative_care_and_special_management_issues.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/67.json"
     },
     {
       "number": "106",
@@ -700,7 +765,8 @@
       "title": "Respiratory System and Selected Pulmonary Disorders — Study",
       "file": "hazzard8e_ch80_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/80s.json"
     },
     {
       "number": "96",
@@ -770,14 +836,16 @@
       "title": "Breast Disease",
       "file": "hazzard8e_ch89_breast_disease.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/89.json"
     },
     {
       "number": "8",
       "title": "Principles of Geriatric Assessment",
       "file": "hazzard8e_ch8_principles_of_geriatric_assessment.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/8.json"
     },
     {
       "number": "103",
@@ -791,14 +859,16 @@
       "title": "Peripheral Vascular Disease",
       "file": "hazzard8e_ch78_peripheral_vascular_disease.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/78.json"
     },
     {
       "number": "78s",
       "title": "Peripheral Vascular Disease — Study",
       "file": "hazzard8e_ch78_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/78s.json"
     },
     {
       "number": "84",
@@ -826,7 +896,8 @@
       "title": "Nutrition Disorders, Obesity, and Enteral/Parenteral Alimentation — Study",
       "file": "hazzard8e_ch30_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/30s.json"
     },
     {
       "number": "90",
@@ -854,7 +925,8 @@
       "title": "Prevention and Screening — Study",
       "file": "hazzard8e_ch11_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/11s.json"
     },
     {
       "number": "69",
@@ -875,7 +947,8 @@
       "title": "Disorders of Swallowing",
       "file": "hazzard8e_ch31_disorders_of_swallowing.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/31.json"
     },
     {
       "number": "16",
@@ -896,14 +969,16 @@
       "title": "Hearing Loss: Assessment and Management",
       "file": "hazzard8e_ch34_hearing_loss_assessment_and_management.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/34.json"
     },
     {
       "number": "34s",
       "title": "Hearing Loss: Assessment and Management — Study",
       "file": "hazzard8e_ch34_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/34s.json"
     },
     {
       "number": "38",
@@ -917,21 +992,24 @@
       "title": "Benign Prostate Disorders — Study",
       "file": "hazzard8e_ch38_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/38s.json"
     },
     {
       "number": "62",
       "title": "Cerebrovascular Disease",
       "file": "hazzard8e_ch62_cerebrovascular_disease.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/62.json"
     },
     {
       "number": "62s",
       "title": "Cerebrovascular Disease — Study",
       "file": "hazzard8e_ch62_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/62s.json"
     },
     {
       "number": "64",
@@ -966,56 +1044,64 @@
       "title": "Ethical Issues",
       "file": "hazzard8e_ch72_ethical_issues.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/72.json"
     },
     {
       "number": "72s",
       "title": "Ethical Issues — Study",
       "file": "hazzard8e_ch72_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/72s.json"
     },
     {
       "number": "79",
       "title": "Hypertension",
       "file": "hazzard8e_ch79_hypertension.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/79.json"
     },
     {
       "number": "79s",
       "title": "Hypertension — Study",
       "file": "hazzard8e_ch79_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/79s.json"
     },
     {
       "number": "94",
       "title": "Aging of the Hematopoietic System and Anemia",
       "file": "hazzard8e_ch94_aging_of_the_hematopoietic_system_and_anemia.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/94.json"
     },
     {
       "number": "94s",
       "title": "Aging of the Hematopoietic System and Anemia — Study",
       "file": "hazzard8e_ch94_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/94s.json"
     },
     {
       "number": "100",
       "title": "Myopathies, Polymyalgia Rheumatica, and Giant Cell Arteritis",
       "file": "hazzard8e_ch100_myopathies_polymyalgia_rheumatica_and_giant_cell_arteritis.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/100.json"
     },
     {
       "number": "100s",
       "title": "Myopathies, Polymyalgia Rheumatica, and Giant Cell Arteritis — Study",
       "file": "hazzard8e_ch100_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/100s.json"
     },
     {
       "number": "86",
@@ -1064,14 +1150,16 @@
       "title": "Elder Mistreatment",
       "file": "hazzard8e_ch48_elder_mistreatment.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/48.json"
     },
     {
       "number": "48s",
       "title": "Elder Mistreatment — Study",
       "file": "hazzard8e_ch48_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/48s.json"
     },
     {
       "number": "10",
@@ -1092,14 +1180,16 @@
       "title": "Decision Making and Advance Care Planning: What Matters Most",
       "file": "hazzard8e_ch7_decision_making_and_advance_care_planning_what_matters_most.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/7.json"
     },
     {
       "number": "7s",
       "title": "Decision Making and Advance Care Planning: What Matters Most — Study",
       "file": "hazzard8e_ch7_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/7s.json"
     },
     {
       "number": "23",
@@ -1134,14 +1224,16 @@
       "title": "Legal Issues",
       "file": "hazzard8e_ch26_legal_issues.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/26.json"
     },
     {
       "number": "26s",
       "title": "Legal Issues — Study",
       "file": "hazzard8e_ch26_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/26s.json"
     },
     {
       "number": "28",
@@ -1213,7 +1305,8 @@
       "number": "37s",
       "title": "Sexuality, Sexual Function, and the Aging Man — Study",
       "file": "hazzard8e_ch37_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/37s.json"
     },
     {
       "number": "54",
@@ -1273,7 +1366,8 @@
       "number": "1s",
       "title": "Biology of Aging and Longevity — Study",
       "file": "hazzard8e_ch1_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/1s.json"
     },
     {
       "number": "40",
@@ -1315,13 +1409,15 @@
       "number": "17",
       "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care",
       "file": "hazzard8e_ch17_community_based_long_term_services_and_support_and_home_based_medical_care.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/17.json"
     },
     {
       "number": "17s",
       "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care — Study",
       "file": "hazzard8e_ch17_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/17s.json"
     },
     {
       "number": "14",
@@ -1423,13 +1519,15 @@
       "number": "3",
       "title": "Immunology and Inflammation",
       "file": "hazzard8e_ch3_immunology_and_inflammation.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/3.json"
     },
     {
       "number": "3s",
       "title": "Immunology and Inflammation — Study",
       "file": "hazzard8e_ch3_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/3s.json"
     },
     {
       "number": "4",
@@ -1577,5 +1675,6 @@
     "41",
     "54",
     "71"
-  ]
+  ],
+  "markUnitFiles": true
 }
