@@ -30,7 +30,7 @@ window.HazzardDrugs = (() => {
       '<p id="drugStatus" role="status" aria-live="polite">Loading drug index…</p>' +
       '<details class="drug-method"><summary>What is included?</summary><p>Names, class labels and brand aliases are sourced to Hazzard 8e. Book passages and study summaries are labelled separately. Open the source for context.</p>' +
       '<p>Official questions match a name in the stem or an accepted keyed option. Distractors, explanations, all-answer appeal options and reviewed incidental medication-list mentions are excluded. A class mention does not create a match for each member drug. Question labels do not reveal the answer.</p>' +
-      '<p>Coverage is limited to sourced entries in the built chapters and study summaries, including checked drug-table images. Chapter 22 is not built. References and recall drills are excluded. No drug advice or current prescribing guidance is added.</p></details><div id="drugResults"></div>';
+      '<p>Coverage is limited to sourced entries in the built chapters and study summaries, including checked drug-table images. References and recall drills are excluded. No drug advice or current prescribing guidance is added.</p></details><div id="drugResults"></div>';
     copy.append(panel);
     const input = panel.querySelector('#drugSearch'), kind = panel.querySelector('#drugKind');
     const status = panel.querySelector('#drugStatus'), results = panel.querySelector('#drugResults');

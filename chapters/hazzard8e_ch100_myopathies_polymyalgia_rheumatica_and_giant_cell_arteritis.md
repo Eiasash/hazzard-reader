@@ -300,7 +300,9 @@ The efficacy and glucocorticoid-sparing effects of tocilizumab, an interleukin-6
 
 <a id="p1606"></a>**[p. 1606]**
 
-events. There may be a modest benefit from methotrexate as a steroid-sparing agent to lower relapse rates and total cumulative steroid dose, but steroid-associated side effects are not reduced. Infliximab was not effective as a steroid-sparing agent, and only anecdotal reports of utility for this purpose are described for trials of dapsone, adalimumab, leflunomide, HCQ, and azathioprine. Low-dose aspirin has been demonstrated to reduce the incidence of cranial ischemic events (particularly anterior ischemic optic neuropathy), and aspirin is known to reduce IFN-γ levels. All patients beginning steroids should be started on bone-protective therapy. Prophylaxis against infection from Pneumocystis jirovecii should be considered for those
+events. There may be a modest benefit from methotrexate as a steroid-sparing agent to lower relapse rates and total cumulative steroid dose, but steroid-associated side effects are not reduced. Infliximab was not effective as a steroid-sparing agent, and only anecdotal reports of utility for this purpose are described for trials of dapsone, adalimumab, leflunomide, HCQ, and azathioprine. Low-dose aspirin has been demonstrated to reduce the incidence of cranial ischemic events (particularly anterior ischemic optic neuropathy), and aspirin is known to reduce IFN-γ levels. All patients beginning steroids should be started on bone-protective therapy. Prophylaxis against infection from Pneumocystis jirovecii should be considered for those on a daily prednisone dose of 20 mg or higher. As aortic aneurysms occur more frequently in patients with GCA within 10 years of diagnosis, a yearly chest radiograph should be performed, with more sensitive studies such as chest CT reserved for patients with equivocal plain radiographic findings.
+
+Although the life expectancy of patients with GCA is similar to that of the age-matched general population, unless severe aortitis is present, morbidity from the disease itself and its therapy may be substantial. Twenty to fifty percent of patients develop toxicities from corticosteroids. Thus, the impact of disease manifestations and the side effects of therapy cannot be underestimated in older people.
 
 ## FURTHER READING
 
@@ -325,10 +327,6 @@ the management of polymyalgia rheumatica: a European League Against Rheumatism/A
 Gabriel SE. Trends in the incidence of polymyalgia rheumatica over a 30 year period in Olmsted County, Minnesota, USA. J Rheumatol. 2002;29(8):1694–1697. Feng C, Liu W, Sun X, et al. Myocardial involvement charac-
 
 teristics by cardiac MR imaging in patients with polymyositis and dermatomyositis. Rheumatology (Oxford). 2021; 20:keab271.
-
-on a daily prednisone dose of 20 mg or higher. As aortic aneurysms occur more frequently in patients with GCA within 10 years of diagnosis, a yearly chest radiograph should be performed, with more sensitive studies such as chest CT reserved for patients with equivocal plain radiographic findings.
-
-Although the life expectancy of patients with GCA is similar to that of the age-matched general population, unless severe aortitis is present, morbidity from the disease itself and its therapy may be substantial. Twenty to fifty percent of patients develop toxicities from corticosteroids. Thus, the impact of disease manifestations and the side effects of therapy cannot be underestimated in older people.
 
 Katzberg HD, Kassardjian CD. Toxic and endocrine myop-
 

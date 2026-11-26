@@ -198,7 +198,7 @@ While patients with serious illness wish to have spiritual needs addressed as pa
 
 ## CONCLUSION
 
-An essential component of geriatric medicine is the routine delivery of effective primary palliative care that includes attention to symptom management, prognostication,
+An essential component of geriatric medicine is the routine delivery of effective primary palliative care that includes attention to symptom management, prognostication, communication, ACP, and individualized care plans. Appropriate referrals to specialty-level palliative care should also be considered when palliative needs are great, given the increasingly robust evidence base of benefit for both palliative care and hospice.
 
 ## FURTHER READING
 
@@ -224,11 +224,7 @@ Efficacy of treating pain to reduce behavioural disturbances in residents of nur
 
 ing Quality and Honoring Individual Preferences Near the End of Life. Washington, DC: The National Academies Press; 2014. [https://www.nap.edu/catalog/18748/](<https://doi.org/10.17226/18748>) dying-in-america-improving-quality-and-honoringindividual-preferences-near [nap.edu]. Accessed February 18, 2022. IOM (Institute of Medicine). Unequal Treatment: Con-
 
-fronting Racial and Ethnic Disparities in Health Care, 2002. [http://nationalacademies.org/hmd/reports/2002/](<https://doi.org/10.17226/10260>)
-
-communication, ACP, and individualized care plans. Appropriate referrals to specialty-level palliative care should also be considered when palliative needs are great, given the increasingly robust evidence base of benefit for both palliative care and hospice.
-
-unequal-treatment-confronting-racial-and-ethnicdisparities-in-health-care.aspx. Accessed May 10, 2016. IOM (Institute of Medicine). (US) Committee on Les-
+fronting Racial and Ethnic Disparities in Health Care, 2002. [http://nationalacademies.org/hmd/reports/2002/](<https://doi.org/10.17226/10260>) unequal-treatment-confronting-racial-and-ethnicdisparities-in-health-care.aspx. Accessed May 10, 2016. IOM (Institute of Medicine). (US) Committee on Les-
 
 bian, Gay, Bisexual, and Transgender Health Issues and Research Gaps and Opportunities. The Health of Lesbian, Gay, Bisexual, and Transgender People: Building a Foundation for Better Understanding. Washington, DC: The National Academies Press; 2011. [https://nationalacademies.org/hmd/reports/2011/the-health-of-lesbiangay-bisexual-and-transgender-people.aspx](<https://doi.org/10.17226/13128>). Accessed May 10, 2016. Johnson KS. Racial and ethnic disparities in palliative care.
 

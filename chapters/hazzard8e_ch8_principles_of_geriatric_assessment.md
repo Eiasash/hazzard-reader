@@ -318,7 +318,13 @@ In-Home Assessment Home assessment programs are a variation of CGA that focus pr
 
 Lessons Learned From Comprehensive Geriatric Assessment Despite unresolved issues regarding the effectiveness of CGA, the principles of CGA have been incorporated into a number of programs that have been demonstrated to be effective. These models adopt various components of CGA including targeting, assessment, and interventions.
 
-CGA with geriatric comanagement of frail patients on nongeriatric inpatient units has shown some promise with meta-analyses demonstrating decreased length of stay and improved functional status with geriatric comanagement of frail patients on nongeriatric wards. In addition,
+CGA with geriatric comanagement of frail patients on nongeriatric inpatient units has shown some promise with meta-analyses demonstrating decreased length of stay and improved functional status with geriatric comanagement of frail patients on nongeriatric wards. In addition, <span id="ch8-oncology" data-reader-metadata="exam"></span>CGA has been adapted to specialty treatment of older persons including oncology, cardiology, emergency department post-discharge management, inpatient orthopedic care, and the preoperative evaluation of older patients. As an example, CGA has been applied to patients with aortic stenosis undergoing evaluation for transcatheter aortic valve replacement (TAVR) and cancer patients undergoing chemotherapy. Elements of CGA have also been incorporated into disease management programs, including stroke and heart failure.
+
+In summary, geriatric assessment continues to evolve as an integral component of the care of older persons. As assessment techniques become better standardized and validated, more efficient yet comprehensive approaches are possible. To date, implementation of such strategies has not occurred on a widespread basis in part due to barriers including cost, logistical implementation, training issues, and unique circumstances of different health care systems. However, as national initiatives to improve quality move forward, screening for geriatric conditions and appropriate assessment of patients who screen positive will likely gain more acceptance. Advances in technology and newer approaches to data collection have increased the ability to integrate geriatric assessment and management that could not have been possible a decade ago and further advances are likely on the horizon. In addition, principles developed in CGA models have now been incorporated into the care of many specialties, either through geriatric comanagement models or structured geriatric assessments.
+
+## ACKNOWLEDGMENTS
+
+Sonja Rosen, MD, and Heather B. Schikedanz, MD, contributed to this chapter in the 7th edition and some material from that chapter has been retained here.
 
 ## FURTHER READING
 
@@ -331,14 +337,6 @@ ment decision-making in older patients with symptomatic severe aortic stenosis. 
 and specificity of a simple test to distinguish between urge and stress urinary incontinence. Ann Intern Med. 2006;144(10):715–723. Buta BJ, Walston JD, Godino JG, et al. Frailty assessment
 
 instruments: systematic characterization of the uses and contexts of highly-cited instruments. Ageing Res Rev. 2016;26:53–61.
-
-<span id="ch8-oncology" data-reader-metadata="exam"></span>CGA has been adapted to specialty treatment of older persons including oncology, cardiology, emergency department post-discharge management, inpatient orthopedic care, and the preoperative evaluation of older patients. As an example, CGA has been applied to patients with aortic stenosis undergoing evaluation for transcatheter aortic valve replacement (TAVR) and cancer patients undergoing chemotherapy. Elements of CGA have also been incorporated into disease management programs, including stroke and heart failure.
-
-In summary, geriatric assessment continues to evolve as an integral component of the care of older persons. As assessment techniques become better standardized and validated, more efficient yet comprehensive approaches are possible. To date, implementation of such strategies has not occurred on a widespread basis in part due to barriers including cost, logistical implementation, training issues, and unique circumstances of different health care systems. However, as national initiatives to improve quality move forward, screening for geriatric conditions and appropriate assessment of patients who screen positive will likely gain more acceptance. Advances in technology and newer approaches to data collection have increased the ability to integrate geriatric assessment and management that could not have been possible a decade ago and further advances are likely on the horizon. In addition, principles developed in CGA models have now been incorporated into the care of many specialties, either through geriatric comanagement models or structured geriatric assessments.
-
-## ACKNOWLEDGMENTS
-
-Sonja Rosen, MD, and Heather B. Schikedanz, MD, contributed to this chapter in the 7th edition and some material from that chapter has been retained here.
 
 Chou R, Dana T, Bougatsos C, Fleming C, Beil TSO.
 

@@ -294,7 +294,13 @@ and PUL remaining significantly improved at 5 years. Rates of serious and non-se
 
 Prostate incision. Transurethral incision of the prostate (TUIP) is a technically simpler procedure used in men with small glands (< 30 mL). TUIP is done under local anesthesia with shorter operation time and less bleeding than TURP. TUIP has similar symptomatic efficacy to TURP at 1 year. In a select case series, at 2 years only 8% of TUIP patients had required a subsequent TURP. TUIP has the potential to be a safe and effective alternative for obstructed older men with smaller prostates who have high operative risk and have failed noninvasive treatment.
 
-Transurethral needle ablation (TUNA) employs transurethrally placed radiofrequency needles to heat prostate tissue, causing coagulation necrosis and a tissue defect. Symptomatic efficacy is lower and less durable than with TURP, and no studies compare TUNA to other procedures, medical therapy, or watchful waiting. Transurethral microwave thermotherapy is a related outpatient procedure that requires repeated treatments. Symptomatic improvement
+Transurethral needle ablation (TUNA) employs transurethrally placed radiofrequency needles to heat prostate tissue, causing coagulation necrosis and a tissue defect. Symptomatic efficacy is lower and less durable than with TURP, and no studies compare TUNA to other procedures, medical therapy, or watchful waiting. Transurethral microwave thermotherapy is a related outpatient procedure that requires repeated treatments. Symptomatic improvement is typically modest, and in short-term trials is inferior to TURP, sham procedures, and terazosin. The future of these procedures is uncertain.
+
+Urethral stents to facilitate voiding should be reserved for high-risk patients with recurrent AUR who are unfit for surgery or for whom long-term indwelling catheterization is undesirable. Permanent absorbable stents are complicated by encrustation, pain, and infection, and failure rates range from 20% to 30%. Nonabsorbable temporary stents are complicated by migration, UTI, stricture, and encrustation. Due to lack of efficacy, thermotherapy and urethral stents are no longer recommended to treat BPH-related LUTS.
+
+## PREVENTION
+
+Data on risk and protective factors suggest that increased physical activity, a diet low in meat and fat and high in vegetables and micronutrients, and moderate alcohol consumption may prevent or slow the progression of benign prostate disease. Weight loss for obese men, glycemic control in diabetes, and treatment of high cholesterol also may be important. However, there are no intervention trials to support these suggestions.
 
 ## FURTHER READING
 
@@ -308,17 +314,7 @@ ticenter randomized noninferiority trial comparing 180 W GreenLight XPS laser va
 
 JB. Boston Area Community Health (BACH) Investigators. Overlap of different urological symptom complexes in a racially and ethnically diverse, community-based population of men and women. BJU Int. 2008;101:45–51. Biester K, Skipka G, Jahn R, Buchberger B, Rohde V,
 
-Lange S. Systematic review of surgical treatments for
-
-is typically modest, and in short-term trials is inferior to TURP, sham procedures, and terazosin. The future of these procedures is uncertain.
-
-Urethral stents to facilitate voiding should be reserved for high-risk patients with recurrent AUR who are unfit for surgery or for whom long-term indwelling catheterization is undesirable. Permanent absorbable stents are complicated by encrustation, pain, and infection, and failure rates range from 20% to 30%. Nonabsorbable temporary stents are complicated by migration, UTI, stricture, and encrustation. Due to lack of efficacy, thermotherapy and urethral stents are no longer recommended to treat BPH-related LUTS.
-
-## PREVENTION
-
-Data on risk and protective factors suggest that increased physical activity, a diet low in meat and fat and high in vegetables and micronutrients, and moderate alcohol consumption may prevent or slow the progression of benign prostate disease. Weight loss for obese men, glycemic control in diabetes, and treatment of high cholesterol also may be important. However, there are no intervention trials to support these suggestions.
-
-benign prostatic hyperplasia and presentation of an approach to investigate therapeutic equivalence (noninferiority). BJU Int. 2012;109(5):722–730. Crawford EF, Wilson SS, McConnell JD, et al. Baseline fac-
+Lange S. Systematic review of surgical treatments for benign prostatic hyperplasia and presentation of an approach to investigate therapeutic equivalence (noninferiority). BJU Int. 2012;109(5):722–730. Crawford EF, Wilson SS, McConnell JD, et al. Baseline fac-
 
 tors as predictors of clinical progression of benign prostatic hyperplasia in men treated with placebo. J Urol. 2006;175:1422–1427. Füllhase C, Chapple C, Cornu J-N, et al. Systematic review
 

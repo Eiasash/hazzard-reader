@@ -328,8 +328,8 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-topic-text{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 .mcq-explanation {block-size:auto;max-block-size:none;overflow:visible}
-#mcqViewport:has(.mcq-docked-actions) {scroll-padding-block-end:calc(60px * var(--fs,1))}
-.mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}
+#mcqViewport:has(.mcq-docked-actions) {scroll-padding-block-end:calc(var(--dock-height,60px) + 8px)}
+.mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:calc(var(--dock-height,60px) + var(--s2))}
 
 /* Reader annotations are inserted after highlight units have been assigned. */
 #copy .exam-links{display:inline-flex;flex-direction:column;max-inline-size:100%;margin:0;font:600 calc(11px * var(--fs,1))/1.3 var(--ui);color:var(--exam);vertical-align:middle}

@@ -170,7 +170,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 /* Legacy exact-word highlights remain readable and removable. */
 .reading-copy .hl-range[data-marked]{border-radius:0}
 .reading-copy a.pg{display:inline;text-decoration:none;white-space:nowrap}
-.reading-copy a.pg::before{content:"p" attr(data-page);font:500 calc(9px * var(--fs,1))/1 var(--ui);color:var(--muted);border:var(--line) solid var(--rule);border-radius:calc(4px * var(--fs,1));padding:0 calc(3px * var(--fs,1));margin:0 calc(3px * var(--fs,1));vertical-align:calc(1px * var(--fs,1))}
+.reading-copy a.pg::before{content:"p" attr(data-page);font:500 calc(12px * var(--fs,1))/1 var(--ui);color:var(--muted);border:var(--line) solid var(--rule);border-radius:calc(4px * var(--fs,1));padding:0 calc(3px * var(--fs,1));margin:0 calc(3px * var(--fs,1));vertical-align:calc(1px * var(--fs,1))}
 .reading-copy img,.reading-copy figure svg{cursor:zoom-in}
 .jump-ends{position:fixed;z-index:6;inset-inline-start:max(var(--s2),env(safe-area-inset-left));inset-block-end:calc(var(--vv-bottom-gap,0px) + max(var(--s3),env(safe-area-inset-bottom)));display:flex;flex-direction:column;gap:var(--s2)}
 .jump-ends button{inline-size:calc(36px * var(--fs,1));block-size:calc(36px * var(--fs,1));min-block-size:calc(36px * var(--fs,1));padding:calc(8px * var(--fs,1));border-radius:50%;display:grid;place-items:center;opacity:.8;background:var(--surface)}
@@ -267,7 +267,7 @@ body{padding-block-end:var(--tabs-height)}
 #chapterHeader .chapter-switch button{white-space:nowrap;overflow-wrap:normal;flex:1;border-radius:7px;font-weight:500}
 #chapterHeader .chapter-switch button:first-child{flex:1.25}
 #chapterHeader .chapter-switch button[aria-current]{color:var(--accent);background:var(--accent-soft);font-weight:700;box-shadow:inset 0 0 0 1px var(--rule)}
-#chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 calc(9px * var(--fs,1))/1.3 var(--ui);color:var(--muted)}
+#chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 calc(12px * var(--fs,1))/1.3 var(--ui);color:var(--muted)}
 #markToggle .pencil-icon{font-size:calc(21px * var(--fs,1));line-height:22px}
 #chapterHeader #markToggle.is-marking{background:var(--current-mark);box-shadow:inset 0 0 0 1px var(--accent);color:var(--hl-ink)}
 /* Physical right edge deliberately remains right in Hebrew. */
@@ -356,7 +356,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #bookmark{flex:1;text-align:left}
 #bookmark[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
 
-.mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 49px)}
+.mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + var(--answer-mark-bar-height,49px))}
 #savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 calc(13px * var(--fs,1)) var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
 #jumpEnds{right:max(0px,env(safe-area-inset-right))}
 #jumpEnds button span{width:40px;height:40px;border:0;background:color-mix(in srgb,var(--surface) 45%,transparent);backdrop-filter:blur(3px);font-size:calc(19px * var(--fs,1));opacity:.55}
@@ -519,7 +519,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 :root[data-theme="dark"] [data-status="incomplete"]{--status-dot:#ff7d7d}
 
 /* v53: one S/M/L scale for reading and UI; fixed reachability controls. */
-:root{--body:calc(.75rem * var(--fs,1))}
+:root{--body:calc(.875rem * var(--fs,1))}
 #panel[data-current-pane="tools"],#appTabs{--s1:4px;--s2:8px;--s3:12px;--s4:12px;--s6:18px;--s8:24px;--gutter:12px;--radius:12px;--line:1px;letter-spacing:.1px}
 #appTabs{--tap:44px}
 .library-row{grid-template-columns:minmax(0,1fr) calc(48px * var(--fs,1)) calc(52px * var(--fs,1));min-height:calc(64px * var(--fs,1))}
@@ -554,7 +554,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #chapterHeader .study-view-tabs{--fs:var(--study-fs,1)}
 /* v90: equal-width icon + label navigation, with status on the icons. */
 #appTabs{--fs:inherit;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;padding-inline:2px}
-#appTabs button,#appTabs [data-tab="tools"]{position:relative;gap:2px;padding:2px 0;font:600 calc(9px * var(--fs,1))/1.2 var(--ui);white-space:nowrap;letter-spacing:0}
+#appTabs button,#appTabs [data-tab="tools"]{position:relative;gap:2px;padding:2px 0;font:600 calc(12px * var(--fs,1))/1.2 var(--ui);white-space:nowrap;letter-spacing:0}
 #appTabs button>span:not(#readerStatusChip){overflow:visible;text-overflow:clip}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])){gap:2px;padding-block:2px}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])) svg{display:block}
@@ -604,7 +604,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 #chapterHeader:has(#headerCloud) .chapter-step{flex-basis:44px;min-width:44px}
 #backupNotebook,#restoreNotebook,#shufflePastOptions{min-height:44px;min-block-size:44px;min-width:44px}
 [data-review="bank"],[data-changed="bank"],[data-stats="bank"],.mcq-page a[href="?chapter=bank"]{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
-@media(max-width:420px){
+@media(max-width:450px){
   #chapterHeader #markToggle,#chapterHeader #headerCloud{flex:0 0 44px;min-width:44px;width:44px;max-width:44px;padding-inline:0}
   #markToggle>span:not(.pencil-icon),#headerCloudLabel{display:none}
 }
@@ -1011,6 +1011,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <div id="desk" class="page" hidden>
   <button class="quiet" id="deskBack">‹ Reading</button><p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>What to study next</h1>
   <div class="home-priorities">
+    <button type="button" class="card" id="homeFlashDue">Flashcards due</button>
     <a class="card" id="homeReview" href="?chapter=bank&amp;review=1&amp;queue=today"><span>Review today</span><span id="homeReviewCount">Loading…</span></a>
     <section class="card home-weak" aria-labelledby="homeWeakHeading">
       <h2 id="homeWeakHeading">Weakest high-yield chapter</h2>
@@ -1051,9 +1052,9 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   <input id="markNumber" aria-label="Point number" type="number" min="1" step="1" placeholder="Point number" hidden>
 </div>
 <button type="button" id="markStart" class="mark-grip" aria-label="Move highlight start" title="Drag, tap then choose a word, or use the arrow keys" hidden></button><button type="button" id="markEnd" class="mark-grip" aria-label="Move highlight end" title="Drag, tap then choose a word, or use the arrow keys" hidden></button>
-<div id="markUndo" role="status" hidden>Highlight changed <button type="button">Undo</button></div>
+<div id="markUndo" hidden><button type="button">Undo</button></div>
 
-<dialog id="panel" data-current-pane="tools" aria-labelledby="panelTitle" aria-modal="false">
+<dialog id="panel" data-current-pane="tools" aria-labelledby="panelTitle" aria-modal="true">
 <div class="dialog-head">
   <span class="mark-state"><span id="markingIndicator" role="status" aria-label="Marking on" title="Marking on" hidden><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m4 16 12-12 4 4L8 20H4zM13 7l4 4M4 16l4 4"/></svg></span></span>
   <h2 id="panelTitle">Reading tools</h2>
@@ -5227,6 +5228,11 @@ const homeReadingKeys={reading:READING_KEY,place:PLACE_KEY,bookmarks:BOOKMARK_KE
 const manifestData=await manifestRequest;
 const examYieldRank=new Map(manifestData.order.map((chapter,index)=>[chapter,index]));
 let requestedChapter=launchParams.get('chapter');
+// A direct Study URL keeps its own hash and question filters in the study frame.
+const pairedStudy=!companionFrame && matchMedia('(min-width:1200px)').matches &&
+  /^(?:\d+s|laws)$/.test(requestedChapter||'') && !launchParams.has('home') && !launchParams.has('stats') &&
+  localStorage.getItem('hazzard-study-pane-open')!=='false' ? new URL(location.href) : null;
+if(pairedStudy)requestedChapter=requestedChapter.slice(0,-1);
 let opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
 if(!requestedChapter||opensOnHome){
   const last=readJSON(PLACE_KEY,{}).last;
@@ -5437,7 +5443,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v321 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v322 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5448,9 +5454,9 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight. Tap a mark to adjust it.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Highlight selection</button><button id="markRemove" hidden>Remove highlight</button><button id="markColour"><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight. Tap a mark to adjust it.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Highlight selection</button><button id="markRemove" hidden>Remove highlight</button><div id="penDots"></div><button id="penNumbers" aria-pressed="false">Number points</button><button id="penUndo" disabled>Undo</button><button id="markColour" hidden><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
 document.body.append(markBar);
-new ResizeObserver(()=>{if(!markBar.hidden&&markBar.classList.contains('answer-mark-bar'))document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
+new ResizeObserver(()=>{if(!markBar.hidden)document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
 examBar.innerHTML='<span id="examCount" role="status"></span><button id="examPrevious" aria-label="Previous exam page">↑</button><button id="examNext" aria-label="Next exam page">↓</button><button id="examClose" aria-label="Close exam pages">✕</button>';document.body.append(examBar);
 let examIndex=-1;
@@ -5461,7 +5467,7 @@ $('#toTop').innerHTML='<span aria-hidden="true">↑</span>';$('#toBottom').inner
 pencil.className='';pencil.innerHTML='<span class="pencil-icon" aria-hidden="true">✎</span><span>Highlight</span>';pencil.setAttribute('aria-label','Highlight: Off');
 const contentsSteps=document.createElement('nav');contentsSteps.className='contents-steps';contentsSteps.setAttribute('aria-label','Previous and next chapters');
 $('[data-pane="contents"]').prepend(contentsSteps);
-const narrowHeader=matchMedia('(max-width:420px)');
+const narrowHeader=matchMedia('(max-width:450px)');
 function placeHeaderSteps(){
   const previous=$('#headerPrevious'),next=$('#headerNext'),title=$('#chapterHeaderTitle');
   if(narrowHeader.matches)contentsSteps.append(previous,next);
@@ -5609,7 +5615,14 @@ function newUnit(text,parts=[],scope=''){
     existing.parts.push(...parts);
     return existing;
   }
-  const unit={id:retained||'u'+(++nextUnit),text,parts,marked:false,colour:null};
+  // Moving a printed column reorders runs of sequential IDs. Registered IDs keep precedence.
+  let id=retained;
+  if(!id){
+    nextUnit++;
+    const run=retainedMarkIds?.sequenceOffsets?.findLast(([first])=>first<=nextUnit);
+    id='u'+(nextUnit+(run?.[1]||0));
+  }
+  const unit={id,text,parts,marked:false,colour:null};
   unitMap.set(unit.id,unit);
   return unit;
 }
@@ -5782,7 +5795,7 @@ function displayPane(name){
     for(const box of pane.querySelectorAll('details[open]'))box.open=false;
     renderNotebook();
   }if(name==='practice')refreshMissedCount();
-  if(!panel.open)panel.show();pane.scrollTop=0;
+  if(!panel.open)panel.showModal();pane.scrollTop=0;
   if(name==='contents')pane.querySelector('.reader-section-link')?.focus({preventScroll:true});
   if(name==='flashcards')HazzardFlashcards.show();
 }
@@ -6045,10 +6058,12 @@ document.addEventListener('click',e=>{
   else if(b.dataset.theme){document.documentElement.dataset.theme=b.dataset.theme;applyDisplay();saveDisplay()}
   else if(b.dataset.colour){colour=b.dataset.colour;applyDisplay();saveDisplay()}
 });
+panel.addEventListener('cancel',e=>{e.preventDefault();closePanel();});
+panel.addEventListener('click',e=>{if(e.target!==panel)return;const box=panel.getBoundingClientRect();if(e.clientX<box.left||e.clientX>box.right||e.clientY<box.top||e.clientY>box.bottom)closePanel();});
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(marking)setMarking(false)}});
 function setMarking(on){
-  if(marking===on)return;marking=on;gesture=null;document.body.classList.toggle('marking',on);
+  if(marking===on)return;if(!on){closeMark();undoBox.hidden=true;}marking=on;gesture=null;document.body.classList.toggle('marking',on);
   syncMarkingUI();if(on){if(!HazzardAnswerHighlights.available())getSelection()?.removeAllRanges();syncBookmark()}else HazzardAnswerHighlights.resetSelection();
   const action=on?'addEventListener':'removeEventListener';
   copy[action]('pointerdown',markDown);copy[action]('pointermove',markMove);copy[action]('pointerup',markUp);copy[action]('pointercancel',markCancel);copy[action]('keydown',markKey);
@@ -6062,12 +6077,13 @@ $('#markRemove').onclick=()=>{try{if(HazzardAnswerHighlights.removeSelected())sh
 document.addEventListener('selectionchange',()=>{if(currentView==='reader'&&!panel.open&&HazzardAnswerHighlights.captureSelection()){setMarking(true);syncMarkingUI();}});
 addEventListener('hazzard-answer-highlight-selection',()=>{if(currentView==='reader'&&!panel.open){setMarking(true);syncMarkingUI();}});
 addEventListener('hazzard-answer-highlights-ready',()=>{syncMarkingUI();});
-addEventListener('hazzard-answer-highlight-tap',e=>{showSaved(e.detail.removed?'Removed':undefined);syncMarkingUI();});
+addEventListener('hazzard-answer-highlight-tap',()=>syncMarkingUI());
 addEventListener('hazzard-answer-highlight-error',e=>flash(e.detail,6000));
 $('#toggleTheme').onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';applyDisplay();saveDisplay()};
 function cycleColour(){colour=markColours[(markColours.indexOf(colour)+1)%markColours.length];applyDisplay();saveDisplay()}
 $('#cycleColour').onclick=$('#deskCycleColour').onclick=cycleColour;
 function syncMarkingUI(){
+  for(const dot of $('#penDots').children)dot.setAttribute('aria-pressed',String(dot.dataset.ink===colour));
   const underline=colour==='green';
   document.documentElement.dataset.markStyle=underline?'underline':'fill';
   document.documentElement.style.setProperty('--current-mark',underline?'transparent':'var(--hl-'+colour+')');
@@ -6075,8 +6091,8 @@ function syncMarkingUI(){
   pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Turn marking off':'Turn marking on';pencil.setAttribute('aria-label','Highlight: '+(marking?'On':'Off'));if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   const answer=HazzardAnswerHighlights.available(),questionView=!!mcq?.active||['bank','mock'].includes(String(copy.dataset.chapterId||'')),selection=HazzardAnswerHighlights.selectionState();
   if(questionView)pencil.hidden=currentView!=='reader'||!answer;
-  $('#bookmark').hidden=answer||!!selectedBookRange;$('#markSelection').hidden=!answer&&!selectedBookRange;$('#markSelection').disabled=!selection.canSave&&!selectedBookRange;
-  $('#markRemove').hidden=!answer||!selection.canRemove;$('#markHint').hidden=!answer;markBar.classList.toggle('answer-mark-bar',answer);
+  $('#bookmark').hidden=answer||!!selectedBookRange;$('#markSelection').hidden=marking||(!answer&&!selectedBookRange);$('#markSelection').disabled=!selection.canSave&&!selectedBookRange;
+  $('#markRemove').hidden=true;$('#markHint').hidden=true;markBar.classList.toggle('answer-mark-bar',answer);
   $('#markingIndicator').hidden=!marking;markBar.hidden=(!marking&&!selectedBookRange)||currentView!=='reader'||panel.open||questionView&&!answer;document.body.classList.toggle('mark-bar-open',!markBar.hidden);document.body.classList.toggle('answer-mark-bar-open',!markBar.hidden&&answer);$('#markColour').setAttribute('aria-label','Highlight colour: '+colourLabel(colour)+'. Tap for next colour');
 }
 function syncTabs(){
@@ -6577,6 +6593,7 @@ function revealReading(el,options){if(!el)return;landingUntil=performance.now()+
 function readJSON(k,d){try{return HazzardStorage.readProtected(k,()=>d)??d}catch{return d}}
 function writeJSON(k,v){try{HazzardStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const cid=String(copy.dataset.chapterId||'');
+if(cid==='law'||cid==='laws')copy.lang='he';
 function searchLabel(entry){const id=String(entry.number);if(id==='law')return 'Israeli law';if(id==='laws')return 'Israeli law — study';return 'Chapter '+id.replace(/s$/,'')+(entry.kind==='study'?' study':'')+' — '+entry.title.replace(/ — Study$/i,'')}
 function chapterLabel(ch){ch=String(ch);if(ch==='mock')return 'Mock paper';const e=manifestChapters.find(c=>String(c.number)===ch);if(ch==='law')return 'Israeli law';if(ch==='laws')return 'Israeli law — study';return (/s$/.test(ch)?'Chapter '+ch.slice(0,-1)+' study':'Chapter '+ch)+(e&&!/s$/.test(ch)?' — '+e.title:'')}
 // ---------- transient notice ----------
@@ -6686,9 +6703,10 @@ function renumber(saved,kind,id,number){
   list.forEach(({mark},i)=>{if(mark.number!==i+1){mark.number=i+1;mark.at=Math.max(Date.now(),(mark.at||0)+1);}});
 }
 function offerUndo(callback){
-  clearTimeout(undoTimer);undoBox.hidden=false;
-  undoBox.querySelector('button').onclick=()=>{try{callback();closeMark();undoBox.hidden=true;}catch(e){flash(e.message,6000);}};
-  undoTimer=setTimeout(()=>undoBox.hidden=true,7000);
+  const button=$('#penUndo');button.disabled=false;
+  clearTimeout(undoTimer);undoBox.hidden=marking;
+  button.onclick=undoBox.querySelector('button').onclick=()=>{try{callback();closeMark();undoBox.hidden=true;button.disabled=true;}catch(e){flash(e.message,6000);}};
+  undoTimer=setTimeout(()=>undoBox.hidden=true,3000);
 }
 function persistBook(before,saved){
   writeHighlights(saved);resyncHighlights();
@@ -6748,7 +6766,7 @@ function editMark(kind,id,quote){
     if(!id&&quote){
       if(kind==='answer'){
         id=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:1+HazzardAnswerHighlights.items().filter(m=>m.questionId===quote.questionId).reduce((n,m)=>Math.max(n,m.number||0),0)}:quote);if(!id)return;
-        const added=HazzardAnswerHighlights.read().items[id];offerUndo(()=>HazzardAnswerHighlights.edit(id,null,added));showMark(kind,id,added);return;
+        const added=HazzardAnswerHighlights.read().items[id];offerUndo(()=>HazzardAnswerHighlights.edit(id,null,added));closeMark();return;
       }
       return createBook(kind,'r'+crypto.randomUUID(),quote);
     }
@@ -6760,7 +6778,7 @@ function createBook(kind,id,quote){
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
     const saved=readHighlights(),before=structuredClone(saved),record={...quote,colour,at:Date.now()};
     if(numbering)record.number=1+bookItems(saved).reduce((n,i)=>Math.max(n,i.mark.number||0),0);
-    (saved[kind]||={})[id]=record;persistBook(before,saved);getSelection()?.removeAllRanges();noteField.hidden=numberField.hidden=true;showMark(kind,id,record);
+    (saved[kind]||={})[id]=record;persistBook(before,saved);getSelection()?.removeAllRanges();closeMark();
   }catch(e){flash(e.message,6000);}
 }
 function modifyMark(fields,extent=false){
@@ -6784,14 +6802,23 @@ function modifyMark(fields,extent=false){
 }
 for(const value of markColours){
   const dot=document.createElement('button');dot.type='button';dot.dataset.ink=value;dot.title=colourLabel(value);dot.setAttribute('aria-label',dot.title);dot.style.setProperty('--ink-dot','var(--hl-'+value+')');
-  dot.onclick=()=>{if(!activeMark)return;colour=value;applyDisplay();saveDisplay();modifyMark({colour:value});};$('#inkDots').append(dot);
+  dot.onclick=()=>{colour=value;applyDisplay();saveDisplay();modifyMark({colour:value});};$('#inkDots').append(dot);
 }
+for(const dot of $('#inkDots').children){
+  const penDot=dot.cloneNode(true);$('#penDots').append(penDot);
+  penDot.onclick=()=>{colour=penDot.dataset.ink;applyDisplay();saveDisplay();};
+}
+function displayPen(){
+  for(const dot of $('#penDots').children)dot.setAttribute('aria-pressed',String(dot.dataset.ink===colour));
+  $('#penNumbers').setAttribute('aria-pressed',String(numbering));
+}
+displayPen();
 $('#markNoteToggle').onclick=()=>{numberField.hidden=true;noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();positionMark();};
 $('#pointChip').onclick=()=>{noteField.hidden=true;numberField.hidden=!numberField.hidden;if(!numberField.hidden){numberField.focus();numberField.select();}positionMark();};
 noteField.oninput=()=>{modifyMark({note:noteField.value});};
 numberField.onchange=()=>{if(numberField.validity.valid)modifyMark({number:numberField.value?Number(numberField.value):null});};
 for(const input of [noteField,numberField])input.onkeydown=e=>{if(e.key==='Enter'){input.blur();input.hidden=true;positionMark();}};
-$('#numberPoints').onclick=()=>{numbering=!numbering;try{localStorage.setItem(numberingKey,numbering?'1':'0');}catch{}$('#numberPoints').setAttribute('aria-pressed',String(numbering));};
+$('#penNumbers').onclick=$('#numberPoints').onclick=()=>{numbering=!numbering;try{localStorage.setItem(numberingKey,numbering?'1':'0');}catch{}$('#numberPoints').setAttribute('aria-pressed',String(numbering));displayPen();};
 $('#markDelete').onclick=()=>modifyMark(null);
 function caretWord(x,y){
   const c=document.caretPositionFromPoint?.(x,y),f=!c&&document.caretRangeFromPoint?.(x,y),n=c?.offsetNode||f?.startContainer;
@@ -6832,14 +6859,38 @@ for(const [handle,start] of [[gripStart,true],[gripEnd,false]]){
   };
   handle.onpointercancel=()=>{drag=null;getSelection()?.removeAllRanges();positionMark();};
 }
+let penStroke=null;
 copy.addEventListener('pointerdown',e=>{
   if(e.button!==0||!e.isPrimary||e.target.closest('a,button,summary,[data-reader-metadata]'))return;
-  suppressTap=0;const word=caretWord(e.clientX,e.clientY);if(!word||!copy.contains(word.commonAncestorContainer))return;
+  suppressTap=0;const word=caretWord(e.clientX,e.clientY);
+  if(!word||!copy.contains(word.commonAncestorContainer))return;
   holdPoint=[e.clientX,e.clientY];clearTimeout(holdTimer);
-  holdTimer=setTimeout(()=>{cancelClaimHold();suppressTap=performance.now()+1200;editMark('ranges',null,bookQuote(word));},470);
+  penStroke={id:e.pointerId,word,range:word,selecting:false,scroll:readerScroll.scrollTop,panning:false};
+  holdTimer=setTimeout(()=>{if(!penStroke)return;cancelClaimHold();penStroke.selecting=true;const sel=getSelection();sel.removeAllRanges();sel.addRange(word);},450);
 });
-copy.addEventListener('pointermove',e=>{if(holdPoint&&Math.hypot(e.clientX-holdPoint[0],e.clientY-holdPoint[1])>8)clearTimeout(holdTimer);});
-for(const event of ['pointerup','pointercancel'])document.addEventListener(event,()=>{clearTimeout(holdTimer);holdPoint=null;},true);
+copy.addEventListener('pointermove',e=>{
+  const stroke=penStroke;if(!stroke||e.pointerId!==stroke.id)return;
+  const dx=e.clientX-holdPoint[0],dy=e.clientY-holdPoint[1];
+  if(!stroke.selecting&&Math.hypot(dx,dy)<8)return;
+  clearTimeout(holdTimer);
+  if(!marking&&!stroke.selecting){penStroke=null;return;}
+  if(!stroke.selecting&&e.pointerType==='touch'&&Math.abs(dy)>Math.abs(dx))stroke.panning=true;
+  if(stroke.panning){readerScroll.scrollTop=stroke.scroll-dy;return;}
+  const word=caretWord(e.clientX,e.clientY);if(!word||!copy.contains(word.commonAncestorContainer))return;
+  stroke.selecting=true;const range=stroke.word.cloneRange();
+  if(word.compareBoundaryPoints(Range.START_TO_START,range)<0)range.setStart(word.startContainer,word.startOffset);
+  else range.setEnd(word.endContainer,word.endOffset);
+  stroke.range=range;const sel=getSelection();sel.removeAllRanges();sel.addRange(range);
+});
+function endPenStroke(e){
+  clearTimeout(holdTimer);const stroke=penStroke;penStroke=null;holdPoint=null;
+  if(!stroke||stroke.id!==e.pointerId||(!stroke.selecting&&!stroke.panning))return;
+  suppressTap=performance.now()+700;
+  const quote=e.type==='pointerup'&&stroke.selecting&&bookQuote(stroke.range);
+  getSelection()?.removeAllRanges();
+  if(quote)editMark('ranges',null,quote);
+}
+document.addEventListener('pointerup',endPenStroke,true);document.addEventListener('pointercancel',endPenStroke,true);
 document.addEventListener('pointerdown',e=>{
   if(armedGrip&&e.target.closest('#copy,.mcq-explanation')){
     const apply=armedGrip;armedGrip=null;apply(caretWord(e.clientX,e.clientY));suppressTap=performance.now()+500;e.preventDefault();e.stopImmediatePropagation();return;
@@ -6861,7 +6912,7 @@ function finishSelection(){
   if(copy.contains(range.commonAncestorContainer)){const quote=bookQuote(range);if(quote)editMark('ranges',null,quote);}
   else if(HazzardAnswerHighlights.available()){const quote=HazzardAnswerHighlights.selection();if(quote)editMark('answer',null,quote);}
 }
-document.addEventListener('pointerup',e=>{if(e.target.closest('#copy,.mcq-explanation'))requestAnimationFrame(finishSelection);});
+document.addEventListener('pointerup',e=>{if(performance.now()>=suppressTap&&e.target.closest('#copy,.mcq-explanation'))requestAnimationFrame(finishSelection);});
 document.addEventListener('keyup',e=>{if(e.key==='Shift')finishSelection();});
 function resyncHighlights(){for(const u of unitMap.values())if(u.marked){u.marked=false;u.colour=null;paintUnit(u)}for(const id of [...rangeMarks.keys()])unwrapRange(id);highlightLoadFailed=false;restoreHighlights()}
 addEventListener('pageshow',e=>{if(e.persisted)resyncHighlights()});
@@ -7151,8 +7202,8 @@ function initializePractice(){
       const question=answer.previousElementSibling,number=question?.textContent.trim().match(/^(\d+)\.\s/);
       if(!number||question.tagName!=='P')continue;
       let heading=question.previousElementSibling;while(heading&&!/^H[1-6]$/.test(heading.tagName))heading=heading.previousElementSibling;
-      if(heading?.textContent.trim()==='Recall')continue;
-      const section=document.createElement('section');section.className='drill-q';section.dataset.q=cid+':'+number[1];section.dir='auto';
+      const recall=heading?.textContent.trim()==='Recall';
+      const section=document.createElement('section');section.className='drill-q';section.dataset.q=cid+':'+(recall?'recall-':'')+number[1];section.dir='auto';
       question.before(section);section.append(question,answer);
       const grades=document.createElement('div');grades.className='mock-grade';grades.dataset.readerMetadata='grade';
       grades.innerHTML='<button data-grade="1" aria-pressed="false">Got it</button><button data-grade="0" aria-pressed="false">Missed</button>';section.append(grades);
@@ -7581,7 +7632,7 @@ $('#notebookBackupFile').onchange=async event=>{
 tRender();
 restoreHighlights();
 const companionStudy=cid==='law'?'laws':cid+'s';
-HazzardReadingCompanion.mount({id:cid,studyId:manifestChapters.some(c=>String(c.number)===companionStudy)?companionStudy:null,copy,scroll:readerScroll,landOnSource:landOnMatch,preserveLayout});
+HazzardReadingCompanion.mount({id:cid,studyId:manifestChapters.some(c=>String(c.number)===companionStudy)?companionStudy:null,copy,scroll:readerScroll,landOnSource:landOnMatch,preserveLayout,studyURL:pairedStudy});
 // Insert evidence metadata only after highlight units and drill identities exist.
 HazzardEvidence.backControl($('#readerViewport'));
 HazzardFlashcards.install(copy,cid,button=>openPanel('flashcards',button),viewport,()=>setPanelExpanded(true));
@@ -7614,7 +7665,7 @@ for(const figure of copy.querySelectorAll('figure:has(img)')){
 installTableViewer();
 HazzardSections.mount({copy,scroll:readerScroll,landOnHeading:landOnMatch,embedded:companionFrame});
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
-{const h=decodeURIComponent(location.hash.slice(1));let done=new URL(location.href).searchParams.get('chapterTop')==='1';
+{const h=pairedStudy?'':decodeURIComponent(location.hash.slice(1));let done=new URL(location.href).searchParams.get('chapterTop')==='1';
   if(done)scrollReadingTo(0);
   if(h.startsWith('search-')){done=revealSearch(h.slice(7))}
   else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}

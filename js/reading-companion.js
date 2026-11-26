@@ -131,7 +131,7 @@ window.HazzardReadingCompanion = (() => {
     }
   }
 
-  function mount({id, studyId, copy, scroll, landOnSource, preserveLayout}) {
+  function mount({id, studyId, copy, scroll, landOnSource, preserveLayout, studyURL}) {
     if (embedded) {
       document.addEventListener('click', onLink, true);
       if (new URL(location.href).searchParams.has('session')) {
@@ -192,7 +192,7 @@ window.HazzardReadingCompanion = (() => {
       frame.dataset.chapter = chapter;
       frame.dataset.study = study;
       frame.title = 'Chapter ' + chapter + ' study notes and exam questions';
-      const url = chapterURL(study);
+      const url = studyURL||chapterURL(study);
       if (study === chapter) url.searchParams.set('view', 'questions');
       frame.src = url.href;
       pane.append(frame);

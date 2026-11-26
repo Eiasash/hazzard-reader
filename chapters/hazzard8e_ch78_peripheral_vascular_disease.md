@@ -214,6 +214,10 @@ Evaluation The gold standard for initial evaluation of CVI is duplex ultrasonogr
 
 Noninvasive The mainstay of treatment is relieving venous hypertension with elevation of the legs when not ambulating and the application of compression therapy.
 
+The application of compression therapy has increased in recent times due to the ready availability of sufficient and inexpensive compression stockings not requiring a prescription or fitting. For patients with unusual lower leg anatomy, a formal fitting will likely provide a better compression result. In patients with ulcerations, compression is a must for ulcer healing and can take many forms including standard compressions stockings, ace wraps, and UNNA boots. With regards to ulcer healing, 90% of ulcers should heal given adequate compression compliance and normal arterial perfusion.
+
+Invasive Recently treatment of superficial venous insufficiency has undergone a sea change in the ability to treat chronic insufficiency utilizing minimally invasive techniques. This ranges from in office sclerotherapy with or without ultrasound to the treatment of large vessel superficial incompetence of the saphenous system using advanced sclerosants, chemical sealing, and energy procedures aimed to obliterate the offending refluxing segment. Importantly, it has recently been shown that for patients with venous ulcerations and superficial reflux, early venous ablation of superficial incompetence resulted in faster healing of venous leg ulcers and more time free from ulcers than deferred endovenous ablation. Therefore in the older patient with a venous stasis ulcer, one should implement compression and confirm presence or absence of superficial venous reflux amenable to intervention since a truly cost-effective, minimally invasive office procedure is now available to speed ulcer healing and prevent ulcer recurrence.
+
 ## FURTHER READING
 
 Aronow WS, Ahn C, Gutstein H. Prevalence and incidence
@@ -228,13 +232,7 @@ diagnosis and advances in aortic aneurysm surgery. Gerontology. 2004;50(6):349�
 
 mal selection of patients for elective abdominal aortic aneurysm repair based on life expectancy. J Vasc Surg. 2013;58(3):589–595. Egorova NN, Guillerme S, Gelijns A, et al. An analysis of the
 
-outcomes of a decade of experience with lower extremity
-
-The application of compression therapy has increased in recent times due to the ready availability of sufficient and inexpensive compression stockings not requiring a prescription or fitting. For patients with unusual lower leg anatomy, a formal fitting will likely provide a better compression result. In patients with ulcerations, compression is a must for ulcer healing and can take many forms including standard compressions stockings, ace wraps, and UNNA boots. With regards to ulcer healing, 90% of ulcers should heal given adequate compression compliance and normal arterial perfusion.
-
-Invasive Recently treatment of superficial venous insufficiency has undergone a sea change in the ability to treat chronic insufficiency utilizing minimally invasive techniques. This ranges from in office sclerotherapy with or without ultrasound to the treatment of large vessel superficial incompetence of the saphenous system using advanced sclerosants, chemical sealing, and energy procedures aimed to obliterate the offending refluxing segment. Importantly, it has recently been shown that for patients with venous ulcerations and superficial reflux, early venous ablation of superficial incompetence resulted in faster healing of venous leg ulcers and more time free from ulcers than deferred endovenous ablation. Therefore in the older patient with a venous stasis ulcer, one should implement compression and confirm presence or absence of superficial venous reflux amenable to intervention since a truly cost-effective, minimally invasive office procedure is now available to speed ulcer healing and prevent ulcer recurrence.
-
-revascularization including limb salvage, lengths of stay, and safety. J Vasc Surg. 2010;51(4):878–885, 885.e1. Ferguson GG, Eliasziw M, Barr HW, et al. The North
+outcomes of a decade of experience with lower extremity revascularization including limb salvage, lengths of stay, and safety. J Vasc Surg. 2010;51(4):878–885, 885.e1. Ferguson GG, Eliasziw M, Barr HW, et al. The North
 
 American Symptomatic Carotid Endarterectomy Trial: surgical results in 1415 patients. Stroke. 1999;30(9): 1751–1758. Hirsch AT, Criqui MH, Treat-Jacobson D, et al. Peripheral
 

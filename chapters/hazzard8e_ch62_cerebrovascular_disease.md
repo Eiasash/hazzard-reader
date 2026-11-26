@@ -448,7 +448,11 @@ An essential part of establishing goals of care for a stroke patient is to obtai
 
 <a id="p979"></a>**[p. 979]**
 
-strategies such as mechanical ventilation, further requiring a variable amount of stay in a critical care unit as patients recover from their acute illness. As such, the discussions around risks versus benefits of acute stroke treatments should include a clear explanation of risks versus benefits of these additional life-sustaining measures that are necessary to obtain the maximum benefit from stroke treatment. While accurate prognostication regarding stroke recovery is prone to several uncertainties, a careful assessment of individual patient’s comorbidities, size of stroke, and eloquence of the affected brain tissue may allow for a more informed shared decision-making between the patients/ families and the clinical teams. A sizable proportion of stroke patients suffer from dysphagia requiring artificial nutrition and hydration (ANH) through a nasogastric tube or PEG. In patients who cannot swallow safely, it is reasonable to offer a trial of a nasogastric tube for up to 2 to 3 weeks before considering a PEG. During this trial period, aggressive speech therapy making every effort at establishing the true extent of patients’ swallowing capabilities should be made and reviewed with the patient/their
+strategies such as mechanical ventilation, further requiring a variable amount of stay in a critical care unit as patients recover from their acute illness. As such, the discussions around risks versus benefits of acute stroke treatments should include a clear explanation of risks versus benefits of these additional life-sustaining measures that are necessary to obtain the maximum benefit from stroke treatment. While accurate prognostication regarding stroke recovery is prone to several uncertainties, a careful assessment of individual patient’s comorbidities, size of stroke, and eloquence of the affected brain tissue may allow for a more informed shared decision-making between the patients/ families and the clinical teams. A sizable proportion of stroke patients suffer from dysphagia requiring artificial nutrition and hydration (ANH) through a nasogastric tube or PEG. In patients who cannot swallow safely, it is reasonable to offer a trial of a nasogastric tube for up to 2 to 3 weeks before considering a PEG. During this trial period, aggressive speech therapy making every effort at establishing the true extent of patients’ swallowing capabilities should be made and reviewed with the patient/their family members. Finally, in patients who have suffered a severe degree of illness limiting their ability to achieve their desired outcome and wishing to pursue end-of-life or comfort measures, a multidisciplinary team approach in consultation with palliative care expertise should be promptly offered. Patients with a life expectancy of 6 months or less may be appropriate candidates for hospice. Depending on their health care needs, hospice care can be instituted in an inpatient setting or in appropriate context, even at home. Hospice care does not necessarily mean cessation of all medical treatments, but rather aims to offer comfort to the patient, prevent suffering, and focuses on the quality of life at the patient’s terminal stage of illness.
+
+## ACKNOWLEDGMENT
+
+The authors utilized information contained in a similar chapter in the 7th edition of this textbook and wish to thank Erica Camargo, MD, PhD, MSC, Ming-Chieh Ding, MD, PhD, Eli Zimmerman, MD, and Scott Silverman, MD, for their contributions to that chapter.
 
 ## FURTHER READING
 
@@ -467,12 +471,6 @@ lines for the management of aneurysmal subarachnoid hemorrhage: a guideline for 
 assessment of rapid endovascular treatment of ischemic stroke. N Engl J Med. 2015;372:1019–1030. Goyal M, Menon BK, van Zwam WH, et al. Endovascu-
 
 lar thrombectomy after large-vessel ischaemic stroke: a meta-analysis of individual patient data from five randomised trials. Lancet. 2016;387(10029):1723–1731.
-
-family members. Finally, in patients who have suffered a severe degree of illness limiting their ability to achieve their desired outcome and wishing to pursue end-of-life or comfort measures, a multidisciplinary team approach in consultation with palliative care expertise should be promptly offered. Patients with a life expectancy of 6 months or less may be appropriate candidates for hospice. Depending on their health care needs, hospice care can be instituted in an inpatient setting or in appropriate context, even at home. Hospice care does not necessarily mean cessation of all medical treatments, but rather aims to offer comfort to the patient, prevent suffering, and focuses on the quality of life at the patient’s terminal stage of illness.
-
-## ACKNOWLEDGMENT
-
-The authors utilized information contained in a similar chapter in the 7th edition of this textbook and wish to thank Erica Camargo, MD, PhD, MSC, Ming-Chieh Ding, MD, PhD, Eli Zimmerman, MD, and Scott Silverman, MD, for their contributions to that chapter.
 
 Hemphill JC 3rd, Greenberg SM, Anderson CS, et al. Guide-
 

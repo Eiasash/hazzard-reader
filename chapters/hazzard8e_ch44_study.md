@@ -70,7 +70,9 @@ NREM parasomnias can involve behaviors during incomplete awakening. Ask about ti
 - Poor sleep tracks with comorbidity burden more than chronological age; excessive daytime sleepiness/napping is linked to amyloid-β accumulation — possible early marker of neurodegeneration (p644).
 
 ### Sleep-disordered breathing (OSA/CSA)
-- Adult obstructive sleep apnea can be diagnosed with **≥15 obstructive respiratory events/hour**, or **≥5/hour** with relevant symptoms or comorbidities. Severe OSA begins at **AHI ≥30/hour** (p645; ICSD-3-TR, VA/DoD 2025 guideline, Appendix F).
+- The book diagnoses sleep-disordered breathing at **AHI >15/hour**, or **>5/hour** with significant symptoms or related comorbidities. **AHI >30/hour** generally indicates severe SDB (p645).
+
+  > Current guidance (separate from the book): Adult obstructive sleep apnea can be diagnosed with **≥15 obstructive respiratory events/hour**, or **≥5/hour** with relevant symptoms or comorbidities. Severe OSA begins at **AHI ≥30/hour** (ICSD-3-TR, VA/DoD 2025 guideline, Appendix F).
 - Age-dependent SDB risk factors (Table 44-1, p646): ↑BMI/central obesity, ↓muscle tension, altered airway anatomy, ↑airway collapsibility, ↓thyroid function, ↓lung volume.
 - Moderate-to-severe SDB estimated in **6%** of women, **13%** of men in a 2007–2010 cohort of middle-aged adults; OSA underdiagnosed, especially in women (p646).
 - CSA is **two to three times** more prevalent at age 65–90 vs 39–64; an estimated upwards of **50%** of stable heart-failure patients have some form of SDB (p646).
@@ -120,7 +122,7 @@ NREM parasomnias can involve behaviors during incomplete awakening. Ask about ti
 
 <details><summary>Answer</summary>
 
-At least 15 obstructive respiratory events/hour suffice, or at least 5/hour with relevant symptoms or comorbidities. An AHI of 30/hour or more is severe (p645; ICSD-3-TR).
+AHI greater than 15/hour, or greater than 5/hour with significant symptoms or related comorbidities. An AHI greater than 30/hour generally indicates severe SDB (p645).
 
 </details>
 

@@ -268,6 +268,12 @@ clinical application of auditory midbrain implants is less common, a handful of 
 
 Lastly, functional hair cell regeneration is the final frontier in the field. Recent studies have shown that cells in the organ of Corti, such as supporting cells, may mitose or transdifferentiate into hair cells if appropriately stimulated. The challenges, however, are highly complex: not only hair cells need to be (re)generated, they also have to be incorporated into the intricate cytoarchitecture of the cochlea and find their appropriate connections to the central auditory structures. Stem cell research may likewise provide new insights for replacement of hair cells and the regeneration of the auditory nerve.
 
+Although presbycusis is not yet preventable or treatable, progress in basic and clinical research promises hope for the future. Most realistic in the near term seem protective pharmacological strategies to delay or attenuate ARHL and improved rehabilitation through next-generation hearing aids and implants. A plausible clinical therapy for the regeneration of new and functional hair cells may, despite recent encouraging advance, still be decades away.
+
+## ACKNOWLEDGMENT
+
+The authors wish to thank Andra E. Talaska for her contributions to the previous versions of this chapter. Dr. Schacht’s and Sha’s research on age-related hearing loss was supported by program project grant AG-025164 from the National Institute on Aging, NIH. Dr. Sha’s research is supported by R01 grant DC009222 from the National Institute on Deadness and Other Communication Disorders.
+
 ## FURTHER READING
 
 Durga J, Verhoef P, Anteunis LJ, Schouten E, Kok FJ.
@@ -289,12 +295,6 @@ ation with aging, as seen in microdissections of the human inner ear. Ann Otol R
 hearing loss by early noise exposure: evidence of a misspent youth. J Neurosci. 2006;26:2115–2123. Levy BR, Slade MD, Gill TM. Hearing decline predicted
 
 by elders’ stereotypes. J Gerontol B Psychol Sci Soc Sci. 2006;61:P82–P87.
-
-Although presbycusis is not yet preventable or treatable, progress in basic and clinical research promises hope for the future. Most realistic in the near term seem protective pharmacological strategies to delay or attenuate ARHL and improved rehabilitation through next-generation hearing aids and implants. A plausible clinical therapy for the regeneration of new and functional hair cells may, despite recent encouraging advance, still be decades away.
-
-## ACKNOWLEDGMENT
-
-The authors wish to thank Andra E. Talaska for her contributions to the previous versions of this chapter. Dr. Schacht’s and Sha’s research on age-related hearing loss was supported by program project grant AG-025164 from the National Institute on Aging, NIH. Dr. Sha’s research is supported by R01 grant DC009222 from the National Institute on Deadness and Other Communication Disorders.
 
 McFadden SL, Ding D, Salvi R. Anatomical, metabolic and
 

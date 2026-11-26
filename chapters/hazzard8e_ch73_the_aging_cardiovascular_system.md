@@ -350,7 +350,7 @@ With the currently available information, it is not always possible to distingui
 
 <a id="p1132"></a>**[p. 1132]**
 
-in general, will help investigators avoid potential errors in research study design or interpretation and help clinicians tailor intelligent treatments to older adults. Since many of these age-related declines in cardiovascular and exercise performance are modifiable and have been shown to be
+in general, will help investigators avoid potential errors in research study design or interpretation and help clinicians tailor intelligent treatments to older adults. Since many of these age-related declines in cardiovascular and exercise performance are modifiable and have been shown to be partially preventable and reversible with exercise training, maintaining regularly scheduled physical activity and conditioning is a potentially important strategy to mitigate the potential adverse effects of aging on cardiovascular function.
 
 ## FURTHER READING
 
@@ -374,11 +374,7 @@ tioning by attenuated activation of myocardial ATP-sensitive potassium channels 
 
 graphic evaluation of left atrial size and function: current understanding, pathophysiologic correlates, and prognostic implications. Am Heart J. 2008;156:1056–1064. Longobardi G, Abete P, Ferrara N, et al. “Warm-up” phe-
 
-nomenon in adult and elderly patients with coronary
-
-partially preventable and reversible with exercise training, maintaining regularly scheduled physical activity and conditioning is a potentially important strategy to mitigate the potential adverse effects of aging on cardiovascular function.
-
-artery disease: further evidence of the loss of “ischemic preconditioning” in the aging heart. J Gerontol A Biol Sci Med Sci. 2000;55:M124–M129. Matsushita H, Chang E, Glassford AJ, Cooke JP, Chiu CP,
+nomenon in adult and elderly patients with coronary artery disease: further evidence of the loss of “ischemic preconditioning” in the aging heart. J Gerontol A Biol Sci Med Sci. 2000;55:M124–M129. Matsushita H, Chang E, Glassford AJ, Cooke JP, Chiu CP,
 
 Tsao PS. eNOS activity is reduced in senescent human endothelial cells: preservation by hTERT immortalization. Circ Res. 2001;89(9):793–798. Moeini M, Lu X, Avti PK, et al. Compromised microvascu-
 

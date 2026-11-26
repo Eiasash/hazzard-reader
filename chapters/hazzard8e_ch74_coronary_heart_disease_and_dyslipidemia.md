@@ -268,7 +268,7 @@ Despite advances in prevention and treatment, CHD remains a major health problem
 
 <a id="p1148"></a>**[p. 1148]**
 
-this in mind, treatment paradigms applied to younger patient groups are often appropriate when treating older patients, and adherence to guidelines translates into better outcomes. The classification of physiologic frailty may offer additional risk information for older patients considering revascularization. This information could identify a cohort who may benefit from a try at medical
+this in mind, treatment paradigms applied to younger patient groups are often appropriate when treating older patients, and adherence to guidelines translates into better outcomes. The classification of physiologic frailty may offer additional risk information for older patients considering revascularization. This information could identify a cohort who may benefit from a try at medical therapy optimization or geriatric intervention before revascularization, or for whom alternate treatment or palliative care is the preferred route. Despite the significant challenges in cardiovascular care of the oldest old patients, redirecting efforts to a person-centered model may provide the best opportunity to improve outcomes that matter most.
 
 ## FURTHER READING
 
@@ -293,8 +293,6 @@ differences in the noninvasive evaluation for possible coronary artery disease: 
 on disability-free survival in the healthy elderly. N Engl J Med. 2018;379:1499–1508. Nanna MG, Navar AM, Wang TY, et al. Statin use and
 
 adverse effects among adults >75 years of age: insights from the patient and Provider Assessment of Lipid
-
-therapy optimization or geriatric intervention before revascularization, or for whom alternate treatment or palliative care is the preferred route. Despite the significant challenges in cardiovascular care of the oldest old patients, redirecting efforts to a person-centered model may provide the best opportunity to improve outcomes that matter most.
 
 Management (PALM) Registry. J Am Heart Assoc. 2018;7: e008546. Nanna MG, Peterson ED, Wu A, et al. Age, knowledge,
 

@@ -87,8 +87,8 @@ body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(
 .mark-tools,#inkDots { display:flex;align-items:center; }
 #highlightEditor button { min-width:32px;min-height:38px;padding:2px 4px;border:0;background:transparent;color:inherit; }
 #highlightEditor button[aria-pressed="true"] { background:var(--accent-soft);outline:1px solid var(--accent);outline-offset:-2px; }
-#inkDots button::before { content:"";display:block;margin:auto;width:17px;height:17px;border-radius:50%;background:var(--ink-dot);border:1px solid var(--muted); }
-#inkDots [data-ink="green"]::before { height:3px;border:0;border-radius:0;background:var(--underline-red); }
+:is(#inkDots,#penDots) button::before { content:"";display:block;margin:auto;width:17px;height:17px;border-radius:50%;background:var(--ink-dot);border:1px solid var(--muted); }
+:is(#inkDots,#penDots) [data-ink="green"]::before { height:3px;border:0;border-radius:0;background:var(--underline-red); }
 #highlightEditor #numberPoints { min-height:28px;font-size:12px; }
 #highlightEditor input { display:block;width:100%;font:16px var(--ui); }
 .mark-grip { padding:0;border:0;background:transparent;min-width:26px;min-height:30px;width:26px;height:30px;touch-action:none;user-select:none;cursor:ew-resize; }
@@ -99,3 +99,13 @@ body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(
 [data-point]::before { content:attr(data-point);vertical-align:super;font:bold .7em var(--ui);color:var(--accent);margin-inline-end:.2em; }
 
 body:has(#panel[open]) #markUndo { display:none; }
+
+#penDots { display:flex;align-items:center; }
+#markBar #penDots button { padding:2px;min-width:28px;min-height:44px; }
+#penDots [aria-pressed="true"],#penNumbers[aria-pressed="true"] { outline:2px solid var(--accent);outline-offset:-3px; }
+#markBar { flex-wrap:wrap;align-items:center; }
+#markBar #bookmark { font-size:0;white-space:nowrap;padding-inline:4px;min-width:58px; }
+#markBar #bookmark::after { content:"Bookmark";font:12px var(--ui); }
+#markUndo { left:auto;right:4px;transform:none;bottom:calc(var(--tabs-height) + 4px); }
+.marking #copy { touch-action:pinch-zoom; }
+.marking #copy span[data-unit] {user-select:none;-webkit-user-select:none; }

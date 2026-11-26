@@ -53,7 +53,7 @@ window.HazzardStudyHome = (() => {
   function readingCoverage(chapters, keys) {
     const finished = completedChapters(keys);
     for (const [id, kind, pattern] of [
-      ['homeRead', 'chapter', /^\d+$/], ['homeStudied', 'study', /^\d+s$/]
+      ['homeRead', 'chapter', /^(?:\d+|law)$/], ['homeStudied', 'study', /^(?:\d+s|laws)$/]
     ]) {
       const entries = chapters.filter(c => c.kind === kind && pattern.test(c.number));
       meter(id, finished && entries.filter(c => finished.has(String(c.number))).length, entries.length);
@@ -62,11 +62,12 @@ window.HazzardStudyHome = (() => {
 
   function recommend(chapters, evidence, records) {
     const studyIds = new Set(chapters.filter(c => c.kind === 'study').map(c => String(c.number)));
-    const book = chapters.filter(c => (c.kind === 'chapter' || c.studyOnly) && /^\d+s?$/.test(c.number));
+    const book = chapters.filter(c => (c.kind === 'chapter' || c.studyOnly) && /^(?:\d+s?|laws?)$/.test(c.number));
     const rows = book.map(c => {
       const id = String(c.number).replace(/s$/, '');
-      const yieldCount = HazzardEvidence.counts(evidence, id).reduce((sum, [, n]) => sum + n, 0);
-      const ids = new Set(HazzardEvidence.studyIds(evidence, id).map(HazzardMCQ.currentId));
+      const lawIds=id==='law'?records.lawIds:null;
+      const yieldCount = lawIds?.length ?? HazzardEvidence.counts(evidence, id).reduce((sum, [, n]) => sum + n, 0);
+      const ids = new Set((lawIds||HazzardEvidence.studyIds(evidence, id)).map(HazzardMCQ.currentId));
       const list = [...ids].map(q => records.byId.get(q)).filter(Boolean);
       return {id, title:c.title.replace(/ — Study$/, ''), yieldCount,
         available:[...ids].some(q => records.available.has(q)), ...records.model.measure(list)};
@@ -81,7 +82,7 @@ window.HazzardStudyHome = (() => {
     const tested = high.filter(r => r.answered >= minimumChapterAnswers).sort((a, b) =>
       a.rate - b.rate || b.answered - a.answered || byYield(a, b));
     const chosen = tested[0] || high.sort(byYield)[0];
-    const name = 'Ch. ' + chosen.id + ' · ' + chosen.title;
+    const name = chosen.id==='law'?chosen.title:'Ch. ' + chosen.id + ' · ' + chosen.title;
     const examCount = chosen.yieldCount + ' past exam question' + (chosen.yieldCount === 1 ? '' : 's');
     const detail = element('homeWeakDetail');
     if (tested.length) {
@@ -116,8 +117,9 @@ window.HazzardStudyHome = (() => {
   async function refresh(chapters, keys) {
     const ticket = ++generation;
     readingCoverage(chapters, keys);
-    const [catalog, changes, evidence, aliases] = await Promise.allSettled([
-      HazzardQuestionData.catalog(), HazzardChanged.load(), HazzardEvidence.load(), HazzardMCQ.loadAliases()
+    HazzardFlashcards.refreshDue();
+    const [catalog, changes, evidence, aliases, metadata] = await Promise.allSettled([
+      HazzardQuestionData.catalog(), HazzardChanged.load(), HazzardEvidence.load(), HazzardMCQ.loadAliases(), HazzardMCQ.preload()
     ]);
     if (ticket !== generation || element('desk').hidden) return;
     const stores = HazzardStats.snapshot(), now = Date.now(), today = HazzardReview.day(now);
@@ -137,8 +139,9 @@ window.HazzardStudyHome = (() => {
       const byId = new Map(model.questions.filter(official).map(q => [q.id, q]));
       answered = [...byId.values()].filter(model.answered).length;
       total = available.length;
-      if (model.ready && stores.log.ok && evidence.status === 'fulfilled') {
-        recommended = recommend(chapters, evidence.value, {model, byId, available:new Set(available.map(q => q.id))});
+      if (model.ready && stores.log.ok && evidence.status === 'fulfilled' && metadata.status === 'fulfilled') {
+        const lawIds=metadata.value[3].israeliLawEthics.ids.filter(id=>byId.has(id));
+        recommended = recommend(chapters, evidence.value, {model, byId, lawIds, available:new Set(available.map(q => q.id))});
       }
     }
     meter('homeAnswered', answered, total);

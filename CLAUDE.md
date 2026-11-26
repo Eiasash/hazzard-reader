@@ -21,6 +21,7 @@ Eias's phone study site for Hazzard 8e (Stage A board exam). The book is canonic
 - js/exam-simulation.js validResult holds per-basic-sitting all-accepted counts; any change to a basic record's accepted set must update them in the same release.
 - Fast mode: build, check once, deploy. No new guards, sweeps or review rounds unless Eias asks; state time cost before proposing extras.
 - Chapters **47, 58, 60, 61, 99** render from `<template>` blocks in `index.html`, not their `.md` — edit both.
+- Import newly extracted Read Markdown with python tools/import_chapter.py SOURCE.md DESTINATION.md --pdf BOOK.pdf. On a two-column page, a full-width Further Reading divider starts a new reading band across both columns.
 - Chapter text: never add, remove or split a sentence in a served chapter or study page. Mark-unit ids are kept only for registry-matched text and are otherwise a running count, so one sentence more or less shifts every later saved highlight (ch99 has no registry coverage). A period inside a sentence (e.g. “pp.”) also splits a unit. Reword in place, sentence for sentence, and compare the full unit maps before merging (tx1/tx2 reproduce.py).
 - Book text stays even when wrong (the exam is drawn from it):
   - misprint the book itself contradicts → `*[sic — the book's own Table/Figure X, pNNN, gives …]*`

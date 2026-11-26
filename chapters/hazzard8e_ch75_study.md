@@ -126,7 +126,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - LVESD **> 50 mm**: **19%**/yr develop dysfunction/symptoms/death; LVESD 40–50mm: **6%**/yr (p1153).
 - Table 75-5 severe cutoffs: jet-width/LVOT ratio **≥ 65%**, vena contracta **≥ 0.6 cm**, regurgitant volume **≥ 60 mL/beat**, EROA **≥ 30 mm²** (p1154).
 - **Severe chronic AR:** symptoms are an indication for surgery regardless of EF when intervention is appropriate. In asymptomatic patients, the 2020 ACC/AHA threshold for LV systolic dysfunction is **LVEF ≤55%** without another cause. **LVESD >50 mm or indexed LVESD >25 mm/m²**, and progressive **LVEDD >65 mm** in selected low-risk patients, represent distinct pathways. Severe AR at other cardiac surgery is an additional indication. Table 75-6 prints an older EF threshold of <50% and lists moderate AR during other cardiac surgery as a consideration (p1155).
-  > Current practice (not the book): the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.
+  > <span id="current-practice-1" data-reader-metadata="navigation"></span>Current practice (not the book): the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.
 - Severe LV dysfunction: operative mortality **at least 10%**, with lower postsurgical survival (p1155).
 
 **Mitral stenosis (MS)**
@@ -159,7 +159,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - **Supratherapeutic INR:** assess bleeding, urgency and thrombotic risk. Without bleeding at INR 4.5–10, hold warfarin as appropriate and recheck INR. Routine vitamin K is generally unnecessary. The historical option of oral vitamin K 1–2.5 mg at INR 5–10 on p1161 is not a blanket treatment instruction (CHEST).
   > Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.
 - When warfarin interruption is required for an elective procedure, CHEST generally advises stopping it **at least five days beforehand**. A bileaflet mechanical aortic valve without added risk generally does not require bridging. For higher-risk mechanical valves, weigh thrombotic and procedural bleeding risks with the valve team. CHEST 2022 suggests against routine bridging, while ACC/AHA allows it in selected high-risk patients. Restart when hemostasis permits (p1162 describes an older 48–72-hour approach).
-  > Current practice (not the book): stop warfarin ≥5 days (rather than <5 days) before an elective surgery/procedure (conditional recommendation) — ACCP/CHEST perioperative antithrombotic guideline, 2022.
+  > <span id="current-practice-2" data-reader-metadata="navigation"></span>Current practice (not the book): stop warfarin ≥5 days (rather than <5 days) before an elective surgery/procedure (conditional recommendation) — ACCP/CHEST perioperative antithrombotic guideline, 2022.
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
@@ -216,7 +216,7 @@ The historical definition was a predicted one-year risk of death or major morbid
 <details><summary>Answer</summary>
 
 LVESD **>50 mm** or indexed LVESD **>25 mm/m²** can support surgery. Progressive enlargement into the severe **LV end-diastolic** range above **65 mm** can support consideration in selected low-risk patients. Page 1155 labels this latter dimension differently from ACC/AHA 2020.
-> Current practice (not the book): the 65-mm AR threshold is LV end-diastolic dimension (LVEDD >65 mm, progressive, low surgical risk: may be considered); LVESD >50 mm is the end-systolic trigger — ACC/AHA valvular guideline, 2020.
+> [Current practice note](#current-practice-1)
 
 </details>
 
@@ -273,7 +273,7 @@ If VKA is chosen after surgical bioprosthetic aortic valve replacement, target I
 <details><summary>Answer</summary>
 
 For elective procedures requiring interruption, stop warfarin **at least five days** beforehand and verify adequate INR decline. A bileaflet mechanical aortic valve without added thromboembolic risk generally needs no heparin bridge. Resume warfarin once hemostasis permits, often within 12–24 hours (p1162, CHEST 2022).
-> Current practice (not the book): stop warfarin ≥5 days (rather than <5 days) before an elective surgery/procedure (conditional recommendation) — ACCP/CHEST perioperative antithrombotic guideline, 2022.
+> [Current practice note](#current-practice-2)
 
 </details>
 

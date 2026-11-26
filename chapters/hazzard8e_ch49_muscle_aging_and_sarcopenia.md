@@ -220,6 +220,10 @@ Trials to date have been performed mostly with hormones. Combined estrogen–pro
 
 Myostatin is a myokine, a growth factor that inhibits muscle cell growth. There is evidence that myostatin inhibition may be able to increase muscle mass, consistent with the recognition that myostatin acts as a brake on muscle differentiation, hypertrophy, and protein synthesis. A phase II proof of concept trial reported that a myostatin antibody was associated with increased muscle mass and improvement in some measures of physical performance in older, weak patients with a history of falling (but not diagnosed sarcopenia). Bimagrumab has been shown to increase muscle mass and reduce adiposity in diabetic patients, but again the effects on muscle function and physical performance seem to be limited. Myostatin inhibitor research seems to be evolving to explore changes in body composition and moving away from muscle function.
 
+## ASSESSING THE EFFECT OF TREATMENTS
+
+There is still no agreement on what intermediate and final outcomes should be expected to improve with an intervention for sarcopenia. In clinical practice, the simplest approach is to assess changes in the parameters used for the diagnosis. Gains in muscle mass are usually difficult to assess (due to the mentioned technical issues of available instruments) and do not seem to be relevant for most older patients. Gains in muscle strength may be easier to assess but more difficult to obtain with available treatments. The minimum clinically significant difference for muscle strength is not yet defined in older patients with sarcopenia. At present, there is a case for using physical performance measures to assess improvement in clinical practice. Improvements gait speed over 0.1 m/s or over 1 point in the SPPB are accepted as being clinically relevant. Improvement in final outcomes including activities of daily living, the number of falls, or quality of life are even more relevant but not as straightforward to determine. Patients rate improved mobility as the most desired outcome of treatment, followed by the ability to manage domestic activities, a lower risk of falls, reduced fatigue, and a better quality of life.
+
 ## FURTHER READING
 
 Beaudart C, Zaaria M, Pasleau F, Reginster J-Y, Bruyère O.
@@ -238,13 +242,7 @@ Group for Sarcopenia: 2019 consensus update on sarcopenia diagnosis and treatmen
 
 European consensus on definition and diagnosis. Age Ageing. 2019;48:16–31. De Spiegeleer A, Beckwee D, Bautmans I, Petrovic M.
 
-Pharmacological interventions to improve muscle mass, muscle strength and physical performance in older
-
-## ASSESSING THE EFFECT OF TREATMENTS
-
-There is still no agreement on what intermediate and final outcomes should be expected to improve with an intervention for sarcopenia. In clinical practice, the simplest approach is to assess changes in the parameters used for the diagnosis. Gains in muscle mass are usually difficult to assess (due to the mentioned technical issues of available instruments) and do not seem to be relevant for most older patients. Gains in muscle strength may be easier to assess but more difficult to obtain with available treatments. The minimum clinically significant difference for muscle strength is not yet defined in older patients with sarcopenia. At present, there is a case for using physical performance measures to assess improvement in clinical practice. Improvements gait speed over 0.1 m/s or over 1 point in the SPPB are accepted as being clinically relevant. Improvement in final outcomes including activities of daily living, the number of falls, or quality of life are even more relevant but not as straightforward to determine. Patients rate improved mobility as the most desired outcome of treatment, followed by the ability to manage domestic activities, a lower risk of falls, reduced fatigue, and a better quality of life.
-
-people: an umbrella review of systematic reviews and meta-analyses. Drugs Aging. 2018;35:719–734. Dent E, Morley JE, Cruz-Jentoft AJ, et al. International
+Pharmacological interventions to improve muscle mass, muscle strength and physical performance in older people: an umbrella review of systematic reviews and meta-analyses. Drugs Aging. 2018;35:719–734. Dent E, Morley JE, Cruz-Jentoft AJ, et al. International
 
 clinical practice guidelines for sarcopenia (ICFSR): screening, diagnosis and management. J Nutr Health Aging. 2018;22:1148–1161. Dodds RM, Syddall HE, Cooper R, et al. Grip strength
 

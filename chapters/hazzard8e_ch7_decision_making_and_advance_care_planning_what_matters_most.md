@@ -174,6 +174,10 @@ ACP conversations will be more successful with consideration of the individual�
 
 (5) health system barriers, and (6) cultural/religious barriers. While the clinician should never assume that all members of a group have the same beliefs, knowledge of some of the norms can aid in the future medical care planning discussions and decision making. Additionally, literacy and language-appropriate documents may enhance ACP. Clinicians cannot predict what an individual patient wants or is even willing to discuss. The only way to know is to ask in a nonjudgmental, patient-centered manner. Questions to help understand an individual’s perspective could include: “Are there any cultural, spiritual, or religious factors that I should know about as we talk about the care you would want if you got sicker?” and “How do your religious or spiritual beliefs influence your wishes for your medical care near the end of your life?”
 
+## CONCLUSION—THE ART
+
+As noted above, decision making with older adults is challenging in many ways. For most, life comes with multimorbidity and functional decline and the traditional disease-focused models do not work. While a lucky few have truly compressed morbidity, the majority of older adults experience gradual decline, mounting morbidity, and frailty. However, underneath the challenge is a deep richness. Helping patients and families clarify their outcome goals and assuring that treatments align with those goals will never be automated by a machine. Perhaps more than anywhere else, the art and humanity of the sacred practice of medicine thrive when caring clinicians engage in decision making with older adults.
+
 ## FURTHER READING
 
 Beauchamp TL, Childress JF. Principles of Biomedical Ethics.
@@ -181,10 +185,6 @@ Beauchamp TL, Childress JF. Principles of Biomedical Ethics.
 6th ed. New York, NY: Oxford University Press; 2008. Bernacki RE, Block SD, Force ACoPHVCT. Communi-
 
 cation about serious illness care goals: a review and synthesis of best practices. JAMA Intern Med. 2014; 174(12):1994–2003.
-
-## CONCLUSION—THE ART
-
-As noted above, decision making with older adults is challenging in many ways. For most, life comes with multimorbidity and functional decline and the traditional disease-focused models do not work. While a lucky few have truly compressed morbidity, the majority of older adults experience gradual decline, mounting morbidity, and frailty. However, underneath the challenge is a deep richness. Helping patients and families clarify their outcome goals and assuring that treatments align with those goals will never be automated by a machine. Perhaps more than anywhere else, the art and humanity of the sacred practice of medicine thrive when caring clinicians engage in decision making with older adults.
 
 Boockvar KS, Lachs MS. Predictive value of nonspecific
 

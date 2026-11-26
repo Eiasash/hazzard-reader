@@ -47,6 +47,21 @@ window.HazzardReview = (() => {
     }
     return {...v,items,seed:{count,at:now}};
   }
+  const officialFirst=()=>localStorage.getItem('hazzard-review-official-first')==='1';
+  function ordered(ids,questions){
+    if(!officialFirst())return ids;
+    const past=new Set(questions.filter(q=>q.kind==='past').map(q=>q.id));
+    return [...ids].sort((a,b)=>Number(past.has(b))-Number(past.has(a)));
+  }
+  function setOrder(value,questions,batch,today){
+    localStorage.setItem('hazzard-review-official-first',value?'1':'0');
+    if(!batch)return null;
+    const state=read(),dueOrder=due(state,day(),true),rank=new Map(dueOrder.map((id,i)=>[id,i]));
+    const ids=ordered([...batch.ids].sort((a,b)=>(rank.get(a)??Infinity)-(rank.get(b)??Infinity)),questions);
+    batch={...batch,ids,position:Math.max(0,ids.findIndex(id=>!batch.answers[id]?.checked))};
+    if(today)rememberToday(batch);else{state.batch=batch;state.batchAt=Math.max(Date.now(),state.batchAt+1);write(state);}
+    return batch;
+  }
   function catalogDue(all, now=Date.now()){
     let v=canonical(HazzardMCQ.rawValue(KEY,valid,empty));
     if(!v.seed){
@@ -54,7 +69,7 @@ window.HazzardReview = (() => {
       v=initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers),now);
     }
     const live=new Set(all.filter(q=>!q.retired).map(q=>HazzardMCQ.currentId(q.id)));
-    return due(v,day(now)).filter(id=>live.has(id));
+    return ordered(due(v,day(now)).filter(id=>live.has(id)),all);
   }
   // Home opens every currently due question. Keep its navigation in this
   // history entry; the resident's separately sized Practice batch stays saved.
@@ -81,10 +96,10 @@ window.HazzardReview = (() => {
     const v=read();if(v.seed)return v.seed;
     return write(initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers))).seed;
   })().finally(()=>{seedPromise=null;});}
-  function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:due(v,today,true).filter(id=>available.has(id)).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
+  function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:ordered(due(v,today,true).filter(id=>available.has(id)),items).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
   function nextBatch(items){
     const v=read(),available=new Set(items.map(q=>q.id)),completed=new Set(Object.keys(v.batch?.answers||{}));
-    const ids=due(v).filter(id=>available.has(id)&&!completed.has(id)).slice(0,v.settings.size);
+    const ids=ordered(due(v).filter(id=>available.has(id)&&!completed.has(id)),items).slice(0,v.settings.size);
     if(!ids.length)return null;
     v.batch={day:day(),ids,answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);return v.batch;
   }
@@ -103,5 +118,5 @@ window.HazzardReview = (() => {
     }
     return write(v);
   }
-  return {KEY,STEPS,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
+  return {KEY,STEPS,officialFirst,setOrder,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
 })();

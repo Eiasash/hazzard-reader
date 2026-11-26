@@ -286,6 +286,10 @@ should be presented so patients can make a well-informed decision.
 
 Advanced dementia, aphasia, or any disease process which interferes with a patient’s ability to provide a reliable history can confound efforts to assess symptoms of infection, such as dysuria. If a UTI is suspected, it is important for clinicians to have a good understanding of the patient’s wishes for their care prior to further investigation. Patients or their surrogate decision-makers may have set limits on what treatments they would want in such circumstances. If the goal is comfort, then it may be most appropriate to defer a work-up and focus on palliation of symptoms alone. If no limits have been set, or there is confusion about what a patient may or may not have wanted in this clinical setting, factors such as evidence of the seriousness of the infection, overall life expectancy and likelihood of survival benefit from antimicrobial treatment should be discussed with the medical decisionmakers. When deciding against additional work-up and antibiotic treatment for a suspected UTI, focus can be directed toward symptom management strategies.
 
+## CONCLUSION
+
+UTI is the most common infection occurring in older populations. The management of UTI for older ambulatory individuals is similar to younger populations, and determined by the presentation as either acute simple cystitis, complicated UTI or CAUTI. Treatment of symptomatic UTI requires optimal use of urine culture for diagnosis, appropriate antimicrobial selection, and appropriate duration of therapy. In PALTC settings, the very high prevalence of ASB interferes with ascertainment of symptomatic infection, especially in residents without localizing genitourinary symptoms. Bacteriuric older individuals who present with clinical decline without localizing findings should not be assumed to have a urinary source, despite a positive urine culture. A critical approach to diagnosis, investigation, and treatment is necessary. Further characterization of symptomatic presentations of urinary infection in the functionally disabled older population, together with evaluation of management approaches such as nontreatment with observation compared with empiric antimicrobial treatment, is needed.
+
 ## FURTHER READING
 
 Arinzon Z, Shabat S, Peisakh A, Bemer Y. Clinical presen-
@@ -303,10 +307,6 @@ tract infection in male veterans: treatment patterns and outcomes. JAMA Intern M
 Antibiotic-resistant pathogens associated with urinary tract infections in nursing homes: summary of data reported to the National Healthcare Safety Network Long-Term Care Facility Component, 2013–2017. Infect Control Hosp Epidemiol. 2021;42(1):31–36. Falagas ME, Kotsantis IK, Vouloumanou EK, Rafailidis PI.
 
 Antibiotics versus placebo in the treatment of women with uncomplicated cystitis: a meta-analysis of randomized controlled trials. J Infect. 2009;58(2):91–102.
-
-## CONCLUSION
-
-UTI is the most common infection occurring in older populations. The management of UTI for older ambulatory individuals is similar to younger populations, and determined by the presentation as either acute simple cystitis, complicated UTI or CAUTI. Treatment of symptomatic UTI requires optimal use of urine culture for diagnosis, appropriate antimicrobial selection, and appropriate duration of therapy. In PALTC settings, the very high prevalence of ASB interferes with ascertainment of symptomatic infection, especially in residents without localizing genitourinary symptoms. Bacteriuric older individuals who present with clinical decline without localizing findings should not be assumed to have a urinary source, despite a positive urine culture. A critical approach to diagnosis, investigation, and treatment is necessary. Further characterization of symptomatic presentations of urinary infection in the functionally disabled older population, together with evaluation of management approaches such as nontreatment with observation compared with empiric antimicrobial treatment, is needed.
 
 Gordon LB, Waxman MJ, Ragsdale L, Mermel LA. Over-
 

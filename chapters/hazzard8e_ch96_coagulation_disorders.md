@@ -320,7 +320,11 @@ The choice of pharmacologic and/or mechanical prophylaxis depends on the clinica
 
 <a id="p1523"></a>**[p. 1523]**
 
-Conclusion Age-related physiologic changes and accumulation of comorbidities increase both the risk of bleeding and VTE in older adults. As anticoagulant therapy remains the cornerstone of VTE treatment, screening for and targeting of modifiable risk factors for major bleeding is essential. Given the advantages of DOACs compared with warfarin, and the availability of DOAC-specific reversal agents, it is anticipated that the use of DOACs in older adults will continue to rise. Dedicated
+Conclusion Age-related physiologic changes and accumulation of comorbidities increase both the risk of bleeding and VTE in older adults. As anticoagulant therapy remains the cornerstone of VTE treatment, screening for and targeting of modifiable risk factors for major bleeding is essential. Given the advantages of DOACs compared with warfarin, and the availability of DOAC-specific reversal agents, it is anticipated that the use of DOACs in older adults will continue to rise. Dedicated anticoagulation clinics play a valuable role in mitigating the risk of bleeding in older adults prescribed anticoagulants by providing regular follow-up, counseling, and education.
+
+## ACKNOWLEDGMENTS
+
+The author acknowledges Dr. Stacy Johnson and Dr. Matthew Rondina for their prior contributions to this chapter in the 7th edition of this textbook.
 
 ## FURTHER READING
 
@@ -345,12 +349,6 @@ stasis: changes to laboratory markers of hemostasis as we age—a narrative revi
 thromboembolism in the elderly: efficacy and safety of non-VKA oral anticoagulants. Thromb J. 2014;12:21. Hisada Y, Mackman N. Cancer-associated pathways and biomarkers of venous thrombosis. Blood. 2017;130:1499–1506. Kahn SR, Comerota AJ, Cushman M, et al. The postthrombotic
 
 syndrome: evidence-based prevention, diagnosis, and treatment strategies: a scientific statement from the American Heart Association. Circulation. 2014;130:1636–1661.
-
-anticoagulation clinics play a valuable role in mitigating the risk of bleeding in older adults prescribed anticoagulants by providing regular follow-up, counseling, and education.
-
-## ACKNOWLEDGMENTS
-
-The author acknowledges Dr. Stacy Johnson and Dr. Matthew Rondina for their prior contributions to this chapter in the 7th edition of this textbook.
 
 Kearon C. Natural history of venous thromboembolism.
 

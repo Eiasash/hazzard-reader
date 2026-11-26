@@ -192,7 +192,11 @@ As clinical researchers unravel the science of efficacious and cost-effective ge
 
 geriatric emergency medicine (GEM) nurse or transitional care nurse, as well as lesser-trained personnel such as a “geriatric technician”–based volunteer model. In two observational studies across three academic hospitals, transitional care nurses reduced admission and readmission rates, but increased 72-hour returns. The GEM nurse model requires a significant investment in extra training and appears to increase geriatric syndrome screening rates. Establishing a qualified volunteer-based program in the ED requires an institutional commitment, continual onboarding and quality control processes, and a health care provider leader, but has been successfully implemented at two large academic centers with reasonable acceptance by nurses and physicians.
 
-The twenty-first century technology revolution will inevitably affect geriatric emergency medicine as well. During the COVID-19 global pandemic when patients shunned EDs for fear of exposure to the life-threatening virus, telemedicine emerged as a viable alternative for acute care. Potential (and untested) applications of telemedicine for geriatric emergency care include evaluation of stable long-term care facility, rehabilitation unit, homebound, or rural patients who have a change in condition prior to transfer to an ED. This can be done in collaboration with the patient’s primary care providers and/or paramedics. In addition, more resourced geriatric EDs
+The twenty-first century technology revolution will inevitably affect geriatric emergency medicine as well. During the COVID-19 global pandemic when patients shunned EDs for fear of exposure to the life-threatening virus, telemedicine emerged as a viable alternative for acute care. Potential (and untested) applications of telemedicine for geriatric emergency care include evaluation of stable long-term care facility, rehabilitation unit, homebound, or rural patients who have a change in condition prior to transfer to an ED. This can be done in collaboration with the patient’s primary care providers and/or paramedics. In addition, more resourced geriatric EDs with personnel available to screen for geriatric syndromes described in Table 15-2 could remotely assess patients via telemedicine. Other emerging technologies that can catalyze improved geriatric emergency care without adding work for ED staff include pad-based screening for delirium and machine learning approaches to detect individuals at risk for dementia, delirium, falls, or other geriatric syndromes.
+
+## CONCLUSION
+
+Sustainable and measurable geriatric emergency medicine advancement requires a village that extends beyond one specialty, discipline, or hospital locale. It must incorporate collaborative, transdisciplinary personnel and adapt around the infrastructure of the local ED to be successful. Ultimately, widely implementable improvements in the process, experience, or outcomes of geriatric emergency care must be cost-neutral and patient-centered. As clinical research expands around geriatric emergency medicine assessment accuracy and intervention effectiveness, guidelines and accreditation will continue to catalyze health care systems to engage in process redesign. Emergency care must become more adept at addressing the needs of an aging population and not allow perfection to impede necessary but incremental improvements.
 
 ## FURTHER READING
 
@@ -209,12 +213,6 @@ dementia screening instruments in emergency medicine: a diagnostic meta-analysis
 falls in emergency medicine: 2019 update. Clin Geriatr Med. 2019;35(2):205–219. Carpenter CR, Émond M. Pragmatic barriers to assess-
 
 ing post-emergency department vulnerability for poor outcomes in an ageing society. Neth J Med. 2016;74(8): 327–329.
-
-with personnel available to screen for geriatric syndromes described in Table 15-2 could remotely assess patients via telemedicine. Other emerging technologies that can catalyze improved geriatric emergency care without adding work for ED staff include pad-based screening for delirium and machine learning approaches to detect individuals at risk for dementia, delirium, falls, or other geriatric syndromes.
-
-## CONCLUSION
-
-Sustainable and measurable geriatric emergency medicine advancement requires a village that extends beyond one specialty, discipline, or hospital locale. It must incorporate collaborative, transdisciplinary personnel and adapt around the infrastructure of the local ED to be successful. Ultimately, widely implementable improvements in the process, experience, or outcomes of geriatric emergency care must be cost-neutral and patient-centered. As clinical research expands around geriatric emergency medicine assessment accuracy and intervention effectiveness, guidelines and accreditation will continue to catalyze health care systems to engage in process redesign. Emergency care must become more adept at addressing the needs of an aging population and not allow perfection to impede necessary but incremental improvements.
 
 Carpenter CR, Hammouda N, Linton EA, et al. Delirium
 

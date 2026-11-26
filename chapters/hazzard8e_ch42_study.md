@@ -146,7 +146,7 @@ Unintentional weight loss, weakness, exhaustion, slowness, and low activity (p61
 
 <details><summary>Answer</summary>
 
-≥3 of 5 = frail; 2 of 5 = prefrail; 1 alone is a risk factor, not frailty (p619). (Table 42-3 scores intermediate/prefrail as 1–2 criteria, p621.)
+Table 42-3: one or two criteria = intermediate/prefrail; zero = robust/nonfrail; three or more = frail (p621). The prose describes two of five as prefrail and says one criterion alone may constitute a risk factor (p619).
 
 </details>
 

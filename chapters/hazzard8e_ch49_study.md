@@ -85,7 +85,7 @@ The December 2021 vignette pairs weak grip with low lean mass. The original Euro
 - Aging impairs the balance of protein synthesis and breakdown: uptake falls, catabolism probably rises, and muscle is lost. Fast fibers and their satellite cells are particularly affected. Increasing extracellular and intra-/intermuscular fat produces **myosteatosis**. Mitochondrial dysfunction, altered IGF-1/mTOR/FoxO signaling, and altered gene expression are also implicated (p734).
 - Neural control changes contribute, but their relative importance is uncertain. Nutrition alone cannot correct neural impairment; exercise acts through both neural and muscular pathways. Muscle–bone endocrine communication is being studied. Coexisting osteoporosis and sarcopenia increase adverse outcomes; the chapter calls this **osteosarcopenia** (p734).
 - **SARC-F asks about perceived strength, assistance walking, rising from a chair, climbing stairs, and falls.** It can be self-administered. It does not ask about descending stairs, bed transfers, or bone-density measurement as its listed components (Table 49-3, p734).
-- The book reports high sensitivity at a low cutoff **>1 point** and good specificity at a high cutoff **>4**. These are thresholds compared in the chapter. The usual positive SARC-F screen is **≥4/10** (p771). Screening has **not been proved cost-effective**, universally or in selected settings/populations. SARC-F can help in settings with a high expected prevalence, including geriatric clinics, hospital, rehabilitation, and nursing homes; modified versions may add calf circumference (p734).
+- The book reports high sensitivity at a low cutoff **>1 point** and good specificity at a high cutoff **>4**. These are thresholds compared in the chapter. The usual positive SARC-F screen is **≥4/10** ([p771](?chapter=51#p771)). Screening has **not been proved cost-effective**, universally or in selected settings/populations. SARC-F can help in settings with a high expected prevalence, including geriatric clinics, hospital, rehabilitation, and nursing homes; modified versions may add calf circumference (p734).
 - Weakness, slow movement, visible wasting, falls, ADL difficulty, or difficulty rising from bed/chair can trigger assessment even without questionnaire screening. Under the chapter's EWGSOP2 pathway, first measure **handgrip strength** using a validated standardized protocol. A hydraulic Jamar dynamometer has the largest evidence base. Direct leg-strength testing requires more expensive equipment and lacks established population cutoffs; grip is a practical proxy (p734).
 
 <details data-claim="ch49-table49-3"><summary>Book table: SARC-F components (p734)</summary>
@@ -191,7 +191,7 @@ Perceived strength, assistance walking, rising from a chair, climbing stairs, an
 
 <details><summary>Answer</summary>
 
-The chapter reports high sensitivity above 1 point and good specificity above 4 when comparing thresholds (p734). The usual positive SARC-F screen is **4/10 or higher** (p771). Screening cost-effectiveness has not been established.
+The chapter reports high sensitivity above 1 point and good specificity above 4 when comparing thresholds (p734). The usual positive SARC-F screen is **4/10 or higher** ([p771](?chapter=51#p771)). Screening cost-effectiveness has not been established.
 
 </details>
 

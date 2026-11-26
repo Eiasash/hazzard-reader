@@ -143,7 +143,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
 - **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
 - **Steroidal MRAs for symptomatic HFrEF:** initiate if **eGFR >30 mL/min/1.73 m²** and **serum K <5.0 mEq/L**, then monitor both. The chapter lists spironolactone **12.5–50 mg daily** and eplerenone **25–50 mg daily** and gives an older creatinine cutoff (p1181). DAPA-HF and EMPEROR-Reduced demonstrated improvements in their HF/CV composite outcomes, including in patients without diabetes. Mortality effects differed between trials.
-  > Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
+  > <span id="current-practice-1" data-reader-metadata="navigation"></span>Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
 - **Hydralazine/isosorbide dinitrate** — older-adult start 12.5–25 mg TID–QID / 10 mg TID–QID (p1182).
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
 - **Digoxin** — 0.125 mg daily in older adults with normal renal function; target serum level **0.5–0.9 ng/mL**; toxicity can occur even at "therapeutic" levels (p1182–1183).
@@ -229,7 +229,7 @@ Carvedilol 25–50 mg BID, metoprolol succinate 100–200 mg daily, bisoprolol 1
 <details><summary>Answer</summary>
 
 For MRA initiation in HFrEF, **eGFR must be above 30 mL/min/1.73 m² and potassium below 5.0 mEq/L**. Monitor both after starting. The chapter describes spironolactone **12.5–50 mg once daily** (p1181, AHA/ACC/HFSA 2022).
-> Current practice (not the book): eGFR ≤30 mL/min/1.73 m² or serum potassium ≥5.0 mEq/L are contraindications to MRA initiation — AHA/ACC/HFSA heart failure guideline, 2022.
+> [Current practice note](#current-practice-1)
 
 </details>
 

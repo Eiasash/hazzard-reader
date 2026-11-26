@@ -185,7 +185,7 @@ def build():
     output = {'version': 1, 'edition': 'Hazzard 8e', 'scope': catalog['scope'],
               'counts': {'drugs': sum(e['kind']=='drug' for e in records), 'classes': sum(e['kind']=='class' for e in records),
                          'passages': sum(len(e['passages']) for e in records), 'questions': sum(len(e['questions']) for e in records)}, 'entries': records}
-    (ROOT / 'data/drug-index.json').write_text(json.dumps(output, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+    (ROOT / 'data/drug-index.json').write_text(json.dumps(output, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8', newline='\n')
     print(json.dumps(output['counts']))
     return output
 
