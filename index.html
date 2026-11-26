@@ -5576,6 +5576,7 @@ const readerScroll=$('#readerScroll');
 const sizes={small:12,medium:13.5,large:15};
 const markColours=HazzardStorage.colours;
 let selectedBookRange=null;
+let nextBookNumber=1;
 let marking=false,colour='yellow',size='small',anchor=null,gesture=null;
 let closingHistory=false,queuedOpen=null,queuedChapter=null,outsideStarted=false,currentView='reader',afterReturn=null;
 const unitMap=new Map();
@@ -6092,7 +6093,7 @@ function syncMarkingUI(){
   $('#markColourLabel').textContent=underline?'Underline':'Colour';
   pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Turn marking off':'Turn marking on';pencil.setAttribute('aria-label','Highlight: '+(marking?'On':'Off'));if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   const answer=HazzardAnswerHighlights.available(),questionView=!!mcq?.active||['bank','mock'].includes(String(copy.dataset.chapterId||'')),selection=HazzardAnswerHighlights.selectionState();
-  if(answer)pointLabel(HazzardAnswerHighlights.nextPoint());
+  if(marking)pointLabel(answer?HazzardAnswerHighlights.nextPoint():nextBookNumber);
   if(questionView)pencil.hidden=currentView!=='reader'||!answer;
   $('#penMore').hidden=answer||!marking;$('#markSelection').hidden=marking||(!answer&&!selectedBookRange);$('#markSelection').disabled=!selection.canSave&&!selectedBookRange;
   $('#markRemove').hidden=true;$('#markHint').hidden=true;markBar.classList.toggle('answer-mark-bar',answer);
@@ -6221,7 +6222,8 @@ function restoreHighlights(){
       const node=kind==='marks'?unitMap.get(id)?.parts.find(n=>n.textContent.trim()):rangeMarks.get(id)?.spans[0];
       if(node)node.dataset.point=mark.number;
     }
-    if(!HazzardAnswerHighlights.available())pointLabel(nextBookPoint(saved));
+    nextBookNumber=nextBookPoint(saved);
+    if(!HazzardAnswerHighlights.available())pointLabel(nextBookNumber);
     if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
