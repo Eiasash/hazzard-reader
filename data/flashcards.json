@@ -6653,10 +6653,157 @@
     "sourceLabel": "Read the practice topic · Ch. 38, p. 569"
   },
   {
+    "id": "ch79-stage-two-combination",
+    "chapter": "79",
+    "page": 1225,
+    "anchor": "exam-p1225-mcq-ba95508abaa2e8c6c5b63ba6",
+    "front": "A 75-year-old remains at 165/90 after six months of lifestyle therapy. What is the likely drug requirement?",
+    "back": "Usually two complementary agents, started at low doses and titrated against seated and standing pressures. A thiazide-type diuretic plus an ACE inhibitor is one example. Osteoporosis does not preclude a thiazide. Hazzard 8e, pp. 1223–1226.",
+    "questionIds": [
+      "mcq-ba95508abaa2e8c6c5b63ba6",
+      "mcq-d7947f0b3a41155a5df4df97"
+    ]
+  },
+  {
+    "id": "ch79-systolic-hypertension-osteoporosis",
+    "chapter": "79",
+    "page": 1226,
+    "anchor": "ch79-drug-table",
+    "front": "Which suits an independent 85-year-old with osteoporosis and repeated pressure of 165/90: amlodipine or doxazosin?",
+    "back": "Amlodipine is a suitable long-acting initial agent. Doxazosin can cause postural hypotension and was associated with more heart-failure admissions as monotherapy. Osteoporosis does not preclude a thiazide. Related Hazzard 8e teaching, pp. 1225–1226, Table 79-4.",
+    "questionIds": [
+      "mcq-dac12cb3fa30972172b47803",
+      "mcq-6dbb1d35d8daf508ea401851"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1226"
+  },
+  {
+    "id": "ch79-stage-one-lifestyle",
+    "chapter": "79",
+    "page": 1225,
+    "anchor": "exam-p1225-mcq-7559bbef5d36d19293f61fdb",
+    "front": "How does the chapter initially manage uncomplicated hypertension at 135/85 in an independent 68-year-old?",
+    "back": "This is stage 1. Begin exercise, reasonable sodium restriction and weight reduction if overweight, then reassess. In this lower-risk scenario the chapter allows six months before considering medication. Hazzard 8e, pp. 1221, 1224–1225, Tables 79-1 and 79-3.",
+    "questionIds": [
+      "mcq-7559bbef5d36d19293f61fdb"
+    ]
+  },
+  {
+    "id": "ch79-secondary-diastolic",
+    "chapter": "79",
+    "page": 1222,
+    "anchor": "exam-p1222-mcq-5c4353506d173329433ddcfd",
+    "front": "An 85-year-old has repeated pressures near 150/110. Which secondary cause deserves attention, and when are other tests appropriate?",
+    "back": "Prominent or new diastolic hypertension in later life points toward renovascular disease. Renal duplex evaluates for stenosis. Screen for sleep apnea, catecholamine-producing tumor or cortisol excess when additional findings support the diagnosis. Hazzard 8e, p. 1222.",
+    "questionIds": [
+      "mcq-5c4353506d173329433ddcfd",
+      "mcq-7d65ccd729c0f8ac8a37e020"
+    ]
+  },
+  {
+    "id": "ch79-post-infarction",
+    "chapter": "79",
+    "page": 1225,
+    "anchor": "ch79-ace-inhibitor",
+    "front": "What makes an ACE inhibitor an appropriate pressure-lowering choice after myocardial infarction?",
+    "back": "It lowers pressure and reduces cardiovascular events in chronic coronary disease with hypertension. Check creatinine and potassium. AHA/ACC Chronic Coronary Disease Guideline, section 4.3.3, recommendation 1. Related Hazzard 8e drug-class teaching, pp. 1225–1226.",
+    "questionIds": [
+      "mcq-58097bd742d304c155cd4494",
+      "mcq-4f598f91d8b03b18446ff9d5",
+      "mcq-bd220ca7ca24b1b0156ceadf"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1225"
+  },
+  {
+    "id": "ch79-time-to-benefit",
+    "chapter": "79",
+    "page": 1223,
+    "anchor": "ch79-intensive-time",
+    "front": "Treating 100 adults aged at least 60 more intensively prevents one major cardiovascular event after approximately how long?",
+    "back": "34.4 months, about three years (95% CI 22.7–59.8), for a one-percentage-point absolute reduction. The estimate came from six trials with differing treatment targets. Weigh prognosis and early harms. Chen et al., JAMA Internal Medicine 2022, Table 2. Related Hazzard 8e teaching, p. 1223.",
+    "questionIds": [
+      "mcq-7faf3ea2990c59570295210c"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1223"
+  },
+  {
+    "id": "ch79-standing-pressure",
+    "chapter": "79",
+    "page": 1222,
+    "anchor": "ch79-upright-reading",
+    "front": "Why check supine and standing pressure in someone who falls or feels weak after treatment intensification?",
+    "back": "A sustained drop of at least 20 mm Hg systolic or 10 mm Hg diastolic within three minutes of standing supports orthostatic hypotension. Weakness or fatigue may be the only clue. Reconsider medication and use standing pressure to guide the goal if needed. Hazzard 8e, pp. 1222–1223.",
+    "questionIds": [
+      "mcq-97a974f43e5ad78c18eb2cba",
+      "mcq-e7b19e4e91bcb638b7e68eac",
+      "mcq-851f55361fb5e14b5ab96c89"
+    ]
+  },
+  {
+    "id": "ch79-sprint-eligibility",
+    "chapter": "79",
+    "page": 1223,
+    "anchor": "ch79-sprint-cohort",
+    "front": "Does a slow gait rule out benefit from intensive pressure lowering, and can SPRINT be applied directly to advanced dementia?",
+    "back": "Benefit persisted across gait speed and frailty in the enrolled ambulatory older group. Nursing-home residents, people with dementia and those with standing systolic pressure below 110 were excluded. Discuss priorities and treatment burden individually. Hazzard 8e, pp. 1222–1223.",
+    "questionIds": [
+      "mcq-8c9797591f63ff3d23bc45b1",
+      "mcq-56614f391c04935bca4dd3b1"
+    ]
+  },
+  {
+    "id": "ch79-chlorthalidone-duration",
+    "chapter": "79",
+    "page": 1225,
+    "anchor": "ch79-thiazide-comparison",
+    "front": "Compared with hydrochlorothiazide, what changes when switching to chlorthalidone?",
+    "back": "Chlorthalidone is more potent per milligram and has a longer half-life. Compare equipotent doses and monitor electrolytes and standing pressure. Hazzard 8e, p. 1225.",
+    "questionIds": [
+      "mcq-df48fe04a1ef99cf9c29ad6c",
+      "mcq-2a07ceac01397e535007d327"
+    ]
+  },
+  {
+    "id": "ch79-thiazide-symptoms",
+    "chapter": "79",
+    "page": 1225,
+    "anchor": "ch79-thiazide-effects",
+    "front": "An older patient taking a thiazide develops nocturia, low potassium and postural symptoms. What should prompt a medication change?",
+    "back": "Diuresis and electrolyte loss can limit the dose. Check upright pressure, sodium, potassium and volume status. Depending on severity, lower or stop the thiazide, replace potassium as needed and reassess before adding medication. Hazzard 8e, pp. 1225–1226.",
+    "questionIds": [
+      "mcq-587a66507712957a38af1bdc",
+      "mcq-851f55361fb5e14b5ab96c89",
+      "mcq-816a79a1791517b190352ff2"
+    ]
+  },
+  {
+    "id": "ch79-confirm-and-titrate",
+    "chapter": "79",
+    "page": 1222,
+    "anchor": "ch79-repeat-measurements",
+    "front": "Should a single high post-exertional office reading in an asymptomatic older person lead directly to a higher drug dose?",
+    "back": "First repeat standardized resting measurements and confirm the pattern with home or ambulatory readings if needed. Check standing pressure and titrate gradually if sustained hypertension warrants treatment. Hazzard 8e, pp. 1222, 1225.",
+    "questionIds": [
+      "mcq-786ac9a75006abf8f9b7827e",
+      "mcq-700a54841a0c7944134254e9"
+    ]
+  },
+  {
+    "id": "ch79-monitored-withdrawal",
+    "chapter": "79",
+    "page": 1224,
+    "anchor": "ch79-monitored-withdrawal",
+    "front": "After successful lifestyle changes, when can an antihypertensive be reduced?",
+    "back": "When control is stable below the individual goal, a monitored reduction or withdrawal can be reasonable. Plan home and follow-up readings so medication can be restarted if pressure rises. Hazzard 8e, p. 1224.",
+    "questionIds": [
+      "mcq-81f6b10f34574870d54e9243"
+    ]
+  },
+  {
     "id": "ch26-certificate",
     "chapter": "26",
     "front": "הפנימית מבקשת תעודה למינוי אפוטרופוס לפני הכנסת צנתר. האם להמתין לגריאטר?",
-    "back": "מומחה ברפואה פנימית הוא אחד מחמשת המומחים המנויים בחוזר. בדקו את היכולת להבין את הצנתר והדיאליזה, תקנו גורמים הפיכים ותעדו את הממצאים. חוזר מינהל רפואה 10/2006, סעיף 9.3.1, עמ׳ 4.",
+    "back": "מומחה ברפואה פנימית הוא אחד מחמשת המומחים המנויים בחוזר 10/2006, שחל על הליך לא דחוף באשפוז ממושך. דחיפות הדיאליזה קובעת אם נדרש מסלול אחר. בדקו את היכולת להבין את הצנתר והדיאליזה, תקנו גורמים הפיכים ותעדו את הממצאים. חוזר מינהל רפואה 10/2006, סעיף 9.3.1, עמ׳ 4.",
     "page": 4,
     "anchor": "ch26-certificate",
     "questionIds": [
@@ -7077,5 +7224,163 @@
       "mcq-b6e0367710cf1836980a73db"
     ],
     "readChapter": "63"
+  },
+  {
+    "id": "ch15-quiet-delirium",
+    "chapter": "15",
+    "front": "A quiet ED patient abruptly loses track of questions. Which delirium subtype is easiest to miss, and what may follow hospitalization?",
+    "back": "Hypoactive delirium is more common and less often recognized than the agitated form. Delirium is associated with cognitive and functional decline and later depression. Investigate the trigger. Hazzard 8e, p. 209.",
+    "page": 209,
+    "anchor": "exam-p209-mcq-c040b7a76725684cad927088",
+    "questionIds": [
+      "mcq-c040b7a76725684cad927088",
+      "mcq-1757f3810b8eab8a8da3bab7"
+    ]
+  },
+  {
+    "id": "ch15-amt4-items",
+    "chapter": "15",
+    "front": "Which four questions are scored in the 4AT’s AMT4, and where does asking the patient’s name fit?",
+    "back": "Age, birth date, current place and current year. Asking for name and address may help assess alertness in another 4AT component. Figure 15-2 begins on p. 210 and shows these items on p. 211.",
+    "page": 211,
+    "anchor": "exam-p211-mcq-b345342fb42d42167d25ca2b",
+    "questionIds": [
+      "mcq-b345342fb42d42167d25ca2b",
+      "mcq-e3a98b6ee3b58c73a12e6ed4"
+    ]
+  },
+  {
+    "id": "ch15-cam-baseline",
+    "chapter": "15",
+    "front": "After a hip fracture a resident is disoriented and cannot say the months backward. What information is essential before calling the CAM positive?",
+    "back": "Establish an acute change or fluctuating course. CAM also requires inattention plus disorganized thinking or altered consciousness. A failed UB-2 leads to a second-stage assessment. Hazzard 8e, pp. 211, 884.",
+    "page": 211,
+    "anchor": "exam-p211-mcq-8c8695c6e0e9292f086c2501",
+    "questionIds": [
+      "mcq-8c8695c6e0e9292f086c2501"
+    ]
+  },
+  {
+    "id": "ch15-amt4-contexts",
+    "chapter": "15",
+    "front": "In which three ED assessments does the AMT4 appear, and how does the meaning of an error change?",
+    "back": "It contributes to the 4AT delirium score, flags dementia risk in a stand-alone screen and helps judge an abuse history in Senior Aid. It does not assess depression or suicide risk. Hazzard 8e, pp. 211–214.",
+    "page": 212,
+    "anchor": "exam-p212-mcq-be0342d1614ce894a9a67d87",
+    "questionIds": [
+      "mcq-be0342d1614ce894a9a67d87"
+    ]
+  },
+  {
+    "id": "ch15-yearbook",
+    "chapter": "15",
+    "front": "מהו היחס בין שיעורי הביקורים במיון של בני 85 ומעלה ובני 65–74, ומהו המכנה?",
+    "back": "בשנת 2022 נרשמו 1,046.8 לעומת 419.0 ביקורים לכל אלף בני קבוצת הגיל, כלומר פי 2.5 בקירוב. אדם יכול לבקר יותר מפעם אחת. שנתון ברוקדייל 2024, עמ׳ 135, לוח 2.21 בעמ׳ 164.",
+    "page": 135,
+    "anchor": "ch15-il-yearbook",
+    "questionIds": [
+      "mcq-c67df43fb4f95364375f911d"
+    ],
+    "sourceLabel": "Read · שנתון ברוקדייל 2024, עמ׳ 135"
+  },
+  {
+    "id": "ch15-safeguarding",
+    "chapter": "15",
+    "front": "מטופל חסר ישע זקוק לאשפוז ויש חשד שהמטפל הזניח אותו. מה קובע נוהל משרד הבריאות לגבי הגנה ודיווח?",
+    "back": "יש לדווח בהקדם לפקיד סעד או למשטרה. כשנדרש אשפוז עקב הפגיעה, מאשפזים ל־24 שעות לפחות או נוקטים אמצעים מיידיים אחרים להגנה. מתאמים שחרור עם פקיד הסעד והצוות. חוזר 22/03, עמ׳ 6.",
+    "page": 6,
+    "anchor": "ch15-il-protection",
+    "questionIds": [
+      "mcq-632ba530eb4611e16d60adfe"
+    ],
+    "sourceLabel": "Read · חוזר מנכ״ל 22/03, עמ׳ 6"
+  },
+  {
+    "id": "ch15-function",
+    "chapter": "15",
+    "front": "What distinction matters more than the identity of a paid caregiver when assessing function after an ED visit?",
+    "back": "Compare prior ADLs and mobility with what the patient can do now. Ask what assistance exists in practice. Available ED vulnerability instruments have limited accuracy for subsequent loss of function. Hazzard 8e, pp. 214, 217.",
+    "page": 214,
+    "anchor": "ch15-vulnerability",
+    "questionIds": [
+      "mcq-65c8bffe42c22e000a778db8"
+    ]
+  },
+  {
+    "id": "ch15-senior-aid",
+    "chapter": "15",
+    "front": "A patient cannot give a reliable account of possible mistreatment. What follows the Senior Aid interview?",
+    "back": "Perform the physical assessment, looking for patterned injuries and possible neglect. Integrate the findings with the account, presenting complaint and observations before deciding whether to suspect abuse. Hazzard 8e, p. 214.",
+    "page": 214,
+    "anchor": "exam-p214-mcq-be0342d1614ce894a9a67d87",
+    "questionIds": [
+      "mcq-7bf411a96e3acdf70aaa07bd"
+    ]
+  },
+  {
+    "id": "ch15-informant",
+    "chapter": "15",
+    "front": "Which cognitive screen adds information when a highly educated patient still passes a bedside performance test?",
+    "back": "Caregiver AD8 asks a knowledgeable informant about change in everyday cognition. Two affirmative responses suggest increased risk, prompting evaluation and discharge support. Hazzard 8e, pp. 212–213.",
+    "page": 213,
+    "anchor": "ch15-ad8",
+    "questionIds": [
+      "mcq-1cf75eee32c2e9c0fc2bdf94"
+    ]
+  },
+  {
+    "id": "ch15-equipped",
+    "chapter": "15",
+    "front": "What are the three components of EQUiPPED, and which outcome did the VA hospitals measure?",
+    "back": "Clinician education, individual prescribing feedback and electronic decision support. Four VA hospitals reported a sustained reduction in potentially inappropriate prescribing at one year. Hazzard 8e, p. 218.",
+    "page": 218,
+    "anchor": "ch15-equipped",
+    "questionIds": [
+      "mcq-e48d382eeccbb00f20db6b06"
+    ]
+  },
+  {
+    "id": "ch15-staffing",
+    "chapter": "15",
+    "front": "How can a department make a geriatric care protocol actionable without a dedicated older-adult unit?",
+    "back": "Train the team, identify syndrome-specific goals and match staffing to the intervention. For medication safety, include a pharmacist with geriatric prescribing expertise. Hazzard 8e, p. 208.",
+    "page": 208,
+    "anchor": "ch15-staffing",
+    "questionIds": [
+      "mcq-a6cde1a8daf57ef900597884"
+    ]
+  },
+  {
+    "id": "ch15-repeat-falls",
+    "chapter": "15",
+    "front": "After treating an injury from recurrent falls, what domains should the team reassess?",
+    "back": "Look at balance and gait, medicines, standing blood pressure, vision, footwear and home hazards. ED trials show different results for medication reduction alone and coordinated PT/pharmacy interventions. Hazzard 8e, pp. 120–121, 213–215.",
+    "page": 213,
+    "anchor": "ch15-falls",
+    "questionIds": [
+      "mcq-caddbeea0c2ddb05d26e2f22"
+    ]
+  },
+  {
+    "id": "ch15-night-toileting",
+    "chapter": "15",
+    "front": "Which environmental changes address both the distance and the visibility hazards of repeated nighttime toileting?",
+    "back": "Provide a bedside commode and adequate light for the transfer. A loose mat introduces a trip hazard. Hazzard 8e, Table 15-1, p. 209, and Table 47-3, p. 702.",
+    "page": 209,
+    "anchor": "ch15-toileting",
+    "questionIds": [
+      "mcq-21655115594c8fb8b74ecb68"
+    ]
+  },
+  {
+    "id": "ch15-observation",
+    "chapter": "15",
+    "front": "When can an ED observation unit help with disposition?",
+    "back": "When treatment response, selected tests or consultations, or transition support can clarify whether a medically stable patient may leave safely. Hazzard 8e, p. 218.",
+    "page": 218,
+    "anchor": "ch15-observation",
+    "questionIds": [
+      "mcq-88db767a3d22600681cc3403"
+    ]
   }
 ]

@@ -71,7 +71,7 @@ SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormon
 **Epidemiology & framework**
 - Neuropsychiatric symptoms (NPS) occur in up to **98%** of dementia patients over the course of illness (p919); depression, apathy, and anxiety are the most common NPS in dementia (p919).
 - New late-life NPS lasting **over 6 months**, without dementia and not explained by another psychiatric disorder = mild behavioral impairment (MBI) (p919).
-- NPS → higher mortality, faster cognitive decline, and are a top driver of institutionalization.
+- NPS are associated with higher mortality, faster cognitive decline and institutional placement (pp. 919–920).
 - 4 NPS domains: affective/motivational, psychotic, disturbances of basic drives (sleep/eating), and disinhibited/socially inappropriate behavior.
 
 **Diagnosis & differential**
@@ -79,7 +79,7 @@ SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormon
 - **Rule out delirium first** for any acute or fluctuating change in cognition/behavior (p923).
 - NPI = most-used research tool for NPS; NPI-Q = brief clinic version, measures **12 NPS** domains plus informant distress (p922).
 - Medication review is essential: the anticholinergic-risk/delirium med list (**Table 60-3**, p922) includes non-obvious agents **digoxin** and **furosemide** alongside the classic anticholinergics (TCAs, diphenhydramine/hydroxyzine/promethazine, oxybutynin, scopolamine).
-- New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922).
+- New-onset acute NPS work-up: CBC, chem panel, LFTs, UA/culture; consider TSH, B12, folate, tox screen, ECG; chest x-ray if respiratory signs; imaging particularly if focal signs; EEG if seizure suspected; CSF rarely needed — indicated if meningitis/encephalitis suspected (p922). Interpret urine findings in context. With delirium and bacteriuria alone, and no urinary symptoms, fever or hemodynamic instability, assess other causes and observe rather than treating bacteriuria. [IDSA, recommendation V.1](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/).
 - Depression affects up to **50%** of dementia patients and may go undetected — in dementia it is more likely to present with agitation, irritability, and anxiety (p923).
 - Psychosis occurs in **20% to 30%** of AD patients vs **over 50%** of DLB/Parkinson disease dementia patients; visual hallucinations (more common in DLB) may be the most clinically useful feature to distinguish DLB from AD (p923–924).
 
@@ -100,15 +100,15 @@ SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormon
 - Quetiapine **12.5–150 mg**/day — sedation, orthostatic hypotension; with clozapine, less likely than other antipsychotics to worsen parkinsonian symptoms (p928).
 - Aripiprazole **5–10 mg**/day — most effective for overall NPS per AHRQ review; lower EPS, nausea (p928).
 - Haloperidol **0.5–5** mg/day — high EPS risk; should not be a first-line neuroleptic in nonemergent situations (p928). Retrospective cohorts: higher mortality than risperidone, olanzapine, aripiprazole, ziprasidone, or quetiapine (p927).
-- Clozapine **6.25–75 mg**/day — low EPS risk, so a good option for psychotic symptoms in DLB (DLB/PD patients are extremely EPS-sensitive, except to clozapine); limited by neutropenia/agranulocytosis — weekly blood draws in the first **6 months** (p928).
+- Clozapine **6.25–75 mg**/day — lower motor risk than potent dopamine blockers, but it can still cause serious harm. Evidence of benefit comes from Parkinson disease psychosis. Efficacy and tolerability specifically in DLB remain uncertain. Seek specialist input if persistent dangerous or severely distressing psychosis warrants a trial. [DLB Consortium consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC5496518/). Use is limited by neutropenia/agranulocytosis — weekly blood draws in the first **6 months** (p928).
 - Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928); Current practice (not the book): brexpiprazole received FDA approval in May 2023 for agitation associated with Alzheimer dementia; its boxed warning states increased mortality in older patients with dementia-related psychosis treated with antipsychotics - AGS Alternatives 2025, Table 3 footnote e, p12; FDA announcement, 11 May 2023, approval and boxed-warning paragraphs
 
 **Drugs — antidepressants**
 - Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition may limit its use (p929).
 - Sertraline — initial **25** mg, max **200** mg/day; despite early promise, not shown superior to placebo for depression in dementia (p929).
-- Escitalopram — the cleaner S-enantiomer of citalopram; being studied for agitation (S-CitAD) (p930).
+- Escitalopram — the S-enantiomer of citalopram. S-CitAD, ongoing when p930 was written, later found no significant benefit for agitation at 12 weeks. [S-CitAD trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC12951298/).
 - Paroxetine — anticholinergic properties, should be avoided in older adults (p930); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (p929).
-- Mirtazapine — sedating at lower doses; in one RCT (24 vs 16) no benefit over placebo for sleep in dementia, with increased daytime sleepiness (p930).
+- Mirtazapine — sedating at lower doses; in the sleep pilot, 8 received mirtazapine and 16 placebo (24 total). Nighttime sleep did not improve and daytime sleepiness increased. Page 930 misstates the treatment-group size. [Scoralick et al., methods and results](https://pubmed.ncbi.nlm.nih.gov/26818096/).
 - Bupropion — avoid with a history of seizures or psychotic symptoms (p930).
 - Nortriptyline — therapeutic window **50–150 ng/mL**; anticholinergic effects, hypotension, sedation (p929).
 - Desipramine — the other preferred TCA in Table 60-9; therapeutic window **150–300 ng/mL** (higher than nortriptyline's — don't conflate the two), similar side-effect profile (p929).
@@ -168,11 +168,11 @@ Risperidone for psychosis and agitation; olanzapine for agitation; aripiprazole 
 
 </details>
 
-**11. Which antipsychotic's low EPS risk makes it a good option for psychotic symptoms in dementia with Lewy bodies, and what limits its use?**
+**11. Which antipsychotic has relatively low motor toxicity, and what limits extrapolating its Parkinson psychosis evidence to dementia with Lewy bodies?**
 
 <details><summary>Answer</summary>
 
-Clozapine — limited by serious adverse effects (neutropenia/agranulocytosis) and close laboratory monitoring: weekly blood draws in the first 6 months (p928).
+Clozapine has lower motor toxicity, but efficacy and tolerability in dementia with Lewy bodies are uncertain. Neutropenia can be life-threatening and requires absolute neutrophil count monitoring, typically weekly in the first six months (p928).
 
 </details>
 
@@ -223,6 +223,8 @@ The actual exam questions and answer keys as printed in the chapter, reproduced 
 <a id="p926"></a>
 
 Hazzard 8e, p.926 · [Read source](?chapter=60#p926)
+
+For the wandering example below, preserve immediate emergency egress. A person who cannot unlock the door or summon help needs supervision and a workable fire-escape plan.
 
 > **Disorientation or confusion with person/object recognition**
 >

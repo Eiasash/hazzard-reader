@@ -3966,7 +3966,13 @@
       "fromBasic": false,
       "duplicates": [
         2476
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": "97",
+        "bankChapterTitle": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders"
+      },
+      "referenceNote": "The bibliography names GRS Endocrinology, Adrenal Insufficiency. The bank topic is adrenal insufficiency in Chapter 97. No eighth-edition page is cited."
     },
     "3149": {
       "id": "mcq-541d754d4b0be259fbc19247",
@@ -5984,7 +5990,18 @@
       "fromBasic": false,
       "duplicates": [
         2600
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "79",
+            "page": 1223,
+            "anchor": "ch79-intensive-time",
+            "label": "Related Hazzard 8e teaching, p. 1223, individualizing the systolic target"
+          }
+        ]
+      }
     },
     "3244": {
       "id": "mcq-c6a327d1e984cf14664a4c22",
@@ -7809,8 +7826,14 @@
           210
         ],
         "passages": {
-          "209": "A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) or develop (",
-          "210": "Table 15-3"
+          "209": {
+            "text": "but is associated with an increased hospital length of stay, cognitive and functional decline, and post-hospital depression.",
+            "rangeText": "but is associated with an increased hospital length of stay, cognitive and functional decline, and post-hospital depression."
+          },
+          "210": {
+            "text": "Table 15-3",
+            "imageFile": "hazzard8e_ch15_table-15-3_p210.webp"
+          }
         }
       }
     },
@@ -8599,7 +8622,10 @@
         ],
         "bankChapter": "15",
         "passages": {
-          "211": "Figure 15-2 continued"
+          "211": {
+            "text": "Figure 15-2 continued",
+            "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp"
+          }
         }
       }
     },
@@ -11249,7 +11275,10 @@
           "15-2"
         ],
         "passages": {
-          "211": "Figure 15-2 continued"
+          "211": {
+            "text": "Figure 15-2 continued",
+            "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp"
+          }
         }
       }
     },
@@ -12646,7 +12675,7 @@
         2887
       ],
       "readerReference": "Hazzard 8e · p. 211",
-      "referenceNote": "Paper cites p.210; AMT4 is on p.211, the continuation of Figure 15-2.",
+      "referenceNote": "The bibliography cites p. 210, where Figure 15-2 begins with bCAM. The 4AT and its AMT4 questions appear in the continuation on p. 211.",
       "explanation": "## AMT4 – Abbreviated Mental Test 4\n\n### התשובה הנכונה: א – שאלות על התמצאות\n\n---\n\n### הסבר:\n\n**AMT4 (Abbreviated Mental Test 4)** הוא כלי סקר קצר לזיהוי ליקוי קוגניטיבי, המכיל **4 שאלות בלבד**, כולן עוסקות ב**התמצאות**:\n\n1. **גיל החולה**\n2. **תאריך לידה**\n3. **מקום** (איפה אנחנו?)\n4. **שנה נוכחית**\n\nבתרשים4AT שבמקור: ללא טעויות=0, טעות אחת=1, ושתי טעויות ומעלה או אי-יכולת להיבדק=2; מפרשים יחד עם יתר רכיבי4AT. (Hazzard8e p211).\n\n---\n\n### למה האחרות שג",
       "readerMapping": {
         "printedPages": [
@@ -12663,7 +12692,14 @@
         ],
         "bankChapter": "15",
         "passages": {
-          "210": "Figure 15-2"
+          "210": {
+            "text": "Figure 15-2",
+            "imageFile": "hazzard8e_ch15_figure-15-2_p210.webp"
+          },
+          "211": {
+            "text": "Figure 15-2 continued",
+            "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp"
+          }
         }
       }
     },
@@ -16858,9 +16894,18 @@
           "79"
         ],
         "passages": {
-          "1224": "Overview Currently available evidence supports two general principles with respect to antihy",
-          "1223": "The optimal SBP treatment goal for patients older than 65 years has evolved from the startin",
-          "1225": "General treatment recommendations for stage 1 hypertension are summarized in Table 79-3. For"
+          "1224": {
+            "text": "drug selection will depend on whether the patient’s hypertension is simple or complicated by another comorbid condition.",
+            "rangeText": "drug selection will depend on whether the patient’s hypertension is simple or complicated by another comorbid condition."
+          },
+          "1223": {
+            "text": "Its recommendation for ambulatory, community-living older adults is a SBP goal of 130 mm Hg.",
+            "rangeText": "Its recommendation for ambulatory, community-living older adults is a SBP goal of 130 mm Hg."
+          },
+          "1225": {
+            "text": "Patients who present with stage 2 hypertension will almost certainly require at least two drugs to control their blood pressure",
+            "rangeText": "Patients who present with stage 2 hypertension will almost certainly require at least two drugs to control their blood pressure"
+          }
         }
       }
     },
@@ -18959,7 +19004,19 @@
       "fromBasic": false,
       "duplicates": [
         4320
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "15",
+            "page": 135,
+            "anchor": "ch15-il-yearbook",
+            "label": "שנתון ברוקדייל 2024, עמ׳ 135, שיעורי ביקורים במיון"
+          }
+        ]
+      },
+      "referenceNote": "Brookdale Statistical Yearbook 2024, printed p. 135 (PDF page 137). Table 2.21, printed p. 164, gives the underlying ED visit rates for 2022."
     },
     "4471": {
       "id": "mcq-05fcd2cc3d52e4ec75c5cf4b",
@@ -19055,9 +19112,21 @@
           "15"
         ],
         "passages": {
-          "213": "Abuse of the older adult can take many forms, including physical or psychological harms, fin"
-        }
-      }
+          "213": {
+            "text": "Preventing elder abuse requires a team-based approach that begins in the pre-hospital environment",
+            "rangeText": "Preventing elder abuse requires a team-based approach that begins in the pre-hospital environment"
+          }
+        },
+        "relatedTeaching": [
+          {
+            "chapter": "15",
+            "page": 6,
+            "anchor": "ch15-il-protection",
+            "label": "חוזר מנכ״ל 22/03, עמ׳ 6, הגנה ושחרור"
+          }
+        ]
+      },
+      "referenceNote": "Hazzard p. 213 describes the ED team response. Israeli Ministry of Health circular 22/03, sections 8–10, supplies the reporting and protection instructions."
     },
     "4475": {
       "id": "mcq-b9e9379a1932f5609365e505",
@@ -20963,10 +21032,22 @@
           "15"
         ],
         "passages": {
-          "211": "Figure 15-2 continued",
-          "212": "Figure 15-3",
-          "213": "of not relying upon an available, communicative, or cooperative patient in the ED where pati",
-          "214": "Figure 15-4"
+          "211": {
+            "text": "Figure 15-2 continued",
+            "imageFile": "hazzard8e_ch15_figure-15-2-continued_p211.webp"
+          },
+          "212": {
+            "text": "Figure 15-3",
+            "imageFile": "hazzard8e_ch15_figure-15-3_p212.webp"
+          },
+          "213": {
+            "text": "whereas AMT-4, O3DY, and most other dementia screening instruments often yield false-negative findings",
+            "rangeText": "whereas AMT-4, O3DY, and most other dementia screening instruments often yield false-negative findings"
+          },
+          "214": {
+            "text": "Figure 15-4",
+            "imageFile": "hazzard8e_ch15_figure-15-4_p214.webp"
+          }
         }
       }
     },
@@ -26711,7 +26792,10 @@
           1222
         ],
         "passages": {
-          "1222": "Evaluation Similar to younger patients, more than 90% of older hypertensive patients have es"
+          "1222": {
+            "text": "older patients who present with primarily diastolic hypertension merit a careful evaluation with a focus on a renovascular cause.",
+            "rangeText": "older patients who present with primarily diastolic hypertension merit a careful evaluation with a focus on a renovascular cause."
+          }
         }
       }
     },
@@ -26744,8 +26828,14 @@
           "79-3"
         ],
         "passages": {
-          "1221": "Table 79-1",
-          "1225": "Table 79-3"
+          "1221": {
+            "text": "Table 79-1",
+            "imageFile": "hazzard8e_ch79_table-79-1_p1221.webp"
+          },
+          "1225": {
+            "text": "Table 79-3",
+            "imageFile": "hazzard8e_ch79_table-79-3_p1225.webp"
+          }
         }
       }
     },

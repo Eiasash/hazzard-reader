@@ -2,7 +2,77 @@
 
 Study summary of Chapter 15, Hazzard's Geriatric Medicine and Gerontology, 8e.
 
-**Full chapter available: [Read Chapter 15](?chapter=15).** Summary and recall drill from the book; the book remains the reference. Fast build from the book; not lane-reviewed.
+**Full chapter available: [Read Chapter 15](?chapter=15).** Summary and recall drill from the book; the book remains the reference. Clinical focus includes delirium, cognition, elder protection and safe discharge.
+
+## What the exams asked
+
+- **Quiet delirium and later depression.** Which motor phenotype is easiest to miss, what proportion of older ED patients have delirium and what may follow after hospitalization? [June 2023 Q66 · delirium and outcomes, p. 209](?chapter=15#exam-p209-mcq-c040b7a76725684cad927088) · [vulnerability, Table 15-3, p. 210](?chapter=15#exam-p210-mcq-c040b7a76725684cad927088).
+- **Four questions, three clinical uses.** Which personal facts and orientation questions belong to AMT4, and which familiar question belongs to another part of the examination? [June 2023 Q95 · AMT4 panel, p. 211](?chapter=15#exam-p211-mcq-b345342fb42d42167d25ca2b) · [September 2024 Q18 · cited Figure 15-2 starts on p. 210](?chapter=15#exam-p210-mcq-e3a98b6ee3b58c73a12e6ed4) · [Q18 teaching panel, p. 211](?chapter=15#exam-p211-mcq-e3a98b6ee3b58c73a12e6ed4).
+- **A confusion screen after a hip fracture.** What can poor orientation and backward months tell you before anyone establishes the patient's baseline? [May 2024 Q75 · 4AT, p. 211](?chapter=15#exam-p211-mcq-8c8695c6e0e9292f086c2501) · [CAM and UB-CAM, Ch. 58, p. 884](?chapter=58#exam-mcq-8c8695c6e0e9292f086c2501).
+- **Which screen omits AMT4?** Compare [June 2026 Q98 · 4AT, p. 211](?chapter=15#exam-p211-mcq-be0342d1614ce894a9a67d87), [dementia screening, p. 212](?chapter=15#exam-p212-mcq-be0342d1614ce894a9a67d87), [interpretation, p. 213](?chapter=15#exam-p213-mcq-be0342d1614ce894a9a67d87), and [Senior Aid, p. 214](?chapter=15#exam-p214-mcq-be0342d1614ce894a9a67d87).
+- **Suspected neglect at discharge.** What should the team do when a patient with dementia needs admission and the accompanying guardian wants to take him home? [June 2026 Q28 · elder protection, Hazzard p. 213](?chapter=15#exam-p213-mcq-632ba530eb4611e16d60adfe) · [הנוהל הישראלי, סעיפים 8–10](?chapter=15#ch15-il-protection).
+- **Age and emergency service use in Israel.** Which age groups were compared, and what is the denominator? [June 2026 Q24 · שנתון ברוקדייל 2024, עמ׳ 135](?chapter=15#ch15-il-yearbook).
+- **Functional loss after an ED visit.** How would you distinguish pre-existing need for assistance from new loss of independence? [2020 Q97 · chapter-level citation](?chapter=15#asked-chapter) · [current-edition discussion](?chapter=15#ch15-vulnerability).
+
+## A quiet patient after a fracture
+
+<span data-exam-ids="mcq-c040b7a76725684cad927088" data-exam-read-page="209" data-reader-metadata="exam"></span>
+
+A patient who was managing independently yesterday and is now quiet, distractible and slow to respond may have hypoactive delirium. Ask someone who knows the patient about the time of onset and fluctuations during the day. Hypoactive delirium is more common than hyperactive delirium in older ED patients, yet is recognized less often. The estimated 6%–38% includes delirium already present on arrival and new delirium during ED care. June 2023 Q66 pairs this presentation with a later outcome, depression after hospitalization. [Delirium, p. 209](?chapter=15#exam-p209-mcq-c040b7a76725684cad927088).
+
+<span data-exam-ids="mcq-c040b7a76725684cad927088" data-exam-read-page="210" data-reader-metadata="exam"></span>
+
+Separate baseline vulnerability from the immediate insult. Dementia, sensory impairment and limited mobility can lower the threshold at which an infection, hypoxia, a medication change or pain precipitates delirium. Table 15-3 lists male sex among the baseline factors. Identify and treat a plausible trigger, and pass the time course and observed attention deficit to the receiving team. [Risk factors, p. 210](?chapter=15#exam-p210-mcq-c040b7a76725684cad927088).
+
+<span data-exam-ids="mcq-8c8695c6e0e9292f086c2501" data-exam-read-page="211" data-reader-metadata="exam"></span>
+
+In the hip-fracture case, age and place are already wrong, giving **2** AMT4 points. The patient starts months backward but then moves forward, giving **1** attention point. To interpret sleepiness, determine whether it clears within 10 seconds after waking. To score acute change, ask about the past two weeks and whether the change was still apparent in the last 24 hours. A subtotal of three cannot settle the case. A positive UB-2 begins a second-stage CAM interview. Clinical CAM requires acute change or fluctuation and inattention plus disorganized thinking or altered consciousness. [4AT scoring, p. 211](?chapter=15#exam-p211-mcq-8c8695c6e0e9292f086c2501) · [Table 58-3, p. 884](?chapter=58#exam-mcq-8c8695c6e0e9292f086c2501).
+
+## What AMT4 measures in each instrument
+
+<span data-exam-ids="mcq-e3a98b6ee3b58c73a12e6ed4" data-exam-read-page="210" data-reader-metadata="exam"></span>
+
+<span data-exam-ids="mcq-b345342fb42d42167d25ca2b" data-exam-read-page="211" data-reader-metadata="exam"></span>
+
+Ask for age, birth date, the present hospital or building, and the current year. Asking someone to state their name and address can help assess alertness in the 4AT, but neither answer contributes to AMT4. September 2024 Q18 cites the opening page of Figure 15-2, which shows bCAM. Its 4AT continuation contains the orientation questions. [Cited figure start, p. 210](?chapter=15#exam-p210-mcq-e3a98b6ee3b58c73a12e6ed4) · [AMT4 panel, p. 211](?chapter=15#exam-p211-mcq-e3a98b6ee3b58c73a12e6ed4).
+
+<span data-exam-ids="mcq-be0342d1614ce894a9a67d87" data-exam-read-page="211" data-reader-metadata="exam"></span>
+
+Within **4AT**, no AMT4 errors earns zero, one earns one, and two or more errors or inability to test earns two. Inattention, arousal and acute change are assessed separately because longstanding cognitive impairment can also cause errors. Four or more total points raises concern for delirium with or without underlying cognitive impairment. [Figure 15-2, p. 211](?chapter=15#exam-p211-mcq-be0342d1614ce894a9a67d87).
+
+<span data-exam-ids="mcq-be0342d1614ce894a9a67d87" data-exam-read-page="212" data-reader-metadata="exam"></span>
+
+Within **ED dementia screening**, even one AMT4 error flags higher risk. A well-educated patient may still answer all four questions correctly despite a change in daily functioning. Ask someone who knows the patient whether tasks such as paying bills or keeping appointments have become more difficult. This is why the caregiver AD8 can add information when a bedside test seems reassuring. [Figure 15-3, p. 212](?chapter=15#exam-p212-mcq-be0342d1614ce894a9a67d87).
+
+<span data-exam-ids="mcq-be0342d1614ce894a9a67d87" data-exam-read-page="213" data-reader-metadata="exam"></span>
+
+Before deciding on discharge, ask whether the patient can understand the plan now, recall it later and obtain practical help with new medicines or follow-up. Brief instruments identify patients who may need this extra support, but do not by themselves diagnose dementia or determine admission. [Interpreting a cognitive screen, p. 213](?chapter=15#exam-p213-mcq-be0342d1614ce894a9a67d87).
+
+<span data-exam-ids="mcq-be0342d1614ce894a9a67d87" data-exam-read-page="214" data-reader-metadata="exam"></span>
+
+Within **Senior Aid**, orientation helps judge how much to rely on the patient's account. Ask about assistance, unmet needs, intimidation, coercion involving money and physical harm. When reliability or suspicion remains uncertain, look for concerning injuries and signs of neglect. The decision integrates the conversation, presenting complaint and examination. None of the AMT4 questions assesses mood or suicidal intent. [Figure 15-4, p. 214](?chapter=15#exam-p214-mcq-be0342d1614ce894a9a67d87).
+
+## Suspected neglect and the decision to discharge
+
+<span data-exam-ids="mcq-632ba530eb4611e16d60adfe" data-exam-read-page="213" data-reader-metadata="exam"></span>
+
+A person may fear retaliation or depend on the individual who accompanied them. A private conversation and observations from nursing, social work and medical staff can reveal discrepancies or unmet needs. Dehydration and poorly controlled illness merit investigation. They are possible signs of neglect, not proof of who caused it. In June 2026 Q28, contact with a guardian did not resolve the medical admission need or the safeguarding concern. [Hazzard, p. 213](?chapter=15#exam-p213-mcq-632ba530eb4611e16d60adfe) · [הגנה ושחרור בישראל](?chapter=15#ch15-il-protection).
+
+## Israeli context — מיון, אשפוז והגנה על מטופל
+
+<span data-practice-ids="mcq-c67df43fb4f95364375f911d" data-reader-metadata="exam"></span>
+
+**שימוש במיון לפי גיל.** בשנת 2022 שיעור הביקורים לאלף נפש היה 419.0 בגילי 65–74, 712.3 בגילי 75–84 ו־1,046.8 בגיל 85 ומעלה. הפער בין הקבוצות הקיצוניות הוא פי 2.5 בקירוב. לוח 2.21 מתייחס לביקורים במלר״דים של בתי חולים כלליים, ללא ביקורי מיון עקב לידה. אדם שביקר פעמיים נספר פעמיים. בקרב בני 65 ומעלה 22.2% מהביקורים היו ביקורים חוזרים בתוך חודש מהשחרור ממיון. שיעור האשפוז הכללי לאלף נפש עלה אף הוא עם הגיל. השנתון מבחין בין שיעור הביקורים, מספר האשפוזים והתפלגותם בין המחלקות. [השנתון שצוטט בבחינה, עמ׳ 135–136 ולוח 2.21](?chapter=15#ch15-il-yearbook).
+
+**חשד להתעמרות בחסר ישע.** בחוזר מנכ״ל 22/03 נדרשת בדיקה רפואית מיידית ויסודית, ביחידות לפי שיקול דעת המטפל ובשפת המטופל. מזמינים מיד עובד סוציאלי ומתעדים את הממצאים ואת השיחה. כאשר עולה חשד סביר לעבירה בידי האחראי לחסר ישע, מדווחים בהקדם לפקיד סעד או למשטרה. אם נדרש אשפוז עקב הפגיעה, החוזר קובע אשפוז של 24 שעות לפחות או אמצעים מיידיים אחרים להגנה, בנוסף לדיווח. שחרור מתואם עם פקיד הסעד והצוות המטפל. [חוזר מנכ״ל 22/03, עמ׳ 2, 6–7](?chapter=15#ch15-il-protection).
+
+## Looking beyond the acute complaint
+
+**Function after discharge.** Establish earlier ability to transfer, dress, take medicines and obtain food. Then ask what changed with the acute episode and who can help tonight. Someone already receiving paid help may still lose additional function. Someone living alone may have reliable nearby support. The chapter compares ED vulnerability tools against several distinct outcomes, including return visits, institutionalization and functional loss. Most do not separate high- and low-risk groups well enough to settle disposition. The Clinical Frailty Scale shows more promise for 30-day mortality than for predicting preventable loss of function. [Current-edition discussion, pp. 214, 217](?chapter=15#ch15-vulnerability).
+
+**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. A universal medication reduction strategy did not reduce falls at a year in the cited ED trial, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
+
+**Who can act on the findings?** Match a geriatric protocol to a person who can deliver it. EQUiPPED uses prescriber education, individual feedback and electronic decision support to improve medication safety. Observation permits reassessment of treatment response and time to obtain therapy, consultation or discharge support. These approaches can be delivered without building a separate geriatric ED. [EQUiPPED, p. 218](?chapter=15#ch15-equipped) · [Observation, p. 218](?chapter=15#ch15-observation).
 
 ## Summary
 
