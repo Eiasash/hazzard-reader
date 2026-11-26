@@ -1,5 +1,5 @@
 {
-  "version": "v322",
+  "version": "v323",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -5983,18 +5983,18 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "a7a0f598379274ddb16d4322883e21fc7f85d415ba6b30bf5f5981bd13062eb8",
-      "bytes": 10363
+      "sha256": "cb211f82b3fa5c8f52c3f24080c0d5ccaaa541e4aee30d5a72bbdb8543b5e77f",
+      "bytes": 11214
     },
     {
       "url": "./css/reading-companion.css",
-      "sha256": "3c2e71a87e499c03f945eaa0d31dd683a665369f29d8dfa5b6505ee2cdc8cc45",
-      "bytes": 7201
+      "sha256": "d6f3ad583208b02f9c972b36857723a81177a8d033e5de21568680b9750cafb2",
+      "bytes": 6413
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "8432c540ad3e3cab2f13b7ca131f0c3bb66efee642a2ea0de196a804c6b67e9c",
-      "bytes": 77893
+      "sha256": "d054bdb88a11a906d5d1a7172f382ba13edfa7f890c2bcd97f3b375b9528b862",
+      "bytes": 78153
     },
     {
       "url": "./data/drug-index.json",
@@ -8433,8 +8433,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "af632133ff077979467c5ca0890e213d79f744ac9f0c4360b9f99268b15168e5",
-      "bytes": 1015762
+      "sha256": "81d9208877d0cc7b09f06c2a724c65899c1f906fbcd80d94ef72a69e03f08475",
+      "bytes": 1017510
     },
     {
       "url": "./js/changed-questions.js",
@@ -8478,8 +8478,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "62e39306cb88cae337e56974523ad2983ee1d12a32d13b7882282e6daa856593",
-      "bytes": 181876
+      "sha256": "4fb13f8be4c17ecbdca95b3b110e3e96702c491134c5de6096c9611fcde18605",
+      "bytes": 182025
     },
     {
       "url": "./js/memory-aids.js",
@@ -8513,7 +8513,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "163472c9eb6a0802dc09a7bdafbc7aefb587433ead86ff627214ab12d4cb8681",
+      "sha256": "7769b95d0bc5680ca58df1e1a8723af24f301ed736b19e506e87821032fb732d",
       "bytes": 9155
     },
     {
@@ -8528,8 +8528,8 @@
     },
     {
       "url": "./js/reading-companion.js",
-      "sha256": "7b0d083a04acc3b953619701bfbcd9a787caf64d79d812df5459728aff33f5e1",
-      "bytes": 11010
+      "sha256": "52ffd1b03ed01a89aadbcecc9932ecbbc38eaaea4b2546a985e316c155414267",
+      "bytes": 11137
     },
     {
       "url": "./js/stats.js",

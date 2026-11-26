@@ -302,6 +302,11 @@ def run_update(args):
         pg.locator("#markDone").click()
 
     def colour(label):
+        ink = "green" if label == "Underline" else label.lower()
+        dot = pg.locator(f'#penDots [data-ink="{ink}"]')
+        if dot.is_visible():
+            dot.click()
+            return
         button = pg.locator("#markColour")
         # v318 called the red style Underline. v319 spelled out its colour.
         names = {"underline", "red underline"} if label == "Underline" else {label.lower()}
@@ -370,6 +375,8 @@ def run_update(args):
             assert marks(CH)[uid]["colour"] == saved
             assert_style(painted(CH, uid), saved)
         assert pg.locator("#bookmark").get_attribute("aria-pressed") == "false"
+        if pg.locator("#penMore").is_visible():
+            pg.locator("#penMore summary").click()
         pg.locator("#bookmark").click()
         done()
         pg.wait_for_function(

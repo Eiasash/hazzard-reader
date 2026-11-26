@@ -1634,10 +1634,10 @@ window.HazzardAnswerHighlights = (() => {
     }
   }
   function regions(){if(!current||!bridge())return [];const source=canonicalRoot(current.q),out=[{region:'main'}];for(const optionIndex of new Set([...source.querySelectorAll('.mcq-option-explanation')].map(block=>Number(block.dataset.optionIndex))))out.push({region:'option',optionIndex});return out.map(r=>({...r,text:regionIndex(source,r.region,r.optionIndex)?.s||''}));}
-  function selection(){
+  function selection(range){
     if(!available()||!bridge())return null;
-    const selection=getSelection();if(!selection||selection.isCollapsed||selection.rangeCount!==1)return null;
-    const range=selection.getRangeAt(0);if(!current.root.contains(range.startContainer)||!current.root.contains(range.endContainer))return null;
+    if(!range){const sel=getSelection();if(!sel||sel.isCollapsed||sel.rangeCount!==1)return null;range=sel.getRangeAt(0);}
+    if(!current.root.contains(range.startContainer)||!current.root.contains(range.endContainer))return null;
     const parent=n=>n.nodeType===Node.ELEMENT_NODE?n:n.parentElement;
     const a=parent(range.startContainer).closest('.mcq-option-explanation'),b=parent(range.endContainer).closest('.mcq-option-explanation');
     if(a!==b)return null;
@@ -1733,11 +1733,11 @@ window.HazzardAnswerHighlights = (() => {
     return {questionId:current.q.id,region,...(block?{optionIndex}:{}),text:canonical.s.slice(start,end),prefix:canonical.s.slice(Math.max(0,start-48),start),suffix:canonical.s.slice(end,end+48)};
   }
   function tapClick(e){
-    const g=tapGesture;tapGesture=null;if(!available()||tapExcluded(e.target)||!getSelection()?.isCollapsed)return;
+    const g=tapGesture;tapGesture=null;if(!available()||bridge().penClickSuppressed()||tapExcluded(e.target)||!getSelection()?.isCollapsed)return;
     const highlighted=e.target.closest('[data-answer-highlight]');
     if(e.detail===0||!g?.ended||!g.valid)return;
     if(highlighted){
-      e.preventDefault();bridge().editMark('answer',highlighted.dataset.answerHighlight);return;
+      e.preventDefault();if(!bridge().answerMarking())bridge().editMark('answer',highlighted.dataset.answerHighlight);return;
     }
     if(!bridge().answerMarking())return;
     try{
@@ -1747,7 +1747,7 @@ window.HazzardAnswerHighlights = (() => {
         if(m.questionId!==mark.questionId||m.region!==mark.region||m.optionIndex!==mark.optionIndex)return false;
         const at=findAnchor(text,m);return at>=0&&at<end&&at+m.text.length>start;
       });
-      if(existing.length){bridge().editMark('answer',existing[0].id);return;}
+      if(existing.length)return;
       else{pending=mark;bridge().editMark('answer',null,mark);}
       e.preventDefault();dispatchEvent(new CustomEvent('hazzard-answer-highlight-tap',{detail:{removed:existing.length>0}}));
     }catch(error){dispatchEvent(new CustomEvent('hazzard-answer-highlight-error',{detail:error.message}));}
@@ -1796,5 +1796,6 @@ window.HazzardAnswerHighlights = (() => {
       write(current);
     };
   }
-  return {KEY,highlightColours,empty,valid,merge,read,items,edit,pending:()=>selection()||pending,setRemoved,notebookItems,attach,available,regions,selection,captureSelection,selectionState,saveSelection,removeSelected,resetSelection};
+  function nextPoint(){return 1+items().reduce((n,m)=>m.questionId===current?.q.id&&Number.isSafeInteger(m.number)?Math.max(n,m.number):n,0);}
+  return {nextPoint,KEY,highlightColours,empty,valid,merge,read,items,edit,pending:()=>selection()||pending,setRemoved,notebookItems,attach,available,regions,selection,captureSelection,selectionState,saveSelection,removeSelected,resetSelection};
 })();

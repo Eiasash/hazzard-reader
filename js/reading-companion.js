@@ -164,21 +164,21 @@ window.HazzardReadingCompanion = (() => {
     const toggle=document.createElement('button');
     toggle.id='toggleCompanion';toggle.type='button';
     toggle.setAttribute('aria-controls',pane.id);
-    document.body.append(toggle);
+    document.querySelector('[data-pane="contents"]').prepend(toggle);
     function setOpen(open){
       preference=String(open);
       try { localStorage.setItem(prefKey,preference); } catch {}
       preserveLayout(layout);
     }
-    toggle.onclick=()=>setOpen(pane.hidden);
+    toggle.onclick=()=>{setOpen(pane.hidden);if(panel.open)document.getElementById('closePanel').click();};
     function layout() {
       const params = new URLSearchParams(location.search);
       const available = !reader.hidden && !scroll.inert &&
         params.get('home') !== '1' && params.get('stats') !== '1' &&
         !document.body.classList.contains('statistics-open');
       const show=available&&(preference===null?desktop.matches:preference==='true');
-      toggle.hidden=!available||panel.open;
-      toggle.textContent=show?'Hide study pane':'Show study pane';
+      toggle.hidden=!available;
+      toggle.textContent=show?'Hide study notes and exam questions':'Show study notes and exam questions';
       toggle.setAttribute('aria-expanded',String(show));
       document.body.classList.toggle('with-reading-companion', show);
       document.body.classList.toggle('full-reading-pane', available&&!show);

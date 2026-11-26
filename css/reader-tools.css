@@ -96,16 +96,24 @@ body:has(#readerUpdateButton:not([hidden])) #jumpEnds{translate:0 calc(-1 * var(
 #markStart::before { margin-left:auto;border-radius:80% 0 65% 65%; }
 #markUndo { bottom:calc(var(--tabs-height) + 54px);left:50%;transform:translateX(-50%);white-space:nowrap;padding:2px 8px;background:var(--surface);border:1px solid var(--rule);border-radius:8px;font:13px var(--ui); }
 #markUndo button { min-height:32px; }
-[data-point]::before { content:attr(data-point);vertical-align:super;font:bold .7em var(--ui);color:var(--accent);margin-inline-end:.2em; }
+[data-point]::before { content:attr(data-point);display:inline-block;min-width:1.35em;padding-inline:.15em;box-sizing:border-box;text-align:center;border:1px solid currentColor;border-radius:1em;line-height:1.2;vertical-align:super;font-size:.72em;font-weight:bold;font-family:var(--ui);color:var(--accent);background:var(--surface);margin-inline:.16em; }
 
 body:has(#panel[open]) #markUndo { display:none; }
 
 #penDots { display:flex;align-items:center; }
 #markBar #penDots button { padding:2px;min-width:28px;min-height:44px; }
 #penDots [aria-pressed="true"],#penNumbers[aria-pressed="true"] { outline:2px solid var(--accent);outline-offset:-3px; }
-#markBar { flex-wrap:wrap;align-items:center; }
-#markBar #bookmark { font-size:0;white-space:nowrap;padding-inline:4px;min-width:58px; }
-#markBar #bookmark::after { content:"Bookmark";font:12px var(--ui); }
+#markBar,#markBar.answer-mark-bar { flex-wrap:nowrap;gap:2px; }
+#markBar #penNumbers { white-space:nowrap; }
+#penMore { position:relative;margin-inline-start:auto; }
+#penMore summary { cursor:pointer;list-style:none;display:grid;place-items:center;min-width:32px;min-height:44px; }
+#penMore summary::-webkit-details-marker { display:none; }
+#markBar #bookmark { position:absolute;bottom:100%;right:0;white-space:nowrap;background:var(--surface);border:1px solid var(--rule); }
+@media(max-width:450px){
+  #markBar button { min-width:28px;padding-inline:4px; }
+  #markBar #penDots button { min-width:clamp(24px,8vw,36px);padding-inline:2px; }
+}
 #markUndo { left:auto;right:4px;transform:none;bottom:calc(var(--tabs-height) + 4px); }
-.marking #copy { touch-action:pinch-zoom; }
-.marking #copy span[data-unit] {user-select:none;-webkit-user-select:none; }
+.marking :is(#copy,.mcq-explanation) { touch-action:pinch-zoom; }
+.marking :is(#copy,.mcq-explanation),.marking :is(#copy,.mcq-explanation) * { user-select:none;-webkit-user-select:none;-webkit-touch-callout:none; }
+::highlight(pen-preview) { background:var(--current-mark,var(--hl-yellow));text-decoration:underline; }

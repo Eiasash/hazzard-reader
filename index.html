@@ -5443,7 +5443,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v322 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v323 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5454,7 +5454,7 @@ const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
 $('#readerViewport').append(findBar);
 const markBar=document.createElement('div');markBar.id='markBar';markBar.hidden=true;
-markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight. Tap a mark to adjust it.</p><button id="bookmark" aria-pressed="false">Bookmark this spot</button><button id="markSelection" hidden>Highlight selection</button><button id="markRemove" hidden>Remove highlight</button><div id="penDots"></div><button id="penNumbers" aria-pressed="false">Number points</button><button id="penUndo" disabled>Undo</button><button id="markColour" hidden><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button>';
+markBar.innerHTML='<p id="markHint" hidden>Tap a sentence to highlight. Tap a mark to adjust it.</p><button id="markSelection" hidden>Highlight selection</button><button id="markRemove" hidden>Remove highlight</button><div id="penDots"></div><button id="penNumbers" aria-pressed="false">Number points</button><button id="penUndo" disabled>Undo</button><button id="markColour" hidden><span id="markColourLabel">Colour</span> <span class="swatch" aria-hidden="true"></span></button><button id="markDone">Done</button><details id="penMore"><summary aria-label="More pen options" title="More pen options">⋯</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button></details>';
 document.body.append(markBar);
 new ResizeObserver(()=>{if(!markBar.hidden)document.documentElement.style.setProperty('--answer-mark-bar-height',markBar.getBoundingClientRect().height+'px');}).observe(markBar);
 const examBar=document.createElement('div');examBar.id='examBar';examBar.hidden=true;
@@ -5957,7 +5957,9 @@ document.addEventListener('pointerup',()=>{cancelClaimHold();suppressPressClick=
 document.addEventListener('pointercancel',()=>{cancelClaimHold();pressStart=null;suppressPressClick=true},true);
 window.addEventListener('blur',cancelClaimHold);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelClaimHold()});
-document.addEventListener('contextmenu',e=>{suppressPressClick=true;const node=heldClaim(e.target);if(node){e.preventDefault();cancelClaimHold();showClaimProvenance(node)}},true);
+document.addEventListener('contextmenu',e=>{
+  if(marking&&e.target.closest('#copy,.mcq-explanation')){e.preventDefault();cancelClaimHold();return;}
+  suppressPressClick=true;const node=heldClaim(e.target);if(node){e.preventDefault();cancelClaimHold();showClaimProvenance(node)}},true);
 document.addEventListener('click',e=>{if(suppressPressClick&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();suppressPressClick=false}},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
@@ -6063,7 +6065,7 @@ panel.addEventListener('click',e=>{if(e.target!==panel)return;const box=panel.ge
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(marking)setMarking(false)}});
 function setMarking(on){
-  if(marking===on)return;if(!on){closeMark();undoBox.hidden=true;}marking=on;gesture=null;document.body.classList.toggle('marking',on);
+  if(marking===on)return;$('#penMore').open=false;if(!on){closeMark();undoBox.hidden=true;}marking=on;gesture=null;document.body.classList.toggle('marking',on);
   syncMarkingUI();if(on){if(!HazzardAnswerHighlights.available())getSelection()?.removeAllRanges();syncBookmark()}else HazzardAnswerHighlights.resetSelection();
   const action=on?'addEventListener':'removeEventListener';
   copy[action]('pointerdown',markDown);copy[action]('pointermove',markMove);copy[action]('pointerup',markUp);copy[action]('pointercancel',markCancel);copy[action]('keydown',markKey);
@@ -6090,8 +6092,9 @@ function syncMarkingUI(){
   $('#markColourLabel').textContent=underline?'Underline':'Colour';
   pencil.classList.toggle('is-marking',marking);pencil.setAttribute('aria-pressed',String(marking));pencil.title=marking?'Turn marking off':'Turn marking on';pencil.setAttribute('aria-label','Highlight: '+(marking?'On':'Off'));if(marking){chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false}
   const answer=HazzardAnswerHighlights.available(),questionView=!!mcq?.active||['bank','mock'].includes(String(copy.dataset.chapterId||'')),selection=HazzardAnswerHighlights.selectionState();
+  if(answer)pointLabel(HazzardAnswerHighlights.nextPoint());
   if(questionView)pencil.hidden=currentView!=='reader'||!answer;
-  $('#bookmark').hidden=answer||!!selectedBookRange;$('#markSelection').hidden=marking||(!answer&&!selectedBookRange);$('#markSelection').disabled=!selection.canSave&&!selectedBookRange;
+  $('#penMore').hidden=answer||!marking;$('#markSelection').hidden=marking||(!answer&&!selectedBookRange);$('#markSelection').disabled=!selection.canSave&&!selectedBookRange;
   $('#markRemove').hidden=true;$('#markHint').hidden=true;markBar.classList.toggle('answer-mark-bar',answer);
   $('#markingIndicator').hidden=!marking;markBar.hidden=(!marking&&!selectedBookRange)||currentView!=='reader'||panel.open||questionView&&!answer;document.body.classList.toggle('mark-bar-open',!markBar.hidden);document.body.classList.toggle('answer-mark-bar-open',!markBar.hidden&&answer);$('#markColour').setAttribute('aria-label','Highlight colour: '+colourLabel(colour)+'. Tap for next colour');
 }
@@ -6123,7 +6126,7 @@ copy.addEventListener('click',e=>{
   if(panel.open||!getSelection().isCollapsed||e.target.closest('a,button,input,textarea,summary,[data-reader-metadata]'))return;
   if(marking&&e.detail&&(!g?.ended||!g.valid))return;
   const range=e.target.closest('.hl-range'),unit=unitAt(e);
-  if(range||unit?.marked){e.preventDefault();editMark(range?'ranges':'marks',range?.dataset.range||unit.id);return;}
+  if(range||unit?.marked){e.preventDefault();if(!marking)editMark(range?'ranges':'marks',range?.dataset.range||unit.id);return;}
   if(!marking||!unit)return;
   e.preventDefault();
   const cell=e.target.closest('td,th');
@@ -6218,6 +6221,7 @@ function restoreHighlights(){
       const node=kind==='marks'?unitMap.get(id)?.parts.find(n=>n.textContent.trim()):rangeMarks.get(id)?.spans[0];
       if(node)node.dataset.point=mark.number;
     }
+    if(!HazzardAnswerHighlights.available())pointLabel(nextBookPoint(saved));
     if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
@@ -6616,7 +6620,7 @@ function wrapIndexRange(ix,start,end,id,colour){
     const sp=document.createElement('span');sp.className='hl-range';sp.dataset.range=id;sp.dataset.marked=colour;sp.style.setProperty('--mark-colour','var(--hl-'+colour+')');t.replaceWith(sp);sp.append(t);spans.push(sp);k=j+1}
   return spans;
 }
-window.HazzardHighlighter={editMark,textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader'};
+window.HazzardHighlighter={penClickSuppressed:()=>performance.now()<suppressTap,editMark,textIndex,wrapIndexRange,sentences,answerMarking:()=>marking&&!panel.open&&currentView==='reader'};
 function placeRange(id,m){
   const ix=m.bookText?bookTextIndex():textIndex(),prefix=m.prefix||'',suffix=m.suffix||'';
   let best=-1,length=m.text.length,bestScore=-1,ambiguous=false;
@@ -6697,6 +6701,14 @@ try{numbering=localStorage.getItem(numberingKey)==='1';}catch{}
 function bookItems(saved){
   return ['marks','ranges'].flatMap(kind=>Object.entries(saved[kind]||{}).map(([id,mark])=>({kind,id,mark})));
 }
+function nextBookPoint(saved){
+  return 1+[...bookItems(saved).map(i=>i.mark),...(saved.history||[])].reduce((max,m)=>Number.isSafeInteger(m.number)?Math.max(max,m.number):max,0);
+}
+function pointLabel(next){
+  const button=$('#penNumbers');
+  button.textContent='Next '+next;button.title='Number points · next '+next;
+  button.setAttribute('aria-label',button.title);
+}
 function renumber(saved,kind,id,number){
   const list=bookItems(saved).filter(i=>i.mark.number&&(i.kind!==kind||i.id!==id)).sort((a,b)=>a.mark.number-b.mark.number||a.mark.at-b.mark.at||a.id.localeCompare(b.id));
   if(number)list.splice(Math.min(number-1,list.length),0,{mark:saved[kind][id]});
@@ -6722,7 +6734,7 @@ function persistBook(before,saved){
     writeHighlights(current);resyncHighlights();
   });
 }
-function closeMark(){activeMark=null;drag=null;armedGrip=null;editor.hidden=gripStart.hidden=gripEnd.hidden=true;noteField.hidden=numberField.hidden=true;}
+function closeMark(){previewPen(null);activeMark=null;drag=null;armedGrip=null;editor.hidden=gripStart.hidden=gripEnd.hidden=true;noteField.hidden=numberField.hidden=true;}
 function markNodes(){
   if(!activeMark)return [];
   const {kind,id}=activeMark;
@@ -6761,11 +6773,12 @@ function showMark(kind,id,mark){
 function editMark(kind,id,quote){
   try{
     const records=kind==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[kind];
-    if(!id&&kind==='ranges'&&quote)id=Object.keys(records||{}).find(k=>HazzardStorage.removals.rangeSignature(records[k])===HazzardStorage.removals.rangeSignature(quote));
+    if(!id&&kind==='ranges'&&quote&&Object.values(records||{}).some(m=>HazzardStorage.removals.rangeSignature(m)===HazzardStorage.removals.rangeSignature(quote)))return;
     if(!id&&kind==='marks')return;
     if(!id&&quote){
       if(kind==='answer'){
-        id=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:1+HazzardAnswerHighlights.items().filter(m=>m.questionId===quote.questionId).reduce((n,m)=>Math.max(n,m.number||0),0)}:quote);if(!id)return;
+        if(HazzardAnswerHighlights.items().some(m=>m.questionId===quote.questionId&&m.region===quote.region&&m.optionIndex===quote.optionIndex&&HazzardStorage.removals.rangeSignature(m)===HazzardStorage.removals.rangeSignature(quote)))return;
+        id=HazzardAnswerHighlights.saveSelection(colour,numbering?{...quote,number:HazzardAnswerHighlights.nextPoint()}:quote);if(!id)return;
         const added=HazzardAnswerHighlights.read().items[id];offerUndo(()=>HazzardAnswerHighlights.edit(id,null,added));closeMark();return;
       }
       return createBook(kind,'r'+crypto.randomUUID(),quote);
@@ -6777,7 +6790,7 @@ function createBook(kind,id,quote){
   try{
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey))throw Error('Restore your chapter highlights before editing.');
     const saved=readHighlights(),before=structuredClone(saved),record={...quote,colour,at:Date.now()};
-    if(numbering)record.number=1+bookItems(saved).reduce((n,i)=>Math.max(n,i.mark.number||0),0);
+    if(numbering)record.number=nextBookPoint(saved);
     (saved[kind]||={})[id]=record;persistBook(before,saved);getSelection()?.removeAllRanges();closeMark();
   }catch(e){flash(e.message,6000);}
 }
@@ -6836,15 +6849,15 @@ for(const [handle,start] of [[gripStart,true],[gripEnd,false]]){
   }
   function applyExtent(range){
     if(!range)return;
-    const sel=getSelection();sel.removeAllRanges();sel.addRange(range);
-    const fields=activeMark.kind==='answer'?HazzardAnswerHighlights.selection():bookQuote(range);
-    sel.removeAllRanges();if(fields)modifyMark(fields,true);
+    previewPen(null);
+    const fields=activeMark.kind==='answer'?HazzardAnswerHighlights.selection(range):bookQuote(range);
+    if(fields)modifyMark(fields,true);
   }
   handle.onpointerdown=e=>{const range=markRange();if(!range)return;e.preventDefault();handle.setPointerCapture(e.pointerId);drag={range,changed:false};};
   handle.onpointermove=e=>{
     if(!drag)return;
     const next=adjust(drag.range,caretWord(e.clientX,e.clientY-5));if(!next)return;
-    drag={range:next,changed:true};const sel=getSelection();sel.removeAllRanges();sel.addRange(next);positionMark(next);
+    drag={range:next,changed:true};previewPen(next);positionMark(next);
   };
   handle.onpointerup=()=>{if(!drag)return;const {range,changed}=drag;drag=null;
     if(changed)applyExtent(range);else {armedGrip=(word)=>applyExtent(adjust(range,word));flash('Tap the new '+(start?'first':'last')+' word.',2500);}
@@ -6857,45 +6870,57 @@ for(const [handle,start] of [[gripStart,true],[gripEnd,false]]){
     sel.modify('move',e.key==='ArrowLeft'?'backward':'forward','word');
     const next=adjust(range,sel.getRangeAt(0));sel.removeAllRanges();applyExtent(next);
   };
-  handle.onpointercancel=()=>{drag=null;getSelection()?.removeAllRanges();positionMark();};
+  handle.onpointercancel=()=>{drag=null;previewPen(null);positionMark();};
+}
+function previewPen(range){
+  if(!CSS.highlights)return;
+  if(range)CSS.highlights.set('pen-preview',new Highlight(range));else CSS.highlights.delete('pen-preview');
 }
 let penStroke=null;
-copy.addEventListener('pointerdown',e=>{
-  if(e.button!==0||!e.isPrimary||e.target.closest('a,button,summary,[data-reader-metadata]'))return;
-  suppressTap=0;const word=caretWord(e.clientX,e.clientY);
-  if(!word||!copy.contains(word.commonAncestorContainer))return;
-  holdPoint=[e.clientX,e.clientY];clearTimeout(holdTimer);
-  penStroke={id:e.pointerId,word,range:word,selecting:false,scroll:readerScroll.scrollTop,panning:false};
-  holdTimer=setTimeout(()=>{if(!penStroke)return;cancelClaimHold();penStroke.selecting=true;const sel=getSelection();sel.removeAllRanges();sel.addRange(word);},450);
+document.addEventListener('pointerdown',e=>{
+  const root=e.target.closest('#copy,.mcq-explanation');
+  if(!root||(!marking&&root!==copy)||e.button!==0||!e.isPrimary||e.target.closest('a,button,summary,[data-reader-metadata]'))return;
+  const word=caretWord(e.clientX,e.clientY);
+  if(!word||!root.contains(word.commonAncestorContainer))return;
+  const marked=e.target.closest('[data-range],[data-answer-highlight],[data-marked]');
+  const id=marked?.dataset.answerHighlight||marked?.dataset.range||marked?.dataset.unit;
+  const existing=id&&[root!==copy?'answer':marked.dataset.range?'ranges':'marks',id];
+  suppressTap=0;holdPoint=[e.clientX,e.clientY];clearTimeout(holdTimer);
+  const scroller=root===copy?readerScroll:root.closest('#mcqViewport');
+  penStroke={id:e.pointerId,root,scroller,word,range:word,existing,selecting:false,moved:false,scroll:scroller.scrollTop,panning:false};
+  if(marking){e.preventDefault();e.target.setPointerCapture(e.pointerId);}
+  holdTimer=setTimeout(()=>{if(!penStroke)return;cancelClaimHold();penStroke.selecting=true;previewPen(word);},450);
 });
-copy.addEventListener('pointermove',e=>{
+document.addEventListener('pointermove',e=>{
   const stroke=penStroke;if(!stroke||e.pointerId!==stroke.id)return;
   const dx=e.clientX-holdPoint[0],dy=e.clientY-holdPoint[1];
-  if(!stroke.selecting&&Math.hypot(dx,dy)<8)return;
-  clearTimeout(holdTimer);
+  if(!stroke.moved&&Math.hypot(dx,dy)<8)return;
+  stroke.moved=true;clearTimeout(holdTimer);
   if(!marking&&!stroke.selecting){penStroke=null;return;}
   if(!stroke.selecting&&e.pointerType==='touch'&&Math.abs(dy)>Math.abs(dx))stroke.panning=true;
-  if(stroke.panning){readerScroll.scrollTop=stroke.scroll-dy;return;}
-  const word=caretWord(e.clientX,e.clientY);if(!word||!copy.contains(word.commonAncestorContainer))return;
+  if(stroke.panning){stroke.scroller.scrollTop=stroke.scroll-dy;return;}
+  const word=caretWord(e.clientX,e.clientY);if(!word||!stroke.root.contains(word.commonAncestorContainer))return;
   stroke.selecting=true;const range=stroke.word.cloneRange();
   if(word.compareBoundaryPoints(Range.START_TO_START,range)<0)range.setStart(word.startContainer,word.startOffset);
   else range.setEnd(word.endContainer,word.endOffset);
-  stroke.range=range;const sel=getSelection();sel.removeAllRanges();sel.addRange(range);
+  stroke.range=range;previewPen(range);
 });
 function endPenStroke(e){
-  clearTimeout(holdTimer);const stroke=penStroke;penStroke=null;holdPoint=null;
-  if(!stroke||stroke.id!==e.pointerId||(!stroke.selecting&&!stroke.panning))return;
+  const stroke=penStroke;if(!stroke||stroke.id!==e.pointerId)return;
+  clearTimeout(holdTimer);penStroke=null;holdPoint=null;previewPen(null);
+  if(!stroke.selecting&&!stroke.panning)return;
   suppressTap=performance.now()+700;
-  const quote=e.type==='pointerup'&&stroke.selecting&&bookQuote(stroke.range);
-  getSelection()?.removeAllRanges();
-  if(quote)editMark('ranges',null,quote);
+  if(e.type!=='pointerup'||!stroke.selecting)return;
+  if(marking&&stroke.existing&&!stroke.moved){editMark(...stroke.existing);return;}
+  const book=stroke.root===copy,quote=book?bookQuote(stroke.range):HazzardAnswerHighlights.selection(stroke.range);
+  if(quote)editMark(book?'ranges':'answer',null,quote);
 }
 document.addEventListener('pointerup',endPenStroke,true);document.addEventListener('pointercancel',endPenStroke,true);
 document.addEventListener('pointerdown',e=>{
   if(armedGrip&&e.target.closest('#copy,.mcq-explanation')){
     const apply=armedGrip;armedGrip=null;apply(caretWord(e.clientX,e.clientY));suppressTap=performance.now()+500;e.preventDefault();e.stopImmediatePropagation();return;
   }
-  armedGrip=null;if(activeMark&&!e.target.closest('#highlightEditor,.mark-grip,#markUndo,[data-marked]')){if(document.activeElement===numberField)numberField.blur();closeMark();}},true);
+  armedGrip=null;if(activeMark&&!e.target.closest('#highlightEditor,.mark-grip,#markUndo')){if(document.activeElement===numberField)numberField.blur();closeMark();}},true);
 document.addEventListener('keydown',e=>{if(activeMark&&e.key==='Escape'){closeMark();e.stopImmediatePropagation();}},true);
 document.addEventListener('scroll',()=>{if(activeMark&&!drag)positionMark();},true);
 addEventListener('resize',()=>{if(activeMark)positionMark();});
@@ -6907,7 +6932,7 @@ document.addEventListener('selectionchange',()=>{
 });
 function finishSelection(){
   const sel=getSelection();
-  if(drag||!editor.hidden||panel.open||!sel?.rangeCount||sel.isCollapsed)return;
+  if(marking||drag||!editor.hidden||panel.open||!sel?.rangeCount||sel.isCollapsed)return;
   const range=sel.getRangeAt(0);
   if(copy.contains(range.commonAncestorContainer)){const quote=bookQuote(range);if(quote)editMark('ranges',null,quote);}
   else if(HazzardAnswerHighlights.available()){const quote=HazzardAnswerHighlights.selection();if(quote)editMark('answer',null,quote);}
@@ -7071,7 +7096,8 @@ function savePlaceNow(){
   if(writeJSON(BOOKMARK_KEY,next)){showSaved(existing?'✓ Removed':'✓ Saved');syncBookmark()}
   else flash('This bookmark change could not be saved. Storage may be full or unavailable.',6000);
 }
-$('#bookmark').onclick=savePlaceNow;
+$('#bookmark').onclick=()=>{savePlaceNow();$('#penMore').open=false;};
+document.addEventListener('pointerdown',e=>{if(!e.target.closest('#penMore'))$('#penMore').open=false;});
 // Refresh open saved places after another tab or a restored page changes storage.
 function refreshSavedPlaces(){if(panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();syncBookmark();refreshResume()}
 addEventListener('storage',e=>{if(e.key===BOOKMARK_KEY||e.key===null)refreshSavedPlaces()});

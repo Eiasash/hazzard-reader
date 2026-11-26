@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v323",
+      "date": "2026-11-26",
+      "changes": [
+        "Pen gestures draw directly on the text. The one-row pen bar previews the next point number, with Bookmark under More. The study pane control is in Sections."
+      ]
+    },
+    {
       "version": "v322",
       "date": "2026-11-26",
       "changes": [
