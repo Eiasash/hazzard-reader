@@ -91,6 +91,10 @@ Many of the screening tests listed have normative values and have been well vali
 
 In addition to the history and physical examination, an evaluation should include assessments of cognition, motivation, depression, social support, and financial resources, as these factors can have a significant impact on rehabilitation outcomes. A variety of validated assessment tools can be used to screen for cognition and depression, such as the Montreal Cognitive Assessment (MoCA) and the Geriatric Depression Scale, respectively. Assessment of current methods utilized by the patient for coping with disability, including use of ambulatory or assistive devices, level of assistance needed, and any limitation of activities, should also be explored.
 
+<span id="ch55-fim-safety" data-reader-metadata="exam"></span>
+
+**Reading a FIM profile.** In the December 2021 Q56 exam table, transfers, walking and stairs rose from level 3 to level 6 (modified independence). Problem-solving remained at level 2 and memory rose only to level 3. The patient could do more physically while still needing supervision for safety and help with several self-care tasks. Assess the individual items when planning discharge. The historical question cites the FIM article. [Original exam table and choices](?chapter=bank&q=mcq-d77dd3b1ab1dbb492058f5df)
+
 ### Determining Rehabilitation Potential
 
 <span data-practice-ids="mcq-93ed9b58f5e9451decd9ae85" data-reader-metadata="exam"></span>

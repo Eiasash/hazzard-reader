@@ -46,9 +46,17 @@ window.HazzardStats=(()=>{
     const percent=total?Math.round(100*value/total):0;
     return '<figure class="stats-donut'+(small?' stats-donut-small':'')+'"><svg viewBox="0 0 100 100" role="img" aria-label="'+esc(label+': '+value+' of '+total+'; '+(legend||(total-value)+' not yet answered'))+'"><circle class="stats-ring" cx="50" cy="50" r="40"/><circle class="stats-arc" cx="50" cy="50" r="40" pathLength="100" stroke-dasharray="'+percent+' 100" transform="rotate(-90 50 50)"/><text x="50" y="51" text-anchor="middle" dominant-baseline="middle">'+(total?percent+'%':'\u2014')+'</text></svg>'+(small?'':'<figcaption><strong>'+esc(label)+'</strong><span>'+(legendHTML||esc(legend))+'</span></figcaption>')+'</figure>';
   }
-  function overview(m){if(!m.ready)return '<p>unavailable - Answers, Review, Bad flags or Practice settings could not be read.</p>';const official=m.questions.filter(q=>q.kind==='past'&&q.t.endsWith('-Subspec')),practice=m.measure(m.questions.filter(q=>q.kind!=='past'&&!M().excluded(q.id))),r=m.measure(official);
+  const officialQuestions=m=>m.questions.filter(q=>q.kind==='past'&&q.t.endsWith('-Subspec'));
+  async function officialMissedIds(){
+    const m=model(await files());
+    if(!m.ready)throw Error('The official accuracy record is unavailable.');
+    return officialQuestions(m).filter(q=>m.answered(q)&&!m.clean(q)).map(q=>q.id);
+  }
+  function overview(m){if(!m.ready)return '<p>unavailable - Answers, Review, Bad flags or Practice settings could not be read.</p>';const official=officialQuestions(m),practice=m.measure(m.questions.filter(q=>q.kind!=='past'&&!M().excluded(q.id))),r=m.measure(official);
+    const missed=r.answered-r.clean;
+    const missedLink=missed?'<a href="?chapter=bank&amp;statsFilter=official-misses#missed">'+missed+' missed</a>':'0 missed';
     const editions=[['8e',q=>+q.t.slice(0,4)>=2023],['7e',q=>+q.t.slice(0,4)<=2022]];
-    return '<div class="stats-donuts">'+donut(r.answered,800,'Official progress',r.answered+' answered \u00b7 '+(800-r.answered)+' left')+donut(r.clean,r.answered,'Official accuracy',r.clean+' clean \u00b7 '+(r.answered-r.clean)+' missed',false,r.clean+' clean \u00b7 <a href="?chapter=bank&amp;statsFilter=past#missed">'+(r.answered-r.clean)+' missed</a>')+'</div><p class="meta stats-split">'+editions.map(([label,test])=>{const e=m.measure(official.filter(test));return label+': '+e.answered+' answered'+(e.answered?', '+Math.round(e.rate*100)+'%':'');}).join(' \u00b7 ')+'</p><p class="meta">Practice: '+practice.answered+' answered'+(practice.answered?', '+Math.round(100*practice.rate)+'% clean':'')+'</p><p class="meta">'+m.questions.filter(q=>m.s.review.value[q.id]?.unsure).length+' Unsure \u00b7 '+m.questions.filter(q=>m.answered(q)&&m.s.answers.value[q.id].at>=Date.now()-7*86400000).length+' answered in the last 7 days</p>';
+    return '<div class="stats-donuts">'+donut(r.answered,800,'Official subspecialty progress',r.answered+' answered \u00b7 '+(800-r.answered)+' left')+donut(r.clean,r.answered,'Official subspecialty accuracy',r.clean+' clean \u00b7 '+(r.answered-r.clean)+' missed',false,r.clean+' clean \u00b7 '+missedLink)+'</div><p class="meta stats-split">'+editions.map(([label,test])=>{const e=m.measure(official.filter(test));return label+': '+e.answered+' answered'+(e.answered?', '+Math.round(e.rate*100)+'%':'');}).join(' \u00b7 ')+'</p><p class="meta">Practice: '+practice.answered+' answered'+(practice.answered?', '+Math.round(100*practice.rate)+'% clean':'')+'</p><p class="meta">'+m.questions.filter(q=>m.s.review.value[q.id]?.unsure).length+' Unsure \u00b7 '+m.questions.filter(q=>m.answered(q)&&m.s.answers.value[q.id].at>=Date.now()-7*86400000).length+' answered in the last 7 days</p>';
   }
   function topicRows(data,m){if(!m.ready)return {weak:'<p>unavailable</p>',untested:'<p>unavailable</p>',all:'<p>unavailable</p>'};const official=m.questions.filter(q=>q.kind==='past'),rows=[];
     for(const[id,name]of Object.entries(data.topics)){const list=official.filter(q=>M().membership(q).map(String).includes(id));rows.push({id,name,...m.measure(list)});}
@@ -108,5 +116,5 @@ window.HazzardStats=(()=>{
   }
   async function chapter(chapter,evidence){try{const data=await files(),m=model(data);if(!m.ready)return 'record unavailable';const ids=new Set(HazzardEvidence.studyIds(evidence,String(chapter)).map(M().currentId));return count(m.measure(m.questions.filter(q=>q.kind==='past'&&ids.has(q.id))));}catch{return 'record unavailable';}}
   addEventListener('hazzard-saved-change',()=>{const host=document.getElementById('statsViewport');if(!active||!host)return;try{const saved=M().readSaved();for(const b of host.querySelectorAll('[data-revision="topics"]')){const on=!!saved.topics[b.dataset.revisionIds]?.saved;b.textContent=on?'\u2605':'\u2606';b.setAttribute('aria-label',on?'Topic saved':'Save topic');b.title=on?'Topic saved':'Save topic';b.setAttribute('aria-pressed',String(on));}}catch{}});
-  return {get active(){return active;},open,chapter,files,snapshot,model,week};
+  return {get active(){return active;},open,chapter,files,snapshot,model,officialMissedIds,week};
 })();

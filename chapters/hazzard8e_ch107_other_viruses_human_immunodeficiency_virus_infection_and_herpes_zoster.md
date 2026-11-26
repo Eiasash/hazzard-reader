@@ -278,7 +278,7 @@ era of polypharmacy. J Int AIDS Soc. 2020;23(2):e25449. CD4+ Count-Guided Interr
 
 ment. N Engl J Med. 2006;355(22):2283–2296. Centers for Disease Control and Prevention. HIV and
 
-Older Americans. Available at: [https://www.cdc.gov/](<https://www.cdc.gov/hiv/data-research/facts-stats/older-americans.html>) hiv/group/age/olderamericans/index.html. Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
+Older Americans. Available at: [https://www.cdc.gov/](<https://stacks.cdc.gov/view/cdc/149188>) hiv/group/age/olderamericans/index.html. Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
 
 HIV AIDS. 2014;9(4):294–301. Deeks SG. HIV infection, inflammation, immunosenes-
 

@@ -77,7 +77,7 @@ For June 2026 Q55, **measure blood pressure before starting duloxetine and perio
 
 **Carbamazepine and oxcarbazepine** can relieve trigeminal neuralgia. Check sodium for hyponatremia and assess sedation and gait. The chapter also discusses blood count, drug levels and liver and renal tests when initiating these agents. Gabapentin titration does not require routine serum levels. HLA-B*15:02 is associated with SJS/TEN with either sodium-channel blocker and is more frequent in several East, Southeast and South Asian populations. HLA-A*31:01 is associated with a wider range of carbamazepine reactions across several ancestries. Carbamazepine induces CYP enzymes and may lower warfarin exposure. With lithium, combined neurotoxicity is the concern. Review interacting medicines before initiation (p1065). [CPIC guideline, Tables 2–3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5847474/).
 
-Topical lidocaine decreases local sodium-dependent nerve conduction. Capsaicin activates TRPV1 and can initially burn before the painful area becomes less sensitive. Muscle relaxants may cause sedation, anticholinergic effects or falls. Benzodiazepines add respiratory risk with opioids. Daily use for more than 30 days can cause physical dependence, so reduce gradually if stopping. The chapter describes prescription-monitoring systems that report benzodiazepine exposure as lorazepam milligram equivalents (p1064–1065).
+Topical lidocaine decreases local sodium-dependent nerve conduction. Capsaicin activates TRPV1 and can initially burn before the painful area becomes less sensitive. Muscle relaxants may cause sedation, anticholinergic effects or falls. Benzodiazepines add respiratory risk with opioids. Physical dependence can develop within days to weeks of regular use, even at prescribed doses. When dependence is likely, taper gradually and adjust the pace to withdrawal symptoms ([FDA boxed warning on benzodiazepines](https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class)). The chapter describes prescription-monitoring systems that report benzodiazepine exposure as lorazepam milligram equivalents (p1064–1065).
 
 ## Goals of care when advanced dementia limits eating
 
@@ -154,7 +154,7 @@ Page 1067 states knee OA is twice as prevalent in men. In the Framingham cohort 
 - Carbamazepine and oxcarbazepine are sodium-channel blockers used for selected neuropathic pain syndromes. **HLA-B*15:02** increases the risk of SJS/TEN with either drug and is more frequent in several East, Southeast and South Asian populations. **HLA-A*31:01** is associated with a broader range of carbamazepine reactions in several ancestries. Carbamazepine induces CYP enzymes and can reduce warfarin exposure. Combined lithium and carbamazepine can cause neurotoxicity (p1065, CPIC).
 - Table 68-8: gabapentinoids (gabapentin, pregabalin) are contraindicated in renal impairment and should be avoided with concurrent opioid use; carbamazepine/oxcarbazepine carry a hyponatremia risk — monitor Na+ and drug levels (Table 68-8, p1063–1064)
   > Current practice (not the book): renal impairment is not a labelled contraindication for gabapentin or pregabalin; both need renal dose reduction (incl. CrCl <15 and post-haemodialysis supplemental doses) — FDA/DailyMed gabapentin and Pfizer Lyrica labels.
-- Benzodiazepines (eg clonazepam) for neuropathic pain: daily use **>30 days** risks physiologic dependence — taper, don't stop abruptly; tracked as lorazepam milligram equivalents (LMEs) in PDMPs (p1065)
+- Regular benzodiazepine use can cause physical dependence within days to weeks. The book highlights daily use beyond 30 days. When stopping a drug such as clonazepam in a physically dependent patient, taper gradually. Some prescription monitoring programs track lorazepam milligram equivalents (p1065, FDA boxed warning).
 
 **Interventional & nonpharmacologic treatment**
 - Lumbar epidural steroid injection (ESI): short-term relief (weeks to months); contraindications include coagulopathy, current anticoagulation, infection, uncontrolled diabetes, and immunosuppression (p1065)
@@ -206,11 +206,11 @@ HLA-B*15:02 is linked to carbamazepine- and oxcarbazepine-associated SJS/TEN. HL
 
 </details>
 
-**10. After how many days of daily benzodiazepine use can older adults develop physiologic dependence, and how should the drug be stopped?**
+**10. How soon can regular benzodiazepine use cause physical dependence, and how should the drug be stopped if dependence is likely?**
 
 <details><summary>Answer</summary>
 
-More than 30 days of daily use; the drug should be gradually tapered rather than stopped abruptly, to avoid withdrawal (p1065).
+Physical dependence can begin within days to weeks. Page 1065 highlights risk after 30 days of daily treatment. Individualize a gradual taper when dependence is likely because abrupt withdrawal can cause seizures (FDA boxed warning).
 
 </details>
 

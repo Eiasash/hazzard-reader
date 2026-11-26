@@ -13,7 +13,7 @@ Study summary of Chapter 61 — Parkinson Disease and Related Disorders; the boo
 - Hallucinations from dopamine therapy versus depression accompanying the disease [June 2026 Q75](?chapter=61#exam-mcq-c422e711b9b76e815a130a7a), [May 2024 Q95](?chapter=61#exam-mcq-d1250479506c48ee2bf3b920), [December 2021 Q31](?chapter=61#asked-chapter).
 - Nonmotor constipation and dream enactment during REM sleep [June 2022 Q17](?chapter=61#asked-chapter), [September 2024 Q81](?chapter=61#exam-mcq-dac49a0a832949e5496bfde8).
 - Selecting patients for deep brain stimulation [June 2025 Q82](?chapter=61#exam-mcq-7c399ddd1ed048f9ccb52dbf), [December 2021 Q4](?chapter=61#asked-chapter).
-- Presyncope and a dementia drug: the Basic-track reference names Chapter 59 but prints Parkinson treatment pages [June 2026 Basic Q102](?chapter=61#p945).
+- Presyncope and a dementia drug: the Basic-track reference names Chapter 59 but prints Parkinson treatment pages [June 2026 Basic Q102](?chapter=59#exam-mcq-987cf6b109f3fe9f8d976b83).
 
 ## Reading the movement examination
 

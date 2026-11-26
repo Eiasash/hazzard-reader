@@ -76,6 +76,15 @@ window.HazzardEvidence = (() => {
     data ||= await references();
     const wanted=new Map();
     for(const [id,entry] of Object.entries(data.questions)){
+      for(const p of entry.pages){
+        if(p.chapter!==chapter||!p.printedAnchorAlias||copy.querySelector('[id="'+p.printedAnchorAlias+'"]'))continue;
+        const page=copy.querySelector('[id="p'+p.page+'"]');
+        if(page){
+          // Old shared links to a reclassified passage still open its published page.
+          const alias=document.createElement('span');alias.id=p.printedAnchorAlias;
+          alias.dataset.readerMetadata='exam';page.after(alias);
+        }
+      }
       for(const p of [...entry.pages,...(entry.supportPages||[])])if(String(p.chapter)===chapter&&p.passage&&p.anchor){
         // The full reader and the preview can wrap a printed-page break on
         // either side of the corresponding words. The exact quote determines
@@ -89,10 +98,39 @@ window.HazzardEvidence = (() => {
       }
     }
     if(!wanted.size)return;
+    function place(p,node,boundary){
+      if(copy.querySelector('[id="'+p.anchor+'"]'))return;
+      const marker=document.createElement('span');
+      marker.id=p.anchor;
+      marker.className='exam-passage-target';
+      if(p.printed){marker.dataset.examIds=p.id;marker.dataset.examReadPage=String(p.page);}
+      else if(data.study[chapter]?.ids.includes(p.id)&&!data.questions[p.id].chapters.includes(chapter)){
+        marker.dataset.practiceIds=p.id;
+      }
+      marker.dataset.readerMetadata='exam';
+      if(boundary)boundary.insertNode(marker);
+      else if(node.tagName==='IMG')node.before(marker);
+      else node.prepend(marker);
+    }
     let active;
     for(const node of copy.querySelectorAll('a.pg,a[id^="p"],p,li,td,th,img,h2,h3,h4,h5,h6')){
       if(/^p\d+$/.test(node.id)||node.matches('a.pg')){
         active=wanted.get(Number(node.dataset.page||node.id.slice(1)));
+        // The full reader joins paragraphs split by a printed page break.
+        // A paragraph-start cue in the preview can start just after that break here.
+        const block=active?.length&&node.closest('p,li,td,th');
+        if(block){
+          const after=document.createRange();
+          after.selectNodeContents(block);after.setStartAfter(node);
+          const rest=after.toString().trimStart();
+          for(let i=active.length-1;i>=0;i--){
+            const p=active[i];
+            if(!p.rangeText&&!p.imageFile&&rest.startsWith(p.passage)){
+              const boundary=after.cloneRange();boundary.collapse(true);
+              place(p,block,boundary);active.splice(i,1);
+            }
+          }
+        }
         continue;
       }
       if(!active?.length||node.closest('[data-reader-metadata]'))continue;
@@ -113,18 +151,7 @@ window.HazzardEvidence = (() => {
           boundary.collapse(true);
         }else if(text!==p.passage&&!(p.passage.length>=90&&text.startsWith(p.passage)))continue;
         active.splice(index,1);
-        if(copy.querySelector('[id="'+p.anchor+'"]'))continue;
-        const marker=document.createElement('span');
-        marker.id=p.anchor;
-        marker.className='exam-passage-target';
-        if(p.printed){marker.dataset.examIds=p.id;marker.dataset.examReadPage=String(p.page);}
-        else if(data.study[chapter]?.ids.includes(p.id)&&!data.questions[p.id].chapters.includes(chapter)){
-          marker.dataset.practiceIds=p.id;
-        }
-        marker.dataset.readerMetadata='exam';
-        if(boundary)boundary.insertNode(marker);
-        else if(node.tagName==='IMG')node.before(marker);
-        else node.prepend(marker);
+        place(p,node,boundary);
       }
     }
   }
@@ -224,7 +251,7 @@ window.HazzardEvidence = (() => {
     const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=isRebuilt(sourceChapter);
     if(!/^\d+$/.test(sourceChapter))return;
     const data=await references(), byPage=new Map(), earlier=[], chapterOnly=[], related=[];
-    if(study&&!compact)refreshExamList(copy,sourceChapter,data);
+    if(study)refreshExamList(copy,sourceChapter,data);
     if(!study)await addPassages(copy,sourceChapter,data);
     const memberIds=new Set(data.study[sourceChapter]?.ids||[]);
     const explicit=new Map();
@@ -292,6 +319,17 @@ window.HazzardEvidence = (() => {
       if(remaining.size)labelAt(copy.querySelector('h1'),[...remaining],'Exam questions on pages outside these notes','study-exam-other');
       return;
     }
+    const teachingTargets=new Map();
+    if(!study){
+      for(const [id,entry] of Object.entries(data.questions)){
+        for(const p of [...(entry.supportPages||[]),...(entry.relatedTeaching||[])]){
+          if(String(p.readerChapter||p.chapter)!==sourceChapter||p.available===false)continue;
+          const anchor=p.anchor||'p'+p.page;
+          if(!teachingTargets.has(anchor))teachingTargets.set(anchor,new Set());
+          teachingTargets.get(anchor).add(id);
+        }
+      }
+    }
     let section,serial=0;
     const markers=study?'h2,[data-exam-page],[data-exam-ids],[data-practice-ids]':'a.pg,a[id^="p"],[data-exam-ids],[data-practice-ids]';
     for(const marker of copy.querySelectorAll(markers)){
@@ -321,9 +359,22 @@ window.HazzardEvidence = (() => {
       const otherPractice=practice.filter(id=>!relatedHere.includes(id));
       if(!study&&otherPractice.length)annotations.push({element:marker,ids:otherPractice});
       if(page && entries.length)marker.classList.add('exam-page-marker');
-      const visible=compact&&study ? entries.filter(([,e])=>Number(e.sitting.slice(0,4))>=2023) : entries;
-      labelAt(marker,visible,page?'Asked here, page '+page:'Related exam questions','asked-at-'+(++serial));
-      if(relatedHere.length)labelAt(marker,relatedHere.map(id=>[id,data.questions[id]]),'Related exam questions on this teaching passage','related-at-'+serial,'Related exam');
+      const asked=[],companions=new Set(relatedHere);
+      for(const [id,entry] of entries){
+        if(Number(entry.sitting.slice(0,4))<2023)continue;
+        const printed=page||Number(marker.dataset.examReadPage);
+        if(entry.pages.some(p=>p.available&&!p.citationOnly&&String(p.readerChapter||p.chapter)===sourceChapter&&(!printed||p.page===printed))){
+          asked.push([id,entry]);
+        }else companions.add(id);
+      }
+      for(const id of teachingTargets.get(marker.id)||[])companions.add(id);
+      teachingTargets.delete(marker.id);
+      labelAt(marker,asked,page?'Asked here, page '+page:'Exam questions on this passage','asked-at-'+(++serial));
+      if(companions.size)labelAt(marker,[...companions].map(id=>[id,data.questions[id]]),'Related exam questions on this teaching passage','related-at-'+serial,'Related exam');
+    }
+    for(const [anchor,ids] of teachingTargets){
+      const marker=copy.querySelector('[id="'+CSS.escape(anchor)+'"]');
+      labelAt(marker,[...ids].map(id=>[id,data.questions[id]]),'Related exam questions on this teaching passage','related-source-'+anchor,'Related exam');
     }
     if(!compact)return;
     const counts=[];

@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v318",
+      "date": "2026-11-26",
+      "changes": [
+        "Question references open at their verified destinations. Statistics opens the same missed questions it counts, and retired or excluded questions no longer affect flashcard priority.",
+        "Updated question explanations, Study notes and flashcards, including motor and cognitive FIM scores, diabetes care, and thyroid treatment and follow-up."
+      ]
+    },
+    {
       "version": "v317",
       "date": "2026-11-26",
       "changes": [

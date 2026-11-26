@@ -218,7 +218,7 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 Administration on Aging. A Profile of Older Americans.
 
-Washington, DC: Administration on Aging; 2019. [https://](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508>) acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
+Washington, DC: Administration on Aging; 2019. [https://](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf>) acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
 
 aid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/ x3mK. Barry KL, Blow FC. Drinking over the lifespan: focus on
 
@@ -236,7 +236,7 @@ New York, NY: John Wiley & Sons, Inc; 2019. Han BH, Moore AA, Sherman S, Keyes K
 
 Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005–2014. Drug Alcohol Depend. 2017;170:198–207. HIV Among People Aged 50 and Over, Centers for
 
-Disease Prevention and Control. [https://www.cdc](<https://www.cdc.gov/hiv/data-research/facts-stats/older-americans.html>) .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
+Disease Prevention and Control. [https://www.cdc](<https://stacks.cdc.gov/view/cdc/149188>) .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
 
 Kadushin G, Egan M. Gerontological Home Health Care: A
 
