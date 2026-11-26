@@ -5751,6 +5751,9 @@ function renderVerification(){
       if(sup.childNodes.length)sup.append(document.createTextNode(','));
       const a=document.createElement('a'),use=++entry.uses;a.id='source-cite-'+copy.dataset.chapterId+'-'+entry.number+'-'+use;a.href='#'+entry.li.id;a.textContent=String(entry.number);a.setAttribute('role','doc-noteref');a.setAttribute('aria-label','Source note '+entry.number);sup.append(a);
       const back=document.createElement('a');back.href='#'+a.id;back.textContent='↩';back.setAttribute('aria-label','Return to citation '+entry.number+', occurrence '+use);entry.backlinks.append(document.createTextNode(' '),back);
+      const inspect=document.createElement('button');inspect.type='button';inspect.className='quiet';inspect.dataset.sourceReview=id;
+      inspect.textContent='Source details';inspect.setAttribute('aria-label','Source details for citation '+entry.number+'.'+use);
+      inspect.onclick=()=>showClaimProvenance(node);entry.backlinks.append(inspect);
     }
     let target=node;
     if(node.tagName==='TR')target=node.lastElementChild;
