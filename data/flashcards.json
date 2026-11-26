@@ -5271,72 +5271,176 @@
     ]
   },
   {
-    "id": "ch11-crc-benefit",
-    "chapter": "11",
-    "front": "An 82-year-old has had regular colorectal screening and is likely to live another five years. What outcome and time horizon matter?",
-    "back": "Stool-blood screening took roughly ten years to prevent one colorectal cancer death per thousand people screened. With a five-year prognosis, bowel preparation and follow-up harms are much more immediate. Routine screening is usually inappropriate. Hazzard 8e, p. 161.",
-    "page": 161,
-    "anchor": "ch11-crc-lag",
+    "id": "ch72-spikes",
+    "chapter": "72",
+    "front": "What comes between assessing the patient’s perception and sharing serious news?",
+    "back": "Invitation. Ask how much the patient wants to know. Then share knowledge, acknowledge emotions, and agree on strategy and summary. The sequence begins with setting and perception. Hazzard 8e, p. 1102, Table 72-3.",
+    "page": 1102,
+    "anchor": "exam-p1102-mcq-48a5d49ae2033ae5ac32e7a1",
     "questionIds": [
-      "mcq-96c14291d2e808ba8a7b3d45"
+      "mcq-48a5d49ae2033ae5ac32e7a1"
+    ]
+  },
+  {
+    "id": "ch72-responsible-physician",
+    "chapter": "72",
+    "front": "מי מוסמך לקבוע באשפוז שמדובר בחולה הנוטה למות?",
+    "back": "מנהל המחלקה או היחידה המטפלת, או מומחה שמונה כדין. עליו להתייעץ עם המומחים המטפלים וככל האפשר עם הרופא האישי. חוק החולה הנוטה למות, סעיפים 3 ו־8. ס״ח 2039, עמ׳ 59–61.",
+    "page": 59,
+    "anchor": "ch72-il-authority",
+    "questionIds": [
+      "mcq-77439aa8a979ace4bbc4db8e"
     ],
-    "sourceLabel": "Related Hazzard 8e, p. 161. The 2022 bibliography cites GRS Prognostication."
+    "sourceLabel": "Read · חוק החולה הנוטה למות, סעיפים 3 ו־8"
   },
   {
-    "id": "ch11-risk-based-vaccination",
-    "chapter": "11",
-    "front": "Which requires a specific risk factor in an older adult: influenza, pneumococcal, meningococcal or zoster vaccination?",
-    "back": "Meningococcal vaccination. Asplenia, complement deficiency and complement inhibitors are examples of indications (CDC, Risk-based Indications for Meningococcal Vaccination, March 2026). The chapter identifies influenza, pneumococcal and zoster vaccination as broadly indicated by older age. Hazzard 8e, p. 165.",
-    "page": 165,
-    "anchor": "ch11-age-vaccines",
+    "id": "ch72-dialysis-close-person",
+    "chapter": "72",
+    "front": "האם די בבקשת הבת כדי להימנע מדיאליזה באביה שאינו יכול להחליט?",
+    "back": "יש לקבוע תחילה אם מתקיימים תנאי החוק. בהיעדר הנחיות תקפות, החלטת מיופה כוח או החלטת ועדה, הרופא האחראי מקבל את ההחלטה בהתחשב בהצהרה מפורשת של אדם קרוב על רצון האב להימנע מהארכת חייו. חוק החולה הנוטה למות, סעיפים 5, 8, 9 ו־16. ס״ח 2039, עמ׳ 60–62.",
+    "page": 60,
+    "anchor": "ch72-il-close-person",
     "questionIds": [
-      "mcq-b12477251a8488577c30c601"
+      "mcq-b548e0a478043a7ca7d21e89"
     ],
-    "sourceLabel": "Related Hazzard 8e, p. 165. The 2022 bibliography cites GRS Infectious Diseases."
+    "sourceLabel": "Read · חוק החולה הנוטה למות, סעיפים 5 ו־16"
   },
   {
-    "id": "ch11-copd-pneumococcal",
-    "chapter": "11",
-    "front": "An 80-year-old with COPD is receiving influenza vaccine. Which pneumococcal schedule did the 2023 exam test?",
-    "back": "One dose of PCV13 followed by one of PPSV23, six to twelve months later in Chapter 11. Israel’s Ministry of Health now describes a 20-valent conjugate vaccine, generally a single dose for eligible adults. Hazzard 8e, p. 165.",
-    "page": 165,
-    "anchor": "exam-p165-mcq-6a3a4989b7a53b19593f44a7",
+    "id": "ch72-emergency-final-stage",
+    "chapter": "72",
+    "front": "מה משנה הגדרת השלב הסופי כשחולה מגיע עם היפרקלמיה מסכנת חיים?",
+    "back": "במצב חירום בשלב הסופי מותר להימנע מטיפול מציל חיים, אלא אם ידוע שנקבע רצון החולה לקבלו במצב זה. לשלב הסופי נדרשים כשל של כמה מערכות ותוחלת חיים עד שבועיים גם בטיפול. חוק החולה הנוטה למות, סעיפים 8(ב) ו־18(ב). ס״ח 2039, עמ׳ 63.",
+    "page": 63,
+    "anchor": "ch72-il-emergency",
     "questionIds": [
-      "mcq-6a3a4989b7a53b19593f44a7"
+      "mcq-da1e76694d63f5b833729f75"
+    ],
+    "sourceLabel": "Read · חוק החולה הנוטה למות, סעיף 18(ב)"
+  },
+  {
+    "id": "ch72-dialysis-refusal",
+    "chapter": "72",
+    "front": "What should you explore when a patient with intact cognition asks to stop maintenance dialysis?",
+    "back": "Screen for depression and other remediable burdens. Discuss consequences, document capacity and preferences, and arrange supportive follow-up. Hazzard 8e, pp. 1296–1297.",
+    "page": 1296,
+    "anchor": "exam-p1296-mcq-7bd5c333fb742a1192c41f33",
+    "questionIds": [
+      "mcq-7bd5c333fb742a1192c41f33"
+    ],
+    "sourceLabel": "Read · Chapter 83, p. 1296",
+    "readChapter": "83"
+  },
+  {
+    "id": "ch72-capacity-four",
+    "chapter": "72",
+    "front": "Which four abilities should a patient demonstrate for a particular medical decision?",
+    "back": "Understand the information, appreciate its personal implications, reason about the options, and express a choice. Memory and executive function support these abilities. Hazzard 8e, ch. 10, p. 151.",
+    "page": 151,
+    "anchor": "exam-p151-mcq-3cb7ddba4d5a84d56620fbae",
+    "questionIds": [
+      "mcq-3cb7ddba4d5a84d56620fbae"
+    ],
+    "sourceLabel": "Read · Chapter 10, p. 151",
+    "readChapter": "10"
+  },
+  {
+    "id": "ch72-defibrillation-pacing",
+    "chapter": "72",
+    "front": "איזו פעולה ב־ICD ניתן לנטרל בסוף החיים בלי להפסיק קיצוב בסיסי?",
+    "back": "אפשר לנטרל שוקים עתידיים לפי רצון החולה ותנאי החוק. הקיצוב יכול להימשך. כך ניתן למנוע שוקים כואבים בלי להפסיק קיצוב רציף במטופל התלוי בו. הר״י, כיבוי דפיברילטור מושתל, עמ׳ 3–4.",
+    "page": 3,
+    "anchor": "ch72-il-icd",
+    "questionIds": [
+      "mcq-c96af8d727732c9078673e23"
+    ],
+    "sourceLabel": "Read · הנחיית הר״י, עמ׳ 3–4"
+  },
+  {
+    "id": "ch72-pandemic-triage",
+    "chapter": "72",
+    "front": "מהם שיקולי ההצעה הישראלית משנת 2020 לתיעדוף בעת מחסור קיצוני במנשמים?",
+    "back": "תפקוד לפני המחלה ותחלואה נלווית היו השיקולים המרכזיים. לגיל ביולוגי ניתן תפקיד מייעץ בהכרעה בין מועמדים דומים בשני ההיבטים. Clarfield וחב׳, JAGS 2020, Specific Triage Criteria, תרשים 1, עמ׳ 1374.",
+    "page": 1374,
+    "anchor": "ch72-il-triage",
+    "questionIds": [
+      "mcq-494727bd6d0b833fa37bea32"
+    ],
+    "sourceLabel": "Read · הצעת הוועדה הישראלית, 2020"
+  },
+  {
+    "id": "ch72-cases",
+    "chapter": "72",
+    "front": "A patient declines a safer discharge plan. How does CASES structure the discussion?",
+    "back": "Clarify the ethical conflict, assemble information, synthesize options, explain them and support follow-up. Ask what the patient values, assess this choice and arrange support if discharge home is chosen. Hazzard 8e, pp. 1098–1099.",
+    "page": 1098,
+    "anchor": "ch72-cases",
+    "questionIds": []
+  },
+  {
+    "id": "ch72-family-disclosure",
+    "chapter": "72",
+    "front": "A relative asks you to conceal a dementia diagnosis. What do you need to know from the patient?",
+    "back": "Ask what the patient understands, wants to know and wants shared with others. Listen to the family’s concern and give information in terms the patient can use. Hazzard 8e, pp. 1101–1102.",
+    "page": 1101,
+    "anchor": "ch72-disclosure",
+    "questionIds": [
+      "mcq-31e451c64140b7b80d7247dd"
     ]
   },
   {
-    "id": "ch11-breast-screening-model",
-    "chapter": "11",
-    "front": "For a healthy woman aged 77, what do 9.5 years and about ten years mean in a discussion of mammography?",
-    "back": "At least 9.5 years was a modeled life-expectancy threshold for cost-effective biennial mammography. The authors favor discussing biennial screening when life expectancy exceeds about ten years, with preference especially important near that estimate. Hazzard 8e, p. 161.",
-    "page": 161,
-    "anchor": "exam-p161-mcq-e8ffe5e4732e7d63293662ad",
+    "id": "ch72-surrogate-standards",
+    "chapter": "72",
+    "front": "How do substituted judgment and best interests differ?",
+    "back": "Known wishes and values guide substituted judgment. When they are unknown, weigh likely benefits and burdens for the patient. Offer the surrogate an individualized recommendation. Hazzard 8e, pp. 1102–1103.",
+    "page": 1103,
+    "anchor": "ch72-surrogate",
     "questionIds": [
-      "mcq-e8ffe5e4732e7d63293662ad"
+      "mcq-d2b9b86173fdc4d523a214cb"
     ]
   },
   {
-    "id": "ch11-colorectal-choice",
-    "chapter": "11",
-    "front": "Is colonoscopy the only appropriate colorectal screening test? What should a patient know before choosing FIT?",
-    "back": "Colonoscopy is one option and allows polyp removal. Stool tests and flexible sigmoidoscopy are alternatives. A positive FIT calls for diagnostic colonoscopy, so discuss willingness to proceed before ordering it. Hazzard 8e, p. 161.",
-    "page": 161,
-    "anchor": "ch11-q92-colorectal",
+    "id": "ch72-do-everything",
+    "chapter": "72",
+    "front": "A family asks for “everything.” What question makes that request clinically meaningful?",
+    "back": "Ask which outcome would make treatment worthwhile to the patient and what burdens they would accept. Use the answer to recommend treatments likely to meet those goals. Hazzard 8e, p. 1103.",
+    "page": 1103,
+    "anchor": "ch72-goals",
     "questionIds": [
-      "mcq-e8ffe5e4732e7d63293662ad"
+      "mcq-9747ff1cfe3ca7b95087190c",
+      "mcq-6357ca8f5db90dedf357c7ce"
     ]
   },
   {
-    "id": "ch11-scheduled-clonazepam",
-    "chapter": "11",
-    "front": "A 90-year-old takes clonazepam three times daily together with venlafaxine, mirtazapine and quetiapine. Which medication merits priority review and why?",
-    "back": "Review clonazepam. Regular benzodiazepine exposure increases falls, delirium and dependence in older adults. Check the indication and taper gradually if deprescribing. Also assess the indications for the other centrally acting drugs. AGS Beers Criteria 2023, Table 2. Hazzard 8e, p. 169.",
-    "page": 169,
-    "anchor": "exam-p169-mcq-a542a3a627e208dabd1e6265",
+    "id": "ch72-palliative-sedation",
+    "chapter": "72",
+    "front": "What makes sedation for refractory suffering proportionate?",
+    "back": "The goal is relief. After interdisciplinary assessment, reduce consciousness only as much and for as long as needed, checking whether distress has improved. Hazzard 8e, pp. 1105–1106.",
+    "page": 1105,
+    "anchor": "ch72-sedation",
     "questionIds": [
-      "mcq-a542a3a627e208dabd1e6265"
+      "mcq-af2fdd9ff0535b0616d65ba1"
     ]
+  },
+  {
+    "id": "ch72-intimacy",
+    "chapter": "72",
+    "front": "Two residents with dementia seek intimate contact. What must be assessed in each?",
+    "back": "Capacity and willingness for this particular activity with this person, including recognition, freedom from coercion and ability to say no or stop. Protect privacy and safety. Hazzard 8e, pp. 1108–1109.",
+    "page": 1108,
+    "anchor": "ch72-consent",
+    "questionIds": [
+      "mcq-3b5ae1e2e9727c9436fce936",
+      "mcq-ff75dc6e0cc2a4679c9377ac"
+    ]
+  },
+  {
+    "id": "ch72-moral-distress",
+    "chapter": "72",
+    "front": "What distinguishes moral distress from uncertainty about what to do?",
+    "back": "The clinician believes they know the right action but feels unable to take it. Address the immediate conflict with the team and recurring institutional barriers with leadership. Hazzard 8e, p. 1100.",
+    "page": 1100,
+    "anchor": "ch72-distress",
+    "questionIds": []
   },
   {
     "id": "ch95-mds-prognosis",
@@ -5429,163 +5533,317 @@
     "sourceLabel": "Related Hazzard 8e teaching, p. 1505"
   },
   {
-    "id": "ch72-spikes",
-    "chapter": "72",
-    "front": "What comes between assessing the patient’s perception and sharing serious news?",
-    "back": "Invitation. Ask how much the patient wants to know. Then share knowledge, acknowledge emotions, and agree on strategy and summary. The sequence begins with setting and perception. Hazzard 8e, p. 1102, Table 72-3.",
-    "page": 1102,
-    "anchor": "exam-p1102-mcq-48a5d49ae2033ae5ac32e7a1",
+    "id": "ch31-oral-care",
+    "chapter": "31",
+    "front": "An older patient with stroke and poor oral hygiene has pneumonia despite a puréed diet. What can the care team change?",
+    "back": "Help with mechanical cleaning of the teeth, mouth and dentures. Saliva can carry bacteria into the airway even with tube feeding or a modified diet. Oral care may reduce pneumonia, although a trial in high-risk nursing home residents did not show clear benefit. Hazzard 8e, pp. 451 and 1690–1691.",
+    "page": 451,
+    "anchor": "ch31-oral-care",
     "questionIds": [
-      "mcq-48a5d49ae2033ae5ac32e7a1"
+      "mcq-4c3fda6b97055d09bfccf60c"
     ]
   },
   {
-    "id": "ch72-responsible-physician",
-    "chapter": "72",
-    "front": "מי מוסמך לקבוע באשפוז שמדובר בחולה הנוטה למות?",
-    "back": "מנהל המחלקה או היחידה המטפלת, או מומחה שמונה כדין. עליו להתייעץ עם המומחים המטפלים וככל האפשר עם הרופא האישי. חוק החולה הנוטה למות, סעיפים 3 ו־8.",
-    "page": 8,
-    "anchor": "ch72-il-authority",
+    "id": "ch31-feeding-advanced-dementia",
+    "chapter": "31",
+    "front": "A family asks whether a feeding tube will reduce pneumonia and the need for restraint in advanced dementia. What should they know?",
+    "back": "A tube cannot prevent aspiration of secretions and may provoke agitation, leading to restraint. Offer careful hand feeding and consider what gives the patient comfort. AGS Choosing Wisely, recommendation 1. Hazzard 8e, p. 451.",
+    "page": 451,
+    "anchor": "ch31-feeding",
     "questionIds": [
-      "mcq-77439aa8a979ace4bbc4db8e"
+      "mcq-0763892c4fe5cc16609cece1"
     ],
-    "sourceLabel": "Read · חוק החולה הנוטה למות, סעיפים 3 ו־8"
+    "sourceLabel": "Related Hazzard 8e teaching, p. 451"
   },
   {
-    "id": "ch72-dialysis-close-person",
-    "chapter": "72",
-    "front": "האם די בבקשת הבת כדי להימנע מדיאליזה באביה שאינו יכול להחליט?",
-    "back": "יש לקבוע תחילה אם מתקיימים תנאי החוק. בהיעדר הנחיות תקפות, החלטת מיופה כוח או החלטת ועדה, הרופא האחראי יכול להביא בחשבון הצהרה מפורשת של אדם קרוב על רצון האב. חוק החולה הנוטה למות, סעיפים 5, 8, 9 ו־16.",
-    "page": 5,
-    "anchor": "ch72-il-close-person",
+    "id": "ch31-fatigable-chewing",
+    "chapter": "31",
+    "front": "An older adult avoids meat because chewing tires the jaw and also reports double vision. Which neuromuscular disorder and blood test fit?",
+    "back": "Myasthenia gravis. Check serum acetylcholine receptor antibodies. Fatigable eye and bulbar weakness explains the combination. A negative result does not exclude myasthenia. Harrison 21e, pp. 3510–3511, and 22e, pp. 3626–3627. Hazzard 8e, Table 31-3, p. 445 lists the swallowing differential.",
+    "page": 445,
+    "anchor": "ch31-neuromuscular",
     "questionIds": [
-      "mcq-b548e0a478043a7ca7d21e89"
+      "mcq-5ca3f594502cdce2347b4070",
+      "mcq-f2448541fe026f7c28b9ebe5"
     ],
-    "sourceLabel": "Read · חוק החולה הנוטה למות, סעיפים 5 ו־16"
+    "sourceLabel": "Related Hazzard 8e teaching, Table 31-3, p. 445"
   },
   {
-    "id": "ch72-emergency-final-stage",
-    "chapter": "72",
-    "front": "מה משנה הגדרת השלב הסופי כשחולה מגיע עם היפרקלמיה מסכנת חיים?",
-    "back": "במצב חירום בשלב הסופי מותר להימנע מטיפול מציל חיים, אלא אם ידוע שנקבע רצון החולה לקבלו במצב זה. לשלב הסופי נדרשים כשל של כמה מערכות ותוחלת חיים עד שבועיים גם בטיפול. חוק החולה הנוטה למות, סעיפים 8(ב) ו־18(ב).",
-    "page": 18,
-    "anchor": "ch72-il-emergency",
+    "id": "ch31-silent-aspiration",
+    "chapter": "31",
+    "front": "After stroke, a patient has a wet voice but no cough after drinking. Which test can show aspiration and assess a chin tuck in real time?",
+    "back": "Videofluoroscopic swallowing study. After a focused clinical assessment, fluoroscopy shows the path of the bolus and permits trials of posture, volume and texture. Silent aspiration may escape bedside detection. Hazzard 8e, pp. 448–449.",
+    "page": 448,
+    "anchor": "ch31-videofluoroscopy",
     "questionIds": [
-      "mcq-da1e76694d63f5b833729f75"
-    ],
-    "sourceLabel": "Read · חוק החולה הנוטה למות, סעיף 18(ב)"
+      "mcq-66840041ca1251fd06ed0353",
+      "mcq-e6deffe4211f7bcc6c702fd2",
+      "mcq-1ef9317d38505c47a9f03c80"
+    ]
   },
   {
-    "id": "ch72-dialysis-refusal",
-    "chapter": "72",
-    "front": "What should you explore when a patient with intact cognition asks to stop maintenance dialysis?",
-    "back": "Screen for depression and other remediable burdens. Discuss consequences, document capacity and preferences, and arrange supportive follow-up. Hazzard 8e, pp. 1296–1297.",
-    "page": 1296,
-    "anchor": "exam-p1296-mcq-7bd5c333fb742a1192c41f33",
+    "id": "ch31-thickening-and-pneumonia",
+    "chapter": "31",
+    "front": "In Parkinson disease or dementia, did less immediate aspiration with honey-thick liquids translate into fewer pneumonias at three months?",
+    "back": "Honey-thick liquid reduced immediate aspiration more often than nectar-thick liquid or chin-down posture. Follow-up found no significant pneumonia advantage for thickened liquids over chin-down posture. Review actual intake and acceptability. Hazzard 8e, p. 450.",
+    "page": 450,
+    "anchor": "ch31-thickening",
     "questionIds": [
-      "mcq-7bd5c333fb742a1192c41f33"
-    ],
-    "sourceLabel": "Read · Chapter 83, p. 1296",
-    "readChapter": "83"
+      "mcq-100775ed9eb4405b96c26b09",
+      "mcq-abaaa7c49767178ac5886cf6",
+      "mcq-1af78560668dcce3a6adcb18",
+      "mcq-109fa96a0d117204c9db7536"
+    ]
   },
   {
-    "id": "ch72-capacity-four",
-    "chapter": "72",
-    "front": "Which four abilities should a patient demonstrate for a particular medical decision?",
-    "back": "Understand the information, appreciate its personal implications, reason about the options, and express a choice. Memory and executive function support these abilities. Hazzard 8e, ch. 10, p. 151.",
-    "page": 151,
-    "anchor": "exam-p151-mcq-3cb7ddba4d5a84d56620fbae",
+    "id": "ch31-free-water",
+    "chapter": "31",
+    "front": "For a carefully selected rehabilitation patient taking thickened liquids, when is plain water offered in a free-water protocol?",
+    "back": "Between meals, after intensive oral care. Continue prescribed thickened drinks during meals. Initial studies selected ambulatory, cognitively intact rehabilitation patients. Hazzard 8e, p. 450.",
+    "page": 450,
+    "anchor": "ch31-water",
     "questionIds": [
-      "mcq-3cb7ddba4d5a84d56620fbae"
-    ],
-    "sourceLabel": "Read · Chapter 10, p. 151",
-    "readChapter": "10"
+      "mcq-633cd3eee98ead565d0d0f25"
+    ]
   },
   {
-    "id": "ch72-defibrillation-pacing",
-    "chapter": "72",
-    "front": "איזו פעולה ב־ICD ניתן לנטרל בסוף החיים בלי להפסיק קיצוב בסיסי?",
-    "back": "אפשר לנטרל שוקים עתידיים לפי רצון החולה ותנאי החוק. הקיצוב יכול להימשך. כך ניתן למנוע שוקים כואבים בלי להפסיק קיצוב רציף במטופל התלוי בו. הר״י, כיבוי דפיברילטור מושתל, עמ׳ 3–4.",
-    "page": 3,
-    "anchor": "ch72-il-icd",
+    "id": "ch31-compensation-or-exercise",
+    "chapter": "31",
+    "front": "A patient has weak bolus propulsion. How does tongue-strengthening differ from changing the bolus texture?",
+    "back": "Repeated exercise aims to improve the underlying capacity to generate pressure. Modifying viscosity, body position or bolus size changes the demands of the current swallow. Base the choice on the measured deficit. Hazzard 8e, pp. 448–450.",
+    "page": 449,
+    "anchor": "ch31-rehabilitation",
     "questionIds": [
-      "mcq-c96af8d727732c9078673e23"
-    ],
-    "sourceLabel": "Read · הנחיית הר״י, עמ׳ 3–4"
+      "mcq-47df7316230f41fb11829ab6",
+      "mcq-ce329094e0912a01fff7fc08"
+    ]
   },
   {
-    "id": "ch72-pandemic-triage",
-    "chapter": "72",
-    "front": "מהם שיקולי ההצעה הישראלית משנת 2020 לתיעדוף בעת מחסור קיצוני במנשמים?",
-    "back": "תפקוד לפני המחלה ותחלואה נלווית היו השיקולים המרכזיים. לגיל ביולוגי ניתן תפקיד מייעץ בהכרעה בין מועמדים דומים בשני ההיבטים. Clarfield וחב׳, JAGS 2020, Specific Triage Criteria, עמ׳ 1374–1375.",
-    "page": 1374,
-    "anchor": "ch72-il-triage",
+    "id": "ch11-crc-benefit",
+    "chapter": "11",
+    "front": "An 82-year-old has had regular colorectal screening and is likely to live another five years. What outcome and time horizon matter?",
+    "back": "Stool-blood screening took roughly ten years to prevent one colorectal cancer death per thousand people screened. With a five-year prognosis, bowel preparation and follow-up harms are much more immediate. Routine screening is usually inappropriate. Hazzard 8e, p. 161.",
+    "page": 161,
+    "anchor": "ch11-crc-lag",
     "questionIds": [
-      "mcq-494727bd6d0b833fa37bea32"
+      "mcq-96c14291d2e808ba8a7b3d45"
     ],
-    "sourceLabel": "Read · הצעת הוועדה הישראלית, 2020"
+    "sourceLabel": "Related Hazzard 8e, p. 161. The 2022 bibliography cites GRS Prognostication."
   },
   {
-    "id": "ch72-cases",
-    "chapter": "72",
-    "front": "A patient declines a safer discharge plan. How does CASES structure the discussion?",
-    "back": "Clarify the ethical conflict, assemble information, synthesize options, explain them and support follow-up. Ask what the patient values, assess this choice and arrange support if discharge home is chosen. Hazzard 8e, pp. 1098–1099.",
-    "page": 1098,
-    "anchor": "ch72-cases",
-    "questionIds": []
+    "id": "ch11-risk-based-vaccination",
+    "chapter": "11",
+    "front": "Which requires a specific risk factor in an older adult: influenza, pneumococcal, meningococcal or zoster vaccination?",
+    "back": "Meningococcal vaccination. Asplenia, complement deficiency and complement inhibitors are examples of indications (CDC, Risk-based Indications for Meningococcal Vaccination, March 2026). The chapter identifies influenza, pneumococcal and zoster vaccination as broadly indicated by older age. Hazzard 8e, p. 165.",
+    "page": 165,
+    "anchor": "ch11-age-vaccines",
+    "questionIds": [
+      "mcq-b12477251a8488577c30c601"
+    ],
+    "sourceLabel": "Related Hazzard 8e, p. 165. The 2022 bibliography cites GRS Infectious Diseases."
   },
   {
-    "id": "ch72-family-disclosure",
-    "chapter": "72",
-    "front": "A relative asks you to conceal a dementia diagnosis. What do you need to know from the patient?",
-    "back": "Ask what the patient understands, wants to know and wants shared with others. Listen to the family’s concern and give information in terms the patient can use. Hazzard 8e, pp. 1101–1102.",
-    "page": 1101,
-    "anchor": "ch72-disclosure",
-    "questionIds": []
+    "id": "ch11-copd-pneumococcal",
+    "chapter": "11",
+    "front": "An 80-year-old with COPD is receiving influenza vaccine. Which pneumococcal schedule did the 2023 exam test?",
+    "back": "One dose of PCV13 followed by one of PPSV23, six to twelve months later in Chapter 11. Israel’s Ministry of Health now describes a 20-valent conjugate vaccine, generally a single dose for eligible adults. Hazzard 8e, p. 165.",
+    "page": 165,
+    "anchor": "exam-p165-mcq-6a3a4989b7a53b19593f44a7",
+    "questionIds": [
+      "mcq-6a3a4989b7a53b19593f44a7"
+    ]
   },
   {
-    "id": "ch72-surrogate-standards",
-    "chapter": "72",
-    "front": "How do substituted judgment and best interests differ?",
-    "back": "Known wishes and values guide substituted judgment. When they are unknown, weigh likely benefits and burdens for the patient. Offer the surrogate an individualized recommendation. Hazzard 8e, pp. 1102–1103.",
-    "page": 1103,
-    "anchor": "ch72-surrogate",
-    "questionIds": []
+    "id": "ch11-breast-screening-model",
+    "chapter": "11",
+    "front": "For a healthy woman aged 77, what do 9.5 years and about ten years mean in a discussion of mammography?",
+    "back": "At least 9.5 years was a modeled life-expectancy threshold for cost-effective biennial mammography. The authors favor discussing biennial screening when life expectancy exceeds about ten years, with preference especially important near that estimate. Hazzard 8e, p. 161.",
+    "page": 161,
+    "anchor": "exam-p161-mcq-e8ffe5e4732e7d63293662ad",
+    "questionIds": [
+      "mcq-e8ffe5e4732e7d63293662ad"
+    ]
   },
   {
-    "id": "ch72-do-everything",
-    "chapter": "72",
-    "front": "A family asks for “everything.” What question makes that request clinically meaningful?",
-    "back": "Ask which outcome would make treatment worthwhile to the patient and what burdens they would accept. Use the answer to recommend treatments likely to meet those goals. Hazzard 8e, p. 1103.",
-    "page": 1103,
-    "anchor": "ch72-goals",
-    "questionIds": []
+    "id": "ch11-colorectal-choice",
+    "chapter": "11",
+    "front": "Is colonoscopy the only appropriate colorectal screening test? What should a patient know before choosing FIT?",
+    "back": "Colonoscopy is one option and allows polyp removal. Stool tests and flexible sigmoidoscopy are alternatives. A positive FIT calls for diagnostic colonoscopy, so discuss willingness to proceed before ordering it. Hazzard 8e, p. 161.",
+    "page": 161,
+    "anchor": "ch11-q92-colorectal",
+    "questionIds": [
+      "mcq-e8ffe5e4732e7d63293662ad"
+    ]
   },
   {
-    "id": "ch72-palliative-sedation",
-    "chapter": "72",
-    "front": "What makes sedation for refractory suffering proportionate?",
-    "back": "The goal is relief. After interdisciplinary assessment, reduce consciousness only as much and for as long as needed, checking whether distress has improved. Hazzard 8e, pp. 1105–1106.",
-    "page": 1105,
-    "anchor": "ch72-sedation",
-    "questionIds": []
+    "id": "ch11-scheduled-clonazepam",
+    "chapter": "11",
+    "front": "A 90-year-old takes clonazepam three times daily together with venlafaxine, mirtazapine and quetiapine. Which medication merits priority review and why?",
+    "back": "Review clonazepam. Regular benzodiazepine exposure increases falls, delirium and dependence in older adults. Check the indication and taper gradually if deprescribing. Also assess the indications for the other centrally acting drugs. AGS Beers Criteria 2023, Table 2. Hazzard 8e, p. 169.",
+    "page": 169,
+    "anchor": "exam-p169-mcq-a542a3a627e208dabd1e6265",
+    "questionIds": [
+      "mcq-a542a3a627e208dabd1e6265"
+    ]
   },
   {
-    "id": "ch72-intimacy",
-    "chapter": "72",
-    "front": "Two residents with dementia seek intimate contact. What must be assessed in each?",
-    "back": "Capacity and willingness for this particular activity with this person, including recognition, freedom from coercion and ability to say no or stop. Protect privacy and safety. Hazzard 8e, pp. 1108–1109.",
-    "page": 1108,
-    "anchor": "ch72-consent",
-    "questionIds": []
+    "id": "ch37-exertional-symptoms",
+    "chapter": "37",
+    "front": "A 68-year-old with new erectile difficulty has chest discomfort on exertion. What takes priority before sildenafil?",
+    "back": "Assess the chest symptoms for coronary ischemia. Erectile difficulty can precede recognition of vascular disease. Assess exercise tolerance and symptom stability to choose appropriate cardiac testing. Hazzard 8e, p. 550.",
+    "page": 550,
+    "anchor": "ch37-vascular",
+    "questionIds": [
+      "mcq-f61526d6f3a2b880b1a2a6eb"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 550"
   },
   {
-    "id": "ch72-moral-distress",
-    "chapter": "72",
-    "front": "What distinguishes moral distress from uncertainty about what to do?",
-    "back": "The clinician believes they know the right action but feels unable to take it. Address the immediate conflict with the team and recurring institutional barriers with leadership. Hazzard 8e, p. 1100.",
-    "page": 1100,
-    "anchor": "ch72-distress",
-    "questionIds": []
+    "id": "ch37-diabetic-erectile-risk",
+    "chapter": "37",
+    "front": "Does a very high HbA1c alone best predict which men with diabetes have erectile dysfunction?",
+    "back": "Age, duration of diabetes and complications such as autonomic neuropathy are better predictors. An erection requires both intact neural signaling and adequate blood flow. Hazzard 8e, p. 550.",
+    "page": 550,
+    "anchor": "ch37-diabetes",
+    "questionIds": [
+      "mcq-5e8fdc7b0a711207cdfdfb0f"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 550"
+  },
+  {
+    "id": "ch37-ejaculation-and-recovery",
+    "chapter": "37",
+    "front": "With usual male aging, how do ejaculate volume and the interval before rearousal change?",
+    "back": "Ejaculate volume falls and the refractory interval lengthens. This combination can occur even when erections and desire are preserved. Hazzard 8e, p. 549.",
+    "page": 549,
+    "anchor": "p549",
+    "questionIds": [
+      "mcq-eb37d809845cd0eca69dc309"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 549"
+  },
+  {
+    "id": "ch37-renal-failure",
+    "chapter": "37",
+    "front": "In end-stage renal disease, is starting dialysis or giving testosterone an established treatment for erectile dysfunction caused by kidney failure?",
+    "back": "Neither is an established treatment for this purpose. Vascular and autonomic injury may persist. Improved erection scores in a small uncontrolled series of hypogonadal dialysis patients cannot establish efficacy for the broader population. Hazzard 8e, p. 551. Skiba et al., 2022, PMID 36014950.",
+    "page": 551,
+    "anchor": "ch37-systemic",
+    "questionIds": [
+      "mcq-0b731ec6d9542ae175664a94"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 551"
+  },
+  {
+    "id": "ch37-copd-hypoxemia",
+    "chapter": "37",
+    "front": "How can hypoxemia contribute to erectile difficulty in COPD, and what improvement is possible?",
+    "back": "Less nitric oxide is available in cavernosal tissue, which impairs smooth-muscle relaxation. Oxygen therapy for hypoxemia may improve erections in some men. Hazzard 8e, p. 551.",
+    "page": 551,
+    "anchor": "ch37-systemic",
+    "questionIds": [
+      "mcq-6c849f696e8a01b757528312"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 551"
+  },
+  {
+    "id": "ch37-erections-after-bereavement",
+    "chapter": "37",
+    "front": "What term describes loss of previously normal erections after the death of a spouse?",
+    "back": "Widower’s syndrome. Ask about grief and performance anxiety when the man considers a new relationship, and assess other causes as the history suggests. Hazzard 8e, p. 550.",
+    "page": 550,
+    "anchor": "ch37-bereavement",
+    "questionIds": [
+      "mcq-37766d153852fa3d12cb4d11"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 550"
+  },
+  {
+    "id": "ch37-sildenafil-and-nitrates",
+    "chapter": "37",
+    "front": "Why is sildenafil contraindicated in a man who uses nitrates?",
+    "back": "Nitrates increase cyclic GMP and sildenafil slows its breakdown. Their combined vasodilation can cause severe hypotension. Sexual stimulation is still needed for sildenafil to facilitate an erection. Hazzard 8e, p. 552.",
+    "page": 552,
+    "anchor": "ch37-nitrates",
+    "questionIds": [
+      "mcq-fb0b583c505e379bc2b0e148"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 552"
+  },
+  {
+    "id": "ch37-multiple-sclerosis",
+    "chapter": "37",
+    "front": "Erectile dysfunction returns during multiple sclerosis relapses and improves in remission. Which pathway explains this course?",
+    "back": "Fluctuating neurologic impairment can disrupt the neural signals for erection. Its timing points to multiple sclerosis as a contributor. Hazzard 8e, p. 551.",
+    "page": 551,
+    "anchor": "ch37-neurologic",
+    "questionIds": [
+      "mcq-6e2f45da87be7cb81e1d5332"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 551"
+  },
+  {
+    "id": "ch37-sertraline-chronology",
+    "chapter": "37",
+    "front": "A widower develops erectile difficulty after starting sertraline. What belongs in the medication assessment?",
+    "back": "Review when sertraline and other drugs were started or changed. SSRIs, beta blockers and diuretics can all contribute, alongside depression, grief and diabetes. Hazzard 8e, p. 551.",
+    "page": 551,
+    "anchor": "ch37-drugs",
+    "questionIds": [
+      "mcq-89a51acb496938c2982c62c4"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 551"
+  },
+  {
+    "id": "ch37-androgen-deprivation",
+    "chapter": "37",
+    "front": "Why can androgen deprivation for advanced prostate cancer diminish libido?",
+    "back": "Therapeutic suppression of testosterone deprives the tumor of androgen stimulation. A fall into the castration range also reduces sexual desire and can impair erections. Hazzard 8e, p. 552.",
+    "page": 552,
+    "anchor": "ch37-androgen",
+    "questionIds": [
+      "mcq-a914460692189469abae8fce"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 552"
+  },
+  {
+    "id": "ch37-local-alprostadil",
+    "chapter": "37",
+    "front": "Cardiac assessment permits sexual activity, but nitrates are still necessary. Which local drug can help with erections?",
+    "back": "Alprostadil, a prostaglandin E1 analogue given by intracavernosal injection or intraurethral administration. Oral PDE5 inhibitors all share the nitrate interaction. Hazzard 8e, p. 552.",
+    "page": 552,
+    "anchor": "ch37-local",
+    "questionIds": [
+      "mcq-15f38bba608551a1f0bc68d7"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 552"
+  },
+  {
+    "id": "ch37-confirm-hypogonadism",
+    "chapter": "37",
+    "front": "A man has low libido and one low testosterone measurement. What would support the diagnosis of hypogonadism?",
+    "back": "Compatible symptoms or signs and repeatedly low morning serum testosterone on two separate occasions. Prefer fasting samples and investigate the reason for a persistent deficiency. Hazzard 8e, p. 552.",
+    "page": 552,
+    "anchor": "ch37-diagnosis",
+    "questionIds": [
+      "mcq-3e7c62d9b62210466487aeee"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 552"
+  },
+  {
+    "id": "ch37-sleep-and-low-testosterone",
+    "chapter": "37",
+    "front": "A man with obesity, poor sleep, snoring and a single low testosterone value requests replacement. What should happen first?",
+    "back": "Confirm deficiency with another morning measurement, arrange assessment for sleep apnea and support weight reduction. Defer testosterone in untreated severe obstructive sleep apnea. Hazzard 8e, pp. 552, 647, 1534.",
+    "page": 552,
+    "anchor": "ch37-diagnosis",
+    "questionIds": [
+      "mcq-c7c56b80c29ac163e314d2ad"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 37, p. 552",
+    "studyReference": {
+      "anchor": "low-desire-and-low-testosterone",
+      "label": "sleep evaluation and reversible causes"
+    }
   }
 ]

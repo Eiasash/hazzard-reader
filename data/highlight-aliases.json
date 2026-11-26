@@ -19768,5 +19768,195 @@
         87
       ]
     ]
+  },
+  {
+    "chapter": "11s",
+    "id": "u7",
+    "old": "Fecal occult blood screening: approximately 10 years to prevent 1 colorectal-cancer death per 1000 people; serious complications are also approximately 1 in 1000 (p161).",
+    "new": "Fecal occult blood screening takes approximately 10 years to prevent 1 colorectal-cancer death per 1000 screened. Serious harm comes chiefly from downstream procedures, including bleeding or perforation during colonoscopy (p161).",
+    "edits": [
+      [
+        28,
+        29,
+        28,
+        34
+      ],
+      [
+        99,
+        106,
+        104,
+        113
+      ],
+      [
+        107,
+        114,
+        114,
+        121
+      ],
+      [
+        115,
+        128,
+        122,
+        126
+      ],
+      [
+        129,
+        132,
+        127,
+        132
+      ],
+      [
+        133,
+        137,
+        133,
+        140
+      ],
+      [
+        138,
+        151,
+        141,
+        145
+      ],
+      [
+        152,
+        153,
+        146,
+        156
+      ],
+      [
+        154,
+        156,
+        157,
+        168
+      ],
+      [
+        157,
+        161,
+        169,
+        221
+      ]
+    ]
+  },
+  {
+    "chapter": "72s",
+    "id": "u11",
+    "old": "Withholding and withdrawing life-prolonging treatment are ethically equivalent, though withdrawal may be psychologically harder (p1103).",
+    "new": "In the chapter’s US ethics framework, withholding and withdrawing unwanted life-prolonging treatment are ethically equivalent, though withdrawal may be psychologically harder. Israeli law separately restricts stopping continuous treatment when stopping could cause death (p1103 and Israeli Dying Patient Law, §21).",
+    "edits": [
+      [
+        0,
+        11,
+        0,
+        49
+      ],
+      [
+        27,
+        27,
+        65,
+        74
+      ],
+      [
+        127,
+        127,
+        174,
+        270
+      ],
+      [
+        134,
+        134,
+        277,
+        312
+      ]
+    ]
+  },
+  {
+    "chapter": "31s",
+    "id": "u31",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Question citing Table 31-5",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        24
+      ],
+      [
+        5,
+        47,
+        25,
+        26
+      ]
+    ]
+  },
+  {
+    "chapter": "37s",
+    "id": "u10",
+    "old": "Sildenafil/vardenafil: take on an empty stomach; food does not significantly impair tadalafil/avanafil absorption. Tadalafil lasts longer (p552).",
+    "new": "High-fat meals can delay the effect of sildenafil or vardenafil. Tadalafil and avanafil may be taken with or without food, although a high-fat meal can also delay peak avanafil concentration. Tadalafil has a longer window of action (p552). FDA avanafil prescribing information, §§2.1 and 12.3.",
+    "edits": [
+      [
+        0,
+        11,
+        0,
+        53
+      ],
+      [
+        21,
+        113,
+        63,
+        63
+      ],
+      [
+        125,
+        130,
+        75,
+        207
+      ],
+      [
+        137,
+        137,
+        214,
+        231
+      ],
+      [
+        145,
+        145,
+        239,
+        293
+      ]
+    ]
+  },
+  {
+    "chapter": "11s",
+    "id": "u8",
+    "old": "Flexible sigmoidoscopy has a similar estimated time-to-benefit; the chapter notes that mortality timing for colonoscopy awaits ongoing trials (p161).",
+    "new": "Flexible sigmoidoscopy has a similar estimated time to benefit (p161). In the later COLONPREV trial of adults aged 50–69, invitation to biennial FIT was noninferior to invitation to one-time colonoscopy for colorectal cancer mortality at ten years. That comparison does not give a time to benefit versus no screening. COLONPREV, 2025.",
+    "edits": [
+      [
+        51,
+        52,
+        51,
+        52
+      ],
+      [
+        54,
+        55,
+        54,
+        55
+      ],
+      [
+        62,
+        141,
+        62,
+        62
+      ],
+      [
+        149,
+        149,
+        70,
+        334
+      ]
+    ]
   }
 ]

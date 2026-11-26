@@ -39,7 +39,7 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 
 **סמכות ופרוגנוזה.** במחלקה פנימית שבה החולה מטופל, המנהל יכול לקבוע את מעמדו. החוק מאפשר גם מינוי של רופא מומחה לשם כך בידי מנהל המוסד, המחלקה או היחידה. בקהילה מדובר ברופא המחוזי של הקופה או במי שמינה. לאחר התייעצות עם המומחים המטפלים וככל האפשר עם הרופא האישי, בודקים אם מדובר במחלה חשוכת מרפא עם תוחלת חיים של עד שישה חודשים גם בטיפול. בשלב הסופי נדרשים כשל של כמה מערכות חיוניות וצפי של עד שבועיים גם בטיפול. הפסקת כימותרפיה כשלעצמה אינה קביעה כזאת. [חוק החולה הנוטה למות, סעיפים 3 ו־8](https://main.knesset.gov.il/apps/legislation/main/laws/2000296).
 
-**עדות הבת על רצון אביה.** בודקים כשרות ביחס להחלטה. הוצאה מחזקת הכשרות לפי החוק דורשת החלטה מנומקת ומתועדת לאחר התייעצות. מבררים אם ניתנו הנחיות מקדימות, אם מונה מיופה כוח ואם יש החלטת ועדה. בהיעדרם רשאי הרופא האחראי להחליט בהתחשב בהצהרה מפורשת של אדם קרוב המכיר היטב את החולה. ההצהרה נוגעת למה שהאב היה רוצה. היא אינה הופכת את הבת אוטומטית למוסמכת לסרב לטיפול בשמו. מבררים אם הדיאליזה קשורה למחלה חשוכת המרפא ואם מתקיימים התנאים להימנעות, בהם סבל משמעותי. [חוק החולה הנוטה למות, סעיפים 3, 5, 7–9, 16 ו־57](https://main.knesset.gov.il/apps/legislation/main/laws/2000296).
+**עדות הבת על רצון אביה.** בודקים כשרות ביחס להחלטה. הוצאה מחזקת הכשרות לפי החוק דורשת החלטה מנומקת ומתועדת לאחר התייעצות. מבררים אם ניתנו הנחיות מקדימות, אם מונה מיופה כוח ואם יש החלטת ועדה. בהיעדרם ההחלטה היא של הרופא האחראי, המתחשב בהצהרה מפורשת של אדם קרוב שלפיה החולה אינו רוצה בהארכת חייו. בהיעדר הצהרה כזאת הוא מתחשב בעמדת אפוטרופוס שהוא אדם קרוב, ככל שישנו, בדבר רצון החולה. ההצהרה נוגעת למה שהאב היה רוצה. היא אינה הופכת את הבת אוטומטית למוסמכת לסרב לטיפול בשמו. מבררים אם הדיאליזה קשורה למחלה חשוכת המרפא ואם מתקיימים התנאים להימנעות, בהם סבל משמעותי. [חוק החולה הנוטה למות, סעיפים 3, 5, 7–9, 16 ו־57](https://main.knesset.gov.il/apps/legislation/main/laws/2000296).
 
 ### טיפול בחירום, שוקים חוזרים והקלה על סבל
 
@@ -53,7 +53,11 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 
 <span data-practice-ids="mcq-494727bd6d0b833fa37bea32" data-reader-metadata="exam"></span>
 
-**ההצעה הישראלית משנת 2020.** בהמלצות הוועדה למצב של מחסור קיצוני נבחנו התפקוד לפני המחלה ומחלות הרקע. רק במועמדים דומים בשני ההיבטים הוצע להיעזר גם בגיל ביולוגי. הוועדה לא הציעה גיל כרונולוגי כסף פסילה, והדגישה שימשיכו טיפול אישי ומקל גם במטופל שלא יקבל הנשמה. זו ההצעה ההיסטורית שנבחנה בשאלה. Hazzard דן בנפרד בשיקולי צדק, במניעת אפליה ובצוות תיעדוף שאינו הצוות המטפל (עמ׳ 1109–1110). [המאמר המקורי, Specific Triage Criteria, ותרשים 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7272988/).
+**ההצעה הישראלית משנת 2020.** בהמלצות הוועדה למצב של מחסור קיצוני נבחנו התפקוד לפני המחלה ומחלות הרקע. רק במועמדים דומים בשני ההיבטים הוצע להיעזר גם בגיל ביולוגי. הוועדה לא הציעה גיל כרונולוגי כתנאי לפסילה, והדגישה שימשיכו טיפול אישי ומקל גם במטופל שלא יקבל הנשמה. זו ההצעה ההיסטורית שנבחנה בשאלה. Hazzard דן בנפרד בשיקולי צדק, במניעת אפליה ובצוות תיעדוף שאינו הצוות המטפל (עמ׳ 1109–1110). [המאמר המקורי, Specific Triage Criteria, ותרשים 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7272988/).
+
+### בטיחות בנהיגה וחובת הדיווח בישראל
+
+על פי סעיף 12ב לפקודת התעבורה, אם הרופא מאבחן מחלה באדם שמלאו לו 16 וסבור שבגללה נהיגתו עלולה לסכן אותו או אחרים, עליו לדווח למרב״ד. חוזר המנכ״ל מבחין בין ליקוי מתמשך לבין מגבלה זמנית, שבדרך כלל מחייבת הנחיה להימנע מנהיגה עד להתייצבות ותיעוד ההנחיה. כאשר מדווחים מזהירים את הנהג וממליצים להפסיק לנהוג עד הבדיקה. הדיווח עצמו אינו פוסל מיד את הרישיון. הטופס שבנספח המקורי הוחלף באוגוסט 2023. [חוזר מנכ״ל 6/2023, סעיפים 4–9](https://www.gov.il/BlobFolder/policy/mk06-2023/he/files_circulars_mk_mk06_2023.pdf) · [עדכון הטופס מ־24.8.2023](https://www.gov.il/BlobFolder/policy/mk06-2023/he/files_circulars_mk_mk-275558923.pdf).
 
 ## Capacity, disagreement and surrogate decision-making
 
@@ -94,7 +98,7 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 
 **Disclosure & end-of-life care**
 - Offer the opportunity to receive diagnostic information, while asking how much the patient wants to know. A family's request for nondisclosure should prompt exploration of the patient's preferences (p1101).
-- Withholding and withdrawing life-prolonging treatment are ethically equivalent, though withdrawal may be psychologically harder (p1103).
+- In the chapter’s US ethics framework, withholding and withdrawing unwanted life-prolonging treatment are ethically equivalent, though withdrawal may be psychologically harder. Israeli law separately restricts stopping continuous treatment when stopping could cause death (p1103 and Israeli Dying Patient Law, §21).
 - Palliative sedation is a last-resort response to refractory distress in terminal illness with comfort-focused goals, after interdisciplinary evaluation (p1105).
 - Sedation should be proportionate to the duration of symptoms and not expected to shorten life; existential suffering alone remains controversial and needs specialist assessment (p1105).
 

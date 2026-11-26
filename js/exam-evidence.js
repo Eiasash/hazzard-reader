@@ -305,7 +305,11 @@ window.HazzardEvidence = (() => {
       const entries=page ? byPage.get(page)||[] : (marker.dataset.examIds||'').split(/\s+/).filter(id=>data.questions[id]).map(id=>[id,data.questions[id]]);
       const practice=(marker.dataset.practiceIds||'').split(/\s+/).filter(id=>data.questions[id]);
       if(section)for(const id of [...entries.map(([id])=>id),...practice])section.ids.add(id);
-      const relatedHere=practice.filter(id=>memberIds.has(id)&&!data.questions[id].chapters.includes(sourceChapter)&&Number(data.questions[id].sitting.slice(0,4))>=2023);
+      const relatedHere=practice.filter(id=>{
+        const entry=data.questions[id];
+        if(entry.chapters.includes(sourceChapter)||Number(entry.sitting.slice(0,4))<2023)return false;
+        return memberIds.has(id)||entry.relatedTeaching?.some(target=>String(target.chapter)===sourceChapter);
+      });
       const otherPractice=practice.filter(id=>!relatedHere.includes(id));
       if(!study&&otherPractice.length)annotations.push({element:marker,ids:otherPractice});
       if(page && entries.length)marker.classList.add('exam-page-marker');

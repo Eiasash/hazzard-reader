@@ -85,8 +85,8 @@ In a nursing home or with serious illness, ask what a positive test would requir
 
 **Cancer screening**
 - Mammography trial meta-analysis: approximately **11 years** to prevent **1** breast-cancer death per **1000** women screened (p160).
-- Fecal occult blood screening: approximately **10 years** to prevent **1** colorectal-cancer death per **1000** people; serious complications are also approximately **1 in 1000** (p161).
-- Flexible sigmoidoscopy has a similar estimated time-to-benefit; the chapter notes that mortality timing for colonoscopy awaits ongoing trials (p161).
+- Fecal occult blood screening takes approximately **10 years** to prevent **1** colorectal-cancer death per **1000** screened. Serious harm comes chiefly from downstream procedures, including bleeding or perforation during colonoscopy (p161).
+- Flexible sigmoidoscopy has a similar estimated time to benefit (p161). In the later COLONPREV trial of adults aged 50–69, invitation to biennial FIT was noninferior to invitation to one-time colonoscopy for colorectal cancer mortality at ten years. That comparison does not give a time to benefit versus no screening. [COLONPREV, 2025](https://pubmed.ncbi.nlm.nih.gov/40158525/).
 - Prior cervical screening is central to decisions in older women. Direct time-to-benefit data are absent for those at least **65** (p163).
 - Low-dose chest CT trials show lung-cancer mortality reduction after **6 years**; chest x-ray screening did not provide such benefit (p163).
 

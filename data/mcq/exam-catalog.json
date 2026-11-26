@@ -6481,7 +6481,20 @@
       "fromBasic": false,
       "duplicates": [
         2615
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": "ima-harrison-22e-ch459",
+        "bankChapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction",
+        "relatedTeaching": [
+          {
+            "chapter": "31",
+            "anchor": "ch31-neuromuscular",
+            "label": "Hazzard 8e, p. 445, Table 31-3 · neurologic causes of dysphagia"
+          }
+        ]
+      },
+      "referenceNote": "The IMA cites Harrison p. 3511. In 21e this is ch. 448, Table 448-1. The corresponding 22e assay table is 459-1, p. 3627."
     },
     "3262": {
       "id": "mcq-7e29198920ca95a14795d359",
@@ -17189,10 +17202,26 @@
           "31-5"
         ],
         "passages": {
-          "446": "Table 31-5",
-          "1690": "In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia, though effi",
-          "1691": "There is increasing data on pharmacological interventions that act on the swallowing reflex "
-        }
+          "446": {
+            "text": "Table 31-5",
+            "imageFile": "hazzard8e_ch31_table-31-5_p446.webp"
+          },
+          "1690": {
+            "text": "In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia",
+            "rangeText": "In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia"
+          },
+          "1691": {
+            "text": "It is important to avoid all medications that could potentiate aspirations, such as sedatives, and especially antipsychotics.",
+            "rangeText": "It is important to avoid all medications that could potentiate aspirations, such as sedatives, and especially antipsychotics."
+          },
+          "451": {
+            "text": "Poor oral hygiene is a risk factor for pneumonia",
+            "rangeText": "Poor oral hygiene is a risk factor for pneumonia"
+          }
+        },
+        "supportPages": [
+          451
+        ]
       }
     },
     "4618": {
@@ -17425,7 +17454,20 @@
       "duplicates": [
         3039
       ],
-      "explanation": "הצמד הקליני של דיספאגיה, חולשת לעיסה וּדיפלופיה אצל אישה מבוגרת מחייב חשד למיאסטניה גרביס – מחלה אוטואימונית של הצומת העצבי-שרירי. הבדיקה הראשונית בחירה היא **Anti-AChR antibodies**, החיובית בכ-85% מהמקרים הכלליים.  **PET-CT (א')** אינו הבירור הראשוני הנדרש. **EEG (ב')** רלוונטי לאפילפסיה, לא לחולשה שרירית. **Anti-NMDA (ד')** מתאים לאנצפליטיס אוטואימונית עם שינויי התנהגות/פסיכוזה. מקור: Harrison's, Hazzard's Geriatric Medicine."
+      "explanation": "הצמד הקליני של דיספאגיה, חולשת לעיסה וּדיפלופיה אצל אישה מבוגרת מחייב חשד למיאסטניה גרביס – מחלה אוטואימונית של הצומת העצבי-שרירי. הבדיקה הראשונית בחירה היא **Anti-AChR antibodies**, החיובית בכ-85% מהמקרים הכלליים.  **PET-CT (א')** אינו הבירור הראשוני הנדרש. **EEG (ב')** רלוונטי לאפילפסיה, לא לחולשה שרירית. **Anti-NMDA (ד')** מתאים לאנצפליטיס אוטואימונית עם שינויי התנהגות/פסיכוזה. מקור: Harrison's, Hazzard's Geriatric Medicine.",
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": "ima-harrison-22e-ch459",
+        "bankChapterTitle": "Harrison 22e ch. 459 – Myasthenia Gravis and Other Diseases of the Neuromuscular Junction",
+        "relatedTeaching": [
+          {
+            "chapter": "31",
+            "anchor": "ch31-neuromuscular",
+            "label": "Hazzard 8e, p. 445, Table 31-3 · neurologic causes of dysphagia"
+          }
+        ]
+      },
+      "referenceNote": "The IMA cites Harrison 21e, ch. 448, pp. 3510–3511. The corresponding 22e chapter is 459, pp. 3626–3627."
     },
     "4625": {
       "id": "mcq-c6d5d418c0657e5ffa7923f3",
