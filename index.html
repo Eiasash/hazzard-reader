@@ -6333,7 +6333,7 @@ function renderNotebook(){
     li.append(go,del);placeList.append(li);
     }
   }
-  if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='None yet. While reading, turn Highlight on → Bookmark this spot.';places.append(li)}
+  if(!places.children.length){const li=document.createElement('li');li.className='meta';li.textContent='No saved places yet. While reading, open Sections and tap Bookmark this spot.';places.append(li)}
   const other=$('#notebookOther');other.replaceChildren();
   const prefix='stage-a-highlights-v1:',groups=[];
   try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix)||k.includes('-unreadable-'))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=HazzardStorage.readProtected(k,()=>null)}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({...m,id,kind:'marks'})),...Object.entries(d?.ranges||{}).map(([id,m])=>({...m,id,kind:'ranges'}))];if(marks.length)groups.push({ch,marks})}}catch{}
