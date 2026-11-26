@@ -7978,8 +7978,8 @@
     },
     {
       "url": "./data/mcq/exam-references.json",
-      "sha256": "74431c0aad882766b0aacda495764bb9c9ceac9b4bfb1f6468f6c7443798b74a",
-      "bytes": 805475
+      "sha256": "5434d9073813f2dfed88ae1798d8d4d17e0b00efa178ca42719357d52b04d18b",
+      "bytes": 805474
     },
     {
       "url": "./data/mcq/hazzard8e-toc.json",
@@ -8378,8 +8378,8 @@
     },
     {
       "url": "./data/mcq/index.json",
-      "sha256": "19d47eb0e79646b77d9731e414404cae9401da0c217ec585f4b34ba40ff7b83a",
-      "bytes": 8786
+      "sha256": "6727c0661d1e8bbadca45f140c35ff2b67c66accfec9e97de2bb6ce45aa1f8ff",
+      "bytes": 8784
     },
     {
       "url": "./data/mcq/law.json",

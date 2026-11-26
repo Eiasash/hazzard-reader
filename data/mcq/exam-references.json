@@ -24692,7 +24692,7 @@
         "mcq-cbefe6f6ea86d7a584e4cf49",
         "mcq-dda6ac411f9ab187b0ed6d34"
       ],
-      "before": 5,
+      "before": 1,
       "past": 15,
       "resolved": 12,
       "fallback": 1,
@@ -24759,7 +24759,7 @@
         "mcq-404df6b6e3e250f64badb08a",
         "mcq-2e8b0536cb4bfe34d45e5e24"
       ],
-      "before": 28,
+      "before": 6,
       "past": 31,
       "resolved": 23,
       "fallback": 5,
@@ -24797,7 +24797,7 @@
         "mcq-dc6cb801b618efb366d202a9",
         "mcq-5e98e5b4f20aeaa91b485dcd"
       ],
-      "before": 2,
+      "before": 1,
       "past": 10,
       "resolved": 8,
       "fallback": 1,
@@ -24926,7 +24926,7 @@
         "mcq-79f5aabcf9100a6621351cea",
         "mcq-fd87e9c1bd94354816599257"
       ],
-      "before": 2,
+      "before": 1,
       "past": 5,
       "resolved": 5,
       "fallback": 0,

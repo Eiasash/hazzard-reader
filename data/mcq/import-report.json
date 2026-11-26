@@ -8128,8 +8128,8 @@
     },
     "97": {
       "title": "Aging of the Endocrine System and Non-Thyroid Endocrine Disorders",
-      "past": 5,
-      "practice": 24
+      "past": 1,
+      "practice": 8
     },
     "98": {
       "title": "Thyroid Diseases",
@@ -8138,14 +8138,14 @@
     },
     "99": {
       "title": "Diabetes Mellitus",
-      "past": 28,
+      "past": 6,
       "practice": 44,
       "topicFallback": 22
     },
     "101": {
       "title": "Rheumatoid Arthritis and Other Autoimmune Diseases",
-      "past": 2,
-      "practice": 5
+      "past": 1,
+      "practice": 4
     },
     "102": {
       "title": "Back Pain and Spinal Stenosis",
@@ -8166,7 +8166,7 @@
     },
     "108": {
       "title": "Influenza, COVID-19, and Other Respiratory Viruses",
-      "past": 2,
+      "past": 1,
       "practice": 4,
       "topicFallback": 27
     },
