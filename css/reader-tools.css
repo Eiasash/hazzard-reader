@@ -249,3 +249,6 @@ body #panel[open][data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);pa
 body #panel[open][data-primary=true]>[data-pane]:not([hidden]){padding-block-start:calc(var(--vv-top,0px) + 56px);padding-block-end:calc(12px + var(--tabs-height))}
 body.reading-bars-hidden #readerScroll{padding-block-end:var(--tabs-height)}
 body.reading-bars-hidden #mcqViewport{padding-block-end:calc(var(--tabs-height) + 50px)}
+
+button:disabled[data-unavailable]::after{content:attr(data-unavailable);display:block;font:400 .85em/1.35 var(--ui);white-space:normal}
+#panel button:disabled[data-unavailable]{height:auto;white-space:normal}

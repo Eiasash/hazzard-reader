@@ -25,6 +25,14 @@ def write_package(out):
             shutil.copyfile(ROOT / name,target)
 
     html = (ROOT / "index.html").read_text(encoding="utf-8")
+    # A static preview never needs credential fields, including before its scripts run.
+    message = "Sign-in and cloud sync work on the live site; on this preview use Back up / Restore"
+    html, count = re.subn(r'<section id="cloudControls"[^>]*>.*?</section>',
+                          '<p id="cloudStatus" class="meta">' + message + '</p>', html, flags=re.S)
+    if count != 1:
+        raise ValueError("Expected one live cloud account section")
+    html = html.replace("meanwhile cloud sync and the existing backup download are the safety net.",
+                        "use Back up to keep a separate copy of your notebook.")
     template_files = {}
     def save_template(chapter, content):
         name = f"data/reader-templates/{chapter}.html"
@@ -151,22 +159,8 @@ window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request
 """
     (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search).replace("TEMPLATE_FILES",json.dumps(template_files)), encoding="utf-8",newline="\n")
     paths.add("js/preview-start.js")
-    # Keep the v324 account screen. Test-host credentials must never reach live RPCs.
-    cloud = """window.HazzardCloud={signedIn:false,tick:false,paused:false,label:()=> 'Cloud sync is unavailable on this preview',
- start(){
-   const controls=document.getElementById('cloudControls');
-   document.getElementById('cloudStatus').textContent=this.label();
-   controls.querySelectorAll('button:not(#cloudShowLogin):not(#cloudShowRegister)').forEach(control=>control.disabled=true);
-   const show=register=>{
-     document.getElementById('cloudLogin').hidden=register;
-     document.getElementById('cloudRegister').hidden=!register;
-     document.getElementById('cloudShowLogin').setAttribute('aria-pressed',String(!register));
-     document.getElementById('cloudShowRegister').setAttribute('aria-pressed',String(register));
-   };
-   document.getElementById('cloudShowLogin').onclick=()=>show(false);
-   document.getElementById('cloudShowRegister').onclick=()=>show(true);show(false);
-   dispatchEvent(new Event('hazzard-cloud-status'));
- }};
+    cloud = """window.HazzardCloud={available:false,signedIn:false,tick:false,paused:false,
+ label:()=> 'Preview · local backups',start(){}};
 """
     (out/"js/reader-cloud.js").write_text(cloud,encoding="utf-8",newline="\n")
     storage = out/"js/reader-storage.js"

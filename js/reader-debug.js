@@ -108,6 +108,7 @@
   }
   function render() {
     if (!dialog?.open) return;
+    setButtonUnavailable(dialog.querySelector('[data-debug="clear"]'),entries.length?'':'The log is already empty.');
     prepared = JSON.stringify(diagnostics(), null, 2);
     dialog.querySelector('pre').textContent = prepared;
     dialog.querySelector('textarea').value = prepared;

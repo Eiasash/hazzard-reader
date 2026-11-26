@@ -47,20 +47,26 @@ window.HazzardCloud = (() => {
     $('cloudShowLogin').setAttribute('aria-pressed',String(authMode==='login'));
     $('cloudShowRegister').setAttribute('aria-pressed',String(authMode==='register'));
     $('cloudChangePassword').setAttribute('aria-expanded',String(passwordOpen));
-    for(const id of ['cloudShowLogin','cloudShowRegister','cloudSignIn','cloudCreateAccount'])$(id).disabled=authBusy;
-    $('cloudSavePassword').disabled=passwordBusy;
+    const offline=!navigator.onLine?'Connect to the internet to use your cloud account.':'';
+    const authReason=authBusy?'Account request in progress…':'';
+    for(const id of ['cloudShowLogin','cloudShowRegister'])setButtonUnavailable($(id),authReason);
+    for(const id of ['cloudSignIn','cloudCreateAccount'])setButtonUnavailable($(id),offline||authReason);
+    setButtonUnavailable($('cloudSavePassword'),offline||(passwordBusy?'Saving your password…':''));
     $('cloudDecision').hidden=!signed()||decided()||!known;
     $('cloudDecisionText').textContent=current?.exists?'Choose which notebook to use on this phone.':'No cloud copy yet. Choose Start fresh to enable uploads.';
     $('cloudUseLocal').hidden=!bridge.hasData()||!current?.exists;
     $('cloudStartFresh').hidden=bridge.hasData()&&!!current?.exists;
-    $('cloudRestore').disabled=busy||checking||!known||!current?.exists;
-    $('cloudPrevious').disabled=busy||checking||!known||!previous?.exists;
+    const pending=busy||restoring?'A cloud operation is in progress…':checking?'Checking saved cloud copies…':'';
+    const copies=offline||pending||(!known?'Cloud copies have not been read.':'');
+    setButtonUnavailable($('cloudRestore'),copies||(!current?.exists?'No current cloud copy is saved.':''));
+    setButtonUnavailable($('cloudPrevious'),copies||(!previous?.exists?'No previous cloud copy is saved.':''));
     $('cloudRestore').textContent='Restore from cloud'+(current?.exists?' (saved '+time(current.updated_at,true)+')':'');
     $('cloudPrevious').textContent='Restore previous cloud copy'+(previous?.exists?' (saved '+time(previous.updated_at,true)+')':'');
-    $('cloudSync').disabled=busy||checking||!decided()||recoveryPaused();
-    $('cloudUseLocal').disabled=busy||checking;$('cloudStartFresh').disabled=busy||checking;
+    setButtonUnavailable($('cloudSync'),offline||pending||(!decided()?'Choose which notebook to use first.':recoveryPaused()?'Restore the unreadable local data first.':''));
+    for(const id of ['cloudUseLocal','cloudStartFresh'])setButtonUnavailable($(id),pending);
     dispatchEvent(new Event('hazzard-cloud-status'));
   }
+  addEventListener('offline',render);addEventListener('online',render);
   function expire(){
     epoch++;session={};expired=true;tick=false;lastSyncedAt='';clearTimeout(timer);
     try{localStorage.removeItem(SESSION);}catch{}

@@ -8,6 +8,7 @@ const READY = './.offline-ready';
 const TAKEOVER = './.replace-preview';
 let warming = null;
 let progress = 0;
+let interrupted = false;
 
 async function download(file, priority) {
   const url = new URL(file.url, self.registration.scope);
@@ -60,7 +61,7 @@ self.addEventListener('activate', event => event.waitUntil((async () => {
 async function status(target) {
   const cache = await caches.open(CACHE);
   const complete = !!await cache.match(READY);
-  target?.postMessage({type:'HAZZARD_OFFLINE_STATUS',version:RELEASE,build:BUILD,complete,progress:complete?100:progress});
+  target?.postMessage({type:'HAZZARD_OFFLINE_STATUS',version:RELEASE,build:BUILD,complete,downloading:!!warming,interrupted,progress:complete?100:progress});
   return complete;
 }
 
@@ -91,10 +92,14 @@ self.addEventListener('message', event => {
     event.waitUntil(status(event.source));return;
   }
   if (type === 'PREVIEW_BACKGROUND') {
-    if (!warming) warming = warmOffline().catch(async () => {
-      // A later load, reconnection or return to the tab resumes missing files.
-      for (const page of await self.clients.matchAll()) await status(page);
-    }).finally(()=>{warming=null;});
+    if (!warming) {
+      interrupted=false;
+      warming=warmOffline().catch(()=>{interrupted=true;}).finally(async()=>{
+        warming=null;
+        for(const page of await self.clients.matchAll())await status(page);
+      });
+    }
+    event.waitUntil(status(event.source));
     event.waitUntil(warming);
   }
 });

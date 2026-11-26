@@ -1063,7 +1063,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </section><section data-pane="whatsNew" tabindex="0" data-title="What’s new" hidden><div id="whatsNewList" aria-live="polite"></div></section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter’s exam questions or practise across the book.</p><ul class="rows"><li><button data-chapter="bank"><strong>Question bank</strong><small>All topics · source, year and topic filters</small></button></li><li><button id="openStatistics"><strong>Statistics</strong><small>Your answered questions and clean rate</small></button></li><li><a class="sim-entry" data-review-link href="?chapter=bank&amp;review=1">Review (0 due)</a></li><li><button data-panel="missed"><strong>Missed / flags</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Official sitting · timed · end-only feedback</small></a></li><li><button data-mock="builder"><strong>Mock builder</strong><small>Choose length and sources</small></button></li></ul></section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
 <div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
 <div id="backupRecovery"></div>
-<div id="cloudControls">
+<section id="cloudControls" aria-label="Cloud account">
 <p id="cloudStatus" class="meta" role="status">Cloud: not signed in</p>
 <div id="cloudAuthChoices" role="group" aria-label="Cloud account">
 <button id="cloudShowLogin" type="button" aria-pressed="true">Sign in</button>
@@ -1072,7 +1072,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <form id="cloudLogin">
 <label>Username<input id="cloudUsername" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" required></label>
 <label>Password<input id="cloudPassword" name="password" type="password" autocomplete="current-password" required></label>
-<button id="cloudSignIn" type="submit">Sign in</button>
+<button id="cloudSignIn" type="submit">Sign in &amp; sync</button>
 </form>
 <form id="cloudRegister" hidden novalidate>
 <label>Username<input id="cloudRegisterUsername" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" aria-describedby="cloudUsernameRule"></label>
@@ -1103,9 +1103,9 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </form>
 <p id="cloudError" class="meta" role="status"></p>
 <p class="meta">Each sync merges this device with the cloud copy.</p>
-</div>
+</section>
 <details id="appearanceStatus">
-<summary id="appearanceSummary" title="Show release, storage and snapshot details">Checking status…</summary>
+<summary id="appearanceSummary" title="Show release, storage and snapshot details">Storage and offline status</summary>
 <p id="storageProtection" class="meta" role="status">Storage protected: checking…</p><p id="storageProtectionHelp" class="meta" hidden>Install the reader to the home screen (Chrome menu &gt; Add to Home screen / Install app) to help Chrome keep the offline book and saved work; meanwhile cloud sync and the existing backup download are the safety net.</p>
 <p id="releaseStatus" class="meta" role="status"></p>
 <p id="generatedFlagCount" class="meta" role="status"></p>
@@ -5196,6 +5196,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <script src="js/reader-input.js"></script>
 <script src="js/study-page.js"></script>
 <script src="js/reader-storage.js"></script>
+<script src="js/settings-controls.js"></script>
 <script src="js/reader-cloud.js"></script>
 <script type="module">if(!HazzardReadingCompanion.embedded)await import('./js/reader-status.js');</script>
 <script src="js/reader-whats-new.js"></script>
@@ -5809,7 +5810,7 @@ for(const [part,caption] of [['backup','Backup & account'],['whatsNew','What’s
   settingsParts.set(part,group);
 }
 const offlineAction=document.createElement('button');offlineAction.type='button';offlineAction.id='downloadOffline';offlineAction.textContent='Download for offline';
-offlineAction.onclick=()=>{const worker=navigator.serviceWorker?.controller;if(worker){worker.postMessage({type:'PREVIEW_BACKGROUND'});worker.postMessage({type:'HAZZARD_OFFLINE_STATUS'});}};
+setButtonUnavailable(offlineAction,'Preparing offline storage.');
 settingsPage.insertBefore(offlineAction,settingsParts.get('whatsNew'));
 const settingsVersion=document.createElement('p');settingsVersion.className='meta';settingsVersion.id='settingsVersion';settingsPage.insertBefore(settingsVersion,settingsParts.get('whatsNew'));
 const sectionTitle=document.createElement('strong');sectionTitle.className='nav-page-title';chapterHeader.append(sectionTitle);
@@ -6044,7 +6045,7 @@ function applyDisplay(){
 }
 function updateDisplay(){
   const px=sizes[size];document.documentElement.style.setProperty('--fs',px/sizes.small);document.body.style.fontSize='var(--body)';
-  for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
+  for(const b of $$('[data-size]')){const selected=b.dataset.size===size;b.setAttribute('aria-pressed',String(selected));setButtonUnavailable(b,selected?'Selected':'');}
   for(const b of $$('button[data-theme]'))b.setAttribute('aria-pressed',String(b.dataset.theme===document.documentElement.dataset.theme));
   syncMarkingUI();
   const nextTheme=document.documentElement.dataset.theme==='dark'?'light':'dark';
@@ -7519,7 +7520,8 @@ $('#backupNotebook').onclick=()=>{
 $('#restoreNotebook').onclick=()=>$('#notebookBackupFile').click();
 $('#notebookBackupFile').onchange=async event=>{
   const file=event.target.files?.[0];if(!file)return;
-  const restoreButton=$('#restoreNotebook');restoreButton.disabled=true;
+  const restoreButton=$('#restoreNotebook');setButtonUnavailable(restoreButton,'Restoring the selected file…');
+  notebookStatus('Restoring the selected file…');
   try{
     let backup;try{backup=JSON.parse(await file.text())}catch{throw new Error('This file is not a readable JSON backup. Nothing was restored.')}
     if(backup?.format!=='hazzard-notebook-backup'||backup.version!==1||!isRecord(backup.storage))throw new Error('Choose a Hazzard notebook backup file. Nothing was restored.');
@@ -7576,7 +7578,7 @@ $('#notebookBackupFile').onchange=async event=>{
     const savedPaper=HazzardMCQ.readPaper();if(savedPaper?.paper){$('#mockResume').hidden=false;$('#mockResume').textContent='Resume current paper ('+savedPaper.paper.ids.length+' questions)'}
     notebookStatus((changes.length?'Backup merged. Existing highlights, grades and saved places were kept.':'Everything in this backup is already saved.')+(addedMockQuestions?' Reload the mock page to show added questions.':'')+restoreSummary(invalid,backup.storage));
   }catch(error){notebookStatus(error.message||'Restore failed. Keep the backup file and try again.')}
-  finally{restoreButton.disabled=false;event.target.value=''}
+  finally{setButtonUnavailable(restoreButton);event.target.value=''}
 };
 
 
@@ -7673,7 +7675,6 @@ window.HazzardPrepareUpdate=async()=>{
   if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
 };
 $('#appearanceStatus').addEventListener('toggle',()=>{if($('#appearanceStatus').open)setPanelExpanded(true);requestAnimationFrame(viewport)});
-$('#cloudSignIn').textContent='Sign in & sync';
 addEventListener('hazzard-cloud-status',()=>requestAnimationFrame(viewport));
 addEventListener('hazzard-place-recovered',()=>refreshRecoveredReader(PLACE_KEY));
 function refreshRecoveredReader(key){
@@ -7694,10 +7695,10 @@ function refreshRecoveredReader(key){
 document.addEventListener('click',async event=>{
   const button=event.target.closest('[data-storage-snapshot],[data-storage-cloud],[data-storage-file],[data-storage-fresh]');if(!button)return;
   if(button.hasAttribute('data-storage-snapshot')){
-    button.disabled=true;
+    setButtonUnavailable(button,'Restoring the local snapshot…');
     try{await HazzardStorage.restoreSnapshot(button.dataset.storageSnapshot);refreshRecoveredReader(button.dataset.storageSnapshot);mcq?.sync();}
     catch(error){flash(error.message||'Could not restore local snapshot. Existing history kept.',6000);}
-    finally{button.disabled=false;}
+    finally{setButtonUnavailable(button);}
   }
   else if(button.hasAttribute('data-storage-cloud')){if(!panel.open||panel.dataset.currentPane!=='backup')openPanel('backup',button);$('#cloudStatus').scrollIntoView({block:'nearest'});}
   else if(button.hasAttribute('data-storage-file'))$('#notebookBackupFile').click();

@@ -267,7 +267,7 @@ window.HazzardStorage = (() => {
     const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     return blockedKeys().filter(key=>reader===null||readerStore(key)===reader||sharedRecoveryStore(key)).map(rawKey=>{const spec=protectedStores.get(rawKey),saved=recoverySnapshots.get(rawKey),key=escape(rawKey);
       const local=saved?'<button data-storage-snapshot="'+key+'">Restore latest local snapshot ('+snapshotTime(saved.at)+')</button> ':'';
-      return '<section class="mcq-recovery" role="alert"><p>'+escape(spec.label)+' could not be read.</p>'+local+'<button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
+      return '<section class="mcq-recovery" role="alert"><p>'+escape(spec.label)+' could not be read.</p>'+local+(window.HazzardCloud?.available===false?'':'<button data-storage-cloud>Restore from cloud</button> ')+'<button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
     }).join('');
   }
   blockedKeys();

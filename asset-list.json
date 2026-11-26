@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "67c49ecf2208b7ec6b0e51f2dbd7968a2f900c8254bc80e88a964c6dbe1c2398",
-      "bytes": 22915
+      "sha256": "adef7aa9219b24f98c0407fb8c0896508c24b617d49553297899cbf84281381e",
+      "bytes": 23125
     },
     {
       "url": "./css/reading-companion.css",
@@ -8438,8 +8438,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "bb30d4ee242e8febfa7fd73d5e6999b1c84a68ca062f50ef271481f34527b801",
-      "bytes": 1002343
+      "sha256": "c7c95dadb536e778413cf1a7df74c4aa8c1204502154695824d584019055d031",
+      "bytes": 1002494
     },
     {
       "url": "./js/changed-questions.js",
@@ -8503,13 +8503,13 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "a149ad8d6b43f52e44fe79968ec0c6f7203339a160116ed48e84740c03a6ec8c",
-      "bytes": 17045
+      "sha256": "ddfdae38aa3eef13f2b29b3783d3b3ad825bfac5810a7854fae0ba1c90a5bb0a",
+      "bytes": 17790
     },
     {
       "url": "./js/reader-debug.js",
-      "sha256": "67c9f69746502bfb8218ef70c406bcdaad166a3cfa19b3b75576687d36cca842",
-      "bytes": 12499
+      "sha256": "b7343f2a6c75c97b3f62f7add98d418fbe9541240205a138f5e2fa9147434c37",
+      "bytes": 12617
     },
     {
       "url": "./js/reader-input.js",
@@ -8523,13 +8523,13 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "7ce34b81008f43b318633529464dcb2376fe14fb9143e364cd660b4143853b3a",
-      "bytes": 9155
+      "sha256": "7bf098988c74b22b26ceb4f024da1850bf108b71a912123a34a10f8e579ac6f8",
+      "bytes": 9604
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "8e3890c0278393c53956cd4b87d9a0baebcfda65da279594a32b0c133c213dc8",
-      "bytes": 29656
+      "sha256": "02ea5ef6ad8e11dc972db78601d49322709ae682f5ca5ba1982b4b2a1c9e3603",
+      "bytes": 29703
     },
     {
       "url": "./js/reader-whats-new.js",
@@ -8540,6 +8540,11 @@
       "url": "./js/reading-companion.js",
       "sha256": "8e2efbccc463e467fddc2eff8a7b6c5ba6e6d7865bb3625d0722806984444ac0",
       "bytes": 11043
+    },
+    {
+      "url": "./js/settings-controls.js",
+      "sha256": "50cb0341bde1874ed6af7061c1f5db9141a4b3251e6f02aeffd6b362a9c57454",
+      "bytes": 396
     },
     {
       "url": "./js/stats.js",
