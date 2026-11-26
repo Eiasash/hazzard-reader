@@ -1021,7 +1021,11 @@
         "pages": [
           "Beers 2023 p2060"
         ]
-      }
+      },
+      "readerMapping": {
+        "passages": {}
+      },
+      "referenceNote": "The printed bibliography cites the 2019 AGS Beers pocket guide. Chapter 44 is related teaching about sleep medications. No Hazzard page is assigned by the examination."
     },
     "65": {
       "id": "mcq-75d3bab7b0cbdfbc7293b06a",
@@ -6279,7 +6283,14 @@
           735
         ],
         "passages": {
-          "732": "The first update came from the EWGSOP (EWGSOP2) in 2019. This advanced definition opted to m"
+          "732": {
+            "text": "The first update came from the EWGSOP (EWGSOP2) in 2019. This advanced definition opted to move mu",
+            "rangeText": "with muscle mass used as confirmation of the involvement of muscle in strength loss"
+          },
+          "735": {
+            "text": "The most widely used methods to estimate muscle mass in practice at present are dual energy X-ray ",
+            "rangeText": "methods to estimate muscle mass in practice at present are dual energy X-ray absorptiometry (DXA) and bioimpedance absorptiometry (BIA)"
+          }
         }
       }
     },
@@ -6568,7 +6579,10 @@
         "passages": {
           "1310": "Acute colonic pseudo-obstruction Acute colonic pseudo-obstruction, also known as Ogilvie syn",
           "1311": "Management Initial management of acute colonic pseudoobstruction involves correcting reversi",
-          "1361": "Hypokalemia produces neuronal dysfunction that minimizes acetylcholine stimulation of gut sm"
+          "1361": {
+            "text": "Hypokalemia should be excluded in cases of colonic pseudo-obstruction and sigmoid volvulus",
+            "rangeText": "Hypokalemia should be excluded in cases of colonic pseudo-obstruction and sigmoid volvulus"
+          }
         }
       }
     },
@@ -6711,8 +6725,14 @@
           "87-9"
         ],
         "passages": {
-          "1373": "Table 87-9",
-          "1374": "Table 87-9"
+          "1373": {
+            "text": "Table 87-9",
+            "imageFile": "hazzard8e_ch87_table87-9_p1373.png"
+          },
+          "1374": {
+            "text": "Table 87-9",
+            "imageFile": "hazzard8e_ch87_table87-9_p1374.png"
+          }
         }
       }
     },
@@ -7014,7 +7034,10 @@
           643
         ],
         "passages": {
-          "643": "Sleep is a reversible behavioral state that is characterized by a decreased responsiveness t"
+          "643": {
+            "text": "Sleep is a reversible behavioral state that is characterized by a decreased responsiveness to ",
+            "rangeText": "Longer time to initiate sleep and more fragmented sleep occur with aging."
+          }
         }
       }
     },
@@ -8136,8 +8159,15 @@
         ],
         "bankChapter": "75",
         "passages": {
-          "1150": "[p. 1151] although 40% do not have significant coronary artery disease. The most likely etio",
-          "1151": "Symptomatic patients Once patients develop symptoms, they should be considered for valve rep"
+          "1150": {
+            "text": "Two-thirds of patients present with angina",
+            "rangeText": "Two-thirds of patients present with angina"
+          },
+          "1151": {
+            "text": "The most likely etiology for angina in the absence of coronary artery disease",
+            "rangeText": "The most likely etiology for angina in the absence of coronary artery disease",
+            "contextPage": 1150
+          }
         }
       }
     },
@@ -8519,8 +8549,15 @@
           "75-2"
         ],
         "passages": {
-          "1152": "Table 75-2 — American college of cardiology/ american heart association recommendations for ",
-          "1150": "Although the causes of aortic valve calcification in aging are unclear, the process bears ma"
+          "1152": {
+            "text": "Asymptomatic patients with severe aortic stenosis undergoing other cardiac surgery",
+            "rangeText": "Asymptomatic patients with severe aortic stenosis undergoing other cardiac surgery"
+          },
+          "1150": {
+            "text": "Velocity (m/s)",
+            "rangeText": "Velocity (m/s)",
+            "contextPage": 1149
+          }
         }
       }
     },
@@ -8904,7 +8941,10 @@
           "87"
         ],
         "passages": {
-          "1372": "Level [1] evidence supports the use of polyethylene glycol (PEG) in adults."
+          "1372": {
+            "text": "Level [1] evidence supports the use of polyethylene glycol (PEG) in adults",
+            "rangeText": "Level [1] evidence supports the use of polyethylene glycol (PEG) in adults"
+          }
         }
       }
     },
@@ -10329,7 +10369,7 @@
       ],
       "explanation": "## תשובה א' נכונה: SENNA גורם ל-MELANOSIS COLI\n\n### למה א' נכונה? ✅\n**Senna** (אנתרקינון) גורם לצביעה חומה-שחורה של רירית המעי הגס – **Melanosis Coli** – עקב הצטברות פיגמנט ליפופוסצין במקרופאגים של הרירית. ממצא שפיר, הפיך עם הפסקת התרופה. **פנינה קלינית:** ממצא קולונוסקופי אופייני, אל תחפש גידול!\n\n---\n\n### למה האחרות שגויות? ❌\n\n**ב. Fleet Enema (זרחן נתרן)** – בטבלה רשומות היפרפוספטמיה ופגיעה ברירית (Hazzard 8e p.1374, Table 87-9).",
       "readerReference": "Hazzard 8e · p. 1373-1374",
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1373-1374.",
+      "referenceNote": "The IMA prints p1373 and Table 87-4. Table 87-4 is on p1356 and covers pathophysiology. The laxative table on p1373 is Table 87-9, and its senna and phosphate-enema rows are on p1374. The original citation is preserved.",
       "readerMapping": {
         "printedPages": [
           1373
@@ -10344,7 +10384,14 @@
           1374
         ],
         "passages": {
-          "1373": "Table 87-9"
+          "1373": {
+            "text": "Table 87-9",
+            "imageFile": "hazzard8e_ch87_table87-9_p1373.png"
+          },
+          "1374": {
+            "text": "Table 87-9",
+            "imageFile": "hazzard8e_ch87_table87-9_p1374.png"
+          }
         }
       }
     },
@@ -11601,8 +11648,11 @@
           "44-2"
         ],
         "passages": {
-          "652": "There are two accepted classes of medications that can be used for first-line treatment of R",
-          "653": "Gabapentin encarbil"
+          "652": {
+            "text": "There are two accepted classes of medications that can be used for first-line treatment of RLS",
+            "rangeText": "considering the use of α2δ calcium channel ligands as first-line agents"
+          },
+          "653": "Lyrica"
         }
       }
     },
@@ -12153,7 +12203,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1391": "Nausea and vomiting One complication frequently seen in treatment of the older adult with ca",
+          "1391": {
+            "text": "butyrophenones (eg, haloperidol)",
+            "rangeText": "butyrophenones (eg, haloperidol)"
+          },
           "1263": {
             "text": "Table 81-14",
             "imageFile": "hazzard8e_ch81_table81-14_p1263.png"
@@ -12307,7 +12360,7 @@
       ],
       "explanation": "א׳ נתמכת במחקר במתנדבים צעירים ובריאים שבו קפה שחור הגביר תנועתיות ברקטוסיגמואיד בתוך ארבע דקות. אין להפוך ממצא זה להבטחת תגובה בכל מטופל זקן (Hazzard 8e, עמ׳ 1360).\n\n## קפה שחור ועצירות בגריאטריה\n\nקפה שחור הגביר תנועתיות ברקטוסיגמואיד בתוך ארבע דקות במחקר במתנדבים צעירים ובריאים; המקור מייחס זאת לגירוי הרפלקס הגסטרוקולי. (Hazzard 8e p.1360).",
       "readerReference": "Hazzard 8e · p. 1360",
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1360.",
+      "referenceNote": "The IMA cites p1359 Table 87-5, which lists the constipating medications. Coffee-induced rectosigmoid motility in young volunteers is described on p1360 as supplementary teaching.",
       "explanationSource": {
         "release": "v77",
         "status": "Page-backed supplemental explanation; original IMA bibliography retained.",
@@ -12330,7 +12383,14 @@
           1360
         ],
         "passages": {
-          "1359": "Table 87-5 — Risk factors for constipation in older people"
+          "1359": {
+            "text": "Calcium channel antagonists (nifedipine and verapamil)",
+            "rangeText": "Calcium channel antagonists (nifedipine and verapamil)"
+          },
+          "1360": {
+            "text": "Black coffee has been shown to increase colonic motility specifically in the rectosigmoid",
+            "rangeText": "Black coffee has been shown to increase colonic motility specifically in the rectosigmoid"
+          }
         }
       }
     },
@@ -12740,9 +12800,18 @@
         ],
         "bankChapter": "49",
         "passages": {
-          "743": "Table 50-2",
-          "744": "Table 50-2 continued",
-          "735": "Other measures of physical performance that are not unusual in geriatric practice are used a"
+          "743": {
+            "text": "Table 50-2",
+            "imageFile": "hazzard8e_ch50_table-50-2_p743.webp"
+          },
+          "744": {
+            "text": "Table 50-2 continued",
+            "imageFile": "hazzard8e_ch50_table-50-2-continued_p744.webp"
+          },
+          "735": {
+            "text": "Other measures of physical performance that are not unusual in geriatric practice are used as well",
+            "rangeText": "The Short Physical Performance Battery (SPPB) adds a measure of balance"
+          }
         }
       }
     },
@@ -12945,8 +13014,14 @@
           "44"
         ],
         "passages": {
-          "653": "REM sleep behavior disorder (RBD) is defined as recurrent complex movements or vocalizations",
-          "654": "characterized by dream enactment. Normally during REM sleep there is complete loss of skelet"
+          "653": {
+            "text": "REM sleep behavior disorder (RBD) is defined as recurrent complex movements or vocalizations d",
+            "rangeText": "recurrent complex movements or vocalizations during sleep"
+          },
+          "654": {
+            "text": "There is an association between neurodegenerative disorders and RBD, particularly synucleinopa",
+            "rangeText": "The most important clinical diagnoses of synucleinopathies are Parkinson disease"
+          }
         }
       }
     },
@@ -13192,7 +13267,10 @@
           "49"
         ],
         "passages": {
-          "737": "Nutrition The evidence about nutrition interventions in treating sarcopenia is less consiste"
+          "737": {
+            "text": "Nutrition The evidence about nutrition interventions in treating sarcopenia is less consistent, wi",
+            "rangeText": "to 1–1.2 g in healthy older adults, and up to 1.5 g in disease"
+          }
         }
       }
     },
@@ -13477,7 +13555,10 @@
           "87-4"
         ],
         "passages": {
-          "1356": "Table 87-4"
+          "1356": {
+            "text": "Table 87-4",
+            "imageFile": "hazzard8e_ch87_table87-4_p1356.png"
+          }
         }
       }
     },
@@ -13619,7 +13700,10 @@
           "44"
         ],
         "passages": {
-          "655": "Since the treatment of RBD is symptom based, patient preferences often dictate the intensity"
+          "655": {
+            "text": "Pharmacologic management There are no currently FDA-approved therapies for RBD. The goal of tr",
+            "rangeText": "making melatonin the primary first choice for therapy in most circumstances"
+          }
         }
       }
     },
@@ -13860,7 +13944,10 @@
           "49-3"
         ],
         "passages": {
-          "734": "Table 49-3"
+          "734": {
+            "text": "Table 49-3",
+            "imageFile": "hazzard8e_ch49_table-49-3_p734.webp"
+          }
         }
       }
     },
@@ -14116,7 +14203,10 @@
           "49"
         ],
         "passages": {
-          "737": "Many trials have shown that resistance exercise can be embedded in a multifaceted exercise p"
+          "737": {
+            "text": "Physical Exercise There is compelling evidence that supports the benefits of resistance exercise i",
+            "rangeText": "resistance exercise in improving skeletal muscle function and mass"
+          }
         }
       }
     },
@@ -14292,7 +14382,10 @@
           "87"
         ],
         "passages": {
-          "1356": "Colonic motility depends on the integrity of the central and autonomic nervous systems, gut "
+          "1356": {
+            "text": "a reduction in colonic enteric neurons producing nitric oxide and acetylcholine",
+            "rangeText": "a reduction in colonic enteric neurons producing nitric oxide and acetylcholine"
+          }
         }
       }
     },
@@ -14366,7 +14459,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1392": "Recent studies indicate that the prevalence of depression among patients with cancer is betw"
+          "1392": {
+            "text": "selective serotonin reuptake inhibitors like citalopram, fluoxetine, paroxetine, and sertraline are first-line choice of drugs in older adults",
+            "rangeText": "selective serotonin reuptake inhibitors like citalopram, fluoxetine, paroxetine, and sertraline are first-line choice of drugs in older adults"
+          }
         }
       }
     },
@@ -14717,9 +14813,16 @@
         ],
         "passages": {
           "1361": "Hypokalemia produces neuronal dysfunction that minimizes acetylcholine stimulation of gut sm",
-          "1362": "Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in hospitalized "
-        }
-      }
+          "1362": {
+            "text": "Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in hospitalized frail older people",
+            "rangeText": "Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in hospitalized frail older people"
+          }
+        },
+        "citationOnly": [
+          1361
+        ]
+      },
+      "referenceNote": "The bibliography gives pp1361–1362. Page 1361 mentions potassium testing in pseudo-obstruction and volvulus. The diagnostic description of postoperative colonic dilatation is on p1362."
     },
     "3519": {
       "id": "mcq-4641bad3c4f4169ea022ed51",
@@ -15084,7 +15187,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1385": "Acute myelogenous leukemia (AML) has a much poorer prognosis in older patients and the biolo"
+          "1385": {
+            "text": "high frequency of preceding myelodysplastic syndromes",
+            "rangeText": "high frequency of preceding myelodysplastic syndromes"
+          }
         }
       }
     },
@@ -15502,7 +15608,10 @@
           "87-5"
         ],
         "passages": {
-          "1359": "Table 87-5 — Risk factors for constipation in older people"
+          "1359": {
+            "text": "Anticholinergic drugs (tricyclics, antipsychotics, antihistamines, antiemetics, drugs for detrusor hyperactivity)",
+            "rangeText": "Anticholinergic drugs (tricyclics, antipsychotics, antihistamines, antiemetics, drugs for detrusor hyperactivity)"
+          }
         }
       }
     },
@@ -15554,7 +15663,10 @@
         ],
         "bankChapter": "75",
         "passages": {
-          "1153": "Table 75-3"
+          "1153": {
+            "text": "Table 75-3",
+            "imageFile": "hazzard8e_ch75_table75-3_p1153.png"
+          }
         }
       }
     },
@@ -15757,7 +15869,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1392": "Recent studies indicate that the prevalence of depression among patients with cancer is betw"
+          "1392": {
+            "text": "mirtazapine is useful for mood, appetite, and sleep",
+            "rangeText": "mirtazapine is useful for mood, appetite, and sleep"
+          }
         }
       }
     },
@@ -15947,7 +16062,10 @@
           "44"
         ],
         "passages": {
-          "655": "Pharmacologic management There are no currently FDA-approved therapies for RBD. The goal of "
+          "655": {
+            "text": "Pharmacologic management There are no currently FDA-approved therapies for RBD. The goal of tr",
+            "rangeText": "only melatonin was associated with reduced injuries and falls"
+          }
         }
       }
     },
@@ -16213,7 +16331,10 @@
           "87"
         ],
         "passages": {
-          "1362": "Acute colonic pseudo-obstruction (Ogilvie syndrome) is most likely to occur in hospitalized "
+          "1362": {
+            "text": "progressing to neostigmine (if no cardiac contraindications), and then endoscopic decompression if dilatation persists",
+            "rangeText": "progressing to neostigmine (if no cardiac contraindications), and then endoscopic decompression if dilatation persists"
+          }
         }
       }
     },
@@ -16295,7 +16416,10 @@
           "75-15"
         ],
         "passages": {
-          "1161": "Table 75-15"
+          "1161": {
+            "text": "Table 75-15",
+            "imageFile": "hazzard8e_ch75_table75-15_p1161.png"
+          }
         }
       }
     },
@@ -17925,8 +18049,14 @@
         ],
         "bankChapter": "87",
         "passages": {
-          "1357": "The most common form of anorectal dysfunction in older people is rectal dysmotility, charact",
-          "1358": "FIGURE 87-2. A series of schematic diagrams that reveal the normal anatomy and physiology of"
+          "1357": {
+            "text": "One postulated cause for rectal dysmotility is diminished parasympathetic outflow",
+            "rangeText": "One postulated cause for rectal dysmotility is diminished parasympathetic outflow"
+          },
+          "1358": {
+            "text": "Figure 87-2",
+            "imageFile": "hazzard8e_ch87_figure87-2.png"
+          }
         }
       }
     },
@@ -18113,7 +18243,7 @@
         4307
       ],
       "readerReference": "Hazzard 8e · p. 1632, 1636",
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1632, 1636.",
+      "referenceNote": "The bibliography prints chapter 102, p. 1632, Table 102-3, plus chapter 75, p. 1120. Page 1120 belongs to chapter 73 and discusses cardiac aging. The walker finding is in Table 102-3. Page 1636 is related teaching on bicycle and treadmill testing.",
       "readerMapping": {
         "printedPages": [
           1120,
@@ -18124,9 +18254,7 @@
           "75"
         ],
         "chapters": [
-          "102",
-          "75",
-          "73"
+          "102"
         ],
         "tables": [
           "102-3"
@@ -18136,8 +18264,18 @@
         ],
         "bankChapter": "102",
         "passages": {
-          "1632": "Table 102-3"
-        }
+          "1632": {
+            "text": "Table 102-3",
+            "imageFile": "hazzard8e_ch102_table102-3_p1632.png"
+          },
+          "1636": {
+            "text": "Bicycle and treadmill tests help to differentiate between neurogenic claudication and vascular claudication",
+            "rangeText": "Bicycle and treadmill tests help to differentiate between neurogenic claudication and vascular claudication"
+          }
+        },
+        "citationOnly": [
+          1120
+        ]
       }
     },
     "4458": {
@@ -19118,8 +19256,14 @@
           "44-1"
         ],
         "passages": {
-          "644": "Figure 44-1",
-          "643": "Sleep is a reversible behavioral state that is characterized by a decreased responsiveness t"
+          "644": {
+            "text": "Figure 44-1",
+            "imageFile": "hazzard8e_ch44_figure44-1.png"
+          },
+          "643": {
+            "text": "Sleep is a reversible behavioral state that is characterized by a decreased responsiveness to ",
+            "rangeText": "more fragmented sleep occur with aging"
+          }
         }
       }
     },
@@ -19234,7 +19378,10 @@
           "49"
         ],
         "passages": {
-          "736": "Frailty, addressed in Chapter 42, has a physical aspect that is closely related to sarcopeni"
+          "736": {
+            "text": "The recent global definition of malnutrition, the Global Leadership Initiative on Malnutrition (GL",
+            "rangeText": "When low muscle mass is not associated with low muscle function, malnutrition will probably be present"
+          }
         }
       }
     },
@@ -19658,7 +19805,10 @@
         ],
         "bankChapter": "75",
         "passages": {
-          "1153": "Table 75-3"
+          "1153": {
+            "text": "Table 75-3",
+            "imageFile": "hazzard8e_ch75_table75-3_p1153.png"
+          }
         }
       }
     },
@@ -19840,8 +19990,14 @@
           "44"
         ],
         "passages": {
-          "663": "The presence of dementia and other neurodegenerative disorders may impact therapy for sleep ",
-          "662": "Sleep in older adults living in nursing homes is well known to be disturbed, particularly in"
+          "663": {
+            "text": "The presence of dementia and other neurodegenerative disorders may impact therapy for sleep di",
+            "rangeText": "the most promising approaches are increased daytime light exposure"
+          },
+          "662": {
+            "text": "Sleep in older adults living in nursing homes is well known to be disturbed, particularly in p",
+            "rangeText": "a lack of exposure to light and alerting activities during the day"
+          }
         }
       }
     },
@@ -20218,7 +20374,7 @@
         4390
       ],
       "readerReference": "Hazzard 8e · p. 1152",
-      "referenceNote": "Printed IMA citation retained; checked explanation source: Hazzard 8e · p. 1152.",
+      "referenceNote": "The printed citation, p. 1150, discusses higher perioperative risk in older women. The full list of surgical predictors is additional teaching on p. 1152.",
       "readerMapping": {
         "printedPages": [
           1150
@@ -20231,8 +20387,14 @@
         ],
         "bankChapter": "75",
         "passages": {
-          "1152": "Operative risk associated with SAVR should be assessed using the Society of Thoracic Surgeon",
-          "1150": "Patients with aortic valve stenosis develop compensatory LV hypertrophy, which can be seen o"
+          "1152": {
+            "text": "Predictors of surgical mortality include emergency surgery, right heart failure",
+            "rangeText": "Predictors of surgical mortality include emergency surgery, right heart failure"
+          },
+          "1150": {
+            "text": "Older women are prone to develop excessive ventricular hypertrophy",
+            "rangeText": "Older women are prone to develop excessive ventricular hypertrophy"
+          }
         }
       }
     },
@@ -22596,7 +22758,10 @@
           "75-14"
         ],
         "passages": {
-          "1161": "Table 75-14 — Endocarditis prophylaxis antibiotic recommendations"
+          "1161": {
+            "text": "Clindamycin OR Cephalexin",
+            "rangeText": "Clindamycin OR Cephalexin"
+          }
         }
       }
     },
@@ -23667,10 +23832,17 @@
           "75"
         ],
         "passages": {
-          "1153": "Randomized controlled trials demonstrated that TAVR, particularly transfemoral TAVR, is as e",
+          "1153": {
+            "text": "the rates of paravalvular leak, vascular complications, and pacemaker implantation are higher with TAVR",
+            "rangeText": "the rates of paravalvular leak, vascular complications, and pacemaker implantation are higher with TAVR"
+          },
           "1152": "Aortic valve replacement—surgical aortic valve replacement (SAVR) or TAVR—should be consider"
-        }
-      }
+        },
+        "citationOnly": [
+          1152
+        ]
+      },
+      "referenceNote": "The bibliography cites pp. 1152–1153. Page 1152 introduces SAVR and TAVR. The direct comparison of pacemaker, leak, stroke and atrial fibrillation rates is on p. 1153."
     },
     "5025": {
       "id": "mcq-36b2081a17bce603a66607e3",
@@ -24155,9 +24327,18 @@
           "75-4"
         ],
         "passages": {
-          "1154": "Table 75-4",
-          "1156": "Mitral stenosis often presents with new-onset atrial fibrillation or an embolic event; somet",
-          "1150": "Aortic stenosis has a long asymptomatic latency period, when the only finding is a harsh, la"
+          "1154": {
+            "text": "Table 75-4",
+            "imageFile": "hazzard8e_ch75_table75-4_p1154.png"
+          },
+          "1156": {
+            "text": "The left recurrent laryngeal nerve can be compressed by the enlarged left atrium",
+            "rangeText": "The left recurrent laryngeal nerve can be compressed by the enlarged left atrium"
+          },
+          "1150": {
+            "text": "characterized by a weak and diminished pulse with a late upstroke",
+            "rangeText": "characterized by a weak and diminished pulse with a late upstroke"
+          }
         }
       }
     },
@@ -25374,8 +25555,14 @@
           1151
         ],
         "passages": {
-          "1150": "Patients with aortic valve stenosis develop compensatory LV hypertrophy, which can be seen o",
-          "1151": "Aortic valve stenosis presenting with congestive heart failure carries the worst prognosis—5"
+          "1150": {
+            "text": "Patients with aortic valve stenosis develop compensatory LV hypertrophy",
+            "rangeText": "Patients with aortic valve stenosis develop compensatory LV hypertrophy"
+          },
+          "1151": {
+            "text": "Patients can also develop Heyde syndrome",
+            "rangeText": "Patients can also develop Heyde syndrome"
+          }
         }
       }
     },

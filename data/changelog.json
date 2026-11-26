@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v312",
+      "date": "2026-11-26",
+      "changes": [
+        "Valvular heart disease, constipation, cancer and aging, sleep disorders, and sarcopenia now have exam-linked Study notes, Israeli context, flashcards and revised question explanations."
+      ]
+    },
+    {
       "version": "v311",
       "date": "2026-11-26",
       "changes": [

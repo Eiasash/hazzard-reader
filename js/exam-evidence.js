@@ -70,7 +70,7 @@ window.HazzardEvidence = (() => {
     url.searchParams.set('examBack', '1'); url.hash = page.anchor || 'p' + page.page;
     location.assign(url);
   }
-  const rebuilt = new Set(['1','3','7','17','22','27','42','43','46','51','53','55','58','59','61','62','65','68','74','76','81','83','98','99']);
+  const rebuilt = new Set(['1','3','7','17','22','27','42','43','44','46','49','51','53','55','58','59','61','62','65','68','74','75','76','81','83','87','88','98','99']);
   const isRebuilt = chapter => rebuilt.has(String(chapter));
   async function addPassages(copy,chapter,data){
     data ||= await references();
