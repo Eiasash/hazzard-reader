@@ -50,9 +50,9 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 **את מי הגדיר החוק?** קביעה של חולה הנוטה למות דורשת מחלה חשוכת מרפא ותוחלת חיים של עד שישה חודשים גם אם יינתן טיפול. בשלב הסופי נדרשים גם כשל של כמה מערכות חיוניות ותוחלת חיים של עד שבועיים. דמנציה כשלעצמה אינה מספיקה לקביעה. המלצות המותב עוסקות בחולה עם קיהיון שהוגדר כך לפי החוק. [חוק החולה הנוטה למות, סעיף 8](https://main.knesset.gov.il/apps/legislation/main/laws/2000296) · [המלצות המותב, עמ׳ 1–2](https://www.gov.il/he/pages/peg-dementia).
 
-**בחירת דרך ההאכלה.** המותב מעדיף האכלה פומית כל עוד היא מתאימה מבחינה רפואית ותזונתית. מערבים קלינאית תקשורת ותזונאית, מתאימים את מרקם המזון ומאפשרים זמן להאכלה זהירה. כשהצריכה אינה מספיקה בוחנים השלמת נוזלים או דרך מתן אחרת. זונדה יכולה לשמש לזמן קצר במקרים מתאימים. המותב ממליץ להימנע מהתקנת PEG בזמן מחלה חריפה בחולה זה ובשלב הסופי. הרופא האחראי מתעד את ההחלטה ואת נימוקיה. [המלצות מעשיות א–ט, עמ׳ 5–6](https://www.gov.il/he/pages/peg-dementia).
+**בחירת דרך ההאכלה.** המותב מעדיף האכלה פומית כל עוד היא מתאימה מבחינה רפואית ותזונתית. מערבים קלינאית תקשורת ותזונאית, מתאימים את מרקם המזון ומאפשרים זמן להאכלה זהירה. כשהאכלה פומית מיטבית אינה מספקת את הצרכים מבחינה רפואית ותזונתית, המותב מנחה להשלים בדרך אחרת לפי המצב. אם נדרשת דרך הזנה ממושכת והיא אפשרית מבחינה רפואית, המותב מעדיף PEG על פני זונדה קבועה משיקולי נוחות. זונדה זמנית עשויה להתאים עד לקבלת החלטה. המותב ממליץ להימנע מהתקנת PEG בזמן מחלה חריפה בחולה זה ובשלב הסופי. הרופא האחראי מתעד את ההחלטה ואת נימוקיה. [המלצות מעשיות א–ט, עמ׳ 5–6](https://www.gov.il/he/pages/peg-dementia).
 
-**השלב הסופי וטיפול מקל.** כשחולה חסר כשרות הוגדר כנוטה למות, מזון ונוזלים נכללים בטיפול הנלווה לפי תנאי סעיף 16(ב). בחולה בשלב הסופי שסובל סבל משמעותי ושנקבע רצונו להימנע מהארכת חיים, חלה הוראת סעיף 17. יש להמשיך מתן נוזלים גם באמצעים מלאכותיים, אלא אם הרופא האחראי קבע שהנוזלים גורמים סבל או נזק. סעיף 23 מחייב לעשות ככל האפשר להקל על כאב וסבל לפי רצון החולה, גם אם כרוך בכך סיכון סביר לחייו. [חוק החולה הנוטה למות, סעיפים 16(ב), 17 ו־23](https://main.knesset.gov.il/apps/legislation/main/laws/2000296).
+**השלב הסופי וטיפול מקל.** בחולה הנוטה למות שאינו כשיר, סובל סבל משמעותי ונקבע לפי החוק שאינו רוצה בהארכת חייו, סעיף 16 מבחין בין טיפול במחלה חשוכת המרפא לבין טיפול נלווה. כל עוד לא הוגדר בשלב הסופי, אין להימנע מטיפול נלווה, ובכללו מזון ונוזלים גם באמצעים מלאכותיים. אם הוגדר בשלב הסופי ומתקיימים אותם תנאים, סעיף 17 מורה להימנע בהתאם לרצונו גם מטיפול נלווה, למעט נוזלים. יש להמשיך מתן נוזלים גם באמצעים מלאכותיים, אלא אם הרופא האחראי קבע שהנוזלים גורמים סבל או נזק. סעיף 23 מחייב לעשות ככל האפשר להקל על כאב וסבל לפי רצון החולה, גם אם כרוך בכך סיכון סביר לחייו. [חוק החולה הנוטה למות, סעיפים 16(ב), 17 ו־23](https://main.knesset.gov.il/apps/legislation/main/laws/2000296).
 
 ## Hospice, frailty and care for the whole person
 
@@ -68,7 +68,7 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 **Estimate, communicate, then check interpretation.** Combine stage of disease, function, cognition and comorbidity. Clinicians often overestimate survival. Discuss a range or several plausible scenarios, after asking what the patient wants to know. Ask the patient or surrogate what they took from the discussion; their experience of previous recoveries can lead them to interpret the same facts differently. Compare time to benefit with life expectancy before recommending preventive treatment (pp. 1050–1052).
 
-**Decisions across settings.** For multimorbidity, start with patient preferences, assess how well the evidence fits, consider prognosis and feasibility, and simplify the plan around those priorities. Revisit the plan as circumstances change. In the US, a proxy identifies the future decision maker, a living will records preferences for future decisions after capacity is lost, and POLST translates current choices into portable medical orders. A videoconference can include a distant supporter if the patient wishes. Check hearing and visual cues and summarize the plan afterward (pp. 1049, 1052–1053, Table 67-4).
+**Decisions across settings.** For multimorbidity, start with patient preferences, assess how well the evidence fits, consider prognosis and feasibility, and simplify the plan around those priorities. Revisit the plan as circumstances change. In the US, a health care power of attorney names the future decision maker, a living will records preferences for future decisions after capacity is lost, and POLST translates current choices into portable medical orders. A videoconference can include a distant supporter if the patient wishes. Check hearing and visual cues and summarize the plan afterward (pp. 1049, 1052–1053, Table 67-4).
 
 **CPR and spiritual distress.** ICARE starts by introducing the discussion, then elicits care goals, checks alignment, makes a recommendation and explores apparent conflicts. The chapter reports 17% survival to discharge and 7% discharge home among older inpatients undergoing CPR. Relate the likely outcome to what matters to this individual. FICA explores faith or other sources of meaning, their importance, community, and how to address those needs in care. Offer spiritual or community support in the form the person chooses (pp. 1053–1054, Table 67-5).
 
@@ -83,13 +83,13 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 ### Assessment & planning
 - Prognostication involves estimating, communicating and interpreting prognosis; compare time to benefit with life expectancy. (p. 1050)
 - Clinicians tend to overestimate survival by **3-5-fold**. Combine clinical information, cognition, function and prognostic indices; acknowledge uncertainty. (p. 1051)
-- ACP is an ongoing conversation. In the US framework, a proxy designates a decision maker, a living will states future wishes, and POLST records current treatment orders. (p. 1052)
+- ACP is an ongoing conversation. In the US framework, a health care proxy document designates a decision maker, a living will states future wishes, and POLST records current treatment orders. (p. 1052)
 
 ### Management & drugs
 <a id="p1048"></a>
 - Advanced dementia: offer assisted oral feeding; feeding tubes have not improved survival, quality of life, aspiration prevention or pressure-ulcer healing. (p. 1048)
 - Pain may drive behavioral symptoms: acetaminophen was the first step for most patients in a stepwise trial; opioids may be tried for nonresponders. Antipsychotics are not first-line behavioral treatment. (p. 1048)
-- Aspiration-pneumonia antibiotics in advanced dementia were associated with longer survival, not better comfort; intravenous treatment/hospitalization caused greatest discomfort. Align infection treatment with goals. (p. 1048)
+- Aspiration-pneumonia antibiotics in advanced dementia were associated with longer survival, not better comfort; intravenous treatment or hospitalization was associated with the greatest discomfort. Align infection treatment with goals. (p. 1048)
 - Frailty care: consider reversibility, treatment burden and patient goals; a therapeutic trial can clarify potential, with renewed goals discussion if function does not improve. (p. 1049)
 
 ### Exam traps
@@ -117,7 +117,7 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 **9. How did aspiration-pneumonia antibiotics affect survival and comfort in advanced dementia?**
 
-<details><summary>Answer</summary>They were associated with improved survival, not improved comfort; intravenous treatment and hospitalization caused greatest discomfort, with similar survival benefit across administration routes. (p. 1048)</details>
+<details><summary>Answer</summary>They were associated with improved survival, not improved comfort; intravenous treatment or hospitalization was associated with the greatest discomfort, with similar survival benefit across administration routes. (p. 1048)</details>
 
 **11. What domains structure care for multimorbidity?**
 

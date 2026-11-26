@@ -5898,7 +5898,7 @@
     "page": 701,
     "anchor": "exam-p701-mcq-e2d127b4b2b341b7154a9425",
     "front": "Why consider pressure-flow testing before prostate surgery in a man with Parkinson disease who has urgency and slow flow?",
-    "back": "Overactivity during filling can coexist with weak contractility during emptying. Outlet surgery cannot correct an underactive detrusor. Hazzard 8e, Ch. 47, p. 701 and Ch. 38, p. 562.",
+    "back": "Overactivity during filling can coexist with weak contractility during emptying. Outlet surgery can relieve coexisting obstruction, but effective detrusor contraction and normal emptying are not assured. Hazzard 8e, Ch. 47, p. 701 and Ch. 38, p. 562.",
     "questionIds": [
       "mcq-e2d127b4b2b341b7154a9425"
     ]
@@ -6052,6 +6052,85 @@
     ]
   },
   {
+    "id": "ch52-hand-thermal",
+    "chapter": "52",
+    "page": 785,
+    "anchor": "exam-p785-mcq-be42dc9ffed6104e5fdedf88",
+    "front": "Which physical treatment in the OA figure applies directly to a painful hand as well as to the knee and hip?",
+    "back": "Local heat or cold can give temporary relief. The figure gives a conditional recommendation for all three joints. Weight loss and tai chi are knee and hip interventions in this comparison. Hazzard 8e, pp. 785–787, Figures 52-4 and 52-5.",
+    "questionIds": [
+      "mcq-be42dc9ffed6104e5fdedf88"
+    ]
+  },
+  {
+    "id": "ch52-knee-radiograph",
+    "chapter": "52",
+    "page": 782,
+    "anchor": "exam-p782-mcq-21da5c61dfcebe5d355fab8f",
+    "front": "A patient has knee pain on stairs and brief stiffness after rest. Which radiographic pair fits?",
+    "back": "Tibiofemoral joint-space narrowing and marginal osteophytes. The film supports a clinical diagnosis. The degree of narrowing alone cannot tell you how much the patient hurts. Hazzard 8e, pp. 781–782.",
+    "questionIds": [
+      "mcq-21da5c61dfcebe5d355fab8f"
+    ]
+  },
+  {
+    "id": "ch52-tramadol-mortality",
+    "chapter": "52",
+    "page": 788,
+    "anchor": "exam-p788-mcq-08422871dc127dcc0309a5da",
+    "front": "Which potential harm of tramadol was examined, and how should the evidence be described?",
+    "back": "In an OA cohort, starting tramadol was associated with higher one-year mortality than starting several NSAIDs. Confounding by illness severity is possible. Also consider seizures, sedation, falls and respiratory depression. Hazzard 8e, p. 788.",
+    "questionIds": [
+      "mcq-08422871dc127dcc0309a5da"
+    ]
+  },
+  {
+    "id": "ch52-nsaid-ppi",
+    "chapter": "52",
+    "page": 788,
+    "anchor": "exam-p788-mcq-38f357fdf35289d175b07a3e",
+    "front": "What does adding a PPI to a nonselective oral NSAID protect against?",
+    "back": "It reduces upper gastrointestinal ulcer and bleeding risk. It does not remove renal, cardiovascular or fluid-retention risks. Avoid systemic NSAIDs with advanced CKD. Hazzard 8e, pp. 787–788 and 1173.",
+    "questionIds": [
+      "mcq-38f357fdf35289d175b07a3e"
+    ]
+  },
+  {
+    "id": "ch52-knee-injection-ckd",
+    "chapter": "52",
+    "page": 789,
+    "anchor": "exam-p789-mcq-df7cdf261f46a089b090d1a5",
+    "front": "An 82-year-old with stage IV CKD can no longer shop because one knee hurts. What local treatment could help and for how long?",
+    "back": "An intra-articular glucocorticoid can provide temporary symptom relief, sometimes up to two months. Parenteral diclofenac still exposes the kidneys to a systemic NSAID. Hazzard 8e, pp. 788–789.",
+    "questionIds": [
+      "mcq-df7cdf261f46a089b090d1a5"
+    ]
+  },
+  {
+    "id": "ch52-unstable-knee",
+    "chapter": "52",
+    "page": 786,
+    "anchor": "ch52-knee-brace",
+    "front": "Which aid improves stability in knee OA with varus or valgus instability, and which hand holds a cane?",
+    "back": "A fitted knee brace can improve stability and reduce fall risk. A cane belongs opposite the affected knee. Hazzard 8e, pp. 786–787.",
+    "questionIds": [
+      "mcq-06ed2999f88c1ab0c78b66e4"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 786"
+  },
+  {
+    "id": "ch52-hand-nodes-weight",
+    "chapter": "52",
+    "page": 780,
+    "anchor": "ch52-hand-weight",
+    "front": "In a photograph showing nodal finger OA, which modifiable history increases risk despite the hand being a non-weight-bearing joint?",
+    "back": "Excess body weight is associated with hand OA. The classic nodal distribution involves DIP and PIP joints, and first CMC involvement can impair pinch. Hazzard 8e, pp. 780–782.",
+    "questionIds": [
+      "mcq-7de65b6035bfccb52beb4ddb"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 780"
+  },
+  {
     "id": "ch67-painad",
     "chapter": "67",
     "front": "A resident with advanced dementia becomes restless during wound dressing. How can you assess pain when self-report fails?",
@@ -6137,7 +6216,10 @@
     "back": "The hospice physician and a designated attending physician, if present, certify a life expectancy of six months or less on the normal course of the illness. LCD indicators inform the estimate. Hazzard 8e, p. 1046, and CMS Medicare Benefit Policy Manual, ch. 9, §20.1.",
     "page": 1046,
     "anchor": "ch67-hospice",
-    "questionIds": []
+    "questionIds": [
+      "mcq-4ec2588aabe3af775206f353",
+      "mcq-62ca800059668ecc4185efea"
+    ]
   },
   {
     "id": "ch67-frailty",
@@ -6146,7 +6228,9 @@
     "back": "Early frailty can respond to resistance training and nutritional correction. With limited reversibility, tailor activity, the environment and caregiving to the person’s goals. Reassess a therapeutic trial if function does not improve. Hazzard 8e, p. 1049, Table 67-2.",
     "page": 1049,
     "anchor": "ch67-frailty",
-    "questionIds": []
+    "questionIds": [
+      "mcq-dfe37bb79dbb60008ac1ddf5"
+    ]
   },
   {
     "id": "ch67-time-benefit",
@@ -6155,7 +6239,9 @@
     "back": "Intervention-related harm can occur immediately. If benefit takes longer than the patient is expected to live, screening or tight preventive targets may offer burden without a realistic benefit. Hazzard 8e, p. 1050.",
     "page": 1050,
     "anchor": "ch67-time-benefit",
-    "questionIds": []
+    "questionIds": [
+      "mcq-a704076fdccd2728f9149140"
+    ]
   },
   {
     "id": "ch67-prognostic-range",
@@ -6164,16 +6250,21 @@
     "back": "Ask what the patient wants to know. Give a range or best, worst and most likely scenarios, explain what informs the estimate, then ask what the patient and family took from it. Hazzard 8e, pp. 1051–1052.",
     "page": 1052,
     "anchor": "ch67-prognosis",
-    "questionIds": []
+    "questionIds": [
+      "mcq-ec34ac7a3e56cf417d7d53f4",
+      "mcq-f60675b46fe23330a9170065"
+    ]
   },
   {
     "id": "ch67-american-directives",
     "chapter": "67",
     "front": "How do a US health care proxy, living will and POLST differ?",
-    "back": "A proxy names a decision maker. A living will states future treatment wishes after loss of capacity. POLST carries actionable current treatment orders between settings. Hazzard 8e, p. 1052, Table 67-4.",
+    "back": "A health care proxy document names the person who may decide when the patient loses capacity. A living will states future treatment wishes after loss of capacity. POLST carries actionable current treatment orders between settings. Hazzard 8e, p. 1052, Table 67-4.",
     "page": 1052,
     "anchor": "ch67-acp",
-    "questionIds": []
+    "questionIds": [
+      "mcq-fbaf9e3019b3dc8782080787"
+    ]
   },
   {
     "id": "ch67-inclusive",
@@ -6182,7 +6273,9 @@
     "back": "Ask the patient whom they rely on and want included. A family of choice may provide intimate day-to-day support. Help document a surrogate if the person wants that supporter to make future decisions. Hazzard 8e, pp. 1050–1051.",
     "page": 1050,
     "anchor": "ch67-inclusive",
-    "questionIds": []
+    "questionIds": [
+      "mcq-1c4460dbe69d87593585bd76"
+    ]
   },
   {
     "id": "ch67-spiritual",
@@ -6326,5 +6419,237 @@
     "questionIds": [
       "mcq-52e0e246a50af6e23d65cdc9"
     ]
+  },
+  {
+    "id": "ch38-neurologic-surgery",
+    "chapter": "38",
+    "front": "A frail man with Parkinson disease, urgency and poor emptying is considering prostate surgery. What should be clarified before operating?",
+    "back": "Consider urodynamics for detrusor hyperactivity with impaired contractility. A filling study detects involuntary contractions. During voiding, pressure and flow help distinguish outlet resistance from inadequate detrusor contraction. Removing prostate tissue relieves obstruction. If weak contraction also contributes, adequate emptying is less predictable. Hazzard 8e, p. 562.",
+    "page": 562,
+    "anchor": "exam-p562-mcq-e2d127b4b2b341b7154a9425",
+    "questionIds": [
+      "mcq-e2d127b4b2b341b7154a9425"
+    ],
+    "sourceLabel": "Read May 2024 Q68 · Ch. 38, p. 562"
+  },
+  {
+    "id": "ch38-measure-pressure-and-flow",
+    "chapter": "38",
+    "front": "The stream is slow, the residual is high and empiric treatment has failed. Which measurement can identify outlet obstruction?",
+    "back": "Record pressure and flow together while he voids. High detrusor pressure with low flow supports obstruction. A weak contraction can also produce low flow and leave a residual. Hazzard 8e, p. 562.",
+    "page": 562,
+    "anchor": "ch38-pressure-flow",
+    "questionIds": [
+      "mcq-8ef998b3c87a0ca6df11d3e1"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 562"
+  },
+  {
+    "id": "ch38-look-inside-the-bladder",
+    "chapter": "38",
+    "front": "Which finding in a smoker with new urinary symptoms warrants cystoscopic investigation?",
+    "back": "Hematuria. Cystoscopy can reveal a bladder lesion that might otherwise be attributed to the prostate. Pressure-flow testing answers the separate question of functional outlet obstruction. Hazzard 8e, p. 562.",
+    "page": 562,
+    "anchor": "ch38-cystoscopy",
+    "questionIds": [
+      "mcq-8fd8a599e579acbd411273b9"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 562"
+  },
+  {
+    "id": "ch38-measure-night-output",
+    "chapter": "38",
+    "front": "A man wakes several times to urinate. How can you tell whether he produces excess urine overnight?",
+    "back": "Record each void’s time and volume across day and night, including the first morning void in nighttime output. For older adults, at least one-third of the 24-hour output during sleeping hours fits nocturnal polyuria. Hazzard 8e, p. 562.",
+    "page": 562,
+    "anchor": "ch38-bladder-diary",
+    "questionIds": [
+      "mcq-be04d5b59eb559879338920a"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 562"
+  },
+  {
+    "id": "ch38-mobilized-edema",
+    "chapter": "38",
+    "front": "Why might a patient with dependent leg edema pass large volumes after going to bed?",
+    "back": "On reclining, interstitial fluid returns to the circulation and the kidneys excrete it. Consider venous disease, heart failure and edema-causing drugs when evaluating nocturnal urine production. Hazzard 8e, p. 561.",
+    "page": 561,
+    "anchor": "ch38-nocturnal-output",
+    "questionIds": [
+      "mcq-1d601d564af4df044b9c49eb"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 561"
+  },
+  {
+    "id": "ch38-gabapentin-nocturia",
+    "chapter": "38",
+    "front": "Which pathway links gabapentin, new ankle swelling and nocturia?",
+    "back": "Gabapentin is listed among medications that can cause peripheral edema. Nighttime mobilization of that fluid can produce nocturnal polyuria even when bladder capacity is normal. Hazzard 8e, p. 562.",
+    "page": 562,
+    "anchor": "ch38-edema-table",
+    "questionIds": [
+      "mcq-69e03b307316b91224925641"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 562"
+  },
+  {
+    "id": "ch38-referral-after-drainage",
+    "chapter": "38",
+    "front": "A man has urinary retention despite tamsulosin. After drainage, what happens next?",
+    "back": "Arrange prompt urologic evaluation, especially with recurrent retention or renal impairment. Alpha blockade may relieve outlet tone, but cannot be relied on to prevent the next episode. Hazzard 8e, p. 565.",
+    "page": 565,
+    "anchor": "ch38-retention",
+    "questionIds": [
+      "mcq-d5142a000a9fb66c452625c0",
+      "mcq-bedd0dd0b4be5b1ae8b176b3"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 565"
+  },
+  {
+    "id": "ch38-overflow-and-renal-function",
+    "chapter": "38",
+    "front": "A man has leakage, a bladder palpable to the umbilicus, a residual of 450 mL and rising creatinine. What needs attention first?",
+    "back": "Drain the retained urine and arrange prompt urologic evaluation. An overfull bladder can leak. Adding a bladder relaxant can aggravate emptying and leave the kidneys at risk. Hazzard 8e, p. 565.",
+    "page": 565,
+    "anchor": "ch38-retention",
+    "questionIds": [
+      "mcq-cd622a8eb755e967e6603da4"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 565"
+  },
+  {
+    "id": "ch38-alpha-blocker-versus-reductase",
+    "chapter": "38",
+    "front": "Which selective alpha blocker can improve urinary symptoms within weeks, and what long-term outcome should you avoid promising?",
+    "back": "Tamsulosin relaxes outlet smooth muscle. An easier stream does not prove the future risk of retention has fallen. Reductase inhibitors can lower that risk in men with enlargement, but act much more slowly. Hazzard 8e, p. 566.",
+    "page": 566,
+    "anchor": "ch38-alpha-blockade",
+    "questionIds": [
+      "mcq-732f99b5e51e155790d5574d",
+      "mcq-a9d27e290365a0eff11a0111"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 566"
+  },
+  {
+    "id": "ch38-postural-risk",
+    "chapter": "38",
+    "front": "A man develops postural dizziness on terazosin. What trade-off can he expect if he changes to tamsulosin?",
+    "back": "Similar average urinary symptom relief with generally less dizziness and hypotension. Monitor standing symptoms with either drug, especially when he already falls or takes antihypertensives. Hazzard 8e, p. 566.",
+    "page": 566,
+    "anchor": "ch38-orthostasis",
+    "questionIds": [
+      "mcq-5508470dff13ec7409c790ee",
+      "mcq-652379db9f9efb1ec8394da7"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 566"
+  },
+  {
+    "id": "ch38-finasteride-onset",
+    "chapter": "38",
+    "front": "How would you explain the wait for symptom relief after starting finasteride?",
+    "back": "Finasteride reduces conversion of testosterone to dihydrotestosterone. The prostate shrinks over months, and improvement may take six to ten months. It is a poor match if rapid relief is the immediate goal. Hazzard 8e, p. 566.",
+    "page": 566,
+    "anchor": "ch38-reductase",
+    "questionIds": [
+      "mcq-d59b01a4acacabb7c673414b"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 566"
+  },
+  {
+    "id": "ch38-daily-tadalafil",
+    "chapter": "38",
+    "front": "A man has both erectile dysfunction and BPH-related urinary symptoms. Which daily PDE-5 inhibitor has US approval for the urinary indication?",
+    "back": "Tadalafil 5 mg once daily. Trials also evaluated sildenafil and vardenafil for urinary symptoms, but neither shares this US indication. Hazzard 8e, p. 567.",
+    "page": 567,
+    "anchor": "ch38-tadalafil",
+    "questionIds": [
+      "mcq-572354876b00f8cddc2fdaba"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 567"
+  },
+  {
+    "id": "ch38-adding-tadalafil",
+    "chapter": "38",
+    "front": "A man already on tamsulosin asks whether adding tadalafil is likely to bring a meaningful extra urinary symptom benefit. What did the trials in Chapter 38 show?",
+    "back": "The pooled additional improvement was about 1.7 IPSS points, below the three-point threshold used in that analysis. Erectile benefit is a separate goal. Both drugs can lower blood pressure. Hazzard 8e, p. 568.",
+    "page": 568,
+    "anchor": "ch38-combination",
+    "questionIds": [
+      "mcq-91c67fa287c0724b8c8c181e"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 568"
+  },
+  {
+    "id": "ch38-saw-palmetto",
+    "chapter": "38",
+    "front": "How do you counsel a patient who wants long-term saw palmetto for urinary symptoms?",
+    "back": "Products varied and most trials were short. A later trial in men with moderate to severe symptoms found no advantage over placebo. Few reported side effects cannot establish long-term safety. Hazzard 8e, p. 568.",
+    "page": 568,
+    "anchor": "ch38-plant-extracts",
+    "questionIds": [
+      "mcq-31abbe68c0111e3db701578e",
+      "mcq-538d9ecf8a93eba8c26e4dbf"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 568"
+  },
+  {
+    "id": "ch38-resecting-obstruction",
+    "chapter": "38",
+    "front": "A man has recurrent retention, proven outlet obstruction and preserved detrusor contraction after failed medical therapy. Which procedure removes the blockage?",
+    "back": "Transurethral resection removes obstructing adenoma and leaves the capsule in place. Its anatomical benefit fits documented outlet resistance. A pressure-flow assessment helps identify men whose bladders can generate a useful contraction. Hazzard 8e, p. 568.",
+    "page": 568,
+    "anchor": "ch38-resection",
+    "questionIds": [
+      "mcq-2f3031e84498cec76f67ede4"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 568"
+  },
+  {
+    "id": "ch38-bipolar-irrigant",
+    "chapter": "38",
+    "front": "Why does bipolar TURP carry less risk of classic TURP syndrome than monopolar resection?",
+    "back": "The bipolar circuit permits isotonic saline irrigation. Absorption of hypotonic fluid with classic monopolar resection can dilute serum sodium and cause volume overload. Hazzard 8e, p. 568.",
+    "page": 568,
+    "anchor": "ch38-bipolar",
+    "questionIds": [
+      "mcq-32ab39584072284434f99951"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 568"
+  },
+  {
+    "id": "ch38-durability-after-turp",
+    "chapter": "38",
+    "front": "Do years of good flow after TURP guarantee that the operation will never be needed again?",
+    "back": "No. Relief generally persists but can diminish with time. Average reoperation rates in the chapter were about 1% to 2% per year. TURP leaves some prostate tissue in place. Hazzard 8e, p. 568.",
+    "page": 568,
+    "anchor": "ch38-turp-outcomes",
+    "questionIds": [
+      "mcq-547576d656fb8d8bea550882"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 568"
+  },
+  {
+    "id": "ch38-vaporization-and-bleeding",
+    "chapter": "38",
+    "front": "When discussing GreenLight laser vaporization with a man at high bleeding risk, what benefit and tissue trade-off matter?",
+    "back": "Coagulation during vaporization lowers transfusion risk compared with TURP. All treated tissue is vaporized, leaving no specimen for histopathology. In the multicenter trial the need for reoperation was similar at two years. Hazzard 8e, p. 569.",
+    "page": 569,
+    "anchor": "ch38-vaporization",
+    "questionIds": [
+      "mcq-4fa7e0b40b9d31b0d449a8e6"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 569"
+  },
+  {
+    "id": "ch38-lift-or-resection",
+    "chapter": "38",
+    "front": "How do prostatic urethral lift and TURP compare for a man who values ejaculation as well as symptom relief?",
+    "back": "TURP produced greater symptom and flow improvements in the comparative trial. The lift retracts tissue with implants and better preserved ejaculation. The choice depends on which outcome matters more to him. Hazzard 8e, p. 569.",
+    "page": 569,
+    "anchor": "ch38-lift",
+    "questionIds": [
+      "mcq-4a67daf896618faf079e1cb0"
+    ],
+    "sourceLabel": "Read the practice topic · Ch. 38, p. 569"
   }
 ]

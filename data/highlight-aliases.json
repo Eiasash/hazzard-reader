@@ -1547,7 +1547,63 @@
     "chapter": "47s",
     "id": "u29",
     "old": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712).",
-    "new": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712); Required reading: see AGS Beers 2023 required-article card for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)"
+    "new": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; Table 47-12 (p712) lists a history of gynecologic cancer as a contraindication and breast cancer as a relative contraindication. In practice, cancer type and treatment matter. After inadequate relief with nonhormonal treatment, selected breast-cancer survivors may choose low-dose vaginal estrogen after a risk–benefit discussion. For patients taking an aromatase inhibitor, involve the oncologist in that decision. ACOG clinical consensus, 2021. See AGS Beers 2023 required-article card for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)",
+    "edits": [
+      [
+        90,
+        105,
+        90,
+        95
+      ],
+      [
+        106,
+        110,
+        96,
+        127
+      ],
+      [
+        130,
+        138,
+        147,
+        149
+      ],
+      [
+        139,
+        147,
+        150,
+        151
+      ],
+      [
+        165,
+        169,
+        169,
+        172
+      ],
+      [
+        184,
+        191,
+        187,
+        670
+      ],
+      [
+        199,
+        204,
+        678,
+        679
+      ],
+      [
+        206,
+        210,
+        681,
+        686
+      ],
+      [
+        211,
+        212,
+        687,
+        687
+      ]
+    ]
   },
   {
     "chapter": "58s",
@@ -20076,6 +20132,528 @@
         44,
         55,
         66
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u29",
+    "old": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; contraindicated with gynecologic cancer history, relative contraindication with breast cancer history (Table 47-12, p712); Required reading: see AGS Beers 2023 required-article card for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)",
+    "new": "Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; Table 47-12 (p712) lists a history of gynecologic cancer as a contraindication and breast cancer as a relative contraindication. In practice, cancer type and treatment matter. After inadequate relief with nonhormonal treatment, selected breast-cancer survivors may choose low-dose vaginal estrogen after a risk–benefit discussion. For patients taking an aromatase inhibitor, involve the oncologist in that decision. ACOG clinical consensus, 2021. See AGS Beers 2023 required-article card for systemic versus low-dose vaginal estrogen and the breast-cancer discussion qualification (Table 2, p2061)",
+    "edits": [
+      [
+        90,
+        105,
+        90,
+        95
+      ],
+      [
+        106,
+        110,
+        96,
+        127
+      ],
+      [
+        130,
+        138,
+        147,
+        149
+      ],
+      [
+        139,
+        147,
+        150,
+        151
+      ],
+      [
+        165,
+        169,
+        169,
+        172
+      ],
+      [
+        184,
+        191,
+        187,
+        189
+      ],
+      [
+        192,
+        198,
+        190,
+        191
+      ],
+      [
+        199,
+        204,
+        192,
+        230
+      ],
+      [
+        206,
+        212,
+        232,
+        238
+      ],
+      [
+        213,
+        221,
+        239,
+        243
+      ],
+      [
+        222,
+        230,
+        244,
+        247
+      ],
+      [
+        231,
+        234,
+        248,
+        540
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u102",
+    "old": "The actual exam questions and keys as printed in this chapter's source file (reproduced verbatim, not paraphrased).",
+    "new": "English renderings of the 2026 questions and their post-appeal answers follow.",
+    "edits": [
+      [
+        0,
+        3,
+        0,
+        7
+      ],
+      [
+        4,
+        10,
+        8,
+        18
+      ],
+      [
+        11,
+        15,
+        19,
+        30
+      ],
+      [
+        30,
+        34,
+        45,
+        50
+      ],
+      [
+        35,
+        37,
+        51,
+        62
+      ],
+      [
+        38,
+        45,
+        63,
+        70
+      ],
+      [
+        46,
+        114,
+        71,
+        77
+      ]
+    ]
+  },
+  {
+    "chapter": "67s",
+    "id": "u10",
+    "old": "ACP is an ongoing conversation. In the US framework, a proxy designates a decision maker, a living will states future wishes, and POLST records current treatment orders. (p. 1052)",
+    "new": "ACP is an ongoing conversation. In the US framework, a health care proxy document designates a decision maker, a living will states future wishes, and POLST records current treatment orders. (p. 1052)",
+    "edits": [
+      [
+        55,
+        55,
+        55,
+        67
+      ],
+      [
+        60,
+        60,
+        72,
+        81
+      ]
+    ]
+  },
+  {
+    "chapter": "67s",
+    "id": "u14",
+    "old": "Aspiration-pneumonia antibiotics in advanced dementia were associated with longer survival, not better comfort; intravenous treatment/hospitalization caused greatest discomfort. Align infection treatment with goals. (p. 1048)",
+    "new": "Aspiration-pneumonia antibiotics in advanced dementia were associated with longer survival, not better comfort; intravenous treatment or hospitalization was associated with the greatest discomfort. Align infection treatment with goals. (p. 1048)",
+    "edits": [
+      [
+        133,
+        134,
+        133,
+        137
+      ],
+      [
+        150,
+        156,
+        153,
+        176
+      ]
+    ]
+  },
+  {
+    "chapter": "67s",
+    "id": "u55",
+    "old": "They were associated with improved survival, not improved comfort; intravenous treatment and hospitalization caused greatest discomfort, with similar survival benefit across administration routes. (p. 1048)",
+    "new": "They were associated with improved survival, not improved comfort; intravenous treatment or hospitalization was associated with the greatest discomfort, with similar survival benefit across administration routes. (p. 1048)",
+    "edits": [
+      [
+        89,
+        92,
+        89,
+        91
+      ],
+      [
+        109,
+        115,
+        108,
+        131
+      ]
+    ]
+  },
+  {
+    "chapter": "77s",
+    "id": "u20",
+    "old": "DOACs preferred over warfarin as first-line stroke prevention for nonvalvular AF — valvular AF (moderate–severe MS or mechanical valve) needs warfarin regardless of score; no dabigatran/rivaroxaban/edoxaban in ESRD/dialysis (Table 77-8, p1203); apixaban and edoxaban show lower major-bleeding risk in patients 75 years or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (PPI recommended).",
+    "new": "DOACs preferred over warfarin as first-line stroke prevention for nonvalvular AF — valvular AF (moderate–severe MS or mechanical valve) needs warfarin regardless of score; no dabigatran/rivaroxaban/edoxaban in ESRD/dialysis (Table 77-8, p1203); apixaban and edoxaban show lower major-bleeding risk in patients 75 years or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (p1202 recommends a PPI with these agents). In clinical practice, individualize gastroprotection according to overall gastrointestinal bleeding risk. ESC 2024 AF guideline, §6.7.1.",
+    "edits": [
+      [
+        414,
+        414,
+        414,
+        433
+      ],
+      [
+        418,
+        429,
+        437,
+        454
+      ],
+      [
+        431,
+        431,
+        456,
+        593
+      ]
+    ]
+  },
+  {
+    "chapter": "77s",
+    "id": "u77",
+    "old": "Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaroxaban are associated with increased GI bleeding risk (a PPI is recommended with these two) (p1202).",
+    "new": "Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaroxaban are associated with increased GI bleeding risk (p1202). Hazzard recommends a PPI with these agents. The 2024 ESC guideline individualizes gastroprotection according to gastrointestinal bleeding risk.",
+    "edits": [
+      [
+        134,
+        134,
+        134,
+        161
+      ],
+      [
+        139,
+        154,
+        166,
+        166
+      ],
+      [
+        166,
+        170,
+        178,
+        185
+      ],
+      [
+        171,
+        178,
+        186,
+        284
+      ]
+    ]
+  },
+  {
+    "chapter": "52s",
+    "id": "u3",
+    "old": "~240 million worldwide have symptomatic OA; ≥32 million in the US. OA is the 3rd leading cause of years lived with disability in the US and the most common cause of mobility limitation in older adults (p779).",
+    "new": "The chapter estimates ~240 million people worldwide with symptomatic OA and ≥32 million in the US. In the data it cites, OA ranked third for years lived with disability in the US and was the most common cause of mobility limitation in older adults (p779).",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        22
+      ],
+      [
+        13,
+        13,
+        35,
+        42
+      ],
+      [
+        23,
+        27,
+        52,
+        56
+      ],
+      [
+        42,
+        43,
+        71,
+        75
+      ],
+      [
+        67,
+        72,
+        99,
+        101
+      ],
+      [
+        77,
+        80,
+        106,
+        110
+      ],
+      [
+        81,
+        88,
+        111,
+        113
+      ],
+      [
+        89,
+        94,
+        114,
+        120
+      ],
+      [
+        95,
+        97,
+        121,
+        140
+      ],
+      [
+        139,
+        139,
+        182,
+        186
+      ]
+    ]
+  },
+  {
+    "chapter": "52s",
+    "id": "u9",
+    "old": "Genetics: 90 genome-wide significant OA risk loci identified; COL2A1 (type II collagen) is among the implicated genes (p780).",
+    "new": "Genetics: 90 genome-wide significant OA risk loci reported in the studies available to the chapter; COL2A1 (type II collagen) is among the implicated genes (p780).",
+    "edits": [
+      [
+        50,
+        60,
+        50,
+        98
+      ]
+    ]
+  },
+  {
+    "chapter": "52s",
+    "id": "u25",
+    "old": "Viscosupplementation (IA hyaluronic acid): not recommended by ACR/AF/OARSI (p789). Platelet-rich plasma/mesenchymal stem cell therapy: still experimental and not FDA-approved — only within an FDA-approved trial (p789); ACR/AF strongly against for knee/hip (Figure 52-5, p786).",
+    "new": "Viscosupplementation (intra-articular hyaluronic acid) has little clear benefit in low-bias trials. ACR/AF recommends against it for knee OA, while OARSI allows selected knee use depending on comorbidities (p789 and the guideline comparison above). Hazzard advises restricting PRP and mesenchymal stem-cell treatments to trials (p789). ACR/AF recommends against both for knee and hip OA. For symptomatic knee OA specifically, AAOS gives limited support to PRP for pain and function because trial results vary. These treatments have not been shown to restore lost cartilage. AAOS knee OA guideline, Platelet-rich Plasma.",
+    "edits": [
+      [
+        22,
+        24,
+        22,
+        37
+      ],
+      [
+        41,
+        42,
+        54,
+        54
+      ],
+      [
+        43,
+        46,
+        55,
+        58
+      ],
+      [
+        47,
+        58,
+        59,
+        65
+      ],
+      [
+        59,
+        61,
+        66,
+        99
+      ],
+      [
+        68,
+        69,
+        106,
+        148
+      ],
+      [
+        74,
+        74,
+        153,
+        327
+      ],
+      [
+        83,
+        83,
+        336,
+        598
+      ],
+      [
+        97,
+        275,
+        612,
+        618
+      ]
+    ]
+  },
+  {
+    "chapter": "52s",
+    "id": "u41",
+    "old": "At least 32 million people (out of ~240 million worldwide with symptomatic OA); OA is the 3rd leading cause of years lived with disability in the US (p779).",
+    "new": "The chapter reports at least 32 million people in the US and about 240 million worldwide. OA ranked third for years lived with disability in the US estimates it cites (p779).",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        22
+      ],
+      [
+        27,
+        31,
+        47,
+        49
+      ],
+      [
+        32,
+        34,
+        50,
+        53
+      ],
+      [
+        35,
+        36,
+        54,
+        67
+      ],
+      [
+        57,
+        79,
+        88,
+        89
+      ],
+      [
+        83,
+        85,
+        93,
+        99
+      ],
+      [
+        86,
+        89,
+        100,
+        105
+      ],
+      [
+        90,
+        110,
+        106,
+        109
+      ],
+      [
+        149,
+        149,
+        148,
+        167
+      ]
+    ]
+  },
+  {
+    "chapter": "52s",
+    "id": "u59",
+    "old": "Glucosamine and chondroitin sulfate (no more effective than placebo in the lowest-bias data), TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).",
+    "new": "Glucosamine for hand, hip or knee OA, and chondroitin sulfate for hip or knee OA. Hand OA is an exception: ACR/AF conditionally recommends chondroitin sulfate for this site. Other drugs recommended against include TNF inhibitors and IL-1 receptor antagonists (not efficacious for erosive OA), and bisphosphonates (no efficacy for pain or function) (p788; Figure 52-5, p786).",
+    "edits": [
+      [
+        11,
+        11,
+        11,
+        37
+      ],
+      [
+        36,
+        39,
+        62,
+        65
+      ],
+      [
+        40,
+        44,
+        66,
+        69
+      ],
+      [
+        45,
+        54,
+        70,
+        72
+      ],
+      [
+        55,
+        59,
+        73,
+        77
+      ],
+      [
+        60,
+        67,
+        78,
+        81
+      ],
+      [
+        68,
+        70,
+        82,
+        86
+      ],
+      [
+        71,
+        74,
+        87,
+        89
+      ],
+      [
+        75,
+        86,
+        90,
+        92
+      ],
+      [
+        87,
+        93,
+        93,
+        213
       ]
     ]
   }

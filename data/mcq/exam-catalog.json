@@ -4760,7 +4760,11 @@
       "fromBasic": false,
       "duplicates": [
         3683
-      ]
+      ],
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": null
+      }
     },
     "3187": {
       "id": "mcq-b50ef7b89d34aea2228e11f4",
@@ -9192,13 +9196,19 @@
           "76"
         ],
         "passages": {
-          "787": "While efficacious, NSAIDs should be prescribed with caution, particularly in patients with c",
-          "788": {
-            "text": "of other medications (eg, glucocorticoids, anticoagulants), and longer therapy duration. Usi",
-            "contextPage": 787,
-            "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk."
+          "787": {
+            "text": "Gastrointestinal complications such as peptic ulcers and bleeding are potential side effects.",
+            "rangeText": "Gastrointestinal complications such as peptic ulcers and bleeding are potential side effects."
           },
-          "1173": "Finally, numerous drugs and medications may contribute to heart failure exacerbations. The A"
+          "788": {
+            "text": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk.",
+            "rangeText": "Using either a COX-2 selective inhibitor or a nonselective NSAID in combination with a proton-pump inhibitor reduces this risk.",
+            "contextPage": 787
+          },
+          "1173": {
+            "text": "can worsen heart failure by impairing renal sodium and water excretion",
+            "rangeText": "can worsen heart failure by impairing renal sodium and water excretion"
+          }
         }
       }
     },
@@ -10981,7 +10991,10 @@
             "text": "detrusor hyperactivity combined with poor bladder contractility",
             "rangeText": "detrusor hyperactivity combined with poor bladder contractility"
           },
-          "562": "Urine peak flow rate measurement is commonly used in urologic practice. In the AUA BPH guide"
+          "562": {
+            "text": "Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility.",
+            "rangeText": "Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility."
+          }
         }
       }
     },
@@ -11620,11 +11633,14 @@
           "52"
         ],
         "passages": {
-          "788": "Glucocorticoid agents Intra-articular glucocorticoid (eg, methylprednisolone, triamcinolone)",
+          "788": {
+            "text": "injections can significantly relieve pain due to OA.",
+            "rangeText": "injections can significantly relieve pain due to OA."
+          },
           "789": {
-            "text": "be bothersome despite oral pharmacologic therapies. They are particularly efficacious in pat",
-            "contextPage": 788,
-            "rangeText": "pain relief typically lasts for up to 2 months"
+            "text": "pain relief typically lasts for up to 2 months",
+            "rangeText": "pain relief typically lasts for up to 2 months",
+            "contextPage": 788
           }
         }
       }
@@ -12856,8 +12872,14 @@
           "52"
         ],
         "passages": {
-          "781": "The American College of Rheumatology (ACR) has proposed specific criteria to standardize the",
-          "782": "OA can usually be diagnosed clinically based on history and physical examination alone. Alth"
+          "781": {
+            "text": "Pain tends to worsen with increased activity or weight-bearing and to improve with rest.",
+            "rangeText": "Pain tends to worsen with increased activity or weight-bearing and to improve with rest."
+          },
+          "782": {
+            "text": "Radiographic findings specific to knee OA patients include medial tibiofemoral and/or patellofemoral joint space narrowing, along with osteophyte formation.",
+            "rangeText": "Radiographic findings specific to knee OA patients include medial tibiofemoral and/or patellofemoral joint space narrowing, along with osteophyte formation."
+          }
         }
       }
     },
@@ -14021,7 +14043,10 @@
         ],
         "bankChapter": "52",
         "passages": {
-          "788": "Narcotic analgesics Tramadol is a weak μ-opioid receptor inhibitor that inhibits the reuptak"
+          "788": {
+            "text": "Like other narcotic agents, it can also cause nausea, dizziness, somnolence, vomiting, and increased mortality risk.",
+            "rangeText": "Like other narcotic agents, it can also cause nausea, dizziness, somnolence, vomiting, and increased mortality risk."
+          }
         }
       }
     },
@@ -15067,7 +15092,22 @@
       "duplicates": [
         2959
       ],
-      "explanation": "## תשובה ב' נכונה ✅\n\n### למה ב' נכונה?\nה-ESR (שקיעת דם) **עולה באופן פיזיולוגי עם הגיל**, במיוחד אצל נשים מבוגרות — גם ללא מחלה דלקתית פעילה. לכן היא **בדיקה לא ספציפית** באוכלוסייה הגריאטרית, ועלולה להוביל לאבחנת יתר. עדיף להשתמש ב-CRP שפחות מושפע מהגיל.\n\n---\n\n### למה האחרות שגויות?\n\n**א' ❌** — RF נוטה להיות **פחות ספציפי** בגיל מבוגר (עד15% מהמטופלים המבוגרים עשויים להראות RF או ANA חיוביים בכייל נמוך (Harrison22e ch382p2941(PDF2984))."
+      "explanation": "## תשובה ב' נכונה ✅\n\n### למה ב' נכונה?\nה-ESR (שקיעת דם) **עולה באופן פיזיולוגי עם הגיל**, במיוחד אצל נשים מבוגרות — גם ללא מחלה דלקתית פעילה. לכן היא **בדיקה לא ספציפית** באוכלוסייה הגריאטרית, ועלולה להוביל לאבחנת יתר. עדיף להשתמש ב-CRP שפחות מושפע מהגיל.\n\n---\n\n### למה האחרות שגויות?\n\n**א' ❌** — RF נוטה להיות **פחות ספציפי** בגיל מבוגר (עד15% מהמטופלים המבוגרים עשויים להראות RF או ANA חיוביים בכייל נמוך (Harrison22e ch382p2941(PDF2984)).",
+      "readerMapping": {
+        "passages": {
+          "1610": {
+            "text": "Erythrocyte sedimentation rate (ESR) normally increases with age, especially in women.",
+            "rangeText": "Erythrocyte sedimentation rate (ESR) normally increases with age, especially in women."
+          }
+        },
+        "printedPages": [],
+        "supportPages": [
+          1610
+        ],
+        "bankChapter": "101",
+        "chapters": []
+      },
+      "referenceNote": "Harrison 21e chapter 370, Approach to Articular and Musculoskeletal Disorders (chapter 382 in the 22nd edition). The exam bibliography supplies no printed page. Hazzard 8e p. 1610 provides separate teaching on the effect of age on ESR and RF."
     },
     "3522": {
       "id": "mcq-a71b7ae51235fd1aa80e4961",
@@ -15212,9 +15252,18 @@
           "52-5"
         ],
         "passages": {
-          "785": "Figure 52-4",
-          "786": "Figure 52-5",
-          "787": "Heat and cold therapy Thermal modalities may be effective for relieving OA symptoms, but the"
+          "785": {
+            "text": "Figure 52-4",
+            "imageFile": "hazzard8e_ch52_figure52-4.png"
+          },
+          "786": {
+            "text": "Figure 52-5",
+            "imageFile": "hazzard8e_ch52_figure52-5.png"
+          },
+          "787": {
+            "text": "All patients with hand, knee, and hip OA should be instructed in the use of thermal agents.",
+            "rangeText": "All patients with hand, knee, and hip OA should be instructed in the use of thermal agents."
+          }
         }
       }
     },
