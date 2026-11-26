@@ -9010,5 +9010,607 @@
     "questionIds": [
       "mcq-d77dd3b1ab1dbb492058f5df"
     ]
+  },
+  {
+    "id": "ch57-normal-aging-preserved",
+    "chapter": "57",
+    "front": "In normal aging, which cognitive functions does Table 57-1 list as preserved?",
+    "back": "Crystallized verbal intelligence, sustained attention and primary attention span, real-world executive functions, remote, procedural and semantic memory, comprehension, vocabulary and syntactic abilities, construction and simple copy. Learning new information, divided attention, word finding and processing speed decline. Hazzard 8e, p. 854.",
+    "page": 854,
+    "anchor": "p854",
+    "questionIds": [
+      "mcq-8e48e83c0431ef1068a73da5",
+      "mcq-2c222ff05e233d6a6fe09f61"
+    ]
+  },
+  {
+    "id": "ch57-bvftd-early",
+    "chapter": "57",
+    "front": "What dominates the early picture of behavioral variant FTLD?",
+    "back": "A prominent decline in social cognition and behavior and/or executive dysfunction, with at least three of disinhibition, apathy, lost empathy, compulsive behavior and hyperorality. Formal testing and the MMSE may be normal early. Hazzard 8e, p. 873.",
+    "page": 873,
+    "anchor": "p873",
+    "questionIds": [
+      "mcq-84574748534649bfe7575675",
+      "mcq-bdc90ebe3c1c31ceaf06284d"
+    ]
+  },
+  {
+    "id": "ch57-ppa-pathology",
+    "chapter": "57",
+    "front": "Which pathology goes with each PPA variant?",
+    "back": "Although not consistent in every case: agrammatic PPA is often associated with tau, logopenic PPA with Alzheimer pathology, semantic PPA with TDP-43. Hazzard 8e, p. 873.",
+    "page": 873,
+    "anchor": "p873",
+    "questionIds": [
+      "mcq-6e959b7192d8e122edb0cdea"
+    ]
+  },
+  {
+    "id": "ch57-corticobasal-syndrome",
+    "chapter": "57",
+    "front": "An older adult has progressive asymmetric tremor, rigidity and myoclonus of one hand, ideomotor apraxia and slowed verbal fluency. Which syndrome is this?",
+    "back": "Corticobasal syndrome, the main phenotype of corticobasal degeneration (tau; asymmetric frontal and parietal atrophy). Mean onset in the early 60s; alien limb is more prevalent; memory is typically well preserved early, unlike AD. Hazzard 8e, p. 874.",
+    "page": 874,
+    "anchor": "p874",
+    "questionIds": [
+      "mcq-2123175e42ed252688cfa361"
+    ]
+  },
+  {
+    "id": "ch57-logopenic-repetition",
+    "chapter": "57",
+    "front": "Why can a patient with logopenic aphasia repeat single words but not sentences?",
+    "back": "The hypothesized deficit is in short-term working memory; single-word repetition needs little working memory. Speech is usually grammatical and naming is less impaired than in semantic dementia. Hazzard 8e, p. 874.",
+    "page": 874,
+    "anchor": "p874",
+    "questionIds": [
+      "mcq-6e959b7192d8e122edb0cdea"
+    ]
+  },
+  {
+    "id": "ch57-pdd-one-year",
+    "chapter": "57",
+    "front": "How does the chapter separate PDD from DLB?",
+    "back": "By timing: dementia after 1 year of well-established parkinsonian motor symptoms is PDD; motor symptoms after the dementia, or within one year of motor onset, is DLB. Hazzard 8e, p. 870.",
+    "page": 870,
+    "anchor": "p870",
+    "questionIds": [
+      "mcq-d6cc2532e17ec18447c17651"
+    ]
+  },
+  {
+    "id": "ch57-prion-signs",
+    "chapter": "57",
+    "front": "Which neurologic signs may appear as prion disease progresses, and what supports the diagnosis?",
+    "back": "Hyperreflexia, impaired coordination, changes in saccadic eye movements and incontinence. EEG changes, MRI hyperintensities and abnormal CSF 14-3-3 protein. Hazzard 8e, p. 876.",
+    "page": 876,
+    "anchor": "p876",
+    "questionIds": [
+      "mcq-d916d6ad3dc4260447e9cfc6",
+      "mcq-fd46d1f8dfade18bbb3c4376"
+    ]
+  },
+  {
+    "id": "ch57-prion-palliative",
+    "chapter": "57",
+    "front": "Why does palliative care in prion disease often consist largely of hospice care?",
+    "back": "The course is rapid and diagnosis usually comes late, at moderate-to-advanced stages within months. Care includes hospice, social work for disability and end-of-life decisions, and bereavement support. Hazzard 8e, p. 876.",
+    "page": 876,
+    "anchor": "p876",
+    "questionIds": [
+      "mcq-fd46d1f8dfade18bbb3c4376"
+    ]
+  },
+  {
+    "id": "ch57-neurosyphilis",
+    "chapter": "57",
+    "front": "How may syphilitic dementia present, and what does penicillin achieve?",
+    "back": "Generally 5–25 years after infection, with hallucinations, delusions, mood disturbance, personality change, strokes, ataxia or cognitive decline. There is only limited evidence of cognitive benefit from penicillin. Hazzard 8e, pp. 876–877.",
+    "page": 876,
+    "anchor": "p876",
+    "questionIds": [
+      "mcq-2a3ea14e94c9dbd28fcf1c08"
+    ]
+  },
+  {
+    "id": "ch63-dlb-fluctuations",
+    "chapter": "63",
+    "front": "Which cognitive pattern is a core feature of DLB?",
+    "back": "Fluctuating cognition with prominent variations in attention and alertness, alongside recurrent visual hallucinations and spontaneous parkinsonism (Table 63-3). The MMSE typically drops four to five points a year, faster than the three points typical of AD. Hazzard 8e, p. 984.",
+    "page": 984,
+    "anchor": "p984",
+    "questionIds": [
+      "mcq-8ebd24e88685391b550381e3",
+      "mcq-703cfc1d9afec925dcee40fd"
+    ]
+  },
+  {
+    "id": "ch63-dlb-cholinesterase",
+    "chapter": "63",
+    "front": "Which drug class should patients with DLB be tried on?",
+    "back": "Cholinesterase inhibitors; responses often exceed those in AD, including fewer hallucinations. Levodopa can be used if indicated once fluctuation and hallucinations are stabilized; atypical neuroleptics only cautiously if behavior becomes intolerable. Hazzard 8e, p. 984.",
+    "page": 984,
+    "anchor": "p984",
+    "questionIds": [
+      "mcq-9643bbe4c185d5b5e3955d8b",
+      "mcq-b6e0367710cf1836980a73db",
+      "mcq-4de2f99d12c0f96618a8056a"
+    ]
+  },
+  {
+    "id": "ch63-rbd-synuclein",
+    "chapter": "63",
+    "front": "How common is REM sleep behavior disorder in DLB, PD and MSA?",
+    "back": "About 85% of DLB, 15% of Parkinson disease and 60% of MSA. It is common to the α-synuclein disorders and is a core DLB feature. Hazzard 8e, p. 983.",
+    "page": 983,
+    "anchor": "p983",
+    "questionIds": [
+      "mcq-e5b559956f7d5143d12a8b45",
+      "mcq-220af0ce42a5a8e6b5aa8ccc"
+    ]
+  },
+  {
+    "id": "ch63-pdd-predictors",
+    "chapter": "63",
+    "front": "Which features predict dementia in Parkinson disease?",
+    "back": "Older age at motor onset, bradykinesia, nontremor-predominant disease, bilateral motor onset and declining response to levodopa; depression and visual hallucinations may add risk. Hazzard 8e, p. 985.",
+    "page": 985,
+    "anchor": "p985",
+    "questionIds": [
+      "mcq-127a926990dd25ce35544cb7"
+    ]
+  },
+  {
+    "id": "ch63-msa-subtypes",
+    "chapter": "63",
+    "front": "How do MSA-P and MSA-C differ in frequency, and what worsens survival?",
+    "back": "Parkinsonism (MSA-P) predominates in about 80%, cerebellar symptoms (MSA-C) in about 20%. Prominent orthostatic features carry decreased survival; death typically within 6 to 10 years. Hazzard 8e, p. 985.",
+    "page": 985,
+    "anchor": "p985",
+    "questionIds": [
+      "mcq-09dd973c12abe37ee635c2e7",
+      "mcq-300e85c3df241e45f364fa87"
+    ]
+  },
+  {
+    "id": "ch63-psp-eye-movements",
+    "chapter": "63",
+    "front": "What eye findings mark PSP?",
+    "back": "Vertical supranuclear gaze palsy (downward more specific), with the oculocephalic reflex preserved early; square wave jerks and saccadic latency and hypometria, greater with command than pursuit. Hazzard 8e, p. 992.",
+    "page": 992,
+    "anchor": "p992",
+    "questionIds": [
+      "mcq-547eebb19117759411a47609"
+    ]
+  },
+  {
+    "id": "ch63-psp-hummingbird",
+    "chapter": "63",
+    "front": "What imaging finding does Table 63-5 give for PSP?",
+    "back": "Dorsal midbrain atrophy with a dilated third ventricle, the hummingbird sign; history buzz words are early falls, impaired vertical gaze and axial rigidity; pathology is tau. Hazzard 8e, p. 993.",
+    "page": 993,
+    "anchor": "p993",
+    "questionIds": [
+      "mcq-67b7012b2c6b8397c06e1497"
+    ]
+  },
+  {
+    "id": "ch63-postconcussive",
+    "chapter": "63",
+    "front": "What characterizes postconcussive syndrome after mild TBI?",
+    "back": "Headache, dizziness, sleep disturbance, irritability, anxiety, depression, subtle personality change and cognitive complaints in 30% to 80%. The book states that injury severity does not directly correlate with its development; treatment is supportive. Hazzard 8e, p. 995.",
+    "page": 995,
+    "anchor": "p995",
+    "questionIds": [
+      "mcq-14a74b272deb47e84ad4ed44"
+    ]
+  },
+  {
+    "id": "ch63-ftd-no-cholinesterase",
+    "chapter": "63",
+    "front": "What does the chapter say about cholinesterase inhibitors in bvFTD?",
+    "back": "There is no theoretical basis for them and they may worsen agitation; SSRIs for behavioral symptoms and atypical neuroleptics if delusions are problematic. Hazzard 8e, p. 991.",
+    "page": 991,
+    "anchor": "p991",
+    "questionIds": [
+      "mcq-4de2f99d12c0f96618a8056a"
+    ]
+  },
+  {
+    "id": "ch82-kidney-mass",
+    "chapter": "82",
+    "front": "What happens to human kidney mass with age?",
+    "back": "It declines after the fourth decade and through the rest of life, mainly cortex with relative medullary sparing; in most laboratory animals it does not. Hazzard 8e, p. 1271.",
+    "page": 1271,
+    "anchor": "p1271",
+    "questionIds": [
+      "mcq-9d2304f27d614fa4907fbfd2"
+    ]
+  },
+  {
+    "id": "ch82-glomerular-structure",
+    "chapter": "82",
+    "front": "Which structural changes accompany the aging kidney's decline in function?",
+    "back": "Thickening of the basement membrane, mesangial expansion and progressive glomerulosclerosis. Hazzard 8e, p. 1268.",
+    "page": 1268,
+    "anchor": "p1268",
+    "questionIds": [
+      "mcq-03e515ea1394f1b7d0176064",
+      "mcq-9d2304f27d614fa4907fbfd2"
+    ]
+  },
+  {
+    "id": "ch82-stable-creatinine",
+    "chapter": "82",
+    "front": "Why should serum creatinine stay relatively constant with normal aging, and what does a rise mean?",
+    "back": "Falling muscle mass reduces creatinine production as filtration falls. A creatinine at the upper end of normal already reflects significant decline, so a rise must be taken seriously and drug doses considered. Hazzard 8e, p. 1268.",
+    "page": 1268,
+    "anchor": "p1268",
+    "questionIds": [
+      "mcq-379839aaebec0e3a1494bbd7"
+    ]
+  },
+  {
+    "id": "ch82-potassium-excretion",
+    "chapter": "82",
+    "front": "Why are older adults prone to potassium disorders as GFR falls?",
+    "back": "Fractional potassium excretion does not rise as much as in the young, partly because of lower aldosterone or aldosterone resistance. Hazzard 8e, p. 1270.",
+    "page": 1270,
+    "anchor": "p1270",
+    "questionIds": [
+      "mcq-a1aa8dc766d2c3afb2e30713"
+    ]
+  },
+  {
+    "id": "ch82-hypokalemia-features",
+    "chapter": "82",
+    "front": "Which clinical features does the chapter list for hypokalemia?",
+    "back": "Muscle weakness including proximal weakness and intestinal ileus, cardiac arrhythmias, polyuria and fatigue; many are asymptomatic. Hazzard 8e, p. 1270.",
+    "page": 1270,
+    "anchor": "p1270",
+    "questionIds": [
+      "mcq-a1aa8dc766d2c3afb2e30713"
+    ]
+  },
+  {
+    "id": "ch82-spurious-hyperkalemia",
+    "chapter": "82",
+    "front": "What causes spurious hyperkalemia, and what is the next step?",
+    "back": "Hemolysis from difficult phlebotomy or sample deterioration, severe thrombocytosis, severe leukocytosis or red cell disorders. Obtain a plasma potassium. Hazzard 8e, p. 1271.",
+    "page": 1271,
+    "anchor": "p1271",
+    "questionIds": [
+      "mcq-f7f1da57f641c281b8dd1d40"
+    ]
+  },
+  {
+    "id": "ch82-hyperkalemia-susceptibility",
+    "chapter": "82",
+    "front": "Why are older patients more susceptible to hyperkalemia?",
+    "back": "Lower kidney function and muscle mass, altered muscle ion regulation, lower renin and aldosterone, and drugs such as ACE inhibitors, ARBs and potassium-sparing diuretics. Hazzard 8e, p. 1271.",
+    "page": 1271,
+    "anchor": "p1271",
+    "questionIds": [
+      "mcq-f7f1da57f641c281b8dd1d40"
+    ]
+  },
+  {
+    "id": "ch101-anti-ccp",
+    "chapter": "101",
+    "front": "How do anti-CCP antibodies compare with IgM rheumatoid factor?",
+    "back": "As sensitive (70%–78%) and more specific (88%–96%); unlike RF, they do not appear to increase with normal aging, which makes them useful in older patients. Hazzard 8e, p. 1608.",
+    "page": 1608,
+    "anchor": "p1608",
+    "questionIds": [
+      "mcq-dd417a7bb5968ba747380bb0"
+    ]
+  },
+  {
+    "id": "ch101-acr-eular",
+    "chapter": "101",
+    "front": "What do the 2010 ACR/EULAR RA criteria combine?",
+    "back": "Joint involvement, serology, acute-phase reactants and symptom duration (Table 101-1); the cohorts had mean ages of 46–58, so their use in late-onset RA is not validated. Hazzard 8e, pp. 1607–1608.",
+    "page": 1608,
+    "anchor": "p1608",
+    "questionIds": [
+      "mcq-345208681a53f5565b36e6b5"
+    ]
+  },
+  {
+    "id": "ch101-lora-pattern",
+    "chapter": "101",
+    "front": "What clinical pattern does Table 101-2 give for late-onset RA?",
+    "back": "More equal sex ratio, acute onset, oligoarticular large proximal joints, systemic features, absent nodules, high ESR and often negative RF. Hazzard 8e, p. 1610.",
+    "page": 1610,
+    "anchor": "p1610",
+    "questionIds": [
+      "mcq-5e98e5b4f20aeaa91b485dcd"
+    ]
+  },
+  {
+    "id": "ch101-lora-seropositive",
+    "chapter": "101",
+    "front": "What does RF seropositivity mean in late-onset RA?",
+    "back": "As in younger patients, more severe disease, more erosions, worse function and increased mortality. Hazzard 8e, p. 1610.",
+    "page": 1610,
+    "anchor": "p1610",
+    "questionIds": [
+      "mcq-cfab57b8fd5040313f58e263"
+    ]
+  },
+  {
+    "id": "ch101-tb-before-anti-tnf",
+    "chapter": "101",
+    "front": "What testing precedes anticytokine therapy in RA?",
+    "back": "Tuberculosis skin testing or an interferon-γ release assay and a chest x-ray, because tuberculosis usually reflects reactivation of latent infection. Hazzard 8e, p. 1617.",
+    "page": 1617,
+    "anchor": "p1617",
+    "questionIds": [
+      "mcq-1e0a386f06ead1859e01f5c4"
+    ]
+  },
+  {
+    "id": "ch101-methotrexate-flu-vaccine",
+    "chapter": "101",
+    "front": "How does the chapter handle methotrexate around influenza vaccination?",
+    "back": "Influenza and pneumococcal vaccines are given as for the general population. Stopping methotrexate for 2 weeks after influenza vaccination may improve the response without a significant increase in disease activity. Hazzard 8e, p. 1619.",
+    "page": 1619,
+    "anchor": "p1619",
+    "questionIds": [
+      "mcq-089f5e7bee6ff0439beb7058"
+    ]
+  },
+  {
+    "id": "ch101-late-onset-lupus",
+    "chapter": "101",
+    "front": "How does late-onset lupus differ from younger-onset lupus?",
+    "back": "Female to male ratio about 4:1 rather than 9:1, and more cytopenias, serositis and interstitial pneumonitis (Table 101-8). Hazzard 8e, p. 1621.",
+    "page": 1621,
+    "anchor": "p1621",
+    "questionIds": [
+      "mcq-5bd556826b1d81bb1416aceb"
+    ]
+  },
+  {
+    "id": "ch101-sjogren-dry-eye",
+    "chapter": "101",
+    "front": "How is dry eye treated in Sjögren syndrome, and which drug is not recommended for sicca?",
+    "back": "Preservative-free artificial tears, topical low-dose cyclosporine and punctal occlusion. Anti-TNFs are not recommended for sicca symptoms in primary Sjögren syndrome. Hazzard 8e, p. 1623.",
+    "page": 1623,
+    "anchor": "p1623",
+    "questionIds": [
+      "mcq-dc6cb801b618efb366d202a9"
+    ]
+  },
+  {
+    "id": "ch102-stenosis-posture",
+    "chapter": "102",
+    "front": "What posture relieves lumbar spinal stenosis pain?",
+    "back": "Flexion: sitting or bending forward, as when leaning on a shopping cart. Standing, walking and extension worsen it (Table 102-3). Hazzard 8e, p. 1632.",
+    "page": 1632,
+    "anchor": "p1632",
+    "questionIds": [
+      "mcq-60e7630654ad0fc27ec35f4e",
+      "mcq-8a514bfc5ba51ab24031b86b"
+    ]
+  },
+  {
+    "id": "ch102-stenosis-levels",
+    "chapter": "102",
+    "front": "Which level is most often involved in lumbar spinal stenosis?",
+    "back": "L4-L5, then L3-L4 and L5-S1; acquired stenosis typically presents at 50 or older. Hazzard 8e, p. 1632.",
+    "page": 1632,
+    "anchor": "p1632",
+    "questionIds": [
+      "mcq-8a514bfc5ba51ab24031b86b"
+    ]
+  },
+  {
+    "id": "ch102-neurogenic-claudication",
+    "chapter": "102",
+    "front": "How does neurogenic claudication behave on a treadmill versus a bicycle?",
+    "back": "It is worse on the treadmill and relieved on the bicycle, because flexion widens the canal; vascular claudication is bad on both. Hazzard 8e, p. 1636.",
+    "page": 1636,
+    "anchor": "p1636",
+    "questionIds": [
+      "mcq-1524e05c07475dd26f840cbe"
+    ]
+  },
+  {
+    "id": "ch102-insidious-back-pain",
+    "chapter": "102",
+    "front": "Which causes does Table 102-5 link to insidious, progressive, nonpositional back pain?",
+    "back": "Tumor, infection, nonspinal visceral pain, degenerative disc disease and osteoarthritis. Abrupt onset points to disc herniation, muscle strain, vertebral compression fracture or mechanical low back pain. Hazzard 8e, p. 1634.",
+    "page": 1634,
+    "anchor": "p1634",
+    "questionIds": [
+      "mcq-5499a1a5873a040ffca8d896"
+    ]
+  },
+  {
+    "id": "ch102-imaging-red-flags",
+    "chapter": "102",
+    "front": "Which features are imaging red flags in Table 102-7?",
+    "back": "Age over 70, recent significant trauma (or milder trauma after 50), unexplained weight loss or fever, immunosuppression, cancer history, osteoporosis or prolonged glucocorticoids, progressive or disabling focal neurologic deficits, symptoms lasting more than 6 weeks, and IV drug use. Pain of two weeks alone is not on the list. Hazzard 8e, p. 1636.",
+    "page": 1636,
+    "anchor": "p1636",
+    "questionIds": [
+      "mcq-084128e675755a60218e946b"
+    ]
+  },
+  {
+    "id": "ch102-vcf-pain",
+    "chapter": "102",
+    "front": "What is the usual course of a vertebral compression fracture?",
+    "back": "Only 30% to 40% are symptomatic; pain typically resolves in 4 to 6 weeks, and more than 20% of patients sustain another fracture within 5 years. Hazzard 8e, p. 1631.",
+    "page": 1631,
+    "anchor": "p1631",
+    "questionIds": []
+  },
+  {
+    "id": "ch105-hcap-definition",
+    "chapter": "105",
+    "front": "Which criteria define health care–associated pneumonia?",
+    "back": "Hospitalization for 2 days or more in the preceding 90 days, nursing home residence, home infusion therapy, chronic dialysis within 30 days, home wound care, or a family member with a multidrug-resistant pathogen. Hazzard 8e, p. 1682.",
+    "page": 1682,
+    "anchor": "p1682",
+    "questionIds": [
+      "mcq-58ac2b29058e672521531e55"
+    ]
+  },
+  {
+    "id": "ch105-pseudomonas-risk",
+    "chapter": "105",
+    "front": "When should Pseudomonas be suspected in an older adult with pneumonia?",
+    "back": "Severe COPD (FEV1 below 35%), multiple prior antibiotic courses, ICU admission and/or bronchiectasis, or prior colonization; overall it causes only 1% to 2%. Hazzard 8e, p. 1683.",
+    "page": 1683,
+    "anchor": "p1683",
+    "questionIds": [
+      "mcq-3877d8bf6c827ba155cc74d5"
+    ]
+  },
+  {
+    "id": "ch105-curb-65",
+    "chapter": "105",
+    "front": "What earns a point in CURB-65?",
+    "back": "Confusion, urea above 44 mg/dL (BUN above 20), respiratory rate of 30 or more, systolic pressure below 90 or diastolic 60 or less, and age 65 or older (Table 105-4). Hazzard 8e, p. 1686.",
+    "page": 1686,
+    "anchor": "p1686",
+    "questionIds": [
+      "mcq-a755639ae8845f1d1ee36a9e",
+      "mcq-d9bbf859bdecffecf6be2702",
+      "mcq-227a6daa38612e9f01223419"
+    ]
+  },
+  {
+    "id": "ch105-admission-criteria",
+    "chapter": "105",
+    "front": "Which severity scores mark the need for admission?",
+    "back": "PSI class III or higher, or CURB-65 of 2 or more; a short-stay unit suits CURB-65 of 2 or PSI III. Hazzard 8e, p. 1687.",
+    "page": 1687,
+    "anchor": "p1687",
+    "questionIds": [
+      "mcq-d9bbf859bdecffecf6be2702"
+    ]
+  },
+  {
+    "id": "ch105-antipseudomonal",
+    "chapter": "105",
+    "front": "Which agents in Tables 105-9 and 105-10 cover Pseudomonas?",
+    "back": "Piperacillin/tazobactam, imipenem, meropenem, cefepime or ceftazidime, combined with ciprofloxacin, levofloxacin, amikacin or tobramycin. Hazzard 8e, p. 1688.",
+    "page": 1688,
+    "anchor": "p1688",
+    "questionIds": [
+      "mcq-dd3ca4e7f3e974c9a3ac3e3f"
+    ]
+  },
+  {
+    "id": "ch105-oral-care",
+    "chapter": "105",
+    "front": "What may reduce aspiration pneumonia in at-risk older adults?",
+    "back": "Oral care, although efficacy in the highest-risk groups such as nursing home residents was not shown in a high-quality randomized study. Hazzard 8e, p. 1690.",
+    "page": 1690,
+    "anchor": "p1690",
+    "questionIds": [
+      "mcq-4c3fda6b97055d09bfccf60c"
+    ]
+  },
+  {
+    "id": "ch105-tst-bcg",
+    "chapter": "105",
+    "front": "What causes a false-positive tuberculin skin test, and what can IGRA not tell you?",
+    "back": "Nontuberculous mycobacteria and BCG vaccination. IGRA cannot separate past from current infection or latent from active TB. Hazzard 8e, p. 1693.",
+    "page": 1693,
+    "anchor": "p1693",
+    "questionIds": [
+      "mcq-cb2418301a941a2746f83dca"
+    ]
+  },
+  {
+    "id": "ch105-quinolone-tb",
+    "chapter": "105",
+    "front": "Why avoid a quinolone for pneumonia when tuberculosis is suspected?",
+    "back": "Its tuberculostatic activity may delay the diagnosis of TB. Hazzard 8e, p. 1689.",
+    "page": 1689,
+    "anchor": "p1689",
+    "questionIds": []
+  },
+  {
+    "id": "ch106-cauti-definition",
+    "chapter": "106",
+    "front": "What defines CAUTI in the chapter?",
+    "back": "A catheter carrier with compatible signs or symptoms (fever, rigors, clear-cut delirium without another cause, suprapubic or flank pain, pelvic pain), or urinary symptoms within 48 hours of removal, together with at least 10^5 cfu/mL in a single catheter specimen. Hazzard 8e, p. 1700.",
+    "page": 1700,
+    "anchor": "p1700",
+    "questionIds": [
+      "mcq-81abf0ac32298245ce5a44eb"
+    ]
+  },
+  {
+    "id": "ch106-screen-before-urology",
+    "chapter": "106",
+    "front": "When should asymptomatic bacteriuria be screened for and treated in older adults?",
+    "back": "Before endoscopic urologic procedures associated with mucosal trauma; otherwise do not screen or treat it. Hazzard 8e, p. 1703.",
+    "page": 1703,
+    "anchor": "p1703",
+    "questionIds": [
+      "mcq-526291ef04bcef123eab45db"
+    ]
+  },
+  {
+    "id": "ch106-no-uti-workup",
+    "chapter": "106",
+    "front": "In a PALTC resident without urinary signs or symptoms, which changes should not prompt a UTI evaluation?",
+    "back": "Behavioral change (other than delirium), functional decline, falls, anorexia or a change in the character of the urine. Hazzard 8e, p. 1705.",
+    "page": 1705,
+    "anchor": "p1705",
+    "questionIds": [
+      "mcq-f7b82a0ad50cab63832650a2"
+    ]
+  },
+  {
+    "id": "ch106-mrsa-in-urine",
+    "chapter": "106",
+    "front": "What should MRSA in an older adult's urine prompt you to consider?",
+    "back": "Staphylococcal bacteremia as a potential source; urinary infection can be hematogenous, especially when S aureus grows without an indwelling catheter. Hazzard 8e, pp. 1702, 1707.",
+    "page": 1707,
+    "anchor": "p1707",
+    "questionIds": [
+      "mcq-d4b7c6cbda3fa63a7b531e1f"
+    ]
+  },
+  {
+    "id": "ch106-ltcf-organisms",
+    "chapter": "106",
+    "front": "Which organisms cause UTI in long-term care residents?",
+    "back": "E coli remains most frequent, followed by Proteus, Klebsiella, Enterococcus, Staphylococcus and Pseudomonas; Acinetobacter, Candida and MRSA are less common. More than one organism appears in 10% to 25% of bacteriuric residents. Hazzard 8e, p. 1707.",
+    "page": 1707,
+    "anchor": "p1707",
+    "questionIds": [
+      "mcq-d4b7c6cbda3fa63a7b531e1f"
+    ]
+  },
+  {
+    "id": "ch106-complicated-uti-drugs",
+    "chapter": "106",
+    "front": "Why are nitrofurantoin and fosfomycin wrong for complicated UTI?",
+    "back": "They lack adequate renal penetration. Fluoroquinolones are the only oral empiric option, and not where local resistance exceeds 10%; hospitalize severe illness, suspected sepsis or significant frailty. Hazzard 8e, p. 1711.",
+    "page": 1711,
+    "anchor": "p1711",
+    "questionIds": [
+      "mcq-60d358f39722f9df5a3990cc"
+    ]
+  },
+  {
+    "id": "ch106-nitrofurantoin-limit",
+    "chapter": "106",
+    "front": "What nitrofurantoin regimen and renal limit does the chapter give?",
+    "back": "Monohydrate/macrocrystals 100 mg twice daily for 5 days; avoid if creatinine clearance is below 30 mL/min. Hazzard 8e, p. 1708.",
+    "page": 1708,
+    "anchor": "p1708",
+    "questionIds": [
+      "mcq-60d358f39722f9df5a3990cc"
+    ]
   }
 ]

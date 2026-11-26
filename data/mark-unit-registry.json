@@ -21976,6 +21976,33 @@
         "u77",
         "u78",
         "u79"
+      ],
+      "normal-aging-what-declines-vs-what-39-s-preserved|Normal aging — what declines vs what's preserved": [
+        "u42"
+      ],
+      "common-medical-conditions-and-cognition-table-57-2-figure-57-1|Common medical conditions and cognition (Table 57-2, Figure 57-1)": [
+        "u43"
+      ],
+      "differentiating-dementia-types-table-57-3-p863-866|Differentiating dementia types (Table 57-3, p863-866)": [
+        "u44"
+      ],
+      "mci-due-to-ad|MCI due to AD": [
+        "u45"
+      ],
+      "ad-dementia|AD dementia": [
+        "u46"
+      ],
+      "ftld|FTLD": [
+        "u47"
+      ],
+      "pd-pdd-dlb|PD / PDD / DLB": [
+        "u48"
+      ],
+      "vascular-cognitive-impairment-vci|Vascular cognitive impairment (VCI)": [
+        "u49"
+      ],
+      "other-reversible-less-common-dementias|Other reversible/less common dementias": [
+        "u50"
       ]
     }
   },
@@ -80119,5 +80146,2053 @@
       ]
     },
     "maxId": 1498
+  },
+  "82s": {
+    "maxId": 110,
+    "entries": {
+      "chapter-82-study-aging-of-the-kidney|Chapter 82 Study: Aging of the Kidney": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "clinical-relevance-and-the-human-aging-pattern|Clinical relevance and the human aging pattern": [
+        "u3"
+      ],
+      "copy|Kidney aging affects both structure and function. Baseline homeostasis is usually preserved, but the ability to respond to a challenge is compromised and susceptibility to injury increases. Genetic and environmental factors produce considerable variation in the rate of decline (p1267).": [
+        "u4"
+      ],
+      "copy|Hypertension and diabetes accelerate age-related changes. Increasing survival into old age contributes to the growing number receiving kidney replacement therapy, beyond greater willingness to offer treatment (p1267).": [
+        "u5"
+      ],
+      "copy|The cited US data report ESKD treatment initiation of approximately 1.27 per 1000 at ages 65–69, 1.43 per 1000 at 70–75, and a peak of 1.82 per 1000 at 80–84. Over the preceding 10 years, replacement therapy increased 35% in those 75 or older and 43% in those older than 80 (p1267).": [
+        "u6"
+      ],
+      "copy|Human kidney mass and size eventually decline; rat kidney weight increases throughout life. Animal findings cannot simply be applied to humans. This page places peak human mass/size in the fourth decade; the later gross-anatomy paragraph places maximum weight/volume in the third decade (p1267; p1271). The shared conclusion is subsequent loss of renal mass, predominantly cortex (p1271).": [
+        "u7"
+      ],
+      "functional-reserve-gfr-and-the-misleadingly-normal-creatinine|Functional reserve, GFR, and the misleadingly normal creatinine": [
+        "u8"
+      ],
+      "copy|The structural pattern is basement-membrane thickening, mesangial expansion, and progressive glomerulosclerosis. Older autopsy studies did not reliably exclude kidney disease/comorbidity; longitudinal cohorts and carefully screened living donors better characterize healthy aging (p1268).": [
+        "u9"
+      ],
+      "copy|Fluid and electrolyte homeostasis at baseline can remain normal while renal reserve declines. Both salt/water loads and deficits become harder to manage; acute illness can therefore uncover renal complications. Hypertension accelerates reserve loss (p1268).": [
+        "u10"
+      ],
+      "copy|Average renal blood flow falls about 10% per decade, from 600 to 300 mL/min/1.73 m² by the ninth decade. Resistance rises in both afferent and efferent arterioles, independently of falling cardiac output or renal mass. Handling fluid/electrolyte loads and losses becomes less efficient (p1268).": [
+        "u11"
+      ],
+      "copy|Most people lose about 10% of GFR and renal plasma flow per decade after the fourth decade. Approximately 30% show no measurable functional decline; 5–10% have accelerated loss even without identifiable comorbidity (p1268). Thus, the opening clinical-point statement that all older adults decline is broader than the chapter's detailed population data (p1267–1268).": [
+        "u12"
+      ],
+      "copy|Serum creatinine should remain relatively constant with normal aging: falling muscle mass reduces creatinine production while filtration falls. A rising creatinine must be taken seriously. A value at the upper end of the laboratory normal range may already represent substantial impairment and warrant renal adjustment of medicines (p1268).": [
+        "u13"
+      ],
+      "copy|The book's Cockcroft–Gault calculation is creatinine clearance = [(140 − age) × weight in kg] / [72 × serum creatinine in mg/dL], multiplied by 0.85 for women. It may overestimate GFR in frail older women with little muscle mass. Figure 82-1 uses a 70-kg man and demonstrates different clearances at the same creatinine across ages 35, 65, and 85 (p1268).": [
+        "u14"
+      ],
+      "copy|Declining filtration also impairs salt/water excretion: replacement fluids require care to avoid extracellular overload. The book notes that the original MDRD formula was derived from community-dwelling volunteers aged 18–70, was not validated in very old/frail people, and differs materially from other methods at advanced age and weight extremes (p1268).": [
+        "u15"
+      ],
+      "ch82-figure-82-1|Figure 82-1: serum creatinine versus calculated clearance at different ages": [
+        "u16",
+        "u87"
+      ],
+      "measurement-ckd-staging-proteinuria-and-tubular-reserve|Measurement, CKD staging, proteinuria, and tubular reserve": [
+        "u17"
+      ],
+      "copy|The book calls iothalamate clearance the gold standard but expensive/impractical routinely. It favors 24-hour urine creatinine clearance over formula estimates in the very old/frail, while explicitly noting that tubular creatinine secretion makes clearance overestimate GFR. It describes CKD-EPI as more accurate than original MDRD and cystatin C as avoiding the problem of reduced creatinine production (p1269).": [
+        "u18"
+      ],
+      "copy|CKD requires kidney damage or reduced function for 3 or more months. Kidney failure means GFR <15 mL/min or need for kidney replacement therapy. Damage, primarily proteinuria in this discussion, can coexist with preserved filtration (p1269).": [
+        "u19"
+      ],
+      "copy|Table 82-1, as printed (GFR in mL/min/1.73 m²): stage 1, kidney damage with normal/increased GFR >90; stage 2, kidney damage with GFR 60–89; stage 3, 30–59, subdivided into 3A 45–59 and 3B 30–44; stage 4, 15–29; stage 5, <15 or dialysis (p1269). The table prints >90, rather than an inclusive boundary (p1269).": [
+        "u20"
+      ],
+      "copy|The complete complication list is hypertension, anemia, increased cardiovascular mortality/morbidity, calcium/phosphorus disorders, compromised nutrition, metabolic bone disease, neuropathy, impaired functioning/well-being, and depression (Table 82-2, p1269).": [
+        "u21"
+      ],
+      "copy|The chapter's referral recommendation is nephrology at stage 4, for complications such as acidosis, phosphorus retention, and anemia; discussion of kidney replacement should also begin then (p1269).": [
+        "u22"
+      ],
+      "copy|Proteinuria is pathological, not normal human aging, and requires a full work-up despite age-related GFR decline. Rats commonly develop age-related proteinuria, so their tubular findings may reflect protein toxicity rather than normal human aging (p1269).": [
+        "u23"
+      ],
+      "copy|Older volunteers have reduced ability to modulate medullary oxygenation, increasing vulnerability to acute ischemic renal failure. Many proposed abnormalities in vascular/autocrine responses come from animal experiments and have not been confirmed in humans. Impaired concentrating ability is demonstrated in both animal and human studies (p1269).": [
+        "u24"
+      ],
+      "ch82-table-82-1|Table 82-1: National Kidney Foundation classification of chronic kidney disease": [
+        "u25",
+        "u88"
+      ],
+      "ch82-table-82-2|Table 82-2: complications of chronic kidney disease": [
+        "u26",
+        "u89"
+      ],
+      "potassium-balance-and-hypokalemia|Potassium balance and hypokalemia": [
+        "u27"
+      ],
+      "copy|Concentrating impairment may reflect tubular defects or altered ADH response; the mechanism is uncertain. Reduced urine acidification limits acid-load excretion. Declines in glucose/amino-acid transport parallel GFR loss and are attributed to lost nephrons rather than intrinsic tubular aging. Increased nephrotoxic susceptibility requires attention to antibiotic selection/dosing and iodinated contrast (p1270).": [
+        "u28"
+      ],
+      "copy|Most body potassium is intracellular in skeletal muscle, so serum potassium incompletely reflects stores, especially under stress. Serum concentration depends on renal handling and transmembrane shifts. Insulin/glucagon, adrenergic stimulation, acid–base balance, and osmolality regulate shifts (p1270).": [
+        "u29"
+      ],
+      "copy|With reasonably preserved kidney function, unstressed older adults can have normal potassium. As GFR falls, fractional potassium excretion does not increase as much as in young people, partly because of reduced aldosterone or aldosterone resistance. This is blunted compensation, not a general claim that fractional excretion always falls (p1270).": [
+        "u30"
+      ],
+      "copy|Hypokalemia is <3.5 mEq/L. It is rare in healthy adults but can occur in up to 5% of older people with contributing medicines/diet; medication-, disease-, or diet-associated hypokalemia was reported in 21% of hospitalized patients (p1270).": [
+        "u31"
+      ],
+      "copy|Manifestations include proximal muscle weakness, intestinal ileus, arrhythmias, polyuria, and fatigue; many patients are asymptomatic. Concurrent sodium disturbances, metabolic acidosis/alkalosis, and hypomagnesemia are common (p1270).": [
+        "u32"
+      ],
+      "copy|Causes: poor intake (including alcoholism/eating disorders), renal or gastrointestinal losses (diuretics, mineralocorticoid excess, diarrhea), and intracellular shifts (insulin). Urine potassium, creatinine, and osmolality help identify renal wasting; an isolated urine potassium >40 mEq/L suggests excessive renal loss (p1270).": [
+        "u33"
+      ],
+      "copy|Malnourished patients may have near-normal serum potassium despite major depletion. Refeeding, aggressive insulin, or bicarbonate replacement can abruptly lower it and provoke severe cardiac events. The chapter advises anticipating replacement and considering avoidance of dextrose-containing parenteral fluids until severe hypokalemia is partly corrected (p1270).": [
+        "u34"
+      ],
+      "copy|The book favors oral replacement when possible. Severe hypokalemia or acute arrhythmias may require parenteral replacement; it describes 10 or 20 mEq at a time with frequent repeat measurements as the safest approach. Low-dose potassium-sparing diuretics may reduce losses during continuing diuretic therapy, but require caution with CKD or other potassium-retaining medicines (p1270).": [
+        "u35"
+      ],
+      "copy|Hyperkalemia susceptibility reflects lower kidney function and muscle mass, altered muscle ion regulation, lower renin/aldosterone, ACE inhibitors/ARBs/potassium-sparing diuretics, impaired intracellular uptake with glucose intolerance, and type IV renal tubular acidosis (p1270).": [
+        "u36"
+      ],
+      "hyperkalemia-artifact-true-risk-ecg-and-treatment-mechanisms|Hyperkalemia: artifact, true risk, ECG, and treatment mechanisms": [
+        "u37"
+      ],
+      "copy|The book generally defines hyperkalemia as >5.3 mEq/L, while acknowledging differing definitions. It occurs in up to 10% of hospitalized patients. Despite theoretical susceptibility, studies had difficulty demonstrating a higher incidence in older versus younger users of renin–angiotensin–aldosterone inhibitors (p1271).": [
+        "u38"
+      ],
+      "copy|Spurious hyperkalemia can result from hemolysis during difficult collection/sample deterioration, severe thrombocytosis, severe leukocytosis, or red-cell disorders. If suspected, obtain plasma potassium. Thrombocytosis is therefore a possible explanation for an unexpectedly high measured serum potassium (p1271).": [
+        "u39"
+      ],
+      "copy|True hyperkalemia is often asymptomatic; weakness and fatigue are common. Findings may include reduced reflexes and bradycardia. Cardiac effects range from conduction delay/heart block to arrest, with possible sinus bradycardia, complete block, wide-QRS tachycardia, or a sine-wave pattern (p1271).": [
+        "u40"
+      ],
+      "copy|A normal or unimpressive ECG does not prove that a high potassium is spurious or insignificant. The same concentration can have very different ECG effects; the taught sequence of peaked T waves, PR prolongation, absent P waves, and QRS widening is seldom seen as a predictable progression (p1271).": [
+        "u41"
+      ],
+      "copy|Significant cases are commonly multifactorial: reduced kidney function plus excess intake, drugs impairing excretion/cellular uptake, or superimposed AKI. Particularly risky settings include trimethoprim/sulfamethoxazole with spironolactone, combined renin–angiotensin–aldosterone inhibitors, NSAIDs, and type 2 diabetes (p1271).": [
+        "u42"
+      ],
+      "copy|Consider adrenal insufficiency in unexpected hyperkalemia: recurrent volume depletion/AKI with variable hyponatremia and hyperkalemia may respond readily to parenteral saline; fatigue may be the only symptom (p1271).": [
+        "u43"
+      ],
+      "copy|The chapter manages asymptomatic, non-life-threatening cases by removing causative medicines, improving hydration, and correcting reversible renal impairment. Advanced conduction delay/bradycardia requires immediate measures (p1271).": [
+        "u44"
+      ],
+      "copy|IV calcium gluconate stabilizes the myocardium immediately but transiently; it does not lower potassium. IV insulin, inhaled beta-agonists, and IV bicarbonate when metabolic acidosis is present shift potassium into cells. Insulin works within 15 minutes and is shorter acting than beta-agonists (p1271).": [
+        "u45"
+      ],
+      "copy|Shifting is temporary; potassium must ultimately leave the body. The book lists loop-diuretic-driven diuresis, exchange resin such as sodium polystyrene sulfonate, and dialysis. Choice depends on severity, kidney function, intestinal disease, and patient/physician preference; diuresis is effective with preserved kidney function, whereas impaired function may require resin and/or dialysis (p1271).": [
+        "u46"
+      ],
+      "copy|Gross anatomy: renal mass declines after the fourth decade, mainly cortex with relative medullary sparing. The young kidney contains roughly 1 million nephrons, with no evidence of postnatal nephrogenesis. Low initial nephron number as an explanation for later disease in low-birth-weight babies remains a hypothesis (p1271).": [
+        "u47"
+      ],
+      "remaining-chapter-structure-and-mechanisms|Remaining chapter: structure and mechanisms": [
+        "u48"
+      ],
+      "copy|Postmitotic podocytes cannot be replaced. Their loss is thought to precede sclerosis: expanding glomerular tufts leave progressively greater filtration area to cover, detachment exposes basement membrane, and segmental extracellular-matrix replacement can progress to global glomerular loss. Human aging studies were still in progress; much mechanistic evidence is experimental (p1272).": [
+        "u49"
+      ],
+      "copy|Lost nephrons leave tubular degeneration/interstitial fibrosis; remaining tubules hypertrophy, particularly proximally. Distal tubular diverticula may develop while overall distal-tubule structure changes little. Arterial thickening and increased resistance accompany aging; afferent–efferent shunts after glomerular loss help maintain medullary flow (p1272).": [
+        "u50"
+      ],
+      "copy|Greater transmitted pressure pulsatility may injure the renal microvasculature. Consider renal embolization when an older person with extensive vascular disease develops accelerated functional loss, particularly if embolization is evident elsewhere (p1273).": [
+        "u51"
+      ],
+      "copy|Genetic and environmental factors both matter. Rat strains differ markedly in susceptibility. Human familial variation and APOL1 variants associated with recent African ancestry support inherited susceptibility to several nondiabetic kidney diseases. Hypertension and diabetes are the commonest environmental disease accelerators (p1273).": [
+        "u52"
+      ],
+      "copy|Caloric restriction has striking protective effects in rodent kidneys; reduced oxidative injury is a proposed mechanism. Vitamin E did not prevent rat glomerulosclerosis and human supplementation studies were disappointing. Animal protein-restriction results are confounded by calorie/mineral changes (p1274).": [
+        "u53"
+      ],
+      "copy|The book finds support for protein restriction to reduce uremic symptoms in established disease, not for preventing normal age-related human renal change. Hyperlipidemia accompanies faster deterioration in established renal disease; its role in ordinary kidney aging remains uncertain (p1274).": [
+        "u54"
+      ],
+      "copy|Hyperfiltration is a proposed pressure-injury mechanism, largely supported by renal-remnant animal models. Remaining glomeruli hypertrophy as others are lost. The chapter notes that long-term human kidney donors did not show accelerated decline despite compensatory hypertrophy; protein meals can increase renal blood flow/GFR, but this does not establish generalized age-related hyperfiltration as the normal functional pattern (p1274).": [
+        "u55"
+      ],
+      "copy|ACE inhibition reduces efferent arteriolar vasoconstriction/intraglomerular pressure. Its benefit in underlying disease does not establish prevention of normal age-related change. The chapter prioritizes preserving residual function with blood-pressure control, management of lipids/glycemia/weight, avoidance of nephrotoxins, and adjustment of renally cleared medicines (p1275).": [
+        "u56"
+      ],
+      "copy|The book states a systolic target <120 mm Hg, and recommends a regimen including an ACE inhibitor or ARB, particularly with albuminuria, while stressing that these drugs do not substitute for blood-pressure control. It reports kidney and cardiovascular benefit of SGLT2 inhibitors in diabetic kidney disease already treated with ACE inhibition (p1275).": [
+        "u57"
+      ],
+      "copy|Older-donor kidneys have shorter graft life, partly because ischemia/reperfusion and subsequent stresses may amplify pre-existing structural changes. Nevertheless, recipients of such kidneys on average still do better than people remaining on dialysis (p1275).": [
+        "u58"
+      ],
+      "copy|Transplant programs increasingly consider otherwise healthy older adults. The chapter closes by recommending a GFR estimate for older patients, measures to prevent progression when impairment is identified, and particular care with medicine choice/dosing and imaging contrast as CKD progresses (p1276).": [
+        "u59"
+      ],
+      "recall|Recall": [
+        "u60"
+      ],
+      "copy|CHAPTER 82s / HAZZARD": [
+        "u61"
+      ],
+      "copy|Study summary of Chapter 82 — Aging of the Kidney; the book is the reference.": [
+        "u62"
+      ],
+      "copy|Full chapter available: Read Chapter 82.": [
+        "u63"
+      ],
+      "copy|Fast build from the book; not lane-reviewed.": [
+        "u64"
+      ],
+      "ch82-figure-82-1|This figure is on an official-question-cited page; the question references identify pages, not this figure explicitly.": [
+        "u65"
+      ],
+      "ch82-table-82-1|This table is on an official-question-cited page; the question references identify pages, not this table explicitly.": [
+        "u66"
+      ],
+      "ch82-table-82-2|This table is on an official-question-cited page; the question references identify pages, not this table explicitly.": [
+        "u67"
+      ],
+      "copy|1.": [
+        "u68"
+      ],
+      "copy|Which structural change supports normal kidney aging in a pathology question?": [
+        "u69"
+      ],
+      "copy|3.": [
+        "u70"
+      ],
+      "copy|How do renal blood flow and vascular resistance change?": [
+        "u71"
+      ],
+      "copy|5.": [
+        "u72"
+      ],
+      "copy|What are the book's CKD duration requirement and stage subdivisions for moderately reduced GFR?": [
+        "u73"
+      ],
+      "copy|6.": [
+        "u74"
+      ],
+      "copy|Why does measured creatinine clearance overestimate GFR, and what marker avoids reduced creatinine production?": [
+        "u75"
+      ],
+      "copy|8.": [
+        "u76"
+      ],
+      "copy|A diuretic-treated older patient develops weakness, ileus, polyuria, and fatigue.": [
+        "u77"
+      ],
+      "copy|Which electrolyte disorder fits?": [
+        "u78"
+      ],
+      "copy|9.": [
+        "u79"
+      ],
+      "copy|Which urine finding suggests renal potassium wasting, and what can suddenly unmask depletion?": [
+        "u80"
+      ],
+      "copy|10.": [
+        "u81"
+      ],
+      "copy|How can severe thrombocytosis produce an unexpectedly high potassium result, and what sample does the book advise?": [
+        "u82"
+      ],
+      "copy|12.": [
+        "u83"
+      ],
+      "copy|What does calcium accomplish in severe hyperkalemia, and which treatment removes potassium rather than merely shifting it?": [
+        "u84"
+      ],
+      "copy|13.": [
+        "u85"
+      ],
+      "copy|Name a high-risk drug combination for hyperkalemia and a less obvious endocrine cause.": [
+        "u86"
+      ],
+      "ch82-figure-82-1|Book Figure 82-1 — age, serum creatinine, and calculated clearance (p1268)": [
+        "u90"
+      ],
+      "ch82-table-82-1|Book Table 82-1 — CKD classification (p1269)": [
+        "u91"
+      ],
+      "ch82-table-82-2|Book Table 82-2 — all CKD complications listed (p1269)": [
+        "u92"
+      ],
+      "copy|Answer": [
+        "u93",
+        "u95",
+        "u97",
+        "u99",
+        "u101",
+        "u103",
+        "u105",
+        "u107",
+        "u109"
+      ],
+      "copy|Basement-membrane thickening, mesangial expansion, and progressive glomerulosclerosis (p1268).": [
+        "u94"
+      ],
+      "copy|Blood flow falls about 10% per decade, from 600 to 300 mL/min/1.73 m² by the ninth decade; resistance increases in both afferent and efferent arterioles (p1268).": [
+        "u96"
+      ],
+      "copy|Kidney damage or reduced function for at least 3 months. Stage 3 spans 30–59 mL/min/1.73 m²: 3A is 45–59 and 3B is 30–44 (p1269).": [
+        "u98"
+      ],
+      "copy|Some urinary creatinine is secreted by proximal tubules rather than filtered. Cystatin C avoids the age-related creatinine-production problem (p1269).": [
+        "u100"
+      ],
+      "copy|Hypokalemia. The book includes proximal weakness, intestinal ileus, arrhythmias, polyuria, and fatigue among its manifestations (p1270).": [
+        "u102"
+      ],
+      "copy|An isolated urine potassium above 40 mEq/L suggests excessive renal loss. Refeeding, aggressive insulin, or bicarbonate therapy may abruptly lower serum potassium in depleted patients (p1270).": [
+        "u104"
+      ],
+      "copy|It may cause spurious serum hyperkalemia. Obtain plasma potassium when this is suspected (p1271).": [
+        "u106"
+      ],
+      "copy|Calcium stabilizes the myocardial membrane without lowering potassium. Insulin, beta-agonists, and bicarbonate in metabolic acidosis shift potassium into cells; loop-diuretic-driven excretion, exchange resins, and dialysis remove it (p1271).": [
+        "u108"
+      ],
+      "copy|Trimethoprim/sulfamethoxazole with spironolactone is a highlighted combination. Adrenal insufficiency can present with recurrent volume depletion/AKI, variable hyponatremia/hyperkalemia, and fatigue (p1271).": [
+        "u110"
+      ]
+    }
+  },
+  "101s": {
+    "maxId": 101,
+    "entries": {
+      "chapter-101-study-rheumatoid-arthritis-and-other-autoimmune-diseases|Chapter 101 Study: Rheumatoid Arthritis and Other Autoimmune Diseases": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "copy|2010 ACR/EULAR criteria (Table 101-1): joint involvement + serology + acute-phase reactants + duration; score > 6 = definite RA (p1608)Current practice (not the book): the original 2010 ACR/EULAR criteria require a score of ≥6/10 (a score of exactly 6 qualifies) — Aletaha et al., Arthritis Rheum 2010, Table 3.": [
+        "u3"
+      ],
+      "copy|Criteria cohorts had mean age 46–58 yr — usefulness for diagnosing LORA (late-onset RA, >60 yr) is unvalidated (p1607)": [
+        "u4"
+      ],
+      "copy|Anti-CCP: 70–78% sensitive, 88–96% specific for RA — more specific than IgM RF, and unlike RF does not rise with normal aging (p1608)": [
+        "u5"
+      ],
+      "copy|US/Western prevalence ~0.8%; 0.2–0.3% China/Japan/Greece/Africa; up to 7% in some American-Indian/Alaska Native populations (p1608)": [
+        "u6"
+      ],
+      "copy|Women affected 2–3× more than men overall, but the female predominance narrows in late-onset disease (p1608) — LORA occurs with roughly equal M:F (p1610)": [
+        "u7"
+      ],
+      "copy|Peak incidence in the 6th–8th decades (p1608); RF prevalence rises with age to ~30% by age 90 (p1610)": [
+        "u8"
+      ],
+      "copy|Acute onset, oligoarticular (2–6 joints), large/proximal joints, systemic symptoms (weight loss), absent nodules, sicca common, high ESR, often RF-negative": [
+        "u9"
+      ],
+      "copy|RS3PE syndrome: remitting seronegative symmetric synovitis with pitting edema; older men 2–3:1, negative RF/ANA, responds to low-dose prednisone (p1610–1611)": [
+        "u10"
+      ],
+      "copy|In one small study, anti-CCP 65% positive in LORA vs 0% in PMR or healthy older adults — may be useful to separate LORA from PMR (p1611)": [
+        "u11"
+      ],
+      "copy|ACR functional class I–IV (Table 101-3) (p1611)": [
+        "u12"
+      ],
+      "copy|10 yr RA duration → risk of cervical spine/atlantoaxial instability — assess before intubation (p1612)": [
+        "u13"
+      ],
+      "copy|Vectra DA: laboratory-developed 12-protein blood test for RA disease activity, complements (does not replace) clinical judgment (p1612; Labcorp Vectra sample report, test 504965, documents its regulatory status)": [
+        "u14"
+      ],
+      "copy|Rheumatoid nodules in up to 40% of seropositive White patients; pleuritis/pericarditis in 20–30% (usually asymptomatic) (p1613)": [
+        "u15"
+      ],
+      "copy|Methotrexate monotherapy = first-line for DMARD-naïve moderate-high activity, started without short- or long-term glucocorticoids (2021 ACR guideline) (p1615, p1616)": [
+        "u16"
+      ],
+      "copy|Hydroxychloroquine dose 5 mg/kg; annual ocular screening, preferably with OCT — avoid in macular degeneration/inoperable dense cataracts (p1614)": [
+        "u17"
+      ],
+      "copy|Biologic/tsDMARD added if not at target on max-tolerated methotrexate, preferred over triple csDMARD therapy (p1615, p1616)": [
+        "u18"
+      ],
+      "copy|CONSIDER mnemonic for biologic safety in older adults (Table 101-6): Comorbidities, Opportunistic infections, Novel presentation of side effects, Screening, Immunization, Drug dosing and interactions, Evaluate, Remaining lifespan (p1618)": [
+        "u19"
+      ],
+      "copy|Glucocorticoid dose-response in Medicare patients aged 75 or older: ≤5 mg, >5–10 mg, >10 mg/day → approximately 20, 32 and 47 hospitalized infections per 100 person-years, respectively, versus 13 per 100 person-years without glucocorticoids (p1618)Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.": [
+        "u20"
+      ],
+      "copy|TB screening (skin test or IGRA + CXR) required before anticytokine therapy; anti-TNF associated with ~4× malignancy rate in one meta-analysis (p1617)": [
+        "u21"
+      ],
+      "copy|Late-onset lupus (LOL): onset after age 55, ~10% of all lupus cases (p1619)": [
+        "u22"
+      ],
+      "copy|UK GPRD: peak incidence in women 50–54 yr, in men 70–74 yr (p1619)": [
+        "u23"
+      ],
+      "copy|2019 EULAR/ACR criteria (Table 101-7) use ANA ≥1:80 as entry criterion (p1620)": [
+        "u24"
+      ],
+      "copy|LOL diagnostic delay averages 2–3 years; female:male ratio 4:1 in LOL vs 9:1 in younger-onset lupus (p1621)": [
+        "u25"
+      ],
+      "copy|LOL symptom frequencies (Table 101-8): arthritis/arthralgia 60%, rash 47%, cytopenias 45%, interstitial pneumonitis 41%, serositis 32%, glomerulonephritis only 24% — milder, less classic disease than YOL (p1621)": [
+        "u26"
+      ],
+      "copy|Belimumab (anti-BAFF) — first lupus drug in its class to get FDA approval, 2011, indication expanded to adult active lupus nephritis in December 2020; voclosporin (oral calcineurin inhibitor) also approved for active lupus nephritis, role in older patients untested (p1621–1622; FDA supplemental approval letter, December 2020)": [
+        "u27"
+      ],
+      "copy|Second commonest autoimmune disease after RA; prevalence 0.04–4.8%; peak onset 4th–5th decade, 9:1 F:M (p1622)": [
+        "u28"
+      ],
+      "copy|Schirmer test positive if <5 mm wetting in 5 min; minor salivary gland biopsy positive if >1 focus (≥50 lymphocytes) per 4 mm²; normal saliva production ≥1.5 mL/15 min (p1622)Current practice (not the book): 2016 ACR/EULAR primary Sjögren criteria use Schirmer ≤5 mm/5 min and focus score ≥1 focus/4 mm² — Shiboski et al., Arthritis Rheumatol 2017.": [
+        "u29"
+      ],
+      "copy|Extraglandular disease in ~60% (Table 101-9) — nonerosive arthritis/arthralgia is commonest (p1622–1623)": [
+        "u30"
+      ],
+      "copy|Sjögren patients are 44× more likely to develop lymphoma than matched controls, almost always B-cell, often t(14;18) (p1626)": [
+        "u31"
+      ],
+      "copy|100 drugs implicated; incidence ~15,000–20,000/yr, 30,000–50,000 affected in the US (p1624–1625)": [
+        "u32"
+      ],
+      "copy|Procainamide: 1/3 of patients on it >1 yr develop symptoms, almost all ANA+ by 2 yr; hydralazine: <20% develop DIL, risk dose-dependent (>200 mg/day or >100 g cumulative) (p1625)": [
+        "u33"
+      ],
+      "copy|90% of PIL/HIL patients have antihistone antibodies; IFN-α causes autoimmunity in up to 19% of treated patients (p1625)": [
+        "u34"
+      ],
+      "copy|Hypertrophic osteoarthropathy = most common malignancy-associated rheumatic syndrome, almost always from metastatic lung cancer (p1625)": [
+        "u35"
+      ],
+      "copy|Methotrexate-associated lymphoma: ~50% harbor EBV genome, often regresses on drug cessation (p1626)": [
+        "u36"
+      ],
+      "copy|Azathioprine + cyclosporin A in RA → 2× lymphoma risk; renal transplant on cyclosporin A → 50-fold increased NHL risk (p1626)": [
+        "u37"
+      ],
+      "copy|Aromatase inhibitors: as many as half of women get subjective joint achiness or pain, rarely frank arthritis (p1626–1627)": [
+        "u38"
+      ],
+      "copy|Historical vaccine schedule in this edition: mRNA vaccines were preferred to J&J, and an extra dose at least 28 days after the primary series was advised for immunosuppressed patients (p1627–1628)": [
+        "u39"
+      ],
+      "copy|Rituximab: vaccinate 2–4 weeks before next anticipated dose; most other agents held 1–2 weeks post-vaccination if disease activity allows — but the Task Force reached no consensus on interrupting TNF/IL-6R/IL-1R/IL-17/IL-12,23/IL-23 inhibitors around vaccination (Table 101-11, p1628)": [
+        "u40"
+      ],
+      "recall|Recall": [
+        "u41"
+      ],
+      "copy|CHAPTER 101s / HAZZARD": [
+        "u42"
+      ],
+      "copy|Study summary of Chapter 101; the book and the full chapter are the reference.": [
+        "u43"
+      ],
+      "copy|RA — definition & classification": [
+        "u44"
+      ],
+      "copy|RA — epidemiology": [
+        "u45"
+      ],
+      "copy|LORA clinical pattern (Table 101-2) (p1610)": [
+        "u46"
+      ],
+      "copy|RA — evaluation": [
+        "u47"
+      ],
+      "copy|RA — pharmacotherapy (Table 101-4, Table 101-5)": [
+        "u48"
+      ],
+      "copy|RA — biologics safety & steroids": [
+        "u49"
+      ],
+      "copy|Systemic lupus erythematosus (SLE)": [
+        "u50"
+      ],
+      "copy|Sjögren syndrome": [
+        "u51"
+      ],
+      "copy|Drug-induced lupus (DIL) (Table 101-10)": [
+        "u52"
+      ],
+      "copy|Rheumatic syndromes & cancer": [
+        "u53"
+      ],
+      "copy|COVID-19 and rheumatic disease (Table 101-11)": [
+        "u54"
+      ],
+      "copy|2.": [
+        "u55"
+      ],
+      "copy|What are the sensitivity and specificity of anti-CCP antibodies for RA?": [
+        "u56"
+      ],
+      "copy|70–78% sensitive, 88–96% specific — and unlike RF, anti-CCP incidence does not rise with normal aging (p1608).": [
+        "u57"
+      ],
+      "copy|3.": [
+        "u58"
+      ],
+      "copy|How does the male:female ratio of RA differ between typical (younger-onset) RA and LORA?": [
+        "u59"
+      ],
+      "copy|Typical RA affects women 2–3× more than men, but the female predominance narrows in late-onset disease (p1608) — LORA occurs with roughly equal frequency in men and women (p1610).": [
+        "u60"
+      ],
+      "copy|4.": [
+        "u61"
+      ],
+      "copy|What joint pattern and demographic features characterize LORA (Table 101-2)?": [
+        "u62"
+      ],
+      "copy|Acute-onset oligoarticular disease (2–6 joints), involvement of large/proximal joints, systemic symptoms (e.g., weight loss), absence of rheumatoid nodules, common sicca symptoms, and a roughly 1:1 male:female ratio (p1610).": [
+        "u63"
+      ],
+      "copy|5.": [
+        "u64"
+      ],
+      "copy|What is RS3PE syndrome and how does it typically respond to treatment?": [
+        "u65"
+      ],
+      "copy|Remitting seronegative symmetric synovitis with pitting edema — affects older men (2–3:1), RF/ANA negative, high ESR, and generally responds well to low-dose prednisone (p1610–1611).": [
+        "u66"
+      ],
+      "copy|8.": [
+        "u67"
+      ],
+      "copy|At what glucocorticoid doses, and with what relative infection risks, did Medicare beneficiaries over 75 with RA show increased serious-infection rates?": [
+        "u68"
+      ],
+      "copy|≤5 mg, >5–10 mg, and >10 mg/day of glucocorticoid were associated with approximately 20, 32 and 47 hospitalized infections per 100 person-years, respectively, versus 13 per 100 person-years without glucocorticoids (p1618; George et al., Table 3).": [
+        "u69"
+      ],
+      "copy|Current practice (not the book): in the source (Medicare RA patients ≥75 y on stable DMARDs) 12.8/20.0/32.0/46.8 are crude hospitalized-infection rates per 100 person-years, not % increased risk; adjusted HRs vs no glucocorticoid 1.31, 1.74, 2.23 — George et al., Ann Intern Med 2020, Table 3.": [
+        "u70"
+      ],
+      "copy|9.": [
+        "u71"
+      ],
+      "copy|How is late-onset lupus (LOL) defined, and what fraction of all SLE cases does it represent?": [
+        "u72"
+      ],
+      "copy|Onset of symptoms after age 55; it represents approximately 10% of all lupus cases (p1619).": [
+        "u73"
+      ],
+      "copy|10.": [
+        "u74"
+      ],
+      "copy|How does the female:male ratio of LOL compare with younger-onset lupus?": [
+        "u75"
+      ],
+      "copy|LOL has a female:male ratio of about 4:1, versus about 9:1 in younger-onset lupus (p1621).": [
+        "u76"
+      ],
+      "copy|11.": [
+        "u77"
+      ],
+      "copy|When was belimumab first approved, and when was its indication expanded to lupus nephritis?": [
+        "u78"
+      ],
+      "copy|FDA-approved in 2011 as the first lupus drug in its class (anti-BAFF); indication expanded to adult active lupus nephritis in December 2020 (p1621–1622; FDA supplemental approval letter, December 2020).": [
+        "u79"
+      ],
+      "copy|12.": [
+        "u80"
+      ],
+      "copy|What are the diagnostic thresholds for a positive Schirmer test and a positive minor salivary gland biopsy in Sjögren syndrome?": [
+        "u81"
+      ],
+      "copy|Schirmer test: less than 5 mm of filter paper wet after 5 minutes.": [
+        "u82"
+      ],
+      "copy|Minor salivary gland biopsy: more than one focus (an aggregate of ≥50 lymphocytes) per 4 mm² of tissue (p1622).": [
+        "u83"
+      ],
+      "copy|Current practice (not the book): 2016 ACR/EULAR primary Sjögren criteria use Schirmer ≤5 mm/5 min and focus score ≥1 focus/4 mm² — Shiboski et al., Arthritis Rheumatol 2017.": [
+        "u84"
+      ],
+      "copy|14.": [
+        "u85"
+      ],
+      "copy|What dose thresholds define higher risk for hydralazine-induced lupus (HIL)?": [
+        "u86"
+      ],
+      "copy|Risk is dose-dependent and highest in patients taking more than 200 mg/day or with a cumulative dose over 100 g (p1625).": [
+        "u87"
+      ],
+      "copy|15.": [
+        "u88"
+      ],
+      "copy|What is the most common rheumatic syndrome associated with malignancy, and which cancer most often causes it?": [
+        "u89"
+      ],
+      "copy|Hypertrophic osteoarthropathy — almost always caused by metastatic lung cancer in the Western world (p1625).": [
+        "u90"
+      ],
+      "copy|Answer": [
+        "u91",
+        "u92",
+        "u93",
+        "u94",
+        "u95",
+        "u96",
+        "u97",
+        "u98",
+        "u99",
+        "u100",
+        "u101"
+      ],
+      "ra-definition-amp-classification|RA — definition & classification": [
+        "u44"
+      ],
+      "ra-epidemiology|RA — epidemiology": [
+        "u45"
+      ],
+      "lora-clinical-pattern-table-101-2-p1610|LORA clinical pattern (Table 101-2) (p1610)": [
+        "u46"
+      ],
+      "ra-evaluation|RA — evaluation": [
+        "u47"
+      ],
+      "ra-pharmacotherapy-table-101-4-table-101-5|RA — pharmacotherapy (Table 101-4, Table 101-5)": [
+        "u48"
+      ],
+      "ra-biologics-safety-amp-steroids|RA — biologics safety & steroids": [
+        "u49"
+      ],
+      "systemic-lupus-erythematosus-sle|Systemic lupus erythematosus (SLE)": [
+        "u50"
+      ],
+      "sj-gren-syndrome|Sjögren syndrome": [
+        "u51"
+      ],
+      "drug-induced-lupus-dil-table-101-10|Drug-induced lupus (DIL) (Table 101-10)": [
+        "u52"
+      ],
+      "rheumatic-syndromes-amp-cancer|Rheumatic syndromes & cancer": [
+        "u53"
+      ],
+      "covid-19-and-rheumatic-disease-table-101-11|COVID-19 and rheumatic disease (Table 101-11)": [
+        "u54"
+      ]
+    }
+  },
+  "102s": {
+    "maxId": 74,
+    "entries": {
+      "chapter-102-study-back-pain-and-spinal-stenosis|Chapter 102 Study: Back Pain and Spinal Stenosis": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "epidemiology-amp-classification|Epidemiology & classification": [
+        "u3"
+      ],
+      "copy|Prevalence of back pain in older adults ranges 27% to 86% depending on population/criteria; Israeli cohort: 44% of 70-year-olds, 58% of 77-year-olds; Framingham (ages 68–100): 22% reported back pain on most days (p1629).": [
+        "u4"
+      ],
+      "copy|Second most common reason for a physician visit; annual all-cause costs related to back pain exceed $350 billion (p1629).": [
+        "u5"
+      ],
+      "copy|Classification: acute < 4 weeks, subacute 4–12 weeks, chronic > 3 months (some definitions > 6 months); back pain is typically recurrent/episodic, not constant (p1630).": [
+        "u6"
+      ],
+      "copy|Recurrence risk factors: female sex, depressive symptoms, two or more chronic conditions, self-reported arthritis (p1629).": [
+        "u7"
+      ],
+      "red-flag-systemic-causes-must-exclude-before-calling-it-quot-nonspecific-quot|Red-flag / systemic causes (must exclude before calling it \"nonspecific\")": [
+        "u8"
+      ],
+      "copy|Tumor: gradual, progressive, nonpositional pain, worse at night, lasting > 4 weeks, with systemic/constitutional symptoms (p1630–1631).": [
+        "u9"
+      ],
+      "copy|Infection: can mimic mechanical disc disease; fever can be absent in older adults; risk factors include prosthetic valves, indwelling catheters, IV drug use; if osteomyelitis/discitis found, image the entire neural axis (cervical, thoracic, lumbar MRI with/without contrast) to rule out noncontiguous infection (p1631).": [
+        "u10"
+      ],
+      "copy|Vertebral compression fracture (VCF): most common osteoporotic fracture type; only 30% to 40% of all VCFs are symptomatic; pain typically resolves in 4–6 weeks; > 20% of patients with a fracture sustain another fracture within 5 years (Table 102-2, p1631).": [
+        "u11"
+      ],
+      "copy|Osteoporotic sacral (insufficiency) fracture: usually older women; sacral pressure very painful; ~50% have a preceding fall; pain resolves spontaneously in 4–6 weeks (p1631).": [
+        "u12"
+      ],
+      "copy|Sciatica: pain radiating down one leg below the gluteal fold; in younger adults 50% have full resolution within 6 weeks, and abrupt-onset sciatica in older adults has a similarly good natural history; sciatica arising as part of the lumbar spinal stenosis syndrome (gradual progression, shorter and shorter periods of standing/walking) may have a more prolonged, persistent course (p1632).": [
+        "u13"
+      ],
+      "lumbar-spinal-stenosis|Lumbar spinal stenosis": [
+        "u14"
+      ],
+      "copy|Congenital stenosis (short pedicles) presents in the 30s–50s; acquired stenosis is more common, typically ≥ 50 years (p1632).": [
+        "u15"
+      ],
+      "copy|Most common level: L4-L5, followed by L3-L4 and L5-S1; lateral recess stenosis at L4-L5 most often causes an L5 radiculopathy (p1632).": [
+        "u16"
+      ],
+      "copy|Classic pattern: symptoms worse with extension (standing, walking, downhill) and relieved with flexion (sitting, bending forward, leaning on a cart — \"shopping cart sign\") (Table 102-3, p1632).": [
+        "u17"
+      ],
+      "copy|Sciatic-type leg pain on walking is also part of the classic picture, but it may be incomplete (eg, calf pain — \"pseudoclaudication\") (Table 102-3, p1632).": [
+        "u18"
+      ],
+      "copy|Distinguishing test: neurogenic claudication is worse on treadmill, relieved on bicycle (spinal flexion increases canal diameter); vascular claudication is bad on both (p1636).": [
+        "u19"
+      ],
+      "copy|MRI is the standard imaging modality; CT gives more detail than plain films but is a poor modality for soft tissue; CT myelography is infrequently used routinely but can help with lumbar deformity (eg, scoliosis) or patients unable to tolerate MRI (p1636).": [
+        "u20"
+      ],
+      "mechanical-low-back-pain-amp-dish|Mechanical low back pain & DISH": [
+        "u21"
+      ],
+      "copy|A good deal of back pain in younger individuals is probably caused by displacement of the outer annulus fibrosis or inner nucleus pulposus; herniation of the nucleus pulposus is less common beyond age 55 as the nucleus loses water content (p1633).": [
+        "u22"
+      ],
+      "copy|Mechanical LBP: intermittent, sharp, comes on/subsides rapidly, worse going from supine to sitting or with bending; weakness of L4, L5, S1-innervated muscles (Table 102-4, p1633).": [
+        "u23"
+      ],
+      "copy|Diffuse idiopathic skeletal hyperostosis (DISH): flowing calcification along ≥ 4 contiguous vertebral bodies, preserved disc height, no apophyseal ankylosis — often mislabeled as disc degeneration/osteoarthritis; no therapy needed (p1633, p1639).": [
+        "u24"
+      ],
+      "evaluation|Evaluation": [
+        "u25"
+      ],
+      "copy|Passive hip ROM benchmarks: 40° abduction before the pelvis tilts, > 100° flexion, 50°–60° external rotation, 20° internal rotation (p1634).": [
+        "u26"
+      ],
+      "copy|L4/L5 tested via hip abduction (gluteus medius), foot dorsiflexion (tibialis anterior), and great toe extension (extensor hallucis longus); L5/S1 tested via hip extension and foot eversion (p1634–1635; Figures 102-1 to 102-3).": [
+        "u27"
+      ],
+      "copy|Imaging red flags (Table 102-7, American College of Radiology, p1636): age > 70, recent significant trauma (or milder trauma if age > 50), unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use.": [
+        "u28"
+      ],
+      "copy|Imaging is a poor discriminator alone: in asymptomatic patients without back pain, only 36% of lumbar MRIs read as normal — 52% showed a disc bulge, 27% a disc protrusion; in a separate asymptomatic cohort > 60 years old, 36% had a herniated nucleus pulposus, 21% spinal stenosis, 93% degenerative disc disease (p1636).": [
+        "u29"
+      ],
+      "copy|Classic epidemiology: Kellgren & Lawrence found disc degeneration in 89% of men and 57% of women aged 55–64 (p1636).": [
+        "u30"
+      ],
+      "management|Management": [
+        "u31"
+      ],
+      "copy|Etiology-specific: tumor/infection therapy is straightforward, albeit often difficult; management of VCF, lumbar stenosis, and mechanical LBP is less clear (p1638).": [
+        "u32"
+      ],
+      "copy|VCF: activity modification, analgesics (acetaminophen, NSAIDs, mild opioids, tramadol); calcitonin (2- to 4-week course) gives some additional analgesia in the acute stage; complete bed rest not recommended; avoid long-term bracing (p1638).": [
+        "u33"
+      ],
+      "copy|Vertebral augmentation (vertebroplasty/kyphoplasty): evidence is low quality; one nonrandomized kyphoplasty study (pain > 1 year) of 40 treated vs 20 control patients showed fewer new fractures and better pain scores at 1 year; reserve for persistent severe pain despite conservative therapy (p1638).": [
+        "u34"
+      ],
+      "copy|Lumbar spinal stenosis: conservative therapy first (PT, analgesics, ± epidural steroid injection); a 400-patient RCT found minimal/no short-term benefit of epidural steroids plus lidocaine over lidocaine alone; SPORT trial (younger patients, average age in the 40s) showed surgical benefit from 3 months sustained to 2 years, but by 8-year follow-up 52% of the nonoperative arm had crossed over to surgery (p1639).": [
+        "u35"
+      ],
+      "copy|Surgical complication rates for lumbar decompression: 1.8% to 18% (wound infection, durotomy, nerve root injury, vascular complications, epidural hematoma, implant failure, adjacent-segment degeneration, nonunion) (p1639).": [
+        "u36"
+      ],
+      "copy|Mechanical LBP: isometric abdominal strengthening, back protection maneuvers, lumbar sacral corsets (avoid prolonged use — disuse/deconditioning); spinal fusion reserved for intractable severe LBP with radiographic progressive deformity, dynamic instability, or pars interarticularis defects (p1639).": [
+        "u37"
+      ],
+      "copy|DISH needs no therapy; sacral insufficiency fracture pain resolves in 4–6 weeks with analgesics, and antiresorptive therapy should be started to prevent future fractures; sciatica usually improves without therapy — surgery only if it persists despite conservative trials (p1639–1640).": [
+        "u38"
+      ],
+      "copy|Prevention/risk factors for disabling back pain: female sex, multiple comorbidities (including arthritis), depressive symptoms, poor grip strength (marker of global weakness), hip weakness, obesity (p1640).": [
+        "u39"
+      ],
+      "recall|Recall": [
+        "u40"
+      ],
+      "copy|CHAPTER 102s / HAZZARD": [
+        "u41"
+      ],
+      "copy|Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the full chapter are the reference.": [
+        "u42"
+      ],
+      "copy|3.": [
+        "u43"
+      ],
+      "copy|What historical clue helps differentiate an osteoporotic sacral (insufficiency) fracture, and how often is there a preceding fall?": [
+        "u44"
+      ],
+      "copy|Persistent low back/groin/buttock pain with marked tenderness on sacral pressure; about 50% of patients had a preceding fall (p1631).": [
+        "u45"
+      ],
+      "copy|5.": [
+        "u46"
+      ],
+      "copy|What is the most common spinal level for lumbar spinal stenosis, and which nerve root is most often affected?": [
+        "u47"
+      ],
+      "copy|L4-L5 most common (followed by L3-L4 and L5-S1); lateral recess stenosis there most often causes an L5 radiculopathy (p1632).": [
+        "u48"
+      ],
+      "copy|6.": [
+        "u49"
+      ],
+      "copy|What position worsens lumbar spinal stenosis symptoms, and what position relieves them?": [
+        "u50"
+      ],
+      "copy|Extension (standing, walking, walking downhill) worsens symptoms; flexion (sitting, bending forward, leaning on a walker/cart) relieves them — the \"shopping cart sign\" (p1632).": [
+        "u51"
+      ],
+      "copy|8.": [
+        "u52"
+      ],
+      "copy|After what age does lumbar disc herniation become less common, and why?": [
+        "u53"
+      ],
+      "copy|Beyond age 55, because the nucleus pulposus loses water content with aging (p1633).": [
+        "u54"
+      ],
+      "copy|9.": [
+        "u55"
+      ],
+      "copy|What defines diffuse idiopathic skeletal hyperostosis (DISH) radiographically?": [
+        "u56"
+      ],
+      "copy|Flowing calcification/ossification along the anterolateral aspect of at least 4 contiguous vertebral bodies, with relative preservation of disc height and no apophyseal joint ankylosis (p1633).": [
+        "u57"
+      ],
+      "copy|10.": [
+        "u58"
+      ],
+      "copy|List the passive hip range-of-motion benchmarks used to help distinguish hip from back pathology.": [
+        "u59"
+      ],
+      "copy|40 degrees of abduction before the pelvis tilts, more than 100 degrees of flexion, 50–60 degrees of external rotation, and 20 degrees of internal rotation (p1634).": [
+        "u60"
+      ],
+      "copy|11.": [
+        "u61"
+      ],
+      "copy|According to Table 102-7, name at least 5 imaging \"red flags\" for back pain due to systemic disease.": [
+        "u62"
+      ],
+      "copy|Age > 70, recent significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).": [
+        "u63"
+      ],
+      "copy|15.": [
+        "u64"
+      ],
+      "copy|What is the reported complication rate range for lumbar decompressive surgery, and name 3 complication types?": [
+        "u65"
+      ],
+      "copy|1.8% to 18%; complications include wound infection, durotomy, nerve root injury, vascular complications, epidural hematoma, implant failure, adjacent-segment degeneration, and nonunion (p1639).": [
+        "u66"
+      ],
+      "copy|Answer": [
+        "u67",
+        "u68",
+        "u69",
+        "u70",
+        "u71",
+        "u72",
+        "u73",
+        "u74"
+      ]
+    }
+  },
+  "105s": {
+    "maxId": 105,
+    "entries": {
+      "chapter-105-study-bacterial-pneumonia-and-tuberculosis|Chapter 105 Study: Bacterial Pneumonia and Tuberculosis": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "definition-amp-epidemiology|Definition & Epidemiology": [
+        "u3"
+      ],
+      "copy|Pneumonia (clinical definition) = symptoms (fever, chills, cough, pleuritic pain) + signs (hyper-/hypothermia, raised RR, dullness, crackles, wheezing, pleural rub) + an opacity on chest x-ray; research definitions require ≥2 symptoms, ≥1 sign, and a new opacity not due to other conditions (p1679).": [
+        "u4"
+      ],
+      "copy|Incidence 2-10 cases/1000/yr overall; in patients >65, European/US registries report 25-40/1000/yr with 7%-35% mortality (p1680).": [
+        "u5"
+      ],
+      "copy|US burden: >4 million annual outpatient visits, >1 million hospitalizations/yr (600,000 in adults >65); 10-20% of hospitalized patients need ICU; mean length of stay 5 days; overall 30-day mortality 23% (p1680).": [
+        "u6"
+      ],
+      "copy|Mortality 1%-2% in young patients without comorbidity vs 25%-50% in older adults with severe comorbidity; 30-day mortality 3x higher in patients >85 vs 65-74; >50,000 US deaths/yr, 85% in patients >65; 30-day readmission ~20%; annual US cost >$17 billion, 80% driven by hospitalization (p1680).": [
+        "u7"
+      ],
+      "etiology-amp-resistant-organism-risk|Etiology & Resistant-Organism Risk": [
+        "u8"
+      ],
+      "copy|Streptococcus pneumoniae remains the single most common agent, 20%-65% of cases (p1681).": [
+        "u9"
+      ],
+      "copy|Viruses implicated in 12%-18% of cases; influenza, RSV, and human metapneumovirus together account for 8%-14% (p1681).": [
+        "u10"
+      ],
+      "copy|Hospital-acquired pneumonia begins at least 48 h after admission and was not incubating on arrival; Hazzard also discusses recent discharge (10–14 days) as a healthcare exposure, which alone does not define HAP (p1681).": [
+        "u11"
+      ],
+      "copy|HAP pathogen-specific risk factors (Table 105-1, p1681): MDR pathogens — prior antibiotics, hospitalization >5 days in the prior 90 d, high hospital resistance rate, nursing-home residence, home IV therapy, chronic dialysis, active wound care, contact with an MDR-infected patient, or immunosuppressive disease/therapy; Pseudomonas/MDR bacilli — recent ICU admission, prior antibiotics, chronic corticosteroids, structural lung disease, or late-onset nosocomial pneumonia; Legionella — chronic corticosteroids, hematologic cancer, contaminated-water contact, or prior nosocomial Legionella cases; S aureus — recent ICU admission, prior influenza, colonization/prevalence of methicillin-resistant strains, TBI, coma, diabetes, or renal failure; anaerobes — poor oral hygiene, decreased consciousness, airway manipulation, or recent abdominal surgery.": [
+        "u12"
+      ],
+      "copy|Shorr MDRO risk score: recent hospitalization 4 pts, admission from long-term care 3 pts, hemodialysis 2 pts, critical illness 1 pt; a score of 0 carries 84% negative predictive value for MDRO (p1682).": [
+        "u13"
+      ],
+      "copy|One study: clinical signs of severe pneumonia plus two risk factors (immunosuppression, hospitalization in the prior 90 d, Barthel <50, antibiotics in the prior 6 mo) were associated with higher MDRO frequency (2% vs 27%). Ewig / Brito-Niederman approach: ≥2 multidrug-resistance factors (severe pneumonia, hospitalization in the prior 90 d, nursing-home residence, severe basal dependence, immunosuppression, antibiotics in the prior 6 mo) → empiric MDRO coverage warranted (p1682).": [
+        "u14"
+      ],
+      "copy|ESBL-producing Klebsiella found in 20% of US and 35% of European pneumonia isolates (p1683).": [
+        "u15"
+      ],
+      "copy|Pseudomonas is uncommon in older adults overall (1%-2%), but should be suspected with severe COPD (FEV1 <35%), multiple prior antibiotic courses, ICU admission and/or bronchiectasis, or prior colonization (p1683).": [
+        "u16"
+      ],
+      "copy|Risk factors for less-common pathogens (Table 105-2, p1682): ESBL-producing Enterobacteriaceae — prior antibiotics, hemodialysis, long-term indwelling urinary catheter, long-stay-center residence, recent hospitalization, diabetes, or recurrent UTIs; aspiration-prone Enterobacteriaceae/anaerobes — functional impairment, dysphagia, GERD, history of vomiting, cerebrovascular disease, dementia, periodontal disease, or poor oral hygiene; MRSA — wound/bedsore care, serious illness plus recent hospitalization plus prior IV antibiotics plus institutionalization, previous colonization, or superinfection during an influenza epidemic.": [
+        "u17"
+      ],
+      "copy|Exposure-specific pathogens (Table 105-3, p1683): bird/fowl/farm-animal contact → Chlamydophila psittaci; rabbit contact → Coxiella burnetii; bat contact or residence in an endemic area → Histoplasma capsulatum; air-conditioning/cooling-tower exposure → Legionella pneumophila; travel to Southeast Asia → Burkholderia pseudomallei, avian influenza; alcohol intoxication → S pneumoniae, K pneumoniae, anaerobes, S aureus; prison inmates → S pneumoniae, M tuberculosis; advanced HIV → S pneumoniae, H influenzae, P jiroveci, M tuberculosis.": [
+        "u18"
+      ],
+      "copy|Shorr MRSA prediction score: low risk if total score ≤1 (p1683).": [
+        "u19"
+      ],
+      "diagnosis-amp-severity-stratification|Diagnosis & Severity Stratification": [
+        "u20"
+      ],
+      "copy|Chest x-ray can be falsely negative in up to 30% of cases (more so with dehydration/neutropenia); repeat the film at 24-48 h if the first is negative and suspicion remains (p1684).": [
+        "u21"
+      ],
+      "copy|Serum lactate ≥2 mmol/L predicts 30-day mortality (p1685).": [
+        "u22"
+      ],
+      "copy|Pneumococcal urinary antigen: sensitivity >60%, specificity >90%; stays positive for ~3 months after resolution, limiting its use to judge relapse or treatment response (p1685).": [
+        "u23"
+      ],
+      "copy|Legionella urinary antigen detects only serogroup I but has sensitivity >90% for that serogroup (p1685).": [
+        "u24"
+      ],
+      "copy|Admission criteria: PSI ≥ III or CURB-65 ≥ 2; a short-stay unit is a safe, cost-effective alternative for patients with CURB-65 of 2 or PSI of III (p1687).": [
+        "u25"
+      ],
+      "copy|CURB-65 scoring (Table 105-4, p1686): 1 pt each for confusion, urea >44 mg/dL (BUN >20), RR ≥30, SBP <90 or DBP ≤60, age ≥65; mortality by score — 0-1 low (0.7%-2.1%, consider outpatient), 2 intermediate (9.2%), 3 high (15%, admit), 4-5 >40% (admit, consider ICU).": [
+        "u26"
+      ],
+      "copy|SCAP severity score (Table 105-5, p1686): major criteria — pH <7.30 (13 pts), SBP <90 mm Hg (11 pts); minor criteria — confusion (5 pts), BUN >30 mg/dL (5 pts), RR >30 (9 pts), multilobar/bilateral CXR (5 pts), PaO2 <54 mm Hg or PaO2/FiO2 <250 (6 pts), age ≥80 (5 pts); risk — low 0-1 (<10 pts), intermediate 2 (10-19 pts), high 3-4 (20 points or more).": [
+        "u27"
+      ],
+      "copy|SMART-COP score (Table 105-6, p1687): SBP <90 (2 pts), multilobar involvement (1 pt), albumin <3.5 g/dL (1 pt), RR age-adjusted (1 pt: ≤50y ≥25/min, >50y ≥30/min), tachycardia ≥125 (1 pt), confusion (1 pt), oxygenation age-adjusted (2 pts: ≤50y PaO2 <70 or SpO2 ≤93% or PaO2/FiO2 <333; >50y PaO2 <60 or SpO2 ≤90% or PaO2/FiO2 <250), pH <7.35 (2 pts); risk for needing vasopressor/intensive respiratory support — 0-2 low, 3-4 moderate, 5-6 high, ≥7 very high (Charles et al., Clin Infect Dis 2008; the original score places age 50 in the younger group).": [
+        "u28"
+      ],
+      "copy|Discharge readiness: HR <100 bpm, RR <24/min, axillary temperature <37.2°C (<98.96°F), systolic BP >90 mm Hg, SpO2 >90%, plus baseline awareness and oral tolerance; most patients stabilize by hospital day 3-4, up to 7 days if frail (p1687).": [
+        "u29"
+      ],
+      "management-framework-amp-treatment|Management Framework & Treatment": [
+        "u30"
+      ],
+      "copy|Two questions should drive antibiotic choice: (1) severe pneumonia or risk factors for unusual pathogens? (2) does the patient meet criteria for frailty? Both \"no\" → standard younger-adult regimens; severe pneumonia and/or risk factors for less common pathogens → consider broadening; mildly frail → same antibiotics as independent patients plus functional/cognitive monitoring; moderate-severe frailty → broader coverage in addition to routine pathogens (p1687-1689).": [
+        "u31"
+      ],
+      "copy|CAP treatment tiers (Table 105-8, p1688): non-frail patients get cephalosporin or amoxicillin/clavulanate + azithromycin/fluoroquinolone, escalating in severe disease to ± linezolid/vancomycin, ± antipseudomonal agent, ± oseltamivir; prefrail patients get amoxicillin/clavulanate or ceftriaxone/cefotaxime/ceftaroline + azithromycin/fluoroquinolone; frail patients get a different regimen, not the same combo broadened — ertapenem, or amoxicillin/clavulanate, or ceftriaxone + clindamycin.": [
+        "u32"
+      ],
+      "copy|Quinolones should not be prescribed when pulmonary tuberculosis is suspected, because of their tuberculostatic activity and the possibility of delaying the TB diagnosis (p1689).": [
+        "u33"
+      ],
+      "copy|Treatment failure = no clinical stability by 3-4 days, or deterioration/respiratory failure/septic shock in the first 72 h; associated with a fivefold increase in mortality. However, stability may take longer without implying therapeutic failure in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure) (p1690).": [
+        "u34"
+      ],
+      "copy|A 5-7 day course is sufficient for most pneumonia even in older adults; extend for Legionella, resistant GNB, or MRSA, or for persistent fever beyond 72 h, persistence of >1 instability criterion, inadequate initial coverage, or complications (p1690).": [
+        "u35"
+      ],
+      "copy|PCV13 should be given first, with PPSV given at least 8 weeks later, per ACIP (p1690).Current practice (not the book): prior vaccination determines the schedule: PCV15, PCV20 or PCV21 for adults ≥50 who never received a PCV or whose history is unknown; after PCV15 give PPSV23 if not previously administered, one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026.": [
+        "u36"
+      ],
+      "tuberculosis-epidemiology-amp-pathophysiology|Tuberculosis — Epidemiology & Pathophysiology": [
+        "u37"
+      ],
+      "copy|>1.7 billion people (about 25% of the world's population) are estimated to be infected with M tuberculosis; high-burden regions run ≥100/100,000, while the US, Western Europe, Canada, Japan, and Australia run <25/100,000 (p1691).": [
+        "u38"
+      ],
+      "copy|TB incidence is bimodal: one peak at 15-35 years, a second after 65 years (p1691).": [
+        "u39"
+      ],
+      "copy|Healthy people infected with TB carry a 5%-10% lifetime risk of active disease; 50%-80% of those who progress do so within the first 2 years (p1692).": [
+        "u40"
+      ],
+      "copy|HIV coinfection without antiretroviral treatment carries a 10% annual risk of active disease (p1692).": [
+        "u41"
+      ],
+      "tuberculosis-diagnosis-amp-treatment|Tuberculosis — Diagnosis & Treatment": [
+        "u42"
+      ],
+      "copy|Two-step tuberculin test for initial geriatric screening (older adults have increased cutaneous anergy): a negative first test (induration <10 mm) is followed by a repeat test at 2 weeks; positive = ≥10 mm and an increase of ≥6 mm over the first test (p1693).": [
+        "u43"
+      ],
+      "copy|Isoniazid causes hepatotoxicity in up to 4%-5% of patients >65 y, versus <1% in those <65 y (p1694).": [
+        "u44"
+      ],
+      "copy|Chemoprophylaxis is generally reserved for a Mantoux induration increase ≥15 mm over a prior negative test; in close contacts of active TB and other high-risk individuals with negative TST or IGRA, preventive treatment should also be considered, unless contraindicated (p1694).": [
+        "u45"
+      ],
+      "copy|For latent TB, short rifamycin-based regimens are preferred when suitable, including rifampin 4 months or isoniazid plus rifapentine 12 weeks; isoniazid 9 months is an alternative when rifamycins are unsuitable (p1694; NTCA/CDC latent tuberculosis treatment guideline, 2020).": [
+        "u46"
+      ],
+      "copy|Standard active-TB regimen: 4-drug intensive phase 2 months, then 2-drug continuation phase ≥4 months (total 6 months); extend the continuation phase to 7 months (9 months total) for cavitary disease plus a positive culture at month 2, or if the intensive phase omitted pyrazinamide (p1694).": [
+        "u47"
+      ],
+      "copy|Drug-resistant TB varies with the resistance pattern; the book describes older 18–24 month regimens, but current guidance recommends six-month regimens for eligible adults with rifampin-resistant pulmonary TB, selected according to susceptibility and treatment history (p1694; ATS/CDC/ERS/IDSA guideline update, 2025).": [
+        "u48"
+      ],
+      "copy|First-line regimen exceptions (Table 105-12, p1695): give pyridoxine 10-50 mg/day with isoniazid if alcoholic, malnourished, diabetic, or has kidney failure (peripheral neuropathy risk); if isoniazid or rifampin can't be used (toxicity/resistance), substitution regimens with the remaining first-line drugs ± moxifloxacin exist — it isn't an automatic jump to second-line/MDR therapy.": [
+        "u49"
+      ],
+      "copy|Asymptomatic AST elevation occurs in ~20% of patients on the standard 4-drug regimen and usually resolves spontaneously (p1696).": [
+        "u50"
+      ],
+      "copy|Stop hepatotoxic TB drugs if bilirubin ≥3 mg/dL or transaminases >5x the upper limit of normal (or >3x ULN with symptoms of hepatitis) (p1696).": [
+        "u51"
+      ],
+      "recall|Recall": [
+        "u52"
+      ],
+      "copy|CHAPTER 105s / HAZZARD": [
+        "u53"
+      ],
+      "copy|Study summary of Chapter 105; the book and the full chapter are the reference.": [
+        "u54"
+      ],
+      "copy|Exam trap: a quinolone looks like a reasonable empiric choice for undifferentiated CAP, but the book says not to prescribe it when pulmonary TB is suspected — its tuberculostatic activity can delay the TB diagnosis (p1689).": [
+        "u55"
+      ],
+      "copy|2.": [
+        "u56"
+      ],
+      "copy|What four items make up the Shorr MDRO risk score, and what does a score of zero mean?": [
+        "u57"
+      ],
+      "copy|Recent hospitalization (4 pts), admission from long-term care (3 pts), hemodialysis (2 pts), critical illness (1 pt); a score of 0 carries an 84% negative predictive value for MDRO (p1682).": [
+        "u58"
+      ],
+      "copy|3.": [
+        "u59"
+      ],
+      "copy|What rates of ESBL-producing Klebsiella were found among pneumonia isolates in the US vs Europe?": [
+        "u60"
+      ],
+      "copy|20% (US) vs 35% (Europe) (p1683).": [
+        "u61"
+      ],
+      "copy|4.": [
+        "u62"
+      ],
+      "copy|In what fraction of cases can the initial chest x-ray be falsely negative, and what should be done if suspicion for pneumonia remains?": [
+        "u63"
+      ],
+      "copy|Up to 30% (more often with dehydration or neutropenia); repeat the film at 24-48 hours (p1684).": [
+        "u64"
+      ],
+      "copy|6.": [
+        "u65"
+      ],
+      "copy|What are the sensitivity/specificity of the pneumococcal urinary antigen test, and what limits its use in relapse or treatment-response assessment?": [
+        "u66"
+      ],
+      "copy|Sensitivity >60%, specificity >90%; it stays positive for about 3 months after resolution of the pneumonia (p1685).": [
+        "u67"
+      ],
+      "copy|7.": [
+        "u68"
+      ],
+      "copy|What PSI and CURB-65 thresholds define criteria for hospital admission?": [
+        "u69"
+      ],
+      "copy|PSI ≥ III or CURB-65 ≥ 2 (p1687).": [
+        "u70"
+      ],
+      "copy|8.": [
+        "u71"
+      ],
+      "copy|What vital-sign criteria define readiness for hospital discharge, and by what day do most patients stabilize?": [
+        "u72"
+      ],
+      "copy|HR <100 bpm, RR <24/min, axillary temperature <37.2°C (<98.96°F), systolic BP >90 mm Hg, SpO2 >90%, good awareness and oral tolerance; most stabilize by hospital day 3-4 (up to 7 days if frail) (p1687).": [
+        "u73"
+      ],
+      "copy|9.": [
+        "u74"
+      ],
+      "copy|How is antibiotic treatment failure defined, and what mortality risk does it carry?": [
+        "u75"
+      ],
+      "copy|No clinical stability by 3-4 days, or deterioration/respiratory failure/septic shock in the first 72 hours; associated with a fivefold increase in mortality.": [
+        "u76"
+      ],
+      "copy|But in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure), stability may take longer without implying therapeutic failure (p1690).": [
+        "u77"
+      ],
+      "copy|10.": [
+        "u78"
+      ],
+      "copy|What duration of antibiotic therapy is sufficient for most older adults with pneumonia, and when should it be extended?": [
+        "u79"
+      ],
+      "copy|5-7 days; extend for infection by Legionella, resistant gram-negative bacilli, or MRSA, or for persistent fever beyond 72 hours, persistence of more than one criterion of clinical instability, inadequate initial coverage, or complications (p1690).": [
+        "u80"
+      ],
+      "copy|12.": [
+        "u81"
+      ],
+      "copy|Roughly what fraction of the world's population is estimated to be infected with M tuberculosis, and what is the bimodal age pattern of TB incidence?": [
+        "u82"
+      ],
+      "copy|About 25% (>1.7 billion people); incidence peaks at 15-35 years and again after 65 years (p1691).": [
+        "u83"
+      ],
+      "copy|13.": [
+        "u84"
+      ],
+      "copy|What is the two-step tuberculin test protocol in older adults, and why is it used?": [
+        "u85"
+      ],
+      "copy|Older adults have increased cutaneous anergy; if the first TST is negative (induration <10 mm), a second test is done at 2 weeks.": [
+        "u86"
+      ],
+      "copy|A positive result is induration ≥10 mm and an increase of ≥6 mm over the first test (p1693).": [
+        "u87"
+      ],
+      "copy|14.": [
+        "u88"
+      ],
+      "copy|What isoniazid hepatotoxicity rate is seen in patients over 65, compared with those under 65?": [
+        "u89"
+      ],
+      "copy|Up to 4%-5% in patients >65 years, versus <1% in those <65 years (p1694).": [
+        "u90"
+      ],
+      "copy|15.": [
+        "u91"
+      ],
+      "copy|At what bilirubin or transaminase thresholds should hepatotoxic TB drugs be stopped?": [
+        "u92"
+      ],
+      "copy|Bilirubin ≥3 mg/dL, or transaminases >5x the upper limit of normal (>3x ULN if the patient has symptoms of hepatitis) (p1696).": [
+        "u93"
+      ],
+      "copy|Answer": [
+        "u94",
+        "u95",
+        "u96",
+        "u97",
+        "u98",
+        "u99",
+        "u100",
+        "u101",
+        "u102",
+        "u103",
+        "u104",
+        "u105"
+      ]
+    }
+  },
+  "106s": {
+    "maxId": 77,
+    "entries": {
+      "chapter-106-study-urinary-tract-infections|Chapter 106 Study: Urinary Tract Infections": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "definition-amp-epidemiology|Definition & epidemiology": [
+        "u3"
+      ],
+      "copy|ASB is bacteriuria, with or without pyuria, without localizing genitourinary symptoms; bacteriuria in older adults is usually asymptomatic colonization. (p. 1699)": [
+        "u4"
+      ],
+      "copy|Simple cystitis stays within the bladder; complicated UTI extends beyond it and includes pyelonephritis. Recurrent UTI: ≥3 in 12 months or ≥2 in 6 months, after clinical resolution of each treated episode. (p. 1700)": [
+        "u5"
+      ],
+      "diagnosis-amp-management|Diagnosis & management": [
+        "u6"
+      ],
+      "copy|Do not screen/treat ASB routinely; the exception discussed for older adults is endoscopic urologic procedures associated with mucosal trauma. (p. 1703)": [
+        "u7"
+      ],
+      "copy|Urine-character changes alone do not establish UTI. McGeer criteria serve surveillance; Loeb criteria guide antibiotic decisions. (p. 1705)": [
+        "u8"
+      ],
+      "copy|With nonspecific symptoms but no UTI criteria or warning signs, use active monitoring, hydration and alternative-diagnosis assessment. Fever, rigors, unstable vitals or clear-cut delirium require evaluation. (p. 1712)": [
+        "u9"
+      ],
+      "drugs-acute-simple-cystitis|Drugs — acute simple cystitis": [
+        "u10"
+      ],
+      "copy|Nitrofurantoin monohydrate/macrocrystals 100 mg twice daily for 5 days; avoid with CrCl <30 mL/min or long-term suppression. (p. 1708)": [
+        "u11"
+      ],
+      "copy|TMP/SMX 160/800 mg twice daily for 3 days; avoid empiric use when local uropathogen resistance exceeds 20%. (p. 1708)": [
+        "u12"
+      ],
+      "copy|TMP/SMX interacts with warfarin and sulfonylureas; monitor increased INR/hypoglycemia risk. (p. 1709)": [
+        "u13"
+      ],
+      "copy|Fosfomycin 3 g once orally: generally reserved for resistant pathogens or inability to use other first-line drugs; not for complicated UTI. (p. 1709)": [
+        "u14"
+      ],
+      "copy|Most older men with simple cystitis: 7 days if response is prompt, within 72 hours; assess for extension beyond the bladder. (p. 1711)": [
+        "u15"
+      ],
+      "exam-traps-amp-prevention|Exam traps & prevention": [
+        "u16"
+      ],
+      "copy|Male sex alone does not make every UTI complicated. (p. 1710)": [
+        "u17"
+      ],
+      "copy|Nitrofurantoin/fosfomycin lack adequate renal penetration for complicated UTI. (p. 1711)": [
+        "u18"
+      ],
+      "copy|Avoid unnecessary catheters and remove promptly when no longer indicated; routine fixed-interval replacement is not recommended. (p. 1714)": [
+        "u19"
+      ],
+      "recall|Recall": [
+        "u20"
+      ],
+      "past-paper-questions-on-this-chapter|Past-paper questions on this chapter": [
+        "u21"
+      ],
+      "copy|2023-Jun Q55 — mcq-526291ef04bcef123eab45db": [
+        "u22"
+      ],
+      "copy|2024-May Q19 — mcq-81abf0ac32298245ce5a44eb": [
+        "u23"
+      ],
+      "copy|2026-Jun Q84 — mcq-f7b82a0ad50cab63832650a2": [
+        "u24"
+      ],
+      "copy|2025-Jun Q12 — mcq-60d358f39722f9df5a3990cc": [
+        "u25"
+      ],
+      "table-106-2-book-image|Table 106-2 — book image": [
+        "u26"
+      ],
+      "copy|Hazzard 8e, Table 106-2, p.1703": [
+        "u27",
+        "u49"
+      ],
+      "copy|CHAPTER 106s / HAZZARD": [
+        "u28"
+      ],
+      "copy|Study summary of Chapter 106; the book is the reference.": [
+        "u29"
+      ],
+      "copy|Full chapter available: Read Chapter 106.": [
+        "u30"
+      ],
+      "copy|Fast build from the book; not lane-reviewed.": [
+        "u31"
+      ],
+      "copy|3.": [
+        "u32"
+      ],
+      "copy|How is recurrent UTI defined?": [
+        "u33"
+      ],
+      "copy|7.": [
+        "u34"
+      ],
+      "copy|What are the different purposes of McGeer and Loeb criteria?": [
+        "u35"
+      ],
+      "copy|8.": [
+        "u36"
+      ],
+      "copy|What belongs in active monitoring for nonspecific symptoms?": [
+        "u37"
+      ],
+      "copy|9.": [
+        "u38"
+      ],
+      "copy|What nitrofurantoin regimen and renal limit does the chapter give for simple cystitis?": [
+        "u39"
+      ],
+      "copy|10.": [
+        "u40"
+      ],
+      "copy|What TMP/SMX regimen and local-resistance cutoff are given?": [
+        "u41"
+      ],
+      "copy|11.": [
+        "u42"
+      ],
+      "copy|Which important TMP/SMX interactions should be recognized?": [
+        "u43"
+      ],
+      "copy|12.": [
+        "u44"
+      ],
+      "copy|What is the fosfomycin dose and its usual place in simple-cystitis treatment?": [
+        "u45"
+      ],
+      "copy|15.": [
+        "u46"
+      ],
+      "copy|What warning signs prevent a nonspecific presentation from being treated as routine observation alone?": [
+        "u47"
+      ],
+      "copy|2023-Jun Q55": [
+        "u22",
+        "u48"
+      ],
+      "copy|Answer": [
+        "u50",
+        "u56",
+        "u58",
+        "u60",
+        "u66",
+        "u71",
+        "u73",
+        "u76"
+      ],
+      "copy|At least": [
+        "u51"
+      ],
+      "copy|3 symptomatic UTIs in 12 months": [
+        "u52"
+      ],
+      "copy|or": [
+        "u53"
+      ],
+      "copy|2 in 6 months": [
+        "u54"
+      ],
+      "copy|, following clinical resolution of each episode with treatment. (p. 1700)": [
+        "u55"
+      ],
+      "copy|Original/revised McGeer criteria support nursing-home surveillance; Loeb minimum criteria support clinical antibiotic decisions. (p. 1705)": [
+        "u57"
+      ],
+      "copy|Frequent vital-sign, hydration and symptom checks; hydration support; alternative-diagnosis assessment; and explicit criteria for notifying the physician about deterioration or persistence. (p. 1705)": [
+        "u59"
+      ],
+      "copy|Monohydrate/macrocrystals": [
+        "u61"
+      ],
+      "copy|100 mg twice daily for 5 days": [
+        "u62"
+      ],
+      "copy|; avoid if CrCl is": [
+        "u63"
+      ],
+      "copy|<30 mL/min": [
+        "u64"
+      ],
+      "copy|, and avoid long-term suppression. (p. 1708)": [
+        "u65"
+      ],
+      "copy|160/800 mg twice daily for 3 days": [
+        "u67"
+      ],
+      "copy|for simple cystitis; avoid empiric use if local uropathogen resistance exceeds": [
+        "u68"
+      ],
+      "copy|20%": [
+        "u69"
+      ],
+      "copy|. (p. 1708)": [
+        "u70"
+      ],
+      "copy|Warfarin, with increased INR, and sulfonylureas, with increased hypoglycemia risk. (p. 1709)": [
+        "u72"
+      ],
+      "copy|3 g as a single oral dose": [
+        "u74"
+      ],
+      "copy|; generally reserved for highly resistant pathogens or inability to use other first-line agents. It is not recommended for complicated UTI. (p. 1709)": [
+        "u75"
+      ],
+      "copy|Fever, rigors/chills, unstable vital signs or new clear-cut delirium warrant evaluation for infection and noninfectious causes; assess whether the presentation is consistent with UTI. (p. 1712)": [
+        "u77"
+      ],
+      "exam-questions|Exam questions": [
+        "u21"
+      ],
+      "copy|2024-May Q19": [
+        "u23"
+      ],
+      "copy|2026-Jun Q84": [
+        "u24"
+      ],
+      "copy|2025-Jun Q12": [
+        "u25"
+      ]
+    }
+  },
+  "9s": {
+    "maxId": 34,
+    "entries": {
+      "chapter-9-study-mental-status-and-neurologic-examination|Chapter 9 Study: Mental Status and Neurologic Examination": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "copy|Combine a detailed history with a comprehensive examination; obtain collateral history from a reliable informant when cognition or affect may compromise the account (p133–135).": [
+        "u3"
+      ],
+      "copy|Slower processing and retrieval can accompany aging, while new learning remains possible. Delayed word recall helps distinguish cognitive impairment from normal aging (p134).": [
+        "u4"
+      ],
+      "copy|Distal vibration loss, reduced Achilles reflexes and restricted upward gaze may occur with aging; mild muscle wasting without focal signs need not signify disease (p133–134).": [
+        "u5"
+      ],
+      "copy|An extensor plantar response is not normal aging: it indicates upper motor neuron pathology (p133–134).": [
+        "u6"
+      ],
+      "copy|Assess observation, cognition, function and neuropsychiatric status together; patient denial or lack of awareness makes collateral information valuable (p135).": [
+        "u7"
+      ],
+      "copy|Altered alertness accompanies cognitive deficits and an underlying medical illness that is almost always treatable; investigate it rather than attributing it to age (p133).": [
+        "u8"
+      ],
+      "copy|Test language through spontaneous speech, comprehension, repetition, naming, reading and writing (p133).": [
+        "u9"
+      ],
+      "copy|Animal fluency: approximately 18 animals in 1 minute is normal; fewer than 14 is abnormal. The test is sensitive but lacks specificity (p141).": [
+        "u10"
+      ],
+      "copy|Examine cranial nerves, strength, coordination, sensation, tendon and pathologic reflexes, and neurovascular status; inspect the head and neck as well (p142).": [
+        "u11"
+      ],
+      "copy|Test smell with familiar odors such as coffee or vanilla, each nostril separately; avoid complex perfumes or noxious ammonia (p142).": [
+        "u12"
+      ],
+      "copy|Review gait and station alongside strength, joint disease, sensation and coordination. Medication adverse effects and interactions are significant contributors to falls (p134).": [
+        "u13"
+      ],
+      "copy|History and examination should generate the diagnostic hypotheses that guide laboratory, imaging and specialized studies (p133).": [
+        "u14"
+      ],
+      "copy|Do not confuse slow processing with inability to learn, or a diminished ankle reflex with a pathologic plantar response (p134).": [
+        "u15"
+      ],
+      "copy|Subtle age-associated memory changes do not impair normal social functioning or daily activities; more substantial cognitive decline requires evaluation (p148).": [
+        "u16"
+      ],
+      "exam-cited-book-images|Exam-cited book images": [
+        "u17"
+      ],
+      "table-9-4-book-image|Table 9-4 — book image": [
+        "u18"
+      ],
+      "copy|Hazzard 8e, Table 9-4, p.138": [
+        "u19",
+        "u34"
+      ],
+      "exam-questions|Exam questions": [
+        "u20"
+      ],
+      "copy|2026-Jun Q41": [
+        "u21",
+        "u32"
+      ],
+      "copy|2025-Jun Q16": [
+        "u22"
+      ],
+      "copy|2025-Jun Q34": [
+        "u23"
+      ],
+      "copy|CHAPTER 9s / HAZZARD": [
+        "u24"
+      ],
+      "copy|Study summary of Chapter 9 - Mental Status and Neurologic Examination; the book and the full chapter are the reference.": [
+        "u25"
+      ],
+      "copy|Normal aging versus disease": [
+        "u26"
+      ],
+      "copy|Mental status assessment": [
+        "u27"
+      ],
+      "copy|Neurologic examination": [
+        "u28"
+      ],
+      "copy|Clinical use & exam traps": [
+        "u29"
+      ],
+      "copy|Book images cited by past exams.": [
+        "u30"
+      ],
+      "copy|Tap an image to zoom.": [
+        "u31"
+      ],
+      "copy|Past-exam questions linked to this chapter (3):": [
+        "u33"
+      ]
+    }
+  },
+  "23s": {
+    "maxId": 24,
+    "entries": {
+      "chapter-23-study-substance-use-and-disorders|Chapter 23 Study: Substance Use and Disorders": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "copy|Unhealthy use includes risk of harm or established health/social consequences; addiction is a health condition, not a moral failure (p317, p321).": [
+        "u3"
+      ],
+      "copy|Aging, multimorbidity and interacting medicines increase harm, sometimes at lower exposure than in younger adults (p320–321).": [
+        "u4"
+      ],
+      "copy|A U.S. standard drink contains 14 g ethanol. The chapter cites daily limits of two drinks for men and one for women on drinking days; contraindicating conditions/medications may require abstinence (p317).": [
+        "u5"
+      ],
+      "copy|Reduced tolerance and changed social roles can obscure substance-use diagnostic criteria in older adults (p322).": [
+        "u6"
+      ],
+      "copy|Ask nonjudgmentally about alcohol, prescriptions, nonprescription drugs, cannabis and other substances; recommended screening includes older adults (p321–322).": [
+        "u7"
+      ],
+      "copy|Use AUDIT/AUDIT-C or geriatric tools such as MAST-G and CARET; consider comorbidity and drug interactions, not consumption alone (p322–323).": [
+        "u8"
+      ],
+      "copy|Positive screens require assessment of use pattern, consequences, severity, supports and treatment needs (p323).": [
+        "u9"
+      ],
+      "copy|Brief interventions, motivational approaches and psychosocial treatment can help; tailor goals and supports to the person (p323–324).": [
+        "u10"
+      ],
+      "copy|Alcohol or benzodiazepine withdrawal may need closely monitored specialty care (p324).": [
+        "u11"
+      ],
+      "copy|Naltrexone: oral daily or monthly injection; contraindicated with prescribed opioids, acute hepatitis or liver failure (p324).": [
+        "u12"
+      ],
+      "copy|Acamprosate: oral three times daily; reduce for renal insufficiency. Evidence is strongest after initial abstinence in younger-adult trials (p324).": [
+        "u13"
+      ],
+      "copy|Disulfiram: generally not recommended in older adults because the alcohol reaction can be harmful; if used, great caution is required (p324).": [
+        "u14"
+      ],
+      "copy|Opioid-use disorder has medication options including methadone, buprenorphine and naltrexone; combine medication access with supportive care (p324–326).": [
+        "u15"
+      ],
+      "copy|The chapter has limited older-adult trial evidence for many medications; use its source dose table and individual precautions (p324–325).": [
+        "u16"
+      ],
+      "copy|Continue follow-up and reassessment; recurrence can occur in the course of chronic substance-use disorders (p321).": [
+        "u17"
+      ],
+      "exam-questions|Exam questions": [
+        "u18"
+      ],
+      "copy|CHAPTER 23s / HAZZARD": [
+        "u19"
+      ],
+      "copy|Study summary of Chapter 23; the book and the full chapter are the reference.": [
+        "u20"
+      ],
+      "copy|Identify unhealthy use": [
+        "u21"
+      ],
+      "copy|Screen & assess": [
+        "u22"
+      ],
+      "copy|Treatment": [
+        "u23"
+      ],
+      "copy|No past-exam questions are currently linked to this chapter.": [
+        "u24"
+      ]
+    }
+  },
+  "96s": {
+    "maxId": 38,
+    "entries": {
+      "chapter-96-study-coagulation-disorders|Chapter 96 Study: Coagulation Disorders": [
+        "u1"
+      ],
+      "summary|Summary": [
+        "u2"
+      ],
+      "copy|Hemostasis progresses from platelet plug formation through coagulation, endogenous anticoagulant regulation and fibrinolysis (p1509–1510).": [
+        "u3"
+      ],
+      "copy|Aging increases both bleeding and venous thrombosis risk. Acquired disorders and platelet number/function abnormalities are important causes of bleeding (p1509–1510).": [
+        "u4"
+      ],
+      "copy|Annual VTE incidence is approximately 2–3 per 1000 overall and 7 per 1000 after 70 (p1515).": [
+        "u5"
+      ],
+      "copy|Clinical findings alone do not establish DVT: combine pretest probability, laboratory testing and imaging. Wells is the best-validated and most-used DVT prediction model (p1517).": [
+        "u6"
+      ],
+      "copy|D-dimer also rises with age, infection, inflammation, cancer and surgery; false positives reduce specificity in older adults (p1517).": [
+        "u7"
+      ],
+      "copy|PE may present nonspecifically with dyspnea, tachypnea, tachycardia or chest pain. Symptoms help estimate probability but cannot confirm the diagnosis (p1518).": [
+        "u8"
+      ],
+      "copy|CTPA is the primary imaging test for suspected PE unless contraindicated, including severe renal insufficiency or contrast allergy (p1519).": [
+        "u9"
+      ],
+      "copy|For newly diagnosed primary ITP within 3 months, platelets below 30 × 10^9/L and no or minor mucocutaneous bleeding: prednisone 0.5–2.0 mg/kg/day or dexamethasone 40 mg/day for 4 days (p1514).": [
+        "u10"
+      ],
+      "copy|With corticosteroids, monitor particularly for hypertension/hyperglycemia and insomnia, depression, gastric irritation, myopathy or osteoporosis (p1514).": [
+        "u11"
+      ],
+      "copy|Anticoagulants reduce VTE recurrence and mortality; choose treatment and duration by balancing recurrence against bleeding risk (p1515).": [
+        "u12"
+      ],
+      "copy|Warfarin requires parenteral anticoagulant overlap for at least 5 days and until INR is above 2.0 for at least 24 hours; therapeutic INR is 2.0–3.0 (p1520).": [
+        "u13"
+      ],
+      "copy|Warfarin requires close INR monitoring because older adults may be more sensitive and have more food/drug interactions. DOACs are effective in carefully selected older adults (p1509, p1520).": [
+        "u14"
+      ],
+      "copy|Uncomplicated DVT can generally be treated at home, but comorbid illness, bleeding risk or inadequate financial/home support may warrant admission (p1519).": [
+        "u15"
+      ],
+      "copy|More sensitive CT detection of subsegmental PE has not been accompanied by a corresponding mortality decline; detection does not alone establish clinical significance (p1519).": [
+        "u16"
+      ],
+      "exam-cited-book-images|Exam-cited book images": [
+        "u17"
+      ],
+      "figure-96-3-book-image|Figure 96-3 — book image": [
+        "u18"
+      ],
+      "copy|Hazzard 8e, Figure 96-3, p.1514": [
+        "u19",
+        "u37"
+      ],
+      "table-96-2-book-image|Table 96-2 — book image": [
+        "u20"
+      ],
+      "copy|Hazzard 8e, Table 96-2, p.1513": [
+        "u21",
+        "u38"
+      ],
+      "exam-questions|Exam questions": [
+        "u22"
+      ],
+      "copy|2023-Jun Q46": [
+        "u23",
+        "u35"
+      ],
+      "copy|2026-Jun Q12": [
+        "u24",
+        "u34"
+      ],
+      "copy|2025-Jun Q99": [
+        "u25"
+      ],
+      "copy|CHAPTER 96s / HAZZARD": [
+        "u26"
+      ],
+      "copy|Study summary of Chapter 96 - Coagulation Disorders; the book and the full chapter are the reference.": [
+        "u27"
+      ],
+      "copy|Hemostasis & risk": [
+        "u28"
+      ],
+      "copy|Diagnosis": [
+        "u29"
+      ],
+      "copy|Management & drugs": [
+        "u30"
+      ],
+      "copy|Exam traps": [
+        "u31"
+      ],
+      "copy|Book images cited by past exams.": [
+        "u32"
+      ],
+      "copy|Tap an image to zoom.": [
+        "u33"
+      ],
+      "copy|Past-exam questions linked to this chapter (3):": [
+        "u36"
+      ]
+    }
+  },
+  "laws": {
+    "maxId": 123,
+    "entries": {
+      "section|סיכום: חוק ישראלי ונתוני ברוקדייל": [
+        "u1"
+      ],
+      "section-2|סיכום": [
+        "u2"
+      ],
+      "section-3|חוק החולה הנוטה למות — מדרג הימנעות מטיפול": [
+        "u3"
+      ],
+      "copy|חולה כשיר, נוטה למות, מסרב שחייו יוארכו — מכבדים סירובו (§15א), אך חובה על המטפלים לנסות בסבירות לשכנע אותו לקבל חמצן, מזון ונוזלים (אף באמצעים מלאכותיים), טיפולים שגרתיים למחלות בו-זמניות/רקע וטיפול מקל (§15ב).": [
+        "u4"
+      ],
+      "copy|חולה לא-כשיר, נוטה למות (לא בשלב סופי), הסובל סבל משמעותי, שנקבע לגביו (לפי §5(ב)/(ג)) שאינו רוצה שחייו יוארכו — נמנעים מטיפול הקשור לבעייתו חשוכת המרפא, בהתאם לרצונו שנקבע; טיפול נלווה, כולל מזון ונוזלים, לעולם לא נמנע — גם אם \"נקבע\" שזה רצונו (§16).": [
+        "u5"
+      ],
+      "copy|חולה לא-כשיר, בשלב סופי, הסובל סבל משמעותי ושנקבע שאינו רוצה שחייו יוארכו — חריג ל-§16(ב): יש להימנע (חובה, בהתאם לרצונו שנקבע) גם מטיפול נלווה, כולל מזון; אבל נוזלים מוגנים במיוחד — מותר להימנע מהם רק אם הרופא האחראי קבע שהם עצמם גורמים סבל/נזק (§17).": [
+        "u6"
+      ],
+      "copy|מצב חירום: נותנים טיפול (§15(3) לחוק זכויות החולה), אלא אם נודע למטפל שנקבע שרצון החולה להימנע ממנו (§18(א)). חולה בשלב סופי במצב חירום — מותר להימנע מטיפול מציל חיים, אלא אם נודע שנקבע שרצונו לקבלו (§18(ב)).": [
+        "u7"
+      ],
+      "section-4|חוק זכויות החולה — הסכמה מדעת ומקבל החלטות": [
+        "u8"
+      ],
+      "copy|הסכמה מדעת דורשת מסירת מידע: אבחנה/פרוגנוזה, מהות/תועלת/סיכויי הטיפול, סיכונים, חלופות (כולל אי-טיפול), אופי חדשני (§13).": [
+        "u9"
+      ],
+      "copy|מקבל החלטות זמני (§14א): כאשר רופא מומחה קבע שמטופל בגיר אינו מסוגל להבין בענייניו הרפואיים וזקוק לטיפול דחוף (לא אשפוז פסיכיאטרי), ואין לו מיופה כוח/אפוטרופוס רפואי — עובד סוציאלי במוסד, באישור מנהל המוסד, יכול לאשר אדם בגיר כמקבל החלטות זמני לפי סדר הקדימויות בסעיף 14ב ובכפוף לחריג בסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6)), לתוקף 6 חודשים מיום שניתן.": [
+        "u10"
+      ],
+      "copy|סדר קדימויות למקבל החלטות זמני (§14ב): בן זוג ← ילד ← הורה ← אח. חריג: מי ששמו פורט בייפוי כוח מתמשך שטרם נכנס לתוקף / בהנחיות מקדימות — קודם (§14ב(ה)).": [
+        "u11"
+      ],
+      "copy|מיופה כוח (ייפוי כוח מתמשך בתוקף, ראו למטה) גובר על מקבל החלטות זמני — הליך §14א חל רק בהעדר מיופה כוח/אפוטרופוס רפואי.": [
+        "u12"
+      ],
+      "18|ייפוי כוח מתמשך (חוק הכשרות המשפטית, תיקון 18, פרק שני¹)": [
+        "u13"
+      ],
+      "copy|אדם בגיר כשיר יכול למנות מיופה כוח לענייניו האישיים (כולל רפואיים) ו/או לענייני רכוש (§32ב).": [
+        "u14"
+      ],
+      "copy|מיופה כוח אינו מוסמך: להמיר דת עבור הממנה, להחליף אותו כהורה/אפוטרופוס של מישהו אחר, להסכים לאימוץ, להצביע בבחירות, לבצע פעולה או הבעת רצון לפי חוק החולה הנוטה למות (שם יש ייפוי כוח נפרד, §37 לאותו חוק), לערוך צוואה (§32ו(ב)).": [
+        "u15"
+      ],
+      "copy|תרומות/מתנות/הלוואות בשם הממנה — טעונות הסמכה מפורשת (נמען וסכום; למעט מתנות הנהוגות בנסיבות העניין), ומוגבלות ל-100,000 ש\"ח במצטבר; מעבר לכך — רק באישור מראש לפי §74א (§32ו(ג)(1), (ד)).": [
+        "u16"
+      ],
+      "copy|הסכמה לבדיקה/טיפול/אשפוז פסיכיאטרי — טעונה הסמכה מפורשת; אינה תקפה אם הממנה מתנגד בעת הבקשה, אלא אם ייפוי הכוח נחתם גם בפני פסיכיאטר והממנה הסמיך במפורש להסכים למרות התנגדותו — וגם אז לא לאשפוז מעל 48 שעות (§32ו(ג)(2)).": [
+        "u17"
+      ],
+      "2025-2025-edition-not-the-required-one|נתוני ברוקדייל, מהדורת 2025 — 2025 edition - not the required one": [
+        "u18"
+      ],
+      "copy|תוחלת חיים בלידה, 2023: נשים 85.7, גברים 81.7.": [
+        "u19"
+      ],
+      "copy|תוחלת חיים בגיל 65 (ממוצע 2018-2022): נשים 22.0 שנים, גברים 19.4 שנים.": [
+        "u20"
+      ],
+      "copy|פער יהודים ואחרים–ערבים בתוחלת חיים (2023): 4.1/2.9 שנים (גברים/נשים).": [
+        "u21"
+      ],
+      "copy|ישראל מדורגת 29 עולמית בתוחלת חיים בלידה (82.4 שנים, נתוני 2023; UN WPP 2024) — ירדה מ-20 במהדורה הקודמת, אך הערך המוחלט כמעט זהה (82.3→82.4): מדינות אחרות עקפו, ישראל לא נסוגה (בכפוף לכך שהטבלאות מבוססות על מהדורות UN WPP שונות: 2022 מול 2024).": [
+        "u22"
+      ],
+      "copy|מוגבלות בפעולות בית (ממוצע 2022-2024): 25.5% מבני 65+ בקהילה; פער יהודים ואחרים (22.2%) מול ערבים (58.0%) — גדול אף יותר ממהדורת 2023.": [
+        "u23"
+      ],
+      "section-5|סיעודי / סיעודי-מורכב / שיקומי — נהלי בתי חולים גריאטריים (משרד הבריאות)": [
+        "u24"
+      ],
+      "copy|מטופל סיעודי (§5): מחלה כרונית/ליקוי קבוע הדורש מעקב רפואי מיומן במסגרת רפואית לתקופה ממושכת + (מרותק למיטה/עגלה, או אין שליטה בסוגרים, או \"מתהלך בקושי רק עקב פתולוגיה או סיבוכי מחלות\").": [
+        "u25"
+      ],
+      "copy|מטופל סיעודי-מורכב (§7): סיעודי/תשוש נפש באופן קבוע + אחד מ-7 מצבים (לפי הקריאה המקובלת; הנוסח אינו אומר \"אחד או יותר\" במפורש), כולל: מטופל סיעודי בלתי יציב הזקוק לטיפול וניטור רפואי, פצע לחץ דרגה 3-4, צורך בעירוי/תרופות IV ממושך, בעיות נשימה (טרכאוסטומיה/BIPAP/עומס טיפולי), דיאליזה סדירה (פריטונאלית/המודיאליזה), מחלות ממאירות הדורשות טיפול אקטיבי, עירויי דם חוזרים למשך תקופה ממושכת, בתדירות העולה על פעם בחודש, לאחר הבירור האבחנתי (§7(6)–(7)).": [
+        "u26"
+      ],
+      "copy|מטופל שיקומי (§8): זקוק לשיקום לחזרה תפקודית — שבץ/פגיעה נוירולוגית, שבר/אורתופדי, דלקת פרקים עם ליקוי תפקודי, או מחלה קשה וממושכת (deconditioning).": [
+        "u27"
+      ],
+      "copy|שינוי סטטוס של מטופל המאושפז ב\"קוד\" משרד הבריאות (נוהל 3.4.2, §3.5+6.6; סיווג בקבלה כסיעודי/תשוש נפש — נוהל 01-09 בחוזר מינהל רפואה 20/2009, §3.3): ההחלטה אינה של הצוות המטפל — היא נקבעת ע\"י גריאטר המחוז, לאחר החלטת ועדת הסיווג בלשכה הרלבנטית. היקף: נוהל 3.4.2 חל על מאושפזים ב\"קוד\" משרד הבריאות; מעבר ממחלקה שיקומית (מימון קופה) לסיעודי-מורכב אינו מוסדר במסמכים שבידינו.": [
+        "u28"
+      ],
+      "18-2|תרגול — 18 שאלות": [
+        "u29"
+      ],
+      "copy|PRIMARY LAW": [
+        "u30"
+      ],
+      "copy|Study summary of the Israel Law block; israel_law.md is the reference source (primary law/MoH text, not Hazzard).": [
+        "u31"
+      ],
+      "copy|לפי P005-2026, עמ׳ 3, נדרש שנתון 2024, מספר 26.": [
+        "u32"
+      ],
+      "copy|נתוני 2025 והשאלות עליהם להלן הם חומר נוסף; כרטיס ברוקדייל 2024 נמצא ברשימת הקריאה הנדרשת.": [
+        "u33"
+      ],
+      "copy|1.": [
+        "u34"
+      ],
+      "copy|חולה כשיר, נוטה למות, מסרב לאכול ולשתות.": [
+        "u35"
+      ],
+      "copy|מה על הצוות לעשות ראשית?": [
+        "u36"
+      ],
+      "copy|2.": [
+        "u37"
+      ],
+      "copy|חולה נוטה למות, לא-כשיר, לא בשלב סופי, \"נקבע\" שאינו רוצה שחייו יוארכו.": [
+        "u38"
+      ],
+      "copy|מותר להימנע ממתן מזון ונוזלים?": [
+        "u39"
+      ],
+      "copy|3.": [
+        "u40"
+      ],
+      "copy|חולה בשלב סופי, לא-כשיר, \"נקבע\" שאינו רוצה שחייו יוארכו.": [
+        "u41"
+      ],
+      "copy|מתי מותר להימנע ממתן נוזלים?": [
+        "u42"
+      ],
+      "copy|4.": [
+        "u43"
+      ],
+      "copy|מהו ההבדל המשפטי בין §16 ל-§17?": [
+        "u44"
+      ],
+      "copy|5.": [
+        "u45"
+      ],
+      "copy|מטופל בגיר אינו כשיר להבין בענייניו הרפואיים, זקוק לטיפול דחוף, ואין לו מיופה כוח או אפוטרופוס.": [
+        "u46"
+      ],
+      "copy|מי נותן הסכמה?": [
+        "u47"
+      ],
+      "copy|6.": [
+        "u48"
+      ],
+      "copy|מהו סדר הקדימויות למקבל החלטות זמני?": [
+        "u49"
+      ],
+      "copy|7.": [
+        "u50"
+      ],
+      "copy|כמה זמן בתוקף אישור מקבל החלטות זמני?": [
+        "u51"
+      ],
+      "copy|8.": [
+        "u52"
+      ],
+      "copy|מטופל מינה מיופה כוח מתמשך הכולל ענייניו האישיים.": [
+        "u53"
+      ],
+      "copy|יש למטופל גם בן זוג.": [
+        "u54"
+      ],
+      "copy|מי מקבל החלטות רפואיות אם המטופל אינו כשיר?": [
+        "u55"
+      ],
+      "copy|9.": [
+        "u56"
+      ],
+      "copy|מיופה כוח מתמשך מוסמך להחליט על אימוץ ילד של הממנה?": [
+        "u57"
+      ],
+      "copy|10.": [
+        "u58"
+      ],
+      "copy|מיופה כוח מתמשך רוצה לתת תרומה של 150,000 ש\"ח בשם הממנה.": [
+        "u59"
+      ],
+      "copy|מותר?": [
+        "u60"
+      ],
+      "copy|11.": [
+        "u61"
+      ],
+      "copy|הממנה נתן ייפוי כוח מתמשך הכולל הסמכה להסכים לאשפוז פסיכיאטרי.": [
+        "u62"
+      ],
+      "copy|במועד הבקשה בפועל, הממנה (שאינו כשיר להביע רצון מפורט) מפגין סימני התנגדות ברורים.": [
+        "u63"
+      ],
+      "copy|תקפה ההסכמה?": [
+        "u64"
+      ],
+      "copy|12.": [
+        "u65"
+      ],
+      "copy|מהו ההבדל בין \"הסכמה מדעת\" רגילה (§13-14) לבין הסכמה של מקבל החלטות זמני?": [
+        "u66"
+      ],
+      "copy|13.": [
+        "u67"
+      ],
+      "copy|מהי תוחלת החיים בלידה בישראל (2023) לנשים ולגברים?": [
+        "u68"
+      ],
+      "copy|14.": [
+        "u69"
+      ],
+      "copy|מה דירוג ישראל עולמית בתוחלת חיים בלידה (נתוני 2023), ומול איזו מדינה נסמן?": [
+        "u70"
+      ],
+      "copy|15.": [
+        "u71"
+      ],
+      "copy|מהו הפער בשיעור המוגבלות בפעולות משק בית בין ערבים ליהודים בני 65+ בקהילה?": [
+        "u72"
+      ],
+      "copy|16.": [
+        "u73"
+      ],
+      "copy|מטופל בבית חולים גריאטרי מוגדר \"סיעודי\".": [
+        "u74"
+      ],
+      "copy|מתפתח אצלו פצע לחץ דרגה 3.": [
+        "u75"
+      ],
+      "copy|משנה את הסיווג?": [
+        "u76"
+      ],
+      "copy|17.": [
+        "u77"
+      ],
+      "copy|מטופל סיעודי המאושפז ב\"קוד\" משרד הבריאות בבי\"ח גריאטרי זקוק כעת למעבר למחלקה סיעודית-מורכבת בשל צורך בהמודיאליזה סדירה.": [
+        "u78"
+      ],
+      "copy|מי מחליט על שינוי הסטטוס?": [
+        "u79"
+      ],
+      "copy|18.": [
+        "u80"
+      ],
+      "copy|מהו ההבדל בין \"מטופל סיעודי\" ל\"מטופל סיעודי-מורכב\" מבחינת ההגדרה הפורמלית?": [
+        "u81"
+      ],
+      "copy|תשובה": [
+        "u82",
+        "u84",
+        "u86",
+        "u88",
+        "u92",
+        "u94",
+        "u96",
+        "u98",
+        "u100",
+        "u102",
+        "u106",
+        "u108",
+        "u112",
+        "u114",
+        "u116",
+        "u118",
+        "u120",
+        "u122"
+      ],
+      "copy|לכבד את רצונו ולהימנע מטיפול רפואי בו (§15(א)); בנפרד, לעשות מאמץ סביר לשכנעו לקבל חמצן, מזון ונוזלים (אף באמצעים מלאכותיים), טיפולים שגרתיים למחלות בו-זמניות/רקע וטיפול מקל (§15(ב)).": [
+        "u83"
+      ],
+      "copy|לא. טיפול נלווה (כולל מזון ונוזלים אף באמצעים מלאכותיים) לעולם לא נמנע בחולה זה (§16(ב)(2)).": [
+        "u85"
+      ],
+      "copy|רק אם הרופא האחראי קבע שמתן הנוזלים עצמו גורם סבל או נזק לחולה (§17) — לא סתם על סמך \"רצונו\".": [
+        "u87"
+      ],
+      "copy|§16 חל על חולה נוטה למות שאינו בשלב סופי — טיפול נלווה לעולם מוגן. §17 הוא חריג ל-§16(ב) עבור חולה": [
+        "u89"
+      ],
+      "copy|בשלב סופי": [
+        "u90"
+      ],
+      "copy|(בשניהם: חולה לא-כשיר, הסובל סבל משמעותי, שנקבע לגביו שאינו רוצה שחייו יוארכו) — יש להימנע (בהתאם לרצונו שנקבע) גם מטיפול נלווה, כולל מזון, אך נוזלים עדיין מוגנים — אלא אם הרופא האחראי קבע שהם גורמים סבל או נזק.": [
+        "u91"
+      ],
+      "copy|מקבל החלטות זמני — אדם בגיר שמאושר בכתב על ידי עובד סוציאלי במוסד הרפואי (באישור מנהל המוסד), לאחר שרופא מומחה קבע שהמטופל אינו מסוגל להבין וזקוק לטיפול דחוף, לפי סדר הקדימויות בסעיף 14ב ובכפוף לחריג בסעיף 14ב(ה) למי ששמו נקוב בייפוי כוח שטרם נכנס לתוקף או בהנחיות מקדימות, בתנאי שיפעל לטובת המטופל, נתן הסכמה והצהרה בכתב והמטופל לא הביע התנגדות לאישורו (§14א(ב)(4)–(6)).": [
+        "u93"
+      ],
+      "copy|בן זוג ← ילד ← הורה ← אח (§14ב).": [
+        "u95"
+      ],
+      "copy|שישה חודשים מיום שניתן (§14א(ג)).": [
+        "u97"
+      ],
+      "copy|מיופה הכוח (בתנאי שייפוי הכוח נכנס לתוקף) — הוא גובר על מקבל החלטות זמני; ההליך של §14א (כולל סדר הקדימויות המשפחתי) חל רק בהעדר מיופה כוח/אפוטרופוס רפואי.": [
+        "u99"
+      ],
+      "copy|לא. מתן הסכמה למסירת ילד לאימוץ אסור באופן מוחלט על מיופה כוח, ללא יוצא מן הכלל (§32ו(ב)(3)).": [
+        "u101"
+      ],
+      "copy|לא מכוח ייפוי הכוח לבדו. תרומה מותרת רק לנמען ובסכום שצוינו במפורש, ובלבד שהסכום לא יעלה": [
+        "u103"
+      ],
+      "copy|במצטבר": [
+        "u104"
+      ],
+      "copy|על 100,000 ש\"ח (§32ו(ג)(1)(א)); תרומה מעבר לכך — גם עם הסמכה מפורשת — רק באישור מראש לפי §74א (§32ו(ד)(6)).": [
+        "u105"
+      ],
+      "copy|לא, ככלל — הסכמת מיופה כוח לפי סעיף זה אינה תקפה אם הממנה מתנגד בעת שהתבקשה ההסכמה, אלא אם ייפוי הכוח לעניין זה נחתם גם בפני פסיכיאטר והממנה הסמיך במפורש את מיופה הכוח לתת הסכמה למרות התנגדותו; וגם אז — לא לאשפוז העולה על 48 שעות, ולא אם הממנה מסוגל באותה עת לתת הסכמה מדעת (§32ו(ג)(2)(ב)-(ד)).": [
+        "u107"
+      ],
+      "copy|הסכמה מדעת רגילה ניתנת ישירות על ידי מטופל כשיר, לאחר גילוי מידע מלא. מקבל החלטות זמני נותן הסכמה": [
+        "u109"
+      ],
+      "copy|בשם": [
+        "u110"
+      ],
+      "copy|מטופל שאינו מסוגל להבין בענייניו הרפואיים, ורק לאחר שווידאו זאת (§14א(ו)).": [
+        "u111"
+      ],
+      "copy|נשים 85.7, גברים 81.7 שנים (ברוקדייל, מהדורת 2025, עמ' 129).": [
+        "u113"
+      ],
+      "copy|מקום 29 מתוך 236 מדינות, 82.4 שנים — נמוך מיפן (מקום 4, 84.7) אך גבוה בהרבה מארה\"ב (מקום 64, 79.3) (טבלה 5.10, עמ' 346-347).": [
+        "u115"
+      ],
+      "copy|58.0% ערבים לעומת 22.2% יהודים ואחרים (ברוקדייל, מהדורת 2025, עמ' 133) — פער גדול אף יותר ממהדורת 2023.": [
+        "u117"
+      ],
+      "copy|כן — פצע לחץ בדרגה 3-4 הוא אחד משבעת המצבים בהגדרת \"סיעודי-מורכב\" (נוהל 0.2.1, §7.2), ובמטופל שכבר סיעודי באופן קבוע הוא מספיק לפי הקריאה המקובלת. שינוי הסטטוס עצמו — ע\"י גריאטר המחוז לאחר ועדת הסיווג (נוהל 3.4.2, §3.5).": [
+        "u119"
+      ],
+      "copy|גריאטר המחוז, לאחר החלטת ועדת הסיווג בלשכת הבריאות המחוזית הרלבנטית — לא הצוות המטפל בבית החולים לבדו (נוהל 3.4.2, §3.5 — \"שינוי סטטוס\" כולל מעבר לסיעוד-מורכב; הנוהל חל על מאושפזים ב\"קוד\". וכן, לקבלה חדשה, \"סיווג\" כסיעודי/תשוש נפש ע\"י הגריאטר המחוזי באמצעות ועדה — נוהל 01-09 בחוזר מינהל רפואה 20/2009, §3.3).": [
+        "u121"
+      ],
+      "copy|\"סיעודי\" (§5) הוא מחלה כרונית/ליקוי קבוע הדורש מעקב רפואי מיומן לתקופה ממושכת, יחד עם ליקוי תפקודי (מרותק למיטה/עגלה, אי-שליטה בסוגרים, או מתהלך בקושי רק עקב פתולוגיה או סיבוכי מחלות). \"סיעודי-מורכב\" (§7) דורש בנוסף לכך גם עומס טיפולי-רפואי גבוה — לדוגמה פצע לחץ דרגה 3-4, דיאליזה סדירה, טרכאוסטומיה/BIPAP, או מחלה ממאירה הדורשת טיפול אקטיבי — המצריך צוות בעל מיומנות גבוהה יותר.": [
+        "u123"
+      ],
+      "2024-26|נתוני ברוקדייל, שנתון 2024 (מס׳ 26)": [
+        "u18"
+      ],
+      "copy|תוחלת חיים בלידה, 2022: נשים 84.8, גברים 80.7 (עמ׳ 131).": [
+        "u19"
+      ],
+      "copy|תוחלת חיים בגיל 65 (ממוצע 2018-2022): נשים 22.0 שנים, גברים 19.4 שנים; בגיל 75: נשים 13.7, גברים 12.1 (עמ׳ 132).": [
+        "u20"
+      ],
+      "copy|פער יהודים ואחרים–ערבים בתוחלת חיים בלידה (2022): 3.8 שנים בגברים ו-3.1 שנים בנשים (עמ׳ 131–132).": [
+        "u21"
+      ],
+      "copy|ישראל מדורגת 29 מתוך 236 מדינות בתוחלת חיים (2023, מעוגל ל-82 שנים); מונקו במקום 1 (86) ויפן במקום 4 (85). מאז 1975 עלתה תוחלת החיים בישראל ב-11 שנים (אינפוגרפיקה, עמ׳ 35).": [
+        "u22"
+      ],
+      "copy|מוגבלות בביצוע פעולות משק בית (ממוצע 2020-2022): 22.6% מבני 65+ בקהילה; 14.6% בגילי 65–74 לעומת 36.3% בבני 75+ (עמ׳ 134).": [
+        "u23"
+      ],
+      "copy|הנתונים והשאלות להלן לקוחים ממנו (בני 65+ בישראל, שנתון סטטיסטי 2024, מכון ברוקדייל).": [
+        "u33"
+      ],
+      "copy|מהי תוחלת החיים בלידה בישראל (2022) לנשים ולגברים?": [
+        "u68"
+      ],
+      "copy|מה דירוג ישראל עולמית בתוחלת חיים (2023), ואילו מדינות מעליה?": [
+        "u70"
+      ],
+      "copy|מהו הפער בשיעור המוגבלות בפעולות משק בית בין בני 65–74 לבני 75+ בקהילה?": [
+        "u72"
+      ],
+      "copy|נשים 84.8, גברים 80.7 שנים (ברוקדייל, שנתון 2024, עמ' 131).": [
+        "u113"
+      ],
+      "copy|מקום 29 מתוך 236 מדינות, כ-82 שנים — אחרי מונקו (מקום 1, 86) ויפן (מקום 4, 85) (ברוקדייל, שנתון 2024, אינפוגרפיקה עמ' 35).": [
+        "u115"
+      ],
+      "copy|14.6% בגילי 65–74 לעומת 36.3% בבני 75+; בסך הכול 22.6% מבני 65+ (ממוצע 2020–2022) (ברוקדייל, שנתון 2024, עמ' 134).": [
+        "u117"
+      ]
+    }
   }
 }

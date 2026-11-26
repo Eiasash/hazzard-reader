@@ -9,6 +9,23 @@ Study summary of Chapter 96 - Coagulation Disorders; the book and the full chapt
 - Aging increases both bleeding and venous thrombosis risk. Acquired disorders and platelet number/function abnormalities are important causes of bleeding (p1509–1510).
 - Annual VTE incidence is approximately **2–3 per 1000** overall and **7 per 1000** after **70** (p1515).
 
+**Prolonged PT or aPTT (Table 96-2)**
+- PT tests the extrinsic and common pathways and is the most sensitive test for factor VII deficiency; aPTT tests the intrinsic and common pathways and detects deficiencies of, or inhibitors to, factors II, V, VIII, IX, X, XI and XII (p1512).
+- **Normal PT, prolonged aPTT**: lupus anticoagulant; factor VIII, IX, XI or XII deficiency; von Willebrand disease; heparin exposure. Subcutaneous heparin prophylaxis is the most common cause in hospitalized patients. Factor XI deficiency (hemophilia C) has a more variable bleeding history, often following surgical procedures. The lupus anticoagulant causes thrombosis rather than bleeding (p1512–1513).
+- **Prolonged PT, normal aPTT**: VKA use, dietary vitamin K deficiency, factor VII deficiency, early liver disease, early DIC, high-dose heparin. **Both prolonged**: supratherapeutic anticoagulation, concomitant heparin and VKA, end-stage liver disease, DIC, systemic fibrinolysis, rodenticide poisoning (Table 96-2, p1513).
+- Acquired hemophilia A (autoantibodies against factor VIII) is predominantly a disease of older adults, median age **64–78**; up to **50%** have no identifiable cause. Acute subcutaneous, gastrointestinal or muscle bleeding without trauma or a prior bleeding history should prompt evaluation; mortality exceeds **20%** if diagnosis is delayed (p1512).
+
+**Thrombocytopenia (Table 96-3, Figure 96-3)**
+- Causes in older adults: decreased production (B12 or folate deficiency, myelodysplastic syndrome, marrow failure or infiltration, medications, alcohol, infection), increased destruction (immune thrombocytopenia, SLE, antiphospholipid syndrome, HIT, drug-induced thrombocytopenia, infection, DIC, mechanical prosthetic valve, TTP), sequestration or other (chronic liver disease, hypersplenism, spurious, dilutional) (Table 96-3, p1513).
+- ITP is isolated thrombocytopenia below **100 × 10^9/L**; incidence **2 to 5 per 100,000**, increasing with age. Petechiae, purpura and epistaxis usually appear below **30 × 10^9/L** (p1514).
+- Drug-induced thrombocytopenia is the most common cause of thrombocytopenia in older adults and is usually evident within the first week of the causative drug. Figure 96-3 sorts it by onset: **<24 h**, immune-mediated by preexisting antibodies; **3–10 days**, immune-mediated anamnestic response; **>2 weeks**, nonimmune myelosuppression or immune-mediated primary alloimmunization. Table 96-4 lists trimethoprim/sulfamethoxazole among definite or probable causes (p1514).
+- HIT: antibodies to platelet factor 4 increase platelet activation and consumption and raise the risk of both arterial and venous thrombosis; use validated tools such as the 4T score with serologic or functional testing (p1514–1515).
+
+**Thrombosis risk (p1516)**
+- Virchow triad: endothelial injury, impaired flow (stasis) and hypercoagulability. Factor V Leiden is the most common inherited thrombophilia, prevalence **5%** in unselected White populations, with a **three- to fivefold** VTE risk; prothrombin G20210A gives about a **threefold** risk (p1516).
+- Acquired thrombophilias in older adults include antiphospholipid syndrome, HIT, hormone replacement therapy, myeloproliferative neoplasms and malignancy. Antiphospholipid syndrome needs persistent antiphospholipid antibodies with arterial or venous thrombosis or pregnancy complications; antibodies can also cause thrombocytopenia. Repeat an initial positive test after at least **12 weeks**; routine screening is not recommended (p1516).
+- Malignancy carries a **four- to sevenfold** VTE risk, up to **20%** of all VTEs. Some anticancer therapies are prothrombotic (eg, lenalidomide, cisplatin, L-asparaginase). Polycythemia vera and essential thrombocythemia, especially with JAK2 V617F, are associated with arterial, venous and splanchnic thrombosis (p1516).
+
 **Diagnosis**
 - Clinical findings alone do not establish DVT: combine pretest probability, laboratory testing and imaging. Wells is the best-validated and most-used DVT prediction model (p1517).
 - D-dimer also rises with age, infection, inflammation, cancer and surgery; false positives reduce specificity in older adults (p1517).

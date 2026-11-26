@@ -8,18 +8,22 @@ Fast build from the book; not lane-reviewed.
 
 ## Summary
 
-### Clinical relevance and the human aging pattern
+## Clinical relevance and the human aging pattern
 
 <a id="p1267"></a>**[p. 1267]**
+
+<span data-exam-ids="mcq-9d2304f27d614fa4907fbfd2" data-exam-read-page="1267"></span>
 
 - Kidney aging affects both structure and function. Baseline homeostasis is usually preserved, but the ability to respond to a challenge is compromised and susceptibility to injury increases. Genetic and environmental factors produce considerable variation in the rate of decline (p1267).
 - Hypertension and diabetes accelerate age-related changes. Increasing survival into old age contributes to the growing number receiving kidney replacement therapy, beyond greater willingness to offer treatment (p1267).
 - The cited US data report ESKD treatment initiation of approximately **1.27 per 1000** at ages **65–69**, **1.43 per 1000** at **70–75**, and a peak of **1.82 per 1000** at **80–84**. Over the preceding **10 years**, replacement therapy increased **35%** in those **75 or older** and **43%** in those **older than 80** (p1267).
 - **Human kidney mass and size eventually decline; rat kidney weight increases throughout life.** Animal findings cannot simply be applied to humans. This page places peak human mass/size in the **fourth decade**; the later gross-anatomy paragraph places maximum weight/volume in the **third decade** (p1267; p1271). The shared conclusion is subsequent loss of renal mass, predominantly cortex (p1271).
 
-### Functional reserve, GFR, and the misleadingly normal creatinine
+## Functional reserve, GFR, and the misleadingly normal creatinine
 
 <a id="p1268"></a>**[p. 1268]**
+
+<span data-exam-ids="mcq-03e515ea1394f1b7d0176064 mcq-379839aaebec0e3a1494bbd7" data-exam-read-page="1268"></span>
 
 - The structural pattern is **basement-membrane thickening, mesangial expansion, and progressive glomerulosclerosis**. Older autopsy studies did not reliably exclude kidney disease/comorbidity; longitudinal cohorts and carefully screened living donors better characterize healthy aging (p1268).
 - Fluid and electrolyte homeostasis at baseline can remain normal while **renal reserve declines**. Both salt/water loads and deficits become harder to manage; acute illness can therefore uncover renal complications. Hypertension accelerates reserve loss (p1268).
@@ -39,7 +43,7 @@ This figure is on an official-question-cited page; the question references ident
 
 </details>
 
-### Measurement, CKD staging, proteinuria, and tubular reserve
+## Measurement, CKD staging, proteinuria, and tubular reserve
 
 <a id="p1269"></a>**[p. 1269]**
 
@@ -71,9 +75,11 @@ This table is on an official-question-cited page; the question references identi
 
 </details>
 
-### Potassium balance and hypokalemia
+## Potassium balance and hypokalemia
 
 <a id="p1270"></a>**[p. 1270]**
+
+<span data-exam-ids="mcq-a1aa8dc766d2c3afb2e30713" data-exam-read-page="1270"></span>
 
 - Concentrating impairment may reflect tubular defects or altered ADH response; the mechanism is uncertain. Reduced urine acidification limits acid-load excretion. Declines in glucose/amino-acid transport parallel GFR loss and are attributed to lost nephrons rather than intrinsic tubular aging. Increased nephrotoxic susceptibility requires attention to antibiotic selection/dosing and iodinated contrast (p1270).
 - Most body potassium is intracellular in skeletal muscle, so serum potassium incompletely reflects stores, especially under stress. Serum concentration depends on **renal handling and transmembrane shifts**. Insulin/glucagon, adrenergic stimulation, acid–base balance, and osmolality regulate shifts (p1270).
@@ -85,9 +91,11 @@ This table is on an official-question-cited page; the question references identi
 - The book favors **oral replacement** when possible. Severe hypokalemia or acute arrhythmias may require parenteral replacement; it describes **10 or 20 mEq at a time with frequent repeat measurements** as the safest approach. Low-dose potassium-sparing diuretics may reduce losses during continuing diuretic therapy, but require caution with CKD or other potassium-retaining medicines (p1270).
 - Hyperkalemia susceptibility reflects lower kidney function and muscle mass, altered muscle ion regulation, lower renin/aldosterone, ACE inhibitors/ARBs/potassium-sparing diuretics, impaired intracellular uptake with glucose intolerance, and type **IV** renal tubular acidosis (p1270).
 
-### Hyperkalemia: artifact, true risk, ECG, and treatment mechanisms
+## Hyperkalemia: artifact, true risk, ECG, and treatment mechanisms
 
 <a id="p1271"></a>**[p. 1271]**
+
+<span data-exam-ids="mcq-f7f1da57f641c281b8dd1d40" data-exam-read-page="1271"></span>
 
 - The book generally defines hyperkalemia as **>5.3 mEq/L**, while acknowledging differing definitions. It occurs in up to **10%** of hospitalized patients. Despite theoretical susceptibility, studies had difficulty demonstrating a higher incidence in older versus younger users of renin–angiotensin–aldosterone inhibitors (p1271).
 - **Spurious hyperkalemia** can result from hemolysis during difficult collection/sample deterioration, severe thrombocytosis, severe leukocytosis, or red-cell disorders. If suspected, obtain **plasma potassium**. Thrombocytosis is therefore a possible explanation for an unexpectedly high measured serum potassium (p1271).
@@ -100,7 +108,7 @@ This table is on an official-question-cited page; the question references identi
 - Shifting is temporary; potassium must ultimately leave the body. The book lists loop-diuretic-driven diuresis, exchange resin such as sodium polystyrene sulfonate, and dialysis. Choice depends on severity, kidney function, intestinal disease, and patient/physician preference; diuresis is effective with preserved kidney function, whereas impaired function may require resin and/or dialysis (p1271).
 - Gross anatomy: renal mass declines after the **fourth decade**, mainly cortex with relative medullary sparing. The young kidney contains roughly **1 million nephrons**, with no evidence of postnatal nephrogenesis. Low initial nephron number as an explanation for later disease in low-birth-weight babies remains a hypothesis (p1271).
 
-### Remaining chapter: structure and mechanisms
+## Remaining chapter: structure and mechanisms
 
 <a id="p1272"></a>**[p. 1272]**
 
