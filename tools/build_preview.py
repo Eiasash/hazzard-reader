@@ -88,15 +88,27 @@ def write_package(out):
     (out/"js/reader-cloud.js").write_text(cloud,encoding="utf-8",newline="\n")
     storage = out/"js/reader-storage.js"
     storage.write_text(storage.read_text(encoding="utf-8").replace("'hazzard-reader-snapshots-v1'","'reader-preview-snapshots-v1'"),encoding="utf-8",newline="\n")
+    version = source_list["version"]
+    notes = json.loads((out / "data/changelog.json").read_text(encoding="utf-8"))
+    if notes.get("schema") != 1 or notes["releases"][0]["version"] != version:
+        raise ValueError("Preview release notes do not match the displayed release")
+    status = (ROOT / "tools/preview-status.js").read_text(encoding="utf-8")
+    (out / "js/reader-status.js").write_text(status.replace("__RELEASE__", json.dumps(version)), encoding="utf-8", newline="\n")
     files = []
     for name in sorted(paths):
         raw = (out/name).read_bytes()
         files.append({"url":"./"+name,"sha256":hashlib.sha256(raw).hexdigest(),"bytes":len(raw)})
     manifest = json.dumps({"version":source_list["version"],"files":files},separators=(",",":"))
     (out/"asset-list.json").write_text(manifest,encoding="utf-8",newline="\n")
-    worker = (ROOT/"sw.js").read_text(encoding="utf-8").replace("'hazzard-shell-' + CACHE_VERSION + '-sources'",repr("reader-preview-"+hashlib.sha256(manifest.encode()).hexdigest()[:16])).replace("startsWith('hazzard-')","startsWith('reader-preview-')")
-    worker = worker.replace("event.data?.type === 'HAZZARD_APPLY_UPDATE'", "(event.data?.type === 'HAZZARD_APPLY_UPDATE' || event.data === 'update')")
-    (out/"sw.js").write_text(worker,encoding="utf-8",newline="\n")
+    template = (ROOT / "tools/preview-worker.js").read_text(encoding="utf-8")
+    build_id = hashlib.sha256((manifest + template).encode("utf-8")).hexdigest()[:16]
+    shell = [row for row in files if row["url"].endswith((".js", ".css")) or
+             row["url"] in {"./index.html", "./manifest.json", "./app.webmanifest", "./data/changelog.json"}]
+    shell.append({"url": "./asset-list.json", "sha256": hashlib.sha256(manifest.encode("utf-8")).hexdigest()})
+    worker = template.replace("__RELEASE__", json.dumps(version)).replace("__BUILD__", json.dumps(build_id))
+    worker = worker.replace("__SHELL__", json.dumps(shell, separators=(",", ":")))
+    (out / "sw.js").write_text(worker, encoding="utf-8", newline="\n")
+    (out / "_headers").write_text("/sw.js\n  Cache-Control: no-cache, must-revalidate\n/index.html\n  Cache-Control: no-cache, must-revalidate\n", encoding="utf-8", newline="\n")
     print(out,source_list["version"],len(files),"verified assets")
 
 
