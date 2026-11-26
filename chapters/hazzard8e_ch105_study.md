@@ -4,17 +4,21 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 
 ## Summary
 
-### Definition & Epidemiology
+## Definition & Epidemiology
 - Pneumonia (clinical definition) = symptoms (fever, chills, cough, pleuritic pain) + signs (hyper-/hypothermia, raised RR, dullness, crackles, wheezing, pleural rub) + an opacity on chest x-ray; research definitions require ≥2 symptoms, ≥1 sign, and a new opacity not due to other conditions (p1679).
 - Incidence **2-10** cases/1000/yr overall; in patients >65, European/US registries report **25-40**/1000/yr with **7%-35%** mortality (p1680).
 - US burden: **>4 million** annual outpatient visits, **>1 million** hospitalizations/yr (**600,000** in adults >65); **10-20%** of hospitalized patients need ICU; mean length of stay **5 days**; overall 30-day mortality **23%** (p1680).
 - Mortality **1%-2%** in young patients without comorbidity vs **25%-50%** in older adults with severe comorbidity; 30-day mortality **3x higher** in patients >85 vs 65-74; **>50,000** US deaths/yr, **85%** in patients >65; 30-day readmission **~20%**; annual US cost **>$17 billion**, **80%** driven by hospitalization (p1680).
 
-### Etiology & Resistant-Organism Risk
+## Etiology & Resistant-Organism Risk
 - *Streptococcus pneumoniae* remains the single most common agent, **20%-65%** of cases (p1681).
 - Viruses implicated in **12%-18%** of cases; influenza, RSV, and human metapneumovirus together account for **8%-14%** (p1681).
 - Hospital-acquired pneumonia begins at least **48 h after admission** and was not incubating on arrival; Hazzard also discusses recent discharge (**10–14 days**) as a healthcare exposure, which alone does not define HAP (p1681).
 - HAP pathogen-specific risk factors (Table 105-1, p1681): **MDR pathogens** — prior antibiotics, hospitalization **>5 days** in the prior 90 d, high hospital resistance rate, nursing-home residence, home IV therapy, chronic dialysis, active wound care, contact with an MDR-infected patient, or immunosuppressive disease/therapy; ***Pseudomonas*/MDR bacilli** — recent ICU admission, prior antibiotics, chronic corticosteroids, structural lung disease, or late-onset nosocomial pneumonia; ***Legionella*** — chronic corticosteroids, hematologic cancer, contaminated-water contact, or prior nosocomial *Legionella* cases; ***S aureus*** — recent ICU admission, prior influenza, colonization/prevalence of methicillin-resistant strains, TBI, coma, diabetes, or renal failure; **anaerobes** — poor oral hygiene, decreased consciousness, airway manipulation, or recent abdominal surgery.
+
+<span data-exam-page="1682"></span>
+
+- Health care–associated pneumonia (HCAP) can be defined by one of: hospitalization for **2 days** or more in the preceding **90 days**; nursing home or extended care residence; home infusion therapy; chronic dialysis within **30 days**; home wound care; or a family member with a multidrug-resistant pathogen. Up to **50%** of emergency department pneumonia patients may meet HCAP criteria, but only **10% to 30%** of them have resistant bacteria, so many authors favor an approach based on individual risk factors and severity (p1682).
 - Shorr MDRO risk score: recent hospitalization **4 pts**, admission from long-term care **3 pts**, hemodialysis **2 pts**, critical illness **1 pt**; a score of **0** carries **84%** negative predictive value for MDRO (p1682).
 - One study: clinical signs of severe pneumonia plus two risk factors (immunosuppression, hospitalization in the prior 90 d, Barthel <50, antibiotics in the prior 6 mo) were associated with higher MDRO frequency (**2% vs 27%**). Ewig / Brito-Niederman approach: ≥2 multidrug-resistance factors (severe pneumonia, hospitalization in the prior 90 d, nursing-home residence, severe basal dependence, immunosuppression, antibiotics in the prior 6 mo) → empiric MDRO coverage warranted (p1682).
 - ESBL-producing *Klebsiella* found in **20%** of US and **35%** of European pneumonia isolates (p1683).
@@ -23,7 +27,10 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - Exposure-specific pathogens (Table 105-3, p1683): bird/fowl/farm-animal contact → *Chlamydophila psittaci*; rabbit contact → *Coxiella burnetii*; bat contact or residence in an endemic area → *Histoplasma capsulatum*; air-conditioning/cooling-tower exposure → *Legionella pneumophila*; travel to Southeast Asia → *Burkholderia pseudomallei*, avian influenza; alcohol intoxication → *S pneumoniae*, *K pneumoniae*, anaerobes, *S aureus*; prison inmates → *S pneumoniae*, *M tuberculosis*; advanced HIV → *S pneumoniae*, *H influenzae*, *P jiroveci*, *M tuberculosis*.
 - Shorr MRSA prediction score: low risk if total score **≤1** (p1683).
 
-### Diagnosis & Severity Stratification
+## Diagnosis & Severity Stratification
+
+<span data-exam-page="1686"></span>
+
 - Chest x-ray can be falsely negative in up to **30%** of cases (more so with dehydration/neutropenia); repeat the film at **24-48 h** if the first is negative and suspicion remains (p1684).
 - Serum lactate **≥2 mmol/L** predicts 30-day mortality (p1685).
 - Pneumococcal urinary antigen: sensitivity **>60%**, specificity **>90%**; stays positive for **~3 months** after resolution, limiting its use to judge relapse or treatment response (p1685).
@@ -34,22 +41,34 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - SMART-COP score (Table 105-6, p1687): SBP **<90** (2 pts), multilobar involvement (1 pt), albumin **<3.5 g/dL** (1 pt), RR age-adjusted (1 pt: **≤50y ≥25/min**, **>50y ≥30/min**), tachycardia **≥125** (1 pt), confusion (1 pt), oxygenation age-adjusted (2 pts: **≤50y** PaO2 **<70** or SpO2 **≤93%** or PaO2/FiO2 **<333**; **>50y** PaO2 **<60** or SpO2 **≤90%** or PaO2/FiO2 **<250**), pH **<7.35** (2 pts); risk for needing vasopressor/intensive respiratory support — **0-2** low, **3-4** moderate, **5-6** high, **≥7** very high (Charles et al., Clin Infect Dis 2008; the original score places age 50 in the younger group).
 - Discharge readiness: HR **<100 bpm**, RR **<24/min**, axillary temperature **<37.2°C (<98.96°F)**, systolic BP **>90 mm Hg**, SpO2 **>90%**, plus baseline awareness and oral tolerance; most patients stabilize by hospital day **3-4**, up to **7 days** if frail (p1687).
 
-### Management Framework & Treatment
+## Management Framework & Treatment
 - Two questions should drive antibiotic choice: (1) severe pneumonia or risk factors for unusual pathogens? (2) does the patient meet criteria for frailty? Both "no" → standard younger-adult regimens; severe pneumonia and/or risk factors for less common pathogens → consider broadening; mildly frail → same antibiotics as independent patients plus functional/cognitive monitoring; moderate-severe frailty → broader coverage in addition to routine pathogens (p1687-1689).
+
+<span data-exam-page="1688"></span>
+
 - CAP treatment tiers (Table 105-8, p1688): non-frail patients get cephalosporin or amoxicillin/clavulanate + azithromycin/fluoroquinolone, escalating in severe disease to ± linezolid/vancomycin, ± antipseudomonal agent, ± oseltamivir; **prefrail** patients get amoxicillin/clavulanate or ceftriaxone/cefotaxime/ceftaroline + azithromycin/fluoroquinolone; **frail** patients get a different regimen, not the same combo broadened — ertapenem, or amoxicillin/clavulanate, or ceftriaxone + clindamycin.
+- Directed treatment (Table 105-9, p1688): *Pseudomonas aeruginosa* — piperacillin/tazobactam or imipenem or meropenem or cefepime, plus levofloxacin or ciprofloxacin or amikacin or tobramycin; ESBL-producing Enterobacteriaceae — ertapenem; MRSA — add linezolid or vancomycin. Empirical late HAP (≥5 days) or HAP with risk factors (Table 105-10): ceftazidime or cefepime or imipenem or meropenem or piperacillin/tazobactam, plus ciprofloxacin or levofloxacin or amikacin or tobramycin, ± linezolid or vancomycin (p1688).
 - Quinolones should not be prescribed when pulmonary tuberculosis is suspected, because of their tuberculostatic activity and the possibility of delaying the TB diagnosis (p1689).
 - Treatment failure = no clinical stability by **3-4 days**, or deterioration/respiratory failure/septic shock in the first **72 h**; associated with a **fivefold** increase in mortality. However, stability may take longer **without implying therapeutic failure** in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure) (p1690).
 - A **5-7 day** course is sufficient for most pneumonia even in older adults; extend for *Legionella*, resistant GNB, or MRSA, or for persistent fever beyond **72 h**, persistence of >1 instability criterion, inadequate initial coverage, or complications (p1690).
+
+<span data-exam-page="1690"></span>
+
+- In older adults at risk of aspiration pneumonia, oral care may reduce pneumonia, although efficacy in the highest-risk groups (eg, nursing home residents) was not shown in a high-quality randomized study (p1690).
 - PCV13 should be given first, with PPSV given at least **8 weeks** later, per ACIP (p1690).
   > Current practice (not the book): prior vaccination determines the schedule: PCV15, PCV20 or PCV21 for adults ≥50 who never received a PCV or whose history is unknown; after PCV15 give PPSV23 if not previously administered, one year later (8 weeks for certain conditions); no PPSV23 after PCV20/PCV21 — CDC, 2026.
 
-### Tuberculosis — Epidemiology & Pathophysiology
+## Tuberculosis — Epidemiology & Pathophysiology
 - **>1.7 billion** people (about **25%** of the world's population) are estimated to be infected with *M tuberculosis*; high-burden regions run **≥100/100,000**, while the US, Western Europe, Canada, Japan, and Australia run **<25/100,000** (p1691).
 - TB incidence is bimodal: one peak at **15-35 years**, a second after **65 years** (p1691).
 - Healthy people infected with TB carry a **5%-10%** lifetime risk of active disease; **50%-80%** of those who progress do so within the first **2 years** (p1692).
 - HIV coinfection without antiretroviral treatment carries a **10%** annual risk of active disease (p1692).
 
-### Tuberculosis — Diagnosis & Treatment
+## Tuberculosis — Diagnosis & Treatment
+
+<span data-exam-page="1693"></span>
+
+- A false-positive TST occurs with cross-reaction with nontuberculous mycobacteria and after BCG vaccination. IGRA is far more specific with the same sensitivity (lower in immunosuppressed patients); it cannot discriminate previous from current infection or latent from active TB (p1693).
 - Two-step tuberculin test for initial geriatric screening (older adults have increased cutaneous anergy): a negative first test (induration **<10 mm**) is followed by a repeat test at **2 weeks**; positive = **≥10 mm** and an increase of **≥6 mm** over the first test (p1693).
 - Isoniazid causes hepatotoxicity in up to **4%-5%** of patients >65 y, versus **<1%** in those <65 y (p1694).
 - Chemoprophylaxis is generally reserved for a Mantoux induration increase **≥15 mm** over a prior negative test; in close contacts of active TB and other high-risk individuals **with negative TST or IGRA**, preventive treatment should also be considered, unless contraindicated (p1694).

@@ -366,14 +366,16 @@
       "title": "RA and Autoimmune Diseases — Study",
       "file": "hazzard8e_ch101_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/101s.json"
     },
     {
       "number": "102s",
       "title": "Back Pain and Spinal Stenosis — Study",
       "file": "hazzard8e_ch102_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/102s.json"
     },
     {
       "number": "104s",
@@ -388,7 +390,8 @@
       "title": "Pneumonia and TB — Study",
       "file": "hazzard8e_ch105_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/105s.json"
     },
     {
       "number": "108s",
@@ -503,7 +506,8 @@
       "file": "israel_law_study.md",
       "kind": "study",
       "description": "Summary + 18-question Hebrew drill, Israel law and Brookdale data",
-      "drillCount": 18
+      "drillCount": 18,
+      "markUnits": "data/mark-units/laws.json"
     },
     {
       "number": "15s",
@@ -541,7 +545,8 @@
       "title": "Aging of the Kidney — Study",
       "file": "hazzard8e_ch82_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/82s.json"
     },
     {
       "number": "53s",
@@ -579,7 +584,8 @@
       "title": "Urinary Tract Infections — Study",
       "file": "hazzard8e_ch106_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "markUnits": "data/mark-units/106s.json"
     },
     {
       "number": "50s",
@@ -601,14 +607,16 @@
       "title": "Mental Status and Neurologic Examination — Study",
       "file": "hazzard8e_ch9_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/9s.json"
     },
     {
       "number": "96s",
       "title": "Coagulation Disorders — Study",
       "file": "hazzard8e_ch96_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/96s.json"
     },
     {
       "number": "16s",
@@ -1203,7 +1211,8 @@
       "title": "Substance Use and Disorders — Study",
       "file": "hazzard8e_ch23_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/23s.json"
     },
     {
       "number": "36",

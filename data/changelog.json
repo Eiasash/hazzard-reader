@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v321",
+      "date": "2026-11-26",
+      "changes": [
+        "Fuller Study notes on the exam-cited pages of Chapters 9, 23, 57, 96 and 106, Brookdale 2024 figures in the Israeli law notes, 12 new practice questions for Chapters 9 and 80, and section practice with flashcards for Chapters 57, 63, 82, 101, 102, 105 and 106."
+      ]
+    },
+    {
       "version": "v320",
       "date": "2026-11-26",
       "changes": [
