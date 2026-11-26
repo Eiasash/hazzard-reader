@@ -1,4 +1,4 @@
-Study summary of Chapter 96 - Coagulation Disorders; the book and the full chapter are the reference.
+Study summary of Chapter 96; the book and the full chapter are the reference.
 
 # Chapter 96 Study: Coagulation Disorders
 
@@ -39,7 +39,17 @@ Study summary of Chapter 96 - Coagulation Disorders; the book and the full chapt
 - Warfarin requires parenteral anticoagulant overlap for at least **5 days** and until INR is above **2.0** for at least **24 hours**; therapeutic INR is **2.0–3.0** (p1520).
 - Warfarin requires close INR monitoring because older adults may be more sensitive and have more food/drug interactions. DOACs are effective in carefully selected older adults (p1509, p1520).
 
-**Exam traps**
+
+### Working from the presentation to the test
+
+- After excessive bleeding at an operation, ask about dental extraction, previous operations and spontaneous bruising. An isolated prolonged aPTT with a normal PT and platelet count changes the differential. In factor XI deficiency the history can be quiet until a hemostatic challenge. Vitamin K deficiency more often prolongs PT, while advanced DIC can prolong both tests (p1512–1513).
+- A sudden low platelet count after starting trimethoprim/sulfamethoxazole fits drug-induced thrombocytopenia. A fall at **3–10 days** points to an anamnestic immune response in Figure 96-3. This differs from platelet activation in HIT, where a falling count can herald an arterial or venous clot (p1514–1515).
+- Recurrent ischemic events with otherwise unexplained thrombocytopenia warrant considering antiphospholipid syndrome. Look for persistent antibodies in the appropriate clinical setting. Thrombocytopenia may accompany the syndrome even though thrombosis is its characteristic vascular complication (p1516).
+- For suspected PE in an outpatient aged **50 years** or older with a suitable pretest probability, the book describes an age-adjusted D-dimer cutoff of **age × 10 µg/L** for assays with a conventional **500 µg/L** cutoff. A positive value is nonspecific. V/Q scanning can help when severe renal insufficiency or contrast allergy limits CTPA (p1519).
+- Before and during anticoagulation, review kidney and liver function, platelet count, concomitant NSAIDs or antiplatelet drugs, and the patient's ability to take treatment reliably. Correctable risks include uncontrolled hypertension and unnecessary dual antithrombotic exposure (p1521–1522).
+
+## Exam traps
+
 - Uncomplicated DVT can generally be treated at home, but comorbid illness, bleeding risk or inadequate financial/home support may warrant admission (p1519).
 - More sensitive CT detection of subsegmental PE has not been accompanied by a corresponding mortality decline; detection does not alone establish clinical significance (p1519).
 
@@ -63,10 +73,73 @@ Book images cited by past exams. Tap an image to zoom.
 
 [2023-Jun Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7)
 
-## Exam questions
+## Past exam questions
 
-Past-exam questions linked to this chapter (3):
+- [2026-Jun Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c) — Printed page 1514.
+- [2026-Jun-Basic Q107](?chapter=bank&q=mcq-08ad58cb588514eb5cb52bcb) — Printed page 1513.
+- [2025-Jun Q99](?chapter=bank&q=mcq-531c47b20663cad65778d880) — Printed page 1516.
+- [2023-Jun Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7) — Printed page 1513.
 
-- [2023-Jun Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7)
-- [2026-Jun Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c)
-- [2025-Jun Q99](?chapter=bank&q=mcq-531c47b20663cad65778d880)
+[Earlier sittings, chapter-level mapping](?chapter=96#asked-chapter) — 2022-Jun Q6, 2021-Dec Q25, 2021-Dec Q62.
+
+## Recall drill
+
+**1. Which laboratory pattern suggests an intrinsic-pathway problem?**
+
+<details><summary>Answer</summary>A prolonged aPTT with normal PT. Consider heparin exposure, factor deficiency or a circulating inhibitor, then use the bleeding history to narrow the possibilities. (p1512–1513)</details>
+
+**2. Which factor deficiency can first present with excessive surgical or dental bleeding?**
+
+<details><summary>Answer</summary>Factor XI deficiency can cause a variable bleeding history with few spontaneous events. (p1512–1513)</details>
+
+**3. What isolated PT abnormality can arise with inadequate nutrition?**
+
+<details><summary>Answer</summary>Vitamin K deficiency can prolong PT before the aPTT becomes abnormal. (p1512–1513)</details>
+
+**4. Why can a lupus anticoagulant confound the interpretation of a prolonged aPTT?**
+
+<details><summary>Answer</summary>It prolongs a laboratory clotting time while clinically being associated with thrombosis. (p1512–1513)</details>
+
+**5. What warrants evaluating for acquired factor VIII inhibition?**
+
+<details><summary>Answer</summary>New spontaneous skin, muscle or GI bleeding in an older adult without a prior bleeding history, particularly with a prolonged aPTT. (p1512)</details>
+
+**6. How does drug-induced thrombocytopenia within hours differ from a fall several days later?**
+
+<details><summary>Answer</summary>Preexisting antibodies can produce a fall within 24 hours. An anamnestic immune response typically occurs at 3–10 days in Figure 96-3. (p1514)</details>
+
+**7. Which complication should be sought when platelets fall during heparin therapy?**
+
+<details><summary>Answer</summary>Arterial or venous thrombosis. Use the clinical 4T score and appropriate laboratory testing to assess HIT. (p1514–1515)</details>
+
+**8. When does the book discuss initial corticosteroids for primary ITP?**
+
+<details><summary>Answer</summary>For newly diagnosed primary ITP, platelets below 30 × 10⁹/L and no or minor mucocutaneous bleeding. Monitor glucose, blood pressure and other steroid toxicity. (p1514)</details>
+
+**9. What do recurrent strokes with thrombocytopenia suggest?**
+
+<details><summary>Answer</summary>Consider antiphospholipid syndrome. An initial positive antibody test should be repeated at least 12 weeks later to establish persistence. (p1516)</details>
+
+**10. Which conditions in a thrombosis history imply an acquired hypercoagulable state?**
+
+<details><summary>Answer</summary>Examples include malignancy, nephrotic syndrome, antiphospholipid syndrome, HIT and myeloproliferative neoplasms. (p1515–1516)</details>
+
+**11. How can age complicate D-dimer interpretation?**
+
+<details><summary>Answer</summary>Aging, acute inflammation, surgery and malignancy can elevate D-dimer without an acute VTE, reducing specificity. (p1517)</details>
+
+**12. What age-adjusted D-dimer threshold does the book describe for suspected PE?**
+
+<details><summary>Answer</summary>Age in years × 10 µg/L in outpatients aged 50 or over when the assay uses a conventional cutoff of 500 µg/L, interpreted with clinical probability. (p1519)</details>
+
+**13. When might V/Q scanning help evaluate suspected PE?**
+
+<details><summary>Answer</summary>When contrast allergy or severe renal insufficiency makes CTPA unsuitable. A normal chest radiograph makes the scan easier to interpret. (p1519)</details>
+
+**14. What overlap is required when warfarin starts for acute VTE?**
+
+<details><summary>Answer</summary>Continue parenteral anticoagulation for at least 5 days and until the INR has been above 2.0 for at least 24 hours. (p1520)</details>
+
+**15. What medication changes may reduce bleeding during anticoagulation?**
+
+<details><summary>Answer</summary>Review the need for antiplatelet therapy and NSAIDs. Remove unnecessary antiplatelet treatment and consider an alternative analgesic where appropriate. (p1522)</details>
