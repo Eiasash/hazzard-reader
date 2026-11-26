@@ -2467,5 +2467,942 @@
     "questionIds": [
       "mcq-fb612354b8ab97a21a687655"
     ]
+  },
+  {
+    "id": "ch76-s4",
+    "chapter": "76",
+    "front": "An older hypertensive patient has orthopnea and a low-pitched apical sound immediately before S1. What produces it?",
+    "back": "An S4 comes from atrial contraction against a stiff ventricle. It favors impaired diastolic filling. Echo is needed to distinguish preserved from reduced EF. Hazzard 8e, p. 1175.",
+    "page": 1175,
+    "anchor": "exam-p1175-mcq-551b3101ea16a79edb40dc20",
+    "questionIds": [
+      "mcq-b2813530d13478a3f7078dae",
+      "mcq-551b3101ea16a79edb40dc20"
+    ]
+  },
+  {
+    "id": "ch76-bnp",
+    "chapter": "76",
+    "front": "How do CKD and obesity change the interpretation of BNP in an older patient with dyspnea?",
+    "back": "Impaired renal function tends to raise BNP and makes an elevated value less specific. Higher BMI tends to lower it, so a low result may be less reassuring. Hazzard 8e, p. 1174.",
+    "page": 1174,
+    "anchor": "exam-p1174-mcq-1464838102c98ff3a34184c7",
+    "questionIds": [
+      "mcq-1464838102c98ff3a34184c7"
+    ]
+  },
+  {
+    "id": "ch76-adherence",
+    "chapter": "76",
+    "front": "What should you ask about first when established HF repeatedly worsens at home?",
+    "back": "Ask how the patient actually takes medications and obtains meals. Medication or dietary nonadherence was the commonest precipitant in the series described, contributing to as many as two-thirds of exacerbations. Hazzard 8e, p. 1172.",
+    "page": 1172,
+    "anchor": "exam-p1172-mcq-0081f896ab2a7645732697e6",
+    "questionIds": [
+      "mcq-0081f896ab2a7645732697e6"
+    ]
+  },
+  {
+    "id": "ch76-fluid-load",
+    "chapter": "76",
+    "front": "An older woman with diastolic HF develops severe hypoxemia two hours after IV fluids. What mechanism links the timing and bilateral lung opacities?",
+    "back": "Iatrogenic volume loading raises pressure in a stiff ventricle and the pulmonary veins. Support oxygenation, reassess further fluids and treat overload with a loop diuretic while addressing the infection. Hazzard 8e, p. 1172.",
+    "page": 1172,
+    "anchor": "exam-p1172-mcq-6109da3d3d42107aafeb13c6",
+    "questionIds": [
+      "mcq-6109da3d3d42107aafeb13c6"
+    ]
+  },
+  {
+    "id": "ch76-thiamine",
+    "chapter": "76",
+    "front": "Which nutritional deficiency can cause high-output HF, and why consider it during prolonged loop diuresis?",
+    "back": "Thiamine deficiency can cause wet beriberi and a high-output circulation. Poor intake and urinary thiamine loss can increase risk. Replacement is appropriate for deficiency. Hazzard 8e, p. 1172.",
+    "page": 1172,
+    "anchor": "exam-p1172-mcq-3b316d09c1a5d91bc326475c",
+    "questionIds": [
+      "mcq-3b316d09c1a5d91bc326475c",
+      "mcq-e21515dd83a262fc0568e173"
+    ]
+  },
+  {
+    "id": "ch76-amyloid",
+    "chapter": "76",
+    "front": "What prior hand problem can precede transthyretin cardiomyopathy, and what HF phenotype should prompt evaluation?",
+    "back": "Carpal tunnel syndrome, especially bilateral, may precede the cardiac presentation. Unexplained thick LV walls and HFpEF raise suspicion. The selected hospitalized cohort on this page had a 13% prevalence of wild-type ATTR. The extracardiac clue is also described in the ACC amyloidosis consensus, Table 1. Hazzard 8e, p. 1171.",
+    "page": 1171,
+    "anchor": "ch76-amyloid",
+    "questionIds": [
+      "mcq-ad8f9b04acffdb6278c04c33"
+    ]
+  },
+  {
+    "id": "ch76-nsaid",
+    "chapter": "76",
+    "front": "An NSAID user takes a PPI. Which risk does the PPI reduce, and which HF risk remains?",
+    "back": "Acid suppression lowers upper gastrointestinal bleeding risk. The NSAID can still reduce renal perfusion, retain sodium and water, and worsen HF. Hazzard also discusses gastrointestinal protection on pp. 787–788. Hazzard 8e, p. 1173.",
+    "page": 1173,
+    "anchor": "exam-p1173-mcq-38f357fdf35289d175b07a3e",
+    "questionIds": [
+      "mcq-38f357fdf35289d175b07a3e"
+    ]
+  },
+  {
+    "id": "ch76-vaccine",
+    "chapter": "76",
+    "front": "What does the chapter actually claim about influenza vaccination and mortality in HF?",
+    "back": "It recommends vaccination and describes an association with fewer deaths. IVVE later found fewer deaths during peak influenza circulation but no significant overall mortality difference over the full trial period. Hazzard 8e, p. 1176.",
+    "page": 1176,
+    "anchor": "exam-p1176-mcq-d034cd9715f2f2dd845cca98",
+    "questionIds": [
+      "mcq-d034cd9715f2f2dd845cca98"
+    ]
+  },
+  {
+    "id": "ch76-beta-blocker",
+    "chapter": "76",
+    "front": "Which beta blockers have established HFrEF outcome evidence, and why does it matter if the patient takes propranolol or atenolol?",
+    "back": "Carvedilol, metoprolol succinate and bisoprolol have established outcome evidence. Do not extrapolate these results to every beta blocker. Select and titrate a proven agent once the patient is stable. Hazzard 8e, p. 1179.",
+    "page": 1179,
+    "anchor": "exam-p1179-mcq-cb7d90148e8999fdf9097145",
+    "questionIds": [
+      "mcq-cb7d90148e8999fdf9097145",
+      "mcq-df621afa3901e0520fadaaf0"
+    ]
+  },
+  {
+    "id": "ch76-arni",
+    "chapter": "76",
+    "front": "When replacing an ACE inhibitor in HFrEF, how did sacubitril/valsartan compare with enalapril, and when can it start?",
+    "back": "It reduced cardiovascular death or HF hospitalization, with less renal impairment and severe hyperkalemia but more hypotension in PARADIGM-HF. Wait at least 36 hours after the last ACE inhibitor dose. Hazzard 8e, p. 1180.",
+    "page": 1180,
+    "anchor": "exam-p1180-mcq-65f1b2348078e99a77093d23",
+    "questionIds": [
+      "mcq-65f1b2348078e99a77093d23"
+    ]
+  },
+  {
+    "id": "ch76-hydralazine",
+    "chapter": "76",
+    "front": "Which vasodilator combination is an alternative when suitable renin–angiotensin therapies cannot be tolerated?",
+    "back": "Hydralazine plus isosorbide dinitrate provides arteriolar and venous dilation. Evidence applies to combination treatment. Assess pressure, headache and the feasibility of multiple daily doses. Hazzard 8e, p. 1181.",
+    "page": 1181,
+    "anchor": "exam-p1181-mcq-d6f42ab8d1be3a2ddc5790b8",
+    "questionIds": [
+      "mcq-d6f42ab8d1be3a2ddc5790b8"
+    ]
+  },
+  {
+    "id": "ch76-rate",
+    "chapter": "76",
+    "front": "Which HFrEF drug has no direct rate-slowing action compared with bisoprolol, ivabradine and digoxin?",
+    "back": "Eplerenone blocks aldosterone. Bisoprolol slows sinus and AV nodal activity, ivabradine slows the sinus node, and digoxin slows AV conduction. Monitor potassium and renal function with eplerenone. Hazzard 8e, p. 1181.",
+    "page": 1181,
+    "anchor": "exam-p1181-mcq-777d91eb7840ca302219d066",
+    "questionIds": [
+      "mcq-777d91eb7840ca302219d066"
+    ]
+  },
+  {
+    "id": "ch76-mra-discharge",
+    "chapter": "76",
+    "front": "After an HFrEF admission, what must be checked before starting spironolactone, and does the drug require a fixed four-cup daily fluid limit?",
+    "back": "Check eGFR and potassium before treatment and during titration. Guideline thresholds for initiation are eGFR above 30 mL/min/1.73 m² and potassium below 5.0 mEq/L. Tailor fluid intake to congestion and sodium rather than a fixed cup count. See also Table 76-8, p. 1177, and AHA/ACC/HFSA 2022, §7.3.3. Hazzard 8e, p. 1181.",
+    "page": 1181,
+    "anchor": "exam-p1181-mcq-777d91eb7840ca302219d066",
+    "questionIds": [
+      "mcq-df621afa3901e0520fadaaf0"
+    ]
+  },
+  {
+    "id": "ch76-digoxin",
+    "chapter": "76",
+    "front": "An older person with CKD is euvolemic, has controlled AF and a digoxin concentration of 1.4 ng/mL. Why reconsider the dose?",
+    "back": "This exceeds the low HF target of 0.5–0.9 ng/mL. Renal impairment reduces clearance, and toxicity can occur within the laboratory range. Review timing, electrolytes and indication before restarting a lower dose if needed. Hazzard 8e, p. 1183.",
+    "page": 1183,
+    "anchor": "ch76-digoxin",
+    "questionIds": [
+      "mcq-81577a261d274597c2f04b65"
+    ]
+  },
+  {
+    "id": "ch76-hfp-empagliflozin",
+    "chapter": "76",
+    "front": "What drove the empagliflozin benefit in EMPEROR-Preserved?",
+    "back": "Fewer HF admissions drove the reduction in cardiovascular death or HF hospitalization. The separate mortality endpoint was not significantly reduced. Benefit extended to people without diabetes. Hazzard 8e, p. 1188.",
+    "page": 1188,
+    "anchor": "exam-p1188-mcq-edd8a3bd4e1d30138e1e61de",
+    "questionIds": [
+      "mcq-84d3d5742962924755e8f0b3",
+      "mcq-edd8a3bd4e1d30138e1e61de"
+    ]
+  },
+  {
+    "id": "ch76-hfp-dig",
+    "chapter": "76",
+    "front": "Does an early signal for fewer HF admissions make digoxin routine therapy for HFpEF?",
+    "back": "No. The ancillary DIG trial showed no survival benefit and the complete follow-up did not demonstrate a significant HF admission reduction. Adjunctive rate control in AF is a separate indication. Hazzard 8e, p. 1188.",
+    "page": 1188,
+    "anchor": "ch76-hfpef-digoxin",
+    "questionIds": [
+      "mcq-84d3d5742962924755e8f0b3",
+      "mcq-edd8a3bd4e1d30138e1e61de"
+    ]
+  },
+  {
+    "id": "ch76-sglt2-safety",
+    "chapter": "76",
+    "front": "Which electrolyte loss is atypical for SGLT2 inhibitors when compared with hypotension, renal dysfunction during dehydration and ketoacidosis?",
+    "back": "Hypomagnesemia is more typical of loop or thiazide diuresis. Volume depletion and rare ketoacidosis are recognized SGLT2 risks. An early hemodynamic eGFR dip differs from progressive kidney injury. Hazzard 8e, p. 1181.",
+    "page": 1181,
+    "anchor": "exam-p1181-mcq-538cb2dab0c6ea72540a81e9",
+    "questionIds": [
+      "mcq-538cb2dab0c6ea72540a81e9"
+    ]
+  },
+  {
+    "id": "ch76-crt",
+    "chapter": "76",
+    "front": "Which patient has the clearest standard indication for resynchronization therapy?",
+    "back": "A patient with persistent NYHA II, III or ambulatory IV symptoms despite therapy, EF at or below 35%, sinus rhythm, LBBB and QRS at least 150 ms. CRT synchronizes ventricular contraction. A low EF alone is insufficient. Hazzard 8e, p. 1184.",
+    "page": 1184,
+    "anchor": "exam-p1184-mcq-61c1dacfc6182349c975f40d",
+    "questionIds": [
+      "mcq-61c1dacfc6182349c975f40d",
+      "mcq-78efef2ee60d19f031350bbc"
+    ]
+  },
+  {
+    "id": "ch76-lvad",
+    "chapter": "76",
+    "front": "What intervention can improve quality of life and survival in selected patients with advanced systolic HF, repeated admissions and no electrical dyssynchrony?",
+    "back": "A durable LVAD supplies forward flow and can be destination therapy. Comorbidity, function, ability to manage the device, family support and patient goals determine whether evaluation leads to implantation. Hazzard 8e, p. 1189.",
+    "page": 1189,
+    "anchor": "exam-p1189-mcq-78efef2ee60d19f031350bbc",
+    "questionIds": [
+      "mcq-eb45fa8e6fd33a1b05b2b1d4",
+      "mcq-78efef2ee60d19f031350bbc"
+    ]
+  },
+  {
+    "id": "ch76-prognosis",
+    "chapter": "76",
+    "front": "Which features distinguish favorable and adverse prognostic associations after HF admission in the chapter?",
+    "back": "Women have better survival on average than men. An ischemic cause, higher BNP, impaired renal function and severe functional limitation are adverse features. They inform a discussion of prognosis without determining one patient's course. Hazzard 8e, p. 1190.",
+    "page": 1190,
+    "anchor": "ch76-prognosis",
+    "questionIds": [
+      "mcq-df5594e108f43358e8380f42"
+    ]
+  },
+  {
+    "id": "ch65-phq-severity",
+    "chapter": "65",
+    "front": "A patient has a PHQ-9 of 11. What does it measure, and what should happen next?",
+    "back": "The total measures the burden of symptoms over two weeks. A result of 10 or more calls for clinical evaluation for major depression. Check core symptoms, functional impairment and safety, and use a repeat measure to track change. Hazzard 8e, p. 1012.",
+    "page": 1012,
+    "anchor": "ch65-phq-score",
+    "questionIds": [
+      "mcq-d999fc66e84432d68688a775"
+    ]
+  },
+  {
+    "id": "ch65-phq-frequency",
+    "chapter": "65",
+    "front": "A PHQ-9 shows reduced interest, fatigue and poor appetite on several days, item 9 zero, and marked functional difficulty. How many symptoms qualify for the diagnostic algorithm?",
+    "back": "Zero. The total is 3. Items 1–8 count toward the diagnosis at a frequency of more than half the days or nearly every day. Functional impairment calls for assessment even with a minimal score. Hazzard 8e, p. 1011.",
+    "page": 1011,
+    "anchor": "exam-p1011-mcq-92a6c079601ca0714a4342c5",
+    "questionIds": [
+      "mcq-92a6c079601ca0714a4342c5"
+    ]
+  },
+  {
+    "id": "ch65-phq-fatigue",
+    "chapter": "65",
+    "front": "A patient reports low interest, low mood, fatigue and poor appetite on several days, marks zero on item 9 and reports difficulty doing housework. Does the form support minor depression?",
+    "back": "The severity total is 4, with zero qualifying symptoms. Investigate the functional change and fatigue and arrange follow-up. Minor depression requires two to four qualifying symptoms, including a core symptom. Hazzard 8e, p. 1011.",
+    "page": 1011,
+    "anchor": "exam-p1011-mcq-8d11851067332e73d676c0a9",
+    "questionIds": [
+      "mcq-8d11851067332e73d676c0a9"
+    ]
+  },
+  {
+    "id": "ch65-cognitive-context",
+    "chapter": "65",
+    "front": "A recently widowed man reports poor concentration and memory. His MMSE later improves. What treatable contributor should be sought?",
+    "back": "A depressive episode can impair attention and recall. Assess mood, daily function, the time course and collateral history. Cognitive improvement is compatible with a depressive contribution and still warrants follow-up. Hazzard 8e, p. 1008.",
+    "page": 1008,
+    "anchor": "ch65-health-function",
+    "questionIds": [
+      "mcq-4b2eecbd346cf984c3b9e3ed"
+    ]
+  },
+  {
+    "id": "ch65-bereavement",
+    "chapter": "65",
+    "front": "Two weeks after losing her spouse, a woman feels intense yearning. Which demographic factor in this history is associated with more severe prolonged grief symptoms, and can prolonged grief disorder be diagnosed now?",
+    "back": "Female sex is associated with higher prolonged-grief symptom burden at the population level. Intense yearning two weeks after a death is compatible with acute grief. DSM-5-TR requires at least 12 months after the loss in adults before diagnosing prolonged grief disorder. American Psychiatric Association, Prolonged Grief Disorder, diagnosis and risk factors. Hazzard 8e, p. 1024.",
+    "page": 1024,
+    "anchor": "hl-u164",
+    "questionIds": [
+      "mcq-5b7cd8474f47b3387f03b012"
+    ],
+    "readChapter": "66"
+  },
+  {
+    "id": "ch65-subthreshold",
+    "chapter": "65",
+    "front": "A woman with mild dementia is tearful about losing her family role, still enjoys visits and declines medication. Her PHQ-9 is 5. How would you respond?",
+    "back": "Explore the loss, support valued activity and arrange reassessment. Routine antidepressant treatment has no demonstrated benefit for subsyndromal illness. Include her preferences and assess safety. Hazzard 8e, p. 1012.",
+    "page": 1012,
+    "anchor": "exam-p1012-mcq-2375b0f8bb50a6874cdcb40d",
+    "questionIds": [
+      "mcq-2375b0f8bb50a6874cdcb40d"
+    ]
+  },
+  {
+    "id": "ch65-drug-dementia",
+    "chapter": "65",
+    "front": "What would justify continuing an antidepressant started for depression in a patient with dementia?",
+    "back": "A meaningful individual improvement in mood or function with acceptable harm. Trials show questionable average efficacy. Review potential causes of distress, caregiver support and activities before extending treatment indefinitely. Hazzard 8e, p. 1015.",
+    "page": 1015,
+    "anchor": "exam-p1015-mcq-853f055b351088b453cad3a1",
+    "questionIds": [
+      "mcq-853f055b351088b453cad3a1",
+      "mcq-2375b0f8bb50a6874cdcb40d"
+    ]
+  },
+  {
+    "id": "ch65-placebo-response",
+    "chapter": "65",
+    "front": "Does improvement in a mild depressive episode after starting an antidepressant prove that the dose was effective?",
+    "back": "No. Placebo groups often improve, especially in less severe episodes. Follow the symptoms and functional goals, considering expectations, clinical contact and natural fluctuation alongside a potential drug effect. Hazzard 8e, p. 1014.",
+    "page": 1014,
+    "anchor": "exam-p1014-mcq-80f153dd89506d38a83cdd6b",
+    "questionIds": [
+      "mcq-d06be14df3b5c357b755243d",
+      "mcq-80f153dd89506d38a83cdd6b"
+    ]
+  },
+  {
+    "id": "ch65-sertraline-titration",
+    "chapter": "65",
+    "front": "Sertraline 50 mg has been well tolerated but ineffective in an adherent older patient. What is a reasonable next step?",
+    "back": "Reassess the diagnosis and gradually optimize the dose, with symptom and adverse-effect review after several weeks. The examined case used 100 mg. There is no universal effective dose. Hazzard 8e, p. 1015.",
+    "page": 1015,
+    "anchor": "ch65-titration",
+    "questionIds": [
+      "mcq-a699e7fd3c5f532783da5870"
+    ]
+  },
+  {
+    "id": "ch65-escitalopram-trial",
+    "chapter": "65",
+    "front": "After two weeks on escitalopram 5 mg an older patient feels somewhat better but still sleeps poorly. Switch, augment or continue the initial trial?",
+    "back": "If tolerability and safety permit, increase to 10 mg and continue monitoring. A partial early response does not demonstrate resistance or justify immediate multidrug treatment. The chapter 60 table lists 5 mg as an initial geriatric dose. Hazzard 8e, p. 929.",
+    "page": 929,
+    "anchor": "exam-p929-mcq-4641bad3c4f4169ea022ed51",
+    "questionIds": [
+      "mcq-efa1a6064be7ba2a539f8ad4"
+    ],
+    "readChapter": "60"
+  },
+  {
+    "id": "ch65-tramadol-interaction",
+    "chapter": "65",
+    "front": "Why check for tramadol before prescribing venlafaxine to an older adult with pain and depression?",
+    "back": "Tramadol also inhibits serotonin and norepinephrine reuptake. Combining it with a serotonergic antidepressant increases the risk of serotonin toxicity. Review interactions before starting treatment. Hazzard 8e, p. 788.",
+    "page": 788,
+    "anchor": "hl-u381",
+    "questionIds": [
+      "mcq-05456f388b60d0b72b35923e"
+    ],
+    "readChapter": "52"
+  },
+  {
+    "id": "ch65-drug-choice",
+    "chapter": "65",
+    "front": "Which SSRI adverse effects matter most in a patient with cognitive impairment, urinary symptoms and cardiac disease?",
+    "back": "Paroxetine adds anticholinergic burden and can provoke confusion or worsen bladder emptying. Citalopram has less anticholinergic activity but carries dose-related QT risk. Both sodium and concomitant medicines deserve review. Hazzard 8e, p. 929.",
+    "page": 929,
+    "anchor": "exam-p929-mcq-4641bad3c4f4169ea022ed51",
+    "questionIds": [
+      "mcq-77b00818873a0ab6f67a6a08",
+      "mcq-241d17b10ca8797e300714dc",
+      "mcq-4641bad3c4f4169ea022ed51"
+    ],
+    "readChapter": "60"
+  },
+  {
+    "id": "ch65-withdrawal",
+    "chapter": "65",
+    "front": "Soon after stopping an SSRI, a patient reports insomnia, vivid dreams and dizziness. What explains this pattern?",
+    "back": "Discontinuation symptoms can follow a rapid dose reduction. Check the timing, assess safety, and distinguish withdrawal from recurrence before resuming indefinite treatment. Hazzard 8e, p. 1015.",
+    "page": 1015,
+    "anchor": "exam-p1015-mcq-50ec9e1a09b76ec99af22266",
+    "questionIds": [
+      "mcq-50ec9e1a09b76ec99af22266"
+    ]
+  },
+  {
+    "id": "ch65-ect-outcomes",
+    "chapter": "65",
+    "front": "A family asks whether remission is likely after ECT for severe late-life depression. How do response, remission and maintenance differ?",
+    "back": "Most trials cited reported response above 80% and remission above 60%. Improvement can fade, so assess for relapse and arrange continuation treatment when needed. Older adults often respond particularly well. Hazzard 8e, p. 1014.",
+    "page": 1014,
+    "anchor": "exam-p1014-mcq-c58814aafe2a948f65c12bd7",
+    "questionIds": [
+      "mcq-c58814aafe2a948f65c12bd7",
+      "mcq-e7a9b86ecadd6d67e6f524b1"
+    ]
+  },
+  {
+    "id": "ch65-ect-memory",
+    "chapter": "65",
+    "front": "How should an older adult be counseled about cognition after ECT?",
+    "back": "Brief confusion and difficulty learning new information usually improve. Some people have longer-lasting gaps in autobiographical memory. Discuss these risks alongside the benefit for severe depression and assess anesthetic suitability. Hazzard 8e, p. 1014.",
+    "page": 1014,
+    "anchor": "exam-p1014-mcq-e7a9b86ecadd6d67e6f524b1",
+    "questionIds": [
+      "mcq-e7a9b86ecadd6d67e6f524b1"
+    ]
+  },
+  {
+    "id": "ch65-caregiver-insomnia",
+    "chapter": "65",
+    "front": "A depressed woman sleeps poorly and provides full-time care for her dependent husband. Which two parts of the suicide checklist deserve attention?",
+    "back": "Insomnia and acute or chronic caregiving strain are both listed. Ask directly about thoughts, intent, plans and access to means, alongside reasons for living, support and opportunities for respite. Hazzard 8e, p. 1013.",
+    "page": 1013,
+    "anchor": "exam-p1013-mcq-8ba7d7954ed6189c4c1f69cc",
+    "questionIds": [
+      "mcq-8ba7d7954ed6189c4c1f69cc"
+    ]
+  },
+  {
+    "id": "ch65-cancer-pain",
+    "chapter": "65",
+    "front": "A person with cancer describes increasing pain and hopelessness. What other symptom domain should be assessed when the pain plan is reviewed?",
+    "back": "Ask about depression and suicidal thoughts directly. Pain and depressive distress can coexist, and uncontrolled pain is a risk factor for suicidal thinking. Address analgesia and immediate safety together. Hazzard 8e, p. 1018.",
+    "page": 1018,
+    "anchor": "ch65-pain-risk",
+    "questionIds": [
+      "mcq-6592a4a2447a4a4222a125e5"
+    ]
+  },
+  {
+    "id": "ch68-behavioral-pain",
+    "chapter": "68",
+    "front": "A resident with advanced dementia cannot select a score and grimaces during pressure-injury care. How can the team assess pain?",
+    "back": "Use PAINAD to rate observed behavior at rest and during care. Ask familiar caregivers what has changed and reassess after intervention. Chapter 67 names PAINAD; Chapter 68 Table 68-3 compares self-rating scales. Hazzard 8e, pp. 1048, 1059.",
+    "page": 1048,
+    "anchor": "exam-p1048-mcq-795f2687afa4d5918ddb65de",
+    "questionIds": [
+      "mcq-795f2687afa4d5918ddb65de"
+    ],
+    "readChapter": "67"
+  },
+  {
+    "id": "ch68-visual-pain-scales",
+    "chapter": "68",
+    "front": "A person with cognitive impairment can still see and choose an intensity on a color scale. Which scale fits, and what limits its use?",
+    "back": "The colored analog scale can suit patients with or without cognitive impairment if vision, comprehension and the meaning of the colors are adequate. The faces scale also requires vision. The visual analog line is abstract and has lower reliability in older adults. Hazzard 8e, Table 68-3, p. 1059.",
+    "page": 1059,
+    "anchor": "exam-p1059-mcq-dd8d86a52ab0a199b770a4f2",
+    "questionIds": [
+      "mcq-dd8d86a52ab0a199b770a4f2"
+    ]
+  },
+  {
+    "id": "ch68-ischemic-pain",
+    "chapter": "68",
+    "front": "Why is angina a nociceptive pain while phantom limb pain is neuropathic?",
+    "back": "Ischemia activates tissue nociceptors and visceral afferents. In phantom limb pain, injury or disease of somatosensory pathways can generate pain perceived in a missing limb. Inflammation in cellulitis and typical mechanical joint pain also stimulate nociceptors. Hazzard 8e, p. 1056.",
+    "page": 1056,
+    "anchor": "exam-p1056-mcq-dd85189b9b4331793e4d5fdc",
+    "questionIds": [
+      "mcq-dd85189b9b4331793e4d5fdc"
+    ]
+  },
+  {
+    "id": "ch68-cancer-opioid-selection",
+    "chapter": "68",
+    "front": "Metastatic bone pain persists on acetaminophen 3 g/day and dipyrone, with no prior opioid. Why choose immediate-release oxycodone solution over Percocet or a fentanyl patch?",
+    "back": "Single-agent immediate-release oxycodone permits cautious titration without extra acetaminophen. A fentanyl patch requires established tolerance, for example at least 60 mg oral morphine daily or an equianalgesic dose for at least a week. The nonopioid regimen does not confer tolerance. Hazzard 8e, Table 68-6, p. 1061 and fentanyl transdermal label, section 1.",
+    "page": 1061,
+    "anchor": "exam-p1061-mcq-d4597da4db93e15793da0f6a",
+    "questionIds": [
+      "mcq-d4597da4db93e15793da0f6a"
+    ]
+  },
+  {
+    "id": "ch68-acetaminophen-total",
+    "chapter": "68",
+    "front": "A patient with a rib fracture and COPD receives 1 g IV acetaminophen four times a day. How much more acetaminophen can be added?",
+    "back": "None. Four daily doses already total 4 g, the maximum stated in the chapter. Count every route and combination product. Hepatic impairment or a history of alcohol use calls for a lower 2–3 g/day ceiling. Consider another modality and monitor breathing when opioids are used. Hazzard 8e, p. 1062.",
+    "page": 1062,
+    "anchor": "exam-p1062-mcq-372ee0c239b0866b869ae17a",
+    "questionIds": [
+      "mcq-372ee0c239b0866b869ae17a"
+    ]
+  },
+  {
+    "id": "ch68-opioid-counseling",
+    "chapter": "68",
+    "front": "What should a patient starting an opioid for metastatic pain know about nausea, constipation and stopping treatment?",
+    "back": "Nausea often settles after initiation or dose increases. Constipation usually requires ongoing prevention. Physical dependence can cause withdrawal with abrupt cessation, so individualize any taper. Hazzard 8e, p. 1060. NICE CG140, managing side effects of strong opioids. WHO cancer pain guidelines (2018), §6.3, cessation of opioid use.",
+    "page": 1060,
+    "anchor": "ch68-opioid-adverse-effects",
+    "questionIds": [
+      "mcq-e37ba64de1c10f62779e63e7",
+      "mcq-77c63ac1cd72982a0e62f19f"
+    ]
+  },
+  {
+    "id": "ch68-hyperalgesia",
+    "chapter": "68",
+    "front": "Pain on high-dose opioids spreads beyond the original region and worsens with dose escalation. How does this differ from tolerance?",
+    "back": "Tolerance reduces relief from a given dose. Worsening sensitivity with escalation and diffuse allodynia suggest opioid-induced hyperalgesia. Review for disease progression, consider gradual opioid reduction and follow the response. Hazzard 8e, p. 1061.",
+    "page": 1061,
+    "anchor": "exam-p1061-mcq-899b765d3570c519f87c4cd6",
+    "questionIds": [
+      "mcq-899b765d3570c519f87c4cd6"
+    ]
+  },
+  {
+    "id": "ch68-diabetic-neuropathy-renal",
+    "chapter": "68",
+    "front": "At creatinine clearance 25 mL/min, how do duloxetine, gabapentin, pregabalin and capsaicin cream differ for painful diabetic neuropathy?",
+    "back": "Avoid duloxetine below 30 mL/min. Gabapentin and pregabalin need individualized renal doses and monitoring for CNS effects. Capsaicin cream can suit localized pain. Hazzard 8e, Table 68-8, p. 1063 prints a broader renal contraindication for gabapentinoids. The dosing distinction follows AGS Beers 2023, Table 6, p. 2073.",
+    "page": 1063,
+    "anchor": "ch68-renal-neuropathy",
+    "questionIds": [
+      "mcq-d705e101701ec10430730317"
+    ]
+  },
+  {
+    "id": "ch68-duloxetine-back-pain",
+    "chapter": "68",
+    "front": "Persistent low-back pain limits activity despite physiotherapy and simple analgesia. The patient also has depressed mood. Which adjuvant addresses both?",
+    "back": "Duloxetine is an SNRI with evidence for chronic musculoskeletal pain. A 30 mg daily start allows assessment of tolerability. Check renal function and blood pressure and consider fall risk. Hazzard 8e, Table 68-8, pp. 1063–1064 and duloxetine prescribing information.",
+    "page": 1063,
+    "anchor": "exam-p1063-mcq-3e123a9bd8bb77dc77805cf5",
+    "questionIds": [
+      "mcq-3e123a9bd8bb77dc77805cf5"
+    ]
+  },
+  {
+    "id": "ch68-neuropathy-monitoring",
+    "chapter": "68",
+    "front": "Which monitoring pairs fit carbamazepine and duloxetine in an older adult being treated for neuropathic pain?",
+    "back": "Check sodium with carbamazepine because it can cause hyponatremia. Duloxetine can raise blood pressure, so measure before treatment and periodically afterward. Gabapentin requires renal adjustment and clinical monitoring, not routine serum levels. Hazzard 8e, pp. 1064–1065 and Cymbalta label, section 5.11.",
+    "page": 1065,
+    "anchor": "exam-p1065-mcq-7e4990226f4077abd0308485",
+    "questionIds": [
+      "mcq-7e4990226f4077abd0308485",
+      "mcq-1a35ec921b0a54fb337bf6ae"
+    ]
+  },
+  {
+    "id": "ch68-anticholinergic-pattern",
+    "chapter": "68",
+    "front": "Cognition worsens after a pain-clinic prescription, together with constipation, dry mouth and blurred vision. Which drug best fits?",
+    "back": "Amitriptyline can cause central and peripheral muscarinic blockade even at low analgesic doses. Gabapentin more often causes somnolence or unsteadiness. The duplicate June 2025 Q79 accepts all four choices; the symptom pattern still points to the tricyclic. Hazzard 8e, p. 1064.",
+    "page": 1064,
+    "anchor": "exam-p1064-mcq-c6d5d418c0657e5ffa7923f3",
+    "questionIds": [
+      "mcq-c6d5d418c0657e5ffa7923f3",
+      "mcq-17e66840ae11bd49e4b668cf"
+    ]
+  },
+  {
+    "id": "ch68-active-passive-elbow",
+    "chapter": "68",
+    "front": "How do active and passive elbow movement help distinguish bursitis from intra-articular disease?",
+    "back": "Bursitis typically produces focal periarticular pain with active movement and relatively preserved passive movement. Arthritis more often restricts both and causes deeper pain. The exam cites Harrison 21e, p. 2844. The linked Hazzard examination passage covers range of motion and local tenderness, p. 1058.",
+    "page": 1058,
+    "anchor": "ch68-joint-exam",
+    "questionIds": [
+      "mcq-34619531f641d311ae985624"
+    ],
+    "studyReference": {
+      "anchor": "ch68-bursa-study",
+      "label": "Harrison 21e, p. 2844"
+    }
+  },
+  {
+    "id": "ch68-advanced-dementia-feeding",
+    "chapter": "68",
+    "front": "Does tube feeding prevent aspiration or improve the healing of pressure injuries in advanced dementia?",
+    "back": "No demonstrated improvement in aspiration pneumonia, survival, quality of life or pressure-injury healing. Tube feeding is associated with new pressure injuries, and assisted oral feeding is favored when consistent with goals and comfort. Hazzard 8e, ch. 67, p. 1048.",
+    "page": 1048,
+    "anchor": "exam-p1048-mcq-caa086c8705cdeb3606c5536",
+    "questionIds": [
+      "mcq-caa086c8705cdeb3606c5536"
+    ],
+    "readChapter": "67"
+  },
+  {
+    "id": "ch68-pneumonia-comfort",
+    "chapter": "68",
+    "front": "In advanced dementia with aspiration pneumonia, what should families know about antibiotics and comfort?",
+    "back": "Observational evidence links antibiotics with longer survival without better comfort. IV treatment and hospitalization can impose additional burdens. Clarify the care goal and treat dyspnea, pain and fever regardless of the antibiotic decision. Hazzard 8e, ch. 67, p. 1048.",
+    "page": 1048,
+    "anchor": "exam-p1048-mcq-8b2cfa55422f88f802142d29",
+    "questionIds": [
+      "mcq-8b2cfa55422f88f802142d29"
+    ],
+    "readChapter": "67"
+  },
+  {
+    "id": "ch43-risks-ranked",
+    "chapter": "43",
+    "front": "An older person has dementia, a previous stroke and a postural blood-pressure drop. Which has the weakest association with falls in community cohorts?",
+    "back": "Orthostatic hypotension. Dementia and stroke were consistent predictors in high-quality studies. A documented symptomatic pressure drop can still explain an individual fall. Hazzard 8e, p. 635.",
+    "page": 635,
+    "anchor": "exam-p635-mcq-ea5d2390c7896a41cfa7e3a6",
+    "questionIds": [
+      "mcq-8bb3225a8c4eb0919527c5c1",
+      "mcq-ea5d2390c7896a41cfa7e3a6",
+      "mcq-172d42c25d100b9c49976bb4"
+    ]
+  },
+  {
+    "id": "ch43-age-and-position-sense",
+    "chapter": "43",
+    "front": "Which demographic factor predicts falls, and how can vitamin B12 deficiency add a separate sensory risk?",
+    "back": "Advanced age consistently predicts falls. Vitamin B12 deficiency can impair position sense, leaving the person less able to detect and correct an unexpected shift of weight (disequilibrium, p. 670). Hazzard 8e, p. 635.",
+    "page": 635,
+    "anchor": "exam-p635-mcq-ea5d2390c7896a41cfa7e3a6",
+    "questionIds": [
+      "mcq-5324b8a6225029bff2dabcee"
+    ]
+  },
+  {
+    "id": "ch43-sensory-gait",
+    "chapter": "43",
+    "front": "Why does a patient with diabetic neuropathy watch her feet and lose balance when she looks away?",
+    "back": "Loss of position sense makes her depend on vision to judge foot placement. Looking away removes that compensation. Hazzard 8e, p. 636.",
+    "page": 636,
+    "anchor": "topic43-sensory",
+    "questionIds": [
+      "mcq-7a1406b4b7eebfa0139f33f4"
+    ]
+  },
+  {
+    "id": "ch43-medication-history",
+    "chapter": "43",
+    "front": "After a nocturnal fall, how do an SSRI and an anticoagulant change your assessment?",
+    "back": "An SSRI is a psychoactive exposure associated with falling. Anticoagulation chiefly increases the bleeding consequences of injury. Review the timing of any other drug changes as well. Hazzard 8e, p. 634.",
+    "page": 634,
+    "anchor": "exam-p634-mcq-3929e741ee0d01c333a58865",
+    "questionIds": [
+      "mcq-4cd9324a98a56ce5a20d1d9d",
+      "mcq-3929e741ee0d01c333a58865"
+    ]
+  },
+  {
+    "id": "ch43-contrast",
+    "chapter": "43",
+    "front": "A patient can read letters but misses a curb of similar brightness to the road. Which visual function matters?",
+    "back": "Contrast sensitivity detects an edge against its background. Its impairment and poor depth perception make obstacles easier to misjudge. Hazzard 8e, p. 636.",
+    "page": 636,
+    "anchor": "exam-p636-mcq-1075f6c0fed2b86a8c672639",
+    "questionIds": [
+      "mcq-1075f6c0fed2b86a8c672639"
+    ]
+  },
+  {
+    "id": "ch43-cataract",
+    "chapter": "43",
+    "front": "A patient with cataract repeatedly trips on stairs. Which visual intervention reduced falls in a trial?",
+    "back": "Expedited first-eye cataract surgery reduced falls by 34%. The second-eye result was statistically uncertain. General spectacle updates had mixed results. Hazzard 8e, p. 639.",
+    "page": 639,
+    "anchor": "topic43-cataract",
+    "questionIds": [
+      "mcq-57c4cc79fa07a7e570f0a73b",
+      "mcq-ebb48fc2c1941aee8ce92d21"
+    ]
+  },
+  {
+    "id": "ch43-timed-up-and-go",
+    "chapter": "43",
+    "front": "A community patient rises slowly and turns unsteadily during the Timed Up and Go. Can one time cutoff predict a future fall?",
+    "back": "No universal cutoff was supported. Record quality and time over the three-metre out-and-back task and assess the causes of impaired gait or transfers. Hazzard 8e, p. 637.",
+    "page": 637,
+    "anchor": "exam-p637-mcq-2fdd846e83242323d98210d5",
+    "questionIds": [
+      "mcq-041747d2188be93271d452d3",
+      "mcq-2fdd846e83242323d98210d5"
+    ]
+  },
+  {
+    "id": "ch43-alternate-step",
+    "chapter": "43",
+    "front": "Eight alternating foot placements onto an 18-cm step take 17 seconds. What does that tell you?",
+    "back": "More than ten seconds indicates impaired stepping performance. The task requires weight transfer and rapid control of the other leg. Hazzard 8e, p. 637.",
+    "page": 637,
+    "anchor": "exam-p637-mcq-a95e9c5ca09aca36f108c948",
+    "questionIds": [
+      "mcq-a95e9c5ca09aca36f108c948"
+    ]
+  },
+  {
+    "id": "ch43-balance-exercise",
+    "chapter": "43",
+    "front": "Which elements of community exercise programs were associated with larger reductions in falls?",
+    "back": "Challenging balance and at least three hours of prescribed exercise each week. Practising turns, shifts of weight and recovery steps trains responses needed when balance is disturbed. Hazzard 8e, p. 638.",
+    "page": 638,
+    "anchor": "exam-p638-mcq-e71329f82512960352dd33a0",
+    "questionIds": [
+      "mcq-e71329f82512960352dd33a0"
+    ]
+  },
+  {
+    "id": "ch43-home-visit",
+    "chapter": "43",
+    "front": "After an older person breaks her wrist tripping over a rug at night, what should an occupational therapy home visit achieve?",
+    "back": "Identify hazards during the person’s usual activities, agree priorities, advise on safer movement and follow up the adaptations. High-risk groups had the largest benefit. Hazzard 8e, p. 639.",
+    "page": 639,
+    "anchor": "exam-p639-mcq-ff953c4f5cde2966a8ac98cc",
+    "questionIds": [
+      "mcq-c24f583e2f83fe771a93990b",
+      "mcq-ff953c4f5cde2966a8ac98cc"
+    ]
+  },
+  {
+    "id": "ch83-pulmonary-edema",
+    "chapter": "83",
+    "front": "After fluids for diarrheal AKI, pressure rises but oliguria persists and hypoxemic pulmonary edema appears. What drives urgent dialysis?",
+    "back": "Hypoxemic pulmonary edema from volume overload needs immediate respiratory support and urgent nephrology assessment. Dialysis is indicated when the overload is life-threatening or fails to respond to medical treatment. Assess and treat the dangerous hyperkalemia at the same time. Creatinine alone cannot determine urgency. Hazzard 8e, p. 1283.",
+    "page": 1283,
+    "anchor": "ch83-urgent-dialysis",
+    "questionIds": [
+      "mcq-9534df35cf56acbc6bcb3f35"
+    ]
+  },
+  {
+    "id": "ch83-aki-drug-exception",
+    "chapter": "83",
+    "front": "An older adult with poor intake takes etoricoxib, candesartan, empagliflozin and escitalopram. Which is the exception to the usual perfusion or volume-related AKI mechanisms?",
+    "back": "Escitalopram. NSAIDs impair compensatory afferent dilation, ARBs can lower glomerular pressure during hypoperfusion, and osmotic diuresis with empagliflozin can worsen depletion. Hazzard 8e, p. 1282 and the empagliflozin prescribing information.",
+    "page": 1282,
+    "anchor": "ch83-aki-nephrotoxins",
+    "questionIds": [
+      "mcq-7e475d72d1c6b9b8c726614b",
+      "mcq-274b9aac5f85ca97943ab06b"
+    ]
+  },
+  {
+    "id": "ch83-intrinsic-aki",
+    "chapter": "83",
+    "front": "What separates HUS from acute heart failure due to malignant hypertension in the AKI table?",
+    "back": "HUS injures the renal microvasculature and is intrinsic. Table 83-1 puts acute cardiac failure from malignant hypertension in the prerenal column. May 2024 Q22 accepts both. Hazzard 8e, p. 1281.",
+    "page": 1281,
+    "anchor": "exam-p1281-mcq-7f71419177e54d446b41de5d",
+    "questionIds": [
+      "mcq-7f71419177e54d446b41de5d"
+    ]
+  },
+  {
+    "id": "ch83-cirrhosis-perfusion",
+    "chapter": "83",
+    "front": "How can a patient with cirrhosis and ascites have prerenal AKI?",
+    "back": "Portal hypertension and splanchnic vasodilation reduce effective arterial filling despite excess total-body fluid. Compensatory renal vasoconstriction can further lower filtration. The table places liver disease with fluid redistribution in the prerenal column. Hazzard 8e, p. 1281.",
+    "page": 1281,
+    "anchor": "exam-p1281-mcq-37ef49b08af5012046c10790",
+    "questionIds": [
+      "mcq-37ef49b08af5012046c10790",
+      "mcq-c204d57269eb58c03fc2a81d"
+    ]
+  },
+  {
+    "id": "ch83-resuscitation",
+    "chapter": "83",
+    "front": "Which findings should you follow as you give isotonic fluid for volume-depleted AKI?",
+    "back": "Reassess volume status, respiratory function and urine output. Restoration of perfusion can reverse the prerenal component, while new congestion is a reason to reconsider more fluid. Hazzard 8e, p. 1283.",
+    "page": 1283,
+    "anchor": "ch83-assess-volume",
+    "questionIds": [
+      "mcq-6c8fdecc2d703bfc5a14daf7",
+      "mcq-9534df35cf56acbc6bcb3f35"
+    ]
+  },
+  {
+    "id": "ch83-obstructed-bladder",
+    "chapter": "83",
+    "front": "What directly treats an acute rise in creatinine from urinary retention in a man with prostatic enlargement?",
+    "back": "Drain the bladder with a catheter. A bladder outlet lesion can obstruct drainage from both kidneys. Ureteral obstruction may instead require a stent or nephrostomy. Hazzard 8e, p. 1283.",
+    "page": 1283,
+    "anchor": "ch83-decompress",
+    "questionIds": [
+      "mcq-a0d3ff23f69690ed51088758",
+      "mcq-37ef49b08af5012046c10790"
+    ]
+  },
+  {
+    "id": "ch83-nephrotic-population",
+    "chapter": "83",
+    "front": "What is the most common cause of nephrotic syndrome in the general US adult population?",
+    "back": "Diabetic nephropathy. Typical diabetic kidney disease is often diagnosed without biopsy, so a biopsy series systematically undercounts it. Hazzard 8e, pp. 1285–1286.",
+    "page": 1286,
+    "anchor": "exam-p1286-mcq-8d91e921a4f3e6b38cc30ba0",
+    "questionIds": [
+      "mcq-8d91e921a4f3e6b38cc30ba0"
+    ]
+  },
+  {
+    "id": "ch83-nephrotic-biopsy",
+    "chapter": "83",
+    "front": "Among older adults biopsied for isolated nephrotic syndrome, which diagnosis accounts for roughly 30–40%?",
+    "back": "Membranous nephropathy. Minimal change disease accounts for about 15%. These proportions apply to selected biopsies and cannot be generalized to all patients with nephrotic syndrome. Hazzard 8e, p. 1285.",
+    "page": 1285,
+    "anchor": "exam-p1285-mcq-8d91e921a4f3e6b38cc30ba0",
+    "questionIds": [
+      "mcq-8d91e921a4f3e6b38cc30ba0"
+    ]
+  },
+  {
+    "id": "ch83-dialysis-itch",
+    "chapter": "83",
+    "front": "An older hemodialysis patient scratches until the skin breaks and cannot sleep. Which low-dose drug can relieve uremic itch?",
+    "back": "Gabapentin can reduce uremic pruritus. Review skin care, dialysis adequacy and phosphate control, and monitor sedation and balance during treatment. Hazzard 8e, p. 1296.",
+    "page": 1296,
+    "anchor": "exam-p1296-mcq-eb4176cd70d5d177aafe8cc6",
+    "questionIds": [
+      "mcq-eb4176cd70d5d177aafe8cc6",
+      "mcq-34b4e39adec6e653936a4380"
+    ]
+  },
+  {
+    "id": "ch83-nutrition-review",
+    "chapter": "83",
+    "front": "A dialysis patient with declining function says there is very little she can eat. What should the assessment include?",
+    "back": "Review weight over time, actual food intake, ability to obtain or prepare meals, and serum albumin. A renal dietitian can identify palatable substitutions that protect protein and calorie intake. Hazzard 8e, p. 1295.",
+    "page": 1295,
+    "anchor": "exam-p1295-mcq-56a930970c2bcf04fdd39deb",
+    "questionIds": [
+      "mcq-56a930970c2bcf04fdd39deb"
+    ]
+  },
+  {
+    "id": "ch83-dialysis-bone-pain",
+    "chapter": "83",
+    "front": "Which skeletal feature is more frequent in older dialysis patients despite similar hyperphosphatemia and osteodystrophy severity?",
+    "back": "Bone pain and pathological fractures are more frequent. Older women have lower bone mineral content and width than younger comparators matched for dialysis duration. Hazzard 8e, p. 1295.",
+    "page": 1295,
+    "anchor": "exam-p1295-mcq-5cc3bcb961bbfb9897e8af66",
+    "questionIds": [
+      "mcq-5cc3bcb961bbfb9897e8af66",
+      "mcq-56a930970c2bcf04fdd39deb"
+    ]
+  },
+  {
+    "id": "ch83-withdrawal-request",
+    "chapter": "83",
+    "front": "A cognitively intact patient asks to stop dialysis. What needs to be explored before a plan is made?",
+    "back": "Ask about depression and burdens that might be relieved. Assess decision-making capacity and understanding, document preferences and arrange symptom support. Hazzard 8e, pp. 1296–1297.",
+    "page": 1296,
+    "anchor": "exam-p1296-mcq-7bd5c333fb742a1192c41f33",
+    "questionIds": [
+      "mcq-7bd5c333fb742a1192c41f33"
+    ]
+  },
+  {
+    "id": "ch83-cognitive-trial",
+    "chapter": "83",
+    "front": "Advanced dementia and uremic delirium seem clinically indistinguishable. How can a dialysis trial inform the decision?",
+    "back": "Agree on goals, timeframe and reassessment. Improvement in cognition may take 3–4 weeks, and a predefined 4–6 week trial can clarify benefit or burden. Hazzard 8e, pp. 1291, 1293.",
+    "page": 1291,
+    "anchor": "ch83-trial-dialysis",
+    "questionIds": [
+      "mcq-40b47298ce126cf107bce372",
+      "mcq-a06aada7d4008649524d7b5e"
+    ]
+  },
+  {
+    "id": "ch83-renal-erythropoietin",
+    "chapter": "83",
+    "front": "Why can iron stores decline after erythropoietin treatment even when baseline iron studies were adequate?",
+    "back": "The newly stimulated marrow uses iron to make hemoglobin faster than stores can be replenished. Monitor iron availability during therapy. Hazzard 8e, p. 1294.",
+    "page": 1294,
+    "anchor": "ch83-iron-stores",
+    "questionIds": [
+      "mcq-0ceadf0d4044aa67db827f93",
+      "mcq-28b6d2af7cf87462379ebe90"
+    ]
+  },
+  {
+    "id": "ch83-dual-blockade",
+    "chapter": "83",
+    "front": "In CKD with hypertension and albuminuria, what treatment addresses both blood pressure and urinary protein loss?",
+    "back": "Use an ACE inhibitor or an ARB. Combining both increases complications. Albuminuria helps guide the choice of agent. Hazzard 8e, p. 1279.",
+    "page": 1279,
+    "anchor": "ch83-ras-blockade",
+    "questionIds": [
+      "mcq-90507ce1829dae10f6d7ca4a",
+      "mcq-8d91e921a4f3e6b38cc30ba0"
+    ]
+  },
+  {
+    "id": "ch83-phosphate-control",
+    "chapter": "83",
+    "front": "A patient with CKD remains hyperphosphatemic on a low-phosphate diet. What targets absorption of dietary phosphate?",
+    "back": "An oral phosphate binder such as calcium acetate or sevelamer lowers the amount absorbed. Correct vitamin D deficiency and assess persistent PTH elevation separately. Hazzard 8e, p. 1280.",
+    "page": 1280,
+    "anchor": "ch83-phosphate-binders",
+    "questionIds": [
+      "mcq-19200b160f41788c44c397e6",
+      "mcq-5cc3bcb961bbfb9897e8af66"
+    ]
+  },
+  {
+    "id": "ch83-stable-renal-stenosis",
+    "chapter": "83",
+    "front": "Which treatment is the starting point for stable unilateral atherosclerotic renal artery stenosis?",
+    "back": "Medical management of hypertension and vascular risk. In CORAL, routine revascularization did not improve overall outcomes. A renin ratio that favors response does not guarantee benefit. Hazzard 8e, p. 1289.",
+    "page": 1289,
+    "anchor": "ch83-stenting",
+    "questionIds": [
+      "mcq-aa7281edda3f5115f5e9031d",
+      "mcq-7c9f2acf34dd73d71de69a94"
+    ]
+  },
+  {
+    "id": "ch83-vitamin-c-oxalate",
+    "chapter": "83",
+    "front": "What supplement can increase the risk of calcium oxalate arthritis in a dialysis patient?",
+    "back": "Vitamin C is converted to oxalate. Kidney failure and limited dialysis clearance allow oxalate accumulation and crystal deposition in the joint. Harrison 21e, ch. 372, p. 2867.",
+    "page": 2867,
+    "anchor": "ch83-harrison-oxalate",
+    "questionIds": [
+      "mcq-39fad91c5b4510f05efdb072"
+    ],
+    "sourceLabel": "Teaching passage · Harrison 21e, ch. 372, p. 2867"
+  },
+  {
+    "id": "ch83-uremic-burr-cells",
+    "chapter": "83",
+    "front": "What red-cell shape on a peripheral smear is associated with uremia?",
+    "back": "Burr cells, or echinocytes, have small regularly spaced spines. Acanthocytes have irregular projections. Harrison 21e, ch. 63, p. 434, Figure 63-10.",
+    "page": 434,
+    "anchor": "ch83-harrison-burr",
+    "questionIds": [
+      "mcq-28b6d2af7cf87462379ebe90"
+    ],
+    "sourceLabel": "Teaching passage · Harrison 21e, ch. 63, p. 434"
+  },
+  {
+    "id": "ch83-aging-fev1",
+    "chapter": "83",
+    "front": "What happens to FEV1 as the lungs age, and how do residual volume and gas transfer change?",
+    "back": "FEV1 declines. Less elastic recoil promotes air trapping and raises residual volume, while gas transfer declines. The kidney pages in the exam bibliography do not contain this comparison. Hazzard 8e, ch. 80, p. 1231.",
+    "page": 1231,
+    "anchor": "exam-p1231-mcq-5687d58f50abb0a5affaee3d",
+    "questionIds": [
+      "mcq-5687d58f50abb0a5affaee3d"
+    ],
+    "readChapter": "80"
   }
 ]

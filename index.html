@@ -4,7 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script src="js/reader-debug.js"></script>
 <script src="js/reading-companion.js"></script>
-<title>Stage A — Pressure injuries</title>
+<title>Stage A — Hazzard Reader</title>
+<script>if(!location.search&&!location.hash)document.documentElement.dataset.resolvingRoot='';</script>
 <meta name="description" content="A quiet reading desk for geriatrics study.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23205b4b%27/%3E%3Cpath d=%27M8 7h11l5 5v13H8z%27 fill=%27%23f8f5ed%27/%3E%3Cpath d=%27M12 15h8m-8 4h8%27 stroke=%27%23205b4b%27 stroke-width=%272%27/%3E%3C/svg%3E">
 <!-- Portable reading specimen. Inline CSS and script; no runtime dependencies. -->
@@ -54,6 +55,7 @@
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:var(--page);color:var(--ink);scroll-behavior:auto}
 body{margin:0;font:400 var(--body)/1.45 var(--reading);letter-spacing:calc(.1px * var(--fs,1));overflow-wrap:break-word}
 [hidden]{display:none!important}
+html[data-resolving-root] #readerViewport{visibility:hidden}
 button,input,textarea,select{font:500 var(--label)/1.35 var(--ui);color:inherit}
 button,a,input,textarea,select{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 button{min-block-size:var(--tap);border:var(--line) solid var(--control);border-radius:var(--radius);padding:var(--s2) var(--s3);background:var(--surface);cursor:pointer;white-space:normal;text-align:center}
@@ -5188,12 +5190,22 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <script>(async()=>{const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const companionFrame=HazzardReadingCompanion.embedded;
 const launchParams=new URLSearchParams(location.search);
-const opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
 if(HazzardReadingCompanion.unexpectedRoute())return;
 let mcq=null;
 const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(async r=>r.ok?{chapters:(await r.json()).chapters||[],loaded:true}:{chapters:[],loaded:false}).catch(()=>({chapters:[],loaded:false}));
 if(['bank','mock'].includes(new URLSearchParams(location.search).get('chapter')))HazzardMCQ.preload().catch(()=>{});
 await HazzardStorage.ready;
+let requestedChapter=launchParams.get('chapter');
+if(!requestedChapter){
+  const last=readJSON('hazzard-place-v1',{}).last;
+  if(last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter))requestedChapter=last.chapter;
+  if(!requestedChapter&&!location.search&&!location.hash)launchParams.set('home','1');
+  requestedChapter ||= '46';
+  if(launchParams.get('home')!=='1'&&launchParams.get('stats')!=='1')launchParams.set('chapter',requestedChapter);
+  const url=new URL(location.href);url.search=launchParams.toString();history.replaceState(history.state,'',url);
+}
+const opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
+if(!opensOnHome)delete document.documentElement.dataset.resolvingRoot;
 if(companionFrame)await HazzardMCQ.loadAliases();
 else{
   try{if(opensOnHome)await HazzardMCQ.loadAliases();else await HazzardMCQ.migrateSaved();}catch(error){HazzardStorage.status.error='Saved-question recovery: '+error.message;}
@@ -5215,15 +5227,6 @@ function prepareImages(root){
     if(dimensions){image.width=dimensions[0];image.height=dimensions[1]}
     if(image.dataset.src){image.src=image.dataset.src;delete image.dataset.src}
   }
-}
-
-// Activate one chapter before creating any mark units or reading chapter storage.
-let requestedChapter=new URLSearchParams(location.search).get('chapter');
-if(!requestedChapter){
-  const last=readJSON('hazzard-place-v1',{}).last;
-  if(last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter))requestedChapter=last.chapter;
-  requestedChapter ||= '46';
-  const url=new URL(location.href);if(url.searchParams.get('home')!=='1'&&url.searchParams.get('stats')!=='1')url.searchParams.set('chapter',requestedChapter);history.replaceState(null,'',url);
 }
 
 if(/^\d+s?$/.test(requestedChapter))HazzardEvidence.preload().catch(()=>{});
@@ -5388,7 +5391,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v308 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v309 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -5422,7 +5425,7 @@ function placeHeaderSteps(){
 narrowHeader.addEventListener('change',placeHeaderSteps);placeHeaderSteps();
 const contentsTargets=[];
 if(true){
-  document.title='Stage A — '+chapterTitle;
+  document.title=opensOnHome?'Stage A — Home':'Stage A — '+chapterTitle;
   const list=$('[data-pane="contents"] .rows');list.replaceChildren();
   for(const heading of copy.querySelectorAll('h1,h2:not(.callout-heading),h3')){
     const li=document.createElement('li'),button=document.createElement('button');
@@ -5754,6 +5757,7 @@ function renderScreen(state){
   if(state?.hazzardStats){hidePanel();renderStatistics(state.hazzardPane);return;}
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
+  document.title='Stage A — '+(id==='desk'?'Home':id==='library'?'Chapters':chapterTitle);
   hidePanel();currentView=id;
   const studyTabs=chapterHeader.querySelector('.study-view-tabs');if(studyTabs)studyTabs.hidden=id!=='reader';
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
@@ -7169,7 +7173,7 @@ if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
     onNotes:()=>{syncMarkingUI();pencil.hidden=currentView!=='reader';closeStatistics();chapterHeader.classList.remove('is-collapsed');chapterHeader.inert=false;headerScrollY=readerScroll.scrollTop;headerTravel=0;headerDirection=0;},openImage:openZoom});
   const li=document.createElement('li'),button=document.createElement('button');button.textContent='Exam questions';button.onclick=()=>returnReading(()=>mcq.show());li.append(button);$('[data-pane="contents"] .rows').prepend(li);
   if(!['mock','bank'].includes(cid))pencil.addEventListener('click',()=>{if(!HazzardAnswerHighlights.available())mcq.notes()},true);
-  if(readOnlyChapter||/^\d+s$/.test(cid))HazzardEvidence.citationLine(readOnlyChapter?cid:cid.slice(0,-1),()=>returnReading(()=>mcq.show('past'))).then(line=>{if(line)copy.querySelector('h1').after(line);}).catch(error=>console.error('Study exam citations:',error));
+  if(readOnlyChapter||/^\d+s$/.test(cid))HazzardEvidence.citationLine(readOnlyChapter?cid:cid.slice(0,-1),()=>returnReading(()=>mcq.show('past')),true).then(line=>{if(line)copy.querySelector('h1').after(line);}).catch(error=>console.error('Study exam citations:',error));
 
   if(!opensOnHome&&(['mock','bank'].includes(cid)||!location.hash&&(history.state?.hazzardStudyMode==='questions'||!history.state?.hazzardStudyMode&&new URL(location.href).searchParams.get('view')==='questions')))mcq.show();
   else mcq.notes();
@@ -7182,6 +7186,7 @@ if(readOnlyChapter||/^\d+s$/.test(cid)||['laws','mock','bank'].includes(cid)){
 document.getElementById('openStatistics').onclick=()=>openStatistics();
 if(new URL(location.href).searchParams.get('stats')==='1')openStatistics(true);
 else if(new URL(location.href).searchParams.get('home')==='1')navigateUI('desk',null,false,true);
+delete document.documentElement.dataset.resolvingRoot;
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   await HazzardFlashcards.flush();
@@ -7227,7 +7232,7 @@ document.addEventListener('click',async event=>{
 if(companionFrame)parent.HazzardReadingCompanion.frameReady();
 else HazzardCloud.start({capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
 dispatchEvent(new Event('hazzard-reader-ready'));
-})().catch(error=>{const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(HazzardReadingCompanion.embedded)HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
+})().catch(error=>{delete document.documentElement.dataset.resolvingRoot;const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Reader could not load. Reconnect and reload.';if(HazzardReadingCompanion.embedded)HazzardReadingCompanion.showError(message);else document.getElementById('copy')?.prepend(message);});</script>
 
 <script type="module">if(!HazzardReadingCompanion.embedded)await import('./js/reader-status.js');</script>
 <script src="js/reader-whats-new.js"></script>

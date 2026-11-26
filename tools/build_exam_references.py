@@ -66,7 +66,7 @@ def build(write=True):
                      reference=record['reference'], questionRef=question['ref'], status='unresolved',
                      reason='The bibliography gives no Hazzard 8e page for this question.', pages=[], tables=[], chapters=[])
         entries[ident] = entry
-        for field in ('bankChapter', 'bankChapterTitle'):
+        for field in ('bankChapter', 'bankChapterTitle', 'relatedTeaching'):
             if field in mapping:
                 entry[field] = mapping[field]
         if record.get('referenceNote'):
