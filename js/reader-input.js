@@ -49,7 +49,11 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
       if(event.cancelable)event.preventDefault();
     }
     cancel();
-    if(s.selecting)commit(s);
+    if(s.selecting){
+      // Chrome still clicks after mouse/pen release. That click belongs to
+      // the stroke that opened Undo; the next press may dismiss it.
+      strokeClick=s.type!=='touch';commit(s);
+    }
     else if(!s.moved&&s.hit){
       if(event.cancelable)event.preventDefault();
       openerTarget=event.target;edit(...s.hit);
@@ -58,11 +62,11 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   // Dismissal owns the whole contact, including the compatibility click.
   // Let the browser pan on touchmove; a tap must not fall through to a link,
   // another mark, or a destination tab after the footer changes underneath it.
-  let dismissedContact=false,openerTarget=null;
+  let dismissedContact=false,strokeClick=false,openerTarget=null;
   const outside=target=>(state.mark||state.bar.undo)&&!target.closest?.('#markBar');
   document.addEventListener('pointerdown',event=>{
     if(!event.isPrimary||event.button!==0)return;
-    dismissedContact=false;openerTarget=null;
+    dismissedContact=false;strokeClick=false;openerTarget=null;
     if(!outside(event.target))return;
     dismissedContact=true;close();
     event.preventDefault();event.stopImmediatePropagation();
@@ -77,6 +81,9 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
     event.stopImmediatePropagation();
   },{capture:true,passive:false});
   document.addEventListener('click',event=>{
+    if(strokeClick&&event.detail!==0){
+      strokeClick=false;event.preventDefault();event.stopImmediatePropagation();return;
+    }
     if(openerTarget&&event.detail!==0&&(openerTarget===event.target||openerTarget.contains?.(event.target))){
       openerTarget=null;event.preventDefault();event.stopImmediatePropagation();return;
     }
