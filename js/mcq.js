@@ -598,7 +598,8 @@ window.HazzardMCQ = (() => {
   let catalogPromise;
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   async function json(url) {
-    const response = await fetch(url);
+    const early=window.HazzardEarlyFetch?.get(url);window.HazzardEarlyFetch?.delete(url);
+    const response = await (early||fetch(url));
     if (!response.ok) throw new Error('Question file unavailable');
     return response.json();
   }

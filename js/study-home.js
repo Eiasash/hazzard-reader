@@ -116,21 +116,22 @@ window.HazzardStudyHome = (() => {
 
   let homeSummary;
   function summary(){
-    return homeSummary ||= fetch(window.HazzardHomeSummary).then(async response=>{
+    return homeSummary ||= (window.HazzardEarlyFetch?.get(window.HazzardHomeSummary)||fetch(window.HazzardHomeSummary)).then(async response=>{
       if(!response.ok)throw Error('Home data unavailable');
       const data=await response.json();
       const catalog=data.questions.map(([id,past,accepted,flags])=>({id,kind:past?'past':'practice',accepted,retired:!!(flags&1),content_changed:!!(flags&2)}));
       const ids=indexes=>indexes.map(i=>catalog[i].id);
       const currentChapters=Object.fromEntries(Object.entries(data.chapters).map(([key,indexes])=>[key,ids(indexes)]));
       const questions=Object.fromEntries(Object.entries(data.sittings).map(([i,sitting])=>[catalog[i].id,{sitting}]));
-      return {catalog,evidence:{currentChapters,study:{},questions},law:ids(data.law)};
-    }).catch(error=>{homeSummary=null;throw error;});
+      const changes=data.changes.map(([id,date])=>({id:typeof id==='number'?catalog[id].id:id,changedAt:data.changeDates[date]}));
+      return {catalog,changes:[...changes,...HazzardChanged.legacy()],evidence:{currentChapters,study:{},questions},law:ids(data.law)};
+    }).catch(error=>{window.HazzardEarlyFetch?.delete(window.HazzardHomeSummary);homeSummary=null;throw error;});
   }
   function catalog(){return window.HazzardHomeSummary?summary().then(x=>x.catalog):HazzardQuestionData.catalog();}
   async function libraryStats(){
     if(window.HazzardHomeSummary){
-      const [home,changes]=await Promise.all([summary(),HazzardChanged.load()]);
-      return {stats:{all:home.catalog,changes},evidence:home.evidence,law:home.law};
+      const home=await summary();
+      return {stats:{all:home.catalog,changes:home.changes},evidence:home.evidence,law:home.law};
     }
     const [stats,evidence,meta]=await Promise.all([HazzardStats.files(),HazzardEvidence.load(),HazzardMCQ.preload()]);
     return {stats,evidence,law:meta[3].israeliLawEthics.ids};
@@ -140,7 +141,7 @@ window.HazzardStudyHome = (() => {
     readingCoverage(chapters, keys);
     HazzardFlashcards.refreshDue();
     const [catalog, changes, evidence, aliases, metadata] = await Promise.allSettled([
-      window.HazzardStudyHome.catalog(), HazzardChanged.load(),
+      window.HazzardStudyHome.catalog(), window.HazzardHomeSummary?summary().then(x=>x.changes):HazzardChanged.load(),
       window.HazzardHomeSummary?summary().then(x=>x.evidence):HazzardEvidence.load(), HazzardMCQ.loadAliases(),
       window.HazzardHomeSummary?summary().then(x=>[null,null,null,{israeliLawEthics:{ids:x.law}}]):HazzardMCQ.preload()
     ]);

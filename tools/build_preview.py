@@ -1,5 +1,6 @@
 """Package v324's reader for a separate test origin, without production auth."""
 import argparse
+from datetime import datetime, timezone
 import hashlib
 import json
 import re
@@ -56,6 +57,23 @@ def write_package(out):
     compact = {"questions": [[q["id"], 1 if q["kind"] == "past" else 0, q["accepted"], int(bool(q.get("retired"))) + 2 * int(bool(q.get("content_changed")))] for q in catalog],
                "chapters": chapters, "sittings": {positions[k]: v["sitting"] for k, v in evidence["questions"].items() if k in positions},
                "law": [positions[k] for k in collections["israeliLawEthics"]["ids"] if k in positions]}
+    history = json.loads((ROOT / "data/redo-history.json").read_text(encoding="utf-8"))["questions"]
+    changes = json.loads((ROOT / "data/mcq/content-changes.json").read_text(encoding="utf-8"))
+    # Home needs the last correction date to score first attempts, not the
+    # complete list of question labels and previous revisions.
+    dates = {}
+    for change in history + changes:
+        qid, date = change["id"], change["changedAt"]
+        stamp = datetime.fromisoformat(date.replace("Z", "+00:00"))
+        if stamp.tzinfo is None:
+            stamp = stamp.replace(tzinfo=timezone.utc)
+        if qid not in dates or stamp > dates[qid][0]:
+            dates[qid] = (stamp, date)
+    dates = {qid: dated[1] for qid, dated in dates.items()}
+    unique_dates = sorted(set(dates.values()))
+    date_id = {date: i for i, date in enumerate(unique_dates)}
+    compact["changeDates"] = unique_dates
+    compact["changes"] = [[positions.get(qid, qid), date_id[date]] for qid, date in dates.items()]
     (out / home_file).write_text(json.dumps(compact,separators=(",",":")),encoding="utf-8",newline="\n")
     paths.add(home_file)
     drug_source = (ROOT / "data/drug-index.json").read_bytes().replace(b"\r\n", b"\n")
@@ -95,7 +113,14 @@ def write_package(out):
     # only after the preview-origin check.
     preload = "".join(f'<link rel="modulepreload" href="{src}">' if module else
                       f'<link rel="preload" as="script" href="{src}">' for src,module in scripts)
-    html = html.replace("<head>", "<head>"+policy+preload,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
+    # Start the two mandatory small reads while Chrome parses the shell.
+    early = """<script>(()=>{const host=location.hostname;
+if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev'))return;
+const urls=['manifest.json','data/mcq/id-aliases.json'];
+if(new URLSearchParams(location.search).get('home')==='1'||(!location.search&&!location.hash))urls.push('data/home-question-summary.json');
+window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request.catch(()=>{});return [url,request];}));
+})();</script>"""
+    html = html.replace("<head>", "<head>"+policy+early+preload,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
     (out / "index.html").write_text(html,encoding="utf-8",newline="\n")
     corpus = ROOT / "data/search-index.json"
     corpus_id = hashlib.sha256((ROOT / "tools/preview_search.py").read_text(encoding="utf-8").encode() + corpus.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:16]
@@ -110,12 +135,18 @@ def write_package(out):
  }
  window.HazzardDrugSummary="data/drug-summary.json";window.HazzardTemplates=TEMPLATE_FILES;window.HazzardHomeSummary="data/home-question-summary.json";
  window.HazzardBookSearch=BOOK_SEARCH;
- for(const [src,module] of SCRIPTS){
-   await new Promise((resolve,reject)=>{
-     const script=document.createElement('script');if(module)script.type='module';
+ function load(src,module){
+   return new Promise((resolve,reject)=>{
+     const script=document.createElement('script');script.async=false;if(module)script.type='module';
      script.src=src;script.onload=resolve;script.onerror=()=>reject(Error('Unable to load '+src));document.head.append(script);
    });
  }
+ let classic=[];
+ for(const [src,module] of SCRIPTS){
+   if(module){await Promise.all(classic);classic=[];await load(src,true);}
+   else classic.push(load(src,false));
+ }
+ await Promise.all(classic);
 })().catch(e=>{document.body.textContent=e.message;});
 """
     (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search).replace("TEMPLATE_FILES",json.dumps(template_files)), encoding="utf-8",newline="\n")

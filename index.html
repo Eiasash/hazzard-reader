@@ -5205,7 +5205,7 @@ const companionFrame=HazzardReadingCompanion.embedded;
 const launchParams=new URLSearchParams(location.search);
 if(HazzardReadingCompanion.unexpectedRoute())return;
 let mcq=null;
-const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(r=>{
+const manifestRequest=(window.HazzardEarlyFetch?.get('manifest.json')||fetch('manifest.json',{cache:'no-store'})).then(r=>{
   if(!r.ok)throw Error('Chapter list unavailable');
   return r.json();
 }).then(m=>({markUnitFiles:m.markUnitFiles===true,chapters:m.chapters,order:m.examYieldOrder||[],loaded:true})).catch(()=>({chapters:[],order:[],loaded:false}));
@@ -5269,7 +5269,7 @@ function prepareImages(root){
   }
 }
 
-if(/^\d+s?$/.test(requestedChapter))HazzardEvidence.preload().catch(()=>{});
+if(!opensOnHome&&/^\d+s?$/.test(requestedChapter))HazzardEvidence.preload().catch(()=>{});
 // --- manifest-driven chapter loader (future .md files; no code change per chapter) ---
 function renderManifestChapterHtml(mdText){
   // marked v12 mis-pairs some **bold** runs (e.g. "cm²**, … **>"), leaving literal ** on screen. Pre-convert simple one-line bold.
@@ -5833,7 +5833,7 @@ function displayPane(name){
     notebookOpenGroups.clear();
     for(const box of pane.querySelectorAll('details[open]'))box.open=false;
     renderNotebook();
-  }if(name==='practice')refreshMissedCount();
+  }if(name==='practice'){HazzardChanged.refresh();refreshMissedCount();}
   const primary=name!=='contents';panel.dataset.primary=String(primary);
   panel.setAttribute('aria-modal',String(!primary));panel.setAttribute('role',primary?'region':'dialog');
   document.body.classList.toggle('nav-page-open',primary);setUnderlyingInert(primary);sectionTitle.textContent=pane.dataset.title;
@@ -5890,7 +5890,7 @@ function renderScreen(state){
   if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
   else{setReadingBarsHidden(false);if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
   if(state?.hazzardPane)displayPane(state.hazzardPane);
-  if(id==='desk'){HazzardChanged.refresh();refreshResume()}if(id==='library'){if(chapterSort==='recent')sortChapterRows();refreshLibraryMarks();}
+  if(id==='desk')refreshResume();if(id==='library'){if(chapterSort==='recent')sortChapterRows();refreshLibraryMarks();}
   if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
   syncTabs();syncMarkingUI();updateStorageNotice();viewport();
 }
