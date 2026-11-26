@@ -6078,10 +6078,6 @@ function readingTab(){
   returnReading(()=>{if(['mock','bank','drugs'].includes(cid)){const last=readJSON(PLACE_KEY,{}).last;openChapter(last?.chapter&&!['mock','bank','drugs'].includes(last.chapter)?last.chapter:'46')}else if(mcq)mcq.notes()});
 }
 function handleTab(b){
-  if(b.dataset.tab==='tools'&&window.HazzardCloud?.paused){
-    openPanel('backup',b);
-    return;
-  }
   if(b.dataset.tab==='practice'){openPanel('practice',b);return}
   if(b.dataset.tab==='chapters'&&cid==='drugs'&&currentView==='reader'){view('library');return}
   if(b.dataset.tab==='reading'||b.hasAttribute('aria-current')){readingTab();return}
@@ -6154,9 +6150,10 @@ function archiveUnresolved(saved){
   }
   // Text changes (joined page breaks, removed notes) shift unit numbers: re-attach unrestored marks only on a unique exact match.
   const taken=new Set(Object.keys(saved.marks));
+  let historyIndex;
   saved.history=saved.history.filter(old=>{const moved=unitByText(old.text,taken);if(!moved){
       if(old.text.length<25)return true;
-      const ix=textIndex(),at=ix.s.indexOf(old.text);
+      const ix=historyIndex||=textIndex(),at=ix.s.indexOf(old.text);
       if(at<0||ix.s.indexOf(old.text,at+1)>=0)return true;
       const {id,...mark}=old;
       let rangeId='r-legacy-'+id;
@@ -6281,7 +6278,7 @@ function notebookSittingTime(sitting){
   const match=String(sitting).match(/(\d{4})(?:[- ]([A-Za-z]+|\d{1,2}))?/),months=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
   if(!match)return 0;const month=match[2]===undefined?0:/^\d+$/.test(match[2])?Number(match[2])-1:months.indexOf(match[2].slice(0,3).toLowerCase());return Number(match[1])*12+Math.max(0,month);
 }
-async function renderNotebookAnswerHighlights(ticket){
+async function renderNotebookAnswerHighlights(ticket,updateCurrentCount){
   const current=$('#notebookAnswerCurrent'),law=$('#notebookAnswerLaw'),cycles=$('#notebookAnswerCycles');
   current.replaceChildren();law.replaceChildren();cycles.replaceChildren();law.hidden=cycles.hidden=true;
   try{
@@ -6297,6 +6294,7 @@ async function renderNotebookAnswerHighlights(ticket){
       const list=$('#notebookMarks');list.querySelector('.nb-empty')?.remove();
       notebookAnswerList(current,currentItems);
     }
+    updateCurrentCount();
     chapterItems.delete(currentChapter);
     const other=$('#notebookOther');
     for(const [chapter,group]of [...chapterItems].sort((a,b)=>a[0].localeCompare(b[0],undefined,{numeric:true}))){
@@ -6331,8 +6329,12 @@ function renderNotebook(){
   const list=$('#notebookMarks');list.replaceChildren();
   const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({...u.record,id:u.id,kind:'marks',colour:u.colour,el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks].map(([id,r])=>({...r,id,kind:'ranges',colour:r.colour,el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
-  notebookHighlightItems(cid,items).forEach((it,index)=>list.append(notebookHighlightRow(cid,it,index)));
-  $('#notebookCurrent > summary').textContent=chapterLabel(cid)+' ('+items.length+')';
+  const currentCount=()=>{
+    const count=list.querySelectorAll('.nb-highlight:not(.nb-removed)').length+$('#notebookAnswerCurrent').querySelectorAll('.nb-highlight:not(.nb-removed)').length;
+    $('#notebookCurrent > summary').textContent=chapterLabel(cid)+' ('+count+')';
+  };
+  notebookHighlightItems(cid,items).forEach((it,index)=>list.append(notebookHighlightRow(cid,it,index,currentCount)));
+  currentCount();
   if(!list.children.length){const li=document.createElement('li');li.className='nb-empty';li.textContent='No highlights in this chapter yet.';list.append(li)}
   const places=$('#notebookPlaces');places.replaceChildren();
   let bookmarks=[];
@@ -6382,7 +6384,7 @@ function renderNotebook(){
   const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
   for(const r of unplacedRanges){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not found in the current text';excerpt.textContent=[r.number&&r.number+'.',r.text,r.note].filter(Boolean).join(' ');excerpt.dataset.marked=r.colour;li.append(label,excerpt);historyList.append(li)}
   for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=[mark.number&&mark.number+'.',mark.text,mark.note].filter(Boolean).join(' ');excerpt.dataset.marked=mark.colour;li.append(label,excerpt);historyList.append(li)}
-  renderNotebookAnswerHighlights(ticket);
+  renderNotebookAnswerHighlights(ticket,currentCount);
 }
 const searchText=node=>node.textContent.replace(/\s+/g,' ').trim();
 function searchBlocks(root){return [...root.querySelectorAll('h1,h2,h3,h4,p,li,td,th,caption,figcaption,.book-caption,summary')].filter(n=>!n.closest('[data-reader-metadata]')&&!n.querySelector('p,li,td,th,details,h1,h2,h3,h4')&&searchText(n))}

@@ -27,9 +27,11 @@
       const delay = cloud?.pauseAt - Date.now();
       if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
       chip.dataset.readiness = waiting() || applying || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
-      chip.dataset.status = cloud?.paused ? 'cloud-paused' : state;
-      const chipText = (state === 'waiting' ? VERSION + ' - update available' : text) + (cloud?.paused ? ' - Cloud paused' : '');
-      button.querySelector('span:not(#readerStatusChip)').textContent = cloud?.paused ? 'Cloud paused' : 'Text';
+      chip.dataset.status = state;
+      const chipText = state === 'waiting' ? VERSION + ' - update available' : text;
+      const notebook=document.querySelector('#appTabs [data-tab="notebook"]');
+      notebook.toggleAttribute('data-sync-paused',!!cloud?.paused);
+      notebook.setAttribute('aria-label',cloud?.paused?'Notebook · Cloud paused':'Notebook');
       chip.textContent = '';chip.setAttribute('aria-label',chipText);
       button.title = 'Text & appearance — ' + chipText;
       button.setAttribute('aria-label', button.title);

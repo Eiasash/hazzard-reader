@@ -1,5 +1,6 @@
 #appTabs [data-tab="tools"] { position:relative; }
-#appTabs .has-new-release::after { content:""; position:absolute; inset-block-start:5px; inset-inline-end:9px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
+#appTabs .has-new-release::after, #appTabs [data-sync-paused]::after { content:""; position:absolute; inset-block-start:5px; inset-inline-end:9px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
+#appTabs [data-sync-paused]::after { background:var(--stop); }
 #panel[data-current-pane="tools"] #whatsNewButton { min-height:44px; min-block-size:44px; height:auto; width:auto; text-align:start; margin:0; grid-column:2; grid-row:2; }
 #panel[open][data-current-pane="tools"] { height:auto; max-block-size:calc(var(--vv-height) * .25); }
 #panel[open][data-current-pane="tools"] [data-pane="tools"] { display:grid; grid-template-columns:minmax(0,1fr) auto; align-content:start; column-gap:8px; }
