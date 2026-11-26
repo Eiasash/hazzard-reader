@@ -6650,7 +6650,7 @@ function renumber(saved,kind,id,number){
   list.forEach(({mark},i)=>{if(mark.number!==i+1){mark.number=i+1;mark.at=Math.max(Date.now(),(mark.at||0)+1);}});
 }
 function clearUndo(){clearTimeout(barState.timer);barState.undo=null;syncMarkingUI();}
-function dismissMarkBar(){cancelPenGesture();closeMark();clearUndo();}
+function dismissMarkBar(){if(editor.contains(document.activeElement))document.activeElement.blur();cancelPenGesture();closeMark();clearUndo();}
 function offerUndo(callback){clearTimeout(barState.timer);barState.undo=callback;barState.timer=setTimeout(clearUndo,4500);syncMarkingUI();}
 $('#penUndo').onclick=()=>{const callback=barState.undo;clearUndo();try{callback?.();closeMark();}catch(error){flash(error.message,6000);}};
 function persistBook(before,saved){
@@ -6782,8 +6782,6 @@ stopStroke=bindReaderInput({
     if(quote)editMark(stroke.book?'ranges':'answer',null,quote,stroke.range);
   },
   begin(event){
-    if(activeMark&&!editor.contains(event.target)){dismissMarkBar();if(event.target.closest(readingText)){event.preventDefault();return;}}
-    if(barState.undo&&event.target.closest(readingText))clearUndo();
     const root=event.target.closest(readingText);
     if(!root||panel.open||currentView!=='reader'||event.target.closest('a,button,input,textarea,select,summary,img,svg,[data-reader-metadata]'))return;
     const word=caretWord(event.clientX,event.clientY),book=root===copy;
