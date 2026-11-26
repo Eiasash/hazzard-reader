@@ -17018,5 +17018,287 @@
         165
       ]
     ]
+  },
+  {
+    "chapter": "62",
+    "id": "u46",
+    "old": "Excluded from the IMA required reading list (P005-2026); cited once in past papers.",
+    "new": "P005-2026 excludes Hazzard Chapter 62 from required reading, although past examinations include cerebrovascular questions and cite this chapter.",
+    "edits": [
+      [
+        0,
+        8,
+        0,
+        37
+      ],
+      [
+        13,
+        21,
+        42,
+        42
+      ],
+      [
+        38,
+        38,
+        59,
+        60
+      ],
+      [
+        39,
+        70,
+        61,
+        69
+      ],
+      [
+        76,
+        82,
+        75,
+        143
+      ]
+    ]
+  },
+  {
+    "chapter": "62s",
+    "id": "u22",
+    "old": "Excluded from the IMA required reading list (P005-2026); cited once in past papers.",
+    "new": "P005-2026 excludes Hazzard Chapter 62 from required reading, although past examinations include cerebrovascular questions and cite this chapter.",
+    "edits": [
+      [
+        0,
+        8,
+        0,
+        37
+      ],
+      [
+        13,
+        21,
+        42,
+        42
+      ],
+      [
+        38,
+        38,
+        59,
+        60
+      ],
+      [
+        39,
+        70,
+        61,
+        69
+      ],
+      [
+        76,
+        82,
+        75,
+        143
+      ]
+    ]
+  },
+  {
+    "chapter": "62s",
+    "id": "u27",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Past-exam example on delayed hydrocephalus after subarachnoid hemorrhage:",
+    "edits": [
+      [
+        10,
+        19,
+        10,
+        17
+      ],
+      [
+        20,
+        26,
+        18,
+        20
+      ],
+      [
+        27,
+        29,
+        21,
+        28
+      ],
+      [
+        30,
+        34,
+        29,
+        42
+      ],
+      [
+        35,
+        42,
+        43,
+        48
+      ],
+      [
+        43,
+        46,
+        49,
+        72
+      ]
+    ]
+  },
+  {
+    "chapter": "27s",
+    "id": "u84",
+    "old": "The physiologic-association questions test this table's content; their official references name the page without an explicit table label.",
+    "new": "June 2025 Q39 explicitly names Table 27-3. September 2024 Q64 gives p375 and its table field displays “March 27”; the matching table on that page is 27-3.",
+    "edits": [
+      [
+        0,
+        3,
+        0,
+        4
+      ],
+      [
+        4,
+        15,
+        5,
+        39
+      ],
+      [
+        16,
+        27,
+        40,
+        42
+      ],
+      [
+        28,
+        37,
+        43,
+        52
+      ],
+      [
+        38,
+        42,
+        53,
+        57
+      ],
+      [
+        43,
+        47,
+        58,
+        80
+      ],
+      [
+        53,
+        55,
+        86,
+        86
+      ],
+      [
+        56,
+        63,
+        87,
+        112
+      ],
+      [
+        64,
+        95,
+        113,
+        113
+      ],
+      [
+        100,
+        124,
+        118,
+        126
+      ],
+      [
+        131,
+        136,
+        133,
+        153
+      ]
+    ]
+  },
+  {
+    "chapter": "27s",
+    "id": "u79",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Hazzard’s Geriatric Medicine and Gerontology, 8e, Chapter 27 (printed pages 371–382).",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        9
+      ],
+      [
+        5,
+        10,
+        10,
+        19
+      ],
+      [
+        11,
+        15,
+        20,
+        28
+      ],
+      [
+        16,
+        19,
+        29,
+        32
+      ],
+      [
+        20,
+        25,
+        33,
+        45
+      ],
+      [
+        26,
+        29,
+        46,
+        49
+      ],
+      [
+        30,
+        43,
+        50,
+        84
+      ]
+    ]
+  },
+  {
+    "chapter": "17s",
+    "id": "u24",
+    "old": "No past-exam questions are currently linked to this chapter.",
+    "new": "Sixteen past-exam questions are linked by topic to the Israeli services discussed in this chapter’s teaching notes.",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        7
+      ],
+      [
+        27,
+        37,
+        32,
+        32
+      ],
+      [
+        44,
+        44,
+        39,
+        48
+      ],
+      [
+        46,
+        46,
+        50,
+        84
+      ],
+      [
+        59,
+        59,
+        97,
+        114
+      ]
+    ]
   }
 ]

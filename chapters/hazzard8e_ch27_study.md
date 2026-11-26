@@ -2,9 +2,61 @@ Study summary of Chapter 27 — Perioperative Care: Evaluation and Management; t
 
 # Chapter 27 Study: Perioperative Care
 
+## What the exams asked
+
+- How much perioperative mortality is cardiac, and how long does the early risk period last? [2020 Q12](?chapter=27#asked-chapter).
+- Which preoperative laboratory result is part of the Revised Cardiac Risk Index? [December 2021 Q36](?chapter=27#asked-chapter).
+- Choose a stress modality when hip disease prevents adequate exercise, and recognize when testing would change management. [June 2022 Q4](?chapter=27#asked-chapter) (GRS).
+- Distinguish interruption of clopidogrel after remote stenting from anticoagulant bridging. [June 2022 Q11](?chapter=27#asked-chapter) (GRS, two accepted answers).
+- Which feature predicts major adverse cardiac events before lung resection even with preserved systolic function? [June 2023 Q31](?chapter=27#exam-p375-mcq-368d1c6ff706583ac2c3f156).
+- Match the direction of aging changes to the clinical consequence: skin repair, hepatic clearance, fluid balance, glucose and gas exchange. [September 2024 Q64](?chapter=27#exam-p375-mcq-db66212cedd8f17c624ba1ed) and [June 2025 Q39](?chapter=27#exam-p375-mcq-18b0ad7f9e472a626caf7cbe).
+- Separate short-acting oral anticoagulants from warfarin when deciding whether heparin bridging is needed. [September 2024 Q14](?chapter=27#exam-p380-mcq-14024c36301bd94117cfdcb6).
+- Identify the upper gastrointestinal change that favors aspiration after surgery. [June 2026 Q66](?chapter=27#exam-p376-mcq-f065ded45c3214b7bc02b061).
+- Recognize a frozen shoulder after surgical recovery when active and passive movement are both limited. [June 2026 Q21](?chapter=27#ch27-harrison-shoulder) (Harrison 22e, ch. 387, pp. 2974–2975).
+
+## Cardiac history, reserve and the decision to test
+
+<span data-exam-ids="mcq-368d1c6ff706583ac2c3f156" data-reader-metadata="exam"></span>Ask about prior stroke before focusing on the ejection fraction. A stroke five years earlier still identifies a patient at increased risk of major perioperative cardiac events. A report of normal systolic function cannot rule out heart failure: a stiff left ventricle may generate a high filling pressure with a small fluid load, yet lose pressure quickly when bleeding reduces preload. An LVEF below 40% is associated with higher mortality. An EF of 50% is not the cutoff in this passage (pp374–375).
+
+Conduction-system disease increases susceptibility to bradycardia and high-grade atrioventricular block, especially with rate-lowering drugs. The clues to ventricular tachycardia in the chapter are a prior infarct or a low LVEF. About one-quarter to three-tenths of perioperative deaths are attributed to cardiac causes. This is a proportion of deaths, not the probability that a given patient will die. Risk is greatest immediately after the operation, and roughly half of adverse events occur within three weeks. Delirium can prolong the admission and impede functional recovery (pp375–376, 379).
+
+An 83-year-old with creatinine 2.2 mg/dL meets the renal component of the original Revised Cardiac Risk Index. Its other components are ischemic heart disease, heart failure, cerebrovascular disease, insulin treatment and high-risk surgery. Prediabetes and an isolated right bundle-branch block are not index components. Check kidney function separately for drug and fluid management: reduced muscle mass can conceal impaired filtration behind a serum creatinine that appears normal (Hazzard 8e, p376). [Lee et al., derivation and validation of the RCRI](https://pubmed.ncbi.nlm.nih.gov/10477528/)
+
+Severe hip arthritis may preclude an adequate treadmill or bicycle workload. In the joint-replacement vignette the relevant imaging choice is pharmacologic stress, such as dobutamine stress echocardiography. First estimate patient and procedural risk and ask what a high-risk result would change. Testing can be considered in selected patients with elevated risk and poor or unknown capacity. An unmeasurable exercise capacity alone does not make stress imaging or angiography mandatory. [2024 AHA/ACC perioperative cardiovascular guideline, §§4.3–4.3.1 and 4.6](https://doi.org/10.1161/CIR.0000000000001285)
+
+## Organ aging at the bedside
+
+<span data-exam-ids="mcq-db66212cedd8f17c624ba1ed mcq-18b0ad7f9e472a626caf7cbe" data-reader-metadata="exam"></span>Start with the normal job of the tissue. Skin needs an epithelial covering and an adequate blood supply to close a wound. With fewer dermal vessels and slower re-epithelialization, the wound closes more slowly. In the lung, a stiffer chest wall, less elastic recoil and greater mismatch between ventilation and perfusion leave less reserve to tolerate sedation. Blood leaving poorly ventilated units is poorly oxygenated. September 2024 tested the skin pair. June 2025 tested the respiratory pair (Table 27-3, p375).
+
+In the same table, fewer nephrons and reduced sodium and water excretion favor volume overload. Reduced hepatic blood flow and microsomal oxidation tend to prolong the half-life of susceptible drugs. Insulin resistance accompanied by impaired secretion favors hyperglycemia. Check blood glucose during surgical stress because hyperglycemia may increase infection risk. For renal dosing, the renal prose on p376 explains that clearance can fall and toxicity risk can rise; the printed renal half-life arrow is inconsistent with that explanation (pp375–376).
+
+## Aspiration during recovery
+
+<span data-exam-ids="mcq-f065ded45c3214b7bc02b061" data-reader-metadata="exam"></span>A hiatal hernia increases the likelihood that gastric contents will reflux. Reduced lower-esophageal sphincter tone, weaker esophageal peristalsis and delayed gastric emptying can add to the risk. A prior stroke can create a second route to aspiration by impairing swallowing and secretion control. Ask about coughing with food or a previous aspiration episode even if the neurologic deficit is subtle. Severe postoperative pain may impair deep breathing and atelectasis is a common pulmonary complication, but neither supplies the structural explanation in the question (pp375–376).
+
+## Anticoagulants and antiplatelets before an operation
+
+<span data-exam-ids="mcq-14024c36301bd94117cfdcb6" data-reader-metadata="exam"></span>Start with the indication, the drug and the bleeding risk of the operation. Rivaroxaban has a rapid offset and onset, so interruption usually leaves no useful role for a heparin bridge. Dabigatran and apixaban share this principle. The chapter gives an interruption interval of one to four days for the agents it discusses, individualized to renal function, bleeding risk and thrombotic risk. Confirm hemostasis before resumption (p380). [2024 AHA/ACC perioperative cardiovascular guideline, §7.6](https://doi.org/10.1161/CIR.0000000000001285)
+
+A recent DVT or pulmonary embolus changes the timing of elective surgery. Hazzard advises allowing at least three months for initial anticoagulation when surgery can wait. If it cannot, the book describes LMWH bridging for the warfarin-treated patient with recent VTE while INR is subtherapeutic. Do not generalize this particular scenario to all warfarin indications: the 2024 guideline discourages routine bridging for most patients and reserves consideration for high thrombotic risk. Neither a one-month delay for DVT nor a fixed one-year delay for pulmonary embolus matches the book (p380). [2024 AHA/ACC perioperative cardiovascular guideline, §7.6](https://doi.org/10.1161/CIR.0000000000001285)
+
+Clopidogrel inhibits platelets. Enoxaparin is an anticoagulant and cannot replace a P2Y12 inhibitor's effect on stent thrombosis. The older GRS knee-replacement question accepts both a five-to-seven-day interruption after a remote stent and continuation. Which course to take depends on surgical bleeding risk, thrombotic risk and the consequences of delaying surgery. Five to seven days is the expected interval to platelet-function recovery when interruption is chosen. [2024 AHA/ACC perioperative cardiovascular guideline, §7.5 and Table 12](https://doi.org/10.1161/CIR.0000000000001285)
+
+## A painful shoulder after surgical recovery
+
+<span data-practice-ids="mcq-10f0de0773043fed8129feaf" data-reader-metadata="exam"></span>After a period of reduced use, the shoulder capsule can thicken and become stiff. Ask the patient to move the shoulder, then move the relaxed arm yourself. Loss of movement in both examinations, night pain over months and unrevealing imaging favor adhesive capsulitis. A cuff tear more often produces weakness during active movement. Ultrasound or MRI can identify a tear, and radiographs or ultrasound can identify calcification in calcific tendinitis. The question's cited chapter is Harrison 22e, ch. 387, pp. 2974–2975. [Read the related Harrison teaching](?chapter=27#ch27-harrison-shoulder).
+
+## Israeli context — הערכה והכנה לניתוח אלקטיבי
+
+ההנחיות של הר״י מדצמבר 2024 מציעות לאתר בני 75 ומעלה עם אחד או יותר מהמאפיינים המפורטים, ובהם ירידה קוגניטיבית, ירידה בתפקוד או בניידות, ירידה במשקל, הפרעת בליעה או אספירציות, ריבוי מחלות או תרופות, ומועמדות לניתוח גדול. אפשר להיעזר ב־FRAIL או ב־CFS. הכירורג מפנה להערכה גריאטרית כשמזוהה סיכון מוגבר, בהתחשב בהיקף הניתוח ובזמן שנותר עד לביצועו. [הר״י, עמ׳ 4–5, סעיפים 3–4](https://ima-contentfiles.s3.amazonaws.com/Clinic_125patientforsurgery.pdf#page=4)
+
+לקראת האשפוז בודקים את רשימת התרופות ואת הסיכון לדליריום. מסבירים למטופל ולמשפחה מה צפוי ומתאמים עם הצוות איזון כאב, שמירה על מחזור שינה וערות, ניידות מוקדמת, שימוש במשקפיים ובמכשירי שמיעה והוצאת צנתרים כשאין בהם עוד צורך. לפי הממצאים שוקלים פיזיותרפיה מקדימה, מערבים דיאטנית, מתכננים את התמיכה לאחר השחרור ומתעדים אילו תוצאות חשובות למטופל. [הר״י, עמ׳ 5–6, סעיפים 5.1–5.7](https://ima-contentfiles.s3.amazonaws.com/Clinic_125patientforsurgery.pdf#page=5)
+
+בהדסה עין כרם מבקשים להביא למרפאת טרום ניתוח סיכום מרופא המשפחה עם רשימת תרופות עדכנית ואת תוצאות הבדיקות שכבר התבקשו. במהלך הביקור מתקיימים הערכה של רופא מהמחלקה המנתחת, הערכת מרדים והדרכה סיעודית. הצוות מתאים את התרופות ומזמין בדיקות או ייעוצים נוספים לפי הצורך. [הדסה עין כרם, ״מה צריך להביא לביקור במרפאה?״ ו״מה קורה ביום הביקור במרפאה?״](https://he.hadassah.org.il/anesthesia/pre-operation-enkarem/)
+
 **Full chapter available: [Read Chapter 27](?chapter=27).**
 
-*Fast build from the book; not lane-reviewed.*
+*Hazzard’s Geriatric Medicine and Gerontology, 8e, Chapter 27 (printed pages 371–382).*
 
 ## Summary
 
@@ -62,7 +114,7 @@ Study summary of Chapter 27 — Perioperative Care: Evaluation and Management; t
 ![Table 27-3. Physiologic changes of aging and effects on perioperative care, printed page 375.](ch27_table27_3_p375.png)
 
 
-The physiologic-association questions test this table's content; their official references name the page without an explicit table label. The printed renal arrow and cardiac terminology are preserved in the image and explained above.
+June 2025 Q39 explicitly names Table 27-3. September 2024 Q64 gives p375 and its table field displays “March 27”; the matching table on that page is 27-3. The printed renal arrow and cardiac terminology are preserved in the image and explained above.
 
 </details>
 

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v310",
+      "date": "2026-11-26",
+      "changes": [
+        "Stroke, advance care planning, perioperative care, home and community services, and frailty now have exam-linked Study notes, Israeli context and flashcards. Without a saved reading place, Home suggests the highest-yield unread chapter."
+      ]
+    },
+    {
       "version": "v309",
       "date": "2026-11-26",
       "changes": [

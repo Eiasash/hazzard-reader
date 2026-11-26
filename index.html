@@ -1020,7 +1020,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
       <p class="home-weak-name" id="homeWeakName">Checking your answers…</p><p class="meta" id="homeWeakDetail"></p>
       <div class="home-actions" id="homeWeakActions" hidden><a id="homeWeakPractice">Practise questions</a><a id="homeWeakStudy">Study notes</a></div>
     </section>
-    <div class="card resume-card"><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h2>Pressure injuries</h2><p class="meta"></p><a class="primary full" id="resume" href="?chapter=46">Resume reading →</a></div>
+    <div class="card resume-card"><p class="eyebrow">Start reading</p><h2>Choose a chapter</h2><p class="meta"></p><a class="primary full" id="resume">Open chapter →</a></div>
   </div>
   <section class="card home-coverage" aria-labelledby="homeCoverageHeading">
     <h2 id="homeCoverageHeading">Exam coverage</h2>
@@ -5192,19 +5192,31 @@ const companionFrame=HazzardReadingCompanion.embedded;
 const launchParams=new URLSearchParams(location.search);
 if(HazzardReadingCompanion.unexpectedRoute())return;
 let mcq=null;
-const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(async r=>r.ok?{chapters:(await r.json()).chapters||[],loaded:true}:{chapters:[],loaded:false}).catch(()=>({chapters:[],loaded:false}));
+const manifestRequest=fetch('manifest.json',{cache:'no-store'}).then(r=>{
+  if(!r.ok)throw Error('Chapter list unavailable');
+  return r.json();
+}).then(m=>({chapters:m.chapters,order:m.examYieldOrder||[],loaded:true})).catch(()=>({chapters:[],order:[],loaded:false}));
 if(['bank','mock'].includes(new URLSearchParams(location.search).get('chapter')))HazzardMCQ.preload().catch(()=>{});
 await HazzardStorage.ready;
+const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',READING_KEY='hazzard-reading-progress-v1';
+const homeReadingKeys={reading:READING_KEY,place:PLACE_KEY,bookmarks:BOOKMARK_KEY};
+const manifestData=await manifestRequest;
+const examYieldRank=new Map(manifestData.order.map((chapter,index)=>[chapter,index]));
 let requestedChapter=launchParams.get('chapter');
-if(!requestedChapter){
-  const last=readJSON('hazzard-place-v1',{}).last;
-  if(last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter))requestedChapter=last.chapter;
-  if(!requestedChapter&&!location.search&&!location.hash)launchParams.set('home','1');
+let opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
+if(!requestedChapter||opensOnHome){
+  const last=readJSON(PLACE_KEY,{}).last;
+  const resumable=last?.chapter&&/^(?:\d+s?|laws?|mock)$/.test(last.chapter)&&(!manifestData.loaded||last.chapter==='mock'||manifestData.chapters.some(c=>c.number===last.chapter));
+  if(!resumable&&!location.search&&!location.hash)opensOnHome=true;
+  if(opensOnHome){
+    launchParams.set('home','1');
+    requestedChapter=resumable&&last.chapter!=='mock'?last.chapter:HazzardStudyHome.startReading(manifestData.order,homeReadingKeys)?.chapter;
+    if(requestedChapter&&launchParams.has('chapter'))launchParams.set('chapter',requestedChapter);
+  }else if(resumable)requestedChapter=last.chapter;
   requestedChapter ||= '46';
   if(launchParams.get('home')!=='1'&&launchParams.get('stats')!=='1')launchParams.set('chapter',requestedChapter);
   const url=new URL(location.href);url.search=launchParams.toString();history.replaceState(history.state,'',url);
 }
-const opensOnHome=launchParams.get('home')==='1'&&launchParams.get('stats')!=='1';
 if(!opensOnHome)delete document.documentElement.dataset.resolvingRoot;
 if(companionFrame)await HazzardMCQ.loadAliases();
 else{
@@ -5266,10 +5278,9 @@ function renderManifestChapterHtml(mdText){
   });
   return html;
 }
-let manifestChapters=[],manifestLoaded=false;
-{const result=await manifestRequest;manifestChapters=result.chapters;manifestLoaded=result.loaded;}
+let manifestChapters=manifestData.chapters,manifestLoaded=manifestData.loaded;
 let manifestArticle=null,newMockPaper=false;
-const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1';
+const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',MISSED_KEY='hazzard-missed-v1';
 const chapterTextPromises=new Map();
 function loadChapterText(entry){if(!chapterTextPromises.has(entry.file))chapterTextPromises.set(entry.file,fetch('chapters/'+entry.file).then(r=>{if(!r.ok)throw new Error('Chapter unavailable');return r.text()}).catch(e=>{chapterTextPromises.delete(entry.file);throw e}));return chapterTextPromises.get(entry.file)}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
@@ -5332,7 +5343,6 @@ for(const entry of orderedChapters){
   }
   li.dataset.chapterRow=id;li.dataset.readingChapter=entry.studyOnly?id+'s':id;li.dataset.search=id+' '+entry.title+' '+name.textContent;$('#chapterRows').append(li);
 }
-const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1';
 const CHAPTER_SORT_KEY='hazzard-chapters-sort-v1';
 let chapterSort='number',sortTicket=0;
 try{const saved=localStorage.getItem(CHAPTER_SORT_KEY);if(['number','title','yield','recent'].includes(saved))chapterSort=saved;}catch{}
@@ -5354,16 +5364,17 @@ async function sortChapterRows(){
         if((p?.read||p?.ratio>0)&&!recent.has(chapter))recent.set(chapter,0);
       }
     }
-    if(mode==='yield'||mode==='weak'){
-      const data=await HazzardEvidence.load();
-      for(const row of rows){const years={},counts=HazzardEvidence.counts(data,row.dataset.chapterRow);for(const [sitting,n] of counts){const year=sitting.slice(0,4);years[year]=(years[year]||0)+n;}totals.set(row.dataset.chapterRow,{total:counts.reduce((n,p)=>n+p[1],0),years});}
-    }
+    if((mode==='yield'||mode==='weak')&&!examYieldRank.size)throw Error('Exam counts unavailable');
     if(mode==='weak'){
       const [data,evidence]=await Promise.all([HazzardStats.files(),HazzardEvidence.load()]),m=HazzardStats.model(data);
-      for(const [id,total]of totals){const ids=new Set(HazzardEvidence.studyIds(evidence,id).map(HazzardMCQ.currentId)),measured=m.measure(m.questions.filter(q=>q.kind==='past'&&ids.has(q.id)));total.missed=measured.answered-measured.clean;total.weak=total.missed*total.total;}
+      for(const row of rows){
+        const id=row.dataset.chapterRow,ids=new Set(HazzardEvidence.studyIds(evidence,id).map(HazzardMCQ.currentId));
+        const measured=m.measure(m.questions.filter(q=>q.kind==='past'&&ids.has(q.id)));
+        const total=HazzardEvidence.counts(evidence,id).reduce((sum,[,n])=>sum+n,0);
+        totals.set(id,(measured.answered-measured.clean)*total);
+      }
     }
     if(ticket!==sortTicket)return;
-    const years=[...new Set([...totals.values()].flatMap(v=>Object.keys(v.years)))].sort((a,b)=>Number(b)-Number(a));
     const titles=new Map(orderedChapters.map(c=>[String(c.number),c.title.replace(/^(the|an|a)\s+/i,'')]));
     rows.sort((a,b)=>{
       const x=a.dataset.chapterRow,y=b.dataset.chapterRow;
@@ -5371,7 +5382,8 @@ async function sortChapterRows(){
       // Resolve undated and tied entries in book order.
       if(!/^\d+$/.test(x)||!/^\d+$/.test(y))return /^\d+$/.test(x)?-1:/^\d+$/.test(y)?1:x.localeCompare(y);
       if(mode==='title')return titles.get(x).localeCompare(titles.get(y),'en',{sensitivity:'base'})||Number(x)-Number(y);
-      if(mode==='yield'||mode==='weak'){const l=totals.get(x),r=totals.get(y);if(mode==='weak'&&l.weak!==r.weak)return r.weak-l.weak;if(l.total!==r.total)return r.total-l.total;for(const year of years){const difference=(r.years[year]||0)-(l.years[year]||0);if(difference)return difference;}}
+      if(mode==='weak'&&totals.get(y)!==totals.get(x))return totals.get(y)-totals.get(x);
+      if(mode==='yield'||mode==='weak')return examYieldRank.get(x)-examYieldRank.get(y);
       return Number(x)-Number(y);
     });
     $('#chapterRows').append(...rows);$('#chapterSortStatus').hidden=true;
@@ -5391,7 +5403,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v309 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Text settings');fab.title='Text settings';fab.innerHTML=tabIcon('<path d="M4 5h16M12 5v15M8 20h8"/>')+'<span>Text</span><span id="readerStatusChip" role="status" aria-live="polite">v310 - checking offline copy</span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);chapterHeader.append(pencil);
@@ -6615,18 +6627,26 @@ function refreshResume(){
   const last=readJSON(PLACE_KEY,{}).last;
   const chapterExists=id=>/^(?:\d+s?|laws?)$/.test(id)&&(!manifestLoaded||manifestChapters.some(c=>String(c.number)===id));
   const saved=last&&chapterExists(last.chapter)?last:null;
-  const target=saved?.chapter||(chapterExists(cid)?cid:'46');
+  const start=saved?null:HazzardStudyHome.startReading(manifestData.order,homeReadingKeys);
+  const target=saved?.chapter||start?.chapter;
+  if(start&&target!==cid){
+    // The header, Sections and Read/Study buttons belong to the real backing
+    // chapter. Reopen Home there if an import or another tab changed progress.
+    const url=new URL(location.href);url.search='?home=1';url.hash='';
+    location.replace(url.href);return;
+  }
   const entry=manifestChapters.find(c=>String(c.number)===target);
-  $('.resume-card h2').textContent=entry?.title||chapterLabel(target);
-  $('.resume-card .eyebrow').textContent=saved?'Pick up where you left off':'Start reading';
-  $('.resume-card .meta').textContent=saved?.snippet?'“'+saved.snippet.slice(0,80)+'…”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':chapterLabel(target).split(' — ')[0];
+  $('.resume-card h2').textContent=target?(entry?.title||chapterLabel(target)):'Choose a chapter';
+  $('.resume-card .eyebrow').textContent=saved?'Pick up where you left off':start?.reread?'Read again':'Start reading';
+  $('.resume-card .meta').textContent=saved?.snippet?'“'+saved.snippet.slice(0,80)+'…”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':target?chapterLabel(target).split(' — ')[0]:'';
   $('.resume-card .meta').dir=snippetDirection(saved?.snippet||'');
-  $('#resume').href='?chapter='+encodeURIComponent(target);
-  $('#resume').textContent=saved?'Resume reading →':'Open chapter →';
-  HazzardStudyHome.refresh(manifestChapters,{reading:READING_KEY,place:PLACE_KEY,bookmarks:BOOKMARK_KEY});
+  $('#resume').href=target?'?chapter='+encodeURIComponent(target):'#chapters';
+  $('#resume').textContent=saved?'Resume reading →':target?'Open chapter →':'Browse chapters →';
+  $('#resume').onclick=target?null:event=>{event.preventDefault();navigateUI('library');};
+  HazzardStudyHome.refresh(manifestChapters,homeReadingKeys);
   refreshHomeStatus();
 }
-const homeStores=new Set([PLACE_KEY,READING_KEY,HazzardMCQ.KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.SETTINGS_KEY,HazzardReview.KEY]);
+const homeStores=new Set([PLACE_KEY,BOOKMARK_KEY,READING_KEY,HazzardMCQ.KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.SETTINGS_KEY,HazzardReview.KEY]);
 addEventListener('storage',event=>{if(event.key===null||homeStores.has(event.key))refreshResume()});
 for(const name of ['hazzard-review-change','hazzard-bad-change','hazzard-practice-settings-change','focus'])addEventListener(name,refreshResume);
 $('#homeRetry').onclick=refreshResume;

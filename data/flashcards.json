@@ -3404,5 +3404,660 @@
       "mcq-5687d58f50abb0a5affaee3d"
     ],
     "readChapter": "80"
+  },
+  {
+    "id": "ch62-plaque-perforator",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "How does a carotid plaque cause a distal cortical infarct, and what usually causes a small deep lacune?",
+    "back": "Thrombus on diseased plaque can break away and occlude a downstream branch. Intrinsic perforator disease usually causes a lacune, although an embolus can reach a perforator. Hazzard 8e, pp. 957–958 and 960.",
+    "page": 957,
+    "anchor": "ch62-artery-embolism",
+    "questionIds": [
+      "mcq-fd265aa00a76f0d393b73d2a"
+    ]
+  },
+  {
+    "id": "ch62-mca-hemisphere",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "A right-handed patient has left weakness and ignores the left half of a meal. How would a comparable dominant-hemisphere MCA infarct differ?",
+    "back": "Right MCA injury can impair attention to the left. A dominant left MCA infarct can impair language and cause right weakness. A visual field defect may occur with injury on either side. Hazzard 8e, p. 958.",
+    "page": 958,
+    "anchor": "ch62-mca-attention",
+    "questionIds": [
+      "mcq-0ed5d2ae800de06734a63b64",
+      "mcq-76c3fe4d0034388d48825975",
+      "mcq-2bf17228f99344b4887b156b"
+    ]
+  },
+  {
+    "id": "ch62-aca-medial-frontal",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "Which artery links leg-predominant weakness, reduced initiative and new urinary incontinence?",
+    "back": "The ACA supplies medial frontal cortex, including the leg motor area and circuits involved in initiation and continence. Bilateral injury can weaken both legs. Hazzard 8e, p. 958.",
+    "page": 958,
+    "anchor": "exam-p958-mcq-87d97d9a7a60602c31a10797",
+    "questionIds": [
+      "mcq-b46cd8ffb128f21dac24b95e",
+      "mcq-87d97d9a7a60602c31a10797"
+    ]
+  },
+  {
+    "id": "ch62-tia-abcd2",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "After TIA, which ABCD² score is higher: a 62-year-old with diabetes, BP 148/90 and an hour of unilateral weakness, or a 90-year-old with BP 130/70 and two hours of weakness?",
+    "back": "The first patient scores 7 and the second 5. The longer duration beyond one hour adds no further points. June 2022 Q91 credits both choices, but their calculated scores differ. Hazzard 8e, p. 957, and Johnston et al., Lancet 2007.",
+    "page": 957,
+    "anchor": "ch62-abcd2",
+    "questionIds": [
+      "mcq-c659381a9b8442881efcb5a1"
+    ]
+  },
+  {
+    "id": "ch62-nonfluent-speech",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "A stroke survivor follows commands, produces only a few effortful words and cannot repeat a sentence. Which aphasia is most likely?",
+    "back": "Broca-type nonfluent aphasia. Poor repetition with fluent output and good comprehension would favor conduction aphasia. Stroke Rehabilitation Clinician Handbook 2020, pp. 11–14. Related MCA territory in Hazzard 8e, p. 958.",
+    "page": 958,
+    "anchor": "ch62-aphasia",
+    "questionIds": [
+      "mcq-1c216c76c7ca78a420618afe",
+      "mcq-f8e2b002ef51e8ed9620074a"
+    ]
+  },
+  {
+    "id": "ch62-crossed-pons",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "One eye cannot abduct and the opposite limbs are weak. Where can a single infarct explain both findings?",
+    "back": "In the lower pons, a sixth-nerve fascicle and descending corticospinal fibers can be injured together. Stroke Rehabilitation Clinician Handbook 2020, p. 17, Raymond syndrome. Related brainstem localization in Hazzard 8e, p. 959.",
+    "page": 959,
+    "anchor": "ch62-crossed",
+    "questionIds": [
+      "mcq-04094d640ab7256b38fe0c81"
+    ]
+  },
+  {
+    "id": "ch62-dominant-praxis",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "A patient understands an instruction and has sufficient strength but cannot pantomime using a key after a dominant-hemisphere lesion. What is impaired?",
+    "back": "Praxis. The learned action is disorganized despite sufficient basic motor and language function. May 2024 atlas, Figure 5, and Stroke Rehabilitation Clinician Handbook 2020, pp. 9–11 and 15. Related hemispheric localization in Hazzard 8e, p. 958.",
+    "page": 958,
+    "anchor": "ch62-praxis",
+    "questionIds": [
+      "mcq-ce5e6c2fec8b48bc7e0444b6"
+    ]
+  },
+  {
+    "id": "ch62-aps-platelets",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "Recurrent unexplained arterial strokes coexist with a persistent platelet count near 100 × 10⁹/L. Which acquired prothrombotic disorder deserves consideration?",
+    "back": "Antiphospholipid syndrome can cause both arterial thrombosis and thrombocytopenia. A low count prompts investigation; it cannot diagnose the syndrome alone. Hazzard 8e, p. 964 and Table 96-3, p. 1513.",
+    "page": 964,
+    "anchor": "exam-p964-mcq-08ad58cb588514eb5cb52bcb",
+    "questionIds": [
+      "mcq-08ad58cb588514eb5cb52bcb"
+    ]
+  },
+  {
+    "id": "ch62-lobar-amyloid",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "Which mechanism should repeated spontaneous lobar hemorrhages in an older adult suggest?",
+    "back": "CAA weakens small cortical and leptomeningeal vessels. Multiple lobar microbleeds support it. Deep putaminal, thalamic, pontine or cerebellar hemorrhage more often reflects hypertensive arteriopathy. Hazzard 8e, pp. 975–976.",
+    "page": 976,
+    "anchor": "ch62-caa",
+    "questionIds": [
+      "mcq-e6b1e9f6cadbead54a532673"
+    ]
+  },
+  {
+    "id": "ch62-acute-seizures",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "How do acute stroke and Alzheimer disease enter the differential for a first seizure in an older adult?",
+    "back": "Stroke may provoke an immediate seizure or lead to later epilepsy. Hemorrhagic stroke overall had more first-day seizures than ischemic stroke in the cited cohort. Neurodegeneration independently predisposes to seizures. Harrison 21e, p. 3310, and Szaflarski et al., Epilepsia 2008. Related ICH care in Hazzard 8e, p. 976.",
+    "page": 976,
+    "anchor": "ch62-seizure",
+    "questionIds": [
+      "mcq-e093e5a4b6fbeef11a52e246"
+    ]
+  },
+  {
+    "id": "ch62-delayed-hydrocephalus",
+    "chapter": "62",
+    "readChapter": "62",
+    "front": "Two weeks after SAH, gait, bladder control and cognition deteriorate. What complication links the findings?",
+    "back": "Delayed communicating hydrocephalus. Compare ventricular size with earlier imaging. In an appropriate communicating pattern, temporary drainage can help assess response before permanent diversion. Hazzard 8e, p. 978. NICE NG228, recommendations 1.3.3–1.3.5.",
+    "page": 978,
+    "anchor": "exam-p978-mcq-452a5972839367e2dbab3541",
+    "questionIds": [
+      "mcq-452a5972839367e2dbab3541"
+    ]
+  },
+  {
+    "id": "ch7-capacity-pacemaker",
+    "chapter": "7",
+    "front": "חולה נוטה למות מינה מיופה כוח. מי מעריך אם הוא יכול להחליט בעצמו על קוצב?",
+    "back": "הרופא האחראי. קיימת חזקת כשרות, והוצאת החולה ממנה מחייבת החלטה מנומקת ומתועדת לאחר התייעצות עם המטפלים והרופאים הרלוונטיים ובמידת האפשר עם רופאו האישי. חוק החולה הנוטה למות, סעיפים 6–7, ס״ח 2039, עמ׳ 60.",
+    "page": 60,
+    "anchor": "ch7-law-capacity",
+    "questionIds": [
+      "mcq-9356163afe4cd0cf36ad01a6",
+      "mcq-4f69e7c2f0d4c3517a8f1e6b"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיפים 6–7, עמ׳ 60"
+  },
+  {
+    "id": "ch7-acute-illness",
+    "chapter": "7",
+    "front": "אחרי ניקוז דימום סובדורלי החולה עדיין בדליריום ומוזן בזונדה. האם הנחיה לסוף החיים חלה?",
+    "back": "רק בהתקיים תנאי החוק. נדרשת קביעת רופא אחראי בדבר בעיה חשוכת מרפא ותוחלת חיים עד שישה חודשים גם בטיפול, וכן אובדן כשרות להפעלת ההנחיה. אירוע חריף לבדו אינו עומד בתנאים. סעיפים 8(א), 30–31, ס״ח 2039, עמ׳ 60, 65.",
+    "page": 60,
+    "anchor": "ch7-law-threshold",
+    "questionIds": [
+      "mcq-ece2bd90f12d03c630b999f9",
+      "mcq-34851c7f12c60ea021445215"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיפים 8(א), 30–31"
+  },
+  {
+    "id": "ch7-current-wishes",
+    "chapter": "7",
+    "front": "מטופלת מבינה מבקשת לשקול דיאליזה אף שבהנחיות מקדימות סירבה לפעולות פולשניות. מה קובע?",
+    "back": "רצונה העכשווי לאחר שיחה על החלופות. ההנחיות נועדו למצב עתידי שבו לא תוכל להחליט. חוק החולה הנוטה למות, סעיפים 5(א), 15, 31, ס״ח 2039, עמ׳ 60, 62, 65.",
+    "page": 62,
+    "anchor": "ch7-law-present",
+    "questionIds": [
+      "mcq-558754bdd0a7904a5c8cdd50"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיפים 5(א), 15, 31"
+  },
+  {
+    "id": "ch7-capable-refusal",
+    "chapter": "7",
+    "front": "חולה נוטה למות בעל כשרות מסרב לכימותרפיה, לאוכל ולתרופות הקבועות. מה חייב הצוות לעשות?",
+    "back": "לכבד את רצונו, ובמקביל לעשות מאמץ סביר לשכנעו לקבל חמצן, מזון ונוזלים גם באמצעים מלאכותיים, טיפול שגרתי במחלות רקע וטיפול מקל. מאמץ שכנוע אינו היתר לכפייה. סעיף 15, ס״ח 2039, עמ׳ 62.",
+    "page": 62,
+    "anchor": "ch7-law-refusal",
+    "questionIds": [
+      "mcq-8ceb825522dee040d6bc0a79"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיף 15, עמ׳ 62"
+  },
+  {
+    "id": "ch7-dialysis-cycle",
+    "chapter": "7",
+    "front": "חולה כשיר עם מחלה סופנית מבקש לוותר על מפגש הדיאליזה הבא. מדוע משנה אופי הטיפול?",
+    "back": "לדיאליזה לסירוגין יש מחזורים נפרדים. אפשר להימנע מחידוש המחזור הבא בתנאי החוק ולתכנן טיפול בתסמינים. הפסקת טיפול רציף העלולה לגרום למוות כפופה לכלל אחר. סעיפים 3, 15, 21, ס״ח 2039, עמ׳ 59, 62–63.",
+    "page": 63,
+    "anchor": "ch7-law-cycle",
+    "questionIds": [
+      "mcq-5ad0bdc999886ea23dd577f8"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיף 21, עמ׳ 63"
+  },
+  {
+    "id": "ch7-final-stage-fluids",
+    "chapter": "7",
+    "front": "חולה בשלב סופי ללא כשרות עונה לתנאי סעיף 17. מתי ניתן להימנע גם מנוזלים?",
+    "back": "רק אם הרופא האחראי קובע שהנוזלים גורמים סבל או נזק. אחרת נותנים נוזלים גם באמצעים מלאכותיים. נדרשים גם סבל משמעותי וקביעה כדין שהחולה אינו רוצה בהארכת חייו. סעיף 17, ס״ח 2039, עמ׳ 62.",
+    "page": 62,
+    "anchor": "ch7-law-fluids",
+    "questionIds": [
+      "mcq-7fbd59a824fc038d8fdb2a37"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיף 17, עמ׳ 62"
+  },
+  {
+    "id": "ch7-close-person",
+    "chapter": "7",
+    "front": "אילו שני תנאים מצטברים נבדקים בהגדרת ״אדם קרוב״?",
+    "back": "קרבה משפחתית או רגשית ומסירות, וגם היכרות טובה מכוח קשר רצוף ומתמשך לפני הטיפול או במהלכו. הרופא האחראי בוחן זאת. חוק החולה הנוטה למות, סעיף 3, ס״ח 2039, עמ׳ 58.",
+    "page": 58,
+    "anchor": "ch7-law-close",
+    "questionIds": [
+      "mcq-a5af01dd00d786e51c85ce5b"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיף 3, עמ׳ 58"
+  },
+  {
+    "id": "ch7-expired-proxy",
+    "chapter": "7",
+    "front": "החולה מינתה את שכנתה בייפוי כוח לסוף החיים שפג. מה מעמד השכנה כעת?",
+    "back": "המינוי אינו מחייב עוד. הרופא האחראי חייב לעיין בו ורשאי להתחשב בו בבירור הרצון. אם השכנה עונה להגדרת אדם קרוב, היא יכולה למסור הצהרה מפורשת במסגרת החוק. סעיפים 3, 5(ג), 39(ב), ס״ח 2039, עמ׳ 58, 60, 67.",
+    "page": 67,
+    "anchor": "ch7-law-close",
+    "questionIds": [
+      "mcq-09467962fb342d44fd6b55fc"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיפים 5(ג), 39(ב)"
+  },
+  {
+    "id": "ch7-signing-directives",
+    "chapter": "7",
+    "front": "מי יכול להסביר לאישה כשירה לפני ניתוח מתוכנן כיצד לערוך הנחיות מקדימות?",
+    "back": "אם לא הוגדרה כחולה נוטה למות, רופא או אחות מוסמכת. אם כבר הוגדרה כך, המידע הדרוש יינתן בידי רופא מומחה. החתימה בפני שני עדים מתאימים. סעיפים 32–33, ס״ח 2039, עמ׳ 65.",
+    "page": 65,
+    "anchor": "ch7-law-planning",
+    "questionIds": [
+      "mcq-347194b95c71c6d4fcbb34f4",
+      "mcq-1491a19270cfe5e385a4c663"
+    ],
+    "sourceLabel": "חוק החולה הנוטה למות · סעיפים 32–33, עמ׳ 65"
+  },
+  {
+    "id": "ch7-medical-only-document",
+    "chapter": "7",
+    "front": "מי יכול לערוך ייפוי כוח מתמשך לעניינים רפואיים בלבד, בשונה ממסמך מקיף?",
+    "back": "גם עובד סוציאלי, רופא, אח מוסמך או פסיכולוג וכן עורך דין. ייפוי כוח מתמשך מקיף נערך בפני עורך דין שעבר הכשרה לכך. מכתב משרד הבריאות והאפוטרופוס הכללי, 07.08.2023, עמ׳ 1.",
+    "page": 1,
+    "anchor": "ch7-law-enduring",
+    "questionIds": [
+      "mcq-25977eff884454c1df2ec0a8"
+    ],
+    "sourceLabel": "מכתב משרד הבריאות והאפוטרופוס הכללי · עמ׳ 1"
+  },
+  {
+    "id": "ch7-decision-specific",
+    "chapter": "7",
+    "front": "מה מבדיל בין דליריום לפני פעולה דחופה ובין כבד שמיעה ששכח את מכשירי השמיעה?",
+    "back": "בודקים אם לאחר התאמות המטופל מסוגל להבין את העניין הרפואי ולהחליט בו. אם אינו מסוגל, בודקים את תנאי ייפוי הכוח. קושי לשמוע, גיל או אשפוז לבדם אינם עילה להפעילו. מכתב משרד הבריאות והאפוטרופוס הכללי, 07.08.2023, עמ׳ 1.",
+    "page": 1,
+    "anchor": "ch7-law-enduring",
+    "questionIds": [
+      "mcq-46770db589a259ce0b35d4b0",
+      "mcq-30ca809d5327e7a3f40fa96f",
+      "mcq-34851c7f12c60ea021445215"
+    ],
+    "sourceLabel": "מכתב משרד הבריאות והאפוטרופוס הכללי · עמ׳ 1"
+  },
+  {
+    "id": "ch7-urgent-activation",
+    "chapter": "7",
+    "front": "לפני ניקוז דחוף או כריתה נדרש מיופה כוח רפואי. מתי אפשר להתקדם לפני האישור המנהלי?",
+    "back": "לפי ההנחיה שנבחנה, בביה״ח, במקרה חריג שבו אין אפשרות להמתין. בודקים יכולת, דחיפות ומסמך מתאים, מקבלים את הסכמת המיופה ואת התחייבותו לפעול בהקדם לאישור ומתעדים. במינוי המחייב פעולה משותפת נדרשת הסכמת כולם. מכתב 07.08.2023, עמ׳ 1–2.",
+    "page": 2,
+    "anchor": "ch7-law-urgent",
+    "questionIds": [
+      "mcq-2420c29631c2ef60e0dcfac5",
+      "mcq-e72e8a76b8db84bd613defc5"
+    ],
+    "sourceLabel": "מכתב משרד הבריאות והאפוטרופוס הכללי · עמ׳ 1–2"
+  },
+  {
+    "id": "ch27-cardiac-deaths",
+    "chapter": "27",
+    "front": "In an older surgical population, what does the figure 25–30% describe?",
+    "back": "It is the estimated share of perioperative deaths attributed to cardiac causes. It is not the mortality risk of every patient. Look for occult ischemic disease and heart failure. Hazzard 8e, p. 375.",
+    "page": 375,
+    "anchor": "ch27-cardiac-mortality",
+    "questionIds": [
+      "mcq-c69b8e39936a3e480b518b24"
+    ]
+  },
+  {
+    "id": "ch27-risk-window",
+    "chapter": "27",
+    "front": "When is postoperative risk highest, and by when have about half of adverse events occurred?",
+    "back": "Risk peaks immediately after surgery. About half of events occur within three weeks, which makes the early recovery plan as important as surveillance in the recovery room. Hazzard 8e, p. 376.",
+    "page": 376,
+    "anchor": "ch27-risk-window",
+    "questionIds": [
+      "mcq-c69b8e39936a3e480b518b24"
+    ]
+  },
+  {
+    "id": "ch27-rcri-creatinine",
+    "chapter": "27",
+    "front": "An 83-year-old with creatinine 2.2 mg/dL, prediabetes and isolated RBBB is awaiting surgery. Which listed feature earns an original RCRI point?",
+    "back": "Creatinine above 2.0 mg/dL. Prediabetes and isolated RBBB do not score. Ischemic heart disease, if present, counts separately. Lee et al., Circulation 1999, p. 1043.",
+    "page": 1043,
+    "anchor": "ch27-rcri",
+    "questionIds": [
+      "mcq-77f06f1660813e299868c240"
+    ],
+    "sourceLabel": "Teaching passage · Lee et al., Circulation 1999, p. 1043"
+  },
+  {
+    "id": "ch27-stress-modality",
+    "chapter": "27",
+    "front": "Hip arthritis prevents adequate exercise. If a preoperative ischemia test will change management, which modality can assess the patient?",
+    "back": "Pharmacologic stress imaging, such as dobutamine echocardiography. First establish that patient and procedural risk justify testing. 2024 AHA/ACC perioperative guideline, pp. e367–e368.",
+    "page": 367,
+    "anchor": "ch27-stress-imaging",
+    "questionIds": [
+      "mcq-7b6cc300fca7b2feb736490d"
+    ],
+    "sourceLabel": "Teaching passage · AHA/ACC 2024, §4.3, p. e367"
+  },
+  {
+    "id": "ch27-stent-clopidogrel",
+    "chapter": "27",
+    "front": "Two years after coronary stenting, what determines whether to interrupt clopidogrel for elective knee replacement?",
+    "back": "Weigh operative bleeding against coronary thrombosis. If interruption is chosen, allow five to seven days for platelet recovery. Selected patients can continue treatment. Enoxaparin cannot replace the antiplatelet effect. 2024 AHA/ACC perioperative guideline, §7.5, Table 12.",
+    "page": 393,
+    "anchor": "ch27-clopidogrel",
+    "questionIds": [
+      "mcq-0bc3f87851eec6c1dbe14f6a"
+    ],
+    "sourceLabel": "Teaching passage · AHA/ACC 2024, §7.5, Table 12"
+  },
+  {
+    "id": "ch27-stroke-mace",
+    "chapter": "27",
+    "front": "Which past event increases perioperative cardiac risk even when systolic function is preserved?",
+    "back": "A previous stroke predicts major adverse cardiac events. Preserved EF also does not eliminate the excess risk of clinical heart failure. Hazzard 8e, p. 375.",
+    "page": 375,
+    "anchor": "exam-p375-mcq-368d1c6ff706583ac2c3f156",
+    "questionIds": [
+      "mcq-368d1c6ff706583ac2c3f156"
+    ]
+  },
+  {
+    "id": "ch27-skin-healing",
+    "chapter": "27",
+    "front": "Which changes in aging skin explain slower surgical wound healing?",
+    "back": "Re-epithelialization slows and the dermis has fewer blood vessels. Both impair repair. Hazzard 8e, p. 375, Table 27-3.",
+    "page": 375,
+    "anchor": "exam-p375-mcq-db66212cedd8f17c624ba1ed",
+    "questionIds": [
+      "mcq-db66212cedd8f17c624ba1ed"
+    ]
+  },
+  {
+    "id": "ch27-vq-mismatch",
+    "chapter": "27",
+    "front": "What change in pulmonary gas exchange raises the risk of respiratory failure around surgery?",
+    "back": "Greater ventilation–perfusion mismatch leaves less reserve when sedation reduces ventilation. Chest-wall stiffness increases and elastic recoil decreases. Hazzard 8e, p. 375, Table 27-3.",
+    "page": 375,
+    "anchor": "exam-p375-mcq-18b0ad7f9e472a626caf7cbe",
+    "questionIds": [
+      "mcq-18b0ad7f9e472a626caf7cbe"
+    ]
+  },
+  {
+    "id": "ch27-doac-bridge",
+    "chapter": "27",
+    "front": "A patient taking rivaroxaban is scheduled for surgery. What determines the interruption, and is an enoxaparin bridge needed?",
+    "back": "No routine bridge is needed for this short-acting drug. Thrombotic risk, renal function and operative bleeding risk guide the interruption. Hazzard 8e, p. 380.",
+    "page": 380,
+    "anchor": "exam-p380-mcq-14024c36301bd94117cfdcb6",
+    "questionIds": [
+      "mcq-14024c36301bd94117cfdcb6"
+    ]
+  },
+  {
+    "id": "ch27-reflux-aspiration",
+    "chapter": "27",
+    "front": "Which of a hiatal hernia, orthopedic surgery, pain and atelectasis most directly increases aspiration risk?",
+    "back": "A hiatal hernia favors reflux into the esophagus. Reduced lower-esophageal sphincter tone, delayed gastric emptying and swallowing impairment can compound aspiration risk. Hazzard 8e, p. 376.",
+    "page": 376,
+    "anchor": "exam-p376-mcq-f065ded45c3214b7bc02b061",
+    "questionIds": [
+      "mcq-f065ded45c3214b7bc02b061"
+    ]
+  },
+  {
+    "id": "ch27-frozen-shoulder",
+    "chapter": "27",
+    "front": "After surgical recovery, a patient develops night pain and loses both active and passive shoulder movement. Imaging is unrevealing. Which diagnosis fits?",
+    "back": "Adhesive capsulitis. A stiff capsule limits movement even when the examiner moves the arm. Radiography, ultrasound or MRI can help exclude a different shoulder disorder. Harrison 22e, ch. 387, p. 2974.",
+    "page": 2974,
+    "anchor": "ch27-harrison-shoulder",
+    "questionIds": [
+      "mcq-10f0de0773043fed8129feaf"
+    ],
+    "sourceLabel": "Teaching passage · Harrison 22e, ch. 387, p. 2974"
+  },
+  {
+    "id": "ch17-supervision",
+    "chapter": "17",
+    "front": "אישה עם דמנציה הולכת בעצמה אך אינה מוצאת את דרכה הביתה ומשאירה סיר על האש. מה מכוון לסיווג תשושת נפש?",
+    "back": "ההליכה נשמרה, אך הפגיעה בשיפוט ובהתמצאות גורמת לתלות בטיפול העצמי ולצורך בהשגחה לאורך היממה. בודקים תפקוד וסכנה ממשית מעבר לציון MMSE. נוהל משרד הבריאות 0.2.1, הגדרה 6, עמ׳ 2.",
+    "page": 2,
+    "anchor": "ch17-il-supervision",
+    "questionIds": [
+      "mcq-08f6970a2d4d053f15197beb",
+      "mcq-e67fa2aa6374604736fbf3dd"
+    ],
+    "sourceLabel": "נוהל משרד הבריאות 0.2.1, הגדרה 6, עמ׳ 2"
+  },
+  {
+    "id": "ch17-code",
+    "chapter": "17",
+    "front": "גריאטר יועץ קבע שמטופל סיעודי ואינו יכול לחזור הביתה. מי מוסמך לאשר זכאות רפואית לקוד?",
+    "back": "הגריאטר המחוזי מטעם משרד הבריאות. לבית החולים סמכות להעריך ולתעד את הסיווג, ובהמשך לשכת הבריאות מטפלת במימון ובהשתתפות המשפחה. חוזר מינהל רפואה 26/2010, סעיף 3, עמ׳ 2.",
+    "page": 2,
+    "anchor": "ch17-il-authority",
+    "questionIds": [
+      "mcq-64017e896e68192670a11fe2",
+      "mcq-914ae4da60a23fa3609f9656",
+      "mcq-971cda5e21170c33b0d0b53a"
+    ],
+    "sourceLabel": "חוזר מינהל רפואה 26/2010, סעיף 3, עמ׳ 2"
+  },
+  {
+    "id": "ch17-ventilation",
+    "chapter": "17",
+    "front": "מי מוסמך להגדיר מונשם כרוני בבית חולים כללי, ומי מוסמך לקבוע סטטוס שיקומי?",
+    "back": "להנשמה ממושכת נדרשת מומחיות בטיפול נמרץ נשימתי או במחלות ריאה. סיווג שיקומי יכול לקבוע מומחה בגריאטריה או ברפואה שיקומית. חוזר מינהל רפואה 26/2010, טבלת הסמכויות, עמ׳ 2.",
+    "page": 2,
+    "anchor": "ch17-il-authority",
+    "questionIds": [
+      "mcq-ddef9cf1f78256b78075c984",
+      "mcq-971cda5e21170c33b0d0b53a"
+    ],
+    "sourceLabel": "חוזר מינהל רפואה 26/2010, טבלת הסמכויות, עמ׳ 2"
+  },
+  {
+    "id": "ch17-payment",
+    "chapter": "17",
+    "front": "בשחרור של מטופל סיעודי לקוד, מה נבדק אחרי הסיווג הרפואי, ומי מממן שיקום באשפוז?",
+    "back": "לאחר הסיווג נבדקת היכולת הכלכלית של המטופל ומשפחתו, לרבות הכנסות הילדים הבגירים. שיקום רפואי באשפוז ממומן בידי קופת החולים ללא השתתפות עצמית. משרד הבריאות, אשפוז במוסדות סיעודיים, עמ׳ 2–3 וטבלת המסגרות.",
+    "page": 2,
+    "anchor": "ch17-il-financing",
+    "questionIds": [
+      "mcq-9af80dd50d3021366172470f"
+    ],
+    "sourceLabel": "משרד הבריאות, אשפוז במוסדות סיעודיים, עמ׳ 2–3 וטבלת המסגרות"
+  },
+  {
+    "id": "ch17-service-use",
+    "chapter": "17",
+    "front": "איזה שירות קיבל ערך של כ־30% בפרסום ״בני 65+ בישראל 2018״?",
+    "back": "רישום במחלקות לשירותים חברתיים, 30.2%. זכאות לגמלת סיעוד הופיעה בשורה אחרת, 16.2% בקבוצת הגיל הזכאית. אלה נתונים היסטוריים. ברוקדייל, בני 65+ בישראל 2018, עמ׳ 13.",
+    "page": 13,
+    "anchor": "ch17-il-community",
+    "questionIds": [
+      "mcq-265a3f4cda33cedc748cb1e7"
+    ],
+    "sourceLabel": "ברוקדייל, בני 65+ בישראל 2018, עמ׳ 13"
+  },
+  {
+    "id": "ch17-fund-services",
+    "chapter": "17",
+    "front": "דייר במחלקה סיעודית זקוק למכשיר שמיעה, ודייר במחלקת תשושי נפש לציוד רפואי ולבדיקת אורולוג. למי מפנים?",
+    "back": "לקופת החולים לפי הזכאות בסל. הקופה ממשיכה להיות אחראית לתרופות, לייעוץ מומחים ולציוד רפואי כלול. המוסד מפנה ומתאם. נוהל 0.4.4, סעיפים 4.2 ו־5, עמ׳ 1–2.",
+    "page": 1,
+    "anchor": "ch17-il-benefits",
+    "questionIds": [
+      "mcq-f5025ceee46f239e675bf3b4",
+      "mcq-4b44b39c5b0c8af6453401f9"
+    ],
+    "sourceLabel": "נוהל 0.4.4, סעיפים 4.2 ו־5, עמ׳ 1–2"
+  },
+  {
+    "id": "ch17-pressure",
+    "chapter": "17",
+    "front": "מטופל סיעודי הועבר לסיעוד מורכב בשל פצע לחץ בדרגה 3. כעת הפצע שטחי והוא חזר לתפקודו הקודם. מה קובע את המסגרת?",
+    "back": "מתעדים פצע בדרגה 3 בתהליך ריפוי, מעריכים את עומס הטיפול ובודקים אם המחלקה הקולטת יכולה לספק אותו. פצע לחץ בדרגה 3–4 הוא התוויה אפשרית לסיעוד מורכב. אם אין עוד עומס מתאים, אפשר לחזור למחלקה סיעודית. צנתר שתן לבדו אינו משנה זאת. חוזר מינהל רפואה 4/2010, סעיפים 4–5, עמ׳ 2–3.",
+    "page": 2,
+    "anchor": "ch17-il-pressure",
+    "questionIds": [
+      "mcq-693f1143542d4d4e9cf87a06",
+      "mcq-ab246d8a80dcfd2a5a047994"
+    ],
+    "sourceLabel": "חוזר מינהל רפואה 4/2010, סעיפים 4–5, עמ׳ 2–3"
+  },
+  {
+    "id": "ch17-airway",
+    "chapter": "17",
+    "front": "אדם סיעודי נגמל מהנשמה אך זקוק לטיפול קבוע בטרכאוסטום, ללא שאיבות. איזו מסגרת מתאימה?",
+    "back": "מחלקת סיעוד מורכב. טיפול קבוע בטרכאוסטום הוא התוויה נפרדת מתדירות שאיבות. מי שעדיין תלוי במכונת הנשמה ממושכת זקוק למסגרת ייעודית להנשמה. חוזר מינהל רפואה 4/2010, סעיפים 4.3.4 ו־5, עמ׳ 2–3.",
+    "page": 2,
+    "anchor": "ch17-il-airway",
+    "questionIds": [
+      "mcq-a02930b506592f438ff8cb02"
+    ],
+    "sourceLabel": "חוזר מינהל רפואה 4/2010, סעיפים 4.3.4 ו־5, עמ׳ 2–3"
+  },
+  {
+    "id": "ch17-mental",
+    "chapter": "17",
+    "front": "אדם עם סכיזופרניה ותיקה ועצמאות ב־BADL זקוק לדיור עם תמיכה כאשר הוריו מזדקנים. באיזה מסלול בודקים אפשרויות?",
+    "back": "שיקום בבריאות הנפש, לרבות דיור ותעסוקה לפי זכאות והחלטת ועדת סל שיקום. עזרה ב־IADL על רקע פסיכיאטרי אינה כשלעצמה תשישות נפש. משרד הבריאות, טבלת מטופלים שאינם מתאימים לאשפוז סיעודי, עמ׳ 1, וסל שיקום.",
+    "page": 1,
+    "anchor": "ch17-il-mental",
+    "questionIds": [
+      "mcq-3743629a1b555477421d2cd9"
+    ],
+    "sourceLabel": "משרד הבריאות, טבלת מטופלים שאינם מתאימים לאשפוז סיעודי, עמ׳ 1, וסל שיקום"
+  },
+  {
+    "id": "ch17-partial-help",
+    "chapter": "17",
+    "front": "אדם מתהלך ועצמאי במעברים זקוק לעזרה קלה ברחצה, ובנוסף לדיאליזה קבועה או לטיפול בכיבים ורידיים. מה קודם בהחלטה על השמה?",
+    "back": "קובעים את רמת התלות הבסיסית. אם הוא תשוש בלבד, קיום דיאליזה או פצעים אינו מספיק להגדרת סיעוד מורכב. בהשמה של תשוש ניתן לפנות לרווחה ברשות המקומית. נוהל 0.2.1, הגדרות 4–7, עמ׳ 2–3, וטבלת מסגרות האשפוז.",
+    "page": 2,
+    "anchor": "ch17-il-function",
+    "questionIds": [
+      "mcq-f236daa600ddb2c31e2d699f",
+      "mcq-ff5dff1131122d86e4378271"
+    ],
+    "sourceLabel": "נוהל 0.2.1, הגדרות 4–7, עמ׳ 2–3, וטבלת מסגרות האשפוז"
+  },
+  {
+    "id": "ch42-fried-components",
+    "chapter": "42",
+    "front": "An older patient reports forgetfulness, exhaustion and falls. Which belong to Fried’s phenotype, and which other four features should you seek?",
+    "back": "Exhaustion counts. Ask about unintentional weight loss and habitual activity, then measure grip and gait. Age, memory complaints, fear of falling and the fall count are separate clinical findings. Hazzard 8e, p. 619.",
+    "page": 619,
+    "anchor": "exam-p619-mcq-441ff6c6aea9f3c3b5d0348a",
+    "questionIds": [
+      "mcq-29b5d2cb0031081c25ada235",
+      "mcq-6df632c6cbeac8fa6876ac5f",
+      "mcq-04ea2ac93db30b1025979f93",
+      "mcq-7269ecbc837c5195db734120",
+      "mcq-441ff6c6aea9f3c3b5d0348a"
+    ]
+  },
+  {
+    "id": "ch42-fried-count",
+    "chapter": "42",
+    "front": "A woman has weak grip, slow gait, exhaustion and low activity. Her weight is stable and she has one chronic illness. How is she classified?",
+    "back": "Frail. Any three of the five qualifying components suffice. Weight loss and multiple diagnoses are unnecessary. The same threshold applies to slowness, qualifying weight loss and exhaustion together. Hazzard 8e, p. 619.",
+    "page": 619,
+    "anchor": "exam-p619-mcq-e1593b4c91f0875d66348128",
+    "questionIds": [
+      "mcq-e1593b4c91f0875d66348128",
+      "mcq-0e6d84b15f6cc59dec2289b4"
+    ]
+  },
+  {
+    "id": "ch42-grip-and-vignettes",
+    "chapter": "42",
+    "front": "A 94-year-old has fatigue, slow gait and two falls. Which office measurement addresses Fried weakness? Does trouble carrying a bag meet that measurement?",
+    "back": "Measure grip strength against sex- and BMI-specific thresholds. Carrying difficulty is a clue, and falls do not count. The September 2024 appeal accepted two histories even though the scenarios omitted formal measurements. Hazzard 8e, p. 620.",
+    "page": 620,
+    "anchor": "exam-p620-mcq-5243aa556e0d2320e60b280e",
+    "questionIds": [
+      "mcq-7444d692ff82667f2d542ca2",
+      "mcq-5243aa556e0d2320e60b280e"
+    ]
+  },
+  {
+    "id": "ch42-clinical-frailty-scale",
+    "chapter": "42",
+    "front": "How does help with bathing and shoes plus all outside errands affect the CFS grade? What else must you ask a wheelchair user?",
+    "back": "Help with both basic and instrumental activities fits CFS 6. For CFS 7 assess whether the person depends completely on others for personal care. Wheelchair use alone gives insufficient information. Hazzard 8e, p. 621.",
+    "page": 621,
+    "anchor": "exam-p621-mcq-9f480bcc831187d54db7aa64",
+    "questionIds": [
+      "mcq-2f9b0a4a271f750ea9bfb769",
+      "mcq-9f480bcc831187d54db7aa64"
+    ]
+  },
+  {
+    "id": "ch42-index-before-tavi",
+    "chapter": "42",
+    "front": "Which frailty measure can you derive after a comprehensive geriatric assessment before TAVI? Which screen can be answered by telephone?",
+    "back": "The Frailty Index divides documented deficits present by those considered. The FRAIL questionnaire can be answered by interview. The original Fried phenotype requires grip strength and timed walking. Table 42-3 begins on p. 621 and continues on p. 622. Hazzard 8e, p. 622.",
+    "page": 622,
+    "anchor": "exam-p622-mcq-427dd5d1617e80e5e1500067",
+    "questionIds": [
+      "mcq-427dd5d1617e80e5e1500067"
+    ]
+  },
+  {
+    "id": "ch42-cognitive-frailty",
+    "chapter": "42",
+    "front": "An older patient has physical frailty and a CDR of 0.5. Which exclusion matters before diagnosing cognitive frailty?",
+    "back": "Exclude Alzheimer disease and other dementias. Mild cognitive impairment together with physical frailty fits the operational definition. Depression or dependence alone does not. Hazzard 8e, p. 627.",
+    "page": 627,
+    "anchor": "exam-p627-mcq-d50163430af0b0650aca37fe",
+    "questionIds": [
+      "mcq-d50163430af0b0650aca37fe"
+    ]
+  },
+  {
+    "id": "ch42-resting-energy",
+    "chapter": "42",
+    "front": "Does a high resting metabolic rate early in chronic disease contradict a falling rate in established frailty?",
+    "back": "No. Early compensation and repair can raise resting expenditure. When energy production limits resilience, resting metabolic rate falls. Figure 42-2 links muscle loss and lower resting expenditure, with the phase distinction explained on p. 626. Hazzard 8e, p. 619.",
+    "page": 619,
+    "anchor": "exam-p619-mcq-c248e85aeb9a0ac89190125f",
+    "questionIds": [
+      "mcq-c248e85aeb9a0ac89190125f"
+    ]
+  },
+  {
+    "id": "ch42-reserve-and-disease",
+    "chapter": "42",
+    "front": "Two older patients have the same chronic diagnoses and disease stage. What does assessing their function add?",
+    "back": "Usual function and resilience add information about risk of disability, health care use and death. These observations can change counseling about treatment and the support needed during recovery. Hazzard 8e, p. 616.",
+    "page": 616,
+    "anchor": "exam-p616-mcq-bbf366bf4045abbb79de704d",
+    "questionIds": [
+      "mcq-bbf366bf4045abbb79de704d"
+    ]
+  },
+  {
+    "id": "ch42-surgical-vulnerability",
+    "chapter": "42",
+    "front": "A patient with Fried frailty is scheduled for hip replacement. Name a pulmonary complication associated with frailty and explain why preoperative assessment matters.",
+    "back": "Pneumonia. A surgical stressor can overwhelm reduced multisystem reserve. Delirium, longer hospitalization and discharge to institutional care are also more likely. Hazzard 8e, p. 627.",
+    "page": 627,
+    "anchor": "topic42-surgical-risk",
+    "questionIds": [
+      "mcq-672a2233d40478f8ffec6636"
+    ]
+  },
+  {
+    "id": "ch42-dialysis",
+    "chapter": "42",
+    "front": "A frail patient with advanced CKD asks whether starting dialysis sooner will restore independence. What did the chapter report?",
+    "back": "Frail patients started at higher estimated GFR on average, without demonstrated gains in survival or function from the early start. Frailty predicts hospitalization and death among people beginning dialysis. Hazzard 8e, p. 628.",
+    "page": 628,
+    "anchor": "topic42-dialysis",
+    "questionIds": [
+      "mcq-709d9ab5d0c401eb1452d6ac"
+    ]
   }
 ]
