@@ -13,7 +13,7 @@ Study summary of Chapter 44 — Sleep Disorders; the book and the full chapter a
 - Day–night reversal in a nursing-home resident with advanced dementia calls for daytime light and activity. [June 2026 Q78](?chapter=44#exam-p663-mcq-7049069651d5b4f5ebce9c85)
 - Repeated falls during escalating brotizolam use call for tapering and behavioral insomnia treatment. [2020 Q22](?chapter=44#asked-chapter)
 - Z-drugs shorten sleep latency only slightly and can cause delirium and falls. The exam cites the 2019 AGS Beers guide. [2020 Q56](?chapter=44#asked-chapter)
-- Nocturia with morning headache and resistant hypertension warrants sleep testing even without reported snoring. [December 2021 Q54](?chapter=44#asked-chapter)
+- Nocturia with morning headache and difficult-to-control hypertension warrants sleep testing even without reported snoring. [December 2021 Q54](?chapter=44#asked-chapter)
 - A beta-blocker can contribute to new insomnia. [June 2022 Q14](?chapter=44#asked-chapter)
 
 ## Sleep architecture and normal aging
@@ -49,7 +49,7 @@ In moderate-to-severe dementia, impaired circadian signaling can combine with lo
 
 **Escalating hypnotic use.** A hypnotic can shorten the wait for sleep yet worsen next-day balance. In a patient taking brotizolam nightly for years, review falls and dependence, agree on a gradual taper and offer CBT-I during withdrawal. CBT-I addresses the association between bed and wakefulness, inadequate sleep pressure and anxious beliefs about sleep. Simply switching hypnotics leaves these factors untreated. The 2019 AGS Beers criteria describe limited improvement in latency and duration with Z-drugs and clinically important risks of delirium, falls and fractures. Hazzard 8e, pp. 659–662. [Benzodiazepine deprescribing guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951648/) · [AGS Beers criteria, 2019, Table 2](https://doi.org/10.1111/jgs.15767)
 
-**Nocturia with morning headache.** An older patient may wake after an apneic event and describe only the trip to the bathroom. Ask about unrefreshing sleep, witnessed pauses and daytime symptoms, and examine for predisposing factors. Resistant hypertension and obesity increase suspicion. A report of no snoring and a mildly enlarged prostate do not explain away the sleep-related pattern. Sleep testing answers the respiratory question, especially after bladder-directed therapy fails. Hazzard 8e, pp. 646–649.
+**Nocturia with morning headache.** An older patient may wake after an apneic event and describe only the trip to the bathroom. Ask about unrefreshing sleep, witnessed pauses and daytime symptoms, and examine for predisposing factors. Difficult-to-control hypertension and obesity increase suspicion. A report of no snoring and a mildly enlarged prostate do not explain away the sleep-related pattern. Sleep testing answers the respiratory question, especially after bladder-directed therapy fails. Hazzard 8e, pp. 646–649.
 
 **New insomnia on long-term medication.** Ask when each drug is taken and when the symptoms began. Table 44-3 includes beta-blockers in its alerting column. Of bisoprolol, enalapril, valsartan and doxazosin, the beta-blocker is the drug specifically highlighted in the exam. Sedating daytime medications can also impair nighttime sleep indirectly by promoting naps. Hazzard 8e, p. 658, Table 44-3.
 
@@ -94,7 +94,7 @@ NREM parasomnias can involve behaviors during incomplete awakening. Ask about ti
 ### REM sleep behavior disorder (RBD)
 - Prevalence ~**1%** over age 40, ~**2%** over age 60; male-predominant, typically presents mid-60s (p654).
 - Diagnosis requires REM sleep without atonia plus dream-enactment behavior (p654).
-- Up to **90%** of RBD patients develop a synucleinopathy (Parkinson, Lewy body dementia, MSA) over **10- to 15-year** follow-up (p654).
+- In selected longitudinal cohorts, up to **90%** of people presenting with isolated RBD developed a clinically evident synucleinopathy (Parkinson, Lewy body dementia, MSA) over **10- to 15-year** follow-up (p654).
 - Melatonin is the primary first choice in most circumstances; avoiding benzodiazepines is generally preferable in older patients. In a single-center retrospective study, only melatonin was associated with reduced injuries/falls and had a better side-effect profile than clonazepam (p655).
 
 ### Circadian rhythm disorders
@@ -132,11 +132,11 @@ Greater than 17 inches in men, greater than 16 inches in women (predictive value
 
 </details>
 
-**5. Below what ejection fraction is adaptive servo-ventilation (ASV) generally not recommended for central sleep apnea, and why?**
+**5. Which heart-failure population had excess mortality with the ASV device in SERVE-HF, and how does this inform referral?**
 
 <details><summary>Answer</summary>
 
-LVEF **≤45%** in symptomatic chronic heart failure with predominantly central sleep apnea. SERVE-HF found higher mortality with its ASV device in this population (p649; PMID 26323938).
+LVEF **≤45%** in symptomatic chronic heart failure with predominantly central sleep apnea. SERVE-HF found higher mortality with its ASV device in this population. The AASM limits consideration of ASV for central apnea in HFrEF to experienced centers with shared decision-making and close follow-up (p649). [AASM 2025, recommendation 4](https://doi.org/10.5664/jcsm.11858)
 
 </details>
 
@@ -148,11 +148,11 @@ Worsening of RLS — earlier onset, increased intensity, and/or spread to arms/t
 
 </details>
 
-**10. What proportion of REM sleep behavior disorder (RBD) patients go on to develop a synucleinopathy, and over what time frame?**
+**10. What long-term risk of a clinically evident synucleinopathy has been described in selected cohorts presenting with isolated RBD?**
 
 <details><summary>Answer</summary>
 
-Up to 90%, over 10 to 15 years of follow-up (p654).
+Up to 90% over 10 to 15 years in selected clinical cohorts. This estimate applies to isolated RBD and is not an individual prediction (p654, Figure 44-8).
 
 </details>
 

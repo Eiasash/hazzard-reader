@@ -87,7 +87,7 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - Calcium supplementation has a real but modest effect: **13%** vs **9.1%** placebo over a 5-year trial (p1359).
 - Parkinson disease: **59%** meet Rome criteria (vs **21%** in age-matched controls); pelvic dyssynergia affects **60%** of PD patients (p1360).
 - Stroke: **60%** of patients are constipated while undergoing rehabilitation (p1360).
-- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. If using metoclopramide, older adults should avoid continuous treatment for longer than **12 weeks**, with a **2-week** drug holiday or a dose decrease as tolerated (tardive dyskinesia risk) (p1361).
+- Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. Metoclopramide may treat diabetic gastroparesis. Tardive dyskinesia risk rises with total exposure. For diabetic gastroparesis, US prescribing information advises avoiding more than **12 weeks of total treatment**. A drug holiday does not reset cumulative exposure (p1361). [Reglan prescribing information, Boxed Warning](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397)
 - In one adjusted study, reporting <3 BM/week was associated with >**2-fold** colon cancer risk — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
 
 ### Complications
@@ -119,7 +119,7 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - **Glycerin suppository** — first-line for rectal outlet delay; **bisacodyl suppository** second-line; onset **5-45 min** (p1377).
 - **Lubiprostone 24 mcg BID**; **linaclotide**; **plecanatide** (placebo-controlled trials showed efficacy at 3 and 6 mg — trial doses) — secretagogues; effective but costly, with limited older-adult trial data (p1377).
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), not associated with major adverse cardiovascular events (p1377).
-- **PAMORAs for opioid-induced constipation** — naldemedine (**52% vs 35%** achieving >3 CSBM vs placebo) and naloxegol (**42% vs 29%** achieving ≥3 CSBM/wk) (p1378).
+- **PAMORAs for opioid-induced constipation** — naldemedine and naloxegol counter opioid effects in the gut. Pooled response rates on p1378 are **52% vs 35%** and **42% vs 29%**, respectively. The pivotal trials measured spontaneous bowel movements, without requiring a sense of complete evacuation. Responders had at least three per week and at least one more than baseline for nine of twelve weeks, including three of the last four. [COMPOSE trials](https://pubmed.ncbi.nlm.nih.gov/28576452/) · [KODIAC trials](https://doi.org/10.1056/NEJMoa1310246)
 - Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); lactulose is a nonabsorbed disaccharide fermented by colonic bacteria, while sorbitol is an osmotic sugar alcohol; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
 
 *The June 2025 pseudo-obstruction option pairs neostigmine with the brand name of a different drug (see Israeli context above).*
@@ -158,11 +158,11 @@ At least two features: fewer than three spontaneous bowel movements/week, or str
 
 </details>
 
-**9. Why must metoclopramide use in older adults be time-limited, and beyond what duration should continuous treatment be avoided?**
+**9. Why must metoclopramide use in older adults be time-limited, and what total duration should generally be avoided for diabetic gastroparesis?**
 
 <details><summary>Answer</summary>
 
-Risk of tardive dyskinesia is increased in older adults; avoid continuous treatment for longer than 12 weeks. A 2-week drug holiday or a decrease of metoclopramide dose as tolerated (with tight blood glucose control) is encouraged whenever clinically possible (p1361).
+Older adults are particularly susceptible to tardive dyskinesia, which may be irreversible. For diabetic gastroparesis, avoid more than 12 weeks of total treatment. Interrupting treatment or reducing the dose does not erase previous exposure (p1361 and the Reglan boxed warning above).
 
 </details>
 

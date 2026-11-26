@@ -2,9 +2,46 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 
 # Chapter 49 Study: Muscle Aging and Sarcopenia
 
+## What the exams asked
+
+- Decide what can help a man who walked with a frame before hospitalization and is now bedbound. [2020 Q31](?chapter=49#asked-chapter) (seventh edition, chapter-level link).
+- Recognize the diagnostic combination of reduced grip and low lean mass. [December 2021 Q66](?chapter=49#asked-chapter) (seventh edition, chapter-level link).
+- Match BIA to muscle mass, a dynamometer to strength and SPPB to performance. [June 2023 Q20](?chapter=49#exam-p732-mcq-a476927383fb7c173d729ef2) (printed p732). The [BIA paragraph on p735](?chapter=49#exam-p735-mcq-a476927383fb7c173d729ef2) explains the measurement.
+- Distinguish the performance battery from scales of independence and a timed mobility test. [September 2024 Q28](?chapter=49#exam-p735-mcq-e04066f84a3a95a8b9aab699) and [Chapter 50, Table 50-2](?chapter=50#exam-p743-mcq-e04066f84a3a95a8b9aab699).
+- Choose a daily protein target for an otherwise healthy older person with sarcopenia. [September 2024 Q43](?chapter=49#exam-p737-mcq-54abfb3201d262c46e1c4f83).
+- Recognize the actual SARC-F items, including the direction of stair climbing. [September 2024 Q65](?chapter=49#exam-p734-mcq-59f85952926fe582c920abfa).
+- Choose the exercise intervention that improves sarcopenic muscle function. [September 2024 Q73](?chapter=49#exam-p737-mcq-e8a56f26a86525647deb9581).
+- Interpret low muscle mass when grip and gait remain normal and intake is poor. [June 2026 Q53](?chapter=49#exam-p736-mcq-26395cd7bc1ac5981b1b7da5).
+
+## From a positive screen to a clinical diagnosis
+
+<span data-exam-ids="mcq-59f85952926fe582c920abfa" data-reader-metadata="exam"></span>SARC-F asks the patient about perceived strength, help with walking, rising from a chair, climbing stairs and falls. The stair item concerns going up. A report of difficulty descending or rolling in bed can still prompt assessment, but neither is a questionnaire item. A positive screen identifies a patient who needs strength testing. Falls can bring the problem to attention even before a questionnaire is administered (p734, Table 49-3).
+
+<span data-exam-ids="mcq-a476927383fb7c173d729ef2" data-reader-metadata="exam"></span>The June 2023 question turns on the distinction between **quantity, force and performance**. The option and p735 use “bioimpedance absorptiometry.” The standard term is **bioelectrical impedance analysis**, which estimates lean tissue using electrical impedance and a prediction equation specific to the machine and population. DXA can estimate appendicular lean mass from the arms and legs. Handgrip testing measures force directly. Walking, balance and repeated chair rises test what the whole person can do, integrating muscle with the nervous system, joints and cardiopulmonary reserve (pp732, 734–736).
+
+The December 2021 vignette pairs weak grip with low lean mass. The original European working group allowed either weakness or poor performance to accompany low mass and listed Timed Up and Go among the performance tests. This makes the alternative of low mass with very slow Timed Up and Go defensible under the older definition, although the exam credited only low grip with low mass. In the revised European pathway (EWGSOP2), **low strength means probable sarcopenia**. Low muscle quantity or quality confirms the diagnosis, and poor physical performance identifies severe disease when the first two criteria are present. A patient with weak grip and low lean mass can therefore have confirmed sarcopenia and still walk at a preserved speed. Painful hand arthritis and neurologic disease can also depress grip. Investigate them and address the weakness while assessing muscle quantity (pp732, 735). [EWGSOP, Table 1](https://doi.org/10.1093/ageing/afq034) · [EWGSOP2, Table 1 and Figure 1](https://doi.org/10.1093/ageing/afy169)
+
+<span data-exam-ids="mcq-e04066f84a3a95a8b9aab699" data-reader-metadata="exam"></span>The Short Physical Performance Battery combines standing balance, a short timed walk and five chair rises. A poor result can grade severity in a patient with confirmed sarcopenia. A score alone cannot identify why performance is poor. The Barthel Index assesses basic daily activities, while the Functional Independence Measure grades the help required for tasks. Timed Up and Go times a rise, a short walk with a turn and the return to sitting. It measures mobility. The cross-chapter table lets you match each test to what the examiner actually watches or scores (pp735–736 and Table 50-2, [p743](?chapter=50#exam-p743-mcq-e04066f84a3a95a8b9aab699) and [p744](?chapter=50#exam-p744-mcq-e04066f84a3a95a8b9aab699)).
+
+## Low muscle mass with preserved or impaired function
+
+<span data-exam-ids="mcq-26395cd7bc1ac5981b1b7da5" data-reader-metadata="exam"></span>Check the functional findings before naming the syndrome. In June 2026 Q53 the patient eats little, but his grip and walking speed are preserved. Reduced muscle mass supplies a phenotypic clue to malnutrition, and reduced intake supplies an etiologic clue. Establish how much he eats, for how long and whether weight has changed. If low mass is accompanied by weakness in a malnourished patient, the two diagnoses can coexist because malnutrition can cause sarcopenia. Severe involuntary wasting in a catabolic illness raises the separate question of cachexia. Frailty requires assessment across the physical phenotype, including exhaustion and activity (p736).
+
+## Recovering strength after illness
+
+<span data-exam-ids="mcq-e8a56f26a86525647deb9581" data-reader-metadata="exam"></span>The man in the 2020 sitting walked with a frame before a week of hospital bed rest. That time course and pre-illness ability make the loss of mobility a rehabilitation problem as well as a reason to investigate the heart failure, intake and other contributors. Once clinically stable, begin at a level he can manage and progress with a therapist. Working against a gradually increased load trains neural recruitment and the muscle itself. Upper- and lower-limb resistance work at least twice a week is the chapter's prescription. Improvement often takes about three months. Walking or cycling can train endurance alongside it (pp734, 736–737).
+
+<span data-exam-ids="mcq-54abfb3201d262c46e1c4f83" data-reader-metadata="exam"></span>For an otherwise healthy older person, the chapter gives **1.0 to 1.2 g of protein per kilogram of body weight daily**. For someone weighing 70 kg, that is 70 to 84 g per day. Illness can raise needs to as much as 1.5 g/kg/day, depending on the clinical situation. Assess habitual meals and total energy intake, especially when training increases energy expenditure. Use a high-protein oral supplement if meals cannot cover the gap. Vitamin D can help with severe deficiency and some nutrition trials suggest effects of omega-3, leucine or HMB, but no supplement provides a training stimulus (p737).
+
+## Israeli context
+
+**מה לשאול במרפאה.** משרד הבריאות מציין שקושי לקום מכיסא, לשאת קניות או לעלות במדרגות, לצד האטה בהליכה ועייפות במאמץ קטן, יכולים להצביע על דלדול שריר. אלה שינויים שאפשר לברר באמצעות דוגמאות מחיי היום־יום. [משרד הבריאות, סרקופניה (דלדול שריר), 08.10.2026, ״התסמנים העיקריים״](https://me.health.gov.il/older-adult/keep-me-healthy/common-concerns/sarcopenia/)
+
+**איך להתאים את האימון.** משרד הבריאות ממליץ על אימוני התנגדות לפחות פעמיים בשבוע בעזרת משקולות, גומיות או משקל הגוף. אפשר למשל לתרגל קימה מישיבה לעמידה ולהיעזר במשענת הכיסא לפי היכולת. בטיפול מומלץ להיעזר בפיזיותרפיסט או בפיזיותרפיסטית להתאמת תוכנית הדרגתית למצב הבריאותי וליכולת, ולקבל ליווי של דיאטנית קלינית להתאמת התזונה. [משרד הבריאות, סרקופניה (דלדול שריר), 08.10.2026, ״מניעת סרקופניה״ ו״הטיפול בסרקופניה״](https://me.health.gov.il/older-adult/keep-me-healthy/common-concerns/sarcopenia/)
+
 **Full chapter available: [Read Chapter 49](?chapter=49).**
 
-*Fast build from the book; not lane-reviewed.*
+*Muscle aging, sarcopenia assessment and treatment (printed pages 729–739).*
 
 ## Summary
 
@@ -30,7 +67,7 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 <a id="p732"></a>**[p. 732]**
 
 - **EWGSOP2:** assess strength first when sarcopenia is suspected; use muscle mass to confirm a muscular contribution to weakness. Low strength is **probable sarcopenia** in EWGSOP2. Hazzard uses “suspected” for this stage before muscle quantity or quality is measured. Muscle quality may substitute for mass; low physical performance indicates severity and greater adverse-outcome risk. Case finding uses symptoms or questionnaires (p732; [EWGSOP2 consensus](https://doi.org/10.1093/ageing/afy169)).
-- The updated **AWGS** approach also starts with case finding, but setting changes the pathway. In specialized care, strength precedes performance and mass assessment. Its criteria and thresholds are not interchangeable with the European criteria (p732).
+- The **AWGS 2019** approach presented on p732 starts with case finding and varies by setting. The 2025 Asian consensus requires both low strength and low muscle mass for diagnosis and treats physical performance as an outcome. Use the criteria for the named framework. [AWGS 2025 consensus](https://pubmed.ncbi.nlm.nih.gov/41188603/)
 - **SDOC:** low grip strength and slow usual gait speed independently predict falls, mobility limitation, hip fracture, and mortality in community-dwelling older adults. DXA lean mass did not predict incident adverse outcomes, with or without body-size adjustment; SDOC recommends including strength and gait speed, excluding DXA low muscle mass from its definition (p732).
 - Definitions that use low mass alone can yield community prevalence as high as **40%**; definitions incorporating function give about **10–15%**. Incidence may exceed **3% per year**, but has been studied less (p732).
 - **Official-question navigation:** the mass/strength/performance measurement question cites this page; the book's detailed explanation of **BIA/DXA = mass, handgrip = strength, SPPB = performance** is on [p735](#p735). Do not swap these domains.
@@ -56,7 +93,7 @@ Study summary of Chapter 49 — Muscle Aging and Sarcopenia; the book is the ref
 ![Table 49-3. Components of the SARC-F screening test, printed page 734.](ch49_table49_3_p734.png)
 
 
-This table supplies the content tested by the official SARC-F question; the official reference names the page, without a table label.
+The bibliography for September 2024 Q65 specifies both page 734 and Table 49-3.
 
 </details>
 
@@ -69,7 +106,7 @@ This table supplies the content tested by the official SARC-F question; the offi
 | Definition | Low grip, men | Low grip, women | Reduced gait speed |
 | --- | --- | --- | --- |
 | EWGSOP2 | <27 kg | <16 kg | ≤0.8 m/s |
-| AWGS | <28 kg | <18 kg | <1.0 m/s |
+| AWGS 2019 | <28 kg | <18 kg | <1.0 m/s |
 | SDOC | <35.5 kg | <20 kg | ≤0.8 m/s* |
 
 *The table says SDOC does not propose a precise gait cutoff; its displayed value is based on the earlier FNIH consensus (p735).*
@@ -99,7 +136,7 @@ Supporting table on the cited page; the official SPPB question does not explicit
 - Once confirmed, use comprehensive geriatric assessment to find causes. Table 49-5 includes: bone/joint disease (arthritis, osteoporosis); cancer with or without cachexia; heart failure/COPD; diabetes or hypoandrogenism; chronic liver/kidney disease; neurologic disease; inactivity or prolonged bed rest; anorexia/oral problems; low intake, especially protein; micronutrient deficiency; malabsorption/GI disease; and iatrogenic factors such as corticosteroids, hospital admission, or advice to restrict mobility. Causes commonly coexist and may not all be treatable (p736).
 - With gradual chronic onset and no apparent cause, diagnose **primary age-associated sarcopenia** and explore long-term habits (p736).
 - **Malnutrition:** GLIM includes **3 phenotypic domains** (nonvolitional weight loss, low BMI, reduced muscle mass) and **2 etiologic domains** (reduced intake/assimilation; inflammation/disease burden). Low mass should trigger assessment of the other criteria. **Low mass with preserved muscle function suggests malnutrition as the main diagnosis** in the chapter's differential. If both mass and function are low in a malnourished person, malnutrition has often caused sarcopenia; they can coexist (p736).
-- **Cachexia:** severe weight loss and wasting in cancer, HIV infection, or end-stage organ failure. Low muscle mass overlaps with sarcopenia, but excess catabolism/inflammation and endocrine/neurologic changes differ. Determine which syndrome predominates because cachexia does not respond to sarcopenia treatment as described here (p736).
+- **Cachexia:** severe weight loss and wasting in cancer, HIV infection, or end-stage organ failure. Low muscle mass overlaps with sarcopenia, but excess catabolism/inflammation and endocrine/neurologic changes differ. Identify the underlying disease and its catabolic effects. Nutrition and exercise may support function when feasible, but these measures alone cannot fully reverse disease-driven wasting (p736).
 - **Frailty:** the physical phenotype overlaps through unintentional weight loss, weakness, and slow walking. Sarcopenia is a major contributor, but physical frailty can arise from nonmuscular disease and mild sarcopenia need not cause frailty. These diagnoses overlap without being equivalent (p736).
 
 ### Treatment: resistance exercise, adequate nutrition, and limits of drug evidence

@@ -6283,7 +6283,14 @@
           735
         ],
         "passages": {
-          "732": "The first update came from the EWGSOP (EWGSOP2) in 2019. This advanced definition opted to m"
+          "732": {
+            "text": "The first update came from the EWGSOP (EWGSOP2) in 2019. This advanced definition opted to move mu",
+            "rangeText": "with muscle mass used as confirmation of the involvement of muscle in strength loss"
+          },
+          "735": {
+            "text": "The most widely used methods to estimate muscle mass in practice at present are dual energy X-ray ",
+            "rangeText": "methods to estimate muscle mass in practice at present are dual energy X-ray absorptiometry (DXA) and bioimpedance absorptiometry (BIA)"
+          }
         }
       }
     },
@@ -12196,7 +12203,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1391": "Nausea and vomiting One complication frequently seen in treatment of the older adult with ca",
+          "1391": {
+            "text": "butyrophenones (eg, haloperidol)",
+            "rangeText": "butyrophenones (eg, haloperidol)"
+          },
           "1263": {
             "text": "Table 81-14",
             "imageFile": "hazzard8e_ch81_table81-14_p1263.png"
@@ -12790,9 +12800,18 @@
         ],
         "bankChapter": "49",
         "passages": {
-          "743": "Table 50-2",
-          "744": "Table 50-2 continued",
-          "735": "Other measures of physical performance that are not unusual in geriatric practice are used a"
+          "743": {
+            "text": "Table 50-2",
+            "imageFile": "hazzard8e_ch50_table-50-2_p743.webp"
+          },
+          "744": {
+            "text": "Table 50-2 continued",
+            "imageFile": "hazzard8e_ch50_table-50-2-continued_p744.webp"
+          },
+          "735": {
+            "text": "Other measures of physical performance that are not unusual in geriatric practice are used as well",
+            "rangeText": "The Short Physical Performance Battery (SPPB) adds a measure of balance"
+          }
         }
       }
     },
@@ -13248,7 +13267,10 @@
           "49"
         ],
         "passages": {
-          "737": "Nutrition The evidence about nutrition interventions in treating sarcopenia is less consiste"
+          "737": {
+            "text": "Nutrition The evidence about nutrition interventions in treating sarcopenia is less consistent, wi",
+            "rangeText": "to 1–1.2 g in healthy older adults, and up to 1.5 g in disease"
+          }
         }
       }
     },
@@ -13922,7 +13944,10 @@
           "49-3"
         ],
         "passages": {
-          "734": "Table 49-3"
+          "734": {
+            "text": "Table 49-3",
+            "imageFile": "hazzard8e_ch49_table-49-3_p734.webp"
+          }
         }
       }
     },
@@ -14178,7 +14203,10 @@
           "49"
         ],
         "passages": {
-          "737": "Many trials have shown that resistance exercise can be embedded in a multifaceted exercise p"
+          "737": {
+            "text": "Physical Exercise There is compelling evidence that supports the benefits of resistance exercise i",
+            "rangeText": "resistance exercise in improving skeletal muscle function and mass"
+          }
         }
       }
     },
@@ -14431,7 +14459,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1392": "Recent studies indicate that the prevalence of depression among patients with cancer is betw"
+          "1392": {
+            "text": "selective serotonin reuptake inhibitors like citalopram, fluoxetine, paroxetine, and sertraline are first-line choice of drugs in older adults",
+            "rangeText": "selective serotonin reuptake inhibitors like citalopram, fluoxetine, paroxetine, and sertraline are first-line choice of drugs in older adults"
+          }
         }
       }
     },
@@ -15156,7 +15187,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1385": "Acute myelogenous leukemia (AML) has a much poorer prognosis in older patients and the biolo"
+          "1385": {
+            "text": "high frequency of preceding myelodysplastic syndromes",
+            "rangeText": "high frequency of preceding myelodysplastic syndromes"
+          }
         }
       }
     },
@@ -15835,7 +15869,10 @@
         ],
         "bankChapter": "88",
         "passages": {
-          "1392": "Recent studies indicate that the prevalence of depression among patients with cancer is betw"
+          "1392": {
+            "text": "mirtazapine is useful for mood, appetite, and sleep",
+            "rangeText": "mirtazapine is useful for mood, appetite, and sleep"
+          }
         }
       }
     },
@@ -19341,7 +19378,10 @@
           "49"
         ],
         "passages": {
-          "736": "Frailty, addressed in Chapter 42, has a physical aspect that is closely related to sarcopeni"
+          "736": {
+            "text": "The recent global definition of malnutrition, the Global Leadership Initiative on Malnutrition (GL",
+            "rangeText": "When low muscle mass is not associated with low muscle function, malnutrition will probably be present"
+          }
         }
       }
     },

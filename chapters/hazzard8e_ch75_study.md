@@ -37,7 +37,7 @@ Table 75-1 grades stenosis using valve area, peak jet velocity and mean pressure
 
 **Ask what “asymptomatic” means in daily life.** Someone who stopped climbing stairs may no longer reach the workload that brought on dyspnea. Closely supervised exercise testing can uncover symptoms in a person with severe disease who appears asymptomatic. Symptoms, a flat blood-pressure response or ischemic ST changes identify a group much less likely to remain symptom-free. Exercise testing in symptomatic severe disease carries a risk of hemodynamic collapse (p1151).
 
-**What changes management?** Severe symptomatic stenosis, severe stenosis with EF below 50%, or severe stenosis when another cardiac operation is planned are indications in Table 75-2. Thus a woman with severe stenosis who already needs CABG can have the valve replaced even with an EF of 55% and no symptoms. For an asymptomatic patient with preserved EF and no other trigger, examine the trajectory. Very high jet velocity, abnormal exercise response, markedly elevated BNP or rapid progression can favor earlier intervention in a low-risk patient (pp1151–1152, Table 75-2).
+**What changes management?** Severe symptomatic stenosis, severe stenosis with EF below 50%, or severe stenosis when another cardiac operation is planned are indications in Table 75-2. Thus a woman with severe stenosis who already needs CABG can have the valve replaced even with an EF of 55% and no symptoms. For an asymptomatic patient with preserved EF and no other trigger, examine the trajectory. Very high jet velocity, abnormal exercise response, markedly elevated BNP or rapid progression can favor earlier intervention (pp1151–1152, Table 75-2). Under 2025 European guidance, early replacement should also be considered alongside close surveillance when severe high-gradient stenosis is genuinely asymptomatic (normal exercise test if feasible), EF is at least 50%, and procedural risk is low. [ESC/EACTS 2025, recommendations for aortic stenosis](https://doi.org/10.1093/eurheartj/ehaf194)
 
 <span data-exam-ids="mcq-a48ff09dba8d7490a501c290" data-reader-metadata="exam"></span>
 
@@ -203,7 +203,7 @@ The historical definition was a predicted one-year risk of death or major morbid
 
 </details>
 
-**6. What is the annual incidence of LV dysfunction or symptoms in asymptomatic aortic insufficiency with an end-systolic dimension greater than 50 mm, versus 40–50 mm?**
+**6. What annual rate of LV dysfunction, symptoms or death was reported in asymptomatic aortic insufficiency with an end-systolic dimension greater than 50 mm, versus 40–50 mm?**
 
 <details><summary>Answer</summary>
 

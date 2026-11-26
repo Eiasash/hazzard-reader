@@ -4675,131 +4675,6 @@
     ]
   },
   {
-    "id": "ch44-taper-and-cbt",
-    "chapter": "44",
-    "front": "After years of nightly brotizolam, an older patient increases the dose and falls. What addresses both withdrawal risk and insomnia?",
-    "back": "Agree on a supervised gradual taper and begin CBT-I. Abrupt cessation can precipitate withdrawal, and replacing the drug with another sedative leaves the causes of chronic insomnia untreated. Hazzard 8e, p. 659.",
-    "page": 659,
-    "anchor": "ch44-hypnotic-falls",
-    "questionIds": [
-      "mcq-940e1a2218bb564522f838ea"
-    ],
-    "sourceLabel": "Related eighth-edition teaching · p. 659"
-  },
-  {
-    "id": "ch44-z-drug-latency",
-    "chapter": "44",
-    "front": "Which sleep benefit can an older patient realistically expect from a Z-drug?",
-    "back": "Only a small shortening of sleep latency. Improvement in total sleep time is limited, while confusion, falls and fractures remain concerns. The exam cites the 2019 Beers guide. Hazzard 8e, p. 659.",
-    "page": 659,
-    "anchor": "ch44-z-drug-safety",
-    "questionIds": [
-      "mcq-b7bab775e701c6dacdbdbbcc"
-    ],
-    "sourceLabel": "Related Hazzard teaching · p. 659"
-  },
-  {
-    "id": "ch44-nocturia-and-headache",
-    "chapter": "44",
-    "front": "An older man has resistant hypertension, nocturia and morning headaches despite bladder treatment. He denies snoring. What investigation is appropriate?",
-    "back": "Sleep testing for sleep-disordered breathing. Older adults can have obstructive apnea without the classic snoring history. Hazzard 8e, pp. 646–649.",
-    "page": 646,
-    "anchor": "ch44-nocturia-apnea",
-    "questionIds": [
-      "mcq-9263ca029323c02206b33370"
-    ],
-    "sourceLabel": "Related eighth-edition teaching · p. 646"
-  },
-  {
-    "id": "ch44-beta-blocker",
-    "chapter": "44",
-    "front": "Which class among an ACE inhibitor, beta-blocker, ARB and alpha-blocker is in the alerting column of the sleep medication table?",
-    "back": "Beta-blockers. Review bisoprolol and the timing of a new sleep complaint. Also ask whether other medications are promoting daytime naps. Hazzard 8e, p. 658, Table 44-3.",
-    "page": 658,
-    "anchor": "ch44-sleep-medication-review",
-    "questionIds": [
-      "mcq-bec9f7bc700b6732cb9a08cd"
-    ],
-    "sourceLabel": "Related eighth-edition teaching · p. 658"
-  },
-  {
-    "id": "ch44-longer-latency",
-    "chapter": "44",
-    "front": "How does normal aging affect the interval from trying to sleep to sleep onset?",
-    "back": "Sleep latency usually lengthens. N3 decreases and sleep becomes more fragmented, which reduces sleep efficiency. Hazzard 8e, p. 643.",
-    "page": 643,
-    "anchor": "exam-p643-mcq-c6818d990da1a7ac4b1db4da",
-    "questionIds": [
-      "mcq-c6818d990da1a7ac4b1db4da"
-    ]
-  },
-  {
-    "id": "ch44-rls-treatment",
-    "chapter": "44",
-    "front": "Which of magnesium, tramadol, pregabalin and carbidopa/levodopa is absent from the RLS treatment table?",
-    "back": "Magnesium. Pregabalin can treat persistent RLS, levodopa is reserved for intermittent symptoms because of augmentation, and opioids are options for refractory disease. Listing in the table does not imply routine initial use. Hazzard 8e, pp. 652–653, Table 44-2.",
-    "page": 653,
-    "anchor": "exam-p653-mcq-b279e83e228404a30ed965fe",
-    "questionIds": [
-      "mcq-b279e83e228404a30ed965fe"
-    ]
-  },
-  {
-    "id": "ch44-dream-enactment",
-    "chapter": "44",
-    "front": "A 65-year-old shouts and strikes her partner while dreaming. What future neurological diagnosis can this precede?",
-    "back": "REM sleep behavior disorder can precede Parkinson disease or another synucleinopathy. Loss of REM muscle atonia permits dream enactment. Ask about injuries and confirm the sleep phenotype on polysomnography. Hazzard 8e, pp. 653–655.",
-    "page": 654,
-    "anchor": "exam-p654-mcq-eebcff8ec2efad1443c4bb06",
-    "questionIds": [
-      "mcq-eebcff8ec2efad1443c4bb06"
-    ]
-  },
-  {
-    "id": "ch44-parkinson-nightmares",
-    "chapter": "44",
-    "front": "Parkinson disease, hyposmia and nightmares prompt questions about witnessed dream enactment. Which offered drug addresses RBD?",
-    "back": "Melatonin. The AASM recommendation is for immediate-release melatonin. Circadin, named in the option, is prolonged-release and its efficacy is uncertain. Address environmental safety as well. Hazzard 8e, p. 655.",
-    "page": 655,
-    "anchor": "exam-p655-mcq-4c92bbd3cca86626e195a256",
-    "questionIds": [
-      "mcq-4c92bbd3cca86626e195a256"
-    ]
-  },
-  {
-    "id": "ch44-aging-hypnogram",
-    "chapter": "44",
-    "front": "Which finding on the aging hypnogram explains a greater proportion of the night spent awake?",
-    "back": "More waking after sleep onset fragments the night, while slow-wave sleep decreases. Figure 44-1 depicts these age-related changes. Hazzard 8e, pp. 643–644.",
-    "page": 644,
-    "anchor": "exam-p644-mcq-722507b469ee330def4732a6",
-    "questionIds": [
-      "mcq-722507b469ee330def4732a6"
-    ]
-  },
-  {
-    "id": "ch44-daytime-light",
-    "chapter": "44",
-    "front": "A nursing-home resident with advanced dementia sleeps much of the day and poorly at night. Which environmental cue should staff strengthen?",
-    "back": "Increase daytime light exposure, encourage appropriate daytime activity and protect a dark, quiet night. These help consolidate a weak sleep–wake rhythm. Hazzard 8e, pp. 662–663, Table 44-9.",
-    "page": 663,
-    "anchor": "exam-p663-mcq-7049069651d5b4f5ebce9c85",
-    "questionIds": [
-      "mcq-7049069651d5b4f5ebce9c85"
-    ]
-  },
-  {
-    "id": "ch44-injurious-rbd",
-    "chapter": "44",
-    "front": "A man with Parkinson disease taking bupropion falls from bed during a dream and fractures his hip. What intervention targets the sleep disorder?",
-    "back": "Improve bedroom safety and consider immediate-release melatonin for RBD. Bupropion is not among the typical antidepressant precipitants. The prolonged-release brand in the exam has weaker evidence. Hazzard 8e, p. 655.",
-    "page": 655,
-    "anchor": "exam-p655-mcq-0e047bf953f0e6f426a35fb0",
-    "questionIds": [
-      "mcq-0e047bf953f0e6f426a35fb0"
-    ]
-  },
-  {
     "id": "ch75-valve-or-coronaries",
     "chapter": "75",
     "front": "Why can a patient with angina and severe aortic stenosis have normal epicardial coronary arteries?",
@@ -4847,7 +4722,7 @@
     "id": "ch75-avr-triggers",
     "chapter": "75",
     "front": "Which findings make replacement appropriate in severe aortic stenosis even before symptoms become apparent?",
-    "back": "The chapter lists EF below 50% or planned cardiac surgery as indications. With preserved EF and no additional trigger, verify exercise tolerance and follow closely. New angina attributable to severe obstruction is itself an indication. Hazzard 8e, p. 1152.",
+    "back": "The chapter lists EF below 50% or planned cardiac surgery as indications. With preserved EF, verify exercise tolerance. For genuinely asymptomatic severe high-gradient stenosis, close follow-up and early replacement in low-risk patients are both options (ESC/EACTS 2025). New angina attributable to severe obstruction is itself an indication. Hazzard 8e, p. 1152.",
     "page": 1152,
     "anchor": "exam-p1152-mcq-76fb4ce0edbbab9f1ac529f2",
     "questionIds": [
@@ -5109,6 +4984,290 @@
     "anchor": "exam-p1362-mcq-811bbe2e4f19b983c1f44c2d",
     "questionIds": [
       "mcq-811bbe2e4f19b983c1f44c2d"
+    ]
+  },
+  {
+    "id": "ch88-aml-after-mds",
+    "chapter": "88",
+    "front": "An older adult has newly diagnosed AML. Which feature of the marrow history points to adverse biology?",
+    "back": "Antecedent myelodysplastic syndrome. AML evolving from a prior clonal disorder is often accompanied by adverse cytogenetics and treatment resistance. Hazzard 8e, pp. 1385–1386.",
+    "page": 1385,
+    "anchor": "exam-p1385-mcq-68050a5cca6b5c86ca5a1754",
+    "questionIds": [
+      "mcq-68050a5cca6b5c86ca5a1754"
+    ]
+  },
+  {
+    "id": "ch88-depression-poor-intake",
+    "chapter": "88",
+    "front": "An older patient receiving treatment for advanced lung cancer has poor appetite and confirmed depression. Which antidepressant addresses both concerns?",
+    "back": "Mirtazapine may improve mood and appetite and can also help sleep. Look for other treatable impediments to eating, such as pain, nausea and constipation. Hazzard 8e, p. 1392.",
+    "page": 1392,
+    "anchor": "exam-p1392-mcq-1d48795cfd7c82a0d2603459",
+    "questionIds": [
+      "mcq-1d48795cfd7c82a0d2603459"
+    ]
+  },
+  {
+    "id": "ch88-advanced-cancer-nausea",
+    "chapter": "88",
+    "front": "Nausea persists after ondansetron and metoclopramide in advanced cancer. There is no history of constipation. Which listed drug is a reasonable next antiemetic?",
+    "back": "Haloperidol can suppress nausea through dopamine blockade. Check competing causes, other dopamine blockers, QT risk and extrapyramidal effects. Hazzard 8e, p. 1391 and Table 81-14, p. 1263.",
+    "page": 1391,
+    "anchor": "exam-p1391-mcq-765f7737231c2578f2a85a38",
+    "questionIds": [
+      "mcq-765f7737231c2578f2a85a38"
+    ]
+  },
+  {
+    "id": "ch88-depression-with-cardiac-disease",
+    "chapter": "88",
+    "front": "A patient with cancer, ischemic heart disease, prostatic enlargement and glaucoma has depression. Appetite and sleep are preserved. Which drug class is first-line?",
+    "back": "An SSRI such as sertraline. A tricyclic adds anticholinergic and cardiac effects, important in this clinical profile. Hazzard 8e, p. 1392.",
+    "page": 1392,
+    "anchor": "exam-p1392-mcq-3f018bbcbb31f1f29b15dfb4",
+    "questionIds": [
+      "mcq-3f018bbcbb31f1f29b15dfb4"
+    ]
+  },
+  {
+    "id": "ch88-screening-time-to-benefit",
+    "chapter": "88",
+    "front": "Which routine screening test is most likely to help: mammography at 72 with diabetes, PSA at 90, or colorectal screening at 77 with end-stage heart failure?",
+    "back": "Mammography at 72. Consider eligibility, competing mortality and willingness to undergo further testing or treatment. A history of pancreatic cancer in both parents warrants a separate hereditary-risk evaluation. Hazzard 8e, pp. 1384–1385; CAPS, Table 1.",
+    "page": 1384,
+    "anchor": "ch88-screening",
+    "questionIds": [
+      "mcq-ad6d7a87fc32ca548731a09f"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1384"
+  },
+  {
+    "id": "ch88-androgen-cognition",
+    "chapter": "88",
+    "front": "An independent 75-year-old starts androgen deprivation for metastatic prostate cancer. What cognitive issue belongs in counseling?",
+    "back": "Memory may decline, and some observational cohorts associate treatment with more dementia diagnoses. Explain uncertainty and monitor daily function. Hazzard 8e, p. 1390; SEER–Medicare cohort, 2019.",
+    "page": 1390,
+    "anchor": "ch88-androgen",
+    "questionIds": [
+      "mcq-6ae30a391bf09c01f274cc21"
+    ],
+    "sourceLabel": "Related Hazzard 8e teaching, p. 1390"
+  },
+  {
+    "id": "ch44-taper-and-cbt",
+    "chapter": "44",
+    "front": "After years of nightly brotizolam, an older patient increases the dose and falls. What addresses both withdrawal risk and insomnia?",
+    "back": "Agree on a supervised gradual taper and begin CBT-I. Abrupt cessation can precipitate withdrawal, and replacing the drug with another sedative leaves the causes of chronic insomnia untreated. Hazzard 8e, p. 659.",
+    "page": 659,
+    "anchor": "ch44-hypnotic-falls",
+    "questionIds": [
+      "mcq-940e1a2218bb564522f838ea"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 659"
+  },
+  {
+    "id": "ch44-z-drug-latency",
+    "chapter": "44",
+    "front": "Which sleep benefit can an older patient realistically expect from a Z-drug?",
+    "back": "Only a small shortening of sleep latency. Improvement in total sleep time is limited, while confusion, falls and fractures remain concerns. The exam cites the 2019 Beers guide. Hazzard 8e, p. 659.",
+    "page": 659,
+    "anchor": "ch44-z-drug-safety",
+    "questionIds": [
+      "mcq-b7bab775e701c6dacdbdbbcc"
+    ],
+    "sourceLabel": "Related Hazzard teaching · p. 659"
+  },
+  {
+    "id": "ch44-nocturia-and-headache",
+    "chapter": "44",
+    "front": "An older man has difficult-to-control hypertension, nocturia and morning headaches despite bladder treatment. He denies snoring. What investigation is appropriate?",
+    "back": "Sleep testing for sleep-disordered breathing. Older adults can have obstructive apnea without the classic snoring history. Hazzard 8e, pp. 646–649.",
+    "page": 646,
+    "anchor": "ch44-nocturia-apnea",
+    "questionIds": [
+      "mcq-9263ca029323c02206b33370"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 646"
+  },
+  {
+    "id": "ch44-beta-blocker",
+    "chapter": "44",
+    "front": "Which class among an ACE inhibitor, beta-blocker, ARB and alpha-blocker is in the alerting column of the sleep medication table?",
+    "back": "Beta-blockers. Review bisoprolol and the timing of a new sleep complaint. Also ask whether other medications are promoting daytime naps. Hazzard 8e, p. 658, Table 44-3.",
+    "page": 658,
+    "anchor": "ch44-sleep-medication-review",
+    "questionIds": [
+      "mcq-bec9f7bc700b6732cb9a08cd"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 658"
+  },
+  {
+    "id": "ch44-longer-latency",
+    "chapter": "44",
+    "front": "How does normal aging affect the interval from trying to sleep to sleep onset?",
+    "back": "Sleep latency usually lengthens. N3 decreases and sleep becomes more fragmented, which reduces sleep efficiency. Hazzard 8e, p. 643.",
+    "page": 643,
+    "anchor": "exam-p643-mcq-c6818d990da1a7ac4b1db4da",
+    "questionIds": [
+      "mcq-c6818d990da1a7ac4b1db4da"
+    ]
+  },
+  {
+    "id": "ch44-rls-treatment",
+    "chapter": "44",
+    "front": "Which of magnesium, tramadol, pregabalin and carbidopa/levodopa is absent from the RLS treatment table?",
+    "back": "Magnesium. Pregabalin can treat persistent RLS, levodopa is reserved for intermittent symptoms because of augmentation, and opioids are options for refractory disease. Listing in the table does not imply routine initial use. Hazzard 8e, pp. 652–653, Table 44-2.",
+    "page": 653,
+    "anchor": "exam-p653-mcq-b279e83e228404a30ed965fe",
+    "questionIds": [
+      "mcq-b279e83e228404a30ed965fe"
+    ]
+  },
+  {
+    "id": "ch44-dream-enactment",
+    "chapter": "44",
+    "front": "A 65-year-old shouts and strikes her partner while dreaming. What future neurological diagnosis can this precede?",
+    "back": "REM sleep behavior disorder can precede Parkinson disease or another synucleinopathy. Loss of REM muscle atonia permits dream enactment. Ask about injuries and confirm the sleep phenotype on polysomnography. Hazzard 8e, pp. 653–655.",
+    "page": 654,
+    "anchor": "exam-p654-mcq-eebcff8ec2efad1443c4bb06",
+    "questionIds": [
+      "mcq-eebcff8ec2efad1443c4bb06"
+    ]
+  },
+  {
+    "id": "ch44-parkinson-nightmares",
+    "chapter": "44",
+    "front": "Parkinson disease, hyposmia and nightmares prompt questions about witnessed dream enactment. Which offered drug addresses RBD?",
+    "back": "Melatonin. The AASM recommendation is for immediate-release melatonin. Circadin, named in the option, is prolonged-release and its efficacy is uncertain. Address environmental safety as well. Hazzard 8e, p. 655.",
+    "page": 655,
+    "anchor": "exam-p655-mcq-4c92bbd3cca86626e195a256",
+    "questionIds": [
+      "mcq-4c92bbd3cca86626e195a256"
+    ]
+  },
+  {
+    "id": "ch44-aging-hypnogram",
+    "chapter": "44",
+    "front": "Which finding on the aging hypnogram explains a greater proportion of the night spent awake?",
+    "back": "More waking after sleep onset fragments the night, while slow-wave sleep decreases. Figure 44-1 depicts these age-related changes. Hazzard 8e, pp. 643–644.",
+    "page": 644,
+    "anchor": "exam-p644-mcq-722507b469ee330def4732a6",
+    "questionIds": [
+      "mcq-722507b469ee330def4732a6"
+    ]
+  },
+  {
+    "id": "ch44-daytime-light",
+    "chapter": "44",
+    "front": "A nursing-home resident with advanced dementia sleeps much of the day and poorly at night. Which environmental cue should staff strengthen?",
+    "back": "Increase daytime light exposure, encourage appropriate daytime activity and protect a dark, quiet night. These help consolidate a weak sleep–wake rhythm. Hazzard 8e, pp. 662–663, Table 44-9.",
+    "page": 663,
+    "anchor": "exam-p663-mcq-7049069651d5b4f5ebce9c85",
+    "questionIds": [
+      "mcq-7049069651d5b4f5ebce9c85"
+    ]
+  },
+  {
+    "id": "ch44-injurious-rbd",
+    "chapter": "44",
+    "front": "A man with Parkinson disease taking bupropion falls from bed during a dream and fractures his hip. What intervention targets the sleep disorder?",
+    "back": "Improve bedroom safety and consider immediate-release melatonin for RBD. Bupropion is not among the typical antidepressant precipitants. The prolonged-release brand in the exam has weaker evidence. Hazzard 8e, p. 655.",
+    "page": 655,
+    "anchor": "exam-p655-mcq-0e047bf953f0e6f426a35fb0",
+    "questionIds": [
+      "mcq-0e047bf953f0e6f426a35fb0"
+    ]
+  },
+  {
+    "id": "ch49-strength-after-bed-rest",
+    "chapter": "49",
+    "front": "A man who used a walker before a week in hospital is now bedbound. What can help reverse the loss of strength?",
+    "back": "After stabilization, begin individualized physiotherapy with progressive resistance as tolerated. Bed rest and heart failure can both contribute, so reassess intake and medical impediments to mobility. Hazzard 8e, pp. 736–737.",
+    "page": 737,
+    "anchor": "exam-p737-mcq-e8a56f26a86525647deb9581",
+    "questionIds": [
+      "mcq-31782ec7576d24363ccf2c35"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 737"
+  },
+  {
+    "id": "ch49-strength-and-quantity",
+    "chapter": "49",
+    "front": "Which pair demonstrates both loss of force and low muscle quantity?",
+    "back": "Low grip strength and low lean mass. EWGSOP2 calls low strength probable sarcopenia, adds low quantity or quality for confirmation, and uses poor performance to identify severe disease. Hazzard 8e, p. 732.",
+    "page": 732,
+    "anchor": "ch49-strength-and-mass",
+    "questionIds": [
+      "mcq-f6ef6ea91e391566fe18e81f"
+    ],
+    "sourceLabel": "Related eighth-edition teaching · p. 732"
+  },
+  {
+    "id": "ch49-quantity-force-performance",
+    "chapter": "49",
+    "front": "Which bedside test estimates muscle quantity, and which tests instead measure force and whole-body performance?",
+    "back": "Bioelectrical impedance analysis (BIA) estimates lean tissue using a device- and population-specific equation. Grip dynamometry measures force, while SPPB combines walking, balance and chair rises. The examination cites p. 732. The instruments are described on pp. 734–735.",
+    "page": 735,
+    "anchor": "exam-p735-mcq-a476927383fb7c173d729ef2",
+    "questionIds": [
+      "mcq-a476927383fb7c173d729ef2"
+    ],
+    "sourceLabel": "Related measurement paragraph · p. 735"
+  },
+  {
+    "id": "ch49-sppb-independence",
+    "chapter": "49",
+    "front": "Why would you order the SPPB when evaluating sarcopenia?",
+    "back": "It tests standing balance, usual walking speed and repeated chair rises. Poor performance helps grade severity once sarcopenia is confirmed. Barthel and FIM address independence, while Timed Up and Go assesses mobility. Hazzard 8e, pp. 735–736 and Table 50-2, pp. 743–744.",
+    "page": 735,
+    "anchor": "exam-p735-mcq-e04066f84a3a95a8b9aab699",
+    "questionIds": [
+      "mcq-e04066f84a3a95a8b9aab699"
+    ]
+  },
+  {
+    "id": "ch49-protein-intake",
+    "chapter": "49",
+    "front": "An otherwise healthy 70 kg older adult has sarcopenia. What daily protein range does the chapter recommend?",
+    "back": "About 70–84 g per day, from 1.0 to 1.2 g/kg/day. Review meals, then consider high-protein oral supplements if usual food cannot meet needs. Illness may change the target. Hazzard 8e, p. 737.",
+    "page": 737,
+    "anchor": "exam-p737-mcq-54abfb3201d262c46e1c4f83",
+    "questionIds": [
+      "mcq-54abfb3201d262c46e1c4f83"
+    ]
+  },
+  {
+    "id": "ch49-sarc-f-items",
+    "chapter": "49",
+    "front": "Which everyday difficulties does SARC-F ask about, and which direction of stair use matters?",
+    "back": "Perceived strength, help walking, rising from a chair, climbing stairs and falls. The stair item concerns going up. These responses prompt objective strength testing. Hazzard 8e, Table 49-3, p. 734.",
+    "page": 734,
+    "anchor": "exam-p734-mcq-59f85952926fe582c920abfa",
+    "questionIds": [
+      "mcq-59f85952926fe582c920abfa"
+    ]
+  },
+  {
+    "id": "ch49-resistance-training",
+    "chapter": "49",
+    "front": "Which intervention has the strongest evidence for improving muscle function, and what does the prescription involve?",
+    "back": "Train upper and lower limbs against resistance at least twice weekly, with loads adapted to the patient. Start with expert instruction. Objective gains may take about three months. Hazzard 8e, p. 737.",
+    "page": 737,
+    "anchor": "exam-p737-mcq-e8a56f26a86525647deb9581",
+    "questionIds": [
+      "mcq-e8a56f26a86525647deb9581"
+    ]
+  },
+  {
+    "id": "ch49-low-mass-normal-function",
+    "chapter": "49",
+    "front": "What leads the differential when low muscle mass accompanies poor intake but grip and gait are preserved?",
+    "back": "Malnutrition. Reduced mass and reduced intake supply phenotypic and etiologic clues respectively. Assess nutritional history and weight trajectory. If strength also declines, malnutrition and sarcopenia may coexist. Hazzard 8e, p. 736.",
+    "page": 736,
+    "anchor": "exam-p736-mcq-26395cd7bc1ac5981b1b7da5",
+    "questionIds": [
+      "mcq-26395cd7bc1ac5981b1b7da5"
     ]
   }
 ]
