@@ -713,6 +713,11 @@
           768,
           769
         ]
+      },
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": "94",
+        "bankChapterTitle": "Aging of the Hematopoietic System and Anemia"
       }
     },
     "51": {
@@ -5100,7 +5105,12 @@
       "edition": 7,
       "paperPage": null,
       "fromBasic": true,
-      "duplicates": []
+      "duplicates": [],
+      "readerMapping": {
+        "passages": {},
+        "bankChapter": "94",
+        "bankChapterTitle": "Aging of the Hematopoietic System and Anemia"
+      }
     },
     "3202": {
       "id": "mcq-3cb8fac0718a2905aacae94c",
@@ -6221,7 +6231,10 @@
         ],
         "bankChapter": "95",
         "passages": {
-          "1502": "Table 95-14"
+          "1502": {
+            "text": "Table 95-14",
+            "imageFile": "hazzard8e_ch95_table-95-14_p1502.webp"
+          }
         }
       }
     },
@@ -6898,7 +6911,14 @@
             "text": "important to document the decisional capacity of the older adult on dialysis wishing to withdraw",
             "rangeText": "important to document the decisional capacity of the older adult on dialysis wishing to withdraw"
           }
-        }
+        },
+        "relatedTeaching": [
+          {
+            "chapter": "72",
+            "anchor": "ch72-il-dialysis",
+            "label": "סירוב למחזור הבא של דיאליזה"
+          }
+        ]
       }
     },
     "3274": {
@@ -8184,7 +8204,17 @@
       "duplicates": [
         2667
       ],
-      "explanation": "## הסבר קליני\n\n### למה ג' נכון – מנהל המחלקה הפנימית?\n\nלפי **חוק החולה הנוטה למות (2005)**, הגדרת חולה כ\"נוטה למות\" מחייבת:\nהרופא האחראי במוסד הוא מנהל מחלקה או יחידה האחראי לטיפול, או רופא מומחה שמונה לכך בידי מנהל המוסד, המחלקה או היחידה. מבין האפשרויות ג מתאימה. (Dying Patient Act §3 definition, PDF4).\n\nמאחר שהחולה מאושפז כעת במחלקה **פנימית** – הסמכות עוברת למנהל המחלקה הפנימית, ולא לאונקולוג.\n\n---\n\n### למה האחרות שגויות?\n\n| אפשרות | הסבר |\n|--------|-------|\n| **א' – האונקולוג המטפל** | אינו"
+      "explanation": "## הסבר קליני\n\n### למה ג' נכון – מנהל המחלקה הפנימית?\n\nלפי **חוק החולה הנוטה למות (2005)**, הגדרת חולה כ\"נוטה למות\" מחייבת:\nהרופא האחראי במוסד הוא מנהל מחלקה או יחידה האחראי לטיפול, או רופא מומחה שמונה לכך בידי מנהל המוסד, המחלקה או היחידה. מבין האפשרויות ג מתאימה. (Dying Patient Act §3 definition, PDF4).\n\nמאחר שהחולה מאושפז כעת במחלקה **פנימית** – הסמכות עוברת למנהל המחלקה הפנימית, ולא לאונקולוג.\n\n---\n\n### למה האחרות שגויות?\n\n| אפשרות | הסבר |\n|--------|-------|\n| **א' – האונקולוג המטפל** | אינו",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "72",
+            "anchor": "ch72-il-authority",
+            "label": "מי קובע את מעמד החולה באשפוז"
+          }
+        ]
+      }
     },
     "3316": {
       "id": "mcq-6a3a4989b7a53b19593f44a7",
@@ -8215,7 +8245,10 @@
           1256
         ],
         "passages": {
-          "165": "Pneumococcal Vaccination Pneumococcal infections represent a major cause of morbidity and mo",
+          "165": {
+            "text": "Pneumococcal Conjugate Vaccine (PCV13) followed in 6 to 12 months by the Pneumococcal Polysaccharide Vaccine (PPSV23)",
+            "rangeText": "Pneumococcal Conjugate Vaccine (PCV13) followed in 6 to 12 months by the Pneumococcal Polysaccharide Vaccine (PPSV23)"
+          },
           "1256": {
             "text": "The 13-valent conjugate vaccine (PCV-13) is recommended for people with COPD older than age 65",
             "rangeText": "The 13-valent conjugate vaccine (PCV-13) is recommended for people with COPD older than age 65"
@@ -8266,7 +8299,17 @@
       "duplicates": [
         2670
       ],
-      "explanation": "## תשובה נכונה: ג\n\n### למה ג' נכונה?\nתחילה על הרופא האחראי לקבוע שמדובר בבעיה רפואית חשוכת מרפא ובתוחלת חיים שאינה עולה על שישה חודשים גם בטיפול. גיל מעל 60 וסיבוכים קשים אינם מחליפים תנאי זה. בהתקיים התנאים, ניתן לברר את הרצון במסלול הקבוע בסעיף 5, לרבות הצהרת אדם קרוב לפי נסיבותיו. (Dying Patient Act §§5,8, PDF5-6).\n\nבמצב זה, **תצהיר אדם קרוב** (הבת המסורה) הוא כלי חוקי לקבלת החלטות, ומשקף את רצון החולה שהיה ידוע לה — מה שמכונה **\"הנחיה בעל"
+      "explanation": "## תשובה נכונה: ג\n\n### למה ג' נכונה?\nתחילה על הרופא האחראי לקבוע שמדובר בבעיה רפואית חשוכת מרפא ובתוחלת חיים שאינה עולה על שישה חודשים גם בטיפול. גיל מעל 60 וסיבוכים קשים אינם מחליפים תנאי זה. בהתקיים התנאים, ניתן לברר את הרצון במסלול הקבוע בסעיף 5, לרבות הצהרת אדם קרוב לפי נסיבותיו. (Dying Patient Act §§5,8, PDF5-6).\n\nבמצב זה, **תצהיר אדם קרוב** (הבת המסורה) הוא כלי חוקי לקבלת החלטות, ומשקף את רצון החולה שהיה ידוע לה — מה שמכונה **\"הנחיה בעל",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "72",
+            "anchor": "ch72-il-close-person",
+            "label": "דיאליזה ואדם קרוב"
+          }
+        ]
+      }
     },
     "3319": {
       "id": "mcq-1464838102c98ff3a34184c7",
@@ -9043,7 +9086,10 @@
           "95-1"
         ],
         "passages": {
-          "1485": "Table 95-1"
+          "1485": {
+            "text": "Table 95-1",
+            "imageFile": "hazzard8e_ch95_table-95-1_p1485.webp"
+          }
         }
       }
     },
@@ -10839,7 +10885,10 @@
           "72"
         ],
         "passages": {
-          "1102": "TABLE 72-3 ■ THE SPIKES APPROACH TO BREAKING BAD NEWS"
+          "1102": {
+            "text": "Table 72-3",
+            "imageFile": "hazzard8e_ch72_table-72-3_p1102.webp"
+          }
         }
       }
     },
@@ -11393,9 +11442,18 @@
           1492
         ],
         "passages": {
-          "1490": "Chronic lymphocytic leukemia (CLL) is the most common leukemia in the Western Hemisphere and",
-          "1491": "Therapy for B-cell CLL is not considered curative and therefore has been reserved for patien",
-          "1492": "Autoimmune manifestations of CLL are common and include development of antibodies to platele"
+          "1490": {
+            "text": "B-cell CLL accounts for over 95% of all CLL.",
+            "rangeText": "B-cell CLL accounts for over 95% of all CLL."
+          },
+          "1491": {
+            "text": "Leukocytosis alone (stage 0) does not require therapy",
+            "rangeText": "Leukocytosis alone (stage 0) does not require therapy"
+          },
+          "1492": {
+            "text": "reticulocyte counts and direct Coombs testing should be obtained to help differentiate hemolysis from decreased bone marrow production",
+            "rangeText": "reticulocyte counts and direct Coombs testing should be obtained to help differentiate hemolysis from decreased bone marrow production"
+          }
         }
       }
     },
@@ -14316,7 +14374,14 @@
         ],
         "passages": {
           "151": "There are four necessary elements to making a capable decision: understanding, appreciation,"
-        }
+        },
+        "relatedTeaching": [
+          {
+            "chapter": "72",
+            "anchor": "ch72-il-capacity",
+            "label": "ארבע יכולות קליניות וכשרות משפטית"
+          }
+        ]
       }
     },
     "3503": {
@@ -14771,14 +14836,18 @@
           "99"
         ],
         "passages": {
-          "119": "There are several screening questionaries for hearing loss including the Hearing Handicap In",
+          "119": {
+            "text": "patients should be referred to an audiologist",
+            "rangeText": "patients should be referred to an audiologist"
+          },
           "161": {
-            "text": "of serious complications after screening mammography appears to be approximately 1 in 1000, ",
-            "contextPage": 160,
-            "rangeText": "an older woman has a life expectancy of at least 9.5 years"
+            "text": "an older woman has a life expectancy of at least 9.5 years",
+            "rangeText": "an older woman has a life expectancy of at least 9.5 years",
+            "contextPage": 160
           }
         }
-      }
+      },
+      "referenceNote": "The printed references are pp. 119, 161 and 1561. Page 161 contains both the mammography model and the list of colorectal screening options. The final paper accepts C and D. Page 119 covers an initial hearing screen and referral, and p. 1561 covers diabetes screening after 65."
     },
     "3518": {
       "id": "mcq-98debcd301b2d91929e937da",
@@ -16740,7 +16809,18 @@
       "duplicates": [
         3021
       ],
-      "explanation": "התשובה הנכונה היא B. ניטרול פעולה של ICD מותר מבחינה חוקית ואתית בחולה הנוטה למות, מכיוון שה-ICD מספק טיפול שמטרתו למנוע מוות פתאומי מהפרעת קצב, אך אינו מקיים פונקציה פיזיולוגית בסיסית מתמשכת. כיבוי ה-ICD נחשב להימנעות מטיפול עתידי (withholding future intervention) ולא להמתת חולה פעילה. הזעזועים החשמליים שה-ICD מספק עלולים לגרום סבל משמעותי לחולה הנוטה למות, ולכן ניטרולו עולה בקנה אחד עם עקרון הכבוד והמניעה מסבל.\n\nתשובה A (ניתוק ממכונת הנשמה) – לפי חוק החולה הנוטה למות (2005) בישראל, ניתוק פעיל של מכשיר מקיים חיים אסור; החוק מבחין בין הימנעות מטיפול לבין הפסקת טיפול פעילה. הפתרון שהחוק מציע הוא שעון שבת – טיימר שמאפשר אי-חידוש הטיפול.\n\nתשובה C (הפסקת קוצב לב ב-complete AV block) – כיבוי קוצב לב בחולה עם חסם מוחלט שווה ערך להמתה פעילה, שכן החולה תלוי לחלוטין בקוצב לשמירת תפוקת לב מינימלית. לפי סעיף 21 אסור להפסיק טיפול רפואי רציף העלול להביא למוות; אין צורך לקבוע שהמוות יהיה מיידי כדי להסביר את האיסור. (DyingPatientAct section21, localPDF p12).\n\nתשובה D (מורפין במינון כפול) – מתן מורפין במינון החורג מהנדרש להקלת כאב מהווה המתה פעילה ואסור חוקית. עקרון ה-double effect מתיר תופעות לוואי צפויות רק כשהמינון ניתן למטרה תרפויטית לגיטימית.\n\n**פנינה קלינית:** ההבחנה המרכזית היא בין מכשי"
+      "explanation": "התשובה הנכונה היא B. ניטרול פעולה של ICD מותר מבחינה חוקית ואתית בחולה הנוטה למות, מכיוון שה-ICD מספק טיפול שמטרתו למנוע מוות פתאומי מהפרעת קצב, אך אינו מקיים פונקציה פיזיולוגית בסיסית מתמשכת. כיבוי ה-ICD נחשב להימנעות מטיפול עתידי (withholding future intervention) ולא להמתת חולה פעילה. הזעזועים החשמליים שה-ICD מספק עלולים לגרום סבל משמעותי לחולה הנוטה למות, ולכן ניטרולו עולה בקנה אחד עם עקרון הכבוד והמניעה מסבל.\n\nתשובה A (ניתוק ממכונת הנשמה) – לפי חוק החולה הנוטה למות (2005) בישראל, ניתוק פעיל של מכשיר מקיים חיים אסור; החוק מבחין בין הימנעות מטיפול לבין הפסקת טיפול פעילה. הפתרון שהחוק מציע הוא שעון שבת – טיימר שמאפשר אי-חידוש הטיפול.\n\nתשובה C (הפסקת קוצב לב ב-complete AV block) – כיבוי קוצב לב בחולה עם חסם מוחלט שווה ערך להמתה פעילה, שכן החולה תלוי לחלוטין בקוצב לשמירת תפוקת לב מינימלית. לפי סעיף 21 אסור להפסיק טיפול רפואי רציף העלול להביא למוות; אין צורך לקבוע שהמוות יהיה מיידי כדי להסביר את האיסור. (DyingPatientAct section21, localPDF p12).\n\nתשובה D (מורפין במינון כפול) – מתן מורפין במינון החורג מהנדרש להקלת כאב מהווה המתה פעילה ואסור חוקית. עקרון ה-double effect מתיר תופעות לוואי צפויות רק כשהמינון ניתן למטרה תרפויטית לגיטימית.\n\n**פנינה קלינית:** ההבחנה המרכזית היא בין מכשי",
+      "readerMapping": {
+        "passages": {},
+        "relatedTeaching": [
+          {
+            "chapter": "72",
+            "anchor": "ch72-il-icd",
+            "label": "נטרול שוקים תוך שמירה על קיצוב"
+          }
+        ]
+      },
+      "referenceNote": "The bibliography prints only חוק (law). The question concerns the Israeli Dying Patient Law. The Israeli professional societies’ 2020 position paper, pp. 3–4, explains how the law applies to disabling ICD shocks while preserving pacing."
     },
     "4606": {
       "id": "mcq-10163f2b99f5abe875d7d917",
@@ -18224,7 +18304,10 @@
           "23"
         ],
         "passages": {
-          "169": "Prescription Drug Misuse Prescription drug misuse is poorly described in the medical literat",
+          "169": {
+            "text": "prescribing recommendations that suggest only short-term use and use only for intended indications",
+            "rangeText": "prescribing recommendations that suggest only short-term use and use only for intended indications"
+          },
           "319": "Despite contraindications for older adults, benzodiazepines are disproportionately prescribe"
         }
       }
@@ -20538,9 +20621,18 @@
           "95"
         ],
         "passages": {
-          "1483": "Myelodysplastic syndromes (MDS) are a heterogenous group of clonal hematopoietic disorders c",
-          "1484": "Risk Stratification The World Health Organization (WHO) classification scheme incorporates e",
-          "1485": "Table 95-1"
+          "1483": {
+            "text": "treatment should be risk-adapted based on disease and patient characteristics",
+            "rangeText": "treatment should be risk-adapted based on disease and patient characteristics"
+          },
+          "1484": {
+            "text": "requiring assistance with activities of daily living (ADLs) and high fatigue rating were independently associated with shorter survival",
+            "rangeText": "requiring assistance with activities of daily living (ADLs) and high fatigue rating were independently associated with shorter survival"
+          },
+          "1485": {
+            "text": "Table 95-3",
+            "imageFile": "hazzard8e_ch95_table-95-3_p1485.webp"
+          }
         }
       }
     },
@@ -22724,7 +22816,10 @@
           "95"
         ],
         "passages": {
-          "1501": "Serum-free light chain assay The serum-free light chain is a quantitative measure of excess "
+          "1501": {
+            "text": "a quantitative measure of excess kappa or lambda light chains produced by a plasma cell clone",
+            "rangeText": "a quantitative measure of excess kappa or lambda light chains produced by a plasma cell clone"
+          }
         }
       }
     },
@@ -26110,10 +26205,38 @@
           1504
         ],
         "passages": {
-          "1494": "Table 95-9",
-          "1489": "Diagnosis is suspected by the demonstration of granulocytosis in the peripheral blood with a",
+          "1494": {
+            "text": "Table 95-9",
+            "imageFile": "hazzard8e_ch95_table-95-9_p1494.webp"
+          },
+          "1489": {
+            "text": "The presence of the Philadelphia chromosome t(9;22) and/or its products",
+            "rangeText": "The presence of the Philadelphia chromosome t(9;22) and/or its products"
+          },
           "1495": "In DLBCL, the putative cell of origin as identified on GEP is prognostic, with germinal cent"
-        }
+        },
+        "citationOnly": [
+          1483,
+          1484,
+          1485,
+          1486,
+          1487,
+          1488,
+          1490,
+          1491,
+          1492,
+          1493,
+          1495,
+          1496,
+          1497,
+          1498,
+          1499,
+          1500,
+          1501,
+          1502,
+          1503,
+          1504
+        ]
       }
     },
     "5118": {

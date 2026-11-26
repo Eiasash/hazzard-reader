@@ -19566,5 +19566,207 @@
         9
       ]
     ]
+  },
+  {
+    "chapter": "95",
+    "id": "u59",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Past-exam passages were matched to the marked edition.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        9
+      ],
+      [
+        5,
+        10,
+        10,
+        18
+      ],
+      [
+        11,
+        15,
+        19,
+        34
+      ],
+      [
+        20,
+        25,
+        39,
+        45
+      ],
+      [
+        26,
+        43,
+        46,
+        53
+      ]
+    ]
+  },
+  {
+    "chapter": "95s",
+    "id": "u32",
+    "old": "Fast build from the book; not lane-reviewed.",
+    "new": "Exam topics link to the marked chapter and the corresponding questions.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        4
+      ],
+      [
+        5,
+        10,
+        5,
+        11
+      ],
+      [
+        11,
+        15,
+        12,
+        19
+      ],
+      [
+        20,
+        25,
+        24,
+        30
+      ],
+      [
+        26,
+        29,
+        31,
+        38
+      ],
+      [
+        30,
+        43,
+        39,
+        70
+      ]
+    ]
+  },
+  {
+    "chapter": "95s",
+    "id": "u12",
+    "old": "MGUS needs follow-up rather than treatment; smoldering myeloma requires closer monitoring, with emerging lenalidomide benefit in intermediate/high-risk disease. (p. 1503)",
+    "new": "MGUS is monitored, and smoldering myeloma warrants closer surveillance and assessment of whether its progression risk supports early treatment. (p. 1503)",
+    "edits": [
+      [
+        5,
+        10,
+        5,
+        7
+      ],
+      [
+        11,
+        20,
+        8,
+        18
+      ],
+      [
+        21,
+        43,
+        19,
+        22
+      ],
+      [
+        63,
+        71,
+        42,
+        50
+      ],
+      [
+        79,
+        90,
+        58,
+        70
+      ],
+      [
+        91,
+        95,
+        71,
+        74
+      ],
+      [
+        96,
+        104,
+        75,
+        85
+      ],
+      [
+        105,
+        117,
+        86,
+        88
+      ],
+      [
+        118,
+        125,
+        89,
+        96
+      ],
+      [
+        126,
+        128,
+        97,
+        100
+      ],
+      [
+        129,
+        147,
+        101,
+        113
+      ],
+      [
+        152,
+        159,
+        118,
+        142
+      ]
+    ]
+  },
+  {
+    "chapter": "11s",
+    "id": "u26",
+    "old": "Past-exam questions linked to this chapter (2):",
+    "new": "Past-exam questions linked to this chapter (5):",
+    "edits": [
+      [
+        44,
+        45,
+        44,
+        45
+      ]
+    ]
+  },
+  {
+    "chapter": "72s",
+    "id": "u26",
+    "old": "Past-exam questions linked to this chapter (1):",
+    "new": "Eight past-exam questions link to this chapter by printed citation or related teaching.",
+    "edits": [
+      [
+        0,
+        4,
+        0,
+        10
+      ],
+      [
+        20,
+        26,
+        26,
+        30
+      ],
+      [
+        43,
+        47,
+        47,
+        87
+      ]
+    ]
   }
 ]
