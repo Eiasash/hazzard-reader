@@ -156,3 +156,88 @@ body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
 ::highlight(reader-green){text-decoration:underline 2px var(--underline-red)}
 
 #bottomSlot #markNumber:focus,#bottomSlot #markNote:focus{outline:1px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+
+.choice-chips{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+.choice-chips button{min-height:44px;padding:4px 10px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.2 var(--ui)}
+.choice-chips button[aria-pressed=true]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+#chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"]){display:flex!important;height:52px!important;padding:4px 10px!important}
+#chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"])>:not(.library-header){display:none!important}
+.library-header:not([hidden]){display:flex;gap:10px;width:100%;align-items:center}
+.library-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+.library-header input{flex:1;min-inline-size:0;min-height:44px;margin:0;padding:7px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);font:500 max(16px,calc(14px * var(--fs,1)))/1.2 var(--ui)}
+#library>.eyebrow,#library>h1,.drug-index>h1{display:none}
+#library .library-search{position:static;padding:0}
+#chapterRows .library-row{position:relative;grid-template-columns:minmax(0,1fr) auto;gap:8px;min-height:0;padding:5px 0}
+#chapterRows .library-row>.chapter-name{border:0;background:transparent;padding:6px 0;text-align:start;align-self:stretch;color:var(--ink);font:650 calc(15px * var(--fs,1))/1.3 var(--ui)}
+#chapterRows .chapter-name::after{content:"";position:absolute;inset:0}
+#chapterRows .library-study{position:relative;z-index:1;min-width:44px;padding-inline:7px}
+.library-status,.library-exams{display:block;margin-block-start:3px;color:var(--muted);font:500 calc(11px * var(--fs,1))/1.35 var(--ui)}
+.library-exams{font-weight:400}
+
+#chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
+#chapterHeader.study-header #headerHome{display:none}
+#chapterHeader.study-header .chapter-heading{flex:1;min-inline-size:0}
+#chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) .chapter-switch{display:flex!important;flex:0 0 auto!important;width:auto!important;gap:0}
+#chapterHeader.study-header .chapter-switch button{flex:none!important;min-width:44px;width:auto!important;padding:3px 6px}
+#chapterHeader.study-header .study-header-views{display:flex;align-items:center}
+#chapterHeader .study-header-views button[aria-selected=true]{background:var(--accent-soft);color:var(--accent);box-shadow:inset 0 -2px var(--accent)}
+#chapterHeader.study-header #headerCloud{width:44px;min-width:44px}
+#chapterHeader.study-header #headerCloudLabel{display:none}
+#readerViewport.has-study-views #reader{padding-top:calc(50px + var(--s4))}
+#readerViewport.has-study-views #mcqViewport{inset-block-start:50px}
+body.reading-bars-hidden #readerViewport.has-study-views #mcqViewport{inset-block-start:0}
+#chapterHeader .flash-header{display:none}
+body.flashcards-open #chapterHeader>:not(.flash-header){display:none!important}
+body.flashcards-open #chapterHeader{display:flex!important;height:50px!important}
+body.flashcards-open #chapterHeader .flash-header{display:flex!important;align-items:center;gap:12px;width:100%}
+.flash-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+#flashcardView:not([hidden]){position:fixed;inset:0 0 calc(var(--vv-bottom-gap,0px) + var(--tabs-height)) 0;z-index:5;overflow:auto;scrollbar-width:thin;background:var(--page);color:var(--ink);padding:calc(var(--vv-top,0px) + 58px) max(var(--gutter),calc((100vw - 750px)/2)) 20px}
+body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)}
+#flashcardView #flashcardArticle,#flashcardView #flashcardCompletion{padding:var(--s4);border:1px solid var(--rule);border-radius:var(--radius);background:var(--surface)}
+#flashcardView .flashcard-actions{margin-block:10px}
+#flashcardView .flashcard-actions button{flex:1;min-height:44px;border:1px solid var(--rule);border-radius:6px}
+#flashcardView .flashcard-actions button:disabled{opacity:.55}
+#flashcardView #flashcardAnswer summary{min-height:44px;align-content:center;cursor:pointer}
+.study-page{display:flex;flex-direction:column}
+.study-group[data-study-continuation]>summary{display:none}
+.study-group>summary,.study-current-practice>summary,.study-practice-reference{min-height:44px;align-content:center;cursor:pointer;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.3 var(--ui)}
+
+#copy.study-page>.eyebrow:not(:has([data-marked])){display:none}
+#copy.study-page>h1{margin-block:0 .35em}
+#copy.study-page .study-flashcards{margin-block:4px 8px}
+#copy.study-page>.study-group{margin-block:0;border:0;border-block-end:1px solid var(--rule);border-radius:0}
+#copy.study-page>.study-group>summary{padding-block:6px}
+#copy.study-page>.study-group[data-study-continuation]{border:0}
+
+#panel[open][data-primary=true]{
+  position:fixed;inset:0 0 calc(var(--vv-bottom-gap,0px) + var(--tabs-height));margin:0;
+  width:100%;inline-size:100%;max-width:none;height:auto!important;max-height:none!important;max-block-size:none!important;
+  padding:calc(var(--vv-top,0px) + 56px) max(var(--gutter),calc((100vw - 780px)/2)) 8px;background:var(--page);
+  border:0;border-radius:0;box-shadow:none;transform:none;z-index:5;display:flex;flex-direction:column
+}
+#panel[data-primary=true]>.dialog-head{display:none}
+#panel[data-primary=true]>[data-pane]:not([hidden]){flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:0 3px 12px}
+#panel[data-primary=true] [data-pane] [data-pane]:not([hidden]){display:block;overflow:visible;padding:6px 1px}
+#panel[data-primary=true] .settings-group{display:block;border:0;border-block-end:1px solid var(--rule);margin:5px 0;background:transparent}
+.settings-group>summary{min-height:44px;align-content:center;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.4 var(--ui);cursor:pointer}
+#chapterHeader>.nav-page-title{display:none}
+body.nav-page-open #chapterHeader{display:flex!important;height:50px!important;padding-inline:12px!important}
+body.nav-page-open #chapterHeader>:not(.nav-page-title){display:none!important}
+body.nav-page-open #chapterHeader>.nav-page-title{display:block!important;font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+body.nav-page-open #bottomSlot{z-index:10}
+body.reading-bars-hidden #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);padding-block-start:0}
+body.nav-page-open.keyboard-open #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px)}
+#chapterHeader.show-resume-note>:not(#resumeNotice){display:none!important}
+#resumeNotice{display:block;padding-inline:12px;color:var(--muted);font:600 calc(14px * var(--fs,1))/1.25 var(--ui);animation:resume-note 2.2s ease both}
+@keyframes resume-note{0%,70%{opacity:1}100%{opacity:0}}
+
+#panel[open][data-primary=true][data-current-pane=tools]>[data-pane=tools]{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px}
+#panel[open][data-primary=true][data-current-pane=tools]>[data-pane=tools]>*{flex:0 0 auto;max-inline-size:100%;min-inline-size:0}
+#panel[data-primary=true] .settings-group>summary{box-sizing:border-box;width:100%}
+
+body.nav-page-open,body.flashcards-open{overflow:hidden}
+#panel[open][data-primary=true] .settings-controls{display:flex;flex-direction:column;align-items:stretch;gap:7px}
+#panel[open][data-primary=true] #sizeChoices{display:flex;gap:4px}
+#panel[open][data-primary=true] #sizeChoices button{width:auto;flex:1}
+#panel[open][data-primary=true] #toggleTheme{display:flex;width:auto;justify-content:center;gap:6px;align-items:center}
+.settings-label{font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}

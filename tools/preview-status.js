@@ -11,8 +11,9 @@
       chip.dataset.readiness=complete?'ready':'incomplete';
       chip.dataset.status=navigator.onLine?'online':'offline';
       chip.setAttribute('aria-label',version+' · '+offline);
-      chip.closest('button').title='Text & appearance · '+offline;
+      chip.closest('button').title='Settings · '+offline;
       detail.textContent=version+' · '+offline;
+      const action=document.getElementById('downloadOffline');if(action){action.textContent=complete?'Offline ready':'Download for offline';action.disabled=complete||!navigator.onLine;}
       if(legacy){legacy.textContent=offline;legacy.hidden=false;}
       document.querySelectorAll('[data-chapter-update]').forEach(button=>{button.hidden=true;});
     }

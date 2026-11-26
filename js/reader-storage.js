@@ -2,8 +2,8 @@
    IndexedDB holds five checksummed, complete reader-only snapshots. */
 window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
-  const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
-  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1';
+  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,'hazzard-timer-v2','hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add('hazzard-removals-v1');
   keys.add(HazzardAnswerHighlights.KEY);
   keys.add(HazzardMCQ.MIGRATION_KEY);
@@ -20,7 +20,6 @@ window.HazzardStorage = (() => {
   const colours=HazzardAnswerHighlights.highlightColours;
   const validHighlight=mark=>mark&&colours.includes(mark.colour)&&typeof mark.text==='string';
   const sizes={small:12,medium:13.5,large:15};
-  const validTimer=state=>Number.isInteger(state?.phase)&&state.phase>=0&&state.phase<3&&Number.isFinite(state.left)&&state.left>=0&&state.left<=[1500,300,300][state.phase]&&typeof state.running==='boolean'&&Number.isFinite(state.end)&&state.end>=0&&(!state.running||state.end>0);
 
   const REMOVALS_KEY='hazzard-removals-v1',REMOVALS_MAX=5000,REMOVALS_AGE=365*86400000;
   const emptyRemovals=()=>({version:1,bookmarks:{},generatedFlags:{},highlights:{}});
@@ -102,7 +101,7 @@ window.HazzardStorage = (() => {
   else if(key===HazzardReview.KEY)valid=HazzardReview.valid(value);
   else if(key===HazzardSimulation.KEY)valid=HazzardSimulation.valid(value);
   else if(key===HazzardMCQ.VIEW_KEY)valid=HazzardMCQ.validView(value);
-  else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
+  else if(key==='hazzard-timer-v2'||key==='hazzard-timer-v1')valid=isRecord(value);
   else if(key==='hazzard-chapters-sort-v1')valid=['number','title','yield','recent'].includes(value);
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&colours.includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
@@ -116,7 +115,7 @@ window.HazzardStorage = (() => {
     }catch{return false;}
   }
   // Unreadable stores stay byte-for-byte intact until an explicit recovery.
-  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===TIMER_KEY||key===REMOVALS_KEY||key===HazzardFlashcards.KEY;
+  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===REMOVALS_KEY||key===HazzardFlashcards.KEY;
   const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||sharedRecoveryStore(key)||key===HazzardAnswerHighlights.KEY||highlightKey(key);
   const protectedStores=new Map([
     [HazzardFlashcards.KEY,{label:'Flashcard progress',fresh:'flashcard progress',empty:HazzardFlashcards.empty}],
@@ -127,7 +126,6 @@ window.HazzardStorage = (() => {
     [DRILL_KEY,{label:'Drill grades',fresh:'drill grades',empty:()=>({})}],
     [MOCK_KEY,{label:'Legacy mock progress',fresh:'legacy mock progress',empty:()=>({ids:[],grades:{},revealed:[]})}],
     [MISSED_KEY,{label:'Missed questions',fresh:'missed questions',empty:()=>({questions:{}})}],
-    [TIMER_KEY,{label:'Study timer',fresh:'study timer',empty:()=>({phase:0,left:1500,running:false,end:0})}],
     [REMOVALS_KEY,{label:'Deletion records',fresh:'deletion records',empty:emptyRemovals}],
     [HazzardMCQ.SETTINGS_KEY,{label:'Practice settings',fresh:'practice settings',empty:()=>({version:1,includeStandout:false,shufflePastOptions:true,generatedSelected:true,drillSelected:true,at:0})}],
     [HazzardMCQ.PLACE_KEY,{label:'Practice place',fresh:'practice place',empty:()=>({version:1,screen:'bank',id:null,scroll:0})}],
@@ -280,8 +278,12 @@ window.HazzardStorage = (() => {
     try{await navigator.storage?.persist?.();status.persisted=await navigator.storage?.persisted?.()??false;}catch{status.persisted=false;}notify();return status.persisted;
   }
   let db=null,tail=Promise.resolve(),queuedPayload=null;
+  // Retired records remain in the existing checksummed snapshots and exports.
+  // Remove the active key only when its committed copy has the same raw bytes.
+  const retiredKeys=new Set(['hazzard-timer-v1','hazzard-timer-v2']),archived={};
+  const archivedValues=()=>({...archived});
   function capture(preserveInvalid=false){
-    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&!protectedStores.has(key)&&!validRaw(key,raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
+    const storage=archivedValues();for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&!protectedStores.has(key)&&!validRaw(key,raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
     return storage;
   }
   async function hash(storage){const bytes=new TextEncoder().encode(JSON.stringify(storage));const digest=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');}
@@ -314,7 +316,13 @@ window.HazzardStorage = (() => {
         const request=store.getAll();request.onsuccess=()=>{const ordered=request.result.sort((a,b)=>b.at-a.at||b.id-a.id);for(const row of ordered.slice(KEEP))store.delete(row.id);};
         tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error||Error('Automatic snapshot could not be written'));tx.onerror=()=>{};
       });
-      await indexSnapshots();
+      const committed=await indexSnapshots();
+      for(const key of retiredKeys){
+        const raw=storage[key];
+        if(typeof raw==='string'&&committed?.storage[key]===raw&&localStorage.getItem(key)===raw){
+          archived[key]=raw;localStorage.removeItem(key);
+        }
+      }
       status.snapshotAt=at;status.error='';notify();
       dispatchEvent(new Event('hazzard-snapshot-saved'));
     }).catch(error=>{if(queuedPayload===payload)queuedPayload=null;status.error=error.message||'Automatic local snapshot failed.';notify();});
@@ -329,7 +337,10 @@ window.HazzardStorage = (() => {
         status.snapshotAt=latest.at;
         // Restore only absent or invalid values. Valid empty marks/grades are
         // intentional changes and must not be resurrected from older copies.
-        for(const [key,raw]of Object.entries(latest.storage))if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
+        for(const [key,raw] of Object.entries(latest.storage)){
+          if(retiredKeys.has(key)){archived[key]=raw;continue;}
+          if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
+        }
       }
       await snapshot();
     }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
@@ -353,5 +364,5 @@ window.HazzardStorage = (() => {
     }
     snapshot();
   });
-  return {colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
+  return {archivedValues,colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();

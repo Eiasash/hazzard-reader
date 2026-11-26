@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "11e8e92543c24bd19005b06d42d6279813028c1d39340c2a367b48db4848672f",
-      "bytes": 14242
+      "sha256": "a0106d04904a70ebbc67d92ce4d4670a9d813abc20d7fb90990b25cf4c36e265",
+      "bytes": 22136
     },
     {
       "url": "./css/reading-companion.css",
@@ -5993,13 +5993,13 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "2674e4f2dc3453202110d5614b6406db72bda5bd842349d825e7beb38925d867",
-      "bytes": 79334
+      "sha256": "102730f2e1c554fd66913a6303386e0c85b0d4821dd46e365a16deca813041df",
+      "bytes": 79544
     },
     {
       "url": "./data/drug-index.json",
-      "sha256": "3d409aca71c8699eddfeb82f727bc4e0448b94d63f23bce18ebd86ec09bc62ae",
-      "bytes": 1171684
+      "sha256": "6f7346a44d7f2a57f51c0f85b931fbc4fc8f4b1ea70181a8fd8e794b8d81ef54",
+      "bytes": 8512208
     },
     {
       "url": "./data/flashcards.json",
@@ -8438,18 +8438,18 @@
     },
     {
       "url": "./index.html",
-      "sha256": "2aaf80118e668d40a7b1900e1506ec007dbc8143a02e0a1c2856c1fc35db1bcb",
-      "bytes": 1000877
+      "sha256": "2aee6efcacf4717aabc7084f0fd8c2dba5d9c499eb35956caee120e510359a4c",
+      "bytes": 1002278
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "84236fc82806e6352e989b19aeea6661c684b9ca58bb9d1635c1e4f2d5902640",
-      "bytes": 27530
+      "sha256": "0a79a27f3e43a661d3f07fcfdb317e53ad54bd8deff626e8f525801371a65a9c",
+      "bytes": 27503
     },
     {
       "url": "./js/drug-index.js",
-      "sha256": "b5883ae0a96521fada228b194b81d5a3cfec960e18264146e2a47adfd13dfe92",
-      "bytes": 7938
+      "sha256": "39219c69813b724026f6a303def9b1270fa7019ea4925e036d016a7585230d79",
+      "bytes": 9054
     },
     {
       "url": "./js/exam-evidence.js",
@@ -8463,8 +8463,8 @@
     },
     {
       "url": "./js/flashcards.js",
-      "sha256": "1d4b7e9fdbf44e2ed8d9f25c1d501fbdc23b06db107dcd6ef9df0aa6244ec954",
-      "bytes": 15379
+      "sha256": "b283f0f870a6e81183b9477b6bcfe06e776466b6ebb514db06eab23d75b6df94",
+      "bytes": 16225
     },
     {
       "url": "./js/law-cards.js",
@@ -8483,8 +8483,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "866e451dc89e623c37b2bb4106e0545f3a8ec4348fc94593d170fa54596cb2de",
-      "bytes": 175462
+      "sha256": "5354432757f5a572f6a0cf62b1a1d6c4b09254dba7f58f7b2829d22235b4c379",
+      "bytes": 175607
     },
     {
       "url": "./js/memory-aids.js",
@@ -8503,8 +8503,8 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "8197796284acf269604c50be1c79e48a8b6df0c9fa0813db95292818ca569440",
-      "bytes": 17394
+      "sha256": "a149ad8d6b43f52e44fe79968ec0c6f7203339a160116ed48e84740c03a6ec8c",
+      "bytes": 17045
     },
     {
       "url": "./js/reader-debug.js",
@@ -8528,13 +8528,13 @@
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "0304dbd26cf2a24a521db578044963a29e743bf6903f9af45a1329e63193e5d6",
-      "bytes": 28138
+      "sha256": "8413c00e8c060a5ad40cfcc237168c060f80c9b134a821c9e96312609ccdc974",
+      "bytes": 28377
     },
     {
       "url": "./js/reader-whats-new.js",
-      "sha256": "44bb5ee8e39136b69721f9f04328c1b6eeb7383368697abd693670d14a2b05cd",
-      "bytes": 3078
+      "sha256": "dfddf9b10162e4c4ee1c3514a09666f3ee65977cf94b9f0bdaccd13c403b8ad9",
+      "bytes": 3062
     },
     {
       "url": "./js/reading-companion.js",
@@ -8548,8 +8548,13 @@
     },
     {
       "url": "./js/study-home.js",
-      "sha256": "5822efc4ee3523af8367ead73d4878967fe824b990192a917f6a19d53cc2c5a8",
-      "bytes": 8452
+      "sha256": "5bbda93bd97e712eee35304f694852e6f9d2aa017cd561f754a8d7e9e60c72a5",
+      "bytes": 10006
+    },
+    {
+      "url": "./js/study-page.js",
+      "sha256": "9a9da2cbd85fdfb43bbec9fef6e6dbf446fbce45c233afee4b0917bb412a8abe",
+      "bytes": 13007
     },
     {
       "url": "./manifest.json",

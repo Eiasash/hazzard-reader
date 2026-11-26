@@ -39,11 +39,6 @@ window.HazzardCloud = (() => {
     $('cloudStatus').textContent=label();
     $('cloudError').textContent=error||notice;
     const loggedIn=signed();
-    const accountLabel=loggedIn?session.username:'Sign in';
-    $('headerCloudLabel').textContent=accountLabel;
-    $('headerCloud').dataset.signedIn=String(loggedIn);
-    $('headerCloud').setAttribute('aria-label',loggedIn?'Signed in as '+session.username:'Sign in');
-    $('headerCloud').title=loggedIn?'Signed in as '+session.username:'Sign in';
     $('cloudAuthChoices').hidden=loggedIn;
     $('cloudLogin').hidden=loggedIn||authMode!=='login';
     $('cloudRegister').hidden=loggedIn||authMode!=='register';

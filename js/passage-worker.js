@@ -49,14 +49,12 @@ self.onmessage = async ({data}) => {
     if (query!==hitsFor) {
       const lower=query.toLowerCase(), lead=lower.match(/^[^\p{L}\p{N}\p{M}_]+/u)?.[0] || '';
       const words = lower.slice(lead.length).match(/[\p{L}\p{N}\p{M}_]+[^\p{L}\p{N}\p{M}_]*/gu) || [];
-      let leading;
-      if(lead){
-        const group=await shard('symbol-'+(await bucket([...lead][0]))%64);
-        leading=new Set(Object.entries(group).filter(([mark])=>words.length?mark===lead:mark.startsWith(lead)).flatMap(([,v])=>unpack(v)));
-      }
+      const leadingMatches=lead ? shard('symbol-'+(await bucket([...lead][0]))%64).then(group=>
+        new Set(Object.entries(group).filter(([mark])=>words.length?mark===lead:mark.startsWith(lead)).flatMap(([,v])=>unpack(v)))
+      ) : Promise.resolve(null);
       let ids;
-      if(!words.length) ids=[...(leading||[])].map(n=>Math.floor(n/65536));
-      else if (words.length === 1 && !leading) ids = await candidates(words[0], true, false);
+      if(!words.length) ids=[...(await leadingMatches||[])].map(n=>Math.floor(n/65536));
+      else if (words.length === 1 && !lead) ids = await candidates(words[0], true, false);
       else {
         // One posting for a common connector and its successor replaces two large lists.
         const probes = [];
@@ -65,7 +63,7 @@ self.onmessage = async ({data}) => {
           if(i+1<words.length && common.has(words[i].trim()) && !(previous&&common.has(previous.trim())))continue;
           probes.push({offset:i, list:candidates(words[i],i===words.length-1,true,previous)});
         }
-        const lists=await Promise.all(probes.map(p=>p.list));
+        const [leading,lists]=await Promise.all([leadingMatches,Promise.all(probes.map(p=>p.list))]);
         const tail=lists.slice(1).map(list=>new Set(list));
         ids=lists[0].filter(start=>(!leading||leading.has(start-probes[0].offset))&&tail.every((set,i)=>set.has(start+probes[i+1].offset-probes[0].offset))).map(n=>Math.floor(n/65536));
 
@@ -87,7 +85,7 @@ self.onmessage = async ({data}) => {
       visibleOrder=orderKey;
     }
     const page=visible.slice(offset, offset+(offset?16:4));
-    const rows=await Promise.all(page.map(async id=>(await shard('text-'+Math.floor(id/12)))[id%12]));
+    const rows=await Promise.all(page.map(async id=>(await shard('text-'+Math.floor(id/8)))[id%8]));
     if(ticket===active)postMessage({ticket,total:hits.length,rows,offset,next:offset+rows.length<visible.length?offset+rows.length:null});
   } catch (error) { if (ticket === active) postMessage({ticket, error:error.message}); }
 };

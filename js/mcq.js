@@ -896,12 +896,14 @@ window.HazzardMCQ = (() => {
     if(bankMode&&!reviewMode&&!redoMode)host.classList.add('mcq-bank');
     let studyTabs;
     if(!bankMode&&!mockMode){
-      studyTabs=document.createElement('div');studyTabs.className='study-view-tabs';studyTabs.setAttribute('role','tablist');studyTabs.setAttribute('aria-label',readOnlyChapter?'Chapter view':'Study view');
-      for(const [mode,label] of [['notes',readOnlyChapter?'Read chapter':'Study notes'],['questions','Exam questions']]){
+      studyTabs=document.createElement('div');studyTabs.className='study-header-views';studyTabs.setAttribute('role','tablist');studyTabs.setAttribute('aria-label',readOnlyChapter?'Chapter view':'Study view');
+      for(const [mode,label] of [['notes',readOnlyChapter?'Read':'Study'],['questions','Questions']]){
         const button=document.createElement('button');button.type='button';button.dataset.studyView=mode;button.textContent=label;button.setAttribute('role','tab');button.onclick=()=>mode==='notes'?controller.notes():controller.show();studyTabs.append(button);
       }
-      document.getElementById('chapterHeader').append(studyTabs);
-      studyTabs.hidden=viewport.hidden;viewport.classList.add('has-study-tabs');
+      const modes=document.querySelector('#chapterHeader .chapter-switch');
+      modes.querySelector('[aria-current="page"]')?.remove();modes.append(studyTabs);
+      document.getElementById('chapterHeader').classList.add('study-header');
+      studyTabs.hidden=viewport.hidden;viewport.classList.add('has-study-views');
     }
     const selectTab=mode=>studyTabs?.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.studyView===mode)));
     const filtersObserver=new ResizeObserver(entries=>host.style.setProperty('--mcq-filter-height',(entries[0]?.target.getBoundingClientRect().height||0)+'px'));
@@ -1428,7 +1430,7 @@ window.HazzardMCQ = (() => {
           if(samePlace)restoringView=true;
           render();if(samePlace)restoreScroll(resumePlace);else if(restored)restoreScroll(view);else if(restoringView&&rv)restoreScroll(rv);
         }
-      }catch(error){host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="alert">'+escape(error.message||'Questions could not be loaded.')+'</p><button data-mcq="load">Reload questions</button>'+(!bankMode&&!mockMode?' <button data-mcq="notes">'+(readOnlyChapter?'Read chapter':'Study notes')+'</button>':'')+'</div>';}
+      }catch(error){host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="alert">'+escape(error.message||'Questions could not be loaded.')+'</p><button data-mcq="load">Reload questions</button>'+(!bankMode&&!mockMode?' <button data-mcq="notes">'+(readOnlyChapter?'Read':'Study')+'</button>':'')+'</div>';}
       finally{busy=false;}
     }
     function commit(q,state,log){if(log)pendingLogs.set(q.id,log);state.at=Math.max(Date.now(),(answers.get(q.id)?.at||0)+1,(state.at||0)+1);answers.set(q.id,state);pending.set(q.id,state);if(missedOnly)retryAnswers.set(q.id,state);if(mockMode){paper.answers[paperId(q)]=state;paperPending=true;}save();}

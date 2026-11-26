@@ -77,8 +77,8 @@ def build(source, directory):
                 if previous and previous.rstrip() in COMMON:
                     pairs[(previous, term)].append(occurrence)
                 previous = term
-    for start in range(0, len(rows), 12):
-        write(directory, f"text-{start // 12}.bin", rows[start:start + 12])
+    for start in range(0, len(rows), 8):
+        write(directory, f"text-{start // 8}.bin", rows[start:start + 8])
     docs, positions, short = defaultdict(dict), defaultdict(dict), defaultdict(set)
     short_positions = defaultdict(list)
     for term, occurrences in postings.items():

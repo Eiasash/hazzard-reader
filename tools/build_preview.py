@@ -24,6 +24,55 @@ def write_package(out):
             shutil.copyfile(ROOT / name,target)
 
     html = (ROOT / "index.html").read_text(encoding="utf-8")
+    template_files = {}
+    def save_template(chapter, content):
+        name = f"data/reader-templates/{chapter}.html"
+        target = out / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(content, encoding="utf-8", newline="\n")
+        template_files[chapter] = name
+        paths.add(name)
+    def split_template(match):
+        save_template(match.group(1), match.group(2))
+        return ""
+    html = re.sub(r'<template id="chapter(\d+)Template">(.*?)</template>', split_template, html, flags=re.S)
+    def split_default(match):
+        save_template("46", match.group())
+        return '<article id="copy" class="reading-copy" data-chapter-id="home"><h1>Home</h1></article>'
+    html, count = re.subn(r'<article class="reading-copy" id="copy" data-chapter-id="46">.*?</article>', split_default, html, count=1, flags=re.S)
+    if count != 1:
+        raise ValueError("Default reader chapter not found")
+    home_file = "data/home-question-summary.json"
+    catalog = json.loads((ROOT / "data/mcq/catalog.json").read_text(encoding="utf-8"))
+    evidence = json.loads((ROOT / "data/mcq/exam-references.json").read_text(encoding="utf-8"))
+    collections = json.loads((ROOT / "data/mcq/collections.json").read_text(encoding="utf-8"))
+    positions = {q["id"]: i for i, q in enumerate(catalog)}
+    chapters = {}
+    for i, q in enumerate(catalog):
+        if not q.get("retired") and q.get("chapter") is not None:
+            chapters.setdefault(str(q["chapter"]), []).append(i)
+    for chapter, record in evidence["study"].items():
+        chapters[chapter] = list(dict.fromkeys(chapters.get(chapter, []) + [positions[k] for k in record["ids"] if k in positions]))
+    compact = {"questions": [[q["id"], 1 if q["kind"] == "past" else 0, q["accepted"], int(bool(q.get("retired"))) + 2 * int(bool(q.get("content_changed")))] for q in catalog],
+               "chapters": chapters, "sittings": {positions[k]: v["sitting"] for k, v in evidence["questions"].items() if k in positions},
+               "law": [positions[k] for k in collections["israeliLawEthics"]["ids"] if k in positions]}
+    (out / home_file).write_text(json.dumps(compact,separators=(",",":")),encoding="utf-8",newline="\n")
+    paths.add(home_file)
+    drug_source = (ROOT / "data/drug-index.json").read_bytes().replace(b"\r\n", b"\n")
+    drugs = json.loads(drug_source)
+    drug_root = "drug-content/" + hashlib.sha256(drug_source).hexdigest()[:16]
+    (out / drug_root).mkdir(parents=True)
+    brief = []
+    for number, entry in enumerate(drugs["entries"]):
+        name = f"{drug_root}/{number}.json"
+        (out / name).write_text(json.dumps(entry, ensure_ascii=False, separators=(",", ":")), encoding="utf-8", newline="\n")
+        summary = {key: entry[key] for key in ("id","name","kind","class","aliases")}
+        summary["brandNames"] = sorted({value for brand in entry.get("israeliBrands", []) for value in (brand.get("name"),brand.get("hebrewName")) if value})
+        summary.update(part=name, bankOnly=entry.get("bankOnly", False), passageCount=len(entry["passages"]), questionCount=len(entry["questions"]))
+        brief.append(summary)
+    drug_summary = "data/drug-summary.json"
+    (out / drug_summary).write_text(json.dumps({"entries":brief,"counts":drugs["counts"]},ensure_ascii=False,separators=(",",":")),encoding="utf-8",newline="\n")
+    paths.add(drug_summary)
     scripts = []
     def executable(match):
         attrs, body = match.groups()
@@ -32,6 +81,8 @@ def write_package(out):
         source = re.search(r'src="([^"]+)"', attrs)
         if source:
             name = source.group(1)
+            if name not in paths:
+                raise ValueError(f"Missing shell script in asset list: {name}")
         else:
             name = f"preview-inline-{len(scripts)}.js"
             (out / name).write_text(body, encoding="utf-8", newline="\n")
@@ -47,7 +98,7 @@ def write_package(out):
     html = html.replace("<head>", "<head>"+policy+preload,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
     (out / "index.html").write_text(html,encoding="utf-8",newline="\n")
     corpus = ROOT / "data/search-index.json"
-    corpus_id = hashlib.sha256(corpus.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:16]
+    corpus_id = hashlib.sha256((ROOT / "tools/preview_search.py").read_text(encoding="utf-8").encode() + corpus.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:16]
     # Shards are optional network assets. The full corpus in the existing
     # offline manifest provides the same search without thousands of requests.
     bounds = build_search(corpus, out / "search" / corpus_id)
@@ -57,6 +108,7 @@ def write_package(out):
  if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev')){
    document.body.textContent='Open the preview on its separate host.';return;
  }
+ window.HazzardDrugSummary="data/drug-summary.json";window.HazzardTemplates=TEMPLATE_FILES;window.HazzardHomeSummary="data/home-question-summary.json";
  window.HazzardBookSearch=BOOK_SEARCH;
  for(const [src,module] of SCRIPTS){
    await new Promise((resolve,reject)=>{
@@ -66,7 +118,7 @@ def write_package(out):
  }
 })().catch(e=>{document.body.textContent=e.message;});
 """
-    (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search), encoding="utf-8",newline="\n")
+    (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search).replace("TEMPLATE_FILES",json.dumps(template_files)), encoding="utf-8",newline="\n")
     paths.add("js/preview-start.js")
     # Keep the v324 account screen. Test-host credentials must never reach live RPCs.
     cloud = """window.HazzardCloud={signedIn:false,tick:false,paused:false,label:()=> 'Cloud sync is unavailable on this preview',

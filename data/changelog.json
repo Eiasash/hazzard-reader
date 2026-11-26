@@ -5,9 +5,11 @@
       "version": "v325",
       "date": "2026-11-26",
       "changes": [
-        "Hold, drag and lift to save a highlight silently. Tap a saved mark to change its colour or delete it. Scrolling down hides the header and bottom controls.",
-        "Daily review includes numbered points. Home also opens official questions due today. Editorial table notes expand on demand.",
-        "Checked 72 more Study pages against their sources. Study titles, chapter buttons and the Drugs filters are clearer. Book search loads the matching passages first. Official keys are unchanged."
+        "Hold, drag and lift to save one continuous highlight. Tap it for colour, number, note, Copy or Delete. Other marks keep their numbers.",
+        "Settings, Notebook and Practice are full pages. Scrolling down hides the bars. The study timer has been retired.",
+        "Study pages group related material once. Flashcards have a full view with Again and Know. Chapters have one search, sort chips and a single progress line.",
+        "The Drugs index links printed passages, verified Israeli brands and matching bank questions. Book search and Home now fetch only the data they need.",
+        "The second content pass checked 72 Study pages against their sources. Official question keys are unchanged."
       ]
     },
     {

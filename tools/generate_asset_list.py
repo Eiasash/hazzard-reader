@@ -109,6 +109,8 @@ manifest_text = json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
 if manifest_text != manifest_path.read_text(encoding='utf-8'):
     manifest_path.write_text(manifest_text, encoding='utf-8', newline='\n')
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
+paths.update(re.findall(r'<script\b[^>]*\bsrc="(js/[^"?#]+\.js)"', html, re.I))
+paths.update(re.findall(r'<link\b[^>]*\bhref="(css/[^"?#]+\.css)"', html, re.I))
 paths.update(re.findall(r'(?:src|data-src)="(chapters/[^"?#]+\.(?:png|jpe?g|gif|svg|webp))"', html, re.I))
 files = []
 for path in sorted(paths):
