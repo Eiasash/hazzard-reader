@@ -92,6 +92,8 @@ The case on p357 concerns an 80-year-old man with diabetes, hypertension and sta
 
 The book lists his actual regimen so the reader can see the workload. His glucose-lowering medicines are metformin **500 mg twice daily**, glyburide **10 mg twice daily** and insulin glargine **15 units nightly**. He also takes aspirin **81 mg daily**, furosemide **40 mg twice daily**, extended-release metoprolol **100 mg daily**, lisinopril **10 mg twice daily**, spironolactone **25 mg daily** and atorvastatin **80 mg daily**. Tamsulosin **0.4 mg nightly** and acetaminophen **650 mg twice daily** add symptom-directed treatment. These doses describe this patient's starting list. Read it alongside his fatigue, fall concerns, glucose checks, foot care, weighing and travel to multiple specialists. The clinical question is what can safely be simplified while preserving the outcomes he values (p357–358).
 
+> Current practice (not the book): Glyburide carries a greater risk of prolonged hypoglycemia than short-acting sulfonylureas. Review it with the basal insulin when assessing this patient’s risk and treatment burden. [AGS Beers Criteria, 2023, Table 2](https://doi.org/10.1111/jgs.18372).
+
 The primary clinician tried reducing a beta-blocker and later insulin, but different specialists increased the treatments again. The case does not establish that either drug is the cause of fatigue or should always be stopped. It shows why a monitored trial is uninterpretable when the reason for it, intended outcome and follow-up are not shared. Identify the main activity the patient wants to regain, review the likely benefits and burdens of each intervention, agree who will coordinate changes and communicate the rationale. A trial also needs a stopping or restart decision if symptoms worsen or the hoped-for benefit does not appear (p357–358).
 
 Coordinate access to physical therapy, fall prevention, community or faith-based activities and transport when those are the means of reaching the patient's goal. Choose carefully which visits require an examination and which can be conducted remotely. Check what the wife is able and willing to do; a plan that silently assigns her many new duties can undo an apparent reduction in patient burden. The chapter presents options for managing several diseases in one plan rather than a universal beta-blocker or insulin dosage. Dose changes in a vignette cannot be transferred to someone with a different indication, risk or priority (p357–358).
@@ -105,14 +107,10 @@ The Patient Priorities Care comparison in a large private practice included prim
 
 ## Exam traps
 
-- Self-efficacy refers to confidence in a specific task. It is distinct from knowledge, independence and the number of sessions attended (p346–351).
 - Do not equate improved disease markers, reduced service use, reduced daily treatment workload and better quality of life (p351–355).
 - A person can have adequate motivation and still lack affordable food, transport, equipment or an accessible professional response (p353–355).
 - The case patient's HbA1c range describes his starting position; it is not an exam target for every person with multimorbidity (p357).
-- An outcome the patient hopes for and the treatment workload they will accept to pursue it answer different questions (p356–358).
 - A medication-change trial loses its meaning when another clinician reverses it without knowing the goal, observation interval or result (p357–358).
-
-
 - Confidence in performing a task, knowing the facts and having practical resources to carry it out are different parts of self-management (p346–349, p354–355).
 - A disease-specific program may improve one measure without demonstrating the same benefit in a frail, multimorbid population (p349–354).
 - An outcome goal describes what the patient wants to achieve; a care preference describes which actions are acceptable and feasible (p356–358).

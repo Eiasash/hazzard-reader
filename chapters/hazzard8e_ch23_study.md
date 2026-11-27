@@ -33,7 +33,7 @@ June 2026 Q10 asks which medicine to review first in an alert older adult taking
 
 > Current practice (not the book): When regular benzodiazepine use makes physical dependence likely, plan a supervised taper adapted to symptoms and the original indication. Abrupt discontinuation can cause serious withdrawal. - [Joint Clinical Practice Guideline on Benzodiazepine Tapering, 2025](https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering).
 
-> Current practice (not the book): US dietary guidance now advises drinking less, without sex-specific daily targets. It advises avoiding alcohol with interacting medicines or conditions and during recovery from alcohol use disorder. - [US Dietary Guidelines for Americans, 2026, p5](https://cdn.realfood.gov/DGA_508.pdf).
+> Current practice (not the book): US dietary guidance now advises drinking less, without sex-specific daily targets. It advises avoiding alcohol with interacting medicines or conditions and during recovery from alcohol use disorder. - [US Dietary Guidelines for Americans, 2026, p5](https://www.realfood.gov/documents/DGA.pdf).
 
 ### Matching a medicine to an alcohol-treatment goal
 

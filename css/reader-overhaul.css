@@ -1,0 +1,201 @@
+/* Reading surfaces share the palette and text-size settings of the app shell. */
+#reader.page {max-inline-size:min(100%,74ch);padding-inline:clamp(16px,3vw,32px)}
+#copy .chapter-context,.chapter-row-context {
+  display:block;color:var(--accent);font:700 var(--type-label)/1.35 var(--ui);letter-spacing:.035em;
+}
+#copy .chapter-context {margin:4px 0 .55em}
+#copy h1.chapter-canonical-title {font:740 var(--type-title)/1.16 var(--ui);letter-spacing:-.025em;margin:0 0 .75em;text-wrap:pretty}
+.book-heading-prefix,.book-heading-prior {display:none}
+[data-mark-key] .book-heading-prefix,.book-heading-prefix:has([data-mark-key]),.book-heading-prior:has([data-mark-key]) {display:inline}
+.book-heading-prior:has([data-mark-key])+[data-reader-metadata=canonical-title] {display:none}
+#copy :is(p,li,td,th,blockquote) {line-height:1.65}
+#copy :is(p,li,blockquote)[lang=he] {line-height:1.72}
+#copy :is(h2,h3,h4) {text-wrap:pretty;overflow-wrap:break-word}
+#copy :is(h2,h3,h4):not(summary *) {scroll-margin-block-start:8px}
+#copy>h2,#copy.study-v2>h2 {margin:1.45em 0 .58em;padding-top:.78em;border-block-start:1px solid var(--rule);font-weight:715}
+#copy h3 {margin-block:1em .45em;font-weight:690}
+#copy li::marker {color:var(--accent)}
+#copy :is(.reader-guidance,.study-current-practice) {
+  margin-block:1.05em;padding:10px 14px;background:var(--note-bg);color:var(--ink);
+  border:0;border-inline-start:3px solid var(--note-edge);border-radius:0 10px 10px 0;font-style:normal;
+}
+#copy :is(.reader-guidance,.study-current-practice) :is(p,li) {margin-block:.4em}
+#copy .study-current-practice>summary {font-weight:700;color:var(--ink)}
+#copy .study-current-practice .note {border:0;background:transparent;padding:0}
+#copy .clinical-sources>summary,#copy .read-references>summary {min-block-size:44px;cursor:pointer;align-content:center;color:var(--accent)}
+#copy .read-references {border-block:1px solid var(--rule);margin-block:1.5em .8em}
+#copy .read-references>summary h2 {font-size:var(--type-control);color:var(--accent)}
+#copy .read-inline-question {display:block;background:var(--surface);border:1px solid var(--rule);border-inline-start:3px solid var(--accent);border-radius:10px;padding:4px 12px;margin-block:1.1em}
+#copy .read-inline-question>summary {font-weight:650;min-block-size:44px;align-content:center}
+#copy .reader-plate,#copy figure:not(.point-rail) {margin:1.25em 0;padding:12px;background:var(--surface);border:1px solid var(--rule);border-radius:12px}
+#copy figure img {display:block;max-inline-size:100%;height:auto;margin-inline:auto;cursor:zoom-in}
+#copy .reader-plate>p {margin:0}
+#copy .reader-plate figcaption {margin-block-start:9px;color:var(--muted);font:500 var(--type-control)/1.47 var(--ui)}
+#copy .reader-plate figcaption :is(p,blockquote) {border:0;padding:0;background:transparent;font:inherit;color:inherit}
+#copy .open-table {min-height:44px;color:var(--accent);background:var(--surface);border-color:var(--control);margin-block:.35em}
+#imageZoom .zoom-bar {display:flex;gap:6px;justify-content:flex-end;align-items:center}
+#imageZoom .zoom-bar button,#tableViewer header button {flex:0 0 auto;min-width:44px;min-height:44px;font:620 var(--type-label)/1.15 var(--ui)}
+#tableViewer header {display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+#tableViewer header strong {flex:1}
+#tableViewer .table-scroll {max-inline-size:100%}
+#copy img:focus-visible {outline-offset:1px}
+#reader .chapter-nav.endcap {grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-block:1.5em .6em}
+#reader .chapter-nav.endcap>button {
+  display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:5px;
+  min-height:72px;height:auto;max-height:none;padding:12px;text-align:start;overflow:visible;
+  border:1px solid var(--rule);border-radius:10px;background:var(--surface);
+}
+#reader .chapter-nav .chapter-neighbor-title {
+  display:block;overflow:visible;overflow-wrap:anywhere;white-space:normal;word-break:normal;-webkit-line-clamp:unset;
+  font:650 var(--type-control)/1.35 var(--ui);text-wrap:pretty;
+}
+#reader .chapter-nav .chapter-neighbor-number {color:var(--accent);font:650 var(--type-label)/1.3 var(--ui)}
+@media(max-width:599px){
+  #reader .chapter-nav.endcap {grid-template-columns:minmax(0,1fr)}
+  #reader .chapter-nav.endcap>button {grid-column:1;text-align:start}
+  #reader .chapter-nav .nav-empty {display:none}
+  #reader.page:has(#copy.points-left) {padding-left:50px}
+  #reader.page:has(#copy.points-right) {padding-right:50px}
+}
+/* Chapter mode belongs to the chapter; dialogs and practice keep their own headers. */
+body:not(.nav-page-open):not(.flashcards-open) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) {
+  display:grid!important;grid-template-columns:44px minmax(0,1fr) 44px!important;grid-template-rows:auto auto;
+  height:auto!important;min-block-size:48px;gap:0 7px;padding:3px max(9px,calc((100vw - 760px)/2)) 4px!important;
+}
+#chapterHeader.study-header #findToggle {grid-row:1;grid-column:1;align-self:center}
+#chapterHeader.study-header .chapter-heading {grid-row:1;grid-column:2;min-width:0;width:auto}
+#chapterHeader.study-header #settingsGear {grid-row:1;grid-column:3;justify-self:end}
+#chapterHeader.study-header #chapterHeaderTitle {
+  display:block;-webkit-line-clamp:unset;overflow:hidden;width:100%;min-height:44px;height:44px;max-height:none;
+  white-space:nowrap;text-overflow:ellipsis;overflow-wrap:normal;padding:4px 2px!important;
+  text-align:start;font:650 var(--type-control)/1.24 var(--ui);color:var(--ink);
+}
+body.reader-section-mode #chapterHeaderTitle::before,#readerSectionStrip::before {
+  content:'▾';display:inline;margin-inline-end:.42em;color:var(--accent);font-size:var(--type-label);
+}
+#chapterHeader.study-header .chapter-switch:not([hidden]) {grid-row:2;grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:0;background:var(--soft);padding:2px;gap:2px;border-radius:9px}
+#chapterHeader.study-header .chapter-switch button {width:100%!important;min-width:0;border:0;border-radius:7px;min-height:44px;padding:4px 6px;font:630 var(--type-control)/1.15 var(--ui)}
+#chapterHeader.study-header .chapter-switch button[aria-current] {background:var(--surface);box-shadow:inset 0 -2px var(--accent);color:var(--accent)}
+#readerSectionStrip {display:none}
+body:has(#chapterHeader[data-page-back]) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) {grid-template-columns:44px minmax(0,1fr) 44px 44px!important}
+#chapterHeader.study-header[data-page-back] #settingsBack {grid-row:1;grid-column:1;width:44px;min-width:44px}
+#chapterHeader.study-header[data-page-back] #findToggle {grid-row:1;grid-column:3}
+#chapterHeader.study-header[data-page-back] #settingsGear {grid-column:4}
+body.reader-section-mode.reading-bars-hidden #readerSectionStrip {
+  display:block;flex:none;width:100%;min-block-size:44px;height:auto;margin:0;padding:5px max(16px,calc((100% - 68ch)/2));
+  border:0;border-block-end:1px solid var(--rule);border-radius:0;background:var(--surface);color:var(--ink);
+  font:650 var(--type-control)/1.27 var(--ui);text-align:start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport #mcqViewport {inset-block-start:var(--active-header-height,96px)}
+#readerSectionOutline .reader-section-link,.section-picker-list .reader-section-link {padding:9px 5px;font:550 var(--type-control)/1.4 var(--ui)}
+#readerSectionOutline .reader-section-link bdi,.section-picker-list .reader-section-link bdi {min-width:0;overflow-wrap:break-word}
+/* Chapters keep the user's sort and expose one searchable list. */
+#library.page {max-width:760px;padding-inline:clamp(14px,4vw,28px)}
+#library .library-search {display:grid;gap:8px;padding-top:12px}
+#library #chapterSearch {box-sizing:border-box;width:100%;height:auto;min-height:48px;padding:10px 13px;margin:0;border:1px solid var(--control);border-radius:10px;background:var(--surface);font:510 var(--type-body)/1.35 var(--ui)}
+#library .chapter-sort-field {display:flex;align-items:center;gap:8px;margin:0;min-height:36px;color:var(--muted);font:560 var(--type-label)/1.2 var(--ui)}
+#chapterSortSelect {min-height:38px;height:38px;max-width:100%;border:1px solid var(--rule);border-radius:7px;padding:3px 8px;background:var(--surface);color:var(--ink);font:610 var(--type-control)/1.2 var(--ui)}
+#library #libraryDrugs {display:inline-flex;min-height:44px;align-items:center;font:600 var(--type-control)/1.3 var(--ui);color:var(--accent);text-decoration:underline}
+#library #libraryDrugMatches {margin-block:9px}
+#library #libraryDrugMatches h2,#library #bankSearchGroup h2 {font:690 var(--type-heading)/1.22 var(--ui);margin:.55em 0}
+#library #libraryDrugMatches a,#panel .notebook-saved-questions .rows a {
+  display:flex;flex-direction:column;min-height:44px;gap:3px;padding:10px 0;color:var(--ink);text-decoration:none;
+}
+#library #libraryDrugMatches small,#panel .notebook-saved-questions .rows small {font:500 var(--type-label)/1.4 var(--ui);color:var(--muted)}
+#library #chapterRows {padding:0;margin:8px 0 0}
+#chapterRows .library-row {
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:0 9px;
+  margin:0;padding:4px 0;background:transparent;border:0;border-block-end:1px solid var(--rule)
+}
+#library #chapterRows .library-row>.chapter-name {
+  grid-column:1;grid-row:1;display:flex;align-items:baseline;gap:.35em;min-width:0;width:100%;min-block-size:27px!important;
+  min-height:27px!important;height:auto;padding:3px 0 1px;border:0;background:none;text-align:start;white-space:nowrap
+}
+#chapterRows .chapter-row-context {flex:none;margin:0;color:var(--muted);font:570 var(--type-label)/1.24 var(--ui)}
+#chapterRows .chapter-row-context:empty {display:none}
+#chapterRows .chapter-row-title {display:block;flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);font:670 var(--type-body)/1.28 var(--ui)}
+#chapterRows .chapter-name:hover .chapter-row-title {text-decoration:underline}
+#chapterRows .chapter-actions {display:contents}
+#library #chapterRows .chapter-actions .library-study,#library #chapterRows .exam-count>button.exam-count-toggle {
+  display:inline-flex;align-items:center;justify-content:center;min-width:0;width:auto;min-height:28px!important;min-block-size:28px!important;height:auto;margin:0;padding:2px;
+  background:transparent;border:0;border-radius:0;box-shadow:none;font:610 var(--type-label)/1.2 var(--ui);color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap
+}
+#chapterRows .chapter-actions .library-study {grid-column:2;grid-row:1}
+#chapterRows .library-exams:not([hidden]),#chapterRows .exam-count {display:contents}
+#chapterRows .library-exams[hidden] {display:none}
+#library #chapterRows .exam-count>button.exam-count-toggle {grid-column:3;grid-row:1}
+#chapterRows .library-row>.library-status {grid-column:1/-1;grid-row:2;min-width:0;margin:0;color:var(--muted);font:520 var(--type-small)/1.3 var(--ui);white-space:nowrap}
+#chapterRows .library-status:empty {display:none}
+#library #chapterRows .library-row:has(>.library-status:empty)>.chapter-name {min-height:36px!important}
+#library #chapterRows .library-row:has(>.library-status:empty) :is(.library-study,.exam-count-toggle) {min-height:36px!important}
+#chapterRows .exam-count-list:not([hidden]) {grid-column:1/-1;grid-row:3;margin:2px 0}
+#library #chapterRows .chapter-p005-note {display:inline;flex:none;width:auto;margin:0;padding:0;border:0;background:none;color:var(--muted);font:540 var(--type-small)/1.2 var(--ui)}
+.exam-count-list .asked-sitting {display:grid;grid-template-columns:minmax(0,8.5em) minmax(0,1fr);align-items:baseline;gap:8px;padding:3px 0;border-block-start:1px solid var(--rule)}
+.exam-count-list .asked-sitting>strong {font:640 var(--type-label)/1.3 var(--ui);color:var(--ink)}
+.exam-count-list .asked-question-links {display:flex;flex-wrap:wrap;gap:0 5px}
+#chapterRows .asked-question-links a,.exam-count-list .asked-question-links a {display:inline-flex;align-items:center;min-height:28px;min-width:28px;margin:0;padding:2px 1px;border:0;border-radius:0;background:transparent;color:var(--accent);font:570 var(--type-label)/1.2 var(--ui);text-decoration:underline;text-underline-offset:2px}
+#copy.drug-index .drug-entry {border:0;border-bottom:1px solid var(--rule);background:transparent;padding:.45em 0}
+#copy.drug-index .drug-entry>summary {display:flex;flex-direction:column;align-items:flex-start;gap:3px;font-size:var(--type-body);min-height:44px}
+#copy.drug-index .drug-links {margin:.45em 0;background:var(--surface);border:1px solid var(--rule);border-radius:9px;padding:6px 10px}
+/* Personal notes and Settings remain genuine reader data and controls. */
+#panel[open][data-primary=true] > :is([data-pane=notebook],[data-pane=tools]) {max-width:760px;margin-inline:auto;width:100%;padding-inline:clamp(14px,4vw,28px)}
+#panel[data-primary=true] [data-pane=notebook] .nb-group,#panel[data-primary=true] [data-pane=tools] .settings-group {
+  border:1px solid var(--rule);border-radius:10px;background:var(--surface);padding:0 12px;margin:8px 0;
+}
+#panel[data-primary=true] :is(.nb-group,.settings-group)>summary {color:var(--ink);font:650 var(--type-control)/1.4 var(--ui);min-height:48px;align-content:center;cursor:pointer}
+#panel [data-pane=notebook] .nb-heading {color:var(--muted);font:660 var(--type-label)/1.35 var(--ui);margin:1.2em 0 .45em}
+#panel [data-pane=notebook] .nb-item {border-block-end:1px solid var(--rule)}
+#panel .notebook-saved-questions .rows a strong {font:570 var(--type-body)/1.5 var(--ui)}
+#panel[open][data-primary=true] [data-pane=tools] .settings-appearance {display:grid;gap:9px;padding:14px;background:var(--surface);border:1px solid var(--rule);border-radius:12px}
+#panel [data-pane=tools] .settings-appearance h2 {font:700 var(--type-subhead)/1.3 var(--ui);margin:0}
+#panel[open][data-primary=true] #sizeChoices {gap:2px;background:var(--soft);padding:3px;border-radius:9px}
+#panel[open][data-primary=true] #sizeChoices button {border:0;background:transparent;color:var(--muted)}
+#panel[open][data-primary=true] #sizeChoices button[aria-pressed=true] {background:var(--surface);color:var(--accent);box-shadow:inset 0 -2px var(--accent)}
+#panel[open] #sizeChoices button[data-unavailable]::after {content:none}
+.notebook-empty {padding:16px;background:var(--surface);border:1px solid var(--rule);border-radius:12px}
+.notebook-empty h2 {font:680 var(--type-heading)/1.25 var(--ui);margin:0 0 8px}
+.notebook-empty a {display:inline-flex;align-items:center;min-height:44px;padding-inline-end:14px;color:var(--accent);font-weight:620}
+#copy .clinical-sources {margin:3px 0 0;border:0;background:transparent}
+#copy .clinical-sources a {margin-inline-end:.3em}
+
+#panel[data-primary=true] [data-pane=notebook] details.nb-group {margin:0;padding:0;border:0;border-radius:0;background:transparent;border-block-end:1px solid var(--rule)}
+#panel [data-pane=notebook] .nb-group>summary,#panel [data-pane=notebook] .nb-answer-list>summary {
+  display:flex;align-items:center;gap:.55em;list-style:none;min-height:44px;margin:0;padding:5px 0;color:var(--ink);font:620 var(--type-control)/1.28 var(--ui);
+}
+#panel [data-pane=notebook] details>summary {display:flex;gap:.55em;align-items:center;list-style:none}
+#panel [data-pane=notebook] details>summary::marker {content:''}
+#panel [data-pane=notebook] details>summary::-webkit-details-marker {display:none}
+#panel [data-pane=notebook] details>summary::before {content:"▸";flex:none;width:.75em;text-align:center;color:var(--accent)}
+#panel [data-pane=notebook] details[open]>summary::before {content:"▾"}
+#panel [data-pane=notebook] .nb-heading {margin:.8em 0 .2em}
+#panel .nb-reading-section {list-style:none;border:0;margin:0;padding:0}
+#panel .nb-reading-section h4 {margin:11px 0 3px;padding:6px 0 3px;border-top:1px solid var(--rule);color:var(--accent);font:690 var(--type-control)/1.3 var(--ui)}
+#panel .nb-reading-section:first-child h4 {border:0}
+#panel .nb-reading-section ul {list-style:none;margin:0;padding:0}
+#panel .nb-unplaced .nb-answer-text {background:transparent;color:var(--ink);text-decoration:none;font-weight:480}
+#panel .nb-unplaced button:first-child small {display:block;color:var(--muted);font:480 var(--type-small)/1.35 var(--ui);margin-top:3px}
+#panel .nb-current-place {display:flex;align-items:center;gap:8px;border-block-end:1px solid var(--rule);padding:6px 0}
+#panel .nb-current-place[hidden] {display:none}
+#panel .nb-current-place span {flex:1;color:var(--muted);font:530 var(--type-label)/1.3 var(--ui)}
+#panel .nb-current-place button {width:auto;min-height:44px;margin:0;padding:3px 5px;border:0;background:transparent;color:var(--accent);font:620 var(--type-label)/1.2 var(--ui)}
+
+#copy :is(.study-group,.study-test)>summary {display:flex;align-items:center;gap:.45em;list-style:none;min-block-size:44px;margin:0;padding:5px 0;line-height:1.22}
+#copy :is(.study-group,.study-test)>summary::-webkit-details-marker {display:none}
+#copy :is(.study-group,.study-test)>summary::marker {content:''}
+#copy :is(.study-group,.study-test)>summary::before {content:'▸';flex:none;width:.75em;color:var(--accent);font:650 var(--type-label)/1 var(--ui)}
+#copy :is(.study-group,.study-test)[open]>summary::before {content:'▾'}
+#copy :is(.study-group,.study-test)>summary>:is(h2,h3,h4) {display:inline;min-width:0;margin:0;padding:0;border:0;font:670 var(--type-subhead)/1.24 var(--ui)}
+#copy [data-study-continuation]>summary {display:none}
+#copy .book-art-crop {display:block;position:relative;width:100%;overflow:hidden}
+#copy .book-art-crop>img {position:absolute;inset:0 auto auto 0;display:block;width:100%;height:auto;max-width:none}
+#copy figure:has(.book-art-crop)>figcaption[data-image-label-only]:not(:has([data-mark-key])) {display:none}
+#copy .printed-figure-caption {margin:.4em 0 .9em;font-style:normal}
+#copy .printed-figure-caption :is(p,em) {font:inherit}
+#imageZoom,#imageZoom::backdrop {background:var(--surface);color:var(--ink)}
+#imageZoom .zoom-bar {background:var(--surface);border-bottom:1px solid var(--rule)}
+#imageZoom .zoom-bar button {background:var(--surface);color:var(--accent);border-color:var(--control)}
+@media(max-width:700px){
+ #copy .table-wrap {max-inline-size:100%;inline-size:100%}
+ #copy .table-wrap>table {table-layout:fixed;inline-size:100%;max-inline-size:100%}
+ #copy .table-wrap>table :is(td,th):nth-child(n) {min-inline-size:0;max-inline-size:none;padding:.4em;white-space:normal;overflow-wrap:anywhere;word-break:normal;line-height:1.4}
+}

@@ -167,22 +167,57 @@ window.HazzardEvidence = (() => {
       }
     }
   }
-  function askedBadge(entries,description,anchor,prefix='Asked'){
+  const badgeSources=new WeakMap();
+  function askedBadge(entries,description,anchor,prefix='Asked',relations){
     const badge=document.createElement('span');badge.className='exam-evidence exam-links exam-count';
     badge.dataset.readerMetadata='exam';badge.dir='ltr';badge.lang='en';if(anchor)badge.id=anchor;
     const unique=[...new Map(entries).entries()].filter(([,entry])=>entry);
-    unique.sort((a,b)=>String(b[1].sitting).localeCompare(String(a[1].sitting))||a[1].number-b[1].number);
+    const order=id=>!relations||relations.get(id).has('Direct citation')?0:relations.get(id).has('Related teaching')?1:2;
+    unique.sort((a,b)=>order(a[0])-order(b[0])||sittingDate(b[1].sitting)-sittingDate(a[1].sitting)||a[1].sitting.localeCompare(b[1].sitting)||a[1].number-b[1].number);
     const toggle=document.createElement('button');toggle.type='button';toggle.className='exam-count-toggle';
     toggle.textContent=prefix+' '+unique.length;toggle.setAttribute('aria-label',toggle.textContent+' · '+description);
     toggle.setAttribute('aria-expanded','false');
     const list=document.createElement('span');list.className='exam-count-list';list.hidden=true;
     toggle.onclick=()=>{
       if(list.hidden&&!list.childElementCount){
-        for(const [id,entry] of unique){const link=document.createElement('a');link.href=questionURL(id);link.textContent=label(entry);list.append(link);}
+        const categories=new Map();
+        for(const [id,entry] of unique){
+          const category=relations?[...relations.get(id)].sort().join(' · '):'';
+          let section=categories.get(category);
+          if(!section){
+            const target=category?document.createElement('span'):list;
+            if(category){
+              target.className='exam-reference-group';
+              const heading=document.createElement('strong');heading.className='exam-reference-type';
+              heading.textContent=category;target.append(heading);list.append(target);
+            }
+            section={target,sittings:new Map()};categories.set(category,section);
+          }
+          let group=section.sittings.get(entry.sitting);
+          if(!group){
+            const row=document.createElement('span'),title=document.createElement('strong');
+            row.className='asked-sitting';title.textContent=sittingLabel(entry.sitting);group=document.createElement('span');group.className='asked-question-links';
+            row.append(title,group);section.target.append(row);section.sittings.set(entry.sitting,group);
+          }
+          const link=document.createElement('a');link.href=questionURL(id);link.textContent='Q'+entry.number;link.setAttribute('aria-label',label(entry));group.append(link);
+        }
       }
       list.hidden=!list.hidden;toggle.setAttribute('aria-expanded',String(!list.hidden));
     };
-    badge.append(toggle,list);return badge;
+    badge.append(toggle,list);
+    badgeSources.set(badge,{entries:unique,description,prefix,relations});
+    return badge;
+  }
+  function cloneTableControls(sourceTable,enlargedTable){
+    const originals=sourceTable.querySelectorAll('.exam-count');
+    enlargedTable.querySelectorAll('.exam-count').forEach((copy,index)=>{
+      const original=originals[index],source=badgeSources.get(original);
+      if(!source)return;
+      const clone=askedBadge(source.entries,source.description,null,source.prefix,source.relations);
+      if(original.id)clone.dataset.sourceAnchor=original.id;
+      if(original.querySelector('.exam-count-toggle').getAttribute('aria-expanded')==='true')clone.querySelector('button').click();
+      copy.replaceWith(clone);
+    });
   }
   function refreshExamList(copy,chapter,data){
     const original=[...copy.querySelectorAll('p')].find(p=>/^(?:No past-exam questions are currently linked to this chapter|Past-exam questions linked to this chapter \(\d+\))/.test(p.textContent.trim()));
@@ -236,14 +271,53 @@ window.HazzardEvidence = (() => {
         byPage.get(p.page).push([id,entry]);
       }
     }
-    const annotations=[], sections=[];
+    const annotations=[], sections=[],spots=new Map();
+    // Consecutive crops of the same numbered table are one printed object.
+    // Individual table cells and unrelated prose blocks remain separate locations.
+    const objectName=text=>{
+      const match=/^\s*(table|fig(?:ure)?\.?)\s+(\d+[-–]\d+[a-z]?)(?![\w-])/i.exec(text||'');
+      return match?(match[1].toLowerCase()==='table'?'Table ':'Figure ')+match[2].replace('–','-').toUpperCase():null;
+    };
+    function printedSpot(marker){
+      const cell=marker.closest('td,th');
+      if(cell)return {key:cell,block:cell,inside:true};
+      const block=marker.closest('p,li,figcaption,h1,h2,h3,h4,h5,h6');
+      const figure=marker.closest('figure')||block?.closest('figure');
+      const image=marker.matches('img')?marker:figure?.querySelector('img')||block?.querySelector('img');
+      const caption=block?.textContent.trim()||'';
+      const isLabel=/^(?:table|fig(?:ure)?\.?)\s+\d+[-–]\d+[a-z]?(?:\s*(?:[■.—–:]|\(continued\)|reproduced as)|\s*$)/i.test(caption);
+      const named=objectName(image?.alt)||objectName(figure?.querySelector('figcaption')?.textContent)||(isLabel&&objectName(caption));
+      if(named){
+        const anchor=figure||block||marker;
+        return {key:named,block:anchor,inside:!figure&&!!block,name:named};
+      }
+      return {key:block||marker,block:block||marker,inside:!!block&&block!==marker};
+    }
     function labelAt(marker,entries,description,anchor,prefix){
       if(!marker||!entries.length)return;
-      const badge=askedBadge(entries,description,anchor,prefix);
-      // Keep the citation anchor at its source, but put its visible links after the prose.
-      const block=marker.closest('p,li,td,th,figcaption,h1,h2,h3,h4,h5,h6');
-      if(block&&block!==marker)block.append(badge);else marker.after(badge);
-      if(compact&&!study)annotations.push({element:badge,ids:entries.map(([id])=>id)});
+      const location=printedSpot(marker);
+      let spot=spots.get(location.key);
+      if(!spot){spot={...location,entries:new Map(),relations:new Map(),anchors:[],description};spots.set(location.key,spot);}
+      spot.anchors.push(anchor);
+      const relation=anchor==='asked-chapter'?'Earlier chapter assignment':prefix==='Cited'?'Chapter citation, no exact passage':prefix==='Related exam'?'Related teaching':'Direct citation';
+      for(const [id,entry] of entries){
+        spot.entries.set(id,entry);
+        if(!spot.relations.has(id))spot.relations.set(id,new Set());
+        spot.relations.get(id).add(relation);
+      }
+    }
+    function renderSpots(){
+      for(const spot of spots.values()){
+        const description=spot.name||(spot.anchors.length===1?spot.description:/chapter$/.test(spot.anchors[0])?'chapter references':'exam references for this passage');
+        const badge=askedBadge([...spot.entries],description,spot.anchors[0],'Asked',spot.relations);
+        if(spot.name)badge.dataset.printedObject=spot.name;
+        for(const id of spot.anchors.slice(1)){
+          const alias=document.createElement('span');alias.id=id;alias.setAttribute('aria-hidden','true');
+          alias.className='exam-location-alias';badge.prepend(alias);
+        }
+        if(spot.inside)spot.block.append(badge);else spot.block.after(badge);
+        if(compact&&!study)annotations.push({element:badge,ids:[...spot.entries.keys()]});
+      }
     }
     if(earlier.length)labelAt(copy.querySelector('h1'),earlier,'Asked in this chapter','asked-chapter');
     if(chapterOnly.length)labelAt(copy.querySelector('h1'),chapterOnly,'Chapter reference without a matching printed passage','cited-chapter','Cited');
@@ -279,6 +353,7 @@ window.HazzardEvidence = (() => {
       const remaining=new Map();
       for(const [page,entries] of byPage)if(!seen.has(page))for(const [id,entry] of entries)remaining.set(id,entry);
       if(remaining.size)labelAt(copy.querySelector('h1'),[...remaining],'Exam questions on pages outside these notes','study-exam-other');
+      renderSpots();
       return;
     }
     const teachingTargets=new Map();
@@ -338,6 +413,7 @@ window.HazzardEvidence = (() => {
       const marker=copy.querySelector('[id="'+CSS.escape(anchor)+'"]');
       labelAt(marker,[...ids].map(id=>[id,data.questions[id]]),'Related exam questions on this teaching passage','related-source-'+anchor,'Related exam');
     }
+    renderSpots();
     if(!compact)return;
     const counts=[];
     for(const {ids,end} of sections){
@@ -391,5 +467,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {askedBadge,sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
+  return {askedBadge,cloneTableControls,sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
 })();

@@ -88,7 +88,9 @@ Docetaxel improved survival in castration-resistant disease, whereas mitoxantron
 
 ### Preventing skeletal events and relieving existing pain
 
-May 2024 Q70 asks which supportive treatment has evidence in prostate cancer with bony metastases. Zoledronic acid is the bisphosphonate with demonstrated benefit among the agents compared in the chapter. The practical endpoint is prevention or delay of tumor-related skeletal events. This is distinct from increasing bone density during ADT, from treating the cancer itself and from rapid relief of an existing painful metastasis. Renal monitoring and dental evaluation before zoledronic acid matter in older adults; ask about dental symptoms because of jaw osteonecrosis risk. Denosumab blocks RANK ligand, providing another mechanism in metastatic castration-resistant disease. The renal caveat for denosumab is hypocalcemia risk, even when drug clearance is not the obstacle (p1417–1418).
+May 2024 Q70 asks which supportive treatment has evidence in prostate cancer with bony metastases. Zoledronic acid is the bisphosphonate with demonstrated benefit among the agents compared in the chapter. The practical endpoint is prevention or delay of tumor-related skeletal events. This is distinct from increasing bone density during ADT, from treating the cancer itself and from rapid relief of an existing painful metastasis. Renal monitoring and dental evaluation before zoledronic acid matter in older adults; ask about dental symptoms because of jaw osteonecrosis risk. Denosumab blocks RANK ligand, providing another mechanism in metastatic castration-resistant disease. The renal caveat for denosumab is hypocalcemia risk, even when drug clearance is not the obstacle (p1417–1418). The comparison of denosumab with zoledronic acid addressed skeletal events; it did not establish a survival advantage (pp1417–1418).
+
+> Current practice (not the book): Correct pre-existing hypocalcemia and monitor calcium during denosumab treatment, particularly early on. Severe renal dysfunction or dialysis increases the risk of hypocalcemia. Ensure adequate calcium and vitamin D. - [Xgeva US prescribing information, 2026](https://www.pi.amgen.com/united_states/xgeva/xgeva_pi.pdf).
 
 Radiation can target an especially painful metastasis while systemic therapy continues. The chapter describes **1–10 fractions**, with meaningful lasting relief in **80%–90%** of patients treated for painful bony disease. Onset can occur within **48 hours**, although maximal benefit may take up to two weeks after treatment ends. Strontium-89 and samarium-153 are beta emitters used for palliation. Radium-223 delivers alpha particles and has survival as well as pain data in selected metastatic castration-resistant disease; one trial improved median survival by **3.6 months**. Its addition to abiraterone plus a corticosteroid in another trial did not improve symptomatic skeletal-event-free survival and increased fractures. Different bone-directed interventions answer different questions, even when they are all described as treatment for bone metastases (p1418–1419).
 
@@ -101,20 +103,6 @@ Radiation can target an especially painful metastasis while systemic therapy con
 - Suspected cord compression warrants steroids while being evaluated. Pain at a weight-bearing metastasis needs fracture assessment and urgent surgical/radiation consultation (p1416).
 - A survival benefit need not produce a PSA decline: the sipuleucel-T trial improved survival without PSA reduction or better progression-free survival (p1418).
 
-
-### Painful metastases and the choice of treatment
-
-- Bone pain in a patient with newly diagnosed metastatic prostate cancer prompts two parallel decisions. Androgen deprivation treats hormone-sensitive cancer, while focal pain in a weight-bearing bone or new back pain may require urgent imaging and local treatment to avert fracture or cord compression. A normal initial neurologic examination cannot exclude epidural disease (p1416).
-- An LHRH agonist initially raises testosterone. For known metastases the chapter describes antiandrogen coverage starting **7–10 days** before the agonist and continuing for **at least 30 days** in total. Orchiectomy is an alternative way to reduce testosterone. Timing after an isolated PSA rise is a different question from treating painful metastatic disease (p1416).
-
-> Current practice (not the book): For newly presenting metastatic hormone-sensitive disease, offer ADT with treatment intensification to patients fit for combination therapy who have sufficient life expectancy and accept the additional adverse effects. With impending cord compression or outlet obstruction, an LHRH antagonist or orchiectomy avoids an agonist flare. - [European Association of Urology guideline, 2026](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment).
-
-- Separate ADT-related loss of bone mineral density from tumor-related skeletal events. The first calls for fracture-risk and bone-density assessment. For the second, the book singles out zoledronic acid among bisphosphonates tested in advanced prostate cancer. It also describes denosumab, a RANK ligand antibody, as noninferior for preventing skeletal events in metastatic castration-resistant disease. That comparison does not establish a survival advantage (p1417–1418).
-- Before IV zoledronic acid, assess renal function and obtain a dental examination. Ask about dental symptoms during treatment because osteonecrosis of the jaw can occur. The chapter describes denosumab as usable in renal insufficiency (p1418).
-
-> Current practice (not the book): Correct pre-existing hypocalcemia and monitor calcium during denosumab treatment, particularly early on. Severe renal dysfunction or dialysis increases the risk of hypocalcemia. Ensure adequate calcium and vitamin D. - [Xgeva US prescribing information, 2026](https://www.pi.amgen.com/united_states/xgeva/xgeva_pi.pdf).
-
-- Palliative radiotherapy can relieve painful bone metastases even when systemic treatment continues. The chapter reports significant and durable relief in **80%–90%** of treated patients. Suspected impending fracture warrants urgent structural assessment as well as analgesia (p1416, p1419).
 
 ## Past exam questions
 

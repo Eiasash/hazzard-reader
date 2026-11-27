@@ -107,7 +107,6 @@ For Merkel cell carcinoma, distinguish local from regional nodal or distant dise
 - The lower-eyelid BCC that points toward hedgehog inhibition in the exam still needs assessment of operability and radiation options (p1460–1463).
 - Do not confuse the narrow initial diagnostic margin for suspected melanoma with the definitive excision margin determined by Breslow depth (p1467).
 - A solitary red nodule can represent amelanotic melanoma or Merkel cell carcinoma, and a black patch on a sole can be acral melanoma (p1465–1470).
-
 - Basal cell carcinoma rarely metastasizes but can cause local morbidity; morpheaform lesions may extend beyond visible borders and recur (p1458).
 - Near the end of life, active nonintervention may be reasonable for asymptomatic low-risk disease; palliative surgery may still help painful, bleeding or malodorous lesions (p1471).
 

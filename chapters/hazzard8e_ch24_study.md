@@ -106,7 +106,6 @@ The figure also illustrates a decision to remove rather than add treatment. None
 - CoQ10 heart-failure data cited here are adjunctive in reduced-EF disease; formulation and population matter for interpretation (p334).
 - Compare dose of active EPA/DHA, not total fish-oil capsule mass; prevention of cardiovascular events and treatment of depression or dementia are separate endpoints (p332–334).
 - The upper melatonin dose quoted in the book is not its suggested starting dose; the current chronic-insomnia recommendation is separately labeled (p336).
-
 - A result with a standardized botanical extract applies most directly to that preparation, dose and indication (p334–335, p337).
 - Improvement in symptoms of established disease and prevention of new disease require different trial outcomes (p334–335).
 - A positive finding for hand osteoarthritis cannot be transferred automatically to hip or knee osteoarthritis (p335).

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v335",
+      "date": "2026-11-27",
+      "changes": [
+        "The redesigned reader adds compact chapters, section-grouped notes and exam links, a shared question library, resumable offline downloads and source-checked teaching."
+      ]
+    },
+    {
       "version": "v334",
       "date": "2026-11-27",
       "changes": [

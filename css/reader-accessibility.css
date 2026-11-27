@@ -99,6 +99,8 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
 }
 
 #copy a[href]:not(.pg) { display:inline-block; min-inline-size:24px; min-block-size:24px; max-inline-size:100%; overflow-wrap:anywhere; }
+#copy .practice-sentence-initial {text-transform:uppercase}
+#copy .note.book-media-caption {border:0;background:transparent;padding:0;color:var(--muted)}
 #chapterRows .chapter-name .chapter-p005-note { display:inline-block; width:fit-content; margin-inline-start:.4em; }
 #chapterHeader #settingsGear { order:2; }
 #chapterRows .chapter-name::after { content:none; }
@@ -170,4 +172,4 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
    These are ordinary working links; numeric counts populate from the notebook. */
 html[data-initial-home] #readerViewport {display:none;}
 html[data-initial-home] #desk[hidden] {display:block!important;}
-html[data-initial-home] #desk :is(.home-weak,.resume-card,#homeFlashDue) {display:none;}
+html[data-initial-home] #desk :is(.home-weak,#homeFlashDue) {display:none;}

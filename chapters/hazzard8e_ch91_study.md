@@ -117,7 +117,6 @@ Performance status alone can conceal a patient who can walk into clinic but cann
 - Hazzard associates Lambert–Eaton syndrome with SCLC; the 2026 related item cites Harrison and tests the accompanying autonomic features (p1424).
 - In PACIFIC, do not reverse the durvalumab and placebo progression-free survival medians as the printed sentence does (p1426).
 - High PD-L1 expression and a targetable driver are distinct results. Interpret them with histology and the population studied (p1427–1430).
-
 - A 20% relative reduction in lung cancer deaths in NLST is neither a positive scan's predictive value nor a survival gain for an individual (p1422).
 - A never-smoker can develop lung cancer and may have an actionable driver alteration (p1421).
 - The early palliative care survival result arose in a metastatic NSCLC trial, alongside oncology care (p1432).

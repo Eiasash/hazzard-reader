@@ -9,7 +9,6 @@ import tempfile
 from pathlib import Path
 
 from preview_search import build as build_search
-from preview_overhaul import publish as publish_overhaul
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -216,8 +215,6 @@ if(files&&!params.has('home')&&!params.has('tab')&&navigator.onLine){
     worker = worker.replace("__SHELL__", json.dumps(shell, separators=(",", ":")))
     (out / "sw.js").write_text(worker, encoding="utf-8", newline="\n")
     (out / "_headers").write_text("/sw.js\n  Cache-Control: no-cache, must-revalidate\n/index.html\n  Cache-Control: no-cache, must-revalidate\n/reader-start/*\n  Cache-Control: public, max-age=31536000, immutable\n", encoding="utf-8", newline="\n")
-    # A separate design prototype has no notebook or release-worker integration.
-    publish_overhaul(ROOT,out)
     print(out,source_list["version"],len(files),"verified assets")
 
 

@@ -178,7 +178,8 @@ function installPointRail(main,openMark){
     for(const [root] of rails)if(!root.isConnected){resized.unobserve(root);rails.delete(root);}
     for(const root of main.querySelectorAll('#copy,.mcq-explanation')){
       let rail=rails.get(root);
-      const markers=root.querySelectorAll('[data-mark-key][data-point]');
+      // These lists carry their printed ordinals. The marked words still open their point editor.
+      const markers=[...root.querySelectorAll('[data-mark-key][data-point]')].filter(marker=>!marker.closest('ol.clinical-point-list'));
       // Reserve space only on the starting side that actually carries point labels.
       const blocks=new Map(),styles=new Map(),sides=new Set();
       for(const marker of markers){

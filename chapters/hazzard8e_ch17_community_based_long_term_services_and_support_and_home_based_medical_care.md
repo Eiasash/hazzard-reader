@@ -4,7 +4,7 @@ Jessica Colburn, Jennifer Hayashi, Bruce Leff
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> [Official questions linked to this chapter](?chapter=17s&view=questions&source=past).
 
 > **Source and method.** Printed pages 237-248, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

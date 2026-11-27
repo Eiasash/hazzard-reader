@@ -4,7 +4,7 @@ Monica Christmas, Kaitlyn Fruin, Stacy Tessler Lindau
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> [Official questions linked to this chapter](?chapter=35s&view=questions&source=past).
 
 > **Source and method.** Printed pages 503-526, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
@@ -30,7 +30,7 @@ Sociological evidence about sexuality of women in middle and later life has incr
 
 3. Older women who identify as members of a sexual minority group are marginalized and stigmatized in medical care generally, and they are particularly vulnerable with respect to receiving appropriate medical attention for their sexual concerns.
 
-The 2005–2006 National Social Life, Health and Aging Project (NSHAP), funded by the National Institutes of Health, provided the first comprehensive, populationrepresentative biosocial data on sexuality among middle age and older women and men in the United States, and it informs many of the insights presented in this chapter (https://www.norc.org/Research/Projects/Pages/nationalsocial-life-health-and-aging-project.aspx). In 2010 and 2011 (NSHAP Wave II), 75% of participants in the baseline NSHAP study (Wave I) participated in follow-up interviews. Between 2015 and 2016, 2409 surviving Wave I respondents and an additional new cohort of respondents born between 1948 and 1965 participated in Wave III (accessed at https://www.icpsr.umich.edu/web/NACDA/ studies/36873). This chapter first locates older women’s sexuality in a sociodemographic context, then describes sexual activity, behaviors, and problems experienced by women in later life; reviews physiologic changes that affect
+The 2005–2006 National Social Life, Health and Aging Project (NSHAP), funded by the National Institutes of Health, provided the first comprehensive, populationrepresentative biosocial data on sexuality among middle age and older women and men in the United States, and it informs many of the insights presented in this chapter ([https://www.norc.org/Research/Projects/Pages/nationalsocial-life-health-and-aging-project.aspx](https://www.norc.org/research/projects/national-social-life-health-and-aging-project.html)). In 2010 and 2011 (NSHAP Wave II), 75% of participants in the baseline NSHAP study (Wave I) participated in follow-up interviews. Between 2015 and 2016, 2409 surviving Wave I respondents and an additional new cohort of respondents born between 1948 and 1965 participated in Wave III (accessed at https://www.icpsr.umich.edu/web/NACDA/ studies/36873). This chapter first locates older women’s sexuality in a sociodemographic context, then describes sexual activity, behaviors, and problems experienced by women in later life; reviews physiologic changes that affect
 
 <a id="p504"></a>**[p. 504]**
 

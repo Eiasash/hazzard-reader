@@ -104,8 +104,6 @@ Table 18-8 describes resources with different purposes: caregiver discharge-plan
 - Home health and home hospice can provide intermittent skilled or symptom support; neither automatically provides continuous custodial help (p251).
 - A preadmission dispensing record, an inpatient administration record and a final home prescription serve different purposes in medication reconciliation (p253, p257).
 - In Table 18-9, assuming another team member explained the changed diet was as consequential as omitting the formal order (p260).
-
-- An accurate preadmission medication list and the intended postdischarge regimen answer different questions (p257).
 - Fewer emergency visits did not amount to a significant reduction in rehospitalization in the Project RED trial (p258).
 - Transfer to a higher level of care can itself harm a person with dementia; communicate baseline function and weigh the goals of transfer (p259–260).
 

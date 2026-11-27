@@ -117,7 +117,10 @@ window.HazzardFlashcards = (() => {
     element('flashcardError').hidden = true;
     if (card) {
       article.dataset.cardId = card.id;
-      const saved = records[card.id]?.grade;
+      const previous=records[card.id],saved=previous?.grade;
+      const knownStep=HazzardReview.advance(previous?.step??0,true,!previous);
+      pane.querySelector('[data-flash-grade="know"]').textContent='Know · '+HazzardReview.STEPS[knownStep]+' days';
+      pane.querySelector('[data-flash-grade="again"]').textContent='Again · tomorrow';
       const grade = saved === 'again' ? ' · Again' : saved === 'know' ? ' · Know' : '';
       const rank = session.missed?.[card.id];
       const priority = session.order === 'missed' && rank != null ? [' · Missed question', ' · Missed topic', ' · Missed chapter'][rank] || '' : '';
@@ -283,7 +286,7 @@ window.HazzardFlashcards = (() => {
     pane.dataset.title = 'Flashcards';
     pane.dataset.readerMetadata = 'flashcards';
     pane.id='flashcardView';pane.setAttribute('aria-label','Flashcards');
-    pane.innerHTML = '<div id="flashcardOrder" class="choice-chips" role="group" aria-label="Card order"><button type="button" data-order="all">All</button><button type="button" data-order="due">Due</button><button type="button" data-order="missed">Missed first</button></div>' +
+    pane.innerHTML = '<h1 class="flash-screen-title">Flashcards</h1><div id="flashcardOrder" class="choice-chips" role="group" aria-label="Card order"><button type="button" data-order="all">All</button><button type="button" data-order="due">Due</button><button type="button" data-order="missed">Missed first</button></div>' +
       '<p id="flashcardCount" class="meta" role="status"></p>' +
       '<article id="flashcardArticle" hidden><h3 id="flashcardFront" tabindex="-1"></h3><details id="flashcardAnswer"><summary>Show answer</summary>' +
       '<div id="flashcardBack"></div><div class="flashcard-sources"><a id="flashcardSource"></a><a id="flashcardContext" hidden></a></div></details><div class="flashcard-actions"><button type="button" data-flash-grade="again" disabled>Again</button>' +
@@ -299,13 +302,14 @@ window.HazzardFlashcards = (() => {
     addEventListener('hazzard-flashcards-change',refreshDue);
     addEventListener('storage',e=>{if(!e.key||e.key===KEY)refreshDue();});
     document.addEventListener('keydown',e=>{
-      if(!isShowing()||!(matchMedia('(min-width:1200px)').matches||window.HazzardReadingCompanion?.embedded&&parent.matchMedia('(min-width:1200px)').matches)||e.repeat||e.altKey||e.metaKey||e.ctrlKey||e.target.closest('input,select,textarea,[contenteditable=true]'))return;
+      if(!isShowing()||document.querySelector('dialog[open]')||e.repeat||e.altKey||e.metaKey||e.ctrlKey||e.target.closest('input,select,textarea,[contenteditable=true]'))return;
       const answer=element('flashcardAnswer');
       if(e.key===' '&&!e.target.closest('button,summary,a')){e.preventDefault();answer.open=!answer.open;}
       if(answer.open&&['1','2'].includes(e.key)){e.preventDefault();pane.querySelector('[data-flash-grade="'+(e.key==='1'?'again':'know')+'"]').click();}
     });
     const row = document.createElement('li');
-    row.append(buttonFor('all'));
+    const launch=buttonFor('all'),name=document.createElement('strong'),detail=document.createElement('small');
+    name.textContent='Flashcards';detail.textContent='Recall and grade one card at a time';launch.replaceChildren(name,detail);row.append(launch);
     document.querySelector('[data-pane="practice"] .rows li')?.after(row);
     element('flashcardOrder').onclick=event=>{const choice=event.target.closest('[data-order]');if(choice&&choice.dataset.order!==session?.order)restart(choice.dataset.order);};
     element('flashcardRestart').addEventListener('click', () => restart(session.order));
@@ -316,6 +320,7 @@ window.HazzardFlashcards = (() => {
     element('flashcardAnswer').addEventListener('toggle', event => {
       if (!session || !isShowing()) return;
       session.revealed = event.currentTarget.open;
+      event.currentTarget.querySelector('summary').textContent=session.revealed?'Hide answer':'Show answer';
       saveSession();
       for(const button of pane.querySelectorAll('[data-flash-grade]'))button.disabled=!session.revealed;
       onResize();

@@ -96,7 +96,9 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - In one five-year follow-up study of shunted NPH patients, at 6 months, **83%** improved gait and **46%** improved memory; at 5 years, only **39%** of surviving shunt cases remained gait-improved and **<10%** still showed cognitive improvement (p876)
 
 > Current practice (not the book): PENS enrolled patients selected for shunting after a positive CSF-drainage response. Active shunting improved gait velocity at three months compared with a placebo valve setting. The trial did not establish comparable short-term gains in cognition or bladder symptoms. [PENS randomized trial, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12682072/).
-- CDC reported that **over half** of people living with diagnosed HIV in the US were aged 50 or older at the end of 2021. Hazzard cites an older 10% figure and reports **2–3%** progression to HIV-associated dementia with combination ART and **50–60%** prevalence of milder cognitive deficits in the cohorts it reviews (p876).
+- Hazzard cites an older 10% figure and reports **2–3%** progression to HIV-associated dementia with combination ART and **50–60%** prevalence of milder cognitive deficits in the cohorts it reviews (p876).
+
+> Current practice (not the book): At the end of 2021, more than half of people with diagnosed HIV in the US were aged 50 or older. [CDC, 2024, surveillance data for 2021](https://stacks.cdc.gov/view/cdc/156948/cdc_156948_DS1.pdf).
 - Neurosyphilis dementia classically emerges **5-25 years** after initial infection (p876)
 - Syphilitic dementia may present with hallucinations, delusions, mood disturbance, personality change, strokes, ataxia or cognitive decline. There is only limited evidence of cognitive benefit from penicillin; it is more likely with comorbid HIV and belongs in the differential of dementia of unclear cause (p876–877)
 

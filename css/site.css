@@ -1,0 +1,76 @@
+/* Shared editorial palette and the same proportional type scale at every size. */
+:root {
+  --page:#f7f6f1; --surface:#fffefa; --soft:#eff1e9; --ink:#1b3029; --muted:#50625b;
+  --accent:#205b45; --accent-soft:#e6eee7; --rule:#ced9cf; --control:#768779;
+  --focus:#935713; --deep:#194b39; --on-deep:#fff; --on-deep-muted:#d6e6d9;
+  --note-bg:#fcf1db; --note-edge:#9f6922; --radius:12px;
+  --ui:system-ui,-apple-system,"Segoe UI","Arial Hebrew",sans-serif; --reading:var(--ui);
+  --type-body:calc(.9375rem * var(--fs,1)); --type-title:calc(var(--type-body)*1.45);
+  --type-heading:calc(var(--type-body)*1.2); --type-subhead:calc(var(--type-body)*1.08);
+  --type-control:calc(var(--type-body)*.9375); --type-label:calc(var(--type-body)*.8125);
+  --type-small:calc(var(--type-body)*.75);
+  --row-pad-inline:clamp(10px,.75em,15px); --row-pad-block:.4em;
+  --row-min:42px; --row-gap:.12em; --disclosure-size:.62em;
+}
+:root[data-theme=dark] {
+  --page:#15231e; --surface:#1c2d26; --soft:#22362d; --ink:#f0f4ef; --muted:#b9cbbf;
+  --accent:#a5d7b7; --accent-soft:#2a4135; --rule:#44594a; --control:#96ac9d;
+  --focus:#efb969; --deep:#224c3a; --on-deep:#fff; --on-deep-muted:#dceadf;
+  --note-bg:#382f21; --note-edge:#e3b675;
+}
+body {font-family:var(--ui);letter-spacing:normal}
+:focus-visible {outline:2px solid var(--accent);outline-offset:2px}
+#chapterHeader {background:var(--surface);border-color:var(--rule);box-shadow:none}
+body #chapterHeader[data-page-back] #settingsBack:not([hidden]) {display:inline-flex!important;order:-1;align-items:center;justify-content:center;flex:0 0 auto;min-width:44px;min-height:44px;background:transparent;color:var(--accent)}
+body:not(.nav-page-open) #chapterHeader[data-page-back] #settingsBack {font-size:var(--type-heading)}
+#chapterHeader .library-header strong,#chapterHeader .nav-page-title,#chapterHeader .flash-header strong {font:680 var(--type-body)/1.2 var(--ui)}
+#bottomSlot #appTabs {background:var(--surface);border-top:1px solid var(--rule);padding-inline:max(4px,calc((100vw - 760px)/2));gap:0}
+#bottomSlot #appTabs button {border:0;border-radius:0;background:transparent;color:var(--muted);box-shadow:none;font-weight:560}
+#bottomSlot #appTabs [aria-current=page] {background:var(--accent-soft);color:var(--ink);box-shadow:inset 0 3px var(--accent);font-weight:700}
+#desk.page {max-width:800px;padding-inline:clamp(16px,4vw,32px);margin-inline:auto}
+#desk>h1 {margin:var(--s4) 0 var(--s3);font:720 var(--type-title)/1.13 var(--ui);letter-spacing:-.025em}
+#desk .home-priorities {display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+#desk .resume-card {display:block;min-width:0;margin:0 0 4px;padding:12px 14px 7px;border:0;border-inline-start:3px solid var(--accent);border-radius:0 8px 8px 0;background:var(--accent-soft);color:var(--ink)}
+#desk .resume-card .eyebrow {font:620 var(--type-label)/1.3 var(--ui);text-transform:none;letter-spacing:0;color:var(--accent);margin:0 0 4px}
+#desk .resume-card h2 {font:680 var(--type-heading)/1.22 var(--ui);letter-spacing:-.01em;margin:0;color:var(--ink)}
+#desk .resume-card .meta {display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font:400 var(--type-control)/1.4 var(--ui);color:var(--muted);margin:5px 0 0}
+#desk .resume-actions {display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:3px}
+#desk .resume-actions a {display:inline-flex;align-items:center;width:auto;min-height:36px;padding:2px 0;text-decoration:underline;text-underline-offset:.2em;background:transparent;border:0;color:var(--accent);font:620 var(--type-control)/1.25 var(--ui)}
+#desk [hidden] {display:none!important}
+#desk :is(.home-weak,.home-daily,.home-coverage) {margin:0;padding:12px 0 5px;background:transparent;border:0;border-block-end:1px solid var(--rule);border-radius:0}
+#desk :is(.home-weak,.home-daily,.home-coverage)>h2 {font:680 var(--type-subhead)/1.3 var(--ui);margin:0 0 6px}
+#desk .home-daily :is(a,button),#desk .home-shortcuts a {box-sizing:border-box;width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:var(--row-pad-block) 0;min-height:var(--row-min);margin:0;border:0;border-radius:0;border-block-end:1px solid var(--rule);background:transparent;color:var(--ink);text-align:start;text-decoration:none;font:580 var(--type-control)/1.3 var(--ui)}
+#desk .home-daily :is(a,button):last-child {border-block-end:0}
+#desk .home-daily button:disabled {color:var(--muted);opacity:1}
+#desk .home-shortcuts {display:flex;flex-wrap:wrap;gap:0 16px;margin:4px 0;background:transparent;border-block-end:1px solid var(--rule)}
+#desk .home-shortcuts a {width:auto;border:0;color:var(--accent)}
+#desk .home-shortcuts a:last-child {border-block-end:0}
+#desk .home-shortcuts span {color:var(--accent);font-size:var(--type-heading)}
+#desk .home-weak .meta,#desk .home-coverage .meta {font:400 var(--type-label)/1.45 var(--ui);color:var(--muted)}
+#desk .home-actions a {display:inline-flex;align-items:center;min-height:36px;color:var(--accent);font-size:var(--type-control)}
+#desk .home-meter {padding-block:4px}
+#desk .home-meter progress {accent-color:var(--accent)}
+#desk #homeBackup {display:inline-flex;align-items:center;min-height:44px;color:var(--accent);font:600 var(--type-label)/1.35 var(--ui)}
+body.nav-page-open:has(#panel[data-current-pane=tools]) #settingsGear {visibility:hidden;pointer-events:none}
+body.nav-page-open #chapterHeader .nav-page-title {min-inline-size:0}
+body.nav-page-open:has(#panel[data-current-pane=tools]) #chapterHeader {gap:12px}
+body.nav-page-open:has(#panel[data-current-pane=tools]) #settingsBack {width:auto;flex:0 0 auto;padding-inline:4px;white-space:nowrap;font:600 var(--type-control)/1.3 var(--ui)}
+#settingsVersion {margin-top:2px}
+#settingsOfflineStatus {margin:2px 0;padding-inline:var(--row-pad-inline);color:var(--muted);font:500 var(--type-label)/1.4 var(--ui)}
+#panel[data-current-pane=tools][open] .settings-group>summary {list-style:none;display:flex;align-items:center;gap:.55em;min-height:var(--row-min)}
+#panel[data-current-pane=tools] .settings-group>summary::-webkit-details-marker {display:none}
+#panel[data-current-pane=tools] .settings-group>summary::before {content:'';display:inline-block;flex:0 0 auto;border:solid var(--muted);border-width:0 1.5px 1.5px 0;width:var(--disclosure-size);height:var(--disclosure-size);transform:rotate(-45deg)}
+#panel[data-current-pane=tools] .settings-group[open]>summary::before {transform:rotate(45deg)}
+#desk .home-coverage summary {cursor:pointer;min-height:var(--row-min);align-content:center;color:var(--ink)}
+#desk .home-coverage summary h2 {display:inline;font:650 var(--type-subhead)/1.2 var(--ui)}
+#copy ol.clinical-point-list>li:has([data-point])::marker {color:var(--accent);font-weight:650}
+:is(#copy,#tableViewer) :is(th,td) .exam-count {display:inline}
+:is(#copy,#tableViewer) :is(th,td) .exam-count>button.exam-count-toggle {
+  display:inline;min-width:0;min-height:24px;block-size:auto;width:auto;margin:0 .2em;padding:1px 2px;
+  border:0;border-radius:0;background:transparent;color:var(--accent);box-shadow:none;
+  font:600 var(--type-label)/1.35 var(--ui);text-decoration:underline;text-underline-offset:.14em;vertical-align:baseline;
+}
+@media(min-width:800px) {
+ #desk .home-priorities {grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+ #desk .home-weak {grid-column:1/-1}
+}

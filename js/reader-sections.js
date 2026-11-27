@@ -2,7 +2,7 @@
 window.HazzardSections = (() => {
   const headings = 'h1,h2,h3,h4,h5,h6';
   const cardTitles = '.law-cards > summary,.law-card > summary';
-  let targets, land;
+  let targets, land,refreshHeading=()=>{};
 
   function jump(id) {
     const heading = targets?.get(id);
@@ -132,7 +132,7 @@ window.HazzardSections = (() => {
   let loadCounts=()=>{};
   let release=()=>{};
   function mount({copy, scroll, landOnHeading}) {
-    release();release=()=>{};targets=new Map();loadCounts=()=>{};
+    release();release=()=>{};targets=new Map();loadCounts=()=>{};refreshHeading=()=>{};
     document.body.classList.remove('with-section-outline');
     document.getElementById('readerSectionOutline')?.remove();
     document.querySelector('[data-pane="contents"] .section-picker-list')?.remove();
@@ -172,6 +172,33 @@ window.HazzardSections = (() => {
     trigger.setAttribute('aria-controls', 'panel');
     const reader = document.getElementById('reader');
     const disposers=[];
+    // A separate strip occupies its own space only after the main chapter header scrolls away.
+    const strip=document.createElement('button');strip.type='button';strip.id='readerSectionStrip';strip.dataset.panel='contents';
+    strip.setAttribute('aria-controls','panel');strip.setAttribute('aria-haspopup','dialog');scroll.before(strip);
+    let positions=[],frame=0,dirty=true;
+    function update(){
+      frame=0;if(!copy.isConnected||scroll.inert||!document.body.classList.contains('reader-section-mode'))return;
+      const top=scroll.getBoundingClientRect().top;
+      if(dirty){
+        positions=rows.filter(r=>r.level>1&&r.heading.getClientRects().length).map(r=>({y:r.heading.getBoundingClientRect().top-top+scroll.scrollTop,title:r.title})).sort((a,b)=>a.y-b.y);dirty=false;
+      }
+      let lo=0,hi=positions.length;
+      while(lo<hi){const mid=(lo+hi)>>1;if(positions[mid].y<=scroll.scrollTop+12)lo=mid+1;else hi=mid;}
+      const active=lo?positions[lo-1].title:'In this chapter';
+      const canonical=copy.dataset.canonicalTitle||copy.querySelector('h1')?.innerText||'Sections';
+      const base=chapter.replace(/s$/,''),chapterLabel=(base==='law'?'':base+' · ')+canonical;
+      if(trigger.textContent!==chapterLabel)trigger.textContent=chapterLabel;
+      trigger.title=canonical;trigger.setAttribute('aria-label','Sections · '+chapterLabel+(lo?' · Current section: '+active:''));
+      if(strip.textContent!==active)strip.textContent=active;
+      strip.title=active;strip.setAttribute('aria-label','Sections · '+active);
+    }
+    function queue(){if(!frame)frame=requestAnimationFrame(update);}
+    function measure(){dirty=true;queue();}
+    refreshHeading=queue;
+    scroll.addEventListener('scroll',queue,{passive:true});copy.addEventListener('toggle',measure,true);
+    const sizing=new ResizeObserver(measure);sizing.observe(copy);
+    disposers.push(()=>{sizing.disconnect();cancelAnimationFrame(frame);scroll.removeEventListener('scroll',queue);copy.removeEventListener('toggle',measure,true);strip.remove();});
+    queue();
     release=()=>{for(const dispose of disposers)dispose();};
     {
       const outline = document.createElement('nav'), label = document.createElement('h2'), links = document.createElement('ul');
@@ -215,5 +242,5 @@ window.HazzardSections = (() => {
       }
     }
   }
-  return {loadCounts:()=>loadCounts(),mount, jump};
+  return {loadCounts:()=>loadCounts(),refresh:()=>refreshHeading(),mount,jump};
 })();

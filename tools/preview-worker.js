@@ -5,6 +5,7 @@ const CACHE = 'reader-preview-' + BUILD;
 const SHELL = __SHELL__;
 const LIST = './asset-list.json';
 const READY = './.offline-ready';
+const NEXT = './.offline-next';
 const TAKEOVER = './.replace-preview';
 let warming = null, foregroundUntil = 0;
 async function yieldToReader(){
@@ -98,8 +99,12 @@ async function warmOffline() {
   if (await cache.match(READY)) return;
   const list = await (await cache.match(LIST)).json();
   if (list.version !== RELEASE || !list.files.length) throw Error('Invalid offline manifest');
-  let count = 0, lastNotice = 0;
-  await eachFile(list.files, 3, async file => {
+  const cursor=await cache.match(NEXT);
+  const start=cursor?Number(await cursor.text()):0;
+  let end=start, size=0;
+  while(end<list.files.length && end-start<32 && size<2*1024*1024)size+=list.files[end++].bytes||0;
+  let count=start,lastNotice=0;
+  await eachFile(list.files.slice(start,end), 3, async file => {
     await yieldToReader();
     if (!await cache.match(file.url)) await cache.put(file.url, await verifiedAsset(file,'low'));
     progress = Math.floor(100 * ++count / list.files.length);
@@ -108,7 +113,12 @@ async function warmOffline() {
       for (const page of await self.clients.matchAll()) await status(page);
     }
   });
+  if(end<list.files.length){await cache.put(NEXT,new Response(String(end)));return;}
+  const present=new Set((await cache.keys()).map(req=>req.url));
+  const missing=list.files.findIndex(file=>!present.has(new URL(file.url,self.registration.scope).href));
+  if(missing>=0){await cache.put(NEXT,new Response(String(missing)));return;}
   await cache.put(READY,new Response(BUILD));
+  await cache.delete(NEXT);
   priorCaches=[];
   for (const page of await self.clients.matchAll()) await status(page);
 }
@@ -137,10 +147,10 @@ self.addEventListener('message', event => {
 self.addEventListener('fetch', event => {
   const req=event.request;
   const lookup=new URL(req.url);
-  // The opt-in prototype is a distinct static document and is not part of the release cache.
-  if(lookup.origin===self.location.origin&&lookup.pathname.startsWith(new URL('overhaul/',self.registration.scope).pathname))return;
   if(lookup.pathname===new URL('manifest.json',self.registration.scope).pathname&&lookup.searchParams.get('check-newer')==='1')return;
   if (req.method!=='GET' || !req.url.startsWith(self.registration.scope)) return;
+  const appPath=new URL(self.registration.scope).pathname;
+  if(req.mode==='navigate'&&lookup.pathname!==appPath&&lookup.pathname!==appPath+'index.html')return;
   foregroundUntil=Date.now()+850;
   event.respondWith((async()=>{
     const cache=await caches.open(CACHE);

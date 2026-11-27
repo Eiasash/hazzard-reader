@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v334', RELEASED = '27.11.2026';
+  const VERSION = 'v335', RELEASED = '27.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const updateButton = document.createElement('button');
@@ -9,13 +9,15 @@
     const detail = document.getElementById('releaseStatus'), legacy = document.getElementById('offlineReady');
     const sw = navigator.serviceWorker;
     let registration, complete = false, progress = null, progressVersion = VERSION, newerController = false, applying = false, saveError = '', pauseTimer;
+    let starting = null, preparing = false, prepareError = '';
     const waiting = () => registration?.waiting || newerController;
     function render() {
       let state, text;
       if (applying) { state = 'waiting'; text = 'Saving before update…'; }
       else if (!navigator.onLine) { state = complete ? 'offline' : 'incomplete'; text = complete ? 'Offline - ' + VERSION + ' ready' : 'Offline copy incomplete'; }
       else if (waiting()) { state = 'waiting'; text = saveError ? 'Save failed - tap to retry' : 'Update ready - tap to reload'; }
-      else if (registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
+      else if (prepareError) { state='incomplete';text='Offline download interrupted'; }
+      else if (preparing || registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
       else { state = complete ? 'ready' : 'downloading'; text = VERSION + (complete ? ' - offline ready' : ' - offline copy incomplete'); }
       const downloading = !waiting() && progress !== null && navigator.onLine;
       const progressText = progressVersion + ' - downloading ' + progress + '%';
@@ -25,7 +27,7 @@
       clearTimeout(pauseTimer);
       const delay = cloud?.pauseAt - Date.now();
       if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
-      detail.dataset.readiness = waiting() || applying || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
+      detail.dataset.readiness = waiting() || applying || preparing || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
       detail.dataset.status = state;
       const notebook=document.querySelector('#appTabs [data-tab="notebook"]');
       notebook.toggleAttribute('data-sync-paused',!!cloud?.paused);
@@ -42,7 +44,12 @@
       if(download){
         const why=complete?'The offline copy is already saved.':!sw?'This browser does not support offline storage.':
           !navigator.onLine?'Reconnect to download the offline copy.':waiting()?'Use the update control to activate the saved copy.':'The live reader downloads its offline copy automatically.';
-        setButtonUnavailable(download,why);
+        const retry = !!prepareError && navigator.onLine && !starting;
+        download.textContent = retry ? 'Retry offline download' : 'Download for offline';
+        setButtonUnavailable(download,retry ? '' : why);
+        download.hidden=download.disabled;
+        const status=document.getElementById('settingsOfflineStatus');
+        if(status){status.hidden=!download.disabled;status.textContent=complete?'Available offline':!sw?'Offline storage unavailable':!navigator.onLine?'Offline copy incomplete':downloading?progressText:'Preparing offline copy';}
       }
       const summary = document.getElementById('appearanceSummary');
       summary.textContent = downloading ? progressText : VERSION + ' · ' + (complete ? 'Offline ready' : 'Offline incomplete');
@@ -52,6 +59,37 @@
       legacy.hidden = false;
     }
     function requestStatus() { sw?.controller?.postMessage({ type: 'HAZZARD_OFFLINE_STATUS' }); render(); }
+    function prepareCold() {
+      return new Promise((resolve,reject) => {
+        const loader=new Worker(new URL('sw.js?prepare='+encodeURIComponent(VERSION),location.href));
+        const fail=error=>{loader.terminate();reject(error);};
+        loader.onerror=()=>fail(Error('Offline download interrupted'));
+        loader.onmessage=event=>{
+          const data=event.data;
+          if(data.error){fail(Error(data.error));return;}
+          if(data.prepared){loader.terminate();resolve();return;}
+          if(Number.isFinite(data.progress)){progress=data.progress;progressVersion=VERSION;render();}
+        };
+        loader.postMessage({type:'HAZZARD_PREPARE_COLD',version:VERSION});
+      });
+    }
+    function registerReader(){
+      if(starting||!sw)return starting;
+      prepareError='';
+      starting=(async()=>{
+        const prior=await sw.getRegistration();
+        if(!sw.controller&&!prior?.active){
+          preparing=true;progress=0;render();
+          await prepareCold();
+        }
+        const reg=await sw.register('sw.js');
+        registration=reg;
+        reg.addEventListener('updatefound',()=>watch(reg.installing));
+        watch(reg.installing);requestStatus();
+      })().catch(error=>{prepareError=error.message||'Offline download interrupted';progress=null;complete=false;})
+        .finally(()=>{preparing=false;starting=null;render();});
+      return starting;
+    }
     function watch(worker) {
       if (!worker) return;
       progress = null;
@@ -89,7 +127,7 @@
       }
     }
     updateButton.addEventListener('click', applyUpdate, true);
-    addEventListener('online', requestStatus);
+    addEventListener('online', () => { requestStatus(); if (prepareError) registerReader(); });
     addEventListener('offline', requestStatus);
     addEventListener('hazzard-storage-status', render);
     addEventListener('hazzard-cloud-status', render);
@@ -119,11 +157,8 @@
         render();
       });
       sw.addEventListener('controllerchange', () => { complete = false; requestStatus(); });
-      sw.register('sw.js').then(reg => {
-        registration = reg;
-        reg.addEventListener('updatefound', () => watch(reg.installing));
-        watch(reg.installing); requestStatus();
-      }).catch(() => { complete = false; render(); });
+      document.getElementById('downloadOffline')?.addEventListener('click',registerReader);
+      registerReader();
       sw.ready.then(requestStatus).catch(() => {});
     }
     render();

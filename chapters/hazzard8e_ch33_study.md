@@ -67,6 +67,8 @@ Table 33-5 takes assessment from eye measurements to performance. Observe fixati
 
 Setting changes what can be learned. In long-term care, ask staff what the person can find in their own room and whether they can still participate in activities when the environment is arranged consistently. In hospital, identify which needed aids or spectacles remained at home, and choose a time when acute illness allows meaningful participation. A community agency may offer ready access to rehabilitation specialists and devices; a home visit can reveal glare on a worktop, poor contrast at the bathroom door or an inaccessible position of the reading lamp. A clinic demonstration of a device remains incomplete until the person has tried a corresponding task (p476–478).
 
+**Spectacles and falls.** Hazzard reports that multifocal wearers were twice as likely to fall as single-focus wearers, particularly in circumstances such as stepping down a curb or walking on stairs (p472). In the cited observational study the adjusted odds ratio for falling was 2.29, with a wide 95% confidence interval of 1.06–4.92. [Lord et al., 2002](https://pubmed.ncbi.nlm.nih.gov/12410892/).
+
 ### Match the aid to the distance, duration and size of the visual field
 
 Table 33-6 organizes devices by what they make possible. A handheld or stand magnifier is well suited to a short task such as checking a price or a recipe. Spectacle-mounted magnification frees the hands and may be better for sustained reading; it also imposes a working distance that the user must learn to maintain. A stand, chair with appropriate support or reading surface can help a person who fatigues while holding the head or material at the focal point. Before prescribing more magnification, ask whether poor hand stability, posture or positioning is what ended the previous attempt (p478–481).
@@ -101,7 +103,6 @@ For a medication-management goal, observe the entire sequence in the usual envir
 - Magnification trades field for detail. A telescope for locating a street sign serves a different purpose from a reverse telescope or prism for detecting hazards (p480–482).
 - Reading speed, accuracy, comprehension and endurance are separate outcomes; practice can improve one even when the acuity measurement does not change (p472, p482).
 - A patient who cannot visually recognize the clinician may still understand and choose among treatment options. Introduce yourself and obtain their preferences directly (p486–487).
-
 - High-contrast acuity in a well-lit room can conceal disabling loss of contrast sensitivity (p471, p475).
 - Preserved central acuity does not exclude field loss or remove the indication for rehabilitation (p475).
 - More illumination may increase glare; test light direction, reflection and the task together (p482–483).

@@ -113,8 +113,6 @@ The patient's experience of an implanted defibrillator can also influence prepar
 - A shorter incision in off-pump bypass does not establish less pain after thoracotomy (p393).
 - Do not infer pacemaker dependence solely from a high percentage of ventricular pacing in a resynchronization device (p396).
 - Limits on postoperative life support may differ from the patient's wishes for a brief, reversible intraoperative complication (p395–396).
-
-
 - Spontaneous breathing during sedation does not ensure adequate ventilation; monitor the patient throughout (p388).
 - The chapter's general blood-pressure floor needs interpretation relative to baseline, especially in chronic hypertension (p388).
 - An established limit on resuscitation should prompt a perioperative discussion of particular interventions and timing (p395–396).
