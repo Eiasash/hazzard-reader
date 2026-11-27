@@ -1348,7 +1348,7 @@ const orderedChapters=manifestChapters.filter(c=>c.kind==='chapter'||c.studyOnly
 });
 for(const entry of orderedChapters){
   const id=String(entry.number),li=document.createElement('li');li.className='library-row';
-  const name=document.createElement('button');name.type='button';name.className='chapter-name library-read';name.dataset.chapter=entry.studyOnly?id+'s':id;const context=document.createElement('span'),label=document.createElement('strong');context.className='chapter-row-context';context.textContent=id==='law'?'':id+' ·';label.className='chapter-row-title';label.textContent=entry.title;name.append(context,label);name.title=entry.title;li.append(name);
+  const name=document.createElement('a');name.className='chapter-name library-read';name.dataset.chapter=entry.studyOnly?id+'s':id;name.href='?chapter='+encodeURIComponent(name.dataset.chapter);const context=document.createElement('span'),label=document.createElement('strong');context.className='chapter-row-context';context.textContent=id==='law'?'':id+' ·';label.className='chapter-row-title';label.textContent=entry.title;name.append(context,label);name.title=entry.title;li.append(name);
   if(['2','3','4','5','6','34','62'].includes(id)){const note=document.createElement('small');note.className='mcq-source-note chapter-p005-note';note.textContent='not on P005';name.append(note);}
   if(entry.studyOnly){const note=document.createElement('small');note.className='library-progress';note.textContent='Study page only - full chapter not in the reader';name.append(note);}
   const studyId=id==='law'?'laws':id+'s',actions=document.createElement('span');
@@ -3344,8 +3344,8 @@ async function refreshLibraryMarks(){
   for(const row of rows){
     const name=row.querySelector('.chapter-name');
     if(!row.querySelector('.library-status')){
-      const status=document.createElement('small');status.className='library-status';row.append(status);
-      const exams=document.createElement('div');exams.className='library-exams';row.append(exams);
+      const status=document.createElement('small');status.className='library-status';
+      const exams=document.createElement('div');exams.className='library-exams';row.append(exams,status);
     }
     const progress=data.chapters[row.dataset.readingChapter];
     const percent=Math.min(99,Math.floor((progress?.ratio||0)*100));
@@ -3366,10 +3366,12 @@ async function refreshLibraryMarks(){
       const entries=[...ids].filter(id=>evidence.questions[id]).map(id=>[id,evidence.questions[id]]);
       const signature=entries.map(([id])=>id).join(',');
       if(exams.dataset.ids!==signature){
-        exams.dataset.ids=signature;exams.replaceChildren();
+        exams.dataset.ids=signature;exams.replaceChildren();row.querySelector(':scope>.exam-count-list')?.remove();
         if(entries.length){
           const label=key==='law'?'Israeli law':'chapter '+key;
-          exams.append(HazzardEvidence.askedBadge(entries,'past questions for '+label));
+          const badge=HazzardEvidence.askedBadge(entries,'past questions for '+label);exams.append(badge);
+          const list=badge.querySelector('.exam-count-list');list.id='chapter-asked-'+key;
+          badge.querySelector('.exam-count-toggle').setAttribute('aria-controls',list.id);row.append(list);
         }
       }
       exams.hidden=!entries.length;
