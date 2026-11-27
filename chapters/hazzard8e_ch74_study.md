@@ -114,14 +114,14 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Figure 74-5, p.1139](hazzard8e_ch74_figure74-5_p1139.png)
 
-[2024-May Q3](?chapter=bank&q=mcq-a4e3d6ba430e0534aff9d3e6)
+[May 2024 Q3](?chapter=bank&q=mcq-a4e3d6ba430e0534aff9d3e6)
 
 ## Exam questions
 
 Five past-exam questions cover stress testing, antithrombotic treatment and discharge therapy after infarction.
 
-- [2024-May Q3](?chapter=bank&q=mcq-a4e3d6ba430e0534aff9d3e6)
-- [2024-May Q88](?chapter=bank&q=mcq-50a8d3094541c315ba9859cf)
+- [May 2024 Q3](?chapter=bank&q=mcq-a4e3d6ba430e0534aff9d3e6)
+- [May 2024 Q88](?chapter=bank&q=mcq-50a8d3094541c315ba9859cf)
 
 - [2020 Q55](?chapter=bank&q=mcq-13e618f70748ac4d528540ae)
 - [June 2023 Basic Q123](?chapter=bank&q=mcq-fa33b286f3d03d33e2242529)

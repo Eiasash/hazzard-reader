@@ -136,7 +136,7 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Figure 96-3, p.1514](hazzard8e_ch96_figure96-3_p1514.png)
 
-[2026-Jun Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c)
+[June 2026 Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c)
 
 ## Table 96-2 — book image
 
@@ -144,14 +144,14 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 96-2, p.1513](hazzard8e_ch96_table96-2_p1513.png)
 
-[2023-Jun Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7)
+[June 2023 Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7)
 
 ## Past exam questions
 
-- [2026-Jun Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c) — Printed page 1514.
-- [2026-Jun-Basic Q107](?chapter=bank&q=mcq-08ad58cb588514eb5cb52bcb) — Printed page 1513.
-- [2025-Jun Q99](?chapter=bank&q=mcq-531c47b20663cad65778d880) — Printed page 1516.
-- [2023-Jun Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7) — Printed page 1513.
+- [June 2026 Q12](?chapter=bank&q=mcq-3906ed2ba944bc31f884ba0c) — Printed page 1514.
+- [June 2026 Basic Q107](?chapter=bank&q=mcq-08ad58cb588514eb5cb52bcb) — Printed page 1513.
+- [June 2025 Q99](?chapter=bank&q=mcq-531c47b20663cad65778d880) — Printed page 1516.
+- [June 2023 Q46](?chapter=bank&q=mcq-b80e76fc9d76538fb9789ac7) — Printed page 1513.
 
 [Earlier sittings, chapter-level mapping](?chapter=96#asked-chapter) — 2022-Jun Q6, 2021-Dec Q25, 2021-Dec Q62.
 

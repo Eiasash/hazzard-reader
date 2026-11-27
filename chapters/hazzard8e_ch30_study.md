@@ -105,5 +105,5 @@ Before prescribing weight loss, ask whether a weight-related condition is limiti
 
 Two questions below cite passages in Chapter 30 that directly teach their answers.
 
-- [2023-Jun Q41](?chapter=bank&q=mcq-9133456e88257f8d41edd4d4)
-- [2024-Sep Q91](?chapter=bank&q=mcq-7b26cdc007e22b5187d35b3b)
+- [June 2023 Q41](?chapter=bank&q=mcq-9133456e88257f8d41edd4d4)
+- [September 2024 Q91](?chapter=bank&q=mcq-7b26cdc007e22b5187d35b3b)

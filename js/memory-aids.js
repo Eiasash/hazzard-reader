@@ -58,7 +58,7 @@ window.HazzardMemoryAids = (() => {
           const tested = document.createElement('p'); tested.className = 'memory-aid-source';
           const question = document.createElement('a');
           question.href = '?chapter=bank&q=' + encodeURIComponent(HazzardMCQ.currentId(aid.tested.questionId));
-          question.textContent = aid.tested.sitting.replace('-', ' ') + ' Q' + aid.tested.number;
+          question.textContent = HazzardEvidence.label(aid.tested);
           question.addEventListener('click',()=>history.replaceState({...history.state,hazzardStudyMode:'notes',hazzardAidReturn:{scroll:document.querySelector('#readerScroll').scrollTop,question:aid.tested.questionId}},''));
           tested.append('Tested: ', question); section.append(tested);
           if (aid.note) {

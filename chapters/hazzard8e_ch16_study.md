@@ -120,11 +120,11 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 16-6, p.232](hazzard8e_ch16_table16-6_p232.png)
 
-[2025-Jun Q87](?chapter=bank&q=mcq-911d970243b87dbe2fe1c675)
+[June 2025 Q87](?chapter=bank&q=mcq-911d970243b87dbe2fe1c675)
 
 ## Past exam questions
 
-- [2025-Jun Q87](?chapter=bank&q=mcq-911d970243b87dbe2fe1c675) — Printed page 232.
+- [June 2025 Q87](?chapter=bank&q=mcq-911d970243b87dbe2fe1c675) — Printed page 232.
 
 ## Recall drill
 

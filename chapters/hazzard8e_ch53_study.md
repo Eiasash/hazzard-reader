@@ -141,14 +141,14 @@ The chapter describes a US bundled payment spanning 90 postoperative days. Posta
 - [December 2021 Q60](?chapter=bank&q=mcq-03f2d251e63e4dd9a8c4925b)
 - [June 2022 Q82](?chapter=bank&q=mcq-5b0c5d8693a2a6b69ff477c9)
 - [June 2022 Q87](?chapter=bank&q=mcq-6c76daed1c0fae0916954643)
-- [2023-Jun Q47 — mcq-78b3359272a717f584c23b2c](?chapter=bank&q=mcq-78b3359272a717f584c23b2c)
-- [2024-May Q11 — mcq-a6c338a57828b765465f7cbf](?chapter=bank&q=mcq-a6c338a57828b765465f7cbf)
-- [2024-May Q17 — mcq-72e468cf141dda15964157c9](?chapter=bank&q=mcq-72e468cf141dda15964157c9)
-- [2024-May Q35 — mcq-d59bcda0cc381a35cc3134db](?chapter=bank&q=mcq-d59bcda0cc381a35cc3134db)
-- [2025-Jun Q60 — mcq-10163f2b99f5abe875d7d917](?chapter=bank&q=mcq-10163f2b99f5abe875d7d917)
+- [June 2023 Q47 — mcq-78b3359272a717f584c23b2c](?chapter=bank&q=mcq-78b3359272a717f584c23b2c)
+- [May 2024 Q11 — mcq-a6c338a57828b765465f7cbf](?chapter=bank&q=mcq-a6c338a57828b765465f7cbf)
+- [May 2024 Q17 — mcq-72e468cf141dda15964157c9](?chapter=bank&q=mcq-72e468cf141dda15964157c9)
+- [May 2024 Q35 — mcq-d59bcda0cc381a35cc3134db](?chapter=bank&q=mcq-d59bcda0cc381a35cc3134db)
+- [June 2025 Q60 — mcq-10163f2b99f5abe875d7d917](?chapter=bank&q=mcq-10163f2b99f5abe875d7d917)
 
 ## Figure 53-5 — book image
 
 ![Hazzard 8e, Figure 53-5, p.800](hazzard8e_ch53_figure53-5_p800.png)
 
-[2024-May Q17](?chapter=bank&q=mcq-72e468cf141dda15964157c9)
+[May 2024 Q17](?chapter=bank&q=mcq-72e468cf141dda15964157c9)

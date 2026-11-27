@@ -5472,7 +5472,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span>Settings</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v327 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span>Settings</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v328 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);
@@ -6294,14 +6294,8 @@ function restoreHighlights(){
     }
 
 
-    if(copy.querySelector('[data-point]')){
-      const points=chapterPointOrder(placedBookItems(saved,bookTextIndex(),true));
-      for(const marker of copy.querySelectorAll('[data-mark-key][data-point]')){
-        const point=points.get(marker.dataset.markKey);
-        if(point)marker.dataset.point=point;
-      }
-    }
-    if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
+    const reordered=refreshBookNumbers(saved,copy.classList.contains('study-page'));
+    if(changed||reordered)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
 }
@@ -6344,7 +6338,7 @@ function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
         const mark=saved[item.kind]?.[item.id];if(!mark)throw Error('This highlight has changed. Close and reopen your notebook.');
         item.mark={...mark};item.order=Object.keys(saved[item.kind]);delete saved[item.kind][item.id];
       }
-      if(ch===cid)numberPlacedPoints(placedBookItems(saved),'at');
+      if(ch===cid)numberPlacedPoints(placedBookItems(saved));
       writeHighlights(saved,storageKey);
       if(removed)notebookRemovedHighlights.delete(key);else notebookRemovedHighlights.set(key,{...item,ch,index});
       if(ch===cid)resyncHighlights();
@@ -6364,7 +6358,7 @@ function notebookAnswerRow(item){
   li.className='nb-item nb-highlight nb-answer-highlight';li.dataset.answerHighlight=item.id;
   text.textContent=(item.number?item.number+'. ':'')+item.text;text.dir=snippetDirection(item.text);text.className='nb-answer-text';text.dataset.marked=item.colour;
   text.style.setProperty('--mark-colour','var(--hl-'+item.colour+')');
-  const reference=[item.sittingLabel,item.questionNumber!=null?'Question '+item.questionNumber:item.label].filter(Boolean).join(' \u00b7 ');
+  const reference=item.sitting&&item.questionNumber!=null?HazzardEvidence.label({sitting:item.sitting,number:item.questionNumber}):item.label;
   meta.textContent=(item.note?item.note+' · ':'')+(item.unplaced?'Unplaced \u00b7 ':'')+reference;meta.className='meta';
   go.append(text,meta);go.onclick=()=>{location.href=HazzardEvidence.questionURL(item.questionId);};
   const removed=notebookRemovedAnswerHighlights.has(item.id);go.disabled=removed;li.classList.toggle('nb-removed',removed);
@@ -6870,6 +6864,19 @@ try{numbering=localStorage.getItem(numberingKey)==='1';}catch{}
 function bookItems(saved){
   return ['marks','ranges'].flatMap(kind=>Object.entries(saved[kind]||{}).map(([id,mark])=>({kind,id,mark})));
 }
+// Character offsets always refer to the original edition. The Study page's
+// flex order determines how those positions are read, even in closed groups.
+function bookGroup(ix,start){return Number(ix.nodes[start]?.parentElement.closest('.study-group')?.style.order)||0;}
+function refreshBookNumbers(saved,commitOrder){
+  if(!copy.querySelector('[data-mark-key][data-point]'))return false;
+  const items=placedBookItems(saved,bookTextIndex(),true);
+  const order=chapterPointOrder(items);
+  for(const marker of copy.querySelectorAll('[data-mark-key][data-point]')){
+    const point=order.get(marker.dataset.markKey);
+    if(point)marker.dataset.point=point;
+  }
+  return commitOrder&&numberPlacedPoints(items);
+}
 function placedBookItems(saved,ix=bookTextIndex(),onlyNumbered=false){
   const items=[];
   for(const item of bookItems(saved)){
@@ -6878,7 +6885,8 @@ function placedBookItems(saved,ix=bookTextIndex(),onlyNumbered=false){
     const nodes=parts?.filter(node=>node.isConnected&&!node.closest('[data-reader-metadata],.exam-page-badge'));
     if(!nodes?.length)continue;
     const range=document.createRange();range.setStartBefore(nodes[0]);range.setEndAfter(nodes.at(-1));
-    items.push({...item,...bookOffsets(ix,range)});
+    const offsets=bookOffsets(ix,range);
+    items.push({...item,...offsets,group:bookGroup(ix,offsets.start)});
   }
   return items;
 }
@@ -6892,7 +6900,7 @@ function changeBookRange(saved,ix,start,end,erase=false){
     const record={...fields,...rangeQuote(ix,left,right)};
     const signature=HazzardStorage.removals.rangeSignature(record);
     record.at=Math.max(Date.now(),(record.at||0)+1,(deletedAt[signature]||0)+1);
-    (saved.ranges||={})[id]=record;remaining.push({id,mark:record,start:left,end:right});
+    (saved.ranges||={})[id]=record;remaining.push({id,mark:record,start:left,end:right,group:bookGroup(ix,left)});
   }
   for(const piece of plan.pieces){
     const {source,inherit}=piece;
@@ -6906,7 +6914,7 @@ function changeBookRange(saved,ix,start,end,erase=false){
     if(numbering||plan.consumed.some(item=>item.mark.number))fields.number=1;
     put(start,end,fields);
   }
-  numberPlacedPoints(remaining,'at');
+  numberPlacedPoints(remaining);
 }
 function undoBookChange(before,after){
   const account=JSON.stringify(after);
@@ -6972,12 +6980,12 @@ function modifyMark(fields){
     if(!fields){
       const before=structuredClone(saved),ix=bookTextIndex(),item=placedBookItems(saved,ix).find(item=>item.kind===kind&&item.id===id);
       if(item&&item.end>item.start)changeBookRange(saved,ix,item.start,item.end,true);
-      else{delete saved[kind][id];numberPlacedPoints(placedBookItems(saved,ix),'at');}
+      else{delete saved[kind][id];numberPlacedPoints(placedBookItems(saved,ix));}
       persistBook(saved);closeMark();offerMarkUndo(undoBookChange(before,saved),'Highlight deleted');return;
     }
     const before=Object.hasOwn(fields,'colour')?structuredClone(saved):null;
     Object.assign(saved[kind][id],fields,{at:Math.max(Date.now(),(mark.at||0)+1)});
-    if(Object.hasOwn(fields,'number'))numberPlacedPoints(placedBookItems(saved),'at');
+    if(Object.hasOwn(fields,'number'))numberPlacedPoints(placedBookItems(saved));
     persistBook(saved);showMark(kind,id,saved[kind][id]);
     if(before)offerMarkUndo(undoBookChange(before,saved),'Colour changed',true);
   }catch(e){flash(e.message,6000);closeMark();}
@@ -7845,6 +7853,10 @@ for(const figure of copy.querySelectorAll('figure:has(img)')){
 installTableViewer();
 HazzardSections.mount({copy,scroll:readerScroll,landOnHeading:landOnMatch,embedded:companionFrame});
 HazzardStudyPage.mount(copy,cid);
+if(copy.classList.contains('study-page')&&copy.querySelector('[data-point]')){
+  try{const saved=readHighlights();if(refreshBookNumbers(saved,true))writeHighlights(saved);}
+  catch{highlightSaveFailed=true;updateStorageNotice();}
+}
 HazzardLawCards.watchNumberRanges(document.body);
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
 {const h=pairedStudy?'':decodeURIComponent(location.hash.slice(1));let done=startOnStudySummary||launchParams.get('chapterTop')==='1';

@@ -90,7 +90,7 @@ Study summary of Chapter 94 - Aging of the Hematopoietic System and Anemia; the 
 
 Four past-exam questions are linked to this chapter.
 
-- [2024-May Q36](?chapter=bank&q=mcq-5967f5970f29d909cde6fe19)
-- [2022-Jun Q59](?chapter=bank&q=mcq-b64b2a93425c5569d9a155e6)
-- [2022-Jun Q68](?chapter=bank&q=mcq-e3641c7ad953ca3a3d403746)
+- [May 2024 Q36](?chapter=bank&q=mcq-5967f5970f29d909cde6fe19)
+- [June 2022 Q59](?chapter=bank&q=mcq-b64b2a93425c5569d9a155e6)
+- [June 2022 Q68](?chapter=bank&q=mcq-e3641c7ad953ca3a3d403746)
 - [2020 Q41](?chapter=bank&q=mcq-e8b485ecde3675dc9786a734)

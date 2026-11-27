@@ -112,7 +112,7 @@ Late referral limits the time available for symptom management, preparation and 
 
 ## Past exam questions
 
-- [2024-May Q84](?chapter=bank&q=mcq-a4591cf08e389264496b6571) — Printed page 1082.
+- [May 2024 Q84](?chapter=bank&q=mcq-a4591cf08e389264496b6571) — Printed page 1082.
 
 ## Recall drill
 

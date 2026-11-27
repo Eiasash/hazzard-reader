@@ -136,11 +136,11 @@ Near the end of life, ask whether evaluation or treatment can relieve a symptom 
 
 ## Past exam questions
 
-- [2026-Jun Q84](?chapter=bank&q=mcq-f7b82a0ad50cab63832650a2) — Printed page 1705.
-- [2025-Jun Q12](?chapter=bank&q=mcq-60d358f39722f9df5a3990cc) — Printed pages 1709, 1710, 1711.
-- [2024-May Q19](?chapter=bank&q=mcq-81abf0ac32298245ce5a44eb) — Printed page 1700.
-- [2023-Jun Q55](?chapter=bank&q=mcq-526291ef04bcef123eab45db) — Printed pages 1702, 1703.
-- [2023-Jun-Basic Q126](?chapter=bank&q=mcq-d4b7c6cbda3fa63a7b531e1f) — Printed page 1707.
+- [June 2026 Q84](?chapter=bank&q=mcq-f7b82a0ad50cab63832650a2) — Printed page 1705.
+- [June 2025 Q12](?chapter=bank&q=mcq-60d358f39722f9df5a3990cc) — Printed pages 1709, 1710, 1711.
+- [May 2024 Q19](?chapter=bank&q=mcq-81abf0ac32298245ce5a44eb) — Printed page 1700.
+- [June 2023 Q55](?chapter=bank&q=mcq-526291ef04bcef123eab45db) — Printed pages 1702, 1703.
+- [June 2023 Basic Q126](?chapter=bank&q=mcq-d4b7c6cbda3fa63a7b531e1f) — Printed page 1707.
 
 [Earlier sittings, chapter-level mapping](?chapter=106#asked-chapter) — 2022-Jun Q69, 2021-Dec Q16, 2021-Dec Q88, 2020 Q24, 2020 Q46.
 
@@ -148,7 +148,7 @@ Near the end of life, ask whether evaluation or treatment can relieve a symptom 
 
 ![Hazzard 8e, Table 106-2, p.1703](hazzard8e_ch106_table106-2_p1703.png)
 
-[2023-Jun Q55](?chapter=bank&q=mcq-526291ef04bcef123eab45db)
+[June 2023 Q55](?chapter=bank&q=mcq-526291ef04bcef123eab45db)
 
 ## Recall
 

@@ -121,8 +121,8 @@ Table 84-15 broadens the bleeding differential to postpolypectomy bleeding, infl
 
 ## Past exam questions
 
-- [2024-May Q64](?chapter=bank&q=mcq-93ccedd90799481334f485da) — Printed page 1309.
-- [2023-Jun Q30](?chapter=bank&q=mcq-e4acb3e9acd387f3ab55774a) — Printed pages 1310, 1311.
+- [May 2024 Q64](?chapter=bank&q=mcq-93ccedd90799481334f485da) — Printed page 1309.
+- [June 2023 Q30](?chapter=bank&q=mcq-e4acb3e9acd387f3ab55774a) — Printed pages 1310, 1311.
 
 ## Recall drill
 

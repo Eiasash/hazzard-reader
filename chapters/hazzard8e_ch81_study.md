@@ -256,7 +256,7 @@ Hazzard 8e, p.1260 · [Read source](?chapter=81#p1260)
 
 
 
-[2024-Sep Q68](?chapter=bank&q=mcq-5db8763148c6144657ed06fc)
+[September 2024 Q68](?chapter=bank&q=mcq-5db8763148c6144657ed06fc)
 
 ## Table 81-14: Nausea/vomiting
 
@@ -270,4 +270,4 @@ Hazzard 8e, p.1263 · [Read source](?chapter=81#p1263)
 
 
 
-[2024-Sep Q11](?chapter=bank&q=mcq-765f7737231c2578f2a85a38)
+[September 2024 Q11](?chapter=bank&q=mcq-765f7737231c2578f2a85a38)

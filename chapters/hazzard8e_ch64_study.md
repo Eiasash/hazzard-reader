@@ -114,8 +114,8 @@ When someone already has dementia, an additional microscopic diagnosis need not 
 
 ## Past exam questions
 
-- [2024-May Q63](?chapter=bank&q=mcq-f6a71ecfcb071e0bd0b70bca) — Printed page 997.
-- [2024-May Q66](?chapter=bank&q=mcq-18490c5933b53a866c445587) — Related bank item. It tests a related topic without a chapter-specific page.
+- [May 2024 Q63](?chapter=bank&q=mcq-f6a71ecfcb071e0bd0b70bca) — Printed page 997.
+- [May 2024 Q66](?chapter=bank&q=mcq-18490c5933b53a866c445587) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 

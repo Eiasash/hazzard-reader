@@ -276,3 +276,5 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 [data-bidi-edge="end"]::after{content:"\2069"}
 
 .study-source-intro:not(:has([data-marked])){display:none}
+
+.reading-copy :is(p,li)[dir=rtl][lang=he]{direction:rtl;text-align:right}

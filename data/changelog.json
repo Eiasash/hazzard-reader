@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v328",
+      "date": "2026-11-27",
+      "changes": [
+        "Hebrew paragraphs and lists read from right to left, including mixed-language source citations. Past-exam links use the full month and year.",
+        "Numbered highlights follow one reading sequence throughout each Study page, including closed sections."
+      ]
+    },
+    {
       "version": "v327",
       "date": "2026-11-27",
       "changes": [

@@ -112,7 +112,7 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 
 Eight past-exam questions link to this chapter by printed citation or related teaching.
 
-- [2024-May Q67](?chapter=bank&q=mcq-48a5d49ae2033ae5ac32e7a1)
+- [May 2024 Q67](?chapter=bank&q=mcq-48a5d49ae2033ae5ac32e7a1)
 - [2020 Q75](?chapter=bank&q=mcq-494727bd6d0b833fa37bea32)
 - [June 2022 Q31](?chapter=bank&q=mcq-da1e76694d63f5b833729f75)
 - [June 2023 Q39](?chapter=bank&q=mcq-7bd5c333fb742a1192c41f33)

@@ -237,4 +237,4 @@ Hazzard 8e, p.1061 · [Read source](?chapter=68#p1061)
 
 ![Hazzard 8e, Table 68-6, p.1061](hazzard8e_ch68_table68-6_p1061.png)
 
-[2023-Jun Q38](?chapter=bank&q=mcq-d4597da4db93e15793da0f6a) · [2025-Jun Q14 (page citation)](?chapter=bank&q=mcq-899b765d3570c519f87c4cd6)
+[June 2023 Q38](?chapter=bank&q=mcq-d4597da4db93e15793da0f6a) · [June 2025 Q14 (page citation)](?chapter=bank&q=mcq-899b765d3570c519f87c4cd6)
