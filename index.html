@@ -2817,7 +2817,20 @@ $('#findText').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();stepFind(e.s
 $('#findPrevious').onclick=()=>stepFind(-1);$('#findNext').onclick=()=>stepFind(1);
 $('#findAll').onclick=()=>{const q=$('#findText').value;$('#findText').blur();view('library',{replace:true});$('#chapterSearch').value=q;searchChapters()};
 function scrollReadingTo(y){readerScroll.scrollTo(0,y)}
-function revealReading(el,options){if(!el)return;if(document.getElementById('chapterInfo')?.contains(el))showChapterInfo();if(el.matches('.hl-range,[data-mark-key]'))el.querySelectorAll('.book-build-wording[hidden]').forEach(n=>{n.hidden=false;});HazzardStudyPage.reveal(el);landingUntil=performance.now()+500;setReadingBarsHidden(false);mcq?.notes?.();for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;el.scrollIntoView(options)}
+function revealReading(el,options){
+  if(!el)return;
+  const technical=el.closest('[data-book-build-source]'),sourceInfo=technical&&bookBuildInfo.get(technical);
+  if(sourceInfo&&(technical.hidden||el.closest('.book-build-wording[hidden]')||el.querySelector('.book-build-wording[hidden]'))){
+    const clone=technical.cloneNode(true);
+    clone.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));
+    clone.querySelectorAll('.book-build-wording').forEach(n=>{n.hidden=false;});
+    sourceInfo.replaceChildren(...clone.childNodes);showChapterInfo();sourceInfo.scrollIntoView(options);return;
+  }
+  if(document.getElementById('chapterInfo')?.contains(el))showChapterInfo();
+  HazzardStudyPage.reveal(el);landingUntil=performance.now()+500;setReadingBarsHidden(false);mcq?.notes?.();
+  for(let d=el.closest('details');d;d=d.parentElement?.closest('details'))d.open=true;
+  el.scrollIntoView(options);
+}
 // ---------- storage helpers ----------
 function readJSON(k,d){try{return HazzardStorage.readProtected(k,()=>d)??d}catch{return d}}
 function writeJSON(k,v){try{HazzardStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
@@ -4142,7 +4155,7 @@ readerScroll.addEventListener('scroll',()=>{if(wideReader.matches)scheduleCompan
 document.addEventListener('reader-route-ready',scheduleCompanion);
 
 
-const articleCache=new Map(),articleInfo=new WeakMap(),maxCachedArticles=5;
+const articleCache=new Map(),articleInfo=new WeakMap(),bookBuildInfo=new WeakMap(),maxCachedArticles=5;
 let mountedId=null,questionRoute='',activeURL='';
 function chapterInfo(){
   let dialog=document.getElementById('chapterInfo');
@@ -4192,12 +4205,15 @@ function collectChapterInfo(){
       const technical=/(?:,?\s+reproduced as a page image\s*\(printed pp?\.[^)]*\)(?:\s*[—–-]\s*the grid did not extract reliably as text for this fast build)?\.?|;\s*shown as an image, not transcribed\.|\s+transcribed from the printed page\s*\(p\.\s*\d+\)(?=;))/i.exec(text);
       if(!technical)continue;
       const retained=(text.slice(0,technical.index)+text.slice(technical.index+technical[0].length)).trim();
+      const info=document.createElement('div');info.textContent=text;nodes.push(info);
       if(/^Table\s+\d+[-–]\d+[a-z]?(?:\s*\(continued\))?[.,]?$/i.test(retained)){
         const original=note.childElementCount===1?note:p;
         original.querySelectorAll('.exam-links,[data-exam-ids],[data-practice-ids],a.pg').forEach(n=>original.before(n));
-        nodes.push(original);
+        // Keep the exact text in the same place for quote-and-context matching.
+        // The full wording is available from Chapter info.
+        original.hidden=true;original.dataset.bookBuildSource='';bookBuildInfo.set(original,info);
       }else{
-        const info=document.createElement('p');info.textContent=text;nodes.push(info);
+        p.dataset.bookBuildSource='';bookBuildInfo.set(p,info);
         styleRange(run,technical.index,technical.index+technical[0].length,'book-build-wording',true);
         note.classList.add('book-media-caption');
       }
