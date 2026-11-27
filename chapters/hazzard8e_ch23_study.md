@@ -28,6 +28,88 @@ Study summary of Chapter 23; the book and the full chapter are the reference.
 - The chapter has limited older-adult trial evidence for many medications; use its source dose table and individual precautions (p324–325).
 - Continue follow-up and reassessment; recurrence can occur in the course of chronic substance-use disorders (p321).
 
-## Exam questions
+### Recognizing a hazardous prescription
 
-No past-exam questions are currently linked to this chapter.
+June 2026 Q10 asks which medicine to review first in an alert older adult taking venlafaxine, mirtazapine, quetiapine and regular clonazepam. The keyed priority is clonazepam. Normal orientation on one examination does not remove the risks of continued benzodiazepine exposure. Ask why it was started, whether it still helps and how it is actually taken. Clarify falls, confusion and other sedative use. Taking prescribed medication can lead to dependence without showing that the patient has a substance use disorder (p318–321).
+
+> Current practice (not the book): When regular benzodiazepine use makes physical dependence likely, plan a supervised taper adapted to symptoms and the original indication. Abrupt discontinuation can cause serious withdrawal. - [Joint Clinical Practice Guideline on Benzodiazepine Tapering, 2025](https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering).
+
+> Current practice (not the book): US dietary guidance now advises drinking less, without sex-specific daily targets. It advises avoiding alcohol with interacting medicines or conditions and during recovery from alcohol use disorder. - [US Dietary Guidelines for Americans, 2026, p5](https://cdn.realfood.gov/DGA_508.pdf).
+
+### Matching a medicine to an alcohol-treatment goal
+
+Table 23-4 lists naltrexone **50–100 mg orally daily** or **380 mg intramuscularly monthly**. Opioid blockade can precipitate withdrawal and prevent needed opioid analgesia. Avoid it with current opioid use, acute hepatitis or liver failure. Acamprosate **666 mg three times daily** supports abstinence and requires renal assessment and a workable dosing schedule. The chapter's table gives a reduced regimen in moderate renal impairment and advises avoidance below **30 mL/min** (p325).
+
+> Current practice (not the book): US acamprosate labeling includes a creatinine clearance of exactly 30 mL/min in the contraindicated range. For clearance above 30 through 50 mL/min, the reduced dose is 333 mg three times daily. - [Acamprosate prescribing information, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=91769a96-3182-4e38-90c3-b22c1beae398).
+
+## Exam traps
+
+- A positive screen prompts assessment; it does not diagnose addiction or specify withdrawal risk (p322–324).
+- Prescription-related harm can arise from overprescribing or administration errors even when there is no intentional misuse (p319).
+- An antagonist such as naltrexone can precipitate withdrawal in a person using opioids (p324–325).
+
+## Past exam questions
+
+- [2026-Jun Q10](?chapter=bank&q=mcq-a542a3a627e208dabd1e6265) — Printed page 319.
+
+## Recall drill
+
+**1. How much ethanol is in the US standard drink used in this chapter?**
+
+<details><summary>Answer</summary><strong>14 g</strong> of pure alcohol. A large glass or mixed drink may represent more than one standard drink (p317).</details>
+
+**2. Why can diagnostic criteria underestimate substance problems in later life?**
+
+<details><summary>Answer</summary>Retirement and reduced social roles can obscure consequences, and sensitivity may increase instead of typical escalating tolerance (p318, p322).</details>
+
+**3. What forms of unintentional prescription misuse should be sought?**
+
+<details><summary>Answer</summary>Taking more than intended, confusion between medicines, duplicate use and continued exposure after the original indication changes (p319).</details>
+
+**4. What is the priority medicine in the exam's list of four psychoactive drugs?**
+
+<details><summary>Answer</summary>Regular clonazepam. Reassess its indication, cumulative sedative risks and potential dependence when planning dose reduction (p318–321).</details>
+
+**5. How can alcohol and a benzodiazepine together affect an older patient?**
+
+<details><summary>Answer</summary>The combination further increases injury and cognitive impairment risks compared with considering either exposure alone (p321).</details>
+
+**6. Which alcohol screens can be used in older adults?**
+
+<details><summary>Answer</summary>AUDIT or AUDIT-C, MAST-G and CARET. Consider comorbid illness and drug interactions as well as quantity consumed (p322–323).</details>
+
+**7. What follows a positive substance screen?**
+
+<details><summary>Answer</summary>Clarify use pattern, consequences, co-occurring conditions, supports, severity and need for further treatment (p323).</details>
+
+**8. How does a brief intervention engage a person who is ambivalent about change?**
+
+<details><summary>Answer</summary>Discuss personally relevant harms, elicit the person's goals and use motivational techniques to agree on a feasible next step (p323–324).</details>
+
+**9. Which withdrawal syndromes warrant particular attention to the care setting?**
+
+<details><summary>Answer</summary>Alcohol and benzodiazepine withdrawal can require inpatient or closely monitored specialty care because of complication risks (p324).</details>
+
+**10. Which AUD medicine can precipitate opioid withdrawal?**
+
+<details><summary>Answer</summary>Naltrexone, an opioid antagonist. Check both prescribed analgesics and other opioid exposure first (p324–325).</details>
+
+**11. What two routes for naltrexone are described?**
+
+<details><summary>Answer</summary>Daily oral dosing or a gluteal intramuscular injection each month (p324–325).</details>
+
+**12. Which organ function guides acamprosate dosing?**
+
+<details><summary>Answer</summary>Renal function. The medicine supports maintenance after abstinence, and three-times-daily dosing may challenge adherence (p324–325).</details>
+
+**13. Why does the chapter generally discourage disulfiram in older adults?**
+
+<details><summary>Answer</summary>An alcohol–disulfiram reaction can be dangerous, particularly given older adults' comorbid illness (p324–325).</details>
+
+**14. How do methadone, buprenorphine and naltrexone differ mechanistically?**
+
+<details><summary>Answer</summary>Methadone is a full opioid agonist, buprenorphine a partial agonist and naltrexone an antagonist (p325–326).</details>
+
+**15. Why arrange follow-up after an apparently successful brief intervention?**
+
+<details><summary>Answer</summary>Use and related harms can recur. Reassess goals, progress, medications and need for additional psychosocial or specialty support (p321, p323–324).</details>
