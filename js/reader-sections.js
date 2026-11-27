@@ -137,6 +137,7 @@ window.HazzardSections = (() => {
     }
   }
 
+  let loadCounts=()=>{};
   function mount({copy, scroll, landOnHeading, embedded}) {
     const chapter = copy.dataset.chapterId;
     if (!/^(?:\d+s?|laws?)$/.test(chapter) || copy.dataset.notLoaded) return;
@@ -205,7 +206,13 @@ window.HazzardSections = (() => {
       desktop.addEventListener('change', layout);
       layout();
     }
-    officialCounts(copy, chapter, rows).then(() => updateCounts(true), () => updateCounts(false));
+    const desktopCounts=matchMedia('(min-width:1200px)');
+    loadCounts=()=>{
+      loadCounts=()=>{};desktopCounts.removeEventListener('change',visible);
+      officialCounts(copy,chapter,rows).then(()=>updateCounts(true),()=>updateCounts(false));
+    };
+    function visible(){if(embedded||desktopCounts.matches||pane.closest('[open]')?.dataset.currentPane==='contents')loadCounts();}
+    desktopCounts.addEventListener('change',visible);visible();
     function updateCounts(available) {
       for (const row of rows) {
         const n = row.ids.size;
@@ -219,5 +226,5 @@ window.HazzardSections = (() => {
       }
     }
   }
-  return {mount, jump};
+  return {loadCounts:()=>loadCounts(),mount, jump};
 })();

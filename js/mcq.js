@@ -16,36 +16,14 @@ window.HazzardMCQ = (() => {
     url.searchParams.set('chapter','bank');url.searchParams.set('session',ids.map(currentId).join(','));
     return url.pathname+url.search;
   }
-  async function openPreview(url,host,trigger){
-    const target=new URL(url,location.href),chapter=target.searchParams.get('chapter');
-    if(target.origin!==location.origin||!chapter||!window.HazzardStudyPreview)return false;
-    const y=host.scrollTop,dialog=document.createElement('dialog');
-    dialog.className='mcq-preview';dialog.setAttribute('aria-label','Source preview');
-    const header=document.createElement('div');header.className='mcq-preview-header';
-    const title=document.createElement('strong');title.textContent=chapter.endsWith('s')?'Study preview':'Page preview';
-    const fully=document.createElement('a');fully.href=target.href;fully.textContent='Open fully';
-    const close=document.createElement('button');close.type='button';close.textContent='Close';close.onclick=()=>dialog.close();
-    header.append(title,fully,close);
-    const body=document.createElement('article');body.className='mcq-preview-body reading-copy';body.textContent='Loading source...';
-    dialog.append(header,body);document.body.append(dialog);
-    const cleanup=()=>{dialog.remove();host.scrollTop=y;trigger?.focus({preventScroll:true});};
-    dialog.addEventListener('close',cleanup,{once:true});dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
-    dialog.showModal();
-    try{
-      body.innerHTML=await HazzardStudyPreview.html(chapter);
-      if(target.hash.startsWith('#exam-p'))await HazzardEvidence.addPassages(body,chapter);
-      if(chapter==='laws'){body.dataset.chapterId='laws';await HazzardLawCards.decorate(body);}
-      if(!dialog.isConnected)return true;
-      const anchor=target.hash.slice(1),targetPage=/^exam-p(\d+)-/.exec(anchor)?.[1];
-      const marked=anchor?(body.querySelector('#'+CSS.escape(anchor))||
-        [...body.querySelectorAll('a.pg,a[id^="p"]')].find(n=>'p'+n.dataset.page===anchor||(targetPage&&(n.id==='p'+targetPage||n.dataset.page===targetPage)))):null;
-      if(marked?.classList.contains('exam-passage-target'))marked.style.display='block';
-      if(marked){for(let node=marked;node&&node!==body;node=node.parentElement)if(node.tagName==='DETAILS')node.open=true;}
-      for(const node of body.querySelectorAll('[id]'))node.id='preview-'+node.id;
-      for(const link of body.querySelectorAll('a[href^="#"]'))link.href=target.pathname+target.search+link.getAttribute('href');
-      for(const image of body.querySelectorAll('img'))image.loading='lazy';
-      if(marked)requestAnimationFrame(()=>{marked.style.scrollMarginTop=(header.offsetHeight+12)+'px';marked.scrollIntoView({block:'start'});});
-    }catch(error){body.textContent=error.message||'Source unavailable. Use Open fully to try the full page.';}
+  function openPreview(url,host,trigger){
+    const target=new URL(url,location.href);
+    if(target.origin!==location.origin||!target.searchParams.get('chapter'))return false;
+    // A passage is a normal reader destination. The bank already records the
+    // selected question and scroll so browser Back returns to the same answer.
+    if(window.HazzardReadingCompanion?.embedded){
+      if(!parent.HazzardReadingCompanion.route(target,true))parent.location.assign(target.href);
+    }else location.assign(target.href);
     return true;
   }
   const GENERATED_FLAGS_KEY='hazzard-generated-flags-v1';
@@ -972,7 +950,8 @@ window.HazzardMCQ = (() => {
       if(reviewMode){try{history.replaceState({...history.state,reviewView:{id:visible()[position]?.id,scroll:host.scrollTop,lastAnswer}},'');}catch{storageError='Review position could not be saved.';}return;}
       const view=viewState();if(!view)return;
       try{
-        history.replaceState({...history.state,mcqView:{...view,missedIds:missedIds?[...missedIds]:null,retryAnswers:[...retryAnswers],lastAnswer}},'');
+        const url=new URL(location.href);if(bankMode&&url.searchParams.has('q'))url.searchParams.set('q',view.id);
+        history.replaceState({...history.state,mcqView:{...view,missedIds:missedIds?[...missedIds]:null,retryAnswers:[...retryAnswers],lastAnswer}},'',url);
         // Restoring a legacy view must not migrate or overwrite its saved bytes.
         if(bankMode&&!restoredViewUnchanged&&savedContent(view)!==savedContent(HazzardStorage.readProtected(VIEW_KEY,()=>null)))HazzardStorage.setItem(VIEW_KEY,JSON.stringify(view));
       }catch{notice='Your progress could not be saved. Keep this page open.';}
@@ -1005,7 +984,7 @@ window.HazzardMCQ = (() => {
       restoredViewUnchanged=false;filter=topic='all';year=[];level=[];sort=bankMode?'shuffled':'source';if(sort==='shuffled'&&seed===undefined)seed=newSeed();missedOnly=flagsView=savedView=savedOnly=false;missedIds=null;
       if(!wasOrdinary)rebuildAnswered();
       id=currentId(id);answeredIds.delete(id);hiddenTarget=null;if(bad(id))hiddenTarget=id;if(standoutHidden(id)){hiddenTarget=id;notice='This question is hidden. To serve it, turn on '+standoutLabel+' in Practice settings.';}dismissed.delete(id);position=Math.max(0,visible().findIndex(q=>q.id===id));
-      const url=new URL(location.href);url.searchParams.delete('q');url.hash='';history.replaceState({...history.state,mcqView:null},'',url);
+      const url=new URL(location.href);url.searchParams.set('q',id);url.hash='';history.replaceState({...history.state,mcqView:null},'',url);
       render();host.scrollTop=0;saveView();
       host.querySelector('.mcq-question')?.scrollIntoView({block:'start'});
     }
@@ -1029,7 +1008,8 @@ window.HazzardMCQ = (() => {
       return ch&&named?{chapter,page:ch.start,available:true,chapterStart:true}:null;
     }
     function sourceHTML(source){
-      const rtl=/^Source: [^A-Za-z\u05d0-\u05ea]*[\u05d0-\u05ea]/.test(source);
+      if(source.startsWith('Source: '))return '<bdi dir="ltr" lang="en">Source:</bdi> '+sourceHTML(source.slice(8));
+      const rtl=/^[^A-Za-z\u05d0-\u05ea]*[\u05d0-\u05ea]/.test(source);
       const locators=/((?:pp?\.?\s*|\u00a7{1,2}\s*)\d+[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*(?:\s*[.,\u2013-]\s*(?=[\d(\u00a7])\u00a7{0,2}\d*[\u05d0-\u05ea]*(?:\([^()\s]{1,4}\))*)*|\b\d+(?:[\u2013-]\d+)+)/g;
       const render=(text,rtl=false)=>{
         const parts=String(text).split(locators);
@@ -1112,7 +1092,7 @@ window.HazzardMCQ = (() => {
       show(source){if(source==='past'){filter='past';position=0;history.replaceState({...history.state,mcqView:null},'');}if(!bankMode&&!mockMode)history.replaceState({...history.state,hazzardStudyMode:"questions"},'');selectTab('questions');controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else{const place=savedView?readPracticePlace():null;if(place?.screen==='saved')restoringView=true;rebuildAnswered();render();if(restoringView&&place)restoreScroll(place);}},
       notes(){if(bankMode||mockMode)return;history.replaceState({...history.state,hazzardStudyMode:"notes"},'');selectTab('notes');saveView();lastAnswer=null;controller.active=false;host.hidden=true;window.HazzardAnswerHighlights?.attach(null);readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
     };
-    const search=HazzardQuestionSearch.mount({
+    const search=HazzardQuestionSearch.mount({host,
       getItems:async all=>{if(!loaded)throw Error('Questions are still loading. Try again.');return (await HazzardQuestionData.hydrate((all?items:mockMode?builderPool(true):flagsView?visible(true,true).filter(q=>activeFlags().some(([id])=>id===q.id)):visible(true,true)).filter(q=>!q.retired))).map(q=>({id:q.id,label:sourceLabel(q),stem:q.q,note:excluded(q.id)?EXCLUDED_NOTE:standoutHidden(q.id)?'Hidden by Practice settings':'',text:[q.id,q.q,...q.o,q.explanation].join(' ')}));},
       openQuestion:id=>{saveView();location.href='?chapter=bank&q='+encodeURIComponent(id);}
     });
@@ -1183,6 +1163,13 @@ window.HazzardMCQ = (() => {
     function paperId(q){return paper.ids.filter(id=>currentId(id)===q.id).sort((a,b)=>(paper.answers[b]?.at??-1)-(paper.answers[a]?.at??-1))[0]||q.id;}
     function badList(byId){try{const entries=Object.entries(readBad().items).filter(([id,r])=>r.bad&&!retired(id)).sort((a,b)=>b[1].at-a[1].at);return '<h2>Bad question ('+entries.length+')</h2>'+entries.map(([id,r])=>{const q=byId.get(id);return '<section class="mcq-flag-row"><p dir="auto">'+escape(q?.q.slice(0,180)||id)+'</p><p class="meta">'+escape(q?sourceLabel(q):'Unavailable question')+' \u00b7 '+new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jerusalem',dateStyle:'short'}).format(r.at)+'</p><a href="?chapter=bank&amp;q='+id+'">Open</a> <button data-bad="'+id+'">Unflag</button></section>';}).join('')+badStatus();}catch{return '<h2>Bad question</h2><p>unavailable</p>';}}
     function stateFor(q){const saved=redoMode?(retryAnswers.get(q.id)||empty()):reviewMode?(reviewBatch?.answers[q.id]||empty()):mockMode?(paper.answers[paperId(q)]||empty()):missedOnly?(retryAnswers.get(q.id)||empty()):(answers.get(q.id)||empty());return saved.checked&&q.sourceChecked?.changedAt&&saved.at<Date.parse(q.sourceChecked.changedAt)?{...saved,checked:false,olderVersion:true}:saved;}
+    host.addEventListener('click',event=>{
+      if(!event.target.closest('[data-review-back]'))return;
+      if(history.state?.hazzardPracticeLaunch){event.preventDefault();history.back();return;}
+      if(!document.referrer)return;
+      const from=new URL(document.referrer);
+      if(from.origin===location.origin&&from.pathname===location.pathname&&history.length>1){event.preventDefault();history.back();}
+    });
     function reviewDisplayPosition(){
       if(mixed)return history.state?.mixedDay===reviewBatch.day?Math.min(history.state.mixedPosition||0,visible().length):0;
       const remaining=new Set(reviewBatch.ids.slice(reviewBatch.position).map(currentId));
@@ -1255,7 +1242,7 @@ window.HazzardMCQ = (() => {
         const remaining=todayReview?list.filter(q=>!q.point).length-done:HazzardReview.due(r).length;
         const order='<label>Review order <select data-select="review-order"><option value="due">Due order</option><option value="official" '+(HazzardReview.officialFirst()?'selected':'')+'>Official past papers first</option></select></label>';
         const size=todayReview?'':'<label class="mcq-review-size">Queue size <select data-select="review-size">'+[10,30,50].map(n=>'<option value="'+n+'" '+(n===r.settings.size?'selected':'')+'>'+n+'</option>').join('')+'</select></label>';
-        return '<p class="eyebrow">DAILY PRACTICE</p><h1>'+(officialReview?'Official questions due today':mixed?'Daily review':'Review')+'</h1><p class="meta">'+done+' / '+list.length+' answered · '+remaining+' due</p>'+(todayReview?'':order)+size+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:todayReview?'No questions due today':'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
+        return '<a class="mcq-review-back" data-review-back href="'+(todayReview?'?home=1':'?practice=1')+'">‹ Back</a><p class="eyebrow">DAILY PRACTICE</p><h1>'+(officialReview?'Official questions due today':mixed?'Daily review':'Review')+'</h1><p class="meta">'+done+' / '+list.length+' answered · '+remaining+' due</p>'+(todayReview?'':order)+size+(r.seed?.count?'<p class="meta">Started with '+r.seed.count+' previous wrong answers, spread at up to 30 per day.</p>':'')+'<p class="meta">1 → 3 → 7 → 21 days. Correct and not unsure advances. Wrong or unsure restarts tomorrow.</p><p class="meta">'+(list.length?Math.min(position+1,list.length)+' of '+list.length:todayReview?'No questions due today':'No questions due in this batch')+'</p>'+(storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
       }
       const title=bankMode?(flagsView?'Missed / flags':'Question bank'):mockMode?'Mock paper'+(paper.retry?' · Retry missed':''):'Exam questions';
       let html='<div class="mcq-heading"><div><p class="eyebrow">'+(bankMode?'ALL BANK TOPICS':mockMode?'PRACTICE':chapter==='law'?'ISRAELI LAW · STUDY':'CHAPTER '+chapter+' · STUDY')+'</p><h1>'+title+'</h1></div>'+'</div>';
@@ -1331,6 +1318,7 @@ window.HazzardMCQ = (() => {
           content.innerHTML='<p role="alert">'+escape(error.message)+'</p><button data-mcq="retry-body">Try again</button>';
         });return;
       }
+      if(reviewMode&&q.readerReference)evidence.questions[q.id]=q.readerReference;
       const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),letters=['א','ב','ג','ד','ה'],order=optionOrder(q,bankMode);content.dataset.bankId=q.id;
       content.innerHTML=(redoMode?'<p class="meta mcq-redo-progress">Redo '+(position+1)+' of '+list.length+'</p>':'')+'<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label"><span class="mcq-topic-text">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(/^ima-harrison-(?:21|22)e-ch\d+$/.test(q.chapter||'')?' · '+escape(q.chapterTitle):(rc=>rc.length===1&&['law','laws'].includes(rc[0])?' · Israeli law':rc.length?' · Reader chapter'+(rc.length>1?'s ':' ')+escape(rc.join(', ')):'')(evidence.questions[q.id]?.chapters?.length?evidence.questions[q.id].chapters.map(String):q.chapter?[String(q.chapter)]:[]))+'</span> <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label&&q.kind==='past'?'<p class="mcq-source-note" role="note">'+sourceHTML(sourceTitle(q.label))+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+stemHTML(q)+'</div>'+
         (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'<div class="mcq-confidence">'+revisionButtons(q)+'</div>':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+revisionButtons(q)+'</div>'+unsureStatus(q,state,review))+revisionStatus()+
@@ -1361,12 +1349,19 @@ window.HazzardMCQ = (() => {
       if(busy)return;busy=true;host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="status">Loading questions…</p></div>';
       try{
         let toc;
-        [,toc,topics,collections]=await preload();
-        evidence=await HazzardEvidence.load();
+        if(reviewMode&&window.HazzardHomeSummary){
+          const [context]=await Promise.all([HazzardStudyHome.reviewContext(),loadAliases()]);
+          ({toc,topics,collections,catalog:items,evidence}=context);
+        }else if(reviewMode){
+          [toc,topics,collections,items,evidence]=await Promise.all([json('data/mcq/hazzard8e-toc.json'),json('data/mcq/topics.json'),json('data/mcq/collections.json'),HazzardStudyHome.catalog(),HazzardEvidence.preload(),loadAliases()]);
+        }else{
+          [,toc,topics,collections]=await preload();
+          evidence=await HazzardEvidence.load();
+        }
         bookChapters=toc.chapters;
         chapterTitles=Object.fromEntries(bookChapters.map(c=>[c.chapter,c.title]));
         const studyOnly=!!evidence.study[chapter]?.studyOnly;
-        [items]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):(bankMode||mockMode||/^\d+$/.test(chapter)?HazzardQuestionData.catalog():json('data/mcq/'+chapter+'.json')),loadAliases()]);
+        if(!reviewMode)[items]=await Promise.all([studyOnly||readOnlyChapter?Promise.resolve([]):(bankMode||mockMode||/^\d+$/.test(chapter)?HazzardQuestionData.catalog():json('data/mcq/'+chapter+'.json')),loadAliases()]);
         if(!bankMode&&!mockMode){const all=await HazzardQuestionData.catalog(),canonical=new Map(all.map(q=>[q.id,q]));items=/^\d+$/.test(chapter)?all.filter(q=>String(q.chapter)===chapter):items.map(q=>canonical.get(q.id)||q);}
         if(evidence.study[chapter]||readOnlyChapter){
           const ids=new Set(HazzardEvidence.studyIds(evidence,chapter)),all=await HazzardQuestionData.catalog();
@@ -1420,7 +1415,7 @@ window.HazzardMCQ = (() => {
         if(bankMode&&!resumePlace&&new URL(location.href).searchParams.get('practiceResume')==='1'){flagsView=savedView=savedOnly=missedOnly=false;rebuildAnswered();answeredIds.delete(currentId(view?.id));const n=visible().findIndex(q=>q.id===view?.id);position=Math.max(0,n);}
         if(samePlace&&resumePlace.id&&(redoMode||savedOnly)){const n=visible().findIndex(q=>q.id===resumePlace.id);if(n>=0)position=n;}
         const first=target?items.find(q=>q.id===currentId(target)):visible()[position];
-        if(first&&!(mockMode&&building))await HazzardQuestionData.hydrate([first]);
+        if(first&&!first.point&&!(mockMode&&building))await HazzardQuestionData.hydrate([first]);
         loaded=true;restoringView=restored;search.restore();
         if(target&&items.some(q=>q.id===currentId(target)&&q.retired)){notice='This practice question has been retired. Saved answers are retained.';render();}
         else if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page"><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
@@ -1621,7 +1616,7 @@ window.HazzardAnswerHighlights = (() => {
   function regionIndex(root,region,optionIndex){
     if(region==='option'&&!root.querySelector('.mcq-option-explanation[data-option-index="'+optionIndex+'"] .mcq-option-reason'))return null;
     return bridge().textIndex(root,n=>{
-      if(n.parentElement.closest('.mcq-source-note,.mcq-explanation-icon,[data-answer-heading]'))return false;
+      if(n.parentElement.closest('.mcq-source-note,.mcq-explanation-icon,[data-answer-heading],[data-prior-excerpt]'))return false;
       const block=n.parentElement.closest('.mcq-option-explanation');
       return region==='option'?!!block&&Number(block.dataset.optionIndex)===optionIndex&&!!n.parentElement.closest('.mcq-option-reason'):!block;
     });
@@ -1633,23 +1628,48 @@ window.HazzardAnswerHighlights = (() => {
     return best;
   }
   function clearPaint(root){root.querySelectorAll('[data-prior-excerpt]').forEach(e=>e.remove());for(const span of root.querySelectorAll('[data-answer-highlight]')){const parent=span.parentNode;span.replaceWith(...span.childNodes);parent.normalize();}}
+  function quoteOnPage(ix,m){
+    if(!ix)return null;
+    const exact=findAnchor(ix.s,m);
+    if(exact>=0)return {start:exact,end:exact+m.text.length};
+    // Earlier exports include invisible word joiners and direction marks.
+    // Only accept a unique match after removing those layout characters.
+    const layout=/[\u2060\u200e\u200f]/g,needle=m.text.replace(layout,'');
+    if(!needle)return null;
+    const plain=ix.s.replace(layout,''),at=plain.indexOf(needle);
+    if(at<0||plain.indexOf(needle,at+1)>=0)return null;
+    const offsets=[];
+    for(let i=0;i<ix.s.length;i++)if(!'\u2060\u200e\u200f'.includes(ix.s[i]))offsets.push(i);
+    return {start:offsets[at],end:offsets[at+needle.length-1]+1};
+  }
   function repaint(){
     if(!current||!bridge())return;clearPaint(current.root);
-    const source=canonicalRoot(current.q);
-    for(const m of items().filter(m=>m.questionId===current.q.id)){
-      const canonical=regionIndex(source,m.region,m.optionIndex),shown=regionIndex(current.root,m.region,m.optionIndex);
-      if(!canonical||!shown||canonical.s.length!==shown.s.length)continue;
-      const start=findAnchor(canonical.s,m);
-      if(start<0){
+    const records=items().filter(m=>m.questionId===current.q.id);
+    if(!records.length)return;
+    const displayed=[null,...current.order].map(option=>({option,ix:regionIndex(current.root,option===null?'main':'option',option)})).filter(r=>r.ix);
+    const pieces=new Map();
+    for(const m of records){
+      const original=displayed.find(r=>r.option===(m.region==='option'?m.optionIndex:null));
+      let ix=original?.ix,match=quoteOnPage(ix,m);
+      if(!match){
+        const alternatives=displayed.filter(r=>r!==original).map(r=>({ix:r.ix,match:quoteOnPage(r.ix,m)})).filter(r=>r.match);
+        if(alternatives.length===1)({ix,match}=alternatives[0]);
+      }
+      if(!match){
         // Keep the original saved words visible when a release revises their sentence.
-        const host=m.region==='option'?current.root.querySelector('.mcq-option-explanation[data-option-index="'+m.optionIndex+'"] .mcq-option-reason'):current.root;
+        const host=(m.region==='option'&&current.root.querySelector('.mcq-option-explanation[data-option-index="'+m.optionIndex+'"] .mcq-option-reason'))||current.root;
         const excerpt=document.createElement('p');excerpt.dataset.priorExcerpt='';excerpt.dataset.readerMetadata='highlight';
-        excerpt.append('Previously highlighted: ');
+        const caption=document.createElement('small');caption.dir='ltr';caption.lang='en';caption.textContent='Saved from an earlier explanation';excerpt.append(caption);
         const span=document.createElement('span');span.className='hl-range';span.dataset.marked=m.colour;span.dataset.answerHighlight=m.id;
-        span.style.setProperty('--mark-colour','var(--hl-'+m.colour+')');span.textContent=m.text;excerpt.append(span);host.append(excerpt);
+        span.style.setProperty('--mark-colour','var(--hl-'+m.colour+')');span.dir='auto';span.textContent=m.text;
+        if(/\(pp?\.\s*$/i.test(m.text)){
+          const tail=/^\s*\d+(?:\s*[–,-]\s*\d+)*\)/.exec(m.suffix);
+          span.textContent=tail?m.text+tail[0]:m.text.replace(/\s*\(pp?\.\s*$/i,'').trimEnd();
+        }
+        excerpt.append(span);host.append(excerpt);
         continue;
       }
-      const spans=bridge().wrapIndexRange(shown,start,start+m.text.length,m.id,m.colour);
+      const spans=bridge().wrapIndexRange(ix,match.start,match.end,m.id,m.colour,pieces);
       for(const span of spans)span.dataset.answerHighlight=m.id;
       if(spans.length){spans[0].dataset.markKey=m.id;spans[0].tabIndex=0;spans[0].setAttribute('role','button');if(m.number){spans[0].dataset.point=m.number;spans[0].dataset.pointInk=m.colour;}}
     }
@@ -1715,8 +1735,8 @@ window.HazzardAnswerHighlights = (() => {
   }
   function saveSelection(colour,mark){
     if(!mark||!available()||mark.questionId!==current.q.id)return false;
-    const value=read();if(!changeRegion(value,mark,colour))return false;
-    write(value);return true;
+    const value=read(),before=structuredClone(value.items);if(!changeRegion(value,mark,colour))return false;
+    write(value);return undoAnswerChange(before,value);
   }
   function attach(root,q,order){
     current=root&&q?{root,q,order}:null;
@@ -1745,15 +1765,18 @@ window.HazzardAnswerHighlights = (() => {
   function edit(id,fields,original){
     const value=read(),mark=value.items[id];
     if(!mark||mark.removed||mark.updatedAt!==original.updatedAt)throw Error('This highlight changed. Open it again.');
+    const before=(!fields||Object.hasOwn(fields,'colour'))?structuredClone(value.items):null;
     if(fields){
       value.items[id]={...mark,...fields,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
       if(Object.hasOwn(fields,'number'))numberPlacedPoints(questionPoints(value),'updatedAt');
-      write(value);return;
+      write(value);return before?undoAnswerChange(before,value):null;
     }
-    const before=structuredClone(value.items);
     if(!changeRegion(value,mark,mark.colour,true))value.items[id]={...mark,removed:true,updatedAt:Math.max(Date.now(),mark.updatedAt+1)};
+    write(value);return undoAnswerChange(before,value);
+  }
+  function undoAnswerChange(before,value){
     const keys=Object.keys(value.items).filter(key=>JSON.stringify(before[key])!==JSON.stringify(value.items[key]));
-    write(value);
+
     return ()=>{
       const latest=read();
       if(keys.some(key=>JSON.stringify(latest.items[key])!==JSON.stringify(value.items[key])))throw Error('Highlights changed. Undo is no longer available.');

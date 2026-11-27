@@ -120,11 +120,14 @@ window.HazzardStudyHome = (() => {
       if(!response.ok)throw Error('Home data unavailable');
       const data=await response.json();
       const catalog=data.questions.map(([id,past,accepted,flags])=>({id,kind:past?'past':'practice',accepted,retired:!!(flags&1),content_changed:!!(flags&2)}));
+      for(const [i,t,examNumber] of data.officialSlots||[])Object.assign(catalog[i],{t,examNumber});
       const ids=indexes=>indexes.map(i=>catalog[i].id);
       const currentChapters=Object.fromEntries(Object.entries(data.chapters).map(([key,indexes])=>[key,ids(indexes)]));
       const questions=Object.fromEntries(Object.entries(data.sittings).map(([i,sitting])=>[catalog[i].id,{sitting}]));
       const changes=data.changes.map(([id,date])=>({id:typeof id==='number'?catalog[id].id:id,changedAt:data.changeDates[date]}));
-      return {catalog,changes:[...changes,...HazzardChanged.legacy()],evidence:{currentChapters,study:{},questions},law:ids(data.law)};
+      const review={catalog,toc:{chapters:data.toc},topics:data.topics,collections:{israeliLawEthics:{ids:ids(data.law)},suppliedArticles:{ids:ids(data.articles||[])},topicFallbacks:{}},
+        evidence:{questions:{},study:Object.fromEntries((data.studyIds||[]).map(ch=>[ch,true]))}};
+      return {catalog,review,changes:[...changes,...HazzardChanged.legacy()],evidence:{currentChapters,study:{},questions},law:ids(data.law)};
     }).catch(error=>{window.HazzardEarlyFetch?.delete(window.HazzardHomeSummary);homeSummary=null;throw error;});
   }
   function catalog(){return window.HazzardHomeSummary?summary().then(x=>x.catalog):HazzardQuestionData.catalog();}
@@ -181,5 +184,5 @@ window.HazzardStudyHome = (() => {
     watchDay(today, chapters, keys);
   }
 
-  return {refresh, startReading, catalog, libraryStats};
+  return {refresh, startReading, catalog, libraryStats,reviewContext:()=>summary().then(x=>x.review)};
 })();

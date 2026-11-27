@@ -78,21 +78,12 @@ window.HazzardReadingCompanion = (() => {
       if (!primary?.contains(link) || !route(url, false)) return;
     } else {
       if (link.getAttribute('href').startsWith('#')) return;
-      // MCQ citations have their own source preview. Its explicit "Open fully"
-      // link can then move the primary reading column to the cited paragraph.
-      if (link.closest('#mcqViewport') && readerURL(url) && /^(?:\d+s?|laws?)$/.test(url.searchParams.get('chapter') || '')) return;
       if (!parent.HazzardReadingCompanion.route(url, true)) {
         link.target = '_blank';
         link.relList.add('noopener');
         return;
       }
-      const preview = link.closest('dialog.mcq-preview');
-      if (preview?.open) {
-        if (url.searchParams.get('chapter') === owner.dataset.chapter) {
-          preview.addEventListener('close', () => parent.HazzardReadingCompanion.route(url, true), {once: true});
-        }
-        preview.close();
-      }
+
     }
     event.preventDefault();
     event.stopPropagation();
