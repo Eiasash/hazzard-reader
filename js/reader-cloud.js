@@ -176,6 +176,8 @@ window.HazzardCloud = (() => {
 
   function changed(){
     if(restoring||merging||!decided())return;
+    // A local backup timestamp or other device-only write does not change the cloud notebook.
+    try{if(current?.exists&&bridge.equal(bridge.capture().storage,current.data.storage))return;}catch{}
     state.dirty=true;tick=false;
     try{saveState();}catch{error='Cloud settings could not be saved.';}
     render();schedule();
@@ -192,11 +194,11 @@ window.HazzardCloud = (() => {
       const copy=await rpc('hazzard_cloud_get',{p_token:token,p_which:which},false,token);
       if(generation!==epoch)return;
       if(!copy.exists)throw Error('No cloud copy is available.');
-      if(!confirm('Restore '+(which==='prev'?'previous cloud copy':'from cloud')+' (saved '+time(copy.updated_at,true)+')? This replaces this phone’s notebook. A local snapshot is saved first.'))return;
+      if(!confirm('Restore '+(which==='prev'?'previous cloud copy':'from cloud')+' (saved '+time(copy.updated_at,true)+')? Newer work on this phone will be kept. A local copy is saved first.'))return;
       restoring=true;clearTimeout(timer);
       const summary=await bridge.restore(copy.data);
       if(generation!==epoch)return;
-      state={username:session.username,decided:true,dirty:false,restoredAt:new Date().toISOString(),restoredCopyAt:copy.updated_at};saveState();
+      state={username:session.username,decided:true,dirty:!bridge.equal(bridge.capture().storage,copy.data.storage),restoredAt:new Date().toISOString(),restoredCopyAt:copy.updated_at};saveState();
       tick=false;error='';notice='Cloud copy restored. Local snapshot kept.'+(summary||'');
       // Do not immediately re-upload a restore: retain the server's previous copy.
     }catch(e){if(generation===epoch)error=e.message||'Restore failed.';}

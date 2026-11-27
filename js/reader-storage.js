@@ -425,7 +425,7 @@ window.HazzardStorage = (() => {
     notify();
   })();
   function setItem(key,raw){
-    if(key===PLACE_KEY||practiceKeys.includes(key))validateNotebookValue(key,JSON.parse(raw));
+    if(owns(key)&&!validRaw(key,raw))throw Error('This change could not be saved. The previous value is still on this phone.');
     if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}
     const change=removalChange(key,raw),protectedRemovals=change!==null&&protect(REMOVALS_KEY),previous=localStorage.getItem(REMOVALS_KEY),previousValue=protectedRemovals?structuredClone(unreadable.get(REMOVALS_KEY).value):null;
     if(change!==null){if(protectedRemovals)unreadable.get(REMOVALS_KEY).value=JSON.parse(change);else localStorage.setItem(REMOVALS_KEY,change);}

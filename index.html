@@ -695,7 +695,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <li><button data-mock="builder"><strong>Mock builder</strong><small>Build a 25-, 50- or 100-question paper</small></button></li>
 </ul><ul class="rows practice-routes practice-stats"><li><button id="openStatistics"><strong>Statistics</strong><small>Progress, weak topics and exam results</small></button></li></ul>
 </section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Notebook" hidden=""><div id="notebookBackupWarning" hidden><span></span> <button type="button" data-panel="backup">Open backup settings</button></div><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
-<div class="notebook-backup"><p id="backupOverview" role="status"></p><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
+<div class="notebook-backup"><p id="backupOverview" role="status">Saved on this phone</p><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
 <div id="backupRecovery"></div>
 <section id="cloudControls" aria-label="Cloud account">
 <p id="cloudStatus" class="meta" role="status">Cloud: not signed in</p>
@@ -3951,36 +3951,35 @@ async function restoreCloudNotebook(backup){
     const value=notebookValue(key,raw);validateNotebookValue(key,value);
     incoming[key]=key===removals.key?raw:key===CHAPTER_SORT_KEY?value:JSON.stringify(HazzardMCQ.migrateValue(key,value));
   }
-  const {previous,invalid}=restoreNotebookState();
-  const pendingRemovals=HazzardStorage.blockedKeys().includes(removals.key)?removals.read():null;
-  if(!Object.hasOwn(incoming,removals.key)&&Object.hasOwn(previous,removals.key)&&!pendingRemovals)incoming[removals.key]=previous[removals.key];
-  if(pendingRemovals)incoming[removals.key]=JSON.stringify(removals.merge(incoming[removals.key]?JSON.parse(incoming[removals.key]):null,pendingRemovals));
-  if(incoming[removals.key]!==undefined){
-    const records=removals.merge(JSON.parse(incoming[removals.key]),null);
-    for(const [key,raw]of Object.entries(incoming)){
-      if(key!==removals.key&&key!==BOOKMARK_KEY&&key!==HazzardMCQ.GENERATED_FLAGS_KEY&&!key.startsWith('stage-a-highlights-v1:'))continue;
-      const value=JSON.parse(raw);validateNotebookValue(key,value);
-      incoming[key]=JSON.stringify(key===removals.key?records:removals.apply(key,value,records));
-    }
-  }
   await HazzardStorage.snapshot({preserveInvalid:true});
   if(HazzardStorage.status.error)throw Error(HazzardStorage.status.error);
-  // Revision removals survive explicit restores of older cloud copies too.
-  const savedKey=HazzardMCQ.SAVED_KEY,savedRaw=localStorage.getItem(savedKey);
-  if(savedRaw!==null&&!HazzardStorage.blockedKeys().includes(savedKey))incoming[savedKey]=JSON.stringify(HazzardMCQ.mergeSaved(HazzardMCQ.readSaved(),incoming[savedKey]?JSON.parse(incoming[savedKey]):HazzardMCQ.emptySaved()));
-  for(const [key,valid,empty,merge] of [[HazzardMCQ.LOG_KEY,HazzardMCQ.validLog,HazzardMCQ.emptyLog,HazzardMCQ.mergeLog],[HazzardMCQ.BAD_KEY,HazzardMCQ.validBad,HazzardMCQ.emptyBad,HazzardMCQ.mergeBad]]){const raw=localStorage.getItem(key);if(raw!==null&&!HazzardStorage.blockedKeys().includes(key))incoming[key]=incoming[key]?JSON.stringify(merge(HazzardMCQ.rawValue(key,valid,empty),JSON.parse(incoming[key]))):raw;}
-  const answerKey=HazzardAnswerHighlights.KEY,answerRaw=localStorage.getItem(answerKey);
-  const cardKey=HazzardFlashcards.KEY,cardRaw=localStorage.getItem(cardKey);
-  if(cardRaw!==null&&!HazzardStorage.blockedKeys().includes(cardKey))incoming[cardKey]=incoming[cardKey]?JSON.stringify(HazzardFlashcards.merge(JSON.parse(cardRaw),JSON.parse(incoming[cardKey]))):cardRaw;
-  if(answerRaw!==null&&!HazzardStorage.blockedKeys().includes(answerKey))incoming[answerKey]=incoming[answerKey]?JSON.stringify(HazzardAnswerHighlights.merge(HazzardAnswerHighlights.read(),JSON.parse(incoming[answerKey]))):answerRaw;
-  const settingsKey=HazzardMCQ.SETTINGS_KEY,settingsRaw=localStorage.getItem(settingsKey);
-  if(settingsRaw!==null){const local=HazzardMCQ.settingsFromRaw(settingsRaw),remote=HazzardMCQ.settingsFromRaw(incoming[settingsKey]);if(!remote)incoming[settingsKey]=settingsRaw;else if(local)incoming[settingsKey]=JSON.stringify(HazzardMCQ.mergeSettings(local,remote));}
-  for(const key of invalid)if(!Object.hasOwn(incoming,key))incoming[key]=previous[key];
+  // Read again after the safety copy. Keep newer local records and keys absent from older files.
+  const {previous,invalid}=restoreNotebookState(),blocked=new Set(HazzardStorage.blockedKeys());
+  for(const [key,raw] of Object.entries(previous)){
+    if(!Object.hasOwn(incoming,key)){incoming[key]=raw;continue;}
+    if(invalid.includes(key)||blocked.has(key))continue;
+    const local=notebookValue(key,raw),remote=notebookValue(key,incoming[key]);
+    const merged=mergeNotebookValue(key,local,remote),next=key===CHAPTER_SORT_KEY?merged:JSON.stringify(merged);
+    incoming[key]=equalCloudStorage({[key]:raw},{[key]:next})?raw:next;
+  }
+  if(blocked.has(removals.key)){
+    const saved=backup.storage[removals.key];
+    incoming[removals.key]=JSON.stringify(removals.merge(saved?JSON.parse(saved):null,removals.read()));
+  }
+  if(incoming[removals.key]!==undefined){
+    const records=removals.merge(JSON.parse(incoming[removals.key]),null);
+    for(const [key,raw] of Object.entries(incoming)){
+      if(key!==removals.key&&key!==BOOKMARK_KEY&&key!==HazzardMCQ.GENERATED_FLAGS_KEY&&!key.startsWith('stage-a-highlights-v1:'))continue;
+      if(invalid.includes(key)&&!Object.hasOwn(backup.storage,key))continue;
+      const value=JSON.parse(raw),next=JSON.stringify(key===removals.key?records:removals.apply(key,value,records));
+      if(!equalCloudStorage({[key]:raw},{[key]:next}))incoming[key]=next;
+    }
+  }
   const summary=restoreSummary(invalid,backup.storage);
   const keys=new Set([...Object.keys(previous),...Object.keys(incoming)]);
   // One atomic synchronous batch from the UI's perspective; snapshot only the
   // completed notebook, never intermediate restored stores.
-  try{for(const key of keys){if(Object.hasOwn(incoming,key))localStorage.setItem(key,incoming[key]);else if(!HazzardStorage.blockedKeys().includes(key))localStorage.removeItem(key);}}
+  try{for(const key of keys)if(incoming[key]!==previous[key])localStorage.setItem(key,incoming[key]);}
   catch(error){
     for(const key of keys){if(Object.hasOwn(previous,key))localStorage.setItem(key,previous[key]);else localStorage.removeItem(key);}
     throw Error('Restore could not be saved. Previous notebook kept.');

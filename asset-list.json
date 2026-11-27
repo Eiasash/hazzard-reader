@@ -5918,8 +5918,8 @@
     },
     {
       "url": "./css/practice.css",
-      "sha256": "3f6873737fbbce80948d5059073bd39d44f2354c8bc7e569be484b5af34e905c",
-      "bytes": 20913
+      "sha256": "adeb4291df0b89a6c1a3bd4452c983b83837a222e2efe07e6eac065645202aa4",
+      "bytes": 20886
     },
     {
       "url": "./css/reader-accessibility.css",
@@ -5928,8 +5928,8 @@
     },
     {
       "url": "./css/reader-overhaul.css",
-      "sha256": "afa61b03955892a89e786c5db26777570155d5ac1965df1cbb6e62fce7a4bfe5",
-      "bytes": 23328
+      "sha256": "86fd5ca56637c381b028125e5cf1c49a07f887a298852b78263f7dc1bfa6dca8",
+      "bytes": 23347
     },
     {
       "url": "./css/reader-sections.css",
@@ -9658,8 +9658,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "be69dde954c58dc02f9355eb64e1f62c6be1d22601f402af8711a21331ebce64",
-      "bytes": 383011
+      "sha256": "d7def998972d9215a5b32447e6e81d17144484f8ae5d63e28c8f63cdcb0b272a",
+      "bytes": 381571
     },
     {
       "url": "./js/answer-passage-aliases.js",
@@ -9738,8 +9738,8 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "b239665b0c17b35411207b76ae759f4a5401db146deb341cd57f48f128db703d",
-      "bytes": 19286
+      "sha256": "db6b6701ef56dad7502ea1b0d98a0bbc04fa0b296f98950ef06534b30bfa03a6",
+      "bytes": 19533
     },
     {
       "url": "./js/reader-debug.js",
@@ -9763,8 +9763,8 @@
     },
     {
       "url": "./js/reader-storage.js",
-      "sha256": "f0d25295f3809575e27d7c6d5b6f65695f0c3fdbb2ccfcff2f45a216a1c28d79",
-      "bytes": 32707
+      "sha256": "80d67734c720a3505913dbc703546376bcffd783b6c024bd7a72172d9266e4eb",
+      "bytes": 32740
     },
     {
       "url": "./js/reader-whats-new.js",

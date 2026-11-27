@@ -146,7 +146,7 @@ body:has(#mcqViewport:not([hidden]) .review-session) #findToggle {display:none!i
 #statsViewport .stats-category>summary>.stats-topic-count,#statsViewport .stats-category>summary>.stats-pill {grid-area:auto;font-size:var(--type-label);white-space:nowrap}
 
 /* Keep labels and values intact while leaving room for the surrounding text to wrap. */
-.stats-figure,.stats-track-coverage>span {white-space:nowrap;overflow-wrap:normal;font-variant-numeric:tabular-nums}
+.stats-figure {white-space:nowrap;overflow-wrap:normal;font-variant-numeric:tabular-nums}
 .stats-track-coverage {display:flex;flex-wrap:wrap;gap:.12em .85em}
 .mcq-filter-toggle .mcq-count {display:block;color:var(--muted);font:500 var(--type-label)/1.35 var(--ui)}
 #mcqViewport .mcq-question-tools>[data-question-menu-trigger] {display:grid;place-items:center;width:44px;height:44px;padding:0;border:0;background:transparent;color:var(--muted)}

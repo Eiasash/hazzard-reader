@@ -215,7 +215,7 @@ body.reading-bars-hidden #panel[open][data-primary=true] > [data-pane=notebook]:
  #copy .table-wrap>table :is(td,th):nth-child(n) {min-inline-size:0;max-inline-size:none;padding:.4em;white-space:normal;overflow-wrap:normal;word-break:normal;hyphens:manual;line-height:1.4}
 }
 
-html:not([data-keyboard-navigation]) #bookmark:focus {outline:none;box-shadow:none}
+html:not([data-keyboard-navigation]) :is(#bookmark,.practice-due):focus {outline:none;box-shadow:none}
 #notebookBackupWarning:not([hidden]) {margin-block:.4em .8em;padding:.5em .65em;border-inline-start:2px solid var(--exam);font:500 var(--type-label)/1.4 var(--ui)}
 #notebookBackupWarning button {display:inline;padding:.2em;border:0;background:transparent;color:var(--accent);text-decoration:underline}
 #backupOverview {font:600 var(--type-control)/1.4 var(--ui)}
