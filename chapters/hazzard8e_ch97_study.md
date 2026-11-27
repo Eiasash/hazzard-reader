@@ -99,7 +99,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 **An incidentally detected adrenal mass raises two questions.** Assess hormone secretion and the likelihood of malignancy separately. The book says lipid-rich attenuation **<10 HU** on CT excludes malignancy and pheochromocytoma (p1532). Paroxysmal hypertension with headache, palpitations and sweating supports testing with plasma free or urinary fractionated metanephrines. Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp1532–1533).
 
-> Current practice (not the book): <span id="current-adrenal-hu" data-reader-metadata="navigation"></span>A homogeneous lesion measuring **≤10 HU on unenhanced CT** needs no further imaging. Hormonal assessment is a separate decision. [ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10](https://doi.org/10.1093/ejendo/lvad066).
+> Current practice (not the book): <span id="current-adrenal-hu" data-reader-metadata="navigation"></span>A homogeneous lesion measuring **≤10 HU on unenhanced CT** needs no further imaging. Hormonal assessment is a separate decision. [ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10](https://doi.org/10.1093/ejendo/lvad066). ESE recommends metanephrines for adrenal lesions without typical benign adenoma imaging features. Evaluate for cortisol autonomy with a 1-mg overnight dexamethasone suppression test when appropriate. In frail patients with limited life expectancy the test may be omitted. [ESE/ENSAT adrenal incidentaloma guideline, 2023](https://pubmed.ncbi.nlm.nih.gov/37318239/).
 
 ## Focal bone pain, vitamin D and ovarian aging
 

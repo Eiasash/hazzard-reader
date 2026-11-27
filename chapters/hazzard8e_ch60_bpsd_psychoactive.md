@@ -331,6 +331,8 @@ Aside from depression, antidepressants are also used to treat other NPS, includi
 | Nortriptyline | 10–25 | 75–150 | Therapeutic window 50–150 ng/mL; anticholinergic effects, hypotension, sedation, sexual dysfunction, slight weight gain |
 | Desipramine | 10–25 | 50–150 | Therapeutic window 150–300 ng/mL; mild anticholinergic effects, hypotension, slight GI distress, sedation, sexual dysfunction, slight weight gain |
 
+> *[sic — Table 60-9 really prints high sedation, hypotension and increased appetite in the bupropion row. The US bupropion label instead highlights dose-related seizure risk and lists effects including insomnia, anxiety and dry mouth. Use formulation-specific dosing and labeling.]* [Bupropion prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=004d8121-59d4-46c4-acb8-b2dd097bf556).
+
 <sub>Maximum recommended dosage for patients greater than 60 years of age. BID, twice daily; CR, controlled release; GI distress, gastrointestinal distress (eg, nausea, vomiting, diarrhea, constipation); IR, immediate release; SIADH, syndrome of inappropriate secretion of antidiuretic hormone; TID, three times a day.</sub>
 
 > **US drug information.** Doses refer to the US formulations at publication. The table's footnote qualifies the maximum daily doses only: "Maximum recommended dosage for patients greater than 60 years of age" (p929). Israeli registration and reimbursement can differ from US practice, and newer approvals may change the available choices. Exam questions on this table use these values. For a specific product in Israel, check its current local label.

@@ -51,6 +51,8 @@ These questions test Israeli consent and end-of-life law. The newer links lead t
 
 **A positive carotid Doppler after a TIA, pp. 112–113, Table 7-2.** First ask whether the patient would accept endarterectomy and could benefit from it. Cognitive and functional limitations can reduce the chance of completing recovery. In the book's review of symptomatic patients with 70%–99% stenosis, Doppler and noncontrast MRA both had 84% specificity. False positives therefore matter if the next step is invasive angiography or surgery. Explain both the risk of investigating and the stroke that effective treatment might prevent.
 
+> Current practice (not the book): Use noninvasive carotid imaging to assess symptomatic stenosis in patients who could benefit from intervention. Confirm discrepant or uncertain results with an appropriate second modality; intra-arterial angiography is not routinely required for every positive screening duplex. [Noninvasive carotid imaging meta-analysis, 2006](https://pubmed.ncbi.nlm.nih.gov/16679163/).
+
 ## Shared decisions and planning for loss of capacity
 
 **How to make a recommendation, p. 113.** The clinician explains which options are medically reasonable. The patient identifies the outcomes worth pursuing and the burdens worth accepting. If living alone is no longer feasible, ask which part matters most and look for an attainable alternative. Use a quiet, well-lit setting, time to respond and additional visits as needed. Invite the family members the patient wants involved.
@@ -85,7 +87,3 @@ These questions test Israeli consent and end-of-life law. The newer links lead t
 - Document discussions through advance directives, clinical records or appropriate portable medical orders (p113).
 - For serious life-limiting illness, including advanced frailty, voluntary discussion of life-sustaining treatment preferences may lead to a POLST form in U.S. settings where available (p113).
 - Revisit planning across care settings and illness changes; use communication tools and account for family, cultural, spiritual and religious values (p114–115).
-
-## Exam questions
-
-The past questions linked under What the exams asked cover advance-care planning and decision-making.

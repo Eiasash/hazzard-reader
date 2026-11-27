@@ -46,6 +46,8 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - Rochester community cohort (1999–2003) of 608 healthy adults 65+: RSV in **8%** (46/608) vs **10%** (56) of a separate high-risk group (CHF or chronic pulmonary disease); **16%** of high-risk participants with RSV required hospitalization; influenza caused more office visits than RSV in the same cohort (**42%/60%** vs **17%/23%**) (p1737).
 - Nursing-home outbreak attack rates range **2–90%**; one careful Rochester study found **7%** attack rate, RSV causing **27%** of illness (p1737).
 - Tennessee LTC cohort (88,581 person-years): RSV caused **15 hospitalizations and 17 deaths per 1,000 residents** (p1737). Compared with influenza, RSV typically produces **less pronounced fever** and **more pronounced wheezing**.
+
+> Current practice (not the book): The printed chapter gives 88,581 person-years [sic]. Ellis et al. report 81,885 person-years in Tennessee nursing homes and annual RSV-attributable hospitalization and mortality estimates per 1,000 persons. These historical cohort rates are not an individual risk forecast. [Ellis et al., JAGS, 2003](https://pubmed.ncbi.nlm.nih.gov/12757561/).
 - Viral culture is only **50%** sensitive for RSV; RT-PCR is relatively sensitive and specific (p1737).
 - Only licensed antiviral is **ribavirin** (aerosolized, teratogenic, sparse adult data) — otherwise supportive care only (p1737).
 

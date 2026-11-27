@@ -18,19 +18,19 @@ US CKD prevalence **~11.5%** overall (4.8% stages 1–2, 6.7% stages 3–5) but 
 
 BP target in CKD: **SBP 120–130**, **DBP <90** (<a href="?chapter=83#p1279">p1279</a>); goal of **<130/80** for diabetes + CKD (<a href="?chapter=83#p1286">p1286</a>).
 
-> **Current practice: KDIGO CKD guideline.** KDIGO suggests a standardized office systolic BP below 120 mm Hg if tolerated in adults with hypertension and CKD. A routine unstandardized clinic reading is not equivalent. Choose a less intensive target when symptomatic orthostasis, frailty or limited life expectancy warrants it. [KDIGO CKD guideline, 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
+> **Current practice: Blood pressure targets in CKD.** KDIGO suggests a standardized office systolic BP below 120 mm Hg if tolerated in adults with hypertension and CKD. A routine unstandardized clinic reading is not equivalent. Choose a less intensive target when symptomatic orthostasis, frailty or limited life expectancy warrants it. [KDIGO CKD guideline, 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
 
 ACEI/ARB (RAS blockade) is the mainstay in diabetes when DN is suspected; **do not combine ACEI+ARB** (↑ complications) (<a href="?chapter=83#p1279">p1279</a>).
 
 SGLT2 inhibitors and GLP-1 receptor agonists reduce CKD-progression risk in diabetics; benefit in nondiabetics is still emerging (<a href="?chapter=83#p1279">p1279</a>–<a href="?chapter=83#p1280">1280</a>).
 
-> **Current practice: KDIGO CKD guideline.** KDIGO recommends an SGLT2 inhibitor in CKD with T2D and eGFR ≥20 mL/min/1.73 m². For adults with CKD, including those without diabetes, strong indications include eGFR ≥20 with urine ACR ≥200 mg/g, or heart failure irrespective of albuminuria. Once started, continue below eGFR 20 if tolerated until kidney replacement therapy. [KDIGO CKD guideline, 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
+> **Current practice: SGLT2 inhibitors in CKD.** KDIGO recommends an SGLT2 inhibitor in CKD with T2D and eGFR ≥20 mL/min/1.73 m². For adults with CKD, including those without diabetes, strong indications include eGFR ≥20 with urine ACR ≥200 mg/g, or heart failure irrespective of albuminuria. Once started, continue below eGFR 20 if tolerated until kidney replacement therapy. [KDIGO CKD guideline, 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
 
 Statins (± ezetimibe) recommended once eGFR **<60** (<a href="?chapter=83#p1280">p1280</a>).
 
 Low-protein diet (0.5–0.6 g/kg/d) or very-low (0.3–0.4 g/kg/d) — some evidence it may reduce progression to ESKD in **CKD stage 4–5**; in nondiabetic CKD stage ≤3 it does not appear to reduce progression (<a href="?chapter=83#p1280">p1280</a>).
 
-> **Current practice: KDIGO CKD guideline.** Protein restriction must be individualized in older adults with CKD. KDIGO generally suggests 0.8 g/kg/day in CKD G3–G5, but frailty or sarcopenia can favor higher protein and energy targets. [KDIGO CKD guideline, 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
+> **Current practice: Protein targets in frail patients with CKD.** Protein restriction must be individualized in older adults with CKD. KDIGO generally suggests 0.8 g/kg/day in CKD G3–G5, but frailty or sarcopenia can favor higher protein and energy targets. [KDIGO CKD guideline, 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
 
 Discuss dialysis preferences once eGFR falls **<~20** (<a href="?chapter=83#p1280">p1280</a>).
 
@@ -54,7 +54,7 @@ Give isotonic fluid for a demonstrable volume deficit and reassess respiration, 
 
 Classified by urine output: nonoliguric **>400 mL/day**, oliguric **100–400**, anuric **<100** — nonoliguric has the better prognosis (<a href="?chapter=83#p1280">p1280</a>).
 
-> **Current practice: KDIGO AKI criteria.** KDIGO defines AKI by a creatinine increase ≥0.3 mg/dL within 48 hours, a rise to ≥1.5 times baseline within seven days, or urine output <0.5 mL/kg/h for at least six hours. Interpret these changes against the patient’s actual baseline. [KDIGO AKI criteria, 2012](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf).
+> **Current practice: Diagnostic thresholds for acute kidney injury.** KDIGO defines AKI by a creatinine increase ≥0.3 mg/dL within 48 hours, a rise to ≥1.5 times baseline within seven days, or urine output <0.5 mL/kg/h for at least six hours. Interpret these changes against the patient’s actual baseline. [KDIGO AKI criteria, 2012](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf).
 
 **Phosphate binders** (calcium acetate, sevelamer, lanthanum carbonate) — for hyperphosphatemia not controlled by diet alone (<a href="?chapter=83#p1280">p1280</a>).
 

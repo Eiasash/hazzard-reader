@@ -409,6 +409,8 @@ Table 47-12 lists the drugs used to treat incontinence. In general, carefully se
 
 **Table 47-12 — Drugs commonly used in the united states to treat urinary incontinence**  *(printed 712–713)*
 
+> *[sic — The p712 row labels Estring as estradiol acetate. Estring contains estradiol and releases approximately 7.5 micrograms daily for 90 days. Estradiol acetate is a different formulation.]* [Estring prescribing information, Description](https://www.pfizermedical.com/estring/description).
+
 | Drugs | Dosages | Mechanisms of action | Potential adverse effects |
 |---|---|---|---|
 | **Bladder Relaxants for Urgency Incontinence** | In general, reduced dosages for renal and hepatic impairment |  |  |

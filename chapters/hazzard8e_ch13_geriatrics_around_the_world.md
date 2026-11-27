@@ -30,6 +30,8 @@ Throughout the world, the aged proportion of the population is increasing. The n
 
 Notwithstanding some heterogeneity, life expectancy is increasing across the globe. In most industrialized countries, this increase in life expectancy has mostly occurred over the past century. However, in the most recent decades, its pace has progressed at an unprecedented speed, reaching estimates far beyond those predicted by most international organizations such as the United Nations. The increase in life expectancy has resulted in an increased proportion of individuals reaching the eighth and ninth decades of life. Aged individuals are consistently found to be the fastest growing segment of the population, and the rate of growth is more rapid in developing compared to developed countries (Figure 13-1). As life expectancy increases, there has been a wide decline in fertility rates, resulting in a decreasing dependency ratio: a smaller number of working age adults for each aged person. This trend has great and challenging implications for national approaches to support services for older adults. Since wealth and resources vary greatly across countries, priorities for health and social services vary as well. Many developing countries previously focused on infectious diseases and maternal-child health, but as they too face rapidly aging populations, they are now confronting the same challenges to health care as have developed countries in recent decades.
 
+> **[sic]** The ratio described here is the number of working-age people per older person. The old-age dependency ratio uses the opposite denominator, working-age people. [World Bank, old-age dependency ratio definition](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.DPND.OL).
+
 ## DECLINE OF THE DISEASE MODEL
 
 As age increases, there is a progressive, exponential increase in the occurrence of most chronic, degenerative, and progressive diseases, including cardiovascular disease, cancer, chronic obstructive pulmonary disease, dementia, and other degenerative conditions (see Chapter 2). Furthermore, there is an increase in the co-occurrence of these diseases, resulting in multimorbidity (see Chapter 41).
@@ -85,6 +87,8 @@ Geriatrics training and certification vary among responding countries. Some coun
 In some countries, formal training and certification is offered to health professionals other than physicians. Most common is geriatrics specialization for nurses, followed by physical and occupational therapists and social workers.
 
 While definitions vary for who is a geriatrician, our national respondents reported a very wide range of numbers of geriatricians per 100,000 persons age 65 or older (Table 13-1). A proposed criterion from the Royal College of Physicians (RCP) is that there should be 2 geriatricians for every 100,000 persons age 75 or older. This estimate is based on a consultative, not primary care, model of medical
+
+> **[sic]** The British Geriatrics Society’s workforce evidence gives one whole-time-equivalent geriatrician per 50,000 total population, approximately one per 4,000 people over 75 at the time. The denominator on this page is different. [British Geriatrics Society evidence to the UK Parliament, 2012](https://publications.parliament.uk/pa/cm201213/cmselect/cmhealth/6/6vw03.htm).
 
 <a id="p182"></a>**[p. 182]**
 

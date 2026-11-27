@@ -42264,11 +42264,6 @@
           "quote": "enoxaparin"
         },
         {
-          "id": "mcq-b23b2d149653e7699a123904",
-          "evidenceField": "stem",
-          "quote": "enoxaparin"
-        },
-        {
           "id": "mcq-45b58f340222ad48c888ec10",
           "evidenceField": "stem",
           "quote": "enoxaparin"
@@ -43687,88 +43682,6 @@
           "page": 1624,
           "quote": "Atenolol Leuprolide acetate Prinolol",
           "printedOnly": true
-        }
-      ]
-    },
-    {
-      "name": "Tretinoin",
-      "class": "",
-      "aliases": [],
-      "sources": [],
-      "bankOnly": true,
-      "bankSources": [
-        {
-          "id": "mcq-06a15a9053f355094b929a71",
-          "evidenceField": "option[1]",
-          "quote": "tretinoin"
-        }
-      ],
-      "israeliBrands": [
-        {
-          "name": "RET-AVIT CREAM 0.025 %",
-          "hebrewName": "רט-א ויט קרם % 0.025",
-          "registrationNumber": "060 20 27042 00",
-          "sourceUrl": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=060%2020%2027042%2000",
-          "form": "CREAM",
-          "routes": [
-            "DERMAL"
-          ],
-          "searchNames": [
-            "RET-AVIT CREAM",
-            "רט-א ויט קרם %"
-          ]
-        },
-        {
-          "name": "RET-AVIT CREAM 0.05 %",
-          "hebrewName": "רט-אויט קרם % 0.05",
-          "registrationNumber": "033 26 25400 00",
-          "sourceUrl": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=033%2026%2025400%2000",
-          "form": "CREAM",
-          "routes": [
-            "DERMAL"
-          ],
-          "searchNames": [
-            "RET-AVIT CREAM",
-            "רט-אויט קרם %"
-          ]
-        },
-        {
-          "name": "RET-AVIT GEL 0.025 %",
-          "hebrewName": "רט-אויט ג'ל % 0.025",
-          "registrationNumber": "060 21 27045 00",
-          "sourceUrl": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=060%2021%2027045%2000",
-          "form": "GEL",
-          "routes": [
-            "DERMAL"
-          ],
-          "searchNames": [
-            "RET-AVIT GEL",
-            "רט-אויט ג'ל %"
-          ]
-        },
-        {
-          "name": "RET-AVIT GEL 0.05 %",
-          "hebrewName": "רט-אויט ג'ל % 0.05",
-          "registrationNumber": "033 25 25399 00",
-          "sourceUrl": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=033%2025%2025399%2000",
-          "form": "GEL",
-          "routes": [
-            "DERMAL"
-          ],
-          "searchNames": [
-            "RET-AVIT GEL",
-            "רט-אויט ג'ל %"
-          ]
-        },
-        {
-          "name": "VESANOID ",
-          "hebrewName": "וסנואיד ",
-          "registrationNumber": "101 07 28446 04",
-          "sourceUrl": "https://registries.health.gov.il/api/Medicines/GetMedicineByRegNumber?regNumber=101%2007%2028446%2004",
-          "form": "CAPSULES",
-          "routes": [
-            "PER OS"
-          ]
         }
       ]
     },

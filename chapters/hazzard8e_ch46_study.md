@@ -56,7 +56,7 @@ A purple buttock lesion can represent extensive damage before the skin opens. In
 
 **Stage 1**: intact skin, nonblanchable erythema; reversible in **1–3 weeks** (<a href="?chapter=46#p686">p686</a>).
 
-**Stage 3**: full-thickness, fat visible, no bone/muscle/tendon exposed (<a href="?chapter=46#p686">p686</a>-<a href="?chapter=46#p687">687</a>, <a href="?chapter=46#book-figure-46-1">Figure 46-1</a>).
+**Stage 3**: full-thickness, adipose tissue may be visible, without exposed fascia, muscle, tendon, ligament, cartilage or bone (<a href="?chapter=46#p686">p686</a>-<a href="?chapter=46#p687">687</a>, <a href="?chapter=46#book-figure-46-1">Figure 46-1</a>).
 
 **Stage 4**: full-thickness with bone/muscle/tendon/cartilage exposed (<a href="?chapter=46#p686">p686</a>).
 
@@ -92,7 +92,7 @@ Thermography: in one NH study, areas of blanchable erythema with cooler skin tem
 
 Collagenase (enzymatic): iodine inhibits its activity; nanocrystalline silver "can be inhibited when used in combination with collagenase" (<a href="?chapter=46#p696">p696</a>).
 
-> **Current practice: Collagenase Santyl US label.** Heavy metals such as silver inhibit collagenase activity. If a silver-containing dressing has been used, cleanse the wound thoroughly with normal saline before applying collagenase. [Collagenase Santyl US label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6b6fbfc6-98fa-46aa-88ef-ab00fbb08ffd).
+> **Current practice: Silver and collagenase dressings.** Heavy metals such as silver inhibit collagenase activity. If a silver-containing dressing has been used, cleanse the wound thoroughly with normal saline before applying collagenase. [Collagenase Santyl US label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6b6fbfc6-98fa-46aa-88ef-ab00fbb08ffd).
 
 Surgical repair: complication rate up to **50%**, but **70–80%** healed at discharge; same-site recurrence lower in older patients (**40%**) than younger paraplegics (**>70%**); mortality in older patients ranges from nearly **50% to 68%** (long-term outcomes; <a href="?chapter=46#p695">p695</a>).
 
@@ -116,7 +116,7 @@ Osteomyelitis in **32%** of stage 4 PI; antibiotic course may be **<6 weeks** if
 
 Hazzard says saline and water should **seldom** be used to cleanse a colonized pressure injury because they have no antiseptic activity. It lists **0.25% sodium hypochlorite** and dilute povidone-iodine (**10% povidone with 1% free iodine**) among the antiseptic solutions (<a href="?chapter=46#p692">p692</a>). Low-pressure lavage at **4–15 psi** can lift fibrin and slough. For a **clean wound**, gentler cleansing and physiologic saline are appropriate (<a href="?chapter=46#p693">p693</a>). Avoid cytotoxic antiseptics on clean, healing tissue (<a href="?chapter=46#p697">p697</a>).
 
-> **Current practice: Wound Healing Society guidelines.** A 10% povidone-iodine solution contains approximately 1% available iodine and is the standard stock solution, not a dilution. Avoid cytotoxic antiseptics on viable healing tissue; routine cleansing can use a nonirritating, nontoxic solution. [Wound Healing Society guidelines, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/).
+> **Current practice: Povidone-iodine concentration.** A 10% povidone-iodine solution contains approximately 1% available iodine and is the standard stock solution, not a dilution. Avoid cytotoxic antiseptics on viable healing tissue; routine cleansing can use a nonirritating, nontoxic solution. [Wound Healing Society guidelines, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/).
 
 > **Current practice: Wound cleansing.** choose a pH-balanced, nonirritating, nontoxic cleanser for routine care. Tap water from a reliable source is acceptable — [WHS pressure ulcer guideline, 2023 update, recommendations 3.5 and 4.1](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/).
 
@@ -156,7 +156,7 @@ Oral MSSA/strep: cephalexin, cefadroxil, dicloxacillin, clindamycin. Oral MRSA: 
 
 Parenteral empiric: cefazolin, ceftriaxone, clindamycin; vancomycin may be required for MRSA; metronidazole/carbapenem/beta-lactamase inhibitor for anaerobes (<a href="?chapter=46#p697">p697</a>).
 
-> **Current practice: IDSA skin and soft-tissue infection guideline.** Amoxicillin can cover susceptible streptococci but does not provide MRSA coverage. If doxycycline is combined with a beta-lactam, their coverage is complementary. Deep infection, osteomyelitis or sepsis needs source assessment, cultures and systemic treatment appropriate to severity. [IDSA skin and soft-tissue infection guideline, 2014](https://pubmed.ncbi.nlm.nih.gov/24947530/).
+> **Current practice: Antibiotic coverage in deep wound infection.** Amoxicillin can cover susceptible streptococci but does not provide MRSA coverage. If doxycycline is combined with a beta-lactam, their coverage is complementary. Deep infection, osteomyelitis or sepsis needs source assessment, cultures and systemic treatment appropriate to severity. [IDSA skin and soft-tissue infection guideline, 2014](https://pubmed.ncbi.nlm.nih.gov/24947530/).
 
 EMLA cream (lidocaine **2.5%** + prilocaine **2.5%**) or opioids/NSAIDs **30 min** pre-procedure for severe wound pain (<a href="?chapter=46#p697">p697</a>); EMLA cut venous-wound pain scores by **21 mm** (<a href="?chapter=46#p698">p698</a>).
 

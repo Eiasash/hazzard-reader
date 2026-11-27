@@ -62,6 +62,8 @@ ACPA, anti-citrullinated protein antibodies; CRP, C-reactive protein; ESR, eryth
 
 ![Table 101-1](hazzard8e_ch101_table101-1_p1608.png)
 
+> **[sic]** The 2010 ACR/EULAR criteria score 2–10 large joints as one point, and classify definite RA at a total ≥6/10 in the eligible patient. The table’s “1–3 large joints” overlaps its zero-point row and omits joints four to ten. [ACR/EULAR 2010 classification table](https://rheumatology.org/api/asset/blt88256f51d5771046).
+
 > *Table 101-1 as printed (p. 1608).*
 
 In addition to classification criteria for the diagnosis of RA, the ACR has established criteria for functional status and for determining clinical remission in RA. The usefulness of these classification systems in older patients who often suffer functional disability from concomitant osteoarthritis, soft-tissue rheumatism, and cardiovascular or neurologic diseases is unclear.
@@ -403,6 +405,8 @@ There has been an explosion of interest in clinical treatment trials of newer dr
 <a id="p1622"></a>**[p. 1622]**
 FDA approval and its indication was expanded to include the treatment of active lupus nephritis in 2021. Vovlosporin, an oral calcineurin inhibitor, in combination with other background immunosuppression, has recently been approved by the FDA for adult patients with active lupus nephritis but the role in older lupus patients remained untested.
 
+> **[sic]** The drug’s generic name is voclosporin. [FDA Lupkynis prescribing information, 2021](https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/213716s000lbl.pdf).
+
 ## Sjögren Syndrome
 
 ### Definition
@@ -520,9 +524,13 @@ pain, but these symptoms rarely translate to frank arthritis. Taxanes (eg, pacli
 
 In recent years, immune checkpoint inhibitors (ICIs) such as CRLA-4/PD-1 inhibitors and anti-PD-1 or anti-PD-L1 monotherapy have been increasingly utilized to treat malignancies. The use of ICIs is associated with immune-related adverse events (IRAEs), and a wide spectrum of rheumatic manifestations including arthralgia/arthritis, myalgia/myositis, polymyalgia rheumatica, rheumatoid arthritis (RA), Sjögren’s syndrome, lupus and vasculitis have been reported. In addition, ICIs may exacerbate underlying rheumatic diseases. Rheumatic-IRAEs should be recognized early and the approach to management should be transdisciplinary in conjunction with oncology. The musculoskeletal side effects may be transient and regress after stopping ICIs. Corticosteroids are most commonly used to treat rheumatic spectrum IRAEs and, if unresponsive, immunosuppressive medications such as hydroxychloroquine, methotrexate, TNF-inhibitors and anti-IL-6 are preferred treatments.
 
+> **[sic]** The immune checkpoint is CTLA-4. The printed paragraph spells it “CRLA-4”. [National Cancer Institute, immune checkpoint inhibitors](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).
+
 ## Covid-19 And Rheumatic Diseases
 
 On March 11, 2020, the World Health Organization declared the novel SARS-CoV-2 (COVID-19) outbreak a global pandemic. COVID-19 is thought to be transmitted through respiratory droplets and aerosols and have an incubation period exceeding 14 days. Although most recover from COVID-19, some experience severe disease and complications including acute respiratory failure, shock, multiorgan dysfunction, and thromboembolic events. There was concern from the outset whether patients with rheumatic disease, and especially those receiving immunotherapy, may be more susceptible to COVID-19 infection. Several registries including the Global Rheumatology Alliance were established to track the impact of COVID-19 on rheumatic disease patients. Early epidemiologic data suggest multimorbidity, older age, and high doses of glucocorticoid may be associated with more frequent hospitalization and worse outcomes among patients with rheumatic diseases. Based on limited available data, the ACR recommends caution with initiation of new biologic therapy and continued use of established immunosuppressive therapy for patients with rheumatic diseases during the COVID-19 pandemic.
+
+> Current practice (not the book): CDC gives 2–14 days after exposure as the interval in which COVID-19 symptoms may appear. An interval exceeding 14 days is not the usual incubation period. [CDC, signs and symptoms of COVID-19](https://www.cdc.gov/covid/signs-symptoms/index.html).
 
 Early in the pandemic, hydroxychloroquine and chloroquine garnered international attention and controversy for their potential role in the prevention and treatment of COVID-19 given in vitro inhibition of severe SARS-CoV-2. A national drug shortage ensued, limiting the availability of drugs for patients reliant on these medications for treatment of many rheumatic conditions. Then, multiple rigorous studies showed no benefit of hydroxychloroquine as postexposure prophylaxis or COVID-19 treatment. Subsequently in June 2020, the FDA revoked emergency use authorization (EUA) on the use of hydroxychloroquine to treat COVID-19 in certain hospitalized patients. Another immunosuppressive medication tocilizumab emerged as a potential alternative treatment for COVID-19 after early observational data from China showed increased risk of death in COVID-19 patients with elevated IL-6 levels. In addition, nonrandomized trials suggested possible benefit in the treatment of cytokine storms from severe COVID-19 and off-label use of tocilizumab was for a time considered standard of care in the United States. In February 2021, the National Institutes of Health and Infectious Diseases Society of America recommended against the use of tocilizumab for the treatment of COVID-19 except in clinical trials after preliminary results from several randomized studies including the largest of its kind, the Multifactorial Adaptive Platform Trial of Community-Acquired Pneumonia (REMAP-CAP), showed insufficient data to support its use in hospitalized patients.
 

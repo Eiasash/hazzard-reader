@@ -155,6 +155,8 @@ The Comorbidity Alcohol Risk Evaluation Tool (CARET) The CARET is a more compreh
 
 and risky behaviors (ie, drinking and driving). It is scored using an algorithm that considers alcohol amount with the other factors to indicate potentially unhealthy alcohol use. It has a sensitivity of 91% and sensitivity of 68% in identifying older unhealthy drinkers.
 
+> **[sic]** The sentence calls both figures sensitivity. Validation results depend on the instrument and scoring rules. The original ARPS and shortened ARPS study reported sensitivity and specificity separately and does not establish 68% as the CARET specificity. [Moore et al., 2002](https://pubmed.ncbi.nlm.nih.gov/12086132/).
+
 The CAGE and CAGE-AID The CAGE questionnaire is one of the most commonly used screening tools for unhealthy alcohol use. It has four questions, and scoring ranges from 0–4 with a cut-off of 1 as the suggested threshold to identify unhealthy drinking in older adults and women. It has been studied in older adults with a sensitivity of 86% and a specificity of 78% to detect lifetime AUDs. The limitations of the CAGE are that it does poorly in identifying binge drinkers and does not distinguish between lifetime versus current use. The CAGE-AID consists of the CAGE questions that have been altered by expanding the scope of the questions to include drug use but has not been studied in older adults.
 
 NIDA Quick Screen V1.0 This interviewer-administered brief screener asks about past year use of alcohol, tobacco, prescription drugs (nonmedical use), and illegal drugs. If respondents answer more than never, the interviewer is directed to substance-specific follow-up questions or resources to continue screening and assessment.
@@ -214,6 +216,8 @@ While studies focused on older adults with opioid use disorder are limited, a la
 ![Table 23-4](hazzard8e_ch23_table-23-4_p325.webp)
 
 *TABLE 23-4 ■ FDA-APPROVED MEDICATIONS TO TREAT ALCOHOL USE DISORDER (AUD) AND OPIOID USE DISORDER (OUD)*
+
+> **[sic]** The Campral label contraindicates acamprosate at creatinine clearance of 30 mL/min or less. The table prints a strict less-than sign. [FDA Campral prescribing information](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=fe6f754f-62b4-4c86-805d-221332409516).
 
 
 <a id="p326"></a>**[p. 326]**

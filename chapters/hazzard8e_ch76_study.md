@@ -157,6 +157,8 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - **Refractory HF** — high-dose oral furosemide 200 mg BID or bumetanide 10 mg daily; or continuous IV furosemide 5–40 mg/h or bumetanide 0.5–1 mg/h (p1189).
 - **Tafamidis** (ATTR cardiac amyloidosis) — meglumine 80 mg daily or “free salt” 61 mg daily [sic — Vyndamax is tafamidis free acid] (not per-mg substitutable); ATTR-ACT: mortality **29.5% vs 42.9%** placebo; cost **~$225,000/year** (p1188).
 
+> Current practice (not the book): Other US-approved disease-modifying options for ATTR cardiomyopathy include acoramidis, a TTR stabilizer, and vutrisiran, a TTR-silencing treatment. Choose therapy with specialist input and attention to indication, route and patient priorities. [Amvuttra US prescribing information, 2025](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8db0facb-81b6-4006-9239-27dc6409c5d3).
+
 ### Device Therapy
 - ICD: NYHA II–III HFREF, EF **≤35%** (primary prevention) or post-arrest VT/VF (secondary); benefit declines with age; patients **≥80y** are **twice as likely** as younger patients to have major implant complications (p1184).
 - **CRT:** the strongest standard indication includes LVEF **≤35%**, sinus rhythm, **LBBB** and QRS **≥150 ms**, with NYHA II, III or ambulatory IV symptoms despite guideline-directed therapy. In selected older adults, CRT improves symptoms, quality of life and survival. ICD therapy targets arrhythmic sudden death (p1184, AHA/ACC/HFSA 2022).

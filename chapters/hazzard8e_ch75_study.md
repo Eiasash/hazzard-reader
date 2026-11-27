@@ -112,8 +112,8 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - **Severe AS (Table 75-1, p1150):** aortic valve area **<1.0 cm²**, jet velocity **>4 m/s**, mean gradient **>40 mm Hg**.
   > Current practice (not the book): ACC/AHA describes severe high-gradient AS as peak velocity **≥4.0 m/s** or mean gradient **≥40 mm Hg**; valve area is typically **≤1.0 cm²** — [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 - Classic triad once symptomatic: angina (**50%** 5-yr survival untreated), syncope (**50%** 3-yr mortality), heart failure (**50%** mortality at 2 yr — worst prognosis) (p1151).
-- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS causes epistaxis or ecchymoses in **20%** of patients, and patients can also develop Heyde syndrome (GI bleeding from colonic angiodysplasias); these abnormalities resolve with valve replacement (p1151).
-- Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, flat BP response, ST changes) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151).
+- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS can cause epistaxis or ecchymoses in **up to 20%** of patients, and patients can also develop Heyde syndrome (GI bleeding from colonic angiodysplasias); these abnormalities resolve with valve replacement (p1151).
+- Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, failure of systolic BP to rise by at least 20 mm Hg, or ST-segment abnormalities) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151).
 - 5-yr symptom-free probability even in severe AS averages only **50%** (p1151).
 - BAV: enlargement rarely **> 1.0 cm²**, **10%** complication rate, restenosis by 6mo–1yr, 1-yr mortality **35–50%** — bridge/palliation only, not a replacement substitute (p1152).
 - SAVR bioprosthetic structural deterioration **~10%** at 15–20 yr; Medicare operative mortality **8.8%** overall, **6.0%** at high-volume centers (p1152).

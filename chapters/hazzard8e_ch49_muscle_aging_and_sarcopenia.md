@@ -48,6 +48,8 @@ The basic functional unit of skeletal muscles is the motor unit. Each motor unit
 
 fibers (slow-twitch) are well adapted to perform aerobic exercise and are highly resistant to fatigue, having high oxidative capacity and a low capacity to generate adenosine triphosphate (ATP). Type IIx fibers (fast-twitch) contract several times faster but fatigue rapidly, adapted to brief, intense contractions (as in weight lifting) and have a high ATP-generating capacity and low glycolytic capacity. Type IIa fibers (also fast-twitch) are also fast but are fatigue-resistant (Table 49-1). Muscle myofibrils are made of two main contractile proteins actin and myosin, with a double helix structure, regulated by troponin and tropomyosin.
 
+> *[sic — Type IIx fibers are fast and fatigable, with high glycolytic capacity and relatively low oxidative capacity. Table 49-1 on this page describes their energy supply as anaerobic.]* [Human muscle metabolic and fiber-type study, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4967754/).
+
 The nervous system regulates recruitment of motor units to carry out movements by generating action potentials in the motor cortex of the brain, that propagate down to the neuromuscular junction, triggering contraction of muscle fibers in a highly energy dependent process. The motor cortex is regulated by many other brain regions.
 
 ## MUSCLE AGING
@@ -57,6 +59,8 @@ Age-related changes have been described at all levels of the motor unit. With in
 The firing capacity of motor units is also reduced with age during submaximal and maximal intensity contractions, a phenomenon that has been linked to motor unit remodeling, by shifting the fastest firing fibers to a slower phenotype. The consequence is that older persons need to increase the number of activated fibers and come closer to maximal effort to perform usual tasks such as climbing stairs or rising from a chair. The control of muscle contraction and movement also depends on other integrative neural mechanisms that show age-related changes, including neural excitability and brain connectivity.
 
 The magnitude of change in muscle size and function is strongly associated with long-term lifestyle, especially with the degree of physical activity and the amount of endurance exercise. This was first demonstrated in animal models, where long-term exercise is associated with reduced loss of motor neurons and muscle fibers compared to sedentary animals. Studies in runners have shown that at least part of the age-related motor unit loss may be prevented or retarded by usual physical exercise, perhaps via an increase of the reinnervation capacity of denervated units. A low protein intake over long periods of time is also associated with reduced muscle mass loss and may help upregulate the balance between muscle protein anabolism and catabolism. Other genetic and molecular changes involved in age-related changes of the skeletal muscle and the motor unit are still largely the focus of research.
+
+> *[sic — In the Health ABC cohort, higher protein intake was associated with less lean-mass loss over three years. The printed assertion about low intake reverses the direction of the association.]* [Houston et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18175749/).
 
 ## SARCOPENIA: CHANGING DEFINITIONS ALONG TIME
 

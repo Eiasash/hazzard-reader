@@ -342,6 +342,8 @@ Monitoring of prostate-specific antigen (PSA) and performance of DRE to detect p
 
 Ovarian failure (menopause) is universal in older women. As serum estrogen concentrations decrease with ovarian failure, the classic symptoms and signs of menopause ensue. Clinical management of menopause symptoms is discussed in Chapter 36 and effects on sexual function in older women in Chapter 35. Menopausal hormone loss results in a rapid decline in bone mineral density during the first 3 to 5 years, followed by a slower decline in bone mineral density after estrogen production has reached a nadir. The most important systemic endocrine effect of menopause is the increased risk of osteoporosis and low-trauma fractures. It is essential to query women 65 years or older about a history of low-trauma fracture, family history of low-trauma fracture, personal history of height loss greater than or equal to 4 inches, and other risk factors for osteoporotic fracture. Osteoporosis is reviewed extensively in Chapter 51.
 
+> Current practice (not the book): BHOF uses historical height loss of at least 1.5 inches (about 4 cm) as an indication for vertebral imaging in eligible adults. Compare with the four inches printed here. [BHOF clinician’s guide, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546973/).
+
 ## Calcium, Parathyroid, And Vitamin D
 
 ### Physiology
@@ -394,6 +396,8 @@ The classical clinical manifestations of primary hyperparathyroidism are less co
 25-OH vitamin D, 25-hydroxyvitamin D; PTH, parathyroid hormone.
 
 ![Table 97-9](hazzard8e_ch97_table97-9_p1538.png)
+
+> **[sic]** Excess paraprotein can raise total calcium while ionized calcium remains normal. Confirm with ionized calcium when the clinical findings and total calcium disagree; monoclonal gammopathy can also coexist with true hypercalcemia. [Paraproteinemia case and cohort study, 2025](https://pubmed.ncbi.nlm.nih.gov/41227076/).
 
 > *Table 97-9 — PTH-dependent and PTH-independent causes of hypercalcemia in older patients, reproduced as a page image (printed p. 1538) — the grid did not extract reliably as text for this fast build.*
 

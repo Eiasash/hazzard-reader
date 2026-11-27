@@ -10,13 +10,21 @@ window.HazzardFlashcards = (() => {
   function dueDay(record){
     return record.due||HazzardReview.plus(HazzardReview.day(record.at),HazzardReview.STEPS[0]);
   }
+  let dueIndex;
+  function index(){
+    return dueIndex ||= fetch('data/flashcard-due-index.json').then(async r=>{
+      if(!r.ok)throw Error('Flashcard index unavailable');
+      const data=await r.json();
+      return {chapters:new Set(data.chapters),cards:data.ids.map(id=>({id,recallKeys:data.legacy[id]}))};
+    }).catch(e=>{dueIndex=null;throw e;});
+  }
   async function refreshDue(){
     const button=document.getElementById('homeFlashDue');if(!button)return;
     const today=HazzardReview.day();
     let count=0;
     try{
       if(Object.keys(progress().cards).length||localStorage.getItem('hazzard-drills-v1')){
-        const cards=await loadCards(),records=gradesFor(cards);
+        const {cards}=await index(),records=gradesFor(cards);
         count=cards.filter(card=>records[card.id]&&dueDay(records[card.id])<=today).length;
       }
     }catch{button.textContent='Flashcards due · unavailable';button.disabled=true;return;}
@@ -266,7 +274,7 @@ window.HazzardFlashcards = (() => {
       const entry=buttonFor(chapter.slice(0,-1));entry.className='study-flashcards';
       entry.dataset.readerMetadata='flashcards';entry.textContent='Practise chapter flashcards';
       const slot=copy.querySelector('[data-study-flashcards]');if(slot)slot.replaceWith(entry);else copy.querySelector('h1')?.after(entry);
-      entry.hidden=true;loadCards().then(cards=>{entry.hidden=!cards.some(c=>c.chapter===chapter.slice(0,-1));}).catch(()=>{entry.hidden=false;});
+      entry.hidden=true;index().then(data=>{entry.hidden=!data.chapters.has(chapter.slice(0,-1));}).catch(()=>{entry.hidden=false;});
     }
     if(pane)return;
     pane = document.createElement('section');

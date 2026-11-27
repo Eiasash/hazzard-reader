@@ -70,6 +70,8 @@ For someone who smokes or drinks heavily, the history identifies a potentially r
 Sildenafil preserves the cyclic GMP signal generated during arousal. A nitrate increases production of that signal, so combining the two can cause profound hypotension. An alpha blocker also lowers blood pressure. Sildenafil and vardenafil may produce a transient blue tinge to vision. Tadalafil offers a longer window of activity and avanafil may act sooner (p. 552).
 
 - Intracavernosal therapy or urethral alprostadil are alternatives; local pain, prolonged erections or fibrosis are relevant cautions (p552).
+
+> Current practice (not the book): The manufacturer discontinued the MUSE urethral suppository in the United States in June 2024. Intracavernosal alprostadil and other erectile-dysfunction treatments have separate formulations and availability. [ASHP discontinued-drug bulletin, 2024](https://www.ashp.org/drug-shortages/current-shortages/drug-shortage-detail.aspx?id=855).
 - Vacuum devices and prostheses offer nonoral options. Do not leave the constriction ring on beyond **30 minutes**; use care with anticoagulation (p552).
 - Prosthesis infection is an important complication; treatment choice should account for acceptability and practical use (p552).
 

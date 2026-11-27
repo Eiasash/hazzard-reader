@@ -132,7 +132,7 @@ Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformi
 - Symptom burden in advanced COPD (Table 81-14): dyspnea **94%**, pain **54%** (p1263); respiratory symptoms (dyspnea, cough, sputum) up to **98%** of patients (p1262).
 - Psychological/sleep symptom burden in advanced COPD: depression **>90%** (antidepressants, supportive counseling); anxiety **>90%** (benzodiazepines, behavioral interventions); delirium (antipsychotics + behavioral interventions); sleep disturbance **40%** (trazodone/Z-meds, nocturnal O2, CPAP, CBT) (Table 81-14, p1263).
 
-> Current practice (not the book): Benzodiazepines and Z-drugs increase older adults’ risks of delirium, falls and fractures. In COPD, consider respiratory status and prioritize non-drug approaches to anxiety and insomnia before prescribing sedatives. [AGS Beers Criteria, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
+> Current practice (not the book): Benzodiazepines and Z-drugs increase older adults’ risks of delirium, falls and fractures. In COPD, consider respiratory status and prioritize non-drug approaches to anxiety and insomnia before prescribing sedatives. [AGS Beers Criteria, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 - Very severe obstruction (**FEV1 <30%** predicted or FEV1 Z-score **<–2.55**) helps identify patients at risk for uncontrolled symptoms from advanced COPD — but FEV1 alone is not sufficient to identify who would benefit from palliative care (p1262).
 - SPIKES framework for breaking bad news: **S**etting, **P**erception, **I**nvitation, **K**nowledge, **E**mpathy, **S**trategy/summary (p1264).
 

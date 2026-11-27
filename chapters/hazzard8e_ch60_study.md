@@ -122,13 +122,13 @@ Escitalopram is the S-enantiomer of citalopram. Hazzard describes S-CitAD as ong
 
 Mirtazapine — sedating at lower doses; in the sleep pilot, 8 received mirtazapine and 16 placebo (24 total). Nighttime sleep did not improve and daytime sleepiness increased. <a href="?chapter=60#p930">Page 930</a> misstates the treatment-group size. [Scoralick et al., methods and results](https://pubmed.ncbi.nlm.nih.gov/26818096/).
 
-> **Current practice: SYMBAD trial.** In SYMBAD, mirtazapine did not improve agitation more than placebo in dementia. More deaths occurred in the mirtazapine group, an exploratory safety signal. Avoid using it solely as a presumed safer treatment for agitation. [SYMBAD trial, 2021](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7727fe84-f6cc-4b31-bc00-1ecf741ad361).
+> **Current practice: Mirtazapine for agitation.** In SYMBAD, mirtazapine did not improve agitation more than placebo in dementia. More deaths occurred in the mirtazapine group, an exploratory safety signal. Avoid using it solely as a presumed safer treatment for agitation. [SYMBAD trial, 2021](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7727fe84-f6cc-4b31-bc00-1ecf741ad361).
 
 Bupropion — avoid with a history of seizures or psychotic symptoms (<a href="?chapter=60#p930">p930</a>).
 
 Desipramine — the other preferred TCA in <a href="?chapter=60#book-table-60-9">Table 60-9</a>; therapeutic window **150–300 ng/mL** (higher than nortriptyline's — don't conflate the two), similar side-effect profile (<a href="?chapter=60#p929">p929</a>).
 
-> **Current practice: AGS Beers Criteria.** Nortriptyline and desipramine are both on the 2023 Beers list of antidepressants with strong anticholinergic activity. Sedation and orthostatic hypotension are additional concerns when considering either agent in dementia. [AGS Beers Criteria, Table 2, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
+> **Current practice: Secondary-amine tricyclics in older adults.** Nortriptyline and desipramine are both on the 2023 Beers list of antidepressants with strong anticholinergic activity. Sedation and orthostatic hypotension are additional concerns when considering either agent in dementia. [AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 
 TCAs overall are limited by a high adverse-event burden compared to SSRIs/SNRIs (<a href="?chapter=60#p930">p930</a>).
 

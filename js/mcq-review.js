@@ -37,10 +37,10 @@ window.HazzardReview = (() => {
   function result(previous,{correct,unsure,review=false},now=Date.now()){
     const r={...scheduled(previous||blank()),unsure,at:Math.max(now,(previous?.at||0)+1)};
     if(!correct||unsure)return {...r,active:true,step:advance(r.step,false),due:plus(day(now),1)};
-    if(review&&r.active){r.step=advance(r.step,true);r.due=plus(day(now),STEPS[r.step]);}
+    if(review&&(r.active||!previous)){r.active=true;r.step=advance(r.step,true);r.due=plus(day(now),STEPS[r.step]);}
     return r;
   }
-  function set(id,value,answer){const v=read();id=HazzardMCQ.currentId(id);v.items[id]={...(value||blank()),at:Math.max(Date.now(),(v.items[id]?.at||0)+1)};if(answer!==undefined&&v.batch?.ids.includes(id)){if(answer===null)delete v.batch.answers[id];else v.batch.answers[id]=answer;v.batchAt=Math.max(Date.now(),v.batchAt+1);}return write(v);}
+  function set(id,value){const v=read();id=HazzardMCQ.currentId(id);v.items[id]={...(value||blank()),at:Math.max(Date.now(),(v.items[id]?.at||0)+1)};return write(v);}
   // An older notebook can display its first review day before opening a review.
   function initialQueue(v, all, answers, now=Date.now()){
     if(v.seed)return v;
@@ -49,26 +49,11 @@ window.HazzardReview = (() => {
     for(const q of all){
       const a=answers[q.id];
       if(a?.checked&&!q.accepted.includes(a.selected)&&!items[q.id]){
-        items[q.id]={active:true,unsure:false,step:0,due:plus(today,Math.floor(count/30)),at:now};
+        items[q.id]={active:true,unsure:false,step:0,due:plus(day(a.at||now),1),at:now};
         count++;
       }
     }
     return {...v,items,seed:{count,at:now}};
-  }
-  const officialFirst=()=>localStorage.getItem('hazzard-review-official-first')==='1';
-  function ordered(ids,questions){
-    if(!officialFirst())return ids;
-    const past=new Set(questions.filter(q=>q.kind==='past').map(q=>q.id));
-    return [...ids].sort((a,b)=>Number(past.has(b))-Number(past.has(a)));
-  }
-  function setOrder(value,questions,batch,today){
-    localStorage.setItem('hazzard-review-official-first',value?'1':'0');
-    if(!batch)return null;
-    const state=read(),dueOrder=due(state,day(),true),rank=new Map(dueOrder.map((id,i)=>[id,i]));
-    const ids=ordered([...batch.ids].sort((a,b)=>(rank.get(a)??Infinity)-(rank.get(b)??Infinity)),questions);
-    batch={...batch,ids,position:Math.max(0,ids.findIndex(id=>!batch.answers[id]?.checked))};
-    if(today)rememberToday(batch);else{state.batch=batch;state.batchAt=Math.max(Date.now(),state.batchAt+1);write(state);}
-    return batch;
   }
   function catalogDue(all, now=Date.now()){
     let v=canonical(HazzardMCQ.rawValue(KEY,valid,empty));
@@ -77,14 +62,14 @@ window.HazzardReview = (() => {
       v=initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers),now);
     }
     const live=new Set(all.filter(q=>!q.retired).map(q=>HazzardMCQ.currentId(q.id)));
-    return ordered(due(v,day(now)).filter(id=>live.has(id)),all);
+    return due(v,day(now)).filter(id=>live.has(id));
   }
   function officialDue(all) {
     const past = new Set(all.filter(q=>q.kind==='past').map(q=>HazzardMCQ.currentId(q.id)));
     return catalogDue(all).filter(id=>past.has(id));
   }
-  // Home opens every currently due question. Keep its navigation in this
-  // history entry; the resident's separately sized Practice batch stays saved.
+  // Home and Practice open the same due list. A history entry remembers the
+  // displayed question and answers without touching the older stored batch.
   function todayBatch(all, official=false){
     const today=day(),dueIds=official?officialDue(all):catalogDue(all),saved=history.state?.hazzardDueQueue;
     if(saved?.scope!==(official?"official":"today")||saved?.day!==today||!Array.isArray(saved.ids)||!saved.ids.every(idOK)){
@@ -100,35 +85,5 @@ window.HazzardReview = (() => {
     const {day,ids,position,scope}=batch;
     history.replaceState({...history.state,hazzardDueQueue:{day,ids,position,scope}},'');
   }
-  let seedPromise;
-  function seed(){return seedPromise ||= (async()=>{
-    await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;const existing=read().seed;if(existing)return existing;
-    const all=await HazzardStudyHome.catalog();
-    const saved=HazzardMCQ.readStore(false);if(!HazzardMCQ.validStore(saved))throw Error('Unreadable MCQ answers');
-    const v=read();if(v.seed)return v.seed;
-    return write(initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers))).seed;
-  })().finally(()=>{seedPromise=null;});}
-  function batch(items){const v=read(),today=day(),available=new Set(items.map(q=>q.id));if(!v.batch||v.batch.day!==today){v.batch={day:today,ids:ordered(due(v,today,true).filter(id=>available.has(id)),items).slice(0,v.settings.size),answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}return v.batch;}
-  function nextBatch(items){
-    const v=read(),available=new Set(items.map(q=>q.id)),completed=new Set(Object.keys(v.batch?.answers||{}));
-    const ids=ordered(due(v).filter(id=>available.has(id)&&!completed.has(id)),items).slice(0,v.settings.size);
-    if(!ids.length)return null;
-    v.batch={day:day(),ids,answers:{},position:0};v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);return v.batch;
-  }
-  function position(n){const v=read();if(v.batch&&v.batch.position!==n){v.batch.position=n;v.batchAt=Math.max(Date.now(),v.batchAt+1);write(v);}}
-  function size(n,items){
-    const v=read();v.settings={size:n,at:Math.max(Date.now(),v.settings.at+1)};
-    if(v.batch){
-      const current=v.batch.ids[v.batch.position],available=new Set(items.map(q=>q.id));
-      const answered=v.batch.ids.filter(id=>v.batch.answers[id]?.checked);
-      const candidates=[...new Set([...v.batch.ids,...due(v,day(),true)])].filter(id=>available.has(id)&&!answered.includes(id));
-      // Completed answers are retained even when shrinking below today's count.
-      const keep=new Set([...answered,...candidates.slice(0,Math.max(0,n-answered.length))]);
-      v.batch.ids=[...new Set([...v.batch.ids,...candidates])].filter(id=>keep.has(id));
-      v.batch.position=Math.max(0,v.batch.ids.indexOf(current));
-      v.batchAt=Math.max(Date.now(),v.batchAt+1);
-    }
-    return write(v);
-  }
-  return {KEY,STEPS,advance,officialFirst,setOrder,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,officialDue,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
+  return {KEY,STEPS,advance,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,officialDue,todayBatch,rememberToday,result,set};
 })();

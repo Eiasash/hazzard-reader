@@ -18,7 +18,7 @@ Study summary of Chapter 79 - Hypertension; the book and the full chapter are th
 
 <span data-exam-ids="mcq-7559bbef5d36d19293f61fdb" data-exam-read-page="1225" data-reader-metadata="exam"></span>
 
-**Treat the patient with uncomplicated stage 1 hypertension.** Table 79-3 starts with a six-month trial of exercise, sodium reduction and weight loss if overweight. Continue those measures if a medicine is added. Reassess risk and response: an established cardiovascular or renal indication can change the initial plan, and persistent pressure above the goal can justify a low-dose thiazide-type drug. A monthly reading by itself treats neither excess sodium nor inactivity (pp. 1224–1225).
+**Treat the patient with uncomplicated stage 1 hypertension.** For stage 1 hypertension without diabetes or established cardiovascular or kidney disease, Table 79-3 starts with a six-month trial of exercise, sodium reduction and weight loss if overweight. Continue those measures if a medicine is added. Reassess risk and response: an established cardiovascular or renal indication can change the initial plan, and persistent pressure above the goal can justify a low-dose thiazide-type drug. A monthly reading by itself treats neither excess sodium nor inactivity (pp. 1224–1225).
 
 <span data-exam-ids="mcq-ba95508abaa2e8c6c5b63ba6" data-exam-read-page="1225" data-reader-metadata="exam"></span>
 

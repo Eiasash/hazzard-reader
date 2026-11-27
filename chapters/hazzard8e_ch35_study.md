@@ -21,6 +21,8 @@ Study summary of Chapter 35; the book and the full chapter are the reference.
 - Lubricants reduce friction; moisturizers, treatment of underlying disease, pelvic therapy and graded dilation may help selected women (p522-523).
 - Psychotherapy, couples/sex therapy and adapted sexual-skills education can address relevant concerns (p522-523).
 - The book lists conjugated estrogen, ospemifene and intravaginal prasterone for postmenopausal sexual symptoms; treatment must match the specific problem (p523).
+
+> Current practice (not the book): Low-dose estradiol vaginal inserts are another US-labeled option for moderate-to-severe dyspareunia due to menopausal vulvovaginal atrophy. Local and systemic formulations have different indications and risk considerations. [Imvexxy US label](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/208564Orig1s000Approv.pdf).
 - Testosterone is used off-label in some women; adverse effects may be irreversible and safety in older women is unestablished. reviews of systemic DHEA have not shown efficacy (p523).
 - Flibanserin is taken daily orally and bremelanotide by pre-encounter injection; the chapter states neither was approved for postmenopausal women (p523).
 - Older women are poorly represented in treatment trials; preserve that uncertainty when discussing benefits and harms (p522-523).
@@ -29,7 +31,7 @@ Study summary of Chapter 35; the book and the full chapter are the reference.
 
 ### Localizing pain, dryness and loss of interest
 
-- Genitourinary syndrome of menopause can involve burning, itching and painful penetration together with urgency, dysuria or recurrent urinary infections. Reduced lubrication, higher vaginal pH and fewer lactobacilli accompany menopausal tissue change. Consider irritant dermatitis, infection, a vulvar dermatosis and dysplasia or cancer when findings suggest another cause (p513).
+- Genitourinary syndrome of menopause can involve burning, itching and painful penetration together with urgency, dysuria or recurrent urinary infections. Reduced lubrication, higher vaginal pH and fewer lactobacilli accompany menopausal tissue change. Consider irritant dermatitis, infection, a vulvar dermatosis and dysplasia or cancer when findings suggest another cause (Ch 36, pp531–534).
 - Ask whether symptoms occur with every partner and type of stimulation and whether function was previously satisfactory. The interest/arousal criteria reproduced in the book include clinically significant personal distress and a duration of approximately **6 months**. An encounter frequency or a partner's concern alone cannot establish the diagnosis (p519).
 - Explore pain with permission. A cotton swab may help localize vulvar tenderness, although its specificity has been questioned. Examination can help the patient understand her anatomy; graded dilators can illustrate capacity and help selected patients regain comfort (p521–523).
 - If condoms are used, discuss lubrication and technique together. The chapter recommends water- or silicone-based products for this purpose and notes that oil can reduce condom effectiveness. Water-based products can dry quickly and may need to be reapplied (p509).

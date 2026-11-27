@@ -256,7 +256,7 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-bank .mcq-docked-actions{flex-wrap:nowrap}
 .mcq-bank .mcq-docked-actions>button{flex:1 1 0;min-width:44px;font-size:var(--type-label)}
 .mcq-bank .mcq-filter-toggle{margin-bottom:0}
-.mcq-bank-chips{flex-wrap:nowrap;gap:4px;margin:0 0 6px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+.mcq-bank-chips{flex-wrap:wrap;gap:4px;margin:0 0 6px}
 .mcq-bank-chips>button{flex:none;min-width:44px;min-height:44px;padding:6px 0;border:0;border-radius:0;background:transparent;font:500 var(--type-label)/1.3 var(--ui);white-space:nowrap}
 .mcq-bank-chips>button>span{display:flex;align-items:center;justify-content:center;gap:4px;min-height:32px;box-sizing:border-box;padding:4px 9px;border:1px solid var(--control);border-radius:18px;background:var(--surface);color:var(--muted)}
 .mcq-bank-chips>[aria-pressed="true"]{background:transparent}

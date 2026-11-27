@@ -136,7 +136,7 @@ Bisphosphonates are retained in bone and can still exert an effect after treatme
 
 Teriparatide and abaloparatide should be considered as **starting therapy** for **very high fracture risk** and/or multiple fractures (<a href="?chapter=51#p777">p777</a>); after teriparatide, treatment with an antiresorptive is imperative to maintain BMD gains (<a href="?chapter=51#p776">p776</a>).
 
-> **Current practice: BHOF clinician’s guide.** For very high fracture risk, such as multiple vertebral fractures with low BMD, consider an anabolic agent or romosozumab followed by an antiresorptive. Assess cardiovascular risk before romosozumab and plan the next treatment before completing the course. [BHOF clinician’s guide, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546973/).
+> **Current practice: Anabolic treatment for very high fracture risk.** For very high fracture risk, such as multiple vertebral fractures with low BMD, consider an anabolic agent or romosozumab followed by an antiresorptive. Assess cardiovascular risk before romosozumab and plan the next treatment before completing the course. [BHOF clinician’s guide, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546973/).
 
 Hazzard limits **teriparatide and abaloparatide to 2 years** because animal studies found osteosarcoma with teriparatide (<a href="?chapter=51#p776">pp776</a>–<a href="?chapter=51#p777">777</a>). It limits **romosozumab to 12 months**, citing excess cardiovascular events in one phase 3 trial and a concern about possible oncogenesis extrapolated from the teriparatide rodent findings (<a href="?chapter=51#p777">p777</a>).
 

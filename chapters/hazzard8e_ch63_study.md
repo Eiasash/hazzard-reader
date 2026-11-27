@@ -38,7 +38,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 <span data-exam-ids="mcq-127a926990dd25ce35544cb7" data-exam-read-page="985"></span>
 
 - Distinguished from DLB primarily by timing: dementia arises **years-to-decades after** established motor PD.
-- **~1/3 of PD patients** eventually develop PDD (p985).
+- Ch63 describes functionally impairing cognitive symptoms in **about one-third of older people with PD**. Ch61 reports **about 50% developing dementia within 10 years** of diagnosis (p942). The outcomes and follow-up differ (p985).
 - Possible predictors: older age at motor onset, bradykinesia/non-tremor phenotype, bilateral onset, declining levodopa response, depression, hallucinations (p985).
 - DLB declines faster than PDD (p985).
 
@@ -71,7 +71,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Treatment: symptomatic only — SSRIs for behavioral symptoms/cravings/compulsions; atypical neuroleptics can be considered if delusions are problematic; **no theoretical basis for cholinesterase inhibitors** (may worsen agitation) (p991).
 
 ## Amyotrophic Lateral Sclerosis (ALS)
-- **Incidence 1–2/100,000/yr; ~5,000 new cases/yr; ~2:1 M:F** (p991).
+- **Incidence 1–2/100,000/yr; ~5,000 new cases/yr in the United States; ~2:1 M:F** (p991).
 - **Bulbar onset in ~25%** (more common in older patients); **pseudobulbar affect in up to 45%** (p991).
 - Mixed upper + lower motor neuron signs; EMG is diagnostic.
 
@@ -104,7 +104,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Epilepsy prevalence in AD: 10–22%**; typically complex partial (mesial temporal) seizures — déjà vu, olfactory aura, speech arrest; can occur even with mild or pre-dementia cognitive symptoms (p994).
 - Suitable AEDs in older adults (book: "include but are not limited to"; chosen for fewer side effects/interactions): **lamotrigine, levetiracetam, lacosamide, oxcarbazepine** (p994).
 
-> Current practice (not the book): Oxcarbazepine may cause SIADH or hyponatremia. In older adults check sodium when starting or changing the dose, especially if other medicines also lower sodium. [AGS Beers Criteria, Table 4, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
+> Current practice (not the book): Oxcarbazepine may cause SIADH or hyponatremia. In older adults check sodium when starting or changing the dose, especially if other medicines also lower sodium. [AGS Beers Criteria, Table 4, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 
 ## Traumatic Brain Injury (TBI)
 

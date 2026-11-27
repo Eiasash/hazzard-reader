@@ -61,6 +61,8 @@ paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png',
 from build_chapter_layout import build as build_chapter_layout
 paths.update(build_chapter_layout(manifest))
 paths.update(question_files)
+from generate_startup_data import generate as generate_startup_data
+generate_startup_data(ROOT,paths)
 paths.update({'js/question-data.js','data/verification-registry.json'})
 # Only the current chapter's stable highlight IDs are needed at startup.
 registry = json.loads((ROOT / 'data/mark-unit-registry.json').read_text(encoding='utf-8'))

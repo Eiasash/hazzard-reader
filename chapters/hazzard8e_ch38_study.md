@@ -60,7 +60,7 @@ Retention, recurrent urinary infection, bladder stones or hematuria warrant prom
 ## Choosing medication by the patient's aim
 
 - Tamsulosin **0.4–0.8 mg daily** or alfuzosin **10 mg daily** can improve LUTS; dizziness and hypotension still occur despite greater selectivity (p566).
-- Tamsulosin can cause ejaculatory effects and floppy iris syndrome. Alert the cataract surgeon; stopping it does not reliably eliminate the risk (p566).
+- Tamsulosin can cause ejaculatory effects and floppy iris syndrome. Other alpha-1 blockers can also cause floppy iris syndrome. Alert the cataract surgeon to current or previous exposure; stopping the drug does not reliably eliminate the risk (p566).
 
 Alpha blockade relaxes smooth muscle in the outlet and usually begins to improve symptoms in two to four weeks. Available agents have broadly similar symptom efficacy. Ask about postural symptoms and falls, especially with terazosin or doxazosin. Even the more selective agents can cause hypotension. Review antihypertensive treatment and tell the ophthalmologist about current or previous tamsulosin before cataract surgery (pp. 564–566).
 

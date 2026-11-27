@@ -40,6 +40,8 @@ It is increasingly clear that many of the health benefits of exercise can be acc
 
 Sedentary behavior includes activities that require an energy expenditure of more than or equal to 1.5 times resting energy expenditure, and encompasses activities such as sitting, watching TV, using a computer, reclining, or lying down during waking hours. Objective measurements of sedentary time in the National Health and Nutrition Examination Survey (NHANES) indicate that adults aged 60 or older spend more time engaged in sedentary
 
+> *[sic — The consensus definition uses 1.5 METs or less during waking behavior in a sitting, reclining or lying posture. The inequality is reversed here.]* [Sedentary Behaviour Research Network, 2017](https://pubmed.ncbi.nlm.nih.gov/28599680/).
+
 <a id="p806"></a>**[p. 806]**
 
 behaviors (8–9 hours per day, or 60% of their waking time) than any other segment of the population. In older adults, sedentary behavior is associated with an increased risk of sarcopenia and functional limitations, and inversely associated with physical function. Prolonged periods of sedentary behavior appear particularly deleterious, particularly for metabolic health. In older adults, the number of breaks in sedentary time is associated with higher levels of physical function, independent of moderate to vigorous physical activity. Changing sedentary behavior may have an immediate impact on the health of older adults. In one study, older adults who reduced their sedentary time over a 2-year period had a lower risk of all-cause mortality compared to those who either increased or did not change their sedentary time.
@@ -49,6 +51,8 @@ behaviors (8–9 hours per day, or 60% of their waking time) than any other segm
 ### Aerobic Exercise Capacity
 
 One of the key physiologic changes that occurs with aging and contributes to the decline in physical function is a decline in aerobic exercise capacity, best measured by the amount of oxygen consumed at maximal or peak exercise (maximal or peak aerobic power; VO2max or VO2peak). Longitudinal data indicate that the rate of decline in VO2peak accelerates markedly with each successive decade, reaching more than 20% per decade from the 1970s onward (Figure 54-1).
+
+> *[sic — Figure 54-1 describes decades of age. The reference is to people in their seventies, not to a calendar decade.]*
 
 Age-associated declines in VO2max can be attributed to alterations in both central and peripheral determinants of exercise capacity. Reductions in maximal heart rate and in the maximal ability of muscle to extract oxygen from the blood, driven in large part by the age-associated loss of muscle mass, appear to contribute to declines in VO2 max in older adults (also see Chapter 73, The Aging Cardiovascular System). In all age groups, endurance-trained adults
 
@@ -87,6 +91,8 @@ To illustrate the concept of thresholds, consider that in steady-state measures 
 Thus, exercise may produce a large improvement in function in frail adults with little or no physiologic reserve. Indeed, well-designed studies of exercise in frail adults report improvements in functional limitations with exercise. For example, the Lifestyle Interventions and Independence for Elders (LIFE) study of frail older adults (70–89 years) demonstrated that a structured, moderate-intensity physical activity intervention reduced the risk of mobility disability compared to a control health education program. The greatest risk reduction (HR = 0.75) was observed in older adults
 
 with lower physical function at baseline, compared to those with moderate functional impairments at baseline (HR = 0.95). In contrast, exercise would be expected to have much smaller effects on functional limitations in healthy older adults, at least in basic activities of daily life.
+
+> *[Study note — The LIFE trial’s Figure 4 gives HR 0.75 for baseline SPPB <8 and HR 0.95 for SPPB 8–9. The interaction was not significant (P = 0.19). The overall HR for major mobility disability was 0.82.]* [Pahor et al., 2014](https://jamanetwork.com/journals/jama/fullarticle/1875328).
 
 ## EXERCISE AND COMMON GERIATRIC DISORDERS
 

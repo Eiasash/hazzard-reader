@@ -286,6 +286,8 @@ Cranial nerve XI: accessory nerve The spinal accessory nerve innervates the uppe
 
 Cranial nerve XII: hypoglossal The hypoglossal nerve innervates the tongue. Patients are asked to stick their tongue out; deviation to either side implies a lesion on the side of deviation. The tongue should also be examined for atrophy and spontaneous muscle contractions (fasciculation) suggesting upper motor neuron disease. Fasciculation is best detected on the lateral aspects of the tongue. Tongue weakness is also common in pseudobulbar palsy.
 
+> **[sic]** Tongue atrophy and fasciculations localize to the lower motor neuron pathway of the hypoglossal system. The paragraph prints “upper motor neuron.” Chapter 63 identifies fasciculations and weakness as lower motor neuron findings (p991).
+
 Motor System Examination Muscle bulk, strength, tone, and coordination are assessed as part of the motor system examination.
 
 Muscle bulk Muscle bulk is examined by visual inspection and palpation. Muscle wasting may occur with disuse; muscle, nerve, or spinal disease; and in generalized weight loss secondary to malnutrition, systemic illness, or advanced brain diseases. Mild muscular wasting without associated weakness can be encountered in normal aging most commonly involving the intrinsic hand and foot muscles, calf, and shoulder girdle muscles.

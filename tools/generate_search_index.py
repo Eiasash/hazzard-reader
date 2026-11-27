@@ -30,6 +30,7 @@ def generate():
                   link:clean.querySelector('a[href*="#p"]')?.getAttribute('href')||null};
         }) : [];
         const pages = [...root.querySelectorAll('[id]')].filter(e=>/^p\d+$/.test(e.id)).map(e=>Number(e.id.slice(1)));
+        HazzardChapterContent.formatReadEndMatter(root,id);
         HazzardFlashcards.foldRecall(root,id,{});
         smoothPageMarkers(root);
         return [id, searchBlocks(root).map(searchText), prompts, pages];

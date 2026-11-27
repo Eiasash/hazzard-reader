@@ -66,9 +66,13 @@ Policy makers in the United States have long recognized poor-quality transitions
 
 More recently, policy changes from the Improving Medicare Post-Acute Care Transformation (IMPACT) Act of 2014 have sought to improve transitions by standardizing patient assessment data in postacute settings and better matching patients’ clinical needs with the right postacute care environment (Table 18-1), which may have implications for discharge planning. Historically, provision of rehabilitation services drove Centers for Medicare and Medicaid Services reimbursement of skilled nursing facilities (SNFs) and home health agencies (HHAs), but documentation of patients’ progress varied from setting to setting and focused on amount of service provided rather than the outcomes of those services on patients’ function. Beginning in 2019, the Patient-Driven Payment Model (PDPM) for SNFs and Patient-Driven Grouping Model (PDGM) for HHAs adjust payment based on patients’ clinical needs and utilize a single, standardized system for assessment and documentation. This shift in data collection has stewarded new opportunities to create a clinically meaningful record of a patient’s longitudinal progress through the postacute setting.
 
+> **[sic]** The skilled-nursing model began October 1, 2019. The home-health model began January 1, 2020. [CMS, home-health PDGM](https://www.cms.gov/medicare/payment/prospective-payment-systems/home-health/home-health-patient-driven-groupings-model) · [CMS, skilled-nursing PDPM](https://www.cms.gov/medicare/payment/prospective-payment-systems/skilled-nursing-facility-snf/patient-driven-model).
+
 <a id="p251"></a>**[p. 251]**
 
 ![Table 18-1](hazzard8e_ch18_table-18-1_p251.webp)
+
+> **[sic]** The Medicare hospice threshold is a life expectancy of six months or less if the terminal illness follows its normal course. The table uses a strict less-than sign. [CMS, Medicare hospice eligibility](https://www.cms.gov/medicare/payment/fee-for-service-providers/hospice).
 
 *TABLE 18-1 ■ POSTACUTE CARE CONTINUUM OF SERVICES*
 
@@ -204,6 +208,8 @@ recognize nurses as clinical leaders for supporting patients and their families 
 ### Interventions to Improve Hospital-to-Community Transitional Care Quality
 
 Home visit–based transitional care interventions that have been tested in randomized controlled trials include Coleman’s Transitions of Care Intervention (CTI) and Naylor’s Transitional Care Model (TCM). These interventions reduce rehospitalizations by about one-third. Both programs utilize posthospital in-home visits with a nurse practitioner to educate high-risk patients about their medications, medical follow-up, signs of condition worsening, and provider’s contact information. While contact with patients in these programs only lasts for a few weeks, the effect on rehospitalization has been shown to last up to 180 days—likely due to improved self-management. Both of these interventions, however, are limited to patients who
+
+> **[sic]** The name used in the randomized trial is Care Transitions Intervention. [Coleman et al., 2006](https://pubmed.ncbi.nlm.nih.gov/17000937/).
 
 agree to in-home supports and live within geographic reach of a home visit.
 

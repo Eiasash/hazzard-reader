@@ -10569,7 +10569,7 @@
     "id": "ch81-study-recall-11",
     "chapter": "81",
     "front": "What PaO2/SpO2 thresholds indicate daily long-term oxygen therapy (LTOT), and how many hours per day are needed for a survival benefit?",
-    "back": "Resting PaO2 ≤ 55 mm Hg or SpO2 ≤ 88% (or PaO2 ≤ 59/SpO2 ≤ 89% with cor pulmonale, pulmonary hypertension, or erythrocytosis). LTOT worn more than 16 hours per day improves survival (p1256).",
+    "back": "Resting PaO2 ≤ 55 mm Hg or SpO2 ≤ 88% (or PaO2 ≤ 59/SpO2 ≤ 89% with cor pulmonale, pulmonary hypertension, or erythrocytosis). LTOT worn more than 16 hours per day improves survival (p1256). Current practice (not the book): For severe chronic resting hypoxemia, ATS recommends oxygen for at least 15 hours/day. In REDOX, prescribing 24 rather than 15 hours/day did not reduce the risk of hospitalization or death at one year. The trial does not establish benefit for moderate desaturation. REDOX randomized trial, 2024.",
     "questionIds": [],
     "recallKeys": [
       "81s:recall-11"
@@ -11219,7 +11219,7 @@
     "id": "ch105-study-recall-3",
     "chapter": "105",
     "front": "What rates of ESBL-producing Klebsiella were found among pneumonia isolates in the US vs Europe?",
-    "back": "20% (US) vs 35% (Europe) (p1683).",
+    "back": "In the cited surveillance study, 20% of isolated Klebsiella spp. in the United States and 35% in Europe were ESBL-producing (p1683).",
     "questionIds": [],
     "recallKeys": [
       "105s:recall-3"
@@ -18261,7 +18261,7 @@
     "id": "ch54-study-3",
     "chapter": "54",
     "front": "Which group in LIFE showed the larger reduction in mobility disability?",
-    "back": "The group with lower baseline physical function. Its reported hazard ratio was 0.75 versus 0.95 for moderate impairment (p807).",
+    "back": "The group with lower baseline physical function. Its reported hazard ratio was 0.75 versus 0.95 for moderate impairment (p807). The interaction test in the original trial was not statistically significant (P = 0.19).",
     "questionIds": [],
     "recallKeys": [
       "54s:3"

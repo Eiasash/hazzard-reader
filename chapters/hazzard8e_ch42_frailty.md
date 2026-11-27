@@ -129,6 +129,8 @@ Thus, the defining elements of frailty represent both the diagnostic criteria fo
 
 <span id="exam-p619-mcq-e1593b4c91f0875d66348128" data-exam-ids="mcq-e1593b4c91f0875d66348128" data-exam-read-page="619" data-reader-metadata="exam"></span>Those individuals who meet at least three of the five criteria are considered frail, while those individuals who meet two criteria out of five are considered as prefrail. Of note, the presence of one criterion alone may constitute a risk factor but does not represent frailty itself, because frailty is considered a multisystemic syndrome. Using this operational definition, the severity of frailty is associated with risk for disability and loss of independence, even in the absence of an acute precipitant. In addition, frailty is associated with the presence of specific chronic diseases, particularly those with an inflammatory etiology, and patients with chronic multimorbidity are likely to be frail or have high risk of developing frailty. While frailty incidence
 
+> *[sic — One or two Fried phenotype criteria indicate the intermediate or prefrail state. Three or more indicate frailty, as Table 42-3 on p621 also states.]* [Fried et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11253156/).
+
 <a id="p620"></a>**[p. 620]**
 
 rises with increasing age independent of chronic diseases, the association with such chronic diseases, including cardiovascular, kidney, and rheumatologic diseases, suggests that there may be both a primary, aging-related frailty and a phenotype of frailty that is secondary to chronic disease or jointly related to a shared etiology.

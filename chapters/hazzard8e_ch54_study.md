@@ -32,7 +32,7 @@ Study summary of Chapter 54; the book and the full chapter are the reference.
 
 ### Match the training stimulus to the limiting task
 
-- In the LIFE study of frail adults aged **70–89**, a structured, moderate-intensity activity program reduced mobility disability compared with health education. The reported hazard ratio was **0.75** in participants with lower baseline function and **0.95** in those with moderate impairment. Starting reserve helps explain why equal gains can have unequal effects on daily life (p807).
+- In the LIFE study of frail adults aged **70–89**, a structured, moderate-intensity activity program reduced mobility disability compared with health education. The reported hazard ratio was **0.75** in participants with lower baseline function and **0.95** in those with moderate impairment. The primary trial found no statistically significant interaction by baseline SPPB (P = 0.19); the overall HR for major mobility disability was 0.82. [Pahor et al., Figure 4, 2014](https://jamanetwork.com/journals/jama/fullarticle/1875328). Starting reserve helps explain why equal gains can have unequal effects on daily life (p807).
 - With peripheral arterial disease, supervised walking that gradually increases speed and distance can improve how far the patient walks before claudication limits activity. The pain threshold and tolerance help set training intensity (p808).
 - In people with stage 1 hypertension the chapter reports reductions of **4–10 mm Hg** systolic and **3–8 mm Hg** diastolic with sufficient aerobic exercise volume. Evidence was less clear for stage 2 or resistant hypertension. These estimates describe groups, not an expected fall for each patient (p809).
 
@@ -129,7 +129,7 @@ Finally, make the plan specific enough to follow. Ask where the activity will oc
 
 **3. Which group in LIFE showed the larger reduction in mobility disability?**
 
-<details><summary>Answer</summary>The group with lower baseline physical function. Its reported hazard ratio was <strong>0.75</strong> versus <strong>0.95</strong> for moderate impairment (p807).</details>
+<details><summary>Answer</summary>The group with lower baseline physical function. Its reported hazard ratio was <strong>0.75</strong> versus <strong>0.95</strong> for moderate impairment (p807). The interaction test in the original trial was not statistically significant (P = 0.19).</details>
 
 **4. Which walking program does the chapter describe for peripheral arterial disease?**
 

@@ -29,7 +29,7 @@ From a maximal inspiration the patient blows out as hard and completely as possi
 
 Residual volume (RV) is what remains after the hardest possible expiration. When the lung loses recoil, small airways close earlier and trap gas. RV rises and there is correspondingly less air available for the vital capacity maneuver. Functional residual capacity (FRC) is measured at the end of quiet breathing. A loss of inward recoil can shift that resting volume upward, the choice in June 2022 Q40. Full inflation is a third condition: reduced inward recoil favors a higher TLC, while vertebral height loss and stiffer rib joints restrict expansion (Ch 80 pp1230–1231; Ch 81 p1237 on increased RV and FRC).
 
-> Current practice (not the book): The size and detection of the FRC change vary by population. [Quiet and maximal expiration in older and younger adults, Table II](https://www.jci.org/articles/view/104825).
+The size and detection of the FRC change vary by population. [Quiet and maximal expiration in older and younger adults, Table II](https://www.jci.org/articles/view/104825).
 
 **Exam traps**
 

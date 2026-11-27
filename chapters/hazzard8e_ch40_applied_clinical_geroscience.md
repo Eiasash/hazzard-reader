@@ -73,6 +73,8 @@ These insightful discoveries suggest that aging processes can be modified to inc
 
 *FIGURE 40-2. Age (y axis) represents the major shared risk factor of death from most chronic diseases.*
 
+> *[sic — Figure 40-2 actually plots age groups on the horizontal axis and deaths per 100,000 per year on the vertical axis.]*
+
 
 ### Geroscience-Driven Interventions to Modulate Aging in Humans
 
@@ -134,6 +136,8 @@ function, while also improving geriatric syndromes such as frailty, sarcopenia, 
 ### Types of Geroscience Interventions Based on Preclinical Studies
 
 One way to assess the likelihood of successful translation of a geroscience-based intervention into clinical trials is to weigh the evidence from preclinical studies. Thus, a major prediction of translational geroscience is that healthspan, and perhaps lifespan, would be extended in model organisms. The National Institute on Aging (NIA) Interventions Testing Program (ITP) tests drugs to determine if they prevent disease and extend lifespan in genetically heterogeneous (outbred) mice. The ITP has shown that of 26 drugs tested to date, 7 extended lifespan significantly: nor-dihydroguaiaretic acid, aspirin, acarbose<sup>*</sup>, protandim<sup>*</sup>, rapamycin, 17-α-estradiol<sup>*</sup>, glycine, and a synergistic combination of rapamycin + metformin (<sup>*</sup>indicates mainly effective in males). Table 40-3 lists examples of interventions that successfully target primary aging processes to extend health- and lifespans, healthspan alone, or lifespan alone. Several interventions include currently available pharmacologic agents that have been repurposed for studying effects on human aging, such as rapamycin, angiotensin-converting enzyme (ACE) inhibitors/angiotensin II receptor blockers (ARBs), metformin, and so-called “senolytic” compounds.
+
+> *[sic — This sentence names seven individual agents plus a rapamycin–metformin combination. The eighth regimen is a combination, and the list does not establish that metformin alone prolonged lifespan.]*
 
 ### Senotherapeutics as an Example of Geroscience Discovery-to-Translation
 

@@ -18,6 +18,8 @@ Study summary of Chapter 66; the book and the full chapter are the reference.
 - Distinguish primary anxiety from medical illness, medication effects, intoxication or withdrawal; symptom timing matters (p1032).
 - Psychotherapy and SSRIs/SNRIs are central treatments. Geriatric starting doses are generally half those for younger adults (p1034).
 - The book describes maximal SSRI antianxiety effect after **6–12 months** at a therapeutic dose; buspirone may take **2–4 weeks** (p1034).
+
+> Current practice (not the book): Assess SSRI tolerability and early response over weeks. Trials in older adults with GAD have typically evaluated acute treatment over about 12 weeks. Continuation treatment after response is a separate question from the time to initial improvement. [Escitalopram randomized trial in late-life GAD, 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2840403/).
 - Benzodiazepines warrant great caution: cognitive effects, dependence and falls. TCAs add anticholinergic/cardiac risks (p1034).
 - Sleep complaints are often multifactorial; review pain, nocturia, breathing, drugs and substances before attributing them to aging (p1034–1035).
 - CBT for insomnia has better long-term outcomes than medication; CPAP treats sleep-disordered breathing (p1035–1036).
@@ -93,7 +95,7 @@ Snoring, witnessed pauses and daytime sleepiness suggest sleep-disordered breath
 
 The book describes ropinirole and pramipexole for restless legs and limb movements, and clonazepam for REM sleep behavior disorder with particular concern about daytime sedation in older adults. For insomnia it discusses zolpidem, zaleplon and eszopiclone; short-term efficacy does not remove risks to gait, alertness and cognition. Ramelteon acts at melatonin receptors. Start with changes directed at the history and behavioral approaches to insomnia, then reassess the specific complaint. The chapter provides no standard milligram schedule for these drugs that can be applied across all of these sleep diagnoses (p1035–1036).
 
-> Current practice (not the book): Avoid zolpidem, eszopiclone and zaleplon in most older adults. Their small average sleep benefit must be weighed against delirium, falls, fractures and other adverse effects. [AGS Beers Criteria, Table 2, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
+> Current practice (not the book): Avoid zolpidem, eszopiclone and zaleplon in most older adults. Their small average sleep benefit must be weighed against delirium, falls, fractures and other adverse effects. [AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 
 > Current practice (not the book): For adult restless legs syndrome, AASM advises against routine long-term use of pramipexole or ropinirole because augmentation can make symptoms start earlier or become more intense. Its recommendations favor gabapentin-class options for appropriate patients and include assessment of iron status. - [American Academy of Sleep Medicine guideline, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
 

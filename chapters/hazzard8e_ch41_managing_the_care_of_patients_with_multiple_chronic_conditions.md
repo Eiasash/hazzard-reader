@@ -123,6 +123,8 @@ Many people with multiple chronic conditions experience disease-focused, not pat
 
 A study that delineated the treatment regimen that would arise from implementation of clinical practice guidelines for an older woman with five common chronic conditions (COPD, hypertension, diabetes, osteoarthritis, and hypertension) resulted in 12 different medicines, in 19 doses per day, with a high degree of medication regimen complexity (Table 41-1)
 
+> *[sic — Hypertension is listed twice. The five conditions in Boyd et al.’s case were hypertension, diabetes, COPD, osteoarthritis and osteoporosis.]* [Boyd et al., JAMA, 2005](https://pubmed.ncbi.nlm.nih.gov/16091574/).
+
 Many single disease guidelines only address people with multiple chronic conditions in a limited fashion, and many fail to incorporate many patient-centered topics, like how to incorporate patient preferences. Applying the guidelines to older adults with multiple chronic conditions thus takes interpretation on the part of the clinician. Suggestions for interpreting the evidence in the context of multiple chronic conditions and incorporating guideline-based recommendations into the overall care plan are outlined below.
 
 ### Polypharmacy, Potentially Inappropriate Medications, and Deprescribing

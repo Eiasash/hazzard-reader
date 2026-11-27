@@ -44,7 +44,7 @@ Study summary of Chapter 106; the book and the full chapter are the reference.
 <a id="p1709"></a>
 - TMP/SMX interacts with warfarin and sulfonylureas; monitor increased INR/hypoglycemia risk. (p. 1709)
 
-> Current practice (not the book): Trimethoprim–sulfamethoxazole increases hyperkalemia risk with ACE inhibitors, ARBs and ARNIs, especially with impaired kidney function. Review the indication, renal dose, potassium and interacting medicines. [AGS Beers Criteria, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
+> Current practice (not the book): Trimethoprim–sulfamethoxazole increases hyperkalemia risk with ACE inhibitors, ARBs and ARNIs, especially with impaired kidney function. Review the indication, renal dose, potassium and interacting medicines. [AGS Beers Criteria, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 - Fosfomycin **3 g once orally**: generally reserved for resistant pathogens or inability to use other first-line drugs; not for complicated UTI. (p. 1709)
 <a id="p1711"></a>
 - Most older men with simple cystitis: **7 days** if response is prompt, within **72 hours**; assess for extension beyond the bladder. (p. 1711)

@@ -107,6 +107,8 @@ Table 50-9 moves the assessment into the person's usual environment. Ask about d
 
 - Gait speed is an integrative functional marker, not a diagnosis of the responsible impairment; assessment scales help choose tasks and monitor treatment (p750, p752).
 - In a pooled community cohort, each **0.1 m/s** faster speed was associated with **13%** lower mortality risk; this is an association, not a guaranteed treatment effect (p746).
+
+> Current practice (not the book): In the pooled primary analysis, the hazard ratio for death per 0.1 m/s faster gait speed was 0.88 (95% CI 0.87–0.90), or approximately 12% lower hazard. A hazard ratio from an observational cohort does not establish that increasing walking speed reduces mortality. [Studenski et al., JAMA, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3080184/).
 - With aging, step length and speed decline and double-support time increases; step length and stride length describe different distances (p747).
 
 ## Exam-cited book images

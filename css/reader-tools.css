@@ -222,7 +222,7 @@ body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)
 .settings-group>summary{min-height:44px;align-content:center;color:var(--accent);font:600 var(--type-control)/1.4 var(--ui);cursor:pointer}
 #chapterHeader>.nav-page-title{display:none}
 body.nav-page-open #chapterHeader{display:flex!important;height:50px!important;padding-inline:12px!important}
-body.nav-page-open #chapterHeader>:not(.nav-page-title,#settingsGear){display:none!important}
+body.nav-page-open #chapterHeader>:not(.nav-page-title,#settingsGear,#settingsBack){display:none!important}
 body.nav-page-open #chapterHeader>.nav-page-title{display:block!important;font:700 var(--type-body)/1.2 var(--ui);color:var(--ink)}
 body.nav-page-open #bottomSlot{z-index:10}
 body.reading-bars-hidden #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);padding-block-start:0}
@@ -304,3 +304,15 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 .study-self-check>summary{cursor:pointer;min-height:44px;align-content:center}
 .study-v2 .study-flashcards{display:block;width:fit-content;margin:.8em 0}
 .book-reference-target{scroll-margin-block-start:var(--active-header-height,50px)}
+
+#chapterHeader #settingsBack{display:none}
+body.nav-page-open:has(#panel[data-current-pane=tools]) #chapterHeader #settingsBack{display:inline-flex!important;order:-1;align-items:center;justify-content:center;min-height:44px;min-width:44px}
+
+.read-references { margin-block: 1.2em; }
+.read-references > summary { cursor: pointer; min-block-size: 44px; align-content: center; }
+.read-references > summary > :is(h2,h3) { display: inline; margin: 0; }
+.read-exam-options { list-style: none; padding-inline-start: .75em; text-align: start; }
+.read-exam-key { font-weight: 650; }
+.read-inline-question { margin-block: .75em; padding-inline: .8em; border-inline-start: 2px solid currentColor; }
+.read-inline-question > summary,.read-exam-source > summary { min-block-size: 44px; align-content: center; cursor: pointer; }
+.read-exam-source > summary > h2 { display: inline; font-size: 1em; }

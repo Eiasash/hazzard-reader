@@ -112,6 +112,8 @@ window.HazzardStudyPage = (() => {
   function reveal(target) {
     const raw = target instanceof Range ? target.startContainer : target;
     const el = raw?.nodeType === Node.TEXT_NODE ? raw.parentElement : raw;
+    const references=el?.closest?.('details.read-references');
+    if(references)references.open=true;
     if (!el?.closest?.('.study-page')) return target;
     for (let node = el; node && !node.matches('.study-page'); node = node.parentElement) {
       const repeat = repeats.get(node);

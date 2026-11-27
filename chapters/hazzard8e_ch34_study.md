@@ -32,6 +32,8 @@ Ask whether conversation becomes unintelligible in company and whether the patie
 
 A digital hearing aid supplies frequency-specific acoustic gain to a functioning cochlea. Figure 34-6 shows improved thresholds through about 3000 Hz in one listener, with limited recovery at the highest frequencies. Understanding speech after implantation takes practice; benefit varies with neural function and other factors, and chronological age alone does not rule out benefit (pp499–500).
 
+> Current practice (not the book): In the United States, over-the-counter hearing aids are intended for adults aged at least 18 with perceived mild-to-moderate hearing loss. Sudden or unilateral loss, severe loss and other warning symptoms require assessment. [FDA, OTC hearing aids, 2022](https://www.fda.gov/medical-devices/hearing-aids/otc-hearing-aids-what-you-should-know).
+
 ## Inner ear, brain and cognition
 
 The basal cochlea encodes high frequencies and the apex low frequencies. Outer hair cells amplify and sharpen mechanical responses; inner hair cells convert movement into signals for auditory nerve fibres. The stria vascularis maintains the ionic gradient that powers transduction. Damage to basal hair cells can produce a sloping audiogram, whereas loss of this gradient can raise thresholds across frequencies. Synaptic or neural loss can impair discrimination even with relatively preserved tone detection. Several lesions can coexist (pp492–497, Figures 34-1 to 34-5).

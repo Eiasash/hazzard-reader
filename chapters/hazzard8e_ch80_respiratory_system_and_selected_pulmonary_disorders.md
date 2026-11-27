@@ -54,6 +54,8 @@ In addition, the pool of naïve T cells declines over time. This results in an i
 
 Cellular function can change with aging. The cells that line the surface of the alveoli and bronchi in the lungs have cilia, and the sweeping motion of the cilia are an important part of the clearance of debris and pathogens from the lungs. As the lungs age, the cilia have reduced movement, leading to reduced clearance of mucus. Cellular aging also affects the extracellular matrix of cells, the system of molecules on the surface of cells that help them maintain their normal structure and function. As cells age, the extracellular matrix changes to be composed less of elastin and more of collagen, a more rigid and less flexible molecule. This results in lung tissue that is stiff and has a reduced ability to return to its natural shape.
 
+> *[sic — Motile cilia line conducting airways. Alveolar epithelial cells do not have the mucociliary apparatus described here. The nearby expression “inward pole” on p1231 refers to inward elastic recoil. Ch80 describes relatively constant total lung capacity with normal aging; Ch81 gives a different summary.]* [Hazzard Ch80, pp1230–1231](?chapter=80#p1231).
+
 The end result of all of these cellular changes is that, with aging, the lung demonstrates reduced capacity to respond to stress, greater propensity toward proinflammatory cytokines, abnormal tissue repair, and increased susceptibility to infection.
 
 ## MECHANICAL AND FUNCTIONAL LUNG CHANGES WITH AGING

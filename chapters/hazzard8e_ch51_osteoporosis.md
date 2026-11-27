@@ -33,6 +33,8 @@ Primary or idiopathic osteoporosis has been historically classified as postmenop
 
 > *Table 51-1 reproduced as a page image (printed p. 760) — the grid did not extract reliably as text for this fast build.*
 
+> *[sic — The osteopenia cell prints “≤1 but >−2.5”, with a missing minus sign in the upper boundary. Low bone mass has a T-score below −1.0 and above −2.5.]* [DXA practice guideline, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11732917/).
+
 ## Epidemiology
 
 Due to the increasing osteoporosis prevalence with age, the worldwide aging of the population and the changing lifestyle habits, the prevalence of osteoporosis has risen significantly and will continue to in the future. In 2018, the National Osteoporosis Foundation (NOF) announced that 54 million Americans, half of all adults age 50 and older, are at risk of breaking a bone and should be concerned about bone health; this means that approximately 10 million adults in the United States have osteoporosis, with an additional 43 million having low bone mass. In addition, women have more than 250,000 and 500,000 hip and spine fractures per year, respectively. Men account for an additional 250,000 fractures per year, of which 75,000 are hip fractures.
@@ -233,6 +235,8 @@ Since many osteoporotic fractures result from falls (Chapter 43) or the simultan
 <a id="p771"></a>**[p. 771]**
 
 cannot maintain a semi tandem stand for 10 seconds with their eyes open are at increased risk. A gait velocity of less than 0.8 m/s also predicts a greater propensity to fall. Additional office-based screening tests that identify potential fallers include the inability to complete the timed up and go test in 14 seconds, the inability to maintain a one-leg stand for at least 5 seconds, and a score of less than 19 in the performance-oriented mobility assessment. Finally, the SARC-F questionnaire (Strength, Assistance with walking, Rising from a chair, Climbing stairs, and Falls) has a high specificity (~95%) to detect sarcopenia. The criteria are: (1) difficulty lifting and carrying 10 pounds, (2) difficulty walking across a room, (3) difficulty transferring from a chair or bed, (4) difficulty climbing a flight of 10 steps, and (5) falls in the past year. The first four criteria are scored as none = 0, some = 1, and a lot = 2. The last criterion is none = 0, 1 to 3 falls = 1, and ≥ 3 falls = 2. A score of 4 or greater is predictive of clinically important sarcopenia and is associated with adverse outcomes.
+
+> *[sic — In the published SARC-F, one to three falls score one point. Four or more falls score two. The two printed ranges overlap at three falls.]* [Malmstrom et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27066316/).
 
 ### Bone Mineral Density (BMD) Assessment
 

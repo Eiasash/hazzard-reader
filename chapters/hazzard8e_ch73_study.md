@@ -82,7 +82,7 @@ Fast build from the book; not lane-reviewed.
 
 <a id="p1121"></a>**[p. 1121]**
 - The older heart commonly has a shorter long axis, mildly smaller LV cavity, dilated/right-shifted aortic root, larger LA, and a sigmoid septum. (p1121)
-- **Complete physiology checklist:** peak exercise capacity, cardiac output, heart rate, and ejection fraction decline; LV stiffness rises and diastolic relaxation slows; valvular regurgitation develops; PR/QRS/QT prolong and left-axis deviation occurs; arteries stiffen and aortic impedance rises; peripheral oxygen-extraction reserve falls. (Table 73-2, p1121)
+- **Complete physiology checklist:** peak exercise capacity, peak cardiac output, maximal heart rate and peak exercise ejection fraction decline; resting heart rate and global resting LV ejection fraction are relatively preserved; LV stiffness rises and diastolic relaxation slows; valvular regurgitation develops; PR/QRS/QT prolong and left-axis deviation occurs; arteries stiffen and aortic impedance rises; peripheral oxygen-extraction reserve falls. (Table 73-2, p1121)
 - Resting heart rate is unchanged in healthy adult aging, whereas maximum exercise heart rate falls. The book's healthy-adult prediction is **208 − (0.7 × age)**. With autonomic input blocked, intrinsic heart rate declines **5–6 beats/min per decade**; in an **80-year-old**, resting rate is not much slower than intrinsic rate. (p1121)
 - Earlier resting studies often found preserved output, stroke volume, rate, and EF; a carefully screened cohort found smaller LV volume, higher filling pressure, and lower resting stroke volume with age. Preserve this distinction between overall patterns and study-specific findings. (p1121)
 
