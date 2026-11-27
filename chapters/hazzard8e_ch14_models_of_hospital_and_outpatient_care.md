@@ -405,7 +405,7 @@ Hung WW, Macias Tejada, Soryal S, et al. The Acute Care for Elders Consult Progr
 
 Hung WW, Ross JS, Farber J, Siu AL. Evaluation of the mobile acute care of the elderly (MACE) service. JAMA. 2013;173:990–996.
 
-Independence at Home. http://innovation.cms.gov/initiatives/independence-at-home/.
+Independence at Home. [http://innovation.cms.gov/initiatives/independence-at-home/](https://www.cms.gov/priorities/innovation/innovation-models/independence-at-home).
 
 Jennings LA, Laffan AM, Schlissel AC, et al. Health care utilization and cost outcomes of a comprehensive dementia care program for Medicare beneficiaries. JAMA Intern Med. 2019;179(2):161–166.
 

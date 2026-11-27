@@ -329,7 +329,7 @@ McGarry BE, Grabowski DC. Managed care for longstay nursing home residents: an e
 
 McWilliams JM, Hatfield LA, Chernew ME, Landon BE, Schwartz AL. Early performance of Accountable Care Organizations in Medicare. N Engl J Med. 2016;374(24):2357–2366.
 
-National PACE Association. (n.d.). The History of PACE. Retrieved January 13, 2021. https://www.npaonline.org/policy-advocacy/value-pace.
+National PACE Association. (n.d.). The History of PACE. Retrieved January 13, 2021. [https://www.npaonline.org/policy-advocacy/value-pace](https://www.npaonline.org/starting-expanding-a-pace-program/understanding-the-pace-model-of-care/pace-history).
 
 Neuman P, Jacobson GA. Medicare Advantage checkup. N Engl J Med. 2018;379(22):2163–2172.
 
