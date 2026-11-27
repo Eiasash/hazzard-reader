@@ -2087,9 +2087,9 @@ function syncTabs(){
   const pane=document.body.classList.contains('flashcards-open')?'flashcards':panel.open?panel.dataset.currentPane:null;
   const active=activeTab();
   const modes=chapterHeader.querySelector('.chapter-switch');
-  const showModes=readingPage&&currentView==='reader'&&!pane&&!$('#statsViewport')&&findBar.hidden&&examBar.hidden&&modes.childElementCount>0;
-  modes.hidden=!showModes;
-  chapterHeader.classList.toggle('study-header',showModes);
+  const chapterView=readingPage&&currentView==='reader'&&!$('#statsViewport')&&modes.childElementCount>0;
+  modes.hidden=!chapterView||!!pane||!findBar.hidden||!examBar.hidden;
+  chapterHeader.classList.toggle('study-header',chapterView);
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   if(active==='tools')fab.setAttribute('aria-current','page');else fab.removeAttribute('aria-current');
   for(const button of chapterHeader.querySelectorAll('[data-panel="contents"]'))button.setAttribute('aria-expanded',String(pane==='contents'));
