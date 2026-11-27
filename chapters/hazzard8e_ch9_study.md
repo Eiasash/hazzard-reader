@@ -1,4 +1,4 @@
-Study summary of Chapter 9 - Mental Status and Neurologic Examination; the book and the full chapter are the reference.
+Study summary of Chapter 9; the book and the full chapter are the reference.
 
 # Chapter 9 Study: Mental Status and Neurologic Examination
 
@@ -36,6 +36,15 @@ Study summary of Chapter 9 - Mental Status and Neurologic Examination; the book 
 - Do not confuse slow processing with inability to learn, or a diminished ankle reflex with a pathologic plantar response (p134).
 - Subtle age-associated memory changes do not impair normal social functioning or daily activities; more substantial cognitive decline requires evaluation (p148).
 
+
+### Localizing common examination findings
+
+- Ask a patient with halting spontaneous speech to repeat a sentence and follow spoken instructions. Preserved repetition and comprehension with limited initiation fit transcortical motor aphasia. Broca aphasia also reduces fluency but impairs repetition. With fluent speech, compare comprehension and repetition separately to distinguish Wernicke, conduction and transcortical sensory patterns (Table 9-4, p138).
+- Have the patient raise the eyebrows, close the eyes tightly and smile. Flattening of the nasolabial fold with forehead sparing suggests a central lesion. Weakness involving forehead and eye closure on the same side supports a peripheral facial palsy. A new facial asymmetry has more localizing value when the upper and lower face are examined separately (p143).
+- When a visually impaired patient sees unfamiliar people or animals, ask whether the patient believes they are real. Preserved recognition of the experience as unreal is compatible with Charles Bonnet syndrome. Formed images can also occur early in dementia with Lewy bodies, so assess cognition, insight and other neurologic features alongside the visual history (p141–142).
+- Examine how an abnormal task went wrong. A clock with numbers confined to one side suggests neglect, while an excessively small clock face can reflect poor planning. Compare delayed free recall with recognition to distinguish a retrieval or executive problem from failure to store the material (p139–141).
+- Test the significance of reflexes in context. An extensor plantar response points to corticospinal disease. A grasp response can occur in advanced diffuse disease or a focal medial frontal lesion. The level of the knee reflex and the side of any other motor signs help distinguish generalized age changes from a localizing deficit (p133–134, p147).
+
 ## Exam-cited book images
 
 Book images cited by past exams. Tap an image to zoom.
@@ -48,10 +57,73 @@ Book images cited by past exams. Tap an image to zoom.
 
 [2026-Jun Q41](?chapter=bank&q=mcq-6885558109e8e77f5cee7a87)
 
-## Exam questions
+## Past exam questions
 
-Past-exam questions linked to this chapter (3):
+- [2026-Jun Q41](?chapter=bank&q=mcq-6885558109e8e77f5cee7a87) — Printed page 138.
+- [2025-Jun Q16](?chapter=bank&q=mcq-c9d51b9f2f9b51f0a157938b) — Printed page 147.
+- [2025-Jun Q34](?chapter=bank&q=mcq-b636980ea067e5dc8b2d57c5) — Printed page 141.
+- [2025-Jun Q62](?chapter=bank&q=mcq-57c893ac288cd17663b1e3c3) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2024-May Q4](?chapter=bank&q=mcq-2424f3d42a504ae0a13087cd) — Printed page 143.
+- [2024-Sep Q37](?chapter=bank&q=mcq-ff32d387904a513e1d0cd5a1) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
 
-- [2026-Jun Q41](?chapter=bank&q=mcq-6885558109e8e77f5cee7a87)
-- [2025-Jun Q16](?chapter=bank&q=mcq-c9d51b9f2f9b51f0a157938b)
-- [2025-Jun Q34](?chapter=bank&q=mcq-b636980ea067e5dc8b2d57c5)
+## Recall drill
+
+**1. Why can a reliable informant change the interpretation of memory complaints?**
+
+<details><summary>Answer</summary>Collateral history establishes change from baseline and functional impact when the patient underestimates or cannot describe deficits. (p133–135)</details>
+
+**2. Which aspects of language should be assessed before naming an aphasia?**
+
+<details><summary>Answer</summary>Listen to spontaneous fluency, then assess comprehension, repetition, naming, reading and writing. (p133, p138)</details>
+
+**3. What points to transcortical motor aphasia in a patient with nonfluent speech?**
+
+<details><summary>Answer</summary>Repetition and spoken comprehension are retained despite difficulty generating spontaneous language. (p138)</details>
+
+**4. How does conduction aphasia differ from transcortical sensory aphasia?**
+
+<details><summary>Answer</summary>Both can be fluent. Repetition is impaired in conduction aphasia and retained in transcortical sensory aphasia, whose comprehension is abnormal. (p138)</details>
+
+**5. How can cueing help distinguish retrieval from storage failure?**
+
+<details><summary>Answer</summary>Improvement with cues or recognition supports a retrieval problem. Poor recall despite cues favors impaired storage. (p139, p141)</details>
+
+**6. What does one-sided crowding of a clock drawing suggest?**
+
+<details><summary>Answer</summary>Unilateral neglect. Making the entire clock too small for the numbers can instead reflect impaired planning. (p140)</details>
+
+**7. How is animal fluency interpreted in this chapter?**
+
+<details><summary>Answer</summary>About eighteen animals in a minute is normal and fewer than fourteen is abnormal. The result is sensitive but nonspecific. (p141)</details>
+
+**8. Which informant screen asks about change in everyday thinking?**
+
+<details><summary>Answer</summary>The AD8. Two or more endorsed items suggest cognitive dysfunction and should prompt further assessment. (p141)</details>
+
+**9. An older person with impaired vision sees figures recognized as unreal. Which syndrome fits?**
+
+<details><summary>Answer</summary>Charles Bonnet syndrome. Ask about insight, visual loss, cognition and associated neurologic features. (p141–142)</details>
+
+**10. What bedside movements distinguish central and peripheral facial weakness?**
+
+<details><summary>Answer</summary>Compare brow wrinkling, eye closure and smiling. A peripheral palsy weakens the forehead and eye closure, whereas a central lesion usually spares the forehead. (p143)</details>
+
+**11. How should the examiner test olfaction?**
+
+<details><summary>Answer</summary>Present a recognizable, nonirritating odor such as coffee or vanilla separately to each nostril. (p142)</details>
+
+**12. How do sensory and cerebellar imbalance differ on Romberg testing?**
+
+<details><summary>Answer</summary>With impaired proprioception the patient can use vision to compensate. Sway worsening when the eyes close supports sensory imbalance. (p147)</details>
+
+**13. What does a positive Hoover test show?**
+
+<details><summary>Answer</summary>Voluntary hip extension appears weak, but involuntary extension is present when the opposite hip flexes against resistance, supporting functional weakness. (p146)</details>
+
+**14. Where does an elicited grasp reflex localize?**
+
+<details><summary>Answer</summary>It can accompany a medial frontal lesion or occur in advanced brain disease. It is not equivalent to an extensor plantar response. (p147)</details>
+
+**15. Which reflex changes can be attributed to age more readily than a Babinski sign?**
+
+<details><summary>Answer</summary>The Achilles reflex may diminish or disappear while knee reflexes persist. An extensor plantar response indicates upper motor neuron pathology. (p133–134, p147)</details>

@@ -84,7 +84,7 @@ Fast build from the book; not lane-reviewed.
 
 [2023-Jun Q55](?chapter=bank&q=mcq-526291ef04bcef123eab45db)
 
-## Recall drill
+## Recall
 
 **1. Does pyuria convert asymptomatic bacteriuria into symptomatic UTI?**
 

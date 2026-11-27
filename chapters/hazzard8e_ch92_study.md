@@ -57,7 +57,7 @@ Fast build from the book; not lane-reviewed.
 
 [Earlier sittings, chapter-level mapping](?chapter=92#asked-chapter) — 2021-Dec Q67.
 
-## Recall drill
+## Recall
 
 **1. Why are age-specific cancer treatment estimates uncertain?**
 
