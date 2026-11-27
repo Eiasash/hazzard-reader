@@ -240,4 +240,4 @@ Hazzard 8e, p.1553 · [Read source](?chapter=98#p1553)
 
 
 
-[2024-May Q24](?chapter=bank&q=mcq-73208d3bcb5312abed0b44aa)
+[May 2024 Q24](?chapter=bank&q=mcq-73208d3bcb5312abed0b44aa)

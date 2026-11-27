@@ -115,8 +115,8 @@ The follow-up question can be concrete. Ask whether the person can now finish ge
 
 ## Past exam questions
 
-- [2024-May Q77](?chapter=bank&q=mcq-04041334b8bb59711f917744) — Printed pages 1073, 1074.
-- [2024-Sep Q100](?chapter=bank&q=mcq-5e5cd34f012ab932c14a4736) — Printed page 1074.
+- [May 2024 Q77](?chapter=bank&q=mcq-04041334b8bb59711f917744) — Printed pages 1073, 1074.
+- [September 2024 Q100](?chapter=bank&q=mcq-5e5cd34f012ab932c14a4736) — Printed page 1074.
 
 [Earlier sittings, chapter-level mapping](?chapter=69#asked-chapter) — 2022-Jun Q76, 2021-Dec Q46, 2021-Dec Q47.
 

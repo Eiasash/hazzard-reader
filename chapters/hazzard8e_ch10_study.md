@@ -113,7 +113,7 @@ Research adds uncertainty beyond a familiar therapeutic choice. The participant 
 
 ## Past exam questions
 
-- [2024-Sep Q77](?chapter=bank&q=mcq-3cb7ddba4d5a84d56620fbae) — Printed page 151.
+- [September 2024 Q77](?chapter=bank&q=mcq-3cb7ddba4d5a84d56620fbae) — Printed page 151.
 
 ## Recall drill
 

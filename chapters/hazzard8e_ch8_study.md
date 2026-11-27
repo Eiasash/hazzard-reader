@@ -105,11 +105,11 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Figure 8-2, p.124](hazzard8e_ch8_figure8-2_p124.png)
 
-[2026-Jun Q38](?chapter=bank&q=mcq-9f480bcc831187d54db7aa64)
+[June 2026 Q38](?chapter=bank&q=mcq-9f480bcc831187d54db7aa64)
 
 ## Exam questions
 
 Two past-exam questions cite printed pages in Chapter 8.
 
-- [2024-Sep Q92](?chapter=bank&q=mcq-e8ffe5e4732e7d63293662ad)
-- [2026-Jun Q38](?chapter=bank&q=mcq-9f480bcc831187d54db7aa64)
+- [September 2024 Q92](?chapter=bank&q=mcq-e8ffe5e4732e7d63293662ad)
+- [June 2026 Q38](?chapter=bank&q=mcq-9f480bcc831187d54db7aa64)

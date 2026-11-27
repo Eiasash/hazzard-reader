@@ -148,21 +148,23 @@ function planHighlightStroke(text,start,end,items){
 // not rewrite the notebook. A user edit commits its current reading order.
 function chapterPointOrder(items){
   const order=new Map();
-  let position=-1,number=0;
-  for(const item of items.filter(i=>i.mark.number).sort((a,b)=>a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))){
+  let position=-1,group=-1,number=0;
+  for(const item of items.filter(i=>i.mark.number).sort((a,b)=>(a.group||0)-(b.group||0)||a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))){
     // The older reader could save both a sentence and a selection beginning at
     // the same character. Preserve both records and give that position one badge.
-    if(item.start!==position){position=item.start;number++;}
+    if(item.start!==position||(item.group||0)!==group){position=item.start;group=item.group||0;number++;}
     order.set(item.id,number);
   }
   return order;
 }
 function numberPlacedPoints(items,stamp){
   const order=chapterPointOrder(items);
+  let changed=false;
   for(const {id,mark} of items){
     const number=order.get(id);
-    if(number&&mark.number!==number){mark.number=number;mark[stamp]=Math.max(Date.now(),(mark[stamp]||0)+1);}
+    if(number&&mark.number!==number){mark.number=number;changed=true;if(stamp)mark[stamp]=Math.max(Date.now(),(mark[stamp]||0)+1);}
   }
+  return changed;
 }
 function displayPointOrder(root){
   let number=0;

@@ -184,10 +184,10 @@ No. Expected delayed relaxation should be interpreted against age norms; restric
 
 [Hazzard 8e, Table 73-1, p.1116](#p1116)
 
-[2023-Jun Q1](?chapter=bank&q=mcq-d852902c476364b525be2fb0) · [2024-May Q41](?chapter=bank&q=mcq-16df878cdfb1631a3395a00d)
+[June 2023 Q1](?chapter=bank&q=mcq-d852902c476364b525be2fb0) · [May 2024 Q41](?chapter=bank&q=mcq-16df878cdfb1631a3395a00d)
 
 ### Table 73-2 — existing book image
 
 [Hazzard 8e, Table 73-2, p.1121](#p1121)
 
-[2025-Jun Q2](?chapter=bank&q=mcq-f6a934085589d01c76d9730c)
+[June 2025 Q2](?chapter=bank&q=mcq-f6a934085589d01c76d9730c)

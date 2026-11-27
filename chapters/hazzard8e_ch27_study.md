@@ -273,4 +273,4 @@ No; the same statement covers dabigatran and apixaban. The chapter gives 1–4 d
 
 [Hazzard 8e, Table 27-3, p.375](#p375)
 
-[2025-Jun Q39](?chapter=bank&q=mcq-18b0ad7f9e472a626caf7cbe)
+[June 2025 Q39](?chapter=bank&q=mcq-18b0ad7f9e472a626caf7cbe)

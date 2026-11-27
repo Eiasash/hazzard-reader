@@ -116,5 +116,5 @@ Study summary of Chapter 78 - Peripheral Vascular Disease; the book and the full
 
 The following subspecialty questions cite eighth-edition pages in this chapter.
 
-- [2023-Jun Q8](?chapter=bank&q=mcq-0248cf414c0e282383f0c986)
-- [2024-May Q27](?chapter=bank&q=mcq-2cae81434ec4479d828221ef)
+- [June 2023 Q8](?chapter=bank&q=mcq-0248cf414c0e282383f0c986)
+- [May 2024 Q27](?chapter=bank&q=mcq-2cae81434ec4479d828221ef)

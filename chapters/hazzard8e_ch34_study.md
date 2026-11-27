@@ -132,9 +132,9 @@ Improved hearing has immediate value for participation, confidence and communica
 
 ## Past exam questions
 
-- [2026-Jun Q39](?chapter=bank&q=mcq-4c92ab23f4ca6e471480cf69) — Related bank item. It tests a related topic without a chapter-specific page.
-- [2025-Jun Q26](?chapter=bank&q=mcq-ca570710752bad38efb708ba) — Printed page 495.
-- [2024-Sep Q30](?chapter=bank&q=mcq-db9b505b636e803c1bb580ce) — Chapter citation without a printed page.
+- [June 2026 Q39](?chapter=bank&q=mcq-4c92ab23f4ca6e471480cf69) — Related bank item. It tests a related topic without a chapter-specific page.
+- [June 2025 Q26](?chapter=bank&q=mcq-ca570710752bad38efb708ba) — Printed page 495.
+- [September 2024 Q30](?chapter=bank&q=mcq-db9b505b636e803c1bb580ce) — Chapter citation without a printed page.
 
 ## Recall drill
 

@@ -132,12 +132,12 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 107-1, p.1727](hazzard8e_ch107_table107-1_p1727.png)
 
-[2023-Jun Q12](?chapter=bank&q=mcq-ac1abd6998b64fa59be16762)
+[June 2023 Q12](?chapter=bank&q=mcq-ac1abd6998b64fa59be16762)
 
 ## Past exam questions
 
-- [2026-Jun Q22](?chapter=bank&q=mcq-20ec42c28a8afefb8a0ba9b1) — Printed page 1725.
-- [2023-Jun Q12](?chapter=bank&q=mcq-ac1abd6998b64fa59be16762) — Printed pages 1727, 1728.
+- [June 2026 Q22](?chapter=bank&q=mcq-20ec42c28a8afefb8a0ba9b1) — Printed page 1725.
+- [June 2023 Q12](?chapter=bank&q=mcq-ac1abd6998b64fa59be16762) — Printed pages 1727, 1728.
 
 [Earlier sittings, chapter-level mapping](?chapter=107#asked-chapter) — 2022-Jun Q93, 2021-Dec Q69, 2020 Q2.
 

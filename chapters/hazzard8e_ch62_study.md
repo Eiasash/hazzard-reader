@@ -117,4 +117,4 @@ Plan recovery around the tasks that matter to the patient, with physical, occupa
 
 Past-exam example on delayed hydrocephalus after subarachnoid hemorrhage:
 
-- [2023-Jun Q17](?chapter=bank&q=mcq-452a5972839367e2dbab3541)
+- [June 2023 Q17](?chapter=bank&q=mcq-452a5972839367e2dbab3541)

@@ -85,7 +85,7 @@ window.HazzardDrugs = (() => {
       else {
         const list = el('ul');
         for (const q of entry.questions) {
-          const row = el('li'), link = el('a', q.label || (q.sitting ? q.sitting.replaceAll('-', ' ')+' · Q'+q.number : 'Practice question'));
+          const row = el('li'), link = el('a', q.sitting&&q.number?HazzardEvidence.label(q):(q.label||'Practice question'));
           link.href = HazzardEvidence.questionURL(q.id); row.append(link); if(q.match==='class'||q.match==='member')row.append(el('small',q.match==='class'?'Class match':'Member drug')); list.append(row);
         }
         questions.append(list);

@@ -129,12 +129,12 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 103-4, p.1649](hazzard8e_ch103_table103-4_p1649.png)
 
-[2025-Jun Q24](?chapter=bank&q=mcq-70ad7b8acd5368cde6d6a062)
+[June 2025 Q24](?chapter=bank&q=mcq-70ad7b8acd5368cde6d6a062)
 
 ## Past exam questions
 
-- [2026-Jun Q86](?chapter=bank&q=mcq-a84c59a354c18de39d822ccd) — Printed pages 1647, 1648, 1649, 1650.
-- [2025-Jun Q24](?chapter=bank&q=mcq-70ad7b8acd5368cde6d6a062) — Related bank item. It tests a related topic without a chapter-specific page.
+- [June 2026 Q86](?chapter=bank&q=mcq-a84c59a354c18de39d822ccd) — Printed pages 1647, 1648, 1649, 1650.
+- [June 2025 Q24](?chapter=bank&q=mcq-70ad7b8acd5368cde6d6a062) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 

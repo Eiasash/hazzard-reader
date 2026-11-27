@@ -135,11 +135,11 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 85-2, p.1316](hazzard8e_ch85_table85-2_p1316.png)
 
-[2024-May Q73](?chapter=bank&q=mcq-b9c4a66523aee26652ec01e3)
+[May 2024 Q73](?chapter=bank&q=mcq-b9c4a66523aee26652ec01e3)
 
 ## Past exam questions
 
-- [2024-May Q73](?chapter=bank&q=mcq-b9c4a66523aee26652ec01e3) — Printed page 1316.
+- [May 2024 Q73](?chapter=bank&q=mcq-b9c4a66523aee26652ec01e3) — Printed page 1316.
 
 [Earlier sittings, chapter-level mapping](?chapter=85#asked-chapter) — 2021-Dec Q9, 2021-Dec Q38, 2021-Dec Q76.
 

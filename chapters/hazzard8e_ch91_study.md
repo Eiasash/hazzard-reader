@@ -122,7 +122,7 @@ Early palliative care in the metastatic NSCLC trial was delivered alongside onco
 
 ## Past exam questions
 
-- [2026-Jun Q54](?chapter=bank&q=mcq-c74de0a0c671ce548b7cd01d) — Related bank item. It tests a related topic without a chapter-specific page.
+- [June 2026 Q54](?chapter=bank&q=mcq-c74de0a0c671ce548b7cd01d) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 

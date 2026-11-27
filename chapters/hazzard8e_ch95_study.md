@@ -143,13 +143,13 @@ Exam topics link to the marked chapter and the corresponding questions.
 
 ## Past-paper questions on this chapter
 
-- [2023-Jun Q18 — mcq-bd9893fe8c4027b4668a863e](?chapter=bank&q=mcq-bd9893fe8c4027b4668a863e)
-- [2024-May Q12 — mcq-834756aabc08598d8f45a7f5](?chapter=bank&q=mcq-834756aabc08598d8f45a7f5)
-- [2024-May Q85 — mcq-d7ef5d7a467c8ade6436f4f5](?chapter=bank&q=mcq-d7ef5d7a467c8ade6436f4f5)
-- [2026-Jun Q99 — mcq-c0958b48b6b8fb43106b759b](?chapter=bank&q=mcq-c0958b48b6b8fb43106b759b)
+- [June 2023 Q18 — mcq-bd9893fe8c4027b4668a863e](?chapter=bank&q=mcq-bd9893fe8c4027b4668a863e)
+- [May 2024 Q12 — mcq-834756aabc08598d8f45a7f5](?chapter=bank&q=mcq-834756aabc08598d8f45a7f5)
+- [May 2024 Q85 — mcq-d7ef5d7a467c8ade6436f4f5](?chapter=bank&q=mcq-d7ef5d7a467c8ade6436f4f5)
+- [June 2026 Q99 — mcq-c0958b48b6b8fb43106b759b](?chapter=bank&q=mcq-c0958b48b6b8fb43106b759b)
 
 ## Table 95-1 — book image
 
 ![Hazzard 8e, Table 95-1, p.1485](hazzard8e_ch95_table95-1_p1485.png)
 
-[2024-May Q12](?chapter=bank&q=mcq-834756aabc08598d8f45a7f5)
+[May 2024 Q12](?chapter=bank&q=mcq-834756aabc08598d8f45a7f5)

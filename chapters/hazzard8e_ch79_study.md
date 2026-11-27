@@ -110,7 +110,7 @@ Sleep testing follows clues to obstructive sleep apnea, such as snoring and witn
 
 Past-exam questions linked to this chapter (6):
 
-- [2025-Jun Q53](?chapter=bank&q=mcq-ba95508abaa2e8c6c5b63ba6)
+- [June 2025 Q53](?chapter=bank&q=mcq-ba95508abaa2e8c6c5b63ba6)
 - [2020 Q1](?chapter=bank&q=mcq-dac12cb3fa30972172b47803)
 - [June 2022 Q56](?chapter=bank&q=mcq-58097bd742d304c155cd4494)
 - [June 2023 Q9](?chapter=bank&q=mcq-7faf3ea2990c59570295210c)

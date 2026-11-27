@@ -109,9 +109,9 @@ For Merkel cell carcinoma, distinguish local from regional nodal or distant dise
 
 ## Past exam questions
 
-- [2025-Jun Q29](?chapter=bank&q=mcq-02207f011b9ce911fa8d7efa) — Printed page 1464.
-- [2024-Sep Q8](?chapter=bank&q=mcq-03212a29c6c5136df49162da) — Printed pages 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463.
-- [2023-Jun Q42](?chapter=bank&q=mcq-18c32735090147ca21409515) — Printed page 1462.
+- [June 2025 Q29](?chapter=bank&q=mcq-02207f011b9ce911fa8d7efa) — Printed page 1464.
+- [September 2024 Q8](?chapter=bank&q=mcq-03212a29c6c5136df49162da) — Printed pages 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463.
+- [June 2023 Q42](?chapter=bank&q=mcq-18c32735090147ca21409515) — Printed page 1462.
 
 ## Recall drill
 
