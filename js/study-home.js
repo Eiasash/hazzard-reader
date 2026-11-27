@@ -170,15 +170,13 @@ window.HazzardStudyHome = (() => {
     if(official>0)shortcut.href='?chapter=bank&review=1&queue=official';else shortcut.removeAttribute('href');
     element('homeReviewCount').textContent = due == null ? 'Queue unavailable' :
       due + (due === 1 ? ' question due' : ' questions due');
+    element('homeTrackCoverage').textContent='';
     if (hasCatalog && changes.status === 'fulfilled' && stores.answers.ok && stores.bad.ok) {
       const model = HazzardStats.model({all:catalog.value, changes:changes.value}, stores);
-      const official = q => q.kind === 'past' && !HazzardMCQ.excluded(q.id);
-      // An answer made before a correction needs another attempt. The question
-      // remains in the denominator. A shared citation is still one question.
-      const available = model.all.filter(q => official(q) && model.eligible(q));
-      const byId = new Map(model.questions.filter(official).map(q => [q.id, q]));
-      answered = [...byId.values()].filter(model.answered).length;
-      total = available.length;
+      const coverage=HazzardStats.officialCoverage(model),available=coverage.available;
+      const byId=new Map(coverage.current.map(q=>[q.id,q]));
+      answered=coverage.answered;total=coverage.total;
+      element('homeTrackCoverage').textContent='Subspecialty: '+coverage.subspecialty.answered+' / '+coverage.subspecialty.total+' · Basic-only (Q101–150): '+coverage.basic.answered+' / '+coverage.basic.total;
       if (model.ready && stores.log.ok && evidence.status === 'fulfilled' && metadata.status === 'fulfilled') {
         const lawIds=metadata.value[3].israeliLawEthics.ids.filter(id=>byId.has(id));
         recommended = recommend(chapters, evidence.value, {model, byId, lawIds, available:new Set(available.map(q => q.id))});

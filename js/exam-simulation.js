@@ -115,7 +115,7 @@ window.HazzardSimulation = (() => {
     finally{checking=false;}
   }
   function startClock(){check();setInterval(check,1000);addEventListener('pageshow',check);document.addEventListener('visibilitychange',()=>{if(!document.hidden)check();});addEventListener('storage',e=>{if(e.key===KEY||e.key===null)check();});}
-  function mount({viewport,readerScroll,onShow,openImage}){
+  function mount({viewport,readerScroll,onShow,onHeader,openImage}){
     const lifetime=new AbortController();
     const listen=(el,type,handler,options={})=>el.addEventListener(type,handler,{...options,signal:lifetime.signal});
 
@@ -156,6 +156,7 @@ window.HazzardSimulation = (() => {
       window.HazzardAnswerHighlights?.attach(null);
       try{
         const v=read(),s=v.session;let html='';
+        if(controller.active)onHeader?.(s?.status==='submitted'&&!setup?(reviewing?'Exam answers':'Exam result'):'Exam simulation',!!s&&!setup&&(s.status!=='submitted'||reviewing));
         if(s&&!setup&&!readySittings.has(s.sitting)){
           host.innerHTML='<div class="mcq-page" role="status">Opening sitting…</div>';
           loadSitting(s.sitting,all).then(render).catch(e=>{host.innerHTML='<div class="mcq-page"><p role="alert">'+esc(e.message)+'</p><button data-sim="load">Try again</button></div>';});

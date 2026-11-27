@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v336",
+      "date": "2026-11-27",
+      "changes": [
+        "Follow the section in view, read complete chapter titles in the library, and find chapter notes and exam links in compact disclosures. Practice headers, coverage labels and text-size selection are clearer."
+      ]
+    },
+    {
       "version": "v335",
       "date": "2026-11-27",
       "changes": [

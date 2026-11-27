@@ -100,6 +100,14 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
 
 #copy a[href]:not(.pg) { display:inline-block; min-inline-size:24px; min-block-size:24px; max-inline-size:100%; overflow-wrap:anywhere; }
 #copy .practice-sentence-initial {text-transform:uppercase}
+#copy .read-editorial-notes{margin-block:4px 10px;color:var(--muted);font-family:var(--ui)}
+#copy .read-editorial-notes>summary{width:fit-content;min-height:36px;align-content:center;cursor:pointer;color:var(--accent);font:600 var(--type-label)/1.4 var(--ui)}
+#copy .read-editorial-notes>.note{margin:4px 0;padding:4px 0;border:0;background:transparent;font-size:var(--type-body)}
+body.reading-exam-links #copy a.pg-integrated::before,
+#copy a.pg-integrated:has(~ .exam-count[data-exam-destination])::before {content:none}
+#copy .exam-reference-annotation {display:block;margin-block:3px;color:var(--muted);font:500 var(--type-label)/1.4 var(--ui)}
+body.reading-exam-links #copy .read-inline-question[data-integrated-exam]:not([open]),
+body.reading-exam-links #copy .read-inline-question[data-integrated-exam]>summary {display:none}
 #copy .note.book-media-caption {border:0;background:transparent;padding:0;color:var(--muted)}
 #chapterRows .chapter-name .chapter-p005-note { display:inline-block; width:fit-content; margin-inline-start:.4em; }
 #chapterHeader #settingsGear { order:2; }

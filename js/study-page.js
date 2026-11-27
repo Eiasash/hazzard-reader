@@ -112,8 +112,15 @@ window.HazzardStudyPage = (() => {
   function reveal(target) {
     const raw = target instanceof Range ? target.startContainer : target;
     const el = raw?.nodeType === Node.TEXT_NODE ? raw.parentElement : raw;
-    const references=el?.closest?.('details.read-references');
+    const references=el?.closest?.('details.read-references,details.read-editorial-notes');
     if(references)references.open=true;
+    const question=el?.closest?.('.read-inline-question');
+    if(question){
+      if(question.dataset.integratedExam&&document.body.classList.contains('reading-exam-links')){
+        document.getElementById(question.dataset.integratedExam)?.querySelector('.exam-count-toggle[aria-expanded="false"]')?.click();
+      }
+      question.open=true;
+    }
     if (!el?.closest?.('.study-page')) return target;
     for (let node = el; node && !node.matches('.study-page'); node = node.parentElement) {
       const repeat = repeats.get(node);

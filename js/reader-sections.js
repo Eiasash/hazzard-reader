@@ -152,7 +152,7 @@ window.HazzardSections = (() => {
       const name = heading.cloneNode(true);
       name.querySelectorAll('[data-reader-metadata]').forEach(node => node.remove());
       const level = heading.tagName === 'SUMMARY' ? (heading.parentElement.classList.contains('law-card') ? 3 : 2) : Number(heading.tagName.slice(1));
-      return {heading, level, title: name.textContent.trim(), ids: new Set(), counts: []};
+      return {heading, level, title: level===1?name.textContent.trim():HazzardChapterContent.headingLabel(name.textContent.trim(),chapter), ids: new Set(), counts: []};
     });
     const pane = document.querySelector('[data-pane="contents"]');
     pane.dataset.title = 'Sections';
@@ -175,29 +175,34 @@ window.HazzardSections = (() => {
     // A separate strip occupies its own space only after the main chapter header scrolls away.
     const strip=document.createElement('button');strip.type='button';strip.id='readerSectionStrip';strip.dataset.panel='contents';
     strip.setAttribute('aria-controls','panel');strip.setAttribute('aria-haspopup','dialog');scroll.before(strip);
-    let positions=[],frame=0,dirty=true;
+    const sections=rows.filter(row=>row.level>1);
+    let frame=0;
     function update(){
       frame=0;if(!copy.isConnected||scroll.inert||!document.body.classList.contains('reader-section-mode'))return;
-      const top=scroll.getBoundingClientRect().top;
-      if(dirty){
-        positions=rows.filter(r=>r.level>1&&r.heading.getClientRects().length).map(r=>({y:r.heading.getBoundingClientRect().top-top+scroll.scrollTop,title:r.title})).sort((a,b)=>a.y-b.y);dirty=false;
+      const view=scroll.getBoundingClientRect(),lead=Math.min(96,view.height/4);
+      let previous=null,leading=null;
+      for(const row of sections){
+        const h=row.heading,box=h.getBoundingClientRect();
+        if(!box.width||!box.height||(h.checkVisibility&&!h.checkVisibility({visibilityProperty:true})))continue;
+        if(box.bottom<=view.top){previous=row;continue;}
+        // Prefer the heading already visible at the start of the reading area,
+        // even before its top passes the strip. Otherwise stay with the prose.
+        if(box.top<=view.top+lead)leading=row;
+        break;
       }
-      let lo=0,hi=positions.length;
-      while(lo<hi){const mid=(lo+hi)>>1;if(positions[mid].y<=scroll.scrollTop+12)lo=mid+1;else hi=mid;}
-      const active=lo?positions[lo-1].title:'In this chapter';
+      const selected=leading||previous,active=selected?selected.title:'In this chapter';
       const canonical=copy.dataset.canonicalTitle||copy.querySelector('h1')?.innerText||'Sections';
       const base=chapter.replace(/s$/,''),chapterLabel=(base==='law'?'':base+' · ')+canonical;
       if(trigger.textContent!==chapterLabel)trigger.textContent=chapterLabel;
-      trigger.title=canonical;trigger.setAttribute('aria-label','Sections · '+chapterLabel+(lo?' · Current section: '+active:''));
+      trigger.title=canonical;trigger.setAttribute('aria-label','Sections · '+chapterLabel+(selected?' · Current section: '+active:''));
       if(strip.textContent!==active)strip.textContent=active;
       strip.title=active;strip.setAttribute('aria-label','Sections · '+active);
     }
     function queue(){if(!frame)frame=requestAnimationFrame(update);}
-    function measure(){dirty=true;queue();}
     refreshHeading=queue;
-    scroll.addEventListener('scroll',queue,{passive:true});copy.addEventListener('toggle',measure,true);
-    const sizing=new ResizeObserver(measure);sizing.observe(copy);
-    disposers.push(()=>{sizing.disconnect();cancelAnimationFrame(frame);scroll.removeEventListener('scroll',queue);copy.removeEventListener('toggle',measure,true);strip.remove();});
+    scroll.addEventListener('scroll',queue,{passive:true});copy.addEventListener('toggle',queue,true);copy.addEventListener('load',queue,true);
+    const sizing=new ResizeObserver(queue);sizing.observe(copy);sizing.observe(scroll);
+    disposers.push(()=>{sizing.disconnect();cancelAnimationFrame(frame);scroll.removeEventListener('scroll',queue);copy.removeEventListener('toggle',queue,true);copy.removeEventListener('load',queue,true);strip.remove();});
     queue();
     release=()=>{for(const dispose of disposers)dispose();};
     {
