@@ -1,5 +1,5 @@
 {
-  "version": "v336",
+  "version": "v337",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -3363,8 +3363,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch59_study.md",
-      "sha256": "baad2d75667e12325067b299c28657f9a1e9f2865b200338b2aa6b8a09f7c20d",
-      "bytes": 40642
+      "sha256": "2de7bdf3b6730056a339845d1feca776dabc1ea707e392ca56d25b44e1875e63",
+      "bytes": 40686
     },
     {
       "url": "./chapters/hazzard8e_ch59_table59-4_p903.png",
@@ -3458,8 +3458,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch61_study.md",
-      "sha256": "a16e6bb94c940eed92f430bf524d4e6635b6bf18d49d18063e23f33fc20bc0bc",
-      "bytes": 32513
+      "sha256": "88e31969ef50910ed8da9106727215a8eae3feb6dda28559488ff8f01cee6df6",
+      "bytes": 32222
     },
     {
       "url": "./chapters/hazzard8e_ch62_cerebrovascular_disease.md",
@@ -5918,18 +5918,18 @@
     },
     {
       "url": "./css/practice.css",
-      "sha256": "e7405f10b0280ec504a3cc44473ecb73e31cf7056950dbf2a06569b4211a9a94",
-      "bytes": 16063
+      "sha256": "e0c416b95c6218a09411d4f7e7b5c27cb2befbd406117d14abc71929d54dbdca",
+      "bytes": 19461
     },
     {
       "url": "./css/reader-accessibility.css",
-      "sha256": "96f03a6b44e5e61b4566e96b784c66ef0e49d7a84fd08377bdce014dd038db0e",
-      "bytes": 11210
+      "sha256": "5f8d73caabc67c699cf669fdcf16c08c6245b3e17f8da08ec0a3152f5f60f7e1",
+      "bytes": 12182
     },
     {
       "url": "./css/reader-overhaul.css",
-      "sha256": "f53406d26832333e5eef8dc3a7ff5311fa0f8c1f706fda41d47b447830ef9a14",
-      "bytes": 18210
+      "sha256": "f0aec2aeaf8332f9b51e7d48534694922e0ee27ecad470e7268424c8c282b814",
+      "bytes": 20712
     },
     {
       "url": "./css/reader-sections.css",
@@ -5953,8 +5953,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "1fe1852893972b46aa78b90ff7206c877c255b1eae9eeadd3cf58963fa494b5e",
-      "bytes": 83662
+      "sha256": "728f9be3f1be68869d83ec9507303fef9f760ebee625bdb959a03f42d0a66f31",
+      "bytes": 83932
     },
     {
       "url": "./data/chapter-layout/100s.json",
@@ -6318,7 +6318,7 @@
     },
     {
       "url": "./data/drug-index.json",
-      "sha256": "9243be6895802b13eff35c7c42241bc930ba7533324f96d17ec912415130bc74",
+      "sha256": "4999820bc938dfc13002bf733655a37a00315569295f9631c382559d2513ac28",
       "bytes": 8896704
     },
     {
@@ -6348,8 +6348,8 @@
     },
     {
       "url": "./data/law-card-layout.json",
-      "sha256": "7db197de0e7bf3b4452b74c1890b87d0ea1e64a5ba16470390e0b8c4c0c793f2",
-      "bytes": 184297
+      "sha256": "4416b3aecbcec7fa0787cd0a98ca7d4b3afbf8605adf7dc4819c5da39af476af",
+      "bytes": 183894
     },
     {
       "url": "./data/law-cards.json",
@@ -9533,8 +9533,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "e84d4dca44dc232fc49edd4394383229353402d2a41a6d41971dd39e05d91e31",
-      "bytes": 9575213
+      "sha256": "6d138a738abdf492080a270a1d49be958ba8863809d652a00dc3e0f717ca4666",
+      "bytes": 9575161
     },
     {
       "url": "./data/verification-registry.json",
@@ -9553,43 +9553,43 @@
     },
     {
       "url": "./index.html",
-      "sha256": "290f7e2ba46712d196c8374aba26a60bb1b86413bc9041345745c698c37246fe",
-      "bytes": 371276
+      "sha256": "ad756924bf91087c243f16f9960886cc3703ab8683ee199b3ed96727748bd5b8",
+      "bytes": 378678
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "cb4859d0f88dc1dd84b7b289445c242a88b46ff75da201100a051446f261064f",
-      "bytes": 28177
+      "sha256": "f8100c17b7b62a29ae5a40c1d584ebe396efc64a35816ae016eb9f66072e9bbc",
+      "bytes": 28430
     },
     {
       "url": "./js/chapter-content.js",
-      "sha256": "5c8c1325ffc4fe7c041e3b2b32965a21de193335922d75e2ce5684b6ec6911e8",
-      "bytes": 19121
+      "sha256": "9822b462406cd63310d1fca46739e38d062c0bf9bed689e0620bd511c626aeff",
+      "bytes": 22013
     },
     {
       "url": "./js/drug-index.js",
-      "sha256": "d2a83aae9cc98e98fff860693247933338b0ec46a518c4e714b06f68df5917c1",
-      "bytes": 11245
+      "sha256": "d805121a654cda1a5f69d4cf1d455bdc08105a82210f1c72f697a286721f0e3e",
+      "bytes": 11436
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "1ffca4c102a441a5812a57df184b0d11be6e26b379ec474917074fb7e7734604",
-      "bytes": 32129
+      "sha256": "26b59719072ccb60c48510f50ae8179d2be71935c285efe13af9e576456303aa",
+      "bytes": 32950
     },
     {
       "url": "./js/exam-simulation.js",
-      "sha256": "fa5f67f4f66042e430f8faca036377e567a4ff7bf4dc5122275601b576346ca3",
-      "bytes": 60522
+      "sha256": "b41a56017df72a66e9f5cf3e1e9c3965b9ca98b659efcde9b0d7866d5a4553df",
+      "bytes": 60868
     },
     {
       "url": "./js/flashcards.js",
-      "sha256": "ca2a0b9cc9dc290711a39af92da39899d27228e459ec2522714c6936f5f600af",
-      "bytes": 20075
+      "sha256": "f26cfc242b3aa05cbe35db25b0c34bfbc8117419e705c2c92ad6b9914b1ea410",
+      "bytes": 20387
     },
     {
       "url": "./js/law-cards.js",
-      "sha256": "45fdbc2f04c904e44084db62f67b388eaaa557ec8a8ad7bcbf2b727b2e4b3cf4",
-      "bytes": 9190
+      "sha256": "2afc729f822d532070d90a6cc6c8c7781699fe6ff7b3df0c9073d0fd6ca6c298",
+      "bytes": 9656
     },
     {
       "url": "./js/marked.min.js",
@@ -9603,8 +9603,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "56f86c2746521d11bbb94f6fc74aa16202efd68fe66b1eec4ac1172d0ebe09e0",
-      "bytes": 178937
+      "sha256": "bed0fe39382adb4c8cb88a816cc042ab15f8e9c565948a0c9b3b95dbecc961d0",
+      "bytes": 179403
     },
     {
       "url": "./js/memory-aids.js",
@@ -9613,8 +9613,8 @@
     },
     {
       "url": "./js/practice-directory.js",
-      "sha256": "0e2ffb1b8a4b3efcd9a3f684c92a4a260b5fac38b7d47d0f0f4ad50bfa452d65",
-      "bytes": 6805
+      "sha256": "da5daa51b33d637d3ad5891b191c53b64a2b8f604ea5fcfacf9a8a998465cd9f",
+      "bytes": 8347
     },
     {
       "url": "./js/question-data.js",
@@ -9623,8 +9623,8 @@
     },
     {
       "url": "./js/question-search.js",
-      "sha256": "ec5668b010931378726e788544e8efd6478a37ca24cca17e16b5f46ae888758c",
-      "bytes": 5659
+      "sha256": "e243303b55068aa01624fc1633f855ee68476160f362e6f0644e89971556c159",
+      "bytes": 6168
     },
     {
       "url": "./js/reader-cloud.js",
@@ -9638,8 +9638,8 @@
     },
     {
       "url": "./js/reader-input.js",
-      "sha256": "dcc15ded3c6a5756bce10e152fb2f898a78ec73fc0ae9edb8826f7b720ee53c8",
-      "bytes": 17032
+      "sha256": "a07a525af49bb0c56ea00530cd1f9aa8675a897ac623dda9ffe7b6d3b6367954",
+      "bytes": 17457
     },
     {
       "url": "./js/reader-sections.js",
@@ -9648,7 +9648,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "d0361e5e1ca2872c8946cf8644d4da29dd7f139a5f58d27ac9bcf3fe87e7b981",
+      "sha256": "e577c129c17e152e5a18d5d0d1f146ce31e93a889d8bf3e5617b35f840632635",
       "bytes": 10195
     },
     {
@@ -9667,24 +9667,29 @@
       "bytes": 2423
     },
     {
+      "url": "./js/search-terms.js",
+      "sha256": "e9c942e2fee1bee39237d95c11c1ad9bf75762dc2fb3c95b100ed69997f3fc95",
+      "bytes": 1747
+    },
+    {
       "url": "./js/settings-controls.js",
       "sha256": "50cb0341bde1874ed6af7061c1f5db9141a4b3251e6f02aeffd6b362a9c57454",
       "bytes": 396
     },
     {
       "url": "./js/stats.js",
-      "sha256": "edad422ce47cea374993d97859bf623ccdb11fa8a57c7fa90cfafc09308fe96a",
-      "bytes": 21587
+      "sha256": "01aec359d88d08f05344d91f11461ccfdc358616fdb91e3663fe22f8bd748398",
+      "bytes": 22264
     },
     {
       "url": "./js/study-home.js",
-      "sha256": "813c1b5fc22a3b6c847483d77359e0513c388ddeaf2caf065db88e001373188a",
-      "bytes": 11507
+      "sha256": "ebac08385845fd13336e9114fdab80791893a2fc51873d05efb8a7fe993a95e1",
+      "bytes": 11423
     },
     {
       "url": "./js/study-page.js",
-      "sha256": "0bda74f2ea7983e311f3b8bf58176d31027e4b059b035b20772da2c2cb3d5a08",
-      "bytes": 11680
+      "sha256": "966611984147b1a7329c5ba7a93833f064e63fdc1ec8b4242fc68f2b5c8fca76",
+      "bytes": 11624
     },
     {
       "url": "./manifest.json",

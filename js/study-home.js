@@ -92,7 +92,7 @@ window.HazzardStudyHome = (() => {
       detail.textContent = chosen.clean + ' of ' + chosen.answered + ' answered correctly on the first try (' +
         Math.round(100 * chosen.rate) + '%) · ' + examCount;
     } else {
-      detail.textContent=examCount+' · Recommendations use first attempts after '+minimumChapterAnswers+' questions.';
+      detail.textContent=examCount;
     }
     const target = studyIds.has(chosen.id + 's') ? chosen.id + 's' : chosen.id;
     const practice = element('homeWeakPractice'), study = element('homeWeakStudy');

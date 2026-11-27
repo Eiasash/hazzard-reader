@@ -143,15 +143,14 @@ window.HazzardDrugs = (() => {
       searchIndex=new Map(data.entries.map(e=>{
         const brands=e.brandNames||e.israeliBrands?.flatMap(b=>[b.name,b.hebrewName].filter(Boolean))||[];
         const classAliases=(e.class||'').split(' / ').map(name=>classes.get(normalize(name))||'');
-        return [e.id,normalize([e.name,e.class||'',...e.aliases,...brands,...classAliases].join(' '))];
+        return [e.id,HazzardSearchTerms.prepare([e.name,e.class||'',...e.aliases,...brands,...classAliases].join(' '))];
       }));
       return searchIndex;
     }
     function render(){
       if(!data)return;
-      const words=normalize(input.value.trim()).split(/\s+/).filter(Boolean);
-      const index=words.length?terms():null;
-      matches=data.entries.filter(e=>(selectedKind==='all'||selectedKind===e.kind)&&words.every(word=>index.get(e.id).includes(word)));
+      const query=HazzardSearchTerms.compile(input.value),index=query.text?terms():null;
+      matches=data.entries.filter(e=>(selectedKind==='all'||selectedKind===e.kind)&&(!index||query.test(index.get(e.id))));
       // A saved deep link opens immediately, even for the last name in the catalogue.
       selectedID=new URL(location.href).searchParams.get('drug');
       const selected=selectedID&&matches.find(e=>e.id===selectedID);
@@ -175,14 +174,16 @@ window.HazzardDrugs = (() => {
     input.oninput=()=>{remember('');render();};paintFilter();
     await open();
   }
-  let lookup;
+  let lookup,lookupNames;
   async function search(query){
     lookup ||= fetch('data/drug-lookup.json').then(response=>{
       if(!response.ok)throw Error('Drug lookup unavailable');
       return response.json();
     }).catch(async()=>{const data=await load();return data.entries.map(d=>({id:d.id,name:d.name,class:d.class,kind:d.kind,aliases:[...d.aliases,...(d.brandNames||d.israeliBrands?.flatMap(b=>[b.name,b.hebrewName].filter(Boolean))||[])],passages:d.passageCount??d.passages.length,questions:d.questionCount??d.questions.length}));}).catch(error=>{lookup=null;throw error;});
-    const term=normalize(query),matches=(await lookup).filter(d=>[d.name,...d.aliases].some(v=>normalize(v).includes(term)));
-    return matches.sort((a,b)=>Number(normalize(b.name)===term)-Number(normalize(a.name)===term)).slice(0,10);
+    const match=HazzardSearchTerms.compile(query),entries=await lookup;
+    lookupNames ||= entries.map(entry=>({entry,names:[entry.name,...entry.aliases].map(HazzardSearchTerms.prepare)}));
+    return lookupNames.map(({entry,names})=>({entry,rank:Math.min(...names.map(match.rank)),nameRank:match.rank(names[0])}))
+      .filter(hit=>Number.isFinite(hit.rank)).sort((a,b)=>a.rank-b.rank||a.nameRank-b.nameRank).slice(0,10).map(hit=>hit.entry);
   }
   return {mount,search,counts,routeKey};
 })();

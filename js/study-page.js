@@ -116,7 +116,7 @@ window.HazzardStudyPage = (() => {
     if(references)references.open=true;
     const question=el?.closest?.('.read-inline-question');
     if(question){
-      if(question.dataset.integratedExam&&document.body.classList.contains('reading-exam-links')){
+      if(question.dataset.integratedExam){
         document.getElementById(question.dataset.integratedExam)?.querySelector('.exam-count-toggle[aria-expanded="false"]')?.click();
       }
       question.open=true;

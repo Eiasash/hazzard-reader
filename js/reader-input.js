@@ -5,6 +5,7 @@ function isReaderControl(target){
   return !!target?.closest?.('input,textarea,select,option,button,a[href],label,summary,[contenteditable]:not([contenteditable="false"]),[role="button"]:not([data-mark-key]),[role="link"],dialog,[role="dialog"],#panel');
 }
 function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close}) {
+  const holdDelay=450;
   let timer;
   function cancel(){
     clearTimeout(timer);state.stroke=null;paint(null);
@@ -16,12 +17,12 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
       clientX:point.clientX,clientY:point.clientY,pointerId:point.identifier??event.pointerId,
       preventDefault:()=>event.preventDefault()});
     if(!stroke)return;
-    stroke.type=type;state.stroke=stroke;
+    stroke.type=type;stroke.startedAt=event.timeStamp;state.stroke=stroke;
     if(type!=='touch'){event.preventDefault();event.target.setPointerCapture(event.pointerId);}
     if(stroke.word)timer=setTimeout(()=>{
       if(state.stroke!==stroke||stroke.moved)return;
       stroke.selecting=true;paint(stroke.range);
-    },450);
+    },holdDelay);
   }
   function extend(s,x,y){
     const end=wordAt(x,y);
@@ -49,6 +50,10 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   function finish(event,point){
     const s=state.stroke;
     if(!s)return;
+    // On a heavily marked page WebKit can deliver touchend before the hold timer runs.
+    if(!s.selecting&&s.type==='touch'&&!s.moved&&s.word&&event.timeStamp-s.startedAt>=holdDelay&&
+       Math.hypot(point.clientX-s.x,point.clientY-s.y)<6&&Math.abs(s.scroller.scrollTop-s.scroll)<2&&
+       (!s.table||Math.abs(s.table.scrollLeft-s.left)<2))s.selecting=true;
     if(s.selecting){
       extend(s,point.clientX,point.clientY);
       if(event.cancelable)event.preventDefault();

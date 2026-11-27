@@ -150,9 +150,12 @@ window.HazzardFlashcards = (() => {
     } else {
       const again = session.ids.filter(id => records[id]?.grade === 'again').length;
       const know = session.ids.filter(id => records[id]?.grade === 'know').length;
-      element('flashcardCount').textContent = session.scope === 'all' ? 'All rebuilt chapters' : 'Chapter ' + session.scope;
-      element('flashcardTotals').textContent = know + ' Know · ' + again + ' Again';
+      element('flashcardCount').textContent = session.scope === 'all' ? 'All chapters' : 'Chapter ' + session.scope;
+      element('flashcardTotals').hidden=!session.ids.length;
+      element('flashcardTotals').textContent = know + ' known · ' + again + ' to practise again';
       element('flashcardReviewAgain').hidden = again === 0;
+      element('flashcardDone').textContent=session.ids.length?'Deck complete':session.order==='due'?'No flashcards due today':'No flashcards in this selection';
+      element('flashcardRestart').hidden=!session.ids.length;
       if (focus) element('flashcardDone').focus();
     }
     onResize();
@@ -292,7 +295,7 @@ window.HazzardFlashcards = (() => {
       '<div id="flashcardBack"></div><div class="flashcard-sources"><a id="flashcardSource"></a><a id="flashcardContext" hidden></a></div></details><div class="flashcard-actions"><button type="button" data-flash-grade="again" disabled>Again</button>' +
       '<button type="button" class="primary" data-flash-grade="know" disabled>Know</button></div></article>' +
       '<div id="flashcardCompletion" hidden><h3 id="flashcardDone" tabindex="-1">Deck complete</h3><p id="flashcardTotals"></p>' +
-      '<div class="flashcard-actions"><button type="button" id="flashcardReviewAgain">Review Again cards</button><button type="button" id="flashcardRestart">Restart deck</button></div></div>' +
+      '<div class="flashcard-actions"><button type="button" id="flashcardReviewAgain">Repeat cards marked Again</button><button type="button" id="flashcardRestart">Repeat this deck</button></div></div>' +
       '<p role="alert" id="flashcardError" hidden></p>';
     document.querySelector('main').append(pane);
     const dueButton=document.getElementById('homeFlashDue');
@@ -312,7 +315,7 @@ window.HazzardFlashcards = (() => {
     name.textContent='Flashcards';detail.textContent='Recall and grade one card at a time';launch.replaceChildren(name,detail);row.append(launch);
     document.querySelector('[data-pane="practice"] .rows li')?.after(row);
     element('flashcardOrder').onclick=event=>{const choice=event.target.closest('[data-order]');if(choice&&choice.dataset.order!==session?.order)restart(choice.dataset.order);};
-    element('flashcardRestart').addEventListener('click', () => restart(session.order));
+    element('flashcardRestart').addEventListener('click', () => restart(session.order,session.ids));
     element('flashcardReviewAgain').addEventListener('click', () => {
       const grades = gradesFor(catalog);
       restart(session.order, session.ids.filter(id => grades[id]?.grade === 'again'));

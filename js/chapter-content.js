@@ -163,6 +163,31 @@ function formatReadEndMatter(copy,chapter){
   const footer=copy.querySelector(':scope > .chapter-nav');if(footer)footer.before(disclosure);else copy.append(disclosure);
   placeExamQuestions(copy,exam);
 }
+function placeOpeningPage(copy,chapter){
+  if(!/^\d+$/.test(chapter))return;
+  const marker=copy.querySelector('a.pg[data-page]'),line=marker?.parentElement;
+  if(!line?.matches('p')||line.parentElement!==copy||line.querySelectorAll('a.pg').length!==1)return;
+  const contents=line.cloneNode(true);
+  contents.querySelectorAll('[data-reader-metadata],.exam-page-badge,.exam-missed').forEach(el=>el.remove());
+  if(contents.textContent.trim()||line.querySelector('img,table'))return;
+  const cases=[];let paragraph=line.nextElementSibling;
+  while(paragraph?.matches('h2,h3,h4,h5,h6,.read-inline-question')){
+    if(paragraph.matches('.read-inline-question'))cases.push(paragraph);
+    paragraph=paragraph.nextElementSibling;
+  }
+  if(!paragraph?.matches('p')||!paragraph.textContent.trim()||paragraph.querySelector('img,table,a.pg'))return;
+  const evidence=line.querySelector(':scope > .exam-count');
+  // The printed-page ID and existing quote offsets stay at the beginning of the page.
+  // Only the visible marker follows the book's opening prose.
+  line.classList.add('read-opening-page-source');
+  if(!evidence?.dataset.caseLabel){
+    const label=document.createElement('span');label.className='read-opening-page-label';label.dataset.readerMetadata='page';
+    if(evidence)label.classList.add('has-exam-control');
+    label.textContent='p'+marker.dataset.page;paragraph.append(label);
+  }
+  if(evidence)paragraph.append(evidence);
+  paragraph.after(...cases);
+}
 
 // Run after mark registration. Source words keep their original order and unit IDs.
 // The marked book prints major headings in capitals. For the reader's
@@ -191,13 +216,27 @@ function headingLabel(text,chapter){
     return word.toLowerCase();
   });
 }
+// Display book table headings in sentence case while retaining the printed
+// source text for existing word ranges, abbreviations and proper names.
+const tableHeadingLabels=new Map([
+  'Screening activity','Attribute addressed','Functional implication','Factor of interest',
+  'Reason for possible delay in rehabilitation','Factor','Effect','Score','Medication',
+  'Mechanism/benefits','Side effects/adverse events/considerations','Clinical context/presentation',
+  'Recommendations','≥ 1:80 titer on HEp-2 cells or an equivalent positive test',
+  'Immunomodulatory therapy','Timing considerations for vaccination','Level of consensus',
+  'Characteristics of frailty','Cardiovascular Health Study measure','Test','Description',
+  'Class','Generic','Brand','Dose','Sedating','Alerting','Preserved cognition functions',
+  'Cognitive functions showing decline','Type of dementia','Alzheimer disease','Vascular dementia',
+  'Dementia with Lewy bodies','Frontotemporal dementia','AD pathology-related mechanism',
+  'CSF measure','Mild','Moderate','Severe','Complication','Procedural risk (%)','Antibiotic','Dosage'
+].map(label=>[label.toUpperCase(),label]));
 function presentHeadingCase(copy,chapter){
   if(!/^\d+$/.test(chapter))return;
-  for(const heading of copy.querySelectorAll('h2,h3,h4,h5,h6')){
+  for(const heading of copy.querySelectorAll('h2,h3,h4,h5,h6,th')){
     if(heading.closest('[data-reader-metadata]'))continue;
     const walker=document.createTreeWalker(heading,NodeFilter.SHOW_TEXT);
     const nodes=[];while(walker.nextNode()){const n=walker.currentNode;if(!n.parentElement.closest('[data-reader-metadata]'))nodes.push(n);}
-    const original=nodes.map(n=>n.data).join(''),shown=headingLabel(original,chapter);
+    const original=nodes.map(n=>n.data).join(''),shown=heading.tagName==='TH'?(tableHeadingLabels.get(original)||original):headingLabel(original,chapter);
     if(shown===original)continue;
     // Paint only case differences. Unit text, quote offsets, and heading IDs
     // stay intact for highlights created before this presentation change.
@@ -245,21 +284,27 @@ function presentChapter(copy,chapter,title){
       const caption=document.createElement('figcaption');figure.append(caption);caption.append(next);
     }
   }
-  // These five original scans include the same printed captions as the chapter.
+  // These original scans include the same printed captions as the chapter.
   // The dimensions stop in the verified white gutter above the caption. The
   // viewer always receives the complete original scan, including its legend.
-  if(base==='42'){
-    const crops=[[759,900,561],[1346,873,731],[1346,811,604],[1240,1098,958],[1119,742,657]];
+  const crops={
+    '42':[[759,900,561],[1346,873,731],[1346,811,604],[1240,1098,958],[1119,742,657]],
+    '55':[[1346,405,224],[1340,817,609],[1340,877,637]]
+  }[base];
+  if(crops){
     for(const [i,[width,height,artHeight]] of crops.entries()){
-      const name='hazzard8e_ch42_figure42-'+(i+1)+'.png',img=copy.querySelector('img[src$="/'+name+'"]');
+      const name='hazzard8e_ch'+base+'_figure'+base+'-'+(i+1)+'.png',img=copy.querySelector('img[src$="/'+name+'"]');
       if(!img||Number(img.getAttribute('width'))!==width||Number(img.getAttribute('height'))!==height)continue;
-      const label='FIGURE 42-'+(i+1)+'.',caption=[...copy.querySelectorAll('p')].find(p=>p.textContent.trim().toUpperCase().startsWith(label));
+      const label='FIGURE '+base+'-'+(i+1)+'.',caption=[...copy.querySelectorAll('p')].find(p=>p.textContent.trim().toUpperCase().startsWith(label));
       if(!caption)continue;
       const clip=document.createElement('span');clip.className='book-art-crop';clip.style.aspectRatio=width+' / '+artHeight;
       img.before(clip);clip.append(img);caption.classList.add('printed-figure-caption');
       const figcaption=img.closest('figure')?.querySelector('figcaption');
-      if(figcaption?.contains(caption)){const details=caption.closest('details');if(details)details.open=true;}
-      else if(figcaption&&figcaption.textContent.trim().toLowerCase()==='figure 42-'+(i+1))figcaption.dataset.imageLabelOnly='';
+      if(figcaption?.contains(caption)){
+        const details=caption.closest('details');
+        if(details){details.open=true;if(base==='55')figcaption.classList.add('continuous-caption');}
+      }
+      else if(figcaption&&figcaption.textContent.trim().toLowerCase()==='figure '+base+'-'+(i+1))figcaption.dataset.imageLabelOnly='';
     }
   }
   for(const img of copy.querySelectorAll('img:not(a img,button img)')){
@@ -290,5 +335,5 @@ function presentChapter(copy,chapter,title){
     }
   }
 }
-return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,presentChapter,headingLabel};
+return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,placeOpeningPage,presentChapter,headingLabel};
 })();

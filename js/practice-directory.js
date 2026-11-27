@@ -4,11 +4,41 @@ window.HazzardPracticeDirectory = (() => {
   const kinds = [['past','Official'],['practice','Practice'],['all','All']];
   const clean = value => String(value || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
   const heading = (q) => q.kind === 'past' ? HazzardMCQ.sourceLabel(q) : q.sourceChecked ? 'Source-checked practice' : 'Practice';
-  const matches = (rows, kind, term) => {
-    const query = clean(term).toLocaleLowerCase();
-    return rows.filter(q => (kind === 'all' || q.kind === kind) && (!query ||
-      [q.q,q.t,heading(q),q.chapter && ('chapter '+q.chapter)].some(text => clean(text).toLocaleLowerCase().includes(query))));
-  };
+  let optionsRequest,optionText;
+  const prepared=new Map(),memberships=new Map();
+  function chapterIds(chapter){
+    if(!memberships.has(chapter)){
+      const request=HazzardStudyHome.libraryStats().then(data=>new Set(data.evidence.currentChapters[chapter]||[]))
+        .catch(error=>{memberships.delete(chapter);throw error;});
+      memberships.set(chapter,request);
+    }
+    return memberships.get(chapter);
+  }
+  const settledChapterIds=new Map();
+  async function prepareSearch(rows,term){
+    const query=HazzardSearchTerms.compile(term);
+    if(query.chapter){settledChapterIds.set(query.chapter,await chapterIds(query.chapter));return;}
+    if(!query.text)return;
+    optionsRequest ||= fetch('data/mcq/search-options.json').then(r=>{if(!r.ok)throw Error('Question options unavailable');return r.json();})
+      .then(data=>{optionText=data;}).catch(error=>{optionsRequest=null;throw error;});
+    await Promise.all([fullStems(rows),optionsRequest]);
+  }
+  function matches(rows,kind,term){
+    const query=HazzardSearchTerms.compile(term),pool=rows.filter(q=>kind==='all'||q.kind===kind);
+    if(query.chapter){const members=settledChapterIds.get(query.chapter);return pool.filter(q=>String(q.chapter)===query.chapter||members?.has(q.id));}
+    if(!query.text)return pool;
+    const ranked=[];
+    for(const q of pool){
+      let text=prepared.get(q.id);
+      if(!text){
+        text=HazzardSearchTerms.prepare([q.q,...(optionText?.[q.id]||[]),q.t,heading(q),q.id,q.chapter&&'Chapter '+q.chapter].filter(Boolean).map(clean).join(' '));
+        prepared.set(q.id,text);
+      }
+      const rank=query.rank(text);if(Number.isFinite(rank))ranked.push({q,rank});
+    }
+    const literal=ranked.some(row=>row.rank<3);
+    return ranked.filter(row=>!literal||row.rank<3).sort((a,b)=>a.rank-b.rank).map(row=>row.q);
+  }
   let firstStems;
   function addStems(rows, stems){
     if(stems)for(const row of rows){if(stems[row.id]!=null)row.q=stems[row.id];}
@@ -39,7 +69,7 @@ window.HazzardPracticeDirectory = (() => {
     let term=prior.term??params.get('term')??'',limit=Number(prior.limit)||PAGE;
     const page=element('div','mcq-page practice-directory'),list=element('ol','directory-list');
     const title=element('h1','',chapter==='bank'?'Browse questions':'Chapter questions');
-    const search=element('input','directory-search');search.type='search';search.autocomplete='off';search.placeholder='Find a question or sitting';search.setAttribute('aria-label',search.placeholder);search.value=term;
+    const search=element('input','directory-search');search.type='search';search.autocomplete='off';search.placeholder='Search questions, drugs or chapters';search.setAttribute('aria-label',search.placeholder);search.value=term;
     const types=element('div','directory-types'),count=element('p','directory-count'),more=element('button','directory-more','Show more questions');
     types.setAttribute('role','group');types.setAttribute('aria-label','Question source');count.setAttribute('role','status');
     const links=element('div','directory-tools');const link=(label,href)=>{const a=element('a','',label);a.href=href;links.append(a);};
@@ -59,7 +89,7 @@ window.HazzardPracticeDirectory = (() => {
       const ticket=++drawTurn;
       for(const b of types.children)b.setAttribute('aria-pressed',String(b.dataset.kind===kind));
       try{
-        if(term.trim()&&rows.some(q=>q.q==null)){count.textContent='Searching…';await fullStems(rows);}
+        if(term.trim()){count.textContent='Searching…';await prepareSearch(rows,term);}
         if(ticket!==drawTurn||signal.aborted)return;
         const showing=matches(rows,kind,term).slice(0,limit);
         if(showing.some(q=>q.q==null)){
@@ -95,5 +125,5 @@ window.HazzardPracticeDirectory = (() => {
     draw().then(()=>{if(Number.isFinite(prior.scroll))requestAnimationFrame(()=>{if(!signal.aborted)host.scrollTop=prior.scroll;});});
     return remember;
   }
-  return {ordered,matches,mount,addStems,fullStems};
+  return {ordered,matches,mount,addStems,fullStems,prepareSearch,chapterIds};
 })();

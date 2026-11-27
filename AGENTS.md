@@ -3,3 +3,5 @@ Content releases edit data/mcq/all.json and then run python tools/generate_quest
 For a new explanation, start with `python tools/generate_question_data.py --editorial-input CHAPTER`. Read the stem, choices, accepted answers and the cited book page or guideline. Draft from those inputs. The editorial export omits previous explanations and editorial review notes.
 Run the release storage comparison through `tools/release_update.py`. It compares personal study records and reports navigation, cloud bookkeeping and serialization differences separately. Its `compare` mode reads two JSON snapshots of raw localStorage strings.
 Produce release handoffs with `tools/write_release_report.py --branch BRANCH --tested-head SHA --body BODY --output REPORT`. The writer obtains the PR number and head from GitHub. Use `--hold "specific reason"` for a held release.
+
+Use everyday or clinical language for reader controls. A first-time reader should be able to identify the screen, its actions and the way back from the interface itself. Clarify ambiguous controls and remove instructions made redundant by the clearer label. List each renamed or removed label in the release report.

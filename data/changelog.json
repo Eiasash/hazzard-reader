@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v337",
+      "date": "2026-11-27",
+      "changes": [
+        "Read, Study and exam links have a fixed place in each chapter row. Search handles common typos, and reading, saved notes and question controls are clearer on a phone."
+      ]
+    },
+    {
       "version": "v336",
       "date": "2026-11-27",
       "changes": [

@@ -6,12 +6,14 @@ window.HazzardLawCards = (() => {
   const section=/\d+[\u05d0-\u05ea]{0,3}/.source+'(?:'+subclause+')*';
   const sections=/\u00a7{1,2}[ \t]*/.source+section+'(?:'+/[ \t]*[,/–—-][ \t]*/.source+'(?:'+section+'|'+subclause+'))*';
   const locators=new RegExp('\\('+sections+'\\)|'+sections,'gu');
-  function isolateLocators(root){
+  const numberList=/\d+(?:[.\-–/]\d+)*(?:,\s*\d+(?:[.\-–/]\d+)*)*/u;
+  const englishLocators=new RegExp(locators.source+'|'+numberList.source,'gu');
+  function isolateLocators(root,pattern=locators){
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),nodes=[];
-    while(walker.nextNode())if(walker.currentNode.data.includes('\u00a7')&&!walker.currentNode.parentElement?.closest('bdi,script,style,textarea'))nodes.push(walker.currentNode);
+    while(walker.nextNode())if((pattern===englishLocators||walker.currentNode.data.includes('\u00a7'))&&!walker.currentNode.parentElement?.closest('bdi,script,style,textarea'))nodes.push(walker.currentNode);
     for(const node of nodes){
       const fragment=document.createDocumentFragment();let offset=0;
-      for(const match of node.data.matchAll(locators)){
+      for(const match of node.data.matchAll(pattern)){
         const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.textContent=match[0];
         fragment.append(node.data.slice(offset,match.index),bdi);offset=match.index+match[0].length;
       }
@@ -21,7 +23,13 @@ window.HazzardLawCards = (() => {
   function cardText(node,value,layout){
     const runs=layout[value];
     if(!runs){node.append(document.createTextNode(value));return;}
-    const [rtl,parts]=runs;if(rtl){node.dir='rtl';node.lang='he';}
+    const [rtl,parts,baseLanguage]=runs;
+    if(baseLanguage==='en'){
+      node.dir='ltr';node.lang='en';
+      // The native paragraph algorithm orders the Hebrew terms in English prose.
+      node.append(document.createTextNode(value));isolateLocators(node,englishLocators);return;
+    }
+    if(rtl){node.dir='rtl';node.lang='he';}
     parts.forEach((part,i)=>{
       if(!part)return;
       if(!(i%2)){node.append(document.createTextNode(part));return;}
