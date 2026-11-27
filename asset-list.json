@@ -9543,8 +9543,8 @@
     },
     {
       "url": "./js/drug-index.js",
-      "sha256": "86a856e587d8181dc0a497a2073797a2a409cc6ed4e4b069d370d5c814aa43ff",
-      "bytes": 10337
+      "sha256": "dfa0e3da9bc7df35f6336c652b42a064e7ca4d2163cd11d98bfdb2761b98d061",
+      "bytes": 10106
     },
     {
       "url": "./js/exam-evidence.js",

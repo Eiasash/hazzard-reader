@@ -89,7 +89,13 @@ self.addEventListener('install', event => {
     if (names.includes('hazzard-shell-v49-r1')) await self.skipWaiting();
   })());
 });
-async function offlineStatus() {
+let offlineCheck;
+function offlineStatus() {
+  // Pages can ask simultaneously on controllerchange, pageshow and serviceWorker.ready.
+  // Every later status request starts a fresh verification after the current one settles.
+  return offlineCheck ||= verifyOfflineStatus().finally(() => { offlineCheck = undefined; });
+}
+async function verifyOfflineStatus() {
   const cache = await caches.open(SHELL_CACHE);
   const ready = await cache.match(READY_URL);
   const status = ready && await ready.json();

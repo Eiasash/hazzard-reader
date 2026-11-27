@@ -130,10 +130,6 @@ window.HazzardDrugs = (() => {
       more.hidden=visibleCount===matches.length;
     }
     more.onclick=nextBatch;
-    const observer=new IntersectionObserver(records=>{
-      if(records.some(record=>record.isIntersecting)&&!more.hidden)nextBatch();
-    },{root:copy.closest('#readerScroll'),rootMargin:'240px 0px'});
-    observer.observe(more);
 
     function terms(){
       if(searchIndex)return searchIndex;
