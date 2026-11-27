@@ -38,15 +38,7 @@
 #tableViewer header {display:flex;align-items:center;gap:4px;flex-wrap:wrap}
 #tableViewer header strong {flex:1}
 #tableViewer .table-scroll {max-inline-size:100%}
-#copy a.next-reading-section[href] {
-  display:flex;align-items:baseline;justify-content:space-between;gap:.7em;min-height:44px;
-  margin:.9em 0 .2em;padding:.6em 0;border-block-end:1px solid var(--rule);
-  color:var(--accent);text-decoration:none;font:600 var(--type-control)/1.35 var(--ui);
-}
-#copy .next-reading-section>span {color:var(--muted);flex:none;font:550 var(--type-label)/1.35 var(--ui)}
-#copy .next-reading-section bdi {text-align:end;overflow-wrap:anywhere}
-#copy .next-reading-section bdi::after {content:' ›'}
-#copy .next-reading-section:focus-visible,#copy img:focus-visible {outline-offset:1px}
+#copy img:focus-visible {outline-offset:1px}
 #reader .chapter-nav.endcap {grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-block:1.5em .6em}
 #reader .chapter-nav.endcap>button {
   display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:5px;
@@ -74,12 +66,12 @@ body:not(.nav-page-open):not(.flashcards-open) #chapterHeader.study-header:not([
 #chapterHeader.study-header .chapter-heading {grid-row:1;grid-column:2;min-width:0;width:auto}
 #chapterHeader.study-header #settingsGear {grid-row:1;grid-column:3;justify-self:end}
 #chapterHeader.study-header #chapterHeaderTitle {
-  display:block;-webkit-line-clamp:unset;overflow:visible;width:100%;min-height:44px;height:auto;max-height:none;
-  white-space:normal;text-overflow:clip;text-wrap:pretty;overflow-wrap:anywhere;padding:4px 2px!important;
+  display:block;-webkit-line-clamp:unset;overflow:hidden;width:100%;min-height:44px;height:44px;max-height:none;
+  white-space:nowrap;text-overflow:ellipsis;overflow-wrap:normal;padding:4px 2px!important;
   text-align:start;font:650 var(--type-control)/1.24 var(--ui);color:var(--ink);
 }
 body.reader-section-mode #chapterHeaderTitle::before,#readerSectionStrip::before {
-  content:'Sections  ▾';display:block;font:640 var(--type-small)/1.24 var(--ui);color:var(--accent);letter-spacing:.025em;
+  content:'▾';display:inline;margin-inline-end:.42em;color:var(--accent);font-size:var(--type-label);
 }
 #chapterHeader.study-header .chapter-switch:not([hidden]) {grid-row:2;grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:0;background:var(--soft);padding:2px;gap:2px;border-radius:9px}
 #chapterHeader.study-header .chapter-switch button {width:100%!important;min-width:0;border:0;border-radius:7px;min-height:44px;padding:4px 6px;font:630 var(--type-control)/1.15 var(--ui)}
@@ -92,7 +84,7 @@ body:has(#chapterHeader[data-page-back]) #chapterHeader.study-header:not([data-l
 body.reader-section-mode.reading-bars-hidden #readerSectionStrip {
   display:block;flex:none;width:100%;min-block-size:44px;height:auto;margin:0;padding:5px max(16px,calc((100% - 68ch)/2));
   border:0;border-block-end:1px solid var(--rule);border-radius:0;background:var(--surface);color:var(--ink);
-  font:650 var(--type-control)/1.27 var(--ui);text-align:start;white-space:normal;text-wrap:pretty;
+  font:650 var(--type-control)/1.27 var(--ui);text-align:start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport #mcqViewport {inset-block-start:var(--active-header-height,96px)}
 #readerSectionOutline .reader-section-link,.section-picker-list .reader-section-link {padding:9px 5px;font:550 var(--type-control)/1.4 var(--ui)}
@@ -112,30 +104,32 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #library #libraryDrugMatches small,#panel .notebook-saved-questions .rows small {font:500 var(--type-label)/1.4 var(--ui);color:var(--muted)}
 #library #chapterRows {padding:0;margin:8px 0 0}
 #chapterRows .library-row {
-  display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:0 10px;
-  margin:0;padding:7px 0;background:transparent;border:0;border-block-end:1px solid var(--rule);
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:0 9px;
+  margin:0;padding:4px 0;background:transparent;border:0;border-block-end:1px solid var(--rule)
 }
-#chapterRows .library-row>.chapter-name {grid-column:1;grid-row:1;min-width:0;min-height:44px!important;padding:2px 0;border:0;background:none;text-align:start;overflow-wrap:anywhere}
-#chapterRows .chapter-row-context {margin:0 0 .12em;font-weight:600}
-#chapterRows .chapter-row-title {display:block;color:var(--ink);font:660 var(--type-body)/1.31 var(--ui)}
+#library #chapterRows .library-row>.chapter-name {
+  grid-column:1;grid-row:1;display:flex;align-items:baseline;gap:.35em;min-width:0;width:100%;min-block-size:27px!important;
+  min-height:27px!important;height:auto;padding:3px 0 1px;border:0;background:none;text-align:start;white-space:nowrap
+}
+#chapterRows .chapter-row-context {flex:none;margin:0;color:var(--muted);font:570 var(--type-label)/1.24 var(--ui)}
+#chapterRows .chapter-row-context:empty {display:none}
+#chapterRows .chapter-row-title {display:block;flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);font:670 var(--type-body)/1.28 var(--ui)}
 #chapterRows .chapter-name:hover .chapter-row-title {text-decoration:underline}
-#chapterRows .chapter-actions {grid-row:1;grid-column:2;display:contents}
-#chapterRows .chapter-actions .library-study,#chapterRows .exam-count-toggle {
-  display:inline-flex;align-items:center;justify-content:center;min-width:0;min-height:44px;max-width:none;width:auto;margin:0;padding:0 1px;
-  background:transparent;border:0;border-radius:0;font:610 var(--type-label)/1.25 var(--ui);color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap;
+#chapterRows .chapter-actions {display:contents}
+#library #chapterRows .chapter-actions .library-study,#library #chapterRows .exam-count>button.exam-count-toggle {
+  display:inline-flex;align-items:center;justify-content:center;min-width:0;width:auto;min-height:28px!important;min-block-size:28px!important;height:auto;margin:0;padding:2px;
+  background:transparent;border:0;border-radius:0;box-shadow:none;font:610 var(--type-label)/1.2 var(--ui);color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap
 }
 #chapterRows .chapter-actions .library-study {grid-column:2;grid-row:1}
 #chapterRows .library-exams:not([hidden]),#chapterRows .exam-count {display:contents}
 #chapterRows .library-exams[hidden] {display:none}
-#library #chapterRows .exam-count>button.exam-count-toggle {
-  grid-column:3;grid-row:1;min-height:44px;min-width:0;width:auto;padding:0 1px;
-  border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--accent);
-  font:610 var(--type-label)/1.25 var(--ui);text-decoration:underline;text-underline-offset:3px;
-}
-#chapterRows .library-row>.library-status {grid-column:1/-1;grid-row:2;margin:1px 0 0;color:var(--muted);font:520 var(--type-small)/1.35 var(--ui);white-space:nowrap}
+#library #chapterRows .exam-count>button.exam-count-toggle {grid-column:3;grid-row:1}
+#chapterRows .library-row>.library-status {grid-column:1/-1;grid-row:2;min-width:0;margin:0;color:var(--muted);font:520 var(--type-small)/1.3 var(--ui);white-space:nowrap}
 #chapterRows .library-status:empty {display:none}
-#chapterRows .exam-count-list:not([hidden]) {grid-column:1/-1;grid-row:3;margin:4px 0 2px}
-#chapterRows .chapter-p005-note {font:580 var(--type-small)/1.25 var(--ui);margin:3px 0 0;max-width:100%}
+#library #chapterRows .library-row:has(>.library-status:empty)>.chapter-name {min-height:36px!important}
+#library #chapterRows .library-row:has(>.library-status:empty) :is(.library-study,.exam-count-toggle) {min-height:36px!important}
+#chapterRows .exam-count-list:not([hidden]) {grid-column:1/-1;grid-row:3;margin:2px 0}
+#library #chapterRows .chapter-p005-note {display:inline;flex:none;width:auto;margin:0;padding:0;border:0;background:none;color:var(--muted);font:540 var(--type-small)/1.2 var(--ui)}
 .exam-count-list .asked-sitting {display:grid;grid-template-columns:minmax(0,8.5em) minmax(0,1fr);align-items:baseline;gap:8px;padding:3px 0;border-block-start:1px solid var(--rule)}
 .exam-count-list .asked-sitting>strong {font:640 var(--type-label)/1.3 var(--ui);color:var(--ink)}
 .exam-count-list .asked-question-links {display:flex;flex-wrap:wrap;gap:0 5px}
@@ -184,3 +178,24 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #panel .nb-current-place[hidden] {display:none}
 #panel .nb-current-place span {flex:1;color:var(--muted);font:530 var(--type-label)/1.3 var(--ui)}
 #panel .nb-current-place button {width:auto;min-height:44px;margin:0;padding:3px 5px;border:0;background:transparent;color:var(--accent);font:620 var(--type-label)/1.2 var(--ui)}
+
+#copy :is(.study-group,.study-test)>summary {display:flex;align-items:center;gap:.45em;list-style:none;min-block-size:44px;margin:0;padding:5px 0;line-height:1.22}
+#copy :is(.study-group,.study-test)>summary::-webkit-details-marker {display:none}
+#copy :is(.study-group,.study-test)>summary::marker {content:''}
+#copy :is(.study-group,.study-test)>summary::before {content:'▸';flex:none;width:.75em;color:var(--accent);font:650 var(--type-label)/1 var(--ui)}
+#copy :is(.study-group,.study-test)[open]>summary::before {content:'▾'}
+#copy :is(.study-group,.study-test)>summary>:is(h2,h3,h4) {display:inline;min-width:0;margin:0;padding:0;border:0;font:670 var(--type-subhead)/1.24 var(--ui)}
+#copy [data-study-continuation]>summary {display:none}
+#copy .book-art-crop {display:block;position:relative;width:100%;overflow:hidden}
+#copy .book-art-crop>img {position:absolute;inset:0 auto auto 0;display:block;width:100%;height:auto;max-width:none}
+#copy figure:has(.book-art-crop)>figcaption[data-image-label-only]:not(:has([data-mark-key])) {display:none}
+#copy .printed-figure-caption {margin:.4em 0 .9em;font-style:normal}
+#copy .printed-figure-caption :is(p,em) {font:inherit}
+#imageZoom,#imageZoom::backdrop {background:var(--surface);color:var(--ink)}
+#imageZoom .zoom-bar {background:var(--surface);border-bottom:1px solid var(--rule)}
+#imageZoom .zoom-bar button {background:var(--surface);color:var(--accent);border-color:var(--control)}
+@media(max-width:700px){
+ #copy .table-wrap {max-inline-size:100%;inline-size:100%}
+ #copy .table-wrap>table {table-layout:fixed;inline-size:100%;max-inline-size:100%}
+ #copy .table-wrap>table :is(td,th):nth-child(n) {min-inline-size:0;max-inline-size:none;padding:.4em;white-space:normal;overflow-wrap:anywhere;word-break:normal;line-height:1.4}
+}

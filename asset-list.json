@@ -5908,8 +5908,8 @@
     },
     {
       "url": "./css/mcq.css",
-      "sha256": "a9080a22df60938b1e30358e2c52e6f46d89888d3079ea6dfc9b8b67a668e684",
-      "bytes": 39604
+      "sha256": "d72585f30bd43cfe98dc3847622132e4628b3c06773a91a48c6c06f43384f65e",
+      "bytes": 41073
     },
     {
       "url": "./css/memory-aids.css",
@@ -5923,13 +5923,13 @@
     },
     {
       "url": "./css/reader-accessibility.css",
-      "sha256": "63d162e9b65d85cbf857b1f8d02938bcc6148803b3ca87f2d60cb20b24e1a547",
-      "bytes": 10223
+      "sha256": "7cb3714fb22f94acab9f41330ebf39eabab0872020d2d6efc3ccc3668f57c8bc",
+      "bytes": 10377
     },
     {
       "url": "./css/reader-overhaul.css",
-      "sha256": "2b3eb43254d9c52bba476c9eb93c4008ae8634d72c8ef717e6cc89e8d545cda2",
-      "bytes": 17088
+      "sha256": "489c382f2552530575173fe7a3378f5448947ce8caa3b2e069b7c0716a9eea4f",
+      "bytes": 18727
     },
     {
       "url": "./css/reader-sections.css",
@@ -5948,13 +5948,13 @@
     },
     {
       "url": "./css/site.css",
-      "sha256": "340ca402237358ec764ba31e6d820b24558080ad690d0a3ddc0992e6ec70d397",
-      "bytes": 6809
+      "sha256": "5c95baa606d0ca22b1887c5a06778634a160ef356e809d2bdd43b90ad28095c5",
+      "bytes": 7358
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "d635ff07f24e351dfd4a89cc1d769913b7e4a15d2054a792d4975210322b10ad",
-      "bytes": 83379
+      "sha256": "1207a61c8e4e0ec0e402d2ac16160ec497d01e97098aeeb4322eae93edba4ad9",
+      "bytes": 83353
     },
     {
       "url": "./data/chapter-layout/100s.json",
@@ -9553,8 +9553,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "af797468a74a484d6fd3316b80d4cf0f4baff7887dd80fb159019d50586b39b0",
-      "bytes": 364295
+      "sha256": "f08445ecb98c77a635fe278194527d3aeff65614e588f6688bbeb31d73864bc8",
+      "bytes": 368371
     },
     {
       "url": "./js/changed-questions.js",
@@ -9563,8 +9563,8 @@
     },
     {
       "url": "./js/chapter-content.js",
-      "sha256": "80a903537ed5e779a5a124845b20aeb6ee217a6a2fccb7803272960c847c70c9",
-      "bytes": 15093
+      "sha256": "433e5dcf005b4f647122ed45f47c17e301eca3495015b245ff644c0d5b55988e",
+      "bytes": 16436
     },
     {
       "url": "./js/drug-index.js",
@@ -9573,8 +9573,8 @@
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "a4c91d6b95632d3fd8f10803936706fb07d587b6dfab0fe117818e7d513c3205",
-      "bytes": 24577
+      "sha256": "08df48fc4d8fef0221ec38dde1ccca1ba1ef96e310df17b493f85ed56a3c6930",
+      "bytes": 28635
     },
     {
       "url": "./js/exam-simulation.js",
@@ -9638,18 +9638,18 @@
     },
     {
       "url": "./js/reader-input.js",
-      "sha256": "50da8fac6eb3d0f2b0293c7ba95c1d18d9e3261b218b2fe35ed9589022ff2ee6",
-      "bytes": 16870
+      "sha256": "dcc15ded3c6a5756bce10e152fb2f898a78ec73fc0ae9edb8826f7b720ee53c8",
+      "bytes": 17032
     },
     {
       "url": "./js/reader-sections.js",
-      "sha256": "eb668e0212088497fd46a59ba365b2fc94d92e5e64e54e12f836d3160bf5669a",
-      "bytes": 14702
+      "sha256": "3d7f3407b2b114e1d1aa7ac463b49fa5d4b1b0908dee5b3b86d294d7b96b1084",
+      "bytes": 12975
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "c7a4812a623b8c2228c2a61ce0cb2bf0e5c65a879b3c9b2b4e42ac323d4cea84",
-      "bytes": 8515
+      "sha256": "c3382504533aab3ff1998ade7276309f66c9e13e52b62cadb52745c7e0a1914a",
+      "bytes": 10195
     },
     {
       "url": "./js/reader-storage.js",

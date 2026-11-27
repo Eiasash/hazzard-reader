@@ -44,6 +44,7 @@
     sw?.addEventListener('message',event=>{
       if(event.source!==sw.controller || event.data?.type!=='HAZZARD_OFFLINE_STATUS' || event.data.version!==version)return;
       percent=event.data.progress||0;complete=event.data.complete===true;running=event.data.downloading===true;failed=event.data.interrupted===true;requested=false;render();
+      if(!complete&&!running&&!failed&&navigator.onLine)download();
     });
     sw?.addEventListener('controllerchange',()=>{complete=running=requested=failed=false;percent=0;refresh();});
     sw?.register('sw.js',{updateViaCache:'none'}).then(reg=>{

@@ -204,6 +204,23 @@ function presentChapter(copy,chapter,title){
       const caption=document.createElement('figcaption');figure.append(caption);caption.append(next);
     }
   }
+  // These five original scans include the same printed captions as the chapter.
+  // The dimensions stop in the verified white gutter above the caption. The
+  // viewer always receives the complete original scan, including its legend.
+  if(base==='42'){
+    const crops=[[759,900,561],[1346,873,731],[1346,811,604],[1240,1098,958],[1119,742,657]];
+    for(const [i,[width,height,artHeight]] of crops.entries()){
+      const name='hazzard8e_ch42_figure42-'+(i+1)+'.png',img=copy.querySelector('img[src$="/'+name+'"]');
+      if(!img||Number(img.getAttribute('width'))!==width||Number(img.getAttribute('height'))!==height)continue;
+      const label='FIGURE 42-'+(i+1)+'.',caption=[...copy.querySelectorAll('p')].find(p=>p.textContent.trim().toUpperCase().startsWith(label));
+      if(!caption)continue;
+      const clip=document.createElement('span');clip.className='book-art-crop';clip.style.aspectRatio=width+' / '+artHeight;
+      img.before(clip);clip.append(img);caption.classList.add('printed-figure-caption');
+      const figcaption=img.closest('figure')?.querySelector('figcaption');
+      if(figcaption?.contains(caption)){const details=caption.closest('details');if(details)details.open=true;}
+      else if(figcaption&&figcaption.textContent.trim().toLowerCase()==='figure 42-'+(i+1))figcaption.dataset.imageLabelOnly='';
+    }
+  }
   for(const img of copy.querySelectorAll('img:not(a img,button img)')){
     img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-haspopup','dialog');
     img.addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)){event.preventDefault();img.click();}});

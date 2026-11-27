@@ -63,6 +63,13 @@ body.nav-page-open:has(#panel[data-current-pane=tools]) #settingsBack {width:aut
 #panel[data-current-pane=tools] .settings-group[open]>summary::before {transform:rotate(45deg)}
 #desk .home-coverage summary {cursor:pointer;min-height:var(--row-min);align-content:center;color:var(--ink)}
 #desk .home-coverage summary h2 {display:inline;font:650 var(--type-subhead)/1.2 var(--ui)}
+#copy ol.clinical-point-list>li:has([data-point])::marker {color:var(--accent);font-weight:650}
+:is(#copy,#tableViewer) :is(th,td) .exam-count {display:inline}
+:is(#copy,#tableViewer) :is(th,td) .exam-count>button.exam-count-toggle {
+  display:inline;min-width:0;min-height:24px;block-size:auto;width:auto;margin:0 .2em;padding:1px 2px;
+  border:0;border-radius:0;background:transparent;color:var(--accent);box-shadow:none;
+  font:600 var(--type-label)/1.35 var(--ui);text-decoration:underline;text-underline-offset:.14em;vertical-align:baseline;
+}
 @media(min-width:800px) {
  #desk .home-priorities {grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
  #desk .home-weak {grid-column:1/-1}

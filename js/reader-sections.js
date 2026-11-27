@@ -129,29 +129,6 @@ window.HazzardSections = (() => {
     }
   }
 
-  function sectionEndLinks(copy,chapter,rows){
-    copy.querySelectorAll('[data-reader-metadata="section-next"]').forEach(n=>n.remove());
-    const sections=rows.filter(row=>row.level>1&&row.title&&(!row.heading.closest('.read-references')||row.heading.closest('.read-references>summary')));
-    for(let i=1;i<sections.length;i++){
-      const previous=sections[i-1].heading,next=sections[i].heading;
-      if(previous.contains(next)||next.contains(previous))continue;
-      if(sections[i].level>sections[i-1].level){
-        const between=document.createRange();between.setStartAfter(previous);between.setEndBefore(next);
-        if(!between.toString().trim()&&!between.cloneContents().querySelector('img,svg,table'))continue;
-      }
-      const action=document.createElement('a'),label=document.createElement('span'),name=document.createElement('bdi');
-      action.className='next-reading-section';action.dataset.readerMetadata='section-next';
-      action.href='?chapter='+encodeURIComponent(chapter)+'#'+encodeURIComponent(next.id);
-      label.textContent='Next section';name.textContent=sections[i].title;action.append(label,name);
-      const scope=previous.closest('details,.law-lesson');
-      if(scope&&!scope.contains(next)){scope.append(action);continue;}
-      let common=previous.parentElement;while(common&&!common.contains(next))common=common.parentElement;
-      if(!common)continue;
-      let start=next;while(start.parentElement!==common)start=start.parentElement;
-      if(common.matches('ul,ol')){const item=document.createElement('li');item.dataset.readerMetadata='section-next';item.append(action);start.before(item);}
-      else start.before(action);
-    }
-  }
   let loadCounts=()=>{};
   let release=()=>{};
   function mount({copy, scroll, landOnHeading}) {
@@ -193,7 +170,6 @@ window.HazzardSections = (() => {
     trigger.setAttribute('aria-label', 'Sections, ' + trigger.textContent);
     trigger.setAttribute('aria-haspopup', 'dialog');
     trigger.setAttribute('aria-controls', 'panel');
-    sectionEndLinks(copy,chapter,rows);
     const reader = document.getElementById('reader');
     const disposers=[];
     // A separate strip occupies its own space only after the main chapter header scrolls away.
