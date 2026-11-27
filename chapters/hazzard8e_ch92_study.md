@@ -20,7 +20,7 @@ Study summary of Chapter 92; the book and the full chapter are the reference.
 <a id="p1446"></a>
 - Gastric cancer: gastrectomy is the curative treatment described; most, but not all, studies suggest similar perioperative risk across age groups. (p. 1446)
 <a id="p1448"></a>
-- Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. In the cited study, **five-year survival and complication rates** after transarterial chemoembolization were similar in adults **75 or older** and younger adults (p1448).
+- Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. In the study, **five-year survival and complication rates** after transarterial chemoembolization were similar in adults **75 or older** and younger adults (p1448).
 <a id="p1449"></a>
 - Esophageal surgery evidence is mixed: most, but not all, studies suggest age alone is not limiting; assess fitness and cardiopulmonary risk. For Barrett-associated adenocarcinoma, evidence on whether incidence increases with advanced age is conflicting (p1449).
 
@@ -48,11 +48,11 @@ Figure 92-1 plots new digestive-system cancers against age at diagnosis. For peo
 
 Figure 92-3 changes both the denominator and the outcome. Among people already diagnosed with a digestive-system cancer, five-year relative survival was **43% at ages 65–74** and **34.2% at 75 or older** in the SEER series displayed. Figure 92-4 narrows the site to colon and rectum and shows incidence rising across the plotted population groups, with different curves by race and ethnicity. Figure 92-5 then separates colorectal cancer survival by site-specific stage. Across age bands the difference between a localized and a distant cancer is striking. Unstaged disease is a separate category: the graph does not license assigning an unstaged tumor the prognosis of a proven localized cancer (p1437–1438).
 
-When interpreting the survival gap, separate deaths due to cancer, competing illnesses and differences in care. In the cited SEER–Medicare cohort of older adults with localized colorectal cancer, heart failure accounted for **9.4%** of deaths, COPD **5.3%** and diabetes **3.9%**. Those are shares of deaths in a particular cohort. They are not the probabilities that a newly diagnosed patient with each comorbidity will die from it. Functional limitations and social isolation can affect both the opportunity to receive treatment and what the patient can tolerate once treatment begins (p1435, p1438).
+When interpreting the survival gap, separate deaths due to cancer, competing illnesses and differences in care. In the SEER–Medicare cohort of older adults with localized colorectal cancer, heart failure accounted for **9.4%** of deaths, COPD **5.3%** and diabetes **3.9%**. Those are shares of deaths in a particular cohort. They are not the probabilities that a newly diagnosed patient with each comorbidity will die from it. Functional limitations and social isolation can affect both the opportunity to receive treatment and what the patient can tolerate once treatment begins (p1435, p1438).
 
 ### How representative is the evidence?
 
-A patient at the median age of diagnosis may already be older than most people in a drug-registration trial. The chapter reports that people over **75** accounted for **9%** of trial participants compared with **31%** of people diagnosed with cancer in the United States. For colorectal cancer in particular, adults older than **65** accounted for **70–75%** of diagnoses but only **40–48%** of participants in the cited cooperative-group or NCI-sponsored trials. An efficacy estimate for the whole trial therefore often has much narrower uncertainty than the estimate specifically for frail older participants (p1435–1436).
+A patient at the median age of diagnosis may already be older than most people in a drug-registration trial. The chapter reports that people over **75** accounted for **9%** of trial participants compared with **31%** of people diagnosed with cancer in the United States. For colorectal cancer in particular, adults older than **65** accounted for **70–75%** of diagnoses but only **40–48%** of participants in the cooperative-group or NCI-sponsored trials. An efficacy estimate for the whole trial therefore often has much narrower uncertainty than the estimate specifically for frail older participants (p1435–1436).
 
 Look beyond formal eligibility criteria. A burdensome schedule may require repeated transport and an available caregiver. The oncologist may be reluctant to propose enrollment, the patient may not know a trial exists, or the protocol may exclude comorbid illness or concurrent medication. A prospective trial designed specifically for older adults with previously untreated metastatic colon cancer closed early because too few entered. That early closure cannot tell us whether adding oxaliplatin helped or harmed the intended population. At consultation, ask which patient resembling this one actually received the regimen, what outcome mattered to them, and what support was needed to complete it (p1436).
 
@@ -88,7 +88,7 @@ After pancreatic resection, ESPAC-4 compared gemcitabine plus capecitabine with 
 
 In metastatic pancreatic cancer the choice may be between a more intensive combination, a less intensive drug or symptom-focused care. For a patient considered for FOLFIRINOX, consider febrile neutropenia, diarrhea and sensory neuropathy. Nab-paclitaxel added to gemcitabine improved response and median survival compared with gemcitabine alone in its trial, while adding peripheral neuropathy and cytopenias. A BRCA-associated tumor controlled on platinum opens the separate maintenance question described above. Meanwhile obstruction, malabsorption, pain and depression each have treatments that need not await a change in systemic therapy (p1445–1446).
 
-For localized gastric adenocarcinoma, the operative question is whether disease can be removed completely and at an acceptable risk. In the CRITICS age analysis, preoperative chemotherapy produced severe toxicity in **77%** of older participants compared with **62%** of younger participants, and older patients less often completed planned therapy. Nevertheless two-year overall survival in the cited comparison was **59% versus 61%**. This was an unplanned age subgroup. Similar survival does not mean equal treatment tolerability, and a lower completion rate does not prove the treatment offered no benefit (p1446–1447).
+For localized gastric adenocarcinoma, the operative question is whether disease can be removed completely and at an acceptable risk. In the CRITICS age analysis, preoperative chemotherapy produced severe toxicity in **77%** of older participants compared with **62%** of younger participants, and older patients less often completed planned therapy. Nevertheless two-year overall survival in the comparison was **59% versus 61%**. This was an unplanned age subgroup. Similar survival does not mean equal treatment tolerability, and a lower completion rate does not prove the treatment offered no benefit (p1446–1447).
 
 In advanced gastric cancer, consider renal function when using a platinum drug. A fit patient who can tolerate combination therapy differs from one who cannot sustain adequate intake or manage adverse effects at home. Tumor testing can identify a different therapeutic target: in HER2-positive gastric cancer, ToGA compared chemotherapy with or without trastuzumab, with median overall survival of **13.8 versus 11.1 months**. Ramucirumab, alone or with paclitaxel, was studied in advanced disease in another setting. The chapter points out where detailed outcomes specifically for older participants were unavailable (p1447–1448).
 
@@ -98,7 +98,7 @@ For hepatocellular carcinoma, choice of therapy depends on the liver as well as 
 
 For esophageal cancer, progressive difficulty swallowing can itself drive weight loss and diminish reserve. The chapter describes similar distributions of site, stage and histology at presentation across older and younger groups. In surgical series, some selected older cohorts had acceptable results and others experienced more complications. Look especially at respiratory and cardiovascular reserve. The CROSS study supported preoperative chemoradiation in its study population; older adults outside its age range were assessed separately in observational data. A better outcome after combined treatment in a registry may partly reflect selection of fitter patients for surgery (p1449–1450).
 
-Older adults are also affected by disparities in referral. The cited US esophageal cancer comparison found fewer surgical consultations and less curative surgery among older Black patients than among older White patients. Thus “no surgical treatment” in a database can mean a decision after specialist evaluation, but it can also mean that the option was never evaluated. When substantial comorbidities limit treatment for metastatic esophageal cancer, single-agent fluoropyrimidine, taxane or irinotecan may provide palliation. The evidence for more intensive combinations specifically in older adults was limited (p1449–1450).
+Older adults are also affected by disparities in referral. The US esophageal cancer comparison found fewer surgical consultations and less curative surgery among older Black patients than among older White patients. Thus “no surgical treatment” in a database can mean a decision after specialist evaluation, but it can also mean that the option was never evaluated. When substantial comorbidities limit treatment for metastatic esophageal cancer, single-agent fluoropyrimidine, taxane or irinotecan may provide palliation. The evidence for more intensive combinations specifically in older adults was limited (p1449–1450).
 
 For gallbladder cancer and cholangiocarcinoma, increasing age brings higher incidence but the presentation is similar across ages. ERCP may contribute to diagnosis even at very advanced age. Resection is the potentially curative option described for localized disease. After resection the book lists adjuvant capecitabine for **6 months** among the options. In advanced disease, a gemcitabine-containing regimen may provide palliation; hematologic toxicity was greater in older patients in a small combination-therapy study. A favorable surgical series is not evidence to subject a frail patient with unresectable cancer to radical surgery (p1450–1451).
 
@@ -145,7 +145,7 @@ Use the molecular result alongside the clinical decision it is intended to infor
 
 <details><summary>Answer</summary>Stopping may be reasonable when life expectancy is shorter than the <strong>5-10 years</strong> for a polyp to progress to cancer. (p1440)</details>
 
-**6. What minimum lymph-node count defines adequate evaluation in the cited CRC surgical analysis?**
+**6. What minimum lymph-node count defines adequate evaluation in the CRC surgical analysis?**
 
 <details><summary>Answer</summary>At least <strong>12 lymph nodes</strong>; inadequate evaluation correlated with inferior survival. (p1440)</details>
 
@@ -163,7 +163,7 @@ Use the molecular result alongside the clinical decision it is intended to infor
 
 **10. What is the potentially curative treatment for localized pancreatic cancer?**
 
-<details><summary>Answer</summary>Surgical resection; the chapter supports its safety in carefully selected older adults. (p1445)</details>
+<details><summary>Answer</summary>Surgical resection; it can be safe in carefully selected older adults. (p1445)</details>
 
 **11. Which rare serious toxicity is described for gemcitabine?**
 

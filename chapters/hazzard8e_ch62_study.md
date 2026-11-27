@@ -6,7 +6,7 @@ Study summary of Chapter 62 - Cerebrovascular Disease; the book and the full cha
 
 ## What the exams asked
 
-- Localize leg-predominant weakness, loss of initiative and urinary incontinence to the ACA — [June 2023 Q76](?chapter=62#exam-p958-mcq-87d97d9a7a60602c31a10797) and [June 2022 Q44](?chapter=62#asked-chapter). The 2023 bibliography specifies Hazzard p958 and handbook p17. The handbook's ACA discussion is on p6.
+- Localize leg-predominant weakness, loss of initiative and urinary incontinence to the ACA — [June 2023 Q76](?chapter=62#exam-p958-mcq-87d97d9a7a60602c31a10797) and [June 2022 Q44](?chapter=62#asked-chapter). The ACA syndrome is described on Hazzard p958; handbook p17 deals with the brainstem. The handbook's ACA discussion is on p6.
 - Distinguish right MCA neglect from a dominant left MCA language deficit — [December 2021 Q86](?chapter=62#asked-chapter), [June 2022 Q83](?chapter=62#asked-chapter), and [June 2025 Q72](?chapter=62#ch62-mca-attention). The 2025 question cites the stroke rehabilitation handbook.
 - Classify speech from fluency, comprehension and repetition — [June 2023 Q5](?chapter=62#ch62-aphasia) and [September 2024 Q48](?chapter=62#ch62-aphasia), both from the handbook. Distinguish apraxia from a spatial or sensory deficit in [May 2024 Q69](?chapter=62#ch62-praxis), an atlas question with no printed book page.
 - Pair ipsilateral abducens palsy with contralateral hemiparesis to identify the pons — [June 2023 Q48](?chapter=62#ch62-crossed), handbook p17.
@@ -15,7 +15,7 @@ Study summary of Chapter 62 - Cerebrovascular Disease; the book and the full cha
 - Recognize cerebral amyloid angiopathy in recurrent lobar hemorrhage — [December 2021 Q30](?chapter=62#asked-chapter). Distinguish acute poststroke seizures from later epilepsy — [May 2024 Q18](?chapter=62#ch62-seizure), from Harrison.
 - Recognize delayed communicating hydrocephalus after subarachnoid hemorrhage — [June 2023 Q17](?chapter=62#exam-p978-mcq-452a5972839367e2dbab3541).
 
-June 2025 Q11 asks about levodopa. Its bibliography names Chapter 61 and prints both pp943 and 964. The [Parkinson treatment passage](?chapter=61#exam-mcq-7a90308e12b3ad9cc1b6f81a) explains the motor complications. The second number falls in this chapter on other causes of stroke.
+June 2025 Q11 asks about levodopa. The Parkinson treatment pages begin on p943; p964 concerns other causes of stroke. The [Parkinson treatment passage](?chapter=61#exam-mcq-7a90308e12b3ad9cc1b6f81a) explains the motor complications. The second number falls in this chapter on other causes of stroke.
 
 ## Localizing weakness, neglect and language impairment
 
@@ -97,7 +97,7 @@ Plan recovery around the tasks that matter to the patient, with physical, occupa
 **Acute ischemic treatment**
 - Hazzard’s IV alteplase regimen is **0.9 mg/kg**, with **10% as an immediate bolus** and the remainder infused **over one hour** (p966).
   > Current practice (not the book): the US Activase label specifies **90 mg maximum** and gives the 10% bolus **over one minute** — [Activase prescribing information](https://www.gene.com/download/pdf/activase_prescribing.pdf).
-- Earlier treatment is better. The chapter supports the selected **3–4.5-hour** window and imaging-based selection for some wake-up/extended-window presentations (p967).
+- Earlier treatment is better. Selected patients benefit within **3–4.5 hours**; imaging can identify candidates with wake-up stroke or an extended treatment window (p967).
 - Thrombectomy benefits selected disabling large-vessel occlusions; imaging-selected DAWN patients were **6–24 hours** from last-known-well. Favorable tissue imaging is not a reason to delay treatment (p968–969).
 - After IV thrombolysis, maintain BP below **180/105 mm Hg** for at least **24 hours** and obtain follow-up CT/MRI; antithrombotics are generally withheld until hemorrhage is excluded (p969).
 
@@ -110,7 +110,7 @@ Plan recovery around the tasks that matter to the patient, with physical, occupa
 **Hemorrhage & exam traps**
 - Deep hemorrhage commonly reflects hypertension; lobar microbleeds suggest cerebral amyloid angiopathy. Imaging, not symptoms alone, distinguishes hemorrhage from infarction (p975–976).
 - Suspected subarachnoid hemorrhage starts with CT; persistent suspicion after negative CT requires lumbar puncture (p978).
-- Oral nimodipine **60 mg every 4 hours** after SAH reduces delayed ischemia and mortality in the cited trials (p978).
+- Oral nimodipine **60 mg every 4 hours** after SAH reduces delayed ischemia and mortality in clinical trials (p978).
 - Age alone does not negate reperfusion benefit; disabling deficits and eligibility matter. Incorporate rehabilitation, symptom control and palliative goals throughout care (p968–969, p978).
 
 ## Exam questions

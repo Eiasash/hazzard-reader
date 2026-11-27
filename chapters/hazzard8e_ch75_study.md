@@ -155,7 +155,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - **Mitral repair durability:** p1159 describes good durability but prints 7–10% as “freedom from reoperation,” an inconsistent endpoint label.
   > Current practice (not the book): in a surgical cohort of 1,604 patients, actual freedom from reoperation after repair was **93.6% at 10 years**. Durability depends on anatomy, repair technique and population — [Glauber et al., 2015](https://doi.org/10.1186/s13019-015-0390-y).
 - Operative mortality: **2%** for repair vs **6%** for replacement overall; a 292-patient >70y cohort found **0.7%** in-hospital mortality for repair vs **14%** for replacement (p1160).
-- Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; both as printed.
+- Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; the two estimates differ.
 
 **Perioperative risk, anticoagulation, prosthetic valves**
 - Table 75-12 risk criteria (combine per column, not PROM alone; organ counts = major organ dysfunction that will not improve postoperatively): low = STS-PROM **< 4%** *and* no frailty *and* no organ dysfunction *and* no procedure impediment; intermediate = **4–8%** *or* 1 frailty index *or* 1 organ system *or* possible impediment; high = **> 8%**, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk **> 50%** *or* ≥3 organ systems *or* severe impediment (p1160).
@@ -173,7 +173,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 
 **Exam traps**
 - Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value (p1158).
-- Mitral repair-vs-replacement operative mortality is given twice with different numbers: **2% vs 6%** overall / **0.7% vs 14%** in a >70y cohort (p1160), and later **1–2% vs 5.4–6.4%** (p1163) — both as printed.
+- Mitral repair-vs-replacement operative mortality is given twice with different numbers: **2% vs 6%** overall / **0.7% vs 14%** in a >70y cohort (p1160), and later **1–2% vs 5.4–6.4%** (p1163).
 - MS "usually develop symptoms" once MVA falls to **2.5 to 1.5 cm²** (p1156), which overlaps Table 75-7's own **mild** cutoff (>1.5 cm²) — read literally, symptom onset and "mild" grade can coincide.
 - With asymptomatic severe AR and preserved LV function, Table 75-6 lists **LVESD >50 mm** for consideration of surgery. For low-risk surgery the table describes progressive LV dilatation **>65 mm** without specifying the dimension, while the narrative specifically calls it **LVESD** (p1155). See the [current-practice comparison](#current-practice-1).
 

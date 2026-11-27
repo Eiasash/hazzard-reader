@@ -24,7 +24,7 @@ Study summary of Chapter 64; the book and the full chapter are the reference.
 
 ### What the dementia cohorts actually measured
 
-May 2024 Q63 accepted both Alzheimer disease and normal pressure hydrocephalus. The cited page describes a broader association with subsequent dementia after injuries of varying severity. In a pooled cohort of **7130 participants**, a history of TBI with loss of consciousness did not correlate with a clinical Alzheimer diagnosis or Alzheimer neuropathological change at autopsy. An independent series of **more than 4000** autopsies also found no association with Alzheimer pathology. The cited page does not present normal pressure hydrocephalus as a result of those studies (p997).
+May 2024 Q63 accepted both Alzheimer disease and normal pressure hydrocephalus. That discussion describes a broader association with subsequent dementia after injuries of varying severity. In a pooled cohort of **7130 participants**, a history of TBI with loss of consciousness did not correlate with a clinical Alzheimer diagnosis or Alzheimer neuropathological change at autopsy. An independent series of **more than 4000** autopsies also found no association with Alzheimer pathology. That discussion does not present normal pressure hydrocephalus as a result of those studies (p997).
 
 The exposure and the outcome determine what a comparison means. A single severe injury can leave lasting axonal and white-matter damage. Repeated impacts, including ones without a recognized concussion, have a separate association with CTE. An epidemiologic diagnosis of dementia and a specific microscopic lesion are different outcomes (p997–999).
 
@@ -101,7 +101,7 @@ When someone already has dementia, an additional microscopic diagnosis need not 
 
 - A cohort association with all-cause dementia does not identify Alzheimer neuropathology in an individual (p997–998).
 - Keep the nonbrain-trauma comparator when quoting the reported increase in Parkinson diagnosis after TBI (p999).
-- The number of recognized concussions can underestimate repetitive impact exposure and was not the measure associated with stage in the cited donation study (p999–1000).
+- The number of recognized concussions can underestimate repetitive impact exposure and was not the measure associated with stage in the donation study (p999–1000).
 - A single diagnostic lesion can establish CTE at autopsy. The low/high feature count describes its extent (p1001, p1004).
 - Perivascular astrocytic tau alone and superficial cortical tangles alone each lack a required feature of the defining neuronal lesion (p997, p1004).
 - In the exam's DICE example, constipation belongs to investigation of a contributor; the mnemonic comes from Chapter 60 (p924).
@@ -115,7 +115,7 @@ When someone already has dementia, an additional microscopic diagnosis need not 
 ## Past exam questions
 
 - [2024-May Q63](?chapter=bank&q=mcq-f6a71ecfcb071e0bd0b70bca) — Printed page 997.
-- [2024-May Q66](?chapter=bank&q=mcq-18490c5933b53a866c445587) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2024-May Q66](?chapter=bank&q=mcq-18490c5933b53a866c445587) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 
@@ -133,7 +133,7 @@ When someone already has dementia, an additional microscopic diagnosis need not 
 
 **4. How should the May exam's accepted Alzheimer answer be interpreted?**
 
-<details><summary>Answer</summary>It received credit alongside normal pressure hydrocephalus. The cited book page reports a broader dementia association and negative Alzheimer-specific studies (p997).</details>
+<details><summary>Answer</summary>It received credit alongside normal pressure hydrocephalus. One study reported a broader dementia association and negative Alzheimer-specific studies (p997).</details>
 
 **5. Which injury history is associated with CTE?**
 
@@ -165,7 +165,7 @@ When someone already has dementia, an additional microscopic diagnosis need not 
 
 **12. Why might retrospective estimates of postinjury Parkinson risk be misleading?**
 
-<details><summary>Answer</summary>Recall bias and reverse causation can affect the association; more severe or frequent injuries were associated with greater risk in the cited study (p999).</details>
+<details><summary>Answer</summary>Recall bias and reverse causation can affect the association; more severe or frequent injuries were associated with greater risk in the study (p999).</details>
 
 **13. Can cognitive or behavioral symptoms diagnose CTE in a living former athlete?**
 

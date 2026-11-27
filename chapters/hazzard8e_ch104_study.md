@@ -20,7 +20,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-9314de1137fde9d2d0386670" data-exam-read-page="1675" data-reader-metadata="exam"></span>
 
-**Recovery followed by recurrent diarrhea.** Older age raises the risk of recurrent CDI. Repeated trips to the toilet can threaten independence even without shock, particularly in someone with impaired balance or dementia. Hazzard reports asymptomatic carriage in about 2% of community residents, 10% after outpatient health care exposure, and 20–50% in hospital or long-term care. Only about 15% of carriers in the cited data developed symptoms following antibiotic exposure. Interpret a positive result in the clinical setting (p. 1675).
+**Recovery followed by recurrent diarrhea.** Older age raises the risk of recurrent CDI. Repeated trips to the toilet can threaten independence even without shock, particularly in someone with impaired balance or dementia. Hazzard reports asymptomatic carriage in about 2% of community residents, 10% after outpatient health care exposure, and 20–50% in hospital or long-term care. Only about 15% of carriers in that cohort developed symptoms following antibiotic exposure. Interpret a positive result in the clinical setting (p. 1675).
 
 <span data-exam-ids="mcq-1eb064d03b4a7940c7ca9ab5" data-exam-read-page="1675" data-reader-metadata="exam"></span>
 

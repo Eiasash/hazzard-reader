@@ -10,7 +10,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - Which rate-control drugs impair conduction or contractility, and which rhythm-control drugs are suitable in reduced-EF heart failure? [September 2024 Q2](?chapter=77#exam-p1201-mcq-f2071d46927ab12d9f43632b) · [September 2024 Q7](?chapter=77#exam-p1201-mcq-cdc9bd78706bb7538460a9ec) · [June 2026 Basic Q144](?chapter=77#exam-p1201-mcq-2f108a771e027a49d0986f2e).
 - What does a prolonged pause on a continuous rhythm strip mean in an older woman with presyncope? [June 2023 Basic Q117](?chapter=77#exam-p1197-mcq-80487577b314a49f9eb9ccb2).
 - When does an infarct survivor qualify for a primary-prevention ICD, and how does a history of VF change the question? [June 2023 Q64](?chapter=77#exam-p1206-mcq-eea29e0984ea5088b834d159).
-- Why favor apixaban when considering long-term rivaroxaban in an older adult with AF? [June 2026 Q30, related chapter teaching](?chapter=77#ch77-beers-anticoagulant). The exam bibliography cites the 2023 Beers Criteria.
+- Why favor apixaban when considering long-term rivaroxaban in an older adult with AF? [June 2026 Q30, related chapter teaching](?chapter=77#ch77-beers-anticoagulant). The 2023 Beers Criteria address anticoagulant selection in older adults.
 
 ## AF and stroke prevention
 
@@ -136,7 +136,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 The discussion on pp. 1200 and 1207 reflects the US context. For Israeli patients, see the Israeli guidance above on future ICD shocks and ongoing pacing.
 
 **Exam traps**
-- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips **twice**: score **6** → **9.8** %/year, score **7** → **9.6** %/year (a small dip), then score **8** → **6.7** %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.
+- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic, and dips **twice**: score **6** → **9.8** %/year, score **7** → **9.6** %/year (a small dip), then score **8** → **6.7** %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.
 - Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199, image, Table 77-5) for the classic HF/dyssynchrony indication vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway (running text) — easy to conflate on a question stem.
 - Not all DOACs reduce bleeding vs warfarin: apixaban and edoxaban show less major bleeding at their studied doses; dabigatran only at **110 mg** (150 mg shows similar bleeding to warfarin, not less); rivaroxaban (20 mg, the dose studied) shows only a similar major-bleeding rate to warfarin (Table 77-9, pp1204–1205).
 

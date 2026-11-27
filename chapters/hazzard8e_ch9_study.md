@@ -130,9 +130,9 @@ Book images cited by past exams. Tap an image to zoom.
 - [2026-Jun Q41](?chapter=bank&q=mcq-6885558109e8e77f5cee7a87) — Printed page 138.
 - [2025-Jun Q16](?chapter=bank&q=mcq-c9d51b9f2f9b51f0a157938b) — Printed page 147.
 - [2025-Jun Q34](?chapter=bank&q=mcq-b636980ea067e5dc8b2d57c5) — Printed page 141.
-- [2025-Jun Q62](?chapter=bank&q=mcq-57c893ac288cd17663b1e3c3) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2025-Jun Q62](?chapter=bank&q=mcq-57c893ac288cd17663b1e3c3) — Related bank item. It tests a related topic without a chapter-specific page.
 - [2024-May Q4](?chapter=bank&q=mcq-2424f3d42a504ae0a13087cd) — Printed page 143.
-- [2024-Sep Q37](?chapter=bank&q=mcq-ff32d387904a513e1d0cd5a1) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2024-Sep Q37](?chapter=bank&q=mcq-ff32d387904a513e1d0cd5a1) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 

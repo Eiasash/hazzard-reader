@@ -97,7 +97,7 @@ Study summary of Chapter 89 - Breast Disease; the book and the full chapter are 
 **Systemic treatment & supportive care**
 - Endocrine-refractory or triple-negative disease generally leads to chemotherapy; life-threatening or rapidly progressive visceral disease may also require it initially (p1403).
 - Do not withhold chemotherapy solely because of age; consider tumor extent, symptoms, expected benefit and toxicity (p1403).
-- Prevention with estrogen-directed drugs can reduce breast-cancer occurrence, but the cited prevention trials did not show a survival advantage (p1405).
+- Prevention with estrogen-directed drugs can reduce breast-cancer occurrence, but the prevention trials did not show a survival advantage (p1405).
 - The authors reserve preventive drug consideration for a few high-risk older patients with at least **10 years** estimated life expectancy (p1405).
 
 **Exam traps**

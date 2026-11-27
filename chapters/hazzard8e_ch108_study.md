@@ -52,7 +52,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - SARS-CoV-2 binds the **ACE2** receptor and, unlike SARS-CoV/MERS (lower respiratory tract), replicates heavily in the **upper** respiratory tract — a key driver of transmissibility (p1738).
 - The book attributes **up to 79% of documented cases** to spread from asymptomatic or presymptomatic persons in one early study (p1738).
 
-  > Current practice (not the book): The cited model classified source infections as **undocumented**, which could include mild symptomatic infections. [Li et al., 2020](https://doi.org/10.1126/science.abb3221).
+  > Current practice (not the book): The model classified source infections as **undocumented**, which could include mild symptomatic infections. [Li et al., 2020](https://doi.org/10.1126/science.abb3221).
 - Incubation ~**5 days** (symptoms in most by **12 days**); **older adults ~7 days** (longer) (p1738).
 - **40%** of patients (mean age 81 in one study) presented **atypically** — falls, weakness, delirium — rather than classic fever/cough/dyspnea (p1738).
 - Up to **80%** of SARS-CoV-2 deaths have occurred in adults **65+** (p1738).

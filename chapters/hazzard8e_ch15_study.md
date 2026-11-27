@@ -26,7 +26,7 @@ Separate baseline vulnerability from the immediate insult. Dementia, sensory imp
 
 <span data-exam-ids="mcq-8c8695c6e0e9292f086c2501" data-exam-read-page="211" data-reader-metadata="exam"></span>
 
-In the hip-fracture case, age and place are already wrong, giving **2** AMT4 points. The patient starts months backward but then moves forward, giving **1** attention point. To interpret sleepiness, determine whether it clears in **less than 10 seconds after waking**, as printed in the 4AT (Figure 15-2, p211). To score acute change, ask about the past two weeks and whether the change was still apparent in the last 24 hours. A subtotal of three cannot settle the case. A positive UB-2 begins a second-stage CAM interview. Clinical CAM requires **acute onset and fluctuating course** (Ch 58 p880) and inattention plus disorganized thinking or altered consciousness. [4AT scoring, p. 211](?chapter=15#exam-p211-mcq-8c8695c6e0e9292f086c2501) · [Table 58-3, p. 884](?chapter=58#exam-mcq-8c8695c6e0e9292f086c2501).
+In the hip-fracture case, age and place are already wrong, giving **2** AMT4 points. The patient starts months backward but then moves forward, giving **1** attention point. To interpret sleepiness, determine whether it clears in **less than 10 seconds after waking**, according to the 4AT (Figure 15-2, p211). To score acute change, ask about the past two weeks and whether the change was still apparent in the last 24 hours. A subtotal of three cannot settle the case. A positive UB-2 begins a second-stage CAM interview. Clinical CAM requires **acute onset and fluctuating course** (Ch 58 p880) and inattention plus disorganized thinking or altered consciousness. [4AT scoring, p. 211](?chapter=15#exam-p211-mcq-8c8695c6e0e9292f086c2501) · [Table 58-3, p. 884](?chapter=58#exam-mcq-8c8695c6e0e9292f086c2501).
 
 ## What AMT4 measures in each instrument
 
@@ -70,7 +70,7 @@ A person may fear retaliation or depend on the individual who accompanied them. 
 
 **Function after discharge.** Establish earlier ability to transfer, dress, take medicines and obtain food. Then ask what changed with the acute episode and who can help tonight. Someone already receiving paid help may still lose additional function. Someone living alone may have reliable nearby support. The chapter compares ED vulnerability tools against several distinct outcomes, including return visits, institutionalization and functional loss. Most do not separate high- and low-risk groups well enough to settle disposition. The Clinical Frailty Scale shows more promise for 30-day mortality than for predicting preventable loss of function. [Current-edition discussion, pp. 214, 217](?chapter=15#ch15-vulnerability).
 
-**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. A universal medication reduction strategy did not reduce falls at a year in the cited ED trial, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
+**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. A universal medication reduction strategy did not reduce falls at a year in the ED trial, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
 
 **Who can act on the findings?** Match a geriatric protocol to a person who can deliver it. EQUiPPED uses prescriber education, individual feedback and electronic decision support to improve medication safety. Observation permits reassessment of treatment response and time to obtain therapy, consultation or discharge support. These approaches can be delivered without building a separate geriatric ED. [EQUiPPED, p. 218](?chapter=15#ch15-equipped) · [Observation, p. 218](?chapter=15#ch15-observation).
 
@@ -107,7 +107,7 @@ A person may fear retaliation or depend on the individual who accompanied them. 
 
 </details>
 
-<details data-claim="ch15-figure15-2a"><summary>Book figure: bCAM panel as printed (p210)</summary>
+<details data-claim="ch15-figure15-2a"><summary>Book figure: bCAM panel (p210)</summary>
 
 ![Figure 15-2. Delirium screening instruments, first panel, p210.](hazzard8e_ch15_figure15_2a_p210.png)
 
@@ -136,7 +136,7 @@ All scoring and time windows above: Figure 15-2, p211. A single introductory pro
 
 - **≥4:** possible delirium with or without cognitive impairment; **1–3:** possible cognitive impairment; **0:** either unlikely, but delirium remains possible if acute-change information is incomplete. Administration takes **1–2 minutes**. These are screening interpretations, not proof of etiology (Figure 15-2, p211).
 - The figure's abbreviated **RASS** panel prints: **+3** very agitated, removing tubes/catheters or aggressive; **+2** frequent nonpurposeful movement/fighting ventilator; **+1** restless/anxious without vigorous aggression; **0** alert/calm; **−1** drowsy with voice contact >**10 seconds**; **−2** briefly awake with voice eye contact <**10 seconds**; **−3** movement/eye opening to voice without eye contact; **−4** movement/eye opening only to physical stimulation; **−5** no response to either. It gives **30–60 seconds** for administration (p211).
-- **As printed:** the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel shows only part of the RASS scale.
+- **RASS screening:** the panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel shows only part of the RASS scale.
 - Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (pp211–212).
 
 <details data-claim="ch15-figure15-2b"><summary>Book figure: 4AT scoring and abbreviated RASS panel (p211)</summary>
@@ -210,7 +210,7 @@ The official references cite pages; the figures here supply the tested instrumen
 
 <a id="p219"></a>**[p. 219]**
 
-- Transitional-care nursing can reduce admission/readmission while increasing early returns; specialized nurses and volunteer models require training, leadership and quality control. Telemedicine and technology-assisted screening are emerging approaches whose proposed uses still require evaluation. Sustainable care depends on local, collaborative and patient-centered improvement (p219). Further-reading bibliography continues on p220; it is not additional clinical teaching.
+- Transitional-care nursing can reduce admission/readmission while increasing early returns; specialized nurses and volunteer models require training, leadership and quality control. Telemedicine and technology-assisted screening are emerging approaches whose proposed uses still require evaluation. Sustainable care depends on local, collaborative and patient-centered improvement (p219). Further reading on these models continues on p220.
 
 ## Recall
 

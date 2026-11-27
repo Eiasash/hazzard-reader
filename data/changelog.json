@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v327",
+      "date": "2026-11-27",
+      "changes": [
+        "Study text and chapter notes use plain language for exam references, printed discrepancies and dated guidance. Existing highlight anchors are preserved."
+      ]
+    },
+    {
       "version": "v326",
       "date": "2026-11-27",
       "changes": [

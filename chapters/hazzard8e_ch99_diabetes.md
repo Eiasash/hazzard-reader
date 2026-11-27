@@ -6,11 +6,11 @@ Pearl G. Lee, Jeffrey B. Halter
 
 > **Source and method.** Printed pages 1559–1588 of the 8th edition, from the publisher's own text layer (1,824-page copy; PDF page = printed + 34; page 1564 is printed sideways and was read rotated). Prose, both boxes, all 16 tables and the eight figure captions. The figures are supplied as page images, not transcribed. Checked against an independently typeset copy of the same chapter (see the check report). Page markers are **printed** page numbers, the ones the examiners cite. The two boxes are moved up to follow the opening paragraph; nothing else is reordered. A paragraph that runs over a page turn carries the turn inline where it happens.
 
-> **2026 exam.** Five questions of the 2026 specialist sitting were sourced to this chapter: Q6, Q25, Q37, Q49, Q59 (IMA reference list 885647). Their pages are flagged inline with ⟨2026⟩; the questions are at the end.
+> **2026 exam.** Five questions of the 2026 specialist sitting tested this chapter: Q6, Q25, Q37, Q49, Q59 (IMA reference list 885647). The questions follow the clinical text.
 
-> **Currency — declared gap (chapter).** The chapter cites the ADA 2021 Standards of Care and the 2019 Endocrine Society guideline. Later editions are not held here, so no statement below is marked superseded. Where a table is a catalogue as of press (99-6, 99-11, 99-12) the gap is declared at that table; sentences that rank agents ("first-line") carry their own marker. The book is the examiners' reference for questions sourced to it.
+> **Guideline date.** The chapter cites the ADA 2021 Standards of Care and the 2019 Endocrine Society guideline. The recommendations refer to those editions. Tables 99-6, 99-11 and 99-12 describe treatment targets, drug choices and insulins available at publication. Use these historical targets for questions that specify this edition.
 
-> **As printed, not corrected.** Book errors are flagged under the table they occur in (99-11, 99-12). The superscript asterisk after "Endocrine Society" in the source lines is the book's.
+> **Terminology.** Tables 99-11 and 99-12 contain discrepancies in drug names and dose formatting. The superscript asterisk after "Endocrine Society" in the source lines is the book's.
 
 <a id="p1559"></a>**[p. 1559]**
 
@@ -385,7 +385,7 @@ Some of the risk factors for CVD among diabetic patients include hyperglycemia, 
 
 **Hyperglycemia** Initial interventions targeting hyperglycemia had limited or no benefit on CVD risk reduction for older adults with diabetes. In fact, the ACCORD trial was terminated early due to a higher rate of mortality in the intensively treated glycemic group. However, the results of cardiovascular outcome trials (CVOTs) required by the US FDA since 2008 (and later adopted by the European Medicines Agency) for new glucose lowering drugs have been much more encouraging. The required CVOTs must include higher risk patients including older adults and those with a history of CVD or other diabetes complications. As a result, the average age of study pwarticipants has been over 60. The CVOTs have established the CVD safety of three major newer classes of glucose-lowering drugs: dipeptidyl peptidase-4 (DPP-4) inhibitors, glucagon-like peptide-1 (GLP-1) agonists, and <a id="p1571"></a>**[p. 1571]** ⟨2026: Q25, Q37 (Table 99-6)⟩ sodium glucose transporter (SGLT)-2 inhibitors. Furthermore, benefits for important CVD outcomes such as CVD deaths and new events, including subanalyses of the oldest age cohorts, were found in trials of three SGLT-2 inhibitors (empagliflozin, canagliflozin, and dapagliflozin) and three GLP-1 agonists (liraglutide, semaglutide, and dulaglutide) currently in use in the United States. As all of these drugs result in modest weight loss (especially the GLP-1 agonists) and lower BP, the positive CVD outcomes observed cannot be ascribed solely to their glucose-lowering effects.
 
-> **As printed.** "pwarticipants" (sic): the book spells it "participants" on p1566. Left as printed.
+> **Printed wording.** "pwarticipants" (sic): the book spells it "participants" on p1566. Use the standard spelling when identifying the term.
 
 <span id="diabetes-targets" data-reader-metadata="exam"></span>
 
@@ -408,7 +408,7 @@ Some of the risk factors for CVD among diabetic patients include hyperglycemia, 
 
 <sub>Note: While glucose targets are highlighted for each group in this framework, overall health categories can also be considered for other treatment goals, such as blood pressure and dyslipidemia. See Appendix A on “How to use the conceptual framework.” ᵃCoexisting chronic illnesses may include osteoarthritis, hypertension, chronic kidney disease stages 1–3, or stroke, among others. ᵇOne or more chronic illnesses with limited treatments and reduced life expectancy. These include metastatic cancer, oxygen-dependent lung disease, end-stage kidney disease requiring dialysis, and advanced heart failure. ᶜAs long as achievable without clinically significant hypoglycemia; otherwise, higher glucose targets may be appropriate. Note also that the lower HbA1C boundary was included, as data suggesting increased hypoglycemia and mortality risk at lower HbA1C levels are strongest in the setting of insulin use. However, the lower boundary should not reduce vigilance for detailed hypoglycemia assessment. ᵈHbA1C of 8.5% correlates with an average glucose level of approximately 200 mg/dL. Higher targets than this may result in glycosuria, dehydration, hyperglycemic crisis, and poor wound healing. ᵉADLs include bathing, dressing, eating, toileting, and transferring, and IADLs include preparing meals, shopping, managing money, using the telephone, and managing medications. Includes data from Cigolle CT, Kabeto MU, Lee PG, Blaum CS. Clinical complexity and mortality in middle-aged and older adults with diabetes. J Gerontol A Biol Sci Med Sci 2012; 67(12); 1313-1320 (39); and from Kirkman MS, Jones Briscoe V, Clark N, et al. Diabetes in older adults. Diabetes Care 2012; 35(12); 2650–2664 (40). Abbreviations: IADL, instrumental activity of daily living; ADL, activity of daily living; SU, sulfonylurea. Reproduced with permission from LeRoith D, Biessels GJ, Braithwaite SS, et al. Treatment of diabetes in older adults: an Endocrine Society<sup>*</sup> clinical practice guideline. J Clin Endocrinol Metab. 2019;104(5):1520–1574.</sub>
 
-> **Currency — declared gap (table frame).** Targets as given by the 2019 Endocrine Society guideline the table reproduces. Later editions of that guideline or of the ADA Standards are not held here. 2026 Q25 and Q37 were keyed to this table as printed.
+> **Guideline date.** Targets as given by the 2019 Endocrine Society guideline the table reproduces. These targets refer to the 2019 guideline. The official answers to 2026 Q25 and Q37 use this table.
 
 <span id="diabetes-statin" data-reader-metadata="exam"></span>
 
@@ -552,7 +552,7 @@ Consistency of dietary intake in terms of meal composition, carbohydrate intake,
 
 **Glucose-lowering drugs** A growing range of therapeutic options enables the treatment program to be tailored to the specific situation of the individual patient, as determined in part by the initial comprehensive assessment carried out. A summary of currently available glucose-lowering drugs is provided in Tables 99-11 and 99-12. Note that among the 12 classes of drugs available, only insulin and sulfonylureas pose a significant risk for hypoglycemia. In older adults with type 2 diabetes at increased risk of hypoglycemia, medication classes with low risk of hypoglycemia are preferred. However, high cost may be a barrier for patients to obtain newer classes of medications such as SGLT-2 inhibitors, DPP4 inhibitors, GLP-1 agonists, or long-acting insulin.
 
-> **As printed — the book against itself.** This paragraph says "only insulin and sulfonylureas pose a significant risk for hypoglycemia". Table 99-6 (p. 1571) names the drugs that may cause hypoglycemia as "insulin, sulfonylurea, glinides", and Table 99-11 (p. 1578) lists "Hypoglycemia" first among the meglitinides' disadvantages. Shown as printed; not reconciled.
+> **Table and text.** This paragraph says "only insulin and sulfonylureas pose a significant risk for hypoglycemia". Table 99-6 (p. 1571) names the drugs that may cause hypoglycemia as "insulin, sulfonylurea, glinides", and Table 99-11 (p. 1578) lists "Hypoglycemia" first among the meglitinides' disadvantages. The two descriptions differ.
 
 ***Noninsulin Agents*** A growing number of medications other than insulin are available for hyperglycemia management of older adults with diabetes mellitus. Table 99-11 lists the available drugs with their common dosages, mechanism of action, and advantages and disadvantages.
 
@@ -562,7 +562,7 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 **Biguanide.** Metformin is widely recommended as the first-line oral medication for hyperglycemia in type 2 diabetes unless there is a specific contraindication. Metformin primarily suppresses hepatic glucose production and may also enhance peripheral sensitivity to insulin. Metformin rarely causes hypoglycemia when used alone. The most common side effect of metformin is gastrointestinal (GI) discomfort, which in some patients can be associated with decreased appetite and modest weight loss. While some have viewed this as a potential benefit for a patient on a weight-reduction program, this effect needs to be balanced against the degree of symptoms and the appropriateness of decreased caloric intake and weight loss in a given individual. The biguanide class of drugs is also known to be associated with development of life-threatening lactic acidosis under some circumstances. Although this complication appears to be very rare in patients using metformin, this drug should be avoided in situations that may put people at risk for development of lactic acidosis: unstable congestive heart failure and during acute hospitalization for any major illness that could result in decreased tissue perfusion as a precipitating factor for lactic acidosis. Metformin is contraindicated in patients with eGFR below 30 mL/min/1.73 m². Monitoring of renal function and perhaps dose adjustment of metformin to account for reduced renal clearance is highly appropriate for older diabetes patients with CKD.
 
-> **Currency — declared gap.** This sentence ranks agents. Whether later guidance still ranks metformin this way is not checked here; no post-press source is held.
+> **Evidence at publication.** Metformin is placed first in this treatment sequence. That ranking refers to the guidance in use at publication.
 
 **Sulfonylurea drugs.** Sulfonylurea drugs have been on the market for many years and are still commonly used in
 
@@ -589,13 +589,13 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 > **Printed column heads:** "Class" and "Route of administration and usual daily dosage". On the page the agents are listed under each class in the Class column, and their doses under "Oral" in the route column. The reader moves the agents into one column with the doses, "Agents and usual daily dosage", and pairs an agent with a dose (‖) only where the page aligns them one to one. The column labels "Route" and "Agents and usual daily dosage" are the reader's, not the book's.
 
-> **As printed — agents and doses are not aligned on the page.** The book sets the agent names and the dose lines as two separate columns. In these classes they do not line up one to one: biguanides print 2 agents against 3 dose lines, with "Metformin ER" level with "Max 2500 mg/d" and "500–2000 mg qd" on a line of its own; GLP-1 receptor agonists print 8 agents against 9 dose lines, and the dose column starts one line above the first agent ("Exenatide" is level with "2 mg SC qwk", "Lixisenatide" with "Oral 3–14 mg qd"); α-glucosidase inhibitors print 2 and 2, but the first dose sits a line above "Acarbose", level with the class name's second line. For these classes the table above gives two separate lists, agents and dose lines, each in printed order; the page's layout does not state which dose belongs to which agent, and no pairing is made here. Classes whose columns do align are shown agent ‖ dose.
+> **Drug names and dose columns.** The book sets the agent names and the dose lines as two separate columns. In these classes they do not line up one to one: biguanides print 2 agents against 3 dose lines, with "Metformin ER" level with "Max 2500 mg/d" and "500–2000 mg qd" on a line of its own; GLP-1 receptor agonists print 8 agents against 9 dose lines, and the dose column starts one line above the first agent ("Exenatide" is level with "2 mg SC qwk", "Lixisenatide" with "Oral 3–14 mg qd"); α-glucosidase inhibitors print 2 and 2, but the first dose sits a line above "Acarbose", level with the class name's second line. For these classes the table above gives two separate lists, agents and dose lines, each in printed order; the page's layout does not state which dose belongs to which agent, and no pairing is made here. Classes whose columns do align are shown agent ‖ dose.
 
-> **As printed — the book against itself.** The DPP-4 inhibitor row prints "↑ Glucagon secretion (glucose-dependent)" (checked at 300 dpi). The GLP-1 row directly below prints "↓ Glucagon secretion (glucose-dependent)". The text on p. 1579 says DPP-4 inhibitors "increase and prolong the action of endogenous incretin hormones", and on p. 1580 that GLP-1 agonists "also suppress glucagon secretion". Shown as printed; not reconciled.
+> **Table and text.** The DPP-4 inhibitor row prints "↑ Glucagon secretion (glucose-dependent)". The GLP-1 row directly below prints "↓ Glucagon secretion (glucose-dependent)". The text on p. 1579 says DPP-4 inhibitors "increase and prolong the action of endogenous incretin hormones", and on p. 1580 that GLP-1 agonists "also suppress glucagon secretion". The two descriptions differ.
 
-> **As printed.** The caption reads "(CONTINUED)" on the table's first page (1577) as well as on 1578. "Vildagliptina" and "Alogliptinc" are printed with the footnote letters (a, c) at full size, run into the names (publisher text layer and page image agree). Saxagliptin dose prints as "2.5 5 mg qd"; vildagliptin as "50 mg qd BID"; glipizide as "2.5–10 mg qd BID"; the thiazolidinedione row prints "Edema/heart failure (avoid in renal impairment" with no closing parenthesis. All left as printed.
+> **Printed wording.** The caption reads "(CONTINUED)" on the table's first page (1577) as well as on 1578. "Vildagliptina" and "Alogliptinc" are printed with the footnote letters (a, c) at full size, run into the names. Saxagliptin dose prints as "2.5 5 mg qd"; vildagliptin as "50 mg qd BID"; glipizide as "2.5–10 mg qd BID"; the thiazolidinedione row prints "Edema/heart failure (avoid in renal impairment" with no closing parenthesis. The footnote letters are not part of the generic drug names.
 
-> **Currency — declared gap (table frame).** This table is the catalogue of agents, doses and renal thresholds as of the book's press date. Agents approved, doses relabelled, or renal thresholds revised after press have not been checked; no post-press source is held. Questions sourced to this table (2026 Q59) use the book's values.
+> **Guideline date.** This table is the catalogue of agents, doses and renal thresholds as of the book's press date. Current product labeling may differ in indications, doses or renal thresholds. The 2026 Q59 answer uses the values in this table.
 
 **Table 99-12 — Insulin for treatment of type 2 diabetes**  *(printed 1579)*
 
@@ -626,11 +626,11 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 <sub>The insulin agents lead to increased glucose disposal and decreased hepatic glucose production. They are nearly universally responsive and likely lead to decreased microvascular risk (UK Prospective Diabetes Study [UKPDS]). Disadvantages are hypoglycemia risks, which vary based on the individual agent’s dose and its course of the action. ᵃOnly available in the United States in a premixed combination with insulin lispro. ᵇInhaled human insulin (Afrezza) is contraindicated in patients with chronic lung disease such as asthma or chronic obstructive pulmonary disease (COPD).</sub>
 
-> **As printed.** Glargine 100 duration prints as "20–> 24 h"; Lispro 50/50 as "1 – 5 h" and "11– 22 h".
+> **Printed wording.** Glargine 100 duration prints as "20–> 24 h"; Lispro 50/50 as "1 – 5 h" and "11– 22 h".
 
-> **As printed — Rapid acting.** The page prints one set of values ("5–15 min", "45–75 min", "2–4 h") level with Lispro; the Aspart and Glulisine lines carry no values. The page does not say whether Lispro's values also apply to them; the empty cells are the page's, not missing data, and are not filled here.
+> **Rapid-acting insulin.** The page prints one set of values ("5–15 min", "45–75 min", "2–4 h") level with Lispro; the Aspart and Glulisine lines carry no values. The page does not say whether Lispro's values also apply to them; the cells for those two insulins are blank.
 
-> **Currency — declared gap (table frame).** Insulin products as of press; later products not checked; no post-press source is held.
+> **Guideline date.** The insulin products listed were available at publication.
 
 <a id="p1579"></a>**[p. 1579]**
 
@@ -862,7 +862,7 @@ In nursing home patients already at high risk for developing urinary tract infec
 
 <sub>Data from Diabetes UK: End of life diabetes care: clinical care recommendations. 2nd ed. October 2013.</sub>
 
-> **Currency — declared gap (table frame), on the book's own evidence.** The table cites Diabetes UK, End of life diabetes care, "2nd ed. October 2013". The text on this page says: "The UK Diabetes recommendations were last updated in November, 2021." So the book itself records a later edition. Its content is not held here, so nothing is marked superseded.
+> **End-of-life diabetes guidance.** The table cites Diabetes UK, End of life diabetes care, "2nd ed. October 2013". The text on this page says: "The UK Diabetes recommendations were last updated in November, 2021." The 2021 update postdates the table. The table therefore describes the 2013 recommendations.
 
 ### Palliative and End-of-Life Care
 

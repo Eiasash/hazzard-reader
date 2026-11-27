@@ -135,13 +135,13 @@ Finally, compare the expected course *with and without* surgery in terms the pat
 
 **6. Which outcomes have been associated with geriatric co-management?**
 
-<details><summary>Answer</summary>Shorter admissions and fewer complications and deaths in the cited experience (p399–401).</details>
+<details><summary>Answer</summary>Shorter admissions and fewer complications and deaths in that patient series (p399–401).</details>
 
 **7. What does loss of independence at discharge include?**
 
 <details><summary>Answer</summary>Less ability to manage everyday activities or mobility, an increased need for help at home, or discharge to an institution (p401–402).</details>
 
-**8. What proportion had loss of independence in the cited surgical cohort?**
+**8. What proportion had loss of independence in the surgical cohort?**
 
 <details><summary>Answer</summary>About <strong>60%</strong> at discharge. The estimate belongs to that cohort and time point (p402).</details>
 
@@ -151,7 +151,7 @@ Finally, compare the expected course *with and without* surgery in terms the pat
 
 **10. What outcome did frailty predict among patients scheduled for outpatient surgery?**
 
-<details><summary>Answer</summary>Unplanned admission in the cited large cohort (p400).</details>
+<details><summary>Answer</summary>Unplanned admission in the large cohort (p400).</details>
 
 **11. Which postoperative cognitive complication has a potentially preventable component?**
 

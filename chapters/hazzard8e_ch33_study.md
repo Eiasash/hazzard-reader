@@ -45,7 +45,7 @@ Table 33-1 connects each change to the kind of difficulty a patient reports. Los
 
 Increased scattering of light alters visual quality. A bright window, headlights or a glossy table can obscure a target despite ample total light. During a transition between outdoor and indoor illumination, slower adaptation can briefly make an otherwise navigable space unsafe. Ask when hesitancy begins and whether it improves after waiting. Difficulty discriminating dark colors or pastels also has an immediate practical consequence: two shirts that are distinct in daylight can look identical when selected in a dim cupboard. The book discusses directed lighting, filters or a brimmed hat and allowing time to adapt. These address distinct problems; additional overhead light alone may make the glare component worse (p471–472).
 
-The attentional visual field describes how far someone can detect and process rapidly presented information while attention is divided. It is not identical to the sensory field measured using stationary test lights. A crowded intersection, signs emerging at the edge of view and simultaneous traffic demands stress that attentional field more than looking for a single light. Reading also requires attention, coordinated eye movements and finding the next line. Older adults can retain accuracy while reading more slowly; print size, spacing and contrast can improve the task. The older exam about a pathologic change uses the contrast between these changes of normal aging and a marked acuity deficit. The cited age-82 measurements above show exactly why illumination and contrast must be specified before comparing acuities (p471–472).
+The attentional visual field describes how far someone can detect and process rapidly presented information while attention is divided. It is not identical to the sensory field measured using stationary test lights. A crowded intersection, signs emerging at the edge of view and simultaneous traffic demands stress that attentional field more than looking for a single light. Reading also requires attention, coordinated eye movements and finding the next line. Older adults can retain accuracy while reading more slowly; print size, spacing and contrast can improve the task. The older exam about a pathologic change uses the contrast between these changes of normal aging and a marked acuity deficit. The age-82 measurements above show exactly why illumination and contrast must be specified before comparing acuities (p471–472).
 
 ### Predict the rehabilitation problem from the disease pattern
 
@@ -114,7 +114,7 @@ For a medication-management goal, observe the entire sequence in the usual envir
 
 <details><summary>Answer</summary>High-contrast acuity usually declines only modestly in healthy aging; marked loss merits investigation, and low contrast or glare can worsen measured performance substantially (p471).</details>
 
-**3. How did lighting change measured acuity in the cited age-82 sample?**
+**3. How did lighting change measured acuity in the age-82 sample?**
 
 <details><summary>Answer</summary>Median high-contrast acuity was <strong>20/30</strong>, compared with <strong>20/120</strong> under low contrast and low luminance and <strong>20/160</strong> under low contrast with glare (p471).</details>
 

@@ -8,8 +8,8 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - Which change in the aging baroreflex impairs the response to standing? [June 2026 Q68](?chapter=45#exam-p666-mcq-6391efa1061274125cfe4d1b).
 - A patient with atrial fibrillation falls on rising to use the bathroom. Which intervention addresses the measured pressure fall first? [May 2024 Q38](?chapter=45#exam-p675-mcq-10be7c951b2f4755be8289f0).
 - Can isolated diastolic hypotension produce symptoms, and which head-up sleeping position did the exam describe? [September 2024 Q9](?chapter=45#exam-p675-mcq-b83da14732e3306ed9970cce).
-- Which feature after loss of consciousness favors a generalized seizure? [June 2023 Q28, related Hazzard discussion](?chapter=45#ch45-convulsive-faint). The bibliography cites Harrison 21e, Table 425-7.
-- In a hypotensive patient with anemia and elevated urea after a faint, which bedside examination can reveal gastrointestinal bleeding? [June 2022 Q24, chapter-level topic](?chapter=45#asked-chapter). The bibliography names the Geriatrics Review Syllabus sections on syncope and gastroenterology.
+- Which feature after loss of consciousness favors a generalized seizure? [June 2023 Q28, related Hazzard discussion](?chapter=45#ch45-convulsive-faint). Harrison 21e compares seizures and syncope in Table 425-7.
+- In a hypotensive patient with anemia and elevated urea after a faint, which bedside examination can reveal gastrointestinal bleeding? [June 2022 Q24, chapter-level topic](?chapter=45#asked-chapter). The Geriatrics Review Syllabus covers this overlap under syncope and gastroenterology.
 - Which medication is the exception when a monitor shows torsades, and which dizziness syndrome produces brief attacks on rolling over? [December 2021 Q77 and Q90, chapter-level references](?chapter=45#asked-chapter).
 
 ## After the meal or after standing?
@@ -119,7 +119,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - On p675 the chapter lists ICD indications as syncope due to VT with EF **<35%**, syncope with previous MI, and VT induced during electrophysiologic testing. It also discusses an ICD for recurrent VT syncope with EF **>35%** after drug therapy and ablation fail.
 
   > Current practice (not the book): After prior MI, unexplained syncope with inducible sustained VT on electrophysiologic study is an ICD indication. A history of MI alone does not establish this indication. [ESC syncope guideline, 2018](https://doi.org/10.1093/eurheartj/ehy037).
-- For OH or postprandial hypotension, p675 lists morning caffeine **250 mg**, oral fludrocortisone **0.1–0.5 mg daily**, oral midodrine **2.5–10 mg three times daily**, and subcutaneous octreotide 30 minutes before a meal. The printed octreotide dose is **50 mg [sic — the cited study used 50 micrograms, not milligrams]**. [Jansen et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2646315/).
+- For OH or postprandial hypotension, p675 lists morning caffeine **250 mg**, oral fludrocortisone **0.1–0.5 mg daily**, oral midodrine **2.5–10 mg three times daily**, and subcutaneous octreotide 30 minutes before a meal. The printed octreotide dose is **50 mg [sic — the study used 50 micrograms, not milligrams]**. [Jansen et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2646315/).
   > Current practice (not the book): When drug treatment is appropriate, fludrocortisone is generally dosed at **0.05–0.2 mg/day**. Monitor potassium, edema and supine blood pressure and avoid it in heart failure. Avoid midodrine near bedtime. [OH review, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10024337/) · [AHA scientific statement, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/).
 
 ## Recall

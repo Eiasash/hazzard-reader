@@ -160,7 +160,7 @@ When a patient is dying, the aim may be freedom from distress even if closure is
 **Debridement**
 - **Five** methods: surgical/sharp, mechanical, autolytic, enzymatic, bio-surgical (p695).
 - Maggot (bio-surgical) density **5–8/cm²**; complete debridement **80%** vs **48%** with standard care (p696).
-- Collagenase (enzymatic): iodine inhibits its activity; as printed, nanocrystalline silver "can be inhibited when used in combination with collagenase" (p696).
+- Collagenase (enzymatic): iodine inhibits its activity; nanocrystalline silver "can be inhibited when used in combination with collagenase" (p696).
 
 **Infection & biofilm**
 - **60%** of chronic wounds contain a biofilm (p695).
@@ -179,7 +179,7 @@ When a patient is dying, the aim may be freedom from distress even if closure is
 
 **Exam traps**
 - **Pressure injury staging.** The chapter uses the 2016 NPIAP revision (p686).
-- **As printed.** Table 46-1's column header reads "PREVENTION INTERVENTONS" (sic, typo in the original) (p683).
+- **Table heading.** Table 46-1's column header reads "PREVENTION INTERVENTONS" (sic, typo in the original) (p683).
 
 ## Recall
 
@@ -235,7 +235,7 @@ Clindamycin, amoxicillin with doxycycline, or trimethoprim-sulfamethoxazole (p69
 
 The 2026 questions test pressure injury recognition and management.
 
-> The IMA administered the exam in Hebrew. The official answers follow the post-appeal key 899478. The cited pages explain the answers.
+> The IMA administered the exam in Hebrew. The official answers follow the post-appeal key 899478. The page references link each answer to its clinical rationale.
 
 **Q7** — sourced to [p. 695–696](?chapter=46#p695). A 75-year-old woman was admitted to a complex nursing-care ward after a prolonged hospitalization for pneumonia, ventilation and a stay in intensive care. On admission to the ward she had a pressure ulcer involving the buttock, 10x9 cm, with abundant necrotic tissue and redness visible around it; see picture no. 1. Laboratory tests show elevated inflammatory markers. Which debridement approach is most recommended for her?
 

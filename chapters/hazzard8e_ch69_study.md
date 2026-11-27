@@ -81,7 +81,7 @@ Table 69-1 grades the activity associated with breathlessness. At **grade 1**, i
 
 ### What oxygen, airflow and ventilation trials actually tested
 
-May 2024 Q77 asks about dyspnea near the end of life. In the cited comparison among nonhypoxemic patients, nasal air relieved dyspnea as effectively as nasal oxygen. That finding concerns perceived symptom relief in that population. It cannot be used to deny oxygen for a different indication: the chapter describes improved quality of life and longer survival with long-term oxygen in hypoxemic COPD. Likewise, a benefit in hypoxemic COPD cannot demonstrate an additional effect of oxygen over moving air in every patient with advanced cancer. The grade of breathlessness, saturation and underlying cause each contribute different information (p1073–1074).
+May 2024 Q77 asks about dyspnea near the end of life. In the comparison among nonhypoxemic patients, nasal air relieved dyspnea as effectively as nasal oxygen. That finding concerns perceived symptom relief in that population. It cannot be used to deny oxygen for a different indication: the chapter describes improved quality of life and longer survival with long-term oxygen in hypoxemic COPD. Likewise, a benefit in hypoxemic COPD cannot demonstrate an additional effect of oxygen over moving air in every patient with advanced cancer. The grade of breathlessness, saturation and underlying cause each contribute different information (p1073–1074).
 
 Offer low-burden approaches while investigating and treating the cause. A fan, pursed-lip breathing, prolonged exhalation or a change of posture can be tried and the patient's response observed. Relaxation, guided imagery, music, distraction or pacing an activity may help. For a person who values talking through a family meal, the practical question is whether pacing and positioning make the meal possible. None of these measures requires the clinician to conclude that breathlessness is primarily psychological, and their use need not wait until a drug has failed (p1073–1074).
 
@@ -156,7 +156,7 @@ The follow-up question can be concrete. Ask whether the person can now finish ge
 
 **9. In which group did nasal oxygen give no more symptom relief than nasal air?**
 
-<details><summary>Answer</summary>In the cited comparison of patients without hypoxia. This differs from evidence for long-term oxygen in hypoxic COPD. (p1074)</details>
+<details><summary>Answer</summary>In the comparison of patients without hypoxia. This differs from evidence for long-term oxygen in hypoxic COPD. (p1074)</details>
 
 **10. What limits noninvasive ventilation as a comfort treatment?**
 

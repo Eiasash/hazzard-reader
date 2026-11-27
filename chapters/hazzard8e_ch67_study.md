@@ -44,7 +44,7 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 **Referral before a crisis.** In a broader advanced-cancer trial, several quality-of-life differences took four months to emerge. ENABLE III reported one-year survival of 63% with early involvement and 48% after a three-month delay. In pooled noncancer trials, palliative interventions reduced symptom burden, hospital admissions and emergency visits. The dementia trials showed less consistent intervention benefits despite substantial need (p. 1047).
 
-**Idiopathic pulmonary fibrosis.** In the June 2022 question, distinguish treatment of fibrosis from relief of distress. Antifibrotics can slow functional decline. Assess cough, breathlessness, planning and caregiver support from diagnosis and involve a specialist palliative team if needs exceed the usual team's resources. The historical bibliography names GRS Pulmonology. [NICE QS79, pp. 19–21](?chapter=67#ch67-ipf).
+**Idiopathic pulmonary fibrosis.** In the June 2022 question, distinguish treatment of fibrosis from relief of distress. Antifibrotics can slow functional decline. Assess cough, breathlessness, planning and caregiver support from diagnosis and involve a specialist palliative team if needs exceed the usual team's resources. The Geriatrics Review Syllabus covers the pulmonary setting. [NICE QS79, pp. 19–21](?chapter=67#ch67-ipf).
 
 ## Israeli context — דמנציה, הזנה והקלה על סבל
 
@@ -106,7 +106,7 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 <details><summary>Answer</summary>All clinicians can provide core symptom management, coordination, goals discussions and caregiver support; specialists contribute an interprofessional team with palliative expertise. (p. 1045)</details>
 
-**5. What did the cited noncancer palliative-care meta-analysis associate with palliative care?**
+**5. What did the noncancer palliative-care meta-analysis associate with palliative care?**
 
 <details><summary>Answer</summary>Less emergency department use, hospitalization and symptom burden; dementia trials had been least promising. (p. 1047)</details>
 

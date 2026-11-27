@@ -4,15 +4,15 @@ Study summary of Chapter 17; the book and the full chapter are the reference.
 
 ## What the exams asked
 
-All 16 official questions linked to this chapter concern Israeli services, clinical classification or funding. The 2020–2022 links open the chapter head. The later links open the corresponding Israeli teaching passages in Read and carry a **Related exam** label. None of the 16 bibliography rows cites a printed page of Hazzard Chapter 17.
+All 16 official questions linked to this chapter concern Israeli services, clinical classification or funding. The 2020–2022 links open the chapter head. The later links open the corresponding Israeli teaching passages in Read and carry a **Related exam** label. These 16 questions chiefly test how Israeli services work.
 
 - Recognize תשישות נפש in a person who walks independently, gets lost and cannot manage personal care safely — [2020 Q27](?chapter=17#asked-chapter), [June 2022 Q8](?chapter=17#asked-chapter).
 - Distinguish a ward geriatrician’s recommendation from district approval for a nursing code and identify who may classify a chronically ventilated patient — [2020 Q79](?chapter=17#asked-chapter), [December 2021 Q42](?chapter=17#asked-chapter), [June 2022 Q96](?chapter=17#asked-chapter), [June 2023 Q86](?chapter=17#ch17-il-authority).
 - Identify the payer for nursing placement and the services that remain the health fund’s responsibility in an institution — [2020 Q85](?chapter=17#asked-chapter), [June 2022 Q58](?chapter=17#asked-chapter), [June 2023 Q90](?chapter=17#ch17-il-benefits).
 - Distinguish historical registration with social services from eligibility for a nursing benefit — [2020 Q89](?chapter=17#asked-chapter).
-- Decide whether a shallow pressure injury, a urinary catheter or improvement after a deep pressure injury still requires complex nursing — [June 2023 Q14](?chapter=17#ch17-il-pressure), [May 2024 Q76](?chapter=17#ch17-il-pressure). The May 2024 bibliography row gives X.
+- Decide whether a shallow pressure injury, a urinary catheter or improvement after a deep pressure injury still requires complex nursing — [June 2023 Q14](?chapter=17#ch17-il-pressure), [May 2024 Q76](?chapter=17#ch17-il-pressure). The May 2024 paper names no specific guideline.
 - Distinguish psychiatric rehabilitation from dementia placement, and tracheostomy care after weaning from long-term mechanical ventilation — [September 2024 Q47](?chapter=17#ch17-il-mental), [September 2024 Q58](?chapter=17#ch17-il-airway).
-- Recognize partial ADL dependence despite leg wounds or dialysis and identify the social-services pathway — [June 2025 Q13](?chapter=17#ch17-il-function), [June 2026 Q96](?chapter=17#ch17-il-function). The bibliography describes the former as a directorate circular and the latter as a procedure.
+- Recognize partial ADL dependence despite leg wounds or dialysis and identify the social-services pathway — [June 2025 Q13](?chapter=17#ch17-il-function), [June 2026 Q96](?chapter=17#ch17-il-function). The first question concerns a directorate circular and the second a procedure.
 
 ## Israeli context — מה המטופל צריך, לאן פונים ומי משלם
 

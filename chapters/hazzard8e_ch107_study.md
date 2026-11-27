@@ -201,4 +201,4 @@ Book images cited by past exams. Tap an image to zoom.
 
 **15. What should patients expect after recombinant vaccination?**
 
-<details><summary>Answer</summary>Local pain and systemic symptoms may occur. Serious adverse events were similar between vaccine and placebo groups in the cited trials. (p1728–1729)</details>
+<details><summary>Answer</summary>Local pain and systemic symptoms may occur. Serious adverse events were similar between vaccine and placebo groups in clinical trials. (p1728–1729)</details>

@@ -6,8 +6,8 @@ Study summary of Chapter 34; the book and the full chapter are the reference.
 
 ## What the exams asked
 
-- Why a family history matters and what a clinic screen can tell you — [September 2024 Q30](?chapter=34#ch34-heritability). The bibliography names Chapter 34 without a page.
-- Which Hebrew word loses the most distinctive consonant cues in high-frequency loss — [June 2025 Q26](?chapter=34#exam-p495-mcq-ca570710752bad38efb708ba). The bibliography specifies Hazzard p495.
+- Why a family history matters and what a clinic screen can tell you — [September 2024 Q30](?chapter=34#ch34-heritability). Family history is relevant even when loss is first noticed late in life.
+- Which Hebrew word loses the most distinctive consonant cues in high-frequency loss — [June 2025 Q26](?chapter=34#exam-p495-mcq-ca570710752bad38efb708ba). High-frequency loss particularly affects consonant discrimination (p495).
 - When poor speech understanding despite well-fitted hearing aids warrants a cochlear implant evaluation — [June 2026 Q39](?chapter=34#ch34-implant-referral). The item cites an article. P005-2026 assigns the NEJM review separately from the excluded textbook chapter.
 
 ## Family history and assessment
@@ -132,7 +132,7 @@ Improved hearing has immediate value for participation, confidence and communica
 
 ## Past exam questions
 
-- [2026-Jun Q39](?chapter=bank&q=mcq-4c92ab23f4ca6e471480cf69) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2026-Jun Q39](?chapter=bank&q=mcq-4c92ab23f4ca6e471480cf69) — Related bank item. It tests a related topic without a chapter-specific page.
 - [2025-Jun Q26](?chapter=bank&q=mcq-ca570710752bad38efb708ba) — Printed page 495.
 - [2024-Sep Q30](?chapter=bank&q=mcq-db9b505b636e803c1bb580ce) — Chapter citation without a printed page.
 

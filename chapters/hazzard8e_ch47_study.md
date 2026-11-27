@@ -58,7 +58,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 **Persistent retention needs an emptying plan.** An alpha blocker can reduce smooth-muscle tone at the prostatic outlet in BPH without correcting fixed obstruction or weak contractility. Document the residual, assess renal or infectious consequences and discuss drainage and possible removal of a confirmed obstruction. A bladder relaxant can worsen high-residual leakage. Among patients who do not need ongoing drainage, a retrial after temporary catheterization is often possible (pp. 707–709, 711, 714–715).
 
 <span data-exam-ids="mcq-01cdc59c55369cf2a42ea5c5 mcq-3452f8f6cfd764cc9e8162f6" data-reader-metadata="exam"></span>
-**Separate storage drugs from prostate drugs.** Mirabegron stimulates beta-3 receptors during filling and can raise blood pressure or pulse. Antimuscarinics reduce bladder contractions but can cause dry mouth, constipation, delirium or retention. Finasteride instead inhibits type II 5-alpha reductase, reducing conversion of testosterone to dihydrotestosterone. Sexual dysfunction with gynecomastia points to finasteride. Tadalafil acts on phosphodiesterase type 5. The September 2024 Q50 bibliography lists p. 712, where Table 47-12 begins. The finasteride mechanism and adverse effects are on its continuation on p. 713 (pp. 711–714).
+**Separate storage drugs from prostate drugs.** Mirabegron stimulates beta-3 receptors during filling and can raise blood pressure or pulse. Antimuscarinics reduce bladder contractions but can cause dry mouth, constipation, delirium or retention. Finasteride instead inhibits type II 5-alpha reductase, reducing conversion of testosterone to dihydrotestosterone. Sexual dysfunction with gynecomastia points to finasteride. Tadalafil acts on phosphodiesterase type 5. Table 47-12 begins on p712. The finasteride mechanism and adverse effects are on its continuation on p. 713 (pp. 711–714).
 
 <span data-exam-ids="mcq-911d970243b87dbe2fe1c675" data-reader-metadata="exam"></span>
 **Drain a neurogenic bladder without continuous catheter exposure when practical.** Clean intermittent catheterization at home can be performed by a trained patient or caregiver. Adjust frequency to measured volumes. When a catheter must remain, keep the system closed and urine flowing freely. Avoid routine irrigation or changing the catheter on an arbitrary schedule. New leakage around it, pain or falling output calls for examination for obstruction or displacement (Ch. 47, pp. 715–716, Tables 47-13 and 47-14, and Ch. 16, p. 232, Table 16-6).
@@ -133,7 +133,7 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - 2026 Q17 trap (p703): new cough + stress leakage on an ACE inhibitor → stop/switch the ACE inhibitor, not start an antimuscarinic.
 - 2026 Q44 trap (p703–704): "overactive bladder" started on an antimuscarinic that then worsens with high PVR → stop the anticholinergic (drug-induced overflow), don't add another agent.
 - 2026 Q64 trap (p701–702): diarrhea with abdominal distension/reduced output in a demented elder → think fecal impaction (laxatives), not infection.
-- As printed (p712–713): the drug table spells "Solifenancin" (sic) for solifenacin; left as printed.
+- Table 47-12 (pp712–713) spells "Solifenancin" (sic) for solifenacin; the intended generic name is solifenacin.
 - Table 47-12 lists drug names and doses for the US market at publication (p712–713); local availability may differ.
 
 ## Recall
@@ -214,7 +214,7 @@ Fecal incontinence; it co-occurs in about 30%–50% of such patients (p716).
 
 English renderings of the 2026 questions and their post-appeal answers follow.
 
-> The IMA administered the exam in Hebrew. The official answers follow the post-appeal key 899478. The cited pages explain the answers.
+> The IMA administered the exam in Hebrew. The official answers follow the post-appeal key 899478. The page references link each answer to its clinical rationale.
 
 **Q17** — sourced to [p. 703](?chapter=47#p703). A 77-year-old woman with a background of hypertension and heart failure reports new urinary leakage over the past two months. Over the same period she has developed a dry, persistent cough that worsens at night. The leakage occurs mainly when coughing, laughing or getting up from a chair. She denies urgency, burning on urination, suprapubic pain or fever. Regular medications: Enalapril, Furosemide, Alprazolam (as needed at night). On examination there is no evidence of pelvic organ prolapse. A cough stress test is positive with slight leakage. Urinalysis is normal. What is the next therapeutic step?
 
