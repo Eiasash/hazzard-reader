@@ -5472,7 +5472,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span>Settings</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v328 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span>Settings</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v329 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);
@@ -7033,7 +7033,6 @@ function previewPen(range){
   if(!CSS.highlights)return;
   if(range)CSS.highlights.set('pen-preview',new Highlight(range));else CSS.highlights.delete('pen-preview');
 }
-installPointRail(document.querySelector('main'),editMark);
 installSavedHighlightPaint(document.querySelector('main'));
 function cancelPenGesture(){stopStroke();}
 stopStroke=bindReaderInput({
@@ -7857,6 +7856,9 @@ if(copy.classList.contains('study-page')&&copy.querySelector('[data-point]')){
   try{const saved=readHighlights();if(refreshBookNumbers(saved,true))writeHighlights(saved);}
   catch{highlightSaveFailed=true;updateStorageNotice();}
 }
+// Install the shared badge layer after Study has moved its text into disclosures.
+// It must stay on the reading surface when an individual section is closed.
+installPointRail(document.querySelector('main'),editMark);
 HazzardLawCards.watchNumberRanges(document.body);
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
 {const h=pairedStudy?'':decodeURIComponent(location.hash.slice(1));let done=startOnStudySummary||launchParams.get('chapterTop')==='1';

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v329",
+      "date": "2026-11-27",
+      "changes": [
+        "Saved point badges appear beside their highlights after reload and when Study sections reopen."
+      ]
+    },
+    {
       "version": "v328",
       "date": "2026-11-27",
       "changes": [

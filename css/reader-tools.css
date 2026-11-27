@@ -110,7 +110,8 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 #reader.page,.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
 #copy,.mcq-explanation {position:relative}
 .point-rail {position:absolute;inset:0 0 auto;height:0;pointer-events:none;z-index:1}
-.point-badge {position:absolute;pointer-events:auto;cursor:pointer;min-inline-size:0;min-block-size:0;padding:0 2px;box-sizing:border-box;
+.point-badge-line {position:absolute;display:flex;flex-wrap:wrap;align-items:start}
+.point-badge {position:static;flex:1 1 auto;pointer-events:auto;cursor:pointer;min-inline-size:max-content;min-block-size:0;height:var(--point-height);padding:0;box-sizing:border-box;
   border:1px solid color-mix(in srgb,var(--badge-ink) 64%,var(--muted));border-radius:5px;
   font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
   background:var(--badge-ink);color:var(--hl-ink)}
