@@ -5,7 +5,7 @@ Study summary of Chapter 12; the book and the full chapter are the reference.
 ## Summary
 
 **Use the framework as a set**
-- Age-friendly care integrates **4Ms**: What Matters, Medication, Mentation and Mobility across care settings (p172).
+- Age-friendly care integrates **4Ms**: What Matters, Medication, Mentation and Mobility across care settings. Figure 12-1 identifies the Age-Friendly Health Systems initiative led by the John A. Hartford Foundation and the Institute for Healthcare Improvement with hospital partners (p172).
 - Apply them together to shift attention toward function, wellness and the person's goals; isolated disease plans can conflict (p172).
 - High-functioning teams need shared purpose, clear roles, communication, mutual respect and recognition of each member's expertise (p171-172).
 - Include older adults, families and caregivers as partners; the approach aims to improve experience, population health and cost of care (p172).
