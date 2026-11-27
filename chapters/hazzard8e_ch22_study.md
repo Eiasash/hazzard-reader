@@ -95,6 +95,8 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 - Use weight- and renal-based dosing where appropriate, particularly with narrow therapeutic indices; estimated filtration and prescribing decision support can help (p303).
 - Beers and STOPP/START support decisions alongside patient preferences, pharmacy review and other clinical tools (p303).
 
+> Current practice (not the book): Opioids can worsen delirium. Avoid combining an opioid with gabapentin or pregabalin because of sedation and respiratory depression, except during a transition or when a gabapentinoid is being used to reduce the opioid dose. Use caution even in those exceptions. [AGS Beers Criteria, 2023, Tables 2–5](https://doi.org/10.1111/jgs.18372).
+
 **Management & deprescribing**
 - DRUGS: Discuss goals, Review medications, Use tools/frameworks, apply a Geriatric approach, and Stop medications where appropriate (p313).
 - A prescribing cascade starts when a drug adverse effect is mistaken for a new illness and another drug is added. Recognize and manage the original cause (p304).

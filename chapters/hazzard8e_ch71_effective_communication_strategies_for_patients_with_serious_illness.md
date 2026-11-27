@@ -46,7 +46,6 @@ In this chapter, we will provide an approach as well as key skills to prepare pr
 
 *TABLE 71-1 ■ PROVIDER BARRIERS AND SUGGESTED SOLUTIONS TO ENHANCE COMMUNICATION AROUND ADVANCED ILLNESS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 conversations about goals of care and advance care planning with patients and families. We will also discuss unique challenges and situations specific to communication with older adults.
 
@@ -64,7 +63,6 @@ have the conversation. Encourage the patient to bring family or caregivers with 
 
 *TABLE 71-2 ■ SUGGESTED LANGUAGE FOR ELICITING A PATIENT’S UNDERSTANDING OF THEIR ILLNESS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1091"></a>**[p. 1091]**
 
@@ -72,7 +70,6 @@ have the conversation. Encourage the patient to bring family or caregivers with 
 
 *TABLE 71-3 ■ SUGGESTED LANGUAGE FOR ELICITING A PATIENT’S PREFERENCES FOR INFORMATION AND MEDICAL DECISION MAKING*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 convey (eg, help them better understand their illness, treatment preferences, difficult news, etc) in short, digestible chunks. The second “TELL” is an additional check for understanding or perspective. An easy way to ask is, “To make sure I was explaining things clearly, can you summarize what I just said?” This ASK-TELL-ASK cycle is often repeated several times during the same conversation, to ensure information is provided in a sensitive manner in digestible pieces. Understanding a patient’s hopes and values can help the provider provide sound medical advice in line with what is most important to the patient. A list of suggested questions is given in Table 71-4. Step 4: Respond to Emotions Providers often focus on the details of medical care and miss emotional cues. Responding to emotional cues is a key aspect of successful communication, building
 
@@ -80,7 +77,6 @@ convey (eg, help them better understand their illness, treatment preferences, di
 
 *TABLE 71-4 ■ SUGGESTED LANGUAGE FOR EXPLORING HOPES AND VALUES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 trust, and supporting patients. Clinicians can express empathy nonverbally and verbally. Eye contact, open body position, leaning in toward the patient, and when appropriate, light touch can be useful tools for showing nonverbal empathy. An invaluable tool for expressing verbal empathy employs the mnemonic “NURSE.” Details of the mnemonic and sample language are provided in Table 71-5. Step 5: Guide Decision Making Every conversation is different and in many cases, exploring hopes, values, and emotions can be extremely beneficial, even without a specific medical decision to make. If there are decisions to make, the next step involves providing options to the patient that are consistent with what has been found out is important to them. Providers do not need to identify every possible option, particularly those that are inconsistent with the patient’s expressed goals. Information should be given in small chunks and jargon should be avoided. Again, using Ask-Tell-Ask can allow for frequent stops to check for comprehension and provide clarifications or corrections if necessary. In many situations, based on what is understood about the patient’s decisionmaking preferences from step 2, providers can ask for permission to provide a recommendation based on the patient’s values and what is known about the medical circumstances. Many patients and families may need time and multiple discussions before they can make big changes in care or decisions, for example, to enroll in hospice or decide whether to go into a nursing home.
 
@@ -88,7 +84,6 @@ trust, and supporting patients. Clinicians can express empathy nonverbally and v
 
 *TABLE 71-5 ■ NURSE STATEMENTS AND SUGGESTED LANGUAGE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1092"></a>**[p. 1092]**
 
@@ -96,7 +91,6 @@ trust, and supporting patients. Clinicians can express empathy nonverbally and v
 
 *TABLE 71-6 ■ PROVIDING A RECOMMENDATION, SUGGESTED LANGUAGE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 In practice, this often means not expecting a decision to be made at the end of one discussion. Suggested language is in Table 71-6. Step 6: Summarize and Plan To close the conversation, the provider should summarize any decisions that were made during the discussion, offer to answer questions, and arrange a plan for follow-up. This is also an opportune time to reaffirm nonabandonment regardless of the outcome of the conversation and the goals of care. In both the outpatient and inpatient setting, this is also an opportune time to thank the patient for having this difficult conversation and remind them you are hoping this process of exploration and decision making will be an ongoing one, as time goes on and their health evolves.
 
@@ -154,7 +148,6 @@ Difficult news is defined as any news that drastically and negatively alters the
 
 *TABLE 71-7 ■ ADDRESSING PROGNOSTIC UNCERTAINTY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 we often associate discussing difficult news with the practice of oncology, all providers, regardless of specialty, are called upon to discuss difficult news with patients. Difficult news may relate to a diagnosis (eg, terminal, chronic, cancer, etc), prognosis, test results significant for disease progression, a bad outcome, or even medical mistakes. For older adults, difficult news may come in the form of a loss of independence, such as being deemed unsafe to continue driving a car or, requiring a higher level of care that will force the patient to move from their home of many years. It is important to remember that (1) most patients want to know difficult news (in studies, 75–90%) and (2) how a patient responds to news is influenced by a patient’s perspective, life experiences, occupation, personality and coping skills, religion, and social support. It is also important to recognize that a patient’s desire for medical information and a family’s desire to disclose such information (eg, the difficult news of a new cancer diagnosis) is influenced by a number of factors including, but not limited to, culture, ethnicity, religion, and past experiences with illness. Asking specifically about your patient’s preferences regarding how much information they want to know about their health,
 
@@ -178,7 +171,6 @@ Discussions regarding preferences for feeding support should begin early in the 
 
 *TABLE 71-8 ■ SPIKES FOR DISCUSSING DIFFICULT NEWS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 when the patient’s cognition is intact enough to express their own preferences. These discussions should not be delayed until a crisis develops. Any decisions made with the patient should be documented in the medical record and an advance directive. This decision-making process includes aligning what patients and families are hoping for, with the realistic expectations and potential outcomes of tube feeding. Questions that can be particularly helpful, both early in the patient’s illness and in crisis situations (eg, recurrent hospitalizations for aspiration pneumonia in a patient with advanced dementia) include, “What do you hope a feeding tube would do for you (or your loved one)?,” “What worries do you have about feeding tubes?,” and “Have you seen any other patients with severe dementia with a feeding tube? What do you think that experience was like for them?”
 

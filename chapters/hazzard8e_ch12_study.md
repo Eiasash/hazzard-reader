@@ -16,6 +16,8 @@ Study summary of Chapter 12; the book and the full chapter are the reference.
 - Medication: prescribe when needed, review affordability and understanding, and avoid interference with mentation, mobility or patient priorities (p174-175).
 - Physicians report limited time, poor awareness of medication harms, and concern about withdrawal or patient criticism as barriers to deprescribing. Review medicines with the team and involve the patient and caregiver (p174).
 - Computerized support and STOPP/START can identify prescribing problems, but assessment and communication remain team responsibilities (p174-175).
+
+> Current practice (not the book): Version 3 contains 133 STOPP criteria for potentially inappropriate treatment and 57 START criteria for possible omissions, including new START sections for coagulation and renal disease. Apply them to indication, prognosis, function and patient preference. [STOPP/START version 3, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10447584/).
 - Mentation: prevent, identify and manage delirium, dementia and depression. Dementia is not normal aging (p175).
 - Person-centered dementia care recognizes the individual, accepts the person's reality, supports meaningful engagement and relationships, and reassesses care (p175).
 - Mobility: enable safe daily movement, strength and balance; address chronic-disease effects and use tailored physical-activity support (p176).

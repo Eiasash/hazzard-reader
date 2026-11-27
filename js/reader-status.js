@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v330', RELEASED = '26.11.2026';
+  const VERSION = 'v331', RELEASED = '27.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -33,7 +33,7 @@
       notebook.toggleAttribute('data-sync-paused',!!cloud?.paused);
       notebook.setAttribute('aria-label',cloud?.paused?'Notebook · Cloud paused':'Notebook');
       chip.textContent = '';chip.setAttribute('aria-label',chipText);
-      button.title = 'Text & appearance — ' + chipText;
+      button.title = 'Settings — ' + chipText;
       button.setAttribute('aria-label', button.title);
       updateButton.hidden = state !== 'waiting';
       updateButton.textContent = text;

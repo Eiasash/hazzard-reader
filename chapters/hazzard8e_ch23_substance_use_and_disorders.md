@@ -56,7 +56,6 @@ Alcohol Alcohol continues to be the most commonly used substance among older adu
 
 *TABLE 23-1 ■ DIAGNOSTIC AND STATISTICAL MANUAL OF MENTAL DISORDERS 5TH EDITION (DSM-5) CRITERIA FOR SUBSTANCE USE DISORDERS (SUD) WITH CONSIDERATION FOR OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 aSUD is defined as a medical disorder in which two or more of the aforementioned listed symptoms are occurring in the last 12 months. The severity of the SUD diagnosis is defined by the number of the criteria met: mild 2–3, moderate 4–5, and severe 6 or more. Data from Barry KL, Blow FC, Oslin DW. Substance abuse in older adults: review and recommendations for education and practice in medical settings. Subst Abus. 2002;23(Suppl 3): 105–131 and American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders. 5th ed. Arlington (VA): American Psychiatric Publishing; 2013.
 
@@ -90,7 +89,6 @@ Social factors Generally, divorce, separation from a spouse, or being single are
 
 *TABLE 23-2 ■ FACTORS ASSOCIATED WITH UNHEALTHY SUBSTANCE USE AND SUBSTANCE USE DISORDERS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Late-life transitions and events may also increase an older adult’s vulnerability to unhealthy substance use. Loss in many forms is associated with unhealthy substance use among older adults. Loss can take the form of bereavement, living arrangement transitions, declining overall health, and loss of function. Caregiving for a chronically or terminally ill loved one may increase the stress and subsequent vulnerability to unhealthy substance use. Preretirement job satisfaction, involuntary retirement, and workplace stress can negatively impact how the older adult copes with retirement and has been shown to increase alcohol use in general and drinking problems.
 
@@ -114,7 +112,6 @@ Aging affects drug and alcohol metabolism and distribution in the body. The live
 
 *TABLE 23-3 ■ UNIQUE VULNERABILITIES TO HARMS OF SUBSTANCE USE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 aPartial list.
 
@@ -218,7 +215,6 @@ While studies focused on older adults with opioid use disorder are limited, a la
 
 *TABLE 23-4 ■ FDA-APPROVED MEDICATIONS TO TREAT ALCOHOL USE DISORDER (AUD) AND OPIOID USE DISORDER (OUD)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p326"></a>**[p. 326]**
 

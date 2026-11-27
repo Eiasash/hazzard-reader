@@ -8,7 +8,7 @@ Joyce M. Black
 
 > **2026 exam.** Two questions of the 2026 specialist sitting tested this chapter: Q7 (p695, with a picture) and Q67 (p697). The questions follow the clinical text.
 
-> **Guideline date.** The NPIAP updated its pressure injury staging system in 2016. The staging terms and treatment recommendations refer to that edition.
+> Current practice (not the book): Assess skin and tissue at pressure points, including beneath medical devices. Individualize turning. Use an available full-body pressure-redistributing support surface in preference to a medical-grade sheepskin. A 30° lateral tilt can offload the sacrum and trochanter. A larger body habitus may require a 40° tilt. Keep the head of the bed at 30° or lower when clinically appropriate. For an unstable patient who cannot tolerate a full turn, use frequent small shifts and reassess tolerance. [International Pressure Injury Guideline, fourth edition, repositioning](https://www.internationalguideline.com/repositioning) · [Fourth-edition quick reference, 2026, SS8.1](https://static1.squarespace.com/static/6479484083027f25a6246fcb/t/6aa1d3b8d615723ca31f8de9/1788990393971/NPIAP-EPUAP-PPPIA-Quick-Ref-2026-FINAL.pdf#page=15).
 
 <a id="p679"></a>**[p. 679]**
 

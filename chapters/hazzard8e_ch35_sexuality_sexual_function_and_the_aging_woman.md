@@ -46,7 +46,6 @@ Sexual behavior can result in health problems, such as sexually transmitted infe
 
 *FIGURE 35-1. The interactive biopsychosocial model.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 In this model, health comprises biological, psychological, and social components and is conceptualized as jointly produced by a woman in conjunction with her spouse or other intimate partner(s). Joint production of health means that partners contribute assets (or liabilities) to the “health endowment,” and these assets and liabilities impact the health of the other(s). The hourglass shape symbolizes the dynamic nature of both health and intimate relationships over time. Clinically, this model can be used as a mnemonic for the broad domains of inquiry pertinent to assessing a patient’s sexual history and reminds the clinician of the importance of ascertaining the presence, and health, of the patient’s intimate partner(s).
 
@@ -64,7 +63,6 @@ Lack of formal sexuality education combined with widely restrictive social, reli
 
 *FIGURE 35-2. Prevalence of relationships and sexual activity by age and health status. Note: Red symbols denote men; yellow symbols denote women. (Reproduced with permission from Lindau ST, Schumm LP, Laumann EO, et al. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357[8]:762–774.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 present barriers to communication about sexual matters. In addition, older women perceive physicians to be poorly trained to deal with patients’ sexual concerns and that physicians presume older women to be asexual or disinterested (see Table 35-2).
 
@@ -82,7 +80,6 @@ in nursing home settings. NSHAP Wave II included the first nationally representa
 
 *TABLE 35-1 ■ OLDER WOMEN’S VIEWS ON SEXUALITY AND AGING*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 and sexually active. This number is expected to double by 2050. Best practice for care of older adults with cognitive impairment should include early and ongoing discussion about the effects of impairment on sexual function, sexual behavior (which can include an increase or change in sexual behavior in some cases), and decision making about engaging in partnered sexual activity.
 
@@ -96,7 +93,6 @@ Increasingly, as a human rights matter, long-term care institutions provide priv
 
 *TABLE 35-2 ■ OLDER WOMEN’S PERCEPTIONS ABOUT BARRIERS TO DISCUSSING SEX WITH A PHYSICIAN*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 sexual relationships form among people with dementia who have, but may not remember, a communityresiding spouse. Likewise, community-residing spouses may initiate new intimate relationships while maintaining involvement with and commitment to their institutionalized spouse. The implications of these relationships for health and integrity in later life are a growing reality, but poorly understood and often a cause of distress for families. Sexual exploitation and abuse of older women living in residential facilities (and in the community) are poorly documented, but vulnerability is heightened by cognitive impairment, which can interfere with a woman’s ability to consent to sexual relations.
 
@@ -132,7 +128,6 @@ Sexually active life expectancy projects population patterns of sexual activity 
 
 *FIGURE 35-3. Sexually active life expectancy. (Adapted with permission from Lindau ST, Gavrilova N. Sex, health, and years of sexually active life gained due to good health: evidence from two US population based cross sectional surveys of ageing. BMJ. 2010;340:c810.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p508"></a>**[p. 508]**
 
@@ -156,7 +151,6 @@ Viral infections, including genital herpes simplex virus (HSV) and human papillo
 
 *TABLE 35-3 ■ MOST COMMON SEXUAL PROBLEMS AMONG A POPULATION-BASED SAMPLE OF OLDER WOMEN IN THE UNITED STATES (N = 1550)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p509"></a>**[p. 509]**
 
@@ -180,7 +174,6 @@ Early life events, including sexual trauma in the form of abuse, exploitation, g
 
 *FIGURE 35-4. Barrier methods of sexual protection. Latex male condom (left), nitrile female condom (middle), dental dam (right).*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p510"></a>**[p. 510]**
 
@@ -196,7 +189,6 @@ In acute or emergency care settings, intimate partner violence and sexual abuse 
 
 *TABLE 35-4 ■ SAMPLE INTIMATE PARTNER VIOLENCE SCREENING QUESTIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p511"></a>**[p. 511]**
 
@@ -228,7 +220,6 @@ Effects of senescence on the endocrine, neurovascular, musculoskeletal, genitour
 
 *FIGURE 35-5. A. Masters’ and Johnson’s models of sexual response cycles for females and males. Note: In female sexual response cycle, A, B, and C refer to three different sexual response patterns found in females. B. Adaptation (blue) of Basson’s model (pink) of the partnered female sexual response cycle highlighting features pertinent to older women (blue). (A, Reproduced with permission from Masters W, Johnson V. Human Sexual Response. Boston, MA: Little, Brown and Company; 1966. B, Adapted with permission from Basson R. The female sexual response: a different model. J Sex Marital Ther. 2000;26[1]:51–65.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p513"></a>**[p. 513]**
 
@@ -246,7 +237,6 @@ Testosterone, along with dehydroepiandrosterone (DHEA), plays an important role 
 
 *TABLE 35-5 ■ AGE-ASSOCIATED GENITOURINARY CHANGES & SYMPTOMS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 therapy for low libido was effective in clinical trials involving women with bilateral oophorectomy or total loss of ovarian function, as well as postmenopausal women with or without use of estrogen therapy (estrogen reduces bioavailable testosterone by increasing sex hormone–binding globulin production). However, the FDA has not approved testosterone for this indication. Use of testosterone or DHEA to treat female sexual dysfunction is currently off-label in the United States and most countries, and requires close monitoring for side effects. Although rare, irreversible deepening of the voice and growth of facial hair may occur with testosterone use. In the 2019 Global Consensus Position Statement, an international task force found physiologic dosing of testosterone was not associated with severe side effects; however, long-term safety and efficacy have not been established in postmenopausal women.
 
@@ -256,7 +246,6 @@ therapy for low libido was effective in clinical trials involving women with bil
 
 *FIGURE 35-6. Central and peripheral effects on sexual function. Note: + indicates a positive effect, − indicates a negative effect, ? indicates the effect is unknown; 5-HT: 5-hydroxytryptamine (serotonin). (Adapted with permission from Clayton AH. Sexual function and dysfunction in women. Psychiatr Clin North Am. 2003;26[3]:673–682.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Figure 35-6 summarizes central and peripheral hormonal mediators of sexual function (see also Chapter 97). Understanding centrally mediated neuroendocrine changes that occur with senescence is an active area of discovery, focused heavily on understanding cognitive pathophysiology. In women and female animal studies, interest in the cascade of neuroendocrine events resulting in menopause has been similarly driven by an effort to understand the role of sex hormones and hormone therapy in neuroplasticity
 
@@ -308,7 +297,6 @@ There is ample evidence that older women, including those who are not currently 
 
 *FIGURE 35-7. Examples of image and text indicating freedom from discrimination for lesbian, gay, bisexual, transsexual (LGBT) patients. Front (top left) and back (top right) of brochure for the Program in Integrative Sexual Medicine at the University of Chicago, showing rainbow flag icon indicating that LGBT patients are welcome; bottom: excerpt from patient bill of rights and responsibilities for the Cook County Health and Hospitals System indicating nondiscrimination policy. (Top, Reproduced with permission from anneryanphoto.com. Bottom, [https://cookcountyhealth.org/wp-content/uploads/2014-03-27Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf](<https://cookcountyhealth.org/wp-content/uploads/2014-03-27-Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf>).)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Table 35-6 lists basic sexual history questions that can be incorporated into a routine geriatrics encounter and should be tailored to the individual’s needs.
 
@@ -328,7 +316,6 @@ The Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5)
 
 *TABLE 35-6 ■ SEXUAL HISTORY-TAKING AND SEXUAL EDUCATION IN THE ROUTINE GERIATRICS ENCOUNTER*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Population estimates of sexual problems from the cross-sectional NSHAP study (Figure 35-8) and other studies are useful for quantifying the baseline prevalence of sexual problems in later life, or even bothersome sexual
 
@@ -340,7 +327,6 @@ problems, but should not be expected to translate precisely into population rate
 
 *TABLE 35-7A ■ THE PLISSIT MODEL FOR ADDRESSING SEXUAL HEALTH NEEDS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 defined classes of genitopelvic pain/penetration disorder and female sexual interest/arousal disorder.
 
@@ -354,7 +340,6 @@ physical and mental health, medications, substance use, and sexual function must
 
 *TABLE 35-7B ■ THERAPEUTIC MOMENT MODEL FOR ADDRESSING SEXUAL HEALTH NEEDS AS FOLLOWS:*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p519"></a>**[p. 519]**
 
@@ -362,7 +347,6 @@ physical and mental health, medications, substance use, and sexual function must
 
 *TABLE 35-8 ■ DEFINITIONS OF FEMALE SEXUAL DYSFUNCTION FROM THE DSM-5*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p520"></a>**[p. 520]**
 
@@ -370,13 +354,11 @@ physical and mental health, medications, substance use, and sexual function must
 
 *TABLE 35-8 ■ DEFINITIONS OF FEMALE SEXUAL DYSFUNCTION FROM THE DSM-5*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ![Figure 35-8](hazzard8e_ch35_figure-35-8_p520.webp)
 
 *FIGURE 35-8. Prevalence of sexual problems and associated distress among a population-based sample of older women in the United States (n = 1550). Note: Estimates are weighted to account for differential probabilities of selection and differential nonresponse. Data in this graph reflect prevalence among those of 1550 women surveyed in the National Social Life, Health and Aging Project who reported having sex in the last 12 months and having at least one sexual problem. (Data from Lindau ST, Schumm LP, Laumann EO, et al. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357[8]:762–774.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p521"></a>**[p. 521]**
 
@@ -384,7 +366,6 @@ physical and mental health, medications, substance use, and sexual function must
 
 *TABLE 35-9 ■ DRUGS IMPLICATED IN SEXUAL DYSFUNCTION, ALTHOUGH RESEARCH IS NEEDED TO BUILD THE EVIDENCE BASE FOR THE EFFECTS OF MEDICATION ON FEMALE SEXUAL FUNCTION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### Clinical Evaluation of Sexual Dysfunction
 
@@ -396,7 +377,6 @@ Although many adult female sexual function problems have a psychosocial componen
 
 *TABLE 35-10 ■ QUESTIONS TO ASSESS SEXUAL DYSFUNCTION IN THE PRIMARY CARE SETTING*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 evaluate for underlying gynecologic pathologies that may be contributing to sexual function issues. Details of the routine gynecologic examination can be found in Chapter 36. A vulvar cotton swab test can be used to quantify and localize vulvar pain, although some have questioned specificity of this test. Graded vaginal dilators can be used to demonstrate to the patient her vaginal capacity and to educate
 
@@ -418,7 +398,6 @@ Genitopelvic pain/penetration disorder is more common during and after menopause
 
 *TABLE 35-11 ■ OVERVIEW OF VAGINAL LUBRICANTS AND MOISTURIZERS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p523"></a>**[p. 523]**
 

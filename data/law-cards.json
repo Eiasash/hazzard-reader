@@ -70,7 +70,8 @@
         "Medical authority must cover health matters and be in force; a health-only ייפוי כוח רפואי (medical power of attorney) is addressed in סעיף 32טו.",
         "Temporary decision-maker under section 14a applies after a specialist determines inability to understand medical affairs and treatment is urgently needed (excluding psychiatric admission), in the absence of a medical proxy or guardian; a social worker, with the institution director’s approval, may authorize an adult in writing according to section 14b’s order of precedence and the section 14b(e) exception for a person named in an enduring power of attorney not yet in effect or in advance directives, subject to acting for the patient’s benefit, written consent and declaration, and no patient objection to that person’s authorization (section 14a(b)(4)–(6), pp9–10, 12–13).",
         "An existing temporary authorization expires if an enduring POA takes effect or a medical guardian is appointed — סעיף 14ב(ו)(3).",
-        "The enduring proxy cannot perform an act or express a wish under חוק החולה הנוטה למות — סעיף 32ו(ב)(5); that Act has a separate proxy arrangement."
+        "The enduring proxy cannot perform an act or express a wish under חוק החולה הנוטה למות — סעיף 32ו(ב)(5); that Act has a separate proxy arrangement.",
+        "מאוגוסט 2025, אישור פעולות הרכוש שבסעיף 32ו(ד) מתבקש תחילה מהאפוטרופוס הכללי לפי סעיף 74א. המועד לאישור או להודעה על העברה לבית המשפט הוא 60 יום מהגשת הבקשה או מהשלמת החומר הנדרש, לפי המאוחר."
       ],
       "sources": [
         {
@@ -82,6 +83,11 @@
           "document": "חוק זכויות החולה, תשנ_ו-1996.pdf",
           "locator": "סעיף 14א(א)–(ב); סעיף 14ב(ו)(3)",
           "via": "chapters/israel_law.md — consent chain"
+        },
+        {
+          "document": "חוק הכשרות המשפטית והאפוטרופסות (תיקון מס׳ 21), 2024",
+          "locator": "סעיפים 8–9, עמ׳ 1395–1396",
+          "url": "https://www.gov.il/BlobFolder/news/news-18-08/he/rulebook-3284.pdf"
         }
       ],
       "questions": [
@@ -822,13 +828,19 @@
         "ייפוי כוח כללי נערך בפני עו״ד שעבר הכשרה ואינו בעל עניין אישי. רפואי בלבד יכול להיערך גם בפני עו״ד ללא ההכשרה הייעודית או רופא, אח, פסיכולוג או עו״ס. הוראות לפי חוק החולה הנוטה למות דורשות מסמך נפרד. [עמ׳ 10–12]",
         "הממנה ומיופה הכוח חותמים; הפקדה אצל האפוטרופוס הכללי היא תנאי לתוקף. ההפקדה מקוונת בידי עו״ד, או באישור הממנה בדרך המתוארת במדריך. [עמ׳ 13]",
         "כניסה לתוקף כשחדל הממנה להבין ולקבל החלטות בעניינים שנכללו: לפי התנאי שנקבע; בהעדרו חוות דעת מומחה. אסור שהתנאי יהיה שיקול דעתו הבלעדי של מיופה הכוח. נדרשת הצהרה לאפוטרופוס הכללי וקיום חובת היידוע. [עמ׳ 15]",
-        "לאחר ההצהרה ומילוי התנאים ניתן אישור כניסה לתוקף. חריג לענייני רכוש בלבד: אפשר להפעיל לפי חוק השליחות גם כשהממנה מבין בדבר. [עמ׳ 16]"
+        "לאחר ההצהרה ומילוי התנאים ניתן אישור כניסה לתוקף. חריג לענייני רכוש בלבד: אפשר להפעיל לפי חוק השליחות גם כשהממנה מבין בדבר. [עמ׳ 16]",
+        "מאוגוסט 2025, אישור פעולות הרכוש שבסעיף 32ו(ד) מתבקש תחילה מהאפוטרופוס הכללי לפי סעיף 74א. המועד לאישור או להודעה על העברה לבית המשפט הוא 60 יום מהגשת הבקשה או מהשלמת החומר הנדרש, לפי המאוחר."
       ],
       "sources": [
         {
           "document": "gov-site-items/B2_enduring-POA_guide_justice-ministry.pdf",
           "locator": "PDF עמ׳ 4–7, 10–16; מדריך לממנה, עדכון 06.07.2021",
           "via": "Rendered page images; P005-2026.pdf, p. 2"
+        },
+        {
+          "document": "חוק הכשרות המשפטית והאפוטרופסות (תיקון מס׳ 21), 2024",
+          "locator": "סעיפים 8–9, עמ׳ 1395–1396",
+          "url": "https://www.gov.il/BlobFolder/news/news-18-08/he/rulebook-3284.pdf"
         }
       ],
       "questions": [
@@ -925,8 +937,8 @@
       "title": "מקבל החלטות חלופי לעניינים רפואיים דחופים.",
       "provenance": "official IMA required-reading file",
       "bullets": [
-        "למטופל בגיר שאינו יכול לתת הסכמה ונזקק לפעולה רפואית דחופה; להבדיל מפעולת חירום. אין מינוי כשידוע על אפוטרופוס רפואי, ייפוי כוח רפואי תקף או ייפוי כוח מתמשך מופקד הכולל עניינים רפואיים. [עמ׳ 1, §§1–4]",
-        "מומחה במוסד קובע צורך דחוף וחוסר יכולת להסכים גם לאחר הנגשה. עו״ס בודק מסמכים ומשפחה; אם יש מיופה כוח — נותנים לו אישור זמני ומפנים להפעלת ייפוי הכוח. אדם שנבחר בהנחיות מקדימות מקבל קדימות לפי המסמך. [עמ׳ 1–2, §4א–ג]",
+        "סעיפים 14א–14ב לחוק זכויות החולה, שנוספו בתיקון 16, מסדירים מקבל החלטות זמני לטיפול רפואי דחוף. אם כבר יש אפוטרופוס לעניינים רפואיים או מיופה כוח בעל סמכות רפואית בתוקף, פונים אליו. ייפוי כוח מתמשך שהופקד ועדיין לא נכנס לתוקף נידון לפי סעיף 14ב(ה).",
+        "מומחה במוסד קובע צורך דחוף וחוסר יכולת להסכים גם לאחר הנגשה. עו״ס בודק את המסמכים ואת בני המשפחה. כאשר יש ייפוי כוח מתמשך מופקד שטרם נכנס לתוקף, האישור הזמני יינתן לאדם הנקוב בו, בכפוף לתנאי סעיף 14א. גם מועמד שנבחר בהנחיות מקדימות למינוי אפוטרופוס מקבל קדימות. במקביל פועלים להפעלת ייפוי הכוח או למינוי, לפי העניין. [חוק זכויות החולה, סעיף 14ב(ה); הנחיית 15.2.2024, עמ׳ 1–2]",
         "סדר המשפחה כשאין מסמך: בן זוג, ילד, הורה, אח; המשפחה יכולה להסכים על בן משפחה בגיר אחר או כמה יחד/לחוד. עו״ס מחתים וממליץ; מנהל המוסד או מוסמך מטעמו מאשר בחתימה. [עמ׳ 2, §4ד–ז]",
         "תוקף: 6 חודשים, גם לפעולות בקהילה; לפני כל טיפול בודקים שהמטופל עדיין אינו יכול להסכים. אם הוא מסוגל — פועלים לפי רצונו ואין פונים למקבל ההחלטות הזמני. [עמ׳ 2, §4י]",
         "לפני שחרור בוחנים מחדש כשרות ומעדכנים את המשפחה. אפשר להסדיר מראש לפני פעולה דחופה צפויה; מחלוקת משפחתית/אי־התאמה מחייבת חלופה מתאימה, לרבות פנייה לערכאה. [עמ׳ 2–3, §§4ט, 5–7]"
@@ -936,6 +948,11 @@
           "document": "7Temporarydecision.pdf",
           "locator": "PDF עמ׳ 1–3; ״מקבל החלטות זמני לעניינים רפואיים״, 15.02.2024",
           "via": "Rendered page images; P005-2026.pdf, p. 2"
+        },
+        {
+          "document": "חוק זכויות החולה, התשנ״ו–1996, תיקון 16",
+          "locator": "סעיפים 14א, 14ב(ה), 14ב(ו)(3)",
+          "url": "https://fs.knesset.gov.il/25/law/25_lsr_3964060.pdf#page=5"
         }
       ],
       "questions": []
@@ -1321,6 +1338,11 @@
         {
           "document": "IMA P005-2026",
           "locator": "p. 1 (all candidates); pp. 3–5 (Basic additions)"
+        },
+        {
+          "document": "SHEA/IDSA focused update for CDI in adults, 2021",
+          "locator": "recommendations I–II and Table 1",
+          "url": "https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/"
         }
       ],
       "questions": [
@@ -1376,7 +1398,7 @@
           "reference": "Harrison · p. 967",
           "basis": "Official reference row: Harrison · p. 967 (refs_2022_subspec.pdf, Q73). Earlier-edition Harrison reference; edition is not specified in the official row. Mapped by Clostridioides difficile treatment to 22e ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis; no cross-edition page-number conversion.",
           "showBasis": true,
-          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q73): option ב — מומלץ להתחיל טיפול ב- VANCOMYCIN פומי. 22e mapping: ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis (Clostridioides difficile treatment). This chapter is outside the all-candidates P005-2026 list; no 22e treatment comparison is supplied here."
+          "editionComparison": "Official key (IMA 2022-Jun Subspecialty official answer key, 2022_key.pdf, p.2, Q73): option ב — מומלץ להתחיל טיפול ב- VANCOMYCIN פומי. 22e mapping: ch. 139, Clostridioides difficile Infection, Including Pseudomembranous Colitis (Clostridioides difficile treatment). This chapter is outside the all-candidates P005-2026 list. Current practice (not the book): for an initial nonfulminant episode or a first recurrence, IDSA/SHEA prefers fidaxomicin when feasible. Oral vancomycin remains an acceptable alternative (IDSA/SHEA focused update, 2021, recommendations I–II)."
         },
         {
           "id": "mcq-3ed537d091c4ac13b638e895",
@@ -9598,6 +9620,24 @@
           "reference": "Harrison 20e · p. 3076"
         }
       ]
+    },
+    {
+      "id": "moh-physical-restraint-15-2009",
+      "title": "הגבלה פיזית לצורך טיפול רפואי — משרד הבריאות 15/2009",
+      "bullets": [
+        "הגבלה פיזית לצורך טיפול רפואי מותרת לאחר מיצוי חלופות, כשאין דרך מעשית אחרת להגן על המטופל ולאפשר את הטיפול. ככל האפשר מקבלים הסכמה ומסבירים למטופל ולמשפחתו. אסור להגביל בגיר כשיר המתנגד במפורש. בהעדר הסכמה חלים התנאים שבסעיף 15(1) לחוק זכויות החולה.",
+        "רופא המחלקה, האחות האחראית במשמרת או האחות הכללית רשאים להחליט על הגבלה או התרה. כשהאחות מחליטה, מודיעים לאחות האחראית במחלקה ולרופא. מתעדים את ההוראה, מועד, סיבה, אופן הביצוע, אמצעי זהירות, משך, הסבר וזהות המבצע. המוסד קובע טופס ייעודי למעקב הסיעודי.",
+        "ההוראה תקפה עד 8 שעות ומתחדשת לאחר הערכה לתקופות של עד 8 שעות כל אחת. הגבלה רצופה מעבר ל־24 שעות מחייבת אישור מנהל המחלקה. במוסד גריאטרי, לאחר יותר משבוע רצוף ניתנת הוראת חידוש אחת ל־48 שעות.",
+        "כל שעתיים האחות מעריכה את ההכרה, שיתוף הפעולה, הצורך בהמשך ההגבלה ומצב הגפיים, משנה תנוחה, משחררת גפיים ומתעדת. איש צוות מבקר לפחות כל חצי שעה. אצל מטופל בהכרה מלאה היכול להזעיק צוות בכל עת, די בביקור אחת לשעה."
+      ],
+      "sources": [
+        {
+          "document": "חוזר מינהל רפואה 15/2009",
+          "locator": "עמ׳ 1–5, סעיפים 3–7 ו־10",
+          "url": "https://www.gov.il/BlobFolder/policy/mr15-2009/he/files_circulars_mr_mr15_2009.pdf"
+        }
+      ],
+      "questions": []
     }
   ],
   "requiredReading": {

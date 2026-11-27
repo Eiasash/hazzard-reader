@@ -60,7 +60,6 @@ Some social determinants, such as air pollution contributing to asthma and relat
 
 *FIGURE 6-1. Social determinants of health operate within and interact across all levels of the social ecological model.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p97"></a>**[p. 97]**
 
@@ -78,7 +77,6 @@ Older adults may experience age-related health disparities that result from unju
 
 *FIGURE 6-2. The National Institute on Aging health disparities framework helps to recognize the variety of reasons why health disparities exist. (Reproduced with permission from Hill CV, Pérez-Stable EJ, Anderson NA, et al: The National Institute on Aging Health Disparities Research Framework. Ethn Dis. 2015;25(3):245–254.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p98"></a>**[p. 98]**
 
@@ -102,7 +100,6 @@ Intersectionality The confluence of lifelong experiences and social identities i
 
 *FIGURE 6-3. An intersectional lens helps to understand the overlapping nature of identities.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 understanding of how health is shaped by the many ways people experience disadvantage. Avoiding oversimplifications, intersectionality instead takes into account that the experiences and identities of race, social class, gender, age, and more intermingle to confer a lack of privilege. It can also facilitate an understanding of how health experiences are inseparable from their multiple identities; for example, the experience of managing diabetes as an older adult will be tightly tied to experiences navigating health care settings as someone who identifies as Black or someone who identifies as non-gender conforming. Moreover, multiple overlapping identities are not experienced separately but in tandem, and disadvantage is not always simply additive. For example, an older Black woman cannot leave their age, race, or gender at the door before walking into a clinical encounter, and all of these must be considered when discussing and considering their health experiences, as depicted in Figure 6-3.
 
@@ -156,7 +153,6 @@ Applying a life course perspective to health disparities among older adults allo
 
 *FIGURE 6-4. Social determinants of health and health outcomes interact across life course stages and foci. (Data from 2017 National Population Projections Tables: Main Series [https://www.census.gov/data/tables/2017/](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>) demo/popproj/2017-summary-tables.html.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Life course perspectives have been applied to and investigated in common chronic health conditions, including diabetes, cardiovascular disease, respiratory disease, and specific cancers. Life course perspectives also examine trajectories in both exposures and health, and the intergenerational transmission of exposure-related health determinants. As historical and social structures remain in place across generations, exposures and related health impacts may be experienced across time.
 
@@ -218,7 +214,6 @@ When conducting assessments that consider social determinants of health, there a
 
 *TABLE 6-1 ■ LIFE STORY PROMPTS WITH SOCIAL DETERMINANTS OF HEALTH SCREENING TAILORED TO OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 match the language they use. Table 6-1 includes example life-story prompts that may allow for probing of social determinants of health and unmet needs impacting older adult health. • Comprehensive assessment of social determinants of health and use of a life-story approach may heighten awareness of barriers that older adults may face to their health and of lifelong stressors that may be shaping current status. Be ready to meet newly identified older adult needs by: • Partnering with community-based organizations to streamline referrals • Integrating mental health services to address lifelong stressors and trauma • Do not assume a person’s social identities based on their visible characteristics, or previously recorded responses. Not only are social identities self-constructed, but some can shift over time. • Do not withhold treatment or therapy based on the potential that someone’s social determinants of health may make access or implementation more
 
@@ -232,7 +227,6 @@ To initiate social determinants of health screening and intervention, begin a co
 
 *TABLE 6-2 ■ EXAMPLES OF ORGANIZATIONS PROVIDING COMMUNITY-BASED SERVICES AND SUPPORTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ## COMMUNITY-BASED SUPPORTS AND SERVICES
 

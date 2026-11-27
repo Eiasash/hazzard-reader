@@ -84,6 +84,8 @@ Fall-risk red flags: can't hold a **semi-tandem stand 10 seconds**; gait speed *
 
 DXA is preferred; in >200,000 postmenopausal women screened in primary care, ~**50%** had previously undetected low BMD (**7%** osteoporosis); BMD screening reduced hip-fracture incidence by **36%** in another study (<a href="?chapter=51#p771">p771</a>).
 
+> **Current practice: Who to screen for osteoporosis.** The USPSTF recommends screening women aged 65 or older and postmenopausal women younger than 65 whose clinical risk assessment indicates increased risk. Evidence is insufficient to recommend for or against screening men. This applies to adults without known osteoporosis or a fragility fracture. [USPSTF, 2025](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening).
+
 10-year fracture probability in an 80-year-old is **>2×** that of a 50-year-old at the same T-score (<a href="?chapter=51#p771">p771</a>).
 
 <div hidden data-study-aid="Secondary osteoporosis evaluation groups (Table 51-3)" data-reader-metadata="study-aid"></div>
@@ -116,11 +118,11 @@ The date of the last dose can identify the drug. Two missed denosumab injections
 
 **Denosumab** 60 mg SC every 6 months (dose per <a href="?chapter=51#book-table-51-5">Table 51-5</a>, <a href="?chapter=51#p774">p774</a> — the chapter's own prose on <a href="?chapter=51#p776">p776</a> prints "60 μg," a book table-vs-text discrepancy, see chapter note): **40%** ↓ hip, **68%** ↓ vertebral, **20%** ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels **12 months** after stopping, and fracture risk rises markedly in those with prior vertebral fracture (<a href="?chapter=51#p776">p776</a>).
 
-> **Current practice: Follow-on treatment after denosumab.** Plan antiresorptive follow-on before stopping or delaying treatment. Advanced CKD, particularly dialysis or CKD–mineral and bone disorder, raises the risk of severe hypocalcemia ([FDA boxed warning](https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease)).
+> **Current practice: Denosumab, advanced CKD and stopping treatment.** Plan antiresorptive follow-on before stopping or delaying denosumab. The US boxed warning identifies severe, sometimes fatal hypocalcemia in advanced CKD (eGFR <30 mL/min/1.73 m²), especially dialysis or CKD–mineral and bone disorder. Before treatment, a clinician experienced in CKD-MBD should assess mineral and bone status and correct hypocalcemia. Ensure appropriate calcium and activated vitamin D. In advanced CKD monitor serum calcium weekly for the first month and monthly thereafter. Most severe events occurred 2–10 weeks after injection, especially weeks 2–5. [FDA boxed warning, 2024](https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease) · [Prolia label, §§2.2 and 5.1, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88).
 
 **Teriparatide 20 micrograms SC daily** reduced vertebral and nonvertebral fractures by **65% and 53%**, respectively, in the trial (<a href="?chapter=51#p774">pp774</a>,<a href="?chapter=51#p776">776</a>). <a href="?chapter=51#book-table-51-5">Table 51-5</a> limits therapy to **24 months** because of the osteosarcoma signal in rats; <a href="?chapter=51#p776">p776</a> likewise says **no longer than two years**.
 
-> **Current practice: Teriparatide treatment duration.** US labeling permits treatment **beyond two years only if high fracture risk persists or returns**. Avoid in people at increased baseline osteosarcoma risk, including Paget disease, bone metastases, prior skeletal malignancy or radiation involving the skeleton. Avoid in underlying hypercalcemic disorders as a separate precaution (FDA Forteo prescribing information). [Forteo prescribing information, §§2.3 and 5.2](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021318s059lbl.pdf).
+> **Current practice: Teriparatide treatment duration.** FDA removed the teriparatide osteosarcoma boxed warning in 2020. The risk remains in §5.2. US labeling permits treatment **beyond two years only if high fracture risk persists or returns**. Avoid in people at increased baseline osteosarcoma risk, including open epiphyses, Paget disease, bone metastases, prior skeletal malignancy or radiation involving the skeleton. Avoid in underlying hypercalcemic disorders as a separate precaution (FDA Forteo prescribing information). [FDA label change, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/021318Orig1s054ltr.pdf). [Forteo prescribing information, §§2.3 and 5.2](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021318s059lbl.pdf).
 
 <a href="?chapter=51#book-table-51-5">Table 51-5</a> lists **approximately 57%** lower vertebral fracture risk with **abaloparatide 80 μg SC daily** and a maximum duration of **24 months** (<a href="?chapter=51#p774">p774</a>). *[sic — the chapter’s 18-month trial account gives an **86%** reduction in new vertebral fractures and **43%** in nonvertebral fractures (<a href="?chapter=51#p777">p777</a>).]*
 
@@ -157,6 +159,8 @@ A SARC-F score ≥ 4 (out of 10) is predictive; SARC-F assesses Strength, Assist
 - SOF cohort: **54%** of women who suffered a hip fracture had a hip T-score *better* than −2.5 at baseline — **BMD alone under-captures risk**; age matters more (<a href="?chapter=51#p771">p771</a>).
 
 - High-dose vitamin D **bolus** dosing (500,000 IU/year or 60,000 IU/month) **increases fall risk** — avoid (<a href="?chapter=51#p773">p773</a>).
+
+> **Current practice: Vitamin D for prevention in otherwise healthy adults.** For generally healthy adults aged 75 or older, the Endocrine Society suggests empiric supplementation, preferably with daily lower doses. Routine 25(OH)D testing is discouraged without an indication such as hypocalcemia. This prevention guidance addresses people without an established indication for testing or treatment. [Endocrine Society, recommendations 6–7, 2024](https://doi.org/10.1210/clinem/dgae290).
 
 ## Israeli context
 

@@ -58,7 +58,6 @@ Lung cancer is broadly characterized into non–small-cell lung cancer (NSCLC) v
 
 *TABLE 91-1 ■ OVERVIEW OF LUNG CANCER STAGING, EPIDEMIOLOGY, AND TREATMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 EGFR, epidermal growth factor receptor; ICI, immune checkpoint inhibitor; PCI, prophylactic cranial irradiation; RT, radiation therapy; TKI, tyrosine kinase inhibitor; TNM, tumor, node, metastasis.
 
@@ -160,7 +159,6 @@ After the introduction of pembrolizumab in biomarker-selected patients (PD-L1 > 
 
 *TABLE 91-2 ■ FIRST-LINE TREATMENT FOR PATIENTS WITH METASTATIC NON–SMALL-CELL LUNG CANCER WITH TARGETABLE MOLECULAR ALTERATIONS (CONTINUED)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 (Continued)
 
@@ -170,7 +168,6 @@ After the introduction of pembrolizumab in biomarker-selected patients (PD-L1 > 
 
 *TABLE 91-2 ■ FIRST-LINE TREATMENT FOR PATIENTS WITH METASTATIC NON–SMALL-CELL LUNG CANCER WITH TARGETABLE MOLECULAR ALTERATIONS (CONTINUED)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ALK, anaplastic lymphoma kinase; ALT, alanine aminotransferase; AST, aspartate aminotransferase; CI, confidence interval; EGFR, epidermal growth factor receptor; HR, hazard ratio; m, months; mDoR, median duration of response; mOS, median overall survival; mPFS, median progression-free survival; NR, not reported; ORR, objective response rate; TKI, tyrosine kinase inhibitor.
 
@@ -184,7 +181,6 @@ Although data are limited, age is not a contraindication for chemotherapy. Histo
 
 *TABLE 91-3 ■ FIRST-LINE TREATMENT FOR PATIENTS WITH METASTATIC NON–SMALL-CELL LUNG CANCER WITHOUT TARGETABLE MOLECULAR ALTERATIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 CI, confidence interval; HR, hazard ratio; ICI, immune checkpoint inhibitor; m, months; mOS, median overall survival; mPFS, median progression-free survival; NR, not reported; ORR, objective response rate; PD-L1, programmed death ligand 1; TPS, tumor proportion score.
 

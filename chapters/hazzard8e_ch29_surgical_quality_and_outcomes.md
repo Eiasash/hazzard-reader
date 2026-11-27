@@ -118,7 +118,6 @@ Additionally, older patients can benefit from a personalized care plan that inco
 
 *FIGURE 29-1. The future: personalized surgical care for older adults.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p404"></a>**[p. 404]**
 

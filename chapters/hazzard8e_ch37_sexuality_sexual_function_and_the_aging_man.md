@@ -52,7 +52,6 @@ As of 2017, somewhere between 1.4% and 2.4% of older men identified themselves a
 
 *FIGURE 37-1. A. Prevalence, by age group, of male sexual activity with a partner in previous 12 months obtained from a survey of a probability sample of 3000 US adults age 57 to 85 and from a population-based cohort study of 3274 men age 75 to 95. B. Prevalence of male sexual activity with a partner in previous 12 months, by age group, and of cognitive status as determined by short cognitive assessment tool, obtained from a survey of a probability sample of community-dwelling men aged 62 to 91. (A, blue bars, Data from Lindau ST, Schumm LP, Laumann EO, Levinson W, O’Muircheartaigh CA, Waite LJ. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357[8]:762–774. A, red bars, Data from Hyde Z, Flicker L, Hankey GJ, et al. Prevalence of sexual activity and associated factors in men aged 75 to 95 years: a cohort study. Ann Intern Med. 2010;153[11]:693–702. B, Data from Lindau ST, Dale W, Feldmeth G, et al. Sexuality and cognitive status: a U.S. nationally representative study of home-dwelling older adults. J Am Geriatr Soc. 2018;66[10]:1902–1910.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 may suffer additional problems. GBT older men can face discrimination when seeking health care, and many service providers are poorly prepared to work with them. Additionally, these older men are likely to suffer additional stress while trying to find a partner, especially if their living situation changes and they move into assistedliving facilities or nursing homes. While assisted living and long-term care facilities have been evolving to become more welcoming to the LGBT community, disparities in care still exist. Specific organizations that address issues of aging gay, bisexual, or transgender persons have formed across the country.
 
@@ -66,7 +65,6 @@ Older GBT males should be encouraged to make advance directives for health and t
 
 *TABLE 37-1 ■ CHANGES IN THE MALE SEXUAL RESPONSE CYCLE WITH AGE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 facilitate the ability of their partners to make their health decisions.
 
@@ -96,7 +94,6 @@ The major categories of sexual dysfunction in older men include erectile dysfunc
 
 *FIGURE 37-2. Prevalence, by age group, of erectile dysfunction (ED) from a longitudinal population-based study of community-dwelling men, and the 10-year follow-up incidence of cardiovascular events as a function of baseline presence or absence of ED. (Data from Inman BA, Sauver JL, Jacobson DJ, et al. A population-based, longitudinal study of erectile dysfunction and future coronary artery disease. Mayo Clin Proc. 2009;84[2]:108–113.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 study of middle-aged and older men, the reported incidence of some degree of ED was 55% for men at age 60, and 65% for men at 70 years; the prevalence of total ED was 15% at age 70. In a population-based prospective cohort study in Olmsted County, Minnesota, ED prevalence was 6% in men aged 50 to 59, 17% in men aged 60 to 69, and 39% in men aged 70 and older (Figure 37-2). Libido is dependent on learned responses, general health-related quality of life, and, to some extent, serum testosterone levels. As will be discussed later in this chapter, testosterone levels decline in men with normal aging, and some men may reach levels that are low enough to affect libido. Similarly, treatment of prostate cancer with androgen deprivation therapy (ADT) resulting in severe testosterone deficiency can be associated with loss of libido.
 
@@ -112,7 +109,6 @@ Etiologies Table 37-2 lists the major etiologies of ED. Vascular disease, which 
 
 *TABLE 37-2 ■ MAJOR ETIOLOGIES OF ERECTILE DYSFUNCTION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 occlusive disease and corpora cavernosal venous leak, is the most common cause of ED. The likely mechanism is that penile hypoxia leads to replacement of corpora smooth muscle by connective tissue, which results in impaired cavernosal expandability and inability to compress subtunical venules.
 
@@ -160,7 +156,6 @@ The most common first-line therapy of ED is an oral phosphodiesterase type 5 (PD
 
 *TABLE 37-3 ■ CURRENT MEDICAL TREATMENT OPTIONS FOR ERECTILE DYSFUNCTION AVAILABLE IN THE UNITED STATES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 have similar efficacy. Tadalafil has a longer duration of action and avanafil may have a more rapid onset of action compared to the others. Sildenafil and vardenafil must be taken on an empty stomach, as high-fat meals and/or alcohol delay their absorption, but food does not interfere significantly with the absorption of tadalafil or avanafil. They all require sexual stimulation to work effectively. Men with diabetes mellitus or after prostatectomy usually have more severe ED at baseline, so they often respond less well to PDE-5 inhibitors. Men who are hypogonadal may find PDE-5 inhibitors more effective if combined with testosterone therapy.
 

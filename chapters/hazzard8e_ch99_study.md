@@ -244,11 +244,11 @@ The 2019 Endocrine Society guideline (Table 99-6); a similar framework appears i
 
 </details>
 
-**13. Which sulfonylurea should be avoided in older adults, and why?**
+**13. Which long-acting sulfonylurea does Hazzard single out for prolonged hypoglycemia?**
 
 <details><summary>Answer</summary>
 
-Glyburide — long half-life raises hypoglycemia risk (p1579).
+Glyburide, because of its long action (p1579). Current practice: the 2023 AGS Beers Criteria advise avoiding sulfonylureas as first- or second-line unless there are substantial barriers to safer agents. If one is needed, prefer a short-acting agent such as glipizide over glyburide or glimepiride.
 
 </details>
 

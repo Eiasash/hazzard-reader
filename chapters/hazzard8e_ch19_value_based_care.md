@@ -46,7 +46,6 @@ to more traditional models of fee-for-service medicine. In fee-for-service, prov
 
 *FIGURE 19-1. High- and low-value care.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### Low-Value Care
 
@@ -62,7 +61,6 @@ While models of value-based care are variable and there are no one-size-fits-all
 
 *TABLE 19-1 ■ AMERICAN GERIATRICS SOCIETY CHOOSING WISELY GUIDELINES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 First, they tend to feature some type of financial risk sharing between the payer (eg, a health plan) and the provider (eg, a hospital). Second, there is almost always effort devoted to quality measurement. Third, there is often increased care coordination than might be traditionally included in a feefor-service model. Fourth, many models also embrace concepts of population health management.
 
@@ -76,7 +74,6 @@ Financial risk sharing can take many forms and exists along a spectrum (Figure 1
 
 *FIGURE 19-2. Spectrum of risk sharing.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 on more risk, which incentivizes the provision of higher quality services.
 
@@ -104,7 +101,6 @@ Care coordination is defined by the Agency for Healthcare Research and Quality a
 
 *TABLE 19-2 ■ EXAMPLES OF CARE COORDINATION ACTIVITIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 and improved patient outcomes, care coordination has the potential to address both.
 
@@ -160,7 +156,6 @@ The PACE model serves nursing home eligible seniors’ chronic care needs and th
 
 *TABLE 19-3 ■ MODELS OF CARE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p269"></a>**[p. 269]**
 
@@ -168,7 +163,6 @@ The PACE model serves nursing home eligible seniors’ chronic care needs and th
 
 *TABLE 19-3 MODELS OF CARE (CONTINUED)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p270"></a>**[p. 270]**
 
@@ -268,7 +262,6 @@ Burdens and challenges of measurement One potential concern that has arisen in v
 
 *TABLE 19-4 ■ CONSOLIDATED FRAMEWORK FOR IMPLEMENTATION RESEARCH*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 the many patient-centered factors related to treatment decisions in vulnerable older patients could result in more harm than good in terms of driving episodes of hypoglycemia and their consequences, and hypotension and near syncope and falls.
 
@@ -280,7 +273,6 @@ Risk adjustment The issue of risk adjustment is central to the success of value-
 
 *TABLE 19-5 ■ COMMON HIERARCHICAL CONDITION CATEGORY CONDITIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 “cherry-pick” healthier patients who will save them money. Risk adjustment takes account of a patient’s underlying risk of adverse outcomes and high spending, and will lead to higher payments for their care than a healthier patient. One example of risk adjustment that the Medicare program uses is Hierarchical Condition Categories, which assign risk scores to patients on the basis of specific chronic conditions and are used to adjust payments in MA. A list of common HCC codes and the adjustment factor attributed to each is in Table 19-5.
 

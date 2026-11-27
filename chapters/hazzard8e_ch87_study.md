@@ -81,7 +81,7 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - Normal total gut transit <**72 h**; older adults with chronic constipation average **4-9 days**, extending to **6 days to >14 days** if bedridden/institutionalized (p1356).
 - Slowed transit reduces stool water content (normally **75%**), shrinking fecal bulk and further blunting propulsive activity — a self-worsening cycle (p1356).
 - **37%** of non-constipated older adults were unable to evacuate a small solid sphere in simulated defecation studies (p1357).
-- Table 87-4 age-related mechanisms of chronic constipation (owner-highlighted): increased colonic collagen deposition, reduced inhibitory nerve input to circular muscle, and increased plasma-endorphin binding to gut receptors (p1356).
+- Table 87-4 age-related mechanisms of chronic constipation: increased colonic collagen deposition, reduced inhibitory nerve input to circular muscle, and increased plasma-endorphin binding to gut receptors (p1356).
 
 ### Risk Factors
 - Polypharmacy (≥**5 medications**) is an established risk factor (p1359); nursing home residents average **6-9 meds/day** (p1358). Anticholinergic drugs are the only medication class with level [1] evidence in Table 87-5 (p1359).
@@ -124,7 +124,7 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - **Prucalopride** — 5-HT4 agonist; unlike older 5-HT4 agents (cisapride, tegaserod), not associated with major adverse cardiovascular events (p1377).
 - **PAMORAs for opioid-induced constipation.** Hazzard reports **>3 complete spontaneous bowel movements (CSBMs)** for naldemedine (**52% vs 35%**) and **≥3 CSBMs/week** for naloxegol (**42% vs 29%**) (p1378).
   > Current practice (not the book): The pivotal trials measured spontaneous bowel movements, without requiring a sense of complete evacuation. Responders had at least three per week and at least one more than baseline for nine of twelve weeks, including three of the last four. [COMPOSE trials](https://pubmed.ncbi.nlm.nih.gov/28576452/) · [KODIAC trials](https://doi.org/10.1056/NEJMoa1310246)
-- Table 87-9 laxative mechanisms (owner-highlighted): sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); the table describes lactulose and sorbitol together as “Nonabsorbable disaccharides” fermented by colonic bacteria *[sic — lactulose is a disaccharide; sorbitol is a sugar alcohol]*; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
+- Table 87-9 laxative mechanisms: sodium picosulfate is hydrolyzed by colonic bacteria, bisacodyl by intestinal/colonic brush-border enzymes — both to the same active metabolite (antiabsorptive/secretory, prokinetic); the table describes lactulose and sorbitol together as “Nonabsorbable disaccharides” fermented by colonic bacteria *[sic — lactulose is a disaccharide; sorbitol is a sugar alcohol]*; PEG osmotically increases intraluminal fluids; senna/anthraquinones alter electrolyte transport via increased intraluminal fluids, stimulate the myenteric plexus, and increase motility (p1373–1374).
 
 *The June 2025 pseudo-obstruction option pairs neostigmine with the brand name of a different drug (see Israeli context above).*
 

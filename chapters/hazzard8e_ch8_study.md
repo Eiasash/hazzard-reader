@@ -50,9 +50,13 @@ Cognitive screens can alter the probability of dementia but do not diagnose it; 
 
 The chapter reports PHQ-9 above **10** with **88%** sensitivity and **88%** specificity; the chapter says caregivers can complete the Cornell scale in dementia and reports **93%** sensitivity and **97%** specificity at a Cornell score of at least **6** (<a href="?chapter=8#p123">p123</a>).
 
+> **Current practice: Interpreting a PHQ-9 score of 10.** The original validation included a score of exactly 10 in the positive group (≥10), with 88% sensitivity and 88% specificity for major depression. A positive screen warrants clinical assessment. [Kroenke et al., 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC1495268/).
+
 > **Current practice: Cornell depression assessment.** In the original Cornell instrument, the clinician rates symptoms using information from the patient and an informant. [Alexopoulos et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3337862/).
 
 **Nutrition, bladder and medications.** Compare current weight with a measured baseline. More than 4% loss in the preceding year prompts evaluation in the office. Look for barriers to obtaining or preparing food. In hospital, observe how much of a meal is eaten because inflammation and acute illness can lower albumin. Ask directly about urinary leakage. The 3IQ distinguishes stress, urge and mixed patterns in women through the circumstances of leakage. Reconcile prescription and nonprescription products. A symptom appearing after a new medicine should prompt evaluation of the drug before treating the symptom with another prescription. [Hazzard 8e, pp. 119–121](?chapter=8#ch8-bladder).
+
+> **Current practice: Medication review.** Reconcile medicines against the patient’s goals. STOPP/START version 3 pairs potentially harmful treatment with important prescribing omissions. The US Beers criteria flag drug–disease and drug–drug interactions. [STOPP/START version 3, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10447584/) · [AGS Beers Criteria, 2023, Tables 2–5](https://doi.org/10.1111/jgs.18372).
 
 Observe walking and chair rise. Timed Up and Go uses a **3-m** walk; over **12 seconds** warrants further evaluation in the prose; <a href="?chapter=8#book-table-8-3">Table 8-3</a> reports a **>15-second** test cutpoint (<a href="?chapter=8#p121">p121</a>).
 

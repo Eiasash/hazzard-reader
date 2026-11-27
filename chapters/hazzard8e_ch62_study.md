@@ -82,7 +82,7 @@ Deep hemorrhage most commonly reflects hypertensive disease of small penetrating
 
 Assess location, mass effect and anticoagulant exposure promptly. A stable repeat scan does not reverse warfarin. For warfarin-associated intracerebral hemorrhage the printed treatment is **IV vitamin K plus fresh frozen plasma/cryoprecipitate or PCC** (<a href="?chapter=62#p977">p977</a>).
 
-> **Current practice: warfarin reversal in intracerebral hemorrhage.** In VKA-associated spontaneous ICH with INR ≥2.0, four-factor PCC is preferred to FFP for rapid reversal, with IV vitamin K given directly after factor replacement — [AHA/ASA ICH guideline, 2022](https://doi.org/10.1161/STR.0000000000000407).
+> **Current practice: Warfarin reversal in intracerebral hemorrhage.** For spontaneous ICH on a vitamin K antagonist with INR ≥2.0, give four-factor PCC in preference to fresh frozen plasma, then IV vitamin K promptly to sustain reversal. PCC may also be reasonable at INR 1.3–1.9. Plasma is an alternative if PCC is unavailable. Cryoprecipitate alone does not replace the vitamin K–dependent factors. [AHA/ASA spontaneous ICH guideline, section 5.2.1, 2022](https://doi.org/10.1161/STR.0000000000000407).
 
 ### Seizures after stroke
 

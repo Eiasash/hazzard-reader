@@ -54,8 +54,6 @@ The oral cavity is richly endowed with sensory systems that contribute to the en
 
 *TABLE 32-1 ■ ORAL TISSUES AND THEIR FUNCTIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 that modulate oral microbial colonization. Biomarkers of systemic (eg, C-reactive protein [CRP], interleukin [IL]-6) and oral inflammation are present in saliva. Other proteins maintain the functional integrity of teeth by keeping saliva supersaturated with respect to calcium and phosphate salts and provide the first role in repairing early dental caries (tooth decay) via a remineralization process.
 
 ## TOOTH LOSS AND DENTAL CARIES
@@ -66,21 +64,15 @@ The loss of teeth has long been associated with aging. However, older adults los
 
 *TABLE 32-2 ■ ORAL-PHARYNGEAL PROCESSES IN OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 ![Table 32-3](hazzard8e_ch32_table-32-3_p454.webp)
 
 *TABLE 32-3 ■ CLINICAL MANIFESTATIONS OF ORAL INFECTIONS*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p455"></a>**[p. 455]**
 
 ![Figure 32-1](hazzard8e_ch32_figure-32-1_p455.webp)
 
 *FIGURE 32-1. Cross-section of tooth.*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 there is a correspondingly greater risk for the development of both of these disease entities.
 
@@ -100,8 +92,6 @@ For an older adult with teeth, dental caries is a significant concern and may be
 
 *FIGURE 32-2. A. Dental caries, dental plaque, and B. gingival recession in two patients with dementia.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p456"></a>**[p. 456]**
 
 and neck, and infection in the systemic circulation (septicemia). Once teeth have been destroyed from dental caries or periodontal disease, mastication, phonation, and swallowing are perturbed. Finally, social contact and nutritional status may be affected in an edentulous aging individual.
@@ -117,8 +107,6 @@ Periodontal diseases are more prevalent in the aging population than with younge
 ![Figure 32-3](hazzard8e_ch32_figure-32-3_p456.webp)
 
 *FIGURE 32-3. Periodontal and gingival disease.*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 greater amounts in older healthy adults. However, many systemic diseases and therapeutic regimens commonly found in older individuals adversely affect periodontal health. Therefore, older, medically compromised adults and smokers are especially susceptible to developing periodontal diseases and at risk for associated dental-alveolar infections, pain, and tooth loss.
 
@@ -144,8 +132,6 @@ The physiologic findings contrast with the morphologic changes seen in aging sal
 
 *TABLE 32-4 ■ CAUSES OF SALIVARY HYPOFUNCTION IN OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 not diminish with increasing age. Current thinking is that salivary glands possess a functional reserve capacity that enables them to maintain fluid output throughout the human adult life span. There is evidence that with a reduced reserve capacity, additional burdens placed on aging salivary glands (eg, anticholinergic medications) increase vulnerability to functional decline. Therefore, salivary hypofunction (the objective finding) and complaints of xerostomia (the subjective finding) should not be considered normal sequelae of aging but instead are indicative of a variety of diseases and their treatments (Table 32-4). Many medications taken by older adults reduce or alter salivary gland performance, as can dehydration. In addition, radiation for head and neck neoplasms and cytotoxic chemotherapy have direct and dramatic deleterious effects on salivary glands.
 
 The most common disease affecting salivary glands is Sjögren syndrome, an autoimmune exocrinopathy that occurs predominantly in postmenopausal women. Alzheimer disease, diabetes, dehydration, rheumatoid arthritis, and cerebrovascular accidents may also affect salivary output. Several oral inflammatory and obstructive salivary gland disorders (eg, bacterial infections, sialoliths, trauma, neoplasms) result in salivary dysfunction, as well as benign and malignant salivary tumors.
@@ -157,8 +143,6 @@ A clinician is likely to encounter many older patients with oral complaints rela
 ![Figure 32-4](hazzard8e_ch32_figure-32-4_p458.webp)
 
 *FIGURE 32-4. Candidiasis of lateral border of tongue.*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 glands and inspection of the duct orifices while milking the glands to ensure gland patency. The application of a mild solution of citric acid or lemon juice to the tongue can help determine whether a patient’s salivary glands will respond to a gustatory stimulus. Regardless of etiology, any of the major oral physiologic roles influenced by saliva (see Table 32-1) may be affected adversely. With impaired glandular output, dental caries will increase, increasing the possibility of tooth loss. The oral mucosa becomes desiccated and cracked, leaving the host more susceptible to microbial infection (Figure 32-4). Older adults with salivary gland hypofunction may experience difficulty swallowing or speaking at length, pain (which may arise from either the teeth or the oral soft tissues), impaired denture use, altered taste, and diminished food enjoyment.
 
@@ -186,8 +170,6 @@ The complaint of a smell or taste problem may be indicative of a chemosensory di
 
 *FIGURE 32-5. Denture scar on palate in patient with xerostomia (dry mouth). Arrow highlights the denture scar on palate.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 ## ORAL MUCOSA
 
 Three general types of soft tissue line the mouth: (1) well-keratinized tissue with a dense layer of connective tissue and firmly attached to underlying bone (marginal gingiva, palatal mucosa), (2) slightly keratinized and freely movable tissue (labial and buccal mucosa, floor of the mouth), and (3) specialized mucosa (dorsum of the tongue). The primary function of the oral mucosa is to act as a barrier to protect the underlying structures from desiccation, noxious chemicals, trauma, thermal stress, and infection. The oral mucosa plays a key role in the defense of the oral cavity.
@@ -206,8 +188,6 @@ Oral mucosal alterations in an older person are often a result of multiple oral 
 
 *TABLE 32-5 ■ CONDITIONS ASSOCIATED WITH ORAL MUCOSAL CHANGES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 used in older patients for arthritic conditions, hypertension, cardiac arrhythmias, seizures, and dementia are associated with lichenoid-like reactions. The withdrawal of a causative drug usually results in complete resolution of the lesion within 2 to 3 weeks, but if there is no clinical improvement, a definitive diagnosis should be obtained with a biopsy specimen.
 
 Many oral mucosal disorders can affect older people, ranging from benign (eg, recurrent aphthous ulcers and traumatic lesions) to malignant (eg, squamous cell carcinomas) (Figure 32-6A and B). The diagnosis of mucosal diseases requires a detailed history and a thorough head and neck and oral examination, including all mucosal tissues. For vesiculobullous and erosive diseases, a simple threeitem classification is helpful: (1) acute multiple lesions (eg, erythema multiforme, herpes simplex, herpes zoster, allergic reaction), (2) recurring oral ulcers (eg, recurrent aphthous stomatitis, traumatic ulcer), and (3) chronic multiple lesions (eg, pemphigus vulgaris, mucous membrane pemphigoid, lupus erythematosus, lichen planus, dysplasia, squamous cell carcinoma). If a lesion does not resolve after 2 to 3 weeks, a tissue biopsy is required. For lesions that are suspected to be oral manifestations of autoimmune connective tissue disorders (eg, pemphigus, pemphigoid,
@@ -216,15 +196,11 @@ Many oral mucosal disorders can affect older people, ranging from benign (eg, re
 
 *FIGURE 32-6. A. Squamous cell carcinoma, floor of the mouth. B. Squamous cell carcinoma, soft palate, retromolar pad.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p461"></a>**[p. 461]**
 
 ![Table 32-6](hazzard8e_ch32_table-32-6_p461.webp)
 
 *TABLE 32-6 ■ TREATMENT OF COMMON VESICULOBULLOUS AND EROSIVE DISEASES IN OLDER ADULTS*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 lichen planus), biopsies should also include specimens for direct immunofluorescence. If trauma from an injury or an ill-fitting denture is suspected, removal of the etiology should allow the lesion to heal. Many of these conditions have an immunologic etiology, and therefore management strategies involve topical and/or systemic immunomodulating agents (Table 32-6).
 
@@ -272,8 +248,6 @@ There are important disparities in access to dental care, tooth loss, unfilled c
 
 *FIGURE 32-7. A. Tooth loss and caries are more prevalent in older adults with fair/poor health. B. Oral quality of life by selfreported health. The Y axis in both A and B is percent prevalence. (Data from Griffin SO, Jones JA, Brunson D, et al. Burden of oral disease among older adults and implications for public health priorities. Am J Public Health. 2012;102[3]:411-418.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 oral cancers among the poor, near poor, and racial and ethnic minorities. Insurance affects access for persons age 65 and older : “54% of adults with private health care coverage had visited dental professional within the past 6 months, compared with 41% of adults who had only Medicare and 25% who had Medicare plus Medicaid” (CDC, 2014). Thus, the so-called dual eligibles are the most likely group of older persons to not have access to dental care. In addition, while past dental care use has improved slightly among persons age 65 and older since 1999 to 2004 for persons above 200% of the federal poverty level (FPL), it is lower among persons below 200% of this level (Figure 32-8A).
 
 Baby boomers will be keeping their teeth longer and in greater numbers than ever before; however, dental decay (caries) is now as much of a problem in older adults as in children. NHANES caries data from 1999 to 2004 and 2011–2016 (Figure 32-8B) showed that among persons age 65 and older, prevalence of unfilled caries was higher among persons below 200% of the FPL (18% vs 25%) in contrast with persons 200% or more of the FPL, where unfilled caries rates were lower in 2011 to 2016 (16% vs 14%). NHANES data from 2011 to 2016 show that unfilled decay was highest among Mexican Americans, nonHispanic Blacks and the poor, while complete tooth loss (edentulism) is lowest among Whites and highest among the poor and African-Americans (Figure 32-8C). Disparities in access and dental conditions are the starkest in nursing homes and senior centers. In nine Basic Screening Surveys across the United States, edentulism ranged from 25% to 43% (median 33%) and unfilled caries from 25% to 53% (median 40%). National SEER data show that new oral and pharyngeal cancer rates are highest among male Whites, yet death rates are highest among African-American men (Figure 32-9).
@@ -294,8 +268,6 @@ A positive response to one or both predicts the need for treatment. Any combinat
 
 *FIGURE 32-8. A. Percent with past year dental care use among 65+ year olds, USA, 1999-2004 and 2011-2016. B. Percent with untreated dental caries among 65+ year olds, USA, 1999-2004 and 2011-2016. C. Percent with edentulism and untreated dental caries among 65+ year olds by income, race and ethnicity, USA, 2011. Federal poverty level (FPL) is a measure of income issued every year by the Department of Health and Human Services (HHS). (A & B, Data from Griffin SO, Thornton-Evans G, Wei L, et al. Disparities in dental use and untreated caries prevalence by income. JDR Clin Trans Res. 2021;6[2]:234–241. C, Data from Griffin SO, Griffin PM, Li CH, et al. Changes in older adults’ oral health and disparities: 1999 to 2004 and 2011 to 2016. J Am Geriatr Soc. 2019;67[6]:1152–1157.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 that the needs of the patient are addressed in a timely and thorough manner. Important interactions may involve the primary care physician, specialist physician, nurse, nurse practitioner, physician assistant, dentist, dental specialist,
 
 dental hygienist, dental assistant, and health aides. One key goal is to determine the need for antibiotic premedication prior to dental treatment. Premedication is often considered for patients with risk for endocarditis, autoimmune
@@ -305,8 +277,6 @@ dental hygienist, dental assistant, and health aides. One key goal is to determi
 ![Figure 32-9](hazzard8e_ch32_figure-32-9_p465.webp)
 
 *FIGURE 32-9. Oral and pharyngeal cancer incidence and deaths by race and ethnicity, sex, per 100,000, USA, 2013-2018. (Data from SEER: [https://seer.cancer.gov/statfacts/html/oralcav.html](<https://seer.cancer.gov/statfacts/html/oralcav.html>).)*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 disease, chemotherapy, joint replacement, or heart murmurs. Another goal is to establish appropriate antianxiety premedication regimes for patients with psychiatric, social, and medical conditions to ensure that optimal dental treatment can be rendered efficiently.
 
@@ -329,8 +299,6 @@ First, it is important to identify any limitations the patient may have. Oral he
 ![Table 32-7](hazzard8e_ch32_table-32-7_p465.webp)
 
 *TABLE 32-7 ■ TOP 10 ORAL HEALTH OUTCOMES IN LONG-TERM CARE*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p466"></a>**[p. 466]**
 

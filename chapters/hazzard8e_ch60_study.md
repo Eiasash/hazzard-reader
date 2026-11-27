@@ -98,6 +98,8 @@ Haloperidol **0.5–5** mg/day — high EPS risk; should not be a first-line neu
 
 Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (<a href="?chapter=60#p928">p928</a>)
 
+> **Current practice: Reconciling the Parkinson psychosis doses.** Table 60-8 agrees with the current US dose. Chapter 61 gives an older 17-mg schedule on [p946](?chapter=61#p946). The current dose is 34 mg **once daily**, reduced to 10 mg once daily with a strong CYP3A4 inhibitor. [Nuplazid label, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6bea44-57d6-4bac-9328-46e1ee59f83b).
+
 > **Current practice: Brexpiprazole indications.** brexpiprazole received FDA approval in May 2023 for agitation associated with Alzheimer dementia; its boxed warning states increased mortality in older patients with dementia-related psychosis treated with antipsychotics - AGS Alternatives 2025, <a href="https://pubmed.ncbi.nlm.nih.gov/40697073/">Table 3</a> footnote e, <a href="?chapter=1#p12">p12</a>; FDA announcement, 11 May 2023, approval and boxed-warning paragraphs
 
 Paroxetine — anticholinergic properties, should be avoided in older adults (<a href="?chapter=60#p930">p930</a>); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (<a href="?chapter=60#p929">p929</a>).

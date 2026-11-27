@@ -80,6 +80,8 @@ Thermography: in one NH study, areas of blanchable erythema with cooler skin tem
 
 **Pitfall.** **Pressure injury staging.** The chapter uses the 2016 NPIAP revision (<a href="?chapter=46#p686">p686</a>).
 
+> **Current practice: Positioning and pressure redistribution.** Individualize the turn angle and support surface. A 30° lateral tilt may need adjustment to 40° with a higher BMI. Keep the head of the bed ≤30° when the clinical situation permits. Use small weight shifts if full turns are unsafe. [International Pressure Injury Guideline, fourth edition, repositioning](https://www.internationalguideline.com/repositioning) · [Support surfaces](https://www.internationalguideline.com/surfaces).
+
 ## Wound bed, infection and debridement
 
 ### Remove necrosis safely and recognize deep infection

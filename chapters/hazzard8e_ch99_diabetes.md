@@ -8,7 +8,7 @@ Pearl G. Lee, Jeffrey B. Halter
 
 > **2026 exam.** Five questions of the 2026 specialist sitting tested this chapter: Q6, Q25, Q37, Q49, Q59 (IMA reference list 885647). The questions follow the clinical text.
 
-> **Guideline date.** The chapter cites the ADA 2021 Standards of Care and the 2019 Endocrine Society guideline. The recommendations refer to those editions. Tables 99-6, 99-11 and 99-12 describe treatment targets, drug choices and insulins available at publication. Use these historical targets for questions that specify this edition.
+> Current practice (not the book): At assessment and at least annually, identify cognitive impairment, depression, falls, incontinence, frailty, hypoglycemia and medication burden. Match the regimen to the person’s function and available support. [ADA Standards of Care, 2026, §13](https://doi.org/10.2337/dc26-s013) (recommendations 13.1–13.2).
 
 > **Terminology.** Tables 99-11 and 99-12 contain discrepancies in drug names and dose formatting. The superscript asterisk after "Endocrine Society" in the source lines is the book's.
 
@@ -408,7 +408,7 @@ Some of the risk factors for CVD among diabetic patients include hyperglycemia, 
 
 <sub>Note: While glucose targets are highlighted for each group in this framework, overall health categories can also be considered for other treatment goals, such as blood pressure and dyslipidemia. See Appendix A on “How to use the conceptual framework.” ᵃCoexisting chronic illnesses may include osteoarthritis, hypertension, chronic kidney disease stages 1–3, or stroke, among others. ᵇOne or more chronic illnesses with limited treatments and reduced life expectancy. These include metastatic cancer, oxygen-dependent lung disease, end-stage kidney disease requiring dialysis, and advanced heart failure. ᶜAs long as achievable without clinically significant hypoglycemia; otherwise, higher glucose targets may be appropriate. Note also that the lower HbA1C boundary was included, as data suggesting increased hypoglycemia and mortality risk at lower HbA1C levels are strongest in the setting of insulin use. However, the lower boundary should not reduce vigilance for detailed hypoglycemia assessment. ᵈHbA1C of 8.5% correlates with an average glucose level of approximately 200 mg/dL. Higher targets than this may result in glycosuria, dehydration, hyperglycemic crisis, and poor wound healing. ᵉADLs include bathing, dressing, eating, toileting, and transferring, and IADLs include preparing meals, shopping, managing money, using the telephone, and managing medications. Includes data from Cigolle CT, Kabeto MU, Lee PG, Blaum CS. Clinical complexity and mortality in middle-aged and older adults with diabetes. J Gerontol A Biol Sci Med Sci 2012; 67(12); 1313-1320 (39); and from Kirkman MS, Jones Briscoe V, Clark N, et al. Diabetes in older adults. Diabetes Care 2012; 35(12); 2650–2664 (40). Abbreviations: IADL, instrumental activity of daily living; ADL, activity of daily living; SU, sulfonylurea. Reproduced with permission from LeRoith D, Biessels GJ, Braithwaite SS, et al. Treatment of diabetes in older adults: an Endocrine Society<sup>*</sup> clinical practice guideline. J Clin Endocrinol Metab. 2019;104(5):1520–1574.</sub>
 
-> **Guideline date.** Targets as given by the 2019 Endocrine Society guideline the table reproduces. These targets refer to the 2019 guideline. The official answers to 2026 Q25 and Q37 use this table.
+> Current practice (not the book): For healthy older adults an A1C goal below 7.0–7.5% is reasonable. With CGM, aim for at least 70% in 70–180 mg/dL and at most 4% at or below 70 mg/dL. In complex/intermediate health, individualize toward A1C below 8%, at least 50% in range and less than 1% below 70 mg/dL. In very complex/poor health, use symptoms and glucose readings to avoid hypoglycemia and symptomatic hyperglycemia. For short-term skilled nursing after hospitalization, use glucose 100–200 mg/dL. [ADA Standards of Care, 2026, §13](https://doi.org/10.2337/dc26-s013) (13.7a–c, Tables 13.2–13.3).
 
 <span id="diabetes-statin" data-reader-metadata="exam"></span>
 
@@ -562,7 +562,7 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 **Biguanide.** Metformin is widely recommended as the first-line oral medication for hyperglycemia in type 2 diabetes unless there is a specific contraindication. Metformin primarily suppresses hepatic glucose production and may also enhance peripheral sensitivity to insulin. Metformin rarely causes hypoglycemia when used alone. The most common side effect of metformin is gastrointestinal (GI) discomfort, which in some patients can be associated with decreased appetite and modest weight loss. While some have viewed this as a potential benefit for a patient on a weight-reduction program, this effect needs to be balanced against the degree of symptoms and the appropriateness of decreased caloric intake and weight loss in a given individual. The biguanide class of drugs is also known to be associated with development of life-threatening lactic acidosis under some circumstances. Although this complication appears to be very rare in patients using metformin, this drug should be avoided in situations that may put people at risk for development of lactic acidosis: unstable congestive heart failure and during acute hospitalization for any major illness that could result in decreased tissue perfusion as a precipitating factor for lactic acidosis. Metformin is contraindicated in patients with eGFR below 30 mL/min/1.73 m². Monitoring of renal function and perhaps dose adjustment of metformin to account for reduced renal clearance is highly appropriate for older diabetes patients with CKD.
 
-> **Evidence at publication.** Metformin is placed first in this treatment sequence. That ranking refers to the guidance in use at publication.
+> Current practice (not the book): In older adults with type 2 diabetes and established or high risk of ASCVD, heart failure or CKD, choose agents with demonstrated cardiovascular or kidney benefit regardless of A1C, including an SGLT2 inhibitor or GLP-1 receptor agonist according to the indication. [ADA Standards of Care, 2026, §13](https://doi.org/10.2337/dc26-s013) (13.14d).
 
 **Sulfonylurea drugs.** Sulfonylurea drugs have been on the market for many years and are still commonly used in
 
@@ -595,7 +595,7 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 > **Printed wording.** The caption reads "(CONTINUED)" on the table's first page (1577) as well as on 1578. "Vildagliptina" and "Alogliptinc" are printed with the footnote letters (a, c) at full size, run into the names. Saxagliptin dose prints as "2.5 5 mg qd"; vildagliptin as "50 mg qd BID"; glipizide as "2.5–10 mg qd BID"; the thiazolidinedione row prints "Edema/heart failure (avoid in renal impairment" with no closing parenthesis. The footnote letters are not part of the generic drug names.
 
-> **Guideline date.** This table is the catalogue of agents, doses and renal thresholds as of the book's press date. Current product labeling may differ in indications, doses or renal thresholds. The 2026 Q59 answer uses the values in this table.
+> Current practice (not the book): Avoid sulfonylureas as first- or second-line therapy unless substantial barriers limit safer options. If one is needed, prefer short-acting glipizide. In type 2 diabetes with CKD, use an SGLT2 inhibitor at eGFR ≥20 mL/min/1.73 m² and generally continue below 20 until kidney replacement therapy starts or intolerance develops. Consider finerenone for persistent albuminuria >30 mg/g despite maximally tolerated renin–angiotensin system blockade, with eGFR >25 and normal potassium. [AGS Beers Criteria, 2023, Tables 2–5](https://doi.org/10.1111/jgs.18372) · [KDIGO CKD guideline, 2024, §§3.7–3.8](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
 
 **Table 99-12 — Insulin for treatment of type 2 diabetes**  *(printed 1579)*
 
@@ -630,7 +630,7 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 > **Rapid-acting insulin.** The page prints one set of values ("5–15 min", "45–75 min", "2–4 h") level with Lispro; the Aspart and Glulisine lines carry no values. The page does not say whether Lispro's values also apply to them; the cells for those two insulins are blank.
 
-> **Guideline date.** The insulin products listed were available at publication.
+> Current practice (not the book): Simplify complex insulin plans when their burden or hypoglycemia risk exceeds the benefit. Match injections, glucose monitoring and device use to cognitive and functional ability and available caregiver support. [ADA Standards of Care, 2026, §13](https://doi.org/10.2337/dc26-s013) (13.14a–c).
 
 <a id="p1579"></a>**[p. 1579]**
 
@@ -862,7 +862,9 @@ In nursing home patients already at high risk for developing urinary tract infec
 
 <sub>Data from Diabetes UK: End of life diabetes care: clinical care recommendations. 2nd ed. October 2013.</sub>
 
-> **End-of-life diabetes guidance.** The table cites Diabetes UK, End of life diabetes care, "2nd ed. October 2013". The text on this page says: "The UK Diabetes recommendations were last updated in November, 2021." The 2021 update postdates the table. The table therefore describes the 2013 recommendations.
+> **Guideline date.** Table 99-16 cites Diabetes UK’s 2013 edition. The text on the same page names its November 2021 update.
+
+> Current practice (not the book): In hospice or at the end of life, prioritize comfort, prevent hypoglycemia and symptomatic hyperglycemia, and reduce burdensome testing and treatment. Basal insulin generally remains necessary in type 1 diabetes to prevent ketoacidosis. [ADA Standards of Care, 2026, §13](https://doi.org/10.2337/dc26-s013) (end-of-life care).
 
 ### Palliative and End-of-Life Care
 

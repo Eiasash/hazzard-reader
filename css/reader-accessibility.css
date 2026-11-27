@@ -1,0 +1,77 @@
+/* Shared reading and control metrics, after the individual view styles. */
+:root {
+  --reading: system-ui, "Roboto", "Arial Hebrew", sans-serif;
+  --body: calc(1rem * var(--fs, 1));
+  --tap: 44px;
+}
+#copy, #copy :is(p, li, td, th, blockquote) {
+  font-family: var(--reading);
+  font-size: var(--body);
+  line-height: 1.6;
+}
+#copy :is(p, li, blockquote)[lang="he"] { line-height: 1.68; }
+#readerScroll, .has-exam-return #readerScroll, #mcqViewport {
+  scroll-padding-block-start: calc(var(--active-header-height, 0px) + 8px);
+}
+:where(button, input:not([type=checkbox],[type=radio]), select, [role=button]):not(.point-badge, [data-mark-key]) {
+  min-block-size: 44px;
+}
+:is(.mcq-option, .mcq-cross, .mcq-filter-toggle, .mcq-confidence button, .mock-grade button,
+    .study-view-tabs button, .choice-chips button, .drug-index input, .drug-index select,
+    .mcq-answer-flag-row button, #markBar button, .chapter-sort button, #appTabs button) {
+  border-color: var(--control);
+  min-block-size: 44px;
+}
+:where(button, [role=button], select, input, summary, a):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#chapterHeader button, .mcq-cross, #settingsGear, #chapterInfoButton {
+  min-inline-size: 44px;
+  min-block-size: 44px;
+}
+#bottomSlot #appTabs { grid-template-columns: repeat(4,minmax(0,1fr)); }
+#bottomSlot #appTabs button { min-height: 48px; font-size: calc(12px * var(--fs,1)); }
+#readerViewport .mcq-stem, .mcq-question .mcq-options .mcq-option {
+  font: 400 var(--body)/1.6 var(--reading);
+}
+.mcq-options[dir=ltr] .mcq-option, .mcq-options[dir=rtl] .mcq-option { direction: inherit; text-align: start; }
+#chapterCompanion { display: none; }
+@media (min-width: 1200px) {
+  body:has(#chapterCompanion:not([hidden])) { --companion-width: clamp(250px, 23vw, 380px); }
+  body.with-section-outline:has(#chapterCompanion:not([hidden])) #readerViewport {
+    inline-size: calc(var(--vv-width,100vw) - var(--reader-outline-width) - var(--companion-width));
+  }
+  #chapterCompanion:not([hidden]) {
+    position: fixed; display: block; inset-inline-end: 0;
+    inset-block: var(--active-header-height,48px) var(--reader-end-clearance,64px);
+    box-sizing: border-box; inline-size: var(--companion-width);
+    padding: 20px; overflow: auto; border-inline-start: 1px solid var(--rule);
+    color: var(--ink); background: var(--surface);
+  }
+  #chapterCompanion h2 { margin: 0 0 .65em; font: 650 1.15rem/1.3 var(--reading); }
+  #chapterCompanion p { font: 400 var(--body)/1.6 var(--reading); }
+  #chapterCompanion a { display: inline-flex; min-height: 44px; align-items: center; }
+}
+
+
+#chapterHeader #settingsGear { display:inline-flex; align-items:center; justify-content:center; flex:0 0 44px; width:44px; padding:0; }
+#settingsGear svg { width:23px; height:23px; fill:none; stroke:currentColor; stroke-width:1.8; }
+#chapterHeader .library-header, #chapterHeader .nav-page-title { flex:1; width:auto; min-inline-size:0; }
+#chapterHeader:has(.library-header:not([hidden])), body.nav-page-open #chapterHeader { display:flex; align-items:center; }
+
+/* Printed passages stay quiet until the reader requests their exam links. */
+body:not(.reading-exam-links) #readPane :is(.exam-links,.chapter-exam-membership,.section-practice,.exam-missed,.exam-page-badge):not([data-exam-destination]),
+#studyPane :is(.exam-links,.chapter-exam-membership,.section-practice,.exam-missed):not([data-exam-destination]) { display:none !important; }
+.exam-link-preference { display:flex; align-items:center; column-gap:.65em; min-block-size:44px; cursor:pointer; }
+.exam-link-preference input { inline-size:20px; block-size:20px; accent-color:var(--accent); }
+
+#reader.page { padding-inline: max(var(--gutter), 50px); }
+.mcq-explanation { padding-inline: max(var(--gutter), 50px); }
+.point-rail .point-badge {
+  display:flex; align-items:center; justify-content:flex-end; background:transparent;
+  border:0; color:var(--ink); border-radius:4px; height:44px; padding:0;
+}
+.point-rail .point-badge[data-side=right] { justify-content:flex-start; direction:ltr; }
+.point-badge>span {
+  box-sizing:border-box; min-inline-size:21px; padding:2px 3px; border:1px solid var(--control);
+  border-radius:5px; color:var(--ink); background:var(--badge-ink); line-height:1.15;
+}
+.point-badge[data-ink=green]>span { color:var(--underline-red); background:var(--surface); border-color:var(--underline-red); }

@@ -76,7 +76,6 @@ The third element a medical malpractice plaintiff is required to prove is the oc
 
 *TABLE 26-1 ■ ELEMENTS OF A PROFESSIONAL NEGLIGENCE CLAIM*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p363"></a>**[p. 363]**
 
@@ -102,7 +101,6 @@ Leaders in health care delivery and financing acknowledge that a good deal of ro
 
 *TABLE 26-2 ■ PROOF OF THE STANDARD OF REASONABLE CARE UNDER THE CIRCUMSTANCES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p364"></a>**[p. 364]**
 
@@ -134,7 +132,6 @@ In terms of the informed component of informed consent, there are two competing 
 
 *TABLE 26-3 ■ ELEMENTS OF LEGALLY VALID MEDICAL DECISION-MAKING*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p365"></a>**[p. 365]**
 
@@ -160,7 +157,6 @@ A patient’s present cognitive and emotional capacity should be evaluated on a 
 
 *TABLE 26-4 ■ COMPONENTS OF FUNCTIONAL ASSESSMENT OF DECISIONAL CAPACITY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p366"></a>**[p. 366]**
 
@@ -202,7 +198,6 @@ However, numerous exceptions to the general confidentiality rule have been recog
 
 *TABLE 26-5 ■ EXCEPTIONS TO THE DUTY OF CONFIDENTIALITY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 private health insurers), quality of care auditors (such as Joint Commission surveyors), and other public and private entities like health care surrogates authorized to make medical decisions on behalf of a patient who is not capable of making their own decisions. Because the modern delivery of health care is a team endeavor, each patient implicitly gives permission for the sharing of certain otherwise private pieces of information among the members of the treatment team. Internal information sharing of this nature is essential to optimal care, especially for accomplishing coordination and continuity of long-term care for older patients with disabilities. Indeed, failures in communication among the multiple providers involved in the care of a patient needing such coordination and continuity may form the basis for negligence liability claims when harm results.
 

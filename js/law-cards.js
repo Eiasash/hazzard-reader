@@ -18,91 +18,21 @@ window.HazzardLawCards = (() => {
       if(offset){fragment.append(node.data.slice(offset));node.replaceWith(fragment);}
     }
   }
-  // Keep the visible LTR run intact even when a link or a saved mark ends
-  // between its last digit and punctuation. Generated controls add no text
-  // to the chapter, its links or the character offsets in a saved highlight.
-  function watchNumberRanges(root){
-    const block='p,li,td,th,summary,h1,h2,h3,h4,h5,h6,button,figcaption,blockquote,div,section';
-    const skip='bdi,script,style,textarea,input,option,svg,[contenteditable="true"]';
-    const pattern=/(?<![\d.])\d+(?:[.,]\d+)?(?:[ \t]*[–—−-][ \t]*\d+(?:[.,]\d+)?)+(?:[%‰])?[.,;:!?]*(?!\d)/gu;
-    const latin=/\p{Script=Latin}[\p{Script=Latin}\p{M}\d]*(?:(?:[-–—−’'/_.:]|[ \t]+|,[ \t]+)[\p{Script=Latin}\d][\p{Script=Latin}\p{M}\d]*)*/u;
-    const date=/\d{1,2}\.\d{1,2}\.\d{4}/u;
-    const mixed=new RegExp([pattern.source,date.source,latin.source].join('|'),'gu');
-    const hebrew=/[\u0590-\u05ff]/u;
-    function hebrewLed(el){
-      if(!el.matches('p,li')||!el.closest('.reading-copy')||!hebrew.test(el.textContent))return false;
-      const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
-      while(walker.nextNode()){
-        const part=walker.currentNode;
-        if(part.parentElement.closest('[data-reader-metadata],script,style'))continue;
-        const first=part.data.match(/\p{L}/u);
-        if(first)return hebrew.test(first[0]);
-      }
-      return false;
-    }
-    function format(el){
-      const text=el.textContent;
-      if(!/[\u0590-\u05ff]/u.test(text)&&!el.matches(':dir(rtl)'))return;
-      const paragraph=hebrewLed(el);
-      if(paragraph){el.dir='rtl';el.lang='he';}
-      const nodes=[],walk=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
-      let line='',n;
-      while(n=walk.nextNode()){
-        if(n.parentElement.closest(skip)||n.parentElement.closest(block)!==el){line+='\0';continue;}
-        nodes.push([n,line.length]);line+=n.data;
-      }
-      for(const m of [...line.matchAll(paragraph?mixed:pattern)].reverse()){
-        const lo=m.index,hi=lo+m[0].length;
-        for(const [node,offset] of nodes){
-          const a=Math.max(0,lo-offset),b=Math.min(node.length,hi-offset);
-          if(b<=a||node.parentElement.closest('[data-bidi-edge]'))continue;
-          const first=offset+a===lo,last=offset+b===hi;
-          const english=paragraph&&/\p{Script=Latin}/u.test(m[0]);
-          const span=document.createElement(paragraph&&first&&last?'bdi':'span');
-          if(span.tagName==='BDI')span.dir='ltr';
-          if(english)span.lang='en';
-          span.dataset.bidiEdge=first&&last?'both':first?'start':last?'end':'middle';
-          const part=a?node.splitText(a):node;
-          if(b-a<part.length)part.splitText(b-a);
-          part.before(span);span.append(part);
-        }
-      }
-    }
-    const candidates=new Set();
-    function collect(node){
-      if(node.nodeType===Node.TEXT_NODE){
-        if((hebrew.test(node.data)||(/[A-Za-z]/.test(node.data)&&node.parentElement?.closest('p[lang="he"],li[lang="he"]')))&&!node.parentElement?.closest(skip+',[data-bidi-edge]')){
-          const paragraph=node.parentElement?.closest('p,li');
-          if(paragraph?.closest('.reading-copy')){
-            candidates.add(paragraph);
-            const li=paragraph.parentElement?.closest('li');if(li)candidates.add(li);
-          }
-        }
-        if(/[\d–—-]/.test(node.data)&&!node.parentElement?.closest(skip+',[data-bidi-edge]')){
-          const el=node.parentElement?.closest(block);if(el)candidates.add(el);
-        }
-      }else if(node.nodeType===Node.ELEMENT_NODE&&!node.matches(skip+',[data-bidi-edge]')&&/[\u0590-\u05ff]/u.test(node.textContent)){
-        if(hebrewLed(node))candidates.add(node);
-        for(const child of node.querySelectorAll('p,li'))if(hebrewLed(child))candidates.add(child);
-        const w=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);while(w.nextNode())collect(w.currentNode);
-      }
-    }
-    function flush(){for(const el of candidates)if(el.isConnected&&(hebrewLed(el)||/[–—−-]/.test(el.textContent)))format(el);candidates.clear();}
-    collect(root);flush();
-    new MutationObserver(changes=>{
-      for(const m of changes){
-        if(m.type==='characterData')collect(m.target);
-        else for(const n of m.addedNodes)collect(n);
-      }
-      flush();
-    }).observe(root,{childList:true,subtree:true,characterData:true});
+  function cardText(node,value,layout){
+    const runs=layout[value];
+    if(!runs){node.append(document.createTextNode(value));return;}
+    const [rtl,parts]=runs;if(rtl){node.dir='rtl';node.lang='he';}
+    parts.forEach((part,i)=>{
+      if(!part)return;
+      if(!(i%2)){node.append(document.createTextNode(part));return;}
+      const run=document.createElement('bdi');run.dir='ltr';if(/[A-Za-z]/.test(part))run.lang='en';run.textContent=part;node.append(run);
+    });
   }
-
   function read() {
-    return promise ||= fetch('data/law-cards.json').then(response => {
+    return promise ||= Promise.all(['data/law-cards.json','data/law-card-layout.json'].map(path=>fetch(path).then(response => {
       if (!response.ok) throw Error('Law cards unavailable. Reconnect and retry.');
       return response.json();
-    }).catch(error => { promise = null; throw error; });
+    }))).then(([data,layout])=>({...data,layout})).catch(error => { promise = null; throw error; });
   }
   const isHarrisonCard = card => card.id.startsWith('ima-harrison-') && card.id !== 'ima-harrison-22e';
   async function questionLinks(host, id, question, studyOnly = false) {
@@ -171,7 +101,7 @@ window.HazzardLawCards = (() => {
           heading.textContent = (numbered ? numbered + '. ' : '') + card.title + (card.coverage ? ' · ' + card.coverage : '');
           const list = document.createElement('ul');
           for (const text of card.bullets) {
-            const line = document.createElement('li'); line.textContent = text; list.append(line);
+            const line = document.createElement('li');cardText(line,text,data.layout);list.append(line);
           }
           section.append(heading);
           if (card.editionNotice) {
@@ -189,7 +119,10 @@ window.HazzardLawCards = (() => {
           }
           for (const source of card.sources) {
             const line = document.createElement('p'); line.className = 'law-card-source';
-            line.textContent = 'Source: ' + source.document + ' — ' + source.locator;
+            const label=document.createElement('bdi');label.dir='ltr';label.lang='en';label.textContent='Source: ';line.append(label);
+            const citation=source.url&&/^https?:\/\//i.test(source.url)?document.createElement('a'):document.createElement('span');
+            if(citation.tagName==='A')citation.href=source.url;cardText(citation,source.document,data.layout);
+            citation.append(' — ');cardText(citation,source.locator,data.layout);line.append(citation);
             section.append(line);
           }
           if (card.questionHeading) {
@@ -200,7 +133,7 @@ window.HazzardLawCards = (() => {
           for (const question of card.questions) {
             const link = document.createElement('a');
             link.href = HazzardEvidence.questionURL(question.id);
-            link.textContent = 'Asked: ' + HazzardEvidence.label(question);
+            link.textContent = HazzardEvidence.label(question);
             if(question.note)link.textContent+=' · '+question.note;
             link.title = question.reference;
             links.append(link);
@@ -228,7 +161,7 @@ window.HazzardLawCards = (() => {
           row.append(heading, source); fragment.append(row);
         }
         for (const line of fragment.querySelectorAll('.law-card-source')) line.dir = 'auto';
-        isolateLocators(fragment);
+        // Paragraph runs are supplied by the checked card data.
         body.replaceChildren(fragment);
         const selected = new URL(location.href).searchParams.get('lawCard');
         const target = selected && [...body.children].find(e => e.id === 'law-card-' + selected);
@@ -246,5 +179,5 @@ window.HazzardLawCards = (() => {
     }
     await load();
   }
-  return {decorate, questionLinks, isolateLocators, watchNumberRanges};
+  return {decorate, questionLinks, isolateLocators};
 })();

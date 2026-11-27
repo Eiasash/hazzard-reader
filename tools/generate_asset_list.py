@@ -54,8 +54,13 @@ manifest['examYieldOrder'] = sorted(
     (item['number'] for item in manifest['chapters'] if item['kind'] == 'chapter' and item['number'].isdigit()),
     key=exam_yield_key,
 )
-paths = {'js/reader-input.js', 'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
+paths = {'js/reader-input.js', 'js/chapter-content.js', 'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
+from generate_law_layout import generate as generate_law_layout
+paths.add(generate_law_layout())
+paths.add('css/reader-accessibility.css')
 paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png','data/highlight-aliases.json'})
+from build_chapter_layout import build as build_chapter_layout
+paths.update(build_chapter_layout(manifest))
 paths.update(question_files)
 paths.update({'js/question-data.js','data/verification-registry.json'})
 # Only the current chapter's stable highlight IDs are needed at startup.

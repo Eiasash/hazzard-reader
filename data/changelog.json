@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v331",
+      "date": "2026-11-27",
+      "changes": [
+        "Read, Study and Questions share one page. Updated clinical references, clearer practice questions and longer-spaced flashcard and question reviews are available."
+      ]
+    },
+    {
       "version": "v330",
       "date": "2026-11-27",
       "changes": [

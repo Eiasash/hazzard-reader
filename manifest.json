@@ -5,42 +5,48 @@
       "title": "Pressure Injuries",
       "file": "hazzard8e_ch46_pressure_injuries.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/46.json"
+      "markUnits": "data/mark-units/46.json",
+      "textLayout": "data/chapter-layout/46.json"
     },
     {
       "number": "47",
       "title": "Incontinence",
       "file": "hazzard8e_ch47_incontinence.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/47.json"
+      "markUnits": "data/mark-units/47.json",
+      "textLayout": "data/chapter-layout/47.json"
     },
     {
       "number": "58",
       "title": "Delirium",
       "file": "hazzard8e_ch58_delirium.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/58.json"
+      "markUnits": "data/mark-units/58.json",
+      "textLayout": "data/chapter-layout/58.json"
     },
     {
       "number": "60",
       "title": "Behavioral Symptoms of Dementia and Psychoactive Drug Therapy",
       "file": "hazzard8e_ch60_bpsd_psychoactive.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/60.json"
+      "markUnits": "data/mark-units/60.json",
+      "textLayout": "data/chapter-layout/60.json"
     },
     {
       "number": "61",
       "title": "Parkinson Disease and Related Disorders",
       "file": "hazzard8e_ch61_parkinson.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/61.json"
+      "markUnits": "data/mark-units/61.json",
+      "textLayout": "data/chapter-layout/61.json"
     },
     {
       "number": "99",
       "title": "Diabetes Mellitus",
       "file": "hazzard8e_ch99_diabetes.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/99.json"
+      "markUnits": "data/mark-units/99.json",
+      "textLayout": "data/chapter-layout/99.json"
     },
     {
       "number": "42",
@@ -104,7 +110,8 @@
       "kind": "study",
       "description": "Frailty describes vulnerability to a stressor. Begin by distinguishing a physical phenotype from accumulated deficits and from dependence in everyday activities.",
       "markUnits": "data/mark-units/42s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/42s.json"
     },
     {
       "number": "43s",
@@ -112,7 +119,8 @@
       "file": "hazzard8e_ch43_study.md",
       "kind": "study",
       "description": "Reconstruct the fall, then assess mobility, medicines, vision and the environment. The intervention depends on the risk factor and the setting.",
-      "markUnits": "data/mark-units/43s.json"
+      "markUnits": "data/mark-units/43s.json",
+      "textLayout": "data/chapter-layout/43s.json"
     },
     {
       "number": "44s",
@@ -121,7 +129,8 @@
       "kind": "study",
       "description": "Identify whether the main complaint is breathing, an urge to move, dream enactment or insomnia before selecting treatment.",
       "markUnits": "data/mark-units/44s.json",
-      "drillCount": 3
+      "drillCount": 3,
+      "textLayout": "data/chapter-layout/44s.json"
     },
     {
       "number": "46s",
@@ -130,7 +139,8 @@
       "kind": "study",
       "description": "Identify the tissue injury and relieve the load first. Stage, perfusion, exudate and infection then determine the next wound-care decision.",
       "markUnits": "data/mark-units/46s.json",
-      "drillCount": 1
+      "drillCount": 1,
+      "textLayout": "data/chapter-layout/46s.json"
     },
     {
       "number": "47s",
@@ -139,7 +149,8 @@
       "kind": "study",
       "description": "Separate a storage symptom from impaired emptying. Use the history, examination and postvoid residual to identify a reversible cause before choosing treatment.",
       "markUnits": "data/mark-units/47s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/47s.json"
     },
     {
       "number": "55s",
@@ -148,7 +159,8 @@
       "kind": "study",
       "description": "Identify the task the person wants to regain, the help it requires and the barrier to doing it safely. Those findings guide the device, team and setting.",
       "markUnits": "data/mark-units/55s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/55s.json"
     },
     {
       "number": "58s",
@@ -157,7 +169,8 @@
       "kind": "study",
       "description": "An acute change in attention or arousal warrants a search for a precipitant. Establish the baseline, follow the time course and address distress while treating the cause.",
       "markUnits": "data/mark-units/58s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/58s.json"
     },
     {
       "number": "59s",
@@ -166,7 +179,8 @@
       "kind": "study",
       "description": "Establish cognitive decline from the person's usual function, then interpret the pattern, time course and biomarkers together. Treatment and goals change as dependence increases.",
       "markUnits": "data/mark-units/59s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/59s.json"
     },
     {
       "number": "60s",
@@ -175,7 +189,8 @@
       "kind": "study",
       "description": "Identify what the behavior means to the patient before trying to suppress it. Pain, delirium, medicines and an unmet need can look similar.",
       "markUnits": "data/mark-units/60s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/60s.json"
     },
     {
       "number": "61s",
@@ -184,7 +199,8 @@
       "kind": "study",
       "description": "First establish whether the motor syndrome is parkinsonism. Its pattern, timing and response to levodopa guide the diagnosis and subsequent treatment.",
       "markUnits": "data/mark-units/61s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/61s.json"
     },
     {
       "number": "63s",
@@ -202,7 +218,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/87s.json",
-      "drillCount": 7
+      "drillCount": 7,
+      "textLayout": "data/chapter-layout/87s.json"
     },
     {
       "number": "99s",
@@ -211,7 +228,8 @@
       "kind": "study",
       "description": "Summary + 15-question drill for Chapter 99",
       "markUnits": "data/mark-units/99s.json",
-      "drillCount": 4
+      "drillCount": 4,
+      "textLayout": "data/chapter-layout/99s.json"
     },
     {
       "number": "45",
@@ -219,7 +237,8 @@
       "file": "hazzard8e_ch45_syncope_and_dizziness.md",
       "kind": "chapter",
       "description": "Lane-reviewed 25 Sep. Evaluation and management of syncope and dizziness in older adults",
-      "markUnits": "data/mark-units/45.json"
+      "markUnits": "data/mark-units/45.json",
+      "textLayout": "data/chapter-layout/45.json"
     },
     {
       "number": "51",
@@ -316,7 +335,8 @@
       "kind": "study",
       "description": "Decide whether the episode was loss of consciousness, vertigo or imbalance. Posture, meals, associated symptoms and recovery narrow the cause.",
       "markUnits": "data/mark-units/45s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/45s.json"
     },
     {
       "number": "51s",
@@ -325,7 +345,8 @@
       "kind": "study",
       "description": "A low-trauma fracture can change treatment even when bone density alone does not. Assess fracture risk, secondary causes and the consequences of interrupting therapy.",
       "markUnits": "data/mark-units/51s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/51s.json"
     },
     {
       "number": "52s",
@@ -334,7 +355,8 @@
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
       "markUnits": "data/mark-units/52s.json",
-      "drillCount": 9
+      "drillCount": 9,
+      "textLayout": "data/chapter-layout/52s.json"
     },
     {
       "number": "57s",
@@ -352,7 +374,8 @@
       "kind": "study",
       "description": "Ask what the pain prevents the person from doing. Classify the mechanism, choose a scale the person can use and weigh relief against medication toxicity.",
       "markUnits": "data/mark-units/68s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/68s.json"
     },
     {
       "number": "81s",
@@ -361,7 +384,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/81s.json",
-      "drillCount": 13
+      "drillCount": 13,
+      "textLayout": "data/chapter-layout/81s.json"
     },
     {
       "number": "97s",
@@ -370,7 +394,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/97s.json",
-      "drillCount": 7
+      "drillCount": 7,
+      "textLayout": "data/chapter-layout/97s.json"
     },
     {
       "number": "98s",
@@ -379,7 +404,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/98s.json",
-      "drillCount": 12
+      "drillCount": 12,
+      "textLayout": "data/chapter-layout/98s.json"
     },
     {
       "number": "101s",
@@ -406,7 +432,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/104s.json",
-      "drillCount": 12
+      "drillCount": 12,
+      "textLayout": "data/chapter-layout/104s.json"
     },
     {
       "number": "105s",
@@ -476,7 +503,8 @@
       "kind": "study",
       "description": "Interpret symptoms and impairment together. A screening score prompts assessment of severity, safety and the treatment the person can realistically sustain.",
       "markUnits": "data/mark-units/65s.json",
-      "drillCount": 3
+      "drillCount": 3,
+      "textLayout": "data/chapter-layout/65s.json"
     },
     {
       "number": "75s",
@@ -485,7 +513,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/75s.json",
-      "drillCount": 14
+      "drillCount": 14,
+      "textLayout": "data/chapter-layout/75s.json"
     },
     {
       "number": "76s",
@@ -494,7 +523,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/76s.json",
-      "drillCount": 11
+      "drillCount": 11,
+      "textLayout": "data/chapter-layout/76s.json"
     },
     {
       "number": "77s",
@@ -503,7 +533,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/77s.json",
-      "drillCount": 13
+      "drillCount": 13,
+      "textLayout": "data/chapter-layout/77s.json"
     },
     {
       "number": "83s",
@@ -512,7 +543,8 @@
       "kind": "study",
       "description": "Distinguish a new kidney injury from chronic loss of filtration. Urgency depends on the complication, while mechanism and goals guide longer-term treatment.",
       "markUnits": "data/mark-units/83s.json",
-      "drillCount": 3
+      "drillCount": 3,
+      "textLayout": "data/chapter-layout/83s.json"
     },
     {
       "number": "88s",
@@ -521,7 +553,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/88s.json",
-      "drillCount": 10
+      "drillCount": 10,
+      "textLayout": "data/chapter-layout/88s.json"
     },
     {
       "number": "law",
@@ -529,7 +562,8 @@
       "file": "israel_law.md",
       "kind": "chapter",
       "description": "Primary-source Israeli law (dying-patient law, EPA, patient rights) and Brookdale 65+ yearbook data, Hebrew",
-      "markUnits": "data/mark-units/law.json"
+      "markUnits": "data/mark-units/law.json",
+      "textLayout": "data/chapter-layout/law.json"
     },
     {
       "number": "laws",
@@ -538,7 +572,8 @@
       "kind": "study",
       "description": "Summary + 18-question Hebrew drill, Israel law and Brookdale data",
       "drillCount": 18,
-      "markUnits": "data/mark-units/laws.json"
+      "markUnits": "data/mark-units/laws.json",
+      "textLayout": "data/chapter-layout/laws.json"
     },
     {
       "number": "15s",
@@ -547,7 +582,8 @@
       "kind": "study",
       "description": "A quiet emergency patient may have delirium, abuse or functional decline despite a reassuring triage impression. Establish baseline function before deciding on discharge.",
       "markUnits": "data/mark-units/15s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/15s.json"
     },
     {
       "number": "27s",
@@ -556,7 +592,8 @@
       "kind": "study",
       "description": "Clarify the operation, baseline reserve and goals before ordering tests. Use the expected perioperative risk to plan medication interruption and recovery.",
       "markUnits": "data/mark-units/27s.json",
-      "drillCount": 3
+      "drillCount": 3,
+      "textLayout": "data/chapter-layout/27s.json"
     },
     {
       "number": "49s",
@@ -565,7 +602,8 @@
       "kind": "study",
       "description": "Study summary with Recall items; converted questions are in Practice.",
       "markUnits": "data/mark-units/49s.json",
-      "drillCount": 12
+      "drillCount": 12,
+      "textLayout": "data/chapter-layout/49s.json"
     },
     {
       "number": "73s",
@@ -591,7 +629,8 @@
       "kind": "study",
       "description": "Read the fracture pattern before choosing repair. Timing, medical stability and early mobility then shape recovery and discharge.",
       "markUnits": "data/mark-units/53s.json",
-      "drillCount": 2
+      "drillCount": 2,
+      "textLayout": "data/chapter-layout/53s.json"
     },
     {
       "number": "67s",
@@ -600,7 +639,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/67s.json",
-      "drillCount": 8
+      "drillCount": 8,
+      "textLayout": "data/chapter-layout/67s.json"
     },
     {
       "number": "92s",
@@ -618,7 +658,8 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/95s.json",
-      "drillCount": 7
+      "drillCount": 7,
+      "textLayout": "data/chapter-layout/95s.json"
     },
     {
       "number": "106s",
@@ -644,7 +685,8 @@
       "file": "hazzard8e_ch8_study.md",
       "kind": "study",
       "description": "Begin with what the person can do at home. Function, cognition, sensory loss and support determine which findings change the care plan.",
-      "markUnits": "data/mark-units/8s.json"
+      "markUnits": "data/mark-units/8s.json",
+      "textLayout": "data/chapter-layout/8s.json"
     },
     {
       "number": "9s",
@@ -688,7 +730,8 @@
       "file": "hazzard8e_ch74_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/74s.json"
+      "markUnits": "data/mark-units/74s.json",
+      "textLayout": "data/chapter-layout/74s.json"
     },
     {
       "number": "89s",
@@ -696,7 +739,8 @@
       "file": "hazzard8e_ch89_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/89s.json"
+      "markUnits": "data/mark-units/89s.json",
+      "textLayout": "data/chapter-layout/89s.json"
     },
     {
       "number": "22s",
@@ -704,7 +748,8 @@
       "file": "hazzard8e_ch22_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/22s.json"
+      "markUnits": "data/mark-units/22s.json",
+      "textLayout": "data/chapter-layout/22s.json"
     },
     {
       "number": "31s",
@@ -712,7 +757,8 @@
       "file": "hazzard8e_ch31_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/31s.json"
+      "markUnits": "data/mark-units/31s.json",
+      "textLayout": "data/chapter-layout/31s.json"
     },
     {
       "number": "85s",
@@ -779,7 +825,8 @@
       "file": "hazzard8e_ch15_emergency_department_care.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/15.json"
+      "markUnits": "data/mark-units/15.json",
+      "textLayout": "data/chapter-layout/15.json"
     },
     {
       "number": "73",
@@ -811,7 +858,8 @@
       "file": "hazzard8e_ch67_palliative_care_and_special_management_issues.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/67.json"
+      "markUnits": "data/mark-units/67.json",
+      "textLayout": "data/chapter-layout/67.json"
     },
     {
       "number": "106",
@@ -835,7 +883,8 @@
       "file": "hazzard8e_ch80_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/80s.json"
+      "markUnits": "data/mark-units/80s.json",
+      "textLayout": "data/chapter-layout/80s.json"
     },
     {
       "number": "96",
@@ -947,7 +996,8 @@
       "file": "hazzard8e_ch78_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/78s.json"
+      "markUnits": "data/mark-units/78s.json",
+      "textLayout": "data/chapter-layout/78s.json"
     },
     {
       "number": "84",
@@ -980,7 +1030,8 @@
       "file": "hazzard8e_ch30_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/30s.json"
+      "markUnits": "data/mark-units/30s.json",
+      "textLayout": "data/chapter-layout/30s.json"
     },
     {
       "number": "90",
@@ -1013,7 +1064,8 @@
       "file": "hazzard8e_ch11_study.md",
       "kind": "study",
       "description": "Start with baseline risk and the time until a preventive intervention can help. Compare that interval with life expectancy, competing illness and the person's goals.",
-      "markUnits": "data/mark-units/11s.json"
+      "markUnits": "data/mark-units/11s.json",
+      "textLayout": "data/chapter-layout/11s.json"
     },
     {
       "number": "69",
@@ -1069,7 +1121,8 @@
       "kind": "study",
       "description": "Concept summary + linked exam questions",
       "markUnits": "data/mark-units/34s.json",
-      "drillCount": 15
+      "drillCount": 15,
+      "textLayout": "data/chapter-layout/34s.json"
     },
     {
       "number": "38",
@@ -1085,7 +1138,8 @@
       "file": "hazzard8e_ch38_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/38s.json"
+      "markUnits": "data/mark-units/38s.json",
+      "textLayout": "data/chapter-layout/38s.json"
     },
     {
       "number": "62",
@@ -1102,7 +1156,8 @@
       "kind": "study",
       "description": "Start with the distribution and timing of the deficit. Localize the lesion, distinguish ischemia from hemorrhage, and use the mechanism to select treatment.",
       "markUnits": "data/mark-units/62s.json",
-      "drillCount": 1
+      "drillCount": 1,
+      "textLayout": "data/chapter-layout/62s.json"
     },
     {
       "number": "64",
@@ -1144,7 +1199,8 @@
       "file": "hazzard8e_ch72_ethical_issues.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/72.json"
+      "markUnits": "data/mark-units/72.json",
+      "textLayout": "data/chapter-layout/72.json"
     },
     {
       "number": "72s",
@@ -1152,7 +1208,8 @@
       "file": "hazzard8e_ch72_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/72s.json"
+      "markUnits": "data/mark-units/72s.json",
+      "textLayout": "data/chapter-layout/72s.json"
     },
     {
       "number": "79",
@@ -1160,7 +1217,8 @@
       "file": "hazzard8e_ch79_hypertension.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/79.json"
+      "markUnits": "data/mark-units/79.json",
+      "textLayout": "data/chapter-layout/79.json"
     },
     {
       "number": "79s",
@@ -1168,7 +1226,8 @@
       "file": "hazzard8e_ch79_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/79s.json"
+      "markUnits": "data/mark-units/79s.json",
+      "textLayout": "data/chapter-layout/79s.json"
     },
     {
       "number": "94",
@@ -1184,7 +1243,8 @@
       "file": "hazzard8e_ch94_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/94s.json"
+      "markUnits": "data/mark-units/94s.json",
+      "textLayout": "data/chapter-layout/94s.json"
     },
     {
       "number": "100",
@@ -1200,7 +1260,8 @@
       "file": "hazzard8e_ch100_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/100s.json"
+      "markUnits": "data/mark-units/100s.json",
+      "textLayout": "data/chapter-layout/100s.json"
     },
     {
       "number": "86",
@@ -1257,7 +1318,8 @@
       "file": "hazzard8e_ch48_elder_mistreatment.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/48.json"
+      "markUnits": "data/mark-units/48.json",
+      "textLayout": "data/chapter-layout/48.json"
     },
     {
       "number": "48s",
@@ -1265,7 +1327,8 @@
       "file": "hazzard8e_ch48_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/48s.json"
+      "markUnits": "data/mark-units/48s.json",
+      "textLayout": "data/chapter-layout/48s.json"
     },
     {
       "number": "10",
@@ -1290,7 +1353,8 @@
       "file": "hazzard8e_ch7_decision_making_and_advance_care_planning_what_matters_most.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/7.json"
+      "markUnits": "data/mark-units/7.json",
+      "textLayout": "data/chapter-layout/7.json"
     },
     {
       "number": "7s",
@@ -1298,7 +1362,8 @@
       "file": "hazzard8e_ch7_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/7s.json"
+      "markUnits": "data/mark-units/7s.json",
+      "textLayout": "data/chapter-layout/7s.json"
     },
     {
       "number": "23",
@@ -1339,7 +1404,8 @@
       "file": "hazzard8e_ch26_legal_issues.md",
       "kind": "chapter",
       "description": "Fast build from the marked book; not lane-reviewed.",
-      "markUnits": "data/mark-units/26.json"
+      "markUnits": "data/mark-units/26.json",
+      "textLayout": "data/chapter-layout/26.json"
     },
     {
       "number": "26s",
@@ -1347,7 +1413,8 @@
       "file": "hazzard8e_ch26_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/26s.json"
+      "markUnits": "data/mark-units/26s.json",
+      "textLayout": "data/chapter-layout/26s.json"
     },
     {
       "number": "28",
@@ -1430,7 +1497,8 @@
       "title": "Sexuality, Sexual Function, and the Aging Man — Study",
       "file": "hazzard8e_ch37_study.md",
       "kind": "study",
-      "markUnits": "data/mark-units/37s.json"
+      "markUnits": "data/mark-units/37s.json",
+      "textLayout": "data/chapter-layout/37s.json"
     },
     {
       "number": "54",
@@ -1501,7 +1569,8 @@
       "kind": "study",
       "markUnits": "data/mark-units/1s.json",
       "description": "Longevity studies ask whether an intervention changes the rate of aging, prevents one disease or simply selects a healthier population.",
-      "drillCount": 3
+      "drillCount": 3,
+      "textLayout": "data/chapter-layout/1s.json"
     },
     {
       "number": "40",
@@ -1550,14 +1619,16 @@
       "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care",
       "file": "hazzard8e_ch17_community_based_long_term_services_and_support_and_home_based_medical_care.md",
       "kind": "chapter",
-      "markUnits": "data/mark-units/17.json"
+      "markUnits": "data/mark-units/17.json",
+      "textLayout": "data/chapter-layout/17.json"
     },
     {
       "number": "17s",
       "title": "Community-Based Long-Term Services and Support, and Home-Based Medical Care — Study",
       "file": "hazzard8e_ch17_study.md",
       "kind": "study",
-      "markUnits": "data/mark-units/17s.json"
+      "markUnits": "data/mark-units/17s.json",
+      "textLayout": "data/chapter-layout/17s.json"
     },
     {
       "number": "14",
@@ -1683,7 +1754,8 @@
       "title": "Immunology and Inflammation — Study",
       "file": "hazzard8e_ch3_study.md",
       "kind": "study",
-      "markUnits": "data/mark-units/3s.json"
+      "markUnits": "data/mark-units/3s.json",
+      "textLayout": "data/chapter-layout/3s.json"
     },
     {
       "number": "4",

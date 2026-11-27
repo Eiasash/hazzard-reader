@@ -157,7 +157,9 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - MitraClip (COAPT trial, **n=614**, HFREF + moderate-severe secondary MR despite max GDMT): lower HF hospitalization and lower all-cause mortality vs medical therapy alone (p1184).
 
 ### HFPEF-Specific Therapy
-- SGLT2 inhibitors reduced HF events in preserved/mildly reduced EF trials. Subsequent **FINEARTS-HF** also demonstrated a reduction with finerenone in the composite rate of total worsening HF events and cardiovascular deaths among participants with LVEF ≥40% (p1184 describes the earlier evidence).
+- SGLT2 inhibitors reduced heart-failure events in preserved or mildly reduced EF trials. Hazzard discusses the evidence available at publication (p1184).
+
+> Current practice (not the book): In FINEARTS-HF, symptomatic patients with LVEF ≥40% receiving finerenone had fewer total worsening heart-failure events or cardiovascular deaths than those receiving placebo. The composite does not establish a separate mortality benefit. [Solomon et al., 2024, trial results](https://pubmed.ncbi.nlm.nih.gov/39225278/).
 - **EMPEROR-Preserved:** in 5,988 patients with EF >40%, empagliflozin reduced the combined risk of **cardiovascular death or hospitalization for HF** (HR 0.79, 95% CI 0.69–0.90, p<0.001), mainly through fewer HF hospitalizations. Results were consistent regardless of diabetes. PRESERVED-HF, a smaller dapagliflozin trial of 324 patients, assessed symptoms and exercise function at 12 weeks (p1185, 1188).
 - Digoxin **not recommended** in HFPEF except as an adjunct for rate control in AF (p1188).
 

@@ -1,16 +1,6 @@
-/* Keep the published text nodes in document order. Visual groups may join
-   non-adjacent passages without changing the character index used by marks. */
+/* Study disclosures preserve the printed order of headings and text. */
 window.HazzardStudyPage = (() => {
-  const groups = new WeakMap();
   const repeats = new WeakMap();
-  const sourceTitles = new WeakSet();
-  const labels = {
-    summary: 'Summary',
-    exams: 'Past exam questions',
-    traps: 'Exam traps',
-    recall: 'Recall',
-    israel: 'Israeli context'
-  };
   const normalize = text => text.replace(/\s+/g, ' ').trim();
   const generated = '[data-reader-metadata]';
   function sourceText(node) {
@@ -31,67 +21,6 @@ window.HazzardStudyPage = (() => {
     if (/^(?:israeli? context|in israel)\b/i.test(text)) return 'israel';
     if (/^(?:summary|\u05e1\u05d9\u05db\u05d5\u05dd)$/i.test(text)) return 'summary';
     return null;
-  }
-
-  function setOpen(group, open) {
-    group.open = open;
-    for (const part of group.parts) {
-      if (part.open !== open) part.open = open;
-      if (part.dataset.studyContinuation !== undefined) part.hidden = !open;
-    }
-  }
-
-  function makeFragment(copy, first, key, families) {
-    const group = families.get(key) || {parts: [], open: false};
-    families.set(key, group);
-    const details = document.createElement('details');
-    details.className = 'study-group';
-    details.dataset.studyGroup = key;
-    details.style.order = String(10 + Object.keys(labels).indexOf(key));
-    const summary = document.createElement('summary');
-    summary.dataset.readerMetadata = 'study-heading';
-    summary.textContent = labels[key];
-    if (group.parts.length) {
-      details.dataset.studyContinuation = '';
-      details.hidden = true;
-      summary.hidden = true;
-      summary.tabIndex = -1;
-    }
-    details.append(summary);
-    copy.insertBefore(details, first);
-    groups.set(details, group);
-    group.parts.push(details);
-    details.addEventListener('toggle', () => {
-      if (group.open !== details.open) setOpen(group, details.open);
-    });
-    return details;
-  }
-
-  // Preserve the original number, its enclosing mark unit and the drill store
-  // key. Only the visible prefix changes when the bank has gaps.
-  function numberRecall(copy) {
-    let number = 0;
-    for (const drill of copy.querySelectorAll('.drill-q')) {
-      const prompt = drill.querySelector(':scope > p');
-      if (!prompt) continue;
-      const walker = document.createTreeWalker(prompt, NodeFilter.SHOW_TEXT);
-      let part;
-      do { part = walker.nextNode(); } while (part && !part.data.trim());
-      const match = part?.data.match(/^\s*(\d+)[.)]/);
-      if (!match) continue;
-      number++;
-      drill.dataset.studyRecall = String(number);
-
-      part.splitText(match[0].length);
-      const old = document.createElement('span');
-      old.hidden = true;
-      part.before(old); old.append(part);
-      const displayed = document.createElement('strong');
-      displayed.className = 'study-recall-number';
-      displayed.dataset.readerMetadata = 'study-number';
-      displayed.textContent = number + '.';
-      prompt.prepend(displayed);
-    }
   }
 
   // Some older notes place the printed rule and the labelled update in one
@@ -185,7 +114,6 @@ window.HazzardStudyPage = (() => {
     const el = raw?.nodeType === Node.TEXT_NODE ? raw.parentElement : raw;
     if (!el?.closest?.('.study-page')) return target;
     for (let node = el; node && !node.matches('.study-page'); node = node.parentElement) {
-      if (sourceTitles.has(node)) node.hidden = false;
       const repeat = repeats.get(node);
       if (repeat && repeat.shown !== node) {
         for (const twin of repeat.items) {
@@ -193,9 +121,7 @@ window.HazzardStudyPage = (() => {
         }
         repeat.shown = node;
       }
-      const group = groups.get(node);
-      if (group) setOpen(group, true);
-      else if (node.tagName === 'DETAILS') node.open = true;
+      if (node.tagName === 'DETAILS') node.open = true;
     }
     return target;
   }
@@ -276,46 +202,19 @@ window.HazzardStudyPage = (() => {
 
   function mount(copy, chapter) {
     if (!copy || !/^(?:\d+s|laws)$/.test(String(chapter)) || copy.dataset.notLoaded || copy.classList.contains('study-page')) return;
-    const families = new Map();
-    let major = 'summary', current = major, key = null, fragment = null;
     copy.classList.add('study-page');
     if(structured(copy)){mountStructured(copy);return;}
-    numberRecall(copy);
-    for (const node of [...copy.childNodes]) {
-      if (node.nodeType !== Node.ELEMENT_NODE) { if (fragment) fragment.append(node); continue; }
-      if (node.matches('h1,.eyebrow,.study-flashcards,.law-cards,.memory-aids,.article-cards')) {
-        fragment = null; key = null;
-        continue;
-      }
-      let title = null, next = current;
-      const text = sourceText(node);
-      if (node.matches('h2,h3,h4,h5,h6')) {
-        title = family(text);
-        if (node.tagName === 'H2') major = title || 'summary';
-        current = title || major; next = current;
-      } else if (node.tagName === 'P' && text.length < 115 && node.querySelector('strong,b') && family(text)) {
-        title = family(text); current = title; next = current;
-      } else if (node.matches('.drill-q,.drill-score,[data-reader-metadata="practice-actions"]')) next = 'recall';
-      else if (/^exam traps?\s*:/i.test(text)) next = 'traps';
-      if (key !== next || !fragment) fragment = makeFragment(copy, node, next, families);
-      key = next;
-      fragment.append(node);
-      // Pure headings are represented by the group label. Year, topic or
-      // Hebrew subtitles remain inside the group and retain their destinations.
-      if (title && /^(?:summary|\u05e1\u05d9\u05db\u05d5\u05dd|recall|what (?:the )?exams? asked|exam questions?|israeli context|exam traps?(?:\s*\/\s*book (?:notes|emphases|nuances|contradictions|against itself))?)$/i.test(text)) {
-        node.hidden = true;
-        sourceTitles.add(node);
-      }
+    // Native disclosures keep the visual, keyboard and quote orders identical.
+    // Clinical headings and their teaching remain at their published position.
+    for(const heading of [...copy.querySelectorAll(':scope > h2')]){
+      const group=family(sourceText(heading));
+      if(!group)continue;
+      const details=document.createElement('details'),summary=document.createElement('summary');
+      details.className='study-group';details.dataset.studyGroup=group;
+      details.open=group==='summary';heading.before(details);summary.append(heading);details.append(summary);
+      while(details.nextSibling&&!details.nextSibling.matches?.('h2,.chapter-nav,.study-flashcards,.law-cards,.article-cards'))details.append(details.nextSibling);
     }
-    if(families.has('summary'))setOpen(families.get('summary'),true);
     mergeRepeats(copy);
-    copy.addEventListener('click', event => {
-      const href = event.target.closest?.('a[href]')?.getAttribute('href');
-      if (!href?.startsWith('#')) return;
-      let id;
-      try { id = decodeURIComponent(href.slice(1)); } catch { return; }
-      reveal(document.getElementById(id));
-    });
   }
   return {mount, reveal, foldPractice, indexBookObjects, structured, prepareWording, needsPriorWording};
 })();

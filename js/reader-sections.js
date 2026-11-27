@@ -1,4 +1,4 @@
-/* The outline follows the rendered edition, including the embedded chapter templates. */
+/* The outline follows the rendered edition, including the Study disclosures. */
 window.HazzardSections = (() => {
   const headings = 'h1,h2,h3,h4,h5,h6';
   const cardTitles = '.law-cards > summary,.law-card > summary';
@@ -46,14 +46,6 @@ window.HazzardSections = (() => {
       row.counts.push(count);
     }
     return list;
-  }
-
-  function legend() {
-    const label = document.createElement('div');
-    label.className = 'section-count-legend';
-    label.textContent = 'Official exam questions';
-    label.title = 'Distinct questions linked to each section. Chapter-only references appear beside the chapter title.';
-    return label;
   }
 
   async function officialCounts(copy, chapter, rows) {
@@ -138,7 +130,12 @@ window.HazzardSections = (() => {
   }
 
   let loadCounts=()=>{};
-  function mount({copy, scroll, landOnHeading, embedded}) {
+  let release=()=>{};
+  function mount({copy, scroll, landOnHeading}) {
+    release();release=()=>{};targets=new Map();loadCounts=()=>{};
+    document.body.classList.remove('with-section-outline');
+    document.getElementById('readerSectionOutline')?.remove();
+    document.querySelector('[data-pane="contents"] .section-picker-list')?.remove();
     const chapter = copy.dataset.chapterId;
     if (!/^(?:\d+s?|laws?)$/.test(chapter) || copy.dataset.notLoaded) return;
     const nodes = sectionNodes(copy);
@@ -168,31 +165,22 @@ window.HazzardSections = (() => {
     picker.className = 'section-picker-list';
     picker.append(makeList(rows, existing));
     list.before(picker);
-    pane.append(pane.querySelector('.contents-steps'));
     const trigger = document.getElementById('chapterHeaderTitle');
     trigger.dataset.sections = 'Sections';
     trigger.setAttribute('aria-label', 'Sections, ' + trigger.textContent);
     trigger.setAttribute('aria-haspopup', 'dialog');
     trigger.setAttribute('aria-controls', 'panel');
     const reader = document.getElementById('reader');
-    if (embedded) {
-      const opener = document.createElement('button');
-      opener.type = 'button';
-      opener.className = 'companion-sections';
-      opener.textContent = 'Sections';
-      opener.dataset.panel = 'contents';
-      opener.setAttribute('aria-haspopup', 'dialog');
-      opener.setAttribute('aria-controls', 'panel');
-      opener.setAttribute('aria-expanded', 'false');
-      document.getElementById('chapterHeader').append(opener);
-    } else {
+    const disposers=[];
+    release=()=>{for(const dispose of disposers)dispose();};
+    {
       const outline = document.createElement('nav'), label = document.createElement('h2'), links = document.createElement('ul');
       outline.id = 'readerSectionOutline';
       label.id = 'readerSectionOutlineTitle';
       label.textContent = 'Sections';
       outline.setAttribute('aria-labelledby', label.id);
       links.append(makeList(rows));
-      outline.append(label, legend(), links);
+      outline.append(label, links);
       document.querySelector('main').append(outline);
       const desktop = matchMedia('(min-width: 1200px)');
       function layout() {
@@ -204,6 +192,7 @@ window.HazzardSections = (() => {
       observer.observe(reader, {attributes: true, attributeFilter: ['hidden']});
       observer.observe(scroll, {attributes: true, attributeFilter: ['inert']});
       desktop.addEventListener('change', layout);
+      disposers.push(()=>{observer.disconnect();desktop.removeEventListener('change',layout);});
       layout();
     }
     const desktopCounts=matchMedia('(min-width:1200px)');
@@ -211,8 +200,8 @@ window.HazzardSections = (() => {
       loadCounts=()=>{};desktopCounts.removeEventListener('change',visible);
       officialCounts(copy,chapter,rows).then(()=>updateCounts(true),()=>updateCounts(false));
     };
-    function visible(){if(embedded||desktopCounts.matches||pane.closest('[open]')?.dataset.currentPane==='contents')loadCounts();}
-    desktopCounts.addEventListener('change',visible);visible();
+    function visible(){if(desktopCounts.matches||pane.closest('[open]')?.dataset.currentPane==='contents')loadCounts();}
+    desktopCounts.addEventListener('change',visible);disposers.push(()=>desktopCounts.removeEventListener('change',visible));visible();
     function updateCounts(available) {
       for (const row of rows) {
         const n = row.ids.size;

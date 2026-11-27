@@ -15,8 +15,8 @@ window.HazzardFlashcards = (() => {
     const today=HazzardReview.day();
     let count=0;
     try{
-      if(Object.keys(progress().cards).length){
-        const cards=await loadCards(),records=progress().cards;
+      if(Object.keys(progress().cards).length||localStorage.getItem('hazzard-drills-v1')){
+        const cards=await loadCards(),records=gradesFor(cards);
         count=cards.filter(card=>records[card.id]&&dueDay(records[card.id])<=today).length;
       }
     }catch{button.textContent='Flashcards due · unavailable';button.disabled=true;return;}
@@ -36,6 +36,17 @@ window.HazzardFlashcards = (() => {
     return HazzardStorage.readProtected(KEY, empty);
   }
 
+  function gradesFor(cards){
+    const records={...progress().cards};
+    let chapters;
+    try{chapters=HazzardStorage.readProtected('hazzard-drills-v1',()=>({chapters:{}})).chapters||{};}catch{return records;}
+    for(const card of cards){
+      if(records[card.id])continue;
+      const prior=(card.recallKeys||[]).map(key=>chapters[key.split(':')[0]]?.grades?.[key]).filter(n=>n===0||n===1);
+      if(prior.length)records[card.id]={grade:prior.includes(0)?'again':'know',at:0,step:0,due:'1970-01-01'};
+    }
+    return records;
+  }
   let dataset, bank, pane, session, requested, catalog, lookup, onResize;
   let currentRequest = 0, saving = false, pendingGrade = Promise.resolve();
   function loadCards() {
@@ -89,7 +100,7 @@ window.HazzardFlashcards = (() => {
 
   function render(focus = false) {
     if (!session || !catalog) return;
-    const card = lookup.get(session.ids[session.position]), records = progress().cards;
+    const card = lookup.get(session.ids[session.position]), records = gradesFor(catalog);
     const question = element('flashcardFront'), answer = element('flashcardAnswer');
     const article = element('flashcardArticle'), completion = element('flashcardCompletion');
     article.hidden = !card;
@@ -149,7 +160,7 @@ window.HazzardFlashcards = (() => {
       if (request !== currentRequest || !isShowing()) return;
       catalog = cards;
       lookup = new Map(cards.map(card => [card.id, card]));
-      const grades=progress().cards,today=HazzardReview.day();
+      const grades=gradesFor(cards),today=HazzardReview.day();
       const deck=cards.filter(card=>(next.scope==='all'||card.chapter===next.scope)&&(next.order!=='due'||(grades[card.id]&&dueDay(grades[card.id])<=today)||next.ids?.includes(card.id)));
       const inDeck = new Set(deck.map(card => card.id));
       const ranks = questions ? missedRanks(deck, questions) : new Map();
@@ -184,8 +195,8 @@ window.HazzardFlashcards = (() => {
         if (HazzardStorage.blockedKeys().includes(KEY)) throw Error('Flashcard progress is unreadable. Restore it in the notebook before grading.');
         const saved = progress();
         const at = Math.max(Date.now(), (saved.cards[id]?.at || 0) + 1);
-        const old=saved.cards[id],step=value==='again'?0:Math.min(HazzardReview.STEPS.length-1,(old?.grade==='know'?(old.step??0)+1:0));
-        const due=HazzardReview.plus(HazzardReview.day(at),HazzardReview.STEPS[step]);
+        const old=saved.cards[id],step=HazzardReview.advance(old?.step??0,value==='know',!old);
+        const due=HazzardReview.plus(HazzardReview.day(at),value==='again'?1:HazzardReview.STEPS[step]);
         HazzardStorage.setItem(KEY,JSON.stringify(merge(saved,{cards:{[id]:{grade:value,at,step,due}}})));refreshDue();
       };
       if (navigator.locks?.request) await navigator.locks.request(KEY, write);
@@ -203,8 +214,61 @@ window.HazzardFlashcards = (() => {
     }
   }
 
-  function install(copy, chapter, open, resize, expand) {
-    onResize = resize;
+  function recallBlocks(root,chapter){
+    const blocks=[];
+    for(const answer of root.querySelectorAll('details')){
+      const summary=answer.querySelector(':scope > summary');if(!summary)continue;
+      const previous=answer.previousElementSibling;
+      const label=previous?.textContent.trim().match(/^(\d+)[.)]\s+/);
+      if(!answer.dataset.checkKey&&!(previous?.tagName==='P'&&label&&/^(answer|show answer|תשובה)$/iu.test(summary.textContent.trim())))continue;
+      let heading=previous?.previousElementSibling;
+      while(heading&&!/^H[1-6]$/.test(heading.tagName))heading=heading.previousElementSibling;
+      const key=answer.dataset.checkKey||chapter+':'+(heading?.textContent.trim()==='Recall'?'recall-':'')+label[1];
+      const prompt=answer.dataset.checkKey?summary:previous;
+      blocks.push({answer,prompt,key,summary});
+    }
+    return blocks;
+  }
+  function foldRecall(copy,chapter,saved){
+    if(!/^(?:\d+s|laws)$/.test(chapter))return;
+    const normalize=s=>String(s||'').replace(/\s+/g,' ').trim();
+    const quotes=[...Object.values(saved?.marks||{}),...Object.values(saved?.ranges||{})].map(m=>normalize(m.text)).filter(Boolean);
+    for(const block of recallBlocks(copy,chapter)){
+      const {answer,prompt,summary}=block;
+      const retained=quotes.some(q=>normalize(prompt.textContent).includes(q)||normalize(answer.textContent).includes(q));
+      if(retained){
+        // A saved quotation from an earlier self-check stays under its original heading.
+        const excerpt=document.createElement('div');excerpt.className='study-saved-recall';
+        if(prompt!==summary)excerpt.append(prompt.cloneNode(true));
+        for(const node of answer.childNodes)if(node!==summary)excerpt.append(node.cloneNode(true));
+        if(prompt===summary&&quotes.some(q=>normalize(prompt.textContent).includes(q))){
+          const title=document.createElement('p');title.textContent=prompt.textContent;excerpt.prepend(title);
+        }
+        answer.before(excerpt);
+      }
+      if(prompt!==summary)prompt.remove();answer.remove();
+    }
+    for(const h of copy.querySelectorAll('h2,h3,h4')){
+      if(!/^(?:recall(?:\s+drill)?|self[- ]test|quick recall)$/i.test(h.textContent.trim()))continue;
+      const next=h.nextElementSibling;if(!next||/^H[1-4]$/.test(next.tagName))h.remove();
+    }
+  }
+
+  let openView;
+  function buttonFor(scope){
+    const button=document.createElement('button');button.type='button';button.textContent='Flashcards';
+    button.setAttribute('aria-controls','flashcardView');button.onclick=()=>{requested={scope,order:'all'};openView(button);};
+    return button;
+  }
+  function install(copy,chapter,open,resize,expand){
+    openView=open;onResize=resize;
+    if(chapter.endsWith('s')&&!copy.querySelector('.study-flashcards')){
+      const entry=buttonFor(chapter.slice(0,-1));entry.className='study-flashcards';
+      entry.dataset.readerMetadata='flashcards';entry.textContent='Practise chapter flashcards';
+      const slot=copy.querySelector('[data-study-flashcards]');if(slot)slot.replaceWith(entry);else copy.querySelector('h1')?.after(entry);
+      entry.hidden=true;loadCards().then(cards=>{entry.hidden=!cards.some(c=>c.chapter===chapter.slice(0,-1));}).catch(()=>{entry.hidden=false;});
+    }
+    if(pane)return;
     pane = document.createElement('section');
     pane.hidden = true;
     pane.dataset.pane = 'flashcards';
@@ -220,27 +284,8 @@ window.HazzardFlashcards = (() => {
       '<div class="flashcard-actions"><button type="button" id="flashcardReviewAgain">Review Again cards</button><button type="button" id="flashcardRestart">Restart deck</button></div></div>' +
       '<p role="alert" id="flashcardError" hidden></p>';
     document.querySelector('main').append(pane);
-    document.addEventListener('hazzard-open-chapter-deck',event=>{
-      if(event.target.id!=='readingCompanionFrame'||event.target.dataset.chapter!==chapter||!document.body.classList.contains('single-study-pane'))return;
-      requested={scope:chapter,order:'all'};open(document.querySelector('#chapterHeader [data-chapter="'+chapter+'s"]'));
-    });
-    function buttonFor(scope) {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.textContent = 'Flashcards';
-      button.setAttribute('aria-haspopup', 'dialog');
-      button.setAttribute('aria-controls', 'panel');
-      button.addEventListener('click', () => {
-        if(scope!=='all'&&HazzardStudyPage.structured(copy)&&window.frameElement?.hasAttribute('data-reading-companion')&&parent.document.body.classList.contains('single-study-pane')){
-          window.frameElement.dispatchEvent(new CustomEvent('hazzard-open-chapter-deck',{bubbles:true}));return;
-        }
-        requested = {scope, order: 'all'};
-        open(button);
-      });
-      return button;
-    }
     const dueButton=document.getElementById('homeFlashDue');
-    dueButton.onclick=()=>{requested={scope:'all',order:'due'};open(dueButton);};
+    dueButton.onclick=()=>{requested={scope:'all',order:'due'};openView(dueButton);};
     if(!document.querySelector('#desk')?.hidden)refreshDue();
     document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshDue();});
     addEventListener('hazzard-flashcards-change',refreshDue);
@@ -254,18 +299,10 @@ window.HazzardFlashcards = (() => {
     const row = document.createElement('li');
     row.append(buttonFor('all'));
     document.querySelector('[data-pane="practice"] .rows li')?.after(row);
-    if (chapter.endsWith('s') && HazzardEvidence.isRebuilt(chapter.slice(0, -1))) {
-      const entry = buttonFor(chapter.slice(0, -1));
-      entry.dataset.readerMetadata = 'flashcards';
-      entry.className = 'study-flashcards';
-      const slot=copy.querySelector('[data-study-flashcards]');
-      if(slot){entry.textContent='Practise chapter flashcards';entry.removeAttribute('aria-haspopup');entry.setAttribute('aria-controls','flashcardView');slot.replaceWith(entry);}
-      else copy.querySelector('h1')?.after(entry);
-    }
     element('flashcardOrder').onclick=event=>{const choice=event.target.closest('[data-order]');if(choice&&choice.dataset.order!==session?.order)restart(choice.dataset.order);};
     element('flashcardRestart').addEventListener('click', () => restart(session.order));
     element('flashcardReviewAgain').addEventListener('click', () => {
-      const grades = progress().cards;
+      const grades = gradesFor(catalog);
       restart(session.order, session.ids.filter(id => grades[id]?.grade === 'again'));
     });
     element('flashcardAnswer').addEventListener('toggle', event => {
@@ -282,17 +319,13 @@ window.HazzardFlashcards = (() => {
       const link = event.target.closest('a[href]');
       if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
       saveSession();
-      if (link.pathname !== location.pathname || link.search !== location.search) return;
-      // A same-document fragment would leave the flashcard sheet over the passage.
-      // Give Read its own entry so Back can still return to this card and answer.
-      event.preventDefault();
-      history.pushState(null, '', link.href);
-      location.reload();
+      if(link.origin!==location.origin)return;
+      event.preventDefault();HazzardRouter.go(link.href);
     });
     addEventListener('storage', event => {if ((event.key === KEY || event.key === null) && isShowing()) render();});
     addEventListener('pageshow', event => {if (event.persisted && isShowing()) render();});
     addEventListener('hazzard-flashcards-change', () => {if (isShowing()) render();});
   }
 
-  return {KEY, empty, valid, merge, install, show, refreshDue, flush: () => pendingGrade};
+  return {KEY, recallBlocks, foldRecall, empty, valid, merge, install, show, refreshDue, flush: () => pendingGrade};
 })();
