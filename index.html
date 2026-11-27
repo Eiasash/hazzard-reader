@@ -5219,7 +5219,7 @@ const manifestData=await manifestRequest;
 const examYieldRank=new Map(manifestData.order.map((chapter,index)=>[chapter,index]));
 let requestedChapter=launchParams.get('chapter');
 // A direct Study URL keeps its own hash and question filters in the study frame.
-const pairedStudy=!companionFrame &&
+let pairedStudy=!companionFrame &&
   /^(?:\d+s|laws)$/.test(requestedChapter||'') && !launchParams.has('home') && !launchParams.has('stats') &&
   manifestData.chapters.some(c=>String(c.number)===requestedChapter.slice(0,-1)) ? new URL(location.href) : null;
 if(pairedStudy)requestedChapter=requestedChapter.slice(0,-1);
@@ -5242,6 +5242,16 @@ if(!requestedChapter||opensOnHome){
   const url=new URL(location.href);url.search=launchParams.toString();history.replaceState(history.state,'',url);
 }
 if(!opensOnHome)delete document.documentElement.dataset.resolvingRoot;
+if(!companionFrame&&!pairedStudy&&!startupTab&&!opensOnPractice&&/^(?:\d+s|laws)$/.test(requestedChapter)&&manifestData.chapters.some(c=>String(c.number)===requestedChapter.slice(0,-1))){
+  pairedStudy=new URL(location.href);
+  pairedStudy.search='';pairedStudy.searchParams.set('chapter',requestedChapter);
+  if(opensOnHome)pairedStudy.searchParams.set('resume','1');
+  requestedChapter=requestedChapter.slice(0,-1);
+}
+function backgroundReadingPane(){
+  return companionFrame ? !parent.document.body.classList.contains('single-study-pane')||parent.document.body.classList.contains('nav-page-open') :
+    document.body.classList.contains('single-study-pane');
+}
 if(companionFrame)await HazzardMCQ.loadAliases();
 else{
   try{if(opensOnHome)await HazzardMCQ.loadAliases();else await HazzardMCQ.migrateSaved();}catch(error){HazzardStorage.status.error='Saved-question recovery: '+error.message;}
@@ -5592,6 +5602,12 @@ function stepExam(delta){if(!examPages.length)return;examIndex=(examIndex+delta+
 $('#examPrevious').onclick=()=>stepExam(-1);$('#examNext').onclick=()=>stepExam(1);$('#examClose').onclick=closePanel;
 function openChapter(chapter,opts={}){
   if(closingHistory){queuedChapter={chapter,opts};return}
+  if(companionFrame&&parent.document.body.classList.contains('single-study-pane')&&String(chapter)!==cid){
+    const next=new URL(location.href);next.search='';next.hash=opts.hash||'';next.searchParams.set('chapter',chapter);
+    for(const key of ['n','view','source'])if(opts[key])next.searchParams.set(key,opts[key]);
+    if(!parent.HazzardReadingCompanion.route(next,true))parent.location.assign(next.href);
+    return;
+  }
   if(panel.open||currentView!=='reader'||practiceLaunch){
     const target=new URL(location.href);target.search='';target.hash=opts.hash||'';target.searchParams.set('chapter',chapter);
     for(const key of ['n','view','source'])if(opts[key])target.searchParams.set(key,opts[key]);
@@ -6169,8 +6185,8 @@ function syncTabs(){
 }
 function readingTab(){
   const last=readJSON(PLACE_KEY,{}).last?.chapter;
-  const chapter=!lightHome&&!practiceLaunch&&!['mock','bank','drugs'].includes(cid)?cid:last&&/^(?:\d+s?|laws?)$/.test(last)?last:requestedChapter&&/^(?:\d+s?|laws?)$/.test(requestedChapter)?requestedChapter:'46';
-  if(chapter===cid&&!lightHome&&!practiceLaunch){
+  const chapter=opensOnHome&&currentView==='desk'&&last?last:!lightHome&&!practiceLaunch&&!['mock','bank','drugs'].includes(cid)?cid:last&&/^(?:\d+s?|laws?)$/.test(last)?last:requestedChapter&&/^(?:\d+s?|laws?)$/.test(requestedChapter)?requestedChapter:'46';
+  if(!lightHome&&!practiceLaunch&&(chapter===cid||chapter===companion.modeURL()?.searchParams.get('chapter'))){
     navigateUI('reader');
     return;
   }
@@ -7114,7 +7130,7 @@ function rememberFurthest(place){
 }
 const drillTotals=Object.fromEntries(manifestChapters.filter(chapter=>chapter.drillCount).map(chapter=>[chapter.number,chapter.drillCount]));
 async function refreshLibraryMarks(){
-  if(companionFrame||currentView==='desk'||currentView==='reader'&&opensOnHome&&new URL(location.href).searchParams.get('home')==='1')return;
+  if(backgroundReadingPane()||currentView==='desk'||currentView==='reader'&&opensOnHome&&new URL(location.href).searchParams.get('home')==='1')return;
   const data=readJSON(READING_KEY,{chapters:{}});data.chapters=data.chapters||{};
   const places=readJSON(PLACE_KEY,{}),saved=[...Object.values(places.chapters||{}),...readJSON(BOOKMARK_KEY,[])];
   for(const p of saved){if(!p||p.chapter==='mock'||!Number.isFinite(p.ratio))continue;const old=data.chapters[p.chapter]||{ratio:0,read:false};data.chapters[p.chapter]={ratio:Math.min(1,Math.max(old.ratio,p.ratio)),read:old.read||p.ratio>=0.9999}}
@@ -7156,7 +7172,7 @@ function showResumeNotice(){
   setTimeout(()=>{chapterHeader.classList.remove('show-resume-note');text.remove();},2200);
 }
 function goToPlace(p,exact=false){if(!p)return;landingUntil=performance.now()+500;setReadingBarsHidden(false);if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));alignFirstReadingLine();return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if(preserveStudyPlace||lightHome||companionFrame||$('#statsViewport')||copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
+function rememberPlace(){if(preserveStudyPlace||lightHome||backgroundReadingPane()||$('#statsViewport')||copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
 let placeTimer=null,userScrolled=false,lastPlaceWrite=0;
 const scrollPositions=new WeakMap();
 function expectUserScroll(){scrollIntentUntil=performance.now()+900;}
