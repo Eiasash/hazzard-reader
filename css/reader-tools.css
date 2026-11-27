@@ -172,7 +172,7 @@ body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
 .library-status,.library-exams{display:block;margin-block-start:3px;color:var(--muted);font:500 calc(11px * var(--fs,1))/1.35 var(--ui)}
 .library-exams{font-weight:400}
 
-#chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
+:where(html:not([data-single-study])) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
 #chapterHeader.study-header #headerHome{display:none}
 #chapterHeader.study-header .chapter-heading{flex:1;min-inline-size:0}
 body:not(.nav-page-open):not(.flashcards-open) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) .chapter-switch{display:flex!important;flex:0 0 auto!important;width:auto!important;gap:0}
