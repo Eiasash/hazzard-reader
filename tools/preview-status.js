@@ -21,6 +21,9 @@
           running||requested?'Downloading · '+percent+'%':'';
         action.textContent=complete?'Offline ready':failed?'Retry offline download':'Download for offline';
         setButtonUnavailable(action,reason);
+        action.hidden=action.disabled;
+        const status=document.getElementById('settingsOfflineStatus');
+        if(status){status.hidden=!action.disabled;status.textContent=offline;}
       }
       if(legacy){legacy.textContent=offline;legacy.hidden=false;}
       document.querySelectorAll('[data-chapter-update]').forEach(button=>{button.hidden=true;});

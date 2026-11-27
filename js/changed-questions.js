@@ -54,19 +54,31 @@ window.HazzardChanged = (() => {
       const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent=label;
       tab?.setAttribute('aria-label', questions.length ? 'Practice — ' + label : 'Practice');
       const details = document.createElement('details'), summary = document.createElement('summary');
-      summary.textContent = 'Show the list';
+      summary.textContent = 'List';summary.setAttribute('aria-label','Show changed questions');
       details.className = 'changed-questions'; details.open = host.querySelector('details')?.open || false;
       details.append(summary);
       const note = document.createElement('p');
-      note.textContent = 'Changed questions - redo. Only questions you answered before their latest change appear here. Answer them again to remove them from this list.';
+      note.textContent = 'You answered these before they changed. Answer again to clear them.';
       details.append(note);
       const list = document.createElement('ul'); list.className = 'rows';
-      for (const q of questions) {
-        const row = document.createElement('li'), link = document.createElement('a');
-        link.href = '?chapter=bank&redo=1&q=' + encodeURIComponent(q.id);
-        const caption=q.label.replace(/^(\d{4}(?:-[A-Za-z]+)*)\s+Q(\d+)\b/,(_,sitting,number)=>HazzardEvidence.label({sitting,number}));
-        link.textContent = caption + ' — redo this question'; row.append(link); list.append(row);
+      let loadingStems=false;
+      async function populateList(){
+        if(!details.open||loadingStems||list.children.length)return;
+        loadingStems=true;
+        try{
+          const all=await HazzardQuestionData.catalog(),byId=new Map(all.map(q=>[q.id,q]));
+          for(const entry of questions){
+            const q=byId.get(entry.id),row=document.createElement('li'),link=document.createElement('a');
+            link.href='?chapter=bank&redo=1&q='+encodeURIComponent(entry.id);
+            link.textContent=q?q.q.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim():entry.label;
+            const script=HazzardMCQ.questionScript({q:link.textContent});link.dir=script.dir;link.lang=script.lang;
+            row.append(link);list.append(row);
+          }
+        }catch{note.textContent='Question text could not load. Close and reopen the list to retry.';}
+        finally{loadingStems=false;}
       }
+      details.addEventListener('toggle',populateList);
+      if(details.open)populateList();
       details.append(list);
       if(!questions.length){host.replaceChildren();return;}
       const row = document.createElement('a');
@@ -75,7 +87,7 @@ window.HazzardChanged = (() => {
       title.textContent = 'Redo changed questions';
       if (questions.length) {
         row.href = '?chapter=bank&redo=1&q=' + encodeURIComponent(questions[0].id);
-        count.textContent = questions.length + ' to redo \u00b7 one after another';
+        count.textContent = questions.length + ' to redo';
       }
       row.append(title, count); host.replaceChildren(row);
       if (questions.length) host.append(details);

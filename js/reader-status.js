@@ -43,6 +43,9 @@
         const why=complete?'The offline copy is already saved.':!sw?'This browser does not support offline storage.':
           !navigator.onLine?'Reconnect to download the offline copy.':waiting()?'Use the update control to activate the saved copy.':'The live reader downloads its offline copy automatically.';
         setButtonUnavailable(download,why);
+        download.hidden=download.disabled;
+        const status=document.getElementById('settingsOfflineStatus');
+        if(status){status.hidden=!download.disabled;status.textContent=complete?'Available offline':!sw?'Offline storage unavailable':!navigator.onLine?'Offline copy incomplete':downloading?progressText:'Preparing offline copy';}
       }
       const summary = document.getElementById('appearanceSummary');
       summary.textContent = downloading ? progressText : VERSION + ' · ' + (complete ? 'Offline ready' : 'Offline incomplete');

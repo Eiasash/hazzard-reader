@@ -84,7 +84,6 @@ body.reader-section-mode #chapterHeaderTitle::before,#readerSectionStrip::before
 #chapterHeader.study-header .chapter-switch:not([hidden]) {grid-row:2;grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:0;background:var(--soft);padding:2px;gap:2px;border-radius:9px}
 #chapterHeader.study-header .chapter-switch button {width:100%!important;min-width:0;border:0;border-radius:7px;min-height:44px;padding:4px 6px;font:630 var(--type-control)/1.15 var(--ui)}
 #chapterHeader.study-header .chapter-switch button[aria-current] {background:var(--surface);box-shadow:inset 0 -2px var(--accent);color:var(--accent)}
-#resumeNotice.resume-announcement {position:absolute;inset:auto;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0}
 #readerSectionStrip {display:none}
 body:has(#chapterHeader[data-page-back]) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) {grid-template-columns:44px minmax(0,1fr) 44px 44px!important}
 #chapterHeader.study-header[data-page-back] #settingsBack {grid-row:1;grid-column:1;width:44px;min-width:44px}
@@ -102,8 +101,8 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #library.page {max-width:760px;padding-inline:clamp(14px,4vw,28px)}
 #library .library-search {display:grid;gap:8px;padding-top:12px}
 #library #chapterSearch {box-sizing:border-box;width:100%;height:auto;min-height:48px;padding:10px 13px;margin:0;border:1px solid var(--control);border-radius:10px;background:var(--surface);font:510 var(--type-body)/1.35 var(--ui)}
-#library #chapterSortGroup {border:0;background:transparent;color:var(--ink);padding:0;margin:0}
-#library #chapterSortGroup>summary {min-height:44px;align-content:center;color:var(--accent);font:630 var(--type-control)/1.25 var(--ui);cursor:pointer}
+#library .chapter-sort-field {display:flex;align-items:center;gap:8px;margin:0;min-height:36px;color:var(--muted);font:560 var(--type-label)/1.2 var(--ui)}
+#chapterSortSelect {min-height:38px;height:38px;max-width:100%;border:1px solid var(--rule);border-radius:7px;padding:3px 8px;background:var(--surface);color:var(--ink);font:610 var(--type-control)/1.2 var(--ui)}
 #library #libraryDrugs {display:inline-flex;min-height:44px;align-items:center;font:600 var(--type-control)/1.3 var(--ui);color:var(--accent);text-decoration:underline}
 #library #libraryDrugMatches {margin-block:9px}
 #library #libraryDrugMatches h2,#library #bankSearchGroup h2 {font:690 var(--type-heading)/1.22 var(--ui);margin:.55em 0}
@@ -113,28 +112,34 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #library #libraryDrugMatches small,#panel .notebook-saved-questions .rows small {font:500 var(--type-label)/1.4 var(--ui);color:var(--muted)}
 #library #chapterRows {padding:0;margin:8px 0 0}
 #chapterRows .library-row {
-  display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:5px 12px;
-  margin:0;padding:12px 0;background:transparent;border:0;border-block-end:1px solid var(--rule);
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:0 10px;
+  margin:0;padding:7px 0;background:transparent;border:0;border-block-end:1px solid var(--rule);
 }
-#chapterRows .library-row>.chapter-name {text-align:start;min-width:0;min-height:44px!important;padding:0;overflow-wrap:anywhere}
-#chapterRows .chapter-row-context {margin:0 0 .18em}
-#chapterRows .chapter-row-title {display:block;color:var(--ink);font:690 var(--type-body)/1.36 var(--ui)}
-#chapterRows .library-status:empty {display:none}
-#chapterRows .library-status {font:500 var(--type-label)/1.4 var(--ui)}
-#chapterRows .chapter-actions {gap:3px;display:flex;align-items:stretch;background:var(--surface);border-radius:9px}
-#chapterRows .chapter-actions button {font:630 var(--type-label)/1.25 var(--ui);min-width:44px;padding-inline:8px;color:var(--accent)}
-#chapterRows .library-exams {grid-column:1/-1;display:flex;justify-content:space-between;gap:8px;align-items:center}
+#chapterRows .library-row>.chapter-name {grid-column:1;grid-row:1;min-width:0;min-height:44px!important;padding:2px 0;border:0;background:none;text-align:start;overflow-wrap:anywhere}
+#chapterRows .chapter-row-context {margin:0 0 .12em;font-weight:600}
+#chapterRows .chapter-row-title {display:block;color:var(--ink);font:660 var(--type-body)/1.31 var(--ui)}
+#chapterRows .chapter-name:hover .chapter-row-title {text-decoration:underline}
+#chapterRows .chapter-actions {grid-row:1;grid-column:2;display:contents}
+#chapterRows .chapter-actions .library-study,#chapterRows .exam-count-toggle {
+  display:inline-flex;align-items:center;justify-content:center;min-width:0;min-height:44px;max-width:none;width:auto;margin:0;padding:0 1px;
+  background:transparent;border:0;border-radius:0;font:610 var(--type-label)/1.25 var(--ui);color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap;
+}
+#chapterRows .chapter-actions .library-study {grid-column:2;grid-row:1}
+#chapterRows .library-exams:not([hidden]),#chapterRows .exam-count {display:contents}
 #chapterRows .library-exams[hidden] {display:none}
-#chapterRows .library-exams .exam-count {margin-inline-start:auto}
-#chapterRows .exam-count-toggle {border:0;background:var(--accent-soft);color:var(--accent)}
-#chapterRows .chapter-p005-note {font:580 var(--type-small)/1.25 var(--ui);margin:4px 0 0;max-width:100%}
-@media(max-width:440px) {
-  #chapterRows .library-row {grid-template-columns:minmax(0,1fr)}
-  #chapterRows .chapter-actions {grid-row:2;grid-column:1;justify-self:start}
-  #chapterRows .library-exams {grid-row:2;grid-column:1;justify-self:end;align-self:center;width:auto;max-width:calc(100% - 112px);flex-wrap:wrap;justify-content:end}
-  #chapterRows .library-exams:has(.exam-count-list:not([hidden])) {grid-row:3;grid-column:1;width:100%;max-width:none}
-  #chapterRows .library-exams .library-status {font-size:var(--type-small);text-align:end}
+#library #chapterRows .exam-count>button.exam-count-toggle {
+  grid-column:3;grid-row:1;min-height:44px;min-width:0;width:auto;padding:0 1px;
+  border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--accent);
+  font:610 var(--type-label)/1.25 var(--ui);text-decoration:underline;text-underline-offset:3px;
 }
+#chapterRows .library-row>.library-status {grid-column:1/-1;grid-row:2;margin:1px 0 0;color:var(--muted);font:520 var(--type-small)/1.35 var(--ui);white-space:nowrap}
+#chapterRows .library-status:empty {display:none}
+#chapterRows .exam-count-list:not([hidden]) {grid-column:1/-1;grid-row:3;margin:4px 0 2px}
+#chapterRows .chapter-p005-note {font:580 var(--type-small)/1.25 var(--ui);margin:3px 0 0;max-width:100%}
+.exam-count-list .asked-sitting {display:grid;grid-template-columns:minmax(0,8.5em) minmax(0,1fr);align-items:baseline;gap:8px;padding:3px 0;border-block-start:1px solid var(--rule)}
+.exam-count-list .asked-sitting>strong {font:640 var(--type-label)/1.3 var(--ui);color:var(--ink)}
+.exam-count-list .asked-question-links {display:flex;flex-wrap:wrap;gap:0 5px}
+#chapterRows .asked-question-links a,.exam-count-list .asked-question-links a {display:inline-flex;align-items:center;min-height:28px;min-width:28px;margin:0;padding:2px 1px;border:0;border-radius:0;background:transparent;color:var(--accent);font:570 var(--type-label)/1.2 var(--ui);text-decoration:underline;text-underline-offset:2px}
 #copy.drug-index .drug-entry {border:0;border-bottom:1px solid var(--rule);background:transparent;padding:.45em 0}
 #copy.drug-index .drug-entry>summary {display:flex;flex-direction:column;align-items:flex-start;gap:3px;font-size:var(--type-body);min-height:44px}
 #copy.drug-index .drug-links {margin:.45em 0;background:var(--surface);border:1px solid var(--rule);border-radius:9px;padding:6px 10px}
@@ -158,3 +163,24 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 .notebook-empty a {display:inline-flex;align-items:center;min-height:44px;padding-inline-end:14px;color:var(--accent);font-weight:620}
 #copy .clinical-sources {margin:3px 0 0;border:0;background:transparent}
 #copy .clinical-sources a {margin-inline-end:.3em}
+
+#panel[data-primary=true] [data-pane=notebook] details.nb-group {margin:0;padding:0;border:0;border-radius:0;background:transparent;border-block-end:1px solid var(--rule)}
+#panel [data-pane=notebook] .nb-group>summary,#panel [data-pane=notebook] .nb-answer-list>summary {
+  display:flex;align-items:center;gap:.55em;list-style:none;min-height:44px;margin:0;padding:5px 0;color:var(--ink);font:620 var(--type-control)/1.28 var(--ui);
+}
+#panel [data-pane=notebook] details>summary {display:flex;gap:.55em;align-items:center;list-style:none}
+#panel [data-pane=notebook] details>summary::marker {content:''}
+#panel [data-pane=notebook] details>summary::-webkit-details-marker {display:none}
+#panel [data-pane=notebook] details>summary::before {content:"▸";flex:none;width:.75em;text-align:center;color:var(--accent)}
+#panel [data-pane=notebook] details[open]>summary::before {content:"▾"}
+#panel [data-pane=notebook] .nb-heading {margin:.8em 0 .2em}
+#panel .nb-reading-section {list-style:none;border:0;margin:0;padding:0}
+#panel .nb-reading-section h4 {margin:11px 0 3px;padding:6px 0 3px;border-top:1px solid var(--rule);color:var(--accent);font:690 var(--type-control)/1.3 var(--ui)}
+#panel .nb-reading-section:first-child h4 {border:0}
+#panel .nb-reading-section ul {list-style:none;margin:0;padding:0}
+#panel .nb-unplaced .nb-answer-text {background:transparent;color:var(--ink);text-decoration:none;font-weight:480}
+#panel .nb-unplaced button:first-child small {display:block;color:var(--muted);font:480 var(--type-small)/1.35 var(--ui);margin-top:3px}
+#panel .nb-current-place {display:flex;align-items:center;gap:8px;border-block-end:1px solid var(--rule);padding:6px 0}
+#panel .nb-current-place[hidden] {display:none}
+#panel .nb-current-place span {flex:1;color:var(--muted);font:530 var(--type-label)/1.3 var(--ui)}
+#panel .nb-current-place button {width:auto;min-height:44px;margin:0;padding:3px 5px;border:0;background:transparent;color:var(--accent);font:620 var(--type-label)/1.2 var(--ui)}

@@ -209,11 +209,12 @@ window.HazzardSections = (() => {
       let lo=0,hi=positions.length;
       while(lo<hi){const mid=(lo+hi)>>1;if(positions[mid].y<=scroll.scrollTop+12)lo=mid+1;else hi=mid;}
       const active=lo?positions[lo-1].title:'In this chapter';
-      for(const button of [trigger,strip]){
-        if(button.textContent!==active)button.textContent=active;
-        button.setAttribute('aria-label','Sections · '+(lo?active:copy.dataset.canonicalTitle||active));
-        button.title=active;
-      }
+      const canonical=copy.dataset.canonicalTitle||copy.querySelector('h1')?.innerText||'Sections';
+      const base=chapter.replace(/s$/,''),chapterLabel=(base==='law'?'':base+' · ')+canonical;
+      if(trigger.textContent!==chapterLabel)trigger.textContent=chapterLabel;
+      trigger.title=canonical;trigger.setAttribute('aria-label','Sections · '+chapterLabel+(lo?' · Current section: '+active:''));
+      if(strip.textContent!==active)strip.textContent=active;
+      strip.title=active;strip.setAttribute('aria-label','Sections · '+active);
     }
     function queue(){if(!frame)frame=requestAnimationFrame(update);}
     function measure(){dirty=true;queue();}

@@ -178,7 +178,16 @@ window.HazzardEvidence = (() => {
     const list=document.createElement('span');list.className='exam-count-list';list.hidden=true;
     toggle.onclick=()=>{
       if(list.hidden&&!list.childElementCount){
-        for(const [id,entry] of unique){const link=document.createElement('a');link.href=questionURL(id);link.textContent=label(entry);list.append(link);}
+        const sittings=new Map();
+        for(const [id,entry] of unique){
+          let group=sittings.get(entry.sitting);
+          if(!group){
+            const row=document.createElement('span'),title=document.createElement('strong');
+            row.className='asked-sitting';title.textContent=sittingLabel(entry.sitting);group=document.createElement('span');group.className='asked-question-links';
+            row.append(title,group);list.append(row);sittings.set(entry.sitting,group);
+          }
+          const link=document.createElement('a');link.href=questionURL(id);link.textContent='Q'+entry.number;link.setAttribute('aria-label',label(entry));group.append(link);
+        }
       }
       list.hidden=!list.hidden;toggle.setAttribute('aria-expanded',String(!list.hidden));
     };

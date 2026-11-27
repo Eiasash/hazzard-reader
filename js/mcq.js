@@ -307,7 +307,7 @@ window.HazzardMCQ = (() => {
   let {includeStandout,shufflePastOptions}=readSettings();
   const standoutCount=chapter=>includeStandout?0:(STANDOUT_CHAPTER_COUNTS[chapter]||0);
   const standoutHidden=id=>!includeStandout&&STANDOUT_IDS.has(currentId(id));
-  const standoutLabel='Include hidden practice (standout answer, flawed, or answer not confirmed by the sources)';
+  const standoutLabel='Include hidden practice questions';
   function refreshSettings(){
     ({includeStandout,shufflePastOptions}=readSettings());
     document.getElementById('includeStandout')?.setAttribute('aria-checked',String(includeStandout));
@@ -324,8 +324,8 @@ window.HazzardMCQ = (() => {
   const practicePane=document.querySelector('[data-pane="practice"]');
   if(practicePane){
     const settings=document.createElement('details');settings.className='practice-preferences';
-    settings.innerHTML='<summary>Practice settings</summary>'+[['includeStandout',standoutLabel],['shufflePastOptions','Shuffle answer options in past-exam questions']].map(([id,label])=>'<button type="button" class="mcq-missed-toggle" role="switch" id="'+id+'" aria-checked="'+readSettings()[id]+'"><span class="mcq-switch-track" aria-hidden="true"></span>'+label+'</button>').join('')+'<p class="meta" id="standoutHiddenCount"'+(includeStandout||!STANDOUT_IDS.size?' hidden':'')+'>'+(includeStandout?0:STANDOUT_IDS.size)+' questions hidden by this setting.</p>';
-    practicePane.append(settings);
+    settings.innerHTML='<summary>Practice settings</summary>'+[['includeStandout',standoutLabel],['shufflePastOptions','Shuffle past-paper options']].map(([id,label])=>'<button type="button" class="mcq-missed-toggle" role="switch" id="'+id+'" aria-checked="'+readSettings()[id]+'"><span class="mcq-switch-track" aria-hidden="true"></span>'+label+'</button>').join('')+'<p id="standoutHelp" class="meta">Hidden items have giveaway answers, question flaws or unconfirmed keys.</p><p class="meta" id="standoutHiddenCount"'+(includeStandout||!STANDOUT_IDS.size?' hidden':'')+'>'+(includeStandout?0:STANDOUT_IDS.size)+' questions hidden by this setting.</p>';
+    practicePane.append(settings);document.getElementById('includeStandout').setAttribute('aria-describedby','standoutHelp');
     for(const key of ['includeStandout','shufflePastOptions'])document.getElementById(key).onclick=()=>changeSetting(key,!readSettings()[key]);
   }
   addEventListener('storage',e=>{if(e.key===SETTINGS_KEY||e.key===null)refreshSettings();});
@@ -977,7 +977,7 @@ window.HazzardMCQ = (() => {
       const ref=evidence.questions[q.id];
       const source=sourceTitle(ref?.reference||q.ref).replace(/\s*·\s*(\u00a7?)/g,(_,section)=>section?' · '+section:' ').replace(/\bp\. (?=\d+[-–,])/g,'pp. ');
       const practice=practicePage(q);
-      let html='<details class="mcq-citations"><summary>Source and reading links</summary>'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">'+sourceHTML('Source: '+source)+'</button>':'<p class="meta">'+sourceHTML('Source: '+(source||sourceLabel(q)))+'</p>');
+      let html='<details class="mcq-citations" data-question-source="'+escape(q.id)+'"'+(history.state?.hazzardOpenSource===q.id?' open':'')+'><summary>Source and reading links</summary>'+(q.source==='drill'&&practice?'<button class="mcq-page-link" data-page="'+practice.page+'">'+sourceHTML('Source: '+source)+'</button>':'<p class="meta">'+sourceHTML('Source: '+(source||sourceLabel(q)))+'</p>');
       if(practice&&q.source!=='drill'&&!ref?.pages?.some(p=>p.available))html+='<button class="mcq-page-link" data-page="'+practice.page+'">Open page '+practice.page+(practice.chapterStart?' (chapter start)':'')+'</button>';
       const note=ref?.referenceNote||q.referenceNote;
       if(note)html+='<p class="meta" dir="auto">'+escape(note)+'</p>';
@@ -1219,7 +1219,7 @@ window.HazzardMCQ = (() => {
         const scope=officialReview?'Official questions only':'All eligible questions';
         const intervals=HazzardReview.STEPS.join(' → ');
         return '<div class="review-session"><h1>Daily review</h1><p class="meta">'+scope+'</p>'+
-          (list.length?'<p class="review-progress"><strong>'+Math.max(0,list.length-done)+' remaining</strong><span>'+done+' of '+list.length+' answered</span></p><progress max="'+list.length+'" value="'+done+'" aria-label="Review session progress"></progress>':'')+
+          (list.length?'<p class="review-progress"><strong>Question '+Math.min(position+1,list.length)+' of '+list.length+'</strong><span>'+done+' answered · '+Math.max(0,list.length-done)+' remaining</span></p><progress max="'+list.length+'" value="'+done+'" aria-label="Review session progress"></progress>':'')+
           '<details class="review-intervals"><summary>Review intervals</summary><p>'+intervals+' days. A correct, confident review advances one step. A miss or unsure answer returns tomorrow and steps back one level.</p></details></div>'+
           (storageError?'<p role="alert">'+escape(storageError)+'</p>':'')+(notice?'<p role="status">'+escape(notice)+'</p>':'');
       }
@@ -1328,7 +1328,7 @@ window.HazzardMCQ = (() => {
     function renderBuilder(){
       const filtersOpen=!!host.querySelector('.mock-extra[open]'),sourcesOpen=!!host.querySelector('.mock-sources[open]');
       const pool=builderPool(),years=[...new Set(items.filter(q=>q.kind==='past').map(q=>q.t.slice(0,4)))].sort().reverse();
-      host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p class="eyebrow">PRACTICE</p><h1>Mock builder</h1><h2>Paper length</h2><div class="mcq-filters">'+[25,50,100].map(n=>'<button type="button" data-length="'+n+'" aria-pressed="'+(settings.length===n)+'">'+n+'</button>').join('')+'</div><details class="mock-extra mock-sources"'+(sourcesOpen?' open':'')+'><summary>Question sources</summary><div class="mcq-source-choices">'+sourceChoices().map(([id,label])=>'<button data-source="'+id+'" aria-pressed="'+(id==='law'?lawSelected():id==='articles'?articleSelected:id==='drill'?drillSelected:id==='practice'?generatedSelected:settings.sources.includes(id))+'">'+label+'</button>').join('')+'</div>'+(lawSelected()?'<p class="meta mcq-law-note">'+LAW_NOTE+'</p>':'')+'</details><details class="mock-extra"'+(filtersOpen?' open':'')+'><summary>Topic and exam filters</summary><div class="mcq-bank-filters">'+selection('mock-topic',settings.topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('mock-year',settings.year,[['all','All years'],...years.map(y=>[y,y])],'Past-exam year')+multiSelection('mock-level',settings.level,[['all','All levels'],['Subspec','Subspecialty']],'Past-exam level')+'</div></details><p class="mcq-pool-count" role="status">'+(pool.length<settings.length?'Only '+pool.length+' matching questions are available; this paper will use all '+pool.length+'.':pool.length+' matching questions · '+settings.length+' will be drawn at random.')+'</p>'+hiddenNotice(builderPool(true).length-pool.length)+'<p class="meta">Choose any combination. Law overlaps are included once. Year and level filters apply to past-exam questions.</p><button data-mcq="start" class="primary" '+(!pool.length?'disabled':'')+'>Start paper</button>'+(paper?' <button data-mcq="resume">Resume current paper</button>':'')+(storageError?'<p role="alert">'+escape(storageError)+'</p><button data-mcq="save">Save again</button>':'')+'</div>';
+      host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><h1 class="practice-sr-title">Mock builder</h1><h2>Paper length</h2><div class="mcq-filters">'+[25,50,100].map(n=>'<button type="button" data-length="'+n+'" aria-pressed="'+(settings.length===n)+'">'+n+'</button>').join('')+'</div><details class="mock-extra mock-sources"'+(sourcesOpen?' open':'')+'><summary>Question sources</summary><div class="mcq-source-choices">'+sourceChoices().map(([id,label])=>'<button data-source="'+id+'" aria-pressed="'+(id==='law'?lawSelected():id==='articles'?articleSelected:id==='drill'?drillSelected:id==='practice'?generatedSelected:settings.sources.includes(id))+'">'+label+'</button>').join('')+'</div>'+(lawSelected()?'<p class="meta mcq-law-note">'+LAW_NOTE+'</p>':'')+'</details><details class="mock-extra"'+(filtersOpen?' open':'')+'><summary>Topic and exam filters</summary><div class="mcq-bank-filters">'+selection('mock-topic',settings.topic,[['all','All topics'],...topicChoices()],'Topic')+multiSelection('mock-year',settings.year,[['all','All years'],...years.map(y=>[y,y])],'Past-exam year')+multiSelection('mock-level',settings.level,[['all','All levels'],['Subspec','Subspecialty']],'Past-exam level')+'</div></details><p class="mcq-pool-count" role="status">'+(pool.length<settings.length?'Only '+pool.length+' matching questions are available; this paper will use all '+pool.length+'.':pool.length+' matching questions · '+settings.length+' will be drawn at random.')+'</p>'+hiddenNotice(builderPool(true).length-pool.length)+'<p class="meta">Choose any combination. Law overlaps are included once. Year and level filters apply to past-exam questions.</p><button data-mcq="start" class="primary" '+(!pool.length?'disabled':'')+'>Start paper</button>'+(paper?' <button data-mcq="resume">Resume current paper</button>':'')+(storageError?'<p role="alert">'+escape(storageError)+'</p><button data-mcq="save">Save again</button>':'')+'</div>';
     }
     function newPaper(){
       const chosen=shuffle(builderPool()).slice(0,settings.length);if(!chosen.length)return;
@@ -1449,6 +1449,15 @@ window.HazzardMCQ = (() => {
     }
     function commit(q,state,log){if(log)pendingLogs.set(q.id,log);state.at=Math.max(Date.now(),(answers.get(q.id)?.at||0)+1,(state.at||0)+1);answers.set(q.id,state);pending.set(q.id,state);if(missedOnly)retryAnswers.set(q.id,state);if(mockMode){paper.answers[paperId(q)]=state;paperPending=true;}save();}
     listen(host,'scroll',()=>{clearTimeout(viewTimer);viewTimer=setTimeout(saveView,200);},{passive:true});
+    listen(host,'toggle',event=>{
+      const source=event.target.dataset?.questionSource;
+      if(!source)return;
+      const saved=history.state?.hazzardOpenSource;
+      if(event.target.open&&saved!==source)history.replaceState({...history.state,hazzardOpenSource:source},'');
+      if(!event.target.open&&saved===source){
+        const state={...history.state};delete state.hazzardOpenSource;history.replaceState(state,'');
+      }
+    },{capture:true});
     for(const event of ['pointerdown','touchstart','wheel','keydown'])listen(host,event,()=>{restoringView=false;restoredViewUnchanged=false;},{passive:true});
     listen(host,'click',event=>{if(!event.target.closest('[data-cross]'))queueMicrotask(saveView);});
     listen(host,'change',()=>queueMicrotask(saveView));

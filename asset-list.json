@@ -2033,8 +2033,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch35_sexuality_sexual_function_and_the_aging_woman.md",
-      "sha256": "2609dd5b5248637b545436bc2fa1b9a4d86e5e272f7cbce0a002ccec6923a39c",
-      "bytes": 76530
+      "sha256": "2a9dfa56cdf322266fca85305a952e4b733fb89830e762551e67e14867fe45fe",
+      "bytes": 76623
     },
     {
       "url": "./chapters/hazzard8e_ch35_study.md",
@@ -5918,8 +5918,8 @@
     },
     {
       "url": "./css/practice.css",
-      "sha256": "f19dfc127e4ee76d908623d76e77a6bf8ca299724edcd8feb06ed97dffe3641c",
-      "bytes": 9873
+      "sha256": "c56f6c9c6df0a5130cb748dd03052ea0a30cefae69e2fab76ada229611be14d5",
+      "bytes": 15711
     },
     {
       "url": "./css/reader-accessibility.css",
@@ -5928,8 +5928,8 @@
     },
     {
       "url": "./css/reader-overhaul.css",
-      "sha256": "67239342190b6baca3c54a17f5c848661535aa8d336b935348d7a6b1b931e312",
-      "bytes": 14172
+      "sha256": "2b3eb43254d9c52bba476c9eb93c4008ae8634d72c8ef717e6cc89e8d545cda2",
+      "bytes": 17088
     },
     {
       "url": "./css/reader-sections.css",
@@ -5938,8 +5938,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "add2bc91ada19bca971ae9c65f56d9f8ef983ec2f01d3053f5910f5579322d06",
-      "bytes": 28613
+      "sha256": "f16b037fb50a22f6aa780ba09629ada202e156e2f8780cfcf40fa8bbcfce1fc8",
+      "bytes": 28591
     },
     {
       "url": "./css/reading-companion.css",
@@ -5948,8 +5948,8 @@
     },
     {
       "url": "./css/site.css",
-      "sha256": "2ee1c9ed20da1ee07bf481e19661e6ae5935ba8ed1ada7a5f3f2b893225997ef",
-      "bytes": 5421
+      "sha256": "340ca402237358ec764ba31e6d820b24558080ad690d0a3ddc0992e6ec70d397",
+      "bytes": 6809
     },
     {
       "url": "./data/changelog.json",
@@ -9553,13 +9553,13 @@
     },
     {
       "url": "./index.html",
-      "sha256": "01b26e59c2f12b893d16f00b16249b429d4d6167c0af5ee00ba1cec96e241961",
-      "bytes": 360153
+      "sha256": "af797468a74a484d6fd3316b80d4cf0f4baff7887dd80fb159019d50586b39b0",
+      "bytes": 364295
     },
     {
       "url": "./js/changed-questions.js",
-      "sha256": "952363d716e68cb2106c4ee702e37a2a03b8fc6cba27dfaf66304cce6c31c1fa",
-      "bytes": 27659
+      "sha256": "cb4859d0f88dc1dd84b7b289445c242a88b46ff75da201100a051446f261064f",
+      "bytes": 28177
     },
     {
       "url": "./js/chapter-content.js",
@@ -9573,13 +9573,13 @@
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "f399a1541945da38cbd2749163b4113625bc70040afad02099ab262e62c4e609",
-      "bytes": 24044
+      "sha256": "a4c91d6b95632d3fd8f10803936706fb07d587b6dfab0fe117818e7d513c3205",
+      "bytes": 24577
     },
     {
       "url": "./js/exam-simulation.js",
-      "sha256": "ca78053cccd565acc4124b3767e449b0b2f4dc39a3e7d313d7941a7f9cba5dc8",
-      "bytes": 60305
+      "sha256": "05695d9aec21e9fa99c4e00fe59aa2ae21537d247c261528ce2db10526bc07a4",
+      "bytes": 60331
     },
     {
       "url": "./js/flashcards.js",
@@ -9603,8 +9603,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "5f86ee4848d9408ae943a8d62ab76cc3da7c507b853597e2d920868cc6c64ac6",
-      "bytes": 177185
+      "sha256": "699de96673140a12fa84a144486d8709645e57555c501db43ab8e1080b67a806",
+      "bytes": 177910
     },
     {
       "url": "./js/memory-aids.js",
@@ -9643,13 +9643,13 @@
     },
     {
       "url": "./js/reader-sections.js",
-      "sha256": "c27514d20f53910c0e4095c52f31b35be2f363a168209b0e3059d2f9743dc145",
-      "bytes": 14405
+      "sha256": "eb668e0212088497fd46a59ba365b2fc94d92e5e64e54e12f836d3160bf5669a",
+      "bytes": 14702
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "c63a5a03f5f85108022a428456f719a2e3112b86ecfc2ca100a978f0121ae798",
-      "bytes": 8171
+      "sha256": "c7a4812a623b8c2228c2a61ce0cb2bf0e5c65a879b3c9b2b4e42ac323d4cea84",
+      "bytes": 8515
     },
     {
       "url": "./js/reader-storage.js",
@@ -9673,8 +9673,8 @@
     },
     {
       "url": "./js/stats.js",
-      "sha256": "da751814bda0260b8f7b7a19ec85babdd2494267a1fc0345174fd5c0808de36e",
-      "bytes": 20651
+      "sha256": "e34287c3c94323cfe009142a9f53d716f534af371fe8874e76063049c741c578",
+      "bytes": 20563
     },
     {
       "url": "./js/study-home.js",
