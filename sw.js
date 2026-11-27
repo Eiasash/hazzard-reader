@@ -18,11 +18,11 @@ async function fingerprint(response) {
   const digest = await crypto.subtle.digest('SHA-256', await response.arrayBuffer());
   return [...new Uint8Array(digest)].map(x => x.toString(16).padStart(2, '0')).join('');
 }
-async function download(url, hash) {
+async function download(url, hash, priority = 'auto') {
   let failure;
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
-      const response = await fetch(url, { cache: 'no-store' });
+      const response = await fetch(url, { cache: 'no-store', priority });
       if (!response.ok) throw new Error('Download failed: ' + url);
       if (hash && await fingerprint(response.clone()) !== hash) throw new Error('File changed during update: ' + url);
       return response;
@@ -33,7 +33,7 @@ async function download(url, hash) {
 // On first use a tab-owned worker stages the full book, so a slow connection
 // cannot exhaust the service worker's install-event lifetime. An upgrade in an
 // older reader uses the same hash checks and never replaces its active cache early.
-async function prepareRelease(scope, notify) {
+async function prepareRelease(scope, notify, background = false) {
   const prepare = async () => {
     const listResponse = await download(LIST_URL);
     const list = await listResponse.clone().json();
@@ -79,7 +79,7 @@ async function prepareRelease(scope, notify) {
         const copy = await old.cache.match(absolute.href);
         if (copy?.ok) { await cache.put(absolute.href, copy); return; }
       }
-      await cache.put(absolute.href, await download(absolute.href, sha256));
+      await cache.put(absolute.href, await download(absolute.href, sha256, background ? 'low' : 'auto'));
     }
     async function fill() {
       try {
@@ -93,7 +93,7 @@ async function prepareRelease(scope, notify) {
         }
       } catch (error) { failure = error; }
     }
-    await Promise.all(Array.from({length: 6}, fill));
+    await Promise.all(Array.from({length: background ? 2 : 6}, fill));
     if (failure) throw failure;
     await cache.put(LIST_URL, listResponse);
     await verifyCachedAssets(cache, assets);
@@ -131,7 +131,7 @@ self.addEventListener('message', event => {
     if (event.data.version !== CACHE_VERSION) { self.postMessage({error:'Release changed. Reload the reader.'}); return; }
     const shared=typeof BroadcastChannel==='function'?new BroadcastChannel(SHELL_CACHE+'@'+scope):null;
     if(shared)shared.onmessage=e=>{if(Number.isFinite(e.data))self.postMessage({progress:e.data});};
-    prepareRelease(scope, progress => {self.postMessage({progress});shared?.postMessage(progress);}).then(
+    prepareRelease(scope, progress => {self.postMessage({progress});shared?.postMessage(progress);}, true).then(
       () => self.postMessage({prepared:true}), error => self.postMessage({error:error.message})).finally(()=>shared?.close());
     return;
   }
