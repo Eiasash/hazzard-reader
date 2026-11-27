@@ -148,6 +148,7 @@ dialog button{min-block-size:var(--tap)}
 #markingIndicator{display:grid;place-items:center;inline-size:100%;block-size:100%;border-radius:var(--s1);background:var(--current-mark);color:var(--hl-ink)}
 #markingIndicator svg{inline-size:calc(13px * var(--fs,1));block-size:calc(16px * var(--fs,1))}
 #closePanel{margin-inline-start:auto}
+#settingsVersion{display:block;font:500 var(--type-label)/1.15 var(--ui);color:var(--muted)}
 .settings-controls{display:flex;align-items:center;gap:var(--s1);flex:none}
 #sizeChoices{display:flex;gap:0}
 #sizeChoices button{min-inline-size:var(--tap);border-radius:0;border-inline-end-width:0}
@@ -290,8 +291,10 @@ body{padding-block-end:var(--tabs-height)}
 .notebook-backup button{width:100%;margin-bottom:8px;text-align:center}
 #backupStatus{margin:8px 0 0}
 @media(prefers-reduced-motion:reduce){#chapterHeader{transition:none}}
-.chapter-nav{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;direction:ltr;margin-block:16px}
-.chapter-nav button{min-width:0;min-height:64px;padding:10px 8px;font-size:var(--type-label);text-align:left;overflow-wrap:anywhere}
+.chapter-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:6px;direction:ltr;margin-block:8px}
+.chapter-nav button{display:grid;align-content:center;min-width:0;min-height:44px;padding:3px 7px;font:600 var(--type-label)/1.18 var(--ui);text-align:left}
+.chapter-nav .chapter-neighbor-number{font:500 var(--type-small)/1 var(--ui);color:var(--muted)}
+.chapter-nav .chapter-neighbor-title{min-width:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;overflow-wrap:normal;word-break:normal;text-wrap:balance}
 .chapter-nav button:last-child{grid-column:2;text-align:right}
 .chapter-nav .nav-empty{visibility:hidden}
 #desk{padding-top:28px}
@@ -664,7 +667,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 
 <div id="highlightEditor" role="group" aria-label="Highlight tools" hidden>
   <div class="mark-palette"><div id="inkDots" role="group" aria-label="Highlight colour"></div><button type="button" id="penNumbers" role="switch" aria-checked="false"><span class="number-switch" aria-hidden="true"></span>Number new marks</button></div>
-  <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button id="markDelete" type="button">Delete</button></div>
+  <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button type="button" data-select-reader-text>Select text</button><button id="markDelete" type="button">Delete</button></div>
   <textarea id="markNote" aria-label="Highlight note" placeholder="Note" rows="2" maxlength="500" hidden></textarea>
 </div>
 
@@ -680,6 +683,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
 <section data-pane="tools" data-title="Settings">
+  <small id="settingsVersion">Version v334</small>
   <div class="settings-controls">
     <span class="settings-label">Text size</span><div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">Small</button><button data-size="medium" aria-label="Medium" aria-pressed="false">Medium</button><button data-size="large" aria-label="Large" aria-pressed="false">Large</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg><span id="themeChoiceText">Theme</span></button>
@@ -1426,6 +1430,7 @@ const chapterHeader=document.createElement('header');chapterHeader.id='chapterHe
 chapterHeader.innerHTML='<button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 chapterHeader.append(fab);document.body.append(chapterHeader);
 const infoButton=document.createElement('button');infoButton.id='chapterInfoButton';infoButton.type='button';infoButton.textContent='Chapter info';infoButton.hidden=true;$('[data-pane="contents"]').append(infoButton);
+const textAction=document.createElement('button');textAction.type='button';textAction.dataset.selectReaderText='';textAction.textContent='Select text';$('[data-pane="contents"]').prepend(textAction);
 const libraryHeader=document.createElement('div');libraryHeader.className='library-header';libraryHeader.hidden=true;
 const libraryTitle=document.createElement('strong');libraryHeader.append(libraryTitle,$('#chapterSearch'));
 chapterHeader.append(libraryHeader);
@@ -1461,7 +1466,7 @@ function offerMarkUndo(action,message,insideEditor=false){
   if(!action)return;
   (insideEditor?editor:bottomSlot).append(undoToast);undoToast.querySelector('[role=status]').textContent=message;
   clearTimeout(undoTimer);undoAction=action;undoToast.hidden=false;setReadingBarsHidden(false);syncMarkingUI();
-  undoTimer=setTimeout(clearMarkUndo,4500);
+  undoTimer=setTimeout(clearMarkUndo,3200);
 }
 undoToast.querySelector('button').onclick=()=>{const action=undoAction;clearMarkUndo();try{action?.();if(activeMark)closeMark();}catch(error){flash(error.message,4000);}};
 document.addEventListener('pointerdown',event=>{if(undoAction&&!undoToast.contains(event.target)&&!event.target.closest('#highlightEditor'))clearMarkUndo();},true);
@@ -1753,25 +1758,13 @@ examLinksToggle.onchange=()=>{showExamLinks();try{
   else sessionStorage.removeItem('hazzard-reader-exam-links');
 }catch{}};
 examLinkLabel.append(examLinksToggle,'Show exam links while reading');settingsPage.insertBefore(examLinkLabel,settingsParts.get('backup'));
-const browserSelection=document.createElement('label'),selectionToggle=document.createElement('input');
-browserSelection.className='exam-link-preference';selectionToggle.type='checkbox';selectionToggle.id='browserTextSelection';
-try{selectionToggle.checked=sessionStorage.getItem('hazzard-browser-selection')==='1';}catch{}
-function setSelectionGesture(){
-  document.documentElement.classList.toggle('browser-text-selection',selectionToggle.checked);
-  if(!selectionToggle.checked)window.getSelection()?.removeAllRanges();
-}
-setSelectionGesture();
-selectionToggle.onchange=()=>{
-  setSelectionGesture();
-  try{if(selectionToggle.checked)sessionStorage.setItem('hazzard-browser-selection','1');else sessionStorage.removeItem('hazzard-browser-selection');}catch{}
-};
-browserSelection.append(selectionToggle,'Use browser text selection for Copy and Translate');
-settingsPage.insertBefore(browserSelection,settingsParts.get('backup'));
+const selectionHelp=document.createElement('p');selectionHelp.className='meta';
+selectionHelp.textContent='Long-press to highlight. For Copy or Translate, choose Select text in chapter contents, an answer explanation, or a highlight’s tools.';
+settingsPage.insertBefore(selectionHelp,settingsParts.get('backup'));
 
 const offlineAction=document.createElement('button');offlineAction.type='button';offlineAction.id='downloadOffline';offlineAction.textContent='Download for offline';
 setButtonUnavailable(offlineAction,'Preparing offline storage.');
 settingsPage.insertBefore(offlineAction,settingsParts.get('whatsNew'));
-const settingsVersion=document.createElement('p');settingsVersion.className='meta';settingsVersion.id='settingsVersion';settingsPage.insertBefore(settingsVersion,settingsParts.get('whatsNew'));
 const settingsBack=document.createElement('button');settingsBack.type='button';settingsBack.className='quiet settings-back';
 settingsBack.id='settingsBack';settingsBack.textContent='‹ Back';settingsBack.setAttribute('aria-label','Back');
 settingsBack.addEventListener('click',closePanel);chapterHeader.append(settingsBack);
@@ -1785,7 +1778,9 @@ for(const name of ['diagnostics','whatsNew']){
     router.go(url);
   });
 }
-const sectionTitle=document.createElement('strong');sectionTitle.className='nav-page-title';chapterHeader.append(sectionTitle);
+const sectionHeading=document.createElement('div');sectionHeading.className='nav-page-title';
+const sectionTitle=document.createElement('strong'),settingsVersion=$('#settingsVersion');
+sectionHeading.append(sectionTitle,settingsVersion);chapterHeader.append(sectionHeading);
 function displayPane(name){
   dismissMarkBar();setReadingBarsHidden(false);
   const section=settingsParts.get(name);
@@ -1801,6 +1796,7 @@ function displayPane(name){
   if(name==='backup')setPanelExpanded(true);
   for(const p of panel.querySelectorAll(':scope > [data-pane]'))p.hidden=p!==pane;
   $('#panelTitle').textContent=pane.dataset.title;
+  settingsVersion.hidden=name!=='tools';
   $('#panelBack').hidden=!['qbank','mock','missed','session','whatsNew'].includes(name);
   $('#panelBack').removeAttribute('data-panel');$('#panelBack').textContent=name==='whatsNew'?'‹ Settings':currentView==='desk'?'‹ Home':'‹ Practice';
   if(name==='notebook'){
@@ -1820,7 +1816,6 @@ function displayPane(name){
     const debug=new URL(location.href).searchParams.get('debug')==='1';
     $('#readerDebug').open=debug||section===$('#readerDebug');$('#whatsNewGroup').open=section===$('#whatsNewGroup');
     if(section||debug)sectionTitle.textContent=debug?'Diagnostics':section.querySelector(':scope>summary')?.textContent||'Settings';
-    settingsVersion.textContent='Version '+(window.HazzardRelease?.version||'');
     if(section){section.open=true;const child=section.querySelector('[data-pane]');if(child)child.hidden=false;requestAnimationFrame(()=>{
       section.scrollIntoView({block:'start'});
       for(let host=section.parentElement;host;host=host.parentElement)scrollPositions.set(host,{y:host.scrollTop,from:host.scrollTop});
@@ -2843,6 +2838,40 @@ function rangeQuote(ix,start,end){
   return {bookText:true,text:ix.s.slice(start,end),prefix:ix.s.slice(Math.max(0,start-48),start),suffix:ix.s.slice(end,end+48)};
 }
 const editor=$('#highlightEditor'),noteField=$('#markNote');
+const selectionHint=document.createElement('div');
+selectionHint.className='reader-selection-hint';selectionHint.hidden=true;
+selectionHint.innerHTML='<span role="status">Long-press text for the Android selection menu.</span><button type="button">Cancel</button>';
+appTabs.before(selectionHint);
+let nativeRangeSelected=false;
+function finishNativeSelection(){
+  if(selectionHint.hidden)return;
+  selectionHint.hidden=true;nativeRangeSelected=false;
+  document.documentElement.classList.remove('browser-text-selection');
+  window.getSelection()?.removeAllRanges();
+}
+function selectReaderText(){
+  dismissMarkBar();clearMarkUndo();setReadingBarsHidden(false);
+  window.getSelection()?.removeAllRanges();nativeRangeSelected=false;
+  selectionHint.hidden=false;document.documentElement.classList.add('browser-text-selection');
+}
+selectionHint.querySelector('button').onclick=finishNativeSelection;
+document.addEventListener('click',event=>{
+  if(!event.target.closest('[data-select-reader-text]'))return;
+  if(panel.open)returnReading(selectReaderText);else selectReaderText();
+});
+document.addEventListener('selectionchange',()=>{
+  if(selectionHint.hidden)return;
+  const selection=window.getSelection();
+  if(!selection?.isCollapsed&&selection?.anchorNode?.parentElement?.closest(readingText))nativeRangeSelected=true;
+  else if(nativeRangeSelected&&selection?.isCollapsed)finishNativeSelection();
+});
+document.addEventListener('pointerdown',event=>{
+  // Native handles and menu actions are outside the document. A new press on
+  // the page starts a new gesture, with highlighting restored after one selection.
+  if(!selectionHint.hidden&&!selectionHint.contains(event.target)&&(nativeRangeSelected||!event.target.closest(readingText)))finishNativeSelection();
+},true);
+window.addEventListener('pagehide',finishNativeSelection);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)finishNativeSelection();});
 
 let activeMark=null,stopStroke=()=>{};
 let numberingKey='hazzard-number-points:'+cid;
@@ -3160,13 +3189,13 @@ async function refreshLibraryMarks(){
   const rows=$$('#chapterRows [data-chapter-row]');
   for(const row of rows){
     const name=row.querySelector('.chapter-name');
-    if(!name.querySelector('.library-status')){
+    if(!row.querySelector('.library-status')){
       const status=document.createElement('small');status.className='library-status';name.append(status);
       const exams=document.createElement('div');exams.className='library-exams';row.append(exams);
     }
     const progress=data.chapters[row.dataset.readingChapter];
     row.dataset.readStatus=progress?.read?'Read ✓':'Read '+Math.min(99,Math.floor((progress?.ratio||0)*100))+'%';
-    name.querySelector('.library-status').textContent=row.dataset.readStatus+' · Loading questions…';
+    row.querySelector('.library-status').textContent=row.dataset.readStatus+' · Loading questions…';
   }
   try{
     const {stats,evidence,law}=await HazzardStudyHome.libraryStats();
@@ -3180,8 +3209,12 @@ async function refreshLibraryMarks(){
       const entries=[...ids].filter(id=>evidence.questions[id]).map(id=>[id,evidence.questions[id]]);
       const signature=entries.map(([id])=>id).join(',');
       if(exams.dataset.ids!==signature){
+        const status=row.querySelector('.library-status');
         exams.dataset.ids=signature;exams.replaceChildren();
-        if(entries.length)exams.append(HazzardEvidence.askedBadge(entries,'past questions for '+key));
+        if(entries.length){
+          const label=key==='law'?'Israeli law':'chapter '+key;
+          exams.append(status,HazzardEvidence.askedBadge(entries,'past questions for '+label));
+        }else row.querySelector('.chapter-name').append(status);
       }
       exams.hidden=!entries.length;
     }
@@ -3261,7 +3294,7 @@ function alignFirstReadingLine(){
 }
 new ResizeObserver(()=>document.documentElement.style.setProperty('--active-header-height',chapterHeader.offsetHeight+'px')).observe(chapterHeader);
 function setReadingBarsHidden(hidden){
-  if(hidden&&document.querySelector('dialog:modal,#panel[open][data-primary="false"],#highlightEditor:not([hidden])'))hidden=false;
+  if(hidden&&document.querySelector('dialog:modal,#panel[open][data-primary="false"],#panel[open][data-current-pane="tools"],#highlightEditor:not([hidden])'))hidden=false;
   chapterHeader.classList.toggle('is-collapsed',hidden);
   chapterHeader.inert=hidden;
   bottomSlot.classList.toggle('is-collapsed',hidden);
@@ -3403,7 +3436,12 @@ function chapterNavigation(){
   for(const [offset,side] of [[-1,'previous'],[1,'next']]){
     const entry=sequence[index+offset];if(!entry){const gap=document.createElement('span');gap.className='nav-empty';nav.append(gap);continue}
     const b=document.createElement('button'),id=String(entry.number);b.dataset.chapter=isStudy||entry.studyOnly?(id==='law'?'laws':id+'s'):id;
-    const label=(id==='law'?'':id+' ')+shortChapter(entry);b.textContent=side==='previous'?'‹ '+label:label+' ›';b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
+    const label=(id==='law'?'':id+' ')+shortChapter(entry);
+    const name=document.createElement('span'),direction=document.createElement('span');
+    name.className='chapter-neighbor-title';name.textContent=shortChapter(entry);
+    direction.className='chapter-neighbor-number';direction.setAttribute('aria-hidden','true');
+    const number=id==='law'?'':id;direction.textContent=side==='previous'?'‹ '+number:number+' ›';b.append(direction,name);
+    b.title=label;b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
   }
   nav.classList.add('endcap');copy.after(nav);
 }
@@ -3995,6 +4033,7 @@ function disposeQuestions(){
   $('#readerViewport').classList.remove('has-study-views');readerScroll.hidden=false;readerScroll.style.visibility='';readerScroll.inert=false;questionRoute='';
 }
 function leaveRoute(){
+  finishNativeSelection();
   if(!activeURL)return;
   if(mcq?.active){mcq.remember?.();mcq.save?.();}
   else if(currentView==='reader'&&!panel.open&&readingPage)rememberPlace();

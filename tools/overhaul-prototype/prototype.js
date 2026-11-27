@@ -52,7 +52,16 @@
     main.append(el('p','meta','Prototype answers and saved questions last only while this page is open.'));
   }
   function lookupInput(label,onChange){const i=el('input','lookup');i.type='search';i.placeholder=label;i.setAttribute('aria-label',label);i.autocomplete='off';i.oninput=()=>onChange(i.value);return i;}
-  function chapterRow(c){const box=el('div','row'),a=link(path('read',c.id),null,'');a.style='text-decoration:none;color:inherit;flex:1;min-height:44px;align-content:center';a.append(el('span','meta',c.id==='law'?'Israeli law':'Chapter '+c.id),el('strong','name',c.title));box.append(a,link(path('study',c.id),'Study','secondary row-action'));return box;}
+  function chapterRow(c){
+    const box=el('div','row chapter-row'),title=el('span','chapter-label');
+    title.append(el('span','meta',c.id==='law'?'Israeli law':'Chapter '+c.id),el('strong','name',c.title));
+    box.append(title);
+    for(const [view,label] of [['read','Read'],['study','Study']]){
+      const action=link(path(view,c.id),label,'secondary row-action');
+      action.setAttribute('aria-label',label+' '+c.title);box.append(action);
+    }
+    return box;
+  }
   async function library(r,key){const list=el('div'),stat=el('p','meta');let requestNo=0,shown=18,filter=r.params.get('find')||'';
     const search=lookupInput('Search by chapter, title or drug',v=>{filter=v;shown=18;draw()});search.value=filter;
     main.append(head('Chapters'),search,stat,list);

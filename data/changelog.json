@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v334",
+      "date": "2026-11-27",
+      "changes": [
+        "Long-press highlights again, with native text selection available on demand. Settings keeps its header and version, and chapter lists and reading controls use less space."
+      ]
+    },
+    {
       "version": "v333",
       "date": "2026-11-27",
       "changes": [

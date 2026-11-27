@@ -15,6 +15,7 @@ build_drug_index()
 version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text(encoding='utf-8')).group(1)
 for name, pattern, replacement in [
     ('js/reader-status.js', r"const VERSION = '[^']+'", f"const VERSION = '{version}'"),
+    ('index.html', r'(<small id="settingsVersion">Version )v\d+', rf'\g<1>{version}'),
 ]:
     path = ROOT / name
     with path.open(encoding='utf-8', newline='') as source:
