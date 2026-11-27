@@ -170,7 +170,7 @@ Nonpharmacologic: physical therapy (including low-impact aquatic-based therapy/e
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-caa086c8705cdeb3606c5536"><span>June 2025 Q38</span> Tube feeding and pressure injury</a> <a class="study-source-link" href="?chapter=67#p1048" aria-label="exam reference, p1048">p1048</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-8b2cfa55422f88f802142d29"><span>June 2025 Q63</span> Survival versus comfort in pneumonia</a> <a class="study-source-link" href="?chapter=67#p1048" aria-label="exam reference, p1048">p1048</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-8b2cfa55422f88f802142d29"><span>June 2025 Q63</span> Pneumonia and comfort</a> <a class="study-source-link" href="?chapter=67#p1048" aria-label="exam reference, p1048">p1048</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dd85189b9b4331793e4d5fdc"><span>June 2026 Q26</span> Classifying anginal pain</a> <a class="study-source-link" href="?chapter=68#p1056" aria-label="exam reference, p1056">p1056</a></p>
 
@@ -182,7 +182,7 @@ Peripheral sensitization (inflammatory mediators like histamine/bradykinin lower
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-795f2687afa4d5918ddb65de"><span>June 2023 Q23</span> PAINAD in advanced dementia</a> <a class="study-source-link" href="?chapter=68#p1059" aria-label="exam reference, p1059">p1059</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dd8d86a52ab0a199b770a4f2"><span>June 2026 Q91</span> A pain scale for cognitive impairment</a> <a class="study-source-link" href="?chapter=68#p1059" aria-label="exam reference, p1059">p1059</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dd8d86a52ab0a199b770a4f2"><span>June 2026 Q91</span> Pain in dementia</a> <a class="study-source-link" href="?chapter=68#p1059" aria-label="exam reference, p1059">p1059</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-372ee0c239b0866b869ae17a"><span>June 2025 Q50</span> Total acetaminophen exposure</a> <a class="study-source-link" href="?chapter=68#p1062" aria-label="exam reference, p1062">p1062</a></p>
 
@@ -202,7 +202,7 @@ Peripheral sensitization (inflammatory mediators like histamine/bradykinin lower
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c6d5d418c0657e5ffa7923f3"><span>June 2025 Q4</span> Tricyclic anticholinergic effects</a> <a class="study-source-link" href="?chapter=68#p1063" aria-label="exam reference, p1063">p1063</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-17e66840ae11bd49e4b668cf"><span>June 2025 Q79</span> Drug-induced anticholinergic symptoms</a> <a class="study-source-link" href="?chapter=68#p1063" aria-label="exam reference, p1063">p1063</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-17e66840ae11bd49e4b668cf"><span>June 2025 Q79</span> Anticholinergic effects</a> <a class="study-source-link" href="?chapter=68#p1063" aria-label="exam reference, p1063">p1063</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7e4990226f4077abd0308485"><span>September 2024 Q17</span> Carbamazepine and sodium</a> <a class="study-source-link" href="?chapter=68#p1064" aria-label="exam reference, p1064">p1064</a></p>
 

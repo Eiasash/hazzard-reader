@@ -15634,6 +15634,15 @@
       ],
       "copy|September 2024 Q36 Recognizing apraxia p831": [
         "u321"
+      ],
+      "copy|December 2021 Q17 Setting rehab goals": [
+        "u291"
+      ],
+      "copy|May 2024 Q65 Inpatient rehabilitation criteria MOH p4": [
+        "u296"
+      ],
+      "copy|June 2026 Q92 Reading a FIM score p819": [
+        "u301"
       ]
     }
   },
@@ -17786,6 +17795,27 @@
       ],
       "copy|December 2021 Q68 Antibiotics in advanced dementia p916": [
         "u354"
+      ],
+      "copy|December 2021 Q74 Cognition after delirium p895": [
+        "u314"
+      ],
+      "copy|December 2021 Q28 Irritability in depression p901": [
+        "u327"
+      ],
+      "copy|December 2021 Q24 Hearing and dementia risk p897": [
+        "u334"
+      ],
+      "copy|December 2021 Q78 Treatment expectations p910": [
+        "u336"
+      ],
+      "copy|December 2021 Q14 Combining dementia drugs p911": [
+        "u339"
+      ],
+      "copy|June 2026 Basic Q102 Drug-related presyncope p912": [
+        "u346"
+      ],
+      "copy|December 2021 Q68 Antibiotics in late dementia p916": [
+        "u354"
       ]
     }
   },
@@ -19077,6 +19107,9 @@
       ],
       "copy|June 2025 Q82 Medication-refractory tremor p949": [
         "u424"
+      ],
+      "copy|September 2024 Q74 Head injury and parkinsonism p938": [
+        "u402"
       ]
     }
   },
@@ -20149,6 +20182,12 @@
       ],
       "copy|June 2025 Q90 Benzodiazepines in terminal agitation p890": [
         "u404"
+      ],
+      "copy|June 2025 Q8 Delirium versus psychosis p886": [
+        "u385"
+      ],
+      "copy|September 2024 Q62 When to use antipsychotics p887": [
+        "u396"
       ]
     }
   },
@@ -23692,6 +23731,9 @@
       ],
       "copy|June 2026 Q78 Daytime light in residential care p662": [
         "u298"
+      ],
+      "copy|September 2024 Q34 Recognizing dream enactment p653": [
+        "u292"
       ]
     }
   },
@@ -27035,6 +27077,9 @@
       ],
       "copy|May 2024 Q17 Depression after hip fracture p800": [
         "u274"
+      ],
+      "copy|December 2021 Q60 Fixing a femoral neck fracture p794": [
+        "u259"
       ]
     }
   },
@@ -29692,6 +29737,15 @@
       ],
       "copy|June 2026 Q55 Monitoring duloxetine p1064": [
         "u370"
+      ],
+      "copy|June 2025 Q63 Pneumonia and comfort p1048": [
+        "u355"
+      ],
+      "copy|June 2026 Q91 Pain in dementia p1059": [
+        "u358"
+      ],
+      "copy|June 2025 Q79 Anticholinergic effects p1063": [
+        "u368"
       ]
     }
   },
@@ -36450,6 +36504,15 @@
       ],
       "copy|June 2026 Q33 Gabapentin for uremic itch p1296": [
         "u312"
+      ],
+      "copy|May 2024 Q81 Vitamin C and oxalate Harrison p2867": [
+        "u305"
+      ],
+      "copy|December 2021 Q21 Dialysis for fluid overload p1283": [
+        "u307"
+      ],
+      "copy|June 2026 Q77 Bone disease on dialysis p1295": [
+        "u309"
       ]
     },
     "maxId": 312
@@ -37358,6 +37421,12 @@
       ],
       "copy|Symptoms resolved and the early CT is normal. Which imaging finding still establishes infarction?": [
         "u283"
+      ],
+      "copy|September 2024 Q48 Testing aphasia Handbook pp11–14": [
+        "u268"
+      ],
+      "copy|May 2024 Q18 Seizures after stroke Harrison p3310": [
+        "u281"
       ]
     },
     "maxId": 283
@@ -38398,6 +38467,15 @@
       ],
       "copy|September 2024 Q14 DOAC interruption and bridging p380": [
         "u372"
+      ],
+      "copy|September 2024 Q64 Skin perfusion after surgery p375": [
+        "u366"
+      ],
+      "copy|June 2026 Q21 Postoperative stiffness Harrison p2974–2975": [
+        "u371"
+      ],
+      "copy|September 2024 Q14 Pausing an anticoagulant p380": [
+        "u372"
       ]
     },
     "maxId": 372
@@ -39115,6 +39193,9 @@
       ],
       "copy|May 2024 Q54 Cognitive frailty and MCI p627": [
         "u263"
+      ],
+      "copy|September 2024 Q21 Grading frailty p621": [
+        "u256"
       ]
     },
     "maxId": 263
@@ -56244,6 +56325,9 @@
       ],
       "copy|June 2026 Q10 Prioritizing deprescribing p169": [
         "u208"
+      ],
+      "copy|September 2024 Q92 Life expectancy and screening p161": [
+        "u205"
       ]
     },
     "maxId": 208
@@ -62042,6 +62126,12 @@
       ],
       "copy|June 2025 Q87 Neurogenic bladder drainage p715": [
         "u365"
+      ],
+      "copy|May 2024 Q68 Overactivity with poor emptying p701": [
+        "u344"
+      ],
+      "copy|June 2025 Q98 Reversible incontinence p702": [
+        "u347"
       ]
     },
     "maxId": 365
@@ -68054,6 +68144,12 @@
       ],
       "copy|December 2021 Q37 Lithium toxicity p931": [
         "u416"
+      ],
+      "copy|September 2024 Q4 Treating agitation p922": [
+        "u396"
+      ],
+      "copy|September 2024 Basic Q110 Drug effects on ECG p929": [
+        "u413"
       ]
     },
     "maxId": 416

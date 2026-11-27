@@ -220,11 +220,11 @@ About 80%; the most important step is stopping the offending drug (<a href="?cha
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-39fad91c5b4510f05efdb072"><span>May 2024 Q81</span> Oxalate deposition and vitamin C</a> <a class="study-source-link" href="?chapter=83#ch83-harrison-oxalate" aria-label="Harrison 21e, ch. 372, p. 2867, Harrison p2867">Harrison p2867</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-39fad91c5b4510f05efdb072"><span>May 2024 Q81</span> Vitamin C and oxalate</a> <a class="study-source-link" href="?chapter=83#ch83-harrison-oxalate" aria-label="Harrison 21e, ch. 372, p. 2867, Harrison p2867">Harrison p2867</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-28b6d2af7cf87462379ebe90"><span>June 2023 Basic Q116</span> Burr cells in uremia</a> <a class="study-source-link" href="?chapter=83#ch83-harrison-burr" aria-label="Harrison 21e, ch. 63, p. 434, Figure 63-10, Harrison p434">Harrison p434</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-9534df35cf56acbc6bcb3f35"><span>December 2021 Q21</span> Urgent dialysis for fluid overload</a> <a class="study-source-link" href="?chapter=83#p1283" aria-label="8e teaching passage, p1283">p1283</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-9534df35cf56acbc6bcb3f35"><span>December 2021 Q21</span> Dialysis for fluid overload</a> <a class="study-source-link" href="?chapter=83#p1283" aria-label="8e teaching passage, p1283">p1283</a></p>
 
 <details class="study-self-check" data-check-key="83s:recall-13"><summary>Around what GFR does renal anemia typically develop, and what type of anemia is it?</summary>
 
@@ -234,7 +234,7 @@ Around GFR 35 mL/min; a normochromic, normocytic anemia due to inadequate erythr
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-56a930970c2bcf04fdd39deb"><span>June 2025 Q43</span> Nutrition during dialysis</a> <a class="study-source-link" href="?chapter=83#p1295" aria-label="exam reference, p1295">p1295</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5cc3bcb961bbfb9897e8af66"><span>June 2026 Q77</span> Bone disease in older dialysis patients</a> <a class="study-source-link" href="?chapter=83#p1295" aria-label="exam reference, p1295">p1295</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5cc3bcb961bbfb9897e8af66"><span>June 2026 Q77</span> Bone disease on dialysis</a> <a class="study-source-link" href="?chapter=83#p1295" aria-label="exam reference, p1295">p1295</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7bd5c333fb742a1192c41f33"><span>June 2023 Q39</span> A request to stop dialysis</a> <a class="study-source-link" href="?chapter=83#p1296" aria-label="exam reference, p1296">p1296</a></p>
 

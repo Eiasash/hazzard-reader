@@ -132,7 +132,7 @@ Rapid noncontrast CT excludes hemorrhage but can miss early ischemia. A correspo
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-1c216c76c7ca78a420618afe"><span>June 2023 Q5</span> Classifying nonfluent speech</a> <a class="study-source-link" href="?chapter=62#ch62-aphasia" aria-label="Stroke Rehabilitation Clinician Handbook 2020, pp11–14, classification of aphasia., Handbook p12">Handbook p12</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f8e2b002ef51e8ed9620074a"><span>September 2024 Q48</span> Fluency and repetition</a> <a class="study-source-link" href="?chapter=62#ch62-aphasia" aria-label="Stroke Rehabilitation Clinician Handbook 2020, pp11–14, classification of aphasia., Handbook pp11–14">Handbook pp11–14</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f8e2b002ef51e8ed9620074a"><span>September 2024 Q48</span> Testing aphasia</a> <a class="study-source-link" href="?chapter=62#ch62-aphasia" aria-label="Stroke Rehabilitation Clinician Handbook 2020, pp11–14, classification of aphasia., Handbook pp11–14">Handbook pp11–14</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-ce5e6c2fec8b48bc7e0444b6"><span>May 2024 Q69</span> Recognizing apraxia</a> <a class="study-source-link" href="?chapter=62#ch62-praxis" aria-label="May 2024 exam atlas, Figure 5. The bibliography marks the book and page X., Atlas fig. 5">Atlas fig. 5</a></p>
 
@@ -156,7 +156,7 @@ Rapid noncontrast CT excludes hemorrhage but can miss early ischemia. A correspo
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e6b1e9f6cadbead54a532673"><span>December 2021 Q30</span> Recurrent lobar hemorrhage</a> <a class="study-source-link" href="?chapter=62#p975" aria-label="8e teaching passage, p975">p975</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e093e5a4b6fbeef11a52e246"><span>May 2024 Q18</span> Seizures after hemorrhagic stroke</a> <a class="study-source-link" href="?chapter=62#ch62-seizure" aria-label="Harrison 21e, p3310, Table 425-4 and adjacent stroke text., Harrison p3310">Harrison p3310</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e093e5a4b6fbeef11a52e246"><span>May 2024 Q18</span> Seizures after stroke</a> <a class="study-source-link" href="?chapter=62#ch62-seizure" aria-label="Harrison 21e, p3310, Table 425-4 and adjacent stroke text., Harrison p3310">Harrison p3310</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-452a5972839367e2dbab3541"><span>June 2023 Q17</span> Delayed hydrocephalus after SAH</a> <a class="study-source-link" href="?chapter=62#p978" aria-label="exam reference, p978">p978</a></p>
 

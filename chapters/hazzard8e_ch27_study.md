@@ -185,7 +185,7 @@ More than 10% over 6 months or more than 5% over 1 month before surgery; screen 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-368d1c6ff706583ac2c3f156"><span>June 2023 Q31</span> Stroke history and cardiac risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-db66212cedd8f17c624ba1ed"><span>September 2024 Q64</span> Skin perfusion and wound healing</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-db66212cedd8f17c624ba1ed"><span>September 2024 Q64</span> Skin perfusion after surgery</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-18b0ad7f9e472a626caf7cbe"><span>June 2025 Q39</span> Gas exchange and respiratory reserve</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
@@ -201,9 +201,9 @@ At least 3 months. If delay is impossible, the book describes LMWH bridging whil
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f065ded45c3214b7bc02b061"><span>June 2026 Q66</span> Postoperative aspiration risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-10f0de0773043fed8129feaf"><span>June 2026 Q21</span> Stiff shoulder after surgery</a> <a class="study-source-link" href="?chapter=27#ch27-harrison-shoulder" aria-label="Harrison 22e, ch. 387, pp. 2974–2975, Harrison p2974–2975">Harrison p2974–2975</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-10f0de0773043fed8129feaf"><span>June 2026 Q21</span> Postoperative stiffness</a> <a class="study-source-link" href="?chapter=27#ch27-harrison-shoulder" aria-label="Harrison 22e, ch. 387, pp. 2974–2975, Harrison p2974–2975">Harrison p2974–2975</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-14024c36301bd94117cfdcb6"><span>September 2024 Q14</span> DOAC interruption and bridging</a> <a class="study-source-link" href="?chapter=27#p380" aria-label="exam reference, p380">p380</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-14024c36301bd94117cfdcb6"><span>September 2024 Q14</span> Pausing an anticoagulant</a> <a class="study-source-link" href="?chapter=27#p380" aria-label="exam reference, p380">p380</a></p>
 
 <details class="study-self-check" data-check-key="27s:recall-12"><summary>Does off-pump bypass eliminate later cognitive decline?</summary>
 

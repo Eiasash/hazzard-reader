@@ -162,7 +162,7 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-98ec853f03c4ddcd93ba163a"><span>December 2021 Q12</span> Interpreting a screening score</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a68f3e9d6b27e3350372761f"><span>December 2021 Q74</span> Cognitive follow-up after delirium</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a68f3e9d6b27e3350372761f"><span>December 2021 Q74</span> Cognition after delirium</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-cae00a287bb5d67f443b04bb"><span>June 2022 Q49</span> Smoking cessation and risk</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
@@ -194,7 +194,7 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-50913261c9d08f2875dc46ce"><span>June 2026 Q23</span> Plasma biomarkers and diagnosis</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2ef61450ff3feeb769b59483"><span>December 2021 Q28</span> Depression presenting as irritability</a> <a class="study-source-link" href="?chapter=59#p901" aria-label="8e teaching passage, p901">p901</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2ef61450ff3feeb769b59483"><span>December 2021 Q28</span> Irritability in depression</a> <a class="study-source-link" href="?chapter=59#p901" aria-label="8e teaching passage, p901">p901</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5df16a1d0d61c7ad67f08df6"><span>June 2026 Q56</span> Vascular cognitive impairment</a> <a class="study-source-link" href="?chapter=59#p903" aria-label="8e teaching passage, p903">p903</a></p>
 
@@ -214,17 +214,17 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7c85e40d5ccc8aaa1481c211"><span>December 2021 Q24</span> Hearing and dementia prevention</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7c85e40d5ccc8aaa1481c211"><span>December 2021 Q24</span> Hearing and dementia risk</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-892f3ac99385c931f627310d"><span>June 2026 Q43</span> Presymptomatic Alzheimer disease</a> <a class="study-source-link" href="?chapter=59#p909" aria-label="8e teaching passage, p909">p909</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-08e57c41fba38974834cfcc7"><span>December 2021 Q78</span> Realistic expectations of treatment</a> <a class="study-source-link" href="?chapter=59#p910" aria-label="8e teaching passage, p910">p910</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-08e57c41fba38974834cfcc7"><span>December 2021 Q78</span> Treatment expectations</a> <a class="study-source-link" href="?chapter=59#p910" aria-label="8e teaching passage, p910">p910</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-432e69e7294ba1333bbb87f6"><span>June 2023 Q35</span> Memantine after drug intolerance</a> <a class="study-source-link" href="?chapter=59#p910" aria-label="exam reference, p910">p910</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-aa26bdef996a98dd1c649114"><span>2020 Q87</span> Donepezil and the ECG</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b779bb4d9377055ce33a959e"><span>December 2021 Q14</span> Combining memantine and AChE inhibitors</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b779bb4d9377055ce33a959e"><span>December 2021 Q14</span> Combining dementia drugs</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dcd1c4f9584716e2e478c212"><span>June 2022 Q39</span> When to avoid donepezil</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
@@ -238,7 +238,7 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7dd1def9d494cc738077131"><span>September 2024 Q61</span> Adverse effects of memantine</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Cholinesterase inhibition and presyncope</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Drug-related presyncope</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-26ba0a6e4969ec4edfbd0987"><span>June 2026 Q16</span> Modifiable dementia risks</a> <a class="study-source-link" href="?chapter=59#p913" aria-label="8e teaching passage, p913">p913</a></p>
 
@@ -254,6 +254,6 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7f8661f001992e760b345025"><span>September 2024 Q57</span> Nutritional markers at FAST 7C</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-afc59f4904977cff5ceae519"><span>December 2021 Q68</span> Antibiotics in advanced dementia</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-afc59f4904977cff5ceae519"><span>December 2021 Q68</span> Antibiotics in late dementia</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
 
 <div hidden data-study-flashcards data-reader-metadata="flashcards-entry"></div>

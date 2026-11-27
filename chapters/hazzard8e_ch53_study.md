@@ -90,7 +90,7 @@ The chapter describes a US bundled payment spanning 90 postoperative days. Posta
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-aef3c629ece2ab30b9a741de"><span>2020 Q33</span> Mortality by sex</a> <a class="study-source-link" href="?chapter=53#p793" aria-label="8e teaching passage, p793">p793</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-03f2d251e63e4dd9a8c4925b"><span>December 2021 Q60</span> Fixation of a nondisplaced neck fracture</a> <a class="study-source-link" href="?chapter=53#p794" aria-label="8e teaching passage, p794">p794</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-03f2d251e63e4dd9a8c4925b"><span>December 2021 Q60</span> Fixing a femoral neck fracture</a> <a class="study-source-link" href="?chapter=53#p794" aria-label="8e teaching passage, p794">p794</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-78b3359272a717f584c23b2c"><span>June 2023 Q47</span> Intracapsular fracture</a> <a class="study-source-link" href="?chapter=53#p794" aria-label="exam reference, p794">p794</a></p>
 

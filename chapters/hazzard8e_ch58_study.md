@@ -196,7 +196,7 @@ Sensitivity 94–100%, specificity 90–95% (<a href="?chapter=58#p880">p880</a>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-36c1dda6663cb9192906f6ae"><span>June 2026 Q74</span> CAM versus 4AT</a> <a class="study-source-link" href="?chapter=58#p884" aria-label="exam reference, p884">p884</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dbb934b7ace8c448489dcf01"><span>June 2025 Q8</span> Hallucinations in psychosis and delirium</a> <a class="study-source-link" href="?chapter=58#p886" aria-label="exam reference, p886">p886</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dbb934b7ace8c448489dcf01"><span>June 2025 Q8</span> Delirium versus psychosis</a> <a class="study-source-link" href="?chapter=58#p886" aria-label="exam reference, p886">p886</a></p>
 
 <details class="study-self-check" data-check-key="58s:recall-14"><summary>In postacute/nursing-home admissions, what fraction of patients meet full CAM criteria for delirium at admission, and what fraction of those admitted with delirium are still delirious a month later?</summary>
 
@@ -224,7 +224,7 @@ Sensitivity 94–100%, specificity 90–95% (<a href="?chapter=58#p880">p880</a>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dfc6865b46f8f70ea32d00cb"><span>June 2026 Q14</span> Fluctuating arousal</a> <a class="study-source-link" href="?chapter=58#p886" aria-label="exam reference, p886">p886</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6b8ad9219ef01f065f26f949"><span>September 2024 Q62</span> When an antipsychotic is justified</a> <a class="study-source-link" href="?chapter=58#p887" aria-label="exam reference, p887">p887</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6b8ad9219ef01f065f26f949"><span>September 2024 Q62</span> When to use antipsychotics</a> <a class="study-source-link" href="?chapter=58#p887" aria-label="exam reference, p887">p887</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-194c7693fedb20234ecb92da"><span>June 2023 Q11</span> Family-guided environmental care</a> <a class="study-source-link" href="?chapter=58#p888" aria-label="exam reference, p888">p888</a></p>
 

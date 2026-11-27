@@ -172,7 +172,7 @@ Transplant: MELD predicts waitlist mortality but predicts posttransplant outcome
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5243aa556e0d2320e60b280e"><span>June 2025 Q49</span> Measuring grip strength</a> <a class="study-source-link" href="?chapter=42#p620" aria-label="exam reference, p620">p620</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2f9b0a4a271f750ea9bfb769"><span>September 2024 Q21</span> Dependence on the Clinical Frailty Scale</a> <a class="study-source-link" href="?chapter=42#p621" aria-label="exam reference, p621">p621</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2f9b0a4a271f750ea9bfb769"><span>September 2024 Q21</span> Grading frailty</a> <a class="study-source-link" href="?chapter=42#p621" aria-label="exam reference, p621">p621</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-9f480bcc831187d54db7aa64"><span>June 2026 Q38</span> Grading ADL and IADL dependence</a> <a class="study-source-link" href="?chapter=42#p621" aria-label="exam reference, p621">p621</a></p>
 

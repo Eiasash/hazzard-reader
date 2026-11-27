@@ -106,7 +106,7 @@ Intensive glycemic treatment immediately increases serious hypoglycemia risk; an
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-96c14291d2e808ba8a7b3d45"><span>June 2022 Q29</span> Time to benefit from screening</a> <a class="study-source-link" href="?chapter=11#p161" aria-label="8e teaching passage, p161">p161</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e8ffe5e4732e7d63293662ad"><span>September 2024 Q92</span> Breast screening and life expectancy</a> <a class="study-source-link" href="?chapter=11#p161" aria-label="exam reference, p161">p161</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e8ffe5e4732e7d63293662ad"><span>September 2024 Q92</span> Life expectancy and screening</a> <a class="study-source-link" href="?chapter=11#p161" aria-label="exam reference, p161">p161</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b12477251a8488577c30c601"><span>June 2022 Q74</span> Risk-based vaccination</a> <a class="study-source-link" href="?chapter=11#p165" aria-label="8e teaching passage, p165">p165</a></p>
 

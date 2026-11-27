@@ -169,7 +169,7 @@ Worsening of RLS — earlier onset, increased intensity, and/or spread to arms/t
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-eebcff8ec2efad1443c4bb06"><span>September 2024 Q34</span> Dream enactment and parkinsonism</a> <a class="study-source-link" href="?chapter=44#p653" aria-label="exam reference, p653">p653</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-eebcff8ec2efad1443c4bb06"><span>September 2024 Q34</span> Recognizing dream enactment</a> <a class="study-source-link" href="?chapter=44#p653" aria-label="exam reference, p653">p653</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4c92bbd3cca86626e195a256"><span>September 2024 Q56</span> REM sleep behavior disorder</a> <a class="study-source-link" href="?chapter=44#p655" aria-label="exam reference, p655">p655</a></p>
 

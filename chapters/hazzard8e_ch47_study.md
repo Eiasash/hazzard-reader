@@ -156,13 +156,13 @@ Chronic indwelling catheter: reserve for urinary retention causing overflow inco
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77e6ef73149271bca24a7601"><span>December 2021 Q44</span> Reversible drug causes</a> <a class="study-source-link" href="?chapter=47#p701" aria-label="8e teaching passage, p701">p701</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e2d127b4b2b341b7154a9425"><span>May 2024 Q68</span> Detrusor hyperactivity with poor contractility</a> <a class="study-source-link" href="?chapter=47#p701" aria-label="exam reference, p701">p701</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e2d127b4b2b341b7154a9425"><span>May 2024 Q68</span> Overactivity with poor emptying</a> <a class="study-source-link" href="?chapter=47#p701" aria-label="exam reference, p701">p701</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-ec5cbb9f7b28b3e7733522d9"><span>June 2026 Q64</span> Fecal impaction</a> <a class="study-source-link" href="?chapter=47#p701" aria-label="exam reference, p701">p701</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c2ee36b048f810572296abfe"><span>May 2024 Q92</span> Acute reversible causes</a> <a class="study-source-link" href="?chapter=47#p702" aria-label="exam reference, p702">p702</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b0830837aa5b57c0f1e2f3e2"><span>June 2025 Q98</span> Persistent versus reversible incontinence</a> <a class="study-source-link" href="?chapter=47#p702" aria-label="exam reference, p702">p702</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b0830837aa5b57c0f1e2f3e2"><span>June 2025 Q98</span> Reversible incontinence</a> <a class="study-source-link" href="?chapter=47#p702" aria-label="exam reference, p702">p702</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7c2dad0adf8d1917ff506524"><span>2020 Q93</span> Overflow symptoms</a> <a class="study-source-link" href="?chapter=47#p703" aria-label="8e teaching passage, p703">p703</a></p>
 

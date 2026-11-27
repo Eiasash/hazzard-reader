@@ -160,7 +160,7 @@ Anticonvulsants ("mood stabilizers") are generally disappointing: valproate is i
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-9fd00abfaa6396324e34c1d1"><span>September 2024 Q4</span> When behavior warrants medication</a> <a class="study-source-link" href="?chapter=60#p922" aria-label="exam reference, p922">p922</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-9fd00abfaa6396324e34c1d1"><span>September 2024 Q4</span> Treating agitation</a> <a class="study-source-link" href="?chapter=60#p922" aria-label="exam reference, p922">p922</a></p>
 
 <details class="study-self-check" data-check-key="60s:recall-4"><summary>How common are psychotic symptoms in AD versus in dementia with Lewy bodies or Parkinson disease dementia?</summary>
 
@@ -200,7 +200,7 @@ Anticonvulsants ("mood stabilizers") are generally disappointing: valproate is i
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e912594a9fb26110b2414061"><span>June 2022 Q77</span> Citalopram and QT prolongation</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="8e teaching passage, p929">p929</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6655a23a9c4d6fc4c36f3cf9"><span>September 2024 Basic Q110</span> Drug-induced ECG changes</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="exam reference, p929">p929</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6655a23a9c4d6fc4c36f3cf9"><span>September 2024 Basic Q110</span> Drug effects on ECG</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="exam reference, p929">p929</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-63bf3798074f1dec36283b45"><span>September 2024 Q5</span> Hyponatremia risk</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="exam reference, p929">p929</a></p>
 

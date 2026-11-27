@@ -150,7 +150,7 @@ At discharge, residual impairments can limit activity and expose the patient to 
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e9726c2e2313e5408517930a"><span>December 2021 Q17</span> Who sets rehabilitation goals?</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=3" aria-label="MOH circular 4/2009, MOH p3">MOH p3</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e9726c2e2313e5408517930a"><span>December 2021 Q17</span> Setting rehab goals</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=3" aria-label="MOH circular 4/2009, MOH p3">MOH p3</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-584efd4ae05bbe5c48d0409f"><span>December 2021 Q57</span> Medical stability for transfer</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=4" aria-label="MOH circular 4/2009, MOH p4">MOH p4</a></p>
 
@@ -158,7 +158,7 @@ At discharge, residual impairments can limit activity and expose the patient to 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f6c1d45922e1027bb5ab4324"><span>June 2023 Q89</span> Barriers to participation</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=4" aria-label="MOH circular 4/2009, MOH p4">MOH p4</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-92187e5ab10d4fe7ecd14771"><span>May 2024 Q65</span> Eligibility for inpatient rehabilitation</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=4" aria-label="MOH circular 4/2009, MOH p4">MOH p4</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-92187e5ab10d4fe7ecd14771"><span>May 2024 Q65</span> Inpatient rehabilitation criteria</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=4" aria-label="MOH circular 4/2009, MOH p4">MOH p4</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b68a3e95e9873facb2f5f6cc"><span>September 2024 Q88</span> When to delay transfer</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=4" aria-label="MOH circular 4/2009, MOH p4">MOH p4</a></p>
 
@@ -168,7 +168,7 @@ At discharge, residual impairments can limit activity and expose the patient to 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d77dd3b1ab1dbb492058f5df"><span>December 2021 Q56</span> Supervision in FIM scoring</a> <a class="study-source-link" href="?chapter=55#p819" aria-label="8e teaching passage, p819">p819</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5323c51583402673a5d61738"><span>June 2026 Q92</span> Interpreting observed FIM performance</a> <a class="study-source-link" href="?chapter=55#p819" aria-label="8e teaching passage, p819">p819</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5323c51583402673a5d61738"><span>June 2026 Q92</span> Reading a FIM score</a> <a class="study-source-link" href="?chapter=55#p819" aria-label="8e teaching passage, p819">p819</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7cdd68518d6671b51791c12"><span>2020 Q84</span> Choosing inpatient rehabilitation</a> <a class="study-source-link" href="?chapter=55#p820" aria-label="8e teaching passage, p820">p820</a></p>
 

@@ -130,7 +130,7 @@ Exercise, gait cueing and physical therapy support mobility. Ask about falls, sw
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-66ccc4806be30db38956eb5f"><span>May 2024 Q37</span> Nigral cell loss</a> <a class="study-source-link" href="?chapter=61#p938" aria-label="exam reference, p938">p938</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5461c18463aace56c08459fe"><span>September 2024 Q74</span> Contact sports and parkinsonism</a> <a class="study-source-link" href="?chapter=61#p938" aria-label="exam reference, p938">p938</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5461c18463aace56c08459fe"><span>September 2024 Q74</span> Head injury and parkinsonism</a> <a class="study-source-link" href="?chapter=61#p938" aria-label="exam reference, p938">p938</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-13fabc9f0d6f8fd34d20852e"><span>June 2023 Q80</span> Bradykinesia and postural reflexes</a> <a class="study-source-link" href="?chapter=61#p939" aria-label="exam reference, p939">p939</a></p>
 
