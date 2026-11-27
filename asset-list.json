@@ -9553,8 +9553,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "7744f94d77082d15fead63464bf7888dffb7df36f102c4ee3e3fc6529b93be8f",
-      "bytes": 359998
+      "sha256": "01b26e59c2f12b893d16f00b16249b429d4d6167c0af5ee00ba1cec96e241961",
+      "bytes": 360153
     },
     {
       "url": "./js/changed-questions.js",
@@ -9568,8 +9568,8 @@
     },
     {
       "url": "./js/drug-index.js",
-      "sha256": "32778b431142ab9b14405d8105f6a27384d71efaa255a7e57bc54d09df750103",
-      "bytes": 10927
+      "sha256": "d2a83aae9cc98e98fff860693247933338b0ec46a518c4e714b06f68df5917c1",
+      "bytes": 11245
     },
     {
       "url": "./js/exam-evidence.js",
@@ -9603,8 +9603,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "7a94a74f4b2583e345f6aa8333af0154fe37e83027e619a8bffa92d827fc8b78",
-      "bytes": 177070
+      "sha256": "5f86ee4848d9408ae943a8d62ab76cc3da7c507b853597e2d920868cc6c64ac6",
+      "bytes": 177185
     },
     {
       "url": "./js/memory-aids.js",
@@ -9613,8 +9613,8 @@
     },
     {
       "url": "./js/practice-directory.js",
-      "sha256": "11fb9a14dde3afb51b76ea4f33b758a32c87ececc823e8e641be7580f506d995",
-      "bytes": 6728
+      "sha256": "0e2ffb1b8a4b3efcd9a3f684c92a4a260b5fac38b7d47d0f0f4ad50bfa452d65",
+      "bytes": 6805
     },
     {
       "url": "./js/question-data.js",
@@ -9633,8 +9633,8 @@
     },
     {
       "url": "./js/reader-debug.js",
-      "sha256": "a445c1badea0f0dd953e86975864c258407d1ddf8fc7e282a98b8f44cb9683c9",
-      "bytes": 11323
+      "sha256": "88cf305198a37bd1473cefd75e643b665a93efbe98411add24b4dd186c0dde33",
+      "bytes": 11368
     },
     {
       "url": "./js/reader-input.js",

@@ -75,7 +75,8 @@ window.HazzardPracticeDirectory = (() => {
       const frag=document.createDocumentFragment();
       for(const q of filtered.slice(0,limit)){
         const li=element('li'),a=element('a','directory-question'),text=element('strong','directory-stem',clean(q.q)),meta=element('span','directory-meta');
-        text.dir='auto';const url=new URL(location.href);
+        const script=HazzardMCQ.questionScript(q);text.dir=script.dir;text.lang=script.lang;
+        const url=new URL(location.href);
         url.searchParams.delete('browse');url.searchParams.set('q',q.id);url.searchParams.set('from','questions');url.searchParams.set('kind',kind);
         if(term)url.searchParams.set('term',term);else url.searchParams.delete('term');url.hash='';
         a.href=url.href;a.dataset.questionId=q.id;

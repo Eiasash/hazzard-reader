@@ -1412,7 +1412,8 @@ window.HazzardMCQ = (() => {
           if(mockMode){building=!!resumePlace.building;articleSelected=!!resumePlace.articleSelected;}
         }
         const statsFilter=new URL(location.href).searchParams.get('statsFilter');
-        const restored=!specialScope()&&!explicitMissed&&!statsFilter&&!target&&restoreView(view);
+        const sameTarget=target&&validView(view)&&currentId(view.id)===currentId(target);
+        const restored=!specialScope()&&!explicitMissed&&!statsFilter&&(!target||sameTarget)&&restoreView(view);
         if(explicitMissed){filter=topic='all';year=[];level=[];missedOnly=true;flagsView=savedView=savedOnly=false;missedIds=null;position=0;}
         if(statsFilter){filter=['past','law','articles'].includes(statsFilter)?statsFilter:'all';topic=/^\d+$/.test(statsFilter)?statsFilter:'all';year=[];level=[];missedOnly=explicitMissed;flagsView=location.hash==='#flags';savedView=savedOnly=false;position=0;}
         if(sitting){if(!items.some(q=>q.kind==='past'&&q.t===sitting))throw Error('That sitting is unavailable.');filter='past';track=activeTrack=sitting.endsWith('-Basic')?'Basic':'Subspec';year=[];level=[];topic='all';sort='source';missedOnly=flagsView=savedView=savedOnly=false;}
@@ -1436,7 +1437,7 @@ window.HazzardMCQ = (() => {
         loaded=true;restoringView=restored;search.restore();
         if(target&&items.some(q=>q.id===currentId(target)&&q.retired)){notice='This practice question has been retired. Saved answers are retained.';render();}
         else if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page"><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
-        else if(target){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice='That question is unavailable.';render();}}
+        else if(target&&!restored){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice='That question is unavailable.';render();}}
         else{
           const rv=reviewMode?history.state?.reviewView:null;
           if(rv&&visible()[position]?.id===rv.id){lastAnswer=rv.lastAnswer||null;restoringView=true;}

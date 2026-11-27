@@ -8,6 +8,9 @@ window.HazzardDrugs = (() => {
     if (className) node.className = className;
     return node;
   };
+  function counts(passages,questions){
+    return passages+(passages===1?' passage':' passages')+' · '+questions+(questions===1?' question':' questions');
+  }
   function load() {
     if(pending)return pending;
     const path=window.HazzardDrugSummary||'data/drug-index.json';
@@ -36,6 +39,7 @@ window.HazzardDrugs = (() => {
     return 'Ch '+String(p.chapter).replace(/s$/,'')+(p.kind==='study'?' Study':'')+' · p'+p.page+(p.section?' · '+p.section:'')+(p.sourceType==='bibliography'?' · Bibliography':'');
   }
 
+  function routeKey(params){return JSON.stringify(['drug','drugSearch','drugKind'].map(name=>params.get(name)||''));}
   async function mount(copy) {
     copy.classList.add('drug-index');
     const panel = el('section'); panel.dataset.readerMetadata = 'drugs';
@@ -46,6 +50,7 @@ window.HazzardDrugs = (() => {
     const input = panel.querySelector('#drugSearch'), kind = panel.querySelector('#drugKind');
     const status = panel.querySelector('#drugStatus'), results = panel.querySelector('#drugResults');
     const params = new URL(location.href).searchParams;
+    copy.dataset.drugRoute=routeKey(params);
     input.value = params.get('drugSearch') || '';
     let selectedKind = ['drug', 'class'].includes(params.get('drugKind')) ? params.get('drugKind') : 'all';
     function remember(id) {
@@ -53,6 +58,7 @@ window.HazzardDrugs = (() => {
       for (const [key, value] of [['drugSearch', input.value.trim()], ['drugKind', selectedKind === 'all' ? '' : selectedKind], ['drug', id || '']]) {
         if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
       }
+      copy.dataset.drugRoute=routeKey(url.searchParams);
       history.replaceState(history.state, '', url);
     }
     function detailsFor(entry, body) {
@@ -105,7 +111,7 @@ window.HazzardDrugs = (() => {
       const row = el('details', '', 'drug-entry'); row.id = 'drug-' + entry.id;
       const summary = el('summary'), name = el('strong', entry.name), meta = el('span', entry.kind === 'class' ? 'Drug class' : entry.class || (entry.bankOnly?'Question bank only':''), 'drug-class');
       const passages=entry.passageCount??entry.passages.length,questions=entry.questionCount??entry.questions.length;
-      summary.append(name,meta,el('small',passages+(passages===1?' passage':' passages')+' · '+questions+(questions===1?' question':' questions')));
+      summary.append(name,meta,el('small',counts(passages,questions)));
       const body = el('div', '', 'drug-body'); row.append(summary, body);
       let populated = false;
       row.addEventListener('toggle', async () => {
@@ -178,5 +184,5 @@ window.HazzardDrugs = (() => {
     const term=normalize(query),matches=(await lookup).filter(d=>[d.name,...d.aliases].some(v=>normalize(v).includes(term)));
     return matches.sort((a,b)=>Number(normalize(b.name)===term)-Number(normalize(a.name)===term)).slice(0,10);
   }
-  return {mount,search};
+  return {mount,search,counts,routeKey};
 })();

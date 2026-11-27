@@ -2586,7 +2586,7 @@ async function searchChapters(){
     for(const match of matches){
       const item=document.createElement('li'),link=document.createElement('a'),name=document.createElement('strong'),note=document.createElement('small');
       link.href='?chapter=drugs&drug='+encodeURIComponent(match.id)+'&drugSearch='+encodeURIComponent(match.name);
-      name.textContent=match.name;note.textContent=[match.class,match.passages+' passages',match.questions+' questions'].filter(Boolean).join(' · ');
+      name.textContent=match.name;note.textContent=[match.class,HazzardDrugs.counts(match.passages,match.questions)].filter(Boolean).join(' · ');
       link.append(name,note);item.append(link);drugMatches.lastElementChild.append(item);
     }
     drugMatches.hidden=!matches.length;
@@ -4186,7 +4186,8 @@ async function renderRoute(url,state,back,isCurrent,force=false){
   currentMode=launchParams.get('view')==='questions'?'questions':/^(?:\d+s|laws)$/.test(routeChapter)?'study':'read';
   if(!opensOnHome&&!stats){
     const sourceChanged=routeChapter==='laws'&&(url.searchParams.get('lawCard')||'')!==(copy.dataset.lawSource||'');
-    if(mountedId!==routeChapter||force||sourceChanged)await loadArticle(routeChapter,force||sourceChanged);
+    const drugChanged=routeChapter==='drugs'&&mountedId==='drugs'&&copy.dataset.drugRoute!==HazzardDrugs.routeKey(url.searchParams);
+    if(mountedId!==routeChapter||force||sourceChanged||drugChanged)await loadArticle(routeChapter,force||sourceChanged||drugChanged);
   }
   if(!isCurrent())return;
   preserveStudyPlace=currentMode==='study'&&!url.hash&&!launchParams.has('resume')&&!back;

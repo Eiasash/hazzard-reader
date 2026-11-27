@@ -44,6 +44,7 @@
     clearTimeout(persistTimer); persistTimer = null; lastPersist = Date.now();
     try {
       const raw=localStorage.getItem(KEY);let unreadable=false;
+      if(raw===null&&!entries.length)return;
       if(raw!==null){try{const saved=JSON.parse(raw);unreadable=raw.length>MAX_BYTES||saved?.schema!==1||!Array.isArray(saved.entries);}catch{unreadable=true;}}
       if(unreadable){
         // This early-loaded script may run before the storage helper is ready.
