@@ -4,7 +4,6 @@ window.HazzardStudyPage = (() => {
   const groups = new WeakMap();
   const repeats = new WeakMap();
   const sourceTitles = new WeakSet();
-  const inlineParts = new WeakMap();
   const labels = {
     summary: 'Summary',
     exams: 'Past exam questions',
@@ -82,12 +81,12 @@ window.HazzardStudyPage = (() => {
       if (!match) continue;
       number++;
       drill.dataset.studyRecall = String(number);
-      if (Number(match[1]) === number) continue;
+
       part.splitText(match[0].length);
       const old = document.createElement('span');
       old.hidden = true;
       part.before(old); old.append(part);
-      const displayed = document.createElement('span');
+      const displayed = document.createElement('strong');
       displayed.className = 'study-recall-number';
       displayed.dataset.readerMetadata = 'study-number';
       displayed.textContent = number + '.';
@@ -98,66 +97,40 @@ window.HazzardStudyPage = (() => {
   // Some older notes place the printed rule and the labelled update in one
   // list item, occasionally split by the user's highlight markup. Keep every
   // fragment in its original mark unit, including the first piece of text.
-  function foldInline(paragraph, label, ordinal) {
-    const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT, {
-      acceptNode: node => node.parentElement.closest(generated) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
-    });
-    const nodes = [];
-    let text = '', node;
-    while ((node = walker.nextNode())) {
-      nodes.push({node, start:text.length});
-      text += node.data;
+  function practiceDisclosure(){
+    const details=document.createElement('details'), summary=document.createElement('summary');
+    details.className='study-current-practice';
+    summary.dataset.readerMetadata='study-heading';
+    summary.textContent='Current practice';
+    details.append(summary);
+    return details;
+  }
+  function foldInline(paragraph,label,register){
+    const walker=document.createTreeWalker(paragraph,NodeFilter.SHOW_TEXT);
+    const start=paragraph.textContent.search(label);
+    let offset=0,node;
+    while(node=walker.nextNode()){
+      if(offset+node.length<=start){offset+=node.length;continue;}
+      const range=document.createRange();
+      range.setStart(node,start-offset);range.setEnd(paragraph,paragraph.childNodes.length);
+      const suffix=range.extractContents(),details=practiceDisclosure();
+      details.append(suffix);paragraph.append(details);
+      // extractContents clones an inline ancestor only when the cut divides it.
+      // Both halves continue to belong to the same saved sentence.
+      for(const part of details.querySelectorAll('span[data-unit]'))register(part);
+      return;
     }
-    const start = text.search(label);
-    if (start < 0 || !text.slice(0, start).trim()) return;
-    const hit = nodes.find(part => part.start + part.node.length > start);
-    let edge = hit.node;
-    if (start > hit.start) edge = edge.splitText(start - hit.start);
-    const button = document.createElement('button'), parts = [];
-    button.type = 'button'; button.className = 'study-practice-reference study-inline-toggle';
-    button.dataset.readerMetadata = 'study-disclosure'; button.textContent = 'Current practice';
-    edge.before(button);
-    for (let first = edge; first && paragraph.contains(first);) {
-      const parent = first.parentNode;
-      for (let item = first; item;) {
-        const next = item.nextSibling;
-        if (!(item.nodeType === Node.ELEMENT_NODE && (item.matches(generated) || item.hidden))) {
-          const part = document.createElement('span');
-          part.id = 'study-extra-' + ordinal + '-' + parts.length;
-          part.className = 'study-inline-body';
-          item.before(part); part.append(item); parts.push(part);
-        }
-        item = next;
-      }
-      if (parent === paragraph) break;
-      let ancestor = parent;
-      while (!ancestor.nextSibling && ancestor !== paragraph) ancestor = ancestor.parentNode;
-      first = ancestor === paragraph ? null : ancestor.nextSibling;
-    }
-    function show(open) {
-      button.setAttribute('aria-expanded', String(open));
-      for (const part of parts) part.hidden = !open;
-    }
-    for (const part of parts) inlineParts.set(part, show);
-    button.setAttribute('aria-controls', parts.map(part => part.id).join(' '));
-    button.addEventListener('click', () => show(button.getAttribute('aria-expanded') !== 'true'));
-    show(false);
   }
 
-  function foldPractice(copy) {
+  function foldPractice(copy,register) {
     const labelled = /(?:current practice\s*\(not the book\)|current guidance\s*\(separate from the book\)|current clinical distinction)\s*[:.]/i;
-    let ordinal = 0;
     for (const paragraph of copy.querySelectorAll('p,li')) {
       if (paragraph.closest(generated + ',summary,.study-current-practice,.study-inline-body') || paragraph.querySelector('p,li')) continue;
       const at = sourceText(paragraph).search(labelled);
       if (at < 0) continue;
-      if (at > 0) { foldInline(paragraph, labelled, ++ordinal); continue; }
+      if (at > 0) { foldInline(paragraph, labelled, register); continue; }
       const note = paragraph.parentElement.matches('.note,blockquote') && paragraph.parentElement.childElementCount === 1 ? paragraph.parentElement : paragraph;
-      const details = document.createElement('details'), summary = document.createElement('summary');
-      details.className = 'study-current-practice';
-      summary.dataset.readerMetadata = 'study-heading';
-      summary.textContent = 'Current practice';
-      details.append(summary);
+      const details = practiceDisclosure();
       if (note.tagName === 'LI') {
         details.append(...note.childNodes);
         note.append(details);
@@ -178,13 +151,12 @@ window.HazzardStudyPage = (() => {
 
   function mergeRepeats(copy) {
     const seen = new Map();
-    for (const node of copy.querySelectorAll('.study-current-practice, .study-group p, .study-group li')) {
+    for (const node of copy.querySelectorAll('.study-group p, .study-group li')) {
       if (node.hidden || !node.closest('.study-group') || node.closest(generated)) continue;
-      const practice = node.matches('.study-current-practice');
-      if (!practice && (node.closest('.study-current-practice,.drill-q,table') || node.querySelector('p,li,details,button,input'))) continue;
+      if (node.closest('.study-current-practice,.drill-q,table') || node.querySelector('p,li,details,button,input')) continue;
       const text = sourceText(node);
       if (text.length < 32 && !node.querySelector('a[href]')) continue;
-      const kind = practice ? 'current' : node.closest('.study-group').dataset.studyGroup;
+      const kind = node.closest('.study-group').dataset.studyGroup;
       const key = kind + ':' + signature(node);
       const first = seen.get(key);
       if (!first) { seen.set(key, node); continue; }
@@ -194,18 +166,7 @@ window.HazzardStudyPage = (() => {
       if (node.querySelector('[data-marked]') && !set.shown.querySelector('[data-marked]')) {
         set.shown.hidden = true; set.shown = node;
       } else node.hidden = true;
-      if (practice) {
-        const link = document.createElement('button');
-        link.type = 'button'; link.className = 'study-practice-reference';
-        link.dataset.readerMetadata = 'study-reference'; link.textContent = 'Current practice';
-        node.before(link);
-        link.hidden = !node.hidden;
-        link.addEventListener('click', () => {
-          reveal(node);
-          node.open = true;
-          node.querySelector('summary').focus({preventScroll:true});
-        });
-      }
+
     }
   }
 
@@ -213,20 +174,12 @@ window.HazzardStudyPage = (() => {
     const raw = target instanceof Range ? target.startContainer : target;
     const el = raw?.nodeType === Node.TEXT_NODE ? raw.parentElement : raw;
     if (!el?.closest?.('.study-page')) return target;
-    // A saved range can start exactly at the boundary of an existing mark
-    // span that encloses a hidden inline suffix.
-    if (el.matches('[data-mark-key],[data-range],[data-marked]')) {
-      for (const part of el.querySelectorAll('.study-inline-body')) inlineParts.get(part)?.(true);
-    }
     for (let node = el; node && !node.matches('.study-page'); node = node.parentElement) {
-      inlineParts.get(node)?.(true);
       if (sourceTitles.has(node)) node.hidden = false;
       const repeat = repeats.get(node);
       if (repeat && repeat.shown !== node) {
         for (const twin of repeat.items) {
           twin.hidden = twin !== node;
-          const link = twin.previousElementSibling;
-          if (link?.matches('.study-practice-reference')) link.hidden = !twin.hidden;
         }
         repeat.shown = node;
       }
@@ -270,7 +223,6 @@ window.HazzardStudyPage = (() => {
       }
     }
     if(families.has('summary'))setOpen(families.get('summary'),true);
-    foldPractice(copy);
     mergeRepeats(copy);
     copy.addEventListener('click', event => {
       const href = event.target.closest?.('a[href]')?.getAttribute('href');
@@ -280,5 +232,5 @@ window.HazzardStudyPage = (() => {
       reveal(document.getElementById(id));
     });
   }
-  return {mount, reveal};
+  return {mount, reveal, foldPractice};
 })();

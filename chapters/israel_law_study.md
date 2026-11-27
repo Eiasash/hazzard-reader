@@ -2,7 +2,7 @@
 
 <div dir="ltr">
 
-This Study page uses the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures for the legal sections. The statistics and drills use Brookdale’s *65+ in Israel: Statistical Abstract 2024*, **no. 26**, required by P005-2026, p3.
+Israeli end-of-life care, consent and guardianship are governed by the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures. The population figures come from Brookdale’s *65+ in Israel: Statistical Abstract 2024*, **no. 26**, required by P005-2026, p3.
 
 </div>
 

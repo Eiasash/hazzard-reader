@@ -123,7 +123,7 @@ After a benign aspirate, Hazzard advises ultrasound in **12–18 months**, then 
 - Medullary thyroid carcinoma: RAI has no effect (C-cells lack NIS); all patients need *RET* germline testing (p1556).
 
 ### Book contradiction (exam trap)
-- The book's own **"Hypothyroidism"** section heading (p1551) is immediately followed by the sentence "Overt **hyper**thyroidism is defined as a high TSH with low free T4 concentrations" — a genuine misprint in the source text (verified against the page image, not a transcription error here). Read it as **hypothyroidism**; do not let a quick skim flip the diagnosis in your head.
+- The book's own **"Hypothyroidism"** section heading (p1551) is immediately followed by the sentence "Overt **hyper**thyroidism is defined as a high TSH with low free T4 concentrations" — a misprint under the hypothyroidism heading. Read it as **hypothyroidism**; do not let a quick skim flip the diagnosis in your head.
 
 ## Recall
 
@@ -224,7 +224,7 @@ Median survival for anaplastic thyroid carcinoma is about 5 months. Radioactive 
 
 </details>
 
-## Table 98-7 — verbatim book excerpt
+## Table 98-7
 
 <a id="p1553"></a>
 

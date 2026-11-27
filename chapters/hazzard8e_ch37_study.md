@@ -4,7 +4,7 @@ Study summary of Chapter 37; the book and the full chapter are the reference.
 
 ## What the exams asked
 
-The earlier exam-yield ranking counted seven questions under this chapter. The published references for all seven point elsewhere. September 2024 Q50 cites Chapter 47, p. 712, where the drug table begins. The [finasteride row continues on p. 713](?chapter=47#p713). June 2025 Q89 cites Chapter 97, pp. 1533–1534, for a [contraindication to testosterone](?chapter=97#p1534). No verified 2020–2026 exam question cites Chapter 37.
+The earlier exam-yield ranking counted seven questions under this chapter. The published references for all seven point elsewhere. September 2024 Q50 cites Chapter 47, p. 712, where the drug table begins. The [finasteride row continues on p. 713](?chapter=47#p713). June 2025 Q89 cites Chapter 97, pp. 1533–1534, for a [contraindication to testosterone](?chapter=97#p1534). No 2020–2026 exam question cites Chapter 37 directly.
 
 The following cues come from this chapter’s **practice questions**.
 

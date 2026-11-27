@@ -14839,9 +14839,6 @@
       "copy|An inpatient rehab facility requires a minimum of 3 hours of therapy daily; a skilled nursing facility has no required intensity or duration of therapy (p822).": [
         "u63"
       ],
-      "table-55-4-occupational-therapist-verbatim-book-excerpt|Table 55-4: Occupational therapist — verbatim book excerpt": [
-        "u28"
-      ],
       "copy|Hazzard 8e, p.823 · Read source": [
         "u64"
       ],
@@ -15375,6 +15372,9 @@
       ],
       "copy|CHAPTER 55 / HAZZARD": [
         "u33"
+      ],
+      "table-55-4-occupational-therapist|Table 55-4: Occupational therapist": [
+        "u28"
       ]
     },
     "sequenceOffsets": [
@@ -16464,9 +16464,6 @@
       "recall|Recall": [
         "u36"
       ],
-      "table-59-5-verbatim-book-excerpt|Table 59-5 — verbatim book excerpt": [
-        "u37"
-      ],
       "copy|row:TYPE OF DEMENTIA|TH|TYPE OF DEMENTIA": [
         "u38"
       ],
@@ -17130,6 +17127,9 @@
       ],
       "copy|CHAPTER 59 / HAZZARD": [
         "u58"
+      ],
+      "table-59-5|Table 59-5": [
+        "u37"
       ]
     }
   },
@@ -17262,9 +17262,6 @@
       "copy|Table 61-7's psychosis row (p947) lists only clozapine and quetiapine; the text on p946 adds pimavanserin, which unlike quetiapine has prospective trial data for PD psychosis (p946–947).": [
         "u42"
       ],
-      "copy|\"Currency — declared gap\": the book reports a quetiapine-vs-pimavanserin head-to-head trial as in progress; no result is given (p946).": [
-        "u43"
-      ],
       "recall|Recall": [
         "u44"
       ],
@@ -17355,9 +17352,6 @@
       "copy|Surgical therapy": [
         "u73"
       ],
-      "copy|Exam traps / book against itself (flagged in the source chapter)": [
-        "u74"
-      ],
       "copy|1.": [
         "u75"
       ],
@@ -17441,9 +17435,6 @@
       ],
       "copy|Stepwise, over about 3 days — sudden levodopa withdrawal risks a neuroleptic-malignant-like syndrome (p946).": [
         "u102"
-      ],
-      "copy|These are the actual 2026 specialist-exam questions and answer keys sourced to Chapter 61, reproduced verbatim as printed in the chapter's own \"2026 exam\" section.": [
-        "u103"
       ],
       "copy|Q15 — sourced to p.": [
         "u104"
@@ -17938,6 +17929,15 @@
       ],
       "copy|CHAPTER 61 / HAZZARD": [
         "u66"
+      ],
+      "copy|At publication, the trial comparing quetiapine with pimavanserin was still in progress (p946).": [
+        "u43"
+      ],
+      "copy|Exam traps": [
+        "u74"
+      ],
+      "copy|The 2026 exam tested the diagnosis and treatment of parkinsonism in the following questions, translated from Hebrew.": [
+        "u103"
       ]
     }
   },
@@ -18157,9 +18157,6 @@
       "copy|Special populations": [
         "u71"
       ],
-      "copy|Exam traps / book contradictions": [
-        "u72"
-      ],
       "copy|1.": [
         "u73"
       ],
@@ -18240,9 +18237,6 @@
       ],
       "copy|Lorazepam, starting dose 0.5–1.0 mg PO, IV, or SQ (p890).": [
         "u99"
-      ],
-      "copy|The actual 2026 specialist-exam questions and answer keys sourced to this chapter, reproduced verbatim as printed in the full chapter file.": [
-        "u100"
       ],
       "copy|Q14 — sourced to [p.": [
         "u101"
@@ -18342,6 +18336,12 @@
       ],
       "copy|CHAPTER 58 / HAZZARD": [
         "u62"
+      ],
+      "copy|Exam traps": [
+        "u72"
+      ],
+      "copy|These English translations cover the 2026 exam questions on delirium.": [
+        "u100"
       ]
     },
     "sequenceOffsets": [
@@ -18907,9 +18907,6 @@
       "copy|Special populations": [
         "u100"
       ],
-      "copy|Exam traps / book self-contradictions (flagged in source)": [
-        "u101"
-      ],
       "copy|6.": [
         "u102"
       ],
@@ -18945,9 +18942,6 @@
       ],
       "copy|Glyburide — long half-life raises hypoglycemia risk (p1579).": [
         "u113"
-      ],
-      "copy|These are the actual 2026 specialist-exam questions and keys sourced to this chapter, reproduced verbatim (English rendering; Hebrew original is the authority) as printed in the chapter's own \"2026 exam\" section.": [
-        "u114"
       ],
       "copy|Q6 — sourced to p.": [
         "u115"
@@ -19183,14 +19177,8 @@
       "israeli-context|Israeli context": [
         "u193"
       ],
-      "copy|The 2020–2022 labels open the chapter head because those sittings have no 8e page mapping.": [
-        "u194"
-      ],
       "copy|June 2023 Q24 and Q70 cite ADA 2022.": [
         "u195"
-      ],
-      "copy|Their Read links lead to the related insulin passages, and the guideline locators appear in the insulin section below.": [
-        "u196"
       ],
       "copy|Classify health before choosing a number.": [
         "u197"
@@ -19875,6 +19863,18 @@
       ],
       "copy|CHAPTER 99 / HAZZARD": [
         "u87"
+      ],
+      "copy|The 2020–2022 papers cite an earlier edition.": [
+        "u194"
+      ],
+      "copy|Both questions concern insulin treatment.": [
+        "u196"
+      ],
+      "copy|Exam traps": [
+        "u101"
+      ],
+      "copy|The 2026 diabetes questions below are English translations of the Hebrew exam.": [
+        "u114"
       ]
     },
     "sequenceOffsets": [
@@ -20053,9 +20053,6 @@
       "copy|Goal = comfort, not healing; treat odor with topical metronidazole; give analgesia 30–40 min before repositioning (p698).": [
         "u54"
       ],
-      "copy|Currency — declared gap. The chapter states the NPIAP staging system \"was updated in 2016\"; later revisions to staging or treatment guidelines are not verified in this chapter (p686).": [
-        "u55"
-      ],
       "copy|As printed. Table 46-1's column header reads \"PREVENTION INTERVENTONS\" (sic, typo in the original) (p683).": [
         "u56"
       ],
@@ -20138,9 +20135,6 @@
       "copy|Palliative care": [
         "u82"
       ],
-      "copy|Exam traps / book notes": [
-        "u83"
-      ],
       "copy|1.": [
         "u84",
         "u112"
@@ -20201,18 +20195,6 @@
       ],
       "copy|Clindamycin, amoxicillin with doxycycline, or trimethoprim-sulfamethoxazole (p697).": [
         "u103"
-      ],
-      "copy|The actual exam questions and answer keys as printed in the chapter, reproduced verbatim.": [
-        "u104"
-      ],
-      "copy|Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority).": [
-        "u105"
-      ],
-      "copy|Keys are from key 899478 (after appeals).": [
-        "u106"
-      ],
-      "copy|The support line is the book's own text, with its printed page; it supports an answer, it is not the key.": [
-        "u107"
       ],
       "copy|Q7 — sourced to p.": [
         "u108"
@@ -20864,6 +20846,24 @@
       ],
       "copy|CHAPTER 46 / HAZZARD": [
         "u68"
+      ],
+      "copy|Pressure injury staging. The chapter uses the 2016 NPIAP revision (p686).": [
+        "u55"
+      ],
+      "copy|Exam traps": [
+        "u83"
+      ],
+      "copy|The 2026 questions test pressure injury recognition and management.": [
+        "u104"
+      ],
+      "copy|The IMA administered the exam in Hebrew.": [
+        "u105"
+      ],
+      "copy|The official answers follow the post-appeal key 899478.": [
+        "u106"
+      ],
+      "copy|The cited pages explain the answers.": [
+        "u107"
       ]
     }
   },
@@ -23940,9 +23940,6 @@
       "copy|Special populations & referral": [
         "u46"
       ],
-      "copy|Exam traps / book emphases": [
-        "u47"
-      ],
       "copy|1.": [
         "u48"
       ],
@@ -24137,6 +24134,9 @@
       ],
       "copy|CHAPTER 65 / HAZZARD": [
         "u37"
+      ],
+      "copy|Exam traps": [
+        "u47"
       ]
     },
     "sequenceOffsets": [
@@ -24233,9 +24233,6 @@
       "copy|Acetaminophen: 500–1000 mg q6h; max 4000 mg/day; max 2000–3000 mg/day with hepatic impairment or alcohol use (p1062)": [
         "u24"
       ],
-      "copy|NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7, verified against the page image)": [
-        "u25"
-      ],
       "copy|Table 68-7 singles out indomethacin and ketorolac as Beers 2019 \"avoid\" outright (high risk of GI toxicity and acute kidney injury) — a stronger caution than the general \"avoid long-term use\" that applies to ibuprofen, naproxen, meloxicam, diclofenac, and nabumetone (Table 68-7, p1063)": [
         "u26"
       ],
@@ -24260,9 +24257,6 @@
       "copy|Vertebral compression fractures (VCF): 25% of postmenopausal women in the US affected; 40–50% of adults >80 yr have had one; 5× risk of a second VCF after the first; only ~25% result from falls (most from routine bending/lifting); most common at T12–L3; vertebroplasty/kyphoplasty contraindicated if vertebral height loss >66% (p1066)": [
         "u33"
       ],
-      "copy|Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (40–80 mg depot preparation, verified against the page image) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to 12 months in some studies; hip HA/PRP efficacy needs further study (p1067)": [
-        "u34"
-      ],
       "copy|Book claim to flag: the chapter states knee OA prevalence is \"two times higher in men than women\" (p1067) — worth double-checking against other sources before quoting, since knee OA is more commonly described as female-predominant elsewhere": [
         "u35"
       ],
@@ -24271,9 +24265,6 @@
       ],
       "recall|Recall": [
         "u37"
-      ],
-      "table-68-6-verbatim-book-excerpt|Table 68-6 — verbatim book excerpt": [
-        "u38"
       ],
       "copy|row:DRUG|TH|DRUG": [
         "u39"
@@ -25169,6 +25160,15 @@
       ],
       "copy|CHAPTER 68 / HAZZARD": [
         "u49"
+      ],
+      "copy|NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7)": [
+        "u25"
+      ],
+      "copy|Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (40–80 mg depot preparation) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to 12 months in some studies; hip HA/PRP efficacy needs further study (p1067)": [
+        "u34"
+      ],
+      "table-68-6|Table 68-6": [
+        "u38"
       ]
     }
   },
@@ -25322,9 +25322,6 @@
       "copy|Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves 85% freedom from reoperation at 10 years (p1163).": [
         "u49"
       ],
-      "copy|Table 75-10's severe regurgitant-orifice-area cutoff for MR prints \"≥ 40\" cm²; the row's other two columns (<0.20, 0.20–0.39) make ≥ 0.40 the obviously intended value — as printed, not corrected in this build (p1158).": [
-        "u50"
-      ],
       "copy|Mitral repair-vs-replacement operative mortality is given twice with different numbers: 2% vs 6% overall / 0.7% vs 14% in a >70y cohort (p1160), and later 1–2% vs 5.4–6.4% (p1163) — both as printed.": [
         "u51"
       ],
@@ -25336,9 +25333,6 @@
       ],
       "recall|Recall": [
         "u54"
-      ],
-      "table-75-2-verbatim-book-excerpt|Table 75-2 — verbatim book excerpt": [
-        "u55"
       ],
       "copy|Symptomatic patients with severe aortic stenosis": [
         "u56"
@@ -25375,9 +25369,6 @@
       ],
       "copy|Perioperative risk, anticoagulation, prosthetic valves": [
         "u67"
-      ],
-      "copy|Exam traps / book self-contradictions": [
-        "u68"
       ],
       "copy|1.": [
         "u69"
@@ -25670,6 +25661,15 @@
       ],
       "copy|CHAPTER 75 / HAZZARD": [
         "u61"
+      ],
+      "copy|Table 75-10's severe regurgitant-orifice-area cutoff for MR prints \"≥ 40\" cm²; the row's other two columns (<0.20, 0.20–0.39) make ≥ 0.40 the obviously intended value (p1158).": [
+        "u50"
+      ],
+      "table-75-2|Table 75-2": [
+        "u55"
+      ],
+      "copy|Exam traps": [
+        "u68"
       ]
     },
     "sequenceOffsets": [
@@ -25891,9 +25891,6 @@
       ],
       "copy|HYVET: treating HTN in patients ≥80y → 64% reduction in incident HF. SPRINT intensive arm (<120 mmHg) → 36% lower rate of acute decompensated HF vs standard (140 mmHg) arm (p1191).": [
         "u66"
-      ],
-      "exam-traps-book-contradictions|Exam traps / book contradictions": [
-        "u67"
       ],
       "copy|Two EF numbers for HFREF, not a contradiction — a general range narrowed to a working cutoff: the chapter first gives the general literature range (\"less than 40% to 50%\"), then explicitly adopts EF <45% as its working definition for HFREF (≥45% for HFPEF) for the rest of the discussion (p1175). A question could test either number.": [
         "u68"
@@ -26531,6 +26528,9 @@
       ],
       "copy|CHAPTER 76 / HAZZARD": [
         "u72"
+      ],
+      "exam-traps|Exam traps": [
+        "u67"
       ]
     },
     "sequenceOffsets": [
@@ -26640,9 +26640,6 @@
       "copy|PPM-dependent patients may die immediately on deactivation; non-dependent patients need monitoring for symptoms (p1200).": [
         "u31"
       ],
-      "copy|The CHA2DS2-VASc \"adjusted stroke risk\" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips twice: score 6 → 9.8 %/year, score 7 → 9.6 %/year (a small dip), then score 8 → 6.7 %/year (a bigger dip, equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.": [
-        "u32"
-      ],
       "copy|Two different LVEF thresholds trigger CRT in this chapter: ≤ 35% (p1199, image, Table 77-5) for the classic HF/dyssynchrony indication vs < 50% (p1199) for the AVB-driven \"expected to need >40% ventricular pacing\" pathway (running text) — easy to conflate on a question stem.": [
         "u33"
       ],
@@ -26667,17 +26664,11 @@
       "copy|Atrial fibrillation (AF)": [
         "u40"
       ],
-      "copy|DOACs (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)": [
-        "u41"
-      ],
       "copy|Other tachyarrhythmias": [
         "u42"
       ],
       "copy|End-of-life device management": [
         "u43"
-      ],
-      "copy|Exam traps / book notes": [
-        "u44"
       ],
       "copy|1.": [
         "u45"
@@ -26936,6 +26927,15 @@
       ],
       "copy|CHAPTER 77 / HAZZARD": [
         "u36"
+      ],
+      "copy|The CHA2DS2-VASc \"adjusted stroke risk\" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips twice: score 6 → 9.8 %/year, score 7 → 9.6 %/year (a small dip), then score 8 → 6.7 %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.": [
+        "u32"
+      ],
+      "copy|DOACs (Table 77-9, p1204–1205)": [
+        "u41"
+      ],
+      "copy|Exam traps": [
+        "u44"
       ]
     },
     "sequenceOffsets": [
@@ -27138,9 +27138,6 @@
       "recall|Recall": [
         "u50"
       ],
-      "table-81-13-verbatim-book-excerpt|Table 81-13 — verbatim book excerpt": [
-        "u51"
-      ],
       "copy|row:Exacerbation severity|TH|Exacerbation severity": [
         "u52"
       ],
@@ -27164,9 +27161,6 @@
       ],
       "copy|row:undefined|TD|Fluoroquinolone, antipseudomonal penicillin, cephalosporin (third generation), vancomycin (if concern for MRSA)": [
         "u59"
-      ],
-      "table-81-14-nausea-vomiting-verbatim-book-excerpt|Table 81-14: Nausea/vomiting — verbatim book excerpt": [
-        "u60"
       ],
       "copy|row:SYMPTOM|TH|SYMPTOM": [
         "u61"
@@ -27446,6 +27440,12 @@
       ],
       "copy|CHAPTER 81 / HAZZARD": [
         "u67"
+      ],
+      "table-81-13|Table 81-13": [
+        "u51"
+      ],
+      "table-81-14-nausea-vomiting|Table 81-14: Nausea/vomiting": [
+        "u60"
       ]
     },
     "sequenceOffsets": [
@@ -27595,14 +27595,8 @@
       "book-contradiction-exam-trap|Book contradiction (exam trap)": [
         "u39"
       ],
-      "copy|The book's own \"Hypothyroidism\" section heading (p1551) is immediately followed by the sentence \"Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations\" — a genuine misprint in the source text (verified against the page image, not a transcription error here). Read it as hypothyroidism; do not let a quick skim flip the diagnosis in your head.": [
-        "u40"
-      ],
       "recall|Recall": [
         "u41"
-      ],
-      "table-98-7-verbatim-book-excerpt|Table 98-7 — verbatim book excerpt": [
-        "u42"
       ],
       "copy|Decreased levothyroxine absorption Increased GI tract binding of levothyroxine: iron (as supplements and in multivitamins), calcium carbonate, aluminum hydroxide, sucralfate, cholestyramine Proton pump inhibitors Small intestinal diseases: celiac disease, Helicobacter pylori-associated gastritis, atrophic gastritis, Crohn disease, short bowel": [
         "u43"
@@ -28293,6 +28287,12 @@
       ],
       "copy|CHAPTER 98 / HAZZARD": [
         "u47"
+      ],
+      "copy|The book's own \"Hypothyroidism\" section heading (p1551) is immediately followed by the sentence \"Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations\" — a misprint under the hypothyroidism heading. Read it as hypothyroidism; do not let a quick skim flip the diagnosis in your head.": [
+        "u40"
+      ],
+      "table-98-7|Table 98-7": [
+        "u42"
       ]
     }
   },
@@ -44992,9 +44992,6 @@
       "copy|63% of home care for older cancer patients comes from informal caregivers; nearly 40% of these caregivers have their own comorbidities and rate their own health fair/poor (p1393).": [
         "u38"
       ],
-      "exam-traps-book-nuances|Exam traps / book nuances": [
-        "u39"
-      ],
       "copy|Do not equate \"more indolent tumor biology\" with \"better survival\" — older women have more ER-positive, longer-doubling-time breast cancers (favorable biology) yet still have lower overall cancer-related survival than younger women (p1385).": [
         "u40"
       ],
@@ -45228,6 +45225,9 @@
       ],
       "copy|CHAPTER 88 / HAZZARD": [
         "u44"
+      ],
+      "exam-traps|Exam traps": [
+        "u39"
       ]
     },
     "maxId": 194,
@@ -53929,9 +53929,6 @@
       "copy|As printed (p712–713): the drug table spells \"Solifenancin\" (sic) for solifenacin; left as printed.": [
         "u43"
       ],
-      "copy|Currency — declared gap (p712–713): Table 47-12's drug names/doses are the US market as of press date; Israeli registration/availability was not checked for any agent.": [
-        "u44"
-      ],
       "recall|Recall": [
         "u45"
       ],
@@ -53978,9 +53975,6 @@
       "copy|ד. Start antibiotic treatment": [
         "u59"
       ],
-      "figure-47-1-verbatim-book-excerpt|Figure 47-1 — verbatim book excerpt": [
-        "u60"
-      ],
       "copy|Hazzard 8e, Figure 47-1, p.700": [
         "u61",
         "u161"
@@ -54017,9 +54011,6 @@
       ],
       "copy|Fecal incontinence": [
         "u72"
-      ],
-      "copy|Exam traps / book notes": [
-        "u73"
       ],
       "copy|2.": [
         "u74"
@@ -54107,15 +54098,6 @@
       ],
       "copy|The actual exam questions and keys as printed in this chapter's source file (reproduced verbatim, not paraphrased).": [
         "u102"
-      ],
-      "copy|Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority).": [
-        "u103"
-      ],
-      "copy|Keys are from key 899478 (after appeals).": [
-        "u104"
-      ],
-      "copy|The support line is the book's own text, with its printed page; it supports an answer, it is not the key.": [
-        "u105"
       ],
       "copy|Q17 — sourced to p.": [
         "u106"
@@ -54308,6 +54290,24 @@
       ],
       "copy|CHAPTER 47 / HAZZARD": [
         "u62"
+      ],
+      "copy|Table 47-12 lists drug names and doses for the US market at publication (p712–713); local availability may differ.": [
+        "u44"
+      ],
+      "figure-47-1|Figure 47-1": [
+        "u60"
+      ],
+      "copy|Exam traps": [
+        "u73"
+      ],
+      "copy|The IMA administered the exam in Hebrew.": [
+        "u103"
+      ],
+      "copy|The official answers follow the post-appeal key 899478.": [
+        "u104"
+      ],
+      "copy|The cited pages explain the answers.": [
+        "u105"
       ]
     },
     "maxId": 305,
@@ -59319,9 +59319,6 @@
       "copy|Anticonvulsants (\"mood stabilizers\") are generally disappointing: valproate is ineffective and poorly tolerated; carbamazepine helped in one small trial but is a potent enzyme inducer with marrow-toxicity risk (p930).": [
         "u42"
       ],
-      "copy|Every drug/dose table in this chapter is flagged as not checked for Israeli registration, availability, or dosing — use the printed (US) values as given for board purposes (p928).": [
-        "u43"
-      ],
       "copy|The chapter's own text lists cholinesterase-inhibitor side effects as \"eight loss\" — a printing error for \"weight loss\" (correctly spelled in Table 60-9, p929); left as printed on p931.": [
         "u44"
       ],
@@ -59357,9 +59354,6 @@
       ],
       "copy|ד. Amitriptyline": [
         "u55"
-      ],
-      "table-60-6-verbatim-book-excerpt|Table 60-6 — verbatim book excerpt": [
-        "u56"
       ],
       "copy|Provide reminders, cues, or prompts": [
         "u57"
@@ -59488,9 +59482,6 @@
       "copy|Drugs — other / adjuncts": [
         "u99"
       ],
-      "copy|Exam traps / book notes": [
-        "u100"
-      ],
       "copy|4.": [
         "u101"
       ],
@@ -59562,9 +59553,6 @@
       ],
       "copy|8.5% to 20%; short-acting preferred, and glucuronidated agents — oxazepam, temazepam, or lorazepam — are preferable with complex medical comorbidities (p931).": [
         "u124"
-      ],
-      "copy|The actual exam questions and answer keys as printed in the chapter, reproduced verbatim (page cross-reference links point to anchors in the source chapter file and are given here as plain page numbers instead).": [
-        "u125"
       ],
       "copy|Q9 — sourced to p.": [
         "u126"
@@ -59747,6 +59735,18 @@
       ],
       "copy|CHAPTER 60 / HAZZARD": [
         "u92"
+      ],
+      "copy|The drug tables give US doses and availability at publication (p928).": [
+        "u43"
+      ],
+      "table-60-6|Table 60-6": [
+        "u56"
+      ],
+      "copy|Exam traps": [
+        "u100"
+      ],
+      "copy|These English translations cover the 2026 exam questions on dementia care.": [
+        "u125"
       ]
     },
     "maxId": 337,
@@ -63873,9 +63873,6 @@
       "copy|The figure's abbreviated RASS panel prints: +3 very agitated, removing tubes/catheters or aggressive; +2 frequent nonpurposeful movement/fighting ventilator; +1 restless/anxious without vigorous aggression; 0 alert/calm; −1 drowsy with voice contact >10 seconds; −2 briefly awake with voice eye contact <10 seconds; −3 movement/eye opening to voice without eye contact; −4 movement/eye opening only to physical stimulation; −5 no response to either. It gives 30–60 seconds for administration (p211).": [
         "u47"
       ],
-      "copy|As printed: the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel above is the book's displayed panel, not a claim to reproduce every RASS category.": [
-        "u48"
-      ],
       "copy|Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (p211).": [
         "u49"
       ],
@@ -64159,8 +64156,7 @@
         "u141"
       ],
       "copy|2026-Jun Q98 (page citation)": [
-        "u142",
-        "u144"
+        "u142"
       ],
       "copy|Hazzard 8e, Figure 15-4, p.214": [
         "u143"
@@ -64211,6 +64207,9 @@
       ],
       "copy|CHAPTER 15 / HAZZARD": [
         "u81"
+      ],
+      "copy|As printed: the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel shows only part of the RASS scale.": [
+        "u48"
       ]
     },
     "maxId": 278,
@@ -89496,12 +89495,6 @@
       "copy|14.6% בגילי 65–74 לעומת 36.3% בבני 75+; בסך הכול 22.6% מבני 65+ (ממוצע 2020–2022) (ברוקדייל, שנתון 2024, עמ' 134).": [
         "u117"
       ],
-      "copy|This Study page uses the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures for the legal sections.": [
-        "u124"
-      ],
-      "copy|The statistics and drills use Brookdale’s 65+ in Israel: Statistical Abstract 2024, no. 26, required by P005-2026, p3.": [
-        "u125"
-      ],
       "copy|סף הזמן (§8): רופא אחראי קובע שהחולה נוטה למות אם הבעיה חשוכת מרפא ותוחלת החיים גם עם טיפול אינה עולה על 6 חודשים. בשלב סופי נדרשים גם כשל של כמה מערכות חיוניות ותוחלת חיים של עד שבועיים גם עם טיפול.": [
         "u126"
       ],
@@ -89555,6 +89548,12 @@
       ],
       "copy|\"סיעודי\" (§5) הוא מחלה כרונית/ליקוי קבוע הדורש מעקב רפואי מיומן לתקופה ממושכת, יחד עם ליקוי תפקודי (מרותק למיטה/עגלה, אי-שליטה בסוגרים, או מתהלך בקושי רק עקב פתולוגיה או סיבוכי מחלות). \"סיעודי-מורכב\" (§7) דורש בנוסף לכך גם עומס טיפולי-רפואי גבוה — לדוגמה פצע לחץ דרגה 3-4, מטופל סיעודי הזקוק בקביעות לדיאליזה, טרכאוסטומיה/BIPAP, או מחלה ממאירה הדורשת טיפול אקטיבי — המצריך צוות בעל מיומנות גבוהה יותר.": [
         "u123"
+      ],
+      "copy|Israeli end-of-life care, consent and guardianship are governed by the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures.": [
+        "u124"
+      ],
+      "copy|The population figures come from Brookdale’s 65+ in Israel: Statistical Abstract 2024, no. 26, required by P005-2026, p3.": [
+        "u125"
       ]
     }
   },
@@ -108584,9 +108583,6 @@
       "copy|If the trial excluded substantial renal disease or functional impairment, there may be little direct evidence about the balance of benefits and immediate harms in a person with those features (p609–612).": [
         "u108"
       ],
-      "copy|The numerical example earlier in this page illustrates the effect of the denominator.": [
-        "u109"
-      ],
       "copy|When an event falls from 2% to 1%, the absolute difference is one event per hundred people over the study period.": [
         "u110"
       ],
@@ -109005,6 +109001,9 @@
       ],
       "copy|Return to documented patient priorities, discuss feasible alternatives and share the agreed plan across clinicians (p612–613).": [
         "u258"
+      ],
+      "copy|The denominator determines how large a change appears.": [
+        "u109"
       ]
     }
   },

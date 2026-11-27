@@ -177,8 +177,8 @@ When a patient is dying, the aim may be freedom from distress even if closure is
 **Palliative care**
 - Goal = comfort, not healing; treat odor with topical metronidazole; give analgesia **30–40 min** before repositioning (p698).
 
-**Exam traps / book notes**
-- **Currency — declared gap.** The chapter states the NPIAP staging system "was updated in 2016"; later revisions to staging or treatment guidelines are not verified in this chapter (p686).
+**Exam traps**
+- **Pressure injury staging.** The chapter uses the 2016 NPIAP revision (p686).
 - **As printed.** Table 46-1's column header reads "PREVENTION INTERVENTONS" (sic, typo in the original) (p683).
 
 ## Recall
@@ -233,9 +233,9 @@ Clindamycin, amoxicillin with doxycycline, or trimethoprim-sulfamethoxazole (p69
 
 ### 2026 exam questions for this chapter
 
-The actual exam questions and answer keys as printed in the chapter, reproduced verbatim.
+The 2026 questions test pressure injury recognition and management.
 
-> Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority). Keys are from key 899478 (after appeals). The support line is the book's own text, with its printed page; it supports an answer, it is not the key.
+> The IMA administered the exam in Hebrew. The official answers follow the post-appeal key 899478. The cited pages explain the answers.
 
 **Q7** — sourced to [p. 695–696](?chapter=46#p695). A 75-year-old woman was admitted to a complex nursing-care ward after a prolonged hospitalization for pneumonia, ventilation and a stay in intensive care. On admission to the ward she had a pressure ulcer involving the buttock, 10x9 cm, with abundant necrotic tissue and redness visible around it; see picture no. 1. Laboratory tests show elevated inflammatory markers. Which debridement approach is most recommended for her?
 

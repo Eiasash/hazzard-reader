@@ -108,7 +108,7 @@ ECOG measures activity and time spent confined to bed or a chair. An active pati
 - By **2030**, **70%** of cancer patients will be 65+, with incidence in this group rising **~70%** from 2010–2030. The chapter counted **16 million** US cancer survivors at the time of writing, **~60%** age 65+; by **2040**, projected **26 million** survivors, **73%** age 65+, almost **50%** age 75+ (p1392–1393).
 - **63%** of home care for older cancer patients comes from informal caregivers; nearly **40%** of these caregivers have their own comorbidities and rate their own health fair/poor (p1393).
 
-### Exam traps / book nuances
+### Exam traps
 - Do not equate "more indolent tumor biology" with "better survival" — older women have more ER-positive, longer-doubling-time breast cancers (favorable biology) yet still have *lower* overall cancer-related survival than younger women (p1385).
 - Direction of stage-at-presentation with age is tumor-specific, not uniform: melanoma presents *more* advanced in older adults; lung cancer presents *less* advanced (more localized) in older adults — do not assume all cancers present later in older patients (p1385).
 - CARG and CRASH are two different chemo-toxicity risk tools with different point scales and different endpoints (CARG = single composite risk tier; CRASH = separate hematologic/nonhematologic percentages) — don't merge their numbers (p1388).

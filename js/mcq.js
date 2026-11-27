@@ -317,19 +317,19 @@ window.HazzardMCQ = (() => {
     ({includeStandout,shufflePastOptions}=readSettings());
     document.getElementById('includeStandout')?.setAttribute('aria-checked',String(includeStandout));
     document.getElementById('shufflePastOptions')?.setAttribute('aria-checked',String(shufflePastOptions));
-    const count=document.getElementById('standoutHiddenCount');if(count)count.textContent=(includeStandout?0:STANDOUT_IDS.size)+' questions hidden by this setting.';
+    const count=document.getElementById('standoutHiddenCount');if(count){count.hidden=includeStandout||!STANDOUT_IDS.size;count.textContent=(includeStandout?0:STANDOUT_IDS.size)+' questions hidden by this setting.';}
     dispatchEvent(new Event('hazzard-practice-settings-change'));
     dispatchEvent(new Event('hazzard-review-change'));
   }
   function changeSetting(key,value){
     const settings=readSettings();settings[key]=value;settings.at=Math.max(Date.now(),settings.at+1);
     try{HazzardStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));refreshSettings();}
-    catch{const note=document.getElementById('standoutHiddenCount');if(note)note.textContent='Practice settings could not be saved. Try again.';}
+    catch{const note=document.getElementById('standoutHiddenCount');if(note){note.hidden=false;note.textContent='Practice settings could not be saved. Try again.';}}
   }
   const practicePane=document.querySelector('[data-pane="practice"]');
   if(practicePane){
     const settings=document.createElement('section');
-    settings.innerHTML='<h2>Practice settings</h2>'+[['includeStandout',standoutLabel],['shufflePastOptions','Shuffle answer options in past-exam questions']].map(([id,label])=>'<button type="button" class="mcq-missed-toggle" role="switch" id="'+id+'" aria-checked="'+readSettings()[id]+'"><span class="mcq-switch-track" aria-hidden="true"></span>'+label+'</button>').join('')+'<p class="meta" id="standoutHiddenCount">'+(includeStandout?0:STANDOUT_IDS.size)+' questions hidden by this setting.</p>';
+    settings.innerHTML='<h2>Practice settings</h2>'+[['includeStandout',standoutLabel],['shufflePastOptions','Shuffle answer options in past-exam questions']].map(([id,label])=>'<button type="button" class="mcq-missed-toggle" role="switch" id="'+id+'" aria-checked="'+readSettings()[id]+'"><span class="mcq-switch-track" aria-hidden="true"></span>'+label+'</button>').join('')+'<p class="meta" id="standoutHiddenCount"'+(includeStandout||!STANDOUT_IDS.size?' hidden':'')+'>'+(includeStandout?0:STANDOUT_IDS.size)+' questions hidden by this setting.</p>';
     practicePane.append(settings);
     for(const key of ['includeStandout','shufflePastOptions'])document.getElementById(key).onclick=()=>changeSetting(key,!readSettings()[key]);
   }
@@ -1291,7 +1291,7 @@ window.HazzardMCQ = (() => {
       const correct=list.filter(q=>{const s=stateFor(q);return s.checked&&q.accepted.includes(s.selected)}).length,answered=list.filter(q=>stateFor(q).checked).length;
       return '<section class="mcq-score"><h2>Paper complete</h2><p class="mcq-score-value">'+correct+' / '+list.length+'</p><p>'+Math.round(100*correct/list.length)+'% correct · '+(answered-correct)+' incorrect · '+(list.length-answered)+' unanswered</p><button data-mcq="retry-missed" '+(correct===list.length?'disabled':'')+'>Retry missed ('+(list.length-correct)+')</button> <button data-mcq="review">Review answers</button><p class="meta">Retry includes unanswered questions.</p></section>';
     }
-    const hiddenNotice=n=>'<p class="meta mcq-standout-hidden">'+n+' questions hidden by the &ldquo;'+standoutLabel+'&rdquo; setting.</p>';
+    const hiddenNotice=n=>n>0?'<p class="meta mcq-standout-hidden">'+n+' questions hidden by the &ldquo;'+standoutLabel+'&rdquo; setting.</p>':'';
     let bodyTurn=0;
     function render(bodyOnly=false){
       if(mockMode){const title=document.getElementById('chapterHeaderTitle');title.textContent=title.title=building?'Mock builder':'Mock paper';}

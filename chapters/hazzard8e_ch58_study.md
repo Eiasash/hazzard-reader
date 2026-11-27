@@ -156,7 +156,7 @@ Recovery planning matters in postacute care. In one cohort, 16% of admissions me
 - Postacute/nursing home: **16%** meet full CAM criteria on admission, another **50%** are subsyndromal; of those admitted with delirium, **>50%** still delirious at 1 month (p890).
 - At end of life, delirium affects **>80%** of patients. Hazzard names **haloperidol as first-line therapy** for terminally ill patients with delirium and acknowledges a randomized trial that did not support its use. For **severe agitated delirium**, sedation can be **additional therapy** when consistent with goals of care. If sedation is indicated, the chapter recommends **lorazepam**, initially **0.5–1.0 mg** PO, IV or SQ (p890).
 
-**Exam traps / book contradictions**
+**Exam traps**
 - Acute-onset timeframe: Cardinal Features/Table 58-4 say "hours to days," but the Algorithm-for-Evaluation text says "hours to weeks" for acute change — both as printed, not reconciled; a 2–3-week history falls inside one window and outside the other (p886).
 - Figure 58-2's flowchart ends "avoid benzodiazepines and other psychoactive drugs" and gives only starting doses; the body text on p889 adds that benzodiazepines remain the treatment of choice for seizure/withdrawal delirium and gives the 24-h antipsychotic maximums the figure omits (p887).
 - Risperidone dose: Figure 58-2 gives **0.25 mg**; the Antipsychotics text gives **0.25–0.5 mg** — both as printed (p889).
@@ -237,7 +237,7 @@ Lorazepam, starting dose 0.5–1.0 mg PO, IV, or SQ (p890).
 
 ### 2026 exam questions for this chapter
 
-The actual 2026 specialist-exam questions and answer keys sourced to this chapter, reproduced verbatim as printed in the full chapter file.
+These English translations cover the 2026 exam questions on delirium.
 
 **Q14** — sourced to [p. 886, Table 58-4]. Which feature best distinguishes delirium from acute psychosis?
 

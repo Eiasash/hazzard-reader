@@ -203,7 +203,7 @@ MCI is noted in up to 15–20% of older adults; roughly 12–15% progress to dem
 
 </details>
 
-## Table 59-5 — verbatim book excerpt
+## Table 59-5
 
 <a id="p908"></a>
 

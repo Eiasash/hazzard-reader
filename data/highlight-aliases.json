@@ -1891,7 +1891,39 @@
     "chapter": "68s",
     "id": "u34",
     "old": "Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); intra-articular steroid (40–80 mg depot preparation, verified against the page image) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows efficacy up to 12 months in some studies (p1067)",
-    "new": "Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (40–80 mg depot preparation, verified against the page image) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to 12 months in some studies; hip HA/PRP efficacy needs further study (p1067)"
+    "new": "Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (40–80 mg depot preparation) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to 12 months in some studies; hip HA/PRP efficacy needs further study (p1067)",
+    "edits": [
+      [
+        85,
+        85,
+        85,
+        98
+      ],
+      [
+        136,
+        169,
+        149,
+        149
+      ],
+      [
+        348,
+        348,
+        328,
+        338
+      ],
+      [
+        356,
+        356,
+        346,
+        357
+      ],
+      [
+        388,
+        388,
+        389,
+        430
+      ]
+    ]
   },
   {
     "chapter": "75s",
@@ -25614,5 +25646,1971 @@
     "id": "u49",
     "old": "CHAPTER 108s / HAZZARD",
     "new": "CHAPTER 108 / HAZZARD"
+  },
+  {
+    "chapter": "15s",
+    "id": "u48",
+    "old": "As printed: the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel above is the book's displayed panel, not a claim to reproduce every RASS category.",
+    "new": "As printed: the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel shows only part of the RASS scale.",
+    "edits": [
+      [
+        279,
+        279,
+        279,
+        291
+      ],
+      [
+        280,
+        281,
+        292,
+        295
+      ],
+      [
+        282,
+        287,
+        296,
+        297
+      ],
+      [
+        291,
+        346,
+        301,
+        301
+      ],
+      [
+        352,
+        352,
+        307,
+        308
+      ],
+      [
+        354,
+        355,
+        310,
+        311
+      ],
+      [
+        356,
+        360,
+        312,
+        312
+      ]
+    ]
+  },
+  {
+    "chapter": "37s",
+    "id": "u45",
+    "old": "No verified 2020–2026 exam question cites Chapter 37.",
+    "new": "No 2020–2026 exam question cites Chapter 37 directly.",
+    "edits": [
+      [
+        2,
+        11,
+        2,
+        2
+      ],
+      [
+        52,
+        52,
+        43,
+        52
+      ]
+    ]
+  },
+  {
+    "chapter": "41s",
+    "id": "u109",
+    "old": "The numerical example earlier in this page illustrates the effect of the denominator.",
+    "new": "The denominator determines how large a change appears.",
+    "edits": [
+      [
+        1,
+        70,
+        1,
+        1
+      ],
+      [
+        84,
+        84,
+        15,
+        53
+      ]
+    ]
+  },
+  {
+    "chapter": "46s",
+    "id": "u55",
+    "old": "Currency — declared gap. The chapter states the NPIAP staging system \"was updated in 2016\"; later revisions to staging or treatment guidelines are not verified in this chapter (p686).",
+    "new": "Pressure injury staging. The chapter uses the 2016 NPIAP revision (p686).",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        5
+      ],
+      [
+        3,
+        3,
+        7,
+        13
+      ],
+      [
+        4,
+        7,
+        14,
+        14
+      ],
+      [
+        9,
+        15,
+        16,
+        18
+      ],
+      [
+        16,
+        20,
+        19,
+        19
+      ],
+      [
+        21,
+        23,
+        20,
+        23
+      ],
+      [
+        37,
+        37,
+        37,
+        38
+      ],
+      [
+        38,
+        41,
+        39,
+        39
+      ],
+      [
+        48,
+        48,
+        46,
+        51
+      ],
+      [
+        53,
+        97,
+        56,
+        56
+      ],
+      [
+        106,
+        175,
+        65,
+        65
+      ]
+    ]
+  },
+  {
+    "chapter": "46s",
+    "id": "u83",
+    "old": "Exam traps / book notes",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        23,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "46s",
+    "id": "u104",
+    "old": "The actual exam questions and answer keys as printed in the chapter, reproduced verbatim.",
+    "new": "The 2026 questions test pressure injury recognition and management.",
+    "edits": [
+      [
+        4,
+        15,
+        4,
+        8
+      ],
+      [
+        26,
+        26,
+        19,
+        52
+      ],
+      [
+        30,
+        30,
+        56,
+        57
+      ],
+      [
+        32,
+        34,
+        59,
+        61
+      ],
+      [
+        35,
+        38,
+        62,
+        63
+      ],
+      [
+        39,
+        48,
+        64,
+        64
+      ],
+      [
+        50,
+        88,
+        66,
+        66
+      ]
+    ]
+  },
+  {
+    "chapter": "46s",
+    "id": "u105",
+    "old": "Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority).",
+    "new": "The IMA administered the exam in Hebrew.",
+    "edits": [
+      [
+        0,
+        45,
+        0,
+        1
+      ],
+      [
+        52,
+        53,
+        8,
+        8
+      ],
+      [
+        54,
+        55,
+        9,
+        16
+      ],
+      [
+        57,
+        62,
+        18,
+        18
+      ],
+      [
+        63,
+        64,
+        19,
+        19
+      ],
+      [
+        66,
+        69,
+        21,
+        28
+      ],
+      [
+        72,
+        90,
+        31,
+        32
+      ],
+      [
+        97,
+        124,
+        39,
+        39
+      ]
+    ]
+  },
+  {
+    "chapter": "46s",
+    "id": "u106",
+    "old": "Keys are from key 899478 (after appeals).",
+    "new": "The official answers follow the post-appeal key 899478.",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        19
+      ],
+      [
+        5,
+        7,
+        21,
+        30
+      ],
+      [
+        9,
+        11,
+        32,
+        33
+      ],
+      [
+        12,
+        13,
+        34,
+        43
+      ],
+      [
+        24,
+        40,
+        54,
+        54
+      ]
+    ]
+  },
+  {
+    "chapter": "46s",
+    "id": "u107",
+    "old": "The support line is the book's own text, with its printed page; it supports an answer, it is not the key.",
+    "new": "The cited pages explain the answers.",
+    "edits": [
+      [
+        4,
+        13,
+        4,
+        5
+      ],
+      [
+        14,
+        54,
+        6,
+        6
+      ],
+      [
+        62,
+        74,
+        14,
+        14
+      ],
+      [
+        76,
+        76,
+        16,
+        20
+      ],
+      [
+        77,
+        77,
+        21,
+        22
+      ],
+      [
+        78,
+        78,
+        23,
+        27
+      ],
+      [
+        85,
+        91,
+        34,
+        34
+      ],
+      [
+        92,
+        104,
+        35,
+        35
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u44",
+    "old": "Currency — declared gap (p712–713): Table 47-12's drug names/doses are the US market as of press date; Israeli registration/availability was not checked for any agent.",
+    "new": "Table 47-12 lists drug names and doses for the US market at publication (p712–713); local availability may differ.",
+    "edits": [
+      [
+        0,
+        36,
+        0,
+        0
+      ],
+      [
+        47,
+        48,
+        11,
+        16
+      ],
+      [
+        60,
+        61,
+        28,
+        33
+      ],
+      [
+        67,
+        68,
+        39,
+        41
+      ],
+      [
+        69,
+        70,
+        42,
+        42
+      ],
+      [
+        86,
+        90,
+        58,
+        59
+      ],
+      [
+        92,
+        108,
+        61,
+        63
+      ],
+      [
+        110,
+        118,
+        65,
+        66
+      ],
+      [
+        123,
+        124,
+        71,
+        90
+      ],
+      [
+        137,
+        138,
+        103,
+        104
+      ],
+      [
+        139,
+        159,
+        105,
+        105
+      ],
+      [
+        161,
+        163,
+        107,
+        111
+      ],
+      [
+        164,
+        166,
+        112,
+        113
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u60",
+    "old": "Figure 47-1 — verbatim book excerpt",
+    "new": "Figure 47-1",
+    "edits": [
+      [
+        11,
+        35,
+        11,
+        11
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u73",
+    "old": "Exam traps / book notes",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        23,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u103",
+    "old": "Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority).",
+    "new": "The IMA administered the exam in Hebrew.",
+    "edits": [
+      [
+        0,
+        45,
+        0,
+        1
+      ],
+      [
+        52,
+        53,
+        8,
+        8
+      ],
+      [
+        54,
+        55,
+        9,
+        16
+      ],
+      [
+        57,
+        62,
+        18,
+        18
+      ],
+      [
+        63,
+        64,
+        19,
+        19
+      ],
+      [
+        66,
+        69,
+        21,
+        28
+      ],
+      [
+        72,
+        90,
+        31,
+        32
+      ],
+      [
+        97,
+        124,
+        39,
+        39
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u104",
+    "old": "Keys are from key 899478 (after appeals).",
+    "new": "The official answers follow the post-appeal key 899478.",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        19
+      ],
+      [
+        5,
+        7,
+        21,
+        30
+      ],
+      [
+        9,
+        11,
+        32,
+        33
+      ],
+      [
+        12,
+        13,
+        34,
+        43
+      ],
+      [
+        24,
+        40,
+        54,
+        54
+      ]
+    ]
+  },
+  {
+    "chapter": "47s",
+    "id": "u105",
+    "old": "The support line is the book's own text, with its printed page; it supports an answer, it is not the key.",
+    "new": "The cited pages explain the answers.",
+    "edits": [
+      [
+        4,
+        13,
+        4,
+        5
+      ],
+      [
+        14,
+        54,
+        6,
+        6
+      ],
+      [
+        62,
+        74,
+        14,
+        14
+      ],
+      [
+        76,
+        76,
+        16,
+        20
+      ],
+      [
+        77,
+        77,
+        21,
+        22
+      ],
+      [
+        78,
+        78,
+        23,
+        27
+      ],
+      [
+        85,
+        91,
+        34,
+        34
+      ],
+      [
+        92,
+        104,
+        35,
+        35
+      ]
+    ]
+  },
+  {
+    "chapter": "55s",
+    "id": "u28",
+    "old": "Table 55-4: Occupational therapist — verbatim book excerpt",
+    "new": "Table 55-4: Occupational therapist",
+    "edits": [
+      [
+        34,
+        58,
+        34,
+        34
+      ]
+    ]
+  },
+  {
+    "chapter": "58s",
+    "id": "u72",
+    "old": "Exam traps / book contradictions",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        32,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "58s",
+    "id": "u100",
+    "old": "The actual 2026 specialist-exam questions and answer keys sourced to this chapter, reproduced verbatim as printed in the full chapter file.",
+    "new": "These English translations cover the 2026 exam questions on delirium.",
+    "edits": [
+      [
+        3,
+        3,
+        3,
+        5
+      ],
+      [
+        4,
+        4,
+        6,
+        16
+      ],
+      [
+        5,
+        5,
+        17,
+        27
+      ],
+      [
+        6,
+        6,
+        28,
+        33
+      ],
+      [
+        7,
+        10,
+        34,
+        36
+      ],
+      [
+        16,
+        27,
+        42,
+        42
+      ],
+      [
+        42,
+        43,
+        57,
+        58
+      ],
+      [
+        44,
+        44,
+        59,
+        60
+      ],
+      [
+        45,
+        50,
+        61,
+        61
+      ],
+      [
+        51,
+        71,
+        62,
+        63
+      ],
+      [
+        72,
+        107,
+        64,
+        64
+      ],
+      [
+        109,
+        122,
+        66,
+        66
+      ],
+      [
+        123,
+        138,
+        67,
+        68
+      ]
+    ]
+  },
+  {
+    "chapter": "59s",
+    "id": "u37",
+    "old": "Table 59-5 — verbatim book excerpt",
+    "new": "Table 59-5",
+    "edits": [
+      [
+        10,
+        34,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u43",
+    "old": "Every drug/dose table in this chapter is flagged as not checked for Israeli registration, availability, or dosing — use the printed (US) values as given for board purposes (p928).",
+    "new": "The drug tables give US doses and availability at publication (p928).",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        3,
+        5,
+        3,
+        3
+      ],
+      [
+        10,
+        15,
+        8,
+        8
+      ],
+      [
+        21,
+        28,
+        14,
+        14
+      ],
+      [
+        30,
+        35,
+        16,
+        19
+      ],
+      [
+        36,
+        37,
+        20,
+        20
+      ],
+      [
+        38,
+        39,
+        21,
+        28
+      ],
+      [
+        41,
+        43,
+        30,
+        30
+      ],
+      [
+        44,
+        47,
+        31,
+        32
+      ],
+      [
+        48,
+        89,
+        33,
+        33
+      ],
+      [
+        102,
+        143,
+        46,
+        46
+      ],
+      [
+        145,
+        162,
+        48,
+        49
+      ],
+      [
+        165,
+        167,
+        52,
+        59
+      ],
+      [
+        168,
+        171,
+        60,
+        61
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u56",
+    "old": "Table 60-6 — verbatim book excerpt",
+    "new": "Table 60-6",
+    "edits": [
+      [
+        10,
+        34,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u100",
+    "old": "Exam traps / book notes",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        23,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "60s",
+    "id": "u125",
+    "old": "The actual exam questions and answer keys as printed in the chapter, reproduced verbatim (page cross-reference links point to anchors in the source chapter file and are given here as plain page numbers instead).",
+    "new": "These English translations cover the 2026 exam questions on dementia care.",
+    "edits": [
+      [
+        3,
+        3,
+        3,
+        5
+      ],
+      [
+        4,
+        4,
+        6,
+        16
+      ],
+      [
+        5,
+        5,
+        17,
+        27
+      ],
+      [
+        6,
+        6,
+        28,
+        33
+      ],
+      [
+        7,
+        10,
+        34,
+        41
+      ],
+      [
+        26,
+        27,
+        57,
+        58
+      ],
+      [
+        28,
+        28,
+        59,
+        60
+      ],
+      [
+        29,
+        34,
+        61,
+        61
+      ],
+      [
+        35,
+        38,
+        62,
+        63
+      ],
+      [
+        39,
+        48,
+        64,
+        64
+      ],
+      [
+        50,
+        53,
+        66,
+        66
+      ],
+      [
+        54,
+        59,
+        67,
+        68
+      ],
+      [
+        61,
+        165,
+        70,
+        70
+      ],
+      [
+        168,
+        210,
+        73,
+        73
+      ]
+    ]
+  },
+  {
+    "chapter": "61s",
+    "id": "u43",
+    "old": "\"Currency — declared gap\": the book reports a quetiapine-vs-pimavanserin head-to-head trial as in progress; no result is given (p946).",
+    "new": "At publication, the trial comparing quetiapine with pimavanserin was still in progress (p946).",
+    "edits": [
+      [
+        0,
+        2,
+        0,
+        4
+      ],
+      [
+        3,
+        6,
+        5,
+        13
+      ],
+      [
+        7,
+        26,
+        14,
+        15
+      ],
+      [
+        31,
+        32,
+        20,
+        27
+      ],
+      [
+        33,
+        36,
+        28,
+        31
+      ],
+      [
+        37,
+        45,
+        32,
+        35
+      ],
+      [
+        56,
+        60,
+        46,
+        52
+      ],
+      [
+        73,
+        92,
+        65,
+        66
+      ],
+      [
+        94,
+        94,
+        68,
+        74
+      ],
+      [
+        106,
+        126,
+        86,
+        86
+      ]
+    ]
+  },
+  {
+    "chapter": "61s",
+    "id": "u74",
+    "old": "Exam traps / book against itself (flagged in the source chapter)",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        64,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "61s",
+    "id": "u103",
+    "old": "These are the actual 2026 specialist-exam questions and answer keys sourced to Chapter 61, reproduced verbatim as printed in the chapter's own \"2026 exam\" section.",
+    "new": "The 2026 exam tested the diagnosis and treatment of parkinsonism in the following questions, translated from Hebrew.",
+    "edits": [
+      [
+        3,
+        20,
+        3,
+        3
+      ],
+      [
+        26,
+        37,
+        9,
+        9
+      ],
+      [
+        41,
+        41,
+        13,
+        81
+      ],
+      [
+        51,
+        51,
+        91,
+        92
+      ],
+      [
+        52,
+        56,
+        93,
+        95
+      ],
+      [
+        59,
+        81,
+        98,
+        99
+      ],
+      [
+        82,
+        118,
+        100,
+        100
+      ],
+      [
+        122,
+        124,
+        104,
+        108
+      ],
+      [
+        125,
+        127,
+        109,
+        110
+      ],
+      [
+        128,
+        134,
+        111,
+        113
+      ],
+      [
+        135,
+        140,
+        114,
+        114
+      ],
+      [
+        141,
+        162,
+        115,
+        115
+      ]
+    ]
+  },
+  {
+    "chapter": "65s",
+    "id": "u47",
+    "old": "Exam traps / book emphases",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        26,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "68s",
+    "id": "u25",
+    "old": "NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7, verified against the page image)",
+    "new": "NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7)",
+    "edits": [
+      [
+        258,
+        291,
+        258,
+        258
+      ]
+    ]
+  },
+  {
+    "chapter": "68s",
+    "id": "u34",
+    "old": "Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (40–80 mg depot preparation, verified against the page image) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to 12 months in some studies; hip HA/PRP efficacy needs further study (p1067)",
+    "new": "Osteoarthritis (OA): 60% of adults ≥65 yr have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (40–80 mg depot preparation) is more effective than placebo in the short term (<3 months), long-term benefit not well established; hyaluronic acid typically 1–5 injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to 12 months in some studies; hip HA/PRP efficacy needs further study (p1067)",
+    "edits": [
+      [
+        149,
+        182,
+        149,
+        149
+      ]
+    ]
+  },
+  {
+    "chapter": "68s",
+    "id": "u38",
+    "old": "Table 68-6 — verbatim book excerpt",
+    "new": "Table 68-6",
+    "edits": [
+      [
+        10,
+        34,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "75s",
+    "id": "u50",
+    "old": "Table 75-10's severe regurgitant-orifice-area cutoff for MR prints \"≥ 40\" cm²; the row's other two columns (<0.20, 0.20–0.39) make ≥ 0.40 the obviously intended value — as printed, not corrected in this build (p1158).",
+    "new": "Table 75-10's severe regurgitant-orifice-area cutoff for MR prints \"≥ 40\" cm²; the row's other two columns (<0.20, 0.20–0.39) make ≥ 0.40 the obviously intended value (p1158).",
+    "edits": [
+      [
+        167,
+        209,
+        167,
+        167
+      ]
+    ]
+  },
+  {
+    "chapter": "75s",
+    "id": "u55",
+    "old": "Table 75-2 — verbatim book excerpt",
+    "new": "Table 75-2",
+    "edits": [
+      [
+        10,
+        34,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "75s",
+    "id": "u68",
+    "old": "Exam traps / book self-contradictions",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        37,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "76s",
+    "id": "u67",
+    "old": "Exam traps / book contradictions",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        32,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "77s",
+    "id": "u32",
+    "old": "The CHA2DS2-VASc \"adjusted stroke risk\" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips twice: score 6 → 9.8 %/year, score 7 → 9.6 %/year (a small dip), then score 8 → 6.7 %/year (a bigger dip, equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.",
+    "new": "The CHA2DS2-VASc \"adjusted stroke risk\" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips twice: score 6 → 9.8 %/year, score 7 → 9.6 %/year (a small dip), then score 8 → 6.7 %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.",
+    "edits": [
+      [
+        238,
+        273,
+        238,
+        238
+      ]
+    ]
+  },
+  {
+    "chapter": "77s",
+    "id": "u41",
+    "old": "DOACs (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)",
+    "new": "DOACs (Table 77-9, p1204–1205)",
+    "edits": [
+      [
+        29,
+        141,
+        29,
+        29
+      ]
+    ]
+  },
+  {
+    "chapter": "77s",
+    "id": "u44",
+    "old": "Exam traps / book notes",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        23,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "81s",
+    "id": "u51",
+    "old": "Table 81-13 — verbatim book excerpt",
+    "new": "Table 81-13",
+    "edits": [
+      [
+        11,
+        35,
+        11,
+        11
+      ]
+    ]
+  },
+  {
+    "chapter": "81s",
+    "id": "u60",
+    "old": "Table 81-14: Nausea/vomiting — verbatim book excerpt",
+    "new": "Table 81-14: Nausea/vomiting",
+    "edits": [
+      [
+        28,
+        52,
+        28,
+        28
+      ]
+    ]
+  },
+  {
+    "chapter": "83s",
+    "id": "u246",
+    "old": "The existing summary below gives the verified iron and hemoglobin treatment qualifiers.",
+    "new": "Iron status matters when interpreting the hemoglobin response to erythropoietin.",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        21
+      ],
+      [
+        3,
+        3,
+        23,
+        24
+      ],
+      [
+        4,
+        4,
+        25,
+        28
+      ],
+      [
+        5,
+        8,
+        29,
+        33
+      ],
+      [
+        13,
+        33,
+        38,
+        38
+      ],
+      [
+        36,
+        54,
+        41,
+        41
+      ],
+      [
+        66,
+        67,
+        53,
+        53
+      ],
+      [
+        69,
+        70,
+        55,
+        62
+      ],
+      [
+        71,
+        72,
+        63,
+        65
+      ],
+      [
+        73,
+        74,
+        66,
+        68
+      ],
+      [
+        75,
+        82,
+        69,
+        74
+      ],
+      [
+        84,
+        86,
+        76,
+        79
+      ]
+    ]
+  },
+  {
+    "chapter": "88s",
+    "id": "u39",
+    "old": "Exam traps / book nuances",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        25,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "98s",
+    "id": "u40",
+    "old": "The book's own \"Hypothyroidism\" section heading (p1551) is immediately followed by the sentence \"Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations\" — a genuine misprint in the source text (verified against the page image, not a transcription error here). Read it as hypothyroidism; do not let a quick skim flip the diagnosis in your head.",
+    "new": "The book's own \"Hypothyroidism\" section heading (p1551) is immediately followed by the sentence \"Overt hyperthyroidism is defined as a high TSH with low free T4 concentrations\" — a misprint under the hypothyroidism heading. Read it as hypothyroidism; do not let a quick skim flip the diagnosis in your head.",
+    "edits": [
+      [
+        181,
+        189,
+        181,
+        181
+      ],
+      [
+        198,
+        199,
+        190,
+        191
+      ],
+      [
+        200,
+        200,
+        192,
+        195
+      ],
+      [
+        205,
+        206,
+        200,
+        203
+      ],
+      [
+        207,
+        235,
+        204,
+        204
+      ],
+      [
+        237,
+        273,
+        206,
+        207
+      ],
+      [
+        275,
+        276,
+        209,
+        214
+      ],
+      [
+        279,
+        282,
+        217,
+        222
+      ]
+    ]
+  },
+  {
+    "chapter": "98s",
+    "id": "u42",
+    "old": "Table 98-7 — verbatim book excerpt",
+    "new": "Table 98-7",
+    "edits": [
+      [
+        10,
+        34,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "99s",
+    "id": "u194",
+    "old": "The 2020–2022 labels open the chapter head because those sittings have no 8e page mapping.",
+    "new": "The 2020–2022 papers cite an earlier edition.",
+    "edits": [
+      [
+        14,
+        15,
+        14,
+        15
+      ],
+      [
+        16,
+        17,
+        16,
+        17
+      ],
+      [
+        18,
+        19,
+        18,
+        19
+      ],
+      [
+        21,
+        23,
+        21,
+        24
+      ],
+      [
+        24,
+        24,
+        25,
+        27
+      ],
+      [
+        26,
+        28,
+        29,
+        29
+      ],
+      [
+        29,
+        32,
+        30,
+        30
+      ],
+      [
+        33,
+        35,
+        31,
+        34
+      ],
+      [
+        38,
+        39,
+        37,
+        37
+      ],
+      [
+        40,
+        41,
+        38,
+        38
+      ],
+      [
+        42,
+        58,
+        39,
+        39
+      ],
+      [
+        60,
+        61,
+        41,
+        41
+      ],
+      [
+        62,
+        62,
+        42,
+        43
+      ],
+      [
+        63,
+        89,
+        44,
+        44
+      ]
+    ]
+  },
+  {
+    "chapter": "99s",
+    "id": "u196",
+    "old": "Their Read links lead to the related insulin passages, and the guideline locators appear in the insulin section below.",
+    "new": "Both questions concern insulin treatment.",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        2,
+        4,
+        7
+      ],
+      [
+        3,
+        3,
+        8,
+        10
+      ],
+      [
+        4,
+        13,
+        11,
+        12
+      ],
+      [
+        14,
+        15,
+        13,
+        13
+      ],
+      [
+        17,
+        18,
+        15,
+        19
+      ],
+      [
+        19,
+        29,
+        20,
+        20
+      ],
+      [
+        30,
+        36,
+        21,
+        22
+      ],
+      [
+        45,
+        51,
+        31,
+        33
+      ],
+      [
+        52,
+        76,
+        34,
+        34
+      ],
+      [
+        78,
+        85,
+        36,
+        37
+      ],
+      [
+        86,
+        90,
+        38,
+        38
+      ],
+      [
+        91,
+        92,
+        39,
+        39
+      ],
+      [
+        93,
+        117,
+        40,
+        40
+      ]
+    ]
+  },
+  {
+    "chapter": "99s",
+    "id": "u101",
+    "old": "Exam traps / book self-contradictions (flagged in source)",
+    "new": "Exam traps",
+    "edits": [
+      [
+        10,
+        57,
+        10,
+        10
+      ]
+    ]
+  },
+  {
+    "chapter": "99s",
+    "id": "u114",
+    "old": "These are the actual 2026 specialist-exam questions and keys sourced to this chapter, reproduced verbatim (English rendering; Hebrew original is the authority) as printed in the chapter's own \"2026 exam\" section.",
+    "new": "The 2026 diabetes questions below are English translations of the Hebrew exam.",
+    "edits": [
+      [
+        3,
+        20,
+        3,
+        3
+      ],
+      [
+        26,
+        30,
+        9,
+        10
+      ],
+      [
+        32,
+        34,
+        12,
+        16
+      ],
+      [
+        35,
+        41,
+        17,
+        17
+      ],
+      [
+        52,
+        52,
+        28,
+        34
+      ],
+      [
+        53,
+        86,
+        35,
+        35
+      ],
+      [
+        88,
+        96,
+        37,
+        37
+      ],
+      [
+        97,
+        107,
+        38,
+        38
+      ],
+      [
+        115,
+        115,
+        46,
+        47
+      ],
+      [
+        116,
+        116,
+        48,
+        64
+      ],
+      [
+        117,
+        125,
+        65,
+        65
+      ],
+      [
+        133,
+        198,
+        73,
+        73
+      ],
+      [
+        202,
+        211,
+        77,
+        77
+      ]
+    ]
+  },
+  {
+    "chapter": "108s",
+    "id": "u51",
+    "old": "No exam-trap or book self-contradiction note is flagged in this source chapter.",
+    "new": "Distinguish symptomatic COVID-19, the primary trial endpoint, from infection without symptoms.",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        17
+      ],
+      [
+        2,
+        2,
+        18,
+        51
+      ],
+      [
+        4,
+        11,
+        53,
+        55
+      ],
+      [
+        12,
+        13,
+        56,
+        56
+      ],
+      [
+        14,
+        28,
+        57,
+        58
+      ],
+      [
+        30,
+        30,
+        60,
+        63
+      ],
+      [
+        31,
+        33,
+        64,
+        67
+      ],
+      [
+        34,
+        34,
+        68,
+        71
+      ],
+      [
+        40,
+        45,
+        77,
+        78
+      ],
+      [
+        46,
+        59,
+        79,
+        79
+      ],
+      [
+        61,
+        63,
+        81,
+        84
+      ],
+      [
+        65,
+        74,
+        86,
+        88
+      ],
+      [
+        76,
+        78,
+        90,
+        93
+      ]
+    ]
+  },
+  {
+    "chapter": "laws",
+    "id": "u124",
+    "old": "This Study page uses the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures for the legal sections.",
+    "new": "Israeli end-of-life care, consent and guardianship are governed by the Dying Patient Law, the Patient’s Rights Law, the Legal Capacity and Guardianship Law, and Ministry of Health circulars and procedures.",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        47
+      ],
+      [
+        3,
+        4,
+        49,
+        50
+      ],
+      [
+        5,
+        12,
+        51,
+        51
+      ],
+      [
+        13,
+        14,
+        52,
+        53
+      ],
+      [
+        16,
+        18,
+        55,
+        58
+      ],
+      [
+        19,
+        20,
+        59,
+        66
+      ],
+      [
+        158,
+        181,
+        204,
+        204
+      ]
+    ]
+  },
+  {
+    "chapter": "laws",
+    "id": "u125",
+    "old": "The statistics and drills use Brookdale’s 65+ in Israel: Statistical Abstract 2024, no. 26, required by P005-2026, p3.",
+    "new": "The population figures come from Brookdale’s 65+ in Israel: Statistical Abstract 2024, no. 26, required by P005-2026, p3.",
+    "edits": [
+      [
+        4,
+        6,
+        4,
+        9
+      ],
+      [
+        9,
+        11,
+        12,
+        16
+      ],
+      [
+        12,
+        13,
+        17,
+        21
+      ],
+      [
+        15,
+        18,
+        23,
+        27
+      ],
+      [
+        19,
+        20,
+        28,
+        29
+      ],
+      [
+        21,
+        29,
+        30,
+        32
+      ]
+    ]
   }
 ]

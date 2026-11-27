@@ -171,8 +171,8 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - Bioprosthetic durability by age: **90%** freedom from structural deterioration at 15–20 yr at age 70; **90–95%** freedom from reoperation if age >75 (p1162).
 - Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves **85%** freedom from reoperation at 10 years (p1163).
 
-**Exam traps / book self-contradictions**
-- Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value — as printed, not corrected in this build (p1158).
+**Exam traps**
+- Table 75-10's severe regurgitant-orifice-area cutoff for MR prints "**≥ 40**" cm²; the row's other two columns (<0.20, 0.20–0.39) make **≥ 0.40** the obviously intended value (p1158).
 - Mitral repair-vs-replacement operative mortality is given twice with different numbers: **2% vs 6%** overall / **0.7% vs 14%** in a >70y cohort (p1160), and later **1–2% vs 5.4–6.4%** (p1163) — both as printed.
 - MS "usually develop symptoms" once MVA falls to **2.5 to 1.5 cm²** (p1156), which overlaps Table 75-7's own **mild** cutoff (>1.5 cm²) — read literally, symptom onset and "mild" grade can coincide.
 - With asymptomatic severe AR and preserved LV function, Table 75-6 lists **LVESD >50 mm** for consideration of surgery. For low-risk surgery the table describes progressive LV dilatation **>65 mm** without specifying the dimension, while the narrative specifically calls it **LVESD** (p1155). See the [current-practice comparison](#current-practice-1).
@@ -296,7 +296,7 @@ The printed table lists **clindamycin 600 mg PO** or **cephalexin 2 g PO**, give
 
 </details>
 
-## Table 75-2 — verbatim book excerpt
+## Table 75-2
 
 <a id="p1152"></a>
 

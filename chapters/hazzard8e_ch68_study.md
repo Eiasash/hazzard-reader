@@ -150,7 +150,7 @@ Page 1067 states knee OA is twice as prevalent in men. In the Framingham cohort 
 
 **Nonopioid & adjuvant medications**
 - Acetaminophen: **500–1000 mg q6h**; max **4000 mg/day**; max **2000–3000 mg/day** with hepatic impairment or alcohol use (p1062)
-- NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7, verified against the page image)
+- NSAIDs: nonselective COX inhibition → GI ulcer/bleed risk (COX-1) and CV/renal risk; COX-2-selective (eg celecoxib) spares some GI/platelet toxicity but keeps CV risk; topical diclofenac 1% gel is a lower-systemic-risk option (p1062–1063; doses in Table 68-7)
 - Table 68-7 singles out indomethacin and ketorolac as Beers 2019 "avoid" outright (high risk of GI toxicity and acute kidney injury) — a stronger caution than the general "avoid long-term use" that applies to ibuprofen, naproxen, meloxicam, diclofenac, and nabumetone (Table 68-7, p1063)
 - SNRIs/TCAs modulate descending pain pathways; **Beers 2019** flags both SNRIs and TCAs (amitriptyline, nortriptyline) as "avoid" with a history of falls/fractures, and TCAs additionally for anticholinergic burden (Table 68-8, p1063)
 - Carbamazepine and oxcarbazepine are sodium-channel blockers used for selected neuropathic pain syndromes. **HLA-B*15:02** increases the risk of SJS/TEN with either drug and is more frequent in several East, Southeast and South Asian populations. **HLA-A*31:01** is associated with a broader range of carbamazepine reactions in several ancestries. Carbamazepine induces CYP enzymes and can reduce warfarin exposure. Combined lithium and carbamazepine can cause neurotoxicity (p1065, CPIC).
@@ -162,7 +162,7 @@ Page 1067 states knee OA is twice as prevalent in men. In the Framingham cohort 
 - Lumbar epidural steroid injection (ESI): short-term relief (weeks to months); contraindications include coagulopathy, current anticoagulation, infection, uncontrolled diabetes, and immunosuppression (p1065)
 - Facet-mediated and sacroiliac joint pain: diagnostic medial-branch/lateral-branch nerve blocks; **80%** pain reduction/relief after the diagnostic block → proceed to radiofrequency denervation for longer relief (p1066)
 - Vertebral compression fractures (VCF): **25%** of postmenopausal women in the US affected; **40–50%** of adults **>80 yr** have had one; **5×** risk of a second VCF after the first; only **~25%** result from falls (most from routine bending/lifting); most common at **T12–L3**; vertebroplasty/kyphoplasty contraindicated if vertebral height loss **>66%** (p1066)
-- Osteoarthritis (OA): **60%** of adults **≥65 yr** have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (**40–80 mg** depot preparation, verified against the page image) is more effective than placebo in the short term (**<3 months**), long-term benefit not well established; hyaluronic acid typically **1–5** injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to **12 months** in some studies; hip HA/PRP efficacy needs further study (p1067)
+- Osteoarthritis (OA): **60%** of adults **≥65 yr** have arthritis/chronic joint pain (p1066); for knee OA, intra-articular steroid (**40–80 mg** depot preparation) is more effective than placebo in the short term (**<3 months**), long-term benefit not well established; hyaluronic acid typically **1–5** injections; platelet-rich plasma (PRP) shows promising efficacy in knee OA up to **12 months** in some studies; hip HA/PRP efficacy needs further study (p1067)
 - **Book claim to flag**: the chapter states knee OA prevalence is "two times higher in men than women" (p1067) — worth double-checking against other sources before quoting, since knee OA is more commonly described as female-predominant elsewhere
 - Nonpharmacologic: physical therapy (including low-impact aquatic-based therapy/exercise for patients with chronic pain and stiffness), CBT/ACT/biofeedback, mindfulness-based stress reduction, and complementary therapies (acupuncture, massage) all have a role, especially in patients who can't tolerate medications or procedures (p1068)
 
@@ -224,7 +224,7 @@ An estimated 40% to 50% of people older than 80 have had a VCF; only about a qua
 
 </details>
 
-## Table 68-6 — verbatim book excerpt
+## Table 68-6
 
 <a id="p1061"></a>
 
