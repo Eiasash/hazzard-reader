@@ -31,6 +31,14 @@ window.HazzardReadingCompanion = (() => {
     element.focus({preventScroll: true});
   }
 
+  function syncMode(){
+    const id=new URL(location.href).searchParams.get('chapter')||chapter;
+    for(const button of document.querySelectorAll('#chapterHeader .chapter-switch > button[data-chapter]')){
+      if(button.dataset.chapter===id)button.setAttribute('aria-current','page');
+      else button.removeAttribute('aria-current');
+    }
+  }
+
   function sourceAt(url) {
     let id;
     try { id = decodeURIComponent(url.hash.slice(1)); } catch { return false; }
@@ -44,7 +52,7 @@ window.HazzardReadingCompanion = (() => {
       history.pushState({...history.state, companionSource: true}, '', next);
     }
     readingSource = true;
-    land(target);
+    syncMode();land(target);
     focusAt(target);
     return true;
   }
@@ -196,7 +204,7 @@ window.HazzardReadingCompanion = (() => {
     addEventListener('popstate', event => {
       const wasSource = readingSource;
       readingSource = !!event.state?.companionSource;
-      layout();
+      syncMode();layout();
       if (pane.hidden) return;
       if (readingSource) {
         const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : primary.querySelector('h1');

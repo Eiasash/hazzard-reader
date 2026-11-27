@@ -115,7 +115,6 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   main.addEventListener('scroll',event=>{
     if(!event.target.closest?.('#readerScroll,#pairedStudy,#mcqViewport'))return;
     if(state.stroke?.type==='touch'&&!state.stroke.selecting)cancel();
-    if(!state.stroke&&state.mark)close();
   },true);
   window.addEventListener('blur',cancel);
   document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});

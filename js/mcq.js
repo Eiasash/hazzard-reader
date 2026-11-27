@@ -1093,7 +1093,18 @@ window.HazzardMCQ = (() => {
       notes(){if(bankMode||mockMode)return;history.replaceState({...history.state,hazzardStudyMode:"notes"},'');selectTab('notes');saveView();lastAnswer=null;controller.active=false;host.hidden=true;window.HazzardAnswerHighlights?.attach(null);readerScroll.style.visibility='';readerScroll.inert=false;onNotes();}
     };
     const search=HazzardQuestionSearch.mount({host,
-      getItems:async all=>{if(!loaded)throw Error('Questions are still loading. Try again.');return (await HazzardQuestionData.hydrate((all?items:mockMode?builderPool(true):flagsView?visible(true,true).filter(q=>activeFlags().some(([id])=>id===q.id)):visible(true,true)).filter(q=>!q.retired))).map(q=>({id:q.id,label:sourceLabel(q),stem:q.q,note:excluded(q.id)?EXCLUDED_NOTE:standoutHidden(q.id)?'Hidden by Practice settings':'',text:[q.id,q.q,...q.o,q.explanation].join(' ')}));},
+      getItems:async all=>{
+        if(!loaded)throw Error('Questions are still loading. Try again.');
+        let pool=items;
+        if(!all){
+          if(mockMode)pool=builderPool(true);
+          else if(flagsView){const flagged=new Set(activeFlags().map(([id])=>id));pool=visible(true,true).filter(q=>flagged.has(q.id));}
+          else pool=visible(!reviewMode,true);
+        }
+        // Daily review interleaves MCQs and notebook points. Only MCQs have question bodies.
+        const questions=await HazzardQuestionData.hydrate(pool.filter(q=>!q.point&&!q.retired));
+        return questions.map(q=>({id:q.id,label:sourceLabel(q),stem:q.q,note:excluded(q.id)?EXCLUDED_NOTE:standoutHidden(q.id)?'Hidden by Practice settings':'',text:[q.id,q.q,...q.o,q.explanation].join(' ')}));
+      },
       openQuestion:id=>{saveView();location.href='?chapter=bank&q='+encodeURIComponent(id);}
     });
     const empty=()=>({selected:null,checked:false});

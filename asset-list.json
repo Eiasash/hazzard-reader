@@ -5943,8 +5943,8 @@
     },
     {
       "url": "./chapters/israel_law.md",
-      "sha256": "99458ec4fac1e06f754ac6ca6931d9879a38a0c76ea6dae384a8d0f92cf0a95f",
-      "bytes": 33804
+      "sha256": "2329c5272af78ec90de787f4a6b78c076031bbe3885d088178c79b6fd7956669",
+      "bytes": 33825
     },
     {
       "url": "./chapters/israel_law_study.md",
@@ -5978,13 +5978,13 @@
     },
     {
       "url": "./css/reader-sections.css",
-      "sha256": "07967a6f231c208ba1b801fcfbebcf168b755fe8c3d6b9c23966a520ba4d6d41",
-      "bytes": 4380
+      "sha256": "94cae487d2476d98e6b9f74cbce929f9a61ed92082a8bbd87c1ca1caad384300",
+      "bytes": 4693
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "a154a28a89b5127502a7148debb08205c58a945df5be003594012866f95230b4",
-      "bytes": 23971
+      "sha256": "f14872053eed72e2e9a21f19f1381028cc15cc0e334418825f0aef15cbd15e83",
+      "bytes": 24270
     },
     {
       "url": "./css/reading-companion.css",
@@ -5993,8 +5993,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "375d65662dbc24342b168f3ec8db4065bf825c719f85189f73a1e17661fe34ec",
-      "bytes": 80206
+      "sha256": "d0d2cf64696a05dd42b66311b3d710aa1b675181578a95dcded6ea7ef5386cfc",
+      "bytes": 80496
     },
     {
       "url": "./data/drug-index.json",
@@ -8628,8 +8628,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "937412cbd769bc9995433ac70e2a5a590ccaaaa64d6e1d9982d908888a915a2c",
-      "bytes": 1013551
+      "sha256": "27df9ac283860150854672a00dfcae749b2469bda01bdc38a6838d32ba8418e2",
+      "bytes": 1014976
     },
     {
       "url": "./js/changed-questions.js",
@@ -8658,8 +8658,8 @@
     },
     {
       "url": "./js/law-cards.js",
-      "sha256": "5f8ee0e6effebe492040d5fa6f81e9a20310494952a461c5c378289f6f69f0fc",
-      "bytes": 9539
+      "sha256": "d7a4a6f4a83cdfbc72b2c9f918d5ab7ab5c7e8d4319a95e9ed96af7c26e2224f",
+      "bytes": 10735
     },
     {
       "url": "./js/marked.min.js",
@@ -8673,8 +8673,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "9e42334d23f497b6ff5212e7815576db8f02be3e43e56ed7e2d9f4bc1ab2b0a7",
-      "bytes": 179260
+      "sha256": "8db33994bbde2d2640762cff8f3f30e470f5a6d1d596c23b16103dae631e9739",
+      "bytes": 179573
     },
     {
       "url": "./js/memory-aids.js",
@@ -8703,8 +8703,8 @@
     },
     {
       "url": "./js/reader-input.js",
-      "sha256": "a91f63cff6fb6c58812eb0675d42ac2af803453be0f4e73510d81819d3319a42",
-      "bytes": 13829
+      "sha256": "811e5da521f99b135708e0e8535adcafa42b790c1b5ca0e492e74fd13093f41b",
+      "bytes": 13787
     },
     {
       "url": "./js/reader-sections.js",
@@ -8728,8 +8728,8 @@
     },
     {
       "url": "./js/reading-companion.js",
-      "sha256": "2ea34b7aaf0043e99e6197b9dc7e0bf148e8a78276090be408e32373a819847f",
-      "bytes": 10437
+      "sha256": "296e8d288fb6341e9d62a6f2ff1ce26fc41316404f8d6324497b0cf86c9be720",
+      "bytes": 10808
     },
     {
       "url": "./js/settings-controls.js",

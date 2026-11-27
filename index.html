@@ -1033,7 +1033,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <div id="highlightEditor" role="group" aria-label="Highlight tools" hidden>
   <div class="mark-palette"><div id="inkDots" role="group" aria-label="Highlight colour"></div><button type="button" id="penNumbers" role="switch" aria-checked="false"><span class="number-switch" aria-hidden="true"></span>Number new marks</button></div>
   <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button id="markDelete" type="button">Delete</button></div>
-  <input id="markNote" aria-label="Highlight note" placeholder="Note" maxlength="500" hidden>
+  <textarea id="markNote" aria-label="Highlight note" placeholder="Note" rows="2" maxlength="500" hidden></textarea>
 </div>
 
 
@@ -5495,7 +5495,7 @@ function offerMarkUndo(action,message,insideEditor=false){
   undoTimer=setTimeout(clearMarkUndo,4500);
 }
 undoToast.querySelector('button').onclick=()=>{const action=undoAction;clearMarkUndo();try{action?.();if(activeMark)closeMark();}catch(error){flash(error.message,4000);}};
-document.addEventListener('pointerdown',event=>{if(undoAction&&!undoToast.contains(event.target))clearMarkUndo();},true);
+document.addEventListener('pointerdown',event=>{if(undoAction&&!undoToast.contains(event.target)&&!event.target.closest('#highlightEditor'))clearMarkUndo();},true);
 document.addEventListener('keydown',e=>{
   if(undoAction&&(e.ctrlKey||e.metaKey)&&!e.shiftKey&&e.key.toLowerCase()==='z'&&!e.target.closest('input,textarea,[contenteditable=true]')){
     e.preventDefault();undoToast.querySelector('button').click();
@@ -5595,7 +5595,7 @@ function openChapter(chapter,opts={}){
     for(const key of ['n','view','source'])if(opts[key])target.searchParams.set(key,opts[key]);
     location.assign(target.href);return;
   }
-  if(String(chapter)===cid&&!opts.n){
+  if(String(chapter)===cid&&!opts.n&&(!pairedStudy||new URL(location.href).searchParams.get('chapter')===cid)){
     closeStatistics();
     if(mcq){if(!['bank','mock'].includes(cid)){if(opts.view==='questions')mcq.show(opts.source);else mcq.notes();}else if(cid==='bank'&&opts.hash){const url=new URL(location.href);url.search='';url.searchParams.set('chapter','bank');url.hash=opts.hash;history.replaceState({...history.state,mcqView:null},'',url);location.reload();return}else mcq.show();}
     if(opts.hash?.startsWith('search-'))revealSearch(decodeURIComponent(opts.hash.slice(7)));
@@ -5687,6 +5687,8 @@ for(const figure of copy.querySelectorAll('svg,img')){if(figure.closest('[data-u
 const loose=[],walker=document.createTreeWalker(copy,NodeFilter.SHOW_TEXT);let textNode;
 while(textNode=walker.nextNode())if(textNode.textContent.trim()&&!textNode.parentElement.closest('[data-unit],[data-reader-metadata]'))loose.push(textNode);
 for(const n of loose){const u=newUnit(n.textContent,[],unitScope(n.parentElement)),s=document.createElement('span');s.dataset.unit=u.id;s.textContent=n.textContent;u.parts.push(s);n.replaceWith(s)}
+// Directional markup must not split the original text into different saved highlight units.
+if(['law','laws'].includes(copy.dataset.chapterId))HazzardLawCards.isolateLocators(copy);
 
 if(/^\d+s$/.test(String(copy.dataset.chapterId))){
   const title=copy.querySelector(':scope > h1');
@@ -6888,7 +6890,9 @@ function persistBook(saved){
 }
 function closeMark(){previewPen(null);activeMark=null;editor.hidden=true;noteField.hidden=true;syncMarkingUI();}
 function showMark(kind,id,mark){
-  activeMark={kind,id,mark};editor.hidden=false;setReadingBarsHidden(false);syncMarkingUI();alignFirstReadingLine();
+  const opening=editor.hidden;
+  activeMark={kind,id,mark};editor.hidden=false;scrollIntentUntil=0;setReadingBarsHidden(false);syncMarkingUI();
+  if(opening)alignFirstReadingLine();
   for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
   const root=kind==='answer'?document.querySelector('.mcq-explanation'):copy;
   const placed=[...(root?.querySelectorAll('[data-mark-key][data-point]')||[])].findIndex(n=>n.dataset.markKey===id)+1;
@@ -6915,6 +6919,7 @@ function modifyMark(fields){
   if(!activeMark)return;
   try{
     const {kind,id,mark}=activeMark;
+    if(undoAction&&fields&&!Object.hasOwn(fields,'colour'))clearMarkUndo();
     if(kind==='answer'){
       const undo=HazzardAnswerHighlights.edit(id,fields,mark);
       if(fields){showMark(kind,id,HazzardAnswerHighlights.read().items[id]);if(undo)offerMarkUndo(undo,'Colour changed',true);}
@@ -6943,15 +6948,15 @@ for(const value of markColours){
   const swatch=document.createElement('button');
   swatch.type='button';swatch.dataset.ink=value;swatch.title=colourLabel(value);
   swatch.setAttribute('aria-label',swatch.title);swatch.style.setProperty('--ink-dot','var(--hl-'+value+')');
-  swatch.onclick=()=>{colour=value;applyDisplay();saveDisplay();modifyMark({colour:value});};
+  swatch.onpointerdown=e=>{if(document.activeElement===noteField)e.preventDefault();};
+  swatch.onclick=()=>{colour=value;syncMarkingUI();saveDisplay();modifyMark({colour:value});};
   $('#inkDots').append(swatch);
 }
 selectInk(colour);$('#penNumbers').setAttribute('aria-checked',String(numbering));
 $('#markNoteToggle').onclick=()=>{noteField.hidden=!noteField.hidden;if(!noteField.hidden)noteField.focus();};
 $('#pointChip').onclick=()=>{if(activeMark)modifyMark({number:activeMark.mark.number?null:1});};
 noteField.oninput=()=>{modifyMark({note:noteField.value});};
-noteField.addEventListener('blur',event=>{if(event.relatedTarget!==$('#markNoteToggle'))noteField.hidden=true;});
-noteField.onkeydown=e=>{if(e.key==='Enter'){noteField.blur();noteField.hidden=true;}};
+noteField.onkeydown=e=>{if(e.key==='Escape'){e.stopPropagation();noteField.hidden=true;$('#markNoteToggle').focus();}};
 $('#penNumbers').onclick=()=>{
   try{localStorage.setItem(numberingKey,numbering?'0':'1');numbering=!numbering;$('#penNumbers').setAttribute('aria-checked',String(numbering));}
   catch{flash('Numbering could not be saved.',3000);}
@@ -7037,7 +7042,7 @@ copy.addEventListener('click',e=>{const im=e.target.closest('img,svg');if(!im||!
 function installTableViewer(){
   const tables=copy.querySelectorAll('table');if(!tables.length)return;
   const viewer=document.createElement('dialog');viewer.id='tableViewer';viewer.setAttribute('aria-label','Full-screen table');
-  viewer.innerHTML='<header><strong>Table</strong><button type="button" aria-label="Zoom out">−</button><button type="button" aria-label="Zoom in">+</button><button type="button">Close</button></header><div class="table-scroll" tabindex="0"></div>';
+  viewer.innerHTML='<header dir="ltr" lang="en"><strong>Table</strong><button type="button" aria-label="Zoom out">−</button><button type="button" aria-label="Zoom in">+</button><button type="button">Close</button></header><div class="table-scroll" tabindex="0"></div>';
   const [less,more,close]=viewer.querySelectorAll('button'),stage=viewer.lastElementChild;
   let scale=1;
   function resize(value){scale=Math.min(3,Math.max(1,value));stage.firstElementChild.style.zoom=scale;less.disabled=scale===1;more.disabled=scale===3;}
@@ -7059,6 +7064,8 @@ function installTableViewer(){
     button.onclick=()=>{
       const enlarged=table.cloneNode(true);
       for(const node of enlarged.querySelectorAll('[id],[tabindex],[data-unit]')){node.removeAttribute('id');node.removeAttribute('tabindex');node.removeAttribute('data-unit');if(node.getAttribute('role')==='button')node.removeAttribute('role');}
+      viewer.dir=getComputedStyle(table).direction;
+      viewer.lang=table.closest('[lang]')?.lang||document.documentElement.lang;
       stage.replaceChildren(enlarged);viewer.showModal();resize(1);stage.scrollTo(0,0);
       history.pushState({...history.state,readerTable:true},'');
     };
@@ -7141,19 +7148,34 @@ function alignFirstReadingLine(){
   cancelLineAlignment();let frames=0;
   function settle(){
     if(readerScroll.inert||!readerScroll.offsetHeight||!readerScroll.scrollTop)return;
-    const top=readerScroll.getBoundingClientRect().top,box=copy.getBoundingClientRect();
-    let clipped;
-    for(let x=Math.max(2,box.left+4);x<Math.min(innerWidth,box.right)-2;x+=12){
-      const range=document.caretRangeFromPoint?.(x,top+1);
-      if(!range||!copy.contains(range.startContainer))continue;
-      const rect=range.getBoundingClientRect();
-      if(rect.height&&rect.top<top-.5&&rect.bottom>top+.5){clipped=rect;break;}
+    const top=Math.max(readerScroll.getBoundingClientRect().top,chapterHeader.getBoundingClientRect().bottom);
+    // A collapsed caret can pick the next line while part of a heading or an
+    // emphasized span still crosses the edge. Measure the actual glyph boxes.
+    const depth=128,intervals=[],range=document.createRange();
+    const walker=document.createTreeWalker(copy,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{
+      acceptNode(node){
+        if(node.nodeType===Node.TEXT_NODE)return node.data.trim()?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+        if(node.hidden)return NodeFilter.FILTER_REJECT;
+        const r=node.getBoundingClientRect();
+        return r.height&&(r.bottom<top-depth||r.top>top+4)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_SKIP;
+      }
+    });
+    while(walker.nextNode()){
+      range.selectNodeContents(walker.currentNode);
+      for(const r of range.getClientRects())if(r.width&&r.height&&r.bottom>=top-depth&&r.top<=top+4)intervals.push(r);
     }
-    if(clipped){
-      // Move to the nearer line gap. A nearly hidden descender should not
-      // bring an entire previous line back into the saved reading position.
-      const below=clipped.bottom-top,above=top-clipped.top;
-      readerScroll.scrollBy({top:below<above?Math.ceil(below)+1:-Math.ceil(above)-1,behavior:'instant'});
+    intervals.sort((a,b)=>a.top-b.top);
+    let lineTop,lineBottom=-Infinity,previousBottom=-Infinity;
+    for(const r of intervals){
+      if(r.top>=lineBottom){
+        if(lineBottom>top)break;
+        previousBottom=lineBottom;lineTop=r.top;
+      }
+      lineBottom=Math.max(lineBottom,r.bottom);
+    }
+    if(lineTop<top+1&&lineBottom>top){
+      const gap=Math.min(3,Math.max(0,(lineTop-previousBottom)/2));
+      readerScroll.scrollBy({top:Math.floor(lineTop-gap-top),behavior:'instant'});
       alignedScrollY=readerScroll.scrollTop;
     }
     // The header is measured and the saved ratio restored across paint frames.
@@ -7181,7 +7203,7 @@ function followScroll(scroller,root=false){
   // Home and Chapters scroll the document. Android may deliver the scroll
   // on the window without a cancelable touchmove from the compositor.
   if(delta>0&&!root&&performance.now()>scrollIntentUntil)return;
-  if(activeMark)dismissMarkBar();
+  if(activeMark&&performance.now()<=scrollIntentUntil)dismissMarkBar();
   const hidden=y>0&&delta>0;
   setReadingBarsHidden(hidden);expectUserScroll();
   if(companionFrame)frameElement.dispatchEvent(new CustomEvent('reader-scroll-bars',{bubbles:true,detail:hidden}));
@@ -7398,7 +7420,7 @@ function chapterNavigation(){
   for(const [id,label] of [[base,'Read'],[study,'Study']]){
     if(!manifestChapters.some(c=>String(c.number)===id))continue;
     const b=document.createElement('button');b.dataset.chapter=id;b.textContent=label;
-    if(cid===id)b.setAttribute('aria-current','page');chapterHeader.querySelector('.chapter-switch').append(b);
+    if((pairedStudy?.searchParams?.get('chapter')||cid)===id)b.setAttribute('aria-current','page');chapterHeader.querySelector('.chapter-switch').append(b);
   }
   const sequence=isStudy?orderedChapters.filter(c=>manifestChapters.some(s=>String(s.number)===(c.number==='law'?'laws':c.number+'s'))):orderedChapters;
   const index=sequence.indexOf(chapter),nav=document.createElement('nav');nav.className='chapter-nav';nav.setAttribute('aria-label','Previous and next chapters');

@@ -5,6 +5,8 @@
       "version": "v325",
       "date": "2026-11-26",
       "changes": [
+        "Find questions searches the active review queue. Hebrew law citations and full-screen tables retain their reading direction.",
+        "The highlight editor preserves note line breaks and accepts repeated colour changes. Resuming a chapter keeps its first line below the header.",
         "Exam simulation keeps previous bank answers and schedules only questions you answer. Exit lets you keep a timed attempt for later or discard it.",
         "Notebook answer highlights show their saved ink. Diagnostics opens inside Settings. Drugs loads rows as you scroll and searches the full index.",
         "Practice, question search and source pages follow browser Back. Reviews and the sitting chooser load only the question data they need.",

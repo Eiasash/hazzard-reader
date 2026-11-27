@@ -98,6 +98,9 @@ body:has(#reader:not([hidden])) #chapterHeaderTitle[data-sections]:not(:disabled
     font: 550 calc(12px * var(--fs, 1))/1.4 var(--ui);
   }
   #readerSectionOutline .section-nested button { padding-inline-start: 12px; font-weight: 400; }
+  #readerSectionOutline .reader-section-link { flex-wrap:wrap; column-gap:8px; row-gap:2px; }
+  #readerSectionOutline .reader-section-link bdi { flex:1 1 min-content; min-inline-size:min-content; overflow-wrap:normal; word-break:normal; }
+  #readerSectionOutline .section-exam-count { margin-inline-start:auto; }
   #readerSectionOutline button:hover { background: var(--accent-soft); }
   #readerSectionOutline button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 }

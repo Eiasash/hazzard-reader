@@ -1,6 +1,23 @@
 /* Source-cited study metadata; deliberately outside saved highlight/drill units. */
 window.HazzardLawCards = (() => {
   let promise;
+  // Keep parentheses, section signs, suffixes and subclauses in one LTR run.
+  const subclause=/\((?:\d+|[\u05d0-\u05ea]{1,3})\)/.source;
+  const section=/\d+[\u05d0-\u05ea]{0,3}/.source+'(?:'+subclause+')*';
+  const sections=/\u00a7{1,2}[ \t]*/.source+section+'(?:'+/[ \t]*[,/–—-][ \t]*/.source+'(?:'+section+'|'+subclause+'))*';
+  const locators=new RegExp('\\('+sections+'\\)|'+sections,'gu');
+  function isolateLocators(root){
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),nodes=[];
+    while(walker.nextNode())if(walker.currentNode.data.includes('\u00a7')&&!walker.currentNode.parentElement?.closest('bdi,script,style,textarea'))nodes.push(walker.currentNode);
+    for(const node of nodes){
+      const fragment=document.createDocumentFragment();let offset=0;
+      for(const match of node.data.matchAll(locators)){
+        const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.textContent=match[0];
+        fragment.append(node.data.slice(offset,match.index),bdi);offset=match.index+match[0].length;
+      }
+      if(offset){fragment.append(node.data.slice(offset));node.replaceWith(fragment);}
+    }
+  }
   function read() {
     return promise ||= fetch('data/law-cards.json').then(response => {
       if (!response.ok) throw Error('Law cards unavailable. Reconnect and retry.');
@@ -131,6 +148,7 @@ window.HazzardLawCards = (() => {
           row.append(heading, source); fragment.append(row);
         }
         for (const line of fragment.querySelectorAll('.law-card-source')) line.dir = 'auto';
+        isolateLocators(fragment);
         body.replaceChildren(fragment);
         const selected = new URL(location.href).searchParams.get('lawCard');
         const target = selected && [...body.children].find(e => e.id === 'law-card-' + selected);
@@ -148,5 +166,5 @@ window.HazzardLawCards = (() => {
     }
     await load();
   }
-  return {decorate, questionLinks};
+  return {decorate, questionLinks, isolateLocators};
 })();
