@@ -74,6 +74,8 @@ Geriatric medical practice and its availability should reflect the needs of the 
 
 Consistent assessments can provide a mechanism to draw comparisons among like services in different nations and, if configured appropriately, even across care settings within and among nations. The interRAI suite of assessment systems was designed to meet this requirement. It has been used to draw comparisons across nations and jurisdictions within them. Two important multination research projects in Europe in home care and long-term care have been influential in identifying different patterns of service use, clinical outcomes, medication use, and quality issues which, in turn, influenced policy in several nations. Data extracted from large databases (in some cases millions of assessments) enabled similar examinations among nations and jurisdictions and organizations within them. These systems have been adopted at an organizational level (eg, a nursing home) or by state or nations (eg, the interRAI Home Care and Long-Term Care systems in New Zealand). Several nations and states adopted multiple suite instruments (eg, Belgium and Ontario, Canada). These early suite adopters are exploring the utility of multiple compatible instruments to facilitate cross-setting continuity of care (a clinical benefit) and comparisons of caseloads across settings (a policy benefit).
 
+## CHAPTER GOALS
+
 In this chapter, we provide an overview of geriatrics training and certification, clinical practice, and institutional support in 63 countries. While many countries have active aging research programs, this chapter does not address those. We are exceptionally grateful for the information provided by national leaders from each country through an online
 
 survey. Among the 63 countries, based on the current classification of countries by the World Bank, 42 were high income (national income per capita >US$ 12,536 in 2019) of a total of 59, 17 were upper middle income (of a total of 55), and 4 were lower middle income, of a total of 44. There were no respondents from low-income countries, of a total of 28. There are a few countries, mainly very small, that were not classified by WHO.
@@ -87,8 +89,6 @@ Geriatrics training and certification vary among responding countries. Some coun
 In some countries, formal training and certification is offered to health professionals other than physicians. Most common is geriatrics specialization for nurses, followed by physical and occupational therapists and social workers.
 
 While definitions vary for who is a geriatrician, our national respondents reported a very wide range of numbers of geriatricians per 100,000 persons age 65 or older (Table 13-1). A proposed criterion from the Royal College of Physicians (RCP) is that there should be 2 geriatricians for every 100,000 persons age 75 or older. This estimate is based on a consultative, not primary care, model of medical
-
-> **[sic]** The British Geriatrics Society’s workforce evidence gives one whole-time-equivalent geriatrician per 50,000 total population, approximately one per 4,000 people over 75 at the time. The denominator on this page is different. [British Geriatrics Society evidence to the UK Parliament, 2012](https://publications.parliament.uk/pa/cm201213/cmselect/cmhealth/6/6vw03.htm).
 
 <a id="p182"></a>**[p. 182]**
 
@@ -121,6 +121,8 @@ While definitions vary for who is a geriatrician, our national respondents repor
 *TABLE 13-1 ■ TRAINING AND CERTIFICATION IN GERIATRICS IN DIFFERENT COUNTRIES*
 
 care, so it is difficult to relate the RCP estimate to the findings of our survey. Some countries report national efforts to increase the number of trained geriatricians, but others do not.
+
+> **[sic]** The British Geriatrics Society’s workforce evidence gives one whole-time-equivalent geriatrician per 50,000 total population, approximately one per 4,000 people over 75 at the time. The denominator on this page is different. [British Geriatrics Society evidence to the UK Parliament, 2012](https://publications.parliament.uk/pa/cm201213/cmselect/cmhealth/6/6vw03.htm).
 
 ## GERIATRICS PRACTICE
 
@@ -166,28 +168,26 @@ We especially recognize the exemplary support provided by Leah Carton of McGraw 
 
 ## FURTHER READING
 
-Bates T, Kottek A, Spetz J. Geriatrician Roles and the Value
+Bates T, Kottek A, Spetz J. Geriatrician Roles and the Value of Geriatrics in an Evolving Health Care System. San Francisco, CA: UCSF Health Systems Workforce Center on Long-Term Care; 2019.
 
-of Geriatrics in an Evolving Health Care System. San Francisco, CA: UCSF Health Systems Workforce Center on Long-Term Care; 2019. Fisher JM, Garside M, Hunt K, Lo N. Geriatric medicine
+Fisher JM, Garside M, Hunt K, Lo N. Geriatric medicine workforce planning: a giant geriatric problem or has the tide turned? Clin Med (Lond). 2014;14(2):102–106.
 
-workforce planning: a giant geriatric problem or has the tide turned? Clin Med (Lond). 2014;14(2):102–106. Habot B, Tsin S. Geriatrics in the new millennium,
+Habot B, Tsin S. Geriatrics in the new millennium, Israel. Isr Med Assoc J. 2003;5:319–321.
 
-Israel. Isr Med Assoc J. 2003;5:319–321. InterRAI. https://www.interrai.org. Accessed May 17, 2021. Lester PE, Dharmarajan TS, Weinstein E. The looming ger-
+InterRAI. https://www.interrai.org. Accessed May 17, 2021.
 
-iatrician shortage: ramifications and solutions. J Aging Health. 2020;32(9):1052–1062. Pitkälä KH, Martin FC, Maggi S, Jyväkorpi SK, Strandberg
+Lester PE, Dharmarajan TS, Weinstein E. The looming geriatrician shortage: ramifications and solutions. J Aging Health. 2020;32(9):1052–1062.
 
-TE. Status of geriatrics in 22 countries. J Nutr Health Aging. 2018;22(5):627–631. Royal College of Physicians. Consultant physicians work-
+Pitkälä KH, Martin FC, Maggi S, Jyväkorpi SK, Strandberg TE. Status of geriatrics in 22 countries. J Nutr Health Aging. 2018;22(5):627–631.
 
-ing with patients: the duties, responsibilities and practice of physicians in medicine. London: RCP, 2013. https://
+Royal College of Physicians. Consultant physicians working with patients: the duties, responsibilities and practice of physicians in medicine. London: RCP, 2013. [https://www.rcplondon.ac.uk/projects/outputs/consultant-physicians-working-patients-revised-5th-edition](https://www.rcplondon.ac.uk/file/1578/download#page=131). Accessed May 5, 2012.
 
-[www.rcplondon.ac.uk/projects/outputs/consultantphysicians-working-patients-revised-5th-edition](https://www.rcplondon.ac.uk/file/1578/download#page=131). Accessed May 5, 2012. Saka S, Oosthuizen F, Nlooto M. National policies and
+Saka S, Oosthuizen F, Nlooto M. National policies and older people’s healthcare in Sub-Saharan Africa: a scoping review. Ann Glob Health. 2019;85(1):91.
 
-older people’s healthcare in Sub-Saharan Africa: a scoping review. Ann Glob Health. 2019;85(1):91. Tan MP, Kamaruzzaman SP, Poi PJH. An analysis of geri-
+Tan MP, Kamaruzzaman SP, Poi PJH. An analysis of geriatric medicine in Malaysia-riding the wave of political change. Geriatrics (Basel). 2018;3(4):80.
 
-atric medicine in Malaysia-riding the wave of political change. Geriatrics (Basel). 2018;3(4):80. Ungureanu M, Brînzac MG, Paina AFL, Avram L, Crișan
+Ungureanu M, Brînzac MG, Paina AFL, Avram L, Crișan DA, Donca V. The geriatric workforce in Romania: the need to improve data and management. Eur J Public Health. 2020;30(Suppl 4):iv28–iv31.
 
-DA, Donca V. The geriatric workforce in Romania: the need to improve data and management. Eur J Public Health. 2020;30(Suppl 4):iv28–iv31. Won CW, Kim S, Swagerty D. Why geriatric medicine is
+Won CW, Kim S, Swagerty D. Why geriatric medicine is important for Korea: lessons learned in the United States. J Korean Med Sci. 2018;33(26):e175.
 
-important for Korea: lessons learned in the United States. J Korean Med Sci. 2018;33(26):e175. World Health Organization. [https://www.who.int/publica-](<https://pmnch.who.int/resources/publications/i/item/integrated-care-for-older-people-%28-icope%29-guidance-for-person-centred-assessment-and-pathways-in-primary-care>)
-
-tions/i/item/WHO-FWC-ALC-19.1. Accessed January 18, 2022.
+World Health Organization. [https://www.who.int/publications/i/item/WHO-FWC-ALC-19.1](<https://pmnch.who.int/resources/publications/i/item/integrated-care-for-older-people-%28-icope%29-guidance-for-person-centred-assessment-and-pathways-in-primary-care>). Accessed January 18, 2022.

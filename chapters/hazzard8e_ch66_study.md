@@ -10,7 +10,7 @@ Study summary of Chapter 66; the book and the full chapter are the reference.
 - Antipsychotics require individualized risk–benefit discussion and monitoring; older adults are vulnerable to adverse effects, and dementia-related use has mortality concerns (p1027–1028).
 
 **Mood & suicide**
-- Depression is common and associated with suicide risk; late-life mood presentations require medical and psychiatric assessment (pp1021, 1028–1031).
+- Depression is common and associated with suicide risk; late-life mood presentations require medical and psychiatric assessment (p1021, pp1029–1031).
 - Ask directly about suicide, intent, means and protective factors while establishing rapport; older patients may be reluctant to disclose thoughts (p1029–1030).
 - High acute suicide risk requires emergent mental-health evaluation. Reduce access to lethal means, treat the underlying disorder and involve support people (p1030–1031).
 
@@ -75,7 +75,7 @@ Aripiprazole, olanzapine, quetiapine and risperidone were compared in a study of
 
 ### Mood symptoms and immediate safety
 
-Assess depression in the context of losses, medical illness, function and medications. Ask about depressed mood, loss of interest, hopelessness and what the patient expects of the future. Ask directly about thoughts of suicide without treating endorsement or denial as the whole assessment. Clarify frequency, intent, immediacy, previous attempts, substance use, support and reasons for living. A patient may first disclose distress to a primary care clinician or describe sleep, pain or somatic concerns before discussing mood. Listen without rushing to reassure or to equate grief with a depressive disorder (p1028–1031).
+Assess depression in the context of losses, medical illness, function and medications. Ask about depressed mood, loss of interest, hopelessness and what the patient expects of the future. Ask directly about thoughts of suicide without treating endorsement or denial as the whole assessment. Clarify frequency, intent, immediacy, previous attempts, substance use, support and reasons for living. A patient may first disclose distress to a primary care clinician or describe sleep, pain or somatic concerns before discussing mood. Listen without rushing to reassure or to equate grief with a depressive disorder (p1024, pp1029–1031).
 
 Table 66-1 presents the PROSPECT approach. Use a calm, direct, collaborative conversation; elicit both the precipitating problem and protective relationships. If acute risk is high, arrange emergency mental-health assessment, ensure supervision and address access to lethal means. For ongoing management the table describes reassessing hopelessness, suicidal thoughts and substance use at each treatment contact, **at least weekly contact** while ideation persists, and limiting prescription quantities to **one week** until risk decreases. These outpatient measures require a suitable level of safety and follow-up. A promise or signed agreement does not establish that a patient in immediate danger can safely leave (p1030–1031).
 

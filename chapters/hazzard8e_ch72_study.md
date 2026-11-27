@@ -100,7 +100,7 @@ Study summary of Chapter 72 - Ethical Issues; the book and the full chapter are 
 - Offer the opportunity to receive diagnostic information, while asking how much the patient wants to know. A family's request for nondisclosure should prompt exploration of the patient's preferences (p1101).
 - In the chapter’s US ethics framework, withholding and withdrawing unwanted life-prolonging treatment are ethically equivalent, though withdrawal may be psychologically harder. Israeli law separately restricts stopping continuous treatment when stopping could cause death (p1103 and Israeli Dying Patient Law, §21).
 - Palliative sedation is a last-resort response to refractory distress in terminal illness with comfort-focused goals, after interdisciplinary evaluation (p1105).
-- Sedation should be proportionate to the duration of symptoms and not expected to shorten life; existential suffering alone remains controversial and needs specialist assessment (p1105).
+- Sedation should be titrated to the minimum depth needed to relieve distress, last only for the actual or expected duration of symptoms, and be used when it is not expected to shorten life; existential suffering alone remains controversial and needs specialist assessment (pp1105–1106).
 
 **Safety, systems & exam traps**
 - Driving concerns involve confidentiality, patient safety and public safety; the chapter notes that reporting obligations vary by US state (p1098).

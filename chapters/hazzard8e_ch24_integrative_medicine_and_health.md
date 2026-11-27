@@ -54,7 +54,9 @@ For the purposes of this chapter, complementary and integrative modalities are g
 
 1. Dietary supplements, including herbal medicine, vitamins, and non-herbal, non-vitamin supplements.
 
-2. Mind-body practices, including yoga, tai chi, qigong, and meditation. 3. Manual therapies, including chiropractic care, acupuncture, massage, and osteopathy. 4. Traditional medicine systems, including Ayurveda and Traditional Chinese Medicine (TCM).
+2. Mind-body practices, including yoga, tai chi, qigong, and meditation.
+3. Manual therapies, including chiropractic care, acupuncture, massage, and osteopathy.
+4. Traditional medicine systems, including Ayurveda and Traditional Chinese Medicine (TCM).
 
 The latest data regarding trends in the use of complementary health approaches among US adults comes from the 2012 and 2017 National Health Interview Surveys (NHIS). Approximately 30% of adults age 65 and over
 
@@ -72,17 +74,15 @@ Reasons for use of complementary health approaches are varied. US adults reporte
 
 There are several ways clinicians can improve disclosure of complementary therapy use to better care for their patients. An important strategy is to incorporate elements of the integrative health history into the comprehensive geriatric assessment (CGA) including: illness representation, patients’ perceived sources of stress and support, complementary and integrative modality use and history, current health behaviors, and dietary supplement use in the medication history (Table 24-1).
 
-## CLINICAL CASE
-
-Ms. S is an 81-year-old female with history of cerebrovascular accident (CVA) complicated by residual left-sided weakness, atrial fibrillation, heart failure (HF) with preserved ejection fraction, gout, lumbar spinal stenosis, mild cognitive impairment, falls, and depression who presents to the outpatient geriatrics consult clinic. Her goal is to live independently as long as possible. Since her stroke 1 year prior, she has struggled with her gait and ambulates with a rolling walker. She had one fall in the past 6 months and is afraid of falling. She is interested in integrative therapies she could use to improve her health and well-being.
-
-Ms. S reports some fatigue but no other current symptoms. She lives alone in the community. Ms. S is
-
 ![Table 24-1](hazzard8e_ch24_table-24-1_p331.webp)
 
 *TABLE 24-1 ■ INCORPORATING AN INTEGRATIVE MEDICINE HISTORY INTO THE COMPREHENSIVE GERIATRIC ASSESSMENT (CGA)*
 
-independent with activities of daily living (ADLs), but requires some assistance for instrumental activities of daily living (IADLs) such as shopping, heavy housework, and driving given physical limitations. She hired a homemaker to assist with cleaning and shopping; she relies on her daughter for transportation. She denies loneliness and reports receiving limited social support from her church group. Her medications include allopurinol, apixaban, atorvastatin, fluoxetine, furosemide, gabapentin, senna, and vitamin E. She drinks one glass of wine on holidays, but otherwise denies substance use. She completed the Timed Up and Go (TUG) test in 15 seconds (≥ 12 seconds suggests increased risk of falls). Gait examination revealed decreased gait speed with uneven stride length and step height, but a normal base and no bradykinesia. Cognitive testing was notable for Montreal Cognitive Assessment (MoCA) score of 24 out of 30. She scored a 7 on the Patient Health Questionnaire-9 (PHQ-9), consistent with mild depression. A frailty screen was consistent with mild frailty.
+## CLINICAL CASE
+
+Ms. S is an 81-year-old female with history of cerebrovascular accident (CVA) complicated by residual left-sided weakness, atrial fibrillation, heart failure (HF) with preserved ejection fraction, gout, lumbar spinal stenosis, mild cognitive impairment, falls, and depression who presents to the outpatient geriatrics consult clinic. Her goal is to live independently as long as possible. Since her stroke 1 year prior, she has struggled with her gait and ambulates with a rolling walker. She had one fall in the past 6 months and is afraid of falling. She is interested in integrative therapies she could use to improve her health and well-being.
+
+Ms. S reports some fatigue but no other current symptoms. She lives alone in the community. Ms. S is independent with activities of daily living (ADLs), but requires some assistance for instrumental activities of daily living (IADLs) such as shopping, heavy housework, and driving given physical limitations. She hired a homemaker to assist with cleaning and shopping; she relies on her daughter for transportation. She denies loneliness and reports receiving limited social support from her church group. Her medications include allopurinol, apixaban, atorvastatin, fluoxetine, furosemide, gabapentin, senna, and vitamin E. She drinks one glass of wine on holidays, but otherwise denies substance use. She completed the Timed Up and Go (TUG) test in 15 seconds (≥ 12 seconds suggests increased risk of falls). Gait examination revealed decreased gait speed with uneven stride length and step height, but a normal base and no bradykinesia. Cognitive testing was notable for Montreal Cognitive Assessment (MoCA) score of 24 out of 30. She scored a 7 on the Patient Health Questionnaire-9 (PHQ-9), consistent with mild depression. A frailty screen was consistent with mild frailty.
 
 In addition to tools from conventional medicine, what approaches might you recommend in the clinical care of this patient? How would you make this decision?
 

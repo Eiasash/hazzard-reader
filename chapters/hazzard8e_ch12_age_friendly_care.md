@@ -156,14 +156,12 @@ Nonfatal falls account for almost 99% of the estimated health care costs for fat
 
 Case Studies At Hartford Hospital in Connecticut, agefriendly initiatives have led to resounding impacts in value and care. The ADAPT (Actions to enhance Delirium Assessment Prevention and Treatment) program was started in 2012 as an interprofessional team effort across various disciplines and departments, with support from the hospital administration and vital resource allocation for positive reinforcement and opportunities for improvement. A delirium care pathway was developed to ensure that delirium prevention, treatment, and management remained an interprofessional priority throughout the length of an older patient’s stay and transitions. This included the implementation of delirium screenings three times a day, in addition to an initial screen. Adjunct support was provided through various means, from volunteer programs to therapeutic activities focusing on mobilization, nutrition, sleep/rest, and cognitive connection. A registry was also created for gathering data and analyzing quality outcome measures.
 
-As seen in Table 12-3, delirium was shown to have serious consequences leading to poorer health outcomes, with the length of hospital stay averaging 4 days and $8,900 for those without delirium, and 12 days and $31,284 for those with delirium. Seventy percent of those without delirium were discharged home, compared to only 30% for those with delirium. And while mortality was less than 1% for patients without delirium, it was 10% for patients with
+As seen in Table 12-3, delirium was shown to have serious consequences leading to poorer health outcomes, with the length of hospital stay averaging 4 days and $8,900 for those without delirium, and 12 days and $31,284 for those with delirium. Seventy percent of those without delirium were discharged home, compared to only 30% for those with delirium. And while mortality was less than 1% for patients without delirium, it was 10% for patients with delirium. The implementation of the ADAPT program led to decreased hospital stays for delirium patients (16–10.6 days) and reduced delirium attributable days. This resulted in annual savings averaging $6.5 million from 2012 to 2019. Hartford Health care has now taken steps to scale up the program, with potential expansion to other care settings (post-acute and home care) and a focus on population health in primary care clinics for underserved communitydwelling older adults.
 
 ![Table 12-3](hazzard8e_ch12_table-12-3_p177.webp)
 
-*TABLE 12-3 ■ HARTFORD HOSPITAL PER-PATIENT COSTS ASSOCIATED WITH DELIRIUMa*
+*TABLE 12-3 ■ HARTFORD HOSPITAL PER-PATIENT COSTS ASSOCIATED WITH DELIRIUM<sup>a</sup>*
 
-
-delirium. The implementation of the ADAPT program led to decreased hospital stays for delirium patients (16–10.6 days) and reduced delirium attributable days. This resulted in annual savings averaging $6.5 million from 2012 to 2019. Hartford Health care has now taken steps to scale up the program, with potential expansion to other care settings (post-acute and home care) and a focus on population health in primary care clinics for underserved communitydwelling older adults.
 
 Another example that has exhibited beneficial results has been Providence St. Joseph Health in Oregon, one of the original five locations chosen to take place in the development of AFHS. Beginning in 2017, changes in care included coordinating fall-risk screening and management, developing an outpatient mobility program, creating a dementia care pathway, educating clinical staff on polypharmacy and high-risk medication, and utilizing a What Matters Discussion Guide to direct communication. To implement these changes on a greater scale, Providence St. Joseph Health formed the Geriatric Mini-Fellowship in 2018, training providers at 12 primary care clinics.
 
@@ -181,42 +179,38 @@ aging population and significantly reduce unnecessary hospitalizations, saving h
 
 ## FURTHER READING
 
-American Hospital Association: The Value Initiative
+American Hospital Association: The Value Initiative Issue Brief: Creating Value with Age-Friendly Health Systems; 2020. [https://www.aha.org/system/files/media/file/2020/08/value-initiative-issue-brief-10-creating-value-with-age-friendly-health-systems.pdf](<https://www.aha.org/issue-brief/2020-08-11-value-initiative-issue-brief-creating-value-age-friendly-health-systems>) [aha.org]. Accessed February 7, 2022
 
-Issue Brief: Creating Value with Age-Friendly Health Systems; 2020. [https://www.aha.org/system/files/media/](<https://www.aha.org/issue-brief/2020-08-11-value-initiative-issue-brief-creating-value-age-friendly-health-systems>) file/2020/08/value-initiative-issue-brief-10-creatingvalue-with-age-friendly-health-systems.pdf [aha.org]. Accessed February 7, 2022 Chung GC, Marottoli RA, Cooney LM Jr, Rhee TG.
+Chung GC, Marottoli RA, Cooney LM Jr, Rhee TG. Cost-related medication nonadherence among older adults: findings from a nationally representative sample. J Am Geriatr Soc. 2019;67(12):2463–2473.
 
-Cost-related medication nonadherence among older adults: findings from a nationally representative sample. J Am Geriatr Soc. 2019;67(12):2463–2473. Diaz-Gutierrez MJ, Martinez-Cengotitabengoa M, Saez de
+Diaz-Gutierrez MJ, Martinez-Cengotitabengoa M, Saez de Adana E, et al. Relationship between the use of benzodiazepines and falls in older adults: a systematic review. Maturitas. 2017;101:17–22.
 
-Adana E, et al. Relationship between the use of benzodiazepines and falls in older adults: a systematic review. Maturitas. 2017;101:17–22. Fazio S, Pace D, Maslow K, Zimmerman S, Kallmyer B.
+Fazio S, Pace D, Maslow K, Zimmerman S, Kallmyer B. Alzheimer’s Association dementia care practice recommendations. Gerontologist. 2018;58(suppl_1):S1–S9.
 
-Alzheimer’s Association dementia care practice recommendations. Gerontologist. 2018;58(suppl_1):S1–S9. Ganz DA, Latham NK. Prevention of falls in community-
+Ganz DA, Latham NK. Prevention of falls in communitydwelling older adults. N Engl J Med. 2020;382(8): 734–743.
 
-dwelling older adults. N Engl J Med. 2020;382(8): 734–743. Hill-Taylor B, Sketris I, Hayden J, Byrne S, O’Sullivan D,
+Hill-Taylor B, Sketris I, Hayden J, Byrne S, O’Sullivan D, Christie R. Application of the STOPP/START criteria: a systematic review of the prevalence of potentially inappropriate prescribing in older adults, and evidence of clinical, humanistic and economic impact. J Clin Pharm Ther. 2013;38(5):360–372.
 
-Christie R. Application of the STOPP/START criteria: a systematic review of the prevalence of potentially inappropriate prescribing in older adults, and evidence of clinical, humanistic and economic impact. J Clin Pharm Ther. 2013;38(5):360–372. Hshieh TT, Yang T, Gartaganis SL, Yue J, Inouye SK.
+Hshieh TT, Yang T, Gartaganis SL, Yue J, Inouye SK. Hospital elder life program: systematic review and meta-analysis of effectiveness. Am J Geriatr Psychiatry. 2018;26(10):1015–1033.
 
-Hospital elder life program: systematic review and meta-analysis of effectiveness. Am J Geriatr Psychiatry. 2018;26(10):1015–1033. Institute for Healthcare Improvement: Age-Friendly Health
+Institute for Healthcare Improvement: Age-Friendly Health Systems: Guide to Using the 4Ms in the Care of Older Adults; 2019. http://www.ihi.org/Engage/Initiatives/Age-Friendly-Health-Systems/Documents/IHIAge-FriendlyHealthSystems_GuidetoUsing4MsCare.pdf. Accessed February 7, 2022
 
-Systems: Guide to Using the 4Ms in the Care of Older Adults; 2019. http://www.ihi.org/Engage/Initiatives/ Age-Friendly-Health-Systems/Documents/IHIAgeFriendlyHealthSystems_GuidetoUsing4MsCare.pdf. Accessed February 7, 2022 Kim SK, Park M. Effectiveness of person-centered care
+Kim SK, Park M. Effectiveness of person-centered care on people with dementia: a systematic review and meta-analysis. Clin Interv Aging. 2017;12:381–397.
 
-on people with dementia: a systematic review and meta-analysis. Clin Interv Aging. 2017;12:381–397.
+Lown Institute: Medication Overload and Older Americans; 2020. [https://lowninstitute.org/projects/medicationoverload-how-the-drive-to-prescribe-is-harming-olderamericans/](<https://lowninstitute.org/wp-content/uploads/2019/08/medication-overload-lown-web.pdf>) [lowninstitute.org]. Accessed February 7, 2022
 
-Lown Institute: Medication Overload and Older Americans;
+Martin P, Tamblyn R, Benedetti A, Ahmed S, Tannenbaum C. Effect of a pharmacist-led educational intervention on inappropriate medication prescriptions in older adults: the D-PRESCRIBE randomized clinical trial. JAMA. 2018;320(18):1889–1898.
 
-2020. [https://lowninstitute.org/projects/medicationoverload-how-the-drive-to-prescribe-is-harming-olderamericans/](<https://lowninstitute.org/wp-content/uploads/2019/08/medication-overload-lown-web.pdf>) [lowninstitute.org]. Accessed February 7, 2022 Martin P, Tamblyn R, Benedetti A, Ahmed S, Tannenbaum
+Misra A, Lloyd JT. Hospital utilization and expenditures among a nationally representative sample of Medicare fee-for-service beneficiaries 2 years after receipt of an Annual Wellness Visit. Prev Med. 2019;129:105850.
 
-C. Effect of a pharmacist-led educational intervention on inappropriate medication prescriptions in older adults: the D-PRESCRIBE randomized clinical trial. JAMA. 2018;320(18):1889–1898. Misra A, Lloyd JT. Hospital utilization and expenditures
+Monteiro L, Maricoto T, Solha I, Ribeiro-Vaz I, Martins C, Monteiro-Soares M. Reducing potentially inappropriate prescriptions for older patients using computerized decision support tools: systematic review. J Med Internet Res. 2019;21(11):e15385.
 
-among a nationally representative sample of Medicare fee-for-service beneficiaries 2 years after receipt of an Annual Wellness Visit. Prev Med. 2019;129:105850. Monteiro L, Maricoto T, Solha I, Ribeiro-Vaz I, Martins C,
+Shah RC, Supiano MA, Greenland P. Aligning the 4Ms of age-friendly health systems with statin use for primary prevention. J Am Geriatr Soc. 2020;68(3):463–464.
 
-Monteiro-Soares M. Reducing potentially inappropriate prescriptions for older patients using computerized decision support tools: systematic review. J Med Internet Res. 2019;21(11):e15385. Shah RC, Supiano MA, Greenland P. Aligning the 4Ms of
+Stacey D, Legare F, Col NF, et al. Decision aids for people facing health treatment or screening decisions. Cochrane Database Syst Rev. 2014(1):Cd001431.
 
-age-friendly health systems with statin use for primary prevention. J Am Geriatr Soc. 2020;68(3):463–464. Stacey D, Legare F, Col NF, et al. Decision aids for people
+Tinetti ME, Naik AD, Dindo L, et al. Association of patient priorities-aligned decision-making with patient outcomes and ambulatory health care burden among older adults with multiple chronic conditions: a nonrandomized clinical trial. JAMA Intern Med. 2019:1688–1697.
 
-facing health treatment or screening decisions. Cochrane Database Syst Rev. 2014(1):Cd001431. Tinetti ME, Naik AD, Dindo L, et al. Association of
+Wang YY, Yue JR, Xie DM, et al. Effect of the tailored, family-involved hospital elder life program on postoperative delirium and function in older adults: a randomized clinical trial. JAMA Intern Med. 2020;180(1):17–25.
 
-patient priorities-aligned decision-making with patient outcomes and ambulatory health care burden among older adults with multiple chronic conditions: a nonrandomized clinical trial. JAMA Intern Med. 2019:1688–1697. Wang YY, Yue JR, Xie DM, et al. Effect of the tailored,
-
-family-involved hospital elder life program on postoperative delirium and function in older adults: a randomized clinical trial. JAMA Intern Med. 2020;180(1):17–25. Yang Y, Hu X, Zhang Q, Zou R. Diabetes mellitus and
-
-risk of falls in older adults: a systematic review and meta-analysis. Age Ageing. 2016;45(6):761–767.
+Yang Y, Hu X, Zhang Q, Zou R. Diabetes mellitus and risk of falls in older adults: a systematic review and meta-analysis. Age Ageing. 2016;45(6):761–767.

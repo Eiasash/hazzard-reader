@@ -64,7 +64,7 @@ The original Fried assessment needs timed walking and measured grip. The FRAIL s
 
 > **Current practice: FRAIL scale thresholds.** the validation study’s Methods scored **5 or more of 11 illnesses** and **at least 5% weight loss over 12 months**. Its appendix uses **>5%** for weight loss. [Morley et al., 2012, Methods and appendix](https://pmc.ncbi.nlm.nih.gov/articles/PMC4515112/).
 
-<a href="?chapter=42#book-table-42-3">Table 42-3</a> compares questionnaire-based tools used before TAVI (<a href="?chapter=42#p622">p622</a>). The same table describes the FI on <a href="?chapter=42#p621">p621</a>, and <a href="?chapter=42#p623">p623</a> explains its calculation. The underlying choice concerns which information can be obtained from an assessment and which measurements must be made directly.
+<a href="?chapter=42#book-table-42-3">Table 42-3</a> summarizes general frailty instruments, including the VES-13 and FRAIL questionnaire (<a href="?chapter=42#p622">p622</a>). The same table describes the FI on <a href="?chapter=42#p621">p621</a>, and <a href="?chapter=42#p623">p623</a> explains its calculation. The underlying choice concerns which information can be obtained from an assessment and which measurements must be made directly.
 
 ## Biological reserve and change over time
 

@@ -101,7 +101,7 @@ The cognitive follow-up study asked another question. It compared preoperative m
 
 The ACS NSQIP calculator described in the chapter estimated **12 outcomes at 30 days** from **21 preoperative predictors**. The geriatric pilot added six predictors: living situation, falls, mobility aid, cognitive impairment, surrogate-signed consent and palliative care on admission. Four additional outcomes were pressure injury, delirium, new mobility-aid use and functional decline. The added predictors are neither complications nor automatic reasons to avoid operating. They help estimate consequences that a patient contemplating a difficult recovery may value more than a generic morbidity percentage (p403).
 
-Figure 29-1 places risk calculation between initial assessment and a personalized plan. Consider a person who values returning home above all but already needs a mobility aid and has been falling. Before surgery, involve the caregiver, identify what help could realistically be provided, and ask which decline would make the procedure unacceptable. During and after the operation, address medication, cognition and mobility and coordinate geriatric care where available. After discharge, follow whether independence returned and whether new illnesses interrupted it. A risk discussion is incomplete if it identifies the possibility of disability but never establishes how the team will recognize and respond to it (p403–404).
+Figure 29-1 includes risk calculation in the initial assessment alongside frailty, caregivers, quality of life and the patient’s goals, informing the personalized plan. Consider a person who values returning home above all but already needs a mobility aid and has been falling. Before surgery, involve the caregiver, identify what help could realistically be provided, and ask which decline would make the procedure unacceptable. During and after the operation, address medication, cognition and mobility and coordinate geriatric care where available. After discharge, follow whether independence returned and whether new illnesses interrupted it. A risk discussion is incomplete if it identifies the possibility of disability but never establishes how the team will recognize and respond to it (p403–404).
 
 Finally, compare the expected course *with and without* surgery in terms the patient uses. For one person surgery may offer the best chance to relieve symptoms and preserve independence. Another may decline the prospect of prolonged rehabilitation despite a technically operable cancer. The chapter explicitly allows for both choices. A decision to forgo surgery is coherent when its expected burdens conflict with the person's priorities, just as advanced age alone does not disqualify a fit older patient who accepts the risks. Success is judged against the goals agreed before treatment (p399–400, p404).
 
@@ -135,7 +135,7 @@ Finally, compare the expected course *with and without* surgery in terms the pat
 
 **6. Which outcomes have been associated with geriatric co-management?**
 
-<details><summary>Answer</summary>Shorter admissions and fewer complications and deaths in that patient series (p399–401).</details>
+<details><summary>Answer</summary>Shorter admissions and fewer complications and deaths with geriatric co-management in the chapter’s general discussion (p399–401).</details>
 
 **7. What does loss of independence at discharge include?**
 

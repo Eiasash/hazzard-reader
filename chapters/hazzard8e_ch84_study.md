@@ -138,7 +138,7 @@ Table 84-15 broadens the bleeding differential to postpolypectomy bleeding, infl
 
 **1. Why can a relatively benign abdominal examination be misleading?**
 
-<details><summary>Answer</summary>Visceral sensation can decline with aging. Serious ischemia or perforation may produce little tenderness. (p1299, p1302)</details>
+<details><summary>Answer</summary>Visceral sensation can decline with aging. Serious ischemia or perforation may produce little tenderness. (p1299)</details>
 
 **2. Which bowel preparation risk is especially important in an older adult?**
 

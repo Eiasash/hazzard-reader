@@ -8,10 +8,6 @@ Mina S. Sedrak, Hyman B. Muss
 
 <a id="p1395"></a>**[p. 1395]**
 
-## EPIDEMIOLOGY
-
-Breast cancer is the most common cancer in women, and the American Cancer Society has estimated that in 2020 it will account for 30% of all newly diagnosed malignancies (276,000 new breast cancer cases) and remain the second leading cause of cancer-related death (42,000 deaths, ie, 15%). Moreover, current US incidence and mortality data show that 12.8% of all women (1 in 8) will be diagnosed with breast cancer during their lifetime and that 2.6% (1 in 39) will die from it. The incidence of breast cancer, like most other human cancers, increases dramatically with age. In the United States the median age at which breast cancer is diagnosed is 62 years and the median age of dying from breast cancer is 69, with highest percent of breast cancer deaths occurring between ages 65 and 74. National Vital Statistics indicate that the dramatic increase in incidence and mortality with age (Figure 89-1) from an invasive breast cancer rate of approximately 1 in 5000 in women aged 15 to 39 to about 1 in 200 in women aged 64 to 74. Of equal concern, although breast cancer–related mortality has been decreasing for several decades, older age has been associated with a lower breast cancer–specific survival rates (Figure 89-2), possibly reflecting less screening or poorer treatment.
-
 #### Learning Objectives
 
 - Describe the key principles regarding breast cancer, including epidemiology, screening, risk factors, presentation, and initial evaluation of disease.
@@ -38,21 +34,19 @@ Breast cancer is the most common cancer in women, and the American Cancer Societ
 
 4. Geriatric assessments and estimates of life expectancy (exclusive of breast cancer) can help optimize treatment decisions.
 
-5. When discussing treatment, screening, and surveillance strategies with older patients,
+5. When discussing treatment, screening, and surveillance strategies with older patients, it is important to be mindful of each patient’s competing medical issues, risk for cancer recurrence and cancer-related death, and functional status.
+
+6. Older patients with breast cancer are often understudied. How to best optimize care with regard to treatment, comorbidity, functional status, and outcomes remains a priority for future research.
+
+## EPIDEMIOLOGY
+
+Breast cancer is the most common cancer in women, and the American Cancer Society has estimated that in 2020 it will account for 30% of all newly diagnosed malignancies (276,000 new breast cancer cases) and remain the second leading cause of cancer-related death (42,000 deaths, ie, 15%). Moreover, current US incidence and mortality data show that 12.8% of all women (1 in 8) will be diagnosed with breast cancer during their lifetime and that 2.6% (1 in 39) will die from it. The incidence of breast cancer, like most other human cancers, increases dramatically with age. In the United States the median age at which breast cancer is diagnosed is 62 years and the median age of dying from breast cancer is 69, with highest percent of breast cancer deaths occurring between ages 65 and 74. National Vital Statistics indicate that the dramatic increase in incidence and mortality with age (Figure 89-1) from an invasive breast cancer rate of approximately 1 in 5000 in women aged 15 to 39 to about 1 in 200 in women aged 64 to 74. Of equal concern, although breast cancer–related mortality has been decreasing for several decades, older age has been associated with a lower breast cancer–specific survival rates (Figure 89-2), possibly reflecting less screening or poorer treatment.
 
 Breast cancer is a major health concern in the United States and will become of greater importance since the size of the older population is growing dramatically. Although breast cancer is more common in older women, they are less likely to be appropriately screened, more likely to present for care at a more advanced stage, more likely to receive inferior surgical and postoperative management, and are less likely to be entered into clinical trials. This has resulted in older breast cancer patients sharing less in the dramatic decline in breast cancer mortality rates in the last two decades as compared with younger women.
 
 ## PATHOPHYSIOLOGY
 
-The specific cause of breast cancer is unknown. Many factors associated with increased risk have been identified. These include the following: increasing age, family history of breast cancer (especially in a first-degree relative) or known
-
-<a id="p1396"></a>**[p. 1396]**
-
-it is important to be mindful of each patient’s competing medical issues, risk for cancer recurrence and cancer-related death, and functional status.
-
-6. Older patients with breast cancer are often understudied. How to best optimize care with regard to treatment, comorbidity, functional status, and outcomes remains a priority for future research.
-
-genetic predisposition, early menarche, late age at birth of first child (older than 30 years), late menopause, dense breast tissue, history of benign breast disease (hyperplasia or atypical hyperplasia), heavy radiation exposure, obesity, high endogenous hormone levels (postmenopausal estrogen replacement therapy), moderate-to-excessive alcohol use, and possibly cigarette smoking history. Most of these factors are associated with relative risks in the range of 1.1 to greater than 4 times the risk in the general population. A breast cancer risk assessment tool, based on the Gail Model, can be used to calculate the 5-year and lifetime risk of breast cancer in a patient (https://bcrisktool.cancer.gov/).
+The specific cause of breast cancer is unknown. Many factors associated with increased risk have been identified. These include the following: increasing age, family history of breast cancer (especially in a first-degree relative) or known <a id="p1396"></a>**[p. 1396]** genetic predisposition, early menarche, late age at birth of first child (older than 30 years), late menopause, dense breast tissue, history of benign breast disease (hyperplasia or atypical hyperplasia), heavy radiation exposure, obesity, high endogenous hormone levels (postmenopausal estrogen replacement therapy), moderate-to-excessive alcohol use, and possibly cigarette smoking history. Most of these factors are associated with relative risks in the range of 1.1 to greater than 4 times the risk in the general population. A breast cancer risk assessment tool, based on the Gail Model, can be used to calculate the 5-year and lifetime risk of breast cancer in a patient (https://bcrisktool.cancer.gov/).
 
 A family history of breast cancer, implying a genetic defect, has been found in from 5% to 20% of all cases of breast cancer and is particularly important in breast cancer diagnosed before age 50. BRCA1, BRCA2, and PALB2 are the most common genes involved in hereditary predisposition. Other, rarer mutations are also associated with breast cancer that include ATM, TP53, PTEN, and CHEK2. In addition to inherited disease-causing genetic variations, there are many modifying factors, including genetic, hormonal, and environmental, that may determine whether a genetic mutation will lead to cancer.
 
@@ -132,7 +126,7 @@ Early-Stage, Nonmetastatic Breast Cancer In general, patients with early-stage b
 
 <a id="p1400"></a>**[p. 1400]**
 
-## Surgical Management
+### Surgical Management
 
 Breast-conserving therapy The breast-conserving approach to breast cancer management involves removing the tumor mass with a clear margin of surrounding normal breast tissue (lumpectomy, partial mastectomy, quadrantectomy, etc), assessing axillary lymph nodes when indicated, and for many, delivering local breast irradiation (discussed below) after surgery. Breast-conserving therapy results in virtually identical relapse-free and overall survival compared with more extensive surgical treatment, including simple, modified-radical, and radical mastectomy. It allows patients to preserve their breast without sacrificing oncologic outcomes. Criteria that preclude breast-conserving surgery include: two or more gross tumors in separate quadrants of the breast, large tumor/ breast size ratio (mass > 5 cm in size), which interferes with cosmesis, diffuse indeterminate or malignant-appearing microcalcifications, a history of therapeutic irradiation to the chest (eg, radiation for Hodgkin disease), and persistently positive margins despite attempts at re-excision. For patients who desire breast conservation therapy but are not candidates at the time of presentation, an alternative approach is the use of neoadjuvant therapy (discussed below), which may allow for desired surgical management without compromising survival outcomes.
 
@@ -146,13 +140,15 @@ or less), clinically node-negative, ER-positive breast cancer, who will take adj
 
 Breast reconstruction For older women who have had a mastectomy, breast reconstruction represents another option for restoring body image. Many physicians, because of personal bias, are unlikely to discuss reconstruction with older patients. However, this procedure can be done safely in older patients and should be discussed, with subsequent surgical consultation if desired.
 
-## Adjuvant Radiation
+### Adjuvant Radiation
 
 Radiation after mastectomy The likelihood of local recurrence is directly proportional to both the size of the primary lesion and the number of involved axillary nodes. Postoperative adjuvant irradiation is generally recommended for patients with primary lesions greater than 5 cm or with four or more positive nodes. It is also considered reasonable for any woman with breast cancer that involves lymph nodes to receive postmastectomy “adjuvant” irradiation therapy to the chest wall and the contiguous regional lymph nodes (internal mammary, supraclavicular, and upper axilla), because it reduces the likelihood of local recurrence (recurrence in the mastectomy site or contiguous nodal areas) by 70% and improves overall breast cancer–specific survival.
 
 <span id="ch89-local-control" data-reader-metadata="exam"></span>Radiation after lumpectomy Breast irradiation after removal of tumor mass reduces the likelihood of recurrence in the affected breast from 30% to 40% to less than 10% and may improve survival in women with higher-risk breast cancers. Although radiation after breast conservation is standard therapy in younger women, older women with smaller, hormone receptor–positive breast cancers (≤ 3 cm in largest dimension) may be spared breast irradiation if they are willing to take adjuvant endocrine therapy. In such patients, survival is identical, although there is a somewhat higher risk of breast recurrence over a 10-year period (about 10% without radiation and 2%–3% with radiation). Most breast relapses occur in or in close proximity to the previously resected lesion. Other techniques, such as brachytherapy (localized RT), may prove to be as effective as whole-breast RT and can be completed over a period of days to weeks. For healthy older patients at high risk for in-breast recurrence (tumors 3 cm or greater or positive lymph nodes) and reasonable life expectancy, breast radiation is recommended.
 
-Adjuvant Systemic Therapy Systemic therapy refers to the medical treatment of breast cancer using chemotherapy, endocrine therapy, and/or biologic therapy. Tumor characteristics predict which patients are likely to benefit from specific types of systemic therapy in early-stage breast cancer. These therapies can be given preoperatively (neoadjuvant) or postoperatively (adjuvant). The goal of systemic therapy in early breast cancer is to reduce risk of and delay relapse as well as improve survival. Such treatment is aimed at eradicating occult, clinically undetectable metastasis. Figure 89-4 shows the
+### Adjuvant Systemic Therapy
+
+Systemic therapy refers to the medical treatment of breast cancer using chemotherapy, endocrine therapy, and/or biologic therapy. Tumor characteristics predict which patients are likely to benefit from specific types of systemic therapy in early-stage breast cancer. These therapies can be given preoperatively (neoadjuvant) or postoperatively (adjuvant). The goal of systemic therapy in early breast cancer is to reduce risk of and delay relapse as well as improve survival. Such treatment is aimed at eradicating occult, clinically undetectable metastasis. Figure 89-4 shows the
 
 <a id="p1401"></a>**[p. 1401]**
 
@@ -170,7 +166,7 @@ Tools to predict the benefit of chemotherapy are available. These include genomi
 
 Tools to predict the patient’s life expectancy (exclusive of their breast cancer diagnosis), general health status, and risk for chemotherapy toxicity should be used to assess the older patient. There is vast heterogeneity in function and comorbidity in older patients at any given age. Table 89-2 presents a list of key websites and resources for providers who care for older patients with cancer.
 
-An online tool, ePrognosis ([https://eprognosis.ucsf](<https://eprognosis.ucsf.edu/>). edu/), estimates life expectancy based on medical history and has been validated for use among women with earlystage breast cancer. By providing an estimate of noncancer mortality risk, the ePrognosis tool can help frame treatment decisions for adjuvant chemotherapy and provide a starting point for conversation with the patient about their own preferences.
+An online tool, ePrognosis ([https://eprognosis.ucsf.edu/](<https://eprognosis.ucsf.edu/>)), estimates life expectancy based on medical history and has been validated for use among women with earlystage breast cancer. By providing an estimate of noncancer mortality risk, the ePrognosis tool can help frame treatment decisions for adjuvant chemotherapy and provide a starting point for conversation with the patient about their own preferences.
 
 Additionally, we recommend that patients older than 70 years and/or with multiple comorbid conditions should be screened for geriatric syndromes using a
 
@@ -208,19 +204,15 @@ Metastatic Breast Cancer Management of metastatic breast cancer in older women f
 
 Patients with disseminated metastases should be considered for palliative systemic treatment and consideration for clinical trial enrollment should occur at every line of therapy. Table 89-4 describes endocrine and cytotoxic agents used in the treatment of breast cancer and their common and major side effects. Endocrine therapy usually is associated with minimal toxicity, while the toxicity associated with chemotherapy is frequently substantial and, in a small percent of patients, may be life-threatening. <span id="ch89-metastatic-endocrine" data-reader-metadata="exam"></span>Provided that metastases are not rapidly progressive or life-threatening, all women with hormone receptor–positive, metastatic breast cancer should have an initial trial of endocrine therapy. The combination of a cyclin-dependent kinase (CDK) 4/6 inhibitor and an aromatase inhibitor appears to be effective and of comparable tolerability in older patients as in younger patients; however, older adults should be carefully monitored for myelosuppression or diarrhea, depending on the choice of CDK4/6 inhibitor used.
 
-Once breast cancer is deemed refractory to endocrine therapy or in the setting of triple negative disease (breast cancers without estrogen, progesterone expression, and HER2 overexpression), chemotherapy is usually the treatment of choice. Chemotherapy may also be a first-line therapy if life-threatening or rapidly progressive (visceral) disease is present. Chemotherapy should not be withheld solely on the basis of older age and decisions on the administration of chemotherapy in older women should be individualized based on the extent of their tumor, symptoms, and the potential benefits and risks of treatment. Sequential single-agent therapy as opposed to combination chemotherapy as in most patients, regardless of age, is equally
-
-<a id="p1404"></a>**[p. 1404]**
+Once breast cancer is deemed refractory to endocrine therapy or in the setting of triple negative disease (breast cancers without estrogen, progesterone expression, and HER2 overexpression), chemotherapy is usually the treatment of choice. Chemotherapy may also be a first-line therapy if life-threatening or rapidly progressive (visceral) disease is present. Chemotherapy should not be withheld solely on the basis of older age and decisions on the administration of chemotherapy in older women should be individualized based on the extent of their tumor, symptoms, and the potential benefits and risks of treatment. Sequential single-agent therapy as opposed to combination chemotherapy as in most patients, regardless of age, is equally <a id="p1404"></a>**[p. 1404]** effective and less toxic. <span id="ch89-bone-resorption" data-reader-metadata="exam"></span>Osteoclast inhibition with bisphosphonates or denosumab significantly reduces the risk of skeletal-related events in women with bone metastases.
 
 ![Table 89-4](hazzard8e_ch89_table-89-4_p1404.webp)
 
 *Table 89-4 — printed p. 1404.*
 
-**Alkylating agents, Table 89-4.** Cyclophosphamide can cause cystitis as well as marrow suppression, nausea and vomiting.
+> **Alkylating agents, Table 89-4.** Cyclophosphamide can cause cystitis as well as marrow suppression, nausea and vomiting.
 
-**HER2-targeted therapy, Table 89-4.** Trastuzumab can cause cardiomyopathy and infusion reactions.
-
-effective and less toxic. <span id="ch89-bone-resorption" data-reader-metadata="exam"></span>Osteoclast inhibition with bisphosphonates or denosumab significantly reduces the risk of skeletal-related events in women with bone metastases.
+> **HER2-targeted therapy, Table 89-4.** Trastuzumab can cause cardiomyopathy and infusion reactions.
 
 Older patients with metastatic disease, whose general health is otherwise satisfactory, display response and toxicity profiles to chemotherapy similar to those of their younger counterparts. Most cytotoxic drugs are metabolized in the
 
@@ -268,9 +260,7 @@ ing Manual (8th edition). Springer International Publishing: American Joint Comm
 
 (EBCTCG). Effects of chemotherapy and hormonal therapy for early breast cancer on recurrence and 15-year survival: an overview of the randomised trials. Lancet. 2005;365(9472):1687–1717. Early Breast Cancer Trialists’ Collaborative Group
 
-(EBCTCG), Peto R, Davies C, et al. Comparisons between different polychemotherapy regimens for early breast cancer: meta-analyses of long-term outcome among 100,000 women in 123 randomised trials. Lancet. 2012;379(9814):432–444. ePrognosis. Estimating prognosis for elders. [http://eprog-](<https://eprognosis.ucsf.edu/>)
-
-nosis.ucsf.edu/. Helson HD, Smith ME, Griffin JC, Fu R. Use of medica-
+(EBCTCG), Peto R, Davies C, et al. Comparisons between different polychemotherapy regimens for early breast cancer: meta-analyses of long-term outcome among 100,000 women in 123 randomised trials. Lancet. 2012;379(9814):432–444. ePrognosis. Estimating prognosis for elders. [http://eprognosis.ucsf.edu/](<https://eprognosis.ucsf.edu/>). Helson HD, Smith ME, Griffin JC, Fu R. Use of medica-
 
 tions to reduce risk for primary breast cancer: a systematic review for the U.S. Preventative Services Task Force. Ann Intern Med. 2013;158(8):604–614. Hughes KS, Schnaper LA, Bellon JR, et al. Lumpectomy
 

@@ -118,7 +118,7 @@ Active Surveillance Active surveillance or expectant management differs from wat
 
 progression before active treatment is initiated. It is important, therefore, that patients are made aware that even the most careful monitoring may miss the window for administering curative therapy.
 
-## Local Therapy: Surgery, Radiation, or Brachytherapy
+### Local Therapy: Surgery, Radiation, or Brachytherapy
 
 Radical prostatectomy RP involves removal of the prostate and seminal vesicles, and is an appropriate therapy for any patient with disease confined to the prostate, a life expectancy more than 10 years, and no contraindications to surgery. Data have shown that outcomes are generally better with high-volume surgeons within high-volume medical centers. Laparoscopic and robotic prostatectomies have been refined and moved into mainstream care. Outcome data to date suggest that in the hands of an experienced surgeon, these approaches are comparable to open surgery and may involve less morbidity. Randomized clinical trials have shown no benefit for neoadjuvant hormonal therapy with RP. Pathologic examination after surgery allows for verification of organ confinement and margin status as well as complete histologic examination. Almost 50% of patients with biopsy Gleason 6 disease are upgraded to Gleason 7 or higher once the entire gland is removed and evaluated.
 
@@ -162,7 +162,7 @@ Salvage Local Therapy Approximately 20% to 25% of men with local recurrence post
 
 A positive bone scan and pain in a weightbearing area correlating to the scan should prompt an x-ray to assess for impending pathologic fractures. Patients should be made nonweightbearing and immediately referred for both surgical and radiation consultation. The possibility of cord compression should be suspected in any man with a history of prostate cancer and new-onset back pain. Pain from spinal cord compression is often severe and generally predates neurologic symptoms. A negative neurologic examination should not delay a definitive radiologic study (preferably MRI or CT myelogram), and patients with suspected cord compression should be initiated and maintained on steroids until compression is ruled out.
 
-## Hormonal Therapy
+### Hormonal Therapy
 
 First-line hormonal therapy Patients with advanced disease at presentation, or patients who relapse after definitive local therapy are initially treated with some form of ADT. The timing of hormonal therapy for a biochemical recurrence after definitive therapy is controversial. Early initiation of
 

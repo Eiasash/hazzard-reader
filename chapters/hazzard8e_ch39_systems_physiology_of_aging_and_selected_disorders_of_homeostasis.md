@@ -282,11 +282,7 @@ Renal Concentrating Capacity The renal response to hypernatremia is elaboration 
 
 Management Aside from treating any underlying cause of water loss or water deprivation, the cornerstone of therapy for hypernatremia is water replacement. As for hyponatremia, correction of hypernatremia should be judicious in rate, limiting the decrease of serum sodium to approximately 8 to 10 mEq/L/24 h, although some have suggested that 50% of the water deficit can be safely corrected in the first 24 hours. The water deficit can be estimated by the following equation:
 
-Water deficit (L) Measured[Na]mEq/L 140 mEq/L
-
-140 mEq
-
-(0.45 body weight[kg])
+Water deficit (L) = [(measured [Na] in mEq/L − 140 mEq/L) / 140 mEq] × (0.45 × body weight [kg])
 
 If the water deficit is less than 3 L and the patient is able to drink safely, then oral water repletion is reasonable. If not, then the deficit will need to be addressed with intravenous administration of 5% dextrose in water. Frequently, patients with hypernatremia are also intravascularly volume-depleted and may be frankly hypotensive. If the cardiovascular status is in jeopardy, then the initial fluid of choice is 0.9% saline to ensure adequate intravascular volume. Once the volume status is established, switching to more hypotonic fluid is reasonable. If the degree of volume depletion is felt to be moderate, then initial therapy with 5% dextrose in 0.45% saline is a reasonable choice, taking into account that twice as many liters would be required to deliver the volume of free water equivalent to that delivered using 5% dextrose in water. Serum sodium should be
 

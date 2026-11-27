@@ -25,7 +25,7 @@ Study summary of Chapter 23; the book and the full chapter are the reference.
 - Disulfiram: generally not recommended in older adults because the alcohol reaction can be harmful; if used, great caution is required (p324).
 - Opioid-use disorder has medication options including methadone, buprenorphine and naltrexone; combine medication access with supportive care (p324–326).
 - The chapter has limited older-adult trial evidence for many medications; use its source dose table and individual precautions (p324–325).
-- Continue follow-up and reassessment; recurrence can occur in the course of chronic substance-use disorders (p321).
+- Continue follow-up and reassessment; recurrence can occur in the course of chronic substance-use disorders (p321, p326).
 
 ### Recognizing a hazardous prescription
 
@@ -175,4 +175,4 @@ Tobacco treatment also benefits from an active offer of medication plus support.
 
 **15. Why arrange follow-up after an apparently successful brief intervention?**
 
-<details><summary>Answer</summary>Use and related harms can recur. Reassess goals, progress, medications and need for additional psychosocial or specialty support (p321, p323–324).</details>
+<details><summary>Answer</summary>Use and related harms can recur. Reassess goals, progress, medications and need for additional psychosocial or specialty support (p321, p324, p326).</details>

@@ -58,7 +58,7 @@ The team should set a measurable activity goal with the patient and family. Exer
 
 ## Rehabilitation after fracture or surgery
 
-Early mobilization after hip fracture limits deconditioning and the complications of bed rest. Fracture stability determines permissible loading after repair. When feasible, weight bearing as tolerated is easier for older adults to achieve than touchdown loading. Assess mobility on the first postoperative day after uncomplicated hip replacement. Weight bearing may be permitted as tolerated; distinguish this from loading regimens describes fracture repair (<a href="?chapter=55#p832">p832</a>).
+Early mobilization after hip fracture limits deconditioning and the complications of bed rest. Fracture stability determines permissible loading after repair. When feasible, weight bearing as tolerated is easier for older adults to achieve than touchdown loading. After total hip replacement, rehabilitation emphasizes strengthening and gait training, with dislocation precautions appropriate to the surgical approach. For a repaired hip fracture, fracture stability determines loading, and the chapter favors weight bearing as tolerated when feasible (<a href="?chapter=55#p832">p832</a>).
 
 After a **traditional posterolateral hip replacement**, crossing the legs, excessive flexion and rotating the leg may increase the risk of early dislocation. A raised toilet seat reduces the flexion required to sit down. May 2024 tested crossing the legs. Knee replacement calls for a different early task: controlling pain and swelling so that movement and quadriceps work can restore range (<a href="?chapter=55#p832">p832</a>).
 
@@ -164,11 +164,11 @@ At discharge, residual impairments can limit activity and expose the patient to 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-1bbe7663ed422d20fc60e429"><span>June 2025 Q80</span> Rehabilitation versus nursing care</a> <a class="study-source-link" href="https://www.gov.il/BlobFolder/policy/mr04-2009/he/files_circulars_mr_mr04_2009.pdf#page=4" aria-label="MOH circular 4/2009, MOH p4">MOH p4</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-610da062dae0a19d869b2ef7"><span>2020 Q10</span> Barthel versus FIM</a> <a class="study-source-link" href="?chapter=55#p819" aria-label="8e teaching passage, p819">p819</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-610da062dae0a19d869b2ef7"><span>2020 Q10</span> Barthel versus FIM</a> <a class="study-source-link" href="?chapter=55#ch55-fim-safety" aria-label="FIM scoring note">FIM scoring note</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d77dd3b1ab1dbb492058f5df"><span>December 2021 Q56</span> Supervision in FIM scoring</a> <a class="study-source-link" href="?chapter=55#p819" aria-label="8e teaching passage, p819">p819</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d77dd3b1ab1dbb492058f5df"><span>December 2021 Q56</span> Supervision in FIM scoring</a> <a class="study-source-link" href="?chapter=55#ch55-fim-safety" aria-label="FIM scoring note">FIM scoring note</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5323c51583402673a5d61738"><span>June 2026 Q92</span> Reading a FIM score</a> <a class="study-source-link" href="?chapter=55#p819" aria-label="8e teaching passage, p819">p819</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5323c51583402673a5d61738"><span>June 2026 Q92</span> Reading a FIM score</a> <a class="study-source-link" href="?chapter=55#ch55-fim-safety" aria-label="FIM scoring note">FIM scoring note</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7cdd68518d6671b51791c12"><span>2020 Q84</span> Choosing inpatient rehabilitation</a> <a class="study-source-link" href="?chapter=55#p820" aria-label="8e teaching passage, p820">p820</a></p>
 

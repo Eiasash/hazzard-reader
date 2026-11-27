@@ -72,10 +72,10 @@ More recently, policy changes from the Improving Medicare Post-Acute Care Transf
 
 ![Table 18-1](hazzard8e_ch18_table-18-1_p251.webp)
 
-> **[sic]** The Medicare hospice threshold is a life expectancy of six months or less if the terminal illness follows its normal course. The table uses a strict less-than sign. [CMS, Medicare hospice eligibility](https://www.cms.gov/medicare/payment/fee-for-service-providers/hospice).
-
 *TABLE 18-1 ■ POSTACUTE CARE CONTINUUM OF SERVICES*
 
+
+> **[sic]** The Medicare hospice threshold is a life expectancy of six months or less if the terminal illness follows its normal course. The table uses a strict less-than sign. [CMS, Medicare hospice eligibility](https://www.cms.gov/medicare/payment/fee-for-service-providers/hospice).
 
 <a id="p252"></a>**[p. 252]**
 
@@ -176,7 +176,7 @@ While written discharge communication is the primary form of communication for p
 
 ### High-Quality Medication Reconciliation
 
-Medication reconciliation is an essential component of transitional care programs in which the patient, members of the health care team, and other caregivers can collaborate to improve medication safety as the patient transitions between health care settings (eg, hospital admission or discharge) or other care units. Medication reconciliation is the formal process recognized by TJC of creating the most accurate medication list by comparing, or reconciling, the patient’s current list of medications with the medications ordered by providers upon admission, transfer, and discharge. TJC recommends five steps in the medication reconciliation process (Table 18-6). This process is intended to identify and resolve any medication discrepancies or errors, such as omissions, additions, duplications, and frequency or dosing errors, with the goal of preventing adverse drug events (ADEs) and subsequent patient harm. Since medication discrepancies are a major contributor to ADEs,
+Medication reconciliation is an essential component of transitional care programs in which the patient, members of the health care team, and other caregivers can collaborate to improve medication safety as the patient transitions between health care settings (eg, hospital admission or discharge) or other care units. Medication reconciliation is the formal process recognized by TJC of creating the most accurate medication list by comparing, or reconciling, the patient’s current list of medications with the medications ordered by providers upon admission, transfer, and discharge. TJC recommends five steps in the medication reconciliation process (Table 18-6). This process is intended to identify and resolve any medication discrepancies or errors, such as omissions, additions, duplications, and frequency or dosing errors, with the goal of preventing adverse drug events (ADEs) and subsequent patient harm. Since medication discrepancies are a major contributor to ADEs, TJC has made medication reconciliation a National Patient Safety Goal and requires all of its accredited institutions to have a process implemented at their site for reconciling medications. Despite these efforts, however, medication reconciliation processes have been challenging to perform effectively and consistently as evidenced by a continuing high prevalence of medication discrepancies for patients transitioning between health care settings and levels of care.
 
 ![Table 18-6](hazzard8e_ch18_table-18-6_p257.webp)
 
@@ -187,8 +187,6 @@ Medication reconciliation is an essential component of transitional care program
 
 *TABLE 18-7 ■ INFORMATION FOR THE PREADMISSION MEDICATION HISTORY*
 
-
-TJC has made medication reconciliation a National Patient Safety Goal and requires all of its accredited institutions to have a process implemented at their site for reconciling medications. Despite these efforts, however, medication reconciliation processes have been challenging to perform effectively and consistently as evidenced by a continuing high prevalence of medication discrepancies for patients transitioning between health care settings and levels of care.
 
 The medication reconciliation process starts by obtaining the patient’s medication history. Often, a physician, pharmacist, or nurse will obtain the patient’s medication history by (1) interviewing the patient and their caregivers, (2) accessing the patient’s past medical records, and (3) contacting other providers involved in the patient’s care and the patient’s community pharmacy for recently dispensed medications (Table 18-7). When creating the patient’s list of current medications, it is important to identify all medications the patient is taking, including prescription drugs, over-the-counter medications, herbal remedies, and supplements. The patient’s medication histories are then reconciled with medications to be ordered to ensure that the new medications and doses are appropriate for the patient. Changes to the patient’s medication regimen are documented in their medical chart, and a complete medication list is communicated to the patient, caregiver, and next provider/team. Reconciling medications applies to all health care settings, including ambulatory care, inpatient services, emergency and urgent care, long-term care, and home care.
 
@@ -207,11 +205,9 @@ recognize nurses as clinical leaders for supporting patients and their families 
 
 ### Interventions to Improve Hospital-to-Community Transitional Care Quality
 
-Home visit–based transitional care interventions that have been tested in randomized controlled trials include Coleman’s Transitions of Care Intervention (CTI) and Naylor’s Transitional Care Model (TCM). These interventions reduce rehospitalizations by about one-third. Both programs utilize posthospital in-home visits with a nurse practitioner to educate high-risk patients about their medications, medical follow-up, signs of condition worsening, and provider’s contact information. While contact with patients in these programs only lasts for a few weeks, the effect on rehospitalization has been shown to last up to 180 days—likely due to improved self-management. Both of these interventions, however, are limited to patients who
+Home visit–based transitional care interventions that have been tested in randomized controlled trials include Coleman’s Transitions of Care Intervention (CTI) and Naylor’s Transitional Care Model (TCM). These interventions reduce rehospitalizations by about one-third. Both programs utilize posthospital in-home visits with a nurse practitioner to educate high-risk patients about their medications, medical follow-up, signs of condition worsening, and provider’s contact information. While contact with patients in these programs only lasts for a few weeks, the effect on rehospitalization has been shown to last up to 180 days—likely due to improved self-management. Both of these interventions, however, are limited to patients who agree to in-home supports and live within geographic reach of a home visit.
 
 > **[sic]** The name used in the randomized trial is Care Transitions Intervention. [Coleman et al., 2006](https://pubmed.ncbi.nlm.nih.gov/17000937/).
-
-agree to in-home supports and live within geographic reach of a home visit.
 
 Transitional care interventions utilizing similar steps as CTI and TCM have recently emerged to target vulnerable patients, including those with cognitive impairment, and those who refuse home visits or live too far from discharging hospitals to receive home visits. One of these, the Coordinated-Transitional Care (C-TraC) program, developed within the US Department of Veterans Affairs, is a low-cost, telephone-based program. It uses a nurse case manager to coordinate the patient’s transition via a series of protocol-driven in-hospital visits, intensive posthospital phone calls, and integration with in-hospital and posthospital clinical teams. In preliminary testing, the C-TraC intervention reduced 30-day rehospitalizations by onethird among enrollees, leading to a substantial cost avoidance. However, more rigorous testing is needed to better understand its impact.
 
@@ -273,56 +269,46 @@ The authors would like to acknowledge Jacquelyn Mirr, Brian Mirr, and Michael Ge
 
 ## FURTHER READING
 
-Aaltonen M, Rissanen P, Forma L, et al. The impact of
+Aaltonen M, Rissanen P, Forma L, et al. The impact of dementia on transitions in care during the last two years of life. Age Ageing. 2012;41:52–57.
 
-dementia on transitions in care during the last two years of life. Age Ageing. 2012;41:52–57. Callahan CM, Arling G, Tu W, et al. Transitions in care for
+Callahan CM, Arling G, Tu W, et al. Transitions in care for older adults with and without dementia. J Am Geriatr Soc. 2012;60:813–820.
 
-older adults with and without dementia. J Am Geriatr Soc. 2012;60:813–820. Coleman EA. Falling through the cracks: challenges and
+Coleman EA. Falling through the cracks: challenges and opportunities for improving transitional care for persons with continuous complex care needs. J Am Geriatr Soc. 2003;51:549–555.
 
-opportunities for improving transitional care for persons with continuous complex care needs. J Am Geriatr Soc. 2003;51:549–555. Coleman EA, Berenson RA. Lost in transition: challenges
+Coleman EA, Berenson RA. Lost in transition: challenges and opportunities for improving the quality of transitional care. Ann Intern Med. 2004;141:533–536.
 
-and opportunities for improving the quality of transitional care. Ann Intern Med. 2004;141:533–536. Coleman EA, Mahoney E, Parry C. Assessing the quality
+Coleman EA, Mahoney E, Parry C. Assessing the quality of preparation for post-hospital care from the patient’s perspective: the transitions in care measure. Med Care. 2005;43:246–255.
 
-of preparation for post-hospital care from the patient’s perspective: the transitions in care measure. Med Care. 2005;43:246–255. Coleman EA, Parry C, Chalmers S, Min SJ. The transitions
+Coleman EA, Parry C, Chalmers S, Min SJ. The transitions in care intervention results of a randomized control trial. Arch Intern Med. 2006;166(17):1822–1828.
 
-in care intervention results of a randomized control trial. Arch Intern Med. 2006;166(17):1822–1828. Dimant J. Roles and responsibilities of attending physi-
+Dimant J. Roles and responsibilities of attending physicians in skilled nursing facilities. J Am Med Dir Assoc. 2003;4:231–243.
 
-cians in skilled nursing facilities. J Am Med Dir Assoc. 2003;4:231–243. Fakha A, Groenvynck L, de Boer B, van Achterberg T,
+Fakha A, Groenvynck L, de Boer B, van Achterberg T, Harners J, Verbeek H. A myriad of factors influencing the implementation of transitional care innovations: a scoping review. Implement Sci. 2021;16:21–44.
 
-Harners J, Verbeek H. A myriad of factors influencing the implementation of transitional care innovations: a scoping review. Implement Sci. 2021;16:21–44. Forster AJ, Murff HJ, Peterson JF, et al. The incidence
+Forster AJ, Murff HJ, Peterson JF, et al. The incidence and severity of adverse events affecting patients after discharge from the hospital. Ann Intern Med. 2003;138:161–167.
 
-and severity of adverse events affecting patients after discharge from the hospital. Ann Intern Med. 2003;138:161–167.
+Fuji KT, Abbott AA, Norris JF. Exploring transitions in care from patient, caregiver, and health-care provider perspectives. Clin Nurs Res. 2013;22(3):258–274.
 
-Fuji KT, Abbott AA, Norris JF. Exploring transitions in care
+Gleason KM, Brake H, Agramonte V, Perfetti C. Medications at Transitions and Clinical Handoffs (MATCH) Toolkit for Medication Reconciliation. [http://www.ahrq.gov/professionals/quality-patient-safety/patient-safety-resources/resources/match/match.pdf](<https://www.ahrq.gov/patient-safety/settings/hospital/match/index.html>). Accessed March 31, 2015.
 
-from patient, caregiver, and health-care provider perspectives. Clin Nurs Res. 2013;22(3):258–274. Gleason KM, Brake H, Agramonte V, Perfetti C. Medica-
+Gozalo P, Teno JM, Mitchell SL, et al. End-of-life transitions among nursing home residents with cognitive issues. N Engl J Med. 2011;365:1212–1221.
 
-tions at Transitions and Clinical Handoffs (MATCH) Toolkit for Medication Reconciliation. [http://www](<http://www.ahrq.gov/professionals/quality-patient-safety/patientsafety-resources/resources/match/match.pdf>) .ahrq.gov/professionals/quality-patient-safety/patientsafety-resources/resources/match/match.pdf. Accessed March 31, 2015. Gozalo P, Teno JM, Mitchell SL, et al. End-of-life transitions
+Jencks SF, Williams MV, Coleman EA. Rehospitalizations among patients in the Medicare fee-for-service program. N Engl J Med. 2009;360:1418–1428.
 
-among nursing home residents with cognitive issues. N Engl J Med. 2011;365:1212–1221. Jencks SF, Williams MV, Coleman EA. Rehospitalizations
+Joint Commission. Improving America’s Hospitals: A Report on Quality and Safety. Oakbrook Terrace, IL: Joint Commission; 2006.
 
-among patients in the Medicare fee-for-service program. N Engl J Med. 2009;360:1418–1428. Joint Commission. Improving America’s Hospitals: A Report
+Kind AJ, Jensen L, Barczi S, et al. Low-cost transitional care with nurse managers making mostly phone contact with patients cut rehospitalization at a VA hospital. Health Aff (Millwood). 2012;31:2659–2668.
 
-on Quality and Safety. Oakbrook Terrace, IL: Joint Commission; 2006. Kind AJ, Jensen L, Barczi S, et al. Low-cost transitional care
+King BD, Gilmore-Bykovskyi A, Roiland R, et al. The consequences of poor communication during hospital-to-skilled nursing facility transitions: a qualitative study. J Am Geriatr Soc. 2013;61(7):1095–1102.
 
-with nurse managers making mostly phone contact with patients cut rehospitalization at a VA hospital. Health Aff (Millwood). 2012;31:2659–2668. King BD, Gilmore-Bykovskyi A, Roiland R, et al.
+Moore C, McGinn T, Halm E. Tying up loose ends: discharging patients with unresolved medical issues. Arch Intern Med. 2007;167:1305–1311.
 
-The consequences of poor communication during hospital-to-skilled nursing facility transitions: a qualitative study. J Am Geriatr Soc. 2013;61(7):1095–1102. Moore C, McGinn T, Halm E. Tying up loose ends: dis-
+Moore C, Wisnivesky J, Williams S, et al. Medical errors related to discontinuity of care from an inpatient to <a id="p262"></a>**[p. 262]** an outpatient setting. J Gen Intern Med. 2003;18: 646–651.
 
-charging patients with unresolved medical issues. Arch Intern Med. 2007;167:1305–1311. Moore C, Wisnivesky J, Williams S, et al. Medical errors
+Naylor MD, Brooten DA, Campbell RL, et al. Transitional care of older adults hospitalized with heart failure: a randomized, controlled trial. J Am Geriatr Soc. 2004;52:675–684.
 
-related to discontinuity of care from an inpatient to
+Ouslander JG, Bonner A, Herndon L, Shutes J. The Interventions to Reduce Acute Care Transfers (INTERACT) quality improvement program: an overview for medical directors and primary care clinicians in long term care. J Am Med Dir Assoc. 2014;15(3):162–170.
 
-<a id="p262"></a>**[p. 262]**
+Rantz MJ, Popejoy L, Vogelsmeier A, et al. Successfully reducing hospitalizations of nursing home residents: results of the Missouri Quality Initiative. J Am Med Dir Assoc. 2017;18:960–966.
 
-an outpatient setting. J Gen Intern Med. 2003;18: 646–651. Naylor MD, Brooten DA, Campbell RL, et al. Transitional care
-
-of older adults hospitalized with heart failure: a randomized, controlled trial. J Am Geriatr Soc. 2004;52:675–684. Ouslander JG, Bonner A, Herndon L, Shutes J. The Inter-
-
-ventions to Reduce Acute Care Transfers (INTERACT) quality improvement program: an overview for medical directors and primary care clinicians in long term care. J Am Med Dir Assoc. 2014;15(3):162–170.
-
-Rantz MJ, Popejoy L, Vogelsmeier A, et al. Successfully
-
-reducing hospitalizations of nursing home residents: results of the Missouri Quality Initiative. J Am Med Dir Assoc. 2017;18:960–966. Tena-Nelson R, Santos K, Weingast E, Amrhein S,
-
-Ouslander J, Boockvar K. Reducing potentially preventable hospital transfers: results from a thirty nursing home collaborative. J Am Med Dir Assoc. 2012;13(7):651–656.
+Tena-Nelson R, Santos K, Weingast E, Amrhein S, Ouslander J, Boockvar K. Reducing potentially preventable hospital transfers: results from a thirty nursing home collaborative. J Am Med Dir Assoc. 2012;13(7):651–656.

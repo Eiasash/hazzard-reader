@@ -80,7 +80,9 @@ The Neurologic History From an Informant In many instances, gathering informatio
 
 The elements of a comprehensive mental status examination include observational, cognitive, functional, and neuropsychiatric assessments. Although each of these elements is presented separately, they are interrelated and collectively characterize the neurobehavioral function of the patient. The initial contact with the patient affords the opportunity to assess whether a cognitive, attention, or language disorder is present. Questioning of an informant may bring to light changes in cognition, function, and behavior that the patient either is not aware of or denies.
 
-Observational Assessment Observation of a patient’s level of arousal or alertness, appearance, emotion, behavior, movements, and speech provides insight into their mental status.
+### Observational Assessment
+
+Observation of a patient’s level of arousal or alertness, appearance, emotion, behavior, movements, and speech provides insight into their mental status.
 
 Level of consciousness An accurate assessment of a patient’s mental status and neurologic function must first document the patient’s alertness or level of arousal. Altered levels of consciousness can directly impact the patient’s cognitive performance on mental status testing and influence the examiner’s interpretation of the test results and may be indicative of a medical or neurologic condition requiring immediate medical intervention (eg, cardiopulmonary intervention, neurosurgical evaluation).
 
@@ -138,9 +140,11 @@ Aphasia is characterized by impairment in oral and/ or written communication. De
 
 may appear frustrated or depressed because of awareness of the language deficit and the inability to communicate with family and health care providers. Fluent aphasias are characterized by empty speech. Word production is normal or may be increased but there is a lack of comprehension about what words mean, often associated with impairment in reading ability. The patient often displays little insight to the language deficit and instead may become agitated because others are not following the conversation.
 
-Cognitive Assessment The assessment of cognitive function should be conducted methodically and should assess comprehensively the major domains of neuropsychological function (attention, memory, language, visuospatial skills, executive ability). The patient’s age, handedness, educational level, and sociocultural background may all influence cognitive function and should be determined prior to initiating or interpreting the evaluation.
+### Cognitive Assessment
 
-Attention Two tests are useful in assessing attention: digit span forward and continuous performance tests. In the digit span forward test, the patient is asked to repeat increasingly long series of numbers (eg, 1, 3-7, 4-6-3, 5-19-2, etc). The examiner says the numbers at a rate of one per second. A normal forward digit span is seven digits; fewer than five is abnormal. Concentration is evaluated by a continuous performance test. An example would be to say the months of the year in reverse order, starting with the last month of the year (December). Distractible patients tend to lose track and skip 1 or 2 months. Serial subtraction can also be used to test concentration but heavily dependent on educational attainment and mathematical abilities. Confusional states such as delirium are characterized by impaired attention.
+The assessment of cognitive function should be conducted methodically and should assess comprehensively the major domains of neuropsychological function (attention, memory, language, visuospatial skills, executive ability). The patient’s age, handedness, educational level, and sociocultural background may all influence cognitive function and should be determined prior to initiating or interpreting the evaluation.
+
+Attention Two tests are useful in assessing attention: digit span forward and continuous performance tests. In the digit span forward test, the patient is asked to repeat increasingly long series of numbers (eg, 1, 3-7, 4-6-3, 5-1-9-2, etc). The examiner says the numbers at a rate of one per second. A normal forward digit span is seven digits; fewer than five is abnormal. Concentration is evaluated by a continuous performance test. An example would be to say the months of the year in reverse order, starting with the last month of the year (December). Distractible patients tend to lose track and skip 1 or 2 months. Serial subtraction can also be used to test concentration but heavily dependent on educational attainment and mathematical abilities. Confusional states such as delirium are characterized by impaired attention.
 
 Memory Learning, recall, recognition, and memory for remote information are assessed in the course of mental status examination. Asking the patient to remember three words and then asking him or her to recall the words 3 minutes later can help assess learning, recall, and recognition. However, the shorter the list, the easier it is to remember, particularly in high-functioning individuals. When told to remember items, patients will often remember the first two items heard (known as “primacy”) and the last two items heard (known as “recency”); therefore, longer lists of 10 words may be preferable. After a delay, recall of fewer than five words is considered abnormal. Patients having difficulty with recall may be given clues (eg, the category of items to which the word belongs or a list of words containing the target) to distinguish between storage and retrieval deficits. Prompting and clues will not aide patients with storage deficits (eg, amnesia); patients with intact storage but poor recall (eg, retrieval-deficit syndrome) may be aided by clues. Amnestic deficits are thought to be caused by lesions in the hippocampal-thalamic circuit while retrieval deficits are likely due to lesions of frontal-basal ganglia circuitry.
 
@@ -194,7 +198,9 @@ Word list generation Word list generation is a very useful test and involves ask
 
 Informant assessment In many instances, asking questions of the informant will provide a wealth of information regarding the baseline abilities of the patient. There are several structured interviews that are short, easy to administer, and do not require specific training. Functional abilities and activities of daily living can be assessed with the Functional Activities Questionnaire, the Physical Self-Maintenance Scale, Instrumental Activities of Daily Living Scale, or the Barthel index. Baseline cognitive abilities can be assessed with brief informant interviews such as the Quick Dementia Rating System (QDRS), AD8, or the IQCODE. The AD8 was developed in a research sample and validated in a clinic population and asks eight questions regarding change in the patients’ memory, orientation, judgment and problem-solving abilities, executive function, and interest level. Endorsement of two or more items suggests cognitive dysfunction and should trigger a more formal evaluation.
 
-Neuropsychiatric Assessment The neuropsychiatric interview of the patient includes the evaluation of thought form, thought content, and insight. The new onset of disturbances in any of these domains in older patients is unusual in the absence of a brain disease. Their emergence should trigger the search for a neurologic or psychiatric condition.
+### Neuropsychiatric Assessment
+
+The neuropsychiatric interview of the patient includes the evaluation of thought form, thought content, and insight. The new onset of disturbances in any of these domains in older patients is unusual in the absence of a brain disease. Their emergence should trigger the search for a neurologic or psychiatric condition.
 
 Thought form Formal thought disorders such as tangentiality, circumstantiality, loose associations, illogicality, derailment, and thought blocking are much less common than disturbances of thought content as a manifestation of psychosis in neurologic diseases. Thought disorders have been observed in the psychoses accompanying epilepsy, Huntington disease, and idiopathic basal ganglia calcification.
 
@@ -216,7 +222,7 @@ Behavior and personality A variety of changes in personality and behavior have b
 
 The neurologic examination includes assessment of cranial nerve function, strength, coordination, sensation, muscle stretch reflexes, pathologic/primitive reflexes, and neurovascular status. Examination of head and neck may provide additional important information.
 
-## Cranial Nerve Examination
+### Cranial Nerve Examination
 
 Cranial nerve I: olfactory In normal aging, loss of olfaction may be a nonspecific or clinically insignificant finding. Olfaction may be impaired following head trauma, infection, zinc deficiency, vitamin A deficiency, frontal lobe dysfunction, vitamin B12 deficiency, and frontal lobe tumors (olfactory groove meningioma). Olfaction is tested by asking the patient to identify a variety of odors. When testing, it is important to use simple and familiar odors (coffee beans, vanilla, or cinnamon). Complex scents such as perfumes and noxious agents (ie, ammonia) should not be used. Ideally, the patient should close their eyes and each nostril should be tested separately.
 
@@ -288,7 +294,9 @@ Cranial nerve XII: hypoglossal The hypoglossal nerve innervates the tongue. Pati
 
 > **[sic]** Tongue atrophy and fasciculations localize to the lower motor neuron pathway of the hypoglossal system. The paragraph prints “upper motor neuron.” Chapter 63 identifies fasciculations and weakness as lower motor neuron findings (p991).
 
-Motor System Examination Muscle bulk, strength, tone, and coordination are assessed as part of the motor system examination.
+### Motor System Examination
+
+Muscle bulk, strength, tone, and coordination are assessed as part of the motor system examination.
 
 Muscle bulk Muscle bulk is examined by visual inspection and palpation. Muscle wasting may occur with disuse; muscle, nerve, or spinal disease; and in generalized weight loss secondary to malnutrition, systemic illness, or advanced brain diseases. Mild muscular wasting without associated weakness can be encountered in normal aging most commonly involving the intrinsic hand and foot muscles, calf, and shoulder girdle muscles.
 
@@ -300,7 +308,9 @@ weakness is most indicative of peripheral neuropathies, whereas proximal weaknes
 
 Abnormal movements During the interview and examination, the clinician should be observant for any movement that is not purposeful including tremor, chorea, dyskinesias, and ballismus. Tremor is usually described as action (associated with a movement) or rest (disappears with movement of affected extremities). “Essential” tremor is a usually benign hereditary condition associated with movement or sustained posture and may involve arms, legs, head, chin, or voice. Essential tremors often improve after drinking small amounts of alcohol.
 
-Sensory Examination Primary modalities, including light touch and temperature are tested to assess sensory function. Sensory examination is quite subjective, and it is important to consider the consistency of responses and how sensory complaints relate to other signs and symptoms. Peripheral causes of sensory loss typically present bilaterally and are largely symmetric. Unilateral sensory loss occurs with lesions of primary sensory cortex or its projections.
+### Sensory Examination
+
+Primary modalities, including light touch and temperature are tested to assess sensory function. Sensory examination is quite subjective, and it is important to consider the consistency of responses and how sensory complaints relate to other signs and symptoms. Peripheral causes of sensory loss typically present bilaterally and are largely symmetric. Unilateral sensory loss occurs with lesions of primary sensory cortex or its projections.
 
 Light touch Evaluation of light touch is not particularly helpful in discriminating pathology but is useful in defining the presence or loss of sensation. Lightly stroking the fingers or a wisp of cotton across the skin may help elicit dermatomal patterns of sensory loss for further evaluation.
 
@@ -312,11 +322,15 @@ Vibration Vibration is carried by large, myelinated fibers and is assessed with 
 
 Position Proprioception is assessed by having the patient close their eyes and the examiner gently moves toes or fingers in the vertical plane. Skin proprioception can be assessed by lightly stroking the skin in an up or down fashion. The Romberg sign is performed to assess the integrity of the dorsal columns. The patient is asked to stand with their feet together and eyes closed. The presence of a sway suggests a positive test. If the problem is due to a proprioceptive deficit, the patient is able to correct themselves with their eyes open. Position sense loss can be caused by peripheral neuropathies, diabetes, tabes dorsalis, vitamin B12 deficiency, and myelopathies.
 
-Cerebellar Examination Cerebellar function and coordination may be disrupted by many types of motor and sensory abnormalities. Tests of coordination include rapid alternating movements, fine finger movements, finger-to-nose movements, and heelknee-shin maneuvers. During aging, there is an overall decrease in speed of coordinated movements that is of no pathologic consequence. However, gross abnormalities in cerebellar function are not anticipated and should be evaluated thoroughly (Table 9-11).
+### Cerebellar Examination
+
+Cerebellar function and coordination may be disrupted by many types of motor and sensory abnormalities. Tests of coordination include rapid alternating movements, fine finger movements, finger-to-nose movements, and heelknee-shin maneuvers. During aging, there is an overall decrease in speed of coordinated movements that is of no pathologic consequence. However, gross abnormalities in cerebellar function are not anticipated and should be evaluated thoroughly (Table 9-11).
 
 When unilateral cerebellar dysfunction is present, patient will overshoot target but may improve after a few trials. Dysdiadochokinesis occurs when the patient is asked to rapidly change hand or finger movements; difficulties in maintaining smooth movements are characteristic. Cerebellar lesions can also affect muscle tone causing hypotonia. Cerebellar tremors tend to be coarse and irregular, worsening in the terminal one-third of a movement.
 
-Gait and Station Gate and posture depend on motor, sensory, and cerebellar function. In normal aging, posture becomes more flexed,
+### Gait and Station
+
+Gate and posture depend on motor, sensory, and cerebellar function. In normal aging, posture becomes more flexed,
 
 ![Table 9-11](hazzard8e_ch9_table-9-11_p147.webp)
 
@@ -324,13 +338,19 @@ Gait and Station Gate and posture depend on motor, sensory, and cerebellar funct
 
 slowed, and may have a slightly unsteady quality. When assessing gait in the older adult, it is important to recognize gait abnormalities that may be secondary to joint pain and arthritic conditions. Gait is assessed by having the patient walk straight for at least 10 yd, making a turn, and maneuvering in a tight corridor. It is important to note the presence of arm swing and the distance of the stride. The patient should also be asked to tandem walk, walk on their toes and heels and if possible, walk up a few steps. Postural stability is assessed by asking the patient to stand with their shoulder-width apart. A forceful pull is given to their shoulders and the righting response is assessed. The clinician should be prepared to catch the patient. One or two steps of retropulsion are considered normal. Table 9-12 lists common causes of gait disturbance in the older adult.
 
-Muscle Stretch Reflexes Decreased muscle stretch reflexes are found in muscle, peripheral nerve, and nerve root disorders, while increased reflexes occur with upper motor neuron lesions. Lateralized hyperactive reflexes in conjunction with spasticity and the Babinski sign are indicative of a contralateral lesion of the pyramidal system. In aging, deep tendon reflexes tend to become hypoactive. Ankle reflexes may be absent in normal aging, but knee reflexes persist. Reflexes are initially hyperactive in cervical and lumbar spondylosis; however, in advanced cases, absent or diminished reflexes may be found as nerve roots become compromised.
+### Muscle Stretch Reflexes
 
-Pathologic and Primitive Reflexes The Babinski sign is dorsiflexion of the great toe with plantar stimulation. It is produced by upper motor neuron lesions. The grasp reflex (involuntary gripping of objects in or near the patient’s hand) occurs in patients with advanced brain disease and with lesions restricted to the medial frontal lobes. The sucking reflex (sucking movements of the lips, tongue, and jaw elicited by stimulation of the lips) occurs in patients with frontal lobe and diffuse brain dysfunction.
+Decreased muscle stretch reflexes are found in muscle, peripheral nerve, and nerve root disorders, while increased reflexes occur with upper motor neuron lesions. Lateralized hyperactive reflexes in conjunction with spasticity and the Babinski sign are indicative of a contralateral lesion of the pyramidal system. In aging, deep tendon reflexes tend to become hypoactive. Ankle reflexes may be absent in normal aging, but knee reflexes persist. Reflexes are initially hyperactive in cervical and lumbar spondylosis; however, in advanced cases, absent or diminished reflexes may be found as nerve roots become compromised.
+
+### Pathologic and Primitive Reflexes
+
+The Babinski sign is dorsiflexion of the great toe with plantar stimulation. It is produced by upper motor neuron lesions. The grasp reflex (involuntary gripping of objects in or near the patient’s hand) occurs in patients with advanced brain disease and with lesions restricted to the medial frontal lobes. The sucking reflex (sucking movements of the lips, tongue, and jaw elicited by stimulation of the lips) occurs in patients with frontal lobe and diffuse brain dysfunction.
 
 The palmomental reflex (ipsilateral contraction of the mentalis muscle in response to stroking of the thenar eminence of the hand) can be seen in normal-aged individuals and may be regarded as pathologic when it is unilateral or when it does not fatigue with repeated palmar stimulation. The glabellar reflex (Myerson sign) is elicited by tapping the patient between the eyes. After a few blinks the patient should suppress further blinking. Patients with Parkinson disease and other basal ganglia disorders will continue to blink.
 
-Higher Cortical Function Cortical sensory modalities, including two-point discrimination, graphesthesia, and stereognosis should be assessed. Two-point discrimination is best performed with calipers. Graphesthesia is performed with the patient’s eyes closed
+### Higher Cortical Function
+
+Cortical sensory modalities, including two-point discrimination, graphesthesia, and stereognosis should be assessed. Two-point discrimination is best performed with calipers. Graphesthesia is performed with the patient’s eyes closed
 
 <a id="p148"></a>**[p. 148]**
 
@@ -340,7 +360,9 @@ Higher Cortical Function Cortical sensory modalities, including two-point discri
 
 and numbers are traced onto the palm with the back of the reflex hammer. Stereognosis is also performed with the patient’s eyes closed. Common objects are placed into the patients’ hand and they are allowed to move them about without using the other hand. Deficits imply dysfunction in the contralateral parietal lobe. Cortical sensory function should be assessed independently for each upper extremity. It is important to first assess primary sensory modalities. In the presence of prominent sensory loss, cortical sensory function cannot be assessed.
 
-Neurovascular Assessment Examination of the vascular system, including auscultation for cranial and carotid bruits, palpation of peripheral pulses, and assessment of blood pressure (lying, sitting, and standing), complements the neurologic examination and should be performed on every patient.
+### Neurovascular Assessment
+
+Examination of the vascular system, including auscultation for cranial and carotid bruits, palpation of peripheral pulses, and assessment of blood pressure (lying, sitting, and standing), complements the neurologic examination and should be performed on every patient.
 
 ## CONCLUSION
 

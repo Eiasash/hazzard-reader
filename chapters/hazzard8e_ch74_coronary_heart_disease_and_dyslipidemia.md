@@ -34,23 +34,17 @@ The spectrum of coronary heart disease (CHD) includes subclinical CHD, asymptoma
 
 6. Delays in recognizing other symptoms such as dyspnea, fatigue, or epigastric discomfort may contribute to later presentations among older adults.
 
-7. Evaluation for symptoms suggestive of CHD should be similar in older and younger patients. Functional testing is a valuable diagnostic and prognostic tool in older adults. Modified protocols or pharmacologic-based stress tests may be used for those who
-
-## EPIDEMIOLOGY
-
-Despite declining mortality over the past three decades, CHD remains the leading killer of both men and women in the United States. More than 80% of deaths from CHD occur in those older than 65 years. In the United States, the prevalence of CHD, MI, and angina all increase with age in both men and women (Figures 74-1 and 74-2). The initial manifestation of CHD may be an acute MI, occurring in about 40% of cases, or sudden death in 10% to 20% of cases. The average age of first MI is 66 years for men and 72 years for women. In-hospital mortality following an MI also rises sharply with age: less than 1% in those younger than 50 years old, ~2.5% in those 60 to 69 years old, ~4% in those 70 to 79 years old, and ~8% among those 80 years or older. One-year mortality similarly increases with age. Furthermore, the majority of patients with CHD older than 75 years are women because of their longer life expectancy and the 10-year lag in CHD manifestations as compared with men.
-
-Clinically evident CHD represents the tip of the iceberg with many older patients having asymptomatic and subclinical coronary disease. The Cardiovascular Health Study examined the prevalence of clinical and subclinical cardiovascular disease (CVD) in a large communitydwelling Medicare population. Using a composite measure of MI on electrocardiogram (ECG) or echocardiography and abnormal carotid artery wall thickness or
-
-<a id="p1134"></a>**[p. 1134]**
-
-experience difficulty with standard exercise protocols.
+7. Evaluation for symptoms suggestive of CHD should be similar in older and younger patients. Functional testing is a valuable diagnostic and prognostic tool in older adults. Modified protocols or pharmacologic-based stress tests may be used for those who experience difficulty with standard exercise protocols.
 
 8. Management of CHD should be similar in older and younger patients prioritizing risk factor modification, symptomatic relief, and goals of care.
 
 9. Revascularization is an effective method for relief of frequent angina particularly if symptoms remain despite optimally tolerated medical therapy.
 
-ankle-brachial blood pressure index, they found that disease prevalence doubled from 22% in women aged 65 to 70 to 43% in those aged 85 or older. Similarly, the frequency of subclinical vascular disease in men increased from 33% to 45% in these age groups, respectively.
+## EPIDEMIOLOGY
+
+Despite declining mortality over the past three decades, CHD remains the leading killer of both men and women in the United States. More than 80% of deaths from CHD occur in those older than 65 years. In the United States, the prevalence of CHD, MI, and angina all increase with age in both men and women (Figures 74-1 and 74-2). The initial manifestation of CHD may be an acute MI, occurring in about 40% of cases, or sudden death in 10% to 20% of cases. The average age of first MI is 66 years for men and 72 years for women. In-hospital mortality following an MI also rises sharply with age: less than 1% in those younger than 50 years old, ~2.5% in those 60 to 69 years old, ~4% in those 70 to 79 years old, and ~8% among those 80 years or older. One-year mortality similarly increases with age. Furthermore, the majority of patients with CHD older than 75 years are women because of their longer life expectancy and the 10-year lag in CHD manifestations as compared with men.
+
+Clinically evident CHD represents the tip of the iceberg with many older patients having asymptomatic and subclinical coronary disease. The Cardiovascular Health Study examined the prevalence of clinical and subclinical cardiovascular disease (CVD) in a large communitydwelling Medicare population. Using a composite measure of MI on electrocardiogram (ECG) or echocardiography and abnormal carotid artery wall thickness or <a id="p1134"></a>**[p. 1134]** ankle-brachial blood pressure index, they found that disease prevalence doubled from 22% in women aged 65 to 70 to 43% in those aged 85 or older. Similarly, the frequency of subclinical vascular disease in men increased from 33% to 45% in these age groups, respectively.
 
 ## PATHOPHYSIOLOGY OF DYSLIPIDEMIA AND CHD
 

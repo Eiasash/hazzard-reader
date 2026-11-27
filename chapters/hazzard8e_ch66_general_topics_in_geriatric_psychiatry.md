@@ -6,15 +6,9 @@ Ellen E. Lee, Jeffrey Lam, Dilip V. Jeste
 
 > Cited in the 2020-22 past papers (Hazzard 7e, linked by chapter).
 
-> **Source and method.** Printed pages 1021-1044, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 1021-1042, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p1021"></a>**[p. 1021]**
-
-## MENTAL HEALTH ISSUES IN AGING
-
-### Relevant Population Demographic Information
-
-The fact that the population in the United States will grow older in the coming decades is now widely recognized. Health care professionals continue to devote increasing time to the management of geriatric patients reflecting the dramatic growth in the old and very old adult populations. The overall structure of the population will also change. Projections by the United States Census Bureau estimate that by 2050, the number of individuals older than 65 years will increase from the 49 million in 2016 to 86 million. Those in the oldest age group, 85 years and older, will increase from 6.4 to 19 million individuals. Figure 66-1 depicts the rapid growth in individuals 65 years or older between 1900 and 2060. Changes are also projected in racial and ethnic diversity with increases in both the older and the oldest old cohorts over the next four decades. By 2060, the self-reported racial distribution of those 65 and older will become more diverse, with White and non-Hispanic White groups decreasing, and all other groups increasing. Notably, from 2016 to the projections in 2060, Hispanic or Latino populations will increase their percent of resident population from 18% to 29%, Asians from 6.2% to 9.7%, and two or more races from 2.1% to 6.1%. While female life expectancy and proportion of older women are projected to continue to exceed those of men, this gap is narrowing, which could lead to secondary social and economic changes. Among the 65 years and older age group, the percentage of women will decrease from 56% in 2016 to 54% in 2060. Among those 85 years and older, the percentage of women will decrease from 65% to 61%.
 
 #### Learning Objectives
 
@@ -36,19 +30,19 @@ The fact that the population in the United States will grow older in the coming 
 
 2. Mood disorders are common in older adults and associated with a high risk of suicide. It is important to recognize suicidal behavior and learn how to assess suicide risk and best ways to manage suicidal patients.
 
-3. Use of antipsychotic medications in older adults is associated with serious adverse effects, including higher death rates in patients with dementia. None of these (Continued)
-
-The federal Administration on Aging data reveal the current living arrangements and incomes for older adults. In 2019, 57% of community-dwelling older adults lived with their spouse (72% of men and 49% of women) and 28% were living alone (19% of men and 35% of women). Over 2% of older adults lived in institutional settings, including nursing homes; however, this number increases substantially with increasing age and rises to 10% for those 85 years and older. Figure 66-2 displays this information separately for men and women. Data from 2018 showed the median income of older persons was $26,000, $34,000 for men and $20,000 for women. These data varied by race
-
-<a id="p1022"></a>**[p. 1022]**
-
-medications are Food and Drug Administration (FDA) approved for management of behavioral or psychological symptoms of dementia (BPSD), and there is no evidence from randomized trials that they are effective in managing psychotic symptoms.
+3. Use of antipsychotic medications in older adults is associated with serious adverse effects, including higher death rates in patients with dementia. None of these medications are Food and Drug Administration (FDA) approved for management of behavioral or psychological symptoms of dementia (BPSD), and there is no evidence from randomized trials that they are effective in managing psychotic symptoms.
 
 4. Anxiety disorders are common in older adults and can present in many forms, including as generalized anxiety disorder (GAD), posttraumatic stress disorder (PTSD), obsessive-compulsive disorder (OCD), or panic disorder (PD). Additionally, anxiety symptoms are often associated with depression, dementia, medical comorbidities, and substance abuse. Psychotherapy and selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs) are the cornerstone of therapy for most anxiety disorders.
 
 5. Promoting the principles of “successful aging” and positive psychological traits, such as optimism, resilience, and social engagement, enhances neuroplasticity and improves cognition, physical function, and overall quality of life.
 
-with non-Hispanic Whites averaging a higher median income than Hispanics, African-Americans, and Asians.
+## MENTAL HEALTH ISSUES IN AGING
+
+### Relevant Population Demographic Information
+
+The fact that the population in the United States will grow older in the coming decades is now widely recognized. Health care professionals continue to devote increasing time to the management of geriatric patients reflecting the dramatic growth in the old and very old adult populations. The overall structure of the population will also change. Projections by the United States Census Bureau estimate that by 2050, the number of individuals older than 65 years will increase from the 49 million in 2016 to 86 million. Those in the oldest age group, 85 years and older, will increase from 6.4 to 19 million individuals. Figure 66-1 depicts the rapid growth in individuals 65 years or older between 1900 and 2060. Changes are also projected in racial and ethnic diversity with increases in both the older and the oldest old cohorts over the next four decades. By 2060, the self-reported racial distribution of those 65 and older will become more diverse, with White and non-Hispanic White groups decreasing, and all other groups increasing. Notably, from 2016 to the projections in 2060, Hispanic or Latino populations will increase their percent of resident population from 18% to 29%, Asians from 6.2% to 9.7%, and two or more races from 2.1% to 6.1%. While female life expectancy and proportion of older women are projected to continue to exceed those of men, this gap is narrowing, which could lead to secondary social and economic changes. Among the 65 years and older age group, the percentage of women will decrease from 56% in 2016 to 54% in 2060. Among those 85 years and older, the percentage of women will decrease from 65% to 61%.
+
+The federal Administration on Aging data reveal the current living arrangements and incomes for older adults. In 2019, 57% of community-dwelling older adults lived with their spouse (72% of men and 49% of women) and 28% were living alone (19% of men and 35% of women). Over 2% of older adults lived in institutional settings, including nursing homes; however, this number increases substantially with increasing age and rises to 10% for those 85 years and older. Figure 66-2 displays this information separately for men and women. Data from 2018 showed the median income of older persons was $26,000, $34,000 for men and $20,000 for women. These data varied by race <a id="p1022"></a>**[p. 1022]** with non-Hispanic Whites averaging a higher median income than Hispanics, African-Americans, and Asians.
 
 ### Epidemiology of Psychiatric Disorders in Later Life
 
@@ -251,10 +245,10 @@ Anxiety disorders are the most common psychiatric disorders from which people su
 
 ![Table 66-1](hazzard8e_ch66_table-66-1_p1031.webp)
 
-*TABLE 66-1 ■ PROSPECTa RECOMMENDED GUIDELINES AND MANAGEMENT TECHNIQUES FOR WORKING WITH PATIENTS WITH SUICIDE*
+*TABLE 66-1 ■ PROSPECT<sup>a</sup> RECOMMENDED GUIDELINES AND MANAGEMENT TECHNIQUES FOR WORKING WITH PATIENTS WITH SUICIDE*
 
 
-aPROSPECT, Prevention of Suicide in Primary Care Elderly: Collaborative Trial. Data from Brown GK, Bruce ML, Pearson JL. High-risk management guidelines for elderly suicidal patients in primary care settings. Int J Geriatr Psychiatry. 2001;16(6):593–601.
+<sup>a</sup> PROSPECT, Prevention of Suicide in Primary Care Elderly: Collaborative Trial. Data from Brown GK, Bruce ML, Pearson JL. High-risk management guidelines for elderly suicidal patients in primary care settings. Int J Geriatr Psychiatry. 2001;16(6):593–601.
 
 For example, in older individuals, somatic preoccupation is more common and more intense, and, due to a weakened autonomic response, the intensity of the physical symptoms associated with panic attacks is diminished. Fewer older patients meet full criteria for an anxiety diagnosis, though subthreshold anxiety affects a greater proportion of this population. Prevalence rates for full-criteria anxiety disorders among older adults have been estimated to range from about 5% to 15%, with a 2:1 female predominance. Generalized anxiety disorder (GAD) represents approximately 50% of all anxiety disorders diagnosed in later life, and about half of all cases of GAD develop after an individual reaches 65 years of age. Specific phobia represents approximately 40% of anxiety disorders in older patients. The most common phobia in older adults is fear of falling. Approximately 60% of older adults with a history of falling and 30% of older individuals with no such history report this fear. PTSD, OCD, and PD represent almost all of the remaining 10% of anxiety diagnoses in older individuals.
 
@@ -522,20 +516,10 @@ atic review of interventions to prevent suicidal behaviors and reduce suicidal i
 
 Personality disorders in older adults: a review of epidemiology, assessment, and treatment. Curr Psychiatry Rep. 2020;22(3):1–14. Stanley B, Brown G. Safety Plan Treatment Manual to
 
-Reduce Suicide Risk: Veteran Version. 2008. [http://www](<http://www.mentalhealth.va.gov/mentalhealth/suicide_prevention>) .mentalhealth.va.gov/mentalhealth/suicide_prevention. Accessed February 22, 2022. Uchida H, Mamo DC, Mulsant BH, et al. Increased antipsy-
+Reduce Suicide Risk: Veteran Version. 2008. [http://www.mentalhealth.va.gov/mentalhealth/suicide_prevention](<http://www.mentalhealth.va.gov/mentalhealth/suicide_prevention>). Accessed February 22, 2022. Uchida H, Mamo DC, Mulsant BH, et al. Increased antipsy-
 
 chotic sensitivity in elderly patients: evidence and mechanisms. J Clin Psychiatry. 2009;70(3):397–405. Wenneberg AM, Canham SL, Smith MT, et al. Optimiz-
 
 ing sleep in older adults: treating insomnia. Maturitas. 2013;76(3):247–252. Woo BK, Daly JW, Allen EC, et al. Unrecognized medi-
 
 cal disorders in older psychiatric inpatients in a senior behavioral health unit in a university hospital. J Geriatr Psychiatry Neurol. 2003;16(2):121–125.
-
-<a id="p1043"></a>**[p. 1043]**
-
-IV Part
-
-
-
-Chapter 67. Palliative Care and Special Management Issues / 1045 Chapter 68. Pain Management / 1055 Chapter 69. Management of Common Nonpain Symptoms / 1071 Chapter 70. Palliative Care Across Care Settings / 1077 Chapter 71. Effective Communication Strategies For Patients with Serious Illness / 1089 Chapter 72. Ethical Issues / 1097
-
-<a id="p1044"></a>**[p. 1044]**

@@ -61,7 +61,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - **40%** of patients (mean age 81 in one study) presented **atypically** — falls, weakness, delirium — rather than classic fever/cough/dyspnea (p1738).
 - Up to **80%** of SARS-CoV-2 deaths have occurred in adults **65+** (p1738).
 - Clinical Frailty Scale predicted **7-day mortality** better than age or comorbidity alone in hospitalized patients (p1739).
-- LTC facilities accounted for **>25% of deaths** despite only **2%** of confirmed cases (as of Nov 2020) (p1739).
+- The postacute and long-term care sector accounted for **>25% of deaths** despite only **2%** of confirmed cases (as of Nov 2020) (p1739).
 - Pre-pandemic data: social isolation, loneliness, and living alone raised mortality risk by **29%, 26%, and 32%** respectively — comparable to smoking/inactivity (p1739).
 - RT-PCR (nasopharyngeal) is the diagnostic cornerstone; turnaround **15 minutes to several days**; POC antigen tests return results in **under an hour** but are validated only in symptomatic patients (p1739).
   > Current practice (not the book): FDA guidance covers home antigen testing without symptoms by serial testing — after a negative, retest at 48 h and again 48 h later (at least 3 tests) — FDA, 2024.
@@ -140,49 +140,49 @@ Treatment reduces clinical severity if given within 48 hours of symptom onset (t
 
 </details>
 
-**10. How do RSV viral shedding titers and duration differ between infants and adults?**
+**9. How do RSV viral shedding titers and duration differ between infants and adults?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="108s:recall-10"><summary>Answer</summary>
 
 Infants shed higher titers (10⁵⁻⁶ pfu/mL) for longer (10–14 days); adults shed lower titers (10²⁻³ pfu/mL) for a shorter period (3–6 days) (p1737).
 
 </details>
 
-**11. In the Rochester community cohort, what proportion of high-risk older adults (CHF or chronic pulmonary disease) developed RSV, and what fraction were hospitalized?**
+**10. In the Rochester community cohort, what proportion of high-risk older adults (CHF or chronic pulmonary disease) developed RSV, and what fraction were hospitalized?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="108s:recall-11"><summary>Answer</summary>
 
 10% (56 high-risk participants, a group separate from the 608 healthy participants, of whom 46 [8%] developed RSV); 16% of high-risk participants with RSV required hospitalization (p1737).
 
 </details>
 
-**12. What is the only licensed antiviral for RSV, and what limits its practical use in older adults?**
+**11. What is the only licensed antiviral for RSV, and what limits its practical use in older adults?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="108s:recall-12"><summary>Answer</summary>
 
 Ribavirin — it is aerosolized (hard to deliver via face mask to older adults), teratogenic (a hazard to caregivers/family), and supported by only sparse adult efficacy data; care is otherwise supportive only (p1737).
 
 </details>
 
-**13. Which receptor does SARS-CoV-2 use to enter cells, and why does its upper-respiratory-tract tropism matter for transmission?**
+**12. Which receptor does SARS-CoV-2 use to enter cells, and why does its upper-respiratory-tract tropism matter for transmission?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="108s:recall-13"><summary>Answer</summary>
 
-The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; the early modeling estimate of 79% concerned previously undocumented infections, including infections with mild symptoms (p1738).
+The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; the chapter attributes up to 79% of documented cases to asymptomatic or presymptomatic spread [sic: Li et al. modeled transmission from undocumented infections, which also included mild symptomatic infections; [Science 2020](https://doi.org/10.1126/science.abb3221)] (p1738).
 
 </details>
 
-**14. What proportion of COVID-19 patients in one study (mean age 81) presented with atypical symptoms, and what did those look like?**
+**13. What proportion of COVID-19 patients in one study (mean age 81) presented with atypical symptoms, and what did those look like?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="108s:recall-14"><summary>Answer</summary>
 
 40% — presenting with falls, generalized weakness, and delirium rather than the classic fever/cough/fatigue/dyspnea picture (p1738).
 
 </details>
 
-**15. What did the Clinical Frailty Scale predict better than age or comorbidity alone, and what fraction of COVID-19 deaths occurred in the postacute/long-term care sector despite its small share of cases?**
+**14. What did the Clinical Frailty Scale predict better than age or comorbidity alone, and what fraction of COVID-19 deaths occurred in the postacute/long-term care sector despite its small share of cases?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="108s:recall-15"><summary>Answer</summary>
 
 The CFS was a better predictor of 7-day mortality in hospitalized SARS-CoV-2 patients than age or comorbidity alone. The postacute/LTC sector accounted for over a quarter (>25%) of deaths despite only about 2% of total confirmed cases (as of November 2020) (p1739).
 

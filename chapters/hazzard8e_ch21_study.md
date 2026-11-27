@@ -27,7 +27,7 @@ Study summary of Chapter 21; the book and the full chapter are the reference.
 
 ### Read the denominator before using a poll result
 
-The National Poll on Healthy Aging typically sampled approximately **2,000** US adults aged **50–80** per wave, with typical completion rates of **60%–80%**. Some questions went only to a narrower age or symptom group. Among those with a family history the proportion was **10%**. Asking about worries can reveal a concern that has never been voiced in a visit (p287–288).
+The National Poll on Healthy Aging typically sampled approximately **2,000** US adults aged **50–80** per wave, with typical completion rates of **60%–80%**. Some questions went only to a narrower age or symptom group. Among adults aged 50–64, 5% had discussed dementia prevention with a physician, rising to **10%** among those with a family history of dementia. Asking about worries can reveal a concern that has never been voiced in a visit (p287–288).
 
 Among women reporting urinary leakage, **41%** described it as a problem and **31%** reported leakage almost daily. These are percentages among women with leakage, not prevalence in all women. The commonest explanation for silence was that the leakage did not seem bad enough. A simple question about bother can be more informative than waiting for the patient to request treatment (p291–292).
 

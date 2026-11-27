@@ -66,7 +66,7 @@ Coenzyme Q10 participates in mitochondrial energy production; statins can lower 
 
 For ginkgo the studied material is often the standardized extract EGb761. In dementia trials, **240 mg/day** over about **22–24 weeks** was associated in some analyses with improvements in behavioral or psychological symptoms and less caregiver distress. Long-term administration and prevention of dementia are separate questions. Clinical trials did not establish excess bleeding, but case reports and plausible effects on platelet pathways warrant caution with bleeding disorders, aspirin, NSAIDs, warfarin or other anticoagulants. Asking about those exposures is more useful than simply writing “ginkgo” on a list without a formulation or indication (p334–335).
 
-Vitamin E illustrates how an outcome and indication can become detached from the evidence. Trials have not established prevention of progression from mild cognitive impairment, and some meta-analyses associate high-dose use with increased all-cause mortality. The book separately mentions **800 IU/day** of alpha-tocopherol in earlier guidance for selected *nondiabetic patients with biopsy-proven steatohepatitis*. This is a liver-specific example rather than a memory regimen. In a patient taking vitamin E for nonspecific cognitive protection alongside other medicines, ask whether continued use advances a stated goal and whether stopping a low-value product would simplify the regimen (p335, p342–343).
+Vitamin E illustrates how an outcome and indication can become detached from the evidence. Trials have not established prevention of progression from mild cognitive impairment, and some meta-analyses associate high-dose use with increased all-cause mortality. The book separately mentions **800 IU/day** of alpha-tocopherol in earlier guidance for selected *nondiabetic patients with biopsy-proven nonalcoholic steatohepatitis*. This is a liver-specific example rather than a memory regimen. In a patient taking vitamin E for nonspecific cognitive protection alongside other medicines, ask whether continued use advances a stated goal and whether stopping a low-value product would simplify the regimen (p335, p342–343).
 
 Glucosamine and chondroitin are commonly taken together for joints, but joint location and standardized preparation matter. The book cites guidance against routine use for hip or knee osteoarthritis and identifies a conditional exception for chondroitin in hand osteoarthritis, based on a single trial using **800 mg daily**. It does not follow that a combination marketed for knee pain has the same effect. SAM-e is another product considered for osteoarthritis and mood. A history suggesting bipolar disorder changes the risk assessment because mania has been reported. Review whether apparent improvement in energy is accompanied by a change in sleep or behavior (p335–336).
 
@@ -166,7 +166,7 @@ No past exam questions are mapped to this chapter in the 2020–2026 reference l
 
 **13. What distinguishes tai chi from taking a supplement for fall prevention?**
 
-<details><summary>Answer</summary>It practices coordinated movement and balance, with attention to the movement itself. The chapter discusses trial evidence for reducing falls. (p338–340)</details>
+<details><summary>Answer</summary>It practices coordinated movement and balance, with attention to the movement itself. The chapter discusses trial evidence for reducing falls. (p339)</details>
 
 **14. Which indication has the strongest evidence for acupuncture in this chapter?**
 

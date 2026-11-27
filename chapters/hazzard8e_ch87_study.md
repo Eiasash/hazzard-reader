@@ -88,7 +88,7 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 ### Risk Factors
 - Polypharmacy (≥**5 medications**) is an established risk factor (p1359); nursing home residents average **6-9 meds/day** (p1358). Anticholinergic drugs are the only medication class with level [1] evidence in Table 87-5 (p1359).
 - **Iron sulfate** >**325 mg/day**: does not substantially increase iron absorption in older people and may significantly increase GI side effects (p1359).
-- Calcium supplementation has a real but modest effect: **13%** vs **9.1%** placebo over a 5-year trial (p1359).
+- Calcium supplementation in older women had a real but modest effect: **13%** vs **9.1%** placebo over a 5-year trial (p1359).
 - Parkinson disease: **59%** meet Rome criteria (vs **21%** in age-matched controls); pelvic dyssynergia affects **60%** of PD patients (p1360).
 - Stroke: **60%** of patients are constipated while undergoing rehabilitation (p1360).
 - Diabetes: colonic transit prolongs to **200 ± 144 h** in immobile diabetics. Metoclopramide may treat diabetic gastroparesis. The book advises avoiding **continuous metoclopramide for >12 weeks** and encourages a **two-week drug holiday** or a tolerated dose reduction, with tight glucose control when clinically feasible (p1361).
@@ -96,11 +96,11 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 - In one adjusted study, reporting <3 BM/week was associated with >**2-fold** colon cancer risk — constipation itself is not an indication for colonoscopy, but a genuine change in bowel habit should prompt workup (p1361).
 
 ### Complications
-- Overflow fecal incontinence in frail nursing home residents: enemas-until-clear then lactulose achieved **94%** resolution — yet only **4%** of these residents are referred for further assessment (p1361).
+- Overflow fecal incontinence in frail nursing home residents: enemas-until-clear then lactulose achieved **94%** resolution among those who adhered fully, yet only **4%** of residents with long-standing fecal incontinence had been referred for further assessment (p1361).
 - Fecal impaction was the primary reason for **27%** of admissions in one UK acute geriatric unit survey (p1362).
 - Constipation → urinary retention: constipation raised the risk of retention (PVR >**100 mL**) **4-fold** in hospitalized women 65+; treating the constipation dropped mean PVR from **85→30 mL** over 4 months (p1362).
 - Acute colonic pseudo-obstruction (Ogilvie syndrome): cecal diameter ≥**10 cm** on x-ray (p1362).
-- Diverticular disease affects **30-60%** of adults over 60 (p1363).
+- Left-sided diverticulosis affects **30-60%** of adults over 60 in developed countries (p1363).
 
 ### Evaluation
 - Digital rectal exam is required in everyone reporting constipation; an empty rectum on exam does NOT exclude the diagnosis (p1364).
@@ -111,7 +111,7 @@ June 2026 accepted both reduced parasympathetic influence and failure of coordin
 ### Nonpharmacologic Management
 - Fiber target **20-35 g/day**; start low at **3-4 g/day** and titrate up to limit bloating (p1370).
 - Fluid **1.5-2 L/day** significantly enhanced the effect of added fiber in an RCT in adults aged 18-50; often not practical or acceptable for frail older patients (p1370).
-- For dyssynergic defecation, biofeedback improved symptoms in **70% vs 23%** with diazepam at 3 months; in a separate comparison, **80% vs 22%** improved with biofeedback versus laxatives at both 6 and 12 months (p1371).
+- In individual trials of dyssynergic defecation, biofeedback improved symptoms in **70% vs 23%** with diazepam at 3 months; in a separate comparison, **80% vs 22%** improved with biofeedback versus laxatives at both 6 and 12 months; overall evidence was low quality because of methodological limitations and bias (pp1370–1371).
 
 ### Drugs (name — dose — key cautions)
 - **Senna** — 1-3 tabs at bedtime if symptoms persist after bulk laxatives in ambulant older people (Table 87-11, p1378); onset **8-12 h** (p1372); cheap, safe first-line stimulant.

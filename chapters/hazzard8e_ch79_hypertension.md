@@ -34,12 +34,6 @@ High blood pressure has the greatest impact on global attributable mortality of 
 
 4. The diagnosis of hypertension should be based on the average of a minimum of nine blood pressure readings that have been obtained on three separate office visits or derived from 24-hour ambulatory or home blood pressure monitoring results.
 
-## EPIDEMIOLOGY
-
-Although high blood pressure should not be construed to be a normal aspect of aging, there is clearly an age-associated increase in blood pressure and in the prevalence of hypertension. Data from the National Health and Nutrition epidemiologic survey from 2015 to 2018 documented that hypertension is a very prevalent condition among older Americans (Figure 79-1). Based on this study’s updated definition of hypertension (discussed herein)—a self-report
-
-<a id="p1220"></a>**[p. 1220]**
-
 5. Older hypertensive individuals commonly have physiologic characteristics that respond effectively to lifestyle modifications.
 
 6. The focus of therapy should be on lowering the SBP to the patient’s benefit-based target goal. Applying benefit-based therapy to the majority of adults age 65 or older who are at high cardiovascular disease or cognitive impairment risk favors a SBP goal of less than 130 mm Hg, and for some a goal of 120 mm Hg may be considered.
@@ -48,7 +42,9 @@ Although high blood pressure should not be construed to be a normal aspect of ag
 
 8. Current blood pressure control rates are inadequate. Systems approaches that incorporate geriatric approaches to team care combined with quality improvement strategies need to be adopted to improve treatment outcomes.
 
-of BP result in excess of 130 mm Hg systolic and/or 80 mm Hg diastolic or those receiving an antihypertensive medication—the overall prevalence for hypertension among those aged 65 or older exceeds 65%. For women aged 75 and older, the prevalence is 85% and for men it is 84%. Of note, there is an age–gender interaction in hypertension prevalence across age. At younger ages, prevalence rates are higher among men, while above the age of menopause, the prevalence in women surpasses that of men.
+## EPIDEMIOLOGY
+
+Although high blood pressure should not be construed to be a normal aspect of aging, there is clearly an age-associated increase in blood pressure and in the prevalence of hypertension. Data from the National Health and Nutrition epidemiologic survey from 2015 to 2018 documented that hypertension is a very prevalent condition among older Americans (Figure 79-1). Based on this study’s updated definition of hypertension (discussed herein)—a self-report <a id="p1220"></a>**[p. 1220]** of BP result in excess of 130 mm Hg systolic and/or 80 mm Hg diastolic or those receiving an antihypertensive medication—the overall prevalence for hypertension among those aged 65 or older exceeds 65%. For women aged 75 and older, the prevalence is 85% and for men it is 84%. Of note, there is an age–gender interaction in hypertension prevalence across age. At younger ages, prevalence rates are higher among men, while above the age of menopause, the prevalence in women surpasses that of men.
 
 Another perspective on epidemiology is to examine the lifetime risk of developing hypertension as has been done in participants in the Framingham Heart Study. This study identified that among men and women participants who had normal blood pressure readings at age 55, nearly 90% developed hypertension over the ensuing 20 to 25 years of follow-up.
 
@@ -148,7 +144,7 @@ been conducted and demonstrated the benefit in blood pressure reduction that is 
 
 The Trial of Nonpharmacologic Intervention in the Elderly (TONE) targeted the effect of dietary sodium restriction and weight loss in older hypertensive patients. In this study, the intervention led to fairly modest declines in dietary sodium intake (average of 40 mmol/day) and body weight (average 4 kg), but there was a 30% decrease in the need to reinitiate antihypertensive therapy among the intervention group.
 
-## Pharmacologic Therapies
+### Pharmacologic Therapies
 
 Overview Currently available evidence supports two general principles with respect to antihypertensive medication selection: one, that the level of blood pressure reduction achieved is more important than which drug is used, and two, that all classes of antihypertensive medications have been demonstrated to be equally efficacious in older patients. Following these principles, the initial antihypertensive drug selection should be based on patient-specific factors. For example, drug selection will depend on whether the patient’s hypertension is simple or complicated by another comorbid condition. The presence of a coexisting condition will often dictate the
 
@@ -172,19 +168,13 @@ Owing to the similarities observed between the physiologic effects of aldosteron
 
 <span id="ch79-ace-inhibitor" data-reader-metadata="exam"></span>Angiotensin-converting enzyme inhibitors and angiotensin receptor blockers ACE inhibitor agents and angiotensin receptor blockers are choices for initial therapy or as second agents in combination with a thiazide-type diuretic. Their advantages include the absence of central nervous system or metabolic side effects and overall favorable side effect profile. They are also often used owing to the recommendations for their use in the setting of coexisting type 2 diabetes or heart failure.
 
-Calcium channel antagonists All three chemical classes of calcium channel antagonists have been shown to be effective in treating older hypertensive patients. Their mechanism of action—decreased peripheral vascular resistance—and lack of significant central nervous system or metabolic side
-
-<a id="p1226"></a>**[p. 1226]**
+Calcium channel antagonists All three chemical classes of calcium channel antagonists have been shown to be effective in treating older hypertensive patients. Their mechanism of action—decreased peripheral vascular resistance—and lack of significant central nervous system or metabolic side <a id="p1226"></a>**[p. 1226]** effects provide a good match with the characteristics of the geriatric patient. Age-related changes in the pharmacokinetics of these drugs (decreased clearance and increased plasma levels) mean that lower doses need to be used in older patients. The longer-acting agents in the dihydropyridine class of calcium channel antagonists have been the most widely studied in randomized controlled trials where their effectiveness in treating older patient populations has been demonstrated.
 
 <span id="ch79-drug-table" data-reader-metadata="exam"></span>
 
 ![Table 79-4](hazzard8e_ch79_table-79-4_p1226.webp)
 
 *TABLE 79-4 ■ ADVANTAGES AND DISADVANTAGES OF ANTIHYPERTENSIVE MEDICATION CLASSES SPECIFIC TO OLDER PATIENTS*
-
-disease.
-
-effects provide a good match with the characteristics of the geriatric patient. Age-related changes in the pharmacokinetics of these drugs (decreased clearance and increased plasma levels) mean that lower doses need to be used in older patients. The longer-acting agents in the dihydropyridine class of calcium channel antagonists have been the most widely studied in randomized controlled trials where their effectiveness in treating older patient populations has been demonstrated.
 
 Adrenergic receptor antagonists As discussed previously, β-receptor antagonists are not an appropriate choice for monotherapy for older patients with uncomplicated hypertension. β-Receptor antagonists should be reserved for patients with a compelling indication for their use, namely, as secondary prevention for those patients who have had prior myocardial infarction or have coronary artery disease or in some patients with systolic dysfunction.
 

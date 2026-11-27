@@ -4,7 +4,7 @@ Ellen F. Binder, Simon Mears
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> **Source and method.** Printed pages 793-804, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 793-803, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p793"></a>**[p. 793]**
 
@@ -223,8 +223,6 @@ agement of older adults suffering an osteoporotic hip fracture: a consensus stat
 sedation in older patients undergoing hip fracture repair on postoperative delirium: the STRIDE randomized clinical trial. JAMA Surg. 2018;153(11):987–995. Smith T, Pelpola K, Ball M, Ong A, Myint PK. Pre-operative
 
 indicators for mortality following hip fracture surgery: a systematic review and meta-analysis. Age Ageing. 2014; 43:464–471.
-
-<a id="p804"></a>**[p. 804]**
 
 ## Exam article companion — operative timing and implant choice
 

@@ -312,7 +312,7 @@ of spread), stage III (evidence of spread to regional lymph nodes or skin), and 
 
 Clinically, node-negative patients with significant risk of regional nodal disease at the time of diagnosis are staged via a sentinel lymph node biopsy (SLNB), ideally performed at the time of definitive treatment of the primary site. The lymph node status and nodal tumor burden (based on SLNB) are incorporated into the current AJCC staging system. A thorough description of prognosis based on Breslow depth and other prognostic factors is found in a seminal article by Balch et al.
 
-## Treatment of Melanoma
+### Treatment of Melanoma
 
 Biopsy considerations All lesions clinically concerning for melanoma should be biopsied via a full-thickness excision with narrow margins (2 mm) oriented parallel to the lines of lymphatic drainage, or a deep saucerization shave biopsy of the complete lesion. The goal of biopsy is to remove the entire clinical lesion for comprehensive histologic evaluation. A superficial shave biopsy is never recommended for a lesion suspicious for melanoma; if the melanoma is transected with a shave biopsy then it will be difficult to accurately determine the thickness of the tumor. For suspicious lesions too large for complete excision, a full-thickness incisional biopsy deep enough to avoid transecting the lesion at the deep margin may be performed using an ellipse, deep saucerization shave, or punch. Incisional biopsies of melanoma do not increase the risk of metastasis. Formalin-fixed, paraffin-embedded, permanent sections are required for accurate microstaging and diagnosis of the primary lesion.
 
@@ -354,7 +354,7 @@ Role of imaging in melanoma diagnosis In the case of an unremarkable history and
 
 There are a number of less common cutaneous tumors that are beyond the scope of this chapter. Of these, the geriatrician should be familiar with Merkel cell carcinoma (MCC) given that it is a highly aggressive tumor with a predilection for older adults. For readers interested in discussion of other tumors, please refer to a standard dermatology text.
 
-## Merkel Cell Carcinoma
+### Merkel Cell Carcinoma
 
 Definition MCC is a rare, highly aggressive cutaneous neuroendocrine carcinoma. As its name suggests, the tumor develops from Merkel cells, which are responsible for the sensation of light touch and are found in the basal layer of the epidermis. Approximately 1600 cases are diagnosed annually in the United States, and 81.7% of patients who are diagnosed are older than 70. The 5-year overall survival after diagnosis ranges from 51% for patients with local disease to 14% for those with distal metastases.
 
@@ -412,11 +412,11 @@ Schmults CD. Factors predictive of recurrence, metastasis, and death from primar
 
 National Comprehensive Cancer Network. Basal Cell
 
-Skin Cancer (Version 1.2020). 2019; [https://www.nccn](<https://www.nccn.org/professionals/physician_gls/pdf/nmsc.pdf>) .org/professionals/physician_gls/pdf/nmsc.pdf. Accessed November 23, 2020. National Comprehensive Cancer Network. Cutaneous
+Skin Cancer (Version 1.2020). 2019; [https://www.nccn.org/professionals/physician_gls/pdf/nmsc.pdf](<https://www.nccn.org/professionals/physician_gls/pdf/nmsc.pdf>). Accessed November 23, 2020. National Comprehensive Cancer Network. Cutaneous
 
-Melanoma (Version 4.2020). 2020; [https://www.nccn](<https://www.nccn.org/professionals/physician_gls/pdf/cutaneous_melanoma.pdf>) .org/professionals/physician_gls/pdf/cutaneous _melanoma.pdf. Accessed November 23, 2020. National Comprehensive Cancer Network. Squamous
+Melanoma (Version 4.2020). 2020; [https://www.nccn.org/professionals/physician_gls/pdf/cutaneous_melanoma.pdf](<https://www.nccn.org/professionals/physician_gls/pdf/cutaneous_melanoma.pdf>). Accessed November 23, 2020. National Comprehensive Cancer Network. Squamous
 
-Cell Skin Cancer (Version 2.2020). 2020; [https://www](<https://www.nccn.org/professionals/physician_gls/pdf/squamous.pdf>) .nccn.org/professionals/physician_gls/pdf/squamous .pdf. Accessed November 24, 2020. Regula CG, Alam M, Behshad R, et al. Functionality of
+Cell Skin Cancer (Version 2.2020). 2020; [https://www.nccn.org/professionals/physician_gls/pdf/squamous.pdf](<https://www.nccn.org/professionals/physician_gls/pdf/squamous.pdf>). Accessed November 24, 2020. Regula CG, Alam M, Behshad R, et al. Functionality of
 
 patients 75 years and older undergoing Mohs micrographic surgery: a multicenter study. Dermatol Surg. 2017;43(7):904–910. Siegel JA, Korgavkar K, Weinstock MA. Current per-
 

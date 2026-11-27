@@ -78,7 +78,7 @@ Physical Examination The physical examination is typically normal, but can vary 
 
 ![Table 96-1](hazzard8e_ch96_table-96-1_p1512.webp)
 
-*TABLE 96-1 ■ KEY PHASES OF THE CELL-BASED MODEL OF COAGULATIONa*
+*TABLE 96-1 ■ KEY PHASES OF THE CELL-BASED MODEL OF COAGULATION<sup>a</sup>*
 
 Laboratory Evaluation of Coagulation Pathways in Older Adults Laboratory evaluation includes routine tests available through most laboratories as well as more specialized tests that may require a reference laboratory and the expertise of a hematologist for interpretation. General screening tests include a platelet count, hemoglobin and/or hematocrit, prothrombin time (PT), and activated partial thromboplastin time (aPTT). The PT assay measures the function of the extrinsic and common pathways (see Figure 96-2) and detects deficiencies in the vitamin K–dependent coagulation factors: factors II, VII, IX, and X. If a deficiency in factor VII is suspected, the PT is the most sensitive test available. The aPTT measures components of the intrinsic and common pathways and can detect deficiencies of—or inhibitors to—factors II, V, VIII, IX, X, XI, and XII (see Figure 96-2). Both the PT and aPTT can also be prolonged in patients with fibrinogen disorders. Examination of any abnormalities in the PT and/or aPTT can help guide clinicians as to the differential diagnostic and appropriate management steps (Table 96-2). Other routine testing (eg, liver or renal function panels, peripheral smears, DIC panel, mixing study etc.) may be indicated depending on the patient’s clinical presentation, history, and physical examination.
 
@@ -96,7 +96,7 @@ Causes of a prolonged PT and aPTT Patients with prolongation of both the PT and 
 
 ![Table 96-2](hazzard8e_ch96_table-96-2_p1513.webp)
 
-**TABLE 96-2 ■ PATTERNS AND EVALUATION OF A PROLONGED PROTHROMBIN TIME (PT) AND/OR ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT)**
+*TABLE 96-2 ■ PATTERNS AND EVALUATION OF A PROLONGED PROTHROMBIN TIME (PT) AND/OR ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT)<sup>*</sup>*
 
 disease, DIC, or administration of systemic fibrinolytic agents (eg, tPA). Additional diagnostic measures in this setting may include measurements of fibrinogen and fibrinogen degradation products.
 
@@ -152,7 +152,7 @@ to adenosine diphosphate (ADP) and epinephrine as well as impaired platelet adhe
 
 Background Deep vein thrombosis (DVT) and pulmonary embolism (PE), collectively referred to as venous thromboembolism (VTE), are common and, in many cases, preventable causes of in-hospital death. Age and accumulation of comorbidities markedly increase the risk of VTE in older adults. Yet, the diagnosis of VTE remains underrecognized in older adults. Clinical suspicion is essential for a prompt diagnosis in older adults who may have an atypical presentation; autopsy studies demonstrate PE is frequently not suspected, nor identified, despite being a common cause of death in older persons. Anticoagulants are the mainstay of VTE treatment given their substantial risk reductions in VTE recurrence and mortality. However, the benefit of anticoagulants may be offset in older adults by their age-related increased risk of bleeding, as described earlier. Balancing the risks of recurrence with bleeding is important to guide treatment duration.
 
-## Epidemiology and Pathophysiology
+### Epidemiology and Pathophysiology
 
 Incidence of VTE In the general population, the annual incidence of VTE approximates 2 to 3 in 1000 persons and appears to be increasing over time. Notably, the incidence rises with age with an approximate 7 per 1000 persons in those over the age of 70.
 
@@ -178,7 +178,7 @@ Hormone replacement therapy to treat postmenopausal symptoms increases VTE risk 
 
 Patients with malignancy have a four- to sevenfold increased risk of VTE, with up to 20% of all VTEs occurring in cancer patients. The molecular mechanisms of cancerassociated thrombosis remain an area of research. Cancer cells can directly activate the coagulation cascade and platelets through the expression and secretion of tissue factor, platelet agonists, inflammatory cytokines, and PAI-1. In addition, many anticancer therapies are prothrombotic themselves (eg, lenalidomide, cisplatin, L-asparaginase), thus further promoting thrombus formation.
 
-## Clinical Presentation
+### Clinical Presentation
 
 Acute venous thromboembolism Venous thrombi in the legs may originate in the superficial (greater and lesser saphenous veins) or deep veins. For the deep veins, involvement of the popliteal, femoral, or iliac vein is classified as a proximal DVT, whereas a distal DVT involves the calf veins only (gastrocnemius, soleal, peroneal, or posterior tibial). The deep intramuscular calf veins are frequent sites of thrombus initiation; distal DVTs represent up to 50% of leg DVTs. When confined to the calf veins, patients may be asymptomatic or minimally symptomatic. Proximal leg DVT typically results in asymmetrical leg swelling, diffuse tenderness, erythema, and engorgement of collateral veins if the thrombus is occlusive. These symptoms of DVT can occur suddenly or subacute over days to weeks. In the upper extremities, the deep venous system includes the brachial, axillary, subclavian, and brachiocephalic vein, whereas
 
@@ -190,7 +190,7 @@ Chronic venous thromboembolism Although acute VTE is associated with significant
 
 Chronic thromboembolic pulmonary hypertension (CTEPH) is a complication of PE with a reported incidence ranging from 0.4% to 6.2%. CTEPH is characterized by chronically occluded pulmonary arteries, which is thought to result from nonresolving pulmonary emboli. These patients typically present with chronic dyspnea and fatigue. If left untreated, it can lead to right heart failure and death.
 
-## Diagnosis of Deep Vein Thrombosis
+### Diagnosis of Deep Vein Thrombosis
 
 Clinical prediction models Asymmetrical leg swelling, pain, erythema, and warmth should prompt evaluation for DVT. However, clinical assessment alone cannot accurately identify DVT, and it is estimated that of all patients evaluated, only 20% have the disease. The integration of clinical prediction models with laboratory assays and noninvasive imaging allows for accurate DVT diagnosis in the majority of patients. Several clinical scoring systems exist (eg, Wells, Oudega, Hamilton, Geneva) that have been validated in the outpatient adult population for accuracy and reproducibility. The Wells DVT model remains the best validated and most utilized for determining the likelihood of DVT. Points are assigned based on clinical signs and symptoms, medical and surgical history, and clinician judgment regarding the likelihood of DVT (Table 96-5). Using a dichotomized score, patients are stratified into two pretest probability categories: DVT likely or DVT unlikely. The subjectivity involved with the clinician estimating DVT likelihood is a
 
@@ -222,7 +222,7 @@ resolve spontaneously. The overdiagnosis and overtreatment of clinically insigni
 
 Magnetic Resonance Venography Magnetic resonance (MR) venography of the leg is a sensitive test to detect DVTs. However, it is not recommended for routine use as it is expensive and not widely available. It is a valuable alternative test for those in whom CUS are inconclusive or in whom CUS is not feasible, such as morbidly obese patients.
 
-## Diagnosis of Pulmonary Embolism
+### Diagnosis of Pulmonary Embolism
 
 Clinical prediction models The most common symptoms of acute PE reported in older adults can be nonspecific and include dyspnea, tachypnea, tachycardia, and chest pain. Symptoms of DVT (leg pain and swelling) are present in more than 40% of patients with acute PE, and simultaneous DVT is identified in up to 60% of patients diagnosed with a PE. Clinical signs including rales, accentuated pulmonic second heart sound, and jugular venous distension may be identified at presentation. Similar to DVT, these signs and symptoms are insufficient to diagnose PE, but are useful to estimate the clinical probability and guide additional testing.
 
@@ -252,7 +252,7 @@ To minimize the number of unnecessary imaging studies and potential overtreatmen
 
 Additional benefits of CTPA over other imaging modalities are its abilities to simultaneously diagnose PE and detect right ventricular dilation (useful in risk stratification) and to identify alternative diagnoses when PE is not present, which is especially useful in older adults with atypical presentations.
 
-## Treatment of Venous Thromboembolism
+### Treatment of Venous Thromboembolism
 
 Home treatment vs hospital treatment For patients with newly diagnosed uncomplicated DVT, home treatment is generally recommended. As compared to hospital treatment, treating patients with DVT at home was demonstrated to reduce the risk of PE, subsequent DVT, and major bleeding. However, older patients with multiple comorbidities that may require hospitalization, or at high risk for anticoagulant-related bleeding, may be more appropriately treated in the hospital. Socioeconomic factors, such as limited financial or home support, may also require hospital treatment for the initial management.
 

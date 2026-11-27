@@ -95,7 +95,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - The chapter reports protein-energy malnutrition in **30–60%** of hospitalized adults over 65 and reduced vaccine responses in outpatients with **albumin 3.0–3.5 g/dL** (p1668).
   > Current practice (not the book): Inflammation can lower albumin. Serum albumin alone cannot diagnose or grade malnutrition. [ASPEN position paper](https://doi.org/10.1002/ncp.10588)
 - Fever is **absent in up to one-third** of older adults with serious infection — lower baseline temperature plus a blunted febrile response means many never reach the fever threshold of **≥100.4°F/38°C** (p1669)
-- Hazzard says that, **almost universally**, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671).
+- Hazzard says that, **almost universally**, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1668; p1671).
   > Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. [IDSA, recommendations 45–46](https://academic.oup.com/cid/article/50/5/625/324341).
 
 **Antibiotic dosing and stewardship principles**
@@ -112,7 +112,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections are more likely due to asymptomatic bacteremia seeding the implant, with a wider array of organisms including GI/GU sources — but staphylococci still predominate (p1671, p1674)
 - Evidence for prophylaxis in PJ (prosthetic joint) patients is even weaker than for prosthetic valves; the historical discussion describes considering antibiotic prophylaxis for PJs deemed **"high risk"** — placed within **2 years**, or in immunosuppressed patients (including diabetes, rheumatoid arthritis, malnourishment), or with prior joint infection (p1674–1675)
   > <span id="current-practice-1" data-reader-metadata="navigation"></span>Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
-- Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1667; detail p1674)
+- Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1668; detail p1674)
 - Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
 **GI infections and *C difficile***
@@ -127,112 +127,112 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 **Fever of unknown origin (FUO)**
 - Classic definition: temperature **>101°F (38.3°C)** for **≥3 weeks**, undiagnosed after **1 week** of evaluation (p1675)
 - A cause is found in **~90%** of cases; about **one-third** are treatable infections (intraabdominal abscess, endocarditis, TB, occult osteomyelitis) (p1675)
-- Autoimmune disease causes nearly **one in four** FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by **GCA** and polyarteritis nodosa; GCA alone accounts for nearly **one in six** FUOs ≥60 (KCP #5, p1667; detail p1675)
+- Autoimmune disease causes nearly **one in four** FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by **GCA** and polyarteritis nodosa; GCA alone accounts for nearly **one in six** FUOs ≥60 (KCP #5, p1668; detail p1675)
 - **Table 104-2** breakdown of FUO causes: infections **35%**, inflammatory disorders **28%** (temporal arteritis/PMR **19%**, polyarteritis nodosa **6%**), malignancy **19%**, other causes (pulmonary emboli, drug fever) **5%**, no diagnosis **13%** (p1675)
 - Several small studies estimate 18F-FDG uptake in the temporal, maxillary, or vertebral arteries occurs in **64–82%** of GCA patients, with very high specificity. Hazzard reports that some authors inferred cranial-artery biopsy could be avoided after absent cranial uptake (p1676).
   > Current practice (not the book): With persistent clinical suspicion after negative imaging, pursue additional imaging or biopsy. Strong suspicion, particularly with ischemic symptoms, warrants urgent treatment. [EULAR, principles A and C](https://ard.bmj.com/content/83/6/741).
 
 **Vaccines and travel**
-- The chapter highlights **high-dose influenza**, **adjuvanted recombinant zoster**, and **mRNA SARS-CoV-2** vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1667; detail p1676).
+- The chapter highlights **high-dose influenza**, **adjuvanted recombinant zoster**, and **mRNA SARS-CoV-2** vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1668; detail p1676).
 - "Cocooning" older adults from exposure by immunizing family, caregivers, and staff is another strategy to address immune senescence (eg, nursing home staff immunization; childhood conjugate pneumococcal vaccines reduce pneumonia risk in older adults) (p1676)
 - Older travelers are **6×** more likely than young adults to have a serious adverse event from **yellow fever** vaccine; travelers' diarrhea affects **25–50%** of visitors to developing countries (p1676)
 
 ## Recall
 
-**2. In what fraction of older adults with serious infection is fever absent, and when can lower temperatures indicate fever in a nursing-home resident?**
+**1. In what fraction of older adults with serious infection is fever absent, and when can lower temperatures indicate fever in a nursing-home resident?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-2"><summary>Answer</summary>
 
 Up to one-third may have a serious infection without reaching the conventional 38°C threshold (p1669).
 > Current practice (not the book): For nursing-home residents, a single oral temperature above 37.8°C, repeated oral temperatures above 37.2°C, or a rise above usual temperature of more than 1.1°C can identify fever earlier. [IDSA long-term-care fever guideline](https://www.idsociety.org/practice-guideline/fever-and-infection-in-long-term-care-facilities/).
 
 </details>
 
-**3. What two culture practices should almost always be avoided in older adults, and why?**
+**2. What two culture practices should almost always be avoided in older adults, and why?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-3"><summary>Answer</summary>
 
-Hazzard says that, **almost universally**, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671).
+Hazzard says that, **almost universally**, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1668; p1671).
 > Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. [IDSA, recommendations 45–46](https://academic.oup.com/cid/article/50/5/625/324341).
 
 </details>
 
-**6. Compare fever and leukocytosis rates in infective endocarditis for older vs younger adults, and state how much TEE improves diagnostic yield over TTE in seniors.**
+**3. Compare fever and leukocytosis rates in infective endocarditis for older vs younger adults, and state how much TEE improves diagnostic yield over TTE in seniors.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-6"><summary>Answer</summary>
 
 Older adults: fever 55%, leukocytosis 25% (vs 80%/60% in younger adults) — a blunter presentation. TEE improves diagnostic yield by 45% over TTE in older adults (p1671).
 
 </details>
 
-**7. What organisms predominate in early (<60 day) vs late (>60 day) prosthetic device infections?**
+**4. What organisms predominate in early (<60 day) vs late (>60 day) prosthetic device infections?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-7"><summary>Answer</summary>
 
 Early: skin flora — coagulase-negative staphylococci, S aureus, diphtheroids. Late: more likely asymptomatic bacteremia seeding the implant, so a wider array of organisms including GI/GU sources, though skin organisms (staphylococci) still predominate (p1671, p1674).
 
 </details>
 
-**8. What defines a "high risk" prosthetic joint for the historical discussion of dental prophylaxis, and how does current US guidance differ?**
+**5. What defines a "high risk" prosthetic joint for the historical discussion of dental prophylaxis, and how does current US guidance differ?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-8"><summary>Answer</summary>
 
 PJ placed within 2 years, immunosuppressed patients (diabetes, rheumatoid arthritis, malnourishment), or a history of prior joint infection (p1674–1675).
 > [Current practice note](#current-practice-1)
 
 </details>
 
-**9. What are the asymptomatic *C difficile* carriage rates in the community, outpatient-exposed community, and hospital/long-term care settings?**
+**6. What are the asymptomatic *C difficile* carriage rates in the community, outpatient-exposed community, and hospital/long-term care settings?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-9"><summary>Answer</summary>
 
 2% community, 10% community with outpatient healthcare exposure, 20–50% hospital or long-term care (p1675).
 
 </details>
 
-**10. What proportion of asymptomatic C difficile carriers develop symptomatic CDI after receiving antibiotics, and what is the success rate of FMT for refractory relapse?**
+**7. What proportion of asymptomatic C difficile carriers develop symptomatic CDI after receiving antibiotics, and what is the success rate of FMT for refractory relapse?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-10"><summary>Answer</summary>
 
 About 15% develop symptomatic CDI; FMT success rate is 80–90% (p1675).
 
 </details>
 
-**11. Which test for TB infection is preferred after BCG vaccination, and what is the limit of a positive result?**
+**8. Which test for TB infection is preferred after BCG vaccination, and what is the limit of a positive result?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-11"><summary>Answer</summary>
 
 IGRA is preferred after BCG because the vaccine does not cause a positive blood test. It requires one blood draw. A positive IGRA or skin test warrants assessment for active TB before diagnosing latent infection (Ch 104 p1675 for aging and TST sensitivity; Ch 105 pp1693–1694 for BCG, IGRA and assessing active disease).
 
 </details>
 
-**12. What is the classic definition of fever of unknown origin (FUO)?**
+**9. What is the classic definition of fever of unknown origin (FUO)?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-12"><summary>Answer</summary>
 
 Temperature >101°F (38.3°C) for at least 3 weeks, undiagnosed after 1 week of medical evaluation (p1675).
 
 </details>
 
-**13. In older adults, what fraction of FUO is ultimately autoimmune, and which two conditions replace SLE as the leading autoimmune causes?**
+**10. In older adults, what fraction of FUO is ultimately autoimmune, and which two conditions replace SLE as the leading autoimmune causes?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-13"><summary>Answer</summary>
 
 Nearly one in four; giant cell arteritis (GCA) and polyarteritis nodosa (PAN) replace SLE, which is essentially absent as a cause of FUO in older cohorts (p1675).
 
 </details>
 
-**14. What percentage of FUO cases in older patients falls into each of the five major categories in Table 104-2?**
+**11. What percentage of FUO cases in older patients falls into each of the five major categories in Table 104-2?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-14"><summary>Answer</summary>
 
 Infections **35%**, inflammatory disorders **28%**, malignancy **19%**, other causes (pulmonary emboli or drug fever) **5%**, and no diagnosis **13%** (Table 104-2, p1675).
 
 </details>
 
-**15. Which three vaccine examples illustrate protective immune responses in older adults in this chapter?**
+**12. Which three vaccine examples illustrate protective immune responses in older adults in this chapter?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="104s:recall-15"><summary>Answer</summary>
 
 High-dose influenza vaccine, adjuvanted recombinant zoster vaccine, and mRNA-based SARS-CoV-2 vaccines (p1668, p1676).
 

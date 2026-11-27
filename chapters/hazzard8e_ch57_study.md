@@ -32,7 +32,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 
 <span data-exam-page="865"></span>
 
-- Of the major dementia types compared, **AD and Wernicke-Korsakoff syndrome are the only ones with impaired recognition** (not just recall) on memory testing — the table marks both "Recognition intact?" **N**; PD/PDD, DLB, and VaD are marked variable; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia: onset **insidious or acute**, progression **stepwise or gradual**, with executive deficits significantly more impaired than in AD and relative to verbal memory performance
+- Of the major dementia types compared, **AD and Wernicke-Korsakoff syndrome are the only types consistently marked as having impaired recognition** (not just recall) on memory testing — the table marks both "Recognition intact?" **N**; PD/PDD, DLB, and VaD are marked variable; DLB is distinguished by **significant fluctuations in attention** plus early hallucinations/delusions; vascular dementia: onset **insidious or acute**, progression **stepwise or gradual**, with executive deficits significantly more impaired than in AD and relative to verbal memory performance
 - **Behavioral variant FTLD**: early disinhibition, apathy, loss of empathy/sympathy, hyperorality, with recent memory relatively preserved; **PSP**: vertical gaze palsy + postural instability; **CBS**: asymmetric motor signs + alien limb; **NPH**: wide-based gait, urinary incontinence, confusional state
 - Table 57-3, bvFTD row: insidious onset, steady and rapid progression, recent memory relatively preserved, executive functions impaired across a range, verbal fluency impaired, significant behavioral change (p864)
 - Table 57-3, prion row: insidious onset, steady and rapid progression, nonspecific memory impairment, reduced problem-solving, language generally preserved, visuospatial function generally intact; psychomotor: may exhibit impaired reflexes and coordination; behavior: apathy, emotional lability, impaired sleep, appetite loss (p865)
@@ -140,7 +140,7 @@ Semantic fluency ("name all the animals you can") declines; phonemic fluency ("w
 
 <details><summary>Answer</summary>
 
-About 80% progress to AD within 5 to 8 years, converting at roughly 10-15%/year vs 1-2%/year in the general population (p869).
+In the longitudinal studies cited, up to 80% progressed to AD within 5 to 8 years, converting at roughly 10-15%/year vs 1-2%/year in the general population, while 15–40% may revert to normal on later testing (p869).
 
 </details>
 
@@ -148,7 +148,7 @@ About 80% progress to AD within 5 to 8 years, converting at roughly 10-15%/year 
 
 <details><summary>Answer</summary>
 
-NPH makes up about 6% of dementia cases. At 6 months post-shunt, 83% improve in gait and 46% improve in memory; of surviving shunt cases at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).
+NPH makes up about 6% of dementia cases. In one five-year observational study, at six months after shunting, 83% improve in gait and 46% improve in memory; of surviving shunt cases at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).
 
 </details>
 

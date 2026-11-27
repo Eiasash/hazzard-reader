@@ -106,7 +106,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - TAVR: new LBBB in **19–55%** (p1200), high-degree AVB in **10%** (p1200) after TAVR; up to **30%** (p1200) of new-LBBB patients have their first high-degree AVB episode after discharge.
 
 **Atrial fibrillation (AF)**
-- Rate control target HR **80–110 bpm** (p1201); β-blockers/non-dihydropyridine CCBs first-line, but **CCBs are related to higher mortality when LVEF <40%**; digoxin less effective but can be considered (caution: narrow therapeutic index).
+- Rate control target HR **80–110 bpm** in the absence of significant symptoms or signs of heart failure (p1201); β-blockers/non-dihydropyridine CCBs first-line, but **CCBs are related to higher mortality when LVEF <40%**; digoxin less effective but can be considered (caution: narrow therapeutic index).
 - AAD choice for AF rhythm control depends on comorbidity (Table 77-6, p1201): no heart disease → class Ic or III; CAD → class Ic contraindicated, class III OK; reduced EF/HF → amiodarone and dofetilide can be used (dronedarone & class Ic contraindicated).
 - CABANA trial (**n = 2204** (p1201)) patients: catheter ablation not superior to AAD for the primary composite endpoint at 5y, but reduced AF recurrence and the combined death/CV-hospitalization secondary endpoint.
 - **Stroke risk is 5× higher** (p1202) with AF. CHA2DS2-VASc: anticoagulate if **≥ 2** (p1203) points in men or **≥ 3** (p1203) in women (Table 77-8); maximum score **9** (p1202). HAS-BLED: **0–2** (p1202) score = low risk, **3–9** (p1202) score = high risk.
@@ -151,7 +151,7 @@ The discussion on pp. 1200 and 1207 reflects the US context. For Israeli patient
 
 <details><summary>Answer</summary>
 
-SBP drop ≥ 20 mmHg or DBP drop ≥ 10 mmHg on standing; up to 50% of frail nursing-home residents (p1193).
+Sustained SBP drop ≥ 20 mmHg or DBP drop ≥ 10 mmHg on standing; up to 50% of frail nursing-home residents (p1193).
 
 </details>
 

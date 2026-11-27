@@ -34,14 +34,6 @@ Prescribing for older adults presents special challenges. Older people take abou
 
 4. Prescribing cascades are common and important to consider in older adults with multiple chronic conditions who are likely to be prescribed multiple drug therapies.
 
-While a provider can usually do little to alter the characteristics of individual older adults to affect the kinetics or dynamics of drugs, the decision whether to prescribe any drug, the choice of drug, and the manner in which it is to be used (eg, dose and duration of therapy) are all factors that are largely under the control of the provider. This chapter discusses ways to optimize prescribing of drug therapy for older women and men.
-
-## EPIDEMIOLOGY OF DRUG THERAPY
-
-Writing a prescription is the most frequently employed medical intervention. Yet, creating optimal drug regimens that meet the complex needs of older adults requires careful thought and planning. Multiple factors contribute to inappropriate drug prescribing, including lack of adequate training of providers in safe prescribing practices, and in prescribing for older adults. Further, a lack of routine use of safe medication prescribing practices, such as checking drug allergies, confirming appropriate drug doses, adjusting doses for renal impairment, and potential drug–drug interactions and medication reconciliation, also contribute to prescribing errors. Avoidable ADEs are the most serious consequences of inappropriate and unsafe drug prescribing. The possibility of an ADE should always be borne in mind
-
-<a id="p302"></a>**[p. 302]**
-
 5. Incorporating an individual’s goals of care is critical to optimizing prescribing for older adults. It is essential that the risks are balanced against the benefits of each medication. An important tension exists between avoiding inappropriate medications and avoiding underuse of potentially beneficial drugs.
 
 6. Special considerations are needed when prescribing for long-term care residents, the majority of whom are older women and live with dementia.
@@ -52,9 +44,17 @@ Writing a prescription is the most frequently employed medical intervention. Yet
 
 9. The DRUGS guide to optimize medication safety for older adults outlines steps to follow in order to optimize drug prescribing for older adults and incorporates sex and gender considerations into each step. These steps include:
 
-### • DISCUSS goals of care • REVIEW medications • USE tools and frameworks to guide decision making • GERIATRIC medicine approach • STOP the medication where appropriate
+   - DISCUSS goals of care
+   - REVIEW medications
+   - USE tools and frameworks to guide decision making
+   - GERIATRIC medicine approach
+   - STOP the medication where appropriate
 
-when evaluating an older individual. A valuable maxim in geriatric medicine posits that when evaluating virtually any new symptom in an older patient, the possibility of an ADE should be considered in the differential diagnosis. Female sex, advanced age, frailty, cognitive impairment, and increased drug utilization are all factors that contribute to an individual patient’s risk for developing a drug-related problem. US data indicate that older adults in the community are up to three times more likely to have an ADE that requires evaluation in an outpatient setting or in an emergency department and are seven times more likely
+While a provider can usually do little to alter the characteristics of individual older adults to affect the kinetics or dynamics of drugs, the decision whether to prescribe any drug, the choice of drug, and the manner in which it is to be used (eg, dose and duration of therapy) are all factors that are largely under the control of the provider. This chapter discusses ways to optimize prescribing of drug therapy for older women and men.
+
+## EPIDEMIOLOGY OF DRUG THERAPY
+
+Writing a prescription is the most frequently employed medical intervention. Yet, creating optimal drug regimens that meet the complex needs of older adults requires careful thought and planning. Multiple factors contribute to inappropriate drug prescribing, including lack of adequate training of providers in safe prescribing practices, and in prescribing for older adults. Further, a lack of routine use of safe medication prescribing practices, such as checking drug allergies, confirming appropriate drug doses, adjusting doses for renal impairment, and potential drug–drug interactions and medication reconciliation, also contribute to prescribing errors. Avoidable ADEs are the most serious consequences of inappropriate and unsafe drug prescribing. The possibility of an ADE should always be borne in mind <a id="p302"></a>**[p. 302]** when evaluating an older individual. A valuable maxim in geriatric medicine posits that when evaluating virtually any new symptom in an older patient, the possibility of an ADE should be considered in the differential diagnosis. Female sex, advanced age, frailty, cognitive impairment, and increased drug utilization are all factors that contribute to an individual patient’s risk for developing a drug-related problem. US data indicate that older adults in the community are up to three times more likely to have an ADE that requires evaluation in an outpatient setting or in an emergency department and are seven times more likely
 
 to require a hospital admission. In the inpatient setting, older adults account for more than 50% of hospitalizations complicated by an ADE. In the nursing home setting, the incidence of ADEs approaches 10 per 100 resident-months, of which over half may be preventable. These estimates are probably conservative because preventable ADEs were strictly defined and it was assumed that, in many cases, the prescription of the offending drug was indicated, and the ADE was therefore not preventable.
 

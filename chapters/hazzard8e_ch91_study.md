@@ -9,7 +9,7 @@ Study summary of Chapter 91; the book and the full chapter are the reference.
 - In the United States NLST, annual low-dose CT screening reduced lung-cancer mortality by **20%** versus chest radiographs; false positives and procedural harms matter (p1422).
 - A nodule's size, appearance, change over time and patient risk determine evaluation; low/intermediate suspicion may justify serial CT (p1424).
 - Obtain tissue by the least invasive approach likely to yield a diagnosis; select bronchoscopy, endobronchial ultrasound or transthoracic biopsy by location (p1424).
-- Stage before treatment. The printed discussion calls for brain imaging even with suspected early-stage disease, preferably MRI, especially in confirmed SCLC (p1425).
+- Stage before treatment. The printed discussion calls for brain imaging even with suspected early-stage disease, preferably MRI, especially in confirmed SCLC, but the following paragraph specifies any SCLC, stage III or IV NSCLC, or suggestive symptoms or signs at any stage (p1425).
 
 **Treatment by disease extent**
 - Early NSCLC: assess for resection; stereotactic body radiotherapy offers an option for medically inoperable patients (p1425).
@@ -109,7 +109,7 @@ Prophylactic cranial irradiation aims to reduce subsequent brain metastases afte
 
 Performance status alone can conceal a patient who can walk into clinic but cannot prepare meals, remember medicines or attend treatment without help. Assess activities, falls, cognition, comorbid disease, polypharmacy, nutrition and social support. Link the findings to specific decisions: neuropathy may threaten mobility, renal impairment may limit platinum choices, and living alone can complicate early recognition of immune toxicity. A treatment trial that admitted selected fit older adults provides limited information about an individual with major functional or cognitive impairment (p1425–1427, p1433).
 
- In addition to the reported survival difference, depressive symptoms were less common and aggressive end-of-life care was less frequent (33% versus 54%). The trial defined this outcome as chemotherapy within 14 days before death, no hospice care, or hospice admission three days or less before death in the early-care group. These results came from a defined population and treatment era. Ask the patient to explain what the proposed regimen is meant to achieve. Tumor shrinkage or a chance of living longer can be worth pursuing without implying cure. Clarifying that distinction permits a discussion of how much clinic time, toxicity or functional loss a person is willing to accept in exchange for the expected benefit (p1432–1433).
+In addition to the reported survival difference, depressive symptoms were less common and aggressive end-of-life care was less frequent in the early-care group (33% versus 54%, as reported in [Temel et al., 2010](https://doi.org/10.1056/NEJMoa1000678); the printed p1432 wording says “fewer … received less aggressive” [sic]). The trial defined this outcome as chemotherapy within 14 days before death, no hospice care, or hospice admission three days or less before death. These results came from a defined population and treatment era. Ask the patient to explain what the proposed regimen is meant to achieve. Tumor shrinkage or a chance of living longer can be worth pursuing without implying cure. Clarifying that distinction permits a discussion of how much clinic time, toxicity or functional loss a person is willing to accept in exchange for the expected benefit (p1432–1433).
 
 ## Exam traps
 

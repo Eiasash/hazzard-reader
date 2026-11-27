@@ -26,19 +26,15 @@ Upper gastrointestinal disorders (UGIDs) are highly prevalent in the aging popul
 
 2. The prevalence of PUD increases with age, likely due to H pylori infection, use of mucosa-damaging drugs, and an imbalance between mucosal erosive and protective factors. Treatment of H pylori reduces PUD relapse, but many older adults go untested and untreated. H pylori eradication after treatment should be documented with a breath test or stool antigen.
 
-## GASTROESOPHAGEAL REFLUX DISEASE
-
-Definition GERD is defined by symptoms and/or histopathologic alterations (esophagitis) caused by reflux of gastric contents into the esophagus. Manifestations of GERD range from mild episodes of heartburn and acid regurgitation without esophagitis, commonly defined as nonerosive reflux disease (NERD), to chronic mucosal inflammation with erosive esophagitis and ulceration, complicated in severe cases by stricture and bleeding.
-
-Epidemiology GERD is a frequent condition with worldwide distribution. The prevalence of GERD is estimated to be 12% in Australia, 7.8% in East Asia, 8.8% to 26% in Europe, 8.7% to 33% in the Middle East, 18% to 28% in North America, and 23% in South America. A large US nationwide cohort
-
-<a id="p1316"></a>**[p. 1316]**
-
 3. Upper GI bleeding (UGIB) occurs in older adults due to the same pathologies as seen in young adults, but may present with exacerbation of underlying disease (eg, cardiac disease) or non-GI symptoms such as syncope.
 
 4. PPIs interact with many drugs prescribed for older adults, and long-term PPI use has been associated with multiple adverse outcomes, especially in frail older adults. Thus, long-term PPI use should be avoided unless there are clear indications, and deprescription should be enacted whenever possible.
 
-study reported that the prevalence of GERD is increasing overall, but seemingly this increase is not seen in subjects older than 70 years, whose proportion of GERD patients remains stable around 15% during the time period from 2006 to 2016. Indeed, GERD prevalence remains higher amongst subjects older than 70 years, but as prevalence of GERD in those age 30 to 39 is increasing, the proportion of GERD patients older than 70 years is decreasing.
+## GASTROESOPHAGEAL REFLUX DISEASE
+
+Definition GERD is defined by symptoms and/or histopathologic alterations (esophagitis) caused by reflux of gastric contents into the esophagus. Manifestations of GERD range from mild episodes of heartburn and acid regurgitation without esophagitis, commonly defined as nonerosive reflux disease (NERD), to chronic mucosal inflammation with erosive esophagitis and ulceration, complicated in severe cases by stricture and bleeding.
+
+Epidemiology GERD is a frequent condition with worldwide distribution. The prevalence of GERD is estimated to be 12% in Australia, 7.8% in East Asia, 8.8% to 26% in Europe, 8.7% to 33% in the Middle East, 18% to 28% in North America, and 23% in South America. A large US nationwide cohort <a id="p1316"></a>**[p. 1316]** study reported that the prevalence of GERD is increasing overall, but seemingly this increase is not seen in subjects older than 70 years, whose proportion of GERD patients remains stable around 15% during the time period from 2006 to 2016. Indeed, GERD prevalence remains higher amongst subjects older than 70 years, but as prevalence of GERD in those age 30 to 39 is increasing, the proportion of GERD patients older than 70 years is decreasing.
 
 While it is still unclear whether the incidence and the prevalence of GERD symptoms increase with advancing age, the frequency of esophagitis is higher in older versus younger adults. Indeed, older age was found to be a significant risk factor in the development of severe forms of GERD in both epidemiologic and clinical studies from the United States, Japan, and Europe. Consistently, GERD was the sixth most common disorder in a retrospective cross sectional study of almost 20,000 long-term care residents of nursing homes older than 65 years, with an overall prevalence of 23%. In summary, GERD is a highly prevalent disorder in older adults, and associated with more severe and advanced disease than in young adults.
 
@@ -282,7 +278,7 @@ Other noninvasive tests Serum pepsinogen I and II levels (sPGI, sPGII), which ar
 
 severity of inflammation. A study in older people reported that sPGII levels decreased significantly after a successful H pylori cure. Moreover, sPGI or the ratio of sPGI/sPGII measurements may be useful to identify atrophic gastritis of the gastric corpus. Assays for gastrin (particularly gastrin-17) could be an indicator of the morphological status of the antral mucosa.
 
-## Management
+### Management
 
 Eradication of H pylori infection There is currently a worldwide consensus that the first-line therapy for eradication of H pylori infection should be triple therapy with a PPI twice daily combined with clarithromycin 500 mg twice daily and amoxicillin 1 g twice daily or nitroimidazole 500 mg twice daily for a minimum of 7 days. The cumulative results of clinical trials evaluating anti-H pylori therapies in older subjects confirmed that PPI-based triple therapies for 1 week were highly effective and well tolerated. Adverse event rates of less than 13% were reported, with less than 6% of patients discontinuing therapy owing to these effects (Table 85-6). In older patients, a reduction of the dosage of the PPI from a twice to once daily standard dose did not influence cure rates of the PPI-triple therapies. Since aging may modify the pharmacokinetic distribution of clarithromycin, independent of renal function, clinical trials evaluated the efficacy of PPI-based triple therapies including clarithromycin at a low dose of 250 mg twice daily in older patients. Results demonstrated no significant differences in
 
@@ -386,7 +382,7 @@ information, and (3) to carry out endoscopic therapy. Early endoscopic examinati
 
 Endoscopy performed within 24 to 48 hours from the bleeding episode reveals an actual or potential site of bleeding in the majority of patients; 15% to 30% of all lesions are actively bleeding at the time of endoscopy. In any case, endoscopy should not be carried out until the patient is adequately resuscitated and in stable clinical conditions. Routine second-look endoscopy, in which repeated endoscopy is performed 24 hours after initial endoscopic hemostatic therapy, is not recommended. A second-look endoscopy however should be performed in patients with clinical evidence of recurrent bleeding.
 
-## Management
+### Management
 
 General management Hemodynamic status should be assessed immediately upon presentation and resuscitative measures begun as needed. Blood transfusions should always be carried out with hemoglobin levels less than or equal to 8 g/dL. In older patients with higher hemoglobin levels, blood transfusions should be performed when clinical evidence of intravascular volume depletion or severe comorbidities, such as coronary artery disease, pulmonary diseases, and renal insufficiency, are present. Risk assessment should be performed to stratify patients into higher and lower risk categories, which may assist in initial decisions such as timing of endoscopy, time of discharge, and level of care.
 
@@ -424,7 +420,7 @@ The Rockall score (RS) categorizes patients into risk groups. Patients with clin
 
 The Multidimensional Prognostic Index (MPI) is a prognostic tool based on a standard comprehensive geriatric assessment that predicts short- and long-term mortality in older subjects. As shown in Table 85-9, the MPI values range from 0 (low risk) to 1 (severe risk of mortality). The MPI can also be expressed as three grades of risk. Patients with higher MPI grades have higher risk of in-hospital stay and institutionalization after hospital discharge.
 
-## Prevention
+### Prevention
 
 Long-term prevention of recurrent bleeding peptic ulcers Prevention is based on the etiology of the bleeding ulcer. Patients with H pylori-associated, NSAID-associated, or idiopathic bleeding ulcers should receive therapy as outlined in the previous section. In patients who must resume NSAIDs, a COX-2–selective NSAID at the lowest effective dose plus daily PPI is recommended.
 
