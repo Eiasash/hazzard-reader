@@ -19,6 +19,8 @@ Study summary of Chapter 64; the book and the full chapter are the reference.
 **Assessment & progression**
 - Behavioral, cognitive, dementia and motor presentations are nonspecific; no imaging, laboratory or cognitive test definitively diagnoses CTE during life (p997).
 - Definitive diagnosis requires postmortem neuropathology; clinical symptoms or exposure history alone cannot establish it (p1005).
+
+> Current practice (not the book): CTE is a neuropathological diagnosis. The NINDS traumatic encephalopathy syndrome criteria are intended for research and do not establish CTE in a living person. [NINDS consensus criteria, 2021](https://pubmed.ncbi.nlm.nih.gov/33722990/).
 - Pathology generally becomes more extensive over time, involving medial temporal and deep brain structures; some individuals have an indolent course even at advanced age (p1004–1005).
 - Coexisting disease can contribute to symptom progression; TBI may also cause axonal loss, white-matter degeneration and persistent inflammation (p998–999, p1005).
 

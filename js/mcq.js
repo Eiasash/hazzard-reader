@@ -378,6 +378,16 @@ window.HazzardMCQ = (() => {
         lines.push({line:r.prefix+letters[label]+r.body,label});
       }
     }
+    // Official key notes may be appended without touching the published rationale fields.
+    if(q.kind==='past'&&q.explanation?.includes('\nKey note:')){
+      const original=q.explanationParts.flatMap(part=>Object.hasOwn(part,'text')
+        ? [part.text]
+        : part.options.map(([i,j])=>{const r=q.optionRationales[i][j];return r.prefix+r.sourceLabel+r.body;})).join('\n');
+      if(q.explanation.startsWith(original)){
+        const addition=q.explanation.slice(original.length).trim();
+        if(addition.startsWith('Key note:'))lines.push({line:addition,label:-1});
+      }
+    }
     return lines;
   }
   function explanationText(q,order=optionOrder(q)){

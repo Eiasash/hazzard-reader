@@ -27,6 +27,8 @@ Exam topics link to the marked chapter and the corresponding questions.
 
 **From falling counts to treatment.** Progressive macrocytosis followed by a second cytopenia suggests MDS. Check the smear, reticulocytes, B12, folate and iron studies, and consider copper deficiency and medicines. Marrow examination and cytogenetics establish the diagnosis. Lower-risk disease often needs transfusion support. Low serum erythropoietin and a low transfusion burden predict greater benefit from erythropoiesis-stimulating treatment. Isolated del(5q) with transfusion dependence points to lenalidomide. Higher-risk patients may benefit from a hypomethylating agent despite early myelosuppression. Frailty, goals and competing illness affect whether prolonged treatment or transplantation is feasible (pp. 1484–1486).
 
+> Current practice (not the book): Luspatercept is a first-line anemia treatment option in selected ESA-naive adults with very-low- to intermediate-risk MDS requiring regular red-cell transfusions. COMMANDS compared it with epoetin alfa. Treatment selection still depends on risk, transfusion burden and patient goals. [COMMANDS phase 3 trial, 2023](https://pubmed.ncbi.nlm.nih.gov/37311468/).
+
 ## An M-protein, or no M-spike
 
 <span data-exam-ids="mcq-39946414e0773be4fb99f910" data-reader-metadata="exam"></span>
@@ -53,6 +55,8 @@ Exam topics link to the marked chapter and the corresponding questions.
 
 **Treatment and infection risk.** When CLL is active, consider TP53 status, comorbidities and fitness in selecting a targeted regimen. Examples in the chapter include BTK inhibitors and venetoclax with an anti-CD20 antibody. BTK inhibitors can increase bleeding and atrial fibrillation risk. Review antiplatelet and anticoagulant indications. Recurrent infection is a major complication of CLL, and vaccination early in the disease course gives the immune system a better opportunity to respond (pp. 1491–1492).
 
+> Current practice (not the book): Among patients with relapsed or refractory CLL, acalabrutinib had fewer atrial fibrillation events than ibrutinib in ELEVATE-RR, and zanubrutinib improved progression-free survival versus ibrutinib in ALPINE. Choose therapy according to disease features, interactions and cardiovascular/bleeding risk. [ELEVATE-RR, 2021 and ALPINE, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC8547923/).
+
 ## Lymphoma genetics, diagnosis and treatment
 
 <span data-exam-ids="mcq-356253b1a4c51ce96b4853a6" data-reader-metadata="exam"></span>
@@ -72,7 +76,7 @@ Exam topics link to the marked chapter and the corresponding questions.
 
 ## Active myeloma and related disorders
 
-**Match treatment to reserve and organ function.** Active myeloma usually requires systemic therapy. Assess the marrow clone, cytogenetics, renal function, bone disease and capacity to tolerate combination treatment. The book’s revised staging system combines albumin, beta-2 microglobulin, LDH and high-risk cytogenetics. Lenalidomide dosing depends on renal function, and thrombosis and cytopenias are important toxicities. Weekly subcutaneous bortezomib is better tolerated than the older twice-weekly intravenous schedule. Review neuropathy and antiviral prophylaxis. A fit older adult may be eligible for autologous transplantation, while frailty may favor fewer agents or lower doses. New weakness with back pain raises concern for spinal cord compression (pp. 1504–1506).
+**Match treatment to reserve and organ function.** Active myeloma usually requires systemic therapy. Assess the marrow clone, cytogenetics, renal function, bone disease and capacity to tolerate combination treatment. The book’s revised staging system combines albumin, beta-2 microglobulin, LDH and high-risk cytogenetics. Lenalidomide dosing depends on renal function, and thrombosis and cytopenias are important toxicities. Review neuropathy and antiviral prophylaxis. A fit older adult may be eligible for autologous transplantation, while frailty may favor fewer agents or lower doses. New weakness with back pain raises concern for spinal cord compression (pp. 1504–1506).
 
 **A focal mass and a systemic protein disorder need different investigations.** Biopsy a suspected solitary plasmacytoma and examine marrow and imaging for disease elsewhere. Local radiation can be curative, with follow-up for progression to myeloma. In AL amyloidosis a small clone produces pathogenic light chains. Proteinuria, cardiomyopathy, neuropathy, macroglossia or periorbital purpura can provide clues. Confirm amyloid in tissue and type the deposit because a coincidental monoclonal protein can accompany a different amyloid. Cardiac involvement strongly affects prognosis, and treatment targets the plasma-cell clone (p1506).
 

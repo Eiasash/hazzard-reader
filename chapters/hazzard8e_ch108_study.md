@@ -33,6 +33,8 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
   > Current practice (not the book): The FDA’s original approval letter is dated **December 19, 2014** (Rapivab, application 206426).
 - **Baloxavir marboxil (oral)** — polymerase inhibitor, approved **2018**; also 48-hour window; resistance emerges quickly, limiting use (p1736).
 
+> Current practice (not the book): Baloxavir is an oral single-dose option for eligible outpatients with acute uncomplicated influenza, including selected patients at high risk for complications. Dose by body weight and avoid coadministration with products containing polyvalent cations. Hospitalized severe influenza has a different evidence base. [Xofluza US label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b58b2899-4d22-41e1-8f0c-bdead8917694).
+
 ### Herd Immunity — Immunizing Children
 - Tecumseh, MI: immunizing **86%** of children in a 7,500-person community reduced adult influenza by **a third** vs. an unimmunized adjacent community (p1736).
 - Japan immunized school-children **1962–1994**; excess mortality fell to US-comparable levels and **rebounded** rapidly once the program stopped in 1994 — evidence for vaccine-induced herd immunity (p1736).
@@ -62,6 +64,8 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 - RT-PCR (nasopharyngeal) is the diagnostic cornerstone; turnaround **15 minutes to several days**; POC antigen tests return results in **under an hour** but are validated only in symptomatic patients (p1739).
   > Current practice (not the book): FDA guidance covers home antigen testing without symptoms by serial testing — after a negative, retest at 48 h and again 48 h later (at least 3 tests) — FDA, 2024.
 - **Dexamethasone** reduces mortality in patients needing oxygen/ventilation, no benefit if not requiring respiratory support (p1739).
+
+> Current practice (not the book): Treat high-risk outpatients early. Options include nirmatrelvir–ritonavir within 5 days, after checking interactions and renal dosing, or a 3-day course of IV remdesivir begun within 7 days. Consider molnupiravir only when preferred agents are unsuitable. In hospitalized patients with progressive severe or critical disease despite corticosteroids, baricitinib or tocilizumab may be added according to the clinical setting. [IDSA COVID-19 living guideline, 2026](https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/).
 - The book reports **more than 90% effectiveness in preventing infection** for promising vaccine candidates (p1740).
 
   > Current practice (not the book): The primary efficacy endpoints in the initial mRNA trials were symptomatic COVID-19. [Polack et al., 2020](https://doi.org/10.1056/NEJMoa2034577) · [Baden et al., 2021](https://doi.org/10.1056/NEJMoa2035389).

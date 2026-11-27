@@ -3,7 +3,7 @@
   const version = __RELEASE__;
   window.HazzardRelease = Object.freeze({version});
   function start() {
-    const chip=document.getElementById('readerStatusChip'),detail=document.getElementById('releaseStatus');
+    const detail=document.getElementById('releaseStatus');
     const legacy=document.getElementById('offlineReady'),sw=navigator.serviceWorker;
     const action=document.getElementById('downloadOffline'),summary=document.getElementById('appearanceSummary');
     let complete=false,percent=0,running=false,requested=false,failed=false,registrationFailed=false;
@@ -11,10 +11,8 @@
       const unavailable=!sw||registrationFailed;
       const offline=complete?'Offline ready':unavailable?'Offline storage unavailable':!navigator.onLine?'Offline copy incomplete':
         failed?'Offline download interrupted':running||requested?'Saving offline copy · '+percent+'%':sw.controller?'Offline copy incomplete':'Preparing offline storage';
-      chip.dataset.readiness=complete?'ready':'incomplete';
-      chip.dataset.status=navigator.onLine?'online':'offline';
-      chip.setAttribute('aria-label',version+' · '+offline);
-      chip.closest('button').title='Settings · '+offline;
+      detail.dataset.readiness=complete?'ready':'incomplete';
+      detail.dataset.status=navigator.onLine?'online':'offline';
       detail.textContent=version+' · '+offline;
       if(summary){summary.textContent=version+' · '+offline;summary.title='Storage and offline details';}
       if(action){

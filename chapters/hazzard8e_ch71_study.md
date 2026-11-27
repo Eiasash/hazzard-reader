@@ -31,7 +31,7 @@ Study summary of Chapter 71; the book and the full chapter are the reference.
 
 ### What to say when the conversation stalls
 
-- In studies summarized by the chapter, **61% to 91%** of older participants wanted to discuss end-of-life care with their clinicians. Patients saw a chance to spare loved ones uncertainty later. Ask whom to include, whether the patient wants detailed prognostic information, and when to return to the discussion (p1089–1091).
+- Patients saw a chance to spare loved ones uncertainty later. Ask whom to include, whether the patient wants detailed prognostic information, and when to return to the discussion (p1089–1091).
 - When someone reacts to bad news with silence or anger, pause the explanation. Identify the emotion, acknowledge it and ask what is most frightening. Once that concern is understood, check whether the person is ready for more information or wants help with a decision (p1091, p1095).
 - Anchor surrogate decisions in the patient's prior words, values or advance directive. Asking what the patient would choose can ease the sense that a relative must make a personal choice about someone else's life. If there is no reasonable basis to infer a choice, discuss benefits and burdens for this patient (p1092–1093).
 - In one study of **323** proxies for people with advanced dementia, **40%** recalled making at least one medical decision. Feeding and infections were common subjects. Explain in advance that feeding difficulty may worsen as part of dementia, and discuss what careful hand feeding can offer (p1092–1094).

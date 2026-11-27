@@ -2,8 +2,6 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 
 # Chapter 105 Study: Bacterial Pneumonia and Tuberculosis
 
-## Summary
-
 ## Definition & Epidemiology
 - Pneumonia (clinical definition) = symptoms (fever, chills, cough, pleuritic pain) + signs (hyper-/hypothermia, raised RR, dullness, crackles, wheezing, pleural rub) + an opacity on chest x-ray; research definitions require ≥2 symptoms, ≥1 sign, and a new opacity not due to other conditions (p1679).
 - Incidence **2-10** cases/1000/yr overall; in patients >65, European/US registries report **25-40**/1000/yr with **7%-35%** mortality (p1680).
@@ -28,6 +26,8 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - *Pseudomonas* is uncommon in older adults overall (**1%-2%**), but should be suspected with severe COPD (FEV1 <35%), multiple prior antibiotic courses, ICU admission and/or bronchiectasis, or prior colonization (p1683).
 - Risk factors for less-common pathogens (Table 105-2, p1682): **ESBL-producing Enterobacteriaceae** — prior antibiotics, hemodialysis, long-term indwelling urinary catheter, long-stay-center residence, recent hospitalization, diabetes, or recurrent UTIs; **aspiration-prone Enterobacteriaceae/anaerobes** — functional impairment, dysphagia, GERD, history of vomiting, cerebrovascular disease, dementia, periodontal disease, or poor oral hygiene; **MRSA** — wound/bedsore care, serious illness plus recent hospitalization plus prior IV antibiotics plus institutionalization, previous colonization, or superinfection during an influenza epidemic.
 - Exposure-specific pathogens (Table 105-3, p1683): bird/fowl/farm-animal contact → *Chlamydophila psittaci*; rabbit contact → *Coxiella burnetii*; bat contact or residence in an endemic area → *Histoplasma capsulatum*; air-conditioning/cooling-tower exposure → *Legionella pneumophila*; travel to Southeast Asia → *Burkholderia pseudomallei*, avian influenza; alcohol intoxication → *S pneumoniae*, *K pneumoniae*, anaerobes, *S aureus*; prison inmates → *S pneumoniae*, *M tuberculosis*; advanced HIV → *S pneumoniae*, *H influenzae*, *P jiroveci*, *M tuberculosis*.
+
+> Current practice (not the book): Table 105-3 prints the farm-animal and rabbit associations [sic]. In the CAP guideline’s exposure table, birds suggest psittacosis, contact with farm animals or parturient cats suggests Q fever (Coxiella burnetii), and rabbit exposure suggests tularemia (Francisella tularensis). [IDSA/ATS CAP guideline, Table 5, 2007](https://doi.org/10.1086/511159).
 - Shorr MRSA prediction score: low risk if total score **≤1** (p1683).
 
 ## Diagnosis & Severity Stratification
@@ -50,10 +50,16 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 <span data-exam-page="1688"></span>
 
 - CAP treatment tiers (Table 105-8, p1688): non-frail patients get cephalosporin or amoxicillin/clavulanate + azithromycin/fluoroquinolone, escalating in severe disease to ± linezolid/vancomycin, ± antipseudomonal agent, ± oseltamivir; **prefrail** patients get amoxicillin/clavulanate or ceftriaxone/cefotaxime/ceftaroline + azithromycin/fluoroquinolone; **frail** patients get a different regimen, not the same combo broadened — ertapenem, or amoxicillin/clavulanate, or ceftriaxone + clindamycin.
+
+> Current practice (not the book): For suspected aspiration pneumonia, avoid routinely adding anaerobic coverage unless a lung abscess or empyema is suspected. [ATS/IDSA CAP guideline, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6812437/).
 - Directed treatment (Table 105-9, p1688): *Pseudomonas aeruginosa* — piperacillin/tazobactam or imipenem or meropenem or cefepime, plus levofloxacin or ciprofloxacin or amikacin or tobramycin; ESBL-producing Enterobacteriaceae — ertapenem; MRSA — add linezolid or vancomycin. Empirical late HAP (≥5 days) or HAP with risk factors (Table 105-10): ceftazidime or cefepime or imipenem or meropenem or piperacillin/tazobactam, plus ciprofloxacin or levofloxacin or amikacin or tobramycin, ± linezolid or vancomycin (p1688).
+
+> Current practice (not the book): For ESBL-producing Enterobacterales infections outside the urinary tract, IDSA prefers a carbapenem. In critical illness or hypoalbuminemia, meropenem or imipenem-cilastatin is preferred to ertapenem. Tailor definitive therapy to susceptibility, source and clinical response. [IDSA antimicrobial-resistance guidance, 2024](https://pubmed.ncbi.nlm.nih.gov/39108079/).
 - Quinolones should not be prescribed when pulmonary tuberculosis is suspected, because of their tuberculostatic activity and the possibility of delaying the TB diagnosis (p1689).
 - Treatment failure = no clinical stability by **3-4 days**, or deterioration/respiratory failure/septic shock in the first **72 h**; associated with a **fivefold** increase in mortality. However, stability may take longer **without implying therapeutic failure** in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure) (p1690).
 - A **5-7 day** course is sufficient for most pneumonia even in older adults; extend for *Legionella*, resistant GNB, or MRSA, or for persistent fever beyond **72 h**, persistence of >1 instability criterion, inadequate initial coverage, or complications (p1690).
+
+> Current practice (not the book): The 2025 ATS guideline conditionally supports fewer than five days of antibiotics, with a minimum of three days, in selected outpatients and nonsevere inpatients once stable. Severe CAP generally requires at least five days. Organism, complications and clinical response can require longer treatment. [ATS CAP guideline update, 2025](https://pubmed.ncbi.nlm.nih.gov/40679934/).
 
 <span data-exam-page="1690"></span>
 
@@ -75,11 +81,17 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - Two-step tuberculin test for initial geriatric screening (older adults have increased cutaneous anergy): a negative first test (induration **<10 mm**) is followed by a repeat test at **2 weeks**; positive = **≥10 mm** and an increase of **≥6 mm** over the first test (p1693).
 - Isoniazid causes hepatotoxicity in up to **4%-5%** of patients >65 y, versus **<1%** in those <65 y (p1694).
 - Chemoprophylaxis is generally reserved for a Mantoux induration increase **≥15 mm** over a prior negative test; in close contacts of active TB and other high-risk individuals **with negative TST or IGRA**, preventive treatment should also be considered, unless contraindicated (p1694).
+
+> Current practice (not the book): CDC interprets TST induration by risk category. Thresholds are ≥5 mm in highest-risk groups, ≥10 mm in additional defined risk groups, and ≥15 mm in people with no known risk factors. Exclude active disease before treating latent infection. [CDC TST clinical testing guidance, 2025](https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html).
 - Hazzard usually treats latent TB with **9 months of isoniazid** unless resistance is suspected. **4 months of rifampin** is the alternative for isoniazid resistance or intolerance, and **12 weeks of isoniazid plus rifapentine** was also effective (p1694).
   > Current practice (not the book): when suitable, short rifamycin-based courses are preferred, including 3 months of weekly isoniazid plus rifapentine or 4 months of daily rifampin. Daily isoniazid for 6 or 9 months is an alternative — [NTCA/CDC guideline, 2020](https://www.cdc.gov/mmwr/volumes/69/rr/rr6901a1.htm).
 - Standard active-TB regimen: 4-drug intensive phase **2 months**, then 2-drug continuation phase **≥4 months** (total **6 months**); extend the continuation phase to **7 months** (9 months total) for cavitary disease plus a positive culture at month 2, or if the intensive phase omitted pyrazinamide (p1694).
+
+> Current practice (not the book): For eligible people aged 12 or older with drug-susceptible pulmonary TB, the updated ATS/CDC/ERS/IDSA guideline conditionally recommends the four-month rifapentine–moxifloxacin regimen. Confirm susceptibility and suitability with the TB programme. [ATS/CDC/ERS/IDSA TB guideline, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11755361/).
 - Drug-resistant TB varies with the resistance pattern; the book describes older **18–24 month** regimens, but current guidance recommends **six-month regimens for eligible adults** with rifampin-resistant pulmonary TB, selected according to susceptibility and treatment history (p1694; ATS/CDC/ERS/IDSA guideline update, 2025).
-- First-line regimen exceptions (Table 105-12, p1695): give pyridoxine **10-50 mg/day** with isoniazid if alcoholic, malnourished, diabetic, or has kidney failure (peripheral neuropathy risk); if isoniazid or rifampin can't be used (toxicity/resistance), substitution regimens with the remaining first-line drugs ± moxifloxacin exist — it isn't an automatic jump to second-line/MDR therapy.
+- First-line regimen exceptions (Table 105-12, p1695): give pyridoxine **10-50 mg/day** with isoniazid if alcoholic, malnourished, diabetic, or has kidney failure (peripheral neuropathy risk); the chapter describes substitutions when a first-line drug cannot be tolerated. Rifampin resistance requires a susceptibility-directed drug-resistant TB regimen.
+
+> Current practice (not the book): Manage rifampin-resistant pulmonary TB on the drug-resistant pathway with specialist input and rapid susceptibility testing. For eligible patients aged 14 years or older with fluoroquinolone-susceptible MDR/RR pulmonary TB, the guideline recommends the 6-month bedaquiline–pretomanid–linezolid–moxifloxacin regimen. [ATS/CDC/ERS/IDSA, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11755361/).
 - Asymptomatic AST elevation occurs in **~20%** of patients on the standard 4-drug regimen and usually resolves spontaneously (p1696).
 - Stop hepatotoxic TB drugs if bilirubin **≥3 mg/dL** or transaminases **>5x** the upper limit of normal (or **>3x** ULN with symptoms of hepatitis) (p1696).
 
@@ -99,7 +111,7 @@ Recent hospitalization (4 pts), admission from long-term care (3 pts), hemodialy
 
 <details><summary>Answer</summary>
 
-20% (US) vs 35% (Europe) (p1683).
+In the cited surveillance study, 20% of isolated Klebsiella spp. in the United States and 35% in Europe were ESBL-producing (p1683).
 
 </details>
 

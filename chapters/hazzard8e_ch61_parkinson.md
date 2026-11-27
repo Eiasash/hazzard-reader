@@ -380,6 +380,8 @@ Nondopaminergic agents (Table 61-7) are useful to treat both motor and nonmotor 
 
 Depression is common in patients with PD, and often precedes the motor symptoms of PD. Selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), and other antidepressants including bupropion and tricyclic antidepressants are useful antidepressants. If insomnia is a problem for the patient, using an antidepressant that is also a soporific can be doubly advantageous: medications such as the tricyclic nortriptyline (which has fewer anticholinergic effects than amitriptyline) or an SNRI, such as low-dose mirtazapine, are good options. Recent data also suggest cognitive behavioral therapy (CBT) may improve PD depression more than existing medication-based approaches and can be delivered through telephone/virtual appointments.
 
+> *[sic — Mirtazapine is an antidepressant with central presynaptic α2-adrenergic antagonist activity. The printed SNRI classification is a misprint. [DailyMed prescribing information, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7727fe84-f6cc-4b31-bc00-1ecf741ad361).]*
+
 Benzodiazepines including clonazepam are effective in reducing symptoms of dream enactment behavior attributable to rapid eye movement (REM) sleep behavior disorder (RBD). Nevertheless, they should be used with caution given their potential for cognitive side effects, increased risk of falls, rebound anxiety, and addictive potential.
 
 Psychosis induced by levodopa and the dopamine agonists can usually be controlled by quetiapine and clozapine without worsening the parkinsonism. Other antipsychotic agents—be they typical or atypical neuroleptic mediations—are more likely to worsen the parkinsonism; therefore, they should be avoided. Clozapine is more effective than quetiapine, but because clozapine treatment requires weekly blood cell counts due to risk of agranulocytosis, low-dose quetiapine should be tried first.
@@ -403,6 +405,8 @@ Mild cognitive symptoms can be seen in some PD patients with early disease and w
 Orthostatic hypotension is common in PD and can be due to the disease itself or to dopaminergic medications, the latter of which lower blood pressure. It can also represent an early manifestation of an atypical parkinsonian condition, namely MSA. Fludrocortisone, midodrine, or droxidopa can overcome this symptom to some extent.
 
 Constipation is common in PD. It may be further aggravated by anticholinergic medications. Besides changing dietary habits by increasing intake of more fiber and dried fruits, polypropylene glycol, or lubiprostone can be effective. For those who have bloating because of suppression of peristalsis when they are “off,” keeping them “on” with levodopa can be beneficial.
+
+> *[sic — The osmotic laxative is polyethylene glycol 3350. The printed name “polypropylene glycol” is a misprint. [DailyMed prescribing information, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d69ce3d4-7ca4-4fe3-b49e-6655e48d6963).]*
 
 ### Diet
 

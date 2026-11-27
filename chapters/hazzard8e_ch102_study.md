@@ -2,8 +2,6 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 
 # Chapter 102 Study: Back Pain and Spinal Stenosis
 
-## Summary
-
 ## Epidemiology & classification
 - Prevalence of back pain in older adults ranges **27% to 86%** depending on population/criteria; Israeli cohort: **44%** of 70-year-olds, **58%** of 77-year-olds; Framingham (ages 68–100): **22%** reported back pain on most days (p1629).
 - Second most common reason for a physician visit; annual all-cause costs related to back pain exceed **$350 billion** (p1629).
@@ -51,8 +49,14 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 ## Management
 - Etiology-specific: tumor/infection therapy is straightforward, albeit often difficult; management of VCF, lumbar stenosis, and mechanical LBP is less clear (p1638).
 - VCF: activity modification, analgesics (acetaminophen, NSAIDs, mild opioids, tramadol); calcitonin (**2- to 4-week** course) gives some additional analgesia in the acute stage; complete bed rest not recommended; avoid long-term bracing (p1638).
+
+> Current practice (not the book): Assess renal, bleeding, cardiovascular and fall risks before prescribing analgesia for an older patient with a new vertebral fracture. The WHO chronic primary low-back-pain guideline discourages routine opioids for chronic primary pain; its recommendations are not an acute fracture regimen. [WHO guideline for chronic primary low back pain, 2023](https://www.who.int/publications/i/item/9789240081789).
 - Vertebral augmentation (vertebroplasty/kyphoplasty): evidence is low quality; one nonrandomized kyphoplasty study (pain > 1 year) of **40** treated vs **20** control patients showed fewer new fractures and better pain scores at **1 year**; reserve for persistent severe pain despite conservative therapy (p1638).
+
+> Current practice (not the book): Sham-controlled trials do not support routine vertebroplasty for osteoporotic compression fractures. Evidence for kyphoplasty against sham is more limited. Reassess analgesia, function and the diagnosis when pain persists. [ASBMR vertebral augmentation Task Force, 2019](https://pubmed.ncbi.nlm.nih.gov/30677181/).
 - Lumbar spinal stenosis: conservative therapy first (PT, analgesics, ± epidural steroid injection); a **400**-patient RCT found **minimal/no short-term benefit** of epidural steroids plus lidocaine over lidocaine alone; SPORT trial (younger patients, average age in the 40s) showed surgical benefit from 3 months sustained to **2 years**, but by **8-year** follow-up **52%** of the nonoperative arm had crossed over to surgery (p1639).
+
+> Current practice (not the book): The chapter gives the SPORT participants’ average age as the 40s [sic]. In the lumbar stenosis study, mean baseline age was 65.5 years in the randomized cohort and 63.9 in the observational cohort. Crossover complicates interpretation of the long-term treatment comparison. [Lurie et al., SPORT, Table 1, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4288009/).
 - Surgical complication rates for lumbar decompression: **1.8% to 18%** (wound infection, durotomy, nerve root injury, vascular complications, epidural hematoma, implant failure, adjacent-segment degeneration, nonunion) (p1639).
 - Mechanical LBP: isometric abdominal strengthening, back protection maneuvers, lumbar sacral corsets (avoid prolonged use — disuse/deconditioning); spinal fusion reserved for intractable severe LBP with radiographic progressive deformity, dynamic instability, or pars interarticularis defects (p1639).
 - DISH needs no therapy; sacral insufficiency fracture pain resolves in 4–6 weeks with analgesics, and antiresorptive therapy should be started to prevent future fractures; sciatica usually improves without therapy — surgery only if it persists despite conservative trials (p1639–1640).

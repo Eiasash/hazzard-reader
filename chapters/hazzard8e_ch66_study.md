@@ -93,6 +93,8 @@ Snoring, witnessed pauses and daytime sleepiness suggest sleep-disordered breath
 
 The book describes ropinirole and pramipexole for restless legs and limb movements, and clonazepam for REM sleep behavior disorder with particular concern about daytime sedation in older adults. For insomnia it discusses zolpidem, zaleplon and eszopiclone; short-term efficacy does not remove risks to gait, alertness and cognition. Ramelteon acts at melatonin receptors. Start with changes directed at the history and behavioral approaches to insomnia, then reassess the specific complaint. The chapter provides no standard milligram schedule for these drugs that can be applied across all of these sleep diagnoses (p1035–1036).
 
+> Current practice (not the book): Avoid zolpidem, eszopiclone and zaleplon in most older adults. Their small average sleep benefit must be weighed against delirium, falls, fractures and other adverse effects. [AGS Beers Criteria, Table 2, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
+
 > Current practice (not the book): For adult restless legs syndrome, AASM advises against routine long-term use of pramipexole or ropinirole because augmentation can make symptoms start earlier or become more intense. Its recommendations favor gabapentin-class options for appropriate patients and include assessment of iron status. - [American Academy of Sleep Medicine guideline, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
 
 ### Alcohol, sedatives and other substances

@@ -2,8 +2,6 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 # Chapter 101 Study: Rheumatoid Arthritis and Other Autoimmune Diseases
 
-## Summary
-
 ## RA — definition & classification
 
 <span data-exam-page="1608"></span>
@@ -39,7 +37,11 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 - Methotrexate monotherapy = first-line for DMARD-naïve moderate-high activity, started **without short- or long-term glucocorticoids** (2021 ACR guideline) (p1615, p1616)
 - Hydroxychloroquine dose **5 mg/kg**; **annual ocular screening**, preferably with OCT — avoid in macular degeneration/inoperable dense cataracts (p1614)
+
+> Current practice (not the book): Use actual body weight when calculating hydroxychloroquine dose and generally stay at or below 5 mg/kg/day. Baseline retinal assessment and subsequent screening depend on duration, kidney function and other toxicity risks. OCT and fundus autofluorescence are core screening methods in the updated recommendations. [AAO hydroxychloroquine retinopathy recommendations](https://pubmed.ncbi.nlm.nih.gov/26992838/).
 - Biologic/tsDMARD added if not at target on max-tolerated methotrexate, preferred over triple csDMARD therapy (p1615, p1616)
+
+> Current practice (not the book): US labeling reserves tofacitinib, baricitinib and upadacitinib for patients with an inadequate response or intolerance to at least one TNF blocker. The boxed warnings address major cardiovascular events, cancer, thrombosis and death. Discuss these risks before treatment, particularly in older adults with cardiovascular risk, a smoking history or malignancy risk. [FDA JAK-inhibitor safety communication, 2021](https://www.fda.gov/safety/medical-product-safety-information/janus-kinase-jak-inhibitors-drug-safety-communication-fda-requires-warnings-about-increased-risk).
 
 ## RA — biologics safety & steroids
 
@@ -91,13 +93,15 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 
 - **Hypertrophic osteoarthropathy** = most common malignancy-associated rheumatic syndrome, almost always from metastatic **lung cancer** (p1625)
 - Methotrexate-associated lymphoma: **~50%** harbor EBV genome, often regresses on drug cessation (p1626)
-- Azathioprine + cyclosporin A in RA → **2×** lymphoma risk; renal transplant on cyclosporin A → **50-fold** increased NHL risk (p1626)
+- Azathioprine or cyclosporin A in RA → **2×** lymphoma risk; renal transplant on cyclosporin A → **50-fold** increased NHL risk (p1626)
 - Aromatase inhibitors: as many as **half** of women get subjective joint achiness or pain, rarely frank arthritis (p1626–1627)
 
 ## COVID-19 and rheumatic disease (Table 101-11)
 
 - Historical vaccine schedule in this edition: mRNA vaccines were preferred to J&J, and an extra dose at least 28 days after the primary series was advised for immunosuppressed patients (p1627–1628)
 - Rituximab: vaccinate **2–4 weeks before** next anticipated dose; most other agents held **1–2 weeks** post-vaccination if disease activity allows — but the Task Force reached **no consensus** on interrupting TNF/IL-6R/IL-1R/IL-17/IL-12,23/IL-23 inhibitors around vaccination (Table 101-11, p1628)
+
+> Current practice (not the book): For COVID-19 vaccination, ACR guidance timing varies by drug and disease activity. The panel did not reach consensus on holding TNF inhibitors or other cytokine inhibitors. Coordinate rituximab timing separately; a class-wide pause is inappropriate. [ACR COVID-19 vaccination guidance, version 5, 2023](https://pubmed.ncbi.nlm.nih.gov/36345691/).
 
 ## Recall
 

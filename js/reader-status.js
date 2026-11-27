@@ -3,7 +3,6 @@
   const VERSION = 'v332', RELEASED = '27.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
-    const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
     const updateButton = document.createElement('button');
     updateButton.id = 'readerUpdateButton'; updateButton.type = 'button'; updateButton.hidden = true;
     document.body.append(updateButton);
@@ -26,15 +25,11 @@
       clearTimeout(pauseTimer);
       const delay = cloud?.pauseAt - Date.now();
       if (navigator.onLine && delay >= 0) pauseTimer = setTimeout(render, Math.min(delay + 1, 2147483647));
-      chip.dataset.readiness = waiting() || applying || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
-      chip.dataset.status = state;
-      const chipText = state === 'waiting' ? VERSION + ' - update available' : text;
+      detail.dataset.readiness = waiting() || applying || registration?.installing ? 'pending' : complete ? 'ready' : 'incomplete';
+      detail.dataset.status = state;
       const notebook=document.querySelector('#appTabs [data-tab="notebook"]');
       notebook.toggleAttribute('data-sync-paused',!!cloud?.paused);
       notebook.setAttribute('aria-label',cloud?.paused?'Notebook · Cloud paused':'Notebook');
-      chip.textContent = '';chip.setAttribute('aria-label',chipText);
-      button.title = 'Settings — ' + chipText;
-      button.setAttribute('aria-label', button.title);
       updateButton.hidden = state !== 'waiting';
       updateButton.textContent = text;
       updateButton.disabled = applying;
@@ -100,28 +95,8 @@
     addEventListener('hazzard-cloud-status', render);
     document.addEventListener('visibilitychange', () => {
       if(document.hidden||applying)return;
-      // Lock synchronously on return, before a tap can reach an old release.
-      const root=document.documentElement,wasInert=root.inert;root.inert=true;
-      const controller=sw?.controller;
-      if(!controller){root.inert=wasInert;return;}
-      const channel=new MessageChannel();
-      const finish=()=>{clearTimeout(timeout);channel.port1.close();root.inert=wasInert;};
-      const timeout=setTimeout(finish,5000);
-      channel.port1.onmessage=async event=>{
-        if(!document.hidden&&parseInt(event.data?.version?.slice(1),10)>parseInt(VERSION.slice(1),10)){
-          clearTimeout(timeout);channel.port1.close();
-          if(applying){root.inert=wasInert;return;}
-          applying=true;newerController=true;saveError='';render();
-          try{await window.HazzardPrepareUpdate();location.reload();}
-          catch(error){
-            applying=false;saveError=error.message||'Could not save before update.';
-            root.inert=wasInert;render();detail.textContent+=' - '+saveError;
-          }
-          return;
-        }
-        finish();requestStatus();
-      };
-      controller.postMessage({type:'HAZZARD_VERSION'},[channel.port2]);
+      requestStatus();
+      if(navigator.onLine)registration?.update().catch(()=>{});
     });
     if (sw) {
       sw.addEventListener('message', async event => {

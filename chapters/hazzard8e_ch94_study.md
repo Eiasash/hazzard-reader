@@ -39,6 +39,8 @@ Study summary of Chapter 94 - Aging of the Hematopoietic System and Anemia; the 
 
 **Acute ischemia and an adapted chronic baseline require different decisions.** The chapter describes a general restrictive threshold of 7 g/dL and 8 g/dL in patients with symptoms of end-organ ischemia. New chest pain or dyspnea with hemoglobin of 7.6 g/dL after previously tolerating chronic anemia changes the immediate decision. In the contrasting example of asymptomatic chronic hemolysis at a usual level of 6 g/dL, trying to maintain 7 g/dL adds transfusions without improving daily life. Examine the change from baseline, comorbidities, symptoms and treatment burden each time. New chest pain also warrants urgent assessment for acute coronary syndrome. Weekly injections can be a substantial burden for a frail patient (p1480).
 
+> Current practice (not the book): For most hemodynamically stable hospitalized adults, consider red-cell transfusion when Hb is below 7 g/dL. Thresholds of 7.5 g/dL in cardiac surgery and 8 g/dL in orthopedic surgery or pre-existing cardiovascular disease are reasonable choices. Acute MI has separate evidence. [AABB international guideline, 2023](https://pubmed.ncbi.nlm.nih.gov/37824153/).
+
 > Current practice (not the book): For hospitalized patients with acute myocardial infarction, AABB conditionally suggests a more liberal transfusion strategy when hemoglobin is below 10 g/dL, with low-certainty evidence. [AABB, 2025 AMI transfusion guideline](https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami).
 
 ## Why the aging marrow matters

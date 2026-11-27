@@ -28,7 +28,7 @@ window.HazzardStudyPage = (() => {
   // fragment in its original mark unit, including the first piece of text.
   function practiceDisclosure(){
     const details=document.createElement('details'), summary=document.createElement('summary');
-    details.className='study-current-practice';
+    details.className='study-current-practice';details.open=true;
     summary.dataset.readerMetadata='study-heading';
     summary.textContent='Current practice';
     details.append(summary);

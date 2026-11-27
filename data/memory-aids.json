@@ -114,7 +114,7 @@
             ]
           }
         ],
-        "note": "The book says patients may need these precautions after a posterolateral approach; raised toilet seats limit excessive flexion.",
+        "note": "After a posterior approach, the combination of hip flexion beyond 90°, adduction and internal rotation can provoke posterior dislocation. Follow the surgeon’s precautions for the individual procedure (Hazzard p832).",
         "source": "Hazzard 8e, printed page 832",
         "tested": {
           "sitting": "2024-May",
@@ -211,7 +211,7 @@
             ]
           }
         ],
-        "note": "The book’s clinically established PD description also requires bradykinesia, no exclusionary criteria and ≥2 of these four supportive criteria.",
+        "note": "Hazzard lists four supportive criteria (p940). In the MDS criteria, parkinsonism requires bradykinesia with rest tremor or rigidity. Clinically established PD requires no absolute exclusion, at least two supportive criteria and no red flags. Clinically probable PD permits up to two red flags only if each is counterbalanced by a supportive criterion (MDS, 2015).",
         "source": "Hazzard 8e, printed page 940",
         "tested": {
           "sitting": "2026-Jun",
@@ -407,7 +407,7 @@
             ]
           }
         ],
-        "note": "",
+        "note": "Hazzard includes intranodular vascularity. ACR TI-RADS scores composition, echogenicity, shape, margins and echogenic foci. Doppler vascularity carries no points in that score (ACR TI-RADS, 2017).",
         "source": "Hazzard 8e, printed page 1555",
         "tested": {
           "sitting": "2025-Jun",
@@ -518,7 +518,7 @@
             ]
           }
         ],
-        "note": "The book’s CHA2DS2-VASc maximum is 9; the age tiers are not added together.",
+        "note": "Table 77-7A prints “primary MI” [sic] under vascular disease; the validated component is prior myocardial infarction, PAD or aortic plaque. The historical maximum is 9, with mutually exclusive age bands. ESC 2024 uses CHA₂DS₂-VA, which omits sex and has a maximum of 8.",
         "source": "Hazzard 8e, printed page 1202",
         "tested": {
           "sitting": "2024-Sep",

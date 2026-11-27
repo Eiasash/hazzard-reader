@@ -4,8 +4,6 @@ Study summary of Chapter 106; the book and the full chapter are the reference.
 
 **Full chapter available: [Read Chapter 106](?chapter=106).**
 
-## Summary
-
 ## Definition & epidemiology
 - ASB is bacteriuria, with or without pyuria, without localizing genitourinary symptoms; bacteriuria in older adults is usually asymptomatic colonization. (p. 1699)
 <a id="p1700"></a>
@@ -45,6 +43,8 @@ Study summary of Chapter 106; the book and the full chapter are the reference.
 - TMP/SMX **160/800 mg twice daily for 3 days**; avoid empiric use when local uropathogen resistance exceeds **20%**. (p. 1708)
 <a id="p1709"></a>
 - TMP/SMX interacts with warfarin and sulfonylureas; monitor increased INR/hypoglycemia risk. (p. 1709)
+
+> Current practice (not the book): Trimethoprim–sulfamethoxazole increases hyperkalemia risk with ACE inhibitors, ARBs and ARNIs, especially with impaired kidney function. Review the indication, renal dose, potassium and interacting medicines. [AGS Beers Criteria, 2023](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12478568).
 - Fosfomycin **3 g once orally**: generally reserved for resistant pathogens or inability to use other first-line drugs; not for complicated UTI. (p. 1709)
 <a id="p1711"></a>
 - Most older men with simple cystitis: **7 days** if response is prompt, within **72 hours**; assess for extension beyond the bladder. (p. 1711)
@@ -120,6 +120,8 @@ The cranberry capsule study in long-term care used **36–108 mg of proanthocyan
 Local estrogen can restore a more favorable vaginal environment after menopause. Two trials studied vaginal cream containing **0.5 mg estriol** and a ring containing **2 mg estradiol**. Both reported benefit individually, but the pooled risk estimate crossed the null. In one estriol study the rates were **0.5 versus 5.9 episodes per patient-year**. Irritation, burning and itching were generally mild in that report. Consider vaginal estrogen for recurrent infection and coordinate with oncology when there is a personal history or high risk of estrogen-dependent malignancy. It does not infer that systemic estrogen has the same preventive effect (p1713).
 
 Before prophylactic antibiotics, document that the recurrences were symptomatic, resolved between episodes and are burdensome enough to justify prolonged exposure. An uncorrectable structural problem, infected stone or repeatedly symptomatic prostatic source is a different situation from persistently positive routine cultures. Balance possible prevention against resistant organisms, adverse reactions and *C. difficile*. The chapter describes uncertain evidence for methenamine salts, probiotics, vitamin C and D-mannose at the time of writing. The presence of these options in the prevention section is not evidence of equivalent effectiveness in frail residents (p1713–1714).
+
+> Current practice (not the book): Daily D-mannose did not reduce medically attended suspected UTI in a placebo-controlled primary-care trial. For women with recurrent uncomplicated UTI, discuss evidence-based prevention options, including methenamine hippurate when appropriate. [D-mannose randomized trial, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11002776/).
 
 Preventing CAUTI means avoiding the device when possible, inserting it aseptically when needed, maintaining closed drainage and flow, and reviewing its ongoing indication. Keep the collection bag below bladder level. Routine irrigation or fixed-interval changes can disrupt the system; consider replacement for obstruction, infection or a break in the system. A facility's culture ordering, device days and antibiotic prescribing can reveal different causes of overuse. A facility ordering cultures for every fall needs a different intervention from one obtaining appropriate cultures but continuing broad therapy despite results. Figure 106-3 pairs practical tools such as symptom-based order sets, a culture follow-up process and prescribing feedback with the specific failure being addressed (p1714–1716).
 

@@ -22,6 +22,8 @@ Study summary of Chapter 39; the book and the full chapter are the reference.
 - Hyponatremia symptoms depend on severity and speed of onset; chronic cases can appear less symptomatic. Evaluate osmolality, baseline cognition and volume status (p586–587).
 - Severe symptomatic hyponatremia is an emergency: generally aim for no more than **8 mEq/L** increase in the first **24 hours**, with frequent sodium checks (p587).
 - Treatment depends on physiology: hypertonic saline with or without a loop diuretic for SIADH with concentrated urine; **0.9% saline** for hypovolemia; water restriction plus loop diuretic for hypervolemia (p587).
+
+> Current practice (not the book): Seizures, coma or other severe neurologic symptoms from hyponatremia require urgent hypertonic saline regardless of volume status. The European emergency regimen starts with 150 mL of 3% saline over 20 minutes, with immediate reassessment and sodium measurement. Aim initially for a rise of about 5 mmol/L. Monitor closely and limit subsequent correction, particularly in patients at risk for osmotic demyelination. [Society for Endocrinology, emergency guidance, 2022](https://www.endocrinology.org/media/xhrhxhxm/emergency-management-of-severe-and-moderately-severely-symptomatic-hyponatraemia-in-adult-patients-2022.pdf).
 - Hypernatremia requires treatment of water loss/deprivation and water replacement. In hypotension with compromised circulation, start **0.9% saline** to restore intravascular volume, then switch to a more hypotonic fluid; the chapter advises a sodium fall of approximately **8–10 mEq/L/24 h** (p588).
 
 
@@ -33,7 +35,7 @@ Study summary of Chapter 39; the book and the full chapter are the reference.
 - Bladder filling may produce less warning and the detrusor may generate lower pressure. Outlet obstruction increases the chance of decompensation. In this setting an anticholinergic may precipitate retention even when its intended effect was relief of urgency (p581, p589–590).
 
 **Drugs & exam traps**
-- Recurrent volume depletion can reflect mineralocorticoid deficiency even without frank hyperkalemia. For diagnosed isolated deficiency: fludrocortisone **0.1 mg daily** (p589).
+- Recurrent volume depletion can reflect mineralocorticoid deficiency even without frank hyperkalemia.
 - A BUN/creatinine ratio above **20:1** may reflect low muscle mass rather than volume depletion; low protein intake can instead mask the expected rise (p589).
 - Older adults may have reduced sensation of bladder filling (p589). Anticholinergic drugs may provoke cognitive change, constipation, dry mouth and urinary retention; disease and aging-related susceptibility both contribute (p590).
 

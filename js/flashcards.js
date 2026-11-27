@@ -117,7 +117,7 @@ window.HazzardFlashcards = (() => {
       question.textContent = card.front;
       const [printed,...practice]=card.back.split(/\n(?:>\s*)?Current practice \(not the book\):\s*/);
       const back=element('flashcardBack');back.replaceChildren(document.createTextNode(printed));
-      for(const text of practice){const note=document.createElement('details'),label=document.createElement('summary');label.textContent='Current practice';note.className='study-current-practice';note.append(label,document.createTextNode(text));back.append(note);}
+      for(const text of practice){const note=document.createElement('details'),label=document.createElement('summary');label.textContent='Current practice';note.className='study-current-practice';note.open=true;note.append(label,document.createTextNode(text));back.append(note);}
       const source = element('flashcardSource'), sourceChapter = card.readChapter || card.chapter;
       const sourceURL = new URL(location.href);
       sourceURL.search = new URLSearchParams({chapter: sourceChapter, cardSource: card.id});

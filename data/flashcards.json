@@ -533,7 +533,7 @@
     "id": "ch59-hearing-loss",
     "chapter": "59",
     "front": "How can hearing loss affect both a dementia-risk discussion and the result of a cognitive assessment?",
-    "back": "Poor hearing can interfere with encoding spoken information, depressing test performance. Hearing loss also had the largest weighted contribution among the midlife choices in the 2020 Lancet Commission. That population estimate is distinct from an individual treatment effect. Livingston et al., 2020, Table 2. Hazzard 8e, p. 905.",
+    "back": "Poor hearing can interfere with encoding spoken information, depressing test performance. Hearing loss also had the largest weighted contribution among the midlife choices in the 2020 Lancet Commission. That population estimate is distinct from an individual treatment effect. Livingston et al., 2020, Table 2. Hazzard 8e, p. 905.\nCurrent practice (not the book): The 2024 Lancet Commission added high LDL cholesterol in midlife and untreated vision loss in later life. It attributed about 45% of dementia cases to 14 potentially modifiable factors in its population model. These estimates do not predict a particular patient’s response to treatment. Livingston et al., 2024.",
     "page": 905,
     "anchor": "hl-u1236",
     "questionIds": [
@@ -1033,7 +1033,7 @@
     "id": "ch22-anticoagulant-initiation",
     "chapter": "22",
     "front": "Which oral anticoagulant class is generally preferred when initiating stroke prevention in eligible older patients with nonvalvular atrial fibrillation?",
-    "back": "A direct oral anticoagulant. Kidney function, bleeding risk and contraindications guide the specific choice. The 2023 Beers advice addresses starting therapy for AF or VTE. Continuing well-controlled warfarin raises a different decision. AGS Beers 2023, Table 2. Hazzard 8e, p. 1202.",
+    "back": "A direct oral anticoagulant. Kidney function, bleeding risk and contraindications guide the specific choice. The 2023 Beers advice addresses starting therapy for AF or VTE. Continuing well-controlled warfarin raises a different decision. AGS Beers 2023, Table 2. Hazzard 8e, p. 1202.\nCurrent practice (not the book): For long-term nonvalvular AF or VTE treatment, Beers advises choosing a safer anticoagulant over rivaroxaban. Use caution with dabigatran when another DOAC is suitable. AGS Beers Criteria, 2023, Box 1 and Tables 2 and 4.",
     "page": 1202,
     "anchor": "hl-u302",
     "questionIds": [
@@ -1065,7 +1065,7 @@
     "id": "ch22-antipsychotic-indication",
     "chapter": "22",
     "front": "Why does the antipsychotic caution for behavioral symptoms of dementia not automatically apply to treatment of bipolar disorder?",
-    "back": "Bipolar disorder is an established indication for certain antipsychotics. For dementia-related behavioral symptoms, assess triggers and try non-drug measures first unless harm warrants treatment. The indication changes the benefit–risk balance. AGS Beers 2019, Table 2. Hazzard 8e, p. 1027.",
+    "back": "Bipolar disorder is an established indication for certain antipsychotics. For dementia-related behavioral symptoms, assess triggers and try non-drug measures first unless harm warrants treatment. The indication changes the benefit–risk balance. AGS Beers 2023, Table 2. Hazzard 8e, p. 1027.",
     "page": 1027,
     "anchor": "hl-u261",
     "questionIds": [
@@ -1081,7 +1081,7 @@
     "id": "ch22-ppi-maintenance",
     "chapter": "22",
     "front": "Is eight weeks a universal stopping point for proton-pump inhibitors?",
-    "back": "No. Reassess the indication. Severe erosive esophagitis and other high-risk indications can justify maintenance. In treated older adults with esophagitis, stopping effective acid suppression increases relapse. AGS Beers 2019, Table 2. Hazzard 8e, p. 1320.",
+    "back": "No. Reassess the indication. Severe erosive esophagitis and other high-risk indications can justify maintenance. In treated older adults with esophagitis, stopping effective acid suppression increases relapse. AGS Beers 2023, Table 2. Hazzard 8e, p. 1320.",
     "page": 1320,
     "anchor": "hl-u174",
     "questionIds": [
@@ -1891,7 +1891,7 @@
     "id": "ch99-metformin-boundary",
     "chapter": "99",
     "front": "Does A1C 7% justify continuing metformin at eGFR 18? What changes at a stable eGFR of 32?",
-    "back": "Stop metformin below eGFR 30 mL/min/1.73 m² because it can accumulate. At 32, review the dose, monitor kidney function and assess acute illness or hypoperfusion. A1C cannot establish renal safety. Hazzard 8e, p. 1577.",
+    "back": "Stop metformin below eGFR 30 mL/min/1.73 m² because it can accumulate. At 32, review the dose, monitor kidney function and assess acute illness or hypoperfusion. A1C cannot establish renal safety. Hazzard 8e, p. 1577.\nCurrent practice (not the book): The FDA advises against starting metformin at eGFR 30–45. For a patient already taking it, reassess benefits and risks when eGFR falls below 45, and discontinue below 30 mL/min/1.73 m². The ADA/KDIGO consensus recommends limiting ongoing treatment to 1,000 mg/day at eGFR 30–44. FDA, 2016; ADA/KDIGO, 2022.",
     "page": 1577,
     "anchor": "diabetes-metformin-table",
     "questionIds": [
@@ -1934,7 +1934,7 @@
     "id": "ch99-glp1-endpoint",
     "chapter": "99",
     "front": "Which endpoint did Hazzard attribute to selected GLP-1 agonists in the question that also offered SGLT2 kidney protection?",
-    "back": "Liraglutide, semaglutide and dulaglutide reduced cardiovascular events. That endpoint differs from a general claim of heart-failure symptom relief. SGLT2 inhibition slows CKD progression. Hazzard 8e, p. 1577.",
+    "back": "Liraglutide, semaglutide and dulaglutide reduced cardiovascular events. That endpoint differs from a general claim of heart-failure symptom relief. SGLT2 inhibition slows CKD progression. Hazzard 8e, p. 1577.\nCurrent practice (not the book): In FLOW, semaglutide reduced major kidney outcomes in adults with type 2 diabetes and CKD. STEP-HFpEF found improved symptoms and physical function in people with obesity-related HFpEF. These are population- and drug-specific findings. FLOW, 2024; STEP-HFpEF, 2023 and 2024.",
     "page": 1577,
     "anchor": "diabetes-glp1-table",
     "questionIds": [
@@ -2940,7 +2940,7 @@
     "id": "ch68-acetaminophen-total",
     "chapter": "68",
     "front": "A patient with a rib fracture and COPD receives 1 g IV acetaminophen four times a day. How much more acetaminophen can be added?",
-    "back": "None. Four daily doses already total 4 g, the maximum stated in the chapter. Count every route and combination product. Hepatic impairment or a history of alcohol use calls for a lower 2–3 g/day ceiling. Consider another modality and monitor breathing when opioids are used. Hazzard 8e, p. 1062.",
+    "back": "None. Four daily doses already total 4 g, the maximum stated in the chapter. Count every route and combination product. Hepatic impairment or a history of alcohol use calls for a lower 2–3 g/day ceiling. Consider another modality and monitor breathing when opioids are used. Hazzard 8e, p. 1062.\nCurrent practice (not the book): For adults weighing under 50 kg the US IV acetaminophen label uses weight-based dosing, 15 mg/kg every six hours or 12.5 mg/kg every four hours. The daily maximum from all sources is 75 mg/kg, up to 3,750 mg. FDA Ofirmev label, §2.2, 2016.",
     "page": 1062,
     "anchor": "exam-p1062-mcq-372ee0c239b0866b869ae17a",
     "questionIds": [
@@ -3349,7 +3349,7 @@
     "id": "ch83-phosphate-control",
     "chapter": "83",
     "front": "A patient with CKD remains hyperphosphatemic on a low-phosphate diet. What targets absorption of dietary phosphate?",
-    "back": "An oral phosphate binder such as calcium acetate or sevelamer lowers the amount absorbed. Correct vitamin D deficiency and assess persistent PTH elevation separately. Hazzard 8e, p. 1280.",
+    "back": "An oral phosphate binder such as calcium acetate or sevelamer lowers the amount absorbed. Correct vitamin D deficiency and assess persistent PTH elevation separately. Hazzard 8e, p. 1280.\nCurrent practice (not the book): In adults with CKD G3a–G5D receiving phosphate-lowering treatment, KDIGO suggests restricting the dose of calcium-based binders. Use serial calcium, phosphate and PTH measurements to guide selection. KDIGO CKD–MBD guideline, 2017, recommendation 4.1.6.",
     "page": 1280,
     "anchor": "ch83-phosphate-binders",
     "questionIds": [
@@ -3682,7 +3682,7 @@
     "id": "ch7-urgent-activation",
     "chapter": "7",
     "front": "לפני ניקוז דחוף או כריתה נדרש מיופה כוח רפואי. מתי אפשר להתקדם לפני האישור המנהלי?",
-    "back": "לפי ההנחיה שנבחנה, בביה״ח, במקרה חריג שבו אין אפשרות להמתין. בודקים יכולת, דחיפות ומסמך מתאים, מקבלים את הסכמת המיופה ואת התחייבותו לפעול בהקדם לאישור ומתעדים. במינוי המחייב פעולה משותפת נדרשת הסכמת כולם. מכתב 07.08.2023, עמ׳ 1–2.",
+    "back": "לפי ההנחיה שנבחנה, בביה״ח, במקרה חריג שבו אין אפשרות להמתין. בודקים יכולת, דחיפות ומסמך מתאים, מקבלים את הסכמת המיופה ואת התחייבותו לפעול בהקדם לאישור ומתעדים. במינוי המחייב פעולה משותפת נדרשת הסכמת כולם. מכתב 07.08.2023, עמ׳ 1–2.\nבמצב חירום רפואי המחייב טיפול מיידי פועלים לפי §15(3), בכפוף לתנאיו. במסלול טיפול דחוף ניתן לאשר את מיופה הכוח הנקוב במסמך מופקד שטרם נכנס לתוקף, ולערוך במקביל את הליך ההפעלה (§14ב(ה)).",
     "page": 2,
     "anchor": "ch7-law-urgent",
     "questionIds": [
@@ -4064,7 +4064,7 @@
     "id": "ch74-exercise-ecg",
     "chapter": "74",
     "front": "An independent 82-year-old has predictable pressure on climbing stairs and a normal resting ECG. What can the first functional test tell you?",
-    "back": "Exercise ECG can reproduce symptoms, measure workload and blood-pressure response, and identify inducible ST changes when exercise is adequate. Hazzard 8e, p. 1137.",
+    "back": "Exercise ECG can reproduce symptoms, measure workload and blood-pressure response, and identify inducible ST changes when exercise is adequate. Hazzard 8e, p. 1137.\nCurrent practice (not the book): For suspected chronic coronary syndrome, ESC recommends selecting coronary CT angiography or functional imaging according to the clinical likelihood and patient factors. Exercise ECG can assess exercise tolerance, symptoms and blood-pressure response, including when imaging is unavailable. ESC, 2024.",
     "page": 1137,
     "anchor": "exam-p1137-mcq-fa33b286f3d03d33e2242529",
     "questionIds": [
@@ -4109,7 +4109,7 @@
     "id": "ch74-age-and-bleeding",
     "chapter": "74",
     "front": "Which P2Y12 inhibitor carries the warning about serious bleeding at age 75 or older?",
-    "back": "Prasugrel. Generally avoid it from age 75. Selected patients with diabetes or prior MI may warrant consideration. Prior stroke or TIA is a contraindication at any age. Ticagrelor does not carry this particular age-related warning. Hazzard 8e, p. 1140.",
+    "back": "Prasugrel. Generally avoid it from age 75. Selected patients with diabetes or prior MI may warrant consideration. Prior stroke or TIA is a contraindication at any age. Ticagrelor does not carry this particular age-related warning. Hazzard 8e, p. 1140.\nCurrent practice (not the book): In POPular AGE, among patients aged ≥70 with NSTE-ACS, clopidogrel caused less bleeding than ticagrelor or prasugrel and met the trial’s noninferiority criterion for net clinical benefit. The comparison was predominantly with ticagrelor. Gimbel et al., 2020.",
     "page": 1140,
     "anchor": "ch74-prasugrel",
     "questionIds": [
@@ -4335,7 +4335,7 @@
     "id": "ch98-amiodarone-destructive",
     "chapter": "98",
     "front": "Which drug addresses leakage of preformed thyroid hormone during amiodarone-associated destructive thyroiditis?",
-    "back": "Corticosteroids. Methimazole inhibits new synthesis, so it targets a different mechanism. Amiodarone usually can continue because its effects persist for months if stopped. Hazzard 8e, pp. 1547–1548.",
+    "back": "Corticosteroids. Methimazole inhibits new synthesis, so it targets a different mechanism. Amiodarone usually can continue because its effects persist for months if stopped. Hazzard 8e, pp. 1547–1548.\nCurrent practice (not the book): Cardiology and endocrinology should jointly individualize continuation or withdrawal in thyrotoxicosis. The cardiac indication, arrhythmia risk, thyroiditis type and prolonged drug half-life matter. European Thyroid Association, 2018.",
     "page": 1547,
     "anchor": "exam-p1547-mcq-02bd4d5ac321fb03ca1d5e62",
     "questionIds": [
@@ -4494,7 +4494,7 @@
     "id": "ch51-vertebral-secondary-prevention",
     "chapter": "51",
     "front": "A fall from standing height causes an L2 fracture in an 84-year-old with a prior T-score of −1.5. What changes in management?",
-    "back": "Add fracture-prevention medication such as a bisphosphonate. A vertebral fragility fracture supports treatment regardless of the earlier DXA. Continue appropriate nutrition and falls prevention. Hazzard 8e, pp. 768, 773–775.",
+    "back": "Add fracture-prevention medication such as a bisphosphonate. A vertebral fragility fracture supports treatment regardless of the earlier DXA. Continue appropriate nutrition and falls prevention. Hazzard 8e, pp. 768, 773–775.\nCurrent practice (not the book): Very-high fracture risk warrants specialist assessment for initial anabolic therapy followed by an antiresorptive. Recent vertebral fracture, multiple vertebral fractures and very low BMD are reasons for referral; the treatment choice also depends on the individual’s risk and contraindications. NOGG 2024 guideline, published 2025.",
     "page": 774,
     "anchor": "exam-p774-mcq-3bde7ff46a9992e97fc59c24",
     "questionIds": [
@@ -4656,7 +4656,7 @@
     "id": "ch53-vte-duration",
     "chapter": "53",
     "front": "A patient begins walking short distances in rehabilitation after hip-fracture repair. When does the preventive anticoagulant course usually end?",
-    "back": "The chapter gives 21–31 days from surgery. Assisted walking and discharge from acute care can both occur well before that interval ends. Reassess bleeding risk. Hazzard 8e, p. 801.",
+    "back": "The chapter gives 21–31 days from surgery. Assisted walking and discharge from acute care can both occur well before that interval ends. Reassess bleeding risk. Hazzard 8e, p. 801.\nCurrent practice (not the book): NICE recommends one month of VTE prophylaxis after a fragility fracture of the pelvis, hip or proximal femur when thrombosis risk outweighs bleeding risk. NICE NG89, recommendation 1.11.2, 2018.",
     "page": 801,
     "anchor": "exam-p801-mcq-a6c338a57828b765465f7cbf",
     "questionIds": [
@@ -5303,7 +5303,7 @@
     "id": "ch72-dialysis-close-person",
     "chapter": "72",
     "front": "האם די בבקשת הבת כדי להימנע מדיאליזה באביה שאינו יכול להחליט?",
-    "back": "יש לקבוע תחילה אם מתקיימים תנאי החוק. בהיעדר הנחיות תקפות, החלטת מיופה כוח או החלטת ועדה, הרופא האחראי מקבל את ההחלטה בהתחשב בהצהרה מפורשת של אדם קרוב על רצון האב להימנע מהארכת חייו. חוק החולה הנוטה למות, סעיפים 5, 8, 9 ו־16. ס״ח 2039, עמ׳ 60–62.",
+    "back": "יש לקבוע שהחולה עומד בתנאי החוק. בהעדר הנחיות תקפות, החלטת מיופה כוח או ועדה לפי §5(ב), הרופא האחראי קובע את רצונו על פי הצהרה מפורשת של אדם קרוב המכיר אותו היטב. בהעדר הצהרה כזו נשקלת עמדת אפוטרופוס שהוא אדם קרוב, אם מונה (§5(ג)). עצם בקשתה של הבת אינה מספיקה. חוק החולה הנוטה למות, §§3, 5, 8, 9, 16.",
     "page": 60,
     "anchor": "ch72-il-close-person",
     "questionIds": [
@@ -6366,7 +6366,7 @@
     "page": 1202,
     "anchor": "exam-p1202-mcq-ef2bb73ec06eb89fbd6291e8",
     "front": "A 73-year-old woman with AF, hypertension and diabetes has what CHA₂DS₂-VASc score and historical annual stroke estimate?",
-    "back": "Four points: one each for age 65–74, hypertension, diabetes and female sex. Table 77-7A estimates 4% per year for this score. Hazzard 8e, p. 1202.",
+    "back": "Four points: one each for age 65–74, hypertension, diabetes and female sex. Table 77-7A estimates 4% per year for this score. Hazzard 8e, p. 1202.\nCurrent practice (not the book): The 2024 ESC guideline uses CHA₂DS₂-VA, omitting sex. This patient scores 3. Oral anticoagulation is recommended at ≥2 and should be considered at 1. ESC AF guideline, 2024.",
     "questionIds": [
       "mcq-ef2bb73ec06eb89fbd6291e8"
     ]
@@ -6701,7 +6701,7 @@
     "page": 1225,
     "anchor": "exam-p1225-mcq-7559bbef5d36d19293f61fdb",
     "front": "How does the chapter initially manage uncomplicated hypertension at 135/85 in an independent 68-year-old?",
-    "back": "This is stage 1. Begin exercise, reasonable sodium restriction and weight reduction if overweight, then reassess. In this lower-risk scenario the chapter allows six months before considering medication. Hazzard 8e, pp. 1221, 1224–1225, Tables 79-1 and 79-3.",
+    "back": "This is stage 1. Begin exercise, reasonable sodium restriction and weight reduction if overweight, then reassess. In this lower-risk scenario the chapter allows six months before considering medication. Hazzard 8e, pp. 1221, 1224–1225, Tables 79-1 and 79-3.\nCurrent practice (not the book): For persistent stage 1 hypertension, start medication with lifestyle treatment in US patients with CVD, prior stroke, diabetes, CKD or PREVENT 10-year CVD risk ≥7.5%. With lower risk, add medication if pressure remains ≥130/80 after 3–6 months of lifestyle intervention. AHA/ACC, 2025.",
     "questionIds": [
       "mcq-7559bbef5d36d19293f61fdb"
     ]
@@ -6821,7 +6821,7 @@
     "id": "ch26-certificate",
     "chapter": "26",
     "front": "הפנימית מבקשת תעודה למינוי אפוטרופוס לפני הכנסת צנתר. האם להמתין לגריאטר?",
-    "back": "מומחה ברפואה פנימית הוא אחד מחמשת המומחים המנויים בחוזר 10/2006, שחל על הליך לא דחוף באשפוז ממושך. דחיפות הדיאליזה קובעת אם נדרש מסלול אחר. בדקו את היכולת להבין את הצנתר והדיאליזה, תקנו גורמים הפיכים ותעדו את הממצאים. חוזר מינהל רפואה 10/2006, סעיף 9.3.1, עמ׳ 4.",
+    "back": "מומחה ברפואה פנימית הוא אחד מחמשת המומחים המנויים בחוזר 10/2006, שחל על הליך לא דחוף באשפוז ממושך. דחיפות הדיאליזה קובעת אם נדרש מסלול אחר. בדקו את היכולת להבין את הצנתר והדיאליזה, תקנו גורמים הפיכים ותעדו את הממצאים. חוזר מינהל רפואה 10/2006, סעיף 9.3.1, עמ׳ 4.\nיש לבדוק אם יש ייפוי כוח מתאים ואם ניתן להשיג את מטרת ההחלטה בדרך מגבילה פחות. בטיפול דחוף ניתן לבדוק את מסלול מקבל ההחלטות הזמני לפי §14א–14ב. מינוי אפוטרופוס בידי בית המשפט מוגבל לעניינים ולזמן הנחוצים לפי §33א.",
     "page": 4,
     "anchor": "ch26-certificate",
     "questionIds": [
@@ -6845,7 +6845,7 @@
     "id": "ch26-medical-poa",
     "chapter": "26",
     "front": "מי יכול לערוך ייפוי כוח רפואי בלבד, ומה משתנה כשמוסיפים רכוש?",
-    "back": "למסמך רפואי בלבד די ברופא מורשה, עובד סוציאלי, פסיכולוג רשום, אח או אחות מוסמכים, או עורך דין. כשמוסיפים רכוש נדרש עורך דין שהוכשר לכך. חוק הכשרות, סעיפים 32יד ו־32טו, נוסח 19.01.2026, עמ׳ 27–29.",
+    "back": "למסמך רפואי בלבד די ברופא מורשה, עובד סוציאלי, פסיכולוג רשום, אח או אחות מוסמכים, או עורך דין. כשמוסיפים רכוש נדרש עורך דין שהוכשר לכך. חוק הכשרות, סעיפים 32יד ו־32טו, נוסח 19.01.2026, עמ׳ 27–29.\nכאשר מוסיפים עניינים אישיים שאינם רפואיים או ענייני רכוש, נדרש עורך דין שעבר את ההכשרה הייעודית ואינו בעל עניין אישי (§32יד).",
     "page": 29,
     "anchor": "ch26-medical-poa",
     "questionIds": [
@@ -6857,7 +6857,7 @@
     "id": "ch26-urgent-poa",
     "chapter": "26",
     "front": "ניקוז דימום תת־דוראלי נחוץ בדחיפות. מה בודקים לפני שחתימת אשת המטופל תספיק?",
-    "back": "בודקים אם הוא יכול להסכים בעצמו, ואם לאו, האם המסמך מקנה לאשתו סמכות רפואית והאם התקיימו תנאיו. בדרך הרגילה פונים להפעלה. בחריג הדחוף המתועד אפשר לקבל את הסכמתה לפני האישור הרשמי. הנחיית הבריאות והמשפטים מ־07.08.2023, עמ׳ 1–2.",
+    "back": "בודקים אם הוא יכול להסכים בעצמו, ואם לאו, האם המסמך מקנה לאשתו סמכות רפואית והאם התקיימו תנאיו. בדרך הרגילה פונים להפעלה. בחריג הדחוף המתועד אפשר לקבל את הסכמתה לפני האישור הרשמי. הנחיית הבריאות והמשפטים מ־07.08.2023, עמ׳ 1–2.\nבמצב חירום רפואי המחייב טיפול מיידי פועלים לפי §15(3), בכפוף לתנאיו. במסלול טיפול דחוף ניתן לאשר את מיופה הכוח הנקוב במסמך מופקד שטרם נכנס לתוקף, ולערוך במקביל את הליך ההפעלה (§14ב(ה)).",
     "page": 2,
     "anchor": "ch26-urgent-poa",
     "questionIds": [
@@ -7305,7 +7305,7 @@
     "id": "ch15-safeguarding",
     "chapter": "15",
     "front": "מטופל חסר ישע זקוק לאשפוז ויש חשד שהמטפל הזניח אותו. מה קובע נוהל משרד הבריאות לגבי הגנה ודיווח?",
-    "back": "יש לדווח בהקדם לפקיד סעד או למשטרה. כשנדרש אשפוז עקב הפגיעה, מאשפזים ל־24 שעות לפחות או נוקטים אמצעים מיידיים אחרים להגנה. מתאמים שחרור עם פקיד הסעד והצוות. חוזר 22/03, עמ׳ 6.",
+    "back": "יש לדווח בהקדם לעובד סוציאלי שמונה לפי חוק או למשטרה. כשנדרש אשפוז עקב הפגיעה, מאשפזים ל־24 שעות לפחות או נוקטים אמצעים מיידיים אחרים להגנה. מתאמים שחרור עם פקיד הסעד והצוות. חוזר 22/03, עמ׳ 6.",
     "page": 6,
     "anchor": "ch15-il-protection",
     "questionIds": [
@@ -8023,7 +8023,7 @@
     "page": 1605,
     "anchor": "ch100-classification",
     "front": "Which temporal artery findings belong to the 1990 classification criteria for GCA?",
-    "back": "Tenderness on palpation of the artery or diminished pulse, and characteristic biopsy with mononuclear or granulomatous arteritis. Giant cells may be present. The laboratory item was ESR of at least 50 mm/hour. Clinical classification required three of five items. Hazzard 8e, p. 1605, Table 100-5.",
+    "back": "Tenderness on palpation of the artery or diminished pulse, and characteristic biopsy with mononuclear or granulomatous arteritis. Giant cells may be present. The laboratory item was ESR of at least 50 mm/hour. Clinical classification required three of five items. Hazzard 8e, p. 1605, Table 100-5.\nCurrent practice (not the book): The 2022 ACR/EULAR classification criteria require age ≥50 at diagnosis. A positive temporal-artery biopsy or ultrasound halo carries five points. Classify at a total of ≥6 after vasculitis is diagnosed and mimics excluded. These are research classification criteria. ACR/EULAR, 2022.",
     "questionIds": [
       "mcq-186034b9ada01a15d0310a5d"
     ],
@@ -8308,7 +8308,7 @@
     "id": "ch48-discharge",
     "chapter": "48",
     "front": "מטופלת רוצה לשוב לביתה לאחר אשפוז עקב החמצת תרופות ויש חשד להזנחה מצד המטפל האחראי. מה קודם לשחרור?",
-    "back": "מדווחים כאשר מתקיימים תנאי החובה, שומעים את המטופלת ומבררים מי יסייע בפועל. מתאמים פתרון בטוח עם פקידת הסעד והצוות. גם חזרה הביתה עשויה להתאים אם יש מענה לסיכון. חוזר 22/03, סעיפים 8 ו־10, עמ׳ 6.",
+    "back": "מדווחים כאשר מתקיימים תנאי החובה, שומעים את המטופלת ומבררים מי יסייע בפועל. מתאמים פתרון בטוח עם עובדת סוציאלית שמונתה לפי חוק והצוות. גם חזרה הביתה עשויה להתאים אם יש מענה לסיכון. חוזר 22/03, סעיפים 8 ו־10, עמ׳ 6.",
     "page": 6,
     "anchor": "ch48-il-discharge",
     "questionIds": [
@@ -9113,7 +9113,7 @@
     "id": "ch57-prion-signs",
     "chapter": "57",
     "front": "Which neurologic signs may appear as prion disease progresses, and what supports the diagnosis?",
-    "back": "Hyperreflexia, impaired coordination, changes in saccadic eye movements and incontinence. EEG changes, MRI hyperintensities and abnormal CSF 14-3-3 protein. Hazzard 8e, p. 876.",
+    "back": "Hyperreflexia, impaired coordination, changes in saccadic eye movements and incontinence. EEG changes, MRI hyperintensities and abnormal CSF 14-3-3 protein. Hazzard 8e, p. 876.\nCurrent practice (not the book): A neuropsychiatric disorder with a positive RT-QuIC assay in CSF or other tissue can satisfy the probable sporadic CJD pathway. Other pathways use the clinical pattern together with typical EEG, MRI or CSF findings and exclude alternative diagnoses. CDC diagnostic criteria, 2026.",
     "page": 876,
     "anchor": "p876",
     "questionIds": [
@@ -9162,7 +9162,7 @@
     "id": "ch63-dlb-cholinesterase",
     "chapter": "63",
     "front": "Which drug class should patients with DLB be tried on?",
-    "back": "Cholinesterase inhibitors; responses often exceed those in AD, including fewer hallucinations. Levodopa can be used if indicated once fluctuation and hallucinations are stabilized; atypical neuroleptics only cautiously if behavior becomes intolerable. Hazzard 8e, p. 984.",
+    "back": "Cholinesterase inhibitors; responses often exceed those in AD, including fewer hallucinations. Levodopa can be used if indicated once fluctuation and hallucinations are stabilized; atypical neuroleptics only cautiously if behavior becomes intolerable. Hazzard 8e, p. 984.\nCurrent practice (not the book): People with DLB may have a severe antipsychotic sensitivity reaction. Avoid antipsychotics whenever feasible. Low-dose quetiapine is often considered when severe symptoms make treatment necessary, but controlled evidence of benefit in DLB is limited. DLB Consortium, 2017.",
     "page": 984,
     "anchor": "p984",
     "questionIds": [
@@ -9382,7 +9382,7 @@
     "id": "ch101-tb-before-anti-tnf",
     "chapter": "101",
     "front": "What testing precedes anticytokine therapy in RA?",
-    "back": "Tuberculosis skin testing or an interferon-γ release assay and a chest x-ray, because tuberculosis usually reflects reactivation of latent infection. Hazzard 8e, p. 1617.",
+    "back": "Tuberculosis skin testing or an interferon-γ release assay and a chest x-ray, because tuberculosis usually reflects reactivation of latent infection. Hazzard 8e, p. 1617.\nCurrent practice (not the book): Check hepatitis B status before a biologic DMARD, including anti-TNF therapy. HBsAg, anti-HBc and anti-HBs guide prophylaxis or monitoring with the appropriate specialist. Assess latent tuberculosis separately. EULAR, 2022 (published 2023).",
     "page": 1617,
     "anchor": "p1617",
     "questionIds": [
@@ -9535,7 +9535,7 @@
     "id": "ch105-admission-criteria",
     "chapter": "105",
     "front": "Which severity scores mark the need for admission?",
-    "back": "PSI class III or higher, or CURB-65 of 2 or more; a short-stay unit suits CURB-65 of 2 or PSI III. Hazzard 8e, p. 1687.",
+    "back": "PSI class III or higher, or CURB-65 of 2 or more; a short-stay unit suits CURB-65 of 2 or PSI III. Hazzard 8e, p. 1687.\nCurrent practice (not the book): ATS/IDSA prefers the PSI together with clinical judgment to guide the inpatient/outpatient decision. Ability to take oral treatment, functional impairment and home support can change the decision even at a low score. ATS/IDSA, 2019, question 6.",
     "page": 1687,
     "anchor": "p1687",
     "questionIds": [
@@ -9549,7 +9549,7 @@
     "id": "ch105-antipseudomonal",
     "chapter": "105",
     "front": "Which agents in Tables 105-9 and 105-10 cover Pseudomonas?",
-    "back": "Piperacillin/tazobactam, imipenem, meropenem, cefepime or ceftazidime, combined with ciprofloxacin, levofloxacin, amikacin or tobramycin. Hazzard 8e, p. 1688.",
+    "back": "Piperacillin/tazobactam, imipenem, meropenem, cefepime or ceftazidime, combined with ciprofloxacin, levofloxacin, amikacin or tobramycin. Hazzard 8e, p. 1688.\nCurrent practice (not the book): For community-acquired pneumonia, add antipseudomonal coverage according to severity and locally validated risks, especially prior respiratory isolation. Obtain cultures and narrow treatment when appropriate. Antipseudomonal activity in the table does not itself justify empirical combination therapy. ATS/IDSA, 2019, question 11.",
     "page": 1688,
     "anchor": "p1688",
     "questionIds": [
@@ -9652,7 +9652,7 @@
     "id": "ch106-complicated-uti-drugs",
     "chapter": "106",
     "front": "Why are nitrofurantoin and fosfomycin wrong for complicated UTI?",
-    "back": "They lack adequate renal penetration. Fluoroquinolones are the only oral empiric option, and not where local resistance exceeds 10%; hospitalize severe illness, suspected sepsis or significant frailty. Hazzard 8e, p. 1711.",
+    "back": "Nitrofurantoin and oral fosfomycin lack adequate renal-tissue concentrations for pyelonephritis. The chapter recommends an initial long-acting parenteral agent when local fluoroquinolone resistance exceeds 10% or when oral trimethoprim-sulfamethoxazole is started empirically. Serious illness, possible sepsis and frailty can require admission. Hazzard 8e, p1711.\nCurrent practice (not the book): Choose initial therapy by severity, prior cultures, resistance risk and local susceptibility. Transition to an effective oral agent after improvement when the patient can take it and source control is adequate. IDSA complicated UTI guideline, 2025.",
     "page": 1711,
     "anchor": "p1711",
     "questionIds": [

@@ -20,6 +20,8 @@ Vascular risk factors (high midlife cholesterol/BP, diabetes, metabolic syndrome
 
 **About 1/3 of AD cases worldwide** might be attributable to potentially modifiable risk factors (<a href="?chapter=59#p896">p896</a>).
 
+> **Current practice: Lancet Commission.** The 2024 Lancet Commission estimated a population-attributable fraction of approximately 45% across 14 potentially modifiable risk factors, including high LDL cholesterol and untreated vision loss. This is a population estimate under causal assumptions, not an individual prediction. [Lancet Commission, 2024](https://pubmed.ncbi.nlm.nih.gov/39096926/).
+
 TBI: WWII veterans with moderate TBI had **2×** AD risk, severe TBI with loss of consciousness **4×** (<a href="?chapter=59#p896">p896</a>).
 
 Late-life depression history → AD risk **OR 1.65** (95% CI 1.42–1.92) (<a href="?chapter=59#p896">p896</a>); >30% of AD patients develop depression during the illness (may be the first symptom).

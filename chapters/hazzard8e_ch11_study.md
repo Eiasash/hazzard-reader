@@ -46,6 +46,8 @@ Prior cervical screening is central to decisions in older women. Direct time-to-
 
 **Lung.** Low-dose CT reduced lung cancer mortality in trials of heavy smokers. In the National Lung Screening Trial about four lung cancer deaths were averted per thousand people screened over six years. A positive nodule can lead to repeat imaging or invasive sampling. Screening offers little prospect of benefit if comorbidity precludes cancer-directed treatment. Chest radiography did not produce the same mortality benefit (<a href="?chapter=11#p163">pp163</a>–<a href="?chapter=11#p164">164</a>).
 
+> **Current practice: USPSTF.** Annual low-dose CT screening is recommended by the USPSTF for eligible adults aged 50–80 with at least 20 pack-years who smoke or quit within 15 years. The American Cancer Society’s 2023 guideline uses the same age and exposure thresholds and drops the 15-year quit limit. Screening presumes sufficient health and willingness to undergo treatment. [USPSTF, 2021 and ACS, 2023](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening).
+
 **Prostate.** A PSA signal may trigger biopsy, and detection of a slow-growing cancer may lead to treatment with incontinence or sexual dysfunction. The small possible mortality benefit takes over ten years. The chapter authors advise against routine PSA screening of older men (<a href="?chapter=11#p164">p164</a>).
 
 ## Medicines and immunization

@@ -22,7 +22,7 @@ Ask whether conversation becomes unintelligible in company and whether the patie
 
 <span id="ch34-study-speech" data-exam-ids="mcq-ca570710752bad38efb708ba" data-exam-read-page="495" data-reader-metadata="exam"></span>A voice can be loud enough to hear while its words are indistinct. Reduced sensitivity at high frequencies obscures consonants that distinguish one word from another. In June 2025, **ספר (sefer)** contains both /s/ and /f/. Table 34-2 places /sh/ in **שלום (shalom)** at **1000–2000 Hz**, whereas /f/, /k/, /s/, /t/ and /th/ are **3000–8000 Hz** (p494). Vowels and context can carry a quiet conversation until competing voices mask those remaining cues (pp494–495, Table 34-2).
 
-The audiogram in Figure 34-5A slopes downward in both ears as pitch rises. In panel B a flatter pattern spans low and high frequencies; panel C shows a unilateral notch typical of noise exposure. At the same pure-tone threshold, two people can have different speech-in-noise performance. The QuickSIN test measures the signal advantage a listener needs over competing noise. Slower delivery and a quieter room can immediately improve communication (pp495–497).
+ In panel B a flatter pattern spans low and high frequencies; panel C shows a unilateral notch typical of noise exposure. At the same pure-tone threshold, two people can have different speech-in-noise performance. The QuickSIN test measures the signal advantage a listener needs over competing noise. Slower delivery and a quieter room can immediately improve communication (pp495–497).
 
 ## Hearing aids and referral for an implant
 
@@ -30,7 +30,7 @@ The audiogram in Figure 34-5A slopes downward in both ears as pitch rises. In pa
 
 > Current practice (not the book): Lin describes PTA4 generally at least 60 dB in one or both ears with insufficient functional benefit from hearing aids as a reason to consider implant referral. [NEJM, 2024, pp1509–1511](https://doi.org/10.1056/NEJMcp2306778).
 
-A digital hearing aid supplies frequency-specific acoustic gain to a functioning cochlea. Figure 34-6 shows improved thresholds through about 3000 Hz in one listener, with limited recovery at the highest frequencies. A cochlear implant encodes sound as electrical stimulation of the auditory nerve. Understanding speech after implantation takes practice; benefit varies with neural function and other factors, and chronological age alone does not rule out benefit (pp499–500).
+A digital hearing aid supplies frequency-specific acoustic gain to a functioning cochlea. Figure 34-6 shows improved thresholds through about 3000 Hz in one listener, with limited recovery at the highest frequencies. Understanding speech after implantation takes practice; benefit varies with neural function and other factors, and chronological age alone does not rule out benefit (pp499–500).
 
 ## Inner ear, brain and cognition
 

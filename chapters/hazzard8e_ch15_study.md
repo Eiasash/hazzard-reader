@@ -10,6 +10,8 @@ A quiet emergency patient may have delirium, abuse or functional decline despite
 
 Rapid evaluation of an isolated acute complaint is insufficient for many older adults. Geriatric emergency care coordinates emergency medicine, geriatrics, therapy, nutrition, inpatient teams, primary care, and community services. Accreditation and shared learning networks support measurable process improvement (<a href="?chapter=15#p207">p207</a>).
 
+> **Current practice: GED Guidelines 2.0 development.** Geriatric ED Guidelines 2.0 evaluates individual clinical recommendations using GRADE. The 2014 consensus document remains a useful description of geriatric emergency-department services. [GED Guidelines 2.0 development, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12476112/).
+
 <a id="p208"></a>**[<a href="?chapter=15#p208">p. 208</a>]**
 
 A geriatric-friendly room alone is insufficient: staffing, continuing education, syndrome-specific protocols, and local resources matter more. A general hospital policy becomes geriatric ED work when adapted to relevant geriatric processes and outcomes. Medication-safety work benefits from pharmacy expertise (<a href="?chapter=15#p208">p208</a>).

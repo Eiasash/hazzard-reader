@@ -12,7 +12,6 @@ Study summary of Chapter 13; the book and the full chapter are the reference.
 
 **Read the international survey carefully**
 - The chapter surveys **63 countries** through national leaders; estimates may be inexact because definitions and health systems differ (p181).
-- There were **no low-income-country respondents**. The sample included **42 high-income**, **17 upper-middle-income** and **4 lower-middle-income** countries (p181).
 - Nearly **90%** reported formal training programs, but prerequisites, training length and certification differ substantially (p181).
 - Specialist definitions and population denominators vary; a proposed workforce target based on consultative care cannot be directly applied to every service model (p181, p186).
 - Some countries also certify geriatric specialization for nurses, therapists and social workers; training the wider team matters (p181).
@@ -27,6 +26,8 @@ Study summary of Chapter 13; the book and the full chapter are the reference.
 ### Comparing systems without losing the denominator
 
 The Royal College of Physicians estimate cited in the chapter was **2 geriatricians per 100,000 people aged 75 or older** for a consultative service. Table 13-1 reports a different denominator for national workforce estimates: people aged **65 or older**. Before comparing two figures, check both the age group and the work expected of the specialist. A consultant supporting many primary care physicians and a physician providing continuing care to nursing-home residents have different caseloads (p181, p183–186).
+
+> Current practice (not the book): The Royal College of Physicians’ workforce benchmark was one full-time consultant geriatrician per 50,000 total population, approximately one per 4,000 people older than 75. Hazzard prints a different denominator on p181. Preserve the distinction when comparing staffing figures. [RCP, Consultant physicians working with patients, fifth edition](https://www.rcp.ac.uk/media/2xzk5cmw/consultant-physicians-working-with-patients-revised-5th-edition.pdf).
 
 A common assessment instrument can serve two purposes. At the bedside, compatible assessments can communicate the person's needs across home and residential care. At the system level, they can compare service use and quality across jurisdictions. The chapter describes New Zealand's use of interRAI in home and long-term care, and national leaders' reports of different entry routes into training, including specialist training after internal or family medicine and combined programs (p181–186, p189).
 

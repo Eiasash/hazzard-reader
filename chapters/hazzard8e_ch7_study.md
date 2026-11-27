@@ -88,4 +88,4 @@ These questions test Israeli consent and end-of-life law. The newer links lead t
 
 ## Exam questions
 
-No past-exam questions are currently linked to this chapter.
+The past questions linked under What the exams asked cover advance-care planning and decision-making.

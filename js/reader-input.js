@@ -1,3 +1,4 @@
+function browserSelectsReaderText(){return document.documentElement.classList.contains('browser-text-selection');}
 /* Finger strokes use Android's touch stream. A swipe before the hold belongs
    to the browser. Once the hold wins, preview and save share the same Range. */
 function isReaderControl(target){
@@ -10,7 +11,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   }
   function start(event,point,type){
     cancel();
-    if(isReaderControl(event.target))return;
+    if(browserSelectsReaderText()||isReaderControl(event.target))return;
     const stroke=begin({target:event.target,button:type==='touch'?0:event.button,
       clientX:point.clientX,clientY:point.clientY,pointerId:point.identifier??event.pointerId,
       preventDefault:()=>event.preventDefault()});
@@ -178,6 +179,19 @@ function installPointRail(main,openMark){
     for(const root of main.querySelectorAll('#copy,.mcq-explanation')){
       let rail=rails.get(root);
       const markers=root.querySelectorAll('[data-mark-key][data-point]');
+      // Reserve space only on the starting side that actually carries point labels.
+      const blocks=new Map(),styles=new Map(),sides=new Set();
+      for(const marker of markers){
+        const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
+        blocks.set(marker,block);
+        if(!styles.has(block))styles.set(block,getComputedStyle(block));
+        sides.add(styles.get(block).direction==='rtl'?'right':'left');
+      }
+      const resizeRail=['left','right'].some(side=>root.classList.contains('points-'+side)!==sides.has(side));
+      if(resizeRail){
+        for(const side of ['left','right'])root.classList.toggle('points-'+side,sides.has(side));
+        schedule();continue;
+      }
       if(!markers.length&&!rail)continue;
       if(!rail){
         rail=document.createElement('div');rail.className='point-rail';rail.dataset.readerMetadata='point-labels';
@@ -206,8 +220,7 @@ function installPointRail(main,openMark){
         }
         if(!glyph)continue;
         seen.add(id);
-        const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
-        const style=getComputedStyle(block),rtl=style.direction==='rtl';
+        const block=blocks.get(marker),style=styles.get(block),rtl=style.direction==='rtl';
         const rect=root.id==='copy'?origin:block.getBoundingClientRect();
         const edge=rtl?rect.right:rect.left;
         const middle=glyph.top-origin.top+glyph.height/2;

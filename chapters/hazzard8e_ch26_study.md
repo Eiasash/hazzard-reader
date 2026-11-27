@@ -75,7 +75,7 @@ Study summary of Chapter 26; the book and the full chapter are the reference.
 
 **A choice others dislike can still be valid.** Ask the patient to express a choice, explain the reasons, distinguish facts from false assumptions, and describe what the alternatives would mean personally. Tailor the discussion to the actual decision and choose a lucid time when capacity fluctuates. If the patient cannot decide, identify an authorized surrogate and keep the patient involved to the extent possible (pp. 365–366, Table 26-4).
 
-**A proxy, instructions and orders serve different purposes.** A durable health-care power of attorney identifies an agent. A living will describes preferences that can guide the agent. An agent uses the patient's known values to judge what the patient would choose. When those values cannot be determined, likely benefits and burdens inform best interests. Discuss goals in advance, document them and revisit them as illness changes. A POLST translates current goals into portable medical orders for serious illness. The chapter gives as a clinical cue a patient whose death in the next year or two would not surprise the physician (pp. 366–367).
+**A proxy, instructions and orders serve different purposes.** A living will describes preferences that can guide the agent. An agent uses the patient's known values to judge what the patient would choose. When those values cannot be determined, likely benefits and burdens inform best interests. Discuss goals in advance, document them and revisit them as illness changes. A POLST translates current goals into portable medical orders for serious illness. The chapter gives as a clinical cue a patient whose death in the next year or two would not surprise the physician (pp. 366–367).
 
 **Privacy and safety can create competing duties.** Identify the recipient, purpose and legal basis before sharing information. The book describes patient authorization, danger to another person, statutory reporting, judicial process and treatment/payment/operations under HIPAA. The applicable U.S. state law determines many reporting details. Sharing relevant information within a care team also supports continuity. A release permitting a family member to receive information does not by itself empower that person to consent to treatment (pp. 367–368, Table 26-5).
 
@@ -90,7 +90,7 @@ Study summary of Chapter 26; the book and the full chapter are the reference.
 **Valid decisions & capacity**
 - Valid medical decisions require voluntariness, adequate information and decision-making capacity (p364).
 - Explain the intervention, risks, benefits, alternatives and refusal; consent is a process, not merely a signed form (p364–365).
-- Implied consent comes from a patient’s behavior demonstrating willingness to undergo the intervention. Emergency treatment of an incapacitated patient without an available surrogate is a separate exception (pp364–365).
+- Implied consent comes from a patient’s behavior demonstrating willingness to undergo the intervention. Table 26-3 (p364) describes implied consent. Emergency treatment when the patient cannot give consent and no surrogate is available is a separate legal question.
 - Capacity is functional and decision-specific, may fluctuate, and may improve with support or a better setting (p365–366).
 - Incapacity does not remove the consent obligation: work with an appropriate surrogate (p365).
 

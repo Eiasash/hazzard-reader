@@ -49,7 +49,7 @@ Amyloid infiltration produces stiff, thickened ventricles. Prior carpal tunnel s
 
 For stable HFrEF, distinguish the four disease-modifying treatment classes from diuretics for symptom relief. An ARNI or suitable alternative modifies renin–angiotensin signaling, evidence-based beta blockade reduces harmful sympathetic stimulation, an MRA blocks aldosterone and an SGLT2 inhibitor lowers HF events even without diabetes. Start and titrate around blood pressure, pulse, kidney function, potassium and what matters to the patient. With persistent edema, a small increase in creatinine alone is insufficient reason to stop decongestion. If the patient instead becomes dry and orthostatic, reduce the diuretic intensity and reassess (pp1179–1183).
 
-Carvedilol, sustained-release metoprolol succinate and bisoprolol have HFrEF outcome evidence. Atenolol and propranolol cannot inherit those outcomes simply by belonging to the same class. SENIORS also found that nebivolol reduced death or cardiovascular hospitalization in a population aged 70 or older. These findings support starting an appropriate drug after stabilization. Severe decompensation, marked bradycardia and advanced heart block change the immediate decision (p1179).
+Carvedilol, sustained-release metoprolol succinate and bisoprolol have HFrEF outcome evidence. Atenolol and propranolol cannot inherit those outcomes simply by belonging to the same class. These findings support starting an appropriate drug after stabilization. Severe decompensation, marked bradycardia and advanced heart block change the immediate decision (p1179).
 
 Compared with enalapril in PARADIGM-HF, sacubitril/valsartan reduced cardiovascular death or HF hospitalization, with more hypotension but less renal impairment and severe hyperkalemia. The risk is lower, not absent. Check pressure, creatinine and potassium and allow at least 36 hours after an ACE inhibitor to reduce angioedema risk. If first-line renin–angiotensin agents cannot be tolerated, hydralazine plus isosorbide dinitrate offers combined arterial and venous dilation. The evidence is for the combination, and multiple daily doses matter when planning support at home (pp1180–1182).
 
@@ -66,6 +66,8 @@ Influenza can trigger decompensation, so vaccination belongs in the management p
 For HFpEF, use a diuretic for pulmonary or systemic congestion and titrate it carefully. A stiff ventricle still depends on adequate preload. Excessive diuresis can lower stroke volume, cause postural symptoms and reduce renal perfusion. Treat hypertension and associated ischemia or AF, and individualize blood pressure targets for a frail patient at risk of falls. Preserved EF does not justify routine use of a beta blocker for prognosis (pp1186–1187).
 
 In CHARM-Preserved, candesartan reduced HF hospitalizations without a demonstrated mortality reduction. In EMPEROR-Preserved, empagliflozin reduced the combined risk of cardiovascular death or HF hospitalization, chiefly through fewer admissions. The separate mortality component was not significantly reduced. In the ancillary DIG trial for preserved EF, an early reduction in HF admissions did not persist as a significant difference across complete follow-up. Digoxin is generally reserved for another indication, such as adjunctive rate control in AF. These are distinct endpoints and distinct reasons for prescribing (pp1185–1188).
+
+> Current practice (not the book): Hazzard describes HF hospitalizations as offset by acute coronary admissions in the ancillary DIG study. In the original analysis neither the composite primary endpoint nor the HF hospitalization difference over full follow-up was statistically significant. Avoid assuming a survival benefit. [Ancillary DIG trial, 2006](https://pubmed.ncbi.nlm.nih.gov/16864724/).
 
 SGLT2 inhibition can cause glycosuria, genital fungal infection, volume depletion and, rarely, ketoacidosis. An early fall in eGFR can reflect the expected hemodynamic change, whereas hypotension with poor intake calls for assessment for true volume depletion or kidney injury. Long-term renal protection is compatible with short-term volume sensitivity. In June 2026 Basic Q147, hypomagnesemia belongs more naturally with loop or thiazide diuresis (pp1181–1182, 1578).
 
@@ -123,6 +125,8 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 
 ### HFREF vs HFPEF
 - HFREF "usually defined as ejection fraction **less than 40% to 50%**" (p1175) — the chapter then narrows this to a specific working cutoff for the rest of the discussion: **EF <45%** for HFREF and **EF ≥45%** for HFPEF (p1175). Know both numbers (see Exam traps below).
+
+> Current practice (not the book): Contemporary HF classifications use LVEF ≤40% for HFrEF, 41–49% for HFmrEF and ≥50% for HFpEF. HFimpEF denotes a previous LVEF ≤40% with subsequent improvement to >40%. Above 40%, evidence of increased filling pressures supports the clinical HF diagnosis. [AHA/ACC/HFSA heart failure guideline, 2022](https://pubmed.ncbi.nlm.nih.gov/35363499/).
 - No single clinical feature reliably distinguishes HFREF from HFPEF; echo/MRI/radionuclide angiography needed (p1175).
 - **>50%** of older HF patients have HFPEF (p1184).
 - **70–80%** of older HFPEF patients have hypertension (p1186).
@@ -131,6 +135,8 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - Nonadherence/behavioral factors drive readmission: **64%** of exacerbations tied to medication/diet nonadherence in one study, and emotional/environmental factors contributed to **26%** of readmissions; in a 140-patient cohort (age ≥70), **47%** were readmitted within 90 days (p1176).
 - Meta-analysis of 33 disease-management trials: HF readmissions **↓42%**, all-cause readmissions **↓24%**, mortality **↓20%** (p1176).
 - Sodium target **1500–3000 mg/d** — expert consensus, not trial-derived (p1176).
+
+> Current practice (not the book): In SODIUM-HF, a dietary sodium target below 1,500 mg/day did not significantly reduce death, cardiovascular hospitalization or cardiovascular emergency visits in ambulatory HF. Discuss a feasible diet tailored to congestion, intake and quality of life. [SODIUM-HF trial, 2022](https://pubmed.ncbi.nlm.nih.gov/35381194/).
 - Dietary consultation also covers avoidance of excess fluid intake (**>2 L/d**, especially if Na **<130**) alongside avoidance of excess sodium (**>2–3 g/d**), plus low-fat/low-cholesterol and adequate-calorie guidance (Table 76-8, p1177).
 - Exercise is contraindicated with decompensated NYHA IV HF, severe aortic stenosis/hypertrophic cardiomyopathy, recent MI/unstable angina (within 2wk), life-threatening arrhythmias not adequately treated, or any acute serious illness (eg, pneumonia) (Table 76-9, p1178).
 - PICNIC trial (120 malnourished patients, mean age 79): intensive dietary counseling → death/HF hospitalization at 1y **27% vs 61%** (*p*<0.001) (p1177).
@@ -149,7 +155,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
 - **Digoxin** — 0.125 mg daily in older adults with normal renal function; target serum level **0.5–0.9 ng/mL**; toxicity can occur even at "therapeutic" levels (p1182–1183).
 - **Refractory HF** — high-dose oral furosemide 200 mg BID or bumetanide 10 mg daily; or continuous IV furosemide 5–40 mg/h or bumetanide 0.5–1 mg/h (p1189).
-- **Tafamidis** (ATTR cardiac amyloidosis) — meglumine 80 mg daily or free-salt 61 mg daily (not per-mg substitutable); ATTR-ACT: mortality **29.5% vs 42.9%** placebo; cost **~$225,000/year** (p1188).
+- **Tafamidis** (ATTR cardiac amyloidosis) — meglumine 80 mg daily or “free salt” 61 mg daily [sic — Vyndamax is tafamidis free acid] (not per-mg substitutable); ATTR-ACT: mortality **29.5% vs 42.9%** placebo; cost **~$225,000/year** (p1188).
 
 ### Device Therapy
 - ICD: NYHA II–III HFREF, EF **≤35%** (primary prevention) or post-arrest VT/VF (secondary); benefit declines with age; patients **≥80y** are **twice as likely** as younger patients to have major implant complications (p1184).
@@ -158,6 +164,8 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 
 ### HFPEF-Specific Therapy
 - SGLT2 inhibitors reduced heart-failure events in preserved or mildly reduced EF trials. Hazzard discusses the evidence available at publication (p1184).
+
+> Current practice (not the book): SGLT2 inhibition reduces HF worsening in HFmrEF and HFpEF, chiefly through fewer HF events. Empagliflozin or dapagliflozin is recommended in these groups in the 2023 ESC focused update. [ESC heart failure focused update, 2023](https://doi.org/10.1093/eurheartj/ehad195).
 
 > Current practice (not the book): In FINEARTS-HF, symptomatic patients with LVEF ≥40% receiving finerenone had fewer total worsening heart-failure events or cardiovascular deaths than those receiving placebo. The composite does not establish a separate mortality benefit. [Solomon et al., 2024, trial results](https://pubmed.ncbi.nlm.nih.gov/39225278/).
 - **EMPEROR-Preserved:** in 5,988 patients with EF >40%, empagliflozin reduced the combined risk of **cardiovascular death or hospitalization for HF** (HR 0.79, 95% CI 0.69–0.90, p<0.001), mainly through fewer HF hospitalizations. Results were consistent regardless of diabetes. PRESERVED-HF, a smaller dapagliflozin trial of 324 patients, assessed symptoms and exercise function at 12 weeks (p1185, 1188).

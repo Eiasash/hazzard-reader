@@ -29,7 +29,7 @@ window.HazzardReview = (() => {
       return {...record,active:true,step:4,due:plus(day(record.at),STEPS[4])};
     return record;
   }
-  function advance(step,success,first=false){return success?Math.min(STEPS.length-1,first?0:step+1):Math.max(0,step-1);}
+  function advance(step,success,first=false){return success?Math.min(STEPS.length-1,first?1:step+1):Math.max(0,step-1);}
   function read(){const v=HazzardStorage.readProtected(KEY,empty);if(!valid(v))throw Error('Unreadable review queue');return canonical(v);}
   function merge(a,b){a=canonical(a);b=canonical(b);const items={...b.items};for(const[id,r]of Object.entries(a.items))if(!items[id]||r.at>=items[id].at)items[id]=r;const newest=a.batchAt>=b.batchAt?a:b;return {version:1,items,seed:!a.seed?b.seed:!b.seed?a.seed:a.seed.at<=b.seed.at?a.seed:b.seed,settings:a.settings.at>=b.settings.at?a.settings:b.settings,batch:newest.batch,batchAt:newest.batchAt};}
   function write(v){if(!valid(v))throw Error('Review queue could not be saved');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-review-change'));return v;}

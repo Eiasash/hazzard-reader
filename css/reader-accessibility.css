@@ -1,12 +1,19 @@
 /* Shared reading and control metrics, after the individual view styles. */
 :root {
+  --type-body:calc(1rem * var(--fs,1));
+  --type-small:calc(var(--type-body) * .75);
+  --type-label:calc(var(--type-body) * .8125);
+  --type-control:calc(var(--type-body) * .875);
+  --type-subhead:calc(var(--type-body) * 1.125);
+  --type-heading:calc(var(--type-body) * 1.25);
+  --type-title:calc(var(--type-body) * 1.5);
   --reading: system-ui, "Roboto", "Arial Hebrew", sans-serif;
-  --body: calc(1rem * var(--fs, 1));
+  --body:var(--type-body);
   --tap: 44px;
 }
 #copy, #copy :is(p, li, td, th, blockquote) {
   font-family: var(--reading);
-  font-size: var(--body);
+  font-size:var(--body);
   line-height: 1.6;
 }
 #copy :is(p, li, blockquote)[lang="he"] { line-height: 1.68; }
@@ -28,9 +35,9 @@
   min-block-size: 44px;
 }
 #bottomSlot #appTabs { grid-template-columns: repeat(4,minmax(0,1fr)); }
-#bottomSlot #appTabs button { min-height: 48px; font-size: calc(12px * var(--fs,1)); }
+#bottomSlot #appTabs button { min-height: 48px; font-size:var(--type-label); }
 #readerViewport .mcq-stem, .mcq-question .mcq-options .mcq-option {
-  font: 400 var(--body)/1.6 var(--reading);
+  font:400 var(--body)/1.6 var(--reading);
 }
 .mcq-options[dir=ltr] .mcq-option, .mcq-options[dir=rtl] .mcq-option { direction: inherit; text-align: start; }
 #chapterCompanion { display: none; }
@@ -46,8 +53,8 @@
     padding: 20px; overflow: auto; border-inline-start: 1px solid var(--rule);
     color: var(--ink); background: var(--surface);
   }
-  #chapterCompanion h2 { margin: 0 0 .65em; font: 650 1.15rem/1.3 var(--reading); }
-  #chapterCompanion p { font: 400 var(--body)/1.6 var(--reading); }
+  #chapterCompanion h2 { margin: 0 0 .65em; font:650 1.15rem/1.3 var(--reading); }
+  #chapterCompanion p { font:400 var(--body)/1.6 var(--reading); }
   #chapterCompanion a { display: inline-flex; min-height: 44px; align-items: center; }
 }
 
@@ -75,3 +82,74 @@ body:not(.reading-exam-links) #readPane :is(.exam-links,.chapter-exam-membership
   border-radius:5px; color:var(--ink); background:var(--badge-ink); line-height:1.15;
 }
 .point-badge[data-ink=green]>span { color:var(--underline-red); background:var(--surface); border-color:var(--underline-red); }
+
+html.browser-text-selection :is(#copy,.mcq-explanation),
+html.browser-text-selection :is(#copy,.mcq-explanation) * {
+  user-select:text; -webkit-user-select:text; -webkit-touch-callout:default;
+}
+html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
+  user-select:none; -webkit-user-select:none;
+}
+@media (max-width:599px) {
+  #reader.page,.mcq-explanation { padding-inline:16px; }
+  #reader.page:has(#copy.points-left),.mcq-explanation.points-left { padding-left:50px; }
+  #reader.page:has(#copy.points-right),.mcq-explanation.points-right { padding-right:50px; }
+}
+
+#chapterRows .chapter-name::after { content:none; }
+#chapterRows .chapter-actions { display:flex; gap:4px; align-items:center; }
+#chapterRows .chapter-actions button { padding-inline:9px; min-width:44px; }
+#chapterRows .library-exams { grid-column:1/-1; margin:0; }
+#chapterRows .exam-count, .law-card .exam-count { display:inline-flex; flex-wrap:wrap; align-items:center; }
+.exam-count .exam-count-toggle, #chapterRows .exam-count-toggle {
+  display:inline-flex; min-height:44px; align-items:center; width:auto; padding:3px 8px;
+  border:1px solid var(--control); border-radius:6px; color:var(--accent); background:var(--surface);
+  font:600 var(--type-label)/1.3 var(--ui);
+}
+.exam-count-list:not([hidden]) { display:flex; flex-direction:column; width:100%; }
+.exam-count-list[hidden] { display:none!important; }
+.exam-count-list a { display:inline-flex; min-height:44px; align-items:center; width:fit-content; }
+
+#chapterHeader .library-header strong, #chapterHeader .nav-page-title strong,
+#chapterHeader .nav-page-title, #chapterHeaderTitle, #chapterHeaderTitle .title-text { font-size:var(--type-subhead); }
+#copy h1, .mcq-page h1, #desk h1, #chapterList h1, #panelTitle { font-size:var(--type-title); }
+#copy h2, #copy.study-v2>h2, #chapterCompanion h2, .mcq-page h2 { font-size:var(--type-heading); }
+#copy h3, #copy.study-v2>h3, #copy h4, .law-lesson>h2 { font-size:var(--type-subhead); }
+#chapterRows .library-row>.chapter-name, .mcq-stem, .mcq-option, #flashcardFront { font-size:var(--type-body); }
+#bottomSlot #appTabs button, #bottomSlot #appTabs button span { font-size:var(--type-label); }
+
+#statsViewport .stats-donuts {
+  display:grid; grid-template-columns:1fr; gap:.75em; margin:1em 0;
+}
+#statsViewport .stats-donuts .stats-donut {
+  display:grid; grid-template-columns:calc(var(--type-body) * 3.5) minmax(0,1fr);
+  align-items:center; gap:.85em; text-align:start;
+}
+#statsViewport .stats-donuts .stats-donut svg { width:100%; height:auto; margin:0; }
+#statsViewport .stats-donuts .stats-donut text { font:700 23px var(--ui); }
+#statsViewport .stats-donut figcaption { font-size:var(--type-body); line-height:1.4; }
+#statsViewport .stats-donut figcaption span { font-size:var(--type-control); white-space:normal; }
+#statsViewport .stats-week-line {
+  display:grid; grid-template-columns:6em minmax(0,1fr); align-items:baseline;
+  gap:.15em .6em; padding:.65em 0; font-size:var(--type-control);
+}
+#statsViewport .stats-week-line h3 { grid-column:1; grid-row:1; margin:0; font-size:inherit; }
+#statsViewport .stats-week-line p { grid-column:2; grid-row:1; margin:0; font-size:inherit; }
+#statsViewport .stats-week-line .stats-pill { grid-column:2; justify-self:start; }
+#statsViewport .stats-topic-line {
+  display:grid; grid-template-columns:minmax(0,1fr) auto 44px;
+  grid-template-areas:'topic topic save' 'count clean save';
+  align-items:center; gap:.2em .5em; padding:.45em 0;
+}
+#statsViewport .stats-topic-line .stats-topic-name { grid-area:topic; min-height:44px; font-size:var(--type-body); }
+#statsViewport .stats-topic-count { grid-area:count; font-size:var(--type-control); }
+#statsViewport .stats-topic-line .stats-pill { grid-area:clean; font-size:var(--type-label); }
+#statsViewport .stats-save-topic { grid-area:save; }
+#statsViewport .stats-category>summary { flex-wrap:wrap; }
+#statsViewport .stats-category>summary .stats-donut-small { display:none; }
+#statsViewport .stats-weak-link { flex-wrap:wrap; gap:.3em .7em; }
+#statsViewport .stats-section h2 { font-size:var(--type-heading); }
+#statsViewport .stats-section h3 { font-size:var(--type-body); }
+
+#chapterRows .chapter-actions { min-inline-size:max-content; }
+#chapterRows .chapter-actions>button { white-space:nowrap; width:auto; min-inline-size:44px; flex-shrink:0; padding-inline:8px; }

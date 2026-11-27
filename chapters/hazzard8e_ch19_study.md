@@ -13,7 +13,7 @@ Study summary of Chapter 19; the book and the full chapter are the reference.
 **Models in the United States**
 - Medicare Advantage receives risk-adjusted capitation. Institutional special-needs plans serve institutional-level needs; equivalent plans extend this approach into the community (p267).
 - PACE: **55 or older**, state-certified nursing-home level of care, living in its service area and able to live safely in the community at enrollment; provides integrated medical and long-term support (p270).
-- Medicare hospice requires terminal certification of **6 months or less**, a comfort-care choice and signed election. Payment varies by care setting/intensity (p270).
+- Payment varies by care setting/intensity (p270).
 - Medical homes coordinate comprehensive, accessible primary care; ACOs span wider provider networks and share savings or risk (p271).
 - Hospital value-based purchasing/readmission programs, MIPS and SNF value-based purchasing tie payment to selected performance measures. Bundled programs extend accountability across an episode and postacute care (p271-272).
 
@@ -46,6 +46,8 @@ Table 19-1 illustrates decisions in which doing more can provide less value. For
 A medication review may reveal that the proposed treatment addresses an adverse effect of another drug. The table warns against routine use of sedative-hypnotics as the initial response to insomnia, agitation or delirium in older adults; against physical restraint for delirious behavior; and against continuing a cholinesterase inhibitor without revisiting perceived benefit and gastrointestinal effects. These examples distinguish reassessment from withholding care. A clinician still needs to assess why the patient is distressed, what nonpharmacologic or other care is effective and whether an existing treatment is helping (p264).
 
 The table's **10 numbered entries** include a printing duplication: the assisted-feeding recommendation appears as both the first and second item. Count the numbered lines and distinct text separately if reviewing it. Its other examples include inappropriate tight glycemic targeting, treating bacteriuria without compatible symptoms and ordering cancer screening without considering life expectancy, overdiagnosis and downstream treatment. The value question is the expected net benefit under the specified conditions, not whether a procedure, test or medicine is intrinsically wasteful in every indication (p264).
+
+> Current practice (not the book): The AGS Choosing Wisely list’s second item advises against using antipsychotics as the first choice for behavioral and psychological symptoms of dementia. The assisted-feeding entry is duplicated in printed Table 19-1 [sic]. [AGS Choosing Wisely, item 2, 2015](https://www.healthinaging.org/sites/default/files/pdf/Choosing.Wisely.Ten_.Things.pdf).
 
 ### Identify who carries financial risk and for which event
 

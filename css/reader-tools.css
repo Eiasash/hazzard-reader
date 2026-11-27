@@ -15,11 +15,11 @@
 #readerDebug { min-inline-size:0; }
 #readerDebug .debug-actions {display:flex;flex-wrap:wrap;gap:8px;margin-block:6px}
 #readerDebug button { min-height:44px; min-width:44px; padding:8px 12px; background:var(--soft,#eeece3); color:inherit; border:1px solid var(--rule,#68737f); border-radius:8px; font:inherit; cursor:pointer; }
-#readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:calc(12px * var(--fs,1))/1.5 monospace; }
-#readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:calc(12px * var(--fs,1))/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
+#readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:var(--type-label)/1.5 monospace; }
+#readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:var(--type-label)/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
 #readerDebug button:focus-visible,#readerDebug textarea:focus-visible { outline:2px solid var(--focus,#8a511c); outline-offset:2px; }
 /* The waiting-update action has its own target, separate from Text settings. */
-#readerUpdateButton{position:fixed;left:calc(var(--vv-left,0px) + var(--vv-width,100vw) / 2);transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 6px);z-index:90;width:min(600px,calc(var(--vv-width,100vw) - 24px));min-height:48px;padding:10px 16px;border:2px solid #287aca;border-radius:24px;background:var(--surface);color:var(--ink);font:600 calc(13px * var(--fs,1))/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
+#readerUpdateButton{position:fixed;left:calc(var(--vv-left,0px) + var(--vv-width,100vw) / 2);transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 6px);z-index:90;width:min(600px,calc(var(--vv-width,100vw) - 24px));min-height:48px;padding:10px 16px;border:2px solid #287aca;border-radius:24px;background:var(--surface);color:var(--ink);font:600 var(--type-label)/1.4 var(--ui);box-shadow:0 2px 12px #0003;cursor:pointer}
 #readerUpdateButton[hidden]{display:none}
 :root[data-theme="dark"] #readerUpdateButton{border-color:#78baff}
 /* Reserve the update action's row, including when a sheet is open. */
@@ -47,9 +47,9 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 .nb-answer-list{margin-block:calc(4px*var(--fs,1)) calc(8px*var(--fs,1))}
 
 #panel[open][data-current-pane="tools"] { max-block-size:calc(var(--vv-height) * .45); }
-#cloudControls { font:calc(14px * var(--fs,1))/1.4 var(--ui); }
-#panel #cloudControls input { font-size:calc(16px * var(--fs,1)); }
-#panel #cloudControls button { font:500 calc(13px * var(--fs,1))/1.4 var(--ui); }
+#cloudControls { font:var(--type-control)/1.4 var(--ui); }
+#panel #cloudControls input { font-size:var(--type-body); }
+#panel #cloudControls button { font:500 var(--type-label)/1.4 var(--ui); }
 #cloudAuthChoices { display:flex; gap:8px; }
 #panel #cloudAuthChoices button { flex:1; text-align:center; }
 #cloudAuthChoices [aria-pressed="true"] { border-color:var(--accent); color:var(--accent); }
@@ -90,11 +90,11 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 body:has(#panel[open]) #bottomSlot #examBar {display:none}
 body:has(#panel[open]) #bottomSlot #appTabs:not([hidden]) {display:grid}
 #markBar:not([hidden]) {display:flex;align-items:center;justify-content:space-evenly;padding:4px 8px max(4px,env(safe-area-inset-bottom));min-height:48px}
-#highlightEditor {width:100%;font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
+#highlightEditor {width:100%;font:500 var(--type-label)/1.3 var(--ui)}
 #highlightEditor .mark-tools {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
-#markBar button {min-height:44px;border:1px solid var(--control);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
+#markBar button {min-height:44px;border:1px solid var(--control);border-radius:7px;color:var(--accent);background:var(--surface);font:600 var(--type-label)/1.2 var(--ui);padding:3px 5px}
 
-#highlightEditor textarea {display:block;box-sizing:border-box;width:100%;min-height:44px;resize:vertical;font:16px/1.35 var(--ui)}
+#highlightEditor textarea {display:block;box-sizing:border-box;width:100%;min-height:44px;resize:vertical;font:var(--type-body)/1.35 var(--ui)}
 .keyboard-open #bottomSlot #markBar:not([hidden]) {display:flex!important}
 .mcq-page>.mcq-docked-actions {position:static}
 .mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}
@@ -114,7 +114,7 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 .point-badge-line {position:absolute;display:flex;flex-direction:column;gap:1px;align-items:stretch}
 .point-badge {position:static;flex:none;pointer-events:auto;cursor:pointer;min-inline-size:0;max-inline-size:100%;min-block-size:0;height:var(--point-height);padding:0;box-sizing:border-box;
   border:1px solid color-mix(in srgb,var(--badge-ink) 64%,var(--muted));border-radius:5px;
-  font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
+  font:700 var(--type-label)/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
   background:var(--badge-ink);color:var(--hl-ink)}
 .point-badge:focus-visible {outline:2px solid var(--accent);outline-offset:1px}
 .point-badge[data-ink="green"] {color:var(--underline-red);background:var(--surface);border-color:var(--underline-red)}
@@ -130,7 +130,7 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 #penNumbers[aria-checked="true"] .number-switch {justify-content:flex-end;background:var(--accent);border-color:var(--accent)}
 #penNumbers[aria-checked="true"] .number-switch::after {background:var(--surface)}
 .edition-note {margin-block:var(--s2);border-block:1px solid var(--rule)}
-.edition-note>summary {padding:8px 4px;min-height:44px;align-content:center;cursor:pointer;font:600 calc(13px * var(--fs,1))/1.35 var(--ui);color:var(--accent)}
+.edition-note>summary {padding:8px 4px;min-height:44px;align-content:center;cursor:pointer;font:600 var(--type-label)/1.35 var(--ui);color:var(--accent)}
 .edition-note>.note {margin:0 0 8px;padding:4px;border:0}
 
 #bottomSlot.is-collapsed {transform:translateY(100%);visibility:hidden;pointer-events:none}
@@ -158,20 +158,20 @@ body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
 #bottomSlot #markNumber:focus,#bottomSlot #markNote:focus{outline:1px solid var(--accent);outline-offset:0;border-color:var(--accent)}
 
 .choice-chips{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
-.choice-chips button{min-height:44px;padding:4px 10px;border:1px solid var(--control);border-radius:9px;background:var(--surface);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.2 var(--ui)}
+.choice-chips button{min-height:44px;padding:4px 10px;border:1px solid var(--control);border-radius:9px;background:var(--surface);color:var(--muted);font:600 var(--type-label)/1.2 var(--ui)}
 .choice-chips button[aria-pressed=true]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
 #chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"]){display:flex!important;height:52px!important;padding:4px 10px!important}
 #chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"])>:not(.library-header,#settingsGear){display:none!important}
 .library-header:not([hidden]){display:flex;gap:10px;width:100%;align-items:center}
-.library-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
-.library-header input{flex:1;min-inline-size:0;min-height:44px;margin:0;padding:7px 10px;border:1px solid var(--control);border-radius:8px;background:var(--surface);color:var(--ink);font:500 max(16px,calc(14px * var(--fs,1)))/1.2 var(--ui)}
+.library-header strong{font:700 var(--type-body)/1.2 var(--ui);color:var(--ink)}
+.library-header input{flex:1;min-inline-size:0;min-height:44px;margin:0;padding:7px 10px;border:1px solid var(--control);border-radius:8px;background:var(--surface);color:var(--ink);font:500 var(--type-body)/1.2 var(--ui)}
 #library>.eyebrow,#library>h1,.drug-index>h1{display:none}
 #library .library-search{position:static;padding:0}
 #chapterRows .library-row{position:relative;grid-template-columns:minmax(0,1fr) auto;gap:8px;min-height:0;padding:5px 0}
-#chapterRows .library-row>.chapter-name{border:0;background:transparent;padding:6px 0;text-align:start;align-self:stretch;color:var(--ink);font:650 calc(15px * var(--fs,1))/1.3 var(--ui)}
+#chapterRows .library-row>.chapter-name{border:0;background:transparent;padding:6px 0;text-align:start;align-self:stretch;color:var(--ink);font:650 var(--type-control)/1.3 var(--ui)}
 #chapterRows .chapter-name::after{content:"";position:absolute;inset:0}
 #chapterRows .library-study{position:relative;z-index:1;min-width:44px;padding-inline:7px}
-.library-status,.library-exams{display:block;margin-block-start:3px;color:var(--muted);font:500 calc(11px * var(--fs,1))/1.35 var(--ui)}
+.library-status,.library-exams{display:block;margin-block-start:3px;color:var(--muted);font:500 var(--type-small)/1.35 var(--ui)}
 .library-exams{font-weight:400}
 
 #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
@@ -190,7 +190,7 @@ body.reading-bars-hidden #readerViewport.has-study-views #mcqViewport{inset-bloc
 body.flashcards-open #chapterHeader>:not(.flash-header){display:none!important}
 body.flashcards-open #chapterHeader{display:flex!important;height:50px!important}
 body.flashcards-open #chapterHeader .flash-header{display:flex!important;align-items:center;gap:12px;width:100%}
-.flash-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+.flash-header strong{font:700 var(--type-body)/1.2 var(--ui);color:var(--ink)}
 #flashcardView:not([hidden]){position:fixed;inset:0 0 calc(var(--vv-bottom-gap,0px) + var(--tabs-height)) 0;z-index:5;overflow:auto;scrollbar-width:thin;background:var(--page);color:var(--ink);padding:calc(var(--vv-top,0px) + 58px) max(var(--gutter),calc((100vw - 750px)/2)) 20px}
 body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)}
 #flashcardView #flashcardArticle,#flashcardView #flashcardCompletion{padding:var(--s4);border:1px solid var(--rule);border-radius:var(--radius);background:var(--surface)}
@@ -200,7 +200,7 @@ body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)
 #flashcardView #flashcardAnswer summary{min-height:44px;align-content:center;cursor:pointer}
 .study-page{display:flex;flex-direction:column}
 .study-group[data-study-continuation]>summary{display:none}
-.study-group>summary,.study-current-practice>summary,.study-practice-reference{min-height:44px;align-content:center;cursor:pointer;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.3 var(--ui)}
+.study-group>summary,.study-current-practice>summary,.study-practice-reference{min-height:44px;align-content:center;cursor:pointer;color:var(--accent);font:600 var(--type-control)/1.3 var(--ui)}
 
 #copy.study-page>.eyebrow:not(:has([data-marked])){display:none}
 #copy.study-page>h1{margin-block:0 .35em}
@@ -219,16 +219,16 @@ body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)
 #panel[data-primary=true]>[data-pane]:not([hidden]){flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:0 3px 12px}
 #panel[data-primary=true] [data-pane] [data-pane]:not([hidden]){display:block;overflow:visible;padding:6px 1px}
 #panel[data-primary=true] .settings-group{display:block;border:0;border-block-end:1px solid var(--rule);margin:5px 0;background:transparent}
-.settings-group>summary{min-height:44px;align-content:center;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.4 var(--ui);cursor:pointer}
+.settings-group>summary{min-height:44px;align-content:center;color:var(--accent);font:600 var(--type-control)/1.4 var(--ui);cursor:pointer}
 #chapterHeader>.nav-page-title{display:none}
 body.nav-page-open #chapterHeader{display:flex!important;height:50px!important;padding-inline:12px!important}
 body.nav-page-open #chapterHeader>:not(.nav-page-title,#settingsGear){display:none!important}
-body.nav-page-open #chapterHeader>.nav-page-title{display:block!important;font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+body.nav-page-open #chapterHeader>.nav-page-title{display:block!important;font:700 var(--type-body)/1.2 var(--ui);color:var(--ink)}
 body.nav-page-open #bottomSlot{z-index:10}
 body.reading-bars-hidden #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);padding-block-start:0}
 body.nav-page-open.keyboard-open #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px)}
 #chapterHeader.show-resume-note>:not(#resumeNotice){visibility:hidden}
-#resumeNotice{position:absolute;inset:0;display:flex;align-items:center;pointer-events:none;padding-inline:12px;color:var(--ink);font:600 calc(14px * var(--fs,1))/1.25 var(--ui)}
+#resumeNotice{position:absolute;inset:0;display:flex;align-items:center;pointer-events:none;padding-inline:12px;color:var(--ink);font:600 var(--type-control)/1.25 var(--ui)}
 #readerViewport>#readerScroll{margin-block-start:var(--active-header-height,48px)}
 #readerScroll>#reader{padding-top:var(--s4)}
 body.reading-bars-hidden #readerViewport>#readerScroll{margin-block-start:0}
@@ -242,7 +242,7 @@ body.nav-page-open,body.flashcards-open{overflow:hidden}
 #panel[open][data-primary=true] #sizeChoices{display:flex;gap:4px}
 #panel[open][data-primary=true] #sizeChoices button{width:auto;flex:1}
 #panel[open][data-primary=true] #toggleTheme{display:flex;width:auto;justify-content:center;gap:6px;align-items:center}
-.settings-label{font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+.settings-label{font:600 var(--type-label)/1.3 var(--ui)}
 
 /* Keep scroll extents stable while the bars disappear. Otherwise a short
    card can scroll 20px, grow by 52px and immediately snap back to the top. */
@@ -255,13 +255,13 @@ body.reading-bars-hidden #mcqViewport{padding-block-end:calc(var(--tabs-height) 
 button:disabled[data-unavailable]::after{content:attr(data-unavailable);display:block;font:400 .85em/1.35 var(--ui);white-space:normal}
 #panel button:disabled[data-unavailable]{height:auto;white-space:normal}
 
-#markUndoToast:not([hidden]){min-height:48px;display:flex;align-items:center;justify-content:center;gap:18px;color:var(--ink);font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+#markUndoToast:not([hidden]){min-height:48px;display:flex;align-items:center;justify-content:center;gap:18px;color:var(--ink);font:600 var(--type-label)/1.3 var(--ui)}
 #highlightEditor:has(>#markUndoToast:not([hidden])){display:flex;flex-direction:column}
 #highlightEditor>#markUndoToast{order:-1}
 #markUndoToast button{min-height:44px;min-width:64px;color:var(--accent)}
 
 @media(max-width:450px){
-  #bottomSlot #appTabs button,#bottomSlot #appTabs [data-tab="tools"]{font-size:clamp(10px,3.1vw,calc(12px * var(--fs,1)));min-inline-size:0;padding-inline:0}
+  #bottomSlot #appTabs button,#bottomSlot #appTabs [data-tab="tools"]{font-size:var(--type-label);min-inline-size:0;padding-inline:0}
 }
 
 .mcq-review-back{display:inline-flex;align-items:center;min-height:44px;color:var(--accent);font-weight:600}
@@ -294,7 +294,7 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 .study-test{margin-top:1em;border-block:1px solid var(--rule);padding-block:.35em}
 .study-test>summary{cursor:pointer;color:var(--accent);min-height:44px;align-content:center}
 .study-test>summary h2{display:inline}
-#copy .study-question-row{display:flex;gap:.45em;align-items:baseline;justify-content:space-between;margin:0;border-bottom:1px solid var(--rule);font:500 calc(12px * var(--fs,1))/1.4 var(--ui)}
+#copy .study-question-row{display:flex;gap:.45em;align-items:baseline;justify-content:space-between;margin:0;border-bottom:1px solid var(--rule);font:500 var(--type-label)/1.4 var(--ui)}
 .study-question-row a{padding:.6em 0}
 .study-question-row a:first-child{min-width:0;flex:1}
 .study-question-row a span{font-weight:650}

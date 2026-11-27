@@ -16,7 +16,7 @@ Displaced femoral-neck fractures threaten the head's blood supply and are usuall
 
 **Total versus hemiarthroplasty.** Both replace the femoral head. A total replacement also resurfaces the socket. Hazzard says total replacement is thought to give **better long-term results and less pain for active patients** (<a href="?chapter=53#p794">p794</a>).
 
-> **Current practice: Total versus hemiarthroplasty.** In the later HEALTH trial of previously ambulatory patients with displaced neck fractures, the average functional advantage at two years was clinically small. Secondary procedures occurred with similar frequency, and instability or dislocation was more common after total replacement. Consider the person's usual activity and preferences when discussing this trade-off. [HEALTH trial, 2019](https://doi.org/10.1056/NEJMoa1906190).
+> **Current practice: Total versus hemiarthroplasty.** In the later HEALTH trial of previously ambulatory patients with displaced neck fractures, the average functional advantage at two years was clinically small. Secondary procedures occurred with similar frequency, and instability or dislocation was more common after total replacement. Consider the person's usual activity and preferences when discussing this trade-off. [HEALTH trial, 2019](https://doi.org/10.1056/NEJMoa1906190). Use a cemented femoral stem for arthroplasty after hip fracture. The choice between hemiarthroplasty and total arthroplasty depends separately on function, comorbidity and goals. [AAOS hip fracture guideline, 2021](https://www.aaos.org/globalassets/quality-and-practice-resources/hip-fractures-in-the-elderly/hipfxcpg.pdf).
 
 ## Operative timing and team care
 
@@ -26,7 +26,7 @@ Start geriatric assessment on admission. Confirm baseline walking and cognition 
 
 **Apixaban and the anesthetic plan.** Hazzard found no mortality difference between spinal and general anesthesia and describes peripheral nerve block for pain. The printed exam locator <a href="?chapter=57#p869">p869</a> concerns dementia; hip-fracture anesthesia is on [p797](?chapter=53#exam-p797-mcq-10163f2b99f5abe875d7d917).
 
-> **Current practice: Neuraxial anesthesia after apixaban.** Spinal anesthesia did not improve survival or walking recovery in REGAIN and delirium rates were similar. ASRA bases neuraxial timing on apixaban dose and elapsed time; one fixed two-day interval does not cover every patient. [REGAIN](https://doi.org/10.1056/NEJMoa2113514) · [ASRA fifth edition, apixaban recommendations](https://doi.org/10.1136/rapm-2024-105766).
+> **Current practice: Neuraxial anesthesia after apixaban.** Spinal anesthesia did not improve survival or walking recovery in REGAIN and delirium rates were similar. ASRA bases neuraxial timing on apixaban dose and elapsed time; one fixed two-day interval does not cover every patient. [REGAIN](https://doi.org/10.1056/NEJMoa2113514) · [ASRA fifth edition, apixaban recommendations](https://doi.org/10.1136/rapm-2024-105766). ASRA suggests at least 36 hours after low-dose apixaban and 72 hours after high-dose apixaban before neuraxial or deep plexus/peripheral block. When considering a shorter interval, its suggested acceptable residual apixaban concentration is <30 ng/mL or anti-Xa activity ≤0.1 IU/mL. These are separate tests with different units. [ASRA fifth edition, 2025](https://rapm.bmj.com/content/rapm/early/2025/01/21/rapm-2024-105766.full.pdf).
 
 **Pitfall.** Walking does not exclude a nondisplaced fracture. (<a href="?chapter=53#p794">p. 794</a>)
 
@@ -38,7 +38,7 @@ When a previously independent patient asks whether he will walk as before, separ
 
 <a href="?chapter=53#book-figure-53-5">Figure 53-5</a> times the best observed recovery in each domain. Mood, cognition and upper-extremity activities generally reach their peak near four months. Balance and gait reach a plateau near nine months. Lower-extremity activities and instrumental tasks can continue to improve to about a year. These are typical trajectories. They do not imply that a patient with ongoing early limitation will remain at that level (<a href="?chapter=53#p800">p800</a>).
 
-Match rehabilitation to functional loss, endurance, ability to participate and home support. Hazzard requires the ability to participate in **at least 3 hours of therapy per day** and input from **at least two rehabilitation disciplines**, such as PT and OT (<a href="?chapter=53#p800">p800</a>).
+Match rehabilitation to functional loss, endurance, ability to participate and home support. For US acute inpatient rehabilitation, Hazzard describes the ability to participate in **at least 3 hours of therapy per day** and input from **at least two rehabilitation disciplines**, such as PT and OT (<a href="?chapter=53#p800">p800</a>).
 
 > **Current practice: Inpatient therapy intensity.** CMS generally requires intensive therapy 3 hours/day on at least 5 days/week or, in documented cases, 15 hours within 7 consecutive days, with multiple disciplines including PT or OT. [CMS inpatient rehabilitation criteria](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/inpatient-rehabilitation-hospitals).
 

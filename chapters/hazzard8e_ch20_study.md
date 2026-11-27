@@ -30,7 +30,7 @@ A referral succeeds only if the service can be used. A patient may understand th
 
 At hospital discharge the relevant question is what the patient and family can manage at home. A list of available services does not establish caregiver availability or ability to use them. In hospice the same communication skills serve a different purpose: helping people express divergent wishes, navigate transitions and prepare for bereavement (p280–281).
 
-Look for neglect in the setting as well as on examination. Pressure wounds, poor nutrition and unsanitary living conditions warrant further assessment. Financial exploitation may have few physical signs. Fear of discrimination can also make a person reluctant to disclose relationships or seek services, particularly on entering a residential facility (p282–284).
+Look for neglect in the setting as well as on examination. Pressure wounds, poor nutrition and unsanitary living conditions warrant further assessment. Fear of discrimination can also make a person reluctant to disclose relationships or seek services, particularly on entering a residential facility (p282–284).
 
 ### Identify the social problem that is changing the clinical outcome
 

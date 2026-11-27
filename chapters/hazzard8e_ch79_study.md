@@ -32,6 +32,8 @@ Study summary of Chapter 79 - Hypertension; the book and the full chapter are th
 
 **Separate a patient's goal from a trial target.** The 2017 US guideline discussed in the chapter recommends a systolic goal below 130 mm Hg for ambulatory community-living adults aged 65 or older with an average systolic pressure of at least 130. The prose on p1223 summarizes the goal as 130 mm Hg; pp1220 and 1225 specify **below 130**. [ACC/AHA 2017, section 10.3.1](https://doi.org/10.1161/HYP.0000000000000065). Age 75 alone does not require a target below 120. When intensification to a seated goal causes weakness, fatigue or light-headedness on standing, reassess supine and standing readings and consider using the upright pressure to guide treatment (p. 1223).
 
+> Current practice (not the book): The 2025 US guideline uses PREVENT 10-year cardiovascular risk, with 7.5% as a risk threshold for medication at average BP ≥130/80 mm Hg. Clinical cardiovascular disease, prior stroke, diabetes and CKD also guide treatment. For lower-risk adults, start with lifestyle measures and reassess persistent elevation. [AHA/ACC BP guideline, 2025](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356).
+
 ## When a high diastolic pressure changes the workup
 
 <span data-exam-ids="mcq-5c4353506d173329433ddcfd" data-exam-read-page="1222" data-reader-metadata="exam"></span>
@@ -54,6 +56,8 @@ Sleep testing follows clues to obstructive sleep apnea, such as snoring and witn
 
 **Cognitive outcomes require their own endpoint.** SPRINT-MIND found less mild cognitive impairment and less of the composite of MCI or probable dementia. Its 17% relative reduction in probable dementia alone did not reach statistical significance at the follow-up reported in this chapter. STEP, a younger Chinese cohort aged 60–80, also found fewer cardiovascular events with a lower systolic target. Differences in participants and measurement methods limit direct comparison (pp. 1223, 1227).
 
+> Current practice (not the book): Extended SPRINT-MIND follow-up supported a reduction in mild cognitive impairment with intensive BP treatment. The probable-dementia endpoint alone did not show a statistically significant reduction. Apply the trial’s eligibility and BP measurement method when interpreting these results. [SPRINT-MIND extended follow-up, 2025](https://pubmed.ncbi.nlm.nih.gov/39819096/).
+
 ## Choosing a drug when another condition matters
 
 **Previous myocardial infarction.** In a patient with hypertension and established coronary disease, ACE inhibition can address both blood pressure and secondary prevention. Follow creatinine and potassium after starting. Hazzard reserves beta blockers for compelling indications, specifically secondary prevention after MI or in coronary artery disease. Diabetes alone does not favor beta blockade, a diuretic in kidney disease is especially useful for volume overload, and verapamil or diltiazem can worsen reduced systolic function (pp. 1225–1226).
@@ -61,6 +65,8 @@ Sleep testing follows clues to obstructive sleep apnea, such as snoring and witn
 > Current practice (not the book): Long-term beta blockade for a prior MI may be reassessed after one year in patients without reduced ventricular function, angina, arrhythmia or uncontrolled hypertension. [AHA/ACC chronic coronary disease guideline, sections 4.3.2–4.3.3](https://doi.org/10.1161/CIR.0000000000001168).
 
 **A thiazide can do too much.** Chlorthalidone has greater milligram potency and a longer half-life than hydrochlorothiazide. Diuresis can aggravate nocturia or incontinence, and thiazides can cause low sodium, low potassium, hyperuricemia and impaired glucose tolerance. A fall, low potassium and a symptomatic postural drop prompt review of the diuretic and volume status. If treating potassium depletion, reassess renal function and potassium after replacement, especially when an ACE inhibitor is continued (pp. 1225–1226).
+
+> Current practice (not the book): In the Diuretic Comparison Project, switching older veterans from hydrochlorothiazide to chlorthalidone did not reduce major cardiovascular events and caused more hypokalemia. Consider kidney function, electrolytes, blood pressure and treatment response. [Diuretic Comparison Project, 2022](https://pubmed.ncbi.nlm.nih.gov/36516076/).
 
 **Choose a tolerable regimen.** For a patient who accepts oral medication but previously developed thiazide-associated hyponatremia, an ACE inhibitor or ARB may fit if renal function and potassium permit. Dihydropyridine calcium-channel blockers can cause edema. Centrally acting drugs can cause sedation, and direct vasodilators can produce marked orthostasis. An alpha blocker may help urinary obstruction but can worsen standing dizziness. A once-daily regimen, medication review and a follow-up plan matter as much as the initial prescription (pp. 1225–1227).
 
