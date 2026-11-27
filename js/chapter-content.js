@@ -5,18 +5,6 @@ function renderMarkdown(mdText,chapter,imageSizes={}){
   mdText=mdText.replace(/(?<![\\*])\*\*(?![\s*])([^*\n]*?\S)(?<![\\*])\*\*(?!\*)/g,(m,t)=>'<strong>'+t.replace(/~/g,'&#126;')+'</strong>');
   mdText=mdText.split('\n').map(line=>line.includes('<')&&line.includes('>')?line.replace(/(?<![\\*\w])\*(?![\s*])([^*\n]*?\S)(?<![\\*])\*(?!\*)/g,'<em>$1</em>'):line).join('\n');
   let html=marked.parse(mdText);
-  if(['42','43','44','55','59','63','87'].includes(chapter)){
-    html=html.replace(/(<h[1-6]>)([\s\S]*?)(<\/h[1-6]>)/g,(_,open,inner,close)=>{
-      let first=true;
-      inner=inner.split(/(<[^>]+>)/g).map(part=>part.startsWith('<')?part:part.replace(/[A-Za-z]+/g,word=>{
-        const initial=first;first=false;
-        if(!initial&&/^(?:A|An|And|As|At|By|For|From|In|Of|On|Or|The|To|With)$/.test(word))return '<span style="text-transform:lowercase">'+word+'</span>';
-        if(word==='physical')return '<span style="text-transform:capitalize">'+word+'</span>';
-        return word;
-      })).join('');
-      return open+inner+close;
-    });
-  }
   html=html.replace(/<table>/g,'<div class="table-wrap" tabindex="0" role="region" aria-label="Table" data-md="1"><table>');
   html=html.replace(/<\/table>/g,'</table></div>');
   html=html.replace(/<blockquote>\s*/g,'<div class="note">').replace(/\s*<\/blockquote>/g,'</div>');
@@ -44,6 +32,7 @@ function smoothPageMarkers(copy){
     const flagNode=s.nextSibling,flag=flagNode?.textContent.match(/^\s*⟨2026[^⟩]*⟩/);
     if(flag){
       a.dataset.exam='2026';
+      a.dataset.examAnnotation=flag[0].trim();
       if(flagNode.nodeType===3){const badge=document.createElement('span');badge.className='exam-page-badge';badge.textContent=flag[0].trim();flagNode.before(document.createTextNode(flag[0].match(/^\s*/)[0]),badge);flagNode.data=flagNode.data.slice(flag[0].length)}
     }
     s.remove();a.className='pg';a.dataset.page=m[1];a.dataset.readerMetadata='page';a.setAttribute('role','note');a.setAttribute('aria-label','Page '+m[1]);
@@ -95,7 +84,7 @@ function placeExamQuestions(copy,exam){
       let anchor=marker;
       while(anchor.parentNode!==copy)anchor=anchor.parentNode;
       if(!anchor.textContent.replace(/\[p\.\s*\d+\]/g,'').trim()&&anchor.nextElementSibling?.matches('p'))anchor=anchor.nextElementSibling;
-      questions.push({number:number[1],anchor,nodes:[]});
+      questions.push({number:number[1],page:page.slice(2),anchor,nodes:[]});
     }
     (questions.length?questions[questions.length-1].nodes:introduction).push(el);
   }
@@ -103,9 +92,9 @@ function placeExamQuestions(copy,exam){
   const lastAtPage=new Map();
   const source=document.createElement('details'),caption=document.createElement('summary');
   caption.append(exam);source.className='read-exam-source';source.append(caption,...introduction);
-  for(const [i,{number,anchor,nodes}] of questions.entries()){
+  for(const [i,{number,page,anchor,nodes}] of questions.entries()){
     const question=document.createElement('details'),summary=document.createElement('summary');
-    question.className='read-inline-question';summary.dataset.readerMetadata='exam-heading';
+    question.className='read-inline-question';question.dataset.examNumber=number;question.dataset.printedPage=page;summary.dataset.readerMetadata='exam-heading';
     summary.textContent='2026 exam · Q'+number;
     question.append(summary,...nodes);
     if(i===0)question.append(source);
@@ -176,10 +165,62 @@ function formatReadEndMatter(copy,chapter){
 }
 
 // Run after mark registration. Source words keep their original order and unit IDs.
+// The marked book prints major headings in capitals. For the reader's
+// mixed-case presentation, retain medical names and use short internal words
+// in lowercase. These exceptions follow the actual printed word forms.
+const printedHeadingCase=new Map([
+  ['55|Exercise/physical Activity','Exercise/physical activity'],
+  ['81|Physiologic Impairments Resulting From Structural Changes In COPD','Physiologic Impairments Resulting from Structural Changes in COPD'],
+  ['81|Covid-19 (SARS-Cov-2) And COPD','COVID-19 (SARS-CoV-2) and COPD'],
+  ['83|Withdrawal From Dialysis','Withdrawal from Dialysis'],
+  ['97|Hyponatremia And Syndrome Of Inappropriate Adh','Hyponatremia and Syndrome of Inappropriate ADH'],
+  ['98|Physiologic Changes With Age','Physiologic Changes with Age'],
+  ['101|Musculoskeletal Symptoms Associated With Cancer','Musculoskeletal Symptoms Associated with Cancer'],
+  ['101|Risk Of Cancer With Immunosuppression','Risk of Cancer with Immunosuppression'],
+  ['101|Covid-19 And Rheumatic Diseases','COVID-19 and Rheumatic Diseases'],
+  ['105|Treatment Of Latent Tb','Treatment of Latent TB']
+]);
+function headingLabel(text,chapter){
+  if(!/^\d+$/.test(chapter)||!/[a-z]/.test(text))return text;
+  const printed=printedHeadingCase.get(chapter+'|'+text.trim().replace(/\s+/g,' '));
+  if(printed){const words=printed.match(/[A-Za-z]+/g);let i=0;return text.replace(/[A-Za-z]+/g,()=>words[i++]);}
+  return text.replace(/\b(?:A|An|And|As|At|By|For|In|Of|On|Or|The|To)\b/g,(word,i)=>{
+    const before=text.slice(0,i);
+    if(!before.trim()||/:\s*$/.test(before)||(text[i+word.length]==='-'&&text[i-1]!=='-'))return word;
+    if(word==='A'&&!/\b(?:as|formulating)\s+$/i.test(before))return word;
+    return word.toLowerCase();
+  });
+}
+function presentHeadingCase(copy,chapter){
+  if(!/^\d+$/.test(chapter))return;
+  for(const heading of copy.querySelectorAll('h2,h3,h4,h5,h6')){
+    if(heading.closest('[data-reader-metadata]'))continue;
+    const walker=document.createTreeWalker(heading,NodeFilter.SHOW_TEXT);
+    const nodes=[];while(walker.nextNode()){const n=walker.currentNode;if(!n.parentElement.closest('[data-reader-metadata]'))nodes.push(n);}
+    const original=nodes.map(n=>n.data).join(''),shown=headingLabel(original,chapter);
+    if(shown===original)continue;
+    // Paint only case differences. Unit text, quote offsets, and heading IDs
+    // stay intact for highlights created before this presentation change.
+    let offset=0;
+    for(const node of nodes){
+      const text=node.data,target=shown.slice(offset,offset+text.length);offset+=text.length;
+      if(text===target)continue;
+      const parts=document.createDocumentFragment();let begin=0;
+      for(let i=0;i<text.length;i++){
+        if(text[i]===target[i])continue;
+        if(i>begin)parts.append(text.slice(begin,i));
+        const transform=target[i]===text[i].toLowerCase()?'lowercase':'uppercase';
+        const span=document.createElement('span');span.style.textTransform=transform;
+        span.textContent=text[i];parts.append(span);begin=i+1;
+      }
+      if(begin<text.length)parts.append(text.slice(begin));node.replaceWith(parts);
+    }
+  }
+}
 function presentChapter(copy,chapter,title){
   if(copy.dataset.chapterPresentation||!title)return;
   const h1=copy.querySelector('h1');if(!h1)return;
-  copy.dataset.chapterPresentation='true';copy.dataset.canonicalTitle=title;
+  copy.dataset.chapterPresentation='true';copy.dataset.canonicalTitle=title;presentHeadingCase(copy,chapter);
   const base=chapter.replace(/s$/,''),nativeLaw=base==='law';
   const label=document.createElement('p');label.className='chapter-context';label.dataset.readerMetadata='chapter-context';
   label.textContent=(nativeLaw?title:'Chapter '+base)+' · '+(chapter.endsWith('s')?'Study':'Read');label.dir='ltr';
@@ -249,5 +290,5 @@ function presentChapter(copy,chapter,title){
     }
   }
 }
-return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,presentChapter};
+return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,presentChapter,headingLabel};
 })();

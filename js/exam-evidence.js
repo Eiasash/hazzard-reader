@@ -168,18 +168,24 @@ window.HazzardEvidence = (() => {
     }
   }
   const badgeSources=new WeakMap();
-  function askedBadge(entries,description,anchor,prefix='Asked',relations){
+  function askedBadge(entries,description,anchor,prefix='Asked',relations,pageInfo){
     const badge=document.createElement('span');badge.className='exam-evidence exam-links exam-count';
     badge.dataset.readerMetadata='exam';badge.dir='ltr';badge.lang='en';if(anchor)badge.id=anchor;
     const unique=[...new Map(entries).entries()].filter(([,entry])=>entry);
     const order=id=>!relations||relations.get(id).has('Direct citation')?0:relations.get(id).has('Related teaching')?1:2;
     unique.sort((a,b)=>order(a[0])-order(b[0])||sittingDate(b[1].sitting)-sittingDate(a[1].sitting)||a[1].sitting.localeCompare(b[1].sitting)||a[1].number-b[1].number);
     const toggle=document.createElement('button');toggle.type='button';toggle.className='exam-count-toggle';
-    toggle.textContent=prefix+' '+unique.length;toggle.setAttribute('aria-label',toggle.textContent+' · '+description);
+    const pageLabel=pageInfo?.pages.map(n=>'p'+n).join(', ');
+    toggle.textContent=(pageLabel?pageLabel+' · ':'')+prefix+' '+unique.length;toggle.setAttribute('aria-label',toggle.textContent+' · '+description);
+    if(pageLabel)badge.dataset.printedPages=pageInfo.pages.join(' ');
     toggle.setAttribute('aria-expanded','false');
     const list=document.createElement('span');list.className='exam-count-list';list.hidden=true;
     toggle.onclick=()=>{
       if(list.hidden&&!list.childElementCount){
+        if(pageInfo?.notes.length){
+          const annotation=document.createElement('span');annotation.className='exam-reference-annotation';
+          annotation.textContent='Page annotation: '+pageInfo.notes.join(' · ');list.append(annotation);
+        }
         const categories=new Map();
         for(const [id,entry] of unique){
           const category=relations?[...relations.get(id)].sort().join(' · '):'';
@@ -205,7 +211,7 @@ window.HazzardEvidence = (() => {
       list.hidden=!list.hidden;toggle.setAttribute('aria-expanded',String(!list.hidden));
     };
     badge.append(toggle,list);
-    badgeSources.set(badge,{entries:unique,description,prefix,relations});
+    badgeSources.set(badge,{entries:unique,description,prefix,relations,pageInfo});
     return badge;
   }
   function cloneTableControls(sourceTable,enlargedTable){
@@ -213,7 +219,7 @@ window.HazzardEvidence = (() => {
     enlargedTable.querySelectorAll('.exam-count').forEach((copy,index)=>{
       const original=originals[index],source=badgeSources.get(original);
       if(!source)return;
-      const clone=askedBadge(source.entries,source.description,null,source.prefix,source.relations);
+      const clone=askedBadge(source.entries,source.description,null,source.prefix,source.relations,source.pageInfo);
       if(original.id)clone.dataset.sourceAnchor=original.id;
       if(original.querySelector('.exam-count-toggle').getAttribute('aria-expanded')==='true')clone.querySelector('button').click();
       copy.replaceWith(clone);
@@ -306,10 +312,61 @@ window.HazzardEvidence = (() => {
         spot.relations.get(id).add(relation);
       }
     }
+    function integratePageMarkers(){
+      const byBlock=new Map();
+      for(const spot of spots.values())if(spot.inside)byBlock.set(spot.block,spot);
+      const exam2026=new Map(Object.entries(data.questions)
+        .filter(([,q])=>q.sitting==='2026-Jun')
+        .map(pair=>[pair[1].number,pair]));
+      const teachingByPage=new Map();
+      for(const question of copy.querySelectorAll('.read-inline-question[data-printed-page]')){
+        const page=question.dataset.printedPage;
+        if(!teachingByPage.has(page))teachingByPage.set(page,[]);
+        teachingByPage.get(page).push(question);
+      }
+      for(const marker of copy.querySelectorAll('a.pg[data-page]')){
+        const block=marker.closest('p,li,td,th,figcaption,h1,h2,h3,h4,h5,h6');
+        if(!block)continue;
+        let spot=byBlock.get(block);
+        const page=marker.dataset.page,literal=marker.dataset.examAnnotation||'';
+        const teaching=teachingByPage.get(page)||[];
+        const numbers=[...new Set([...Array.from(literal.matchAll(/\bQ(\d+)\b/g),m=>Number(m[1])),...teaching.map(q=>Number(q.dataset.examNumber))])];
+        const cited=numbers.map(n=>exam2026.get(n));
+        // Keep the original annotated marker if a future source cannot be mapped.
+        if(literal&&(!numbers.length||cited.some(pair=>!pair)))continue;
+        if(!spot&&cited.length){
+          spot={block,inside:true,entries:new Map(),relations:new Map(),anchors:['page-exams-'+page],description:'Exam questions for this printed page'};
+          spots.set(marker,spot);byBlock.set(block,spot);
+        }
+        if(!spot)continue;
+        const info=spot.pageInfo||={pages:[],notes:[]};
+        if(!info.pages.includes(page))info.pages.push(page);
+        if(teaching.length)(spot.teaching||=[]).push(...teaching);
+        if(literal&&/\bTable\b|\bFig(?:ure)?\b|\d\s*[-–]\s*\d/i.test(literal))info.notes.push(literal.slice(1,-1));
+        for(const [id,entry] of cited){
+          spot.entries.set(id,entry);
+          if(!spot.relations.has(id))spot.relations.set(id,new Set());
+          const direct=entry.pages.some(p=>String(p.readerChapter||p.chapter)===sourceChapter&&String(p.page)===page&&p.available&&!p.citationOnly);
+          spot.relations.get(id).add(direct?'Direct citation':'Printed page annotation');
+        }
+        marker.classList.add('pg-integrated');
+      }
+    }
     function renderSpots(){
+      if(!study)integratePageMarkers();
       for(const spot of spots.values()){
         const description=spot.name||(spot.anchors.length===1?spot.description:/chapter$/.test(spot.anchors[0])?'chapter references':'exam references for this passage');
-        const badge=askedBadge([...spot.entries],description,spot.anchors[0],'Asked',spot.relations);
+        const badge=askedBadge([...spot.entries],description,spot.anchors[0],'Asked',spot.relations,spot.pageInfo);
+        if(spot.teaching){
+          const button=badge.querySelector('button'),list=badge.querySelector('.exam-count-list');
+          list.id=badge.id+'-questions';
+          for(const question of spot.teaching){
+            question.dataset.integratedExam=badge.id;
+            if(!question.id)question.id='inline-exam-'+question.dataset.printedPage+'-q'+question.dataset.examNumber;
+          }
+          button.setAttribute('aria-controls',[list.id,...spot.teaching.map(q=>q.id)].join(' '));
+          button.addEventListener('click',()=>{for(const question of spot.teaching)question.open=!list.hidden;});
+        }
         if(spot.name)badge.dataset.printedObject=spot.name;
         for(const id of spot.anchors.slice(1)){
           const alias=document.createElement('span');alias.id=id;alias.setAttribute('aria-hidden','true');

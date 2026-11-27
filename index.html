@@ -636,8 +636,9 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
     <summary><h2 id="homeCoverageHeading">Exam coverage</h2></summary>
     <div class="home-meter"><label for="homeRead">Chapters read</label><span id="homeReadCount">…</span><progress id="homeRead" hidden></progress></div>
     <div class="home-meter"><label for="homeStudied">Chapters studied</label><span id="homeStudiedCount">…</span><progress id="homeStudied" hidden></progress></div>
-    <div class="home-meter"><label for="homeAnswered">Official questions answered</label><span id="homeAnsweredCount">…</span><progress id="homeAnswered" hidden></progress></div>
-    <p class="meta">Chapters count when you reach the end of Read or Study. Questions cover both exam tracks and exclude items flagged as bad.</p>
+    <div class="home-meter"><label for="homeAnswered">Official questions answered · both tracks</label><span id="homeAnsweredCount">…</span><progress id="homeAnswered" hidden></progress></div>
+    <p class="meta" id="homeTrackCoverage"></p>
+    <p class="meta">A changed question counts as unanswered until you redo it. Chapters count when you reach the end of Read or Study.</p>
   </details>
   <button type="button" id="homeRetry" hidden>Retry study progress</button>
   <p id="homeStatus" role="status"></p><a id="homeBackup" href="?tab=settings&amp;panel=backup"></a>
@@ -670,7 +671,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
 <section data-pane="tools" data-title="Settings">
-  <small id="settingsVersion">Version v335</small>
+  <small id="settingsVersion">Version v336</small>
   <div class="settings-controls">
     <span class="settings-label">Text size</span><div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">Small</button><button data-size="medium" aria-label="Medium" aria-pressed="false">Medium</button><button data-size="large" aria-label="Large" aria-pressed="false">Large</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg><span id="themeChoiceText">Theme</span></button>
@@ -2025,7 +2026,7 @@ function applyDisplay(){
 }
 function updateDisplay(){
   document.documentElement.style.setProperty('--fs',sizes[size]);document.body.style.fontSize='var(--body)';
-  for(const b of $$('[data-size]')){const selected=b.dataset.size===size;b.setAttribute('aria-pressed',String(selected));setButtonUnavailable(b,selected?'Selected':'');}
+  for(const b of $$('[data-size]'))b.setAttribute('aria-pressed',String(b.dataset.size===size));
   for(const b of $$('button[data-theme]'))b.setAttribute('aria-pressed',String(b.dataset.theme===document.documentElement.dataset.theme));
   syncMarkingUI();
   const nextTheme=document.documentElement.dataset.theme==='dark'?'light':'dark';
@@ -2056,7 +2057,7 @@ document.addEventListener('click',e=>{
   else if(b.dataset.panel)openPanel(b.dataset.panel,b);
   else if(b.dataset.view)view(b.dataset.view);
   else if(b.dataset.jump){returnReading(()=>{if(!HazzardSections.jump(b.dataset.jump))revealReading(document.getElementById(b.dataset.jump))})}
-  else if(b.dataset.size){size=b.dataset.size;applyDisplay();saveDisplay()}
+  else if(b.dataset.size&&b.dataset.size!==size){size=b.dataset.size;applyDisplay();saveDisplay()}
   else if(b.dataset.theme){document.documentElement.dataset.theme=b.dataset.theme;applyDisplay();saveDisplay()}
   else if(b.dataset.colour){colour=b.dataset.colour;applyDisplay();saveDisplay()}
 });
@@ -2099,6 +2100,8 @@ function syncTabs(){
   const chapterView=readingPage&&currentView==='reader'&&!$('#statsViewport')&&modes.childElementCount>0;
   modes.hidden=!chapterView||!!pane||!findBar.hidden||!examBar.hidden;
   chapterHeader.classList.toggle('study-header',chapterView);
+  const utility=!pane&&!chapterView&&currentView==='reader'&&(cid==='bank'||cid==='mock'||!!$('#statsViewport'));
+  chapterHeader.toggleAttribute('data-utility-header',utility);
   const sectionMode=chapterView&&currentMode!=='questions'&&!mcq?.active&&!pane&&findBar.hidden&&examBar.hidden;
   document.body.classList.toggle('reader-section-mode',sectionMode);
   if(sectionMode)HazzardSections.refresh();
@@ -2306,7 +2309,7 @@ function notebookPlacements(root,units,items){
     if(!groups.has(pos.group))groups.set(pos.group,[]);
     groups.get(pos.group).push({...pos.mark,number:numbers.get(pos.id)});
   }
-  const sections=[...groups].map(([h,marks])=>({heading:h?h.textContent.trim().replace(/\s+/g,' '):'Chapter opening',marks}));
+  const sections=[...groups].map(([h,marks])=>({heading:h?HazzardChapterContent.headingLabel(h.textContent.trim().replace(/\s+/g,' '),root.dataset.chapterId):'Chapter opening',marks}));
   if(unplaced.length)sections.push({heading:'Saved text · passage could not be located',marks:unplaced.map(item=>({...item,number:null})),unplaced:true});
   return sections;
 }
@@ -3958,8 +3961,10 @@ for(const marker of copy.querySelectorAll('a.pg,.exam-page-badge')){
   if(marker.matches('.exam-page-badge')){
     // Old ranges count the printed exam flag at its original character offset.
     // Keep that source in place but display only the plain, unmarked chip at the end.
+    marker.hidden=true;
+    if(block.querySelector('a.pg-integrated[data-exam-annotation]'))continue;
     chip=document.createElement('span');chip.className=marker.className;
-    chip.dataset.readerMetadata='exam';chip.textContent=marker.textContent;marker.hidden=true;
+    chip.dataset.readerMetadata='exam';chip.textContent=marker.textContent;
   }
   block.insertBefore(chip,block.querySelector(':scope > .exam-links'));
 }
@@ -4048,11 +4053,19 @@ function landAtRoute(url,state,back){
   if(!done){const p=readJSON(PLACE_KEY,{}).chapters?.[cid];if(p&&p.ratio>0){goToPlace(p,true);showResumeNotice()}}
 }
 
+function setQuestionHeader(name,searchable){
+  if(statisticsTitle||currentView!=='reader'||panel.open)return;
+  chapterHeader.dataset.questionSearch=searchable?'available':'hidden';
+  if(!name)return;
+  const title=$('#chapterHeaderTitle');
+  title.textContent=title.title=name;title.setAttribute('aria-label',name);
+  document.title='Hazzard Reader — '+name;
+}
 function mountQuestionView(chapter,readOnlyChapter=false){
   const owner=chapter==='mock'&&new URL(location.href).searchParams.get('simulation')==='1'?HazzardSimulation:HazzardMCQ;
-  return owner.mount({chapter,readOnlyChapter,viewport:$('#readerViewport'),readerScroll,
+  return owner.mount({chapter,readOnlyChapter,viewport:$('#readerViewport'),readerScroll,onHeader:setQuestionHeader,
     onShow:()=>{scrollIntentUntil=0;closeStatistics();dismissMarkBar();setReadingBarsHidden(false)},
-    onNotes:()=>{scrollIntentUntil=0;syncMarkingUI();closeStatistics();setReadingBarsHidden(false);},openImage:openZoom});
+    onNotes:()=>{delete chapterHeader.dataset.questionSearch;scrollIntentUntil=0;syncMarkingUI();closeStatistics();setReadingBarsHidden(false);},openImage:openZoom});
 }
 document.getElementById('openStatistics').onclick=()=>openStatistics();
 // Updates use the existing synchronous saves and wait for their snapshot queue.
@@ -4170,6 +4183,18 @@ function chapterInfo(){
 }
 function collectChapterInfo(){
   const details=chapterInfo().querySelector('.chapter-info-body'),nodes=[];
+  if(/^\d+$/.test(cid)){
+    const firstPage=copy.querySelector('a.pg[data-page]');
+    const editorial=/^(?:status\b|source and method\b|lane-reviewed\b|fast build\b|\d{4} exam\b|terminology\.|clinical scope\.|reading guide\.|P005\b|(?:not cited|cited) in the \d{4}|excluded from the IMA\b|official questions linked to this chapter\b|(?:three|six) past[- ]exam questions\b|six past questions\b|September \d{4} Q\d+ cites\b)/i;
+    const front=firstPage?[...copy.querySelectorAll(':scope > .note')].filter(note=>
+      (note.compareDocumentPosition(firstPage)&Node.DOCUMENT_POSITION_FOLLOWING)&&editorial.test(note.textContent.trim())):[];
+    if(front.length){
+      const group=document.createElement('details'),summary=document.createElement('summary');
+      group.className='read-editorial-notes';group.id='chapter-notes';
+      summary.dataset.readerMetadata='chapter-notes';summary.textContent='Notes on this chapter';
+      front[0].before(group);group.append(summary,...front);
+    }
+  }
   function textRun(p){
     const result=[],walk=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);
     while(walk.nextNode())if(!walk.currentNode.parentElement.closest('[data-reader-metadata],.exam-links'))result.push(walk.currentNode);
@@ -4197,6 +4222,7 @@ function collectChapterInfo(){
     }
   }
   for(const note of copy.querySelectorAll('.note')){
+    if(note.closest('.read-editorial-notes'))continue;
     const label=note.querySelector('p > strong')?.textContent.trim()||'';
     if(/^(?:Status(?:\b|\s*\()|Source and method|As printed, not corrected|Lane-reviewed|Fast build|Currency\s*[—–-]\s*declared gap|Build provenance)/i.test(label)){nodes.push(note);continue;}
     for(const p of note.querySelectorAll(':scope > p')){
@@ -4250,6 +4276,7 @@ function cacheActiveArticle(){
   while(articleCache.size>maxCachedArticles)articleCache.delete(articleCache.keys().next().value);
 }
 function disposeQuestions(){
+  delete chapterHeader.dataset.questionSearch;
   if(mcq){mcq.dispose?.();mcq=null;}$('#mcqViewport')?.remove();
   $('#readerViewport').classList.remove('has-study-views');readerScroll.hidden=false;readerScroll.style.visibility='';readerScroll.inert=false;questionRoute='';
 }
