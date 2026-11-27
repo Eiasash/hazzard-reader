@@ -220,6 +220,10 @@ window.HazzardFlashcards = (() => {
       '<div class="flashcard-actions"><button type="button" id="flashcardReviewAgain">Review Again cards</button><button type="button" id="flashcardRestart">Restart deck</button></div></div>' +
       '<p role="alert" id="flashcardError" hidden></p>';
     document.querySelector('main').append(pane);
+    document.addEventListener('hazzard-open-chapter-deck',event=>{
+      if(event.target.id!=='readingCompanionFrame'||event.target.dataset.chapter!==chapter||!document.body.classList.contains('single-study-pane'))return;
+      requested={scope:chapter,order:'all'};open(document.querySelector('#chapterHeader [data-chapter="'+chapter+'s"]'));
+    });
     function buttonFor(scope) {
       const button = document.createElement('button');
       button.type = 'button';
@@ -227,6 +231,9 @@ window.HazzardFlashcards = (() => {
       button.setAttribute('aria-haspopup', 'dialog');
       button.setAttribute('aria-controls', 'panel');
       button.addEventListener('click', () => {
+        if(scope!=='all'&&HazzardStudyPage.structured(copy)&&window.frameElement?.hasAttribute('data-reading-companion')&&parent.document.body.classList.contains('single-study-pane')){
+          window.frameElement.dispatchEvent(new CustomEvent('hazzard-open-chapter-deck',{bubbles:true}));return;
+        }
         requested = {scope, order: 'all'};
         open(button);
       });
@@ -251,7 +258,9 @@ window.HazzardFlashcards = (() => {
       const entry = buttonFor(chapter.slice(0, -1));
       entry.dataset.readerMetadata = 'flashcards';
       entry.className = 'study-flashcards';
-      copy.querySelector('h1')?.after(entry);
+      const slot=copy.querySelector('[data-study-flashcards]');
+      if(slot){entry.textContent='Practise chapter flashcards';entry.removeAttribute('aria-haspopup');entry.setAttribute('aria-controls','flashcardView');slot.replaceWith(entry);}
+      else copy.querySelector('h1')?.after(entry);
     }
     element('flashcardOrder').onclick=event=>{const choice=event.target.closest('[data-order]');if(choice&&choice.dataset.order!==session?.order)restart(choice.dataset.order);};
     element('flashcardRestart').addEventListener('click', () => restart(session.order));

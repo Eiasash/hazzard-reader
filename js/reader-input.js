@@ -144,16 +144,14 @@ function planHighlightStroke(text,start,end,items){
   return {hits,pieces,consumed,paint:!covered};
 }
 
-// Number only the points with a destination on this page. Reading a page does
-// not rewrite the notebook. A user edit commits its current reading order.
+// Section identity is derived from the printed headings. Keep existing
+// record IDs and use the shorter selection first when two start at the same word.
 function chapterPointOrder(items){
-  const order=new Map();
-  let position=-1,group=-1,number=0;
-  for(const item of items.filter(i=>i.mark.number).sort((a,b)=>(a.group||0)-(b.group||0)||a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))){
-    // The older reader could save both a sentence and a selection beginning at
-    // the same character. Preserve both records and give that position one badge.
-    if(item.start!==position||(item.group||0)!==group){position=item.start;group=item.group||0;number++;}
-    order.set(item.id,number);
+  const order=new Map(),sections=new Map();
+  for(const item of items.filter(i=>i.mark.number).sort((a,b)=>a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))){
+    const group=item.group??null;
+    const number=(sections.get(group)||0)+1;
+    sections.set(group,number);order.set(item.id,number);
   }
   return order;
 }
@@ -186,12 +184,12 @@ function installPointRail(main,openMark){
         rail.addEventListener('click',event=>{const badge=event.target.closest('button[data-mark-id]');if(badge)openMark(badge.dataset.kind,badge.dataset.markId);});
         root.append(rail);rails.set(root,rail);resized.observe(root);
       }
-      const origin=rail.getBoundingClientRect(),lines=[],seen=new Set(),numbers=new Set();
+      const origin=rail.getBoundingClientRect(),lines=[],seen=new Set();
       const scale=parseFloat(getComputedStyle(root).getPropertyValue('--fs'))||1;
       const size=Math.ceil(22*scale);
       for(const marker of markers){
         const id=marker.dataset.markKey,number=marker.dataset.point;
-        if(seen.has(id)||numbers.has(number)||marker.closest('[hidden]'))continue;
+        if(seen.has(id)||marker.closest('[hidden]'))continue;
         // A closed details can retain layout rectangles. Only its summary is painted.
         let folded=false;
         for(let details=marker.closest('details:not([open])');details;details=details.parentElement?.closest('details:not([open])')){
@@ -207,7 +205,7 @@ function installPointRail(main,openMark){
           const rect=first.getBoundingClientRect();if(rect.height){glyph=rect;break;}
         }
         if(!glyph)continue;
-        seen.add(id);numbers.add(number);
+        seen.add(id);
         const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
         const style=getComputedStyle(block),rtl=style.direction==='rtl';
         const rect=root.id==='copy'?origin:block.getBoundingClientRect();
@@ -226,14 +224,20 @@ function installPointRail(main,openMark){
         badge.setAttribute('aria-label','Edit point '+number);badge.style.setProperty('--badge-ink','var(--hl-'+ink+')');
         line.buttons.push(badge);
       }
+      const port=root.closest('#readerScroll,#mcqViewport')?.getBoundingClientRect();
+      const view=window.visualViewport;
+      const leftLimit=Math.max(port?.left??0,view?.offsetLeft??0)+2;
+      const rightLimit=Math.min(port?.right??innerWidth,(view?.offsetLeft??0)+(view?.width??document.documentElement.clientWidth))-2;
       const fragment=document.createDocumentFragment();
       for(const line of lines){
         const group=document.createElement('div');group.className='point-badge-line';group.dir=line.rtl?'rtl':'ltr';
-        const gap=line.buttons.length===1?3:1;
-        const room=(line.rtl?document.documentElement.clientWidth-line.edge:line.edge)-gap-1;
-        const preferred=line.buttons.reduce((sum,b)=>sum+Math.max(size,(b.textContent.length*8+6)*scale),0);
-        const width=Math.max(1,Math.min(room,preferred));
-        group.style.width=width+'px';group.style.left=(line.edge-origin.left+(line.rtl?gap:-width-gap))+'px';
+        const gap=3;
+        const room=line.rtl?rightLimit-line.edge-gap:line.edge-leftLimit-gap;
+        const digits=Math.max(...line.buttons.map(b=>b.textContent.length));
+        const width=Math.max(1,Math.min(room,Math.max(size,(digits*8+6)*scale)));
+        const x=line.rtl?line.edge+gap:line.edge-gap-width;
+        group.style.width=width+'px';
+        group.style.left=(Math.max(leftLimit,Math.min(x,rightLimit-width))-origin.left)+'px';
         group.style.setProperty('--point-height',line.height+'px');
         group.append(...line.buttons);fragment.append(group);line.element=group;
       }
@@ -243,7 +247,7 @@ function installPointRail(main,openMark){
       for(const line of lines)line.measuredHeight=line.element.offsetHeight;
       const bottom={};
       for(const line of lines.sort((a,b)=>a.middle-b.middle)){
-        const side=line.rtl?'right':'left',top=Math.max(line.middle-line.height/2,bottom[side]??-Infinity);
+        const side=line.rtl?'right':'left',top=Math.max(0,line.middle-line.measuredHeight/2,bottom[side]??-Infinity);
         line.element.style.top=top+'px';bottom[side]=top+line.measuredHeight+1;
       }
     }

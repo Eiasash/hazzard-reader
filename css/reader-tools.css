@@ -107,11 +107,12 @@ body.mark-bar-open #mcqViewport {padding-bottom:0}
 :is(#copy,.mcq-explanation) :is(p,li,td,th,h1,h2,h3,h4,figcaption,blockquote) {position:relative}
 /* Reserve the rail regardless of the number of marks. The label has no
    inline width and therefore cannot push the first word or the next line. */
-#reader.page,.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
+#reader.page {padding-inline:max(var(--gutter),calc(32px * var(--fs,1)))}
+.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
 #copy,.mcq-explanation {position:relative}
 .point-rail {position:absolute;inset:0 0 auto;height:0;pointer-events:none;z-index:1}
-.point-badge-line {position:absolute;display:flex;flex-wrap:wrap;align-items:start}
-.point-badge {position:static;flex:1 1 auto;pointer-events:auto;cursor:pointer;min-inline-size:max-content;min-block-size:0;height:var(--point-height);padding:0;box-sizing:border-box;
+.point-badge-line {position:absolute;display:flex;flex-direction:column;gap:1px;align-items:stretch}
+.point-badge {position:static;flex:none;pointer-events:auto;cursor:pointer;min-inline-size:0;max-inline-size:100%;min-block-size:0;height:var(--point-height);padding:0;box-sizing:border-box;
   border:1px solid color-mix(in srgb,var(--badge-ink) 64%,var(--muted));border-radius:5px;
   font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
   background:var(--badge-ink);color:var(--hl-ink)}
@@ -279,3 +280,33 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 .study-source-intro:not(:has([data-marked])){display:none}
 
 .reading-copy :is(p,li)[dir=rtl][lang=he]{direction:rtl;text-align:right}
+
+#copy.study-v2>h1{line-height:1.12;margin:0 0 .3em}
+#copy.study-v2>h1+p{margin:.2em 0 .65em}
+#copy.study-v2>h2{font-size:1.45em;line-height:1.2;margin:1.15em 0 .3em;border-top:1px solid var(--rule);padding-top:.65em}
+#copy.study-v2>h3{font-size:1.12em;margin:.8em 0 .2em}
+#copy.study-v2>p{margin:.25em 0 .6em}
+.study-v2 .study-memory{border-inline-start:2px solid var(--accent);padding-inline-start:.65em}
+.study-v2 .study-current-practice{margin:0 0 .6em}
+.study-numbers{margin:1em 0 .2em;padding:.7em .9em;background:var(--surface);border-inline-start:3px solid var(--accent)}
+.study-numbers h2,.study-test h2{font-size:1.2em;line-height:1.25;margin:0}
+.study-numbers ul{margin:.35em 0 0}
+.study-test{margin-top:1em;border-block:1px solid var(--rule);padding-block:.35em}
+.study-test>summary{cursor:pointer;color:var(--accent);min-height:44px;align-content:center}
+.study-test>summary h2{display:inline}
+#copy .study-question-row{display:flex;gap:.45em;align-items:baseline;justify-content:space-between;margin:0;border-bottom:1px solid var(--rule);font:500 calc(12px * var(--fs,1))/1.4 var(--ui)}
+.study-question-row a{padding:.6em 0}
+.study-question-row a:first-child{min-width:0;flex:1}
+.study-question-row a span{font-weight:650}
+.study-question-row .study-source-link{flex:none;color:var(--muted)}
+.study-v2 .drill-score,.study-v2 .mock-actions{display:none!important}
+.study-v2 .drill-q .practice-controls{display:block}
+.study-self-check>summary{cursor:pointer;min-height:44px;align-content:center}
+.study-v2 .study-flashcards{display:block;width:fit-content;margin:.8em 0}
+.book-reference-target{scroll-margin-block-start:var(--reader-header-space,50px)}
+body.flashcards-open #readingCompanion[data-structured-study]{display:none!important}
+body.single-study-pane #readingCompanion[data-structured-study]:not([hidden]){inset-block:var(--vv-top,0px) var(--vv-bottom-gap,0px)}
+html[data-single-study]:has(.study-v2) #readerViewport>#readerScroll{margin-block:0;scroll-padding-block:60px 78px}
+html[data-single-study]:has(.study-v2) #readerScroll>#reader{padding-block-start:calc(var(--study-host-header,50px) + 12px);padding-block-end:78px}
+html[data-single-study]:has(.study-v2) #mcqViewport .mcq-page{padding-block-start:calc(var(--study-host-header,50px) + 12px);padding-block-end:78px}
+html[data-single-study]:has(.study-v2) #mcqViewport .mcq-docked-actions{bottom:54px}

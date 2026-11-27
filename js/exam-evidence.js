@@ -268,7 +268,7 @@ window.HazzardEvidence = (() => {
   }
   async function decorate(copy, chapter) {
     const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=isRebuilt(sourceChapter);
-    if(!/^\d+$/.test(sourceChapter))return;
+    if(!/^\d+$/.test(sourceChapter)||study&&HazzardStudyPage.structured(copy))return;
     const data=await forChapter(sourceChapter), byPage=new Map(), earlier=[], chapterOnly=[], related=[];
     if(study)refreshExamList(copy,sourceChapter,data);
     if(!study)await addPassages(copy,sourceChapter,data);

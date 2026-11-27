@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v330",
+      "date": "2026-11-27",
+      "changes": [
+        "High-yield Study pages follow the book, with section-specific pitfalls and memory cues, one Key numbers section and a single Test yourself block. Book citations open the corresponding Read passage, table or figure.",
+        "Point numbers restart at each main heading on Read and Study pages. Crowded point badges stack within the starting margin, including in Hebrew."
+      ]
+    },
+    {
       "version": "v329",
       "date": "2026-11-27",
       "changes": [
