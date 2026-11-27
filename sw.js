@@ -39,8 +39,9 @@ self.addEventListener('install', event => {
     if (list.version !== CACHE_VERSION || !list.files?.length) throw new Error('Wrong offline file list');
     // Reuse only complete release caches for this app and this exact scope.
     // Their manifests describe the bytes verified before their ready receipt.
+    const names=await caches.keys();
     const previous=[];
-    for(const name of await caches.keys()){
+    for(const name of names){
       if(name===SHELL_CACHE||!name.startsWith('hazzard-shell-'))continue;
       const old=await caches.open(name);
       const [receipt,manifest]=await Promise.all([old.match(READY_URL),old.match(LIST_URL)]);
