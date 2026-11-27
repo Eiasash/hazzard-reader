@@ -3493,8 +3493,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch61_study.md",
-      "sha256": "41a127ff940d19a243413b367ca25c2731800907458236b53d7caaab22d62407",
-      "bytes": 26213
+      "sha256": "fbcd7a4c70ec26bae0bbd82c44a969960f12eb5e8834e2091928502c50435174",
+      "bytes": 26301
     },
     {
       "url": "./chapters/hazzard8e_ch62_cerebrovascular_disease.md",
@@ -3528,8 +3528,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch62_study.md",
-      "sha256": "103e8a42e62a305efd1d501eff6d6d50f5f2a61d76f0a6ba8bca2ec08c007efa",
-      "bytes": 20197
+      "sha256": "530346a521a33da9bff5dcac1184fa6c28b31ea79b79ed0fffa00eb1f958a7dc",
+      "bytes": 20328
     },
     {
       "url": "./chapters/hazzard8e_ch62_table-62-1_p961.webp",
@@ -5998,8 +5998,8 @@
     },
     {
       "url": "./data/drug-index.json",
-      "sha256": "f823fd2af0a0154d9a855f967033118c7b281dae64c80cca703615b3a50e4cf4",
-      "bytes": 8894605
+      "sha256": "a3595d61f44879853560cc12c588a3f47c14ec5e1fc86931a37cf2a3230cc283",
+      "bytes": 8895627
     },
     {
       "url": "./data/flashcards.json",
@@ -8608,8 +8608,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "a43ffcb19d325ae4acc326bb4796318f7b4cc6d2355bb50e82785dddb240a013",
-      "bytes": 9720999
+      "sha256": "0728a2b1bbfa63e03072c604618fea1bb94a0c37b5f9e3dc9632f0fef25468dc",
+      "bytes": 9721214
     },
     {
       "url": "./data/verification-registry.json",
