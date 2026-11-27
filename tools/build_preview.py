@@ -75,7 +75,7 @@ def write_package(out):
                 ids.add(qid)
         current = [catalog[i]["id"] for i in chapters.get(chapter, [])]
         ids.update(current)
-        subset = {"accepted": {qid: catalog[positions[qid]]["accepted"] for qid in ids if qid in positions},
+        subset = {"accepted": {qid: catalog[positions[qid]]["accepted"] for qid in sorted(ids) if qid in positions},
                   "study": {chapter: membership}, "currentChapters": {chapter: current},
                   "questions": {qid: record for qid, record in evidence["questions"].items() if qid in ids}}
         path = f"data/reader-references/{chapter}.json"
