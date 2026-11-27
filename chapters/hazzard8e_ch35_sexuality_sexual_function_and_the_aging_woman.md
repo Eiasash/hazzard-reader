@@ -4,7 +4,7 @@ Monica Christmas, Kaitlyn Fruin, Stacy Tessler Lindau
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> [Official questions linked to this chapter](?chapter=35s&view=questions&source=past).
 
 > **Source and method.** Printed pages 503-526, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

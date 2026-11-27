@@ -180,7 +180,7 @@ TE. Status of geriatrics in 22 countries. J Nutr Health Aging. 2018;22(5):627–
 
 ing with patients: the duties, responsibilities and practice of physicians in medicine. London: RCP, 2013. https://
 
-www.rcplondon.ac.uk/projects/outputs/consultantphysicians-working-patients-revised-5th-edition. Accessed May 5, 2012. Saka S, Oosthuizen F, Nlooto M. National policies and
+[www.rcplondon.ac.uk/projects/outputs/consultantphysicians-working-patients-revised-5th-edition](https://www.rcplondon.ac.uk/file/1578/download#page=131). Accessed May 5, 2012. Saka S, Oosthuizen F, Nlooto M. National policies and
 
 older people’s healthcare in Sub-Saharan Africa: a scoping review. Ann Glob Health. 2019;85(1):91. Tan MP, Kamaruzzaman SP, Poi PJH. An analysis of geri-
 

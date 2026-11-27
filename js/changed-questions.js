@@ -88,7 +88,7 @@ window.HazzardChanged = (() => {
   const pane = document.querySelector('[data-pane="practice"]');
   if (pane) {
     const host = document.createElement('li'); host.id = 'changedQuestions';
-    pane.querySelector('[data-review-link]').closest('li').after(host);
+    pane.querySelector('.practice-routes').append(host);
     new MutationObserver(() => { if (!pane.hidden) refresh(); }).observe(pane, {attributes:true,attributeFilter:['hidden']});
   }
   // Keep the existing due updater; format its number as a Practice row.

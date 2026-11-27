@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v334', RELEASED = '27.11.2026';
+  const VERSION = 'v335', RELEASED = '27.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const updateButton = document.createElement('button');

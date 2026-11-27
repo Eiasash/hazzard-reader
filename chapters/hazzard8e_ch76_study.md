@@ -155,6 +155,8 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
 - **Digoxin** — 0.125 mg daily in older adults with normal renal function; target serum level **0.5–0.9 ng/mL**; toxicity can occur even at "therapeutic" levels (p1182–1183).
 - **Refractory HF** — high-dose oral furosemide 200 mg BID or bumetanide 10 mg daily; or continuous IV furosemide 5–40 mg/h or bumetanide 0.5–1 mg/h (p1189).
+### Transthyretin cardiac amyloidosis
+
 - **Tafamidis** (ATTR cardiac amyloidosis) — meglumine 80 mg daily or “free salt” 61 mg daily [sic — Vyndamax is tafamidis free acid] (not per-mg substitutable); ATTR-ACT: mortality **29.5% vs 42.9%** placebo; cost **~$225,000/year** (p1188).
 
 > Current practice (not the book): Other US-approved disease-modifying options for ATTR cardiomyopathy include acoramidis, a TTR stabilizer, and vutrisiran, a TTR-silencing treatment. Choose therapy with specialist input and attention to indication, route and patient priorities. [Amvuttra US prescribing information, 2025](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8db0facb-81b6-4006-9239-27dc6409c5d3).

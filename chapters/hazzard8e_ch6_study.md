@@ -106,7 +106,6 @@ A more informative discussion would still name the specific safety concern. Ask 
 - A protective community network can coexist with housing or economic disadvantage. Ask about existing strengths as well as unmet needs (p97, p101–103).
 - A documented spouse, a chosen supporter and a person authorized to receive information need not be the same individual (p102, p104–105).
 - PACE and adult day services differ in eligibility, scope, provider arrangement and local availability (p104, Table 6-2).
-
 - The level of an intervention and the domain of a determinant are different: housing can be addressed at individual, community or policy level (p95–97).
 - Historical disadvantage can accumulate across a lifetime and across generations (p98–100).
 - A referral entered into the chart cannot establish that a patient obtained the service (p103–104).

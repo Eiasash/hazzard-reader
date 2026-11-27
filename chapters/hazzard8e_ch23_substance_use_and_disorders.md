@@ -4,7 +4,7 @@ Benjamin H. Han, Alexis Kuerbis, Alison A. Moore
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> [Official questions linked to this chapter](?chapter=23s&view=questions&source=past).
 
 > **Source and method.** Printed pages 317-328, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

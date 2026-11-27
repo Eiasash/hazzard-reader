@@ -58,7 +58,7 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 **Primary and specialist care.** Any clinician can treat common symptoms, coordinate care, discuss future decisions and support caregivers. Complex or refractory needs justify interprofessional specialist involvement. Hazzard describes US Medicare hospice eligibility as an expected prognosis **less than 6 months** on the usual disease course, certified by **the attending physician and hospice medical director** (p1046). Services can include medications for the terminal illness, equipment, respite and bereavement support (pp1045–1047).
 
-> Current practice (not the book): CMS uses **6 months or less**. Initial certification requires the hospice medical director or hospice interdisciplinary-group physician and the patient’s attending physician **if any** — [Medicare Benefit Policy Manual, ch 9, §20.1](https://www.cms.gov/files/document/r13664bp.pdf).
+> Current practice (not the book): <span id="hospice-certification" data-reader-metadata="navigation"></span>CMS uses **6 months or less**. Initial certification requires the hospice medical director or hospice interdisciplinary-group physician and the patient’s attending physician **if any** — [Medicare Benefit Policy Manual, ch 9, §20.1](https://www.cms.gov/files/document/r13664bp.pdf).
 
 **Why trajectory matters.** A person who reached age 65 in the 2019 US life tables could on average expect nearly 20 more years (Figure 67-1). Years of disability and illness can precede death, and changes of setting late in life can fragment care. In hospice studies, patients enrolled for more than a month tended to experience better outcomes. Prognostic uncertainty should prompt earlier conversations; it need not delay routine relief of distress (pp. 1046–1048).
 
@@ -79,7 +79,7 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 ### Definition & scope
 - Palliative care addresses serious-illness symptoms, stress and quality of life for patients and families; it can accompany curative treatment at any stage. Primary palliative care includes symptom care, coordination, communication and caregiver support. (p. 1045)
 - Hazzard describes an expected prognosis **less than six months** if the illness runs its usual course, certified by **the attending physician and hospice medical director** (p1046). The same page describes CMS coverage guidance for a prognosis of six months or less.
-  > Current practice (not the book): CMS uses **six months or less**; for the initial period, the hospice physician and the designated attending physician, **if any**, certify — [CMS, chapter 9, §20.1](https://www.cms.gov/files/document/r13664bp.pdf).
+  [Current Medicare certification requirements](#hospice-certification).
 <a id="p1047"></a>
 - Trials support quality-of-life and family benefits; noncancer evidence includes less emergency use, hospitalization and symptom burden. Dementia trials have been least promising. (p. 1047)
 

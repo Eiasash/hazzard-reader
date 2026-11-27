@@ -170,4 +170,4 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
    These are ordinary working links; numeric counts populate from the notebook. */
 html[data-initial-home] #readerViewport {display:none;}
 html[data-initial-home] #desk[hidden] {display:block!important;}
-html[data-initial-home] #desk :is(.home-weak,.resume-card,#homeFlashDue) {display:none;}
+html[data-initial-home] #desk :is(.home-weak,#homeFlashDue) {display:none;}

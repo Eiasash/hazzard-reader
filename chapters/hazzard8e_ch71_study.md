@@ -111,10 +111,8 @@ Ask about the preferred place of care or death separately from a decision about 
 - A preference about how much information to receive and a preference about who recommends or decides are separate questions (p1090–1091).
 - Use a prognostic range with the individual's goals and illness pattern. A population median cannot supply a precise date for one patient (p1093–1094).
 - In the advanced-dementia comparison, careful hand feeding was the active comparator; the alternative to a tube was not withdrawal of care (p1094–1095).
-
 - Ask how much prognosis the patient wants to hear before quoting a survival estimate (p1090–1091, p1093–1094).
 - A family member's presence should facilitate communication with a patient who can participate (p1093).
-- Discuss careful hand feeding as active care when weighing feeding tubes in advanced dementia (p1094).
 
 ## Recall drill
 

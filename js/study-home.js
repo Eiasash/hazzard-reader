@@ -86,13 +86,13 @@ window.HazzardStudyHome = (() => {
     const name = chosen.id==='law'?chosen.title:'Ch. ' + chosen.id + ' · ' + chosen.title;
     const examCount = chosen.yieldCount + ' past exam question' + (chosen.yieldCount === 1 ? '' : 's');
     const detail = element('homeWeakDetail');
+    element('homeWeakHeading').textContent=tested.length?'Chapter to revisit':'Suggested chapter';
+    element('homeWeakName').textContent=name;
     if (tested.length) {
-      element('homeWeakName').textContent = name;
       detail.textContent = chosen.clean + ' of ' + chosen.answered + ' answered correctly on the first try (' +
         Math.round(100 * chosen.rate) + '%) · ' + examCount;
     } else {
-      element('homeWeakName').textContent = 'Not enough answers yet.';
-      detail.textContent = 'Answer ' + minimumChapterAnswers + ' questions in a high-yield chapter. Suggested: ' + name + '.';
+      detail.textContent=examCount+' · Recommendations use first attempts after '+minimumChapterAnswers+' questions.';
     }
     const target = studyIds.has(chosen.id + 's') ? chosen.id + 's' : chosen.id;
     const practice = element('homeWeakPractice'), study = element('homeWeakStudy');
@@ -165,6 +165,7 @@ window.HazzardStudyHome = (() => {
       try { due = HazzardReview.catalogDue(catalog.value, now).length;official=HazzardReview.officialDue(catalog.value).length; } catch { /* Legacy answers may be unreadable. */ }
     }
     const shortcut=element('officialDue');
+    shortcut.hidden=!(official>0);
     element('officialCount').textContent=official==null?'Queue unavailable':official?' '+official+' due':'None due today';
     if(official>0)shortcut.href='?chapter=bank&review=1&queue=official';else shortcut.removeAttribute('href');
     element('homeReviewCount').textContent = due == null ? 'Queue unavailable' :

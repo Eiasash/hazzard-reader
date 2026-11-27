@@ -169,5 +169,14 @@ window.HazzardDrugs = (() => {
     input.oninput=()=>{remember('');render();};paintFilter();
     await open();
   }
-  return {mount};
+  let lookup;
+  async function search(query){
+    lookup ||= fetch('data/drug-lookup.json').then(response=>{
+      if(!response.ok)throw Error('Drug lookup unavailable');
+      return response.json();
+    }).catch(async()=>{const data=await load();return data.entries.map(d=>({id:d.id,name:d.name,class:d.class,kind:d.kind,aliases:[...d.aliases,...(d.brandNames||d.israeliBrands?.flatMap(b=>[b.name,b.hebrewName].filter(Boolean))||[])],passages:d.passageCount??d.passages.length,questions:d.questionCount??d.questions.length}));}).catch(error=>{lookup=null;throw error;});
+    const term=normalize(query),matches=(await lookup).filter(d=>[d.name,...d.aliases].some(v=>normalize(v).includes(term)));
+    return matches.sort((a,b)=>Number(normalize(b.name)===term)-Number(normalize(a.name)===term)).slice(0,10);
+  }
+  return {mount,search};
 })();

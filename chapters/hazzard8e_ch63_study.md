@@ -49,7 +49,9 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Death within 6–10y; 10-yr survival ~40%** (p985).
 - In older epidemiologic studies MSA **incidence** was about 0.6 per 100,000 person-years, and **prevalence** was 1.86–4.9 per 100,000 people. The chapter reports incidence rising to 6 per 100,000 person-years after age 50, mean onset at 54 years and a male predominance in its cited population (p985).
 - Subtypes: **MSA-P (parkinsonism) ~80%**, **MSA-C (cerebellar) ~20%**; orthostatic-predominant subtype → worse survival (p985).
-- In the 2022 MDS criteria, neurogenic orthostatic hypotension is a **systolic fall ≥20 mm Hg**, usually accompanied by a **diastolic fall ≥10 mm Hg**, with a blunted heart-rate response. The time window is 3 minutes for clinically established MSA and up to 10 minutes for clinically probable MSA. The 30-mm Hg systolic threshold on p986 reflects earlier criteria.
+- The 30-mm Hg systolic threshold on p986 reflects earlier criteria.
+
+> Current practice (not the book): In the 2022 MDS criteria, neurogenic orthostatic hypotension is a **systolic fall ≥20 mm Hg**, usually accompanied by a **diastolic fall ≥10 mm Hg**, with a blunted heart-rate response. The time window is 3 minutes for clinically established MSA and up to 10 minutes for clinically probable MSA. [Movement Disorder Society MSA criteria, 2022](https://doi.org/10.1002/mds.29005).
 - Suspect an alternative diagnosis if onset **<age 30** or family history present (p986).
 - Sleep complaints: **fragmentation 53%, early waking 33%, insomnia 20%**; RBD up to 60% (p986). Stridor → worse survival/sudden-death risk (p986).
 - MRI: putaminal atrophy/hypointensity; nonspecific **"hot cross bun" sign** in pons (p986).
@@ -59,7 +61,9 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Focal frontal/anterior-temporal atrophy; brain as light as **750 g** at autopsy (p986).
 - In most centers, **bvFTD accounts for >50%** of FTD cases; pathology **~50% tau, ~50% TDP-43, <10% FUS** (p987).
 - **bvFTD mean onset mid-50s** (p989); depression uncommon (unlike AD) (p989).
-- **Primary progressive aphasia:** insidious, progressive language impairment is the dominant early deficit and the main initial limitation on daily activities. The book describes an older two-year isolated-language criterion (p987). The international consensus criteria do not require waiting two years to diagnose PPA.
+- **Primary progressive aphasia:** insidious, progressive language impairment is the dominant early deficit and the main initial limitation on daily activities. The book describes an older two-year isolated-language criterion (p987).
+
+> Current practice (not the book): The international consensus criteria do not require waiting two years to diagnose PPA. [Gorno-Tempini et al., 2011, Table 1](https://pubmed.ncbi.nlm.nih.gov/21325651/).
   - **nfvPPA**: apraxic/agrammatic speech, preserved single-word comprehension; left-dominant atrophy (inferior frontal/insula/caudate); **~20% TDP pathology (usually TDP-43 type A)** at autopsy, most show tau (CBD > PSP > Pick) (p988).
   - **svPPA**: fluent but semantically empty speech, surface dyslexia; begins in amygdala/anterior temporal lobe; most behaviorally prominent PPA; often **TDP-43 type C**-positive, tau-negative inclusions at autopsy (p988).
   - Logopenic PPA = usually an **AD** language presentation; may respond to cholinesterase inhibitors if imaging or other biomarkers confirm AD etiology (p987-988).

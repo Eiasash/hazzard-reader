@@ -109,13 +109,9 @@ The follow-up question can be concrete. Ask whether the person can now finish ge
 - Distinguish the number of symptoms reported from the severity and functional impact of the symptom the patient most wants treated (p1071–1072).
 - Tiredness after a defined task and general fatigue can move in different directions if the patient has cut back their activity (p1072–1073).
 - Muscle weakness is one mechanism of neurologic breathlessness; a ventilation-perfusion abnormality is a different mechanism (p1073).
-- Read the eligibility criterion in the oxygen-versus-air comparison before applying it to hypoxemic COPD (p1074).
 - A mask can reduce measured dyspnea or morphine requirements in a trial while being unacceptable to the individual patient (p1074–1075).
 - When myoclonus or worsening pain appears during morphine therapy in renal impairment, consider metabolite toxicity before increasing analgesia (p1074).
-
-
 - The comparison of nasal oxygen with nasal air in nonhypoxemic cancer patients cannot answer the survival question in hypoxemic COPD (p1074).
-- A lower opioid requirement during noninvasive ventilation does not establish that the mask is tolerable for the individual wearing it (p1074–1075).
 
 ## Past exam questions
 

@@ -137,10 +137,10 @@ self.addEventListener('message', event => {
 self.addEventListener('fetch', event => {
   const req=event.request;
   const lookup=new URL(req.url);
-  // The opt-in prototype is a distinct static document and is not part of the release cache.
-  if(lookup.origin===self.location.origin&&lookup.pathname.startsWith(new URL('overhaul/',self.registration.scope).pathname))return;
   if(lookup.pathname===new URL('manifest.json',self.registration.scope).pathname&&lookup.searchParams.get('check-newer')==='1')return;
   if (req.method!=='GET' || !req.url.startsWith(self.registration.scope)) return;
+  const appPath=new URL(self.registration.scope).pathname;
+  if(req.mode==='navigate'&&lookup.pathname!==appPath&&lookup.pathname!==appPath+'index.html')return;
   foregroundUntil=Date.now()+850;
   event.respondWith((async()=>{
     const cache=await caches.open(CACHE);

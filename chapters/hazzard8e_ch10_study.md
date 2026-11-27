@@ -8,6 +8,8 @@ Study summary of Chapter 10; the book and the full chapter are the reference.
 - Assess understanding, appreciation, reasoning and the ability to express a choice (p151–152).
 - Capacity is decision-specific; impairment in one task does not establish incapacity for every decision (p154).
 - Legal incompetence is a court determination; diagnosis, age or eccentricity alone does not establish it (p152).
+
+Israeli context: A decision-making supporter helps the person obtain information, understand it and communicate a choice. Decision-making authority stays with the person. See [Chapter 7](?chapter=7s) and [the Ministry of Justice supported decision-making service](https://www.gov.il/he/service/supported_decision_making).
 - A choice that seems unreasonable to others does not itself negate self-determination; assess the reasoning process (p152).
 
 **How to assess**

@@ -175,5 +175,62 @@ function formatReadEndMatter(copy,chapter){
   placeExamQuestions(copy,exam);
 }
 
-return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter};
+// Run after mark registration. Source words keep their original order and unit IDs.
+function presentChapter(copy,chapter,title){
+  if(copy.dataset.chapterPresentation||!title)return;
+  const h1=copy.querySelector('h1');if(!h1)return;
+  copy.dataset.chapterPresentation='true';copy.dataset.canonicalTitle=title;
+  const base=chapter.replace(/s$/,''),nativeLaw=base==='law';
+  const label=document.createElement('p');label.className='chapter-context';label.dataset.readerMetadata='chapter-context';
+  label.textContent=(nativeLaw?title:'Chapter '+base)+' · '+(chapter.endsWith('s')?'Study':'Read');label.dir='ltr';
+  h1.before(label);
+  const original=h1.textContent.trim(),prefix=original.match(/^.*?\bChapter\s+\d+(?:\s+Study)?\s*[:–—-]\s*/i)?.[0]||'';
+  if(prefix){
+    let left=prefix.length;const walk=document.createTreeWalker(h1,NodeFilter.SHOW_TEXT),pieces=[];
+    while(walk.nextNode()&&left>0){const n=walk.currentNode,len=Math.min(left,n.length);pieces.push([n,len]);left-=len;}
+    for(const [n,len] of pieces){if(len<n.length)n.splitText(len);const span=document.createElement('span');span.className='book-heading-prefix';n.before(span);span.append(n);}
+  }
+  if(!nativeLaw&&original.slice(prefix.length).toLowerCase()!==title.toLowerCase()){
+    const prior=document.createElement('span'),full=document.createElement('span');prior.className='book-heading-prior';
+    prior.append(...h1.childNodes);full.dataset.readerMetadata='canonical-title';full.textContent=title;h1.append(prior,full);
+  }
+  h1.classList.add('chapter-canonical-title');
+  for(const image of copy.querySelectorAll('p>img:only-child')){
+    const p=image.parentElement;if(p.textContent.trim()||p.closest('figure,table,button,a'))continue;
+    const figure=document.createElement('figure'),next=p.nextElementSibling;
+    figure.className='reader-plate';p.before(figure);figure.append(p);
+    const tag=image.alt.match(/^(?:fig(?:ure)?\.?|table)\s+\d+[-–.]\d+[a-z]?/i)?.[0];
+    if(tag&&next?.matches('blockquote,p')&&next.textContent.trim().toLowerCase().startsWith(tag.toLowerCase())){
+      const caption=document.createElement('figcaption');figure.append(caption);caption.append(next);
+    }
+  }
+  for(const img of copy.querySelectorAll('img:not(a img,button img)')){
+    img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-haspopup','dialog');
+    img.addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)){event.preventDefault();img.click();}});
+  }
+  for(const note of copy.querySelectorAll('.study-current-practice,blockquote,.note')){
+    if(!/^(?:current (?:practice|guidance|clinical distinction)|\[sic\b)/i.test(note.textContent.trim()))continue;
+    note.classList.add('reader-guidance');
+    for(const p of note.querySelectorAll(':scope>p,:scope>.note>p')){
+      if(!p.querySelector('a[href]')||p.closest('.clinical-sources'))continue;
+      const sourceLine=/^sources?\s*:/i.test(p.textContent.trim());
+      let first=null;
+      if(!sourceLine){
+        // Keep the clinical sentence intact. Only a terminal run of external
+        // citations and their original separators enters the source disclosure.
+        for(let node=p.lastChild;node;node=node.previousSibling){
+          if(node.nodeType===1&&node.matches('a[href]')&&node.origin!==location.origin)first=node;
+          else if(!/^[\s.·,;:()–—-]*$/u.test(node.textContent))break;
+        }
+        if(!first)continue;
+      }
+      const details=document.createElement('details'),summary=document.createElement('summary');details.className='clinical-sources';
+      summary.dataset.readerMetadata='source-label';summary.textContent='Sources';details.append(summary);
+      if(sourceLine){p.before(details);details.append(p);}
+      else{p.after(details);for(let node=first;node;){const next=node.nextSibling;details.append(node);node=next;}}
+      details.open=!!details.querySelector('[data-marked],[data-mark-key]');
+    }
+  }
+}
+return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,presentChapter};
 })();

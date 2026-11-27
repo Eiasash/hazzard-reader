@@ -124,8 +124,6 @@ The chapter closes with a distinction relevant to every preceding section. The o
 - Distinguish an urge to move at rest from movements during sleep and from dream enactment (p1035–1036).
 - A medicine appropriate for alcohol withdrawal can worsen chronic insomnia, falls and dependence when continued without a separate indication (p1036–1038).
 - A lifelong pattern of coping and a first episode of disinhibition in later life require different diagnostic histories (p1039–1040).
-
-
 - Anxiety in an older person may be secondary to medication, illness, intoxication or withdrawal (p1032).
 - The maximal effect of a scheduled anxiolytic is distinct from rapid relief of distress (p1034).
 - Wandering accompanying worry does not by itself establish a need for an antipsychotic (p1027–1028, p1034).

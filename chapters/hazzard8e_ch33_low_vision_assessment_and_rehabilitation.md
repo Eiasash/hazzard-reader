@@ -386,7 +386,7 @@ Assisting older adults with low vision in continuing social activities, such as 
 
 Vision rehabilitation services have been funded through private pay, or through vocational rehabilitation services for individuals who were preparing for the work force. Funding for services to older adults with vision impairment has been a critical health care issue in the United States. Public funding through Rehabilitation Administration Service for the Independent Living Services for Older Individuals Who Are Blind program under the Rehabilitation Act is minimal, with approximately $495 million allocated nationally in fiscal year 2014. These funds provide services in the traditional “blindness” system—state services or private agencies for the blind. State governments may also allocate funding for low-income older people to receive vision and blind rehabilitation as well.
 
-> *[sic — The US Department of Education budget table records $33.317 million for Independent Living Services for Older Individuals Who Are Blind in FY2014.]* [US Department of Education, FY2015 Budget, FY2014 column](https://www.ed.gov/media/document/15pbaptpdf-38855.pdf).
+> *[sic — The US Department of Education budget table records $33.317 million for Independent Living Services for Older Individuals Who Are Blind in FY2014.]* [US Department of Education, FY2015 Budget, FY2014 column](https://web.archive.org/web/20240516080914id_/https://www2.ed.gov/about/overview/budget/budget15/15pbapt.pdf#page=8).
 
 ### Veterans Health Administration
 

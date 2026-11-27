@@ -6,6 +6,19 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 
 def generate(out, paths):
+    # The chapter search needs drug names, not the full book and exam passages.
+    drugs = json.loads((ROOT / "data/drug-index.json").read_bytes())["entries"]
+    lookup = []
+    for drug in drugs:
+        aliases = list(drug.get("aliases", []))
+        for brand in drug.get("israeliBrands", []):
+            aliases.extend([brand.get("name"), brand.get("hebrewName"), *brand.get("searchNames", [])])
+        lookup.append({"id": drug["id"], "name": drug["name"], "class": drug.get("class", ""),
+                       "kind": drug["kind"], "aliases": list(dict.fromkeys(a for a in aliases if a)),
+                       "passages": len(drug["passages"]), "questions": len(drug["questions"])})
+    drug_lookup = "data/drug-lookup.json"
+    (out / drug_lookup).write_text(json.dumps(lookup, ensure_ascii=False, separators=(",", ":"))+"\n", encoding="utf-8", newline="\n")
+    paths.add(drug_lookup)
     home_file = "data/home-question-summary.json"
     catalog = json.loads((ROOT / "data/mcq/catalog.json").read_text(encoding="utf-8"))
     evidence = json.loads((ROOT / "data/mcq/exam-references.json").read_text(encoding="utf-8"))
@@ -34,6 +47,8 @@ def generate(out, paths):
         subset = {"accepted": {qid: catalog[positions[qid]]["accepted"] for qid in sorted(ids) if qid in positions},
                   "study": {chapter: membership}, "currentChapters": {chapter: current},
                   "questions": {qid: record for qid, record in evidence["questions"].items() if qid in ids}}
+        # The chapter Questions directory needs the stems already covered by its visible teaching.
+        subset["directoryStems"] = {qid: catalog[positions[qid]]["q"] for qid in current if qid in positions}
         subset["highlightAliases"] = [a for a in aliases if a["chapter"] in (chapter, chapter + "s")]
         path = f"data/reader-references/{chapter}.json"
         (out / path).parent.mkdir(parents=True, exist_ok=True)
@@ -45,6 +60,15 @@ def generate(out, paths):
          q.get("source"), q.get("mockEligible"), q.get("sourceChecked")]
         for q in catalog
     ]
+    # The initial Bank list is small. Full-text search and deeper pages may request the full catalogue.
+    served = [q for q in catalog if not q.get("retired")]
+    official = sorted((q for q in served if q["kind"] == "past"), key=lambda q: q.get("examNumber", 0))
+    official.sort(key=lambda q: q["t"], reverse=True)
+    practice = sorted((q for q in served if q["kind"] == "practice"), key=lambda q: q["sourceIndex"])
+    first = {q["id"]: q["q"] for q in official[:48] + practice[:48]}
+    directory_file = "data/mcq/directory-start.json"
+    (out / directory_file).write_text(json.dumps(first, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8", newline="\n")
+    paths.add(directory_file)
     compact["articleFilterEnabled"] = collections["suppliedArticles"]["enabled"]
     compact["topicFallbacks"] = collections["topicFallbacks"]
     compact["topics"] = json.loads((ROOT / "data/mcq/topics.json").read_bytes())
