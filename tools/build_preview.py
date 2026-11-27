@@ -217,6 +217,7 @@ def write_package(out):
 if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev'))return;
 const urls=['manifest.json','data/mcq/id-aliases.json'];
 const params=new URLSearchParams(location.search);if(['home','practice','review','simulation'].some(key=>params.get(key)==='1')||(!location.search&&!location.hash))urls.push('data/home-question-summary.json');
+if(params.get('chapter')==='drugs')urls.push('data/drug-summary.json');
 window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request.catch(()=>{});return [url,request];}));
 })();</script>"""
     chapter_manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))

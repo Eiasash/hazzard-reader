@@ -1055,7 +1055,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 
 
 <div id="readerLinks" hidden></div>
-<button id="readerDiagnostics" type="button">Diagnostics</button><summary id="whatsNewButton">What’s new</summary>
+<details id="readerDebug" class="settings-group"><summary id="readerDiagnostics">Diagnostics</summary></details><summary id="whatsNewButton">What’s new</summary>
 
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
@@ -5225,7 +5225,8 @@ const pairedStudy=!companionFrame && matchMedia('(min-width:1200px)').matches &&
 if(pairedStudy)requestedChapter=requestedChapter.slice(0,-1);
 const opensOnPractice=launchParams.get('practice')==='1';
 const tabDestinations={chapters:['library',null],notebook:['desk','notebook'],settings:['desk','tools'],flashcards:['desk','flashcards']};
-const startupTab=tabDestinations[launchParams.get('tab')];
+const debugStart=launchParams.get('debug')==='1';
+const startupTab=debugStart?tabDestinations.settings:tabDestinations[launchParams.get('tab')];
 let opensOnHome=(opensOnPractice||!!startupTab||launchParams.get('home')==='1')&&launchParams.get('stats')!=='1';
 if(!requestedChapter||opensOnHome){
   const last=readJSON(PLACE_KEY,{}).last;
@@ -5832,7 +5833,7 @@ function measureViewport(){
 // Controls occupy their own flex row, outside the scrolling reading area.
 function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
 function setUnderlyingInert(value){for(const id of ['readerViewport','library','desk'])document.getElementById(id).inert=value;}
-function hidePanel(){setUnderlyingInert(false);document.body.classList.remove('nav-page-open');const cards=$('#flashcardView');if(cards)cards.hidden=true;document.body.classList.remove('flashcards-open');notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');syncTabs()}
+function hidePanel(){$('#readerDebug').open=false;setUnderlyingInert(false);document.body.classList.remove('nav-page-open');const cards=$('#flashcardView');if(cards)cards.hidden=true;document.body.classList.remove('flashcards-open');notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');syncTabs()}
 function closePanel(){
   if(closingHistory)return;
   if(history.state?.hazzardDepth){closingHistory=true;history.back()}
@@ -5879,6 +5880,7 @@ function displayPane(name){
   pane.scrollTop=0;
   if(name==='contents')HazzardSections.loadCounts();
   if(name==='tools'){
+    $('#readerDebug').open=new URL(location.href).searchParams.get('debug')==='1';
     settingsVersion.textContent='Version '+(window.HazzardRelease?.version||'');
     if(section){section.open=true;section.querySelector('[data-pane]').hidden=false;requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));}
   }
@@ -5941,7 +5943,7 @@ function navigateUI(id,pane=null,find=false,replace=false,exam=false){
   history.replaceState(previous,'');
   const next={...previous,hazzardPreviousMock:previous.hazzardPreviousMock,hazzardView:id,hazzardPane:pane,hazzardFind:find,hazzardExam:exam,hazzardReaderY:lastReaderY,hazzardDepth:(previous.hazzardDepth||0)+(replace?0:1)};
   next.hazzardStats=!!previous.hazzardStats&&id==='reader'&&!!pane;
-  const url=new URL(location.href);if(next.hazzardStats)url.searchParams.set('stats','1');else url.searchParams.delete('stats');
+  const url=new URL(location.href);url.searchParams.delete('debug');if(next.hazzardStats)url.searchParams.set('stats','1');else url.searchParams.delete('stats');
   const tab=pane==='tools'?'settings':['notebook','flashcards'].includes(pane)?pane:id==='library'&&!pane?'chapters':null;
   if(tab){url.search='';url.hash='';url.searchParams.set('tab',tab);}
   else if(pane==='practice'){
@@ -6031,7 +6033,7 @@ function showClaimProvenance(node){
 document.addEventListener('contextmenu',event=>{if(!isReaderControl(event.target)&&event.target.closest?.('#copy,.mcq-explanation'))event.preventDefault();},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
-document.addEventListener('click',e=>{if(!document.getElementById('readerDebug')?.open&&panel.open&&panel.dataset.primary!=='true'&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar,#examBar,#readerUpdateButton')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
+document.addEventListener('click',e=>{if(panel.open&&panel.dataset.primary!=='true'&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar,#examBar,#readerUpdateButton')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
 let lastReaderY=0;
 function view(id,opts={}){
   if(!['reader','desk','library'].includes(id))return;
@@ -6330,6 +6332,7 @@ function notebookAnswerRow(item){
   const li=document.createElement('li'),go=document.createElement('button'),text=document.createElement('span'),meta=document.createElement('small'),action=document.createElement('button');
   li.className='nb-item nb-highlight nb-answer-highlight';li.dataset.answerHighlight=item.id;
   text.textContent=(item.number?item.number+'. ':'')+item.text;text.dir=snippetDirection(item.text);text.className='nb-answer-text';text.dataset.marked=item.colour;
+  text.style.setProperty('--mark-colour','var(--hl-'+item.colour+')');
   const reference=[item.sittingLabel,item.questionNumber!=null?'Question '+item.questionNumber:item.label].filter(Boolean).join(' \u00b7 ');
   meta.textContent=(item.note?item.note+' · ':'')+(item.unplaced?'Unplaced \u00b7 ':'')+reference;meta.className='meta';
   go.append(text,meta);go.onclick=()=>{location.href=HazzardEvidence.questionURL(item.questionId);};
@@ -7836,6 +7839,7 @@ else if(!history.state?.hazzardPane){
   else if(launchParams.get('home')==='1')navigateUI('desk',null,false,true);
 }
 delete document.documentElement.dataset.resolvingRoot;
+if(debugStart&&panel.open&&panel.dataset.currentPane==='tools')$('#readerDebug').open=true;
 // Updates use the existing synchronous saves and wait for their snapshot queue.
 window.HazzardPrepareUpdate=async()=>{
   await HazzardFlashcards.flush();

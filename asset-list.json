@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "29f6ee237e26cabc97096482be755afa5f829775e0acc91e65fb52e6841824b7",
-      "bytes": 24314
+      "sha256": "a154a28a89b5127502a7148debb08205c58a945df5be003594012866f95230b4",
+      "bytes": 23971
     },
     {
       "url": "./css/reading-companion.css",
@@ -5993,8 +5993,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "334f55b8551221d0629e9266dd4e300e8d4fc75a567d14936f8acbb3301981c7",
-      "bytes": 80049
+      "sha256": "375d65662dbc24342b168f3ec8db4065bf825c719f85189f73a1e17661fe34ec",
+      "bytes": 80206
     },
     {
       "url": "./data/drug-index.json",
@@ -8628,8 +8628,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "04e91e55ff76a9def17d7185f2034a7e8367e68fef74b3f163139d8e7d61abe8",
-      "bytes": 1013157
+      "sha256": "937412cbd769bc9995433ac70e2a5a590ccaaaa64d6e1d9982d908888a915a2c",
+      "bytes": 1013551
     },
     {
       "url": "./js/changed-questions.js",
@@ -8638,8 +8638,8 @@
     },
     {
       "url": "./js/drug-index.js",
-      "sha256": "39219c69813b724026f6a303def9b1270fa7019ea4925e036d016a7585230d79",
-      "bytes": 9054
+      "sha256": "abf0d004336f94068e4c1166e0e9da821a1b34b0dc67d86781121afbf582b244",
+      "bytes": 10356
     },
     {
       "url": "./js/exam-evidence.js",
@@ -8648,8 +8648,8 @@
     },
     {
       "url": "./js/exam-simulation.js",
-      "sha256": "0cb012a88d1e91e6a46ef1e0a65215f7429f64b7d270be18868099bc6663eb03",
-      "bytes": 58953
+      "sha256": "25f1bf7a28451017a7bcc79d936b5eff7fe3e3e39aa00ca8927e06220c0c0598",
+      "bytes": 59312
     },
     {
       "url": "./js/flashcards.js",
@@ -8698,8 +8698,8 @@
     },
     {
       "url": "./js/reader-debug.js",
-      "sha256": "b7343f2a6c75c97b3f62f7add98d418fbe9541240205a138f5e2fa9147434c37",
-      "bytes": 12617
+      "sha256": "a445c1badea0f0dd953e86975864c258407d1ddf8fc7e282a98b8f44cb9683c9",
+      "bytes": 11323
     },
     {
       "url": "./js/reader-input.js",

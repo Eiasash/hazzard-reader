@@ -5,7 +5,8 @@
       "version": "v325",
       "date": "2026-11-26",
       "changes": [
-        "Exam simulation keeps previous bank answers and schedules only questions you answer. Exit lets you resume later or finish and save the result.",
+        "Exam simulation keeps previous bank answers and schedules only questions you answer. Exit lets you keep a timed attempt for later or discard it.",
+        "Notebook answer highlights show their saved ink. Diagnostics opens inside Settings. Drugs loads rows as you scroll and searches the full index.",
         "Practice, question search and source pages follow browser Back. Reviews and the sitting chooser load only the question data they need.",
         "Drag across an entirely highlighted passage to erase it. Drag across mixed text to replace it with one colour. Tap a point badge to edit its mark. Points follow reading order. Undo is available after creating, recolouring or deleting a highlight.",
         "Settings, Notebook and Practice are full pages. Scrolling down hides the bars. The study timer has been retired.",

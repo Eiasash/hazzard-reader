@@ -86,10 +86,11 @@ window.HazzardSimulation = (() => {
     s.status='submitted';s.at=Math.max(Date.now(),s.at+1);v.at=s.at;return write(v);
   }
   async function submit(automatic=false){
-    const all=await bank();let v=read(),s=v.session;if(!s)return v;
+    let v=read(),s=v.session;if(!s||s.status!=='running')return finish(v);
+    const attempt=s.id,all=await bank();await loadSitting(s.sitting,all);
+    v=read();s=v.session;
+    if(!s||s.id!==attempt)return v;
     if(s.status!=='running')return finish(v);
-    const attempt=s.id;await loadSitting(s.sitting,all);v=read();s=v.session;
-    if(!s||s.id!==attempt||s.status!=='running')return finish(v);
     const list=questions(s,all),now=Date.now(),ended=Math.min(now,s.deadline),normal=HazzardMCQ.readStore(),review=HazzardReview.read(),answerUpdates={};
     // Store only changed review records; preserve the user's daily batch/settings.
     const reviewUpdates={...review,items:{}};const logs=[];
@@ -116,7 +117,7 @@ window.HazzardSimulation = (() => {
   function startClock(){check();setInterval(check,1000);addEventListener('pageshow',check);document.addEventListener('visibilitychange',()=>{if(!document.hidden)check();});addEventListener('storage',e=>{if(e.key===KEY||e.key===null)check();});}
   function mount({viewport,readerScroll,onShow,openImage}){
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label','Exam simulation');viewport.append(host);
-    let all=[],loaded=false,busy=false,error='',setup=false,reviewing=!!history.state?.hazzardSimulationSearch,gridOpen=false,confirmSubmit=false,confirmExit=false,selectedSitting='',duration='240',custom='240';
+    let all=[],loaded=false,busy=false,error='',setup=false,reviewing=!!history.state?.hazzardSimulationSearch,gridOpen=false,confirmSubmit=false,exitAttempt=null,selectedSitting='',duration='240',custom='240';
     const place=HazzardMCQ.readPracticePlace();let restoringPlace=true;
     function remember(){if(!loaded||!controller.active||viewport.hidden||restoringPlace)return;const session=read().session;HazzardMCQ.rememberPractice('simulation',{id:session?.ids[session.position]||null,scroll:host.scrollTop,sessionId:session?.id||null,setup,reviewing,gridOpen});}
     host.addEventListener('scroll',remember,{passive:true});
@@ -161,7 +162,7 @@ window.HazzardSimulation = (() => {
         else if(s.status==='submitted'&&!reviewing)html=resultHTML(v);
         else{
           const list=questions(s,all),q=list[s.position],id=s.ids[s.position],choice=s.answers[id],done=s.status==='submitted',feedback=done&&!history.state?.hazzardSimulationSearch,isScored=scored(q,s.sitting),accepted=scoreAccepted(q,s.sitting),note=appealNote(q,s.sitting),count=Object.keys(s.answers).length;
-          html='<div class="sim-bar"><strong>'+esc(label(s.sitting))+'</strong>'+(done?'<button data-sim="result">Result</button>':'<span data-sim-clock role="timer" aria-label="Time remaining"></span>')+'</div><p data-sim-warning role="alert" hidden></p><div class="sim-tools"><span>Q'+(s.position+1)+' / '+s.ids.length+' · '+count+' answered</span>'+(!done?'<button data-sim="exit">Exit</button>':'')+'<button data-sim="grid" aria-expanded="'+gridOpen+'">Navigator</button></div>'+
+          html='<div class="sim-bar"><strong>'+esc(label(s.sitting))+'</strong>'+(done?'<button data-sim="result">Result</button>':'<span data-sim-clock role="timer" aria-label="Time remaining"></span>')+'</div><p data-sim-warning role="alert" hidden></p><div class="sim-tools"><span>Q'+(s.position+1)+' / '+s.ids.length+' · '+count+' answered</span>'+(!done?'<button data-sim="exit" aria-expanded="'+(exitAttempt===s.id)+'">Exit</button>':'')+'<button data-sim="grid" aria-expanded="'+gridOpen+'">Navigator</button></div>'+
             (gridOpen?'<section class="sim-navigator" aria-label="Question navigator"><p>● Answered · ○ Unanswered · ⚑ Flagged for later</p><div class="sim-grid">'+s.ids.map((qid,i)=>'<button data-slot="'+i+'" aria-current="'+(i===s.position?'step':'false')+'" aria-label="Question '+(i+1)+', '+(s.answers[qid]!==undefined?'answered':'unanswered')+(s.flags.includes(qid)?', flagged for later':'')+'" class="'+(s.answers[qid]!==undefined?'sim-answered':'')+'">'+(i+1)+'<small>'+(s.answers[qid]!==undefined?'●':'○')+(s.flags.includes(qid)?' ⚑':'')+'</small></button>').join('')+'</div></section>':'')+
             '<div class="mcq-question" data-bank-id="'+q.id+'"><p class="meta">'+(isScored?'Scored question':'Not scored')+(feedback&&q.label?' · '+esc(HazzardMCQ.sourceTitle(q.label)):'')+'</p>'+
             (!done?'<button data-sim="flag" aria-pressed="'+s.flags.includes(id)+'">'+(s.flags.includes(id)?'⚑ Flagged for later':'Flag for later')+'</button>':'')+
@@ -169,7 +170,7 @@ window.HazzardSimulation = (() => {
             '<div class="mcq-options" dir="rtl" role="group" aria-label="Answer options">'+q.o.map((option,i)=>{const crossed=HazzardMCQ.crossed.has(q.id,i),letter=['א','ב','ג','ד','ה'][i];return '<div class="mcq-option-row'+(crossed?' is-crossed':'')+'">'+'<button data-choice="'+i+'" class="mcq-option '+(choice===i?'selected ':'')+(feedback&&accepted.includes(i)?'correct ':feedback&&choice===i?'wrong':'')+'" aria-pressed="'+(choice===i)+'" '+(done?'disabled':'')+'><span class="mcq-letter">'+['א','ב','ג','ד','ה'][i]+'</span><span class="mcq-mixed" dir="auto" lang="he">'+HazzardMCQ.rich(option)+'</span></button>'+'<button type="button" class="mcq-cross" data-cross="'+i+'" aria-pressed="'+crossed+'" aria-label="'+(crossed?'Restore option ':'Cross out option ')+letter+'" '+(done?'hidden':'')+'><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5"/></svg></button></div>';}).join('')+'</div>'+
             (done?'<div class="mcq-confidence">'+HazzardMCQ.revisionButtons(q)+'</div>'+HazzardMCQ.revisionStatus():'')+(feedback?'<p class="mcq-result">'+(!isScored?'Not scored':choice===undefined?'Unanswered':accepted.includes(choice)?'Correct':'Incorrect')+' · Key: '+accepted.map(i=>['א','ב','ג','ד','ה'][i]).join(', ')+'</p>'+(note?'<p class="mcq-source-note" role="note">'+esc(note)+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he">'+HazzardMCQ.explanationHTML(q,q.o.map((_,i)=>i))+HazzardMCQ.explanationReviewHTML(q)+'</section><p class="mcq-source" dir="auto">'+esc(HazzardMCQ.sourceTitle(q.ref||''))+'<br>'+esc(q.keySource||'')+'</p>':'')+
             '<div class="sim-actions"><button data-sim="prev" '+(s.position===0?'disabled':'')+'>Prev</button><button data-sim="next" '+(s.position===s.ids.length-1?'disabled':'')+'>Next</button>'+(!done?'<button data-sim="submit">Submit exam</button>':'')+'</div>'+
-            (confirmExit&&!done?'<section class="sim-confirm" aria-label="Exit simulation"><h2>Keep this attempt?</h2><p>Keep it to resume with the timer running, or finish now and save your result.</p><button data-sim="keep-exit">Keep and exit</button> <button data-sim="finish-exit">Finish and exit</button> <button data-sim="cancel">Continue exam</button></section>':'')+
+            (exitAttempt===s.id&&!done?'<section class="sim-confirm" aria-label="Exit simulation"><h2>Leave this exam?</h2><p>Keep your answers and flags with the timer running, or discard this attempt.</p><button data-sim="keep-exit">Keep for later</button> <button data-sim="discard-exit">Discard this attempt</button></section>':'')+
             (confirmSubmit&&!done?'<section class="sim-confirm" role="region" aria-label="Confirm submission"><p>Submit now? '+(s.ids.length-count)+' unanswered. Answers will be locked.</p><button data-sim="confirm">Submit and show score</button> <button data-sim="cancel">Keep working</button></section>':'')+'</div>';
         }
         host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page sim-page">'+(error||backgroundError?'<p role="alert">'+esc(error||backgroundError)+'</p>':'')+html+'</div>';
@@ -209,13 +210,21 @@ window.HazzardSimulation = (() => {
         else if(action==='review'){reviewing=true;edit(s=>{s.position=0;},true);}
         else if(action==='result')reviewing=false;
         else if(action==='grid')gridOpen=!gridOpen;
-        else if(action==='submit'){confirmSubmit=true;confirmExit=false;}
-        else if(action==='exit'){confirmExit=true;confirmSubmit=false;}
-        else if(action==='keep-exit'||action==='finish-exit'){
-          busy=true;if(action==='finish-exit')await submit();else remember();
+        else if(action==='submit'){confirmSubmit=true;exitAttempt=null;}
+        else if(action==='exit'){const id=read().session?.id;exitAttempt=exitAttempt===id?null:id;confirmSubmit=false;}
+        else if(action==='keep-exit'||action==='discard-exit'){
+          const value=read(),attempt=value.session;
+          if(!attempt||attempt.id!==exitAttempt||attempt.status!=='running'){exitAttempt=null;render();return;}
+          busy=true;
+          if(action==='discard-exit'){
+            value.at=Math.max(Date.now(),value.at+1,attempt.at+1);
+            value.session=null;
+            write(value);
+          }
+          remember();
           location.assign('?practice=1');return;
         }
-        else if(action==='cancel'){confirmSubmit=confirmExit=false;}
+        else if(action==='cancel'){confirmSubmit=false;exitAttempt=null;}
         else if(action==='flag')edit(s=>{const id=s.ids[s.position];s.flags=s.flags.includes(id)?s.flags.filter(x=>x!==id):[...s.flags,id];});
         else if(b.dataset.choice!==undefined)edit(s=>{s.answers[s.ids[s.position]]=Number(b.dataset.choice);});
         else if(b.dataset.slot!==undefined){edit(s=>{s.position=Number(b.dataset.slot);},true);gridOpen=false;}

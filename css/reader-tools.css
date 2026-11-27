@@ -12,11 +12,8 @@
 .release-entry h3 { margin-block:4px 8px; }
 .release-entry ul { padding-inline-start:22px; }
 .release-entry li { margin-block:8px; line-height:1.5; }
-#readerDebug { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100vw - 20px)); max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); padding:14px; border:1px solid var(--rule,#68737f); border-radius:12px; background:var(--surface,#fffdf8); color:var(--ink,#263029); font:calc(14px * var(--fs,1))/1.45 system-ui,sans-serif; overflow:auto; }
-#readerDebug::backdrop { background:rgb(0 0 0 / .45); }
-#readerDebug[open] { display:block; }
-#readerDebug h2 { font-size:calc(18px*var(--fs,1)); margin:0 0 10px; }
-#readerDebug .debug-actions { display:flex; flex-wrap:wrap; gap:8px; position:sticky; inset-block-start:-14px; background:var(--surface,#fffdf8); padding-block:8px; }
+#readerDebug { min-inline-size:0; }
+#readerDebug .debug-actions {display:flex;flex-wrap:wrap;gap:8px;margin-block:6px}
 #readerDebug button { min-height:44px; min-width:44px; padding:8px 12px; background:var(--soft,#eeece3); color:inherit; border:1px solid var(--rule,#68737f); border-radius:8px; font:inherit; cursor:pointer; }
 #readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:calc(12px * var(--fs,1))/1.5 monospace; }
 #readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:calc(12px * var(--fs,1))/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
@@ -44,7 +41,8 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 
 /* Answer-key excerpts use the existing Notebook rows and actions. */
 .nb-answer-highlight>.nb-highlight-remove{margin-inline-start:calc(8px*var(--fs,1))}
-.nb-answer-text{display:block;white-space:pre-wrap;overflow-wrap:anywhere}
+.nb-answer-text{white-space:pre-wrap;overflow-wrap:anywhere;box-decoration-break:clone;-webkit-box-decoration-break:clone;background:var(--mark-colour);color:var(--hl-ink)}
+.nb-answer-text[data-marked="green"]{background:transparent;color:inherit;text-decoration:underline 2px var(--underline-red);text-underline-offset:.18em}
 .nb-answer-highlight small{display:block;margin-block-start:calc(3px*var(--fs,1));line-height:1.4;overflow-wrap:anywhere}
 .nb-answer-list{margin-block:calc(4px*var(--fs,1)) calc(8px*var(--fs,1))}
 
