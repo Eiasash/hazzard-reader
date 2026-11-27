@@ -835,7 +835,7 @@ window.HazzardMCQ = (() => {
     const browsing=!mockMode&&!reviewMode&&!redoMode&&!params.has('q')&&!location.hash&&
       (params.has('browse')||!['session','sitting','practiceResume','focus','quick','statsFilter','saved'].some(k=>params.has(k))&&
         (!bankMode||!history.state?.mcqView?.id&&!history.state?.hazzardPracticeTab?.id));
-    let directoryRows=null;
+    let directoryRows=null,directoryRemember;
     function directoryURL(){
       const url=new URL(location.href);
       for(const key of ['q','from','practiceResume','openFilters','focus','quick','session','sitting','statsFilter','saved'])url.searchParams.delete(key);
@@ -893,7 +893,7 @@ window.HazzardMCQ = (() => {
       rememberPractice(screen,{id:q?.id||null,scroll:host.scrollTop,...(mockMode?{building,articleSelected}:{}),...(['saved','saved-practice','flags','changed'].includes(screen)?{view:viewState()}:{}),...(missedOnly||redoMode?{missedIds:missedIds?[...missedIds]:null,redoIds:[...redoIds],retryAnswers:Object.fromEntries(retryAnswers)}:{})});
     }
     function saveView(){
-      if(browsing)return;
+      if(browsing){directoryRemember?.();return;}
       savePracticePlace();
       if(!loaded||!controller.active||viewport.hidden||restoringView||redoMode||savedView||savedOnly||specialScope())return;
       if(reviewMode){try{history.replaceState({...history.state,reviewView:{id:visible()[position]?.id,scroll:host.scrollTop,lastAnswer}},'');}catch{storageError='Review position could not be saved.';}return;}
@@ -1382,7 +1382,7 @@ window.HazzardMCQ = (() => {
           if(lifetime.signal.aborted)return;
           if(browsing){
             loaded=true;host.classList.add('is-directory');
-            HazzardPracticeDirectory.mount(host,candidates,{chapter,answers,saved:readSaved(),signal:lifetime.signal,resume:!!resumePlace?.id});
+            directoryRemember=HazzardPracticeDirectory.mount(host,candidates,{chapter,answers,saved:readSaved(),signal:lifetime.signal,resume:!!resumePlace?.id});
             search.restore();return;
           }
           if(params.get('term'))await HazzardPracticeDirectory.fullStems(candidates);

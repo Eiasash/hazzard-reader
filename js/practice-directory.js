@@ -48,7 +48,12 @@ window.HazzardPracticeDirectory = (() => {
       link('Practice filters','?chapter=bank&practiceResume=1&openFilters=1');
     }
     page.append(title,search,types);if(links.childElementCount)page.append(links);page.append(count,list,more);host.replaceChildren(page);
-    const remember=()=>{if(!signal.aborted)history.replaceState({...history.state,hazzardDirectory:{kind,term,limit,scroll:host.scrollTop}},'');};
+    const remember=()=>{
+      if(signal.aborted)return;
+      const previous=history.state?.hazzardDirectory,scroll=host.scrollTop;
+      if(previous?.kind===kind&&previous.term===term&&previous.limit===limit&&previous.scroll===scroll)return;
+      history.replaceState({...history.state,hazzardDirectory:{kind,term,limit,scroll}},'');
+    };
     let drawTurn=0;
     const draw=async()=>{
       const ticket=++drawTurn;
@@ -86,8 +91,8 @@ window.HazzardPracticeDirectory = (() => {
     search.oninput=()=>{term=search.value;limit=PAGE;draw();remember();};
     more.type='button';more.onclick=()=>{limit+=PAGE;draw();remember();};
     list.onclick=event=>{const a=event.target.closest('a');if(!a||event.defaultPrevented||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();remember();HazzardRouter.go(a.href,{state:{hazzardDirectoryBack:true}});};
-    host.addEventListener('scroll',remember,{passive:true,signal});
     draw().then(()=>{if(Number.isFinite(prior.scroll))requestAnimationFrame(()=>{if(!signal.aborted)host.scrollTop=prior.scroll;});});
+    return remember;
   }
   return {ordered,matches,mount,addStems,fullStems};
 })();

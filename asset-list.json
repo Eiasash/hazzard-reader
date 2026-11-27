@@ -9603,8 +9603,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "2d406afe2abacfe94ff8d203c2bd077719859ebc8ad1f979c8f868d5702c62a3",
-      "bytes": 177010
+      "sha256": "7a94a74f4b2583e345f6aa8333af0154fe37e83027e619a8bffa92d827fc8b78",
+      "bytes": 177070
     },
     {
       "url": "./js/memory-aids.js",
@@ -9613,8 +9613,8 @@
     },
     {
       "url": "./js/practice-directory.js",
-      "sha256": "c3021c981e4ea371236edf67eea9ad23b6e06283eae0e7d43da24b53e6301326",
-      "bytes": 6578
+      "sha256": "11fb9a14dde3afb51b76ea4f33b758a32c87ececc823e8e641be7580f506d995",
+      "bytes": 6728
     },
     {
       "url": "./js/question-data.js",
