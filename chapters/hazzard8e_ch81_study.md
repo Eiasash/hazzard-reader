@@ -240,7 +240,7 @@ BODE Index score > 5, and FEV1 and DLCO both < 25% predicted, among other criter
 
 </details>
 
-## Table 81-13 — verbatim book excerpt
+## Table 81-13
 
 <a id="p1260"></a>
 
@@ -258,7 +258,7 @@ Hazzard 8e, p.1260 · [Read source](?chapter=81#p1260)
 
 [2024-Sep Q68](?chapter=bank&q=mcq-5db8763148c6144657ed06fc)
 
-## Table 81-14: Nausea/vomiting — verbatim book excerpt
+## Table 81-14: Nausea/vomiting
 
 <a id="p1263"></a>
 

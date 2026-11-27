@@ -267,3 +267,10 @@ button:disabled[data-unavailable]::after{content:attr(data-unavailable);display:
 .mcq-explanation [data-prior-excerpt]>small{display:block;color:var(--muted);font:600 .8em/1.5 var(--ui);margin-bottom:.25em}
 .mcq-explanation [data-prior-excerpt] [data-marked]{background:var(--mark-colour);color:var(--hl-ink);box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .mcq-explanation [data-prior-excerpt] [data-marked="green"]{background:transparent;text-decoration:underline var(--underline-red)}
+
+.study-recall-number{font-weight:700;margin-inline-end:.2em}
+body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-open #desk{display:none}
+
+[data-bidi-edge="both"]{direction:ltr;unicode-bidi:isolate}
+[data-bidi-edge="start"]::before{content:"\2066"}
+[data-bidi-edge="end"]::after{content:"\2069"}

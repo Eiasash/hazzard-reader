@@ -66,7 +66,7 @@ Study summary of Chapter 108 — Influenza, COVID-19, and Other Respiratory Viru
 
   > Current practice (not the book): The primary efficacy endpoints in the initial mRNA trials were symptomatic COVID-19. [Polack et al., 2020](https://doi.org/10.1056/NEJMoa2034577) · [Baden et al., 2021](https://doi.org/10.1056/NEJMoa2035389).
 
-*No exam-trap or book self-contradiction note is flagged in this source chapter.*
+*Distinguish symptomatic COVID-19, the primary trial endpoint, from infection without symptoms.*
 
 ## Recall
 

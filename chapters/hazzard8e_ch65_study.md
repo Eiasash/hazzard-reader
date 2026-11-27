@@ -136,7 +136,7 @@ During follow-up, ask about stressors and arrange practical help, respite or a c
 - Medically complex, cognitively impaired, or bipolar/psychotic-feature depression is best suited for geriatric psychiatry subspecialty referral; most general psychiatrists should feel comfortable evaluating and treating older adults (p1018–1019).
 - ECT should be considered early for severe or psychotic depression, or after limited medication response (p1014).
 
-**Exam traps / book emphases**
+**Exam traps**
 - Subsyndromal depression has real health/QOL impact but antidepressants show no proven benefit for it — don't assume "some symptoms = start a drug" (p1012, p1015).
 - No trial has found medications more effective than ECT, and older patients seem even more responsive to it than younger adults — contrary to its negative-press reputation (p1014).
 - Fluoxetine is the one antidepressant that breaks the "always taper slowly" rule (p1016).

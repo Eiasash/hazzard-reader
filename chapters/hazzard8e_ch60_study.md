@@ -125,8 +125,8 @@ SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormon
 - A Cochrane review found low-certainty evidence that melatonin doses **up to 10 mg** may have little or no sleep benefit (p931); one small trial of melatonin **3 mg** helped agitation/sundowning (p932); ramelteon showed no sleep benefit (p932).
 - Anticonvulsants ("mood stabilizers") are generally disappointing: valproate is ineffective and poorly tolerated; carbamazepine helped in one small trial but is a potent enzyme inducer with marrow-toxicity risk (p930).
 
-**Exam traps / book notes**
-- Every drug/dose table in this chapter is flagged as not checked for Israeli registration, availability, or dosing — use the printed (US) values as given for board purposes (p928).
+**Exam traps**
+- The drug tables give US doses and availability at publication (p928).
 - The chapter's own text lists cholinesterase-inhibitor side effects as "eight loss" — a printing error for "weight loss" (correctly spelled in Table 60-9, p929); left as printed on p931.
 - The 2026 exam paper misspells drug names (OLAZAPINE, Quentapine, Bopropion) — these are Olanzapine, Quetiapine, and Bupropion; don't let the spelling throw you (see reproduced questions below).
 
@@ -198,7 +198,7 @@ Citalopram; limited by QTc prolongation and worsened cognition (p929).
 
 ### 2026 exam questions for this chapter
 
-The actual exam questions and answer keys as printed in the chapter, reproduced verbatim (page cross-reference links point to anchors in the source chapter file and are given here as plain page numbers instead).
+These English translations cover the 2026 exam questions on dementia care.
 
 **Q9** — sourced to p. 925. A 90-year-old woman, known to have Alzheimer-type dementia for about 7 years. Her family report that she was seen in the emergency department because of behavioural disturbances manifested as restlessness, shouting and delusions. Delirium was ruled out, as were an infectious process, pain, urinary retention, constipation and metabolic disturbances. The family finds it hard to care for her. Behavioural-environmental treatment failed. What is the recommended approach to continuing treatment?
 
@@ -222,7 +222,7 @@ The actual exam questions and answer keys as printed in the chapter, reproduced 
 
 > Book: p929: Selective serotonin reuptake inhibitors "are considered first-line therapy for late-life depression and are generally well tolerated compared to other classes of antidepressants such as TCAs." Table 60-9 (p929) lists sertraline under "SELECTIVE SEROTONIN REUPTAKE INHIBITORS" (initial daily dose 25 mg, maximum 200 mg).
 
-## Table 60-6 — verbatim book excerpt
+## Table 60-6
 
 <a id="p926"></a>
 

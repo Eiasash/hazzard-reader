@@ -146,9 +146,23 @@ function planHighlightStroke(text,start,end,items){
 
 // Number only the points with a destination on this page. Reading a page does
 // not rewrite the notebook. A user edit commits its current reading order.
+function chapterPointOrder(items){
+  const order=new Map();
+  let position=-1,number=0;
+  for(const item of items.filter(i=>i.mark.number).sort((a,b)=>a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))){
+    // The older reader could save both a sentence and a selection beginning at
+    // the same character. Preserve both records and give that position one badge.
+    if(item.start!==position){position=item.start;number++;}
+    order.set(item.id,number);
+  }
+  return order;
+}
 function numberPlacedPoints(items,stamp){
-  items.filter(item=>item.mark.number).sort((a,b)=>a.start-b.start||a.end-b.end||a.id.localeCompare(b.id))
-    .forEach(({mark},i)=>{if(mark.number!==i+1){mark.number=i+1;mark[stamp]=Math.max(Date.now(),(mark[stamp]||0)+1);}});
+  const order=chapterPointOrder(items);
+  for(const {id,mark} of items){
+    const number=order.get(id);
+    if(number&&mark.number!==number){mark.number=number;mark[stamp]=Math.max(Date.now(),(mark[stamp]||0)+1);}
+  }
 }
 function displayPointOrder(root){
   let number=0;
@@ -171,7 +185,7 @@ function installPointRail(main,openMark){
         root.append(rail);rails.set(root,rail);resized.observe(root);
       }
       const origin=rail.getBoundingClientRect(),labels=document.createDocumentFragment();
-      const seen=new Set(),placed=[];
+      const seen=new Set(),placed=[],numbers=new Set();
       for(const marker of markers){
         const id=marker.dataset.markKey;if(seen.has(id))continue;seen.add(id);
         const walker=document.createTreeWalker(marker,NodeFilter.SHOW_TEXT);
@@ -183,7 +197,7 @@ function installPointRail(main,openMark){
         const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
         const rect=block.getBoundingClientRect(),rtl=getComputedStyle(block).direction==='rtl';
         const badge=document.createElement('button');badge.type='button';badge.className='point-badge';
-        const number=marker.dataset.point;badge.dataset.number=number;badge.textContent=number;
+        const number=marker.dataset.point;if(numbers.has(number))continue;numbers.add(number);badge.dataset.number=number;badge.textContent=number;
         badge.dataset.markId=id;badge.dataset.kind=marker.dataset.answerHighlight?'answer':marker.dataset.range?'ranges':'marks';
         const ink=marker.dataset.pointInk||marker.dataset.marked;
         badge.dataset.ink=ink;badge.dataset.side=rtl?'right':'left';

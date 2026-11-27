@@ -152,10 +152,10 @@ The June 2026 Basic item asked about a dementia medicine in a patient with presy
 - Hazzard describes focused ultrasound as delivering a “radiofrequency ablation to the STN,” with other targets possible, and says it “does not involve anesthesia” (p949, printed wording). The lesion is irreversible and cannot be reprogrammed.
   > Current practice (not the book): the 2018 US device indication specifies **unilateral thalamotomy** for medication-refractory tremor in tremor-dominant PD, using ultrasound thermal ablation of the ventral intermediate nucleus. Local anesthesia has been used for placement of the stereotactic frame — [FDA device indication, 2018](https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150038S006B.pdf), [prospective PD thalamotomy study, 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8280323/).
 
-**Exam traps / book against itself** (flagged in the source chapter)
+**Exam traps**
 - Table 61-7 lists antimuscarinics for tremor with no caveat, but the text on p947 says avoid them in patients over 70 (p946–947).
 - Table 61-7's psychosis row (p947) lists only clozapine and quetiapine; the text on p946 adds pimavanserin, which unlike quetiapine has prospective trial data for PD psychosis (p946–947).
-- "Currency — declared gap": the book reports a quetiapine-vs-pimavanserin head-to-head trial as in progress; no result is given (p946).
+- At publication, the trial comparing quetiapine with pimavanserin was still in progress (p946).
 
 ## Recall
 
@@ -233,7 +233,7 @@ Stepwise, over about 3 days — sudden levodopa withdrawal risks a neuroleptic-m
 
 ### 2026 exam questions for this chapter
 
-These are the actual 2026 specialist-exam questions and answer keys sourced to Chapter 61, reproduced verbatim as printed in the chapter's own "2026 exam" section.
+The 2026 exam tested the diagnosis and treatment of parkinsonism in the following questions, translated from Hebrew.
 
 **Q15** — sourced to [p. 939](?chapter=61#p939). Which combination of symptoms is expected to respond best to levodopa in a patient with Parkinson disease?
 

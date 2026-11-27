@@ -113,7 +113,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
   > Current practice (not the book): individualize gastroprotection according to overall gastrointestinal bleeding risk. [ESC 2024 AF guideline, §6.7.1](https://doi.org/10.1093/eurheartj/ehae176).
 - **WATCHMAN:** p1203 describes **warfarin to INR 2–3 for 45 days**. If TEE confirms complete LAA closure, stop warfarin and use **aspirin plus clopidogrel for 6 months, then long-term aspirin**. For high bleeding risk, the chapter describes six months of clopidogrel plus long-term aspirin without oral anticoagulation.
 
-**DOACs** (Table 77-9, p1204–1205 — table reproduced as a page image; percentages below verified directly against that image, not text-searchable)
+**DOACs** (Table 77-9, p1204–1205)
 - **Dabigatran:** Table 77-9 gives **150 mg twice daily** or **110 mg twice daily** with concomitant verapamil, age **≥80**, or increased GI-bleeding risk. In RE-LY, 150 mg reduced stroke/systemic embolism by 34% with similar major bleeding to warfarin; 110 mg had similar efficacy and about 20% less major bleeding. The specific reversal agent is **idarucizumab** (p1204).
   > Current practice (not the book): 110 mg twice daily for AF is a jurisdiction-dependent regimen, including in European prescribing information; the US adult AF label does not include this regimen — [EMA Pradaxa product information](https://www.ema.europa.eu/en/documents/product-information/pradaxa-epar-product-information_en.pdf).
 - **Rivaroxaban:** Table 77-9 gives **20 mg daily**, or **15 mg daily at CrCl 30–49 mL/min**. ROCKET-AF found noninferior stroke prevention and a similar major-bleeding rate versus warfarin. The book lists **andexanet alfa (Andexxa)** for reversal (p1204).
@@ -135,8 +135,8 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 
 The discussion on pp. 1200 and 1207 reflects the US context. For Israeli patients, see the Israeli guidance above on future ICD shocks and ongoing pacing.
 
-**Exam traps / book notes**
-- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips **twice**: score **6** → **9.8** %/year, score **7** → **9.6** %/year (a small dip), then score **8** → **6.7** %/year (a bigger dip, equal to score 5) — reproduced exactly as in the book; don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.
+**Exam traps**
+- The CHA2DS2-VASc "adjusted stroke risk" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips **twice**: score **6** → **9.8** %/year, score **7** → **9.6** %/year (a small dip), then score **8** → **6.7** %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.
 - Two different LVEF thresholds trigger CRT in this chapter: **≤ 35%** (p1199, image, Table 77-5) for the classic HF/dyssynchrony indication vs **< 50%** (p1199) for the AVB-driven "expected to need >40% ventricular pacing" pathway (running text) — easy to conflate on a question stem.
 - Not all DOACs reduce bleeding vs warfarin: apixaban and edoxaban show less major bleeding at their studied doses; dabigatran only at **110 mg** (150 mg shows similar bleeding to warfarin, not less); rivaroxaban (20 mg, the dose studied) shows only a similar major-bleeding rate to warfarin (Table 77-9, pp1204–1205).
 

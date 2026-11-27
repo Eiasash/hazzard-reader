@@ -18,7 +18,7 @@ Study summary of Chapter 99 — Diabetes Mellitus; the book and the full chapter
 - Recognizing hyperosmolar dehydration and distinguishing it from ketoacid production — [June 2026 Basic Q104](?chapter=99#exam-mcq-ab8aa14b6cb35dc299bb7f20), [June 2023 Basic Q114](?chapter=99#exam-mcq-404df6b6e3e250f64badb08a).
 - Liberalizing the diet in hospice when prognosis is measured in months — [June 2025 Q85](?chapter=99#exam-mcq-803bd75b3c3a8ecbbb228d97).
 
-The 2020–2022 labels open the chapter head because those sittings have no 8e page mapping. June 2023 Q24 and Q70 cite ADA 2022. Their Read links lead to the related insulin passages, and the guideline locators appear in the insulin section below.
+The 2020–2022 papers cite an earlier edition. June 2023 Q24 and Q70 cite ADA 2022. Both questions concern insulin treatment.
 
 ## Choosing a goal for the person in front of you
 
@@ -213,7 +213,7 @@ Coordinate primary care, endocrinology, nursing education, nutrition, eye and fo
 - LTC residents show better observed survival at A1C **8–9%** (p1585).
 - End-of-life glucose target: **108–270 mg/dL (6–15 mmol/L)** (p1586).
 
-**Exam traps / book self-contradictions (flagged in source)**
+**Exam traps**
 - The chapter states only insulin and sulfonylureas carry significant hypoglycemia risk, yet its own Table 99-6 and Table 99-11 also name **glinides/meglitinides** as hypoglycemia-risk drugs (p1576).
 - Table 99-11 prints the DPP-4 row as "↑ Glucagon secretion", while the GLP-1 row directly below prints "↓" and the text says GLP-1 agonists **suppress** glucagon (p1580); the book does not reconcile this (p1577).
 - Table 99-16 is sourced to the 2013 (2nd ed.) Diabetes UK end-of-life recommendations, while the chapter's own text notes they were last updated **November 2021** (p1586).
@@ -254,7 +254,7 @@ Glyburide — long half-life raises hypoglycemia risk (p1579).
 
 ### 2026 exam questions for this chapter
 
-These are the actual 2026 specialist-exam questions and keys sourced to this chapter, reproduced verbatim (English rendering; Hebrew original is the authority) as printed in the chapter's own "2026 exam" section.
+The 2026 diabetes questions below are English translations of the Hebrew exam.
 
 **Q6** — sourced to [p. 1574](?chapter=99#p1574). A 72-year-old man diagnosed with type 2 diabetes comes to the clinic for lifestyle counselling. The patient is interested in starting a physical-activity program as recommended by the American Diabetes Association (ADA). Which of the following guidelines is recommended for him?
 

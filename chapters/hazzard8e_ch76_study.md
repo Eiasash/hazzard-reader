@@ -170,7 +170,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - Hypertension treatment reduces HF incidence by **>50%** across multiple trials (p1176).
 - HYVET: treating HTN in patients ≥80y → **64%** reduction in incident HF. SPRINT intensive arm (<120 mmHg) → **36%** lower rate of acute decompensated HF vs standard (140 mmHg) arm (p1191).
 
-### Exam traps / book contradictions
+### Exam traps
 - **Two EF numbers for HFREF, not a contradiction — a general range narrowed to a working cutoff**: the chapter first gives the general literature range ("less than 40% to 50%"), then explicitly adopts **EF <45%** as its working definition for HFREF (**≥45%** for HFPEF) for the rest of the discussion (p1175). A question could test either number.
 - The three **guideline-recommended HFrEF beta blockers** are carvedilol, metoprolol succinate and bisoprolol. US labeling for bisoprolol alone is for hypertension, although its HFrEF efficacy is established. Among 2,128 patients aged ≥70, SENIORS found a benefit from nebivolol on the composite of death or cardiovascular hospitalization. These are separate evidence and regulatory questions (p1179).
 - Digoxin lowers HF hospitalizations but has **no mortality benefit** in either HFREF (DIG trial) or HFPEF (DIG ancillary) — a trap for assuming any drug that reduces hospitalizations also reduces mortality (p1182, p1188).

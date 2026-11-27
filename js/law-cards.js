@@ -18,6 +18,57 @@ window.HazzardLawCards = (() => {
       if(offset){fragment.append(node.data.slice(offset));node.replaceWith(fragment);}
     }
   }
+  // Keep the visible LTR run intact even when a link or a saved mark ends
+  // between its last digit and punctuation. Generated controls add no text
+  // to the chapter, its links or the character offsets in a saved highlight.
+  function watchNumberRanges(root){
+    const block='p,li,td,th,summary,h1,h2,h3,h4,h5,h6,button,figcaption,blockquote,div,section';
+    const skip='bdi,script,style,textarea,input,option,svg,[contenteditable="true"]';
+    const pattern=/(?<![\d.])\d+(?:[.,]\d+)?(?:[ \t]*[–—−-][ \t]*\d+(?:[.,]\d+)?)+(?:[%‰])?[.,;:!?]*(?!\d)/gu;
+    function format(el){
+      const text=el.textContent;
+      if(!/[\u0590-\u05ff]/u.test(text)&&!el.matches(':dir(rtl)'))return;
+      const nodes=[],walk=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
+      let line='',n;
+      while(n=walk.nextNode()){
+        if(n.parentElement.closest(skip)||n.parentElement.closest(block)!==el){line+='\0';continue;}
+        nodes.push([n,line.length]);line+=n.data;
+      }
+      for(const m of [...line.matchAll(pattern)].reverse()){
+        const lo=m.index,hi=lo+m[0].length;
+        for(const [node,offset] of nodes){
+          const a=Math.max(0,lo-offset),b=Math.min(node.length,hi-offset);
+          if(b<=a||node.parentElement.closest('[data-bidi-edge]'))continue;
+          const first=offset+a===lo,last=offset+b===hi;
+          const span=document.createElement('span');
+          span.dataset.bidiEdge=first&&last?'both':first?'start':last?'end':'middle';
+          const part=a?node.splitText(a):node;
+          if(b-a<part.length)part.splitText(b-a);
+          part.before(span);span.append(part);
+        }
+      }
+    }
+    const candidates=new Set();
+    function collect(node){
+      if(node.nodeType===Node.TEXT_NODE){
+        if(/[\d–—-]/.test(node.data)&&!node.parentElement?.closest(skip+',[data-bidi-edge]')){
+          const el=node.parentElement?.closest(block);if(el)candidates.add(el);
+        }
+      }else if(node.nodeType===Node.ELEMENT_NODE&&!node.matches(skip+',[data-bidi-edge]')&&/[\u0590-\u05ff]/u.test(node.textContent)){
+        const w=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);while(w.nextNode())collect(w.currentNode);
+      }
+    }
+    function flush(){for(const el of candidates)if(el.isConnected&&/[–—−-]/.test(el.textContent))format(el);candidates.clear();}
+    collect(root);flush();
+    new MutationObserver(changes=>{
+      for(const m of changes){
+        if(m.type==='characterData')collect(m.target);
+        else for(const n of m.addedNodes)collect(n);
+      }
+      flush();
+    }).observe(root,{childList:true,subtree:true,characterData:true});
+  }
+
   function read() {
     return promise ||= fetch('data/law-cards.json').then(response => {
       if (!response.ok) throw Error('Law cards unavailable. Reconnect and retry.');
@@ -166,5 +217,5 @@ window.HazzardLawCards = (() => {
     }
     await load();
   }
-  return {decorate, questionLinks, isolateLocators};
+  return {decorate, questionLinks, isolateLocators, watchNumberRanges};
 })();

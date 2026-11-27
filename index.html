@@ -5219,9 +5219,9 @@ const manifestData=await manifestRequest;
 const examYieldRank=new Map(manifestData.order.map((chapter,index)=>[chapter,index]));
 let requestedChapter=launchParams.get('chapter');
 // A direct Study URL keeps its own hash and question filters in the study frame.
-const pairedStudy=!companionFrame && matchMedia('(min-width:1200px)').matches &&
+const pairedStudy=!companionFrame &&
   /^(?:\d+s|laws)$/.test(requestedChapter||'') && !launchParams.has('home') && !launchParams.has('stats') &&
-  localStorage.getItem('hazzard-study-pane-open')!=='false' ? new URL(location.href) : null;
+  manifestData.chapters.some(c=>String(c.number)===requestedChapter.slice(0,-1)) ? new URL(location.href) : null;
 if(pairedStudy)requestedChapter=requestedChapter.slice(0,-1);
 const opensOnPractice=launchParams.get('practice')==='1';
 const tabDestinations={chapters:['library',null],notebook:['desk','notebook'],settings:['desk','tools'],flashcards:['desk','flashcards']};
@@ -5460,7 +5460,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-tab="reading">'+tabIcon('<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4zM12 6v16"/>')+'<span>Reading</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>';
-fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span>Settings</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v325 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
+fab.className='';fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span>Settings</span><span id="readerStatusChip" role="status" aria-live="polite" aria-label="v326 - checking offline copy"></span>';appTabs.append(fab);document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button id="headerHome" data-view="library" aria-label="Chapters" title="Chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'</button><button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button class="chapter-step" id="headerPrevious" hidden></button><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button><button class="chapter-step" id="headerNext" hidden></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 document.body.append(chapterHeader);
@@ -5835,7 +5835,7 @@ function measureViewport(){
 // Controls occupy their own flex row, outside the scrolling reading area.
 function measureReaderEnd(){document.documentElement.style.setProperty('--reader-end-clearance','0px')}
 function setUnderlyingInert(value){for(const id of ['readerViewport','library','desk'])document.getElementById(id).inert=value;}
-function hidePanel(){$('#readerDebug').open=false;setUnderlyingInert(false);document.body.classList.remove('nav-page-open');const cards=$('#flashcardView');if(cards)cards.hidden=true;document.body.classList.remove('flashcards-open');notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');syncTabs()}
+function hidePanel(){$('#readerDebug').open=false;setUnderlyingInert(false);document.body.classList.remove('nav-page-open');const cards=$('#flashcardView');if(cards)cards.hidden=true;document.body.classList.remove('flashcards-open');if(notebookRemovedHighlights.size||notebookRemovedAnswerHighlights.size)notebookCache=null;notebookRemovedHighlights.clear();if(panel.open)panel.close();anchor?.setAttribute('aria-expanded','false');syncTabs()}
 function closePanel(){
   if(closingHistory)return;
   if(history.state?.hazzardDepth){closingHistory=true;history.back()}
@@ -5873,7 +5873,8 @@ function displayPane(name){
   if(name==='notebook'){
     notebookOpenGroups.clear();
     for(const box of pane.querySelectorAll('details[open]'))box.open=false;
-    renderNotebook();
+    const signature=notebookSignature();
+    if(!notebookCache||signature.length!==notebookCache.length||signature.some((v,i)=>v!==notebookCache[i]))renderNotebook();
   }if(name==='practice'){HazzardChanged.refresh();refreshMissedCount();refreshReview();HazzardFlashcards.refreshDue();}
   const primary=name!=='contents';panel.dataset.primary=String(primary);
   panel.setAttribute('aria-modal','false');panel.setAttribute('role',primary?'region':'dialog');
@@ -5933,7 +5934,7 @@ function renderScreen(state){
   if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
   else{setReadingBarsHidden(false);if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
   if(state?.hazzardPane)displayPane(state.hazzardPane);
-  if(id==='desk')refreshResume();if(id==='library'){if(chapterSort==='recent')sortChapterRows();refreshLibraryMarks();}
+  if(!state?.hazzardPane&&id==='desk')refreshResume();if(!state?.hazzardPane&&id==='library'){if(chapterSort==='recent')sortChapterRows();refreshLibraryMarks();}
   if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
   syncTabs();syncMarkingUI();updateStorageNotice();viewport();
 }
@@ -5952,7 +5953,7 @@ function navigateUI(id,pane=null,find=false,replace=false,exam=false){
     url.search='';url.hash='';url.searchParams.set('practice','1');
   }else{
     url.searchParams.delete('practice');url.searchParams.delete('tab');
-    if(id==='desk')url.searchParams.set('home','1');else url.searchParams.delete('home');
+    if(id==='desk')url.searchParams.set('home','1');else {url.searchParams.delete('home');if(readingPage){const mode=companion.modeURL();url.searchParams.set('chapter',mode?.searchParams.get('chapter')||cid);if(mode?.searchParams.has('view'))url.searchParams.set('view','questions');}}
   }
   history[replace?'replaceState':'pushState'](next,'',url);
   if(id!=='reader')dismissMarkBar();
@@ -6121,7 +6122,10 @@ document.addEventListener('click',e=>{
   if(b.dataset.grade!==undefined&&b.closest('.mock-q,.drill-q'))gradePractice(b);
   else if(b.dataset.retry)retryPractice(b.dataset.retry);
   else if(b.dataset.mock)openChapter('mock',{n:b.dataset.mock});
-  else if(b.dataset.chapter)openChapter(b.dataset.chapter,{hash:b.dataset.hash});
+  else if(b.dataset.chapter){
+    if(b.closest('#chapterHeader .chapter-switch')&&companion.showMode(b.textContent==='Study'?'study':'read'))return;
+    openChapter(b.dataset.chapter,{hash:b.dataset.hash});
+  }
   else if(b.dataset.panel==='missed')openChapter('bank',{hash:'missed'});
   else if(b.dataset.panel)openPanel(b.dataset.panel,b);
   else if(b.dataset.view)view(b.dataset.view);
@@ -6167,10 +6171,14 @@ function syncTabs(){
 function readingTab(){
   const last=readJSON(PLACE_KEY,{}).last?.chapter;
   const chapter=!lightHome&&!practiceLaunch&&!['mock','bank','drugs'].includes(cid)?cid:last&&/^(?:\d+s?|laws?)$/.test(last)?last:requestedChapter&&/^(?:\d+s?|laws?)$/.test(requestedChapter)?requestedChapter:'46';
+  if(chapter===cid&&!lightHome&&!practiceLaunch){
+    navigateUI('reader');
+    return;
+  }
   location.assign('?chapter='+encodeURIComponent(chapter));
 }
 function handleTab(b){
-  if(practiceLaunch){
+  if(practiceLaunch&&['bank','mock'].includes(cid)){
     const destinations={home:'?home=1',chapters:'?tab=chapters',notebook:'?tab=notebook',tools:'?tab=settings',practice:'?practice=1'};
     if(destinations[b.dataset.tab])location.assign(destinations[b.dataset.tab]);else readingTab();
     return;
@@ -6271,7 +6279,13 @@ function restoreHighlights(){
     }
 
 
-    displayPointOrder(copy);
+    if(copy.querySelector('[data-point]')){
+      const points=chapterPointOrder(placedBookItems(saved,bookTextIndex(),true));
+      for(const marker of copy.querySelectorAll('[data-mark-key][data-point]')){
+        const point=points.get(marker.dataset.markKey);
+        if(point)marker.dataset.point=point;
+      }
+    }
     if(changed)try{writeHighlights(saved)}catch{highlightSaveFailed=true}
   }catch{highlightLoadFailed=true}
   updateStorageNotice();
@@ -6401,10 +6415,14 @@ async function renderNotebookAnswerHighlights(ticket,updateCurrentCount){
 }
 addEventListener('hazzard-answer-highlights-change',()=>{if(panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();});
 addEventListener('storage',event=>{if((event.key===HazzardAnswerHighlights.KEY||event.key===null)&&panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();});
+let notebookCache;
+function notebookSignature(){
+  return Object.keys(localStorage).filter(k=>k.startsWith('stage-a-highlights-v1:')||[BOOKMARK_KEY,HazzardAnswerHighlights.KEY,'hazzard-removals-v1'].includes(k)).sort().flatMap(k=>[k,localStorage.getItem(k)]);
+}
 function renderNotebook(){
   const ticket=++notebookRenderTicket;
+  notebookCache=notebookSignature();
   for(const node of panel.querySelectorAll('details[data-notebook-chapter],details[data-notebook-sitting]')){const key=node.dataset.notebookChapter?'chapter:'+node.dataset.notebookChapter:'sitting:'+node.dataset.notebookSitting;if(node.open)notebookOpenGroups.add(key);else notebookOpenGroups.delete(key);}
-  resyncHighlights();
   const list=$('#notebookMarks');list.replaceChildren();
   const items=[...[...unitMap.values()].filter(u=>u.marked).map(u=>({...u.record,id:u.id,kind:'marks',colour:u.colour,el:u.parts.find(p=>p.isConnected)||u.parts[0],text:u.text.trim()})),...[...rangeMarks].map(([id,r])=>({...r,id,kind:'ranges',colour:r.colour,el:r.spans[0],text:r.text}))];
   items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
@@ -6457,7 +6475,14 @@ function renderNotebook(){
     const items=notebookHighlightItems(g.ch,g.marks);
     const updateCount=()=>{const count=items.filter(m=>!notebookRemovedHighlights.has(notebookHighlightId(g.ch,m.kind,m.id))).length;box.dataset.readingCount=String(count);const answers=[...box.querySelectorAll('.nb-answer-highlight')].filter(row=>!row.classList.contains('nb-removed')).length;sum.textContent=chapterLabel(g.ch)+' ('+(count+answers)+')';};
     updateCount();box.append(sum,ul);
-    items.forEach((m,index)=>ul.append(notebookHighlightRow(g.ch,m,index,updateCount)));
+    function fill(){
+      if(!box.open)return;
+      const rows=document.createDocumentFragment();
+      items.forEach((m,index)=>rows.append(notebookHighlightRow(g.ch,m,index,updateCount)));
+      ul.append(rows);box.removeEventListener('toggle',fill);
+    }
+    box.addEventListener('toggle',fill);
+    fill();
     other.append(box);
   }
   const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
@@ -6830,9 +6855,10 @@ try{numbering=localStorage.getItem(numberingKey)==='1';}catch{}
 function bookItems(saved){
   return ['marks','ranges'].flatMap(kind=>Object.entries(saved[kind]||{}).map(([id,mark])=>({kind,id,mark})));
 }
-function placedBookItems(saved,ix=bookTextIndex()){
+function placedBookItems(saved,ix=bookTextIndex(),onlyNumbered=false){
   const items=[];
   for(const item of bookItems(saved)){
+    if(onlyNumbered&&!item.mark.number)continue;
     const parts=item.kind==='marks'?unitMap.get(item.id)?.parts:rangeMarks.get(item.id)?.spans;
     const nodes=parts?.filter(node=>node.isConnected&&!node.closest('[data-reader-metadata],.exam-page-badge'));
     if(!nodes?.length)continue;
@@ -6895,7 +6921,7 @@ function showMark(kind,id,mark){
   if(opening)alignFirstReadingLine();
   for(const dot of editor.querySelectorAll('[data-ink]'))dot.setAttribute('aria-pressed',String(dot.dataset.ink===mark.colour));
   const root=kind==='answer'?document.querySelector('.mcq-explanation'):copy;
-  const placed=[...(root?.querySelectorAll('[data-mark-key][data-point]')||[])].findIndex(n=>n.dataset.markKey===id)+1;
+  const placed=root?.querySelector('[data-mark-key="'+CSS.escape(id)+'"][data-point]')?.dataset.point;
   $('#pointChip').textContent=mark.number?'Number '+(placed||mark.number):'Number';
   $('#pointChip').setAttribute('aria-pressed',String(!!mark.number));$('#pointChip').title=mark.number?'Remove this point number':'Number in reading order';selectInk(mark.colour);
   if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';
@@ -7422,6 +7448,14 @@ function chapterNavigation(){
     const b=document.createElement('button');b.dataset.chapter=id;b.textContent=label;
     if((pairedStudy?.searchParams?.get('chapter')||cid)===id)b.setAttribute('aria-current','page');chapterHeader.querySelector('.chapter-switch').append(b);
   }
+  if(!isStudy&&manifestChapters.some(c=>String(c.number)===study)){
+    const questions=document.createElement('button');
+    questions.textContent='Questions';
+    questions.dataset.chapterQuestions='';
+    questions.onclick=()=>{if(!companion.showMode('questions'))openChapter(study,{view:'questions'});};
+    chapterHeader.querySelector('.chapter-switch').append(questions);
+    chapterHeader.classList.add('study-header');
+  }
   const sequence=isStudy?orderedChapters.filter(c=>manifestChapters.some(s=>String(s.number)===(c.number==='law'?'laws':c.number+'s'))):orderedChapters;
   const index=sequence.indexOf(chapter),nav=document.createElement('nav');nav.className='chapter-nav';nav.setAttribute('aria-label','Previous and next chapters');
   for(const [offset,side] of [[-1,'previous'],[1,'next']]){
@@ -7757,6 +7791,10 @@ $('#notebookBackupFile').onchange=async event=>{
 };
 
 
+if(/^(?:\d+s|laws)$/.test(cid))HazzardStudyPage.foldPractice(copy,part=>{
+  const unit=unitMap.get(part.dataset.unit);
+  if(unit&&!unit.parts.includes(part))unit.parts.push(part);
+});
 restoreHighlights();
 const companionStudy=cid==='law'?'laws':cid+'s';
 companion.mount({id:cid,studyId:manifestChapters.some(c=>String(c.number)===companionStudy)?companionStudy:null,copy,scroll:readerScroll,landOnSource:landOnMatch,preserveLayout,studyURL:pairedStudy});
@@ -7792,6 +7830,7 @@ for(const figure of copy.querySelectorAll('figure:has(img)')){
 installTableViewer();
 HazzardSections.mount({copy,scroll:readerScroll,landOnHeading:landOnMatch,embedded:companionFrame});
 HazzardStudyPage.mount(copy,cid);
+HazzardLawCards.watchNumberRanges(document.body);
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
 {const h=pairedStudy?'':decodeURIComponent(location.hash.slice(1));let done=startOnStudySummary||launchParams.get('chapterTop')==='1';
   if(done)scrollReadingTo(0);
@@ -7903,7 +7942,13 @@ document.addEventListener('click',async event=>{
   else if(button.hasAttribute('data-storage-file'))$('#notebookBackupFile').click();
   else{try{HazzardStorage.startFresh(button.dataset.storageFresh);refreshRecoveredReader(button.dataset.storageFresh);mcq?.sync();}catch{flash('Could not start fresh. Existing history kept.',6000);}}
 });
-if(companionFrame)parent.HazzardReadingCompanion?.frameReady();
+if(companionFrame){
+  window.HazzardChapterMode=mode=>{
+    if(mode==='questions'){if(!mcq?.active)mcq?.show();}
+    else if(mcq?.active)mcq.notes();
+  };
+  parent.HazzardReadingCompanion?.frameReady();
+}
 else HazzardCloud.start({recovered:()=>refreshRecoveredReader(PLACE_KEY),capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
 disableTextDrag(copy);
 dispatchEvent(new Event('hazzard-reader-ready'));

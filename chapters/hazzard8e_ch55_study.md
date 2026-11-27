@@ -220,7 +220,7 @@ A US Medicare inpatient rehabilitation facility generally provides 3 hours of th
 
 </details>
 
-## Table 55-4: Occupational therapist — verbatim book excerpt
+## Table 55-4: Occupational therapist
 
 <a id="p823"></a>
 

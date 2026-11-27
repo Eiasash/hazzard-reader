@@ -2,6 +2,14 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v326",
+      "date": "2026-11-27",
+      "changes": [
+        "Study pages use plain wording and consistent recall numbers and practice disclosures. Hebrew number ranges keep their printed order.",
+        "Read and Study both include Questions. Chapter points follow passage order, including older overlapping marks."
+      ]
+    },
+    {
       "version": "v325",
       "date": "2026-11-26",
       "changes": [

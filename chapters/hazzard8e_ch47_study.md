@@ -129,12 +129,12 @@ Study summary of Chapter 47 — Incontinence; the book and the full chapter are 
 - Hazzard technically defines constipation as **fewer than three bowel movements per week**; patients also use the term for difficult passage of hard stools or incomplete evacuation (p717). Common contributors to fecal incontinence include constipation/impaction, laxative use, and neurologic or colorectal disorders (p716). Relieving impaction can improve both urinary and fecal incontinence (p701).
 - Causes listed (Table 47-15): fecal impaction, constipation, laxative overuse/abuse, neurologic disorders (dementia, stroke, spinal cord disease), colorectal disorders (diarrheal illness, diabetic autonomic neuropathy, rectal sphincter damage); hyperosmotic enteral feedings — diluting or slow continuous infusion is sometimes helpful (p716).
 
-**Exam traps / book notes**
+**Exam traps**
 - 2026 Q17 trap (p703): new cough + stress leakage on an ACE inhibitor → stop/switch the ACE inhibitor, not start an antimuscarinic.
 - 2026 Q44 trap (p703–704): "overactive bladder" started on an antimuscarinic that then worsens with high PVR → stop the anticholinergic (drug-induced overflow), don't add another agent.
 - 2026 Q64 trap (p701–702): diarrhea with abdominal distension/reduced output in a demented elder → think fecal impaction (laxatives), not infection.
 - As printed (p712–713): the drug table spells "Solifenancin" (sic) for solifenacin; left as printed.
-- Currency — declared gap (p712–713): Table 47-12's drug names/doses are the US market as of press date; Israeli registration/availability was not checked for any agent.
+- Table 47-12 lists drug names and doses for the US market at publication (p712–713); local availability may differ.
 
 ## Recall
 
@@ -214,7 +214,7 @@ Fecal incontinence; it co-occurs in about 30%–50% of such patients (p716).
 
 English renderings of the 2026 questions and their post-appeal answers follow.
 
-> Question wording is an English rendering of the IMA paper as read from its page image (the Hebrew original is the authority). Keys are from key 899478 (after appeals). The support line is the book's own text, with its printed page; it supports an answer, it is not the key.
+> The IMA administered the exam in Hebrew. The official answers follow the post-appeal key 899478. The cited pages explain the answers.
 
 **Q17** — sourced to [p. 703](?chapter=47#p703). A 77-year-old woman with a background of hypertension and heart failure reports new urinary leakage over the past two months. Over the same period she has developed a dry, persistent cough that worsens at night. The leakage occurs mainly when coughing, laughing or getting up from a chair. She denies urgency, burning on urination, suprapubic pain or fever. Regular medications: Enalapril, Furosemide, Alprazolam (as needed at night). On examination there is no evidence of pelvic organ prolapse. A cough stress test is positive with slight leakage. Urinalysis is normal. What is the next therapeutic step?
 
@@ -247,7 +247,7 @@ English renderings of the 2026 questions and their post-appeal answers follow.
 
 > Book: p701: "Constipation and resultant fecal impaction are common in both acutely and chronically ill older patients." "Relief of a fecal impaction and effective treatment of constipation can lead to resolution of urinary, as well as fecal, incontinence". Table 47-3 (p702), "Stool impaction": "Disimpaction; appropriate use of bulk-forming agents and laxatives if necessary; implement high fiber intake, adequate mobility, and fluid intake". Outside the pages the examiners cited, pp716–717: "Hard stool in a fecal impaction irritates the rectum and results in the production of mucus and fluid." "This fluid leaks around the mass of impacted stool and precipitates incontinence."
 
-## Figure 47-1 — verbatim book excerpt
+## Figure 47-1
 
 <a id="p700"></a>
 

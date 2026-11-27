@@ -98,3 +98,14 @@ html[data-reading-companion] .companion-load-error {
 @media (min-width: 1200px) {
   body.full-reading-pane #readerScroll > #reader { max-inline-size: 100%; }
 }
+
+body.single-study-pane #readingCompanion:not([hidden]){display:block;position:fixed;inset:var(--reader-header-space,48px) 0 var(--tabs-height);width:auto;z-index:2;border:0;background:var(--page)}
+body.single-study-pane #readingCompanionFrame{display:block;width:100%;height:100%;border:0}
+body.single-study-pane #readerScroll{visibility:hidden}
+body.single-study-pane.reading-bars-hidden #readingCompanion{inset-block:0}
+html[data-single-study] body:not(.flashcards-open) #chapterHeader{display:none!important}
+html[data-single-study] #readerViewport{inset-block-start:0}
+html[data-single-study] #readerViewport>#readerScroll{margin-block-start:0}
+html[data-single-study] #readerScroll>#reader{padding-block-start:12px}
+body.single-study-pane:has(#readingCompanion.child-editor) #bottomSlot{visibility:hidden}
+body.single-study-pane #readingCompanion.child-editor{inset-block-end:0}
