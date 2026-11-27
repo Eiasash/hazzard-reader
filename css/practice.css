@@ -160,7 +160,8 @@ body:has(#mcqViewport:not([hidden]) .review-session) #findToggle {display:none!i
 .mcq-source-text {flex:1 1 12em;min-inline-size:0;text-align:start;overflow-wrap:break-word}
 .mcq-source-sitting {flex:none;white-space:nowrap;color:var(--muted);font:600 var(--type-label)/1.4 var(--ui)}
 body:not(.mark-bar-open) #readerViewport #mcqViewport:has(.mcq-docked-actions) {padding-block-end:0}
-#mcqViewport .mcq-page>.mcq-docked-actions {position:sticky;inset-block-end:0;margin:0;padding:.25em 0 max(.25em,env(safe-area-inset-bottom));z-index:3}
+#readerViewport #mcqViewport:has(.mcq-page>.mcq-docked-actions) {inset-block-end:var(--dock-height,0px);scroll-padding-block-end:6px}
+#mcqViewport .mcq-page>.mcq-docked-actions {position:fixed;left:var(--actions-left,0px);width:var(--actions-width,100%);bottom:var(--actions-bottom,0px);box-sizing:border-box;margin:0;padding:.25em 0 max(.25em,env(safe-area-inset-bottom));z-index:4}
 #mcqViewport .mcq-docked-actions>button {min-width:44px;min-height:44px;max-width:100%;white-space:normal;overflow-wrap:normal}
 #mcqViewport .mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:0}
 
@@ -174,3 +175,15 @@ body:not(.mark-bar-open) #readerViewport #mcqViewport:has(.mcq-docked-actions) {
 .practice-result-actions button {min-width:0;min-height:44px;padding:var(--row-pad-block) var(--row-pad-inline);white-space:normal;text-align:start}
 .practice-result-actions .primary {background:var(--accent);color:var(--page)}
 #flashcardView .flashcard-actions button {min-width:0;white-space:normal;overflow-wrap:normal}
+
+#panel [data-pane="practice"] .practice-due.nothing-due {background:var(--surface);color:var(--ink);border:1px solid var(--rule)}
+.practice-due.nothing-due [data-practice-due] {color:var(--muted)}
+#mcqViewport .mcq-option-row:has(.mcq-cross:not([hidden])) {align-items:center;gap:0;background:var(--surface);border:1px solid var(--control);border-radius:10px}
+#mcqViewport .mcq-option-row:has(.mcq-cross:not([hidden]))>.mcq-option {border:0;background:transparent}
+#mcqViewport .mcq-option-row:has(.mcq-cross:not([hidden]))>.mcq-option::before {border:0;background:none}
+#mcqViewport .mcq-option-row>.mcq-cross:not([hidden]) {display:grid;place-items:center;flex:0 0 36px;min-width:36px;width:36px;margin:0;border-inline-start:1px solid var(--rule);border-radius:0}
+
+#mcqViewport .mcq-choice-id {position:relative;flex:0 0 24px}
+#mcqViewport .mcq-choice-id .mcq-answer-mark {position:absolute;inset-inline-end:-.45em;bottom:-.25em;padding:1px;border-radius:50%;background:var(--surface);font-size:.85em;line-height:1}
+#mcqViewport .mcq-option-row:has(.mcq-cross[hidden])>.mcq-option {padding-inline-end:calc(var(--row-pad-inline) + 36px)}
+#panel [data-pane="notebook"] #bookmark:focus:not(:focus-visible) {outline:none}

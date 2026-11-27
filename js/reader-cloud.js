@@ -36,6 +36,24 @@ window.HazzardCloud = (() => {
   }
   function render(){
     if(!bridge)return;
+    const savedAt=current?.updated_at||state.seenAt||state.syncedAt;
+    const latest=savedAt?' · Last cloud copy '+time(savedAt):'';
+    const blocked=HazzardStorage.blockedKeys(),unreadable=blocked.length?HazzardStorage.storeLabel(blocked[0]):'';
+    const message=unreadable?unreadable+' needs recovery.':(expired||state.username&&!signed())?'Sign in to back up this notebook.':
+      paused()?'Cloud backup is overdue.':'';
+    const line=unreadable?message+latest:HazzardStorage.status.error?'Check your saved notebook.':
+      !signed()?'Saved on this phone · Sign in for cloud backup':
+      !navigator.onLine?'Saved on this phone · Offline'+latest:
+      !decided()?'Saved on this phone · Choose a backup below':
+      known&&current?.exists&&!state.dirty&&!busy&&!restoring?'Everything saved and backed up'+latest:
+      'Saved on this phone · '+(busy?'Backing up…':'Waiting for cloud backup')+latest;
+    $('backupOverview').textContent=line;
+    const warning=$('notebookBackupWarning');warning.hidden=!message;
+    warning.querySelector('span').textContent=message;
+    const action=warning.querySelector('button');
+    if(unreadable){action.textContent='Recover '+unreadable;action.dataset.panel='backup';action.onclick=null;}
+    else if(expired||!signed()){action.textContent='Sign in';action.dataset.panel='backup';action.onclick=()=>{authMode='login';render();};}
+    else{action.textContent='Sync now';delete action.dataset.panel;action.onclick=()=>push({manual:true});}
     $('cloudStatus').textContent=label();
     $('cloudError').textContent=error||notice;
     const loggedIn=signed();

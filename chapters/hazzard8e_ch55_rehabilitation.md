@@ -2,7 +2,7 @@
 
 Cynthia J. Brown
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p817"></a>**[p. 817]**
 
@@ -160,6 +160,21 @@ A variety of interventions are available to treat physical impairments and disab
 
 > *Table 55-4 — Rehabilitation team members, typical roles, and methods used for evaluation and treatment. Reproduced as a page image (printed p. 823).*
 
+| Team member | Primary methods of evaluation and treatment |
+| --- | --- |
+| Chaplain or spiritual care provider | Provides spiritual support to patient and family |
+| Dietician | Assess nutritional status<br>Alter diet to maximize nutrition |
+| Nurse | Evaluation of self-care skills<br>Evaluation of family and home care factors<br>Self-care training<br>Patient and family education<br>Liaison with community |
+| Occupational therapist | Evaluate self-care skills and other activities of daily living<br>Home assessment<br>Self-care skills training; recommendations and training in use of assistive technology<br>Fabrication of splints |
+| Pharmacist | Collaborate with providers to determine most appropriate medication regimen and dosage<br>Identify potential interactions between medications |
+| Physical therapist | Assessment of motor control and impairments such as joint range of motion, muscle strength, and balance<br>Assessment of gait and mobility<br>Provision of appropriate assistive devices<br>Exercise training to increase range of motion, strength, endurance, balance, coordination, and gait<br>Treatment with physical modalities (heat, cold, ultrasound, and electrical stimulation), soft tissue and manual therapy techniques |
+| Physician/advanced practice provider | Manage complex medical conditions<br>Coordinate patient care services of the interprofessional team |
+| Prosthetist orthotist | Makes and fits prosthetic limbs<br>Makes a variety of orthotics including braces, ankle-foot orthoses, splints, and shoe inserts<br>Assesses fit of orthotics |
+| Psychologist/neuropsychologist | Assessment of brain function through testing<br>Counseling |
+| Recreation therapist | Assess leisure skills and interests<br>Involve patients in recreational activities to maintain social roles |
+| Social worker | Evaluation of family and home care factors<br>Assessment of psychosocial factors<br>Counseling |
+| Speech therapist | Assessment of all aspects of communication<br>Assessment of swallowing disorders<br>Treatment of communication deficits<br>Recommendations for alterations of diet and positioning to treat dysphagia |
+
 ### Exercise/physical Activity
 
 **_General Principles of Exercise_** Exercise is the cornerstone of physical rehabilitation. Each exercise prescribed for a patient should be related to achievement of a goal, and all goals should lead to improvement in function. For example, a common exercise for patients is elbow and shoulder flexion. Typical goals related to these exercises are feeding one’s self, dressing one’s self, or reaching overhead to retrieve an item from a shelf. The expected functional outcome for each exercise should be shared with the patient and his/her family. The involvement <a id="p824"></a>**[p. 824]** of the patient and the family is important to maximize adherence.
@@ -245,6 +260,17 @@ Prescribing a wheelchair for use is an important decision, and the advantages an
 ![Table 55-5](hazzard8e_ch55_table55-5_p828.png)
 
 > *Table 55-5 — Key features and clinical situations where ambulatory devices might be beneficial. Reproduced as a page image (printed p. 828).*
+
+| Ambulatory device | Support provided | Device benefits | Device drawbacks | Clinical situations where device might be beneficial |
+| --- | --- | --- | --- | --- |
+| Straight cane | Unilateral | Assists with balance and proprioception<br>Reduced weight bearing on opposite side | May not provide enough support<br>Doesn’t stand up on its own, making it difficult to carry objects and open doors | Osteoarthritis of knee or hip<br>Peripheral neuropathy |
+| Quad or 4-point cane | Unilateral | More stable than straight cane<br>Allows greater weight bearing on device | Heavier than single-point cane<br>Increased base of support may increase risk of tripping over device | Stroke with hemiparesis |
+| Standard “pick-up” walker | Bilateral | Very stable and allows non-weight-bearing movement | Must be lifted and advanced requiring strength and coordination<br>Gait pattern and turns not smooth due to lack of wheels | Hip fracture where non-weight-bearing needed<br>Unilateral amputation, prior to prosthesis |
+| Two-wheeled rolling walker | Bilateral | Easier to advance than standard walker<br>Allows smoother, faster gait pattern than standard walker | Less stable than standard walker<br>Turns less smooth than rollator due to fixed wheels | Deconditioning<br>Parkinson disease |
+| Rollator or 4-wheeled walker | Bilateral | Allows for smoother, faster gait than standard walker<br>Turns easily due to front rotating wheels<br>Good for outside walking because of large wheels<br>Has seat for resting | Less stable than standard or rolling walker<br>Requires increased coordination due to brakes<br>More expensive than rolling or standard walkers | Cardiopulmonary disease<br>Peripheral neuropathy with balance difficulty |
+| Manual wheelchair | Full body | Often used by caregivers and in nursing homes for ease of patient mobility | Requires use of arms and some cardiopulmonary endurance or someone to push the chair | Nonambulatory patients with cognitive impairment<br>Low-level spinal cord injury patients with good endurance |
+| Power wheelchair | Full body | Allows community mobility for those with limited ambulatory ability<br>Controls do not require intact UEs | Need cognitive ability to operate safely<br>May need home modifications | Neurologic diseases (eg, high-level spinal cord injury, MS, ALS)<br>Multiple limb amputations |
+| Scooter | Full body | Similar benefits to power wheelchair, but may be more acceptable to patient than power wheelchair | Need to be able to operate controls with UEs | Significant cardiopulmonary disease |
 
 ALS, amyotrophic lateral sclerosis; MS, multiple sclerosis; UEs, upper extremities.
 

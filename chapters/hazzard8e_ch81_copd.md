@@ -2,7 +2,7 @@
 
 Carolyn L. Rochester, Kathleen M. Akgün, Jennifer D. Possick, Jennifer M. Kapo, Patty J. Lee
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1235"></a>**[p. 1235]**
 

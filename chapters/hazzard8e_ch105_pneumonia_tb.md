@@ -2,7 +2,7 @@
 
 Juan Gonzalez del Castillo, Francisco Javier Martin Sanchez
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1679"></a>**[p. 1679]**
 

@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v338', RELEASED = '27.11.2026';
+  const VERSION = 'v339', RELEASED = '28.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const updateButton = document.createElement('button');
@@ -17,10 +17,10 @@
       else if (!navigator.onLine) { state = complete ? 'offline' : 'incomplete'; text = complete ? 'Offline - ' + VERSION + ' ready' : 'Offline copy incomplete'; }
       else if (waiting()) { state = 'waiting'; text = saveError ? 'Save failed - tap to retry' : 'Update ready - tap to reload'; }
       else if (prepareError) { state='incomplete';text='Offline download interrupted'; }
-      else if (preparing || registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading offline copy' : 'Updating... ' + progress + '%'; }
-      else { state = complete ? 'ready' : 'downloading'; text = VERSION + (complete ? ' - offline ready' : ' - offline copy incomplete'); }
+      else if (preparing || registration?.installing) { state = 'downloading'; text = progress === null ? 'Downloading for offline use' : 'Downloading for offline use · ' + progress + '%'; }
+      else { state = complete ? 'ready' : 'downloading'; text = (complete ? 'Available offline' : 'Preparing offline reading'); }
       const downloading = !waiting() && progress !== null && navigator.onLine;
-      const progressText = progressVersion + ' - downloading ' + progress + '%';
+      const progressText = 'Downloading for offline use · ' + progress + '%';
       const cloud = window.HazzardCloud;
 
       // One deadline refresh; sync scheduling and update-on-tap stay independent.

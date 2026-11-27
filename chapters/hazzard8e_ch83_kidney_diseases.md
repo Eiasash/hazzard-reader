@@ -2,7 +2,7 @@
 
 Mark Unruh, Nitin Budhwar
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1277"></a>**[p. 1277]**
 

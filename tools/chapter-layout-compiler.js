@@ -3,7 +3,7 @@ window.compileChapterLayout=function(root,chapter){
   const hebrew=/[\u0590-\u05ff]/u,letters=/\p{L}/u;
   const blocks='p,li,td,th,summary,h1,h2,h3,h4,h5,h6,figcaption,blockquote,div,section';
   const skip='bdi,script,style,textarea,input,option,svg,[data-reader-metadata],[data-bidi-edge]';
-  const numeric=/\d+(?:[.,]\d+)?(?:[ \t]*[–—−-][ \t]*\d+(?:[.,]\d+)?)+(?:[%‰])?[.,;:!?]*/u;
+  const numeric=/\d+(?:[./]\d+)*(?:[ \t]*[–—−-][ \t]*\d+(?:[./]\d+)*)*[%‰]?/u;
   const latin=/\p{Script=Latin}[\p{Script=Latin}\p{M}\d]*(?:(?:[-–—−’'/_.:]|[ \t]+|,[ \t]+)[\p{Script=Latin}\d][\p{Script=Latin}\p{M}\d]*)*/u;
   const section=/§{1,2}[ \t]*\d+[\u05d0-\u05ea]{0,3}(?:\((?:\d+|[\u05d0-\u05ea]{1,3})\))*(?:[ \t]*[,/–—-][ \t]*(?:§{1,2}[ \t]*)?\d+[\u05d0-\u05ea]{0,3}(?:\((?:\d+|[\u05d0-\u05ea]{1,3})\))*)*/u;
   const date=/\d{1,2}\.\d{1,2}\.\d{4}(?:,[ \t]*[a-z]+(?:\.[a-z]+)+)?/u;

@@ -25,3 +25,12 @@
 .drug-sources q{display:block;font-size:var(--type-label);overflow-wrap:anywhere}
 .drug-index summary:focus-visible,.drug-index a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .library-drugs{display:inline-flex;align-items:center;min-height:44px;font:600 var(--type-label)/1.4 var(--ui);margin:0 0 8px}
+
+#drugLetters {display:flex;flex-wrap:wrap;gap:2px;margin-block:.4em}
+#drugLetters[hidden] {display:none}
+#drugLetters button {padding:0 .35em;min-width:28px;min-height:30px;border:0;background:transparent;color:var(--accent);font-weight:650}
+.drug-index .drug-letter-heading {font:650 var(--type-control)/1.35 var(--ui);color:var(--muted);margin:1em 0 .15em;scroll-margin-top:2.5em}
+.drug-index .drug-entry>summary {padding:.35em 1.6em .35em 0;min-height:40px;align-content:center;gap:0 .5em}
+.drug-entry>summary::after {top:50%;transform:translateY(-50%)}
+.drug-entry>summary .drug-class {grid-column:1;font-size:var(--type-small)}
+.drug-entry>summary small {grid-column:2;grid-row:2;align-self:end;white-space:nowrap}

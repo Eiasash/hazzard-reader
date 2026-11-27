@@ -2,7 +2,7 @@
 
 Armand Ryden, Cathy Alessi
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p643"></a>**[p. 643]**
 

@@ -2,7 +2,7 @@
 
 Albert C. Shaw, Thilinie D. Bandaranayake
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Excluded from the IMA required reading list (P005-2026). Cited in the 2020-22 past papers (Hazzard 7e, linked by chapter).
 

@@ -2,7 +2,7 @@
 
 Owoicho Adogwa, Una E. Makris, M. Carrington Reid
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1629"></a>**[p. 1629]**
 

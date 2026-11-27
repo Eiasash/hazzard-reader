@@ -4,7 +4,7 @@ Study summary of Chapter 73; the book is the reference.
 
 **Full chapter available: [Read Chapter 73](?chapter=73).**
 
-Fast build from the book; not lane-reviewed.
+Checked against the book.
 
 ## Summary
 

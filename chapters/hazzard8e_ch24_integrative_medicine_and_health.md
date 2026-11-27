@@ -2,7 +2,7 @@
 
 Julia Loewenthal, Gloria Y. Yeh, Darshan H. Mehta, Peter M. Wayne
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Not cited in the 2020-2026 past papers.
 

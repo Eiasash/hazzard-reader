@@ -2,7 +2,7 @@
 
 Nikola Dobrilovic, Dae Hyun Kim, Niloo M. Edwards
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1149"></a>**[p. 1149]**
 

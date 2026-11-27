@@ -671,7 +671,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
 <section data-pane="tools" data-title="Settings">
-  <small id="settingsVersion">Version v338</small>
+  <small id="settingsVersion">Version v339</small>
   <div class="settings-controls">
     <span class="settings-label">Text size</span><div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">Small</button><button data-size="medium" aria-label="Medium" aria-pressed="false">Medium</button><button data-size="large" aria-label="Large" aria-pressed="false">Large</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg><span id="themeChoiceText">Theme</span></button>
@@ -694,8 +694,8 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Take a complete official sitting</small></a></li>
 <li><button data-mock="builder"><strong>Mock builder</strong><small>Build a 25-, 50- or 100-question paper</small></button></li>
 </ul><ul class="rows practice-routes practice-stats"><li><button id="openStatistics"><strong>Statistics</strong><small>Progress, weak topics and exam results</small></button></li></ul>
-</section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Notebook" hidden=""><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
-<div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
+</section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Notebook" hidden=""><div id="notebookBackupWarning" hidden><span></span> <button type="button" data-panel="backup">Open backup settings</button></div><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
+<div class="notebook-backup"><p id="backupOverview" role="status"></p><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
 <div id="backupRecovery"></div>
 <section id="cloudControls" aria-label="Cloud account">
 <p id="cloudStatus" class="meta" role="status">Cloud: not signed in</p>
@@ -740,7 +740,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 </section>
 <details id="appearanceStatus">
 <summary id="appearanceSummary" title="Show release, storage and snapshot details">Storage and offline status</summary>
-<p id="storageProtection" class="meta" role="status">Storage protected: checking…</p><p id="storageProtectionHelp" class="meta" hidden>Install the reader to the home screen (Chrome menu &gt; Add to Home screen / Install app) to help Chrome keep the offline book and saved work; meanwhile cloud sync and the existing backup download are the safety net.</p>
+<p id="storageProtection" class="meta" role="status"></p><button id="keepOnPhone" type="button" class="quiet" hidden>Keep offline files on this phone</button><small id="storageProtectionHelp" hidden></small>
 <p id="releaseStatus" class="meta" role="status"></p>
 <p id="generatedFlagCount" class="meta" role="status"></p>
 <p id="changedQuestionsStatus" class="meta" role="status"></p>
@@ -1230,6 +1230,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <script src="js/drug-index.js"></script>
 <script src="js/question-search.js"></script>
 <script src="js/practice-directory.js"></script>
+<script src="js/answer-passage-aliases.js"></script>
 <script src="js/mcq.js"></script>
 <script src="js/stats.js"></script>
 <script src="js/study-home.js"></script>
@@ -1269,7 +1270,16 @@ if(!location.search&&!location.hash){
 try{if(launchParams.has('home')||launchParams.has('tab')||launchParams.has('practice'))await HazzardMCQ.loadAliases();else await HazzardMCQ.migrateSaved();}catch(error){HazzardStorage.status.error='Saved-question recovery: '+error.message;}
 HazzardSimulation.startClock();
 // One best-effort request per document load; refusal must never block reading.
-async function refreshStorageProtection(){let ok=false;try{ok=await navigator.storage?.persisted?.()===true;}catch{}$('#storageProtection').textContent='Storage protected: '+(ok?'yes':'no');$('#storageProtectionHelp').hidden=ok;}
+async function refreshStorageProtection(){
+  const status=HazzardStorage.status;
+  $('#storageProtection').textContent=status.error?'Check your notebook backup':'Saved on this phone';
+  $('#keepOnPhone').hidden=status.persisted===true||typeof navigator.storage?.persist!=='function';
+}
+$('#keepOnPhone').onclick=async()=>{
+  const ok=await HazzardStorage.requestPersistence();await refreshStorageProtection();
+  const help=$('#storageProtectionHelp');help.hidden=false;
+  help.textContent=ok?'The browser will keep your offline files.':'Your work is saved. The browser decides how long to keep offline files.';
+};
 HazzardStorage.persistence.then(refreshStorageProtection);
 addEventListener('hazzard-storage-status',refreshStorageProtection);
 function snapshotStatus(){const status=HazzardStorage.status;$('#autoSaveStatus').textContent=status.error||(status.restored?'Recovered '+status.restored+' saved items automatically. ':'' )+(status.snapshotAt?'Automatic local snapshots: ready (last five copies).':'Automatic local snapshots: preparing.');}
@@ -1312,7 +1322,9 @@ window.HazzardStudyPreview={async html(chapter){
   const html=HazzardChapterContent.renderMarkdown(text,id,imageSizes);
   if(!layout)return html;
   const article=document.createElement('article');article.innerHTML=html;
-  HazzardChapterContent.applyLayout(article,layout);return article.innerHTML;
+  HazzardChapterContent.applyLayout(article,layout);
+  if(/s$/.test(id))for(const block of article.querySelectorAll('p[dir=rtl],li[dir=rtl]'))HazzardChapterContent.formatHebrewReferences(block);
+  return article.innerHTML;
 }};
 async function chapterArticle(id){
   const article=document.createElement('article');article.className='reading-copy';article.id='copy';article.dataset.chapterId=id;
@@ -2415,8 +2427,8 @@ function notebookAnswerRow(item){
   text.textContent=(item.number?item.number+'. ':'')+item.text;text.dir=snippetDirection(item.text);text.className='nb-answer-text';if(item.unplaced)li.classList.add('nb-unplaced');else text.dataset.marked=item.colour;
   text.style.setProperty('--mark-colour','var(--hl-'+item.colour+')');
   const reference=item.sitting&&item.questionNumber!=null?HazzardEvidence.label({sitting:item.sitting,number:item.questionNumber}):item.label;
-  meta.textContent=(item.note?item.note+' · ':'')+(item.unplaced?'Saved text · passage could not be located · ':'')+reference;meta.className='meta';
-  go.append(text,meta);go.onclick=()=>{router.go(HazzardEvidence.questionURL(item.questionId));};
+  meta.textContent=(item.note?item.note+' · ':'')+(item.unplaced?'Saved from an earlier explanation · ':'')+reference;meta.className='meta';
+  go.append(text,meta);go.onclick=()=>{router.go(HazzardEvidence.questionURL(item.questionId)+'&answerHighlight='+encodeURIComponent(item.id));};
   const removed=notebookRemovedAnswerHighlights.has(item.id);go.disabled=removed;li.classList.toggle('nb-removed',removed);
   action.className='nb-highlight-remove';action.type='button';action.textContent=removed?'Undo':'\u00d7';action.setAttribute('aria-label',removed?'Undo remove highlight':'Remove highlight');
   action.onclick=()=>{
@@ -2429,7 +2441,7 @@ function notebookAnswerRow(item){
 }
 function notebookAnswerList(host,items,heading=true){
   const section=document.createElement(heading?'details':'div');section.className='nb-answer-list';
-  if(heading){const h=document.createElement('summary');h.className='nb-heading';h.textContent='From question answer keys ('+items.filter(item=>!notebookRemovedAnswerHighlights.has(item.id)).length+')';section.append(h);}
+  if(heading){const h=document.createElement('summary');h.className='nb-heading';h.textContent='Saved answer highlights ('+items.filter(item=>!notebookRemovedAnswerHighlights.has(item.id)).length+')';section.append(h);}
   const list=document.createElement('ul');list.className='rows';for(const item of items)list.append(notebookAnswerRow(item));section.append(list);host.append(section);
 }
 function notebookSittingTime(sitting){
@@ -2495,6 +2507,8 @@ function notebookSignature(){
 const notebookQuestions=document.createElement('details'),savedSummary=document.createElement('summary'),savedQuestionList=document.createElement('ul');
 notebookQuestions.className='nb-group notebook-saved-questions';notebookQuestions.id='notebookSavedQuestions';savedQuestionList.className='rows';notebookQuestions.append(savedSummary,savedQuestionList);
 $('#notebookCurrent').before(notebookQuestions);
+addEventListener('keydown',e=>{if(e.key==='Tab')document.documentElement.dataset.keyboardNavigation='';},true);
+addEventListener('pointerdown',()=>{delete document.documentElement.dataset.keyboardNavigation;},true);
 const notebookEmpty=document.createElement('section');notebookEmpty.className='notebook-empty';notebookEmpty.hidden=true;
 notebookEmpty.innerHTML='<h2 tabindex="-1">No saved study items yet</h2><a href="?tab=chapters">Browse chapters</a><a href="?chapter=bank">Find a question</a>';
 const notebookPlaceAction=document.createElement('section');notebookPlaceAction.id='notebookCurrentPlace';notebookPlaceAction.className='nb-current-place';
@@ -3344,6 +3358,22 @@ function installTableViewer(){
   tables.forEach((table,index)=>{
     let wrap=table.parentElement;
     if(!wrap.matches('.table-wrap')){wrap=document.createElement('div');wrap.className='table-wrap';table.before(wrap);wrap.append(table);}
+    const note=wrap.previousElementSibling;
+    let figure=note?.previousElementSibling;
+    if(figure?.classList.contains('exam-count'))figure=figure.previousElementSibling;
+    const scan=figure?.querySelector('img[alt="Table 55-4"],img[alt="Table 55-5"]');
+    if(cid==='55'&&scan){
+      const label=scan.alt;
+      wrap.classList.add('rehab-table');wrap.setAttribute('aria-label',label);
+      if(label==='Table 55-5'){
+        const fields=['Device','Support','Benefits','Drawbacks','When useful'];
+        for(const row of table.tBodies[0].rows)for(const cell of row.cells)cell.dataset.field=fields[cell.cellIndex];
+      }
+      const button=document.createElement('button');button.type='button';button.className='printed-table-link';
+      button.textContent='Open printed '+label;button.dataset.readerMetadata='table';button.onclick=()=>openZoom(scan);
+      figure.classList.add('printed-table-source');figure.append(button);
+      return;
+    }
     const title=wrap.previousElementSibling?.textContent.trim().match(/^Table\s+[\d.-]+[^\n]*/i)?.[0];
     if(wrap.getAttribute('aria-label')==='Table')wrap.setAttribute('aria-label',title||'Table '+(index+1));
     for(const th of table.querySelectorAll('th'))if(!th.textContent.trim()&&!th.children.length)th.setAttribute('role','presentation');
@@ -3602,7 +3632,7 @@ async function refreshReview(){
   let text;
   try{const n=HazzardReview.catalogDue(await HazzardStudyHome.catalog()).length;text='Review due questions · '+n+' due';}
   catch{text='Review due questions · unavailable';}
-  for(const el of $$('[data-review-link]')){const count=el.querySelector('[data-practice-due]');if(count)count.textContent=text.split(' · ').at(-1);else el.textContent=text;}
+  for(const el of $$('[data-review-link]')){const count=el.querySelector('[data-practice-due]');if(count){count.textContent=text.endsWith(' · 0 due')?'Nothing due today':text.split(' · ').at(-1);el.classList.toggle('nothing-due',text.endsWith(' · 0 due'));}else el.textContent=text;}
 }
 addEventListener('hazzard-review-change',refreshReview);addEventListener('hazzard-bad-change',refreshReview);
 addEventListener('storage',event=>{if(event.key===HazzardReview.KEY)refreshReview();});
@@ -3618,13 +3648,14 @@ function refreshResume(){
   const base=target?.replace(/s$/,''),isStudy=target!==base;
   const book=manifestChapters.find(c=>String(c.number)===base);
   $('.resume-card h2').textContent=book?.title||entry?.title||(target?chapterLabel(target):'Choose a chapter');
-  const context=saved?'Continue reading':start?.reread?'Read again':'Start reading';
-  $('.resume-card .eyebrow').textContent=base&&base!=='law'?context+' · Chapter '+base:context;
-  $('.resume-card .meta').textContent=saved?.snippet?'“'+saved.snippet.slice(0,110)+(saved.snippet.length>110?'…':'')+'”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':'';
+  const finished=!!saved&&Math.round((saved.ratio||0)*100)>=100;
+  const context=finished?'Finished':saved?'Continue reading':start?.reread?'Read again':'Start reading';
+  $('.resume-card .eyebrow').textContent=base&&base!=='law'?context+' · Chapter '+base+(finished&&isStudy?' · Study':''):context;
+  $('.resume-card .meta').textContent=finished?'':saved?.snippet?'“'+saved.snippet.slice(0,110)+(saved.snippet.length>110?'…':'')+'”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':'';
   $('.resume-card .meta').hidden=!$('.resume-card .meta').textContent;
   $('.resume-card .meta').dir=snippetDirection(saved?.snippet||'');
-  $('#resume').href=target?'?chapter='+encodeURIComponent(target)+(saved&&/^(?:\d+s|laws)$/.test(target)?'&resume=1':''):'#chapters';
-  $('#resume').textContent=target?(saved?'Resume ':'Open ')+(isStudy?'Study':'Read'):'Browse chapters';
+  $('#resume').href=target?'?chapter='+encodeURIComponent(target)+(finished?'&chapterTop=1':saved&&/^(?:\d+s|laws)$/.test(target)?'&resume=1':''):'#chapters';
+  $('#resume').textContent=target?(finished?'Read again':(saved?'Resume ':'Open ')+(isStudy?'Study':'Read')):'Browse chapters';
   const alternate=base&&(isStudy?base:base+'s'),other=$('#resumeAlternate');
   other.hidden=!alternate||!manifestChapters.some(c=>String(c.number)===alternate);
   if(!other.hidden){other.href='?chapter='+encodeURIComponent(alternate);other.textContent=isStudy?'Read chapter':'Study notes';}
@@ -3636,7 +3667,7 @@ const homeStores=new Set([PLACE_KEY,BOOKMARK_KEY,READING_KEY,HazzardMCQ.KEY,Hazz
 addEventListener('storage',event=>{if(event.key===null||homeStores.has(event.key))refreshResume()});
 for(const name of ['hazzard-review-change','hazzard-bad-change','hazzard-practice-settings-change','focus'])addEventListener(name,refreshResume);
 $('#homeRetry').onclick=refreshResume;
-function refreshHomeStatus(){const offline=$('#offlineReady');$('#homeStatus').textContent=(offline.hidden?'Offline: preparing':offline.textContent)+' · '+$('#storageProtection').textContent.replace(/^Storage:\s*/,'')}
+function refreshHomeStatus(){const offline=$('#offlineReady');$('#homeStatus').textContent=(offline.hidden?'Preparing offline reading':offline.textContent)+' · '+$('#storageProtection').textContent.replace(/^Storage:\s*/,'')}
 new MutationObserver(refreshHomeStatus).observe($('#storageProtection'),{childList:true,subtree:true,characterData:true});
 new MutationObserver(refreshHomeStatus).observe($('#offlineReady'),{attributes:true,childList:true,subtree:true});
 // Backup reminder: the notebook lives in this browser only, so the downloaded JSON is the real safety copy.
@@ -3700,6 +3731,7 @@ const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KE
 const removals=HazzardStorage.removals;notebookKeys.add(removals.key);
 const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')&&!key.includes('-unreadable-')||notebookKeys.has(key);
 notebookKeys.add(HazzardMCQ.VIEW_KEY);
+notebookKeys.add(HazzardMCQ.PLACE_KEY);
 notebookKeys.add(HazzardMCQ.SETTINGS_KEY);
 notebookKeys.add(HazzardReview.KEY);
 notebookKeys.add(HazzardSimulation.KEY);
@@ -3774,6 +3806,29 @@ function mergeNotebookValue(key,current,incoming){
   return current; // Preserve a historical backup value when both copies exist.
 }
 function previousNotebookValue(key){return localStorage.getItem(key)??HazzardStorage.archivedValues()[key]??null;}
+// These device records belong in a downloaded file. Sync bookkeeping is never uploaded to itself.
+const deviceFileKeys=new Set(['hazzard-cloud-state-v1','hazzard-debug-log-v1','hazzard-whats-new-seen-v1',LAST_BACKUP_KEY,HazzardMCQ.MIGRATION_KEY]);
+function recoveryFileKey(key){
+  const match=/^(.+)-unreadable-[0-9-]+$/.exec(key);
+  return !!match&&(isNotebookKey(match[1])||deviceFileKeys.has(match[1]));
+}
+function validDeviceFileValue(key,raw){
+  if(typeof raw!=='string')return false;
+  if(recoveryFileKey(key))return true;
+  if(key===LAST_BACKUP_KEY)return /^\d+$/.test(raw);
+  if(key===HazzardMCQ.MIGRATION_KEY)return raw==='1';
+  if(key==='hazzard-whats-new-seen-v1')return /^v\d+$/.test(raw);
+  try{const value=JSON.parse(raw);
+    if(key==='hazzard-debug-log-v1')return isRecord(value)&&value.schema===1&&Array.isArray(value.entries);
+    if(key==='hazzard-cloud-state-v1')return isRecord(value)&&Object.keys(value).every(k=>['username','decided','dirty','syncedAt','seenAt','attemptAt','restoredAt','restoredCopyAt'].includes(k));
+  }catch{}
+  return false;
+}
+function downloadableNotebook(){
+  const file=captureNotebook();
+  for(const key of Object.keys(localStorage))if(isNotebookKey(key)||deviceFileKeys.has(key)||recoveryFileKey(key))file.storage[key]=localStorage.getItem(key);
+  return file;
+}
 function captureNotebook(){
   if(mcq?.hasUnsaved)throw Error('Some changes are not saved yet. Keep this page open.');
   const storage=HazzardStorage.archivedValues();for(const key of Object.keys(localStorage).filter(isNotebookKey).sort()){const raw=localStorage.getItem(key);if(key===HazzardMCQ.SETTINGS_KEY&&!HazzardMCQ.settingsFromRaw(raw))continue;storage[key]=raw;}
@@ -3946,11 +4001,12 @@ function notebookStatus(message){if(!panel.open||panel.dataset.currentPane!=='to
 $('#backupNotebook').onclick=()=>{
   try{
     if(mcq?.hasUnsaved)throw new Error('Some MCQ answers are not saved yet. Keep this page open and try again.');
-    const file=captureNotebook();
+    const file=downloadableNotebook(),backupAt=String(Date.now());
+    file.storage[LAST_BACKUP_KEY]=backupAt;
     const url=URL.createObjectURL(new Blob([JSON.stringify(file,null,2)],{type:'application/json'})),link=document.createElement('a');
     link.href=url;link.download='hazzard-notebook-'+new Date().toISOString().slice(0,10)+'.json';panel.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
     notebookStatus('Backup download started. Keep the JSON file somewhere safe.');
-    try{HazzardStorage.setItem(LAST_BACKUP_KEY,String(Date.now()))}catch{}
+    try{HazzardStorage.setItem(LAST_BACKUP_KEY,backupAt)}catch{}
     refreshBackupStatus();
   }catch(error){notebookStatus(error.message||'The notebook could not be backed up. Please try again.')}
 };
@@ -3967,12 +4023,23 @@ $('#notebookBackupFile').onchange=async event=>{
     const plan=()=>{
       const {previous:saved,invalid}=restoreNotebookState(),mergedStorage={...saved},changes=[];
       for(const [key,raw] of Object.entries(backup.storage)){
+        if(deviceFileKeys.has(key)||recoveryFileKey(key)){
+          if(!validDeviceFileValue(key,raw))throw Error('This backup contains unreadable device settings. Nothing was restored.');
+          const existing=localStorage.getItem(key);
+          // An import can fill a missing device setting, but never replace a newer local value.
+          if(existing===null){saved[key]=null;mergedStorage[key]=raw;}
+          else if(key===LAST_BACKUP_KEY&&Number(raw)>Number(existing))mergedStorage[key]=raw;
+          else if(key==='hazzard-whats-new-seen-v1'&&Number(raw.slice(1))>Number(existing.slice(1)))mergedStorage[key]=raw;
+          continue;
+        }
         if(!isNotebookKey(key))throw new Error('This file contains data outside the Hazzard notebook. Nothing was restored.');
         let incoming;try{if(typeof raw!=='string')throw new Error();incoming=notebookValue(key,raw)}catch{throw new Error('This backup contains unreadable notebook data. Nothing was restored.')}
         validateNotebookValue(key,incoming);
         const previous=previousNotebookValue(key);let current=null;
         if(previous!==null){try{current=key===CHAPTER_SORT_KEY?previous:JSON.parse(previous);validateNotebookValue(key,current)}catch{if(invalid.includes(key)||HazzardStorage.blockedKeys().includes(key))current=null;else throw new Error('Existing notebook data could not be read safely. Nothing was restored.')}}
-        const merged=mergeNotebookValue(key,current,incoming);mergedStorage[key]=key===CHAPTER_SORT_KEY?merged:JSON.stringify(HazzardMCQ.migrateValue(key,merged));
+        const merged=mergeNotebookValue(key,current,incoming);
+        const next=key===CHAPTER_SORT_KEY?merged:JSON.stringify(HazzardMCQ.migrateValue(key,merged));
+        mergedStorage[key]=previous===null&&equalCloudStorage({[key]:next},{[key]:raw})?raw:next;
       }
       const unreadable=new Set([...invalid,...HazzardStorage.blockedKeys()]);
       const pendingRemovals=HazzardStorage.blockedKeys().includes(removals.key)?removals.read():null;
@@ -4269,7 +4336,7 @@ function collectChapterInfo(){
   const details=chapterInfo().querySelector('.chapter-info-body'),nodes=[];
   if(/^\d+$/.test(cid)){
     const firstPage=copy.querySelector('a.pg[data-page]');
-    const editorial=/^(?:status\b|source and method\b|lane-reviewed\b|fast build\b|\d{4} exam\b|terminology\.|clinical scope\.|reading guide\.|P005\b|(?:not cited|cited) in the \d{4}|excluded from the IMA\b|official questions linked to this chapter\b|(?:three|six) past[- ]exam questions\b|six past questions\b|September \d{4} Q\d+ cites\b)/i;
+    const editorial=/^(?:status\b|source and method\b|checked against the book\b|fast build\b|\d{4} exam\b|terminology\.|clinical scope\.|reading guide\.|P005\b|(?:not cited|cited) in the \d{4}|excluded from the IMA\b|official questions linked to this chapter\b|(?:three|six) past[- ]exam questions\b|six past questions\b|September \d{4} Q\d+ cites\b)/i;
     const front=firstPage?[...copy.querySelectorAll(':scope > .note')].filter(note=>
       (note.compareDocumentPosition(firstPage)&Node.DOCUMENT_POSITION_FOLLOWING)&&editorial.test(note.textContent.trim())):[];
     if(front.length){
@@ -4308,7 +4375,7 @@ function collectChapterInfo(){
   for(const note of copy.querySelectorAll('.note')){
     if(note.closest('.read-editorial-notes'))continue;
     const label=note.querySelector('p > strong')?.textContent.trim()||'';
-    if(/^(?:Status(?:\b|\s*\()|Source and method|As printed, not corrected|Lane-reviewed|Fast build|Currency\s*[—–-]\s*declared gap|Build provenance)/i.test(label)){nodes.push(note);continue;}
+    if(/^(?:Status(?:\b|\s*\()|Source and method|As printed, not corrected|Checked against the book|Fast build|Currency\s*[—–-]\s*declared gap|Build provenance)/i.test(label)){nodes.push(note);continue;}
     for(const p of note.querySelectorAll(':scope > p')){
       const run=textRun(p),text=run.map(n=>n.data).join('');
       if(!/^\s*(?:Table|Figure)\s+\d+[-–]\d+/i.test(text))continue;

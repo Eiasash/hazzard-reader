@@ -27,7 +27,7 @@ window.HazzardLawCards = (() => {
     if(baseLanguage==='en'){
       node.dir='ltr';node.lang='en';
       // The native paragraph algorithm orders the Hebrew terms in English prose.
-      node.append(document.createTextNode(value));isolateLocators(node,englishLocators);return;
+      node.append(document.createTextNode(value));isolateLocators(node,englishLocators);HazzardChapterContent.formatHebrewReferences(node);return;
     }
     if(rtl){node.dir='rtl';node.lang='he';}
     parts.forEach((part,i)=>{

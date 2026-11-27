@@ -214,3 +214,32 @@ body.reading-bars-hidden #panel[open][data-primary=true] > [data-pane=notebook]:
  #copy .table-wrap>table {table-layout:auto;inline-size:100%;max-inline-size:none}
  #copy .table-wrap>table :is(td,th):nth-child(n) {min-inline-size:0;max-inline-size:none;padding:.4em;white-space:normal;overflow-wrap:normal;word-break:normal;hyphens:manual;line-height:1.4}
 }
+
+html:not([data-keyboard-navigation]) #bookmark:focus {outline:none;box-shadow:none}
+#notebookBackupWarning:not([hidden]) {margin-block:.4em .8em;padding:.5em .65em;border-inline-start:2px solid var(--exam);font:500 var(--type-label)/1.4 var(--ui)}
+#notebookBackupWarning button {display:inline;padding:.2em;border:0;background:transparent;color:var(--accent);text-decoration:underline}
+#backupOverview {font:600 var(--type-control)/1.4 var(--ui)}
+
+#copy figure.printed-table-source {padding:0;border:0;margin:.6em 0;background:transparent}
+#copy figure.printed-table-source>img,#copy figure.printed-table-source>figcaption {display:none}
+.printed-table-link {padding:.25em 0;border:0;color:var(--accent);background:none;font:600 var(--type-label)/1.4 var(--ui);text-decoration:underline}
+#copy .rehab-table {overflow:auto;max-width:100%;margin:.45em 0 1em}
+#copy .rehab-table table {table-layout:auto;font-family:var(--ui);font-size:var(--type-body);line-height:1.45}
+#copy .rehab-table th,#copy .rehab-table td {min-width:8em;padding:.5em;vertical-align:top;word-break:normal;overflow-wrap:normal}
+#copy .rehab-table td br {display:block;content:"";margin:.3em 0}
+#copy .rehab-table:not(:has(th:nth-child(3))) table {width:100%;min-width:0;table-layout:fixed}
+#copy .rehab-table:not(:has(th:nth-child(3))) :is(th,td) {min-width:0;overflow-wrap:break-word}
+#copy .rehab-table:not(:has(th:nth-child(3))) :is(th,td):first-child {width:34%}
+@media (min-width:601px) {
+  #copy .rehab-table:has(th:nth-child(5)) table {min-width:60em}
+  #copy .rehab-table:has(th:nth-child(5)) :is(th,td):first-child {position:sticky;inset-inline-start:0;z-index:1;background:var(--surface)}
+}
+@media (max-width:600px) {
+  #copy .rehab-table:has(td[data-field]) table,#copy .rehab-table:has(td[data-field]) tbody,#copy .rehab-table:has(td[data-field]) tr {display:block;width:100%;min-width:0}
+  #copy .rehab-table:has(td[data-field]) thead {position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}
+  #copy .rehab-table td[data-field] {display:block;min-width:0;width:auto;padding:.22em .35em .22em 6.3em;border:0;text-align:start}
+  #copy .rehab-table td[data-field]::before {content:attr(data-field);float:inline-start;margin-inline-start:-6em;width:5.6em;font:600 var(--type-label)/1.45 var(--ui);color:var(--muted)}
+  #copy .rehab-table td[data-field]:first-child {font-weight:650;background:var(--surface);border-top:1px solid var(--rule);padding:.65em .35em .25em}
+  #copy .rehab-table td[data-field]:first-child::before {content:none}
+  #copy .rehab-table td[data-field]:last-child {padding-block-end:.65em}
+}

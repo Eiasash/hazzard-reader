@@ -2,7 +2,7 @@
 
 Stephen R. Lord, Jasmine C. Menant
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p633"></a>**[p. 633]**
 

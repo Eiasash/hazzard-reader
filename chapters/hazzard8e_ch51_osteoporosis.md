@@ -2,7 +2,7 @@
 
 Gustavo Duque, Mizhgan Fatima, Jesse Zanker, Bruce R. Troen
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p759"></a>**[p. 759]**
 

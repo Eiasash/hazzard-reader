@@ -2,7 +2,7 @@
 
 Anne R. Cappola
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1545"></a>**[p. 1545]**
 

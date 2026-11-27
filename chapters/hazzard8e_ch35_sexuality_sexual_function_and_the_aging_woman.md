@@ -2,7 +2,7 @@
 
 Monica Christmas, Kaitlyn Fruin, Stacy Tessler Lindau
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > [Official questions linked to this chapter](?chapter=35s&view=questions&source=past).
 

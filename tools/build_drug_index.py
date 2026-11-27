@@ -355,6 +355,20 @@ def snippet(text,hit,limit=210):
     return whole_reference(tokens[i].start(),tokens[j].end())
 
 
+def sentence_excerpt(text,hit):
+    """The complete source sentence containing the matched drug or class."""
+    start,end=hit
+    breaks=[0]
+    for m in re.finditer(r'(?<=[.!?])\s+',text):
+        prefix=text[max(0,m.start()-20):m.start()]
+        if re.search(r'\b(?:p|pp|fig|eq|vol|vs|no|dr|mr|mrs|e\.g|i\.e|et al)\.$',prefix,re.I):
+            continue
+        breaks.append(m.end())
+    left=breaks[bisect_right(breaks,start)-1]
+    right=next((boundary for boundary in breaks if boundary>=end),len(text))
+    return text[left:right].strip()
+
+
 def complete_quote(text,start,end):
     """Expand a previously clipped evidence quote to contain whole tokens."""
     while start and not text[start-1].isspace():
@@ -498,14 +512,15 @@ def printed_content(path,lexicon,entry_ids,toc,sources):
                     if identity not in entry_ids:
                         continue
                     # One source passage may name the same drug several times.
-                    clips=[]
+                    clips=[];sentences={}
                     for a,b in spans:
                         clip=snippet(text,(indexes[a],indexes[b]),180)
+                        sentences[clip]=sentence_excerpt(text,(indexes[a],indexes[b]))
                         if clip not in clips:
                             clips.append(clip)
                     citation=bool(re.search(r'\b(?:19|20)\d\d;\s*\d+[\w()]*:\s*\d+',text))
                     output[identity].append({'chapter':ch,'page':page,'block':block_no,
-                                             'type':'bibliography' if bibliography or citation else 'print-only','clips':clips})
+                                             'type':'bibliography' if bibliography or citation else 'print-only','clips':clips,'sentences':sentences})
             if (ch,page) in requested:
                 page_text=' '.join(page_blocks)
                 for source in requested[(ch,page)]:
@@ -569,8 +584,9 @@ def verify_printed(path, entries, blocks, lexicon, ids, toc):
                 # In the HTML the text may have been shortened or editorially
                 # rewritten. Display the actual printed context in that case.
                 if norm(clips[0]) != norm(display):
-                    verbatim.setdefault(stable_key(b),{})[identity]=display
+                    verbatim.setdefault(stable_key(b),{})[identity]=best['sentences'][display]
     supplements=defaultdict(dict)
+    full_clips={}
     for identity,passages in physical.items():
         for p in passages:
             if (identity,p['page'],p['block']) in covered:
@@ -580,12 +596,13 @@ def verify_printed(path, entries, blocks, lexicon, ids, toc):
                     continue
                 bucket=supplements[(p['chapter'],p['page'],p['block'],p['type'])]
                 bucket.setdefault(clip,set()).add(identity)
+                full_clips[(p['chapter'],p['page'],p['block'],clip)]=p['sentences'][clip]
     rows=[]
     for (ch,page,block,kind),quotes in supplements.items():
         for text,matches in quotes.items():
             # A printed excerpt is limited to this passage. Store each once
             # even if it names several entries, and never ship the source PDF.
-            rows.append({'chapter':ch,'page':page,'block':block,'type':kind,'text':text,'entries':sorted(matches)})
+            rows.append({'chapter':ch,'page':page,'block':block,'type':kind,'text':text,'sentence':full_clips[(ch,page,block,text)],'entries':sorted(matches)})
     checked=sum(len(v) for v in physical.values())
     with Path(path).open('rb') as verified:
         digest=sha256()
@@ -618,7 +635,7 @@ def checked_blocks(catalog,blocks,names,ids,book,anchors):
             raise ValueError(f'Printed excerpt lost a matched term on p{page}: {set(r["entries"])-found}')
         blocks.append({'chapter':ch,'kind':'chapter','section':'Further reading' if r['type']=='bibliography' else 'Printed passage',
                        'anchor':anchors.get((ch,page),''),'page':page,'text':r['text'],'raw':r['text'],
-                       'ordinal':'print-'+str(index),'sourceType':r['type'],'verifiedEntries':set(r['entries'])})
+                       'ordinal':'print-'+str(index),'sourceType':r['type'],'sentence':r['sentence'],'verifiedEntries':set(r['entries'])})
     return result
 
 
@@ -734,7 +751,7 @@ def build(destination=None, audit=None, book=None):
                     info[parent]['fields'].add(field)
         for identity,evidence in info.items():
             official=q['kind']=='past'
-            result={'id':q['id'],'kind':q['kind'],'label':str(q['t']).replace('-Subspec','')+' · Q'+str(q.get('examNumber')) if official else 'Practice · '+snippet(clean(bank_text(q['q'])) or q['id'],(0,1),130),
+            result={'id':q['id'],'kind':q['kind'],'label':str(q['t']).replace('-Subspec','')+' · Q'+str(q.get('examNumber')) if official else 'Practice · '+clean(bank_text(q['q'])),
                     'matchFields':sorted(evidence['fields']),'terms':sorted(evidence['direct']|evidence['class']|evidence['member']),
                     'match':'name' if evidence['direct'] else 'class' if evidence['class'] else 'member'}
             if official:
@@ -776,7 +793,7 @@ def build(destination=None, audit=None, book=None):
                     continue
                 context=words(b['text'])
                 read,readspans=max(candidates,key=lambda v:len(context.intersection(words(v[0]['text']))))
-            s,e=readspans[0];excerpt=display_quote(item,read.get('printQuote') or snippet(read['text'],(s,e),180))
+            s,e=readspans[0];excerpt=display_quote(item,read.get('printQuote') or read.get('sentence') or sentence_excerpt(read['text'],(s,e)))
             passage={'passageId':b['chapter']+'-'+str(b['ordinal']), 'chapter':b['chapter'],'kind':b['kind'],
                      'anchor':b['anchor'],'section':b['section'],'page':read['page'],'excerpt':excerpt}
             passage['sourceType']=read.get('sourceType','prose')

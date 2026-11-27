@@ -2,7 +2,7 @@
 
 Margaret A. Drickamer, Sarah Stoneking
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > September 2024 Q77 cites the capacity assessment on p151.
 

@@ -573,10 +573,17 @@ def main():
         default="mcq-95f642a729895dc17239d748",
         help="Baseline question to answer and save",
     )
+    marks = sub.add_parser("notebook", help="Verify chapter and answer highlights from a real local notebook export")
+    marks.add_argument("--notebook", type=Path, required=True)
+    marks.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    marks.add_argument("--output", type=Path, required=True)
     compare = sub.add_parser("compare")
     compare.add_argument("before", type=Path)
     compare.add_argument("after", type=Path)
     args = parser.parse_args()
+    if args.mode == "notebook":
+        from verify_notebook_highlights import check
+        return int(check(args.notebook, args.root, args.output))
     if args.mode == "update":
         run_update(args)
         return 0

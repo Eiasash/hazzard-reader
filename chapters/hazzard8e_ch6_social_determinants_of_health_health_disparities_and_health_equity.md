@@ -2,7 +2,7 @@
 
 Laura Block, W. Ryan Powell, Andrea Gilmore-Bykovskyi, Amy J. H. Kind
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Excluded from the IMA required reading list (P005-2026); not cited in the 2020-2026 past papers.
 

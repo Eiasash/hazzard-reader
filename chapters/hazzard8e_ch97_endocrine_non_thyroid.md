@@ -2,7 +2,7 @@
 
 Bradley D. Anawalt, Alvin M. Matsumoto
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1525"></a>**[p. 1525]**
 

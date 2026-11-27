@@ -2,7 +2,7 @@
 
 Ann C. McKee, Daniel Kirsch
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > **Source and method.** Printed pages 997-1006, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

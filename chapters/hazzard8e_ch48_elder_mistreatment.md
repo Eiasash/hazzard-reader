@@ -2,7 +2,7 @@
 
 Mark S. Lachs, Tony Rosen
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Three past-exam questions link to this topic through the Israeli elder-mistreatment procedure.
 

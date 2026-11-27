@@ -2,7 +2,7 @@
 
 Marshall B. Kapp
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Six past questions cite Israeli legal material or Ministry instructions, with no direct citation to the U.S. textbook chapter.
 

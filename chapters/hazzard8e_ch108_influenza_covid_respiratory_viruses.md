@@ -2,7 +2,7 @@
 
 Lauren Hartman, H. Keipp Talbot
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1733"></a>**[p. 1733]**
 
