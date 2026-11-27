@@ -1,5 +1,5 @@
 {
-  "version": "v331",
+  "version": "v332",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -5938,8 +5938,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "cb08f380ec5ed77904110a5a58812e17e7c67f75f66ab1db21275d373c1adae9",
-      "bytes": 82404
+      "sha256": "0f807c481d66d14a77e87c90b4f89ef6fff8ccdd34b9adf22cdfd066f190e9e9",
+      "bytes": 82543
     },
     {
       "url": "./data/chapter-layout/100s.json",
@@ -8938,7 +8938,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "6c2a7f2453ad743b058229a35fc735d2403b6d191d9a82e77dd2599930696dc1",
+      "sha256": "52e14f22eed48c79c2748337fb99828ba42535c30108b3c2a74d0eccb6df5ce7",
       "bytes": 342499
     },
     {
@@ -8988,8 +8988,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "0bb90b83b319fd847e8afb73b237113b2abc9ecbf98ff4a64c35ec0994ea8153",
-      "bytes": 172385
+      "sha256": "8e2df2465cca42202df03075715936eaa2104dca73c04b7d1945569349ac63d3",
+      "bytes": 172391
     },
     {
       "url": "./js/memory-aids.js",
@@ -9028,7 +9028,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "e922fd3ce6dfa765accd9a55983f2c56144d896ec698614dc73bc24e2db6e77d",
+      "sha256": "fbbb89c36389f7247d5eee6b99e6188998baf9969e09c6c63e5f231aba14d9bc",
       "bytes": 9595
     },
     {

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v332",
+      "date": "2026-11-27",
+      "changes": [
+        "Review and Daily review open again."
+      ]
+    },
+    {
       "version": "v331",
       "date": "2026-11-27",
       "changes": [

@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v331', RELEASED = '27.11.2026';
+  const VERSION = 'v332', RELEASED = '27.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
