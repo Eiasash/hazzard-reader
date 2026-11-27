@@ -106,12 +106,14 @@ window.HazzardStorage = (() => {
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&colours.includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
+  const validatedRaw=new Map();
   function validRaw(key,raw){
     try{
       if(typeof raw!=='string'||!owns(key))return false;
+      if(validatedRaw.get(key)===raw)return true;
       if(key==='hazzard-last-backup-v1')return Number.isFinite(Number(raw))&&Number(raw)>=0;
       if(key===HazzardMCQ.MIGRATION_KEY)return raw==='1';
-      validateNotebookValue(key,key==='hazzard-chapters-sort-v1'?raw:JSON.parse(raw));return true;
+      validateNotebookValue(key,key==='hazzard-chapters-sort-v1'?raw:JSON.parse(raw));validatedRaw.set(key,raw);return true;
     }catch{return false;}
   }
   // Unreadable stores stay byte-for-byte intact until an explicit recovery.
@@ -321,7 +323,9 @@ window.HazzardStorage = (() => {
   async function indexSnapshots(){
     const saved=(await rows()).sort((a,b)=>b.at-a.at||b.id-a.id);let latest=null;
     recoverySnapshots.clear();
-    for(const row of saved){if(await usable(row)){
+    for(const row of saved){
+      if(latest&&Object.keys(row.storage||{}).every(key=>Object.hasOwn(latest.storage,key)||recoverySnapshots.has(key)))continue;
+      if(await usable(row)){
       latest??=row;
       for(const key of Object.keys(row.storage))protectedStore(key);
       for(const key of protectedStores.keys())if(!recoverySnapshots.has(key)&&Object.hasOwn(row.storage,key))recoverySnapshots.set(key,{id:row.id,at:row.at,hash:row.hash});
@@ -360,7 +364,7 @@ window.HazzardStorage = (() => {
       await archiveRetired(latest?.storage);
       await recoverLocalPlace();
       if(latest){
-        status.snapshotAt=latest.at;
+        status.snapshotAt=latest.at;if(queuedPayload===null)queuedPayload=JSON.stringify(latest.storage);
         // Restore only absent or invalid values. Valid empty marks/grades are
         // intentional changes and must not be resurrected from older copies.
         for(const [key,raw] of Object.entries(latest.storage)){
@@ -368,7 +372,7 @@ window.HazzardStorage = (() => {
           if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
         }
       }
-      await snapshot();
+      snapshot(); // Recovery is complete. The queued safety copy is still awaited by flush().
     }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
     notify();
   })();

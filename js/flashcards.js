@@ -234,7 +234,7 @@ window.HazzardFlashcards = (() => {
     }
     const dueButton=document.getElementById('homeFlashDue');
     dueButton.onclick=()=>{requested={scope:'all',order:'due'};open(dueButton);};
-    refreshDue();
+    if(!document.querySelector('#desk')?.hidden)refreshDue();
     document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshDue();});
     addEventListener('hazzard-flashcards-change',refreshDue);
     addEventListener('storage',e=>{if(!e.key||e.key===KEY)refreshDue();});
@@ -272,6 +272,7 @@ window.HazzardFlashcards = (() => {
     pane.querySelector('.flashcard-sources').addEventListener('click', event => {
       const link = event.target.closest('a[href]');
       if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      saveSession();
       if (link.pathname !== location.pathname || link.search !== location.search) return;
       // A same-document fragment would leave the flashcard sheet over the passage.
       // Give Read its own entry so Back can still return to this card and answer.

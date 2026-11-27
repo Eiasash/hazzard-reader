@@ -3,7 +3,8 @@ window.HazzardReview = (() => {
   const KEY='hazzard-mcq-review-v1',STEPS=[1,3,7,21];
   const record=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
   const idOK=id=>/^mcq-[a-f0-9]{24}$/.test(id),stamp=n=>Number.isFinite(n)&&n>=0;
-  const day=(at=Date.now())=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format(at);
+  const jerusalemDate=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'});
+  const day=(at=Date.now())=>jerusalemDate.format(at);
   const dateOK=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&Number.isFinite(Date.parse(s))&&new Date(s).toISOString().slice(0,10)===s;
   const plus=(date,n)=>new Date(Date.parse(date+'T12:00:00Z')+n*86400000).toISOString().slice(0,10);
   const blank=()=>({active:false,unsure:false,step:0,due:null,at:0});
@@ -123,8 +124,8 @@ window.HazzardReview = (() => {
   }
   let seedPromise;
   function seed(){return seedPromise ||= (async()=>{
-    await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;if(read().seed)return read().seed;
-    const all=await HazzardQuestionData.catalog();
+    await HazzardMCQ.loadAliases();if(HazzardStorage.blockedKeys().includes(KEY))return null;const existing=read().seed;if(existing)return existing;
+    const all=await HazzardStudyHome.catalog();
     const saved=HazzardMCQ.readStore(false);if(!HazzardMCQ.validStore(saved))throw Error('Unreadable MCQ answers');
     const v=read();if(v.seed)return v.seed;
     return write(initialQueue(v,all,HazzardMCQ.currentAnswers(saved.answers))).seed;

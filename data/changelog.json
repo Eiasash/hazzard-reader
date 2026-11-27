@@ -5,7 +5,9 @@
       "version": "v325",
       "date": "2026-11-26",
       "changes": [
-        "Drag across an entirely highlighted passage to erase it. Drag across mixed text to replace it with one colour. Tap a point badge to edit its mark. Points follow reading order, and Delete offers Undo.",
+        "Exam simulation keeps previous bank answers and schedules only questions you answer. Exit lets you resume later or finish and save the result.",
+        "Practice, question search and source pages follow browser Back. Reviews and the sitting chooser load only the question data they need.",
+        "Drag across an entirely highlighted passage to erase it. Drag across mixed text to replace it with one colour. Tap a point badge to edit its mark. Points follow reading order. Undo is available after creating, recolouring or deleting a highlight.",
         "Settings, Notebook and Practice are full pages. Scrolling down hides the bars. The study timer has been retired.",
         "Study pages group related material once. Flashcards have a full view with Again and Know. Chapters have one search, sort chips and a single progress line.",
         "The Drugs index links printed passages, verified Israeli brands and matching bank questions. Book search and Home now fetch only the data they need.",

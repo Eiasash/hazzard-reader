@@ -6,7 +6,10 @@ const SHELL = __SHELL__;
 const LIST = './asset-list.json';
 const READY = './.offline-ready';
 const TAKEOVER = './.replace-preview';
-let warming = null;
+let warming = null, foregroundUntil = 0;
+async function yieldToReader(){
+  while(Date.now()<foregroundUntil)await new Promise(resolve=>setTimeout(resolve,foregroundUntil-Date.now()));
+}
 let progress = 0;
 let interrupted = false;
 
@@ -72,6 +75,7 @@ async function warmOffline() {
   if (list.version !== RELEASE || !list.files.length) throw Error('Invalid offline manifest');
   let count = 0, lastNotice = 0;
   await eachFile(list.files, 3, async file => {
+    await yieldToReader();
     if (!await cache.match(file.url)) await cache.put(file.url, await download(file,'low'));
     progress = Math.floor(100 * ++count / list.files.length);
     if (Date.now()-lastNotice > 1500) {
@@ -109,6 +113,7 @@ self.addEventListener('fetch', event => {
   const lookup=new URL(req.url);
   if(lookup.pathname===new URL('manifest.json',self.registration.scope).pathname&&lookup.searchParams.get('check-newer')==='1')return;
   if (req.method!=='GET' || !req.url.startsWith(self.registration.scope)) return;
+  foregroundUntil=Date.now()+850;
   event.respondWith((async()=>{
     const cache=await caches.open(CACHE);
     const hit=await cache.match(req.mode==='navigate'?'./index.html':req,{ignoreSearch:true});

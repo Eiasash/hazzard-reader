@@ -1,6 +1,6 @@
 /* v41 uses the existing v39/v40 reader theme and compact controls. */
-.question-search{box-sizing:border-box;inset:0;margin:auto;inline-size:min(600px,calc(var(--vv-width,100vw) - 24px));max-block-size:min(70dvh,calc(var(--vv-height,100dvh) - 24px));padding:12px;border:1px solid var(--rule);border-radius:12px;background:var(--page);color:var(--ink);font:calc(14px * var(--fs,1))/1.4 var(--ui)}
-.question-search[open]{display:flex;flex-direction:column;gap:8px}.question-search::backdrop{background:#0008}
+.question-search{position:absolute;inset:var(--reader-header-space,48px) 0 0;box-sizing:border-box;display:flex;flex-direction:column;gap:8px;padding:var(--s3) max(var(--gutter),calc((100% - 760px)/2)) 12px;background:var(--page);color:var(--ink);font:calc(14px * var(--fs,1))/1.4 var(--ui);overflow:auto}
+.question-search[hidden]{display:none}
 .question-search-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.question-search h2,.question-search p{margin:0}.question-search h2{font:600 1.1em var(--ui)}
 .question-search button,.question-search input[type=search]{min-height:44px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--control);border-radius:6px;padding:8px}
 .question-search-heading button{min-width:44px}.question-search input[type=search]{width:100%;box-sizing:border-box}.question-search-scope{display:flex;align-items:center;gap:8px;min-height:40px}.question-search-scope[hidden]{display:none}.question-search input[type=checkbox]{width:20px;height:20px}
@@ -264,11 +264,6 @@ body.statistics-open #readerViewport #statsViewport{padding-top:48px}
 .mcq-quick-filters,.mcq-session-controls{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
 .mcq-quick-filters button,.mcq-session-controls button{min-height:44px;min-width:44px;padding:8px 12px;font-size:calc(12px * var(--fs,1))}
 .mcq-quick-filters [aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
-.mcq-preview{position:fixed;inset:auto 0 0;width:min(100%,760px);max-width:100%;max-height:85dvh;margin:auto auto 0;padding:0;border:1px solid var(--rule);border-radius:16px 16px 0 0;background:var(--page);color:var(--ink);overflow:auto}
-.mcq-preview::backdrop{background:#0008}
-.mcq-preview-header{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px;background:var(--surface);border-bottom:1px solid var(--rule);z-index:2}
-.mcq-preview-header button,.mcq-preview-header a{min-height:44px;min-width:44px;display:inline-flex;align-items:center;padding:8px;font-size:calc(13px * var(--fs,1))}
-.mcq-preview-body{padding:16px}
 
 /* Compact bank controls: one action row and one scrollable filter row. */
 .mcq-bank .mcq-docked-actions{flex-wrap:nowrap}
