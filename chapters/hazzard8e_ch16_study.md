@@ -80,7 +80,7 @@ The chapter's preventive table also illustrates why vaccination and prophylactic
 
 ### Detecting a change, monitoring on site and arranging transfer
 
-The hospital–nursing home interface works in both directions. A recently hospitalized patient can reach the facility before all information or pending results do. A resident sent back to hospital may arrive without a reliable baseline, the medication list or the actual reason staff were worried. The chapter reports that about **one in five** patients admitted from hospital are readmitted within **30 days**. Some transfers are necessary and lifesaving. Others follow a delayed response to a change that could have been assessed earlier, or a misunderstanding of what the facility can offer and what the resident wants (p230–233).
+The hospital–nursing home interface works in both directions. A recently hospitalized patient can reach the facility before all information or pending results do. A resident sent back to hospital may arrive without a reliable baseline, the medication list or the actual reason staff were worried. Some transfers are necessary and lifesaving. Others follow a delayed response to a change that could have been assessed earlier, or a misunderstanding of what the facility can offer and what the resident wants (p230–233).
 
 Take the report “she seems off today.” Ask who saw the change, when she was last at her usual baseline, whether she is eating and drinking, whether there are new localizing symptoms, and what the vital signs and focused examination show. Obtain the medication and recent illness history. If evaluating remotely, identify who can perform the required examination and how quickly results can be obtained. A decision to observe on site is a treatment decision only if it includes a monitoring plan, triggers for contacting the practitioner again and a named person responsible for reassessment (p225, p230–233).
 
@@ -104,17 +104,11 @@ The pandemic section shows how an institutional threat reaches beyond infection 
 - Long-term care is not simply hospital medicine delivered in another building: assessment and daily support are inherently interdisciplinary (p222–224).
 - Autonomy issues also affect residents who retain capacity; advocate for everyday preferences and quality of life, not only formal end-of-life decisions (p234).
 
-## Exam-cited book images
-
-Book images cited by past exams. Tap an image to zoom.
-
-## Table 16-6 — book image
+## Screening, health maintenance and prevention for long-stay residents — Table 16-6 (pp231–232)
 
 <a id="p231"></a>
 
 ![Hazzard 8e, Table 16-6, p.231](hazzard8e_ch16_table16-6_p231.png)
-
-## Table 16-6 — book image
 
 <a id="p232"></a>
 

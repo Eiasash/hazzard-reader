@@ -81,6 +81,8 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 **An active androgen-sensitive tumor changes the decision.** Metastatic prostate cancer precludes testosterone even when levels are low. Active breast cancer is another contraindication. Anemia, depression and osteoporosis warrant evaluation and may accompany hypogonadism. Testosterone can improve libido and hemoglobin in selected symptomatic men. Assess hematocrit before treatment, at three to six months, then yearly. A value above 54% requires reducing or withholding treatment and looking for hypoxia or sleep apnea. Revisit symptoms and stop an ineffective trial. Discuss prostate screening according to age and life expectancy (pp. 1534–1536).
 
+> Current practice (not the book): In TRAVERSE, transdermal testosterone was noninferior to placebo for major cardiovascular events in men with hypogonadism and high cardiovascular risk. Atrial fibrillation, acute kidney injury and pulmonary embolism occurred more often with testosterone. Clinical fractures also increased (HR 1.43, 95% CI 1.04–1.97). In 2025 the FDA removed boxed-warning language concerning cardiovascular events and required warnings about increased blood pressure. [TRAVERSE, 2023](https://pubmed.ncbi.nlm.nih.gov/37326322/) · [Fracture substudy, 2024](https://pubmed.ncbi.nlm.nih.gov/38231621/). [FDA testosterone labeling changes, 2025](https://www.fda.gov/drugs/drug-safety-and-availability/fda-issues-class-wide-labeling-changes-testosterone-products).
+
 <span data-exam-ids="mcq-d12eab8258f56c4efbb24244" data-exam-read-page="1528" data-reader-metadata="exam"></span>
 
 **Review medicines for prolactin elevation.** Dopamine normally suppresses prolactin secretion. Risperidone, haloperidol, metoclopramide and domperidone can remove that inhibition. Verapamil is the named calcium-channel blocker. For a mild rise, repeat after quiet rest, check TSH and review medicines and kidney function. Levels of 50–250 ng/mL may have multiple causes or indicate a prolactinoma. Above 250, a large prolactinoma is especially likely. Refer for endocrine assessment when the elevation is moderate or severe, or when there are mass effects or hypogonadism (pp. 1527–1529, Tables 97-1 and 97-2).
@@ -97,7 +99,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 **An incidentally detected adrenal mass raises two questions.** Assess hormone secretion and the likelihood of malignancy separately. The book says lipid-rich attenuation **<10 HU** on CT excludes malignancy and pheochromocytoma (p1532). Paroxysmal hypertension with headache, palpitations and sweating supports testing with plasma free or urinary fractionated metanephrines. Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp1532–1533).
 
-> Current practice (not the book): <span id="current-adrenal-hu" data-reader-metadata="navigation"></span>A homogeneous lesion measuring **≤10 HU on unenhanced CT** needs no further imaging. Hormonal assessment is a separate decision. [ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10](https://doi.org/10.1093/ejendo/lvad066).
+> Current practice (not the book): <span id="current-adrenal-hu" data-reader-metadata="navigation"></span>A homogeneous lesion measuring **≤10 HU on unenhanced CT** needs no further imaging. Hormonal assessment is a separate decision. [ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10](https://doi.org/10.1093/ejendo/lvad066). ESE recommends metanephrines for adrenal lesions without typical benign adenoma imaging features. Evaluate for cortisol autonomy with a 1-mg overnight dexamethasone suppression test when appropriate. In frail patients with limited life expectancy the test may be omitted. [ESE/ENSAT adrenal incidentaloma guideline, 2023](https://pubmed.ncbi.nlm.nih.gov/37318239/).
 
 ## Focal bone pain, vitamin D and ovarian aging
 
@@ -125,7 +127,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Hormone replacement doses in older adults may be **lower than young-adult doses** because metabolic clearance of thyroid hormone, hydrocortisone, and testosterone falls with age (p1526).
 
 ### Pituitary
-- Hyperprolactinemia tiers: **mild 20–50 ng/mL** (rarely needs treatment, review medicines, renal function and TSH and repeat a mild elevation after rest), **moderate 50–250 ng/mL** (refer — likely prolactinoma), **severe >250 ng/mL** (refer — almost always a large prolactinoma) (p1525, p1528).
+- Hyperprolactinemia tiers: **mild 20–50 ng/mL** (rarely needs treatment, review medicines, renal function and TSH and repeat a mild elevation after rest), **moderate 50–250 ng/mL** (refer — typically a prolactinoma or multiple contributing causes, including combined drug effects), **severe >250 ng/mL** (refer — almost always a large prolactinoma) (p1525, p1528).
 - Pituitary incidentaloma prevalence **10–20%** on autopsy/imaging series; macroincidentaloma defined as **≥1 cm** and needs a fuller hormone-deficiency workup plus serial MRI every 1–2 years (p1528–1529).
 - Chronic hypopituitarism incidence **<0.5 per 100,000/yr**; most common deficits are secondary hypogonadism and hypothyroidism, but **secondary hypoadrenalism, though less common, can be life-threatening** — these patients need an alert bracelet (p1529).
 
@@ -138,6 +140,8 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
   > Current practice (not the book): peak cortisol below 500 nmol/L (18 μg/dL, assay dependent) at 30 or 60 min indicates adrenal insufficiency — Endocrine Society primary adrenal insufficiency guideline, 2016.
 - The chapter reports incidental adrenal masses in **about 4%** of high-resolution abdominal CT scans and greater malignancy risk above **4 cm**. Its printed low-attenuation cutoff for excluding malignancy and pheochromocytoma is **<10 HU** (p1532). [Current practice note](#current-adrenal-hu).
 - Primary hyperaldosteronism affects **5–10%** of hypertensive patients; workup = plasma aldosterone:renin ratio, withdraw **spironolactone for 4 weeks** before testing when safe and feasible; primary hyperaldosteronism suggested by aldosterone **>10 ng/dL** with renin activity **<1 ng/mL/hr** (p1532–1533).
+
+> Current practice (not the book): The 2025 Endocrine Society guideline conditionally suggests screening people with hypertension for primary aldosteronism using aldosterone and renin. Interpret results in the context of potassium, medications and pretest probability. [Endocrine Society primary aldosteronism guideline, 2025](https://pubmed.ncbi.nlm.nih.gov/40658480/).
 - Pheochromocytoma incidence **<5 per million/year** but becomes more common after age 50 (p1533).
 
 ### Gonadal / Testes
@@ -164,7 +168,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Serum alkaline phosphatase is elevated in **90%** of patients; normal/near-normal AP does not exclude monostotic disease (p1542).
 - Treatment of choice: **zoledronic acid 5 mg IV** over 15–20 minutes, often a single dose sustaining remission **5–6 years**; contraindicated if creatinine clearance **<35 mL/min** (p1542).
 
-*Exam traps: Key Clinical Point 2 defines vitamin D deficiency in older patients as **<30 ng/mL** (p1525). Page 1539 gives a separate IOM deficiency threshold of **<12 ng/mL** and an AGS sufficiency target of **>30 ng/mL** for high-risk older patients. Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
+* Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
 
 ## Recall
 

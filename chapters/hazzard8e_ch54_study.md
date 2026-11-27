@@ -12,6 +12,8 @@ Study summary of Chapter 54; the book and the full chapter are the reference.
 
 **Conditions and evidence**
 - Exercise improves fitness and cardiovascular risk factors. Hazzard lists unstable angina, uncontrolled hypertension or arrhythmias, recent myocardial infarction and severe aortic stenosis among conditions in which exercise is generally contraindicated (p809).
+
+> Current practice (not the book): Distinguish exercise during unstable ischemia from supervised cardiac rehabilitation after stabilization. Stable patients after MI can benefit from rehabilitation; symptomatic severe aortic stenosis requires assessment before exercise prescription. [ACC/AHA acute coronary syndrome guideline, 2025](https://pubmed.ncbi.nlm.nih.gov/40014670/).
 - During weight loss, exercise attenuates muscle and bone loss but may not eliminate it (p810).
 - Weight-bearing activity may help bone health; fracture-trial evidence has limitations, including potential publication bias (p810-811).
 - Physical activity is associated with lower cancer risk; exercise can benefit people living with cancer (p811).
@@ -26,11 +28,15 @@ Study summary of Chapter 54; the book and the full chapter are the reference.
 - In diabetes, watch for hypoglycemia as insulin sensitivity can remain increased for **24 to 48 hours** after vigorous activity; attend to feet and footwear (p813).
 - Asymptomatic people planning **moderate-intensity** exercise do not need routine screening before starting. Notify the clinician so activity and medication advice can be individualized (p813–814).
 
+> Current practice (not the book): For an inactive adult without suggestive symptoms or known cardiovascular, metabolic or renal disease, ACSM permits starting light or moderate activity without clearance and progressing gradually. Known disease, symptoms and the intended exercise intensity change the clearance decision. [ACSM preparticipation screening update, 2015](https://pubmed.ncbi.nlm.nih.gov/26473759/).
+
 ### Match the training stimulus to the limiting task
 
-- In the LIFE study of frail adults aged **70–89**, a structured, moderate-intensity activity program reduced mobility disability compared with health education. The reported hazard ratio was **0.75** in participants with lower baseline function and **0.95** in those with moderate impairment. Starting reserve helps explain why equal gains can have unequal effects on daily life (p807).
+- In the LIFE study of frail adults aged **70–89**, a structured, moderate-intensity activity program reduced mobility disability compared with health education. The reported hazard ratio was **0.75** in participants with lower baseline function and **0.95** in those with moderate impairment. The primary trial found no statistically significant interaction by baseline SPPB (P = 0.19); the overall HR for major mobility disability was 0.82. [Pahor et al., Figure 4, 2014](https://jamanetwork.com/journals/jama/fullarticle/1875328). Starting reserve helps explain why equal gains can have unequal effects on daily life (p807).
 - With peripheral arterial disease, supervised walking that gradually increases speed and distance can improve how far the patient walks before claudication limits activity. The pain threshold and tolerance help set training intensity (p808).
 - In people with stage 1 hypertension the chapter reports reductions of **4–10 mm Hg** systolic and **3–8 mm Hg** diastolic with sufficient aerobic exercise volume. Evidence was less clear for stage 2 or resistant hypertension. These estimates describe groups, not an expected fall for each patient (p809).
+
+> Current practice (not the book): The 2025 US guideline defines stage 1 hypertension as systolic 130–139 or diastolic 80–89 mm Hg and stage 2 as systolic ≥140 or diastolic ≥90. Interpret exercise-trial stage labels using the thresholds in the original study. [AHA/ACC blood pressure guideline, 2025](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356).
 - Mechanical loads that stimulate bone act at the loaded site. Dynamic loading and faster strain rates are more osteogenic than static or slowly applied force. Training a muscle group, improving balance and increasing bone density are distinct objectives when prescribing exercise for fracture risk (p810–811).
 
 ### Separate habitual activity, training and the outcome of interest
@@ -51,7 +57,7 @@ Strength is the maximal force a muscle can exert. Power incorporates how rapidly
 
 Figure 54-2 is a curve, not a straight line. When fitness is far above the threshold needed for an everyday task, an additional improvement may be impressive on a physiological test yet produce no visible change in independence. Near the threshold, a modest gain can turn an assisted task into an independent one. At the low end, improvement in strength or balance may first be needed before meaningful endurance activity is possible. The figure explains why the same absolute change can be more valuable to the person with the least reserve (p807).
 
-The LIFE comparison illustrates this interaction. A structured moderate-intensity program in adults aged **70–89** was compared with health education. The mobility disability hazard ratios differed by baseline function, with the lower-function group showing a larger relative benefit in the figures cited above. These are comparisons between study groups, not percentages of individual participants who could be promised an improvement. Ask which measure of mobility was used and how impaired the participant was at baseline before applying the result to a patient already walking long distances unaided (p807).
+The LIFE comparison illustrates this interaction. The mobility disability hazard ratios differed by baseline function, with the lower-function group showing a larger relative benefit in the figures cited above. These are comparisons between study groups, not percentages of individual participants who could be promised an improvement. Ask which measure of mobility was used and how impaired the participant was at baseline before applying the result to a patient already walking long distances unaided (p807).
 
 ### Cardiovascular disease and blood pressure
 
@@ -61,7 +67,7 @@ In stable coronary disease, structured rehabilitation can combine exercise with 
 
 In heart failure, exercise tolerance can be limited by peripheral muscular abnormalities as well as the central circulation. An improvement in exercise capacity or symptoms does not require normalization of the underlying cardiac disease. Select a workload the person can sustain, monitor tolerance and distinguish functional improvement from changes in ejection or survival endpoints. In peripheral arterial disease, the relevant practical measure may be how far the patient can walk before claudication intervenes. A supervised walking program can progressively extend distance and speed with symptoms guiding the challenge (p808–809).
 
-Blood-pressure effects depend on starting pressure and the volume of training. In stage 1 hypertension the reported averages with sufficient aerobic exercise were a systolic reduction of **4–10 mm Hg** and a diastolic reduction of **3–8 mm Hg**. The chapter was less definitive for stage 2 or resistant hypertension. Do not use an expected training effect to justify beginning strenuous activity in someone with uncontrolled pressure or to stop medication without reassessment. Reassess the individual pressure and symptoms as activity, conditioning and medication needs change (p809, p813–814).
+Blood-pressure effects depend on starting pressure and the volume of training. Do not use an expected training effect to justify beginning strenuous activity in someone with uncontrolled pressure or to stop medication without reassessment. Reassess the individual pressure and symptoms as activity, conditioning and medication needs change (p809, p813–814).
 
 ### Metabolic disease, weight reduction and skeletal health
 
@@ -101,7 +107,7 @@ For strength, the printed table lists **8–10 activities** using the major musc
 
 Balance training progressively alters what the person must control. Narrow the base from a two-foot stance to semitandem and tandem positions; add controlled turns or tandem walking to challenge the center of mass dynamically. Heel and toe stands challenge postural muscles. Reducing reliance on visual cues represents another challenge and calls for a safe environment and appropriate support. These exercises answer a different need from achieving a weekly aerobic-minute target and should be explicitly considered in people with mobility limitations or recurrent falls (p813).
 
-The commonest exercise injuries described are overuse problems of soft tissue. Build duration and intensity gradually, check footwear and the surface used, and allow an activity to be modified if pain or imbalance develops. Diabetes warrants additional attention to the feet and to delayed hypoglycemia: insulin sensitivity may remain increased for **24–48 hours** after vigorous activity. Review medicines and food intake in relation to the planned activity with the treating team. The chapter gives no general medication dose change that applies to everyone beginning exercise (p813–814).
+ Build duration and intensity gradually, check footwear and the surface used, and allow an activity to be modified if pain or imbalance develops. Review medicines and food intake in relation to the planned activity with the treating team. The chapter gives no general medication dose change that applies to everyone beginning exercise (p813–814).
 
 Finally, make the plan specific enough to follow. Ask where the activity will occur, which days are realistic, who can assist if needed, and how the patient will know when to progress. A patient unable to sustain the population target can still benefit from tolerable activity maintained over time. Record a feasible starting dose and the next functional milestone, such as a longer walk without stopping or the ability to rise more easily. Revisit both the exercise and the obstacle if the patient cannot follow the prescription, rather than interpreting lack of attendance as lack of physiological potential (p814).
 
@@ -123,7 +129,7 @@ Finally, make the plan specific enough to follow. Ask where the activity will oc
 
 **3. Which group in LIFE showed the larger reduction in mobility disability?**
 
-<details><summary>Answer</summary>The group with lower baseline physical function. Its reported hazard ratio was <strong>0.75</strong> versus <strong>0.95</strong> for moderate impairment (p807).</details>
+<details><summary>Answer</summary>The group with lower baseline physical function. Its reported hazard ratio was <strong>0.75</strong> versus <strong>0.95</strong> for moderate impairment (p807). The interaction test in the original trial was not statistically significant (P = 0.19).</details>
 
 **4. Which walking program does the chapter describe for peripheral arterial disease?**
 

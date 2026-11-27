@@ -119,6 +119,8 @@ Romantic relationships are important to well-being and quality of life at any ag
 
 Two in five (40%) adults aged 65 to 80 indicated that they are currently sexually active, and 54% of those are in a romantic relationship (Figure 21-3). Sexual activity decreased with age (46% age 65–70, 39% age 71–75, and 25% age 76–80). Most older adults (76%) agreed that sex is an important part of a romantic relationship at any age (see Figure 21-3). Yet only 17% reported speaking with their health care provider about their sexual health in the past 2 years. Of those who had talked with their health care provider, 60% initiated the conversation themselves.
 
+> **[sic]** The poll found that 40% of all respondents were sexually active. Among respondents in a romantic relationship, 54% were sexually active. [University of Michigan National Poll on Healthy Aging, 2018](https://ihpi.umich.edu/national-poll-healthy-aging/national-findings/lets-talk-about-sex).
+
 Clinicians should inquire about and offer opportunities to discuss sexual health with their older patients, regardless of age or health status. Raising the topic can help older adults to better understand and address issues related to this important component of overall health and quality of life. A more detailed discussion of this topic is provided in Chapter 35 (women’s sexuality) and Chapter 37 (men’s sexuality).
 
 ### Urinary Incontinence in Women
@@ -353,6 +355,8 @@ As shown in Figure 21-10, in June 2020, more than half of older adults reported 
 (once a week or less) with family, friends, or neighbors from outside the home, compared to one-quarter in 2018. When comparing their feelings in June 2020 to before the pandemic, about half of adults age 50 to 80 (48%) felt more isolated, 8% felt less isolated, and 44% reported feeling the same level of isolation.
 
 Feeling a lack of companionship some of the time or often during the first 3 months of the pandemic was more common among women (47% vs 35% of men), people who lived alone (50% vs 39% who lived with others), and those who were unemployed, disabled, or not working (52% vs 39% of those employed or retired). Others more likely to report a lack of companionship included those from households with annual incomes less than $60,000 (46% vs 38% of those with higher incomes) and caregivers (48% vs 40% of non-caregivers). In addition, feeling a lack of companionship was more common for those who reported fair or poor physical health (52% vs 39% of those reporting excellent, very good, or good physical health) or fair or poor mental health (68% vs 39% of those reporting excellent, very good, or good physical health), and more common for those reporting more symptoms of depression (84% vs 36% among those with fewer symptoms).
+
+> **[sic]** The second comparison describes mental health in both groups. The repeated words “physical health” in its reference group conflict with that comparison.
 
 This poll demonstrates that a greater proportion of adults aged 50 to 80 felt a lack of companionship, felt socially isolated, and had infrequent contact with others from outside their home during the early months of the pandemic than in 2018 when those numbers were already worrisomely high. Loneliness and limited social contact during the pandemic were strongly associated with depressive symptoms and overall mental health among older adults. In addition, these results suggest that those who engage in healthy
 

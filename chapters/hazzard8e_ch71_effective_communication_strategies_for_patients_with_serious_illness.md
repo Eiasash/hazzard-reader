@@ -73,6 +73,8 @@ have the conversation. Encourage the patient to bring family or caregivers with 
 
 convey (eg, help them better understand their illness, treatment preferences, difficult news, etc) in short, digestible chunks. The second “TELL” is an additional check for understanding or perspective. An easy way to ask is, “To make sure I was explaining things clearly, can you summarize what I just said?” This ASK-TELL-ASK cycle is often repeated several times during the same conversation, to ensure information is provided in a sensitive manner in digestible pieces. Understanding a patient’s hopes and values can help the provider provide sound medical advice in line with what is most important to the patient. A list of suggested questions is given in Table 71-4. Step 4: Respond to Emotions Providers often focus on the details of medical care and miss emotional cues. Responding to emotional cues is a key aspect of successful communication, building
 
+> *[sic — In the Ask–Tell–Ask sequence the check for understanding is the second Ask. Table 71-8 p1095 prints the 10–15-second pause.]* [Hazzard Ch71, pp1091, 1095](?chapter=71#p1091).
+
 ![Table 71-4](hazzard8e_ch71_table-71-4_p1091.webp)
 
 *TABLE 71-4 ■ SUGGESTED LANGUAGE FOR EXPLORING HOPES AND VALUES*

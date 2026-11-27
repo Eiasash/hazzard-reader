@@ -1,3 +1,4 @@
+window.HazzardHomeSummary ||= 'data/home-question-summary.json';
 /* Home measures the same official questions and first-try results as Statistics. */
 window.HazzardStudyHome = (() => {
   const element = id => document.getElementById(id);
@@ -120,12 +121,20 @@ window.HazzardStudyHome = (() => {
       if(!response.ok)throw Error('Home data unavailable');
       const data=await response.json();
       const catalog=data.questions.map(([id,past,accepted,flags])=>({id,kind:past?'past':'practice',accepted,retired:!!(flags&1),content_changed:!!(flags&2)}));
+      if(data.statsRows)for(const [i,[topic,topics,t,chapter,sourceIndex,c,law,source,mockEligible,sourceChecked]] of data.statsRows.entries()){
+        const item=catalog[i];
+        Object.assign(item,{topic,t,chapter,sourceIndex,c,law});
+        if(topics)item.topics=topics;
+        if(source)item.source=source;
+        if(mockEligible!=null)item.mockEligible=mockEligible;
+        if(sourceChecked)item.sourceChecked=sourceChecked;
+      }
       for(const [i,t,examNumber] of data.officialSlots||[])Object.assign(catalog[i],{t,examNumber});
       const ids=indexes=>indexes.map(i=>catalog[i].id);
       const currentChapters=Object.fromEntries(Object.entries(data.chapters).map(([key,indexes])=>[key,ids(indexes)]));
-      const questions=Object.fromEntries(Object.entries(data.sittings).map(([i,sitting])=>[catalog[i].id,{sitting}]));
+      const questions=Object.fromEntries(Object.entries(data.sittings).map(([i,sitting])=>[catalog[i].id,{sitting,number:catalog[i].examNumber}]));
       const changes=data.changes.map(([id,date])=>({id:typeof id==='number'?catalog[id].id:id,changedAt:data.changeDates[date]}));
-      const review={catalog,toc:{chapters:data.toc},topics:data.topics,collections:{israeliLawEthics:{ids:ids(data.law)},suppliedArticles:{ids:ids(data.articles||[])},topicFallbacks:{}},
+      const review={catalog,toc:{chapters:data.toc},topics:data.topics,collections:{israeliLawEthics:{ids:ids(data.law)},suppliedArticles:{enabled:data.articleFilterEnabled,ids:ids(data.articles||[])},topicFallbacks:data.topicFallbacks||{}},
         evidence:{questions:{},study:Object.fromEntries((data.studyIds||[]).map(ch=>[ch,true]))}};
       return {catalog,review,changes:[...changes,...HazzardChanged.legacy()],evidence:{currentChapters,study:{},questions},law:ids(data.law)};
     }).catch(error=>{window.HazzardEarlyFetch?.delete(window.HazzardHomeSummary);homeSummary=null;throw error;});
@@ -184,5 +193,5 @@ window.HazzardStudyHome = (() => {
     watchDay(today, chapters, keys);
   }
 
-  return {refresh, startReading, catalog, libraryStats,reviewContext:()=>summary().then(x=>x.review)};
+  return {refresh, startReading, catalog, libraryStats,statsData:()=>summary().then(x=>({all:x.catalog,topics:x.review.topics,collections:x.review.collections,changes:x.changes})),reviewContext:()=>summary().then(x=>x.review)};
 })();

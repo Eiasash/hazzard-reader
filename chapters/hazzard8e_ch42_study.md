@@ -28,7 +28,7 @@ Weakness: grip strength lowest 20% (stratified by gender/BMI) (<a href="?chapter
 
 Slowness: **15-ft** walk time, slowest 20% (by gender/height) (<a href="?chapter=42#p620">p620</a>)
 
-Low activity: lowest 20% kcal/wk; men cutoff **<383 kcal/wk** (<a href="?chapter=42#p620">p620</a>)
+Low activity: lowest 20% kcal/wk; cutoffs **<383 kcal/wk in men** and **<270 kcal/wk in women** (<a href="?chapter=42#p620">p620</a>)
 
 The Fried phenotype omits cognition. Its weight-loss criterion can miss frailty in sarcopenic obesity, and its thresholds came from the Cardiovascular Health Study (<a href="?chapter=42#p620">p620</a>).
 
@@ -115,6 +115,8 @@ Declining mobility and cognition together identify a group at particularly high 
 ### Prognosis in the patient with chronic disease
 
 Functional assessment adds information that a diagnosis list misses. A patient who has recovered from pneumonia on paper may still need help transferring because reserve across systems was limited before admission. Reduced reserve increases susceptibility to disability, hospital care and death even without a new acute illness. The consensus described in the chapter supported screening from age 70. The authors emphasize the limited intervention evidence available at the time and distinguish observational associations with activity or diet from proof that an established syndrome can be reversed (<a href="?chapter=42#p616">pp. 616</a>–<a href="?chapter=42#p619">619</a>, <a href="?chapter=42#p626">626</a>).
+
+> **Current practice: Exercise prescription for frailty.** Offer a multicomponent physical activity programme that includes progressive resistance exercise to older adults with physical frailty. Adapt balance, gait and strength work to functional ability and fall risk. [ICFSR clinical practice guideline, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6800406/).
 
 **Before surgery**, consider postoperative pneumonia, delirium, longer stay and the possibility of discharge to institutional care. **Before dialysis**, explain that frailty predicts hospitalization and mortality among new dialysis patients. Frail patients started at a higher estimated GFR on average. The observations do not show that an earlier start improves function or survival. CKD and other illnesses can contribute to frailty, while frailty can also develop independently (<a href="?chapter=42#p627">pp. 627</a>–<a href="?chapter=42#p628">628</a>).
 

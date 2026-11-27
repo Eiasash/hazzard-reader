@@ -2,8 +2,6 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 
 # Chapter 63 Study: Other Neurodegenerative Disorders
 
-## Summary
-
 ## Key differentiators (pattern recognition)
 
 <span data-exam-page="981"></span>
@@ -40,7 +38,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 <span data-exam-ids="mcq-127a926990dd25ce35544cb7" data-exam-read-page="985"></span>
 
 - Distinguished from DLB primarily by timing: dementia arises **years-to-decades after** established motor PD.
-- **~1/3 of PD patients** eventually develop PDD (p985).
+- Ch63 describes functionally impairing cognitive symptoms in **about one-third of older people with PD**. Ch61 reports **about 50% developing dementia within 10 years** of diagnosis (p942). The outcomes and follow-up differ (p985).
 - Possible predictors: older age at motor onset, bradykinesia/non-tremor phenotype, bilateral onset, declining levodopa response, depression, hallucinations (p985).
 - DLB declines faster than PDD (p985).
 
@@ -73,9 +71,11 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Treatment: symptomatic only — SSRIs for behavioral symptoms/cravings/compulsions; atypical neuroleptics can be considered if delusions are problematic; **no theoretical basis for cholinesterase inhibitors** (may worsen agitation) (p991).
 
 ## Amyotrophic Lateral Sclerosis (ALS)
-- **Incidence 1–2/100,000/yr; ~5,000 new cases/yr; ~2:1 M:F** (p991).
+- **Incidence 1–2/100,000/yr; ~5,000 new cases/yr in the United States; ~2:1 M:F** (p991).
 - **Bulbar onset in ~25%** (more common in older patients); **pseudobulbar affect in up to 45%** (p991).
 - Mixed upper + lower motor neuron signs; EMG is diagnostic.
+
+> Current practice (not the book): ALS diagnosis requires progressive motor impairment, upper and lower motor neuron involvement in the required distribution (or lower motor neuron involvement in at least two body regions), and exclusion of another cause. EMG documents lower motor neuron involvement and helps assess alternatives. [Gold Coast diagnostic criteria, 2020](https://doi.org/10.1016/j.clinph.2020.04.005).
 - **Only 50% survival at 3 years**; aspiration/respiratory failure is the leading cause of death (p991).
 - TDP-43 inclusions link ALS and FTLD: **~15% of FTLD patients develop ALS**; **~50% of ALS patients develop FTLD-type cognitive/behavioral symptoms** (p991).
 
@@ -104,6 +104,8 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Epilepsy prevalence in AD: 10–22%**; typically complex partial (mesial temporal) seizures — déjà vu, olfactory aura, speech arrest; can occur even with mild or pre-dementia cognitive symptoms (p994).
 - Suitable AEDs in older adults (book: "include but are not limited to"; chosen for fewer side effects/interactions): **lamotrigine, levetiracetam, lacosamide, oxcarbazepine** (p994).
 
+> Current practice (not the book): Oxcarbazepine may cause SIADH or hyponatremia. In older adults check sodium when starting or changing the dose, especially if other medicines also lower sodium. [AGS Beers Criteria, Table 4, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
+
 ## Traumatic Brain Injury (TBI)
 
 <span data-exam-ids="mcq-14a74b272deb47e84ad4ed44" data-exam-read-page="995"></span>
@@ -122,6 +124,8 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **SSRIs** — bvFTD behavioral symptoms (cravings, compulsions) (p991).
 - **Melatonin / low-dose clonazepam** — RBD in DLB/MSA (p984, p986).
 - **Riluzole** (FDA-approved) — ALS: extends survival, delays need for ventilation (p991).
+
+> Current practice (not the book): Edaravone is available in IV and oral formulations. Tofersen received accelerated US approval for ALS in adults with a pathogenic SOD1 mutation on the basis of a biomarker endpoint. Genotype and treatment burden matter when discussing these drugs. [FDA tofersen label, 2023](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81356b45-1cb7-4eef-88ea-e44cc18b47c5).
 - **Midodrine / fludrocortisone** — MSA orthostatic hypotension (p986).
 - **Botulinum toxin** — CBD dystonic limb, adjunct therapy (p992).
 

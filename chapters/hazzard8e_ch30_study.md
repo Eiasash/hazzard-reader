@@ -21,11 +21,13 @@ Study summary of Chapter 30 - Nutrition Disorders, Obesity, and Enteral/Parenter
 
 **Monitoring answers a different question from diagnosis.** Check phosphate, magnesium and potassium when feeding restarts in a severely depleted patient. Follow glucose, daily weight, fluid balance and gastrointestinal tolerance until stable. Renal or cardiac impairment increases the consequences of fluid retention. Total intake before the stroke, duration of subsequent poor intake and recent weight change tell you more about risk than the name of the feeding route. [Table 30-12, p. 431; monitoring discussion, p. 432](?chapter=30#exam-p431-mcq-9133456e88257f8d41edd4d4).
 
+> Current practice (not the book): Give thiamine before nutrition or dextrose in patients at risk of refeeding syndrome. ASPEN recommends 100 mg before feeding and 100 mg daily for 5–7 days or longer in severe starvation or chronic alcohol use. Monitor potassium, magnesium and phosphate during nutrition advancement. [ASPEN refeeding consensus, 2020](https://doi.org/10.1002/ncp.10474).
+
 ## Weight loss, BMI and serum proteins
 
 <span data-exam-ids="mcq-7b26cdc007e22b5187d35b3b" data-exam-read-page="424" data-reader-metadata="exam"></span>
 
-**Ask for the usual weight and the date it changed.** At 54 kg and a BMI of 19.2, a 78-year-old outpatient may have always been lean or may have lost substantial tissue. Compare measured weights, check whether loss was intentional and consider fluid shifts. Loss of at least 5% over 6–12 months warrants investigation in the outpatient setting. An obese patient can also lose substantial lean tissue without ever crossing into the underweight BMI range. [Outpatient assessment, p. 424](?chapter=30#exam-p424-mcq-7b26cdc007e22b5187d35b3b).
+**Ask for the usual weight and the date it changed.** At 54 kg and a BMI of 19.2, a 78-year-old outpatient may have always been lean or may have lost substantial tissue. Compare measured weights, check whether loss was intentional and consider fluid shifts. Loss of at least 5% over 6–12 months warrants investigation in the outpatient setting (pp406, 424). An obese patient can also lose substantial lean tissue without ever crossing into the underweight BMI range. [Outpatient assessment, p. 424](?chapter=30#exam-p424-mcq-7b26cdc007e22b5187d35b3b).
 
 **Why albumin and prealbumin can mislead.** Illness, inflammation, redistribution and protein losses influence serum albumin. A normal value can accompany early deterioration, and a low value predicts poor outcomes without pinpointing the cause. Prealbumin responds more rapidly but shares the specificity problem. September 2024 accepted both albumin and a history of recent weight loss. The book gives greater weight to the outpatient weight trajectory. In acute illness, compare observed intake with estimated requirements and assess muscle, fat, edema and function. [Serum proteins, pp. 422–425](?chapter=30#ch30-albumin).
 
@@ -45,6 +47,8 @@ Study summary of Chapter 30 - Nutrition Disorders, Obesity, and Enteral/Parenter
 
 Before prescribing weight loss, ask whether a weight-related condition is limiting function and whether the patient can exercise and maintain adequate nutrient intake. Diet-only weight loss can deplete muscle and bone. Combine a modest energy deficit with adequate protein and individually tailored resistance and endurance exercise when benefit is expected. In a frail patient already losing weight, a further calorie deficit worsens nitrogen balance. Evidence for drug or surgical treatment in older adults was limited at publication. [Weight reduction, pp. 413–415](?chapter=30#p414).
 
+> Current practice (not the book): In SELECT, semaglutide reduced major cardiovascular events in adults with established cardiovascular disease and overweight or obesity without diabetes. In obesity-related HFpEF it improved symptoms and physical function. Assess baseline nutrition, function and potential muscle loss when considering weight reduction in a frail older adult. [SELECT, 2023](https://pubmed.ncbi.nlm.nih.gov/37952131/).
+
 ## Dietary requirements and prevention
 
 - **Energy and protein.** Less lean mass and activity often lower energy needs more than micronutrient needs. Make each meal nutrient dense. The protein RDA discussed in the chapter is 0.8 g/kg/day. Some experts propose 1.0–1.25 g/kg/day for older adults. With acute illness, major surgery or injury the book discusses 1.5 g/kg/day or more when compatible with renal and hepatic function. Pair adequate nutrition with resistance training to rebuild strength. [Energy and protein, pp. 414–415](?chapter=30#p415). Table 30-9 (p425) estimates **1.2–1.4 g/kg/day** for injury or illness and **1.4–1.8 g/kg/day** for severe stress or sepsis.
@@ -60,7 +64,7 @@ Before prescribing weight loss, ask whether a weight-related condition is limiti
 
 **Respond to intolerance.** Distension, nausea or pain warrants clinical review. Correct medication or formula contributors when symptomatic residuals exceed 250 mL. Table 30-12 includes a slower delivery rate for diarrhea, alongside evaluation for infection, particularly C. difficile. Regular water flushes help prevent tube obstruction. Do not resume feeding through a replaced tube until proper placement is confirmed. [Administration and complications, pp. 431–432](?chapter=30#ch30-delivery).
 
-**Parenteral nutrition.** Hypertonic total PN needs central venous access. Peripheral solutions are limited by venous tolerance and often cannot meet full requirements. Prescribe and titrate dextrose, amino acids, lipid, electrolytes, vitamins and trace elements in light of actual organ function and losses. Glucose delivery above 5 mg/kg/min risks hyperglycemia, excess carbon dioxide production and fatty liver. Monitor glucose, daily fluid balance, electrolytes, catheter site and hepatic indices. Introduce oral or enteral nutrition as feasible and taper PN as that route meets requirements. [PN composition and monitoring, pp. 432–435](?chapter=30#p433).
+**Parenteral nutrition.** Hypertonic total PN needs central venous access. Peripheral solutions are limited by venous tolerance and often cannot meet full requirements. Prescribe and titrate dextrose, amino acids, lipid, electrolytes, vitamins and trace elements in light of actual organ function and losses. Glucose delivery above 5 mg/kg/min risks hyperglycemia, excess carbon dioxide production and fatty liver (p433). Monitor glucose, daily fluid balance, electrolytes, catheter site and hepatic indices. Introduce oral or enteral nutrition as feasible and taper PN as that route meets requirements. [PN composition and monitoring, pp. 432–435](?chapter=30#p433).
 
 **Different settings, different goals.** After hip fracture, oral supplementation in undernourished patients can reduce complications. Dyspnea, systemic inflammation and early satiety contribute to poor intake in COPD. In nursing homes, fortified favorites, snacks and assisted meals can stabilize weight. For advanced dementia, Hazzard describes the American Geriatrics Society preference for assisted oral feeding. Tube feeding has not demonstrated better survival or protection against aspiration or pressure injury and may increase agitation and the use of restraints. [Special issues, p. 435](?chapter=30#ch30-dementia).
 
@@ -80,7 +84,7 @@ Before prescribing weight loss, ask whether a weight-related condition is limiti
 
 **Nutrition & assessment**
 - Aging increases the fat-to-body-mass ratio; muscle preservation depends on both diet and activity. Obesity can coexist with serious protein undernutrition (p405–406).
-- Weight loss of at least **5%** of baseline weight over **6–12 months** warrants investigation (pp406, 422; voluntary loss also warrants attention in frail older adults).
+- The chapter also cites at least 5% in three months or at least 10% over six months to three years (p422). Voluntary loss warrants attention in frail older adults.
 - Assess intake, physical findings, illness, medications and social barriers. Albumin/prealbumin chiefly reflect inflammation and disease severity and are not stand-alone nutritional diagnoses (p406, p425).
 - Starvation-related losses may reverse with feeding; inflammatory cachexia includes muscle catabolism that refeeding may not reverse (p424).
 
@@ -88,13 +92,14 @@ Before prescribing weight loss, ask whether a weight-related condition is limiti
 - Investigate causes and support intake early; high-protein/high-calorie oral supplements may reduce morbidity and mortality in hospitalized malnourished patients at least **75** (p406).
 - Protein RDA is **0.8 g/kg/day**; some advocate **1.0–1.25 g/kg/day** for older adults, but the chapter describes ongoing uncertainty (p415).
 - Acutely ill hospitalized patients or those recovering from major surgery/trauma generally warrant **1.5 g/kg/day** or more, unless renal/hepatic disease necessitates restriction (p415). Table 30-9 (p425) estimates **1.2–1.4 g/kg/day** for injury or illness and **1.4–1.8 g/kg/day** for severe stress or sepsis.
+
+> Current practice (not the book): In cirrhosis, avoid protein restriction for hepatic encephalopathy. AASLD generally targets 1.2–1.5 g/kg ideal body weight per day. Kidney disease, metabolic instability and frailty require a separate individualized nutrition plan. [AASLD malnutrition, frailty and sarcopenia guidance, 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC9134787/).
 - Selected obese older adults may benefit from controlled weight loss, but diet-only weight loss also reduces muscle and bone. Combine nutrition with individualized endurance/resistance exercise (p413–414).
 
 **Artificial nutrition**
 - Enteral feeding is preferred when nutritional support is needed and the gut functions; prognosis and preferences remain essential (p406, p429).
 - Bowel obstruction, ischemia, major upper-GI bleeding, inadequate bowel surface or intractable vomiting/diarrhea can preclude enteral feeding (p429).
 - Refeeding may shift potassium and phosphate intracellularly; monitor tolerance, daily weight, glucose and electrolytes until stable (p432).
-- Parenteral glucose should not exceed **5 mg/kg/min**; excess delivery risks hyperglycemia, excess carbon dioxide production and fatty liver (p433).
 
 **Drugs & exam traps**
 - Megestrol can cause thrombosis, fluid retention and increased mortality; observed weight gain is often fat rather than improved function (p428).

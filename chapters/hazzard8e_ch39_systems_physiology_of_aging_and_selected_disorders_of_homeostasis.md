@@ -212,6 +212,8 @@ illness may keep some older adults from seeking assistance and from taking sensi
 
 Clinical presentation Earliest warnings of thermoregulatory failure or heat exhaustion may be subtle and nonspecific (Table 39-5). Frank heatstroke is defined clinically as a core body temperature above 40°C (105°F) that is accompanied by hot, dry skin, and major CNS abnormalities. Multiorgan dysfunctions are also common (see Table 39-5). Rhabdomyolysis, disseminated intravascular coagulation, and acute renal failure may occur in older adults, but are more common in exertional heatstroke typically seen in younger athletes.
 
+> *[sic — 40°C converts to 104°F.]*
+
 Management Heatstroke is a medical emergency, requiring prompt and aggressive therapy. Rapid cooling is essential
 
 ![Table 39-5](hazzard8e_ch39_table-39-5_p585.webp)
@@ -245,6 +247,8 @@ Clinical presentation Symptoms of hyponatremia vary depending on severity and un
 Pathophysiology
 
 Pseudohyponatremia. In contrast to true hypo-osmolar hyponatremia, pseudohyponatremia can be seen with significant hyperglycemia, where the osmotically active glucose obligates egress of water from the intracellular space, thus diluting the serum sodium. In these cases, the serum osmolality will be high, while the serum sodium is low. A simple equation to estimate the “true” serum sodium in the setting of hyperglycemia is the following: ([Measured glucose – 100]/100) × 1.5 + measured serum Na = corrected serum Na. If the corrected serum sodium falls within the normal range, then the patient has pseudohyponatremia. Serum sodium may also be low with severe hyperlipidemia, particularly hypertriglyceridemia, or hyperproteinemia as may be seen with multiple myeloma or other paraproteinemias. In these instances, a measured serum osmolality will be normal. Further testing and therapy then should be directed toward diagnosis and management of these underlying conditions.
+
+> *[sic — Hyperglycemia causes hypertonic, translocational hyponatremia. Pseudohyponatremia is a measurement artifact seen with marked lipid or protein excess when sodium is measured by an indirect assay.]* [European hyponatremia guideline, 2014](https://www.weds-wales.co.uk/wp-content/uploads/2020/12/hyponatraemia-guidelines.pdf).
 
 <a id="p587"></a>**[p. 587]**
 

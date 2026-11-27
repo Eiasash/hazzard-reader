@@ -15,7 +15,7 @@ Study summary of Chapter 2; the book and the full chapter are the reference.
 
 **Disease burden, function and cognition**
 - Hypertension is the most common chronic condition among older Medicare beneficiaries; chronic diseases commonly coexist rather than appearing in isolation (p29-31).
-- In **2018**, multiple chronic conditions affected **64%** of adults **65 or older**, versus **33%** at **45-64**. Comorbidity relates to an index disease; multimorbidity describes coexisting conditions (p31).
+- Comorbidity relates to an index disease; multimorbidity describes coexisting conditions (p31).
 - Sensory loss contributes to impaired function and independence; utilization and mortality statistics alone do not describe the full burden (p32-33).
 - Disability concerns difficulty with daily activities; ADLs capture basic self-care, IADLs more complex independent living. Performance tests add information (p33-34).
 - Disablement links pathology, impairment, functional limitation and disability; personal and environmental factors modify the pathway. Disability may develop gradually or abruptly and can improve (p36-37).
@@ -32,7 +32,7 @@ Rectangularization describes a change in the shape of the survival curve as more
 
 A population can age through better survival, fewer births or both. The US demographic dependency ratio rose from **49 in 2010** to **54 in 2019**. The calculation groups children and older adults together relative to the working-age population. Its economic interpretation is limited because some older adults work and because assets and transfers also matter (p27–28).
 
-Measure the level at which a difficulty occurs. Impaired balance or slow gait can precede difficulty walking outdoors, which in turn can prevent independent shopping. The Short Physical Performance Battery samples standing balance, a **4-meter** walk and chair stands. Functional limitations can emerge abruptly after stroke or accumulate gradually. Repeated assessment can show recovery that a single disability count would miss (p33–34, p36–37).
+Measure the level at which a difficulty occurs. Impaired balance or slow gait can precede difficulty walking outdoors, which in turn can prevent independent shopping. Functional limitations can emerge abruptly after stroke or accumulate gradually. Repeated assessment can show recovery that a single disability count would miss (p33–34, p36–37).
 
 ### Population growth, population aging and remaining survival
 
@@ -80,7 +80,7 @@ The Short Physical Performance Battery samples standing balance, usual walking a
 
 Figure 2-12 compares disability status across Medicare beneficiaries by age, sex and racial or ethnic group and includes institutional care. Figure 2-13 separates prevalent mobility disability from incidence in people who were initially nondisabled and from subsequent transitions. These denominators matter. Higher prevalence can result from more new cases, a lower probability of recovery, or survival with disability for a longer interval. A cross-sectional survey cannot reveal which of these pathways explains the difference (p34–36).
 
-In one cohort with initial impairment, **2 years** later **4% had died**, **9% had declined further**, **50% remained impaired** and **37% had recovered**. Thus a disability count is a snapshot of movement into, through and out of impaired states. Death is an alternative outcome, not merely a person missing from follow-up. If only survivors are examined, the apparent probability of recovery will be conditional on surviving, and may differ from the probability the original patient or cohort would want to know (p36–37).
+In a US cohort aged 50–64 at onset of ADL impairment, **2 years** later **4% had died**, **9% had declined further**, **50% remained impaired** and **37% had recovered**. Thus a disability count is a snapshot of movement into, through and out of impaired states. Death is an alternative outcome, not merely a person missing from follow-up. If only survivors are examined, the apparent probability of recovery will be conditional on surviving, and may differ from the probability the original patient or cohort would want to know (p36–37).
 
 The disablement pathway moves from disease or injury to an impairment, an altered capacity to perform a task and potentially a restriction in everyday activities. Both the person and the environment modify each step. A stroke can produce an abrupt change; accumulating disease and reduced reserve can produce gradual loss. Figure 2-14 follows contrasting patterns of disability near death and shows why the approach to a medically similar endpoint need not look alike. Planning for a person with longstanding severe dependence differs from planning for someone who had little disability until a final rapid decline (p36–37).
 

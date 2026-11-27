@@ -21,7 +21,7 @@
 
 .flashcard-order select {
   max-inline-size: 100%;
-  font: inherit;
+  font:inherit;
   color: var(--ink);
   background: var(--surface);
 }
@@ -31,7 +31,7 @@
 }
 
 #flashcardFront, #flashcardDone {
-  font: 600 calc(16px * var(--fs, 1))/1.3 var(--reading);
+  font:600 var(--type-body)/1.3 var(--reading);
 }
 
 #flashcardAnswer summary {

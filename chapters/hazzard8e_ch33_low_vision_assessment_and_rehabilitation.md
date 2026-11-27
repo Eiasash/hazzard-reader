@@ -70,6 +70,8 @@ Every older person experiences age-related changes in vision. The majority of th
 
 Accommodation The ability to accommodate for focus on visual targets from distance to near, which is dependent on a flexible crystalline lens and the ciliary muscle, is altered with age, beginning around age 45. During this change, an increasing amount of plus in a concave lens (usually prescribed in bifocal lenses or reading glasses) is required to boost the focusing power of the eye to compensate for the loss in refracting ability of the lens for near tasks.
 
+> *[sic — A near addition supplies positive, converging optical power. A simple concave lens is diverging. Individual lens surfaces can have different curvatures.]* [OpenStax, Vision Correction](https://openstax.org/books/college-physics-2e/pages/26-2-vision-correction).
+
 Visual acuity The visual acuity of nonvisually impaired older people shows only a modest decrease under high-contrast conditions, but reducing the illumination of an acuity chart, reducing the contrast of the acuity chart, and/or adding surrounding glare, produces drastic age-related acuity losses, as compared to young observers. For example, in a sample of 900 older observers, for those at age 82, the median high-contrast visual acuity was 20/30, low-contrast highluminance acuity was 20/55, low-contrast low-luminance acuity was 20/120, and low-contrast acuity in glare conditions was 20/160. The added challenge of less than optimal lighting and/or contrast between the letters and their
 
 background means that older adults have difficulty resolving detailed visual information at the same distance as younger observers. The combined challenge of low contrast stimuli and less than optimal illumination significantly reduces visual acuity relative to young comparisons. A young observer loses only about one line of acuity under similar conditions. Thus, older adults’ visual acuity is dramatically reduced under less than optimal viewing conditions. Older people need higher contrast and two to three times more light to see than a younger person. Low contrast and low lighting adversely impact the visual function of older people, and modification of visual materials and environmental lighting are helpful.
@@ -383,6 +385,8 @@ Assisting older adults with low vision in continuing social activities, such as 
 ### Rehabilitation Services Administration
 
 Vision rehabilitation services have been funded through private pay, or through vocational rehabilitation services for individuals who were preparing for the work force. Funding for services to older adults with vision impairment has been a critical health care issue in the United States. Public funding through Rehabilitation Administration Service for the Independent Living Services for Older Individuals Who Are Blind program under the Rehabilitation Act is minimal, with approximately $495 million allocated nationally in fiscal year 2014. These funds provide services in the traditional “blindness” system—state services or private agencies for the blind. State governments may also allocate funding for low-income older people to receive vision and blind rehabilitation as well.
+
+> *[sic — The US Department of Education budget table records $33.317 million for Independent Living Services for Older Individuals Who Are Blind in FY2014.]* [US Department of Education, FY2015 Budget, FY2014 column](https://www.ed.gov/media/document/15pbaptpdf-38855.pdf).
 
 ### Veterans Health Administration
 

@@ -28,7 +28,7 @@ Study summary of Chapter 25; the book and the full chapter are the reference.
 ### Translate a priority into a manageable plan
 
 - Separate the daily work of chronic illness into medical tasks, emotional challenges and changes in family or social roles. A patient who knows the medication schedule may still need help managing grief, asking for resources or adapting the schedule to what happens at home (p346).
-- Self-efficacy means confidence in carrying out a specific task. The chapter's arthritis self-management program uses trained facilitators and teaches skills such as pain coping and communication with clinicians. Its reported gains include confidence and self-management behavior, with less certain effects on general health status (p347, p351).
+- The chapter's arthritis self-management program uses trained facilitators and teaches skills such as pain coping and communication with clinicians. Its reported gains include confidence and self-management behavior, with less certain effects on general health status (p347, p351).
 - Distinguish a desired outcome from a care preference. In the chapter's case, attending church and feeling less tired are outcomes; willingness to undertake extra visits, tests or medication changes helps determine which plan is feasible. Agree on a realistic goal with a time frame, make a change and reassess its effect on that activity (p356–358).
 - Cognitive impairment can make complex heart-failure self-care difficult. Check whether the person or caregiver can carry out the necessary steps. When clinicians across specialties give conflicting instructions, bring the plan back to the patient's main goal and the total workload (p353–356).
 

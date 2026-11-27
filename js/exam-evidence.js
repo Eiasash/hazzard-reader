@@ -167,81 +167,22 @@ window.HazzardEvidence = (() => {
       }
     }
   }
-  const fitRows=new WeakMap();
-  const rowObserver=new ResizeObserver(changes=>{
-    for(const badge of new Set(changes.map(change=>change.target.closest('.exam-links'))))fitRows.get(badge)?.();
-  });
-  const visibleBadges=new IntersectionObserver(entries=>{
-    for(const {target,isIntersecting} of entries){
-      const row=target.querySelector('.exam-link-line');
-      if(!row)continue;
-      if(isIntersecting){rowObserver.observe(row);rowObserver.observe(row.firstElementChild);}
-      else{rowObserver.unobserve(row);rowObserver.unobserve(row.firstElementChild);}
-    }
-  },{rootMargin:'150px'});
-  function askedBadge(entries, description, anchor, prefix='Asked') {
-    const badge = document.createElement('span');
-    badge.className = 'exam-evidence exam-links';
-    badge.dataset.readerMetadata = 'exam';
-    badge.id = anchor;
-    badge.setAttribute('role','group');
-    badge.setAttribute('aria-label',description);
-    const headline=document.createElement('span'),count=document.createElement('span');
-    headline.className='exam-link-line';count.className='exam-link-count';
-    const ordered=[...new Map(entries)].sort((a,b)=>sittingDate(b[1].sitting)-sittingDate(a[1].sitting)||a[1].number-b[1].number);
-    const nextSitting=ordered.findIndex(([,entry])=>entry.sitting!==ordered[0][1].sitting);
-    if(nextSitting>1){
-      const [next]=ordered.splice(nextSitting,1);
-      ordered.splice(1,0,next);
-    }
-    count.textContent=prefix+' '+ordered.length;
-    headline.append(count);badge.append(headline);
-    const links=ordered.map(([id,entry])=>{
-      const link=document.createElement('a');
-      link.href=questionURL(id);
-      link.textContent=label(entry);
-      link.setAttribute('aria-label',link.textContent+' · '+prefix+' · '+label(entry));
-      return link;
-    });
-    if(links.length===1){headline.append(links[0]);return badge;}
-    badge.classList.add('exam-link-group');
-    const toggle=document.createElement('button'),extra=document.createElement('span');
-    toggle.type='button';extra.id=anchor+'-more';extra.className='exam-link-extra';
-    toggle.setAttribute('aria-controls',extra.id);
-    headline.append(toggle);badge.append(extra);extra.append(...links);
-    let open=history.state?.examReturn?.anchor===anchor&&history.state.examReturn.expanded===true;
-    let visible=0,measure='';
-    function disclose(){
-      const rest=links.length-visible;
-      toggle.hidden=rest===0;
-      extra.hidden=!open||rest===0;
-      toggle.setAttribute('aria-expanded',String(!extra.hidden));
-      toggle.textContent=open?'Less':'+'+rest+' more';
-      toggle.setAttribute('aria-label',open?'Show fewer exam links':'Show '+rest+' more exam link'+(rest===1?'':'s'));
-    }
-    function preview(n){
-      for(let i=visible;i<n;i++)headline.insertBefore(links[i],toggle);
-      for(let i=visible-1;i>=n;i--)extra.prepend(links[i]);
-      visible=n;
-      disclose();
-    }
-    function fit(){
-      const width=headline.clientWidth,signature=width+'|'+count.getBoundingClientRect().width;
-      if(!width||signature===measure)return;
-      measure=signature;
-      const focus=document.activeElement;
-      let n=Math.min(2,links.length);
-      preview(n);
-      while(n>0&&headline.scrollWidth>width)preview(--n);
-      if(focus&&links.includes(focus)&&focus!==document.activeElement){
-        if(extra.contains(focus)&&extra.hidden){open=true;disclose();}
-        focus.focus({preventScroll:true});
+  function askedBadge(entries,description,anchor,prefix='Asked'){
+    const badge=document.createElement('span');badge.className='exam-evidence exam-links exam-count';
+    badge.dataset.readerMetadata='exam';badge.dir='ltr';badge.lang='en';if(anchor)badge.id=anchor;
+    const unique=[...new Map(entries).entries()].filter(([,entry])=>entry);
+    unique.sort((a,b)=>String(b[1].sitting).localeCompare(String(a[1].sitting))||a[1].number-b[1].number);
+    const toggle=document.createElement('button');toggle.type='button';toggle.className='exam-count-toggle';
+    toggle.textContent=prefix+' '+unique.length;toggle.setAttribute('aria-label',toggle.textContent+' · '+description);
+    toggle.setAttribute('aria-expanded','false');
+    const list=document.createElement('span');list.className='exam-count-list';list.hidden=true;
+    toggle.onclick=()=>{
+      if(list.hidden&&!list.childElementCount){
+        for(const [id,entry] of unique){const link=document.createElement('a');link.href=questionURL(id);link.textContent=label(entry);list.append(link);}
       }
-    }
-    preview(1);
-    toggle.addEventListener('click',()=>{open=!open;disclose();});
-    fitRows.set(badge,fit);visibleBadges.observe(badge);
-    return badge;
+      list.hidden=!list.hidden;toggle.setAttribute('aria-expanded',String(!list.hidden));
+    };
+    badge.append(toggle,list);return badge;
   }
   function refreshExamList(copy,chapter,data){
     const original=[...copy.querySelectorAll('p')].find(p=>/^(?:No past-exam questions are currently linked to this chapter|Past-exam questions linked to this chapter \(\d+\))/.test(p.textContent.trim()));
@@ -450,5 +391,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
+  return {askedBadge,sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
 })();

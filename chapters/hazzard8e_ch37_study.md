@@ -60,12 +60,18 @@ For someone who smokes or drinks heavily, the history identifies a potentially r
 - Sildenafil, vardenafil, tadalafil and avanafil have broadly similar efficacy; all require sexual stimulation (p551-552).
 - The chapter directs that sildenafil and vardenafil be taken on an **empty stomach** because high-fat meals or alcohol delay absorption. Food does not significantly interfere with tadalafil or avanafil absorption, and tadalafil has a longer duration of action (p552).
 
+> Current practice (not the book): The product labels permit sildenafil, vardenafil, tadalafil and avanafil with or without food. High-fat meals can delay absorption of some agents. Counsel about timing and prohibit concurrent nitrates. [Sildenafil US prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e).
+
   > Current practice (not the book): Avanafil may be taken with or without food. A high-fat meal can delay peak concentration. [FDA prescribing information, 2022, §§2.1, 12.3](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202276s020lbl.pdf).
 - These agents are contraindicated with nitrates; caution with alpha blockers because of hypotension. Headache, flushing and dyspepsia are common (p552).
+
+> Current practice (not the book): Alongside nitrates, guanylate cyclase stimulators such as riociguat are contraindicated with PDE-5 inhibitors because of hypotension. [Sildenafil US label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e).
 
 Sildenafil preserves the cyclic GMP signal generated during arousal. A nitrate increases production of that signal, so combining the two can cause profound hypotension. An alpha blocker also lowers blood pressure. Sildenafil and vardenafil may produce a transient blue tinge to vision. Tadalafil offers a longer window of activity and avanafil may act sooner (p. 552).
 
 - Intracavernosal therapy or urethral alprostadil are alternatives; local pain, prolonged erections or fibrosis are relevant cautions (p552).
+
+> Current practice (not the book): The manufacturer discontinued the MUSE urethral suppository in the United States in June 2024. Intracavernosal alprostadil and other erectile-dysfunction treatments have separate formulations and availability. [ASHP discontinued-drug bulletin, 2024](https://www.ashp.org/drug-shortages/current-shortages/drug-shortage-detail.aspx?id=855).
 - Vacuum devices and prostheses offer nonoral options. Do not leave the constriction ring on beyond **30 minutes**; use care with anticoagulation (p552).
 - Prosthesis infection is an important complication; treatment choice should account for acceptability and practical use (p552).
 
@@ -84,6 +90,8 @@ Testosterone relates more consistently to libido than to erections in older men.
 > Current practice (not the book): Defer testosterone in untreated severe obstructive sleep apnea. [Endocrine Society, recommendation 2.2](https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy).
 
 - Testosterone can modestly improve desire, activity and erectile function in hypogonadal men; it does not improve these outcomes in eugonadal men (p553).
+
+> Current practice (not the book): In the TRAVERSE sexual-function substudy, testosterone improved sexual activity and desire in symptomatic hypogonadal men but did not significantly improve erectile function. Evaluate vascular, medication and other contributors to erectile dysfunction separately. [TRAVERSE sexual-function study, 2024](https://pubmed.ncbi.nlm.nih.gov/37589949/).
 - Adding testosterone after failure of an oral erectile-dysfunction drug may help severe hypogonadism, not normal testosterone status (p553).
 - The chapter directs detailed testosterone evaluation and prescribing to the endocrine chapter; it supplies no universal dose here (p552-553).
 

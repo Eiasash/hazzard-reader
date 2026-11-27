@@ -29,7 +29,7 @@ From a maximal inspiration the patient blows out as hard and completely as possi
 
 Residual volume (RV) is what remains after the hardest possible expiration. When the lung loses recoil, small airways close earlier and trap gas. RV rises and there is correspondingly less air available for the vital capacity maneuver. Functional residual capacity (FRC) is measured at the end of quiet breathing. A loss of inward recoil can shift that resting volume upward, the choice in June 2022 Q40. Full inflation is a third condition: reduced inward recoil favors a higher TLC, while vertebral height loss and stiffer rib joints restrict expansion (Ch 80 pp1230–1231; Ch 81 p1237 on increased RV and FRC).
 
-> Current practice (not the book): The size and detection of the FRC change vary by population. [Quiet and maximal expiration in older and younger adults, Table II](https://www.jci.org/articles/view/104825).
+The size and detection of the FRC change vary by population. [Quiet and maximal expiration in older and younger adults, Table II](https://www.jci.org/articles/view/104825).
 
 **Exam traps**
 
@@ -75,7 +75,7 @@ In December 2021 Q34, a 70-year-old lifelong nonsmoker develops slowly progressi
 
 The benefit of nintedanib is a slower loss of FVC during follow-up. It does not imply that dyspnea will promptly improve or that existing scar disappears. Chronic steroids have no established survival benefit in stable IPF (p1231). Preventive antibiotics do not treat fibrosis.
 
-> Current practice (not the book): Oxygen corrects hypoxemia, but the mortality evidence for long-term oxygen in severely hypoxemic COPD cannot simply be applied to IPF. [ATS guideline on home oxygen, Question 4](https://doi.org/10.1164/rccm.202009-3608ST).
+> Current practice (not the book): Oxygen corrects hypoxemia, but the mortality evidence for long-term oxygen in severely hypoxemic COPD cannot simply be applied to IPF. [ATS guideline on home oxygen, Question 4](https://doi.org/10.1164/rccm.202009-3608ST). ATS strongly recommends long-term oxygen for at least 15 hours/day for interstitial lung disease with severe chronic resting hypoxemia. The recommendation rests on very low-certainty evidence in ILD; direct COPD mortality trial data do not establish mortality benefit in IPF. [ATS home oxygen guideline, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7667898/).
 
 <span data-exam-ids="mcq-86b262840f3c7de29023078e" data-exam-read-page="1231" data-reader-metadata="exam"></span>
 

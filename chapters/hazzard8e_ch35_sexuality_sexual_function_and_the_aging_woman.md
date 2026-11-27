@@ -359,6 +359,8 @@ physical and mental health, medications, substance use, and sexual function must
 
 *FIGURE 35-8. Prevalence of sexual problems and associated distress among a population-based sample of older women in the United States (n = 1550). Note: Estimates are weighted to account for differential probabilities of selection and differential nonresponse. Data in this graph reflect prevalence among those of 1550 women surveyed in the National Social Life, Health and Aging Project who reported having sex in the last 12 months and having at least one sexual problem. (Data from Lindau ST, Schumm LP, Laumann EO, et al. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357[8]:762–774.)*
 
+> *[sic — Both Hazzard’s Table 35-3 footnote (p508) and Figure 35-8 caption (p520) include the added condition of having a sexual problem. The NSHAP study reports individual problems among sexually active respondents, including people who did not have the particular problem counted.]* [Lindau et al., NEJM, 2007](https://pubmed.ncbi.nlm.nih.gov/17715410/).
+
 
 <a id="p521"></a>**[p. 521]**
 

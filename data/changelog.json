@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v333",
+      "date": "2026-11-27",
+      "changes": [
+        "Additional medical and exam corrections, heading-by-heading point numbering, simpler source and chapter lists, and practice navigation that returns to your place."
+      ]
+    },
+    {
       "version": "v332",
       "date": "2026-11-27",
       "changes": [

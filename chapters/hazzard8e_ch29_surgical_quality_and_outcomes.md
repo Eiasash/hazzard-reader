@@ -78,6 +78,8 @@ The Precipitating Events Project is a longitudinal study of 754 community-dwelli
 
 In addition to the impact of major surgery, subsequent hospitalizations are also associated with functional decline. The Successful Aging after Elective Surgery (SAGES) study, an ongoing prospective cohort study of 566 adults aged 70 and older undergoing major scheduled noncardiac surgery, showed that readmissions, whether associated with the index surgery or not, were associated with delays in functional recovery. Over an 18-month period, 253 participants (45%) had 503 readmissions (143 patients had one, and 112 had two or more, with a maximum of 12); 203 (36%) participants reported 345 readmissions that were unrelated to the index hospitalization. The degree of functional impairment increased progressively with the number of readmissions, potentially due to the harmful effects of delirium, immobilization, sleep deprivation, malnutrition, and psychological stress experienced during each hospital admission.
 
+> *[sic — The SAGES investigators report 255 people with 503 readmissions. Of those, 143 had one readmission and 112 had two or more. The printed total of 253 does not match these counts.]* [SAGES study, 2017](https://pubmed.ncbi.nlm.nih.gov/27898172/).
+
 Another measurement of functional decline, loss of independence (LOI), is now gaining attention. The definition of LOI varies across studies, but it encompasses a decline in functional status or increased care needs. In a study of patients undergoing inpatient surgery at a hospital
 
 <a id="p402"></a>**[p. 402]**

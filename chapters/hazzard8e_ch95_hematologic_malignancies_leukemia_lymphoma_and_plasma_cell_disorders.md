@@ -68,6 +68,8 @@ Selection of treatment for patients with MDS depends not only on disease risk st
 
 ![Table 95-1](hazzard8e_ch95_table-95-1_p1485.webp)
 
+> **[sic]** In IPSS-R the neutrophil cutoff is 0.8 × 10⁹/L, equivalent to 800 cells/µL. Table 95-1 labels the row cells/µL but displays the numerical cutoff as 0.8. [Greenberg et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22740453/).
+
 *Table 95-1, printed p. 1485.*
 
 requiring assistance with instrumental activities of daily living (IADLs), impaired cognition, or mobility limitation were associated with higher likelihood to discontinue therapy early. Studies evaluating strategies for assessing frailty among MDS patients are presented in Table 95-3. Use of geriatric assessment and frailty screening can assist in treatment decision-making and guide supportive care.
@@ -149,6 +151,8 @@ use of all-trans retinoic acid (ATRA), which overcomes the differentiation block
 ## CHRONIC MYELOGENOUS LEUKEMIA
 
 Chronic myelogenous leukemia (CML) is a myeloproliferative disorder characterized by excess production of mature granulocytes that eventually progresses to a clinical picture similar to acute leukemia with an overgrowth of immature cells (blast crisis). CML is associated with the fusion of two genes: BCR (on chromosome 22) and ALB1 (on chromosome 9). It accounts for a little over 10% of all leukemias. The incidence increases with age, and the average age at diagnosis is approximately 65 years.
+
+> **[sic]** The fusion is BCR::ABL1. ABL1 lies on chromosome 9. The paragraph transposes two letters in its name. [European LeukemiaNet laboratory recommendations, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10624636/).
 
 Diagnosis is suspected by the demonstration of granulocytosis in the peripheral blood with a predominance of segmented neutrophils and myelocytes, increased basophils and eosinophils, and increased bone marrow cellularity. The presence of the Philadelphia chromosome t(9;22) and/or its products (BCR/ABL fusion mRNA, Bcr/Abl protein) are required to confirm the diagnosis. Diagnosis can be made on peripheral blood using PCR or fluorescent in situ hybridization (FISH) techniques. Bone marrow biopsy is still required for complete cytogenetic evaluation.
 
@@ -451,6 +455,8 @@ Pathophysiology (classification) MGUS may be classified as IgG, IgA, light chain
 Presentation MGUS may be discovered when the patient is undergoing evaluation for another disorder and is found to have a monoclonal protein. This may include evaluation for anemia, renal insufficiency, proteinuria, osteoporosis or fractures, hypergammaglobulinemia, or peripheral neuropathy.
 
 Evaluation The identification of a monoclonal protein requires evaluation for the presence of end-organ damage. The history and physical examination should focus on symptoms suggestive of CRAB criteria. A CBC should be obtained to rule out anemia; a basic metabolic panel estimates renal function and rules out hypercalcemia. In the presence of concomitant explanations for anemia (eg, iron deficiency) or renal insufficiency (eg, established diagnosis of diabetic nephropathy with stable renal function), the criterion for end-organ damage is not satisfied. Finally, bone imaging is required. The traditional skeletal survey is being replaced by more sensitive bone imaging, including 15fluorodeoxyglucose positron emission tomography (PET), magnetic resonance imaging (MRI) (either whole body or spine), or low-dose whole-body computed tomography (CT).
+
+> **[sic]** The PET tracer is fludeoxyglucose F 18 (¹⁸F-FDG). The book prints 15 at this point. [DailyMed, Fludeoxyglucose F 18 prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0492cac9-3a81-4cd6-a80d-0b213890e575).
 
 Management MGUS does not require treatment. Patients identified as having MGUS are followed at 6- to 12-month intervals for progression to a malignant disorder, with monitoring for anemia, renal insufficiency, hypercalcemia, or bone lesions.
 

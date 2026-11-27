@@ -83,5 +83,97 @@ function applyLayout(article,layout){
     fragment.innerHTML=markup;node.replaceWith(fragment.content);
   }
 }
-return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout};
+function placeExamQuestions(copy,exam){
+  if(!exam)return;
+  const introduction=[],questions=[];
+  for(let el=exam.nextElementSibling;el&&!el.matches('h1,h2,h3,h4,.chapter-nav,.point-rail,.read-references');el=el.nextElementSibling){
+    const number=el.matches('p')&&/^Q(\d+)\b/.exec(el.textContent.trim());
+    if(number){
+      const page=el.querySelector('a[href^="#p"]')?.getAttribute('href');
+      const marker=page&&/^#p\d+$/.test(page)&&copy.querySelector(page);
+      if(!marker)return;
+      let anchor=marker;
+      while(anchor.parentNode!==copy)anchor=anchor.parentNode;
+      if(!anchor.textContent.replace(/\[p\.\s*\d+\]/g,'').trim()&&anchor.nextElementSibling?.matches('p'))anchor=anchor.nextElementSibling;
+      questions.push({number:number[1],anchor,nodes:[]});
+    }
+    (questions.length?questions[questions.length-1].nodes:introduction).push(el);
+  }
+  if(!questions.length)return;
+  const lastAtPage=new Map();
+  const source=document.createElement('details'),caption=document.createElement('summary');
+  caption.append(exam);source.className='read-exam-source';source.append(caption,...introduction);
+  for(const [i,{number,anchor,nodes}] of questions.entries()){
+    const question=document.createElement('details'),summary=document.createElement('summary');
+    question.className='read-inline-question';summary.dataset.readerMetadata='exam-heading';
+    summary.textContent='2026 exam · Q'+number;
+    question.append(summary,...nodes);
+    if(i===0)question.append(source);
+    (lastAtPage.get(anchor)||anchor).after(question);
+    lastAtPage.set(anchor,question);
+  }
+}
+
+// Keep the printed heading and its individual reference nodes. Moving these
+// nodes after mark registration preserves their stable IDs and note anchors.
+function formatReadEndMatter(copy,chapter){
+  if(!/^\d+$/.test(String(chapter))||copy.querySelector(':scope > .read-references'))return;
+  const headings=[...copy.querySelectorAll(':scope > :is(h1,h2,h3,h4)')];
+  const references=headings.find(h=>/^further reading$/i.test(h.textContent.trim()));
+  const exam=headings.find(h=>/^2026 exam\b/i.test(h.textContent.trim()));
+  if(exam){
+    for(let node=exam.nextElementSibling;node&&!/^H[1-4]$/.test(node.tagName);node=node.nextElementSibling){
+      if(!node.matches('ul,ol'))continue;
+      const options=[...node.children].filter(li=>li.tagName==='LI');
+      if(!options.length||!options.every(li=>/^\s*[א-דA-D][.)]\s/.test(li.textContent)))continue;
+      let stem=node.previousElementSibling;
+      while(stem&&stem!==exam&&!/^(?:Q\d+|שאלה\s+\d+)/u.test(stem.textContent.trim()))stem=stem.previousElementSibling;
+      if(stem===exam)stem=null;
+      const substantive=(stem?.textContent.replace(/^Q\d+\s*.*?p\.\s*\d+(?:[–-]\d+)?\.\s*/iu,'')||'')+' '+options.map(li=>li.textContent.replace(/^\s*[א-דA-D][.)]\s*/u,'')).join(' ');
+      const hebrew=(substantive.match(/[א-ת]/gu)||[]).length,latin=(substantive.match(/[a-z]/giu)||[]).length;
+      const lang=hebrew>0&&hebrew>=latin/3?'he':'en',dir=lang==='he'?'rtl':'ltr',alphabet=lang==='he'?'אבגד':'ABCD';
+      node.lang=lang;node.dir=dir;node.classList.add('read-exam-options');
+      if(stem?.matches('p')){stem.lang=lang;stem.dir=dir;}
+      const displayKeys=[];
+      for(const li of options){
+        li.lang=lang;li.dir=dir;
+        const walker=document.createTreeWalker(li,NodeFilter.SHOW_TEXT);
+        const texts=[];while(walker.nextNode())texts.push(walker.currentNode);
+        const prefix=texts.find(t=>/^\s*[א-דA-D][.)]/u.test(t.data));
+        if(!prefix)continue;
+        const original=prefix.data.trimStart()[0],index='אבגד'.includes(original)?'אבגד'.indexOf(original):'ABCD'.indexOf(original);
+        prefix.data=prefix.data.replace(/^(\s*)[א-דA-D]([.)])/u,'$1'+alphabet[index]+'$2');
+        const labelNode=[...li.querySelectorAll('strong,b')].find(n=>/^key$/iu.test(n.textContent.trim()));
+        if(labelNode&&/←\s*key\s*$/iu.test(li.textContent)){
+          displayKeys.push(alphabet[index]);labelNode.remove();
+          for(const t of texts)if(t.isConnected||li.contains(t))t.data=t.data.replace(/\s*←\s*$/u,'');
+        }
+      }
+      if(displayKeys.length){
+        const key=document.createElement('p');key.className='read-exam-key';key.lang=lang;key.dir=dir;
+        key.dataset.readerMetadata='exam-key';key.textContent=(lang==='he'?'תשובה: ':'Key: ')+displayKeys.join(', ');
+        node.after(key);
+      }
+    }
+  }
+  if(!references){placeExamQuestions(copy,exam);return;}
+  const level=Number(references.tagName[1]),nodes=[];
+  for(let next=references.nextSibling;next;next=next.nextSibling){
+    if(next.nodeType===1){
+      if(next.matches('.chapter-nav,.point-rail'))break;
+      if(/^H[1-4]$/.test(next.tagName)&&Number(next.tagName[1])<=level){
+        const title=next.textContent.trim();
+        const referenceCategory=chapter==='36'&&/^(General|Breast|Pain|Vulva|Vagina|Cervix)$/i.test(title);
+        if(!referenceCategory&&!/^selected websites$/i.test(title))break;
+      }
+    }
+    nodes.push(next);
+  }
+  const disclosure=document.createElement('details'),label=document.createElement('summary');
+  disclosure.className='read-references';label.append(references);disclosure.append(label,...nodes);
+  const footer=copy.querySelector(':scope > .chapter-nav');if(footer)footer.before(disclosure);else copy.append(disclosure);
+  placeExamQuestions(copy,exam);
+}
+
+return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter};
 })();

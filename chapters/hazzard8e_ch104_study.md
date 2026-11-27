@@ -24,11 +24,13 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-1eb064d03b4a7940c7ca9ab5" data-exam-read-page="1675" data-reader-metadata="exam"></span>
 
+<a id="cdi-recurrence-prevention"></a>
+
 **Recovery followed by pneumonia without diarrhea.** Hazzard reports **4% recurrence with oral vancomycin prophylaxis versus 26% without** when systemic antibiotics are needed after recent CDI (Table 104-1, p1672). Page 1675 also describes benefit from prophylaxis. Treat the pneumonia, minimize unnecessary antibiotic exposure and investigate recurrent diarrhea if it appears.
 > Current practice (not the book): ACG 2021 allowed selective use in high-risk patients. AGA 2026 advises against using vancomycin during systemic antibiotic treatment solely to prevent CDI. Long-term suppression in selected patients with multiple recurrences is a separate indication. [ACG, recommendation 18](https://gi.org/guideline/diagnosis-and-management-of-c-difficile-associated-diarrhea-and-colitis/) · [AGA, 30 June 2026, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
 
 **Recurrent disease and adjuncts.** Hazzard describes a prolonged vancomycin taper after relapse, fecal microbiota transplantation for refractory relapse (80–90% success), and passive antibody administration **before a subsequent antibiotic course** in older adults with recurrent CDI (p1675).
-> Current practice (not the book): Bezlotoxumab, directed against toxin B, was given with treatment of active CDI to reduce recurrence in selected patients. It was not stand-alone treatment or general prophylaxis before unrelated antibiotics. EMA records EU withdrawal for commercial reasons on 20 October 2026. [SHEA/IDSA, recommendations II–III](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [European Medicines Agency, Zinplava](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava).
+> Current practice (not the book): Bezlotoxumab, directed against toxin B, was given with treatment of active CDI to reduce recurrence in selected patients. It was not stand-alone treatment or general prophylaxis before unrelated antibiotics. EMA records EU withdrawal for commercial reasons on 20 October 2026. [SHEA/IDSA, recommendations II–III](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [European Medicines Agency, Zinplava](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava). The FDA lists Zinplava BLA 761046 among discontinued therapeutic biologics. Oklahoma’s Drug Utilization Review packet records a manufacturer discontinuation on 31 January 2025. That US supply date and the EU authorization withdrawal are separate events. [Oklahoma DUR, October 2025](https://www.oklahoma.gov/content/dam/ok/en/okhca/docs/about/boards-and-committees/dur/2025/october/10082025%20DUR%20Packet.pdf). [FDA discontinued biologics list, November 2026](https://www.fda.gov/media/186099/download?attachment=).
 
 ## Severe pneumonia after hospitalization
 
@@ -38,8 +40,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-f487d5826d3f57bd7350d653" data-exam-read-page="1675" data-reader-metadata="exam"></span>
 
-**Why two vancomycin routes appeared together.** Intravenous vancomycin in the pneumonia regimen reaches the systemic circulation. The additional oral drug in the vignette was intended to prevent recurrent CDI after the recent hospitalization. No diarrhea is described. Hazzard describes oral prophylaxis after recent CDI, reporting **26% to 4% recurrence** (Table 104-1, p1672; p1675).
-> Current practice (not the book): AGA 2026 advises against vancomycin prescribed during systemic antibiotic administration solely to prevent CDI. [AGA, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
+**Why two vancomycin routes appeared together.** Intravenous vancomycin in the pneumonia regimen reaches the systemic circulation. The additional oral drug in the vignette was intended to prevent recurrent CDI after the recent hospitalization. No diarrhea is described. Compare the [printed prophylaxis finding and current guidance](#cdi-recurrence-prevention).
 
 ## Fever of unknown origin in older adults
 
@@ -115,9 +116,7 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
 **GI infections and *C difficile***
-- Asymptomatic *C difficile* carriage: **2%** community, **10%** community with outpatient healthcare exposure, **20–50%** hospital/long-term care (p1675)
-- About **15%** of asymptomatic carriers develop symptomatic CDI after receiving antibiotics (p1675)
-- Fecal microbiota transplantation (FMT) for refractory relapse: **80–90%** success (p1675)
+
 - **C. difficile:** Table 104-1 lists **oral vancomycin first-line**. In severe disease it pairs vancomycin with IV metronidazole. After recent CDI, prophylactic oral vancomycin during a subsequent antibiotic course reduced recurrence **from 26% to 4%** in the study the chapter cites (pp1672–1673, 1675).
   > Current practice (not the book): IDSA/SHEA favors fidaxomicin when feasible for initial nonfulminant CDI, with oral vancomycin acceptable. AGA 2026 advises against giving oral vancomycin during systemic antibiotics solely to prevent CDI. [SHEA/IDSA 2021 focused update, Table 1](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [AGA, advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
 

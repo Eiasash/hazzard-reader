@@ -38,7 +38,7 @@ window.HazzardQuestionSearch = (() => {
     input.addEventListener('input',()=>{remember();render();});all.addEventListener('change',()=>{remember();render();});results.addEventListener('scroll',remember,{passive:true});
     screen.querySelector('button').onclick=close;screen.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();close();}});
     addEventListener('popstate',restore);addEventListener('pageshow',restore);
-    return {restore,open(){if(!screen.hidden){close();return;}history.pushState({...history.state,hazzardQuestionSearch:{query:input.value,all:all.checked,scroll:0}},'');restore();input.focus({preventScroll:true});}};
+    return {restore,dispose(){serial++;removeEventListener('popstate',restore);removeEventListener('pageshow',restore);screen.remove();},open(){if(!screen.hidden){close();return;}history.pushState({...history.state,hazzardQuestionSearch:{query:input.value,all:all.checked,scroll:0}},'');restore();input.focus({preventScroll:true});}};
   }
   return {mount,normalize};
 })();

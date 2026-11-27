@@ -104,6 +104,8 @@ Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformi
 - ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL** in the text *[sic — Table 81-7 uses cells/µL]*); consider osteoporosis prevention during long-term treatment, especially given accelerated bone loss above **1000 mcg/day** fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
 - Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
+
+> Current practice (not the book): In exacerbation-prone COPD with eosinophils ≥300/µL despite optimized inhaled treatment, dupilumab reduced exacerbations in BOREAS and NOTUS. The trials selected patients with chronic productive cough. Mepolizumab also reduced moderate or severe exacerbations in eosinophilic COPD in MATINEE. These results concern selected phenotypes. [NOTUS trial, 2024 and MATINEE, 2025](https://pubmed.ncbi.nlm.nih.gov/38767614/).
 - Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance; maintenance may be considered for frequent exacerbators despite maximal triple inhalers when worsening airflow obstruction and airway inflammation drive symptoms, without hearing impairment, resting tachycardia or other arrhythmia, apparent QTc-prolongation risk, or clinical/radiographic NTM evidence, with NTM assessment before regular use (p1254).
 - Theophylline: goal level **8–12 mcg/mL**; narrow therapeutic window, rarely used now (p1255).
 
@@ -129,6 +131,8 @@ Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformi
 - Average life expectancy from diagnosis: **14 years** for COPD vs **21 years** for heart disease (p1262).
 - Symptom burden in advanced COPD (Table 81-14): dyspnea **94%**, pain **54%** (p1263); respiratory symptoms (dyspnea, cough, sputum) up to **98%** of patients (p1262).
 - Psychological/sleep symptom burden in advanced COPD: depression **>90%** (antidepressants, supportive counseling); anxiety **>90%** (benzodiazepines, behavioral interventions); delirium (antipsychotics + behavioral interventions); sleep disturbance **40%** (trazodone/Z-meds, nocturnal O2, CPAP, CBT) (Table 81-14, p1263).
+
+> Current practice (not the book): Benzodiazepines and Z-drugs increase older adults’ risks of delirium, falls and fractures. In COPD, consider respiratory status and prioritize non-drug approaches to anxiety and insomnia before prescribing sedatives. [AGS Beers Criteria, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 - Very severe obstruction (**FEV1 <30%** predicted or FEV1 Z-score **<–2.55**) helps identify patients at risk for uncontrolled symptoms from advanced COPD — but FEV1 alone is not sufficient to identify who would benefit from palliative care (p1262).
 - SPIKES framework for breaking bad news: **S**etting, **P**erception, **I**nvitation, **K**nowledge, **E**mpathy, **S**trategy/summary (p1264).
 
@@ -212,6 +216,8 @@ Haemophilus influenzae, Moraxella catarrhalis, and Streptococcus pneumoniae (p12
 <details><summary>Answer</summary>
 
 Resting PaO2 ≤ 55 mm Hg or SpO2 ≤ 88% (or PaO2 ≤ 59/SpO2 ≤ 89% with cor pulmonale, pulmonary hypertension, or erythrocytosis). LTOT worn more than 16 hours per day improves survival (p1256).
+
+> Current practice (not the book): For severe chronic resting hypoxemia, ATS recommends oxygen for at least 15 hours/day. In REDOX, prescribing 24 rather than 15 hours/day did not reduce the risk of hospitalization or death at one year. The trial does not establish benefit for moderate desaturation. [REDOX randomized trial, 2024](https://pubmed.ncbi.nlm.nih.gov/39254466/).
 
 </details>
 

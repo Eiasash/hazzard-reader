@@ -5,6 +5,13 @@ window.HazzardRouter=(()=>{
     const path=s=>s.replace(/\/index\.html$/,'/');
     return url.origin===location.origin&&path(url.pathname)===path(location.pathname);
   }
+  function canonical(url){
+    if(url.searchParams.get('review')==='1'&&(!url.searchParams.has('chapter')||url.searchParams.get('chapter')==='bank')){
+      if(!url.searchParams.has('chapter')){const prior=new URLSearchParams(url.search);url.search='';url.searchParams.set('chapter','bank');for(const [key,value] of prior)url.searchParams.append(key,value);}
+      if(url.searchParams.get('queue')==='today')url.searchParams.delete('queue');
+    }
+    return url;
+  }
   function render(url,state,back=false,force=false){
     const request=++generation;
     tail=tail.catch(()=>{}).then(()=>{
@@ -18,6 +25,7 @@ window.HazzardRouter=(()=>{
   function go(href,{replace=false,state={},force=false}={}){
     const url=new URL(href,location.href);
     if(!owns(url)){location.assign(url.href);return;}
+    canonical(url);
     if(!activate)return;
     if(!force&&url.href===location.href)return tail;
     if(url.href!==location.href){
@@ -39,5 +47,5 @@ window.HazzardRouter=(()=>{
     });
     return render(new URL(location.href),history.state);
   }
-  return {go,start,settled:()=>tail,owns};
+  return {go,start,settled:()=>tail,owns,canonical};
 })();

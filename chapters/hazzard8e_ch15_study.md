@@ -10,6 +10,8 @@ A quiet emergency patient may have delirium, abuse or functional decline despite
 
 Rapid evaluation of an isolated acute complaint is insufficient for many older adults. Geriatric emergency care coordinates emergency medicine, geriatrics, therapy, nutrition, inpatient teams, primary care, and community services. Accreditation and shared learning networks support measurable process improvement (<a href="?chapter=15#p207">p207</a>).
 
+> **Current practice: Geriatric emergency department recommendations.** Geriatric ED Guidelines 2.0 evaluates individual clinical recommendations using GRADE. The 2014 consensus document remains a useful description of geriatric emergency-department services. [GED Guidelines 2.0 development, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12476112/).
+
 <a id="p208"></a>**[<a href="?chapter=15#p208">p. 208</a>]**
 
 A geriatric-friendly room alone is insufficient: staffing, continuing education, syndrome-specific protocols, and local resources matter more. A general hospital policy becomes geriatric ED work when adapted to relevant geriatric processes and outcomes. Medication-safety work benefits from pharmacy expertise (<a href="?chapter=15#p208">p208</a>).
@@ -172,7 +174,7 @@ Transitional-care nursing can reduce admission/readmission while increasing earl
 
 **שימוש במיון לפי גיל.** בשנת 2022 שיעור הביקורים לאלף נפש היה 419.0 בגילי 65–74, 712.3 בגילי 75–84 ו־1,046.8 בגיל 85 ומעלה. הפער בין הקבוצות הקיצוניות הוא פי 2.5 בקירוב. לוח 2.21 מתייחס לביקורים במלר״דים של בתי חולים כלליים, ללא ביקורי מיון עקב לידה. אדם שביקר פעמיים נספר פעמיים. בקרב בני 65 ומעלה 22.2% מהביקורים היו ביקורים חוזרים בתוך חודש מהשחרור ממיון. שיעור האשפוז הכללי לאלף נפש עלה אף הוא עם הגיל. השנתון מבחין בין שיעור הביקורים, מספר האשפוזים והתפלגותם בין המחלקות. [השנתון שצוטט בבחינה, עמ׳ 135–136 ולוח 2.21](?chapter=15#ch15-il-yearbook).
 
-**חשד להתעמרות בחסר ישע.** בחוזר מנכ״ל 22/03 נדרשת בדיקה רפואית מיידית ויסודית, ביחידות לפי שיקול דעת המטפל ובשפת המטופל. מזמינים מיד עובד סוציאלי ומתעדים את הממצאים ואת השיחה. כאשר עולה חשד סביר לעבירה בידי האחראי לחסר ישע, מדווחים בהקדם לפקיד סעד או למשטרה. אם נדרש אשפוז עקב הפגיעה, החוזר קובע אשפוז של 24 שעות לפחות או אמצעים מיידיים אחרים להגנה, בנוסף לדיווח. שחרור מתואם עם פקיד הסעד והצוות המטפל. [חוזר מנכ״ל 22/03, עמ׳ 2, 6–7](?chapter=15#ch15-il-protection).
+**חשד להתעמרות בחסר ישע.** בחוזר מנכ״ל 22/03 נדרשת בדיקה רפואית מיידית ויסודית, ביחידות לפי שיקול דעת המטפל ובשפת המטופל. מזמינים מיד עובד סוציאלי ומתעדים את הממצאים ואת השיחה. כאשר עולה חשד סביר לעבירה בידי האחראי לחסר ישע, מדווחים בהקדם לפקיד סעד (במינוח העדכני: עובד סוציאלי שמונה לפי חוק) או למשטרה. אם נדרש אשפוז עקב הפגיעה, החוזר קובע אשפוז של 24 שעות לפחות או אמצעים מיידיים אחרים להגנה, בנוסף לדיווח. שחרור מתואם עם פקיד הסעד והצוות המטפל. [חוזר מנכ״ל 22/03, עמ׳ 2, 6–7](?chapter=15#ch15-il-protection).
 
 ## Test yourself
 

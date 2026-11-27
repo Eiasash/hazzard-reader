@@ -154,6 +154,8 @@ Since the progression of ARHL is also slow, the individual maybe unaware of the 
 
 <span id="exam-p495-mcq-ca570710752bad38efb708ba" data-exam-ids="mcq-ca570710752bad38efb708ba" data-exam-read-page="495" data-reader-metadata="exam"></span>However, losses at higher frequencies like those in ARHL cost the ability to discriminate between many words with f, p, k, s, t, th sounds (see Table 34-2). For example, to a person with high-frequency hearing loss, “sick” and “thick” may be difficult to differentiate, and “three socks” may sound like “free fox” unless the listener has developed the ability to read the speakers lips for supplementary information or can interpret them in context. Such communication errors may seem trivial, but can cause enormous social disability when they happen in work situations or become cumulative.
 
+> *[sic — The prose includes /p/ among the high-frequency consonants. Table 34-2 on p494 places /p/ with /sh/ in the 1,000–2,000 Hz band and lists /f/, /k/, /s/, /t/ and /th/ at 3,000–8,000 Hz.]*
+
 Audiological examinations routinely include frequencies up to 8000 Hz and could reveal the presbycusic changes although the individual may still be told by the audiologist that their hearing is “normal for the age.” Such a statement should not be taken to mean that a hearing aid is not necessary or not useful. Quite frequently, an individual with a reasonably reliable pure-tone audiogram and good one-on-one communication skills may experience difficulties in speech perception in a noisy environment such as a restaurant, a party, or a conference because high frequencies are essential for auditory discrimination in the presence of background noise. This “party effect” is often the first signal indicative of presbycusis, and such individuals may greatly benefit in their enjoyment of conversation and music by modern hearing aids fitted to their particular needs.
 
 ## PERIPHERAL PATHOLOGY OF AGE-RELATED HEARING LOSS IN HUMANS
@@ -273,6 +275,8 @@ Although presbycusis is not yet preventable or treatable, progress in basic and 
 ## ACKNOWLEDGMENT
 
 The authors wish to thank Andra E. Talaska for her contributions to the previous versions of this chapter. Dr. Schacht’s and Sha’s research on age-related hearing loss was supported by program project grant AG-025164 from the National Institute on Aging, NIH. Dr. Sha’s research is supported by R01 grant DC009222 from the National Institute on Deadness and Other Communication Disorders.
+
+> *[sic — The institute’s official name is the National Institute on Deafness and Other Communication Disorders.]* [NIH, NIDCD](https://www.nidcd.nih.gov/).
 
 ## FURTHER READING
 

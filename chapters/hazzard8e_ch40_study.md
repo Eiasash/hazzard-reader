@@ -28,7 +28,7 @@ Study summary of Chapter 40; the book and the full chapter are the reference.
 ### Read the endpoint before interpreting the intervention
 
 - In mice, low-dose rapamycin can extend both survival and the duration of health. Human studies of a rapamycin analogue in community-dwelling older people examined vaccine responses and reported infections. Improved immune measurements are evidence about that outcome; they do not by themselves show that life is longer (p597–599).
-- The open-label dasatinib–quercetin pilot involved people with idiopathic pulmonary fibrosis. Tolerability in a small group with a particular disease is a different question from efficacy for otherwise healthy older people. The chapter presents this work as an early translational step (p599).
+- Tolerability in a small group with a particular disease is a different question from efficacy for otherwise healthy older people. The chapter presents this work as an early translational step (p599).
 - After an acute stress such as surgery, measure the patient's return toward baseline function. A trial aimed at delaying multimorbidity would instead follow the accumulation of chronic conditions or disability over time. Decide which question the trial addresses before interpreting a short-term laboratory change (p599–600).
 - In a post-hoc analysis of CALERIE, a composite index estimated that physiologic age advanced less over **2 years** in participants assigned to dietary restriction. This was a model-based result. Different combinations of clinical measurements can estimate biological age, and a change on one index is distinct from an observed gain in years lived independently (p602).
 

@@ -1,9 +1,9 @@
 @media (min-width:1200px) {
   #chapterHeader { min-height:52px; padding-inline:12px; gap:6px; }
   #chapterHeader button, #chapterHeader .chapter-switch button {
-    min-height:48px; font-size:calc(15px * var(--fs,1));
+    min-height:48px; font-size:var(--type-control);
   }
-  #chapterHeader #findToggle { min-width:48px; font-size:calc(26px * var(--fs,1)); }
+  #chapterHeader #findToggle { min-width:48px; font-size:var(--type-title); }
   #chapterHeader .chapter-switch { flex-basis:164px; }
   body.statistics-open #readerViewport #statsViewport { padding-block-start:var(--active-header-height,52px); }
   #findBar, #examBar { top:calc(var(--vv-top,0px) + var(--active-header-height,52px)); }

@@ -8,13 +8,15 @@ Study summary of Chapter 28; the book and the full chapter are the reference.
 - Match general, regional/neuraxial or monitored anesthesia care to the procedure, comorbidities and patient preferences (p384).
 - Older adults are more sensitive to anesthetics and opioids; age-adjust dosing and monitor depth, ventilation, circulation and temperature (p383-385).
 - Avoid excessive depth and hypotension while preventing awareness; processed EEG may supplement clinical monitoring (p383-385).
-- In general, keep BP within **20%** of baseline and MAP at least **65 mm Hg**; older patients, especially with hypertension, may need substantially higher targets (p388).
+- In general, keep BP within **20%** of baseline with systolic BP at least **100 mm Hg** and MAP at least **65 mm Hg**; older patients, especially with hypertension, may need substantially higher targets (p388).
 - Regional techniques can improve analgesia and reduce opioid use, but the book finds no conclusive superiority for major postoperative outcomes (p388).
 - Anticoagulants require coordinated planning for neuraxial placement, catheter removal and medication resumption (p388).
 
 **Cognition and medicines**
 - Delirium and longer-term cognitive dysfunction can coexist but are distinct; their relationship and anesthetic causation remain uncertain (p390-391).
 - Prevention emphasizes orientation, mobilization, sleep, sensory aids and adequate pain control; no preventive pharmaceutical is recommended in the chapter (p384, p396).
+
+> Current practice (not the book): Neither spinal nor general anesthesia has shown a consistent delirium advantage for hip fracture surgery. Consider perioperative dexmedetomidine selectively, weighing bradycardia and hypotension. Maintain the non-drug prevention measures. [ASA perioperative care advisory for older adults, 2025](https://www.ovid.com/jnls/anesthesiology/fulltext/10.1097/aln.0000000000005172~2025-american-society-of-anesthesiologists-practice-advisory).
 - For monitored sedation, the book discusses reduced doses of propofol, ketamine or dexmedetomidine and avoidance of benzodiazepines; continuously monitor breathing because light sedation can deepen rapidly (p388).
 - Review anticholinergic and other high-risk drugs; dose details and agent-specific cautions are in the source tables (p386-387, p392).
 
@@ -82,6 +84,8 @@ Pain itself can impede sleep, breathing and mobility; excessive sedative or opio
 
 For postoperative nausea and vomiting, distinguish the proposed agent's antiemetic benefit from its cognitive and motor effects. The table lists ondansetron **4 mg IV every 6 hours**, haloperidol **0.5–1 mg every 6 hours** and metoclopramide **5 mg IV once** as examples, along with propofol and aprepitant for selected circumstances. These are the printed table entries, not an instruction to combine or repeat all of them. The same table urges caution with antipsychotics and steroids, and lists dexamethasone, particularly above **4 mg**, among concerns for vulnerable patients. Diphenhydramine, hydroxyzine, scopolamine, promethazine, prochlorperazine and tricyclic agents can add central anticholinergic effects and oversedation. Review the entire exposure when an older patient becomes inattentive (p392).
 
+> Current practice (not the book): The book does not specify a route for haloperidol in this row. US labeling does not approve IV haloperidol lactate; higher doses and IV administration increase the risk of QT prolongation and torsades. If administered IV, monitor the ECG. [Haloperidol lactate prescribing information, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e2eed126-cb82-42b1-9b48-9cbeb6873b50).
+
 ### Cardiac procedures: why the anesthetic decision changes with the anatomy
 
 Coronary disease is common in older surgical patients, but a diagnosis of coronary disease is not the same as evidence that every patient needs the same invasive monitoring. The chapter describes using an arterial line where rapid pressure changes or limited reserve would make intermittent readings inadequate. The question is what information a measurement adds and what the team could change in response. During coronary procedures consider the balance between myocardial oxygen supply and demand, baseline ventricular function, rhythm and the hemodynamic consequences of anesthesia or manipulation of the heart (p392–393).
@@ -90,7 +94,7 @@ Conventional coronary bypass uses cardiopulmonary bypass. Off-pump surgery avoid
 
 Degenerative aortic stenosis is common in later life. TAVR can be performed with monitored sedation or general anesthesia. A patient who cannot lie flat, tolerate imaging or remain still may require a different plan from one who can cooperate comfortably. Access problems, bleeding or cardiac instability can require conversion during a planned sedated procedure. The chapter cites complication rates up to **20%** in its TAVR material, including approximately **2%** stroke, **3.6%** significant postprocedural leak and **6%** major bleeding. The figures describe the experience at the time of the book, not a contemporary risk calculator for a particular device or center (p393–394).
 
-Mitral regurgitation can reflect primary valve disease or an effect of ventricular dysfunction. The chapter contrasts surgical repair or replacement with catheter approaches in selected patients. Imaging can be central to assessing the lesion and the result of repair; the need for transesophageal imaging and patient immobility affects the anesthetic plan. During atrial fibrillation ablation, discomfort, procedure length, movement and airway obstruction may make sedation inadequate. Evaluate the patient's ability to lie still, antithrombotic therapy and baseline rhythm. Device implantation and electrophysiologic procedures may be less invasive than open surgery while still requiring readiness for sudden cardiovascular or respiratory events (p394–395).
+Mitral regurgitation can reflect primary valve disease or an effect of ventricular dysfunction. The chapter contrasts surgical repair or replacement with catheter approaches in selected patients. Imaging can be central to assessing the lesion and the result of repair; the need for transesophageal imaging and patient immobility affects the anesthetic plan. For atrial fibrillation ablation, the chapter describes general anesthesia with endotracheal intubation and arterial monitoring; systemic heparin is used during left-atrial instrumentation (p394). Evaluate the patient's ability to lie still, antithrombotic therapy and baseline rhythm. Device implantation and electrophysiologic procedures may be less invasive than open surgery while still requiring readiness for sudden cardiovascular or respiratory events (p394–395).
 
 ### Pacemakers, defibrillators and acceptable rescue
 

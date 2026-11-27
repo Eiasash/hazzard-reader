@@ -260,6 +260,8 @@ Superficial spreading (low cumulative sun damage) Superficial spreading melanoma
 
 As its name suggests, this subset of melanoma initially grows horizontally, and invasion is typically not seen until the lesion is 2.5 cm in diameter.
 
+> **[sic]** Diameter cannot rule out dermal invasion. Invasive melanomas have been documented at diameters of 6 mm or less. A smaller suspicious lesion still warrants evaluation. [Small-diameter invasive melanomas, 1996](https://pubmed.ncbi.nlm.nih.gov/8721446/).
+
 Lentigo maligna (high cumulative sun damage melanoma) Approximately 10% to 15% of all melanomas are categorized under the lentigo maligna, or high cumulative sun damage, subtype. This type of melanoma is particularly common in older adults and is most often located on sun-damaged skin, for example, the head and neck. It usually begins as a pigmented macular lesion with variation in black and brown color. It typically has an irregular outline, and over the course of several years it can darken and enlarge (Figures 93-14 and 93-15). The in situ phase of this lesion is known as lentigo maligna. Once histologic invasion is documented, it is termed lentigo maligna
 
 ![Figure 93-13](hazzard8e_ch93_figure-93-13_p1465.webp)

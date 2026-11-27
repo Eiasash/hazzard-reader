@@ -90,7 +90,7 @@ The candidate-gene studies cited in the chapter found variants near **FOXO3A, AP
 
 **Candidate association versus replication.** FOXO3A participates in insulin and IGF signaling, SIRT3 regulates mitochondrial processes, and APOE variants influence cardiovascular and Alzheimer disease risk. In the genome-wide screens reviewed in this chapter, only the APOE association had appeared in multiple studies. A variant may influence age at death by altering susceptibility to a particular disease. This is why the chapter discusses healthy aging as an outcome in addition to survival (<a href="?chapter=1#p17">p17</a>–<a href="?chapter=1#p19">19</a>).
 
-Rapamycin, canagliflozin, acarbose and estradiol-related interventions extend mouse survival in the studies discussed; these are experimental longevity findings, not human dosing recommendations (<a href="?chapter=1#p17">p17</a>).
+In the mouse longevity studies, rapamycin benefited both sexes, acarbose had a larger effect in males, and canagliflozin and nonfeminizing 17α-estradiol benefited males; these are experimental longevity findings, not human dosing recommendations (<a href="?chapter=1#p17">p17</a>).
 
 APOE associations replicate more consistently than many candidate longevity loci; a healthy-aging phenotype is more informative than age at death alone (<a href="?chapter=1#p19">p19</a>).
 

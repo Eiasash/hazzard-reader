@@ -26,7 +26,7 @@ Looking at the feet substitutes for position information lost with advanced neur
 
 Ask what the patient actually took and when anything changed. Escitalopram is the antidepressant among aspirin, a longstanding angiotensin receptor blocker and mirabegron. Antidepressants, antipsychotics and benzodiazepines are the classes consistently associated with falls in the chapter. The first day after an antihypertensive is started or its dose changed is a distinct risk period. A chronic stable prescription carries a different history (<a href="?chapter=43#p634">p634</a>–<a href="?chapter=43#p636">636</a>).
 
-Medications: psychoactive drugs (benzodiazepine, antidepressant, antipsychotic) → **2–3x** fall risk, **~2x** hip-fracture risk (<a href="?chapter=43#p634">p634</a>). NSAIDs: most recent systematic review found no significant increase on adjusted analysis (<a href="?chapter=43#p636">p636</a>). Some antihypertensive classes (angiotensin system blocking medications) are protective; fall risk is significantly increased within the **24 hours** after starting an antihypertensive or changing its dose (<a href="?chapter=43#p636">p636</a>).
+Medications: psychoactive drugs (benzodiazepine, antidepressant, antipsychotic) → **2–3x** fall risk, **~2x** hip-fracture risk (<a href="?chapter=43#p634">p634</a>). NSAIDs: most recent systematic review found no significant increase on adjusted analysis (<a href="?chapter=43#p636">p636</a>). Evidence across antihypertensive classes is inconsistent; some studies suggest lower fall risk with renin–angiotensin system blockers; fall risk is significantly increased within the **24 hours** after starting an antihypertensive or changing its dose (<a href="?chapter=43#p636">p636</a>).
 
 Environmental: it has been estimated that extrinsic factors are involved in **35–45%** of injurious falls; **1/4 to 1/2** of falls occur away from home; a stairs fall carries **~2x** the injury risk of other falls (<a href="?chapter=43#p636">p636</a>–<a href="?chapter=43#p637">637</a>).
 
@@ -68,6 +68,8 @@ Alternatives with good predictive accuracy: Alternate Step Test, Sit-to-Stand Te
 
 Hospital (UK NICE): automatically assess all patients **65+**, or **50–64 with a risk condition** (e.g., recent stroke) (<a href="?chapter=43#p637">p637</a>).
 
+> **Current practice: Inpatient fall assessment.** NICE recommends comprehensive falls assessment for the defined inpatient groups and advises against falls prediction tools. Vitamin D should not be offered solely to prevent falls; address other indications, including deficiency. [NICE NG249, 2025](https://www.nice.org.uk/guidance/ng249).
+
 RACF: CaHFRiS screen items — **MMSE < 17**, impulsivity, reduced standing balance, walking-frame use, a fall in the past year, antidepressant/hypnotic-anxiolytic use; absolute 6-month fall risk ranges **0% (no factors) → 100% (≥6 factors)** (<a href="?chapter=43#p637">p637</a>).
 
 <div hidden data-study-aid="Timed Up and Go sequence" data-reader-metadata="study-aid"></div>
@@ -94,7 +96,7 @@ A program that works for an active person in the community may expose a recently
 
 **Psychological:** most CBT programs used alone have not prevented falls in people with fear of falling; adding CBT to multifactorial/exercise programs may help (<a href="?chapter=43#p641">p641</a>).
 
-**Cardiovascular:** pacemaker implantation for cardioinhibitory carotid sinus hypersensitivity reduces drop attacks, syncope, and fall frequency (<a href="?chapter=43#p641">p641</a>).
+**Cardiovascular:** consider pacing for symptomatic cardioinhibitory carotid sinus syndrome with recurrent unexplained syncope or falls; test positivity alone does not establish an indication (<a href="?chapter=43#p641">p641</a>).
 
 RACF: single-component interventions generally ineffective; multidisciplinary multifactorial programs with staff education work (<a href="?chapter=43#p641">p641</a>).
 

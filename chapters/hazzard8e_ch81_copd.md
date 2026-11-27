@@ -191,6 +191,8 @@ FEV1/FVC. The ATS/ERS approach currently defines the LLN as the fifth percentile
 
 **The Global Initiative for Obstructive Lung Disease** Despite age-related limitations in methodology, the most often used spirometric criteria for establishing and staging airflow obstruction are based on GOLD Report (see **Table 81-5** ). The age-related limitations of the GOLD Report include two fundamental flaws. First, GOLD defines a reduced FEV1/FVC by a fixed ratio less than 0.70, thus failing to distinguish between age-related airflow limitation (normal aging-related process) and COPD-related airflow obstruction (connoting the presence of disease). In particular, an FEV1/FVC less than 0.70 is frequently seen in otherwise healthy, asymptomatic never-smokers who are age 65 or older. Second, GOLD expresses the FEV1 as %Pred, thus failing to account for age-related variability in spirometric performance. It is therefore not surprising that the prevalence of airflow obstruction in older persons is more than twofold higher when defined by GOLD versus a Z-score approach (37.7% vs 15.4%, respectively). Prior work has shown that the overdiagnosis of airflow obstruction by GOLD is not associated with respiratory symptoms, exercise intolerance, impaired mobility, COPD hospitalization, or mortality. Third, several conditions such as kyphosis, weak respiratory muscles, obesity—all common among older adults—can lower the FVC, hence reduce the FEV1/ FVC ratio, and underlying COPD may be “masked” in such individuals.
 
+> *[sic — With FEV1 held constant, lowering FVC raises the FEV1/FVC ratio and can conceal airflow obstruction. The printed sentence reverses the direction of this denominator effect.]* [Hazzard Ch81, p1243](?chapter=81#p1243).
+
 **Bronchodilator reversibility** COPD is defined as chronic airflow obstruction that is less than fully reversible. However, up to two-thirds of individuals with COPD may have a partial component of bronchodilator (BD) reversibility. Clinical guidelines therefore recommend that spirometry should be performed before and after administration of an inhaled BD (pre- and post-BD, respectively) in order to establish (1) reversibility (pre- vs post-BD values) and (2) diagnosis of COPD (using post-BD values). Among older
 
 <a id="p1244"></a>**[p. 1244]**
@@ -500,6 +502,8 @@ Most exacerbations can be treated as an outpatient. Patients with more severe ai
 | Severe<sup>c,d</sup> | Fluoroquinolone, antipseudomonal penicillin, cephalosporin (third generation), vancomycin (if concern for MRSA) |
 
 aModerate exacerbations are accompanied by at least two of the following: increased dyspnea, sputum volume, and sputum purulence—in the absence of respiratory failure. bSevere exacerbations are accompanied by at least two of the following: increased dyspnea, sputum volume, and sputum purulence—concurrent with respiratory failure. cIf risk factors for *Pseudomonas*, use ciprofloxacin and obtain sputum culture. dIf risk factors for *Pseudomonas*, use pipercillin-tazobactam or ceftazidime, and obtain sputum culture. If risk factors for MRSA, check nasal MRSA swab and obtain sputum culture.
+
+> *[sic — The drug name is piperacillin–tazobactam. Table 81-14 p1263 actually prints >90% in both the anxiety and depression cells for advanced COPD; these are the table’s estimates, not universal symptom prevalences.]* [Hazzard Ch81, Tables 81-13 and 81-14](?chapter=81#p1260).
 
 <a id="p1261"></a>**[p. 1261]**
 

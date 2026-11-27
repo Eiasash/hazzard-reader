@@ -108,6 +108,8 @@ Oxybutynin (antimuscarinic) 2.5–5 mg tid — dry mouth, blurry vision, ↑ int
 
 **Mirabegron:** <a href="?chapter=47#book-table-47-12">Table 47-12</a> gives **25–50 mg once daily**, with a **maximum of 25 mg/day** for CrCl **15–20 mL/min** or reduced hepatic function (<a href="?chapter=47#p712">p712</a>). Beta-3 agonists can elevate blood pressure; <a href="?chapter=47#p714">p714</a> advises against their use with **uncontrolled hypertension**.
 
+> **Current practice: Renal and hepatic dosing of mirabegron.** For adults, the US mirabegron label caps dosing at 25 mg once daily with eGFR 15–29 mL/min/1.73 m² or Child-Pugh B hepatic impairment. Use is not recommended below eGFR 15, on dialysis, or with Child-Pugh C impairment. The printed renal range on [p712](?chapter=47#p712) is 15–20 [sic]. [Myrbetriq US label, Tables 2–3](https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba9e9e15-e666-4c56-9271-2e24739cfa2d).
+
 > **Current practice: Mirabegron and blood pressure.** US mirabegron labeling advises against use in **severe uncontrolled hypertension**, defined as systolic pressure **≥180** or diastolic pressure **≥110 mm Hg**; monitor BP periodically — [FDA prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/202611Orig1s017lbl.pdf).
 
 Vaginal estrogen ring — 1 ring every 3 months, for atrophic-vaginitis-related urgency UI; <a href="?chapter=47#book-table-47-12">Table 47-12</a> (<a href="?chapter=47#p712">p712</a>) lists a history of gynecologic cancer as a contraindication and breast cancer as a relative contraindication.

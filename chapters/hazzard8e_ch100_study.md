@@ -25,6 +25,8 @@ Study summary of Chapter 100 - Myopathies, Polymyalgia Rheumatica, and Giant Cel
 
 <span data-exam-ids="mcq-0aa5f686e3b59340f14db1f7" data-exam-read-page="1605" data-reader-metadata="exam"></span>**Who needs early tocilizumab?** It blocks the IL-6 receptor and helps sustain remission while glucocorticoids are tapered. In newly diagnosed GCA, substantial risk from prolonged steroids, anticipated prolonged treatment or relapse favors early addition. Someone presenting with visual symptoms still needs urgent glucocorticoids. Once symptoms are controlled, taper over months. Recurrent cranial symptoms or new limb claudication during taper require prompt reassessment. ESR and CRP alone cannot distinguish relapse from other inflammation. (pp. 1605–1606)
 
+> Current practice (not the book): Upadacitinib is an approved option for adults with giant cell arteritis. A phase 3 trial evaluated 15 mg daily with a glucocorticoid taper. Consider infection, thrombosis, malignancy and cardiovascular risks before prescribing a JAK inhibitor in older adults. [SELECT-GCA trial, 2025](https://pubmed.ncbi.nlm.nih.gov/40174237/).
+
 **Disease beyond the temporal artery.** Examine pulses and listen for bruits. Arm claudication may reflect subclavian disease, and aortic aneurysm or dissection may appear years after cranial symptoms resolve. Choose vascular imaging and follow-up according to the vessels involved. Address fracture prevention and monitor for steroid toxicity and infection during treatment. (pp. 1603–1606)
 
 ## Classifying giant cell arteritis
@@ -42,6 +44,8 @@ Study summary of Chapter 100 - Myopathies, Polymyalgia Rheumatica, and Giant Cel
 **Read the labs in context.** An elevated ESR or CRP accompanies at least 80–90% of presentations. Inflammatory anemia is typically normocytic, CK is usually normal, and both ANA and rheumatoid factor are usually negative. A negative ANA fits the syndrome but is nonspecific. Rheumatoid factor and anti-CCP help investigate rheumatoid arthritis when the presentation overlaps. Inflammatory EMG changes have rarely been reported in PMR. Marked CK elevation or objective weakness instead warrants a myopathy evaluation. Microcytosis deserves its own workup. (p. 1601)
 
 **Treat and reassess.** Use the lowest effective initial prednisone dose within the chapter’s 12.5–25 mg/day range, balancing relapse risk against toxicity. Expect clear improvement by two weeks and near-complete response by four. If response is poor, reconsider the diagnosis. Reach 10 mg/day in about four to eight weeks when feasible, then taper slowly through remission. Recurrent symptoms guide management more reliably than an isolated ESR rise. Methotrexate can reduce steroid exposure in selected patients. About 15–20% of patients with PMR develop GCA, while 40–60% of those with GCA have PMR. Ask at follow-up about new headache, jaw claudication and visual symptoms. (pp. 1600–1603)
+
+> Current practice (not the book): Sarilumab is an option for adults with polymyalgia rheumatica who respond inadequately to corticosteroids or cannot tolerate a taper. In SAPHYR it increased sustained remission and reduced cumulative glucocorticoid exposure in relapsing disease. [SAPHYR trial, 2023](https://pubmed.ncbi.nlm.nih.gov/37792612/).
 
 ## Dermatomyositis and other inflammatory myopathies
 
@@ -88,8 +92,7 @@ Study summary of Chapter 100 - Myopathies, Polymyalgia Rheumatica, and Giant Cel
 
 **Polymyalgia rheumatica**
 - PMR produces symmetric neck/shoulder/hip-girdle pain and stiffness, often with constitutional symptoms; exclude myopathy, malignancy, infection and other rheumatic disease (p1601).
-- GCA occurs in an estimated **15–20%** of PMR patients; conversely, PMR occurs in **40–60%** of GCA patients (p1600).
-- Prednisone: minimum effective initial dose within **12.5–25 mg daily**. Improvement should appear by **2 weeks**, with near-complete response by **4 weeks** (p1601).
+- Improvement should appear by **2 weeks**, with near-complete response by **4 weeks** (p1601).
 - Reduce toward **10 mg/day** within **4–8 weeks**, then slowly during maintained remission; the chapter describes decrements of **1 mg every 4 weeks** (p1601–1602).
 - Poor initial response warrants reconsidering the diagnosis. Follow symptoms, not ESR alone, and monitor cumulative steroid toxicity (p1602).
 

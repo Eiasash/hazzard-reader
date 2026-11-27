@@ -50,6 +50,8 @@ Antidepressants do **not** show benefit for minor/subsyndromal depression despit
 
 Review adherence, time on treatment, adverse effects, interacting medicines and the diagnosis before calling a drug ineffective. Sertraline 50 mg had been tolerated for months without benefit. A gradual trial toward 100 mg with reassessment was reasonable. Two weeks at escitalopram 5 mg had produced some improvement. If tolerated, a move to 10 mg allows a fuller trial before adding a second medicine. Neither dose is a universal therapeutic threshold. A lower initial dose and planned reviews can improve adherence even if the eventual dose is the same. Ask explicitly about sexual effects because patients may otherwise stop treatment without explaining why (<a href="?chapter=60#p929">p929</a> <a href="?chapter=60#book-table-60-9">Table 60-9</a>, <a href="?chapter=65#p1014">p1014</a>–<a href="?chapter=65#p1015">1015</a>).
 
+> **Current practice: Antidepressant augmentation and fall risk.** In OPTIMUM, adults aged 60 or older with treatment-resistant depression had better well-being after aripiprazole augmentation than after a switch to bupropion. Falls were most frequent with bupropion augmentation. [OPTIMUM trial, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10568698/).
+
 Slow up-titration gave much better adherence than a higher starting dose, even though both reached the same eventual dose; separately, dose-response research does not support a **minimum effective dosage** or narrow therapeutic window (<a href="?chapter=65#p1015">p1015</a>).
 
 Patients often don't volunteer side effects (especially sexual dysfunction) unless asked directly (<a href="?chapter=65#p1015">p1015</a>).

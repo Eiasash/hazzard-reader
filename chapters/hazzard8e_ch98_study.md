@@ -47,7 +47,7 @@ An apparently normal prior history favors destructive thyroiditis but does not p
 
 ## Overt primary hypothyroidism and a rising TSH on treatment
 
-<span data-exam-ids="mcq-a9564119e3f03b2dcc342926" data-reader-metadata="exam"></span>High TSH with low free T4 means overt primary hypothyroidism. In the postoperative 82-year-old, TSH of 40 with low free T4 warrants treatment despite the recent fracture and nonspecific fatigue. Hazzard names **25- and 50-μg tablets** as reasonable starting doses in older people. TSH is usually reassessed after six weeks and some older people need seven to eight weeks for equilibration. Beyond age 80 a TSH target of 4–6 mU/L may be appropriate. Excess replacement increases the risks of atrial fibrillation and bone loss (p1552).
+<span data-exam-ids="mcq-a9564119e3f03b2dcc342926" data-reader-metadata="exam"></span>High TSH with low free T4 means overt primary hypothyroidism. In the postoperative 82-year-old, TSH of 40 with low free T4 warrants treatment despite the recent fracture and nonspecific fatigue. Hazzard names **25- and 50-μg tablets** as reasonable starting doses in older people. TSH is usually reassessed after six weeks and some older people need seven to eight weeks for equilibration. Excess replacement increases the risks of atrial fibrillation and bone loss (p1552).
 > Current practice (not the book): For stable primary hypothyroidism with known CAD, ATA advises starting oral levothyroxine at **12.5–25 μg/day** and titrating to symptoms and TSH. [ATA, section 4b](https://doi.org/10.1089/thy.2014.0028).
 
 <span data-exam-ids="mcq-73208d3bcb5312abed0b44aa" data-reader-metadata="exam"></span>When previously stable TSH rises, ask about missed doses and how tablets are taken before increasing the prescription. Missing one 112-microgram tablet every week lowers the average daily exposure to 96 micrograms. Calcium carbonate and oral iron bind levothyroxine in the gut. A proton pump inhibitor such as esomeprazole can also decrease absorption. Carbamazepine can increase dose requirements by accelerating metabolism. The May 2024 sitting accepted all four choices, but Table 98-7 assigns carbamazepine to a different mechanism from the three absorption examples (pp1552–1553).
@@ -109,14 +109,11 @@ After a benign aspirate, Hazzard advises ultrasound in **12–18 months**, then 
 - Up to **40%** of older adults on thyroid hormone replacement have a low TSH (iatrogenic overreplacement) — risk mirrors endogenous hyperthyroidism (AF, bone loss) (p1552).
 - Subclinical hypothyroidism = high TSH, normal free T4; prevalence **4%** general population, **~10%** at 65+. Retest in **1-3 months** if TSH **4.5–14.9 mIU/mL** in the text, or **1–2 weeks** if **≥15.0 mIU/mL** (p1553). *[sic — Figure 98-4 on p1554 gives the clinical unit mU/L.]*
 - TSH **≥10 mIU/L** predicts CV mortality, CHD, and heart failure; TSH **≥7 mIU/L** predicts CV mortality alone (p1553). Per Figure 98-4, treat if TSH is persistently **≥10.0 mU/L** (age ≥65); consider treatment at **7.0-9.9 mU/L** (p1553). *(Figure 98-4, p1554, uses mU/L; the prose on p1553 misprints mU/mL.)*
-- **Myxedema coma:** draw cortisol and initiate IV hydrocortisone before or with thyroid hormone. Hazzard gives levothyroxine **200–400 μg initially**, then **75–100 μg/day**, and cautions against rapid T3 exposure in older patients (p1553).
-  > Current practice (not the book): ATA specifies an IV loading dose and lower doses in older or smaller patients and those with CAD or arrhythmia. [American Thyroid Association, recommendation 21a](https://doi.org/10.1089/thy.2014.0028).
 
 ### Thyroid nodules & cancer
 - **50%** of thyroid glands have a nodule at autopsy; malignancy is present in **7-9%** of thyroid nodules, higher in men than women. Evaluation does not differ by age; nonpalpable nodules carry the same risk as palpable nodules of the same size, and multiple nodules the same risk as a solitary nodule (p1555).
 - FNA indicated: nodules **≥1 cm** solid + hypoechoic; **≥1.5 cm** isoechoic/hyperechoic solid; abnormal cervical lymph nodes. FNA **or observation**: mixed cystic-solid or spongiform nodules **≥2 cm**. FNA not required: purely cystic nodules or nodules **<1 cm**; low TSH prompts radionuclide scanning, and functioning hot nodules do not require cytologic evaluation (Table 98-8, p1555).
-- After a benign FNA, Hazzard gives ultrasound at **12–18 months**, then **every 2–5 years**. Suspicious features or significant growth may prompt FNA. After two benign aspirations, no further FNA is required (p1556).
-  > Current practice (not the book): After a benign FNA, match surveillance to ultrasound risk. **High suspicion** calls for repeat ultrasound and US-guided FNA within 12 months. **Low or intermediate suspicion** calls for ultrasound at 12–24 months. With **very low suspicion**, wait at least 24 months if rescanning. Two benign US-guided FNAs end routine surveillance for malignancy in that nodule. [ATA, recommendation 23](https://doi.org/10.1089/thy.2015.0020).
+
 - Thyroid cancer incidence peaks at age **65-69** (**29.6/100,000**); 5-year survival is **98%** (age 50-64), **97%** (65-74), **88%** (75+) (p1556).
 - Lobectomy (instead of total thyroidectomy) is an option for tumors **1-4 cm** without extrathyroidal extension or node involvement (p1556).
 - **Anaplastic** thyroid carcinoma: mean age at diagnosis **65**; median survival only **5 months** — worst-prognosis thyroid cancer (p1556).
@@ -237,7 +234,5 @@ Hazzard 8e, p.1553 · [Read source](?chapter=98#p1553)
 > - *Increased levothyroxine metabolism*: phenobarbital, carbamazepine, phenytoin, rifampin
 > - *Increased thyroid-binding globulin*: estrogens, hepatitis
 > - *Decreased thyroid-binding globulin*: androgen use, progressive liver failure, nephrotic syndrome, severe systemic illness
-
-
 
 [May 2024 Q24](?chapter=bank&q=mcq-73208d3bcb5312abed0b44aa)

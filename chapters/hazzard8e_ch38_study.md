@@ -60,7 +60,7 @@ Retention, recurrent urinary infection, bladder stones or hematuria warrant prom
 ## Choosing medication by the patient's aim
 
 - Tamsulosin **0.4–0.8 mg daily** or alfuzosin **10 mg daily** can improve LUTS; dizziness and hypotension still occur despite greater selectivity (p566).
-- Tamsulosin can cause ejaculatory effects and floppy iris syndrome. Alert the cataract surgeon; stopping it does not reliably eliminate the risk (p566).
+- Tamsulosin can cause ejaculatory effects and floppy iris syndrome. Other alpha-1 blockers can also cause floppy iris syndrome. Alert the cataract surgeon to current or previous exposure; stopping the drug does not reliably eliminate the risk (p566).
 
 Alpha blockade relaxes smooth muscle in the outlet and usually begins to improve symptoms in two to four weeks. Available agents have broadly similar symptom efficacy. Ask about postural symptoms and falls, especially with terazosin or doxazosin. Even the more selective agents can cause hypotension. Review antihypertensive treatment and tell the ophthalmologist about current or previous tamsulosin before cataract surgery (pp. 564–566).
 
@@ -83,7 +83,7 @@ TURP removes obstructing adenoma through the urethra and leaves the prostate cap
 - **Bipolar TURP.** The circuit allows isotonic saline irrigation. This reduces the dilutional hyponatremia of classic TURP syndrome compared with monopolar resection using hypotonic irrigant. Relief from TURP can persist for years but may diminish. Average reoperation rates in the chapter are 1% to 2% per year (p. 568).
 - **Laser vaporization or enucleation.** GreenLight vaporizes tissue while coagulating blood vessels, lowers the transfusion risk and leaves no specimen for pathology. In a multicenter trial, catheterization and hospital stay were shorter than with TURP and the overall need for reoperation was similar at two years. Laser enucleation removes adenoma for morcellation and can treat even large glands. Simple prostatectomy remains an option for very large glands (p. 569).
 - **Prostatic urethral lift.** Suture implants retract obstructing tissue. In a trial TURP gave greater symptom and flow improvement at two years, while the lift better preserved ejaculation. Transurethral incision can suit a small gland, generally below 30 mL, with less bleeding and a shorter procedure than TURP (pp. 569–570).
-- **Other procedures and prevention.** Needle ablation generally gave less durable relief than TURP. The chapter describes limited efficacy for microwave thermotherapy and complications of urethral stents, including migration, infection or encrustation. Physical activity, a diet rich in vegetables and attention to obesity and diabetes have observational links to lower risk. Intervention trials had not established prevention of BPH (p. 570).
+- **Other procedures and prevention.** Needle ablation generally gave less durable relief than TURP. The chapter advises against microwave thermotherapy because of limited efficacy and against urethral stents because of their complications, including migration, infection or encrustation. Physical activity, a diet rich in vegetables and attention to obesity and diabetes have observational links to lower risk. Intervention trials had not established prevention of BPH (p. 570).
 
 **Exam traps**
 

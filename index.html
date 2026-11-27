@@ -1,10 +1,19 @@
 <!doctype html>
 <html lang="en" data-theme="light" style="--fs:1"><head>
 <meta charset="utf-8">
+<script>
+(()=>{const query=new URLSearchParams(location.search);
+  if(query.get('home')==='1'&&!query.has('chapter')&&!query.has('tab'))document.documentElement.dataset.initialHome='';
+  if(window.HazzardEarlyFetch)return;
+  const urls=['manifest.json','data/mcq/id-aliases.json'];
+  if(query.has('home')||query.has('tab')||query.has('stats')||query.get('review')==='1')urls.push('data/home-question-summary.json');
+  window.HazzardEarlyFetch=new Map(urls.map(url=>{const job=fetch(url);job.catch(()=>{});return [url,job];}));
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script src="js/reader-debug.js"></script>
 <script src="js/reading-companion.js"></script>
-<title>Stage A — Hazzard Reader</title>
+<title>Hazzard Reader</title>
 <script>if(!location.search&&!location.hash)document.documentElement.dataset.resolvingRoot='';</script>
 <meta name="description" content="A quiet reading desk for geriatrics study.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23205b4b%27/%3E%3Cpath d=%27M8 7h11l5 5v13H8z%27 fill=%27%23f8f5ed%27/%3E%3Cpath d=%27M12 15h8m-8 4h8%27 stroke=%27%23205b4b%27 stroke-width=%272%27/%3E%3C/svg%3E">
@@ -25,15 +34,15 @@
   --page:#f8f5ed; --surface:#fffdf8; --soft:#eeece3;
   --ink:#263029; --muted:#5e685e; --rule:#d8dacf; --control:#7a867a;
   --accent:#205b4b; --accent-soft:#e2eee5; --focus:#8a511c;
-  --hl-ink:#263029; --underline-red:#cf303e;
+  --hl-ink:#263029; --underline-red:#b81d2b;
   --hl-yellow:#f0df9f; --hl-green:#c7deb5; --hl-blue:#c7deee;
   --hl-purple:#ded2ed; --hl-pink:#ebc5ce; --hl-orange:#f2d0aa;
   --veil:rgb(38 48 41 / .28);
   --reading:"Times New Roman",Times,serif;
   --ui:system-ui,-apple-system,"Segoe UI",sans-serif;
-  --chapter-title-size:calc(12px * var(--fs,1)); --body:11px; --small:calc(10px * var(--fs,1));
-  --label:calc(12px * var(--fs,1)); --title:calc(19px * var(--fs,1));
-  --heading:calc(14.3px * var(--fs,1)); --subhead:calc(13px * var(--fs,1));
+  --chapter-title-size:var(--type-subhead); --body:var(--type-body); --small:var(--type-label);
+  --label:var(--type-control); --title:var(--type-title);
+  --heading:var(--type-heading); --subhead:var(--type-subhead);
   --s1:calc(4px * var(--fs,1)); --s2:calc(8px * var(--fs,1));
   --s3:calc(12px * var(--fs,1)); --s4:calc(16px * var(--fs,1));
   --s6:calc(24px * var(--fs,1)); --s8:calc(32px * var(--fs,1));
@@ -46,7 +55,7 @@
   --page:#111315; --surface:#252a30; --soft:#303740;
   --ink:#f4f6f8; --muted:#c6cdd4; --rule:#68737f; --control:#8894a1;
   --accent:#b8dccb; --accent-soft:#263e35; --focus:#ffd27b;
-  --hl-ink:#fff9ed; --underline-red:#ff7480;
+  --hl-ink:#fff9ed; --underline-red:#ff8a94;
   --hl-yellow:#554724; --hl-green:#314b35; --hl-blue:#2d4658;
   --hl-purple:#463b58; --hl-pink:#59383f; --hl-orange:#5b412b;
   --veil:rgb(0 0 0 / .42);
@@ -80,7 +89,7 @@ p{margin:0 0 var(--s4)}
 .reading-copy :is(p,h2,h3,td,th){scroll-margin-block:var(--s6)}
 .reading-copy ul{padding-inline-start:var(--s6);margin-block:0 var(--s4)}
 .reading-copy li+li{margin-block-start:var(--s2)}
-.reading-copy #what-the-exams-asked{margin-block:10px 4px;font-size:calc(16px * var(--fs,1))}
+.reading-copy #what-the-exams-asked{margin-block:10px 4px;font-size:var(--type-body)}
 .reading-copy #what-the-exams-asked+ul{margin-block-end:8px}
 .reading-copy #what-the-exams-asked+ul>li+li{margin-block-start:.25em}
 .reading-copy [lang="he"]{font-family:var(--ui);line-height:1.65}
@@ -170,7 +179,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 /* Legacy exact-word highlights remain readable and removable. */
 .reading-copy .hl-range[data-marked]{border-radius:0}
 .reading-copy a.pg{display:inline;text-decoration:none;white-space:nowrap}
-.reading-copy a.pg::before{content:"p" attr(data-page);font:500 calc(12px * var(--fs,1))/1 var(--ui);color:var(--muted);border:var(--line) solid var(--rule);border-radius:calc(4px * var(--fs,1));padding:0 calc(3px * var(--fs,1));margin:0 calc(3px * var(--fs,1));vertical-align:calc(1px * var(--fs,1))}
+.reading-copy a.pg::before{content:"p" attr(data-page);font:500 var(--type-label)/1 var(--ui);color:var(--muted);border:var(--line) solid var(--rule);border-radius:calc(4px * var(--fs,1));padding:0 calc(3px * var(--fs,1));margin:0 calc(3px * var(--fs,1));vertical-align:calc(1px * var(--fs,1))}
 .reading-copy img,.reading-copy figure svg{cursor:zoom-in}
 #imageZoom{position:fixed;inset:0;top:0;left:0;inline-size:100vw;block-size:100dvh;max-inline-size:none;max-block-size:none;margin:0;padding:0;border:0;border-radius:0;background:#111;color:#eee;overflow:hidden}
 #imageZoom[open]{display:block}
@@ -210,15 +219,15 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 .reading-copy .provenance-references li,.reading-copy .provenance-references p{font:inherit;line-height:1.5;border:0;background:none;padding:0;margin-block:.5em}
 .provenance-references a{color:inherit;overflow-wrap:anywhere}
 .reference-backlinks{white-space:normal}
-.book-caption{display:block;margin:calc(12px * var(--fs,1)) 0;color:var(--mute);font-size:calc(11px * var(--fs,1));line-height:1.5}.book-caption strong,.book-caption span{display:block}.book-caption strong{color:var(--ink)}
+.book-caption{display:block;margin:calc(12px * var(--fs,1)) 0;color:var(--mute);font-size:var(--type-small);line-height:1.5}.book-caption strong,.book-caption span{display:block}.book-caption strong{color:var(--ink)}
 
 /* Preserve pending text without coloured panels or full-width provenance badges. */
 .pending-note{display:contents}
 .pending-badge{font:inherit;color:inherit;background:none;border:0;padding:0;letter-spacing:normal}
 
 /* Country-specific book context: full text retained at lower prominence. */
-.reading-copy .book-context{font-size:calc(16px*var(--fs,1));color:var(--muted);border-inline-start:calc(2px*var(--fs,1)) solid var(--rule);padding-inline-start:var(--s2)}
-.book-context-label{display:block;font-size:calc(12px*var(--fs,1));font-weight:500;color:var(--muted)}
+.reading-copy .book-context{font-size:var(--type-body);color:var(--muted);border-inline-start:calc(2px*var(--fs,1)) solid var(--rule);padding-inline-start:var(--s2)}
+.book-context-label{display:block;font-size:var(--type-label);font-weight:500;color:var(--muted)}
 /* On-demand provenance is a top-layer overlay; it never participates in reading layout. */
 #claimProvenance{inset:auto;top:calc(var(--vv-top,0px) + var(--s3));left:calc(var(--vv-left,0px) + var(--s3));inline-size:min(calc(480px * var(--fs,1)),calc(var(--vv-width,100vw) - var(--s6)));max-block-size:calc(var(--vv-height) - var(--s6));overflow:auto;border:var(--line) solid var(--rule);border-radius:var(--radius);padding:var(--s4);font:400 var(--small)/1.5 var(--ui);overscroll-behavior:contain}
 #claimProvenance::backdrop{background:var(--veil)}
@@ -228,7 +237,7 @@ input{inline-size:100%;min-block-size:var(--tap);border:var(--line) solid var(--
 #claimProvenance ol{padding-inline-start:var(--s6);margin:var(--s3) 0 0}
 #claimProvenance li+li{margin-block-start:var(--s3)}
 /* Reading headings share the app size preference. */
-:root{--title:calc(var(--body) * 1.45);--heading:calc(var(--body) * 1.22);--subhead:calc(var(--body) * 1.12)}
+:root{--title:var(--type-title);--heading:var(--type-heading);--subhead:var(--type-subhead)}
 .settings-links{flex-wrap:wrap;gap:0 var(--s3)}
 .settings-links button{min-block-size:var(--tap)}
 .chapter-nav{display:flex;flex-wrap:wrap;gap:var(--s2);margin-block:var(--s2)}
@@ -245,110 +254,110 @@ body{padding-block-end:var(--tabs-height)}
 #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height))}
 #reader .opening-actions{display:none}
 #appTabs{position:fixed;z-index:20;inset-inline:0;bottom:var(--vv-bottom-gap,0px);height:calc(52px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding:2px 6px max(2px,env(safe-area-inset-bottom));gap:4px;background:var(--surface);border-top:1px solid var(--rule);font-family:var(--ui)}
-#appTabs button{position:static;transform:none;inset:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:48px;width:100%;height:auto;padding:2px;border:0;border-radius:10px;background:transparent;color:var(--muted);font:600 12px/1.3 var(--ui)}
+#appTabs button{position:static;transform:none;inset:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:48px;width:100%;height:auto;padding:2px;border:0;border-radius:10px;background:transparent;color:var(--muted);font:600 var(--type-label)/1.3 var(--ui)}
 #appTabs button[aria-current]{background:var(--accent-soft);color:var(--accent)}
 #appTabs svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
-#appTabs .text-icon{font:600 23px/22px var(--reading)}
-#chapterHeader{text-size-adjust:100%;-webkit-text-size-adjust:100%;position:absolute;z-index:6;inset:0 0 auto;height:48px;display:flex;align-items:center;gap:2px;padding:2px 4px;background:var(--surface);border-bottom:1px solid var(--rule);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.3 var(--ui);transform:translateY(0);transition:transform 200ms ease;will-change:transform}
+#appTabs .text-icon{font:600 var(--type-title)/var(--type-heading) var(--reading)}
+#chapterHeader{text-size-adjust:100%;-webkit-text-size-adjust:100%;position:absolute;z-index:6;inset:0 0 auto;height:48px;display:flex;align-items:center;gap:2px;padding:2px 4px;background:var(--surface);border-bottom:1px solid var(--rule);color:var(--muted);font:600 var(--type-label)/1.3 var(--ui);transform:translateY(0);transition:transform 200ms ease;will-change:transform}
 #chapterHeader.is-collapsed{transform:translateY(-100%);pointer-events:none}
 #readerScroll{overflow-anchor:none}
 #reader{padding-top:calc(48px + var(--s4))}
 #readerNotice{position:absolute;z-index:5;top:48px;left:0;right:0}
-#chapterHeader button{min-height:44px;height:44px;min-width:0;padding:0;border:0;border-radius:7px;color:var(--muted);font:600 calc(12px * var(--fs,1))/1.3 var(--ui);background:transparent}
+#chapterHeader button{min-height:44px;height:44px;min-width:0;padding:0;border:0;border-radius:7px;color:var(--muted);font:600 var(--type-label)/1.3 var(--ui);background:transparent}
 #chapterHeader>.chapter-back{flex:0 0 70px;white-space:nowrap;color:var(--accent)}
 .chapter-heading{display:flex;align-items:center;flex:1;min-width:0;gap:0}
-#chapterHeader .chapter-step{flex:0 0 28px;font-size:calc(22px * var(--fs,1));font-weight:400}
-#chapterHeaderTitle{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:600 calc(12px * var(--fs,1))/1.3 var(--ui);color:var(--ink);text-align:center}
+#chapterHeader .chapter-step{flex:0 0 28px;font-size:var(--type-heading);font-weight:400}
+#chapterHeaderTitle{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:600 var(--type-label)/1.3 var(--ui);color:var(--ink);text-align:center}
 .chapter-switch{display:flex;flex:0 0 106px;border-radius:8px;background:var(--soft);overflow:hidden}
 #chapterHeader .chapter-switch button{white-space:nowrap;overflow-wrap:normal;flex:1;border-radius:7px;font-weight:500}
 #chapterHeader .chapter-switch button:first-child{flex:1.25}
 #chapterHeader .chapter-switch button[aria-current]{color:var(--accent);background:var(--accent-soft);font-weight:700;box-shadow:inset 0 0 0 1px var(--rule)}
-#chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 calc(12px * var(--fs,1))/1.3 var(--ui);color:var(--muted)}
-#markToggle .pencil-icon{font-size:calc(21px * var(--fs,1));line-height:22px}
+#chapterHeader #markToggle{position:static;transform:none;inset:auto;inline-size:48px;block-size:44px;flex:0 0 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:2px;border-radius:8px;font:600 var(--type-label)/1.3 var(--ui);color:var(--muted)}
+#markToggle .pencil-icon{font-size:var(--type-heading);line-height:22px}
 #chapterHeader #markToggle.is-marking{background:var(--current-mark);box-shadow:inset 0 0 0 1px var(--accent);color:var(--hl-ink)}
 /* Physical right edge deliberately remains right in Hebrew. */
 #appTabs{background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(8px)}
-.library-progress{display:block;color:var(--muted);font:400 calc(11px * var(--fs,1))/1.5 var(--ui);margin-top:4px}
+.library-progress{display:block;color:var(--muted);font:400 var(--type-small)/1.5 var(--ui);margin-top:4px}
 #chapterResults button,#bankSearchResults button{display:block;width:100%;text-align:start;padding:12px 4px}
 #chapterResults strong,#chapterResults small,#bankSearchResults strong,#bankSearchResults small{display:block}
-#chapterResults small,#bankSearchResults small{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);margin-top:5px}
+#chapterResults small,#bankSearchResults small{font:400 var(--type-label)/1.5 var(--ui);margin-top:5px}
 #chapterResults mark{background:var(--hl-yellow);color:var(--hl-ink)}
 #panel[data-current-pane="missed"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
 .missed-question{padding:12px 0;border-bottom:1px solid var(--rule)}
-.missed-question p{font-size:calc(14px * var(--fs,1))}
+.missed-question p{font-size:var(--type-control)}
 .missed-question details{margin-bottom:8px}
 .notebook-backup{margin-top:24px;padding-top:16px;border-top:1px solid var(--rule)}
 .notebook-backup button{width:100%;margin-bottom:8px;text-align:center}
 #backupStatus{margin:8px 0 0}
 @media(prefers-reduced-motion:reduce){#chapterHeader{transition:none}}
 .chapter-nav{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;direction:ltr;margin-block:16px}
-.chapter-nav button{min-width:0;min-height:64px;padding:10px 8px;font-size:calc(12px * var(--fs,1));text-align:left;overflow-wrap:anywhere}
+.chapter-nav button{min-width:0;min-height:64px;padding:10px 8px;font-size:var(--type-label);text-align:left;overflow-wrap:anywhere}
 .chapter-nav button:last-child{grid-column:2;text-align:right}
 .chapter-nav .nav-empty{visibility:hidden}
 #desk{padding-top:28px}
-#desk>.eyebrow{font-size:calc(11px * var(--fs,1))}
-#desk>h1{font-size:calc(30px * var(--fs,1));margin:8px 0 20px}
+#desk>.eyebrow{font-size:var(--type-small)}
+#desk>h1{font-size:var(--type-title);margin:8px 0 20px}
 .resume-card{padding:18px;background:var(--accent-soft);border-color:var(--accent-soft);border-left:4px solid var(--accent)}
-.resume-card h2{font-size:calc(22px * var(--fs,1));margin:8px 0}
-.resume-card .meta{font-size:calc(12px * var(--fs,1));line-height:1.5;margin-bottom:16px}
-.resume-card .primary{background:var(--accent);color:var(--surface);border:0;font-size:calc(14px * var(--fs,1))}
+.resume-card h2{font-size:var(--type-heading);margin:8px 0}
+.resume-card .meta{font-size:var(--type-label);line-height:1.5;margin-bottom:16px}
+.resume-card .primary{background:var(--accent);color:var(--surface);border:0;font-size:var(--type-control)}
 :root[data-theme="dark"] .resume-card .primary{color:var(--page)}
 .launch-tiles{display:grid;gap:10px;margin-top:18px}
 .launch-tiles button{display:flex;align-items:center;justify-content:space-between;text-align:left;padding:12px 16px;min-height:70px;border-color:var(--control)}
-.launch-tiles strong{display:block;font-size:calc(16px * var(--fs,1));color:var(--accent)}
-.launch-tiles small{display:block;font-size:calc(12px * var(--fs,1));font-weight:400;margin-top:3px;color:var(--muted)}
-.launch-tiles .tile-arrow{font-size:calc(24px * var(--fs,1));color:var(--accent)}
+.launch-tiles strong{display:block;font-size:var(--type-body);color:var(--accent)}
+.launch-tiles small{display:block;font-size:var(--type-label);font-weight:400;margin-top:3px;color:var(--muted)}
+.launch-tiles .tile-arrow{font-size:var(--type-title);color:var(--accent)}
 #library .opening-actions{margin-bottom:12px}
-#library h1{font-size:calc(28px * var(--fs,1));margin-bottom:12px}
+#library h1{font-size:var(--type-title);margin-bottom:12px}
 .library-search{position:sticky;top:0;background:var(--page);z-index:1;padding-bottom:12px}
 .library-search label{margin-top:0}
 .library-row{display:grid;grid-template-columns:minmax(0,1fr) 48px 52px;gap:4px;align-items:center;min-height:76px}
-.library-row>.chapter-name{font:600 calc(14px * var(--fs,1))/1.4 var(--ui);padding:12px 4px 12px 0}
-#chapterRows .library-row button{min-height:48px;padding:6px 2px;text-align:center;color:var(--accent);background:var(--surface);border:1px solid var(--control);font-size:calc(13px * var(--fs,1));border-radius:8px}
+.library-row>.chapter-name{font:600 var(--type-control)/1.4 var(--ui);padding:12px 4px 12px 0}
+#chapterRows .library-row button{min-height:48px;padding:6px 2px;text-align:center;color:var(--accent);background:var(--surface);border:1px solid var(--control);font-size:var(--type-label);border-radius:8px}
 #chapterRows button[aria-current]{background:var(--accent-soft);border-color:var(--accent)}
 #panel{max-block-size:calc(var(--vv-height) - var(--tabs-height) - 60px);padding:12px;border-radius:16px 16px 0 0;border-bottom:1px solid var(--rule)}
 #panel[data-current-pane="tools"]{overflow:hidden}
 #panel [data-pane]{flex:1;overflow:auto;min-height:0;padding-bottom:8px}
 #panel[data-current-pane="notebook"],#panel[data-current-pane="qbank"],#panel[data-current-pane="contents"]{height:calc(var(--vv-height) - var(--tabs-height) - 16px)}
-#panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{position:static;clip-path:none;overflow:visible;inline-size:auto;block-size:auto;font:600 22px/1.3 var(--reading)}
+#panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{position:static;clip-path:none;overflow:visible;inline-size:auto;block-size:auto;font:600 var(--type-heading)/1.3 var(--reading)}
 #panel .dialog-head{margin-bottom:8px}
 #panel .mark-state{display:none}
 #panel .settings-controls{display:flex;flex-direction:column;align-items:stretch;gap:16px;margin-bottom:16px}
-#panel .settings-controls label{margin:0 0 6px;font-size:calc(13px * var(--fs,1))}
+#panel .settings-controls label{margin:0 0 6px;font-size:var(--type-label)}
 #sizeChoices{display:grid;grid-template-columns:repeat(3,1fr)}
-#panel .icon-control{width:100%;display:flex;align-items:center;justify-content:space-between;padding:10px 12px;font-size:calc(13px * var(--fs,1))}
+#panel .icon-control{width:100%;display:flex;align-items:center;justify-content:space-between;padding:10px 12px;font-size:var(--type-label)}
 #panel .icon-control svg{width:20px;height:20px}
 #readerLinks{border-top:1px solid var(--rule);padding-top:8px;justify-content:space-between}
-#panelBack{font-size:calc(12px * var(--fs,1))}
-#panel .rows button,#panel .rows a.sim-entry{font-size:calc(14px * var(--fs,1))}
-#panel .meta{font-size:calc(12px * var(--fs,1))}
-#panel .rows small{font-size:calc(12px * var(--fs,1))}
-#panel [data-pane="practice"]>p{font:400 calc(14px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
-#offlineReady{color:var(--accent);font-size:calc(12px * var(--fs,1))}
+#panelBack{font-size:var(--type-label)}
+#panel .rows button,#panel .rows a.sim-entry{font-size:var(--type-control)}
+#panel .meta{font-size:var(--type-label)}
+#panel .rows small{font-size:var(--type-label)}
+#panel [data-pane="practice"]>p{font:400 var(--type-control)/1.5 var(--ui);color:var(--muted)}
+#offlineReady{color:var(--accent);font-size:var(--type-label)}
 
 /* v37: paired controls and text-only settings. */
 input[type="search"]{appearance:none;-webkit-appearance:none;box-shadow:none;border:1px solid var(--control)}
 input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
-#chapterHeader>.chapter-back{flex:0 0 44px;font-size:calc(30px * var(--fs,1))}
+#chapterHeader>.chapter-back{flex:0 0 44px;font-size:var(--type-title)}
 #chapterHeader .chapter-step{flex:0 0 44px}
 #chapterHeaderTitle{min-width:44px}
 .chapter-switch{flex:0 0 100px}
 #chapterHeader #markToggle{flex:0 0 44px;inline-size:44px}
-#findBar{position:absolute;z-index:7;top:48px;left:0;right:0;padding:6px 8px;background:var(--surface);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:4px;font:calc(13px * var(--fs,1)) var(--ui)}
-#findBar input{min-width:0;height:44px;padding:8px;font-size:calc(16px * var(--fs,1))}
+#findBar{position:absolute;z-index:7;top:48px;left:0;right:0;padding:6px 8px;background:var(--surface);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:4px;font:var(--type-label) var(--ui)}
+#findBar input{min-width:0;height:44px;padding:8px;font-size:var(--type-body)}
 #findBar button{min-width:44px;min-height:44px;padding:6px;border:0;border-radius:7px}
 .find-actions{grid-column:1/-1;display:flex;gap:4px;align-items:center}
 #findCount{flex:1;padding:0 8px;font-variant-numeric:tabular-nums}
 .finding #reader{padding-top:160px}
 ::highlight(page-find){background:#f0df9f;color:#263029}
 ::highlight(page-find-current){background:#205b4b;color:#fff}
-#markBar{position:fixed;z-index:8;left:0;right:0;bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height));display:flex;gap:4px;padding:2px 6px;background:var(--surface);border-top:1px solid var(--rule);font:calc(12px * var(--fs,1)) var(--ui)}
-#markBar button{min-height:44px;min-width:44px;padding:4px 8px;border:0;border-radius:7px;font-size:calc(12px * var(--fs,1))}
+#markBar{position:fixed;z-index:8;left:0;right:0;bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height));display:flex;gap:4px;padding:2px 6px;background:var(--surface);border-top:1px solid var(--rule);font:var(--type-label) var(--ui)}
+#markBar button{min-height:44px;min-width:44px;padding:4px 8px;border:0;border-radius:7px;font-size:var(--type-label)}
 #bookmark{flex:1;text-align:left}
 #bookmark[aria-pressed="true"]{color:var(--accent);background:var(--accent-soft)}
 
 .mark-bar-open #readerViewport{inset-block-end:calc(var(--vv-bottom-gap,0px) + var(--tabs-height))}
-#savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 calc(13px * var(--fs,1)) var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
+#savedTick{position:fixed;z-index:25;left:50%;transform:translateX(-50%);bottom:calc(var(--vv-bottom-gap,0px) + var(--tabs-height) + 58px);padding:7px 14px;border-radius:18px;background:var(--accent);color:var(--surface);font:600 var(--type-label) var(--ui);pointer-events:none;box-shadow:0 2px 6px #0002}
 #reader{padding-right:max(44px,var(--gutter))}
 [data-pane="contents"] .rows button{padding:10px 0;min-height:44px}
 .dialog-head{position:relative}
@@ -356,66 +365,66 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .reading-copy summary,.nb-group summary,.missed-question summary{min-height:44px;cursor:pointer}
 #imageZoom .zoom-bar button{min-width:44px;white-space:nowrap;flex:none}
 /* v38: compact controls retain 44px touch targets independently of reading size. */
-:root{--tap:44px;--label:calc(13px * var(--fs,1));--small:calc(12px * var(--fs,1));--title:calc(24px * var(--fs,1));--heading:calc(19px * var(--fs,1));--subhead:calc(16px * var(--fs,1));--s4:12px;--s6:18px;--s8:24px}
+:root{--tap:44px;--label:var(--type-control);--small:var(--type-label);--title:var(--type-title);--heading:var(--type-heading);--subhead:var(--type-subhead);--s4:12px;--s6:18px;--s8:24px}
 #appTabs{grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;padding-inline:4px}
-#appTabs button{min-width:44px;min-height:44px;font-size:10px;border-radius:7px}
+#appTabs button{min-width:44px;min-height:44px;font-size:var(--type-small);border-radius:7px}
 #appTabs svg{width:18px;height:18px}
-#appTabs .text-icon{font-size:20px;line-height:18px}
+#appTabs .text-icon{font-size:var(--type-heading);line-height:18px}
 #chapterHeader{position:fixed;top:var(--vv-top,0px);left:var(--vv-left,0px);right:auto;width:var(--vv-width,100%);gap:0}
-#chapterHeader #headerHome{flex:0 0 44px;min-width:44px;font-size:calc(22px * var(--fs,1));color:var(--accent)}
+#chapterHeader #headerHome{flex:0 0 44px;min-width:44px;font-size:var(--type-heading);color:var(--accent)}
 #headerHome svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7}
 #headerHome[aria-current]{background:var(--accent-soft)}
 #chapterHeader #chapterHeaderTitle{font-size:var(--chapter-title-size);text-align:left;padding-inline:4px}
 .chapter-switch{flex:0 0 88px}
-#chapterHeader .chapter-switch button{min-width:44px;font-size:calc(11px * var(--fs,1));flex:1}
+#chapterHeader .chapter-switch button{min-width:44px;font-size:var(--type-small);flex:1}
 #chapterHeader .chapter-switch button:first-child{flex:1}
 #desk,#library{padding-top:60px}
-#desk>h1,#library h1{font-size:calc(22px * var(--fs,1));margin:4px 0 10px}
+#desk>h1,#library h1{font-size:var(--type-heading);margin:4px 0 10px}
 #deskBack{display:none}
 .resume-card{padding:12px}
-.resume-card h2{font-size:calc(18px * var(--fs,1));margin:4px 0 8px}
+.resume-card h2{font-size:var(--type-subhead);margin:4px 0 8px}
 .resume-card .meta{margin-bottom:8px}
 .launch-tiles{grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
 .launch-tiles button{padding:10px;min-height:72px}
-.launch-tiles strong{font-size:calc(14px * var(--fs,1))}
-.launch-tiles small{font-size:calc(11px * var(--fs,1))}
+.launch-tiles strong{font-size:var(--type-control)}
+.launch-tiles small{font-size:var(--type-small)}
 .launch-tiles .tile-arrow{display:none}
 .home-priorities{display:grid;align-items:start;gap:6px}
 .home-priorities>*{min-inline-size:0}
-:is(#homeReview,#officialDue){display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:4px 10px;background:var(--accent-soft);border-inline-start:3px solid var(--accent);color:var(--ink);text-decoration:none;font:600 calc(13px * var(--fs,1))/1.25 var(--ui)}
+:is(#homeReview,#officialDue){display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:4px 10px;background:var(--accent-soft);border-inline-start:3px solid var(--accent);color:var(--ink);text-decoration:none;font:600 var(--type-label)/1.25 var(--ui)}
 :is(#homeReviewCount,#officialCount){color:var(--accent);text-align:end}
 .home-weak,.home-coverage,.home-priorities .resume-card{padding:6px 10px}
-.home-weak h2,.home-coverage h2,.home-priorities .resume-card h2{font-size:calc(15px * var(--fs,1));margin:0 0 2px}
-.home-weak .meta,.home-coverage .meta,.home-priorities .resume-card .meta{font:400 calc(11px * var(--fs,1))/1.4 var(--ui);margin:2px 0}
-.home-weak-name{margin:2px 0 0;font:600 calc(13px * var(--fs,1))/1.3 var(--ui);overflow-wrap:anywhere}
+.home-weak h2,.home-coverage h2,.home-priorities .resume-card h2{font-size:var(--type-control);margin:0 0 2px}
+.home-weak .meta,.home-coverage .meta,.home-priorities .resume-card .meta{font:400 var(--type-small)/1.4 var(--ui);margin:2px 0}
+.home-weak-name{margin:2px 0 0;font:600 var(--type-label)/1.3 var(--ui);overflow-wrap:anywhere}
 .home-priorities .resume-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-content:center;align-items:center;column-gap:8px;background:var(--surface);border-color:var(--rule);border-inline-start-color:var(--accent)}
 .home-priorities .resume-card>:not(#resume){grid-column:1}
-.home-priorities .resume-card .eyebrow{font-size:calc(11px * var(--fs,1));margin:0}
+.home-priorities .resume-card .eyebrow{font-size:var(--type-small);margin:0}
 .home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:2px 16px}
-.home-actions a,#resume{display:inline-flex;align-items:center;min-block-size:44px;font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+.home-actions a,#resume{display:inline-flex;align-items:center;min-block-size:44px;font:600 var(--type-label)/1.3 var(--ui)}
 #resume{grid-column:2;grid-row:1 / span 3;align-self:center;justify-content:center;inline-size:auto;border-radius:var(--s2);padding:4px 8px;text-decoration:none}
 .home-coverage{margin-block:6px}
-.home-meter{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:2px 8px;margin-block:5px;font:500 calc(12px * var(--fs,1))/1.3 var(--ui)}
+.home-meter{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:2px 8px;margin-block:5px;font:500 var(--type-label)/1.3 var(--ui)}
 .home-meter label{margin:0;font:inherit}
 .home-meter span{font-variant-numeric:tabular-nums}
 .home-meter progress{grid-column:1 / -1;inline-size:100%;block-size:6px;accent-color:var(--accent)}
 @media(min-width:760px){.home-priorities{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}#homeReview{grid-column:1/-1}}
-#homeStatus{font:calc(11px * var(--fs,1))/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
-#homeBackup{font:calc(11px * var(--fs,1))/1.4 var(--ui);margin:4px 0 0;color:var(--muted)}
+#homeStatus{font:var(--type-small)/1.4 var(--ui);margin:12px 0 0;color:var(--muted)}
+#homeBackup{font:var(--type-small)/1.4 var(--ui);margin:4px 0 0;color:var(--muted)}
 #homeBackup.due{color:var(--exam);font-weight:600}
 #panel,#panel[data-current-pane]{max-block-size:calc(var(--vv-height) * .5);padding:8px 12px}
-#panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{font-size:18px}
+#panel .dialog-head h2,#panel[data-current-pane="tools"] #panelTitle{font-size:var(--type-subhead)}
 #panel .dialog-head{margin-bottom:4px}
 #panel .settings-controls{gap:8px;margin-bottom:8px}
 #panel .settings-controls label{margin:0}
-#panel .rows button,#panel .rows a.sim-entry{padding-block:8px;font-size:calc(13px * var(--fs,1))}
-#panel .nb-heading{font-size:calc(15px * var(--fs,1))}
-.library-row>.chapter-name{font-size:calc(13px * var(--fs,1));padding-block:8px}
-#chapterResults button,#bankSearchResults button{font-size:calc(13px * var(--fs,1));padding-block:8px}
+#panel .rows button,#panel .rows a.sim-entry{padding-block:8px;font-size:var(--type-label)}
+#panel .nb-heading{font-size:var(--type-control)}
+.library-row>.chapter-name{font-size:var(--type-label);padding-block:8px}
+#chapterResults button,#bankSearchResults button{font-size:var(--type-label);padding-block:8px}
 .library-search{top:48px}
 #markColour .swatch{background:var(--current-mark);width:14px;height:14px;margin:0 0 0 4px}
-.exam-badge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--accent-soft);color:var(--accent);font:600 calc(10px * var(--fs,1))/1.5 var(--ui);white-space:nowrap}
-#examBar{position:fixed;z-index:7;top:calc(var(--vv-top,0px) + 48px);left:0;right:0;display:flex;align-items:center;gap:4px;padding:2px 8px;background:var(--surface);border-bottom:1px solid var(--rule);font:calc(12px * var(--fs,1)) var(--ui)}
+.exam-badge{display:inline-block;margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--accent-soft);color:var(--accent);font:600 var(--type-small)/1.5 var(--ui);white-space:nowrap}
+#examBar{position:fixed;z-index:7;top:calc(var(--vv-top,0px) + 48px);left:0;right:0;display:flex;align-items:center;gap:4px;padding:2px 8px;background:var(--surface);border-bottom:1px solid var(--rule);font:var(--type-label) var(--ui)}
 #examBar span{flex:1}
 #examBar button{min-width:44px;padding:4px;border:0}
 .examining #reader{padding-top:112px}
@@ -426,7 +435,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .reading-copy .book-context{font-size:var(--body)}
 
 /* v39: phone navigation, compact self-grading and distinct exam pearls. */
-:root{--exam:#855200;--exam-soft:#fff1cc;--drill-font:calc(12px * var(--fs,1))}
+:root{--exam:#855200;--exam-soft:#fff1cc;--drill-font:var(--type-control)}
 :root[data-theme="dark"]{--exam:#ffd27b;--exam-soft:#3e2f16}
 #chapterHeaderTitle{min-width:0;text-align:center;padding:0 2px}
 #chapterHeader .chapter-step{flex:0 0 40px;min-width:40px;color:var(--accent)}
@@ -440,7 +449,7 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .exam-note p:last-child{margin-bottom:0}
 .exam-label{color:var(--exam);font:700 var(--label)/1.4 var(--ui)}
 .exam-label::before{content:"★ ";}
-.exam-badge,.exam-page-badge{display:inline-block;background:var(--exam-soft);color:var(--exam);border:1px solid var(--exam);border-radius:5px;padding:1px 5px;font:700 calc(10px * var(--fs,1))/1.5 var(--ui);white-space:nowrap}
+.exam-badge,.exam-page-badge{display:inline-block;background:var(--exam-soft);color:var(--exam);border:1px solid var(--exam);border-radius:5px;padding:1px 5px;font:700 var(--type-small)/1.5 var(--ui);white-space:nowrap}
 .reading-copy a.pg[data-exam]::before{background:var(--exam-soft);border-color:var(--exam);color:var(--exam);font-weight:700}
 .reading-copy a.pg.exam-current::before{background:var(--exam);color:var(--page)}
 .mock-q,.drill-q,.missed-question{padding-block:8px}
@@ -461,23 +470,23 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="1"]::before{background:var(--hl-green);border-color:var(--accent);border-width:2px}
 .practice-controls .mock-grade button[aria-pressed="true"][data-grade="0"]::before{background:var(--hl-pink);border-color:var(--stop);border-width:2px}
 /* One settings control row; text follows the reader size. */
-#panel[data-current-pane="tools"]{--body:calc(13px * var(--fs,1));--small:calc(12px * var(--fs,1));--label:calc(13px * var(--fs,1));--tap:40px;max-block-size:calc(var(--vv-height) * .25);padding:10px 12px;font:calc(13px * var(--fs,1))/18px var(--ui);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#panel[data-current-pane="tools"]{--body:var(--type-body);--small:var(--type-label);--label:var(--type-control);--tap:40px;max-block-size:calc(var(--vv-height) * .25);padding:10px 12px;font:var(--type-label)/var(--type-subhead) var(--ui);-webkit-text-size-adjust:100%;text-size-adjust:100%}
 #panel[data-current-pane="tools"] *{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 #panel[data-current-pane="tools"] .dialog-head{flex:none;height:36px;margin:0 0 6px}
-#panel[data-current-pane="tools"] #panelTitle{font:600 calc(14px * var(--fs,1))/18px var(--ui)}
+#panel[data-current-pane="tools"] #panelTitle{font:600 var(--type-control)/var(--type-subhead) var(--ui)}
 #panel[data-current-pane="tools"] [data-pane="tools"]{flex:1;overflow:auto;padding:0;min-width:0}
 #panel[data-current-pane="tools"] .settings-controls{display:grid;grid-template-columns:minmax(0,1fr) 44px 44px;gap:4px;margin:0}
 #panel[data-current-pane="tools"] .settings-controls button:focus-visible{outline-offset:-3px}
-#panel[data-current-pane="tools"] button{min-height:44px;min-block-size:44px;height:44px;font:500 calc(13px * var(--fs,1))/18px var(--ui);padding:0 8px}
+#panel[data-current-pane="tools"] button{min-height:44px;min-block-size:44px;height:44px;font:500 var(--type-label)/var(--type-subhead) var(--ui);padding:0 8px}
 #panel[data-current-pane="tools"] #sizeChoices{min-width:0}
 #panel[data-current-pane="tools"] .icon-control{width:44px;min-width:44px;justify-content:center;padding:0}
 #panel[data-current-pane="tools"] .swatch{width:20px;height:20px;margin:0;background:var(--current-mark);border:1px solid var(--control)}
-#panel[data-current-pane="tools"] #closePanel{min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:0;font:24px/44px var(--ui)}
-#panel[data-current-pane="tools"] .meta{font:calc(12px * var(--fs,1))/16px var(--ui);margin:6px 0}
-#cloudControls input{display:block;width:100%;box-sizing:border-box;min-height:44px;margin:4px 0 8px;padding:8px;border:1px solid var(--control);border-radius:6px;background:var(--paper);color:var(--ink);font:16px var(--ui)}
+#panel[data-current-pane="tools"] #closePanel{min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:0;font:var(--type-title)/var(--type-title) var(--ui)}
+#panel[data-current-pane="tools"] .meta{font:var(--type-label)/var(--type-body) var(--ui);margin:6px 0}
+#cloudControls input{display:block;width:100%;box-sizing:border-box;min-height:44px;margin:4px 0 8px;padding:8px;border:1px solid var(--control);border-radius:6px;background:var(--paper);color:var(--ink);font:var(--type-body) var(--ui)}
 #panel #cloudControls button{display:block;width:100%;height:auto;min-height:44px;margin:4px 0;padding:8px;white-space:normal;text-align:left}
 #cloudControls [hidden]{display:none!important}
-#appearanceStatus{margin-top:4px;font:calc(12px * var(--fs,1))/16px var(--ui);color:var(--muted)}
+#appearanceStatus{margin-top:4px;font:var(--type-label)/var(--type-body) var(--ui);color:var(--muted)}
 #appearanceStatus summary{display:block;min-width:0;min-height:44px;line-height:44px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;list-style:none}
 #appearanceStatus summary::-webkit-details-marker{display:none}
 #appearanceStatus summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
@@ -485,54 +494,45 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #toggleTheme .sun-icon{display:none}
 :root[data-theme="dark"] #toggleTheme .moon-icon{display:none}
 :root[data-theme="dark"] #toggleTheme .sun-icon{display:block}
-#panel #closePanel{min-width:44px;min-height:44px;font:calc(24px * var(--fs,1))/1 var(--ui);padding:4px}
+#panel #closePanel{min-width:44px;min-height:44px;font:var(--type-title)/1 var(--ui);padding:4px}
 /* v50: status shares the existing Text tab; no extra reading row. */
 #appTabs{grid-template-columns:repeat(5,minmax(0,1fr)) 104px}
-#appTabs [data-tab="tools"]{gap:1px;font-size:10px}
+#appTabs [data-tab="tools"]{gap:1px;font-size:var(--type-small)}
 #panel #offlineReady{display:none}
-#readerStatusChip{display:block;position:relative;box-sizing:border-box;font:500 10px/1.2 var(--ui);max-width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
-#readerStatusChip[data-cloud="synced"]{padding-right:18px}
-#readerStatusChip[data-cloud="synced"]::after{content:"\2601\2713";position:absolute;right:0;top:0;color:var(--accent);background:var(--paper);font-size:9px}
-#readerStatusChip::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:4px;background:var(--status-dot,#777)}
-[data-status="ready"]{--status-dot:#168448}
-[data-status="downloading"],[data-status="paused"]{--status-dot:#b57500}
-[data-status="waiting"]{--status-dot:#287aca}
-[data-status="offline"]{--status-dot:#858585}
-[data-status="incomplete"]{--status-dot:#d63737}
 :root[data-theme="dark"] [data-status="ready"]{--status-dot:#53d98a}
 :root[data-theme="dark"] [data-status="downloading"]{--status-dot:#ffd06a}
 :root[data-theme="dark"] [data-status="waiting"]{--status-dot:#78baff}
 :root[data-theme="dark"] [data-status="incomplete"]{--status-dot:#ff7d7d}
 
 /* v53: one S/M/L scale for reading and UI; fixed reachability controls. */
-:root{--body:calc(.875rem * var(--fs,1))}
+:root{--body:var(--type-body)}
 #panel[data-current-pane="tools"],#appTabs{--s1:4px;--s2:8px;--s3:12px;--s4:12px;--s6:18px;--s8:24px;--gutter:12px;--radius:12px;--line:1px;letter-spacing:.1px}
 #appTabs{--tap:44px}
 .library-row{grid-template-columns:minmax(0,1fr) calc(48px * var(--fs,1)) calc(52px * var(--fs,1));min-height:calc(64px * var(--fs,1))}
 .library-row>.chapter-name{min-width:0}
 #chapterRows .library-row button{min-height:calc(44px * var(--fs,1))}
 .launch-tiles button{min-height:44px;padding:5px 9px}
-.launch-tiles strong{font-size:calc(13px * var(--fs,1))}
+.launch-tiles strong{font-size:var(--type-label)}
 .launch-tiles small{margin-top:1px}
-#panel:not([data-current-pane="tools"]){height:auto;max-block-size:calc(var(--vv-height) * .30 * var(--fs,1));padding:calc(6px * var(--fs,1)) calc(12px * var(--fs,1));font:400 calc(13px * var(--fs,1))/1.35 var(--ui)}
+#panel:not([data-current-pane="tools"]){height:auto;max-block-size:calc(var(--vv-height) * .30 * var(--fs,1));padding:calc(6px * var(--fs,1)) calc(12px * var(--fs,1));font:400 var(--type-label)/1.35 var(--ui)}
 #panel:not([data-current-pane="tools"]) .dialog-head{min-height:40px;margin-bottom:0}
-#panel:not([data-current-pane="tools"]) #panelTitle{font:600 calc(16px * var(--fs,1))/1.25 var(--ui)}
-#panel:not([data-current-pane="tools"]) #closePanel{position:relative;min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:2px;border:0;background:transparent;font:calc(24px * var(--fs,1))/36px var(--ui)}
+#panel:not([data-current-pane="tools"]) #panelTitle{font:600 var(--type-body)/1.25 var(--ui)}
+#panel:not([data-current-pane="tools"]) #closePanel{position:relative;min-width:44px;min-height:44px;min-block-size:44px;width:44px;height:44px;padding:2px;border:0;background:transparent;font:var(--type-title)/var(--type-title) var(--ui)}
 #panel:not([data-current-pane="tools"]) #closePanel::before{content:"";position:absolute;inset:2px;border:1px solid var(--control);border-radius:10px;pointer-events:none}
 #panel:not([data-current-pane="tools"]) [data-pane]{padding-bottom:0}
-#panel:not([data-current-pane="tools"]) .rows button,#panel:not([data-current-pane="tools"]) .rows a.sim-entry{min-height:calc(44px * var(--fs,1));min-block-size:44px;padding:calc(4px * var(--fs,1)) 0;font-size:calc(15px * var(--fs,1));line-height:1.2}
-#panel:not([data-current-pane="tools"]) .rows small{font-size:calc(12px * var(--fs,1));line-height:1.25;margin-top:0}
-#panel:not([data-current-pane="tools"]) .meta{font-size:calc(12px * var(--fs,1));margin:calc(4px * var(--fs,1)) 0}
+#panel:not([data-current-pane="tools"]) .rows button,#panel:not([data-current-pane="tools"]) .rows a.sim-entry{min-height:calc(44px * var(--fs,1));min-block-size:44px;padding:calc(4px * var(--fs,1)) 0;font-size:var(--type-control);line-height:1.2}
+#panel:not([data-current-pane="tools"]) .rows small{font-size:var(--type-label);line-height:1.25;margin-top:0}
+#panel:not([data-current-pane="tools"]) .meta{font-size:var(--type-label);margin:calc(4px * var(--fs,1)) 0}
 #panel [data-pane="practice"]>p{display:none}
-#panel .nb-heading,#panel .nb-group h3{font:600 calc(15px * var(--fs,1))/1.3 var(--ui);margin:calc(6px * var(--fs,1)) 0 calc(2px * var(--fs,1))}
+#panel .nb-heading,#panel .nb-group h3{font:600 var(--type-control)/1.3 var(--ui);margin:calc(6px * var(--fs,1)) 0 calc(2px * var(--fs,1))}
 #panel .notebook-backup{margin-top:calc(6px * var(--fs,1));padding-top:calc(6px * var(--fs,1))}
 #panel .notebook-backup button{min-height:44px;min-block-size:44px;margin-bottom:4px;padding:calc(5px * var(--fs,1)) calc(8px * var(--fs,1))}
 #panel:not([data-current-pane="tools"]) #panelBack{margin:0;min-height:44px;min-block-size:44px;padding-block:2px}
 
-.changed-questions summary{cursor:pointer;min-height:44px;padding:10px 4px;font:600 calc(14px * var(--fs,1))/1.5 var(--ui)}
-.changed-questions p{font:400 calc(13px * var(--fs,1))/1.5 var(--ui);color:var(--muted)}
+.changed-questions summary{cursor:pointer;min-height:44px;padding:10px 4px;font:600 var(--type-control)/1.5 var(--ui)}
+.changed-questions p{font:400 var(--type-label)/1.5 var(--ui);color:var(--muted)}
 .changed-questions .rows a{display:flex;align-items:center;min-height:44px;padding:6px 4px;box-sizing:border-box}
-#appTabs .changed-count{font:600 8.5px/1 var(--ui);color:var(--accent);white-space:normal;overflow:visible;text-overflow:clip;max-height:none}
+#appTabs .changed-count{font:600 var(--type-small)/1 var(--ui);color:var(--accent);white-space:normal;overflow:visible;text-overflow:clip;max-height:none}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])){gap:0;padding-block:1px}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])) svg{display:none}
 
@@ -540,24 +540,16 @@ input[type="search"]:focus{outline:none;border-color:var(--accent);box-shadow:0 
 #chapterHeader .study-view-tabs{--fs:var(--study-fs,1)}
 /* v90: equal-width icon + label navigation, with status on the icons. */
 #appTabs{--fs:inherit;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;padding-inline:2px}
-#appTabs button,#appTabs [data-tab="tools"]{position:relative;gap:2px;padding:2px 0;font:600 calc(12px * var(--fs,1))/1.2 var(--ui);white-space:nowrap;letter-spacing:0}
-#appTabs button>span:not(#readerStatusChip){overflow:visible;text-overflow:clip}
+#appTabs button,#appTabs [data-tab="tools"]{position:relative;gap:2px;padding:2px 0;font:600 var(--type-label)/1.2 var(--ui);white-space:nowrap;letter-spacing:0}
+#appTabs button>span{overflow:visible;text-overflow:clip}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])){gap:2px;padding-block:2px}
 #appTabs [data-tab="practice"]:has(.changed-count:not([hidden])) svg{display:block}
-#appTabs .changed-count{position:absolute;top:0;left:calc(50% + 2px);min-width:14px;padding:2px 3px;border-radius:10px;background:var(--accent);color:var(--surface);font:700 calc(8px * var(--fs,1))/1 var(--ui)}
+#appTabs .changed-count{position:absolute;top:0;left:calc(50% + 2px);min-width:14px;padding:2px 3px;border-radius:10px;background:var(--accent);color:var(--surface);font:700 var(--type-small)/1 var(--ui)}
 #appTabs .changed-count[hidden]{display:none}
-#readerStatusChip{position:absolute;top:2px;left:calc(50% + 5px);width:8px;height:8px;border-radius:50%;background:#858585;border:1px solid var(--surface);padding:0;overflow:visible}
-#readerStatusChip::before,#readerStatusChip::after{display:none}
 #appTabs .has-new-release::after{display:block;top:4px;right:calc(50% + 10px);left:auto;width:7px;height:7px;border-radius:1px;transform:rotate(45deg);background:var(--accent)}
-#readerStatusChip[data-readiness="ready"]{background:#168448}
-#readerStatusChip[data-readiness="pending"]{background:#b57500}
-:root[data-theme="dark"] #readerStatusChip[data-readiness="ready"]{background:#53d98a}
-:root[data-theme="dark"] #readerStatusChip[data-readiness="pending"]{background:#ffd06a}
-#readerStatusChip[data-status="cloud-paused"]{background:#a246a8}
-:root[data-theme="dark"] #readerStatusChip[data-status="cloud-paused"]{background:#eb9af2}
-.chapter-sort{display:flex;align-items:center;gap:8px;margin:6px 0 0;font:600 calc(12px * var(--fs,1))/1.3 var(--ui)}
+.chapter-sort{display:flex;align-items:center;gap:8px;margin:6px 0 0;font:600 var(--type-label)/1.3 var(--ui)}
 .chapter-sort select{width:auto;min-height:44px;padding:4px 26px 4px 8px;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--control);border-radius:7px}
-#chapterSortStatus{font:calc(12px * var(--fs,1))/1.3 var(--ui);margin:4px 0}
+#chapterSortStatus{font:var(--type-label)/1.3 var(--ui);margin:4px 0}
 
 /* Account entry shares the existing cloud sheet on every view. */
 #chapterHeader #headerCloud{display:flex;align-items:center;justify-content:center;gap:calc(5px * var(--fs,1));flex:0 0 auto;max-width:calc(110px * var(--fs,1));min-width:calc(44px * var(--fs,1));padding-inline:calc(6px * var(--fs,1));border-radius:calc(22px * var(--fs,1));color:var(--accent);background:var(--soft);white-space:nowrap}
@@ -585,7 +577,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 
 .reading-copy h2.callout-heading{font-family:inherit;font-size:1em;font-weight:700;line-height:inherit;margin:1.33em 0;text-wrap:wrap}
 .contents-steps{display:flex;justify-content:space-between;gap:8px}
-.contents-steps button{min-width:44px;min-height:44px;font-size:calc(22px * var(--fs,1))}
+.contents-steps button{min-width:44px;min-height:44px;font-size:var(--type-heading)}
 #chapterHeader #chapterHeaderTitle{min-width:44px}
 #chapterHeader:has(#headerCloud) .chapter-step{flex-basis:44px;min-width:44px}
 #backupNotebook,#restoreNotebook,#shufflePastOptions{min-height:44px;min-block-size:44px;min-width:44px}
@@ -642,7 +634,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
   <p class="eyebrow">HAZZARD · BOARD STUDY</p><h1>What to study next</h1>
   <div class="home-priorities">
     <button type="button" class="card" id="homeFlashDue">Flashcards due</button>
-    <a class="card" id="homeReview" href="?chapter=bank&amp;review=1&amp;queue=today"><span>Daily review</span><span id="homeReviewCount">Loading…</span></a>
+    <a class="card" id="homeReview" href="?chapter=bank&amp;review=1"><span>Review due questions</span><span id="homeReviewCount">Loading…</span></a>
     <a class="card" id="officialDue" href="?chapter=bank&amp;review=1&amp;queue=official"><span>Official questions due today</span><span id="officialCount">Loading…</span></a>
     <section class="card home-weak" aria-labelledby="homeWeakHeading">
       <h2 id="homeWeakHeading">Weakest high-yield chapter</h2>
@@ -695,11 +687,11 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 
 
 <div id="readerLinks" hidden></div>
-<details id="readerDebug" class="settings-group"><summary id="readerDiagnostics">Diagnostics</summary></details><summary id="whatsNewButton">What’s new</summary>
+<details id="readerDebug" class="settings-group"><summary id="readerDiagnostics">Diagnostics</summary></details><details id="whatsNewGroup" class="settings-group"><summary id="whatsNewButton">What’s new</summary></details>
 
 <p id="offlineReady" class="meta" role="status" hidden></p>
 
-</section><section data-pane="whatsNew" tabindex="0" data-title="What’s new" hidden><div id="whatsNewList" aria-live="polite"></div></section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter’s exam questions or practise across the book.</p><ul class="rows"><li><button data-chapter="bank"><strong>Question bank</strong><small>All topics · source, year and topic filters</small></button></li><li><button id="openStatistics"><strong>Statistics</strong><small>Your answered questions and clean rate</small></button></li><li><a class="sim-entry" data-review-link href="?chapter=bank&amp;review=1">Review (0 due)</a></li><li><button data-panel="missed"><strong>Missed / flags</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Official sitting · timed · end-only feedback</small></a></li><li><button data-mock="builder"><strong>Mock builder</strong><small>Choose length and sources</small></button></li></ul></section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Your notebook" hidden=""><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
+</section><section data-pane="whatsNew" tabindex="0" data-title="What’s new" hidden><div id="whatsNewList" aria-live="polite"></div></section><section data-pane="contents" data-title="In this chapter" hidden=""><ul class="rows"><li><button data-jump="copy">What is a pressure injury?</button></li><li><button data-jump="depth">Staging, as a depth</button></li><li><button data-jump="staging-npiap">Staging — NPIAP</button></li><li><button data-jump="how-common-and-what-they-cost">How common, and what they cost</button></li><li><button data-jump="where-they-form-and-what-the-definition-actually-says">Where they form, and what the definition actually says</button></li><li><button data-jump="risk-assessment">Risk assessment</button></li><li><button data-jump="prevention">Prevention</button></li><li><button data-jump="dressings-chosen-by-the-wound">Dressings, chosen by the wound</button></li><li><button data-jump="debridement-and-infection">Debridement and infection</button></li><li><button data-jump="when-healing-is-not-the-goal">When healing is not the goal</button></li><li><button data-jump="nutrition-and-what-the-evidence-actually-supports">Nutrition, and what the evidence actually supports</button></li><li><button data-jump="the-ones-that-are-not-pressure-injuries">The ones that are not pressure injuries</button></li><li><button data-jump="key-clinical-points-ch-46">Key Clinical Points — ch 46</button></li><li><button data-view="library">All chapters</button></li></ul></section><section data-pane="practice" data-title="Practice" hidden=""><p>Choose a chapter’s exam questions or practise across the book.</p><ul class="rows"><li><a class="sim-entry" href="?chapter=bank"><strong>Question bank</strong><small>All topics · source, year and topic filters</small></a></li><li><button id="openStatistics"><strong>Statistics</strong><small>Your answered questions and clean rate</small></button></li><li><a class="sim-entry" data-review-link href="?chapter=bank&amp;review=1">Review due questions</a></li><li><button data-panel="missed"><strong>Missed / flags</strong><small id="missedCount">Questions to revisit, grouped by chapter</small></button></li><li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Official sitting · timed · end-only feedback</small></a></li><li><button data-mock="builder"><strong>Mock builder</strong><small>Choose length and sources</small></button></li></ul></section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Notebook" hidden=""><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
 <div class="notebook-backup"><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
 <div id="backupRecovery"></div>
 <section id="cloudControls" aria-label="Cloud account">
@@ -1357,11 +1349,14 @@ for(const entry of orderedChapters){
   const name=document.createElement('button');name.type='button';name.className='chapter-name';name.dataset.chapter=entry.studyOnly?id+'s':id;name.textContent=(id==='law'?'':id+' · ')+shortChapter(entry);name.title=entry.title;li.append(name);
   if(['2','3','4','5','6','34','62'].includes(id)){const note=document.createElement('small');note.className='mcq-source-note chapter-p005-note';note.textContent='not on P005';name.append(note);}
   if(entry.studyOnly){const note=document.createElement('small');note.className='library-progress';note.textContent='Study page only - full chapter not in the reader';name.append(note);}
-  const studyId=id==='law'?'laws':id+'s';
-  if(manifestChapters.some(c=>String(c.number)===studyId)&&!entry.studyOnly){
-    const study=document.createElement('button');study.type='button';study.className='library-study';study.dataset.chapter=studyId;
-    study.textContent='Study';study.setAttribute('aria-label','Study '+entry.title);li.append(study);
+  const studyId=id==='law'?'laws':id+'s',actions=document.createElement('span');
+  actions.className='chapter-actions';
+  for(const [route,label] of [[id,'Read'],[studyId,'Study']]){
+    if(!manifestChapters.some(c=>String(c.number)===route))continue;
+    const button=document.createElement('button');button.type='button';button.className='library-'+label.toLowerCase();
+    button.dataset.chapter=route;button.textContent=label;button.setAttribute('aria-label',label+' '+entry.title);actions.append(button);
   }
+  li.append(actions);
   name.setAttribute('aria-label','Open '+entry.title);
   li.dataset.chapterRow=id;li.dataset.readingChapter=entry.studyOnly?id+'s':id;li.dataset.search=id+' '+entry.title+' '+name.textContent;$('#chapterRows').append(li);
 }
@@ -1426,7 +1421,7 @@ const tabIcon=path=>'<svg viewBox="0 0 24 24" aria-hidden="true">'+path+'</svg>'
 appTabs.innerHTML='<button data-view="desk" data-tab="home">'+tabIcon('<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7"/>')+'<span>Home</span></button>'+'<button data-view="library" data-tab="chapters">'+tabIcon('<path d="M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3zM12 6v15"/>')+'<span>Chapters</span></button>'+
   '<button data-panel="practice" data-tab="practice">'+tabIcon('<rect x="4" y="3" width="16" height="18" rx="2"/><path d="m8 9 2 2 5-5M8 16h8"/>')+'<span>Practice</span></button>'+
   '<button data-panel="notebook" data-tab="notebook">'+tabIcon('<rect x="5" y="3" width="15" height="18" rx="2"/><path d="M3 7h4M3 12h4M3 17h4M10 8h6M10 12h6"/>')+'<span>Notebook</span></button>';
-fab.className='settings-gear';fab.id='settingsGear';fab.removeAttribute('aria-haspopup');fab.removeAttribute('aria-expanded');fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'<span id="readerStatusChip" role="status" aria-live="polite" aria-label="v332 - checking offline copy"></span>';document.body.append(appTabs);
+fab.className='settings-gear';fab.id='settingsGear';fab.removeAttribute('aria-haspopup');fab.removeAttribute('aria-expanded');fab.dataset.tab='tools';fab.setAttribute('aria-label','Settings');fab.title='Settings';fab.innerHTML=tabIcon('<circle cx="12" cy="12" r="3"/><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1.1 1.8.1 2.2 1.5 1.6-1 3.5-2.2.5-1.6 1.6-.5 2.1-3.5 1-1.7-1.4-2.2-.1L6.9 21l-3-2 .3-2-1.1-2L1 14v-4l2-1 1-2-.3-2 3-2L9 4z"/>')+'';document.body.append(appTabs);
 const chapterHeader=document.createElement('header');chapterHeader.id='chapterHeader';
 chapterHeader.innerHTML='<button class="quiet chapter-back" id="findToggle" aria-label="Find on this page" aria-expanded="false">⌕</button><div class="chapter-heading"><button id="chapterHeaderTitle" data-panel="contents" aria-label="Chapter contents" aria-expanded="false"></button></div><nav class="chapter-switch" aria-label="Chapter or study"></nav>';
 chapterHeader.append(fab);document.body.append(chapterHeader);
@@ -1441,7 +1436,14 @@ function syncLibraryHeader(){
   const page=currentView==='desk'?'home':currentView==='library'?'chapters':currentView==='reader'&&copy.dataset.chapterId==='drugs'&&!statisticsTitle?'drugs':'';
   chapterHeader.dataset.library=page;libraryTitle.textContent=page==='home'?'Home':page==='chapters'?'Chapters':'Drugs';
   libraryHeader.hidden=!page;$('#chapterSearch').hidden=page!=='chapters';
-  const search=$('#drugSearch');if(search){if(search.parentElement!==libraryHeader)libraryHeader.append(search);search.hidden=page!=='drugs';}
+  const mountedSearch=document.querySelector('#readerViewport #drugSearch');
+  const previousSearch=libraryHeader.querySelector('#drugSearch');
+  if(mountedSearch&&mountedSearch!==previousSearch){
+    previousSearch?.remove();
+    libraryHeader.append(mountedSearch);
+  }
+  const drugSearch=libraryHeader.querySelector('#drugSearch');
+  if(drugSearch)drugSearch.hidden=page!=='drugs';
 }
 const findBar=document.createElement('div');findBar.id='findBar';findBar.hidden=true;findBar.setAttribute('role','search');
 findBar.innerHTML='<input id="findText" type="search" aria-label="Find on this page" placeholder="Find on this page" autocomplete="off"><button id="findClose" aria-label="Close find">✕</button><div class="find-actions"><span id="findCount" role="status">0 of 0</span><button id="findPrevious" aria-label="Previous match">↑</button><button id="findNext" aria-label="Next match">↓</button><button id="findAll">All chapters</button></div>';
@@ -1493,7 +1495,7 @@ function openChapter(chapter,opts={}){
   return router.go(url);
 }
 const readerScroll=$('#readerScroll');
-const sizes={small:12,medium:13.5,large:15};
+const sizes={small:1,medium:1.125,large:1.25};
 const markColours=HazzardStorage.colours;
 
 let colour='yellow',size='small',anchor=null;
@@ -1722,6 +1724,9 @@ function closePanel(){
   if(closingHistory)return;
   if(history.state?.hazzardPreviousURL||history.state?.hazzardDepth){closingHistory=true;history.back();return;}
   const url=new URL(location.href);
+  if(url.searchParams.get('debug')==='1'||['whatsNew','diagnostics'].includes(url.searchParams.get('panel'))){
+    router.go('?tab=settings',{replace:true});return;
+  }
   if(url.searchParams.has('panel')||url.searchParams.has('find')||url.searchParams.has('examPages')){
     for(const key of ['panel','find','examPages'])url.searchParams.delete(key);
     router.go(url,{replace:true});return;
@@ -1732,7 +1737,7 @@ function closePanel(){
 const settingsPage=$('[data-pane="tools"]');
 const settingsParts=new Map();
 for(const [part,caption] of [['backup','Backup & account'],['whatsNew','What’s new']]){
-  const contents=$('[data-pane="'+part+'"]'),group=document.createElement('details'),label=part==='whatsNew'?$('#whatsNewButton'):document.createElement('summary');
+  const contents=$('[data-pane="'+part+'"]'),group=part==='whatsNew'?$('#whatsNewGroup'):document.createElement('details'),label=part==='whatsNew'?$('#whatsNewButton'):document.createElement('summary');
   group.className='settings-group';label.textContent=caption;group.append(label,contents);contents.hidden=true;settingsPage.append(group);
   group.addEventListener('toggle',()=>{contents.hidden=!group.open;});
   settingsParts.set(part,group);
@@ -1748,10 +1753,38 @@ examLinksToggle.onchange=()=>{showExamLinks();try{
   else sessionStorage.removeItem('hazzard-reader-exam-links');
 }catch{}};
 examLinkLabel.append(examLinksToggle,'Show exam links while reading');settingsPage.insertBefore(examLinkLabel,settingsParts.get('backup'));
+const browserSelection=document.createElement('label'),selectionToggle=document.createElement('input');
+browserSelection.className='exam-link-preference';selectionToggle.type='checkbox';selectionToggle.id='browserTextSelection';
+try{selectionToggle.checked=sessionStorage.getItem('hazzard-browser-selection')==='1';}catch{}
+function setSelectionGesture(){
+  document.documentElement.classList.toggle('browser-text-selection',selectionToggle.checked);
+  if(!selectionToggle.checked)window.getSelection()?.removeAllRanges();
+}
+setSelectionGesture();
+selectionToggle.onchange=()=>{
+  setSelectionGesture();
+  try{if(selectionToggle.checked)sessionStorage.setItem('hazzard-browser-selection','1');else sessionStorage.removeItem('hazzard-browser-selection');}catch{}
+};
+browserSelection.append(selectionToggle,'Use browser text selection for Copy and Translate');
+settingsPage.insertBefore(browserSelection,settingsParts.get('backup'));
+
 const offlineAction=document.createElement('button');offlineAction.type='button';offlineAction.id='downloadOffline';offlineAction.textContent='Download for offline';
 setButtonUnavailable(offlineAction,'Preparing offline storage.');
 settingsPage.insertBefore(offlineAction,settingsParts.get('whatsNew'));
 const settingsVersion=document.createElement('p');settingsVersion.className='meta';settingsVersion.id='settingsVersion';settingsPage.insertBefore(settingsVersion,settingsParts.get('whatsNew'));
+const settingsBack=document.createElement('button');settingsBack.type='button';settingsBack.className='quiet settings-back';
+settingsBack.id='settingsBack';settingsBack.textContent='‹ Back';settingsBack.setAttribute('aria-label','Back');
+settingsBack.addEventListener('click',closePanel);chapterHeader.append(settingsBack);
+settingsParts.set('diagnostics',$('#readerDebug'));
+for(const name of ['diagnostics','whatsNew']){
+  const group=settingsParts.get(name),summary=group.querySelector(':scope > summary');
+  summary.addEventListener('click',event=>{
+    event.preventDefault();
+    if(group.open){closePanel();return;}
+    const url=new URL(location.href);url.searchParams.set('tab','settings');url.searchParams.set('panel',name);url.searchParams.delete('debug');
+    router.go(url);
+  });
+}
 const sectionTitle=document.createElement('strong');sectionTitle.className='nav-page-title';chapterHeader.append(sectionTitle);
 function displayPane(name){
   dismissMarkBar();setReadingBarsHidden(false);
@@ -1759,8 +1792,9 @@ function displayPane(name){
   if(section)name='tools';
   const pane=$('[data-pane="'+name+'"]');if(!pane)return;
   if(name==='flashcards'){
+    delete chapterHeader.dataset.library;libraryHeader.hidden=true;
     if(panel.open)panel.close();setUnderlyingInert(true);document.body.classList.add('flashcards-open');
-    pane.hidden=false;pane.scrollTop=0;setReadingBarsHidden(false);syncTabs();HazzardFlashcards.show();return;
+    pane.hidden=false;pane.scrollTop=0;setReadingBarsHidden(false);syncTabs();return HazzardFlashcards.show();
   }
   setPanelExpanded(false);
   panel.dataset.currentPane=name;
@@ -1776,15 +1810,22 @@ function displayPane(name){
     if(!notebookCache||signature.length!==notebookCache.length||signature.some((v,i)=>v!==notebookCache[i]))renderNotebook();
   }if(name==='practice'){HazzardChanged.refresh();refreshMissedCount();refreshReview();HazzardFlashcards.refreshDue();}
   const primary=name!=='contents';panel.dataset.primary=String(primary);
+  if(primary){delete chapterHeader.dataset.library;libraryHeader.hidden=true;}
   panel.setAttribute('aria-modal','false');panel.setAttribute('role',primary?'region':'dialog');
   document.body.classList.toggle('nav-page-open',primary);setUnderlyingInert(primary);sectionTitle.textContent=pane.dataset.title;
   if(!panel.open)panel.show();
   pane.scrollTop=0;
   if(name==='contents')HazzardSections.loadCounts();
   if(name==='tools'){
-    $('#readerDebug').open=new URL(location.href).searchParams.get('debug')==='1';
+    const debug=new URL(location.href).searchParams.get('debug')==='1';
+    $('#readerDebug').open=debug||section===$('#readerDebug');$('#whatsNewGroup').open=section===$('#whatsNewGroup');
+    if(section||debug)sectionTitle.textContent=debug?'Diagnostics':section.querySelector(':scope>summary')?.textContent||'Settings';
     settingsVersion.textContent='Version '+(window.HazzardRelease?.version||'');
-    if(section){section.open=true;section.querySelector('[data-pane]').hidden=false;requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));}
+    if(section){section.open=true;const child=section.querySelector('[data-pane]');if(child)child.hidden=false;requestAnimationFrame(()=>{
+      section.scrollIntoView({block:'start'});
+      for(let host=section.parentElement;host;host=host.parentElement)scrollPositions.set(host,{y:host.scrollTop,from:host.scrollTop});
+      scrollPositions.set(document.scrollingElement,{y:scrollY,from:scrollY});setReadingBarsHidden(false);
+    });}
   }
   if(name==='contents')pane.querySelector('.reader-section-link')?.focus({preventScroll:true});
 }
@@ -1801,6 +1842,7 @@ function closeStatistics(){
   document.body.classList.remove('statistics-open');$('#statsViewport')?.remove();
 }
 function renderStatistics(pane=null){
+  document.title='Hazzard Reader — Statistics';
   const title=$('#chapterHeaderTitle');
   statisticsTitle||={text:title.textContent,title:title.title,label:title.getAttribute('aria-label')||'',disabled:title.disabled,panel:title.dataset.panel,mcqActive:mcq?.active,controls:[...document.querySelectorAll('#findToggle')].map(n=>[n,n.hidden])};
   title.textContent=title.title='Statistics';title.setAttribute('aria-label','Statistics');title.disabled=true;title.removeAttribute('data-panel');title.removeAttribute('aria-expanded');
@@ -1810,21 +1852,19 @@ function renderStatistics(pane=null){
   for(const id of ['reader','desk','library'])$('#'+id).hidden=true;
   $('#readerViewport').hidden=false;
   findBar.hidden=true;document.body.classList.remove('finding');
-  HazzardStats.open($('#readerViewport'));if(pane)displayPane(pane);syncTabs();viewport();
+  const ready=HazzardStats.open($('#readerViewport'));if(pane)displayPane(pane);syncTabs();viewport();return ready;
 }
-function openStatistics(replace=false){
-  hidePanel();const url=new URL(location.href);url.searchParams.delete('home');url.searchParams.set('stats','1');
-  const state={...history.state,hazzardView:'reader',hazzardStats:true,hazzardPane:null,hazzardDepth:(history.state?.hazzardDepth||0)+(replace?0:1)};
-  history[replace?'replaceState':'pushState'](state,'',url);renderStatistics();
+function openStatistics(){
+  return router.go('?stats=1');
 }
 function renderScreen(state){
+  delete document.documentElement.dataset.initialHome;
+  chapterHeader.classList.remove('show-resume-note');$('#resumeNotice')?.remove();
   scrollIntentUntil=0;
-  if(state?.hazzardStats){hidePanel();renderStatistics(state.hazzardPane);return;}
+  if(state?.hazzardStats){hidePanel();return renderStatistics(state.hazzardPane);}
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
-  document.title='Stage A — '+(id==='desk'?'Home':id==='library'?'Chapters':chapterTitle);
   hidePanel();currentView=id;syncLibraryHeader();
-  const studyTabs=chapterHeader.querySelector('.study-header-views');if(studyTabs)studyTabs.hidden=id!=='reader';
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
   $('#readerViewport').hidden=id!=='reader';
   examBar.hidden=!state?.hazzardExam;document.body.classList.toggle('examining',!examBar.hidden);if(examBar.hidden)for(const p of examPages)p.classList.remove('exam-current');
@@ -1832,16 +1872,19 @@ function renderScreen(state){
   findBar.hidden=!state?.hazzardFind;document.body.classList.toggle('finding',!findBar.hidden);$('#findToggle').setAttribute('aria-expanded',String(!findBar.hidden));
   if(findBar.hidden){CSS.highlights?.delete('page-find');CSS.highlights?.delete('page-find-current')}
   else{setReadingBarsHidden(false);if(CSS.highlights){CSS.highlights.set('page-find',new Highlight(...findMatches.map(m=>m.range)));if(findMatches[findIndex])CSS.highlights.set('page-find-current',new Highlight(findMatches[findIndex].range))}}
-  if(state?.hazzardPane)displayPane(state.hazzardPane);
+  const paneReady=state?.hazzardPane?displayPane(state.hazzardPane):null;
+  const viewTitle=state?.hazzardPane==='flashcards'?'Flashcards':state?.hazzardPane?sectionTitle.textContent:id==='desk'?'Home':id==='library'?'Chapters':cid==='bank'?(launchParams.get('review')==='1'?'Review':'Question bank'):cid==='mock'?(launchParams.get('simulation')==='1'?'Exam simulation':'Mock builder'):chapterTitle;
+  document.title='Hazzard Reader — '+viewTitle;
   if(!state?.hazzardPane&&id==='desk')refreshResume();if(!state?.hazzardPane&&id==='library'){if(chapterSort==='recent')sortChapterRows();refreshLibraryMarks();}
   if(changed){if(id==='reader')scrollReadingTo(lastReaderY);window.scrollTo(0,state?.hazzardWindowY||0)}
-  syncTabs();syncMarkingUI();updateStorageNotice();viewport();
+  syncTabs();syncMarkingUI();updateStorageNotice();viewport();return paneReady;
 }
 function navigateUI(id,pane=null,find=false,replace=false,exam=false){
   if(closingHistory)return;
   // Opening a Home URL does not mean the chapter underneath it was read.
   if(currentView==='reader'&&!(replace&&id==='desk'&&new URL(location.href).searchParams.get('home')==='1')){mcq?.remember();rememberPlace();lastReaderY=readerScroll.scrollTop}
-  const previous={...history.state,hazzardView:currentView,hazzardReaderY:lastReaderY,hazzardWindowY:window.scrollY};
+  rememberTabVisit();
+  const previous={...history.state,hazzardSurfaceY:tabSurface()?.scrollTop||0,hazzardReadingAnchor:readingReturnAnchor()||history.state?.hazzardReadingAnchor,hazzardView:currentView,hazzardReaderY:lastReaderY,hazzardWindowY:window.scrollY};
   history.replaceState(previous,'');
   const next={...previous,hazzardPreviousURL:replace?previous.hazzardPreviousURL:location.href,hazzardPreviousMock:previous.hazzardPreviousMock,hazzardView:id,hazzardPane:pane,hazzardFind:find,hazzardExam:exam,hazzardReaderY:lastReaderY,hazzardDepth:(previous.hazzardDepth||0)+(replace?0:1)};
   next.hazzardStats=!!previous.hazzardStats&&id==='reader'&&!!pane;
@@ -1915,7 +1958,7 @@ function showClaimProvenance(node){
   else if(!entries.length)line(record?.reviewBasis||'No claim-specific source review recorded.');
   if(!info.open)info.showModal();
 }
-document.addEventListener('contextmenu',event=>{if(!isReaderControl(event.target)&&event.target.closest?.('#copy,.mcq-explanation'))event.preventDefault();},true);
+document.addEventListener('contextmenu',event=>{if(!browserSelectsReaderText()&&!isReaderControl(event.target)&&event.target.closest?.('#copy,.mcq-explanation'))event.preventDefault();},true);
 // A dismissing tap is consumed: it must never also mark the text underneath.
 document.addEventListener('pointerdown',e=>{outsideStarted=panel.open&&!panel.contains(e.target)},true);
 document.addEventListener('click',e=>{if(panel.open&&panel.dataset.primary!=='true'&&!panel.contains(e.target)&&!e.target.closest('#appTabs,#chapterHeader,#findBar,#markBar,#examBar,#readerUpdateButton')&&(outsideStarted||e.detail===0)){outsideStarted=false;e.preventDefault();e.stopImmediatePropagation();closePanel()}},true);
@@ -1977,7 +2020,7 @@ function applyDisplay(){
   preserveLayout(updateDisplay);
 }
 function updateDisplay(){
-  const px=sizes[size];document.documentElement.style.setProperty('--fs',px/sizes.small);document.body.style.fontSize='var(--body)';
+  document.documentElement.style.setProperty('--fs',sizes[size]);document.body.style.fontSize='var(--body)';
   for(const b of $$('[data-size]')){const selected=b.dataset.size===size;b.setAttribute('aria-pressed',String(selected));setButtonUnavailable(b,selected?'Selected':'');}
   for(const b of $$('button[data-theme]'))b.setAttribute('aria-pressed',String(b.dataset.theme===document.documentElement.dataset.theme));
   syncMarkingUI();
@@ -2017,10 +2060,10 @@ panel.addEventListener('cancel',e=>{e.preventDefault();closePanel();});
 panel.addEventListener('click',e=>{if(e.target!==panel)return;const box=panel.getBoundingClientRect();if(e.clientX<box.left||e.clientX>box.right||e.clientY<box.top||e.clientY>box.bottom)closePanel();});
 $('#closePanel').onclick=()=>{closePanel();anchor?.focus({preventScroll:true})};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(panel.open){e.preventDefault();closePanel()}else if(!findBar.hidden)closeFind();else if(!markBar.hidden)dismissMarkBar()}});
-// Copy is explicit in the mark editor. Native selection and dragging do not own reader gestures.
+// The selected long-press gesture owns the entire interaction, from press to release.
 const readingText='#copy,.mcq-explanation';
-document.addEventListener('dragstart',e=>{if(!isReaderControl(e.target)&&e.target.closest?.(readingText))e.preventDefault();},true);
-document.addEventListener('selectstart',e=>{if(!isReaderControl(e.target)&&e.target.closest?.(readingText))e.preventDefault();},true);
+document.addEventListener('dragstart',e=>{if(!browserSelectsReaderText()&&!isReaderControl(e.target)&&e.target.closest?.(readingText))e.preventDefault();},true);
+document.addEventListener('selectstart',e=>{if(!browserSelectsReaderText()&&!isReaderControl(e.target)&&e.target.closest?.(readingText))e.preventDefault();},true);
 document.addEventListener('pointerdown',e=>{
   const root=e.target.closest?.(readingText);if(!root)return;
   // Annotations and question links can be rendered again after the chapter opens.
@@ -2042,15 +2085,92 @@ function syncMarkingUI(){
 }
 function syncTabs(){
   const pane=document.body.classList.contains('flashcards-open')?'flashcards':panel.open?panel.dataset.currentPane:null;
-  const active=pane?(['practice','qbank','mock','missed','session','flashcards'].includes(pane)?'practice':['notebook','backup'].includes(pane)?'notebook':['tools','whatsNew'].includes(pane)?'tools':'reading'):$('#statsViewport')?'practice':currentView==='library'||cid==='drugs'&&currentView==='reader'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':readingPage?'chapters':'home';
+  const active=activeTab();
+  const modes=chapterHeader.querySelector('.chapter-switch');
+  const chapterView=readingPage&&currentView==='reader'&&!$('#statsViewport')&&modes.childElementCount>0;
+  modes.hidden=!chapterView||!!pane||!findBar.hidden||!examBar.hidden;
+  chapterHeader.classList.toggle('study-header',chapterView);
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   if(active==='tools')fab.setAttribute('aria-current','page');else fab.removeAttribute('aria-current');
   for(const button of chapterHeader.querySelectorAll('[data-panel="contents"]'))button.setAttribute('aria-expanded',String(pane==='contents'));
 }
-function handleTab(button){
-  const destinations={home:'?home=1',chapters:'?tab=chapters',notebook:'?tab=notebook',practice:'?practice=1',tools:'?tab=settings'};
-  const href=destinations[button.dataset.tab];if(href)router.go(href);
+// Keep the four tab destinations in this browsing session. Notebook records are
+// written only by their existing owners. Browser Back keeps its own history entry.
+const tabRoots={home:'?home=1',chapters:'?tab=chapters',notebook:'?tab=notebook',practice:'?practice=1'};
+const tabMemoryKey='hazzard-tab-visits:'+location.pathname;
+let tabVisits={};
+try{tabVisits=JSON.parse(sessionStorage.getItem(tabMemoryKey)||'{}')||{};}catch{}
+function activeTab(){
+  const pane=document.body.classList.contains('flashcards-open')?'flashcards':panel.open?panel.dataset.currentPane:null;
+  return pane?(['practice','qbank','mock','missed','session','flashcards'].includes(pane)?'practice':['notebook','backup'].includes(pane)?'notebook':['tools','whatsNew'].includes(pane)?'tools':'reading'):$('#statsViewport')?'practice':currentView==='library'||cid==='drugs'&&currentView==='reader'?'chapters':currentView==='desk'?'home':['mock','bank'].includes(cid)?'practice':readingPage?'chapters':'home';
 }
+function tabSurface(){
+  if($('#statsViewport'))return $('#statsViewport');
+  const results=$('.question-search:not([hidden]) .question-search-results');if(results)return results;
+  if(document.body.classList.contains('flashcards-open'))return $('#flashcardView');
+  if(panel.open)return panel.querySelector('[data-pane="'+panel.dataset.currentPane+'"]');
+  if(currentView==='reader')return mcq?.active?$('#mcqViewport'):readerScroll;
+  return null;
+}
+function readingReturnAnchor(){
+  if(!readingPage||currentView!=='reader'||mcq?.active||panel.open||findBar.hidden===false||$('#statsViewport'))return null;
+  const anchor=visibleReadingAnchor();if(!anchor)return null;
+  const node=anchor.range.startContainer,part=node.parentElement.closest('[data-unit]');if(!part)return null;
+  const probe=document.createRange();probe.selectNodeContents(part);probe.setEnd(node,anchor.range.startOffset);
+  const offset=probe.toString().length,unit=part.dataset.unit,parts=unitMap.get(unit)?.parts||[part];
+  return {chapter:cid,unit,part:parts.indexOf(part),offset,text:part.textContent.slice(Math.max(0,offset-16),offset+16),
+    y:anchor.top-Math.max(readerScroll.getBoundingClientRect().top,chapterHeader.getBoundingClientRect().bottom)};
+}
+function restoreReadingReturn(saved){
+  if(!saved||saved.chapter!==cid||readerScroll.inert||mcq?.active||panel.open)return;
+  const parts=unitMap.get(saved.unit)?.parts||[],part=parts[saved.part]||parts[0];
+  if(!part?.isConnected||part.textContent.slice(Math.max(0,saved.offset-16),saved.offset+16)!==saved.text)return;
+  const walk=document.createTreeWalker(part,NodeFilter.SHOW_TEXT);let offset=saved.offset,node;
+  while((node=walk.nextNode())){
+    if(offset>=node.length){offset-=node.length;continue;}
+    const range=document.createRange();range.setStart(node,offset);range.setEnd(node,offset+1);
+    const top=Math.max(readerScroll.getBoundingClientRect().top,chapterHeader.getBoundingClientRect().bottom)+saved.y;
+    holdReadingAnchor({range,top});scrollPositions.set(readerScroll,{y:readerScroll.scrollTop,from:readerScroll.scrollTop});return;
+  }
+}
+
+function rememberTabVisit(){
+  const tab=activeTab();
+  if(!Object.hasOwn(tabRoots,tab))return;
+  const pane=tabSurface(),state={...history.state};
+  if(mcq?.active&&mcq.tabView)state.hazzardPracticeTab=mcq.tabView();
+  delete state.hazzardPreviousURL;delete state.hazzardDepth;delete state.hazzardTabReturn;
+  const openGroups=pane&&['notebook','practice'].includes(tab)?[...pane.querySelectorAll('details[open]')].map(el=>el.id||el.querySelector('summary')?.textContent.trim()).filter(Boolean):[];
+  const readingAnchor=readingReturnAnchor();if(readingAnchor)state.hazzardReadingAnchor=readingAnchor;
+  tabVisits[tab]={href:location.pathname+location.search+location.hash,state,y:scrollY,inner:pane?.scrollTop||0,openGroups};
+  try{sessionStorage.setItem(tabMemoryKey,JSON.stringify(tabVisits));}catch{}
+}
+function restoreTabViewport(visit){
+  if(!visit)return;
+  const pane=tabSurface();
+  if(pane&&visit.openGroups?.length)for(const el of pane.querySelectorAll('details')){
+    if(visit.openGroups.includes(el.id||el.querySelector('summary')?.textContent.trim()))el.open=true;
+  }
+  if(pane)pane.scrollTop=visit.inner||0;
+  window.scrollTo(0,visit.y||0);
+  // Resuming a saved position is navigation, not a downward swipe.
+  if(pane)scrollPositions.set(pane,{y:pane.scrollTop,from:pane.scrollTop});
+  scrollPositions.set(document.scrollingElement,{y:scrollY,from:scrollY});
+  setReadingBarsHidden(false);
+}
+function handleTab(button){
+  const tab=button.dataset.tab;
+  if(tab==='tools'){router.go('?tab=settings');return;}
+  if(!Object.hasOwn(tabRoots,tab))return;
+  const visit=activeTab()!==tab?tabVisits[tab]:null;
+  if(visit&&typeof visit.href==='string'){
+    const target=new URL(visit.href,location.href);
+    if(router.owns(target)){router.go(target.href,{state:{...visit.state,hazzardTabReturn:{inner:visit.inner,y:visit.y,openGroups:visit.openGroups}}});return;}
+  }
+  const fallback=tab==='practice'&&activeTab()!==tab&&HazzardMCQ.readPracticePlace()?HazzardMCQ.practiceURL():tabRoots[tab];
+  router.go(fallback);
+}
+
 function paintUnit(u){for(const p of u.parts){if(p.closest('.exam-page-badge'))continue;if(u.marked){p.dataset.marked=u.colour;p.style.setProperty('--mark-colour','var(--hl-'+u.colour+')')}else{p.removeAttribute('data-marked');p.style.removeProperty('--mark-colour')}}}
 function highlightText(u){return u.text.replace(/\s+/g,' ').trim()}
 function validHighlight(mark){return mark&&markColours.includes(mark.colour)&&typeof mark.text==='string'}
@@ -2418,7 +2538,17 @@ async function searchChapters(){
   const ticket=++searchTicket,q=$('#chapterSearch').value.trim().toLowerCase(),status=$('#chapterSearchStatus'),results=$('#chapterResults');
   results.replaceChildren();results.hidden=!q;status.hidden=!q;$('#bankSearchResults').replaceChildren();$('#bankSearchGroup').hidden=true;
   $('#libraryDrugs').href='?chapter=drugs'+(q?'&drugSearch='+encodeURIComponent(q):'');
-  let titles=0;for(const li of $$('#chapterRows li')){li.hidden=q&&wordStart(li.dataset.search,q)<0;if(!li.hidden)titles++}
+  const chapterRows=$('#chapterRows');let titles=0,exactChapter=false;
+  for(const li of chapterRows.querySelectorAll('li')){
+    li.hidden=!!q&&wordStart(li.dataset.search,q)<0;if(li.hidden)continue;
+    titles++;
+    const name=li.querySelector('.chapter-name');
+    const shortName=name?.firstChild?.textContent.replace(/^\d+\s*·\s*/,'').trim().toLowerCase();
+    if(q&&(q===li.dataset.chapterRow||q===name?.title.trim().toLowerCase()||q===shortName))exactChapter=true;
+  }
+  // Keep the original row and its Read/Study controls above passage matches for
+  // a named chapter. Moving the list preserves its sort, focus and click handlers.
+  if(exactChapter)status.before(chapterRows);else $('#bankSearchGroup').after(chapterRows);
   $('#noChapters').hidden=true;if(!q)return;
   status.textContent='Searching book and question bank…';
   const words=HazzardQuestionSearch.normalize(q).split(' ');
@@ -2547,8 +2677,7 @@ function openFind(){
   mcq?.notes();
   if(currentView!=='reader'){returnReading(openFind);return}
   if(!findBar.hidden){closeFind();return}
-  if(panel.open){returnReading(openFind);return}
-  navigateUI('reader',null,true);updateFind();$('#findText').focus({preventScroll:true});
+  navigateUI('reader',null,true,panel.open);updateFind();$('#findText').focus({preventScroll:true});
 }
 function updateFind(){
   findMatches=[];findIndex=-1;const q=$('#findText').value.trim().replace(/\s+/g,' ').toLowerCase();
@@ -2686,8 +2815,7 @@ function unwrapRange(id){const r=rangeMarks.get(id);if(!r)return;for(const sp of
 // Use the same normalized characters for creating and restoring a range.
 function bookTextIndex(root=copy){
   const ix=textIndex(root,n=>!n.parentElement.closest('.exam-page-badge'));
-  let headings=[...root.querySelectorAll('h2')].filter(h=>!h.closest('[data-reader-metadata]'));
-  if(!headings.length)headings=[...root.querySelectorAll('h3')].filter(h=>!h.closest('[data-reader-metadata]'));
+  const headings=[...root.querySelectorAll('h2,h3,h4')].filter(h=>!h.closest('[data-reader-metadata]'));
   ix.sections=[];
   for(const heading of headings){
     const walker=document.createTreeWalker(heading,NodeFilter.SHOW_TEXT);
@@ -2724,8 +2852,6 @@ function bookItems(saved){
   return ['marks','ranges'].flatMap(kind=>Object.entries(saved[kind]||{}).map(([id,mark])=>({kind,id,mark})));
 }
 function bookGroup(ix,start){
-  const family=ix.nodes[start]?.parentElement.closest('.study-group')?.dataset.studyGroup;
-  if(family&&family!=='summary')return family;
   let low=0,high=ix.sections.length;
   while(low<high){const mid=(low+high)>>>1;if(ix.sections[mid].offset<=start)low=mid+1;else high=mid;}
   return low?ix.sections[low-1].heading:null;
@@ -3036,7 +3162,7 @@ async function refreshLibraryMarks(){
     const name=row.querySelector('.chapter-name');
     if(!name.querySelector('.library-status')){
       const status=document.createElement('small');status.className='library-status';name.append(status);
-      const years=document.createElement('small');years.className='library-exams';name.append(years);
+      const exams=document.createElement('div');exams.className='library-exams';row.append(exams);
     }
     const progress=data.chapters[row.dataset.readingChapter];
     row.dataset.readStatus=progress?.read?'Read ✓':'Read '+Math.min(99,Math.floor((progress?.ratio||0)*100))+'%';
@@ -3050,9 +3176,14 @@ async function refreshLibraryMarks(){
       const measured=model.measure([...ids].map(id=>byId.get(id)).filter(Boolean));
       const clean=measured.answered&&model.ready?Math.round(100*measured.clean/measured.answered)+'%':'—';
       row.querySelector('.library-status').textContent=row.dataset.readStatus+(model.ready?' · Answered '+measured.answered+'/'+measured.total+' · Clean '+clean+' · Missed '+(measured.answered-measured.clean):' · Question history unavailable');
-      const years=new Map();
-      for(const id of ids){const year=evidence.questions[id]?.sitting?.slice(0,4);if(year)years.set(year,(years.get(year)||0)+1);}
-      const line=row.querySelector('.library-exams');line.textContent=[...years].sort(([a],[b])=>b.localeCompare(a)).map(([year,n])=>year+' ×'+n).join(' · ');line.hidden=!years.size;
+      const exams=row.querySelector('.library-exams');
+      const entries=[...ids].filter(id=>evidence.questions[id]).map(id=>[id,evidence.questions[id]]);
+      const signature=entries.map(([id])=>id).join(',');
+      if(exams.dataset.ids!==signature){
+        exams.dataset.ids=signature;exams.replaceChildren();
+        if(entries.length)exams.append(HazzardEvidence.askedBadge(entries,'past questions for '+key));
+      }
+      exams.hidden=!entries.length;
     }
   }catch{for(const row of rows)row.querySelector('.library-status').textContent=row.dataset.readStatus+' · Question history unavailable';}
 }
@@ -3194,8 +3325,8 @@ document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshSav
 // Home follows the last chapter actually read, across chapters.
 async function refreshReview(){
   let text;
-  try{const n=HazzardReview.catalogDue(await HazzardStudyHome.catalog()).length;text='Review ('+n+' due)';}
-  catch{text='Review (unavailable)';}
+  try{const n=HazzardReview.catalogDue(await HazzardStudyHome.catalog()).length;text='Review due questions · '+n+' due';}
+  catch{text='Review due questions · unavailable';}
   for(const el of $$('[data-review-link]'))el.textContent=text;
 }
 addEventListener('hazzard-review-change',refreshReview);addEventListener('hazzard-bad-change',refreshReview);
@@ -3249,7 +3380,7 @@ function chapterNavigation(){
   $('#reader .chapter-nav.endcap')?.remove();
   const base=cid==='laws'?'law':cid.replace(/s$/,''),chapter=orderedChapters.find(c=>String(c.number)===base);
   const title=$('#chapterHeaderTitle');title.textContent=copy.dataset.notLoaded?(copy.querySelector('h1')?.textContent||'Chapter unavailable'):chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='home'?'Home':cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;title.setAttribute('aria-label',title.textContent+' - Chapter contents');
-  const modes=chapterHeader.querySelector('.chapter-switch');modes.replaceChildren();modes.hidden=!chapter;
+  const modes=chapterHeader.querySelector('.chapter-switch');modes.replaceChildren();
   $('#findToggle').setAttribute('aria-label',mcq?.active?'Find questions':'Find on this page');
   title.disabled=!chapter;
   if(!chapter){delete title.dataset.panel;return;}
@@ -3266,7 +3397,6 @@ function chapterNavigation(){
     questions.dataset.chapterQuestions='';
     questions.onclick=()=>openChapter(study,{view:'questions'});if(currentMode==='questions')questions.setAttribute('aria-current','page');
     chapterHeader.querySelector('.chapter-switch').append(questions);
-    chapterHeader.classList.add('study-header');
   }
   const sequence=isStudy?orderedChapters.filter(c=>manifestChapters.some(s=>String(s.number)===(c.number==='law'?'laws':c.number+'s'))):orderedChapters;
   const index=sequence.indexOf(chapter),nav=document.createElement('nav');nav.className='chapter-nav';nav.setAttribute('aria-label','Previous and next chapters');
@@ -3601,6 +3731,7 @@ $('#notebookBackupFile').onchange=async event=>{
 
 
 async function decorateArticle(){
+HazzardChapterContent.formatReadEndMatter(copy,cid);
 if(/^(?:\d+s|laws)$/.test(cid))HazzardStudyPage.foldPractice(copy,part=>{
   const unit=unitMap.get(part.dataset.unit);
   if(unit&&!unit.parts.includes(part))unit.parts.push(part);
@@ -3609,7 +3740,7 @@ restoreHighlights();
 // Insert evidence metadata only after highlight units and drill identities exist.
 
 
-if(cid==='laws')await HazzardLawCards.decorate(copy);
+
 if(/^\d+s$/.test(cid))await HazzardMemoryAids.decorate(copy,cid);
 if(/^\d+s?$/.test(cid))try{await HazzardEvidence.decorate(copy,cid);}catch(error){flash(error.message,6000);}
 // Evidence has finished resolving the original printed-page boundaries.
@@ -3660,7 +3791,8 @@ async function migrateStoredPointNumbers(){
     const template=document.createElement('template');template.innerHTML=markup;
     let root=template.content.querySelector('article[data-chapter-id]');
     if(!root){root=document.createElement('article');root.append(template.content);}
-    root.dataset.chapterId=chapter;HazzardStudyPage.prepareWording(root,saved);HazzardFlashcards.foldRecall?.(root,chapter,saved);smoothPageMarkers(root);
+    root.dataset.chapterId=chapter;HazzardChapterContent.formatReadEndMatter(root,chapter);HazzardStudyPage.prepareWording(root,saved);HazzardFlashcards.foldRecall?.(root,chapter,saved);smoothPageMarkers(root);
+    if(chapter==='laws')await HazzardLawCards.decorate(root,'',saved);
     HazzardStudyPage.mount(root,chapter);
     const ix=bookTextIndex(root),placed=[];
     for(const item of items){
@@ -3865,9 +3997,10 @@ function disposeQuestions(){
 function leaveRoute(){
   if(!activeURL)return;
   if(mcq?.active){mcq.remember?.();mcq.save?.();}
-  else if(currentView==='reader'&&!panel.open&&readingPage)rememberPlace(true);
+  else if(currentView==='reader'&&!panel.open&&readingPage)rememberPlace();
+  rememberTabVisit();
   // Store the viewport on this history entry. Opening a view never counts as study.
-  history.replaceState({...history.state,hazzardReaderY:readerScroll.scrollTop,hazzardWindowY:scrollY},'');
+  history.replaceState({...history.state,hazzardSurfaceY:tabSurface()?.scrollTop||0,hazzardReaderY:readerScroll.scrollTop,hazzardWindowY:scrollY,hazzardReadingAnchor:readingReturnAnchor()},'');
 }
 async function loadArticle(id,force=false){
   const nextKey='stage-a-highlights-v1:'+id,raw=localStorage.getItem(nextKey);
@@ -3877,7 +4010,7 @@ async function loadArticle(id,force=false){
   let reading=/^(?:\d+s?|laws?)$/.test(id)&&!next.dataset.notLoaded,metadata=null;
   if(!reusable&&reading)try{metadata=await Promise.all([
     chapterMarkUnits(id),next.querySelector('[data-claim]')?readingJSON('data/verification-registry.json').catch(()=>emptyProvenance):emptyProvenance,
-    readingJSON('data/highlight-aliases.json').catch(()=>null)
+    (/^\d+s?$/.test(id) ? HazzardEvidence.forChapter(id).then(ref=>ref.highlightAliases??readingJSON('data/highlight-aliases.json')) : readingJSON('data/highlight-aliases.json')).catch(()=>null)
   ]);}catch{
     const title=next.querySelector('h1'),message=document.createElement('p'),retry=document.createElement('button');
     message.textContent='This chapter’s highlight data could not be loaded. Reconnect and try again.';
@@ -3907,6 +4040,7 @@ async function loadArticle(id,force=false){
       try{const saved=readHighlights();HazzardStudyPage.prepareWording(copy,saved);HazzardFlashcards.foldRecall?.(copy,id,saved);}
       catch{highlightLoadFailed=true;}
     }
+    if(id==='laws')await HazzardLawCards.decorate(copy,new URL(location.href).searchParams.get('lawCard')||'',readHighlights());
     prepareImages(copy);identifySections();smoothPageMarkers(copy);examPages=[...copy.querySelectorAll('a.pg[data-exam]')];
     if(reading){
       registerUnits();renderBookObjects();renderVerification();await decorateArticle();
@@ -3919,6 +4053,8 @@ async function loadArticle(id,force=false){
   if(examPages.length){const li=document.createElement('li'),b=document.createElement('button');b.id='examPagesToggle';b.textContent='2026 exam pages';b.onclick=()=>returnReading(openExam);li.append(b);$('[data-pane="practice"] .rows').append(li);}
 }
 async function renderRoute(url,state,back,isCurrent,force=false){
+  const requested=url.href;router.canonical(url);
+  if(url.href!==requested)history.replaceState(history.state,'',url);
   launchParams=url.searchParams;
   const tab=launchParams.get('tab'),settings=launchParams.get('debug')==='1',hub=launchParams.get('practice')==='1';
   const stats=launchParams.get('stats')==='1';opensOnHome=settings||!!tab||hub||launchParams.get('home')==='1';
@@ -3926,15 +4062,17 @@ async function renderRoute(url,state,back,isCurrent,force=false){
   const screen=settings?tabDestinations.settings:tabDestinations[tab]||[opensOnHome?'desk':'reader',hub?'practice':null];
   currentMode=launchParams.get('view')==='questions'?'questions':/^(?:\d+s|laws)$/.test(routeChapter)?'study':'read';
   if(!opensOnHome&&!stats){
-    if(mountedId!==routeChapter||force)await loadArticle(routeChapter,force);
+    const sourceChanged=routeChapter==='laws'&&(url.searchParams.get('lawCard')||'')!==(copy.dataset.lawSource||'');
+    if(mountedId!==routeChapter||force||sourceChanged)await loadArticle(routeChapter,force||sourceChanged);
   }
   if(!isCurrent())return;
   preserveStudyPlace=currentMode==='study'&&!url.hash&&!launchParams.has('resume')&&!back;
-  const panelName=launchParams.get('panel')||screen[1];
+  const panelName=launchParams.get('panel')||(stats?null:screen[1]);
   if(!stats&&currentMode!=='questions'&&!['bank','mock'].includes(routeChapter)||opensOnHome)disposeQuestions();
   const restored={...state,hazzardView:screen[0],hazzardPane:panelName,hazzardStats:stats,hazzardFind:launchParams.get('find')==='1',hazzardExam:launchParams.get('examPages')==='1'};
   closingHistory=false;
-  renderScreen(restored);
+  await renderScreen(restored);
+  if(!isCurrent())return;
   if(!opensOnHome&&!stats){
     chapterNavigation();syncLibraryHeader();
     const showQuestions=currentMode==='questions'||['bank','mock'].includes(routeChapter);
@@ -3947,11 +4085,11 @@ async function renderRoute(url,state,back,isCurrent,force=false){
         mcq=mountQuestionView(base,readOnlyChapter);
         questionRoute=routeKey;
       }
-      if(!mcq.active)await mcq.show?.(launchParams.get('source')||undefined);
+      if(!mcq.active)await mcq.show?.(state?.hazzardTabReturn?undefined:launchParams.get('source')||undefined);
       $('#findToggle').setAttribute('aria-label','Find questions');
     }else{
       $('#findToggle').setAttribute('aria-label','Find on this page');
-      landAtRoute(url,state,back);
+      if(!state?.hazzardTabReturn)landAtRoute(url,state,back);
     }
   }else if(hub||screen[0]==='desk'){refreshReview().catch(error=>flash(error.message,6000));}
   if(launchParams.has('table')){const table=copy.querySelectorAll('table')[Number(launchParams.get('table'))];if(table&&!tableDialog?.open)showTable(table);}
@@ -3963,7 +4101,18 @@ async function renderRoute(url,state,back,isCurrent,force=false){
   if(queuedOpen){const next=queuedOpen;queuedOpen=null;openPanel(next.name,next.trigger);}
   if(!isCurrent())return;
   activeURL=url.href;syncTabs();syncMarkingUI();viewport();
-  if(!history.state?.hazzardView)history.replaceState({...restored,hazzardReaderY:readerScroll.scrollTop},'');
+  if(state?.hazzardTabReturn){
+    restoreTabViewport(state.hazzardTabReturn);
+    const current={...history.state};delete current.hazzardTabReturn;history.replaceState(current,'');
+  }
+  if(back&&Number.isFinite(state?.hazzardSurfaceY)){
+    const surface=tabSurface();if(surface&&surface!==readerScroll){
+      surface.scrollTop=state.hazzardSurfaceY;
+      scrollPositions.set(surface,{y:surface.scrollTop,from:surface.scrollTop});
+    }
+  }
+  if((back||state?.hazzardTabReturn)&&currentView==='reader')restoreReadingReturn(state?.hazzardReadingAnchor);
+  if(!history.state?.hazzardView)history.replaceState({...restored,...history.state,hazzardReaderY:readerScroll.scrollTop},'');
   document.dispatchEvent(new CustomEvent('reader-route-ready',{detail:{chapter:mountedId,mode:currentMode,url:url.href}}));
 }
 document.addEventListener('reader-route-error',event=>{

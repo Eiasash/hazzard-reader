@@ -46,7 +46,7 @@ Glucose ranges are in mg/dL. The lower A1C boundary in the right column reflects
 
 <span data-practice-ids="mcq-90bbae3292be580263244c30"></span>
 
-The three diagnostic tests sample different physiology. Fasting glucose reflects basal glucose regulation, a two-hour value tests recovery after a [75-g load](https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/diabetes-type-2/), and A1C averages exposure over preceding weeks. Any one of a confirmed fasting plasma glucose of at least 126 mg/dL after eight hours without calories, a two-hour glucose of at least 200 mg/dL or an A1C of at least 6.5% meets a diabetes criterion. Classic symptoms or hyperglycemic crisis with a random glucose of at least 200 mg/dL provide another route. Prediabetes corresponds to fasting 100–125, two-hour 140–199, or A1C 5.7%–6.4% (pp1559–1561, Table 99-1).
+The three diagnostic tests sample different physiology. Fasting glucose reflects basal glucose regulation, a two-hour value tests recovery after a [75-g load](https://me.health.gov.il/older-adult/keep-me-healthy/common-conditions/diabetes-type-2/), and A1C averages exposure over preceding weeks. Any one of a confirmed fasting plasma glucose of at least 126 mg/dL after eight hours without calories, a two-hour glucose of at least 200 mg/dL or an A1C of at least 6.5% meets a diabetes criterion. Classic symptoms or hyperglycemic crisis with a random glucose of at least 200 mg/dL provide another route. Prediabetes corresponds to fasting 100–125, two-hour 140–199, or A1C 5.7%–6.4% (pp1559–1561, Table 99-1) (p1560).
 
 **When tests disagree.** Repeat the abnormal test in an asymptomatic patient. Isolated postchallenge hyperglycemia is relatively frequent in older people and predicts complications even with a fasting glucose below 126. Shortened red-cell survival, including hemolysis or recent blood loss, can falsely lower A1C. In December 2021 Q32, random glucose was 184 and A1C 6.2%. That A1C is compatible with prediabetes, and further testing can clarify whether another criterion for diabetes is met (pp1560–1561).
 
@@ -132,7 +132,6 @@ Coordinate primary care, endocrinology, nursing education, nutrition, eye and fo
 
 **Definition & diagnosis**
 - Diabetes: **A1C ≥6.5%**, **FPG ≥126 mg/dL**, or **2-h OGTT ≥200 mg/dL**; any criterion should be **confirmed on a separate day** (Table 99-1 footnote, p1560); unless clear hyperglycemic symptoms, ADA verifies with two tests (p1561).
-- Prediabetes: **A1C 5.7–6.4%**, **FPG 100–125 mg/dL**, or **2-h OGTT 140–199 mg/dL** (p1560).
 - **~90%** of older adults with diabetes have type 2 disease (p1560).
 - GDM affects **~4%** of US pregnancies; **5–10%** of those women have persistent T2D postpartum; **20–50%** develop T2D within **5–10 years** (p1560).
 - Screen all adults **>65** with FPG and/or A1C; re-screen every **2–3 years**; consider **annual** testing if high-risk (BMI≥25, first-degree relative, HTN, low HDL/high TG, Table 99-3) (p1561).
@@ -175,8 +174,6 @@ Coordinate primary care, endocrinology, nursing education, nutrition, eye and fo
 - A1C–mortality relationship is U-shaped: lowest risk at **6–9%** (p1574).
 
 **CVD risk reduction**
-- Hazzard gives a BP goal **below 140/90 mmHg** for most (p1572). ADA 2026 recommends **below 130/80 mmHg** when safely attainable. For poor health, limited life expectancy or high treatment risk, a goal such as below 140/90 may be appropriate. Check standing BP (ADA 2026, recommendation 13.9).
-- ACE inhibitor or ARB first-line for hypertension when nephropathy is present (p1572).
 - Statins may be indicated for nearly all older diabetics except those with end-stage disease and very limited life expectancy; benefit at age ≥75 without ASCVD is still being studied (p1571).
 - If a statin alone doesn't reach the LDL-C goal, add ezetimibe or a PCSK9 inhibitor; if fasting triglycerides **>500 mg/dL**, add fish oil and/or fenofibrate to reduce pancreatitis risk (Table 99-8, p1572).
 - Aspirin **75–162 mg/d** recommended for secondary prevention (known CVD); primary prevention remains controversial because of bleeding risk (p1572).
@@ -193,6 +190,8 @@ Coordinate primary care, endocrinology, nursing education, nutrition, eye and fo
 - **DPP-4 inhibitors** (e.g., sitagliptin 100 mg qd) (p1577). Cautions: renal dose-adjust (except linagliptin); possible pancreatitis; possible heart-failure hospitalization.
 - **GLP-1 agonists** (e.g., liraglutide, semaglutide [also oral], dulaglutide) — injectable (semaglutide also oral), dose lines range from twice daily to once weekly; source table does not pair each dose line to its named agent (p1577–1578). Cautions: nausea/vomiting, possible pancreatitis, avoid exenatide/lixisenatide if **eGFR <30**.
 - **SGLT-2 inhibitors** (e.g., empagliflozin 10–25 mg qd) (p1578). Cautions: avoid if **eGFR <25–30** — Table 99-11 (p1578); genital/UTI infections; DKA (rare in T2DM; the volume effect may contribute) (p1578, p1580).
+
+> Current practice (not the book): Distinguish reduced glucose-lowering efficacy at low eGFR from cardiorenal protection. In T2D with CKD, an SGLT2 inhibitor with demonstrated benefit can be initiated at eGFR ≥20 mL/min/1.73 m² and continued below that threshold if tolerated until kidney replacement therapy. [ADA CKD standards, 2026](https://pubmed.ncbi.nlm.nih.gov/41358881/).
 - **Thiazolidinediones** (pioglitazone 15–45 mg qd) (p1578). Cautions: avoid in heart failure (fluid retention), bone-fracture risk.
 - **Meglitinides** (repaglinide 0.5–4 mg before meals) (p1578). Cautions: hypoglycemia; avoid combining with gemfibrozil (p1580).
 

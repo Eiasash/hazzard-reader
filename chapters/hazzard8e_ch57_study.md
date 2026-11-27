@@ -2,8 +2,6 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 
 # Chapter 57 Study: Cognitive Changes in Normal and Pathologic Aging
 
-## Summary
-
 ## Normal aging — what declines vs what's preserved
 
 <span data-exam-page="854"></span>
@@ -22,6 +20,8 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - **T2DM** affects **20-30%** of US adults >65; complex attention and verbal memory encoding are the main deficits (p859-860)
 - **CKD** cognitive impairment prevalence **10-40%**, depending on disease severity/duration (p860)
 - High-dose **vitamin E (2000 IU/day)** reduced *functional* decline in mild-to-moderate AD in a large trial, though evidence for prevention is weak overall (p860-861)
+
+> Current practice (not the book): Evidence for vitamin E prevention is uncertain. NICE advises against offering vitamin E supplements to treat dementia. Discuss bleeding risk and other medicines before a patient takes high doses. [NICE NG97, 2018](https://www.nice.org.uk/guidance/ng97/chapter/Recommendations).
 - Depression prevalence in older adults: **11-30%** (p861)
 - Table 57-2's per-condition grid flags **AD, VaD, and PD** risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, COPD, and sleep apnea are listed for **AD and VaD only** (no PD); nutritional deficiency for **AD and Wernicke-Korsakoff syndrome**; thyroid disease for **AD** alone (Table 57-2, p857-858)
 - Per the table, several of these cognitive effects can improve with treatment (only limited evidence for cardiac rehab; improvement often during year 1 post-surgery; antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but **B12/vitamin D deficits may persist** despite supplementation, and some thyroid patients **don't return to cognitive baseline** (Table 57-2, p857-858)
@@ -40,7 +40,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 ## MCI due to AD
 
 - NIA/AA criteria: (1) cognitive concern, (2) objective impairment in ≥1 domain, (3) preserved functional independence, (4) no dementia (p868-869)
-- **80%** of those diagnosed with MCI progress to AD within **5-8 years**; conversion rate **~10-15%/year** vs **1-2%/year** in the general population (p869)
+- In the longitudinal studies summarized by the book, up to **80%** of those diagnosed with MCI progressed to AD within **5-8 years**; conversion rate **~10-15%/year** vs **1-2%/year** in the general population (p869)
 - **15-40%** of MCI patients later "revert" to normal on testing — more likely if community-based (not clinic-based), biomarker-negative, younger, fewer comorbidities, more education (p869)
 
 ## AD dementia
@@ -52,7 +52,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 ## FTLD
 
 - Onset typically **late 50s to early 60s** — the **2nd most common** dementia in patients under 65 (p873)
-- **30-40%** of FTLD cases are linked to genetic mutations (GRN, MAPT) (p873)
+- **30-40%** of FTLD cases are linked to genetic mutations, including GRN and MAPT; C9orf72 expansion is another cause (Ch 63, p990) (p873)
 - **Behavioral variant FTLD (bvFTD)** accounts for **50-60%** of all FTLD diagnoses (p873)
 - Up to **75%** of pathologically confirmed FTLD patients also meet clinical criteria for probable AD (p873)
 
@@ -90,8 +90,12 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 
 - Sporadic prion disease (CJD): typically diagnosed **60s**, age range **40-80** (p876)
 - Prion disease: early cognitive signs are vague (poor memory, concentration, problem solving) with psychiatric symptoms; frank neurologic signs are not common early, but hyperreflexia, impaired coordination, changes in saccadic eye movements and incontinence may appear as it progresses. Diagnosis: EEG changes, MRI hyperintensities, abnormal 14-3-3 protein in CSF. Given the rapid course and late diagnosis, palliative care often consists largely of hospice care, with social work, end-of-life decisions and bereavement support (p876)
+
+> Current practice (not the book): In a progressive neuropsychiatric disorder, positive RT-QuIC in CSF or another tested tissue can meet probable sporadic CJD criteria. CSF 14-3-3 is an alternative supportive test in the appropriate clinical pathway and is less specific. [CDC sporadic CJD criteria, 2026](https://www.cdc.gov/creutzfeldt-jakob/hcp/clinical-overview/).
 - **Normal pressure hydrocephalus (NPH)** makes up **~6%** of dementia cases; classic triad = gait/balance disturbance, urinary incontinence, cognitive deficits; unlike most other dementias, cognitive symptoms often present *later* in the course (p876)
-- NPH shunt outcomes: at 6 months, **83%** improved gait and **46%** improved memory; at 5 years, only **39%** of surviving shunt cases remained gait-improved and **<10%** still showed cognitive improvement (p876)
+- In one five-year follow-up study of shunted NPH patients, at 6 months, **83%** improved gait and **46%** improved memory; at 5 years, only **39%** of surviving shunt cases remained gait-improved and **<10%** still showed cognitive improvement (p876)
+
+> Current practice (not the book): PENS enrolled patients selected for shunting after a positive CSF-drainage response. Active shunting improved gait velocity at three months compared with a placebo valve setting. The trial did not establish comparable short-term gains in cognition or bladder symptoms. [PENS randomized trial, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12682072/).
 - CDC reported that **over half** of people living with diagnosed HIV in the US were aged 50 or older at the end of 2021. Hazzard cites an older 10% figure and reports **2–3%** progression to HIV-associated dementia with combination ART and **50–60%** prevalence of milder cognitive deficits in the cohorts it reviews (p876).
 - Neurosyphilis dementia classically emerges **5-25 years** after initial infection (p876)
 - Syphilitic dementia may present with hallucinations, delusions, mood disturbance, personality change, strokes, ataxia or cognitive decline. There is only limited evidence of cognitive benefit from penicillin; it is more likely with comorbid HIV and belongs in the differential of dementia of unclear cause (p876–877)

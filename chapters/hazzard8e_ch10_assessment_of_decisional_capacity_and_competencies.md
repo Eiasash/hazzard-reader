@@ -4,7 +4,7 @@ Margaret A. Drickamer, Sarah Stoneking
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> Not cited in the 2020-2026 past papers.
+> September 2024 Q77 cites the capacity assessment on p151.
 
 > **Source and method.** Printed pages 151-156, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

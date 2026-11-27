@@ -52,13 +52,15 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 
 **Anticoagulant initiation versus continuation.** The 2023 Beers criteria generally favor starting a direct oral anticoagulant for eligible older adults with nonvalvular atrial fibrillation or venous thromboembolism. Warfarin brings greater major bleeding risk and generally comparable or lower effectiveness. Alternatives can be contraindicated or inaccessible. An older patient already doing well on warfarin raises a separate continuation decision (AGS Beers 2023, Table 2, p2057).
 
+> Current practice (not the book): For long-term treatment of nonvalvular atrial fibrillation or VTE in older adults, the Beers panel advises avoiding rivaroxaban when a safer anticoagulant such as apixaban is suitable. Observational comparisons found greater major and gastrointestinal bleeding with rivaroxaban. [AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
+
 <span data-exam-ids="mcq-1003c2e78dcf195a31c9d5a2"></span>
 
 **Clonidine during hypertension treatment.** Central alpha agonists may cause bradycardia, orthostatic hypotension and adverse CNS effects. Dizziness and near-syncope in June 2026 Q76 make that profile relevant. The Beers recommendation is to avoid clonidine as first-line treatment for hypertension. The comparison does not imply identical risks for all antihypertensives (AGS Beers 2023, Table 2, p2058).
 
 **Absorption versus clearance.** Drug absorption is largely preserved with aging. Changes in lean body mass and fat affect distribution, while hepatic metabolism and renal excretion may reduce clearance. December 2021 asked how more body fat affects a lipid-soluble drug. This mechanism does not determine a precise duration of clonazepam action. Assess other medications, organ function, sensitivity and clinical response when choosing a dose. Shorter-acting benzodiazepines and Z-drugs can still carry substantial fall risk (p302–303).
 
-**Risk depends on the indication.** For nursing-home residents with dementia, reserve antipsychotics for situations in which the benefit clearly outweighs the risk, such as behavior posing a **risk to the resident or others**. Reassess the need and consider dose reduction or discontinuation (p308). Review the reason for prolonged acid suppression, including exceptions such as erosive esophagitis (pp303–304, 312).
+**Risk depends on the indication.** For nursing-home residents with dementia, reserve antipsychotics for situations in which the benefit clearly outweighs the risk, such as behavior posing a **risk to the resident or others**. Reassess the need and consider dose reduction or discontinuation (p308). Review the reason for prolonged acid suppression, including erosive esophagitis. Beers advises avoiding scheduled proton-pump inhibitors beyond eight weeks unless an ongoing indication warrants maintenance ([AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/)).
 
 > Current practice (not the book): the 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning. The 2023 AGS Beers Criteria reserve antipsychotics for dementia-related behavior when nonpharmacologic measures fail or cannot be used and the person threatens substantial harm to self or others — [AGS Beers Criteria 2019, Table 2](https://doi.org/10.1111/jgs.15767) and [AGS Beers Criteria 2023, Table 2](https://doi.org/10.1111/jgs.18372).
 
@@ -107,6 +109,8 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 
 **Drug cautions & exam traps**
 - NSAIDs can cause gastrointestinal bleeding and renal impairment; for osteoarthritis consider exercise/weight reduction, and acetaminophen before NSAIDs when medication is needed (p312).
+
+> Current practice (not the book): For knee osteoarthritis, offer a topical NSAID before considering an oral NSAID. If oral treatment is needed, review gastrointestinal, renal and cardiovascular risks and use the lowest effective dose for the shortest time. [ACR/Arthritis Foundation osteoarthritis guideline, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC11488261/).
 - Tolerating a drug does not prove ongoing benefit. Long-term digoxin with normal systolic function illustrates potential risk without benefit (p312).
 - Trial participants may poorly represent frail, multimorbid older adults and older women. Inappropriate prescribing includes omission of beneficial therapy, not only excessive medication (p309, p315).
 

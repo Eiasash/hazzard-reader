@@ -15,7 +15,6 @@ build_drug_index()
 version = re.search(r"CACHE_VERSION = '([^']+)'", (ROOT / 'sw.js').read_text(encoding='utf-8')).group(1)
 for name, pattern, replacement in [
     ('js/reader-status.js', r"const VERSION = '[^']+'", f"const VERSION = '{version}'"),
-    ('index.html', r'(id="readerStatusChip"[^>]*aria-label=")v\d+(?:-r\d+)?( - checking offline copy)', rf'\g<1>{version}\2'),
 ]:
     path = ROOT / name
     with path.open(encoding='utf-8', newline='') as source:
@@ -62,6 +61,8 @@ paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png',
 from build_chapter_layout import build as build_chapter_layout
 paths.update(build_chapter_layout(manifest))
 paths.update(question_files)
+from generate_startup_data import generate as generate_startup_data
+generate_startup_data(ROOT,paths)
 paths.update({'js/question-data.js','data/verification-registry.json'})
 # Only the current chapter's stable highlight IDs are needed at startup.
 registry = json.loads((ROOT / 'data/mark-unit-registry.json').read_text(encoding='utf-8'))

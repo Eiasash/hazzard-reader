@@ -40,6 +40,8 @@ Definition Lower extremity arterial disease is commonly referred to as periphera
 
 Epidemiology Risk factors for PAD are similar to those of coronary artery disease and include smoking history, advanced age, male gender, and positive family history. The prevalence of PAD increases with increasing age with up to 20% of people older than 75 years having some form of lower extremity arterial disease, although classic claudication symptoms are present in less than half of these individuals.
 
+> *[sic — The same printed page gives a different age denominator in its introduction and Key Clinical Point 1 (older than 70). The epidemiology paragraph says older than 75. Keep each percentage associated with its own wording.]* [Hazzard Ch78, p1209](?chapter=78#p1209).
+
 Presentation The presentation of PAD includes a range of symptoms. The most common presentation is that of claudication, or cramping of the lower extremity muscles after walking a fixed distance. The cramping or aching is primarily in the calves and buttocks and is relieved within 10 minutes of cessation of activity. The above classic presentation of claudication has unfortunately been shown to be present
 
 <a id="p1210"></a>**[p. 1210]**

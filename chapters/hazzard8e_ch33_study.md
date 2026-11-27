@@ -10,6 +10,8 @@ Study summary of Chapter 33; the book and the full chapter are the reference.
 - Assess task performance, not acuity alone: field loss, contrast, glare, visual perception and lighting all matter (p475, p478).
 - Rehabilitation may help with better-eye acuity below **20/50**, field loss despite intact acuity, reduced contrast or adaptation difficulties (p475).
 
+> Current practice (not the book): Consider vision rehabilitation when acuity in the better eye is worse than 20/40, or when field loss, reduced contrast sensitivity or another deficit interferes with everyday activities. Functional impairment can justify referral even with better measured acuity. [AAO Preferred Practice Pattern, 2022](https://www.aao.org/Assets/354efadd-457b-4f59-a2ac-66beb0253b72/638070751054170000/vision-rehabilitation-ppp-pdf).
+
 **Assess and refer**
 - Obtain the person's goals for reading, mobility, medication use, household activities and social participation (p475-476).
 - Arrange low-vision eye assessment and task-specific device prescription, plus certified rehabilitation professionals for training and environmental assessment (p474-475).

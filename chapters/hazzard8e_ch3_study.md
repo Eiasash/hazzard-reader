@@ -6,7 +6,7 @@ Study summary of Chapter 3; the book and the full chapter are the reference.
 
 ## What the exams asked
 
-- Which immune function declines with age? Distinguish neutrophil chemotaxis from phagocytosis, baseline cytokine production and the proportion of memory T cells. [December 2021 Q20](?chapter=3#asked-chapter).
+- Which immune function declines with age? Neutrophil chemotaxis, phagocytosis and intracellular killing decline with age. Baseline inflammatory cytokines and the proportion of memory T cells follow different patterns (p50). [December 2021 Q20](?chapter=3#asked-chapter).
 
 ## Neutrophil recruitment and clearance
 

@@ -32,6 +32,8 @@ Look first for slowness and loss of amplitude with repeated movement, often with
 
 The 2015 MDS criteria for clinically established PD require bradykinesia, no exclusion criterion and **at least two of four** supportive findings: a levodopa response, levodopa-induced dyskinesia, rest tremor, and olfactory loss or cardiac sympathetic denervation. A rest tremor beginning in one hand supports PD; it is not a prerequisite. Impaired postural reflexes can accompany bradykinesia later. Early prominent postural instability, symmetric onset, an absent rest tremor or a poor levodopa response should prompt consideration of an alternative (<a href="?chapter=61#p939">pp939</a>–<a href="?chapter=61#p941">941</a>, <a href="?chapter=61#book-table-61-3">Tables 61-3</a> and <a href="?chapter=61#book-table-61-4">61-4</a>).
 
+> **Current practice: Clinical criteria for Parkinson disease.** The MDS criteria define motor parkinsonism by bradykinesia plus rest tremor or rigidity. Clinically established PD requires no absolute exclusions, at least two supportive criteria and no red flags. Probable PD allows up to two red flags, each counterbalanced by a supportive criterion. [MDS clinical diagnostic criteria, 2015](https://pubmed.ncbi.nlm.nih.gov/26474316/).
+
 ### What levodopa and DaT imaging can tell you
 
 Bradykinesia, limb rigidity and distal dexterity usually respond best to levodopa. Tremor responds variably. Axial symptoms such as hypophonia, dysphagia and postural instability often persist because they also reflect nondopaminergic injury (<a href="?chapter=61#p939">p939</a>).
@@ -82,6 +84,8 @@ Look for acute illness and other psychoactive drugs first. If hallucinations tra
 
 Clozapine may be considered if quetiapine or pimavanserin is ineffective or hallucinations are frightening. The printed regimen specifies **weekly blood counts**, an agranulocytosis risk of **1% to 2%**, and discontinuation if leukopenia develops (<a href="?chapter=61#p946">pp946</a>–<a href="?chapter=61#p947">947</a>).
 
+> **Current practice: US clozapine monitoring.** FDA removed the US REMS programme effective 13 June 2025. Severe neutropenia remains a boxed warning. Continue clinical ANC monitoring and follow the local product label, including its population-specific thresholds. [FDA safety communication, 2025](https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine).
+
 > **Current practice: clozapine blood counts.** For stable normal absolute neutrophil counts, the US Clozaril label specifies weekly ANC in months 1–6, every 2 weeks in months 7–12 and monthly thereafter — [US prescribing information, Table 1](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a).
 
 ### Sleep, autonomic symptoms and cognition
@@ -102,7 +106,7 @@ Deep brain stimulation of the subthalamic nucleus or globus pallidus internus wa
 
 Focused ultrasound produces an irreversible lesion that cannot be reprogrammed. The printed description uses “radiofrequency ablation to the STN,” mentions other possible targets and says the procedure “does not involve anesthesia” (<a href="?chapter=61#p949">p949</a>).
 
-> **Current practice: focused ultrasound target and anesthesia.** The 2018 US device indication specifies **unilateral thalamotomy** for medication-refractory tremor in tremor-dominant PD, using ultrasound thermal ablation of the ventral intermediate nucleus. Local anesthesia has been used for placement of the stereotactic frame — [FDA device indication, 2018](https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150038S006B.pdf), [prospective PD thalamotomy study, 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8280323/).
+> **Current practice: Focused ultrasound targets and eligibility.** The 2018 US device indication specifies **unilateral thalamotomy** for medication-refractory tremor in tremor-dominant PD, using ultrasound thermal ablation of the ventral intermediate nucleus. Local anesthesia has been used for placement of the stereotactic frame — [FDA device indication, 2018](https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150038S006B.pdf), [prospective PD thalamotomy study, 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8280323/). US device indications subsequently expanded beyond the original tremor target. The 2025 supplement includes pallidothalamic tractotomy for selected advanced idiopathic PD with medication-refractory motor complications and permits a staged contralateral treatment in eligible patients. These are distinct lesion targets and indications. [FDA Exablate Neuro supplement S037, 2025](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150038S037).
 
 **Pitfall.** <a href="?chapter=61#book-table-61-7">Table 61-7</a> lists antimuscarinics for tremor. Avoid trihexyphenidyl and benztropine after **age 70** because of cognitive impairment, hallucinations and an association with freezing of gait (<a href="?chapter=61#p946">pp946</a>–<a href="?chapter=61#p947">947</a>).
 

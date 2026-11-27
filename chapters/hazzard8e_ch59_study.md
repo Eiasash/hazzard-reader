@@ -20,6 +20,8 @@ Vascular risk factors (high midlife cholesterol/BP, diabetes, metabolic syndrome
 
 **About 1/3 of AD cases worldwide** might be attributable to potentially modifiable risk factors (<a href="?chapter=59#p896">p896</a>).
 
+> **Current practice: Modifiable dementia risk factors.** The 2024 Lancet Commission estimated a population-attributable fraction of approximately 45% across 14 potentially modifiable risk factors, including high LDL cholesterol and untreated vision loss. This is a population estimate under causal assumptions, not an individual prediction. [Lancet Commission, 2024](https://pubmed.ncbi.nlm.nih.gov/39096926/).
+
 TBI: WWII veterans with moderate TBI had **2×** AD risk, severe TBI with loss of consciousness **4×** (<a href="?chapter=59#p896">p896</a>).
 
 Late-life depression history → AD risk **OR 1.65** (95% CI 1.42–1.92) (<a href="?chapter=59#p896">p896</a>); >30% of AD patients develop depression during the illness (may be the first symptom).
@@ -39,6 +41,8 @@ Hallmarks: amyloid (Aβ) plaques + neurofibrillary tangles (tau); neuritic plaqu
 2012 NIA-AA neuropathologic "ABC score" (**A**myloid/**B**raak/**C**ERAD) grades autopsy findings as none/low/intermediate/high (<a href="?chapter=59#p899">p899</a>).
 
 **10–30%** of clinically diagnosed AD-dementia patients lack amyloid/tau pathology at autopsy — clinical diagnosis and biological (autopsy) diagnosis are not the same thing (<a href="?chapter=59#p908">p908</a>). 2018 AT(N) framework reframes AD as a biological (amyloid+tau), not purely clinical, diagnosis.
+
+> **Current practice: Blood biomarkers for symptomatic cognitive impairment.** The 2024 Alzheimer’s Association criteria include validated Core 1 biomarkers of Alzheimer pathology. In 2025 the FDA cleared a plasma pTau217/β-amyloid 1-42 ratio test to aid evaluation of symptomatic adults in specialist care. Interpret the result with the clinical assessment rather than using it as a stand-alone screening test. [FDA blood test clearance, 2025](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease).
 
 Nonpharmacologic care: exercise, cognitive/social stimulation, safety review (driving, firearms, stove), caregiver support/respite.
 

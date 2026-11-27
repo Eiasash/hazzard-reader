@@ -312,6 +312,8 @@ Primary VTE Prophylaxis Extensive clinical practice guidelines have been publish
 
 ![Table 96-10](hazzard8e_ch96_table-96-10_p1522.webp)
 
+> **[sic]** The original Padua score assigns one point for BMI ≥30 kg/m² and two for trauma or surgery in the previous month. Table 96-10 prints BMI >30 and calls the trauma or surgery “recent” without specifying the month. [Barbar et al., 2010, and Padua criteria in the institutional protocol](https://www.zorgsaam.org/voor-verwijzers/transmuraal-protocol-antistolling/bijlage-1/).
+
 *TABLE 96-10 ■ MODEL FOR DETERMINING A RISK OF VENOUS THROMBOEMBOLISM (VTE) IN HOSPITALIZED MEDICAL PATIENTS*
 
 indications for VTE prophylaxis and should be referenced for detailed guidance. In general, all hospitalized patients should be evaluated for VTE prophylaxis on an individualized basis. Clinical scoring systems exist to guide these decisions for medical and surgical patients. For example, in medical patients, the Padua Prediction Score (Table 96-10) incorporates intrinsic factors and acute physiologic condition, with points assigned on a weighted scale. A cumulative score greater than or equal to 4 points is considered high risk and is associated with a 32-fold increased incidence of VTE compared to a low-risk score, which is less than 4 points. When the VTE risk is high and pharmacologic prophylaxis is being considered, bleeding risk must also be estimated. Although, bleeding risk scoring systems to guide VTE prophylaxis are not well developed or validated, active peptic ulcer disease, thrombocytopenia (platelets < 50 k/μL), and age greater than 85 are considered to carry excessive bleeding risk and may preclude pharmacologic prophylaxis.

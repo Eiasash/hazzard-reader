@@ -68,6 +68,8 @@ Standard ART regimens require medications from at least two different classes, m
 
 There are many antiretrovirals from which to choose, and this selection should be informed by consultation with an experienced HIV care provider. Selection of a regimen incorporates likelihood of resistance (and HIV-1 genotyping if available), cost, patient preference, comorbidities, preexisting organ system injury and anticipated toxicity, and concomitant medications. Patients are followed closely for the first several months of therapy to ensure tolerability, safety, and HIV-1 viral load suppression. After the first 6 to 12 months of therapy, if viral suppression is achieved and the patient has a CD4+ count above 350 to 500 cells/mL, HIV-1 viral load monitoring can occur approximately every 6 months and CD4+ count annually or less. While selection of antiretroviral regimens should be informed by an experienced HIV provider, once patients have achieved HIV-1 viral load suppression, care could be managed by a primary care provider or geriatrician with consultation as needed.
 
+> **[sic]** CD4 counts used for HIV monitoring are expressed per cubic millimeter (equivalently per microliter), not per milliliter. [NIH adult and adolescent HIV treatment guidelines](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/plasma-hiv-1-rna-cd4-monitoring).
+
 Many toxicities with ART are predictable. Weight gain is common with any regimen, but appears to be more common and significant with newer antiretroviral regimens. While some weight gain may be beneficial among those who are underweight, in many, weight gain is associated with incident hypertension, hyperlipidemia, diabetes, and hepatic steatosis. Thus, all patients initiating ART should be provided general nutrition and physical activity
 
 recommendations to avoid excess weight gain. Physical activity prescriptions specific for adults with HIV have been developed and can be given at the time of ART to provide strategies to maintain adequate levels of physical activity.
@@ -186,6 +188,8 @@ Herpes zoster–associated acute neuritis produces dermatomal neuralgic pain in 
 
 *FIGURE 107-3. A patient with herpes zoster illustrates a range of lesions (eg, vesicles, populates, and crusting).*
 
+> **[sic]** The skin-lesion term in this caption is papules. The page prints “populates”.
+
 experience the delayed onset of pain days or weeks after rash onset. The neuritis is described as burning, deep aching, tingling, itching, or stabbing. A subset of patients may develop severe pain, especially those with trigeminal nerve involvement. Acute herpes zoster pain can interfere with all activities of daily living (ADLs), but interference is greatest for instrumental ADLs, as well as sleep, general physical activity, and leisure activities. As overall pain burden increases, patients experience poorer physical, role, and emotional functioning.
 
 The most feared complication of herpes zoster among older adults is PHN. PHN patients describe the quality of their pain as burning, throbbing, stabbing, shooting, sharp, aching, gnawing, tiring, or tender. The pain may be spontaneous and/or stimulus-evoked. Spontaneous pain may be constant aching or burning and/or brief, intermittent shock-like sensations. Stimulus-evoked pain consists of allodynia or hyperpathia. Allodynia is pain elicited by an innocuous stimulus and is particularly problematic. A cold wind, clothes, or bed sheets against the allodynic skin may cause debilitating pain. Hyperpathia is an exaggerated pain after a mildly painful stimulus. A minor bump of the affected dermatome against an object can cause severe pain that lasts for hours. Patients may experience discomfort that is not described as pain such as numbness or itching. Postherpetic itch can be maddening and appears to be mediated by damage and dysfunction of peripheral and central itch-specific neurons.
@@ -197,6 +201,8 @@ Other complications include ocular inflammation in the setting of ophthalmic her
 <a id="p1727"></a>**[p. 1727]**
 
 area of the face and in the mouth. Cranial nerve VII and VIII involvement, or Ramsey Hunt syndrome, is characterized by facial palsy in combination with herpes zoster lesions of the ipsilateral external ear, ear canal, tympanic membrane, or hard palate. Symptoms include tinnitus, vertigo, deafness, problems with balance, and facial paresis. Involvement of cranial nerves IX and X may produce pharyngeal or laryngeal lesions and resulting pharyngitis or laryngitis. Motor paralysis, from VZV-induced destruction of motor neurons in the anterior spinal horn or motor radiculitis corresponding to the extension of VZV infection from the involved sensory ganglion, involves muscle groups with innervation that is contiguous with that of the affected dermatome. Painful Bell palsy in an older adult strongly suggests herpes zoster.
+
+> **[sic]** The name is Ramsay Hunt syndrome. The print uses “Ramsey”. [Kanerva et al., 2020](https://pubmed.ncbi.nlm.nih.gov/31982948/).
 
 ### EVALUATION
 
@@ -233,6 +239,8 @@ Ophthalmic zoster with ocular involvement requires ophthalmological consultation
 Recombinant Zoster Vaccine The adjuvanted recombinant zoster vaccine (RZV; Shingrix©) is a powerful tool to prevent herpes zoster and PHN in older adults. It contains two components: recombinant VZV surface glycoprotein E (gE) antigen and the AS01B adjuvant system. AS01B adjuvant contains monophosphoryl lipid A (MPL) and QS-21, a saponin, combined in a liposomal formulation. VZV gE elicits an immune response against VZV, while the adjuvant strongly potentiates the immune response by enhancing the innate immune response to the antigen.
 
 Efficacy The efficacy of RZV was demonstrated in over 30,000 immunocompetent community-dwelling elders in the randomized, blinded, placebo-controlled Zoster Efficacy Study in Adults 50 Years of Age or Older (ZOE-50) and Zoster Efficacy Study in Adults 70 Years of Age or Older (ZOE-70) (Figure 107-4). The intervention was two doses of RZV at a 2-month interval. The median follow-up time was 3.2 years in the ZOE-50 study and 3.7 years in the ZOE-70 study. The vaccine efficacy (VE) for the prevention of herpes zoster was 97% (95% confidence interval [CI] = 89.6–99.3) in persons aged 50–59 and 97% (95% CI = 90.1–99.7) in persons aged 60–69 (see Figure 107-3). The VE against herpes zoster was 91% (95% CI = 86.8–94.5) in participants aged 70 years or older using pooled data from the ZOE-50 and ZOE-70 studies.
+
+> **[sic]** The vaccine-efficacy chart is Figure 107-4 on p1729. Figure 107-3 on p1726 illustrates the rash.
 
 VE in the first year after vaccination was 98% (95% CI = 90.9–99.8). It was 85% (95% CI = 69.0–93.4) or higher for the remaining 3 years of the study in persons aged 70 or older.
 

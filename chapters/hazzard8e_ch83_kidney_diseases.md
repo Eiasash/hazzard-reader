@@ -19,6 +19,8 @@ Mark Unruh, Nitin Budhwar
 
 #### Key Clinical Points
 
+*Printed location: points 1–3 on [p1277](?chapter=83#p1277), points 4–8 on [p1278](?chapter=83#p1278).*
+
 1. In patients with CKD, management of elevated blood pressure and avoidance of nephrotoxins can delay progression to ESKD.
 2. Complications of CKD include iron-deficient anemia and secondary hyperparathyroidism.
 3. Proteinuria in the absence of hematuria is a sign of kidney damage, is a risk factor for progression of CKD to ESKD, and requires evaluation.
@@ -473,6 +475,8 @@ unsafe, or violent behavior may adversely affect care provided to others at that
 ### Health-Related Quality Of Life (HRQOL)
 
 Maintaining health-related quality of life (HRQOL) is very meaningful for older patients with chronic illness. Studies of older patients undergoing dialysis have shown markedly lower functional status compared to older community-dwelling adults. However, hemodialysis has improved since these early studies and there have been advances in technology, treatment of comorbidities such as anemia and hyperparathyroidism, and quality improvement initiatives that have improved the HRQOL of patients on dialysis. As shown in **Figure 83-3** , there is evidence of both decrements in physical and mental well-being associated with dialysis compared to the general population across regions. While there is a marked decrement in physical well-being with older age, there are similar scores for physical well-being across age groups. These findings may be informative to older patients and health care providers and they also underline the need to improve HRQOL among all patients undergoing dialysis. Interventions aimed at preserving residual kidney function, monitoring HRQOL, treatment of anemia, engaging the patient in physical therapy and rehabilitation, applying palliative care principles, and perhaps more frequent and longer hemodialysis treatments may preserve HRQOL among older patients undergoing hemodialysis.
+
+> *[sic — The second comparison refers to mental well-being: Figure 83-3 distinguishes the mental and physical component scores. On p1292 “PPD” refers to peritoneal dialysis (PD).]* [Hazzard Ch83, Figure 83-3](?chapter=83#p1291).
 
 ### Choice Of Renal Replacement Therapy
 

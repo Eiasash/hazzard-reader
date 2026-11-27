@@ -10,7 +10,7 @@ Study summary of Chapter 85; the book and the full chapter are the reference.
 - Peptic ulcer risk reflects H. pylori, mucosa-damaging drugs and impaired mucosal defenses; review NSAIDs and antithrombotic exposure (p1315).
 
 **Acid suppression & H. pylori**
-- PPIs heal erosive esophagitis more effectively than H2 blockers. Studied daily regimens include omeprazole **20 mg** and pantoprazole **40 mg** (p1319).
+- PPIs heal erosive esophagitis more effectively than H2 blockers.
 - Reassess the indication for ongoing acid suppression; the chapter explicitly includes deprescribing when warranted (p1315). The book reports associations between PPI use and hip, wrist or spine fractures, and a meta-analysis reporting about **twice the risk of C. difficile infection** (pp1322–1323).
 - H. pylori tests can be falsely negative during antisecretory or antibiotic treatment and with gastric atrophy; biopsy location matters (p1327).
 - Confirm eradication, generally at least **1 month** after treatment, using breath/stool testing or endoscopy when clinically indicated (p1327).
@@ -109,9 +109,13 @@ Endoscopy provides diagnosis, predicts risk and permits treatment. In Figure 85-
 
 Assess suspected variceal hemorrhage on its own pathway. The chapter describes early use of a vasoactive agent such as somatostatin, octreotide or terlipressin when variceal bleeding is suspected. Endoscopic band ligation and management of underlying portal hypertension address a different mechanism from clipping an ulcer vessel. In a patient at high risk of liver failure or recurrent hemorrhage, a portosystemic shunt may be considered in an appropriate specialist setting. For recurrent variceal hemorrhage, beta-blockers and repeat ligation have roles, but hypotension, fatigue and orthostatic effects may constrain beta-blockade in a frail older person (p1333–1335).
 
+> Current practice (not the book): For secondary prophylaxis after esophageal variceal bleeding, combine a nonselective beta-blocker with endoscopic variceal ligation when tolerated. Reassess beta-blockade if hypotension or kidney injury develops. Rebleeding despite combination therapy warrants consideration of TIPS. [Baveno VII consensus, 2022](https://doi.org/10.1016/j.jhep.2021.12.022).
+
 ### Predicting recurrence and preventing the next bleed
 
 Table 85-9 compares the pre-endoscopic Glasgow-Blatchford score (0–23), clinical/endoscopic Rockall score (0–11) and eight-domain frailty-based Multidimensional Prognostic Index (0–1) (p1335). The Glasgow-Blatchford assessment uses pre-endoscopic information such as blood urea, hemoglobin, pressure, pulse, melena, syncope and relevant liver or cardiac disease to estimate the likelihood of needing intervention. The book identifies a score of **0** as low risk. Rockall adds endoscopic diagnosis and stigmata to its clinical assessment and focuses on recurrence and mortality. The multidimensional prognostic index addresses a different question: functional status, nutrition, cognition, disease burden, medication burden and social circumstances can influence the eventual outcome even after a bleeding lesion is controlled. A favorable endoscopic appearance does not eliminate the need to assess what help the patient will require after discharge (p1334–1335).
+
+> Current practice (not the book): A Glasgow-Blatchford score of 0–1 can identify selected very-low-risk patients with upper GI bleeding for outpatient management and follow-up. Hemodynamic instability or another reason for admission overrides the score. [ACG upper GI bleeding guideline, 2021](https://pubmed.ncbi.nlm.nih.gov/33929377/).
 
 For secondary prevention, ask why aspirin was prescribed. The book advises early resumption after bleeding stops when established cardiovascular disease makes it important, ideally in **1–3 days** and within **7 days**, alongside long-term PPI protection. It generally argues against restarting aspirin used solely for primary prevention in most such patients. Continued NSAID use should be reconsidered; where unavoidable the chapter describes a selective COX-2 inhibitor at the lowest effective dose with daily PPI. Confirm H. pylori clearance and review co-prescribed antithrombotics. Preventing another bleed and preventing a vascular event are decisions to be made together (p1334).
 
