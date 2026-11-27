@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "05ca37d8f9bc57dec050ead1c29d6e06db7551e2390f438fdd6ab329ea78b9ff",
-      "bytes": 24592
+      "sha256": "9c6b230caaf85c5aa713b5ed3574f9eac19f36ad8f3f9faf27af11aaa974d583",
+      "bytes": 24652
     },
     {
       "url": "./css/reading-companion.css",
@@ -8628,8 +8628,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "28d75551796ef40c101c14e81220e6466c4358888d99df2f0d840540e5c989cc",
-      "bytes": 1017332
+      "sha256": "050005bac74546f2d2f93bcc824900acee6f7cc2db600bd0ce537178bd4cfd14",
+      "bytes": 1017278
     },
     {
       "url": "./js/changed-questions.js",
@@ -8748,8 +8748,8 @@
     },
     {
       "url": "./js/study-page.js",
-      "sha256": "7867cccf856359f49eb93d9d37202eb3de9e39c73bb675adea9ccccd5bef1c07",
-      "bytes": 10754
+      "sha256": "6b6e708aa1e9cc0cd945cbf7432ed9608a44cdd51a48f337c94921f6fce5bcb7",
+      "bytes": 10616
     },
     {
       "url": "./manifest.json",

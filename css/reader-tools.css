@@ -274,3 +274,5 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 [data-bidi-edge="both"]{direction:ltr;unicode-bidi:isolate}
 [data-bidi-edge="start"]::before{content:"\2066"}
 [data-bidi-edge="end"]::after{content:"\2069"}
+
+.study-source-intro:not(:has([data-marked])){display:none}

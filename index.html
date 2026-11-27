@@ -5318,7 +5318,9 @@ const MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',MISSED_KEY='hazza
 const chapterTextPromises=new Map();
 function loadChapterText(entry){if(!chapterTextPromises.has(entry.file))chapterTextPromises.set(entry.file,fetch('chapters/'+entry.file).then(r=>{if(!r.ok)throw new Error('Chapter unavailable');return r.text()}).catch(e=>{chapterTextPromises.delete(entry.file);throw e}));return chapterTextPromises.get(entry.file)}
 function escHtml(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-const lightHome=!!(opensOnHome&&window.HazzardTemplates);
+// Direct tools need only the small shell. Home keeps the resume chapter in
+// this document so its Reading tab can reveal the existing reader immediately.
+const lightHome=!!(opensOnHome&&window.HazzardTemplates&&(startupTab||opensOnPractice));
 const lazyChapterId=String(requestedChapter||'46'),lazyChapter=window.HazzardTemplates?.[lazyChapterId];
 if(!lightHome&&lazyChapter){
   const response=await routeFetch(lazyChapter);
@@ -5691,13 +5693,10 @@ for(const n of loose){const u=newUnit(n.textContent,[],unitScope(n.parentElement
 if(['law','laws'].includes(copy.dataset.chapterId))HazzardLawCards.isolateLocators(copy);
 
 if(/^\d+s$/.test(String(copy.dataset.chapterId))){
-  const title=copy.querySelector(':scope > h1');
-  const reference=title?.previousElementSibling;
-  if(reference?.matches('p')&&/^Study summary of Chapter\b/i.test(reference.textContent.trim())){
-    const about=document.createElement('details'),label=document.createElement('summary');
-    about.className='about-chapter';label.textContent='About this Study page';
-    label.dataset.readerMetadata='study-reference';
-    title.after(about);about.append(label,reference);
+  for(const intro of copy.querySelectorAll(':scope > p')){
+    if(/^Study summary of Chapter\b/i.test(intro.textContent.trim())&&/\breference\.\s*$/i.test(intro.textContent)){
+      intro.classList.add('study-source-intro');
+    }
   }
 }
 for(const note of copy.querySelectorAll('.note')){

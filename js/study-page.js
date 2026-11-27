@@ -180,8 +180,6 @@ window.HazzardStudyPage = (() => {
       if (repeat && repeat.shown !== node) {
         for (const twin of repeat.items) {
           twin.hidden = twin !== node;
-          const link = twin.previousElementSibling;
-          if (link?.matches('.study-practice-reference')) link.hidden = !twin.hidden;
         }
         repeat.shown = node;
       }
