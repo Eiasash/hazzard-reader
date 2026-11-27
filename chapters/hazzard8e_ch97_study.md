@@ -65,7 +65,9 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-474c586de9e8dcfbda4ad496" data-exam-read-page="1539" data-reader-metadata="exam"></span>
 
-**Read the renal criteria using the edition named.** The table lists creatinine clearance below 60 mL/min, stones or nephrocalcinosis on imaging, or urinary calcium above 400 mg in 24 hours. The 2022 Fifth Workshop uses urinary calcium above 250 mg/day in women or 300 mg/day in men, and a skeletal T-score of minus 2.5 or lower. The exam value above 400 meets both published approaches. A coronary calcium score and signs of hypocalcemia do not assess renal stone risk (p. 1539). [Fifth International Workshop, surgical recommendations and Table 2](https://doi.org/10.1002/jbmr.4677).
+**Renal indications in the book.** Table 97-10 lists creatinine clearance below 60 mL/min, stones or nephrocalcinosis on imaging, or urinary calcium above 400 mg in 24 hours (p1539).
+
+> Current practice (not the book): For asymptomatic primary hyperparathyroidism, 24-hour urine calcium >250 mg in women or >300 mg in men is a renal surgical indication. Other indications include eGFR or creatinine clearance <60, nephrolithiasis or nephrocalcinosis, calcium >1 mg/dL above the upper limit, vertebral fracture, a T-score ≤−2.5, or age <50. [Fifth International Workshop, 2022, recommendation 5.1](https://doi.org/10.1002/jbmr.4677).
 
 **If observing.** Maintain hydration and normal recommended calcium intake, avoid excess calcium or vitamin D, minimize immobilization and review thiazides. Follow renal function and serum calcium annually and assess bone density at one- to two-year intervals. Cinacalcet can lower serum calcium and PTH. Bisphosphonates can improve bone density. Neither effect by itself proves fracture prevention in this disorder (pp. 1538–1539).
 
@@ -198,11 +200,11 @@ Baseline total testosterone <275 ng/dL; testosterone dosed to a target of 500–
 
 </details>
 
-**12. Name two lab/imaging thresholds that would indicate parathyroidectomy in an older patient with primary hyperparathyroidism.**
+**12. What laboratory and skeletal thresholds does Hazzard give for parathyroidectomy, and how do the current renal thresholds differ?**
 
 <details><summary>Answer</summary>
 
-Serum calcium >1 mg/dL above the upper limit of normal, and/or DXA T-score <−2.5 at any site (also creatinine clearance <60 mL/min or 24-hour urine calcium >400 mg/24h) (p1526 KCP, p1538–1539).
+The book gives serum calcium >1 mg/dL above the upper limit of normal, T-score <−2.5, creatinine clearance <60 mL/min or 24-hour urine calcium >400 mg (pp1526, 1538–1539). For asymptomatic primary hyperparathyroidism, the Fifth International Workshop uses 24-hour urine calcium >250 mg in women or >300 mg in men and a T-score ≤−2.5 (2022, recommendation 5.1).
 
 </details>
 

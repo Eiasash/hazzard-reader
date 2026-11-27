@@ -50,7 +50,6 @@ Despite widespread concerns about developing dementia and engagement in strategi
 
 *TABLE 21-1 ■ NATIONAL POLL ON HEALTHY AGING, RESPONDENT DEMOGRAPHICS (n = 2023)a*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 it, just 5% of all adults aged 50 to 64, and 10% among those with a family history of dementia, reported having ever discussed dementia prevention with their physician. Such conversations could be vital opportunities for older adults to have their concerns addressed by using more evidence-based approaches to preventing or delaying cognitive decline. For example, there is such evidence for regular
 
@@ -92,7 +91,6 @@ A quarter of older adults did not try to take less pain medication and half did 
 
 *FIGURE 21-1. Opioids. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/older-adults-experiences-opioid-prescriptions>) .org/reports-more/report/older-adults-experiences-opioid-prescriptions.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p290"></a>**[p. 290]**
 
@@ -100,7 +98,6 @@ A quarter of older adults did not try to take less pain medication and half did 
 
 *FIGURE 21-2. Marijuana. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/older-adults-perspective-medical-marijuana>) .org/reports-more/report/older-adults-perspective-medical-marijuana.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 while minimizing the risks of opioid medications. Since there are effective nonopioid medication and nonmedication strategies to treat pain for a variety of conditions, the opioids should not be the first-line treatment for most pain conditions.
 
@@ -134,7 +131,6 @@ Although urinary incontinence is common among older women, embarrassment about u
 
 *FIGURE 21-3. Sexual health. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://deepblue.lib.umich](<https://deepblue.lib.umich.edu/bitstream/handle/2027.42/143212/NPHA-Sexual-Health-Report_050118_final.pdf?sequence=1&isAllowed=y>) .edu/bitstream/handle/2027.42/143212/NPHA-Sexual-Health-Report_050118_final.pdf?sequence=1&isAllowed=y.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 that incontinence is a normal part of aging may prevent women from seeking treatment. In March 2018, the NPHA asked women aged 50 to 80 about their experiences with urinary incontinence and related discussions with their doctors.
 
@@ -146,7 +142,6 @@ incontinence, 41% described leakage as a problem, and 31% had leakage episodes a
 
 *FIGURE 21-4. Urinary incontinence. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/urinary-incontinence-inevitable-part-aging>) .healthyagingpoll.org/reports-more/report/urinary-incontinence-inevitable-part-aging.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p292"></a>**[p. 292]**
 
@@ -202,7 +197,6 @@ Patient portals have become the preferred form of communication with patients fo
 
 *FIGURE 21-5. Telehealth. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/telehealth-use-among-older-adults-and-during-covid-19>) .org/reports-more/report/telehealth-use-among-older-adults-and-during-covid-19.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p294"></a>**[p. 294]**
 
@@ -252,7 +246,6 @@ Ageism is prevalent, and older adults may experience ageism in their day-to-day 
 
 *FIGURE 21-6. Advance care planning. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/older-adults-experiences-advance-care-planning>) .healthyagingpoll.org/reports-more/report/older-adults-experiences-advance-care-planning.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 different forms of everyday ageism, positive views on aging, and health. The nine forms of ageism explored through this poll were organized into three categories: (1) exposure to ageist messages, (2) ageism in interpersonal interactions, and (3) internalized ageism (personally held beliefs about aging and older people), as summarized in Table 21-2.
 
@@ -268,7 +261,6 @@ better physical and mental health. Clinicians should be aware of how negative st
 
 *TABLE 21-2 ■ NINE FORMS OF EVERYDAY AGEISM AND THEIR PREVALENCE AMONG ADULTS AGED 50–80a*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p296"></a>**[p. 296]**
 
@@ -298,7 +290,6 @@ More than one in five of older adults (22%) had experienced an emergency or disa
 
 *FIGURE 21-7. Food insecurity. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/how-food-insecurity-affects-older-adults>) .healthyagingpoll.org/reports-more/report/how-food-insecurity-affects-older-adults.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p297"></a>**[p. 297]**
 
@@ -306,7 +297,6 @@ More than one in five of older adults (22%) had experienced an emergency or disa
 
 *FIGURE 21-8. Emergency planning. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/emergency-planning-among-older-adults>) .healthyagingpoll.org/reports-more/report/emergency-planning-among-older-adults.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 reported experiencing at least one such event during their lifetime. As shown in Figure 21-8, among older adults who required essential medications or health supplies, 82% had a 7-day supply of medication and 72% had a 7-day supply of health supplies, but only half reported having a 7-day supply of food and water. Among the 9% of respondents who used essential medical equipment that requires electricity, 25% had an alternative power source. Less than half had signed up for emergency alerts or had spoken to family or friends about an evacuation plan (see Figure 21-8).
 
@@ -334,7 +324,6 @@ Family caregivers play a vital role in providing support to older adults living 
 
 *FIGURE 21-9. Pets. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www.healthyagingpoll](<https://www.healthyagingpoll.org/reports-more/report/how-pets-contribute-healthy-aging>) .org/reports-more/report/how-pets-contribute-healthy-aging.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Overall, 7% of poll respondents (n = 148) identified as a caregiver of a person age 65 or older with dementia, Alzheimer disease, or another cognitive impairment. The majority of caregivers (62%) were women; 60% provided care to a parent, 19% to a spouse, and 21% to another relative, friend, or neighbor. Most caregivers (60%) have been providing care for 1 to 5 years and 29% have been doing so for 5 years or more. Nearly half of caregivers (45%) were employed in addition to having caregiving responsibilities.
 
@@ -360,7 +349,6 @@ As shown in Figure 21-10, in June 2020, more than half of older adults reported 
 
 *FIGURE 21-10. Loneliness. (Courtesy from National Poll on Healthy Aging. University of Michigan [https://www](<https://www.healthyagingpoll.org/reports-more/report/loneliness-among-older-adults-and-during-covid-19-pandemic>) .healthyagingpoll.org/reports-more/report/loneliness-among-older-adults-and-during-covid-19-pandemic.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 (once a week or less) with family, friends, or neighbors from outside the home, compared to one-quarter in 2018. When comparing their feelings in June 2020 to before the pandemic, about half of adults age 50 to 80 (48%) felt more isolated, 8% felt less isolated, and 44% reported feeling the same level of isolation.
 

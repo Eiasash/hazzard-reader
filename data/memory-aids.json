@@ -381,7 +381,7 @@
             ]
           }
         ],
-        "note": "",
+        "note": "Current practice (not the book): for asymptomatic primary hyperparathyroidism, 24-hour urine calcium >250 mg in women or >300 mg in men is a surgical indication. The workshop uses a skeletal T-score ≤−2.5. Fifth International Workshop, 2022, recommendation 5.1 (doi:10.1002/jbmr.4677).",
         "source": "Hazzard 8e, printed page 1539",
         "tested": {
           "sitting": "2024-Sep",
@@ -464,7 +464,7 @@
             ]
           }
         ],
-        "note": "Any one qualifies in this definition. The book itself cautions that HCAP has limited specificity and favors individual pathogen risks and severity.",
+        "note": "One listed exposure meets the book’s historical HCAP definition. Current practice (not the book): ATS/IDSA retired HCAP as a trigger for empiric broad-spectrum treatment. Use locally validated MRSA and Pseudomonas risk factors, particularly prior respiratory isolation or recent hospitalization with parenteral antibiotics, together with illness severity. ATS/IDSA CAP guideline, 2019, Table 4 and recommendation 11.",
         "source": "Hazzard 8e, printed page 1682",
         "tested": {
           "sitting": "2024-May",

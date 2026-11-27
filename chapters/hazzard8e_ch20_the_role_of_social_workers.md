@@ -44,7 +44,6 @@ Social workers meet face to face with patients and consumer groups to provide se
 
 *TABLE 20-1 ■ THE ROLES SOCIAL WORKERS PERFORM*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 finances, or interpersonal problems. Therapy includes meeting with individual older adults, with partners, as well as with groups of older adults who are experiencing concerns related to their families. Such therapies could involve helping grandparents with resources and tools for raising grandchildren, aiding families in coping with an aging parent with dementia, or supporting older couples as they struggle with debilitating health problems that can create emotional and financial strain on the relationship. Group work services include support groups for older adults with a variety of health concerns, such as cancer, low vision, or early-stage dementia. Support groups have been particularly helpful to caregivers of patients with such diseases as Alzheimer, diabetes, and Parkinson. These groups, run by social workers, help caregivers better understand the disease process and provide information that helps them cope with problems of caregiving more effectively and thus improve the disease outcome. Groups can also focus on self-help issues, where older adults learn to deal with such problems as alcoholism, obesity, or smoking. Psychotherapy groups work to resolve such concerns as abuse (as victim or perpetrator), depression, and marital problems. Social workers also work directly
 
@@ -60,7 +59,6 @@ Social workers link older adults to the services they need. This may be necessar
 
 *TABLE 20-2 ■ SETTINGS WHERE SOCIALWORKERS WORK AND ROLES THEY PERFORM*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 general, case management involves screening, assessment, care planning, implementation, monitoring, and reassessment to evaluate ongoing service needs. Case management meets a variety of goals in numerous settings. The social worker assesses problems and needs to determine eligibility for services and financial resources. The social worker also links older adults to needed services. Family and friends may provide collateral information to help the social worker determine their capacity for support. Goals for a care plan are determined by discussing older adults’ perceptions of their needs. Social workers then identify interventions and resources designed to meet these goals. Subsequently, the social worker monitors the delivery of the services. When an older adult requires care over a longer period of time, a social worker will reevaluate needs and necessary interventions and resources. Ultimately, a social worker will conduct an outcome evaluation to determine if the patient’s goals were achieved.
 
@@ -102,7 +100,6 @@ In acute care settings, where patient stays are very short, social workers focus
 
 *TABLE 20-3 ■ SOCIAL WORKERS IN HOSPICE SETTINGS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 address the emotional loss and face forthcoming decisions. Additionally, the social worker can provide information regarding aspects of diseases, care options, and assistance in meeting patient and family needs.
 
@@ -174,7 +171,6 @@ The abuse or neglect of older adults often surfaces in a health care setting. Ma
 
 *TABLE 20-4 ■ ELDER ABUSE AND NEGLECT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p284"></a>**[p. 284]**
 
@@ -190,7 +186,6 @@ and mental status examination, an evaluation of the individual’s living enviro
 
 *TABLE 20-5 ■ COMMON MENTAL HEALTH CONDITIONS AND DEVELOPMENTAL DISABILITIES IN OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p285"></a>**[p. 285]**
 

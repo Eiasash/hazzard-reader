@@ -33,24 +33,6 @@ def write_package(out):
         raise ValueError("Expected one live cloud account section")
     html = html.replace("meanwhile cloud sync and the existing backup download are the safety net.",
                         "use Back up to keep a separate copy of your notebook.")
-    template_files = {}
-    def save_template(chapter, content):
-        name = f"data/reader-templates/{chapter}.html"
-        target = out / name
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(content, encoding="utf-8", newline="\n")
-        template_files[chapter] = name
-        paths.add(name)
-    def split_template(match):
-        save_template(match.group(1), match.group(2))
-        return ""
-    html = re.sub(r'<template id="chapter(\d+)Template">(.*?)</template>', split_template, html, flags=re.S)
-    def split_default(match):
-        save_template("46", match.group())
-        return '<article id="copy" class="reading-copy" data-chapter-id="home"><h1 hidden>Home</h1></article>'
-    html, count = re.subn(r'<article class="reading-copy" id="copy" data-chapter-id="46">.*?</article>', split_default, html, count=1, flags=re.S)
-    if count != 1:
-        raise ValueError("Default reader chapter not found")
     home_file = "data/home-question-summary.json"
     catalog = json.loads((ROOT / "data/mcq/catalog.json").read_text(encoding="utf-8"))
     evidence = json.loads((ROOT / "data/mcq/exam-references.json").read_text(encoding="utf-8"))
@@ -221,15 +203,18 @@ if(params.get('chapter')==='drugs')urls.push('data/drug-summary.json');
 window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request.catch(()=>{});return [url,request];}));
 })();</script>"""
     chapter_manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
-    chapter_assets = {str(c["number"]): [template_files.get(str(c["number"])) or "chapters/" + c["file"], c.get("markUnits")]
-                      for c in chapter_manifest["chapters"] if c.get("file") or str(c["number"]) in template_files}
+    chapter_assets = {str(c["number"]): ["chapters/" + c["file"], c.get("markUnits")]
+                      for c in chapter_manifest["chapters"] if c.get("file")}
     aliases = json.loads((ROOT / "data/highlight-aliases.json").read_bytes())
     for chapter, assets in chapter_assets.items():
         content, units = assets
+        layout = next((c.get("textLayout") for c in chapter_manifest["chapters"] if str(c["number"]) == chapter), None)
         base = chapter.removesuffix("s")
         refs = f"data/reader-references/{base}.json" if base.isdigit() else None
         pack = {content: (out / content).read_text(encoding="utf-8"),
                 "data/highlight-aliases.json": [row for row in aliases if str(row["chapter"]) == chapter]}
+        if layout:
+            pack[layout] = json.loads((out / layout).read_bytes())
         if units:
             pack[units] = json.loads((out / units).read_bytes())
         if refs and (out / refs).is_file():
@@ -265,7 +250,7 @@ if(files&&!params.has('home')&&!params.has('tab')&&navigator.onLine){
  if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev')){
    document.body.textContent='Open the preview on its separate host.';return;
  }
- window.HazzardDrugSummary="data/drug-summary.json";window.HazzardTemplates=TEMPLATE_FILES;window.HazzardHomeSummary="data/home-question-summary.json";
+ window.HazzardDrugSummary="data/drug-summary.json";window.HazzardHomeSummary="data/home-question-summary.json";
  window.HazzardBookSearch=BOOK_SEARCH;
  function load(src,module){
    return new Promise((resolve,reject)=>{
@@ -284,7 +269,7 @@ if(files&&!params.has('home')&&!params.has('tab')&&navigator.onLine){
  await Promise.all(classic);
 })().catch(e=>{document.body.textContent=e.message;});
 """
-    (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search).replace("TEMPLATE_FILES",json.dumps(template_files)), encoding="utf-8",newline="\n")
+    (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search), encoding="utf-8",newline="\n")
     paths.add("js/preview-start.js")
     inline_boot = (out / "js/preview-start.js").read_text(encoding="utf-8").replace("</script", "<\\/script")
     html = html.replace('<script src="js/preview-start.js"></script>', '<script>' + inline_boot + '</script>')

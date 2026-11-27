@@ -52,7 +52,6 @@ Table 2-1 summarizes the actual and projected aging population of the United Sta
 
 *TABLE 2-1 ■ ACTUAL AND PROJECTED GROWTH OF THE OLDER US POPULATION, 1900 TO 2050 (MILLIONS)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 oldest old adults is projected to continue to grow and is projected to comprise over a fifth of the population age 65 and older. This aging of the population has important implications for family structures, the labor market, economy, medicine, and long-term care; moreover, it ensures that older adults will be an increasingly influential segment of our population.
 
@@ -64,7 +63,6 @@ The aging of the population is a global phenomenon. Figure 2-1 illustrates the i
 
 *FIGURE 2-1. Percentage of population age 65 and older in 2010 and projected for 2030 and 2050. (Data from US Census Bureau, International Data Base.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p25"></a>**[p. 25]**
 
@@ -78,7 +76,6 @@ Survival curves are commonly used to illustrate the proportion of a population t
 
 *FIGURE 2-2. Survival curves for US population. (Data from Arias E. United States life tables, 2009. Natl Vital Stat Rep. 2014;62[7]:1–63.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 epidemic, that threaten the gains in life expectancy, as well as emerging risk factors such as the COVID-19 pandemic.
 
@@ -88,7 +85,6 @@ While the above survival curves are based on observed data, life tables project 
 
 *TABLE 2-2 ■ LIFE EXPECTANCY IN 2017 (YEARS)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p26"></a>**[p. 26]**
 
@@ -118,7 +114,6 @@ Conceptual differences in age, period, and cohort effects are illustrated in Fig
 
 *FIGURE 2-3. Illustration of hypothetical age, period, and birth cohort effects.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 by X’s on the figure). The older age groups have higher disease rates in 2020, which could be inappropriately attributed to the aging process. These simplified figures illustrate what can be complex to disentangle with real world data, which generally contain a mix of age, period, and cohort effects.
 
@@ -144,7 +139,6 @@ The growth of the older population has led to an increase in the non-working-age
 
 *FIGURE 2-4. Protected number of men living per 100 women at 65, 85, and 100 years and older. (Data from Vespa J, Medina L, Armstrong DM. Demographic Turning Points for the United States: Population Projections for 2020 to 2060. Current Population Reports, P25-1144. Washington DC: US Census Bureau; 2020.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 assets and asset transfer may mitigate this dependency ratio. Among those 65 and older, 22% of men, and 14% of women remained in the labor force in 2016 in the United States. These numbers decreased with age; only 3.7% of men and 1.5% of women age 85 and older remained in the labor force.
 
@@ -162,7 +156,6 @@ Recent estimates from the National Vital Statistics Report (Table 2-3) have impl
 
 *FIGURE 2-5. Percent distribution of the U.S. population aged 65 and older by race and ethnicity, 2017, 2020, 2030, 2040, 2050, 2060. (Data from the US Census Bureau, 2017 National Populations Projections Tables: Main Series. [https://www](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>) .census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p29"></a>**[p. 29]**
 
@@ -170,7 +163,6 @@ Recent estimates from the National Vital Statistics Report (Table 2-3) have impl
 
 *TABLE 2-3 ■ LEADING CAUSES OF DEATH AMONG PERSONS 65 YEARS AND OLDER IN 2017*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 precipitate further life-threatening health events. The risk of nonintentional accidents and falls that result in death can be partially a consequence of sensory and functional decline. Thus the leading causes of death have overlapping and underlying causal risk factors.
 
@@ -200,7 +192,6 @@ It is important to note that these prevalence estimates were based on Medicare c
 
 *FIGURE 2-6. Age-specific death rates for leading cause of death in the older population, United States, 2017. (Data from CDC/ NCHS, National Vital Statistics System, Mortality 2017. National Center for Health Statistics; 2018. [https://www.cdc.gov/nchs/](<https://www.cdc.gov/nchs/data/dvs/lcwk/lcwk1_hr_2017-a.pdf>) data/dvs/lcwk/lcwk1_hr_2017-a.pdf.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 such as individuals experiencing homelessness, those who are incarcerated, and those who reside in long-term care. Population-based surveys and epidemiologic cohort studies can provide more accurate estimates. These types of
 
@@ -210,7 +201,6 @@ studies may use a combination of testing, examinations, and medical record revie
 
 *FIGURE 2-7. Mortality rate for malignant neoplasms by age, sex, and year: United States, 1950–2016. (Data from National Center for Health Statistics; 2017. https://www.cdc.gov/nchs/data/hus/2017/024.pdf.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p31"></a>**[p. 31]**
 
@@ -218,7 +208,6 @@ studies may use a combination of testing, examinations, and medical record revie
 
 *TABLE 2-4 ■ MOST COMMON CHRONIC CONDITIONS PER 100 MEDICARE BENEFICIARIES 65 YEARS AND OLDER IN 2017*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### Co-Occurrence of Multiple Chronic Conditions
 
@@ -228,7 +217,6 @@ A core principle of geriatric medicine is that chronic conditions often occur in
 
 *FIGURE 2-8. Multimorbidity trajectories: non-Hispanic Black, non-Hispanic White, and Hispanic trajectories of chronic disease accumulation over time, HRS 1998–2014. (Reproduced with permission from Quiñones AR, Botoseneanu A, Markwardt, et al. Racial/ethnic differences in multimorbidity development and chronic disease accumulation for middle-aged adults. PLoS One. 2019;14[6]:e0218462.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p32"></a>**[p. 32]**
 
@@ -236,7 +224,6 @@ A core principle of geriatric medicine is that chronic conditions often occur in
 
 *FIGURE 2-9. Prescription medication use in the past 30 days by age, United States: 2013–2016. (Data from National Center for Health Statistics; 2018. National Health and Nutrition Examination Survey. National Health and Nutrition Examination Survey (NHANES) https://www.cdc.gov/nchs/data/hus/2018/038.pdf.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 A common consequence is that people with multiple chronic conditions are often given multiple medications to treat those conditions. Most medications are evaluated one at a time in a single disease setting. While the benefit of treatment may be clear in this setting, the long-term benefits and harms associated with the combination of medications that are taking as a result of disease-specific treatment are less clear. Polypharmacy, or the use of multiple medications, is frequently associated with adverse outcomes including poor physical function, cognitive problems, and even death. Data on prescription drug use are shown in Figure 2-9. The number of prescription drugs used increases with age. Two-thirds of adults 65 years and older use three or more drugs, and 40% of this age group uses five or more. In response to concerns about medication overuse in older adults, many clinicians are considering deprescribing medications when the benefit of a medication no longer outweighs the harms. Deprescribing is the planned and supervised process of dose reduction or stopping of medication.
 
@@ -252,7 +239,6 @@ Based on data from the National Hospital Discharge Survey, heart disease is the 
 
 *TABLE 2-5 ■ OUTPATIENT MEDICAL VISITS AND REASONS FOR THE VISITa ACCORDING TO AGE GROUP, UNITED STATES, 2016*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p33"></a>**[p. 33]**
 
@@ -260,7 +246,6 @@ Based on data from the National Hospital Discharge Survey, heart disease is the 
 
 *TABLE 2-6 ■ THE 10 LEADING CAUSES OF HOSPITALIZATION IN PERSONS AGED 65 AND OLDER, FIRST LISTED DIAGNOSIS IN UNITED STATES, 2010*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 urinary tract infections, which all have rates that exceed 100 hospitalizations per 10,000 people per year. These statistics not only represent a high burden of morbidity for patients, but a high cost to the health care system, which highlights the importance of prevention for these conditions.
 
@@ -292,7 +277,6 @@ The terminology used to describe functional health is complex, so we begin with 
 
 *FIGURE 2-10. Prevalence of heart failure, stroke, and coronary heart disease (CHD) by sex and age in the United States. (Data from the National Health and Nutrition Examination Survey, 2013–2016. https://wwwn.cdc.gov/nchs/nhanes/ Default.aspx.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 some experts have defined dismobility as a measured gait speed less than 0.6 m/s or inability to walk 400 meters. Physical performance measures include objective measures of physical function such as walking, balance, and strength. One of the most common tools for evaluating physical performance is the Short Physical Performance Battery (SPPB), which includes a 4-meter gait speed test, chair stands as a measure of lower body strength, and balance.
 
@@ -308,13 +292,11 @@ of ascending age, the proportion of those with no disability drops from 66% in a
 
 *FIGURE 2-11. Incidence rates of specific cancers in men (top panel) and women (bottom panel) by age. (Data from SEER Cancer Statistics Review 1975–2017. Surveillance, Epidemiology and End Results Program, National Cancer Institute. https://seer.cancer.gov/csr/1975_2017/.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ![Figure 2-12](hazzard8e_ch2_figure-2-12_p35.webp)
 
 *FIGURE 2-12. Disability status among all Medicare beneficiaries by age, sex, and race/ethnicity. LTC, long-term care. (Data from Centers for Medicare and Medicaid Services. https://edit.cms.gov/Research-Statistics-Data-and-Systems/ Downloadable-Public-Use-Files/MCBS-Public-Use-File/index.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p36"></a>**[p. 36]**
 
@@ -332,7 +314,6 @@ One of the foundational models of disability, known as the Disablement Process, 
 
 *FIGURE 2-13. Women’s and men’s prevalence of mobility disability (A), 1-year incidence among nondisabled persons (B), and 1-year mortality (C) and recovery (D) among disabled persons, by age. Established populations for the epidemiologic study of older persons. (Reproduced with permission from Leveille SG, Penninx BW, et al. Sex differences in the prevalence of mobility disability in old age: the dynamics of incidence, recovery, and mortality. J Gerontol B Psychol Sci Soc Sci. 2000;55[1]:S41–S50.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p37"></a>**[p. 37]**
 
@@ -352,7 +333,6 @@ Data from earlier discussion illustrate differences in disability by age, sex, a
 
 *FIGURE 2-14. Trajectories of disability in the last year of life among 383 decedents. The severity of disability is indicated by the mean number of activities of daily living in which the subjects had disability. (Reproduced with permission from Kurrle S, Cameron ID, Maier AB. Trajectories of disability in the last year of life. N Engl J Med. 2010;363[3]:294.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p38"></a>**[p. 38]**
 
@@ -366,7 +346,6 @@ A healthy lifestyle can not only prevent disease but disability as well. There i
 
 *FIGURE 2-15. Predicted mean number of limitations by the number of chronic conditions, stratified by sex and age group. Abbreviations: ADL, activities of daily living; IADL, instrumental activities of daily living. (Reproduced with permission from Jindai K, Nielson CM, Vorderstrasse BA, et al. Multimorbidity and Functional Limitations Among Adults 65 or Older, NHANES 2005–2012, Prev Chronic Dis. 2016;13:E151.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p39"></a>**[p. 39]**
 
@@ -374,7 +353,6 @@ A healthy lifestyle can not only prevent disease but disability as well. There i
 
 *FIGURE 2-16. Estimated number of men and women with activities of daily living (ADLs) disability (need for help of another person) with and without an additional diagnosis of dementia according to age, Tuscany, Italy, 1999. (Data from three large population-based epidemiologic studies in the Tuscany population, the Italian Longitudinal Study on Aging, JCARE Dicomano, and InCHIANTI. The original analyses and population estimates are from Istituto Nazionale di Statistica: National Statistical Institute of Italy, 1999, www.istat.it.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 a structured, moderate-intensity physical activity program reduced the risk for major mobility disability by about 20% over 2.6 years. The intervention included aerobic, resistance, and flexibility training activities in a center and at home. The study targeted adults at risk for disability, demonstrating that disability is to some extent preventable.
 
@@ -414,7 +392,6 @@ Biomarkers measure aspects of biologic processes in blood or urine or with physi
 
 *FIGURE 2-17. Pooled prevalence of dementia by sex and age in 11 pooled cohort studies in eight European countries. (Reproduced with permission from Lobo A, Launer LJ, Fratiglioni L, et al. Prevalence of dementia and major subtypes in Europe: a collaborative study of population-based cohorts. Neurologic Diseases in the Elderly Research Group. Neurology. 2000;54[11 Suppl 5]:S4–S9.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p41"></a>**[p. 41]**
 
@@ -460,7 +437,6 @@ A plurality of randomized controlled trials among older adult populations target
 
 *TABLE 2-7 ■ BEHAVIORAL RISK FACTORS IN MIDDLE-AGED AND OLDER PERSONS, UNITED STATES, 2018*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 regular physical activity, and healthy diet are certainly recommended for the preservation of older adult health and independence. However, the associations between individual behaviors and health outcomes appear to weaken among older adult populations in observational data as well as in randomized trials. Compared to those assigned to health education control groups, older adult participants engaging in behavioral intervention arms commonly experience modest reduction in the incidence of transient or permanent impairment over follow-up. The smaller than expected differences in incident mobility limitation between trial
 

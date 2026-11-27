@@ -52,7 +52,6 @@ Other home-based approaches offer one-time visits or assessments or care focused
 
 *TABLE 17-1 ■ LONG-TERM SERVICES AND SUPPORTS AND HOME-BASED MEDICAL CARE MODELS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p240"></a>**[p. 240]**
 
@@ -60,7 +59,6 @@ Other home-based approaches offer one-time visits or assessments or care focused
 
 *TABLE 17-1 ■ LONG-TERM SERVICES AND SUPPORTS AND HOME-BASED MEDICAL CARE MODELS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 those conditions, with the goal of delaying disease progression and avoiding hospitalization. Community paramedicine programs use emergency medical services to deliver hospital triage or assessment. They typically target high utilizers of emergency department or hospital services, or may work collaboratively with home-based primary care programs. Home-based urgent care programs provide urgent care options, sometimes through apps that help locate a local home-based care provider or to connect via telemedicine; these are typically urgent, one-time visits and not longitudinal, ongoing care. Additional short-term home-based interventions have been shown more recently to support older adults who continue to live in their homes. Community Aging in Place, Advancing Better Living for Elders (CAPABLE) is an intervention that involves an interprofessional team (occupational therapist, nurse, and handyperson) to help patients achieve goals they set and has been shown to reduce disability as well as costs for inpatient care and long-term support services. Maximizing Independence (MIND) at Home is a home-based dementia care coordination program that uses community health workers as a liaison between patients with dementia and a team with dementia expertise, and also has been shown to reduce costs of inpatient care and LTSS.
 
@@ -76,7 +74,6 @@ This array of models can be framed as a quasicontinuum of care services for olde
 
 *FIGURE 17-1. Home-based care delivery models across the continuum of care for older adults.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 home-based primary care program. However, the concept of a continuum is a useful construct for organizing categories of LTSS and home-based medical care.
 
@@ -124,7 +121,6 @@ Transitional care focuses on patients at high risk of poor outcomes during the t
 
 *TABLE 17-2 ■ EVIDENCE FOR EFFECTIVENESS OF LONG-TERM SERVICES AND SUPPORTS (LTSS) AND HOME-BASED MEDICAL CARE (HBMC) MODELS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p245"></a>**[p. 245]**
 
@@ -132,7 +128,6 @@ Transitional care focuses on patients at high risk of poor outcomes during the t
 
 *TABLE 17-2 ■ EVIDENCE FOR EFFECTIVENESS OF LONG-TERM SERVICES AND SUPPORTS (LTSS) AND HOME-BASED MEDICAL CARE (HBMC) MODELS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 As Table 17-2 indicates, an extensive home care literature includes a wide variety of interventions and target populations. While this heterogeneity creates significant difficulty in drawing conclusions about the effectiveness and cost-effectiveness of home care, the overall body of evidence suggests that specific models when appropriately targeted are probably effective.
 

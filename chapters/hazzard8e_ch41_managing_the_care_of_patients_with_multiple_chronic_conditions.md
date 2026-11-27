@@ -46,7 +46,6 @@ In its simplest form, having multiple chronic conditions means having more than 
 
 *FIGURE 41-1. Percentage of US adults with chronic conditions, by number of chronic conditions (2014). Note: Percentages may not total 100 because of rounding. (Reproduced with permission from Buttorff C, Ruder T, Bauman M. Multiple Chronic Conditions in the United States. Santa Monica, CA: RAND Corporation; 2017. https://www.rand.org/pubs/tools/TL221.html.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 disparate conditions, osteoarthritis and hypothyroidism, is different than the approach to two conditions such as congestive heart failure and chronic kidney disease, where the management of one is intricately tied to the other. Thus, determining which chronic conditions “count” in a definition of multimorbidity is another area of disagreement.
 
@@ -68,7 +67,6 @@ The most common chronic conditions in the United States are hypertension (27% of
 
 *FIGURE 41-2. Proportion (%) of Medicare beneficiaries with multiple chronic conditions by select chronic condition (2005). (Reproduced with permission from Schneider KM, O’Donnell BE, Dean D. Prevalence of multiple chronic conditions in the United States’ Medicare population. Health Qual Life Outcomes. 2009;7:82.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 in prevalence of hypertension (2.5% increase) while women saw the highest increase in mental health conditions (4% increase in anxiety disorder alone). Studies that include mental health in their definition of chronic conditions demonstrate a positive correlation between the number of chronic conditions and the onset of depression. Depression was found in 14% of adults between ages 50 and 74 with one physical chronic condition, 21% of people with two chronic conditions, 30% of people with three chronic conditions, and 37% of people with four chronic conditions. In 2014, mood and anxiety disorders were the third and fifth most prevalent chronic conditions in American adults.
 
@@ -88,7 +86,6 @@ Patients with multiple chronic conditions require more health care resources. Wh
 
 *FIGURE 41-3. Prevalence of multiple chronic conditions as a function of age, stratifying on socioeconomic status. On socioeconomic status scale, 1 = most affluent and 10 = most “deprived.” (Reproduced with permission from Barnett K, Mercer SW, Norbury M, et al. Epidemiology of multimorbidity and implications for health care, research, and medical education: a cross-sectional study. Lancet. 2012;380[9836]:37–43.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 likely to incur hospital admissions than someone without any chronic conditions.
 
@@ -106,7 +103,6 @@ Out of 10 common chronic conditions, a 2014 crosssectional study of Spanish adul
 
 *FIGURE 41-4. Functional, physical, social, and cognitive limitations, by number of chronic conditions (2014). (Notes: ADL include such basic functions as being able to bathe, dress, eat, go to the bathroom, or do light activity—for example, walking up a flight of stairs. Instrumental ADL include light housework, preparing meals, paying bills, and shopping. We used the composite variables constructed in MEPS for the ADL and IADL, which indicate whether a person reponed needing supervision to complete at least one ADL or instrumental ADL activity. A work/school/home limitation is defined as an impairment or a physical or mental health problem that limits a person’s ability to work at a job, do housework, or go to school. A physical limitation is defined as having difficulties walking, climbing stairs, grasping objects, bending or standing for long periods of time. MEPS defines social limitations as whether a person has trouble participating in social or family activities because of a physical or cognitive impairment. A cognitive limitation exists if the person has trouble with memory is esaily confused, has trouble marking decisions, or needs to be supervised for his or her own safety.) (Reproduced with permission from Buttorff C, Ruder T, Bauman M. Multiple Chronic Conditions in the United States. Santa Monica, CA: RAND Corporation; 2017. https://www.rand.org/pubs/tools/TL221.html.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 worsen quality of life in patients with both conditions compared to patients with only one.
 
@@ -124,7 +120,6 @@ Many people with multiple chronic conditions experience disease-focused, not pat
 
 *TABLE 41-1 ■ IT’S NOT EASY LIVING WITH MULTIPLE CHRONIC CONDITIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 A study that delineated the treatment regimen that would arise from implementation of clinical practice guidelines for an older woman with five common chronic conditions (COPD, hypertension, diabetes, osteoarthritis, and hypertension) resulted in 12 different medicines, in 19 doses per day, with a high degree of medication regimen complexity (Table 41-1)
 

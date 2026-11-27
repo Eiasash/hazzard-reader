@@ -36,7 +36,6 @@ Virtually all experts, clinicians, and reasonable laypersons will agree that egr
 
 *TABLE 48-1 ■ REPRESENTATIVE DEFINITIONS OF ELDER MISTREATMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Data from Aravanis SC, Adelman RD, Breckman R, et al. Diagnostic and treatment guidelines on elder abuse and neglect. Arch Fam Med. 1993;2(4):371–388.
 
@@ -62,7 +61,6 @@ Much research has focused on identifying risk factors for elder mistreatment per
 
 *TABLE 48-2 ■ POSSIBLE RISK FACTORS FOR ELDER MISTREATMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Reproduced with permission from Lachs MS, Pillemer K. Abuse and neglect of elderly persons. N Engl J Med. 1995;332(7):437–443.
 
@@ -114,7 +112,6 @@ All screening instruments may assist the clinician by serving as “checklists�
 
 *FIGURE 48-1. Elder Abuse Suspicion Index (EASI). (Reproduced with permission from Yaffe MJ, Wolfson C, Lithwick M, et al. Development and validation of a tool to improve physician identification of elder abuse: the Elder Abuse Suspicion Index (EASI). J Elder Abuse Negl. 2008;20[3]:276–300.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 emerging consensus that patients of all ages should be routinely screened for family violence, an optimal strategy or instrument has not emerged. Patients should be asked candidly and calmly about the etiology of any unexplained injuries or other findings. Often patients are at first unwilling to speak candidly about being an elder abuse victim for reasons of embarrassment, shame, or fear of retribution from the perpetrator who is frequently a caregiver.
 
@@ -140,7 +137,6 @@ The first step in confronting any confirmed case of family violence is ensuring 
 
 *TABLE 48-3 ■ CLINICAL MANIFESTATIONS OF POTENTIAL MISTREATMENT WITH RECOMMENDED ASSESSMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Reproduced with permission from Lachs MS, Pillemer K. Abuse and neglect of elderly persons. N Engl J Med. 1995;332(7):437–443.
 
@@ -158,7 +154,6 @@ available resources; ideally a coordinated approach that brings to bear their ex
 
 *TABLE 48-4 ■ SAFETY PLAN FOR VICTIMS OF ELDER MISTREATMENT OR OTHER VICTIMS OF FAMILY VIOLENCE WITH CAPACITY WHO INSIST ON REMAINING IN AN ABUSIVE ENVIRONMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 likely intervention will involve the appointment of a guardian in collaboration with adult protective service agencies or other elder social service programs in the community that serve such functions. In such a proceeding, the clinician’s role is to provide objective evidence that documents the lack of decision-making capacity. The clinician may also have a role in ensuring the alleged perpetrator of mistreatment does not become the guardian.
 

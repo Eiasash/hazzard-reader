@@ -56,7 +56,6 @@ Second, the individual must have the conceptual ability to appreciate the conseq
 
 *TABLE 10-1 ■ FOUR ELEMENTS THAT CONSTITUTE DECISION-MAKING ABILITIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Beginning and ending a discussion by asking the individual what their understanding of the situation is and what the consequences are of the choice that they have made is an important method of assuring that they were able to comprehend the information and that they appreciate the consequences of the decision they are making.
 

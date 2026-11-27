@@ -48,7 +48,6 @@ or goals. Figure 4-1 shows the age at which respondents consider women to be old
 
 *FIGURE 4-1. Reported age women are “old,” United States, 2000. (Data from National Council on Ageing.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Note the strong relationship between the survey respondent’s age and his or her report of when women are old. Young people consider the start of old age to be much earlier than older people. For people around age 20, women become old at age 45 or 50. By the time respondents reach their sixth or seventh decades, old age is pushed back to the late 60s and early 70s. Note the strong gender difference in reports of when a woman is old. Female respondents date the start of old age to a later age than men, whatever the respondent’s age. Women consider old age to begin 2 to 4 years later than men. These differences suggest a need to consider social elements when examining perceived age-related changes.
 
@@ -96,7 +95,6 @@ Biological changes are relevant to psychosocial aging. Latelife depression (LLD)
 
 *FIGURE 4-2. Psychosocial factors and health and quality of life.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p68"></a>**[p. 68]**
 
@@ -154,7 +152,6 @@ Another predictor is income or more generally, social class, as it affects both 
 
 *FIGURE 4-3. Conceptual framework for understanding factors affecting parental support.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p70"></a>**[p. 70]**
 
@@ -220,7 +217,6 @@ Population surveys, such as the General Social Survey (GSS) and Eurobarometer, t
 
 *TABLE 4-1 ■ AGE AT WHICH LIFE SATISFACTION IS LOWEST*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 such changes have been reported as well for longitudinal cohorts.
 
@@ -234,7 +230,6 @@ If we turn to changes at older ages, we find that variation in emotional experie
 
 *FIGURE 4-4. Depressed mood over the lifespan. (Adapted with permission from Blanchflower DG, Oswald AJ. Is well-being U-shaped over the life cycle? Soc Sci Med. 2008;66[8]:1733–1749.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 upper extremity, lower extremity, or instrumental activities of daily living [IADLs] but no difficulty with the basic activities of daily living [ADLs], such as bathing or dressing), those with ADL difficulty who were able to manage without personal assistance, and those with ADL difficulty who received personal assistance.
 
@@ -254,7 +249,6 @@ One theory advanced to explain these changes in emotional experience with age an
 
 *TABLE 4-2 ■ AFFECTIVE EXPERIENCE, WOMEN’S HEALTH AND AGING STUDY I, BY AGE GROUP*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 A related theory of psychosocial aging suggests that emotional change is part of a more general “selection, optimization, compensation” process. Older people become expert in managing depleted resources. Successful aging requires selecting domains to focus limited resources, optimizing investments of time, energy, and emotion to maximize gains, and compensating for losses. Minimizing losses in the emotional domain is consistent with socioemotional selectivity.
 
@@ -272,7 +266,6 @@ Successful aging in place relies on the availability of supportive physical, soc
 
 *TABLE 4-3 ■ AFFECTIVE EXPERIENCE, WOMEN’S HEALTH AND AGING STUDY I, BY DISABILITY STATUS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p74"></a>**[p. 74]**
 
@@ -280,7 +273,6 @@ Successful aging in place relies on the availability of supportive physical, soc
 
 *FIGURE 4-5. Aging in place, characteristics of livable communities. (Reproduced with permission from Liveable Community Indicators for Sustainable Aging in Place. March, 2013. MetLife Mature Market Institute.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 economic, social, and environmental supports that sustain older adults in their communities, including:
 
@@ -300,7 +292,6 @@ The different options available to an older adult at home, in the community, and
 
 *FIGURE 4-6. Aging in place: age-friendly domains. (Reproduced with permission from World Health Organization, 2007. Global AgeFriendly Cities: A Guide. Geneva, Switzerland: WHO Press; 2007.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p75"></a>**[p. 75]**
 
@@ -308,7 +299,6 @@ The different options available to an older adult at home, in the community, and
 
 *FIGURE 4-7. Long-term care: home, community, and residential settings.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 support, adjustable beds and chairs, lifts, and respiratory devices. Home modification to address mobility limitation may also be considered an in-home service. Community supports for aging in place include adult day care, congregate meals, senior center programming, and transportation services. These services in the home and the community are designed to help older adults to age in place by addressing their needs as well as the needs of informal family caregivers.
 
@@ -350,7 +340,6 @@ While less research is available on the effects of volunteering for cognitive fu
 
 *FIGURE 4-8. Causal pathways through which volunteering may support psychosocial, physical, and cognitive functioning. (Reproduced with permission from Fried LP, Carlson MC, Freedman M, et al: A social model for health promotion for an aging population: initial evidence on the Experience Corps model. J Urban Health. 2004;81(1):64–78.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 important for generative reasons: While helping those in need, this kind of engagement taps into broader prosocial or altruistic interests, which in itself is satisfying and may offer psychological reward (the so-called “positive glow” associated with helping others). Benefits to older volunteers increased if volunteer opportunities have a prosocial component and if people feel they are appreciated for their contribution.
 

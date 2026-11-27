@@ -56,7 +56,6 @@ Age-associated declines in VO2max can be attributed to alterations in both centr
 
 *FIGURE 54-1. Per-decade percent cross-sectional and longitudinal changes in peak VO2 by gender and age decade. (Reproduced with permission from Fleg JL, Morrell CH, Bos AG, et al. Accelerated longitudinal decline of aerobic capacity in healthy older adults. Circulation. 2005;112[5]:674–682.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 have a higher VO2 max than their age-matched sedentary peers, suggesting that participation in habitual aerobic exercise may attenuate the age-related decline in VO2 max.
 
@@ -80,7 +79,6 @@ Healthy humans have excess physiologic capacity not tapped during most daily act
 
 *FIGURE 54-2. Theoretical relationship between physical fitness and functional status. The curvilinear relationship shows a threshold effect: above the threshold level of fitness, functional status is normal; below it, function is impaired. A curvilinear relationship implies that the benefit from exercise depends on the target group. Three hypothetical exercise studies are shown. Each study produces the same absolute improvement in fitness. In the frail adults of study 1, exercise produces a large improvement in functional status. In the healthy adults of study 3, no benefit on functional status is seen. Study 2 shows intermediate benefits. (Data from Buchner DM, Larson EB, Wagner EH, et al. Evidence for a non-linear relationship between leg strength and gait speed. Age Ageing. 1996;25[5]:386–391.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Indeed, the relationship between leg strength and walking speed is nonlinear. This nonlinear relationship is intuitive: if strength was linearly related to walking speed, highly trained weightlifters would walk ridiculously fast (16–30 km/h) because they are several times as strong as normal adults, who walk at around 5–8 km/h. That is, above a certain threshold level of adequate physiologic reserve, function is normal; below the threshold, function is impaired (Figure 54-2). The exact shape of the curve depends on the task and the physiologic capacity of interest. Figure 54-2 may oversimplify the situation because most tasks have multiple physiologic determinants that may interact to affect behavioral ability.
 
@@ -106,7 +104,6 @@ In contrast to the overwhelming evidence of the benefit of aerobic exercise to r
 
 *TABLE 54-1 ■ EXERCISE EFFECTS IN COMMON GERIATRIC DISORDERS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 on the association between strength training and CVD risk. Strength training is generally associated with reduced CVD mortality; however, the relationship may be J-shaped, with low to moderate levels (1–50 minutes per week) associated with the lowest risk of CVD mortality.
 
@@ -122,7 +119,6 @@ Exercise training programs in CVD patients have numerous physiologic effects on 
 
 *TABLE 54-2 ■ EFFECTS OF EXERCISE TRAINING ON THE CARDIOVASCULAR SYSTEM AND CARDIOVASCULAR RISK FACTORS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p809"></a>**[p. 809]**
 
@@ -252,7 +248,6 @@ In the past, a pre-exercise assessment, including a complete history and physica
 
 *TABLE 54-3 ■ SUMMARY OF PHYSICAL ACTIVITY RECOMMENDATIONS FOR OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p814"></a>**[p. 814]**
 

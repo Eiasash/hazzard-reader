@@ -46,8 +46,6 @@ incorporating nonpharmacologic, multimodal approaches, is poised to serve in bot
 
 *FIGURE 24-1. Integrative geriatrics framework to promote healthy aging and prevent and manage geriatric syndromes.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 approach is well-suited to preventing and managing complex geriatric syndromes, which extend beyond single organ systems and a traditional disease-based approach.
 
 ## CURRENT PATTERNS OF USE
@@ -63,8 +61,6 @@ The latest data regarding trends in the use of complementary health approaches a
 ![Figure 24-2](hazzard8e_ch24_figure-24-2_p330.webp)
 
 *FIGURE 24-2. Integrative medicine (IM) modalities.*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p331"></a>**[p. 331]**
 
@@ -85,8 +81,6 @@ Ms. S reports some fatigue but no other current symptoms. She lives alone in the
 ![Table 24-1](hazzard8e_ch24_table-24-1_p331.webp)
 
 *TABLE 24-1 ■ INCORPORATING AN INTEGRATIVE MEDICINE HISTORY INTO THE COMPREHENSIVE GERIATRIC ASSESSMENT (CGA)*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 independent with activities of daily living (ADLs), but requires some assistance for instrumental activities of daily living (IADLs) such as shopping, heavy housework, and driving given physical limitations. She hired a homemaker to assist with cleaning and shopping; she relies on her daughter for transportation. She denies loneliness and reports receiving limited social support from her church group. Her medications include allopurinol, apixaban, atorvastatin, fluoxetine, furosemide, gabapentin, senna, and vitamin E. She drinks one glass of wine on holidays, but otherwise denies substance use. She completed the Timed Up and Go (TUG) test in 15 seconds (≥ 12 seconds suggests increased risk of falls). Gait examination revealed decreased gait speed with uneven stride length and step height, but a normal base and no bradykinesia. Cognitive testing was notable for Montreal Cognitive Assessment (MoCA) score of 24 out of 30. She scored a 7 on the Patient Health Questionnaire-9 (PHQ-9), consistent with mild depression. A frailty screen was consistent with mild frailty.
 
@@ -131,8 +125,6 @@ Eicosapentaenoic (EPA) and docosahexaenoic (DHA) acids are the two main omega-3 
 ![Table 24-2](hazzard8e_ch24_table-24-2_p333.webp)
 
 *TABLE 24-2 ■ INTEGRATIVE MEDICINE RESOURCES FOR THE GERIATRIC HEALTH PROFESSIONAL*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p334"></a>**[p. 334]**
 
@@ -343,8 +335,6 @@ Integrative medicine utilizes both complementary and conventional health approac
 ![Figure 24-3](hazzard8e_ch24_figure-24-3_p343.webp)
 
 *FIGURE 24-3. Geriatric syndromes and clinical management for patient case.*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ## FURTHER READING
 

@@ -116,14 +116,17 @@ window.HazzardSimulation = (() => {
   }
   function startClock(){check();setInterval(check,1000);addEventListener('pageshow',check);document.addEventListener('visibilitychange',()=>{if(!document.hidden)check();});addEventListener('storage',e=>{if(e.key===KEY||e.key===null)check();});}
   function mount({viewport,readerScroll,onShow,openImage}){
+    const lifetime=new AbortController();
+    const listen=(el,type,handler,options={})=>el.addEventListener(type,handler,{...options,signal:lifetime.signal});
+
     const host=document.createElement('section');host.id='mcqViewport';host.hidden=true;host.setAttribute('aria-label','Exam simulation');viewport.append(host);
     let all=[],loaded=false,busy=false,error='',setup=false,reviewing=!!history.state?.hazzardSimulationSearch,gridOpen=false,confirmSubmit=false,exitAttempt=null,selectedSitting='',duration='240',custom='240';
     const place=HazzardMCQ.readPracticePlace();let restoringPlace=true;
     function remember(){if(!loaded||!controller.active||viewport.hidden||restoringPlace)return;const session=read().session;HazzardMCQ.rememberPractice('simulation',{id:session?.ids[session.position]||null,scroll:host.scrollTop,sessionId:session?.id||null,setup,reviewing,gridOpen});}
-    host.addEventListener('scroll',remember,{passive:true});
-    host.addEventListener('click',e=>{if(!e.target.closest('[data-cross]'))queueMicrotask(remember);});
-    addEventListener('pagehide',remember);document.addEventListener('visibilitychange',()=>{if(document.hidden)remember();});
-    const controller={active:false,search(){search.open();},get hasUnsaved(){try{return read().session?.status==='submitting';}catch{return true;}},save(){check();},remember,sync(){if(loaded)render();},show(){controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else render();}};
+    listen(host,'scroll',remember,{passive:true});
+    listen(host,'click',e=>{if(!e.target.closest('[data-cross]'))queueMicrotask(remember);});
+    listen(window,'pagehide',remember);listen(document,'visibilitychange',()=>{if(document.hidden)remember();});
+    const controller={active:false,dispose(){this.active=false;lifetime.abort();clearInterval(clock);host.remove();},search(){search.open();},get hasUnsaved(){try{return read().session?.status==='submitting';}catch{return true;}},save(){check();},remember,sync(){if(loaded)render();},show(){controller.active=true;host.hidden=false;readerScroll.style.visibility='hidden';readerScroll.inert=true;onShow();if(!loaded)load();else render();}};
     async function load(){host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page">Loading exam simulation…</div>';try{await HazzardMCQ.loadAliases();all=await bank();loaded=true;await check();const resume=place?.screen==='simulation'&&place.sessionId===(read().session?.id||null);if(resume){setup=!!place.setup;reviewing=!!place.reviewing;gridOpen=!!place.gridOpen;}render();search.restore();await Promise.all([...host.querySelectorAll('img')].map(img=>img.decode().catch(()=>{})));requestAnimationFrame(()=>{if(resume)host.scrollTop=place.scroll;restoringPlace=false;remember();});}catch(e){error=e.message;host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page"><p role="alert">'+esc(error)+'</p><button data-sim="load">Try again</button></div>';}}
     const search=HazzardQuestionSearch.mount({host,allowAll:false,
       getItems:async()=>{const s=read().session;if(!loaded||!s)throw Error('Start or resume a simulation to search its paper.');const byId=new Map(all.map(q=>[q.id,q]));return s.ids.map(id=>byId.get(id)).filter(Boolean).map(q=>({id:q.id,label:label(s.sitting)+' · Q'+q.examNumber,stem:q.q,text:[q.q,...q.o].join(' ')}));},
@@ -148,6 +151,7 @@ window.HazzardSimulation = (() => {
     function practiceIds(s){const list=questions(s,all);return s.ids.filter((id,i)=>s.flags.includes(id)||(scored(list[i],s.sitting)&&!scoreAccepted(list[i],s.sitting).includes(s.answers[id])));}
     function resultHTML(v){const r=v.history[v.session.id],practice=practiceIds(v.session);return '<h1>Simulation submitted</h1><p>'+esc(label(r.sitting))+'</p><p class="mcq-score-value">'+r.correct+' / '+r.total+'</p><p>'+Math.round(r.correct/r.total*100)+'% · scored questions only</p><p>Time used: '+elapsed(r.timeMs)+(r.automatic?' · Time expired; auto-submitted':'')+'</p><p>'+(r.sitting==='2022-Jun-Basic'?'Review scheduling uses the bank answer keys.':'Wrong answers from this attempt are in your review queue.')+'</p><button data-sim="review">Review all '+v.session.ids.length+' questions</button> <button data-sim="setup">Choose another sitting</button>'+' <button data-sim="practice-missed" '+(!practice.length?'disabled':'')+'>Practice missed and flagged ('+practice.length+')</button>'+appealHTML(v.session)+historyHTML(v);}
     function render(){
+      if(lifetime.signal.aborted)return;
       if(!loaded)return;
       window.HazzardAnswerHighlights?.attach(null);
       try{
@@ -166,9 +170,9 @@ window.HazzardSimulation = (() => {
             (gridOpen?'<section class="sim-navigator" aria-label="Question navigator"><p>● Answered · ○ Unanswered · ⚑ Flagged for later</p><div class="sim-grid">'+s.ids.map((qid,i)=>'<button data-slot="'+i+'" aria-current="'+(i===s.position?'step':'false')+'" aria-label="Question '+(i+1)+', '+(s.answers[qid]!==undefined?'answered':'unanswered')+(s.flags.includes(qid)?', flagged for later':'')+'" class="'+(s.answers[qid]!==undefined?'sim-answered':'')+'">'+(i+1)+'<small>'+(s.answers[qid]!==undefined?'●':'○')+(s.flags.includes(qid)?' ⚑':'')+'</small></button>').join('')+'</div></section>':'')+
             '<div class="mcq-question" data-bank-id="'+q.id+'"><p class="meta">'+(isScored?'Scored question':'Not scored')+(feedback&&q.label?' · '+esc(HazzardMCQ.sourceTitle(q.label)):'')+'</p>'+
             (!done?'<button data-sim="flag" aria-pressed="'+s.flags.includes(id)+'">'+(s.flags.includes(id)?'⚑ Flagged for later':'Flag for later')+'</button>':'')+
-            '<div class="mcq-stem mcq-mixed" dir="auto" lang="he">'+HazzardMCQ.stemHTML(q)+'</div>'+(q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+esc(url)+'" alt="Question image '+(i+1)+'"></button>').join('')+
-            '<div class="mcq-options" dir="rtl" role="group" aria-label="Answer options">'+q.o.map((option,i)=>{const crossed=HazzardMCQ.crossed.has(q.id,i),letter=['א','ב','ג','ד','ה'][i];return '<div class="mcq-option-row'+(crossed?' is-crossed':'')+'">'+'<button data-choice="'+i+'" class="mcq-option '+(choice===i?'selected ':'')+(feedback&&accepted.includes(i)?'correct ':feedback&&choice===i?'wrong':'')+'" aria-pressed="'+(choice===i)+'" '+(done?'disabled':'')+'><span class="mcq-letter">'+['א','ב','ג','ד','ה'][i]+'</span><span class="mcq-mixed" dir="auto" lang="he">'+HazzardMCQ.rich(option)+'</span></button>'+'<button type="button" class="mcq-cross" data-cross="'+i+'" aria-pressed="'+crossed+'" aria-label="'+(crossed?'Restore option ':'Cross out option ')+letter+'" '+(done?'hidden':'')+'><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5"/></svg></button></div>';}).join('')+'</div>'+
-            (done?'<div class="mcq-confidence">'+HazzardMCQ.revisionButtons(q)+'</div>'+HazzardMCQ.revisionStatus():'')+(feedback?'<p class="mcq-result">'+(!isScored?'Not scored':choice===undefined?'Unanswered':accepted.includes(choice)?'Correct':'Incorrect')+' · Key: '+accepted.map(i=>['א','ב','ג','ד','ה'][i]).join(', ')+'</p>'+(note?'<p class="mcq-source-note" role="note">'+esc(note)+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="he">'+HazzardMCQ.explanationHTML(q,q.o.map((_,i)=>i))+HazzardMCQ.explanationReviewHTML(q)+'</section><p class="mcq-source" dir="auto">'+esc(HazzardMCQ.sourceTitle(q.ref||''))+'<br>'+esc(q.keySource||'')+'</p>':'')+
+            '<div class="mcq-stem mcq-mixed" dir="'+HazzardMCQ.questionScript(q).dir+'" lang="'+HazzardMCQ.questionScript(q).lang+'">'+HazzardMCQ.stemHTML(q)+'</div>'+(q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+esc(url)+'" alt="Question image '+(i+1)+'"></button>').join('')+
+            '<div class="mcq-options" dir="'+HazzardMCQ.questionScript(q).dir+'" lang="'+HazzardMCQ.questionScript(q).lang+'" role="group" aria-label="Answer options">'+q.o.map((option,i)=>{const crossed=HazzardMCQ.crossed.has(q.id,i),letter=HazzardMCQ.questionScript(q).letters[i];return '<div class="mcq-option-row'+(crossed?' is-crossed':'')+'">'+'<button data-choice="'+i+'" class="mcq-option '+(choice===i?'selected ':'')+(feedback&&accepted.includes(i)?'correct ':feedback&&choice===i?'wrong':'')+'" aria-pressed="'+(choice===i)+'" '+(done?'disabled':'')+'><span class="mcq-letter">'+HazzardMCQ.questionScript(q).letters[i]+'</span><span class="mcq-mixed" dir="auto" lang="he">'+HazzardMCQ.rich(option)+'</span></button>'+'<button type="button" class="mcq-cross" data-cross="'+i+'" aria-pressed="'+crossed+'" aria-label="'+(crossed?'Restore option ':'Cross out option ')+letter+'" '+(done?'hidden':'')+'><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5"/></svg></button></div>';}).join('')+'</div>'+
+            (done?'<div class="mcq-confidence">'+HazzardMCQ.revisionButtons(q)+'</div>'+HazzardMCQ.revisionStatus():'')+(feedback?'<p class="mcq-result">'+(!isScored?'Not scored':choice===undefined?'Unanswered':accepted.includes(choice)?'Correct':'Incorrect')+' · Key: '+accepted.map(i=>HazzardMCQ.questionScript(q).letters[i]).join(', ')+'</p>'+(note?'<p class="mcq-source-note" role="note">'+esc(note)+'</p>':'')+'<section class="mcq-explanation" dir="auto" lang="'+HazzardMCQ.questionScript({q:q.explanation}).lang+'">'+HazzardMCQ.explanationHTML(q,q.o.map((_,i)=>i))+HazzardMCQ.explanationReviewHTML(q)+'</section><p class="mcq-source" dir="auto">'+esc(HazzardMCQ.sourceTitle(q.ref||''))+'<br>'+esc(q.keySource||'')+'</p>':'')+
             '<div class="sim-actions"><button data-sim="prev" '+(s.position===0?'disabled':'')+'>Prev</button><button data-sim="next" '+(s.position===s.ids.length-1?'disabled':'')+'>Next</button>'+(!done?'<button data-sim="submit">Submit exam</button>':'')+'</div>'+
             (exitAttempt===s.id&&!done?'<section class="sim-confirm" aria-label="Exit simulation"><h2>Leave this exam?</h2><p>Keep your answers and flags with the timer running, or discard this attempt.</p><button data-sim="keep-exit">Keep for later</button> <button data-sim="discard-exit">Discard this attempt</button></section>':'')+
             (confirmSubmit&&!done?'<section class="sim-confirm" role="region" aria-label="Confirm submission"><p>Submit now? '+(s.ids.length-count)+' unanswered. Answers will be locked.</p><button data-sim="confirm">Submit and show score</button> <button data-sim="cancel">Keep working</button></section>':'')+'</div>';
@@ -186,14 +190,14 @@ window.HazzardSimulation = (() => {
     }
     // Re-read before each edit so a stale tab cannot unlock a submitted attempt.
     function edit(change,allowSubmitted=false){const v=read(),s=v.session;if(!s)return;if(s.status==='running'&&Date.now()>=s.deadline){check();return;}if(s.status!=='running'&&!(allowSubmitted&&s.status==='submitted'))return;change(s);s.at=Math.max(Date.now(),s.at+1);v.at=s.at;write(v);}
-    addEventListener('hazzard-bad-change',()=>{if(loaded)render();});
-    addEventListener('hazzard-saved-change',()=>{if(loaded){const y=host.scrollTop;render();host.scrollTop=y;}});
-    host.addEventListener('change',e=>{if(e.target.name==='duration'){duration=e.target.value;const field=host.querySelector('.sim-custom');field.hidden=duration!=='custom';field.querySelector('input').disabled=duration!=='custom';field.querySelector('input').required=duration==='custom';}if(e.target.name==='sitting'){selectedSitting=e.target.value;render();}if(e.target.name==='custom')custom=e.target.value;});
-    host.addEventListener('submit',async e=>{
+    listen(window,'hazzard-bad-change',()=>{if(loaded)render();});
+    listen(window,'hazzard-saved-change',()=>{if(loaded){const y=host.scrollTop;render();host.scrollTop=y;}});
+    listen(host,'change',e=>{if(e.target.name==='duration'){duration=e.target.value;const field=host.querySelector('.sim-custom');field.hidden=duration!=='custom';field.querySelector('input').disabled=duration!=='custom';field.querySelector('input').required=duration==='custom';}if(e.target.name==='sitting'){selectedSitting=e.target.value;render();}if(e.target.name==='custom')custom=e.target.value;});
+    listen(host,'submit',async e=>{
       if(!e.target.matches('[data-sim-start]'))return;e.preventDefault();if(busy)return;busy=true;
       try{const data=new FormData(e.target),minutes=Number(data.get('duration')==='custom'?data.get('custom'):data.get('duration')),sitting=data.get('sitting');if(!Number.isInteger(minutes)||minutes<1||minutes>1440)throw Error('Choose 1–1440 whole minutes.');await loadSitting(sitting,all);const ids=basicIds(sitting),list=ids?questions({sitting,ids},all):all.filter(q=>q.kind==='past'&&q.t===sitting).sort((a,b)=>a.examNumber-b.examNumber);if(list.length!==sittingSize(sitting)||list.some((q,i)=>q.examNumber!==i+1))throw Error('This sitting does not have all '+sittingSize(sitting)+' official slots.');const v=read();if(v.session&&v.session.status!=='submitted')throw Error('Resume and submit your current simulation first.');const now=Date.now();v.session={id:crypto.randomUUID(),sitting,status:'running',startedAt:now,deadline:now+minutes*60000,ids:list.map(q=>q.id),answers:{},flags:[],position:0,at:now,commit:null};v.at=now;write(v);HazzardMCQ.crossed.clear();setup=reviewing=false;error='';host.scrollTop=0;}catch(e){error=e.message;}finally{busy=false;render();}
     });
-    host.addEventListener('click',async e=>{
+    listen(host,'click',async e=>{
       const b=e.target.closest('button');if(!b||b.disabled||busy)return;const action=b.dataset.sim,y=host.scrollTop;
       if(b.dataset.cross!==undefined){
         const row=b.closest('.mcq-option-row'),question=b.closest('.mcq-question');if(!row||!question||b.hidden||row.querySelector('[data-choice]')?.disabled)return;
@@ -206,7 +210,7 @@ window.HazzardSimulation = (() => {
         if(action==='confirm'||action==='retry'){busy=true;await submit();confirmSubmit=false;reviewing=false;}
         else if(action==='setup'){setup=true;selectedSitting='';}
         else if(action==='resume'){setup=false;reviewing=false;await check();}
-        else if(action==='practice-missed'){const ids=practiceIds(read().session);if(ids.length)location.assign(HazzardMCQ.sessionURL(ids));return;}
+        else if(action==='practice-missed'){const ids=practiceIds(read().session);if(ids.length)HazzardRouter.go(HazzardMCQ.sessionURL(ids));return;}
         else if(action==='review'){reviewing=true;edit(s=>{s.position=0;},true);}
         else if(action==='result')reviewing=false;
         else if(action==='grid')gridOpen=!gridOpen;
@@ -222,7 +226,7 @@ window.HazzardSimulation = (() => {
             write(value);
           }
           remember();
-          location.assign('?practice=1');return;
+          HazzardRouter.go('?practice=1');return;
         }
         else if(action==='cancel'){confirmSubmit=false;exitAttempt=null;}
         else if(action==='flag')edit(s=>{const id=s.ids[s.position];s.flags=s.flags.includes(id)?s.flags.filter(x=>x!==id):[...s.flags,id];});
@@ -233,10 +237,10 @@ window.HazzardSimulation = (() => {
         if(action==='submit'||action==='exit')host.querySelector('.sim-confirm')?.scrollIntoView({block:'center'});
       }catch(e){error=e.message;render();}finally{busy=false;}
     });
-    setInterval(tick,1000);
-    addEventListener('hazzard-simulation-change',()=>{if(loaded&&!busy){const y=host.scrollTop;render();host.scrollTop=y;}});
-    addEventListener('hazzard-simulation-error',()=>{if(loaded)render();});
-    addEventListener('storage',e=>{if(loaded&&(e.key===KEY||e.key===HazzardMCQ.KEY||e.key===null))render();});
+    const clock=setInterval(tick,1000);
+    listen(window,'hazzard-simulation-change',()=>{if(loaded&&!busy){const y=host.scrollTop;render();host.scrollTop=y;}});
+    listen(window,'hazzard-simulation-error',()=>{if(loaded)render();});
+    listen(window,'storage',e=>{if(loaded&&(e.key===KEY||e.key===HazzardMCQ.KEY||e.key===null))render();});
     return controller;
   }
   return {KEY,valid,read,merge,scored,submit,startClock,mount,basicSittings:()=>Object.keys(BASIC_SITTINGS),sittingIds:s=>basicIds(s)?.slice()||null};

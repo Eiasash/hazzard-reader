@@ -68,8 +68,6 @@ Every older person experiences age-related changes in vision. The majority of th
 
 *TABLE 33-1 ■ NORMAL AGE-RELATED CHANGES IN VISION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 Accommodation The ability to accommodate for focus on visual targets from distance to near, which is dependent on a flexible crystalline lens and the ciliary muscle, is altered with age, beginning around age 45. During this change, an increasing amount of plus in a concave lens (usually prescribed in bifocal lenses or reading glasses) is required to boost the focusing power of the eye to compensate for the loss in refracting ability of the lens for near tasks.
 
 Visual acuity The visual acuity of nonvisually impaired older people shows only a modest decrease under high-contrast conditions, but reducing the illumination of an acuity chart, reducing the contrast of the acuity chart, and/or adding surrounding glare, produces drastic age-related acuity losses, as compared to young observers. For example, in a sample of 900 older observers, for those at age 82, the median high-contrast visual acuity was 20/30, low-contrast highluminance acuity was 20/55, low-contrast low-luminance acuity was 20/120, and low-contrast acuity in glare conditions was 20/160. The added challenge of less than optimal lighting and/or contrast between the letters and their
@@ -110,8 +108,6 @@ vision if the fovea is involved, retinal hemorrhages (and/or laser treatments), 
 
 *TABLE 33-2 ■ AGE-RELATED CAUSES OF VISUAL IMPAIRMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p474"></a>**[p. 474]**
 
 Cataract Age-related cataract is manifested by gradual opacity of the lens, which interferes with the passage of light, causing reduced visual acuity, light scatter, sensitivity to glare, altered color perception, and image distortion (straight lines appear wavy). People with cataracts may experience trouble with glare and loss of contrast, may have decreased acuity, and report areas of metamorphopsia or small scotomas in the visual field. When the cataract has begun to interfere with lifestyle, surgery may be performed to remove either the entire lens or the posterior portion. Correction for the removal of the lens is provided primarily through intraocular lens implants, but occasionally eyeglasses or contact lens are used instead. Cataract surgery is the most common major surgical procedure done for people older than age 65 who are receiving Medicare funding. Cataract surgery with lens implantation is associated with improved objective and subjective measures of function in ADLs, as well as improved levels of vision to normal acuity in most cases.
@@ -137,8 +133,6 @@ A geriatrician can provide the following services for their patients related to 
 ![Table 33-3](hazzard8e_ch33_table-33-3_p475.webp)
 
 *TABLE 33-3 ■ VA LOW-VISION VISUAL FUNCTIONING QUESTIONNAIRE-20 (WITHOUT OVERALL SCORING)*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Visual Functioning Questionnaire-20 (VFQ-20). The VA VFQ-20 is a modified 20-item questionnaire that is effective in assessing the impact of vision impairment on quality of life and is helpful in assisting patients in setting goals for rehabilitation. 6. Counseling or referral for coping with psychosocial issues related to visual impairment. Patients may not be forthcoming about these issues, so the physician must ask. Adjustment disorder and depression are associated with visual impairment for older people. When patients are dealing with loss of independence and control, lowered self-esteem, and strained social relations, counseling and/or psychotherapy may be recommended for both patients and family members. 7. Reinforcement of simple strategies to improve abilities, such as the use of saturated colors and contrast in the home environment, and the use of simple devices, such as sun lenses outdoors and brighter indoor environments. 8. Providing information to the patient and family about the variable nature of low vision, its effect on daily life tasks, and the variable nature of visual abilities according to fluctuations of light and contrast. 9. Sponsorship of, or referral to, support groups where older people with vision loss and their families can discuss problems, coping, and rehabilitation strategies they have learned with other patients. 10. Assistance in community awareness about the prevalence, treatment, and rehabilitation of visual impairment among older people.
 
@@ -178,8 +172,6 @@ Despite the fact as many as half the people in nursing homes have visual impairm
 
 *TABLE 33-4 ■ CLINICAL LOW-VISION EXAMINATION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p477"></a>**[p. 477]**
 
 received eye examinations in the last 2 years. Providing information about vision and vision impairment to the nursing home staff is important for assisting residents in using their remaining vision effectively. Because stroke is another common medical condition requiring rehabilitation for older adults, it is important that the low-vision team work closely with those professionals who diagnose, treat, and rehabilitate older adults who have experienced cerebrovascular accident. Currently, Hadley School for the Blind provides an online curriculum in visual impairment for in-service training for people with visual impairment and their family members as well as professionals and technicians who work with them ([www.Hadley.edu](<https://hadleyhelps.org/> "Hadley resources for living with vision loss")). The use of curricular materials by longterm care staff has proven effective in increasing staff knowledge and positive outcomes for patients.
@@ -207,8 +199,6 @@ Whenever possible, a functional assessment should take place in the older adult�
 ![Table 33-5](hazzard8e_ch33_table-33-5_p478.webp)
 
 *TABLE 33-5 ■ KEY ASPECTS OF THE FUNCTIONAL VISUAL ASSESSMENT*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 The functional low-vision assessment may be completed by a wide variety of rehabilitation professionals. Traditionally, the functional low-vision assessment of older people has been provided by a low-vision therapist, a rehabilitation teacher for the visually impaired, an orientation and mobility specialist, or some other professional from the field of visual impairment, such as an eye care technician or technologist. Now, as vision rehabilitation is increasingly a part of hospital services and comprehensive outpatient rehabilitation facilities, the functional assessment may be provided by a rehabilitation nurse, an occupational therapist, or some other rehabilitation professional who has received specialized training in low vision.
 
@@ -266,8 +256,6 @@ Magnification may also be provided by stand or handheld magnifiers, which are of
 
 *TABLE 33-6 ■ LOW-VISION AND SPEECH-OUTPUT DEVICES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p481"></a>**[p. 481]**
 
 or coins. These devices do not require a close eye-to-lens distance, but the closer to the eye the lens is held, the wider the field of view. Some are available with built-in illumination, which overcomes the problem of illuminating the target the older adult is viewing. Handheld magnifiers require a steady hand to maintain focus and may be fatiguing to use for long periods. Older adults who use stand magnifiers must wear their bifocal correction for visual accommodation, as the lens is set slightly inside the true focal distance of the lens in order to provide a better optical image at the periphery of the lens.
@@ -322,8 +310,6 @@ Most older people require two to three times more light than do younger people f
 
 *TABLE 33-7 ■ WAYS TO MAKE AN ENVIRONMENT MORE VISUALLY ACCESSIBLE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p483"></a>**[p. 483]**
 
 floor, tabletops, and glass could cause objects in the dining room of a senior community to be obscured. An older person with low vision might function as if blind in that environment and be unable to find a chair, recognize his friends, serve his plate, or identify the food in a buffet line.
@@ -373,8 +359,6 @@ Anxiety and depression are common reactions to loss, and age-related visual impa
 ![Table 33-8](hazzard8e_ch33_table-33-8_p484.webp)
 
 *TABLE 33-8 ■ ORIENTATION TO A NEW SETTING FOR OLDER ADULTS WITH VISION LOSS*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 of thought on the timing of rehabilitation related to adaptation. Some rehabilitation professionals subscribe to a “loss theory” of psychological adjustment. This theory proposes that the person must “die” as a sighted person, and be “reborn” as a visually impaired person, incorporating the visual impairment into the sense of self. According to this theory, attempting rehabilitation would be fruitless until the process is complete. Others subscribe to the theory that anxiety and depression are related to a person’s negative stereotypes about visual impairment and a lack of confidence and motivation to attempt rehabilitation, but that if rehabilitation is successful, depression and anxiety should be reduced.
 

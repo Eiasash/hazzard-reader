@@ -44,7 +44,6 @@ Prior to the middle of the twentieth century, most deaths worldwide occurred in 
 
 *FIGURE 5-1. Demographic data from Sweden from 1751 to the present. A. Male and female life expectancies at birth show a steady increase after 1800 with occasional brief decreases due to war, famine, or infectious disease. B. Sex difference (female minus male) in life expectancy at birth and at age 50 is always positive, indicating greater female survival in all years for both ages. (Reproduced with permission from Human Demographic Database.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 infant and early-life mortality in developed countries has plummeted in recent decades (only 5% or fewer of deaths now occur before age 50 in most industrialized countries), life expectancy—even life expectancy at birth—has become an increasingly useful measure of health in old age because virtually all deaths occur in older adult age groups.
 
@@ -64,7 +63,6 @@ Life expectancy differences are the product of survival differences over the lif
 
 *FIGURE 5-2. A. Age-specific mortality in men and women in the United States in the years 1900 and 2000. Note the logarithmic scale for mortality. In 1900, life expectancy at birth in the United States was 46 years for men and 49 years for women; in 2000, the analogous numbers were 74 years for men and 79 years for women. B. Ratio of male-to-female age-specific mortality. The reference line at 1 marks where male and female mortality is equivalent. (Reproduced with permission from US Social Security Administration, 2005.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 8 years—in the year 2000 as it was in 1900. It is just that mortality declined by a nearly equivalent amount at all ages. Finally, although survival was markedly improved at all ages, the largest gains over this 100-year time span were those prior to age 50. Women clearly gained significantly more than men.
 
@@ -90,7 +88,6 @@ First, though, it should be pointed out that Figure 5-1B is misleading in one se
 
 *FIGURE 5-3. Gender gap in life expectancy. A. Sweden since 1751 expressed in absolute difference versus as a percentage of male life expectancy. B. Absolute differences in three countries. Note that when Japan’s difference was little more than 3 years (early 1950s), overall life expectancy in Japan was still low by modern standards (60–63 years).*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 the most part prior to 1850, then declined until the 1930s after which it rose abruptly, although never reaching earlier levels, and then it declined rapidly.
 
@@ -110,7 +107,6 @@ The gender gap is now playing a role in the US declining rank in life expectancy
 
 *FIGURE 5-4. Historical changes in smoking prevalence and mortality rate from lung and bronchial cancer in the United States. Note that smoking among women reached its peak later and declined more slowly than among men and lung cancer death rates followed suit with a delay of several decades. (Reproduced with permission from United States Centers for Disease Control and Prevention and National Cancer Institute SEER Database.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 their life expectancy rank may begin to rise over the next several decades.
 
@@ -134,7 +130,6 @@ Comparing causes of death between the sexes and even within a sex over time requ
 
 *TABLE 5-1 ■ SEX DIFFERENCES IN TOP CAUSES OF DEATHS IN THE UNITED STATES OVER THE 50-YEAR PERIOD BETWEEN 1960 AND 2017*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 than it did 57 years ago (16%). Does this mean that we are getting progressively worse at preventing and treating cancer?
 
@@ -180,7 +175,6 @@ Sex hormones, health, and disease The pattern of women’s increased susceptibil
 
 *FIGURE 5-5. Relation of age and gender to prevalence of Alzheimer disease. Summarized from 31 studies from across Europe. (Data from Alzheimer’s Europe.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 consistently increased resistance to most other fatal diseases relative to men, provokes speculation about the role of sex hormones in health and disease. This has been a fraught topic in aging research at least since the late nineteenth century when French-American physiologist Charles-Édouard Brown-Séquard began injecting himself with a cocktail of macerated dog and guinea pig testicles and subsequently proclaimed that he was rejuvenated in both mind and body.
 
@@ -238,7 +232,6 @@ The ubiquity of these health differences between the sexes begs for a biological
 
 *FIGURE 5-6. Self-reported health across several countries. Proportion of respondents reporting fair-to-poor ability to perform these tasks. (Reproduced with permission from Rahman O, Strauss J, Gertler P, et al: Gender differences in adult health: an international comparison. Gerontologist. 1994;34(4):463–469.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 effect of the responsiveness of women’s cartilage, tendons, ligaments, and muscle to female reproductive hormones is an increased susceptibility of women to joint instability and resultant inflammation and pain? Provocatively, female athletes in sports such as soccer and basketball are 5 to 10 times more likely to suffer anterior cruciate ligament knee injuries than male athletes, and most are from noncontact events. Also, the prevalence of idiopathic knee osteoarthritis is similar in men and women prior to menopause, but much greater in women after menopause, again suggesting a hormonal influence on joint health. Women also tend to have more robust inflammatory and immune responses than men, perhaps helping to account for their greater resistance to infectious diseases, and also greater susceptibility to autoimmune and inflammatory joint diseases such as osteo- and rheumatoid arthritis. Taken together, these sex differences may contribute to the health-survival paradox.
 

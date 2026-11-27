@@ -72,7 +72,6 @@ More recently, policy changes from the Improving Medicare Post-Acute Care Transf
 
 *TABLE 18-1 ■ POSTACUTE CARE CONTINUUM OF SERVICES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p252"></a>**[p. 252]**
 
@@ -100,7 +99,6 @@ Older adults experience a variety of transitions of care. Hospital discharge is 
 
 *TABLE 18-2 ■ HOSPITAL DISCHARGE INFORMATION THAT SKILLED NURSING FACILITY NURSES NEED TO DEVELOP AND IMPLEMENT A SAFE PLAN OF CARE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 with approximately 25% of older adults being discharged to a different institution and 12% being discharged to their homes with home health care services. Table 18-3 includes examples of different types of transitions in the level of care or setting that older adults may experience. Older adults who may be at increased risk for rehospitalization include those with difficulty with activities of daily living (ADLs), socioeconomic disadvantage, depression, substance abuse disorders, a history of previous hospitalization, difficulty with treatment adherence or medication compliance, or cognitive impairment.
 
@@ -116,13 +114,11 @@ High levels of stress and dissatisfaction often characterize experiences of tran
 
 *FIGURE 18-1. System fragmentation example.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ![Table 18-3](hazzard8e_ch18_table-18-3_p254.webp)
 
 *TABLE 18-3 ■ TYPES OF TRANSITIONS IN LEVEL OF CARE OR CARE SETTING COMMONLY EXPERIENCED BY OLDER ADULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 postacute providers, and primary care physicians (PCPs), ineffective physician-patient communication likely contributes to patients’ underpreparation for managing their care following transitions, particularly after hospitalization. Various communication failures involving and surrounding patients during transitions also lead to the lack of appropriate follow-up care (eg, visit with PCP following hospitalization), which likely increases risk for rehospitalization. Failure to receive follow-up care and the resulting subsequent negative sequelae may incorrectly be attributed to the patient’s noncompliance rather than other factors, such as inadequate preparation or education prior to discharge, leading patients and their caregivers to feel frustrated and unsupported.
 
@@ -134,7 +130,6 @@ Little research has examined patients’ and caregivers’ preferences surroundi
 
 *TABLE 18-4 ■ THE EXPERIENCE OF CARE TRANSITIONS FROM THE PERSPECTIVE OF PATIENTS AND THEIR CAREGIVERS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ## HIGH-QUALITY TRANSITIONAL CARE
 
@@ -154,7 +149,6 @@ Involving patients and their caregivers in decisions about care plans prior to t
 
 *TABLE 18-5 ■ HIGH-QUALITY TRANSITIONAL CARE AS COMPARED TO LESS-OPTIMAL TYPICAL CARE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### Patient/Caregiver Empowerment, Preparation, and Support
 
@@ -184,13 +178,11 @@ Medication reconciliation is an essential component of transitional care program
 
 *TABLE 18-6 ■ PRIMARY COMPONENTS OF A MEDICATION RECONCILIATION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ![Table 18-7](hazzard8e_ch18_table-18-7_p257.webp)
 
 *TABLE 18-7 ■ INFORMATION FOR THE PREADMISSION MEDICATION HISTORY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 TJC has made medication reconciliation a National Patient Safety Goal and requires all of its accredited institutions to have a process implemented at their site for reconciling medications. Despite these efforts, however, medication reconciliation processes have been challenging to perform effectively and consistently as evidenced by a continuing high prevalence of medication discrepancies for patients transitioning between health care settings and levels of care.
 
@@ -206,7 +198,6 @@ Transitional care interventions support patients as they move between different 
 
 *FIGURE 18-2. Transitional care nurse working with a patient and his family.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 recognize nurses as clinical leaders for supporting patients and their families as they navigate transitions (Figure 18-2). They engage nurses as well as other members of the interdisciplinary team in developing care plans, performing medication reconciliation, and supporting medication adherence and self-care in the early discharge period. Most transitional care interventions focus on transitions from hospital to community settings; however, emerging care models continue to be developed to support patients during a range of unique transitions. Some examples of specific transitional care interventions are noted below.
 
@@ -248,7 +239,6 @@ While most people with dementia spend most of their life in community settings, 
 
 *TABLE 18-8 ■ EDUCATIONAL RESOURCES FOR PATIENTS AND FAMILIES DURING TRANSITIONS OF CARE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 environment can guide surrogates’ choices in later stages of dementia. Dementia-specific advance directives have been suggested as one means of conveying these wishes.
 
@@ -262,7 +252,6 @@ Patients with dementia also benefit from inclusion in transitional care interven
 
 *TABLE 18-9 ■ CASE EXAMPLE OF A POOR-QUALITY TRANSITION FROM HOSPITAL–TO–NURSING HOME FOR A PERSON WITH DEMENTIA*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p261"></a>**[p. 261]**
 

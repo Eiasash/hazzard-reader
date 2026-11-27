@@ -54,7 +54,6 @@ Geriatrics models of care are standard approaches to the care of older adults. T
 
 *TABLE 14-1 ■ KEY COMPONENTS TO SUCCESSFUL GERIATRIC BEST PRACTICE MODELS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 address the needs of populations of vulnerable older adults. Many were developed in response to common challenges of older patients (eg, functional decline or new onset of delirium during an acute illness). Most models are set within a single context of care (eg, the hospital or the clinic setting). Some models continue care beyond a single setting. Most models provide key screens and assessments for patients, as well as appropriate interventions in response to the unique needs of each individual. Models of care require interdisciplinary team members who work together as opposed to health professionals who work independently. Models are commonly targeted to address a vulnerable patient population during a specific context of care.
 
@@ -76,7 +75,6 @@ Quality improvement projects and geriatrics practice models each identify a clin
 
 *TABLE 14-2 ■ KEY FEATURES OF STRATEGIES TO IMPROVE CARE FOR OLDER PATIENTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p193"></a>**[p. 193]**
 
@@ -102,7 +100,6 @@ Trying to deploy a model that could save money in a fee for service payment syst
 
 *TABLE 14-3 ■ EXAMPLES OF GERIATRIC MODELS OF CARE IN THE SETTING OF DIFFERENT PAYMENT SYSTEMS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p194"></a>**[p. 194]**
 
@@ -136,7 +133,6 @@ The Mobile Acute Care of the Elderly (MACE) model consists of a mobile interdisc
 
 *TABLE 14-4 ■ GERIATRIC MODELS OF CARE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p196"></a>**[p. 196]**
 
@@ -144,7 +140,6 @@ The Mobile Acute Care of the Elderly (MACE) model consists of a mobile interdisc
 
 *TABLE 14-4 ■ GERIATRIC MODELS OF CARE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p197"></a>**[p. 197]**
 
@@ -152,7 +147,6 @@ The Mobile Acute Care of the Elderly (MACE) model consists of a mobile interdisc
 
 *FIGURE 14-1. Acute Care for Elders (ACE).*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 improvement approach is the e-geriatrician consultation and an automated electronic medical record spreadsheet of relevant items, called the ACE Tracker (Figure 14-2). Consultation can be offered off campus and the ACE Tracker provides a spreadsheet of quality measures, geriatric conditions, and risk factors for adverse outcomes, such as falls and pressure ulcers. The ACE Tracker is a tool that can guide the development of the care plan and has been helpful in disseminating the principles of geriatrics to remote and rural hospitals.
 
@@ -164,7 +158,6 @@ In the ACE consult service, the consultation model applies the same core princip
 
 *FIGURE 14-2. The ACE Tracker.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p198"></a>**[p. 198]**
 
@@ -172,7 +165,6 @@ In the ACE consult service, the consultation model applies the same core princip
 
 *FIGURE 14-3. Acute Care for Elders (ACE) principles.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 geriatric consultations provide recommendations to the primary team. Geriatric consultation can be performed in multiple clinical settings in the hospital (Figure 14-3). Geriatricians and nurse practitioners who see patients in this model bill Medicare Part B for their services. In some sites, the consultation is performed by nurse practitioners under the supervision of a geriatrician.
 
@@ -190,7 +182,6 @@ The effectiveness of HELP was demonstrated in a prospective, individual-matching
 
 *FIGURE 14-4. Hospital Elder Life Program (HELP).*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p199"></a>**[p. 199]**
 

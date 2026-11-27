@@ -52,13 +52,11 @@ Aging is no longer a mysterious “black box.” It used to be common for a rese
 
 *TABLE 40-1 ■ GEROSCIENCE GLOSSARY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ![Figure 40-1](hazzard8e_ch40_figure-40-1_p594.webp)
 
 *FIGURE 40-1. Hallmarks/pillars of aging.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 a wealth of diverse research into the biology of aging has led to the identification of “clusters” of biological mechanisms, now referred to as hallmarks or pillars, that individually and collectively appear to “drive” aging (see Figure 40-1; Table 40-2).
 
@@ -68,7 +66,6 @@ These insightful discoveries suggest that aging processes can be modified to inc
 
 *TABLE 40-2 ■ GEROSCIENCE HYPOTHESIS: SUPPORTING OBSERVATIONS AND DISCOVERIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p595"></a>**[p. 595]**
 
@@ -76,7 +73,6 @@ These insightful discoveries suggest that aging processes can be modified to inc
 
 *FIGURE 40-2. Age (y axis) represents the major shared risk factor of death from most chronic diseases.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### Geroscience-Driven Interventions to Modulate Aging in Humans
 
@@ -94,7 +90,6 @@ Early Insights The observation that multifactorial risk profiles often include b
 
 *FIGURE 40-3. Shared risk factors may contribute to multiple different geriatric syndromes. (Reproduced with permission from Inouye SK, Studenski S, Tinetti ME, et al. Geriatric syndromes: clinical, research, and policy implications of a core geriatric concept. J Am Geriatr Soc. 2007;55[5]:780–791.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p596"></a>**[p. 596]**
 
@@ -102,7 +97,6 @@ Early Insights The observation that multifactorial risk profiles often include b
 
 *FIGURE 40-4. The evolving view of multifactorial complexity and hallmarks of biological aging in geriatric syndromes and clinical diseases.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Therefore, interventions such as exercise and physical activity may result in functional improvements across diverse outcomes because they target shared risk factors for different conditions or geriatric syndromes. Such approaches offer a path to treating individuals with multiple morbidities. Moreover, evidence that some combinations of risk factors may influence each other and mediate their downstream effects via common shared pathways
 
@@ -134,7 +128,6 @@ A broad range of preclinical studies has established the feasibility of geroscie
 
 *FIGURE 40-5. Categories of geroscience-guided interventions.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 function, while also improving geriatric syndromes such as frailty, sarcopenia, and late-life osteoporosis (Figure 40-5).
 
@@ -150,7 +143,6 @@ Progress has been made toward targeting fundamental aging processes, and multipl
 
 *TABLE 40-3 ■ PRECLINICAL EVIDENCE FOR GEROSCIENCE-BASED INTERVENTIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p599"></a>**[p. 599]**
 
@@ -172,7 +164,6 @@ Translation of therapies rooted in the basic concepts of the geroscience hypothe
 
 *FIGURE 40-6. Targeting biological aging processes could delay the incidence of multiple age-related diseases. (Reproduced with permission from Justice JN, Niedernhofer L, Robbins PD, et al. Development of clinical trials to extend healthy lifespan. Cardiovasc Endocrinol Metab. 2018;7(4):80–83.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 • Geroscience-based clinical trials are built upon strong findings from preclinical studies utilizing relevant animal models and/or human studies demonstrating efficacy for single, chronic disease states with supporting evidence for age-related pleiotropic effects; • The intervention ultimately works to prevent, delay, ameliorate, or reverse multiple chronic conditions or geriatric syndromes (Figure 40-6); • Efficacy of geroscience interventions are based on clinically meaningful outcomes that will benefit healthspan, resiliency, and possibly lifespan; • Pilot or proof-of-concept human studies provide early insight into safety and administration (dosing, etc), possible efficacy in terms of surrogate biological outcomes and aging mechanistic target engagement, as well as initial data on clinical outcomes that inform the design of larger clinical trials; and • The successful intervention is generally applicable to older adults with multimorbidity, functional decline, and decreased resilience, and to those of racial, ethnic, and gender diversity who also live in diverse residential settings.
 
@@ -188,7 +179,6 @@ Conceptually, two categories of clinical trial approaches for geroscience-based 
 
 *FIGURE 40-7. Extending healthspan and enhancing resilience with interventions that target aging. (Reproduced with permission from Newman JC, Milman S, Hashmi SK, et al. Strategies and challenges in clinical trials targeting human aging. J Gerontol A Biol Sci Med Sci. 2016;71(11):1424–1434.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 resilience (Figure 40-7). In the first approach, expected declines in healthspan due to progressive loss of physiological and physical function, as well as accumulation of multiple chronic diseases and geriatric syndromes, are targeted to avoid resultant disability and dependence. The advantages of this strategy are that, if successful, it would have high clinical impact on multimorbidity and quality of life, leverage known pathophysiology, and be suited to various interventions. Weaknesses include the difficulty in separating effects of an intervention on a single disease from an underlying effect on primary aging and the challenge of conducting mechanistic studies with multifactorial conditions.
 
@@ -212,7 +202,6 @@ Geroscience-based clinical trials must adopt a geriatriccentric design so as to 
 
 *TABLE 40-4 ■ OUTCOME MEASURES FOR CLINICAL TRIALS ON TRANSLATIONAL GEROSCIENCE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 the generalizability of study findings for typical geriatric patients with multiple coexisting conditions, support patient preferences involving function and independence, acknowledge aging as a major risk factor for multimorbidity, and help to validate geroscience-guided therapies in multiple residential and other settings.
 
@@ -234,7 +223,6 @@ This concept is counter to biomarker development and validation in the context o
 
 *TABLE 40-5 ■ CRITERIA FOR BIOMARKERS OF AGING IN CLINICAL TRIALS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 LDL-C is related to higher coronary heart disease risk, and interventions that lower LDL-C also lower the risk of heart disease. The link is so well established that new drugs can be approved on the basis of their cholesterol-lowering properties rather than proving a reduction in heart disease risk. The strength of LDL-C as a biomarker for heart disease is based on its causal role in the promotion of atherosclerosis.
 

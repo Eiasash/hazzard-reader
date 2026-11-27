@@ -80,7 +80,7 @@ window.HazzardEvidence = (() => {
     const url = new URL(location.href);
     url.search = ''; url.searchParams.set('chapter', page.readerChapter || page.chapter);
     url.searchParams.set('examBack', '1'); url.hash = page.anchor || 'p' + page.page;
-    location.assign(url);
+    HazzardRouter.go(url);
   }
   const rebuilt = new Set(['1','3','7','8','11','15','17','22','26','27','30','31','34','37','38','42','43','44','45','46','47','48','49','51','52','53','55','57','58','59','60','61','62','63','65','67','68','72','74','75','76','77','78','79','80','81','82','83','87','88','89','94','95','97','98','99','100','101','102','104','105','106']);
   const isRebuilt = chapter => rebuilt.has(String(chapter));

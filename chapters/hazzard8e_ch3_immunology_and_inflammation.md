@@ -38,7 +38,6 @@ HSCs in the bone marrow give rise to all blood cell lineages (Figure 3-1) and as
 
 *FIGURE 3-1. Schematic representation of hematopoiesis. Hematopoietic stem cells (HSCs) differentiate into lymphoid progenitors in the bone marrow that give rise to T cells (which develop in the thymus) and B cells, and myeloid progenitors that differentiate to monocytes, dendritic cells, neutrophils, basophils, eosinophils, as well as erythroid and megakaryocytic lineages. Aging is associated with impaired HSC differentiation and repopulation function and with a bias toward myeloid at the expense of lymphoid progenitors.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 expected. Aging is associated with impaired differentiation and repopulation of blood cell lineages upon transplantation; this has been most clearly demonstrated in model mouse systems, although the substantial effect of donor age on outcomes from HSC transplantation suggests a similar effect in humans. Notably, there appears to be a significant bias favoring development of progenitor stem cells for the myeloid lineage (which give rise to granulocytes, monocytes, macrophages, erythrocytes, and platelets) and diminished numbers of lymphoid progenitors responsible for B and T lymphocyte development. This likely contributes to the impairment in B and T cell development found in older adults, and it is attractive to speculate that increases in myeloid progenitors could contribute to age-associated myeloproliferative disorders. The mechanisms underlying these alterations in hematopoiesis remain incompletely understood, but likely involve stem cell-intrinsic changes such as the accumulation of cellular and DNA damage (with age-related chronic inflammation likely playing a contributing role) and telomere shortening in HSCs with age, as well as inefficient DNA replication and alterations in signaling pathways mediating the response to DNA
 
@@ -54,7 +53,6 @@ The earliest onset responses to pathogens or vaccines are mediated by the innate
 
 *TABLE 3-1 ■ COMPONENTS AND FUNCTIONS OF THE INNATE IMMUNE SYSTEM*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 malignant cells (by NK cells), and complement fixation and lysis of extracellular organisms.
 
@@ -72,7 +70,6 @@ Recent studies have also identified families of PRRs localized to the cytoplasm 
 
 *FIGURE 3-2. Depiction of potential factors that contribute to age associated chronic inflammation. SASP, senescenceassociated secretory phenotype.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### A Heightened Proinflammatory Environment in Older Adults
 
@@ -90,7 +87,6 @@ Neutrophil function in older adults In cells of the innate immune system, age-as
 
 *TABLE 3-2 ■ AGE-RELATED CHANGES IN INNATE IMMUNE CELLS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 release of neutrophil extracellular traps (NETs), complexes of DNA, histones, and antimicrobial proteins released from the neutrophil that facilitate pathogen capture and killing, is also decreased in neutrophils from older compared to young adults. While alterations in specific signaling pathways as discussed above have been linked to some of these findings, how age influences these functions remains unclear, particularly in view of the short lifespan of human neutrophils in vivo (approximately 5 days). It should be noted that alterations in function such as chemotaxis that may influence migration to sites of infection or injury could
 
@@ -122,7 +118,6 @@ The state of BCR or TCR gene rearrangement denotes specific maturation stages of
 
 *FIGURE 3-3. Depiction of presentation of a peptide (red) resulting from proteolytic processing of a protein antigen in antigen-presenting cells (APCs) such as monocytes, dendritic cells, or B cells. The peptide is bound to host MHC protein, and this combination of peptide and class I or peptide and class II MHC is recognized by T cell receptors on CD8+ cytotoxic or CD4+ helper T cells, respectively.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Ig light chain and α TCR rearranged loci. To accomplish this, the lymphocyte-specific recombinase activating genes (RAG) mediate site-specific DNA cleavage at unrearranged V, D, and J regions. The subsequent joining of these gene segments to form a rearranged antigen receptor gene utilizes proteins responsible for DNA repair (nonhomologous end joining) that are generally expressed in all cell types as part of the response to DNA damage; such proteins include Ku70, Ku80, DNA-dependent protein kinase (DNA-PK), Artemis nuclease, X-ray repair cross-complementing protein 4 (XRCC4), DNA ligase IV, and others. Recombinatorial gene rearrangement of V regions to a more limited number of D and/or J segments, combined with imprecision in the rejoining of cleaved gene segments, results in the tremendous antigenic diversity found in B and T lymphocytes at birth (Figure 3-4). Substantial changes in this diversity occur with age, as described below.
 
@@ -140,13 +135,11 @@ The generation of mature T cells occurs in the thymus, a bilobed organ located i
 
 *FIGURE 3-4A. Depiction of DNA rearrangement events occurring in B cells. The immunoglobulin (Ig) heavy chain locus is shown. VDJ recombination is initiated by lymphocyte-specific recombinase activating gene (RAG1 and RAG2)-induced breaks at specific sequences upstream of V, D, and J gene segments, with joining of breaks using generally expressed DNA nonhomologous end joining repair proteins. D to J gene rearrangement occurs first, followed by a V to DJ gene rearrangement to yield the complete heavy chain variable region gene recognizing antigen. IgM (expressing the μ constant region gene) is first expressed during an initial antibody response, with subsequent expression of additional Ig isotypes such as IgG subtypes, IgE, and IgA resulting from class switch recombination that deletes previously expressed constant region genes in mature B cells. Somatic hypermutation also occurs in mature B cells, a process where the Ig V region undergoes mutation to enhance affinity of antigen recognition. Both class switch recombination and somatic hypermutation require the B cell– specific protein activation-induced cytidine deaminase (AID), as well as generally expressed DNA repair proteins.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ![Figure 3-4B](hazzard8e_ch3_figure-3-4b_p54.webp)
 
 *FIGURE 3-4B. Depiction of T cell receptor (TCR) gene rearrangement. The TCR β chain genetic locus is shown. As in the immunoglobulin loci, RAG-1- and RAG-2-dependent cleavage at specific sequences upstream of TCR β V, D, and J segments, with D to J gene rearrangement occurring first, followed by V to DJ gene rearrangement. Joining of DNA breaks is accomplished by DNA nonhomologous end joining repair proteins.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p55"></a>**[p. 55]**
 
@@ -154,7 +147,6 @@ The generation of mature T cells occurs in the thymus, a bilobed organ located i
 
 *FIGURE 3-5. Histologic examination of the thymus in a child (left) and adult (right). The thymic capsule (C) is indicated, with the thymic cortex (Co) (which is initially colonized by T cell progenitors originating in the bone marrow) and medulla (M) (containing mature T cell subsets) indicated. With age, marked thymic involution occurs, with increased replacement of thymic epithelium with adipose tissue (A). (Reproduced with permission from Mescher AL. Junqueira’s Basic Histology, 13th ed. New York, NY: McGraw Hill; 2013.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 survival of precursors with a successful β chain gene rearrangement. Subsequent rearrangement of the TCR α chain genes corresponds to upregulation of both CD4 and CD8 expression (such CD4+ CD8+ cells are referred to as “doublepositive” thymocytes), and if a productive gene rearrangement occurs (ie, one able to encode for an α chain protein), the mature αβ TCR is expressed. These developing cells subsequently undergo so-called positive selection, in which cells bearing TCRs that recognize host class MHC class I or class II proteins survive, while those that do not undergo apoptosis. This step coincides with differentiation to “single-positive” CD4+ cells recognizing MHC class II proteins, and cytotoxic CD8+ T cells recognizing MHC class I. Another process of negative selection eliminates those T cells carrying αβ TCRs with high affinity for selfpeptide/MHC complexes that could result in autoimmunity. Additional lineage specification for development of regulatory T cells (Treg), which inhibit T cell activation, and γδ T cells expressing two distinct classes of TCR proteins that may play a role in the recognition of lipid antigens, also occurs in the thymus (Figure 3-6).
 
@@ -168,7 +160,6 @@ Thymic involution The human thymus is at its maximal size in infancy, and begins
 
 *FIGURE 3-6. Overview of T cell development. T lymphopoiesis is closely linked to the state of T cell receptor gene rearrangement in the thymus, with initial β chain gene rearrangement followed by TCR α chain gene rearrangement in T cell precursors expressing both CD4 and CD8 (“double-positive” T cells). Following expression of a TCR on the cell surface (indicated in red), positive selection (+ selection), which selects for survival of T cells bearing TCRs that recognize host MHC class I or class II, and negative selection (– selection), which deletes potentially autoreactive T cells, occur in single-positive T cells (Single [+]) expressing CD4 or CD8.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <span id="ch3-thymus-memory" data-reader-metadata="exam"></span>activity results in decreased numbers and proportion of naïve (CD45RA+) T cells in peripheral blood, with an increase in T lymphocytes with a memory phenotype (CD45RO+). In this regard, it is notable that a T cell phenotype resembling that seen in aged adults was found in young adults who had undergone thymectomy in childhood. The mechanisms underlying thymic involution remain a subject of active study; alterations in thymic epithelial cells that facilitate the developmental expansion and selection steps of T cell development, such as changes in expression of the master transcriptional regulator FoxN1, are thought to play an important role. There is interest in developing interventions that can stabilize or reverse thymic involution
 
@@ -176,7 +167,6 @@ Thymic involution The human thymus is at its maximal size in infancy, and begins
 
 *TABLE 3-3 ■ AGE-RELATED CHANGES IN THE ADAPTIVE IMMUNE SYSTEM*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 and thereby improve T cell production in older adults. However, the widespread conservation of thymic involution in most mammals raises the speculative question of whether it might represent an evolutionary adaptation, perhaps protecting the host from lymphocytic malignancies in older age.
 
@@ -192,7 +182,6 @@ in CD4+ CD28− cells can be found in adults with rheumatologic disease. CD28 as
 
 *FIGURE 3-7. A. Graphical depiction of age-associated decrease in naïve T cells and increased proportion of memory and effector T cells, reflecting thymic involution and proliferative expansion of preexisting T cells. B. Flow cytometric plots of CD28 expression (Y-axes) versus expression of CD45RA (a marker of naïve T cells) in CD8+ T cells from representative young and older subjects stratified by CMV seroreactivity. Note the increased proportion of CD8+ T cells expressing low or absent levels of CD28 and decreased proportion of CD45RA expressing naïve T cells in older adults; these changes are enhanced in CMV-seropositive older adults. (Modified with permission from Almanzar G, Schwaiger S, Jenewein B, et al. Long-term cytomegalovirus infection leads to significant changes in the composition of the CD8+ T-cell repertoire, which may be the basis for an imbalance in the cytokine production profile in elderly persons. J Virol. 2005;79[6]:3675–3683.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p58"></a>**[p. 58]**
 
@@ -216,7 +205,6 @@ Dramatic effects of aging on B cell development are found in mouse models; howev
 
 *FIGURE 3-8. Depiction of B cell development. Immunoglobulin gene rearrangement (first of the heavy chain genes, followed by light chain gene rearrangement) is crucial to B lymphopoiesis, resulting in generation of a library of mature B cells collectively expressing a highly diverse repertoire of surface immunoglobulin (the B cell antigen receptor). Encounter with a specific antigen results in expansion of a clone of B cells recognizing that antigen, and generation of memory B cells and plasma cells secreting immunoglobulin of the same specificity.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 profound loss of B cell repertoire diversity has been associated with alterations in health or functional status, such as frailty; the effects of functional alterations or multimorbidity on the immune system in older adults is an emerging area of significant research and clinical interest.
 

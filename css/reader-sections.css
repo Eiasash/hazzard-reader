@@ -65,7 +65,7 @@ body:has(#reader:not([hidden])) #chapterHeaderTitle[data-sections]:not(:disabled
     flex-direction: column;
     position: fixed;
     inset-inline-start: var(--vv-left, 0px);
-    inset-block-start: calc(var(--vv-top, 0px) + var(--desktop-header-height, 64px));
+    inset-block-start: calc(var(--vv-top, 0px) + var(--active-header-height, 64px));
     inset-block-end: calc(var(--vv-bottom-gap, 0px) + var(--tabs-height) + var(--update-gap, 0px));
     inline-size: var(--reader-outline-width);
     padding: 14px 12px 0;
@@ -112,5 +112,3 @@ html[data-reading-companion] body #chapterHeader > .companion-sections {
   padding-inline: 6px;
   color: var(--accent);
 }
-html[data-reading-companion]:has(#readerScroll[inert]) body #chapterHeader > .companion-sections { display: none !important; }
-html[data-reading-companion] #panel[data-current-pane="contents"] { max-width: 100%; }

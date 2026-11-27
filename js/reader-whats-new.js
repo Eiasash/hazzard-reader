@@ -9,7 +9,7 @@
   const version = () => window.HazzardRelease?.version || '';
   function dot() {
     button.textContent = 'What’s new';
-    document.querySelector('#appTabs [data-tab="tools"]')?.classList.toggle('has-new-release', !!version() && seen !== version());
+    document.querySelector('#settingsGear')?.classList.toggle('has-new-release', !!version() && seen !== version());
   }
   function markVisible() {
     requestAnimationFrame(() => {

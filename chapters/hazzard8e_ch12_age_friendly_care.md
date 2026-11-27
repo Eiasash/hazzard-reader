@@ -44,7 +44,6 @@ Through the collaborative efforts of The John A. Hartford Foundation (JAHF) and 
 
 *FIGURE 12-1. Age-Friendly Health Systems logo.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Hospital Association (AHA) and the Catholic Health Association of the United States, the AFHS initiative has had strong momentum (Figure 12-1). Already established in over 2,600 sites of care across the country, this progress indicates a willingness to adopt the 4Ms model and study the impact. The AFHS movement has the goal of reaching 25% of hospitals and primary care settings by 2025.
 
@@ -72,7 +71,6 @@ What Matters is what truly drives patient-centered care and is essential to addr
 
 *FIGURE 12-2. 4Ms interaction. (An initiative of The John A. Hartford Foundation and the Institute for Healthcare Improvement [IHI] in partnership with the American Hospital Association [AHA] and the Catholic Health Association of the United States [CHA].)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 care preferences, including, but not limited to, end-of-life care, across settings of care.
 
@@ -88,7 +86,6 @@ Documenting and incorporating What Matters information is a reliable, timely non
 
 *TABLE 12-1 ■ CHECKLIST FOR CULTURALLY APPROPRIATE “WHAT MATTERS” CONVERSATIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 unwanted and avoidable hospital stays, procedures, emergency department visits, medications, etc., stand to improve quality and efficiency across the board for older adults and health systems alike.
 
@@ -122,7 +119,6 @@ Dementia is more prevalent with advanced age but should not be conflated with no
 
 *TABLE 12-2 ■ PRACTICE RECOMMENDATIONS FOR PERSON-CENTERED CARE FOR PEOPLE LIVING WITH DEMENTIA*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p176"></a>**[p. 176]**
 
@@ -160,7 +156,6 @@ As seen in Table 12-3, delirium was shown to have serious consequences leading t
 
 *TABLE 12-3 ■ HARTFORD HOSPITAL PER-PATIENT COSTS ASSOCIATED WITH DELIRIUMa*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 delirium. The implementation of the ADAPT program led to decreased hospital stays for delirium patients (16–10.6 days) and reduced delirium attributable days. This resulted in annual savings averaging $6.5 million from 2012 to 2019. Hartford Health care has now taken steps to scale up the program, with potential expansion to other care settings (post-acute and home care) and a focus on population health in primary care clinics for underserved communitydwelling older adults.
 

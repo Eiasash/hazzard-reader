@@ -42,8 +42,6 @@ Health care systems around the world have been based on a disease model. Diagnos
 
 *FIGURE 13-1. Growth over time in the aged population in developed and developing countries. All numbers are millions of people. (Reproduced with permission from US Census Bureau, Current Population Reports: 65+ in the United States.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 personnel are now facing a “new” and less familiar type of patient who presents with an array of concomitant clinical conditions. These combinations of conditions result in varying degrees of functional deficits, cognitive deterioration, nutritional problems, and geriatric syndromes (delirium, falls, incontinence), often in the face of inadequate social support and financial resources.
 
 This “new” older patient presents a degree of complexity not previously considered by the traditional understanding of medicine and its role. The traditionally envisioned health care system, whether operating under universal coverage or private mechanisms, is challenged by this complex patient.
@@ -94,15 +92,11 @@ While definitions vary for who is a geriatrician, our national respondents repor
 
 *FIGURE 13-2. A. Does your country require a defined period in a certified training program to be qualified as a geriatrician? B. Types of training programs in geriatric medicine in 63 countries. Other includes some programs that are transitioning between types of training or are starting a formal training program, some geriatric training programs are longer than 2 years, and some are 18 months after Internal Medicine. FM, Family Medicine, IM, Internal Medicine. C. My country requires a successful score on a standardized certification examination to be qualified as a geriatrician.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p183"></a>**[p. 183]**
 
 ![Table 13-1](hazzard8e_ch13_table-13-1_p183.webp)
 
 *TABLE 13-1 ■ TRAINING AND CERTIFICATION IN GERIATRICS IN DIFFERENT COUNTRIES*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p184"></a>**[p. 184]**
 
@@ -110,23 +104,17 @@ While definitions vary for who is a geriatrician, our national respondents repor
 
 *TABLE 13-1 ■ TRAINING AND CERTIFICATION IN GERIATRICS IN DIFFERENT COUNTRIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p185"></a>**[p. 185]**
 
 ![Table 13-1 (continued)](hazzard8e_ch13_table-13-1-continued_p185.webp)
 
 *TABLE 13-1 ■ TRAINING AND CERTIFICATION IN GERIATRICS IN DIFFERENT COUNTRIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p186"></a>**[p. 186]**
 
 ![Table 13-1 (continued)](hazzard8e_ch13_table-13-1-continued_p186.webp)
 
 *TABLE 13-1 ■ TRAINING AND CERTIFICATION IN GERIATRICS IN DIFFERENT COUNTRIES*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 care, so it is difficult to relate the RCP estimate to the findings of our survey. Some countries report national efforts to increase the number of trained geriatricians, but others do not.
 
@@ -148,15 +136,11 @@ Quite a few countries have evolving policies and practices related to geriatrics
 
 *FIGURE 13-3. A. Where do geriatricians practice in your country? Respondents can select multiple sites. Other includes public health, regional variability in sites of practice, emergency room, mobile teams, life care communities, and PACEtype programs. B. Are there designated hospital beds for geriatrics in your country? C. Are there formally established collaborative teams with geriatrics on specialty hospital services in your country? Respondents can choose more than one. Other includes general and specialties of surgery, neurology, stroke, dermatology, psychiatry, rehabilitation, palliative care, COVID-19, and CGA screening for 75+. CGA, Comprehensive geriatric assessment; PACE, Program of All-Inclusive care of the Elderly.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
-
 <a id="p188"></a>**[p. 188]**
 
 ![Figure 13-4](hazzard8e_ch13_figure-13-4_p188.webp)
 
 *FIGURE 13-4. A. Types of geriatric outpatient services in 63 countries. Other includes frailty, polypharmacy, oncogeriatrics, geropsychiatry, osteoporosis, preoperation, movement disorders, and day hospital. B. How are geriatricians paid in your country? C. Does your country ever require a geriatrician assessment for eligibility for services or other benefits?*
-
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p189"></a>**[p. 189]**
 

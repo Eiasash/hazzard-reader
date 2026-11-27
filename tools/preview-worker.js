@@ -13,6 +13,29 @@ async function yieldToReader(){
 let progress = 0;
 let interrupted = false;
 
+let priorCaches = [];
+async function previousManifests(){
+  const result=[];
+  for(const name of await caches.keys()){
+    if(name===CACHE||!name.startsWith('reader-preview-'))continue;
+    const cache=await caches.open(name);
+    const [manifest,receipt]=await Promise.all([cache.match(LIST),cache.match(READY)]);
+    if(!manifest?.ok||!receipt?.ok||'reader-preview-'+await receipt.text()!==name)continue;
+    try{
+      const data=await manifest.json();
+      result.push({cache,hashes:new Map(data.files.map(f=>[f.url,f.sha256]))});
+    }catch{/* An older unfinished copy can be fetched normally. */}
+  }
+  return result;
+}
+async function verifiedAsset(file,priority){
+  for(const prior of priorCaches){
+    if(prior.hashes.get(file.url)!==file.sha256)continue;
+    const hit=await prior.cache.match(file.url);if(hit?.ok)return hit;
+  }
+  return download(file,priority);
+}
+
 async function download(file, priority) {
   const url = new URL(file.url, self.registration.scope);
   if (url.origin !== location.origin || !url.href.startsWith(self.registration.scope)) throw Error('Invalid preview asset');
@@ -37,8 +60,9 @@ async function eachFile(files, concurrency, visit) {
 
 self.addEventListener('install', event => event.waitUntil((async () => {
   const cache = await caches.open(CACHE);
+  priorCaches=await previousManifests();
   await eachFile(SHELL, 4, async file => {
-    await cache.put(file.url, await download(file,'high'));
+    await cache.put(file.url, await verifiedAsset(file,'high'));
   });
   if (self.registration.active) await cache.put(TAKEOVER,new Response(BUILD));
   await self.skipWaiting();
@@ -47,6 +71,7 @@ self.addEventListener('install', event => event.waitUntil((async () => {
 self.addEventListener('activate', event => event.waitUntil((async () => {
   const cache = await caches.open(CACHE);
   const replacing = !!await cache.match(TAKEOVER);
+  if(replacing&&!priorCaches.length)priorCaches=await previousManifests();
   for (const name of await caches.keys()) {
     if (name !== CACHE && /^(?:reader-preview-|hazzard-)/.test(name)) await caches.delete(name);
   }
@@ -76,7 +101,7 @@ async function warmOffline() {
   let count = 0, lastNotice = 0;
   await eachFile(list.files, 3, async file => {
     await yieldToReader();
-    if (!await cache.match(file.url)) await cache.put(file.url, await download(file,'low'));
+    if (!await cache.match(file.url)) await cache.put(file.url, await verifiedAsset(file,'low'));
     progress = Math.floor(100 * ++count / list.files.length);
     if (Date.now()-lastNotice > 1500) {
       lastNotice = Date.now();
@@ -84,6 +109,7 @@ async function warmOffline() {
     }
   });
   await cache.put(READY,new Response(BUILD));
+  priorCaches=[];
   for (const page of await self.clients.matchAll()) await status(page);
 }
 

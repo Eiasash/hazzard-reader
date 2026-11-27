@@ -25,7 +25,7 @@ Conventions on the pages:
 
 ## How it works
 
-- `index.html` is the whole app (shell, CSS, JS; no build step, no framework). Chapters 47, 58, 60, 61 and 99 are embedded as `<template>` blocks; everything else is loaded from `manifest.json` + `chapters/*.md` and rendered in the browser with the vendored [marked](https://github.com/markedjs/marked) (`js/marked.min.js`).
+- The static shell in `index.html` routes between Read, Study and Questions in one document. Every chapter is loaded from its canonical `chapters/*.md` file listed in `manifest.json`. The reader and the search builder use the same Markdown renderer in `js/chapter-content.js` and the vendored marked library.
 - Adding a chapter or study page = drop the `.md` (and images) into `chapters/` and add one entry to `manifest.json`.
 - `sw.js` precaches the shell and every manifest chapter with its images; network-first, cache fallback offline. It only ever deletes its own `hazzard-*` caches (the eiasash.github.io origin is shared with other apps). The cache version is bumped on every deploy.
 - `tools/`: `lane_diff.py` (chapter vs book text diff), `verify_study_pages.py` (every bolded study-page number vs its cited page), and the briefs used for the review and audit passes.

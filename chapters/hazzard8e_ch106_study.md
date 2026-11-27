@@ -27,6 +27,8 @@ Study summary of Chapter 106; the book and the full chapter are the reference.
 <span data-exam-page="1705"></span>
 
 - In PALTC residents without specific urinary signs or symptoms, behavioral change (exclusive of delirium), functional decline, falls or anorexia should NOT prompt evaluation for UTI; a change in the character of the urine may reflect mild dehydration, diet or medication (p. 1705)
+
+  > Current practice (not the book): In an older person with bacteriuria and delirium or a fall, look for other causes and observe carefully when local urinary symptoms, fever and hemodynamic instability are absent. Bacteriuria alone does not establish a urinary source. Suspected sepsis requires prompt assessment and empiric treatment for possible sources. [IDSA asymptomatic bacteriuria guideline, 2019, section V](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/).
 - Urine-character changes alone do not establish UTI. McGeer criteria serve surveillance; Loeb criteria guide antibiotic decisions. (p. 1705)
 - With nonspecific symptoms but no UTI criteria or warning signs, use active monitoring, hydration and alternative-diagnosis assessment. Fever, rigors, unstable vitals or clear-cut delirium require evaluation. (p. 1712)
 

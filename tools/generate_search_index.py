@@ -4,6 +4,7 @@ Run before generate_asset_list.py. Requires Playwright and Chrome.
 import json
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from generate_recall_cards import publish
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -13,21 +14,25 @@ def generate():
         [str(e["number"]), (ROOT / "chapters" / e["file"]).read_text(encoding="utf-8")]
         for e in manifest["chapters"]
     ]
-    html = (ROOT / "index.html").read_text(encoding="utf-8")
-    renderer = html[html.index("function renderManifestChapterHtml("):html.index("\nlet manifestChapters=")]
-    markers = html[html.index("function smoothPageMarkers("):html.index("\nsmoothPageMarkers(copy);")]
-    search = html[html.index("const searchText="):html.index("\nlet fullTextIndex=")]
-    javascript = """args => {
-      const requestedChapter = '46', imageSizes = {};
-    """ + renderer + markers + search + """
-      const doc = new DOMParser().parseFromString(args.html, 'text/html');
-      const templates = new Map([...doc.querySelectorAll('template[id^=chapter][id$=Template]')].map(t =>
-        [t.content.querySelector('[data-chapter-id]').dataset.chapterId, t.innerHTML]));
-      return args.entries.map(([id, markdown]) => {
+    javascript = r"""entries => {
+      const {renderMarkdown, smoothPageMarkers, searchText, searchBlocks} = HazzardChapterContent;
+      return entries.map(([id, markdown]) => {
         const root = document.createElement('div');
-        root.innerHTML = templates.get(id) || renderManifestChapterHtml(markdown);
+        root.innerHTML = renderMarkdown(markdown,id);
+        const prompts = /^(?:\d+s|laws)$/.test(id) ? HazzardFlashcards.recallBlocks(root,id).map(({answer,prompt,summary,key}) => {
+          const norm = s=>s.replace(/[*_]+/g,'').replace(/\s+/g,' ').trim();
+          const front = norm(prompt.textContent).replace(/^\d+[.)]\s+/,'');
+          const body = answer.cloneNode(true);
+          body.querySelector('summary').remove();
+          const clean = document.createElement('div');
+          clean.innerHTML = marked.parse(body.innerHTML.trim());
+          return {chapter:id.slice(0,-1),key,front,back:norm(clean.textContent),
+                  link:clean.querySelector('a[href*="#p"]')?.getAttribute('href')||null};
+        }) : [];
+        const pages = [...root.querySelectorAll('[id]')].filter(e=>/^p\d+$/.test(e.id)).map(e=>Number(e.id.slice(1)));
+        HazzardFlashcards.foldRecall(root,id,{});
         smoothPageMarkers(root);
-        return [id, searchBlocks(root).map(searchText)];
+        return [id, searchBlocks(root).map(searchText), prompts, pages];
       });
     }"""
     with sync_playwright() as playwright:
@@ -35,9 +40,14 @@ def generate():
         try:
             page = browser.new_page()
             page.add_script_tag(path=str(ROOT / "js/marked.min.js"))
-            rows = page.evaluate(javascript, {"html": html, "entries": entries})
+            page.add_script_tag(path=str(ROOT / "js/chapter-content.js"))
+            page.add_script_tag(path=str(ROOT / "js/flashcards.js"))
+            rows = page.evaluate(javascript, entries)
         finally:
             browser.close()
+    publish([row for _,_,prompts,_ in rows for row in prompts],
+            {chapter: set(pages) for chapter,_,_,pages in rows if chapter.isdigit()})
+    rows = [row[:2] for row in rows]
     output = ROOT / "data/search-index.json"
     text = json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + "\n"
     output.write_text(text, encoding="utf-8", newline="\n")

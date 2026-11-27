@@ -56,7 +56,6 @@ To begin with, GA is the state produced when a patient receives medications for 
 
 *FIGURE 28-1 Schematic displaying the types of anesthetic techniques for older patients requiring surgery and minimally invasive procedures in and outside the operating room. MAC, monitored anesthesia care; TAP, transverse abdominal plane.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 respectively, after the patient is rendered unconscious following induction of anesthesia. Maintenance anesthesia is commonly provided with volatile or inhalational anesthetics, which offer reliable control over the depth of anesthesia. Short-acting opioids (eg, fentanyl, sufentanil, or alfentanil) are used for analgesia along with the inhalational agent, because the latter has only weak analgesic properties. To facilitate endotracheal intubation and minimize the need for high-dose volatile anesthetics, neuromuscular blocking agents (eg, succinylcholine, rocuronium, vecuronium, or cisatracurium) are often used. Table 28-1 shows the commonly used intravenous drugs, their side effects/contraindications, and dosing concerns/ recommendations for the older patient. Standard monitoring, including pulse oximetry, electrocardiogram (ECG), noninvasive BP device, temperature monitor, measurement of end-tidal carbon dioxide, inspired oxygen concentration, and low oxygen concentration and ventilator disconnect alarms are employed in all older adults undergoing a general anesthetic. A peripheral nerve stimulator is also used to guide dosing of short-acting neuromuscular
 
@@ -68,7 +67,6 @@ blocking agents and to ensure complete reversal of neuromuscular blockade, if ex
 
 *TABLE 28-1 ■ COMMONLY USED INTRAVENOUS ANESTHETIC-RELATED DRUGS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p387"></a>**[p. 387]**
 
@@ -76,7 +74,6 @@ blocking agents and to ensure complete reversal of neuromuscular blockade, if ex
 
 *TABLE 28-1 ■ COMMONLY USED INTRAVENOUS ANESTHETIC-RELATED DRUGS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p388"></a>**[p. 388]**
 
@@ -106,7 +103,6 @@ In order to unify the neurocognitive disorders seen by anesthesiologists with th
 
 *TABLE 28-2 ■ POSTOPERATIVE COMPLICATIONS IN OLDER SURGICAL PATIENTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 postoperative cognitive dysfunction (POCD) and postoperative neurocognitive disorder are used interchangeably given that much of the literature to date has used the former term.
 
@@ -136,7 +132,6 @@ Two questions may surface among older patients slated for a surgical procedure�
 
 *TABLE 28-3 ■ SUMMARY OF POD REDUCING RECOMMENDATIONS FROM CONSENSUS GUIDELINES AND EXPERT PANELS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 et al reported modest reductions in cognition coincident with those who were admitted for major surgery, whereas a strong association with cognitive decline was found for those hospital admissions that were for medical only reasons. In a nationwide population-based cohort study from Korea involving nearly 45,000 patients (50 years and older) who required surgery, the hazard ratio for developing dementia over the 12-year study period was 1.28 after adjusting for covariates when compared to 175,000 agematched controls. Taken together, POD is likely not part of a continuum to POCD or long-term dementia, but rather a separate entity. People who experience POCD do not necessarily have POD first. Also, hospital stays for surgery are not linked to higher risks for PND than admissions for medical only reasons.
 
@@ -152,7 +147,6 @@ Taken together, PNDs are common complications in older adults undergoing anesthe
 
 *TABLE 28-4 ■ PERIOPERATIVE MEDICAL MANAGEMENT AND PRECAUTIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 pain control and adequate pain assessments, maintenance of normothermia, avoiding excessive BP fluctuations, and avoiding benzodiazepines and anticholinergic medications) are being incorporated into hospital practice bundles and electronic medical record alert systems to help ensure safe and optimal outcomes in the geriatric surgical population. Table 28-4 lists recommendations for the prevention and management of postoperative nausea and commonly used classes of other perioperative drugs that require caution with use or avoidance in older patients.
 

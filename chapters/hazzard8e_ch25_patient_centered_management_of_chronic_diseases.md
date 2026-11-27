@@ -80,7 +80,6 @@ Self-management support interventions are recognized as an integral component of
 
 *TABLE 25-1 ■ KEY CHARACTERISTICS OF FOUR HEALTH BEHAVIOR THEORIES AND MODELS THAT ARE THE THEORETICAL BASIS OF MANY PATIENT-FACING AND COMMUNITY-BASED SELF-MANAGEMENT SUPPORT INTERVENTIONS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 The chronic care model was developed as a framework to describe the effective delivery of care for chronic diseases. It considers how the community, health care system, practice setting, and patients interact through six components of chronic care delivery: delivery system
 
@@ -88,7 +87,6 @@ The chronic care model was developed as a framework to describe the effective de
 
 *TABLE 25-2 ■ KEY CHARACTERISTICS OF THREE COMMON FRAMEWORKS FOR CHRONIC DISEASE MANAGEMENT*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 design, self-management support, decision support, clinical information systems, leading to a proactive practice team and informed, engaged patients.
 
@@ -114,7 +112,6 @@ Figure 25-1 illustrates a framework for understanding self-management approaches
 
 *FIGURE 25-1. Heterogeneity of patients drives appropriate use of guidelines. The heterogeneity among older adults and how health status, including multimorbidity and function, determine the appropriateness of chronic disease guidelines for clinical decision making. HF, heart failure. (Adapted with permission from Blaum CS, Rosen J, Naik AD, et al. Feasibility of implementing patient priorities care for older adults with multiple chronic conditions. J Am Geriatr Soc. 2018;66[10]:2009–2016.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p350"></a>**[p. 350]**
 
@@ -136,7 +133,6 @@ Many of these interventions have been developed for primary care, although for s
 
 *TABLE 25-3 ■ SELF-MANAGEMENT SUPPORT TARGETS, TYPES, AND STRATEGIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p351"></a>**[p. 351]**
 
@@ -230,7 +226,6 @@ The presence of MCC exposes an older adult to significant risk for adverse outco
 
 *TABLE 25-4 ■ PATIENT SELF-MANAGEMENT ACTIVITIES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 functioning, symptom burden, and carry a significant economic impact on personal finances.
 
@@ -248,7 +243,6 @@ A paradigm shift in clinical decision making that results in the provision of th
 
 *FIGURE 25-2. Veterans Administration Whole Health Program. The Veterans Administration’s Whole Health Program provides a whole-person, patient-centered, comprehensive view of health, and its components are described within circles. For example, the “Me” component involves the patient’s identification of ‘what matters most to you’ and working toward a personal health plan by identifying missions, aspirations, purpose, and shared goals. The next circle is your self-care. These are the circumstances and choices you make in your everyday life. The next circle represents professional care you receive. Professional care may include tests, medications, supplements, surgeries, examinations, treatments, and counseling. This also includes complementary approaches such as acupuncture and mind-body therapies. The fourth circle represents the people and groups with whom you are connected. (Data from US Department of Veterans Affairs Whole Health [https:// www.va.gov/WHOLEHEALTH/circle-of-health/index.asp](<https://www.va.gov/WHOLEHEALTH/circle-of-health/index.asp>).)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 Whole Health Program (Figure 25-2), which focuses on the array of health, social, spiritual, and wellness needs of whole persons rather than a narrow focus on prolonging life and eliminating symptoms.
 
@@ -264,7 +258,6 @@ The key premise of such approaches is that people are much more likely to engage
 
 *FIGURE 25-3. The key steps involved in Patient Priorities Care are illustrated. Patient health priorities are identified either through a self-directed process ( https://myhealthpriorities.org/) or with a health professional. The health priorities are transmitted to the patient’s clinician who then considers whether current or potential interventions are consistent with patient’s health priorities. Clinicians and patients align care with the identified health priorities by using the patient’s priorities as a focus of communication and decision making, as a target of serial trails to start, stop, or continue care, and to reconcile decisions when different perspectives exist. Self-management support is provided to assist the patient if necessary to carry out the clinical interventions that will help the patient achieve or make progress on her/his priorities.(Reproduced with permission from Mary Tinetti and Aanand Naik 2021.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p357"></a>**[p. 357]**
 

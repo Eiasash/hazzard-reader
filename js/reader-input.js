@@ -186,7 +186,7 @@ function installPointRail(main,openMark){
       }
       const origin=rail.getBoundingClientRect(),lines=[],seen=new Set();
       const scale=parseFloat(getComputedStyle(root).getPropertyValue('--fs'))||1;
-      const size=Math.ceil(22*scale);
+      const size=44;
       for(const marker of markers){
         const id=marker.dataset.markKey,number=marker.dataset.point;
         if(seen.has(id)||marker.closest('[hidden]'))continue;
@@ -213,12 +213,12 @@ function installPointRail(main,openMark){
         const middle=glyph.top-origin.top+glyph.height/2;
         let line=lines.at(-1);
         if(!line||line.block!==block||Math.abs(line.middle-middle)>3){
-          line={block,middle,edge,rtl,buttons:[],height:Math.min(size,Math.floor(parseFloat(style.lineHeight)||size))};
+          line={block,middle,edge,rtl,buttons:[],height:size};
           lines.push(line);
         }
         const badge=document.createElement('button');badge.type='button';badge.className='point-badge';
-        badge.dataset.number=number;badge.textContent=number;
-        badge.dataset.markId=id;badge.dataset.kind=marker.dataset.answerHighlight?'answer':marker.dataset.range?'ranges':'marks';
+        badge.dataset.number=number;const chip=document.createElement("span");chip.textContent=number;badge.append(chip);
+        badge.dataset.markId=id;badge.dataset.kind=marker.dataset.answerHighlight?'answer':marker.dataset.recordKind||(marker.dataset.range?'ranges':'marks');
         const ink=marker.dataset.pointInk||marker.dataset.marked;
         badge.dataset.ink=ink;badge.dataset.side=rtl?'right':'left';
         badge.setAttribute('aria-label','Edit point '+number);badge.style.setProperty('--badge-ink','var(--hl-'+ink+')');
@@ -241,15 +241,15 @@ function installPointRail(main,openMark){
         group.style.setProperty('--point-height',line.height+'px');
         group.append(...line.buttons);fragment.append(group);line.element=group;
       }
-      rail.replaceChildren(fragment);
       // Same-line points share a margin row. If a crowded row wraps, keep the
       // following labels clear without moving any of the chapter's text.
-      for(const line of lines)line.measuredHeight=line.element.offsetHeight;
       const bottom={};
       for(const line of lines.sort((a,b)=>a.middle-b.middle)){
-        const side=line.rtl?'right':'left',top=Math.max(0,line.middle-line.measuredHeight/2,bottom[side]??-Infinity);
-        line.element.style.top=top+'px';bottom[side]=top+line.measuredHeight+1;
+        const height=line.height*line.buttons.length+Math.max(0,line.buttons.length-1);
+        const side=line.rtl?'right':'left',top=Math.max(0,line.middle-height/2,bottom[side]??-Infinity);
+        line.element.style.top=top+'px';bottom[side]=top+height+1;
       }
+      rail.replaceChildren(fragment);
     }
   }
   new MutationObserver(records=>{

@@ -84,7 +84,6 @@ Despite the observed changes in functional hepatocyte volume and blood flow, age
 
 *TABLE 86-1 ■ EFFECTS OF AGE ON THE LIVER*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 and triglycerides increase with age since there is a gradual decline in the metabolism of low-density lipoprotein (LDL) cholesterol.
 
@@ -96,7 +95,6 @@ Another important aspect of the effects of aging on hepatic function is the dimi
 
 *TABLE 86-2 ■ DRUGS WITH EXTENSIVE PHASE I METABOLISM*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1339"></a>**[p. 1339]**
 
@@ -104,7 +102,6 @@ Another important aspect of the effects of aging on hepatic function is the dimi
 
 *TABLE 86-3 ■ DRUG-INDUCED LIVER INJURY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ALT, alanine aminotransferase; DILI, drug-induced liver injury; LFT, liver function test; LT, liver transplantation; TMP, trimethoprim.
 
@@ -126,7 +123,6 @@ Patients with fibrosis in the NASH setting are candidates for therapy. In patien
 
 *FIGURE 86-1. Examples of drug-induced liver injury. A. Macrovesicular steatosis—methotrexate. B. Microvesicular steatosis indicating mitochondrial injury: valproate, tamoxifen, tetracyclines. C. Hepatocellular necrosis in acetaminophen toxicity in zone 3. D. Necrosis due to isoniazid.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 loss may also reverse fibrosis. Bariatric surgery is appropriate in selected patients with NASH-associated liver fibrosis.
 
@@ -152,7 +148,6 @@ Hepatitis A Hepatitis A virus (HAV) is an RNA virus spread via fecal-oral transm
 
 *TABLE 86-4 ■ HEPATOTROPIC VIRAL DISEASE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 sanitation, the proportion of adults lacking immunity to HAV has increased. There is a safe and effective vaccine for HAV. Providers should screen and vaccinate older patients traveling to endemic areas. No outbreaks of hepatitis A have been reported at nursing facilities to date. While HAV vaccination is not required for most geriatric patients, it is safe and simple, and providers should have a low threshold for vaccinating susceptible patients of any age.
 
@@ -242,7 +237,6 @@ The classical signs and symptoms of biliary obstruction are called biliary colic
 
 *TABLE 86-5 ■ RISK FACTORS FOR GALLSTONE FORMATION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1345"></a>**[p. 1345]**
 
@@ -274,7 +268,6 @@ Endoscopic ultrasound (EUS) is a useful imaging modality in cases where the pres
 
 *TABLE 86-6 ■ IMAGING AND THERAPIES FOR CHOLEDOCHOLITHIASIS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ERCP, endoscopic retrograde cholangiopancreatography; EUS, endoscopic ultrasound; MRCP, magnetic resonance cholangiopancreatography; PTC, percutaneous transhepatic cholangiography.
 
@@ -294,7 +287,6 @@ As discussed above, in older patients with acute cholecystitis who are felt to b
 
 *FIGURE 86-2 A–D. Multiple ERCP images. A. Normal ampulla with cannulation. B. Bulging, ulcerated ampulla found to be adenocarcinoma s/p sphincterotomy and plastic biliary stent placement. C. Common bile duct stone removed with balloon. D. Common hepatic duct stricture due to cholangiocarcinoma. Endoscopic and fluoroscopic images s/p metal biliary stent placement. (Reproduced with permission from Deepak Gopal, MD, University of Wisconsin, Madison, WI.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 cannot or do not wish to undergo invasive procedures may benefit from dissolution of gallstones with ursodiol. This medication is only useful in the setting of cholesterol gallstones. However, at least 50% of patients treated with ursodiol for gallstones will have recurrent stone formation.
 
@@ -310,7 +302,6 @@ Figure 86-3 shows the gross anatomy of the pancreas. The pancreas can be divided
 
 *FIGURE 86-3. Normal anatomy of the pancreas. (Reproduced with permission from Morton DA, Foreman KB, Albertine KH. The Big Picture: Gross Anatomy. New York, NY: McGraw Hill; 2011.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1348"></a>**[p. 1348]**
 
@@ -328,7 +319,6 @@ Over and above the normal changes of aging, advanced age poses other threats to 
 
 *TABLE 86-7 ■ AGING AND THE PANCREAS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 The biggest risk in the older population is an increased incidence of malignancy, particularly adenocarcinoma. In addition, during imaging studies of the abdomen, incidental small cystic and solid lesions of the pancreas are now frequently found.
 
@@ -342,7 +332,6 @@ The incidence of acute pancreatitis is increasing in the United States. The pred
 
 *TABLE 86-8 ■ ETIOLOGIES FOR PANCREATITIS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1349"></a>**[p. 1349]**
 
@@ -378,7 +367,6 @@ More than 70% of adenocarcinomas arise in the head of the pancreas, which leads 
 
 *TABLE 86-9 ■ IMAGING FEATURES OF PANCREATIC CYSTS AND CYST FLUID ANALYSIS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 CEA, carcinoembryonic antigen.
 
@@ -396,7 +384,6 @@ cystadenomas (SCN), mucinous cystic neoplasms (MCN), cystadenocarcinomas, and in
 
 *FIGURE 86-4. Endoscopic ultrasound with fine needle aspiration in pancreatic cyst. This cyst proved to be a serous cystadenoma. (Reproduced with permission from Deepak Gopal, MD, University of Wisconsin, Madison, WI.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1351"></a>**[p. 1351]**
 

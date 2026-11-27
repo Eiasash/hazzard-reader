@@ -100,7 +100,6 @@ In deciding whether to perform laboratory, imaging, or other ancillary tests, th
 
 *TABLE 7-1 ■ ISSUES TO CONSIDER IN DECIDING WHETHER TO PERFORM A DIAGNOSTIC TEST AND HOW TO INTERPRET RESULTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 the greater difficulty they might have in participating in the perioperative care and rehabilitation. If surgery might be contemplated, then it is appropriate to determine whether there are accurate and reliable tests for diagnosing carotid stenosis available in your setting.
 
@@ -110,7 +109,6 @@ A recent systematic review of the accuracy of noninvasive imaging tests compared
 
 *TABLE 7-2 ■ ACCURACY OF NONINVASIVE IMAGING TECHNIQUES FOR DIAGNOSING 70% TO 99% CAROTID STENOSIS COMPARED WITH INTRA-ARTERIAL ANGIOGRAPHY*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 CEMRA, contrast-enhanced magnetic resonance angiography; CTA, computed tomographic angiography; DUS, Doppler ultrasonography; LR, likelihood ratio; MRA, magnetic resonance angiography. Adapted with permission from Kelly AG, Holloway RG. Review: noninvasive imaging techniques may be useful for diagnosing 70% to 99% carotid stenosis in symptomatic patients. ACP J Club. 2006;145(3):77.
 
@@ -146,7 +144,6 @@ ACP and goals of care conversations can occur in various settings, including amb
 
 *TABLE 7-3 ■ ADVANCE CARE PLANNING IS A MULTISTEP PROCESS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 inpatient hospitalization, post-acute care, and long-term care. ACP conversations often involve patients, individuals serving as surrogate decision makers, and health care practitioners. While some ACP conversations are brief, other conversations may benefit from the structure and preparation in family meetings. For older adults, the ACP process is well-suited to outpatient, longitudinal care and should unfold over time; however it also often occurs around changes in medical conditions, new diagnoses, changes in functional or cognitive status, or care transitions such as hospitalization or admission to residential care.
 
@@ -170,7 +167,6 @@ ACP conversations will be more successful with consideration of the individual�
 
 *TABLE 7-4 ■ ADVANCE CARE PLANNING RESOURCES*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 (5) health system barriers, and (6) cultural/religious barriers. While the clinician should never assume that all members of a group have the same beliefs, knowledge of some of the norms can aid in the future medical care planning discussions and decision making. Additionally, literacy and language-appropriate documents may enhance ACP. Clinicians cannot predict what an individual patient wants or is even willing to discuss. The only way to know is to ask in a nonjudgmental, patient-centered manner. Questions to help understand an individual’s perspective could include: “Are there any cultural, spiritual, or religious factors that I should know about as we talk about the care you would want if you got sicker?” and “How do your religious or spiritual beliefs influence your wishes for your medical care near the end of your life?”
 

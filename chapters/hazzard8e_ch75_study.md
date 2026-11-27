@@ -125,7 +125,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 
 **Aortic insufficiency (AI)**
 - Chronic AI in **20–30%** of >65y (p1153).
-- Table 75-4 eponymous AI signs (owner-highlighted): Austin Flint murmur = low-pitched mid-diastolic rumble; Duroziez sign = to-and-fro femoral artery murmur with compression; Quincke sign = pulsatile nail beds; Watson's water-hammer pulse = bounding peripheral pulse; Corrigan pulse = rapidly rising/falling pulse on palpation (p1154).
+- Table 75-4 eponymous AI signs: Austin Flint murmur = low-pitched mid-diastolic rumble; Duroziez sign = to-and-fro femoral artery murmur with compression; Quincke sign = pulsatile nail beds; Watson's water-hammer pulse = bounding peripheral pulse; Corrigan pulse = rapidly rising/falling pulse on palpation (p1154).
 - Asymptomatic, normal LV function: **0.2%** incidence of sudden death, **3.5%**/yr progress to symptoms, **6%**/yr develop LV dysfunction or symptoms; once LV dysfunction develops, **>25%**/yr progress to symptomatic disease (p1153).
 - Symptomatic mortality **>10%**/yr for angina, **>20%**/yr for heart failure (medical management only) (p1154).
 - NYHA III–IV: **25%**/yr mortality; NYHA II: **6%**/yr (p1153).

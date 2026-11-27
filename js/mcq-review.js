@@ -1,6 +1,6 @@
 /* Review scheduling is independent of answer correctness and answer storage. */
 window.HazzardReview = (() => {
-  const KEY='hazzard-mcq-review-v1',STEPS=[1,3,7,21];
+  const KEY='hazzard-mcq-review-v1',STEPS=[1,3,7,16,35,60];
   const record=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
   const idOK=id=>/^mcq-[a-f0-9]{24}$/.test(id),stamp=n=>Number.isFinite(n)&&n>=0;
   const jerusalemDate=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'});
@@ -10,7 +10,7 @@ window.HazzardReview = (() => {
   const blank=()=>({active:false,unsure:false,step:0,due:null,at:0});
   const empty=()=>({version:1,items:{},seed:null,settings:{size:30,at:0},batch:null,batchAt:0});
   function valid(v){
-    return record(v)&&v.version===1&&record(v.items)&&Object.entries(v.items).every(([id,r])=>idOK(id)&&record(r)&&typeof r.active==='boolean'&&typeof r.unsure==='boolean'&&Number.isInteger(r.step)&&r.step>=0&&r.step<4&&(r.active?dateOK(r.due):r.due===null)&&stamp(r.at))&&
+    return record(v)&&v.version===1&&record(v.items)&&Object.entries(v.items).every(([id,r])=>idOK(id)&&record(r)&&typeof r.active==='boolean'&&typeof r.unsure==='boolean'&&Number.isInteger(r.step)&&r.step>=0&&r.step<STEPS.length&&(r.active?dateOK(r.due):r.due===null)&&stamp(r.at))&&
       (v.seed===null||record(v.seed)&&stamp(v.seed.at)&&Number.isInteger(v.seed.count)&&v.seed.count>=0)&&record(v.settings)&&[10,30,50].includes(v.settings.size)&&stamp(v.settings.at)&&stamp(v.batchAt)&&
       (v.batch===null||record(v.batch)&&dateOK(v.batch.day)&&Array.isArray(v.batch.ids)&&v.batch.ids.length<=50&&new Set(v.batch.ids).size===v.batch.ids.length&&v.batch.ids.every(idOK)&&Number.isInteger(v.batch.position)&&v.batch.position>=0&&v.batch.position<=v.batch.ids.length&&HazzardMCQ.validStore({version:1,answers:v.batch.answers})&&Object.keys(v.batch.answers).every(id=>v.batch.ids.includes(id)));
   }
@@ -23,14 +23,21 @@ window.HazzardReview = (() => {
     if(batch){const answers={};for(const [id,a]of Object.entries(batch.answers)){const target=HazzardMCQ.currentId(id);if(!answers[target]||a.at>=answers[target].at)answers[target]=a;}const ids=[...new Set(batch.ids.map(HazzardMCQ.currentId))];batch={...batch,ids,answers,position:Math.min(batch.position,ids.length)};}
     return {...v,items,batch};
   }
+  function scheduled(record){
+    // Step 3 with no due date is a graduated record written by the four-step scheduler.
+    if(!record.active&&record.step===3&&record.due===null&&record.at>0)
+      return {...record,active:true,step:4,due:plus(day(record.at),STEPS[4])};
+    return record;
+  }
+  function advance(step,success,first=false){return success?Math.min(STEPS.length-1,first?0:step+1):Math.max(0,step-1);}
   function read(){const v=HazzardStorage.readProtected(KEY,empty);if(!valid(v))throw Error('Unreadable review queue');return canonical(v);}
   function merge(a,b){a=canonical(a);b=canonical(b);const items={...b.items};for(const[id,r]of Object.entries(a.items))if(!items[id]||r.at>=items[id].at)items[id]=r;const newest=a.batchAt>=b.batchAt?a:b;return {version:1,items,seed:!a.seed?b.seed:!b.seed?a.seed:a.seed.at<=b.seed.at?a.seed:b.seed,settings:a.settings.at>=b.settings.at?a.settings:b.settings,batch:newest.batch,batchAt:newest.batchAt};}
   function write(v){if(!valid(v))throw Error('Review queue could not be saved');HazzardStorage.setItem(KEY,JSON.stringify(v));dispatchEvent(new Event('hazzard-review-change'));return v;}
-  function due(v=read(),today=day(),includeHidden=false){return Object.entries(v.items).filter(([id,r])=>!HazzardMCQ.retired(id)&&!HazzardMCQ.bad(id)&&!HazzardMCQ.excluded(id)&&(includeHidden||!HazzardMCQ.standoutHidden(id))&&r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
+  function due(v=read(),today=day(),includeHidden=false){return Object.entries(v.items).map(([id,r])=>[id,scheduled(r)]).filter(([id,r])=>!HazzardMCQ.retired(id)&&!HazzardMCQ.bad(id)&&!HazzardMCQ.excluded(id)&&(includeHidden||!HazzardMCQ.standoutHidden(id))&&r.active&&r.due<=today).sort((a,b)=>a[1].due.localeCompare(b[1].due)||a[1].at-b[1].at||a[0].localeCompare(b[0])).map(([id])=>id);}
   function result(previous,{correct,unsure,review=false},now=Date.now()){
-    const r={...(previous||blank()),unsure,at:Math.max(now,(previous?.at||0)+1)};
-    if(!correct||unsure)return {...r,active:true,step:0,due:plus(day(now),1)};
-    if(review&&r.active){if(r.step===3)return {...r,active:false,due:null};r.step++;r.due=plus(day(now),STEPS[r.step]);}
+    const r={...scheduled(previous||blank()),unsure,at:Math.max(now,(previous?.at||0)+1)};
+    if(!correct||unsure)return {...r,active:true,step:advance(r.step,false),due:plus(day(now),1)};
+    if(review&&r.active){r.step=advance(r.step,true);r.due=plus(day(now),STEPS[r.step]);}
     return r;
   }
   function set(id,value,answer){const v=read();id=HazzardMCQ.currentId(id);v.items[id]={...(value||blank()),at:Math.max(Date.now(),(v.items[id]?.at||0)+1)};if(answer!==undefined&&v.batch?.ids.includes(id)){if(answer===null)delete v.batch.answers[id];else v.batch.answers[id]=answer;v.batchAt=Math.max(Date.now(),v.batchAt+1);}return write(v);}
@@ -75,35 +82,6 @@ window.HazzardReview = (() => {
   function officialDue(all) {
     const past = new Set(all.filter(q=>q.kind==='past').map(q=>HazzardMCQ.currentId(q.id)));
     return catalogDue(all).filter(id=>past.has(id));
-  }
-  function numberedPoints() {
-    const points = new Map();
-    function add(owner, kind, id, mark, label) {
-      if (!mark?.number || mark.removed) return;
-      const key = JSON.stringify([owner,kind,id]);
-      points.set(key,{id:key, point:mark, label});
-    }
-    for (const key of Object.keys(localStorage).sort()) {
-      if (!key.startsWith('stage-a-highlights-v1:') || key.includes('-unreadable-')) continue;
-      const chapter=key.slice('stage-a-highlights-v1:'.length);
-      const saved=HazzardStorage.readProtected(key,()=>null);
-      if (!saved) throw Error('Saved highlights unavailable');
-      const label='Chapter '+chapter.replace(/s$/,'')+(chapter.endsWith('s')?' · Study':'');
-      for(const mark of saved.history || []) add(chapter,'marks',mark.id,mark,label);
-      for(const kind of ['marks','ranges']) for(const [id,mark] of Object.entries(saved[kind]||{})) add(chapter,kind,id,mark,label);
-    }
-    for(const [id,mark] of Object.entries(HazzardAnswerHighlights.read().items)) add(mark.questionId,'answer',id,mark,'Question explanation');
-    const ordered=[...points.values()].sort((a,b)=>a.label.localeCompare(b.label,undefined,{numeric:true}) || a.point.number-b.point.number || a.id.localeCompare(b.id));
-    const shift = ordered.length ? Math.floor(Date.parse(day())/86400000) % ordered.length : 0;
-    return ordered.slice(shift).concat(ordered.slice(0,shift));
-  }
-  function mix(questions,points) {
-    const run=[];
-    for(let i=0;i<Math.max(questions.length,points.length);i++) {
-      if(questions[i])run.push(questions[i]);
-      if(points[i])run.push(points[i]);
-    }
-    return run;
   }
   // Home opens every currently due question. Keep its navigation in this
   // history entry; the resident's separately sized Practice batch stays saved.
@@ -152,5 +130,5 @@ window.HazzardReview = (() => {
     }
     return write(v);
   }
-  return {KEY,STEPS,officialFirst,setOrder,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,officialDue,numberedPoints,mix,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
+  return {KEY,STEPS,advance,officialFirst,setOrder,day,plus,blank,valid,canonical,read,merge,write,due,catalogDue,officialDue,todayBatch,rememberToday,result,set,seed,batch,nextBatch,position,size};
 })();

@@ -92,7 +92,7 @@ body:has(#panel[open]) #bottomSlot #appTabs:not([hidden]) {display:grid}
 #markBar:not([hidden]) {display:flex;align-items:center;justify-content:space-evenly;padding:4px 8px max(4px,env(safe-area-inset-bottom));min-height:48px}
 #highlightEditor {width:100%;font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
 #highlightEditor .mark-tools {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
-#markBar button {min-height:44px;border:1px solid var(--rule);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
+#markBar button {min-height:44px;border:1px solid var(--control);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
 
 #highlightEditor textarea {display:block;box-sizing:border-box;width:100%;min-height:44px;resize:vertical;font:16px/1.35 var(--ui)}
 .keyboard-open #bottomSlot #markBar:not([hidden]) {display:flex!important}
@@ -158,13 +158,13 @@ body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
 #bottomSlot #markNumber:focus,#bottomSlot #markNote:focus{outline:1px solid var(--accent);outline-offset:0;border-color:var(--accent)}
 
 .choice-chips{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
-.choice-chips button{min-height:44px;padding:4px 10px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.2 var(--ui)}
+.choice-chips button{min-height:44px;padding:4px 10px;border:1px solid var(--control);border-radius:9px;background:var(--surface);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.2 var(--ui)}
 .choice-chips button[aria-pressed=true]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
 #chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"]){display:flex!important;height:52px!important;padding:4px 10px!important}
-#chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"])>:not(.library-header){display:none!important}
+#chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"])>:not(.library-header,#settingsGear){display:none!important}
 .library-header:not([hidden]){display:flex;gap:10px;width:100%;align-items:center}
 .library-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
-.library-header input{flex:1;min-inline-size:0;min-height:44px;margin:0;padding:7px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);font:500 max(16px,calc(14px * var(--fs,1)))/1.2 var(--ui)}
+.library-header input{flex:1;min-inline-size:0;min-height:44px;margin:0;padding:7px 10px;border:1px solid var(--control);border-radius:8px;background:var(--surface);color:var(--ink);font:500 max(16px,calc(14px * var(--fs,1)))/1.2 var(--ui)}
 #library>.eyebrow,#library>h1,.drug-index>h1{display:none}
 #library .library-search{position:static;padding:0}
 #chapterRows .library-row{position:relative;grid-template-columns:minmax(0,1fr) auto;gap:8px;min-height:0;padding:5px 0}
@@ -174,7 +174,7 @@ body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
 .library-status,.library-exams{display:block;margin-block-start:3px;color:var(--muted);font:500 calc(11px * var(--fs,1))/1.35 var(--ui)}
 .library-exams{font-weight:400}
 
-:where(html:not([data-single-study])) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
+#chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
 #chapterHeader.study-header #headerHome{display:none}
 #chapterHeader.study-header .chapter-heading{flex:1;min-inline-size:0}
 body:not(.nav-page-open):not(.flashcards-open) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) .chapter-switch{display:flex!important;flex:0 0 auto!important;width:auto!important;gap:0}
@@ -195,7 +195,7 @@ body.flashcards-open #chapterHeader .flash-header{display:flex!important;align-i
 body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)}
 #flashcardView #flashcardArticle,#flashcardView #flashcardCompletion{padding:var(--s4);border:1px solid var(--rule);border-radius:var(--radius);background:var(--surface)}
 #flashcardView .flashcard-actions{margin-block:10px}
-#flashcardView .flashcard-actions button{flex:1;min-height:44px;border:1px solid var(--rule);border-radius:6px}
+#flashcardView .flashcard-actions button{flex:1;min-height:44px;border:1px solid var(--control);border-radius:6px}
 #flashcardView .flashcard-actions button:disabled{opacity:.55}
 #flashcardView #flashcardAnswer summary{min-height:44px;align-content:center;cursor:pointer}
 .study-page{display:flex;flex-direction:column}
@@ -222,14 +222,14 @@ body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)
 .settings-group>summary{min-height:44px;align-content:center;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.4 var(--ui);cursor:pointer}
 #chapterHeader>.nav-page-title{display:none}
 body.nav-page-open #chapterHeader{display:flex!important;height:50px!important;padding-inline:12px!important}
-body.nav-page-open #chapterHeader>:not(.nav-page-title){display:none!important}
+body.nav-page-open #chapterHeader>:not(.nav-page-title,#settingsGear){display:none!important}
 body.nav-page-open #chapterHeader>.nav-page-title{display:block!important;font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
 body.nav-page-open #bottomSlot{z-index:10}
 body.reading-bars-hidden #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);padding-block-start:0}
 body.nav-page-open.keyboard-open #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px)}
 #chapterHeader.show-resume-note>:not(#resumeNotice){visibility:hidden}
 #resumeNotice{position:absolute;inset:0;display:flex;align-items:center;pointer-events:none;padding-inline:12px;color:var(--ink);font:600 calc(14px * var(--fs,1))/1.25 var(--ui)}
-#readerViewport>#readerScroll{margin-block-start:var(--reader-header-space,48px)}
+#readerViewport>#readerScroll{margin-block-start:var(--active-header-height,48px)}
 #readerScroll>#reader{padding-top:var(--s4)}
 body.reading-bars-hidden #readerViewport>#readerScroll{margin-block-start:0}
 
@@ -303,10 +303,4 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 .study-v2 .drill-q .practice-controls{display:block}
 .study-self-check>summary{cursor:pointer;min-height:44px;align-content:center}
 .study-v2 .study-flashcards{display:block;width:fit-content;margin:.8em 0}
-.book-reference-target{scroll-margin-block-start:var(--reader-header-space,50px)}
-body.flashcards-open #readingCompanion[data-structured-study]{display:none!important}
-body.single-study-pane #readingCompanion[data-structured-study]:not([hidden]){inset-block:var(--vv-top,0px) var(--vv-bottom-gap,0px)}
-html[data-single-study]:has(.study-v2) #readerViewport>#readerScroll{margin-block:0;scroll-padding-block:60px 78px}
-html[data-single-study]:has(.study-v2) #readerScroll>#reader{padding-block-start:calc(var(--study-host-header,50px) + 12px);padding-block-end:78px}
-html[data-single-study]:has(.study-v2) #mcqViewport .mcq-page{padding-block-start:calc(var(--study-host-header,50px) + 12px);padding-block-end:78px}
-html[data-single-study]:has(.study-v2) #mcqViewport .mcq-docked-actions{bottom:54px}
+.book-reference-target{scroll-margin-block-start:var(--active-header-height,50px)}

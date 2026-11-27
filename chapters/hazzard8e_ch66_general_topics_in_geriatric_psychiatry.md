@@ -58,7 +58,6 @@ Mental well-being in older age is no less crucial than at any other stage of lif
 
 *FIGURE 66-1 Number of persons in the United States, 65 years and older 1990 to 2060 (numbers in millions). This chart shows the large increases in the older population from 3.1 million people in 1900 to 43 million in 2012 and projected to 92 million in 2060. Note: Increments in years are uneven. (Reproduced with permission from U.S. Census Bureau, Population Estimates and Projections.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 and Prevention (CDC) estimates 20% of individuals older than 55 years suffer from a mental health disorder. In older adults, the burden from Alzheimer disease (AD) and other dementias increases, while the burden of other mental disorders, substance use disorders, and self-harm is reported to decrease over lifetime. However, this latter trend may be confounded by underreporting and underdiagnosis. The burden of mental health disorders among older adults is exacerbated by the stigma and lack of help-seeking. Figure 66-3 presents additional information about the burden of mental disorders across the lifespan.
 
@@ -76,7 +75,6 @@ In Erikson’s model, the eighth and final stage of psychosocial development is 
 
 *FIGURE 66-2. Living arrangements of men and women in the United States, 65 years or older, 2012. (Reproduced with permission from U.S. Census Bureau, Current Population Survey, Annual Social and Economic Supplement.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 integrity versus despair. This late adult stage includes those in the oldest age group 65 years and older. During this time, individuals grapple with answering deeper, existential questions such as, “Did I have a meaningful life?” and they reflect back on the life that they had. Wisdom is the “basic virtue” or resolution for this stage. Those who feel proud and satisfied with their accomplishments will master a sense of integrity. They have a sense of wisdom and acceptance when facing death and other end of life challenges. In contrast, someone who fails to master the developmental milestones of this stage may feel that his or her life has been
 
@@ -90,7 +88,6 @@ In spite of the steadily growing interest among scientists, clinicians, and memb
 
 *FIGURE 66-3. The global burden of mental and substance use disorders, Alzheimer disease and other dementias, and suicide (self-harm) in Disability-adjusted life years (DALYs) across the life course. (Reproduced with permission from Patel V, Saxena S, Lund C, et al. The Lancet Commission on global mental health and sustainable development. Lancet. 2018;392[10157]:1553–1598.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p1024"></a>**[p. 1024]**
 
@@ -256,7 +253,6 @@ Anxiety disorders are the most common psychiatric disorders from which people su
 
 *TABLE 66-1 ■ PROSPECTa RECOMMENDED GUIDELINES AND MANAGEMENT TECHNIQUES FOR WORKING WITH PATIENTS WITH SUICIDE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 aPROSPECT, Prevention of Suicide in Primary Care Elderly: Collaborative Trial. Data from Brown GK, Bruce ML, Pearson JL. High-risk management guidelines for elderly suicidal patients in primary care settings. Int J Geriatr Psychiatry. 2001;16(6):593–601.
 

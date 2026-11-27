@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v330'; // On-demand reading and question data.
+const CACHE_VERSION = 'v331'; // On-demand reading and question data.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
@@ -37,10 +37,20 @@ self.addEventListener('install', event => {
     const listResponse = await download(LIST_URL);
     const list = await listResponse.clone().json();
     if (list.version !== CACHE_VERSION || !list.files?.length) throw new Error('Wrong offline file list');
-    // v35 has no fingerprints. Hash its cached bytes locally, too: no one-time
-    // book download is needed. Never inspect another application's caches.
-    const names = (await caches.keys()).filter(n => n.startsWith('hazzard-'));
-    const previous = await Promise.all(names.map(n => caches.open(n)));
+    // Reuse only complete release caches for this app and this exact scope.
+    // Their manifests describe the bytes verified before their ready receipt.
+    const previous=[];
+    for(const name of await caches.keys()){
+      if(name===SHELL_CACHE||!name.startsWith('hazzard-shell-'))continue;
+      const old=await caches.open(name);
+      const [receipt,manifest]=await Promise.all([old.match(READY_URL),old.match(LIST_URL)]);
+      if(!receipt?.ok||!manifest?.ok)continue;
+      try{
+        const verified=await receipt.json(),source=await manifest.json();
+        if(!verified.complete||verified.version!==source.version||!Array.isArray(source.files))continue;
+        previous.push({cache:old,hashes:new Map(source.files.map(file=>[file.url,file.sha256]))});
+      }catch{/* Recover an incomplete earlier release by fetching its assets. */}
+    }
     const queue = [...list.files];
     let completed = 0, lastNotice = 0;
     const progress = async () => {
@@ -56,8 +66,9 @@ self.addEventListener('install', event => {
         if (!absolute.href.startsWith(self.registration.scope) || !/^[a-f0-9]{64}$/.test(sha256)) throw new Error('Invalid offline file');
         let response;
         for (const old of previous) {
-          const candidate = await old.match(url);
-          if (candidate?.ok && await fingerprint(candidate.clone()) === sha256) { response = candidate; break; }
+          if(old.hashes.get(url)!==sha256)continue;
+          const candidate=await old.cache.match(url);
+          if(candidate?.ok){response=candidate;break;}
         }
         response ||= await download(url, sha256);
         await cache.put(url, response);

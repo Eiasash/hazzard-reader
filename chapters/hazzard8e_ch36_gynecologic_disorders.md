@@ -64,7 +64,6 @@ The physical examination serves four main purposes: (1) to understand the patien
 
 *TABLE 36-1 ■ GYNECOLOGIC HISTORY AND EXAMINATION*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 aSuggestions for examination in the cognitively impaired older woman (moderate or severe impairment) are based on clinical experience (Level D evidence).
 
@@ -74,7 +73,6 @@ aSuggestions for examination in the cognitively impaired older woman (moderate o
 
 *FIGURE 36-1. Sagittal view of normal pelvic anatomy (A) and fecal impaction (B). Note how a large impaction can compress the bladder, urethra, and surrounding innervation and other tissues.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 there is some debate regarding the utility of this examination, assessing the health of the vulva and vagina remains important for primary care providers and gynecologists to provide complete care. Periodic examination of “asymptomatic” but concerned women is indicated. A patient may not be able to articulate the concerns she has. Appropriate speculum size, shape, and use is essential to perform a thorough but painless vaginal examination. Topical lidocaine at the posterior introitus as needed limits discomfort. This can also be applied liberally to the vulva and vagina to facilitate examination in cognitively impaired women. Fecal impaction should be ruled out in older women as a cause of a difficult vaginal examination. Fecal impaction can also compress the urethra and bladder and the surrounding innervation (Figure 36-1), cause urinary symptoms in addition to abdominal discomfort, and requires evaluation of underlying causes as well as treatment. (See Chapter 87, Constipation.)
 
@@ -138,7 +136,6 @@ Caruncle
 
 *FIGURE 36-2. Illustration of pelvic examination landmarks and a urethral caruncle.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 may lead to a loss of vulvar architecture, especially of the labia minora. Cherry angiomata and epithelial inclusion cysts on the labia majora are common and not concerning. Asymmetrical pigmented lesions should be noted and considered for either biopsy or follow-up examinations. Punch biopsies of the vulva are simple, rarely become infected, and can be performed in the office under local anesthesia. Bartholin glands are in the inferior (dorsal) aspect of each labium majus. An asymptomatic Bartholin cyst does not require referral if there is no detectable mass associated with the cyst, but rare Bartholin gland malignancies do occur. Thus, a symptomatic Bartholin cyst or abscess in the postmenopausal woman should be drained and biopsied and consideration given to full excision if symptoms persist.
 
@@ -156,7 +153,6 @@ Lichen simplex chronicus is characterized as an eczematoid disease of hyperkerat
 
 *TABLE 36-2 ■ CLASSIFICATION OF VULVAR DERMATOSES: PATHOLOGIC SUBSETS AND CLINICAL CORRELATES (2006 INTERNATIONAL SOCIETY FOR THE STUDY OF VULVOVAGINAL DISEASE CLASSIFICATION)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 ### Lichen Sclerosus
 
@@ -228,7 +224,6 @@ Other non-estrogen therapies are less reliable in reducing dyspareunia and irrit
 
 *FIGURE 36-3. (A) Illustration of atrophic vaginitis versus normal mucosa. Signs of atrophic vaginitis may include pale, smooth, shiny mucosa with patches of inflammation and petechiae. (B) Illustration of remodeling of vaginal mucosa in response to topical estrogen therapy. (B, Reproduced with permission from Reiter S. Barriers to effective treatment of vaginal atrophy with local estrogen therapy. Int J Gen Med. 2013;6:153–158.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 (dehydroepiandrosterone, other SERMs, testosterone) are promising but not yet sufficiently studied.
 
@@ -250,7 +245,6 @@ The location of the squamocolumnar junction, the border between squamous (ectoce
 
 *TABLE 36-3 ■ CHARACTERISTICS OF LOCAL VAGINAL HORMONAL TREATMENTS*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 CEE, conjugated equine estrogen; FDA, Food and Drug Administration. Modified with permission from Crean-Tate KK, Faubion SS, Pederson HJ, et al. Management of genitourinary syndrome of menopause in female cancer patients: a focus on vaginal hormonal therapy. Am J Obstet Gynecol. 2020;222(2):103–113.
 
@@ -272,7 +266,6 @@ The excess deaths from this mostly preventable malignancy are only avoided throu
 
 *TABLE 36-4 ■ CRITERIA (ALL OF WHICH SHOULD BE MET PRIOR TO DISCONTINUING CERVICAL CANCER SCREENING)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 older women are (1) when to discontinue screening, (2) in whom to continue screening, and until what point, and (3) the best screening modalities.
 
@@ -318,7 +311,6 @@ All pelvic bleeding sources should be investigated, including hematuria, hematoc
 
 *TABLE 36-5 ■ DIFFERENTIAL DIAGNOSIS OF VAGINAL BLEEDING IN OLDER WOMEN*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p539"></a>**[p. 539]**
 
@@ -414,7 +406,6 @@ Clinical evaluation includes careful history and physical examination (Table 36-
 
 *TABLE 36-6 ■ EVALUATION AND MANAGEMENT OF PELVIC ORGAN PROLAPSE*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 observation may be adequate. Careful pelvic examination is critical in making the correct diagnosis of POP. Prolapse of the anterior vaginal wall is a cystocele, and the posterior vaginal wall is typically a rectocele. Loss of support of the vaginal apex may include small bowel which is known as an enterocele. Uterine prolapse may also occur due to loss of support of the cardinal or uterosacral ligaments. Complete vaginal eversion may occur in women with a prior hysterectomy, or “procidentia” if the uterus is in situ.
 
@@ -434,7 +425,6 @@ Rectal prolapse involves protrusion of the rectum through the anal sphincter wit
 
 *FIGURE 36-4. Anterior and sagittal views of a cystocele. Note the increasing size of a cystocele (A) and that it can cause angulation of the urethra and contribute to symptoms of voiding difficulty and urinary retention (B).*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 A
 
@@ -450,7 +440,6 @@ Baden-Walker system was commonly used in clinical practice, and classifies the d
 
 *FIGURE 36-5. Sagittal view of a rectocele.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 research settings but is also useful in a simplified approach in defining the leading edge of the prolapse. It includes multiple anatomic measurements in relation to the vaginal introitus. In most systems, the hymenal ring is used to define the vaginal introitus. A clear understanding and documentation of the extent of prolapse is useful for surgical planning and for following progress over time (Figure 36-7).
 
@@ -474,7 +463,6 @@ The use of a pessary has been considered an excellent option for nonsurgical man
 
 *FIGURE 36-6. Sagittal view of an enterocele.*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 <a id="p545"></a>**[p. 545]**
 
@@ -482,7 +470,6 @@ The use of a pessary has been considered an excellent option for nonsurgical man
 
 *FIGURE 36-7. Treatment of pelvic organ prolapse. (Reproduced with permission from Bump RC, Mattiasson A, Bø K, et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol. 1996;175[1]:10–17.)*
 
-*Owner annotations/highlights are from the marked source copy, not the book.*
 
 for pessaries and most of them are made from silicone. The risk factors for a failed fitting include a large genital hiatus and a short vaginal length. Pessaries provide pelvic organ support within the vaginal vault. There are two categories of pessaries for POP: support pessaries and space-filling pessaries. The ring pessary (with a diaphragm) is one of the most used support pessaries while the Gellhorn pessary is a commonly used space-filling pessary. Most women who have a stage II or stage III prolapse are successfully fitted with ring pessaries while women with stage IV prolapse usually require a Gellhorn pessary.
 
