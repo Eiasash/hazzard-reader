@@ -6,9 +6,9 @@ Joyce M. Black
 
 > **Source and method.** Printed pages 679–698 of the 8th edition, from the publisher's own text layer (PDF page = printed + 34). Prose, both boxes, both tables and the four figure captions; the figures (staging photographs with their definitions, tissue types, the PUSH tool and the Bates-Jensen tool) are page images, not transcribed. Checked against an independently typeset copy of the chapter. Page markers are printed page numbers. The two boxes are moved up to follow the opening paragraph.
 
-> **2026 exam.** Two questions of the 2026 specialist sitting were sourced to this chapter: Q7 (p695, with a picture) and Q67 (p697). Their pages are flagged ⟨2026⟩; the questions are at the end.
+> **2026 exam.** Two questions of the 2026 specialist sitting tested this chapter: Q7 (p695, with a picture) and Q67 (p697). The questions follow the clinical text.
 
-> **Currency — declared gap (chapter).** The text says: "The NPIAP staging system was updated in 2016." Later revisions of the staging system or of the treatment guidelines the chapter draws on are not held here and have not been checked.
+> **Guideline date.** The NPIAP updated its pressure injury staging system in 2016. The staging terms and treatment recommendations refer to that edition.
 
 <a id="p679"></a>**[p. 679]**
 
@@ -161,7 +161,7 @@ PI prevention involves scheduled turning and repositioning programs, use of supp
 | Friction and shearing | Use of trapeze bars for those with upper body strength, turn sheets and draw sheets for moving in bed, use of corn starch or lubricants to limit friction between surfaces, thin film or dressings, and pads over bony prominences subject to friction, use of footboards to help prevent sliding while in bed. |
 | Dry skin | Use warm water, gentle cleansers, and limited force for cleansing when soiled and for routine bathing, lubricate and moisturize dry skin, inspect skin daily paying particular attention to bony prominences, avoid massage of reddened areas. |
 
-> **As printed.** The column head reads "PREVENTION INTERVENTONS" (sic).
+> **Printed wording.** The column head reads "PREVENTION INTERVENTONS" (sic).
 
 <span id="exam-mcq-dc7ff82449b55e43a32f82c6-p683" data-exam-ids="mcq-dc7ff82449b55e43a32f82c6" data-exam-read-page="683" data-reader-metadata="exam"></span>Patients at risk for PI who are unable to move independently should be placed on scheduled repositioning programs. The recommended time interval for full change of position or turning while in bed is every 2 to 3 hours, depending on the individual patient profile and the use of support surfaces. An old practice of turning patients every 2 hours has long lacked data to support this intervention. Some patients turn themselves relatively frequently, and turning and repositioning may be an unnecessary use of staff time and sleep disruptive at night. Turning activity can be detected by bed sensors, actigraphy, and other pressure mapping strategies (see below). And with the use of improved pressure-reducing support surfaces (eg, foam, air, gel-filled mattress overlays, low-air-loss therapy devices), frequency often need not be every 2 hours. A randomized clinical trial of PI incidence and turning schedules was conducted on 942 nursing home residents at moderate or high risk for PI development. Residents were placed on high-density foam mattresses and randomly assigned to turning schedules of every 2, 3, or 4 hours. There was no significant difference <a id="p684"></a>**[p. 684]** in PI incidence between the turning groups; 2.5% of those turned every 2 hours, 0.6% of those turned every 3 hours, and 3.1% of those patients turned every 4 hours developed PI. There also was no difference in PI rates between the high- and moderate-risk groups of residents.
 
@@ -257,7 +257,7 @@ The remaining four stages of PI are full-thickness wounds; that is, exposure of 
 
 > *FIGURE 46-1. (Continued)*
 
-**Figure 46-1 — the stage definitions, as printed in the figure** *(pp. 687–688; photographs above)*
+**Figure 46-1 — stages of pressure injury** *(pp. 687–688; photographs above)*
 
 - **Stage 1** *(p. 687; photograph: Left medial knee)*: Intact skin with a localized area of nonblanchable erythema, which may appear differently in darkly pigmented skin. Presence of blanchable erythema or changes in sensation, temperature, or firmness may precede visual changes. Color changes do not include purple or maroon discoloration; these may indicate deep tissue pressure injury.
 - **Stage 2** *(p. 687; photograph: Left lateral heel)*: Partial-thickness loss of skin with exposed dermis. The wound bed is viable, pink or red, moist, and may also present as an intact or ruptured serum-filled blister. Adipose (fat) is not visible and deeper tissues are not visible. Granulation tissue, slough, and eschar are not present. These injuries commonly result from adverse microclimate and shear in the skin over the pelvis and shear in the heel. This stage should not be used to describe moisture-associated skin damage (MASD) including incontinence-associated dermatitis (IAD), intertriginous dermatitis (ITD), medical adhesive–related skin injury (MARSI), or traumatic wounds (skin tears, burns, abrasions).

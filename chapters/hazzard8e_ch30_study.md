@@ -9,7 +9,7 @@ Study summary of Chapter 30 - Nutrition Disorders, Obesity, and Enteral/Parenter
 - A 94-year-old has anorexia without clear depression. Which treatment addresses a reversible cause? [2020 Q92 · chapter head](?chapter=30#asked-chapter) · [food, company and assistance](?chapter=30#ch30-oral). The exam cites AGS Choosing Wisely.
 - Which prescribed medicine can reduce appetite? [June 2022 Q79 · chapter head](?chapter=30#asked-chapter) · [current-edition medication classes](?chapter=30#ch30-drugs).
 - Which morbidity is associated with obesity at 74? [December 2021 Q48 · chapter head](?chapter=30#asked-chapter) · [obesity complications, Table 30-4](?chapter=30#ch30-obesity).
-- What appears on a blood smear in uremia? [June 2023 Basic Q116 · related Harrison figure](?chapter=83#ch83-harrison-burr). The bibliography lists [Hazzard pp. 434–435](?chapter=30#cited-chapter), which discuss nutritional support.
+- What appears on a blood smear in uremia? [June 2023 Basic Q116 · related Harrison figure](?chapter=83#ch83-harrison-burr). [Hazzard pp. 434–435](?chapter=30#cited-chapter) cover nutritional support.
 
 ## Refeeding after prolonged poor intake
 

@@ -5,7 +5,7 @@ Study summary of Chapter 80 - Respiratory System and Selected Pulmonary Disorder
 ## What the exams asked
 
 - Distinguish the air left after a quiet breath from the air left after maximal expiration. [June 2022 Q40, chapter-level reference](?chapter=80#asked-chapter) · [September 2024 Q39, residual volume](?chapter=80#exam-p1231-mcq-e2505429368dfde81cea15ac).
-- Predict first-second emptying and the FEV1/FVC ratio. [June 2023 Q67, related pulmonary passage](?chapter=80#exam-p1231-mcq-5687d58f50abb0a5affaee3d) · [May 2024 Q28, ratio](?chapter=80#exam-p1231-mcq-122d9fc74517c768b3d882c2). The June 2023 bibliography gives kidney pages 1280–1281.
+- Predict first-second emptying and the FEV1/FVC ratio. [June 2023 Q67, related pulmonary passage](?chapter=80#exam-p1231-mcq-5687d58f50abb0a5affaee3d) · [May 2024 Q28, ratio](?chapter=80#exam-p1231-mcq-122d9fc74517c768b3d882c2). Pages 1280–1281 concern kidney disease.
 - Identify which aging change affects recoil, and why the ciliary, T-cell and gas-transfer alternatives run in the opposite direction. [June 2026 Q42, elastin](?chapter=80#exam-p1230-mcq-b51ad3fe1826ffb8741047b1) · [gas transfer](?chapter=80#exam-p1231-mcq-b51ad3fe1826ffb8741047b1).
 - Recognize probable pulmonary fibrosis from progressive dyspnea, fine crackles and interstitial change on a chest radiograph. Choose the drug that slows deterioration. [December 2021 Q34, chapter-level reference](?chapter=80#asked-chapter).
 - Explain the benefit of nintedanib and distinguish it from oxygen for hypoxemia. [June 2026 Basic Q131, related treatment passage](?chapter=80#exam-p1231-mcq-d8222a690714331a4dd2ad76). The printed pages 1232–1233 include the CT figure and supportive care. The drug discussion is on p1231.

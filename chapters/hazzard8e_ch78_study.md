@@ -8,7 +8,7 @@ Study summary of Chapter 78 - Peripheral Vascular Disease; the book and the full
 - **A transient ischemic attack and 50% carotid stenosis.** Which medical measures are indicated, and what would make endarterectomy worthwhile in a frail older woman? [June 2023 Q8](?chapter=78#exam-p1213-mcq-0248cf414c0e282383f0c986) · [Conditions for intervention on the following page](?chapter=78#exam-p1214-mcq-0248cf414c0e282383f0c986).
 - **An incidental bruit and 80% carotid stenosis.** How does the absence of a relevant neurologic event change the balance between medical therapy and a procedure? [December 2021 Q84, chapter-level teaching](?chapter=78#asked-chapter).
 - **Bilateral lower-leg pigmentation.** Recognize venous stasis in photograph 8 and choose the test that demonstrates reflux. [June 2026 Basic Q138](?chapter=78#exam-p1216-mcq-ee6477061bffbce186548a21) · [June 2026 Basic Q138, diagnostic test](?chapter=78#exam-p1217-mcq-ee6477061bffbce186548a21).
-- **LDL 160 in four independent older adults.** Identify established atherosclerotic disease, distinguish diabetes at age 75 and individualize primary prevention at age 86. The examination bibliography names GRS Cardiovascular Disease. [June 2022 Q67, chapter-level teaching](?chapter=78#asked-chapter).
+- **LDL 160 in four independent older adults.** Identify established atherosclerotic disease, distinguish diabetes at age 75 and individualize primary prevention at age 86. The Geriatrics Review Syllabus addresses prevention in its cardiovascular section. [June 2022 Q67, chapter-level teaching](?chapter=78#asked-chapter).
 
 ## Claudication and the limits of a walking prescription
 

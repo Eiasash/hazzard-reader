@@ -31,7 +31,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
   > Current practice (not the book): probable DLB = ≥2 core features, or 1 core feature + ≥1 indicative biomarker (reduced DAT uptake on SPECT/PET, abnormal MIBG scintigraphy, or PSG-confirmed REM sleep without atonia) — DLB Consortium 4th consensus report (McKeith et al.), 2017.
 - **MMSE decline −4 to −5 pts/yr** vs **~3 pts/yr in AD** — faster course than AD (p984).
 - In postmortem-confirmed DLB cases, **mean survival ~10y**, disability progressing **~10%/yr** (p983).
-- **One-year rule, as printed:** p984 says the research criteria require cognitive symptoms that “predate parkinsonism by 12 months.” The chapter calls the temporal distinction arbitrary and difficult to apply (pp984–985). Ch 57, p870, describes DLB when dementia precedes or occurs within one year of motor onset, and PDD when dementia develops after a year of established motor PD.
+- **One-year rule in the text:** p984 says the research criteria require cognitive symptoms that “predate parkinsonism by 12 months.” The chapter calls the temporal distinction arbitrary and difficult to apply (pp984–985). Ch 57, p870, describes DLB when dementia precedes or occurs within one year of motor onset, and PDD when dementia develops after a year of established motor PD.
   > Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.
 - Robust cholinesterase-inhibitor response (often better than AD, especially hallucinations); often neuroleptic sensitivity.
 

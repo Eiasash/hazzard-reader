@@ -4,7 +4,7 @@ Study summary of Chapter 31 - Disorders of Swallowing; the book and the full cha
 
 ## What the exams asked
 
-- A patient with dysphagia, poor oral hygiene and previous stroke has pneumonia. Which intervention may lower recurrence risk? [June 2025 Q71 · medication risks, Table 31-5](?chapter=31#exam-p446-mcq-4c3fda6b97055d09bfccf60c) · [Oral care in the cited pneumonia chapter](?chapter=105#exam-p1690-mcq-4c3fda6b97055d09bfccf60c).
+- A patient with dysphagia, poor oral hygiene and previous stroke has pneumonia. Which intervention may lower recurrence risk? [June 2025 Q71 · medication risks, Table 31-5](?chapter=31#exam-p446-mcq-4c3fda6b97055d09bfccf60c) · [Oral care in the pneumonia chapter](?chapter=105#exam-p1690-mcq-4c3fda6b97055d09bfccf60c).
 - In advanced dementia, how do the burdens of tube feeding compare with careful hand feeding? [2020 Q42 · chapter-level association, AGS Choosing Wisely](?chapter=31#asked-chapter) · [Feeding decisions on p. 451](?chapter=31#ch31-feeding).
 - **Related Harrison questions.** Dysphagia with fatigable ptosis or diplopia points to a neuromuscular cause. The antibody test belongs to Harrison. The swallowing chapter lists myasthenia gravis in its differential. [June 2023 Q27 · Table 31-3](?chapter=31#ch31-neuromuscular) · [June 2025 Q78 · Table 31-3](?chapter=31#ch31-neuromuscular).
 

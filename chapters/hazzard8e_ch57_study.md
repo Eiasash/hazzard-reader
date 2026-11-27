@@ -23,7 +23,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 - **CKD** cognitive impairment prevalence **10-40%**, depending on disease severity/duration (p860)
 - High-dose **vitamin E (2000 IU/day)** reduced *functional* decline in mild-to-moderate AD in a large trial, though evidence for prevention is weak overall (p860-861)
 - Depression prevalence in older adults: **11-30%** (p861)
-- Table 57-2's per-condition grid flags **AD, VaD, and PD** risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, COPD, and sleep apnea are flagged for **AD and VaD only** (no PD); nutritional deficiency for **AD and Wernicke-Korsakoff syndrome**; thyroid disease for **AD** alone (Table 57-2, p857-858)
+- Table 57-2's per-condition grid flags **AD, VaD, and PD** risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, COPD, and sleep apnea are listed for **AD and VaD only** (no PD); nutritional deficiency for **AD and Wernicke-Korsakoff syndrome**; thyroid disease for **AD** alone (Table 57-2, p857-858)
 - Per the table, several of these cognitive effects can improve with treatment (only limited evidence for cardiac rehab; improvement often during year 1 post-surgery; antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but **B12/vitamin D deficits may persist** despite supplementation, and some thyroid patients **don't return to cognitive baseline** (Table 57-2, p857-858)
 
 ## Differentiating dementia types (Table 57-3, p863-866)

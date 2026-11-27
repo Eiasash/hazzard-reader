@@ -10381,59 +10381,8 @@
       "copy|Medication side effects": [
         "u557"
       ],
-      "copy|Amantadine (Symadine) ⟨IL: not checked⟩": [
-        "u558"
-      ],
-      "copy|Benztropine (Cogentin) ⟨IL: not checked⟩": [
-        "u559"
-      ],
-      "copy|Cyproheptadine (Periactin) ⟨IL: not checked⟩": [
-        "u560"
-      ],
-      "copy|Digoxin (Lanoxin) ⟨IL: not checked⟩": [
-        "u561"
-      ],
-      "copy|Diphenhydramine (Benadryl) ⟨IL: not checked⟩": [
-        "u562"
-      ],
-      "copy|Dipyridamole (Persantine) ⟨IL: not checked⟩": [
-        "u563"
-      ],
-      "copy|Doxylamine (Aldex, Doxytex, Nitetime Sleep-Aid, Sleep Aid, Unisom) ⟨IL: not checked⟩": [
-        "u564"
-      ],
-      "copy|Furosemide (Lasix) ⟨IL: not checked⟩": [
-        "u565"
-      ],
-      "copy|Hydroxyzine (Vistaril, Atarax) ⟨IL: not checked⟩": [
-        "u566"
-      ],
       "copy|Low-potency antipsychotics": [
         "u567"
-      ],
-      "copy|Meclizine (Dramamine) ⟨IL: not checked⟩": [
-        "u568"
-      ],
-      "copy|Metoclopramide (Reglan) ⟨IL: not checked⟩": [
-        "u569"
-      ],
-      "copy|Oxybutynin (Ditropan) ⟨IL: not checked⟩": [
-        "u570"
-      ],
-      "copy|Prochlorperazine (Compazine) ⟨IL: not checked⟩": [
-        "u571"
-      ],
-      "copy|Promethazine (Phenergan) ⟨IL: not checked⟩": [
-        "u572"
-      ],
-      "copy|Ranitidine (Zantac) ⟨IL: not checked⟩": [
-        "u573"
-      ],
-      "copy|Scopolamine (Transderm-V) ⟨IL: not checked⟩": [
-        "u574"
-      ],
-      "copy|Theophylline (Aerolate) ⟨IL: not checked⟩": [
-        "u575"
       ],
       "copy|Tricyclic antidepressants": [
         "u576"
@@ -10621,9 +10570,6 @@
       "copy|row:Medication|TH|Side effectsᵇ": [
         "u638"
       ],
-      "copy|row:undefined|TD|Risperidone ⟨IL: not checked⟩": [
-        "u639"
-      ],
       "copy|row:undefined|TD|Oral tabletOral solutionOral disintegrating tablets": [
         "u640",
         "u652"
@@ -10634,9 +10580,6 @@
       "copy|row:undefined|TD|Orthostatic hypotension, dose-dependent EPS, tardive dyskinesia, hyperprolactinemia, risk of cerebrovascular events, weight gain, moderate risk of diabetes mellitus and dyslipidemia, sedation, cognitive effects": [
         "u642"
       ],
-      "copy|row:undefined|TD|Olanzapine ⟨IL: not checked⟩": [
-        "u643"
-      ],
       "copy|row:undefined|TD|TabletDisintegrating tabletsIM": [
         "u644"
       ],
@@ -10645,9 +10588,6 @@
       ],
       "copy|row:undefined|TD|Sedation, anticholinergic effects at higher doses, gait disturbance, orthostatic hypotension, high risk of weight gain, hyperglycemia, diabetes mellitus, risk of cerebrovascular events, dose-dependent EPS": [
         "u646"
-      ],
-      "copy|row:undefined|TD|Quetiapine ⟨IL: not checked⟩": [
-        "u647"
       ],
       "copy|row:undefined|TD|Tablet": [
         "u648"
@@ -10658,17 +10598,11 @@
       "copy|row:undefined|TD|Sedation, orthostatic hypotension, moderate risk of weight gain, diabetes mellitus, and dyslipidemia, anticholinergic effects at higher doses": [
         "u650"
       ],
-      "copy|row:undefined|TD|Aripiprazole ⟨IL: not checked⟩": [
-        "u651"
-      ],
       "copy|row:undefined|TD|5–10 mg": [
         "u653"
       ],
       "copy|row:undefined|TD|Sedation, nausea, lower risk of EPS, weight gain": [
         "u654"
-      ],
-      "copy|row:undefined|TD|Haloperidol ⟨IL: not checked⟩": [
-        "u655"
       ],
       "copy|row:undefined|TD|Oral tabletOral solutionIMIV": [
         "u656"
@@ -10679,9 +10613,6 @@
       "copy|row:undefined|TD|High risk of EPS, sedation, orthostatic hypotension, seizure": [
         "u658"
       ],
-      "copy|row:undefined|TD|Clozapine ⟨IL: not checked⟩": [
-        "u659"
-      ],
       "copy|row:undefined|TD|Oral tablet": [
         "u660",
         "u664"
@@ -10691,9 +10622,6 @@
       ],
       "copy|row:undefined|TD|Excessive sedation, sialorrhea, seizure, anticholinergic effects, agranulocytosis, orthostatic hypotension, sustained tachycardia, weight gain, diabetes mellitus, dyslipidemia. Requires weekly blood draws to monitor for agranulocytosis in the first 6 months of treatment.": [
         "u662"
-      ],
-      "copy|row:undefined|TD|Pimavanserin ⟨IL: not checked⟩": [
-        "u663"
       ],
       "copy|row:undefined|TD|34 mg": [
         "u665"
@@ -10713,9 +10641,6 @@
       "copy|row:undefined|TD|SELECTIVE SEROTONIN REUPTAKE INHIBITORS": [
         "u670"
       ],
-      "copy|row:undefined|TD|Citalopram ⟨IL: not checked⟩": [
-        "u671"
-      ],
       "copy|row:undefined|TD|5–10": [
         "u672"
       ],
@@ -10724,9 +10649,6 @@
       ],
       "copy|row:undefined|TD|GI distress, sexual dysfunction, slight weight gain, QTc prolongation at doses > 20 mg, hyponatremia, SIADH": [
         "u674"
-      ],
-      "copy|row:undefined|TD|Escitalopram ⟨IL: not checked⟩": [
-        "u675"
       ],
       "copy|row:undefined|TD|5": [
         "u676"
@@ -10739,17 +10661,11 @@
       "copy|row:undefined|TD|GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, insomnia, fatigue": [
         "u678"
       ],
-      "copy|row:undefined|TD|Fluoxetine ⟨IL: not checked⟩": [
-        "u679"
-      ],
       "copy|row:undefined|TD|80": [
         "u681"
       ],
       "copy|row:undefined|TD|GI distress, sexual dysfunction, slight weight gain, abnormal dreams, hyponatremia, SIADH, insomnia, fatigue": [
         "u682"
-      ],
-      "copy|row:undefined|TD|Sertraline ⟨IL: not checked⟩": [
-        "u683"
       ],
       "copy|row:undefined|TD|25": [
         "u684"
@@ -10760,17 +10676,11 @@
       "copy|row:undefined|TD|GI distress, sexual dysfunction, slight weight gain, hyponatremia, SIADH, headache": [
         "u686"
       ],
-      "copy|row:undefined|TD|Paroxetine ⟨IL: not checked⟩": [
-        "u687"
-      ],
       "copy|row:undefined|TD|40": [
         "u689"
       ],
       "copy|row:undefined|TD|Anticholinergic effects may increase risk of delirium, may cause withdrawal effects due to short half life, GI distress, hyponatremia, SIADH": [
         "u690"
-      ],
-      "copy|row:undefined|TD|Paroxetine CR ⟨IL: not checked⟩": [
-        "u691"
       ],
       "copy|row:undefined|TD|12.5": [
         "u692"
@@ -10788,9 +10698,6 @@
       "copy|row:undefined|TD|SEROTONIN NOREPINEPHRINE REUPTAKE INHIBITORS": [
         "u695"
       ],
-      "copy|row:undefined|TD|Duloxetine ⟨IL: not checked⟩": [
-        "u696"
-      ],
       "copy|row:undefined|TD|30": [
         "u697"
       ],
@@ -10799,9 +10706,6 @@
       ],
       "copy|row:undefined|TD|GI distress, dry mouth, urinary hesitancy, headaches, fatigue, sedation, hyponatremia, hepatitis": [
         "u699"
-      ],
-      "copy|row:undefined|TD|Venlafaxine XR ⟨IL: not checked⟩": [
-        "u700"
       ],
       "copy|row:undefined|TD|37.5": [
         "u701"
@@ -10812,17 +10716,11 @@
       "copy|row:undefined|TD|GI distress, minimal sedation, headaches, sexual dysfunction, weight loss, withdrawal symptoms, anxiety, dose-dependent hypertension, hyponatremia, mild anticholinergic effects": [
         "u703"
       ],
-      "copy|row:undefined|TD|Venlafaxine IR ⟨IL: not checked⟩": [
-        "u704"
-      ],
       "copy|row:undefined|TD|25–50": [
         "u705"
       ],
       "copy|row:undefined|TD|375": [
         "u706"
-      ],
-      "copy|row:undefined|TD|Desvenlafaxine ⟨IL: not checked⟩": [
-        "u708"
       ],
       "copy|row:undefined|TD|100": [
         "u710",
@@ -10834,9 +10732,6 @@
       "copy|row:undefined|TD|OTHER": [
         "u712"
       ],
-      "copy|row:undefined|TD|Mirtazapine ⟨IL: not checked⟩": [
-        "u713"
-      ],
       "copy|row:undefined|TD|7.5": [
         "u714"
       ],
@@ -10845,9 +10740,6 @@
       ],
       "copy|row:undefined|TD|Dry mouth, GI distress, dizziness, QT prolongation, elevated cholesterol and triglycerides, weight gain, increased appetite, sedation": [
         "u716"
-      ],
-      "copy|row:undefined|TD|Bupropion XL ⟨IL: not checked⟩": [
-        "u717"
       ],
       "copy|row:undefined|TD|150": [
         "u718"
@@ -10858,14 +10750,8 @@
       "copy|row:undefined|TD|Mild anticholinergic effects, hypotension, high sedation, slight sexual dysfunction, serotonin syndrome, increased appetite, dry mouth": [
         "u720"
       ],
-      "copy|row:undefined|TD|Bupropion SR ⟨IL: not checked⟩": [
-        "u721"
-      ],
       "copy|row:undefined|TD|150 BID": [
         "u723"
-      ],
-      "copy|row:undefined|TD|Bupropion IR ⟨IL: not checked⟩": [
-        "u725"
       ],
       "copy|row:undefined|TD|75": [
         "u726"
@@ -10876,9 +10762,6 @@
       "copy|row:undefined|TD|PREFERRED TRICYCLIC ANTIDEPRESSANTS": [
         "u729"
       ],
-      "copy|row:undefined|TD|Nortriptyline ⟨IL: not checked⟩": [
-        "u730"
-      ],
       "copy|row:undefined|TD|10–25": [
         "u731",
         "u735"
@@ -10888,9 +10771,6 @@
       ],
       "copy|row:undefined|TD|Therapeutic window 50–150 ng/mL; anticholinergic effects, hypotension, sedation, sexual dysfunction, slight weight gain": [
         "u733"
-      ],
-      "copy|row:undefined|TD|Desipramine ⟨IL: not checked⟩": [
-        "u734"
       ],
       "copy|row:undefined|TD|50–150": [
         "u736"
@@ -10972,12 +10852,6 @@
       ],
       "copy|2026 exam.": [
         "u762"
-      ],
-      "copy|Two questions of the 2026 specialist sitting were sourced to this chapter by the examiners' reference list: Q9 (p925) and Q52 (p929), with no table or figure named.": [
-        "u763"
-      ],
-      "copy|Their pages are flagged ⟨2026⟩; the questions are at the end.": [
-        "u764"
       ],
       "copy|It is estimated that 5.3 million Americans live with Alzheimer disease (AD), the most common cause of dementia, and that 13.8 million people older than 65 years will be diagnosed in the United States by 2050.": [
         "u765"
@@ -11111,20 +10985,8 @@
       "copy|The NPI is the most widely used instrument for measuring NPS Table 60-1 — Neuropsychiatric symptoms (printed 921)": [
         "u808"
       ],
-      "copy|As printed.": [
-        "u809",
-        "u1043",
-        "u1061"
-      ],
       "copy|\"Excessive fidgetting\" (sic): the book spells the word \"fidgeting\" on p946, in chapter 61.": [
         "u810"
-      ],
-      "copy|Left as printed.": [
-        "u811",
-        "u1045",
-        "u1063",
-        "u1088",
-        "u1099"
       ],
       "copy|(The paragraph above, from p. 920, runs on here; p. 921 carries only Table 60-1.)": [
         "u812"
@@ -11197,27 +11059,6 @@
       ],
       "copy|Table 60-3 — Medications with anticholinergic activity, which have increased risk of causing delirium (printed 922)": [
         "u835"
-      ],
-      "copy|Currency and jurisdiction — declared gap (table frame).": [
-        "u836",
-        "u995",
-        "u1007"
-      ],
-      "copy|The agents and the brand names in parentheses are as printed, at the book's press date.": [
-        "u837"
-      ],
-      "copy|Israeli registration, availability and reimbursement have not been checked for any agent (each agent row is marked ⟨IL: not checked⟩), agents approved, withdrawn or relabelled after press have not been checked, and no Israeli or post-press source is held.": [
-        "u838"
-      ],
-      "copy|Questions sourced to this table use the book's values.": [
-        "u839",
-        "u998",
-        "u1011"
-      ],
-      "copy|Closed by: an Israeli national registration or formulary source, and a post-press label source, when held.": [
-        "u840",
-        "u999",
-        "u1012"
       ],
       "copy|In formulating a differential diagnosis, one should keep in mind that there may be more than one cause.": [
         "u841"
@@ -11685,13 +11526,6 @@
       "copy|EPS, extrapyramidal symptoms; IM, intramuscular injection; IV, intravenous.": [
         "u994"
       ],
-      "copy|Formulations and recommended doses are as printed, at the book's press date.": [
-        "u996"
-      ],
-      "copy|Israeli registration, availability, reimbursement and doses have not been checked for any agent (each agent row is marked ⟨IL: not checked⟩), agents approved, withdrawn or relabelled after press have not been checked, and no Israeli or post-press source is held.": [
-        "u997",
-        "u1010"
-      ],
       "copy|Aside from depression, antidepressants are also used to treat other NPS, including anxiety, agitation, and apathy.": [
         "u1000"
       ],
@@ -11712,9 +11546,6 @@
       ],
       "copy|BID, twice daily; CR, controlled release; GI distress, gastrointestinal distress (eg, nausea, vomiting, diarrhea, constipation); IR, immediate release; SIADH, syndrome of inappropriate secretion of antidiuretic hormone; TID, three times a day.": [
         "u1006"
-      ],
-      "copy|Doses are as printed, at the book's press date.": [
-        "u1008"
       ],
       "copy|The table's footnote qualifies the maximum daily doses only: \"Maximum recommended dosage for patients greater than 60 years of age\" (p929).": [
         "u1009"
@@ -11929,9 +11760,6 @@
       "copy|Common side effects of memantine include dizziness, headache, confusion, constipation, and fatigue.": [
         "u1086"
       ],
-      "copy|As printed. \"eight loss\" (sic): the book prints \"weight loss\" in Table 60-9 (p929).": [
-        "u1087"
-      ],
       "copy|Stimulants Modafinil, a wakefulness-promoting medication, and methylphenidate, a stimulant, have both been evaluated as possible treatments for apathy associated with AD.": [
         "u1089"
       ],
@@ -11958,9 +11786,6 @@
       ],
       "copy|As a result, methylphenidate and other stimulants should be avoided in individuals with a history of schizophrenia, bipolar disease, or impulse control disorders.": [
         "u1097"
-      ],
-      "copy|As printed. \"methylphedniate\" (sic): the book spells the drug \"methylphenidate\" on the same page (p931).": [
-        "u1098"
       ],
       "copy|Benzodiazepines Benzodiazepines are used in 8.5% to 20% of patients with AD, despite limited evidence for their efficacy in reducing agitation or improving sleep quality.": [
         "u1100"
@@ -12009,18 +11834,6 @@
       ],
       "copy|Participants treated with pimavanserin had reduced NPI scores at 6 weeks, but improvements were not sustained at 12 weeks compared to placebo.": [
         "u1115"
-      ],
-      "copy|Currency — declared gap.": [
-        "u1116"
-      ],
-      "copy|This section describes the newer agents as of the book's press date.": [
-        "u1117"
-      ],
-      "copy|Later approvals have not been checked, and no post-press source is held.": [
-        "u1118"
-      ],
-      "copy|Closed by: a post-press label or regulatory source, when held.": [
-        "u1119"
       ],
       "copy|Dextromethorphan-quinidine was approved by the US FDA in 2010 for the treatment of pseudobulbar affect.": [
         "u1120"
@@ -12259,10 +12072,6 @@
       "copy|What is the recommended approach to continuing treatment?": [
         "u1206"
       ],
-      "copy|As printed on the paper.": [
-        "u1207",
-        "u1221"
-      ],
       "copy|\"OLAZAPINE\" is the paper's spelling; the book prints \"Olanzapine\" (Table 60-8, p928).": [
         "u1208"
       ],
@@ -12313,6 +12122,195 @@
       ],
       "copy|About this chapter": [
         "u1225"
+      ],
+      "copy|Amantadine (Symadine)": [
+        "u558"
+      ],
+      "copy|Benztropine (Cogentin)": [
+        "u559"
+      ],
+      "copy|Cyproheptadine (Periactin)": [
+        "u560"
+      ],
+      "copy|Digoxin (Lanoxin)": [
+        "u561"
+      ],
+      "copy|Diphenhydramine (Benadryl)": [
+        "u562"
+      ],
+      "copy|Dipyridamole (Persantine)": [
+        "u563"
+      ],
+      "copy|Doxylamine (Aldex, Doxytex, Nitetime Sleep-Aid, Sleep Aid, Unisom)": [
+        "u564"
+      ],
+      "copy|Furosemide (Lasix)": [
+        "u565"
+      ],
+      "copy|Hydroxyzine (Vistaril, Atarax)": [
+        "u566"
+      ],
+      "copy|Meclizine (Dramamine)": [
+        "u568"
+      ],
+      "copy|Metoclopramide (Reglan)": [
+        "u569"
+      ],
+      "copy|Oxybutynin (Ditropan)": [
+        "u570"
+      ],
+      "copy|Prochlorperazine (Compazine)": [
+        "u571"
+      ],
+      "copy|Promethazine (Phenergan)": [
+        "u572"
+      ],
+      "copy|Ranitidine (Zantac)": [
+        "u573"
+      ],
+      "copy|Scopolamine (Transderm-V)": [
+        "u574"
+      ],
+      "copy|Theophylline (Aerolate)": [
+        "u575"
+      ],
+      "copy|row:undefined|TD|Risperidone": [
+        "u639"
+      ],
+      "copy|row:undefined|TD|Olanzapine": [
+        "u643"
+      ],
+      "copy|row:undefined|TD|Quetiapine": [
+        "u647"
+      ],
+      "copy|row:undefined|TD|Aripiprazole": [
+        "u651"
+      ],
+      "copy|row:undefined|TD|Haloperidol": [
+        "u655"
+      ],
+      "copy|row:undefined|TD|Clozapine": [
+        "u659"
+      ],
+      "copy|row:undefined|TD|Pimavanserin": [
+        "u663"
+      ],
+      "copy|row:undefined|TD|Citalopram": [
+        "u671"
+      ],
+      "copy|row:undefined|TD|Escitalopram": [
+        "u675"
+      ],
+      "copy|row:undefined|TD|Fluoxetine": [
+        "u679"
+      ],
+      "copy|row:undefined|TD|Sertraline": [
+        "u683"
+      ],
+      "copy|row:undefined|TD|Paroxetine": [
+        "u687"
+      ],
+      "copy|row:undefined|TD|Paroxetine CR": [
+        "u691"
+      ],
+      "copy|row:undefined|TD|Duloxetine": [
+        "u696"
+      ],
+      "copy|row:undefined|TD|Venlafaxine XR": [
+        "u700"
+      ],
+      "copy|row:undefined|TD|Venlafaxine IR": [
+        "u704"
+      ],
+      "copy|row:undefined|TD|Desvenlafaxine": [
+        "u708"
+      ],
+      "copy|row:undefined|TD|Mirtazapine": [
+        "u713"
+      ],
+      "copy|row:undefined|TD|Bupropion XL": [
+        "u717"
+      ],
+      "copy|row:undefined|TD|Bupropion SR": [
+        "u721"
+      ],
+      "copy|row:undefined|TD|Bupropion IR": [
+        "u725"
+      ],
+      "copy|row:undefined|TD|Nortriptyline": [
+        "u730"
+      ],
+      "copy|row:undefined|TD|Desipramine": [
+        "u734"
+      ],
+      "copy|Two questions of the 2026 specialist sitting tested this chapter: Q9 (p925) and Q52 (p929), with no table or figure named.": [
+        "u763"
+      ],
+      "copy|The questions follow the clinical text.": [
+        "u764"
+      ],
+      "copy|Printed wording.": [
+        "u809",
+        "u1043",
+        "u1061"
+      ],
+      "copy|Use the standard spelling when identifying the term.": [
+        "u811",
+        "u1045",
+        "u1063",
+        "u1088",
+        "u1099"
+      ],
+      "copy|US drug information.": [
+        "u836",
+        "u995",
+        "u1007"
+      ],
+      "copy|The brand names in parentheses refer to US products available at publication.": [
+        "u837"
+      ],
+      "copy|Israeli registration and reimbursement can differ from US practice, and newer approvals may change the available choices.": [
+        "u838",
+        "u997",
+        "u1010"
+      ],
+      "copy|Exam questions on this table use these values.": [
+        "u839",
+        "u998",
+        "u1011"
+      ],
+      "copy|For a specific product in Israel, check its current local label.": [
+        "u840",
+        "u999",
+        "u1012"
+      ],
+      "copy|The formulations and doses refer to US products at publication.": [
+        "u996"
+      ],
+      "copy|Doses refer to the US formulations at publication.": [
+        "u1008"
+      ],
+      "copy|Printed wording. \"eight loss\" (sic): the book prints \"weight loss\" in Table 60-9 (p929).": [
+        "u1087"
+      ],
+      "copy|Printed wording. \"methylphedniate\" (sic): the book spells the drug \"methylphenidate\" on the same page (p931).": [
+        "u1098"
+      ],
+      "copy|Evidence at publication.": [
+        "u1116"
+      ],
+      "copy|These agents were new when the book appeared.": [
+        "u1117"
+      ],
+      "copy|Indications and available formulations can change.": [
+        "u1118"
+      ],
+      "copy|Consult the current product label for an individual drug.": [
+        "u1119"
+      ],
+      "copy|Exam spelling.": [
+        "u1207",
+        "u1221"
       ]
     },
     "aliases": {
@@ -15355,9 +15353,6 @@
       "copy|A skilled nursing facility has no equivalent fixed session-intensity requirement (p822, CMS inpatient rehabilitation coverage criteria).": [
         "u63"
       ],
-      "copy|Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 has no bibliographic locator in the official list. Read the Israeli context. Related clinical reading covers stability, participation and choice of setting.": [
-        "u85"
-      ],
       "copy|Motor planning and the pattern of functional recovery — September 2024 Q36 cites the Stroke Rehabilitation Clinician Handbook, p15. Related reading on apraxia. June 2026 Q92 identifies FIM and the examination image. Open the original FIM chart · Related reading on hip loading.": [
         "u86"
       ],
@@ -15375,6 +15370,9 @@
       ],
       "table-55-4-occupational-therapist|Table 55-4: Occupational therapist": [
         "u28"
+      ],
+      "copy|Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 gives no specific source. Read the Israeli context. Related clinical reading covers stability, participation and choice of setting.": [
+        "u85"
       ]
     },
     "sequenceOffsets": [
@@ -16924,9 +16922,6 @@
       "copy|June 2025 Q61's accepted option emphasizes inherited risk.": [
         "u193"
       ],
-      "copy|The cited 2024 Commission states that overall risk remains modifiable irrespective of APOE status (p915; Livingston et al., 2024, p573; supplied article 5).": [
-        "u194"
-      ],
       "copy|Select activities the person can still perform and enjoys, adapting the physical and cognitive demands to their ability.": [
         "u195"
       ],
@@ -17130,6 +17125,9 @@
       ],
       "table-59-5|Table 59-5": [
         "u37"
+      ],
+      "copy|The 2024 Commission states that overall risk remains modifiable irrespective of APOE status (p915; Livingston et al., 2024, p573; supplied article 5).": [
+        "u194"
       ]
     }
   },
@@ -17696,9 +17694,6 @@
       "copy|September 2024 also asked about contact sports.": [
         "u190"
       ],
-      "copy|The cited p938 and p941 discuss the syndromes; Chapter 64 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).": [
-        "u191"
-      ],
       "copy|Levodopa crosses the blood-brain barrier as a dopamine precursor.": [
         "u192"
       ],
@@ -17938,6 +17933,9 @@
       ],
       "copy|The 2026 exam tested the diagnosis and treatment of parkinsonism in the following questions, translated from Hebrew.": [
         "u103"
+      ],
+      "copy|Pages 938 and 941 describe the syndromes; Chapter 64 links longer exposure to repetitive head impacts with neocortical Lewy body disease and links that pathology with parkinsonism and dementia (p938, p941, p999).": [
+        "u191"
       ]
     }
   },
@@ -18040,14 +18038,8 @@
       "copy|End of life: delirium in >80% of patients; if sedation is indicated for severe agitated delirium, lorazepam, starting dose 0.5–1.0 mg PO/IV/SQ is the sedation agent of choice (p890).": [
         "u32"
       ],
-      "copy|Acute-onset timeframe: Cardinal Features/Table 58-4 say \"hours to days,\" but the Algorithm-for-Evaluation text says \"hours to weeks\" for acute change — both as printed, not reconciled; a 2–3-week history falls inside one window and outside the other (p886).": [
-        "u33"
-      ],
       "copy|Figure 58-2's flowchart ends \"avoid benzodiazepines and other psychoactive drugs\" and gives only starting doses; the body text on p889 adds that benzodiazepines remain the treatment of choice for seizure/withdrawal delirium and gives the 24-h antipsychotic maximums the figure omits (p887).": [
         "u34"
-      ],
-      "copy|Risperidone dose: Figure 58-2 gives 0.25 mg; the Antipsychotics text gives 0.25–0.5 mg — both as printed (p889).": [
-        "u35"
       ],
       "recall|Recall": [
         "u36"
@@ -18342,6 +18334,12 @@
       ],
       "copy|These English translations cover the 2026 exam questions on delirium.": [
         "u100"
+      ],
+      "copy|Acute-onset timeframe: Cardinal Features/Table 58-4 say \"hours to days,\" but the Algorithm-for-Evaluation text says \"hours to weeks\" for acute change — the two time windows differ; a 2–3-week history falls inside one window and outside the other (p886).": [
+        "u33"
+      ],
+      "copy|Risperidone dose: Figure 58-2 gives 0.25 mg; the Antipsychotics text gives 0.25–0.5 mg (p889).": [
+        "u35"
       ]
     },
     "sequenceOffsets": [
@@ -20023,9 +20021,6 @@
       "copy|Maggot (bio-surgical) density 5–8/cm²; complete debridement 80% vs 48% with standard care (p696).": [
         "u44"
       ],
-      "copy|Collagenase (enzymatic): iodine inhibits its activity; as printed, nanocrystalline silver \"can be inhibited when used in combination with collagenase\" (p696).": [
-        "u45"
-      ],
       "copy|60% of chronic wounds contain a biofilm (p695).": [
         "u46"
       ],
@@ -20052,9 +20047,6 @@
       ],
       "copy|Goal = comfort, not healing; treat odor with topical metronidazole; give analgesia 30–40 min before repositioning (p698).": [
         "u54"
-      ],
-      "copy|As printed. Table 46-1's column header reads \"PREVENTION INTERVENTONS\" (sic, typo in the original) (p683).": [
-        "u56"
       ],
       "recall|Recall": [
         "u57"
@@ -20862,7 +20854,13 @@
       "copy|The official answers follow the post-appeal key 899478.": [
         "u106"
       ],
-      "copy|The cited pages explain the answers.": [
+      "copy|Collagenase (enzymatic): iodine inhibits its activity; nanocrystalline silver \"can be inhibited when used in combination with collagenase\" (p696).": [
+        "u45"
+      ],
+      "copy|Table heading. Table 46-1's column header reads \"PREVENTION INTERVENTONS\" (sic, typo in the original) (p683).": [
+        "u56"
+      ],
+      "copy|The page references link each answer to its clinical rationale.": [
         "u107"
       ]
     }
@@ -21518,9 +21516,6 @@
       "copy|On p675 the chapter lists ICD indications as syncope due to VT with EF <35%, syncope with previous MI, and VT induced during electrophysiologic testing. It also discusses an ICD for recurrent VT syncope with EF >35% after drug therapy and ablation fail. Current practice (not the book): After prior MI, unexplained syncope with inducible sustained VT on electrophysiologic study is an ICD indication. A history of MI alone does not establish this indication. ESC syncope guideline, 2018.": [
         "u34"
       ],
-      "copy|For OH or postprandial hypotension, p675 lists morning caffeine 250 mg, oral fludrocortisone 0.1–0.5 mg daily, oral midodrine 2.5–10 mg three times daily, and subcutaneous octreotide 30 minutes before a meal. The printed octreotide dose is 50 mg [sic — the cited study used 50 micrograms, not milligrams]. Jansen et al., 1989. Current practice (not the book): When drug treatment is appropriate, fludrocortisone is generally dosed at 0.05–0.2 mg/day. Monitor potassium, edema and supine blood pressure and avoid it in heart failure. Avoid midodrine near bedtime. OH review, 2022 · AHA scientific statement, 2024.": [
-        "u243"
-      ],
       "copy|The chapter describes sleeping with the head raised 30–45 degrees as potentially helpful, the September paper’s listed intervention (pp.": [
         "u147"
       ],
@@ -21553,6 +21548,9 @@
       ],
       "copy|CHAPTER 45 / HAZZARD": [
         "u37"
+      ],
+      "copy|For OH or postprandial hypotension, p675 lists morning caffeine 250 mg, oral fludrocortisone 0.1–0.5 mg daily, oral midodrine 2.5–10 mg three times daily, and subcutaneous octreotide 30 minutes before a meal. The printed octreotide dose is 50 mg [sic — the study used 50 micrograms, not milligrams]. Jansen et al., 1989. Current practice (not the book): When drug treatment is appropriate, fludrocortisone is generally dosed at 0.05–0.2 mg/day. Monitor potassium, edema and supine blood pressure and avoid it in heart failure. Avoid midodrine near bedtime. OH review, 2022 · AHA scientific statement, 2024.": [
+        "u243"
       ]
     },
     "sequenceOffsets": [
@@ -21825,9 +21823,6 @@
       "copy|The table says SDOC does not propose a precise gait cutoff; its displayed value is based on the earlier FNIH consensus (p735).": [
         "u78"
       ],
-      "ch49-table49-4|Supporting table on the cited page; the official SPPB question does not explicitly cite this table.": [
-        "u79"
-      ],
       "copy|2.": [
         "u80"
       ],
@@ -22007,9 +22002,6 @@
       "copy|Muscle aging, sarcopenia assessment and treatment (printed pages 729–739).": [
         "u75"
       ],
-      "ch49-table49-3|The bibliography for September 2024 Q65 specifies both page 734 and Table 49-3.": [
-        "u76"
-      ],
       "copy|The AWGS 2019 approach presented on p732 starts with case finding and varies by setting. The 2025 Asian consensus requires both low strength and low muscle mass for diagnosis and treats physical performance as an outcome. Use the criteria for the named framework. AWGS 2025 consensus": [
         "u12"
       ],
@@ -22045,6 +22037,12 @@
       ],
       "copy|CHAPTER 49 / HAZZARD": [
         "u72"
+      ],
+      "ch49-table49-3|For September 2024 Q65, compare the clinical description on p734 with Table 49-3.": [
+        "u76"
+      ],
+      "ch49-table49-4|Supporting table on the page; the official SPPB question does not explicitly cite this table.": [
+        "u79"
       ]
     },
     "sequenceOffsets": [
@@ -22418,17 +22416,11 @@
       "copy|Hazzard discusses total elemental calcium 1,200–1,500 mg/day and vitamin D at least 800 IU/day, sometimes 2,000 IU/day or more to reach a bone-disease target of 75 nmol/L (30 ng/mL) (p772).Current practice (not the book): Current BHOF calcium targets from diet plus supplements are 1,200 mg/day for women ≥51 and men ≥71 and 1,000 mg/day for men 50–70. Individualize supplementation and avoid exceeding the total target through unnecessary tablets (BHOF calcium and vitamin D).": [
         "u31"
       ],
-      "copy|Alendronate 70 mg orally weekly reduced hip and vertebral fracture risk by roughly 50% over three years in the studies summarized (Table 51-5, p774). The cited age subgroups ≤75 and >75 had 51% and 38% lower vertebral fracture risk at 12 months, respectively. Estimated time to benefit in those ≥70 was 8 months (p775). Table 51-5 gives eGFR <35 mL/min as a contraindication (p774).Current practice (not the book): US labeling does not recommend alendronate at creatinine clearance <35 mL/min. Contraindications to oral use include delayed esophageal emptying, inability to remain upright for 30 minutes and hypocalcemia (FDA Fosamax prescribing information).": [
-        "u34"
-      ],
       "copy|Zoledronic acid 5 mg IV yearly for three years reduced vertebral, nonvertebral and hip fracture risk by 70%, 25% and 41%, respectively, in the postmenopausal osteoporosis trial (p775). A separate trial in patients treated after hip-fracture repair reported deaths in 9.6% with zoledronic acid versus 13% with placebo (p776).Current practice (not the book): HORIZON reported the unrounded placebo mortality of 13.3% versus 9.6% with zoledronic acid. US labeling contraindicates the osteoporosis infusion in acute renal impairment or CrCl <35 mL/min. HORIZON Recurrent Fracture Trial.": [
         "u36"
       ],
       "copy|Denosumab 60 mg SC every 6 months (dose per Table 51-5, p774 — the chapter's own prose on p776 prints \"60 μg,\" a book table-vs-text discrepancy, see chapter note): 40% ↓ hip, 68% ↓ vertebral, 20% ↓ nonvertebral fracture; antifracture effect declines to pretreatment levels 12 months after stopping, and fracture risk rises markedly in those with prior vertebral fracture (p776).Current practice (not the book): Plan antiresorptive follow-on before stopping or delaying treatment. Advanced CKD, particularly dialysis or CKD–mineral and bone disorder, raises the risk of severe hypocalcemia (FDA boxed warning).": [
         "u37"
-      ],
-      "copy|Teriparatide 20 micrograms SC daily reduced vertebral and nonvertebral fractures by 65% and 53%, respectively, in the cited trial (pp774,776). Table 51-5 limits therapy to 24 months because of the osteosarcoma signal in rats; p776 likewise says no longer than two years.Current practice (not the book): US labeling permits treatment beyond two years only if high fracture risk persists or returns. Avoid in people at increased baseline osteosarcoma risk, including Paget disease, bone metastases, prior skeletal malignancy or radiation involving the skeleton. Avoid in underlying hypercalcemic disorders as a separate precaution (FDA Forteo prescribing information). Forteo prescribing information, §§2.3 and 5.2.": [
-        "u38"
       ],
       "copy|Table 51-5 lists approximately 57% lower vertebral fracture risk with abaloparatide 80 μg SC daily and a maximum duration of 24 months (p774). [sic — the chapter’s 18-month trial account gives an 86% reduction in new vertebral fractures and 43% in nonvertebral fractures (p777).]Current practice (not the book): US labeling does not recommend treatment for more than two years in a lifetime. Tymlos prescribing information.": [
         "u39"
@@ -22504,6 +22496,12 @@
       ],
       "copy|CHAPTER 51 / HAZZARD": [
         "u48"
+      ],
+      "copy|Alendronate 70 mg orally weekly reduced hip and vertebral fracture risk by roughly 50% over three years in the studies summarized (Table 51-5, p774). The age subgroups ≤75 and >75 had 51% and 38% lower vertebral fracture risk at 12 months, respectively. Estimated time to benefit in those ≥70 was 8 months (p775). Table 51-5 gives eGFR <35 mL/min as a contraindication (p774).Current practice (not the book): US labeling does not recommend alendronate at creatinine clearance <35 mL/min. Contraindications to oral use include delayed esophageal emptying, inability to remain upright for 30 minutes and hypocalcemia (FDA Fosamax prescribing information).": [
+        "u34"
+      ],
+      "copy|Teriparatide 20 micrograms SC daily reduced vertebral and nonvertebral fractures by 65% and 53%, respectively, in the trial (pp774,776). Table 51-5 limits therapy to 24 months because of the osteosarcoma signal in rats; p776 likewise says no longer than two years.Current practice (not the book): US labeling permits treatment beyond two years only if high fracture risk persists or returns. Avoid in people at increased baseline osteosarcoma risk, including Paget disease, bone metastases, prior skeletal malignancy or radiation involving the skeleton. Avoid in underlying hypercalcemic disorders as a separate precaution (FDA Forteo prescribing information). Forteo prescribing information, §§2.3 and 5.2.": [
+        "u38"
       ]
     },
     "sequenceOffsets": [
@@ -23215,9 +23213,6 @@
       "copy|Depression prevalence in older adults: 11-30% (p861)": [
         "u14"
       ],
-      "copy|Table 57-2's per-condition grid flags AD, VaD, and PD risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, COPD, and sleep apnea are flagged for AD and VaD only (no PD); nutritional deficiency for AD and Wernicke-Korsakoff syndrome; thyroid disease for AD alone (Table 57-2, p857-858)": [
-        "u15"
-      ],
       "copy|Per the table, several of these cognitive effects can improve with treatment (only limited evidence for cardiac rehab; improvement often during year 1 post-surgery; antihypertensives/antidiabetics, dialysis/transplant, O2 therapy, CPAP, thyroid replacement) — but B12/vitamin D deficits may persist despite supplementation, and some thyroid patients don't return to cognitive baseline (Table 57-2, p857-858)": [
         "u16"
       ],
@@ -23433,6 +23428,9 @@
       ],
       "copy|CHAPTER 57 / HAZZARD": [
         "u40"
+      ],
+      "copy|Table 57-2's per-condition grid flags AD, VaD, and PD risk specifically for coronary artery disease, T2DM, and CKD; hypertension, cardiac surgery, COPD, and sleep apnea are listed for AD and VaD only (no PD); nutritional deficiency for AD and Wernicke-Korsakoff syndrome; thyroid disease for AD alone (Table 57-2, p857-858)": [
+        "u15"
       ]
     },
     "sequenceOffsets": [
@@ -23772,9 +23770,6 @@
       "copy|Probable DLB: p984 gives two core features or one core plus one supportive feature in the prose. Table 63-3 gives two core features or one core plus at least one suggestive feature. The prose includes REM sleep behavior disorder among core features, whereas the table lists it as suggestive (p984).Current practice (not the book): probable DLB = ≥2 core features, or 1 core feature + ≥1 indicative biomarker (reduced DAT uptake on SPECT/PET, abnormal MIBG scintigraphy, or PSG-confirmed REM sleep without atonia) — DLB Consortium 4th consensus report (McKeith et al.), 2017.": [
         "u17"
       ],
-      "copy|One-year rule, as printed: p984 says the research criteria require cognitive symptoms that “predate parkinsonism by 12 months.” The chapter calls the temporal distinction arbitrary and difficult to apply (pp984–985). Ch 57, p870, describes DLB when dementia precedes or occurs within one year of motor onset, and PDD when dementia develops after a year of established motor PD.Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.": [
-        "u20"
-      ],
       "copy|Ch 63, p984, prints “predate parkinsonism by 12 months” as the research criterion.": [
         "u112"
       ],
@@ -23786,6 +23781,9 @@
       ],
       "copy|CHAPTER 63 / HAZZARD": [
         "u82"
+      ],
+      "copy|One-year rule in the text: p984 says the research criteria require cognitive symptoms that “predate parkinsonism by 12 months.” The chapter calls the temporal distinction arbitrary and difficult to apply (pp984–985). Ch 57, p870, describes DLB when dementia precedes or occurs within one year of motor onset, and PDD when dementia develops after a year of established motor PD.Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.": [
+        "u20"
       ]
     },
     "sequenceOffsets": [
@@ -24438,9 +24436,6 @@
       "copy|Distinguishing elbow bursitis from arthritis on active and passive movement — May 2024 Q23. The exam cites Harrison 21e, ch. 370, p. 2844.": [
         "u96"
       ],
-      "copy|Feeding tubes, pressure injuries and the trade-off between survival and comfort in aspiration pneumonia — June 2025 Q38 and June 2025 Q63. Both reference rows name Chapter 68, but the cited passages are in Chapter 67.": [
-        "u97"
-      ],
       "matching-pain-assessment-to-communication|Matching pain assessment to communication": [
         "u98"
       ],
@@ -24752,9 +24747,6 @@
       ],
       "copy|There is no opioid tolerance for a fentanyl patch or clear neuropathic indication for starting pregabalin at 300 mg/day.": [
         "u201"
-      ],
-      "copy|The reference row prints Table 68-3, but the cited pages contain Table 68-8, which lists the analgesics (p1063–1064).": [
-        "u202"
       ],
       "copy|For June 2026 Q55, measure blood pressure before starting duloxetine and periodically during treatment.": [
         "u203"
@@ -25169,6 +25161,12 @@
       ],
       "table-68-6|Table 68-6": [
         "u38"
+      ],
+      "copy|Feeding tubes, pressure injuries and the trade-off between survival and comfort in aspiration pneumonia — June 2025 Q38 and June 2025 Q63. Both reference rows name Chapter 68, but the passages are in Chapter 67.": [
+        "u97"
+      ],
+      "copy|The reference row prints Table 68-3, but the pages contain Table 68-8, which lists the analgesics (p1063–1064).": [
+        "u202"
       ]
     }
   },
@@ -25295,9 +25293,6 @@
       "copy|Operative mortality: 2% for repair vs 6% for replacement overall; a 292-patient >70y cohort found 0.7% in-hospital mortality for repair vs 14% for replacement (p1160).": [
         "u40"
       ],
-      "copy|Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as 1–2% vs 5.4–6.4% (p1163) — a second, different pair of numbers for the same comparison; both as printed.": [
-        "u41"
-      ],
       "copy|Table 75-12 risk criteria (combine per column, not PROM alone; organ counts = major organ dysfunction that will not improve postoperatively): low = STS-PROM < 4% and no frailty and no organ dysfunction and no procedure impediment; intermediate = 4–8% or 1 frailty index or 1 organ system or possible impediment; high = > 8%, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk > 50% or ≥3 organ systems or severe impediment (p1160).": [
         "u42"
       ],
@@ -25321,9 +25316,6 @@
       ],
       "copy|Aortic valve repair for calcific disease is rarely durable, but for normal leaflets it achieves 85% freedom from reoperation at 10 years (p1163).": [
         "u49"
-      ],
-      "copy|Mitral repair-vs-replacement operative mortality is given twice with different numbers: 2% vs 6% overall / 0.7% vs 14% in a >70y cohort (p1160), and later 1–2% vs 5.4–6.4% (p1163) — both as printed.": [
-        "u51"
       ],
       "copy|MS \"usually develop symptoms\" once MVA falls to 2.5 to 1.5 cm² (p1156), which overlaps Table 75-7's own mild cutoff (>1.5 cm²) — read literally, symptom onset and \"mild\" grade can coincide.": [
         "u52"
@@ -25670,6 +25662,12 @@
       ],
       "copy|Exam traps": [
         "u68"
+      ],
+      "copy|Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as 1–2% vs 5.4–6.4% (p1163) — a second, different pair of numbers for the same comparison; the two estimates differ.": [
+        "u41"
+      ],
+      "copy|Mitral repair-vs-replacement operative mortality is given twice with different numbers: 2% vs 6% overall / 0.7% vs 14% in a >70y cohort (p1160), and later 1–2% vs 5.4–6.4% (p1163).": [
+        "u51"
       ]
     },
     "sequenceOffsets": [
@@ -25912,9 +25910,6 @@
       ],
       "copy|1.": [
         "u74"
-      ],
-      "copy|What US heart failure prevalence did Hazzard report, and how many affected adults did the cited projection anticipate by 2030?": [
-        "u75"
       ],
       "copy|Hazzard reported about 6.5 million US patients and projected over 8 million by 2030 (p1166).": [
         "u76"
@@ -26531,6 +26526,9 @@
       ],
       "exam-traps|Exam traps": [
         "u67"
+      ],
+      "copy|What US heart failure prevalence did Hazzard report, and how many affected adults did the projection anticipate by 2030?": [
+        "u75"
       ]
     },
     "sequenceOffsets": [
@@ -26928,14 +26926,14 @@
       "copy|CHAPTER 77 / HAZZARD": [
         "u36"
       ],
-      "copy|The CHA2DS2-VASc \"adjusted stroke risk\" table (Table 77-7A, p1202, image) is non-monotonic as printed, and dips twice: score 6 → 9.8 %/year, score 7 → 9.6 %/year (a small dip), then score 8 → 6.7 %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.": [
-        "u32"
-      ],
       "copy|DOACs (Table 77-9, p1204–1205)": [
         "u41"
       ],
       "copy|Exam traps": [
         "u44"
+      ],
+      "copy|The CHA2DS2-VASc \"adjusted stroke risk\" table (Table 77-7A, p1202, image) is non-monotonic, and dips twice: score 6 → 9.8 %/year, score 7 → 9.6 %/year (a small dip), then score 8 → 6.7 %/year (a bigger dip, equal to score 5) — don't assume risk rises smoothly with each added point, and don't assume the 7→8 step is the only place it falls.": [
+        "u32"
       ]
     },
     "sequenceOffsets": [
@@ -27381,12 +27379,6 @@
       "copy|Skeletal muscle dysfunction in ~30%; sarcopenia in an estimated 22% (up to 63% in nursing-home residents) (p1241). Osteoporosis is a common COPD comorbidity and can further impair mobility (p1241 and Table 81-3, p1242).": [
         "u20"
       ],
-      "copy|COPD inhaled treatment: offer a short-acting rescue bronchodilator. Hazzard generally uses a LAMA first for long-acting bronchodilation. In Group D, high symptom burden, frequent exacerbations and blood eosinophils ≥300 cells/mL as printed support adding ICS to LABA (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]Current practice (not the book): GOLD 2026 generally favors LABA/LAMA for symptomatic group B or exacerbation-prone group E patients and considers LABA/LAMA/ICS in group E at eosinophils ≥300 cells/μL. Following exacerbations on LABA/LAMA, ICS benefit is more likely as the eosinophil count rises. Concomitant asthma requires an ICS-containing regimen. GOLD treatment algorithms.": [
-        "u24"
-      ],
-      "copy|ICS risks in older adults: 1.2–1.6-fold increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils <100 cells/mL as printed [sic — Table 81-7 uses cells/µL]); consider osteoporosis prevention during long-term treatment, especially given accelerated bone loss above 1000 mcg/day fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).": [
-        "u25"
-      ],
       "copy|LVRS candidates: FEV1 <50% predicted, RV >150–200% predicted, upper-lobe-predominant emphysema. Hazzard says surgical LVRS should be avoided when FEV1 or DLCO is <20% predicted and emphysema is homogeneous because postoperative mortality is higher (p1258).Current practice (not the book): NETT defined high risk as FEV1 ≤20% predicted plus either homogeneous emphysema or DLCO ≤20% predicted. NETT high-risk analysis.": [
         "u42"
       ],
@@ -27395,9 +27387,6 @@
       ],
       "copy|In the chapter’s GOLD framework, LAMA is generally the first long-acting bronchodilator.": [
         "u249"
-      ],
-      "copy|ICS with LABA reduces exacerbations and hospitalizations in Group D when eosinophils are ≥300 cells/mL as printed, symptoms are substantial and exacerbations frequent (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]": [
-        "u250"
       ],
       "copy|Current practice (not the book): GOLD 2027 recommends LABA plus LAMA as initial therapy for most group B and E patients and permits consideration of initial triple therapy for group E at ≥300 cells/µL.": [
         "u189"
@@ -27446,6 +27435,15 @@
       ],
       "table-81-14-nausea-vomiting|Table 81-14: Nausea/vomiting": [
         "u60"
+      ],
+      "copy|COPD inhaled treatment: offer a short-acting rescue bronchodilator. Hazzard generally uses a LAMA first for long-acting bronchodilation. In Group D, high symptom burden, frequent exacerbations and blood eosinophils ≥300 cells/mL in the text support adding ICS to LABA (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]Current practice (not the book): GOLD 2026 generally favors LABA/LAMA for symptomatic group B or exacerbation-prone group E patients and considers LABA/LAMA/ICS in group E at eosinophils ≥300 cells/μL. Following exacerbations on LABA/LAMA, ICS benefit is more likely as the eosinophil count rises. Concomitant asthma requires an ICS-containing regimen. GOLD treatment algorithms.": [
+        "u24"
+      ],
+      "copy|ICS risks in older adults: 1.2–1.6-fold increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils <100 cells/mL in the text [sic — Table 81-7 uses cells/µL]); consider osteoporosis prevention during long-term treatment, especially given accelerated bone loss above 1000 mcg/day fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).": [
+        "u25"
+      ],
+      "copy|ICS with LABA reduces exacerbations and hospitalizations in Group D when eosinophils are ≥300 cells/mL in the text, symptoms are substantial and exacerbations frequent (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]": [
+        "u250"
       ]
     },
     "sequenceOffsets": [
@@ -28137,9 +28135,6 @@
       "copy|Symptoms can be sparse and TSH is readily measured, but common subclinical findings have uncertain treatment benefits.": [
         "u226"
       ],
-      "copy|The cited USPSTF assessment finds insufficient evidence for routine screening.": [
-        "u227"
-      ],
       "copy|This does not prevent testing in a patient with compatible illness.": [
         "u228"
       ],
@@ -28230,14 +28225,8 @@
       "copy|For stable primary hypothyroidism with known coronary artery disease, start oral levothyroxine at 12.5–25 μg daily and titrate gradually according to cardiac symptoms and TSH (ATA section 4b).": [
         "u77"
       ],
-      "copy|Subclinical hyperthyroidism = low TSH, normal free T4/T3; prevalence 1-6%, persistence >50% on repeat testing. Repeat thyroid testing in 3–6 months. The chapter supports treating older adults with persistent subclinical hyperthyroidism to biochemical euthyroidism (p1551).Current practice (not the book): For adults aged 65 and older with endogenous subclinical hyperthyroidism, the ATA recommends treatment when TSH stays below 0.1 mU/L, and consideration of treatment when it remains between 0.1 mU/L and the lower reference limit. Consider symptoms, cardiac disease and osteoporosis. ATA recommendations 83 and 85.": [
-        "u19"
-      ],
       "copy|Full replacement dose in older adults is lower than the young-adult 1.6 μg/kg/day. Hazzard gives 25- and 50-μg tablets as reasonable starting doses in older adults (p1552).Current practice (not the book): ATA section 4b recommends 12.5–25 μg/day initially in patients with known CAD, with gradual titration to symptoms and TSH. ATA, section 4b.": [
         "u23"
-      ],
-      "copy|Subclinical hypothyroidism = high TSH, normal free T4; prevalence 4% general population, ~10% at 65+. Retest in 1-3 months if TSH 4.5–14.9 mIU/mL as printed, or 1–2 weeks if ≥15.0 mIU/mL (p1553). [sic — Figure 98-4 on p1554 gives the clinical unit mU/L.]": [
-        "u28"
       ],
       "copy|Myxedema coma: draw cortisol and initiate IV hydrocortisone before or with thyroid hormone. Hazzard gives levothyroxine 200–400 μg initially, then 75–100 μg/day, and cautions against rapid T3 exposure in older patients (p1553).Current practice (not the book): ATA specifies an IV loading dose and lower doses in older or smaller patients and those with CAD or arrhythmia. American Thyroid Association, recommendation 21a.": [
         "u30"
@@ -28293,6 +28282,15 @@
       ],
       "table-98-7|Table 98-7": [
         "u42"
+      ],
+      "copy|Subclinical hyperthyroidism = low TSH, normal free T4/T3; prevalence 1-6%, persistence >50% on repeat testing. Repeat thyroid testing in 3–6 months. For older adults with persistent subclinical hyperthyroidism, the treatment goal is biochemical euthyroidism (p1551).Current practice (not the book): For adults aged 65 and older with endogenous subclinical hyperthyroidism, the ATA recommends treatment when TSH stays below 0.1 mU/L, and consideration of treatment when it remains between 0.1 mU/L and the lower reference limit. Consider symptoms, cardiac disease and osteoporosis. ATA recommendations 83 and 85.": [
+        "u19"
+      ],
+      "copy|Subclinical hypothyroidism = high TSH, normal free T4; prevalence 4% general population, ~10% at 65+. Retest in 1-3 months if TSH 4.5–14.9 mIU/mL in the text, or 1–2 weeks if ≥15.0 mIU/mL (p1553). [sic — Figure 98-4 on p1554 gives the clinical unit mU/L.]": [
+        "u28"
+      ],
+      "copy|The USPSTF assessment finds insufficient evidence for routine screening.": [
+        "u227"
       ]
     }
   },
@@ -31116,9 +31114,6 @@
       "copy|In eligible patients, IV alteplase is 0.9 mg/kg up to 90 mg total. Give 10% as a bolus over one minute and the remainder over 60 minutes. Review hemorrhage risk and exclusions (p966, Activase prescribing information).": [
         "u6"
       ],
-      "copy|Earlier treatment is better. The chapter supports the selected 3–4.5-hour window and imaging-based selection for some wake-up/extended-window presentations (p967).": [
-        "u7"
-      ],
       "copy|Thrombectomy benefits selected disabling large-vessel occlusions; imaging-selected DAWN patients were 6–24 hours from last-known-well. Favorable tissue imaging is not a reason to delay treatment (p968–969).": [
         "u8"
       ],
@@ -31142,9 +31137,6 @@
       ],
       "copy|Suspected subarachnoid hemorrhage starts with CT; persistent suspicion after negative CT requires lumbar puncture (p978).": [
         "u15"
-      ],
-      "copy|Oral nimodipine 60 mg every 4 hours after SAH reduces delayed ischemia and mortality in the cited trials (p978).": [
-        "u16"
       ],
       "copy|Age alone does not negate reperfusion benefit; disabling deficits and eligibility matter. Incorporate rehabilitation, symptom control and palliative goals throughout care (p968–969, p978).": [
         "u17"
@@ -31188,9 +31180,6 @@
       "what-the-exams-asked|What the exams asked": [
         "u28"
       ],
-      "copy|Localize leg-predominant weakness, loss of initiative and urinary incontinence to the ACA — June 2023 Q76 and June 2022 Q44. The 2023 bibliography specifies Hazzard p958 and handbook p17. The handbook's ACA discussion is on p6.": [
-        "u29"
-      ],
       "copy|Distinguish right MCA neglect from a dominant left MCA language deficit — December 2021 Q86, June 2022 Q83, and June 2025 Q72. The 2025 question cites the stroke rehabilitation handbook.": [
         "u30"
       ],
@@ -31229,9 +31218,6 @@
       ],
       "copy|June 2025 Q11 asks about levodopa.": [
         "u42"
-      ],
-      "copy|Its bibliography names Chapter 61 and prints both pp943 and 964.": [
-        "u43"
       ],
       "copy|The Parkinson treatment passage explains the motor complications.": [
         "u44"
@@ -31688,6 +31674,18 @@
       ],
       "copy|CHAPTER 62 / HAZZARD": [
         "u20"
+      ],
+      "copy|Localize leg-predominant weakness, loss of initiative and urinary incontinence to the ACA — June 2023 Q76 and June 2022 Q44. The ACA syndrome is described on Hazzard p958; handbook p17 deals with the brainstem. The handbook's ACA discussion is on p6.": [
+        "u29"
+      ],
+      "copy|Earlier treatment is better. Selected patients benefit within 3–4.5 hours; imaging can identify candidates with wake-up stroke or an extended treatment window (p967).": [
+        "u7"
+      ],
+      "copy|Oral nimodipine 60 mg every 4 hours after SAH reduces delayed ischemia and mortality in clinical trials (p978).": [
+        "u16"
+      ],
+      "copy|The Parkinson treatment pages begin on p943; p964 concerns other causes of stroke.": [
+        "u43"
       ]
     },
     "maxId": 179
@@ -45163,9 +45161,6 @@
       "copy|Geriatric assessment reduced serious treatment toxicity in the two trials summarized on p1388: 718 patients, 20-percentage-point absolute reduction and 620 randomized patients, 10% reduction.": [
         "u20"
       ],
-      "copy|Surgery: healing can be compromised at every phase, including inflammatory and proliferative responses and collagen remodeling. The chapter reports that geriatric comanagement can improve 90-day postoperative mortality (pp1388–1389).Current practice (not the book): The cited retrospective cohort of cancer surgery patients aged ≥75 found an association with lower 90-day mortality. Original surgical cohort.": [
-        "u23"
-      ],
       "copy|Routine symptom assessment and intervention during cancer treatment can improve overall survival by upwards of five months without changing cancer therapy, according to the chapter (p1391).Current practice (not the book): In one trial of electronic symptom monitoring during treatment, median survival was 31.2 versus 26.0 months. A later community trial found better symptom control, function and quality of life without a survival difference. Symptom monitoring can help even when survival is unchanged. Original trial · PRO-TECT": [
         "u31"
       ],
@@ -45228,6 +45223,9 @@
       ],
       "exam-traps|Exam traps": [
         "u39"
+      ],
+      "copy|Surgery: healing can be compromised at every phase, including inflammatory and proliferative responses and collagen remodeling. The chapter reports that geriatric comanagement can improve 90-day postoperative mortality (pp1388–1389).Current practice (not the book): The retrospective cohort of cancer surgery patients aged ≥75 found an association with lower 90-day mortality. Original surgical cohort.": [
+        "u23"
       ]
     },
     "maxId": 194,
@@ -53657,9 +53655,6 @@
       "copy|5.": [
         "u32"
       ],
-      "copy|What did the cited noncancer palliative-care meta-analysis associate with palliative care?": [
-        "u33"
-      ],
       "copy|6.": [
         "u34"
       ],
@@ -53768,6 +53763,9 @@
       ],
       "copy|CHAPTER 67 / HAZZARD": [
         "u26"
+      ],
+      "copy|What did the noncancer palliative-care meta-analysis associate with palliative care?": [
+        "u33"
       ]
     },
     "maxId": 212,
@@ -53925,9 +53923,6 @@
       ],
       "copy|2026 Q64 trap (p701–702): diarrhea with abdominal distension/reduced output in a demented elder → think fecal impaction (laxatives), not infection.": [
         "u42"
-      ],
-      "copy|As printed (p712–713): the drug table spells \"Solifenancin\" (sic) for solifenacin; left as printed.": [
-        "u43"
       ],
       "recall|Recall": [
         "u45"
@@ -54306,7 +54301,10 @@
       "copy|The official answers follow the post-appeal key 899478.": [
         "u104"
       ],
-      "copy|The cited pages explain the answers.": [
+      "copy|Table 47-12 (pp712–713) spells \"Solifenancin\" (sic) for solifenacin; the intended generic name is solifenacin.": [
+        "u43"
+      ],
+      "copy|The page references link each answer to its clinical rationale.": [
         "u105"
       ]
     },
@@ -59319,9 +59317,6 @@
       "copy|Anticonvulsants (\"mood stabilizers\") are generally disappointing: valproate is ineffective and poorly tolerated; carbamazepine helped in one small trial but is a potent enzyme inducer with marrow-toxicity risk (p930).": [
         "u42"
       ],
-      "copy|The chapter's own text lists cholinesterase-inhibitor side effects as \"eight loss\" — a printing error for \"weight loss\" (correctly spelled in Table 60-9, p929); left as printed on p931.": [
-        "u44"
-      ],
       "copy|The 2026 exam paper misspells drug names (OLAZAPINE, Quentapine, Bopropion) — these are Olanzapine, Quetiapine, and Bupropion; don't let the spelling throw you (see reproduced questions below).": [
         "u45"
       ],
@@ -59578,10 +59573,6 @@
       "copy|What is the recommended approach to continuing treatment?": [
         "u133"
       ],
-      "copy|As printed on the paper.": [
-        "u134",
-        "u148"
-      ],
       "copy|\"OLAZAPINE\" is the paper's spelling; the book prints \"Olanzapine\" (Table 60-8, p928).": [
         "u135"
       ],
@@ -59747,6 +59738,13 @@
       ],
       "copy|These English translations cover the 2026 exam questions on dementia care.": [
         "u125"
+      ],
+      "copy|The chapter's own text lists cholinesterase-inhibitor side effects as \"eight loss\" — a printing error for \"weight loss\" (correctly spelled in Table 60-9, p929); p931 uses the misspelling.": [
+        "u44"
+      ],
+      "copy|Exam spelling.": [
+        "u134",
+        "u148"
       ]
     },
     "maxId": 337,
@@ -63957,9 +63955,6 @@
       "copy|Geriatric care can use observation units, focused practitioners or local clinical leaders instead of a dedicated physical ED. Observation allows response assessment, tests/consults and transition planning (p218).": [
         "u75"
       ],
-      "copy|Transitional-care nursing can reduce admission/readmission while increasing early returns; specialized nurses and volunteer models require training, leadership and quality control. Telemedicine and technology-assisted screening are emerging approaches whose proposed uses still require evaluation. Sustainable care depends on local, collaborative and patient-centered improvement (p219). Further-reading bibliography continues on p220; it is not additional clinical teaching.": [
-        "u76"
-      ],
       "recall|Recall": [
         "u77"
       ],
@@ -64164,9 +64159,6 @@
       "ch15-table15-3|Book table: all delirium vulnerabilities and precipitants (p210)": [
         "u150"
       ],
-      "ch15-figure15-2a|Book figure: bCAM panel as printed (p210)": [
-        "u151"
-      ],
       "ch15-figure15-2b|Book figure: 4AT scoring and abbreviated RASS panel (p211)": [
         "u152"
       ],
@@ -64196,9 +64188,6 @@
       "copy|Treat the precipitant and communicate with inpatient teams. Discharging a patient with untreated delirium invites return visits. Implementation, differing tools across services and limited ED intervention evidence impede improvement (pp211–212).": [
         "u49"
       ],
-      "copy|To interpret sleepiness, determine whether it clears in less than 10 seconds after waking, as printed in the 4AT (Figure 15-2, p211).": [
-        "u195"
-      ],
       "copy|Clinical CAM requires acute onset and fluctuating course (Ch 58 p880) and inattention plus disorganized thinking or altered consciousness.": [
         "u199"
       ],
@@ -64208,8 +64197,17 @@
       "copy|CHAPTER 15 / HAZZARD": [
         "u81"
       ],
-      "copy|As printed: the RASS panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel shows only part of the RASS scale.": [
+      "copy|RASS screening: the panel says a nonzero score equals delirium. Treat this as the figure's screening shorthand, not a stand-alone diagnosis; the book's delirium chapter requires assessment of attention, acuity and cognitive change (Chapter 58, pp879–880). The abbreviated panel shows only part of the RASS scale.": [
         "u48"
+      ],
+      "copy|Transitional-care nursing can reduce admission/readmission while increasing early returns; specialized nurses and volunteer models require training, leadership and quality control. Telemedicine and technology-assisted screening are emerging approaches whose proposed uses still require evaluation. Sustainable care depends on local, collaborative and patient-centered improvement (p219). Further reading on these models continues on p220.": [
+        "u76"
+      ],
+      "copy|To interpret sleepiness, determine whether it clears in less than 10 seconds after waking, according to the 4AT (Figure 15-2, p211).": [
+        "u195"
+      ],
+      "ch15-figure15-2a|Book figure: bCAM panel (p210)": [
+        "u151"
       ]
     },
     "maxId": 278,
@@ -68335,12 +68333,6 @@
       "what-the-exams-asked|What the exams asked": [
         "u27"
       ],
-      "copy|Why a family history matters and what a clinic screen can tell you — September 2024 Q30. The bibliography names Chapter 34 without a page.": [
-        "u28"
-      ],
-      "copy|Which Hebrew word loses the most distinctive consonant cues in high-frequency loss — June 2025 Q26. The bibliography specifies Hazzard p495.": [
-        "u29"
-      ],
       "copy|When poor speech understanding despite well-fitted hearing aids warrants a cochlear implant evaluation — June 2026 Q39. The item cites an article. P005-2026 assigns the NEJM review separately from the excluded textbook chapter.": [
         "u30"
       ],
@@ -68403,9 +68395,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u375"
-      ],
-      "copy|2026-Jun Q39 — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.": [
-        "u376"
       ],
       "copy|2025-Jun Q26 — Printed page 495.": [
         "u377"
@@ -69071,6 +69060,15 @@
       ],
       "copy|No. The observational association cannot establish that treating hearing loss prevents dementia (p500).": [
         "u361"
+      ],
+      "copy|Why a family history matters and what a clinic screen can tell you — September 2024 Q30. Family history is relevant even when loss is first noticed late in life.": [
+        "u28"
+      ],
+      "copy|Which Hebrew word loses the most distinctive consonant cues in high-frequency loss — June 2025 Q26. High-frequency loss particularly affects consonant discrimination (p495).": [
+        "u29"
+      ],
+      "copy|2026-Jun Q39 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u376"
       ]
     },
     "maxId": 380
@@ -73558,9 +73556,6 @@
       "copy|Do not withhold chemotherapy solely because of age; consider tumor extent, symptoms, expected benefit and toxicity (p1403).": [
         "u13"
       ],
-      "copy|Prevention with estrogen-directed drugs can reduce breast-cancer occurrence, but the cited prevention trials did not show a survival advantage (p1405).": [
-        "u14"
-      ],
       "copy|The authors reserve preventive drug consideration for a few high-risk older patients with at least 10 years estimated life expectancy (p1405).": [
         "u15"
       ],
@@ -73640,6 +73635,9 @@
       ],
       "copy|CHAPTER 89 / HAZZARD": [
         "u24"
+      ],
+      "copy|Prevention with estrogen-directed drugs can reduce breast-cancer occurrence, but the prevention trials did not show a survival advantage (p1405).": [
+        "u14"
       ]
     },
     "maxId": 192,
@@ -81383,38 +81381,14 @@
       "copy|A paragraph that runs over a page turn carries the turn inline where it happens.": [
         "u380"
       ],
-      "copy|As printed, not corrected.": [
-        "u381"
-      ],
-      "copy|Book errors are flagged under the table they occur in (99-11, 99-12).": [
-        "u382"
-      ],
       "copy|The superscript asterisk after \"Endocrine Society\" in the source lines is the book's.": [
-        "u383"
+        "u391"
       ],
       "copy|2026 exam.": [
-        "u384"
-      ],
-      "copy|Five questions of the 2026 specialist sitting were sourced to this chapter: Q6, Q25, Q37, Q49, Q59 (IMA reference list 885647).": [
-        "u385"
-      ],
-      "copy|Their pages are flagged inline with ⟨2026⟩; the questions are at the end.": [
-        "u386"
-      ],
-      "copy|Currency — declared gap (chapter).": [
-        "u387"
+        "u381"
       ],
       "copy|The chapter cites the ADA 2021 Standards of Care and the 2019 Endocrine Society guideline.": [
-        "u388"
-      ],
-      "copy|Later editions are not held here, so no statement below is marked superseded.": [
-        "u389"
-      ],
-      "copy|Where a table is a catalogue as of press (99-6, 99-11, 99-12) the gap is declared at that table; sentences that rank agents (\"first-line\") carry their own marker.": [
-        "u390"
-      ],
-      "copy|The book is the examiners' reference for questions sourced to it.": [
-        "u391"
+        "u385"
       ],
       "copy|Diabetes mellitus is a common metabolic disorder affecting older people.": [
         "u392"
@@ -82603,12 +82577,6 @@
       "copy|As all of these drugs result in modest weight loss (especially the GLP-1 agonists) and lower BP, the positive CVD outcomes observed cannot be ascribed solely to their glucose-lowering effects.": [
         "u783"
       ],
-      "copy|As printed. \"pwarticipants\" (sic): the book spells it \"participants\" on p1566.": [
-        "u784"
-      ],
-      "copy|Left as printed.": [
-        "u785"
-      ],
       "copy|Table 99-6 — Conceptual framework for considering overall health and patient values in determining clinical targets in adults aged 65 and older (printed 1571)": [
         "u786"
       ],
@@ -82656,19 +82624,8 @@
       "copy|Abbreviations: IADL, instrumental activity of daily living; ADL, activity of daily living; SU, sulfonylurea.": [
         "u800"
       ],
-      "copy|Currency — declared gap (table frame).": [
-        "u805",
-        "u1019",
-        "u1032"
-      ],
       "copy|Targets as given by the 2019 Endocrine Society guideline the table reproduces.": [
         "u806"
-      ],
-      "copy|Later editions of that guideline or of the ADA Standards are not held here.": [
-        "u807"
-      ],
-      "copy|2026 Q25 and Q37 were keyed to this table as printed.": [
-        "u808"
       ],
       "copy|Dyslipidemia (see Table 99-8) There are no large trials of lipid-lowering interventions specifically in older adults with diabetes.": [
         "u809"
@@ -83153,19 +83110,11 @@
       "copy|However, high cost may be a barrier for patients to obtain newer classes of medications such as SGLT-2 inhibitors, DPP4 inhibitors, GLP-1 agonists, or long-acting insulin.": [
         "u973"
       ],
-      "copy|As printed — the book against itself.": [
-        "u974",
-        "u1009"
-      ],
       "copy|This paragraph says \"only insulin and sulfonylureas pose a significant risk for hypoglycemia\".": [
         "u975"
       ],
       "copy|Table 99-6 (p. 1571) names the drugs that may cause hypoglycemia as \"insulin, sulfonylurea, glinides\", and Table 99-11 (p. 1578) lists \"Hypoglycemia\" first among the meglitinides' disadvantages.": [
         "u976"
-      ],
-      "copy|Shown as printed; not reconciled.": [
-        "u977",
-        "u1013"
       ],
       "copy|Noninsulin Agents A growing number of medications other than insulin are available for hyperglycemia management of older adults with diabetes mellitus.": [
         "u978"
@@ -83215,15 +83164,6 @@
       "copy|Monitoring of renal function and perhaps dose adjustment of metformin to account for reduced renal clearance is highly appropriate for older diabetes patients with CKD.": [
         "u993"
       ],
-      "copy|Currency — declared gap.": [
-        "u994"
-      ],
-      "copy|This sentence ranks agents.": [
-        "u995"
-      ],
-      "copy|Whether later guidance still ranks metformin this way is not checked here; no post-press source is held.": [
-        "u996"
-      ],
       "copy|Sulfonylurea drugs.": [
         "u997"
       ],
@@ -83245,9 +83185,6 @@
       "copy|The column labels \"Route\" and \"Agents and usual daily dosage\" are the reader's, not the book's.": [
         "u1003"
       ],
-      "copy|As printed — agents and doses are not aligned on the page.": [
-        "u1004"
-      ],
       "copy|The book sets the agent names and the dose lines as two separate columns.": [
         "u1005"
       ],
@@ -83260,39 +83197,20 @@
       "copy|Classes whose columns do align are shown agent ‖ dose.": [
         "u1008"
       ],
-      "copy|The DPP-4 inhibitor row prints \"↑ Glucagon secretion (glucose-dependent)\" (checked at 300 dpi).": [
-        "u1010"
-      ],
       "copy|The GLP-1 row directly below prints \"↓ Glucagon secretion (glucose-dependent)\".": [
         "u1011"
       ],
       "copy|The text on p. 1579 says DPP-4 inhibitors \"increase and prolong the action of endogenous incretin hormones\", and on p. 1580 that GLP-1 agonists \"also suppress glucagon secretion\".": [
         "u1012"
       ],
-      "copy|As printed.": [
-        "u1014",
-        "u1027"
-      ],
       "copy|The caption reads \"(CONTINUED)\" on the table's first page (1577) as well as on 1578.": [
         "u1015"
-      ],
-      "copy|\"Vildagliptina\" and \"Alogliptinc\" are printed with the footnote letters (a, c) at full size, run into the names (publisher text layer and page image agree).": [
-        "u1016"
       ],
       "copy|Saxagliptin dose prints as \"2.5 5 mg qd\"; vildagliptin as \"50 mg qd BID\"; glipizide as \"2.5–10 mg qd BID\"; the thiazolidinedione row prints \"Edema/heart failure (avoid in renal impairment\" with no closing parenthesis.": [
         "u1017"
       ],
-      "copy|All left as printed.": [
-        "u1018"
-      ],
       "copy|This table is the catalogue of agents, doses and renal thresholds as of the book's press date.": [
         "u1020"
-      ],
-      "copy|Agents approved, doses relabelled, or renal thresholds revised after press have not been checked; no post-press source is held.": [
-        "u1021"
-      ],
-      "copy|Questions sourced to this table (2026 Q59) use the book's values.": [
-        "u1022"
       ],
       "copy|Table 99-12 — Insulin for treatment of type 2 diabetes (printed 1579)": [
         "u1023"
@@ -83309,17 +83227,8 @@
       "copy|Glargine 100 duration prints as \"20–> 24 h\"; Lispro 50/50 as \"1 – 5 h\" and \"11– 22 h\".": [
         "u1028"
       ],
-      "copy|As printed — Rapid acting.": [
-        "u1029"
-      ],
       "copy|The page prints one set of values (\"5–15 min\", \"45–75 min\", \"2–4 h\") level with Lispro; the Aspart and Glulisine lines carry no values.": [
         "u1030"
-      ],
-      "copy|The page does not say whether Lispro's values also apply to them; the empty cells are the page's, not missing data, and are not filled here.": [
-        "u1031"
-      ],
-      "copy|Insulin products as of press; later products not checked; no post-press source is held.": [
-        "u1033"
       ],
       "copy|(The paragraph above, from p. 1576, runs on here; pages 1577–1578 carry only Table 99-11.)": [
         "u1034"
@@ -84113,9 +84022,6 @@
       "copy|October 2013.": [
         "u1297"
       ],
-      "copy|Currency — declared gap (table frame), on the book's own evidence.": [
-        "u1298"
-      ],
       "copy|The table cites Diabetes UK, End of life diabetes care, \"2nd ed.": [
         "u1299"
       ],
@@ -84124,12 +84030,6 @@
       ],
       "copy|The text on this page says: \"The UK Diabetes recommendations were last updated in November, 2021.\"": [
         "u1301"
-      ],
-      "copy|So the book itself records a later edition.": [
-        "u1302"
-      ],
-      "copy|Its content is not held here, so nothing is marked superseded.": [
-        "u1303"
       ],
       "copy|When an older adult with diabetes is transitioning to palliative care or end-of-life care, the patient and the provider may choose to modify the diabetes treatment goals and intensity of care.": [
         "u1304"
@@ -84628,6 +84528,102 @@
       ],
       "copy|About this chapter": [
         "u1498"
+      ],
+      "copy|Five questions of the 2026 specialist sitting tested this chapter: Q6, Q25, Q37, Q49, Q59 (IMA reference list 885647).": [
+        "u382"
+      ],
+      "copy|The questions follow the clinical text.": [
+        "u383"
+      ],
+      "copy|Guideline date.": [
+        "u384",
+        "u805",
+        "u1019",
+        "u1032"
+      ],
+      "copy|The recommendations refer to those editions.": [
+        "u386"
+      ],
+      "copy|Tables 99-6, 99-11 and 99-12 describe treatment targets, drug choices and insulins available at publication.": [
+        "u387"
+      ],
+      "copy|Use these historical targets for questions that specify this edition.": [
+        "u388"
+      ],
+      "copy|Terminology.": [
+        "u389"
+      ],
+      "copy|Tables 99-11 and 99-12 contain discrepancies in drug names and dose formatting.": [
+        "u390"
+      ],
+      "copy|Printed wording. \"pwarticipants\" (sic): the book spells it \"participants\" on p1566.": [
+        "u784"
+      ],
+      "copy|Use the standard spelling when identifying the term.": [
+        "u785"
+      ],
+      "copy|These targets refer to the 2019 guideline.": [
+        "u807"
+      ],
+      "copy|The official answers to 2026 Q25 and Q37 use this table.": [
+        "u808"
+      ],
+      "copy|Table and text.": [
+        "u974",
+        "u1009"
+      ],
+      "copy|The two descriptions differ.": [
+        "u977",
+        "u1013"
+      ],
+      "copy|Evidence at publication.": [
+        "u994"
+      ],
+      "copy|Metformin is placed first in this treatment sequence.": [
+        "u995"
+      ],
+      "copy|That ranking refers to the guidance in use at publication.": [
+        "u996"
+      ],
+      "copy|Drug names and dose columns.": [
+        "u1004"
+      ],
+      "copy|The DPP-4 inhibitor row prints \"↑ Glucagon secretion (glucose-dependent)\".": [
+        "u1010"
+      ],
+      "copy|Printed wording.": [
+        "u1014",
+        "u1027"
+      ],
+      "copy|\"Vildagliptina\" and \"Alogliptinc\" are printed with the footnote letters (a, c) at full size, run into the names.": [
+        "u1016"
+      ],
+      "copy|The footnote letters are not part of the generic drug names.": [
+        "u1018"
+      ],
+      "copy|Current product labeling may differ in indications, doses or renal thresholds.": [
+        "u1021"
+      ],
+      "copy|The 2026 Q59 answer uses the values in this table.": [
+        "u1022"
+      ],
+      "copy|Rapid-acting insulin.": [
+        "u1029"
+      ],
+      "copy|The page does not say whether Lispro's values also apply to them; the cells for those two insulins are blank.": [
+        "u1031"
+      ],
+      "copy|The insulin products listed were available at publication.": [
+        "u1033"
+      ],
+      "copy|End-of-life diabetes guidance.": [
+        "u1298"
+      ],
+      "copy|The 2021 update postdates the table.": [
+        "u1302"
+      ],
+      "copy|The table therefore describes the 2013 recommendations.": [
+        "u1303"
       ]
     },
     "maxId": 1498
@@ -84649,9 +84645,6 @@
       ],
       "copy|Hypertension and diabetes accelerate age-related changes. Increasing survival into old age contributes to the growing number receiving kidney replacement therapy, beyond greater willingness to offer treatment (p1267).": [
         "u5"
-      ],
-      "copy|The cited US data report ESKD treatment initiation of approximately 1.27 per 1000 at ages 65–69, 1.43 per 1000 at 70–75, and a peak of 1.82 per 1000 at 80–84. Over the preceding 10 years, replacement therapy increased 35% in those 75 or older and 43% in those older than 80 (p1267).": [
-        "u6"
       ],
       "copy|Human kidney mass and size eventually decline; rat kidney weight increases throughout life. Animal findings cannot simply be applied to humans. This page places peak human mass/size in the fourth decade; the later gross-anatomy paragraph places maximum weight/volume in the third decade (p1267; p1271). The shared conclusion is subsequent loss of renal mass, predominantly cortex (p1271).": [
         "u7"
@@ -84692,9 +84685,6 @@
       ],
       "copy|CKD requires kidney damage or reduced function for 3 or more months. Kidney failure means GFR <15 mL/min or need for kidney replacement therapy. Damage, primarily proteinuria in this discussion, can coexist with preserved filtration (p1269).": [
         "u19"
-      ],
-      "copy|Table 82-1, as printed (GFR in mL/min/1.73 m²): stage 1, kidney damage with normal/increased GFR >90; stage 2, kidney damage with GFR 60–89; stage 3, 30–59, subdivided into 3A 45–59 and 3B 30–44; stage 4, 15–29; stage 5, <15 or dialysis (p1269). The table prints >90, rather than an inclusive boundary (p1269).": [
-        "u20"
       ],
       "copy|The complete complication list is hypertension, anemia, increased cardiovascular mortality/morbidity, calcium/phosphorus disorders, compromised nutrition, metabolic bone disease, neuropathy, impaired functioning/well-being, and depression (Table 82-2, p1269).": [
         "u21"
@@ -84945,6 +84935,12 @@
       ],
       "copy|CHAPTER 82 / HAZZARD": [
         "u61"
+      ],
+      "copy|The US data report ESKD treatment initiation of approximately 1.27 per 1000 at ages 65–69, 1.43 per 1000 at 70–75, and a peak of 1.82 per 1000 at 80–84. Over the preceding 10 years, replacement therapy increased 35% in those 75 or older and 43% in those older than 80 (p1267).": [
+        "u6"
+      ],
+      "copy|Table 82-1 (GFR in mL/min/1.73 m²): stage 1, kidney damage with normal/increased GFR >90; stage 2, kidney damage with GFR 60–89; stage 3, 30–59, subdivided into 3A 45–59 and 3B 30–44; stage 4, 15–29; stage 5, <15 or dialysis (p1269). The table prints >90, rather than an inclusive boundary (p1269).": [
+        "u20"
       ]
     }
   },
@@ -86206,9 +86202,6 @@
       "copy|In community-dwelling men the estimate is about 5%, rising to 20% after 80.": [
         "u133"
       ],
-      "copy|In long-term care the cited estimates across men and women are roughly 15% to 50%.": [
-        "u134"
-      ],
       "copy|These figures explain why the same positive result can be particularly unhelpful in a nursing-home resident with a nonspecific change.": [
         "u135"
       ],
@@ -86575,9 +86568,6 @@
       "copy|Irritation, burning and itching were generally mild in that report.": [
         "u256"
       ],
-      "copy|The chapter supports considering vaginal estrogen for recurrent infection and coordinating with oncology when there is a personal history or high risk of estrogen-dependent malignancy.": [
-        "u257"
-      ],
       "copy|It does not infer that systemic estrogen has the same preventive effect (p1713).": [
         "u258"
       ],
@@ -86706,6 +86696,12 @@
       ],
       "copy|. (p1711)": [
         "u306"
+      ],
+      "copy|In long-term care the estimates across men and women are roughly 15% to 50%.": [
+        "u134"
+      ],
+      "copy|Consider vaginal estrogen for recurrent infection and coordinate with oncology when there is a personal history or high risk of estrogen-dependent malignancy.": [
+        "u257"
       ]
     }
   },
@@ -86902,14 +86898,8 @@
       "copy|2025-Jun Q34 — Printed page 141.": [
         "u74"
       ],
-      "copy|2025-Jun Q62 — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.": [
-        "u75"
-      ],
       "copy|2024-May Q4 — Printed page 143.": [
         "u76"
-      ],
-      "copy|2024-Sep Q37 — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.": [
-        "u77"
       ],
       "recall-drill|Recall drill": [
         "u78"
@@ -87476,6 +87466,12 @@
       ],
       "copy|The Achilles reflex may diminish or disappear while knee reflexes persist. An extensor plantar response indicates upper motor neuron pathology. (p133–134, p147)": [
         "u275"
+      ],
+      "copy|2025-Jun Q62 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u75"
+      ],
+      "copy|2024-Sep Q37 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u77"
       ]
     }
   },
@@ -87890,9 +87886,6 @@
       "copy|Its short form uses 10 items, with 2 positive responses warranting assessment.": [
         "u138"
       ],
-      "copy|The chapter reports sensitivity 95% and specificity 78% for the longer instrument in the cited work.": [
-        "u139"
-      ],
       "copy|CAGE addresses a different question: it can identify lifetime problems but performs poorly for binge use and cannot reliably distinguish remote from current difficulties.": [
         "u140"
       ],
@@ -88233,6 +88226,9 @@
       ],
       "copy|Use and related harms can recur. Reassess goals, progress, medications and need for additional psychosocial or specialty support (p321, p323–324).": [
         "u262"
+      ],
+      "copy|The chapter reports sensitivity 95% and specificity 78% for the longer instrument in the work.": [
+        "u139"
       ]
     }
   },
@@ -88898,9 +88894,6 @@
       "copy|A transient provocation such as surgery or trauma usually supports a 3-month course in the chapter.": [
         "u236"
       ],
-      "copy|After unprovoked VTE, recurrence approached 20% at 2 years and 30% at 8 years in the cited data.": [
-        "u237"
-      ],
       "copy|For extended therapy revisit the benefit and bleeding risk periodically, especially as renal function, other prescriptions or independence change.": [
         "u238"
       ],
@@ -89115,6 +89108,9 @@
       ],
       "copy|Review the need for antiplatelet therapy and NSAIDs. Remove unnecessary antiplatelet treatment and consider an alternative analgesic where appropriate. (p1522)": [
         "u318"
+      ],
+      "copy|After unprovoked VTE, recurrence approached 20% at 2 years and 30% at 8 years in that cohort.": [
+        "u237"
       ]
     }
   },
@@ -95770,9 +95766,6 @@
       "copy|Ask the patient to explain the illness, the purpose of the proposed intervention and the consequence of declining it in their own words.": [
         "u72"
       ],
-      "copy|A verbatim repetition of the consent form can conceal an inability to make that link.": [
-        "u73"
-      ],
       "copy|Use follow-up questions rather than rewarding familiarity with a clinical term (p152).": [
         "u74"
       ],
@@ -96308,6 +96301,9 @@
       ],
       "copy|Seek assent and attend to preferences or distress, alongside the surrogate's informed decision; cooperation may be essential to the intervention (p155).": [
         "u261"
+      ],
+      "copy|Repeating the consent form word for word can conceal an inability to make that link.": [
+        "u73"
       ]
     }
   },
@@ -98669,9 +98665,6 @@
       "copy|The chapter gives two examples of what is lost.": [
         "u55"
       ],
-      "copy|Approximately one-third of patients left with pending tests that were not communicated to the next setting in the cited evidence, and at least 10% of those could have led to a change in care.": [
-        "u56"
-      ],
       "copy|Medication errors or discrepancies affected 30%–50% after hospitalization.": [
         "u57"
       ],
@@ -98704,9 +98697,6 @@
       ],
       "copy|Table 18-1 illustrates this with physician visits at least every 30 days during the first 90 days, then every 60 days in its U.S. framework.": [
         "u67"
-      ],
-      "copy|In many facilities the cited average stay was 14–25 days, although the individual course varies.": [
-        "u68"
       ],
       "copy|Orders must therefore work between medical visits, and staff must have a way to reach someone who can respond to deterioration.": [
         "u69"
@@ -99192,6 +99182,12 @@
       ],
       "copy|Baseline cognition, behavior and function, caregiver and support needs, goals of care and the possible harms of a change in setting (p253, p257, p259–260).": [
         "u239"
+      ],
+      "copy|Approximately one-third of patients left with pending tests that were not communicated to the next setting in the evidence, and at least 10% of those could have led to a change in care.": [
+        "u56"
+      ],
+      "copy|In many facilities the average stay was 14–25 days, although the individual course varies.": [
+        "u68"
       ]
     }
   },
@@ -100667,9 +100663,6 @@
       "copy|Vitamin E does not prevent MCI progression; some high-dose meta-analyses suggest increased mortality (p335).": [
         "u9"
       ],
-      "copy|Glucosamine/chondroitin: generally not recommended for osteoarthritis in the cited guidance; hand-OA chondroitin is a conditional exception, 800 mg/day in one trial (p335).": [
-        "u10"
-      ],
       "copy|SAM-e: 200–1600 mg/day in divided doses depending on indication/route; empty-stomach absorption and possible mania matter (p335-336).": [
         "u11"
       ],
@@ -101126,9 +101119,6 @@
       "copy|Among older adults in the studies described, adding manipulation to home exercise produced some improvements in pain.": [
         "u162"
       ],
-      "copy|Extending a combined program from 12 to 36 weeks did not produce an additional important disability reduction in the cited comparison, although some secondary outcomes improved.": [
-        "u163"
-      ],
       "copy|Nonserious musculoskeletal symptoms can follow treatment, and rare serious events are a specific concern with cervical manipulation.": [
         "u164"
       ],
@@ -101391,6 +101381,12 @@
       ],
       "copy|Review gait and home safety, orthostasis and sedating or nonessential medicines, and consider physical therapy aligned with the patient's goals. (p343)": [
         "u260"
+      ],
+      "copy|Glucosamine/chondroitin: generally not recommended for osteoarthritis in the guidance; hand-OA chondroitin is a conditional exception, 800 mg/day in one trial (p335).": [
+        "u10"
+      ],
+      "copy|Extending a combined program from 12 to 36 weeks did not produce an additional important disability reduction in the comparison, although some secondary outcomes improved.": [
+        "u163"
       ]
     }
   },
@@ -102601,9 +102597,6 @@
       "copy|Ketorolac adds renal and gastrointestinal concerns, while indomethacin has particular CNS adverse effects.": [
         "u151"
       ],
-      "copy|Gabapentin requires dose reduction with a GFR below 60 in the table and is flagged for avoidance in end-stage renal disease; meperidine is flagged especially in chronic kidney disease because of its metabolite (p392).": [
-        "u152"
-      ],
       "copy|For postoperative nausea and vomiting, distinguish the proposed agent's antiemetic benefit from its cognitive and motor effects.": [
         "u153"
       ],
@@ -102666,9 +102659,6 @@
       ],
       "copy|The chapter cites complication rates up to 20% in its TAVR material, including approximately 2% stroke, 3.6% significant postprocedural leak and 6% major bleeding.": [
         "u173"
-      ],
-      "copy|The figures describe the cited experience at the time of the book, not a contemporary risk calculator for a particular device or center (p393–394).": [
-        "u174"
       ],
       "copy|Mitral regurgitation can reflect primary valve disease or an effect of ventricular dysfunction.": [
         "u175"
@@ -102941,6 +102931,12 @@
       ],
       "copy|Discuss permissible measures and goals with patient or surrogate and team, and document any modification and when it ends (p395–396).": [
         "u274"
+      ],
+      "copy|Gabapentin requires dose reduction with a GFR below 60 in the table and should be avoided in end-stage renal disease; meperidine is particularly problematic in chronic kidney disease because of its metabolite (p392).": [
+        "u152"
+      ],
+      "copy|The figures describe the experience at the time of the book, not a contemporary risk calculator for a particular device or center (p393–394).": [
+        "u174"
       ]
     }
   },
@@ -103568,9 +103564,6 @@
       "copy|8.": [
         "u207"
       ],
-      "copy|What proportion had loss of independence in the cited surgical cohort?": [
-        "u208"
-      ],
       "copy|9.": [
         "u209"
       ],
@@ -103648,9 +103641,6 @@
       "copy|Delirium, dehydration, falls or fractures, failure to thrive and pressure injury (p400).": [
         "u233"
       ],
-      "copy|Shorter admissions and fewer complications and deaths in the cited experience (p399–401).": [
-        "u235"
-      ],
       "copy|Less ability to manage everyday activities or mobility, an increased need for help at home, or discharge to an institution (p401–402).": [
         "u237"
       ],
@@ -103665,9 +103655,6 @@
       ],
       "copy|It was associated with delayed functional recovery, as was readmission related to surgery (p401).": [
         "u243"
-      ],
-      "copy|Unplanned admission in the cited large cohort (p400).": [
-        "u245"
       ],
       "copy|Delirium. Perioperative care adjustments may prevent up to": [
         "u247"
@@ -103689,6 +103676,15 @@
       ],
       "copy|Baseline function, cognition, mobility and falls, living arrangements, available caregivers, who can give consent and the patient's goals (p403–404).": [
         "u257"
+      ],
+      "copy|What proportion had loss of independence in the surgical cohort?": [
+        "u208"
+      ],
+      "copy|Shorter admissions and fewer complications and deaths in that patient series (p399–401).": [
+        "u235"
+      ],
+      "copy|Unplanned admission in the large cohort (p400).": [
+        "u245"
       ]
     }
   },
@@ -104713,9 +104709,6 @@
       "copy|The older exam about a pathologic change uses the contrast between these changes of normal aging and a marked acuity deficit.": [
         "u77"
       ],
-      "copy|The cited age-82 measurements above show exactly why illumination and contrast must be specified before comparing acuities (p471–472).": [
-        "u78"
-      ],
       "copy|Use Table 33-2 to distinguish where visual information has been lost.": [
         "u79"
       ],
@@ -105043,9 +105036,6 @@
       "copy|3.": [
         "u187"
       ],
-      "copy|How did lighting change measured acuity in the cited age-82 sample?": [
-        "u188"
-      ],
       "copy|4.": [
         "u189"
       ],
@@ -105206,6 +105196,12 @@
       ],
       "copy|Identify themselves, speak to the person directly, explain before touching or moving objects, and keep glasses and aids within reach in known locations (p486–487).": [
         "u251"
+      ],
+      "copy|The age-82 measurements above show exactly why illumination and contrast must be specified before comparing acuities (p471–472).": [
+        "u78"
+      ],
+      "copy|How did lighting change measured acuity in the age-82 sample?": [
+        "u188"
       ]
     }
   },
@@ -108451,9 +108447,6 @@
       "copy|Including mental health changes both prevalence and care planning.": [
         "u64"
       ],
-      "copy|Among adults aged 50–74, the cited study found depression in 14%, 21%, 30% and 37% of groups with one, two, three and four physical conditions respectively.": [
-        "u65"
-      ],
       "copy|Cross-sectional gradients describe co-occurrence, not the direction of causation in a patient.": [
         "u66"
       ],
@@ -108769,9 +108762,6 @@
       "copy|Ask which activity causes the most difficulty, what might be safely combined or stopped, and what symptoms or outcomes the patient fears losing control of if the plan changes (p613).": [
         "u171"
       ],
-      "copy|In the cited Medicare analysis, people with one condition saw an average of 4 physicians per year, compared with 14 among those with 5 or more.": [
-        "u172"
-      ],
       "copy|Each clinician may see only one part of a treatment sequence.": [
         "u173"
       ],
@@ -109004,6 +108994,12 @@
       ],
       "copy|The denominator determines how large a change appears.": [
         "u109"
+      ],
+      "copy|Among adults aged 50–74, the study found depression in 14%, 21%, 30% and 37% of groups with one, two, three and four physical conditions respectively.": [
+        "u65"
+      ],
+      "copy|In the Medicare analysis, people with one condition saw an average of 4 physicians per year, compared with 14 among those with 5 or more.": [
+        "u172"
       ]
     }
   },
@@ -110569,9 +110565,6 @@
       "copy|Keep the nonbrain-trauma comparator when quoting the reported increase in Parkinson diagnosis after TBI (p999).": [
         "u27"
       ],
-      "copy|The number of recognized concussions can underestimate repetitive impact exposure and was not the measure associated with stage in the cited donation study (p999–1000).": [
-        "u28"
-      ],
       "copy|A single diagnostic lesion can establish CTE at autopsy. The low/high feature count describes its extent (p1001, p1004).": [
         "u29"
       ],
@@ -110596,9 +110589,6 @@
       "copy|2024-May Q63 — Printed page 997.": [
         "u36"
       ],
-      "copy|2024-May Q66 — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.": [
-        "u37"
-      ],
       "recall-drill|Recall drill": [
         "u38"
       ],
@@ -110620,17 +110610,11 @@
       "copy|May 2024 Q63 accepted both Alzheimer disease and normal pressure hydrocephalus.": [
         "u44"
       ],
-      "copy|The cited page describes a broader association with subsequent dementia after injuries of varying severity.": [
-        "u45"
-      ],
       "copy|In a pooled cohort of 7130 participants, a history of TBI with loss of consciousness did not correlate with a clinical Alzheimer diagnosis or Alzheimer neuropathological change at autopsy.": [
         "u46"
       ],
       "copy|An independent series of more than 4000 autopsies also found no association with Alzheimer pathology.": [
         "u47"
-      ],
-      "copy|The cited page does not present normal pressure hydrocephalus as a result of those studies (p997).": [
-        "u48"
       ],
       "copy|The exposure and the outcome determine what a comparison means.": [
         "u49"
@@ -111204,9 +111188,6 @@
       "copy|Neither a clinical Alzheimer diagnosis nor Alzheimer pathology at autopsy was associated with this exposure in that cohort (p997).": [
         "u236"
       ],
-      "copy|It received credit alongside normal pressure hydrocephalus. The cited book page reports a broader dementia association and negative Alzheimer-specific studies (p997).": [
-        "u238"
-      ],
       "copy|Repetitive head impacts, including repeated subconcussive impacts that produce no recognized concussion (p997, p999).": [
         "u240"
       ],
@@ -111234,9 +111215,6 @@
       "copy|of a Parkinson diagnosis in that study (p999).": [
         "u254"
       ],
-      "copy|Recall bias and reverse causation can affect the association; more severe or frequent injuries were associated with greater risk in the cited study (p999).": [
-        "u256"
-      ],
       "copy|No definitive clinical, imaging or laboratory test is presented. The chapter requires postmortem neuropathological assessment (p997, p1005).": [
         "u258"
       ],
@@ -111245,6 +111223,24 @@
       ],
       "copy|Investigate. Describe characterizes the behavior, Create builds a plan, and Evaluate checks implementation and response (Chapter 60, p924).": [
         "u262"
+      ],
+      "copy|The number of recognized concussions can underestimate repetitive impact exposure and was not the measure associated with stage in the donation study (p999–1000).": [
+        "u28"
+      ],
+      "copy|2024-May Q66 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u37"
+      ],
+      "copy|That discussion describes a broader association with subsequent dementia after injuries of varying severity.": [
+        "u45"
+      ],
+      "copy|That discussion does not present normal pressure hydrocephalus as a result of those studies (p997).": [
+        "u48"
+      ],
+      "copy|It received credit alongside normal pressure hydrocephalus. One study reported a broader dementia association and negative Alzheimer-specific studies (p997).": [
+        "u238"
+      ],
+      "copy|Recall bias and reverse causation can affect the association; more severe or frequent injuries were associated with greater risk in the study (p999).": [
+        "u256"
       ]
     }
   },
@@ -111410,9 +111406,6 @@
       "copy|The 2020 question describes continued distress after group treatment.": [
         "u53"
       ],
-      "copy|Citalopram represents the SSRI choice among the answers; the chapter supports SSRIs or SNRIs and psychotherapy for persistent anxiety.": [
-        "u54"
-      ],
       "copy|Oxazepam can impair cognition and balance or produce dependence.": [
         "u55"
       ],
@@ -111454,9 +111447,6 @@
       ],
       "copy|The caption separately quotes a projection of 92 million.": [
         "u68"
-      ],
-      "copy|Both communicate an expanding need for care; the values are projections from the cited material.": [
-        "u69"
       ],
       "copy|Figure 66-2 describes living arrangements in 2012.": [
         "u70"
@@ -112041,6 +112031,12 @@
       ],
       "copy|Adaptation, resilience, meaningful social participation and functional gains may coexist with an ongoing diagnosis (p1040–1041).": [
         "u273"
+      ],
+      "copy|Citalopram represents the SSRI choice among the answers; SSRIs, SNRIs and psychotherapy are options for persistent anxiety.": [
+        "u54"
+      ],
+      "copy|Both communicate an expanding need for care; the values are projections from the material.": [
+        "u69"
       ]
     }
   },
@@ -112491,9 +112487,6 @@
       "copy|May 2024 Q77 asks about dyspnea near the end of life.": [
         "u148"
       ],
-      "copy|In the cited comparison among nonhypoxemic patients, nasal air relieved dyspnea as effectively as nasal oxygen.": [
-        "u149"
-      ],
       "copy|That finding concerns perceived symptom relief in that population.": [
         "u150"
       ],
@@ -112766,9 +112759,6 @@
       "copy|Directed airflow, breathing techniques such as pursed-lip breathing, posture changes, relaxation and energy conservation. (p1074)": [
         "u242"
       ],
-      "copy|In the cited comparison of patients without hypoxia. This differs from evidence for long-term oxygen in hypoxic COPD. (p1074)": [
-        "u244"
-      ],
       "copy|The mask can cause anxiety or intolerance. Reassess relief, burden, ability to cooperate and the patient's goals rather than selecting it solely for the diagnosis. (p1074–1075)": [
         "u246"
       ],
@@ -112786,6 +112776,12 @@
       ],
       "copy|A patient may revise priorities once the benefits or burdens are experienced. Revisit the plan and ask which outcomes matter now. (p1075)": [
         "u256"
+      ],
+      "copy|In the comparison among nonhypoxemic patients, nasal air relieved dyspnea as effectively as nasal oxygen.": [
+        "u149"
+      ],
+      "copy|In the comparison of patients without hypoxia. This differs from evidence for long-term oxygen in hypoxic COPD. (p1074)": [
+        "u244"
       ]
     }
   },
@@ -113227,9 +113223,6 @@
       "copy|Home-based palliative care can reach patients with advanced illness who do not meet hospice eligibility or who continue treatments inconsistent with a hospice election.": [
         "u145"
       ],
-      "copy|In the cited data, approximately 40% of completely homebound individuals died within 2 years.": [
-        "u146"
-      ],
       "copy|This describes the high needs of a population; it cannot be substituted for an individual estimate of survival.": [
         "u147"
       ],
@@ -113256,9 +113249,6 @@
       ],
       "copy|The chapter's ideal home service includes coordinated primary and palliative expertise, spiritual support, respite and access to a clinician during crises.": [
         "u155"
-      ],
-      "copy|The cited program evaluations reported relief of symptoms such as pain, dyspnea or anxiety, fewer emergency visits or admissions and greater likelihood of hospice referral.": [
-        "u156"
       ],
       "copy|In the comparison described, less hospital use was observed without a difference in overall survival.": [
         "u157"
@@ -113307,9 +113297,6 @@
       ],
       "copy|The chapter describes an association between earlier consultation and fewer burdensome transitions among long-term-care residents.": [
         "u172"
-      ],
-      "copy|In the cited study, earlier involvement was associated with an almost 50% reduction in outcomes such as an emergency visit within 30 days of death or hospice admission within 3 days of death.": [
-        "u173"
       ],
       "copy|These are measures of service use near death, not proof that an emergency visit or short hospice stay was inappropriate for every individual.": [
         "u174"
@@ -113510,6 +113497,15 @@
       ],
       "copy|The patient's preferences and goals, symptom issues, available caregiver and community support, and a plan for ongoing reassessment (p1078–1079, p1082–1084).": [
         "u249"
+      ],
+      "copy|In the data, approximately 40% of completely homebound individuals died within 2 years.": [
+        "u146"
+      ],
+      "copy|The program evaluations reported relief of symptoms such as pain, dyspnea or anxiety, fewer emergency visits or admissions and greater likelihood of hospice referral.": [
+        "u156"
+      ],
+      "copy|In the study, earlier involvement was associated with an almost 50% reduction in outcomes such as an emergency visit within 30 days of death or hospice admission within 3 days of death.": [
+        "u173"
       ]
     }
   },
@@ -114059,9 +114055,6 @@
       "copy|Asking them to explain the proposed care in their own words can uncover that misunderstanding immediately (p1094–1095).": [
         "u181"
       ],
-      "copy|In the cited proxy study, feeding decisions were recalled by 27% and infection decisions by 21%.": [
-        "u182"
-      ],
       "copy|Discuss predictable problems early enough for supporters to think about a future episode outside an emergency.": [
         "u183"
       ],
@@ -114240,6 +114233,9 @@
       ],
       "copy|The agreed goals, next steps, who will follow up, and that care and support will continue (p1092, p1095).": [
         "u251"
+      ],
+      "copy|In the proxy study, feeding decisions were recalled by 27% and infection decisions by 21%.": [
+        "u182"
       ]
     }
   },
@@ -115132,9 +115128,6 @@
       "exam-traps|Exam traps": [
         "u28"
       ],
-      "copy|Cirrhosis does not prove variceal bleeding: more than 50% of UGIB in cirrhosis is nonvariceal in the cited text (p1332).": [
-        "u16"
-      ],
       "copy|Autoimmune atrophic gastritis can cause achlorhydria and pernicious anemia; diagnosis rests on corpus/fundus histology (p1335).": [
         "u17"
       ],
@@ -115424,9 +115417,6 @@
       "copy|In an older person, pain can be vague, mild or absent until bleeding, obstruction or perforation brings the patient to attention.": [
         "u123"
       ],
-      "copy|The chapter reports that among patients over 60 years, only about one third described typical epigastric pain in the cited observations.": [
-        "u124"
-      ],
       "copy|Ask about early satiety, reduced intake, vomiting, melena and fatigue or dyspnea from blood loss.": [
         "u125"
       ],
@@ -115447,9 +115437,6 @@
       ],
       "copy|H. pylori and mucosal injury from NSAIDs or aspirin are major causes and can coexist.": [
         "u131"
-      ],
-      "copy|Figure 85-15 shows both exposures in 26.8% of gastric and 16.8% of duodenal ulcers in the cited series (p1326).": [
-        "u132"
       ],
       "copy|Figure 85-16 compares NSAID/aspirin users with nonusers: gastric ulcers in 20% versus 7.5%, duodenal ulcers in 21% versus 12% (p1327).": [
         "u133"
@@ -115573,9 +115560,6 @@
       ],
       "copy|Figure 85-17 adds frailty, disability, prior ulcer or bleeding and co-medications to NSAID selection, gastroprotection and H. pylori assessment.": [
         "u173"
-      ],
-      "copy|Figure 85-18 reports a number needed to treat of 3 for PPI-associated ulcer prevention in each of the cited acute- and chronic-user cohorts (p1330).": [
-        "u174"
       ],
       "copy|An apparently straightforward deprescribing decision can be unsafe if it removes gastroprotection while the patient continues a medicine that previously contributed to bleeding (p1329–1331, p1334).": [
         "u175"
@@ -115929,6 +115913,18 @@
       ],
       "copy|Loss of corpus/fundus parietal-cell function reduces acid and intrinsic-factor production. Histology of the involved mucosa supports the diagnosis (p1335).": [
         "u302"
+      ],
+      "copy|Cirrhosis does not prove variceal bleeding: more than 50% of UGIB in cirrhosis is nonvariceal in the population described on p1332.": [
+        "u16"
+      ],
+      "copy|The chapter reports that among patients over 60 years, only about one third described typical epigastric pain in those observations.": [
+        "u124"
+      ],
+      "copy|Figure 85-15 shows both exposures in 26.8% of gastric and 16.8% of duodenal ulcers in the series (p1326).": [
+        "u132"
+      ],
+      "copy|Figure 85-18 reports a number needed to treat of 3 for PPI-associated ulcer prevention in each of the acute- and chronic-user cohorts (p1330).": [
+        "u174"
       ]
     }
   },
@@ -117602,9 +117598,6 @@
       "copy|Carboplatin may substitute when cisplatin is poorly tolerated; immunotherapy plus chemotherapy improves survival in extensive-stage disease (p1431).": [
         "u15"
       ],
-      "copy|Introduce palliative care early and clarify treatment goals (pp1421, 1432). In the cited randomized study of metastatic NSCLC, early palliative care was associated with median overall survival of 11.6 months versus 8.9 months with standard care alone.": [
-        "u16"
-      ],
       "copy|Assess function, cognition, nutrition, comorbidity, medications and psychosocial support; chronological age and performance status alone incompletely describe fitness (p1433).": [
         "u17"
       ],
@@ -117679,9 +117672,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u41"
-      ],
-      "copy|2026-Jun Q54 — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.": [
-        "u42"
       ],
       "recall-drill|Recall drill": [
         "u43"
@@ -117820,9 +117810,6 @@
       ],
       "copy|Hazzard specifically associates small-cell histology with inappropriate antidiuretic hormone secretion, ectopic Cushing syndrome and Lambert–Eaton myasthenic syndrome.": [
         "u88"
-      ],
-      "copy|The last association explains why June 2026 Q54 is linked here by topic; its bibliography cites Harrison.": [
-        "u89"
       ],
       "copy|In that item the combination of proximal weakness, difficulty rising and reduced reflexes in a patient with SCLC makes a neuromuscular junction disorder plausible.": [
         "u90"
@@ -118205,9 +118192,6 @@
       "copy|14.": [
         "u216"
       ],
-      "copy|What did early specialist palliative care achieve in the cited metastatic NSCLC trial?": [
-        "u217"
-      ],
       "copy|15.": [
         "u218"
       ],
@@ -118287,6 +118271,18 @@
       ],
       "copy|Cognitive impairment, medication burden, nutrition, comorbidities, functional limitations and the availability of help (p1433).": [
         "u253"
+      ],
+      "copy|Introduce palliative care early and clarify treatment goals (pp1421, 1432). In the randomized study of metastatic NSCLC, early palliative care was associated with median overall survival of 11.6 months versus 8.9 months with standard care alone.": [
+        "u16"
+      ],
+      "copy|2026-Jun Q54 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u42"
+      ],
+      "copy|June 2026 Q54 tests the clinical features of Lambert–Eaton syndrome (Harrison).": [
+        "u89"
+      ],
+      "copy|What did early specialist palliative care achieve in the metastatic NSCLC trial?": [
+        "u217"
       ]
     }
   },
@@ -118325,9 +118321,6 @@
       ],
       "copy|Gastric cancer: gastrectomy is the curative treatment described; most, but not all, studies suggest similar perioperative risk across age groups. (p. 1446)": [
         "u11"
-      ],
-      "copy|Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. In the cited study, five-year survival and complication rates after transarterial chemoembolization were similar in adults 75 or older and younger adults (p1448).": [
-        "u12"
       ],
       "copy|Esophageal surgery evidence is mixed: most, but not all, studies suggest age alone is not limiting; assess fitness and cardiopulmonary risk. For Barrett-associated adenocarcinoma, evidence on whether incidence increases with advanced age is conflicting (p1449).": [
         "u13"
@@ -118464,9 +118457,6 @@
       "copy|When interpreting the survival gap, separate deaths due to cancer, competing illnesses and differences in care.": [
         "u57"
       ],
-      "copy|In the cited SEER–Medicare cohort of older adults with localized colorectal cancer, heart failure accounted for 9.4% of deaths, COPD 5.3% and diabetes 3.9%.": [
-        "u58"
-      ],
       "copy|Those are shares of deaths in a particular cohort.": [
         "u59"
       ],
@@ -118481,9 +118471,6 @@
       ],
       "copy|The chapter reports that people over 75 accounted for 9% of trial participants compared with 31% of people diagnosed with cancer in the United States.": [
         "u63"
-      ],
-      "copy|For colorectal cancer in particular, adults older than 65 accounted for 70–75% of diagnoses but only 40–48% of participants in the cited cooperative-group or NCI-sponsored trials.": [
-        "u64"
       ],
       "copy|An efficacy estimate for the whole trial therefore often has much narrower uncertainty than the estimate specifically for frail older participants (p1435–1436).": [
         "u65"
@@ -118728,9 +118715,6 @@
       "copy|In the CRITICS age analysis, preoperative chemotherapy produced severe toxicity in 77% of older participants compared with 62% of younger participants, and older patients less often completed planned therapy.": [
         "u145"
       ],
-      "copy|Nevertheless two-year overall survival in the cited comparison was 59% versus 61%.": [
-        "u146"
-      ],
       "copy|This was an unplanned age subgroup.": [
         "u147"
       ],
@@ -118790,9 +118774,6 @@
       ],
       "copy|Older adults are also affected by disparities in referral.": [
         "u166"
-      ],
-      "copy|The cited US esophageal cancer comparison found fewer surgical consultations and less curative surgery among older Black patients than among older White patients.": [
-        "u167"
       ],
       "copy|Thus “no surgical treatment” in a database can mean a decision after specialist evaluation, but it can also mean that the option was never evaluated.": [
         "u168"
@@ -118901,9 +118882,6 @@
       ],
       "copy|6.": [
         "u203"
-      ],
-      "copy|What minimum lymph-node count defines adequate evaluation in the cited CRC surgical analysis?": [
-        "u204"
       ],
       "copy|7.": [
         "u205"
@@ -119015,9 +118993,6 @@
       "copy|Omitting accurate tissue confirmation to spare diagnostic discomfort; older patients receive pathological confirmation less frequently and may be misdiagnosed. (p1445)": [
         "u244"
       ],
-      "copy|Surgical resection; the chapter supports its safety in carefully selected older adults. (p1445)": [
-        "u246"
-      ],
       "copy|Hemolytic uremic syndrome; liver-enzyme elevations are also described. (p1445)": [
         "u248"
       ],
@@ -119044,6 +119019,27 @@
       ],
       "copy|No. Most, but not all, studies suggest age is not limiting; the evidence includes contradictory morbidity and mortality findings, so assess individual fitness and comorbidities. (p1449)": [
         "u260"
+      ],
+      "copy|Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. In the study, five-year survival and complication rates after transarterial chemoembolization were similar in adults 75 or older and younger adults (p1448).": [
+        "u12"
+      ],
+      "copy|In the SEER–Medicare cohort of older adults with localized colorectal cancer, heart failure accounted for 9.4% of deaths, COPD 5.3% and diabetes 3.9%.": [
+        "u58"
+      ],
+      "copy|For colorectal cancer in particular, adults older than 65 accounted for 70–75% of diagnoses but only 40–48% of participants in the cooperative-group or NCI-sponsored trials.": [
+        "u64"
+      ],
+      "copy|Nevertheless two-year overall survival in the comparison was 59% versus 61%.": [
+        "u146"
+      ],
+      "copy|The US esophageal cancer comparison found fewer surgical consultations and less curative surgery among older Black patients than among older White patients.": [
+        "u167"
+      ],
+      "copy|What minimum lymph-node count defines adequate evaluation in the CRC surgical analysis?": [
+        "u204"
+      ],
+      "copy|Surgical resection; it can be safe in carefully selected older adults. (p1445)": [
+        "u246"
       ]
     }
   },
@@ -119952,9 +119948,6 @@
       "copy|2026-Jun Q86 — Printed pages 1647, 1648, 1649, 1650.": [
         "u40"
       ],
-      "copy|2025-Jun Q24 — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.": [
-        "u41"
-      ],
       "recall-drill|Recall drill": [
         "u42"
       ],
@@ -120592,6 +120585,9 @@
       ],
       "copy|Stretching, local treatment and correction of perpetuating factors, alongside education and activity. Medication alone usually does not restore function. (p1664)": [
         "u264"
+      ],
+      "copy|2025-Jun Q24 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u41"
       ]
     }
   },
@@ -121351,7 +121347,7 @@
       "copy|They have not prevented postherpetic neuralgia in trials and may cause harm. If used for selected acute indications, they accompany antiviral therapy. (p1728)": [
         "u260"
       ],
-      "copy|Local pain and systemic symptoms may occur. Serious adverse events were similar between vaccine and placebo groups in the cited trials. (p1728–1729)": [
+      "copy|Local pain and systemic symptoms may occur. Serious adverse events were similar between vaccine and placebo groups in clinical trials. (p1728–1729)": [
         "u262"
       ]
     }

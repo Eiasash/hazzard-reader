@@ -95,7 +95,7 @@ The December 2021 vignette pairs weak grip with low lean mass. The original Euro
 ![Table 49-3. Components of the SARC-F screening test, printed page 734.](ch49_table49_3_p734.png)
 
 
-The bibliography for September 2024 Q65 specifies both page 734 and Table 49-3.
+For September 2024 Q65, compare the clinical description on p734 with Table 49-3.
 
 </details>
 
@@ -126,7 +126,7 @@ The bibliography for September 2024 Q65 specifies both page 734 and Table 49-3.
 ![Table 49-4. Cutoff points to define low grip strength and reduced gait speed, printed page 735.](ch49_table49_4_p735.png)
 
 
-Supporting table on the cited page; the official SPPB question does not explicitly cite this table.
+Supporting table on the page; the official SPPB question does not explicitly cite this table.
 
 </details>
 

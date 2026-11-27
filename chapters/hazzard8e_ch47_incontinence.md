@@ -6,7 +6,7 @@ Camille P. Vaughan, Theodore M. Johnson, II
 
 > **Source and method.** Printed pages 699–717 of the 8th edition, from the publisher's own text layer (PDF page = printed + 34). Prose, both boxes, all 15 tables and the three figure captions; the figures (innervation of micturition, the assessment flowchart, the bladder diary) are page images, not transcribed. Checked against an independently typeset copy of the chapter. Page markers are printed page numbers. The two boxes are moved up to follow the opening paragraph.
 
-> **2026 exam.** Three questions of the 2026 specialist sitting were sourced to this chapter: Q17 (p703, Table 47-4), Q44 (pp703–704, Tables 47-4 and 47-5) and Q64 (pp701–702, Table 47-3, with a picture). Their pages are flagged ⟨2026⟩; the questions are at the end.
+> **2026 exam.** Three questions of the 2026 specialist sitting tested this chapter: Q17 (p703, Table 47-4), Q44 (pp703–704, Tables 47-4 and 47-5) and Q64 (pp701–702, Table 47-3, with a picture). The questions follow the clinical text.
 
 <a id="p699"></a>**[p. 699]**
 
@@ -413,46 +413,46 @@ Table 47-12 lists the drugs used to treat incontinence. In general, carefully se
 |---|---|---|---|
 | **Bladder Relaxants for Urgency Incontinence** | In general, reduced dosages for renal and hepatic impairment |  |  |
 | **Antimuscarinic** |  | Increase bladder capacity; diminish involuntary bladder contractions |  |
-| Darifenacin (Enablex) ⟨IL: not checked⟩ | 7.5–15 mg qd |  | Anticholinergic, lower dose if reduced hepatic function |
-| Fesoterodine (Toviaz) ⟨IL: not checked⟩ | 4–8 mg qd |  | Anticholinergic |
-| Oxybutynin (Ditropan, immediate release, available as generic) ⟨IL: not checked⟩ | 2.5–5.0 mg tid |  | Anticholinergic (dry mouth, blurry vision, elevated intraocular pressure, delirium, constipation) |
-| Patch (Oxytrol) ⟨IL: not checked⟩ | 3.9 mg qd<br>Patch applied twice weekly |  | Above, but with less dry mouth, available over-the-counter |
-| Oxybutynin gel (Gelnique) ⟨IL: not checked⟩ | 3% pump or 10% gel packet<br>One application daily |  | Above, but with less dry mouth |
-| Solifenancin (Vesicare) ⟨IL: not checked⟩ | 5–10 mg qd |  | Anticholinergic, lower for severe renal impairment or reduced hepatic function |
-| Tolterodine (Detrol) ⟨IL: not checked⟩ | 1–2 mg bid |  | Anticholinergic, lower dose for severe renal impairment or reduced hepatic function |
-| Tolterodine (Detrol LA) ⟨IL: not checked⟩ | 4 mg qd |  | Above, but with less dry mouth |
-| Trospium chloride (Sanctura) ⟨IL: not checked⟩ | 20 mg bid<br>20 mg once daily qhs with CrCl < 30 or in patients > 75 yo<br>Give on an empty stomach > 1 h before a meal |  | Anticholinergic |
-| Trospium chloride (Sanctura XR) ⟨IL: not checked⟩ | 60 mg q am<br>Give on an empty stomach > 1 h before a meal |  | Avoid in severe renal impairment or reduced hepatic function |
+| Darifenacin (Enablex) | 7.5–15 mg qd |  | Anticholinergic, lower dose if reduced hepatic function |
+| Fesoterodine (Toviaz) | 4–8 mg qd |  | Anticholinergic |
+| Oxybutynin (Ditropan, immediate release, available as generic) | 2.5–5.0 mg tid |  | Anticholinergic (dry mouth, blurry vision, elevated intraocular pressure, delirium, constipation) |
+| Patch (Oxytrol) | 3.9 mg qd<br>Patch applied twice weekly |  | Above, but with less dry mouth, available over-the-counter |
+| Oxybutynin gel (Gelnique) | 3% pump or 10% gel packet<br>One application daily |  | Above, but with less dry mouth |
+| Solifenancin (Vesicare) | 5–10 mg qd |  | Anticholinergic, lower for severe renal impairment or reduced hepatic function |
+| Tolterodine (Detrol) | 1–2 mg bid |  | Anticholinergic, lower dose for severe renal impairment or reduced hepatic function |
+| Tolterodine (Detrol LA) | 4 mg qd |  | Above, but with less dry mouth |
+| Trospium chloride (Sanctura) | 20 mg bid<br>20 mg once daily qhs with CrCl < 30 or in patients > 75 yo<br>Give on an empty stomach > 1 h before a meal |  | Anticholinergic |
+| Trospium chloride (Sanctura XR) | 60 mg q am<br>Give on an empty stomach > 1 h before a meal |  | Avoid in severe renal impairment or reduced hepatic function |
 | **Beta-3-agonist** |  | Inhibits bladder contraction |  |
-| Mirabegron (Myrbetriq) ⟨IL: not checked⟩ | 25–50 mg qd |  | Beta-3-agonist, max 25 mg/d with CrCl 15–20, reduced hepatic function (hypertension, tachycardia) |
-| Vibegron (Gemtesa) ⟨IL: not checked⟩ | 75 mg qd |  | Beta-3-agonist, avoid in severe renal or hepatic impairment; headache |
+| Mirabegron (Myrbetriq) | 25–50 mg qd |  | Beta-3-agonist, max 25 mg/d with CrCl 15–20, reduced hepatic function (hypertension, tachycardia) |
+| Vibegron (Gemtesa) | 75 mg qd |  | Beta-3-agonist, avoid in severe renal or hepatic impairment; headache |
 | **Vaginal Estrogenᵃ** |  | Strengthen periurethral tissues and reduces inflammation from atrophic vaginitis | Contraindicated in women with a personal history of gynecologic cancer, relative contraindication in women with a personal history breast cancer |
-| Topical ⟨IL: not checked⟩ | 0.5–1.0 g per application |  |  |
-| Vaginal ring (Estring) (estradiol acetate) ⟨IL: not checked⟩ | One ring every 3 mo |  |  |
+| Topical | 0.5–1.0 g per application |  |  |
+| Vaginal ring (Estring) (estradiol acetate) | One ring every 3 mo |  |  |
 | **Drugs for Stress Incontinenceᵇ** |  | Increase urethral smooth-muscle contraction |  |
 | <a id="p713"></a>**[p. 713]** | | | |
-| Pseudoephedrineᶜ (Sudafed) ⟨IL: not checked⟩ | 30–60 mg tid |  | Headache, tachycardia, elevation of blood pressure |
-| Duloxetine (Cymbalta) ⟨IL: not checked⟩ | 30–60 mg daily |  | Nausea, xerostomia, headache |
+| Pseudoephedrineᶜ (Sudafed) | 30–60 mg tid |  | Headache, tachycardia, elevation of blood pressure |
+| Duloxetine (Cymbalta) | 30–60 mg daily |  | Nausea, xerostomia, headache |
 | **Drugs for Overactive Bladder Symptoms including Urgency UI in Menᵈ** |  | Relax smooth muscle of urethra and prostatic capsule |  |
 | Alpha adrenergic antagonist |  |  |  |
-| Doxazosin (available as generic, or Cardura) ⟨IL: not checked⟩ | 1–8 mg qhs |  | Postural hypotension, dizziness, lowers blood pressure |
-| Terazosin (available as generic, or Hytrin) ⟨IL: not checked⟩ | 1–10 mg qhs |  | Same as above |
-| Prazosin (Minipress) ⟨IL: not checked⟩ | 1–2 mg tid |  | Same as above |
-| Alfuzosin (Uroxatral) ⟨IL: not checked⟩ | 10 mg qhs |  | Less effects on blood pressure |
-| Silodosin (Rapaflo) ⟨IL: not checked⟩ | 4–8 mg qd |  | Less effects on blood pressure; CrCl 30–50 use 4 mg qd |
-| Tamsulosin (Flomax) ⟨IL: not checked⟩ | 0.4–0.8 mg qd |  | Less effects on blood pressure (when used at 0.8 mg dose, greater blood pressure effects) |
+| Doxazosin (available as generic, or Cardura) | 1–8 mg qhs |  | Postural hypotension, dizziness, lowers blood pressure |
+| Terazosin (available as generic, or Hytrin) | 1–10 mg qhs |  | Same as above |
+| Prazosin (Minipress) | 1–2 mg tid |  | Same as above |
+| Alfuzosin (Uroxatral) | 10 mg qhs |  | Less effects on blood pressure |
+| Silodosin (Rapaflo) | 4–8 mg qd |  | Less effects on blood pressure; CrCl 30–50 use 4 mg qd |
+| Tamsulosin (Flomax) | 0.4–0.8 mg qd |  | Less effects on blood pressure (when used at 0.8 mg dose, greater blood pressure effects) |
 | **Phosphodiesterase Inhibitors** |  | Inhibits PDE type 5, enhancing effects of nitric oxide–activated increases in cGMP |  |
-| Tadalafil ⟨IL: not checked⟩ | 5 mg daily |  | Orthostatic hypotension, flushing, headache (contraindicated with terazosin/doxazosin/prazosin) |
+| Tadalafil | 5 mg daily |  | Orthostatic hypotension, flushing, headache (contraindicated with terazosin/doxazosin/prazosin) |
 | Other phosphodiesterase inhibitors given daily may be effective |  |  |  |
 | **5-Alpha Reductase Inhibitor** |  | Inhibits type II 5-alpha reductase, interfering with conversion of testosterone to 5-alpha-dihydrotestosterone |  |
-| Finasteride ⟨IL: not checked⟩ | 5 mg daily |  | Sexual dysfunction, gynecomastia, decreased overall risk of prostate cancer with increased risk of high-grade prostate cancer |
-| Dutasteride ⟨IL: not checked⟩ | 0.5 mg daily | Inhibits type I and II 5-alpha reductase, inhibiting conversion of testosterone to dihydrotestosterone | Sexual dysfunction, decreased overall risk of prostate cancer with increased risk of high-grade prostate cancer |
+| Finasteride | 5 mg daily |  | Sexual dysfunction, gynecomastia, decreased overall risk of prostate cancer with increased risk of high-grade prostate cancer |
+| Dutasteride | 0.5 mg daily | Inhibits type I and II 5-alpha reductase, inhibiting conversion of testosterone to dihydrotestosterone | Sexual dysfunction, decreased overall risk of prostate cancer with increased risk of high-grade prostate cancer |
 
 <sub>ᵃFor urgency UI associated with atrophic vaginitis. ᵇThe primary initial treatment for stress UI is behavioral, with consideration of surgery for severe stress UI; there are no FDA-approved medications for stress UI. ᶜContraindicated in patients with hypertension and cardiovascular disease. ᵈCan be used in combination with bladder relaxants. Adapted with permission from Kane RL, Ouslander JG, Resnick B, et al. Essentials of Clinical Geriatrics. 8th ed. New York, NY: McGraw Hill; 2018.</sub>
 
-> **As printed.** "Solifenancin (Vesicare)" (sic): the book spells the drug solifenacin elsewhere. Left as printed.
+> **Printed wording.** "Solifenancin (Vesicare)" (sic): the book spells the drug solifenacin elsewhere. Use the standard spelling when identifying the term.
 
-> **Currency and jurisdiction — declared gap (table frame).** The table's title presents it as the drugs commonly used in the United States: its brand names, doses and availability are those of the US market at the book's press date. Israeli registration, availability and reimbursement have not been checked for any agent (each drug row is marked ⟨IL: not checked⟩), agents approved or relabelled after press have not been checked, and no Israeli or post-press source is held. Questions sourced to this table use the book's values. Closed by: an Israeli national registration or formulary source, and a post-press label source, when held.
+> **US drug information.** The table's title presents it as the drugs commonly used in the United States: its brand names, doses and availability are those of the US market at the book's press date. Israeli registration and reimbursement can differ from US practice, and newer approvals may change the available choices. Exam questions on this table use these values. For a specific product in Israel, check its current local label.
 
 Antimuscarinic drugs may have recognizable, bothersome systemic anticholinergic side effects such as dry mouth and constipation, which are most common with immediate-release formulations. They should be used carefully in patients with glaucoma and severe gastroesophageal reflux. Patients with Alzheimer disease and other forms of dementia must be followed for the development of drug-induced delirium when placed on antimuscarinic medications because of their anticholinergic effects. While the short-term cognitive effects of these agents are well understood, multiple epidemiologic studies suggest bladder antimuscarinic drug therapy (dose intensity, duration) is associated with a 50% relative increase in the odds of developing dementia. The results of these studies do not, <a id="p714"></a>**[p. 714]** however, preclude a treatment trial in the older adult population in the context of shared decision making. Beta-3-agonists could potentially lead to elevated blood pressure and should be not be used in persons with uncontrolled hypertension. Bladder relaxants may rarely precipitate urinary retention in some patients; men with some degree of outflow obstruction, diabetic patients, and patients with impaired bladder contractility are at the highest risk and should be followed carefully.
 

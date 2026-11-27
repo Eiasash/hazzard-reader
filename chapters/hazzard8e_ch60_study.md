@@ -127,7 +127,7 @@ SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormon
 
 **Exam traps**
 - The drug tables give US doses and availability at publication (p928).
-- The chapter's own text lists cholinesterase-inhibitor side effects as "eight loss" — a printing error for "weight loss" (correctly spelled in Table 60-9, p929); left as printed on p931.
+- The chapter's own text lists cholinesterase-inhibitor side effects as "eight loss" — a printing error for "weight loss" (correctly spelled in Table 60-9, p929); p931 uses the misspelling.
 - The 2026 exam paper misspells drug names (OLAZAPINE, Quentapine, Bopropion) — these are Olanzapine, Quetiapine, and Bupropion; don't let the spelling throw you (see reproduced questions below).
 
 ## Recall
@@ -207,7 +207,7 @@ These English translations cover the 2026 exam questions on dementia care.
 - ג. An antihistamine such as PROMETHAZINE before sleep
 - ד. A typical antipsychotic such as HALOPERIDOL at a low dose, regularly
 
-> **As printed on the paper.** "OLAZAPINE" is the paper's spelling; the book prints "Olanzapine" (Table 60-8, p928).
+> **Exam spelling.** "OLAZAPINE" is the paper's spelling; the book prints "Olanzapine" (Table 60-8, p928).
 
 > Book: p925: "Due to the inherent risks of using medications to treat NPS in dementia, nonpharmacologic approaches should be first-line therapy. Psychotropics should be used only after other efforts have been made to mitigate NPS, with three exceptions: (1) clear-cut major depression; (2) psychosis causing harm or with significant potential of harm to self or others; and (3) aggression causing harm or risk of harm to self or other." Outside the pages the examiners cited, p927: "treatment should be initiated at a low dose and titrated to the minimum effective dose as tolerated." and "if there is no significant response after a 4-week period, the medication should be tapered and withdrawn."
 
@@ -218,7 +218,7 @@ These English translations cover the 2026 exam questions on dementia care.
 - ג. Bopropion (sic)
 - ד. Amitriptyline
 
-> **As printed on the paper.** "Quentapine" and "Bopropion" are the paper's spellings; the book prints "Quetiapine" (Table 60-8, p928) and "Bupropion" (Table 60-9, p929).
+> **Exam spelling.** "Quentapine" and "Bopropion" are the paper's spellings; the book prints "Quetiapine" (Table 60-8, p928) and "Bupropion" (Table 60-9, p929).
 
 > Book: p929: Selective serotonin reuptake inhibitors "are considered first-line therapy for late-life depression and are generally well tolerated compared to other classes of antidepressants such as TCAs." Table 60-9 (p929) lists sertraline under "SELECTIVE SEROTONIN REUPTAKE INHIBITORS" (initial daily dose 25 mg, maximum 200 mg).
 

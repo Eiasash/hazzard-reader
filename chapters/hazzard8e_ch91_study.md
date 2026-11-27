@@ -22,7 +22,7 @@ Study summary of Chapter 91; the book and the full chapter are the reference.
 - SCLC grows rapidly, often presents symptomatically and commonly recurs after an initial response (p1431). Its paraneoplastic presentations include **SIADH, Cushing syndrome and Lambert–Eaton myasthenic syndrome** (p1424).
 - Platinum plus etoposide underpins treatment; concurrent radiation treats limited-stage disease, with greater esophagitis/toxicity than sequential treatment (p1431).
 - Carboplatin may substitute when cisplatin is poorly tolerated; immunotherapy plus chemotherapy improves survival in extensive-stage disease (p1431).
-- Introduce palliative care early and clarify treatment goals (pp1421, 1432). In the cited randomized study of metastatic NSCLC, early palliative care was associated with median overall survival of **11.6 months versus 8.9 months** with standard care alone.
+- Introduce palliative care early and clarify treatment goals (pp1421, 1432). In the randomized study of metastatic NSCLC, early palliative care was associated with median overall survival of **11.6 months versus 8.9 months** with standard care alone.
 - Assess function, cognition, nutrition, comorbidity, medications and psychosocial support; chronological age and performance status alone incompletely describe fitness (p1433).
 
 ### Separating screening evidence from staging
@@ -51,7 +51,7 @@ The trial population had enough fitness to enter a screening study, and very old
 
 A central tumor can obstruct a bronchus, producing cough, hemoptysis, dyspnea or recurrent pneumonia beyond the obstruction. Hoarseness or stridor can indicate effects on nearby structures. A superior sulcus tumor at the lung apex can cause shoulder or arm pain, brachial plexus dysfunction or Horner syndrome; a patient with prominent shoulder symptoms may not emphasize the chest. Distant spread may first become apparent through symptoms from brain, bone, liver, adrenal or contralateral lung. The clinical task is to distinguish effects of the primary lesion, regional invasion, distant metastasis and systemic tumor effects, since these lead to different tests and interventions (p1423–1424).
 
-Paraneoplastic syndromes can precede or dominate the pulmonary complaint. Hazzard specifically associates small-cell histology with inappropriate antidiuretic hormone secretion, ectopic Cushing syndrome and Lambert–Eaton myasthenic syndrome. The last association explains why June 2026 Q54 is linked here by topic; its bibliography cites Harrison. In that item the combination of proximal weakness, difficulty rising and reduced reflexes in a patient with SCLC makes a neuromuscular junction disorder plausible. The additional keyed findings are orthostatic symptoms and dry mouth, indicating autonomic involvement. Antibodies to acetylcholine receptors point to a different junctional disorder; a thyroid clue or remote travel history fits the clinical pattern less well. The autonomic details come from the linked exam, while the tumor association is explicit in the chapter (p1424).
+Paraneoplastic syndromes can precede or dominate the pulmonary complaint. Hazzard specifically associates small-cell histology with inappropriate antidiuretic hormone secretion, ectopic Cushing syndrome and Lambert–Eaton myasthenic syndrome. June 2026 Q54 tests the clinical features of Lambert–Eaton syndrome (Harrison). In that item the combination of proximal weakness, difficulty rising and reduced reflexes in a patient with SCLC makes a neuromuscular junction disorder plausible. The additional keyed findings are orthostatic symptoms and dry mouth, indicating autonomic involvement. Antibodies to acetylcholine receptors point to a different junctional disorder; a thyroid clue or remote travel history fits the clinical pattern less well. The autonomic details come from the linked exam, while the tumor association is explicit in the chapter (p1424).
 
 ### Use diagnostic tissue efficiently
 
@@ -122,7 +122,7 @@ Early palliative care in the metastatic NSCLC trial was delivered alongside onco
 
 ## Past exam questions
 
-- [2026-Jun Q54](?chapter=bank&q=mcq-c74de0a0c671ce548b7cd01d) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2026-Jun Q54](?chapter=bank&q=mcq-c74de0a0c671ce548b7cd01d) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 
@@ -178,7 +178,7 @@ Early palliative care in the metastatic NSCLC trial was delivered alongside onco
 
 <details><summary>Answer</summary>Carboplatin can substitute in selected patients. Treatment still requires assessment of fitness and expected toxicity (p1431).</details>
 
-**14. What did early specialist palliative care achieve in the cited metastatic NSCLC trial?**
+**14. What did early specialist palliative care achieve in the metastatic NSCLC trial?**
 
 <details><summary>Answer</summary>In addition to usual oncology care it improved quality of life, with median survival of <strong>11.6 versus 8.9 months</strong> in the comparison (p1432).</details>
 

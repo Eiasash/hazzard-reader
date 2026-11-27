@@ -134,7 +134,7 @@ Book images cited by past exams. Tap an image to zoom.
 ## Past exam questions
 
 - [2026-Jun Q86](?chapter=bank&q=mcq-a84c59a354c18de39d822ccd) — Printed pages 1647, 1648, 1649, 1650.
-- [2025-Jun Q24](?chapter=bank&q=mcq-70ad7b8acd5368cde6d6a062) — Related bank item. Its bibliography does not give a printed Hazzard page for this chapter.
+- [2025-Jun Q24](?chapter=bank&q=mcq-70ad7b8acd5368cde6d6a062) — Related bank item. It tests a related topic without a chapter-specific page.
 
 ## Recall drill
 

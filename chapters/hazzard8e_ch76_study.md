@@ -177,7 +177,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 
 ## Recall
 
-**1. What US heart failure prevalence did Hazzard report, and how many affected adults did the cited projection anticipate by 2030?**
+**1. What US heart failure prevalence did Hazzard report, and how many affected adults did the projection anticipate by 2030?**
 
 <details><summary>Answer</summary>
 
