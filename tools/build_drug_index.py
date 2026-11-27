@@ -672,7 +672,7 @@ def build(destination=None, audit=None, book=None):
         page=row.get('page') or int(PAGE_ANCHOR.fullmatch(row['anchor'])[1])
         blocks.append({'chapter':row['chapter'],'kind':'chapter','section':row['section'],
                        'anchor':row['anchor'],'page':page,'text':clean(row['text']),
-                       'raw':row['text'],'image':row['source'],'ordinal':'table-'+str(len(blocks)),'sourceType':'table'})
+                       'raw':row['text'],'image':row['source'],'ordinal':row['ordinal'],'sourceType':'table'})
     print_report=checked_blocks(catalog,blocks,names,ids,book,anchors)
     mentions=defaultdict(list)
     printed=defaultdict(lambda:defaultdict(list))

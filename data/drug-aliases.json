@@ -7,7 +7,8 @@
       "anchor": "p1201",
       "section": "Table 77-6",
       "source": "chapters/hazzard8e_ch77_table77-6_p1201.png",
-      "text": "Class Ic AAD (flecainide, propafenone) and class III AAD (sotalol, amiodarone, dronedarone, dofetilide)"
+      "text": "Class Ic AAD (flecainide, propafenone) and class III AAD (sotalol, amiodarone, dronedarone, dofetilide)",
+      "ordinal": "table-24348"
     },
     {
       "chapter": "81",
@@ -15,7 +16,8 @@
       "anchor": "p1249",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1249.png",
-      "text": "Short-acting β2-agonist (SABA): Albuterol (ProAir HFA and Ventolin HFA); Albuterol (Accuneb); Levalbuterol Tartrate (Xopenex HFA); Levalbuterol Hydrochloride (Xopenex)"
+      "text": "Short-acting β2-agonist (SABA): Albuterol (ProAir HFA and Ventolin HFA); Albuterol (Accuneb); Levalbuterol Tartrate (Xopenex HFA); Levalbuterol Hydrochloride (Xopenex)",
+      "ordinal": "table-24349"
     },
     {
       "chapter": "81",
@@ -23,7 +25,8 @@
       "anchor": "p1249",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1249.png",
-      "text": "Long-acting β2-agonist (LABA): Formoterol (Foradil Aerolizer); Arformoterol (Brovana); Formoterol (Perforomist); Indacaterol (Arcapta Neohaler); Salmeterol (Serevent Diskus); Olodaterol (Striverdi Respimat); Vilanterol"
+      "text": "Long-acting β2-agonist (LABA): Formoterol (Foradil Aerolizer); Arformoterol (Brovana); Formoterol (Perforomist); Indacaterol (Arcapta Neohaler); Salmeterol (Serevent Diskus); Olodaterol (Striverdi Respimat); Vilanterol",
+      "ordinal": "table-24350"
     },
     {
       "chapter": "81",
@@ -31,7 +34,8 @@
       "anchor": "p1250",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1250.png",
-      "text": "Short-acting anticholinergic bronchodilator: Ipratropium (Atrovent HFA); Ipratropium (Atrovent)"
+      "text": "Short-acting anticholinergic bronchodilator: Ipratropium (Atrovent HFA); Ipratropium (Atrovent)",
+      "ordinal": "table-24351"
     },
     {
       "chapter": "81",
@@ -39,7 +43,8 @@
       "anchor": "p1250",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1250.png",
-      "text": "Combined short-acting anticholinergic + SABA: Albuterol + Ipratropium (Combivent Respimat); Albuterol + Ipratropium (DuoNeb)"
+      "text": "Combined short-acting anticholinergic + SABA: Albuterol + Ipratropium (Combivent Respimat); Albuterol + Ipratropium (DuoNeb)",
+      "ordinal": "table-24352"
     },
     {
       "chapter": "81",
@@ -47,7 +52,8 @@
       "anchor": "p1250",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1250.png",
-      "text": "Long-acting anticholinergic (LAMA): Aclidinium Bromide (Tudorza Pressair); Tiotropium (Spiriva Handihaler); Umeclidinium (Incruse Ellipta); Glycopyrrolate (Lonhala Magnair); Revefenacin (Yupelri)"
+      "text": "Long-acting anticholinergic (LAMA): Aclidinium Bromide (Tudorza Pressair); Tiotropium (Spiriva Handihaler); Umeclidinium (Incruse Ellipta); Glycopyrrolate (Lonhala Magnair); Revefenacin (Yupelri)",
+      "ordinal": "table-24353"
     },
     {
       "chapter": "81",
@@ -55,7 +61,8 @@
       "anchor": "p1250",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1250.png",
-      "text": "Combined LABA + LAMA: Vilanterol + Umeclidinium (Anoro Ellipta); Olodaterol + Tiotropium (Stiolto Respimat)"
+      "text": "Combined LABA + LAMA: Vilanterol + Umeclidinium (Anoro Ellipta); Olodaterol + Tiotropium (Stiolto Respimat)",
+      "ordinal": "table-24354"
     },
     {
       "chapter": "81",
@@ -63,7 +70,8 @@
       "anchor": "p1251",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1251.png",
-      "text": "Inhaled corticosteroid (ICS): Beclomethasone (Qvar); Ciclesonide (Alvesco); Flunisolide (Aerospan HFA); Fluticasone (Flovent Diskus); Fluticasone (Flovent HFA); Mometasone (Asmanex Twisthaler)"
+      "text": "Inhaled corticosteroid (ICS): Beclomethasone (Qvar); Ciclesonide (Alvesco); Flunisolide (Aerospan HFA); Fluticasone (Flovent Diskus); Fluticasone (Flovent HFA); Mometasone (Asmanex Twisthaler)",
+      "ordinal": "table-24355"
     },
     {
       "chapter": "81",
@@ -71,7 +79,8 @@
       "anchor": "p1251",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1251.png",
-      "text": "Combined LABA bronchodilator + ICS: Formoterol + Budesonide (Symbicort); Formoterol + Mometasone (Dulera); Salmeterol + Fluticasone (Advair Diskus); Vilanterol + Fluticasone (Breo Ellipta)"
+      "text": "Combined LABA bronchodilator + ICS: Formoterol + Budesonide (Symbicort); Formoterol + Mometasone (Dulera); Salmeterol + Fluticasone (Advair Diskus); Vilanterol + Fluticasone (Breo Ellipta)",
+      "ordinal": "table-24356"
     },
     {
       "chapter": "81",
@@ -79,7 +88,8 @@
       "anchor": "p1252",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1252.png",
-      "text": "Other medications: Roflumilast (Daliresp); Theophylline; Azithromycin"
+      "text": "Other medications: Roflumilast (Daliresp); Theophylline; Azithromycin",
+      "ordinal": "table-24357"
     },
     {
       "chapter": "81",
@@ -87,7 +97,8 @@
       "anchor": "p1252",
       "section": "Table 81-10",
       "source": "chapters/hazzard8e_ch81_table81-10_p1252.png",
-      "text": "Triple-inhaler therapy: LAMA, LABA, and ICS: Umeclidinium + Vilanterol + Fluticasone (Trelegy Ellipta)"
+      "text": "Triple-inhaler therapy: LAMA, LABA, and ICS: Umeclidinium + Vilanterol + Fluticasone (Trelegy Ellipta)",
+      "ordinal": "table-24358"
     },
     {
       "chapter": "68",
@@ -95,7 +106,8 @@
       "anchor": "p1061",
       "section": "Table 68-6",
       "source": "chapters/hazzard8e_ch68_table68-6_p1061.png",
-      "text": "Commonly prescribed oral opioid pain medications: Morphine; Oxymorphone (Opana); Hydromorphone (Dilaudid, Exalgo); Oxycodone (Roxicodone, OxyContin); Hydrocodone-acetaminophen (Norco); Codeine (codeine, Tylenol 3); Tramadol (Ultram); Methadone (Dolophine); Fentanyl (Duragesic); Tapentadol (Nucynta); Buprenorphine (Belbuca, Butrans, Buprenex)"
+      "text": "Commonly prescribed oral opioid pain medications: Morphine; Oxymorphone (Opana); Hydromorphone (Dilaudid, Exalgo); Oxycodone (Roxicodone, OxyContin); Hydrocodone-acetaminophen (Norco); Codeine (codeine, Tylenol 3); Tramadol (Ultram); Methadone (Dolophine); Fentanyl (Duragesic); Tapentadol (Nucynta); Buprenorphine (Belbuca, Butrans, Buprenex)",
+      "ordinal": "table-24359"
     },
     {
       "chapter": "105",
@@ -103,7 +115,8 @@
       "anchor": "p1689",
       "section": "Table 105-11",
       "source": "chapters/hazzard8e_ch105_table105-11_p1689.png",
-      "text": "Antibiotics used in pneumonia: Amikacin; Amoxicillin/clavulanate; Azithromycin; Cefditoren; Cefepime; Ceftriaxone; Ciprofloxacin; Ertapenem; Imipenem; Levofloxacin; Linezolid; Meropenem; Moxifloxacin; Piperacillin/tazobactam; Tobramycin"
+      "text": "Antibiotics used in pneumonia: Amikacin; Amoxicillin/clavulanate; Azithromycin; Cefditoren; Cefepime; Ceftriaxone; Ciprofloxacin; Ertapenem; Imipenem; Levofloxacin; Linezolid; Meropenem; Moxifloxacin; Piperacillin/tazobactam; Tobramycin",
+      "ordinal": "table-24360"
     },
     {
       "chapter": "101",
@@ -112,7 +125,8 @@
       "page": 1614,
       "section": "Table 101-4",
       "source": "chapters/hazzard8e_ch101_table101-4_p1614.png",
-      "text": "Antimalarials: hydroxychloroquine, quinacrine, chloroquine"
+      "text": "Antimalarials: hydroxychloroquine, quinacrine, chloroquine",
+      "ordinal": "table-24361"
     },
     {
       "chapter": "101",
@@ -121,7 +135,8 @@
       "page": 1614,
       "section": "Table 101-4",
       "source": "chapters/hazzard8e_ch101_table101-4_p1614.png",
-      "text": "TNF inhibitors: etanercept, infliximab, adalimumab, certolizuman pegol, golimumab"
+      "text": "TNF inhibitors: etanercept, infliximab, adalimumab, certolizuman pegol, golimumab",
+      "ordinal": "table-24362"
     },
     {
       "chapter": "101",
@@ -130,7 +145,8 @@
       "page": 1614,
       "section": "Table 101-4",
       "source": "chapters/hazzard8e_ch101_table101-4_p1614.png",
-      "text": "Abatacept: recombinant fusion protein combining extracellular domain of human CTLA-4 and Fc domain of human IgG1"
+      "text": "Abatacept: recombinant fusion protein combining extracellular domain of human CTLA-4 and Fc domain of human IgG1",
+      "ordinal": "table-24363"
     },
     {
       "chapter": "101",
@@ -139,7 +155,8 @@
       "page": 1615,
       "section": "Table 101-4",
       "source": "chapters/hazzard8e_ch101_table101-4_p1615.png",
-      "text": "Anakinra: IL-1 receptor antagonist"
+      "text": "Anakinra: IL-1 receptor antagonist",
+      "ordinal": "table-24364"
     }
   ],
   "entries": [
