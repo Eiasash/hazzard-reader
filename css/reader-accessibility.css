@@ -99,6 +99,9 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
 }
 
 #copy a[href]:not(.pg) { display:inline-block; min-inline-size:24px; min-block-size:24px; max-inline-size:100%; overflow-wrap:anywhere; }
+#copy .reader-guidance p a[href]:not(.pg),#copy.study-page [dir=rtl] p a[href]:not(.pg){display:inline;overflow-wrap:break-word}
+#copy.study-page>:is(.study-test,.study-group):not(:has(~ :not([hidden],.point-rail,template))){border-block-end:0}
+#copy .study-test .study-question-row:not(:has(~ :not([hidden]))){border-block-end:0}
 #copy .practice-sentence-initial {text-transform:uppercase}
 #copy .read-editorial-notes{margin-block:4px 10px;color:var(--muted);font-family:var(--ui)}
 #copy .read-editorial-notes>summary{width:fit-content;min-height:36px;align-content:center;cursor:pointer;color:var(--accent);font:600 var(--type-label)/1.4 var(--ui)}
@@ -106,8 +109,15 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
 body.reading-exam-links #copy a.pg-integrated::before,
 #copy a.pg-integrated:has(~ .exam-count[data-exam-destination])::before {content:none}
 #copy .exam-reference-annotation {display:block;margin-block:3px;color:var(--muted);font:500 var(--type-label)/1.4 var(--ui)}
-body.reading-exam-links #copy .read-inline-question[data-integrated-exam]:not([open]),
-body.reading-exam-links #copy .read-inline-question[data-integrated-exam]>summary {display:none}
+#copy .read-inline-question[data-integrated-exam]:not([open]),
+#copy .read-inline-question[data-integrated-exam]>summary {display:none}
+body:not(.reading-exam-links) #readPane #copy .exam-count[data-case-label]{display:inline!important}
+body:not(.reading-exam-links) #copy .exam-count[data-case-label]:not([data-exam-destination]) .exam-count-list{display:none}
+body:not(.reading-exam-links) #copy a.pg-integrated:has(~ .exam-count[data-case-label])::before,
+#copy .read-opening-page-source a.pg::before{content:none}
+#copy p.read-opening-page-source{height:0;margin:0;padding:0;border:0;line-height:0}
+#copy .read-opening-page-label{white-space:nowrap;margin-inline-start:.3em;color:var(--muted);font:500 var(--type-label)/1.4 var(--ui)}
+body.reading-exam-links #copy .read-opening-page-label.has-exam-control{display:none}
 #copy .note.book-media-caption {border:0;background:transparent;padding:0;color:var(--muted)}
 #chapterRows .chapter-name .chapter-p005-note { display:inline-block; width:fit-content; margin-inline-start:.4em; }
 #chapterHeader #settingsGear { order:2; }

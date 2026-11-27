@@ -136,8 +136,6 @@ Exercise, gait cueing and physical therapy support mobility. Ask about falls, sw
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Presyncope on donepezil</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="Hazzard 8e: cholinesterase inhibition and bradycardia, p912">p912</a></p>
-
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c52415f4d7c73e695361110a"><span>September 2024 Q59</span> Manganese exposure</a> <a class="study-source-link" href="?chapter=61#p936" aria-label="exam reference, p936">p936</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-66ccc4806be30db38956eb5f"><span>May 2024 Q37</span> Nigral cell loss</a> <a class="study-source-link" href="?chapter=61#p938" aria-label="exam reference, p938">p938</a></p>

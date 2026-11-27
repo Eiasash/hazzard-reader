@@ -55,7 +55,7 @@
 #mcqViewport .mcq-options .mcq-option,.sim-page .mcq-options .mcq-option {padding:var(--row-pad-block) var(--row-pad-inline);min-height:var(--row-min);border-radius:10px;font:450 var(--type-body)/1.48 var(--ui)}
 #mcqViewport .mcq-explanation,.sim-page .mcq-explanation {margin:.7em 0;padding:.8em .9em;background:var(--surface);border:1px solid var(--rule);border-radius:12px;color:var(--ink);font:450 var(--type-body)/1.55 var(--ui)}
 .mcq-explanation .mcq-option-explanation {border-width:0;border-inline-start:3px solid var(--rule);border-radius:0;padding:.4em .6em}
-.mcq-citations {margin:.75em 0;border-block:1px solid var(--rule)}
+.mcq-citations {margin:.55em 0 0;border-block-start:1px solid var(--rule);border-block-end:0}
 .mcq-citations[open] {padding-bottom:.4em}
 .mcq-page:has(>.mcq-docked-actions) .mcq-citations:not([open]) {padding-block-end:0}
 .review-session {margin-bottom:.6em}
@@ -110,7 +110,7 @@
 /* Phone row rhythm shared with Chapters, Notebook and Settings. */
 #panel [data-pane="practice"] .practice-routes>li {min-height:0}
 #panel [data-pane="practice"] #changedQuestions {position:relative}
-#panel [data-pane="practice"] #changedQuestions>.changed-run {padding-inline-end:4em}
+#panel [data-pane="practice"] #changedQuestions>.changed-run {padding-inline-end:6.4em}
 #panel [data-pane="practice"] #changedQuestions>.changed-run::after {content:none}
 #changedQuestions>.changed-questions {margin:0;padding:0}
 #changedQuestions>.changed-questions>summary {position:absolute;inset:0 0 auto auto;display:flex;align-items:center;justify-content:center;gap:.35em;min-width:3.7em;min-height:var(--row-min);padding:var(--row-pad-block);cursor:pointer;font:600 var(--type-label)/1.35 var(--ui);color:var(--accent);list-style:none}
@@ -144,3 +144,33 @@ body:has(#mcqViewport:not([hidden]) .review-session) #findToggle {display:none!i
 #statsViewport .stats-basic-line a {min-height:var(--row-min);font-size:var(--type-label)}
 #statsViewport .stats-category>summary {display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:var(--row-gap) .45em;min-height:var(--row-min);padding-block:var(--row-pad-block)}
 #statsViewport .stats-category>summary>.stats-topic-count,#statsViewport .stats-category>summary>.stats-pill {grid-area:auto;font-size:var(--type-label);white-space:nowrap}
+
+/* Keep labels and values intact while leaving room for the surrounding text to wrap. */
+.stats-figure,.stats-track-coverage>span {white-space:nowrap;overflow-wrap:normal;font-variant-numeric:tabular-nums}
+.stats-track-coverage {display:flex;flex-wrap:wrap;gap:.12em .85em}
+.mcq-filter-toggle .mcq-count {display:block;color:var(--muted);font:500 var(--type-label)/1.35 var(--ui)}
+#mcqViewport .mcq-question-tools>[data-question-menu-trigger] {display:grid;place-items:center;width:44px;height:44px;padding:0;border:0;background:transparent;color:var(--muted)}
+.mcq-question-tools>[data-question-menu-trigger] span {font-size:var(--type-heading);line-height:1}
+#mcqViewport .mcq-cross {align-self:center;flex:0 0 44px;inline-size:44px;block-size:44px;min-width:44px;min-height:44px;padding:0;border:0;background:transparent;color:var(--muted)}
+#mcqViewport .mcq-cross svg {width:18px;height:18px;stroke-width:2}
+#mcqViewport .mcq-cross[aria-pressed="true"] svg {color:var(--accent);background:var(--accent-soft);border-radius:3px}
+.mcq-explanation>h3[data-answer-heading] {display:flex;align-items:center;justify-content:space-between;gap:12px}
+#mcqViewport .mcq-explanation h3 [data-select-reader-text] {min-height:44px;min-width:44px;margin:0;padding:4px;border:0;background:transparent;color:var(--accent);font:600 var(--type-label)/1.3 var(--ui);text-decoration:underline;text-underline-offset:.15em}
+.mcq-citations .mcq-source-row {display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:.2em .7em;margin:0}
+.mcq-source-text {flex:1 1 12em;min-inline-size:0;text-align:start;overflow-wrap:break-word}
+.mcq-source-sitting {flex:none;white-space:nowrap;color:var(--muted);font:600 var(--type-label)/1.4 var(--ui)}
+body:not(.mark-bar-open) #readerViewport #mcqViewport:has(.mcq-docked-actions) {padding-block-end:0}
+#mcqViewport .mcq-page>.mcq-docked-actions {position:sticky;inset-block-end:0;margin:0;padding:.25em 0 max(.25em,env(safe-area-inset-bottom));z-index:3}
+#mcqViewport .mcq-docked-actions>button {min-width:44px;min-height:44px;max-width:100%;white-space:normal;overflow-wrap:normal}
+#mcqViewport .mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:0}
+
+.paper-progress {display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:var(--row-gap) .55em;margin:.2em 0 .45em;font:600 var(--type-control)/1.35 var(--ui)}
+.paper-progress span,.exam-countdown {color:var(--muted);font:500 var(--type-label)/1.4 var(--ui)}
+.exam-countdown {white-space:nowrap}.exam-countdown strong {color:var(--ink);font-size:var(--type-control);font-variant-numeric:tabular-nums}
+#mcqViewport .practice-result {padding:var(--row-pad-inline);border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+.practice-result>h2 {margin:0 0 .35em;font:650 var(--type-body)/1.4 var(--ui)}
+.practice-result .mcq-score-value {margin:.2em 0;font-variant-numeric:tabular-nums}
+.practice-result-actions {display:flex;flex-direction:column;align-items:stretch;gap:5px;margin-top:.7em}
+.practice-result-actions button {min-width:0;min-height:44px;padding:var(--row-pad-block) var(--row-pad-inline);white-space:normal;text-align:start}
+.practice-result-actions .primary {background:var(--accent);color:var(--page)}
+#flashcardView .flashcard-actions button {min-width:0;white-space:normal;overflow-wrap:normal}

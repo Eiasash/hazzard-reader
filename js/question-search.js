@@ -10,6 +10,7 @@ window.HazzardQuestionSearch = (() => {
     const input=screen.querySelector('input[type=search]'),all=screen.querySelector('input[type=checkbox]'),results=screen.querySelector('.question-search-results'),status=screen.querySelector('[role=status]');
     screen.querySelector('label').hidden=!allowAll;
     screen.querySelector('.question-search-help').textContent=allowAll?'Stem, options and explanation · current filters unless All questions is selected.':'Current paper only · stems and options. No explanations or answer keys.';
+    const indexed=new Map();
     const batchSize=30,more=document.createElement('button');more.type='button';more.textContent='Show more results';
     let serial=0,restoring=false,timer,matches=[],shown=0;
     function remember(){if(!restoring&&history.state?.hazzardQuestionSearch)history.replaceState({...history.state,hazzardQuestionSearch:{query:input.value,all:all.checked,scroll:results.scrollTop,shown}},'');}
@@ -27,11 +28,21 @@ window.HazzardQuestionSearch = (() => {
     more.onclick=()=>{const first=appendResults(shown+batchSize);first?.focus({preventScroll:true});remember();};
     async function render(scroll=0,limit=batchSize){
       clearTimeout(timer);
-      const turn=++serial,query=normalize(input.value);matches=[];shown=0;results.replaceChildren();status.textContent=query?'Searching…':'Enter words to search.';
-      if(!query)return;
+      const turn=++serial,query=HazzardSearchTerms.compile(input.value);matches=[];shown=0;results.replaceChildren();status.textContent=query.text?'Searching…':'Enter words to search.';
+      if(!query.text)return;
       try{
-        const items=await getItems(allowAll&&all.checked);if(turn!==serial||screen.hidden)return;
-        const words=query.split(' ');matches=items.filter(q=>{const text=normalize(q.text);return words.every(word=>text.includes(word));});
+        const items=await getItems(allowAll&&all.checked,query.chapter);if(turn!==serial||screen.hidden)return;
+        if(query.chapter)matches=items;
+        else{
+          const ranked=[];
+          for(const q of items){
+            let cached=indexed.get(q.id);
+            if(!cached||cached.original!==q.text){cached={original:q.text,compiled:HazzardSearchTerms.prepare(q.text)};indexed.set(q.id,cached);}
+            const rank=query.rank(cached.compiled);if(Number.isFinite(rank))ranked.push({q,rank});
+          }
+          const literal=ranked.some(row=>row.rank<3);
+          matches=ranked.filter(row=>!literal||row.rank<3).sort((a,b)=>a.rank-b.rank).map(row=>row.q);
+        }
         status.textContent=matches.length+' matching questions';
         appendResults(Math.max(batchSize,limit));
         // A visit saved before paging has a scroll offset but no displayed count.

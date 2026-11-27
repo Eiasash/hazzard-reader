@@ -16,6 +16,14 @@ RUN = re.compile(
 
 def generate():
     data = json.loads((ROOT / 'data/law-cards.json').read_bytes())
+    # A lesson can quote Hebrew as its first term while its sentence is English.
+    # Ignore bracketed bibliography when deciding the language of a teaching bullet.
+    english_bullets = set()
+    for card in [*data['cards'], *data['articles']['cards']]:
+        for bullet in card.get('bullets', []):
+            prose = re.sub(r'\[[^\]]*\]', '', bullet)
+            if HEBREW.search(prose) and len(re.findall(r'[A-Za-z]+', prose)) > len(re.findall(r'[\u05d0-\u05ea]+', prose)):
+                english_bullets.add(bullet)
     layout = {}
     def collect(value):
         if isinstance(value, list):
@@ -25,6 +33,9 @@ def generate():
             for item in value.values():
                 collect(item)
         elif isinstance(value, str) and HEBREW.search(value):
+            if value in english_bullets:
+                layout[value] = [False, [value], 'en']
+                return
             first = STRONG.search(value)
             if first is None:
                 return

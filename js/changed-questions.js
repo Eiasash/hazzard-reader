@@ -54,9 +54,11 @@ window.HazzardChanged = (() => {
       const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent=label;
       tab?.setAttribute('aria-label', questions.length ? 'Practice — ' + label : 'Practice');
       const details = document.createElement('details'), summary = document.createElement('summary');
-      summary.textContent = 'List';summary.setAttribute('aria-label','Show changed questions');
+      summary.textContent = 'Show list';summary.setAttribute('aria-label','Show changed questions');
       details.className = 'changed-questions'; details.open = host.querySelector('details')?.open || false;
       details.append(summary);
+      function labelList(){summary.textContent=details.open?'Hide list':'Show list';summary.setAttribute('aria-label',details.open?'Hide changed questions':'Show changed questions');}
+      labelList();details.addEventListener('toggle',labelList);
       const note = document.createElement('p');
       note.textContent = 'You answered these before they changed. Answer again to clear them.';
       details.append(note);

@@ -225,6 +225,14 @@ window.HazzardEvidence = (() => {
       copy.replaceWith(clone);
     });
   }
+  function syncCaseLabels(root){
+    const showEvidence=document.body.classList.contains('reading-exam-links');
+    for(const badge of root.querySelectorAll('.exam-count[data-case-label]')){
+      const button=badge.querySelector('.exam-count-toggle');
+      button.textContent=showEvidence?badge.dataset.evidenceLabel:badge.dataset.caseLabel;
+      button.setAttribute('aria-label',showEvidence?badge.dataset.evidenceDescription:badge.dataset.caseLabel+' · exam question');
+    }
+  }
   function refreshExamList(copy,chapter,data){
     const original=[...copy.querySelectorAll('p')].find(p=>/^(?:No past-exam questions are currently linked to this chapter|Past-exam questions linked to this chapter \(\d+\))/.test(p.textContent.trim()));
     if(!original)return;
@@ -366,6 +374,9 @@ window.HazzardEvidence = (() => {
           }
           button.setAttribute('aria-controls',[list.id,...spot.teaching.map(q=>q.id)].join(' '));
           button.addEventListener('click',()=>{for(const question of spot.teaching)question.open=!list.hidden;});
+          badge.dataset.evidenceLabel=button.textContent;
+          badge.dataset.evidenceDescription=button.getAttribute('aria-label');
+          badge.dataset.caseLabel=spot.pageInfo.pages.map(n=>'p'+n).join(', ')+' · '+spot.teaching.map(q=>'Q'+q.dataset.examNumber).join(', ');
         }
         if(spot.name)badge.dataset.printedObject=spot.name;
         for(const id of spot.anchors.slice(1)){
@@ -375,6 +386,7 @@ window.HazzardEvidence = (() => {
         if(spot.inside)spot.block.append(badge);else spot.block.after(badge);
         if(compact&&!study)annotations.push({element:badge,ids:[...spot.entries.keys()]});
       }
+      if(!study)syncCaseLabels(copy);
     }
     if(earlier.length)labelAt(copy.querySelector('h1'),earlier,'Asked in this chapter','asked-chapter');
     if(chapterOnly.length)labelAt(copy.querySelector('h1'),chapterOnly,'Chapter reference without a matching printed passage','cited-chapter','Cited');
@@ -524,5 +536,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {askedBadge,cloneTableControls,sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
+  return {askedBadge,cloneTableControls,syncCaseLabels,sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
 })();

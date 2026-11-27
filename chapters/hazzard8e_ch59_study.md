@@ -242,7 +242,7 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7dd1def9d494cc738077131"><span>September 2024 Q61</span> Adverse effects of memantine</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Drug-related presyncope</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Drug-related presyncope</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="Supporting evidence: donepezil adverse effects, Table 59-7, p912">p912</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-26ba0a6e4969ec4edfbd0987"><span>June 2026 Q16</span> Modifiable dementia risks</a> <a class="study-source-link" href="?chapter=59#p913" aria-label="8e teaching passage, p913">p913</a></p>
 

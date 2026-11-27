@@ -32,7 +32,12 @@
 #copy .reader-plate>p {margin:0}
 #copy .reader-plate figcaption {margin-block-start:9px;color:var(--muted);font:500 var(--type-control)/1.47 var(--ui)}
 #copy .reader-plate figcaption :is(p,blockquote) {border:0;padding:0;background:transparent;font:inherit;color:inherit}
-#copy .open-table {min-height:44px;color:var(--accent);background:var(--surface);border-color:var(--control);margin-block:.35em}
+#copy .open-table {min-block-size:28px;min-height:28px;padding:3px 4px;margin:0 0 2px auto;border:0;background:transparent;color:var(--accent);font:600 var(--type-label)/1.35 var(--ui);text-decoration:underline;text-underline-offset:3px}
+#copy figure:has(.continuous-caption) {padding:0;margin:1em 0;border:0;background:transparent}
+#copy .continuous-caption {margin:.35em 0 0;color:var(--muted);font:400 var(--type-control)/1.45 var(--ui)}
+#copy .continuous-caption details {margin:0;border:0;padding:0}
+#copy .continuous-caption details>summary {display:none}
+#copy .continuous-caption .printed-figure-caption {margin:0;background:transparent;border:0;padding:0;color:inherit;font:inherit}
 #imageZoom .zoom-bar {display:flex;gap:6px;justify-content:flex-end;align-items:center}
 #imageZoom .zoom-bar button,#tableViewer header button {flex:0 0 auto;min-width:44px;min-height:44px;font:620 var(--type-label)/1.15 var(--ui)}
 #tableViewer header {display:flex;align-items:center;gap:4px;flex-wrap:wrap}
@@ -108,18 +113,19 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
   line-height:1.45;overflow-wrap:normal;
 }
 #library #chapterRows .library-row>.chapter-name {
-  display:inline;min-width:0;width:auto;padding:3px 0;border:0;background:none;text-align:start;
+  display:block;min-width:0;width:100%;padding:2px 0;border:0;background:none;text-align:start;
   white-space:normal;overflow:visible;text-decoration:none;color:var(--ink);
 }
 #chapterRows .chapter-row-context {display:inline;margin-inline-end:.35em;color:var(--muted);font:570 var(--type-label)/1.24 var(--ui)}
 #chapterRows .chapter-row-context:empty {display:none}
 #chapterRows .chapter-row-title {display:inline;white-space:normal;overflow-wrap:break-word;word-break:normal;color:var(--ink);font:670 var(--type-body)/1.36 var(--ui)}
 #chapterRows .chapter-name:hover .chapter-row-title,#chapterRows .chapter-name:focus-visible .chapter-row-title {text-decoration:underline}
-#chapterRows .chapter-actions,#chapterRows .library-exams:not([hidden]),#chapterRows .exam-count {display:contents}
+#library #chapterRows .chapter-actions {display:flex;align-items:center;flex-wrap:nowrap;gap:12px;min-height:28px;margin:1px 0 0}
+#chapterRows .library-exams:not([hidden]),#chapterRows .exam-count {display:contents}
 #chapterRows .library-exams[hidden] {display:none}
-#library #chapterRows .chapter-actions .library-study,#library #chapterRows .exam-count>button.exam-count-toggle {
+#library #chapterRows .chapter-actions>a,#library #chapterRows .exam-count>button.exam-count-toggle {
   display:inline-flex;vertical-align:baseline;align-items:center;justify-content:center;min-width:0;width:auto;min-height:28px!important;
-  min-block-size:28px!important;height:auto;margin:0 0 0 .55em;padding:2px;border:0;border-radius:0;background:transparent;box-shadow:none;
+  min-block-size:28px!important;height:auto;margin:0;padding:2px 0;border:0;border-radius:0;background:transparent;box-shadow:none;
   color:var(--accent);font:610 var(--type-label)/1.2 var(--ui);text-decoration:underline;text-underline-offset:3px;white-space:nowrap;
 }
 #chapterRows .library-row>.library-status {display:block;margin:1px 0 0;color:var(--muted);font:520 var(--type-small)/1.3 var(--ui);white-space:nowrap}
@@ -148,6 +154,7 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #panel[open][data-primary=true] #sizeChoices button {border:0;background:transparent;color:var(--muted)}
 #panel[open][data-primary=true] #sizeChoices button[aria-pressed=true] {background:var(--accent);color:var(--surface);font-weight:700;box-shadow:none}
 .notebook-empty {padding:16px;background:var(--surface);border:1px solid var(--rule);border-radius:12px}
+.notebook-empty h2:focus {outline:none}
 .notebook-empty h2 {font:680 var(--type-heading)/1.25 var(--ui);margin:0 0 8px}
 .notebook-empty a {display:inline-flex;align-items:center;min-height:44px;padding-inline-end:14px;color:var(--accent);font-weight:620}
 #copy .clinical-sources {margin:3px 0 0;border:0;background:transparent}
@@ -169,10 +176,15 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #panel .nb-reading-section ul {list-style:none;margin:0;padding:0}
 #panel .nb-unplaced .nb-answer-text {background:transparent;color:var(--ink);text-decoration:none;font-weight:480}
 #panel .nb-unplaced button:first-child small {display:block;color:var(--muted);font:480 var(--type-small)/1.35 var(--ui);margin-top:3px}
-#panel .nb-current-place {display:flex;align-items:center;gap:8px;border-block-end:1px solid var(--rule);padding:6px 0}
+#panel .nb-current-place {display:grid;grid-template-columns:minmax(0,1fr);justify-items:start;gap:2px;border-block-end:1px solid var(--rule);padding:8px 0 5px}
 #panel .nb-current-place[hidden] {display:none}
-#panel .nb-current-place span {flex:1;color:var(--muted);font:530 var(--type-label)/1.3 var(--ui)}
-#panel .nb-current-place button {width:auto;min-height:44px;margin:0;padding:3px 5px;border:0;background:transparent;color:var(--accent);font:620 var(--type-label)/1.2 var(--ui)}
+#panel #notebookCurrentPlaceLabel,#panel .nb-chapter-label {display:block;max-width:100%;min-width:0}
+#panel [data-pane=notebook] .nb-chapter-label strong {display:block;font:630 var(--type-control)/1.32 var(--ui);color:var(--ink)}
+#panel [data-pane=notebook] .nb-chapter-label small {display:block;margin:1px 0 0;color:var(--muted);font:500 var(--type-small)/1.25 var(--ui)}
+body #panel[open][data-primary=true] > [data-pane=notebook]:not([hidden]) {padding-block-end:calc(var(--tabs-height) + 4px)}
+body.reading-bars-hidden #panel[open][data-primary=true] > [data-pane=notebook]:not([hidden]) {padding-block-end:4px}
+#panel [data-pane=notebook] #savedPlace {margin-block-end:0}
+#panel .nb-current-place button {width:auto;min-height:32px;min-block-size:32px;margin:0;padding:2px 0;border:0;background:transparent;color:var(--accent);font:620 var(--type-label)/1.2 var(--ui)}
 
 #copy :is(.study-group,.study-test)>summary {display:flex;align-items:center;gap:.45em;list-style:none;min-block-size:44px;margin:0;padding:5px 0;line-height:1.22}
 #copy :is(.study-group,.study-test)>summary::-webkit-details-marker {display:none}
@@ -181,6 +193,14 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #copy :is(.study-group,.study-test)[open]>summary::before {content:'▾'}
 #copy :is(.study-group,.study-test)>summary>:is(h2,h3,h4) {display:inline;min-width:0;margin:0;padding:0;border:0;font:670 var(--type-subhead)/1.24 var(--ui)}
 #copy [data-study-continuation]>summary {display:none}
+#copy::highlight(notebook-arrival),#copy *::highlight(notebook-arrival) {background-color:var(--accent);color:var(--surface);text-decoration:underline}
+#copy .notebook-arrival-fallback {background:var(--accent)!important;color:var(--surface)!important;outline:1px solid var(--accent)}
+#panel[open][data-primary=true] [data-pane=tools].settings-subpage>:not(.settings-active-section),#panel[open][data-primary=true] [data-pane=tools].settings-subpage>.settings-active-section>summary {display:none!important}
+#panel[open][data-primary=true] [data-pane=tools].settings-subpage>.settings-active-section {border:0;border-radius:0;background:transparent;padding:0;margin:0}
+#library .library-result-group {margin:7px 0;border:1px solid var(--rule);border-radius:9px;padding:0 10px;background:var(--surface)}
+#library .library-result-group>summary {min-height:44px;align-content:center;color:var(--accent);font:630 var(--type-control)/1.28 var(--ui);cursor:pointer}
+#library .library-result-group .rows button {padding:7px 2px}
+#library .library-result-group .rows small {display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.35}
 #copy .book-art-crop {display:block;position:relative;width:100%;overflow:hidden}
 #copy .book-art-crop>img {position:absolute;inset:0 auto auto 0;display:block;width:100%;height:auto;max-width:none}
 #copy figure:has(.book-art-crop)>figcaption[data-image-label-only]:not(:has([data-mark-key])) {display:none}
@@ -191,6 +211,6 @@ body:has(#chapterHeader.study-header):not(.reading-bars-hidden) #readerViewport 
 #imageZoom .zoom-bar button {background:var(--surface);color:var(--accent);border-color:var(--control)}
 @media(max-width:700px){
  #copy .table-wrap {max-inline-size:100%;inline-size:100%}
- #copy .table-wrap>table {table-layout:fixed;inline-size:100%;max-inline-size:100%}
- #copy .table-wrap>table :is(td,th):nth-child(n) {min-inline-size:0;max-inline-size:none;padding:.4em;white-space:normal;overflow-wrap:anywhere;word-break:normal;line-height:1.4}
+ #copy .table-wrap>table {table-layout:auto;inline-size:100%;max-inline-size:none}
+ #copy .table-wrap>table :is(td,th):nth-child(n) {min-inline-size:0;max-inline-size:none;padding:.4em;white-space:normal;overflow-wrap:normal;word-break:normal;hyphens:manual;line-height:1.4}
 }
