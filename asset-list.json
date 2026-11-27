@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "e4dfe4f3ac1d003dcae18594641aa24ea3fd8f712607f038de71f675e56edfe4",
-      "bytes": 26588
+      "sha256": "a9ad7fcce84e2806edeaa2ee21f2ee795fd3111f2bc70f95af8bef9fc204290f",
+      "bytes": 27493
     },
     {
       "url": "./css/reading-companion.css",
@@ -8653,8 +8653,8 @@
     },
     {
       "url": "./js/flashcards.js",
-      "sha256": "be9720aa48a65c7cf9c6bd784978f6ca569c86df024b9f730e4a493a6ccfc87a",
-      "bytes": 16290
+      "sha256": "b41f20f2c4ecd8c8e7b9684eaaf57ee1748ebf4e17c0c219f2e0d86a07b0f3f6",
+      "bytes": 17048
     },
     {
       "url": "./js/law-cards.js",
@@ -8728,8 +8728,8 @@
     },
     {
       "url": "./js/reading-companion.js",
-      "sha256": "4f3b6106125cfefcd129eefa2c186fc256b51769f271d8964ec723aa80363d26",
-      "bytes": 14551
+      "sha256": "854fadb3ebec4c8d0f16e3491137e6e1bf25f62cec100d1a3920326332be169a",
+      "bytes": 14630
     },
     {
       "url": "./js/settings-controls.js",

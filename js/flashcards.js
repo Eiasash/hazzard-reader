@@ -220,6 +220,13 @@ window.HazzardFlashcards = (() => {
       '<div class="flashcard-actions"><button type="button" id="flashcardReviewAgain">Review Again cards</button><button type="button" id="flashcardRestart">Restart deck</button></div></div>' +
       '<p role="alert" id="flashcardError" hidden></p>';
     document.querySelector('main').append(pane);
+    document.addEventListener('hazzard-open-chapter-deck',event=>{
+      if(event.target.id!=='readingCompanionFrame'||event.target.dataset.chapter!==chapter||
+         !document.body.classList.contains('single-study-pane'))return;
+      document.body.classList.add('prototype-chapter-deck');
+      requested={scope:chapter,order:'all'};
+      open(document.querySelector('#chapterHeader [data-chapter="'+chapter+'s"]'));
+    });
     function buttonFor(scope) {
       const button = document.createElement('button');
       button.type = 'button';
@@ -227,6 +234,10 @@ window.HazzardFlashcards = (() => {
       button.setAttribute('aria-haspopup', 'dialog');
       button.setAttribute('aria-controls', 'panel');
       button.addEventListener('click', () => {
+        if(scope!=='all'&&copy.classList.contains('study-prototype')&&window.frameElement?.hasAttribute('data-reading-companion')&&parent.document.body.classList.contains('single-study-pane')){
+          window.frameElement.dispatchEvent(new CustomEvent('hazzard-open-chapter-deck',{bubbles:true}));
+          return;
+        }
         requested = {scope, order: 'all'};
         open(button);
       });

@@ -187,6 +187,7 @@ window.HazzardReadingCompanion = (() => {
     const panel = document.getElementById('panel');
     pane = document.createElement('aside');
     pane.id = 'readingCompanion';
+    pane.toggleAttribute('data-study-prototype',study==='61s'||study==='62s');
     pane.setAttribute('aria-label', 'Chapter study pane');
     pane.hidden = true;
     document.querySelector('main').append(pane);

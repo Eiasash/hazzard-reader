@@ -300,3 +300,13 @@ body.nav-page-open #readerViewport,body.nav-page-open #library,body.nav-page-ope
 
 #copy.study-prototype .chapter-exams-reader{display:block;line-height:1.45;padding-block:6px}
 #mcqViewport .study-exam-choices small{flex-basis:100%;color:var(--muted)}
+
+body.prototype-chapter-deck.flashcards-open #readingCompanion{display:none!important}
+
+/* Keep the study document stationary while the outer navigation slides away.
+   Otherwise Android can release a tap over the neighbouring disclosure. */
+body.single-study-pane #readingCompanion[data-study-prototype]:not([hidden]){inset-block:var(--vv-top,0px) var(--vv-bottom-gap,0px)}
+html[data-single-study]:has(.study-prototype) #readerViewport>#readerScroll{margin-block:0;scroll-padding-block:60px 78px}
+html[data-single-study]:has(.study-prototype) #readerScroll>#reader{padding-block-start:calc(var(--reader-header-space,48px) + 12px);padding-block-end:78px}
+html[data-single-study]:has(.study-prototype) #mcqViewport .mcq-page{padding-block-start:calc(var(--reader-header-space,48px) + 12px);padding-block-end:78px}
+html[data-single-study]:has(.study-prototype) #mcqViewport .mcq-docked-actions{bottom:54px}
