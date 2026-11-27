@@ -595,7 +595,7 @@ window.HazzardMCQ = (() => {
     if (q.kind === 'practice') return PRACTICE_LABEL;
     const match = /^(\d{4})(?:-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec))?(?:-(Subspec|Basic))?$/.exec(q.t);
     if (!match) return 'Shlav A';
-    return 'Shlav A ' + (match[2] ? match[2] + ' ' : '') + match[1] + (match[3]==='Basic'?' · Basic track':' · Subspecialty') + (q.examNumber ? ' · Q' + q.examNumber : '');
+    return q.examNumber ? HazzardEvidence.label({sitting:q.t,number:q.examNumber}) : HazzardEvidence.sittingLabel(q.t);
   }
   const SOURCE_TITLES={"חוק החולה הנוטה למות, תשס_ו-2005.pdf":"חוק החולה הנוטה למות, תשס״ו-2005","חוק הכשרות המשפטית והאפוטרופסות, תשכ_ב-1962.pdf":"חוק הכשרות המשפטית והאפוטרופסות, תשכ״ב-1962","חוק זכויות החולה, תשנ_ו-1996.pdf":"חוק זכויות החולה, תשנ״ו-1996","10Redefiningtheobligation.pdf":"הגדרה מחדש של חובת ההודעה על נהגים עם מצבי בריאות העלולים לסכן את עצמם וזולתם","1GeriatricsDivisionBroad.pdf":"הגדרת מושגים - נספח","4Recommendations.pdf":"המלצות מותב הוועדה הארצית לחוק החולה הנוטה למות: PEG לחולה עם קיהיון [דמנציה, שיטיון] שהוא נוטה למות","5MedicalGuardianHospitalization.pdf":"מינוי אפוטרופוס על גופו של אדם ו/או רכושו במסגרת אשפוז ממושך","6Activating.pdf":"הפעלת ייפוי כוח מתמשך בביה״ח במקרים דחופים ללא אישור כניסה לתוקף מטעם האפוטרופוס הכללי","7Temporarydecision.pdf":"מקבל החלטות זמני לעניינים רפואיים","8LicensingandOperating.pdf":"אמות מידה לרישוי ותפעול מחלקה גריאטרית ״סיעוד מורכב״","9Procedurefortreatingelderly.pdf":"נוהל טיפול בזקנים נפגעי התעמרות","1_AGS-Beers-2023.pdf":"American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults","B2_enduring-POA_guide_justice-ministry.pdf":"מדריך לממנה - ייפוי כוח מתמשך","hazzard marked .pdf":"Hazzard 8e","Hazzard 8e (marked)":"Hazzard 8e"};
   function sourceTitle(value){let text=String(value||'');for(const [file,title] of Object.entries(SOURCE_TITLES))text=text.split(file).join(title);return text;}
@@ -1768,7 +1768,7 @@ window.HazzardAnswerHighlights = (() => {
     return marks.map(m=>{
       const q=map.get(m.questionId),ref=evidence.questions[m.questionId];let chapter=null,sitting=null,sittingLabel='',questionNumber=null,label=m.questionId,unplaced=true;
       if(q){const hazzard=/^Hazzard(?: practice)?$/i.test(q.sourceType||'')||!q.sourceType&&(/Hazzard/i.test(q.ref||'')||/^\d+$/.test(q.chapter||'')&&!q.law&&!q.suppliedArticle);if(hazzard)chapter=(ref?.chapters?.length?ref.chapters:[q.bookChapter||q.chapter]).map(String).find(c=>/^\d+$/.test(c))||null;
-        label=HazzardMCQ.sourceLabel(q);if(q.kind==='past'){sitting=ref?.sitting||q.t||null;sittingLabel=label.replace(/\s*\u00b7 Q\d+$/,'');questionNumber=q.examNumber??ref?.number??null;}
+        label=HazzardMCQ.sourceLabel(q);if(q.kind==='past'){sitting=ref?.sitting||q.t||null;sittingLabel=HazzardEvidence.sittingLabel(sitting);questionNumber=q.examNumber??ref?.number??null;}
         const ix=regionIndex(canonicalRoot(q),m.region,m.optionIndex);unplaced=!ix||findAnchor(ix.s,m)<0;
       }
       return {...m,chapter,sitting,sittingLabel,questionNumber,label,unplaced};

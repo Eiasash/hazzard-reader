@@ -312,4 +312,4 @@ Hazzard 8e, p.1152 · [Read source](?chapter=75#p1152)
 
 
 
-[2023-Jun Q97](?chapter=bank&q=mcq-76fb4ce0edbbab9f1ac529f2)
+[June 2023 Q97](?chapter=bank&q=mcq-76fb4ce0edbbab9f1ac529f2)

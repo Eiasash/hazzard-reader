@@ -118,7 +118,7 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 22-2, p.305](hazzard8e_ch22_table22-2_p305.png)
 
-[2023-Jun Q98](?chapter=bank&q=mcq-6e143cb30a2a136307230c2d)
+[June 2023 Q98](?chapter=bank&q=mcq-6e143cb30a2a136307230c2d)
 
 ## Exam questions
 
@@ -126,6 +126,6 @@ The three links below are the original page-linked list. The opening section inc
 
 Past-exam questions linked to this chapter (3):
 
-- [2023-Jun Q79](?chapter=bank&q=mcq-95f642a729895dc17239d748)
-- [2023-Jun Q98](?chapter=bank&q=mcq-6e143cb30a2a136307230c2d)
-- [2026-Jun Q80](?chapter=bank&q=mcq-6394b74a1a69f2de3bcda7b2)
+- [June 2023 Q79](?chapter=bank&q=mcq-95f642a729895dc17239d748)
+- [June 2023 Q98](?chapter=bank&q=mcq-6e143cb30a2a136307230c2d)
+- [June 2026 Q80](?chapter=bank&q=mcq-6394b74a1a69f2de3bcda7b2)

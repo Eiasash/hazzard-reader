@@ -31,7 +31,7 @@ window.HazzardEvidence = (() => {
     }).catch(e => { promise = null; throw e; });
   }
   const sittingLabel = sitting => {const [year,month]=sitting.split('-');const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'};return (months[month]?months[month]+' ':'')+year+(sitting.endsWith('-Basic')?' · Basic track':'');};
-  const label = entry => sittingLabel(entry.sitting) + ' Q' + entry.number;
+  const label = entry => sittingLabel(entry.sitting).replace(' · Basic track',' Basic') + ' Q' + entry.number;
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   const sittingDate = sitting => Number(sitting.slice(0,4))*100+months.indexOf(sitting.split('-')[1])+1;
   // Numeric chapter practice follows current assignments; special collections keep their membership.
@@ -198,9 +198,8 @@ window.HazzardEvidence = (() => {
     headline.append(count);badge.append(headline);
     const links=ordered.map(([id,entry])=>{
       const link=document.createElement('a');
-      const [year,month]=entry.sitting.split('-');
       link.href=questionURL(id);
-      link.textContent=(month?month+' ':'')+year+(entry.sitting.endsWith('-Basic')?' Basic':'')+' Q'+entry.number;
+      link.textContent=label(entry);
       link.setAttribute('aria-label',link.textContent+' · '+prefix+' · '+label(entry));
       return link;
     });
@@ -274,7 +273,7 @@ window.HazzardEvidence = (() => {
     summary.textContent=caption+' '+entries.length;
     links.className='study-exam-choices';
     for(const [id,q] of [...entries].sort((a,b)=>sittingDate(b[1].sitting)-sittingDate(a[1].sitting)||a[1].number-b[1].number)){
-      const link=document.createElement('a');link.href=questionURL(id);link.textContent=sittingLabel(q.sitting)+' Q'+q.number;links.append(link);
+      const link=document.createElement('a');link.href=questionURL(id);link.textContent=label(q);links.append(link);
       if(q.studyContext){const note=document.createElement('small');note.textContent=q.studyContext;links.append(note);}
     }
     details.append(summary,links);return details;

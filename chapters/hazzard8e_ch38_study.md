@@ -102,4 +102,4 @@ TURP removes obstructing adenoma through the urethra and leaves the prostate cap
 
 Past-exam questions linked to this chapter (1):
 
-- [2024-May Q68](?chapter=bank&q=mcq-e2d127b4b2b341b7154a9425)
+- [May 2024 Q68](?chapter=bank&q=mcq-e2d127b4b2b341b7154a9425)

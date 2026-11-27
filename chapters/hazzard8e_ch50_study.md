@@ -121,13 +121,13 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 50-2, p.744](hazzard8e_ch50_table50-2_p744.png)
 
-[2024-Sep Q28](?chapter=bank&q=mcq-e04066f84a3a95a8b9aab699) · [2025-Jun Q51](?chapter=bank&q=mcq-0e7c860e8f2e9076d408c9f1)
+[September 2024 Q28](?chapter=bank&q=mcq-e04066f84a3a95a8b9aab699) · [June 2025 Q51](?chapter=bank&q=mcq-0e7c860e8f2e9076d408c9f1)
 
 ## Past exam questions
 
-- [2025-Jun Q51](?chapter=bank&q=mcq-0e7c860e8f2e9076d408c9f1) — Printed pages 743, 744.
-- [2024-Sep Q28](?chapter=bank&q=mcq-e04066f84a3a95a8b9aab699) — Printed pages 743, 744.
-- [2023-Jun Q51](?chapter=bank&q=mcq-7025f4162f1dd6a89f317d36) — Printed page 747.
+- [June 2025 Q51](?chapter=bank&q=mcq-0e7c860e8f2e9076d408c9f1) — Printed pages 743, 744.
+- [September 2024 Q28](?chapter=bank&q=mcq-e04066f84a3a95a8b9aab699) — Printed pages 743, 744.
+- [June 2023 Q51](?chapter=bank&q=mcq-7025f4162f1dd6a89f317d36) — Printed page 747.
 
 ## Recall drill
 

@@ -104,8 +104,8 @@ In a nursing home or with serious illness, ask what a positive test would requir
 
 Past-exam questions linked to this chapter (5):
 
-- [2023-Jun Q85](?chapter=bank&q=mcq-6a3a4989b7a53b19593f44a7)
-- [2024-Sep Q92](?chapter=bank&q=mcq-e8ffe5e4732e7d63293662ad)
-- [2022-Jun Q29](?chapter=bank&q=mcq-96c14291d2e808ba8a7b3d45)
-- [2022-Jun Q74](?chapter=bank&q=mcq-b12477251a8488577c30c601)
-- [2026-Jun Q10](?chapter=bank&q=mcq-a542a3a627e208dabd1e6265)
+- [June 2023 Q85](?chapter=bank&q=mcq-6a3a4989b7a53b19593f44a7)
+- [September 2024 Q92](?chapter=bank&q=mcq-e8ffe5e4732e7d63293662ad)
+- [June 2022 Q29](?chapter=bank&q=mcq-96c14291d2e808ba8a7b3d45)
+- [June 2022 Q74](?chapter=bank&q=mcq-b12477251a8488577c30c601)
+- [June 2026 Q10](?chapter=bank&q=mcq-a542a3a627e208dabd1e6265)

@@ -136,10 +136,10 @@ Agitation has several possible causes. Identify the specific behavior, look for 
 
 ## Past-paper questions on this chapter
 
-- [2023-Jun Q23 — mcq-795f2687afa4d5918ddb65de](?chapter=bank&q=mcq-795f2687afa4d5918ddb65de)
-- [2026-Jun Q62 — mcq-4ec2512c26a7775166980a4b](?chapter=bank&q=mcq-4ec2512c26a7775166980a4b)
-- [2025-Jun Q38 — mcq-caa086c8705cdeb3606c5536](?chapter=bank&q=mcq-caa086c8705cdeb3606c5536)
-- [2025-Jun Q63 — mcq-8b2cfa55422f88f802142d29](?chapter=bank&q=mcq-8b2cfa55422f88f802142d29)
+- [June 2023 Q23 — mcq-795f2687afa4d5918ddb65de](?chapter=bank&q=mcq-795f2687afa4d5918ddb65de)
+- [June 2026 Q62 — mcq-4ec2512c26a7775166980a4b](?chapter=bank&q=mcq-4ec2512c26a7775166980a4b)
+- [June 2025 Q38 — mcq-caa086c8705cdeb3606c5536](?chapter=bank&q=mcq-caa086c8705cdeb3606c5536)
+- [June 2025 Q63 — mcq-8b2cfa55422f88f802142d29](?chapter=bank&q=mcq-8b2cfa55422f88f802142d29)
 - [2020 Q70 · Israeli feeding recommendations](?chapter=bank&q=mcq-e30d5b23a9f65b0c495739e2)
 - [December 2021 Q96 · physical symptoms in advanced dementia](?chapter=bank&q=mcq-a7281baa9e47a1ae8a80819e)
 - [June 2022 Q10 · idiopathic pulmonary fibrosis](?chapter=bank&q=mcq-541d754d4b0be259fbc19247)

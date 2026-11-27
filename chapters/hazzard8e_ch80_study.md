@@ -117,11 +117,11 @@ Truncal obesity adds to the work of the diaphragm. Vertebral fractures can short
 
 Eight past-exam questions are linked to this chapter.
 
-- [2023-Jun Q67](?chapter=bank&q=mcq-5687d58f50abb0a5affaee3d)
-- [2024-May Q28](?chapter=bank&q=mcq-122d9fc74517c768b3d882c2)
-- [2024-Sep Q39](?chapter=bank&q=mcq-e2505429368dfde81cea15ac)
-- [2026-Jun Q42](?chapter=bank&q=mcq-b51ad3fe1826ffb8741047b1)
-- [2021-Dec Q34](?chapter=bank&q=mcq-91b98ca785a73e91ef64d8b4)
-- [2022-Jun Q40](?chapter=bank&q=mcq-72e3ae0b41e7da23ee8ad9df)
-- [2025-Jun Basic Q119](?chapter=bank&q=mcq-86b262840f3c7de29023078e)
-- [2026-Jun Basic Q131](?chapter=bank&q=mcq-d8222a690714331a4dd2ad76)
+- [June 2023 Q67](?chapter=bank&q=mcq-5687d58f50abb0a5affaee3d)
+- [May 2024 Q28](?chapter=bank&q=mcq-122d9fc74517c768b3d882c2)
+- [September 2024 Q39](?chapter=bank&q=mcq-e2505429368dfde81cea15ac)
+- [June 2026 Q42](?chapter=bank&q=mcq-b51ad3fe1826ffb8741047b1)
+- [December 2021 Q34](?chapter=bank&q=mcq-91b98ca785a73e91ef64d8b4)
+- [June 2022 Q40](?chapter=bank&q=mcq-72e3ae0b41e7da23ee8ad9df)
+- [June 2025 Basic Q119](?chapter=bank&q=mcq-86b262840f3c7de29023078e)
+- [June 2026 Basic Q131](?chapter=bank&q=mcq-d8222a690714331a4dd2ad76)

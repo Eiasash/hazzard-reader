@@ -86,10 +86,10 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 31-5, p.446](hazzard8e_ch31_table31-5_p446.png)
 
-[2025-Jun Q71](?chapter=bank&q=mcq-4c3fda6b97055d09bfccf60c)
+[June 2025 Q71](?chapter=bank&q=mcq-4c3fda6b97055d09bfccf60c)
 
 ## Exam questions
 
 Question citing Table 31-5
 
-- [2025-Jun Q71](?chapter=bank&q=mcq-4c3fda6b97055d09bfccf60c)
+- [June 2025 Q71](?chapter=bank&q=mcq-4c3fda6b97055d09bfccf60c)

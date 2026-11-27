@@ -114,15 +114,15 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 89-4, p.1404](hazzard8e_ch89_table89-4_p1404.png)
 
-[2025-Jun Q67](?chapter=bank&q=mcq-6b33c388396f05e09b68141c)
+[June 2025 Q67](?chapter=bank&q=mcq-6b33c388396f05e09b68141c)
 
-[2026-Jun Basic Q145](?chapter=bank&q=mcq-550fdfd2885a7718c788d9b9)
+[June 2026 Basic Q145](?chapter=bank&q=mcq-550fdfd2885a7718c788d9b9)
 
 ## Exam questions
 
 Four past-exam questions are linked to this chapter.
 
-- [2024-Sep Q41](?chapter=bank&q=mcq-e761fdbaf9a3e692c91a5d37)
-- [2025-Jun Q67](?chapter=bank&q=mcq-6b33c388396f05e09b68141c)
+- [September 2024 Q41](?chapter=bank&q=mcq-e761fdbaf9a3e692c91a5d37)
+- [June 2025 Q67](?chapter=bank&q=mcq-6b33c388396f05e09b68141c)
 - [2020 Q7](?chapter=bank&q=mcq-754300e4e14e133ec8506c3d)
-- [2026-Jun Basic Q145](?chapter=bank&q=mcq-550fdfd2885a7718c788d9b9)
+- [June 2026 Basic Q145](?chapter=bank&q=mcq-550fdfd2885a7718c788d9b9)

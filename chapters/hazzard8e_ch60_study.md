@@ -14,7 +14,7 @@ Study summary of Chapter 60 — Behavioral Symptoms of Dementia and Psychoactive
 - What do escitalopram and donepezil each treat in Alzheimer disease, and which medication fits an older adult with major depression and ischemic heart disease? [June 2023 Q7](?chapter=60#exam-p929-mcq-45b29368078d5d087a1a0b91) · [June 2026 Q52](?chapter=60#exam-p929-mcq-3c902dfe8cf32cf96518b8b1)
 - Which antidepressant has little anticholinergic activity, which can precipitate retention and delirium, and which serotonergic toxicity can occur? [May 2024 Q78](?chapter=60#exam-p922-mcq-57825e4b2e4819d0b41d9393) · [June 2025 Q7](?chapter=60#exam-p929-mcq-aa5c10df9c19aad52cd3cfa8) · [September 2024 Q94](?chapter=60#exam-p929-mcq-4641bad3c4f4169ea022ed51)
 - Which antidepressants are less likely to lower serum sodium? [September 2024 Q5](?chapter=60#exam-p929-mcq-63bf3798074f1dec36283b45)
-- Why does citalopram have an older-adult dose ceiling, and what change can it cause on the ECG? [June 2022 Q77](?chapter=60#asked-chapter) · [September 2024 basic Q110, image 7](?chapter=60#exam-p929-mcq-6655a23a9c4d6fc4c36f3cf9)
+- Why does citalopram have an older-adult dose ceiling, and what change can it cause on the ECG? [June 2022 Q77](?chapter=60#asked-chapter) · [September 2024 Basic Q110, image 7](?chapter=60#exam-p929-mcq-6655a23a9c4d6fc4c36f3cf9)
 - Which measurement matters most when tremor, falls and confusion follow addition of a thiazide to lithium? [December 2021 Q37](?chapter=60#asked-chapter)
 
 ## Recognize the syndrome before treating the behavior
@@ -294,4 +294,4 @@ For the wandering example below, preserve immediate emergency egress. A person w
 
 
 
-[2026-Jun Q9 (page citation)](?chapter=bank&q=mcq-2da4c054f7061a52e843c385)
+[June 2026 Q9 (page citation)](?chapter=bank&q=mcq-2da4c054f7061a52e843c385)

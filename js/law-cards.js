@@ -25,22 +25,42 @@ window.HazzardLawCards = (() => {
     const block='p,li,td,th,summary,h1,h2,h3,h4,h5,h6,button,figcaption,blockquote,div,section';
     const skip='bdi,script,style,textarea,input,option,svg,[contenteditable="true"]';
     const pattern=/(?<![\d.])\d+(?:[.,]\d+)?(?:[ \t]*[–—−-][ \t]*\d+(?:[.,]\d+)?)+(?:[%‰])?[.,;:!?]*(?!\d)/gu;
+    const latin=/\p{Script=Latin}[\p{Script=Latin}\p{M}\d]*(?:(?:[-–—−’'/_.:]|[ \t]+|,[ \t]+)[\p{Script=Latin}\d][\p{Script=Latin}\p{M}\d]*)*/u;
+    const date=/\d{1,2}\.\d{1,2}\.\d{4}/u;
+    const mixed=new RegExp([pattern.source,date.source,latin.source].join('|'),'gu');
+    const hebrew=/[\u0590-\u05ff]/u;
+    function hebrewLed(el){
+      if(!el.matches('p,li')||!el.closest('.reading-copy')||!hebrew.test(el.textContent))return false;
+      const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
+      while(walker.nextNode()){
+        const part=walker.currentNode;
+        if(part.parentElement.closest('[data-reader-metadata],script,style'))continue;
+        const first=part.data.match(/\p{L}/u);
+        if(first)return hebrew.test(first[0]);
+      }
+      return false;
+    }
     function format(el){
       const text=el.textContent;
       if(!/[\u0590-\u05ff]/u.test(text)&&!el.matches(':dir(rtl)'))return;
+      const paragraph=hebrewLed(el);
+      if(paragraph){el.dir='rtl';el.lang='he';}
       const nodes=[],walk=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
       let line='',n;
       while(n=walk.nextNode()){
         if(n.parentElement.closest(skip)||n.parentElement.closest(block)!==el){line+='\0';continue;}
         nodes.push([n,line.length]);line+=n.data;
       }
-      for(const m of [...line.matchAll(pattern)].reverse()){
+      for(const m of [...line.matchAll(paragraph?mixed:pattern)].reverse()){
         const lo=m.index,hi=lo+m[0].length;
         for(const [node,offset] of nodes){
           const a=Math.max(0,lo-offset),b=Math.min(node.length,hi-offset);
           if(b<=a||node.parentElement.closest('[data-bidi-edge]'))continue;
           const first=offset+a===lo,last=offset+b===hi;
-          const span=document.createElement('span');
+          const english=paragraph&&/\p{Script=Latin}/u.test(m[0]);
+          const span=document.createElement(paragraph&&first&&last?'bdi':'span');
+          if(span.tagName==='BDI')span.dir='ltr';
+          if(english)span.lang='en';
           span.dataset.bidiEdge=first&&last?'both':first?'start':last?'end':'middle';
           const part=a?node.splitText(a):node;
           if(b-a<part.length)part.splitText(b-a);
@@ -51,14 +71,23 @@ window.HazzardLawCards = (() => {
     const candidates=new Set();
     function collect(node){
       if(node.nodeType===Node.TEXT_NODE){
+        if((hebrew.test(node.data)||(/[A-Za-z]/.test(node.data)&&node.parentElement?.closest('p[lang="he"],li[lang="he"]')))&&!node.parentElement?.closest(skip+',[data-bidi-edge]')){
+          const paragraph=node.parentElement?.closest('p,li');
+          if(paragraph?.closest('.reading-copy')){
+            candidates.add(paragraph);
+            const li=paragraph.parentElement?.closest('li');if(li)candidates.add(li);
+          }
+        }
         if(/[\d–—-]/.test(node.data)&&!node.parentElement?.closest(skip+',[data-bidi-edge]')){
           const el=node.parentElement?.closest(block);if(el)candidates.add(el);
         }
       }else if(node.nodeType===Node.ELEMENT_NODE&&!node.matches(skip+',[data-bidi-edge]')&&/[\u0590-\u05ff]/u.test(node.textContent)){
+        if(hebrewLed(node))candidates.add(node);
+        for(const child of node.querySelectorAll('p,li'))if(hebrewLed(child))candidates.add(child);
         const w=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);while(w.nextNode())collect(w.currentNode);
       }
     }
-    function flush(){for(const el of candidates)if(el.isConnected&&/[–—−-]/.test(el.textContent))format(el);candidates.clear();}
+    function flush(){for(const el of candidates)if(el.isConnected&&(hebrewLed(el)||/[–—−-]/.test(el.textContent)))format(el);candidates.clear();}
     collect(root);flush();
     new MutationObserver(changes=>{
       for(const m of changes){

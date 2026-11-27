@@ -219,4 +219,4 @@ Hazzard 8e, p.908 · [Read source](?chapter=59#p908)
 
 
 
-[2023-Jun Q33](?chapter=bank&q=mcq-4dff765078655193f686e847) · [2024-Sep Q15](?chapter=bank&q=mcq-e571d83442c0d0404eb7e495)
+[June 2023 Q33](?chapter=bank&q=mcq-4dff765078655193f686e847) · [September 2024 Q15](?chapter=bank&q=mcq-e571d83442c0d0404eb7e495)

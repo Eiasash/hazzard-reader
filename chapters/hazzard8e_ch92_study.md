@@ -116,10 +116,10 @@ Use the molecular result alongside the clinical decision it is intended to infor
 
 ## Past exam questions
 
-- [2026-Jun Q8](?chapter=bank&q=mcq-e43d0fa9a584161a9b6e8a68) — Printed page 1438.
-- [2025-Jun Q86](?chapter=bank&q=mcq-f9ddad4ce7003ed68fcf7bd8) — Printed page 1437.
-- [2024-May Q43](?chapter=bank&q=mcq-20e54ddaf7f4529fefdbae47) — Printed pages 1448, 1449.
-- [2023-Jun Q19](?chapter=bank&q=mcq-f9a24fcda06002dc5dd9baca) — Printed pages 1445, 1446.
+- [June 2026 Q8](?chapter=bank&q=mcq-e43d0fa9a584161a9b6e8a68) — Printed page 1438.
+- [June 2025 Q86](?chapter=bank&q=mcq-f9ddad4ce7003ed68fcf7bd8) — Printed page 1437.
+- [May 2024 Q43](?chapter=bank&q=mcq-20e54ddaf7f4529fefdbae47) — Printed pages 1448, 1449.
+- [June 2023 Q19](?chapter=bank&q=mcq-f9a24fcda06002dc5dd9baca) — Printed pages 1445, 1446.
 
 [Earlier sittings, chapter-level mapping](?chapter=92#asked-chapter) — 2021-Dec Q67.
 

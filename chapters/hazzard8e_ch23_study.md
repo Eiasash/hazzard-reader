@@ -114,7 +114,7 @@ Tobacco treatment also benefits from an active offer of medication plus support.
 
 ## Past exam questions
 
-- [2026-Jun Q10](?chapter=bank&q=mcq-a542a3a627e208dabd1e6265) — Printed page 319.
+- [June 2026 Q10](?chapter=bank&q=mcq-a542a3a627e208dabd1e6265) — Printed page 319.
 
 ## Recall drill
 

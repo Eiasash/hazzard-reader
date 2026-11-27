@@ -107,7 +107,7 @@ Study summary of Chapter 100 - Myopathies, Polymyalgia Rheumatica, and Giant Cel
 
 Past-exam questions linked to this chapter (8):
 
-- [2023-Jun Q29](?chapter=bank&q=mcq-b278a02fd7eb7f2e75f74912)
+- [June 2023 Q29](?chapter=bank&q=mcq-b278a02fd7eb7f2e75f74912)
 - [2020 Q9](?chapter=bank&q=mcq-12c69c59f425d3c5e2eb601a)
 - [2020 Q36](?chapter=bank&q=mcq-775eea0fe2be25460871ab1d)
 - [December 2021 Q35](?chapter=bank&q=mcq-d9237aba5608ead24fbab02e)

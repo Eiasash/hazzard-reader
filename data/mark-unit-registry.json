@@ -14855,9 +14855,6 @@
       "copy|Fabrication of splints": [
         "u32"
       ],
-      "copy|2025-Jun Q94": [
-        "u66"
-      ],
       "copy|Cardiac rehab: only one-third of eligible patients participate (12% in a cohort of more than 600,000 Medicare patients) (p830). CR vs. none: mortality 2.3% vs. 5.3%; benefit sustained at 5 years, 16% vs. 25% (p830). ≥25 sessions → 20% lower 5-yr mortality vs. fewer sessions (p830). Heart failure: stable at least 3 to 4 weeks before starting; CR → 28% lower mortality/hospitalization, 29% lower death rate, peak VO2 +15% to 30%, symptoms/ADLs/well-being +15% to 50%; QoL gains seen as early as 2 months (p830).": [
         "u22"
       ],
@@ -15373,6 +15370,9 @@
       ],
       "copy|Participation, medical stability and choice of setting in the Israeli pathway — June 2023 Q89, September 2024 Q88 and June 2025 Q80 cite Israeli material. May 2024 Q65 gives no specific source. Read the Israeli context. Related clinical reading covers stability, participation and choice of setting.": [
         "u85"
+      ],
+      "copy|June 2025 Q94": [
+        "u66"
       ]
     },
     "sequenceOffsets": [
@@ -16261,16 +16261,6 @@
       "exam-questions|Exam questions": [
         "u21"
       ],
-      "copy|2023-Jun Q79": [
-        "u22"
-      ],
-      "copy|2023-Jun Q98": [
-        "u23",
-        "u33"
-      ],
-      "copy|2026-Jun Q80": [
-        "u24"
-      ],
       "copy|CHAPTER 22s / HAZZARD": [
         "u25"
       ],
@@ -16330,6 +16320,16 @@
       ],
       "copy|CHAPTER 22 / HAZZARD": [
         "u25"
+      ],
+      "copy|June 2023 Q79": [
+        "u22"
+      ],
+      "copy|June 2023 Q98": [
+        "u23",
+        "u33"
+      ],
+      "copy|June 2026 Q80": [
+        "u24"
       ]
     },
     "sequenceOffsets": [
@@ -16615,9 +16615,6 @@
       ],
       "copy|Must first meet diagnostic criteria for dementia (see Table 59-1).": [
         "u89"
-      ],
-      "copy|2023-Jun Q33 · 2024-Sep Q15": [
-        "u90"
       ],
       "copy|Answer": [
         "u91",
@@ -17128,6 +17125,9 @@
       ],
       "copy|The 2024 Commission states that overall risk remains modifiable irrespective of APOE status (p915; Livingston et al., 2024, p573; supplied article 5).": [
         "u194"
+      ],
+      "copy|June 2023 Q33 · September 2024 Q15": [
+        "u90"
       ]
     }
   },
@@ -21982,9 +21982,6 @@
       "copy|Hazzard 8e, Table 49-3, p.734": [
         "u128"
       ],
-      "copy|2024-Sep Q65": [
-        "u129"
-      ],
       "ch49-table49-3|Book table: SARC-F components (p734)": [
         "u132"
       ],
@@ -22049,6 +22046,9 @@
       ],
       "ch49-table49-4|Supporting table on the page; the official SPPB question does not explicitly cite this table.": [
         "u79"
+      ],
+      "copy|September 2024 Q65": [
+        "u129"
       ]
     },
     "sequenceOffsets": [
@@ -22946,21 +22946,6 @@
       "past-paper-questions-on-this-chapter|Past-paper questions on this chapter": [
         "u21"
       ],
-      "copy|2023-Jun Q47 — mcq-78b3359272a717f584c23b2c": [
-        "u22"
-      ],
-      "copy|2024-May Q11 — mcq-a6c338a57828b765465f7cbf": [
-        "u23"
-      ],
-      "copy|2024-May Q17 — mcq-72e468cf141dda15964157c9": [
-        "u24"
-      ],
-      "copy|2024-May Q35 — mcq-d59bcda0cc381a35cc3134db": [
-        "u25"
-      ],
-      "copy|2025-Jun Q60 — mcq-10163f2b99f5abe875d7d917": [
-        "u26"
-      ],
       "figure-53-5-book-image|Figure 53-5 — book image": [
         "u27"
       ],
@@ -23021,9 +23006,6 @@
       ],
       "copy|What should be investigated when recovery is slower than expected?": [
         "u46"
-      ],
-      "copy|2024-May Q17": [
-        "u47"
       ],
       "copy|Answer": [
         "u49",
@@ -23141,6 +23123,24 @@
       ],
       "copy|CHAPTER 53 / HAZZARD": [
         "u29"
+      ],
+      "copy|June 2023 Q47 — mcq-78b3359272a717f584c23b2c": [
+        "u22"
+      ],
+      "copy|May 2024 Q11 — mcq-a6c338a57828b765465f7cbf": [
+        "u23"
+      ],
+      "copy|May 2024 Q17 — mcq-72e468cf141dda15964157c9": [
+        "u24"
+      ],
+      "copy|May 2024 Q35 — mcq-d59bcda0cc381a35cc3134db": [
+        "u25"
+      ],
+      "copy|June 2025 Q60 — mcq-10163f2b99f5abe875d7d917": [
+        "u26"
+      ],
+      "copy|May 2024 Q17": [
+        "u47"
       ]
     },
     "sequenceOffsets": [
@@ -24406,9 +24406,6 @@
       "copy|Hazzard 8e, p.1061 · Read source": [
         "u79"
       ],
-      "copy|2023-Jun Q38 · 2025-Jun Q14 (page citation)": [
-        "u80"
-      ],
       "copy|Answer": [
         "u82",
         "u83",
@@ -25173,6 +25170,9 @@
       ],
       "copy|The reference row prints Table 68-3, but the pages contain Table 68-8, which lists the analgesics (p1063–1064).": [
         "u202"
+      ],
+      "copy|June 2023 Q38 · June 2025 Q14 (page citation)": [
+        "u80"
       ]
     }
   },
@@ -25542,9 +25542,6 @@
       "copy|Indications for valve replacement in aortic stenosis": [
         "u116"
       ],
-      "copy|2023-Jun Q97": [
-        "u117"
-      ],
       "copy|Answer": [
         "u118",
         "u119",
@@ -25674,6 +25671,9 @@
       ],
       "copy|Mitral repair-vs-replacement operative mortality is given twice with different numbers: 2% vs 6% overall / 0.7% vs 14% in a >70y cohort (p1160), and later 1–2% vs 5.4–6.4% (p1163).": [
         "u51"
+      ],
+      "copy|June 2023 Q97": [
+        "u117"
       ]
     },
     "sequenceOffsets": [
@@ -27334,14 +27334,8 @@
       "copy|If risk factors for MRSA, check nasal MRSA swab and obtain sputum culture.": [
         "u115"
       ],
-      "copy|2024-Sep Q68": [
-        "u116"
-      ],
       "copy|Hazzard 8e, p.1263 · Read source": [
         "u117"
-      ],
-      "copy|2024-Sep Q11": [
-        "u118"
       ],
       "copy|Answer": [
         "u119",
@@ -27450,6 +27444,12 @@
       ],
       "copy|ICS with LABA reduces exacerbations and hospitalizations in Group D when eosinophils are ≥300 cells/mL in the text, symptoms are substantial and exacerbations frequent (pp1253–1254). [sic — Table 81-7, p1246, uses cells/µL.]": [
         "u250"
+      ],
+      "copy|September 2024 Q68": [
+        "u116"
+      ],
+      "copy|September 2024 Q11": [
+        "u118"
       ]
     },
     "sequenceOffsets": [
@@ -27763,9 +27763,6 @@
       ],
       "copy|Hazzard 8e, p.1553 · Read source": [
         "u95"
-      ],
-      "copy|2024-May Q24": [
-        "u96"
       ],
       "copy|Answer": [
         "u97",
@@ -28297,6 +28294,9 @@
       ],
       "copy|The USPSTF assessment finds insufficient evidence for routine screening.": [
         "u227"
+      ],
+      "copy|May 2024 Q24": [
+        "u96"
       ]
     }
   },
@@ -31150,9 +31150,6 @@
       "exam-questions|Exam questions": [
         "u18"
       ],
-      "copy|2023-Jun Q17": [
-        "u19"
-      ],
       "copy|CHAPTER 62s / HAZZARD": [
         "u20"
       ],
@@ -31692,6 +31689,9 @@
       ],
       "copy|The Parkinson treatment pages begin on p943; p964 concerns other causes of stroke.": [
         "u43"
+      ],
+      "copy|June 2023 Q17": [
+        "u19"
       ]
     },
     "maxId": 179
@@ -32116,9 +32116,6 @@
       "copy|Hazzard 8e, Table 27-3, p.375": [
         "u139"
       ],
-      "copy|2025-Jun Q39": [
-        "u140"
-      ],
       "ch27-table27-3|Book table: physiologic aging and perioperative effects (p375)": [
         "u142"
       ],
@@ -32165,6 +32162,9 @@
       ],
       "copy|CHAPTER 27 / HAZZARD": [
         "u76"
+      ],
+      "copy|June 2025 Q39": [
+        "u140"
       ]
     },
     "maxId": 251,
@@ -38656,13 +38656,6 @@
       "exam-questions|Exam questions": [
         "u21"
       ],
-      "copy|2024-May Q3": [
-        "u22",
-        "u32"
-      ],
-      "copy|2024-May Q88": [
-        "u23"
-      ],
       "copy|CHAPTER 74s / HAZZARD": [
         "u24"
       ],
@@ -38713,6 +38706,13 @@
       ],
       "copy|CHAPTER 74 / HAZZARD": [
         "u24"
+      ],
+      "copy|May 2024 Q3": [
+        "u22",
+        "u32"
+      ],
+      "copy|May 2024 Q88": [
+        "u23"
       ]
     },
     "maxId": 183,
@@ -46940,18 +46940,6 @@
       "past-paper-questions-on-this-chapter|Past-paper questions on this chapter": [
         "u22"
       ],
-      "copy|2023-Jun Q18 — mcq-bd9893fe8c4027b4668a863e": [
-        "u23"
-      ],
-      "copy|2024-May Q12 — mcq-834756aabc08598d8f45a7f5": [
-        "u24"
-      ],
-      "copy|2024-May Q85 — mcq-d7ef5d7a467c8ade6436f4f5": [
-        "u25"
-      ],
-      "copy|2026-Jun Q99 — mcq-c0958b48b6b8fb43106b759b": [
-        "u26"
-      ],
       "table-95-1-book-image|Table 95-1 — book image": [
         "u27"
       ],
@@ -47012,9 +47000,6 @@
       ],
       "copy|How do renal dosing requirements differ for lenalidomide and bortezomib?": [
         "u46"
-      ],
-      "copy|2024-May Q12": [
-        "u47"
       ],
       "copy|Answer": [
         "u49",
@@ -47117,6 +47102,21 @@
       ],
       "copy|CHAPTER 95 / HAZZARD": [
         "u29"
+      ],
+      "copy|June 2023 Q18 — mcq-bd9893fe8c4027b4668a863e": [
+        "u23"
+      ],
+      "copy|May 2024 Q12 — mcq-834756aabc08598d8f45a7f5": [
+        "u24"
+      ],
+      "copy|May 2024 Q85 — mcq-d7ef5d7a467c8ade6436f4f5": [
+        "u25"
+      ],
+      "copy|June 2026 Q99 — mcq-c0958b48b6b8fb43106b759b": [
+        "u26"
+      ],
+      "copy|May 2024 Q12": [
+        "u47"
       ]
     },
     "maxId": 235,
@@ -48965,12 +48965,6 @@
       "exam-questions|Exam questions": [
         "u17"
       ],
-      "copy|2023-Jun Q85": [
-        "u18"
-      ],
-      "copy|2024-Sep Q92": [
-        "u19"
-      ],
       "copy|CHAPTER 11s / HAZZARD": [
         "u20"
       ],
@@ -49021,6 +49015,12 @@
       ],
       "copy|CHAPTER 11 / HAZZARD": [
         "u20"
+      ],
+      "copy|June 2023 Q85": [
+        "u18"
+      ],
+      "copy|September 2024 Q92": [
+        "u19"
       ]
     },
     "maxId": 164,
@@ -49110,10 +49110,6 @@
       "exam-questions|Exam questions": [
         "u20"
       ],
-      "copy|2025-Jun Q71": [
-        "u21",
-        "u30"
-      ],
       "copy|CHAPTER 31s / HAZZARD": [
         "u22"
       ],
@@ -49146,6 +49142,10 @@
       ],
       "copy|CHAPTER 31 / HAZZARD": [
         "u22"
+      ],
+      "copy|June 2025 Q71": [
+        "u21",
+        "u30"
       ]
     },
     "maxId": 147,
@@ -53501,9 +53501,6 @@
       "exam-questions|Exam questions": [
         "u18"
       ],
-      "copy|2024-May Q67": [
-        "u19"
-      ],
       "copy|CHAPTER 72s / HAZZARD": [
         "u20"
       ],
@@ -53545,6 +53542,9 @@
       ],
       "copy|CHAPTER 72 / HAZZARD": [
         "u20"
+      ],
+      "copy|May 2024 Q67": [
+        "u19"
       ]
     },
     "maxId": 190,
@@ -53627,18 +53627,6 @@
       ],
       "past-paper-questions-on-this-chapter|Past-paper questions on this chapter": [
         "u21"
-      ],
-      "copy|2023-Jun Q23 — mcq-795f2687afa4d5918ddb65de": [
-        "u22"
-      ],
-      "copy|2026-Jun Q62 — mcq-4ec2512c26a7775166980a4b": [
-        "u23"
-      ],
-      "copy|2025-Jun Q38 — mcq-caa086c8705cdeb3606c5536": [
-        "u24"
-      ],
-      "copy|2025-Jun Q63 — mcq-8b2cfa55422f88f802142d29": [
-        "u25"
       ],
       "copy|CHAPTER 67s / HAZZARD": [
         "u26"
@@ -53772,6 +53760,18 @@
       ],
       "copy|What did the noncancer palliative-care meta-analysis associate with palliative care?": [
         "u33"
+      ],
+      "copy|June 2023 Q23 — mcq-795f2687afa4d5918ddb65de": [
+        "u22"
+      ],
+      "copy|June 2026 Q62 — mcq-4ec2512c26a7775166980a4b": [
+        "u23"
+      ],
+      "copy|June 2025 Q38 — mcq-caa086c8705cdeb3606c5536": [
+        "u24"
+      ],
+      "copy|June 2025 Q63 — mcq-8b2cfa55422f88f802142d29": [
+        "u25"
       ]
     },
     "maxId": 212,
@@ -54257,9 +54257,6 @@
       "copy|Contraction of pelvic floor muscles": [
         "u158"
       ],
-      "copy|2025-Jun Q66": [
-        "u159"
-      ],
       "copy|Answer": [
         "u162",
         "u163",
@@ -54312,6 +54309,9 @@
       ],
       "copy|The page references link each answer to its clinical rationale.": [
         "u105"
+      ],
+      "copy|June 2025 Q66": [
+        "u159"
       ]
     },
     "maxId": 305,
@@ -58097,9 +58097,6 @@
       "exam-questions|Exam questions": [
         "u18"
       ],
-      "copy|2024-May Q68": [
-        "u19"
-      ],
       "copy|CHAPTER 38s / HAZZARD": [
         "u20"
       ],
@@ -58129,6 +58126,9 @@
       ],
       "copy|CHAPTER 38 / HAZZARD": [
         "u20"
+      ],
+      "copy|May 2024 Q68": [
+        "u19"
       ]
     },
     "maxId": 151,
@@ -59657,9 +59657,6 @@
       "copy|Disinhibition": [
         "u161"
       ],
-      "copy|2026-Jun Q9 (page citation)": [
-        "u162"
-      ],
       "copy|Answer": [
         "u163",
         "u164",
@@ -59751,6 +59748,9 @@
       "copy|Exam spelling.": [
         "u134",
         "u148"
+      ],
+      "copy|June 2026 Q9 (page citation)": [
+        "u162"
       ]
     },
     "maxId": 337,
@@ -62335,13 +62335,6 @@
       "exam-questions|Exam questions": [
         "u20"
       ],
-      "copy|2024-Sep Q92": [
-        "u21"
-      ],
-      "copy|2026-Jun Q38": [
-        "u22",
-        "u31"
-      ],
       "copy|CHAPTER 8s / HAZZARD": [
         "u23"
       ],
@@ -62398,6 +62391,13 @@
       ],
       "copy|CHAPTER 8 / HAZZARD": [
         "u23"
+      ],
+      "copy|September 2024 Q92": [
+        "u21"
+      ],
+      "copy|June 2026 Q38": [
+        "u22",
+        "u31"
       ]
     },
     "maxId": 199,
@@ -62587,9 +62587,6 @@
       "exam-questions|Exam questions": [
         "u19"
       ],
-      "copy|2025-Jun Q53": [
-        "u20"
-      ],
       "copy|CHAPTER 79s / HAZZARD": [
         "u21"
       ],
@@ -62655,6 +62652,9 @@
       ],
       "copy|CHAPTER 79 / HAZZARD": [
         "u21"
+      ],
+      "copy|June 2025 Q53": [
+        "u20"
       ]
     },
     "maxId": 180,
@@ -64150,14 +64150,8 @@
       "copy|Hazzard 8e, Figure 15-2, p.210": [
         "u139"
       ],
-      "copy|2023-Jun Q95 · 2024-May Q75 · 2024-Sep Q18 · 2023-Jun Q66 (page citation) · 2026-Jun Q98 (page citation)": [
-        "u140"
-      ],
       "copy|Hazzard 8e, Figure 15-3, p.212": [
         "u141"
-      ],
-      "copy|2026-Jun Q98 (page citation)": [
-        "u142"
       ],
       "copy|Hazzard 8e, Figure 15-4, p.214": [
         "u143"
@@ -64214,6 +64208,12 @@
       ],
       "ch15-figure15-2a|Book figure: bCAM panel (p210)": [
         "u151"
+      ],
+      "copy|June 2023 Q95 · May 2024 Q75 · September 2024 Q18 · June 2023 Q66 (page citation) · June 2026 Q98 (page citation)": [
+        "u140"
+      ],
+      "copy|June 2026 Q98 (page citation)": [
+        "u142"
       ]
     },
     "maxId": 278,
@@ -68402,12 +68402,6 @@
       "past-exam-questions|Past exam questions": [
         "u375"
       ],
-      "copy|2025-Jun Q26 — Printed page 495.": [
-        "u377"
-      ],
-      "copy|2024-Sep Q30 — Chapter citation without a printed page.": [
-        "u378"
-      ],
       "recall-drill|Recall drill": [
         "u379"
       ],
@@ -69073,8 +69067,14 @@
       "copy|Which Hebrew word loses the most distinctive consonant cues in high-frequency loss — June 2025 Q26. High-frequency loss particularly affects consonant discrimination (p495).": [
         "u29"
       ],
-      "copy|2026-Jun Q39 — Related bank item. It tests a related topic without a chapter-specific page.": [
+      "copy|June 2026 Q39 — Related bank item. It tests a related topic without a chapter-specific page.": [
         "u376"
+      ],
+      "copy|June 2025 Q26 — Printed page 495.": [
+        "u377"
+      ],
+      "copy|September 2024 Q30 — Chapter citation without a printed page.": [
+        "u378"
       ]
     },
     "maxId": 380
@@ -69138,9 +69138,6 @@
       "exam-questions|Exam questions": [
         "u19"
       ],
-      "copy|2023-Jun Q29": [
-        "u20"
-      ],
       "copy|CHAPTER 100s / HAZZARD": [
         "u21"
       ],
@@ -69203,6 +69200,9 @@
       ],
       "copy|CHAPTER 100 / HAZZARD": [
         "u21"
+      ],
+      "copy|June 2023 Q29": [
+        "u20"
       ]
     },
     "maxId": 221,
@@ -69305,12 +69305,6 @@
       "exam-questions|Exam questions": [
         "u18"
       ],
-      "copy|2023-Jun Q41": [
-        "u19"
-      ],
-      "copy|2024-Sep Q91": [
-        "u20"
-      ],
       "copy|CHAPTER 30s / HAZZARD": [
         "u21"
       ],
@@ -69361,6 +69355,12 @@
       ],
       "copy|CHAPTER 30 / HAZZARD": [
         "u21"
+      ],
+      "copy|June 2023 Q41": [
+        "u19"
+      ],
+      "copy|September 2024 Q91": [
+        "u20"
       ]
     },
     "maxId": 211,
@@ -73584,13 +73584,6 @@
       "exam-questions|Exam questions": [
         "u21"
       ],
-      "copy|2024-Sep Q41": [
-        "u22"
-      ],
-      "copy|2025-Jun Q67": [
-        "u23",
-        "u32"
-      ],
       "copy|CHAPTER 89s / HAZZARD": [
         "u24"
       ],
@@ -73644,6 +73637,13 @@
       ],
       "copy|Prevention with estrogen-directed drugs can reduce breast-cancer occurrence, but the prevention trials did not show a survival advantage (p1405).": [
         "u14"
+      ],
+      "copy|September 2024 Q41": [
+        "u22"
+      ],
+      "copy|June 2025 Q67": [
+        "u23",
+        "u32"
       ]
     },
     "maxId": 192,
@@ -73730,9 +73730,6 @@
       "exam-questions|Exam questions": [
         "u18"
       ],
-      "copy|2024-May Q36": [
-        "u19"
-      ],
       "copy|CHAPTER 94s / HAZZARD": [
         "u20"
       ],
@@ -73777,6 +73774,9 @@
       ],
       "copy|CHAPTER 94 / HAZZARD": [
         "u20"
+      ],
+      "copy|May 2024 Q36": [
+        "u19"
       ]
     },
     "maxId": 161,
@@ -78688,12 +78688,6 @@
       "exam-questions|Exam questions": [
         "u17"
       ],
-      "copy|2023-Jun Q8": [
-        "u18"
-      ],
-      "copy|2024-May Q27": [
-        "u19"
-      ],
       "copy|CHAPTER 78s / HAZZARD": [
         "u20"
       ],
@@ -78780,6 +78774,12 @@
       ],
       "copy|CHAPTER 78 / HAZZARD": [
         "u20"
+      ],
+      "copy|June 2023 Q8": [
+        "u18"
+      ],
+      "copy|May 2024 Q27": [
+        "u19"
       ]
     },
     "maxId": 213,
@@ -78895,18 +78895,6 @@
       "exam-questions|Exam questions": [
         "u17"
       ],
-      "copy|2023-Jun Q67": [
-        "u18"
-      ],
-      "copy|2024-May Q28": [
-        "u19"
-      ],
-      "copy|2024-Sep Q39": [
-        "u20"
-      ],
-      "copy|2026-Jun Q42": [
-        "u21"
-      ],
       "copy|CHAPTER 80s / HAZZARD": [
         "u22"
       ],
@@ -78960,6 +78948,18 @@
       ],
       "copy|CHAPTER 80 / HAZZARD": [
         "u22"
+      ],
+      "copy|June 2023 Q67": [
+        "u18"
+      ],
+      "copy|May 2024 Q28": [
+        "u19"
+      ],
+      "copy|September 2024 Q39": [
+        "u20"
+      ],
+      "copy|June 2026 Q42": [
+        "u21"
       ]
     },
     "maxId": 135,
@@ -85990,9 +85990,6 @@
       "copy|What warning signs prevent a nonspecific presentation from being treated as routine observation alone?": [
         "u47"
       ],
-      "copy|2023-Jun Q55": [
-        "u317"
-      ],
       "copy|Answer": [
         "u318",
         "u319",
@@ -86147,21 +86144,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u113"
-      ],
-      "copy|2026-Jun Q84 — Printed page 1705.": [
-        "u114"
-      ],
-      "copy|2025-Jun Q12 — Printed pages 1709, 1710, 1711.": [
-        "u115"
-      ],
-      "copy|2024-May Q19 — Printed page 1700.": [
-        "u116"
-      ],
-      "copy|2023-Jun Q55 — Printed pages 1702, 1703.": [
-        "u117"
-      ],
-      "copy|2023-Jun-Basic Q126 — Printed page 1707.": [
-        "u118"
       ],
       "copy|Study summary of Chapter 106; the book and the full chapter are the reference.": [
         "u119"
@@ -86708,6 +86690,24 @@
       ],
       "copy|Consider vaginal estrogen for recurrent infection and coordinate with oncology when there is a personal history or high risk of estrogen-dependent malignancy.": [
         "u257"
+      ],
+      "copy|June 2026 Q84 — Printed page 1705.": [
+        "u114"
+      ],
+      "copy|June 2025 Q12 — Printed pages 1709, 1710, 1711.": [
+        "u115"
+      ],
+      "copy|May 2024 Q19 — Printed page 1700.": [
+        "u116"
+      ],
+      "copy|June 2023 Q55 — Printed pages 1702, 1703.": [
+        "u117"
+      ],
+      "copy|June 2023 Basic Q126 — Printed page 1707.": [
+        "u118"
+      ],
+      "copy|June 2023 Q55": [
+        "u317"
       ]
     }
   },
@@ -86774,9 +86774,6 @@
       ],
       "exam-questions|Exam questions": [
         "u20"
-      ],
-      "copy|2026-Jun Q41": [
-        "u276"
       ],
       "copy|2025-Jun Q16": [
         "u22"
@@ -86894,18 +86891,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u71"
-      ],
-      "copy|2026-Jun Q41 — Printed page 138.": [
-        "u72"
-      ],
-      "copy|2025-Jun Q16 — Printed page 147.": [
-        "u73"
-      ],
-      "copy|2025-Jun Q34 — Printed page 141.": [
-        "u74"
-      ],
-      "copy|2024-May Q4 — Printed page 143.": [
-        "u76"
       ],
       "recall-drill|Recall drill": [
         "u78"
@@ -87473,11 +87458,26 @@
       "copy|The Achilles reflex may diminish or disappear while knee reflexes persist. An extensor plantar response indicates upper motor neuron pathology. (p133–134, p147)": [
         "u275"
       ],
-      "copy|2025-Jun Q62 — Related bank item. It tests a related topic without a chapter-specific page.": [
+      "copy|June 2026 Q41 — Printed page 138.": [
+        "u72"
+      ],
+      "copy|June 2025 Q16 — Printed page 147.": [
+        "u73"
+      ],
+      "copy|June 2025 Q34 — Printed page 141.": [
+        "u74"
+      ],
+      "copy|June 2025 Q62 — Related bank item. It tests a related topic without a chapter-specific page.": [
         "u75"
       ],
-      "copy|2024-Sep Q37 — Related bank item. It tests a related topic without a chapter-specific page.": [
+      "copy|May 2024 Q4 — Printed page 143.": [
+        "u76"
+      ],
+      "copy|September 2024 Q37 — Related bank item. It tests a related topic without a chapter-specific page.": [
         "u77"
+      ],
+      "copy|June 2026 Q41": [
+        "u276"
       ]
     }
   },
@@ -87609,9 +87609,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u44"
-      ],
-      "copy|2026-Jun Q10 — Printed page 319.": [
-        "u45"
       ],
       "recall-drill|Recall drill": [
         "u46"
@@ -88235,6 +88232,9 @@
       ],
       "copy|The chapter reports sensitivity 95% and specificity 78% for the longer instrument in the work.": [
         "u139"
+      ],
+      "copy|June 2026 Q10 — Printed page 319.": [
+        "u45"
       ]
     }
   },
@@ -88308,12 +88308,6 @@
       ],
       "exam-questions|Exam questions": [
         "u22"
-      ],
-      "copy|2023-Jun Q46": [
-        "u323"
-      ],
-      "copy|2026-Jun Q12": [
-        "u322"
       ],
       "copy|2025-Jun Q99": [
         "u25"
@@ -88440,18 +88434,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u83"
-      ],
-      "copy|2026-Jun Q12 — Printed page 1514.": [
-        "u84"
-      ],
-      "copy|2026-Jun-Basic Q107 — Printed page 1513.": [
-        "u85"
-      ],
-      "copy|2025-Jun Q99 — Printed page 1516.": [
-        "u86"
-      ],
-      "copy|2023-Jun Q46 — Printed page 1513.": [
-        "u87"
       ],
       "recall-drill|Recall drill": [
         "u88"
@@ -89117,6 +89099,24 @@
       ],
       "copy|After unprovoked VTE, recurrence approached 20% at 2 years and 30% at 8 years in that cohort.": [
         "u237"
+      ],
+      "copy|June 2026 Q12 — Printed page 1514.": [
+        "u84"
+      ],
+      "copy|June 2026 Basic Q107 — Printed page 1513.": [
+        "u85"
+      ],
+      "copy|June 2025 Q99 — Printed page 1516.": [
+        "u86"
+      ],
+      "copy|June 2023 Q46 — Printed page 1513.": [
+        "u87"
+      ],
+      "copy|June 2026 Q12": [
+        "u322"
+      ],
+      "copy|June 2023 Q46": [
+        "u323"
       ]
     }
   },
@@ -90417,9 +90417,6 @@
       "past-exam-questions|Past exam questions": [
         "u268"
       ],
-      "copy|2025-Jun Q87 — Printed page 232.": [
-        "u269"
-      ],
       "recall-drill|Recall drill": [
         "u270"
       ],
@@ -90903,9 +90900,6 @@
       "copy|Tap an image to zoom.": [
         "u31"
       ],
-      "copy|2025-Jun Q87": [
-        "u195"
-      ],
       "copy|1.": [
         "u196"
       ],
@@ -91063,6 +91057,12 @@
       ],
       "copy|Residents with capacity may choose daily routines and voice preferences about care. When capacity is impaired, involve the appropriate surrogate and continue to attend to the resident's wishes (p234).": [
         "u259"
+      ],
+      "copy|June 2025 Q87 — Printed page 232.": [
+        "u269"
+      ],
+      "copy|June 2025 Q87": [
+        "u195"
       ]
     }
   },
@@ -91193,15 +91193,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u42"
-      ],
-      "copy|2025-Jun Q51 — Printed pages 743, 744.": [
-        "u43"
-      ],
-      "copy|2024-Sep Q28 — Printed pages 743, 744.": [
-        "u44"
-      ],
-      "copy|2023-Jun Q51 — Printed page 747.": [
-        "u45"
       ],
       "recall-drill|Recall drill": [
         "u46"
@@ -91680,9 +91671,6 @@
       "copy|Tap an image to zoom.": [
         "u31"
       ],
-      "copy|2024-Sep Q28 · 2025-Jun Q51": [
-        "u32"
-      ],
       "copy|1.": [
         "u206"
       ],
@@ -91834,6 +91822,18 @@
       ],
       "copy|Practice the relevant task and address strength, balance, endurance and flexibility. Adapt the environment or walking aid to the patient's goals and limitations. (p755)": [
         "u267"
+      ],
+      "copy|June 2025 Q51 — Printed pages 743, 744.": [
+        "u43"
+      ],
+      "copy|September 2024 Q28 — Printed pages 743, 744.": [
+        "u44"
+      ],
+      "copy|June 2023 Q51 — Printed page 747.": [
+        "u45"
+      ],
+      "copy|September 2024 Q28 · June 2025 Q51": [
+        "u32"
       ]
     }
   },
@@ -95646,9 +95646,6 @@
       "past-exam-questions|Past exam questions": [
         "u30"
       ],
-      "copy|2024-Sep Q77 — Printed page 151.": [
-        "u31"
-      ],
       "recall-drill|Recall drill": [
         "u32"
       ],
@@ -96310,6 +96307,9 @@
       ],
       "copy|Repeating the consent form word for word can conceal an inability to make that link.": [
         "u73"
+      ],
+      "copy|September 2024 Q77 — Printed page 151.": [
+        "u31"
       ]
     }
   },
@@ -106834,18 +106834,6 @@
       "past-exam-questions|Past exam questions": [
         "u36"
       ],
-      "copy|2026-Jun Q57 — Printed page 575.": [
-        "u37"
-      ],
-      "copy|2025-Jun Q19 — Printed page 581.": [
-        "u38"
-      ],
-      "copy|2025-Jun Q46 — Printed page 582.": [
-        "u39"
-      ],
-      "copy|2025-Jun-Basic Q143 — Printed page 588.": [
-        "u40"
-      ],
       "recall-drill|Recall drill": [
         "u41"
       ],
@@ -107353,9 +107341,6 @@
       "copy|Tap an image to zoom.": [
         "u31"
       ],
-      "copy|2025-Jun Q19": [
-        "u210"
-      ],
       "copy|Earlier sittings, chapter-level mapping — 2021-Dec Q87.": [
         "u211"
       ],
@@ -107510,6 +107495,21 @@
       ],
       "copy|Aging or obstruction may reduce detrusor contractile reserve. An anticholinergic can push an underactive bladder into retention. (p589–590)": [
         "u272"
+      ],
+      "copy|June 2026 Q57 — Printed page 575.": [
+        "u37"
+      ],
+      "copy|June 2025 Q19 — Printed page 581.": [
+        "u38"
+      ],
+      "copy|June 2025 Q46 — Printed page 582.": [
+        "u39"
+      ],
+      "copy|June 2025 Basic Q143 — Printed page 588.": [
+        "u40"
+      ],
+      "copy|June 2025 Q19": [
+        "u210"
       ]
     }
   },
@@ -110592,9 +110592,6 @@
       "past-exam-questions|Past exam questions": [
         "u35"
       ],
-      "copy|2024-May Q63 — Printed page 997.": [
-        "u36"
-      ],
       "recall-drill|Recall drill": [
         "u38"
       ],
@@ -111233,9 +111230,6 @@
       "copy|The number of recognized concussions can underestimate repetitive impact exposure and was not the measure associated with stage in the donation study (p999–1000).": [
         "u28"
       ],
-      "copy|2024-May Q66 — Related bank item. It tests a related topic without a chapter-specific page.": [
-        "u37"
-      ],
       "copy|That discussion describes a broader association with subsequent dementia after injuries of varying severity.": [
         "u45"
       ],
@@ -111247,6 +111241,12 @@
       ],
       "copy|Recall bias and reverse causation can affect the association; more severe or frequent injuries were associated with greater risk in the study (p999).": [
         "u256"
+      ],
+      "copy|May 2024 Q63 — Printed page 997.": [
+        "u36"
+      ],
+      "copy|May 2024 Q66 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u37"
       ]
     }
   },
@@ -112172,12 +112172,6 @@
       "past-exam-questions|Past exam questions": [
         "u41"
       ],
-      "copy|2024-May Q77 — Printed pages 1073, 1074.": [
-        "u42"
-      ],
-      "copy|2024-Sep Q100 — Printed page 1074.": [
-        "u43"
-      ],
       "recall-drill|Recall drill": [
         "u44"
       ],
@@ -112788,6 +112782,12 @@
       ],
       "copy|In the comparison of patients without hypoxia. This differs from evidence for long-term oxygen in hypoxic COPD. (p1074)": [
         "u244"
+      ],
+      "copy|May 2024 Q77 — Printed pages 1073, 1074.": [
+        "u42"
+      ],
+      "copy|September 2024 Q100 — Printed page 1074.": [
+        "u43"
       ]
     }
   },
@@ -112880,9 +112880,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u29"
-      ],
-      "copy|2024-May Q84 — Printed page 1082.": [
-        "u30"
       ],
       "recall-drill|Recall drill": [
         "u31"
@@ -113512,6 +113509,9 @@
       ],
       "copy|In the study, earlier involvement was associated with an almost 50% reduction in outcomes such as an emergency visit within 30 days of death or hospice admission within 3 days of death.": [
         "u173"
+      ],
+      "copy|May 2024 Q84 — Printed page 1082.": [
+        "u30"
       ]
     }
   },
@@ -114341,12 +114341,6 @@
       "past-exam-questions|Past exam questions": [
         "u31"
       ],
-      "copy|2024-May Q64 — Printed page 1309.": [
-        "u32"
-      ],
-      "copy|2023-Jun Q30 — Printed pages 1310, 1311.": [
-        "u33"
-      ],
       "recall-drill|Recall drill": [
         "u34"
       ],
@@ -115050,6 +115044,12 @@
       ],
       "copy|Systemic glucocorticoids lack established benefit and increase perforation risk in ischemia. Budesonide can induce remission in microscopic colitis. (p1306, p1310)": [
         "u277"
+      ],
+      "copy|May 2024 Q64 — Printed page 1309.": [
+        "u32"
+      ],
+      "copy|June 2023 Q30 — Printed pages 1310, 1311.": [
+        "u33"
       ]
     }
   },
@@ -115149,9 +115149,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u313"
-      ],
-      "copy|2024-May Q73 — Printed page 1316.": [
-        "u314"
       ],
       "recall-drill|Recall drill": [
         "u34"
@@ -115750,9 +115747,6 @@
       "copy|Tap an image to zoom.": [
         "u30"
       ],
-      "copy|2024-May Q73": [
-        "u236"
-      ],
       "copy|Earlier sittings, chapter-level mapping — 2021-Dec Q9, 2021-Dec Q38, 2021-Dec Q76.": [
         "u237"
       ],
@@ -115931,6 +115925,12 @@
       ],
       "copy|Figure 85-18 reports a number needed to treat of 3 for PPI-associated ulcer prevention in each of the acute- and chronic-user cohorts (p1330).": [
         "u174"
+      ],
+      "copy|May 2024 Q73 — Printed page 1316.": [
+        "u314"
+      ],
+      "copy|May 2024 Q73": [
+        "u236"
       ]
     }
   },
@@ -116901,12 +116901,6 @@
       "past-exam-questions|Past exam questions": [
         "u35"
       ],
-      "copy|2024-May Q70 — Printed page 1418.": [
-        "u36"
-      ],
-      "copy|2023-Jun Q60 — Printed pages 1416, 1417, 1418, 1419.": [
-        "u37"
-      ],
       "recall-drill|Recall drill": [
         "u38"
       ],
@@ -117553,6 +117547,12 @@
       ],
       "copy|It can relieve focal bone pain and may help prevent an impending pathologic fracture. Local and systemic treatment serve different purposes. (p1419)": [
         "u262"
+      ],
+      "copy|May 2024 Q70 — Printed page 1418.": [
+        "u36"
+      ],
+      "copy|June 2023 Q60 — Printed pages 1416, 1417, 1418, 1419.": [
+        "u37"
       ]
     }
   },
@@ -118281,14 +118281,14 @@
       "copy|Introduce palliative care early and clarify treatment goals (pp1421, 1432). In the randomized study of metastatic NSCLC, early palliative care was associated with median overall survival of 11.6 months versus 8.9 months with standard care alone.": [
         "u16"
       ],
-      "copy|2026-Jun Q54 — Related bank item. It tests a related topic without a chapter-specific page.": [
-        "u42"
-      ],
       "copy|June 2026 Q54 tests the clinical features of Lambert–Eaton syndrome (Harrison).": [
         "u89"
       ],
       "copy|What did early specialist palliative care achieve in the metastatic NSCLC trial?": [
         "u217"
+      ],
+      "copy|June 2026 Q54 — Related bank item. It tests a related topic without a chapter-specific page.": [
+        "u42"
       ]
     }
   },
@@ -118399,18 +118399,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u276"
-      ],
-      "copy|2026-Jun Q8 — Printed page 1438.": [
-        "u277"
-      ],
-      "copy|2025-Jun Q86 — Printed page 1437.": [
-        "u278"
-      ],
-      "copy|2024-May Q43 — Printed pages 1448, 1449.": [
-        "u279"
-      ],
-      "copy|2023-Jun Q19 — Printed pages 1445, 1446.": [
-        "u280"
       ],
       "recall|Recall": [
         "u21"
@@ -119046,6 +119034,18 @@
       ],
       "copy|Surgical resection; it can be safe in carefully selected older adults. (p1445)": [
         "u246"
+      ],
+      "copy|June 2026 Q8 — Printed page 1438.": [
+        "u277"
+      ],
+      "copy|June 2025 Q86 — Printed page 1437.": [
+        "u278"
+      ],
+      "copy|May 2024 Q43 — Printed pages 1448, 1449.": [
+        "u279"
+      ],
+      "copy|June 2023 Q19 — Printed pages 1445, 1446.": [
+        "u280"
       ]
     }
   },
@@ -119156,15 +119156,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u35"
-      ],
-      "copy|2025-Jun Q29 — Printed page 1464.": [
-        "u36"
-      ],
-      "copy|2024-Sep Q8 — Printed pages 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463.": [
-        "u37"
-      ],
-      "copy|2023-Jun Q42 — Printed page 1462.": [
-        "u38"
       ],
       "recall-drill|Recall drill": [
         "u39"
@@ -119827,6 +119818,15 @@
       ],
       "copy|When a painful, bleeding or malodorous lesion substantially affects comfort, even if observation would be appropriate for asymptomatic low-risk disease. (p1471)": [
         "u268"
+      ],
+      "copy|June 2025 Q29 — Printed page 1464.": [
+        "u36"
+      ],
+      "copy|September 2024 Q8 — Printed pages 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463.": [
+        "u37"
+      ],
+      "copy|June 2023 Q42 — Printed page 1462.": [
+        "u38"
       ]
     }
   },
@@ -119950,9 +119950,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u39"
-      ],
-      "copy|2026-Jun Q86 — Printed pages 1647, 1648, 1649, 1650.": [
-        "u40"
       ],
       "recall-drill|Recall drill": [
         "u42"
@@ -120437,9 +120434,6 @@
       "copy|Tap an image to zoom.": [
         "u30"
       ],
-      "copy|2025-Jun Q24": [
-        "u203"
-      ],
       "copy|1.": [
         "u204"
       ],
@@ -120592,8 +120586,14 @@
       "copy|Stretching, local treatment and correction of perpetuating factors, alongside education and activity. Medication alone usually does not restore function. (p1664)": [
         "u264"
       ],
-      "copy|2025-Jun Q24 — Related bank item. It tests a related topic without a chapter-specific page.": [
+      "copy|June 2026 Q86 — Printed pages 1647, 1648, 1649, 1650.": [
+        "u40"
+      ],
+      "copy|June 2025 Q24 — Related bank item. It tests a related topic without a chapter-specific page.": [
         "u41"
+      ],
+      "copy|June 2025 Q24": [
+        "u203"
       ]
     }
   },
@@ -120741,12 +120741,6 @@
       ],
       "past-exam-questions|Past exam questions": [
         "u47"
-      ],
-      "copy|2026-Jun Q22 — Printed page 1725.": [
-        "u48"
-      ],
-      "copy|2023-Jun Q12 — Printed pages 1727, 1728.": [
-        "u49"
       ],
       "recall-drill|Recall drill": [
         "u50"
@@ -121198,9 +121192,6 @@
       "copy|Tap an image to zoom.": [
         "u30"
       ],
-      "copy|2023-Jun Q12": [
-        "u200"
-      ],
       "copy|Earlier sittings, chapter-level mapping — 2022-Jun Q93, 2021-Dec Q69, 2020 Q2.": [
         "u201"
       ],
@@ -121355,6 +121346,15 @@
       ],
       "copy|Local pain and systemic symptoms may occur. Serious adverse events were similar between vaccine and placebo groups in clinical trials. (p1728–1729)": [
         "u262"
+      ],
+      "copy|June 2026 Q22 — Printed page 1725.": [
+        "u48"
+      ],
+      "copy|June 2023 Q12 — Printed pages 1727, 1728.": [
+        "u49"
+      ],
+      "copy|June 2023 Q12": [
+        "u200"
       ]
     }
   }

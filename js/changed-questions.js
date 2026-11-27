@@ -64,7 +64,8 @@ window.HazzardChanged = (() => {
       for (const q of questions) {
         const row = document.createElement('li'), link = document.createElement('a');
         link.href = '?chapter=bank&redo=1&q=' + encodeURIComponent(q.id);
-        link.textContent = q.label + ' — redo this question'; row.append(link); list.append(row);
+        const caption=q.label.replace(/^(\d{4}(?:-[A-Za-z]+)*)\s+Q(\d+)\b/,(_,sitting,number)=>HazzardEvidence.label({sitting,number}));
+        link.textContent = caption + ' — redo this question'; row.append(link); list.append(row);
       }
       details.append(list);
       if(!questions.length){host.replaceChildren();return;}

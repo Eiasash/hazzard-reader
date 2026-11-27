@@ -120,14 +120,14 @@ Book images cited by past exams. Tap an image to zoom.
 
 ![Hazzard 8e, Table 39-1, p.581](hazzard8e_ch39_table39-1_p581.png)
 
-[2025-Jun Q19](?chapter=bank&q=mcq-e3d703443b76b9de6cb9b9b3)
+[June 2025 Q19](?chapter=bank&q=mcq-e3d703443b76b9de6cb9b9b3)
 
 ## Past exam questions
 
-- [2026-Jun Q57](?chapter=bank&q=mcq-4c7f1796411e5742b15b4aea) — Printed page 575.
-- [2025-Jun Q19](?chapter=bank&q=mcq-e3d703443b76b9de6cb9b9b3) — Printed page 581.
-- [2025-Jun Q46](?chapter=bank&q=mcq-28f16301f638acf0121222dd) — Printed page 582.
-- [2025-Jun-Basic Q143](?chapter=bank&q=mcq-8d25a66a3df7ec66e248a685) — Printed page 588.
+- [June 2026 Q57](?chapter=bank&q=mcq-4c7f1796411e5742b15b4aea) — Printed page 575.
+- [June 2025 Q19](?chapter=bank&q=mcq-e3d703443b76b9de6cb9b9b3) — Printed page 581.
+- [June 2025 Q46](?chapter=bank&q=mcq-28f16301f638acf0121222dd) — Printed page 582.
+- [June 2025 Basic Q143](?chapter=bank&q=mcq-8d25a66a3df7ec66e248a685) — Printed page 588.
 
 [Earlier sittings, chapter-level mapping](?chapter=39#asked-chapter) — 2021-Dec Q87.
 

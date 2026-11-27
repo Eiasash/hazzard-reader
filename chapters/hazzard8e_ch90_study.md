@@ -114,8 +114,8 @@ Radiation can target an especially painful metastasis while systemic therapy con
 
 ## Past exam questions
 
-- [2024-May Q70](?chapter=bank&q=mcq-e1679665a965ea90eade835b) — Printed page 1418.
-- [2023-Jun Q60](?chapter=bank&q=mcq-ac3eccdcd0b272b7e74ac6e3) — Printed pages 1416, 1417, 1418, 1419.
+- [May 2024 Q70](?chapter=bank&q=mcq-e1679665a965ea90eade835b) — Printed page 1418.
+- [June 2023 Q60](?chapter=bank&q=mcq-ac3eccdcd0b272b7e74ac6e3) — Printed pages 1416, 1417, 1418, 1419.
 
 [Earlier sittings, chapter-level mapping](?chapter=90#asked-chapter) — 2021-Dec Q26, 2020 Q81.
 

@@ -269,4 +269,4 @@ Hazzard 8e, p.700 · [Read source](?chapter=47#p700)
 
 ![Hazzard 8e, Figure 47-1, p.700](hazzard8e_ch47_figure47-1.png)
 
-[2025-Jun Q66](?chapter=bank&q=mcq-30f0309dc8329f9569c19e59)
+[June 2025 Q66](?chapter=bank&q=mcq-30f0309dc8329f9569c19e59)

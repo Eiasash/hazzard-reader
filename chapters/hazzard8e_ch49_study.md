@@ -265,4 +265,4 @@ Gait-speed improvement >0.1 m/s or SPPB improvement >1 point. Mass gain alone is
 
 [Hazzard 8e, Table 49-3, p.734](#p734)
 
-[2024-Sep Q65](?chapter=bank&q=mcq-59f85952926fe582c920abfa)
+[September 2024 Q65](?chapter=bank&q=mcq-59f85952926fe582c920abfa)

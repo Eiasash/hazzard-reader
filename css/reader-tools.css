@@ -310,3 +310,4 @@ html[data-single-study]:has(.study-prototype) #readerViewport>#readerScroll{marg
 html[data-single-study]:has(.study-prototype) #readerScroll>#reader{padding-block-start:calc(var(--study-host-header,50px) + 12px);padding-block-end:78px}
 html[data-single-study]:has(.study-prototype) #mcqViewport .mcq-page{padding-block-start:calc(var(--study-host-header,50px) + 12px);padding-block-end:78px}
 html[data-single-study]:has(.study-prototype) #mcqViewport .mcq-docked-actions{bottom:54px}
+.reading-copy :is(p,li)[dir=rtl][lang=he]{direction:rtl;text-align:right}
