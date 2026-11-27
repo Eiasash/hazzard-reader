@@ -5,7 +5,7 @@ Study summary of Chapter 12; the book and the full chapter are the reference.
 ## Summary
 
 **Use the framework as a set**
-- Age-friendly care integrates **4Ms**: What Matters, Medication, Mentation and Mobility across care settings. Figure 12-1 identifies the Age-Friendly Health Systems initiative led by the John A. Hartford Foundation and the Institute for Healthcare Improvement with hospital partners (p172).
+- Age-friendly care integrates **4Ms**: What Matters, Medication, Mentation and Mobility across care settings (p172).
 - Apply them together to shift attention toward function, wellness and the person's goals; isolated disease plans can conflict (p172).
 - High-functioning teams need shared purpose, clear roles, communication, mutual respect and recognition of each member's expertise (p171-172).
 - Include older adults, families and caregivers as partners; the approach aims to improve experience, population health and cost of care (p172).
@@ -34,6 +34,8 @@ An estimated **29%** of Medicare beneficiaries in **2015** filled a prescription
 A depression screen can start a discussion about grief or persistent low mood. Arrange follow-up for assessment and treatment when indicated. When evaluating a local program, distinguish increased screening from changes in health. The Providence example reported a doubling of fall-risk and cognitive screening and a quadrupling of fall-risk interventions after staff training (p176–177).
 
 ### Why the four elements belong in the same plan
+
+Figure 12-1 identifies the Age-Friendly Health Systems initiative led by the John A. Hartford Foundation and the Institute for Healthcare Improvement with hospital partners (p172).
 
 The age-friendly framework gives a shared clinical vocabulary to the people who contribute to an older adult's care. Its organizing question is whether the whole plan supports the outcomes the patient wants. A professionally appropriate intervention for one disease can still make it harder to walk, cloud thinking or impose work the person cannot sustain. Figure 12-2 places What Matters, Medication, Mentation and Mobility together. Each assessment should inform what the team does about the other three. A checklist with four completed boxes records activity; it does not show that anyone changed treatment in response (p171–173).
 
