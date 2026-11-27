@@ -292,8 +292,9 @@ body{padding-block-end:var(--tabs-height)}
 #backupStatus{margin:8px 0 0}
 @media(prefers-reduced-motion:reduce){#chapterHeader{transition:none}}
 .chapter-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:6px;direction:ltr;margin-block:8px}
-.chapter-nav button{display:flex;align-items:center;gap:5px;min-width:0;min-height:44px;padding:4px 7px;font:600 var(--type-label)/1.25 var(--ui);text-align:left}
-.chapter-nav .chapter-neighbor-title{flex:1;min-width:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;overflow-wrap:normal;word-break:normal;text-wrap:balance}
+.chapter-nav button{display:grid;align-content:center;min-width:0;min-height:44px;padding:3px 7px;font:600 var(--type-label)/1.18 var(--ui);text-align:left}
+.chapter-nav .chapter-neighbor-number{font:500 var(--type-small)/1 var(--ui);color:var(--muted)}
+.chapter-nav .chapter-neighbor-title{min-width:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;overflow-wrap:normal;word-break:normal;text-wrap:balance}
 .chapter-nav button:last-child{grid-column:2;text-align:right}
 .chapter-nav .nav-empty{visibility:hidden}
 #desk{padding-top:28px}
@@ -3436,10 +3437,10 @@ function chapterNavigation(){
     const entry=sequence[index+offset];if(!entry){const gap=document.createElement('span');gap.className='nav-empty';nav.append(gap);continue}
     const b=document.createElement('button'),id=String(entry.number);b.dataset.chapter=isStudy||entry.studyOnly?(id==='law'?'laws':id+'s'):id;
     const label=(id==='law'?'':id+' ')+shortChapter(entry);
-    const name=document.createElement('span'),arrow=document.createElement('span');
-    name.className='chapter-neighbor-title';name.textContent=label;
-    arrow.setAttribute('aria-hidden','true');arrow.textContent=side==='previous'?'‹':'›';
-    if(side==='previous')b.append(arrow,name);else b.append(name,arrow);
+    const name=document.createElement('span'),direction=document.createElement('span');
+    name.className='chapter-neighbor-title';name.textContent=shortChapter(entry);
+    direction.className='chapter-neighbor-number';direction.setAttribute('aria-hidden','true');
+    const number=id==='law'?'':id;direction.textContent=side==='previous'?'‹ '+number:number+' ›';b.append(direction,name);
     b.title=label;b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
   }
   nav.classList.add('endcap');copy.after(nav);
