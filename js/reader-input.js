@@ -186,36 +186,66 @@ function installPointRail(main,openMark){
         rail.addEventListener('click',event=>{const badge=event.target.closest('button[data-mark-id]');if(badge)openMark(badge.dataset.kind,badge.dataset.markId);});
         root.append(rail);rails.set(root,rail);resized.observe(root);
       }
-      const origin=rail.getBoundingClientRect(),labels=document.createDocumentFragment();
-      const seen=new Set(),placed=[],numbers=new Set();
+      const origin=rail.getBoundingClientRect(),lines=[],seen=new Set(),numbers=new Set();
+      const scale=parseFloat(getComputedStyle(root).getPropertyValue('--fs'))||1;
+      const size=Math.ceil(22*scale);
       for(const marker of markers){
-        const id=marker.dataset.markKey;if(seen.has(id))continue;seen.add(id);
+        const id=marker.dataset.markKey,number=marker.dataset.point;
+        if(seen.has(id)||numbers.has(number)||marker.closest('[hidden]'))continue;
+        // A closed details can retain layout rectangles. Only its summary is painted.
+        let folded=false;
+        for(let details=marker.closest('details:not([open])');details;details=details.parentElement?.closest('details:not([open])')){
+          if(!details.querySelector(':scope > summary')?.contains(marker)){folded=true;break;}
+        }
+        if(folded)continue;
         const walker=document.createTreeWalker(marker,NodeFilter.SHOW_TEXT);
-        let node,index=-1;
-        while(node=walker.nextNode()){index=node.data.search(/\S/u);if(index>=0)break;}
-        if(!node)continue;
-        const first=document.createRange();first.setStart(node,index);first.setEnd(node,index+1);
-        const glyph=first.getBoundingClientRect();if(!glyph.height)continue;
+        let glyph;
+        while(walker.nextNode()){
+          const node=walker.currentNode,index=node.data.search(/\S/u);
+          if(index<0||node.parentElement.closest('[hidden]'))continue;
+          const first=document.createRange();first.setStart(node,index);first.setEnd(node,index+1);
+          const rect=first.getBoundingClientRect();if(rect.height){glyph=rect;break;}
+        }
+        if(!glyph)continue;
+        seen.add(id);numbers.add(number);
         const block=marker.closest('p,li,td,th,h1,h2,h3,h4,figcaption,blockquote')||root;
-        const rect=block.getBoundingClientRect(),rtl=getComputedStyle(block).direction==='rtl';
+        const style=getComputedStyle(block),rtl=style.direction==='rtl';
+        const rect=root.id==='copy'?origin:block.getBoundingClientRect();
+        const edge=rtl?rect.right:rect.left;
+        const middle=glyph.top-origin.top+glyph.height/2;
+        let line=lines.at(-1);
+        if(!line||line.block!==block||Math.abs(line.middle-middle)>3){
+          line={block,middle,edge,rtl,buttons:[],height:Math.min(size,Math.floor(parseFloat(style.lineHeight)||size))};
+          lines.push(line);
+        }
         const badge=document.createElement('button');badge.type='button';badge.className='point-badge';
-        const number=marker.dataset.point;if(numbers.has(number))continue;numbers.add(number);badge.dataset.number=number;badge.textContent=number;
+        badge.dataset.number=number;badge.textContent=number;
         badge.dataset.markId=id;badge.dataset.kind=marker.dataset.answerHighlight?'answer':marker.dataset.range?'ranges':'marks';
         const ink=marker.dataset.pointInk||marker.dataset.marked;
         badge.dataset.ink=ink;badge.dataset.side=rtl?'right':'left';
         badge.setAttribute('aria-label','Edit point '+number);badge.style.setProperty('--badge-ink','var(--hl-'+ink+')');
-        const scale=parseFloat(getComputedStyle(root).getPropertyValue('--fs'))||1;
-        const size=Math.ceil(22*scale),width=Math.max(size,Math.ceil((number.length*8+6)*scale));
-        const proposed=rtl?rect.right-origin.left+3:rect.left-origin.left-3-width;
-        const x=Math.max(-origin.left+1,Math.min(proposed,document.documentElement.clientWidth-origin.left-width-1));
-        let top=glyph.top-origin.top+(glyph.height-size)/2;
-        for(const other of placed){
-          if(x<other.x+other.width+2&&x+width+2>other.x&&top<other.bottom+2&&top+size>other.top-2)top=other.bottom+2;
-        }
-        placed.push({x,width,top,bottom:top+size});placed.sort((a,b)=>a.top-b.top);
-        badge.style.left=x+'px';badge.style.top=top+'px';badge.style.width=width+'px';badge.style.height=size+'px';labels.append(badge);
+        line.buttons.push(badge);
       }
-      rail.replaceChildren(labels);
+      const fragment=document.createDocumentFragment();
+      for(const line of lines){
+        const group=document.createElement('div');group.className='point-badge-line';group.dir=line.rtl?'rtl':'ltr';
+        const gap=line.buttons.length===1?3:1;
+        const room=(line.rtl?document.documentElement.clientWidth-line.edge:line.edge)-gap-1;
+        const preferred=line.buttons.reduce((sum,b)=>sum+Math.max(size,(b.textContent.length*8+6)*scale),0);
+        const width=Math.max(1,Math.min(room,preferred));
+        group.style.width=width+'px';group.style.left=(line.edge-origin.left+(line.rtl?gap:-width-gap))+'px';
+        group.style.setProperty('--point-height',line.height+'px');
+        group.append(...line.buttons);fragment.append(group);line.element=group;
+      }
+      rail.replaceChildren(fragment);
+      // Same-line points share a margin row. If a crowded row wraps, keep the
+      // following labels clear without moving any of the chapter's text.
+      for(const line of lines)line.measuredHeight=line.element.offsetHeight;
+      const bottom={};
+      for(const line of lines.sort((a,b)=>a.middle-b.middle)){
+        const side=line.rtl?'right':'left',top=Math.max(line.middle-line.height/2,bottom[side]??-Infinity);
+        line.element.style.top=top+'px';bottom[side]=top+line.measuredHeight+1;
+      }
     }
   }
   new MutationObserver(records=>{
