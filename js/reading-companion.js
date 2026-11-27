@@ -125,6 +125,10 @@ window.HazzardReadingCompanion = (() => {
     frame.contentWindow.location.replace(next.href);
   }
 
+  function syncStudyInset(){
+    if(!pane?.hasAttribute('data-structured-study'))return;
+    frame.contentDocument?.documentElement.style.setProperty('--study-host-header',(document.getElementById('chapterHeader').offsetHeight||50)+'px');
+  }
   function frameReady() {
     const doc = frame?.contentDocument;
     if (!doc) return;
@@ -245,6 +249,7 @@ window.HazzardReadingCompanion = (() => {
       const peer=frame?.contentDocument?.querySelector(control.id==='findToggle'?'#findToggle':'.companion-sections');
       if(peer){event.preventDefault();event.stopImmediatePropagation();peer.click();}
     },true);
+    new ResizeObserver(syncStudyInset).observe(document.getElementById('chapterHeader'));
     layoutPane=layout;
     if(study!==chapter){
       const preload=()=>{warm=true;layout();};

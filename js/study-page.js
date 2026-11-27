@@ -123,6 +123,16 @@ window.HazzardStudyPage = (() => {
   }
 
   function foldPractice(copy,register) {
+    if(structured(copy)){
+      for(const note of copy.querySelectorAll('.note')){
+        const title=note.querySelector('p:first-child>strong:first-child');
+        if(!title?.textContent.startsWith('Current practice: '))continue;
+        const details=practiceDisclosure();
+        details.firstElementChild.textContent=title.textContent.replace(/\.$/,'');
+        title.hidden=true;note.before(details);details.append(note);
+      }
+      return;
+    }
     const labelled = /(?:current practice\s*\(not the book\)|current guidance\s*\(separate from the book\)|current clinical distinction)\s*[:.]/i;
     for (const paragraph of copy.querySelectorAll('p,li')) {
       if (paragraph.closest(generated + ',summary,.study-current-practice,.study-inline-body') || paragraph.querySelector('p,li')) continue;
@@ -190,11 +200,86 @@ window.HazzardStudyPage = (() => {
     return target;
   }
 
+  function indexBookObjects(copy,chapter) {
+    const n=String(chapter);
+    if(!/^\d+$/.test(n))return;
+    const label=new RegExp('^(?:\\[p\\.\\s*\\d+\\]\\s*)?(table|figure|fig\\.)\\s*('+n+')\\s*[-–—.]\\s*(\\d+[a-z]?)\\b','i');
+    const ids=new Set();
+    function anchor(node,match){
+      if(!match)return;
+      const id='book-'+(match[1].toLowerCase()==='table'?'table':'figure')+'-'+match[2]+'-'+match[3].toLowerCase();
+      if(ids.has(id)||copy.querySelector('#'+CSS.escape(id)))return;
+      ids.add(id);
+      if(!node.id){node.id=id;return;}
+      const spot=document.createElement('span');spot.id=id;spot.dataset.readerMetadata='book-reference';spot.className='book-reference-target';
+      node.before(spot);
+    }
+    for(const img of copy.querySelectorAll('img')){
+      const fig=img.closest('figure')||img,caption=fig.querySelector('figcaption');
+      const filename=(img?.dataset.src||img?.getAttribute('src')||'').split('/').pop();
+      const match=[img?.alt,caption?.textContent,filename?.replace(/^.*?(table|figure|fig)[_-]?/i,'$1 ').replace(/_/g,'-')].filter(Boolean).map(t=>t.trim().match(label)).find(Boolean);
+      anchor(fig,match);
+    }
+    for(const caption of copy.querySelectorAll('p>strong,p>b')){
+      const text=caption.textContent.trim(),match=text.match(label);
+      if(match&&(/^[^—■]+\s*[—■]/.test(text)||text.toLowerCase()===match[0].toLowerCase()))anchor(caption.parentElement,match);
+    }
+    for(const el of copy.querySelectorAll('caption,h2,h3,h4,h5,p,dt')){
+      if(el.closest('[data-reader-metadata],figure,blockquote,.note'))continue;
+      const match=el.textContent.trim().match(label);if(!match)continue;
+      const first=el.querySelector('strong,b');
+      const table=el.nextElementSibling?.matches('table,.table-wrap,[data-table],.table-open')||el.nextElementSibling?.querySelector('table,img');
+      if(el.tagName!=='P'||first?.textContent.trim().match(label)||table)anchor(el,match);
+    }
+  }
+
+  const wordingByPage=new WeakMap();
+  function usesPrior(rule,saved){
+    return Object.values(saved.ranges||{}).some(mark=>{
+      const quote=normalize(mark.text||'');
+      return quote.length>=24 && !rule.current.includes(quote) && rule.prior.includes(quote);
+    });
+  }
+  function prepareWording(copy,saved){
+    const rules=[];
+    for(const template of copy.querySelectorAll('template[data-study-prior]')){
+      const span=copy.querySelector('[data-study-phrase="'+CSS.escape(template.dataset.studyPrior)+'"]');
+      if(!span)continue;
+      const rule={current:normalize(span.textContent),prior:normalize(template.content.textContent)};
+      rule.applied=usesPrior(rule,saved);
+      if(rule.applied)span.replaceChildren(template.content.cloneNode(true));
+      template.remove();rules.push(rule);
+    }
+    if(rules.length)wordingByPage.set(copy,rules);
+  }
+  function needsPriorWording(copy,saved){return wordingByPage.get(copy)?.some(rule=>!rule.applied&&usesPrior(rule,saved))||false;}
+  function structured(copy) {
+    return !!copy?.querySelector('[data-study-template="2"]');
+  }
+  function mountStructured(copy) {
+    copy.classList.add('study-v2');
+    const headings=[...copy.querySelectorAll(':scope > h2')];
+    const numbers=headings.find(h=>sourceText(h)==='Key numbers');
+    if(numbers){
+      const box=document.createElement('aside');box.className='study-numbers';
+      numbers.before(box);box.append(numbers);
+      while(box.nextElementSibling&&!box.nextElementSibling.matches('h2,.chapter-nav'))box.append(box.nextElementSibling);
+    }
+    const test=headings.find(h=>sourceText(h)==='Test yourself');
+    if(test){
+      const details=document.createElement('details'),summary=document.createElement('summary');
+      details.className='study-test';test.before(details);summary.append(test);details.append(summary);
+      while(details.nextSibling&&!details.nextSibling.matches?.('h2,.chapter-nav'))details.append(details.nextSibling);
+    }
+  }
+
+
   function mount(copy, chapter) {
     if (!copy || !/^(?:\d+s|laws)$/.test(String(chapter)) || copy.dataset.notLoaded || copy.classList.contains('study-page')) return;
     const families = new Map();
     let major = 'summary', current = major, key = null, fragment = null;
     copy.classList.add('study-page');
+    if(structured(copy)){mountStructured(copy);return;}
     numberRecall(copy);
     for (const node of [...copy.childNodes]) {
       if (node.nodeType !== Node.ELEMENT_NODE) { if (fragment) fragment.append(node); continue; }
@@ -232,5 +317,5 @@ window.HazzardStudyPage = (() => {
       reveal(document.getElementById(id));
     });
   }
-  return {mount, reveal, foldPractice};
+  return {mount, reveal, foldPractice, indexBookObjects, structured, prepareWording, needsPriorWording};
 })();

@@ -102,16 +102,16 @@
       "title": "Frailty — Study",
       "file": "hazzard8e_ch42_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "description": "Frailty describes vulnerability to a stressor. Begin by distinguishing a physical phenotype from accumulated deficits and from dependence in everyday activities.",
       "markUnits": "data/mark-units/42s.json",
-      "drillCount": 6
+      "drillCount": 2
     },
     {
       "number": "43s",
       "title": "Falls — Study",
       "file": "hazzard8e_ch43_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 43",
+      "description": "Reconstruct the fall, then assess mobility, medicines, vision and the environment. The intervention depends on the risk factor and the setting.",
       "markUnits": "data/mark-units/43s.json"
     },
     {
@@ -119,72 +119,72 @@
       "title": "Sleep Disorders — Study",
       "file": "hazzard8e_ch44_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "description": "Identify whether the main complaint is breathing, an urge to move, dream enactment or insomnia before selecting treatment.",
       "markUnits": "data/mark-units/44s.json",
-      "drillCount": 7
+      "drillCount": 3
     },
     {
       "number": "46s",
       "title": "Pressure Injuries — Study",
       "file": "hazzard8e_ch46_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 46",
+      "description": "Identify the tissue injury and relieve the load first. Stage, perfusion, exudate and infection then determine the next wound-care decision.",
       "markUnits": "data/mark-units/46s.json",
-      "drillCount": 6
+      "drillCount": 1
     },
     {
       "number": "47s",
       "title": "Incontinence — Study",
       "file": "hazzard8e_ch47_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 47",
+      "description": "Separate a storage symptom from impaired emptying. Use the history, examination and postvoid residual to identify a reversible cause before choosing treatment.",
       "markUnits": "data/mark-units/47s.json",
-      "drillCount": 9
+      "drillCount": 2
     },
     {
       "number": "55s",
       "title": "Rehabilitation — Study",
       "file": "hazzard8e_ch55_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "description": "Identify the task the person wants to regain, the help it requires and the barrier to doing it safely. Those findings guide the device, team and setting.",
       "markUnits": "data/mark-units/55s.json",
-      "drillCount": 7
+      "drillCount": 2
     },
     {
       "number": "58s",
       "title": "Delirium — Study",
       "file": "hazzard8e_ch58_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 58",
+      "description": "An acute change in attention or arousal warrants a search for a precipitant. Establish the baseline, follow the time course and address distress while treating the cause.",
       "markUnits": "data/mark-units/58s.json",
-      "drillCount": 9
+      "drillCount": 2
     },
     {
       "number": "59s",
       "title": "Dementia Including Alzheimer Disease — Study",
       "file": "hazzard8e_ch59_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 59",
+      "description": "Establish cognitive decline from the person's usual function, then interpret the pattern, time course and biomarkers together. Treatment and goals change as dependence increases.",
       "markUnits": "data/mark-units/59s.json",
-      "drillCount": 7
+      "drillCount": 2
     },
     {
       "number": "60s",
       "title": "BPSD and Psychoactive Drugs — Study",
       "file": "hazzard8e_ch60_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 60",
+      "description": "Identify what the behavior means to the patient before trying to suppress it. Pain, delirium, medicines and an unmet need can look similar.",
       "markUnits": "data/mark-units/60s.json",
-      "drillCount": 8
+      "drillCount": 2
     },
     {
       "number": "61s",
       "title": "Parkinson Disease — Study",
       "file": "hazzard8e_ch61_study.md",
       "kind": "study",
-      "description": "Summary + 15-question drill for Chapter 61",
+      "description": "First establish whether the motor syndrome is parkinsonism. Its pattern, timing and response to levodopa guide the diagnosis and subsequent treatment.",
       "markUnits": "data/mark-units/61s.json",
-      "drillCount": 9
+      "drillCount": 2
     },
     {
       "number": "63s",
@@ -314,18 +314,18 @@
       "title": "Syncope and Dizziness — Study",
       "file": "hazzard8e_ch45_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "description": "Decide whether the episode was loss of consciousness, vertigo or imbalance. Posture, meals, associated symptoms and recovery narrow the cause.",
       "markUnits": "data/mark-units/45s.json",
-      "drillCount": 13
+      "drillCount": 2
     },
     {
       "number": "51s",
       "title": "Osteoporosis — Study",
       "file": "hazzard8e_ch51_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "description": "A low-trauma fracture can change treatment even when bone density alone does not. Assess fracture risk, secondary causes and the consequences of interrupting therapy.",
       "markUnits": "data/mark-units/51s.json",
-      "drillCount": 12
+      "drillCount": 2
     },
     {
       "number": "52s",
@@ -350,9 +350,9 @@
       "title": "Pain Management — Study",
       "file": "hazzard8e_ch68_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "description": "Ask what the pain prevents the person from doing. Classify the mechanism, choose a scale the person can use and weigh relief against medication toxicity.",
       "markUnits": "data/mark-units/68s.json",
-      "drillCount": 7
+      "drillCount": 2
     },
     {
       "number": "81s",
@@ -474,9 +474,9 @@
       "title": "Major Depression — Study",
       "file": "hazzard8e_ch65_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "description": "Interpret symptoms and impairment together. A screening score prompts assessment of severity, safety and the treatment the person can realistically sustain.",
       "markUnits": "data/mark-units/65s.json",
-      "drillCount": 13
+      "drillCount": 3
     },
     {
       "number": "75s",
@@ -510,9 +510,9 @@
       "title": "Kidney Diseases — Study",
       "file": "hazzard8e_ch83_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "description": "Distinguish a new kidney injury from chronic loss of filtration. Urgency depends on the complication, while mechanism and goals guide longer-term treatment.",
       "markUnits": "data/mark-units/83s.json",
-      "drillCount": 11
+      "drillCount": 3
     },
     {
       "number": "88s",
@@ -545,18 +545,18 @@
       "title": "Emergency Department Care — Study",
       "file": "hazzard8e_ch15_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "description": "A quiet emergency patient may have delirium, abuse or functional decline despite a reassuring triage impression. Establish baseline function before deciding on discharge.",
       "markUnits": "data/mark-units/15s.json",
-      "drillCount": 12
+      "drillCount": 2
     },
     {
       "number": "27s",
       "title": "Perioperative Care: Evaluation and Management — Study",
       "file": "hazzard8e_ch27_study.md",
       "kind": "study",
-      "description": "Study summary with Recall items; converted questions are in Practice.",
+      "description": "Clarify the operation, baseline reserve and goals before ordering tests. Use the expected perioperative risk to plan medication interruption and recovery.",
       "markUnits": "data/mark-units/27s.json",
-      "drillCount": 12
+      "drillCount": 3
     },
     {
       "number": "49s",
@@ -580,18 +580,18 @@
       "title": "Aging of the Kidney — Study",
       "file": "hazzard8e_ch82_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "description": "A reassuring serum creatinine can conceal low filtration in an older adult. Interpret it alongside muscle mass, reserve and the response to potassium loads.",
       "markUnits": "data/mark-units/82s.json",
-      "drillCount": 9
+      "drillCount": 3
     },
     {
       "number": "53s",
       "title": "Hip Fractures — Study",
       "file": "hazzard8e_ch53_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
+      "description": "Read the fracture pattern before choosing repair. Timing, medical stability and early mobility then shape recovery and discharge.",
       "markUnits": "data/mark-units/53s.json",
-      "drillCount": 7
+      "drillCount": 2
     },
     {
       "number": "67s",
@@ -643,7 +643,7 @@
       "title": "Principles of Geriatric Assessment — Study",
       "file": "hazzard8e_ch8_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "description": "Begin with what the person can do at home. Function, cognition, sensory loss and support determine which findings change the care plan.",
       "markUnits": "data/mark-units/8s.json"
     },
     {
@@ -651,9 +651,9 @@
       "title": "Mental Status and Neurologic Examination — Study",
       "file": "hazzard8e_ch9_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "description": "Localize the abnormal finding before assigning a diagnosis. History, language, cranial nerves and motor testing provide different clues.",
       "markUnits": "data/mark-units/9s.json",
-      "drillCount": 15
+      "drillCount": 2
     },
     {
       "number": "96s",
@@ -1012,7 +1012,7 @@
       "title": "Prevention and Screening — Study",
       "file": "hazzard8e_ch11_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions",
+      "description": "Start with baseline risk and the time until a preventive intervention can help. Compare that interval with life expectancy, competing illness and the person's goals.",
       "markUnits": "data/mark-units/11s.json"
     },
     {
@@ -1100,8 +1100,9 @@
       "title": "Cerebrovascular Disease — Study",
       "file": "hazzard8e_ch62_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/62s.json"
+      "description": "Start with the distribution and timing of the deficit. Localize the lesion, distinguish ischemia from hemorrhage, and use the mechanism to select treatment.",
+      "markUnits": "data/mark-units/62s.json",
+      "drillCount": 1
     },
     {
       "number": "64",
@@ -1499,7 +1500,8 @@
       "file": "hazzard8e_ch1_study.md",
       "kind": "study",
       "markUnits": "data/mark-units/1s.json",
-      "drillCount": 15
+      "description": "Longevity studies ask whether an intervention changes the rate of aging, prevents one disease or simply selects a healthier population.",
+      "drillCount": 3
     },
     {
       "number": "40",

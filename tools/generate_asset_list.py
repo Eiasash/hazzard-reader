@@ -97,7 +97,8 @@ for chapter in manifest['chapters']:
     paths.add(path)
     text = (ROOT / path).read_text(encoding='utf-8')
     if chapter['kind'] == 'study':
-        count = len(self_graded_question.findall(text))
+        count = (len(re.findall(r'<details\b[^>]*\bdata-check-key=', text))
+                 if 'data-study-template="2"' in text else len(self_graded_question.findall(text)))
         if count:
             chapter['drillCount'] = count
         else:

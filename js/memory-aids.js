@@ -9,6 +9,21 @@ window.HazzardMemoryAids = (() => {
   }
   async function decorate(copy, chapter) {
     if (!/^\d+s$/.test(chapter) || copy.querySelector('.memory-aids')) return;
+    if(window.HazzardStudyPage.structured(copy)){
+      const slots=[...copy.querySelectorAll('[data-study-aid]')];if(!slots.length)return;
+      const aids=(await load()).chapters[chapter]||[];
+      for(const slot of slots){
+        const aid=aids.find(a=>a.title===slot.dataset.studyAid);if(!aid)continue;
+        const line=document.createElement('p');line.className='study-memory';line.dataset.readerMetadata='memory-aid';
+        const cue=document.createElement('strong');cue.textContent=aid.mnemonic;
+        const label=aid.title.replace(/\s*\(Table [^)]+\)/i,'');
+        line.append(label+' · ',cue,' (');
+        const pages=String(aid.page).match(/\d+/g)||[];
+        pages.forEach((page,i)=>{if(i)line.append('–');const link=document.createElement('a');link.href='?chapter='+chapter.slice(0,-1)+'#p'+page;link.textContent=(i?'':'p')+page;line.append(link);});
+        line.append(')');slot.replaceWith(line);
+      }
+      return;
+    }
     const panel = document.createElement('details');
     panel.className = 'memory-aids'; panel.id = 'memory-aids'; panel.dataset.readerMetadata = 'memory-aids';
     const summary = document.createElement('summary'); summary.textContent = 'Memory aids';

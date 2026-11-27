@@ -1,99 +1,58 @@
-Study summary of Chapter 27 — Perioperative Care: Evaluation and Management; the book is the reference.
+<div hidden data-reader-metadata="study-layout" data-study-template="2"></div>
 
-# Chapter 27 Study: Perioperative Care
+# Perioperative Care: Evaluation and Management
 
-## What the exams asked
+Clarify the operation, baseline reserve and goals before ordering tests. Use the expected perioperative risk to plan medication interruption and recovery.
 
-- How much perioperative mortality is cardiac, and how long does the early risk period last? [2020 Q12](?chapter=27#asked-chapter).
-- Which preoperative laboratory result is part of the Revised Cardiac Risk Index? [December 2021 Q36](?chapter=27#asked-chapter).
-- Choose a stress modality when hip disease prevents adequate exercise, and recognize when testing would change management. [June 2022 Q4](?chapter=27#asked-chapter) (GRS).
-- Distinguish interruption of clopidogrel after remote stenting from anticoagulant bridging. [June 2022 Q11](?chapter=27#asked-chapter) (GRS, two accepted answers).
-- Which feature predicts major adverse cardiac events before lung resection even with preserved systolic function? [June 2023 Q31](?chapter=27#exam-p375-mcq-368d1c6ff706583ac2c3f156).
-- Match the direction of aging changes to the clinical consequence: skin repair, hepatic clearance, fluid balance, glucose and gas exchange. [September 2024 Q64](?chapter=27#exam-p375-mcq-db66212cedd8f17c624ba1ed) and [June 2025 Q39](?chapter=27#exam-p375-mcq-18b0ad7f9e472a626caf7cbe).
-- Separate short-acting oral anticoagulants from warfarin when deciding whether heparin bridging is needed. [September 2024 Q14](?chapter=27#exam-p380-mcq-14024c36301bd94117cfdcb6).
-- Identify the upper gastrointestinal change that favors aspiration after surgery. [June 2026 Q66](?chapter=27#exam-p376-mcq-f065ded45c3214b7bc02b061).
-- Recognize a frozen shoulder after surgical recovery when active and passive movement are both limited. [June 2026 Q21](?chapter=27#ch27-harrison-shoulder) (Harrison 22e, ch. 387, pp. 2974–2975).
+## Baseline reserve and goals
 
-## Cardiac history, reserve and the decision to test
+<a id="p371"></a>**[<a href="?chapter=27#p371">p. 371</a>]**
 
-<span data-exam-ids="mcq-368d1c6ff706583ac2c3f156" data-reader-metadata="exam"></span>Ask about prior stroke before focusing on the ejection fraction. A stroke five years earlier still identifies a patient at increased risk of major perioperative cardiac events. A report of normal systolic function cannot rule out heart failure: a stiff left ventricle may generate a high filling pressure with a small fluid load, yet lose pressure quickly when bleeding reduces preload. An LVEF below 40% is associated with higher mortality. An EF of 50% is not the cutoff in this passage (pp374–375).
+Older surgical patients are heterogeneous but particularly vulnerable to complications. Assess cognition, function, mobility, nutrition, swallowing, and whether the expected surgical result matches the person's goals. Establishing the true baseline supports realistic expectations, optimization/prehabilitation, and arrangements for recovery or postacute care (<a href="?chapter=27#p371">p371</a>).
 
-Conduction-system disease increases susceptibility to bradycardia and high-grade atrioventricular block, especially with rate-lowering drugs. The clues to ventricular tachycardia in the chapter are a prior infarct or a low LVEF. About one-quarter to three-tenths of perioperative deaths are attributed to cardiac causes. This is a proportion of deaths, not the probability that a given patient will die. Risk is greatest immediately after the operation, and roughly half of adverse events occur within three weeks. Delirium can prolong the admission and impede functional recovery (pp375–376, 379).
+Screening tools help identify risk but differ in predictive validity and feasibility. Evidence-based care is more effectively delivered through structured interdisciplinary processes across the whole surgical episode (<a href="?chapter=27#p371">p371</a>).
 
-The original Revised Cardiac Risk Index assigns one point for **preoperative serum creatinine >2.0 mg/dL** (Lee et al., 1999). An 83-year-old with creatinine 2.2 mg/dL meets this criterion. Its other components are ischemic heart disease, heart failure, cerebrovascular disease, insulin treatment and high-risk surgery. Prediabetes and an isolated right bundle-branch block are not index components. Check kidney function separately for drug and fluid management: reduced muscle mass can conceal impaired filtration behind a serum creatinine that appears normal (Hazzard 8e, p376). [Lee et al., derivation and validation of the RCRI](https://pubmed.ncbi.nlm.nih.gov/10477528/)
+<a id="p372"></a>**[<a href="?chapter=27#p372">p. 372</a>]**
 
-Severe hip arthritis may preclude an adequate treadmill or bicycle workload. In the joint-replacement vignette the relevant imaging choice is pharmacologic stress, such as dobutamine stress echocardiography. First estimate patient and procedural risk and ask what a high-risk result would change. Testing can be considered in selected patients with elevated risk and poor or unknown capacity. An unmeasurable exercise capacity alone does not make stress imaging or angiography mandatory. [2024 AHA/ACC perioperative cardiovascular guideline, §§4.3–4.3.1 and 4.6](https://doi.org/10.1161/CIR.0000000000001285)
+**Chronologic age alone should not decide surgical eligibility.** Physiologic reserve differs across patients and across organ systems. Avoid presenting surgery simply as a “fix” without explaining its effect on everyday life (<a href="?chapter=27#p372">p372</a>).
 
-## Organ aging at the bedside
+Frailty reflects limited reserve and vulnerability. The physical phenotype includes weight loss, weakness, exhaustion, low activity, and slow gait. Preoperative frailty predicts complications, longer admission, and a greater likelihood of discharge to institutional care (<a href="?chapter=27#p372">p372</a>–<a href="?chapter=27#p373">373</a>).
 
-<span data-exam-ids="mcq-db66212cedd8f17c624ba1ed mcq-18b0ad7f9e472a626caf7cbe" data-reader-metadata="exam"></span>Start with the normal job of the tissue. Skin needs an epithelial covering and an adequate blood supply to close a wound. With fewer dermal vessels and slower re-epithelialization, the wound closes more slowly. In the lung, a stiffer chest wall, less elastic recoil and greater mismatch between ventilation and perfusion leave less reserve to tolerate sedation. Blood leaving poorly ventilated units is poorly oxygenated. September 2024 tested the skin pair. June 2025 tested the respiratory pair (Table 27-3, p375).
+<a id="p373"></a>**[<a href="?chapter=27#p373">p. 373</a>]**
 
-In the same table, fewer nephrons and reduced sodium and water excretion favor volume overload. Reduced hepatic blood flow and microsomal oxidation tend to prolong the half-life of susceptible drugs. Insulin resistance accompanied by impaired secretion favors hyperglycemia. Check blood glucose during surgical stress because hyperglycemia may increase infection risk. For renal dosing, the renal prose on p376 explains that clearance can fall and toxicity risk can rise; the printed renal half-life arrow is inconsistent with that explanation (pp375–376).
+Choose the frailty tool for the outcome and setting: the phenotype is associated with postoperative delirium; Edmonton Frail Scale predicts complications; Clinical Frailty Scale is associated with mortality and discharge away from home. Gait speed refines cardiac-surgery risk and identifies patients needing deeper evaluation (<a href="?chapter=27#p373">p373</a>).
 
-## Aspiration during recovery
+Screen all older surgical patients for malnutrition, including those with obesity. Weight loss **>10% in 6 months** or **>5% in 1 month** warrants further nutritional assessment and a support plan. MNA is a validated option. Sarcopenia reduces functional recovery; weight loss also predicts delirium and pulmonary complications (<a href="?chapter=27#p373">p373</a>).
 
-<span data-exam-ids="mcq-f065ded45c3214b7bc02b061" data-reader-metadata="exam"></span>A hiatal hernia increases the likelihood that gastric contents will reflux. Reduced lower-esophageal sphincter tone, weaker esophageal peristalsis and delayed gastric emptying can add to the risk. A prior stroke can create a second route to aspiration by impairing swallowing and secretion control. Ask about coughing with food or a previous aspiration episode even if the neurologic deficit is subtle. Severe postoperative pain may impair deep breathing and atelectasis is a common pulmonary complication, but neither supplies the structural explanation in the question (pp375–376).
+<a id="p374"></a>**[<a href="?chapter=27#p374">p. 374</a>]**
 
-## Anticoagulants and antiplatelets before an operation
+Ask whether the patient can get out of bed/chair, dress/bathe, prepare meals, and shop. Any inability should prompt a full ADL/IADL assessment. Even dependency in a single ADL and a recent fall are meaningful risk markers (<a href="?chapter=27#p373">p373</a>–<a href="?chapter=27#p374">374</a>).
 
-<span data-exam-ids="mcq-14024c36301bd94117cfdcb6" data-reader-metadata="exam"></span>Start with the indication, the drug and the bleeding risk of the operation. The chapter states that rivaroxaban, dabigatran and apixaban **do not require perioperative bridging** because of their relatively short half-lives. The chapter gives an interruption interval of one to four days for the agents it discusses, individualized to renal function, bleeding risk and thrombotic risk. Confirm hemostasis before resumption (p380).
+Cognitive impairment, dementia, or previous delirium raises postoperative delirium risk. Screen cognition and investigate unexpected deficits; discuss benefits/risks in an understandable way and involve appropriate surrogates. Also assess depression, anxiety, PTSD, alcohol/substance use, and actual psychoactive medication exposure (<a href="?chapter=27#p374">p374</a>).
 
-A recent DVT or pulmonary embolus changes the timing of elective surgery. Hazzard advises waiting at least **3 months** if possible. When surgery cannot wait, the chapter describes pre- and postoperative LMWH bridging in a warfarin-treated patient with recent VTE while **INR <2.0** (p380).
+Reduced vascular compliance and a stiff ventricle impair diastolic filling. Fluid loading can cause pulmonary congestion; bleeding or third spacing can markedly reduce pressure through loss of preload. Ischemia further impairs relaxation (<a href="?chapter=27#p374">p374</a>).
 
-> Current practice (not the book): most warfarin-treated patients do not need perioperative bridging; consider it for selected patients with high thrombotic risk — [AHA/ACC 2024, §7.6](https://doi.org/10.1161/CIR.0000000000001285).
+## Cardiac risk and testing
 
-Clopidogrel inhibits platelets. Enoxaparin is an anticoagulant and cannot replace a P2Y12 inhibitor's effect on stent thrombosis. The older GRS knee-replacement question accepts both a five-to-seven-day interruption after a remote stent and continuation. Which course to take depends on surgical bleeding risk, thrombotic risk and the consequences of delaying surgery. Five to seven days is the expected interval to platelet-function recovery when interruption is chosen. [2024 AHA/ACC perioperative cardiovascular guideline, §7.5 and Table 12](https://doi.org/10.1161/CIR.0000000000001285)
+### Cardiac history, reserve and the decision to test
 
-## A painful shoulder after surgical recovery
+Ask about prior stroke before focusing on the ejection fraction. A stroke five years earlier still identifies a patient at increased risk of major perioperative cardiac events. A report of normal systolic function cannot rule out heart failure: a stiff left ventricle may generate a high filling pressure with a small fluid load, yet lose pressure quickly when bleeding reduces preload. An LVEF below 40% is associated with higher mortality. An EF of 50% is not the cutoff in this passage (<a href="?chapter=27#p374">pp374</a>–<a href="?chapter=27#p375">375</a>).
 
-<span data-practice-ids="mcq-10f0de0773043fed8129feaf" data-reader-metadata="exam"></span>After a period of reduced use, the shoulder capsule can thicken and become stiff. Ask the patient to move the shoulder, then move the relaxed arm yourself. Loss of movement in both examinations, night pain over months and unrevealing imaging favor adhesive capsulitis. A cuff tear more often produces weakness during active movement. Ultrasound or MRI can identify a tear, and radiographs or ultrasound can identify calcification in calcific tendinitis. The question's cited chapter is Harrison 22e, ch. 387, pp. 2974–2975. [Read the related Harrison teaching](?chapter=27#ch27-harrison-shoulder).
+**LVEF <40%** is associated with increased death risk. **HF with preserved EF also increases MACE compared with no HF**; normal systolic function does not remove risk. The chapter notes that **two-thirds** of older adults with HF have normal systolic function (<a href="?chapter=27#p375">p375</a>).
 
-## Israeli context — הערכה והכנה לניתוח אלקטיבי
+Age **>65 years** independently predicts perioperative stroke, and **a history of stroke predicts MACE** (<a href="?chapter=27#p375">p375</a>).
 
-ההנחיות של הר״י מדצמבר 2024 מציעות לאתר בני 75 ומעלה עם אחד או יותר מהמאפיינים המפורטים, ובהם ירידה קוגניטיבית, ירידה בתפקוד או בניידות, ירידה במשקל, הפרעת בליעה או אספירציות, ריבוי מחלות או תרופות, ומועמדות לניתוח גדול. אפשר להיעזר ב־FRAIL או ב־CFS. הכירורג מפנה להערכה גריאטרית כשמזוהה סיכון מוגבר, בהתחשב בהיקף הניתוח ובזמן שנותר עד לביצועו. [הר״י, עמ׳ 4–5, סעיפים 3–4](https://ima-contentfiles.s3.amazonaws.com/Clinic_125patientforsurgery.pdf#page=4)
+**Pulmonary complications:** aging reduces elastic recoil/diffusing capacity and weakens cough/gag protection; smoking and chronic lung disease add risk. Atelectasis and aspiration are common. An estimated **14%** develop a major pulmonary complication, particularly after abdominal or cardiothoracic procedures. The list includes atelectasis, pneumonia, respiratory failure, chronic-lung-disease exacerbation, bronchospasm, pleural effusion, pneumothorax, and airway obstruction (<a href="?chapter=27#p375">p375</a>).
 
-לקראת האשפוז בודקים את רשימת התרופות ואת הסיכון לדליריום. מסבירים למטופל ולמשפחה מה צפוי ומתאמים עם הצוות איזון כאב, שמירה על מחזור שינה וערות, ניידות מוקדמת, שימוש במשקפיים ובמכשירי שמיעה והוצאת צנתרים כשאין בהם עוד צורך. לפי הממצאים שוקלים פיזיותרפיה מקדימה, מערבים דיאטנית, מתכננים את התמיכה לאחר השחרור ומתעדים אילו תוצאות חשובות למטופל. [הר״י, עמ׳ 5–6, סעיפים 5.1–5.7](https://ima-contentfiles.s3.amazonaws.com/Clinic_125patientforsurgery.pdf#page=5)
+Conduction-system disease increases susceptibility to bradycardia and high-grade atrioventricular block, especially with rate-lowering drugs. The clues to ventricular tachycardia in the chapter are a prior infarct or a low LVEF. About one-quarter to three-tenths of perioperative deaths are attributed to cardiac causes. This is a proportion of deaths, not the probability that a given patient will die. Risk is greatest immediately after the operation, and roughly half of adverse events occur within three weeks. Delirium can prolong the admission and impede functional recovery (<a href="?chapter=27#p375">pp375</a>–<a href="?chapter=27#p376">376</a>, <a href="?chapter=27#p379">379</a>).
 
-בהדסה עין כרם מבקשים להביא למרפאת טרום ניתוח סיכום מרופא המשפחה עם רשימת תרופות עדכנית ואת תוצאות הבדיקות שכבר התבקשו. במהלך הביקור מתקיימים הערכה של רופא מהמחלקה המנתחת, הערכת מרדים והדרכה סיעודית. הצוות מתאים את התרופות ומזמין בדיקות או ייעוצים נוספים לפי הצורך. [הדסה עין כרם, ״מה צריך להביא לביקור במרפאה?״ ו״מה קורה ביום הביקור במרפאה?״](https://he.hadassah.org.il/anesthesia/pre-operation-enkarem/)
+<a id="p375"></a>**[<a href="?chapter=27#p375">p. 375</a>]**
 
-**Full chapter available: [Read Chapter 27](?chapter=27).**
+**<a href="?chapter=27#book-table-27-3">Table 27-3</a>: full organ-system relationships** (<a href="?chapter=27#p375">p375</a>).
 
-*Hazzard’s Geriatric Medicine and Gerontology, 8e, Chapter 27 (printed pages 371–382).*
+<a href="?chapter=27#book-table-27-3">Table 27-3</a> — physiologic aging and perioperative effects
 
-## Summary
-
-### Establish the patient's baseline and goals
-
-<a id="p371"></a>**[p. 371]**
-
-- Older surgical patients are heterogeneous but particularly vulnerable to complications. Assess cognition, function, mobility, nutrition, swallowing, and whether the expected surgical result matches the person's goals. Establishing the true baseline supports realistic expectations, optimization/prehabilitation, and arrangements for recovery or postacute care (p371).
-- Screening tools help identify risk but differ in predictive validity and feasibility. Evidence-based care is more effectively delivered through structured interdisciplinary processes across the whole surgical episode (p371).
-
-<a id="p372"></a>**[p. 372]**
-
-- **Chronologic age alone should not decide surgical eligibility.** Physiologic reserve differs across patients and across organ systems. Avoid presenting surgery simply as a “fix” without explaining its effect on everyday life (p372).
-- Frailty reflects limited reserve and vulnerability. The physical phenotype includes weight loss, weakness, exhaustion, low activity, and slow gait. Preoperative frailty predicts complications, longer admission, and a greater likelihood of discharge to institutional care (p372–373).
-
-<a id="p373"></a>**[p. 373]**
-
-- Choose the frailty tool for the outcome and setting: the phenotype is associated with postoperative delirium; Edmonton Frail Scale predicts complications; Clinical Frailty Scale is associated with mortality and discharge away from home. Gait speed refines cardiac-surgery risk and identifies patients needing deeper evaluation (p373).
-- Screen all older surgical patients for malnutrition, including those with obesity. Weight loss **>10% in 6 months** or **>5% in 1 month** warrants further nutritional assessment and a support plan. MNA is a validated option. Sarcopenia reduces functional recovery; weight loss also predicts delirium and pulmonary complications (p373).
-
-<a id="p374"></a>**[p. 374]**
-
-- Ask whether the patient can get out of bed/chair, dress/bathe, prepare meals, and shop. Any inability should prompt a full ADL/IADL assessment. Even dependency in a single ADL and a recent fall are meaningful risk markers (p373–374).
-- Cognitive impairment, dementia, or previous delirium raises postoperative delirium risk. Screen cognition and investigate unexpected deficits; discuss benefits/risks in an understandable way and involve appropriate surrogates. Also assess depression, anxiety, PTSD, alcohol/substance use, and actual psychoactive medication exposure (p374).
-- Reduced vascular compliance and a stiff ventricle impair diastolic filling. Fluid loading can cause pulmonary congestion; bleeding or third spacing can markedly reduce pressure through loss of preload. Ischemia further impairs relaxation (p374).
-
-### Cardiac risk and the physiologic changes tested in past papers
-
-<a id="p375"></a>**[p. 375]**
-
-- Combining cardiac risk models with frailty measures improves outcome discrimination. CAD and heart failure remain major concerns: an estimated **25–30%** of perioperative deaths are cardiac. Look for occult as well as overt disease (p375).
-- **LVEF <40%** is associated with increased death risk. **HF with preserved EF also increases MACE compared with no HF**; normal systolic function does not remove risk. The chapter notes that **two-thirds** of older adults with HF have normal systolic function (p375).
-- Conduction-system aging predisposes to **drug-induced bradycardia and high-grade atrioventricular block**. Prior MI or low LVEF increases ventricular-tachycardia risk. Age **>65 years** independently predicts perioperative stroke, and **a history of stroke predicts MACE** (p375).
-
-**Table 27-3: full organ-system relationships** (p375).
+The original Revised Cardiac Risk Index assigns one point for **preoperative serum creatinine >2.0 mg/dL** (Lee et al., 1999). An 83-year-old with creatinine 2.2 mg/dL meets this criterion. Its other components are ischemic heart disease, heart failure, cerebrovascular disease, insulin treatment and high-risk surgery. Prediabetes and an isolated right bundle-branch block are not index components. Check kidney function separately for drug and fluid management: reduced muscle mass can conceal impaired filtration behind a serum creatinine that appears normal (Hazzard 8e, <a href="?chapter=27#p376">p376</a>). [Lee et al., derivation and validation of the RCRI](https://pubmed.ncbi.nlm.nih.gov/10477528/)
 
 | System | Changes with aging | Perioperative implications |
 | --- | --- | --- |
@@ -106,171 +65,150 @@ Clopidogrel inhibits platelets. Enoxaparin is an anticoagulant and cannot replac
 | Hepatic | Reduced blood flow and microsomal oxidation | **Longer half-life** of drugs cleared by the liver |
 | Endocrine | Insulin resistance and impaired secretion | **Hyperglycemia** |
 
-**Source-table caveats:** the renal row literally prints “↓ Half-life of drugs cleared by the kidney” [sic]; do not use that arrow as a renal dosing rule. The renal prose on [p376](#p376) describes reduced clearance and greater drug-toxicity risk. The cardiac row prints “arteriovenous blocks” [sic], while the same page's prose correctly says **atrioventricular blocks** (p375–376).
+**Table notes.** the renal row literally prints “↓ Half-life of drugs cleared by the kidney” [sic]; do not use that arrow as a renal dosing rule. The renal prose on [p376](#p376) describes reduced clearance and greater drug-toxicity risk. The cardiac row prints “arteriovenous blocks” [sic], while the same page's prose correctly says **atrioventricular blocks** (<a href="?chapter=27#p375">p375</a>–<a href="?chapter=27#p376">376</a>).
 
-- **Pulmonary complications:** aging reduces elastic recoil/diffusing capacity and weakens cough/gag protection; smoking and chronic lung disease add risk. Atelectasis and aspiration are common. An estimated **14%** develop a major pulmonary complication, particularly after abdominal or cardiothoracic procedures. The list includes atelectasis, pneumonia, respiratory failure, chronic-lung-disease exacerbation, bronchospasm, pleural effusion, pneumothorax, and airway obstruction (p375).
-- Postoperative pneumonia in older patients carries **15–20% mortality**. Obtain pulmonary and occupational-exposure history, and explicitly ask about swallowing difficulty or prior aspiration because subtle neurologic deficits may compromise airway protection (p375).
+Severe hip arthritis may preclude an adequate treadmill or bicycle workload. In the joint-replacement vignette the relevant imaging choice is pharmacologic stress, such as dobutamine stress echocardiography. First estimate patient and procedural risk and ask what a high-risk result would change. Testing can be considered in selected patients with elevated risk and poor or unknown capacity. An unmeasurable exercise capacity alone does not make stress imaging or angiography mandatory. [2024 AHA/ACC perioperative cardiovascular guideline, §§4.3–4.3.1 and 4.6](https://doi.org/10.1161/CIR.0000000000001285)
 
-<details data-claim="ch27-table27-3"><summary>Book table: physiologic aging and perioperative effects (p375)</summary>
+## Organ reserve and operative risk
 
-![Table 27-3. Physiologic changes of aging and effects on perioperative care, printed page 375.](ch27_table27_3_p375.png)
+Start with the normal job of the tissue. Skin needs an epithelial covering and an adequate blood supply to close a wound. With fewer dermal vessels and slower re-epithelialization, the wound closes more slowly. In the lung, a stiffer chest wall, less elastic recoil and greater mismatch between ventilation and perfusion leave less reserve to tolerate sedation. Blood leaving poorly ventilated units is poorly oxygenated. The respiratory changes can become important during anesthesia (<a href="?chapter=27#book-table-27-3">Table 27-3</a>, <a href="?chapter=27#p375">p375</a>).
 
+In the same table, fewer nephrons and reduced sodium and water excretion favor volume overload. Reduced hepatic blood flow and microsomal oxidation tend to prolong the half-life of susceptible drugs. Insulin resistance accompanied by impaired secretion favors hyperglycemia. Check blood glucose during surgical stress because hyperglycemia may increase infection risk. For renal dosing, the renal prose on <a href="?chapter=27#p376">p376</a> explains that clearance can fall and toxicity risk can rise; the printed renal half-life arrow is inconsistent with that explanation (<a href="?chapter=27#p375">pp375</a>–<a href="?chapter=27#p376">376</a>).
 
-June 2025 Q39 explicitly names Table 27-3. September 2024 Q64 gives p375 and its table field displays “March 27”; the matching table on that page is 27-3. The printed renal arrow and cardiac terminology are preserved in the image and explained above.
+<a id="p376"></a>**[<a href="?chapter=27#p376">p. 376</a>]**
 
-</details>
+**Aspiration risk:** stroke can impair swallowing, esophageal transit, and secretion control. Aging may reduce esophageal peristaltic-wave amplitude and lower-esophageal-sphincter tone, increase **hiatal hernia**, delay gastric emptying, and increase gastroesophageal reflux. These are the mechanisms relevant to the official aspiration question (<a href="?chapter=27#p376">p376</a>).
 
-### Aspiration, renal and infectious complications, and the period of risk
+**Renal function:** glomerular/tubular aging reduces function, accelerated by hypertension, diabetes, and CAD. Low muscle mass reduces creatinine production, so a seemingly reassuring serum creatinine can conceal low clearance. Baseline insufficiency raises volume and acid–base risks (<a href="?chapter=27#p376">p376</a>).
 
-<a id="p376"></a>**[p. 376]**
+Dehydration, fluid shifts, hypotension, and hypovolemia predispose to **acute tubular necrosis**, the most frequent postoperative renal-dysfunction cause described here. Drugs and contrast add nephrotoxicity; altered renal/hepatic handling increases drug toxicity (<a href="?chapter=27#p376">p376</a>).
 
-- **Aspiration risk:** stroke can impair swallowing, esophageal transit, and secretion control. Aging may reduce esophageal peristaltic-wave amplitude and lower-esophageal-sphincter tone, increase **hiatal hernia**, delay gastric emptying, and increase gastroesophageal reflux. These are the mechanisms relevant to the official aspiration question (p376).
-- **Renal function:** glomerular/tubular aging reduces function, accelerated by hypertension, diabetes, and CAD. Low muscle mass reduces creatinine production, so a seemingly reassuring serum creatinine can conceal low clearance. Baseline insufficiency raises volume and acid–base risks (p376).
-- Dehydration, fluid shifts, hypotension, and hypovolemia predispose to **acute tubular necrosis**, the most frequent postoperative renal-dysfunction cause described here. Drugs and contrast add nephrotoxicity; altered renal/hepatic handling increases drug toxicity (p376).
-- **Infection:** prolonged devices, ventilation, and hospital stay are important risks. Infections of prosthetic material/devices complicate treatment; prolonged antimicrobial courses may cause nephrotoxicity and increase *C. difficile* risk. Targeted preoperative *S. aureus* decolonization is among evolving prevention strategies (p376).
-- **Emergency surgery:** risk is particularly high in older patients because disease may present late or atypically and complications are more frequent. Excessive delay for “optimization” can convert a needed elective procedure into a higher-risk emergency; balance the delay against its consequences (p376).
-- Stress hyperglycemia increases infectious risk and merits monitoring. Reduced mobility/sensation contributes to pressure injury: use repeated skin assessment and pressure unloading. Explain recovery time, realistic functional outcomes, possible rehabilitation/subacute care, and home support needs with the patient and family (p376).
-- **Timing:** preoperative factors predict **7-day mortality** better than anesthesia duration or operator experience. After adjusting for baseline risk, spinal versus general anesthesia does not predict outcome in the account presented here. Risk is greatest immediately after surgery; **half of adverse events occur within 3 weeks**. Social support also affects recovery (p376).
+**Infection:** prolonged devices, ventilation, and hospital stay are important risks. Infections of prosthetic material/devices complicate treatment; prolonged antimicrobial courses may cause nephrotoxicity and increase *C. difficile* risk. Targeted preoperative *S. aureus* decolonization is among evolving prevention strategies (<a href="?chapter=27#p376">p376</a>).
 
-### Preoperative planning: make the care plan match the goal
+**Emergency surgery:** risk is particularly high in older patients because disease may present late or atypically and complications are more frequent. Excessive delay for “optimization” can convert a needed elective procedure into a higher-risk emergency; balance the delay against its consequences (<a href="?chapter=27#p376">p376</a>).
 
-<a id="p377"></a>**[p. 377]**
+Stress hyperglycemia increases infectious risk and merits monitoring. Reduced mobility/sensation contributes to pressure injury: use repeated skin assessment and pressure unloading. Explain recovery time, realistic functional outcomes, possible rehabilitation/subacute care, and home support needs with the patient and family (<a href="?chapter=27#p376">p376</a>).
 
-- Cancer treatment can worsen preoperative health and add anxiety, increasing delirium/poor-outcome risk. Gather the surgeon's intended outcome, technique-specific risks, and the patient's health goals. Discuss meaningful possibilities explicitly—such as an ostomy and the lifestyle changes it entails (p377).
-- Encourage a companion at visits and coordinate surgeons, medical clinicians, geriatrics, family, and community resources. Communication matters particularly when patients cannot convey history or concerns reliably. Integrated care should begin when surgery is scheduled (p377).
-- **ACS NSQIP/AGS preoperative framework, Table 27-4:** assess what matters most (goals/expectations versus possible outcomes); mentation (cognition, capacity, depression, delirium risks); mobility (frailty, baseline function, falls); medication (accurate list, perioperative adjustment, polypharmacy, alcohol/substance dependence); and multimorbidity/multicomplexity (cardiac assessment, pulmonary risks/prevention, nutrition and intervention when severe risk, family/social support, and appropriately targeted diagnostic tests) (p377).
+**Timing:** preoperative factors predict **7-day mortality** better than anesthesia duration or operator experience. After adjusting for baseline risk, spinal versus general anesthesia does not predict outcome in the account presented here. Social support also affects recovery (<a href="?chapter=27#p376">p376</a>).
 
-<a id="p378"></a>**[p. 378]**
+<a href="?chapter=27#book-table-27-3">Table 27-3</a>
 
-- The postoperative continuation of Table 27-4 addresses delirium/cognition, acute pain, pulmonary complications, falls, nutrition, urinary infection, functional decline, and pressure injury. Repeated practical measures include pain control, a sleep-supportive environment, accessible sensory aids, family participation, early mobilization/PT/OT, minimizing catheters/tethers and inappropriate psychoactive drugs, resuming nutrition/dentures, and pressure/friction/shear reduction (p378).
-- Structured interdisciplinary care connects preoperative optimization to hospital care and recovery, organized around what matters most, mentation, mobility, medication, and multimorbidity/multicomplexity (p378).
+<div hidden data-study-aid="Aging mechanisms favoring aspiration" data-reader-metadata="study-aid"></div>
 
-<a id="p379"></a>**[p. 379]**
+## Preoperative planning
 
-- Comprehensive geriatric assessment integrates medical, psychological, functional, social, and environmental information into a perioperative plan. Postoperative priorities include anticipatory pain treatment, early mobilization, catheter removal, delirium prevention/recognition, and anticoagulation planning (p379).
-- Ask about pain regularly; scheduled or anticipated-needs analgesia can prevent undertreatment. Bed rest promotes deconditioning, orthostasis, respiratory complications, thrombosis, contractures, constipation, and skin injury. If full mobilization is impossible, use upright positioning and physiotherapy (p379).
-- Aim to remove urinary catheters by the next morning; consider intermittent catheterization for retention. Avoid use beyond **48 hours** unless retention cannot otherwise be managed, and do not give prophylactic antibiotics solely for a chronic catheter (p379).
-- Delirium may be subtle and fluctuating; obtain repeated nursing/family observations. Dementia, prior delirium, older age, and cognitive decline increase risk. Start with environmental measures and orientation; medication may occasionally be needed for agitation threatening harm. The chapter reserves closely monitored benzodiazepines for alcohol-withdrawal delirium (p379).
+Start with the indication, the drug and the bleeding risk of the operation. The chapter states that rivaroxaban, dabigatran and apixaban **do not require perioperative bridging** because of their relatively short half-lives. The chapter gives an interruption interval of one to four days for the agents it discusses, individualized to renal function, bleeding risk and thrombotic risk. Confirm hemostasis before resumption (<a href="?chapter=27#p380">p380</a>).
 
-### Postoperative cardiac/cognitive outcomes and anticoagulant management
+A recent DVT or pulmonary embolus changes the timing of elective surgery. Hazzard advises waiting at least **3 months** if possible. When surgery cannot wait, the chapter describes pre- and postoperative LMWH bridging in a warfarin-treated patient with recent VTE while **INR <2.0** (<a href="?chapter=27#p380">p380</a>).
 
-<a id="p380"></a>**[p. 380]**
+> **Current practice: Warfarin bridging.** most warfarin-treated patients do not need perioperative bridging; consider it for selected patients with high thrombotic risk — [AHA/ACC 2024, §7.6](https://doi.org/10.1161/CIR.0000000000001285).
 
-- Postoperative ischemic ECG changes predict events and worse long-term survival. The optimal routine surveillance strategy is undefined; without established CAD the chapter limits surveillance to signs/symptoms of dysfunction. Troponin belongs in suspected-MI evaluation; the significance of an isolated elevation requires context. Consider appropriate medical treatment and opening the infarct-related artery in suitable postoperative patients (p379–380).
-- **Arrhythmias:** look for infection, hypotension, hypokalemia/hypomagnesemia, and hypoxia. Frequent ventricular ectopy/nonsustained VT may affect **more than one-third** of high-risk patients. Prophylactic antiarrhythmics other than beta-blockers are not recommended. Sustained VT warrants cardiology consultation, with or without hemodynamic compromise (p380).
-- Approximately **25%** of older patients develop postoperative AF; age and surgery type predict it. Beta-blocker/amiodarone prophylaxis has shown some benefit but is not routinely recommended in this chapter. Transfusion is reserved for symptoms and possibly Hb **<7 g/dL**; small preoperative IV-iron trials before hip/knee replacement reduced postoperative transfusion requirements (p380).
-- **Cognition:** one study found significant decline in **26%** of patients **>60 years**, **1 week** after abdominal/orthopedic surgery. Older age, more anesthetic exposure, and respiratory/infectious complications were risks. Cardiac bypass can introduce gas/particulate emboli and cerebral infarction; off-pump surgery had less short-term decline (**21% versus 29%**) but similar decline at **6 months (31% versus 38%)**. Include cognitive risk in nonemergency decisions for patients with dementia (p380).
+**Anticoagulation: the regimen and qualifications printed in this edition** (<a href="?chapter=27#p380">p380</a>).
 
-**Anticoagulation: the regimen and qualifications printed in this edition** (p380).
+**Warfarin, usual INR goal 2.0–3.0:** withhold **4 scheduled doses** to allow INR **<1.5** before surgery; a usual INR **>3.0** may need longer. Check INR on the surgery day. If excessive, the book describes vitamin K **1 mg IV** or **2.5 mg orally**, with further reversal within **24 hours**; for urgent reversal it names fresh frozen plasma. When INR is **<2.0**, consider other prophylactic antithrombotic interventions (<a href="?chapter=27#p380">p380</a>).
 
-- **Warfarin, usual INR goal 2.0–3.0:** withhold **4 scheduled doses** to allow INR **<1.5** before surgery; a usual INR **>3.0** may need longer. Check INR on the surgery day. If excessive, the book describes vitamin K **1 mg IV** or **2.5 mg orally**, with further reversal within **24 hours**; for urgent reversal it names fresh frozen plasma. When INR is **<2.0**, consider other prophylactic antithrombotic interventions (p380).
-- **Recent DVT/PE:** elective surgery is best avoided for **at least 3 months** to allow adequate anticoagulation. **If delay is impossible**, the chapter recommends LMWH bridging for warfarin-treated patients before/after surgery while INR is **<2.0**. Stop LMWH **24 hours before** surgery; consider restarting **24–48 hours after**, according to procedure, bleeding risk, and thrombotic risk. This passage is not a blanket bridging rule for everyone taking warfarin (p380).
-- **Dabigatran, rivaroxaban, apixaban:** **no perioperative bridging is required** in this account because of their relatively short half-lives. They can be stopped **1–4 days before** surgery according to renal function and the patient's/procedure's thrombotic and bleeding risks. The official rivaroxaban question tests the absence of a bridging requirement, not a universal interruption interval (p380).
+Clopidogrel inhibits platelets. Enoxaparin is an anticoagulant and cannot replace a P2Y12 inhibitor's effect on stent thrombosis. The older GRS knee-replacement question accepts both a five-to-seven-day interruption after a remote stent and continuation. Which course to take depends on surgical bleeding risk, thrombotic risk and the consequences of delaying surgery. Five to seven days is the expected interval to platelet-function recovery when interruption is chosen. [2024 AHA/ACC perioperative cardiovascular guideline, §7.5 and Table 12](https://doi.org/10.1161/CIR.0000000000001285)
 
-<a id="p381"></a>**[p. 381]**
+<a id="p377"></a>**[<a href="?chapter=27#p377">p. 377</a>]**
 
-- Age alone is an inadequate risk estimate. Individual disease burden, baseline function/cognition, and patient goals guide selection, testing, and recovery planning. Minimally invasive approaches may reduce pain/recovery time and possibly operative risk; outcomes relevant to older adults require further study. The remaining page provides acknowledgments and further reading (p380–381).
+Cancer treatment can worsen preoperative health and add anxiety, increasing delirium/poor-outcome risk. Gather the surgeon's intended outcome, technique-specific risks, and the patient's health goals. Discuss meaningful possibilities explicitly—such as an ostomy and the lifestyle changes it entails (<a href="?chapter=27#p377">p377</a>).
 
-## Recall
+Encourage a companion at visits and coordinate surgeons, medical clinicians, geriatrics, family, and community resources. Communication matters particularly when patients cannot convey history or concerns reliably. Integrated care should begin when surgery is scheduled (<a href="?chapter=27#p377">p377</a>).
 
-**1. Which baseline domains matter beyond chronological age?**
+**ACS NSQIP/AGS preoperative framework, <a href="?chapter=27#book-table-27-4">Table 27-4</a>:** assess what matters most (goals/expectations versus possible outcomes); mentation (cognition, capacity, depression, delirium risks); mobility (frailty, baseline function, falls); medication (accurate list, perioperative adjustment, polypharmacy, alcohol/substance dependence); and multimorbidity/multicomplexity (cardiac assessment, pulmonary risks/prevention, nutrition and intervention when severe risk, family/social support, and appropriately targeted diagnostic tests) (<a href="?chapter=27#p377">p377</a>).
 
-<details><summary>Answer</summary>
+<a id="p378"></a>**[<a href="?chapter=27#p378">p. 378</a>]**
 
-Cognition, functional dependence, mobility/frailty, nutrition, swallowing, comorbidities, social support, and the patient's goals. Age alone should not determine eligibility (p371–374).
+The postoperative continuation of <a href="?chapter=27#book-table-27-4">Table 27-4</a> addresses delirium/cognition, acute pain, pulmonary complications, falls, nutrition, urinary infection, functional decline, and pressure injury. Repeated practical measures include pain control, a sleep-supportive environment, accessible sensory aids, family participation, early mobilization/PT/OT, minimizing catheters/tethers and inappropriate psychoactive drugs, resuming nutrition/dentures, and pressure/friction/shear reduction (<a href="?chapter=27#p378">p378</a>).
 
-</details>
+Structured interdisciplinary care connects preoperative optimization to hospital care and recovery, organized around what matters most, mentation, mobility, medication, and multimorbidity/multicomplexity (<a href="?chapter=27#p378">p378</a>).
 
-**2. What weight-loss thresholds prompt further nutritional evaluation?**
+<a id="p379"></a>**[<a href="?chapter=27#p379">p. 379</a>]**
 
-<details><summary>Answer</summary>
+Comprehensive geriatric assessment integrates medical, psychological, functional, social, and environmental information into a perioperative plan. Postoperative priorities include anticipatory pain treatment, early mobilization, catheter removal, delirium prevention/recognition, and anticoagulation planning (<a href="?chapter=27#p379">p379</a>).
 
-More than 10% over 6 months or more than 5% over 1 month before surgery; screen even patients with obesity (p373).
+Ask about pain regularly; scheduled or anticipated-needs analgesia can prevent undertreatment. Bed rest promotes deconditioning, orthostasis, respiratory complications, thrombosis, contractures, constipation, and skin injury. If full mobilization is impossible, use upright positioning and physiotherapy (<a href="?chapter=27#p379">p379</a>).
 
-</details>
+Delirium may be subtle and fluctuating; obtain repeated nursing/family observations. Dementia, prior delirium, older age, and cognitive decline increase risk. Start with environmental measures and orientation; medication may occasionally be needed for agitation threatening harm. The chapter reserves closely monitored benzodiazepines for alcohol-withdrawal delirium (<a href="?chapter=27#p379">p379</a>).
 
-**3. Does preserved systolic function eliminate MACE risk, and what historical neurologic event predicts MACE?**
+## Postoperative recovery
 
-<details><summary>Answer</summary>
+A hiatal hernia increases the likelihood that gastric contents will reflux. Reduced lower-esophageal sphincter tone, weaker esophageal peristalsis and delayed gastric emptying can add to the risk. A prior stroke can create a second route to aspiration by impairing swallowing and secretion control. Ask about coughing with food or a previous aspiration episode even if the neurologic deficit is subtle. Severe postoperative pain may impair deep breathing and atelectasis is a common pulmonary complication, but neither supplies the structural explanation in the question (<a href="?chapter=27#p375">pp375</a>–<a href="?chapter=27#p376">376</a>).
 
-No: HF with preserved EF increases MACE compared with no HF. A history of stroke predicts perioperative MACE. LVEF below 40% is associated with increased death risk (p375).
+After a period of reduced use, the shoulder capsule can thicken and become stiff. Ask the patient to move the shoulder, then move the relaxed arm yourself. Loss of movement in both examinations, night pain over months and unrevealing imaging favor adhesive capsulitis. A cuff tear more often produces weakness during active movement. Ultrasound or MRI can identify a tear, and radiographs or ultrasound can identify calcification in calcific tendinitis. The question's cited chapter is Harrison 22e, ch. 387, <a href="?chapter=27#ch27-harrison-shoulder">pp. 2974</a>–<a href="?chapter=27#ch27-harrison-shoulder">2975</a>. [Read the related Harrison teaching](?chapter=27#ch27-harrison-shoulder).
 
-</details>
+<a id="p380"></a>**[<a href="?chapter=27#p380">p. 380</a>]**
 
-**4. How do conduction-system aging and previous MI affect arrhythmia risk differently?**
+Postoperative ischemic ECG changes predict events and worse long-term survival. The optimal routine surveillance strategy is undefined; without established CAD the chapter limits surveillance to signs/symptoms of dysfunction. Troponin belongs in suspected-MI evaluation; the significance of an isolated elevation requires context. Consider appropriate medical treatment and opening the infarct-related artery in suitable postoperative patients (<a href="?chapter=27#p379">p379</a>–<a href="?chapter=27#p380">380</a>).
 
-<details><summary>Answer</summary>
+**Arrhythmias:** look for infection, hypotension, hypokalemia/hypomagnesemia, and hypoxia. Frequent ventricular ectopy/nonsustained VT may affect **more than one-third** of high-risk patients. Prophylactic antiarrhythmics other than beta-blockers are not recommended. Sustained VT warrants cardiology consultation, with or without hemodynamic compromise (<a href="?chapter=27#p380">p380</a>).
 
-Conduction aging increases drug-induced bradycardia/high-grade atrioventricular block. Previous MI or low LVEF increases ventricular-tachycardia risk (p375).
+Approximately **25%** of older patients develop postoperative AF; age and surgery type predict it. Beta-blocker/amiodarone prophylaxis has shown some benefit but is not routinely recommended in this chapter. Transfusion is reserved for symptoms and possibly Hb **<7 g/dL**; small preoperative IV-iron trials before hip/knee replacement reduced postoperative transfusion requirements (<a href="?chapter=27#p380">p380</a>).
 
-</details>
+**Cognition:** one study found significant decline in **26%** of patients **>60 years**, **1 week** after abdominal/orthopedic surgery. Older age, more anesthetic exposure, and respiratory/infectious complications were risks. Cardiac bypass can introduce gas/particulate emboli and cerebral infarction; off-pump surgery had less short-term decline (**21% versus 29%**) but similar decline at **6 months (31% versus 38%)**. Include cognitive risk in nonemergency decisions for patients with dementia (<a href="?chapter=27#p380">p380</a>).
 
-**5. Match dermal perfusion, hepatic blood flow, and pulmonary V/Q changes to their surgical consequences.**
+Stop LMWH **24 hours before** surgery; consider restarting **24–48 hours after**, according to procedure, bleeding risk, and thrombotic risk. This passage is not a blanket bridging rule for everyone taking warfarin (<a href="?chapter=27#p380">p380</a>).
 
-<details><summary>Answer</summary>
+<a id="p381"></a>**[<a href="?chapter=27#p381">p. 381</a>]**
 
-Fewer dermal vessels/slower re-epithelialization → slower wound healing. Lower hepatic flow/microsomal oxidation → longer drug half-life. Increased V/Q mismatch/chest-wall stiffness and reduced recoil → greater respiratory-failure risk (Table 27-3, p375).
+Age alone is an inadequate risk estimate. Individual disease burden, baseline function/cognition, and patient goals guide selection, testing, and recovery planning. Minimally invasive approaches may reduce pain/recovery time and possibly operative risk; outcomes relevant to older adults require further study. The remaining page provides acknowledgments and further reading (<a href="?chapter=27#p380">p380</a>–<a href="?chapter=27#p381">381</a>).
 
-</details>
+## Key numbers
 
-**7. Which gastrointestinal changes raise perioperative aspiration risk?**
+- Combining cardiac risk models with frailty measures improves outcome discrimination. CAD and heart failure remain major concerns: an estimated **25–30%** of perioperative deaths are cardiac. Look for occult as well as overt disease (<a href="?chapter=27#p375">p375</a>).
 
-<details><summary>Answer</summary>
+- Postoperative pneumonia in older patients carries **15–20% mortality**. Obtain pulmonary and occupational-exposure history, and explicitly ask about swallowing difficulty or prior aspiration because subtle neurologic deficits may compromise airway protection (<a href="?chapter=27#p375">p375</a>).
 
-Reduced esophageal peristaltic amplitude and lower-sphincter tone, more hiatal hernia, delayed gastric emptying, and reflux. Neurologic disease may also impair swallowing and secretion control. Hiatal hernia is the pertinent official-question answer (p376).
+- Aim to remove urinary catheters by the next morning; consider intermittent catheterization for retention. Avoid use beyond **48 hours** unless retention cannot otherwise be managed, and do not give prophylactic antibiotics solely for a chronic catheter (<a href="?chapter=27#p379">p379</a>).
 
-</details>
+## Israeli context
 
-**10. What belongs in the preoperative ACS/AGS framework?**
+ההנחיות של הר״י מדצמבר 2024 מציעות לאתר בני 75 ומעלה עם אחד או יותר מהמאפיינים המפורטים, ובהם ירידה קוגניטיבית, ירידה בתפקוד או בניידות, ירידה במשקל, הפרעת בליעה או אספירציות, ריבוי מחלות או תרופות, ומועמדות לניתוח גדול. אפשר להיעזר ב־FRAIL או ב־CFS. הכירורג מפנה להערכה גריאטרית כשמזוהה סיכון מוגבר, בהתחשב בהיקף הניתוח ובזמן שנותר עד לביצועו. [הר״י, עמ׳ 4–5, סעיפים 3–4](https://ima-contentfiles.s3.amazonaws.com/Clinic_125patientforsurgery.pdf#page=4)
 
-<details><summary>Answer</summary>
+לקראת האשפוז בודקים את רשימת התרופות ואת הסיכון לדליריום. מסבירים למטופל ולמשפחה מה צפוי ומתאמים עם הצוות איזון כאב, שמירה על מחזור שינה וערות, ניידות מוקדמת, שימוש במשקפיים ובמכשירי שמיעה והוצאת צנתרים כשאין בהם עוד צורך. לפי הממצאים שוקלים פיזיותרפיה מקדימה, מערבים דיאטנית, מתכננים את התמיכה לאחר השחרור ומתעדים אילו תוצאות חשובות למטופל. [הר״י, עמ׳ 5–6, סעיפים 5.1–5.7](https://ima-contentfiles.s3.amazonaws.com/Clinic_125patientforsurgery.pdf#page=5)
 
-Goals/expectations; cognition/capacity, depression and delirium risk; frailty/function/falls; medication/substance review; and cardiac, pulmonary, nutritional, social-support, and focused diagnostic assessment. Coordinate the patient, family, surgery, and medical teams (p377).
+בהדסה עין כרם מבקשים להביא למרפאת טרום ניתוח סיכום מרופא המשפחה עם רשימת תרופות עדכנית ואת תוצאות הבדיקות שכבר התבקשו. במהלך הביקור מתקיימים הערכה של רופא מהמחלקה המנתחת, הערכת מרדים והדרכה סיעודית. הצוות מתאים את התרופות ומזמין בדיקות או ייעוצים נוספים לפי הצורך. [הדסה עין כרם, ״מה צריך להביא לביקור במרפאה?״ ו״מה קורה ביום הביקור במרפאה?״](https://he.hadassah.org.il/anesthesia/pre-operation-enkarem/)
+
+*Hazzard’s Geriatric Medicine and Gerontology, 8e, Chapter 27 (printed <a href="?chapter=27#p371">pages 371</a>–<a href="?chapter=27#p382">382</a>).*
+
+## Test yourself
+
+<details class="study-self-check" data-check-key="27s:recall-2"><summary>What weight-loss thresholds prompt further nutritional evaluation?</summary>
+
+More than 10% over 6 months or more than 5% over 1 month before surgery; screen even patients with obesity (<a href="?chapter=27#p373">p373</a>).
 
 </details>
 
-**11. What reversible causes should be sought for a postoperative arrhythmia?**
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c69b8e39936a3e480b518b24"><span>2020 Q12</span> Cardiac perioperative mortality</a> <a class="study-source-link" href="?chapter=27#p371" aria-label="8e teaching passage, p371">p371</a></p>
 
-<details><summary>Answer</summary>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77f06f1660813e299868c240"><span>December 2021 Q36</span> Creatinine and cardiac risk</a> <a class="study-source-link" href="?chapter=27#p373" aria-label="8e teaching passage, p373">p373</a></p>
 
-Infection, hypotension, hypoxia, hypokalemia, and hypomagnesemia. Sustained VT requires cardiology input even if hemodynamics appear stable (p380).
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-368d1c6ff706583ac2c3f156"><span>June 2023 Q31</span> Stroke history and cardiac risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-</details>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-db66212cedd8f17c624ba1ed"><span>September 2024 Q64</span> Skin perfusion after surgery</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-**12. Does off-pump bypass eliminate later cognitive decline?**
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-18b0ad7f9e472a626caf7cbe"><span>June 2025 Q39</span> Gas exchange and respiratory reserve</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-<details><summary>Answer</summary>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7b6cc300fca7b2feb736490d"><span>June 2022 Q4</span> Preoperative stress imaging</a> <a class="study-source-link" href="?chapter=27#p374" aria-label="8e teaching passage, p374">p374</a></p>
 
-No. The chapter reports lower short-term decline (21% versus 29%) but similar decline at 6 months (31% versus 38%). Cognitive risk belongs in decisions about nonemergency surgery in patients with dementia (p380).
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0bc3f87851eec6c1dbe14f6a"><span>June 2022 Q11</span> When to stop clopidogrel</a> <a class="study-source-link" href="?chapter=27#p378" aria-label="8e teaching passage, p378">p378</a></p>
 
-</details>
+<details class="study-self-check" data-check-key="27s:recall-14"><summary>After DVT/PE, how long should elective surgery ideally wait, and when does the discussed warfarin bridging pathway apply?</summary>
 
-**13. What warfarin interruption and INR checks are printed in the chapter?**
-
-<details><summary>Answer</summary>
-
-For a usual INR goal of 2.0–3.0, withhold 4 scheduled doses, aim for INR <1.5, and measure INR on the surgery day. A usual INR >3.0 may need longer interruption. These are the book's stated parameters (p380).
+At least 3 months. If delay is impossible, the book describes LMWH bridging while INR is <2.0, stopped 24 hours before surgery and considered again 24–48 hours afterward according to procedure, bleeding, and thrombotic risks (<a href="?chapter=27#p380">p380</a>).
 
 </details>
 
-**14. After DVT/PE, how long should elective surgery ideally wait, and when does the discussed warfarin bridging pathway apply?**
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f065ded45c3214b7bc02b061"><span>June 2026 Q66</span> Postoperative aspiration risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-<details><summary>Answer</summary>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-10f0de0773043fed8129feaf"><span>June 2026 Q21</span> Postoperative stiffness</a> <a class="study-source-link" href="?chapter=27#ch27-harrison-shoulder" aria-label="Harrison 22e, ch. 387, pp. 2974–2975, Harrison p2974–2975">Harrison p2974–2975</a></p>
 
-At least 3 months. If delay is impossible, the book describes LMWH bridging while INR is <2.0, stopped 24 hours before surgery and considered again 24–48 hours afterward according to procedure, bleeding, and thrombotic risks (p380).
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-14024c36301bd94117cfdcb6"><span>September 2024 Q14</span> Pausing an anticoagulant</a> <a class="study-source-link" href="?chapter=27#p380" aria-label="exam reference, p380">p380</a></p>
 
-</details>
+<details class="study-self-check" data-check-key="27s:recall-12"><summary>Does off-pump bypass eliminate later cognitive decline?</summary>
 
-**15. Does rivaroxaban require LMWH bridging, and what determines the interruption interval?**
-
-<details><summary>Answer</summary>
-
-No; the same statement covers dabigatran and apixaban. The chapter gives 1–4 days before surgery, individualized to renal function, thrombotic risk, and surgical bleeding risk (p380).
+No. The chapter reports lower short-term decline (21% versus 29%) but similar decline at 6 months (31% versus 38%). Cognitive risk belongs in decisions about nonemergency surgery in patients with dementia (<a href="?chapter=27#p380">p380</a>).
 
 </details>
 
-### Table 27-3 — existing book image
-
-[Hazzard 8e, Table 27-3, p.375](#p375)
-
-[June 2025 Q39](?chapter=bank&q=mcq-18b0ad7f9e472a626caf7cbe)
+<div hidden data-study-flashcards data-reader-metadata="flashcards-entry"></div>
